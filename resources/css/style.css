@@ -1,0 +1,373 @@
+@font-face {
+    font-family: 'caviar_dreamsbold';
+    src: url('../fonts/caviar_dreams_bold-webfont.eot');
+    src: url('../fonts/caviar_dreams_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/caviar_dreams_bold-webfont.woff') format('woff'),
+         url('../fonts/caviar_dreams_bold-webfont.ttf') format('truetype'),
+         url('../fonts/caviar_dreams_bold-webfont.svg#caviar_dreamsbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font: 1.4em/130% "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #3b3c3f;
+    background-color: #f1f1f1;
+    -webkit-font-smoothing: antialiased;
+}
+
+::selection{
+    color: #ffffff;
+    background-color: #ff7878 !important;
+}
+
+::-moz-selection {
+    color: #ffffff;
+    background-color: #ff7878 !important;
+}
+
+a {
+    color: #FC6363;
+    cursor: pointer !important;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #292424;
+    text-decoration: none;
+}
+
+.header {
+    color: #fff;
+    font-size: .9em;
+}
+
+.header a {
+    font-weight: bold;
+    color: #ffffff !important;
+    text-transform: uppercase;
+}
+
+.header a:hover {
+    color: #626262 !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-brand:hover {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav {
+    margin: 0 -15px;
+}
+
+.header .navbar-default {
+    background-color: #FC6363;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0px;
+}
+
+.header .navbar-brand {
+    font-size: 1.2em;
+    background-color: #fff;
+    color: #626262 !important;
+}
+
+.header .navbar-default .navbar-toggle {
+    border: none;
+    outline: 0;
+}
+
+.header .navbar-default .navbar-toggle:hover,
+.header .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.header .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.wrap-all {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -108px;
+}
+
+.icon-spacer {
+    display: inline-block;
+    width: 20px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.title {
+    margin: 20px 14px;
+    padding: 20px 0;
+    font-size: 1.1em;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.panel {
+    box-shadow: 0 5px 5px -3px rgba(0,0,0,0.05);
+    -webkit-box-shadow: 0 5px 5px -3px rgba(0,0,0,0.05);
+    margin-bottom: 30px;
+    border: 1px solid #e7e7e7;
+}
+
+.panel em {
+    color: #777;
+}
+
+.panel .panel-header {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .9em;
+    color: #808080;
+    background: #F1EEEE;
+    border: 1px solid #F0F0F0;
+    border-radius: 3px 3px 0 0;
+}
+
+.padded-btns .btn {
+    margin-bottom: 5px;
+}
+
+.panel .badge {
+    background-color: #FC6363;
+}
+
+.sg-img {
+    width: 120px;
+    float: left;
+    margin-right: 10px;
+    border: 3px solid #fff;
+    
+    box-shadow: 0px 2px 4px #ddd;
+}
+
+.carousel {
+    margin-bottom: 70px;
+}
+
+.carousel.slide-show {
+    margin: 0; 
+    width: 356px;
+}
+
+.carousel .item {
+    height: 500px;
+    overflow: hidden;
+}
+
+.carousel.slide-show .item {
+    height: 270px;
+    overflow: visible;
+}
+
+.carousel .item > img {
+    max-width: none;
+}
+
+.carousel.slide-show .item > img {
+    max-width: 100%;
+}
+
+.carousel .item > img.center-align {
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+}
+
+.carousel.slide-show .item > img.center-align {
+    position: relative;
+    left: 0;
+    margin-left: 0;
+}
+
+.carousel-caption {
+    color: #fff;
+    padding-bottom: 120px;
+}
+
+.carousel-control {
+    background: none !important;
+}
+
+.carousel-control i {
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    font-size: 1.3em;
+    text-shadow: none;
+}
+
+.carousel.slide-show .left.carousel-control i {
+    left: 10px;
+}
+
+.carousel.slide-show .right.carousel-control i {
+    right: 10px;
+}
+
+.blurb {
+    margin: 0px auto 30px;
+    padding: 28px;
+    border-radius: 10px;
+}
+
+.blurb > div {
+    height: 32px;
+    font-size: 2.5em;
+    color: #ff7878;
+}
+
+.blurb p {
+    font-size: 1em;
+    color: #888;
+}
+
+.home-blurbs .blurb p {
+    height: 130px;
+}
+
+.blurb h5 {
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #fff;
+    color: #888;
+    font-weight: bold;
+}
+
+textarea {
+    resize: none;
+    min-height: 70px;
+}
+
+.btn-default {
+    background-color: #ddd;
+    border: none;
+}
+
+.btn-default:hover {
+    background-color: #bbb;
+}
+
+.btn-primary {
+    background-color: #FC6363;
+    border: none;
+    font-weight: 600;
+    font-size: .9em;
+}
+
+.btn-primary:hover {
+    background-color: #CF3F3F;
+}
+
+.btn-block {
+    padding: 10px;
+}
+
+.footer, .push {
+    height: 108px;
+}
+
+.footer {
+    padding: 20px;
+    background: #292424;
+    color: #eee;
+    font-size: .9em;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    color: #ffffff;
+}
+
+.footer .bottom-chevron {
+    display: inline-block;
+    padding-top: 15px;
+}
+
+.fade-ani {
+    display: none;
+}
+
+p:last-child {
+    margin-bottom: 0px;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 970px;
+    }
+
+    .container.reg-container {
+        width: 1170px;
+    }
+}
+
+@media handheld, only screen and (max-width: 991px) {
+    .home-blurbs .blurb p {
+        height: auto;
+    }
+
+    .carousel.slide-show {
+        margin: 0 auto 20px; 
+    }
+}
+
+@media handheld, only screen and (max-width: 768px) {
+    .carousel .item {
+        height: 300px;
+    }
+
+    .carousel-caption {
+        padding-bottom: 20px;
+    }
+
+    .wrap-all {
+        margin: 0 auto -90px;
+    }
+
+    .footer, .push {
+        height: 90px;
+    }
+
+    .footer .bottom-chevron {
+        position: absolute;
+        right: 10px;
+        top: -12px;
+        z-index: 2;
+    }
+}
+
+@media handheld, only screen and (max-width: 480px) {
+    .wrap-all {
+        margin: 0 auto -60px;
+    }
+
+    .footer, .push {
+        height: 60px;
+    }
+
+    .carousel.slide-show {
+        width: 100%;
+    }
+
+    .carousel.slide-show .item {
+        height: 100%;
+    }
+}
