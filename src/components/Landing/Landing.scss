@@ -1,0 +1,241 @@
+@use 'src/_mixins' as *;
+
+.landing {
+	overflow: hidden;
+
+	&::after {
+		border-bottom: 15px solid #1d1d1d;
+		border-left: 15px solid transparent;
+  	border-right: 15px solid transparent;
+		bottom: -1px;
+		content: ' ';
+		height: 0;
+		left: 50%;
+		margin-left: -15px;
+		position: absolute;
+		width: 0;
+		z-index: 3;
+	}
+
+	.content {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		justify-content: center;
+		padding: 60px 0 0 120px;
+		position: relative;
+		max-width: 450px;
+		z-index: 2;
+
+		h1,
+		h2,
+		p {
+			color: #3d3d3d;
+		}
+
+		h1 {
+			font-size: 1.2rem;
+			font-weight: 400;
+			letter-spacing: -0.02vw;
+
+			span {
+				color: #b6dedd;
+			}
+		}
+
+		h2 {
+			font-size: 4.75rem;
+			font-weight: 400;
+			letter-spacing: -0.15vw;
+			line-height: 100%;
+			margin: 0 0 .25em 0;
+
+			span {
+				color: #b6dedd;
+				display: inline-block;
+				margin: .25em 0 0;
+			}
+		}
+
+	  p {
+	  	font-weight: 300;
+	  	line-height: 200%;
+	  }
+
+	  .icon {
+		  box-sizing: border-box;
+	    position: relative;
+	    display: inline-block;
+	    width: 16px;
+	    height: 16px;
+	    border: 5px solid #999;
+	    border-radius: 100%;
+	    top: -1px;
+
+	    &::after {
+		    position: absolute;
+		    top: 100%;
+		    left: 50%;
+		    margin: 1px 0 0 -6px;
+		    display: block;
+		    content: '';
+		    border: 6px solid transparent;
+		    border-top: 10px solid #999;
+		    border-bottom: none;
+			}
+		}
+
+		@include small-screen {
+		  padding: 40px 40px 0;
+
+		  h2 {
+		  	font-size: 2.5rem;
+		  }
+		}
+
+		@include tiny-screen {
+		  padding: 30px 30px 0;
+
+		  h2 {
+		  	font-size: 2rem;
+		  }
+		}
+	}
+
+	.boots {
+		bottom: 50px;
+    height: 550px;
+    overflow: hidden;
+    position: absolute;
+    right: 20px;
+    width: 600px;
+    z-index: 1;
+
+		.boot-code,
+		.boot-compass {
+			align-items: center;
+			display: flex;
+			height: 355px;
+			position: relative;
+			width: 355px;
+
+			svg {
+				fill: rgba(0, 0, 0, .65);
+			}
+
+			svg.boot {
+				width: auto;
+				height: 352px;
+			}
+
+			svg.code,
+			svg.compass {
+				left: 38.5%;
+				position: absolute;
+				width: 22%;
+				z-index: 2;
+			}
+		}
+
+		.boot-code {
+			transform: rotate(-8deg);
+
+			svg.code {
+				top: 23.5%;
+			}
+		}
+
+		.boot-compass {
+			bottom: 0px;
+			position: absolute;
+			right: 0px;
+			transform: rotate(8deg);
+
+			svg.boot {
+				transform: scaleX(-1);
+			}
+
+			svg.compass {
+				top: 21%;
+			}
+		}
+
+		@include medium-screen {
+			.boot-code,
+			.boot-compass {
+			  svg {
+					fill: rgba(0, 0, 0, .05);
+				}
+			}
+		}
+
+		@include small-screen {
+			bottom: 0;
+			height: 100%;
+	    right: 0;
+	    width: 100%;
+
+			.boot-code,
+			.boot-compass {
+				height: 300px;
+				width: 300px;
+			}
+
+			.boot-code {
+				bottom: 225px;
+				position: absolute;
+				right: 125px;
+			}
+
+			.boot-compass {
+				bottom: 50px;
+				right: -40px;
+			}
+		}
+
+		@media screen and (max-width: 385px) {
+			.boot-code,
+			.boot-compass {
+				height: 250px;
+				width: 250px;
+			}
+
+			.boot-code {
+				bottom: 175px;
+				right: 100px;
+			}
+		}
+	}
+}
+
+.theme-dark {
+	background: #1d1d1d;
+
+	.landing {
+		h1,
+		h2,
+		p {
+			color: #eee;
+		}
+
+		.boots {
+			.boot-code,
+			.boot-compass {
+				svg {
+					fill: rgba(255, 255, 255, .7);
+				}
+			}
+		}
+
+		@include medium-screen {
+			.boots {
+				.boot-code,
+				.boot-compass {
+				  svg {
+						fill: rgba(255, 255, 255, .05);
+					}
+				}
+			}
+		}
+	}
+}

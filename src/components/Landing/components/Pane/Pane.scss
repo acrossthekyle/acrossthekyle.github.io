@@ -1,0 +1,290 @@
+@use 'src/_mixins' as *;
+
+.pane-toggle {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 0;
+  opacity: 1;
+  padding: 10px;
+  position: absolute;
+  right: 60px;
+  top: 60px;
+  transition: all .5s ease-in-out;
+  visibility: visible;
+  z-index: 3;
+
+  .pane-toggle-icon {
+    height: 24px;
+    width: 30px;
+
+    .pane-toggle-icon-line {
+      background-color: #1aa4ba;
+      display: block;
+      height: 2px;
+      margin-bottom: 4px;
+      transition: width .3s ease;
+      width: 30px;
+    }
+
+    .pane-toggle-icon-line-left,
+    .pane-toggle-icon-line-right {
+      width: 15px;
+    }
+
+    .pane-toggle-icon-line-right {
+      float: right;
+    }
+  }
+
+  @include has-mouse {
+    &:hover {
+      .pane-toggle-icon-line-left,
+      .pane-toggle-icon-line-right {
+        width: 30px;
+      }
+    }
+  }
+
+  @include small-screen {
+    right: 20px;
+    top: 20px;
+  }
+
+  @include tiny-screen {
+    right: 10px;
+    top: 10px;
+  }
+}
+
+.pane {
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+  right: -575px;
+  top: 0;
+  transition: right 0.3s ease;
+  width: 575px;
+  z-index: 999;
+
+  .pane-backdrop {
+    background: rgba(0, 0, 0, .8);
+    height: 100%;
+    opacity: 0;
+    position: fixed;
+    right: -5000px;
+    top: 0;
+    transition: opacity 0.3s ease-in;
+    width: 100%;
+    z-index: 999;
+
+    .pane-backdrop-close {
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .pane-container {
+    background: #ffffff;
+    height: 100%;
+    position: relative;
+    width: 500px;
+    z-index: 9999;
+
+    .pane-close {
+      background: #ffffff;
+      border: none;
+      border-left: 1px solid #aaa;
+      bottom: 0;
+      cursor: pointer;
+      height: 100%;
+      left: auto;
+      padding: 0;
+      position: absolute;
+      right: -75px;
+      top: 0;
+      width: 75px;
+
+      &::before,
+      &::after {
+        background-color: #585858;
+        border-radius: 2px;
+        content: ' ';
+        height: 24px;
+        left: 35px;
+        margin-top: -12px;
+        position: absolute;
+        top: 50%;
+        width: 3px;
+      }
+
+      &::before {
+        transform: rotate(45deg);
+      }
+
+      &::after {
+        transform: rotate(-45deg);
+      }
+
+      @include has-mouse {
+        &:hover {
+          &::before,
+          &::after {
+            background-color: #ddd;
+          }
+        }
+      }
+    }
+
+    article {
+      padding: 1em 3em;
+      text-align: left;
+
+      h2,
+      h3,
+      p {
+        color: #585858;
+        margin: 0;
+        padding-bottom: .2em;
+      }
+
+      h2 {
+        font-size: 2em;
+        padding: 1em 0 2em;
+      }
+
+      h3 {
+        font-size: .85em;
+        padding: 2em 0 .5em;
+        text-transform: uppercase;
+
+        &:first-of-type {
+          padding-top: 0;
+        }
+      }
+
+      p {
+        font-size: 1em;
+        line-height: 150%;
+        padding-bottom: 1em;
+      }
+
+      a {
+        color: #1aa4ba;
+
+        svg {
+          fill: #1aa4ba;
+        }
+      }
+
+      ul {
+        list-style: none;
+        margin: 0;
+        margin-top: .25em;
+        padding: 0;
+        padding-bottom: 1em;
+
+        li {
+          color: #585858;
+          font-size: 1em;
+          margin: 0;
+          padding: .25em 0;
+        }
+      }
+    }
+  }
+
+  &.active {
+    right: 0;
+
+    .pane-backdrop {
+      opacity: 0.5;
+      right: 0;
+    }
+  }
+
+  @include small-screen {
+    overflow: auto;
+    right: -100%;
+    width: 100%;
+
+    .pane-container {
+      height: auto;
+      min-height: 100%;
+      width: 100%;
+
+      .pane-close {
+        border: none;
+        bottom: auto;
+        height: 25px;
+        left: auto;
+        position: absolute;
+        right: 2em;
+        top: 28px;
+        width: 25px;
+
+        &::before,
+        &::after {
+          left: 50%;
+          margin-left: -12px;
+          margin-top: -12px;
+          top: 50%;
+        }
+      }
+
+      article {
+        padding: 3em;
+      }
+    }
+  }
+}
+
+.theme-dark {
+  .pane-toggle {
+    .pane-toggle-icon {
+      .pane-toggle-icon-line {
+        background-color: #fff;
+      }
+    }
+  }
+
+  .pane {
+    .pane-container {
+      background: #1d1d1d;
+
+      .pane-close {
+        background: #1d1d1d;
+        border-left: 1px solid #333;
+
+        &::before,
+        &::after {
+          background-color: #fff;
+        }
+
+        @include has-mouse {
+          &:hover {
+            &::before,
+            &::after {
+              background-color: #000;
+            }
+          }
+        }
+      }
+
+      article {
+        h2,
+        h3 {
+          color: #fff;
+        }
+
+        p {
+          color: #ccc;
+        }
+      }
+    }
+  }
+}
