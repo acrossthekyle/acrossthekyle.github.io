@@ -238,6 +238,7 @@
 
 			svg {
         fill: #1aa4ba;
+        transition: all 0.5s ease-in-out;
       }
 		}
 
@@ -364,6 +365,14 @@
 					p {
 						color: #fff;
 					}
+				}
+			}
+
+			.gear {
+				color: #fff;
+
+				svg {
+					fill: #fff;
 				}
 			}
 		}
