@@ -7,8 +7,8 @@
   cursor: pointer;
   height: 21px;
   position: absolute;
-  right: 50px;
-  top: 15px;
+  left: 3em;
+  top: 30px;
   transition: all 0.3s;
   width: 38px;
   z-index: 1;
@@ -29,6 +29,7 @@
     color: #585858;
     display: block;
     font-size: .75rem;
+    padding-left: 1rem;
     position: absolute;
     right: -3em;
     text-align: left;
@@ -47,11 +48,5 @@
     .theme-toggle-title {
       color: #dddddd;
     }
-  }
-
-  @include small-screen {
-    left: 3em;
-    right: auto;
-    top: 30px;
   }
 }

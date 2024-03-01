@@ -1,21 +1,23 @@
 import './Pane.scss';
 
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
 
+import { PaneContext } from '../../../../contexts/PaneContext';
 import { classNames } from '../../../../utils';
 import { Components } from '../../../components';
 import { PaneComponents } from './components';
 
 export function Pane() {
-  const [isPaneOpen, setIsPaneOpen] = useState(false);
+  const { isPaneOpen, togglePane } = useContext(PaneContext);
 
   const onToggle = () => {
-    setIsPaneOpen(!isPaneOpen);
+    togglePane(!isPaneOpen);
   };
 
   return (
     <>
       <button
+        aria-hidden={isPaneOpen ? 'true' : 'false'}
         aria-label="open additional information pane"
         className="pane-toggle"
         onClick={onToggle}
@@ -28,9 +30,19 @@ export function Pane() {
         	 <span className="pane-toggle-icon-line pane-toggle-icon-line-right" />
         </div>
       </button>
-      <div className={classNames(['pane', isPaneOpen && 'active'])}>
+      <div
+        aria-hidden={isPaneOpen ? 'false' : 'true'}
+        className={classNames(['pane', isPaneOpen && 'active'])}
+      >
         <div className="pane-container">
           <PaneComponents.ThemeToggle />
+          <button
+            aria-label="close additional information pane"
+            className="pane-close"
+            onClick={onToggle}
+            title="Close additional information pane"
+            type="button"
+          />
           <article>
             <h2>Want To<br />Learn More?</h2>
             <h3>Get in touch</h3>
@@ -76,13 +88,6 @@ export function Pane() {
               </a>
             </p>
           </article>
-          <button
-            aria-label="close additional information pane"
-            className="pane-close"
-            onClick={onToggle}
-            title="Close additional information pane"
-            type="button"
-          />
         </div>
         <div className="pane-backdrop">
           <button

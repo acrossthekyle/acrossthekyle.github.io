@@ -59,13 +59,13 @@
 }
 
 .pane {
+  background: #fff;
   height: 100%;
-  overflow: hidden;
   position: fixed;
-  right: -575px;
+  right: -500px;
   top: 0;
   transition: right 0.3s ease;
-  width: 575px;
+  width: 500px;
   z-index: 999;
 
   .pane-backdrop {
@@ -91,57 +91,13 @@
   .pane-container {
     background: #ffffff;
     height: 100%;
+    overflow: scroll;
     position: relative;
     width: 500px;
     z-index: 9999;
 
-    .pane-close {
-      background: #ffffff;
-      border: none;
-      border-left: 1px solid #aaa;
-      bottom: 0;
-      cursor: pointer;
-      height: 100%;
-      left: auto;
-      padding: 0;
-      position: absolute;
-      right: -75px;
-      top: 0;
-      width: 75px;
-
-      &::before,
-      &::after {
-        background-color: #585858;
-        border-radius: 2px;
-        content: ' ';
-        height: 24px;
-        left: 35px;
-        margin-top: -12px;
-        position: absolute;
-        top: 50%;
-        width: 3px;
-      }
-
-      &::before {
-        transform: rotate(45deg);
-      }
-
-      &::after {
-        transform: rotate(-45deg);
-      }
-
-      @include has-mouse {
-        &:hover {
-          &::before,
-          &::after {
-            background-color: #ddd;
-          }
-        }
-      }
-    }
-
     article {
-      padding: 1em 3em;
+      padding: 3em;
       text-align: left;
 
       h2,
@@ -196,6 +152,48 @@
         }
       }
     }
+
+    .pane-close {
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      height: 25px;
+      padding: 20px;
+      position: absolute;
+      right: 18px;
+      top: 18px;
+      width: 25px;
+
+      &::before,
+      &::after {
+        background-color: #585858;
+        border-radius: 2px;
+        content: ' ';
+        height: 24px;
+        left: 50%;
+        margin-top: -12px;
+        position: absolute;
+        top: 50%;
+        width: 3px;
+      }
+
+      &::before {
+        transform: rotate(45deg);
+      }
+
+      &::after {
+        transform: rotate(-45deg);
+      }
+
+      @include has-mouse {
+        &:hover {
+          &::before,
+          &::after {
+            background-color: #ddd;
+          }
+        }
+      }
+    }
   }
 
   &.active {
@@ -216,29 +214,6 @@
       height: auto;
       min-height: 100%;
       width: 100%;
-
-      .pane-close {
-        border: none;
-        bottom: auto;
-        height: 25px;
-        left: auto;
-        position: absolute;
-        right: 2em;
-        top: 28px;
-        width: 25px;
-
-        &::before,
-        &::after {
-          left: 50%;
-          margin-left: -12px;
-          margin-top: -12px;
-          top: 50%;
-        }
-      }
-
-      article {
-        padding: 3em;
-      }
     }
   }
 }
@@ -256,9 +231,19 @@
     .pane-container {
       background: #1d1d1d;
 
+      article {
+        h2,
+        h3 {
+          color: #fff;
+        }
+
+        p {
+          color: #ccc;
+        }
+      }
+
       .pane-close {
         background: #1d1d1d;
-        border-left: 1px solid #333;
 
         &::before,
         &::after {
@@ -272,17 +257,6 @@
               background-color: #000;
             }
           }
-        }
-      }
-
-      article {
-        h2,
-        h3 {
-          color: #fff;
-        }
-
-        p {
-          color: #ccc;
         }
       }
     }
