@@ -166,7 +166,7 @@
 
       &::before,
       &::after {
-        background-color: #585858;
+        background-color: #1aa4ba;
         border-radius: 2px;
         content: ' ';
         height: 24px;
@@ -174,7 +174,7 @@
         margin-top: -12px;
         position: absolute;
         top: 50%;
-        width: 3px;
+        width: 2px;
       }
 
       &::before {
@@ -189,7 +189,7 @@
         &:hover {
           &::before,
           &::after {
-            background-color: #ddd;
+            background-color: #585858;
           }
         }
       }
@@ -243,18 +243,11 @@
       }
 
       .pane-close {
-        background: #1d1d1d;
-
-        &::before,
-        &::after {
-          background-color: #fff;
-        }
-
         @include has-mouse {
           &:hover {
             &::before,
             &::after {
-              background-color: #000;
+              background-color: #fff;
             }
           }
         }
