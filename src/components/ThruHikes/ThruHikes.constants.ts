@@ -3,6 +3,17 @@ import { ThruHike } from './ThruHikes.types';
 
 export const THRU_HIKES: ThruHike[] = [
   {
+    id: 'introduction',
+    image: '',
+    title: '',
+    years: [],
+    months: [],
+    mountains: null,
+    countries: [],
+    gearLink: '',
+    stats: []
+  },
+  {
     id: 'gr20',
     image: imageUrl('gr20.jpeg', '1695314654901'),
     title: 'Grande Randonnée 20',

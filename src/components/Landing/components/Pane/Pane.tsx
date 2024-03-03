@@ -1,17 +1,21 @@
 import './Pane.scss';
 
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 
-import { PaneContext } from '../../../../contexts/PaneContext';
+import { ScrollContext } from '../../../../contexts/ScrollContext';
 import { classNames } from '../../../../utils';
 import { Components } from '../../../components';
 import { PaneComponents } from './components';
 
 export function Pane() {
-  const { isPaneOpen, togglePane } = useContext(PaneContext);
+  const { toggleCanScroll } = useContext(ScrollContext);
 
-  const onToggle = () => {
-    togglePane(!isPaneOpen);
+  const [isPaneOpen, toggleIsPaneOpen] = useState(false);
+
+  const handleOnToggle = () => {
+    toggleIsPaneOpen(!isPaneOpen);
+
+    toggleCanScroll();
   };
 
   return (
@@ -20,7 +24,7 @@ export function Pane() {
         aria-hidden={isPaneOpen ? 'true' : 'false'}
         aria-label="open additional information pane"
         className="pane-toggle"
-        onClick={onToggle}
+        onClick={handleOnToggle}
         title="Open additional information pane"
         type="button"
       >
@@ -39,7 +43,7 @@ export function Pane() {
           <button
             aria-label="close additional information pane"
             className="pane-close"
-            onClick={onToggle}
+            onClick={handleOnToggle}
             title="Close additional information pane"
             type="button"
           />
@@ -93,7 +97,7 @@ export function Pane() {
           <button
             aria-hidden="true"
             className="pane-backdrop-close"
-            onClick={onToggle}
+            onClick={handleOnToggle}
             type="button"
           />
         </div>
