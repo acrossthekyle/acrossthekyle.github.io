@@ -548,7 +548,12 @@
 					border-right: 1px solid #292929;
 				}
 
-				&:hover,
+				@include has-mouse {
+					&:hover {
+						color: #fff;
+					}
+				}
+
 				&.active {
 					color: #fff;
 				}
