@@ -5,6 +5,7 @@ import { InView } from 'react-intersection-observer';
 
 import { classNames, imageUrl } from '../../utils';
 import { Components } from '../components';
+import { ThruHikesComponents } from './components';
 import { THRU_HIKES } from './ThruHikes.constants';
 import { ThruHike, ThruHikeStat } from './ThruHikes.types';
 
@@ -73,16 +74,9 @@ export function ThruHikes() {
 		    		  	<br />
 		    		  	{thruHike.months.join(' - ') + ' ' + thruHike.years.join(' - ')}
 		    		  </p>
-		    		  <a
-		    		    aria-label={`gear used on ${thruHike.title} hike`}
-		    		    className="gear"
-		    		    href={thruHike.gearLink}
-		    		    target="_blank"
-		    		    rel="noreferrer"
-		    		  >
-		    		  	Gear <Components.Images.External />
-		    		 </a>
 		    		  <div className="image">
+		    		  	<ThruHikesComponents.Images.Maximize />
+		    		  	<ThruHikesComponents.Images.Minimize />
 		    		  	<button
 		    		  		aria-expanded={(selectedImage === index && isFullScreen) ? 'true' : 'false'}
 		    		    	aria-label={`${thruHike.title} hike`}
@@ -92,6 +86,15 @@ export function ThruHikes() {
 		    		  	>
 		    		  		<div aria-hidden="true" style={{ backgroundImage: `url(${thruHike.image})` }} />
 		    		  	</button>
+		    		  	<a
+			    		    aria-label={`gear used on ${thruHike.title} hike`}
+			    		    className="gear"
+			    		    href={thruHike.gearLink}
+			    		    target="_blank"
+			    		    rel="noreferrer"
+			    		  >
+			    		  	Gear <Components.Images.External />
+			    		 </a>
 		    		  </div>
 		    		  <div className="stats">
 			          {thruHike.stats.map((stat: ThruHikeStat) => (

@@ -228,11 +228,11 @@
 			color: #1aa4ba;
 			font-size: .75rem;
 			font-weight: 300;
-			right: 55px;
+			right: 0px;
 			line-height: 150%;
 			position: absolute;
 			text-transform: uppercase;
-			top: 60px;
+			top: -62px;
 			transition: all 0.5s ease-in-out;
 			z-index: 2;
 
@@ -246,10 +246,38 @@
 			border-radius: 5px;
 			height: 100%;
 			opacity: 0;
-			overflow: hidden;
+			position: relative;
 			transition: all 0.5s ease-in-out;
 			width: 100%;
 			z-index: 1;
+
+			.maximize,
+			.minimize {
+				fill: rgba(255, 255, 255, .5);
+				height: 24px;
+				opacity: 0;
+				pointer-events: none;
+				position: absolute;
+				right: 10px;
+				top: 10px;
+				transition: all 0.5s ease-in-out;
+				width: 24px;
+				z-index: 3;
+			}
+
+			@include has-mouse {
+				&:hover {
+					.maximize {
+						opacity: 1;
+					}
+				}
+			}
+
+			@include no-mouse {
+				.maximize {
+					opacity: 1;
+				}
+			}
 
 			button {
 				border: none;
@@ -348,6 +376,14 @@
 			.image {
 				overflow: visible;
 
+				.maximize {
+					display: none;
+				}
+
+				.minimize {
+					opacity: 1;
+				}
+
 				@include has-mouse {
 					&:hover {
 						button {
@@ -369,11 +405,7 @@
 			}
 
 			.gear {
-				color: #fff;
-
-				svg {
-					fill: #fff;
-				}
+				display: none;
 			}
 		}
 
@@ -404,8 +436,14 @@
 			}
 
 			.gear {
-				right: 10px;
+				color: #fff;
+				left: 10px;
+				right: auto;
 				top: 10px;
+
+				svg {
+					fill: #fff;
+				}
 			}
 
 			.stats {
