@@ -1,14 +1,14 @@
 import './ThruHikes.scss';
 
 import React, { useContext, useEffect, useState } from 'react';
-import { InView, useInView } from 'react-intersection-observer';
+import { InView } from 'react-intersection-observer';
 
 import { ScrollContext } from '../../contexts/ScrollContext';
 import { classNames, imageUrl } from '../../utils';
 import { Components } from '../components';
 import { ThruHikesComponents } from './components';
-import { THRU_HIKES } from './ThruHikes.constants';
-import { ThruHike, ThruHikeStat } from './ThruHikes.types';
+import { SECTIONS } from './ThruHikes.constants';
+import { Section, SectionStat } from './ThruHikes.types';
 
 export function ThruHikes() {
 	const { toggleCanScroll } = useContext(ScrollContext);
@@ -47,13 +47,17 @@ export function ThruHikes() {
 	};
 
 	const handleOnJump = (index: number) => {
-		setCurrentIndex(index);
+		const el = document.getElementById('content');
 
-		document.querySelector('.thru-hikes')?.scrollBy({
-			top: 0,
-			left: 300 * (currentIndex > index ? -1 * (currentIndex - index) : index - currentIndex),
-			behavior: 'smooth'
-		});
+		if (el) {
+			el.scrollBy({
+				top: 0,
+				left: hikeWidth * (currentIndex > index ? -1 * (currentIndex - index) : index - currentIndex),
+				behavior: 'smooth'
+			});
+		}
+
+		setCurrentIndex(index);
 	};
 
   return (
@@ -66,17 +70,23 @@ export function ThruHikes() {
   	 	])}
   	  role="listbox"
   	>
-  	  <div className="content">
-	  		{THRU_HIKES.map((thruHike: ThruHike, index: number) => {
+  	  <div className="content" id="content">
+	  		{SECTIONS.map((thruHike: Section, index: number) => {
 	  			if (thruHike.id === 'introduction') {
 	  				return (
 			  			<InView
 			    		  key={thruHike.id}
 			    		  onChange={(inView: boolean) => handleOnInViewChange(inView, index)}
-			    		  threshold={0.9}
+			    		  threshold={0.6}
 			    		>
 			    			{({ inView, ref }) => (
-				    			<div className="introduction" id="introduction" ref={ref} role="option">
+				    			<div
+				    			  aria-selected={currentIndex === index ? 'true' : 'false'}
+				    			  className="introduction"
+				    			  id="introduction"
+				    			  ref={ref}
+				    			  role="option"
+				    			>
 						      	<div className="images">
 								      <article
 							      	  className="horizontal"
@@ -101,9 +111,6 @@ export function ThruHikes() {
 							      	  the Himalayas in Nepal.
 							      	</p>
 							      </div>
-							      <div className="scroll-helper">
-							        Scroll/swipe <ThruHikesComponents.Images.ArrowRight />
-							      </div>
 						      </div>
 					      )}
 			    		</InView>
@@ -114,14 +121,14 @@ export function ThruHikes() {
 		    		<InView
 		    		  key={thruHike.id}
 		    		  onChange={(inView: boolean) => handleOnInViewChange(inView, index)}
-		    		  threshold={0.9}
+		    		  threshold={0.6}
 		    		>
 		    			{({ inView, ref }) => (
 		    				<div
+		    					aria-selected={currentIndex === index ? 'true' : 'false'}
 		    					className={classNames([
 				    		  	'hike',
-				    		  	isFullScreen && 'zoomed',
-				    		  	((selectedImage === index && isFullScreen) || inView) && 'in-view'
+				    		  	selectedImage === index && isFullScreen && 'zoomed'
 				    		  ])}
 				    		  ref={ref}
 				    		  role="option"
@@ -145,7 +152,7 @@ export function ThruHikes() {
 					    		  	Gear List <Components.Images.External />
 					    		  </a>
 				    		  </div>
-				    		  <span aria-hidden="true" className="number">{index} of {THRU_HIKES.length - 1}</span>
+				    		  <span aria-hidden="true" className="number">{index} of {SECTIONS.length - 1}</span>
 				    		  <h3 className="title">{thruHike.title}</h3>
 				    		  <div className="image">
 				    		  	<button
@@ -166,7 +173,7 @@ export function ThruHikes() {
 				    		  	<ThruHikesComponents.Images.Minimize />
 				    		  </div>
 				    		  <div className="stats">
-					          {thruHike.stats.map((stat: ThruHikeStat) => (
+					          {thruHike.stats.map((stat: SectionStat) => (
 					            <div className="stat" key={stat.title}>
 					              <h4>{stat.title}</h4>
 					              <p>{stat.value}</p>
@@ -180,19 +187,23 @@ export function ThruHikes() {
 	  		})}
   		</div>
   		<div className="dots">
-				<div className="centered">
-	    		{THRU_HIKES.map((thruHike: ThruHike, index: number) => (
-		    		<button
-		    			aria-label={`go to ${thruHike.title}`}
-		    		  className={classNames([
-		    		  	'dot',
-		    		  	currentIndex === index && 'active'
-		    		 	])}
-		    		  key={thruHike.id}
-		    		  onClick={() => handleOnJump(index)}
-		    		  title={thruHike.title}
-		    		/>
-	    		))}
+  		  <div className="scrollable">
+					<div className="centered">
+		    		{SECTIONS.map((thruHike: Section, index: number) => (
+			    		<button
+			    			aria-label={`go to ${thruHike.title}`}
+			    		  className={classNames([
+			    		  	'dot',
+			    		  	currentIndex === index && 'active'
+			    		 	])}
+			    		  key={thruHike.id}
+			    		  onClick={() => handleOnJump(index)}
+			    		  title={thruHike.title}
+			    		>
+			    			{thruHike.title}
+			    		</button>
+		    		))}
+	    		</div>
     		</div>
     	</div>
     </section>

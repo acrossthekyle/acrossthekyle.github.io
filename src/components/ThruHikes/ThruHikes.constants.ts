@@ -1,11 +1,11 @@
 import { imageUrl } from '../../utils';
-import { ThruHike } from './ThruHikes.types';
+import { Section } from './ThruHikes.types';
 
-export const THRU_HIKES: ThruHike[] = [
+export const SECTIONS: Section[] = [
   {
     id: 'introduction',
     image: '',
-    title: '',
+    title: 'Hikes',
     years: [],
     months: [],
     mountains: null,

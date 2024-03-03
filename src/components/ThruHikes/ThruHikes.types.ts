@@ -1,4 +1,4 @@
-export type ThruHike = {
+export type Section = {
   id: string;
   image: string;
   title: string;
@@ -7,10 +7,10 @@ export type ThruHike = {
   years: string[];
   months: string[];
   gearLink: string;
-  stats: ThruHikeStat[];
+  stats: SectionStat[];
 };
 
-export type ThruHikeStat = {
+export type SectionStat = {
   title: string;
   value: string;
 };
