@@ -37,7 +37,9 @@ export function ThruHikes() {
 
 		toggleIsFullScreen(!isFullScreen);
 
-		toggleCanScroll();
+		if (window.innerWidth > 768) {
+			toggleCanScroll();
+		}
 	};
 
 	const handleOnInViewChange = (inView: boolean, index: number) => {

@@ -563,10 +563,18 @@
 	&.is-fullscreen {
 		.content {
 			height: 100vh;
+
+			@include small-screen {
+				height: calc(100vh - 30px);
+			}
 		}
 
 		.dots {
 			opacity: 0;
+
+			@include small-screen {
+				opacity: 1;
+			}
 		}
 	}
 }
