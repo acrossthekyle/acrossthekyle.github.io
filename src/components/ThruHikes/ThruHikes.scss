@@ -1,5 +1,73 @@
 @use 'src/_mixins' as *;
 
+@mixin zoomed {
+	flex: 1 0 100vw;
+	padding: 0px;
+
+	.number,
+	.title,
+	.context {
+		color: #fff;
+	}
+
+	.context {
+		right: 80px;
+
+		p {
+			span {
+				color: #fff;
+			}
+		}
+	}
+
+	.image {
+		overflow: visible;
+
+		button {
+			border-radius: 0;
+
+			div {
+				border-radius: 0;
+			}
+		}
+
+		.maximize {
+			display: none;
+		}
+
+		.minimize {
+			opacity: 1;
+		}
+
+		@include has-mouse {
+			&:hover {
+				button {
+					div {
+						transform: scale(1);
+					}
+				}
+			}
+		}
+	}
+
+	.stats {
+		.stat {
+			h4,
+			p {
+				color: #fff;
+			}
+		}
+	}
+
+	.gear {
+		color: #fff;
+
+		svg {
+			fill: #fff;
+		}
+	}
+}
+
 .thru-hikes {
 	background: #1d1d1d;
 	display: flex;
@@ -196,11 +264,9 @@
 	}
 
 	.hike {
-		align-items: center;
 		border-right: 1px solid #292929;
 		flex: 1 0 calc(60vw - 200px);
-		justify-content: center;
-		padding: 150px 55px 150px 120px;
+		padding: 150px 40px 150px 110px;
 		transition: all 0.5s ease-in-out;
 
 		&:last-child {
@@ -237,21 +303,30 @@
 		}
 
 		.context {
+			align-items: flex-end;
 			color: #888;
+			display: flex;
+			flex-direction: row;
 			font-size: .75rem;
 			font-weight: 300;
+			justify-content: space-between;
 			left: 40px;
 			line-height: 150%;
 			position: absolute;
+			right: 40px;
 			text-transform: uppercase;
 			top: 60px;
 			transition: all 0.5s ease-in-out;
 			z-index: 2;
 
-			span {
-				color: #bbb;
-				font-weight: 400;
-				transition: all 0.5s ease-in-out;
+			p {
+				margin: 0;
+
+				span {
+					color: #bbb;
+					font-weight: 400;
+					transition: all 0.5s ease-in-out;
+				}
 			}
 		}
 
@@ -259,17 +334,13 @@
 			color: #1aa4ba;
 			font-size: .75rem;
 			font-weight: 300;
-			right: 0px;
 			line-height: 150%;
-			position: absolute;
 			text-transform: uppercase;
-			top: -62px;
 			transition: all 0.5s ease-in-out;
-			z-index: 2;
 
 			svg {
         fill: #1aa4ba;
-        transition: all 0.5s ease-in-out;
+        transition: fill 0.5s ease-in-out;
       }
 		}
 
@@ -294,6 +365,11 @@
 				transition: all 0.5s ease-in-out;
 				width: 24px;
 				z-index: 3;
+			}
+
+			.minimize {
+				right: 40px;
+				top: 75px;
 			}
 
 			@include has-mouse {
@@ -326,7 +402,6 @@
 				  background-size: cover;
 				  border-radius: 5px;
 				  height: 100%;
-				  overflow: hidden;
 					transition: all 0.5s ease-in-out;
 					width: 100%;
 				}
@@ -358,7 +433,7 @@
 			justify-content: space-between;
 			line-height: 150%;
 			position: absolute;
-			right: 55px;
+			right: 40px;
 			text-transform: uppercase;
 			transition: all 0.5s ease-in-out;
 			width: calc(60vw - 200px);
@@ -389,55 +464,7 @@
 		}
 
 		&.zoomed {
-			flex: 1 0 100vw;
-			padding: 0px;
-
-			.number,
-			.title,
-			.context {
-				color: #fff;
-			}
-
-			.context {
-				span {
-					color: #fff;
-				}
-			}
-
-			.image {
-				overflow: visible;
-
-				.maximize {
-					display: none;
-				}
-
-				.minimize {
-					opacity: 1;
-				}
-
-				@include has-mouse {
-					&:hover {
-						button {
-							div {
-								transform: scale(1);
-							}
-						}
-					}
-				}
-			}
-
-			.stats {
-				.stat {
-					h4,
-					p {
-						color: #fff;
-					}
-				}
-			}
-
-			.gear {
-				display: none;
-			}
+			@include zoomed
 		}
 
 		@include medium-screen {
@@ -458,28 +485,21 @@
 			}
 
 			.number {
-				bottom: 40px;
+				bottom: 30px;
 				left: 30px;
 			}
 
 			.context {
+				align-items: flex-start;
+				flex-direction: column;
+				justify-content: unset;
 				top: 20px;
 			}
 
-			.gear {
-				color: #fff;
-				left: 10px;
-				right: auto;
-				top: 10px;
-
-				svg {
-					fill: #fff;
-				}
-			}
-
 			.stats {
-				bottom: 40px;
+				bottom: 20px;
 				display: block;
+				right: 20px;
 				width: calc(100vw - 200px);
 
 				.stat {
@@ -492,14 +512,19 @@
 				}
 			}
 
-			&.zoomed {
-				.number {
-					bottom: 30px;
-				}
+			@include zoomed;
 
-				.stats {
-					bottom: 20px;
-					right: 20px;
+			.maximize,
+			.minimize {
+				display: none;
+			}
+
+			.gear {
+				color: #fff;
+				margin-top: 20px;
+
+				svg {
+					fill: #fff;
 				}
 			}
 		}

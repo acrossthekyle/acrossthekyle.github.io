@@ -67,19 +67,28 @@ export function ThruHikes() {
 		    		  ref={ref}
 		    		  role="option"
 		    		>
+		    		  <div className="context">
+		    		    <p>
+			    		  	<span>
+				    		  	{(thruHike.mountains ?? []).join('/')}
+				    		  	{thruHike.mountains ? ', ' : ''}{thruHike.countries.join('/')}
+			    		  	</span>
+			    		  	<br />
+			    		  	{thruHike.months.join(' - ') + ' ' + thruHike.years.join(' - ')}
+		    		  	</p>
+		    		  	<a
+			    		    aria-label={`gear used on ${thruHike.title} hike`}
+			    		    className="gear"
+			    		    href={thruHike.gearLink}
+			    		    target="_blank"
+			    		    rel="noreferrer"
+			    		  >
+			    		  	Gear List <Components.Images.External />
+			    		  </a>
+		    		  </div>
 		    		  <span aria-hidden="true" className="number">{index + 1}.</span>
 		    		  <h3 className="title">{thruHike.title}</h3>
-		    		  <p className="context">
-		    		  	<span>
-			    		  	{(thruHike.mountains ?? []).join('/')}
-			    		  	{thruHike.mountains ? ', ' : ''}{thruHike.countries.join('/')}
-		    		  	</span>
-		    		  	<br />
-		    		  	{thruHike.months.join(' - ') + ' ' + thruHike.years.join(' - ')}
-		    		  </p>
 		    		  <div className="image">
-		    		  	<ThruHikesComponents.Images.Maximize />
-		    		  	<ThruHikesComponents.Images.Minimize />
 		    		  	<button
 		    		  		aria-expanded={(selectedImage === index && isFullScreen) ? 'true' : 'false'}
 		    		    	aria-label={`${thruHike.title} hike`}
@@ -89,15 +98,8 @@ export function ThruHikes() {
 		    		  	>
 		    		  		<div aria-hidden="true" style={{ backgroundImage: `url(${thruHike.image})` }} />
 		    		  	</button>
-		    		  	<a
-			    		    aria-label={`gear used on ${thruHike.title} hike`}
-			    		    className="gear"
-			    		    href={thruHike.gearLink}
-			    		    target="_blank"
-			    		    rel="noreferrer"
-			    		  >
-			    		  	Gear <Components.Images.External />
-			    		 </a>
+		    		  	<ThruHikesComponents.Images.Maximize />
+		    		  	<ThruHikesComponents.Images.Minimize />
 		    		  </div>
 		    		  <div className="stats">
 			          {thruHike.stats.map((stat: ThruHikeStat) => (

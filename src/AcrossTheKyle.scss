@@ -73,9 +73,12 @@ main {
   }
 
   a {
+    align-items: center;
+    display: flex;
+
     svg {
       height: 11px;
-      margin: 0 3px 0 5px;
+      margin-left: 5px;
       width: 11px;
     }
   }
