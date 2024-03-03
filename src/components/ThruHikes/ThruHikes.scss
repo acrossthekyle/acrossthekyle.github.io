@@ -499,6 +499,12 @@
 				top: 20px;
 			}
 
+			.image {
+				button {
+					cursor: unset;
+				}
+			}
+
 			.stats {
 				bottom: 20px;
 				display: block;
