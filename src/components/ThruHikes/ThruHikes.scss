@@ -292,7 +292,7 @@
 		}
 
 		.title {
-			bottom: 180px;
+			bottom: 150px;
 			color: #ccc;
 			font-size: 1.75rem;
 			font-weight: 300;
@@ -477,7 +477,10 @@
 
 		@include small-screen {
 			flex: 1 0 calc(100vw - 200px);
-			padding: 100px 40px 40px 80px;
+
+			.title {
+				bottom: 75px;
+			}
 
 			.title,
 			.context {
@@ -486,7 +489,7 @@
 
 			.number {
 				bottom: 30px;
-				left: 30px;
+				left: 35px;
 			}
 
 			.context {
