@@ -50,6 +50,9 @@ export function ThruHikes() {
 	      	  the Himalayas in Nepal.
 	      	</p>
 	      </div>
+	      <div className="scroll-helper">
+	        Scroll/swipe <ThruHikesComponents.Images.ArrowRight />
+	      </div>
       </div>
 
     	{THRU_HIKES.map((thruHike: ThruHike, index: number) => (

@@ -147,6 +147,7 @@
 				@include small-screen {
 					&.horizontal {
 						margin-right: 0px;
+						margin-top: 40px;
 						z-index: 2;
 					}
 
@@ -160,6 +161,36 @@
 						margin-top: 30px;
 					}
 				}
+	  	}
+	  }
+
+	  .scroll-helper {
+	  	align-items: center;
+	  	bottom: 10px;
+	  	color: #444;
+	  	display: flex;
+	  	font-size: .75rem;
+	  	position: absolute;
+	  	right: 8px;
+	  	text-transform: uppercase;
+
+	  	.arrow-right {
+	  		fill: #444;
+	  		height: 15px;
+	  		margin-left: 5px;
+	  		width: auto;
+	  	}
+
+	  	@include small-screen {
+	  		left: 40px;
+	  		right: auto;
+	  	}
+
+	  	@include tiny-screen {
+	  		bottom: 2px;
+	  		font-size: .65rem;
+	  		left: 30px;
+	  		right: auto;
 	  	}
 	  }
 	}
