@@ -468,10 +468,10 @@
 		}
 
 		@include medium-screen {
-			flex: 1 0 calc(92vw - 200px);
+			flex: 1 0 calc(70vw - 200px);
 
 			.stats {
-				width: calc(92vw - 200px);
+				width: calc(70vw - 200px);
 			}
 		}
 
