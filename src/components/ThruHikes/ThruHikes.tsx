@@ -86,7 +86,7 @@ export function ThruHikes() {
 			    		  	Gear List <Components.Images.External />
 			    		  </a>
 		    		  </div>
-		    		  <span aria-hidden="true" className="number">{index + 1}.</span>
+		    		  <span aria-hidden="true" className="number">{index + 1} of {THRU_HIKES.length}</span>
 		    		  <h3 className="title">{thruHike.title}</h3>
 		    		  <div className="image">
 		    		  	<button
