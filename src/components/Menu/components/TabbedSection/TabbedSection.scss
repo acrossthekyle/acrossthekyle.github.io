@@ -1,0 +1,162 @@
+@use 'src/_mixins' as *;
+
+$tabbed-section-h3-text-color-dark: #eeeeee;
+$tabbed-section-h3-text-color-light: #1d1d1d;
+$tabbed-section-h3-text-color: var(--tabbed-section-h3-text-color);
+
+$tabbed-section-h4-text-color-dark: #cccccc;
+$tabbed-section-h4-text-color-light: #6d6d6d;
+$tabbed-section-h4-text-color: var(--tabbed-section-h4-text-color);
+
+$tabbed-section-p-text-color-dark: #eeeeee;
+$tabbed-section-p-text-color-light: #1d1d1d;
+$tabbed-section-p-text-color: var(--tabbed-section-p-text-color);
+
+$tabbed-section-ul-li-text-color-dark: #eeeeee;
+$tabbed-section-ul-li-text-color-light: #3d3d3d;
+$tabbed-section-ul-li-text-color: var(--tabbed-section-ul-li-text-color);
+
+$tabbed-section-a-text-color-dark: #1aa4ba;
+$tabbed-section-a-text-color-light: #1aa4ba;
+$tabbed-section-a-text-color: var(--tabbed-section-a-text-color);
+
+$tabbed-section-figcaption-text-color-dark: #888888;
+$tabbed-section-figcaption-text-color-light: #888888;
+$tabbed-section-figcaption-text-color: var(--tabbed-section-figcaption-text-color);
+
+.theme-light {
+  --tabbed-section-h3-text-color: #{$tabbed-section-h3-text-color-light};
+  --tabbed-section-h4-text-color: #{$tabbed-section-h4-text-color-light};
+  --tabbed-section-p-text-color: #{$tabbed-section-p-text-color-light};
+  --tabbed-section-ul-li-text-color: #{$tabbed-section-ul-li-text-color-light};
+  --tabbed-section-a-text-color: #{$tabbed-section-a-text-color-light};
+  --tabbed-section-figcaption-text-color: #{$tabbed-section-figcaption-text-color-light};
+}
+
+.theme-dark {
+  --tabbed-section-h3-text-color: #{$tabbed-section-h3-text-color-dark};
+  --tabbed-section-h4-text-color: #{$tabbed-section-h4-text-color-dark};
+  --tabbed-section-p-text-color: #{$tabbed-section-p-text-color-dark};
+  --tabbed-section-ul-li-text-color: #{$tabbed-section-ul-li-text-color-dark};
+  --tabbed-section-a-text-color: #{$tabbed-section-a-text-color-dark};
+  --tabbed-section-figcaption-text-color: #{$tabbed-section-figcaption-text-color-dark};
+}
+
+.tabbed-section {
+	position: relative;
+	z-index: 9002;
+
+	h3 {
+		color: $tabbed-section-h3-text-color;
+		font-size: .8rem;
+		margin: 0 0 1rem;
+		text-transform: uppercase;
+	}
+
+	h4 {
+		color: $tabbed-section-h4-text-color;
+		font-size: .7rem;
+		letter-spacing: 1px;
+		line-height: 100%;
+		margin: 1.25rem 0 .5rem;
+   	padding: 0;
+		text-transform: uppercase;
+
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+
+	p {
+		color: $tabbed-section-p-text-color;
+		line-height: 24px;
+		margin: 0 0 1rem;
+    padding: 0;
+
+		&:first-of-type {
+			margin-top: 0;
+		}
+	}
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		li {
+			color: $tabbed-section-ul-li-text-color;
+			margin-bottom: .25rem;
+		}
+	}
+
+	hr {
+		margin: 2rem 0;
+		padding: 0;
+		width: 40px;
+	}
+
+	a,
+	button {
+		background: transparent;
+		border: none;
+		color: $tabbed-section-a-text-color;
+		cursor: pointer;
+		display: inline-block;
+		line-height: 24px;
+		padding: 0;
+		text-decoration: none;
+
+		&::after {
+			background: $tabbed-section-a-text-color;
+			content: ' ';
+			display: block;
+			height: 2px;
+			position: relative;
+			transition: 0.5s all cubic-bezier(.87, -.41, .19, 1.44);
+			width: 0%;
+		}
+
+		svg {
+			fill: $tabbed-section-a-text-color;
+		}
+
+		@include has-mouse {
+			&:hover {
+				&::after {
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	figure {
+		background: transparent;
+		background-position: top center;
+		background-repeat: no-repeat;
+	  background-size: cover;
+	  border-radius: 5px;
+	  height: 180px;
+	  margin: 0;
+	  margin-bottom: 50px;
+	  padding: 0;
+	  position: relative;
+
+	  figcaption {
+			bottom: -55px;
+			color: $tabbed-section-figcaption-text-color;
+			font-size: .75rem;
+			font-weight: 300;
+			height: 50px;
+			position: absolute;
+			text-align: right;
+			text-transform: uppercase;
+			width: 100%;
+		}
+	}
+
+	@include small-screen {
+		height: calc(100% - 200px);
+  	padding-bottom: 120px;
+  	padding-top: 30px;
+  }
+}

@@ -1,0 +1,113 @@
+@use 'src/_mixins' as *;
+
+$item-before-background-color-dark: rgba(255, 255, 255, 0.75);
+$item-before-background-color-light: rgba(255, 255, 255, 0.75);
+$item-before-background-color: var(--item-before-background-color);
+
+$item-before-hover-background-color-dark: rgba(255, 255, 255, 1);
+$item-before-hover-background-color-light: rgba(255, 255, 255, 1);
+$item-before-hover-background-color: var(--item-before-hover-background-color);
+
+.theme-light {
+  --item-before-background-color: #{$item-before-background-color-light};
+  --item-before-hover-background-color: #{$item-before-hover-background-color-light};
+}
+
+.theme-dark {
+  --item-before-background-color: #{$item-before-background-color-dark};
+  --item-before-hover-background-color: #{$item-before-hover-background-color-dark};
+}
+
+#main:has(#trips-details-input:checked) {
+  overflow: hidden;
+
+  #trips-navigation {
+    right: calc(50% + 40px);
+
+    @include small-screen {
+      right: calc(100% + 40px);
+    }
+  }
+}
+
+#trips-navigation {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-evenly;
+  margin-top: -100px;
+  opacity: 1;
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  transition: all .5s ease-in-out;
+  width: 50px;
+  z-index: 1001;
+
+  button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: block;
+    padding: 10px 0;
+    position: relative;
+    transition: all .3s ease-in-out;
+    width: 15px;
+
+    &::before {
+      background: $item-before-background-color;
+      border-radius: 5px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, .4);
+      content: ' ';
+      display: block;
+      height: 3px;
+      width: 15px;
+    }
+
+    span {
+      color: #ffffff;
+      display: block;
+      font-size: .5rem;
+      opacity: 0;
+      pointer-events: none;
+      position: absolute;
+      right: 35px;
+      text-align: right;
+      text-transform: uppercase;
+      top: 7px;
+      width: 200px;
+    }
+
+    &.active {
+      transform: scale(1.5);
+
+      span {
+        display: none;
+      }
+
+      &::before {
+        transform: scale(1.5);
+      }
+    }
+
+    @include has-mouse {
+      &:hover {
+        transform: scale(1.5);
+
+        span {
+          opacity: 1;
+        }
+
+        &::before {
+          background: $item-before-hover-background-color;
+          transform: scale(1.5);
+        }
+      }
+    }
+  }
+
+  @include small-screen {
+    display: none;
+  }
+}

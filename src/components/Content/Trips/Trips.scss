@@ -1,0 +1,36 @@
+@use 'src/_mixins' as *;
+
+#main:has(#trips-details-input:checked) {
+  overflow: hidden;
+
+  #trips {
+    right: 50%;
+
+    @include small-screen {
+      right: 100%;
+    }
+  }
+}
+
+#trips {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: relative;
+  right: 0;
+  transition: all .5s ease-in-out;
+  width: 100%;
+}
+
+main {
+  &.no-snap {
+    #trips {
+      scroll-behavior: auto;
+      scroll-snap-type: none;
+    }
+  }
+}

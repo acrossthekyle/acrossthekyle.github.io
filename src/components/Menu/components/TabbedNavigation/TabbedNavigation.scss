@@ -1,0 +1,112 @@
+@use 'src/_mixins' as *;
+
+$item-accent-color-dark: #37ccc9;
+$item-accent-color-light: #37ccc9;
+$item-accent-color: var(--item-accent-color);
+
+$item-text-color-dark: #eeeeee;
+$item-text-color-light: #3d3d3d;
+$item-text-color: var(--item-text-color);
+
+.theme-light {
+  --item-accent-color: #{$item-accent-color-light};
+  --item-text-color: #{$item-text-color-light};
+}
+
+.theme-dark {
+  --item-accent-color: #{$item-accent-color-dark};
+  --item-text-color: #{$item-text-color-dark};
+}
+
+#tabbed-navigation {
+	align-items: flex-start;
+	display: flex;
+	height: 80px;
+	margin-top: 30px;
+	position: relative;
+	z-index: 9002;
+
+	@include has-mouse {
+		&:hover {
+			button {
+				&.active {
+					&::after {
+						width: 0%;
+					}
+				}
+			}
+		}
+	}
+
+	button {
+		background: transparent;
+		border: none;
+		color: $item-text-color;
+		cursor: pointer;
+		font-size: .7rem;
+		font-weight: bold;
+		letter-spacing: 1px;
+		line-height: 30px;
+		margin-right: 35px;
+		padding: 0;
+		text-transform: uppercase;
+		transition: all .5s ease-in-out;
+
+		&:last-child {
+			margin-right: 0;
+		}
+
+		&::after {
+			background: $item-accent-color;
+			content: ' ';
+			display: block;
+			height: 2px;
+			position: relative;
+			transition: 0.5s all cubic-bezier(.87, -.41, .19, 1.44);
+			width: 0%;
+		}
+
+		@include has-mouse {
+			&:hover {
+				color: $item-accent-color;
+
+				&::after {
+					width: 100%;
+				}
+			}
+		}
+
+		&.active {
+			color: $item-accent-color;
+
+			&::after {
+				width: 100%;
+			}
+
+			@include has-mouse {
+				&:hover {
+					color: $item-accent-color;
+
+					&::after {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+
+	@include small-screen {
+		border-bottom: 1px solid #343434;
+		flex-direction: column;
+		height: 135px;
+
+		button {
+			margin-bottom: 10px;
+			margin-right: 0;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+}

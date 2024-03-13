@@ -1,0 +1,165 @@
+@use 'src/_mixins' as *;
+
+$menu-toggle-line-background-color-dark: #ffffff;
+$menu-toggle-line-background-color-light: #39CCC7;
+$menu-toggle-line-background-color: var(--menu-toggle-line-background-color);
+
+$menu-background-dark: #1d1d1d;
+$menu-background-light: #ffffff;
+$menu-background: var(--menu-background);
+
+$menu-close-color-dark: #39CCC7;
+$menu-close-color-light: #39CCC7;
+$menu-close-color: var(--menu-close-color);
+
+.theme-light {
+  --menu-toggle-line-background-color: #{$menu-toggle-line-background-color-light};
+  --menu-background: #{$menu-background-light};
+  --menu-close-color: #{$menu-close-color-light};
+}
+
+.theme-dark {
+  --menu-toggle-line-background-color: #{$menu-toggle-line-background-color-dark};
+  --menu-background: #{$menu-background-dark};
+  --menu-close-color: #{$menu-close-color-dark};
+}
+
+#main:has(#trips-details-input:checked) {
+  #menu-open {
+  	left: -100%;
+  }
+}
+
+#menu-close {
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	padding: 20px;
+	padding-left: 0;
+	position: relative;
+	width: 40px;
+	z-index: 9001;
+
+	&::before {
+    background: $menu-close-color;
+    border-radius: 3px;
+    content: ' ';
+    display: block;
+    height: 3px;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 20px;
+  }
+
+  &::after {
+    background: $menu-close-color;
+    border-radius: 3px;
+    content: ' ';
+    display: block;
+    height: 3px;
+    position: absolute;
+    transform: rotate(-45deg);
+    width: 20px;
+  }
+}
+
+#menu-open {
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	left: 20px;
+	padding: 10px;
+	position: fixed;
+	top: 20px;
+	transition: all .5s ease-in-out;
+	z-index: 9999;
+
+	.menu-toggle-line {
+		background-color: #ffffff;
+		border-radius: 2px;
+    display: block;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    transition: all .3s ease;
+    width: 25px;
+
+    &.bottom {
+      float: right;
+    }
+	}
+
+	&.pushed {
+		left: calc(50% + 20px);
+		z-index: 2001;
+	}
+
+  @include small-screen {
+  	left: 10px;
+
+  	&.pushed {
+			left: calc(100% + 10px);
+		}
+  }
+}
+
+#menu {
+	background: $menu-background;
+	position: fixed;
+	height: 100%;
+	left: -50%;
+	top: 0;
+	transition: all .5s ease-in-out;
+	width: 50%;
+	z-index: 2001;
+
+	#menu-content {
+		background: $menu-background;
+		height: 100%;
+		overflow: scroll;
+		padding: 30px;
+		position: relative;
+		z-index: 2001;
+
+		#menu-header {
+			align-items: center;
+	    display: flex;
+	    height: 30px;
+	    justify-content: space-between;
+	    margin-bottom: 25px;
+		}
+	}
+
+	&::before {
+    background: rgba(0, 0, 0, 0);
+    content: ' ';
+    inset: 0;
+    left: -100%;
+    position: fixed;
+    transition: background .5s ease-in-out, visibility .5s ease-in-out .5s;
+    visibility: hidden;
+    z-index: 2000;
+  }
+
+  &.active {
+		left: 0;
+		z-index: 9001;
+
+		#menu-content {
+			z-index: 9001;
+		}
+
+		&::before {
+			background: rgba(0, 0, 0, .5);
+			left: 0;
+			transition: background .5s ease-in-out;
+			visibility: visible;
+			z-index: 9000;
+		}
+	}
+
+  @include small-screen {
+  	left: -100%;
+  	width: 100%;
+  }
+}

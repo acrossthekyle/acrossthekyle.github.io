@@ -1,0 +1,94 @@
+@use 'src/_mixins' as *;
+
+$toggle-background-color-dark: rgba(255, 255, 255, 0.5);
+$toggle-background-color-light: rgba(255, 255, 255, 0.5);
+$toggle-background-color: var(--toggle-background-color);
+
+$toggle-span-background-color-dark: #1d1d1d;
+$toggle-span-background-color-light: #1d1d1d;
+$toggle-span-background-color: var(--toggle-span-background-color);
+
+.theme-light {
+  --toggle-background-color: #{$toggle-background-color-light};
+  --toggle-span-background-color: #{$toggle-span-background-color-light};
+}
+
+.theme-dark {
+  --toggle-background-color: #{$toggle-background-color-dark};
+  --toggle-span-background-color: #{$toggle-span-background-color-dark};
+}
+
+#trips-details-input {
+  position: fixed;
+  top: -3000px;
+  visibility: hidden;
+}
+
+#main:has(#trips-details-input:checked) {
+  #trips-details-toggle {
+    right: calc(50% + 30px);
+
+    @include small-screen {
+      right: calc(100% + 30px);
+    }
+  }
+}
+
+#trips-details-toggle {
+  background: $toggle-background-color;
+  border: none;
+  border-radius: 50px;
+  top: 30px;
+  cursor: pointer;
+  height: 30px;
+  opacity: 1;
+  position: absolute;
+  right: 30px;
+  transform: scale(1);
+  transition: all .5s ease-in-out;
+  width: 30px;
+  z-index: 1001;
+
+  span:first-child {
+    font-size: .75rem;
+    line-height: 100%;
+    left: 12px;
+    opacity: 0;
+    position: absolute;
+    text-transform: uppercase;
+    top: 10px;
+    transition: all .5s ease-in-out 0s;
+  }
+
+  .arrow {
+    background: $toggle-span-background-color;
+    height: 8px;
+    right: 13px;
+    margin: -6px 0 0;
+    position: absolute;
+    top: 50%;
+    transform: rotate(-45deg);
+    width: 2px;
+
+    &:last-child {
+      margin: -1px 0 0;
+      transform: rotate(45deg);
+    }
+  }
+
+  @include has-mouse {
+    &:hover {
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      width: 80px;
+
+      span:first-child {
+        opacity: 1;
+        transition: all .5s ease-in-out .5s;
+      }
+    }
+  }
+
+  @include small-screen {
+    right: 20px;
+  }
+}

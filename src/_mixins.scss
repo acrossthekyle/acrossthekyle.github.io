@@ -1,0 +1,29 @@
+@mixin tiny-screen {
+	@media screen and (max-width: 375px) {
+		@content;
+	}
+}
+
+@mixin small-screen {
+	@media screen and (max-width: 768px) {
+		@content;
+	}
+}
+
+@mixin medium-screen {
+	@media screen and (max-width: 1024px) {
+		@content;
+	}
+}
+
+@mixin has-mouse {
+	@media (pointer: fine) {
+		@content;
+	}
+}
+
+@mixin no-mouse {
+	@media (pointer: coarse) {
+		@content;
+	}
+}
