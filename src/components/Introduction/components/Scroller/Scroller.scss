@@ -2,10 +2,10 @@
 
 #main:has(#menu-open.pushed) {
   #scroller {
-    left: 100%;
+    transform: translate3d(50vw, 0, 0);
 
     @include small-screen {
-      left: 200%;
+      transform: translate3d(100vw, 0, 0);
     }
   }
 }

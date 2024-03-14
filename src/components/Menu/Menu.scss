@@ -26,7 +26,7 @@ $menu-close-color: var(--menu-close-color);
 
 #main:has(#trips-details-input:checked) {
   #menu-open {
-  	left: -100%;
+  	transform: translate3d(-100vw, 0, 0);
   }
 }
 
@@ -90,7 +90,7 @@ $menu-close-color: var(--menu-close-color);
 	}
 
 	&.pushed {
-		left: calc(50% + 20px);
+		transform: translate3d(50vw, 0, 0);
 		z-index: 2001;
 	}
 
@@ -98,7 +98,7 @@ $menu-close-color: var(--menu-close-color);
   	left: 10px;
 
   	&.pushed {
-			left: calc(100% + 10px);
+			transform: translate3d(100vw, 0, 0);
 		}
   }
 }
@@ -133,16 +133,18 @@ $menu-close-color: var(--menu-close-color);
 	&::before {
     background: rgba(0, 0, 0, 0);
     content: ' ';
-    inset: 0;
-    left: -100%;
+    top: 0;
+    height: 100%;
+    width: 100vw;
+    left: 50vw;
     position: fixed;
-    transition: background .5s ease-in-out, visibility .5s ease-in-out .5s;
+    transition: background .5s ease-in-out, visibility .5s ease-in-out;
     visibility: hidden;
     z-index: 2000;
   }
 
   &.active {
-		left: 0;
+		transform: translate3d(50vw, 0, 0);
 		z-index: 9001;
 
 		#menu-content {
@@ -150,9 +152,9 @@ $menu-close-color: var(--menu-close-color);
 		}
 
 		&::before {
-			background: rgba(0, 0, 0, .5);
-			left: 0;
-			transition: background .5s ease-in-out;
+			background: rgba(0, 0, 0, 0.5);
+			left: 50vw;
+			transition: background .5s ease-in-out, visibility .5s ease-in-out;
 			visibility: visible;
 			z-index: 9000;
 		}
@@ -161,5 +163,9 @@ $menu-close-color: var(--menu-close-color);
   @include small-screen {
   	left: -100%;
   	width: 100%;
+
+  	&.active {
+  		transform: translate3d(100vw, 0, 0);
+  	}
   }
 }

@@ -1,18 +1,7 @@
 @use 'src/_mixins' as *;
 
-#main:has(#menu-open.pushed) {
-  #content {
-    left: 50%;
-
-    @include small-screen {
-      left: 100%;
-    }
-  }
-}
-
 #content {
   height: 100%;
-  left: 0;
   position: relative;
   transform: translate3d(0, 100vh, 0);
   transition: all .5s ease-in-out;

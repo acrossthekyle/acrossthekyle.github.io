@@ -30,6 +30,7 @@ export function Trips() {
 	    				<section
 	    					id={trip.id}
 	    					className="section"
+	    					data-current={index === currentIndex}
 	    					ref={ref}
 	    					role="option"
 	    					aria-label={`${trip.title.join(' ')}`}

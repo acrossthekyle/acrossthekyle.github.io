@@ -26,10 +26,24 @@ $toggle-span-background-color: var(--toggle-span-background-color);
 
 #main:has(#trips-details-input:checked) {
   #trips-details-toggle {
-    right: calc(50% + 30px);
+    transform: translate3d(-50vw, 0, 0);
 
     @include small-screen {
-      right: calc(100% + 30px);
+      transform: translate3d(-100vw, 0, 0);
+    }
+  }
+}
+
+#main:has(#menu-open.pushed) {
+  #content {
+    &.create {
+      #trips-details-toggle {
+        transform: translate3d(50vw, 0, 0);
+
+        @include small-screen {
+          transform: translate3d(100vw, 0, 0);
+        }
+      }
     }
   }
 }
