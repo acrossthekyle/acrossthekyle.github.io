@@ -16,7 +16,7 @@ export function Introduction() {
           <span id="pre">ACROSS THE</span>
           <span id="middle">K Y L E</span>
           <span id="post">
-            Boundless Backpacker, Diligent Developer
+            Boundless Backpacker, Digital Developer
           </span>
         </article>
         <div className="background one" />

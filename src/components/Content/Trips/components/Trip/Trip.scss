@@ -45,7 +45,7 @@ $number-text-color: var(--number-text-color);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-        border-radius: 20px;
+        border-radius: 15px;
         box-shadow: 0px 10px 50px #111;
         inset: 60px 200px;
         position: absolute;
@@ -71,6 +71,12 @@ $number-text-color: var(--number-text-color);
             z-index: 1;
           }
         }
+      }
+
+      button {
+        background: transparent !important;
+        border: none;
+        cursor: pointer;
       }
 
       figcaption {
@@ -187,20 +193,11 @@ $number-text-color: var(--number-text-color);
             text-indent: 3px;
           }
         }
-
-        &:active {
-          user-select: none;
-
-          .background {
-            &:not(.blurred) {
-              transform: scale(.75);
-            }
-          }
-        }
       }
 
       .number {
         bottom: 10px;
+        font-size: 12px;
         right: 10px;
       }
     }
