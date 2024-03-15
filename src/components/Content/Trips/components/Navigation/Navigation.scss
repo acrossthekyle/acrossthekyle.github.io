@@ -122,6 +122,15 @@ $item-before-hover-background-color: var(--item-before-hover-background-color);
   }
 
   @include small-screen {
-    display: none;
+    right: 15px;
+    width: 20px;
+
+    button {
+      width: 5px;
+
+      &::before {
+        width: 5px;
+      }
+    }
   }
 }

@@ -70,4 +70,8 @@ $theme-toggle-title-text-color: var(--theme-toggle-title-text-color);
       left: 50%;
     }
   }
+
+  @include small-screen {
+    top: -5px;
+  }
 }

@@ -96,7 +96,6 @@ $item-text-color: var(--item-text-color);
 	}
 
 	@include small-screen {
-		border-bottom: 1px solid #343434;
 		flex-direction: column;
 		height: 135px;
 

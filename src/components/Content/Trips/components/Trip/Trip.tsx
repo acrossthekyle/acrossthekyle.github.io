@@ -21,9 +21,12 @@ export function Trip({ index, trip }: Props) {
 	  },
 	});
 
+	// todo - on small screens wrap non-blurred background in button
 	return (
 		<>
-			<figure style={{ backgroundImage: `url(${trip.image})` }} {...swipeable}>
+			<figure {...swipeable}>
+				<div className="background blurred" style={{ backgroundImage: `url(${trip.image})` }} aria-hidden="true" />
+				<div className="background" style={{ backgroundImage: `url(${trip.image})` }} aria-hidden="true" />
 		  	<figcaption>
 		  		<span className="location">
 	  				{[
