@@ -12,7 +12,10 @@ export function About() {
         <figcaption>Grande Randonnée 20, France</figcaption>
     	</figure>
   		<p>
-        Hey, I'm Kyle! One day, on a whim, I booked a trip to Spain to walk The Camino de Santiago:
+        Hey, I'm Kyle!
+      </p>
+      <p>
+        One day, on a whim, I booked a trip to Spain to walk The Camino de Santiago:
         a nearly 500 mile long trail from the border of France to the Atlantic ocean.
         33 days and countless life-long friends later I was hooked on backpacking.
         Since then, I have visited numerous countries, and hiked (thru-hiked)
