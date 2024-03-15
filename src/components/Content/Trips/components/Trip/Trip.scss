@@ -54,6 +54,7 @@ $number-text-color: var(--number-text-color);
 
         &.blurred {
           border-radius: 0;
+          filter: grayscale(50%);
           inset: 0;
           transform: scale(1);
           z-index: 2;
