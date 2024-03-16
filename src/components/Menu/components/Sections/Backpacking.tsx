@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 
 import { ScrollContext } from '../../../../contexts/ScrollContext';
+import { Images } from '../../../../images';
 import { TRIPS_BY_YEAR } from '../../../../trips';
 
 type Props = {
@@ -30,7 +31,7 @@ export function Backpacking({ onClick }: Props) {
     		<React.Fragment key={year}>
       		<h4>{year}</h4>
       		<ul>
-      			{trips.map(({ countries, id, title }) => (
+      			{trips.map(({ gearLink, id, title }) => (
       				<li key={id}>
       					<button
 									aria-label={`go to ${title.join(' ')}`}
@@ -39,7 +40,13 @@ export function Backpacking({ onClick }: Props) {
       				  	type="button"
       				  >
       				  	{title.join(' ')}
-      				  </button>
+      				  </button> | <a
+                  href={gearLink}
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Gear list <Images.External />
+                </a>
 		          </li>
       			))}
           </ul>

@@ -1,4 +1,3 @@
-// todo - behave like trip details: separate icon for open an close in order to be able to scroll entire menu
 import './Menu.scss';
 
 import React, { useState } from 'react';
