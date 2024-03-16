@@ -19,7 +19,12 @@ export function Trip({ index, trip }: Props) {
 		<>
 			<figure>
 				<div className="background blurred" style={{ backgroundImage: `url(${trip.image})` }} aria-hidden="true" />
-				<button onClick={handleOnClick}>
+				<button
+				  onClick={handleOnClick}
+				  title={`View trip details for ${trip.title.join(' ')}`}
+				  type="button"
+				  aria-label={`view trip details for ${trip.title.join(' ')}`}
+				>
 					<div className="background" style={{ backgroundImage: `url(${trip.image})` }} aria-hidden="true" />
 			  	<figcaption>
 			  		<span className="location">
