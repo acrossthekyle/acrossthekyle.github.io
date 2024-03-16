@@ -10,6 +10,12 @@ export function Programming() {
         latter third of that time spent working in React and React Native. I
         like to refer to it as "designing code".
   		</p>
+      <p>Some companies I've worked for:</p>
+      <ul>
+        <li>Red Frog Events</li>
+        <li>Rally Health</li>
+      </ul>
+      <br />
   		<a
         title="View resume"
         href="resume.pdf"
@@ -19,8 +25,7 @@ export function Programming() {
       >
         View my resume <Images.External />
       </a>
-      <br />
-      <br />
+      <hr />
   		<p>
   			When not doing work for my full-time job, I like to tinker with Garmin wearable apps.
   		</p>

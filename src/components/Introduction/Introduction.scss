@@ -50,7 +50,7 @@ $scroll-indicator-line-background: var(--scroll-indicator-line-background);
 
 #main:has(#menu-open.pushed) {
   #introduction {
-    transform: translate3d(50vw, 0, 0);
+    transform: translate3d(500px, 0, 0);
 
     @include small-screen {
       transform: translate3d(100vw, 0, 0);

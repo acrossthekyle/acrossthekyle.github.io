@@ -7,7 +7,7 @@ type Props = {
 };
 
 export function ThemeProvider({ children }: Props) {
-  const [theme, setTheme] = useState(localStorage.acrossTheKyleTheme ?? 'light');
+  const [theme, setTheme] = useState(localStorage.acrossTheKyleTheme ?? 'dark');
 
   useEffect(() => {
     document.body.classList.toggle('theme-dark', theme === 'dark');

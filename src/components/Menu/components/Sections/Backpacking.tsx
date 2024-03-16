@@ -29,7 +29,7 @@ export function Backpacking({ onClick }: Props) {
   	<>
     	{TRIPS_BY_YEAR.map(({ year, trips }) => (
     		<React.Fragment key={year}>
-      		<h4>{year}</h4>
+      		<h3>{year}</h3>
       		<ul>
       			{trips.map(({ gearLink, id, title }) => (
       				<li key={id}>

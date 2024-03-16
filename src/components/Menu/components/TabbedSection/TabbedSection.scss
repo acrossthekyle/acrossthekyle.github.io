@@ -49,8 +49,12 @@ $tabbed-section-figcaption-text-color: var(--tabbed-section-figcaption-text-colo
 	h3 {
 		color: $tabbed-section-h3-text-color;
 		font-size: .8rem;
-		margin: 0 0 1rem;
+		margin: 1.25rem 0 .5rem;
 		text-transform: uppercase;
+
+		&:first-child {
+			margin-top: 0;
+		}
 	}
 
 	h4 {
@@ -85,14 +89,18 @@ $tabbed-section-figcaption-text-color: var(--tabbed-section-figcaption-text-colo
 
 		li {
 			color: $tabbed-section-ul-li-text-color;
+			line-height: 150%;
 			margin-bottom: .25rem;
 		}
 	}
 
 	hr {
+		border: none;
+		border-bottom: 1px solid #444444;
+		height: 1px;
 		margin: 2rem 0;
 		padding: 0;
-		width: 40px;
+		width: 100%;
 	}
 
 	a,
