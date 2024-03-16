@@ -23,7 +23,7 @@ export function Programming() {
         rel="noreferrer"
         aria-label="view resume"
       >
-        View my resume <Images.External />
+        View my full work history <Images.External />
       </a>
       <hr />
   		<p>

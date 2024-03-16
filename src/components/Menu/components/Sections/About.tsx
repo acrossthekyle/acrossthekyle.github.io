@@ -15,11 +15,10 @@ export function About() {
         Hey, I'm Kyle!
       </p>
       <p>
-        One day, on a whim, I booked a trip to Spain to walk The Camino de Santiago:
-        a nearly 500 mile long trail from the border of France to the Atlantic ocean.
-        33 days and countless life-long friends later I was hooked on backpacking.
-        Since then, I have visited numerous countries, and hiked (thru-hiked)
-        various long-distance trails.
+        One day I booked a trip to walk The Camino de Santiago:
+        a nearly 500 mile long backpacking trail across Northern Spain from
+        France to the Atlantic ocean. Since then, I have visited numerous
+        countries, and hiked (thru-hiked) various long-distance trails.
       </p>
       <p>
         I currently reside in the concrete jungle of Chicago with my partner
