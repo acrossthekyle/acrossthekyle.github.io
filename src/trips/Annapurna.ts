@@ -1,4 +1,4 @@
-import { imageUrl, mapUrl } from '../utils';
+import { getImageUrl, getMapUrl } from '../utils';
 import { Trip } from '../types';
 
 export const Annapurna: Trip = {
@@ -6,7 +6,7 @@ export const Annapurna: Trip = {
   days: '16',
   gearLink: 'https://lighterpack.com/r/f6hp0p',
   id: 'annapurna',
-  image: imageUrl('annapurna.jpeg', '1695314659315'),
+  image: getImageUrl('annapurna.jpeg', '1695314659315'),
   itinerary: [
     {
       elevationGainFeet: 2451,
@@ -169,8 +169,8 @@ export const Annapurna: Trip = {
       steps: 30949
     }
   ],
-  mapBackgroundUrl: imageUrl('annapurna-map.jpeg', '1710265671205'),
-  mapUrl: mapUrl('1y8tdEZxaJZ1OOjbo3HgVHJofVWEzt0s'),
+  mapBackgroundUrl: getImageUrl('annapurna-map.jpeg', '1710265671205'),
+  mapUrl: getMapUrl('1y8tdEZxaJZ1OOjbo3HgVHJofVWEzt0s'),
   miles: '143',
   months: ['October', 'November'],
   mountains: ['Himalayas'],

@@ -6,16 +6,13 @@ import { useSwipeable } from 'react-swipeable';
 import { Images } from '../../../../../images';
 import { TRIPS } from '../../../../../trips';
 import { Trip, TripItinerary } from '../../../../../types';
+import { formatDistance, toggleCheckbox } from '../../../../../utils';
 
 import { DetailsToggle } from './DetailsToggle';
 
 type Props = {
 	current: number;
 };
-
-function formatDistance(raw: number) {
-	return raw.toFixed(0);
-}
 
 export function Details({ current }: Props) {
 	const trip: Trip = TRIPS[current];
@@ -24,9 +21,7 @@ export function Details({ current }: Props) {
 		trackTouch: true,
   	trackMouse: true,
 	  onSwipedRight: () => {
-	  	const checkbox = document.getElementById('trips-details-input') as HTMLInputElement;
-
-	  	checkbox!.checked = false;
+	  	toggleCheckbox('trips-details-input', false);
 
 	  	setTimeout(() => {
 	  		document.getElementById('trips-details-content')!.scrollTo(0, 0);

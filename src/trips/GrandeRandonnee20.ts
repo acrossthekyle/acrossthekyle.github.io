@@ -1,4 +1,4 @@
-import { imageUrl, mapUrl } from '../utils';
+import { getImageUrl, getMapUrl } from '../utils';
 import { Trip } from '../types';
 
 export const GrandeRandonnee20: Trip = {
@@ -6,7 +6,7 @@ export const GrandeRandonnee20: Trip = {
   days: '13',
   gearLink: 'https://lighterpack.com/r/76sj40',
 	id: 'grande-randonnee-20',
-  image: imageUrl('gr20.jpeg', '1695314654901'),
+  image: getImageUrl('gr20.jpeg', '1695314654901'),
   itinerary: [
     {
       elevationGainFeet: 4849,
@@ -152,8 +152,8 @@ export const GrandeRandonnee20: Trip = {
       tripActivityLink: 'https://connect.garmin.com/modern/activity/11485972736'
     }
   ],
-  mapBackgroundUrl: imageUrl('gr20-map.png', '1710177465612'),
-  mapUrl: mapUrl('1X2_gXP50kDf5UBk-ZQuRRpVE32tOdds'),
+  mapBackgroundUrl: getImageUrl('gr20-map.png', '1710177465612'),
+  mapUrl: getMapUrl('1X2_gXP50kDf5UBk-ZQuRRpVE32tOdds'),
   miles: '70',
   months: ['June', 'July'],
   mountains: ['Corsica'],

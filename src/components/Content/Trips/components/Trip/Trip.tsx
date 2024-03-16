@@ -1,9 +1,9 @@
 import './Trip.scss';
 
 import React from 'react';
-import { useSwipeable } from 'react-swipeable';
 
 import { Trip as TripType } from '../../../../../types';
+import { toggleCheckbox } from '../../../../../utils';
 
 type Props = {
 	index: number;
@@ -11,27 +11,13 @@ type Props = {
 };
 
 export function Trip({ index, trip }: Props) {
-	const swipeable = useSwipeable({
-		trackTouch: true,
-  	trackMouse: true,
-	  onSwipedLeft: () => {
-	  	toggleDetailsCheckbox();
-	  },
-	});
-
-	const toggleDetailsCheckbox = () => {
-		const checkbox = document.getElementById('trips-details-input') as HTMLInputElement;
-
-	  checkbox!.checked = true;
-	};
-
 	const handleOnClick = () => {
-		toggleDetailsCheckbox();
+		toggleCheckbox('trips-details-input', true);
 	};
 
 	return (
 		<>
-			<figure {...swipeable}>
+			<figure>
 				<div className="background blurred" style={{ backgroundImage: `url(${trip.image})` }} aria-hidden="true" />
 				<button onClick={handleOnClick}>
 					<div className="background" style={{ backgroundImage: `url(${trip.image})` }} aria-hidden="true" />

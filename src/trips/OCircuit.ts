@@ -1,4 +1,4 @@
-import { imageUrl, mapUrl } from '../utils';
+import { getImageUrl, getMapUrl } from '../utils';
 import { Trip } from '../types';
 
 export const OCircuit: Trip = {
@@ -6,7 +6,7 @@ export const OCircuit: Trip = {
   days: '7',
   gearLink: 'https://lighterpack.com/r/bw0s1t',
   id: 'o-circuit',
-  image: imageUrl('ocircuit.jpeg', '1695314656648'),
+  image: getImageUrl('ocircuit.jpeg', '1695314656648'),
   itinerary: [
     {
       miles: 11.2,
@@ -57,8 +57,8 @@ export const OCircuit: Trip = {
       steps: 35209
     },
   ],
-  mapBackgroundUrl: imageUrl('o-map.jpeg', '1710263899997'),
-  mapUrl: mapUrl('1nrGVggIuQapwFrzldS2TkR7aXx1ravY'),
+  mapBackgroundUrl: getImageUrl('o-map.jpeg', '1710263899997'),
+  mapUrl: getMapUrl('1nrGVggIuQapwFrzldS2TkR7aXx1ravY'),
   miles: '85',
   months: ['February'],
   mountains: ['Patagonia'],

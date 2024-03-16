@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { imageUrl } from '../../../../utils';
+import { getImageUrl } from '../../../../utils';
 
 export function About() {
 	return (
 		<>
   		<figure
         role="img"
-        style={{ backgroundImage: `url(${imageUrl('backpacking-1.jpeg', '1709072809903')})` }}
+        style={{ backgroundImage: `url(${getImageUrl('backpacking-1.jpeg', '1709072809903')})` }}
       >
         <figcaption>Grande Randonnée 20, France</figcaption>
     	</figure>

@@ -1,4 +1,4 @@
-import { imageUrl, mapUrl } from '../utils';
+import { getImageUrl, getMapUrl } from '../utils';
 import { Trip } from '../types';
 
 export const TourDuMontBlanc: Trip = {
@@ -6,7 +6,7 @@ export const TourDuMontBlanc: Trip = {
   days: '11',
   gearLink: 'https://lighterpack.com/r/yi7qss',
   id: 'tour-du-mont-blanc',
-  image: imageUrl('tmb.jpeg', '1695314658704'),
+  image: getImageUrl('tmb.jpeg', '1695314658704'),
   itinerary: [
     {
       elevationGainFeet: 4934,
@@ -128,8 +128,8 @@ export const TourDuMontBlanc: Trip = {
       steps: 22385
     }
   ],
-  mapBackgroundUrl: imageUrl('tmb-map.jpeg', '1710279889351'),
-  mapUrl: mapUrl('1dC5Om3SIo-_WeKYPZSpDVFAQGHG_cI8'),
+  mapBackgroundUrl: getImageUrl('tmb-map.jpeg', '1710279889351'),
+  mapUrl: getMapUrl('1dC5Om3SIo-_WeKYPZSpDVFAQGHG_cI8'),
   miles: '112',
   months: ['September'],
   mountains: ['Alps'],

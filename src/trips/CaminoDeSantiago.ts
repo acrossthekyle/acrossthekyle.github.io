@@ -1,4 +1,4 @@
-import { imageUrl, mapUrl } from '../utils';
+import { getImageUrl, getMapUrl } from '../utils';
 import { Trip } from '../types';
 
 export const CaminoDeSantiago: Trip = {
@@ -6,7 +6,7 @@ export const CaminoDeSantiago: Trip = {
   days: '33',
   gearLink: 'https://lighterpack.com/r/p1be03',
   id: 'camino-de-santiago',
-  image: imageUrl('camino.jpeg', '1695314660391'),
+  image: getImageUrl('camino.jpeg', '1695314660391'),
   itinerary: [
     {
       miles: 16,
@@ -201,8 +201,8 @@ export const CaminoDeSantiago: Trip = {
       steps: 59330
     }
   ],
-  mapBackgroundUrl: imageUrl('camino-map.jpeg', '1710281919132'),
-  mapUrl: mapUrl('1MM2kPzwx6-v81TOXLoG0SF_9IN6O-2w'),
+  mapBackgroundUrl: getImageUrl('camino-map.jpeg', '1710281919132'),
+  mapUrl: getMapUrl('1MM2kPzwx6-v81TOXLoG0SF_9IN6O-2w'),
   title: ['Camino', 'de', 'Santiago'],
   miles: '491',
   months: ['June', 'July'],

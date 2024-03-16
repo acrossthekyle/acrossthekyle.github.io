@@ -1,4 +1,4 @@
-import { imageUrl, mapUrl } from '../utils';
+import { getImageUrl, getMapUrl } from '../utils';
 import { Trip } from '../types';
 
 export const AltaVia1: Trip = {
@@ -6,7 +6,7 @@ export const AltaVia1: Trip = {
   days: '10',
   gearLink: 'https://lighterpack.com/r/kolkui',
   id: 'alta-via-1',
-  image: imageUrl('altavia.jpeg', '1695314660416'),
+  image: getImageUrl('altavia.jpeg', '1695314660416'),
   itinerary: [
     {
       elevationGainFeet: 3163,
@@ -109,8 +109,8 @@ export const AltaVia1: Trip = {
       steps: 33483
     }
   ],
-  mapBackgroundUrl: imageUrl('av-1-map.jpeg', '1710277614165'),
-  mapUrl: mapUrl('1RqKFH_q-Vxc0eemP4XDuIPVzKyo5Cps'),
+  mapBackgroundUrl: getImageUrl('av-1-map.jpeg', '1710277614165'),
+  mapUrl: getMapUrl('1RqKFH_q-Vxc0eemP4XDuIPVzKyo5Cps'),
   miles: '75',
   months: ['July'],
   mountains: ['Dolomites'],

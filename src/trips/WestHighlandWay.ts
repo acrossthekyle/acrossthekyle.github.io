@@ -1,4 +1,4 @@
-import { imageUrl, mapUrl } from '../utils';
+import { getImageUrl, getMapUrl } from '../utils';
 import { Trip } from '../types';
 
 export const WestHighlandWay: Trip = {
@@ -6,7 +6,7 @@ export const WestHighlandWay: Trip = {
   days: '6',
   gearLink: 'https://lighterpack.com/r/ng8tzb',
   id: 'west-highland-way',
-  image: imageUrl('westhighlandway.jpeg', '1695314654426'),
+  image: getImageUrl('westhighlandway.jpeg', '1695314654426'),
   itinerary: [
     {
       elevationGainFeet: 671,
@@ -75,8 +75,8 @@ export const WestHighlandWay: Trip = {
       tripActivityLink: 'https://connect.garmin.com/modern/activity/8811398305'
     },
   ],
-  mapBackgroundUrl: imageUrl('whw-map.jpeg', '1710261561777'),
-  mapUrl: mapUrl('1Msr8DFrL_JOi0irhOoK_DYfE7peE2XU'),
+  mapBackgroundUrl: getImageUrl('whw-map.jpeg', '1710261561777'),
+  mapUrl: getMapUrl('1Msr8DFrL_JOi0irhOoK_DYfE7peE2XU'),
   miles: '96',
   months: ['May'],
   mountains: ['Highlands'],
