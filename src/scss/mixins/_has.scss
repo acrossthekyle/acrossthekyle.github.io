@@ -1,0 +1,11 @@
+@mixin mouse {
+	@media (pointer: fine) {
+		@content;
+	}
+}
+
+@mixin touch {
+	@media (pointer: coarse) {
+		@content;
+	}
+}

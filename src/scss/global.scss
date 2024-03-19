@@ -1,0 +1,57 @@
+@use 'scss/normalize';
+
+$background-color-light: #ffffff;
+$background-color-dark: #1d1d1d;
+$background-color: var(--background-color);
+
+.theme-light {
+  --background-color: #{$background-color-light};
+}
+
+.theme-dark {
+  --background-color: #{$background-color-dark};
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  scrollbar-color: transparent transparent;
+  scrollbar-width: 0;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+  height: 0;
+  width: 0;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: anti-aliased;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body, html {
+  background-color: $background-color;
+  font-family: "Lato";
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  a {
+    align-items: center;
+    display: flex;
+
+    svg {
+      height: 11px;
+      margin-left: 5px;
+      width: 11px;
+    }
+  }
+}
