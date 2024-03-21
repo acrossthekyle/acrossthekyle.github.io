@@ -6,18 +6,21 @@ type Props = {
   children: React.ReactNode;
 };
 
+const DARK = 'dark';
+const LIGHT = 'light';
+
 export const ThemeContext = createContext({
-  theme: typeof window !== 'undefined' ? window.localStorage.acrossTheKyleTheme ?? 'dark' : 'dark',
+  theme: typeof window !== 'undefined' ? window.localStorage.acrossTheKyleTheme ?? DARK : DARK,
   setTheme: (value: string) => {}
 });
 
 export function ThemeProvider({ children }: Props) {
-  const [theme, setTheme] = useState(typeof window !== 'undefined' ? window.localStorage.acrossTheKyleTheme ?? 'dark' : 'dark');
+  const [theme, setTheme] = useState(typeof window !== 'undefined' ? window.localStorage.acrossTheKyleTheme ?? DARK : DARK);
 
   useEffect(() => {
     document.addEventListener('keyup', (event: InputEvent) => {
       if (event.key.toLowerCase() === 't') {
-      	const updatedTheme = theme === 'light' ? 'dark' : 'light';
+      	const updatedTheme = theme === LIGHT ? DARK : LIGHT;
 
       	setTheme(updatedTheme);
 
@@ -31,19 +34,19 @@ export function ThemeProvider({ children }: Props) {
   }, [theme, setTheme]);
 
   useEffect(() => {
-    document.body.classList.toggle('theme-dark', theme === 'dark');
-    document.body.classList.toggle('theme-light', theme !== 'dark');
+    document.body.classList.toggle('theme-dark', theme === DARK);
+    document.body.classList.toggle('theme-light', theme !== DARK);
   }, [theme]);
 
   useEffect(() => {
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (event: any) => {
-      setTheme(event.matches ? 'dark' : 'light')
+      setTheme(event.matches ? DARK : LIGHT)
     });
 
     if (window.localStorage.acrossTheKyleTheme) {
       setTheme(window.localStorage.acrossTheKyleTheme);
     } else {
-      setTheme(window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      setTheme(window.matchMedia('(prefers-color-scheme: dark)').matches ? DARK : LIGHT);
     }
 
     return () => {

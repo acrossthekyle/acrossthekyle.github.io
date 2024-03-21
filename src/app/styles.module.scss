@@ -1,5 +1,6 @@
 @use 'scss/mixins/_has' as has;
 @use 'scss/mixins/_theme' as theme;
+@use 'scss/variables' as *;
 
 .header {
 	display: flex;
@@ -55,7 +56,7 @@
 				left: 12px;
 				margin-top: -13px;
 				top: 50%;
-				transition: left .5s cubic-bezier(.87, -.41, .19, 1.44);
+				transition: left .5s $transition-function;
 				transform: rotate(-45deg);
 				width: 0px;
 				z-index: 2;
@@ -79,5 +80,62 @@
 
 	.nav {
 		//
+	}
+}
+
+.footer {
+	bottom: 0;
+	display: flex;
+	padding: 20px;
+	position: fixed;
+
+	.mode {
+		background: transparent;
+		border: none;
+		cursor: pointer;
+		display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+		height: 24px;
+		padding: 0;
+		width: 24px;
+
+		span {
+			background: #000000;
+			display: block;
+		}
+
+		&.list {
+			flex-direction: column;
+			justify-content: space-between;
+
+			span {
+				height: 2px;
+				width: 100%;
+
+				&:last-child {
+					margin-bottom: 0;
+				}
+			}
+		}
+
+		&.gallery {
+			span {
+				height: 11px;
+				width: 11px;
+				margin-bottom: 1px;
+				margin-right: 1px;
+
+				&:nth-child(2),
+				&:nth-child(4) {
+					margin-right: 0;
+				}
+
+				&:nth-child(3),
+				&:nth-child(4) {
+					margin-bottom: 0;
+				}
+			}
+		}
 	}
 }
