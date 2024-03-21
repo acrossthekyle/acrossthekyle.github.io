@@ -15,9 +15,11 @@
 }
 
 html {
-  -webkit-font-smoothing: antialiased;
-  text-rendering: anti-aliased;
   -ms-overflow-style: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  line-height: 1;
+  text-rendering: anti-aliased;
   scrollbar-width: none;
 }
 
@@ -27,17 +29,11 @@ body, html {
   height: 100%;
   transition: background-color .3s ease;
   width: 100%;
-
-  &.theme-dark {
-    background-color: map-get(map-get($themes, "dark"), "body");
-  }
-
-  &.theme-light {
-    background-color: map-get(map-get($themes, "light"), "body");
-  }
 }
 
 body {
+  margin: 0;
+
   .loading {
     background: #1d1d1d;
     content: ' ';
@@ -81,6 +77,14 @@ body {
     }
   }
 
+  &.theme-dark {
+    background-color: map-get(map-get($themes, "dark"), "body");
+  }
+
+  &.theme-light {
+    background-color: map-get(map-get($themes, "light"), "body");
+  }
+
   &.theme-dark,
   &.theme-light {
     .loading {
@@ -92,6 +96,7 @@ body {
 
 main {
   height: 100%;
+  padding: 24px;
   width: 100%;
 
   a {
@@ -99,9 +104,9 @@ main {
     display: flex;
 
     svg {
-      height: 11px;
-      margin-left: 5px;
-      width: 11px;
+      height: 8px;
+      margin-left: 4px;
+      width: 8px;
     }
   }
 
@@ -110,6 +115,17 @@ main {
     border: none;
     cursor: pointer;
     line-height: 1;
+    padding: 0;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
     padding: 0;
   }
 }

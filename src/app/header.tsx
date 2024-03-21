@@ -27,21 +27,21 @@ export default function Header() {
           title="Darken or lighten the mood"
           type="button"
         >
-          Darken [ {isDarken ? 'Y' : 'N'} ]
+          (D)arken [ {isDarken ? 'Y' : 'N'} ]
         </button>
         <button
           onClick={toggleImageless}
           title="Do not display images"
           type="button"
         >
-          Imageless [ {isImageless ? 'Y' : 'N'} ]
+          (I)mageless [ {isImageless ? 'Y' : 'N'} ]
         </button>
         <button
           onClick={toggleMonochrome}
           title="Make everything gray"
           type="button"
         >
-          Monochrome [ {isMonochrome ? 'Y' : 'N'} ]
+          (M)onochrome [ {isMonochrome ? 'Y' : 'N'} ]
         </button>
       </section>
   	</header>

@@ -7,7 +7,6 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	padding: 20px;
 
 	.logo {
 		transition: color .3s ease;
@@ -99,6 +98,14 @@
 
 			&:last-child {
 				margin-bottom: 0;
+			}
+
+			@include has.mouse {
+				transition: color .5s $transition-function;
+
+				&:hover {
+					color: #000000;
+				}
 			}
 		}
 	}
