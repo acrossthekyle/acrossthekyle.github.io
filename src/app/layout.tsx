@@ -1,10 +1,21 @@
-import 'scss/global.scss';
+'use client'
+
+import 'scss/globals.scss';
+
+import { useEffect } from 'react';
+
+import { ThemeProvider } from './theme';
 
 type Props = {
   children: React.ReactNode;
 };
 
 export default function RootLayout({ children }: Props) {
+  useEffect(() => {
+    console.log('Want to see the source code?', 'https://github.com/acrossthekyle/acrossthekyle.github.io');
+    console.log('Press "T" on the keyboard to toggle the theme');
+  }, []);
+
   return (
     <html lang="en">
       <head>
@@ -26,10 +37,12 @@ export default function RootLayout({ children }: Props) {
         <meta name="title" content="Across The Kyle &mdash; Boundless Backpacker, Digital Developer" />
         <meta name="description" content="Boundless Backpacker, Digital Developer" />
 
-        <title>Kyle &mdash; Boundless Backpacker, Digital Developer</title>
+        <title>Kyle</title>
       </head>
-      <body>
-        {children}
+      <body className="theme-light">
+        <ThemeProvider>
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   )

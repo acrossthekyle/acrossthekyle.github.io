@@ -1,3 +1,10 @@
+import Header from './header';
+
 export default function Template({ children }: { children: React.ReactNode }) {
-  return <main id="home">{children}</main>
+  return (
+    <main id="home">
+      <Header />
+      {children}
+    </main>
+  );
 }

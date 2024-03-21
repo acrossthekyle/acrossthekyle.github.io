@@ -1,0 +1,14 @@
+$themes: (
+  "dark": (
+    body: #000000,
+    header-logo-block: #ffffff,
+    header-logo-block-cutout: #000000 transparent transparent transparent,
+    header-logo-text: #ffffff,
+  ),
+  "light": (
+    body: #ffffff,
+    header-logo-block: #000000,
+    header-logo-block-cutout: #ffffff transparent transparent transparent,
+    header-logo-text: #000000,
+  ),
+);

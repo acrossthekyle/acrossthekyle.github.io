@@ -1,0 +1,83 @@
+@use 'scss/mixins/_has' as has;
+@use 'scss/mixins/_theme' as theme;
+
+.header {
+	display: flex;
+	flex-direction: row;
+	padding: 20px;
+
+	.logo {
+		width: 48px;
+
+		@include theme.value {
+      color: theme.t('header-logo-text');
+    }
+
+		div {
+			border-radius: 4px;
+			height: 32px;
+			position: relative;
+			width: 24px;
+			white-space: pre;
+			z-index: 1;
+
+			@include theme.value {
+      	background: theme.t('header-logo-block');
+    	}
+
+			&:before,
+			&:after {
+				display: block;
+				pointer-events: none;
+				position: absolute;
+			}
+
+			&:before {
+				bottom: -48px;
+				content: "Thru hiker \A Dev";
+				font-size: .75rem;
+				height: 32px;
+				line-height: 18px;
+				text-transform: uppercase;
+				width: 80px;
+
+				@include theme.value {
+	      	color: theme.t('header-logo-text');
+	    	}
+			}
+
+			&:after {
+				border-top-left-radius: 5px;
+				border-style: solid;
+		    border-width: 26px 26px 0 0;
+		    content: ' ';
+				height: 0px;
+				left: 12px;
+				margin-top: -13px;
+				top: 50%;
+				transition: left .5s cubic-bezier(.87, -.41, .19, 1.44);
+				transform: rotate(-45deg);
+				width: 0px;
+				z-index: 2;
+
+				@include theme.value {
+					border-color: theme.t('header-logo-block-cutout');
+	    	}
+			}
+		}
+
+		@include has.mouse {
+			&:hover {
+				div {
+					&:after {
+						left: 32px;
+					}
+				}
+			}
+		}
+	}
+
+	.nav {
+		//
+	}
+}
