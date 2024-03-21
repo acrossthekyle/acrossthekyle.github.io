@@ -22,8 +22,10 @@ html {
 }
 
 body, html {
+  background-color: transparent;
   font-family: "Lato";
   height: 100%;
+  transition: background-color .3s ease;
   width: 100%;
 
   &.theme-dark {
@@ -32,6 +34,59 @@ body, html {
 
   &.theme-light {
     background-color: map-get(map-get($themes, "light"), "body");
+  }
+}
+
+body {
+  .loading {
+    background: #1d1d1d;
+    content: ' ';
+    display: block;
+    inset: 0;
+    opacity: 1;
+    position: fixed;
+    transition: all .3s ease .3s;
+    visibility: visible;
+    z-index: 99999;
+
+    svg {
+      bottom: 0;
+      height: 128px;
+      position: absolute;
+      width: 100%;
+
+      path {
+        animation: waves 25s cubic-bezier(.55, .5, .45, .5) infinite;
+      }
+
+      path:nth-child(1) {
+        animation-delay: -2s;
+        animation-duration: 7s;
+      }
+
+      path:nth-child(2) {
+        animation-delay: -3s;
+        animation-duration: 10s;
+      }
+
+      path:nth-child(3) {
+        animation-delay: -4s;
+        animation-duration: 13s;
+      }
+
+      path:nth-child(4) {
+        animation-delay: -5s;
+        animation-duration: 20s;
+      }
+    }
+  }
+
+  &.theme-dark,
+  &.theme-light {
+    .loading {
+      opacity: 0;
+      visibility: hidden;
+    }
   }
 }
 
@@ -48,5 +103,23 @@ main {
       margin-left: 5px;
       width: 11px;
     }
+  }
+
+  button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0;
+  }
+}
+
+@keyframes waves {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(85px, 0, 0);
   }
 }

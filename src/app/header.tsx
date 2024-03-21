@@ -1,14 +1,49 @@
+'use client'
+
+import { useContext } from 'react';
 import Link from 'next/link';
 
-import styles from './styles.module.scss'
+import { SettingsContext } from 'contexts/settings';
+import styles from 'scss/app/header.module.scss'
 
 export default function Header() {
+  const {
+    isDarken,
+    isImageless,
+    isMonochrome,
+    toggleDarken,
+    toggleImageless,
+    toggleMonochrome,
+  } = useContext(SettingsContext);
+
   return (
   	<header className={styles.header}>
   	  <Link className={styles.logo} href="/" title="Take me home, Wadsworth" aria-label="home">
   	  	<div />
   	  </Link>
-  	  <nav className={styles.nav}></nav>
+  	  <section className={styles.settings}>
+        <button
+          onClick={toggleDarken}
+          title="Darken or lighten the mood"
+          type="button"
+        >
+          Darken [ {isDarken ? 'Y' : 'N'} ]
+        </button>
+        <button
+          onClick={toggleImageless}
+          title="Do not display images"
+          type="button"
+        >
+          Imageless [ {isImageless ? 'Y' : 'N'} ]
+        </button>
+        <button
+          onClick={toggleMonochrome}
+          title="Make everything gray"
+          type="button"
+        >
+          Monochrome [ {isMonochrome ? 'Y' : 'N'} ]
+        </button>
+      </section>
   	</header>
   );
 }

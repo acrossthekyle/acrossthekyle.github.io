@@ -1,14 +1,18 @@
 $themes: (
   "dark": (
-    body: #000000,
+    body: #1d1d1d,
     header-logo-block: #ffffff,
-    header-logo-block-cutout: #000000 transparent transparent transparent,
+    header-logo-block-cutout: #1d1d1d transparent transparent transparent,
     header-logo-text: #ffffff,
+    header-settings-text: #ffffff,
+    hikes-mode: #ffffff,
   ),
   "light": (
     body: #ffffff,
-    header-logo-block: #000000,
+    header-logo-block: #1d1d1d,
     header-logo-block-cutout: #ffffff transparent transparent transparent,
-    header-logo-text: #000000,
+    header-logo-text: #1d1d1d,
+    header-settings-text: #1d1d1d,
+    hikes-mode: #1d1d1d,
   ),
 );
