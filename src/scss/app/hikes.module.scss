@@ -7,15 +7,22 @@
 	display: flex;
 	flex-direction: column;
 
+	.content {
+		display: flex;
+		position: relative;
+		width: 100%;
+	}
+
 	.links {
-		bottom: 0;
 		display: flex;
 		flex-direction: column;
+		height: 527px;
 		justify-content: flex-end;
-		left: 0;
+		left: 0px;
+		// margin-top: 24px;
 		padding: 24px;
-		position: fixed;
-		top: 0;
+		position: sticky;
+		top: calc(100vh - 527px);
 		width: 224px;
 
 		.heading {
@@ -120,25 +127,48 @@
 		}
 	}
 
+	.greeting {
+		article {
+			align-items: center;
+			color: #1d1d1d;
+			display: flex;
+			font-size: 3rem;
+			font-weight: 300;
+			height: calc(100vh - 48px);
+			line-height: 1.5;
+			text-align: center;
+			width: 50vw;
+
+			span {
+				color: #c34d0c;
+			}
+		}
+	}
+
 	.hike {
-		border-bottom: 1px solid #ccc;
 		height: 75vh;
-		margin-bottom: 128px;
+		margin-bottom: 256px;
 		position: relative;
 		width: 68vw;
 
+		&:first-child {
+			margin-top: 48px;
+		}
+
+		&:last-child {
+			margin-bottom: 24px;
+		}
+
 		figure {
 			figcaption {
-				border-left: 1px solid #ccc;
 				bottom: 0px;
 				color: #1d1d1d;
 				display: flex;
 				flex-direction: column;
 				font-family: 'Montserrat';
-				left: 0;
-				padding: 24px;
+				left: auto;
 				position: absolute;
-				right: auto;
+				right: 0;
 				width: 18vw;
 
 				.location {
@@ -169,12 +199,13 @@
 			.image {
 				align-items: center;
 				bottom: 0;
+				border-radius: 8px;
 				display: flex;
 				justify-content: center;
-				left: auto;
+				left: 0;
 				overflow: hidden;
 				position: absolute;
-				right: 0;
+				right: auto;
 				top: 0;
 				width: 47vw;
 
@@ -195,15 +226,15 @@
 		&:nth-child(odd) {
 			figure {
 				figcaption {
-					border-left: none;
-					border-right: 1px solid #ccc;
-					left: auto;
-					right: 0;
+					border-right: none;
+					left: 0;
+					right: auto;
+					text-align: right;
 				}
 
 				.image {
-		    	left: 0;
-		    	right: auto;
+		    	left: auto;
+		    	right: 0;
 		    }
 			}
 		}
