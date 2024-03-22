@@ -3,6 +3,7 @@
 @use 'scss/variables' as *;
 
 .container {
+	display: none;
 	> article {
 		align-items: center;
 		color: #1d1d1d;
