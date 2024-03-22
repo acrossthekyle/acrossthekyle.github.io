@@ -41,7 +41,7 @@ export default function Header() {
           title="Make everything gray"
           type="button"
         >
-          (M)onochrome [ {isMonochrome ? 'Y' : 'N'} ]
+          (C)olors [ {isMonochrome ? 'N' : 'Y'} ]
         </button>
       </section>
   	</header>
