@@ -3,10 +3,6 @@
 @use 'scss/variables' as *;
 
 .header {
-	align-items: flex-start;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
 	left: 24px;
 	position: fixed;
 	right: 24px;
@@ -43,10 +39,10 @@
 
 			&:before {
 				bottom: -48px;
-				content: "Thru hiker \A Dev";
-				font-size: .75rem;
+				content: "Thru-hiker by design \A Developer by trade";
+				font-size: .8rem;
 				height: 32px;
-				line-height: 18px;
+				line-height: 16px;
 				text-transform: uppercase;
 				transition: color .3s ease;
 				width: 80px;
@@ -82,34 +78,6 @@
 					&:after {
 						left: 32px;
 					}
-				}
-			}
-		}
-	}
-
-	.settings {
-		display: flex;
-		flex-direction: column;
-
-		button {
-			font-size: .7rem;
-			margin-bottom: 8px;
-			text-align: right;
-			text-transform: uppercase;
-
-			@include theme.value {
-				color: theme.t('header-settings-text');
-	  	}
-
-			&:last-child {
-				margin-bottom: 0;
-			}
-
-			@include has.mouse {
-				transition: color .5s $transition-function;
-
-				&:hover {
-					color: #000000;
 				}
 			}
 		}

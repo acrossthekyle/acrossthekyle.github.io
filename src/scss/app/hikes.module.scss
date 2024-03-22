@@ -3,34 +3,6 @@
 @use 'scss/variables' as *;
 
 .container {
-	.pages {
-		align-items: flex-end;
-		bottom: 88px;
-		display: flex;
-		height: 16px;
-		flex-direction: row;
-		justify-content: space-between;
-		position: fixed;
-		right: -36px;
-		transform: rotate(90deg);
-		width: 144px;
-
-		a {
-			border-top: 1px solid #1d1d1d;
-			color: #1d1d1d;
-			font-size: .75rem;
-			font-weight: 500;
-			padding-top: 8px;
-			text-decoration: none;
-			text-transform: uppercase;
-
-			&[active="true"] {
-				border-top-width: 48px;
-				transform: translateY(16px);
-			}
-		}
-	}
-
 	> article {
 		align-items: center;
 		color: #1d1d1d;
@@ -60,16 +32,8 @@
 			justify-content: flex-end;
 			padding: 0;
 			position: sticky;
-			top: calc(100vh - 537px);
+			top: calc(100vh - 100%);
 			width: 224px;
-
-			h2 {
-				color: #1d1d1d;
-				font-family: 'Montserrat';
-				font-size: .85rem;
-				font-weight: 500;
-				margin: 0 0 1rem 1.5rem;
-			}
 
 			ul {
 					align-items: flex-start;
@@ -129,13 +93,12 @@
 		}
 
 		> div {
-			padding-bottom: 24px;
 			padding-left: 224px;
 
 			article {
 				height: 100vh;
-				margin: 128px auto;
-				padding: 64px 0;
+				margin: 8rem auto;
+				padding: 8rem 0;
 				position: relative;
 				width: 68vw;
 
@@ -152,7 +115,7 @@
 						left: auto;
 						position: absolute;
 						right: 0;
-						bottom: 128px;
+						bottom: 8rem;
 						width: 18vw;
 
 						span {
@@ -185,7 +148,8 @@
 
 					div {
 						align-items: center;
-						bottom: 128px;
+						bottom: 8rem;
+						border: 24px solid #ccc;
 						border-radius: 8px;
 						display: flex;
 						justify-content: center;
@@ -194,11 +158,14 @@
 						position: absolute;
 						right: auto;
 						text-align: right;
-						top: 128px;
-						width: 47vw;
+						top: 8rem;
+						height: 200px;
+						width: 100px;
 
 						img {
-							height: 100%;
+							border-radius: 8px;
+							height: 15rem;
+							width: auto;
 							transform: scale(1.2);
 						}
 

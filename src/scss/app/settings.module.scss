@@ -1,0 +1,35 @@
+@use 'scss/mixins/_has' as has;
+@use 'scss/mixins/_theme' as theme;
+@use 'scss/variables' as *;
+
+.settings {
+	bottom: 0;
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+	right: 0;
+	transform: rotate(90deg) translateX(-8rem) translateY(-5.75rem);
+
+	button {
+		font-size: .7rem;
+		margin-right: .5rem;
+		text-align: right;
+		text-transform: uppercase;
+
+		@include theme.value {
+			color: theme.t('header-settings-text');
+  	}
+
+		&:last-child {
+			margin-right: 0;
+		}
+
+		@include has.mouse {
+			transition: color .5s $transition-function;
+
+			&:hover {
+				color: #000000;
+			}
+		}
+	}
+}

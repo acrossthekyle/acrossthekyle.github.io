@@ -24,16 +24,8 @@ export default function Page() {
 
   return (
     <section className={styles.container}>
-      <article monochromeable="true">
-        <p>
-          Hello, I'm Kyle &mdash; a developer by trade, and <span>a thru hiker by
-          design</span>. I currently live in the concrete jungles of Chicago.
-        </p>
-      </article>
-
       <section>
         <nav>
-          <h2>Hikes</h2>
           <ul>
             {hikes.map(({ id, title }) => (
               <li data-active={currentId === id} key={id}>
@@ -89,11 +81,6 @@ export default function Page() {
           ))}
         </div>
       </section>
-
-      <nav className={styles.pages}>
-        <Link active="true" href="/">Experiences</Link>
-        <Link href="/about">About</Link>
-      </nav>
     </section>
   );
 }

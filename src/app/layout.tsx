@@ -7,6 +7,7 @@ import { useEffect } from 'react';
 import { SettingsProvider } from 'contexts/settings';
 
 import Header from './header';
+import Settings from './settings';
 
 type Props = {
   children: React.ReactNode;
@@ -55,6 +56,7 @@ export default function RootLayout({ children }: Props) {
         <main>
           <SettingsProvider>
             <Header />
+            <Settings />
             {children}
           </SettingsProvider>
         </main>
