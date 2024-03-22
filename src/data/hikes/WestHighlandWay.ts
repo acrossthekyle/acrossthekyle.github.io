@@ -2,6 +2,7 @@ import { getImageUrl, getMapUrl } from 'utils';
 import { Hike } from 'types';
 
 export const WestHighlandWay: Hike = {
+  backdrop: '#2e3b49',
   countries: ['Scotland'],
   days: '6',
   gearLink: 'https://lighterpack.com/r/ng8tzb',

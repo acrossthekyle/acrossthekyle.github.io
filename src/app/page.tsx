@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react';
+import { Fragment, useState } from 'react';
 import Link from 'next/link';
 
 import styles from 'scss/app/hikes.module.scss'
@@ -19,33 +19,43 @@ export default function Page() {
         <h2 className={styles.heading}>Hikes</h2>
         <div className={styles.wrapper}>
           {hikesByYear.map(({ year, hikes }) => (
-            <>
+            <Fragment key={year}>
               <h3 className={styles.year}>{year}</h3>
               <ul className={styles.items}>
-              {hikes.map(({ title }) => (
-                <li active={title.includes('Camino') ? 'true' : 'false'}>
+              {hikes.map(({ id, title }) => (
+                <li active={title.includes('Camino') ? 'true' : 'false'} key={`${year}-${id}`}>
                   <button className={styles.item} type="button">
                     {title.join(' ')}
                   </button>
                 </li>
               ))}
               </ul>
-            </>
+            </Fragment>
           ))}
         </div>
         <button className={styles.as} onClick={handleOnGalleryToggle} type="button">
-          Gallery [ {isGallery ? 'Y' : 'N'} ]
+          (G)allery [ {isGallery ? 'Y' : 'N'} ]
         </button>
       </nav>
-      {hikes.map(({ countries, days, id, miles, title }) => (
-        <article className={styles.hike} id={id}>
+      {hikes.map(({ backdrop, countries, days, id, image, miles, mountains, title }) => (
+        <article className={styles.hike} id={id} key={id}>
           <figure>
             <figcaption>
-              {countries.join(', ')}
-              {title.join(' ')}
-              {days} days
-              {miles} miles
+              <span className={styles.location} monochromeable="true">
+                {[
+                  (mountains ?? []).join('/'),
+                  countries.join('/'),
+                ].filter(Boolean).join(', ')}
+              </span>
+              <span className={styles.name}>
+                {title.join(' ')}
+              </span>
+              <span className={styles.stats}>{days} days, {miles} miles</span>
             </figcaption>
+            <div className={styles.image} imagelessable="true" monochromeable="true">
+              <div style={{ background: backdrop }} />
+              <img src={image} />
+            </div>
           </figure>
         </article>
       ))}

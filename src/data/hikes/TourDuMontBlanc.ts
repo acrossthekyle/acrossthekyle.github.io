@@ -2,6 +2,7 @@ import { getImageUrl, getMapUrl } from 'utils';
 import { Hike } from 'types';
 
 export const TourDuMontBlanc: Hike = {
+  backdrop: '#6688b5',
   countries: ['France', 'Italy'],
   days: '11',
   gearLink: 'https://lighterpack.com/r/yi7qss',

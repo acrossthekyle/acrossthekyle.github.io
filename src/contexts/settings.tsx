@@ -41,11 +41,13 @@ export function SettingsProvider({ children }: Props) {
   };
 
   useEffect(() => {
+    let shouldDarken = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
     if (window.localStorage.acrossTheKyleDarken !== null) {
-      setIsDarken(window.localStorage.acrossTheKyleDarken === 'true' ? true : false);
-    } else {
-      setIsDarken(window.matchMedia('(prefers-color-scheme: dark)').matches);
+      shouldDarken = window.localStorage.acrossTheKyleDarken === 'true' ? true : false;
     }
+
+    toggleDarken(shouldDarken);
 
     if (window.localStorage.acrossTheKyleImageless !== null) {
       setIsImageless(window.localStorage.acrossTheKyleImageless === 'true' ? true : false);
@@ -64,15 +66,13 @@ export function SettingsProvider({ children }: Props) {
     }
   }, [handleKeyUp]);
 
-  useEffect(() => {
-    document.body.classList.toggle('theme-dark', isDarken);
-    document.body.classList.toggle('theme-light', !isDarken);
-  }, [isDarken]);
-
-  const toggleDarken = () => {
-    const shouldDarken = !isDarken;
+  const toggleDarken = (bool?: boolean) => {
+    const shouldDarken = typeof bool === 'boolean' && bool !== undefined ? bool : !isDarken;
 
     setIsDarken(shouldDarken);
+
+    document.body.classList.toggle('theme-dark', shouldDarken);
+    document.body.classList.toggle('theme-light', !shouldDarken);
 
     window.localStorage.acrossTheKyleDarken = shouldDarken ? 'true' : 'false';
   };
@@ -82,6 +82,8 @@ export function SettingsProvider({ children }: Props) {
 
     setIsImageless(shouldImageless);
 
+    document.body.classList.toggle('settings-imageless', shouldImageless);
+
     window.localStorage.acrossTheKyleImageless = shouldImageless ? 'true' : 'false';
   };
 
@@ -89,6 +91,8 @@ export function SettingsProvider({ children }: Props) {
   	const shouldMonochrome = !isMonochrome;
 
     setIsMonochrome(shouldMonochrome);
+
+    document.body.classList.toggle('settings-monochrome', shouldMonochrome);
 
     window.localStorage.acrossTheKyleMonochrome = shouldMonochrome ? 'true' : 'false';
   };

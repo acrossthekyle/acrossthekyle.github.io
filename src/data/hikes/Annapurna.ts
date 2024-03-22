@@ -2,6 +2,7 @@ import { getImageUrl, getMapUrl } from 'utils';
 import { Hike } from 'types';
 
 export const Annapurna: Hike = {
+  backdrop: '#aa9782',
   countries: ['Nepal'],
   days: '16',
   gearLink: 'https://lighterpack.com/r/f6hp0p',

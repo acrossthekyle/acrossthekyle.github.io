@@ -2,6 +2,7 @@ import { getImageUrl, getMapUrl } from 'utils';
 import { Hike } from 'types';
 
 export const OCircuit: Hike = {
+  backdrop: '#c5a77d',
   countries: ['Chile'],
   days: '7',
   gearLink: 'https://lighterpack.com/r/bw0s1t',

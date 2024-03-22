@@ -1,4 +1,5 @@
 export type Hike = {
+  backdrop: string;
   countries: string[];
   days: string;
   gearLink?: string;

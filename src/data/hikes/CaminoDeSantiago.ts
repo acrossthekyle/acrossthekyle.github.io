@@ -2,6 +2,7 @@ import { getImageUrl, getMapUrl } from 'utils';
 import { Hike } from 'types';
 
 export const CaminoDeSantiago: Hike = {
+  backdrop: '#616a1a',
   countries: ['Spain'],
   days: '33',
   gearLink: 'https://lighterpack.com/r/p1be03',

@@ -2,6 +2,7 @@ import { getImageUrl, getMapUrl } from 'utils';
 import { Hike } from 'types';
 
 export const AltaVia1: Hike = {
+  backdrop: '#dce2e7',
   countries: ['Italy'],
   days: '10',
   gearLink: 'https://lighterpack.com/r/kolkui',

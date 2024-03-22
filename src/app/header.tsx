@@ -34,7 +34,7 @@ export default function Header() {
           title="Do not display images"
           type="button"
         >
-          (I)mageless [ {isImageless ? 'Y' : 'N'} ]
+          (I)mages [ {isImageless ? 'N' : 'Y'} ]
         </button>
         <button
           onClick={toggleMonochrome}

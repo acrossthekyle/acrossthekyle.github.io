@@ -37,7 +37,7 @@ body {
   .loading {
     background: #1d1d1d;
     content: ' ';
-    display: block;
+    display: none; // block
     inset: 0;
     opacity: 1;
     position: fixed;
@@ -92,6 +92,39 @@ body {
       visibility: hidden;
     }
   }
+
+  [imagelessable="true"],
+  [monochromeable="true"] {
+    transition: all .5s ease;
+  }
+
+  [imagelessable="true"] {
+    div {
+      inset: 0;
+      position: absolute;
+      z-index: 0;
+    }
+
+    img {
+      position: relative;
+      transition: all .5s ease;
+      z-index: 1;
+    }
+  }
+
+  &.settings-monochrome {
+    [monochromeable="true"] {
+      filter: grayscale(100%);
+    }
+  }
+
+  &.settings-imageless {
+    [imagelessable="true"] {
+      img {
+        opacity: 0;
+      }
+    }
+  }
 }
 
 main {
@@ -121,6 +154,10 @@ main {
   h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
+  }
+
+  img {
+    opacity: 1;
   }
 
   ul {

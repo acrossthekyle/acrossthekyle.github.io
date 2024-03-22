@@ -2,6 +2,7 @@ import { getImageUrl, getMapUrl } from 'utils';
 import { Hike } from 'types';
 
 export const GrandeRandonnee20: Hike = {
+  backdrop: '#376394',
   countries: ['France'],
   days: '13',
   gearLink: 'https://lighterpack.com/r/76sj40',

@@ -1,4 +1,4 @@
-import { IMAGE_BASE, MAP_BASE } from 'constants';
+import { IMAGE_BASE, MAP_BASE } from './constants';
 
 export function getImageUrl(id: string, updatedAt: string) {
   return `${IMAGE_BASE}/${id}?updatedAt=${updatedAt}`;
