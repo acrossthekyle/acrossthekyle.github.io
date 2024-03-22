@@ -33,7 +33,7 @@ export function SettingsProvider({ children }: Props) {
       return;
     }
 
-    if (event.key.toLowerCase() === 'm') {
+    if (event.key.toLowerCase() === 'c') {
       toggleMonochrome();
 
       return;
