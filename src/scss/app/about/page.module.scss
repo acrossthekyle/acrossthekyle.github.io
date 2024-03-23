@@ -3,32 +3,31 @@
 @use 'scss/variables' as *;
 
 .about {
-	display: flex;
 	flex: 1;
-	flex-direction: column;
 
 	figure {
-		align-items: center;
-		display: flex;
-		height: 20rem;
-		justify-content: center;
+		border-radius: 4px;
+		height: 40vh;
 		margin: 4rem;
 		overflow: hidden;
 		position: relative;
 
 		img {
-			position: absolute;
-			transform: scale(0.225) translateY(12rem);
+			position: relative;
+			transform: scale(1.5);
+			width: 100%;
 			z-index: 1;
 		}
 
 		figcaption {
-			color: #ffffff;
+			color: #3d3d3d;
 			font-size: .75rem;
 			padding: 1rem;
 			position: absolute;
+			right: 0;
 			text-align: center;
 			text-transform: uppercase;
+			top: 0;
 			z-index: 2;
 		}
 	}
@@ -37,6 +36,7 @@
 		border-top: 1px solid transparent;
 		display: flex;
 		flex-direction: row;
+		flex-grow: 0;
 
 		@include theme.value {
     	border-color: theme.t('border');
@@ -60,11 +60,13 @@
 
 			h3 {
 				font-size: .75rem;
+				font-weight: 600;
+				margin-bottom: 1rem;
 				text-transform: uppercase;
 			}
 
 			p {
-				//
+				font-size: .9rem;
 			}
 		}
 	}
