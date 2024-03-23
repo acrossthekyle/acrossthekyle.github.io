@@ -1,0 +1,246 @@
+@use 'scss/mixins/_has' as has;
+@use 'scss/mixins/_theme' as theme;
+@use 'scss/variables' as *;
+
+.main {
+	height: 100%;
+  padding: 0 4rem;
+  width: 100%;
+
+	> section {
+    border: 1px solid transparent;
+    display: flex;
+    height: 100%;
+    position: relative;
+
+    @include theme.value {
+    	border-color: theme.t('border');
+  	}
+
+    > aside {
+      border-right: 1px solid transparent;
+      height: 100%;
+      padding: .25rem 0 0;
+      position: relative;
+      width: 17rem;
+
+      @include theme.value {
+	    	border-color: theme.t('border');
+	  	}
+
+      nav {
+      	border-bottom: 1px solid transparent;
+				padding: 1rem;
+
+				@include theme.value {
+		    	border-color: theme.t('border');
+		  	}
+
+				a {
+					align-items: center;
+					display: flex;
+					font-size: .75rem;
+					line-height: 1;
+					margin: 0 0 .3rem 0;
+					padding: 0;
+					position: relative;
+					text-decoration: none;
+					text-transform: uppercase;
+					transition: color .3s ease;
+
+					@include theme.value {
+			    	color: theme.t('text');
+			  	}
+
+					&:last-child {
+						margin: 0;
+					}
+
+					&:after {
+						border-radius: .25rem;
+						content: ' ';
+						display: block;
+						height: .5rem;
+						opacity: 0;
+						position: absolute;
+						right: 0;
+						transition: opacity .3s ease;
+						width: .5rem;
+
+						@include theme.value {
+				    	background: theme.t('text');
+				  	}
+					}
+
+					@include has.mouse {
+						&:hover {
+							@include theme.value {
+					    	color: theme.t('text-hover');
+					  	}
+
+							&:after {
+								opacity: .5;
+							}
+						}
+					}
+
+					&[data-active="true"] {
+						&:after {
+							opacity: 1;
+						}
+					}
+				}
+      }
+
+      > section {
+      	position: relative;
+      }
+    }
+
+    > article {
+    	//
+    }
+  }
+
+  a {
+    align-items: center;
+    display: flex;
+
+    svg {
+      height: 8px;
+      margin-left: 4px;
+      width: 8px;
+    }
+  }
+
+  button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0;
+  }
+
+  figure {
+  	margin: 0;
+  	padding: 0;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+		position: absolute;
+
+		@include theme.value {
+    	color: theme.t('text');
+  	}
+
+		a {
+			align-items: center;
+			display: flex;
+			height: 4rem;
+			justify-content: center;
+			left: -.1rem;
+			position: fixed;
+			top: .5rem;
+			width: 4rem;
+
+			div {
+				border-radius: 4px;
+				height: 32px;
+				margin-left: 4px;
+				position: relative;
+				transition: background .3s ease;
+				width: 24px;
+				white-space: pre;
+				z-index: 1;
+
+				@include theme.value {
+	      	background: theme.t('logo-block');
+	    	}
+
+				&:before,
+				&:after {
+					display: block;
+					pointer-events: none;
+					position: absolute;
+				}
+
+				&:after {
+					border-top-left-radius: 5px;
+					border-style: solid;
+			    border-width: 26px 26px 0 0;
+			    content: ' ';
+					height: 0px;
+					left: 12px;
+					margin-top: -13px;
+					top: 50%;
+					transition: left .5s ease, border-color .3s ease;
+					transform: rotate(-45deg);
+					width: 0px;
+					z-index: 2;
+
+					@include theme.value {
+						border-color: theme.t('logo-block-cutout');
+		    	}
+				}
+			}
+
+			@include has.mouse {
+				&:hover {
+					div {
+						&:after {
+							left: 32px;
+						}
+					}
+				}
+			}
+		}
+
+		h1 {
+			bottom: 5rem;
+			font-size: .75rem;
+			font-weight: 500;
+			left: -2.25rem;
+			line-height: 1rem;
+			position: fixed;
+			text-transform: uppercase;
+			transform: rotate(-90deg);
+		}
+
+		h2 {
+			top: 5rem;
+			font-size: .75rem;
+			font-weight: 500;
+			right: -2rem;
+			line-height: 1rem;
+			position: fixed;
+			text-transform: uppercase;
+			transform: rotate(90deg);
+		}
+
+		h3 {
+			bottom: 3rem;
+			font-size: .75rem;
+			font-weight: 500;
+			right: .25rem;
+			line-height: 1rem;
+			position: fixed;
+			text-transform: uppercase;
+			transform: rotate(90deg);
+		}
+	}
+
+  img {
+    opacity: 1;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}

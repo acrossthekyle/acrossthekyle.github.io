@@ -1,0 +1,71 @@
+@use 'scss/mixins/_has' as has;
+@use 'scss/mixins/_theme' as theme;
+@use 'scss/variables' as *;
+
+.about {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+
+	figure {
+		align-items: center;
+		display: flex;
+		height: 20rem;
+		justify-content: center;
+		margin: 4rem;
+		overflow: hidden;
+		position: relative;
+
+		img {
+			position: absolute;
+			transform: scale(0.225) translateY(12rem);
+			z-index: 1;
+		}
+
+		figcaption {
+			color: #ffffff;
+			font-size: .75rem;
+			padding: 1rem;
+			position: absolute;
+			text-align: center;
+			text-transform: uppercase;
+			z-index: 2;
+		}
+	}
+
+	section {
+		border-top: 1px solid transparent;
+		display: flex;
+		flex-direction: row;
+
+		@include theme.value {
+    	border-color: theme.t('border');
+  	}
+
+		div {
+			border-right: 1px solid transparent;
+			display: flex;
+			flex: 1;
+			flex-direction: column;
+			padding: 1rem;
+
+			@include theme.value {
+				border-color: theme.t('border');
+	    	color: theme.t('text');
+  		}
+
+  		&:last-child {
+  			border-right: none;
+  		}
+
+			h3 {
+				font-size: .75rem;
+				text-transform: uppercase;
+			}
+
+			p {
+				//
+			}
+		}
+	}
+}

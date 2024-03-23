@@ -1,0 +1,49 @@
+@use 'scss/mixins/_has' as has;
+@use 'scss/mixins/_theme' as theme;
+@use 'scss/variables' as *;
+
+.settings {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+
+	section {
+		border-bottom: 1px solid transparent;
+		display: flex;
+		flex-direction: row;
+		height: 4rem;
+
+		@include theme.value {
+    	border-color: theme.t('border');
+  	}
+
+		label {
+			align-items: center;
+			border-right: 1px solid transparent;
+			cursor: pointer;
+			display: flex;
+			flex: 1;
+			font-size: .75rem;
+			padding: 2rem;
+			text-align: left;
+			text-transform: uppercase;
+
+			@include theme.value {
+	    	border-color: theme.t('border');
+	    	color: theme.t('text');
+	  	}
+
+			input {
+				margin-right: .5rem;
+
+				@include theme.value {
+		    	accent-color: theme.t('checkbox');
+		  	}
+			}
+
+			&:last-child {
+				border-right: none;
+			}
+		}
+	}
+}

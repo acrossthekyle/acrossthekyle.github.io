@@ -1,9 +1,7 @@
-import styles from 'scss/app/page.module.scss'
-
 export default function Page() {
   return (
     <>
-      Page
+      Table of Contents
     </>
   );
 }
