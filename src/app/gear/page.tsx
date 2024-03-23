@@ -7,7 +7,7 @@ export default function Page() {
       <section>
         <ul>
           {hikes.map(({ gearLink, title }) => (
-            <li>
+            <li key={gearLink}>
               <a href={gearLink}>
                 {title.join(' ')}
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
