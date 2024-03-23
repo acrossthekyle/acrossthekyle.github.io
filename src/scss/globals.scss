@@ -68,16 +68,8 @@ body {
   }
 
   [imagelessable="true"] {
-    div {
-      inset: 0;
-      position: absolute;
-      z-index: 0;
-    }
-
     img {
-      position: relative;
       transition: all .5s ease;
-      z-index: 1;
     }
   }
 
@@ -91,6 +83,10 @@ body {
     [imagelessable="true"] {
       img {
         opacity: 0;
+      }
+
+      figcaption {
+        display: none;
       }
     }
   }

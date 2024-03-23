@@ -1,0 +1,40 @@
+@use 'scss/mixins/_has' as has;
+@use 'scss/mixins/_theme' as theme;
+@use 'scss/variables' as *;
+
+.gear {
+	flex: 1;
+
+	section {
+		border-bottom: 1px solid transparent;
+		display: flex;
+		padding: 1rem;
+
+		@include theme.value {
+    	border-color: theme.t('border');
+  	}
+
+  	ul {
+  		display: flex;
+  		flex: 1;
+  		flex-direction: column;
+
+  		li {
+  			display: flex;
+  			flex: 1;
+  			font-size: .75rem;
+  			justify-content: space-between;
+  			margin-bottom: .5rem;
+  			text-transform: uppercase;
+
+  			@include theme.value {
+		    	color: theme.t('text');
+		  	}
+
+  			&:last-child {
+  				margin-bottom: 0;
+  			}
+  		}
+  	}
+	}
+}

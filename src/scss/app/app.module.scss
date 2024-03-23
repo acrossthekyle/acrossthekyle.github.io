@@ -86,6 +86,10 @@
 					}
 
 					&[data-active="true"] {
+						@include theme.value {
+				    	color: theme.t('text-hover');
+				  	}
+
 						&:after {
 							opacity: 1;
 						}
@@ -107,11 +111,36 @@
   a {
     align-items: center;
     display: flex;
+    text-decoration: none;
+    transition: color .3s ease;
+
+    @include theme.value {
+    	color: theme.t('text');
+  	}
 
     svg {
       height: 8px;
       margin-left: 4px;
+      transition: fill .3s ease;
       width: 8px;
+
+      @include theme.value {
+	    	fill: theme.t('text');
+	  	}
+    }
+
+    @include has.mouse {
+    	&:hover {
+    		@include theme.value {
+		    	color: theme.t('text-hover');
+		  	}
+
+		  	svg {
+		  		@include theme.value {
+			    	fill: theme.t('text-hover');
+			  	}
+		  	}
+    	}
     }
   }
 
@@ -244,6 +273,10 @@
   	line-height: 1.5rem;
   	margin: 0 0 1rem 0;
   	padding: 0;
+
+  	&:last-child {
+  		margin: 0;
+  	}
   }
 
   ul {

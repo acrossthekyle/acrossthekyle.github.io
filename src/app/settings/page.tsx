@@ -25,13 +25,13 @@ export default function Page() {
         </label>
 
         <label htmlFor="images">
-          <input checked={!isImageless} id="images" onChange={toggleImageless} type="checkbox" />
-          Images
+          <input checked={isImageless} id="images" onChange={toggleImageless} type="checkbox" />
+          No Images
         </label>
 
         <label htmlFor="colors">
-          <input checked={!isMonochrome} id="colors" onChange={toggleMonochrome} type="checkbox" />
-          Colors
+          <input checked={isMonochrome} id="colors" onChange={toggleMonochrome} type="checkbox" />
+          B & W
         </label>
       </section>
     </article>

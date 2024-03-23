@@ -14,7 +14,7 @@ export default function Template({ children, details }: Props) {
 	const pathname = usePathname();
 
   return (
-  	<main className={styles.main}>
+  	<main className={styles.main} monochromeable="true">
 	  	<header>
 	      <Link href="/" aria-label="home">
 	        <div />
