@@ -2,4 +2,61 @@
 @use 'scss/mixins/_theme' as theme;
 @use 'scss/variables' as *;
 
-//
+.index {
+	flex: 1;
+	position: relative;
+
+	.left,
+	.right {
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 50%;
+		z-index: 2;
+	}
+
+	.left {
+		cursor: w-resize;
+	}
+
+	.right {
+		cursor: e-resize;
+		left: 50%;
+	}
+
+	div {
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		inset: 6rem 9rem;
+		opacity: 0;
+		position: absolute;
+		transition: opacity .7s ease, visibility .7s ease;
+		visibility: hidden;
+		z-index: 1;
+
+		&[data-active="true"] {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+}
+
+.slot {
+	align-items: flex-end;
+	display: flex;
+	flex: 1;
+	font-size: .75rem;
+	justify-content: space-between;
+	padding: 1rem;
+	text-transform: uppercase;
+
+	@include theme.value {
+  	color: theme.t('text');
+	}
+
+	a {
+		padding-right: .25rem
+	}
+}

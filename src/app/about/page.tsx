@@ -8,7 +8,7 @@ export default function Page() {
           src="https://ik.imagekit.io/acrossthekyle/backpacking-1.jpeg?updatedAt=1709072809903"
           alt="Kyle Gilbert"
         />
-        <figcaption>Me &mdash; Grande Randonnée 20 / June 2023</figcaption>
+        <figcaption>Grande Randonnée 20 &mdash;  June 2023</figcaption>
       </figure>
 
       <section>
@@ -22,7 +22,7 @@ export default function Page() {
           </p>
         </div>
         <div>
-          <h3>Backstory</h3>
+          <h3>Thru-hiker</h3>
           <p>
             On a whim I booked a one-way flight to walk The Camino de Santiago: a nearly 500
             mile long backpacking trail across Northern Spain from France to the

@@ -3,14 +3,21 @@
 import 'scss/globals.scss';
 
 import { useEffect } from 'react';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 import { SettingsProvider } from 'contexts/settings';
+import { SlotsProvider } from 'contexts/slots';
+import styles from 'scss/app/app.module.scss'
 
 type Props = {
   children: React.ReactNode;
+  details: React.ReactNode;
 };
 
-export default function RootLayout({ children }: Props) {
+export default function RootLayout({ children, details }: Props) {
+  const pathname = usePathname();
+
   useEffect(() => {
     console.log('https://github.com/acrossthekyle/acrossthekyle.github.io');
     console.log('Hint: press "I" on the keyboard to toggle imageless mode');
@@ -34,7 +41,34 @@ export default function RootLayout({ children }: Props) {
       <body>
         <div className="loading"></div>
         <SettingsProvider>
-          {children}
+          <SlotsProvider>
+            <main className={styles.main} monochromeable="true">
+              <header>
+                <Link href="/" aria-label="home">
+                  <div />
+                </Link>
+                <h1>
+                  Thru-hiker by design
+                </h1>
+                <h2>
+                  Developer by trade
+                </h2>
+                <h3>Chicago</h3>
+              </header>
+              <section>
+                <aside>
+                  <nav>
+                    <Link data-active={pathname.includes('thru-hikes')} href="/thru-hikes">Thru-hikes</Link>
+                    <Link data-active={pathname === '/gallery'} href="/gallery">Gallery</Link>
+                    <Link data-active={pathname === '/about'} href="/about">About</Link>
+                    <Link data-active={pathname === '/settings'} href="/settings">Settings</Link>
+                  </nav>
+                  {details}
+                </aside>
+                {children}
+              </section>
+            </main>
+          </SlotsProvider>
         </SettingsProvider>
       </body>
     </html>
