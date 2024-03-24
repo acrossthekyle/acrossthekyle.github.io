@@ -3,8 +3,8 @@
 import { useContext } from 'react';
 
 import { SlotsContext } from 'contexts/slots';
-import { hikes } from 'data/hikes'
-import styles from 'scss/app/page.module.scss'
+import { hikes } from 'data/hikes';
+import styles from 'scss/app/page.module.scss';
 
 export default function Page() {
   const { slotIndex, setSlotIndex } = useContext(SlotsContext);

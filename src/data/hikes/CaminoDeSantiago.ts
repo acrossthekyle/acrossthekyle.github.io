@@ -208,4 +208,5 @@ export const CaminoDeSantiago: Hike = {
   miles: '491',
   months: ['June', 'July'],
   mountains: ['Camino Frances'],
+  years: ['2018'],
 };

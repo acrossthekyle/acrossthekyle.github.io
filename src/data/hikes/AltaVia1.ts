@@ -116,4 +116,5 @@ export const AltaVia1: Hike = {
   months: ['July'],
   mountains: ['Dolomites'],
   title: ['Alta', 'Via', '1'],
+  years: ['2019'],
 };

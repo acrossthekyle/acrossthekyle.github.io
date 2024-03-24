@@ -159,4 +159,5 @@ export const GrandeRandonnee20: Hike = {
   months: ['June', 'July'],
   mountains: ['Corsica'],
   title: ['Grande', 'Randonnée', '20'],
+  years: ['2023'],
 };

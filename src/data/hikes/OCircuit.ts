@@ -64,4 +64,5 @@ export const OCircuit: Hike = {
   months: ['February'],
   mountains: ['Patagonia'],
   title: ['Torres del', 'Paine', 'O Circuit'],
+  years: ['2020'],
 };

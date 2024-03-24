@@ -12,6 +12,7 @@ export type Hike = {
   months: string[];
   mountains?: string[];
   title: string[];
+  years: string[];
 };
 
 type HikeItinerary = {

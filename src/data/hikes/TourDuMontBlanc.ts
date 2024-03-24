@@ -135,4 +135,5 @@ export const TourDuMontBlanc: Hike = {
   months: ['September'],
   mountains: ['Alps'],
   title: ['Tour du', 'Mont', 'Blanc'],
+  years: ['2018', '2024'],
 };

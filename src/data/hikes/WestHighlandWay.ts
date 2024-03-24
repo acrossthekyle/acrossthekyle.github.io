@@ -82,4 +82,5 @@ export const WestHighlandWay: Hike = {
   months: ['May'],
   mountains: ['Highlands'],
   title: ['West', 'Highland', 'Way'],
+  years: ['2022'],
 };

@@ -1,0 +1,105 @@
+@use 'scss/mixins/_has' as has;
+@use 'scss/mixins/_theme' as theme;
+@use 'scss/variables' as *;
+
+.thrus {
+	align-items: flex-start;
+	align-self: baseline;
+	border-bottom: 1px solid transparent;
+	display: flex;
+	height: auto;
+	position: relative;
+	width: 100%;
+
+	@include theme.value {
+  	border-color: theme.t('border');
+	}
+
+	ul {
+		height: auto;
+		width: 60%;
+
+		li {
+			align-items: center;
+			display: flex;
+			font-size: .85rem;
+			padding-bottom: .5rem;
+
+			@include theme.value {
+		  	color: theme.t('text');
+			}
+
+			&:first-child {
+				font-size: .75rem;
+				font-weight: 400;
+				padding: 1rem 0 .75rem;
+				text-transform: uppercase;
+			}
+
+			div {
+				padding: 0 .65rem;
+				width: 100%;
+
+				&:nth-child(2) {
+					display: flex;
+					justify-content: space-between;
+				}
+			}
+
+			a {
+				align-items: center;
+				display: flex;
+				flex: 1;
+			}
+		}
+	}
+
+	.backdrop {
+		background: #ddd;
+		bottom: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		margin: 1rem;
+		max-height: 350px;
+		width: 40%;
+	}
+
+	.preview {
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		bottom: 0;
+		opacity: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		margin: 1rem;
+		max-height: 350px;
+		transition: opacity .7s ease, visibility .7s ease;
+		visibility: hidden;
+		width: 40%;
+
+		&[data-active="true"] {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+
+	.borders {
+		display: flex;
+		height: 100%;
+		pointer-events: none;
+		position: absolute;
+		width: 100%;
+
+		div {
+			border-right: 1px solid transparent;
+			width: 20%;
+
+			@include theme.value {
+		  	border-color: theme.t('border');
+			}
+		}
+	}
+}
