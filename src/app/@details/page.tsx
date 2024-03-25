@@ -24,7 +24,7 @@ export default function Page() {
   return (
     <section className={styles.slot} data-settings-active={isSettingsOpen}>
       <div className={styles.link} id="slot-label">
-        <Link href={`/travels/${travels[slotIndex].id}`}>
+        <Link href={`/travels/${travels[slotIndex].year}/${travels[slotIndex].id}`}>
           {travels[slotIndex].title.join(' ')}
         </Link>
         <span>
