@@ -17,16 +17,36 @@
 }
 
 .slot {
-	bottom: 0px;
-	position: absolute;
-	text-transform: uppercase;
-	width: 100%;
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	justify-content: space-between;
 
 	@include theme.value {
   	color: theme.t('text');
 	}
 
-	.travel {
+	.description {
 		padding: .7rem;
+	}
+
+	.options {
+		padding: .7rem;
+
+		button {
+			display: block;
+			margin-bottom: .4rem;
+			text-transform: uppercase;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+
+		span {
+			display: block;
+			margin-top: 1rem;
+			text-transform: uppercase;
+		}
 	}
 }
