@@ -1,0 +1,32 @@
+@use 'scss/mixins/_has' as has;
+@use 'scss/mixins/_theme' as theme;
+@use 'scss/variables' as *;
+
+.travel {
+	flex: 1;
+	position: relative;
+
+	div {
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		inset: 6rem 9rem;
+		position: absolute;
+		z-index: 1;
+	}
+}
+
+.slot {
+	bottom: 0px;
+	position: absolute;
+	text-transform: uppercase;
+	width: 100%;
+
+	@include theme.value {
+  	color: theme.t('text');
+	}
+
+	.travel {
+		padding: .7rem;
+	}
+}
