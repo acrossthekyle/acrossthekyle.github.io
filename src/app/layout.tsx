@@ -3,12 +3,15 @@
 import 'scss/globals.scss';
 
 import { useEffect } from 'react';
+import localFont from 'next/font/local';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 import { SettingsProvider } from 'contexts/settings';
 import { SlotsProvider } from 'contexts/slots';
 import styles from 'scss/app/app.module.scss'
+
+const fontFamily = localFont({ src: '../fonts/styrene.otf' });
 
 type Props = {
   children: React.ReactNode;
@@ -38,7 +41,7 @@ export default function RootLayout({ children, details }: Props) {
 
         <title>Kyle &mdash; A Thru Hiker by design | A Developer by trade</title>
       </head>
-      <body>
+      <body className={fontFamily.className}>
         <div className="loading"></div>
         <SettingsProvider>
           <SlotsProvider>
@@ -58,10 +61,9 @@ export default function RootLayout({ children, details }: Props) {
               <section>
                 <aside>
                   <nav>
-                    <Link data-active={pathname.includes('thru-hikes')} href="/thru-hikes">Thru-hikes</Link>
+                    <Link data-active={pathname.includes('adventures')} href="/adventures">Adventures</Link>
                     <Link data-active={pathname === '/gallery'} href="/gallery">Gallery</Link>
                     <Link data-active={pathname === '/about'} href="/about">About</Link>
-                    <Link data-active={pathname === '/settings'} href="/settings">Settings</Link>
                   </nav>
                   {details}
                 </aside>

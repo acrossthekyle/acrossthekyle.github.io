@@ -22,17 +22,14 @@
 		li {
 			align-items: center;
 			display: flex;
-			font-size: .85rem;
-			padding-bottom: .5rem;
+			padding-bottom: .25rem;
 
 			@include theme.value {
 		  	color: theme.t('text');
 			}
 
 			&:first-child {
-				font-size: .75rem;
-				font-weight: 400;
-				padding: 1rem 0 .75rem;
+				padding: 1rem 0 .5rem;
 				text-transform: uppercase;
 			}
 

@@ -44,19 +44,69 @@
 }
 
 .slot {
-	align-items: flex-end;
-	display: flex;
-	flex: 1;
-	font-size: .75rem;
-	justify-content: space-between;
-	padding: 1rem;
+	bottom: -70px;
+	position: absolute;
 	text-transform: uppercase;
+	transition: bottom .5s ease;
+	width: 100%;
 
 	@include theme.value {
   	color: theme.t('text');
 	}
 
-	a {
-		padding-right: .25rem
+	.link {
+		align-items: flex-end;
+		display: flex;
+		justify-content: space-between;
+		padding: .7rem;
+
+		a {
+			line-height: 1rem;
+			padding-right: .25rem
+		}
+	}
+
+	.settings {
+		align-items: flex-start;
+		border-top: 1px solid transparent;
+		display: flex;
+		flex-direction: column;
+		height: 100px;
+		padding: .7rem;
+		width: 100%;
+
+		@include theme.value {
+	  	border-color: theme.t('border');
+		}
+
+		button {
+			margin-bottom: .7rem;
+			text-transform: uppercase;
+		}
+
+		label {
+			align-items: center;
+			cursor: pointer;
+			display: flex;
+			flex: 1;
+			text-transform: uppercase;
+
+			@include theme.value {
+	    	color: theme.t('text');
+	  	}
+
+			input {
+				margin-right: .5rem;
+				margin-top: -.1rem;
+
+				@include theme.value {
+		    	accent-color: theme.t('checkbox');
+		  	}
+			}
+		}
+	}
+
+	&[data-settings-active="true"] {
+		bottom: 0;
 	}
 }

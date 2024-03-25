@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Link from 'next/link';
 
 import { hikes } from 'data/hikes';
-import styles from 'scss/app/thru-hikes/page.module.scss';
+import styles from 'scss/app/adventures/page.module.scss';
 
 export default function Page() {
   const [index, setIndex] = useState(-1);
@@ -20,7 +20,7 @@ export default function Page() {
 
         {hikes.map(({ countries, id, months, mountains, title, years }, idx) => (
           <li onMouseEnter={() => setIndex(idx)} onMouseLeave={() => setIndex(-1)}>
-            <Link href={`/thru-hikes/${id}`} key={id}>
+            <Link href={`/adventures/${id}`} key={id}>
               <div>{title.join(' ')}</div>
               <div>
                 <span>{months.join(', ')}</span> <span>{years.join(', ')}</span>

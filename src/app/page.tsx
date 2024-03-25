@@ -1,6 +1,7 @@
 'use client'
 
 import { useContext } from 'react';
+import Link from 'next/link';
 
 import { SlotsContext } from 'contexts/slots';
 import { hikes } from 'data/hikes';
@@ -23,13 +24,15 @@ export default function Page() {
       <button className={styles.right} onClick={handleOnNext} type="button" />
 
       {hikes.map(({ id, image }, index) => (
-        <div
-          aria-labelledBy="slot-label"
-          data-active={index === slotIndex}
-          key={id}
-          role="img"
-          style={{ backgroundImage: `url(${image})` }}
-        />
+        <Link href={`/adventures/${id}`}>
+          <div
+            aria-labelledby="slot-label"
+            data-active={index === slotIndex}
+            key={id}
+            role="img"
+            style={{ backgroundImage: `url(${image})` }}
+          />
+        </Link>
       ))}
     </article>
   );

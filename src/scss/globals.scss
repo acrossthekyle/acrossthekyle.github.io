@@ -25,13 +25,14 @@ html {
 
 body, html {
   background-color: transparent;
-  font-family: "Lato";
   height: 100%;
   transition: background-color .3s ease;
   width: 100%;
 }
 
 body {
+  font-size: .7rem;
+  font-weight: normal;
   margin: 0;
 
   .loading {

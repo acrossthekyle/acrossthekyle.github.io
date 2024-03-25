@@ -158,6 +158,6 @@ export const GrandeRandonnee20: Hike = {
   miles: '70',
   months: ['June', 'July'],
   mountains: ['Corsica'],
-  title: ['Grande', 'Randonnée', '20'],
+  title: ['Grande', 'Randonnee', '20'],
   years: ['2023'],
 };

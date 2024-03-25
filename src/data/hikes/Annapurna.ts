@@ -175,6 +175,6 @@ export const Annapurna: Hike = {
   miles: '143',
   months: ['October', 'November'],
   mountains: ['Himalayas'],
-  title: ['Annapurna', 'Circuit', '&', 'Basecamp'],
+  title: ['Annapurna', 'Circuit', 'and', 'Basecamp'],
   years: ['2019'],
 };

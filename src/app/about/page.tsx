@@ -15,30 +15,30 @@ export default function Page() {
         <div>
           <h3>About</h3>
           <p>
-            I currently reside in the concrete jungle of Chicago with my partner
-            and our dog Dax. I am a thru-hiker by
+            Kyle currently resides in the concrete jungle of Chicago with his partner
+            and their dog Dax. He is a a thru-hiker by
             design, and a developer by trade, with a love for carrying everything
-            I need to survive on my back.
+            he needs to survive on his back.
           </p>
         </div>
         <div>
           <h3>Thru-hiker</h3>
           <p>
-            On a whim I booked a one-way flight to walk The Camino de Santiago: a nearly 500
+            On a whim he booked a one-way flight to walk The Camino de Santiago: a nearly 500
             mile long backpacking trail across Northern Spain from France to the
-            Atlantic ocean. Since then, I have visited numerous countries, and
+            Atlantic ocean. Since then, he has visited numerous countries, and
             thru-hiked various trails.
           </p>
         </div>
         <div>
           <h3>Developer</h3>
           <p>
-            I have been doing web development (front and back) for 15+ years with
+            Kyle has been doing web development (front and back) for more than 15 years with
             the latter third of that time spent working in React and React Native.
-            I like to refer to it as "designing code".
+            He likes to refer to it as "designing code".
           </p>
           <p>
-            When not doing work for my full-time job, I like to tinker with Garmin
+            When not doing work for his full-time job, Kyle likes to tinker with Garmin
             wearable apps, and this website.
           </p>
         </div>
@@ -55,11 +55,11 @@ export default function Page() {
           </p>
           <p>
             <a
-              title="Go to my garmin apps"
+              title="Go to kyles garmin apps"
               href="https://apps.garmin.com/en-US/developer/f796f8e5-5034-44c2-99a7-21d319c6c728/apps"
               target="_blank"
               rel="noreferrer"
-              aria-label="go to my garmin apps"
+              aria-label="go to kyles garmin apps"
             >
               Garmin apps
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">

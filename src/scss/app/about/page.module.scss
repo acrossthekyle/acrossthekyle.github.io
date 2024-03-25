@@ -6,6 +6,7 @@
 	flex: 1;
 
 	figure {
+		display: none;
 		background: #89d2e8;
 		height: 40vh;
 		margin: 4rem;
@@ -21,7 +22,6 @@
 
 		figcaption {
 			color: #3d3d3d;
-			font-size: .65rem;
 			padding: 1rem;
 			position: absolute;
 			right: 0;
@@ -58,14 +58,8 @@
   		}
 
 			h3 {
-				font-size: .75rem;
-				font-weight: 400;
-				margin-bottom: .75rem;
+				margin-bottom: .5rem;
 				text-transform: uppercase;
-			}
-
-			p {
-				font-size: .9rem;
 			}
 		}
 	}

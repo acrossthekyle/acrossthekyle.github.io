@@ -98,10 +98,6 @@
 					}
 				}
       }
-
-      > section {
-      	position: relative;
-      }
     }
 
     > article {
@@ -152,6 +148,19 @@
     cursor: pointer;
     line-height: 1;
     padding: 0;
+    transition: color .3s ease;
+
+    @include theme.value {
+    	color: theme.t('text');
+  	}
+
+    @include has.mouse {
+			&:hover {
+				@include theme.value {
+		    	color: theme.t('text-hover');
+		  	}
+			}
+		}
   }
 
   figure {
@@ -160,6 +169,8 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
+  	font-size: .7rem;
+  	font-weight: normal;
     margin: 0;
     padding: 0;
   }
@@ -234,10 +245,8 @@
 		}
 
 		h1 {
-			bottom: 5rem;
-			font-size: .75rem;
-			font-weight: 500;
-			left: -2.25rem;
+			bottom: 5.1rem;
+			left: -2.4rem;
 			line-height: 1rem;
 			position: fixed;
 			text-transform: uppercase;
@@ -245,10 +254,8 @@
 		}
 
 		h2 {
-			top: 5rem;
-			font-size: .75rem;
-			font-weight: 500;
-			right: -2rem;
+			top: 5.2rem;
+			right: -2.2rem;
 			line-height: 1rem;
 			position: fixed;
 			text-transform: uppercase;
@@ -257,9 +264,7 @@
 
 		h3 {
 			bottom: 2.5rem;
-			font-size: .75rem;
-			font-weight: 500;
-			right: .25rem;
+			right: .3rem;
 			line-height: 1rem;
 			position: fixed;
 			text-transform: uppercase;
@@ -272,8 +277,8 @@
   }
 
   p {
-  	line-height: 1.25rem;
-  	margin: 0 0 1rem 0;
+  	line-height: 1rem;
+  	margin: 0 0 .5rem 0;
   	padding: 0;
 
   	&:last-child {
