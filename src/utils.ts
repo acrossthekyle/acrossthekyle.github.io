@@ -1,7 +1,7 @@
 import { IMAGE_BASE, MAP_BASE } from './constants';
 
-export function getImageUrl(id: string, updatedAt: string) {
-  return `${IMAGE_BASE}/${id}?updatedAt=${updatedAt}`;
+export function getImageUrl(id: string, ts: string) {
+  return `${IMAGE_BASE}/${id}?updatedAt=${ts}`;
 }
 
 export function getMapUrl(id: string) {

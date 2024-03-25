@@ -75,11 +75,12 @@ export default {
       tripActivityLink: 'https://connect.garmin.com/modern/activity/8811398305'
     },
   ],
+  locations: ['Highlands'],
   mapBackgroundUrl: getImageUrl('whw-map.jpeg', '1710261561777'),
   mapUrl: getMapUrl('1Msr8DFrL_JOi0irhOoK_DYfE7peE2XU'),
   miles: '96',
   months: ['May'],
-  locations: ['Highlands'],
   title: ['West', 'Highland', 'Way'],
-  years: ['2022'],
+  type: 'thru-hike',
+  year: 2022,
 };

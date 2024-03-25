@@ -2,11 +2,12 @@
 @use 'scss/mixins/_theme' as theme;
 @use 'scss/variables' as *;
 
-.thrus {
+.travels {
 	align-items: flex-start;
 	align-self: baseline;
 	border-bottom: 1px solid transparent;
 	display: flex;
+	flex: 1;
 	height: auto;
 	position: relative;
 	width: 100%;
@@ -36,23 +37,59 @@
 			div {
 				padding: 0 .65rem;
 				width: 100%;
-
-				&:nth-child(2) {
-					display: flex;
-					justify-content: space-between;
-				}
 			}
 
 			a {
 				align-items: center;
 				display: flex;
 				flex: 1;
+
+				div {
+					padding: 0 .65rem;
+					position: relative;
+					width: 100%;
+
+					&:nth-child(2) {
+						display: flex;
+						justify-content: space-between;
+					}
+
+					&:last-child {
+						&:after {
+							border-radius: .25rem;
+							content: ' ';
+							display: block;
+							height: .5rem;
+							opacity: 0;
+							position: absolute;
+							right: 2rem;
+							top: 0;
+							transition: opacity .3s ease;
+							width: .5rem;
+
+							@include theme.value {
+					    	background: theme.t('text');
+					  	}
+						}
+					}
+				}
+
+				@include has.mouse {
+					&:hover {
+						div {
+							&:last-child {
+								&:after {
+									opacity: .5;
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}
 
 	.backdrop {
-		background: #ddd;
 		bottom: 0;
 		position: absolute;
 		right: 0;

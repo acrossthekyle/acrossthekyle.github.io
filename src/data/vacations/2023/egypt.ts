@@ -6,8 +6,9 @@ export default {
   days: '10',
   id: 'egypt',
   image: getImageUrl('camino.jpeg', '1695314660391'),
-  title: ['Egypt'],
-  months: ['December', 'January'],
   locations: ['Cairo', 'Luxor'],
-  years: ['2023'],
+  months: ['Dec', 'Jan'],
+  title: ['Egypt'],
+  type: 'vacation',
+  year: 2023,
 };

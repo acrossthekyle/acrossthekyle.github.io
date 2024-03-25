@@ -61,8 +61,8 @@ export default function RootLayout({ children, details }: Props) {
               <section>
                 <aside>
                   <nav>
-                    <Link data-active={pathname.includes('adventures')} href="/adventures">Adventures</Link>
-                    <Link data-active={pathname === '/gallery'} href="/gallery">Gallery</Link>
+                    <Link data-active={pathname.includes('travels')} href="/travels">Travels</Link>
+                    <Link data-active={pathname === '/gallery'} href="/gallery">Index</Link>
                     <Link data-active={pathname === '/about'} href="/about">About</Link>
                   </nav>
                   {details}

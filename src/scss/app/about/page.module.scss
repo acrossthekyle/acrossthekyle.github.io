@@ -5,33 +5,6 @@
 .about {
 	flex: 1;
 
-	figure {
-		display: none;
-		background: #89d2e8;
-		height: 40vh;
-		margin: 4rem;
-		overflow: hidden;
-		position: relative;
-
-		img {
-			position: relative;
-			transform: scale(1.25);
-			width: 100%;
-			z-index: 1;
-		}
-
-		figcaption {
-			color: #3d3d3d;
-			padding: 1rem;
-			position: absolute;
-			right: 0;
-			text-align: center;
-			text-transform: uppercase;
-			top: 0;
-			z-index: 2;
-		}
-	}
-
 	section {
 		border-bottom: 1px solid transparent;
 		border-top: 1px solid transparent;

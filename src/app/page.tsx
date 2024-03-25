@@ -4,18 +4,18 @@ import { useContext } from 'react';
 import Link from 'next/link';
 
 import { SlotsContext } from 'contexts/slots';
-import adventures from 'data/adventures';
+import travels from 'data/travels';
 import styles from 'scss/app/page.module.scss';
 
 export default function Page() {
   const { slotIndex, setSlotIndex } = useContext(SlotsContext);
 
   const handleOnPrevious = () => {
-    setSlotIndex(slotIndex === 0 ? adventures.length - 1 : slotIndex - 1);
+    setSlotIndex(slotIndex === 0 ? travels.length - 1 : slotIndex - 1);
   };
 
   const handleOnNext = () => {
-    setSlotIndex(slotIndex === adventures.length - 1 ? 0 : slotIndex + 1);
+    setSlotIndex(slotIndex === travels.length - 1 ? 0 : slotIndex + 1);
   };
 
   return (
@@ -23,8 +23,8 @@ export default function Page() {
       <button className={styles.left} onClick={handleOnPrevious} type="button" />
       <button className={styles.right} onClick={handleOnNext} type="button" />
 
-      {adventures.map(({ id, image }, index) => (
-        <Link href={`/adventures/${id}`} key={id}>
+      {travels.map(({ id, image, year }, index) => (
+        <Link href={`/travels/${year}/${id}`} key={id}>
           <div
             aria-labelledby="slot-label"
             data-active={index === slotIndex}

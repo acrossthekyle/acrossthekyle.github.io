@@ -152,11 +152,12 @@ export default {
       tripActivityLink: 'https://connect.garmin.com/modern/activity/11485972736'
     }
   ],
+  locations: ['Corsica'],
   mapBackgroundUrl: getImageUrl('gr20-map.png', '1710177465612'),
   mapUrl: getMapUrl('1X2_gXP50kDf5UBk-ZQuRRpVE32tOdds'),
   miles: '70',
   months: ['June', 'July'],
-  locations: ['Corsica'],
   title: ['Grande', 'Randonnee', '20'],
-  years: ['2023'],
+  type: 'thru-hike',
+  year: 2023,
 };

@@ -3,14 +3,6 @@ import styles from 'scss/app/about/page.module.scss'
 export default function Page() {
   return (
     <article className={styles.about}>
-      <figure imagelessable="true">
-        <img
-          src="https://ik.imagekit.io/acrossthekyle/backpacking-1.jpeg?updatedAt=1709072809903"
-          alt="Kyle Gilbert"
-        />
-        <figcaption>Grande Randonnée 20 &mdash;  June 2023</figcaption>
-      </figure>
-
       <section>
         <div>
           <h3>About</h3>

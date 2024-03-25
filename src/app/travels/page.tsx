@@ -3,14 +3,14 @@
 import { useState } from 'react';
 import Link from 'next/link';
 
-import adventures from 'data/adventures';
-import styles from 'scss/app/adventures/page.module.scss';
+import travels from 'data/travels';
+import styles from 'scss/app/travels/page.module.scss';
 
 export default function Page() {
   const [index, setIndex] = useState(-1);
 
   return (
-    <article className={styles.thrus}>
+    <article className={styles.travels}>
       <ul>
         <li>
           <div>Name</div>
@@ -18,12 +18,12 @@ export default function Page() {
           <div>Location</div>
         </li>
 
-        {adventures.map(({ countries, id, months, locations, title, years }, idx) => (
+        {travels.map(({ countries, id, months, locations, title, year }, idx) => (
           <li key={id} onMouseEnter={() => setIndex(idx)} onMouseLeave={() => setIndex(-1)}>
-            <Link href={`/adventures/${id}`} key={id}>
+            <Link href={`/travels/${year}/${id}`} key={id}>
               <div>{title.join(' ')}</div>
               <div>
-                <span>{months.join(', ')}</span> <span>{years.join(', ')}</span>
+                <span>{months.join(', ')}</span> <span>{year}</span>
               </div>
               <div>{[(locations ?? []).join('/'), countries.join('/')].filter(Boolean).join(', ')}</div>
             </Link>
@@ -33,7 +33,7 @@ export default function Page() {
 
       <div className={styles.backdrop} />
 
-      {adventures.map(({ id, image }, idx) => (
+      {travels.map(({ id, image }, idx) => (
         <div
           className={styles.preview}
           data-active={index === idx}

@@ -201,11 +201,12 @@ export default {
       steps: 59330
     }
   ],
+  locations: ['Camino Frances'],
   mapBackgroundUrl: getImageUrl('camino-map.jpeg', '1710281919132'),
   mapUrl: getMapUrl('1MM2kPzwx6-v81TOXLoG0SF_9IN6O-2w'),
-  title: ['Camino', 'de', 'Santiago'],
   miles: '491',
   months: ['June', 'July'],
-  locations: ['Camino Frances'],
-  years: ['2018'],
+  title: ['Camino', 'de', 'Santiago'],
+  type: 'thru-hike',
+  year: 2018,
 };

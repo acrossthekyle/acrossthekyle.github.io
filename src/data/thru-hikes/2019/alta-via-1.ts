@@ -109,11 +109,12 @@ export default {
       steps: 33483
     }
   ],
+  locations: ['Dolomites'],
   mapBackgroundUrl: getImageUrl('av-1-map.jpeg', '1710277614165'),
   mapUrl: getMapUrl('1RqKFH_q-Vxc0eemP4XDuIPVzKyo5Cps'),
   miles: '75',
   months: ['July'],
-  locations: ['Dolomites'],
   title: ['Alta', 'Via', '1'],
-  years: ['2019'],
+  type: 'thru-hike',
+  year: 2019,
 };

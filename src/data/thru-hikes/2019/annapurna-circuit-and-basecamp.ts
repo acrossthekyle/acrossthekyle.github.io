@@ -169,11 +169,12 @@ export default {
       steps: 30949
     }
   ],
+  locations: ['Himalayas'],
   mapBackgroundUrl: getImageUrl('annapurna-map.jpeg', '1710265671205'),
   mapUrl: getMapUrl('1y8tdEZxaJZ1OOjbo3HgVHJofVWEzt0s'),
   miles: '143',
-  months: ['October', 'November'],
-  locations: ['Himalayas'],
+  months: ['Oct', 'Nov'],
   title: ['Annapurna', 'Circuit', 'and', 'Basecamp'],
-  years: ['2019'],
+  type: 'thru-hike',
+  year: 2019,
 };

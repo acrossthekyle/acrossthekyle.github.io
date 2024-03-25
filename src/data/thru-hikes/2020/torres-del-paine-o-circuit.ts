@@ -57,11 +57,12 @@ export default {
       steps: 35209
     },
   ],
+  locations: ['Patagonia'],
   mapBackgroundUrl: getImageUrl('o-map.jpeg', '1710263899997'),
   mapUrl: getMapUrl('1nrGVggIuQapwFrzldS2TkR7aXx1ravY'),
   miles: '85',
-  months: ['February'],
-  locations: ['Patagonia'],
+  months: ['Feb'],
   title: ['Torres del', 'Paine', 'O Circuit'],
-  years: ['2020'],
+  type: 'thru-hike',
+  year: 2020,
 };

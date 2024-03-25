@@ -128,11 +128,12 @@ export default {
       steps: 22385
     }
   ],
+  locations: ['Alps'],
   mapBackgroundUrl: getImageUrl('tmb-map.jpeg', '1710279889351'),
   mapUrl: getMapUrl('1dC5Om3SIo-_WeKYPZSpDVFAQGHG_cI8'),
   miles: '112',
-  months: ['September'],
-  locations: ['Alps'],
+  months: ['Sept'],
   title: ['Tour du', 'Mont', 'Blanc'],
-  years: ['2018'],
+  type: 'thru-hike',
+  year: 2018,
 };
