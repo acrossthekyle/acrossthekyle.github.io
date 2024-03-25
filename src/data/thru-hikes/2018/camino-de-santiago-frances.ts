@@ -1,4 +1,4 @@
-import { getImageUrl, getMapUrl } from 'utils';
+import { getMapUrl } from 'utils';
 
 export default {
   backdrop: '#616a1a',
@@ -6,7 +6,7 @@ export default {
   days: '33',
   gearLink: 'https://lighterpack.com/r/p1be03',
   id: 'camino-de-santiago',
-  image: getImageUrl('camino.jpeg', '1695314660391'),
+  image: 'https://ik.imagekit.io/acrossthekyle/thru-hikes/2018/camino-de-santiago-frances.jpeg?updatedAt=1711397966710',
   itinerary: [
     {
       miles: 16,
@@ -202,11 +202,11 @@ export default {
     }
   ],
   locations: ['Camino Frances'],
-  mapBackgroundUrl: getImageUrl('camino-map.jpeg', '1710281919132'),
-  mapUrl: getMapUrl('1MM2kPzwx6-v81TOXLoG0SF_9IN6O-2w'),
+  mapBackgroundUrl: 'https://ik.imagekit.io/acrossthekyle/maps/camino-de-santiago-frances.jpeg?updatedAt=1711398172663',
+  mapUrl: 'https://www.google.com/maps/d/edit?mid=1MM2kPzwx6-v81TOXLoG0SF_9IN6O-2w&usp=sharing',
   miles: '491',
   months: ['June', 'July'],
   title: ['Camino', 'de', 'Santiago'],
-  type: 'thru-hike',
+  type: 'thru-hikes',
   year: 2018,
 };

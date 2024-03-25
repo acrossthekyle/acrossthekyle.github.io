@@ -1,12 +1,10 @@
-import { getImageUrl, getMapUrl } from 'utils';
-
 export default {
   backdrop: '#376394',
   countries: ['France'],
   days: '13',
   gearLink: 'https://lighterpack.com/r/76sj40',
 	id: 'grande-randonnee-20',
-  image: getImageUrl('gr20.jpeg', '1695314654901'),
+  image: 'https://ik.imagekit.io/acrossthekyle/thru-hikes/2023/grande-randonnee-20.jpeg?updatedAt=1711398495031',
   itinerary: [
     {
       elevationGainFeet: 4849,
@@ -153,11 +151,11 @@ export default {
     }
   ],
   locations: ['Corsica'],
-  mapBackgroundUrl: getImageUrl('gr20-map.png', '1710177465612'),
-  mapUrl: getMapUrl('1X2_gXP50kDf5UBk-ZQuRRpVE32tOdds'),
+  mapBackgroundUrl: 'https://ik.imagekit.io/acrossthekyle/maps/grande-randonnee-20.png?updatedAt=1711398114943',
+  mapUrl: 'https://www.google.com/maps/d/edit?mid=1X2_gXP50kDf5UBk-ZQuRRpVE32tOdds&usp=sharing',
   miles: '70',
   months: ['June', 'July'],
   title: ['Grande', 'Randonnee', '20'],
-  type: 'thru-hike',
+  type: 'thru-hikes',
   year: 2023,
 };

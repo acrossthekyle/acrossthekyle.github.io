@@ -1,14 +1,12 @@
-import { getImageUrl } from 'utils';
-
 export default {
   backdrop: '#616a1a',
   countries: ['Nepal'],
   days: '3',
   id: 'pokhara-nepal',
-  image: getImageUrl('camino.jpeg', '1695314660391'),
+  image: 'https://ik.imagekit.io/acrossthekyle/vacations/2019/pokhara-nepal.jpeg?updatedAt=1711398821249',
   locations: ['Pokhara'],
   months: ['Nov'],
   title: ['Pokhara'],
-  type: 'vacation',
+  type: 'vacations',
   year: 2019,
 };

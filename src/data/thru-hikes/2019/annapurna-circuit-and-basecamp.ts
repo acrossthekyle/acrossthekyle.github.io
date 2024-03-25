@@ -1,12 +1,10 @@
-import { getImageUrl, getMapUrl } from 'utils';
-
 export default {
   backdrop: '#aa9782',
   countries: ['Nepal'],
   days: '16',
   gearLink: 'https://lighterpack.com/r/f6hp0p',
   id: 'annapurna',
-  image: getImageUrl('annapurna.jpeg', '1695314659315'),
+  image: 'https://ik.imagekit.io/acrossthekyle/thru-hikes/2019/annapurna-circuit-and-basecamp.jpeg?updatedAt=1711398332439',
   itinerary: [
     {
       elevationGainFeet: 2451,
@@ -170,11 +168,11 @@ export default {
     }
   ],
   locations: ['Himalayas'],
-  mapBackgroundUrl: getImageUrl('annapurna-map.jpeg', '1710265671205'),
-  mapUrl: getMapUrl('1y8tdEZxaJZ1OOjbo3HgVHJofVWEzt0s'),
+  mapBackgroundUrl: 'https://ik.imagekit.io/acrossthekyle/maps/annapurna-circuit-and-basecamp.jpeg?updatedAt=1711398295242',
+  mapUrl: 'https://www.google.com/maps/d/edit?mid=1y8tdEZxaJZ1OOjbo3HgVHJofVWEzt0s&usp=sharing',
   miles: '143',
   months: ['Oct', 'Nov'],
   title: ['Annapurna', 'Circuit', 'and', 'Basecamp'],
-  type: 'thru-hike',
+  type: 'thru-hikes',
   year: 2019,
 };

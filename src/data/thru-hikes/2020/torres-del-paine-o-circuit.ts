@@ -1,12 +1,10 @@
-import { getImageUrl, getMapUrl } from 'utils';
-
 export default {
   backdrop: '#c5a77d',
   countries: ['Chile'],
   days: '7',
   gearLink: 'https://lighterpack.com/r/bw0s1t',
   id: 'o-circuit',
-  image: getImageUrl('ocircuit.jpeg', '1695314656648'),
+  image: 'https://ik.imagekit.io/acrossthekyle/thru-hikes/2020/torres-del-paine-o-circuit.jpeg?updatedAt=1711398380453',
   itinerary: [
     {
       miles: 11.2,
@@ -58,11 +56,11 @@ export default {
     },
   ],
   locations: ['Patagonia'],
-  mapBackgroundUrl: getImageUrl('o-map.jpeg', '1710263899997'),
-  mapUrl: getMapUrl('1nrGVggIuQapwFrzldS2TkR7aXx1ravY'),
+  mapBackgroundUrl: 'https://ik.imagekit.io/acrossthekyle/maps/torres-del-paine-o-circuit.jpeg?updatedAt=1711398415799',
+  mapUrl: 'https://www.google.com/maps/d/edit?mid=1nrGVggIuQapwFrzldS2TkR7aXx1ravY&usp=sharing',
   miles: '85',
   months: ['Feb'],
   title: ['Torres del', 'Paine', 'O Circuit'],
-  type: 'thru-hike',
+  type: 'thru-hikes',
   year: 2020,
 };

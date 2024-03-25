@@ -1,12 +1,10 @@
-import { getImageUrl, getMapUrl } from 'utils';
-
 export default {
   backdrop: '#2e3b49',
   countries: ['Scotland'],
   days: '6',
   gearLink: 'https://lighterpack.com/r/ng8tzb',
   id: 'west-highland-way',
-  image: getImageUrl('westhighlandway.jpeg', '1695314654426'),
+  image: 'https://ik.imagekit.io/acrossthekyle/thru-hikes/2022/west-highland-way.jpeg?updatedAt=1711398460521',
   itinerary: [
     {
       elevationGainFeet: 671,
@@ -76,11 +74,11 @@ export default {
     },
   ],
   locations: ['Highlands'],
-  mapBackgroundUrl: getImageUrl('whw-map.jpeg', '1710261561777'),
-  mapUrl: getMapUrl('1Msr8DFrL_JOi0irhOoK_DYfE7peE2XU'),
+  mapBackgroundUrl: 'https://ik.imagekit.io/acrossthekyle/maps/west-highland-way.jpeg?updatedAt=1711398133005',
+  mapUrl: 'https://www.google.com/maps/d/edit?mid=1Msr8DFrL_JOi0irhOoK_DYfE7peE2XU&usp=sharing',
   miles: '96',
   months: ['May'],
   title: ['West', 'Highland', 'Way'],
-  type: 'thru-hike',
+  type: 'thru-hikes',
   year: 2022,
 };

@@ -1,12 +1,10 @@
-import { getImageUrl, getMapUrl } from 'utils';
-
 export default {
   backdrop: '#6688b5',
   countries: ['France', 'Italy'],
   days: '11',
   gearLink: 'https://lighterpack.com/r/yi7qss',
   id: 'tour-du-mont-blanc',
-  image: getImageUrl('tmb.jpeg', '1695314658704'),
+  image: 'https://ik.imagekit.io/acrossthekyle/thru-hikes/2018/tour-du-mont-blanc.jpeg?updatedAt=1711397987942',
   itinerary: [
     {
       elevationGainFeet: 4934,
@@ -129,11 +127,11 @@ export default {
     }
   ],
   locations: ['Alps'],
-  mapBackgroundUrl: getImageUrl('tmb-map.jpeg', '1710279889351'),
-  mapUrl: getMapUrl('1dC5Om3SIo-_WeKYPZSpDVFAQGHG_cI8'),
+  mapBackgroundUrl: 'https://ik.imagekit.io/acrossthekyle/maps/tour-du-mont-blanc.jpeg?updatedAt=1711398200240',
+  mapUrl: 'https://www.google.com/maps/d/edit?mid=1dC5Om3SIo-_WeKYPZSpDVFAQGHG_cI8&usp=sharing',
   miles: '112',
   months: ['Sept'],
   title: ['Tour du', 'Mont', 'Blanc'],
-  type: 'thru-hike',
+  type: 'thru-hikes',
   year: 2018,
 };

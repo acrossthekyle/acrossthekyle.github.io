@@ -1,14 +1,12 @@
-import { getImageUrl } from 'utils';
-
 export default {
   backdrop: '#616a1a',
   countries: ['US'],
   days: '1',
   id: 'mt-belford-colorado',
-  image: getImageUrl('camino.jpeg', '1695314660391'),
+  image: 'https://ik.imagekit.io/acrossthekyle/hikes/2022/mt-belford-colorado.jpeg?updatedAt=1711397591089',
   locations: ['Buena Vista, Colorado'],
   months: ['Sept'],
   title: ['Mt', 'Belford'],
-  type: 'day-hike',
+  type: 'hikes',
   year: 2022,
 };

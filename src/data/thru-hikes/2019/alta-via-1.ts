@@ -1,12 +1,10 @@
-import { getImageUrl, getMapUrl } from 'utils';
-
 export default {
   backdrop: '#dce2e7',
   countries: ['Italy'],
   days: '10',
   gearLink: 'https://lighterpack.com/r/kolkui',
   id: 'alta-via-1',
-  image: getImageUrl('altavia.jpeg', '1695314660416'),
+  image: 'https://ik.imagekit.io/acrossthekyle/thru-hikes/2019/alta-via-1.jpeg?updatedAt=1711397838396',
   itinerary: [
     {
       elevationGainFeet: 3163,
@@ -110,11 +108,11 @@ export default {
     }
   ],
   locations: ['Dolomites'],
-  mapBackgroundUrl: getImageUrl('av-1-map.jpeg', '1710277614165'),
-  mapUrl: getMapUrl('1RqKFH_q-Vxc0eemP4XDuIPVzKyo5Cps'),
+  mapBackgroundUrl: 'https://ik.imagekit.io/acrossthekyle/maps/alta-via-1.jpeg?updatedAt=1711398262091',
+  mapUrl: 'https://www.google.com/maps/d/edit?mid=1RqKFH_q-Vxc0eemP4XDuIPVzKyo5Cps&usp=sharing',
   miles: '75',
   months: ['July'],
   title: ['Alta', 'Via', '1'],
-  type: 'thru-hike',
+  type: 'thru-hikes',
   year: 2019,
 };
