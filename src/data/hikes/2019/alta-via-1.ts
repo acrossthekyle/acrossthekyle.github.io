@@ -1,7 +1,6 @@
 import { getImageUrl, getMapUrl } from 'utils';
-import { Hike } from 'types';
 
-export const AltaVia1: Hike = {
+export default {
   backdrop: '#dce2e7',
   countries: ['Italy'],
   days: '10',
@@ -114,7 +113,7 @@ export const AltaVia1: Hike = {
   mapUrl: getMapUrl('1RqKFH_q-Vxc0eemP4XDuIPVzKyo5Cps'),
   miles: '75',
   months: ['July'],
-  mountains: ['Dolomites'],
+  locations: ['Dolomites'],
   title: ['Alta', 'Via', '1'],
   years: ['2019'],
 };

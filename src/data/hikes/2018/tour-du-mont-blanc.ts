@@ -1,7 +1,6 @@
 import { getImageUrl, getMapUrl } from 'utils';
-import { Hike } from 'types';
 
-export const TourDuMontBlanc: Hike = {
+export default {
   backdrop: '#6688b5',
   countries: ['France', 'Italy'],
   days: '11',
@@ -133,7 +132,7 @@ export const TourDuMontBlanc: Hike = {
   mapUrl: getMapUrl('1dC5Om3SIo-_WeKYPZSpDVFAQGHG_cI8'),
   miles: '112',
   months: ['September'],
-  mountains: ['Alps'],
+  locations: ['Alps'],
   title: ['Tour du', 'Mont', 'Blanc'],
-  years: ['2018', '2024'],
+  years: ['2018'],
 };

@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 import { SettingsContext } from 'contexts/settings';
 import { SlotsContext } from 'contexts/slots';
-import { hikes } from 'data/hikes'
+import adventures from 'data/adventures'
 import styles from 'scss/app/page.module.scss'
 
 export default function Page() {
@@ -24,11 +24,11 @@ export default function Page() {
   return (
     <section className={styles.slot} data-settings-active={isSettingsOpen}>
       <div className={styles.link} id="slot-label">
-        <Link href={`/adventures/${hikes[slotIndex].id}`}>
-          {hikes[slotIndex].title.join(' ')}
+        <Link href={`/adventures/${adventures[slotIndex].id}`}>
+          {adventures[slotIndex].title.join(' ')}
         </Link>
         <span>
-          {slotIndex + 1}/{hikes.length}
+          {slotIndex + 1}/{adventures.length}
         </span>
       </div>
       <div className={styles.settings}>

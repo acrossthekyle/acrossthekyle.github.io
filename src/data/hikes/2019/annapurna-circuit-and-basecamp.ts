@@ -1,7 +1,6 @@
 import { getImageUrl, getMapUrl } from 'utils';
-import { Hike } from 'types';
 
-export const Annapurna: Hike = {
+export default {
   backdrop: '#aa9782',
   countries: ['Nepal'],
   days: '16',
@@ -174,7 +173,7 @@ export const Annapurna: Hike = {
   mapUrl: getMapUrl('1y8tdEZxaJZ1OOjbo3HgVHJofVWEzt0s'),
   miles: '143',
   months: ['October', 'November'],
-  mountains: ['Himalayas'],
+  locations: ['Himalayas'],
   title: ['Annapurna', 'Circuit', 'and', 'Basecamp'],
   years: ['2019'],
 };

@@ -1,7 +1,6 @@
 import { getImageUrl, getMapUrl } from 'utils';
-import { Hike } from 'types';
 
-export const GrandeRandonnee20: Hike = {
+export default {
   backdrop: '#376394',
   countries: ['France'],
   days: '13',
@@ -157,7 +156,7 @@ export const GrandeRandonnee20: Hike = {
   mapUrl: getMapUrl('1X2_gXP50kDf5UBk-ZQuRRpVE32tOdds'),
   miles: '70',
   months: ['June', 'July'],
-  mountains: ['Corsica'],
+  locations: ['Corsica'],
   title: ['Grande', 'Randonnee', '20'],
   years: ['2023'],
 };

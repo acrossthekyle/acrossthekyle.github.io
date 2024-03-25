@@ -1,7 +1,6 @@
 import { getImageUrl, getMapUrl } from 'utils';
-import { Hike } from 'types';
 
-export const WestHighlandWay: Hike = {
+export default {
   backdrop: '#2e3b49',
   countries: ['Scotland'],
   days: '6',
@@ -80,7 +79,7 @@ export const WestHighlandWay: Hike = {
   mapUrl: getMapUrl('1Msr8DFrL_JOi0irhOoK_DYfE7peE2XU'),
   miles: '96',
   months: ['May'],
-  mountains: ['Highlands'],
+  locations: ['Highlands'],
   title: ['West', 'Highland', 'Way'],
   years: ['2022'],
 };

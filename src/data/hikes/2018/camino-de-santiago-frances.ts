@@ -1,7 +1,6 @@
 import { getImageUrl, getMapUrl } from 'utils';
-import { Hike } from 'types';
 
-export const CaminoDeSantiago: Hike = {
+export default {
   backdrop: '#616a1a',
   countries: ['Spain'],
   days: '33',
@@ -207,6 +206,6 @@ export const CaminoDeSantiago: Hike = {
   title: ['Camino', 'de', 'Santiago'],
   miles: '491',
   months: ['June', 'July'],
-  mountains: ['Camino Frances'],
+  locations: ['Camino Frances'],
   years: ['2018'],
 };

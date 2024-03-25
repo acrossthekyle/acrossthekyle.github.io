@@ -1,7 +1,6 @@
 import { getImageUrl, getMapUrl } from 'utils';
-import { Hike } from 'types';
 
-export const OCircuit: Hike = {
+export default {
   backdrop: '#c5a77d',
   countries: ['Chile'],
   days: '7',
@@ -62,7 +61,7 @@ export const OCircuit: Hike = {
   mapUrl: getMapUrl('1nrGVggIuQapwFrzldS2TkR7aXx1ravY'),
   miles: '85',
   months: ['February'],
-  mountains: ['Patagonia'],
+  locations: ['Patagonia'],
   title: ['Torres del', 'Paine', 'O Circuit'],
   years: ['2020'],
 };
