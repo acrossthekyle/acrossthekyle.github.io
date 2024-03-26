@@ -1,0 +1,40 @@
+@use 'scss/mixins/_has' as has;
+@use 'scss/mixins/_theme' as theme;
+@use 'scss/variables' as *;
+
+.gallery {
+	display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  align-items: flex-start;
+  align-content: flex-start;
+  overflow-y: scroll;
+
+  div {
+  	padding: 5px;
+
+  	a {
+  		display: block;
+  		height: 175px;
+	    width: 100%;
+
+  		img {
+  			display: block;
+  			height: 175px;
+  			opacity: 1;
+  			transition: opacity .3s ease;
+  			width: auto;
+  		}
+
+  		@include has.mouse {
+  			&:hover {
+  				img {
+  					opacity: .5;
+  				}
+  			}
+  		}
+  	}
+  }
+}

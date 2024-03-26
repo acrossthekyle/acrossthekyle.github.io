@@ -53,7 +53,13 @@
 	}
 
 	.description {
+		opacity: 0;
 		padding: .7rem;
+		transition: opacity .3s ease;
+
+		&[data-active="true"] {
+			opacity: 1;
+		}
 	}
 
 	.options {

@@ -19,9 +19,23 @@ export default function Page({ params }) {
     fireEvent(renderShare ? 'share' : '');
   }, [renderShare]);
 
+  const handleOnInfoClick = () => {
+    setRenderStats(false);
+    setRenderInfo(!renderInfo);
+  };
+
+  const handleOnStatsClick = () => {
+    setRenderInfo(false);
+    setRenderStats(!renderStats);
+  };
+
+  const handleOnShareClick = () => {
+    setRenderShare(!renderShare);
+  };
+
   return (
     <section className={styles.slot}>
-      <div className={styles.description}>
+      <div className={styles.description} data-active={renderInfo || renderStats}>
         {renderInfo && (
           <p>
             Some info
@@ -35,19 +49,19 @@ export default function Page({ params }) {
       </div>
       <div className={styles.options}>
         <button
-          onClick={() => setRenderStats(!renderStats)}
+          onClick={handleOnStatsClick}
           type="button"
         >
           Stats
         </button>
         <button
-          onClick={() => setRenderStats(!renderInfo)}
+          onClick={handleOnInfoClick}
           type="button"
         >
           Info
         </button>
         <button
-          onClick={() => setRenderShare(!renderShare)}
+          onClick={handleOnShareClick}
           type="button"
         >
           Share
