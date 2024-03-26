@@ -13,9 +13,11 @@ export default function Page() {
   const {
     isDarken,
     isImageless,
+    isMetric,
     isMonochrome,
     toggleDarken,
     toggleImageless,
+    toggleMetric,
     toggleMonochrome,
   } = useContext(SettingsContext);
 
@@ -60,6 +62,11 @@ export default function Page() {
         <label htmlFor="colors">
           <input checked={isMonochrome} id="colors" onChange={toggleMonochrome} type="checkbox" />
           B & W
+        </label>
+
+        <label htmlFor="metric">
+          <input checked={isMetric} id="metric" onChange={toggleMetric} type="checkbox" />
+          Metric
         </label>
       </div>
     </section>

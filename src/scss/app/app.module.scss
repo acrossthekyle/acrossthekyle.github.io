@@ -23,7 +23,7 @@
       display: flex;
       flex-direction: column;
       height: 100%;
-      padding: .25rem 0 0;
+      padding: 0;
       position: relative;
       width: 16rem;
 
@@ -33,7 +33,7 @@
 
       nav {
       	border-bottom: 1px solid transparent;
-				padding: 1rem;
+				padding: .7rem;
 
 				@include theme.value {
 		    	border-color: theme.t('border');
@@ -119,6 +119,7 @@
     svg {
       height: 8px;
       margin-left: 4px;
+      margin-top: -4px;
       transition: fill .3s ease;
       width: 8px;
 

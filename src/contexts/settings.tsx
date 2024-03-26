@@ -9,15 +9,18 @@ type Props = {
 export const SettingsContext = createContext({
   isDarken: false,
   isImageless: false,
+  isMetric: false,
   isMonochrome: false,
   toggleDarken: () => {},
   toggleImageless: () => {},
+  toggleMetric: () => {},
   toggleMonochrome: () => {}
 });
 
 export function SettingsProvider({ children }: Props) {
   const [isDarken, setIsDarken] = useState(false);
   const [isImageless, setIsImageless] = useState(false);
+  const [isMetric, setIsMetric] = useState(false);
   const [isMonochrome, setIsMonochrome] = useState(false);
 
   const handleKeyUp = (event: InputEvent) => {
@@ -38,6 +41,12 @@ export function SettingsProvider({ children }: Props) {
 
       return;
     }
+
+    if (event.key.toLowerCase() === 'm') {
+      toggleMetric();
+
+      return;
+    }
   };
 
   useEffect(() => {
@@ -55,6 +64,10 @@ export function SettingsProvider({ children }: Props) {
 
     if (window.localStorage.acrossTheKyleMonochrome !== null) {
       setIsMonochrome(window.localStorage.acrossTheKyleMonochrome === 'true' ? true : false);
+    }
+
+    if (window.localStorage.acrossTheKyleMetric !== null) {
+      setIsMetric(window.localStorage.acrossTheKyleMetric === 'true' ? true : false);
     }
   }, []);
 
@@ -87,6 +100,14 @@ export function SettingsProvider({ children }: Props) {
     window.localStorage.acrossTheKyleImageless = shouldImageless ? 'true' : 'false';
   };
 
+  const toggleMetric = () => {
+    const shouldMetric = !isMetric;
+
+    setIsMetric(shouldMetric);
+
+    window.localStorage.acrossTheKyleMetric = shouldMetric ? 'true' : 'false';
+  };
+
   const toggleMonochrome = () => {
   	const shouldMonochrome = !isMonochrome;
 
@@ -102,9 +123,11 @@ export function SettingsProvider({ children }: Props) {
     	value={{
         isDarken,
     		isImageless,
+        isMetric,
     		isMonochrome,
         toggleDarken,
     		toggleImageless,
+        toggleMetric,
     		toggleMonochrome,
     	}}
     >

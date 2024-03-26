@@ -9,6 +9,7 @@ import { usePathname } from 'next/navigation';
 
 import { EventsProvider } from 'contexts/events';
 import { SettingsProvider } from 'contexts/settings';
+import { TravelProvider } from 'contexts/travel';
 import styles from 'scss/app/app.module.scss'
 
 const fontFamily = localFont({ src: '../fonts/styrene.otf' });
@@ -26,6 +27,7 @@ export default function RootLayout({ children, details }: Props) {
     console.log('Hint: press "I" on the keyboard to toggle imageless mode');
     console.log('Hint: press "D" on the keyboard to toggle light/dark mode');
     console.log('Hint: press "C" on the keyboard to toggle monochrome mode');
+    console.log('Hint: press "M" on the keyboard to toggle metric mode');
   }, []);
 
   return (
@@ -65,7 +67,9 @@ export default function RootLayout({ children, details }: Props) {
                     <Link data-active={pathname === '/gallery'} href="/gallery">Index</Link>
                     <Link data-active={pathname === '/about'} href="/about">About</Link>
                   </nav>
-                  {details}
+                  <TravelProvider>
+                    {details}
+                  </TravelProvider>
                 </aside>
                 {children}
               </section>

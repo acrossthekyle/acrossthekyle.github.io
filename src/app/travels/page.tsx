@@ -18,9 +18,9 @@ export default function Page() {
           <div>Location</div>
         </li>
 
-        {travels.map(({ countries, id, months, locations, title, year }, idx) => (
+        {travels.map(({ countries, id, months, locations, title, type, year }, idx) => (
           <li key={id} onMouseEnter={() => setIndex(idx)} onMouseLeave={() => setIndex(-1)}>
-            <Link href={`/travels/${year}/${id}`}>
+            <Link href={`/travels/${year}/${id}${type === 'thru-hikes' ? '-001' : ''}`}>
               <div>{title.join(' ')}</div>
               <div>
                 <span>{months.join(', ')}</span> <span>{year}</span>

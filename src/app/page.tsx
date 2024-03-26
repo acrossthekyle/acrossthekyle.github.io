@@ -26,8 +26,18 @@ export default function Page() {
 
   return (
     <article className={styles.index}>
-      <button className={styles.left} onClick={handleOnPrevious} type="button" />
-      <button className={styles.right} onClick={handleOnNext} type="button" />
+      <button
+        className={styles.left}
+        onClick={handleOnPrevious}
+        title="Previous"
+        type="button"
+      />
+      <button
+        className={styles.right}
+        onClick={handleOnNext}
+        title="Next"
+        type="button"
+      />
 
       {travels.map(({ id, image, year }, idx) => (
         <Link href={`/travels/${year}/${id}`} key={id}>
