@@ -7,52 +7,76 @@ export default {
   image: 'https://ik.imagekit.io/acrossthekyle/thru-hikes/2020/torres-del-paine-o-circuit.jpeg?updatedAt=1711398380453',
   itinerary: [
     {
-      miles: 11.2,
-      start: `Seron`,
-      startAltitudeFeet: 682,
-      stop: `Dickson`,
-      stopAltitudeFeet: 554,
-      steps: 24890
+      info: [''],
+      image: '',
+      stats: {
+        miles: 11.2,
+        start: `Seron`,
+        startAltitudeFeet: 682,
+        stop: `Dickson`,
+        stopAltitudeFeet: 554,
+        steps: 24890
+      }
     },
     {
-      miles: 7.5,
-      start: `Dickson`,
-      startAltitudeFeet: 554,
-      stop: `Perros`,
-      stopAltitudeFeet: 1872,
-      steps: 32298
+      info: [''],
+      image: '',
+      stats: {
+        miles: 7.5,
+        start: `Dickson`,
+        startAltitudeFeet: 554,
+        stop: `Perros`,
+        stopAltitudeFeet: 1872,
+        steps: 32298
+      }
     },
     {
-      miles: 11,
-      start: `Perros`,
-      startAltitudeFeet: 1872,
-      stop: `Grey`,
-      stopAltitudeFeet: 257,
-      steps: 22147
+      info: [''],
+      image: '',
+      stats: {
+        miles: 11,
+        start: `Perros`,
+        startAltitudeFeet: 1872,
+        stop: `Grey`,
+        stopAltitudeFeet: 257,
+        steps: 22147
+      }
     },
     {
-      miles: 7.2,
-      start: `Grey`,
-      startAltitudeFeet: 257,
-      stop: `Paine Grande`,
-      stopAltitudeFeet: 148,
-      steps: 31127
+      info: [''],
+      image: '',
+      stats: {
+        miles: 7.2,
+        start: `Grey`,
+        startAltitudeFeet: 257,
+        stop: `Paine Grande`,
+        stopAltitudeFeet: 148,
+        steps: 31127
+      }
     },
     {
-      miles: 12.8,
-      start: `Paine Grande`,
-      startAltitudeFeet: 148,
-      stop: `Frances`,
-      stopAltitudeFeet: 312,
-      steps: 31224
+      info: [''],
+      image: '',
+      stats: {
+        miles: 12.8,
+        start: `Paine Grande`,
+        startAltitudeFeet: 148,
+        stop: `Frances`,
+        stopAltitudeFeet: 312,
+        steps: 31224
+      }
     },
     {
-      miles: 9.2,
-      start: `Frances`,
-      startAltitudeFeet: 312,
-      stop: `Chileno`,
-      stopAltitudeFeet: 1640,
-      steps: 35209
+      info: [''],
+      image: '',
+      stats: {
+        miles: 9.2,
+        start: `Frances`,
+        startAltitudeFeet: 312,
+        stop: `Chileno`,
+        stopAltitudeFeet: 1640,
+        steps: 35209
+      }
     },
   ],
   locations: ['Patagonia'],

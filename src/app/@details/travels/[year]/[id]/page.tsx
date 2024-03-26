@@ -28,6 +28,15 @@ export default function Page({ params }) {
   } = useContext(TravelContext);
 
   useEffect(() => {
+    return () => {
+      toggleInfo(false);
+      toggleStats(false);
+      setRenderShare(false);
+      setRenderThumbnails(false);
+    };
+  }, []);
+
+  useEffect(() => {
     fireEvent(renderShare ? 'share' : '');
   }, [renderShare]);
 
@@ -106,7 +115,7 @@ export default function Page({ params }) {
                 </span>
               </div>
               {stats.tripActivityLink && (
-                <div>
+                <div className={styles.gps}>
                   <a href={stats.tripActivityLink} rel="noreferrer" target="_blank">
                     GPS Data
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">

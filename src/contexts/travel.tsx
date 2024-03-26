@@ -17,14 +17,14 @@ export function TravelProvider({ children }: Props) {
   const [renderInfo, setRenderInfo] = useState(false);
   const [renderStats, setRenderStats] = useState(false);
 
-  const toggleInfo = () => {
-  	setRenderInfo(!renderInfo);
+  const toggleInfo = (bool?: boolean) => {
+  	setRenderInfo(typeof bool === 'boolean' && bool !== undefined ? bool : !renderInfo);
     setRenderStats(false);
   };
 
-  const toggleStats = () => {
+  const toggleStats = (bool?: boolean) => {
   	setRenderInfo(false);
-    setRenderStats(!renderStats);
+    setRenderStats(typeof bool === 'boolean' && bool !== undefined ? bool : !renderStats);
   };
 
   return (

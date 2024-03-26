@@ -119,19 +119,19 @@
 						margin-bottom: .25rem;
 					}
 				}
+			}
 
-				&:last-child {
-					border-top: 1px solid transparent;
-					display: flex;
-					flex: 1;
-					flex-direction: row;
-					justify-content: center;
-					padding-top: 1.5rem;
-					text-transform: uppercase;
+			.gps {
+				border-top: 1px solid transparent;
+				display: flex;
+				flex: 1;
+				flex-direction: row;
+				justify-content: center;
+				padding-top: 1.5rem;
+				text-transform: uppercase;
 
-					@include theme.value {
-				  	border-color: theme.t('border');
-					}
+				@include theme.value {
+			  	border-color: theme.t('border');
 				}
 			}
 		}
@@ -198,6 +198,7 @@
 		}
 
 		div {
+			align-items: flex-end;
 			display: flex;
 			justify-content: space-between;
 			margin-top: 1rem;
