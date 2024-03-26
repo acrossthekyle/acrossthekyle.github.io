@@ -4,8 +4,33 @@ export default {
   days: '1',
   id: 'mt-elbert-colorado',
   image: 'https://ik.imagekit.io/acrossthekyle/hikes/2019/mt-elbert-colorado.jpeg?updatedAt=1711399239494',
+  info: [
+    'My first mountain peak above 14 thousand feet, and my first time hiking at dangerous elevations.'
+  ],
   locations: ['Twin Lakes, Colorado'],
   months: ['Aug'],
+  stats: [
+    {
+      key: 'Max Elevation',
+      value: '14,443 ft',
+    },
+    {
+      key: 'Gain',
+      value: '4,523 ft',
+    },
+    {
+      key: 'Loss',
+      value: '1,523 ft',
+    },
+    {
+      key: 'Duration',
+      value: '6 hours 33 minutes',
+    },
+    {
+      key: 'False Summits',
+      value: '3',
+    },
+  ],
   title: ['Mt.', 'Elbert'],
   type: 'hikes',
   year: 2019,

@@ -36,16 +36,12 @@ export default function Page({ params }) {
   return (
     <section className={styles.slot}>
       <div className={styles.description} data-active={renderInfo || renderStats}>
-        {renderInfo && (
-          <p>
-            Some info
-          </p>
-        )}
-        {renderStats && (
-          <p>
-            Some stats
-          </p>
-        )}
+        {renderInfo && travel.info && travel.info.map((segment) => (
+          <p>{segment}</p>
+        ))}
+        {renderStats && travel.stats && travel.stats.map(({ key, value }) => (
+          <p>{key}: {value}</p>
+        ))}
       </div>
       <div className={styles.options}>
         <button
