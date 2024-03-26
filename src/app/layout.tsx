@@ -7,8 +7,8 @@ import localFont from 'next/font/local';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
+import { EventsProvider } from 'contexts/events';
 import { SettingsProvider } from 'contexts/settings';
-import { SlotsProvider } from 'contexts/slots';
 import styles from 'scss/app/app.module.scss'
 
 const fontFamily = localFont({ src: '../fonts/styrene.otf' });
@@ -43,8 +43,8 @@ export default function RootLayout({ children, details }: Props) {
       </head>
       <body className={fontFamily.className}>
         <div className="loading"></div>
-        <SettingsProvider>
-          <SlotsProvider>
+        <EventsProvider>
+          <SettingsProvider>
             <main className={styles.main} monochromeable="true">
               <header>
                 <Link href="/" aria-label="home">
@@ -70,8 +70,8 @@ export default function RootLayout({ children, details }: Props) {
                 {children}
               </section>
             </main>
-          </SlotsProvider>
-        </SettingsProvider>
+          </SettingsProvider>
+        </EventsProvider>
       </body>
     </html>
   );

@@ -1,8 +1,8 @@
 'use client'
 
-import { useContext, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 
-import { SlotsContext } from 'contexts/slots';
+import { EventsContext } from 'contexts/events';
 import travels from 'data/travels'
 import styles from 'scss/app/travels/travel/page.module.scss'
 
@@ -10,9 +10,14 @@ export default function Page({ params }) {
   const travel = travels.find(({ id, year }) => id === params.id && String(year) === params.year);
 
   const [renderInfo, setRenderInfo] = useState(false);
+  const [renderShare, setRenderShare] = useState(false);
   const [renderStats, setRenderStats] = useState(false);
 
-  const { fireSlotEventListener } = useContext(SlotsContext);
+  const { fireEvent } = useContext(EventsContext);
+
+  useEffect(() => {
+    fireEvent(renderShare ? 'share' : '');
+  }, [renderShare]);
 
   return (
     <section className={styles.slot}>
@@ -42,7 +47,7 @@ export default function Page({ params }) {
           Info
         </button>
         <button
-          onClick={() => fireSlotEventListener('share')}
+          onClick={() => setRenderShare(!renderShare)}
           type="button"
         >
           Share

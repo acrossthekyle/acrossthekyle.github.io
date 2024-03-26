@@ -1,14 +1,15 @@
 'use client'
 
-import { useContext, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import Link from 'next/link';
 
 import { SettingsContext } from 'contexts/settings';
-import { SlotsContext } from 'contexts/slots';
+import { EventsContext } from 'contexts/events';
 import travels from 'data/travels'
 import styles from 'scss/app/page.module.scss'
 
 export default function Page() {
+  const { registerEventListener } = useContext(EventsContext);
   const {
     isDarken,
     isImageless,
@@ -17,18 +18,26 @@ export default function Page() {
     toggleImageless,
     toggleMonochrome,
   } = useContext(SettingsContext);
-  const { slotIndex, setSlotIndex } = useContext(SlotsContext);
 
+  const [index, setIndex] = useState(0);
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
+
+  useEffect(() => {
+    registerEventListener(handleEvent);
+  }, []);
+
+  const handleEvent = (event: any) => {
+    setIndex(event);
+  };
 
   return (
     <section className={styles.slot} data-settings-active={isSettingsOpen}>
       <div className={styles.link} id="slot-label">
-        <Link href={`/travels/${travels[slotIndex].year}/${travels[slotIndex].id}`}>
-          {travels[slotIndex].title.join(' ')}
+        <Link href={`/travels/${travels[index].year}/${travels[index].id}`}>
+          {travels[index].title.join(' ')}
         </Link>
         <span>
-          {slotIndex + 1}/{travels.length}
+          {index + 1}/{travels.length}
         </span>
       </div>
       <div className={styles.settings}>
