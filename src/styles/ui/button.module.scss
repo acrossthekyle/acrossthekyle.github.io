@@ -1,0 +1,21 @@
+@use 'styles/mixins/_on' as on;
+
+.button {
+  background: var(--button);
+  border-radius: 2px;
+  color: var(--button-text);
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 400;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  transition: background 0.3s ease-in-out;
+
+  @include on.hover {
+    background: var(--button-hover);
+  }
+
+  @include on.active {
+    background: var(--button-active);
+  }
+}

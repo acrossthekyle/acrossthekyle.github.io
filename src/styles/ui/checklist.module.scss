@@ -1,0 +1,46 @@
+@use 'styles/mixins/_screen' as screen;
+
+.checklist {
+  display: grid;
+  grid-auto-rows: 1rem;
+  grid-gap: 0.25rem;
+  grid-template-columns: repeat(3, minmax(calc(33% - 0.5rem), 1fr));
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  .item {
+    grid-row: span 2;
+    line-height: 1.25rem;
+    margin: 0;
+    padding: 0;
+    padding-left: 1.75rem;
+    position: relative;
+
+    &:before {
+      color: var(--checkmark);
+      content: '\e5ca';
+      display: inline-block;
+      font-family: 'Material Symbols Outlined';
+      font-size: 1.25rem;
+      font-weight: 500;
+      left: 0;
+      position: absolute;
+      top: -2px;
+    }
+  }
+
+  @include screen.small {
+    .item {
+      grid-row: span 3;
+    }
+  }
+
+  @include screen.compact {
+    grid-template-columns: repeat(1, minmax(calc(100% - 0.5rem), 1fr));
+
+    .item {
+      grid-row: span 2;
+    }
+  }
+}

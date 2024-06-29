@@ -1,0 +1,21 @@
+.loading {
+  animation: loading;
+  animation-delay: 0.3s;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  background: var(--body);
+  inset: 0;
+  opacity: 1;
+  position: absolute;
+  z-index: 99999;
+}
+
+@keyframes loading {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}

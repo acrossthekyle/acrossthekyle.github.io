@@ -1,0 +1,23 @@
+@use 'styles/mixins/_screen' as screen;
+
+.hero {
+  border-radius: 0.125rem;
+  height: 80vh;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  max-width: var(--max-width);
+  width: auto;
+
+  img {
+    border-radius: 2px;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+  }
+
+  @include screen.small {
+    height: 54vh;
+  }
+}

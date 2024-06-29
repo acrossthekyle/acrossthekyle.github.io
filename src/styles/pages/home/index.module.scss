@@ -1,0 +1,85 @@
+@use 'styles/mixins/_on' as on;
+@use 'styles/mixins/_screen' as screen;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+  padding-top: 9rem;
+  position: relative;
+
+  .image {
+    border-radius: 50%;
+    height: 9.5rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 9.5rem;
+
+    img {
+      height: 100%;
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+
+  .title {
+    color: var(--text);
+    font-size: 2.0625rem;
+    font-weight: 700;
+    margin-top: 1.25rem;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  .text {
+    color: var(--text);
+    line-height: 1.75rem;
+    margin: 0 auto;
+    margin-top: 1.25rem;
+    max-width: 400px;
+    position: relative;
+    text-align: center;
+    width: auto;
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto 0;
+    position: relative;
+
+    .link {
+      align-items: center;
+      background: var(--home-about-link-background);
+      border-radius: 50%;
+      display: flex;
+      height: 1.9rem;
+      justify-content: center;
+      margin: 0 0.2rem;
+      transition: all 0.4s ease;
+      width: 1.9rem;
+
+      svg {
+        fill: var(--home-about-link-icon);
+        height: 0.75rem;
+        transition: all 0.4s ease;
+        width: 0.75rem;
+      }
+
+      @include on.hover {
+        background: var(--home-about-link-hover-background);
+
+        svg {
+          fill: var(--home-about-link-hover-icon);
+        }
+      }
+    }
+  }
+
+  @include screen.compact {
+    .text {
+      padding: 0 1rem;
+    }
+  }
+}

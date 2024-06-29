@@ -1,0 +1,245 @@
+@use 'styles/mixins/_on' as on;
+@use 'styles/mixins/_screen' as screen;
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 9rem;
+  position: relative;
+  width: 100%;
+  z-index: 3;
+
+  a {
+    color: var(--text);
+    transition: all 0.5s ease-in-out;
+  }
+
+  .tags {
+    display: flex;
+
+    .tag {
+      background: var(--tag);
+      border-bottom: none;
+      border-radius: 0.25rem;
+      color: var(--tag-text);
+      font-size: 0.62rem;
+      letter-spacing: 1px;
+      margin-right: 0.25rem;
+      padding: 0.4rem 0.5rem;
+      text-transform: uppercase;
+      transition: all 0.4s ease-in-out;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      @include on.hover {
+        background: var(--tag-hover);
+      }
+    }
+  }
+
+  .day {
+    color: var(--timeline-day);
+    font-size: 6rem;
+    font-weight: 900;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 6.5rem;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .title {
+    color: var(--text);
+    font-size: 2.3rem;
+    line-height: 3rem;
+    margin: 0.75rem auto 1.75rem;
+    position: relative;
+    text-align: center;
+    max-width: 600px;
+  }
+
+  .context {
+    align-items: center;
+    color: var(--text);
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    margin-top: -0.75rem;
+    position: relative;
+    width: auto;
+
+    .content {
+      display: flex;
+
+      .author {
+        border-radius: 50%;
+        height: 1.5rem;
+        margin-right: 0.4rem;
+        overflow: hidden;
+        width: 1.5rem;
+
+        img {
+          height: 100%;
+          object-fit: cover;
+          width: 100%;
+        }
+      }
+
+      .items {
+        align-items: center;
+        color: var(--text);
+        display: flex;
+        font-size: 0.85rem;
+
+        .item {
+          display: inline-block;
+
+          &:after {
+            color: var(--text);
+            content: '•';
+            display: inline-block;
+            margin: 0 0.5rem;
+          }
+
+          &:last-child {
+            &:after {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @include screen.small {
+    padding-top: 6rem;
+
+    .title {
+      font-size: 2.5rem;
+      line-height: 2.75rem;
+      padding: 0 1rem;
+
+      &:before {
+        height: 2px;
+        margin-left: -2.5rem;
+        width: 5rem;
+      }
+    }
+  }
+
+  @include screen.compact {
+    .breadcrumbs {
+      font-size: 1rem;
+      line-height: 1.25rem;
+      margin-bottom: 1.25rem;
+
+      a {
+        display: none;
+
+        &[data-last='true'] {
+          display: inline-block;
+        }
+      }
+
+      .divider {
+        display: none;
+
+        &[data-last='true'] {
+          display: inline-block;
+
+          span:first-child {
+            display: none;
+          }
+
+          span:last-child {
+            svg {
+              display: inline-block;
+              fill: var(--text);
+              height: 0.5rem;
+              width: 0.5rem;
+            }
+          }
+        }
+      }
+    }
+
+    .title {
+      font-size: 2rem;
+      line-height: 2.25rem;
+      padding: 0 1rem;
+
+      .day {
+        font-size: 5.75rem;
+        top: 0rem;
+      }
+    }
+
+    .preview {
+      padding: 0 1rem;
+    }
+  }
+
+  @include screen.tiny {
+    .context {
+      margin-bottom: 1rem;
+      margin-top: 0rem;
+
+      .content {
+        align-items: center;
+        flex-direction: column;
+
+        .author {
+          margin-bottom: 1rem;
+          margin-right: 0;
+        }
+
+        .items {
+          align-items: center;
+          flex-direction: column;
+
+          .item {
+            font-weight: 400;
+            margin-bottom: 0.5rem;
+            margin-right: 0;
+
+            &:after {
+              display: none;
+            }
+
+            &:first-child {
+              display: none;
+            }
+
+            &:last-of-type {
+              margin-bottom: 1.5rem;
+            }
+          }
+
+          a {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  @include screen.miniscule {
+    .tags {
+      flex-direction: column;
+      padding: 0 1rem;
+
+      .tag {
+        justify-content: center;
+        line-height: 1rem;
+        margin-bottom: 0.5rem;
+        text-align: center;
+        width: 100%;
+      }
+    }
+  }
+}

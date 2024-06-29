@@ -1,0 +1,44 @@
+{
+  "name": "acrossthekyle",
+  "version": "1.1.0",
+  "private": true,
+  "homepage": "https://acrossthekyle.com",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "precommit-msg": "echo 'Pre-commit checks...' && exit 0"
+  },
+  "dependencies": {
+    "@formspree/react": "^2.5.1",
+    "@mdx-js/loader": "^3.0.1",
+    "@mdx-js/react": "^3.0.1",
+    "@next/mdx": "^14.2.3",
+    "@types/mdx": "^2.0.13",
+    "lodash": "4.17.21",
+    "next": "^14.1.3",
+    "next-mdx-remote": "^4.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-intersection-observer": "^9.10.2",
+    "recma-mdx-displayname": "^0.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.28",
+    "@types/react": "18.2.66",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.1.4",
+    "pre-commit": "^1.2.2",
+    "prettier": "^3.2.5",
+    "sass": "^1.72.0",
+    "typescript": "5.4.2"
+  },
+  "pre-commit": [
+    "precommit-msg",
+    "format",
+    "build"
+  ]
+}

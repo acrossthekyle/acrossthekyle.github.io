@@ -1,0 +1,11 @@
+@use 'styles/mixins/_screen' as screen;
+
+.hero {
+  @include screen.small {
+    img {
+      left: -50%;
+      position: absolute;
+      width: 150%;
+    }
+  }
+}

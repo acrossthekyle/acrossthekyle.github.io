@@ -1,0 +1,68 @@
+@use 'styles/mixins/_on' as on;
+@use 'styles/mixins/_screen' as screen;
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  height: auto !important;
+  justify-content: center;
+  margin: 3rem auto 2rem;
+  position: relative;
+  width: 100%;
+
+  .stat {
+    align-items: center;
+    color: var(--text);
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0 2.5rem;
+    text-align: center;
+
+    .label {
+      display: block;
+      font-size: 0.75rem;
+      font-weight: 400;
+      margin-top: 1rem;
+      text-transform: uppercase;
+    }
+  }
+
+  @include screen.small {
+    display: grid;
+    grid-auto-rows: 2rem;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(2, minmax(calc(50% - 2rem), 1fr));
+    margin: 2rem auto 2.5rem;
+
+    .stat {
+      font-size: 1.25rem;
+      grid-row: span 1;
+      margin: 0 1rem;
+
+      .label {
+        font-size: 0.65rem;
+        margin-top: 0.75rem;
+      }
+    }
+  }
+}
+
+.external {
+  position: relative;
+  text-align: center;
+
+  .garmin {
+    color: var(--text);
+    display: block;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+
+    @include on.hover {
+      text-decoration: underline;
+    }
+  }
+
+  @include screen.small {
+    margin-bottom: 2rem;
+  }
+}
