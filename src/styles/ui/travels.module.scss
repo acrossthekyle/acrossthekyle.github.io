@@ -169,17 +169,8 @@
                 display: inline-block;
                 margin: 0 0.5rem;
               }
-
-              .location {
-                display: inline-block;
-                margin-right: 0.225rem;
-              }
             }
           }
-        }
-
-        .more {
-          display: none;
         }
       }
 
@@ -241,10 +232,6 @@
   }
 
   @include screen.small {
-    .description {
-      padding: 0 1.75rem;
-    }
-
     .items {
       padding: 2rem 1rem 0;
 
@@ -263,16 +250,6 @@
     .header {
       font-size: 1.8rem;
       line-height: 2.05rem;
-
-      &:before {
-        margin-left: -2.5rem;
-        top: 4.75rem;
-        width: 5rem;
-      }
-    }
-
-    .description {
-      padding: 0 1.5rem;
     }
 
     .items {
@@ -293,6 +270,13 @@
         &:nth-child(3n + 1) {
           grid-row: span 16;
         }
+
+        .caption {
+          .preview {
+            font-size: 1rem;
+            line-height: 1.5rem;
+          }
+        }
       }
     }
   }
@@ -301,33 +285,6 @@
     .header {
       font-size: 1.5rem;
       line-height: 1.75rem;
-
-      &:before {
-        margin-left: -2rem;
-        top: 2.75rem;
-        width: 4rem;
-      }
-    }
-
-    .description {
-      margin-bottom: 2.5rem;
-      text-align: left;
-    }
-
-    .items {
-      .item {
-        .caption {
-          .context {
-            .content {
-              .info {
-                .location {
-                  display: none;
-                }
-              }
-            }
-          }
-        }
-      }
     }
   }
 }

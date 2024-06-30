@@ -7,7 +7,6 @@ import posts from '../posts';
 import ContactForm from './contact';
 import GarminIcon from './icons/garmin';
 import InstagramIcon from './icons/instagram';
-import TreeIcon from './icons/tree';
 import Image from './image';
 import Theme from './theme';
 

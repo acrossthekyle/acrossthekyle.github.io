@@ -34,6 +34,10 @@
     flex-direction: row;
   }
 
+  &[data-no-title='true'] {
+    margin-bottom: 2rem;
+  }
+
   &[data-overflow='true'] {
     left: -25%;
     padding: 0 2rem;
@@ -61,5 +65,9 @@
 
   @include screen.compact {
     flex-direction: column;
+
+    &[data-multiple='true'] {
+      flex-direction: column;
+    }
   }
 }

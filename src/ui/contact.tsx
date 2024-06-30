@@ -19,7 +19,6 @@ function Contact() {
             className={styles.input}
             id="email"
             name="email"
-            placeholder="Email address"
             required
             type="email"
           />

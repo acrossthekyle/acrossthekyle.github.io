@@ -17,6 +17,7 @@ function Gallery({ images, title }: Props) {
     <figure
       className={styles.figure}
       data-multiple={images.length > 1}
+      data-no-title={title.trim() === ''}
       data-overflow={images.length > 2}
     >
       {images.map((image, index) => (

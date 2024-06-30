@@ -18,7 +18,6 @@ type Props = {
 
 type TravelProps = {
   date: string;
-  locationShort: string;
   image: string;
   snippet: string;
   tags: string;
@@ -26,15 +25,7 @@ type TravelProps = {
   uri: string;
 };
 
-function Travel({
-  date,
-  image,
-  locationShort,
-  snippet,
-  tags,
-  title,
-  uri,
-}: TravelProps) {
+function Travel({ date, image, snippet, tags, title, uri }: TravelProps) {
   const [hasEnteredView, setHasEnteredView] = useState(false);
 
   const handleOnInView = (inView: boolean) => {
