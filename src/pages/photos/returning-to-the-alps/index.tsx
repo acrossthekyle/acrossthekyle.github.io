@@ -115,9 +115,9 @@ function Page() {
                       {(props) => (
                         <Image
                           alt=""
-                          height={432}
+                          height={1080}
                           src={url}
-                          width={768}
+                          width={1920}
                           {...props}
                         />
                       )}
