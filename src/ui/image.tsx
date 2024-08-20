@@ -16,13 +16,9 @@ const Image = forwardRef(function UiImage(
         quality={80}
         {...props}
         onLoad={() => setIsLoaded(true)}
-        loader={({ src, width, quality }) => {
-          if (src.includes('updatedAt')) {
-            return `${src}&tr=w-${width}&q-${quality}`;
-          }
-
-          return `${src}?tr=w-${width}&q-${quality}`;
-        }}
+        loader={({ src, width, quality }) =>
+          `${src}${src.includes('updatedAt') ? '&' : '?'}tr=w-${width}&q-${quality}`
+        }
         ref={ref}
         src={`https://ik.imagekit.io/acrossthekyle/uploads/${props.src}`}
       />

@@ -110,7 +110,7 @@ function Search({ isSearching, onClose }: Props) {
           <h4 className={styles.total}>Found: {results.length}</h4>
           {results.map(({ date, title, uri }) => (
             <div className={styles.result} key={uri}>
-              <Link href={uri}>
+              <Link href={uri} onClick={onClose}>
                 <div className={styles.title}>{title}</div>
                 <span className={styles.date}>
                   <time>{date}</time>

@@ -2,6 +2,108 @@ import { flatten, uniq } from 'lodash';
 
 /************************/
 //
+// TMB 2024
+//
+/************************/
+
+const post19 = {
+  date: 'July 27th, 2024',
+  gear: 'https://lighterpack.com/r/oviyai',
+  image: '2024/07/27/3.2-08F64C62-7FB2-4077-B012-00FB6EEF90CB.jpeg',
+  locationFull: 'Alpes, Europe',
+  locationShort: 'Europe',
+  marker: {
+    left: '47%',
+    top: '22%',
+  },
+  snippet: `It's been a wish of mine to be able to go back to the European Alpes and re-visit an old friend: the Tour du Mont Blanc.`,
+  stages: [
+    {
+      dateFull: `July 27th, 2024`,
+      dateShort: `July 27th`,
+      garmin: `16648505816`,
+      image: ``,
+      title: `Les Houches to Auberge le Truc`,
+    },
+    {
+      dateFull: `July 28th, 2024`,
+      dateShort: `July 28th`,
+      garmin: `16648508499`,
+      image: ``,
+      title: `Auberge le Truc to Refuge de La Croix du Bonhomme`,
+    },
+    {
+      dateFull: `July 29th, 2024`,
+      dateShort: `July 29th`,
+      garmin: `16648510931`,
+      image: ``,
+      title: `Refuge de La Croix du Bonhomme to Refuge Robert Blanc`,
+    },
+    {
+      dateFull: `July 30th, 2024`,
+      dateShort: `July 30th`,
+      garmin: `16648513979`,
+      image: ``,
+      title: `Refuge Robert Blanc to Maison Veille`,
+    },
+    {
+      dateFull: `July 31st, 2024`,
+      dateShort: `July 31st`,
+      garmin: `16648516562`,
+      image: ``,
+      title: `Maison Veille to Rifugio Bonatti`,
+    },
+    {
+      dateFull: `August 1st, 2024`,
+      dateShort: `August 1st`,
+      garmin: `16648518987`,
+      image: ``,
+      title: `Rifugio Bonatti to Hotel Edelweiss`,
+    },
+    {
+      dateFull: `August 2nd, 2024`,
+      dateShort: `August 2nd`,
+      garmin: `16655300053`,
+      image: ``,
+      title: `Hotel Edelweiss to Gite Bon Abri`,
+    },
+    {
+      dateFull: `August 3rd, 2024`,
+      dateShort: `August 3rd`,
+      garmin: `16664831411`,
+      image: ``,
+      title: `Gite Bon Abri to Hotel Forclaz`,
+    },
+    {
+      dateFull: `August 4th, 2024`,
+      dateShort: `August 4th`,
+      garmin: `16680237006`,
+      image: ``,
+      title: `Hotel Forclaz to Auberge la Boerne`,
+    },
+    {
+      dateFull: `August 5th, 2024`,
+      dateShort: `August 5th`,
+      garmin: `16680239829`,
+      image: ``,
+      title: `Auberge la Boerne to Refuge de lo Flegere`,
+    },
+    {
+      dateFull: `August 6th, 2024`,
+      dateShort: `August 6th`,
+      garmin: `16719616815`,
+      image: ``,
+      title: `Refuge de lo Flegere to Les Houches`,
+    },
+  ],
+  tags: 'thru-hike',
+  title: 'Returning to the Alpes and the Tour du Mont Blanc',
+  titleShort: 'Tour du Mont Blanc 2024',
+  uri: '/posts/returning-to-the-alps',
+};
+
+/************************/
+//
 // GR20
 //
 /************************/
@@ -1013,6 +1115,7 @@ const post1 = {
 
 const travels = {
   items: [
+    post19,
     post18,
     post17,
     post16,

@@ -78,12 +78,12 @@ function Page() {
         />
         <h3>What's next</h3>
         <p>
-          In July of 2024 I am going to be returning to Europe and re-hiking the
-          entire Tour du Mont Blanc. It's been nearly six years since I first
-          thru-hiked it, and I've always wanted to go back and do it again. This
-          time my partner will be joining me (it'll be her first time doing
-          something like this), and I think this will be a great way to
-          introduce them to the backpacking lifestyle.
+          In July of 2024 I returned to Europe and re-hiked the Tour du Mont
+          Blanc, this time with my partner. It had been nearly six years since I
+          first thru-hiked it, and I hope to be able to repeat another
+          experience of mine from 2018 sometime soon and walk the Camino de
+          Santiago, maybe in the next year or two. There's also plans for making
+          a trip to Peru in the next year.
         </p>
       </Post>
     </View>

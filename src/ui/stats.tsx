@@ -2,6 +2,8 @@
 
 import styles from '@/styles/ui/stats.module.scss';
 
+import { GARMIN_URL } from '../constants';
+
 type Props = {
   gain?: string;
   garmin?: string;
@@ -39,7 +41,7 @@ function Stats({ gain, garmin, loss, miles, steps }: Props) {
         <div className={styles.external}>
           <a
             className={styles.garmin}
-            href={`https://connect.garmin.com/modern/activity/${garmin}`}
+            href={`${GARMIN_URL}${garmin}`}
             rel="noreferrer"
             target="_blank"
           >

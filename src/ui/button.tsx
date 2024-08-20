@@ -24,7 +24,11 @@ function Button({ className = '', href, onClick, text }: Props) {
 
   if (href) {
     return (
-      <Link className={`${styles.button} ${className}`.trim()} href={href}>
+      <Link
+        className={`${styles.button} ${className}`.trim()}
+        href={href}
+        target={href.includes('http') ? '_blank' : '_self'}
+      >
         {text}
       </Link>
     );

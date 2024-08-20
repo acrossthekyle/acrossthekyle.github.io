@@ -1,10 +1,11 @@
+import { ReactNode } from 'react';
 import Link from 'next/link';
 
 import styles from '@/styles/ui/link.module.scss';
 
 type Props = {
   className?: string;
-  text: string;
+  text: string | ReactNode;
   url: string;
 };
 

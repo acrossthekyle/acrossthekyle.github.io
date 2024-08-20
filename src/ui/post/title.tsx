@@ -2,7 +2,6 @@ import { Fragment, ReactNode } from 'react';
 import Link from 'next/link';
 
 import styles from '@/styles/ui/post/title.module.scss';
-import ArrowIcon from '@/ui/icons/arrow';
 
 import External from '../external';
 import Image from '../image';
