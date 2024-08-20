@@ -8,7 +8,7 @@ import { flatten, uniq } from 'lodash';
 
 const post19 = {
   date: 'July 27th, 2024',
-  gear: 'https://lighterpack.com/r/oviyai',
+  gear: 'https://lighterpack.com/r/hpd82k',
   image: '2024/07/27/3.2-08F64C62-7FB2-4077-B012-00FB6EEF90CB.jpeg',
   locationFull: 'Alpes, Europe',
   locationShort: 'Europe',
