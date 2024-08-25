@@ -4,81 +4,63 @@ import {
   MutableRefObject,
   ReactNode,
   Ref,
+  useContext,
   useEffect,
   useRef,
   useState,
 } from 'react';
 
-type PassDownProps = {
-  'data-zoom': string;
-  onClick: () => void;
-  ref: Ref<HTMLImageElement | null>;
-  style: {
-    transform: string;
-    zIndex: number;
-  };
-};
+import { ZoomContext } from '@/contexts/zoom';
+
+import Image from './image';
 
 type Props = {
-  children: (props: PassDownProps) => ReactNode;
+  height: number;
+  sizes?: string;
+  src: string;
+  width: number;
 };
 
-function Zoom({ children }: Props) {
-  const [isZoomed, setIsZoomed] = useState(false);
+function Zoom(props: Props) {
+  const { isZoomed, toggleZoom } = useContext(ZoomContext);
+
+  const [isActive, toggleIsActive] = useState(false);
   const [zIndex, setZindex] = useState<number | null>(null);
 
   const imageRef: MutableRefObject<HTMLImageElement | null> =
     useRef<HTMLImageElement>(null);
 
-  const handleOnClick = () => {
-    if (isZoomed) {
-      setZindex(801);
+  useEffect(() => {
+    if (isActive && !isZoomed) {
+      zoomOut();
 
-      setTimeout(() => {
-        setZindex(null);
-      }, 400);
+      toggleIsActive(false);
+    }
+  }, [isZoomed, isActive]);
+
+  const handleOnClick = () => {
+    if (isZoomed && isActive) {
+      zoomOut();
     }
 
-    setIsZoomed(!isZoomed);
+    toggleIsActive(!isActive);
+    toggleZoom();
   };
 
-  const handleOnReset = () => {
-    setIsZoomed(false);
+  const zoomOut = () => {
+    setZindex(801);
+
+    setTimeout(() => {
+      setZindex(null);
+    }, 400);
   };
-
-  useEffect(() => {
-    const backdrop = document.querySelector('[data-backdrop]');
-
-    backdrop.addEventListener('click', handleOnReset);
-
-    document.addEventListener('keyup', handleOnReset);
-    window.addEventListener('scroll', handleOnReset);
-    window.addEventListener('resize', handleOnReset);
-
-    return () => {
-      backdrop.removeEventListener('click', handleOnReset);
-
-      document.removeEventListener('keyup', handleOnReset);
-      window.removeEventListener('scroll', handleOnReset);
-      window.removeEventListener('resize', handleOnReset);
-    };
-  }, []);
-
-  useEffect(() => {
-    document
-      .querySelector('[data-backdrop]')
-      .setAttribute(
-        'data-backdrop-active',
-        isZoomed === false ? 'false' : 'true',
-      );
-  }, [isZoomed]);
 
   const calculateTransform = (): string => {
     if (isZoomed === false) {
       return undefined;
     }
 
-    if (imageRef.current) {
+    if (imageRef.current && isActive) {
       const imageBCR = imageRef.current.getBoundingClientRect();
 
       const scale = Math.min(
@@ -105,17 +87,17 @@ function Zoom({ children }: Props) {
   };
 
   return (
-    <>
-      {children({
-        'data-zoom': isZoomed === false ? 'false' : 'true',
-        onClick: handleOnClick,
-        ref: imageRef,
-        style: {
-          transform: calculateTransform(),
-          zIndex: calculateZindex(),
-        },
-      })}
-    </>
+    <Image
+      alt=""
+      {...props}
+      data-zoom={isActive ? (isZoomed === false ? 'false' : 'true') : 'false'}
+      onClick={handleOnClick}
+      ref={imageRef}
+      style={{
+        transform: calculateTransform(),
+        zIndex: calculateZindex(),
+      }}
+    />
   );
 }
 

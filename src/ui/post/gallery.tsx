@@ -22,18 +22,7 @@ function Gallery({ images, title }: Props) {
     >
       {images.map((image, index) => (
         <div className={styles.image} key={image}>
-          <Zoom>
-            {(props) => (
-              <Image
-                alt=""
-                height={1080}
-                sizes="50vw"
-                src={image}
-                width={1920}
-                {...props}
-              />
-            )}
-          </Zoom>
+          <Zoom height={1080} sizes="50vw" src={image} width={1920} />
         </div>
       ))}
       {!!title && <figcaption className={styles.caption}>{title}</figcaption>}

@@ -7,6 +7,7 @@ import { type AppProps } from 'next/app';
 import Head from 'next/head';
 import router from 'next/router';
 
+import { Zoom } from '@/contexts/zoom';
 import styles from '@/styles/pages/_app.module.scss';
 
 import Post from './posts/layout';
@@ -44,13 +45,15 @@ function App({ Component, pageProps }: AppProps) {
           content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover"
         />
       </Head>
-      {Component.displayName === 'MDXContent' ? (
-        <Post>
+      <Zoom>
+        {Component.displayName === 'MDXContent' ? (
+          <Post>
+            <Component {...pageProps} />
+          </Post>
+        ) : (
           <Component {...pageProps} />
-        </Post>
-      ) : (
-        <Component {...pageProps} />
-      )}
+        )}
+      </Zoom>
       {isPageLoading && <div className={styles.loading} />}
     </>
   );

@@ -110,19 +110,7 @@ function Page() {
             <InView key={url} threshold={0.35} triggerOnce>
               {({ inView, ref }) => (
                 <div className={styles.item} ref={ref}>
-                  {inView && (
-                    <Zoom>
-                      {(props) => (
-                        <Image
-                          alt=""
-                          height={1080}
-                          src={url}
-                          width={1920}
-                          {...props}
-                        />
-                      )}
-                    </Zoom>
-                  )}
+                  {inView && <Zoom height={1080} src={url} width={1920} />}
                 </div>
               )}
             </InView>
