@@ -61,16 +61,6 @@ function Menu() {
                   About
                 </Link>
               </li>
-              <li>
-                <Link
-                  className={styles.link}
-                  href="https://acrossthekyle.etsy.com"
-                  onClick={handleOnToggle}
-                  target="_blank"
-                >
-                  Shop
-                </Link>
-              </li>
             </ul>
             <div className={styles.footer}>
               <Theme />
