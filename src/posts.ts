@@ -111,7 +111,7 @@ const post19 = {
 const post18 = {
   date: 'June 21st, 2023',
   gear: 'https://lighterpack.com/r/76sj40',
-  image: '2023/06/21/2b76b591-7d74-41a8-9f66-7f0520834b4e.jpeg',
+  image: '2023/06/21/273b1f88-962f-4011-8797-d21c640e73ff.jpeg',
   locationFull: 'Corsica, France',
   locationShort: 'France',
   marker: {
@@ -280,7 +280,7 @@ const post15 = {
 const post14 = {
   date: 'May 7th, 2022',
   gear: 'https://lighterpack.com/r/ng8tzb',
-  image: '2022/05/07/fa67ee47-6e09-435b-ab26-387af58a93f4.jpeg',
+  image: '2022/05/07/4a15a62a-a739-4ad9-83ff-3200e16c6bd5.jpeg',
   locationFull: 'Highlands, Scotland',
   locationShort: 'Scotland',
   marker: {
@@ -451,7 +451,7 @@ const post9 = {
 const post8 = {
   date: 'Feb 18th, 2020',
   gear: 'https://lighterpack.com/r/bw0s1t',
-  image: '2020/02/18/57edfc37-720b-4ba7-b5e0-3f172ec64b12.jpeg',
+  image: '2020/02/18/5e958df4-56a2-4292-ae6d-b694f078a985.jpeg',
   locationFull: 'Patagonia, Chile',
   locationShort: 'Chile',
   marker: {
@@ -487,7 +487,7 @@ const post8 = {
     {
       dateFull: `February 22nd, 2020`,
       dateShort: `February 22nd`,
-      image: `2020/02/18/0e329031-7678-429d-91e3-612bae9bd38f.jpeg`,
+      image: `2020/02/18/dd6e739e-b793-4c64-8e7c-c6a631b467c7.jpeg`,
       title: `Refugio Grey to Refugio Paine Grande`,
     },
     {
@@ -701,7 +701,7 @@ const post5 = {
 const post4 = {
   date: 'July 16th, 2019',
   gear: 'https://lighterpack.com/r/kolkui',
-  image: '2019/07/16/cec6ab5c-a16f-497a-a5c2-03c024fca4e5.jpeg',
+  image: '2019/07/16/c4d424d9-7826-422d-9e0f-1b7e8b20af99.jpeg',
   locationFull: 'Dolomites, Italy',
   locationShort: 'Italy',
   marker: {
@@ -737,7 +737,7 @@ const post4 = {
     {
       dateFull: `July 20th, 2019`,
       dateShort: `July 20th`,
-      image: `2019/07/16/2539398d-aa19-440b-b6a5-3ba2c802d936.jpeg`,
+      image: `2019/07/16/557d453a-3958-48a1-b56a-41ad3349d9c4.jpeg`,
       title: `Rifugio Averau to Rifugio Citta de Fume`,
     },
     {
@@ -798,7 +798,7 @@ const post3 = {
     {
       dateFull: `September 2nd, 2018`,
       dateShort: `September 2nd`,
-      image: `2018/09/02/9b10ce9e-8c52-4903-a866-c9f902b59b16.jpeg`,
+      image: `2018/09/02/c0befd91-52d4-4fcb-a038-56d91d39875d.jpeg`,
       title: `Les Houches to Auberge le Truc`,
     },
     {
@@ -943,7 +943,7 @@ const post2 = {
     {
       dateFull: `June 10th, 2018`,
       dateShort: `June 10th`,
-      image: `2018/06/02/62e2a9b1-f937-4e7c-bedf-9b4c429fb848.jpeg`,
+      image: `2018/06/02/b40465e9-7051-4c3d-a6e8-715503f56e87.jpeg`,
       title: `Najera to Santo Domingo`,
     },
     {
