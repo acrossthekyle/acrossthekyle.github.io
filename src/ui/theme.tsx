@@ -1,44 +1,46 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
+
+import { ThemeContext } from '@/contexts/theme';
 
 function Theme() {
-  const [current, setCurrent] = useState('light');
+  const { theme, setTheme } = useContext(ThemeContext);
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const saved = localStorage.getItem('theme');
 
       if (saved !== null) {
-        setCurrent(saved);
+        setTheme(saved);
         document.querySelector('html').setAttribute('data-theme', saved);
       } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        setCurrent('dark');
+        setTheme('dark');
         document.querySelector('html').setAttribute('data-theme', 'dark');
       } else {
-        setCurrent('light');
+        setTheme('light');
         document.querySelector('html').setAttribute('data-theme', 'light');
       }
     }
   }, []);
 
   const handleOnClick = () => {
-    const theme = current === 'dark' ? 'light' : 'dark';
+    const value = theme === 'dark' ? 'light' : 'dark';
 
-    localStorage.setItem('theme', theme);
+    localStorage.setItem('theme', value);
 
-    document.querySelector('html').setAttribute('data-theme', theme);
+    document.querySelector('html').setAttribute('data-theme', value);
 
-    setCurrent(theme);
+    setTheme(value);
   };
 
   return (
     <button
-      aria-label={`change to ${current === 'dark' ? 'light' : 'dark'} theme`}
+      aria-label={`change to ${theme === 'dark' ? 'light' : 'dark'} theme`}
       onClick={handleOnClick}
       type="button"
     >
-      Switch to {current === 'dark' ? 'light' : 'dark'} theme
+      Switch to {theme === 'dark' ? 'light' : 'dark'} theme
     </button>
   );
 }

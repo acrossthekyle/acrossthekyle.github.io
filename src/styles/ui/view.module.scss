@@ -36,6 +36,7 @@
 
         .logo {
           position: absolute;
+          top: 6px;
           z-index: 2;
 
           a {
@@ -109,7 +110,7 @@
     .wrapper {
       .container {
         .inner {
-          padding: 0 1.25rem;
+          padding: 0 1.25rem 0 0.5rem;
         }
       }
     }
@@ -119,7 +120,7 @@
     .wrapper {
       .container {
         .inner {
-          padding: 0 5rem;
+          padding: 0 5rem 0 4.5rem;
         }
       }
     }
@@ -129,7 +130,7 @@
     .wrapper {
       .container {
         .inner {
-          padding: 0 1.75rem;
+          padding: 0 1.75rem 0 0.5rem;
 
           .nav {
             display: none;
@@ -147,7 +148,7 @@
     .wrapper {
       .container {
         .inner {
-          padding: 0 1.5rem;
+          padding: 0 1.5rem 0 0.5rem;
         }
       }
     }

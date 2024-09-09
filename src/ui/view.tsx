@@ -1,8 +1,10 @@
 'use client';
 
-import { ReactNode, useEffect, useState } from 'react';
+import { ReactNode, useContext, useEffect, useState } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 
+import { ThemeContext } from '@/contexts/theme';
 import styles from '@/styles/ui/view.module.scss';
 
 import Footer from './footer';
@@ -20,6 +22,8 @@ type Props = {
 let previousScrollPosition = 0;
 
 function View({ children, className = '' }: Props) {
+  const { theme } = useContext(ThemeContext);
+
   const [isSearching, setIsSearching] = useState(false);
 
   useEffect(() => {
@@ -67,7 +71,16 @@ function View({ children, className = '' }: Props) {
           <div className={styles.container}>
             <div className={styles.inner}>
               <div className={styles.logo}>
-                <Link href="/">Kyle</Link>
+                <Link href="/">
+                  <Image
+                    alt="acrossthekyle.com logo"
+                    height={60}
+                    quality={20}
+                    src={`https://ik.imagekit.io/acrossthekyle/uploads/logo-${theme}.png?updatedAt=1725897720418&tr=q-20`}
+                    title="Kyle Gilbert"
+                    width={60}
+                  />
+                </Link>
               </div>
               <nav className={styles.nav}>
                 <div className={styles.wrapper}>

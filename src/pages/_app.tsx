@@ -7,6 +7,7 @@ import { type AppProps } from 'next/app';
 import Head from 'next/head';
 import router from 'next/router';
 
+import { Theme } from '@/contexts/theme';
 import { Zoom } from '@/contexts/zoom';
 import styles from '@/styles/pages/_app.module.scss';
 
@@ -30,6 +31,10 @@ function App({ Component, pageProps }: AppProps) {
     router.events.on('routeChangeComplete', routeEventEnd);
     router.events.on('routeChangeError', routeEventEnd);
 
+    console.log(
+      'View the code at https://github.com/acrossthekyle/acrossthekyle.github.io',
+    );
+
     return () => {
       router.events.off('routeChangeStart', routeEventStart);
       router.events.off('routeChangeComplete', routeEventEnd);
@@ -45,15 +50,17 @@ function App({ Component, pageProps }: AppProps) {
           content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover"
         />
       </Head>
-      <Zoom>
-        {Component.displayName === 'MDXContent' ? (
-          <Post>
+      <Theme>
+        <Zoom>
+          {Component.displayName === 'MDXContent' ? (
+            <Post>
+              <Component {...pageProps} />
+            </Post>
+          ) : (
             <Component {...pageProps} />
-          </Post>
-        ) : (
-          <Component {...pageProps} />
-        )}
-      </Zoom>
+          )}
+        </Zoom>
+      </Theme>
       {isPageLoading && <div className={styles.loading} />}
     </>
   );
