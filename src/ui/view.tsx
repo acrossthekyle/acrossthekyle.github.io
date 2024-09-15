@@ -96,7 +96,7 @@ function View({ children, className = '' }: Props) {
                         href="https://acrossthekyle.etsy.com"
                         target="_blank"
                       >
-                        Shop
+                        Etsy
                       </Link>
                     </li>
                   </ul>

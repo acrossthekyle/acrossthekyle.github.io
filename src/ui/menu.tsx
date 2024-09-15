@@ -68,7 +68,7 @@ function Menu() {
                   onClick={handleOnToggle}
                   target="_blank"
                 >
-                  Shop
+                  Etsy
                 </Link>
               </li>
             </ul>
