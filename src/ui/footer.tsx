@@ -5,6 +5,7 @@ import styles from '@/styles/ui/footer.module.scss';
 import posts from '../posts';
 
 import ContactForm from './contact';
+import EtsyIcon from './icons/etsy';
 import GarminIcon from './icons/garmin';
 import InstagramIcon from './icons/instagram';
 import Image from './image';
@@ -81,6 +82,15 @@ function Footer() {
           title="View my Garmin apps"
         >
           <GarminIcon />
+        </a>
+        <a
+          className={styles.link}
+          href="https://acrossthekyle.etsy.com"
+          rel="noreferrer"
+          target="_blank"
+          title="View my Etsy shop"
+        >
+          <EtsyIcon />
         </a>
       </div>
       <div className={styles.bottom}>

@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 import styles from '@/styles/pages/home/index.module.scss';
+import EtsyIcon from '@/ui/icons/etsy';
 import GarminIcon from '@/ui/icons/garmin';
 import InstagramIcon from '@/ui/icons/instagram';
 import Image from '@/ui/image';
@@ -48,6 +49,15 @@ function Page() {
             title="View my Garmin apps"
           >
             <GarminIcon />
+          </a>
+          <a
+            className={styles.link}
+            href="https://acrossthekyle.etsy.com"
+            rel="noreferrer"
+            target="_blank"
+            title="View my Etsy shop"
+          >
+            <EtsyIcon />
           </a>
         </div>
       </div>

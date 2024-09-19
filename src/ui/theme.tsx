@@ -22,7 +22,7 @@ function Theme() {
         document.querySelector('html').setAttribute('data-theme', 'light');
       }
     }
-  }, []);
+  }, [setTheme]);
 
   const handleOnClick = () => {
     const value = theme === 'dark' ? 'light' : 'dark';
