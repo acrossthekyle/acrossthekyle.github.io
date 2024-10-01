@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 
 import posts from '../posts';
+import { getPostIdAndStageFromUriSegment } from '../utils';
 
 import Timeline from './timeline';
 
@@ -16,13 +17,10 @@ function Stages() {
   useEffect(() => {
     if (router.isReady) {
       const base = router.asPath.split('/posts/');
-      const parts = (
-        base[1].indexOf('#') > -1
-          ? base[1].substring(0, base[1].indexOf('#'))
-          : base[1]
-      ).split('/');
 
-      setPost(posts.getById(parts[0]));
+      const { id } = getPostIdAndStageFromUriSegment(base);
+
+      setPost(posts.getById(id));
       setScrollToTimeline(base[1].indexOf('#timeline') > -1);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps

@@ -14,7 +14,9 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
     a: ({ children, href }) => {
       if (/^\d+$/.test(href)) {
-        return <Link href={posts.getByIndex(href).uri}>{children}</Link>;
+        return (
+          <Link href={posts.getByIndex(Number(href)).uri}>{children}</Link>
+        );
       }
 
       return <Link href={href}>{children}</Link>;

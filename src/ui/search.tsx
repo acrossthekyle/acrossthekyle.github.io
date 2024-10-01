@@ -8,77 +8,30 @@ import styles from '@/styles/ui/search.module.scss';
 import posts from '../posts';
 
 import CloseIcon from './icons/close';
+import {
+  filterByQuery,
+  getAllUniqueLocations,
+  getAllUniqueTitles,
+} from './search.utils';
 
 type Props = {
   isSearching: boolean;
   onClose: () => void;
 };
 
-const LOCATIONS = posts
-  .getArray()
-  .map(({ locationFull }) => locationFull.toLowerCase())
-  .filter((value, index, items) => items.indexOf(value) === index);
-
-const TITLES = posts
-  .getArray()
-  .map(({ title }) => title.toLowerCase())
-  .filter((value, index, items) => items.indexOf(value) === index);
+const LOCATIONS = getAllUniqueLocations(posts);
+const TITLES = getAllUniqueTitles(posts);
 
 function Search({ isSearching, onClose }: Props) {
   const [query, updateQuery] = useState('');
   const [results, setResults] = useState([]);
 
-  const filterPosts = () => {
-    if (!!query.trim()) {
-      const filtered = [...posts.getArray()];
-
-      query
-        .trim()
-        .split(' ')
-        .forEach((part) => {
-          const lowered = part.toLowerCase();
-
-          if (/^\d{4}$/.test(lowered)) {
-            setResults(filtered.filter(({ date }) => date.includes(lowered)));
-
-            return;
-          }
-
-          const matchedLocations = LOCATIONS.filter((_) => _.includes(lowered));
-          const matchedTitles = TITLES.filter((_) => _.includes(lowered));
-
-          if (matchedLocations.length > 0 && matchedTitles.length > 0) {
-            setResults(
-              filtered.filter(({ locationFull, title }) => {
-                return (
-                  locationFull.toLowerCase().includes(lowered) ||
-                  title.toLowerCase().includes(lowered)
-                );
-              }),
-            );
-          } else if (matchedLocations.length > 0) {
-            setResults(
-              filtered.filter(({ locationFull }) => {
-                return locationFull.toLowerCase().includes(lowered);
-              }),
-            );
-          } else if (matchedTitles.length > 0) {
-            setResults(
-              filtered.filter(({ title }) => {
-                return title.toLowerCase().includes(lowered);
-              }),
-            );
-          } else {
-            setResults([]);
-          }
-        });
-    } else {
-      setResults([]);
-    }
+  const filterPostsByQuery = () => {
+    setResults(filterByQuery(query, posts, TITLES, LOCATIONS));
   };
 
   useEffect(() => {
-    filterPosts();
+    filterPostsByQuery();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [query]);
 

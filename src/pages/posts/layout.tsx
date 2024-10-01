@@ -7,6 +7,7 @@ import { useRouter } from 'next/router';
 import styles from '@/styles/pages/posts/index.module.scss';
 
 import posts from '../../posts';
+import { getPostIdAndStageFromUriSegment } from '../../utils';
 
 import View from '@/ui/view';
 import Post from '@/ui/post';
@@ -31,19 +32,12 @@ function Layout({ children }: Props) {
 
   useEffect(() => {
     if (post === null && stage === undefined) {
-      const base = route.split('/posts/');
-      const parts = (
-        base[1].indexOf('#') > -1
-          ? base[1].substring(0, base[1].indexOf('#'))
-          : base[1]
-      ).split('/');
-
-      setPost(posts.getById(parts[0]));
-      setStage(
-        parts.length > 1
-          ? posts.getStage(parts[0], Number(parts[1]))
-          : undefined,
+      const { id, stageIndex } = getPostIdAndStageFromUriSegment(
+        route.split('/posts/'),
       );
+
+      setPost(posts.getById(id));
+      setStage(stageIndex > -1 ? posts.getStage(id, stageIndex) : undefined);
     }
   }, [post, route, stage]);
 
