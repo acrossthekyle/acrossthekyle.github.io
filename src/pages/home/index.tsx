@@ -8,7 +8,7 @@ import InstagramIcon from '@/ui/icons/instagram';
 import Image from '@/ui/image';
 import View from '@/ui/view';
 import Skeleton from '@/ui/skeleton';
-import Travels from '@/ui/travels';
+import Posts from '@/ui/posts';
 
 function Page() {
   return (
@@ -61,7 +61,7 @@ function Page() {
           </a>
         </div>
       </div>
-      <Travels />
+      <Posts />
     </View>
   );
 }

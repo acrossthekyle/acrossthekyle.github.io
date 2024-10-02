@@ -12,6 +12,9 @@ import styles from '@/styles/ui/travels.module.scss';
 import Button from './button';
 import Image from './image';
 
+const PAGE_SIZE = 9;
+const POST_TOTAL = posts.getTotal();
+
 type Props = {
   tag?: string;
 };
@@ -25,7 +28,7 @@ type TravelProps = {
   uri: string;
 };
 
-function Travel({ date, image, snippet, tags, title, uri }: TravelProps) {
+function Post({ date, image, snippet, tags, title, uri }: TravelProps) {
   const [hasEnteredView, setHasEnteredView] = useState(false);
 
   const handleOnInView = (inView: boolean) => {
@@ -97,7 +100,7 @@ function Travel({ date, image, snippet, tags, title, uri }: TravelProps) {
   );
 }
 
-function Travels({ tag }: Props) {
+function Posts({ tag }: Props) {
   const all = posts.getArray().filter(({ tags }) => {
     if (!!tag) {
       return tags.includes(tag);
@@ -106,10 +109,12 @@ function Travels({ tag }: Props) {
     return true;
   });
 
-  const [shown, setShown] = useState(9);
+  const [shown, setShown] = useState(PAGE_SIZE);
 
   const handleOnViewMore = () => {
-    setShown(posts.getTotal());
+    const more = shown + PAGE_SIZE;
+
+    setShown(more);
   };
 
   return (
@@ -118,10 +123,10 @@ function Travels({ tag }: Props) {
       {!!tag && <h1 className={styles.header}>{tag}</h1>}
       <div className={styles.items}>
         {all.splice(0, shown).map((post) => (
-          <Travel {...post} key={post.uri} />
+          <Post {...post} key={post.uri} />
         ))}
       </div>
-      {!tag && shown === 9 && (
+      {!tag && shown < POST_TOTAL && (
         <div className={styles.footer}>
           <Button
             className={styles.more}
@@ -134,4 +139,4 @@ function Travels({ tag }: Props) {
   );
 }
 
-export default Travels;
+export default Posts;

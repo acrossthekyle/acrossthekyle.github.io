@@ -12,7 +12,8 @@
     "format:fix": "prettier --write .",
     "precommit-msg": "echo 'Pre-commit checks...' && exit 0",
     "test": "jest",
-    "e2e": "npx playwright test"
+    "e2e": "npx playwright test",
+    "e2e:start": "build && start"
   },
   "dependencies": {
     "@formspree/react": "^2.5.1",
@@ -48,6 +49,7 @@
   "pre-commit": [
     "precommit-msg",
     "format",
-    "build"
+    "build",
+    "test"
   ]
 }

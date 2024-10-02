@@ -43,7 +43,12 @@ function Search({ isSearching, onClose }: Props) {
     <div className={styles.find} data-active={isSearching}>
       <div className={styles.container}>
         <div className={styles.input}>
-          <button className={styles.close} onClick={onClose} type="button">
+          <button
+            className={styles.close}
+            onClick={onClose}
+            title="Close search"
+            type="button"
+          >
             <CloseIcon />
           </button>
           <label className={styles.label} htmlFor="search-input">
