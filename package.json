@@ -11,7 +11,8 @@
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
     "precommit-msg": "echo 'Pre-commit checks...' && exit 0",
-    "test": "jest"
+    "test": "jest",
+    "e2e": "npx playwright test"
   },
   "dependencies": {
     "@formspree/react": "^2.5.1",
@@ -29,6 +30,7 @@
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
+    "@playwright/test": "^1.47.2",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/react": "^16.0.1",
