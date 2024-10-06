@@ -1,0 +1,86 @@
+@use 'styles/mixins/_on' as on;
+@use 'styles/mixins/_screen' as screen;
+
+.container {
+  background: var(--body);
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: var(--max-width);
+  padding-bottom: 2rem;
+  padding-top: 9rem;
+  position: relative;
+  z-index: 4;
+
+  .images {
+    border-radius: 0.125rem;
+    display: block;
+    height: 100%;
+    position: relative;
+    width: 142rem;
+
+    .image {
+      position: relative;
+    }
+
+    img {
+      height: 100%;
+      object-fit: cover;
+      width: 100%;
+    }
+
+    .mocks {
+      display: grid;
+      grid-auto-rows: 1rem;
+      grid-gap: 1.25rem;
+      grid-template-columns: repeat(3, minmax(calc(33% - 2.5rem), 1fr));
+      padding-top: 1rem;
+      position: relative;
+
+      .image {
+        grid-row: span 5;
+      }
+    }
+  }
+
+  .content {
+    color: var(--text);
+    padding: 0 2rem;
+
+    .title {
+      margin-bottom: 0.75rem;
+    }
+
+    .price {
+      margin-bottom: 1.5rem;
+    }
+
+    p {
+      line-height: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    ul {
+      list-style: none;
+      margin-bottom: 2rem;
+      margin-top: 0.75rem;
+      padding: 0;
+
+      li {
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+
+  @include screen.large {
+  }
+
+  @include screen.medium {
+  }
+
+  @include screen.small {
+  }
+
+  @include screen.compact {
+  }
+}

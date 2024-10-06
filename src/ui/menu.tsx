@@ -64,11 +64,10 @@ function Menu() {
               <li>
                 <Link
                   className={styles.link}
-                  href="https://acrossthekyle.etsy.com"
+                  href="/shop"
                   onClick={handleOnToggle}
-                  target="_blank"
                 >
-                  Etsy
+                  Shop
                 </Link>
               </li>
             </ul>

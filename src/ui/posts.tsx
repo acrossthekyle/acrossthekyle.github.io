@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 import posts from '../posts';
 
-import styles from '@/styles/ui/travels.module.scss';
+import styles from '@/styles/ui/posts.module.scss';
 
 import Button from './button';
 import Image from './image';

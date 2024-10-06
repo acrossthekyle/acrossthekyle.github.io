@@ -92,12 +92,7 @@ function View({ children, className = '' }: Props) {
                       <Link href="/about">About</Link>
                     </li>
                     <li className={styles.link}>
-                      <Link
-                        href="https://acrossthekyle.etsy.com"
-                        target="_blank"
-                      >
-                        Etsy
-                      </Link>
+                      <Link href="/shop">Shop</Link>
                     </li>
                   </ul>
                 </div>

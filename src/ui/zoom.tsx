@@ -15,6 +15,7 @@ import { ZoomContext } from '@/contexts/zoom';
 import Image from './image';
 
 type Props = {
+  alt?: string;
   height: number;
   sizes?: string;
   src: string;

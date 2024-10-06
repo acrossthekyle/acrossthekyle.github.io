@@ -3,7 +3,6 @@ import Head from 'next/head';
 
 import styles from '@/styles/pages/photos/index.module.scss';
 import ArrowIcon from '@/ui/icons/arrow';
-import Image from '@/ui/image';
 import Internal from '@/ui/internal';
 import View from '@/ui/view';
 import Zoom from '@/ui/zoom';
