@@ -15,81 +15,10 @@ import View from '@/ui/view';
 
 import prints from '../../../prints';
 
-function DetailsForFrameless() {
-  return (
-    <>
-      <h4>Details for Frameless Print</h4>
-      <p>
-        Printed on Ultra Premium Luster Photo Paper, which has a mixture of a
-        gloss and matte finish, with multicolor water-based inket printing
-        techniques. This print gives you a highly saturated look, and because of
-        its saturation and resistance to fingerprints, luster paper is great for
-        quality photographic prints.
-      </p>
-      <h4>Specs and Materials</h4>
-      <ul>
-        <li>10 mil (0.25 mm) thick paper</li>
-        <li>260 g/m² paper weight</li>
-        <li>Slightly glossy</li>
-        <li>Fingerprint resistant</li>
-      </ul>
-    </>
-  );
-}
-
-function DetailsForFramed() {
-  return (
-    <>
-      <h4>Details for Framed Print</h4>
-      <p>
-        Printed on Ultra Premium Luster Photo Paper, which has a mixture of a
-        gloss and matte finish, with multicolor water-based inket printing
-        techniques. This print gives you a highly saturated look, and because of
-        its saturation and resistance to fingerprints, luster paper is great for
-        quality photographic prints. This poster is framed in an alder,
-        semi-hardwood frame, and comes ready to hang on the wall.
-      </p>
-      <h4>Specs and Materials</h4>
-      <ul>
-        <li>10 mil (0.25 mm) thick paper</li>
-        <li>260 g/m² paper weight</li>
-        <li>.75" thick ayous wood frame from renewable forests</li>
-        <li>Hanging hardware included</li>
-        <li>Acrylite front protector</li>
-        <li>Slightly glossy</li>
-      </ul>
-    </>
-  );
-}
-
-function DetailsForFramedWithMat() {
-  return (
-    <>
-      <h4>Details for Framed with Mat Print</h4>
-      <p>
-        Printed on museum-quality matte paper with multicolor water-based inket
-        printing techniques, this print gives prints a polished and
-        sophisticated look. This poster is framed and comes ready to hang on the
-        wall. The white mat board covers parts of the poster paper, and place
-        each of the mounting hooks 1 inch from frame corners when hanging
-        horizontally.
-      </p>
-      <h4>Specs and Materials</h4>
-      <ul>
-        <li>10.3 mil (0.26 mm) thick paper</li>
-        <li>189 g/m² paper weight</li>
-        <li>.75" thick ayous wood frame from renewable forests</li>
-        <li>Hanging hardware included</li>
-        <li>Acrylite front protector</li>
-      </ul>
-    </>
-  );
-}
-
 function Page() {
+  const [canAlert, setCanAlert] = useState(false);
   const [item, setItem] = useState(null);
   const [frame, setFrame] = useState(null);
-  const [canAlert, setCanAlert] = useState(false);
 
   const { asPath, push } = useRouter();
 
@@ -126,14 +55,26 @@ function Page() {
       <Head>
         <title>Kyle &mdash; Shop | {item.title}</title>
       </Head>
+      <Dialog
+        isRenderable={canAlert}
+        onDismiss={() => setCanAlert(false)}
+        text="Please choose a style before continuing"
+      />
+      <ul className={styles.breadcrumbs}>
+        <li className={styles.breadcrumb}>
+          <Link href="/shop">Shop</Link>
+        </li>
+        <li className={styles.breadcrumb}>{item.title}</li>
+      </ul>
       <div className={styles.container}>
-        <Dialog
-          isRenderable={canAlert}
-          onDismiss={() => setCanAlert(false)}
-          text="Please choose a style before continuing"
-        />
         <div className={styles.image}>
-          <Image alt={item.title} height={432} src={item.image} width={768} />
+          <Image
+            alt={item.title}
+            height={432}
+            sizes="(max-width: 768px) 100vw, 50vw"
+            src={item.image}
+            width={768}
+          />
         </div>
         <div className={styles.content}>
           <div className={styles.centered}>
@@ -154,7 +95,7 @@ function Page() {
               {['Frameless', 'Framed', 'Frame with Mat'].map(
                 (text: string, index: number) => (
                   <button
-                    className={frame === index && styles.selected}
+                    className={`${styles.button} ${frame === index && styles.selected}`.trim()}
                     key={text}
                     onClick={() => handleOnFrameClick(index)}
                   >
@@ -176,6 +117,23 @@ function Page() {
                 Choose size{frame > 0 && <>, and frame color,</>} during
                 checkout
               </small>
+              <div className={styles.links}>
+                <Link
+                  className={styles.learn}
+                  href="/shop/details/prints"
+                  target="_blank"
+                >
+                  Frame Details
+                </Link>
+                <span>|</span>
+                <Link
+                  className={styles.learn}
+                  href="/shop/policies"
+                  target="_blank"
+                >
+                  Shop Policies
+                </Link>
+              </div>
             </div>
           </div>
         </div>

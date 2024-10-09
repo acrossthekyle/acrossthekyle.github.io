@@ -23,19 +23,19 @@
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 14rem;
+    width: 18rem;
 
     .message {
       align-items: center;
       display: flex;
-      height: 5rem;
       justify-content: center;
       line-height: 1.5rem;
-      padding: 1rem;
+      padding: 2.5rem 3rem;
       text-align: center;
     }
 
     .buttons {
+      border-top: 1px solid var(--border);
       display: flex;
       justify-content: center;
       padding: 1rem;

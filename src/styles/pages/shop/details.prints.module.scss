@@ -1,0 +1,134 @@
+@use 'styles/mixins/_on' as on;
+@use 'styles/mixins/_screen' as screen;
+
+.container {
+  background: var(--body);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: var(--max-width);
+  padding: 9rem 5rem 2rem;
+  position: relative;
+  z-index: 4;
+
+  h1 {
+    color: var(--text);
+    margin: 0 auto;
+    margin-bottom: 4.25rem;
+    position: relative;
+  }
+
+  .row {
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+
+    &:last-child {
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .type {
+      flex: 1 1 25%;
+      padding: 0 2rem;
+
+      .frame {
+        align-items: center;
+        background: var(--shop-frame-fill);
+        border: 1px solid var(--border);
+        border-radius: 0;
+        display: flex;
+        font-weight: semibold;
+        height: 9rem;
+        justify-content: center;
+        line-height: 1rem;
+        text-align: center;
+        width: 10rem;
+      }
+    }
+
+    .description {
+      flex: 1 1 75%;
+
+      h4 {
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+      }
+
+      p {
+        line-height: 1.75rem;
+      }
+
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+          margin: 0;
+          padding: 0;
+          padding-bottom: 1rem;
+        }
+      }
+    }
+
+    &:nth-child(3),
+    &:nth-child(4) {
+      .type {
+        .frame {
+          border-color: var(--shop-frame-border);
+          border-width: 10px;
+        }
+      }
+    }
+
+    &:nth-child(3) {
+      .type {
+        .frame {
+          box-shadow: 0 0 0.25rem var(--shop-frame-shadow) inset;
+        }
+      }
+    }
+
+    &:nth-child(4) {
+      .type {
+        .frame {
+          background: var(--shop-frame-mat-background);
+          position: relative;
+
+          &:after {
+            background: var(--shop-frame-fill);
+            box-shadow: 0 0 0.5rem var(--shop-frame-mat-shadow) inset;
+            content: '';
+            display: block;
+            inset: 0.9rem;
+            position: absolute;
+            z-index: 1;
+          }
+        }
+      }
+    }
+  }
+
+  @include screen.medium {
+    .row {
+      flex-direction: column;
+
+      .type {
+        padding: 0;
+        padding-bottom: 2rem;
+
+        .frame {
+          width: 10rem;
+        }
+      }
+    }
+  }
+
+  @include screen.small {
+    padding: 9rem 1.25rem 2rem;
+  }
+}

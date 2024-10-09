@@ -151,6 +151,14 @@ const prints = {
       this.items.find(({ uri }) => uri === `/shop/prints/${id}`) ?? undefined
     );
   },
+  getRelated: function (id: string) {
+    const filtered = this.items.filter(
+      ({ uri }) => uri !== `/shop/prints/${id}`,
+    );
+    const shuffled = [...filtered].sort(() => 0.5 - Math.random());
+
+    return shuffled.slice(0, 3);
+  },
 };
 
 export default prints;

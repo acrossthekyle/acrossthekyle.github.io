@@ -5,7 +5,6 @@ import styles from '@/styles/ui/footer.module.scss';
 import posts from '../posts';
 
 import ContactForm from './contact';
-import EtsyIcon from './icons/etsy';
 import GarminIcon from './icons/garmin';
 import InstagramIcon from './icons/instagram';
 import Image from './image';
@@ -83,22 +82,16 @@ function Footer() {
         >
           <GarminIcon />
         </a>
-        <a
-          className={styles.link}
-          href="https://acrossthekyle.etsy.com"
-          rel="noreferrer"
-          target="_blank"
-          title="View my Etsy shop"
-        >
-          <EtsyIcon />
-        </a>
       </div>
       <div className={styles.bottom}>
         <span className={styles.copyright}>
           1987 - {new Date().getFullYear()} ©{' '}
           <a href="https://www.acrossthekyle.com">Kyle Gilbert</a>. All Right
-          Reserved. Read the <Link href="/shop/policies">Shop Policies</Link>.
-          Published with{' '}
+          Reserved. Read the{' '}
+          <Link href="/shop/policies" target="_blank">
+            Shop Policies
+          </Link>
+          . Published with{' '}
           <a href="https://vercel.com/" target="_blank" rel="noreferrer">
             Vercel
           </a>
