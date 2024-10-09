@@ -14,14 +14,12 @@ import prints from '../../prints';
 
 type PrintProps = {
   image: string;
-  paymentLink: string;
-  price: string;
   snippet: string;
   title: string;
   uri: string;
 };
 
-function Print({ image, paymentLink, price, snippet, title, uri }: PrintProps) {
+function Print({ image, snippet, title, uri }: PrintProps) {
   const [hasEnteredView, setHasEnteredView] = useState(false);
 
   const handleOnInView = (inView: boolean) => {

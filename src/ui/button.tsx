@@ -1,20 +1,32 @@
+import { ReactNode } from 'react';
 import Link from 'next/link';
 
 import styles from '@/styles/ui/button.module.scss';
 
 type Props = {
   className?: string;
+  disabled?: boolean;
   href?: string;
   onClick?: () => void;
-  text: string;
+  style?: object;
+  text: string | ReactNode;
 };
 
-function Button({ className = '', href, onClick, text }: Props) {
+function Button({
+  className = '',
+  disabled,
+  href,
+  onClick,
+  style,
+  text,
+}: Props) {
   if (onClick) {
     return (
       <button
         className={`${styles.button} ${className}`.trim()}
+        disabled={disabled}
         onClick={onClick}
+        style={style}
         type="button"
       >
         {text}
@@ -27,6 +39,7 @@ function Button({ className = '', href, onClick, text }: Props) {
       <Link
         className={`${styles.button} ${className}`.trim()}
         href={href}
+        style={style}
         target={href.includes('http') ? '_blank' : '_self'}
       >
         {text}

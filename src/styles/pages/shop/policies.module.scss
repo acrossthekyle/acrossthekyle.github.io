@@ -1,0 +1,34 @@
+@use 'styles/mixins/_on' as on;
+@use 'styles/mixins/_screen' as screen;
+
+.container {
+  background: var(--body);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: var(--max-width);
+  padding: 9rem 5rem 2rem;
+  position: relative;
+  z-index: 4;
+
+  h1 {
+    color: var(--text);
+    margin: 0 auto;
+    margin-bottom: 2.25rem;
+    position: relative;
+  }
+
+  p {
+    color: var(--text);
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-bottom: 1.25rem;
+    max-width: 34rem;
+    position: relative;
+    text-align: center;
+  }
+
+  @include screen.small {
+    padding: 9rem 1.25rem 2rem;
+  }
+}

@@ -7,52 +7,106 @@
   flex-direction: row;
   margin: 0 auto;
   max-width: var(--max-width);
-  padding-bottom: 2rem;
   padding-top: 9rem;
   position: relative;
   z-index: 4;
 
-  .images {
+  .image {
     border-radius: 0.125rem;
-    display: block;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
     height: 100%;
+    margin-bottom: 1.5rem;
     position: relative;
-    width: 142rem;
-
-    .image {
-      position: relative;
-    }
 
     img {
       height: 100%;
       object-fit: cover;
       width: 100%;
     }
-
-    .mocks {
-      display: grid;
-      grid-auto-rows: 1rem;
-      grid-gap: 1.25rem;
-      grid-template-columns: repeat(3, minmax(calc(33% - 2.5rem), 1fr));
-      padding-top: 1rem;
-      position: relative;
-
-      .image {
-        grid-row: span 5;
-      }
-    }
   }
 
   .content {
     color: var(--text);
+    flex: 1;
     padding: 0 2rem;
 
     .title {
-      margin-bottom: 0.75rem;
+      margin-bottom: 1rem;
     }
 
     .price {
       margin-bottom: 1.5rem;
+    }
+
+    .frames {
+      display: grid;
+      grid-gap: 1.25rem;
+      grid-template-columns: repeat(3, minmax(calc(33% - 2.5rem), 1fr));
+      margin: 1rem auto 2rem;
+      position: relative;
+
+      .title {
+        display: block;
+      }
+
+      button {
+        .frame {
+          align-items: center;
+          background: var(--shop-frame-fill);
+          border: 1px solid var(--border);
+          border-radius: 0;
+          color: var(--text);
+          display: flex;
+          font-weight: semibold;
+          height: 10rem;
+          justify-content: center;
+          line-height: 1rem;
+          text-align: center;
+          width: 100%;
+
+          &.selected {
+            outline: 0.125rem solid var(--shop-frame-selected);
+          }
+        }
+
+        &:nth-child(2),
+        &:nth-child(3) {
+          .frame {
+            border-color: var(--shop-frame-border);
+            border-width: 10px;
+          }
+        }
+
+        &:nth-child(3) {
+          .frame {
+            background: var(--shop-frame-mat-background);
+            position: relative;
+
+            &:after {
+              background: var(--shop-frame-fill);
+              border: 1px solid var(--border);
+              content: '';
+              display: block;
+              inset: 1.25rem;
+              position: absolute;
+              z-index: 1;
+            }
+          }
+        }
+      }
+    }
+
+    .checkout {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 2rem;
+
+      small {
+        margin-bottom: 1rem;
+      }
     }
 
     p {
@@ -68,19 +122,89 @@
 
       li {
         margin-bottom: 0.5rem;
+
+        small {
+          display: block;
+          margin-bottom: 0.75rem;
+          margin-top: 1.25rem;
+        }
+
+        .hex {
+          border: 1px solid var(--border);
+          border-radius: 0.125rem;
+          display: inline-block;
+          height: 0.7rem;
+          margin-right: 0.25rem;
+          width: 0.7rem;
+        }
       }
     }
   }
 
   @include screen.large {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 
   @include screen.medium {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 6.5rem;
+
+    .images {
+      .mocks {
+        .image {
+          grid-row: span 3;
+        }
+      }
+    }
+
+    .content {
+      .buttons {
+        display: flex;
+        flex-direction: column;
+      }
+    }
   }
 
   @include screen.small {
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 5.5rem;
+
+    .images {
+      width: 100%;
+
+      .mocks {
+        .image {
+          grid-row: span 6;
+        }
+      }
+    }
+
+    .content {
+      padding: 0;
+    }
   }
 
   @include screen.compact {
+    .images {
+      .mocks {
+        .image {
+          grid-row: span 4;
+        }
+      }
+    }
+  }
+
+  @include screen.nano {
+    .images {
+      .mocks {
+        .image {
+          grid-row: span 3;
+        }
+      }
+    }
   }
 }
