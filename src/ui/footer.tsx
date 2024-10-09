@@ -97,7 +97,8 @@ function Footer() {
         <span className={styles.copyright}>
           1987 - {new Date().getFullYear()} ©{' '}
           <a href="https://www.acrossthekyle.com">Kyle Gilbert</a>. All Right
-          Reserved. Published with{' '}
+          Reserved. Read the <Link href="/shop/policies">Shop Policies</Link>.
+          Published with{' '}
           <a href="https://vercel.com/" target="_blank" rel="noreferrer">
             Vercel
           </a>

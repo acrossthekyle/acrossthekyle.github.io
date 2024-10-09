@@ -42,11 +42,13 @@
     45deg,
     #ffffff,
     #ffffff 10px,
-    #eeeeee 10px,
-    #eeeeee 11px
+    #dddddd 10px,
+    #dddddd 11px
   );
   --shop-frame-mat-background: transparent;
-  --shop-frame-selected: #1fbd1f;
+  --shop-frame-mat-shadow: #eee;
+  --shop-frame-selected: #ffdd37;
+  --shop-frame-shadow: #aaa;
   --shop-frame-text: #ffffff;
   --skeleton-background: #dddbdd;
   --skeleton-background-shimmer: 255, 255, 255;
@@ -106,7 +108,7 @@
   --nav-link-hover-background: #ffe66a;
   --quote-background: #171717;
   --search-background: rgba(0, 0, 0, 0.9);
-  --shop-frame-border: #4d4d4d;
+  --shop-frame-border: #000000;
   --shop-frame-fill: repeating-linear-gradient(
     45deg,
     #1d1d1d,
@@ -114,8 +116,10 @@
     #2d2d2d 10px,
     #2d2d2d 11px
   );
-  --shop-frame-mat-background: #2d2d2d;
-  --shop-frame-selected: #1fbd1f;
+  --shop-frame-mat-background: #888888;
+  --shop-frame-mat-shadow: #111111;
+  --shop-frame-selected: #ffdd37;
+  --shop-frame-shadow: #111111;
   --shop-frame-text: #1d1d1d;
   --skeleton-background: #2d2d2d;
   --skeleton-background-shimmer: 85, 85, 85;

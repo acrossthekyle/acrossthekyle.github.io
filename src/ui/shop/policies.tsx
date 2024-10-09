@@ -3,6 +3,11 @@ function Policies() {
     <>
       <p>No Returns or Exchanges.</p>
       <p>
+        For prints there will be size variations due to different frame sizes
+        and their associated aspect ratios, which will lead to variations in
+        image cropping.
+      </p>
+      <p>
         Processing times vary, and can take up to 5-9 business days, but most
         items are usually shipped within 6 business days or fewer. Shipping
         times can also vary, depending on the shipping address.

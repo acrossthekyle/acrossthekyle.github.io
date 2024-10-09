@@ -6,6 +6,7 @@ import { useRouter } from 'next/router';
 
 import styles from '@/styles/pages/shop/details.module.scss';
 import Button from '@/ui/button';
+import Checkmark from '@/ui/icons/checkmark';
 import Image from '@/ui/image';
 import Internal from '@/ui/internal';
 import Policies from '@/ui/shop/policies';
@@ -24,10 +25,7 @@ function DetailsForFrameless() {
         its saturation and resistance to fingerprints, luster paper is great for
         quality photographic prints.
       </p>
-      <p>
-        There will be some variation in cropping of the print due to different
-        print size aspect ratios.
-      </p>
+      <h4>Specs and Materials</h4>
       <ul>
         <li>10 mil (0.25 mm) thick paper</li>
         <li>260 g/m² paper weight</li>
@@ -50,10 +48,7 @@ function DetailsForFramed() {
         quality photographic prints. This poster is framed in an alder,
         semi-hardwood frame, and comes ready to hang on the wall.
       </p>
-      <p>
-        There will be some variation in cropping of the print due to different
-        print size aspect ratios.
-      </p>
+      <h4>Specs and Materials</h4>
       <ul>
         <li>10 mil (0.25 mm) thick paper</li>
         <li>260 g/m² paper weight</li>
@@ -78,10 +73,7 @@ function DetailsForFramedWithMat() {
         each of the mounting hooks 1 inch from frame corners when hanging
         horizontally.
       </p>
-      <p>
-        There will be some variation in cropping of the print due to different
-        print size aspect ratios, and the white mat board.
-      </p>
+      <h4>Specs and Materials</h4>
       <ul>
         <li>10.3 mil (0.26 mm) thick paper</li>
         <li>189 g/m² paper weight</li>
@@ -129,69 +121,42 @@ function Page() {
         <title>Kyle &mdash; Shop | {item.title}</title>
       </Head>
       <div className={styles.container}>
-        <div data-backdrop data-backdrop-active="false" />
         <div className={styles.image}>
-          <Image
-            alt={item.title}
-            height={432}
-            src={frame === 0 ? item.image : item.mocks[frame - 1]}
-            width={768}
-          />
+          <Image alt={item.title} height={432} src={item.image} width={768} />
         </div>
         <div className={styles.content}>
-          <h1 className={styles.title}>{item.title}</h1>
-          <h3 className={styles.price}>Starting at $100</h3>
-          <p className={styles.snippet}>{item.snippet}</p>
-          <h4>Available Sizes</h4>
-          <ul>
-            <li>
-              <small>Frameless</small>
-            </li>
-            <li>5" x 7"</li>
-            <li>
-              <small>Frameless, Framed without Mat</small>
-            </li>
-            <li>8" x 10"</li>
-            <li>11" x 14"</li>
-            <li>
-              <small>Frameless, Framed with Mat, Framed without Mat</small>
-            </li>
-            <li>12" x 16"</li>
-            <li>12" x 18"</li>
-            <li>16" x 20"</li>
-            <li>18" x 24"</li>
-          </ul>
-          <h4>Available Frame Colors</h4>
-          <ul>
-            <li>
-              <span className={styles.hex} style={{ background: '#000000' }} />
-              Black
-            </li>
-            <li>
-              <span className={styles.hex} style={{ background: '#FFFFFF' }} />
-              White
-            </li>
-          </ul>
+          <h3 className={styles.price}>
+            <span>From</span>
+            {frame === 0 && <>$100</>}
+            {frame === 1 && <>$185</>}
+            {frame === 2 && <>$215</>}
+          </h3>
+          <h1 className={styles.item}>{item.title}</h1>
+          <small>
+            {frame === 0 && <>5 x 7 &mdash; 18 x 24</>}
+            {frame === 1 && <>8 x 10 &mdash; 18 x 24</>}
+            {frame === 2 && <>12 x 16 &mdash; 18 x 24</>}
+          </small>
           <div className={styles.frames}>
-            {['Frameless', 'Framed', 'Framed with Mat'].map(
+            {['Frameless', 'Framed', 'Frame with Mat'].map(
               (text: string, index: number) => (
                 <button key={text} onClick={() => handleOnFrameClick(index)}>
                   <span className={styles.title}>{text}</span>
                   <div
                     className={`${styles.frame} ${frame === index && styles.selected}`.trim()}
-                  />
+                  >
+                    {frame === index && <Checkmark />}
+                  </div>
                 </button>
               ),
             )}
           </div>
           <div className={styles.checkout}>
-            <Button
-              href={item.paymentLinks[frame]}
-              text="Proceed to Checkout"
-            />
+            <Button href={item.paymentLinks[frame]} text="Go to Checkout" />
+            <small>
+              Choose size{frame > 0 && <>, and frame color,</>} during checkout
+            </small>
           </div>
-          <h4>Policies</h4>
-          <Policies />
         </div>
       </div>
     </View>

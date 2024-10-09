@@ -7,6 +7,7 @@
   flex-direction: row;
   margin: 0 auto;
   max-width: var(--max-width);
+  padding-bottom: 2rem;
   padding-top: 9rem;
   position: relative;
   z-index: 4;
@@ -16,7 +17,7 @@
     display: flex;
     flex: 1;
     flex-direction: column;
-    height: 100%;
+    height: 40rem;
     margin-bottom: 1.5rem;
     position: relative;
 
@@ -30,44 +31,65 @@
   .content {
     color: var(--text);
     flex: 1;
-    padding: 0 2rem;
+    padding-top: 3.25rem;
+    text-align: center;
 
-    .title {
+    .item {
+      font-size: 3rem;
+      line-height: 3.5rem;
       margin-bottom: 1rem;
+      padding: 0 3rem;
     }
 
     .price {
+      font-size: 1.5rem;
       margin-bottom: 1.5rem;
+
+      span {
+        display: block;
+        font-size: 0.75rem;
+        margin-bottom: 0.35rem;
+      }
     }
 
     .frames {
       display: grid;
       grid-gap: 1.25rem;
       grid-template-columns: repeat(3, minmax(calc(33% - 2.5rem), 1fr));
-      margin: 1rem auto 2rem;
+      margin: 2rem 3rem 3rem;
       position: relative;
 
       .title {
         display: block;
+        margin-bottom: 1rem;
+        margin-top: 1.5rem;
       }
 
       button {
         .frame {
           align-items: center;
           background: var(--shop-frame-fill);
-          border: 1px solid var(--border);
+          border: 1px solid var(--shop-frame-border);
           border-radius: 0;
           color: var(--text);
           display: flex;
           font-weight: semibold;
-          height: 10rem;
+          height: 9rem;
           justify-content: center;
           line-height: 1rem;
           text-align: center;
           width: 100%;
 
           &.selected {
-            outline: 0.125rem solid var(--shop-frame-selected);
+            outline: 0.0125rem solid var(--shop-frame-selected);
+            outline-offset: 4px;
+          }
+
+          svg {
+            fill: var(--shop-frame-selected);
+            height: 2rem;
+            width: 2rem;
+            z-index: 99;
           }
         }
 
@@ -79,6 +101,12 @@
           }
         }
 
+        &:nth-child(2) {
+          .frame {
+            box-shadow: 0 0 0.25rem var(--shop-frame-shadow) inset;
+          }
+        }
+
         &:nth-child(3) {
           .frame {
             background: var(--shop-frame-mat-background);
@@ -86,10 +114,10 @@
 
             &:after {
               background: var(--shop-frame-fill);
-              border: 1px solid var(--border);
+              box-shadow: 0 0 0.5rem var(--shop-frame-mat-shadow) inset;
               content: '';
               display: block;
-              inset: 1.25rem;
+              inset: 1.025rem;
               position: absolute;
               z-index: 1;
             }
@@ -102,41 +130,10 @@
       align-items: center;
       display: flex;
       flex-direction: column;
-      margin-bottom: 2rem;
 
       small {
-        margin-bottom: 1rem;
-      }
-    }
-
-    p {
-      line-height: 1.5rem;
-      margin-bottom: 1.5rem;
-    }
-
-    ul {
-      list-style: none;
-      margin-bottom: 2rem;
-      margin-top: 0.75rem;
-      padding: 0;
-
-      li {
-        margin-bottom: 0.5rem;
-
-        small {
-          display: block;
-          margin-bottom: 0.75rem;
-          margin-top: 1.25rem;
-        }
-
-        .hex {
-          border: 1px solid var(--border);
-          border-radius: 0.125rem;
-          display: inline-block;
-          height: 0.7rem;
-          margin-right: 0.25rem;
-          width: 0.7rem;
-        }
+        color: var(--copyright-text-dim);
+        margin-top: 0.95rem;
       }
     }
   }
@@ -151,18 +148,48 @@
     padding-right: 5rem;
     padding-top: 6.5rem;
 
-    .images {
-      .mocks {
-        .image {
-          grid-row: span 3;
+    .content {
+      .frames {
+        .title {
+          display: flex;
+          flex: 1;
+        }
+
+        button {
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+
+          .frame {
+            height: 6rem;
+          }
         }
       }
     }
+  }
+
+  @include screen.smedium {
+    flex-direction: column;
+    padding-top: 5.5rem;
+
+    .image {
+      width: 100%;
+    }
 
     .content {
-      .buttons {
-        display: flex;
-        flex-direction: column;
+      padding-top: 0;
+
+      .item {
+        padding: 0;
+      }
+
+      .frames {
+        button {
+          .frame {
+            height: 10rem;
+          }
+        }
       }
     }
   }
@@ -173,14 +200,8 @@
     padding-right: 1rem;
     padding-top: 5.5rem;
 
-    .images {
+    .image {
       width: 100%;
-
-      .mocks {
-        .image {
-          grid-row: span 6;
-        }
-      }
     }
 
     .content {
@@ -189,22 +210,106 @@
   }
 
   @include screen.compact {
-    .images {
-      .mocks {
-        .image {
-          grid-row: span 4;
+    .content {
+      padding-top: 0;
+
+      .frames {
+        margin: 2rem 0 3rem;
+
+        button {
+          .frame {
+            height: 8rem;
+          }
+        }
+      }
+    }
+  }
+
+  @include screen.tiny {
+    .content {
+      .frames {
+        button {
+          .frame {
+            height: 6rem;
+          }
         }
       }
     }
   }
 
   @include screen.nano {
-    .images {
-      .mocks {
-        .image {
-          grid-row: span 3;
+    .content {
+      .frames {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 0;
+        margin-bottom: 2rem;
+        margin-top: 0;
+
+        button {
+          .frame {
+            height: 8rem;
+            width: 8rem;
+          }
         }
       }
     }
+  }
+}
+
+.details {
+  background: var(--body);
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: var(--max-width);
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  position: relative;
+  z-index: 4;
+
+  h4 {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+
+  p {
+    line-height: 1.5rem;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    list-style: none;
+    margin-bottom: 2rem;
+    margin-top: 0.75rem;
+    padding: 0;
+
+    li {
+      line-height: 1.25rem;
+      margin-bottom: 1rem;
+
+      small {
+        display: block;
+        margin-bottom: 0.75rem;
+        margin-top: 1.25rem;
+      }
+    }
+  }
+
+  @include screen.large {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  @include screen.medium {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  @include screen.small {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 }
