@@ -7,7 +7,7 @@ type Props = {
   url: string;
 };
 
-function External({ text, url }) {
+function External({ text, url }: Props) {
   return (
     <a className={styles.link} href={url} target="_blank" rel="noreferrer">
       {text}

@@ -88,7 +88,7 @@ const ITEMS: Print[] = [
       `${PAYMENT_URL_BASE}/cN27tu5X09xu43CeV8`,
     ],
     snippet: `The Dolomite mountains in northern Italy have some of the most unique formations I've ever seen, and this one is no exception.`,
-    title: 'Alta Via Mountain Throne Print',
+    title: 'Alta Via Dolomites Print',
     uri: '/shop/prints/alta-via-mountain-throne',
   },
 

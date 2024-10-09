@@ -4,9 +4,10 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-import styles from '@/styles/pages/shop/details.module.scss';
+import styles from '@/styles/pages/shop/prints.module.scss';
 import Button from '@/ui/button';
 import Checkmark from '@/ui/icons/checkmark';
+import Dialog from '@/ui/dialog';
 import Image from '@/ui/image';
 import Internal from '@/ui/internal';
 import Policies from '@/ui/shop/policies';
@@ -87,7 +88,8 @@ function DetailsForFramedWithMat() {
 
 function Page() {
   const [item, setItem] = useState(null);
-  const [frame, setFrame] = useState(0);
+  const [frame, setFrame] = useState(null);
+  const [canAlert, setCanAlert] = useState(false);
 
   const { asPath, push } = useRouter();
 
@@ -111,6 +113,10 @@ function Page() {
     setFrame(index);
   };
 
+  const handleOnNullFramePress = () => {
+    setCanAlert(true);
+  };
+
   if (item === null) {
     return;
   }
@@ -121,41 +127,56 @@ function Page() {
         <title>Kyle &mdash; Shop | {item.title}</title>
       </Head>
       <div className={styles.container}>
+        <Dialog
+          isRenderable={canAlert}
+          onDismiss={() => setCanAlert(false)}
+          text="Please choose a style before continuing"
+        />
         <div className={styles.image}>
           <Image alt={item.title} height={432} src={item.image} width={768} />
         </div>
         <div className={styles.content}>
-          <h3 className={styles.price}>
-            <span>From</span>
-            {frame === 0 && <>$100</>}
-            {frame === 1 && <>$185</>}
-            {frame === 2 && <>$215</>}
-          </h3>
-          <h1 className={styles.item}>{item.title}</h1>
-          <small>
-            {frame === 0 && <>5 x 7 &mdash; 18 x 24</>}
-            {frame === 1 && <>8 x 10 &mdash; 18 x 24</>}
-            {frame === 2 && <>12 x 16 &mdash; 18 x 24</>}
-          </small>
-          <div className={styles.frames}>
-            {['Frameless', 'Framed', 'Frame with Mat'].map(
-              (text: string, index: number) => (
-                <button key={text} onClick={() => handleOnFrameClick(index)}>
-                  <span className={styles.title}>{text}</span>
-                  <div
-                    className={`${styles.frame} ${frame === index && styles.selected}`.trim()}
-                  >
-                    {frame === index && <Checkmark />}
-                  </div>
-                </button>
-              ),
-            )}
-          </div>
-          <div className={styles.checkout}>
-            <Button href={item.paymentLinks[frame]} text="Go to Checkout" />
-            <small>
-              Choose size{frame > 0 && <>, and frame color,</>} during checkout
+          <div className={styles.centered}>
+            <h1 className={styles.item}>{item.title}</h1>
+            <small className={styles.sizes}>
+              {(frame === 0 || frame === null) && <>5 x 7 &mdash; 18 x 24</>}
+              {frame === 1 && <>8 x 10 &mdash; 18 x 24</>}
+              {frame === 2 && <>12 x 16 &mdash; 18 x 24</>}
             </small>
+            <h3 className={styles.price}>
+              {frame === null && <span>from</span>}
+              {(frame === 0 || frame === null) && <>$100.00</>}
+              {frame === 1 && <>$185.00</>}
+              {frame === 2 && <>$215.00</>}
+            </h3>
+            <small>Choose one of the following:</small>
+            <div className={styles.frames}>
+              {['Frameless', 'Framed', 'Frame with Mat'].map(
+                (text: string, index: number) => (
+                  <button
+                    className={frame === index && styles.selected}
+                    key={text}
+                    onClick={() => handleOnFrameClick(index)}
+                  >
+                    <span className={styles.title}>{text}</span>
+                    <div className={styles.frame}>
+                      {frame === index && <Checkmark />}
+                    </div>
+                  </button>
+                ),
+              )}
+            </div>
+            <div className={styles.checkout}>
+              <Button
+                href={item.paymentLinks[frame]}
+                onClick={frame === null && handleOnNullFramePress}
+                text="Purchase"
+              />
+              <small>
+                Choose size{frame > 0 && <>, and frame color,</>} during
+                checkout
+              </small>
+            </div>
           </div>
         </div>
       </div>

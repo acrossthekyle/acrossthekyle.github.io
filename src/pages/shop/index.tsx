@@ -48,7 +48,7 @@ function Print({ image, snippet, title, uri }: PrintProps) {
               </Link>
             </h2>
             <p className={styles.preview}>
-              {truncate(snippet, { length: 156, separator: ' ' })}..
+              {truncate(snippet, { length: 156, separator: ' ' })}
             </p>
           </figcaption>
         </figure>

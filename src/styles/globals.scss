@@ -46,9 +46,9 @@
     #dddddd 11px
   );
   --shop-frame-mat-background: transparent;
-  --shop-frame-mat-shadow: #eee;
+  --shop-frame-mat-shadow: #ccc;
   --shop-frame-selected: #ffdd37;
-  --shop-frame-shadow: #aaa;
+  --shop-frame-shadow: #888;
   --shop-frame-text: #ffffff;
   --skeleton-background: #dddbdd;
   --skeleton-background-shimmer: 255, 255, 255;
@@ -58,6 +58,7 @@
   --tag-hover: #ffdd37;
   --tag-text: #17181e;
   --text: #17181e;
+  --text-dimmed: #aaaaaa;
   --text-link: #ffdd37;
   --timeline-bar: #eeeeee;
   --timeline-date: #17181e;
@@ -129,6 +130,7 @@
   --tag-hover: #ffdd37;
   --tag-text: #17181e;
   --text: #ffffff;
+  --text-dimmed: #aaaaaa;
   --text-link: #ffe66a;
   --timeline-bar: #eeeeee;
   --timeline-date: #ffdd37;

@@ -40,6 +40,12 @@
   }
 }
 
+@mixin micro {
+  @media screen and (max-width: 320px) {
+    @content;
+  }
+}
+
 @mixin miniscule {
   @media screen and (max-width: 280px) {
     @content;

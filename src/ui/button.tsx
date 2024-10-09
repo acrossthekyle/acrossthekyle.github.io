@@ -3,31 +3,23 @@ import Link from 'next/link';
 
 import styles from '@/styles/ui/button.module.scss';
 
+import ArrowIcon from './icons/arrow';
+
 type Props = {
   className?: string;
-  disabled?: boolean;
   href?: string;
   onClick?: () => void;
-  style?: object;
   text: string | ReactNode;
 };
 
-function Button({
-  className = '',
-  disabled,
-  href,
-  onClick,
-  style,
-  text,
-}: Props) {
+function Button({ className = '', href, onClick, text, ...rest }: Props) {
   if (onClick) {
     return (
       <button
         className={`${styles.button} ${className}`.trim()}
-        disabled={disabled}
         onClick={onClick}
-        style={style}
         type="button"
+        {...rest}
       >
         {text}
       </button>
@@ -39,10 +31,11 @@ function Button({
       <Link
         className={`${styles.button} ${className}`.trim()}
         href={href}
-        style={style}
         target={href.includes('http') ? '_blank' : '_self'}
+        {...rest}
       >
         {text}
+        {href.includes('http') && <ArrowIcon right />}
       </Link>
     );
   }
