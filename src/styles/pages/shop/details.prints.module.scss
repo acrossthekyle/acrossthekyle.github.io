@@ -33,7 +33,7 @@
 
     .type {
       flex: 1 1 25%;
-      padding: 0 2rem;
+      padding: 0 2rem 0 0;
 
       .frame {
         align-items: center;
@@ -113,11 +113,15 @@
     }
   }
 
-  @include screen.medium {
+  @include screen.small {
+    padding: 9rem 1.25rem 2rem;
+
     .row {
       flex-direction: column;
 
       .type {
+        display: flex;
+        justify-content: center;
         padding: 0;
         padding-bottom: 2rem;
 
@@ -126,9 +130,5 @@
         }
       }
     }
-  }
-
-  @include screen.small {
-    padding: 9rem 1.25rem 2rem;
   }
 }

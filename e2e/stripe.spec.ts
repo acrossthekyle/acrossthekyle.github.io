@@ -35,9 +35,9 @@ test.describe('stripe links', () => {
 
       await anchor.click();
 
-      const frameless = await page.getByText('Frameless');
+      /* Frameless */
 
-      // await page.waitForTimeout(2000);
+      const frameless = await page.getByText('Frameless');
 
       const framelessTab = page.waitForEvent('popup');
 
@@ -50,43 +50,50 @@ test.describe('stripe links', () => {
       const framelessSizes = await openedFramelessTab.locator(
         'select[name*="size"]',
       );
-      await framelessSizes.selectOption('5x7');
-      await framelessSizes.selectOption('8x10');
-      await framelessSizes.selectOption('11x14');
-      await framelessSizes.selectOption('12x16');
-      await framelessSizes.selectOption('12x18');
-      await framelessSizes.selectOption('16x20');
-      await framelessSizes.selectOption('18x24');
 
+      await expect(framelessSizes.getByText('5"x7"')).toHaveCount(1);
+      await expect(framelessSizes.getByText('8"x10"')).toHaveCount(1);
+      await expect(framelessSizes.getByText('11"x14"')).toHaveCount(1);
+      await expect(framelessSizes.getByText('12"x16"')).toHaveCount(1);
+      await expect(framelessSizes.getByText('12"x18"')).toHaveCount(1);
+      await expect(framelessSizes.getByText('16"x20"')).toHaveCount(1);
+      await expect(framelessSizes.getByText('18"x24"')).toHaveCount(1);
+      await expect(
+        openedFramelessTab.locator('select[name*="color"]'),
+      ).toHaveCount(0);
       await expect(openedFramelessTab).toHaveURL(/buy.stripe.com/);
       await expect(openedFramelessTab.getByText(product)).toBeVisible();
       await expect(openedFramelessTab.getByText('Frameless')).toBeVisible();
 
-      const framed = await page.getByText('Framed');
+      /* Framed */
 
-      // await page.waitForTimeout(2000);
+      const framed = await page.getByText('Framed');
 
       const framedTab = page.waitForEvent('popup');
 
       const openedFramedTab = await clickPurchase(page, framed, framedTab);
 
       const framedSizes = await openedFramedTab.locator('select[name*="size"]');
-      await framedSizes.selectOption('8x10');
-      await framedSizes.selectOption('11x14');
-      await framedSizes.selectOption('12x16');
-      await framedSizes.selectOption('12x18');
-      await framedSizes.selectOption('16x20');
-      await framedSizes.selectOption('18x24');
+      const framedFrameColor = await openedFramedTab.locator(
+        'select[name*="color"]',
+      );
 
+      await expect(framedSizes.getByText('5"x7"')).toHaveCount(0);
+      await expect(framedSizes.getByText('8"x10"')).toHaveCount(1);
+      await expect(framedSizes.getByText('11"x14"')).toHaveCount(1);
+      await expect(framedSizes.getByText('12"x16"')).toHaveCount(1);
+      await expect(framedSizes.getByText('12"x18"')).toHaveCount(1);
+      await expect(framedSizes.getByText('16"x20"')).toHaveCount(1);
+      await expect(framedSizes.getByText('18"x24"')).toHaveCount(1);
+      await expect(framedFrameColor.getByText('Black')).toHaveCount(1);
+      await expect(framedFrameColor.getByText('White')).toHaveCount(1);
       await expect(openedFramedTab).toHaveURL(/buy.stripe.com/);
       await expect(openedFramedTab.getByText(product)).toBeVisible();
       await expect(openedFramedTab.getByText('Framed')).toBeVisible();
 
-      // await page.waitForTimeout(5000);
+      /* Frame with Mat */
 
       const framedMat = await page.getByText('Frame with Mat');
-
-      // await page.waitForTimeout(2000);
 
       const framedMatTab = page.waitForEvent('popup');
 
@@ -99,18 +106,24 @@ test.describe('stripe links', () => {
       const frameWithMatSizes = await openedFrameMatTab.locator(
         'select[name*="size"]',
       );
-      await frameWithMatSizes.selectOption('12x16');
-      await frameWithMatSizes.selectOption('12x18');
-      await frameWithMatSizes.selectOption('16x20');
-      await frameWithMatSizes.selectOption('18x24');
+      const frameWithMatFrameColor = await openedFrameMatTab.locator(
+        'select[name*="color"]',
+      );
 
+      await expect(frameWithMatSizes.getByText('5"x7"')).toHaveCount(0);
+      await expect(frameWithMatSizes.getByText('8"x10"')).toHaveCount(0);
+      await expect(frameWithMatSizes.getByText('11"x14"')).toHaveCount(0);
+      await expect(frameWithMatSizes.getByText('12"x16"')).toHaveCount(1);
+      await expect(frameWithMatSizes.getByText('12"x18"')).toHaveCount(1);
+      await expect(frameWithMatSizes.getByText('16"x20"')).toHaveCount(1);
+      await expect(frameWithMatSizes.getByText('18"x24"')).toHaveCount(1);
+      await expect(frameWithMatFrameColor.getByText('Black')).toHaveCount(1);
+      await expect(frameWithMatFrameColor.getByText('White')).toHaveCount(1);
       await expect(openedFrameMatTab).toHaveURL(/buy.stripe.com/);
       await expect(openedFrameMatTab.getByText(product)).toBeVisible();
       await expect(
         openedFrameMatTab.getByText('Framed with Mat'),
       ).toBeVisible();
-
-      // await page.waitForTimeout(5000);
 
       ++checked;
     });
