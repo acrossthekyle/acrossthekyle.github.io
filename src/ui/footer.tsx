@@ -7,6 +7,7 @@ import posts from '../posts';
 import ContactForm from './contact';
 import GarminIcon from './icons/garmin';
 import InstagramIcon from './icons/instagram';
+import ShopIcon from './icons/shop';
 import Image from './image';
 import Theme from './theme';
 
@@ -33,7 +34,7 @@ function Footer() {
           <h3>Recent Posts</h3>
           {posts.getRecents().map(({ date, image, uri, title }, index) => (
             <figure className={styles.recent} key={title}>
-              <Link className={styles.image} href={uri}>
+              <Link aria-hidden="true" className={styles.image} href={uri}>
                 <Image
                   alt={title}
                   height={80}
@@ -69,7 +70,7 @@ function Footer() {
           href="https://instagram.com/acrossthekyle"
           rel="noreferrer"
           target="_blank"
-          title="Follow me on Instagram"
+          title="Instagram"
         >
           <InstagramIcon />
         </a>
@@ -78,20 +79,23 @@ function Footer() {
           href="https://apps.garmin.com/en-US/developer/f796f8e5-5034-44c2-99a7-21d319c6c728/apps"
           rel="noreferrer"
           target="_blank"
-          title="View my Garmin apps"
+          title="Garmin apps"
         >
           <GarminIcon />
         </a>
+        <Link className={styles.link} href="/shop" title="Shop">
+          <ShopIcon />
+        </Link>
       </div>
       <div className={styles.bottom}>
         <span className={styles.copyright}>
-          1987 - {new Date().getFullYear()} ©{' '}
-          <a href="https://www.acrossthekyle.com">Kyle Gilbert</a>. All Right
-          Reserved. Read the{' '}
+          © 1987 - 2024{' '}
+          <a href="https://www.acrossthekyle.com">Kyle Gilbert</a>. All Rights
+          Reserved.{' '}
           <Link href="/shop/policies" target="_blank">
-            Shop Policies
+            Read the Shop Policies.{' '}
           </Link>
-          . Published with{' '}
+          Published with{' '}
           <a href="https://vercel.com/" target="_blank" rel="noreferrer">
             Vercel
           </a>

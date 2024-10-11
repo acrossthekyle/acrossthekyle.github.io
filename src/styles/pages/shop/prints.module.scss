@@ -2,14 +2,15 @@
 @use 'styles/mixins/_screen' as screen;
 
 .breadcrumbs {
+  background: var(--body);
   color: var(--text);
   display: flex;
   flex-direction: row;
   list-style: none;
   margin: 0 auto;
-  margin-top: 9rem;
   max-width: var(--max-width);
   padding: 0;
+  padding-top: 9rem;
 
   .breadcrumb {
     margin: 0;
@@ -22,9 +23,8 @@
       text-underline-offset: 0.125rem;
     }
 
-    &:after {
+    span {
       color: var(--text-dimmed);
-      content: '-';
       display: block;
       position: absolute;
       right: -1.25rem;
@@ -32,7 +32,7 @@
     }
 
     &:last-child {
-      &:after {
+      span {
         display: none;
       }
     }
@@ -49,7 +49,7 @@
   }
 
   @include screen.smedium {
-    margin-top: 7rem;
+    padding-top: 7rem;
   }
 
   @include screen.small {
@@ -73,7 +73,7 @@
     display: flex;
     flex: 1;
     flex-direction: column;
-    height: 35rem;
+    height: 38rem;
     position: relative;
 
     img {
@@ -109,8 +109,9 @@
         margin-bottom: 2rem;
 
         span {
+          display: block;
           font-size: 0.95rem;
-          padding-right: 0.5rem;
+          padding-bottom: 0.5rem;
         }
       }
 

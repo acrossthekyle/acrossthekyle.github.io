@@ -4,6 +4,7 @@ import Link from 'next/link';
 import styles from '@/styles/pages/home/index.module.scss';
 import GarminIcon from '@/ui/icons/garmin';
 import InstagramIcon from '@/ui/icons/instagram';
+import ShopIcon from '@/ui/icons/shop';
 import Image from '@/ui/image';
 import View from '@/ui/view';
 import Skeleton from '@/ui/skeleton';
@@ -16,7 +17,7 @@ function Page() {
         <title>Kyle &mdash; Thru-hiker and Programmer based in Chicago</title>
       </Head>
       <div className={styles.container}>
-        <Link className={styles.image} href="/about">
+        <Link aria-hidden="true" className={styles.image} href="/about">
           <Image
             alt="me"
             height={432}
@@ -25,7 +26,7 @@ function Page() {
             width={768}
           />
         </Link>
-        <h2 className={styles.title}>Kyle Gilbert</h2>
+        <h1 className={styles.title}>Kyle Gilbert</h1>
         <p className={styles.text}>
           My name is Kyle Gilbert. I'm a thru-hiker / programmer based in
           Chicago, and I backpack around the world.
@@ -36,7 +37,7 @@ function Page() {
             href="https://instagram.com/acrossthekyle"
             rel="noreferrer"
             target="_blank"
-            title="Follow me on Instagram"
+            title="Instagram"
           >
             <InstagramIcon />
           </a>
@@ -45,10 +46,13 @@ function Page() {
             href="https://apps.garmin.com/en-US/developer/f796f8e5-5034-44c2-99a7-21d319c6c728/apps"
             rel="noreferrer"
             target="_blank"
-            title="View my Garmin apps"
+            title="Garmin apps"
           >
             <GarminIcon />
           </a>
+          <Link className={styles.link} href="/shop" title="Shop">
+            <ShopIcon />
+          </Link>
         </div>
       </div>
       <Posts />

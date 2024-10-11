@@ -8,6 +8,7 @@ import ArrowIcon from './icons/arrow';
 type Props = {
   className?: string;
   href?: string;
+  id?: string;
   onClick?: () => void;
   text: string | ReactNode;
 };

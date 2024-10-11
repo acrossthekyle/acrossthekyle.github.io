@@ -46,6 +46,12 @@ function Page() {
     setCanAlert(true);
   };
 
+  const handleOnDialogDismiss = () => {
+    setCanAlert(false);
+
+    document.getElementById('purchase').focus();
+  };
+
   if (item === null) {
     return;
   }
@@ -57,12 +63,17 @@ function Page() {
       </Head>
       <Dialog
         isRenderable={canAlert}
-        onDismiss={() => setCanAlert(false)}
+        onDismiss={handleOnDialogDismiss}
         text="Please choose a style before continuing"
       />
-      <ul className={styles.breadcrumbs}>
+      <ul
+        aria-label="Breadcrumbs"
+        className={styles.breadcrumbs}
+        role="navigation"
+      >
         <li className={styles.breadcrumb}>
           <Link href="/shop">Shop</Link>
+          <span aria-hidden="true">-</span>
         </li>
         <li className={styles.breadcrumb}>{item.title}</li>
       </ul>
@@ -79,28 +90,56 @@ function Page() {
         <div className={styles.content}>
           <div className={styles.centered}>
             <h1 className={styles.item}>{item.title}</h1>
-            <small className={styles.sizes}>
-              {(frame === 0 || frame === null) && <>5 x 7 &mdash; 18 x 24</>}
-              {frame === 1 && <>8 x 10 &mdash; 18 x 24</>}
-              {frame === 2 && <>12 x 16 &mdash; 18 x 24</>}
-            </small>
+            {(frame === 0 || frame === null) && (
+              <h5
+                aria-label="Available sizes: five inches by seven inches up to eighteen inches by twenty four inches"
+                className={styles.sizes}
+              >
+                5 x 7 &mdash; 18 x 24
+              </h5>
+            )}
+            {frame === 1 && (
+              <h5
+                aria-label="Available sizes: eight inches by ten inches up to eighteen inches by twenty four inches"
+                className={styles.sizes}
+              >
+                8 x 10 &mdash; 18 x 24
+              </h5>
+            )}
+            {frame === 2 && (
+              <h5
+                aria-label="Available sizes: twelve inches by sixteen inches up to eighteen inches by twenty four inches"
+                className={styles.sizes}
+              >
+                12 x 16 &mdash; 18 x 24
+              </h5>
+            )}
             <h3 className={styles.price}>
-              {frame === null && <span>from</span>}
+              {frame === null && <span aria-hidden="true">from</span>}
               {(frame === 0 || frame === null) && <>$100.00</>}
               {frame === 1 && <>$185.00</>}
               {frame === 2 && <>$215.00</>}
             </h3>
             <small>Choose one of the following:</small>
-            <div className={styles.frames}>
+            <div
+              aria-label="Frame styles"
+              className={styles.frames}
+              role="list"
+            >
               {['Frameless', 'Framed', 'Frame with Mat'].map(
                 (text: string, index: number) => (
                   <button
+                    aria-label={text}
+                    aria-selected={frame === index}
                     className={`${styles.button} ${frame === index && styles.selected}`.trim()}
                     key={text}
                     onClick={() => handleOnFrameClick(index)}
+                    role="listitem"
                   >
-                    <span className={styles.title}>{text}</span>
-                    <div className={styles.frame}>
+                    <span aria-hidden="true" className={styles.title}>
+                      {text}
+                    </span>
+                    <div aria-hidden="true" className={styles.frame}>
                       {frame === index && <Checkmark />}
                     </div>
                   </button>
@@ -109,14 +148,21 @@ function Page() {
             </div>
             <div className={styles.checkout}>
               <Button
+                aria-label={
+                  frame === null
+                    ? 'Purchase'
+                    : 'Purchase (opens in a new tab/window)'
+                }
                 href={item.paymentLinks[frame]}
+                id="purchase"
                 onClick={frame === null && handleOnNullFramePress}
                 text="Purchase"
               />
-              <small>
-                Choose size{frame > 0 && <>, and frame color,</>} during
-                checkout
-              </small>
+              {frame > 0 ? (
+                <small>Choose size, and frame color, during checkout</small>
+              ) : (
+                <small>Choose size during checkout</small>
+              )}
               <div className={styles.links}>
                 <Link
                   className={styles.learn}
@@ -125,7 +171,7 @@ function Page() {
                 >
                   Frame Details
                 </Link>
-                <span>|</span>
+                <span aria-hidden="true">|</span>
                 <Link
                   className={styles.learn}
                   href="/shop/policies"

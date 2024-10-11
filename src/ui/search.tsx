@@ -40,10 +40,18 @@ function Search({ isSearching, onClose }: Props) {
   };
 
   return (
-    <div className={styles.find} data-active={isSearching}>
+    <div
+      aria-labelledby="search-label"
+      aria-modal="true"
+      className={styles.find}
+      data-active={isSearching}
+      role="dialog"
+      tabIndex={-1}
+    >
       <div className={styles.container}>
         <div className={styles.input}>
           <button
+            aria-label="Close Search"
             className={styles.close}
             onClick={onClose}
             title="Close search"
@@ -51,7 +59,11 @@ function Search({ isSearching, onClose }: Props) {
           >
             <CloseIcon />
           </button>
-          <label className={styles.label} htmlFor="search-input">
+          <label
+            className={styles.label}
+            id="search-label"
+            htmlFor="search-input"
+          >
             Search for Post
           </label>
           <input
@@ -65,17 +77,31 @@ function Search({ isSearching, onClose }: Props) {
           />
         </div>
         <div className={styles.results} data-active={results.length > 0}>
-          <h4 className={styles.total}>Found: {results.length}</h4>
-          {results.map(({ date, title, uri }) => (
-            <div className={styles.result} key={uri}>
-              <Link href={uri} onClick={onClose}>
-                <div className={styles.title}>{title}</div>
-                <span className={styles.date}>
+          <h4
+            aria-label={`Found ${results.length} search results`}
+            className={styles.total}
+          >
+            {`Found ${results.length}`}
+          </h4>
+          <div role="list">
+            {results.map(({ date, title, uri }) => (
+              <Link
+                aria-label={`${title} ${date}`}
+                className={styles.result}
+                href={uri}
+                onClick={onClose}
+                key={uri}
+                role="listitem"
+              >
+                <div aria-hidden="true" className={styles.title}>
+                  {title}
+                </div>
+                <span aria-hidden="true" className={styles.date}>
                   <time>{date}</time>
                 </span>
               </Link>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </div>

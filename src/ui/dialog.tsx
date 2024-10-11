@@ -10,9 +10,18 @@ type Props = {
 
 function Dialog({ isRenderable, onDismiss, text }: Props) {
   return (
-    <div className={styles.dialog} data-renderable={isRenderable}>
+    <div
+      aria-labelledby="dialogMessage"
+      aria-modal="true"
+      className={styles.dialog}
+      data-renderable={isRenderable}
+      role="dialog"
+      tabIndex={-1}
+    >
       <div className={styles.box}>
-        <div className={styles.message}>{text}</div>
+        <div className={styles.message} id="dialogMessage">
+          {text}
+        </div>
         <div className={styles.buttons}>
           <Button onClick={onDismiss} text="OK" />
         </div>

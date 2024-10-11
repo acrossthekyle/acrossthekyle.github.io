@@ -60,8 +60,16 @@ function View({ children, className = '' }: Props) {
     }
   };
 
-  const handleOnSearch = () => {
-    setIsSearching(!isSearching);
+  const handleOnOpenSearch = () => {
+    setIsSearching(true);
+  };
+
+  const handleOnCloseSearch = () => {
+    setTimeout(() => {
+      document.getElementById('searchOpen').focus();
+    }, 250);
+
+    setIsSearching(false);
   };
 
   return (
@@ -71,7 +79,7 @@ function View({ children, className = '' }: Props) {
           <div className={styles.container}>
             <div className={styles.inner}>
               <div className={styles.logo}>
-                <Link href="/">
+                <Link aria-label="acrossthekyle" href="/" id="logo">
                   <Image
                     alt="acrossthekyle.com logo"
                     height={60}
@@ -97,17 +105,22 @@ function View({ children, className = '' }: Props) {
                   </ul>
                 </div>
               </nav>
-              <Menu />
               <div className={styles.search}>
-                <button onClick={handleOnSearch} type="button">
+                <button
+                  aria-label="Search for posts"
+                  id="searchOpen"
+                  onClick={handleOnOpenSearch}
+                  type="button"
+                >
                   <SearchIcon />
                 </button>
               </div>
+              <Menu />
             </div>
           </div>
         </div>
       </header>
-      <Search isSearching={isSearching} onClose={handleOnSearch} />
+      <Search isSearching={isSearching} onClose={handleOnCloseSearch} />
       <main className={`${styles.view} ${className}`.trim()} id="view-anchor">
         {children}
       </main>

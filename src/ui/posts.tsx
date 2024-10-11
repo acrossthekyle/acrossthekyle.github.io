@@ -54,6 +54,7 @@ function Post({ date, image, snippet, tags, title, uri }: TravelProps) {
             <div className={styles.tags}>
               {tags.split(',').map((tag: string) => (
                 <Link
+                  aria-label={`Tagged with ${tag}`}
                   className={styles.tag}
                   href={`/tags/${encodeURIComponent(tag)}`}
                   key={tag}
@@ -70,12 +71,16 @@ function Post({ date, image, snippet, tags, title, uri }: TravelProps) {
             {!!snippet && (
               <p className={styles.preview}>
                 {truncate(snippet, { length: 156, separator: ' ' })}
-                ..
+                <span aria-hidden="true">..</span>
               </p>
             )}
             <div className={styles.context}>
               <div className={styles.content}>
-                <Link className={styles.author} href="/about">
+                <Link
+                  aria-label="About Kyle"
+                  className={styles.author}
+                  href="/about"
+                >
                   <Image
                     alt=""
                     aria-hidden="true"
@@ -87,8 +92,10 @@ function Post({ date, image, snippet, tags, title, uri }: TravelProps) {
                   />
                 </Link>
                 <div className={styles.info}>
-                  Kyle Gilbert
-                  <span className={styles.divider}>•</span>
+                  <span aria-hidden="true">Kyle Gilbert</span>
+                  <span aria-hidden="true" className={styles.divider}>
+                    •
+                  </span>
                   <time>{date}</time>
                 </div>
               </div>
@@ -119,7 +126,7 @@ function Posts({ tag }: Props) {
 
   return (
     <div className={styles.view} id="posts">
-      {!!tag && <p className={styles.total}>{all.length} Articles</p>}
+      {!!tag && <p className={styles.total}>{`${all.length} Articles`}</p>}
       {!!tag && <h1 className={styles.header}>{tag}</h1>}
       <div className={styles.items}>
         {all.splice(0, shown).map((post) => (

@@ -36,7 +36,7 @@ function Theme() {
 
   return (
     <button
-      aria-label={`change to ${theme === 'dark' ? 'light' : 'dark'} theme`}
+      aria-label={`switch to ${theme === 'dark' ? 'light' : 'dark'} theme`}
       onClick={handleOnClick}
       type="button"
     >

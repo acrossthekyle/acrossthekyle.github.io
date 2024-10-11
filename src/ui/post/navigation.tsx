@@ -32,6 +32,7 @@ function Navigation({
           <div className={styles.image}>
             <Image
               alt={older.title}
+              aria-hidden="true"
               height={432}
               quality={50}
               sizes="(max-width: 768px) 100vw, 33vw"
@@ -39,10 +40,15 @@ function Navigation({
               width={768}
             />
           </div>
-          <span className={styles.eyebrow}>
+          <span aria-hidden="true" className={styles.eyebrow}>
             <ArrowIcon left /> {olderLabel}
           </span>
-          <h3 className={styles.title}>{older.title}</h3>
+          <h3
+            aria-label={`Older Post: ${older.title}`}
+            className={styles.title}
+          >
+            {older.title}
+          </h3>
         </Link>
       )}
       {newer && (
@@ -50,6 +56,7 @@ function Navigation({
           <div className={styles.image}>
             <Image
               alt={newer.title}
+              aria-hidden="true"
               height={432}
               quality={50}
               sizes="(max-width: 768px) 100vw, 33vw"
@@ -57,10 +64,15 @@ function Navigation({
               width={768}
             />
           </div>
-          <span className={styles.eyebrow}>
+          <span aria-hidden="true" className={styles.eyebrow}>
             {newerLabel} <ArrowIcon right />
           </span>
-          <h3 className={styles.title}>{newer.title}</h3>
+          <h3
+            aria-label={`Newer Post: ${newer.title}`}
+            className={styles.title}
+          >
+            {newer.title}
+          </h3>
         </Link>
       )}
     </div>

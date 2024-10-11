@@ -56,7 +56,11 @@ function Title({
       {context !== undefined && (
         <div className={styles.context}>
           <div className={styles.content}>
-            <Link className={styles.author} href="/about">
+            <Link
+              aria-label="About Kyle"
+              className={styles.author}
+              href="/about"
+            >
               <Image
                 alt=""
                 aria-hidden="true"

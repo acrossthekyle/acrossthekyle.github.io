@@ -62,6 +62,8 @@ function Scroll({ className = '' }: Props) {
         left: 0,
         behavior: 'smooth',
       });
+
+      document.getElementById('logo').focus();
     }
   };
 

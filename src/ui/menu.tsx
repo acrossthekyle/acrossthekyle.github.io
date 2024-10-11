@@ -11,12 +11,12 @@ import Theme from './theme';
 function Menu() {
   const router = useRouter();
 
-  const [isActive, toggleIsActive] = useState(false);
+  const [isActive, setIsActive] = useState(false);
 
   useEffect(() => {
     router.beforePopState(({ as }) => {
       if (as !== router.asPath) {
-        toggleIsActive(false);
+        setIsActive(false);
       }
 
       return true;
@@ -27,57 +27,94 @@ function Menu() {
     };
   }, [router]);
 
-  const handleOnToggle = () => {
-    toggleIsActive(!isActive);
+  const handleOnClose = () => {
+    setIsActive(false);
+
+    document.getElementById('menuOpen').focus();
+  };
+
+  const handleOnOpen = () => {
+    setIsActive(true);
+
+    setTimeout(() => {
+      document.getElementById('menuClose').focus();
+    }, 750);
+  };
+
+  const handleOnLinkClick = () => {
+    setIsActive(false);
   };
 
   return (
-    <div className={styles.menu} data-active={isActive}>
+    <>
       <button
-        aria-label="toggle menu"
-        className={styles.toggle}
-        onClick={handleOnToggle}
-        title={isActive ? 'Close Menu' : 'Open Menu'}
+        aria-label="Open menu"
+        className={styles.menuButton}
+        id="menuOpen"
+        onClick={handleOnOpen}
+        title="Open Menu"
         type="button"
       >
         <div aria-hidden="true" className={styles.icon} />
       </button>
-      <div className={styles.content}>
-        <div className={styles.circle}>
-          <div className={styles.wrapper}>
-            <h2>Menu</h2>
-            <ul>
-              <li>
-                <Link className={styles.link} href="/" onClick={handleOnToggle}>
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className={styles.link}
-                  href="/about"
-                  onClick={handleOnToggle}
-                >
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link
-                  className={styles.link}
-                  href="/shop"
-                  onClick={handleOnToggle}
-                >
-                  Shop
-                </Link>
-              </li>
-            </ul>
-            <div className={styles.footer}>
-              <Theme />
+      <div className={styles.menu} data-active={isActive}>
+        <div
+          aria-labelledby="menuHeading"
+          aria-modal="true"
+          className={styles.content}
+          role="dialog"
+          tabIndex={-1}
+        >
+          <div className={styles.circle}>
+            <div className={styles.wrapper}>
+              <button
+                aria-label="Close menu"
+                className={styles.close}
+                id="menuClose"
+                onClick={handleOnClose}
+                title="Close menu"
+                type="button"
+              >
+                <div aria-hidden="true" className={styles.icon} />
+              </button>
+              <h2 id="menuHeading">Menu</h2>
+              <ul>
+                <li>
+                  <Link
+                    className={styles.link}
+                    href="/"
+                    onClick={handleOnLinkClick}
+                  >
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className={styles.link}
+                    href="/about"
+                    onClick={handleOnLinkClick}
+                  >
+                    About
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className={styles.link}
+                    href="/shop"
+                    onClick={handleOnLinkClick}
+                  >
+                    Shop
+                  </Link>
+                </li>
+              </ul>
+              <div className={styles.footer}>
+                <Theme />
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
