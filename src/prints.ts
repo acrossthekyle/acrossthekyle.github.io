@@ -1,11 +1,4 @@
-type Print = {
-  image: string;
-  mocks?: string[];
-  paymentLinks: string[];
-  snippet: string;
-  title: string;
-  uri: string;
-};
+import { Print } from '@/types/print';
 
 const STRIPE_BASE = 'https://buy.stripe.com';
 
@@ -143,16 +136,17 @@ const ITEMS: Print[] = [
 
 const prints = {
   items: ITEMS,
-  getArray: function () {
-    return this.items;
+  getItems: function () {
+    return [...this.items];
   },
   getById: function (id: string) {
     return (
-      this.items.find(({ uri }) => uri === `/shop/prints/${id}`) ?? undefined
+      [...this.items].find(({ uri }) => uri === `/shop/prints/${id}`) ??
+      undefined
     );
   },
   getRelated: function (id: string) {
-    const filtered = this.items.filter(
+    const filtered = [...this.items].filter(
       ({ uri }) => uri !== `/shop/prints/${id}`,
     );
     const shuffled = [...filtered].sort(() => 0.5 - Math.random());

@@ -4,8 +4,8 @@ test.describe.configure({ mode: 'serial' });
 
 const PRODUCTS = [1, 3, 5, 7, 9, 11, 13, 15];
 
-async function clickPurchase(page, child, awaitedTab) {
-  const button = await page.getByRole('button').filter({ has: child });
+async function clickPurchase(page, frameButton, awaitedTab) {
+  const button = await page.locator(`button[aria-label="${frameButton}"]`);
 
   await button.click();
 
@@ -37,13 +37,11 @@ test.describe('stripe links', () => {
 
       /* Frameless */
 
-      const frameless = await page.getByText('Frameless');
-
       const framelessTab = page.waitForEvent('popup');
 
       const openedFramelessTab = await clickPurchase(
         page,
-        frameless,
+        'Frameless',
         framelessTab,
       );
 
@@ -67,11 +65,9 @@ test.describe('stripe links', () => {
 
       /* Framed */
 
-      const framed = await page.getByText('Framed');
-
       const framedTab = page.waitForEvent('popup');
 
-      const openedFramedTab = await clickPurchase(page, framed, framedTab);
+      const openedFramedTab = await clickPurchase(page, 'Framed', framedTab);
 
       const framedSizes = await openedFramedTab.locator('select[name*="size"]');
       const framedFrameColor = await openedFramedTab.locator(
@@ -93,13 +89,11 @@ test.describe('stripe links', () => {
 
       /* Frame with Mat */
 
-      const framedMat = await page.getByText('Frame with Mat');
-
       const framedMatTab = page.waitForEvent('popup');
 
       const openedFrameMatTab = await clickPurchase(
         page,
-        framedMat,
+        'Frame with Mat',
         framedMatTab,
       );
 

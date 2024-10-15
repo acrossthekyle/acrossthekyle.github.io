@@ -1,0 +1,44 @@
+@use 'styles/mixins/_screen' as screen;
+@use 'styles/mixins/_on' as on;
+
+.tags {
+  .tag {
+    border-bottom: none;
+    border-radius: 0.25rem;
+    display: inline-block;
+    font-size: 0.62rem;
+    letter-spacing: 1px;
+    margin-bottom: 0.25rem;
+    margin-right: 0.25rem;
+    padding: 0.5rem 0.75rem;
+    text-transform: uppercase;
+    transition: all 0.4s ease-in-out;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &[data-mode='primary'] {
+    .tag {
+      background: var(--tag);
+      color: var(--tag-text);
+
+      @include on.hover {
+        background: var(--tag-hover);
+      }
+    }
+  }
+
+  &[data-mode='secondary'] {
+    .tag {
+      background: var(--tag-dark);
+      color: var(--tag-dark-text);
+
+      @include on.hover {
+        background: var(--tag-hover);
+        color: var(--tag-text);
+      }
+    }
+  }
+}

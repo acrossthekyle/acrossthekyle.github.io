@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 test.beforeEach(async ({ page }) => {
   await page.goto('/');
 
-  const posts = await page.locator('#posts');
+  const posts = await page.locator('#masonry');
   const figure = await posts.getByRole('figure').nth(0);
   const anchor = await figure.locator('a[href*="posts/"]').nth(0);
 

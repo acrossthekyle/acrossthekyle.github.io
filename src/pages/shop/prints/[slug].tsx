@@ -1,3 +1,4 @@
+import { kebabCase } from 'lodash';
 import { useEffect, useState } from 'react';
 import { InView } from 'react-intersection-observer';
 import Head from 'next/head';
@@ -5,12 +6,13 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 
 import styles from '@/styles/pages/shop/prints.module.scss';
+import Frame from '@/ui/shop/frame';
+import Breadcrumbs from '@/ui/breadcrumbs';
 import Button from '@/ui/button';
 import Checkmark from '@/ui/icons/checkmark';
 import Dialog from '@/ui/dialog';
 import Image from '@/ui/image';
 import Internal from '@/ui/internal';
-import Policies from '@/ui/shop/policies';
 import View from '@/ui/view';
 
 import prints from '../../../prints';
@@ -66,17 +68,17 @@ function Page() {
         onDismiss={handleOnDialogDismiss}
         text="Please choose a style before continuing"
       />
-      <ul
-        aria-label="Breadcrumbs"
-        className={styles.breadcrumbs}
-        role="navigation"
-      >
-        <li className={styles.breadcrumb}>
-          <Link href="/shop">Shop</Link>
-          <span aria-hidden="true">-</span>
-        </li>
-        <li className={styles.breadcrumb}>{item.title}</li>
-      </ul>
+      <Breadcrumbs
+        items={[
+          {
+            text: 'Shop',
+            uri: '/shop',
+          },
+          {
+            text: item.title,
+          },
+        ]}
+      />
       <div className={styles.container}>
         <div className={styles.image}>
           <Image
@@ -124,7 +126,7 @@ function Page() {
             <div
               aria-label="Frame styles"
               className={styles.frames}
-              role="list"
+              role="listbox"
             >
               {['Frameless', 'Framed', 'Frame with Mat'].map(
                 (text: string, index: number) => (
@@ -134,14 +136,14 @@ function Page() {
                     className={`${styles.button} ${frame === index && styles.selected}`.trim()}
                     key={text}
                     onClick={() => handleOnFrameClick(index)}
-                    role="listitem"
+                    role="option"
                   >
                     <span aria-hidden="true" className={styles.title}>
                       {text}
                     </span>
-                    <div aria-hidden="true" className={styles.frame}>
+                    <Frame className={styles.frame} mode={kebabCase(text)}>
                       {frame === index && <Checkmark />}
-                    </div>
+                    </Frame>
                   </button>
                 ),
               )}

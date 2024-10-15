@@ -1,0 +1,87 @@
+@use 'styles/mixins/_on' as on;
+@use 'styles/mixins/_screen' as screen;
+
+.breadcrumbs {
+  justify-content: center;
+  background: var(--body);
+  color: var(--text);
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 9rem 0 0;
+  width: 100%;
+  white-space: nowrap;
+
+  .breadcrumb {
+    display: inline-block;
+    margin-right: 2rem;
+    max-width: 100%;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: auto;
+
+    a {
+      transition: all 0.3s ease;
+
+      @include on.hover {
+        box-shadow:
+          0 -1px var(--body) inset,
+          0 -3px var(--travels-title-hover) inset;
+      }
+    }
+
+    .divider {
+      color: var(--text-dimmed);
+      display: block;
+      position: absolute;
+      right: -1.3rem;
+      top: 0;
+
+      svg {
+        fill: var(--text-dimmed);
+        height: 0.6rem;
+        width: 0.6rem;
+      }
+    }
+
+    &:last-child {
+      margin-right: 0;
+
+      .divider {
+        display: none;
+      }
+    }
+  }
+
+  @include screen.large {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  @include screen.medium {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  @include screen.small {
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    .breadcrumb,
+    .breadcrumb:last-child {
+      display: none;
+    }
+
+    .breadcrumb {
+      overflow: hidden;
+
+      &:nth-child(1) {
+        display: block;
+        margin-right: 0;
+        max-width: 100%;
+      }
+    }
+  }
+}

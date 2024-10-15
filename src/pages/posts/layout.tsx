@@ -9,11 +9,11 @@ import styles from '@/styles/pages/posts/index.module.scss';
 import posts from '../../posts';
 import { getPostIdAndStageFromUriSegment } from '../../utils';
 
-import View from '@/ui/view';
 import Post from '@/ui/post';
 import Hero from '@/ui/post/hero';
 import Navigation from '@/ui/post/navigation';
 import Title from '@/ui/post/title';
+import View from '@/ui/view';
 
 type Props = {
   children: ReactNode | ReactNode[];
@@ -54,32 +54,42 @@ function Layout({ children }: Props) {
         </title>
       </Head>
       <Title
-        context={[stage === undefined ? post.date : stage.dateFull, post.gear]}
-        day={stage !== undefined ? stage.index + 1 : undefined}
-        days={stage !== undefined ? post.stages.length : undefined}
-        parent={stage !== undefined ? post.title : undefined}
-        tags={stage === undefined ? post.tags : undefined}
-        title={stage === undefined ? post.title : stage.title}
-        titleShort={post.titleShort}
+        context={[stage?.dateFull || post.date, post.gear]}
+        crumbs={
+          stage !== undefined && [
+            {
+              text: post.title,
+              uri: post.uri,
+            },
+            {
+              text: 'Timeline',
+              uri: `${post.uri}#timeline`,
+            },
+            {
+              text: `Day ${stage.index + 1}`,
+            },
+          ]
+        }
+        tags={post.tags}
+        title={stage?.title || post.title}
         uri={post.uri}
       />
-      <Hero image={stage === undefined ? post.image : stage.image} />
+      <Hero image={stage?.image || post.image} />
       <Post>
         {children}
-
         <Navigation
           newer={
             stage === undefined
               ? posts.getNewer(post)
               : posts.getStageNext(post, stage)
           }
-          newerLabel={stage === undefined ? undefined : 'Next Stage'}
+          newerLabel={stage === undefined ? undefined : 'Next Day'}
           older={
             stage === undefined
               ? posts.getOlder(post)
               : posts.getStagePrevious(post, stage)
           }
-          olderLabel={stage === undefined ? undefined : 'Previous Stage'}
+          olderLabel={stage === undefined ? undefined : 'Previous Day'}
         />
       </Post>
     </View>

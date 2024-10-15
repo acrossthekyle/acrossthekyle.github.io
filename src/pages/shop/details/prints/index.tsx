@@ -1,6 +1,7 @@
 import Head from 'next/head';
 
 import styles from '@/styles/pages/shop/details.prints.module.scss';
+import Frame from '@/ui/shop/frame';
 import View from '@/ui/view';
 
 function Page() {
@@ -13,7 +14,7 @@ function Page() {
         <h1>Prints and Frames</h1>
         <div className={styles.row}>
           <div className={styles.type}>
-            <div className={styles.frame} />
+            <Frame className={styles.frame} mode="frameless" />
           </div>
           <div className={styles.description}>
             <h3>Frameless</h3>
@@ -35,7 +36,7 @@ function Page() {
         </div>
         <div className={styles.row}>
           <div className={styles.type}>
-            <div className={styles.frame} />
+            <Frame className={styles.frame} mode="framed" />
           </div>
           <div className={styles.description}>
             <h3>Framed</h3>
@@ -61,7 +62,7 @@ function Page() {
         </div>
         <div className={styles.row}>
           <div className={styles.type}>
-            <div className={styles.frame} />
+            <Frame className={styles.frame} mode="frame-with-mat" />
           </div>
           <div className={styles.description}>
             <h3>Frame with Mat</h3>

@@ -1,0 +1,138 @@
+@use 'styles/mixins/_screen' as screen;
+@use 'styles/mixins/_on' as on;
+
+.figure {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  opacity: 0;
+  position: relative;
+  top: 3rem;
+  transition: all 0.4s ease-in-out;
+
+  .image {
+    border-radius: 0.125rem;
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      inset: 0;
+      background-color: var(--image-hover-background);
+      transition: all 0.4s ease-in-out;
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    img {
+      height: 100%;
+      object-fit: cover;
+      width: 100%;
+    }
+
+    @include on.hover {
+      &:after {
+        transition: all 0.4s ease-in-out;
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+
+  .caption {
+    color: var(--text);
+    display: block;
+    padding-top: 1rem;
+    position: relative;
+
+    .tags {
+      padding: 0 0 0.5rem;
+    }
+
+    .title {
+      display: inline;
+      font-size: 1.375rem;
+      letter-spacing: -0.02em;
+      line-height: 1.75rem;
+      position: relative;
+      transition: all 0.4s ease-in-out;
+
+      @include on.hover {
+        box-shadow:
+          0 -1px var(--body) inset,
+          0 -3px var(--travels-title-hover) inset;
+      }
+    }
+
+    .preview {
+      font-size: 0.875rem;
+      line-height: 1.375rem;
+      margin-top: 0.75rem;
+    }
+
+    .context {
+      align-items: center;
+      color: var(--text);
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 0.25rem;
+      margin-top: 0.75rem;
+      position: relative;
+      width: auto;
+
+      .author {
+        border-radius: 50%;
+        height: 1.25rem;
+        margin-right: 0.5rem;
+        opacity: 0.75;
+        overflow: hidden;
+        width: 1.25rem;
+
+        img {
+          height: 100%;
+          object-fit: cover;
+          width: 100%;
+        }
+      }
+
+      .info {
+        align-items: center;
+        color: var(--text);
+        display: flex;
+        font-size: 0.875rem;
+
+        .divider {
+          display: inline-block;
+          margin: 0 0.5rem;
+        }
+      }
+    }
+  }
+
+  &[data-in-view='true'] {
+    opacity: 1;
+    top: 0;
+  }
+
+  @include screen.small {
+    opacity: 1;
+    top: 0;
+
+    .image {
+      border-radius: 0.5rem;
+    }
+  }
+
+  @include screen.compact {
+    .caption {
+      .preview {
+        font-size: 1rem;
+        line-height: 1.5rem;
+      }
+    }
+  }
+}

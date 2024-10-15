@@ -10,22 +10,26 @@ test('loads', async ({ page }) => {
 
 test('goes to about from large avatar', async ({ page }) => {
   await page.goto('/');
-  await page.getByAltText('me').click();
+
+  const main = await page.locator('main');
+  const about = await main.locator('a[href*="/about"]').nth(1);
+
+  await about.click();
 
   await expect(page).toHaveTitle(`Kyle — About`);
 });
 
 test('has posts', async ({ page }) => {
   await page.goto('/');
-  const posts = page.locator('#posts');
+  const posts = page.locator('#masonry');
 
   await expect(posts.getByRole('figure')).toHaveCount(9);
 });
 
 test('loads more posts', async ({ page }) => {
   await page.goto('/');
-  const button = await page.getByRole('button', { name: 'load more posts' });
-  const posts = page.locator('#posts');
+  const button = await page.getByRole('button', { name: 'load more' });
+  const posts = page.locator('#masonry');
 
   button.click();
 
@@ -39,12 +43,11 @@ test('loads more posts', async ({ page }) => {
 
 test('posts have information', async ({ page }) => {
   await page.goto('/');
-  const posts = page.locator('#posts');
+  const posts = page.locator('#masonry');
   const figure = await posts.getByRole('figure').nth(0);
   const figcaption = await figure.locator('figcaption');
   const figcaptionTags = await figcaption.locator('a[href*="tags/"]').count();
 
-  await expect(figure.getByRole('img')).toHaveCount(1);
   await expect(figure.locator('figcaption')).toHaveCount(1);
   await expect(figcaptionTags).toBeGreaterThanOrEqual(1);
   await expect(figcaption.getByRole('heading', { level: 2 })).toHaveCount(1);
@@ -55,7 +58,7 @@ test('posts have information', async ({ page }) => {
 
 test('post image link goes to post', async ({ page }) => {
   await page.goto('/');
-  const posts = page.locator('#posts');
+  const posts = page.locator('#masonry');
   const figure = await posts.getByRole('figure').nth(0);
   const figcaption = await figure.locator('figcaption');
   const heading = await figcaption.getByRole('heading', { level: 2 });
@@ -71,7 +74,7 @@ test('post image link goes to post', async ({ page }) => {
 
 test('post tag goes to tags list', async ({ page }) => {
   await page.goto('/');
-  const posts = page.locator('#posts');
+  const posts = page.locator('#masonry');
   const figure = await posts.getByRole('figure').nth(0);
   const figcaption = await figure.locator('figcaption');
   const figcaptionTag = await figcaption.locator('a[href*="tags/"]').nth(0);
@@ -86,7 +89,7 @@ test('post tag goes to tags list', async ({ page }) => {
 
 test('post heading link goes to post', async ({ page }) => {
   await page.goto('/');
-  const posts = page.locator('#posts');
+  const posts = page.locator('#masonry');
   const figure = await posts.getByRole('figure').nth(0);
   const figcaption = await figure.locator('figcaption');
   const heading = await figcaption.getByRole('heading', { level: 2 });
@@ -102,7 +105,7 @@ test('post heading link goes to post', async ({ page }) => {
 
 test('post caption author navigates to about', async ({ page }) => {
   await page.goto('/');
-  const posts = page.locator('#posts');
+  const posts = page.locator('#masonry');
   const figure = await posts.getByRole('figure').nth(0);
   const figcaption = await figure.locator('figcaption');
   const author = await figcaption.locator('a[href*="about"]').nth(0);

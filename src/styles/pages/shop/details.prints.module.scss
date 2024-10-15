@@ -36,16 +36,6 @@
       padding: 0 2rem 0 0;
 
       .frame {
-        align-items: center;
-        background: var(--shop-frame-fill);
-        border: 1px solid var(--border);
-        border-radius: 0;
-        display: flex;
-        font-weight: semibold;
-        height: 9rem;
-        justify-content: center;
-        line-height: 1rem;
-        text-align: center;
         width: 10rem;
       }
     }
@@ -74,43 +64,6 @@
         }
       }
     }
-
-    &:nth-child(3),
-    &:nth-child(4) {
-      .type {
-        .frame {
-          border-color: var(--shop-frame-border);
-          border-width: 10px;
-        }
-      }
-    }
-
-    &:nth-child(3) {
-      .type {
-        .frame {
-          box-shadow: 0 0 0.25rem var(--shop-frame-shadow) inset;
-        }
-      }
-    }
-
-    &:nth-child(4) {
-      .type {
-        .frame {
-          background: var(--shop-frame-mat-background);
-          position: relative;
-
-          &:after {
-            background: var(--shop-frame-fill);
-            box-shadow: 0 0 0.5rem var(--shop-frame-mat-shadow) inset;
-            content: '';
-            display: block;
-            inset: 0.9rem;
-            position: absolute;
-            z-index: 1;
-          }
-        }
-      }
-    }
   }
 
   @include screen.small {
@@ -124,10 +77,6 @@
         justify-content: center;
         padding: 0;
         padding-bottom: 2rem;
-
-        .frame {
-          width: 10rem;
-        }
       }
     }
   }

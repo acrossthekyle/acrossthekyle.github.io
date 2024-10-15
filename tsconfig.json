@@ -4,6 +4,7 @@
     "paths": {
       "@/contexts/*": ["contexts/*"],
       "@/styles/*": ["styles/*"],
+      "@/types/*": ["types/*"],
       "@/ui/*": ["ui/*"]
     },
     "lib": ["dom", "dom.iterable", "esnext"],

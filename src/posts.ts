@@ -1,30 +1,6 @@
 import { flatten, uniq } from 'lodash';
 
-type Stage = {
-  dateFull: string;
-  dateShort: string;
-  garmin?: string;
-  image: string;
-  title: string;
-};
-
-type Post = {
-  date: string;
-  gear?: string;
-  image: string;
-  locationFull: string;
-  locationShort: string;
-  marker: {
-    left: string;
-    top: string;
-  };
-  snippet: string;
-  stages?: Stage[];
-  tags: string;
-  title: string;
-  titleShort: string;
-  uri: string;
-};
+import { Post, Stage } from '@/types/post';
 
 /************************/
 //
@@ -1161,20 +1137,24 @@ const posts = {
     post2,
     post1,
   ],
+  getItems: function () {
+    return [...this.items];
+  },
   getArray: function () {
-    return this.items;
+    return this.getItems();
   },
   getTotal: function () {
-    return this.items.length;
+    return this.getItems().length;
   },
   getById: function (id: string) {
-    return this.items.find(({ uri }) => uri === `/posts/${id}`) ?? null;
+    return this.getItems().find(({ uri }) => uri === `/posts/${id}`) ?? null;
   },
   getByIndex: function (index: number) {
-    return this.items[index] ?? null;
+    return this.getItems()[index] ?? null;
   },
   getStage: function (id: string, day: number) {
-    const item = this.items.find(({ uri }) => uri === `/posts/${id}`) ?? null;
+    const item =
+      this.getItems().find(({ uri }) => uri === `/posts/${id}`) ?? null;
 
     if (item === null || day <= 0) {
       return undefined;
@@ -1224,44 +1204,50 @@ const posts = {
     return undefined;
   },
   getNewer: function (post: Post) {
-    const index = this.items.findIndex(({ uri }) => uri === post?.uri);
+    const copied = this.getItems();
+
+    const index = copied.findIndex(({ uri }) => uri === post?.uri);
 
     if (index < 0) {
       return undefined;
     }
 
-    if (this.items[index - 1] !== undefined) {
+    if (copied[index - 1] !== undefined) {
       return {
-        image: this.items[index - 1].image,
-        title: this.items[index - 1].title,
-        uri: this.items[index - 1].uri,
+        image: copied[index - 1].image,
+        title: copied[index - 1].title,
+        uri: copied[index - 1].uri,
       };
     }
 
     return undefined;
   },
   getOlder: function (post: Post) {
-    const index = this.items.findIndex(({ uri }) => uri === post?.uri);
+    const copied = this.getItems();
+
+    const index = copied.findIndex(({ uri }) => uri === post?.uri);
 
     if (index < 0) {
       return undefined;
     }
 
-    if (this.items[index + 1] !== undefined) {
+    if (copied[index + 1] !== undefined) {
       return {
-        image: this.items[index + 1].image,
-        title: this.items[index + 1].title,
-        uri: this.items[index + 1].uri,
+        image: copied[index + 1].image,
+        title: copied[index + 1].title,
+        uri: copied[index + 1].uri,
       };
     }
 
     return undefined;
   },
   getTags: function () {
-    return uniq(flatten(this.items.map(({ tags }) => tags.split(','))));
+    return uniq(flatten(this.getItems().map(({ tags }) => tags.split(','))));
   },
   getRecents: function () {
-    return [this.items[0], this.items[1], this.items[2]];
+    const recents = this.getItems();
+
+    return [recents[0], recents[1], recents[2]];
   },
 };
 

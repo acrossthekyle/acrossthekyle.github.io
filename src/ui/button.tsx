@@ -9,15 +9,24 @@ type Props = {
   className?: string;
   href?: string;
   id?: string;
+  mode?: string;
   onClick?: () => void;
   text: string | ReactNode;
 };
 
-function Button({ className = '', href, onClick, text, ...rest }: Props) {
+function Button({
+  className = '',
+  href,
+  onClick,
+  mode = 'primary',
+  text,
+  ...rest
+}: Props) {
   if (onClick) {
     return (
       <button
         className={`${styles.button} ${className}`.trim()}
+        data-mode={mode}
         onClick={onClick}
         type="button"
         {...rest}
@@ -31,6 +40,7 @@ function Button({ className = '', href, onClick, text, ...rest }: Props) {
     return (
       <Link
         className={`${styles.button} ${className}`.trim()}
+        data-mode={mode}
         href={href}
         target={href.includes('http') ? '_blank' : '_self'}
         {...rest}

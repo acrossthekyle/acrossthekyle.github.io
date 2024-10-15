@@ -2,7 +2,8 @@ import { test, expect } from '@playwright/test';
 
 test('header navigation to about', async ({ page }) => {
   await page.goto('/');
-  await page.getByRole('link', { name: 'About' }).click();
+  const header = await page.locator('header');
+  await header.getByRole('link', { name: 'About' }).click();
 
   await expect(page).toHaveTitle(`Kyle — About`);
 });
@@ -51,7 +52,7 @@ test('header search query shows results', async ({ page }) => {
 
   const heading = await page.getByRole('heading', {
     level: 4,
-    name: 'Found: 1',
+    name: 'Found 1',
   });
 
   await expect(heading).toBeVisible();

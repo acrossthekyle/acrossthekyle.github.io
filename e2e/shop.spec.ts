@@ -67,8 +67,7 @@ test('choosing a frame', async ({ page }) => {
 
   await anchor.click();
 
-  const frame = await page.getByText('Frameless');
-  const button = await page.getByRole('button').filter({ has: frame });
+  const button = await page.locator(`button[aria-label="Frameless"]`);
 
   await button.click();
 
