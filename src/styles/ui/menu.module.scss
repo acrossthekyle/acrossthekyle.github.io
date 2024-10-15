@@ -3,7 +3,7 @@
 
 .menuButton {
   align-items: center;
-  display: flex;
+  display: none;
   height: 3rem;
   justify-content: center;
   position: absolute;
@@ -36,6 +36,10 @@
     &:after {
       top: 7px;
     }
+  }
+
+  @include screen.small {
+    display: flex;
   }
 }
 
