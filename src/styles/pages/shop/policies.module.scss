@@ -1,20 +1,10 @@
 @use 'styles/mixins/_on' as on;
 @use 'styles/mixins/_screen' as screen;
 
-.container {
-  background: var(--body);
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  max-width: var(--max-width);
-  padding: 9rem 5rem 2rem;
-  position: relative;
-  z-index: 4;
-
+.view {
   h1 {
     color: var(--text);
-    margin: 0 auto;
-    margin-bottom: 2.25rem;
+    margin: 5rem auto 2.25rem;
     position: relative;
   }
 
@@ -30,5 +20,16 @@
 
   @include screen.small {
     padding: 9rem 1.25rem 2rem;
+
+    h1 {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    p {
+      margin-left: 0;
+      margin-right: 0;
+      text-align: left;
+    }
   }
 }

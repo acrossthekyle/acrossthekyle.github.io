@@ -59,7 +59,7 @@ function Page() {
   }
 
   return (
-    <View>
+    <View className={styles.view}>
       <Head>
         <title>Kyle &mdash; Shop | {item.title}</title>
       </Head>
@@ -79,7 +79,7 @@ function Page() {
           },
         ]}
       />
-      <div className={styles.container}>
+      <div className={styles.wrapper}>
         <div className={styles.image}>
           <Image
             alt={item.title}

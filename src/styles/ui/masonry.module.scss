@@ -2,8 +2,6 @@
 @use 'styles/mixins/_on' as on;
 
 .masonry {
-  margin-bottom: 5rem;
-
   .items {
     display: grid;
     grid-auto-rows: 1rem;

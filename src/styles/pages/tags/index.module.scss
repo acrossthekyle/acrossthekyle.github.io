@@ -1,9 +1,4 @@
-@use 'styles/mixins/_screen' as screen;
-@use 'styles/mixins/_on' as on;
-
 .view {
-  padding-top: 9rem;
-
   .header {
     color: var(--text);
     font-size: 2.25rem;

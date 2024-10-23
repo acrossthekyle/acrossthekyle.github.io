@@ -16,11 +16,11 @@ import posts from '../../posts';
 
 function Page() {
   return (
-    <View>
+    <View className={styles.view}>
       <Head>
         <title>Kyle &mdash; Thru-hiker and Programmer based in Chicago</title>
       </Head>
-      <div className={styles.container}>
+      <div className={styles.header}>
         <Link aria-hidden="true" className={styles.image} href="/about">
           <Image
             alt=""
