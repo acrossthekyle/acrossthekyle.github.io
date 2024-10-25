@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test.describe.configure({ mode: 'serial' });
 
-const PRODUCTS = [1, 3, 5, 7, 9, 11, 13, 15];
+const PRODUCTS = [1, 3, 5, 7, 9, 11, 13, 15, 17];
 
 async function clickPurchase(page, frameButton, awaitedTab) {
   const button = await page.locator(`button[aria-label="${frameButton}"]`);
