@@ -62,6 +62,10 @@ function View({ children, className = '' }: Props) {
 
   const handleOnOpenSearch = () => {
     setIsSearching(true);
+
+    setTimeout(() => {
+      document.getElementById('search-input').focus();
+    }, 250);
   };
 
   const handleOnCloseSearch = () => {

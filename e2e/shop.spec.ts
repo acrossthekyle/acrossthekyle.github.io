@@ -1,5 +1,7 @@
 import { test, expect } from '@playwright/test';
 
+test.describe.configure({ mode: 'serial' });
+
 test('loads', async ({ page }) => {
   await page.goto('/shop');
 
@@ -11,7 +13,7 @@ test('has items', async ({ page }) => {
 
   await expect(
     page.getByRole('heading', { level: 2, name: /Print/ }),
-  ).toHaveCount(8);
+  ).toHaveCount(9);
 });
 
 test('goes to details', async ({ page }) => {

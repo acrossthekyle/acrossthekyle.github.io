@@ -10,6 +10,8 @@ import MarkerIcon from './icons/marker';
 import Image from './image';
 
 type Marker = {
+  isPointOfOrigin?: boolean;
+  isPrivate: boolean;
   label?: string;
   left: string;
   top: string;
@@ -49,7 +51,8 @@ function World({ className = '', markers }: Props) {
           />
           {markers.map((marker, index) => {
             const props = {
-              className: styles.marker,
+              className:
+                `${styles.marker} ${marker.isPrivate ? styles.private : ''} ${marker.isPointOfOrigin ? styles.origin : ''}`.trim(),
               style: hasEnteredView
                 ? {
                     top: marker.top,

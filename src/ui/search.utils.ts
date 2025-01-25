@@ -1,3 +1,5 @@
+import { RESUME_URL } from '../constants';
+
 export function getAllUniqueTitles(posts) {
   return posts
     .getArray()
@@ -49,6 +51,28 @@ export function filterByQuery(
           results = [
             ...results,
             ...filterablePosts.filter(({ date }) => date.includes(lowered)),
+          ];
+        }
+
+        if (
+          [
+            'about',
+            'experience',
+            'hire',
+            'hiring',
+            'jobs',
+            'resume',
+            'work',
+          ].includes(lowered)
+        ) {
+          results = [
+            ...results,
+            {
+              date: '(Opens in a new tab/window)',
+              target: '_blank',
+              title: 'My Resume',
+              uri: RESUME_URL,
+            },
           ];
         }
 

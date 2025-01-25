@@ -1,6 +1,8 @@
 import Head from 'next/head';
 
 import styles from '@/styles/pages/about/index.module.scss';
+import GitHubLink from '@/ui/links/github';
+import ResumeLink from '@/ui/links/resume';
 import Post from '@/ui/post';
 import Gallery from '@/ui/post/gallery';
 import Hero from '@/ui/post/hero';
@@ -30,13 +32,11 @@ function Page() {
           "designing code", and it allows me to live this life. As a
           hobby/side-project I made some apps for garmin smartwatches.
         </p>
-        <p>
-          <blockquote>
-            The journey, rather than the destination, leaves the most impact and
-            I discover what I’m capable of after walking for days-on-end, miles
-            upon miles, and mountain pass after mountain pass.
-          </blockquote>
-        </p>
+        <blockquote>
+          The journey, rather than the destination, leaves the most impact and I
+          discover what I’m capable of after walking for days-on-end, miles upon
+          miles, and mountain pass after mountain pass.
+        </blockquote>
         <p>
           My first experience with thru-hiking was the Camino de Santiago, a 500
           mile trail, or Way (as it's called), in Northern Spain. It was a
@@ -59,31 +59,46 @@ function Page() {
           where I did the Camino de Santiago, and the Annapurna Circuit in
           Nepal, a place where I almost didn't make it.
         </p>
-        <p>Here's a map of (nearly) everywhere I've been since 2018:</p>
+        <p>Here's a map of (nearly) everywhere I've been:</p>
         <World
-          markers={posts.getArray().map(({ marker, title, uri }) => ({
-            ...marker,
-            label: title,
-            uri,
-          }))}
+          markers={[
+            ...posts
+              .getForMap()
+              .filter(({ marker }) => marker)
+              .map(({ isPrivate, marker, title, uri }) => ({
+                ...marker,
+                isPrivate,
+                label: title,
+                uri,
+              })),
+            // Chicago, IL, U.S.A.
+            {
+              isPointOfOrigin: true,
+              isPrivate: false,
+              label: 'Homebase',
+              left: '18%',
+              top: '23%',
+            },
+          ]}
         />
         <p>
           In my free time I like to take long walks along the lakefront trails
           in Chicago, as cliché as that may sound, and read a good fiction book.
-          I also enjoy playing the entire series of Halo (it's my favorite).
+          I also enjoy playing the entire series of Halo (it's my favorite), and
+          you can find me online at "Eyez Akimbo".
         </p>
         <Gallery
           images={['2024/06/28/9a2687f2-7a78-497d-87ca-3356ccd0fa36.jpeg']}
           title="Our dog Dax"
         />
-        <h3>What's next</h3>
+        <h3>Interested in working together?</h3>
         <p>
-          In July of 2024 I returned to Europe and re-hiked the Tour du Mont
-          Blanc, this time with my partner. It had been nearly six years since I
-          first thru-hiked it, and I hope to be able to repeat another
-          experience of mine from 2018 sometime soon and walk the Camino de
-          Santiago, maybe in the next year or two. There's also plans for making
-          a trip to Peru in the next year.
+          I'm always open to new opportunities, here's my <ResumeLink /> if
+          you're interested in working together on a web or native app using
+          React or React Native!
+        </p>
+        <p>
+          You can also view this websites' code over on <GitHubLink />.
         </p>
       </Post>
     </View>

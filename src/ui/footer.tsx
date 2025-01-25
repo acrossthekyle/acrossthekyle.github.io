@@ -5,10 +5,12 @@ import styles from '@/styles/ui/footer.module.scss';
 import posts from '../posts';
 
 import ContactForm from './contact';
-import GarminIcon from './icons/garmin';
+import WatchIcon from './icons/watch';
 import InstagramIcon from './icons/instagram';
 import ShopIcon from './icons/shop';
 import Image from './image';
+import GitHubLink from './links/github';
+import ResumeLink from './links/resume';
 import Tags from './tags';
 import Theme from './theme';
 
@@ -83,7 +85,7 @@ function Footer() {
           target="_blank"
           title="Garmin apps"
         >
-          <GarminIcon />
+          <WatchIcon />
         </a>
         <Link className={styles.link} href="/shop" title="Shop">
           <ShopIcon />
@@ -92,12 +94,12 @@ function Footer() {
       <div className={styles.bottom}>
         <span className={styles.copyright}>
           © 1987 - 2024{' '}
-          <a href="https://www.acrossthekyle.com">Kyle Gilbert</a>. All Rights
-          Reserved. Published with{' '}
-          <a href="https://vercel.com/" target="_blank" rel="noreferrer">
+          <Link href="https://www.acrossthekyle.com">Kyle Gilbert</Link>. All
+          Rights Reserved. View my <ResumeLink />. Published with{' '}
+          <Link href="https://vercel.com/" target="_blank" rel="noreferrer">
             Vercel
-          </a>
-          . See you out there.
+          </Link>
+          . View the code on <GitHubLink />. See you out there.
         </span>
         <Theme />
       </div>

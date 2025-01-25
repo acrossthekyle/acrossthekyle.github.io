@@ -10,6 +10,7 @@ export type Post = {
   date: string;
   gear?: string;
   image: string;
+  isPrivate: boolean;
   locationFull: string;
   locationShort: string;
   marker: {

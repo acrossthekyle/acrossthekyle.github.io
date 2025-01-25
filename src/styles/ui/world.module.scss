@@ -20,12 +20,26 @@
     position: absolute;
     top: -100%;
     transition: all 0.8s ease-in-out;
-    z-index: 2;
+    z-index: 3;
 
     svg {
       fill: var(--world-marker);
       height: 1rem;
       width: 1rem;
+    }
+  }
+
+  .origin {
+    svg {
+      fill: var(--world-marker-origin);
+    }
+  }
+
+  .private {
+    z-index: 2;
+
+    svg {
+      fill: var(--world-marker-private);
     }
   }
 

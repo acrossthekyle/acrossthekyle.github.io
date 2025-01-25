@@ -12,12 +12,10 @@ const post19: Post = {
   date: 'July 27th, 2024',
   gear: 'https://lighterpack.com/r/hpd82k',
   image: '2024/07/27/3.2-08F64C62-7FB2-4077-B012-00FB6EEF90CB.jpeg',
+  isPrivate: false,
   locationFull: 'Alpes, Europe',
   locationShort: 'Europe',
-  marker: {
-    left: '47%',
-    top: '22%',
-  },
+  marker: undefined,
   snippet: `It's been a wish of mine to be able to go back to the European Alpes and re-visit an old friend: the Tour du Mont Blanc.`,
   stages: [
     {
@@ -114,11 +112,12 @@ const post18: Post = {
   date: 'June 21st, 2023',
   gear: 'https://lighterpack.com/r/76sj40',
   image: '2023/06/21/273b1f88-962f-4011-8797-d21c640e73ff.jpeg',
+  isPrivate: false,
   locationFull: 'Corsica, France',
   locationShort: 'France',
   marker: {
-    left: '47%',
-    top: '26%',
+    left: '46.5%',
+    top: '24%',
   },
   snippet: `Billed as the most difficult trail in Europe, this Great Hike (or Grande Randonnee 20) was the last thru-hiking adventure on my list.`,
   stages: [
@@ -216,11 +215,12 @@ const post18: Post = {
 const post17: Post = {
   date: 'Dec 28th, 2022',
   image: '2023/12/28/48743d82-4d2e-418c-bf7c-7f37e56de4dd.jpeg',
+  isPrivate: false,
   locationFull: 'Cairo and Luxor',
   locationShort: 'Cairo and Luxor',
   marker: {
-    left: '54.5%',
-    top: '35%',
+    left: '54%',
+    top: '33%',
   },
   snippet: `I always dreamed that I would go to this place one day, and wander inside the many temples and pyramids.`,
   tags: 'vacation',
@@ -238,12 +238,10 @@ const post17: Post = {
 const post16: Post = {
   date: 'Sept 11th, 2022',
   image: '2022/09/11/b74f68ae-d627-4a89-9122-fbc75562e59d.jpeg',
+  isPrivate: false,
   locationFull: 'Rocky Mountains, Colorado',
   locationShort: 'Colorado',
-  marker: {
-    left: '12%',
-    top: '28%',
-  },
+  marker: undefined,
   snippet: `The initial ascent was so easy, I had almost forgotten that I was hiking up the second tallest peak in the Rocky Mountains.`,
   tags: 'summit,day hike',
   title: 'Summitting the second highest peak in the Rockies',
@@ -260,12 +258,10 @@ const post16: Post = {
 const post15: Post = {
   date: 'Sept 9th, 2022',
   image: '2022/09/09/f722df6c-2869-4ff0-80f7-37014241e135.jpeg',
+  isPrivate: false,
   locationFull: 'Rocky Mountains, Colorado',
   locationShort: 'Colorado',
-  marker: {
-    left: '12%',
-    top: '28%',
-  },
+  marker: undefined,
   snippet: `A mountain's summit trail rating usually indicates its level difficulty with 1 being not very difficult. Mt. Belford was rated as one of those.`,
   tags: 'summit,day hike',
   title: 'Pushing myself towards the summit of Mt. Belford',
@@ -283,11 +279,12 @@ const post14: Post = {
   date: 'May 7th, 2022',
   gear: 'https://lighterpack.com/r/ng8tzb',
   image: '2022/05/07/4a15a62a-a739-4ad9-83ff-3200e16c6bd5.jpeg',
+  isPrivate: false,
   locationFull: 'Highlands, Scotland',
   locationShort: 'Scotland',
   marker: {
-    left: '44%',
-    top: '15%',
+    left: '43.6%',
+    top: '13.4%',
   },
   snippet: `This trek would end up being my least favorite out of them all. I was not prepared enough for the amount of rainfall nearly every day.`,
   stages: [
@@ -343,12 +340,10 @@ const post14: Post = {
 const post13: Post = {
   date: 'Sept 9th, 2021',
   image: '2021/09/09/1e11830d-f313-4f15-85cf-a7dc23357b5d.jpeg',
+  isPrivate: false,
   locationFull: 'Rocky Mountains, Colorado',
   locationShort: 'Colorado',
-  marker: {
-    left: '12%',
-    top: '28%',
-  },
+  marker: undefined,
   snippet: `It's not very often that a single trail allows you to summit multiple mountain peaks in one day, and Decalibron is one of those trails.`,
   tags: 'summit,day hike',
   title: 'Summiting three mountain peaks before lunch',
@@ -365,12 +360,10 @@ const post13: Post = {
 const post12: Post = {
   date: 'Sept 7th, 2021',
   image: '2021/09/07/9c414ac6-cbce-4dd4-9e8a-ac3d36b9e833.jpeg',
+  isPrivate: false,
   locationFull: 'Rocky Mountains, Colorado',
   locationShort: 'Colorado',
-  marker: {
-    left: '12%',
-    top: '28%',
-  },
+  marker: undefined,
   snippet: `This was a tough one not only because we had to gain nearly 6,000 feet of elevation, but we also ran out of water on our way up.`,
   tags: 'summit,day hike',
   title: 'Running out of water while on Mt. Shavano',
@@ -387,12 +380,10 @@ const post12: Post = {
 const post11: Post = {
   date: 'Sept 6th, 2020',
   image: '2020/09/06/80307849-8964-4e0d-a70f-f6371ca7fcad.jpeg',
+  isPrivate: false,
   locationFull: 'Rocky Mountains, Colorado',
   locationShort: 'Colorado',
-  marker: {
-    left: '12%',
-    top: '28%',
-  },
+  marker: undefined,
   snippet: `This route started above the treeline, which I always love, and the beginning of the trail went through an elongated bowl-shaped valley.`,
   tags: 'summit,day hike',
   title: 'Ending my trip on a high note by summiting Grays Peak',
@@ -409,12 +400,10 @@ const post11: Post = {
 const post10: Post = {
   date: 'Sept 5th, 2020',
   image: '2020/09/05/54a89ed8-86d4-4918-b7b3-b883ecea72c8.jpeg',
+  isPrivate: false,
   locationFull: 'Rocky Mountains, Colorado',
   locationShort: 'Colorado',
-  marker: {
-    left: '12%',
-    top: '28%',
-  },
+  marker: undefined,
   snippet: `One of the more popular 14,000+ foot summits in Colorado due to its close proximity to Denver, this peak offers an easy route.`,
   tags: 'summit,day hike',
   title: 'Having a pleasantly easy hike up Mt. Bierstadt',
@@ -431,12 +420,10 @@ const post10: Post = {
 const post9: Post = {
   date: 'Sept 4th, 2020',
   image: '2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg',
+  isPrivate: false,
   locationFull: 'Rocky Mountains, Colorado',
   locationShort: 'Colorado',
-  marker: {
-    left: '12%',
-    top: '28%',
-  },
+  marker: undefined,
   snippet: `After a restless night of sleep, and a long trek through dense woods, the trail finally opened up to reveal a wall of rock full of switchbacks.`,
   tags: 'summit,day hike',
   title: 'Navigating ridges and switchbacks on La Plata Peak in Colorado',
@@ -454,11 +441,12 @@ const post8: Post = {
   date: 'Feb 18th, 2020',
   gear: 'https://lighterpack.com/r/bw0s1t',
   image: '2020/02/18/5e958df4-56a2-4292-ae6d-b694f078a985.jpeg',
+  isPrivate: false,
   locationFull: 'Patagonia, Chile',
   locationShort: 'Chile',
   marker: {
-    left: '26%',
-    top: '96%',
+    left: '25.8%',
+    top: '94.5%',
   },
   snippet: `Ever since my trip to Patagonia in 2016 I looked forward to returning one day to do the long distance hike around the national park.`,
   stages: [
@@ -527,11 +515,12 @@ const post7: Post = {
   date: 'Oct 19th, 2019',
   gear: 'https://lighterpack.com/r/f6hp0p',
   image: '2019/10/19/922fa9b2-fff3-4457-b0b4-18dc26c0b2b8.jpeg',
+  isPrivate: false,
   locationFull: 'Himalayas, Nepal',
   locationShort: 'Nepal',
   marker: {
-    left: '71.5%',
-    top: '37%',
+    left: '71.3%',
+    top: '32%',
   },
   snippet: `After having done three thru-hikes so far, each within a variety of elevations, I decided that I was ready to go on an adventure.`,
   stages: [
@@ -659,12 +648,10 @@ const post7: Post = {
 const post6: Post = {
   date: 'Sept 1st, 2019',
   image: '2019/09/01/1cd21f68-72d8-457d-8558-d98b63755d8c.jpeg',
+  isPrivate: false,
   locationFull: 'Rocky Mountains, Colorado',
   locationShort: 'Colorado',
-  marker: {
-    left: '12%',
-    top: '28%',
-  },
+  marker: undefined,
   snippet: `Most of the trail was in the woods, and a lot of the portions consisted of switchbacks made up of stairs carved out of the rock.`,
   tags: 'summit,day hike',
   title: 'Discovering a new outdoor passion on Quandary Peak',
@@ -681,6 +668,7 @@ const post6: Post = {
 const post5: Post = {
   date: 'Aug 31st, 2019',
   image: '2019/08/31/8cac350f-f71e-4d78-b394-05ab790f1c1a.jpeg',
+  isPrivate: false,
   locationFull: 'Rocky Mountains, Colorado',
   locationShort: 'Colorado',
   marker: {
@@ -704,11 +692,12 @@ const post4: Post = {
   date: 'July 16th, 2019',
   gear: 'https://lighterpack.com/r/kolkui',
   image: '2019/07/16/c4d424d9-7826-422d-9e0f-1b7e8b20af99.jpeg',
+  isPrivate: false,
   locationFull: 'Dolomites, Italy',
   locationShort: 'Italy',
   marker: {
-    left: '48%',
-    top: '22%',
+    left: '47.75%',
+    top: '21%',
   },
   snippet: `When I started looking into thru-hikes I came across a list of the best in the world, and the Alta Via 1 was one of them.`,
   stages: [
@@ -789,11 +778,12 @@ const post3: Post = {
   date: 'Sept 2nd, 2018',
   gear: 'https://lighterpack.com/r/yi7qss',
   image: '2018/09/02/2c1912f7-c571-4a3a-8240-0e602c9e8e47.jpeg',
+  isPrivate: false,
   locationFull: 'Alpes, Europe',
   locationShort: 'Europe',
   marker: {
-    left: '47%',
-    top: '22%',
+    left: '47.1%',
+    top: '20%',
   },
   snippet: `Way before I set foot on the Camino in Spain, I had already committed myself to doing another thru-hike in Europe.`,
   stages: [
@@ -886,11 +876,12 @@ const post2: Post = {
   date: 'June 2nd, 2018',
   gear: 'https://lighterpack.com/r/p1be03',
   image: '2018/06/02/42f8785d-32c0-4446-9a39-d88aa028e407.jpeg',
+  isPrivate: false,
   locationFull: 'Camino Frances, Spain',
   locationShort: 'Spain',
   marker: {
-    left: '42.7%',
-    top: '24.5%',
+    left: '42.3%',
+    top: '23%',
   },
   snippet: `Years after returning from South America the travelling spark was re-ignited, and on a whim, I purchased a one-way flight to Spain.`,
   stages: [
@@ -1102,6 +1093,7 @@ const post2: Post = {
 const post1: Post = {
   date: 'Mar 18th, 2016',
   image: '2016/03/16/a3205d70-0fc8-416a-b383-eb08e9e612a5.jpeg',
+  isPrivate: false,
   locationFull: 'Santiago and Patagonia, Chile',
   locationShort: 'Santiago and Patagonia',
   marker: {
@@ -1136,8 +1128,80 @@ const posts = {
     post3,
     post2,
     post1,
+
+    /************************/
+    //
+    // Geneva Switzerland
+    //
+    /************************/
+
+    {
+      date: 'July 24th, 2024',
+      image: '',
+      isPrivate: true,
+      locationFull: 'Geneva, Switzerland',
+      locationShort: 'Geneva',
+      marker: {
+        left: '46.1%',
+        top: '18.5%',
+      },
+      snippet: '',
+      tags: '',
+      title: 'Playing tourist in Geneva, Switzerland',
+      titleShort: 'Playing tourist in Geneva',
+      uri: '',
+    },
+
+    /************************/
+    //
+    // Buenos Aires / Montevideo
+    //
+    /************************/
+
+    {
+      date: 'Mar 20th, 2015',
+      image: '',
+      isPrivate: true,
+      locationFull: 'Buenos Aires, Argentina and Montevideo, Uruguay',
+      locationShort: 'Argentina and Uruguay',
+      marker: {
+        left: '26.5%',
+        top: '81%',
+      },
+      snippet: '',
+      tags: '',
+      title: 'Exploring Buenos Aires and Montevideo',
+      titleShort: 'Buenos Aires and Montevideo',
+      uri: '',
+    },
+
+    /************************/
+    //
+    // Cancun
+    //
+    /************************/
+
+    {
+      date: 'Jan 12th, 2015',
+      image: '',
+      isPrivate: true,
+      locationFull: 'Cancun, Mexico',
+      locationShort: 'Cancun',
+      marker: {
+        left: '15.9%',
+        top: '39%',
+      },
+      snippet: '',
+      tags: '',
+      title: 'Vacationing in Cancun, Mexico',
+      titleShort: 'Vacationing in Cancun',
+      uri: '',
+    },
   ],
   getItems: function () {
+    return [...this.items.filter(({ isPrivate }) => !isPrivate)];
+  },
+  getForMap: function () {
     return [...this.items];
   },
   getArray: function () {

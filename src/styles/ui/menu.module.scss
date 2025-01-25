@@ -172,8 +172,10 @@
         }
 
         .footer {
+          align-items: center;
           display: flex;
           bottom: 5rem;
+          flex-direction: column;
           justify-content: center;
           left: 0;
           position: absolute;
@@ -184,7 +186,7 @@
           button {
             font-size: 0.75rem;
             font-weight: 500;
-            margin: 0 1rem;
+            margin: 1.5rem 1rem 0;
             text-transform: uppercase;
           }
         }

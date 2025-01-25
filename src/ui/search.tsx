@@ -76,15 +76,17 @@ function Search({ isSearching, onClose }: Props) {
             value={query}
           />
         </div>
-        <div className={styles.results} data-active={results.length > 0}>
-          <h4
-            aria-label={`Found ${results.length} search results`}
-            className={styles.total}
-          >
-            {`Found ${results.length}`}
-          </h4>
+        <div className={styles.results}>
+          {!!query && (
+            <h4
+              aria-label={`Found ${results.length} search results`}
+              className={styles.total}
+            >
+              {`Found ${results.length} results`}
+            </h4>
+          )}
           <div role="list">
-            {results.map(({ date, title, uri }) => (
+            {results.map(({ date, target, title, uri }) => (
               <Link
                 aria-label={`${title} ${date}`}
                 className={styles.result}
@@ -92,6 +94,7 @@ function Search({ isSearching, onClose }: Props) {
                 onClick={onClose}
                 key={uri}
                 role="listitem"
+                target={target ?? undefined}
               >
                 <div aria-hidden="true" className={styles.title}>
                   {title}

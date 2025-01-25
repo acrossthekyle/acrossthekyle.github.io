@@ -6,6 +6,8 @@ import { useRouter } from 'next/router';
 
 import styles from '@/styles/ui/menu.module.scss';
 
+import GitHubLink from './links/github';
+import ResumeLink from './links/resume';
 import Theme from './theme';
 
 function Menu() {
@@ -108,6 +110,8 @@ function Menu() {
                 </li>
               </ul>
               <div className={styles.footer}>
+                <ResumeLink />
+                <GitHubLink />
                 <Theme />
               </div>
             </div>

@@ -13,7 +13,7 @@
     "precommit-msg": "echo 'Pre-commit checks...' && exit 0",
     "test": "jest",
     "e2e": "npx playwright test",
-    "e2e:start": "build && start"
+    "e2e:start": "next build && next start"
   },
   "dependencies": {
     "@formspree/react": "^2.5.1",

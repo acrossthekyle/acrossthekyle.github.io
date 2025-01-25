@@ -3,9 +3,9 @@ import Link from 'next/link';
 
 import styles from '@/styles/pages/home/index.module.scss';
 import { Post } from '@/types/post';
-import GarminIcon from '@/ui/icons/garmin';
 import InstagramIcon from '@/ui/icons/instagram';
 import ShopIcon from '@/ui/icons/shop';
+import WatchIcon from '@/ui/icons/watch';
 import Figure from '@/ui/figure';
 import Image from '@/ui/image';
 import Masonry from '@/ui/masonry';
@@ -33,7 +33,7 @@ function Page() {
         <h1 className={styles.title}>Kyle Gilbert</h1>
         <p className={styles.text}>
           My name is Kyle Gilbert. I'm a thru-hiker / programmer based in
-          Chicago, and I backpack around the world.
+          Chicago, and I like to go backpacking all around the world.
         </p>
         <div className={styles.links}>
           <a
@@ -43,7 +43,7 @@ function Page() {
             target="_blank"
             title="Instagram"
           >
-            <InstagramIcon />
+            <InstagramIcon /> Instagram
           </a>
           <a
             className={styles.link}
@@ -52,10 +52,10 @@ function Page() {
             target="_blank"
             title="Garmin apps"
           >
-            <GarminIcon />
+            <WatchIcon className={styles.icon} /> Garmin Apps
           </a>
           <Link className={styles.link} href="/shop" title="Shop">
-            <ShopIcon />
+            <ShopIcon /> Shop Prints
           </Link>
         </div>
       </div>

@@ -49,19 +49,28 @@
       .link {
         align-items: center;
         background: var(--home-about-link-background);
-        border-radius: 50%;
+        color: var(--home-about-link-icon);
+        border-radius: 1rem;
         display: flex;
+        font-size: 0.75rem;
         height: 1.9rem;
         justify-content: center;
-        margin: 0 0.2rem;
+        margin: 0 0.25rem;
+        padding: 1rem 1rem 0.975rem;
+        text-transform: uppercase;
         transition: all 0.4s ease;
-        width: 1.9rem;
 
         svg {
           fill: var(--home-about-link-icon);
           height: 0.75rem;
+          margin-right: 0.3rem;
           transition: all 0.4s ease;
           width: 0.75rem;
+        }
+
+        .icon {
+          height: 0.95rem;
+          width: 0.95rem;
         }
 
         @include on.hover {
@@ -79,6 +88,18 @@
     .header {
       .text {
         padding: 0 1rem;
+      }
+    }
+  }
+
+  @include screen.tiny {
+    .header {
+      .links {
+        flex-direction: column;
+
+        .link {
+          margin-bottom: 1rem;
+        }
       }
     }
   }
