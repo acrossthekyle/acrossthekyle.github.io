@@ -37,6 +37,7 @@ function Page() {
           discover what I’m capable of after walking for days-on-end, miles upon
           miles, and mountain pass after mountain pass.
         </blockquote>
+        <h3>Thru-Hiking</h3>
         <p>
           My first experience with thru-hiking was the Camino de Santiago, a 500
           mile trail, or Way (as it's called), in Northern Spain. It was a
@@ -81,11 +82,12 @@ function Page() {
             },
           ]}
         />
+        <h3>Off-Trail Life</h3>
         <p>
           In my free time I like to take long walks along the lakefront trails
           in Chicago, as cliché as that may sound, and read a good fiction book.
-          I also enjoy playing the entire series of Halo (it's my favorite), and
-          you can find me online at "Eyez Akimbo".
+          I also enjoy playing the entire Halo series (it's my favorite) on
+          XBOX, and you can find me online at "Eyez Akimbo".
         </p>
         <Gallery
           images={['2024/06/28/9a2687f2-7a78-497d-87ca-3356ccd0fa36.jpeg']}
@@ -95,11 +97,14 @@ function Page() {
         <p>
           I'm always open to new opportunities, here's my <ResumeLink /> if
           you're interested in working together on a web or native app using
-          React or React Native!
+          React or React Native! Feel free to{' '}
+          <a href="mailto:hello@acrossthekyle.com">send me an email</a> if you
+          want to know more.
         </p>
         <p>
           You can also view this websites' code over on <GitHubLink />.
         </p>
+        <p>See you out there!</p>
       </Post>
     </View>
   );

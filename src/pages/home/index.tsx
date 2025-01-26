@@ -3,6 +3,7 @@ import Link from 'next/link';
 
 import styles from '@/styles/pages/home/index.module.scss';
 import { Post } from '@/types/post';
+import External from '@/ui/external';
 import InstagramIcon from '@/ui/icons/instagram';
 import ShopIcon from '@/ui/icons/shop';
 import WatchIcon from '@/ui/icons/watch';
@@ -12,6 +13,7 @@ import Masonry from '@/ui/masonry';
 import View from '@/ui/view';
 import Skeleton from '@/ui/skeleton';
 
+import { ABOUT_ME_BLURB } from '../../constants';
 import posts from '../../posts';
 
 function Page() {
@@ -31,32 +33,34 @@ function Page() {
           />
         </Link>
         <h1 className={styles.title}>Kyle Gilbert</h1>
-        <p className={styles.text}>
-          My name is Kyle Gilbert. I'm a thru-hiker / programmer based in
-          Chicago, and I like to go backpacking all around the world.
-        </p>
+        <p className={styles.text}>{ABOUT_ME_BLURB}</p>
         <div className={styles.links}>
-          <a
-            className={styles.link}
-            href="https://instagram.com/acrossthekyle"
-            rel="noreferrer"
-            target="_blank"
-            title="Instagram"
-          >
-            <InstagramIcon /> Instagram
-          </a>
-          <a
-            className={styles.link}
-            href="https://apps.garmin.com/en-US/developer/f796f8e5-5034-44c2-99a7-21d319c6c728/apps"
-            rel="noreferrer"
-            target="_blank"
-            title="Garmin apps"
-          >
-            <WatchIcon className={styles.icon} /> Garmin Apps
-          </a>
-          <Link className={styles.link} href="/shop" title="Shop">
-            <ShopIcon /> Shop Prints
+          <Link className={styles.link} href="/shop" title="Shop prints">
+            <ShopIcon />
+            <span className={styles.site}>Shop</span>
           </Link>
+          <External
+            className={styles.link}
+            text={
+              <>
+                <InstagramIcon />
+                <span className={styles.site}>Instagram</span>
+              </>
+            }
+            title="Instagram"
+            url="https://instagram.com/acrossthekyle"
+          />
+          <External
+            className={styles.link}
+            text={
+              <>
+                <WatchIcon className={styles.icon} />
+                <span className={styles.site}>Garmin</span>
+              </>
+            }
+            title="Garmin apps"
+            url="https://apps.garmin.com/en-US/developer/f796f8e5-5034-44c2-99a7-21d319c6c728/apps"
+          />
         </div>
       </div>
       <Masonry

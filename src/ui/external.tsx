@@ -1,17 +1,27 @@
+import { ReactNode } from 'react';
+
 import styles from '@/styles/ui/link.module.scss';
 
 import ArrowIcon from './icons/arrow';
 
 type Props = {
-  text: string;
+  className?: string;
+  text: string | ReactNode | ReactNode[];
+  title?: string;
   url: string;
 };
 
-function External({ text, url }: Props) {
+function External({ className, text, title, url }: Props) {
   return (
-    <a className={styles.link} href={url} target="_blank" rel="noreferrer">
+    <a
+      className={`${styles.link} ${className || ''}`.trim()}
+      href={url}
+      rel="noreferrer"
+      target="_blank"
+      title={title}
+    >
       {text}
-      <ArrowIcon right />
+      <ArrowIcon className={styles.rotated} right />
     </a>
   );
 }

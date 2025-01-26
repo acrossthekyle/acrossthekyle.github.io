@@ -2,6 +2,7 @@ import Link from 'next/link';
 
 import styles from '@/styles/ui/footer.module.scss';
 
+import { ABOUT_ME_BLURB } from '../constants';
 import posts from '../posts';
 
 import ContactForm from './contact';
@@ -20,10 +21,7 @@ function Footer() {
       <div className={styles.columns}>
         <div className={styles.column}>
           <h3>About Me</h3>
-          <p>
-            My name is Kyle Gilbert. I'm a thru-hiker / programmer based in
-            Chicago, and I backpack around the world.
-          </p>
+          <p>{ABOUT_ME_BLURB}</p>
           <h3>Tags</h3>
           <Tags
             className={styles.tags}

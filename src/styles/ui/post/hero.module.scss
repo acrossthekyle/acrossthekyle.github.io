@@ -3,7 +3,6 @@
 .hero {
   border-radius: 0.125rem;
   height: 80vh;
-  margin: 0 auto;
   overflow: hidden;
   position: relative;
   max-width: var(--max-width);
@@ -15,9 +14,5 @@
     object-fit: cover;
     position: relative;
     width: 100%;
-  }
-
-  @include screen.small {
-    height: 54vh;
   }
 }
