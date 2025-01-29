@@ -50,7 +50,6 @@
         align-content: center;
         align-items: center;
         background: var(--home-about-link-background);
-        color: var(--home-about-link-icon);
         border-radius: 1rem;
         display: flex;
         font-size: 0.75rem;
@@ -84,6 +83,7 @@
         }
 
         .site {
+          color: var(--home-about-link-icon);
           opacity: 0;
           position: absolute;
           right: -10rem;
@@ -108,6 +108,7 @@
           }
 
           .site {
+            color: var(--home-about-link-hover-icon);
             opacity: 1;
             position: relative;
             right: auto;
