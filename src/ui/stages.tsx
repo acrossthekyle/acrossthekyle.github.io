@@ -3,10 +3,27 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 
+import { GARMIN_URL } from '../constants';
 import posts from '../posts';
 import { getPostIdAndStageFromUriSegment } from '../utils';
 
 import Timeline from './timeline';
+
+function getUri(path: string, index: number, garmin?: string) {
+  if (garmin) {
+    return `${GARMIN_URL}${garmin}`;
+  }
+
+  return `${path.indexOf('#') > -1 ? path.substring(0, path.indexOf('#')) : path}/${String(index + 1).padStart(2, '0')}`;
+}
+
+function getCtaText(garmin?: string) {
+  if (garmin) {
+    return 'View Route on Garmin.com';
+  }
+
+  return 'View';
+}
 
 function Stages() {
   const router = useRouter();
@@ -44,11 +61,13 @@ function Stages() {
 
   return (
     <Timeline
-      segments={post.stages.map((stage) => ({
+      indexPrefix="Day"
+      segments={post.stages.map((stage, index) => ({
         ...stage,
-        date: stage.dateShort,
+        cta: getCtaText(stage.garmin),
+        eyeBrow: stage.dateShort,
+        uri: getUri(router.asPath, index, stage.garmin),
       }))}
-      title="Stages"
     />
   );
 }

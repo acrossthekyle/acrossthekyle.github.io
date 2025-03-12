@@ -8,6 +8,7 @@ import styles from '@/styles/ui/menu.module.scss';
 
 import GitHubLink from './links/github';
 import ResumeLink from './links/resume';
+import Navigation from './navigation';
 import Theme from './theme';
 
 function Menu() {
@@ -80,35 +81,10 @@ function Menu() {
                 <div aria-hidden="true" className={styles.icon} />
               </button>
               <h2 id="menuHeading">Menu</h2>
-              <ul>
-                <li>
-                  <Link
-                    className={styles.link}
-                    href="/"
-                    onClick={handleOnLinkClick}
-                  >
-                    Home
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className={styles.link}
-                    href="/about"
-                    onClick={handleOnLinkClick}
-                  >
-                    About
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    className={styles.link}
-                    href="/shop"
-                    onClick={handleOnLinkClick}
-                  >
-                    Shop
-                  </Link>
-                </li>
-              </ul>
+              <Navigation
+                linkClassName={styles.link}
+                onClick={handleOnLinkClick}
+              />
               <div className={styles.footer}>
                 <ResumeLink />
                 <GitHubLink />

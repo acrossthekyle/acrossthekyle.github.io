@@ -1,0 +1,22 @@
+@use 'styles/mixins/_on' as on;
+@use 'styles/mixins/_screen' as screen;
+
+.view {
+  .heading {
+    color: var(--text);
+    margin: 0 auto;
+    margin-bottom: 2.25rem;
+    position: relative;
+  }
+
+  .paragraph {
+    color: var(--text);
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-bottom: 3.25rem;
+    max-width: 30rem;
+    padding: 0 2rem;
+    position: relative;
+    text-align: center;
+  }
+}

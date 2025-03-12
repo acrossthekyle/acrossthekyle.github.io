@@ -11,6 +11,7 @@ import Footer from './footer';
 import CloseIcon from './icons/close';
 import SearchIcon from './icons/search';
 import Menu from './menu';
+import Navigation from './navigation';
 import Scroll from './scroll';
 import Search from './search';
 
@@ -96,17 +97,10 @@ function View({ children, className = '' }: Props) {
               </div>
               <nav className={styles.nav}>
                 <div className={styles.wrapper}>
-                  <ul className={styles.links}>
-                    <li className={styles.link}>
-                      <Link href="/">Home</Link>
-                    </li>
-                    <li className={styles.link}>
-                      <Link href="/about">About</Link>
-                    </li>
-                    <li className={styles.link}>
-                      <Link href="/shop">Shop</Link>
-                    </li>
-                  </ul>
+                  <Navigation
+                    containerClassName={styles.links}
+                    linkClassName={styles.link}
+                  />
                 </div>
               </nav>
               <div className={styles.search}>

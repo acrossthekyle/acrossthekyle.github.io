@@ -29,7 +29,7 @@
     position: relative;
     width: 100%;
 
-    .date {
+    .index {
       color: var(--text);
       font-size: 1rem;
       font-weight: 400;
@@ -40,7 +40,7 @@
       width: 50%;
       z-index: 1;
 
-      .day {
+      .number {
         color: var(--timeline-day);
         font-size: 3.25rem;
         font-weight: 900;
@@ -76,12 +76,22 @@
         margin-bottom: 0.25rem;
       }
 
-      h3 {
+      h3,
+      h4 {
         color: var(--text);
-        font-size: 1.25rem;
-        line-height: 1.4rem;
         margin: 0;
         padding: 0;
+      }
+
+      h3 {
+        font-size: 1.25rem;
+        line-height: 1.4rem;
+      }
+
+      h4 {
+        color: var(--text-dimmed);
+        font-size: 0.85rem;
+        line-height: 1.4rem;
       }
     }
 
@@ -92,12 +102,12 @@
     &:nth-child(odd) {
       justify-content: flex-end;
 
-      .date {
+      .index {
         left: 0;
         padding-right: 2rem;
         text-align: right;
 
-        .day {
+        .number {
           left: auto;
           right: 2rem;
         }
@@ -112,7 +122,7 @@
     &:nth-child(even) {
       justify-content: flex-start;
 
-      .date {
+      .index {
         left: 50%;
         margin-left: 2rem;
       }
@@ -137,11 +147,11 @@
         left: 1rem;
       }
 
-      .date {
+      .index {
         position: relative;
         width: calc(100% - 3rem);
 
-        .day {
+        .number {
           font-size: 2.75rem;
         }
       }
@@ -157,9 +167,14 @@
           margin-bottom: 0.5rem;
         }
 
-        h3 {
+        h3,
+        h4 {
           font-size: 1.1rem;
           line-height: 1.5rem;
+        }
+
+        h4 {
+          font-size: 0.75rem;
         }
 
         .more {
@@ -171,13 +186,13 @@
       &:nth-child(odd) {
         justify-content: flex-start;
 
-        .date {
+        .index {
           left: 3rem;
           padding-right: 0;
           text-align: left;
           top: -0.9rem;
 
-          .day {
+          .number {
             left: 0;
             top: auto;
             position: relative;
@@ -193,12 +208,12 @@
       }
 
       &:nth-child(even) {
-        .date {
+        .index {
           left: 3rem;
           margin-left: 0;
           top: -0.9rem;
 
-          .day {
+          .number {
             left: 0;
             top: auto;
             position: relative;
