@@ -3,6 +3,7 @@
     "baseUrl": "src/",
     "paths": {
       "@/contexts/*": ["contexts/*"],
+      "@/data/*": ["data/*"],
       "@/styles/*": ["styles/*"],
       "@/types/*": ["types/*"],
       "@/ui/*": ["ui/*"]
