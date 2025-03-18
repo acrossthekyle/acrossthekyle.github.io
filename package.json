@@ -49,7 +49,7 @@
   },
   "pre-commit": [
     "precommit-msg",
-    "format",
+    "format:fix",
     "build",
     "test"
   ]
