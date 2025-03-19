@@ -1,14 +1,15 @@
 import Head from 'next/head';
 
+import { usePrintsData } from '@/data/prints';
 import styles from '@/styles/pages/shop/index.module.scss';
-import { Print } from '@/types/print';
 import Figure from '@/ui/figure';
+import Loading from '@/ui/loading';
 import Masonry from '@/ui/masonry';
 import View from '@/ui/view';
 
-import prints from '../../prints';
-
 function Page() {
+  const { data, isLoading } = usePrintsData();
+
   return (
     <View className={styles.view}>
       <Head>
@@ -22,17 +23,20 @@ function Page() {
         captured by me while marching through forests and over mountain-tops, or
         inspired by the nature of this planet.
       </p>
-      <Masonry
-        items={prints.getItems()}
-        renderItem={(item: Print, index: number) => (
-          <Figure
-            image={item.image}
-            preview={item.snippet}
-            title={item.title}
-            uri={item.uri}
-          />
-        )}
-      />
+      {isLoading && <Loading />}
+      {!isLoading && (
+        <Masonry
+          items={data}
+          renderItem={(item, index: number) => (
+            <Figure
+              image={item.image}
+              preview={item.snippet}
+              title={item.title}
+              uri={item.uri}
+            />
+          )}
+        />
+      )}
     </View>
   );
 }

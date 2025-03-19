@@ -1,8 +1,7 @@
 export type Print = {
   image: string;
-  mocks?: string[];
   paymentLinks: string[];
+  slug: string;
   snippet: string;
   title: string;
-  uri: string;
 };

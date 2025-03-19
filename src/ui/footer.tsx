@@ -1,9 +1,9 @@
 import Link from 'next/link';
 
+import { usePostsTagsData, useRecentPostsData } from '@/data/posts';
 import styles from '@/styles/ui/footer.module.scss';
 
 import { ABOUT_ME_BLURB } from '../constants';
-import posts from '../posts';
 
 import ContactForm from './contact';
 import WatchIcon from './icons/watch';
@@ -12,10 +12,14 @@ import ShopIcon from './icons/shop';
 import Image from './image';
 import GitHubLink from './links/github';
 import ResumeLink from './links/resume';
+import Loading from './loading';
 import Tags from './tags';
 import Theme from './theme';
 
 function Footer() {
+  const { data: tags, isLoading: isTagsLoading } = usePostsTagsData();
+  const { data, isLoading } = useRecentPostsData();
+
   return (
     <footer className={styles.footer}>
       <div className={styles.columns}>
@@ -23,42 +27,44 @@ function Footer() {
           <h3>About Me</h3>
           <p>{ABOUT_ME_BLURB}</p>
           <h3>Tags</h3>
-          <Tags
-            className={styles.tags}
-            items={posts.getTags()}
-            mode="secondary"
-          />
+          {isTagsLoading && <Loading />}
+          {!isTagsLoading && (
+            <Tags className={styles.tags} items={tags} mode="secondary" />
+          )}
         </div>
         <div className={styles.column}>
           <h3>Recent Posts</h3>
-          {posts
-            .getRecents()
-            .map(({ date, image, uri, title }, index: number) => (
-              <figure className={styles.recent} key={title}>
-                <Link className={styles.image} href={uri}>
-                  <Image
-                    alt=""
-                    aria-describedby={`post${index}`}
-                    height={80}
-                    quality={40}
-                    sizes="15vw"
-                    src={image}
-                    width={80}
-                  />
-                </Link>
-                <span aria-hidden="true" className={styles.count}>
-                  {index + 1}
-                </span>
-                <figcaption className={styles.caption}>
-                  <span className={styles.date}>{date}</span>
-                  <h2 id={`recent${index}`}>
-                    <Link className={styles.title} href={uri}>
-                      {title}
-                    </Link>
-                  </h2>
-                </figcaption>
-              </figure>
-            ))}
+          {isLoading && <Loading />}
+          {!isLoading && (
+            <>
+              {data.map(({ date, image, title, uri }, index: number) => (
+                <figure className={styles.recent} key={title}>
+                  <Link className={styles.image} href={uri}>
+                    <Image
+                      alt=""
+                      aria-describedby={`post${index}`}
+                      height={80}
+                      quality={40}
+                      sizes="15vw"
+                      src={image}
+                      width={80}
+                    />
+                  </Link>
+                  <span aria-hidden="true" className={styles.count}>
+                    {index + 1}
+                  </span>
+                  <figcaption className={styles.caption}>
+                    <span className={styles.date}>{date}</span>
+                    <h2 id={`recent${index}`}>
+                      <Link className={styles.title} href={uri}>
+                        {title}
+                      </Link>
+                    </h2>
+                  </figcaption>
+                </figure>
+              ))}
+            </>
+          )}
         </div>
         <div className={styles.column}>
           <h3>Contact</h3>

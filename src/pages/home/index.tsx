@@ -1,22 +1,24 @@
 import Head from 'next/head';
 import Link from 'next/link';
 
+import { usePostsData } from '@/data/posts';
 import styles from '@/styles/pages/home/index.module.scss';
-import { Post } from '@/types/post';
 import External from '@/ui/external';
 import InstagramIcon from '@/ui/icons/instagram';
 import ShopIcon from '@/ui/icons/shop';
 import WatchIcon from '@/ui/icons/watch';
 import Figure from '@/ui/figure';
 import Image from '@/ui/image';
+import Loading from '@/ui/loading';
 import Masonry from '@/ui/masonry';
 import View from '@/ui/view';
 import Skeleton from '@/ui/skeleton';
 
 import { ABOUT_ME_BLURB } from '../../constants';
-import posts from '../../posts';
 
 function Page() {
+  const { data, isLoading } = usePostsData();
+
   return (
     <View className={styles.view}>
       <Head>
@@ -63,19 +65,22 @@ function Page() {
           />
         </div>
       </div>
-      <Masonry
-        items={posts.getItems()}
-        renderItem={(item: Post, index: number) => (
-          <Figure
-            date={item.date}
-            image={item.image}
-            preview={item.snippet}
-            tags={item.tags.split(',')}
-            title={item.title}
-            uri={item.uri}
-          />
-        )}
-      />
+      {isLoading && <Loading />}
+      {!isLoading && (
+        <Masonry
+          items={data}
+          renderItem={(item, index: number) => (
+            <Figure
+              date={item.date}
+              image={item.image}
+              preview={item.snippet}
+              tags={item.tags}
+              title={item.title}
+              uri={item.uri}
+            />
+          )}
+        />
+      )}
     </View>
   );
 }

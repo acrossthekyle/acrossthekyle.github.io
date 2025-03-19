@@ -1,13 +1,13 @@
 import Head from 'next/head';
 
-import usePacksData from '@/data/packs';
+import { usePacksData } from '@/data/packs';
 import styles from '@/styles/pages/packs/index.module.scss';
 import Loading from '@/ui/loading';
 import Timeline from '@/ui/timeline';
 import View from '@/ui/view';
 
 function Page() {
-  const { isLoading, packs } = usePacksData();
+  const { data, isLoading } = usePacksData();
 
   return (
     <View className={styles.view}>
@@ -20,8 +20,16 @@ function Page() {
         trek needs its own set of gear. Here's all of the gear loadouts with
         links and weights.
       </p>
-      {!isLoading && <Timeline segments={packs} />}
       {isLoading && <Loading />}
+      {!isLoading && (
+        <Timeline
+          segments={data.map((result) => ({
+            eyeBrow: result.type,
+            title: result.title,
+            uri: result.url,
+          }))}
+        />
+      )}
     </View>
   );
 }

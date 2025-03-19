@@ -3,16 +3,14 @@
 import { ReactNode, useState } from 'react';
 
 import styles from '@/styles/ui/masonry.module.scss';
-import { Post } from '@/types/post';
-import { Print } from '@/types/print';
 
 import Button from './button';
 
 const PAGE_SIZE = 9;
 
 type Props = {
-  items: Array<Post | Print>;
-  renderItem: (item: Post | Print, index: number) => ReactNode;
+  items: any[];
+  renderItem: (item, index: number) => ReactNode;
 };
 
 function Masonry({ items, renderItem }: Props) {

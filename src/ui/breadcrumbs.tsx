@@ -18,7 +18,7 @@ function Breadcrumbs({ className = '', items }: Props) {
       role="navigation"
     >
       {items.map(({ text, uri }) => (
-        <li className={styles.breadcrumb} key={text}>
+        <li className={styles.breadcrumb} key={`${text}-${uri}`}>
           {uri && (
             <Link href={uri}>
               <span>{text}</span>

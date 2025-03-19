@@ -1,10 +1,10 @@
 import { kebabCase } from 'lodash';
 import { useEffect, useState } from 'react';
-import { InView } from 'react-intersection-observer';
 import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
+import { usePrintData } from '@/data/print';
 import styles from '@/styles/pages/shop/prints.module.scss';
 import Frame from '@/ui/shop/frame';
 import Breadcrumbs from '@/ui/breadcrumbs';
@@ -12,33 +12,22 @@ import Button from '@/ui/button';
 import Checkmark from '@/ui/icons/checkmark';
 import Dialog from '@/ui/dialog';
 import Image from '@/ui/image';
-import Internal from '@/ui/internal';
+import Loading from '@/ui/loading';
 import View from '@/ui/view';
-
-import prints from '../../../prints';
 
 function Page() {
   const [canAlert, setCanAlert] = useState(false);
-  const [item, setItem] = useState(null);
   const [frame, setFrame] = useState(null);
 
-  const { asPath, push } = useRouter();
+  const { push } = useRouter();
+
+  const { data, hasError, isLoading } = usePrintData();
 
   useEffect(() => {
-    if (item === null) {
-      const parts = asPath.split('/prints/');
-
-      if (parts[1] !== '[slug]') {
-        const result = prints.getById(parts[1]);
-
-        if (result === undefined) {
-          push('/shop');
-        } else {
-          setItem(result);
-        }
-      }
+    if (hasError) {
+      push('/shop');
     }
-  }, [asPath, item, push]);
+  }, [hasError, push]);
 
   const handleOnFrameClick = (index: number) => {
     setFrame(index);
@@ -54,14 +43,21 @@ function Page() {
     document.getElementById('purchase').focus();
   };
 
-  if (item === null) {
-    return;
+  if (isLoading) {
+    return (
+      <View className={styles.view}>
+        <Head>
+          <title>Kyle &mdash; Shop</title>
+        </Head>
+        <Loading />
+      </View>
+    );
   }
 
   return (
     <View className={styles.view}>
       <Head>
-        <title>Kyle &mdash; Shop | {item.title}</title>
+        <title>Kyle &mdash; Shop | {data.title}</title>
       </Head>
       <Dialog
         isRenderable={canAlert}
@@ -75,23 +71,23 @@ function Page() {
             uri: '/shop',
           },
           {
-            text: item.title,
+            text: data.title,
           },
         ]}
       />
       <div className={styles.wrapper}>
         <div className={styles.image}>
           <Image
-            alt={item.title}
+            alt={data.title}
             height={432}
             sizes="(max-width: 768px) 100vw, 50vw"
-            src={item.image}
+            src={data.image}
             width={768}
           />
         </div>
         <div className={styles.content}>
           <div className={styles.centered}>
-            <h1 className={styles.item}>{item.title}</h1>
+            <h1 className={styles.item}>{data.title}</h1>
             {(frame === 0 || frame === null) && (
               <h5
                 aria-label="Available sizes: five inches by seven inches up to eighteen inches by twenty four inches"
@@ -155,7 +151,7 @@ function Page() {
                     ? 'Purchase'
                     : 'Purchase (opens in a new tab/window)'
                 }
-                href={item.paymentLinks[frame]}
+                href={frame === null ? '' : data.paymentLinks[frame]}
                 id="purchase"
                 onClick={frame === null && handleOnNullFramePress}
                 text="Purchase"
