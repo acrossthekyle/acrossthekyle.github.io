@@ -1,8 +1,10 @@
 import Head from 'next/head';
 
+import { usePostsForMapData } from '@/data/posts';
 import styles from '@/styles/pages/about/index.module.scss';
 import GitHubLink from '@/ui/links/github';
 import ResumeLink from '@/ui/links/resume';
+import Loading from '@/ui/loading';
 import Post from '@/ui/post';
 import Gallery from '@/ui/post/gallery';
 import Hero from '@/ui/post/hero';
@@ -10,9 +12,9 @@ import Title from '@/ui/post/title';
 import View from '@/ui/view';
 import World from '@/ui/world';
 
-import posts from '../../posts';
-
 function Page() {
+  const { data, isLoading, isReady } = usePostsForMapData();
+
   return (
     <View>
       <Head>
@@ -61,27 +63,8 @@ function Page() {
           Nepal, a place where I almost didn't make it.
         </p>
         <p>Here's a map of (nearly) everywhere I've been:</p>
-        <World
-          markers={[
-            ...posts
-              .getForMap()
-              .filter(({ marker }) => marker)
-              .map(({ isPrivate, marker, title, uri }) => ({
-                ...marker,
-                isPrivate,
-                label: title,
-                uri,
-              })),
-            // Chicago, IL, U.S.A.
-            {
-              isPointOfOrigin: true,
-              isPrivate: false,
-              label: 'Homebase',
-              left: '18%',
-              top: '23%',
-            },
-          ]}
-        />
+        {isLoading && <Loading />}
+        {isReady && <World markers={data} />}
         <h3>Off-Trail Life</h3>
         <p>
           In my free time I like to take long walks along the lakefront trails

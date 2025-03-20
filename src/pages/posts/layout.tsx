@@ -1,13 +1,10 @@
 'use client';
 
-import { ReactNode, useEffect, useState } from 'react';
+import { ReactNode } from 'react';
 import Head from 'next/head';
-import { useRouter } from 'next/router';
 
+import { usePostData } from '@/data/posts';
 import styles from '@/styles/pages/posts/index.module.scss';
-
-import posts from '../../posts';
-import { getPostIdAndStageFromUriSegment } from '../../utils';
 
 import Post from '@/ui/post';
 import Hero from '@/ui/post/hero';
@@ -20,76 +17,32 @@ type Props = {
 };
 
 function Layout({ children }: Props) {
-  const [post, setPost] = useState(null);
-  const [stage, setStage] = useState(undefined);
+  const { data, isReady } = usePostData();
 
-  const route = useRouter().asPath;
-
-  useEffect(() => {
-    setPost(null);
-    setStage(undefined);
-  }, [route]);
-
-  useEffect(() => {
-    if (post === null && stage === undefined) {
-      const { id, stageIndex } = getPostIdAndStageFromUriSegment(
-        route.split('/posts/'),
-      );
-
-      setPost(posts.getById(id));
-      setStage(stageIndex > -1 ? posts.getStage(id, stageIndex) : undefined);
-    }
-  }, [post, route, stage]);
-
-  if (!post) {
+  if (!isReady) {
     return null;
   }
 
   return (
     <View className={styles.view}>
       <Head>
-        <title>
-          Kyle &mdash; Travels | {post.title}
-          {stage !== undefined && ` - ${stage.title}`}
-        </title>
+        <title>Kyle &mdash; Travels | {data.titleCombined}</title>
       </Head>
       <Title
-        context={[stage?.dateFull || post.date, post.gear]}
-        crumbs={
-          stage !== undefined && [
-            {
-              text: post.title,
-              uri: post.uri,
-            },
-            {
-              text: 'Timeline',
-              uri: `${post.uri}#timeline`,
-            },
-            {
-              text: `Day ${stage.index + 1}`,
-            },
-          ]
-        }
-        tags={post.tags}
-        title={stage?.title || post.title}
-        uri={post.uri}
+        context={[data.date, data.gear]}
+        crumbs={data.breadcrumbs}
+        tags={data.tags}
+        title={data.title}
+        uri={data.uri}
       />
-      <Hero image={stage?.image || post.image} />
+      <Hero image={data.image} />
       <Post>
         {children}
         <Navigation
-          newer={
-            stage === undefined
-              ? posts.getNewer(post)
-              : posts.getStageNext(post, stage)
-          }
-          newerLabel={stage === undefined ? undefined : 'Next Day'}
-          older={
-            stage === undefined
-              ? posts.getOlder(post)
-              : posts.getStagePrevious(post, stage)
-          }
-          olderLabel={stage === undefined ? undefined : 'Previous Day'}
+          newer={data.newer}
+          newerLabel={!data.hasStage ? undefined : 'Next Day'}
+          older={data.older}
+          olderLabel={!data.hasStage ? undefined : 'Previous Day'}
         />
       </Post>
     </View>

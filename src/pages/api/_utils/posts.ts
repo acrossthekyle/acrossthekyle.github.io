@@ -1,45 +1,39 @@
-import { RESUME_URL } from '../constants';
+import type { Post } from '@/types/post';
 
-export function getAllUniqueTitles(posts) {
+import { RESUME_URL } from '../../../constants';
+
+type QueriedPosts = {
+  date: string;
+  title: string;
+  uri: string;
+};
+
+export function getPublicPosts(posts: Post[]): Post[] {
+  return posts.filter(({ isPrivate }) => !isPrivate);
+}
+
+export function getUniquePostTitles(posts: Post[]): string[] {
   return posts
-    .getArray()
     .map(({ title }) => title.toLowerCase())
     .filter((value, index, items) => items.indexOf(value) === index);
 }
 
-export function getAllUniqueLocations(posts) {
+export function getUniquePostLocations(posts: Post[]): string[] {
   return posts
-    .getArray()
     .map(({ locationFull }) => locationFull.toLowerCase())
     .filter((value, index, items) => items.indexOf(value) === index);
 }
 
-export function uniqueResults(results, key) {
-  const uniqueResults = new Set();
-
-  return results.filter((item) => {
-    const value = item[key];
-
-    if (!uniqueResults.has(value)) {
-      uniqueResults.add(value);
-
-      return true;
-    }
-
-    return false;
-  });
-}
-
-export function filterByQuery(
+export function filterPostsByQuery(
   query: string,
-  posts,
+  posts: Post[],
   titles: string[],
   locations: string[],
-) {
+): QueriedPosts[] {
   let results = [];
 
   if (!!query.trim()) {
-    const filterablePosts = [...posts.getArray()];
+    const filterablePosts = [...posts];
 
     query
       .trim()
@@ -69,7 +63,6 @@ export function filterByQuery(
             ...results,
             {
               date: '(Opens in a new tab/window)',
-              target: '_blank',
               title: 'My Resume',
               uri: RESUME_URL,
             },
@@ -107,5 +100,25 @@ export function filterByQuery(
       });
   }
 
-  return uniqueResults(results, 'uri');
+  return results.map(({ date, title, uri }) => ({
+    date,
+    title,
+    uri,
+  }));
+}
+
+export function getUniqueSearchResults(results: QueriedPosts[], key: string) {
+  const uniqueResults = new Set();
+
+  return results.filter((item) => {
+    const value = item[key];
+
+    if (!uniqueResults.has(value)) {
+      uniqueResults.add(value);
+
+      return true;
+    }
+
+    return false;
+  });
 }

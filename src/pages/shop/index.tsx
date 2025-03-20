@@ -8,7 +8,7 @@ import Masonry from '@/ui/masonry';
 import View from '@/ui/view';
 
 function Page() {
-  const { data, isLoading } = usePrintsData();
+  const { data, isLoading, isReady } = usePrintsData();
 
   return (
     <View className={styles.view}>
@@ -24,7 +24,7 @@ function Page() {
         inspired by the nature of this planet.
       </p>
       {isLoading && <Loading />}
-      {!isLoading && (
+      {isReady && (
         <Masonry
           items={data}
           renderItem={(item, index: number) => (

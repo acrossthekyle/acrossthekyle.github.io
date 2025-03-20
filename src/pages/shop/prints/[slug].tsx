@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
-import { usePrintData } from '@/data/print';
+import { usePrintData } from '@/data/prints';
 import styles from '@/styles/pages/shop/prints.module.scss';
 import Frame from '@/ui/shop/frame';
 import Breadcrumbs from '@/ui/breadcrumbs';
@@ -21,7 +21,7 @@ function Page() {
 
   const { push } = useRouter();
 
-  const { data, hasError, isLoading } = usePrintData();
+  const { data, hasError, isLoading, isReady } = usePrintData();
 
   useEffect(() => {
     if (hasError) {
@@ -52,6 +52,10 @@ function Page() {
         <Loading />
       </View>
     );
+  }
+
+  if (!isReady) {
+    return null;
   }
 
   return (

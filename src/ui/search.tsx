@@ -3,35 +3,26 @@
 import { ChangeEvent, useEffect, useState } from 'react';
 import Link from 'next/link';
 
+import { useSearchPostsData } from '@/data/posts';
 import styles from '@/styles/ui/search.module.scss';
 
-import posts from '../posts';
-
 import CloseIcon from './icons/close';
-import {
-  filterByQuery,
-  getAllUniqueLocations,
-  getAllUniqueTitles,
-} from './search.utils';
+import Loading from './loading';
 
 type Props = {
   isSearching: boolean;
   onClose: () => void;
 };
 
-const LOCATIONS = getAllUniqueLocations(posts);
-const TITLES = getAllUniqueTitles(posts);
-
 function Search({ isSearching, onClose }: Props) {
   const [query, updateQuery] = useState('');
-  const [results, setResults] = useState([]);
 
-  const filterPostsByQuery = () => {
-    setResults(filterByQuery(query, posts, TITLES, LOCATIONS));
-  };
+  const { data, isLoading, isReady, search } = useSearchPostsData();
 
   useEffect(() => {
-    filterPostsByQuery();
+    if (!!query) {
+      search(query);
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [query]);
 
@@ -64,7 +55,7 @@ function Search({ isSearching, onClose }: Props) {
             id="search-label"
             htmlFor="search-input"
           >
-            Search for Post
+            Search for Posts
           </label>
           <input
             autoComplete="off"
@@ -77,34 +68,41 @@ function Search({ isSearching, onClose }: Props) {
           />
         </div>
         <div className={styles.results}>
-          {!!query && (
-            <h4
-              aria-label={`Found ${results.length} search results`}
-              className={styles.total}
-            >
-              {`Found ${results.length} results`}
-            </h4>
-          )}
-          <div role="list">
-            {results.map(({ date, target, title, uri }) => (
-              <Link
-                aria-label={`${title} ${date}`}
-                className={styles.result}
-                href={uri}
-                onClick={onClose}
-                key={uri}
-                role="listitem"
-                target={target ?? undefined}
+          {isLoading && <Loading />}
+          {isReady && !!query && (
+            <>
+              <h4
+                aria-label={`Found ${data.total} search results`}
+                className={styles.total}
               >
-                <div aria-hidden="true" className={styles.title}>
-                  {title}
-                </div>
-                <span aria-hidden="true" className={styles.date}>
-                  <time>{date}</time>
-                </span>
-              </Link>
-            ))}
-          </div>
+                {`Found ${data.total} results`}
+              </h4>
+              <div role="list">
+                {data.results.map(({ date, title, uri }) => (
+                  <Link
+                    aria-label={`${title} ${date}`}
+                    className={styles.result}
+                    href={uri}
+                    onClick={onClose}
+                    key={uri}
+                    role="listitem"
+                    target={
+                      title.toLowerCase().includes('resume')
+                        ? '_blank'
+                        : '_self'
+                    }
+                  >
+                    <div aria-hidden="true" className={styles.title}>
+                      {title}
+                    </div>
+                    <span aria-hidden="true" className={styles.date}>
+                      <time>{date}</time>
+                    </span>
+                  </Link>
+                ))}
+              </div>
+            </>
+          )}
         </div>
       </div>
     </div>

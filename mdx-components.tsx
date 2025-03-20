@@ -2,7 +2,6 @@ import { isValidElement } from 'react';
 import { type MDXComponents } from 'mdx/types';
 import Link from 'next/link';
 
-import posts from './src/posts';
 import Checklist from './src/ui/checklist';
 import Lighterpack from './src/ui/lighterpack';
 import Stages from './src/ui/stages';
@@ -13,12 +12,6 @@ import Gallery from './src/ui/post/gallery';
 export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
     a: ({ children, href }) => {
-      if (/^\d+$/.test(href)) {
-        return (
-          <Link href={posts.getByIndex(Number(href)).uri}>{children}</Link>
-        );
-      }
-
       return <Link href={href}>{children}</Link>;
     },
     p: ({ children }) => {

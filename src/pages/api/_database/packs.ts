@@ -1,4 +1,6 @@
-const data = [
+import type { Pack } from '@/types/pack';
+
+const data: Pack[] = [
   {
     slug: 'j9gvo1',
     title: 'Overnight Backpacking',

@@ -17,8 +17,12 @@ import Tags from './tags';
 import Theme from './theme';
 
 function Footer() {
-  const { data: tags, isLoading: isTagsLoading } = usePostsTagsData();
-  const { data, isLoading } = useRecentPostsData();
+  const {
+    data: tags,
+    isLoading: isTagsLoading,
+    isReady: isTagsReady,
+  } = usePostsTagsData();
+  const { data, isLoading, isReady } = useRecentPostsData();
 
   return (
     <footer className={styles.footer}>
@@ -28,14 +32,14 @@ function Footer() {
           <p>{ABOUT_ME_BLURB}</p>
           <h3>Tags</h3>
           {isTagsLoading && <Loading />}
-          {!isTagsLoading && (
+          {isTagsReady && (
             <Tags className={styles.tags} items={tags} mode="secondary" />
           )}
         </div>
         <div className={styles.column}>
           <h3>Recent Posts</h3>
           {isLoading && <Loading />}
-          {!isLoading && (
+          {isReady && (
             <>
               {data.map(({ date, image, title, uri }, index: number) => (
                 <figure className={styles.recent} key={title}>

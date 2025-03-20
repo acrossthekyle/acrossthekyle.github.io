@@ -1,4 +1,6 @@
-const data = [
+import type { Print } from '@/types/print';
+
+const data: Print[] = [
   {
     image: 'ad8f9626-62ba-4bfd-8675-c3531266631a.jpeg',
     paymentLinks: [

@@ -1,18 +1,26 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
+import { useEffect } from 'react';
 
+import { usePostsByTagData } from '@/data/posts';
 import styles from '@/styles/pages/tags/index.module.scss';
-import { Post } from '@/types/post';
 import Figure from '@/ui/figure';
 import Masonry from '@/ui/masonry';
 import View from '@/ui/view';
 
-import posts from '../../posts';
-
 function Page() {
   const { query } = useRouter();
 
-  const all = posts.getItems().filter(({ tags }) => tags.includes(query.tag));
+  const { data, getByTag, isReady } = usePostsByTagData();
+
+  useEffect(() => {
+    getByTag((Array.isArray(query.tag) ? query.tag : [query.tag]).join(' '));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [query]);
+
+  if (!isReady) {
+    return null;
+  }
 
   return (
     <View className={styles.view}>
@@ -20,17 +28,20 @@ function Page() {
         <title>Kyle &mdash; Posts | Tagged "{query.tag}"</title>
       </Head>
       <h1 className={styles.header}>{query.tag}</h1>
-      <p className={styles.total}>{`${all.length} Posts`}</p>
+      <p className={styles.total}>{`${data.total} Posts`}</p>
       <Masonry
-        items={all}
-        renderItem={(item: Post, index: number) => (
+        items={data.results}
+        renderItem={(
+          { date, image, snippet, tags, title, uri },
+          index: number,
+        ) => (
           <Figure
-            date={item.date}
-            image={item.image}
-            preview={item.snippet}
-            tags={item.tags.split(',')}
-            title={item.title}
-            uri={item.uri}
+            date={date}
+            image={image}
+            preview={snippet}
+            tags={tags}
+            title={title}
+            uri={uri}
           />
         )}
       />

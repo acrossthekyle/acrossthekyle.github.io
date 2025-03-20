@@ -2,7 +2,6 @@ import Link from 'next/link';
 
 import styles from '@/styles/ui/post/navigation.module.scss';
 
-import posts from '../../posts';
 import ArrowIcon from '../icons/arrow';
 import Image from '../image';
 

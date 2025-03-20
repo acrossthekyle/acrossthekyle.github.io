@@ -1,4 +1,4 @@
-import { Post } from '@/types/post';
+import type { Post } from '@/types/post';
 
 /************************/
 //
@@ -1105,7 +1105,7 @@ const post1: Post = {
   uri: '/posts/discovering-backpacking-in-chile',
 };
 
-const data = [
+const data: Post[] = [
   post19,
   post18,
   post17,

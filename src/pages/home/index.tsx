@@ -17,7 +17,7 @@ import Skeleton from '@/ui/skeleton';
 import { ABOUT_ME_BLURB } from '../../constants';
 
 function Page() {
-  const { data, isLoading } = usePostsData();
+  const { data, isLoading, isReady } = usePostsData();
 
   return (
     <View className={styles.view}>
@@ -66,7 +66,7 @@ function Page() {
         </div>
       </div>
       {isLoading && <Loading />}
-      {!isLoading && (
+      {isReady && (
         <Masonry
           items={data}
           renderItem={(item, index: number) => (

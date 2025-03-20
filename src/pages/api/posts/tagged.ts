@@ -7,8 +7,17 @@ export default function handler(
   request: NextApiRequest,
   response: NextApiResponse,
 ) {
-  response.status(200).json(
-    getPublicPosts(data).map(({ date, image, snippet, tags, title, uri }) => ({
+  const results = getPublicPosts(data).filter(({ tags }) =>
+    tags.includes(
+      (Array.isArray(request.query.tag)
+        ? request.query.tag
+        : [request.query.tag]
+      ).join(' '),
+    ),
+  );
+
+  response.status(200).json({
+    results: results.map(({ date, image, snippet, tags, title, uri }) => ({
       date,
       image,
       snippet,
@@ -16,5 +25,6 @@ export default function handler(
       title,
       uri,
     })),
-  );
+    total: results.length,
+  });
 }

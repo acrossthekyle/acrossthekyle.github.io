@@ -3,9 +3,9 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 
+import { usePostStagesData } from '@/data/posts';
+
 import { GARMIN_URL } from '../constants';
-import posts from '../posts';
-import { getPostIdAndStageFromUriSegment } from '../utils';
 
 import Timeline from './timeline';
 
@@ -28,23 +28,21 @@ function getCtaText(garmin?: string) {
 function Stages() {
   const router = useRouter();
 
-  const [post, setPost] = useState(null);
   const [scrollToTimeline, setScrollToTimeline] = useState(false);
+
+  const { data, isReady } = usePostStagesData();
 
   useEffect(() => {
     if (router.isReady) {
       const base = router.asPath.split('/posts/');
 
-      const { id } = getPostIdAndStageFromUriSegment(base);
-
-      setPost(posts.getById(id));
       setScrollToTimeline(base[1].indexOf('#timeline') > -1);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [router.isReady]);
 
   useEffect(() => {
-    if (post && scrollToTimeline) {
+    if (isReady && scrollToTimeline) {
       const content = document.getElementById('timeline');
 
       if (content) {
@@ -53,20 +51,20 @@ function Stages() {
         });
       }
     }
-  }, [post, scrollToTimeline]);
+  }, [isReady, scrollToTimeline]);
 
-  if (!post) {
+  if (!isReady) {
     return null;
   }
 
   return (
     <Timeline
       indexPrefix="Day"
-      segments={post.stages.map((stage, index) => ({
-        ...stage,
-        cta: getCtaText(stage.garmin),
-        eyeBrow: stage.dateShort,
-        uri: getUri(router.asPath, index, stage.garmin),
+      segments={data.map(({ dateShort, garmin, title }, index) => ({
+        cta: getCtaText(garmin),
+        eyeBrow: dateShort,
+        title,
+        uri: getUri(router.asPath, index, garmin),
       }))}
     />
   );

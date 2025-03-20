@@ -7,7 +7,7 @@ import Timeline from '@/ui/timeline';
 import View from '@/ui/view';
 
 function Page() {
-  const { data, isLoading } = usePacksData();
+  const { data, isLoading, isReady } = usePacksData();
 
   return (
     <View className={styles.view}>
@@ -21,7 +21,7 @@ function Page() {
         links and weights.
       </p>
       {isLoading && <Loading />}
-      {!isLoading && (
+      {isReady && (
         <Timeline
           segments={data.map((result) => ({
             eyeBrow: result.type,

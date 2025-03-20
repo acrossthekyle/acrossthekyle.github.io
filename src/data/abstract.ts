@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 
 export const useFetch = (uri?: string) => {
   const [hasError, setHasError] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
   const [data, setData] = useState(null);
 
   const fetchData = async (endpoint: string) => {
@@ -37,7 +37,9 @@ export const useFetch = (uri?: string) => {
   return {
     data,
     fetchData,
-    hasError,
+    hasError: !isLoading && hasError,
+    isEmpty: !isLoading && !hasError && data === null,
     isLoading,
+    isReady: !isLoading && !hasError && data !== null,
   };
 };
