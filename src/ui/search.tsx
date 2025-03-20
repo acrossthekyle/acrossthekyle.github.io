@@ -1,6 +1,7 @@
 'use client';
 
-import { ChangeEvent, useEffect, useState } from 'react';
+import { debounce } from 'lodash';
+import { ChangeEvent, useCallback, useEffect, useState } from 'react';
 import Link from 'next/link';
 
 import { useSearchPostsData } from '@/data/posts';
@@ -21,10 +22,12 @@ function Search({ isSearching, onClose }: Props) {
 
   useEffect(() => {
     if (!!query) {
-      search(query);
+      handleSearch(query);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [query]);
+
+  const handleSearch = useCallback(debounce(search, 300), []);
 
   const handleOnSearch = (event: ChangeEvent<HTMLInputElement>) => {
     updateQuery((event.target as HTMLInputElement).value.toLowerCase());
