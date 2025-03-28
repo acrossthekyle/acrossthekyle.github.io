@@ -42,7 +42,7 @@ function Page() {
             date={date}
             image={image}
             preview={snippet}
-            tags={(Array.isArray(tags) ? tags : tags.split(','))}
+            tags={Array.isArray(tags) ? tags : tags.split(',')}
             title={title}
             uri={uri}
           />

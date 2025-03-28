@@ -45,10 +45,13 @@ export const useViewModel = () => {
     handleOnLegendClick(pack.categories[index].category);
   };
 
-  const handleOnChartHover = useCallback((label: string) => {
-    setHoveredCategory(label);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [hoveredCategory]);
+  const handleOnChartHover = useCallback(
+    (label: string) => {
+      setHoveredCategory(label);
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+    },
+    [hoveredCategory],
+  );
 
   const handleOnLegendClick = (category: string) => {
     const content = document.getElementById(category);
@@ -71,16 +74,19 @@ export const useViewModel = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [canRenderPacks]);
 
-  const handleOnUnitsClick = useCallback((value: string) => {
-    setUnits(value);
+  const handleOnUnitsClick = useCallback(
+    (value: string) => {
+      setUnits(value);
 
-    getPacks(value);
+      getPacks(value);
 
-    const parts = window.location.href.split('?units=');
+      const parts = window.location.href.split('?units=');
 
-    router.push(`${parts[0]}?units=${value}`);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [units]);
+      router.push(`${parts[0]}?units=${value}`);
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+    },
+    [units],
+  );
 
   return {
     canRenderPacks,
@@ -118,11 +124,13 @@ export const useChartViewModel = ({
 
   return {
     data: {
-      datasets: [{
-        backgroundColor: CATEGORY_COLORS,
-        borderColor: 'transparent',
-        data,
-      }],
+      datasets: [
+        {
+          backgroundColor: CATEGORY_COLORS,
+          borderColor: 'transparent',
+          data,
+        },
+      ],
       labels,
     },
     options: {
@@ -146,11 +154,11 @@ export const useChartViewModel = ({
         },
         tooltip: {
           callbacks: {
-            label: function(context) {
+            label: function (context) {
               onHover(context.label);
 
               return `${context.raw} ${units === 'metric' ? 'kg' : 'lbs'}`;
-            }
+            },
           },
           displayColors: false,
         },

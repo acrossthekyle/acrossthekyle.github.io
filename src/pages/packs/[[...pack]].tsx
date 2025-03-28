@@ -90,10 +90,7 @@ function Page() {
                   weightWorn={pack.weightWorn}
                 />
               </div>
-              <Categories
-                categories={pack.categories}
-                units={units}
-              />
+              <Categories categories={pack.categories} units={units} />
             </div>
           )}
         </div>

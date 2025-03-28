@@ -24,7 +24,10 @@ export default function handler(
       const items = convertWeightPerItem(result.items, isMetric);
 
       return {
-        categories: calculateWeightPerCategory(groupByCategory(items), isMetric),
+        categories: calculateWeightPerCategory(
+          groupByCategory(items),
+          isMetric,
+        ),
         slug: result.slug,
         title: result.title,
         type: result.type,

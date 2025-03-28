@@ -34,38 +34,44 @@ function Legend({
       <ul>
         <li className={styles.header}>
           <span>Category</span>
-          <span>Weight <small>{unitsLabel}</small></span>
+          <span>
+            Weight <small>{unitsLabel}</small>
+          </span>
         </li>
         {(categories || []).map(({ category, weight }, index: number) => (
-          <li
-            data-active={hoveredCategory === category}
-            key={category}
-          >
+          <li data-active={hoveredCategory === category} key={category}>
             <span style={{ backgroundColor: CATEGORY_COLORS[index] }} />
-            <button
-              onClick={() => onClick(category)}
-              type="button"
-            >
+            <button onClick={() => onClick(category)} type="button">
               {category}
             </button>
-            <div>{weight} <small>{unitsLabel}</small></div>
+            <div>
+              {weight} <small>{unitsLabel}</small>
+            </div>
           </li>
         ))}
         <li className={`${styles.total} ${styles.bordered}`}>
           <span>Total</span>
-          <span>{weightTotal} <small>{unitsLabel}</small></span>
+          <span>
+            {weightTotal} <small>{unitsLabel}</small>
+          </span>
         </li>
         <li className={styles.total}>
           <span>Consumable</span>
-          <span>{weightConsumable} <small>{unitsLabel}</small></span>
+          <span>
+            {weightConsumable} <small>{unitsLabel}</small>
+          </span>
         </li>
         <li className={styles.total}>
           <span>Worn</span>
-          <span>{weightWorn} <small>{unitsLabel}</small></span>
+          <span>
+            {weightWorn} <small>{unitsLabel}</small>
+          </span>
         </li>
         <li className={styles.total}>
           <span>Base</span>
-          <span>{weightBase} <small>{unitsLabel}</small></span>
+          <span>
+            {weightBase} <small>{unitsLabel}</small>
+          </span>
         </li>
       </ul>
     </div>

@@ -5,10 +5,7 @@ import type { PackCategory } from '@/types/packs';
 import LinkIcon from '@/ui/icons/link';
 
 import { CATEGORY_COLORS } from '../../constants';
-import {
-  getUnitsLabelForGroup,
-  getUnitsLabelForItem,
-} from '../../utils';
+import { getUnitsLabelForGroup, getUnitsLabelForItem } from '../../utils';
 
 type Props = {
   categories?: PackCategory[];
@@ -29,30 +26,34 @@ function Categories({ categories, units }: Props) {
             aria-hidden="true"
             className={styles.color}
             style={{
-              backgroundColor: CATEGORY_COLORS[categoryIndex]
+              backgroundColor: CATEGORY_COLORS[categoryIndex],
             }}
           />
           <ul className={styles.category}>
-            {category.items.map(({ link, name, type, weight }, itemIndex: number) => (
-              <li className={styles.items} key={itemIndex}>
-                <div className={styles.text}>
-                  <div className={styles.type}>
-                    {type}
-                    {!!link && (
-                      <Link className={styles.link} href={link} target="_blank">
-                        <LinkIcon />
-                      </Link>
-                    )}
+            {category.items.map(
+              ({ link, name, type, weight }, itemIndex: number) => (
+                <li className={styles.items} key={itemIndex}>
+                  <div className={styles.text}>
+                    <div className={styles.type}>
+                      {type}
+                      {!!link && (
+                        <Link
+                          className={styles.link}
+                          href={link}
+                          target="_blank"
+                        >
+                          <LinkIcon />
+                        </Link>
+                      )}
+                    </div>
+                    <div className={styles.name}>{name}</div>
                   </div>
-                  <div className={styles.name}>
-                    {name}
+                  <div className={styles.weight}>
+                    {weight} <small>{getUnitsLabelForItem(units)}</small>
                   </div>
-                </div>
-                <div className={styles.weight}>
-                  {weight} <small>{getUnitsLabelForItem(units)}</small>
-                </div>
-              </li>
-            ))}
+                </li>
+              ),
+            )}
             <li className={styles.total}>
               <div className={styles.weight}>
                 {category.weight} <small>{getUnitsLabelForGroup(units)}</small>
