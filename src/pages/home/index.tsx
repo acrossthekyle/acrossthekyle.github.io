@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { usePostsData } from '@/data/posts';
 import styles from '@/styles/pages/home/index.module.scss';
 import External from '@/ui/external';
+import type { Post } from '@/types/post';
 import InstagramIcon from '@/ui/icons/instagram';
 import ShopIcon from '@/ui/icons/shop';
 import WatchIcon from '@/ui/icons/watch';
@@ -69,12 +70,12 @@ function Page() {
       {isReady && (
         <Masonry
           items={data}
-          renderItem={(item, index: number) => (
+          renderItem={(item: Post, index: number) => (
             <Figure
               date={item.date}
               image={item.image}
               preview={item.snippet}
-              tags={item.tags}
+              tags={(Array.isArray(item.tags) ? item.tags : item.tags.split(','))}
               title={item.title}
               uri={item.uri}
             />

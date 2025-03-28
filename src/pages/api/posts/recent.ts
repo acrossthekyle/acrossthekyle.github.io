@@ -1,11 +1,13 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 
+import type { PostsRecentApiResponse } from '@/types/post';
+
 import data from '../_database/posts';
 import { getPublicPosts } from '../_utils/posts';
 
 export default function handler(
   request: NextApiRequest,
-  response: NextApiResponse,
+  response: NextApiResponse<PostsRecentApiResponse[]>,
 ) {
   const filtered = getPublicPosts(data);
 

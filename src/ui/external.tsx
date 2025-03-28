@@ -11,9 +11,10 @@ type Props = {
   url: string;
 };
 
-function External({ className, text, title, url }: Props) {
+function External({ className, text, title, url, ...rest }: Props) {
   return (
     <a
+      {...rest}
       className={`${styles.link} ${className || ''}`.trim()}
       href={url}
       rel="noreferrer"

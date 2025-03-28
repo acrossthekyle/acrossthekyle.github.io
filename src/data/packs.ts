@@ -3,5 +3,14 @@
 import { useFetch } from './abstract';
 
 export const usePacksData = () => {
-  return useFetch('/api/packs');
+  const { fetchData, ...rest } = useFetch();
+
+  const getPacks = (units?: string) => {
+    fetchData(`/api/packs?units=${units || 'imperial'}`);
+  };
+
+  return {
+    ...rest,
+    getPacks,
+  };
 };

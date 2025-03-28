@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import { usePrintsData } from '@/data/prints';
 import styles from '@/styles/pages/shop/index.module.scss';
+import type { Print } from '@/types/print';
 import Figure from '@/ui/figure';
 import Loading from '@/ui/loading';
 import Masonry from '@/ui/masonry';
@@ -27,7 +28,7 @@ function Page() {
       {isReady && (
         <Masonry
           items={data}
-          renderItem={(item, index: number) => (
+          renderItem={(item: Print, index: number) => (
             <Figure
               image={item.image}
               preview={item.snippet}

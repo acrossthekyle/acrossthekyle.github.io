@@ -1,9 +1,12 @@
+'use client';
+
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 
 import { usePostsByTagData } from '@/data/posts';
 import styles from '@/styles/pages/tags/index.module.scss';
+import type { Post } from '@/types/post';
 import Figure from '@/ui/figure';
 import Masonry from '@/ui/masonry';
 import View from '@/ui/view';
@@ -32,14 +35,14 @@ function Page() {
       <Masonry
         items={data.results}
         renderItem={(
-          { date, image, snippet, tags, title, uri },
+          { date, image, snippet, tags, title, uri }: Post,
           index: number,
         ) => (
           <Figure
             date={date}
             image={image}
             preview={snippet}
-            tags={tags}
+            tags={(Array.isArray(tags) ? tags : tags.split(','))}
             title={title}
             uri={uri}
           />

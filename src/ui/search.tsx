@@ -27,6 +27,7 @@ function Search({ isSearching, onClose }: Props) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [query]);
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const handleSearch = useCallback(debounce(search, 300), []);
 
   const handleOnSearch = (event: ChangeEvent<HTMLInputElement>) => {

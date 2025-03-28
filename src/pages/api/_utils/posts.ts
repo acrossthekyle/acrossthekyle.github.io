@@ -1,12 +1,6 @@
-import type { Post } from '@/types/post';
+import type { Post, QueriedPosts } from '@/types/post';
 
 import { RESUME_URL } from '../../../constants';
-
-type QueriedPosts = {
-  date: string;
-  title: string;
-  uri: string;
-};
 
 export function getPublicPosts(posts: Post[]): Post[] {
   return posts.filter(({ isPrivate }) => !isPrivate);

@@ -1,5 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 
+import type { PostsSearchApiResponse } from '@/types/post';
+
 import data from '../_database/posts';
 import {
   filterPostsByQuery,
@@ -11,7 +13,7 @@ import {
 
 export default function handler(
   request: NextApiRequest,
-  response: NextApiResponse,
+  response: NextApiResponse<PostsSearchApiResponse>,
 ) {
   const posts = getPublicPosts(data);
 

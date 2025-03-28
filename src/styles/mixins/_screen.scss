@@ -11,13 +11,19 @@
 }
 
 @mixin smedium {
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 865px) {
     @content;
   }
 }
 
 @mixin small {
   @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin little {
+  @media screen and (max-width: 639px) {
     @content;
   }
 }

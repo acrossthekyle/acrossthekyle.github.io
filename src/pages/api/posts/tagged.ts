@@ -1,11 +1,13 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 
+import type { PostsTaggedApiResponse } from '@/types/post';
+
 import data from '../_database/posts';
 import { getPublicPosts } from '../_utils/posts';
 
 export default function handler(
   request: NextApiRequest,
-  response: NextApiResponse,
+  response: NextApiResponse<PostsTaggedApiResponse>,
 ) {
   const results = getPublicPosts(data).filter(({ tags }) =>
     tags.includes(

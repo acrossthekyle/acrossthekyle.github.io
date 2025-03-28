@@ -11,7 +11,7 @@
   transition:
     opacity 0.5s ease-in-out 0s,
     right 0s ease 0.5s;
-  z-index: 1;
+  z-index: 4;
 
   &[data-active='true'] {
     opacity: 0.75;

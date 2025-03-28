@@ -1,10 +1,12 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 
+import type { PostsMapApiResponse } from '@/types/post';
+
 import data from '../_database/posts';
 
 export default function handler(
   request: NextApiRequest,
-  response: NextApiResponse,
+  response: NextApiResponse<PostsMapApiResponse[]>,
 ) {
   response.status(200).json([
     ...data

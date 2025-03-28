@@ -1,10 +1,12 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 
+import type { PrintApiResponse } from '@/types/print';
+
 import results from '../_database/prints';
 
 export default function handler(
   request: NextApiRequest,
-  response: NextApiResponse,
+  response: NextApiResponse<PrintApiResponse>,
 ) {
   const result =
     [...results].find(({ slug }) => slug === request.query.print) ?? undefined;
