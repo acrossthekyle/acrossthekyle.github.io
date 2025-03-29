@@ -5,7 +5,7 @@ import {
   markAsWorn,
 } from '../../_utils/packs';
 
-import pack from './closet/pack-durston-gear-kakwa-40-medium';
+import pack from './closet/pack-durston-gear-kakwa-55-medium';
 import packLiner from './closet/pack-liner-nylofume-liner';
 import tent from './closet/tent-nemo-dragonfly-2p';
 import stakes from './closet/stakes-msr-groundhog-minis-sack';
