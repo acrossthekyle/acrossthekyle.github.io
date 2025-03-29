@@ -3,11 +3,7 @@ type Props = {
 };
 
 function Pack({ id }) {
-  return (
-    <a href={`/packs/${id}`}>
-      here
-    </a>
-  );
+  return <a href={`/packs/${id}`}>here</a>;
 }
 
 export default Pack;

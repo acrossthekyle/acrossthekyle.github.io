@@ -64,14 +64,9 @@ export function filterPostsByQuery(
         }
 
         if (
-          [
-            'gear',
-            'pack',
-            'list',
-            'supplies',
-            'backpack',
-            'loadout',
-          ].includes(lowered)
+          ['gear', 'pack', 'list', 'supplies', 'backpack', 'loadout'].includes(
+            lowered,
+          )
         ) {
           results = [
             ...results,
