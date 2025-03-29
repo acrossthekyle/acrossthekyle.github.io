@@ -63,6 +63,26 @@ export function filterPostsByQuery(
           ];
         }
 
+        if (
+          [
+            'gear',
+            'pack',
+            'list',
+            'supplies',
+            'backpack',
+            'loadout',
+          ].includes(lowered)
+        ) {
+          results = [
+            ...results,
+            {
+              date: 'Lists of gear I carry on each trip',
+              title: 'Packs',
+              uri: '/packs',
+            },
+          ];
+        }
+
         const matchedLocations = locations.filter((_) => _.includes(lowered));
         const matchedTitles = titles.filter((_) => _.includes(lowered));
 

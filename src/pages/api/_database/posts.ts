@@ -8,7 +8,7 @@ import type { Post } from '@/types/post';
 
 const post19 = {
   date: 'July 27th, 2024',
-  gear: 'https://lighterpack.com/r/hpd82k',
+  gear: '/packs/tour-du-mont-blanc',
   image: '2024/07/27/3.2-08F64C62-7FB2-4077-B012-00FB6EEF90CB.jpeg',
   isPrivate: false,
   locationFull: 'Alpes, Europe',
@@ -108,7 +108,7 @@ const post19 = {
 
 const post18 = {
   date: 'June 21st, 2023',
-  gear: 'https://lighterpack.com/r/76sj40',
+  gear: '/packs/grande-randonnee-20',
   image: '2023/06/21/273b1f88-962f-4011-8797-d21c640e73ff.jpeg',
   isPrivate: false,
   locationFull: 'Corsica, France',
@@ -275,7 +275,7 @@ const post15 = {
 
 const post14 = {
   date: 'May 7th, 2022',
-  gear: 'https://lighterpack.com/r/ng8tzb',
+  gear: '/packs/west-highland-way',
   image: '2022/05/07/4a15a62a-a739-4ad9-83ff-3200e16c6bd5.jpeg',
   isPrivate: false,
   locationFull: 'Highlands, Scotland',
@@ -437,7 +437,7 @@ const post9 = {
 
 const post8 = {
   date: 'Feb 18th, 2020',
-  gear: 'https://lighterpack.com/r/bw0s1t',
+  gear: '/packs/o-circuit',
   image: '2020/02/18/5e958df4-56a2-4292-ae6d-b694f078a985.jpeg',
   isPrivate: false,
   locationFull: 'Patagonia, Chile',
@@ -511,7 +511,7 @@ const post8 = {
 
 const post7 = {
   date: 'Oct 19th, 2019',
-  gear: 'https://lighterpack.com/r/f6hp0p',
+  gear: '/packs/annapurna-circuit',
   image: '2019/10/19/922fa9b2-fff3-4457-b0b4-18dc26c0b2b8.jpeg',
   isPrivate: false,
   locationFull: 'Himalayas, Nepal',
@@ -688,7 +688,7 @@ const post5 = {
 
 const post4 = {
   date: 'July 16th, 2019',
-  gear: 'https://lighterpack.com/r/kolkui',
+  gear: '/packs/alta-via-1',
   image: '2019/07/16/c4d424d9-7826-422d-9e0f-1b7e8b20af99.jpeg',
   isPrivate: false,
   locationFull: 'Dolomites, Italy',
@@ -774,7 +774,7 @@ const post4 = {
 
 const post3 = {
   date: 'Sept 2nd, 2018',
-  gear: 'https://lighterpack.com/r/yi7qss',
+  gear: '/packs/tour-du-mont-blanc',
   image: '2018/09/02/2c1912f7-c571-4a3a-8240-0e602c9e8e47.jpeg',
   isPrivate: false,
   locationFull: 'Alpes, Europe',
@@ -872,7 +872,7 @@ const post3 = {
 
 const post2 = {
   date: 'June 2nd, 2018',
-  gear: 'https://lighterpack.com/r/p1be03',
+  gear: '/packs/camino-de-santiago',
   image: '2018/06/02/42f8785d-32c0-4446-9a39-d88aa028e407.jpeg',
   isPrivate: false,
   locationFull: 'Camino Frances, Spain',

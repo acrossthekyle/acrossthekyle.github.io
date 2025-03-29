@@ -5,7 +5,6 @@ import styles from '@/styles/ui/post/title.module.scss';
 import { Breadcrumb } from '@/types/breadcrumb';
 
 import Breadcrumbs from '../breadcrumbs';
-import External from '../external';
 import Image from '../image';
 import Internal from '../internal';
 import Tags from '../tags';
@@ -53,8 +52,8 @@ function Title({ context, crumbs, tags, title, uri }: Props) {
                 return null;
               }
 
-              if (_.includes('lighterpack')) {
-                return <External key={_} text="Gear List" url={_} />;
+              if (_.includes('/packs')) {
+                return <Internal key={_} text="Pack" url={_} />;
 
                 return null;
               }

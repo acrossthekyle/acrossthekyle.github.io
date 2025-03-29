@@ -3,7 +3,7 @@ import { type MDXComponents } from 'mdx/types';
 import Link from 'next/link';
 
 import Checklist from './src/ui/checklist';
-import Lighterpack from './src/ui/lighterpack';
+import Pack from './src/ui/pack';
 import Stages from './src/ui/stages';
 import Stats from './src/ui/stats';
 import World from './src/ui/world';
@@ -30,7 +30,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       );
     },
     Checklist,
-    Lighterpack,
+    Pack,
     Stages,
     Stats,
     World,
