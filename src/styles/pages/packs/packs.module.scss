@@ -1,0 +1,77 @@
+@use 'styles/mixins/_on' as on;
+@use 'styles/mixins/_screen' as screen;
+
+.packs {
+  ul {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: flex;
+      flex-direction: row;
+      margin: 1rem 1rem 1rem 0;
+      position: relative;
+
+      .link {
+        border-left: 0.25rem solid transparent;
+        padding-left: 0;
+        text-align: left;
+        transition: all 0.4s ease;
+
+        .header,
+        .type,
+        .weight {
+          margin: 0;
+          transition: all 0.4s ease;
+        }
+
+        .header {
+          font-weight: 700;
+          line-height: 1.25rem;
+          margin-bottom: 0.5rem;
+        }
+
+        .type {
+          font-size: 0.9rem;
+          margin-bottom: 0.5rem;
+          opacity: 0.7;
+        }
+
+        .weight {
+          font-size: 0.9rem;
+          font-weight: 700;
+        }
+
+        &[data-active='true'] {
+          border-left-color: var(--packs-highlight);
+          padding-left: 0.5rem;
+        }
+
+        @include on.hover {
+          border-left-color: var(--packs-highlight);
+          padding-left: 0.75rem;
+        }
+      }
+    }
+  }
+}
+
+@include screen.medium {
+  .packs {
+    &.visible {
+      display: flex;
+      margin-bottom: 5rem;
+
+      ul {
+        li {
+          margin-left: 0;
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}

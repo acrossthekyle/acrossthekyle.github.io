@@ -117,7 +117,7 @@ function Page() {
               </h5>
             )}
             <h3 className={styles.price}>
-              {frame === null && <span aria-hidden="true">from</span>}
+              <span aria-hidden="true">{frame === null ? 'from' : 'for'}</span>
               {(frame === 0 || frame === null) && <>$100.00</>}
               {frame === 1 && <>$185.00</>}
               {frame === 2 && <>$215.00</>}

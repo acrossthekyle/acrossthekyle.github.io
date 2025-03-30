@@ -1,4 +1,4 @@
-import { getPostIdAndStageFromUriSegment } from './utils';
+import { getPostIdAndStageFromUriSegment } from './http';
 
 describe('utils', () => {
   it('will only get the post id', () => {

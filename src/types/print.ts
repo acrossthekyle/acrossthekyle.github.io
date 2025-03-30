@@ -1,15 +1,18 @@
 export type PrintFromDatabase = {
+  date: string;
   image: string;
   paymentLinks: string[];
-  slug: string;
   snippet: string;
+  tags: string[];
   title: string;
+  uri: string;
 };
 
 export type Print = {
+  date: string;
   image: string;
-  slug: string;
   snippet: string;
+  tags: string[];
   title: string;
   uri: string;
 };

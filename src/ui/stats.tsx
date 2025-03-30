@@ -1,8 +1,7 @@
 'use client';
 
+import { GARMIN_URL } from '@/constants/urls';
 import styles from '@/styles/ui/stats.module.scss';
-
-import { GARMIN_URL } from '../constants';
 
 type Props = {
   gain?: string;

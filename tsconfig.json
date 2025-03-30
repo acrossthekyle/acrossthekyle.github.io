@@ -2,11 +2,13 @@
   "compilerOptions": {
     "baseUrl": "src/",
     "paths": {
+      "@/constants/*": ["constants/*"],
       "@/contexts/*": ["contexts/*"],
       "@/data/*": ["data/*"],
       "@/styles/*": ["styles/*"],
       "@/types/*": ["types/*"],
       "@/ui/*": ["ui/*"],
+      "@/utils/*": ["utils/*"],
       "@/viewModels/*": ["viewModels/*"]
     },
     "lib": ["dom", "dom.iterable", "esnext"],

@@ -3,7 +3,7 @@
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 
-import { getPostIdAndStageFromUriSegment } from '../utils';
+import { getPostIdAndStageFromUriSegment } from '@/utils/http';
 
 import { useFetch } from './abstract';
 
@@ -65,18 +65,5 @@ export const useSearchPostsData = () => {
   return {
     ...rest,
     search,
-  };
-};
-
-export const usePostsByTagData = () => {
-  const { fetchData, ...rest } = useFetch();
-
-  const getByTag = (tag: string) => {
-    fetchData(`/api/posts/tagged?tag=${tag}`);
-  };
-
-  return {
-    ...rest,
-    getByTag,
   };
 };

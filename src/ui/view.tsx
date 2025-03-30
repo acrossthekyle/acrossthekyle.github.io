@@ -18,48 +18,23 @@ import Search from './search';
 type Props = {
   children: ReactNode | ReactNode[];
   className?: string;
+  element?: string;
 };
 
 let previousScrollPosition = 0;
 
-function View({ children, className = '' }: Props) {
+function Wrapper({ children, element, ...rest }) {
+  if (element === 'div') {
+    return <div {...rest}>{children}</div>;
+  }
+
+  return <main {...rest}>{children}</main>;
+}
+
+function View({ children, className = '', element }: Props) {
   const { theme } = useContext(ThemeContext);
 
   const [isSearching, setIsSearching] = useState(false);
-
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      previousScrollPosition = window.pageYOffset;
-    }
-
-    document.addEventListener('scroll', handleScroll);
-
-    return () => {
-      document.removeEventListener('scroll', handleScroll);
-    };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
-
-  const handleScroll = () => {
-    const header = document.querySelector('header');
-
-    if (header !== null) {
-      const headerBottom = header.offsetTop + header.offsetHeight;
-
-      const currentScrollPosition = window.pageYOffset;
-
-      if (
-        previousScrollPosition > currentScrollPosition ||
-        currentScrollPosition < headerBottom
-      ) {
-        header.style.top = '0';
-      } else {
-        header.style.top = '-4.5rem';
-      }
-
-      previousScrollPosition = currentScrollPosition;
-    }
-  };
 
   const handleOnOpenSearch = () => {
     setIsSearching(true);
@@ -119,9 +94,13 @@ function View({ children, className = '' }: Props) {
         </div>
       </header>
       <Search isSearching={isSearching} onClose={handleOnCloseSearch} />
-      <main className={`${styles.view} ${className}`.trim()} id="view-anchor">
+      <Wrapper
+        className={`${styles.view} ${className}`.trim()}
+        element={element}
+        id="view-anchor"
+      >
         {children}
-      </main>
+      </Wrapper>
       <Footer />
       <Scroll />
     </>

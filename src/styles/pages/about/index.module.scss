@@ -7,4 +7,18 @@
       width: 150%;
     }
   }
+
+  @include screen.compact {
+    img {
+      left: -90%;
+      width: 190%;
+    }
+  }
+
+  @include screen.nano {
+    img {
+      left: -140%;
+      width: 240%;
+    }
+  }
 }

@@ -16,10 +16,11 @@
   }
 
   .box {
-    background-color: #fff;
-    border-radius: 0.125rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 0.25rem;
     color: #404040;
     left: 50%;
+    padding-bottom: 1rem;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -30,12 +31,11 @@
       display: flex;
       justify-content: center;
       line-height: 1.5rem;
-      padding: 2.5rem 3rem;
+      padding: 2rem 3rem 1rem;
       text-align: center;
     }
 
     .buttons {
-      border-top: 1px solid var(--border);
       display: flex;
       justify-content: center;
       padding: 1rem;

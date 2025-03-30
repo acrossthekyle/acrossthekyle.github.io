@@ -1,10 +1,9 @@
 'use client';
 
+import { CHART_CATEGORY_COLORS } from '@/constants/charts';
 import styles from '@/styles/pages/packs/pack.module.scss';
 import type { PackCategory } from '@/types/packs';
-
-import { CATEGORY_COLORS } from '../../constants';
-import { getUnitsLabelForGroup } from '../../utils';
+import { convertGroupWeight, getUnitsLabelForGroup } from '@/utils/units';
 
 type Props = {
   categories?: PackCategory[];
@@ -40,37 +39,38 @@ function Legend({
         </li>
         {(categories || []).map(({ category, weight }, index: number) => (
           <li data-active={hoveredCategory === category} key={category}>
-            <span style={{ backgroundColor: CATEGORY_COLORS[index] }} />
+            <span style={{ backgroundColor: CHART_CATEGORY_COLORS[index] }} />
             <button onClick={() => onClick(category)} type="button">
               {category}
             </button>
             <div>
-              {weight} <small>{unitsLabel}</small>
+              {convertGroupWeight(weight, units)} <small>{unitsLabel}</small>
             </div>
           </li>
         ))}
         <li className={`${styles.total} ${styles.bordered}`}>
           <span>Total</span>
           <span>
-            {weightTotal} <small>{unitsLabel}</small>
+            {convertGroupWeight(weightTotal, units)} <small>{unitsLabel}</small>
           </span>
         </li>
         <li className={styles.total}>
           <span>Consumable</span>
           <span>
-            {weightConsumable} <small>{unitsLabel}</small>
+            {convertGroupWeight(weightConsumable, units)}{' '}
+            <small>{unitsLabel}</small>
           </span>
         </li>
         <li className={styles.total}>
           <span>Worn</span>
           <span>
-            {weightWorn} <small>{unitsLabel}</small>
+            {convertGroupWeight(weightWorn, units)} <small>{unitsLabel}</small>
           </span>
         </li>
         <li className={styles.total}>
           <span>Base</span>
           <span>
-            {weightBase} <small>{unitsLabel}</small>
+            {convertGroupWeight(weightBase, units)} <small>{unitsLabel}</small>
           </span>
         </li>
       </ul>

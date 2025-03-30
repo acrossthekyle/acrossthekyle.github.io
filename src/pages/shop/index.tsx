@@ -30,8 +30,10 @@ function Page() {
           items={data}
           renderItem={(item: Print, index: number) => (
             <Figure
+              date={item.date}
               image={item.image}
               preview={item.snippet}
+              tags={item.tags}
               title={item.title}
               uri={item.uri}
             />

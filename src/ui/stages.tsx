@@ -3,9 +3,8 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 
+import { GARMIN_URL } from '@/constants/urls';
 import { usePostStagesData } from '@/data/posts';
-
-import { GARMIN_URL } from '../constants';
 
 import Timeline from './timeline';
 

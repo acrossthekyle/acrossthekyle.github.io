@@ -3,15 +3,15 @@
 import { useRouter } from 'next/router';
 import { useCallback, useEffect, useState } from 'react';
 
+import { CHART_CATEGORY_COLORS } from '@/constants/charts';
 import { usePacksData } from '@/data/packs';
 import type { ChartProps, Pack } from '@/types/packs';
-
-import { CATEGORY_COLORS } from '../constants';
+import { scrollToTop } from '@/utils/scroll';
 
 export const useViewModel = () => {
   const router = useRouter();
 
-  const { data, getPacks, isLoading, isReady } = usePacksData();
+  const { data, isLoading, isReady } = usePacksData();
 
   const [pack, setPack] = useState<Pack | undefined>();
   const [hoveredCategory, setHoveredCategory] = useState('');
@@ -19,18 +19,24 @@ export const useViewModel = () => {
   const [canRenderPacks, setCanRenderPacks] = useState(false);
 
   useEffect(() => {
-    const searchParams = new URLSearchParams(window.location.search);
-    const chosenUnits = searchParams.get('units') || 'imperial';
+    if (typeof window !== 'undefined') {
+      const chosenPack = localStorage.getItem('pack');
+      const chosenUnits = localStorage.getItem('units');
 
-    setUnits(chosenUnits);
+      if (chosenPack !== null) {
+        setPack(JSON.parse(chosenPack));
+      }
 
-    getPacks(chosenUnits);
+      if (chosenUnits !== null) {
+        setUnits(chosenUnits);
+      }
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
-    if (isReady && router.query.pack) {
-      const filtered = data.filter(({ slug }) => slug === router.query.pack[0]);
+    if (isReady && pack) {
+      const filtered = data.filter(({ slug }) => slug === pack.slug);
 
       if (filtered.length > 0) {
         setPack(filtered[0]);
@@ -59,7 +65,7 @@ export const useViewModel = () => {
     if (content) {
       content.scrollIntoView({
         behavior: 'smooth',
-        block: 'start',
+        block: 'center',
       });
     }
   };
@@ -69,20 +75,30 @@ export const useViewModel = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [canRenderPacks]);
 
-  const handleOnPackClick = useCallback(() => {
+  const handleOnViewStatsClick = useCallback(() => {
     setCanRenderPacks(false);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [canRenderPacks]);
+  }, []);
+
+  const handleOnPackClick = useCallback(
+    (pack: Pack) => {
+      setPack(pack);
+
+      localStorage.setItem('pack', JSON.stringify(pack));
+
+      scrollToTop();
+
+      setCanRenderPacks(false);
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+    },
+    [canRenderPacks],
+  );
 
   const handleOnUnitsClick = useCallback(
     (value: string) => {
+      localStorage.setItem('units', value);
+
       setUnits(value);
-
-      getPacks(value);
-
-      const parts = window.location.href.split('?units=');
-
-      router.push(`${parts[0]}?units=${value}`);
       // eslint-disable-next-line react-hooks/exhaustive-deps
     },
     [units],
@@ -97,6 +113,7 @@ export const useViewModel = () => {
     handleOnPackClick,
     handleOnUnitsClick,
     handleOnViewAllPacksClick,
+    handleOnViewStatsClick,
     hoveredCategory,
     isLoading,
     isReady,
@@ -126,7 +143,7 @@ export const useChartViewModel = ({
     data: {
       datasets: [
         {
-          backgroundColor: CATEGORY_COLORS,
+          backgroundColor: CHART_CATEGORY_COLORS,
           borderColor: 'transparent',
           data,
         },

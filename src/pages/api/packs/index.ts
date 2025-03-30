@@ -9,7 +9,6 @@ import {
   calculateWeight,
   calculateWeightPerCategory,
   calculateWornWeight,
-  convertWeightPerItem,
   groupByCategory,
 } from '../_utils/packs';
 
@@ -17,24 +16,17 @@ export default function handler(
   request: NextApiRequest,
   response: NextApiResponse<PacksApiResponse[]>,
 ) {
-  const isMetric = request.query.units === 'metric';
-
   response.status(200).json(
     results.map((result) => {
-      const items = convertWeightPerItem(result.items, isMetric);
-
       return {
-        categories: calculateWeightPerCategory(
-          groupByCategory(items),
-          isMetric,
-        ),
+        categories: calculateWeightPerCategory(groupByCategory(result.items)),
         slug: result.slug,
         title: result.title,
         type: result.type,
-        weightBase: calculateBaseWeight(items, isMetric),
-        weightConsumable: calculateConsumableWeight(items, isMetric),
-        weightTotal: calculateWeight(items, isMetric),
-        weightWorn: calculateWornWeight(items, isMetric),
+        weightBase: calculateBaseWeight(result.items),
+        weightConsumable: calculateConsumableWeight(result.items),
+        weightTotal: calculateWeight(result.items),
+        weightWorn: calculateWornWeight(result.items),
       };
     }),
   );

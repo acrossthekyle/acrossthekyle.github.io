@@ -3,6 +3,7 @@
 import { useEffect } from 'react';
 
 import styles from '@/styles/ui/scroll.module.scss';
+import { scrollToTop } from '@/utils/scroll';
 
 import ArrowIcon from './icons/arrow';
 
@@ -48,23 +49,9 @@ function Scroll({ className = '' }: Props) {
   };
 
   const handleOnScrollTop = () => {
-    const content = document.getElementById('view-anchor');
+    scrollToTop();
 
-    if (content) {
-      content.scroll({
-        top: 0,
-        left: 0,
-        behavior: 'smooth',
-      });
-
-      window.scroll({
-        top: 0,
-        left: 0,
-        behavior: 'smooth',
-      });
-
-      document.getElementById('logo').focus();
-    }
+    document.getElementById('logo').focus();
   };
 
   return (

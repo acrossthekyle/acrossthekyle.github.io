@@ -2,39 +2,28 @@ import { startCase } from 'lodash';
 
 import type { PackCategory, PackItem } from '@/types/packs';
 
-export function calculateWeight(items: PackItem[], isMetric: boolean) {
+export function calculateWeight(items: PackItem[]) {
   const total = [...items].reduce((sum, item) => sum + item.weight, 0);
 
-  return (isMetric ? total / 1000 : total / 16).toFixed(2);
+  return (total / 16).toFixed(2);
 }
 
-export function calculateBaseWeight(items: PackItem[], isMetric: boolean) {
+export function calculateBaseWeight(items: PackItem[]) {
   return calculateWeight(
     [...items].filter((item) => !item.worn && !item.consumable),
-    isMetric,
   );
 }
 
-export function calculateWornWeight(items: PackItem[], isMetric: boolean) {
-  return calculateWeight(
-    [...items].filter((item) => item.worn),
-    isMetric,
-  );
+export function calculateWornWeight(items: PackItem[]) {
+  return calculateWeight([...items].filter((item) => item.worn));
 }
 
-export function calculateConsumableWeight(
-  items: PackItem[],
-  isMetric: boolean,
-) {
-  return calculateWeight(
-    [...items].filter((item) => item.consumable),
-    isMetric,
-  );
+export function calculateConsumableWeight(items: PackItem[]) {
+  return calculateWeight([...items].filter((item) => item.consumable));
 }
 
 export function calculateWeightPerCategory(
   categories: PackCategory[],
-  isMetric: boolean,
 ): PackCategory[] {
   let output = [];
 
@@ -42,10 +31,7 @@ export function calculateWeightPerCategory(
     output.push({
       category,
       items: categories[category],
-      weight: calculateWeight(
-        categories[category] as unknown as PackItem[],
-        isMetric,
-      ),
+      weight: calculateWeight(categories[category] as unknown as PackItem[]),
     });
   }
 
@@ -83,13 +69,6 @@ export function adjustWeightAndQuantity(item: PackItem, quantity: number) {
   cloned.quantity = quantity;
 
   return cloned;
-}
-
-export function convertWeightPerItem(items: PackItem[], isMetric: boolean) {
-  return [...items].map((item) => ({
-    ...item,
-    weight: isMetric ? Number((item.weight * 28.35).toFixed(2)) : item.weight,
-  }));
 }
 
 export function groupByCategory(items: PackItem[]): PackCategory[] {

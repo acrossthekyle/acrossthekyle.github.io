@@ -4,7 +4,7 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 
-import { usePostsByTagData } from '@/data/posts';
+import { useItemsByTagData } from '@/data/tags';
 import styles from '@/styles/pages/tags/index.module.scss';
 import type { Post } from '@/types/post';
 import Figure from '@/ui/figure';
@@ -14,7 +14,7 @@ import View from '@/ui/view';
 function Page() {
   const { query } = useRouter();
 
-  const { data, getByTag, isReady } = usePostsByTagData();
+  const { data, getByTag, isReady } = useItemsByTagData();
 
   useEffect(() => {
     getByTag((Array.isArray(query.tag) ? query.tag : [query.tag]).join(' '));
@@ -31,7 +31,7 @@ function Page() {
         <title>Kyle &mdash; Posts | Tagged "{query.tag}"</title>
       </Head>
       <h1 className={styles.header}>{query.tag}</h1>
-      <p className={styles.total}>{`${data.total} Posts`}</p>
+      <p className={styles.total}>{`${data.total} Item(s)`}</p>
       <Masonry
         items={data.results}
         renderItem={(

@@ -1,18 +1,15 @@
 import Link from 'next/link';
 
+import { ABOUT_ME_BLURB } from '@/constants/general';
 import { usePostsTagsData, useRecentPostsData } from '@/data/posts';
 import styles from '@/styles/ui/footer.module.scss';
 
-import { ABOUT_ME_BLURB } from '../constants';
-
 import ContactForm from './contact';
-import WatchIcon from './icons/watch';
-import InstagramIcon from './icons/instagram';
-import ShopIcon from './icons/shop';
 import Image from './image';
 import GitHubLink from './links/github';
 import ResumeLink from './links/resume';
 import Loading from './loading';
+import Shortcuts from './shortcuts';
 import Tags from './tags';
 import Theme from './theme';
 
@@ -75,30 +72,11 @@ function Footer() {
           <ContactForm />
         </div>
       </div>
-
-      <div className={styles.links}>
-        <a
-          className={styles.link}
-          href="https://instagram.com/acrossthekyle"
-          rel="noreferrer"
-          target="_blank"
-          title="Instagram"
-        >
-          <InstagramIcon />
-        </a>
-        <a
-          className={styles.link}
-          href="https://apps.garmin.com/en-US/developer/f796f8e5-5034-44c2-99a7-21d319c6c728/apps"
-          rel="noreferrer"
-          target="_blank"
-          title="Garmin apps"
-        >
-          <WatchIcon />
-        </a>
-        <Link className={styles.link} href="/shop" title="Shop">
-          <ShopIcon />
-        </Link>
-      </div>
+      <Shortcuts
+        childClassName={styles.link}
+        hasArrows={false}
+        parentClassName={styles.links}
+      />
       <div className={styles.bottom}>
         <span className={styles.copyright}>
           © 1987 - 2024{' '}

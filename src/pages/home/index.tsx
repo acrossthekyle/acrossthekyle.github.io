@@ -1,21 +1,17 @@
 import Head from 'next/head';
 import Link from 'next/link';
 
+import { ABOUT_ME_BLURB } from '@/constants/general';
 import { usePostsData } from '@/data/posts';
 import styles from '@/styles/pages/home/index.module.scss';
-import External from '@/ui/external';
 import type { Post } from '@/types/post';
-import InstagramIcon from '@/ui/icons/instagram';
-import ShopIcon from '@/ui/icons/shop';
-import WatchIcon from '@/ui/icons/watch';
 import Figure from '@/ui/figure';
 import Image from '@/ui/image';
 import Loading from '@/ui/loading';
 import Masonry from '@/ui/masonry';
+import Shortcuts from '@/ui/shortcuts';
 import View from '@/ui/view';
 import Skeleton from '@/ui/skeleton';
-
-import { ABOUT_ME_BLURB } from '../../constants';
 
 function Page() {
   const { data, isLoading, isReady } = usePostsData();
@@ -37,34 +33,11 @@ function Page() {
         </Link>
         <h1 className={styles.title}>Kyle Gilbert</h1>
         <p className={styles.text}>{ABOUT_ME_BLURB}</p>
-        <div className={styles.links}>
-          <Link className={styles.link} href="/shop" title="Shop prints">
-            <ShopIcon />
-            <span className={styles.site}>Shop</span>
-          </Link>
-          <External
-            className={styles.link}
-            text={
-              <>
-                <InstagramIcon />
-                <span className={styles.site}>Instagram</span>
-              </>
-            }
-            title="Instagram"
-            url="https://instagram.com/acrossthekyle"
-          />
-          <External
-            className={styles.link}
-            text={
-              <>
-                <WatchIcon className={styles.icon} />
-                <span className={styles.site}>Garmin</span>
-              </>
-            }
-            title="Garmin apps"
-            url="https://apps.garmin.com/en-US/developer/f796f8e5-5034-44c2-99a7-21d319c6c728/apps"
-          />
-        </div>
+        <Shortcuts
+          childClassName={styles.link}
+          parentClassName={styles.links}
+          shouldLabel
+        />
       </div>
       {isLoading && <Loading />}
       {isReady && (

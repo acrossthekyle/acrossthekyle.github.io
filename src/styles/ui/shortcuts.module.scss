@@ -1,0 +1,40 @@
+@use 'styles/mixins/_on' as on;
+
+.links {
+  display: flex;
+
+  .link {
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    height: 1.9rem;
+    font-size: 0.75rem;
+    justify-content: center;
+    margin: 0 0.25rem;
+    position: relative;
+    top: 0;
+    transition: all 0.4s ease;
+    width: 1.9rem;
+
+    svg {
+      height: 0.75rem;
+      transition: all 0.4s ease;
+      width: 0.75rem;
+
+      &.backpack {
+        height: 1rem;
+        position: relative;
+        top: -0.15rem;
+        width: 1rem;
+      }
+    }
+
+    @include on.hover {
+      background: var(--footer-link-hover-background);
+
+      svg {
+        fill: var(--footer-link-hover-icon);
+      }
+    }
+  }
+}

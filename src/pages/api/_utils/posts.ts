@@ -1,7 +1,5 @@
 import type { Post, QueriedPosts } from '@/types/post';
 
-import { RESUME_URL } from '../../../constants';
-
 export function getPublicPosts(posts: Post[]): Post[] {
   return posts.filter(({ isPrivate }) => !isPrivate);
 }
@@ -58,7 +56,7 @@ export function filterPostsByQuery(
             {
               date: '(Opens in a new tab/window)',
               title: 'My Resume',
-              uri: RESUME_URL,
+              uri: '/kyle-gilbert-resume.pdf',
             },
           ];
         }

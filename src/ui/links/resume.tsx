@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import { RESUME_URL } from '../../constants';
+import { RESUME_URL } from '@/constants/urls';
 
 function Resume() {
   return (

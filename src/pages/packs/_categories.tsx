@@ -1,11 +1,15 @@
 import Link from 'next/link';
 
+import { CHART_CATEGORY_COLORS } from '@/constants/charts';
 import styles from '@/styles/pages/packs/pack.module.scss';
 import type { PackCategory } from '@/types/packs';
 import LinkIcon from '@/ui/icons/link';
-
-import { CATEGORY_COLORS } from '../../constants';
-import { getUnitsLabelForGroup, getUnitsLabelForItem } from '../../utils';
+import {
+  convertGroupWeight,
+  convertItemWeight,
+  getUnitsLabelForGroup,
+  getUnitsLabelForItem,
+} from '@/utils/units';
 
 type Props = {
   categories?: PackCategory[];
@@ -16,17 +20,13 @@ function Categories({ categories, units }: Props) {
   return (
     <div className={styles.lists}>
       {(categories || []).map((category, categoryIndex: number) => (
-        <div
-          className={styles.list}
-          id={category.category}
-          key={category.category}
-        >
-          <h3>{category.category}</h3>
+        <div className={styles.list} key={category.category}>
+          <h3 id={category.category}>{category.category}</h3>
           <span
             aria-hidden="true"
             className={styles.color}
             style={{
-              backgroundColor: CATEGORY_COLORS[categoryIndex],
+              backgroundColor: CHART_CATEGORY_COLORS[categoryIndex],
             }}
           />
           <ul className={styles.category}>
@@ -49,14 +49,16 @@ function Categories({ categories, units }: Props) {
                     <div className={styles.name}>{name}</div>
                   </div>
                   <div className={styles.weight}>
-                    {weight} <small>{getUnitsLabelForItem(units)}</small>
+                    {convertItemWeight(weight, units)}{' '}
+                    <small>{getUnitsLabelForItem(units)}</small>
                   </div>
                 </li>
               ),
             )}
             <li className={styles.total}>
               <div className={styles.weight}>
-                {category.weight} <small>{getUnitsLabelForGroup(units)}</small>
+                {convertGroupWeight(category.weight, units)}{' '}
+                <small>{getUnitsLabelForGroup(units)}</small>
               </div>
             </li>
           </ul>

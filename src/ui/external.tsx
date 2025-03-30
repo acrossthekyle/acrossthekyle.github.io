@@ -6,12 +6,20 @@ import ArrowIcon from './icons/arrow';
 
 type Props = {
   className?: string;
+  hasArrow?: boolean;
   text: string | ReactNode | ReactNode[];
   title?: string;
   url: string;
 };
 
-function External({ className, text, title, url, ...rest }: Props) {
+function External({
+  className,
+  hasArrow = true,
+  text,
+  title,
+  url,
+  ...rest
+}: Props) {
   return (
     <a
       {...rest}
@@ -22,7 +30,7 @@ function External({ className, text, title, url, ...rest }: Props) {
       title={title}
     >
       {text}
-      <ArrowIcon className={styles.rotated} right />
+      {hasArrow && <ArrowIcon className={styles.rotated} right />}
     </a>
   );
 }
