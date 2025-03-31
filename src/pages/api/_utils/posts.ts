@@ -1,3 +1,4 @@
+import { RESUME_URL } from '@/constants/urls';
 import type { Post, QueriedPosts } from '@/types/post';
 
 export function getPublicPosts(posts: Post[]): Post[] {
