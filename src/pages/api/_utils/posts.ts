@@ -57,7 +57,7 @@ export function filterPostsByQuery(
             {
               date: '(Opens in a new tab/window)',
               title: 'My Resume',
-              uri: '/kyle-gilbert-resume.pdf',
+              uri: RESUME_URL,
             },
           ];
         }
