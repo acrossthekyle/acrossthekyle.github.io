@@ -4,7 +4,8 @@ import Link from 'next/link';
 
 import Components from './src/components';
 
-const { Checklist, Gallery, Pack, Stages, Stats, World } = Components.Posts;
+const { Checklist, Gallery, Pack, Stages, Stats, Trips, World } =
+  Components.Posts;
 
 export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
@@ -30,6 +31,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     Pack,
     Stages,
     Stats,
+    Trips,
     World,
     ...components,
   };

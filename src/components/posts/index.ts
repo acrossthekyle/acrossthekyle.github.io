@@ -7,6 +7,7 @@ import Post from './post';
 import Stages from './stages';
 import Stats from './stats';
 import Title from './title';
+import Trips from './trips';
 import World from './world';
 
 const Components = {
@@ -19,6 +20,7 @@ const Components = {
   Stages,
   Stats,
   Title,
+  Trips,
   World,
 };
 

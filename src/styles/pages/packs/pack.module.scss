@@ -10,6 +10,7 @@
   position: relative;
 
   .toggle {
+    align-items: center;
     background: var(--button);
     border-radius: 0.25rem;
     color: var(--button-text);
@@ -17,6 +18,12 @@
     font-size: 0.8rem;
     height: 1.65rem;
     padding: 0.5rem 0.5rem;
+
+    svg {
+      fill: var(--button-text);
+      height: 0.9rem;
+      width: 0.9rem;
+    }
   }
 
   .aside {
@@ -27,6 +34,7 @@
     padding: 4rem 0 2rem;
     position: sticky;
     top: 4.375rem;
+    transition: transform 0.4s ease;
 
     .content {
       .heading {
@@ -42,6 +50,7 @@
           margin: 0 0.6rem 1.25rem 0;
           padding: 0.4rem 0.5rem;
           text-transform: none;
+          width: 8rem;
 
           &[data-mode='secondary'] {
             opacity: 0.4;
@@ -62,7 +71,9 @@
 
   .main {
     flex: 2;
+    opacity: 1;
     padding-top: 4rem;
+    transition: all 0.4s ease;
 
     .heading {
       line-height: 2.25rem;
@@ -103,13 +114,16 @@
     .aside {
       flex: unset;
       overflow-y: hidden;
+      transform: translateX(-100%);
       width: 0;
 
       &[data-browse-packs='true'] {
+        flex: 1;
         height: 100%;
         padding-bottom: 0;
         padding-left: 1.5rem;
         overflow-y: auto;
+        transform: translateX(0);
         width: 100%;
 
         .content {
@@ -117,19 +131,16 @@
         }
 
         .toggle {
-          align-items: center;
           background: transparent;
           color: var(--text);
           display: flex;
           position: absolute;
           right: 0;
-          top: 1.5rem;
+          top: 4rem;
 
           svg {
             fill: var(--text);
-            height: 0.9rem;
             margin-left: 0.25rem;
-            width: 0.9rem;
           }
         }
       }
@@ -137,12 +148,19 @@
 
     .main {
       &[data-browse-packs='true'] {
-        display: none;
+        left: 0;
+        position: fixed;
+        top: -1000%;
+        transform: translateX(110%);
       }
 
       .toggle {
-        display: inline-block;
+        display: flex;
         margin-left: 1rem;
+
+        svg {
+          margin-right: 0.25rem;
+        }
       }
 
       .heading {
@@ -175,6 +193,20 @@
               margin-left: 0;
               max-width: 200px;
             }
+          }
+        }
+      }
+    }
+  }
+
+  @include screen.micro {
+    .aside {
+      .content {
+        .units {
+          flex-direction: column;
+
+          .unit {
+            margin-bottom: 0.75rem;
           }
         }
       }

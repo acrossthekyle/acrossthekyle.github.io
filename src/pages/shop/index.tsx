@@ -15,11 +15,8 @@ function Page() {
       </Head>
       <h1 className={styles.heading}>Shop</h1>
       <p className={styles.paragraph}>
-        I've been on several backpacking thru-hikes all around the world, from
-        Patagonia in the southern tip of South America to the heights of the
-        Himalayas in Nepal. The items for sale in this shop are either moments
-        captured by me while marching through forests and over mountain-tops, or
-        inspired by the nature of this planet.
+        These photos for sale are inspired by this planet, and captured by me,
+        while marching through forests and over mountain-tops.
       </p>
       {isLoading && <Components.Loading />}
       {isReady && (

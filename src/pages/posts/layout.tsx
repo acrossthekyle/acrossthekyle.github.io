@@ -24,7 +24,7 @@ function Layout({ children }: Props) {
         <title>Kyle &mdash; Travels | {data.titleCombined}</title>
       </Head>
       <Components.Posts.Title
-        context={[data.date, data.gear]}
+        context={[data.date, data.gear].filter((item) => Boolean(item))}
         crumbs={data.breadcrumbs}
         tags={data.tags}
         title={data.title}

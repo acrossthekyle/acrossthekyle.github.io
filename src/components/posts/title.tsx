@@ -10,7 +10,7 @@ import Tags from '../tags';
 import Internal from './internal';
 
 type Props = {
-  context?: string[];
+  context: string[];
   crumbs?: Breadcrumb[];
   tags?: string;
   title: string;
@@ -27,7 +27,7 @@ function Title({ context, crumbs, tags, title, uri }: Props) {
         <Breadcrumbs className={styles.breadcrumbs} items={crumbs} />
       )}
       <h1 className={styles.title}>{title}</h1>
-      {context !== undefined && (
+      {context.length > 0 && (
         <div className={styles.context}>
           <Link aria-label="About Kyle" className={styles.author} href="/about">
             <Image

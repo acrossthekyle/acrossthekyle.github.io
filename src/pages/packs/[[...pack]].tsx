@@ -73,7 +73,7 @@ function Page() {
               onClick={handleOnViewAllPacksClick}
               type="button"
             >
-              View all packs
+              <Images.Icons.Arrow left /> All packs
             </button>
             <h1 className={styles.heading} id="title">
               {pack.title}
