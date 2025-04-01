@@ -90,7 +90,8 @@ function Footer() {
             rel="noreferrer"
           >
             GitHub
-          </Link>. See you out there.
+          </Link>
+          . See you out there.
         </span>
         <Theme />
       </div>

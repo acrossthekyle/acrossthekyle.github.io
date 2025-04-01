@@ -39,19 +39,23 @@ function Legend({
         </li>
         {(categories || []).map(({ category, weight }, index: number) => (
           <li data-active={hoveredCategory === category} key={category}>
-            <span style={{ backgroundColor: Constants.CATEGORY_COLORS[index] }} />
+            <span
+              style={{ backgroundColor: Constants.CATEGORY_COLORS[index] }}
+            />
             <button onClick={() => onClick(category)} type="button">
               {category}
             </button>
             <div>
-              {Utils.convertGroupWeight(weight, units)} <small>{unitsLabel}</small>
+              {Utils.convertGroupWeight(weight, units)}{' '}
+              <small>{unitsLabel}</small>
             </div>
           </li>
         ))}
         <li className={`${styles.total} ${styles.bordered}`}>
           <span>Total</span>
           <span>
-            {Utils.convertGroupWeight(weightTotal, units)} <small>{unitsLabel}</small>
+            {Utils.convertGroupWeight(weightTotal, units)}{' '}
+            <small>{unitsLabel}</small>
           </span>
         </li>
         <li className={styles.total}>
@@ -64,13 +68,15 @@ function Legend({
         <li className={styles.total}>
           <span>Worn</span>
           <span>
-            {Utils.convertGroupWeight(weightWorn, units)} <small>{unitsLabel}</small>
+            {Utils.convertGroupWeight(weightWorn, units)}{' '}
+            <small>{unitsLabel}</small>
           </span>
         </li>
         <li className={styles.total}>
           <span>Base</span>
           <span>
-            {Utils.convertGroupWeight(weightBase, units)} <small>{unitsLabel}</small>
+            {Utils.convertGroupWeight(weightBase, units)}{' '}
+            <small>{unitsLabel}</small>
           </span>
         </li>
       </ul>

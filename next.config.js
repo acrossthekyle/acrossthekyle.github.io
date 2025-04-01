@@ -22,6 +22,6 @@ module.exports = withMDX({
         source: '/about',
         destination: '/posts/about',
       },
-    ]
+    ];
   },
 });

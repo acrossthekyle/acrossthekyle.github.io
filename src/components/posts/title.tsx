@@ -20,7 +20,7 @@ type Props = {
 function Title({ context, crumbs, tags, title, uri }: Props) {
   return (
     <div className={styles.container}>
-      {(tags !== undefined && tags !== '') && (
+      {tags !== undefined && tags !== '' && (
         <Tags className={styles.tags} items={tags.split(',')} />
       )}
       {crumbs?.length > 0 && (

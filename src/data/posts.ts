@@ -42,7 +42,9 @@ export const usePostStagesData = () => {
   const { fetchData, ...rest } = useFetch();
 
   useEffect(() => {
-    const { id } = Utils.getPostIdAndStageFromUriSegment(route.split('/posts/'));
+    const { id } = Utils.getPostIdAndStageFromUriSegment(
+      route.split('/posts/'),
+    );
 
     fetchData(`/api/posts/${id}/stages`);
     // eslint-disable-next-line react-hooks/exhaustive-deps
