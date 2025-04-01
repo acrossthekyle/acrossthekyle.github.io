@@ -1,4 +1,6 @@
-import type { Post } from '@/types/post';
+import type { Post } from '@/types';
+
+const GARMIN_URL = 'https://connect.garmin.com/modern/activity/';
 
 /************************/
 //
@@ -13,83 +15,82 @@ const post19 = {
   isPrivate: false,
   locationFull: 'Alpes, Europe',
   locationShort: 'Europe',
-  marker: undefined,
   snippet: `It's been a wish of mine to be able to go back to the European Alpes and re-visit an old friend: the Tour du Mont Blanc.`,
   stages: [
     {
       dateFull: `July 27th, 2024`,
       dateShort: `July 27th`,
-      garmin: `16648505816`,
+      garmin: `${GARMIN_URL}16648505816`,
       image: ``,
       title: `Les Houches to Auberge le Truc`,
     },
     {
       dateFull: `July 28th, 2024`,
       dateShort: `July 28th`,
-      garmin: `16648508499`,
+      garmin: `${GARMIN_URL}16648508499`,
       image: ``,
       title: `Auberge le Truc to Refuge de La Croix du Bonhomme`,
     },
     {
       dateFull: `July 29th, 2024`,
       dateShort: `July 29th`,
-      garmin: `16648510931`,
+      garmin: `${GARMIN_URL}16648510931`,
       image: ``,
       title: `Refuge de La Croix du Bonhomme to Refuge Robert Blanc`,
     },
     {
       dateFull: `July 30th, 2024`,
       dateShort: `July 30th`,
-      garmin: `16648513979`,
+      garmin: `${GARMIN_URL}16648513979`,
       image: ``,
       title: `Refuge Robert Blanc to Maison Veille`,
     },
     {
       dateFull: `July 31st, 2024`,
       dateShort: `July 31st`,
-      garmin: `16648516562`,
+      garmin: `${GARMIN_URL}16648516562`,
       image: ``,
       title: `Maison Veille to Rifugio Bonatti`,
     },
     {
       dateFull: `August 1st, 2024`,
       dateShort: `August 1st`,
-      garmin: `16648518987`,
+      garmin: `${GARMIN_URL}16648518987`,
       image: ``,
       title: `Rifugio Bonatti to Hotel Edelweiss`,
     },
     {
       dateFull: `August 2nd, 2024`,
       dateShort: `August 2nd`,
-      garmin: `16655300053`,
+      garmin: `${GARMIN_URL}16655300053`,
       image: ``,
       title: `Hotel Edelweiss to Gite Bon Abri`,
     },
     {
       dateFull: `August 3rd, 2024`,
       dateShort: `August 3rd`,
-      garmin: `16664831411`,
+      garmin: `${GARMIN_URL}16664831411`,
       image: ``,
       title: `Gite Bon Abri to Hotel Forclaz`,
     },
     {
       dateFull: `August 4th, 2024`,
       dateShort: `August 4th`,
-      garmin: `16680237006`,
+      garmin: `${GARMIN_URL}16680237006`,
       image: ``,
       title: `Hotel Forclaz to Auberge la Boerne`,
     },
     {
       dateFull: `August 5th, 2024`,
       dateShort: `August 5th`,
-      garmin: `16680239829`,
+      garmin: `${GARMIN_URL}16680239829`,
       image: ``,
       title: `Auberge la Boerne to Refuge de lo Flegere`,
     },
     {
       dateFull: `August 6th, 2024`,
       dateShort: `August 6th`,
-      garmin: `16719616815`,
+      garmin: `${GARMIN_URL}16719616815`,
       image: ``,
       title: `Refuge de lo Flegere to Les Houches`,
     },
@@ -239,7 +240,6 @@ const post16 = {
   isPrivate: false,
   locationFull: 'Rocky Mountains, Colorado',
   locationShort: 'Colorado',
-  marker: undefined,
   snippet: `The initial ascent was so easy, I had almost forgotten that I was hiking up the second tallest peak in the Rocky Mountains.`,
   tags: 'summit,day hike',
   title: 'Summitting the second highest peak in the Rockies',
@@ -259,7 +259,6 @@ const post15 = {
   isPrivate: false,
   locationFull: 'Rocky Mountains, Colorado',
   locationShort: 'Colorado',
-  marker: undefined,
   snippet: `A mountain's summit trail rating usually indicates its level difficulty with 1 being not very difficult. Mt. Belford was rated as one of those.`,
   tags: 'summit,day hike',
   title: 'Pushing myself towards the summit of Mt. Belford',
@@ -341,7 +340,6 @@ const post13 = {
   isPrivate: false,
   locationFull: 'Rocky Mountains, Colorado',
   locationShort: 'Colorado',
-  marker: undefined,
   snippet: `It's not very often that a single trail allows you to summit multiple mountain peaks in one day, and Decalibron is one of those trails.`,
   tags: 'summit,day hike',
   title: 'Summiting three mountain peaks before lunch',
@@ -361,7 +359,6 @@ const post12 = {
   isPrivate: false,
   locationFull: 'Rocky Mountains, Colorado',
   locationShort: 'Colorado',
-  marker: undefined,
   snippet: `This was a tough one not only because we had to gain nearly 6,000 feet of elevation, but we also ran out of water on our way up.`,
   tags: 'summit,day hike',
   title: 'Running out of water while on Mt. Shavano',
@@ -381,7 +378,6 @@ const post11 = {
   isPrivate: false,
   locationFull: 'Rocky Mountains, Colorado',
   locationShort: 'Colorado',
-  marker: undefined,
   snippet: `This route started above the treeline, which I always love, and the beginning of the trail went through an elongated bowl-shaped valley.`,
   tags: 'summit,day hike',
   title: 'Ending my trip on a high note by summiting Grays Peak',
@@ -401,7 +397,6 @@ const post10 = {
   isPrivate: false,
   locationFull: 'Rocky Mountains, Colorado',
   locationShort: 'Colorado',
-  marker: undefined,
   snippet: `One of the more popular 14,000+ foot summits in Colorado due to its close proximity to Denver, this peak offers an easy route.`,
   tags: 'summit,day hike',
   title: 'Having a pleasantly easy hike up Mt. Bierstadt',
@@ -421,7 +416,6 @@ const post9 = {
   isPrivate: false,
   locationFull: 'Rocky Mountains, Colorado',
   locationShort: 'Colorado',
-  marker: undefined,
   snippet: `After a restless night of sleep, and a long trek through dense woods, the trail finally opened up to reveal a wall of rock full of switchbacks.`,
   tags: 'summit,day hike',
   title: 'Navigating ridges and switchbacks on La Plata Peak in Colorado',
@@ -649,7 +643,6 @@ const post6 = {
   isPrivate: false,
   locationFull: 'Rocky Mountains, Colorado',
   locationShort: 'Colorado',
-  marker: undefined,
   snippet: `Most of the trail was in the woods, and a lot of the portions consisted of switchbacks made up of stairs carved out of the rock.`,
   tags: 'summit,day hike',
   title: 'Discovering a new outdoor passion on Quandary Peak',
@@ -1193,6 +1186,25 @@ const data: Post[] = [
     title: 'Vacationing in Cancun, Mexico',
     titleShort: 'Vacationing in Cancun',
     uri: '',
+  },
+
+  /************************/
+  //
+  // About Me
+  //
+  /************************/
+
+  {
+    date: `1987 - ${new Date().getFullYear()}`,
+    image: '2024/06/28/04f81498-bd5d-471f-93c6-5f1b5ba4201f.jpeg',
+    isPrivate: true,
+    locationFull: 'Chicago, IL',
+    locationShort: 'Chicago',
+    snippet: '',
+    tags: '',
+    title: 'About',
+    titleShort: 'About',
+    uri: '/posts/about',
   },
 ];
 

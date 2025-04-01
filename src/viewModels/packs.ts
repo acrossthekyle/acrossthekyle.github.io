@@ -3,12 +3,12 @@
 import { useRouter } from 'next/router';
 import { useCallback, useEffect, useState } from 'react';
 
-import { CHART_CATEGORY_COLORS } from '@/constants/charts';
+import Constants from '@/constants';
 import { usePacksData } from '@/data/packs';
-import type { ChartProps, Pack } from '@/types/packs';
-import { scrollToTop } from '@/utils/scroll';
+import type { ChartProps, Pack } from '@/types';
+import Utils from '@/utils';
 
-export const useViewModel = () => {
+export const usePacksViewModel = () => {
   const router = useRouter();
 
   const { data, isLoading, isReady } = usePacksData();
@@ -54,8 +54,8 @@ export const useViewModel = () => {
   const handleOnChartHover = useCallback(
     (label: string) => {
       setHoveredCategory(label);
-      // eslint-disable-next-line react-hooks/exhaustive-deps
     },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     [hoveredCategory],
   );
 
@@ -86,11 +86,11 @@ export const useViewModel = () => {
 
       localStorage.setItem('pack', JSON.stringify(pack));
 
-      scrollToTop();
+      Utils.scrollToTop();
 
       setCanRenderPacks(false);
-      // eslint-disable-next-line react-hooks/exhaustive-deps
     },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     [canRenderPacks],
   );
 
@@ -99,8 +99,8 @@ export const useViewModel = () => {
       localStorage.setItem('units', value);
 
       setUnits(value);
-      // eslint-disable-next-line react-hooks/exhaustive-deps
     },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     [units],
   );
 
@@ -122,7 +122,7 @@ export const useViewModel = () => {
   };
 };
 
-export const useChartViewModel = ({
+export const usePacksChartViewModel = ({
   categories,
   onClick,
   onHover,
@@ -143,7 +143,7 @@ export const useChartViewModel = ({
     data: {
       datasets: [
         {
-          backgroundColor: CHART_CATEGORY_COLORS,
+          backgroundColor: Constants.CATEGORY_COLORS,
           borderColor: 'transparent',
           data,
         },

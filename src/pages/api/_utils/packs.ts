@@ -1,6 +1,6 @@
 import { startCase } from 'lodash';
 
-import type { PackCategory, PackItem } from '@/types/packs';
+import type { PackCategory, PackItem } from '@/types';
 
 export function calculateWeight(items: PackItem[]) {
   const total = [...items].reduce((sum, item) => sum + item.weight, 0);

@@ -1,18 +1,15 @@
 import Head from 'next/head';
 
+import Components from '@/components';
 import { usePrintsData } from '@/data/prints';
 import styles from '@/styles/pages/shop/index.module.scss';
-import type { Print } from '@/types/print';
-import Figure from '@/ui/figure';
-import Loading from '@/ui/loading';
-import Masonry from '@/ui/masonry';
-import View from '@/ui/view';
+import type { Print } from '@/types';
 
 function Page() {
   const { data, isLoading, isReady } = usePrintsData();
 
   return (
-    <View className={styles.view}>
+    <Components.View className={styles.view}>
       <Head>
         <title>Kyle &mdash; Shop Prints</title>
       </Head>
@@ -24,12 +21,12 @@ function Page() {
         captured by me while marching through forests and over mountain-tops, or
         inspired by the nature of this planet.
       </p>
-      {isLoading && <Loading />}
+      {isLoading && <Components.Loading />}
       {isReady && (
-        <Masonry
+        <Components.Masonry
           items={data}
           renderItem={(item: Print, index: number) => (
-            <Figure
+            <Components.Figure
               date={item.date}
               image={item.image}
               preview={item.snippet}
@@ -40,7 +37,7 @@ function Page() {
           )}
         />
       )}
-    </View>
+    </Components.View>
   );
 }
 

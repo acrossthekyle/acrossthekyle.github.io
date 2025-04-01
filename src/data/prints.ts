@@ -15,7 +15,7 @@ export const usePrintData = () => {
   const { fetchData, ...rest } = useFetch();
 
   useEffect(() => {
-    const parts = asPath.split('/prints/');
+    const parts = asPath.split('/shop/');
 
     if (parts[1] !== '[slug]') {
       fetchData(`/api/prints/${parts[1]}`);

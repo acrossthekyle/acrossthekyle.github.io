@@ -2,12 +2,16 @@ import { isValidElement } from 'react';
 import { type MDXComponents } from 'mdx/types';
 import Link from 'next/link';
 
-import Checklist from './src/ui/checklist';
-import Pack from './src/ui/pack';
-import Stages from './src/ui/stages';
-import Stats from './src/ui/stats';
-import World from './src/ui/world';
-import Gallery from './src/ui/post/gallery';
+import Components from './src/components';
+
+const {
+  Checklist,
+  Gallery,
+  Pack,
+  Stages,
+  Stats,
+  World,
+} = Components.Posts;
 
 export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {

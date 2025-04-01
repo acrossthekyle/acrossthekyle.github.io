@@ -4,12 +4,10 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 
+import Components from '@/components';
 import { useItemsByTagData } from '@/data/tags';
-import styles from '@/styles/pages/tags/index.module.scss';
-import type { Post } from '@/types/post';
-import Figure from '@/ui/figure';
-import Masonry from '@/ui/masonry';
-import View from '@/ui/view';
+import styles from '@/styles/pages/tags/tag.module.scss';
+import type { Post } from '@/types';
 
 function Page() {
   const { query } = useRouter();
@@ -26,19 +24,19 @@ function Page() {
   }
 
   return (
-    <View className={styles.view}>
+    <Components.View className={styles.view}>
       <Head>
         <title>Kyle &mdash; Posts | Tagged "{query.tag}"</title>
       </Head>
       <h1 className={styles.header}>{query.tag}</h1>
       <p className={styles.total}>{`${data.total} Item(s)`}</p>
-      <Masonry
+      <Components.Masonry
         items={data.results}
         renderItem={(
           { date, image, snippet, tags, title, uri }: Post,
           index: number,
         ) => (
-          <Figure
+          <Components.Figure
             date={date}
             image={image}
             preview={snippet}
@@ -48,7 +46,7 @@ function Page() {
           />
         )}
       />
-    </View>
+    </Components.View>
   );
 }
 

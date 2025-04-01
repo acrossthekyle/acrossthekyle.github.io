@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 
-import type { PrintApiResponse } from '@/types/print';
+import type { PrintApiResponse } from '@/types';
 
 import results from '../_database/prints';
 

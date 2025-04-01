@@ -3,14 +3,9 @@
 import { ReactNode } from 'react';
 import Head from 'next/head';
 
+import Components from '@/components';
 import { usePostData } from '@/data/posts';
-import styles from '@/styles/pages/posts/index.module.scss';
-
-import Post from '@/ui/post';
-import Hero from '@/ui/post/hero';
-import Navigation from '@/ui/post/navigation';
-import Title from '@/ui/post/title';
-import View from '@/ui/view';
+import styles from '@/styles/pages/posts/layout.module.scss';
 
 type Props = {
   children: ReactNode | ReactNode[];
@@ -24,28 +19,30 @@ function Layout({ children }: Props) {
   }
 
   return (
-    <View className={styles.view}>
+    <Components.View className={styles.view}>
       <Head>
         <title>Kyle &mdash; Travels | {data.titleCombined}</title>
       </Head>
-      <Title
+      <Components.Posts.Title
         context={[data.date, data.gear]}
         crumbs={data.breadcrumbs}
         tags={data.tags}
         title={data.title}
         uri={data.uri}
       />
-      <Hero image={data.image} />
-      <Post>
+      <Components.Posts.Hero image={data.image} />
+      <Components.Posts.Post>
         {children}
-        <Navigation
-          newer={data.newer}
-          newerLabel={!data.hasStage ? undefined : 'Next Day'}
-          older={data.older}
-          olderLabel={!data.hasStage ? undefined : 'Previous Day'}
-        />
-      </Post>
-    </View>
+        {(data.newer || data.older) && (
+          <Components.Posts.Navigation
+            newer={data.newer}
+            newerLabel={!data.hasStage ? undefined : 'Next Day'}
+            older={data.older}
+            olderLabel={!data.hasStage ? undefined : 'Previous Day'}
+          />
+        )}
+      </Components.Posts.Post>
+    </Components.View>
   );
 }
 

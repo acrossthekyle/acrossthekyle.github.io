@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 
-import type { PostsTaggedApiResponse } from '@/types/post';
+import type { PostsTaggedApiResponse } from '@/types';
 
 import posts from '../_database/posts';
 import prints from '../_database/prints';

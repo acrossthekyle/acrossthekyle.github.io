@@ -2,17 +2,10 @@
 
 import Head from 'next/head';
 
+import Components from '@/components';
+import Images from '@/images';
 import styles from '@/styles/pages/packs/pack.module.scss';
-import Button from '@/ui/button';
-import ArrowIcon from '@/ui/icons/arrow';
-import Loading from '@/ui/loading';
-import View from '@/ui/view';
-import { useViewModel } from '@/viewModels/packs';
-
-import Categories from './_categories';
-import Chart from './_chart';
-import Legend from './_legend';
-import Packs from './_packs';
+import ViewModels from '@/viewModels';
 
 function Page() {
   const {
@@ -30,15 +23,15 @@ function Page() {
     isReady,
     pack,
     units,
-  } = useViewModel();
+  } = ViewModels.usePacksViewModel();
 
   return (
-    <View className={styles.view} element="div">
+    <Components.View className={styles.view} element="div">
       <Head>
         {!pack && <title>Kyle &mdash; Packs</title>}
         {pack && <title>Kyle &mdash; Packs | {pack.title}</title>}
       </Head>
-      {isLoading && <Loading />}
+      {isLoading && <Components.Loading />}
       {isReady && pack && (
         <>
           <aside className={styles.aside} data-browse-packs={canRenderPacks}>
@@ -48,24 +41,24 @@ function Page() {
                 onClick={handleOnViewStatsClick}
                 type="button"
               >
-                Back to stats <ArrowIcon right />
+                Back to stats <Images.Icons.Arrow right />
               </button>
               <h3 className={styles.heading}>Packs</h3>
               <div className={styles.units}>
-                <Button
+                <Components.Button
                   className={styles.unit}
                   mode={units === 'imperial' ? 'primary' : 'secondary'}
                   onClick={() => handleOnUnitsClick('imperial')}
                   text="Imperial (oz/lbs)"
                 />
-                <Button
+                <Components.Button
                   className={styles.unit}
                   mode={units === 'metric' ? 'primary' : 'secondary'}
                   onClick={() => handleOnUnitsClick('metric')}
                   text="Metric (g/kg)"
                 />
               </div>
-              <Packs
+              <Components.Packs.Packs
                 active={pack?.slug}
                 className={canRenderPacks ? styles.visible : undefined}
                 onClick={handleOnPackClick}
@@ -89,14 +82,14 @@ function Page() {
               <div className={styles.details}>
                 <div className={styles.stats}>
                   <div className={styles.chart}>
-                    <Chart
+                    <Components.Packs.Chart
                       categories={pack.categories}
                       onClick={handleOnChartClick}
                       onHover={handleOnChartHover}
                       units={units}
                     />
                   </div>
-                  <Legend
+                  <Components.Packs.Legend
                     categories={pack.categories}
                     hoveredCategory={hoveredCategory}
                     onClick={handleOnLegendClick}
@@ -107,13 +100,16 @@ function Page() {
                     weightWorn={pack.weightWorn}
                   />
                 </div>
-                <Categories categories={pack.categories} units={units} />
+                <Components.Packs.Categories
+                  categories={pack.categories}
+                  units={units}
+                />
               </div>
             </div>
           </main>
         </>
       )}
-    </View>
+    </Components.View>
   );
 }
 

@@ -13,7 +13,7 @@ export const ThemeContext = createContext({
   },
 });
 
-export const Theme = ({ children }: Props) => {
+const Theme = ({ children }: Props) => {
   const [theme, setTheme] = useState('dark');
 
   return (
@@ -22,3 +22,5 @@ export const Theme = ({ children }: Props) => {
     </ThemeContext.Provider>
   );
 };
+
+export default Theme;

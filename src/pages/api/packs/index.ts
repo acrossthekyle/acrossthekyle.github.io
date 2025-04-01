@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 
-import type { PacksApiResponse } from '@/types/packs';
+import type { PacksApiResponse } from '@/types';
 
 import results from '../_database/packs';
 import {

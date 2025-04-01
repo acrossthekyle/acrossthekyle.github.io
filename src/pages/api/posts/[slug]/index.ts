@@ -1,9 +1,8 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 
-import type { PostApiResponse } from '@/types/post';
+import type { PostApiResponse } from '@/types';
 
-import data from '../../_database/posts';
-import { getPublicPosts } from '../../_utils/posts';
+import posts from '../../_database/posts';
 
 export default function handler(
   request: NextApiRequest,
@@ -11,8 +10,6 @@ export default function handler(
 ) {
   const query = request.query.slug;
   const stageIndex = Number(request.query.stageIndex);
-
-  const posts = getPublicPosts(data);
 
   const post = posts.find(({ uri }) => uri === `/posts/${query}`) ?? null;
   const postIndex = posts.findIndex(({ uri }) => uri === `/posts/${query}`);
@@ -27,46 +24,48 @@ export default function handler(
   let newer = undefined;
   let older = undefined;
 
-  if (stageIndex > -1) {
-    const updatedStageIndex = stageIndex - 1;
+  if (!post.isPrivate) {
+    if (stageIndex > -1) {
+      const updatedStageIndex = stageIndex - 1;
 
-    stage = {
-      ...post.stages[updatedStageIndex],
-      index: updatedStageIndex,
-    };
+      stage = {
+        ...post.stages[updatedStageIndex],
+        index: updatedStageIndex,
+      };
 
-    if (updatedStageIndex >= 0) {
-      if (post?.stages[updatedStageIndex + 1] !== undefined) {
+      if (updatedStageIndex >= 0) {
+        if (post?.stages[updatedStageIndex + 1] !== undefined) {
+          newer = {
+            image: post?.stages[updatedStageIndex + 1].image,
+            title: post?.stages[updatedStageIndex + 1].title,
+            uri: `${post?.uri}/${String(updatedStageIndex + 2).padStart(2, '0')}`,
+          };
+        }
+
+        if (post?.stages[updatedStageIndex - 1] !== undefined) {
+          older = {
+            image: post?.stages[updatedStageIndex - 1].image,
+            title: post?.stages[updatedStageIndex - 1].title,
+            uri: `${post?.uri}/${String(updatedStageIndex).padStart(2, '0')}`,
+          };
+        }
+      }
+    } else {
+      if (posts[postIndex - 1] !== undefined) {
         newer = {
-          image: post?.stages[updatedStageIndex + 1].image,
-          title: post?.stages[updatedStageIndex + 1].title,
-          uri: `${post?.uri}/${String(updatedStageIndex + 2).padStart(2, '0')}`,
+          image: posts[postIndex - 1].image,
+          title: posts[postIndex - 1].title,
+          uri: posts[postIndex - 1].uri,
         };
       }
 
-      if (post?.stages[updatedStageIndex - 1] !== undefined) {
+      if (posts[postIndex + 1] !== undefined) {
         older = {
-          image: post?.stages[updatedStageIndex - 1].image,
-          title: post?.stages[updatedStageIndex - 1].title,
-          uri: `${post?.uri}/${String(updatedStageIndex).padStart(2, '0')}`,
+          image: posts[postIndex + 1].image,
+          title: posts[postIndex + 1].title,
+          uri: posts[postIndex + 1].uri,
         };
       }
-    }
-  } else {
-    if (posts[postIndex - 1] !== undefined) {
-      newer = {
-        image: posts[postIndex - 1].image,
-        title: posts[postIndex - 1].title,
-        uri: posts[postIndex - 1].uri,
-      };
-    }
-
-    if (posts[postIndex + 1] !== undefined) {
-      older = {
-        image: posts[postIndex + 1].image,
-        title: posts[postIndex + 1].title,
-        uri: posts[postIndex + 1].uri,
-      };
     }
   }
 

@@ -1,29 +1,23 @@
 import Head from 'next/head';
 import Link from 'next/link';
 
-import { ABOUT_ME_BLURB } from '@/constants/general';
+import Components from '@/components';
+import Constants from '@/constants';
 import { usePostsData } from '@/data/posts';
 import styles from '@/styles/pages/home/index.module.scss';
-import type { Post } from '@/types/post';
-import Figure from '@/ui/figure';
-import Image from '@/ui/image';
-import Loading from '@/ui/loading';
-import Masonry from '@/ui/masonry';
-import Shortcuts from '@/ui/shortcuts';
-import View from '@/ui/view';
-import Skeleton from '@/ui/skeleton';
+import type { Post } from '@/types';
 
 function Page() {
   const { data, isLoading, isReady } = usePostsData();
 
   return (
-    <View className={styles.view}>
+    <Components.View className={styles.view}>
       <Head>
         <title>Kyle &mdash; Thru-hiker and Programmer based in Chicago</title>
       </Head>
       <div className={styles.header}>
         <Link aria-hidden="true" className={styles.image} href="/about">
-          <Image
+          <Components.Image
             alt=""
             height={432}
             sizes="25vw"
@@ -32,19 +26,19 @@ function Page() {
           />
         </Link>
         <h1 className={styles.title}>Kyle Gilbert</h1>
-        <p className={styles.text}>{ABOUT_ME_BLURB}</p>
-        <Shortcuts
+        <p className={styles.text}>{Constants.ABOUT_ME_BLURB}</p>
+        <Components.Shortcuts
           childClassName={styles.link}
           parentClassName={styles.links}
           shouldLabel
         />
       </div>
-      {isLoading && <Loading />}
+      {isLoading && <Components.Loading />}
       {isReady && (
-        <Masonry
+        <Components.Masonry
           items={data}
           renderItem={(item: Post, index: number) => (
-            <Figure
+            <Components.Figure
               date={item.date}
               image={item.image}
               preview={item.snippet}
@@ -55,7 +49,7 @@ function Page() {
           )}
         />
       )}
-    </View>
+    </Components.View>
   );
 }
 

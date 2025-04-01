@@ -1,4 +1,4 @@
-import type { PrintFromDatabase } from '@/types/print';
+import type { PrintFromDatabase } from '@/types';
 
 const data: PrintFromDatabase[] = [
   {
@@ -12,7 +12,7 @@ const data: PrintFromDatabase[] = [
     snippet: `The gateway to Conca on the last day of my 13 day southbound GR20 adventure, and the end of a beatifuly unique experience.`,
     tags: ['landscape'],
     title: 'GR20 Gateway in Corsica Print',
-    uri: '/shop/prints/gr20-gateway-in-corsica',
+    uri: '/shop/gr20-gateway-in-corsica',
   },
   {
     date: 'Nov 4th, 2019',
@@ -25,7 +25,7 @@ const data: PrintFromDatabase[] = [
     snippet: `A sunrise in the Himalayan mountains of Nepal taken from Annapurna Basecamp after finishing the Annapurna Circuit a couple of days earlier.`,
     tags: ['landscape'],
     title: 'Annapurna Basecamp Sunrise Print',
-    uri: '/shop/prints/annapurna-basecamp-sunrise',
+    uri: '/shop/annapurna-basecamp-sunrise',
   },
   {
     date: 'Feb 19th, 2020',
@@ -38,7 +38,7 @@ const data: PrintFromDatabase[] = [
     snippet: `Morning on the second day of the "O" Circuit of Patagonia and I captured this picture of the mountains with tall grasses blowing in the wind.`,
     tags: ['landscape'],
     title: 'Patagonia Serón Print',
-    uri: '/shop/prints/patagonia-seron',
+    uri: '/shop/patagonia-seron',
   },
   {
     date: 'Aug 5th, 2024',
@@ -51,7 +51,7 @@ const data: PrintFromDatabase[] = [
     snippet: `Taken on the second to last day of the Tour du Mont Blanc behind a mountain lake with the Mont Blanc range in the background.`,
     tags: ['landscape'],
     title: 'Mont Blanc Mountain Lake Print',
-    uri: '/shop/prints/mont-blanc-mountain-lake',
+    uri: '/shop/mont-blanc-mountain-lake',
   },
   {
     date: 'Feb 23rd, 2020',
@@ -64,7 +64,7 @@ const data: PrintFromDatabase[] = [
     snippet: `I captured this picture of the morning sunrise light saturating the clouds around this mountain after a stormy night on the "O" Circuit in Chile.`,
     tags: ['landscape'],
     title: 'Patagonia Sunrise Print',
-    uri: '/shop/prints/patagonia-sunrise',
+    uri: '/shop/patagonia-sunrise',
   },
   {
     date: 'July 20th, 2019',
@@ -77,7 +77,7 @@ const data: PrintFromDatabase[] = [
     snippet: `The Dolomite mountains in northern Italy have some of the most unique formations I've ever seen, and this one is no exception.`,
     tags: ['landscape'],
     title: 'Alta Via Dolomites Print',
-    uri: '/shop/prints/alta-via-mountain-throne',
+    uri: '/shop/alta-via-mountain-throne',
   },
   {
     date: 'June 15th, 2018',
@@ -90,7 +90,7 @@ const data: PrintFromDatabase[] = [
     snippet: `A long day, heading to Fromista along the Camino de Santiago.`,
     tags: ['landscape'],
     title: 'Camino de Santiago Fromista Print',
-    uri: '/shop/prints/camino-de-santiago-fromista',
+    uri: '/shop/camino-de-santiago-fromista',
   },
   {
     date: 'June 29th, 2023',
@@ -103,7 +103,7 @@ const data: PrintFromDatabase[] = [
     snippet: `One of the most beautiful sights in nature when the clouds form low to the ground, and you are hiking high above them.`,
     tags: ['landscape'],
     title: 'Cloud Inversion in Corsica Print',
-    uri: '/shop/prints/cloud-inversion-in-corsica',
+    uri: '/shop/cloud-inversion-in-corsica',
   },
   {
     date: 'Dec 29th, 2022',
@@ -116,7 +116,7 @@ const data: PrintFromDatabase[] = [
     snippet: `One of the seven ancient wonders of the world, the pyramids in Egypt at the Giza Plateau did not dissapoint`,
     tags: ['architecture'],
     title: 'Pyramid of Egypt Print',
-    uri: '/shop/prints/pyramid-of-egypt',
+    uri: '/shop/pyramid-of-egypt',
   },
 ];
 

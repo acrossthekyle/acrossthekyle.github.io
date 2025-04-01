@@ -1,4 +1,4 @@
-import type { PackFromDatabase } from '@/types/packs';
+import type { PackFromDatabase } from '@/types';
 
 import altaViaOne from './alta-via-one';
 import annapurnaCircuit from './annapurna-circuit';

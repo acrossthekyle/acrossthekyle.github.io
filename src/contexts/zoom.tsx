@@ -13,7 +13,7 @@ export const ZoomContext = createContext({
   },
 });
 
-export const Zoom = ({ children }: Props) => {
+const Zoom = ({ children }: Props) => {
   const [isZoomed, setIsZoomed] = useState(false);
 
   useEffect(() => {
@@ -67,3 +67,5 @@ export const Zoom = ({ children }: Props) => {
     </ZoomContext.Provider>
   );
 };
+
+export default Zoom;

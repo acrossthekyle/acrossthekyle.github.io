@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 
-import type { PublicPostsApiResponse } from '@/types/post';
+import type { PublicPostsApiResponse } from '@/types';
 
 import data from '../_database/posts';
 import { getPublicPosts } from '../_utils/posts';

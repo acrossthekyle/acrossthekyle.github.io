@@ -3,7 +3,7 @@
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 
-import { getPostIdAndStageFromUriSegment } from '@/utils/http';
+import Utils from '@/utils';
 
 import { useFetch } from './abstract';
 
@@ -25,7 +25,7 @@ export const usePostData = () => {
   const { fetchData, ...rest } = useFetch();
 
   useEffect(() => {
-    const { id, stageIndex } = getPostIdAndStageFromUriSegment(
+    const { id, stageIndex } = Utils.getPostIdAndStageFromUriSegment(
       route.split('/posts/'),
     );
 
@@ -42,7 +42,7 @@ export const usePostStagesData = () => {
   const { fetchData, ...rest } = useFetch();
 
   useEffect(() => {
-    const { id } = getPostIdAndStageFromUriSegment(route.split('/posts/'));
+    const { id } = Utils.getPostIdAndStageFromUriSegment(route.split('/posts/'));
 
     fetchData(`/api/posts/${id}/stages`);
     // eslint-disable-next-line react-hooks/exhaustive-deps

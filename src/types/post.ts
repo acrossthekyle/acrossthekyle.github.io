@@ -1,4 +1,4 @@
-import type { Breadcrumb } from './breadcrumb';
+import type { Breadcrumb } from './components';
 
 export type Stage = {
   dateFull: string;
@@ -15,7 +15,7 @@ export type Post = {
   isPrivate: boolean;
   locationFull: string;
   locationShort: string;
-  marker: {
+  marker?: {
     left: string;
     top: string;
   };

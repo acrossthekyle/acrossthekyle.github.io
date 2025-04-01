@@ -1,4 +1,4 @@
-export const CHART_CATEGORY_COLORS = [
+export const CATEGORY_COLORS = [
   '#D1B1A4',
   '#E07A5F',
   '#3D405B',

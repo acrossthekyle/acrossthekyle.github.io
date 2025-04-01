@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 
-import type { Stage } from '@/types/post';
+import type { Stage } from '@/types';
 
 import data from '../../_database/posts';
 import { getPublicPosts } from '../../_utils/posts';

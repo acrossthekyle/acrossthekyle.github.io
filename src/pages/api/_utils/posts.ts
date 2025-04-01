@@ -1,5 +1,5 @@
-import { RESUME_URL } from '@/constants/urls';
-import type { Post, QueriedPosts } from '@/types/post';
+import Constants from '@/constants';
+import type { Post, QueriedPosts } from '@/types';
 
 export function getPublicPosts(posts: Post[]): Post[] {
   return posts.filter(({ isPrivate }) => !isPrivate);
@@ -57,7 +57,7 @@ export function filterPostsByQuery(
             {
               date: '(Opens in a new tab/window)',
               title: 'My Resume',
-              uri: RESUME_URL,
+              uri: Constants.RESUME_URL,
             },
           ];
         }

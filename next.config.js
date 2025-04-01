@@ -16,4 +16,12 @@ module.exports = withMDX({
     ],
   },
   pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
+  async rewrites() {
+    return [
+      {
+        source: '/about',
+        destination: '/posts/about',
+      },
+    ]
+  },
 });
