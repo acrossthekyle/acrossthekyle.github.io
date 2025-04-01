@@ -9,13 +9,6 @@ export default function handler(
   response: NextApiResponse<PrintsApiResponse[]>,
 ) {
   response.status(200).json(
-    results.map(({ date, image, snippet, tags, title, uri }) => ({
-      date,
-      image,
-      snippet,
-      tags,
-      title,
-      uri,
-    })),
+    results.map(({ paymentLinks, ...rest }) => (rest)),
   );
 }

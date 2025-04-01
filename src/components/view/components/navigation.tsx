@@ -1,4 +1,7 @@
+'use client';
+
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 type Props = {
   containerClassName?: string;
@@ -11,24 +14,26 @@ function Navigation({
   containerClassName = '',
   onClick,
 }: Props) {
+  const { pathname } = useRouter();
+
   return (
     <ul className={containerClassName}>
-      <li className={linkClassName}>
+      <li className={linkClassName} data-active={pathname === '/'}>
         <Link href="/" onClick={onClick}>
           Home
         </Link>
       </li>
-      <li className={linkClassName}>
+      <li className={linkClassName} data-active={pathname === '/about'}>
         <Link href="/about" onClick={onClick}>
           About
         </Link>
       </li>
-      <li className={linkClassName}>
+      <li className={linkClassName} data-active={pathname === '/packs'}>
         <Link href="/packs" onClick={onClick}>
           Packs
         </Link>
       </li>
-      <li className={linkClassName}>
+      <li className={linkClassName} data-active={pathname === '/shop'}>
         <Link href="/shop" onClick={onClick}>
           Shop
         </Link>

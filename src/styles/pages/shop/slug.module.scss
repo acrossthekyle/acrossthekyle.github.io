@@ -12,7 +12,7 @@
     position: relative;
 
     .image {
-      border-radius: 0.125rem;
+      border-radius: 0.25rem;
       display: flex;
       flex: 1;
       flex-direction: column;
@@ -20,6 +20,7 @@
       position: relative;
 
       img {
+        border-radius: 0.25rem;
         height: 100%;
         object-fit: cover;
         width: 100%;
@@ -63,7 +64,7 @@
           grid-gap: 1.25rem;
           grid-template-columns: repeat(3, minmax(calc(33% - 2.5rem), 1fr));
           margin: 0 auto 2.25rem;
-          padding: 0 4rem;
+          padding: 0 1rem;
           position: relative;
 
           .button {

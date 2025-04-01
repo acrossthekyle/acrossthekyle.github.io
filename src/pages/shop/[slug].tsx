@@ -148,7 +148,7 @@ function Page() {
               {frame > 0 ? (
                 <small>Choose size, and frame color, during checkout</small>
               ) : (
-                <small>Choose size during checkout</small>
+                <small>Choose size and frame during checkout</small>
               )}
               <div className={styles.links}>
                 <Link

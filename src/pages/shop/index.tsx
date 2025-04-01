@@ -20,19 +20,13 @@ function Page() {
       </p>
       {isLoading && <Components.Loading />}
       {isReady && (
-        <Components.Masonry
-          items={data}
-          renderItem={(item: Print, index: number) => (
-            <Components.Figure
-              date={item.date}
-              image={item.image}
-              preview={item.snippet}
-              tags={item.tags}
-              title={item.title}
-              uri={item.uri}
-            />
-          )}
-        />
+        <div className={styles.grid}>
+          {data.map((item) => (
+            <div className={styles.item} key={item.title}>
+              <Components.Shop.Card item={item} />
+            </div>
+          ))}
+        </div>
       )}
     </Components.View>
   );

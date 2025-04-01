@@ -57,7 +57,10 @@ function Figure({ date, image, preview, tags, title, uri }: Props) {
             </h2>
             <p className={styles.preview}>
               {truncate(preview, { length: 156, separator: ' ' })}
-              <span aria-hidden="true">..</span>
+              <a href={uri}>
+                <span aria-hidden="true">..</span>
+                <span>more</span>
+              </a>
             </p>
             {date && (
               <div className={styles.context}>

@@ -14,9 +14,28 @@
     line-height: 1.5;
     margin: 0 auto;
     margin-bottom: 3.25rem;
-    max-width: 30rem;
     padding: 0 2rem;
     position: relative;
     text-align: center;
+  }
+
+  .grid {
+    display: grid;
+    grid-auto-rows: 1rem;
+    grid-gap: 1.25rem;
+    grid-template-columns: repeat(3, minmax(calc(33% - 2.5rem), 1fr));
+    margin: 0 auto;
+    max-width: var(--max-width);
+    padding-top: 2rem;
+    position: relative;
+
+    .item {
+      display: flex;
+      flex-direction: column;
+      grid-row: span 12;
+      margin-bottom: 1rem;
+      padding: 2rem;
+      position: relative;
+    }
   }
 }
