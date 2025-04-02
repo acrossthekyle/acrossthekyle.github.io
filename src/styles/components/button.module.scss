@@ -57,12 +57,12 @@
   }
 
   &[data-mode='secondary'] {
-    background: var(--load-more-background);
-    color: var(--load-more-text);
+    background: var(--button-secondary-background);
+    color: var(--button-secondary-text);
 
     @include on.hover {
       background: var(--button-hover);
-      color: var(--load-more-hover-text);
+      color: var(--button-secondary-hover-text);
     }
   }
 

@@ -37,23 +37,10 @@
     }
   }
 
-  @include screen.large {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-  }
-
   @include screen.medium {
-    padding-left: 5rem;
-    padding-right: 5rem;
-
     .grid {
       grid-template-columns: repeat(2, minmax(calc(50% - 16rem), 1fr));
     }
-  }
-
-  @include screen.small {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
   }
 
   @include screen.compact {

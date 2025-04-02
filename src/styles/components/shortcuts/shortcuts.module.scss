@@ -28,13 +28,5 @@
         width: 1rem;
       }
     }
-
-    @include on.hover {
-      background: var(--footer-link-hover-background);
-
-      svg {
-        fill: var(--footer-link-hover-icon);
-      }
-    }
   }
 }

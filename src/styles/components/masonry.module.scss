@@ -44,27 +44,27 @@
 
   @include screen.large {
     .items {
-      padding: 2rem 1.25rem 0;
+      padding: 2rem 0 0;
     }
   }
 
   @include screen.medium {
     .items {
       grid-template-columns: repeat(2, minmax(calc(50% - 2.5rem), 1fr));
-      padding: 2rem 5rem 0;
+      padding: 2rem 0 0;
     }
   }
 
   @include screen.small {
     .items {
-      padding: 2rem 1rem 0;
+      padding: 2rem 0 0;
     }
   }
 
   @include screen.compact {
     .items {
       grid-template-columns: repeat(1, minmax(calc(100% - 2.5rem), 1fr));
-      padding: 2rem 1rem 0;
+      padding: 2rem 0 0;
 
       .item {
         grid-row: span 14;

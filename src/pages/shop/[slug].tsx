@@ -138,7 +138,7 @@ function Page() {
               id="purchase"
               text={
                 <>
-                  Purchase via <Images.Icons.Stripe className={styles.stripe} />
+                  Pay with <Images.Icons.Stripe className={styles.stripe} />
                 </>
               }
             />

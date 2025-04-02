@@ -1,7 +1,6 @@
 @use 'styles/mixins/_screen' as screen;
 
 [data-theme='light'] {
-  --blockquote-quotes: #dddddd;
   --body: #ffffff;
   --border: #eeeeee;
   --button: #ffe66a;
@@ -11,60 +10,37 @@
   --button-disabled: #fafafa;
   --button-disabled-border: #eeeeee;
   --button-disabled-text: #bbbbbb;
+  --button-secondary-background: #17181e;
+  --button-secondary-text: #ffffff;
+  --button-secondary-hover-text: #17181e;
   --checkmark: #ffdd37;
   --copyright-text: #ffffff;
   --copyright-text-dim: #bbbbbb;
   --footer-background: #17181e;
   --footer-columns-header-after-background: #e6e6e6;
   --footer-columns-header-before-background: #17181e;
-  --footer-link-background: #17181e;
-  --footer-link-icon: #ffffff;
-  --footer-link-hover-background: #ffdd37;
-  --footer-link-hover-icon: #17181e;
+  --footer-shortcut-link-background: #17181e;
+  --footer-shortcut-link-icon: #ffffff;
+  --footer-shortcut-link-hover-background: #ffdd37;
+  --footer-shortcut-link-hover-icon: #17181e;
   --header-border: #eeeeee;
   --header-box-shadow: rgba(0, 0, 0, 4%);
-  --home-about-link-background: #17181e;
-  --home-about-link-icon: #ffffff;
-  --home-about-link-hover-background: #ffdd37;
-  --home-about-link-hover-icon: #17181e;
-  --load-more-background: #17181e;
-  --load-more-text: #ffffff;
-  --load-more-hover-text: #17181e;
+  --home-shortcut-link-background: #17181e;
+  --home-shortcut-link-icon: #ffffff;
+  --home-shortcut-link-hover-background: #ffdd37;
+  --home-shortcut-link-hover-icon: #17181e;
   --menu-background: rgba(255, 255, 255, 0.97);
-  --menu-icon: #ffffff;
   --menu-icon-active: #2d2d2d;
   --menu-icon-dark: #2d2d2d;
   --menu-text: #2d2d2d;
   --nav-link-hover-text: #17181e;
   --nav-link-hover-background: #ffe66a;
   --packs-highlight: #ffe66a;
-  --quote-background: #f2f2f2;
   --search-background: rgba(255, 255, 255, 0.9);
   --shop-frame-background: #ffffff;
   --shop-frame-mat: #ffffff;
-  --shop-frame-border-default: #000000;
-  --shop-frame-border-hover: #ffffff;
-  --shop-frame-border-shadow-default: #333333;
-  --shop-frame-border-shadow-default-alt: #111111;
-  --shop-frame-border-shadow-hover: #bbbbbb;
-  --shop-frame-border-shadow-hover-alt: #444444;
-  --shop-frame-shadow-default: #555555;
-  --shop-frame-shadow-hover: #aaaaaa;
-  --shop-frame-border-fixed-white-box-shadow: #bbbbbb;
-  --shop-frame-border-fixed-black-box-shadow: #444444;
-  --shop-frames-border: #5d5d5d;
-  --shop-frames-fill: repeating-linear-gradient(
-    45deg,
-    #ffffff,
-    #ffffff 10px,
-    #dddddd 10px,
-    #dddddd 11px
-  );
-  --shop-frames-mat-background: transparent;
-  --shop-frames-mat-shadow: #ccc;
-  --shop-frames-selected: #ffdd37;
-  --shop-frames-shadow: #888;
-  --shop-frames-text: #ffffff;
+  --shop-frame-border-white-box-shadow: #bbbbbb;
+  --shop-frame-border-black-box-shadow: #444444;
   --skeleton-background: #dddbdd;
   --skeleton-background-shimmer: 255, 255, 255;
   --tag: #ffe66a;
@@ -76,19 +52,15 @@
   --text-dimmed: #aaaaaa;
   --text-link: #ffdd37;
   --timeline-bar: #eeeeee;
-  --timeline-date: #17181e;
   --timeline-day: #eeeeee;
   --timeline-marker: #ffdd37;
-  --title-accent: #ffdd37;
   --travels-title-hover: #ffe66a;
-  --trees-fill: #ffffff;
   --world-marker: #f0473c;
   --world-marker-origin: #079418;
   --world-marker-private: #9c9291;
 }
 
 [data-theme='dark'] {
-  --blockquote-quotes: #2d2d2d;
   --body: #1d1d1d;
   --border: #4d4d4d;
   --button: #ffdd37;
@@ -98,60 +70,37 @@
   --button-disabled: #3d3d3d;
   --button-disabled-border: #4d4d4d;
   --button-disabled-text: #7d7d7d;
+  --button-secondary-background: #ffffff;
+  --button-secondary-text: #17181e;
+  --button-secondary-hover-text: #17181e;
   --checkmark: #ffdd37;
   --copyright-text: #ffffff;
   --copyright-text-dim: #bbbbbb;
   --footer-background: #111111;
   --footer-columns-header-after-background: #3d3d3d;
   --footer-columns-header-before-background: #8d8d8d;
-  --footer-link-background: #111111;
-  --footer-link-icon: #ffffff;
-  --footer-link-hover-background: #ffdd37;
-  --footer-link-hover-icon: #17181e;
+  --footer-shortcut-link-background: #111111;
+  --footer-shortcut-link-icon: #ffffff;
+  --footer-shortcut-link-hover-background: #ffdd37;
+  --footer-shortcut-link-hover-icon: #17181e;
   --header-border: #2a2a2a;
   --header-box-shadow: rgba(0, 0, 0, 30%);
-  --home-about-link-background: #ffffff;
-  --home-about-link-icon: #17181e;
-  --home-about-link-hover-background: #ffdd37;
-  --home-about-link-hover-icon: #17181e;
-  --load-more-background: #ffffff;
-  --load-more-text: #17181e;
-  --load-more-hover-text: #17181e;
+  --home-shortcut-link-background: #ffffff;
+  --home-shortcut-link-icon: #17181e;
+  --home-shortcut-link-hover-background: #ffdd37;
+  --home-shortcut-link-hover-icon: #17181e;
   --menu-background: rgba(29, 29, 29, 0.97);
-  --menu-icon: #ffffff;
   --menu-icon-active: #ffffff;
   --menu-icon-dark: #ffffff;
   --menu-text: #ffffff;
   --nav-link-hover-text: #17181e;
   --nav-link-hover-background: #ffe66a;
   --packs-highlight: #ffe66a;
-  --quote-background: #171717;
   --search-background: rgba(0, 0, 0, 0.9);
   --shop-frame-background: #ffffff;
   --shop-frame-mat: #ffffff;
-  --shop-frame-border-default: #ffffff;
-  --shop-frame-border-hover: #000000;
-  --shop-frame-border-shadow-default: #bbbbbb;
-  --shop-frame-border-shadow-default-alt: #444444;
-  --shop-frame-border-shadow-hover: #333333;
-  --shop-frame-border-shadow-hover-alt: #111111;
-  --shop-frame-shadow-default: #222222;
-  --shop-frame-shadow-hover: #111111;
-  --shop-frame-border-fixed-white-box-shadow: #000000;
-  --shop-frame-border-fixed-black-box-shadow: #111111;
-  --shop-frames-border: #000000;
-  --shop-frames-fill: repeating-linear-gradient(
-    45deg,
-    #1d1d1d,
-    #1d1d1d 10px,
-    #2d2d2d 10px,
-    #2d2d2d 11px
-  );
-  --shop-frames-mat-background: #888888;
-  --shop-frames-mat-shadow: #111111;
-  --shop-frames-selected: #ffdd37;
-  --shop-frames-shadow: #111111;
-  --shop-frames-text: #1d1d1d;
+  --shop-frame-border-white-box-shadow: #000000;
+  --shop-frame-border-black-box-shadow: #111111;
   --skeleton-background: #2d2d2d;
   --skeleton-background-shimmer: 85, 85, 85;
   --tag: #ffe66a;
@@ -163,12 +112,9 @@
   --text-dimmed: #aaaaaa;
   --text-link: #ffe66a;
   --timeline-bar: #eeeeee;
-  --timeline-date: #ffdd37;
   --timeline-day: #272727;
   --timeline-marker: #ffdd37;
-  --title-accent: #ffdd37;
   --travels-title-hover: #ffe66a;
-  --trees-fill: #ffffff;
   --world-marker: #f0473c;
   --world-marker-origin: #079418;
   --world-marker-private: #9c9291;

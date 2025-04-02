@@ -2,7 +2,7 @@
 @use 'styles/mixins/_screen' as screen;
 
 .categories {
-  margin-left: 2rem;
+  margin-left: 1rem;
 
   .list {
     position: relative;
@@ -144,12 +144,14 @@
           }
         }
       }
+
+      .color {
+        left: -1.25rem;
+      }
     }
   }
 
   @include screen.tiny {
-    margin-left: 1.25rem;
-
     .list {
       h3 {
         margin-bottom: 0;
