@@ -45,7 +45,7 @@ function Figure({ item }: Props) {
             />
           </Link>
           <figcaption className={styles.caption}>
-            <p aria-level="2" id={uuid} role="heading">{item.title}</p>
+            <Link href={item.uri}>{item.title}</Link>
             <p>From $100.00</p>
           </figcaption>
         </figure>

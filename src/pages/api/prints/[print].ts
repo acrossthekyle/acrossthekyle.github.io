@@ -20,7 +20,9 @@ export default function handler(
       paymentLinks: result.paymentLinks.map(
         (paymentLink) => `https://buy.stripe.com/${paymentLink}`,
       ),
+      snippet: result.snippet,
       title: result.title,
+      uri: result.uri,
     });
   }
 }

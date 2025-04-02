@@ -8,7 +8,5 @@ export default function handler(
   request: NextApiRequest,
   response: NextApiResponse<PrintsApiResponse[]>,
 ) {
-  response.status(200).json(
-    results.map(({ paymentLinks, ...rest }) => (rest)),
-  );
+  response.status(200).json(results.map(({ paymentLinks, ...rest }) => rest));
 }

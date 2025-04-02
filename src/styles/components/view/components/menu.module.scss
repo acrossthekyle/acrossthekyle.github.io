@@ -7,7 +7,7 @@
   height: 3rem;
   justify-content: center;
   position: absolute;
-  right: 0.65rem;
+  right: 4.25rem;
   top: 0.65rem;
   width: 3rem;
   z-index: 1;
@@ -38,8 +38,12 @@
     }
   }
 
-  @include screen.small {
+  @include screen.medium {
     display: flex;
+  }
+
+  @include screen.small {
+    right: 0.25rem;
   }
 }
 
@@ -57,14 +61,14 @@
     justify-content: center;
     outline: 0;
     position: absolute;
-    right: 0.5rem;
-    top: 2.5rem;
+    right: 4.2rem;
+    top: 0.5rem;
     visibility: hidden;
     width: 3rem;
     z-index: 1;
 
     .icon {
-      background: var(--mneu-icon-active);
+      background: var(--menu-icon-active);
       position: relative;
       width: 50%;
       height: 2px;
@@ -217,8 +221,13 @@
   }
 }
 
-@include screen.small {
+@include screen.medium {
   .menu {
     display: block;
+
+    .close {
+      right: 0.5rem;
+      top: 0.5rem;
+    }
   }
 }

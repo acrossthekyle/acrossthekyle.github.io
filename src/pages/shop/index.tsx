@@ -16,7 +16,7 @@ function Page() {
       <h1 className={styles.heading}>Shop</h1>
       <p className={styles.paragraph}>
         These photos for sale are inspired by this planet, and captured by me,
-        while marching through forests and over mountain-tops.
+        while marching through forests and over mountains.
       </p>
       {isLoading && <Components.Loading />}
       {isReady && (

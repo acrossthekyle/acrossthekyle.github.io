@@ -38,27 +38,31 @@
   --packs-highlight: #ffe66a;
   --quote-background: #f2f2f2;
   --search-background: rgba(255, 255, 255, 0.9);
-  --shop-card-background: #ffffff;
-  --shop-card-mat: #ffffff;
-  --shop-card-border-default: #000000;
-  --shop-card-border-hover: #ffffff;
-  --shop-card-border-shadow-default: #333333;
-  --shop-card-border-shadow-hover: #bbbbbb;
-  --shop-card-shadow-default: #555555;
-  --shop-card-shadow-hover: #aaaaaa;
-  --shop-frame-border: #5d5d5d;
-  --shop-frame-fill: repeating-linear-gradient(
+  --shop-frame-background: #ffffff;
+  --shop-frame-mat: #ffffff;
+  --shop-frame-border-default: #000000;
+  --shop-frame-border-hover: #ffffff;
+  --shop-frame-border-shadow-default: #333333;
+  --shop-frame-border-shadow-default-alt: #111111;
+  --shop-frame-border-shadow-hover: #bbbbbb;
+  --shop-frame-border-shadow-hover-alt: #444444;
+  --shop-frame-shadow-default: #555555;
+  --shop-frame-shadow-hover: #aaaaaa;
+  --shop-frame-border-fixed-white-box-shadow: #bbbbbb;
+  --shop-frame-border-fixed-black-box-shadow: #444444;
+  --shop-frames-border: #5d5d5d;
+  --shop-frames-fill: repeating-linear-gradient(
     45deg,
     #ffffff,
     #ffffff 10px,
     #dddddd 10px,
     #dddddd 11px
   );
-  --shop-frame-mat-background: transparent;
-  --shop-frame-mat-shadow: #ccc;
-  --shop-frame-selected: #ffdd37;
-  --shop-frame-shadow: #888;
-  --shop-frame-text: #ffffff;
+  --shop-frames-mat-background: transparent;
+  --shop-frames-mat-shadow: #ccc;
+  --shop-frames-selected: #ffdd37;
+  --shop-frames-shadow: #888;
+  --shop-frames-text: #ffffff;
   --skeleton-background: #dddbdd;
   --skeleton-background-shimmer: 255, 255, 255;
   --tag: #ffe66a;
@@ -121,27 +125,31 @@
   --packs-highlight: #ffe66a;
   --quote-background: #171717;
   --search-background: rgba(0, 0, 0, 0.9);
-  --shop-card-background: #ffffff;
-  --shop-card-mat: #ffffff;
-  --shop-card-border-default: #ffffff;
-  --shop-card-border-hover: #000000;
-  --shop-card-border-shadow-default: #bbbbbb;
-  --shop-card-border-shadow-hover: #333333;
-  --shop-card-shadow-default: #222222;
-  --shop-card-shadow-hover: #111111;
-  --shop-frame-border: #000000;
-  --shop-frame-fill: repeating-linear-gradient(
+  --shop-frame-background: #ffffff;
+  --shop-frame-mat: #ffffff;
+  --shop-frame-border-default: #ffffff;
+  --shop-frame-border-hover: #000000;
+  --shop-frame-border-shadow-default: #bbbbbb;
+  --shop-frame-border-shadow-default-alt: #444444;
+  --shop-frame-border-shadow-hover: #333333;
+  --shop-frame-border-shadow-hover-alt: #111111;
+  --shop-frame-shadow-default: #222222;
+  --shop-frame-shadow-hover: #111111;
+  --shop-frame-border-fixed-white-box-shadow: #000000;
+  --shop-frame-border-fixed-black-box-shadow: #111111;
+  --shop-frames-border: #000000;
+  --shop-frames-fill: repeating-linear-gradient(
     45deg,
     #1d1d1d,
     #1d1d1d 10px,
     #2d2d2d 10px,
     #2d2d2d 11px
   );
-  --shop-frame-mat-background: #888888;
-  --shop-frame-mat-shadow: #111111;
-  --shop-frame-selected: #ffdd37;
-  --shop-frame-shadow: #111111;
-  --shop-frame-text: #1d1d1d;
+  --shop-frames-mat-background: #888888;
+  --shop-frames-mat-shadow: #111111;
+  --shop-frames-selected: #ffdd37;
+  --shop-frames-shadow: #111111;
+  --shop-frames-text: #1d1d1d;
   --skeleton-background: #2d2d2d;
   --skeleton-background-shimmer: 85, 85, 85;
   --tag: #ffe66a;
@@ -166,16 +174,13 @@
 
 :root {
   --heading-font: Lora, Georgia, Times New Roman, serif;
-  --hero-image-background-overlay: rgba(0, 0, 0, 0.4);
-  --hero-button-active: rgba(255, 255, 255, 0.25);
-  --hero-button-hover: rgba(255, 255, 255, 0.15);
-  --hero-button-alt-active: #dddddd;
-  --hero-button-alt-hover: #eeeeee;
-  --hero-text: #ffffff;
-  --hero-text-alt: #2d2d2d;
   --image-hover-background: rgba(0, 0, 0, 0.15);
   --max-width: 1180px;
-  --selfie-text: #ffffff;
+  --shop-frame-border-fixed-white: #ffffff;
+  --shop-frame-border-fixed-white-shadow-inset: #333333;
+  --shop-frame-border-fixed-black: #000000;
+  --shop-frame-border-fixed-black-shadow-inset: #111111;
+  --shop-frame-border-fixed-mat-shadow-inset: #333333;
   --text-font: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 

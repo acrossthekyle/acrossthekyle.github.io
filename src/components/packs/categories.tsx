@@ -30,15 +30,16 @@ function Categories({ categories, units }: Props) {
                 <li className={styles.items} key={itemIndex}>
                   <div className={styles.text}>
                     <div className={styles.type}>
-                      {type}
-                      {!!link && (
+                      {!!link ? (
                         <Link
                           className={styles.link}
                           href={link}
                           target="_blank"
                         >
-                          <Images.Icons.Link />
+                          {type} <Images.Icons.Link />
                         </Link>
+                      ) : (
+                        <>{type}</>
                       )}
                     </div>
                     <div className={styles.name}>{name}</div>

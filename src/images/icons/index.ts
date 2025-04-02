@@ -9,6 +9,7 @@ import List from './list';
 import Marker from './marker';
 import Search from './search';
 import Shop from './shop';
+import Stripe from './stripe';
 import Table from './table';
 import User from './user';
 import Watch from './watch';
@@ -25,6 +26,7 @@ const Icons = {
   Marker,
   Search,
   Shop,
+  Stripe,
   Table,
   User,
   Watch,

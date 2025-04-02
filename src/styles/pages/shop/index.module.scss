@@ -22,20 +22,64 @@
   .grid {
     display: grid;
     grid-auto-rows: 1rem;
-    grid-gap: 1.25rem;
-    grid-template-columns: repeat(3, minmax(calc(33% - 2.5rem), 1fr));
+    grid-gap: 2.5rem;
+    grid-template-columns: repeat(3, minmax(calc(33% - 5rem), 1fr));
     margin: 0 auto;
     max-width: var(--max-width);
-    padding-top: 2rem;
     position: relative;
 
     .item {
       display: flex;
       flex-direction: column;
-      grid-row: span 12;
-      margin-bottom: 1rem;
-      padding: 2rem;
+      grid-row: span 8;
+      margin-bottom: 3rem;
       position: relative;
+    }
+  }
+
+  @include screen.large {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  @include screen.medium {
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+    .grid {
+      grid-template-columns: repeat(2, minmax(calc(50% - 5rem), 1fr));
+    }
+  }
+
+  @include screen.small {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  @include screen.compact {
+    .grid {
+      grid-auto-rows: 0.5rem;
+      grid-template-columns: repeat(1, minmax(calc(100% - 5rem), 1fr));
+
+      .item {
+        grid-row: span 11;
+      }
+    }
+  }
+
+  @include screen.tiny {
+    .grid {
+      .item {
+        grid-row: span 9;
+      }
+    }
+  }
+
+  @include screen.nano {
+    .grid {
+      .item {
+        grid-row: span 8;
+      }
     }
   }
 }

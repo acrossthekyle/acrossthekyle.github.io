@@ -38,12 +38,12 @@
         margin-bottom: 0.75rem;
 
         .link {
-          display: inline;
+          display: flex;
 
           svg {
-            fill: var(--text-link);
+            fill: var(--text);
             height: 1rem;
-            margin-left: 0.5rem;
+            margin-left: 0.25rem;
             position: relative;
             width: 1rem;
           }

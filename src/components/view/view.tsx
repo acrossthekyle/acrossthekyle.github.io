@@ -55,14 +55,15 @@ function View({ children, className = '', element }: Props) {
             <div className={styles.inner}>
               <div className={styles.logo}>
                 <Link aria-label="acrossthekyle" href="/" id="logo">
-                  <Image
+                  AcrossThe<span>Kyle</span>
+                  {/*<Image
                     alt="acrossthekyle.com logo"
                     height={60}
                     quality={20}
                     src={`https://ik.imagekit.io/acrossthekyle/uploads/logo-${theme}.png?updatedAt=1725897720418&tr=q-20`}
                     title="Kyle Gilbert"
                     width={60}
-                  />
+                  />*/}
                 </Link>
               </div>
               <nav className={styles.nav}>
