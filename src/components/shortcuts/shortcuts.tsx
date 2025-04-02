@@ -22,11 +22,11 @@ function Shortcuts({
     <div className={`${styles.links} ${parentClassName}`}>
       <Link
         className={`${styles.link} ${childClassName}`}
-        href="/about"
+        href="/me"
         title="About me"
       >
         <Images.Icons.User />
-        {shouldLabel && <span className={styles.site}>About</span>}
+        {shouldLabel && <span className={styles.site}>About Me</span>}
       </Link>
       <Link
         className={`${styles.link} ${childClassName}`}
@@ -42,7 +42,7 @@ function Shortcuts({
         title="Shop prints"
       >
         <Images.Icons.Shop />
-        {shouldLabel && <span className={styles.site}>Shop</span>}
+        {shouldLabel && <span className={styles.site}>Buy Prints</span>}
       </Link>
       <External
         className={`${styles.link} ${childClassName}`}

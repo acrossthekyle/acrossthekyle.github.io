@@ -20,11 +20,11 @@ function Navigation({
     <ul className={containerClassName}>
       <li className={linkClassName} data-active={pathname === '/'}>
         <Link href="/" onClick={onClick}>
-          Home
+          Blog
         </Link>
       </li>
-      <li className={linkClassName} data-active={pathname === '/about'}>
-        <Link href="/about" onClick={onClick}>
+      <li className={linkClassName} data-active={pathname === '/me'}>
+        <Link href="/me" onClick={onClick}>
           About
         </Link>
       </li>
@@ -35,7 +35,7 @@ function Navigation({
       </li>
       <li className={linkClassName} data-active={pathname === '/shop'}>
         <Link href="/shop" onClick={onClick}>
-          Shop
+          Store
         </Link>
       </li>
     </ul>

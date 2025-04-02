@@ -67,7 +67,7 @@ function Figure({ date, image, preview, tags, title, uri }: Props) {
                 <Link
                   aria-label="About Kyle"
                   className={styles.author}
-                  href="/about"
+                  href="/me"
                 >
                   <Image
                     alt=""

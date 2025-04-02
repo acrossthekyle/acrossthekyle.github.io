@@ -13,7 +13,7 @@ function Page() {
   const { data, hasError, isLoading, isReady } = usePrintData();
 
   const [color, setColor] = useState('white');
-  const [frame, setFrame] = useState('mat');
+  const [frame, setFrame] = useState('none');
 
   useEffect(() => {
     if (hasError) {
@@ -53,7 +53,7 @@ function Page() {
         shouldAlignCenter={false}
         items={[
           {
-            text: 'Shop',
+            text: 'Store',
             uri: '/shop',
           },
           {
@@ -95,9 +95,9 @@ function Page() {
                 onChange={handleOnSelectFrameStyle}
                 value={frame}
               >
-                <option value="mat">Framed with Mat</option>
-                <option value="framed">Framed</option>
                 <option value="none">Frameless</option>
+                <option value="framed">Framed</option>
+                <option value="mat">Framed with Mat</option>
               </select>
             </div>
             {frame !== 'none' && (

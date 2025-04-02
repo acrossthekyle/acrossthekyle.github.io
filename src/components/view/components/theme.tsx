@@ -14,9 +14,6 @@ function Theme() {
       if (saved !== null) {
         setTheme(saved);
         document.querySelector('html').setAttribute('data-theme', saved);
-      } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        setTheme('dark');
-        document.querySelector('html').setAttribute('data-theme', 'dark');
       } else {
         setTheme('light');
         document.querySelector('html').setAttribute('data-theme', 'light');

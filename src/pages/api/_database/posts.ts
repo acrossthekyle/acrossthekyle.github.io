@@ -1187,25 +1187,6 @@ const data: Post[] = [
     titleShort: 'Vacationing in Cancun',
     uri: '',
   },
-
-  /************************/
-  //
-  // About Me
-  //
-  /************************/
-
-  {
-    date: '',
-    image: '2024/06/28/04f81498-bd5d-471f-93c6-5f1b5ba4201f.jpeg',
-    isPrivate: true,
-    locationFull: 'Chicago, IL',
-    locationShort: 'Chicago',
-    snippet: '',
-    tags: '',
-    title: 'About',
-    titleShort: 'About',
-    uri: '/posts/about',
-  },
 ];
 
 export default data;

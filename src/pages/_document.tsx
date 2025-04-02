@@ -85,7 +85,7 @@ export default function Document() {
         />
         {/* eslint-disable-next-line @next/next/google-font-display */}
         <link
-          href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto:wght@400;500&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;500&display=swap"
           rel="stylesheet"
         />
       </Head>

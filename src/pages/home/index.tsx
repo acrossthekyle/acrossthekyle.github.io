@@ -16,7 +16,7 @@ function Page() {
         <title>Kyle &mdash; Thru-hiker and Programmer based in Chicago</title>
       </Head>
       <div className={styles.header}>
-        <Link aria-hidden="true" className={styles.image} href="/about">
+        <Link aria-hidden="true" className={styles.image} href="/me">
           <Components.Image
             alt=""
             height={432}

@@ -1,3 +1,5 @@
+@use 'styles/mixins/_screen' as screen;
+
 [data-theme='light'] {
   --blockquote-quotes: #dddddd;
   --body: #ffffff;
@@ -283,6 +285,27 @@ body {
     border-style: none;
   }
 
+  blockquote {
+    position: relative;
+    padding: 1.25rem 1.25rem 1.25rem 3.125rem;
+    margin-bottom: 0;
+    font-family: var(--heading-font);
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    color: var(--text);
+
+    &:before {
+      content: '\201C';
+      position: absolute;
+      font-family: var(--heading-font);
+      top: 0.3em;
+      left: -0.01em;
+      font-size: 4em;
+      color: #ffe66a;
+    }
+  }
+
   [data-backdrop] {
     position: fixed;
     inset: 0;
@@ -310,5 +333,19 @@ body {
   [data-zoom='true'] {
     z-index: 1000;
     cursor: zoom-out;
+  }
+
+  @include screen.small {
+    blockquote {
+      padding: 0.5rem;
+      font-size: 1.25rem;
+      line-height: 1.75rem;
+
+      &:before {
+        top: 0.3em;
+        left: -0.5em;
+        font-size: 3em;
+      }
+    }
   }
 }

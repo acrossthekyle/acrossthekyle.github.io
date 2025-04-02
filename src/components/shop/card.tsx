@@ -45,8 +45,11 @@ function Figure({ item }: Props) {
             />
           </Link>
           <figcaption className={styles.caption}>
-            <Link href={item.uri}>{item.title}</Link>
+            <h2>
+              <Link href={item.uri}>{item.title}</Link>
+            </h2>
             <p>From $100.00</p>
+            <Button href={item.uri} text="Purchase" />
           </figcaption>
         </figure>
       )}

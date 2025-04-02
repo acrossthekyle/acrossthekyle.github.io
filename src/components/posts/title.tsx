@@ -29,7 +29,7 @@ function Title({ context, crumbs, tags, title, uri }: Props) {
       <h1 className={styles.title}>{title}</h1>
       {context.length > 0 && (
         <div className={styles.context}>
-          <Link aria-label="About Kyle" className={styles.author} href="/about">
+          <Link aria-label="About Kyle" className={styles.author} href="/me">
             <Image
               alt=""
               aria-hidden="true"
@@ -41,11 +41,7 @@ function Title({ context, crumbs, tags, title, uri }: Props) {
             />
           </Link>
           <div className={styles.items}>
-            <Internal
-              className={styles.item}
-              text="Kyle Gilbert"
-              url="/about"
-            />
+            <Internal className={styles.item} text="Kyle Gilbert" url="/me" />
 
             {context.map((_) => {
               if (_ === undefined) {

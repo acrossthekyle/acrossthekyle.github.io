@@ -28,13 +28,12 @@ function Page() {
   return (
     <Components.View className={styles.view} element="div">
       <Head>
-        {!pack && <title>Kyle &mdash; Packs</title>}
-        {pack && <title>Kyle &mdash; Packs | {pack.title}</title>}
+        <title>Kyle &mdash; Packs</title>
       </Head>
       <div className={styles.intro}>
         <h1 className={styles.header}>Packs</h1>
         <p className={styles.paragraph}>
-          Every trip is different, and needs its own set of gear. Here are my
+          Every trip is different, with its own set of gear. Here are my
           loadouts that I bring with me on each of my thru-hikes.
         </p>
         <div className={styles.units}>
