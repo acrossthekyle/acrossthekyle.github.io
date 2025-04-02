@@ -19,3 +19,9 @@
     @content;
   }
 }
+
+@mixin safari {
+  @supports (hanging-punctuation: first) and (font: -apple-system-body) and (-webkit-appearance: none) {
+    @content;
+  }
+}

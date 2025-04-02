@@ -50,6 +50,7 @@ function Page() {
         <title>Kyle &mdash; Shop | {data.title}</title>
       </Head>
       <Components.Breadcrumbs
+        shouldAlignCenter={false}
         items={[
           {
             text: 'Shop',
@@ -101,7 +102,7 @@ function Page() {
             </div>
             {frame !== 'none' && (
               <div className={styles.item}>
-                <span className={styles.label}>Available Frame Colors *</span>
+                <span className={styles.label}>Available Frame Colors</span>
                 <span className={styles.value}>
                   <button
                     className={styles.color}
@@ -119,7 +120,7 @@ function Page() {
               </div>
             )}
             <div className={styles.item}>
-              <span className={styles.label}>Available Sizes *</span>
+              <span className={styles.label}>Available Sizes</span>
               <span className={styles.value}>
                 {frame === 'none' && <>5" x 7" &mdash; 18" x 24"</>}
                 {frame === 'framed' && <>8" x 10" &mdash; 18" x 24"</>}
@@ -142,7 +143,10 @@ function Page() {
               }
             />
             <small className={styles.choose}>
-              * Choose size, and frame color, during checkout
+              Choose size, and frame color, during checkout
+            </small>
+            <small className={styles.choose}>
+              Image shown is preview-only, actual amount of photo space cropped on final product may vary
             </small>
           </form>
           <div className={styles.description}>

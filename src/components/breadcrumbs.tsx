@@ -7,24 +7,35 @@ import type { Breadcrumb } from '@/types';
 type Props = {
   className?: string;
   items: Breadcrumb[];
+  shouldAlignCenter?: boolean;
 };
 
-function Breadcrumbs({ className = '', items }: Props) {
+function Breadcrumbs({
+  className = '',
+  items,
+  shouldAlignCenter = true,
+}: Props) {
   return (
     <ul
       aria-label="Breadcrumbs"
       className={`${styles.breadcrumbs} ${className}`.trim()}
+      data-centered={shouldAlignCenter}
       role="navigation"
     >
-      {items.map(({ text, uri }) => (
+      {items.map(({ text, uri }: Breadcrumb, index: number) => (
         <li className={styles.breadcrumb} key={`${text}-${uri}`}>
           {uri && (
             <Link href={uri}>
-              <span>{text}</span>
+              {index === 0 && (
+                <span aria-hidden="true" className={styles.back}>
+                  <Images.Icons.Arrow left />
+                </span>
+              )}
+              {text}
             </Link>
           )}
           {!uri && <span>{text}</span>}
-          <span className={styles.divider} aria-hidden="true">
+          <span aria-hidden="true" className={styles.divider}>
             <Images.Icons.Arrow right />
           </span>
         </li>
