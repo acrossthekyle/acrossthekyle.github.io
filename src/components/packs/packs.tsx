@@ -26,10 +26,6 @@ function Packs({ active = '', className = '', onClick, packs, units }: Props) {
             >
               <p className={styles.header}>{pack.title}</p>
               <p className={styles.type}>{pack.type}</p>
-              <p className={styles.weight}>
-                {Utils.convertGroupWeight(pack.weightTotal, units)}&nbsp;
-                {Utils.getUnitsLabelForGroup(units)}
-              </p>
             </button>
           </li>
         ))}
