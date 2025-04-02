@@ -146,7 +146,8 @@ function Page() {
               Choose size, and frame color, during checkout
             </small>
             <small className={styles.choose}>
-              Image shown is preview-only, actual amount of photo space cropped on final product may vary
+              Image shown is preview-only, actual amount of photo space cropped
+              on final product may vary
             </small>
           </form>
           <div className={styles.description}>
