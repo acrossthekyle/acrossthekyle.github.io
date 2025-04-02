@@ -39,7 +39,7 @@
       z-index: 1;
     }
 
-    &:hover {
+    @include on.hover {
       border-color: var(--shop-frame-border-hover);
       box-shadow: 0.25rem 0.25rem 0.75rem var(--shop-frame-shadow-hover);
 
