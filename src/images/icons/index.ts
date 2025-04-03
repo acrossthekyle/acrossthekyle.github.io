@@ -1,6 +1,7 @@
 import Arrow from './arrow';
 import Backpack from './backpack';
 import Checkmark from './checkmark';
+import Chevron from './chevron';
 import Close from './close';
 import Garmin from './garmin';
 import Instagram from './instagram';
@@ -18,6 +19,7 @@ const Icons = {
   Arrow,
   Backpack,
   Checkmark,
+  Chevron,
   Close,
   Garmin,
   Instagram,

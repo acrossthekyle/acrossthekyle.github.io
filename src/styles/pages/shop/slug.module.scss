@@ -126,6 +126,7 @@
       .form {
         .item {
           margin-bottom: 2rem;
+          position: relative;
 
           .label {
             display: block;
@@ -170,6 +171,16 @@
             width: 100%;
             padding: 0 2.5rem 0 0.875rem;
             position: relative;
+            -webkit-appearance: none;
+          }
+
+          .chevron {
+            fill: var(--text);
+            height: 1rem;
+            position: absolute;
+            right: 1rem;
+            top: 2.4rem;
+            width: 1rem;
           }
         }
 
@@ -232,7 +243,7 @@
             line-height: 1.5rem;
             margin: 0;
             padding: 0;
-            padding-bottom: 1rem;
+            padding-bottom: 0.25rem;
           }
         }
       }

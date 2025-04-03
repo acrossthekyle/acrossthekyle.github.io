@@ -60,14 +60,7 @@ export const usePacksViewModel = () => {
   );
 
   const handleOnLegendClick = (category: string) => {
-    const content = document.getElementById(category);
-
-    if (content) {
-      content.scrollIntoView({
-        behavior: 'smooth',
-        block: 'center',
-      });
-    }
+    Utils.scrollToElement(category);
   };
 
   const handleOnViewAllPacksClick = useCallback(() => {
@@ -85,8 +78,6 @@ export const usePacksViewModel = () => {
       setPack(pack);
 
       localStorage.setItem('pack', JSON.stringify(pack));
-
-      Utils.scrollToTop();
 
       setCanRenderPacks(false);
     },

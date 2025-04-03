@@ -99,6 +99,7 @@ function Page() {
                 <option value="framed">Framed</option>
                 <option value="mat">Framed with Mat</option>
               </select>
+              <Images.Icons.Chevron className={styles.chevron} down />
             </div>
             {frame !== 'none' && (
               <div className={styles.item}>
@@ -215,7 +216,7 @@ function Page() {
             )}
           </div>
           <div className={styles.policies}>
-            <h3>Shop Policies</h3>
+            <h3>Store Policies</h3>
             <p>No Returns or Exchanges.</p>
             <p>
               For prints there will be size variations due to different frame

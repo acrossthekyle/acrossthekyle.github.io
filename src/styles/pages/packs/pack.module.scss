@@ -9,8 +9,7 @@
 
     .header {
       color: var(--text);
-      margin: 0 auto;
-      margin-bottom: 2.25rem;
+      margin: 0 auto 1rem;
       position: relative;
       text-align: center;
     }
@@ -19,9 +18,8 @@
       color: var(--text);
       line-height: 1.5;
       margin: 0 auto;
-      margin-bottom: 1.25rem;
       max-width: 30rem;
-      padding: 0 2rem;
+      padding: 1.25rem 2rem 1.25rem;
       position: relative;
       text-align: center;
     }

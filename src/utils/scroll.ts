@@ -15,3 +15,14 @@ export function scrollToTop() {
     });
   }
 }
+
+export function scrollToElement(id: string) {
+  const content = document.getElementById(id);
+
+  if (content) {
+    content.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+    });
+  }
+}
