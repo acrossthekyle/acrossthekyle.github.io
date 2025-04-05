@@ -2,6 +2,8 @@
 @use 'styles/mixins/_screen' as screen;
 
 .view {
+  position: relative;
+
   .heading {
     color: var(--text);
     margin: 0 auto;

@@ -1,5 +1,3 @@
-import type { Post } from '@/types';
-
 const GARMIN_URL = 'https://connect.garmin.com/modern/activity/';
 
 /************************/
@@ -1098,7 +1096,7 @@ const post1 = {
   uri: '/posts/discovering-backpacking-in-chile',
 };
 
-const data: Post[] = [
+const data = [
   post19,
   post18,
   post17,

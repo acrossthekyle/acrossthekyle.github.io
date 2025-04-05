@@ -1,12 +1,10 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 
-import type { PostApiResponse } from '@/types';
-
 import posts from '../../_database/posts';
 
 export default function handler(
   request: NextApiRequest,
-  response: NextApiResponse<PostApiResponse>,
+  response: NextApiResponse,
 ) {
   const query = request.query.slug;
   const stageIndex = Number(request.query.stageIndex);

@@ -7,11 +7,22 @@ export const useFetch = (uri?: string) => {
   const [isLoading, setIsLoading] = useState(false);
   const [data, setData] = useState(null);
 
-  const fetchData = async (endpoint: string) => {
+  const fetchData = async (endpoint: string, body?: object) => {
     setIsLoading(true);
 
     try {
-      const response = await fetch(endpoint);
+      const response = await fetch(
+        endpoint,
+        body
+          ? {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify(body),
+            }
+          : undefined,
+      );
 
       if (!response.ok) {
         throw new Error();

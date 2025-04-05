@@ -5,7 +5,7 @@ import { InView } from 'react-intersection-observer';
 import { truncate } from 'lodash';
 import Link from 'next/link';
 
-import styles from '@/styles/components/shop/card.module.scss';
+import styles from '@/styles/components/store/card.module.scss';
 import type { Print } from '@/types';
 
 import Button from '../button';
@@ -48,7 +48,7 @@ function Figure({ item }: Props) {
             <h2>
               <Link href={item.uri}>{item.title}</Link>
             </h2>
-            <p>From $100.00</p>
+            <p>From ${item.price}</p>
             <Button href={item.uri} text="Purchase" />
           </figcaption>
         </figure>

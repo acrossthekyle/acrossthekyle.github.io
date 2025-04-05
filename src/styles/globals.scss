@@ -121,6 +121,8 @@
 }
 
 :root {
+  --frame-aspect-ratio: 1.25;
+  --frame-mat-thickness: 2rem;
   --heading-font: Lora, Georgia, Times New Roman, serif;
   --image-hover-background: rgba(0, 0, 0, 0.15);
   --max-width: 1180px;
@@ -130,6 +132,26 @@
   --shop-frame-border-fixed-black-shadow-inset: #111111;
   --shop-frame-border-fixed-mat-shadow-inset: #333333;
   --text-font: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+  @include screen.compact {
+    --frame-aspect-ratio: 0.9;
+    --frame-mat-thickness: 1.75rem;
+  }
+
+  @include screen.micron {
+    --frame-aspect-ratio: 0.75;
+    --frame-mat-thickness: 1.6rem;
+  }
+
+  @include screen.nano {
+    --frame-aspect-ratio: 0.65;
+    --frame-mat-thickness: 1.5rem;
+  }
+
+  @include screen.miniscule {
+    --frame-aspect-ratio: 0.55;
+    --frame-mat-thickness: 1.35rem;
+  }
 }
 
 * {
@@ -162,6 +184,7 @@ html {
 
 body {
   background: var(--body);
+  color: var(--text);
   margin: 0;
 
   &.cannot-overflow {

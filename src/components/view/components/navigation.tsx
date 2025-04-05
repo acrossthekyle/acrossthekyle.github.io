@@ -33,8 +33,8 @@ function Navigation({
           Packs
         </Link>
       </li>
-      <li className={linkClassName} data-active={pathname === '/shop'}>
-        <Link href="/shop" onClick={onClick}>
+      <li className={linkClassName} data-active={pathname === '/store'}>
+        <Link href="/store" onClick={onClick}>
           Store
         </Link>
       </li>

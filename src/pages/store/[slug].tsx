@@ -1,39 +1,40 @@
-import { ChangeEvent, useEffect, useState } from 'react';
+'use client';
+
 import Head from 'next/head';
-import { useRouter } from 'next/router';
 
 import Components from '@/components';
-import { usePrintData } from '@/data/prints';
-import Images from '@/images';
-import styles from '@/styles/pages/shop/slug.module.scss';
+import styles from '@/styles/pages/store/slug.module.scss';
+import ViewModels from '@/viewModels';
 
 function Page() {
-  const { push } = useRouter();
-
-  const { data, hasError, isLoading, isReady } = usePrintData();
-
-  const [color, setColor] = useState('white');
-  const [frame, setFrame] = useState('none');
-
-  useEffect(() => {
-    if (hasError) {
-      push('/shop');
-    }
-  }, [hasError, push]);
-
-  const handleOnSelectFrameStyle = (event: ChangeEvent<HTMLSelectElement>) => {
-    setFrame((event.target as HTMLSelectElement).value);
-  };
-
-  const handleOnColorClick = (value: string) => {
-    setColor(value);
-  };
+  const {
+    color,
+    colorOptions,
+    frame,
+    frameOptions,
+    handleOnAddToCart,
+    handleOnSelectColor,
+    handleOnSelectFrame,
+    handleOnSelectQuantity,
+    handleOnSelectSize,
+    hasColors,
+    image,
+    isLoading,
+    isReady,
+    name,
+    price,
+    quantityOptions,
+    size,
+    sizeOptions,
+    sizeValue,
+    snippet,
+  } = ViewModels.useStoreViewModel();
 
   if (isLoading) {
     return (
       <Components.View className={styles.view}>
         <Head>
-          <title>Kyle &mdash; Shop</title>
+          <title>Kyle &mdash; Store</title>
         </Head>
         <Components.Loading />
       </Components.View>
@@ -47,105 +48,80 @@ function Page() {
   return (
     <Components.View className={styles.view}>
       <Head>
-        <title>Kyle &mdash; Shop | {data.title}</title>
+        <title>Kyle &mdash; Store | {name}</title>
       </Head>
       <Components.Breadcrumbs
         shouldAlignCenter={false}
         items={[
           {
             text: 'Store',
-            uri: '/shop',
+            uri: '/store',
           },
           {
-            text: data.title,
+            text: name,
           },
         ]}
       />
       <div className={styles.wrapper}>
-        <div
-          className={styles.image}
-          data-frame-color={color}
-          data-style={frame}
-        >
-          <Components.Image
-            alt={data.title}
-            height={432}
-            sizes="(max-width: 768px) 100vw, 50vw"
-            src={data.image}
-            width={768}
-          />
+        <div className={styles.aside}>
+          <div
+            className={styles.image}
+            data-frame={frame}
+            data-frame-color={color}
+            data-frame-size={sizeValue}
+          >
+            <Components.Image
+              alt={name}
+              height={432}
+              sizes="(max-width: 768px) 100vw, 50vw"
+              src={image}
+              width={768}
+            />
+          </div>
         </div>
         <div className={styles.content}>
-          <h1 className={styles.header}>{data.title}</h1>
-          <h2 className={styles.price}>
-            {frame === 'none' && <>$100.00</>}
-            {frame === 'framed' && <>$185.00</>}
-            {frame === 'mat' && <>$215.00</>}
-          </h2>
-          <p className={styles.snippet}>{data.snippet}</p>
+          <h1 className={styles.header}>{name}</h1>
+          <h2 className={styles.price}>${price}</h2>
+          <p className={styles.snippet}>{snippet}</p>
           <form className={styles.form}>
             <div className={styles.item}>
-              <label className={styles.label} htmlFor="style">
-                Style
-              </label>
-              <select
-                className={styles.select}
-                id="style"
-                name="style"
-                onChange={handleOnSelectFrameStyle}
+              <Components.Store.Select
+                label="Frame"
+                onChange={handleOnSelectFrame}
+                options={frameOptions}
                 value={frame}
-              >
-                <option value="none">Frameless</option>
-                <option value="framed">Framed</option>
-                <option value="mat">Framed with Mat</option>
-              </select>
-              <Images.Icons.Chevron className={styles.chevron} down />
+              />
             </div>
-            {frame !== 'none' && (
+            <div className={styles.item}>
+              <Components.Store.Select
+                label="Size"
+                onChange={handleOnSelectSize}
+                options={sizeOptions}
+                value={size}
+              />
+            </div>
+            {hasColors && (
               <div className={styles.item}>
-                <span className={styles.label}>Available Frame Colors</span>
-                <span className={styles.value}>
-                  <button
-                    className={styles.color}
-                    onClick={() => handleOnColorClick('white')}
-                    title="White"
-                    type="button"
-                  />
-                  <button
-                    className={styles.color}
-                    onClick={() => handleOnColorClick('black')}
-                    title="Black"
-                    type="button"
-                  />
-                </span>
+                <Components.Store.Select
+                  label="Frame Color"
+                  onChange={handleOnSelectColor}
+                  options={colorOptions}
+                  value={color}
+                />
               </div>
             )}
             <div className={styles.item}>
-              <span className={styles.label}>Available Sizes</span>
-              <span className={styles.value}>
-                {frame === 'none' && <>5" x 7" &mdash; 18" x 24"</>}
-                {frame === 'framed' && <>8" x 10" &mdash; 18" x 24"</>}
-                {frame === 'mat' && <>12" x 16" &mdash; 18" x 24"</>}
-              </span>
-            </div>
-            <div className={styles.item}>
-              <span className={styles.label}>Quantity</span>
-              <span className={styles.value}>1</span>
+              <Components.Store.Select
+                label="Quantity"
+                onChange={handleOnSelectQuantity}
+                options={quantityOptions}
+              />
             </div>
             <Components.Button
-              aria-label="Purchase (opens in a new tab/window)"
-              className={styles.purchase}
-              href={data.paymentLinks[['none', 'framed', 'mat'].indexOf(frame)]}
-              id="purchase"
-              text={
-                <>
-                  Pay with <Images.Icons.Stripe className={styles.stripe} />
-                </>
-              }
+              className={styles.add}
+              onClick={handleOnAddToCart}
+              text="Add to cart"
             />
-            <small className={styles.choose}>
-              Choose size, and frame color, during checkout
-            </small>
             <small className={styles.choose}>
               Image shown is preview-only, actual amount of photo space cropped
               on final product may vary
@@ -153,7 +129,7 @@ function Page() {
           </form>
           <div className={styles.description}>
             <h3>Printing</h3>
-            {frame === 'none' && (
+            {frame === 0 && (
               <>
                 <p>
                   Printed on Ultra Premium Luster Photo Paper, which has a
@@ -172,7 +148,7 @@ function Page() {
                 </ul>
               </>
             )}
-            {frame === 'framed' && (
+            {frame === 1 && (
               <>
                 <p>
                   Printed on Ultra Premium Luster Photo Paper, which has a
@@ -194,7 +170,7 @@ function Page() {
                 </ul>
               </>
             )}
-            {frame === 'mat' && (
+            {frame === 2 && (
               <>
                 <p>
                   Printed on museum-quality matte paper with multicolor

@@ -1,0 +1,198 @@
+@use 'styles/mixins/_on' as on;
+@use 'styles/mixins/_screen' as screen;
+
+.view {
+  position: relative;
+
+  .header {
+    margin: 0 auto 4rem;
+    position: relative;
+    text-align: center;
+
+    a {
+      text-transform: none;
+    }
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+
+    .empty {
+      margin: 5rem auto 10rem;
+      text-align: center;
+
+      h2 {
+        font-weight: 400;
+        margin-bottom: 2rem;
+      }
+    }
+
+    .section {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 3rem;
+
+      .info {
+        display: flex;
+
+        .image {
+          height: 12rem;
+          position: relative;
+          width: 12rem;
+
+          img {
+            height: 100%;
+            object-fit: cover;
+            width: 100%;
+          }
+
+          .remove {
+            display: block;
+            padding: 1rem;
+            position: absolute;
+            right: 0;
+            text-align: center;
+            top: 0;
+
+            svg {
+              fill: var(--text);
+              height: 1rem;
+              width: 1rem;
+            }
+          }
+        }
+
+        .description {
+          display: flex;
+          flex: 1;
+          flex-direction: column;
+          justify-content: space-between;
+          margin-left: 1.25rem;
+
+          .name {
+            h2 {
+              font-weight: 400;
+            }
+          }
+
+          .attributes {
+            ul {
+              display: flex;
+              margin: 0;
+              padding: 0;
+              list-style: none;
+
+              li {
+                align-items: center;
+                display: flex;
+                font-size: 0.9rem;
+                margin-right: 1rem;
+                position: relative;
+
+                &:after {
+                  background: var(--text);
+                  border-radius: 50%;
+                  content: '';
+                  display: block;
+                  height: 0.25rem;
+                  position: relative;
+                  right: -0.5rem;
+                  width: 0.25rem;
+                }
+
+                &:last-child {
+                  &:after {
+                    display: none;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .quantity {
+        align-items: center;
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+
+        span {
+          display: inline-block;
+          margin: 0 1rem;
+        }
+      }
+    }
+  }
+
+  @include screen.medium {
+    .container {
+      .section {
+        .info {
+          .description {
+            .attributes {
+              ul {
+                flex-direction: column;
+
+                li {
+                  margin-bottom: 0.5rem;
+
+                  &:after {
+                    display: none;
+                  }
+
+                  &:last-child {
+                    margin-bottom: 0;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @include screen.little {
+    .container {
+      .section {
+        flex-direction: column;
+
+        .info {
+          margin-bottom: 1rem;
+        }
+
+        .quantity {
+          justify-content: space-between;
+          width: 12rem;
+        }
+      }
+    }
+  }
+
+  @include screen.tiny {
+    .container {
+      .section {
+        .info {
+          flex-direction: column;
+
+          .image {
+            height: 100%;
+            margin-bottom: 1rem;
+            width: 100%;
+          }
+
+          .description {
+            margin-left: 0;
+          }
+        }
+
+        .quantity {
+          justify-content: center;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

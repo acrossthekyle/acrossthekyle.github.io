@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Link from 'next/link';
 
 import Components from '@/components';
 import Constants from '@/constants';

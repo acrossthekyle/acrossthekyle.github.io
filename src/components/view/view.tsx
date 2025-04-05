@@ -1,7 +1,6 @@
 'use client';
 
 import { ReactNode, useContext, useEffect, useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 
 import Contexts from '@/contexts';
@@ -56,14 +55,6 @@ function View({ children, className = '', element }: Props) {
               <div className={styles.logo}>
                 <Link aria-label="acrossthekyle" href="/" id="logo">
                   AcrossThe<span>Kyle</span>
-                  {/*<Image
-                    alt="acrossthekyle.com logo"
-                    height={60}
-                    quality={20}
-                    src={`https://ik.imagekit.io/acrossthekyle/uploads/logo-${theme}.png?updatedAt=1725897720418&tr=q-20`}
-                    title="Kyle Gilbert"
-                    width={60}
-                  />*/}
                 </Link>
               </div>
               <nav className={styles.nav}>
@@ -74,7 +65,7 @@ function View({ children, className = '', element }: Props) {
                   />
                 </div>
               </nav>
-              <div className={styles.search}>
+              <div className={styles.icons}>
                 <button
                   aria-label="Search for posts"
                   id="searchOpen"
@@ -83,6 +74,7 @@ function View({ children, className = '', element }: Props) {
                 >
                   <Images.Icons.Search />
                 </button>
+                <ViewComponents.Cart />
               </div>
               <ViewComponents.Menu />
             </div>

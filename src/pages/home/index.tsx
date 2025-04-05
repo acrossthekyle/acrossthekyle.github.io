@@ -13,7 +13,7 @@ function Page() {
   return (
     <Components.View className={styles.view}>
       <Head>
-        <title>Kyle &mdash; Thru-hiker and Programmer based in Chicago</title>
+        <title>Kyle &mdash;&mdash;</title>
       </Head>
       <div className={styles.header}>
         <Link aria-hidden="true" className={styles.image} href="/me">

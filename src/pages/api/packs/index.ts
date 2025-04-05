@@ -1,7 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 
-import type { PacksApiResponse } from '@/types';
-
 import results from '../_database/packs';
 import {
   calculateBaseWeight,
@@ -14,7 +12,7 @@ import {
 
 export default function handler(
   request: NextApiRequest,
-  response: NextApiResponse<PacksApiResponse[]>,
+  response: NextApiResponse,
 ) {
   response.status(200).json(
     results.map((result) => {

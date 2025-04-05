@@ -20,6 +20,8 @@
     "@mdx-js/loader": "^3.0.1",
     "@mdx-js/react": "^3.0.1",
     "@next/mdx": "^14.2.3",
+    "@stripe/react-stripe-js": "^3.6.0",
+    "@stripe/stripe-js": "^1.54.2",
     "@types/mdx": "^2.0.13",
     "chart.js": "^4.4.8",
     "lodash": "4.17.21",
@@ -30,6 +32,7 @@
     "react-dom": "^18.2.0",
     "react-intersection-observer": "^9.10.2",
     "recma-mdx-displayname": "^0.4.1",
+    "stripe": "^18.0.0",
     "ts-node": "^10.9.2",
     "uuid": "^10.0.0"
   },

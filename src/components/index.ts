@@ -6,7 +6,7 @@ import Loading from './loading';
 import Masonry from './masonry';
 import Packs from './packs';
 import Posts from './posts';
-import Shop from './shop';
+import Store from './store';
 import Shortcuts from './shortcuts/shortcuts';
 import Tags from './tags';
 import Timeline from './timeline';
@@ -21,7 +21,7 @@ const Components = {
   Masonry,
   Packs,
   Posts,
-  Shop,
+  Store,
   Shortcuts,
   Tags,
   Timeline,

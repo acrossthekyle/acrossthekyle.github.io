@@ -110,7 +110,7 @@
           }
         }
 
-        .search {
+        .icons {
           align-items: center;
           display: flex;
           margin-left: auto;
@@ -146,7 +146,7 @@
             display: none;
           }
 
-          .search {
+          .icons {
             margin-right: 2.5rem;
           }
         }
@@ -178,10 +178,9 @@
 .view {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  margin: 9rem auto 0;
   max-width: var(--max-width);
   padding-bottom: 1rem;
-  padding-top: 9rem;
   position: relative;
   z-index: 4;
 

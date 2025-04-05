@@ -38,10 +38,10 @@ function Shortcuts({
       </Link>
       <Link
         className={`${styles.link} ${childClassName}`}
-        href="/shop"
-        title="Shop prints"
+        href="/store"
+        title="Store"
       >
-        <Images.Icons.Shop />
+        <Images.Icons.Store />
         {shouldLabel && <span className={styles.site}>Buy Prints</span>}
       </Link>
       <External

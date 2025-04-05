@@ -6,7 +6,7 @@ import { getPublicPosts } from '../_utils/posts';
 
 export default function handler(
   request: NextApiRequest,
-  response: NextApiResponse<string[]>,
+  response: NextApiResponse,
 ) {
   response
     .status(200)

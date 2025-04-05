@@ -40,6 +40,12 @@
   }
 }
 
+@mixin micron {
+  @media screen and (max-width: 390px) {
+    @content;
+  }
+}
+
 @mixin nano {
   @media screen and (max-width: 350px) {
     @content;
@@ -53,7 +59,7 @@
 }
 
 @mixin miniscule {
-  @media screen and (max-width: 280px) {
+  @media screen and (max-width: 290px) {
     @content;
   }
 }

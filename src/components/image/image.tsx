@@ -1,7 +1,8 @@
 import { RefObject, forwardRef, useState } from 'react';
 import NextJsImage, { ImageProps } from 'next/image';
 
-import Skeleton from './skeleton';
+import Constants from '@/constants';
+import styles from '@/styles/components/image/image.module.scss';
 
 const Image = forwardRef(function UiImage(
   props: ImageProps,
@@ -11,7 +12,7 @@ const Image = forwardRef(function UiImage(
 
   return (
     <>
-      {!isLoaded && <Skeleton />}
+      {!isLoaded && <div aria-hidden="true" className={styles.skeleton} />}
       <NextJsImage
         quality={80}
         {...props}
@@ -20,7 +21,7 @@ const Image = forwardRef(function UiImage(
           `${src}${src.includes('updatedAt') ? '&' : '?'}tr=w-${width}&q-${quality}`
         }
         ref={ref}
-        src={`https://ik.imagekit.io/acrossthekyle/uploads/${props.src}`}
+        src={`${Constants.IMAGE_BASE_URL}${props.src}`}
       />
     </>
   );
