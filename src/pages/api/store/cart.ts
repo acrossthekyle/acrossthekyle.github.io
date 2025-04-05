@@ -1,18 +1,18 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 
-import data from '../_database/store/items';
+import type { Store } from '@/types';
+
+import items from '../_database/store/items';
 
 export default function handler(
   request: NextApiRequest,
-  response: NextApiResponse,
+  response: NextApiResponse<{ items: Store.Cart.CartServer[]; total: string }>,
 ) {
   if (request.method === 'POST') {
-    const items = request.body;
-
     let results = [];
 
-    items.forEach(({ colorId, frameId, itemId, sizeId, quantity }) => {
-      const found = data.find(({ id }) => id === itemId);
+    request.body.forEach(({ colorId, frameId, itemId, sizeId, quantity }) => {
+      const found = items.find(({ id }) => id === itemId);
 
       if (found) {
         const frame = found.styles.find(({ id }) => id === frameId);
@@ -54,6 +54,6 @@ export default function handler(
         .toFixed(2),
     });
   } else {
-    response.status(405).json({ message: 'Method Not Allowed' });
+    response.status(405);
   }
 }

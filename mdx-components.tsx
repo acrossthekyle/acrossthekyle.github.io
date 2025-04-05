@@ -5,11 +5,11 @@ import Link from 'next/link';
 import Components from './src/components';
 
 const { Checklist, Gallery, Pack, Stages, Stats, Trips, World } =
-  Components.Posts;
+  Components.Pages.Posts;
 
 export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
-    a: ({ children, href }) => {
+    a: ({ children, href }: { children: React.ReactNode; href: string }) => {
       return <Link href={href}>{children}</Link>;
     },
     p: ({ children }) => {
@@ -19,7 +19,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
 
       return <p>{children}</p>;
     },
-    img: ({ alt, src }) => {
+    img: ({ alt, src }: { alt?: string; src: string }) => {
       return (
         <Gallery
           images={src.includes(',') ? src.split(',') : [src]}

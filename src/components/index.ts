@@ -1,12 +1,10 @@
 import Breadcrumbs from './breadcrumbs';
 import Button from './button';
 import Figure from './figure';
-import Image from './image/image';
+import Image from './image';
 import Loading from './loading';
 import Masonry from './masonry';
-import Packs from './packs';
-import Posts from './posts';
-import Store from './store';
+import Pages from './pages';
 import Shortcuts from './shortcuts/shortcuts';
 import Tags from './tags';
 import Timeline from './timeline';
@@ -19,9 +17,7 @@ const Components = {
   Image,
   Loading,
   Masonry,
-  Packs,
-  Posts,
-  Store,
+  Pages,
   Shortcuts,
   Tags,
   Timeline,

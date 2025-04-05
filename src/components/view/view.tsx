@@ -1,7 +1,8 @@
 'use client';
 
-import { ReactNode, useContext, useEffect, useState } from 'react';
+import Head from 'next/head';
 import Link from 'next/link';
+import { ReactNode, useContext, useEffect, useState } from 'react';
 
 import Contexts from '@/contexts';
 import Images from '@/images';
@@ -13,6 +14,7 @@ type Props = {
   children: ReactNode | ReactNode[];
   className?: string;
   element?: string;
+  title?: string;
 };
 
 let previousScrollPosition = 0;
@@ -25,7 +27,7 @@ function Wrapper({ children, element, ...rest }) {
   return <main {...rest}>{children}</main>;
 }
 
-function View({ children, className = '', element }: Props) {
+function View({ children, className = '', element, title }: Props) {
   const { theme } = useContext(Contexts.ThemeContext);
 
   const [isSearching, setIsSearching] = useState(false);
@@ -48,6 +50,9 @@ function View({ children, className = '', element }: Props) {
 
   return (
     <>
+      <Head>
+        <title>Kyle &mdash;&mdash; {title}</title>
+      </Head>
       <header className={styles.header}>
         <div className={styles.wrapper}>
           <div className={styles.container}>

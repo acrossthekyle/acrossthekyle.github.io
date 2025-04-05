@@ -16,4 +16,48 @@ module.exports = withMDX({
     ],
   },
   pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
+  async rewrites() {
+    return [
+      {
+        source: '/',
+        destination: '/home/page',
+      },
+      {
+        source: '/me',
+        destination: '/me/page',
+      },
+      {
+        source: '/packs',
+        destination: '/packs/page',
+      },
+      {
+        source: '/store',
+        destination: '/store/page',
+      },
+      {
+        source: '/store/:item',
+        destination: '/store/item/page',
+      },
+      {
+        source: '/store/checkout/cart',
+        destination: '/store/checkout/cart/page',
+      },
+      {
+        source: '/store/checkout/confirm',
+        destination: '/store/checkout/confirm/page',
+      },
+      {
+        source: '/store/checkout/success',
+        destination: '/store/checkout/success/page',
+      },
+      {
+        source: '/store/policies',
+        destination: '/store/policies/page',
+      },
+      {
+        source: '/tags/:tag',
+        destination: '/tags/tag/page',
+      },
+    ];
+  },
 });

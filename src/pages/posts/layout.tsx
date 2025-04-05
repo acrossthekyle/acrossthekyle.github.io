@@ -21,27 +21,27 @@ function Layout({ children }: Props) {
   return (
     <Components.View className={styles.view}>
       <Head>
-        <title>Kyle &mdash; Travels | {data.titleCombined}</title>
+        <title>Kyle &mdash;&mdash; Travels | {data.titleCombined}</title>
       </Head>
-      <Components.Posts.Title
+      <Components.Pages.Posts.Title
         context={[data.date, data.gear].filter((item) => Boolean(item))}
         crumbs={data.breadcrumbs}
         tags={data.tags}
         title={data.title}
         uri={data.uri}
       />
-      <Components.Posts.Hero image={data.image} />
-      <Components.Posts.Post>
+      <Components.Pages.Posts.Hero image={data.image} />
+      <Components.Pages.Posts.Post>
         {children}
         {(data.newer || data.older) && (
-          <Components.Posts.Navigation
+          <Components.Pages.Posts.Navigation
             newer={data.newer}
             newerLabel={!data.hasStage ? undefined : 'Next Day'}
             older={data.older}
             olderLabel={!data.hasStage ? undefined : 'Previous Day'}
           />
         )}
-      </Components.Posts.Post>
+      </Components.Pages.Posts.Post>
     </Components.View>
   );
 }

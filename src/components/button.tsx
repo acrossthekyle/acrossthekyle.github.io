@@ -11,6 +11,7 @@ type Props = {
   mode?: string;
   onClick?: () => void;
   text: string | ReactNode;
+  title?: string;
 };
 
 function Button({

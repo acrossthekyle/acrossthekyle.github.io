@@ -30,7 +30,7 @@ function Cart() {
   }, []);
 
   return (
-    <Link className={styles.link} href="/store/cart">
+    <Link className={styles.link} href="/store/checkout/cart">
       <Images.Icons.Cart />
       {count > 0 && <span className={styles.count} />}
     </Link>

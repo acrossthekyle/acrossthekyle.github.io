@@ -9,7 +9,10 @@ export default async function handler(
     const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
     const { customer_details } = await stripe.checkout.sessions.retrieve(
-      request.query.session_id,
+      (Array.isArray(request.query.session_id)
+        ? request.query.session_id
+        : [request.query.session_id]
+      ).join(''),
       {
         expand: ['line_items', 'payment_intent'],
       },

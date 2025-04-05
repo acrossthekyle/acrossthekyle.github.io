@@ -1,17 +1,19 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 
+import type { Store } from '@/types';
+
 import results from '../_database/store/items';
 
 export default function handler(
   request: NextApiRequest,
-  response: NextApiResponse,
+  response: NextApiResponse<Store.Item.Api.Item>,
 ) {
   const result =
     [...results].find(({ uri }) => uri.includes(String(request.query.item))) ??
     undefined;
 
   if (request.method !== 'GET') {
-    response.status(405, 'Method not allowed');
+    response.status(405);
   } else if (result === undefined) {
     response.status(404);
   } else {

@@ -1,0 +1,38 @@
+@use 'styles/mixins/_screen' as screen;
+
+.heading {
+  margin: 0 auto 2.25rem;
+}
+
+.paragraph {
+  line-height: 1.5;
+  margin: 0 auto 3.25rem;
+  max-width: 30rem;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.items {
+  column-gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(calc(33% - 16rem), 1fr));
+  margin: 0 auto;
+  max-width: var(--max-width);
+
+  .item {
+    height: 22rem;
+    margin-bottom: 12rem;
+  }
+}
+
+@include screen.medium {
+  .items {
+    grid-template-columns: repeat(2, minmax(calc(50% - 16rem), 1fr));
+  }
+}
+
+@include screen.compact {
+  .items {
+    grid-template-columns: repeat(1, minmax(calc(100% - 8rem), 1fr));
+  }
+}

@@ -1,0 +1,32 @@
+@use 'styles/mixins/_screen' as screen;
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: var(--max-width);
+  padding-top: 5.5rem;
+  position: relative;
+
+  .content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-left: 2rem;
+  }
+
+  @include screen.medium {
+    flex-direction: column;
+
+    .content {
+      padding-left: 0;
+      padding-top: 4rem;
+    }
+  }
+
+  @include screen.compact {
+    .content {
+      padding-top: 2rem;
+    }
+  }
+}

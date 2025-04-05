@@ -13,7 +13,7 @@ export default function Document() {
         />
         <meta
           name="description"
-          content="Hello, I'm Kyle! Thru-hiking is a way for me to experience all that this planet has to offer, and I have been on several of them all around the world. I also like to summit peaks in the Rocky Mountains. I also don't mind playing the tourist every now and then and experiencing someplace new."
+          content="Hey, my name's Kyle: I'm a thru-hiker/programmer based in Chicago with my partner and our dog Dax."
         />
         <meta name="robots" content="index, follow" />
         <meta name="generator" content="NextJS" />

@@ -21,7 +21,7 @@ export type Post = {
   };
   snippet: string;
   stages?: Stage[];
-  tags: string;
+  tags: string[];
   title: string;
   titleShort: string;
   uri: string;
@@ -58,7 +58,7 @@ export type PostApiResponse = {
     title: string;
     uri: string;
   };
-  tags: string;
+  tags: string[];
   title: string;
   titleCombined: string;
   uri: string;

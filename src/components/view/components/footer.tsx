@@ -4,7 +4,7 @@ import Constants from '@/constants';
 import { usePostsTagsData, useRecentPostsData } from '@/data/posts';
 import styles from '@/styles/components/view/components/footer.module.scss';
 
-import Image from '../../image/image';
+import Image from '../../image';
 import Loading from '../../loading';
 import Shortcuts from '../../shortcuts/shortcuts';
 import Tags from '../../tags';

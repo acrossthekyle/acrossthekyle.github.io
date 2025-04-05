@@ -1,0 +1,35 @@
+import Components from '@/components';
+import Styles from '@/styles';
+
+const scss = Styles.Pages.Store.Item.PageComponentAside;
+
+type Props = {
+  color: number;
+  frame: number;
+  image: string;
+  name: string;
+  size: string;
+};
+
+function Aside({ color, frame, image, name, size }: Props) {
+  return (
+    <div className={scss.aside}>
+      <div
+        className={scss.image}
+        data-frame={frame}
+        data-frame-color={color}
+        data-frame-size={size}
+      >
+        <Components.Image
+          alt={name}
+          height={432}
+          sizes="(max-width: 768px) 100vw, 50vw"
+          src={image}
+          width={768}
+        />
+      </div>
+    </div>
+  );
+}
+
+export default Aside;

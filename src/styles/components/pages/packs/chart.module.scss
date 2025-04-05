@@ -1,0 +1,14 @@
+@use 'styles/mixins/_on' as on;
+@use 'styles/mixins/_screen' as screen;
+
+.chart {
+  margin-left: 0.75rem;
+  max-width: 50%;
+  position: relative;
+
+  @include screen.little {
+    margin-bottom: 3rem;
+    margin-left: 0;
+    max-width: 200px;
+  }
+}

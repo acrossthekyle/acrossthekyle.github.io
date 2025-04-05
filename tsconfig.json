@@ -10,16 +10,18 @@
       "@/contexts/*": ["contexts/*"],
       "@/data": ["data/"],
       "@/data/*": ["data/*"],
+      "@/hooks": ["hooks/"],
+      "@/hooks/*": ["hooks/*"],
       "@/images": ["images/"],
       "@/images/*": ["images/*"],
+      "@/models": ["models/"],
+      "@/models/*": ["models/*"],
       "@/styles": ["styles/"],
       "@/styles/*": ["styles/*"],
       "@/types": ["types/"],
       "@/types/*": ["types/*"],
       "@/utils": ["utils/"],
-      "@/utils/*": ["utils/*"],
-      "@/viewModels": ["viewModels/"],
-      "@/viewModels/*": ["viewModels/*"]
+      "@/utils/*": ["utils/*"]
     },
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -37,7 +39,8 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "target": "ES2017"
   },
   "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]

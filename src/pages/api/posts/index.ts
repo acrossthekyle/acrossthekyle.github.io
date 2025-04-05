@@ -12,7 +12,7 @@ export default function handler(
       date,
       image,
       snippet,
-      tags: tags.split(','),
+      tags,
       title,
       uri,
     })),

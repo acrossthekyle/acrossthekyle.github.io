@@ -7,19 +7,20 @@ import Link from 'next/link';
 
 import styles from '@/styles/components/figure.module.scss';
 
-import Image from './image/image';
+import Image from './image';
 import Tags from './tags';
 
 type Props = {
   date?: string;
   image: string;
-  preview: string;
+  price?: string;
+  snippet?: string;
   tags?: string[];
   title: string;
   uri: string;
 };
 
-function Figure({ date, image, preview, tags, title, uri }: Props) {
+function Figure({ date, image, snippet, tags, title, uri }: Props) {
   const [hasEnteredView, setHasEnteredView] = useState(false);
 
   const uuid = useId();
@@ -55,13 +56,15 @@ function Figure({ date, image, preview, tags, title, uri }: Props) {
                 {title}
               </Link>
             </h2>
-            <p className={styles.preview}>
-              {truncate(preview, { length: 156, separator: ' ' })}
-              <a href={uri}>
-                <span aria-hidden="true">..</span>
-                <span>more</span>
-              </a>
-            </p>
+            {snippet && (
+              <p className={styles.preview}>
+                {truncate(snippet, { length: 156, separator: ' ' })}
+                <a href={uri}>
+                  <span aria-hidden="true">..</span>
+                  <span>more</span>
+                </a>
+              </p>
+            )}
             {date && (
               <div className={styles.context}>
                 <Link
