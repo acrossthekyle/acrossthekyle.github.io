@@ -1,44 +1,42 @@
-import { startCase } from 'lodash';
+import type { Packs } from '@/types';
 
-import type { PackCategory, PackItem } from '@/types';
-
-export function calculateWeight(items: PackItem[]) {
+export function calculateWeight(items: Packs.Item[]) {
   const total = [...items].reduce((sum, item) => sum + item.weight, 0);
 
   return (total / 16).toFixed(2);
 }
 
-export function calculateBaseWeight(items: PackItem[]) {
+export function calculateBaseWeight(items: Packs.Item[]) {
   return calculateWeight(
     [...items].filter((item) => !item.worn && !item.consumable),
   );
 }
 
-export function calculateWornWeight(items: PackItem[]) {
+export function calculateWornWeight(items: Packs.Item[]) {
   return calculateWeight([...items].filter((item) => item.worn));
 }
 
-export function calculateConsumableWeight(items: PackItem[]) {
+export function calculateConsumableWeight(items: Packs.Item[]) {
   return calculateWeight([...items].filter((item) => item.consumable));
 }
 
 export function calculateWeightPerCategory(
-  categories: PackCategory[],
-): PackCategory[] {
+  categories: Packs.Category[],
+): Packs.Category[] {
   let output = [];
 
   for (let category in categories) {
     output.push({
       category,
       items: categories[category],
-      weight: calculateWeight(categories[category] as unknown as PackItem[]),
+      weight: calculateWeight(categories[category] as unknown as Packs.Item[]),
     });
   }
 
   return output;
 }
 
-export function markAsWorn(item: PackItem) {
+export function markAsWorn(item: Packs.Item) {
   const cloned = { ...item };
 
   cloned.worn = true;
@@ -46,7 +44,7 @@ export function markAsWorn(item: PackItem) {
   return cloned;
 }
 
-export function markAsConsumable(item: PackItem) {
+export function markAsConsumable(item: Packs.Item) {
   const cloned = { ...item };
 
   cloned.consumable = true;
@@ -54,7 +52,7 @@ export function markAsConsumable(item: PackItem) {
   return cloned;
 }
 
-export function markAsLuxury(item: PackItem) {
+export function markAsLuxury(item: Packs.Item) {
   const cloned = { ...item };
 
   cloned.category = 'luxury items';
@@ -62,7 +60,7 @@ export function markAsLuxury(item: PackItem) {
   return cloned;
 }
 
-export function adjustWeightAndQuantity(item: PackItem, quantity: number) {
+export function adjustWeightAndQuantity(item: Packs.Item, quantity: number) {
   const cloned = { ...item };
 
   cloned.weight = Number((cloned.weight * quantity).toFixed(2));
@@ -71,7 +69,7 @@ export function adjustWeightAndQuantity(item: PackItem, quantity: number) {
   return cloned;
 }
 
-export function groupByCategory(items: PackItem[]): PackCategory[] {
+export function groupByCategory(items: Packs.Item[]): Packs.Category[] {
   // @ts-ignore-error
   return [...items].reduce((accumulator, current) => {
     let key = current['category']

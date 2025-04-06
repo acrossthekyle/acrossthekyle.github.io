@@ -1,14 +1,15 @@
-'use client';
-
-import { ReactNode, useId, useState } from 'react';
+import { ReactNode } from 'react';
 import { InView } from 'react-intersection-observer';
 import { truncate } from 'lodash';
 import Link from 'next/link';
 
-import styles from '@/styles/components/figure.module.scss';
+import Styles from '@/styles';
 
 import Image from './image';
 import Tags from './tags';
+import { useViewModel } from './figure.viewModel';
+
+const scss = Styles.Components.Figure;
 
 type Props = {
   date?: string;
@@ -21,23 +22,15 @@ type Props = {
 };
 
 function Figure({ date, image, snippet, tags, title, uri }: Props) {
-  const [hasEnteredView, setHasEnteredView] = useState(false);
-
-  const uuid = useId();
-
-  const handleOnInView = (inView: boolean) => {
-    if (!hasEnteredView && inView) {
-      setHasEnteredView(true);
-    }
-  };
+  const { handleOnInView, hasEnteredView, uuid } = useViewModel();
 
   return (
     <InView onChange={handleOnInView} threshold={0.1}>
       {({ ref }) => (
-        <figure className={styles.figure} data-in-view={hasEnteredView}>
+        <figure className={scss.figure} data-in-view={hasEnteredView}>
           <Link
             aria-describedby={uuid}
-            className={styles.image}
+            className={scss.image}
             href={uri}
             ref={ref}
           >
@@ -49,15 +42,15 @@ function Figure({ date, image, snippet, tags, title, uri }: Props) {
               width={768}
             />
           </Link>
-          <figcaption className={styles.caption}>
-            {tags && <Tags className={styles.tags} items={tags} />}
+          <figcaption className={scss.caption}>
+            {tags && <Tags className={scss.tags} items={tags} />}
             <h2 id={uuid}>
-              <Link className={styles.title} href={uri}>
+              <Link className={scss.title} href={uri}>
                 {title}
               </Link>
             </h2>
             {snippet && (
-              <p className={styles.preview}>
+              <p className={scss.preview}>
                 {truncate(snippet, { length: 156, separator: ' ' })}
                 <a href={uri}>
                   <span aria-hidden="true">..</span>
@@ -66,10 +59,10 @@ function Figure({ date, image, snippet, tags, title, uri }: Props) {
               </p>
             )}
             {date && (
-              <div className={styles.context}>
+              <div className={scss.context}>
                 <Link
                   aria-label="About Kyle"
-                  className={styles.author}
+                  className={scss.author}
                   href="/me"
                 >
                   <Image
@@ -82,9 +75,9 @@ function Figure({ date, image, snippet, tags, title, uri }: Props) {
                     width={20}
                   />
                 </Link>
-                <div className={styles.info}>
+                <div className={scss.info}>
                   <span aria-hidden="true">Kyle Gilbert</span>
-                  <span aria-hidden="true" className={styles.divider}>
+                  <span aria-hidden="true" className={scss.divider}>
                     •
                   </span>
                   <time>{date}</time>

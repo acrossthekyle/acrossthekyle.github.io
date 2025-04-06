@@ -1,12 +1,14 @@
 import Link from 'next/link';
 
 import Images from '@/images';
-import styles from '@/styles/components/breadcrumbs.module.scss';
-import type { Breadcrumb } from '@/types';
+import Styles from '@/styles';
+import type { Components } from '@/types';
+
+const scss = Styles.Components.Breadcrumbs;
 
 type Props = {
   className?: string;
-  items: Breadcrumb[];
+  items: Components.Breadcrumb[];
   shouldAlignCenter?: boolean;
 };
 
@@ -18,16 +20,16 @@ function Breadcrumbs({
   return (
     <ul
       aria-label="Breadcrumbs"
-      className={`${styles.breadcrumbs} ${className}`.trim()}
+      className={`${scss.breadcrumbs} ${className}`.trim()}
       data-centered={shouldAlignCenter}
       role="navigation"
     >
-      {items.map(({ text, uri }: Breadcrumb, index: number) => (
-        <li className={styles.breadcrumb} key={`${text}-${uri}`}>
+      {items.map(({ text, uri }: Components.Breadcrumb, index: number) => (
+        <li className={scss.breadcrumb} key={`${text}-${uri}`}>
           {uri && (
             <Link href={uri}>
               {index === 0 && (
-                <span aria-hidden="true" className={styles.back}>
+                <span aria-hidden="true" className={scss.back}>
                   <Images.Icons.Arrow left />
                 </span>
               )}
@@ -35,7 +37,7 @@ function Breadcrumbs({
             </Link>
           )}
           {!uri && <span>{text}</span>}
-          <span aria-hidden="true" className={styles.divider}>
+          <span aria-hidden="true" className={scss.divider}>
             <Images.Icons.Arrow right />
           </span>
         </li>

@@ -2,7 +2,9 @@ import { RefObject, forwardRef, useState } from 'react';
 import NextJsImage, { ImageProps } from 'next/image';
 
 import Constants from '@/constants';
-import styles from '@/styles/components/image.module.scss';
+import Styles from '@/styles';
+
+const scss = Styles.Components.Image;
 
 const Image = forwardRef(function UiImage(
   props: ImageProps,
@@ -12,7 +14,7 @@ const Image = forwardRef(function UiImage(
 
   return (
     <>
-      {!isLoaded && <div aria-hidden="true" className={styles.skeleton} />}
+      {!isLoaded && <div aria-hidden="true" className={scss.skeleton} />}
       <NextJsImage
         quality={80}
         {...props}

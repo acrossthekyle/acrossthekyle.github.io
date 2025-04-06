@@ -28,77 +28,45 @@ describe('_utils/posts', () => {
   });
 
   it('will return an empty array if the query string is empty', () => {
-    expect(
-      filterPostsByQuery('', posts, uniqueTitles, uniqueLocations),
-    ).toHaveLength(0);
+    expect(filterPostsByQuery(posts, '')).toHaveLength(0);
   });
 
   it('will return posts that match a year', () => {
-    const result = filterPostsByQuery(
-      '2018',
-      posts,
-      uniqueTitles,
-      uniqueLocations,
-    );
+    const result = filterPostsByQuery(posts, '2018');
 
     expect(result).toHaveLength(2);
-    expect(result[0].date).toContain('2018');
-    expect(result[1].date).toContain('2018');
+    expect(result[0].subTitle).toContain('2018');
+    expect(result[1].subTitle).toContain('2018');
   });
 
   it('will not return posts that do not match a year', () => {
-    const result = filterPostsByQuery(
-      '2000',
-      posts,
-      uniqueTitles,
-      uniqueLocations,
-    );
+    const result = filterPostsByQuery(posts, '2000');
 
     expect(result).toHaveLength(0);
   });
 
   it('will return posts that match a title', () => {
-    const result = filterPostsByQuery(
-      'camino',
-      posts,
-      uniqueTitles,
-      uniqueLocations,
-    );
+    const result = filterPostsByQuery(posts, 'camino');
 
     expect(result).toHaveLength(1);
     expect(result[0].title.toLowerCase()).toContain('camino');
   });
 
   it('will return posts that match a location', () => {
-    const result = filterPostsByQuery(
-      'cairo',
-      posts,
-      uniqueTitles,
-      uniqueLocations,
-    );
+    const result = filterPostsByQuery(posts, 'cairo');
 
     expect(result).toHaveLength(1);
   });
 
   it('will return posts that match a location and title', () => {
-    const result = filterPostsByQuery(
-      'corsica',
-      posts,
-      uniqueTitles,
-      uniqueLocations,
-    );
+    const result = filterPostsByQuery(posts, 'corsica');
 
     expect(result).toHaveLength(1);
     expect(result[0].title.toLowerCase()).toContain('corsica');
   });
 
   it('will return posts that match a query with multiple words', () => {
-    const result = filterPostsByQuery(
-      'tour cairo',
-      posts,
-      uniqueTitles,
-      uniqueLocations,
-    );
+    const result = filterPostsByQuery(posts, 'tour cairo');
 
     expect(result).toHaveLength(4);
     expect(result[0].title.toLowerCase()).toContain('tour');
@@ -108,12 +76,7 @@ describe('_utils/posts', () => {
   });
 
   it('will return posts that match a query with a year and multiple words', () => {
-    const result = filterPostsByQuery(
-      'tour 2023 egypt',
-      posts,
-      uniqueTitles,
-      uniqueLocations,
-    );
+    const result = filterPostsByQuery(posts, 'tour 2023 egypt');
 
     expect(result).toHaveLength(5);
     expect(result[0].title.toLowerCase()).toContain(
@@ -134,12 +97,7 @@ describe('_utils/posts', () => {
   });
 
   it('will return no posts due to no matches', () => {
-    const result = filterPostsByQuery(
-      '1995 foo bar',
-      posts,
-      uniqueTitles,
-      uniqueLocations,
-    );
+    const result = filterPostsByQuery(posts, '1995 foo bar');
 
     expect(result).toHaveLength(0);
   });

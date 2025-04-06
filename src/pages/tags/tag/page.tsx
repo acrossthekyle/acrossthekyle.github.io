@@ -4,7 +4,7 @@ import type { Tags } from '@/types';
 
 import { useViewModel } from './page.viewModel';
 
-const scss = Styles.Pages.Tags.Tag;
+const scss = Styles.Pages.Tags.Tag.Page;
 
 function Page() {
   const { isReady, items, tag, total } = useViewModel();

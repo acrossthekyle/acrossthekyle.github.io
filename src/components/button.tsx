@@ -2,7 +2,9 @@ import { ReactNode } from 'react';
 import Link from 'next/link';
 
 import Images from '@/images';
-import styles from '@/styles/components/button.module.scss';
+import Styles from '@/styles';
+
+const scss = Styles.Components.Button;
 
 type Props = {
   className?: string;
@@ -25,7 +27,7 @@ function Button({
   if (onClick) {
     return (
       <button
-        className={`${styles.button} ${className}`.trim()}
+        className={`${scss.button} ${className}`.trim()}
         data-mode={mode}
         onClick={onClick}
         type="button"
@@ -39,7 +41,7 @@ function Button({
   if (href) {
     return (
       <Link
-        className={`${styles.button} ${className}`.trim()}
+        className={`${scss.button} ${className}`.trim()}
         data-mode={mode}
         href={href}
         target={href.includes('http') ? '_blank' : '_self'}

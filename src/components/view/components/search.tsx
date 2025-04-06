@@ -1,14 +1,13 @@
-'use client';
-
-import { debounce } from 'lodash';
-import { ChangeEvent, useCallback, useEffect, useState } from 'react';
 import Link from 'next/link';
 
-import { useSearchPostsData } from '@/data/posts';
 import Images from '@/images';
-import styles from '@/styles/components/view/components/search.module.scss';
+import Styles from '@/styles';
 
 import Loading from '../../loading';
+
+import { useViewModel } from './search.viewModel';
+
+const scss = Styles.Components.View.Components.Search;
 
 type Props = {
   isSearching: boolean;
@@ -16,38 +15,23 @@ type Props = {
 };
 
 function Search({ isSearching, onClose }: Props) {
-  const [query, updateQuery] = useState('');
-
-  const { data, isLoading, isReady, search } = useSearchPostsData();
-
-  useEffect(() => {
-    if (!!query) {
-      handleSearch(query);
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [query]);
-
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  const handleSearch = useCallback(debounce(search, 300), []);
-
-  const handleOnSearch = (event: ChangeEvent<HTMLInputElement>) => {
-    updateQuery((event.target as HTMLInputElement).value.toLowerCase());
-  };
+  const { items, handleOnSearch, isLoading, isReady, query, total } =
+    useViewModel();
 
   return (
     <div
       aria-labelledby="search-label"
       aria-modal="true"
-      className={styles.find}
+      className={scss.find}
       data-active={isSearching}
       role="dialog"
       tabIndex={-1}
     >
-      <div className={styles.container}>
-        <div className={styles.input}>
+      <div className={scss.container}>
+        <div className={scss.input}>
           <button
             aria-label="Close Search"
-            className={styles.close}
+            className={scss.close}
             onClick={onClose}
             title="Close search"
             type="button"
@@ -55,15 +39,15 @@ function Search({ isSearching, onClose }: Props) {
             <Images.Icons.Close />
           </button>
           <label
-            className={styles.label}
+            className={scss.label}
             id="search-label"
             htmlFor="search-input"
           >
-            Search for Posts
+            Search
           </label>
           <input
             autoComplete="off"
-            className={styles.field}
+            className={scss.field}
             id="search-input"
             onChange={handleOnSearch}
             placeholder="Type to search..."
@@ -71,21 +55,16 @@ function Search({ isSearching, onClose }: Props) {
             value={query}
           />
         </div>
-        <div className={styles.results}>
+        <div className={scss.results}>
           {isLoading && <Loading />}
-          {isReady && !!query && (
+          {isReady && (
             <>
-              <h4
-                aria-label={`Found ${data.total} search results`}
-                className={styles.total}
-              >
-                {`Found ${data.total} results`}
-              </h4>
+              <h4 className={scss.total}>{`Found ${total} results`}</h4>
               <div role="list">
-                {data.results.map(({ date, title, uri }) => (
+                {items.map(({ subTitle, title, uri }) => (
                   <Link
-                    aria-label={`${title} ${date}`}
-                    className={styles.result}
+                    aria-label={`${title} ${subTitle}`}
+                    className={scss.result}
                     href={uri}
                     onClick={onClose}
                     key={uri}
@@ -96,11 +75,11 @@ function Search({ isSearching, onClose }: Props) {
                         : '_self'
                     }
                   >
-                    <div aria-hidden="true" className={styles.title}>
+                    <div aria-hidden="true" className={scss.title}>
                       {title}
                     </div>
-                    <span aria-hidden="true" className={styles.date}>
-                      <time>{date}</time>
+                    <span aria-hidden="true" className={scss.date}>
+                      <time>{subTitle}</time>
                     </span>
                   </Link>
                 ))}

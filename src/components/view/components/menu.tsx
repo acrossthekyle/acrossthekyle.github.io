@@ -1,89 +1,56 @@
-'use client';
-
-import { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
 
-import styles from '@/styles/components/view/components/menu.module.scss';
+import Styles from '@/styles';
 
 import Navigation from './navigation';
 import Theme from './theme';
 
+import { useViewModel } from './menu.viewModel';
+
+const scss = Styles.Components.View.Components.Menu;
+
 function Menu() {
-  const router = useRouter();
-
-  const [isActive, setIsActive] = useState(false);
-
-  useEffect(() => {
-    router.beforePopState(({ as }) => {
-      if (as !== router.asPath) {
-        setIsActive(false);
-      }
-
-      return true;
-    });
-
-    return () => {
-      router.beforePopState(() => true);
-    };
-  }, [router]);
-
-  const handleOnClose = () => {
-    setIsActive(false);
-
-    document.getElementById('menuOpen').focus();
-  };
-
-  const handleOnOpen = () => {
-    setIsActive(true);
-
-    setTimeout(() => {
-      document.getElementById('menuClose').focus();
-    }, 750);
-  };
-
-  const handleOnLinkClick = () => {
-    setIsActive(false);
-  };
+  const { handleOnClose, handleOnLinkClick, handleOnOpen, isActive } =
+    useViewModel();
 
   return (
     <>
       <button
         aria-label="Open menu"
-        className={styles.menuButton}
+        className={scss.menuButton}
         id="menuOpen"
         onClick={handleOnOpen}
         title="Open Menu"
         type="button"
       >
-        <div aria-hidden="true" className={styles.icon} />
+        <div aria-hidden="true" className={scss.icon} />
       </button>
-      <div className={styles.menu} data-active={isActive}>
+      <div className={scss.menu} data-active={isActive}>
         <div
           aria-labelledby="menuHeading"
           aria-modal="true"
-          className={styles.content}
+          className={scss.content}
           role="dialog"
           tabIndex={-1}
         >
-          <div className={styles.circle}>
-            <div className={styles.wrapper}>
+          <div className={scss.circle}>
+            <div className={scss.wrapper}>
               <button
                 aria-label="Close menu"
-                className={styles.close}
+                className={scss.close}
                 id="menuClose"
                 onClick={handleOnClose}
                 title="Close menu"
                 type="button"
               >
-                <div aria-hidden="true" className={styles.icon} />
+                <div aria-hidden="true" className={scss.icon} />
               </button>
               <h2 id="menuHeading">Menu</h2>
               <Navigation
-                linkClassName={styles.link}
+                linkClassName={scss.link}
                 onClick={handleOnLinkClick}
               />
-              <div className={styles.footer}>
+              <div className={scss.footer}>
                 <Theme />
               </div>
             </div>

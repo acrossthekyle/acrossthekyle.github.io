@@ -1,4 +1,6 @@
-import styles from '@/styles/components/loading.module.scss';
+import Styles from '@/styles';
+
+const scss = Styles.Components.Loading;
 
 type Props = {
   className?: string;
@@ -6,11 +8,11 @@ type Props = {
 
 function Loading({ className = '' }) {
   return (
-    <div className={`${styles.wrapper} ${className}`.trim()}>
-      <div className={styles.loading}>
-        <span className={styles.loader} />
-        <span className={styles.loader} />
-        <span className={styles.loader} />
+    <div className={`${scss.wrapper} ${className}`.trim()}>
+      <div className={scss.loading}>
+        <span className={scss.loader} />
+        <span className={scss.loader} />
+        <span className={scss.loader} />
       </div>
     </div>
   );

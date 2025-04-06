@@ -1,7 +1,7 @@
 import Page from './page.module.scss';
 
-const Confirm = {
+const Styles = {
   Page,
 };
 
-export default Confirm;
+export default Styles;

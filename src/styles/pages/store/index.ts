@@ -4,7 +4,7 @@ import Item from './item';
 import Page from './page.module.scss';
 import PageComponentCard from './page.component.card.module.scss';
 
-const Store = {
+const Styles = {
   Checkout,
   ComponentPolicies,
   Item,
@@ -12,4 +12,4 @@ const Store = {
   PageComponentCard,
 };
 
-export default Store;
+export default Styles;

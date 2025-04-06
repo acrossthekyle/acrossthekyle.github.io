@@ -5,7 +5,7 @@ import PageComponentForm from './page.component.form.module.scss';
 import PageComponentFormSelect from './page.component.form.select.module.scss';
 import PageComponentInfo from './page.component.info.module.scss';
 
-const Item = {
+const Styles = {
   Page,
   PageComponentAside,
   PageComponentDescriptions,
@@ -14,4 +14,4 @@ const Item = {
   PageComponentInfo,
 };
 
-export default Item;
+export default Styles;

@@ -1,10 +1,9 @@
-export type PackCategory = {
-  category: string;
-  items: PackItem[];
-  weight: number;
-};
+export enum Units {
+  Imperial = 'imperial',
+  Metric = 'metric',
+}
 
-export type PackItem = {
+export type Item = {
   category: string;
   consumable: boolean;
   link: string;
@@ -15,8 +14,21 @@ export type PackItem = {
   worn: boolean;
 };
 
+export type Category = {
+  category: string;
+  items: Item[];
+  weight: number;
+};
+
+export type Raw = {
+  items: Item[];
+  slug: string;
+  title: string;
+  type: string;
+};
+
 export type Pack = {
-  categories: PackCategory[];
+  categories: Category[];
   slug: string;
   title: string;
   type: string;
@@ -26,18 +38,9 @@ export type Pack = {
   weightWorn: string;
 };
 
-export type ChartProps = {
-  categories: PackCategory[];
-  onClick: (categoryIndex: number) => void;
-  onHover: (categoryName: string) => void;
-  units: string;
+export type Chart = {
+  categories: Category[];
+  onClick: (index: number) => void;
+  onHover: (value: string) => void;
+  units: Units;
 };
-
-export type PackFromDatabase = {
-  items: PackItem[];
-  slug: string;
-  title: string;
-  type: string;
-};
-
-export type PacksApiResponse = Pack;

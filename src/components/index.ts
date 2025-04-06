@@ -4,7 +4,7 @@ import Figure from './figure';
 import Image from './image';
 import Loading from './loading';
 import Masonry from './masonry';
-import Pages from './pages';
+import Posts from './posts';
 import Shortcuts from './shortcuts/shortcuts';
 import Tags from './tags';
 import Timeline from './timeline';
@@ -17,7 +17,7 @@ const Components = {
   Image,
   Loading,
   Masonry,
-  Pages,
+  Posts,
   Shortcuts,
   Tags,
   Timeline,

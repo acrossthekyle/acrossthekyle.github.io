@@ -1,7 +1,9 @@
 import { ReactNode } from 'react';
 
 import Images from '@/images';
-import styles from '@/styles/components/shortcuts/external.module.scss';
+import Styles from '@/styles';
+
+const scss = Styles.Components.Shortcuts.External;
 
 type Props = {
   className?: string;
@@ -22,14 +24,14 @@ function External({
   return (
     <a
       {...rest}
-      className={`${styles.link} ${className || ''}`.trim()}
+      className={`${scss.link} ${className || ''}`.trim()}
       href={url}
       rel="noreferrer"
       target="_blank"
       title={title}
     >
       {text}
-      {hasArrow && <Images.Icons.Arrow className={styles.rotated} right />}
+      {hasArrow && <Images.Icons.Arrow className={scss.rotated} right />}
     </a>
   );
 }

@@ -1,18 +1,15 @@
-import Head from 'next/head';
-
 import Components from '@/components';
 import Constants from '@/constants';
-import styles from '@/styles/pages/me/index.module.scss';
+import Styles from '@/styles';
+
+const scss = Styles.Pages.Me.Page;
 
 function Page() {
   return (
-    <Components.View className={styles.view}>
-      <Head>
-        <title>Kyle &mdash;&mdash; About</title>
-      </Head>
-      <h1 className={styles.heading}>About</h1>
-      <p className={styles.paragraph}>{Constants.ABOUT_ME_BLURB}</p>
-      <div className={styles.image}>
+    <Components.View title="About">
+      <h1 className={scss.heading}>About</h1>
+      <p className={scss.paragraph}>{Constants.ABOUT_ME_BLURB}</p>
+      <div className={scss.image}>
         <Components.Image
           alt=""
           height={432}
@@ -21,7 +18,7 @@ function Page() {
           width={768}
         />
       </div>
-      <div className={styles.content}>
+      <div className={scss.content}>
         <p>
           After thru-hiking several trails around the world, from South America
           to Nepal, I've found that the journey, rather than the destination,

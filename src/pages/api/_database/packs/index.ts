@@ -1,3 +1,5 @@
+import type { Packs } from '@/types';
+
 import altaViaOne from './alta-via-one';
 import annapurnaCircuit from './annapurna-circuit';
 import caminoDeSantiago from './camino-de-santiago';
@@ -7,7 +9,7 @@ import overnightBackpacking from './overnight-backpacking';
 import tourDuMontBlanc from './tour-du-mont-blanc';
 import westHighlandWay from './west-highland-way';
 
-const data = [
+const data: Packs.Raw[] = [
   {
     items: overnightBackpacking,
     slug: 'overnight-backpacking',

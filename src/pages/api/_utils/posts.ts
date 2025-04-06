@@ -1,28 +1,28 @@
-import Constants from '@/constants';
-import type { Post, QueriedPosts } from '@/types';
+import type { Posts, Search } from '@/types';
 
-export function getPublicPosts(posts: Post[]): Post[] {
+export function getPublicPosts(posts: Posts.Raw[]): Posts.Raw[] {
   return posts.filter(({ isPrivate }) => !isPrivate);
 }
 
-export function getUniquePostTitles(posts: Post[]): string[] {
+export function getUniquePostTitles(posts: Posts.Raw[]): string[] {
   return posts
     .map(({ title }) => title.toLowerCase())
     .filter((value, index, items) => items.indexOf(value) === index);
 }
 
-export function getUniquePostLocations(posts: Post[]): string[] {
+export function getUniquePostLocations(posts: Posts.Raw[]): string[] {
   return posts
     .map(({ locationFull }) => locationFull.toLowerCase())
     .filter((value, index, items) => items.indexOf(value) === index);
 }
 
 export function filterPostsByQuery(
+  posts: Posts.Raw[],
   query: string,
-  posts: Post[],
-  titles: string[],
-  locations: string[],
-): QueriedPosts[] {
+): Search.Item[] {
+  const titles = getUniquePostTitles(posts);
+  const locations = getUniquePostLocations(posts);
+
   let results = [];
 
   if (!!query.trim()) {
@@ -38,42 +38,6 @@ export function filterPostsByQuery(
           results = [
             ...results,
             ...filterablePosts.filter(({ date }) => date.includes(lowered)),
-          ];
-        }
-
-        if (
-          [
-            'about',
-            'experience',
-            'hire',
-            'hiring',
-            'jobs',
-            'resume',
-            'work',
-          ].includes(lowered)
-        ) {
-          results = [
-            ...results,
-            {
-              date: '(Opens in a new tab/window)',
-              title: 'My Resume',
-              uri: Constants.RESUME_URL,
-            },
-          ];
-        }
-
-        if (
-          ['gear', 'pack', 'list', 'supplies', 'backpack', 'loadout'].includes(
-            lowered,
-          )
-        ) {
-          results = [
-            ...results,
-            {
-              date: 'Lists of gear I carry on each trip',
-              title: 'Packs',
-              uri: '/packs',
-            },
           ];
         }
 
@@ -109,24 +73,8 @@ export function filterPostsByQuery(
   }
 
   return results.map(({ date, title, uri }) => ({
-    date,
+    subTitle: date,
     title,
     uri,
   }));
-}
-
-export function getUniqueSearchResults(results: QueriedPosts[], key: string) {
-  const uniqueResults = new Set();
-
-  return results.filter((item) => {
-    const value = item[key];
-
-    if (!uniqueResults.has(value)) {
-      uniqueResults.add(value);
-
-      return true;
-    }
-
-    return false;
-  });
 }

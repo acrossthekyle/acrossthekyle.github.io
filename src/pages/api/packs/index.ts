@@ -1,6 +1,8 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 
-import results from '../_database/packs';
+import type { Packs } from '@/types';
+
+import packs from '../_database/packs';
 import {
   calculateBaseWeight,
   calculateConsumableWeight,
@@ -12,10 +14,10 @@ import {
 
 export default function handler(
   request: NextApiRequest,
-  response: NextApiResponse,
+  response: NextApiResponse<Packs.Pack[]>,
 ) {
   response.status(200).json(
-    results.map((result) => {
+    packs.map((result) => {
       return {
         categories: calculateWeightPerCategory(groupByCategory(result.items)),
         slug: result.slug,

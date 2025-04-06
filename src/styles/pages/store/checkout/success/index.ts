@@ -1,7 +1,7 @@
 import Page from './page.module.scss';
 
-const Success = {
+const Styles = {
   Page,
 };
 
-export default Success;
+export default Styles;

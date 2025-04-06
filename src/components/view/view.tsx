@@ -1,14 +1,14 @@
-'use client';
-
 import Head from 'next/head';
 import Link from 'next/link';
-import { ReactNode, useContext, useEffect, useState } from 'react';
+import { ReactNode } from 'react';
 
-import Contexts from '@/contexts';
 import Images from '@/images';
-import styles from '@/styles/components/view/view.module.scss';
+import Styles from '@/styles';
 
-import ViewComponents from './components';
+import Components from './components';
+import { useViewModel } from './view.viewModel';
+
+const scss = Styles.Components.View.View;
 
 type Props = {
   children: ReactNode | ReactNode[];
@@ -16,8 +16,6 @@ type Props = {
   element?: string;
   title?: string;
 };
-
-let previousScrollPosition = 0;
 
 function Wrapper({ children, element, ...rest }) {
   if (element === 'div') {
@@ -28,49 +26,32 @@ function Wrapper({ children, element, ...rest }) {
 }
 
 function View({ children, className = '', element, title }: Props) {
-  const { theme } = useContext(Contexts.ThemeContext);
-
-  const [isSearching, setIsSearching] = useState(false);
-
-  const handleOnOpenSearch = () => {
-    setIsSearching(true);
-
-    setTimeout(() => {
-      document.getElementById('search-input').focus();
-    }, 250);
-  };
-
-  const handleOnCloseSearch = () => {
-    setTimeout(() => {
-      document.getElementById('searchOpen').focus();
-    }, 250);
-
-    setIsSearching(false);
-  };
+  const { handleOnCloseSearch, handleOnOpenSearch, isSearching } =
+    useViewModel();
 
   return (
     <>
       <Head>
         <title>Kyle &mdash;&mdash; {title}</title>
       </Head>
-      <header className={styles.header}>
-        <div className={styles.wrapper}>
-          <div className={styles.container}>
-            <div className={styles.inner}>
-              <div className={styles.logo}>
+      <header className={scss.header}>
+        <div className={scss.wrapper}>
+          <div className={scss.container}>
+            <div className={scss.inner}>
+              <div className={scss.logo}>
                 <Link aria-label="acrossthekyle" href="/" id="logo">
                   AcrossThe<span>Kyle</span>
                 </Link>
               </div>
-              <nav className={styles.nav}>
-                <div className={styles.wrapper}>
-                  <ViewComponents.Navigation
-                    containerClassName={styles.links}
-                    linkClassName={styles.link}
+              <nav className={scss.nav}>
+                <div className={scss.wrapper}>
+                  <Components.Navigation
+                    containerClassName={scss.links}
+                    linkClassName={scss.link}
                   />
                 </div>
               </nav>
-              <div className={styles.icons}>
+              <div className={scss.icons}>
                 <button
                   aria-label="Search for posts"
                   id="searchOpen"
@@ -79,26 +60,26 @@ function View({ children, className = '', element, title }: Props) {
                 >
                   <Images.Icons.Search />
                 </button>
-                <ViewComponents.Cart />
+                <Components.Cart />
               </div>
-              <ViewComponents.Menu />
+              <Components.Menu />
             </div>
           </div>
         </div>
       </header>
-      <ViewComponents.Search
+      <Components.Search
         isSearching={isSearching}
         onClose={handleOnCloseSearch}
       />
       <Wrapper
-        className={`${styles.view} ${className}`.trim()}
+        className={`${scss.view} ${className}`.trim()}
         element={element}
         id="view-anchor"
       >
         {children}
       </Wrapper>
-      <ViewComponents.Footer />
-      <ViewComponents.Scroll />
+      <Components.Footer />
+      <Components.Scroll />
     </>
   );
 }

@@ -1,0 +1,103 @@
+@use 'styles/mixins/_on' as on;
+@use 'styles/mixins/_screen' as screen;
+
+.heading {
+  margin: 0 auto 1rem;
+  position: relative;
+  text-align: center;
+}
+
+.paragraph {
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 30rem;
+  padding: 1.25rem 2rem 1.25rem;
+  position: relative;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.25rem;
+  position: relative;
+}
+
+.toggle {
+  align-items: center;
+  background: var(--button);
+  border-radius: 0.25rem;
+  color: var(--button-text);
+  display: none;
+  font-size: 0.8rem;
+  height: 1.65rem;
+  padding: 0.5rem 0.5rem;
+
+  svg {
+    fill: var(--button-text);
+    height: 0.9rem;
+    width: 0.9rem;
+  }
+}
+
+.main {
+  flex: 2;
+  opacity: 1;
+  padding-top: 1rem;
+  transition: all 0.4s ease;
+
+  .heading {
+    line-height: 2.25rem;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+
+    .stats {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}
+
+@include screen.medium {
+  .main {
+    &[data-browse-packs='true'] {
+      left: 0;
+      position: fixed;
+      top: -1000%;
+      transform: translateX(110%);
+    }
+
+    .toggle {
+      display: flex;
+
+      svg {
+        margin-right: 0.25rem;
+      }
+    }
+
+    .heading {
+      margin-right: 1rem;
+      margin-top: 1rem;
+    }
+
+    .wrapper {
+      margin-top: 3rem;
+    }
+  }
+}
+
+@include screen.little {
+  .main {
+    .wrapper {
+      .stats {
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+      }
+    }
+  }
+}

@@ -1,16 +1,19 @@
-'use client';
-
-import Head from 'next/head';
-
 import Components from '@/components';
 import Images from '@/images';
-import styles from '@/styles/pages/packs/index.module.scss';
-import ViewModels from '@/models';
+import Styles from '@/styles';
+
+import Aside from './page.component.aside';
+import Categories from './page.component.categories';
+import Chart from './page.component.chart';
+import Legend from './page.component.legend';
+import Units from './page.component.units';
+import { useViewModel } from './page.viewModel';
+
+const scss = Styles.Pages.Packs.Page;
 
 function Page() {
   const {
     canRenderPacks,
-    data,
     handleOnChartClick,
     handleOnChartHover,
     handleOnLegendClick,
@@ -22,71 +25,49 @@ function Page() {
     isLoading,
     isReady,
     pack,
+    packs,
     units,
-  } = ViewModels.usePacksViewModel();
+  } = useViewModel();
 
   return (
-    <Components.View className={styles.view} element="div">
-      <Head>
-        <title>Kyle &mdash;&mdash; Packs</title>
-      </Head>
-      <h1>Packs</h1>
-      <p className={styles.paragraph}>
+    <Components.View element="div" title="Packs">
+      <h1 className={scss.heading}>Packs</h1>
+      <p className={scss.paragraph}>
         Every trip is different, with its own set of gear. Here are my loadouts
         that I bring with me on each of my thru-hikes.
       </p>
-      <div className={styles.units}>
-        <Components.Button
-          mode={units === 'imperial' ? 'primary' : 'secondary'}
-          onClick={handleOnUnitsClick}
-          text="Imperial (oz/lbs)"
-        />
-        <Components.Button
-          mode={units === 'metric' ? 'primary' : 'secondary'}
-          onClick={handleOnUnitsClick}
-          text="Metric (g/kg)"
-        />
-      </div>
-      <div className={styles.container}>
+      <Units onClick={handleOnUnitsClick} units={units} />
+      <div className={scss.container}>
         {isLoading && <Components.Loading />}
         {isReady && pack && (
           <>
-            <aside className={styles.aside} data-browse-packs={canRenderPacks}>
+            <Aside
+              activeId={pack.slug}
+              canBrowse={canRenderPacks}
+              onPackClick={handleOnPackClick}
+              onViewStatsClick={handleOnViewStatsClick}
+              packs={packs}
+            />
+            <main className={scss.main} data-browse-packs={canRenderPacks}>
               <button
-                className={styles.toggle}
-                onClick={handleOnViewStatsClick}
-                type="button"
-              >
-                Back to stats <Images.Icons.Arrow right />
-              </button>
-              <Components.Pages.Packs.Packs
-                active={pack?.slug}
-                className={canRenderPacks ? styles.visible : undefined}
-                onClick={handleOnPackClick}
-                packs={data}
-                units={units}
-              />
-            </aside>
-            <main className={styles.main} data-browse-packs={canRenderPacks}>
-              <button
-                className={styles.toggle}
+                className={scss.toggle}
                 onClick={handleOnViewAllPacksClick}
                 type="button"
               >
                 <Images.Icons.Arrow left /> All packs
               </button>
-              <h2 className={styles.heading} id="title">
+              <h2 className={scss.heading} id="title">
                 {pack.title}
               </h2>
-              <div className={styles.wrapper}>
-                <div className={styles.stats}>
-                  <Components.Pages.Packs.Chart
+              <div className={scss.wrapper}>
+                <div className={scss.stats}>
+                  <Chart
                     categories={pack.categories}
                     onClick={handleOnChartClick}
                     onHover={handleOnChartHover}
                     units={units}
                   />
-                  <Components.Pages.Packs.Legend
+                  <Legend
                     categories={pack.categories}
                     hoveredCategory={hoveredCategory}
                     onClick={handleOnLegendClick}
@@ -97,10 +78,7 @@ function Page() {
                     weightWorn={pack.weightWorn}
                   />
                 </div>
-                <Components.Pages.Packs.Categories
-                  categories={pack.categories}
-                  units={units}
-                />
+                <Categories categories={pack.categories} units={units} />
               </div>
             </main>
           </>

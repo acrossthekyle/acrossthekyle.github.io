@@ -1,8 +1,7 @@
 import Link from 'next/link';
 
 import Constants from '@/constants';
-import { usePostsTagsData, useRecentPostsData } from '@/data/posts';
-import styles from '@/styles/components/view/components/footer.module.scss';
+import Styles from '@/styles';
 
 import Image from '../../image';
 import Loading from '../../loading';
@@ -10,35 +9,40 @@ import Shortcuts from '../../shortcuts/shortcuts';
 import Tags from '../../tags';
 import Contact from './contact';
 import Theme from './theme';
+import { useViewModel } from './footer.viewModel';
+
+const scss = Styles.Components.View.Components.Footer;
 
 function Footer() {
   const {
-    data: tags,
-    isLoading: isTagsLoading,
-    isReady: isTagsReady,
-  } = usePostsTagsData();
-  const { data, isLoading, isReady } = useRecentPostsData();
+    isPostsLoading,
+    isPostsReady,
+    isTagsLoading,
+    isTagsReady,
+    posts,
+    tags,
+  } = useViewModel();
 
   return (
-    <footer className={styles.footer}>
-      <div className={styles.columns}>
-        <div className={styles.column}>
+    <footer className={scss.footer}>
+      <div className={scss.columns}>
+        <div className={scss.column}>
           <h3>About Me</h3>
           <p>{Constants.ABOUT_ME_BLURB}</p>
           <h3>Tags</h3>
           {isTagsLoading && <Loading />}
           {isTagsReady && (
-            <Tags className={styles.tags} items={tags} mode="secondary" />
+            <Tags className={scss.tags} items={tags} mode="secondary" />
           )}
         </div>
-        <div className={styles.column}>
+        <div className={scss.column}>
           <h3>Recent Posts</h3>
-          {isLoading && <Loading />}
-          {isReady && (
+          {isPostsLoading && <Loading />}
+          {isPostsReady && (
             <>
-              {data.map(({ date, image, title, uri }, index: number) => (
-                <figure className={styles.recent} key={title}>
-                  <Link className={styles.image} href={uri}>
+              {posts.map(({ date, image, title, uri }, index: number) => (
+                <figure className={scss.recent} key={title}>
+                  <Link className={scss.image} href={uri}>
                     <Image
                       alt=""
                       aria-describedby={`post${index}`}
@@ -49,13 +53,13 @@ function Footer() {
                       width={80}
                     />
                   </Link>
-                  <span aria-hidden="true" className={styles.count}>
+                  <span aria-hidden="true" className={scss.count}>
                     {index + 1}
                   </span>
-                  <figcaption className={styles.caption}>
-                    <span className={styles.date}>{date}</span>
+                  <figcaption className={scss.caption}>
+                    <span className={scss.date}>{date}</span>
                     <h2 id={`recent${index}`}>
-                      <Link className={styles.title} href={uri}>
+                      <Link className={scss.title} href={uri}>
                         {title}
                       </Link>
                     </h2>
@@ -65,18 +69,18 @@ function Footer() {
             </>
           )}
         </div>
-        <div className={styles.column}>
+        <div className={scss.column}>
           <h3>Contact</h3>
           <Contact />
         </div>
       </div>
       <Shortcuts
-        childClassName={styles.link}
+        childClassName={scss.link}
         hasArrows={false}
-        parentClassName={styles.links}
+        parentClassName={scss.links}
       />
-      <div className={styles.bottom}>
-        <span className={styles.copyright}>
+      <div className={scss.bottom}>
+        <span className={scss.copyright}>
           © 1987 - 2024{' '}
           <Link href="https://www.acrossthekyle.com">Kyle Gilbert</Link>. All
           Rights Reserved. Published with{' '}

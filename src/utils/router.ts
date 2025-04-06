@@ -5,5 +5,5 @@ export function getQueryItem(query: object, key: string) {
 
   const item = query[key];
 
-  return (Array.isArray(item) ? item : [item]).join('');
+  return (Array.isArray(item) ? item : [item]).join(' ').trim();
 }

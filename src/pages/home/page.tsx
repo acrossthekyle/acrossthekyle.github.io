@@ -1,22 +1,21 @@
-import Head from 'next/head';
 import Link from 'next/link';
 
 import Components from '@/components';
 import Constants from '@/constants';
-import { usePostsData } from '@/data/posts';
-import styles from '@/styles/pages/home/index.module.scss';
-import type { Post } from '@/types';
+import Styles from '@/styles';
+import type { Posts } from '@/types';
+
+import { useViewModel } from './page.viewModel';
+
+const scss = Styles.Pages.Home.Page;
 
 function Page() {
-  const { data, isLoading, isReady } = usePostsData();
+  const { isLoading, isReady, items } = useViewModel();
 
   return (
-    <Components.View className={styles.view}>
-      <Head>
-        <title>Kyle &mdash;&mdash;</title>
-      </Head>
-      <div className={styles.header}>
-        <Link aria-hidden="true" className={styles.image} href="/me">
+    <Components.View>
+      <div className={scss.header}>
+        <Link aria-hidden="true" className={scss.image} href="/me">
           <Components.Image
             alt=""
             height={432}
@@ -25,26 +24,36 @@ function Page() {
             width={768}
           />
         </Link>
-        <h1 className={styles.title}>Kyle Gilbert</h1>
-        <p className={styles.text}>{Constants.ABOUT_ME_BLURB}</p>
+        <h1 className={scss.heading}>Kyle Gilbert</h1>
+        <p className={scss.text}>{Constants.ABOUT_ME_BLURB}</p>
         <Components.Shortcuts
-          childClassName={styles.link}
-          parentClassName={styles.links}
+          childClassName={scss.link}
+          parentClassName={scss.links}
           shouldLabel
         />
       </div>
       {isLoading && <Components.Loading />}
       {isReady && (
         <Components.Masonry
-          items={data}
-          renderItem={(item: Post, index: number) => (
+          items={items}
+          renderItem={({
+            date,
+            image,
+            snippet,
+            tags,
+            title,
+            uri,
+          }: Pick<
+            Posts.Post,
+            'date' | 'image' | 'snippet' | 'tags' | 'title' | 'uri'
+          >) => (
             <Components.Figure
-              date={item.date}
-              image={item.image}
-              snippet={item.snippet}
-              tags={item.tags}
-              title={item.title}
-              uri={item.uri}
+              date={date}
+              image={image}
+              snippet={snippet}
+              tags={tags}
+              title={title}
+              uri={uri}
             />
           )}
         />

@@ -2,7 +2,9 @@
 
 import { useForm, ValidationError } from '@formspree/react';
 
-import styles from '@/styles/components/view/components/contact.module.scss';
+import Styles from '@/styles';
+
+const scss = Styles.Components.View.Components.Contact;
 
 function Contact() {
   const [state, handleSubmit] = useForm('mgvwwylj');
@@ -11,23 +13,23 @@ function Contact() {
     <>
       {state.succeeded && <p>Thanks for reaching out!</p>}
       {!state.succeeded && (
-        <form className={styles.form} onSubmit={handleSubmit}>
-          <label className={styles.label} htmlFor="email">
+        <form className={scss.form} onSubmit={handleSubmit}>
+          <label className={scss.label} htmlFor="email">
             Email
           </label>
           <input
-            className={styles.input}
+            className={scss.input}
             id="email"
             name="email"
             required
             type="email"
           />
           <ValidationError errors={state.errors} field="email" prefix="Email" />
-          <label className={styles.label} htmlFor="message">
+          <label className={scss.label} htmlFor="message">
             Message
           </label>
           <textarea
-            className={styles.textarea}
+            className={scss.textarea}
             id="message"
             maxLength={255}
             name="message"
@@ -40,7 +42,7 @@ function Contact() {
             prefix="Message"
           />
           <button
-            className={styles.submit}
+            className={scss.submit}
             type="submit"
             disabled={state.submitting}
           >

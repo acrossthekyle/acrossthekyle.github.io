@@ -1,40 +1,33 @@
-'use client';
-
 import { ReactNode, useState } from 'react';
 
-import styles from '@/styles/components/masonry.module.scss';
+import Styles from '@/styles';
 
 import Button from './button';
+import { useViewModel } from './masonry.viewModel';
 
-const PAGE_SIZE = 9;
+const scss = Styles.Components.Masonry;
 
 type Props = {
-  items: object[];
-  renderItem: (item: object, index: number) => ReactNode;
+  items: any[];
+  renderItem: (item: any, index: number) => ReactNode;
 };
 
 function Masonry({ items, renderItem }: Props) {
-  const [shown, setShown] = useState(PAGE_SIZE);
-
-  const handleOnViewMore = () => {
-    const more = shown + PAGE_SIZE;
-
-    setShown(more);
-  };
+  const { handleOnViewMore, shown } = useViewModel();
 
   return (
-    <div className={styles.masonry} id="masonry">
-      <div className={styles.items}>
+    <div className={scss.masonry} id="masonry">
+      <div className={scss.items}>
         {[...items].splice(0, shown).map((item, index) => (
-          <div className={styles.item} key={`key-${index}`}>
+          <div className={scss.item} key={`key-${index}`}>
             {renderItem(item, index)}
           </div>
         ))}
       </div>
       {shown < items.length && (
-        <div className={styles.footer}>
+        <div className={scss.footer}>
           <Button
-            className={styles.more}
+            className={scss.more}
             mode="secondary"
             onClick={handleOnViewMore}
             text="Load More"

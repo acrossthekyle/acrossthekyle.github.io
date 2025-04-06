@@ -1,7 +1,9 @@
 import Link from 'next/link';
 
 import Images from '@/images';
-import styles from '@/styles/components/shortcuts/shortcuts.module.scss';
+import Styles from '@/styles';
+
+const scss = Styles.Components.Shortcuts.Shortcuts;
 
 import External from './external';
 
@@ -19,50 +21,50 @@ function Shortcuts({
   shouldLabel,
 }: Props) {
   return (
-    <div className={`${styles.links} ${parentClassName}`}>
+    <div className={`${scss.links} ${parentClassName}`}>
       <Link
-        className={`${styles.link} ${childClassName}`}
+        className={`${scss.link} ${childClassName}`}
         href="/me"
         title="About me"
       >
         <Images.Icons.User />
-        {shouldLabel && <span className={styles.site}>About Me</span>}
+        {shouldLabel && <span className={scss.site}>About Me</span>}
       </Link>
       <Link
-        className={`${styles.link} ${childClassName}`}
+        className={`${scss.link} ${childClassName}`}
         href="/packs"
         title="Packs"
       >
-        <Images.Icons.Backpack className={styles.backpack} />
-        {shouldLabel && <span className={styles.site}>Packs</span>}
+        <Images.Icons.Backpack className={scss.backpack} />
+        {shouldLabel && <span className={scss.site}>Packs</span>}
       </Link>
       <Link
-        className={`${styles.link} ${childClassName}`}
+        className={`${scss.link} ${childClassName}`}
         href="/store"
         title="Store"
       >
         <Images.Icons.Store />
-        {shouldLabel && <span className={styles.site}>Buy Prints</span>}
+        {shouldLabel && <span className={scss.site}>Buy Prints</span>}
       </Link>
       <External
-        className={`${styles.link} ${childClassName}`}
+        className={`${scss.link} ${childClassName}`}
         hasArrow={hasArrows}
         text={
           <>
             <Images.Icons.Instagram />
-            {shouldLabel && <span className={styles.site}>Instagram</span>}
+            {shouldLabel && <span className={scss.site}>Instagram</span>}
           </>
         }
         title="Instagram"
         url="https://instagram.com/acrossthekyle"
       />
       <External
-        className={`${styles.link} ${childClassName}`}
+        className={`${scss.link} ${childClassName}`}
         hasArrow={hasArrows}
         text={
           <>
-            <Images.Icons.Watch className={styles.icon} />
-            {shouldLabel && <span className={styles.site}>Garmin</span>}
+            <Images.Icons.Watch className={scss.icon} />
+            {shouldLabel && <span className={scss.site}>Garmin</span>}
           </>
         }
         title="Garmin apps"

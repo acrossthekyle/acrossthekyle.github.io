@@ -1,4 +1,4 @@
-import Tag from './tag.module.scss';
+import Tag from './tag';
 
 const Tags = {
   Tag,

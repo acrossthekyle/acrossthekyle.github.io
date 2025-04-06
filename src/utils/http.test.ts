@@ -1,26 +1,25 @@
-import { getPostIdAndStageFromUriSegment } from './http';
+import { getPostParameters } from './http';
 
 describe('utils', () => {
   describe('http', () => {
-    describe('getPostIdAndStageFromUriSegment', () => {
-      it('will only get the post id', () => {
-        const result = getPostIdAndStageFromUriSegment([
-          '.com',
-          'some-post-name-uri',
-        ]);
-
-        expect(result.id).toEqual('some-post-name-uri');
-        expect(result.stageIndex).toEqual(-1);
-      });
-
-      it('will get the post id and the stage index', () => {
-        const result = getPostIdAndStageFromUriSegment([
-          '.com',
-          'some-post-name-uri/1',
-        ]);
-
-        expect(result.id).toEqual('some-post-name-uri');
-        expect(result.stageIndex).toEqual(1);
+    describe('getPostParameters', () => {
+      it('will get the post parameters', () => {
+        expect(getPostParameters('.com/posts/some-post')).toEqual({
+          id: 'some-post',
+          day: -1,
+        });
+        expect(getPostParameters('.com/posts/some-post/01')).toEqual({
+          id: 'some-post',
+          day: 1,
+        });
+        expect(getPostParameters('.com/posts/some-post/14')).toEqual({
+          id: 'some-post',
+          day: 14,
+        });
+        expect(getPostParameters('.com/posts/some-post#timeline')).toEqual({
+          id: 'some-post',
+          day: -1,
+        });
       });
     });
   });

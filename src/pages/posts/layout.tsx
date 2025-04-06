@@ -1,47 +1,59 @@
-'use client';
-
 import { ReactNode } from 'react';
-import Head from 'next/head';
 
 import Components from '@/components';
-import { usePostData } from '@/data/posts';
-import styles from '@/styles/pages/posts/layout.module.scss';
+
+import Hero from './layout.component.hero';
+import Navigation from './layout.component.navigation';
+import Post from './layout.component.post';
+import Title from './layout.component.title';
+import { useViewModel } from './layout.viewModel';
 
 type Props = {
   children: ReactNode | ReactNode[];
 };
 
 function Layout({ children }: Props) {
-  const { data, isReady } = usePostData();
+  const {
+    breadcrumbs,
+    date,
+    hasStage,
+    isReady,
+    image,
+    metadata,
+    newer,
+    older,
+    pack,
+    tags,
+    title,
+    uri,
+  } = useViewModel();
 
   if (!isReady) {
     return null;
   }
 
   return (
-    <Components.View className={styles.view}>
-      <Head>
-        <title>Kyle &mdash;&mdash; Travels | {data.titleCombined}</title>
-      </Head>
-      <Components.Pages.Posts.Title
-        context={[data.date, data.gear].filter((item) => Boolean(item))}
-        crumbs={data.breadcrumbs}
-        tags={data.tags}
-        title={data.title}
-        uri={data.uri}
+    <Components.View title={`Travels | ${metadata}`}>
+      <Title
+        breadcrumbs={breadcrumbs}
+        date={date}
+        pack={pack}
+        tags={tags}
+        title={title}
+        uri={uri}
       />
-      <Components.Pages.Posts.Hero image={data.image} />
-      <Components.Pages.Posts.Post>
+      <Hero image={image} />
+      <Post>
         {children}
-        {(data.newer || data.older) && (
-          <Components.Pages.Posts.Navigation
-            newer={data.newer}
-            newerLabel={!data.hasStage ? undefined : 'Next Day'}
-            older={data.older}
-            olderLabel={!data.hasStage ? undefined : 'Previous Day'}
+        {(newer || older) && (
+          <Navigation
+            newer={newer}
+            newerLabel={!hasStage ? undefined : 'Next Day'}
+            older={older}
+            olderLabel={!hasStage ? undefined : 'Previous Day'}
           />
         )}
-      </Components.Pages.Posts.Post>
+      </Post>
     </Components.View>
   );
 }
