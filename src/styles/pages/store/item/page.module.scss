@@ -24,6 +24,10 @@
     }
   }
 
+  @include screen.small {
+    padding-top: 2rem;
+  }
+
   @include screen.compact {
     .content {
       padding-top: 2rem;

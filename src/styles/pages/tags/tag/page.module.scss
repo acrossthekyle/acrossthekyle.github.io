@@ -1,3 +1,5 @@
+@use 'styles/mixins/_screen' as screen;
+
 .header {
   font-size: 2.25rem;
   text-align: center;
@@ -12,4 +14,8 @@
   padding-top: 2rem;
   text-align: center;
   width: 100%;
+
+  @include screen.small {
+    padding-bottom: 0.5rem;
+  }
 }

@@ -1,9 +1,11 @@
+import Link from 'next/link';
+
 type Props = {
   id: string;
 };
 
 function Pack({ id }) {
-  return <a href={`/packs/${id}`}>here</a>;
+  return <Link href="/packs">here</Link>;
 }
 
 export default Pack;
