@@ -178,9 +178,10 @@
 .view {
   display: flex;
   flex-direction: column;
-  margin: 9rem auto 0;
+  margin: 0 auto;
   max-width: var(--max-width);
   padding-bottom: 1rem;
+  padding-top: 9rem;
   position: relative;
   z-index: 4;
 
