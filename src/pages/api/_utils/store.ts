@@ -36,8 +36,8 @@ export function filterStoreItemsByQuery(
       });
   }
 
-  return results.map(({ price, title, uri }) => ({
-    subTitle: `From $${price}`,
+  return results.map(({ styles, title, uri }) => ({
+    subTitle: `From $${styles[0].price}`,
     title,
     uri,
   }));
