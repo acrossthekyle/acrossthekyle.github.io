@@ -9,8 +9,10 @@ $frame-mat-thickness: var(--frame-mat-thickness);
 
   .image {
     border: 0.875rem solid transparent;
+    height: calc(18rem * $frame-aspect-ratio);
     position: relative;
     transition: all 0.4s ease;
+    width: calc(24rem * $frame-aspect-ratio);
 
     &:before,
     &:after {
@@ -27,41 +29,6 @@ $frame-mat-thickness: var(--frame-mat-thickness);
       height: 100%;
       object-fit: cover;
       width: 100%;
-    }
-
-    &[data-frame-size='5x7'] {
-      height: calc(5rem * $frame-aspect-ratio);
-      width: calc(7rem * $frame-aspect-ratio);
-    }
-
-    &[data-frame-size='8x10'] {
-      height: calc(8rem * $frame-aspect-ratio);
-      width: calc(10rem * $frame-aspect-ratio);
-    }
-
-    &[data-frame-size='11x14'] {
-      height: calc(11rem * $frame-aspect-ratio);
-      width: calc(14rem * $frame-aspect-ratio);
-    }
-
-    &[data-frame-size='12x16'] {
-      height: calc(12rem * $frame-aspect-ratio);
-      width: calc(16rem * $frame-aspect-ratio);
-    }
-
-    &[data-frame-size='12x18'] {
-      height: calc(12rem * $frame-aspect-ratio);
-      width: calc(18rem * $frame-aspect-ratio);
-    }
-
-    &[data-frame-size='16x20'] {
-      height: calc(16rem * $frame-aspect-ratio);
-      width: calc(20rem * $frame-aspect-ratio);
-    }
-
-    &[data-frame-size='18x24'] {
-      height: calc(18rem * $frame-aspect-ratio);
-      width: calc(24rem * $frame-aspect-ratio);
     }
 
     &[data-frame='1'] {

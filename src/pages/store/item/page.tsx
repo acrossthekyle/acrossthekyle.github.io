@@ -62,13 +62,7 @@ function Page() {
         ]}
       />
       <div className={scss.wrapper}>
-        <Aside
-          color={color}
-          frame={frame}
-          image={image}
-          name={name}
-          size={sizeOptions[size].replace(' x ', 'x').replace(/"/g, '')}
-        />
+        <Aside color={color} frame={frame} image={image} name={name} />
         <div className={scss.content}>
           <Info name={name} price={price} snippet={snippet} />
           <Form

@@ -8,18 +8,12 @@ type Props = {
   frame: number;
   image: string;
   name: string;
-  size: string;
 };
 
-function Aside({ color, frame, image, name, size }: Props) {
+function Aside({ color, frame, image, name }: Props) {
   return (
     <div className={scss.aside}>
-      <div
-        className={scss.image}
-        data-frame={frame}
-        data-frame-color={color}
-        data-frame-size={size}
-      >
+      <div className={scss.image} data-frame={frame} data-frame-color={color}>
         <Components.Image
           alt={name}
           height={432}
