@@ -34,11 +34,17 @@ export const useViewModel = (): Return => {
     setIsActive(false);
 
     document.getElementById('menuOpen').focus();
+
+    document
+      .querySelector('html')
+      .setAttribute('data-cannot-overflow', 'false');
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isActive]);
 
   const handleOnOpen = useCallback(() => {
     setIsActive(true);
+
+    document.querySelector('html').setAttribute('data-cannot-overflow', 'true');
 
     setTimeout(() => {
       document.getElementById('menuClose').focus();
@@ -48,6 +54,10 @@ export const useViewModel = (): Return => {
 
   const handleOnLinkClick = useCallback(() => {
     setIsActive(false);
+
+    document
+      .querySelector('html')
+      .setAttribute('data-cannot-overflow', 'false');
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isActive]);
 

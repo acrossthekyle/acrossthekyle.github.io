@@ -9,6 +9,18 @@ type Return = {
   theme: string;
 };
 
+function updateThemeColorMetaTag(theme: string) {
+  const hex = theme === 'dark' ? '#1d1d1d' : '#ffffff';
+
+  document
+    .querySelector(`meta[name="theme-color"]`)
+    .setAttribute('content', hex);
+
+  document
+    .querySelector(`meta[name="msapplication-navbutton-color"]`)
+    .setAttribute('content', hex);
+}
+
 export const useViewModel = (): Return => {
   const { theme, setTheme } = useContext(Contexts.ThemeContext);
 
@@ -18,10 +30,16 @@ export const useViewModel = (): Return => {
 
       if (saved !== null) {
         setTheme(saved);
+
         document.querySelector('html').setAttribute('data-theme', saved);
+
+        updateThemeColorMetaTag(saved);
       } else {
         setTheme('light');
+
         document.querySelector('html').setAttribute('data-theme', 'light');
+
+        updateThemeColorMetaTag('#ffffff');
       }
     }
   }, [setTheme]);
@@ -32,6 +50,8 @@ export const useViewModel = (): Return => {
     localStorage.setItem('theme', value);
 
     document.querySelector('html').setAttribute('data-theme', value);
+
+    updateThemeColorMetaTag(value);
 
     setTheme(value);
   };

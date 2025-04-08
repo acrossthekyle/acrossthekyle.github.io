@@ -32,7 +32,8 @@ function View({ children, className = '', element, title }: Props) {
   return (
     <>
       <Head>
-        <title>Kyle &mdash;&mdash; {title}</title>
+        {!title && <title>Across The Kyle</title>}
+        {title && <title>Across The Kyle &mdash;&mdash; {title}</title>}
       </Head>
       <header className={scss.header}>
         <div className={scss.wrapper}>

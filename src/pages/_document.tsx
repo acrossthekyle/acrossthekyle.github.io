@@ -2,79 +2,66 @@ import { Html, Head, Main, NextScript } from 'next/document';
 
 export default function Document() {
   return (
-    <Html data-theme="light" lang="en-US">
+    <Html data-theme="light" lang="en">
       <Head>
-        <meta charSet="utf-8" />
-
+        <meta charSet="UTF-8" />
         <meta name="author" content="Kyle Gilbert" />
         <meta
-          name="title"
-          content="Kyle &mdash; A Thru Hiker and Progammer based in Chicago"
-        />
-        <meta
           name="description"
-          content="Hey, my name's Kyle: I'm a thru-hiker/programmer based in Chicago with my partner and our dog Dax."
+          content="I'm a thru-hiker/programmer based in Chicago with my partner and our dog Dax."
         />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="format-detection" content="address=no" />
+        <meta name="referrer" content="origin" />
         <meta name="robots" content="index, follow" />
-        <meta name="generator" content="NextJS" />
-        <meta
-          name="theme-color"
-          content="#ffffff"
-          media="(prefers-color-scheme: light)"
-        />
-        <meta
-          name="theme-color"
-          content="#1d1d1d"
-          media="(prefers-color-scheme: dark)"
-        />
-        <meta name="color-scheme" content="light dark" />
-        <meta name="apple-mobile-web-app-title" content="@acrossthekyle" />
+        <meta name="color-scheme" content="light" />
         <meta name="application-name" content="@acrossthekyle" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-title" content="Kyle" />
+        <meta
+          name="apple-mobile-web-app-status-bar-style"
+          content="black-translucent"
+        />
 
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="msapplication-navbutton-color" content="#ffffff" />
+
+        <meta property="og:title" content="Kyle - Thru-hiker/Programmer" />
+        <meta
+          property="og:description"
+          content="I'm a thru-hiker/programmer based in Chicago with my partner and our dog Dax."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.acrossthekyle.com" />
+        <meta property="og:locale" content="en" />
+        <meta property="og:site_name" content="Kyle Gilbert" />
         <meta
           property="og:image"
-          content="https://ik.imagekit.io/acrossthekyle/uploads/2024/06/28/04f81498-bd5d-471f-93c6-5f1b5ba4201f.jpeg?tr=w-500,q-33"
-        />
-        <meta
-          property="og:image:alt"
-          content="A Thru-Hiker and Programmer Based in Chicago"
+          content="https://ik.imagekit.io/acrossthekyle/uploads/2024/06/28/defda5d6-f42b-4415-9e73-bdba4f19c8a5.jpeg?tr=w-1200&q-80"
         />
 
-        <meta
-          name="twitter:url"
-          content="https://www.acrossthekyle.com/?src=twitter"
-        />
-        <meta
-          name="twitter:image:src"
-          content="https://ik.imagekit.io/acrossthekyle/uploads/2024/06/28/04f81498-bd5d-471f-93c6-5f1b5ba4201f.jpeg?tr=w-500,q-33"
-        />
-        <meta
-          name="twitter:image:alt"
-          content="A Thru-Hiker and Programmer Based in Chicago"
-        />
-        <meta name="twitter:creator" content="@acrossthekyle" />
-        <meta name="twitter:site" content="@acrossthekyle" />
+        <link rel="canonical" href="https://www.acrossthekyle.com" />
 
+        <link
+          rel="icon"
+          type="image/png"
+          href="/favicons/favicon-96x96.png?v=2"
+          sizes="96x96"
+        />
+        <link
+          rel="icon"
+          type="image/svg+xml"
+          href="/favicons/favicon.svg?v=2"
+        />
+        <link rel="shortcut icon" href="/favicons/favicon.ico?v=2" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="/favicons/apple-touch-icon.png"
+          href="/favicons/apple-touch-icon.png?v=2"
         />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/favicons/favicon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/favicons/favicon-16x16.png"
-        />
-        <link rel="manifest" href="/favicons/site.webmanifest" />
-
-        <link rel="canonical" href="https://www.acrossthekyle.com" />
+        <link rel="manifest" href="/favicons/site.webmanifest?v=2" />
+        <meta name="msapplication-TileColor" content="#1d1d1d" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
