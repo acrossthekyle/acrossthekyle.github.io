@@ -92,7 +92,9 @@ function Page() {
                           <ul>
                             <li>Size: {item.size}</li>
                             <li>Frame: {item.frame}</li>
-                            {item.color !== null && <li>Color: {item.color}</li>}
+                            {item.color !== null && (
+                              <li>Color: {item.color}</li>
+                            )}
                             {item.mat !== null && <li>Mat: {item.mat}</li>}
                           </ul>
                         </div>

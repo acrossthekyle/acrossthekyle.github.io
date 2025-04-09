@@ -101,7 +101,9 @@ test('remove cart item', async ({ page }) => {
 
   const items = page.locator('#items');
 
-  const remove = await items.getByRole('button', { title: 'Remove item' }).nth(0);
+  const remove = await items
+    .getByRole('button', { title: 'Remove item' })
+    .nth(0);
 
   await remove.click();
 
@@ -121,15 +123,21 @@ test('increase cart item quantity', async ({ page }) => {
 
   const items = page.locator('#items');
 
-  const current = await items.getByRole('span', { title: 'Quantity of 1' }).nth(0);
+  const current = await items
+    .getByRole('span', { title: 'Quantity of 1' })
+    .nth(0);
 
   await expect(current).toBeDefined();
 
-  const increase = await items.getByRole('button', { title: 'Increase quantity' }).nth(0);
+  const increase = await items
+    .getByRole('button', { title: 'Increase quantity' })
+    .nth(0);
 
   await increase.click();
 
-  const increased = await items.getByRole('span', { title: 'Quantity of 2' }).nth(0);
+  const increased = await items
+    .getByRole('span', { title: 'Quantity of 2' })
+    .nth(0);
 
   await expect(increased).toBeDefined();
 });
@@ -143,11 +151,15 @@ test('decrease cart item quantity', async ({ page }) => {
 
   const items = page.locator('#items');
 
-  const current = await items.getByRole('span', { title: 'Quantity of 1' }).nth(0);
+  const current = await items
+    .getByRole('span', { title: 'Quantity of 1' })
+    .nth(0);
 
   await expect(current).toBeDefined();
 
-  const decrease = await items.getByRole('button', { title: 'Decrease quantity' }).nth(0);
+  const decrease = await items
+    .getByRole('button', { title: 'Decrease quantity' })
+    .nth(0);
 
   await decrease.click();
 
@@ -159,7 +171,10 @@ test('decrease cart item quantity', async ({ page }) => {
 });
 
 test('multiple cart items', async ({ browserName, page }) => {
-  test.skip(browserName !== 'chromium', 'This feature is only relevant in Chrome');
+  test.skip(
+    browserName !== 'chromium',
+    'This feature is only relevant in Chrome',
+  );
 
   await page.goto('/store');
 
@@ -168,7 +183,7 @@ test('multiple cart items', async ({ browserName, page }) => {
   await addToCart(page, main, 0);
 
   await page.goto('/store');
-  
+
   await addToCart(page, main, 1);
 
   const header = await page.locator('header');

@@ -3,9 +3,7 @@ import { test, expect } from '@playwright/test';
 test('loads', async ({ page }) => {
   await page.goto('/');
 
-  await expect(page).toHaveTitle(
-    `Across The Kyle`,
-  );
+  await expect(page).toHaveTitle(`Across The Kyle`);
 });
 
 test('header navigation to me', async ({ page }) => {
@@ -65,7 +63,6 @@ test('header search query shows results', async ({ page }) => {
 
   await expect(heading).toBeVisible();
 });
-
 
 test('goes to me from large avatar', async ({ page }) => {
   await page.goto('/');
