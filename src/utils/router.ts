@@ -3,7 +3,7 @@ export function getQueryItem(query: object, key: string) {
     return '';
   }
 
-  const item = query[key];
+  const item = Array.isArray(query[key]) ? query[key] : decodeURIComponent(query[key]);
 
   return (Array.isArray(item) ? item : [item]).join(' ').trim();
 }

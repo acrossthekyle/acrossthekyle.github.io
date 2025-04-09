@@ -21,7 +21,7 @@ function Navigation({
   olderLabel = 'Older Post',
 }: Props) {
   return (
-    <div className={scss.navigation}>
+    <div className={scss.navigation} id="navigation">
       {older && (
         <Link className={scss.previous} href={older.uri}>
           <div className={scss.image}>

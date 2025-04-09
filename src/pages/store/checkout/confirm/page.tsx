@@ -34,6 +34,10 @@ function Page() {
             uri: '/store',
           },
           {
+            text: 'Cart',
+            uri: '/store/checkout/cart',
+          },
+          {
             text: 'Checkout',
           },
         ]}

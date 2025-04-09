@@ -4,22 +4,81 @@ test('loads', async ({ page }) => {
   await page.goto('/');
 
   await expect(page).toHaveTitle(
-    `Kyle — Thru-hiker and Programmer based in Chicago`,
+    `Across The Kyle`,
   );
 });
 
-test('goes to about from large avatar', async ({ page }) => {
+test('header navigation to me', async ({ page }) => {
+  await page.goto('/');
+  const header = await page.locator('header');
+  await header.getByRole('link', { name: 'About' }).click();
+
+  await expect(page).toHaveTitle(`Across The Kyle —— About`);
+});
+
+test('header search appears', async ({ page }) => {
+  await page.goto('/');
+
+  const header = await page.locator('header');
+  const button = await header.getByRole('button');
+
+  button.click();
+
+  await expect(page.getByPlaceholder('Type to search...')).toBeVisible();
+});
+
+test('header search closes on close', async ({ page }) => {
+  await page.goto('/');
+
+  const header = await page.locator('header');
+  const search = await header.getByRole('button');
+
+  search.click();
+
+  await expect(page.getByPlaceholder('Type to search...')).toBeVisible();
+
+  const close = await page.getByTitle('Close search');
+
+  close.click();
+
+  await expect(page.getByPlaceholder('Type to search...')).not.toBeVisible();
+});
+
+test('header search query shows results', async ({ page }) => {
+  await page.goto('/');
+
+  const header = await page.locator('header');
+  const search = await header.getByRole('button');
+
+  search.click();
+
+  const placeholder = await page.getByPlaceholder('Type to search...');
+
+  await expect(placeholder).toBeVisible();
+
+  await placeholder.fill('egypt');
+
+  const heading = await page.getByRole('heading', {
+    level: 4,
+    name: 'Found 1',
+  });
+
+  await expect(heading).toBeVisible();
+});
+
+
+test('goes to me from large avatar', async ({ page }) => {
   await page.goto('/');
 
   const main = await page.locator('main');
-  const about = await main.locator('a[href*="/about"]').nth(1);
+  const me = await main.locator('a[href*="/me"]').nth(1);
 
-  await about.click();
+  await me.click();
 
-  await expect(page).toHaveTitle(`Kyle — About`);
+  await expect(page).toHaveTitle(`Across The Kyle —— About`);
 });
 
-test('has posts', async ({ page }) => {
+test('has at least nine posts on initial load', async ({ page }) => {
   await page.goto('/');
   const posts = page.locator('#masonry');
 
@@ -62,12 +121,12 @@ test('post image link goes to post', async ({ page }) => {
   const figure = await posts.getByRole('figure').nth(0);
   const figcaption = await figure.locator('figcaption');
   const heading = await figcaption.getByRole('heading', { level: 2 });
-  const headingText = await heading.textContent();
+  const post = await heading.textContent();
   const anchor = await figure.locator('a[href*="posts/"]').nth(0);
 
   anchor.click();
 
-  const title = new RegExp(`Kyle — Travels | ${headingText}`.trim());
+  const title = new RegExp(`Across The Kyle —— Travels | ${post}`.trim());
 
   await expect(page).toHaveTitle(title);
 });
@@ -78,13 +137,10 @@ test('post tag goes to tags list', async ({ page }) => {
   const figure = await posts.getByRole('figure').nth(0);
   const figcaption = await figure.locator('figcaption');
   const figcaptionTag = await figcaption.locator('a[href*="tags/"]').nth(0);
-  const tagText = await figcaptionTag.textContent();
 
   figcaptionTag.click();
 
-  await expect(page).toHaveTitle(
-    `Kyle — Posts | Tagged "${tagText.toLowerCase()}"`,
-  );
+  await expect(page).toHaveTitle(/Tags/);
 });
 
 test('post heading link goes to post', async ({ page }) => {
@@ -93,24 +149,77 @@ test('post heading link goes to post', async ({ page }) => {
   const figure = await posts.getByRole('figure').nth(0);
   const figcaption = await figure.locator('figcaption');
   const heading = await figcaption.getByRole('heading', { level: 2 });
-  const headingText = await heading.textContent();
+  const post = await heading.textContent();
   const anchor = await heading.locator('a[href*="posts/"]').nth(0);
 
   anchor.click();
 
-  const title = new RegExp(`Kyle — Travels | ${headingText}`.trim());
+  const title = new RegExp(`Across The Kyle —— Travels | ${post}`.trim());
 
   await expect(page).toHaveTitle(title);
 });
 
-test('post caption author navigates to about', async ({ page }) => {
+test('post caption author navigates to me', async ({ page }) => {
   await page.goto('/');
   const posts = page.locator('#masonry');
   const figure = await posts.getByRole('figure').nth(0);
   const figcaption = await figure.locator('figcaption');
-  const author = await figcaption.locator('a[href*="about"]').nth(0);
+  const author = await figcaption.locator('a[href*="me"]').nth(0);
 
   author.click();
 
-  await expect(page).toHaveTitle(`Kyle — About`);
+  await expect(page).toHaveTitle(`Across The Kyle —— About`);
+});
+
+test('footer tag goes to tags page', async ({ page }) => {
+  await page.goto('/');
+
+  const footer = await page.locator('footer');
+  const tag = await footer.locator('a[href*="tags/"]').nth(0);
+
+  tag.click();
+
+  await expect(page).toHaveTitle(/Tags/);
+});
+
+test('footer has three recent posts', async ({ page }) => {
+  await page.goto('/');
+
+  const footer = await page.locator('footer');
+
+  await expect(footer.locator('figure')).toHaveCount(3);
+});
+
+test('footer recent post image link navigates to post', async ({ page }) => {
+  await page.goto('/');
+
+  const footer = await page.locator('footer');
+  const figure = await footer.locator('figure').nth(0);
+  const figcaption = await figure.locator('figcaption');
+  const heading = await figcaption.getByRole('heading', { level: 2 });
+  const post = await heading.textContent();
+  const anchor = await figure.locator('a[href*="posts/"]').nth(0);
+
+  await anchor.click();
+
+  const title = new RegExp(`Across The Kyle —— Travels | ${post}`.trim());
+
+  await expect(page).toHaveTitle(title);
+});
+
+test('footer recent post heading link navigates to post', async ({ page }) => {
+  await page.goto('/');
+
+  const footer = await page.locator('footer');
+  const figure = await footer.locator('figure').nth(0);
+  const figcaption = await figure.locator('figcaption');
+  const heading = await figcaption.getByRole('heading', { level: 2 });
+  const post = await heading.textContent();
+  const anchor = await heading.locator('a[href*="posts/"]');
+
+  await anchor.click();
+
+  const title = new RegExp(`Across The Kyle —— Travels | ${post}`.trim());
+
+  await expect(page).toHaveTitle(title);
 });

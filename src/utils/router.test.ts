@@ -5,6 +5,7 @@ describe('utils', () => {
     describe('getQueryItem', () => {
       it('will return a string', () => {
         expect(getQueryItem({ key: 'foo' }, 'key')).toEqual('foo');
+        expect(getQueryItem({ key: 'foo%20bar' }, 'key')).toEqual('foo bar');
         expect(getQueryItem({ key: ['foo'] }, 'key')).toEqual('foo');
         expect(getQueryItem({ key: ['foo', 'bar '] }, 'key')).toEqual(
           'foo bar',

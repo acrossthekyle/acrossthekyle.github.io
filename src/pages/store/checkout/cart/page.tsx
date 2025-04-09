@@ -43,77 +43,81 @@ function Page() {
             </div>
           ) : (
             <>
-              <section className={scss.header}>
+              <div className={scss.header}>
                 <h1>Total</h1>
                 <p>${total}</p>
                 <Components.Button
                   href="/store/checkout/confirm"
                   text="Checkout"
                 />
-              </section>
-              {items.map((item, index) => (
-                <section className={scss.section} key={index}>
-                  <div className={scss.info}>
-                    <div className={scss.image}>
-                      <button
-                        className={scss.remove}
-                        onClick={() => handleOnRemoveItem(index)}
-                        title="Remove item"
-                        type="button"
-                      >
-                        <Images.Icons.Close />
-                      </button>
-                      <Link href={item.uri}>
-                        <Components.Image
-                          alt={item.name}
-                          height={432}
-                          sizes="(max-width: 768px) 100vw, 25vw"
-                          src={item.image}
-                          width={768}
-                        />
-                      </Link>
-                    </div>
-                    <div className={scss.description}>
-                      <div className={scss.name}>
-                        <h2>
-                          <Link href={item.uri}>{item.name}</Link>
-                        </h2>
-                        <p className={scss.price}>
-                          {item.quantity > 1 && (
-                            <>
-                              ${item.total} ({item.price} x {item.quantity})
-                            </>
-                          )}
-                          {item.quantity === 1 && <>${item.price}</>}
-                        </p>
+              </div>
+              <div id="items">
+                {items.map((item, index) => (
+                  <section className={scss.section} key={index}>
+                    <div className={scss.info}>
+                      <div className={scss.image}>
+                        <button
+                          className={scss.remove}
+                          onClick={() => handleOnRemoveItem(index)}
+                          title="Remove item"
+                          type="button"
+                        >
+                          <Images.Icons.Close />
+                        </button>
+                        <Link href={item.uri}>
+                          <Components.Image
+                            alt={item.name}
+                            height={432}
+                            sizes="(max-width: 768px) 100vw, 25vw"
+                            src={item.image}
+                            width={768}
+                          />
+                        </Link>
                       </div>
-                      <div className={scss.attributes}>
-                        <ul>
-                          <li>Size: {item.size}</li>
-                          <li>Frame: {item.frame}</li>
-                          {item.color !== null && <li>Color: {item.color}</li>}
-                          {item.mat !== null && <li>Mat: {item.mat}</li>}
-                        </ul>
+                      <div className={scss.description}>
+                        <div className={scss.name}>
+                          <h2>
+                            <Link href={item.uri}>{item.name}</Link>
+                          </h2>
+                          <p className={scss.price}>
+                            {item.quantity > 1 && (
+                              <>
+                                ${item.total} ({item.price} x {item.quantity})
+                              </>
+                            )}
+                            {item.quantity === 1 && <>${item.price}</>}
+                          </p>
+                        </div>
+                        <div className={scss.attributes}>
+                          <ul>
+                            <li>Size: {item.size}</li>
+                            <li>Frame: {item.frame}</li>
+                            {item.color !== null && <li>Color: {item.color}</li>}
+                            {item.mat !== null && <li>Mat: {item.mat}</li>}
+                          </ul>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div className={scss.quantity}>
-                    <Components.Button
-                      mode="secondary"
-                      onClick={() => handleOnQuantityChange(index, -1)}
-                      text="-"
-                      title="Decrease quantity"
-                    />
-                    <span>{item.quantity}</span>
-                    <Components.Button
-                      mode="secondary"
-                      onClick={() => handleOnQuantityChange(index, 1)}
-                      text="+"
-                      title="Increase quantity"
-                    />
-                  </div>
-                </section>
-              ))}
+                    <div className={scss.quantity}>
+                      <Components.Button
+                        mode="secondary"
+                        onClick={() => handleOnQuantityChange(index, -1)}
+                        text="-"
+                        title="Decrease quantity"
+                      />
+                      <span title={`Quantity of ${item.quantity}`}>
+                        {item.quantity}
+                      </span>
+                      <Components.Button
+                        mode="secondary"
+                        onClick={() => handleOnQuantityChange(index, 1)}
+                        text="+"
+                        title="Increase quantity"
+                      />
+                    </div>
+                  </section>
+                ))}
+              </div>
             </>
           )}
         </div>

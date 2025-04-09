@@ -123,6 +123,8 @@ export const useViewModel = (): Return => {
       localStorage.setItem('cart', JSON.stringify(cart));
 
       window.dispatchEvent(new Event('cartUpdated'));
+
+      push('/store/checkout/cart');
     }
   };
 

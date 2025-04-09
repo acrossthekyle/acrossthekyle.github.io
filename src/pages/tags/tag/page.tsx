@@ -14,7 +14,7 @@ function Page() {
   }
 
   return (
-    <Components.View title="Tags">
+    <Components.View title={`Tags | ${tag}`}>
       <h1 className={scss.header}>{tag}</h1>
       <p className={scss.total}>{`${total} Item(s)`}</p>
       <Components.Masonry

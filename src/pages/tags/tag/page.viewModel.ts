@@ -1,5 +1,6 @@
 'use client';
 
+import { capitalize, map } from 'lodash';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 
@@ -13,6 +14,20 @@ type Return = {
   tag: string;
   total: number;
 };
+
+function mutateTag(tag: string | null) {
+  if (tag === null) {
+    return '';
+  }
+
+  let divider = ' ';
+
+  if (tag.includes('-')) {
+    divider = '-';
+  }
+
+  return map(tag.split(divider), capitalize).join(divider);
+}
 
 export const useViewModel = (): Return => {
   const { query } = useRouter();
@@ -36,7 +51,7 @@ export const useViewModel = (): Return => {
   return {
     isReady,
     items: data?.results || [],
-    tag,
+    tag: mutateTag(tag),
     total: data?.total || 0,
   };
 };
