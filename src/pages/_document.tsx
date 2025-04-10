@@ -38,7 +38,7 @@ export default function Document() {
         <meta property="og:site_name" content="Kyle Gilbert" />
         <meta
           property="og:image"
-          content="https://ik.imagekit.io/acrossthekyle/uploads/2024/06/28/defda5d6-f42b-4415-9e73-bdba4f19c8a5.jpeg?tr=w-1200&q-80"
+          content="https://www.acrossthekyle.com/favicons/web-app-manifest-512x512.png"
         />
 
         <link rel="canonical" href="https://www.acrossthekyle.com" />

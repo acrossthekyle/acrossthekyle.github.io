@@ -3,6 +3,7 @@ import { InView } from 'react-intersection-observer';
 import { truncate } from 'lodash';
 import Link from 'next/link';
 
+import Constants from '@/constants';
 import Styles from '@/styles';
 
 import Image from './image';
@@ -71,7 +72,7 @@ function Figure({ date, image, snippet, tags, title, uri }: Props) {
                     height={20}
                     quality={30}
                     sizes="5vw"
-                    src="2024/06/28/defda5d6-f42b-4415-9e73-bdba4f19c8a5.jpeg"
+                    src={Constants.ME_URL}
                     width={20}
                   />
                 </Link>

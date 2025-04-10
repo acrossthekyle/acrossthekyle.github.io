@@ -23,6 +23,10 @@ export const useViewModel = (): Return => {
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
+      setTimeout(() => {
+        document.querySelector('html').setAttribute('data-theme', 'light');
+      }, 10);
+
       const storage: string | null = localStorage.getItem('cart');
 
       if (storage !== null) {

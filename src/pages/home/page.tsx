@@ -20,7 +20,7 @@ function Page() {
             alt=""
             height={432}
             sizes="25vw"
-            src="2024/06/28/defda5d6-f42b-4415-9e73-bdba4f19c8a5.jpeg"
+            src={Constants.ME_URL}
             width={768}
           />
         </Link>

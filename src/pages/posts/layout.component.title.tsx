@@ -1,6 +1,7 @@
 import Link from 'next/link';
 
 import Components from '@/components';
+import Constants from '@/constants';
 import Styles from '@/styles';
 import type { Posts } from '@/types';
 
@@ -33,7 +34,7 @@ function Title({ breadcrumbs, date, pack, tags, title, uri }: Props) {
               height={24}
               quality={20}
               sizes="10vw"
-              src="2024/06/28/defda5d6-f42b-4415-9e73-bdba4f19c8a5.jpeg"
+              src={Constants.ME_URL}
               width={24}
             />
           </Link>
