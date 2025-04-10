@@ -10,15 +10,13 @@ type Return = {
 };
 
 function updateThemeColorMetaTag(theme: string) {
-  const hex = theme === 'dark' ? '#1d1d1d' : '#ffffff';
-
   document
     .querySelector(`meta[name="theme-color"]`)
-    .setAttribute('content', hex);
+    .setAttribute('content', '#1d1d1d');
 
   document
     .querySelector(`meta[name="msapplication-navbutton-color"]`)
-    .setAttribute('content', hex);
+    .setAttribute('content', '#1d1d1d');
 }
 
 export const useViewModel = (): Return => {
