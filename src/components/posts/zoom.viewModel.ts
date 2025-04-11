@@ -14,7 +14,7 @@ import Contexts from '@/contexts';
 
 type Return = {
   handleOnClick: () => void;
-  imageRef: any;
+  imageRef: MutableRefObject<HTMLImageElement | null>;
   isActive: boolean;
   isZoomed: boolean;
   style: {

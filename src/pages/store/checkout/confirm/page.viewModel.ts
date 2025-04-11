@@ -1,6 +1,7 @@
 'use client';
 
 import { loadStripe } from '@stripe/stripe-js';
+import { Stripe } from '@stripe/stripe-js/types';
 import { useEffect, useState } from 'react';
 
 import Hooks from '@/hooks';
@@ -10,7 +11,7 @@ type Return = {
   fetchClientSecret: () => Promise<string>;
   isEmpty: boolean;
   isReady: boolean;
-  stripe: any;
+  stripe: Promise<Stripe | null>;
 };
 
 const stripe = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY);
