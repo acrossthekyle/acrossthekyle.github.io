@@ -5,22 +5,15 @@ import Link from 'next/link';
 
 import Constants from '@/constants';
 import Styles from '@/styles';
+import type { Components } from '@/types';
 
 import Image from './image';
 import Tags from './tags';
-import { useViewModel } from './figure.viewModel';
+import { useViewModel } from './masonry.figure.viewModel';
 
 const scss = Styles.Components.Figure;
 
-type Props = {
-  date?: string;
-  image: string;
-  price?: string;
-  snippet?: string;
-  tags?: string[];
-  title: string;
-  uri: string;
-};
+type Props = Components.MasonryItem;
 
 function Figure({ date, image, snippet, tags, title, uri }: Props) {
   const { handleOnInView, hasEnteredView, uuid } = useViewModel();

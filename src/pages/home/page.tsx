@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Components from '@/components';
 import Constants from '@/constants';
 import Styles from '@/styles';
-import type { Posts } from '@/types';
+import Utils from '@/utils';
 
 import { useViewModel } from './page.viewModel';
 
@@ -34,29 +34,7 @@ function Page() {
       </div>
       {isLoading && <Components.Loading />}
       {isReady && (
-        <Components.Masonry
-          items={items}
-          renderItem={({
-            date,
-            image,
-            snippet,
-            tags,
-            title,
-            uri,
-          }: Pick<
-            Posts.Post,
-            'date' | 'image' | 'snippet' | 'tags' | 'title' | 'uri'
-          >) => (
-            <Components.Figure
-              date={date}
-              image={image}
-              snippet={snippet}
-              tags={tags}
-              title={title}
-              uri={uri}
-            />
-          )}
-        />
+        <Components.Masonry items={Utils.masonry.transformPosts(items)} />
       )}
     </Components.View>
   );

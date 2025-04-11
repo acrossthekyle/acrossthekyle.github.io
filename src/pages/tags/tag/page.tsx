@@ -1,6 +1,6 @@
 import Components from '@/components';
 import Styles from '@/styles';
-import type { Tags } from '@/types';
+import Utils from '@/utils';
 
 import { useViewModel } from './page.viewModel';
 
@@ -17,10 +17,7 @@ function Page() {
     <Components.View title={`Tags | ${tag}`}>
       <h1 className={scss.header}>{tag}</h1>
       <p className={scss.total}>{`${total} Item(s)`}</p>
-      <Components.Masonry
-        items={items}
-        renderItem={(item: Tags.Tag.Item) => <Components.Figure {...item} />}
-      />
+      <Components.Masonry items={Utils.masonry.transformTags(items)} />
     </Components.View>
   );
 }

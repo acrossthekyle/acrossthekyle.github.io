@@ -8,10 +8,7 @@ import type { Posts } from '@/types';
 type Return = {
   isLoading: boolean;
   isReady: boolean;
-  items: Pick<
-    Posts.Post,
-    'date' | 'image' | 'snippet' | 'tags' | 'title' | 'uri'
-  >[];
+  items: Posts.Post[];
 };
 
 export const useViewModel = (): Return => {

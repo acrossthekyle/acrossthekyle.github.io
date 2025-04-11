@@ -1,6 +1,5 @@
 import Breadcrumbs from './breadcrumbs';
 import Button from './button';
-import Figure from './figure';
 import Image from './image';
 import Loading from './loading';
 import Masonry from './masonry';
@@ -13,7 +12,6 @@ import View from './view/view';
 const Components = {
   Breadcrumbs,
   Button,
-  Figure,
   Image,
   Loading,
   Masonry,
