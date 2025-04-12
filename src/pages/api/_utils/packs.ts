@@ -1,4 +1,34 @@
+import fs from 'fs';
+import { parse } from 'csv-parse';
+import path from 'path';
+
 import type { Packs } from '@/types';
+
+export async function fromCsv(filePath: string) {
+  const parser = fs
+    .createReadStream(
+      path.resolve('./src/pages/api/_database/packs/csvs', filePath),
+    )
+    .pipe(
+      parse({
+        columns: true,
+        skip_empty_lines: true,
+      }),
+    );
+
+  const records = [];
+
+  for await (const record of parser) {
+    records.push({
+      ...record,
+      consumable: record.consumable === 'yes',
+      weight: Number(record.weight),
+      worn: record.worn === 'yes',
+    });
+  }
+
+  return records;
+}
 
 export function calculateWeight(items: Packs.Item[]) {
   const total = [...items].reduce((sum, item) => sum + item.weight, 0);
@@ -34,39 +64,6 @@ export function calculateWeightPerCategory(
   }
 
   return output;
-}
-
-export function markAsWorn(item: Packs.Item) {
-  const cloned = { ...item };
-
-  cloned.worn = true;
-
-  return cloned;
-}
-
-export function markAsConsumable(item: Packs.Item) {
-  const cloned = { ...item };
-
-  cloned.consumable = true;
-
-  return cloned;
-}
-
-export function markAsLuxury(item: Packs.Item) {
-  const cloned = { ...item };
-
-  cloned.category = 'luxury items';
-
-  return cloned;
-}
-
-export function adjustWeightAndQuantity(item: Packs.Item, quantity: number) {
-  const cloned = { ...item };
-
-  cloned.weight = Number((cloned.weight * quantity).toFixed(2));
-  cloned.quantity = quantity;
-
-  return cloned;
 }
 
 export function groupByCategory(items: Packs.Item[]): Packs.Category[] {

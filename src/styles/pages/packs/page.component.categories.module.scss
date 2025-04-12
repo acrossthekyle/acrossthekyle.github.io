@@ -36,22 +36,23 @@
         display: flex;
         margin-bottom: 0.75rem;
 
+        svg {
+          fill: var(--text);
+          height: 0.9rem;
+          margin-left: 0.25rem;
+          position: relative;
+          width: 0.9rem;
+        }
+
         .link {
           display: flex;
-
-          svg {
-            fill: var(--text);
-            height: 1rem;
-            margin-left: 0.25rem;
-            position: relative;
-            width: 1rem;
-          }
         }
 
         .type,
         .name,
         .weight {
           flex: 1;
+          text-transform: capitalize;
         }
 
         .type {
@@ -62,10 +63,16 @@
         .name {
           display: flex;
           flex: 2;
+
+          svg {
+            margin-left: 0.5rem;
+            opacity: 0.4;
+          }
         }
 
         .weight {
           text-align: right;
+          text-transform: none;
         }
 
         .text {

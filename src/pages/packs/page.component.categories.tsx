@@ -29,7 +29,7 @@ function Component({ categories, units }: Props) {
           />
           <ul className={scss.category}>
             {category.items.map(
-              ({ link, name, type, weight }, itemIndex: number) => (
+              ({ consumable, link, name, type, weight, worn }, itemIndex) => (
                 <li className={scss.items} key={itemIndex}>
                   <div className={scss.text}>
                     <div className={scss.type}>
@@ -41,7 +41,12 @@ function Component({ categories, units }: Props) {
                         <>{type}</>
                       )}
                     </div>
-                    <div className={scss.name}>{name}</div>
+                    <div className={scss.name}>
+                      {name} {worn && <Images.Icons.Shirt title="Worn" />}
+                      {consumable && (
+                        <Images.Icons.Utensils title="Consumable" />
+                      )}
+                    </div>
                   </div>
                   <div className={scss.weight}>
                     {Utils.convertItemWeight(weight, units)}{' '}

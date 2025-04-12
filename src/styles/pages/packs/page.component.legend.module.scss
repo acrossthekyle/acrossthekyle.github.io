@@ -63,6 +63,7 @@
       }
 
       &.total {
+        align-items: center;
         font-size: 0.9rem;
 
         &.bordered {
@@ -76,8 +77,18 @@
         }
 
         span:first-child {
+          align-items: center;
+          display: flex;
           flex: 2;
-          text-align: right;
+          justify-content: flex-end;
+
+          svg {
+            fill: var(--text);
+            height: 1rem;
+            margin-right: 0.5rem;
+            opacity: 0.4;
+            width: 1rem;
+          }
         }
 
         small {

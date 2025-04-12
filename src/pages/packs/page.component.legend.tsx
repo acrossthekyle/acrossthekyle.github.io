@@ -1,4 +1,5 @@
 import Constants from '@/constants';
+import Images from '@/images';
 import Styles from '@/styles';
 import type { Packs } from '@/types';
 import { Units } from '@/types/packs';
@@ -62,14 +63,18 @@ function Component({
           </span>
         </li>
         <li className={scss.total}>
-          <span>Consumable</span>
+          <span>
+            <Images.Icons.Utensils /> Consumable
+          </span>
           <span>
             {Utils.convertGroupWeight(weightConsumable, units)}{' '}
             <small>{unitsLabel}</small>
           </span>
         </li>
         <li className={scss.total}>
-          <span>Worn</span>
+          <span>
+            <Images.Icons.Shirt /> Worn
+          </span>
           <span>
             {Utils.convertGroupWeight(weightWorn, units)}{' '}
             <small>{unitsLabel}</small>

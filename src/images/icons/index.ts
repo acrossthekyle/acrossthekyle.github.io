@@ -10,10 +10,12 @@ import Link from './link';
 import List from './list';
 import Marker from './marker';
 import Search from './search';
+import Shirt from './shirt';
 import Store from './store';
 import Stripe from './stripe';
 import Table from './table';
 import User from './user';
+import Utensils from './utensils';
 import Watch from './watch';
 
 const Icons = {
@@ -29,10 +31,12 @@ const Icons = {
   List,
   Marker,
   Search,
+  Shirt,
   Store,
   Stripe,
   Table,
   User,
+  Utensils,
   Watch,
 };
 
