@@ -1,7 +1,7 @@
 category,type,name,weight,worn,consumable,link
-pack,pack,Osprey Kestrel 38 (S/M),65.12,yes,,https://www.rei.com/product/895643/osprey-kestrel-38-pack-2018-mens
+pack,pack,Osprey Kestrel 38,65.12,yes,,https://www.rei.com/product/895643/osprey-kestrel-38-pack-2018-mens
 sleeping,pillow,Trekology Ultralight Pillow,3.35,,,https://www.amazon.com/dp/B073XGRR42
-sleeping,liner,Sea-to-Summit Sleeping Bag Liner,12.8,,,https://seatosummit.com/products/adaptor-coolmax-liner-insect-shield?variant=42126725284013
+sleeping,liner,Sea-to-Summit Sleeping Bag Liner,12.8,,,https://seatosummit.com/products/adaptor-coolmax-liner-insect-shield
 clothing,shorts,Trayl Mountain Biking,9,yes,,
 clothing,shoes,Salomon XA Pro 3D,22,yes,,
 clothing,underwear,Smartwool boxer briefs,3.25,yes,,https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens
@@ -34,7 +34,7 @@ hygiene,chapstick,SPF 15,0.32,,yes,
 aid kit,compeed,Blister Plasters,1.45,,yes,https://www.amazon.com/Compeed-Blister-Plasters-Hydrocolloid-Treatment/dp/B092WFQ3TZ
 aid kit,bandages,Bandage Wrap,2.4,,yes,https://www.amazon.com/gp/product/B06XQ8B8Y8
 aid kit,toilet paper,Backup supply,3.37,,,https://www.amazon.com/gp/product/B014G8XSLY
-aid kit,pills,"Allergy medicine, sudaphed",1.1,,yes,
+aid kit,pills,Allergy medicine + pseudoephedrine,1.1,,yes,
 aid kit,iodine,water purification,3,,,https://www.rei.com/product/407071/potable-aqua-iodine-tablets
 electronics,headlamp,Petzl Actik Headlamp,3.17,,,https://www.rei.com/product/109952/petzl-actik-headlamp-2018
 electronics,batteries,AAA headlamp batteries,3,,,
@@ -57,11 +57,11 @@ miscellaneous,earplugs,AnMeng Sleeping Earplugs,0.81,,,https://www.amazon.com/dp
 miscellaneous,glasses,Reading glasses + case + cleaning cloth,2.47,,,
 miscellaneous,wallet,Cards + Cash,2,,,
 miscellaneous,passport,US Passport,1.5,,,
-miscellaneous,keys,"Building key, unit key, fob",1.2,,,
+miscellaneous,keys,Building + unit keys,1.2,,,
 miscellaneous,toiletry bag,NeatPack Compact Hanging Toiletry Bag,3.2,,,https://www.amazon.com/dp/B017X2WJME
 miscellaneous,detergent,S2S Laundry Wash,3.14,,yes,https://www.amazon.com/dp/B002UOZT3M
 miscellaneous,clothesline,S2S Lite Line Clothesline,1.3,,,https://www.rei.com/product/807452/sea-to-summit-lite-line-clothesline
 miscellaneous,multi-tool,Gerber Multi-Tool (bladeless),1.41,,,https://www.amazon.com/dp/B00TBF5JC4
 miscellaneous,laundry,Clothing clips,1.32,,,https://www.amazon.com/dp/B00AT9RTAG
 miscellaneous,emergency,Mylar Emergency Blanket,0.5,,,https://www.amazon.com/dp/B01LYNWRLA
-miscellaneous,bag,For traveling on planes if required to check poles,0.92,,,https://www.amazon.com/dp/B01I98YQA4
+miscellaneous,trekking pole bag,For planes,0.92,,,https://www.amazon.com/dp/B01I98YQA4

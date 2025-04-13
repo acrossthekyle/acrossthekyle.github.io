@@ -7,12 +7,16 @@ export const useApi = (uri?: string) => {
   const [isLoading, setIsLoading] = useState(false);
   const [data, setData] = useState(null);
 
-  const fetchData = async (endpoint: string, body?: object) => {
+  const fetchData = async (
+    endpoint: string,
+    body?: object,
+    version?: string,
+  ) => {
     setIsLoading(true);
 
     try {
       const response = await fetch(
-        `/api/${endpoint}`,
+        `/api/${endpoint}?version=${version || '1744553405'}`.trim(),
         body
           ? {
               method: 'POST',

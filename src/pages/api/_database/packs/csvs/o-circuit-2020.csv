@@ -24,8 +24,7 @@ clothing,sandals,Shower Flip Flops,5.2,,,https://www.amazon.com/gp/product/B0CT6
 clothing,gloves,All Weather Gloves,5,,,https://www.rei.com/product/836503/seirus-soundtouch-hyperlite-all-weather-gloves-mens
 clothing,pants,Vuori Ponto Pants,8,,,https://www.rei.com/product/112280/vuori-ponto-performance-pants-mens
 clothing,jacket,Ghost Whisperer Down Jacket,7.6,,,https://www.amazon.com/dp/B07W5XC3DD
-water,water bottle,Nalgene 1L,5.9,,,https://www.amazon.com/dp/B001NCDE4S
-water,water bottle,Nalgene 1L,5.9,,,https://www.amazon.com/dp/B001NCDE4S
+water,water bottle,Nalgene 1L x 2,11.8,,,https://www.amazon.com/dp/B001NCDE4S
 water,water filter,Sawyer Squeeze,3.7,,,https://www.rei.com/product/103071/sawyer-squeeze-water-filter-plus
 cooking,pot,TOAKS Titanium 750ml Pot,3.9,,,https://www.amazon.com/dp/B009B98FGW
 cooking,spoon,TOAKS Titanium Long Spoon,0.65,,,https://www.amazon.com/dp/B00EZHML88
@@ -39,8 +38,8 @@ hygiene,towel,PackTowl,6.4,,,https://www.amazon.com/dp/B09LNSRTJL
 hygiene,chapstick,SPF 15,0.32,,yes,
 aid kit,compeed,Blister Plasters,1.45,,yes,https://www.amazon.com/Compeed-Blister-Plasters-Hydrocolloid-Treatment/dp/B092WFQ3TZ
 aid kit,bandages,Bandage Wrap,2.4,,yes,https://www.amazon.com/gp/product/B06XQ8B8Y8
-aid kit,toilet paper,Roll of Toilet Paper,3,,,
-aid kit,pills,"Allergy medicine, sudaphed",1.1,,yes,
+aid kit,toilet paper,,3,,,
+aid kit,pills,Allergy medicine + pseudoephedrine,1.1,,yes,
 aid kit,repair tape,Tenacious Tape,2,,,https://www.amazon.com/dp/B001949Z4I
 electronics,headlamp,Petzl Actik Headlamp,3.17,,,https://www.rei.com/product/109952/petzl-actik-headlamp-2018
 electronics,batteries,AAA headlamp batteries,3,,,
@@ -51,7 +50,7 @@ electronics,adapter,All-in-One Travel Adapter,3.2,,,https://www.amazon.com/gp/pr
 electronics,cable,iPhone USB cable,1,,,
 electronics,cable,Anker cable,1,,,
 electronics,headphones,Apple wired headphones,0.46,yes,,
-packed food + water,meals,8 meals and snacks,128,,yes,
+packed food + water,meals,8 meals + snacks,128,,yes,
 packed food + water,water,2 liters of water,74.4,,yes,
 miscellaneous,knee brace,Patella Stabilizer,10.56,yes,,https://www.amazon.com/dp/B07D5C3YJ4
 miscellaneous,money belt,Eagle Creek Travel Money Belt,1,yes,,https://www.amazon.com/dp/B0054IH4N4
@@ -60,13 +59,13 @@ miscellaneous,earplugs,AnMeng Sleeping Earplugs,0.81,,,https://www.amazon.com/dp
 miscellaneous,glasses,Reading glasses + case + cleaning cloth,2.47,,,
 miscellaneous,wallet,Cards + Cash,2,,,
 miscellaneous,passport,US Passport,1.5,,,
-miscellaneous,keys,"Building key, unit key, fob",1.2,,,
+miscellaneous,keys,Building + unit keys,1.2,,,
 miscellaneous,detergent,S2S Laundry Wash,3.14,,yes,https://www.amazon.com/dp/B002UOZT3M
 miscellaneous,clothesline,S2S Lite Line Clothesline,1.3,,,https://www.rei.com/product/807452/sea-to-summit-lite-line-clothesline
 miscellaneous,multi-tool,Gerber Multi-Tool (bladeless),1.41,,,https://www.amazon.com/dp/B00TBF5JC4
 miscellaneous,laundry,Clothing clips,1.32,,,https://www.amazon.com/dp/B00AT9RTAG
 miscellaneous,emergency,Mylar Emergency Blanket,0.5,,,https://www.amazon.com/dp/B01LYNWRLA
-miscellaneous,bag,For traveling on planes if required to check poles,0.92,,,https://www.amazon.com/dp/B01I98YQA4
+miscellaneous,trekking pole bag,For planes,0.92,,,https://www.amazon.com/dp/B01I98YQA4
 miscellaneous,stuff sack,S2S Ultra-sil,1,,,https://www.amazon.com/dp/B0754NKQ69
 miscellaneous,stuff sack,S2S Ultra-sil,1,,,https://www.amazon.com/dp/B0754NKQ69
 miscellaneous,stuff sack,S2S Ultra-sil,1,,,https://www.amazon.com/dp/B0754NKQ69

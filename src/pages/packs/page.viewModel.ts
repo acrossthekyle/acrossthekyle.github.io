@@ -34,7 +34,7 @@ export const useViewModel = (): Return => {
   const [canRenderPacks, setCanRenderPacks] = useState(false);
 
   useEffect(() => {
-    fetchData('packs');
+    fetchData('packs', undefined, '1744557413');
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 

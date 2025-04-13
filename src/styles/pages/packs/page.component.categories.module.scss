@@ -1,3 +1,4 @@
+@use 'styles/mixins/_on' as on;
 @use 'styles/mixins/_screen' as screen;
 
 .categories {
@@ -33,19 +34,29 @@
       }
 
       .items {
+        align-items: center;
         display: flex;
         margin-bottom: 0.75rem;
 
         svg {
           fill: var(--text);
           height: 0.9rem;
-          margin-left: 0.25rem;
+          margin-bottom: 0.1rem;
+          margin-left: 0.5rem;
           position: relative;
           width: 0.9rem;
         }
 
         .link {
+          align-items: center;
+          border-bottom: 0.1rem solid transparent;
           display: flex;
+          padding-bottom: 0.1rem;
+          transition: all 0.4s ease;
+
+          @include on.hover {
+            border-bottom-color: var(--button);
+          }
         }
 
         .type,
@@ -56,18 +67,20 @@
         }
 
         .type {
+          align-items: center;
           display: flex;
           opacity: 1;
+
+          .consumable,
+          .worn {
+            opacity: 0.6;
+          }
         }
 
         .name {
+          align-items: center;
           display: flex;
           flex: 2;
-
-          svg {
-            margin-left: 0.5rem;
-            opacity: 0.4;
-          }
         }
 
         .weight {

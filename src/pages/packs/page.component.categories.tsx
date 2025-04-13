@@ -35,18 +35,26 @@ function Component({ categories, units }: Props) {
                     <div className={scss.type}>
                       {!!link ? (
                         <Link className={scss.link} href={link} target="_blank">
-                          {type} <Images.Icons.Link />
+                          {type}
                         </Link>
                       ) : (
                         <>{type}</>
                       )}
-                    </div>
-                    <div className={scss.name}>
-                      {name} {worn && <Images.Icons.Shirt title="Worn" />}
+                      {!!link && <Images.Icons.Link />}
+                      {worn && (
+                        <Images.Icons.Shirt
+                          className={scss.worn}
+                          title="Worn"
+                        />
+                      )}
                       {consumable && (
-                        <Images.Icons.Utensils title="Consumable" />
+                        <Images.Icons.Utensils
+                          className={scss.consumable}
+                          title="Consumable"
+                        />
                       )}
                     </div>
+                    <div className={scss.name}>{name}</div>
                   </div>
                   <div className={scss.weight}>
                     {Utils.convertItemWeight(weight, units)}{' '}

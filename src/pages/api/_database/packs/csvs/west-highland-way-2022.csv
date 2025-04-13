@@ -2,55 +2,55 @@ category,type,name,weight,worn,consumable,link
 pack,Pack,Waymark Gear Co Thru 40L,24.7,,,
 pack,Pack Liner,ZPacks Dyneema Dry Bag,1.2,,,https://zpacks.com/products/pack-liner
 shelter,Tent,Big Agnes Tigerwall UL2,42,,,https://www.rei.com/product/188354/big-agnes-tiger-wall-ul2-solution-dyed-tent
-shelter,Stakes,8 x MSR Groundhog Minis + sack,2.68,,,https://www.rei.com/product/829838/msr-mini-ground-hog-stake
+shelter,Stakes,MSR Groundhog Minis x 8,2.68,,,https://www.rei.com/product/829838/msr-mini-ground-hog-stake
 sleeping,Pad,Therm-a-Rest NeoAir XLite,12,,,https://www.amazon.com/dp/B00PZL14EK
 sleeping,Pillow,S2S Aero Pillow,2.1,,,https://www.amazon.com/dp/B003Z218V0
 sleeping,Quilt,EE Engima Quilt Regular 10ºF,16.33,,,https://enlightenedequipment.com/enigma
 clothing,Shirt,Outdoor Research Echo Hoody,4.5,yes,,https://www.outdoorresearch.com/collections/sun-protection/products/mens-echo-hoodie-287625
-clothing,Shorts,"Vuori Kore 7.5” inseam w/o liner (medium, black)",5.33,yes,,https://vuoriclothing.com/products/kore-short-charcoal
+clothing,Shorts,Vuori Kore Shorts,5.33,yes,,https://vuoriclothing.com/products/kore-short-charcoal
 clothing,Shoes,Altra Lone Peak 6,20,yes,,
 clothing,Underwear,Smartwool boxer briefs,3.25,yes,,https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens
-clothing,Knee Brace,Mueller Knee Stabilizer x 2 (bad knees),3,yes,,https://www.amazon.com/gp/product/B00267SFL6/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
-clothing,Socks,Darn Tough Ankle Socks,1.55,yes,,https://www.amazon.com/gp/product/B07BHX9PN8/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1
+clothing,Knee Brace,Mueller Knee Stabilizer x 2,3,yes,,https://www.amazon.com/gp/product/B00267SFL6
+clothing,Socks,Darn Tough Ankle Socks,1.55,yes,,https://www.amazon.com/gp/product/B07BHX9PN8
 clothing,Sunglasses,Goodr,0.78,yes,,https://goodr.com/collections/the-ogs/products/a-gingers-soul
-clothing,Hat,Arc’teryx Trucker Hat,2.15,yes,,https://arcteryx.com/us/en/shop/bird-curved-brim-trucker-hat?cmpid=pm%7Cmult%7Cperf%7Cgoogle%7CArc%27teryx_Google-PMAX_S22_Performance_BOF_R:NAM_C:USA_L:EN%7CAll_Products%7C%7C%7Bad_id%7D&utm_source=google&utm_medium=pm%7Cmult%7Cperf&utm_campaign=Arc%27teryx_Google-PMAX_S22_Performance_BOF_R:NAM_C:USA_L:EN&gclid=Cj0KCQjw7PCjBhDwARIsANo7CgnhDYiNmtssmVUGEq3x-zsezEib9-Ed3FMJOWTaoeZ2VV2wCyrO_q4aAjoPEALw_wcB&gclsrc=aw.ds
-clothing,Puffy,Mountain Hardwear down Jacket,7.97,,,https://www.amazon.com/gp/product/B07W5XC3DD/ref=ppx_yo_dt_b_asin_title_o03_s00
-clothing,Rain Jacket,"Enlightened Equipment Visp (medium, teal)",5.22,,,https://enlightenedequipment.com/visp-rain-jacket/
+clothing,Hat,Arc’teryx Trucker Hat,2.15,yes,,https://arcteryx.com/us/en/shop/bird-curved-brim-trucker-hat
+clothing,Puffy,Mountain Hardwear down Jacket,7.97,,,https://www.amazon.com/gp/product/B07W5XC3DD
+clothing,Rain Jacket,Enlightened Equipment Visp,5.22,,,https://enlightenedequipment.com/visp-rain-jacket/
 clothing,Shirt,Outdoor Research Echo Hoody,4.5,,,https://www.outdoorresearch.com/collections/sun-protection/products/mens-echo-hoodie-287625
 clothing,Underwear,Smartwool boxer briefs,3.25,,,https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens
-clothing,Socks,Darn Tough Ankle Socks,1.55,,,https://www.amazon.com/gp/product/B07BHX9PN8/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1
-clothing,Pullover,"Senchi Designs Wren Alpha Hoodie (large, black)",4.02,,,https://senchidesigns.com/collections/shop/products/wren-hoodie?variant=40663500488756
-clothing,Pants,"Vuori Kore Joggers (large, black)",8.29,,,https://www.patagonia.com/product/mens-terrebonne-joggers/194187855635.html?s_kwcid=17928&utm_source=google&utm_medium=cpc&utm_campaign=pmax_f22_trail&gclid=CjwKCAiA3KefBhByEiwAi2LDHBC-isjeiL9BJGaqDEhAN4qL3Zh8YDQb_iPl3nulQiwgYkqOVFmWKBoCq98QAvD_BwE
-water,Filter,Platypus Quickdraw w/o pouch,2.4,,,https://www.rei.com/product/188475
+clothing,Socks,Darn Tough Ankle Socks,1.55,,,https://www.amazon.com/gp/product/B07BHX9PN8
+clothing,Pullover,Senchi Designs Wren Alpha Hoodie,4.02,,,https://senchidesigns.com/collections/shop/products/wren-hoodie
+clothing,Pants,Vuori Kore Joggers,8.29,,,https://www.patagonia.com/product/mens-terrebonne-joggers/194187855635.html
+water,Filter,Platypus Quickdraw,2.4,,,https://www.rei.com/product/188475
 water,Filter Pouch,Platypus 1L pouch,1.4,,,https://www.rei.com/product/188475
 water,Water Bottle,Nalgene 1L,11,,,
-hygiene,Toothpaste,Tablets,2,,yes,https://www.garagegrowngear.com/products/tooth-tabs-by-unpaste?_pos=2&_sid=0f63bc8ef&_ss=r
-hygiene,Toothbrush,Foldable travel toothbrush,0.74,,,https://www.target.com/p/foldable-travel-toothbrush-up-38-up-8482/-/A-89947685#lnk=sametab
+hygiene,Toothpaste,Tablets,2,,yes,https://www.garagegrowngear.com/products/tooth-tabs-by-unpaste
+hygiene,Toothbrush,Foldable travel toothbrush,0.74,,,https://www.target.com/p/foldable-travel-toothbrush-up-38-up-8482/-/A-89947685
 hygiene,Hand Sanitizer,,1.62,,yes,
 hygiene,Toilet paper,,1.69,,yes,
-hygiene,Body/Hair Wash,Dr. Bronners Soap,2.89,,yes,https://www.amazon.com/dp/B000HJXQ9G?psc=1&ref=ppx_yo2ov_dt_b_product_details
-hygiene,Deodorant,Travel-sized,0.95,,yes,https://www.amazon.com/dp/B00E3B47ZQ?psc=1&ref=ppx_yo2ov_dt_b_product_details
-hygiene,Towel,PackTowl,6.31,,,https://www.amazon.com/gp/product/B01N2HMAV1/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
+hygiene,Body/Hair Wash,Dr. Bronners Soap,2.89,,yes,https://www.amazon.com/dp/B000HJXQ9G
+hygiene,Deodorant,Travel-sized,0.95,,yes,https://www.amazon.com/dp/B00E3B47ZQ
+hygiene,Towel,PackTowl,6.31,,,https://www.amazon.com/gp/product/B01N2HMAV1
 hygiene,Comb,,0.53,,,
 hygiene,Hair Ties,,0.32,,,
 hygiene,Chapstick,SPF 15,0.32,,yes,
-hygiene,Sunblock,33 SPF Joshua Tree sun stick,0.95,,yes,https://www.amazon.com/gp/product/B004Y6K8XA/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
-aid kit,Med + Repair Kit,"Including ibuprofen, allergy medicine, and repair tape",3.35,,yes,https://www.rei.com/product/800721/adventure-medical-kits-ultralightwatertight-3-medical-kit
+hygiene,Sunblock,33 SPF Joshua Tree sun stick,0.95,,yes,https://www.amazon.com/gp/product/B004Y6K8XA
+aid kit,Med + Repair Kit,Ibuprofen + allergy medicine + repair tape,3.35,,yes,https://www.rei.com/product/800721/adventure-medical-kits-ultralightwatertight-3-medical-kit
 electronics,Headlamp,Nitecore NU25 UL,1.59,,,https://www.nitecorestore.com/NITECORE-NU25-UL-Headlamp-p/fl-nite-nu25-400ul-bk.htm
 electronics,Powerbank,Nitecore NB10000,5.36,,,https://www.nitecorestore.com/Nitecore-NB10000-Gen-2-Power-Bank-p/bat-nite-nb10000.htm
-electronics,Wall Charger,Anker USB-C 40W charger dual port,3,,,https://www.amazon.com/dp/B0BDKB4W7N?psc=1&ref=ppx_yo2ov_dt_b_product_details
+electronics,Wall Charger,Anker USB-C 40W charger dual port,3,,,https://www.amazon.com/dp/B0BDKB4W7N
 electronics,GPS Smartwatch,Garmin Enduro 2,1.8,yes,,https://www.garmin.com/en-US/p/854515
 electronics,Phone,iPhone 16 Pro + case,7.8,yes,,https://www.apple.com/iphone-16-pro/
-electronics,Cables,Two cable w/ adapters for all,1.9,,,
+electronics,Cables,,1.9,,,
 packed food + water,Water,2 liters of water,74.4,,yes,
-packed food + water,Snacks,"Rough estimate, amount will vary from day to day",4,,yes,
-luxury items,Headphones,Airpods Pro 2,1.9,,,https://www.amazon.com/dp/B0BDHWDR12?psc=1&ref=ppx_yo2ov_dt_b_product_details
-luxury items,Headphones Bluetooth Adapter,For traveling on planes,0.5,,,https://www.amazon.com/gp/product/B07Z13G1P5/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1
-luxury items,Trekking Pole bag,For traveling on planes if required to check poles,0.92,,,https://www.amazon.com/dp/B01I98YQA4?psc=1&ref=ppx_yo2ov_dt_b_product_details
-miscellaneous,Trekking Pole,CNOC Cork Trekking Pole,9.66,yes,,https://cnocoutdoors.com/collections/trekking-poles/products/cnoc-telescopic-trekking-poles-cork-grip-single-pole?variant=31473597087833
+packed food + water,Snacks,Rough estimate,4,,yes,
+luxury items,Headphones,Airpods Pro 2,1.9,,,https://www.amazon.com/dp/B0BDHWDR12
+luxury items,Headphones,Bluetooth Plane Adapter,0.5,,,https://www.amazon.com/gp/product/B07Z13G1P5
+luxury items,Trekking Pole bag,For planes,0.92,,,https://www.amazon.com/dp/B01I98YQA4
+miscellaneous,Trekking Pole,CNOC Cork Trekking Pole,9.66,yes,,https://cnocoutdoors.com/collections/trekking-poles/products/cnoc-telescopic-trekking-poles-cork-grip-single-pole
 miscellaneous,Earplugs,Handful of earplugs,0.14,,,
 miscellaneous,Glasses,Reading glasses + case + cleaning cloth,2.47,,,
 miscellaneous,Wallet,Cards + Cash,2,,yes,
-miscellaneous,Passport,"Passport, vaccine card, covid card (plus bag)",2.57,,,
-miscellaneous,House Keys,"Building key, unit key, fob",1.2,,,
+miscellaneous,Passport,Passport + vaccine card,2.57,,,
+miscellaneous,House Keys,Building + unit keys,1.2,,,
 miscellaneous,Drawstring Bag,For valuables and walking around,3,,,
