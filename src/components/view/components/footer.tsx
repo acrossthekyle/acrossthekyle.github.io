@@ -27,16 +27,16 @@ function Footer() {
     <footer className={scss.footer}>
       <div className={scss.columns}>
         <div className={scss.column}>
-          <h3>About Me</h3>
+          <h2>About Me</h2>
           <p>{Constants.ABOUT_ME_BLURB}</p>
-          <h3>Tags</h3>
+          <h2>Tags</h2>
           {isTagsLoading && <Loading />}
           {isTagsReady && (
             <Tags className={scss.tags} items={tags} mode="secondary" />
           )}
         </div>
         <div className={scss.column}>
-          <h3>Recent Posts</h3>
+          <h2>Recent Posts</h2>
           {isPostsLoading && <Loading />}
           {isPostsReady && (
             <>
@@ -58,11 +58,11 @@ function Footer() {
                   </span>
                   <figcaption className={scss.caption}>
                     <span className={scss.date}>{date}</span>
-                    <h2 id={`recent${index}`}>
+                    <h3 id={`recent${index}`}>
                       <Link className={scss.title} href={uri}>
                         {title}
                       </Link>
-                    </h2>
+                    </h3>
                   </figcaption>
                 </figure>
               ))}
@@ -70,7 +70,7 @@ function Footer() {
           )}
         </div>
         <div className={scss.column}>
-          <h3>Contact</h3>
+          <h2>Contact</h2>
           <Contact />
         </div>
       </div>

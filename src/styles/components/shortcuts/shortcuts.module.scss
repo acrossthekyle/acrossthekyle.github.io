@@ -1,4 +1,4 @@
-@use 'styles/mixins/_on' as on;
+@use 'styles/mixins/_screen' as screen;
 
 .links {
   display: flex;
@@ -25,6 +25,18 @@
         height: 1rem;
         position: relative;
         top: -0.15rem;
+        width: 1rem;
+      }
+    }
+  }
+
+  @include screen.small {
+    .link {
+      height: 2.5rem;
+      width: 2.5rem;
+
+      svg {
+        height: 1rem;
         width: 1rem;
       }
     }

@@ -49,7 +49,7 @@ function Page() {
           captured my heart.
         </p>
         <Trips />
-        <h3>The Boring Stuff</h3>
+        <h2>The Boring Stuff</h2>
         <p>
           I'm always up for new opportunities! If you're looking to work
           together on a web or mobile project, check out my{' '}

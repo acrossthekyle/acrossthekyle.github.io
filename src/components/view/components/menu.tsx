@@ -3,7 +3,6 @@ import Link from 'next/link';
 import Styles from '@/styles';
 
 import Navigation from './navigation';
-import Theme from './theme';
 
 import { useViewModel } from './menu.viewModel';
 
@@ -50,9 +49,6 @@ function Menu() {
                 linkClassName={scss.link}
                 onClick={handleOnLinkClick}
               />
-              <div className={scss.footer}>
-                <Theme />
-              </div>
             </div>
           </div>
         </div>

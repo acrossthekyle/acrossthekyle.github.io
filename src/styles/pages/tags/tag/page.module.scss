@@ -1,14 +1,12 @@
 @use 'styles/mixins/_screen' as screen;
 
 .header {
-  font-size: 2.25rem;
   text-align: center;
   text-transform: capitalize;
   width: 100%;
 }
 
 .total {
-  font-size: 1rem;
   margin: 0;
   padding-bottom: 3rem;
   padding-top: 2rem;

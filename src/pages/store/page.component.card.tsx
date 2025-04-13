@@ -45,7 +45,6 @@ function Card({ item }: Props) {
               <Link href={item.uri}>{item.title}</Link>
             </h2>
             <p>From ${item.price}</p>
-            <Components.Button href={item.uri} text="Purchase" />
           </figcaption>
         </figure>
       )}

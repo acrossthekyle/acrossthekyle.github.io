@@ -17,14 +17,11 @@
   }
 
   .breadcrumbs {
-    font-size: 0.9rem;
     padding-bottom: 0.5rem;
     padding-top: 1.65rem;
   }
 
   .title {
-    font-size: 2.3rem;
-    line-height: 3rem;
     margin: 0.75rem auto 1.75rem;
     position: relative;
     text-align: center;
@@ -49,10 +46,7 @@
       width: 1.5rem;
 
       img {
-        height: 100%;
-        object-fit: cover;
         position: relative;
-        width: 100%;
         z-index: 2;
       }
     }
@@ -91,8 +85,6 @@
 
   @include screen.small {
     .title {
-      font-size: 2.5rem;
-      line-height: 2.75rem;
       padding: 0 1rem;
 
       &:before {
@@ -115,8 +107,6 @@
 
   @include screen.compact {
     .title {
-      font-size: 2rem;
-      line-height: 2.25rem;
       padding: 0 1rem;
     }
   }

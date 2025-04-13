@@ -6,14 +6,11 @@
   grid-gap: 0.25rem;
   grid-template-columns: repeat(3, minmax(calc(33% - 0.5rem), 1fr));
   list-style-type: none;
-  margin: 0;
+  margin: 3rem auto 2rem;
   padding: 0;
 
   .item {
     grid-row: span 2;
-    line-height: 1.25rem;
-    margin: 0;
-    padding: 0;
     padding-left: 1.75rem;
     position: relative;
 
@@ -22,8 +19,6 @@
       content: '\e5ca';
       display: inline-block;
       font-family: 'Material Symbols Outlined';
-      font-size: 1.25rem;
-      font-weight: 500;
       left: 0;
       position: absolute;
       top: -2px;

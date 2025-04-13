@@ -59,29 +59,28 @@ function Search({ isSearching, onClose }: Props) {
           {isLoading && <Loading />}
           {isReady && (
             <>
-              <h4 className={scss.total}>{`Found ${total} results`}</h4>
+              <h2 className={scss.total}>{`Found ${total} results`}</h2>
               <div role="list">
                 {items.map(({ subTitle, title, uri }) => (
-                  <Link
-                    aria-label={`${title} ${subTitle}`}
-                    className={scss.result}
-                    href={uri}
-                    onClick={onClose}
-                    key={uri}
-                    role="listitem"
-                    target={
-                      title.toLowerCase().includes('resume')
-                        ? '_blank'
-                        : '_self'
-                    }
-                  >
-                    <div aria-hidden="true" className={scss.title}>
-                      {title}
-                    </div>
-                    <span aria-hidden="true" className={scss.date}>
+                  <div className={scss.result} key={uri} role="listitem">
+                    <h3>
+                      <Link
+                        aria-label={`${title} ${subTitle}`}
+                        href={uri}
+                        onClick={onClose}
+                        target={
+                          title.toLowerCase().includes('resume')
+                            ? '_blank'
+                            : '_self'
+                        }
+                      >
+                        {title}
+                      </Link>
+                    </h3>
+                    <div className={scss.date}>
                       <time>{subTitle}</time>
-                    </span>
-                  </Link>
+                    </div>
+                  </div>
                 ))}
               </div>
             </>

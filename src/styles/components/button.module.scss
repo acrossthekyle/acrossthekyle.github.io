@@ -1,11 +1,8 @@
 @use 'styles/mixins/_on' as on;
-@use 'styles/mixins/_screen' as screen;
 
 .button {
   border-radius: 0.25rem;
   display: inline-block;
-  font-size: 0.8rem;
-  font-weight: 400;
   letter-spacing: 1px;
   padding: 0.5rem 1rem;
   text-transform: uppercase;
@@ -64,9 +61,5 @@
       background: var(--button-hover);
       color: var(--button-secondary-hover-text);
     }
-  }
-
-  @include screen.medium {
-    padding: 1rem 1.5rem;
   }
 }

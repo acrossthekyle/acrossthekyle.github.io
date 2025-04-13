@@ -28,10 +28,8 @@ function Timeline({ indexPrefix, segments }: Props) {
             index: number,
           ) => (
             <div className={scss.block} key={`segment-${index}`}>
-              <span className={scss.index}>
-                <span className={scss.number}>
-                  {`${indexPrefix || ''} ${String(index + 1).padStart(2, '0')}`.trim()}
-                </span>
+              <span className={scss.number}>
+                {`${indexPrefix || ''} ${String(index + 1).padStart(2, '0')}`.trim()}
               </span>
               <div aria-hidden="true" className={scss.marker} />
               <div className={scss.title}>

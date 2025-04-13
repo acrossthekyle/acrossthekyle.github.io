@@ -25,12 +25,6 @@ $frame-mat-thickness: var(--frame-mat-thickness);
       z-index: 2;
     }
 
-    img {
-      height: 100%;
-      object-fit: cover;
-      width: 100%;
-    }
-
     &[data-frame='1'] {
       &[data-frame-color='1'] {
         border-color: var(--shop-frame-border-fixed-white);

@@ -28,11 +28,6 @@
   width: auto;
 
   p {
-    font-size: 1.0625rem;
-    font-weight: 400;
-    line-height: 1.75rem;
-    margin-bottom: 1.75rem;
-
     a {
       color: var(--text-link);
       text-decoration: underline;
@@ -40,30 +35,7 @@
     }
   }
 
-  h2 {
-    font-size: 2.2rem;
-    line-height: 2.7rem;
-    margin-bottom: 1.95rem;
-    margin-top: 3rem;
-  }
-
-  h3 {
-    font-size: 1.4rem;
-    margin-bottom: 1.95rem;
-    margin-top: 3rem;
-  }
-
   @include screen.small {
     padding: 1rem 0 0;
-
-    h2 {
-      font-size: 1.5rem;
-      line-height: 2rem;
-      margin-top: 3.5rem;
-    }
-
-    h3 {
-      font-size: 1.25rem;
-    }
   }
 }

@@ -41,12 +41,6 @@
         position: relative;
         width: 12rem;
 
-        img {
-          height: 100%;
-          object-fit: cover;
-          width: 100%;
-        }
-
         .remove {
           display: block;
           padding: 1rem;
@@ -86,7 +80,6 @@
             li {
               align-items: center;
               display: flex;
-              font-size: 0.9rem;
               margin-right: 1rem;
               position: relative;
 

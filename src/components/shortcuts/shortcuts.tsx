@@ -28,7 +28,7 @@ function Shortcuts({
         title="About me"
       >
         <Images.Icons.User />
-        {shouldLabel && <span className={scss.site}>About Me</span>}
+        {shouldLabel && <span className={scss.site}>Me</span>}
       </Link>
       <Link
         className={`${scss.link} ${childClassName}`}
@@ -44,7 +44,7 @@ function Shortcuts({
         title="Store"
       >
         <Images.Icons.Store />
-        {shouldLabel && <span className={scss.site}>Buy Prints</span>}
+        {shouldLabel && <span className={scss.site}>Store</span>}
       </Link>
       <External
         className={`${scss.link} ${childClassName}`}

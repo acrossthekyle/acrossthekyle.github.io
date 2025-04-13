@@ -6,55 +6,66 @@
   flex-direction: row;
   height: auto !important;
   justify-content: center;
-  margin: 3rem auto 2rem;
+  margin: 4rem auto 2rem;
   position: relative;
   width: 100%;
 
   .stat {
     align-items: center;
-    color: var(--text);
     font-size: 1.5rem;
-    font-weight: 800;
+    font-weight: bold;
     margin: 0 2.5rem;
     text-align: center;
+
+    small {
+      display: inline-block;
+      font-size: 1rem;
+      padding-left: 0.25rem;
+    }
 
     .label {
       display: block;
       font-size: 0.75rem;
       font-weight: 400;
-      margin-top: 1rem;
+      margin-top: 0.65rem;
       text-transform: uppercase;
     }
   }
 
   @include screen.small {
     display: grid;
-    grid-auto-rows: 2rem;
+    grid-auto-rows: 2.5rem;
     grid-gap: 2rem;
     grid-template-columns: repeat(2, minmax(calc(50% - 2rem), 1fr));
-    margin: 2rem auto 2.5rem;
+    margin: 3rem auto 2.5rem;
 
     .stat {
-      font-size: 1.25rem;
+      font-size: 1.75rem;
       grid-row: span 1;
+      letter-spacing: -0.1rem;
       margin: 0 1rem;
 
+      small {
+        letter-spacing: 0;
+      }
+
       .label {
-        font-size: 0.65rem;
-        margin-top: 0.75rem;
+        font-size: 0.9rem;
+        letter-spacing: 0;
+        margin-top: 0.5rem;
       }
     }
   }
 }
 
 .external {
+  margin-bottom: 3rem;
   position: relative;
   text-align: center;
 
   .garmin {
-    color: var(--text);
     display: block;
-    font-size: 0.65rem;
+    font-size: 0.7rem;
     text-transform: uppercase;
 
     @include on.hover {
@@ -63,6 +74,8 @@
   }
 
   @include screen.small {
-    margin-bottom: 2rem;
+    .garmin {
+      font-size: 0.9rem;
+    }
   }
 }

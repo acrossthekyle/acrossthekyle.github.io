@@ -5,6 +5,7 @@
   flex-direction: column;
   grid-gap: 1.25rem;
   margin-bottom: 4rem;
+  margin-top: 3rem;
   position: relative;
 
   .image {
@@ -14,15 +15,14 @@
 
     img {
       height: auto;
-      width: 100%;
+      object-fit: unset;
     }
   }
 
   .caption {
     bottom: -2rem;
     color: var(--text);
-    font-size: 0.65rem;
-    line-height: 1rem;
+    font-size: 0.8rem;
     padding-top: 1rem;
     position: absolute;
     text-align: center;

@@ -1,12 +1,12 @@
-@use 'styles/mixins/_screen' as screen;
 @use 'styles/mixins/_on' as on;
+@use 'styles/mixins/_screen' as screen;
 
 .tags {
   .tag {
     border-bottom: none;
     border-radius: 0.25rem;
     display: inline-block;
-    font-size: 0.62rem;
+    font-size: 0.65rem;
     letter-spacing: 1px;
     margin-bottom: 0.25rem;
     margin-right: 0.25rem;
@@ -39,6 +39,12 @@
         background: var(--tag-hover);
         color: var(--tag-text);
       }
+    }
+  }
+
+  @include screen.small {
+    .tag {
+      font-size: 0.85rem;
     }
   }
 }
