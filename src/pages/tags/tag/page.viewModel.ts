@@ -34,7 +34,7 @@ export const useViewModel = (): Return => {
 
   const { data, fetchData, isReady } = Hooks.useApi();
 
-  const [tag, setTag] = useState(null);
+  const [tag, setTag] = useState<string | null>(null);
 
   useEffect(() => {
     setTag(Utils.router.getQueryItem(query, 'tag'));
@@ -42,7 +42,7 @@ export const useViewModel = (): Return => {
   }, [query]);
 
   useEffect(() => {
-    if (tag !== null) {
+    if (tag !== null && !!tag) {
       fetchData(`tags/tagged?tag=${tag}`);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
