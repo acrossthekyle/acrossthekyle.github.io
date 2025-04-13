@@ -8,6 +8,7 @@ import Shortcuts from './shortcuts/shortcuts';
 import Tags from './tags';
 import Timeline from './timeline';
 import View from './view/view';
+import World from './world';
 
 const Components = {
   Breadcrumbs,
@@ -20,6 +21,7 @@ const Components = {
   Tags,
   Timeline,
   View,
+  World,
 };
 
 export default Components;

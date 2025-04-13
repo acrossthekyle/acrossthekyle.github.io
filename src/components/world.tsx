@@ -3,24 +3,16 @@ import Link from 'next/link';
 
 import Images from '@/images';
 import Styles from '@/styles';
+import type { Components } from '@/types';
 
-import Image from '../image';
+import Image from './image';
 import { useViewModel } from './world.viewModel';
 
-const scss = Styles.Components.Posts.World;
-
-type Marker = {
-  isPointOfOrigin?: boolean;
-  isPrivate: boolean;
-  label?: string;
-  left: string;
-  top: string;
-  uri?: string;
-};
+const scss = Styles.Components.World;
 
 type Props = {
   className?: string;
-  markers: Marker[];
+  markers: Components.Marker[];
 };
 
 function World({ className = '', markers }: Props) {

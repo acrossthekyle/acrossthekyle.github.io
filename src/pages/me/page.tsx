@@ -2,6 +2,8 @@ import Components from '@/components';
 import Constants from '@/constants';
 import Styles from '@/styles';
 
+import Trips from './page.components.trips';
+
 const scss = Styles.Pages.Me.Page;
 
 function Page() {
@@ -20,41 +22,41 @@ function Page() {
       </div>
       <div className={scss.content}>
         <p>
-          After thru-hiking several trails around the world, from South America
-          to Nepal, I've found that the journey, rather than the destination,
-          leaves the most impact and I discover what I’m capable of after
-          walking for days-on-end, mile after mile, mountain pass after mountain
-          pass.
+          After thru-hiking trails across the globe, from the rugged paths of
+          South America to the towering peaks of Nepal, I've learned one
+          powerful truth: it's not the destination that leaves the greatest
+          impact &mdash; it's the journey itself. Day after day, mile after
+          mile, mountain pass after mountain pass, I discover new depths of what
+          I'm truly capable of.
         </p>
         <p>
-          My first exposure to thru-hiking was a 500 mile walking trail across
-          Northern Spain called the Camino de Santiago in 2018. It was a
-          month-long journey across the country, full of new experiences and
-          hardships, and I met so many amazing people on it. There is nothing
-          quiet like carrying everything you need on your back, while walking
-          across open land from village to village, day after day. Yes my feet
-          hurt (a lot), but I discovered what I was capable of, and I
-          experienceed the world in a unique way.
+          My thru-hiking journey began in 2018, with the iconic 500-mile Camino
+          de Santiago across Northern Spain. A month-long adventure that took me
+          across the Spanish countryside, this trail tested me in unexpected
+          ways, from the challenges of endless walking to the thrill of meeting
+          incredible people along the way. There's something indescribable about
+          carrying everything you need on your back, wandering from village to
+          village, day in and day out. Sure, my feet ached like never before,
+          but each step unveiled a new sense of resilience &mdash; and I
+          experienced the world in a way I never had before.
         </p>
         <p>
-          Needless to say, I was hooked. Since 2018 I've completed 7 unique
-          thru-hikes, summitted several mountain peaks, and traveled to more
-          than a dozen countries. My favorite places so far have been Spain
-          where I did the Camino de Santiago, and the Annapurna Circuit in
-          Nepal.
+          By the end of it, I was hooked. Since that first Camino, I've
+          completed seven unique thru-hikes, summited several towering peaks,
+          and traveled through over a dozen countries. But it's the places I've
+          returned to &mdash; like the peaceful trails of Spain and the
+          breathtaking Annapurna Circuit in Nepal &mdash; that have truly
+          captured my heart.
         </p>
-        <p>
-          Feel free to{' '}
-          <a href="mailto:hello@acrossthekyle.com">send me an email</a> if you
-          want to know more.
-        </p>
+        <Trips />
         <h3>The Boring Stuff</h3>
         <p>
-          I'm always open to new opportunities: here's my{' '}
+          I'm always up for new opportunities! If you're looking to work
+          together on a web or mobile project, check out my{' '}
           <a href={Constants.RESUME_URL} target="_blank" rel="noreferrer">
             resume
           </a>{' '}
-          if you're interested in working together on a web or mobile project.
+          &mdash; I'd love to team up!
         </p>
       </div>
     </Components.View>

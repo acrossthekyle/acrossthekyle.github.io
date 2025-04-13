@@ -15,7 +15,7 @@ const post19 = {
   isPrivate: false,
   locationFull: 'Alpes, Europe',
   locationShort: 'Europe',
-  snippet: `It's been a wish of mine to be able to go back to the European Alpes and re-visit an old friend: the Tour du Mont Blanc.`,
+  snippet: `I've been itching to return to the wild beauty of the European Alps and cross paths once again with an old companion in adventure \u2014 the epic Tour du Mont Blanc.`,
   stages: [
     {
       dateFull: `July 27th, 2024`,
@@ -118,7 +118,7 @@ const post18 = {
     left: '46.5%',
     top: '24%',
   },
-  snippet: `Billed as the most difficult trail in Europe, this Great Hike (or Grande Randonnee 20) was the last thru-hiking adventure on my list.`,
+  snippet: `Touted as Europe's toughest trail, the legendary GR20 was the final beast on my thru-hiking bucket list \u2014 and I was ready for the challenge.`,
   stages: [
     {
       dateFull: `June 21st, 2023`,
@@ -221,7 +221,7 @@ const post17 = {
     left: '54%',
     top: '33%',
   },
-  snippet: `I always dreamed that I would go to this place one day, and wander inside the many temples and pyramids.`,
+  snippet: `It was a dream etched into my imagination \u2014 to one day roam this ancient world, tracing history's footsteps through silent temples and sun-soaked pyramids.`,
   tags: ['vacation'],
   title: 'Welcoming the New Year as we explored the land of Egypt',
   titleShort: 'Egypt',
@@ -240,7 +240,7 @@ const post16 = {
   isPrivate: false,
   locationFull: 'Rocky Mountains, Colorado',
   locationShort: 'Colorado',
-  snippet: `The initial ascent was so easy, I had almost forgotten that I was hiking up the second tallest peak in the Rocky Mountains.`,
+  snippet: `The trail eased me in so effortlessly, it was almost easy to forget I was ascending one of the Rocky Mountains' true giants \u2014 their second-highest summit.`,
   tags: ['summit', 'day hike'],
   title: 'Summitting the second highest peak in the Rockies',
   titleShort: 'Mt. Massive',
@@ -259,7 +259,7 @@ const post15 = {
   isPrivate: false,
   locationFull: 'Rocky Mountains, Colorado',
   locationShort: 'Colorado',
-  snippet: `A mountain's summit trail rating usually indicates its level difficulty with 1 being not very difficult. Mt. Belford was rated as one of those.`,
+  snippet: `Trail ratings start at Class 1 \u2014 the so-called 'easy' climbs. Mt. Belford wears that badge, but even 'easy' in the Rockies still means business.`,
   tags: ['summit', 'day hike'],
   title: 'Pushing myself towards the summit of Mt. Belford',
   titleShort: 'Mt. Belford',
@@ -283,7 +283,7 @@ const post14 = {
     left: '43.6%',
     top: '13.4%',
   },
-  snippet: `This trek would end up being my least favorite out of them all. I was not prepared enough for the amount of rainfall nearly every day.`,
+  snippet: `This trek didn't just test my limits \u2014 it soaked them. With rain nearly every day and my gear falling short, it easily became my least favorite of them all.`,
   stages: [
     {
       dateFull: `May 7th, 2022`,
@@ -340,7 +340,7 @@ const post13 = {
   isPrivate: false,
   locationFull: 'Rocky Mountains, Colorado',
   locationShort: 'Colorado',
-  snippet: `It's not very often that a single trail allows you to summit multiple mountain peaks in one day, and Decalibron is one of those trails.`,
+  snippet: `It's a rare gift when a single trail lets you tag multiple summits in just one day \u2014 and the Decalibron is one of those rare, high-altitude gems.`,
   tags: ['summit', 'day hike'],
   title: 'Summiting three mountain peaks before lunch',
   titleShort: 'DeCaLi',
@@ -359,7 +359,7 @@ const post12 = {
   isPrivate: false,
   locationFull: 'Rocky Mountains, Colorado',
   locationShort: 'Colorado',
-  snippet: `This was a tough one not only because we had to gain nearly 6,000 feet of elevation, but we also ran out of water on our way up.`,
+  snippet: `The climb was punishing \u2014 6,000 feet of relentless elevation gain, and just when things couldn't get worse, our water ran dry. Every step after that felt like a battle.`,
   tags: ['summit', 'day hike'],
   title: 'Running out of water while on Mt. Shavano',
   titleShort: 'Mt. Shavano',
@@ -378,7 +378,7 @@ const post11 = {
   isPrivate: false,
   locationFull: 'Rocky Mountains, Colorado',
   locationShort: 'Colorado',
-  snippet: `This route started above the treeline, which I always love, and the beginning of the trail went through an elongated bowl-shaped valley.`,
+  snippet: `Kicking off above the treeline \u2014 a setting I never tire of—the trail led us into an expansive, bowl-shaped valley that felt like the calm before the climb.`,
   tags: ['summit', 'day hike'],
   title: 'Ending my trip on a high note by summiting Grays Peak',
   titleShort: 'Grays Peak',
@@ -397,7 +397,7 @@ const post10 = {
   isPrivate: false,
   locationFull: 'Rocky Mountains, Colorado',
   locationShort: 'Colorado',
-  snippet: `One of the more popular 14,000+ foot summits in Colorado due to its close proximity to Denver, this peak offers an easy route.`,
+  snippet: `A favorite among Colorado's 14ers, this peak's proximity to Denver makes it a go-to for hikers \u2014 and its relatively easy route invites plenty of eager climbers to take it on.`,
   tags: ['summit', 'day hike'],
   title: 'Having a pleasantly easy hike up Mt. Bierstadt',
   titleShort: 'Mt. Bierstadt',
@@ -416,7 +416,7 @@ const post9 = {
   isPrivate: false,
   locationFull: 'Rocky Mountains, Colorado',
   locationShort: 'Colorado',
-  snippet: `After a restless night of sleep, and a long trek through dense woods, the trail finally opened up to reveal a wall of rock full of switchbacks.`,
+  snippet: `After a restless night and a seemingly endless trek through thick, shadowy woods, the trail suddenly broke open, revealing a towering wall of rock, its switchbacks winding like a serpent toward the sky.`,
   tags: ['summit', 'day hike'],
   title: 'Navigating ridges and switchbacks on La Plata Peak in Colorado',
   titleShort: 'La Plata Peak',
@@ -440,7 +440,7 @@ const post8 = {
     left: '25.8%',
     top: '94.5%',
   },
-  snippet: `Ever since my trip to Patagonia in 2016 I looked forward to returning one day to do the long distance hike around the national park.`,
+  snippet: `After my first trip to Patagonia in 2016, I couldn't shake the longing to return one day and take on the epic long-distance hike that winds through the heart of the national park.`,
   stages: [
     {
       dateFull: `February 18th, 2020`,
@@ -514,7 +514,7 @@ const post7 = {
     left: '71.3%',
     top: '32%',
   },
-  snippet: `After having done three thru-hikes so far, each within a variety of elevations, I decided that I was ready to go on an adventure.`,
+  snippet: `After completing a handful of thru-hikes across a range of elevations, I felt the fire for adventure burning stronger than ever \u2014 and knew I was ready to take on my next big challenge.`,
   stages: [
     {
       dateFull: `October 19th, 2019`,
@@ -643,7 +643,7 @@ const post6 = {
   isPrivate: false,
   locationFull: 'Rocky Mountains, Colorado',
   locationShort: 'Colorado',
-  snippet: `Most of the trail was in the woods, and a lot of the portions consisted of switchbacks made up of stairs carved out of the rock.`,
+  snippet: `Most of the trail was shrouded in dense woods, where the path twisted upward in a series of rock-carved staircases, each switchback feeling like a step closer into the mountain's heart.`,
   tags: ['summit', 'day hike'],
   title: 'Discovering a new outdoor passion on Quandary Peak',
   titleShort: 'Quandary Peak',
@@ -666,7 +666,7 @@ const post5 = {
     left: '12%',
     top: '28%',
   },
-  snippet: `I finally worked up the courage and headed out to Colorado to tackle my first 14-er, or mountain peak above 14,000 feet.`,
+  snippet: `After summoning every bit of courage, I set off for Colorado, ready to take on my first 14er \u2014 an intimidating peak rising over 14,000 feet into the sky.`,
   tags: ['summit', 'day hike'],
   title: 'Trying something new: summitting a mountain at 14,000 feet',
   titleShort: 'Mt. Elbert',
@@ -690,7 +690,7 @@ const post4 = {
     left: '47.75%',
     top: '21%',
   },
-  snippet: `When I started looking into thru-hikes I came across a list of the best in the world, and the Alta Via 1 was one of them.`,
+  snippet: `When I first started exploring the world of thru-hikes, I found a list of the best trails on Earth \u2014 and the Alta Via 1 was undeniably one of the most enticing on the list.`,
   stages: [
     {
       dateFull: `July 16th, 2019`,
@@ -776,7 +776,7 @@ const post3 = {
     left: '47.1%',
     top: '20%',
   },
-  snippet: `Way before I set foot on the Camino in Spain, I had already committed myself to doing another thru-hike in Europe.`,
+  snippet: `Long before I ever set foot on the Camino in Spain, I had already locked my sights on another epic thru-hike in Europe, determined to take on yet another unforgettable adventure.`,
   stages: [
     {
       dateFull: `September 2nd, 2018`,
@@ -852,7 +852,7 @@ const post3 = {
     },
   ],
   tags: ['thru-hike'],
-  title: 'Uping my thru-hiking game with The Tour du Mont Blanc in Europe',
+  title: 'Stepping up my thru-hiking game with the Tour du Mont Blanc',
   titleShort: 'Tour du Mont Blanc',
   uri: '/posts/the-tour-du-mont-blanc',
 };
@@ -874,7 +874,7 @@ const post2 = {
     left: '42.3%',
     top: '23%',
   },
-  snippet: `Years after returning from South America the travelling spark was re-ignited, and on a whim, I purchased a one-way flight to Spain.`,
+  snippet: `Years after returning from South America, the travel bug bit me once again \u2014 and without a second thought, I impulsively booked a one-way flight to Spain, ready to see where the journey would take me.`,
   stages: [
     {
       dateFull: `June 2nd, 2018`,
@@ -1091,7 +1091,7 @@ const post1 = {
     left: '22.4%',
     top: '77%',
   },
-  snippet: `Here I was at the bottom of the world, hiking through the Torres del Paine national park, and I was becoming hooked on backpacking.`,
+  snippet: `In the remote reaches of Torres del Paine National Park, I found myself not just hiking, but discovering a passion for backpacking that would change my adventures forever.`,
   tags: ['vacation', 'patagonia'],
   title: 'Discovering backpacking while exploring Chile and Patagonia',
   titleShort: 'Chile and Patagonia',

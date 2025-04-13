@@ -83,7 +83,7 @@ describe('_utils/posts', () => {
       'returning to the alpes and the tour du mont blanc',
     );
     expect(result[1].title.toLowerCase()).toContain(
-      'uping my thru-hiking game with the tour du mont blanc in europe',
+      'stepping up my thru-hiking game with the tour du mont blanc',
     );
     expect(result[2].title.toLowerCase()).toContain(
       'playing tourist in geneva, switzerland',

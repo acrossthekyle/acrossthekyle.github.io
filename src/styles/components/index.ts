@@ -9,6 +9,7 @@ import Shortcuts from './shortcuts';
 import Tags from './tags.module.scss';
 import Timeline from './timeline.module.scss';
 import View from './view';
+import World from './world.module.scss';
 
 const Styles = {
   Breadcrumbs,
@@ -22,6 +23,7 @@ const Styles = {
   Tags,
   Timeline,
   View,
+  World,
 };
 
 export default Styles;

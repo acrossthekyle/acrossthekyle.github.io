@@ -12,3 +12,12 @@ export type MasonryItem = {
   title: string;
   uri: string;
 };
+
+export type Marker = {
+  isPointOfOrigin?: boolean;
+  isPrivate: boolean;
+  label?: string;
+  left: string;
+  top: string;
+  uri?: string;
+};

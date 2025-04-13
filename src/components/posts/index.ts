@@ -3,7 +3,6 @@ import Gallery from './gallery';
 import Pack from './pack';
 import Stages from './stages';
 import Stats from './stats';
-import World from './world';
 
 const Components = {
   Checklist,
@@ -11,7 +10,6 @@ const Components = {
   Pack,
   Stages,
   Stats,
-  World,
 };
 
 export default Components;

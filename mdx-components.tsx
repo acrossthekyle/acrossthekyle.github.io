@@ -4,7 +4,8 @@ import Link from 'next/link';
 
 import Components from './src/components';
 
-const { Checklist, Gallery, Pack, Stages, Stats, World } = Components.Posts;
+const { Posts, World } = Components;
+const { Checklist, Gallery, Pack, Stages, Stats } = Posts;
 
 export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
