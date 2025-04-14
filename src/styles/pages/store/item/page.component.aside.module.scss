@@ -19,7 +19,7 @@ $frame-mat-thickness: var(--frame-mat-thickness);
       content: '';
       display: block;
       inset: 0;
-      outline: 0;
+      outline: $frame-mat-thickness solid transparent;
       position: absolute;
       transition: all 0.4s ease;
       z-index: 2;
