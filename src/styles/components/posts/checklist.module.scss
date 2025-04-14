@@ -19,6 +19,7 @@
       content: '\e5ca';
       display: inline-block;
       font-family: 'Material Symbols Outlined';
+      font-size: 1.5rem;
       left: 0;
       position: absolute;
       top: -2px;
@@ -26,13 +27,8 @@
   }
 
   @include screen.small {
-    .item {
-      grid-row: span 3;
-    }
-  }
-
-  @include screen.compact {
     grid-template-columns: repeat(1, minmax(calc(100% - 0.5rem), 1fr));
+    margin: 2rem auto 1rem;
 
     .item {
       grid-row: span 2;

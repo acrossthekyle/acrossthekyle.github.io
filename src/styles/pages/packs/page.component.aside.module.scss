@@ -40,6 +40,10 @@
         margin: 1rem 1rem 1rem 0;
         position: relative;
 
+        &:last-child {
+          margin-bottom: 0;
+        }
+
         .link {
           border-left: 0.25rem solid transparent;
           padding-left: 0;

@@ -37,7 +37,7 @@
     text-align: center;
 
     .more {
-      // padding: 1rem 1.2rem;
+      font-size: 0.8rem;
       transition: all 0.4s ease;
     }
   }
@@ -58,6 +58,14 @@
   @include screen.small {
     .items {
       padding: 2rem 0 0;
+    }
+
+    .footer {
+      margin-top: 2rem;
+
+      .more {
+        padding: 1rem 1.2rem;
+      }
     }
   }
 

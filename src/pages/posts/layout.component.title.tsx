@@ -39,15 +39,10 @@ function Title({ breadcrumbs, date, pack, tags, title, uri }: Props) {
             />
           </Link>
           <div className={scss.items}>
-            <Link className={`${scss.link} ${scss.item}`.trim()} href="/me">
+            <span className={`${scss.link} ${scss.item}`.trim()}>
               Kyle Gilbert
-            </Link>
-            {date && <span className={scss.item}>{date}</span>}
-            {pack && (
-              <Link className={`${scss.link} ${scss.pack}`} href={pack}>
-                Pack
-              </Link>
-            )}
+            </span>
+            <span className={scss.item}>{date}</span>
           </div>
         </div>
       )}

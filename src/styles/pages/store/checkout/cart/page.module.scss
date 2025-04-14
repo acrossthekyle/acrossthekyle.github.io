@@ -147,6 +147,12 @@
   }
 }
 
+@include screen.small {
+  .container {
+    margin-top: 2rem;
+  }
+}
+
 @include screen.little {
   .container {
     .section {

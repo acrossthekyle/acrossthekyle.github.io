@@ -57,7 +57,7 @@ test('header search query shows results', async ({ page }) => {
   await placeholder.fill('egypt');
 
   const heading = await page.getByRole('heading', {
-    level: 4,
+    level: 2,
     name: 'Found 1',
   });
 
@@ -193,7 +193,7 @@ test('footer recent post image link navigates to post', async ({ page }) => {
   const footer = await page.locator('footer');
   const figure = await footer.locator('figure').nth(0);
   const figcaption = await figure.locator('figcaption');
-  const heading = await figcaption.getByRole('heading', { level: 2 });
+  const heading = await figcaption.getByRole('heading', { level: 3 });
   const post = await heading.textContent();
   const anchor = await figure.locator('a[href*="posts/"]').nth(0);
 
@@ -210,7 +210,7 @@ test('footer recent post heading link navigates to post', async ({ page }) => {
   const footer = await page.locator('footer');
   const figure = await footer.locator('figure').nth(0);
   const figcaption = await figure.locator('figcaption');
-  const heading = await figcaption.getByRole('heading', { level: 2 });
+  const heading = await figcaption.getByRole('heading', { level: 3 });
   const post = await heading.textContent();
   const anchor = await heading.locator('a[href*="posts/"]');
 

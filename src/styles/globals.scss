@@ -13,7 +13,7 @@
   --button-secondary-background: #17181e;
   --button-secondary-text: #ffffff;
   --button-secondary-hover-text: #17181e;
-  --checkmark: #ffdd37;
+  --checkmark: #aaaaaa;
   --copyright-text: #ffffff;
   --copyright-text-dim: #bbbbbb;
   --footer-background: #17181e;
@@ -257,10 +257,6 @@ body {
     line-height: 1.5rem;
   }
 
-  h4 {
-    // font-size: ;
-  }
-
   p {
     font-size: 1rem;
     line-height: 1.75rem;
@@ -268,7 +264,7 @@ body {
   }
 
   ul {
-    font-size: 1rem;
+    font-size: 1.125rem;
   }
 
   figure {

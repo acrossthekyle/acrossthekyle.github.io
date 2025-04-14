@@ -62,6 +62,10 @@
   }
 
   @include screen.small {
+    &[data-centered='true'] {
+      justify-content: flex-start;
+    }
+
     .breadcrumb,
     .breadcrumb:last-child {
       display: none;
@@ -74,9 +78,13 @@
     .breadcrumb {
       &:nth-child(1) {
         display: inline-block;
-        line-height: 1.25rem;
+        line-height: 1.5rem;
         margin-right: 0;
-        text-align: center;
+        text-align: left;
+
+        a {
+          display: flex;
+        }
 
         .back {
           display: inline-block;

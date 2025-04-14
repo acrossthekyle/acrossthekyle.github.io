@@ -21,10 +21,9 @@
   }
 
   .text {
-    line-height: 1.75rem;
     margin: 0 auto;
     margin-top: 1.25rem;
-    max-width: 400px;
+    max-width: 25rem;
     position: relative;
     text-align: center;
     width: auto;
@@ -89,9 +88,9 @@
     }
   }
 
-  @include screen.compact {
-    .text {
-      padding: 0 1rem;
+  @include screen.small {
+    .links {
+      margin-bottom: 1rem;
     }
   }
 }
