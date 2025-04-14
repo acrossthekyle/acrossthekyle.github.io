@@ -15,12 +15,12 @@ function Component({ onClick, units }: Props) {
       <Components.Button
         mode={units === Units.Imperial ? 'primary' : 'secondary'}
         onClick={onClick}
-        text="Imperial (oz/lbs)"
+        text="Imperial"
       />
       <Components.Button
         mode={units === Units.Metric ? 'primary' : 'secondary'}
         onClick={onClick}
-        text="Metric (g/kg)"
+        text="Metric"
       />
     </div>
   );

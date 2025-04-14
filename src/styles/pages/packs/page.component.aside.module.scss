@@ -12,16 +12,11 @@
   transition: transform 0.4s ease;
 
   .toggle {
-    align-items: center;
-    background: var(--button);
-    border-radius: 0.25rem;
-    color: var(--button-text);
     display: none;
-    height: 1.65rem;
-    padding: 1rem;
+    margin-bottom: 1rem;
 
     svg {
-      fill: var(--button-text);
+      margin-left: 0.25rem;
     }
   }
 
@@ -46,8 +41,9 @@
 
         .link {
           border-left: 0.25rem solid transparent;
-          padding-left: 0;
+          padding: 0;
           text-align: left;
+          text-transform: none;
           transition: all 0.4s ease;
 
           .header,
@@ -87,13 +83,6 @@
 
       .toggle {
         display: flex;
-        margin-bottom: 1rem;
-        position: relatve;
-
-        svg {
-          fill: var(--button-text);
-          margin-left: 0.25rem;
-        }
       }
     }
 

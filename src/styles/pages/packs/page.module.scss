@@ -23,16 +23,10 @@
 }
 
 .toggle {
-  align-items: center;
-  background: var(--button);
-  border-radius: 0.25rem;
-  color: var(--button-text);
   display: none;
-  height: 1.65rem;
-  padding: 0.5rem 0.5rem;
 
   svg {
-    fill: var(--button-text);
+    margin-right: 0.25rem;
   }
 }
 
@@ -71,10 +65,6 @@
 
     .toggle {
       display: flex;
-
-      svg {
-        margin-right: 0.25rem;
-      }
     }
 
     .heading {

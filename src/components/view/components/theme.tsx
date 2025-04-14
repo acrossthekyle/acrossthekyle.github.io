@@ -1,16 +1,16 @@
+import Button from '../../button';
+
 import { useViewModel } from './theme.viewModel';
 
 function Theme() {
   const { handleOnClick, theme } = useViewModel();
 
   return (
-    <button
-      aria-label={`switch to ${theme === 'dark' ? 'light' : 'dark'} theme`}
+    <Button
+      mode="tertiary"
       onClick={handleOnClick}
-      type="button"
-    >
-      Switch to {theme === 'dark' ? 'light' : 'dark'} theme
-    </button>
+      text={`Switch to ${theme === 'dark' ? 'light' : 'dark'} theme`}
+    />
   );
 }
 

@@ -9,10 +9,8 @@ test('loads', async ({ page }) => {
 test('toggle units', async ({ page }) => {
   await page.goto('/packs');
 
-  const imperial = await page.getByRole('button', {
-    name: 'Imperial (oz/lbs)',
-  });
-  const metric = await page.getByRole('button', { name: 'Metric (g/kg)' });
+  const imperial = await page.getByRole('button', { name: 'Imperial' });
+  const metric = await page.getByRole('button', { name: 'Metric' });
 
   const main = await page.getByRole('main');
   const base = await main.locator('ul:first-of-type li:last-of-type').nth(0);

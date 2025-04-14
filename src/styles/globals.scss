@@ -295,7 +295,12 @@ body {
   select {
     background: var(--body);
     color: var(--text);
+    font-family: var(--text-font);
     font-size: 1rem;
+  }
+
+  textarea {
+    resize: none;
   }
 
   form {

@@ -14,6 +14,7 @@ type Props = {
   onClick?: () => void;
   text: string | ReactNode;
   title?: string;
+  type?: 'button' | 'reset' | 'submit';
 };
 
 function Button({
@@ -22,6 +23,7 @@ function Button({
   onClick,
   mode = 'primary',
   text,
+  type = 'button',
   ...rest
 }: Props) {
   if (onClick) {
@@ -30,7 +32,7 @@ function Button({
         className={`${scss.button} ${className}`.trim()}
         data-mode={mode}
         onClick={onClick}
-        type="button"
+        type={type}
         {...rest}
       >
         {text}

@@ -1,5 +1,4 @@
 @use 'styles/mixins/_screen' as screen;
-@use 'styles/mixins/_on' as on;
 
 .masonry {
   .items {
@@ -35,11 +34,6 @@
   .footer {
     margin-top: 5rem;
     text-align: center;
-
-    .more {
-      font-size: 0.8rem;
-      transition: all 0.4s ease;
-    }
   }
 
   @include screen.large {
@@ -62,10 +56,6 @@
 
     .footer {
       margin-top: 2rem;
-
-      .more {
-        padding: 1rem 1.2rem;
-      }
     }
   }
 

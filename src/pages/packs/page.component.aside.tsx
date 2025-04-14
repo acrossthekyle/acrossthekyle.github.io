@@ -1,3 +1,4 @@
+import Components from '@/components';
 import Images from '@/images';
 import Styles from '@/styles';
 import type { Packs } from '@/types';
@@ -21,22 +22,32 @@ function Component({
 }: Props) {
   return (
     <aside className={scss.aside} data-browse-packs={canBrowse}>
-      <button className={scss.toggle} onClick={onViewStatsClick} type="button">
-        Back to stats <Images.Icons.Arrow right />
-      </button>
+      <Components.Button
+        className={scss.toggle}
+        mode="secondary"
+        onClick={onViewStatsClick}
+        text={
+          <>
+            Back to stats <Images.Icons.Arrow right />
+          </>
+        }
+      />
       <div className={`${scss.packs} ${canBrowse ? scss.visible : ''}`.trim()}>
         <ul>
           {(packs || []).map((pack) => (
             <li className={scss.pack} key={pack.slug}>
-              <button
+              <Components.Button
                 className={scss.link}
                 data-active={activeId === pack.slug}
+                mode="tertiary"
                 onClick={() => onPackClick(pack)}
-                type="button"
-              >
-                <p className={scss.header}>{pack.title}</p>
-                <p className={scss.type}>{pack.type}</p>
-              </button>
+                text={
+                  <>
+                    <p className={scss.header}>{pack.title}</p>
+                    <p className={scss.type}>{pack.type}</p>
+                  </>
+                }
+              />
             </li>
           ))}
         </ul>

@@ -49,13 +49,16 @@ function Page() {
               packs={packs}
             />
             <main className={scss.main} data-browse-packs={canRenderPacks}>
-              <button
+              <Components.Button
                 className={scss.toggle}
+                mode="secondary"
                 onClick={handleOnViewAllPacksClick}
-                type="button"
-              >
-                <Images.Icons.Arrow left /> All packs
-              </button>
+                text={
+                  <>
+                    <Images.Icons.Arrow left /> All packs
+                  </>
+                }
+              />
               <h2 className={scss.heading} id="title">
                 {pack.title}
               </h2>

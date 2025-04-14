@@ -1,3 +1,4 @@
+import Components from '@/components';
 import Constants from '@/constants';
 import Images from '@/images';
 import Styles from '@/styles';
@@ -45,9 +46,11 @@ function Component({
               <span
                 style={{ backgroundColor: Constants.CATEGORY_COLORS[index] }}
               />
-              <button onClick={() => onClick(category)} type="button">
-                {category}
-              </button>
+              <Components.Button
+                mode="tertiary"
+                onClick={() => onClick(category)}
+                text={category}
+              />
               <div>
                 {Utils.convertGroupWeight(weight, units)}{' '}
                 <small>{unitsLabel}</small>

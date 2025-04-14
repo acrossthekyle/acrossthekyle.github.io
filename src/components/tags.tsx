@@ -1,6 +1,6 @@
-import Link from 'next/link';
-
 import Styles from '@/styles';
+
+import Button from './button';
 
 const scss = Styles.Components.Tags;
 
@@ -12,15 +12,14 @@ type Props = {
 
 function Tags({ className = '', items, mode = 'primary' }: Props) {
   return (
-    <div className={`${scss.tags} ${className}`.trim()} data-mode={mode}>
+    <div className={`${scss.tags} ${className}`.trim()}>
       {items.map((item: string) => (
-        <Link
-          className={scss.tag}
+        <Button
           href={`/tags/${encodeURIComponent(item)}`}
           key={item}
-        >
-          {item}
-        </Link>
+          mode={mode}
+          text={item}
+        />
       ))}
     </div>
   );

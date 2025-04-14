@@ -1,19 +1,16 @@
 @use 'styles/mixins/_on' as on;
 
 .button {
+  align-items: center;
   border-radius: 0.25rem;
   display: inline-block;
   letter-spacing: 1px;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1rem 0.45rem;
   text-transform: uppercase;
   transition: background 0.3s ease-in-out;
 
   svg {
     height: 0.65rem;
-    margin-left: 0.2rem;
-    position: relative;
-    top: 1px;
-    transform: rotate(-45deg);
     width: 0.65rem;
   }
 
@@ -56,6 +53,10 @@
   &[data-mode='secondary'] {
     background: var(--button-secondary-background);
     color: var(--button-secondary-text);
+
+    svg {
+      fill: var(--button-secondary-text);
+    }
 
     @include on.hover {
       background: var(--button-hover);

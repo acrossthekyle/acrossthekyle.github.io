@@ -30,7 +30,6 @@ function Masonry({ items }: Props) {
       {shown < items.length && (
         <div className={scss.footer}>
           <Button
-            className={scss.more}
             mode="secondary"
             onClick={handleOnViewMore}
             text="Load More"

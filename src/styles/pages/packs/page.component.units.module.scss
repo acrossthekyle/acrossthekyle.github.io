@@ -1,24 +1,8 @@
-@use 'styles/mixins/_screen' as screen;
-
 .units {
   display: flex;
   justify-content: center;
 
   button {
-    font-size: 0.9rem;
     margin: 0 0.3rem 1.25rem 0.3rem;
-    padding: 0.5rem 0.5rem;
-    text-transform: none;
-    width: 9rem;
-  }
-
-  @include screen.micro {
-    .units {
-      flex-direction: column;
-
-      .unit {
-        margin-bottom: 0.75rem;
-      }
-    }
   }
 }

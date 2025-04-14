@@ -4,6 +4,8 @@ import { useForm, ValidationError } from '@formspree/react';
 
 import Styles from '@/styles';
 
+import Button from '../../button';
+
 const scss = Styles.Components.View.Components.Contact;
 
 function Contact() {
@@ -41,13 +43,12 @@ function Contact() {
             field="message"
             prefix="Message"
           />
-          <button
-            className={scss.submit}
+          <Button
+            mode="secondary"
+            onClick={() => {}}
+            text="Submit"
             type="submit"
-            disabled={state.submitting}
-          >
-            Submit
-          </button>
+          />
         </form>
       )}
     </>
