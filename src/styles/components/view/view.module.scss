@@ -39,7 +39,6 @@
           z-index: 2;
 
           a {
-            color: var(--text);
             font-family: var(--text-font);
             font-weight: 500;
             letter-spacing: 0.125rem;
@@ -82,7 +81,6 @@
                 a {
                   background: transparent;
                   border-radius: 3px;
-                  color: var(--text);
                   font-size: 0.9rem;
                   font-weight: 500;
                   letter-spacing: 0.5px;

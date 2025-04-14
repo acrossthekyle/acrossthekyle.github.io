@@ -293,6 +293,7 @@ body {
   input,
   textarea,
   select {
+    background: var(--body);
     color: var(--text);
     font-size: 1rem;
   }
