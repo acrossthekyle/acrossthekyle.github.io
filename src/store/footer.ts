@@ -16,7 +16,7 @@ type State = {
   isLoading: boolean;
   recents: Pick<Posts.Post, 'date' | 'image' | 'title' | 'uri'>[];
   tags: string[];
-}
+};
 
 type Actions = {
   actions: {
@@ -49,12 +49,17 @@ const useStore = create<State & Actions>((set, get) => ({
         }
       }
     },
-  }
+  },
 }));
 
 export const useFooterActions = () => useStore((state) => getActions(state));
 export const useFooterHasError = () => useStore((state) => getHasError(state));
-export const useFooterIsLoading = () => useStore((state) => getIsLoading(state));
-export const useFooterIsReady = () => useStore((state) => getIsReady(state) && state.tags.length > 0 && state.recents.length > 0);
+export const useFooterIsLoading = () =>
+  useStore((state) => getIsLoading(state));
+export const useFooterIsReady = () =>
+  useStore(
+    (state) =>
+      getIsReady(state) && state.tags.length > 0 && state.recents.length > 0,
+  );
 export const useFooterRecentsData = () => useStore((state) => state.recents);
 export const useFooterTagsData = () => useStore((state) => state.tags);

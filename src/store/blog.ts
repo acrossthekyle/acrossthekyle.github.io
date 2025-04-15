@@ -15,7 +15,7 @@ type State = {
   data: Posts.Post[];
   didFail: boolean;
   isLoading: boolean;
-}
+};
 
 type Actions = {
   actions: {
@@ -37,16 +37,22 @@ const useStore = create<State & Actions>((set, get) => ({
         if (!response.ok) {
           set({ didFail: true, isLoading: false, data: [] });
         } else {
-          set({ didFail: false, isLoading: false, data: await response.json() });
+          set({
+            didFail: false,
+            isLoading: false,
+            data: await response.json(),
+          });
         }
       }
     },
-  }
+  },
 }));
 
 export const useBlogActions = () => useStore((state) => getActions(state));
 export const useBlogData = () => useStore((state) => getData(state));
 export const useBlogHasError = () => useStore((state) => getHasError(state));
-export const useBlogIsEmpty = () => useStore((state) => getIsEmpty(state) && state.data.length === 0);
+export const useBlogIsEmpty = () =>
+  useStore((state) => getIsEmpty(state) && state.data.length === 0);
 export const useBlogIsLoading = () => useStore((state) => getIsLoading(state));
-export const useBlogIsReady = () => useStore((state) => getIsReady(state) && state.data.length > 0);
+export const useBlogIsReady = () =>
+  useStore((state) => getIsReady(state) && state.data.length > 0);

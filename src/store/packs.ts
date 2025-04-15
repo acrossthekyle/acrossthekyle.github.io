@@ -15,7 +15,7 @@ type State = {
   data: Packs.Pack[];
   didFail: boolean;
   isLoading: boolean;
-}
+};
 
 type Actions = {
   actions: {
@@ -37,16 +37,22 @@ const useStore = create<State & Actions>((set, get) => ({
         if (!response.ok) {
           set({ didFail: true, isLoading: false, data: [] });
         } else {
-          set({ didFail: false, isLoading: false, data: await response.json() });
+          set({
+            didFail: false,
+            isLoading: false,
+            data: await response.json(),
+          });
         }
       }
     },
-  }
+  },
 }));
 
 export const usePacksActions = () => useStore((state) => getActions(state));
 export const usePacksData = () => useStore((state) => getData(state));
 export const usePacksHasError = () => useStore((state) => getHasError(state));
-export const usePacksIsEmpty = () => useStore((state) => getIsEmpty(state) && state.data.length === 0);
+export const usePacksIsEmpty = () =>
+  useStore((state) => getIsEmpty(state) && state.data.length === 0);
 export const usePacksIsLoading = () => useStore((state) => getIsLoading(state));
-export const usePacksIsReady = () => useStore((state) => getIsReady(state) && state.data.length > 0);
+export const usePacksIsReady = () =>
+  useStore((state) => getIsReady(state) && state.data.length > 0);

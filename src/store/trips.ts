@@ -15,7 +15,7 @@ type State = {
   data: Components.Marker[];
   didFail: boolean;
   isLoading: boolean;
-}
+};
 
 type Actions = {
   actions: {
@@ -37,16 +37,22 @@ const useStore = create<State & Actions>((set, get) => ({
         if (!response.ok) {
           set({ didFail: true, isLoading: false, data: [] });
         } else {
-          set({ didFail: false, isLoading: false, data: await response.json() });
+          set({
+            didFail: false,
+            isLoading: false,
+            data: await response.json(),
+          });
         }
       }
     },
-  }
+  },
 }));
 
 export const useTripsActions = () => useStore((state) => getActions(state));
 export const useTripsData = () => useStore((state) => getData(state));
 export const useTripsHasError = () => useStore((state) => getHasError(state));
-export const useTripsIsEmpty = () => useStore((state) => getIsEmpty(state) && state.data.length === 0);
+export const useTripsIsEmpty = () =>
+  useStore((state) => getIsEmpty(state) && state.data.length === 0);
 export const useTripsIsLoading = () => useStore((state) => getIsLoading(state));
-export const useTripsIsReady = () => useStore((state) => getIsReady(state) && state.data.length > 0);
+export const useTripsIsReady = () =>
+  useStore((state) => getIsReady(state) && state.data.length > 0);

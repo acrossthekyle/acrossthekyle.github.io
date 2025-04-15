@@ -40,9 +40,7 @@ function Title({ breadcrumbs, date, pack, tags, title, uri }: Props) {
             />
           </Link>
           <div className={scss.items}>
-            <h4 className={`${scss.name} ${scss.item}`}>
-              Kyle Gilbert
-            </h4>
+            <h4 className={`${scss.name} ${scss.item}`}>Kyle Gilbert</h4>
             <span className={`${scss.item} ${scss.date}`}>{date}</span>
           </div>
         </div>

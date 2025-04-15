@@ -2,11 +2,7 @@
 
 import { useEffect } from 'react';
 
-import {
-  useTripsActions,
-  useTripsData,
-  useTripsIsReady,
-} from '@/store/trips';
+import { useTripsActions, useTripsData, useTripsIsReady } from '@/store/trips';
 import type { Components } from '@/types';
 
 type Return = {

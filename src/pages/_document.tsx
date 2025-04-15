@@ -73,8 +73,8 @@ export default function Document() {
         {/* eslint-disable-next-line @next/next/google-font-display */}
         <link
           href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
-          rel="stylesheet"/
-        >
+          rel="stylesheet"
+        />
       </Head>
       <body>
         <Main />

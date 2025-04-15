@@ -7,7 +7,11 @@ import Styles from '@/styles';
 const scss = Styles.Components.Image;
 
 const Image = forwardRef(function UiImage(
-  { canTransform = true, src, ...rest }: ImageProps & {
+  {
+    canTransform = true,
+    src,
+    ...rest
+  }: ImageProps & {
     canTransform?: boolean;
   },
   ref?: RefObject<HTMLImageElement>,
