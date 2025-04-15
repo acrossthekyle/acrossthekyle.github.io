@@ -15,12 +15,10 @@
     position: relative;
 
     &:before {
-      color: var(--checkmark);
-      content: '\e5ca';
+      content: '•';
       display: inline-block;
-      font-family: var(--material);
       font-size: 1.5rem;
-      left: 0;
+      left: 0.6rem;
       position: absolute;
       top: -2px;
     }

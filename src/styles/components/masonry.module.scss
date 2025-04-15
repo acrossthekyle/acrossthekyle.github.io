@@ -14,7 +14,7 @@
     .item {
       display: flex;
       flex-direction: column;
-      grid-row: span 14;
+      grid-row: span 16;
       position: relative;
 
       &:nth-child(1n + 1) {
@@ -41,24 +41,13 @@
     }
   }
 
-  @include screen.large {
-    .items {
-      padding: 2rem 0 0;
-    }
-  }
-
   @include screen.medium {
     .items {
       grid-template-columns: repeat(2, minmax(calc(50% - 2.5rem), 1fr));
-      padding: 2rem 0 0;
     }
   }
 
   @include screen.small {
-    .items {
-      padding: 2rem 0 0;
-    }
-
     .footer {
       margin-top: 2rem;
     }
@@ -67,23 +56,6 @@
   @include screen.compact {
     .items {
       grid-template-columns: repeat(1, minmax(calc(100% - 2.5rem), 1fr));
-      padding: 2rem 0 0;
-
-      .item {
-        grid-row: span 14;
-
-        &:nth-child(1n + 1) {
-          grid-row: span 12;
-        }
-
-        &:nth-child(2n + 1) {
-          grid-row: span 14;
-        }
-
-        &:nth-child(3n + 1) {
-          grid-row: span 16;
-        }
-      }
     }
   }
 }

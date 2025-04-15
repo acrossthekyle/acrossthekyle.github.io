@@ -54,6 +54,7 @@
   --timeline-bar: #eeeeee;
   --timeline-day: #eeeeee;
   --timeline-marker: #ffdd37;
+  --timeline-marker-inner: #ffffff;
   --travels-title-hover: #ffe66a;
   --world-marker: #f0473c;
   --world-marker-origin: #079418;
@@ -114,6 +115,7 @@
   --timeline-bar: #eeeeee;
   --timeline-day: #272727;
   --timeline-marker: #ffdd37;
+  --timeline-marker-inner: #ffffff;
   --travels-title-hover: #ffe66a;
   --world-marker: #f0473c;
   --world-marker-origin: #079418;
@@ -134,7 +136,6 @@
     Rubik, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   --domine: Domine, Georgia, serif;
-  --material: 'Material Symbols Outlined';
 
   @include screen.compact {
     --frame-aspect-ratio: 0.9;
@@ -262,6 +263,7 @@ body {
 
   p {
     font-family: var(--domine);
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1.75rem;
     margin: 0 0 1.5rem;
@@ -365,14 +367,8 @@ body {
   }
 
   @include screen.small {
-    h2 {
-      font-size: 1.6rem;
-    }
-
     p {
-      font-size: 1.15rem;
-      line-height: 1.9rem;
-      margin-bottom: 1rem;
+      font-size: 1.1rem;
     }
 
     blockquote {

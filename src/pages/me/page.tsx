@@ -21,6 +21,7 @@ function Page() {
       </div>
       <h1 className={scss.heading}>About</h1>
       <div className={scss.content}>
+        <p>{Constants.ABOUT_ME_BLURB}</p>
         <p>
           After thru-hiking trails across the globe, from the rugged paths of
           South America to the towering peaks of Nepal, I've learned one

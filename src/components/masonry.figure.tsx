@@ -47,9 +47,6 @@ function Figure({ date, image, snippet, tags, title, uri }: Props) {
               <p className={scss.preview}>
                 {truncate(snippet, { length: 156, separator: ' ' })}
                 <span aria-hidden="true">..</span>
-                <Link href={uri}>
-                  <span>more</span>
-                </Link>
               </p>
             )}
             {date && (

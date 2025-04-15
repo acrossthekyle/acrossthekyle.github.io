@@ -31,7 +31,7 @@ function getCtaText(garmin?: string) {
     return 'View Route on Garmin.com';
   }
 
-  return 'View';
+  return 'Read';
 }
 
 export const useViewModel = (): Return => {

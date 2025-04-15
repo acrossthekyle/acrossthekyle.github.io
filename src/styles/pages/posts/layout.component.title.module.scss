@@ -17,7 +17,6 @@
   }
 
   .breadcrumbs {
-    padding-bottom: 0.5rem;
     padding-top: 1.65rem;
   }
 
@@ -71,7 +70,7 @@
         }
 
         &.date {
-          opacity: 0.6;
+          opacity: 0.5;
         }
 
         &:after {
@@ -98,12 +97,6 @@
       margin-left: 0;
       margin-right: 0;
       max-width: 100%;
-
-      &:before {
-        height: 2px;
-        margin-left: -2.5rem;
-        width: 5rem;
-      }
     }
 
     .context {

@@ -2,7 +2,8 @@
 @use 'styles/mixins/_screen' as screen;
 
 .anchor {
-  padding-top: 1rem;
+  position: relative;
+  top: -7rem;
 }
 
 .container {
@@ -15,11 +16,11 @@
   &:before {
     background: var(--timeline-bar);
     content: '';
-    height: calc(100% - 2rem);
+    height: calc(100% - 5rem);
     left: 50%;
+    margin-left: -0.125rem;
     position: absolute;
-    top: -2rem;
-    width: 1px;
+    width: 0.25rem;
     z-index: 1;
   }
 
@@ -49,6 +50,21 @@
       position: absolute;
       width: 1rem;
       z-index: 2;
+
+      &:after {
+        background: var(--timeline-marker-inner);
+        border-radius: 50%;
+        content: '';
+        display: block;
+        height: 0.5rem;
+        left: 50%;
+        margin-left: -0.25rem;
+        margin-top: -0.25rem;
+        position: absolute;
+        top: 50%;
+        width: 0.5rem;
+        z-index: 3;
+      }
     }
 
     .title {
@@ -59,7 +75,7 @@
 
       span {
         display: block;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.25rem;
       }
 
       h4 {
@@ -68,7 +84,7 @@
     }
 
     .more {
-      margin-top: 1.25rem;
+      margin-top: 1rem;
     }
 
     &:nth-child(odd) {
@@ -128,12 +144,12 @@
         width: auto;
 
         span {
-          margin-bottom: 0.5rem;
+          margin-bottom: 0;
+          margin-top: 1rem;
         }
 
         .more {
           margin-bottom: 2rem;
-          margin-top: 1.5rem;
         }
       }
 
@@ -142,7 +158,6 @@
 
         .number {
           left: 3rem;
-          top: -0.9rem;
           padding-right: 0;
           position: relative;
           right: auto;
@@ -161,7 +176,6 @@
           left: 3rem;
           margin-left: 0;
           right: auto;
-          top: -0.9rem;
           z-index: 1;
         }
 

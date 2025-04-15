@@ -1,4 +1,5 @@
 @use 'styles/mixins/_on' as on;
+@use 'styles/mixins/_screen' as screen;
 
 .figure {
   display: flex;
@@ -36,39 +37,29 @@
     }
 
     .preview {
+      font-size: 0.95rem;
       line-height: 1.65rem;
-      margin-bottom: 0.75rem;
+      margin-bottom: 0.65rem;
       margin-top: 0.25rem;
-
-      a {
-        padding-left: 0.25rem;
-
-        span:last-child {
-          text-decoration: underline;
-          text-decoration-style: dashed;
-          text-decoration-color: var(--button);
-          text-underline-offset: 0.15rem;
-        }
-      }
     }
 
     .context {
       align-items: center;
       display: flex;
       flex-direction: row;
-      font-size: 0.85rem;
-      margin-bottom: 1rem;
+      font-size: 0.75rem;
+      margin-bottom: 0.5rem;
       position: relative;
       text-transform: uppercase;
       width: auto;
 
       .author {
         border-radius: 50%;
-        height: 1.75rem;
+        height: 1.5rem;
         margin-right: 0.5rem;
         opacity: 0.75;
         overflow: hidden;
-        width: 1.75rem;
+        width: 1.5rem;
       }
 
       .info {
@@ -77,7 +68,7 @@
 
         .divider {
           display: inline-block;
-          margin: 0 0.5rem;
+          margin: 0 0.25rem;
         }
       }
     }
@@ -86,5 +77,41 @@
   &[data-in-view='true'] {
     opacity: 1;
     top: 0;
+  }
+
+  @include screen.small {
+    .caption {
+      .preview {
+        font-size: 1rem;
+        margin-bottom: 0.75rem;
+        margin-top: 0.5rem;
+      }
+
+      .context {
+        align-items: unset;
+        flex-grow: 1;
+        font-size: 0.85rem;
+        margin-bottom: 1rem;
+
+        .author {
+          height: 1.9rem;
+          width: 1.9rem;
+        }
+
+        .info {
+          align-items: flex-start;
+          flex-direction: column;
+          justify-content: space-between;
+
+          .divider {
+            display: none;
+          }
+
+          time {
+            opacity: 0.5;
+          }
+        }
+      }
+    }
   }
 }
