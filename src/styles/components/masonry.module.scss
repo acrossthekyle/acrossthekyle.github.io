@@ -4,8 +4,8 @@
   .items {
     display: grid;
     grid-auto-rows: 1rem;
-    grid-gap: 2rem;
-    grid-template-columns: repeat(3, minmax(calc(33% - 4rem), 1fr));
+    grid-gap: 1.25rem;
+    grid-template-columns: repeat(3, minmax(calc(33% - 2.5rem), 1fr));
     margin: 0 auto;
     max-width: var(--max-width);
     padding-top: 2rem;
@@ -18,15 +18,15 @@
       position: relative;
 
       &:nth-child(1n + 1) {
-        grid-row: span 12;
+        grid-row: span 16;
       }
 
       &:nth-child(2n + 1) {
-        grid-row: span 15;
+        grid-row: span 19;
       }
 
       &:nth-child(3n + 1) {
-        grid-row: span 17;
+        grid-row: span 22;
       }
     }
   }
@@ -34,6 +34,11 @@
   .footer {
     margin-top: 5rem;
     text-align: center;
+
+    button {
+      padding-bottom: 1rem;
+      padding-top: 1rem;
+    }
   }
 
   @include screen.large {

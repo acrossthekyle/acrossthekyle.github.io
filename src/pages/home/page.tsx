@@ -18,6 +18,7 @@ function Page() {
         <Link aria-hidden="true" className={scss.image} href="/me">
           <Components.Image
             alt=""
+            canTransform={false}
             height={432}
             sizes="25vw"
             src={Constants.ME_URL}

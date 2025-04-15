@@ -2,18 +2,11 @@
 
 .tags {
   a {
-    font-size: 0.7rem;
     margin-bottom: 0.25rem;
     margin-right: 0.25rem;
 
     &:last-child {
       margin-right: 0;
-    }
-  }
-
-  @include screen.small {
-    a {
-      font-size: 0.85rem;
     }
   }
 }

@@ -11,7 +11,7 @@ import Image from './image';
 import Tags from './tags';
 import { useViewModel } from './masonry.figure.viewModel';
 
-const scss = Styles.Components.Figure;
+const scss = Styles.Components.MasonryFigure;
 
 type Props = Components.MasonryItem;
 
@@ -24,7 +24,7 @@ function Figure({ date, image, snippet, tags, title, uri }: Props) {
         <figure className={scss.figure} data-in-view={hasEnteredView}>
           <Link
             aria-describedby={uuid}
-            className={scss.image}
+            className={scss.link}
             href={uri}
             ref={ref}
           >
@@ -46,8 +46,8 @@ function Figure({ date, image, snippet, tags, title, uri }: Props) {
             {snippet && (
               <p className={scss.preview}>
                 {truncate(snippet, { length: 156, separator: ' ' })}
+                <span aria-hidden="true">..</span>
                 <Link href={uri}>
-                  <span aria-hidden="true">..</span>
                   <span>more</span>
                 </Link>
               </p>
@@ -62,6 +62,7 @@ function Figure({ date, image, snippet, tags, title, uri }: Props) {
                   <Image
                     alt=""
                     aria-hidden="true"
+                    canTransform={false}
                     height={20}
                     quality={30}
                     sizes="5vw"
@@ -72,7 +73,7 @@ function Figure({ date, image, snippet, tags, title, uri }: Props) {
                 <div className={scss.info}>
                   <span aria-hidden="true">Kyle Gilbert</span>
                   <span aria-hidden="true" className={scss.divider}>
-                    •
+                    /
                   </span>
                   <time>{date}</time>
                 </div>

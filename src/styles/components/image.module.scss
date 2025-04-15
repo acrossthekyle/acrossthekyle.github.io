@@ -1,3 +1,50 @@
+@use 'styles/mixins/_on' as on;
+@use 'styles/mixins/_screen' as screen;
+
+.image {
+  border-radius: 0.125rem;
+  display: block;
+  height: 100%;
+  position: relative;
+
+  &[data-can-transform="true"] {
+    overflow: hidden;
+
+    img {
+      transition: all 0.75s ease;
+      transform: scale(1);
+      transform-origin: center;
+    }
+
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      inset: 0;
+      background-color: var(--image-hover-background);
+      transition: all 0.4s ease-in-out;
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    @include on.hover {
+      img {
+        transform: scale(1.05);
+      }
+
+      &:after {
+        transition: all 0.4s ease-in-out;
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+
+  @include screen.small {
+    border-radius: 0.5rem;
+  }
+}
+
 .skeleton {
   background: var(--skeleton-background);
   height: 100%;

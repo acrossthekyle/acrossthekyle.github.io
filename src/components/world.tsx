@@ -28,7 +28,7 @@ function World({ className = '', markers }: Props) {
         >
           <Image
             alt="world map"
-            className={scss.image}
+            canTransform={false}
             height={1080}
             quality={10}
             sizes="100vw"

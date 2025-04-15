@@ -35,7 +35,8 @@
     "recma-mdx-displayname": "^0.4.1",
     "stripe": "^18.0.0",
     "ts-node": "^10.9.2",
-    "uuid": "^10.0.0"
+    "uuid": "^10.0.0",
+    "zustand": "^5.0.3"
   },
   "devDependencies": {
     "@playwright/test": "^1.47.2",

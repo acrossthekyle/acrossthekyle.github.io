@@ -5,16 +5,14 @@
   }
 
   .add {
+    margin-bottom: 1rem;
     margin-top: 1rem;
     padding: 1rem 0;
     width: 100%;
   }
 
   .disclaimer {
-    display: block;
     line-height: 1.25rem;
-    margin-top: 0.75rem;
-    text-align: left;
-    width: 100%;
+    font-style: italic;
   }
 }

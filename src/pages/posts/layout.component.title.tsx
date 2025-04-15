@@ -31,6 +31,7 @@ function Title({ breadcrumbs, date, pack, tags, title, uri }: Props) {
             <Components.Image
               alt=""
               aria-hidden="true"
+              canTransform={false}
               height={24}
               quality={20}
               sizes="10vw"
@@ -39,10 +40,10 @@ function Title({ breadcrumbs, date, pack, tags, title, uri }: Props) {
             />
           </Link>
           <div className={scss.items}>
-            <span className={`${scss.link} ${scss.item}`.trim()}>
+            <h4 className={`${scss.name} ${scss.item}`}>
               Kyle Gilbert
-            </span>
-            <span className={scss.item}>{date}</span>
+            </h4>
+            <span className={`${scss.item} ${scss.date}`}>{date}</span>
           </div>
         </div>
       )}

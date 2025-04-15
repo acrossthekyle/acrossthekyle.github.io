@@ -32,12 +32,10 @@
     .number {
       color: var(--timeline-day);
       font-size: 3.25rem;
-      font-weight: 900;
       left: 0;
       opacity: 1;
-      top: -1rem;
+      top: -0.25rem;
       position: absolute;
-      text-transform: uppercase;
       width: 50%;
       z-index: 1;
     }

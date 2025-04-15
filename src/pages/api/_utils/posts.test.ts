@@ -89,7 +89,7 @@ describe('_utils/posts', () => {
       'playing tourist in geneva, switzerland',
     );
     expect(result[3].title.toLowerCase()).toContain(
-      'conquering the great hike of corsica, france',
+      `europe's toughest trek: the great hike of corsica`,
     );
     expect(result[4].title.toLowerCase()).toContain(
       'welcoming the new year as we explored the land of egypt',

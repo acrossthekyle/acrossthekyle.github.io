@@ -16,6 +16,8 @@
       "@/images/*": ["images/*"],
       "@/models": ["models/"],
       "@/models/*": ["models/*"],
+      "@/store": ["store/"],
+      "@/store/*": ["store/*"],
       "@/styles": ["styles/"],
       "@/styles/*": ["styles/*"],
       "@/types": ["types/"],

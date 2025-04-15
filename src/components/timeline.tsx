@@ -28,9 +28,9 @@ function Timeline({ indexPrefix, segments }: Props) {
             index: number,
           ) => (
             <div className={scss.block} key={`segment-${index}`}>
-              <span className={scss.number}>
+              <h3 className={scss.number}>
                 {`${indexPrefix || ''} ${String(index + 1).padStart(2, '0')}`.trim()}
-              </span>
+              </h3>
               <div aria-hidden="true" className={scss.marker} />
               <div className={scss.title}>
                 {eyeBrow && <span>{eyeBrow}</span>}

@@ -32,10 +32,6 @@ function Page() {
   return (
     <Components.View element="div" title="Packs">
       <h1 className={scss.heading}>Packs</h1>
-      <p className={scss.paragraph}>
-        Every trip is different, with its own set of gear. Here are my loadouts
-        that I bring with me on each of my thru-hikes.
-      </p>
       <Units onClick={handleOnUnitsClick} units={units} />
       <div className={scss.container}>
         {isLoading && <Components.Loading />}

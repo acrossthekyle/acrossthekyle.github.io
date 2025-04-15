@@ -2,7 +2,12 @@
 
 import { useEffect } from 'react';
 
-import Hooks from '@/hooks';
+import {
+  useBlogActions,
+  useBlogData,
+  useBlogIsLoading,
+  useBlogIsReady,
+} from '@/store/blog';
 import type { Posts } from '@/types';
 
 type Return = {
@@ -12,17 +17,19 @@ type Return = {
 };
 
 export const useViewModel = (): Return => {
-  const { data, fetchData, isLoading, isReady } = Hooks.useApi();
+  const { get } = useBlogActions();
+  const isLoading = useBlogIsLoading();
+  const isReady = useBlogIsReady();
+  const items = useBlogData();
 
   useEffect(() => {
-    fetchData('posts');
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+    get();
+  }, [get]);
 
   return {
     isLoading,
     isReady,
-    items: data || [],
+    items,
   };
 };
 

@@ -21,18 +21,6 @@ function Page() {
 
   return (
     <Components.View title="Store | Cart">
-      <Components.Breadcrumbs
-        shouldAlignCenter={false}
-        items={[
-          {
-            text: 'Store',
-            uri: '/store',
-          },
-          {
-            text: 'Cart',
-          },
-        ]}
-      />
       {isLoading && <Components.Loading />}
       {isReady && (
         <div className={scss.container}>
@@ -44,7 +32,7 @@ function Page() {
           ) : (
             <>
               <div className={scss.header}>
-                <h1>Total</h1>
+                <h1>Cart</h1>
                 <p>${total}</p>
                 <Components.Button
                   href="/store/checkout/confirm"
@@ -75,7 +63,7 @@ function Page() {
                         </Link>
                       </div>
                       <div className={scss.description}>
-                        <div className={scss.name}>
+                        <div>
                           <h2>
                             <Link href={item.uri}>{item.name}</Link>
                           </h2>

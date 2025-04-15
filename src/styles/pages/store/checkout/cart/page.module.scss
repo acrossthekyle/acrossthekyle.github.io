@@ -9,12 +9,7 @@
     text-align: center;
 
     h2 {
-      font-weight: 400;
       margin-bottom: 2rem;
-    }
-
-    a {
-      text-transform: none;
     }
   }
 
@@ -22,10 +17,6 @@
     margin: 0 auto 4rem;
     position: relative;
     text-align: center;
-
-    a {
-      text-transform: none;
-    }
   }
 
   .section {
@@ -48,6 +39,7 @@
           right: 0;
           text-align: center;
           top: 0;
+          z-index: 2;
 
           svg {
             fill: var(--text);
@@ -64,12 +56,6 @@
         justify-content: space-between;
         margin-left: 1.25rem;
 
-        .name {
-          h2 {
-            font-weight: 400;
-          }
-        }
-
         .attributes {
           ul {
             display: flex;
@@ -80,6 +66,7 @@
             li {
               align-items: center;
               display: flex;
+              font-size: 1rem;
               margin-right: 1rem;
               position: relative;
 

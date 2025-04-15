@@ -9,17 +9,17 @@ const scss = Styles.Pages.Me.Page;
 function Page() {
   return (
     <Components.View title="About">
-      <h1 className={scss.heading}>About</h1>
-      <p className={scss.paragraph}>{Constants.ABOUT_ME_BLURB}</p>
       <div className={scss.image}>
         <Components.Image
           alt=""
+          canTransform={false}
           height={432}
           sizes="25vw"
           src="2024/06/28/9a2687f2-7a78-497d-87ca-3356ccd0fa36.jpeg"
           width={768}
         />
       </div>
+      <h1 className={scss.heading}>About</h1>
       <div className={scss.content}>
         <p>
           After thru-hiking trails across the globe, from the rugged paths of

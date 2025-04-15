@@ -21,6 +21,7 @@
     }
 
     .category {
+      font-family: var(--rubik);
       list-style: none;
       margin: 0;
       padding: 0;
@@ -62,6 +63,7 @@
         .name,
         .weight {
           flex: 1;
+          font-size: 1rem;
           text-transform: capitalize;
         }
 
@@ -95,6 +97,7 @@
 
       .total {
         display: flex;
+        font-size: 1rem;
         justify-content: flex-end;
 
         .weight {

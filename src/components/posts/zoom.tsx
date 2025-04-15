@@ -16,6 +16,7 @@ function Zoom(props: Props) {
     <Image
       alt=""
       {...props}
+      canTransform={false}
       data-zoom={isActive ? (isZoomed === false ? 'false' : 'true') : 'false'}
       onClick={handleOnClick}
       ref={imageRef}

@@ -74,22 +74,31 @@ export default function handler(
 
   const hasStage = stage !== undefined;
 
+  const breadcrumbs = [
+    {
+      text: 'Blog',
+      uri: '/',
+    },
+    {
+      text: hasStage ? post.title : `${post.tags[0]}s`,
+      uri: hasStage ? post.uri : `/tags/${post.tags[0]}`,
+    },
+  ];
+
+  if (hasStage) {
+    breadcrumbs.push({
+      text: 'Timeline',
+      uri: `${post.uri}#timeline`,
+    });
+
+    breadcrumbs.push({
+      text: `Day ${day}`,
+      uri: undefined,
+    });
+  }
+
   response.status(200).json({
-    breadcrumbs: hasStage
-      ? [
-          {
-            text: post.title,
-            uri: post.uri,
-          },
-          {
-            text: 'Timeline',
-            uri: `${post.uri}#timeline`,
-          },
-          {
-            text: `Day ${day}`,
-          },
-        ]
-      : undefined,
+    breadcrumbs,
     date: stage?.dateFull || post.date,
     pack: post.gear,
     hasStage,

@@ -1,7 +1,7 @@
 @use 'styles/mixins/_screen' as screen;
 
 .heading {
-  margin: 0 auto 2.25rem;
+  margin: 1.25rem auto 2.25rem;
   position: relative;
 }
 
@@ -32,5 +32,10 @@
   a {
     text-decoration: underline;
     text-underline-offset: 0.15rem;
+  }
+
+  h2 {
+    margin-bottom: 1.75rem;
+    margin-top: 3rem;
   }
 }

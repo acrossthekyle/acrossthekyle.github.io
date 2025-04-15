@@ -1,4 +1,3 @@
-@use 'styles/mixins/_screen' as screen;
 @use 'styles/mixins/_on' as on;
 
 .figure {
@@ -10,31 +9,9 @@
   top: 3rem;
   transition: all 0.4s ease-in-out;
 
-  .image {
-    border-radius: 0.125rem;
+  .link {
     display: block;
     height: 100%;
-    overflow: hidden;
-    position: relative;
-
-    &:after {
-      content: '';
-      display: block;
-      position: absolute;
-      inset: 0;
-      background-color: var(--image-hover-background);
-      transition: all 0.4s ease-in-out;
-      opacity: 0;
-      visibility: hidden;
-    }
-
-    @include on.hover {
-      &:after {
-        transition: all 0.4s ease-in-out;
-        opacity: 1;
-        visibility: visible;
-      }
-    }
   }
 
   .caption {
@@ -59,10 +36,13 @@
     }
 
     .preview {
-      margin-bottom: 1rem;
-      margin-top: 0.75rem;
+      line-height: 1.65rem;
+      margin-bottom: 0.75rem;
+      margin-top: 0.25rem;
 
       a {
+        padding-left: 0.25rem;
+
         span:last-child {
           text-decoration: underline;
           text-decoration-style: dashed;
@@ -76,8 +56,10 @@
       align-items: center;
       display: flex;
       flex-direction: row;
+      font-size: 0.85rem;
       margin-bottom: 1rem;
       position: relative;
+      text-transform: uppercase;
       width: auto;
 
       .author {
@@ -104,11 +86,5 @@
   &[data-in-view='true'] {
     opacity: 1;
     top: 0;
-  }
-
-  @include screen.small {
-    .image {
-      border-radius: 0.5rem;
-    }
   }
 }

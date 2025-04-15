@@ -58,11 +58,11 @@ function Footer() {
                   </span>
                   <figcaption className={scss.caption}>
                     <span className={scss.date}>{date}</span>
-                    <h3 id={`recent${index}`}>
+                    <h4 className={scss.heading} id={`recent${index}`}>
                       <Link className={scss.title} href={uri}>
                         {title}
                       </Link>
-                    </h3>
+                    </h4>
                   </figcaption>
                 </figure>
               ))}

@@ -26,22 +26,7 @@ function Page() {
 
   return (
     <Components.View title="Shop | Checkout">
-      <Components.Breadcrumbs
-        shouldAlignCenter={false}
-        items={[
-          {
-            text: 'Store',
-            uri: '/store',
-          },
-          {
-            text: 'Cart',
-            uri: '/store/checkout/cart',
-          },
-          {
-            text: 'Checkout',
-          },
-        ]}
-      />
+      <h1 className={scss.header}>Checkout</h1>
       <div className={scss.checkout} id="checkout">
         <EmbeddedCheckoutProvider
           stripe={stripe}

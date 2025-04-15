@@ -8,7 +8,7 @@ export default function Document() {
         <meta name="author" content="Kyle Gilbert" />
         <meta
           name="description"
-          content="I'm a thru-hiker/programmer based in Chicago with my partner and our dog Dax."
+          content="I'm a backpacker/programmer based in Chicago with my partner and our dog Dax."
         />
         <meta name="format-detection" content="telephone=no" />
         <meta name="format-detection" content="address=no" />
@@ -27,10 +27,10 @@ export default function Document() {
         <meta name="theme-color" content="#ffffff" />
         <meta name="msapplication-navbutton-color" content="#ffffff" />
 
-        <meta property="og:title" content="Kyle - Thru-hiker/Programmer" />
+        <meta property="og:title" content="Kyle - Backpacker/Programmer" />
         <meta
           property="og:description"
-          content="I'm a thru-hiker/programmer based in Chicago with my partner and our dog Dax."
+          content="I'm a backpacker/programmer based in Chicago with my partner and our dog Dax."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.acrossthekyle.com" />
@@ -72,9 +72,9 @@ export default function Document() {
         />
         {/* eslint-disable-next-line @next/next/google-font-display */}
         <link
-          href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;500&display=swap"
-          rel="stylesheet"
-        />
+          href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+          rel="stylesheet"/
+        >
       </Head>
       <body>
         <Main />

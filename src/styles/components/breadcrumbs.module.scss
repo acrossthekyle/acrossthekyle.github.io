@@ -5,6 +5,7 @@
   justify-content: flex-start;
   background: var(--body);
   display: flex;
+  font-size: 1rem;
   list-style: none;
   margin: 0 auto;
   padding: 0;
@@ -16,19 +17,21 @@
 
   .breadcrumb {
     display: flex;
-    margin-right: 2rem;
+    font-family: var(--rubik);
+    margin-right: 1.5rem;
     max-width: 100%;
     position: relative;
+    text-transform: capitalize;
     width: auto;
 
     a {
       display: inline-block;
+      text-decoration-color: var(--travels-title-hover) !important;
       transition: all 0.3s ease;
 
       @include on.hover {
-        box-shadow:
-          0 -1px var(--body) inset,
-          0 -3px var(--travels-title-hover) inset;
+        text-decoration: underline;
+        text-underline-offset: 2px;
       }
     }
 
@@ -47,7 +50,7 @@
       color: var(--text-dimmed);
       display: block;
       position: absolute;
-      right: -1.3rem;
+      right: -1.05rem;
       top: 0;
     }
 
@@ -75,10 +78,10 @@
     }
 
     .breadcrumb {
-      &:nth-child(1) {
+      &:nth-child(1),
+      &:nth-child(2) {
         display: inline-block;
         line-height: 1.5rem;
-        margin-right: 0;
         text-align: left;
 
         a {
@@ -86,7 +89,13 @@
         }
 
         .back {
-          display: inline-block;
+          display: none;
+        }
+      }
+
+      &:nth-child(1) {
+        .divider {
+          display: block;
         }
       }
     }

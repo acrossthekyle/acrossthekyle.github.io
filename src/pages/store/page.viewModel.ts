@@ -2,7 +2,12 @@
 
 import { useEffect } from 'react';
 
-import Hooks from '@/hooks';
+import {
+  useStoreActions,
+  useStoreData,
+  useStoreIsLoading,
+  useStoreIsReady,
+} from '@/store/store';
 import type { Store } from '@/types';
 
 type Return = {
@@ -12,17 +17,19 @@ type Return = {
 };
 
 export const useViewModel = (): Return => {
-  const { data, fetchData, isLoading, isReady } = Hooks.useApi();
+  const { get } = useStoreActions();
+  const isLoading = useStoreIsLoading();
+  const isReady = useStoreIsReady();
+  const items = useStoreData();
 
   useEffect(() => {
-    fetchData('store/items');
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+    get();
+  }, [get]);
 
   return {
     isLoading,
     isReady,
-    items: data || [],
+    items,
   };
 };
 

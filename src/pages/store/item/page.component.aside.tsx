@@ -16,6 +16,7 @@ function Aside({ color, frame, image, name }: Props) {
       <div className={scss.image} data-frame={frame} data-frame-color={color}>
         <Components.Image
           alt={name}
+          canTransform={false}
           height={432}
           sizes="(max-width: 768px) 100vw, 50vw"
           src={image}

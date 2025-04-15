@@ -2,7 +2,13 @@
 
 import { useEffect } from 'react';
 
-import Hooks from '@/hooks';
+import {
+  useFooterActions,
+  useFooterIsLoading,
+  useFooterIsReady,
+  useFooterRecentsData,
+  useFooterTagsData,
+} from '@/store/footer';
 import type { Posts } from '@/types';
 
 type Return = {
@@ -15,32 +21,23 @@ type Return = {
 };
 
 export const useViewModel = (): Return => {
-  const {
-    data: tags,
-    fetchData: fetchTags,
-    isLoading: isTagsLoading,
-    isReady: isTagsReady,
-  } = Hooks.useApi();
+  const { get } = useFooterActions();
 
-  const {
-    data: posts,
-    fetchData: fetchPosts,
-    isLoading: isPostsLoading,
-    isReady: isPostsReady,
-  } = Hooks.useApi();
+  const isLoading = useFooterIsLoading();
+  const isReady = useFooterIsReady();
+  const recents = useFooterRecentsData();
+  const tags = useFooterTagsData();
 
   useEffect(() => {
-    fetchTags('tags');
-    fetchPosts('posts/recent');
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+    get();
+  }, [get]);
 
   return {
-    isPostsLoading,
-    isPostsReady,
-    isTagsLoading,
-    isTagsReady,
-    posts,
+    isPostsLoading: isLoading,
+    isPostsReady: isReady,
+    isTagsLoading: isLoading,
+    isTagsReady: isReady,
+    posts: recents,
     tags,
   };
 };

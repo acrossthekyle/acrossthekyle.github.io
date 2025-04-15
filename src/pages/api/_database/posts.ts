@@ -9,7 +9,7 @@ const GARMIN_URL = 'https://connect.garmin.com/modern/activity/';
 /************************/
 
 const post19 = {
-  date: 'July 27th, 2024',
+  date: '27 July 2024',
   gear: '/packs',
   image: '2024/07/27/3.2-08F64C62-7FB2-4077-B012-00FB6EEF90CB.jpeg',
   isPrivate: false,
@@ -108,7 +108,7 @@ const post19 = {
 /************************/
 
 const post18 = {
-  date: 'June 21st, 2023',
+  date: '21 June 2023',
   gear: '/packs',
   image: '2023/06/21/273b1f88-962f-4011-8797-d21c640e73ff.jpeg',
   isPrivate: false,
@@ -200,7 +200,7 @@ const post18 = {
     },
   ],
   tags: ['thru-hike'],
-  title: 'Conquering the Great Hike of Corsica, France',
+  title: `Europe's Toughest Trek: The Great Hike of Corsica`,
   titleShort: 'Great Hike of Corsica',
   uri: '/posts/the-great-hike-of-corsica',
 };

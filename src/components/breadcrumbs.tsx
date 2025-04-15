@@ -38,7 +38,7 @@ function Breadcrumbs({
           )}
           {!uri && <span>{text}</span>}
           <span aria-hidden="true" className={scss.divider}>
-            <Images.Icons.Arrow right />
+            /
           </span>
         </li>
       ))}

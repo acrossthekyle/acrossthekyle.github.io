@@ -22,6 +22,8 @@ const config: Config = {
     '^@/images/(.*)$': '<rootDir>/src/images/$1',
     '^@/models': '<rootDir>/src/models/',
     '^@/models/(.*)$': '<rootDir>/src/models/$1',
+    '^@/store': '<rootDir>/src/store/',
+    '^@/store/(.*)$': '<rootDir>/src/store/$1',
     '^@/styles': '<rootDir>/src/styles/',
     '^@/styles/(.*)$': '<rootDir>/src/styles/$1',
     '^@/types': '<rootDir>/src/types/',

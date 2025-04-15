@@ -7,25 +7,27 @@ import Styles from '@/styles';
 const scss = Styles.Components.Image;
 
 const Image = forwardRef(function UiImage(
-  props: ImageProps,
+  { canTransform = true, src, ...rest }: ImageProps & {
+    canTransform?: boolean;
+  },
   ref?: RefObject<HTMLImageElement>,
 ) {
   const [isLoaded, setIsLoaded] = useState(false);
 
   return (
-    <>
+    <div className={scss.image} data-can-transform={canTransform}>
       {!isLoaded && <div aria-hidden="true" className={scss.skeleton} />}
       <NextJsImage
         quality={80}
-        {...props}
+        {...rest}
         onLoad={() => setIsLoaded(true)}
         loader={({ src, width, quality }) =>
           `${src}${src.includes('updatedAt') ? '&' : '?'}tr=w-${width}&q-${quality}`
         }
         ref={ref}
-        src={`${Constants.IMAGE_BASE_URL}${props.src}`}
+        src={`${Constants.IMAGE_BASE_URL}${src}`}
       />
-    </>
+    </div>
   );
 });
 

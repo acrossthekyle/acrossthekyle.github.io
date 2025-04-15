@@ -12,6 +12,7 @@ function Hero({ image }: Props) {
     <div className={scss.hero}>
       <Components.Image
         alt="hero"
+        canTransform={false}
         height={1080}
         sizes="80vw"
         src={image}

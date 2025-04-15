@@ -66,7 +66,7 @@ function Form({
         text="Add to cart"
       />
       <small className={scss.disclaimer}>
-        Image shown is preview-only, actual amount of photo space cropped on
+        * Image shown is preview-only, actual amount of photo space cropped on
         final product may vary
       </small>
     </form>

@@ -15,27 +15,27 @@ function Stats({ gain, garmin, loss, miles, steps }: Props) {
   return (
     <>
       <div className={scss.stats}>
-        <span className={scss.stat}>
+        <h2 className={scss.stat}>
           {new Intl.NumberFormat().format(Number(miles))}
           <span className={scss.label}>Miles</span>
-        </span>
-        <span className={scss.stat}>
+        </h2>
+        <h2 className={scss.stat}>
           {new Intl.NumberFormat().format(Number(steps))}
           <span className={scss.label}>Steps</span>
-        </span>
+        </h2>
         {gain && (
-          <span className={scss.stat}>
+          <h2 className={scss.stat}>
             {new Intl.NumberFormat().format(Number(gain))}
             <small>ft</small>
             <span className={scss.label}>Ascent</span>
-          </span>
+          </h2>
         )}
         {loss && (
-          <span className={scss.stat}>
+          <h2 className={scss.stat}>
             {new Intl.NumberFormat().format(Number(loss))}
             <small>ft</small>
             <span className={scss.label}>Descent</span>
-          </span>
+          </h2>
         )}
       </div>
       {garmin && (

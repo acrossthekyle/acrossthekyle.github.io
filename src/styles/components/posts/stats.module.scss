@@ -12,9 +12,8 @@
 
   .stat {
     align-items: center;
-    font-size: 1.5rem;
-    font-weight: bold;
     margin: 0 2.5rem;
+    padding: 0;
     text-align: center;
 
     small {
@@ -26,9 +25,8 @@
     .label {
       display: block;
       font-size: 0.75rem;
-      font-weight: 400;
-      margin-top: 0.65rem;
-      text-transform: uppercase;
+      font-weight: normal;
+      line-height: 1rem;
     }
   }
 
@@ -40,20 +38,8 @@
     margin: 3rem auto 2.5rem;
 
     .stat {
-      font-size: 1.75rem;
       grid-row: span 1;
-      letter-spacing: -0.1rem;
       margin: 0 1rem;
-
-      small {
-        letter-spacing: 0;
-      }
-
-      .label {
-        font-size: 0.9rem;
-        letter-spacing: 0;
-        margin-top: 0.5rem;
-      }
     }
   }
 }
@@ -66,7 +52,6 @@
   .garmin {
     display: block;
     font-size: 0.7rem;
-    text-transform: uppercase;
 
     @include on.hover {
       text-decoration: underline;

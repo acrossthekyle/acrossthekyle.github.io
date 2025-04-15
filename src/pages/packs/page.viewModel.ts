@@ -3,7 +3,12 @@
 import { useCallback, useEffect, useState } from 'react';
 
 import Constants from '@/constants';
-import Hooks from '@/hooks';
+import {
+  usePacksActions,
+  usePacksData,
+  usePacksIsLoading,
+  usePacksIsReady,
+} from '@/store/packs';
 import type { Packs } from '@/types';
 import { Units } from '@/types/packs';
 import Utils from '@/utils';
@@ -26,17 +31,19 @@ type Return = {
 };
 
 export const useViewModel = (): Return => {
-  const { data, fetchData, isLoading, isReady } = Hooks.useApi();
-
   const [pack, setPack] = useState<Packs.Pack | undefined>();
   const [hoveredCategory, setHoveredCategory] = useState('');
   const [units, setUnits] = useState(Units.Imperial);
   const [canRenderPacks, setCanRenderPacks] = useState(false);
 
+  const { get } = usePacksActions();
+  const isLoading = usePacksIsLoading();
+  const isReady = usePacksIsReady();
+  const data = usePacksData();
+
   useEffect(() => {
-    fetchData('packs', undefined, '1744557413');
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+    get();
+  }, [get]);
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
@@ -130,7 +137,7 @@ export const useViewModel = (): Return => {
     isLoading,
     isReady,
     pack,
-    packs: data || [],
+    packs: data,
     units,
   };
 };

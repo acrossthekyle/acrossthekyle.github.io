@@ -13,10 +13,6 @@ function Page() {
   return (
     <Components.View title="Store">
       <h1 className={scss.heading}>Store</h1>
-      <p className={scss.paragraph}>
-        These prints for purchase are inspired by this planet, and captured by
-        me, while marching through forests and over mountains.
-      </p>
       {isLoading && <Components.Loading />}
       {isReady && (
         <div className={scss.items}>

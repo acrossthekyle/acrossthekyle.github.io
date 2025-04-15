@@ -2,7 +2,11 @@
 
 import { useEffect } from 'react';
 
-import Hooks from '@/hooks';
+import {
+  useTripsActions,
+  useTripsData,
+  useTripsIsReady,
+} from '@/store/trips';
 import type { Components } from '@/types';
 
 type Return = {
@@ -11,16 +15,18 @@ type Return = {
 };
 
 export const useViewModel = (): Return => {
-  const { data, fetchData, isReady } = Hooks.useApi();
+  const { get } = useTripsActions();
+
+  const isReady = useTripsIsReady();
+  const markers = useTripsData();
 
   useEffect(() => {
-    fetchData('markers');
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+    get();
+  }, [get]);
 
   return {
     isReady,
-    markers: data || [],
+    markers,
   };
 };
 
