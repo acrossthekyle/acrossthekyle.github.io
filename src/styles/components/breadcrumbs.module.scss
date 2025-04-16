@@ -5,7 +5,7 @@
   justify-content: flex-start;
   background: var(--body);
   display: flex;
-  font-size: 1rem;
+  font-size: 0.85rem;
   list-style: none;
   margin: 0 auto;
   padding: 0;
@@ -17,11 +17,10 @@
 
   .breadcrumb {
     display: flex;
-    font-family: var(--rubik);
     margin-right: 1.5rem;
     max-width: 100%;
     position: relative;
-    text-transform: capitalize;
+    text-transform: uppercase;
     width: auto;
 
     a {
