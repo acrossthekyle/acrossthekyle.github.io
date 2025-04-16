@@ -5,6 +5,8 @@ import Components from '@/components';
 import Hero from './layout.component.hero';
 import Navigation from './layout.component.navigation';
 import Post from './layout.component.post';
+import Route from './layout.component.route';
+import Stats from './layout.component.stats';
 import Title from './layout.component.title';
 import { useViewModel } from './layout.viewModel';
 
@@ -23,6 +25,8 @@ function Layout({ children }: Props) {
     newer,
     older,
     pack,
+    route,
+    stats,
     tags,
     title,
     uri,
@@ -44,6 +48,8 @@ function Layout({ children }: Props) {
       />
       <Hero image={image} />
       <Post>
+        {stats && <Stats {...stats} />}
+        {route && <Route {...route} />}
         {children}
         {(newer || older) && (
           <Navigation

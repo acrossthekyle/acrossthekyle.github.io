@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Components from './src/components';
 
 const { Posts, World } = Components;
-const { Checklist, Gallery, Stages, Stats } = Posts;
+const { Checklist, Gallery, Stages } = Posts;
 
 export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
@@ -29,7 +29,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     },
     Checklist,
     Stages,
-    Stats,
+    Stats: () => null, // todo - remove once stats are migrated to database
     World,
     ...components,
   };

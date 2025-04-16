@@ -4,12 +4,24 @@ import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 
 import Hooks from '@/hooks';
-import type { Posts } from '@/types';
+import type { Components, Posts } from '@/types';
 import Utils from '@/utils';
 
 type Return = Omit<Posts.Post, 'titleCombined'> & {
+  breadcrumbs: Components.Breadcrumb[];
+  date: string;
+  hasStage: boolean;
+  image: string;
   isReady: boolean;
   metadata: string;
+  newer: Posts.Newer;
+  older: Posts.Older;
+  pack: string;
+  route?: Posts.Route;
+  stats?: Posts.Stats;
+  tags: string[];
+  title: string;
+  uri: string;
 };
 
 export const useViewModel = (): Return => {
@@ -34,6 +46,8 @@ export const useViewModel = (): Return => {
     newer: data?.newer,
     older: data?.older,
     pack: data?.pack || '',
+    route: data?.route,
+    stats: data?.stats,
     tags: data?.tags || [],
     title: data?.title || '',
     uri: data?.uri || '',

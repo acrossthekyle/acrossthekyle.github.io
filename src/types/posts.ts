@@ -1,10 +1,25 @@
 import type { Breadcrumb } from './components';
 
+export type Stats = {
+  gain?: number;
+  loss?: number;
+  miles: number;
+  time?: number[];
+};
+
+export type Route = {
+  id: string;
+  start: string;
+  stop: string;
+};
+
 export type Stage = {
   dateFull: string;
   dateShort: string;
   garmin?: string;
   image: string;
+  route?: string;
+  stats?: Stats;
   title: string;
 };
 
@@ -54,6 +69,8 @@ export type Post = {
   newer?: Newer;
   older?: Older;
   snippet?: string;
+  route?: Route;
+  stats?: Stats;
   tags: string[];
   title: string;
   titleCombined: string;

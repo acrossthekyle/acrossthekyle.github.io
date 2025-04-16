@@ -1,209 +1,10 @@
 import type { Posts } from '@/types';
 
+import grandRandonnee202023 from './grande-randonnee-20-2023';
+import tourDuMontBlanc2024 from './tour-du-mont-blanc-2024';
+import westHighlandWay2022 from './west-highland-way-2022';
+
 const GARMIN_URL = 'https://connect.garmin.com/modern/activity/';
-
-/************************/
-//
-// TMB 2024
-//
-/************************/
-
-const post19 = {
-  date: '27 July 2024',
-  gear: '/packs',
-  image: '2024/07/27/3.2-08F64C62-7FB2-4077-B012-00FB6EEF90CB.jpeg',
-  isPrivate: false,
-  locationFull: 'Alpes, Europe',
-  locationShort: 'Europe',
-  snippet: `I've been itching to return to the wild beauty of the European Alps and cross paths once again with an old companion in adventure \u2014 the epic Tour du Mont Blanc.`,
-  stages: [
-    {
-      dateFull: `July 27th, 2024`,
-      dateShort: `July 27th`,
-      garmin: `${GARMIN_URL}16648505816`,
-      image: ``,
-      title: `Les Houches to Auberge le Truc`,
-    },
-    {
-      dateFull: `July 28th, 2024`,
-      dateShort: `July 28th`,
-      garmin: `${GARMIN_URL}16648508499`,
-      image: ``,
-      title: `Auberge le Truc to Refuge de La Croix du Bonhomme`,
-    },
-    {
-      dateFull: `July 29th, 2024`,
-      dateShort: `July 29th`,
-      garmin: `${GARMIN_URL}16648510931`,
-      image: ``,
-      title: `Refuge de La Croix du Bonhomme to Refuge Robert Blanc`,
-    },
-    {
-      dateFull: `July 30th, 2024`,
-      dateShort: `July 30th`,
-      garmin: `${GARMIN_URL}16648513979`,
-      image: ``,
-      title: `Refuge Robert Blanc to Maison Veille`,
-    },
-    {
-      dateFull: `July 31st, 2024`,
-      dateShort: `July 31st`,
-      garmin: `${GARMIN_URL}16648516562`,
-      image: ``,
-      title: `Maison Veille to Rifugio Bonatti`,
-    },
-    {
-      dateFull: `August 1st, 2024`,
-      dateShort: `August 1st`,
-      garmin: `${GARMIN_URL}16648518987`,
-      image: ``,
-      title: `Rifugio Bonatti to Hotel Edelweiss`,
-    },
-    {
-      dateFull: `August 2nd, 2024`,
-      dateShort: `August 2nd`,
-      garmin: `${GARMIN_URL}16655300053`,
-      image: ``,
-      title: `Hotel Edelweiss to Gite Bon Abri`,
-    },
-    {
-      dateFull: `August 3rd, 2024`,
-      dateShort: `August 3rd`,
-      garmin: `${GARMIN_URL}16664831411`,
-      image: ``,
-      title: `Gite Bon Abri to Hotel Forclaz`,
-    },
-    {
-      dateFull: `August 4th, 2024`,
-      dateShort: `August 4th`,
-      garmin: `${GARMIN_URL}16680237006`,
-      image: ``,
-      title: `Hotel Forclaz to Auberge la Boerne`,
-    },
-    {
-      dateFull: `August 5th, 2024`,
-      dateShort: `August 5th`,
-      garmin: `${GARMIN_URL}16680239829`,
-      image: ``,
-      title: `Auberge la Boerne to Refuge de lo Flegere`,
-    },
-    {
-      dateFull: `August 6th, 2024`,
-      dateShort: `August 6th`,
-      garmin: `${GARMIN_URL}16719616815`,
-      image: ``,
-      title: `Refuge de lo Flegere to Les Houches`,
-    },
-  ],
-  tags: ['thru-hike'],
-  title: 'Returning to the Alpes and the Tour du Mont Blanc',
-  titleShort: 'Tour du Mont Blanc 2024',
-  uri: '/posts/returning-to-the-alps',
-};
-
-/************************/
-//
-// GR20
-//
-/************************/
-
-const post18 = {
-  date: '21 June 2023',
-  gear: '/packs',
-  image: '2023/06/21/273b1f88-962f-4011-8797-d21c640e73ff.jpeg',
-  isPrivate: false,
-  locationFull: 'Corsica, France',
-  locationShort: 'France',
-  marker: {
-    left: '46.5%',
-    top: '24%',
-  },
-  snippet: `Touted as Europe's toughest trail, the legendary GR20 was the final beast on my thru-hiking bucket list \u2014 and I was ready for the challenge.`,
-  stages: [
-    {
-      dateFull: `June 21st, 2023`,
-      dateShort: `June 21st`,
-      image: `2023/06/21/f1d1c83f-941d-4351-aa5e-08d698b78775.jpeg`,
-      title: `Calenzana to Refuge D'Ortu Di U Piobbu`,
-    },
-    {
-      dateFull: `June 22nd, 2023`,
-      dateShort: `June 22nd`,
-      image: `2023/06/21/e2d0721f-2c3f-4367-8f7b-1176c94b3e2c.jpeg`,
-      title: `Refuge D'Ortu Di U Piobbu to Refuge de Carozzu`,
-    },
-    {
-      dateFull: `June 23rd, 2023`,
-      dateShort: `June 23rd`,
-      image: `2023/06/21/4b13a3d8-a55c-4bed-b887-ad3490ab964f.jpeg`,
-      title: `Refuge de Carozzu to Ascu Stagnu`,
-    },
-    {
-      dateFull: `June 24th, 2023`,
-      dateShort: `June 24th`,
-      image: `2023/06/21/8f85de22-b937-4ea5-9dfa-e45eb357e7b8.jpeg`,
-      title: `Ascu Stagnu to Auberge U Vallone`,
-    },
-    {
-      dateFull: `June 25th, 2023`,
-      dateShort: `June 25th`,
-      image: `2023/06/21/f0dc6ac2-b0e5-4e2a-b874-0d40f47c454b.jpeg`,
-      title: `Auberge U Vallone to Hotel Castel di Vergio`,
-    },
-    {
-      dateFull: `June 26th, 2023`,
-      dateShort: `June 26th`,
-      image: `2023/06/21/95b4adaa-bbbe-4de3-b9f8-96365390f142.jpeg`,
-      title: `Hotel Castel di Vergio to Refuge de Manganu`,
-    },
-    {
-      dateFull: `June 27th, 2023`,
-      dateShort: `June 27th`,
-      image: `2023/06/21/6f292945-8f72-41b4-97d3-37ff51a6165d.jpeg`,
-      title: `Refuge de Manganu to Refuge de Petra Piana`,
-    },
-    {
-      dateFull: `June 28th, 2023`,
-      dateShort: `June 28th`,
-      image: `2023/06/21/c9234d8d-0bb4-4eb7-83a2-62ab20c741ab.jpeg`,
-      title: `Refuge de Petra Piana to Refuge de l'Onda`,
-    },
-    {
-      dateFull: `June 29th, 2023`,
-      dateShort: `June 29th`,
-      image: `2023/06/21/273b1f88-962f-4011-8797-d21c640e73ff.jpeg`,
-      title: `Refuge de l'Onda to Vizzavona`,
-    },
-    {
-      dateFull: `June 30th, 2023`,
-      dateShort: `June 30th`,
-      image: `2023/06/21/54334c14-8bae-4478-97f7-179f79cd2ca6.jpeg`,
-      title: `Vizzavona to Bocca di Verdi`,
-    },
-    {
-      dateFull: `July 1st, 2023`,
-      dateShort: `July 1st`,
-      image: `2023/06/21/73a5df9e-fefd-43d0-ad5a-7f71dcb003cc.jpeg`,
-      title: `Bocca di Verdi to Refuge d'Usciolu`,
-    },
-    {
-      dateFull: `July 2nd, 2023`,
-      dateShort: `July 2nd`,
-      image: `2023/06/21/d36a683f-4d95-4b0c-987d-d190336c49ee.jpeg`,
-      title: `Refuge d'Usciolu to Refuge d'Asinau`,
-    },
-    {
-      dateFull: `July 3rd, 2023`,
-      dateShort: `July 3rd`,
-      image: `2023/06/21/f0cd0897-3fc9-47a2-808e-e1627dfb45bc.jpeg`,
-      title: `Refuge d'Asinau to Conca`,
-    },
-  ],
-  tags: ['thru-hike'],
-  title: `Europe's Toughest Trek: The Great Hike of Corsica`,
-  titleShort: 'Great Hike of Corsica',
-  uri: '/posts/the-great-hike-of-corsica',
-};
 
 /************************/
 //
@@ -264,68 +65,6 @@ const post15 = {
   title: 'Pushing myself towards the summit of Mt. Belford',
   titleShort: 'Mt. Belford',
   uri: '/posts/struggling-up-mt-belford',
-};
-
-/************************/
-//
-// West Highland Way
-//
-/************************/
-
-const post14 = {
-  date: 'May 7th, 2022',
-  gear: '/packs',
-  image: '2022/05/07/4a15a62a-a739-4ad9-83ff-3200e16c6bd5.jpeg',
-  isPrivate: false,
-  locationFull: 'Highlands, Scotland',
-  locationShort: 'Scotland',
-  marker: {
-    left: '43.6%',
-    top: '13.4%',
-  },
-  snippet: `This trek didn't just test my limits \u2014 it soaked them. With rain nearly every day and my gear falling short, it easily became my least favorite of them all.`,
-  stages: [
-    {
-      dateFull: `May 7th, 2022`,
-      dateShort: `May 7th`,
-      image: `2022/05/07/75a8c027-07cd-4184-9157-d48dd5d1a32e.jpeg`,
-      title: `Milngavie to Drymen`,
-    },
-    {
-      dateFull: `May 8th, 2022`,
-      dateShort: `May 8th`,
-      image: `2022/05/07/e8dd9fed-56e4-45bf-aee4-d1bc44a5363c.jpeg`,
-      title: `Drymen to Sallochy`,
-    },
-    {
-      dateFull: `May 9th, 2022`,
-      dateShort: `May 9th`,
-      image: `2022/05/07/e610c340-2b8c-481c-8442-dc4543db3f2c.jpeg`,
-      title: `Sallochy to Bienglas Farm`,
-    },
-    {
-      dateFull: `May 10th, 2022`,
-      dateShort: `May 10th`,
-      image: `2022/05/07/b7df127a-0f69-4b29-843f-e1a7c6f858bf.jpeg`,
-      title: `Bienglas Farm to Bridge of Orchy`,
-    },
-    {
-      dateFull: `May 11th, 2022`,
-      dateShort: `May 11th`,
-      image: `2022/05/07/4a15a62a-a739-4ad9-83ff-3200e16c6bd5.jpeg`,
-      title: `Bridge of Orchy to Kinlochleven`,
-    },
-    {
-      dateFull: `May 12th, 2022`,
-      dateShort: `May 12th`,
-      image: `2022/05/07/07741eea-d85e-42cf-a2d4-d0f87102bffc.jpeg`,
-      title: `Kinlochleven to Fort William`,
-    },
-  ],
-  tags: ['thru-hike'],
-  title: 'Walking the West Highland Way in the Scottish Highlands',
-  titleShort: 'West Highland Way',
-  uri: '/posts/walking-the-west-highland-way',
 };
 
 /************************/
@@ -1099,12 +838,12 @@ const post1 = {
 };
 
 const data: Posts.Raw[] = [
-  post19,
-  post18,
+  tourDuMontBlanc2024,
+  grandRandonnee202023,
   post17,
   post16,
   post15,
-  post14,
+  westHighlandWay2022,
   post13,
   post12,
   post11,

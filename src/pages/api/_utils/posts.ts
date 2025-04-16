@@ -1,3 +1,8 @@
+import { gpx } from '@tmcw/togeojson';
+import { DOMParser } from '@xmldom/xmldom';
+import fs from 'fs/promises';
+import path from 'path';
+
 import type { Posts, Search } from '@/types';
 
 export function getPublicPosts(posts: Posts.Raw[]): Posts.Raw[] {
@@ -77,4 +82,21 @@ export function filterPostsByQuery(
     title,
     uri,
   }));
+}
+
+export async function routeFromGpx(filePath: string): Promise<any | undefined> {
+  try {
+    const xml = await fs.readFile(
+      path.join(
+        process.cwd(),
+        './src/pages/api/_database/posts/routes/gpxs',
+        filePath,
+      ),
+      'utf-8',
+    );
+
+    return gpx(new DOMParser().parseFromString(xml, 'text/xml'));
+  } catch (e: any) {
+    return undefined;
+  }
 }
