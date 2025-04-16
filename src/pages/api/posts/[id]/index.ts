@@ -105,14 +105,17 @@ export default function handler(
     image: stage?.image || post.image,
     newer,
     older,
-    route: hasStage
-      ? {
-          id: stage?.route,
-          start: hasStage ? stage?.title.split(' to ')[0].trim() : '',
-          stop: hasStage ? stage?.title.split(' to ')[1].trim() : '',
-        }
-      : undefined,
-    stats: stage?.stats,
+    route:
+      hasStage && stage?.route
+        ? {
+            id: stage?.route,
+            start: stage?.title.split(' to ')[0].trim(),
+            stop: stage?.title.split(' to ')[1].trim(),
+          }
+        : post.route
+          ? { id: post.route }
+          : undefined,
+    stats: hasStage ? stage?.stats : post.stats,
     tags: post.tags,
     title: stage?.title || post.title,
     titleCombined: `${post.title}${hasStage ? ` - ${stage?.title}` : ''}`,

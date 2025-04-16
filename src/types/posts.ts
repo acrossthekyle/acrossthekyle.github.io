@@ -9,8 +9,8 @@ export type Stats = {
 
 export type Route = {
   id: string;
-  start: string;
-  stop: string;
+  start?: string;
+  stop?: string;
 };
 
 export type Stage = {
@@ -40,8 +40,10 @@ export type Raw = {
     left: string;
     top: string;
   };
+  route?: string;
   snippet: string;
   stages?: Stage[];
+  stats?: Stats;
   tags: string[];
   title: string;
   titleShort: string;

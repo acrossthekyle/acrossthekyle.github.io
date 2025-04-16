@@ -1,8 +1,14 @@
+@use 'styles/mixins/_screen' as screen;
+
 .container {
   border-radius: 0.25rem;
   height: 30rem;
   margin-bottom: 4rem;
   overflow: hidden;
+
+  @include screen.small {
+    height: 20rem;
+  }
 }
 
 .map {
