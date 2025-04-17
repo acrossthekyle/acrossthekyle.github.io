@@ -11,7 +11,7 @@ export const useViewModel = (id: string): Return => {
 
   useEffect(() => {
     async function fetchRoute() {
-      const response = await fetch('/api/posts/route?version=1744553406', {
+      const response = await fetch('/api/posts/route?version=SEbAlVbTvp', {
         method: 'POST',
         body: id,
       });

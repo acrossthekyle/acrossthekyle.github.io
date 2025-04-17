@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 
-import { routeFromGpx } from '../_utils/posts';
+import { routeFromGpx } from '../../_utils/posts';
 
 export default async function handler(
   request: NextApiRequest,

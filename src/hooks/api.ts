@@ -16,7 +16,7 @@ export const useApi = (uri?: string) => {
 
     try {
       const response = await fetch(
-        `/api/${endpoint}${endpoint.includes('?') ? '&' : '?'}version=${version || '1744553405'}`.trim(),
+        `/api/${endpoint}${endpoint.includes('?') ? '&' : '?'}version=${version || '5SPTXpftYV'}`.trim(),
         body
           ? {
               method: 'POST',

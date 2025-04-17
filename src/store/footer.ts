@@ -34,8 +34,8 @@ const useStore = create<State & Actions>((set, get) => ({
       if (get().tags.length === 0 && get().recents.length === 0) {
         set({ isLoading: true });
 
-        const tags = await fetch('/api/tags?version=1744553405');
-        const recents = await fetch('/api/posts/recent?version=1744553405');
+        const tags = await fetch('/api/tags?version=j9IjYokIcp');
+        const recents = await fetch('/api/posts/recent?version=SCeFalGX9g');
 
         if (!tags.ok || !recents.ok) {
           set({ didFail: true, isLoading: false, recents: [], tags: [] });

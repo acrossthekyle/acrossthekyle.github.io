@@ -3,7 +3,7 @@
 import 'leaflet/dist/leaflet.css';
 
 import L from 'leaflet';
-import { useEffect } from 'react';
+import { useContext, useEffect } from 'react';
 import {
   Circle,
   MapContainer,
@@ -13,10 +13,9 @@ import {
   useMap,
 } from 'react-leaflet';
 
+import Contexts from '@/contexts';
 import Styles from '@/styles';
 import type { Posts } from '@/types';
-
-import { useViewModel } from './route.viewModel';
 
 const scss = Styles.Components.Posts.Route;
 
@@ -41,7 +40,7 @@ function RouteMapBounds({ route }: { route: [number, number][] }) {
 }
 
 function RouteMap({ route, start, stop }: Props) {
-  const { tile } = useViewModel();
+  const { theme } = useContext(Contexts.ThemeContext);
 
   if (!route) {
     return null;
@@ -49,8 +48,19 @@ function RouteMap({ route, start, stop }: Props) {
 
   return (
     <div className={scss.container}>
-      <MapContainer className={scss.map} zoom={13} scrollWheelZoom={false}>
-        <TileLayer url={tile} />
+      <MapContainer
+        className={scss.map}
+        maxZoom={20}
+        minZoom={0}
+        scrollWheelZoom={false}
+        zoom={13}
+      >
+        <TileLayer
+          attribution={
+            '&copy; <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>'
+          }
+          url={`/api/posts/route/tile?z={z}&x={x}&y={y}&r={r}&theme=${theme}&version=jTypU3sZFz`}
+        />
         <Polyline className={scss.polyline} positions={route} />
         {start && (
           <Circle

@@ -32,7 +32,7 @@ const useStore = create<State & Actions>((set, get) => ({
       if (get().data.length === 0) {
         set({ isLoading: true });
 
-        const response = await fetch('/api/trips?version=1744553405');
+        const response = await fetch('/api/trips?version=ciGVYTZwYi');
 
         if (!response.ok) {
           set({ didFail: true, isLoading: false, data: [] });
