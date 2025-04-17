@@ -8,7 +8,7 @@ const post: Posts.Raw = {
   isPrivate: false,
   locationFull: 'Alpes, Europe',
   locationShort: 'Europe',
-  snippet: `I've been itching to return to the wild beauty of the European Alps and cross paths once again with an old companion in adventure \u2014 the epic Tour du Mont Blanc.`,
+  snippet: `I've been itching to return to the wild beauty of the European Alps and cross paths once again with an old companion: the epic Tour du Mont Blanc.`,
   stages: [
     {
       dateFull: `July 27th, 2024`,
