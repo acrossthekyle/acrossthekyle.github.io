@@ -60,7 +60,7 @@ const post: Posts.Raw = {
       stats: {
         gain: 4315,
         loss: 1716,
-        miles: 10.30,
+        miles: 10.3,
         time: [7, 15],
       },
       title: `Dharapani to Chame`,

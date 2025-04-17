@@ -60,7 +60,7 @@ const post: Posts.Raw = {
       stats: {
         gain: 2395,
         loss: 3976,
-        miles: 8.60,
+        miles: 8.6,
         time: [5, 15],
       },
       title: `Refugio Perros to Refugio Grey`,
