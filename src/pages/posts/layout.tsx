@@ -49,7 +49,7 @@ function Layout({ children }: Props) {
       <Hero image={image} />
       <Post>
         {stats && <Stats {...stats} />}
-        {route && <Route {...route} />}
+        {/*{route && <Route {...route} />}*/}
         {children}
         {(newer || older) && (
           <Navigation
