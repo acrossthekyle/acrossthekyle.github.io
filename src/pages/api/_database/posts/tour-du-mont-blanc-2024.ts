@@ -13,8 +13,8 @@ const post: Posts.Raw = {
     {
       dateFull: `July 27th, 2024`,
       dateShort: `July 27th`,
-      garmin: `${Constants.GARMIN_URL}16648505816`,
       image: ``,
+      isReadOnly: true,
       route: 'tour-du-mont-blanc-2024/16648505816',
       stats: {
         gain: 4781,
@@ -27,8 +27,8 @@ const post: Posts.Raw = {
     {
       dateFull: `July 28th, 2024`,
       dateShort: `July 28th`,
-      garmin: `${Constants.GARMIN_URL}16648508499`,
       image: ``,
+      isReadOnly: true,
       route: 'tour-du-mont-blanc-2024/16648508499',
       stats: {
         gain: 4455,
@@ -41,8 +41,8 @@ const post: Posts.Raw = {
     {
       dateFull: `July 29th, 2024`,
       dateShort: `July 29th`,
-      garmin: `${Constants.GARMIN_URL}16648510931`,
       image: ``,
+      isReadOnly: true,
       route: `tour-du-mont-blanc-2024/16648510931`,
       stats: {
         gain: 3988,
@@ -55,8 +55,8 @@ const post: Posts.Raw = {
     {
       dateFull: `July 30th, 2024`,
       dateShort: `July 30th`,
-      garmin: `${Constants.GARMIN_URL}16648513979`,
       image: ``,
+      isReadOnly: true,
       route: `tour-du-mont-blanc-2024/16648513979`,
       stats: {
         gain: 3919,
@@ -69,8 +69,8 @@ const post: Posts.Raw = {
     {
       dateFull: `July 31st, 2024`,
       dateShort: `July 31st`,
-      garmin: `${Constants.GARMIN_URL}16648516562`,
       image: ``,
+      isReadOnly: true,
       route: `tour-du-mont-blanc-2024/16648516562`,
       stats: {
         gain: 3587,
@@ -83,8 +83,8 @@ const post: Posts.Raw = {
     {
       dateFull: `August 1st, 2024`,
       dateShort: `August 1st`,
-      garmin: `${Constants.GARMIN_URL}16648518987`,
       image: ``,
+      isReadOnly: true,
       route: `tour-du-mont-blanc-2024/16648518987`,
       stats: {
         gain: 3141,
@@ -97,8 +97,8 @@ const post: Posts.Raw = {
     {
       dateFull: `August 2nd, 2024`,
       dateShort: `August 2nd`,
-      garmin: `${Constants.GARMIN_URL}16655300053`,
       image: ``,
+      isReadOnly: true,
       route: `tour-du-mont-blanc-2024/16655300053`,
       stats: {
         gain: 1988,
@@ -111,8 +111,8 @@ const post: Posts.Raw = {
     {
       dateFull: `August 3rd, 2024`,
       dateShort: `August 3rd`,
-      garmin: `${Constants.GARMIN_URL}16664831411`,
       image: ``,
+      isReadOnly: true,
       route: `tour-du-mont-blanc-2024/16664831411`,
       stats: {
         gain: 2669,
@@ -125,8 +125,8 @@ const post: Posts.Raw = {
     {
       dateFull: `August 4th, 2024`,
       dateShort: `August 4th`,
-      garmin: `${Constants.GARMIN_URL}16680237006`,
       image: ``,
+      isReadOnly: true,
       route: `tour-du-mont-blanc-2024/16680237006`,
       stats: {
         gain: 3672,
@@ -139,8 +139,8 @@ const post: Posts.Raw = {
     {
       dateFull: `August 5th, 2024`,
       dateShort: `August 5th`,
-      garmin: `${Constants.GARMIN_URL}16680239829`,
       image: ``,
+      isReadOnly: true,
       route: `tour-du-mont-blanc-2024/16680239829`,
       stats: {
         gain: 3388,
@@ -153,8 +153,8 @@ const post: Posts.Raw = {
     {
       dateFull: `August 6th, 2024`,
       dateShort: `August 6th`,
-      garmin: `${Constants.GARMIN_URL}16719616815`,
       image: ``,
+      isReadOnly: true,
       route: `tour-du-mont-blanc-2024/16719616815`,
       stats: {
         gain: 2899,

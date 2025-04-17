@@ -1,6 +1,8 @@
 'use client';
 
 import 'leaflet/dist/leaflet.css';
+
+import L from 'leaflet';
 import { useEffect } from 'react';
 import {
   Circle,
@@ -19,17 +21,19 @@ import { useViewModel } from './route.viewModel';
 const scss = Styles.Components.Posts.Route;
 
 type Props = {
-  route?: number[][];
+  route?: [number, number][];
   start?: string;
   stop?: string;
 };
 
-function RouteMapBounds({ route }: { route: number[][] }) {
+function RouteMapBounds({ route }: { route: [number, number][] }) {
   const map = useMap();
 
   useEffect(() => {
     if (route.length > 0) {
-      map.fitBounds(route);
+      const bounds = new L.LatLngBounds(route);
+
+      map.fitBounds(bounds);
     }
   }, [route, map]);
 
@@ -45,66 +49,33 @@ function RouteMap({ route, start, stop }: Props) {
 
   return (
     <div className={scss.container}>
-      <MapContainer
-        className={scss.map}
-        // @ts-ignore-error
-        zoom={13}
-        // @ts-ignore-error
-        scrollWheelZoom={false}
-      >
+      <MapContainer className={scss.map} zoom={13} scrollWheelZoom={false}>
         <TileLayer url={tile} />
-        <Polyline
-          // @ts-ignore-error
-          className={scss.polyline}
-          // @ts-ignore-error
-          positions={route}
-        />
+        <Polyline className={scss.polyline} positions={route} />
         {start && (
           <Circle
-            // @ts-ignore-error
             center={route[0]}
-            // @ts-ignore-error
             className={scss.start}
-            // @ts-ignore-error
             fill
-            // @ts-ignore-error
             fillOpacity={0.5}
-            // @ts-ignore-error
             radius={150}
-            // @ts-ignore-error
             stroke={false}
           >
-            <Tooltip
-              // @ts-ignore-error
-              className={scss.tooltip}
-              // @ts-ignore-error
-              permanent
-            >
+            <Tooltip className={scss.tooltip} permanent>
               {start}
             </Tooltip>
           </Circle>
         )}
         {stop && (
           <Circle
-            // @ts-ignore-error
             center={route[route.length - 1]}
-            // @ts-ignore-error
             className={scss.finish}
-            // @ts-ignore-error
             fill
-            // @ts-ignore-error
             fillOpacity={0.5}
-            // @ts-ignore-error
             radius={150}
-            // @ts-ignore-error
             stroke={false}
           >
-            <Tooltip
-              // @ts-ignore-error
-              className={scss.tooltip}
-              // @ts-ignore-error
-              permanent
-            >
+            <Tooltip className={scss.tooltip} permanent>
               {stop}
             </Tooltip>
           </Circle>

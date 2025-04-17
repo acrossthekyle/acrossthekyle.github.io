@@ -40,8 +40,8 @@
         }
 
         .link {
-          border-left: 0.25rem solid transparent;
           padding: 0;
+          position: relative;
           text-align: left;
           transition: all 0.4s ease;
 
@@ -57,14 +57,33 @@
             font-weight: 700;
           }
 
+          &:before {
+            background: var(--packs-highlight);
+            content: '';
+            display: block;
+            height: 100%;
+            left: 0;
+            opacity: 0;
+            position: absolute;
+            top: 0;
+            transition: all 0.4s ease;
+            width: 0.25rem;
+          }
+
           &[data-active='true'] {
-            border-left-color: var(--packs-highlight);
             padding-left: 0.5rem;
+
+            &:before {
+              opacity: 1;
+            }
           }
 
           @include on.hover {
-            border-left-color: var(--packs-highlight);
-            padding-left: 0.75rem;
+            padding-left: 0.5rem;
+
+            &:before {
+              opacity: 1;
+            }
           }
         }
       }

@@ -7,6 +7,7 @@ const scss = Styles.Components.Timeline;
 type Segment = {
   cta?: string;
   eyeBrow: string;
+  isReadOnly?: boolean;
   subTitle?: string;
   title: string;
   uri: string;
@@ -24,7 +25,14 @@ function Timeline({ indexPrefix, segments }: Props) {
       <div className={scss.container}>
         {segments.map(
           (
-            { cta = 'View', eyeBrow, subTitle, title, uri }: Segment,
+            {
+              cta = 'View',
+              eyeBrow,
+              isReadOnly,
+              subTitle,
+              title,
+              uri,
+            }: Segment,
             index: number,
           ) => (
             <div className={scss.block} key={`segment-${index}`}>
@@ -36,7 +44,9 @@ function Timeline({ indexPrefix, segments }: Props) {
                 {eyeBrow && <span>{eyeBrow}</span>}
                 <h3>{title}</h3>
                 {subTitle && <h4>{subTitle}</h4>}
-                <Button className={scss.more} href={uri} text={cta} />
+                {!isReadOnly && (
+                  <Button className={scss.more} href={uri} text={cta} />
+                )}
               </div>
             </div>
           ),

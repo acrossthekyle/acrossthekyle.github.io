@@ -1,5 +1,0 @@
-import { fromCsv } from '../../_utils/packs';
-
-const items = await fromCsv('overnight-backpacking-2025.csv');
-
-export default items;

@@ -18,6 +18,7 @@ export type Stage = {
   dateShort: string;
   garmin?: string;
   image: string;
+  isReadOnly?: boolean;
   route?: string;
   stats?: Stats;
   title: string;

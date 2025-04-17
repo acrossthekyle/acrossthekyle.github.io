@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 
 type Return = {
-  route: number[][];
+  route: [number, number][];
 };
 
 export const useViewModel = (id: string): Return => {

@@ -4,7 +4,7 @@ import { routeFromGpx } from '../_utils/posts';
 
 export default async function handler(
   request: NextApiRequest,
-  response: NextApiResponse<Array<number[]>>,
+  response: NextApiResponse<[number, number][]>,
 ) {
   const data = await routeFromGpx(`${request.body}.gpx`);
 

@@ -5,18 +5,11 @@ import annapurnaCircuit from './annapurna-circuit';
 import caminoDeSantiago from './camino-de-santiago';
 import grandRandonneeTwenty from './grande-randonnee-twenty';
 import oCircuit from './o-circuit';
-import overnightBackpacking from './overnight-backpacking';
 import tourDuMontBlanc from './tour-du-mont-blanc';
 import tourDuMontBlanc2024 from './tour-du-mont-blanc-2024';
 import westHighlandWay from './west-highland-way';
 
 const data: Packs.Raw[] = [
-  {
-    items: overnightBackpacking,
-    slug: 'overnight-backpacking',
-    title: 'Overnight Backpacking',
-    type: 'Spring to Fall',
-  },
   {
     items: tourDuMontBlanc2024,
     slug: 'tour-du-mont-blanc-2024',

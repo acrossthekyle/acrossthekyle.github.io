@@ -9,6 +9,7 @@ import Utils from '@/utils';
 type Stage = {
   cta?: string;
   eyeBrow: string;
+  isReadOnly?: boolean;
   title: string;
   uri: string;
 };
@@ -18,20 +19,8 @@ type Return = {
   stages: Stage[];
 };
 
-function getUri(path: string, index: number, garmin?: string) {
-  if (garmin) {
-    return garmin;
-  }
-
+function getUri(path: string, index: number) {
   return `${path.indexOf('#') > -1 ? path.substring(0, path.indexOf('#')) : path}/${String(index + 1).padStart(2, '0')}`;
-}
-
-function getCtaText(garmin?: string) {
-  if (garmin) {
-    return 'View Route on Garmin.com';
-  }
-
-  return 'Read Trip Report';
 }
 
 export const useViewModel = (): Return => {
@@ -72,11 +61,12 @@ export const useViewModel = (): Return => {
 
   return {
     isReady,
-    stages: (data || []).map(({ dateShort, garmin, title }, index) => ({
-      cta: getCtaText(garmin),
+    stages: (data || []).map(({ dateShort, isReadOnly, title }, index) => ({
+      cta: 'Read Trip Report',
       eyeBrow: dateShort,
+      isReadOnly,
       title,
-      uri: getUri(router.asPath, index, garmin),
+      uri: getUri(router.asPath, index),
     })),
   };
 };
