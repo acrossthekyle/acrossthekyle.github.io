@@ -6,7 +6,13 @@ const post: Posts.Raw = {
   isPrivate: false,
   locationFull: 'Rocky Mountains, Colorado',
   locationShort: 'Colorado',
+  route: 'mt-plata-2020/q2jmaiKdwi',
   snippet: `After a restless night and a seemingly endless trek through thick, shadowy woods, the trail suddenly broke open, revealing a towering wall of rock, its switchbacks winding like a serpent toward the sky.`,
+  stats: {
+    gain: 4500,
+    miles: 9.25,
+    time: [10, 30],
+  },
   tags: ['summit', 'day hike'],
   title: 'Navigating ridges and switchbacks on La Plata Peak in Colorado',
   titleShort: 'La Plata Peak',

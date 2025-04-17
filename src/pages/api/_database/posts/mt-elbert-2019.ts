@@ -10,7 +10,13 @@ const post: Posts.Raw = {
     left: '12%',
     top: '28%',
   },
+  route: 'mt-elbert-2019/Nk9Qufad7P',
   snippet: `After summoning every bit of courage, I set off for Colorado, ready to take on my first 14er \u2014 an intimidating peak rising over 14,000 feet into the sky.`,
+  stats: {
+    gain: 4500,
+    miles: 9.75,
+    time: [7, 25],
+  },
   tags: ['summit', 'day hike'],
   title: 'Trying something new: summitting a mountain at 14,000 feet',
   titleShort: 'Mt. Elbert',
