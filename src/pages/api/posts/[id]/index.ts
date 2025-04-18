@@ -37,19 +37,19 @@ export default function handler(
       };
 
       if (index >= 0) {
-        if (post?.stages[index + 1] !== undefined) {
+        if (post.stages[index + 1] !== undefined) {
           newer = {
-            image: post?.stages[index + 1].image,
-            title: post?.stages[index + 1].title,
-            uri: `${post?.uri}/${String(index + 2).padStart(2, '0')}`,
+            image: post.stages[index + 1].image,
+            title: post.stages[index + 1].title,
+            uri: `${post.uri}/${String(index + 2).padStart(2, '0')}`,
           };
         }
 
-        if (post?.stages[index - 1] !== undefined) {
+        if (post.stages[index - 1] !== undefined) {
           older = {
-            image: post?.stages[index - 1].image,
-            title: post?.stages[index - 1].title,
-            uri: `${post?.uri}/${String(index).padStart(2, '0')}`,
+            image: post.stages[index - 1].image,
+            title: post.stages[index - 1].title,
+            uri: `${post.uri}/${String(index).padStart(2, '0')}`,
           };
         }
       }
@@ -87,7 +87,7 @@ export default function handler(
 
   if (hasStage) {
     breadcrumbs.push({
-      text: 'Timeline',
+      text: 'Stages',
       uri: `${post.uri}#timeline`,
     });
 
@@ -95,6 +95,17 @@ export default function handler(
       text: `Day ${day}`,
       uri: undefined,
     });
+  }
+
+  let stats = post.stats;
+
+  if (post.stages) {
+    stats = {
+      gain: post.stages.reduce((sum, stage) => sum + stage.stats.gain, 0),
+      loss: post.stages.reduce((sum, stage) => sum + stage.stats.loss, 0),
+      miles: post.stages.reduce((sum, stage) => sum + stage.stats.miles, 0),
+      time: post.stages.length,
+    };
   }
 
   response.status(200).json({
@@ -115,7 +126,7 @@ export default function handler(
         : post.route
           ? { id: post.route }
           : undefined,
-    stats: hasStage ? stage?.stats : post.stats,
+    stats: hasStage ? stage?.stats : stats,
     tags: post.tags,
     title: stage?.title || post.title,
     titleCombined: `${post.title}${hasStage ? ` - ${stage?.title}` : ''}`,

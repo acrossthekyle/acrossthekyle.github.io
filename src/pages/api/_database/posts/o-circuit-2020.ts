@@ -11,6 +11,7 @@ const post: Posts.Raw = {
     left: '25.8%',
     top: '94.5%',
   },
+  route: 'o-circuit-2020/all-djiahhRYtI',
   snippet: `After my first trip to Patagonia in 2016, I couldn't shake the longing to return one day and take on the epic long-distance hike that winds through the heart of the national park.`,
   stages: [
     {

@@ -11,6 +11,7 @@ const post: Posts.Raw = {
     left: '47.75%',
     top: '21%',
   },
+  route: 'alta-via-1-2019/all-oSeJcMGrxx',
   snippet: `When I first started exploring the world of thru-hikes, I found a list of the best trails on Earth \u2014 and the Alta Via 1 was undeniably one of the most enticing on the list.`,
   stages: [
     {

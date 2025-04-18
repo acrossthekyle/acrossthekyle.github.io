@@ -11,6 +11,7 @@ const post: Posts.Raw = {
     left: '46.5%',
     top: '24%',
   },
+  route: 'grande-randonnee-20-2023/all-Qj9wXrLOy6',
   snippet: `Touted as Europe's toughest trail, the legendary GR20 was the final beast on my thru-hiking bucket list \u2014 and I was ready for the challenge.`,
   stages: [
     {

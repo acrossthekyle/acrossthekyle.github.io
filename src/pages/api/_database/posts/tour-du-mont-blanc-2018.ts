@@ -11,6 +11,7 @@ const post: Posts.Raw = {
     left: '47.1%',
     top: '20%',
   },
+  route: 'tour-du-mont-blanc-2018/all-7Hzj1643on',
   snippet: `Long before I ever set foot on the Camino in Spain, I had already locked my sights on another epic thru-hike in Europe, determined to take on yet another unforgettable adventure.`,
   stages: [
     {

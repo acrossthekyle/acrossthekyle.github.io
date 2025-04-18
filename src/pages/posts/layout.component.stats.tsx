@@ -8,7 +8,7 @@ type Props = {
   gain?: string | number;
   loss?: string | number;
   miles: string | number;
-  time?: number[];
+  time?: number | number[];
 };
 
 function Stats({ gain, loss, miles, time }: Props) {
@@ -42,11 +42,18 @@ function Stats({ gain, loss, miles, time }: Props) {
         )}
         {time && (
           <h2 className={scss.stat}>
-            <span>
-              {time[0]}
-              <small> h</small> {time[1]}
-              <small> m</small>
-            </span>
+            {Array.isArray(time) ? (
+              <span>
+                {time[0]}
+                <small> h</small> {time[1]}
+                <small> m</small>
+              </span>
+            ) : (
+              <span>
+                {time}
+                <small> days</small>
+              </span>
+            )}
             <span className={scss.label}>Time</span>
           </h2>
         )}

@@ -11,6 +11,7 @@ const post: Posts.Raw = {
     left: '43.6%',
     top: '13.4%',
   },
+  route: 'west-highland-way-2022/all-b6E6EzMfXb',
   snippet: `This trek didn't just test my limits \u2014 it soaked them. With rain nearly every day and my gear falling short, it easily became my least favorite of them all.`,
   stages: [
     {

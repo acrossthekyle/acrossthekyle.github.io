@@ -5,7 +5,7 @@ import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import { useContext, useEffect } from 'react';
 import {
-  Circle,
+  CircleMarker,
   MapContainer,
   Polyline,
   TileLayer,
@@ -63,32 +63,22 @@ function RouteMap({ route, start, stop }: Props) {
         />
         <Polyline className={scss.polyline} positions={route} />
         {start && (
-          <Circle
-            center={route[0]}
-            className={scss.start}
-            fill
-            fillOpacity={0.5}
-            radius={150}
-            stroke={false}
-          >
+          <CircleMarker center={route[0]} className={scss.start} radius={10}>
             <Tooltip className={scss.tooltip} permanent>
               {start}
             </Tooltip>
-          </Circle>
+          </CircleMarker>
         )}
         {stop && (
-          <Circle
+          <CircleMarker
             center={route[route.length - 1]}
-            className={scss.finish}
-            fill
-            fillOpacity={0.5}
-            radius={150}
-            stroke={false}
+            className={scss.stop}
+            radius={10}
           >
             <Tooltip className={scss.tooltip} permanent>
               {stop}
             </Tooltip>
-          </Circle>
+          </CircleMarker>
         )}
         <RouteMapBounds route={route} />
       </MapContainer>

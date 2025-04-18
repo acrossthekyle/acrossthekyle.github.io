@@ -11,6 +11,7 @@ const post: Posts.Raw = {
     left: '71.3%',
     top: '32%',
   },
+  route: 'annapurna-circuit-2019/all-s7UkxJULMB',
   snippet: `After completing a handful of thru-hikes across a range of elevations, I felt the fire for adventure burning stronger than ever \u2014 and knew I was ready to take on my next big challenge.`,
   stages: [
     {

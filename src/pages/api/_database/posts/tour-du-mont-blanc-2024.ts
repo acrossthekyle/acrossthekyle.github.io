@@ -8,6 +8,7 @@ const post: Posts.Raw = {
   isPrivate: false,
   locationFull: 'Alpes, Europe',
   locationShort: 'Europe',
+  route: 'tour-du-mont-blanc-2024/all-fqOdfMdylK',
   snippet: `I've been itching to return to the wild beauty of the European Alps and cross paths once again with an old companion: the epic Tour du Mont Blanc.`,
   stages: [
     {

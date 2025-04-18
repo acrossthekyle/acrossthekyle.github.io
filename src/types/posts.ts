@@ -4,7 +4,7 @@ export type Stats = {
   gain?: number;
   loss?: number;
   miles: number;
-  time?: number[];
+  time?: number | number[];
 };
 
 export type Route = {

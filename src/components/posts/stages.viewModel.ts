@@ -62,7 +62,7 @@ export const useViewModel = (): Return => {
   return {
     isReady,
     stages: (data || []).map(({ dateShort, isReadOnly, title }, index) => ({
-      cta: 'Read Trip Report',
+      cta: 'View',
       eyeBrow: dateShort,
       isReadOnly,
       title,

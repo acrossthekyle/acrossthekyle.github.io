@@ -11,6 +11,7 @@ const post: Posts.Raw = {
     left: '42.3%',
     top: '23%',
   },
+  route: 'camino-de-santiago-2018/sbTRhtMtcb',
   snippet: `Years after returning from South America, the travel bug bit me once again \u2014 and without a second thought, I impulsively booked a one-way flight to Spain, ready to see where the journey would take me.`,
   stages: [
     {

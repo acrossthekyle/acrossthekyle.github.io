@@ -14,11 +14,20 @@ export default async function handler(
     return;
   }
 
-  response
-    .status(200)
-    .json(
-      data.features[0].geometry.coordinates
-        .filter((_, index) => index % 2 !== 0)
-        .map((coordinate) => [coordinate[1], coordinate[0]]),
-    );
+  const coordinates = [];
+
+  data.features.forEach((feature) => {
+    feature.geometry.coordinates.forEach((coordinate) => {
+      if (Array.isArray(coordinate)) {
+        coordinates.push(coordinate);
+      }
+    });
+  });
+
+  response.status(200).json(
+    coordinates
+      .filter((_, index) => index % 2 !== 0)
+      .filter((coordinate) => coordinate[0] !== null && coordinate[1] !== null)
+      .map((coordinate) => [coordinate[1], coordinate[0]]),
+  );
 }
