@@ -164,7 +164,7 @@ const post: Posts.Raw = {
       stats: {
         gain: 487,
         loss: 843,
-        miles: 13.60,
+        miles: 13.6,
         time: [4, 25],
       },
       title: `Ages to Burgos`,
@@ -294,7 +294,7 @@ const post: Posts.Raw = {
       stats: {
         gain: 901,
         loss: 3810,
-        miles: 16.40,
+        miles: 16.4,
         time: [5, 20],
       },
       title: `Foncebadon to Ponferrada`,
