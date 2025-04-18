@@ -22,7 +22,7 @@ const post: Posts.Raw = {
         gain: 4304,
         loss: 1564,
         miles: 5.36,
-        time: [5, 2]
+        time: [5, 2],
       },
       title: `Braies to Rifugio Biella`,
     },

@@ -138,7 +138,7 @@ const post: Posts.Raw = {
       stats: {
         gain: 3136,
         loss: 1636,
-        miles: 5.10,
+        miles: 5.1,
         time: [6, 10],
       },
       title: `Auberge la Boerne to Refuge de lo Flegere`,
@@ -151,7 +151,7 @@ const post: Posts.Raw = {
       stats: {
         gain: 2412,
         loss: 1568,
-        miles: 6.60,
+        miles: 6.6,
         time: [4, 0],
       },
       title: `Refuge de lo Flegere to Refuge de Bellechat`,
