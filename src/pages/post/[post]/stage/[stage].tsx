@@ -8,7 +8,8 @@ import { MDXRemote, type MDXRemoteSerializeResult } from 'next-mdx-remote';
 import { posts } from '@/cache/posts';
 import Components from '@/components';
 import type { Posts } from '@/types';
-import { routeFromGpx, trimGpxCoordinates } from '@/utils/posts';
+import { routeFromGpx } from '@/utils/files';
+import { trimGpxCoordinates } from '@/utils/posts';
 
 const components = {
   Gallery: Components.Post.Gallery,
@@ -24,7 +25,7 @@ type Meta = {
   author: string;
   date: string;
   image: string;
-  parent: string;
+  breadcrumbs: Posts.Breadcrumb[];
   route: string;
   gain: string;
   loss: string;
@@ -111,6 +112,16 @@ export const getServerSideProps = async (request, response) => {
     props: {
       meta: {
         ...data,
+        breadcrumbs: [
+          {
+            title: post.title,
+            uri: post.uri,
+          },
+          {
+            title: 'Stages',
+            uri: `${post.uri}#timeline`,
+          },
+        ],
         tags: data.tags.split(','),
       },
       newer,
@@ -136,6 +147,7 @@ function Page({ meta, newer, older, route, source, stats }: Props) {
     <Components.View title={meta.title}>
       <Components.Post.Title
         author={meta.author}
+        breadcrumbs={meta.breadcrumbs}
         date={meta.date}
         tags={meta.tags}
         title={meta.title}
@@ -150,7 +162,12 @@ function Page({ meta, newer, older, route, source, stats }: Props) {
             Stats: () => (stats ? <Components.Post.Stats {...stats} /> : null),
           }}
         />
-        <Components.Post.Navigation newer={newer} older={older} />
+        <Components.Post.Navigation
+          newer={newer}
+          newerLabel="Next Stage"
+          older={older}
+          olderLabel="Previous Stage"
+        />
       </Components.Post.Content>
     </Components.View>
   );

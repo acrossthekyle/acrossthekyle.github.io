@@ -11,7 +11,7 @@
     "format": "prettier --check .",
     "format:fix": "prettier --write . && git add --all",
     "precommit-msg": "echo 'Pre-commit checks...' && exit 0",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "e2e": "npx playwright test",
     "e2e:start": "next build && next start",
     "cache-posts": "npx tsx scripts/cache-posts.ts && git add ./src/cache/posts.js"

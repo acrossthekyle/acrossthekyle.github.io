@@ -21,3 +21,12 @@ export type Marker = {
   top: string;
   uri?: string;
 };
+
+export type TimelineSegment = {
+  cta?: string;
+  eyeBrow: string;
+  isReadOnly?: boolean;
+  subTitle?: string;
+  title: string;
+  uri: string;
+};

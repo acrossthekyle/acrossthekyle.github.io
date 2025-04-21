@@ -6,15 +6,17 @@ import Link from 'next/link';
 
 import Components from '@/components';
 import Styles from '@/styles';
-import type { Store } from '@/types';
 
 const scss = Styles.Components.Store.Card;
 
 type Props = {
-  item: Store.Page.Item;
+  image: string;
+  price: string;
+  title: string;
+  uri: string;
 };
 
-function Card({ item }: Props) {
+function Card({ image, price, title, uri }: Props) {
   const [hasEnteredView, setHasEnteredView] = useState(false);
 
   const uuid = useId();
@@ -32,22 +34,22 @@ function Card({ item }: Props) {
           <Link
             aria-describedby={uuid}
             className={scss.image}
-            href={item.uri}
+            href={uri}
             ref={ref}
           >
             <Components.Image
               alt=""
               height={432}
               sizes="(max-width: 768px) 100vw, 33vw"
-              src={item.image}
+              src={image}
               width={768}
             />
           </Link>
           <figcaption className={scss.caption}>
             <h2 id={uuid}>
-              <Link href={item.uri}>{item.title}</Link>
+              <Link href={uri}>{title}</Link>
             </h2>
-            <p>From ${item.price}</p>
+            <p>From ${price}</p>
           </figcaption>
         </figure>
       )}

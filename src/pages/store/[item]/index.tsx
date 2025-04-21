@@ -5,6 +5,7 @@ import { useRouter } from 'next/router';
 
 import { store } from '@/cache/store';
 import Components from '@/components';
+import { useCartActions } from '@/store/cart';
 import Styles from '@/styles';
 import type { Store } from '@/types';
 
@@ -22,16 +23,18 @@ function getFlattenedItems(data?: Data[]): string[] {
 function Page() {
   const { push, query } = useRouter();
 
-  const [data, setData] = useState<Store.Item.Api.Item | undefined>();
+  const { add } = useCartActions();
+
+  const [data, setData] = useState<Store.Item | undefined>();
   const [frame, setFrame] = useState(2);
   const [color, setColor] = useState(1);
   const [size, setSize] = useState(3);
   const [quantity, setQuantity] = useState(1);
 
   useEffect(() => {
-    const result =
-      store.find(({ uri }) => uri.includes(String(query.item).toLowerCase())) ??
-      undefined;
+    const result = store.find(({ uri }) =>
+      uri.includes(String(query.item).toLowerCase()),
+    );
 
     setData(result);
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -61,44 +64,8 @@ function Page() {
   };
 
   const handleOnAddToCart = () => {
-    if (typeof window !== 'undefined' && quantity > 0) {
-      let storage: string | null = localStorage.getItem('cart');
-
-      let cart: Store.Cart.CartClient[] = [];
-
-      if (storage !== null) {
-        cart = JSON.parse(storage);
-      }
-
-      const frameId = data?.styles[frame]?.id;
-      const sizeId = data?.styles[frame]?.sizes[size]?.id;
-      const colorId = color > -1 ? data?.styles[frame]?.colors[color]?.id : '';
-
-      const hash = `${data?.id}-${frameId}-${sizeId}-${colorId}`;
-
-      const existingIndex = cart.findIndex((item) => item.hash === hash);
-
-      if (existingIndex > -1) {
-        const updatedQuantity = cart[existingIndex].quantity + quantity;
-
-        cart[existingIndex] = {
-          ...cart[existingIndex],
-          quantity: updatedQuantity > 5 ? 5 : updatedQuantity,
-        };
-      } else {
-        cart.push({
-          colorId,
-          frameId,
-          hash,
-          itemId: data?.id || '',
-          quantity,
-          sizeId,
-        });
-      }
-
-      localStorage.setItem('cart', JSON.stringify(cart));
-
-      window.dispatchEvent(new Event('cartUpdated'));
+    if (quantity > 0) {
+      add(data?.id, data?.styles, frame, color, size, quantity);
 
       push('/store/checkout/cart');
     }

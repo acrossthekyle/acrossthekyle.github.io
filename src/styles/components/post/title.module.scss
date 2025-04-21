@@ -1,9 +1,11 @@
+@use 'styles/mixins/_on' as on;
 @use 'styles/mixins/_screen' as screen;
 
 .container {
   align-items: center;
   display: flex;
   flex-direction: column;
+  margin-bottom: 1rem;
   position: relative;
   width: 100%;
   z-index: 3;
@@ -17,16 +19,53 @@
   }
 
   .breadcrumbs {
-    padding-top: 1.65rem;
+    list-style: none;
+    margin: 1.25rem 0 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      font-size: 0.95rem;
+      font-weight: 700;
+      text-transform: uppercase;
+
+      &:after {
+        content: '/';
+        display: inline-block;
+        margin: 0 0.5rem;
+      }
+
+      &:last-child {
+        &:after {
+          content: '';
+        }
+      }
+
+      a {
+        transition: all 0.4s ease-in-out;
+
+        @include on.hover {
+          box-shadow:
+            0 -1px var(--body) inset,
+            0 -3px var(--travels-title-hover) inset;
+        }
+      }
+    }
   }
 
   .title {
     font-size: 3rem;
-    line-height: 3rem;
+    line-height: 3.5rem;
     margin: 0.75rem auto 1.5rem;
     position: relative;
     text-align: center;
     max-width: 48rem;
+
+    span {
+      display: block;
+      font-size: 1rem;
+      font-weight: 300;
+    }
   }
 
   .context {

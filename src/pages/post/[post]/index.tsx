@@ -8,7 +8,9 @@ import { MDXRemote, type MDXRemoteSerializeResult } from 'next-mdx-remote';
 import { posts } from '@/cache/posts';
 import Components from '@/components';
 import type { Posts } from '@/types';
-import { routeFromGpx, trimGpxCoordinates } from '@/utils/posts';
+import { transformStagesForTimeline } from '@/utils/components';
+import { routeFromGpx } from '@/utils/files';
+import { trimGpxCoordinates } from '@/utils/posts';
 
 const components = {
   Checklist: Components.Post.Checklist,
@@ -83,25 +85,17 @@ export const getServerSideProps = async (request, response) => {
       }))[0];
   }
 
-  let stages = null;
-  let stats = null;
-
   const post = posts.find((post) => post.id === data.id);
 
-  if (post?.stages) {
-    stages = post?.stages.map((stage) => ({
-      cta: 'View',
-      eyeBrow: stage.date,
-      isReadOnly: false, // todo
-      title: stage.title,
-      uri: stage.uri,
-    }));
+  let stages = post?.stages || null;
+  let stats = null;
 
+  if (stages) {
     stats = {
-      gain: post.stages.reduce((sum, stage) => sum + stage.gain, 0),
-      loss: post.stages.reduce((sum, stage) => sum + stage.loss, 0),
-      miles: post.stages.reduce((sum, stage) => sum + stage.miles, 0),
-      time: post.stages.length,
+      gain: stages.reduce((sum, stage) => sum + stage.gain, 0),
+      loss: stages.reduce((sum, stage) => sum + stage.loss, 0),
+      miles: stages.reduce((sum, stage) => sum + stage.miles, 0),
+      time: stages.length,
     };
   }
 
@@ -172,7 +166,10 @@ function Page({ meta, newer, older, route, source, stages, stats }: Props) {
             Route: () => (route ? <Components.Post.Route {...route} /> : null),
             Stages: () =>
               stages ? (
-                <Components.Timeline indexPrefix="Day" segments={stages} />
+                <Components.Timeline
+                  indexPrefix="Day"
+                  segments={transformStagesForTimeline(stages)}
+                />
               ) : null,
             Stats: () => (stats ? <Components.Post.Stats {...stats} /> : null),
             World: () =>

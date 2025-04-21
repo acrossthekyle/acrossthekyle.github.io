@@ -1,21 +1,13 @@
 import Styles from '@/styles';
+import type { Components } from '@/types';
 
 import Button from './button';
 
 const scss = Styles.Components.Timeline;
 
-type Segment = {
-  cta?: string;
-  eyeBrow: string;
-  isReadOnly?: boolean;
-  subTitle?: string;
-  title: string;
-  uri: string;
-};
-
 type Props = {
   indexPrefix?: string;
-  segments: Segment[];
+  segments: Components.TimelineSegment[];
 };
 
 function Timeline({ indexPrefix, segments }: Props) {
@@ -32,7 +24,7 @@ function Timeline({ indexPrefix, segments }: Props) {
               subTitle,
               title,
               uri,
-            }: Segment,
+            }: Components.TimelineSegment,
             index: number,
           ) => (
             <div className={scss.block} key={`segment-${index}`}>

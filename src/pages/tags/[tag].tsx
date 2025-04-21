@@ -5,7 +5,7 @@ import { posts } from '@/cache/posts';
 import Components from '@/components';
 import Styles from '@/styles';
 import type { Posts } from '@/types';
-import Utils from '@/utils';
+import { transformPostsForMasonry } from '@/utils/components';
 
 const scss = Styles.Pages.Tags.Tag.Page;
 
@@ -57,7 +57,7 @@ function Page({ posts, tag, total }: Props) {
     <Components.View title={`Tags | ${tag}`}>
       <h1 className={scss.header}>{tag}</h1>
       <p className={scss.total}>{`${total} Item(s)`}</p>
-      <Components.Masonry items={Utils.masonry.transformPosts(posts)} />
+      <Components.Masonry items={transformPostsForMasonry(posts)} />
     </Components.View>
   );
 }

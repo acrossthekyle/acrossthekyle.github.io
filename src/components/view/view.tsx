@@ -1,12 +1,13 @@
+'use client';
+
 import Head from 'next/head';
 import Link from 'next/link';
-import { ReactNode } from 'react';
+import { ReactNode, useState } from 'react';
 
 import Images from '@/images';
 import Styles from '@/styles';
 
 import Components from './components';
-import { useViewModel } from './view.viewModel';
 
 const scss = Styles.Components.View.View;
 
@@ -26,8 +27,23 @@ function Wrapper({ children, element, ...rest }) {
 }
 
 function View({ children, className = '', element, title }: Props) {
-  const { handleOnCloseSearch, handleOnOpenSearch, isSearching } =
-    useViewModel();
+  const [isSearching, setIsSearching] = useState(false);
+
+  const handleOnOpenSearch = () => {
+    setIsSearching(true);
+
+    setTimeout(() => {
+      document.getElementById('search-input').focus();
+    }, 250);
+  };
+
+  const handleOnCloseSearch = () => {
+    setTimeout(() => {
+      document.getElementById('searchOpen').focus();
+    }, 250);
+
+    setIsSearching(false);
+  };
 
   return (
     <>

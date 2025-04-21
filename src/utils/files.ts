@@ -1,6 +1,9 @@
+import { gpx } from '@tmcw/togeojson';
+import { DOMParser } from '@xmldom/xmldom';
 import { parse } from 'csv-parse';
 import { parse as parseDate } from 'date-fns';
 import fs from 'fs';
+import fsPromises from 'fs/promises';
 import path from 'path';
 
 import data from '../packs';
@@ -53,4 +56,17 @@ async function packFromCsv(filePath: string) {
   }
 
   return records;
+}
+
+export async function routeFromGpx(filePath: string): Promise<any | undefined> {
+  try {
+    const xml = await fsPromises.readFile(
+      path.join(process.cwd(), './src/gpxs', filePath),
+      'utf-8',
+    );
+
+    return gpx(new DOMParser().parseFromString(xml, 'text/xml'));
+  } catch (e: any) {
+    return undefined;
+  }
 }

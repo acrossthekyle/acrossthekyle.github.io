@@ -1,4 +1,7 @@
-import type { Breadcrumb } from './components';
+export type Breadcrumb = {
+  title: string;
+  uri: string;
+};
 
 export type Stats = {
   gain?: number;
@@ -14,15 +17,19 @@ export type Route = {
 };
 
 export type Stage = {
-  cta: string;
-  eyeBrow: string;
-  isReadOnly?: boolean;
-  title: string;
-  uri: string;
-};
-
-export type Queried = {
+  author: string;
   date: string;
+  gain: number;
+  id: string;
+  image: string;
+  loss: number;
+  miles: number;
+  next?: string;
+  previous?: string;
+  parent: string;
+  route: string;
+  time: string;
+  tags: string;
   title: string;
   uri: string;
 };

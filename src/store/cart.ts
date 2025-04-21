@@ -1,58 +1,156 @@
 import { create } from 'zustand';
+import { persist, createJSONStorage } from 'zustand/middleware';
 
+import { store } from '@/cache/store';
 import type { Store } from '@/types';
 
-import {
-  getActions,
-  getData,
-  getHasError,
-  getIsEmpty,
-  getIsLoading,
-  getIsReady,
-} from './abstract';
-
 type State = {
-  data: Store.Page.Item[];
-  didFail: boolean;
-  isLoading: boolean;
+  items: Store.Data[];
+  hasItems: boolean;
 };
 
 type Actions = {
-  actions: {
-    get: () => Promise<void>;
-  };
+  add: (
+    id: string,
+    options: Store.Styles[],
+    frame: number,
+    color: number,
+    size: number,
+    quantity: number,
+  ) => void;
+  retrieve: () => Store.Cart[];
+  remove: (index: number) => void;
+  adjust: (index: number, direction: number) => void;
+  erase: () => void;
 };
 
-const useStore = create<State & Actions>((set, get) => ({
-  data: [],
-  didFail: false,
-  isLoading: false,
-  actions: {
-    get: async () => {
-      if (get().data.length === 0) {
-        set({ isLoading: true });
+export const useCartStore = create<State & Actions>()(
+  persist(
+    (set, get) => ({
+      items: [],
+      hasItems: false,
+      add: (id, options, frame, color, size, quantity) => {
+        const frameId = options[frame]?.id;
+        const sizeId = options[frame]?.sizes[size]?.id;
+        const colorId = color > -1 ? options[frame]?.colors[color]?.id : '';
 
-        const response = await fetch('/api/store/items?version=btVy2RKgp6');
+        const hash = `${id}-${frameId}-${sizeId}-${colorId}`;
 
-        if (!response.ok) {
-          set({ didFail: true, isLoading: false, data: [] });
+        const items = get().items;
+
+        const existingIndex = items.findIndex((item) => item.hash === hash);
+
+        if (existingIndex > -1) {
+          const updatedQuantity = items[existingIndex].quantity + quantity;
+
+          items[existingIndex] = {
+            ...items[existingIndex],
+            quantity: updatedQuantity > 5 ? 5 : updatedQuantity,
+          };
         } else {
-          set({
-            didFail: false,
-            isLoading: false,
-            data: await response.json(),
+          items.push({
+            colorId,
+            frameId,
+            hash,
+            itemId: id,
+            quantity,
+            sizeId,
           });
         }
-      }
-    },
-  },
-}));
 
-export const useStoreActions = () => useStore((state) => getActions(state));
-export const useStoreData = () => useStore((state) => getData(state));
-export const useStoreHasError = () => useStore((state) => getHasError(state));
-export const useStoreIsEmpty = () =>
-  useStore((state) => getIsEmpty(state) && state.data.length === 0);
-export const useStoreIsLoading = () => useStore((state) => getIsLoading(state));
-export const useStoreIsReady = () =>
-  useStore((state) => getIsReady(state) && state.data.length > 0);
+        set({
+          hasItems: items.length > 0,
+          items,
+        });
+      },
+      retrieve: () => {
+        let results = [];
+
+        get().items.forEach(
+          ({ colorId, frameId, itemId, sizeId, quantity }) => {
+            const found = store.find(({ id }) => id === itemId);
+
+            if (found) {
+              const frame = found.styles.find(({ id }) => id === frameId);
+
+              if (frame) {
+                const color = frame.colors.length
+                  ? frame.colors.find(({ id }) => id === colorId)
+                  : true;
+                const size = frame.sizes.find(({ id }) => id === sizeId);
+                const frameValue = frame.value.toLowerCase();
+
+                if (color && size) {
+                  results.push({
+                    color: typeof color !== 'boolean' ? color.value : null,
+                    frame: frameValue === 'none' ? 'No' : 'Yes',
+                    image: found.image,
+                    mat:
+                      frameValue === 'none'
+                        ? null
+                        : frameValue.includes('mat')
+                          ? 'Yes'
+                          : 'No',
+                    name: found.title,
+                    price: frame.price,
+                    quantity,
+                    size: size.value,
+                    total: (Number(frame.price) * Number(quantity)).toFixed(2),
+                    uri: found.uri,
+                  });
+                }
+              }
+            }
+          },
+        );
+
+        return results;
+      },
+      remove: (index) => {
+        const items = get().items;
+
+        items.splice(index, 1);
+
+        set({
+          hasItems: items.length > 0,
+          items,
+        });
+      },
+      adjust: (index, direction) => {
+        const items = get().items;
+
+        let quantity = items[index].quantity;
+
+        if (direction < 0) {
+          quantity = quantity === 1 ? 0 : quantity - 1;
+        } else {
+          quantity = quantity === 5 ? 5 : quantity + 1;
+        }
+
+        if (quantity === 0) {
+          items.splice(index, 1);
+        } else {
+          items[index].quantity = quantity;
+        }
+
+        set({
+          hasItems: items.length > 0,
+          items,
+        });
+      },
+      erase: () => {
+        set({
+          hasItems: false,
+          items: [],
+        });
+      },
+    }),
+    {
+      name: 'cart-storage',
+    },
+  ),
+);
+
+export const useCartActions = () => useCartStore((state) => state);
+export const useCartItems = () => useCartStore((state) => state.items);
+export const useCartHasItems = () => useCartStore((state) => state.hasItems);

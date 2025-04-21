@@ -1,5 +1,4 @@
 import Styles from '@/styles';
-import type { Store } from '@/types';
 
 import Button from '../../button';
 
@@ -7,7 +6,22 @@ import Select from './form.select';
 
 const scss = Styles.Components.Store.Item.Form;
 
-type Props = Store.Item.Page.Form;
+type Props = {
+  color: number;
+  colorOptions: string[];
+  frame: number;
+  frameOptions: string[];
+  onAddToCart: () => void;
+  onSelectColor: (index: number) => void;
+  onSelectFrame: (index: number) => void;
+  onSelectQuantity: (index: number) => void;
+  onSelectSize: (index: number) => void;
+  hasColors: boolean;
+  quantity: number;
+  quantityOptions: string[];
+  size: number;
+  sizeOptions: string[];
+};
 
 function Form({
   color,

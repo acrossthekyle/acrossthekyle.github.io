@@ -1,3 +1,5 @@
+import type { Store } from '@/types';
+
 const colors = [
   {
     id: 'a97e52fa-1396-4b66-80ff-da9ea357f7f9',
@@ -64,7 +66,7 @@ const styles = [
   },
 ];
 
-export const store = [
+export const store: Store.Item[] = [
   {
     id: 'eb74f54e-a15c-45fd-a7ff-b2602ab7b36f',
     image: 'shop/prints/ad8f9626-62ba-4bfd-8675-c3531266631a.jpeg',

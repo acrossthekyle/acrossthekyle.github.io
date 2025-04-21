@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 
 import Components from '@/components';
 import Hooks from '@/hooks';
+import { useCartActions } from '@/store/cart';
 import Styles from '@/styles';
 
 const scss = Styles.Pages.Store.Checkout.Success.Page;
@@ -11,13 +12,15 @@ const scss = Styles.Pages.Store.Checkout.Success.Page;
 function Page() {
   const { data, fetchData, isLoading, isReady } = Hooks.useApi();
 
+  const { erase } = useCartActions();
+
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      localStorage.removeItem('cart');
+      erase();
 
       const params = new URLSearchParams(new URL(window.location.href).search);
 
-      fetchData(`store/confirmation?session_id=${params.get('session_id')}`);
+      fetchData(`store/success?session_id=${params.get('session_id')}`);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
