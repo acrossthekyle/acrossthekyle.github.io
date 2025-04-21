@@ -66,9 +66,9 @@ function getPosts() {
 const fileContents = `export const posts = ${getPosts()}`;
 
 try {
-  fs.readdirSync('cache');
+  fs.readdirSync('./src/cache');
 } catch (e) {
-  fs.mkdirSync('cache');
+  fs.mkdirSync('./src/cache');
 }
 
 fs.writeFile('./src/cache/posts.js', fileContents, function (error) {
