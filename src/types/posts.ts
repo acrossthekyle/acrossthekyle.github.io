@@ -8,46 +8,22 @@ export type Stats = {
 };
 
 export type Route = {
-  id: string;
-  start?: string;
-  stop?: string;
+  route: [number, number][];
+  start: string;
+  stop: string;
 };
 
 export type Stage = {
-  dateFull: string;
-  dateShort: string;
-  garmin?: string;
-  image: string;
+  cta: string;
+  eyeBrow: string;
   isReadOnly?: boolean;
-  route?: string;
-  stats?: Stats;
   title: string;
+  uri: string;
 };
 
 export type Queried = {
   date: string;
   title: string;
-  uri: string;
-};
-
-export type Raw = {
-  date: string;
-  gear?: string;
-  image: string;
-  isPrivate: boolean;
-  locationFull: string;
-  locationShort: string;
-  marker?: {
-    left: string;
-    top: string;
-  };
-  route?: string;
-  snippet: string;
-  stages?: Stage[];
-  stats?: Stats;
-  tags: string[];
-  title: string;
-  titleShort: string;
   uri: string;
 };
 
@@ -64,18 +40,17 @@ export type Older = {
 };
 
 export type Post = {
-  breadcrumbs?: Breadcrumb[];
+  author: string;
   date: string;
-  pack?: string;
-  hasStage: boolean;
+  id: string;
   image: string;
-  newer?: Newer;
-  older?: Older;
-  snippet?: string;
-  route?: Route;
-  stats?: Stats;
+  location: string;
+  marker?: string;
+  next?: string;
+  previous?: string;
+  snippet: string;
+  stages?: Stage[];
   tags: string[];
   title: string;
-  titleCombined: string;
   uri: string;
 };

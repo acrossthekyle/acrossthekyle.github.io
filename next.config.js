@@ -20,15 +20,7 @@ module.exports = withMDX({
     return [
       {
         source: '/',
-        destination: '/home/page',
-      },
-      {
-        source: '/me',
-        destination: '/me/page',
-      },
-      {
-        source: '/packs',
-        destination: '/packs/page',
+        destination: '/home',
       },
       {
         source: '/store',
@@ -53,10 +45,6 @@ module.exports = withMDX({
       {
         source: '/store/policies',
         destination: '/store/policies/page',
-      },
-      {
-        source: '/tags/:tag',
-        destination: '/tags/tag/page',
       },
     ];
   },

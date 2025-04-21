@@ -1,0 +1,20 @@
+@use 'styles/mixins/_screen' as screen;
+
+.container {
+  border-radius: 0.125rem;
+  height: 80vh;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  position: relative;
+  max-width: var(--max-width);
+  width: auto;
+
+  img {
+    border-radius: 2px;
+    position: relative;
+  }
+
+  @include screen.smedium {
+    height: 40vh;
+  }
+}

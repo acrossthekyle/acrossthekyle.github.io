@@ -1,0 +1,47 @@
+@use 'styles/mixins/_screen' as screen;
+
+.wrapper {
+  margin: 0 auto;
+  max-width: var(--max-width);
+  transition: all 0.5s ease-in-out;
+  width: auto;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 1rem 2rem 0;
+  position: relative;
+  max-width: 850px;
+  width: auto;
+
+  p {
+    font-size: 1.15rem;
+
+    a {
+      color: var(--text-link);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    &:first-child {
+      &::first-letter {
+        float: left;
+        font-weight: 700;
+        font-size: 75px;
+        line-height: 60px;
+        padding-top: 4px;
+        padding-right: 8px;
+        padding-left: 3px;
+      }
+    }
+  }
+
+  h2 {
+    margin-bottom: 1.75rem;
+    margin-top: 3rem;
+  }
+
+  @include screen.smedium {
+    padding: 1rem 0 0;
+  }
+}

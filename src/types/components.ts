@@ -15,7 +15,7 @@ export type MasonryItem = {
 
 export type Marker = {
   isPointOfOrigin?: boolean;
-  isPrivate: boolean;
+  isPrivate?: boolean;
   label?: string;
   left: string;
   top: string;

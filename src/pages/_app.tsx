@@ -7,21 +7,28 @@ import { type AppProps } from 'next/app';
 import Head from 'next/head';
 import router from 'next/router';
 
+import Components from '@/components';
 import Contexts from '@/contexts';
-import styles from '@/styles/pages/_app.module.scss';
-
-import Post from './posts/layout';
+import scss from '@/styles/pages/_app.module.scss';
 
 function App({ Component, pageProps }: AppProps) {
   const [isPageLoading, setIsPageLoading] = useState(false);
 
   useEffect(() => {
     const routeEventStart = () => {
+      document
+        .querySelector('html')
+        .setAttribute('data-cannot-overflow', 'true');
+
       setIsPageLoading(true);
     };
 
     const routeEventEnd = () => {
       setTimeout(() => {
+        document
+          .querySelector('html')
+          .setAttribute('data-cannot-overflow', 'false');
+
         setIsPageLoading(false);
       }, 800);
     };
@@ -29,10 +36,6 @@ function App({ Component, pageProps }: AppProps) {
     router.events.on('routeChangeStart', routeEventStart);
     router.events.on('routeChangeComplete', routeEventEnd);
     router.events.on('routeChangeError', routeEventEnd);
-
-    console.log(
-      'View the code at https://github.com/acrossthekyle/acrossthekyle.github.io',
-    );
 
     return () => {
       router.events.off('routeChangeStart', routeEventStart);
@@ -51,16 +54,14 @@ function App({ Component, pageProps }: AppProps) {
       </Head>
       <Contexts.Theme>
         <Contexts.Zoom>
-          {Component.displayName === 'MDXContent' ? (
-            <Post>
-              <Component {...pageProps} />
-            </Post>
-          ) : (
-            <Component {...pageProps} />
-          )}
+          <Component {...pageProps} />
         </Contexts.Zoom>
       </Contexts.Theme>
-      {isPageLoading && <div className={styles.loading} />}
+      {isPageLoading && (
+        <div className={scss.loading}>
+          <Components.Loading />
+        </div>
+      )}
     </>
   );
 }

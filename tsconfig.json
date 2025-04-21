@@ -2,6 +2,8 @@
   "compilerOptions": {
     "baseUrl": "src/",
     "paths": {
+      "@/cache": ["cache/"],
+      "@/cache/*": ["cache/*"],
       "@/components": ["components/"],
       "@/components/*": ["components/*"],
       "@/constants": ["constants/"],

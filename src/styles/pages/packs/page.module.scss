@@ -22,14 +22,6 @@
   position: relative;
 }
 
-.toggle {
-  display: none;
-
-  svg {
-    margin-right: 0.25rem;
-  }
-}
-
 .main {
   flex: 2;
   opacity: 1;
@@ -55,26 +47,8 @@
 }
 
 @include screen.medium {
-  .main {
-    &[data-browse-packs='true'] {
-      left: 0;
-      position: fixed;
-      top: -1000%;
-      transform: translateX(120%);
-    }
-
-    .toggle {
-      display: flex;
-    }
-
-    .heading {
-      margin-right: 1rem;
-      margin-top: 1rem;
-    }
-
-    .wrapper {
-      margin-top: 3rem;
-    }
+  .container {
+    flex-direction: column;
   }
 }
 

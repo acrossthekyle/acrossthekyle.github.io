@@ -3,7 +3,8 @@ import Button from './button';
 import Image from './image';
 import Loading from './loading';
 import Masonry from './masonry';
-import Posts from './posts';
+import Packs from './packs';
+import Post from './post';
 import Shortcuts from './shortcuts/shortcuts';
 import Tags from './tags';
 import Timeline from './timeline';
@@ -16,7 +17,8 @@ const Components = {
   Image,
   Loading,
   Masonry,
-  Posts,
+  Packs,
+  Post,
   Shortcuts,
   Tags,
   Timeline,

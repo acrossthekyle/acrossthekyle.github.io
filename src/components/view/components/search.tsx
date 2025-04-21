@@ -1,11 +1,13 @@
-import Link from 'next/link';
+'use client';
 
+import Fuse from 'fuse.js';
+import Link from 'next/link';
+import { ChangeEvent, useState } from 'react';
+
+import { posts } from '@/cache/posts';
 import Images from '@/images';
 import Styles from '@/styles';
-
-import Loading from '../../loading';
-
-import { useViewModel } from './search.viewModel';
+import type { Posts } from '@/types';
 
 const scss = Styles.Components.View.Components.Search;
 
@@ -15,8 +17,26 @@ type Props = {
 };
 
 function Search({ isSearching, onClose }: Props) {
-  const { items, handleOnSearch, isLoading, isReady, query, total } =
-    useViewModel();
+  const [results, setResults] = useState([]);
+  const [query, setQuery] = useState('');
+
+  const handleOnSearch = (event: ChangeEvent<HTMLInputElement>) => {
+    const term = (event.target as HTMLInputElement).value.toLowerCase();
+
+    setQuery(term);
+
+    if (term.length === 0) {
+      setResults([]);
+
+      return;
+    }
+
+    const fuse = new Fuse(posts, {
+      keys: ['date', 'location', 'title'],
+    });
+
+    setResults(fuse.search(term).map((result) => result.item));
+  };
 
   return (
     <div
@@ -43,49 +63,42 @@ function Search({ isSearching, onClose }: Props) {
             id="search-label"
             htmlFor="search-input"
           >
-            Search
+            Search posts
           </label>
           <input
             autoComplete="off"
             className={scss.field}
             id="search-input"
             onChange={handleOnSearch}
-            placeholder="Type to search..."
+            placeholder="Search posts..."
             type="text"
             value={query}
           />
         </div>
-        <div className={scss.results}>
-          {isLoading && <Loading />}
-          {isReady && (
-            <>
-              <h2 className={scss.total}>{`Found ${total} results`}</h2>
-              <div role="list">
-                {items.map(({ subTitle, title, uri }) => (
-                  <div className={scss.result} key={uri} role="listitem">
-                    <h3>
-                      <Link
-                        aria-label={`${title} ${subTitle}`}
-                        href={uri}
-                        onClick={onClose}
-                        target={
-                          title.toLowerCase().includes('resume')
-                            ? '_blank'
-                            : '_self'
-                        }
-                      >
-                        {title}
-                      </Link>
-                    </h3>
-                    <div className={scss.date}>
-                      <time>{subTitle}</time>
-                    </div>
+        {results.length > 0 && (
+          <div className={scss.results}>
+            <h2 className={scss.total}>{`Found ${results.length} results`}</h2>
+            <div role="list">
+              {results.map(({ date, title, uri }: Posts.Post) => (
+                <div className={scss.result} key={uri} role="listitem">
+                  <h3>
+                    <Link
+                      aria-label={`${title} ${date}`}
+                      href={uri}
+                      onClick={onClose}
+                      target="_self"
+                    >
+                      {title}
+                    </Link>
+                  </h3>
+                  <div className={scss.date}>
+                    <time>{date}</time>
                   </div>
-                ))}
-              </div>
-            </>
-          )}
-        </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

@@ -1,27 +1,21 @@
+import { parse } from 'date-fns';
+import { flatten, uniq } from 'lodash';
 import Link from 'next/link';
 
+import { posts } from '@/cache/posts';
 import Constants from '@/constants';
 import Styles from '@/styles';
 
 import Image from '../../image';
-import Loading from '../../loading';
 import Shortcuts from '../../shortcuts/shortcuts';
 import Tags from '../../tags';
 import Contact from './contact';
 import Theme from './theme';
-import { useViewModel } from './footer.viewModel';
 
 const scss = Styles.Components.View.Components.Footer;
 
 function Footer() {
-  const {
-    isPostsLoading,
-    isPostsReady,
-    isTagsLoading,
-    isTagsReady,
-    posts,
-    tags,
-  } = useViewModel();
+  const tags = uniq(flatten(posts.map(({ tags }) => tags)));
 
   return (
     <footer className={scss.footer}>
@@ -30,44 +24,38 @@ function Footer() {
           <h2>About Me</h2>
           <p>{Constants.ABOUT_ME_BLURB}</p>
           <h2>Tags</h2>
-          {isTagsLoading && <Loading />}
-          {isTagsReady && (
-            <Tags className={scss.tags} items={tags} mode="secondary" />
-          )}
+          <Tags className={scss.tags} items={tags} mode="secondary" />
         </div>
         <div className={scss.column}>
           <h2>Recent Posts</h2>
-          {isPostsLoading && <Loading />}
-          {isPostsReady && (
-            <>
-              {posts.map(({ date, image, title, uri }, index: number) => (
-                <figure className={scss.recent} key={title}>
-                  <Link className={scss.image} href={uri}>
-                    <Image
-                      alt=""
-                      aria-describedby={`post${index}`}
-                      height={80}
-                      quality={40}
-                      sizes="15vw"
-                      src={image}
-                      width={80}
-                    />
-                  </Link>
-                  <span aria-hidden="true" className={scss.count}>
-                    {index + 1}
-                  </span>
-                  <figcaption className={scss.caption}>
-                    <span className={scss.date}>{date}</span>
-                    <h4 className={scss.heading} id={`recent${index}`}>
-                      <Link className={scss.title} href={uri}>
-                        {title}
-                      </Link>
-                    </h4>
-                  </figcaption>
-                </figure>
-              ))}
-            </>
-          )}
+          {posts
+            .slice(0, 3)
+            .map(({ date, image, title, uri }, index: number) => (
+              <figure className={scss.recent} key={title}>
+                <Link className={scss.image} href={uri}>
+                  <Image
+                    alt=""
+                    aria-describedby={`post${index}`}
+                    height={80}
+                    quality={40}
+                    sizes="15vw"
+                    src={image}
+                    width={80}
+                  />
+                </Link>
+                <span aria-hidden="true" className={scss.count}>
+                  {index + 1}
+                </span>
+                <figcaption className={scss.caption}>
+                  <span className={scss.date}>{date}</span>
+                  <h4 className={scss.heading} id={`recent${index}`}>
+                    <Link className={scss.title} href={uri}>
+                      {title}
+                    </Link>
+                  </h4>
+                </figcaption>
+              </figure>
+            ))}
         </div>
         <div className={scss.column}>
           <h2>Contact</h2>

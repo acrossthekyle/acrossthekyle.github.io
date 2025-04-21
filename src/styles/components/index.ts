@@ -4,7 +4,8 @@ import Image from './image.module.scss';
 import Loading from './loading.module.scss';
 import Masonry from './masonry.module.scss';
 import MasonryFigure from './masonry.figure.module.scss';
-import Posts from './posts';
+import Packs from './packs';
+import Post from './post';
 import Shortcuts from './shortcuts';
 import Tags from './tags.module.scss';
 import Timeline from './timeline.module.scss';
@@ -18,7 +19,8 @@ const Styles = {
   Loading,
   Masonry,
   MasonryFigure,
-  Posts,
+  Packs,
+  Post,
   Shortcuts,
   Tags,
   Timeline,

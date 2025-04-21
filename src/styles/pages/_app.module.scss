@@ -1,21 +1,10 @@
 .loading {
-  animation: loading;
-  animation-delay: 0.3s;
-  animation-duration: 0.5s;
-  animation-fill-mode: forwards;
+  align-items: center;
   background: var(--body);
+  display: flex;
   inset: 0;
   opacity: 1;
-  position: absolute;
+  position: fixed;
+  transition: all 0.2s ease;
   z-index: 99999;
-}
-
-@keyframes loading {
-  0% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
 }
