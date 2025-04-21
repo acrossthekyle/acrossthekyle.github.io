@@ -1,6 +1,6 @@
 import Styles from '@/styles';
 
-const scss = Styles.Pages.Store.ComponentPolicies;
+const scss = Styles.Components.Store.Policies;
 
 function Policies() {
   return (

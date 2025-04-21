@@ -1,21 +1,23 @@
 'use client';
 
+import {
+  EmbeddedCheckout,
+  EmbeddedCheckoutProvider,
+} from '@stripe/react-stripe-js';
 import { loadStripe } from '@stripe/stripe-js';
+import { redirect } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
+import Components from '@/components';
 import Hooks from '@/hooks';
+import Styles from '@/styles';
 import type { Store } from '@/types';
 
-type Return = {
-  fetchClientSecret: () => Promise<string>;
-  isEmpty: boolean;
-  isReady: boolean;
-  stripe: Promise<any | null>;
-};
+const scss = Styles.Pages.Store.Checkout.Confirm.Page;
 
 const stripe = loadStripe(process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY);
 
-export const useViewModel = (): Return => {
+function Page() {
   const { fetchData } = Hooks.useApi();
 
   const [cart, setCart] = useState<Store.Cart.CartClient[]>([]);
@@ -44,14 +46,29 @@ export const useViewModel = (): Return => {
     return response.id;
   };
 
-  return {
-    fetchClientSecret,
-    isEmpty: cart.length === 0,
-    isReady,
-    stripe,
-  };
-};
+  const isEmpty = cart.length === 0;
 
-export default function Node() {
-  return null;
+  if (!isReady) {
+    return null;
+  }
+
+  if (isEmpty) {
+    return redirect('/store');
+  }
+
+  return (
+    <Components.View title="Shop | Checkout">
+      <h1 className={scss.header}>Checkout</h1>
+      <div className={scss.checkout} id="checkout">
+        <EmbeddedCheckoutProvider
+          stripe={stripe}
+          options={{ fetchClientSecret }}
+        >
+          <EmbeddedCheckout />
+        </EmbeddedCheckoutProvider>
+      </div>
+    </Components.View>
+  );
 }
+
+export default Page;

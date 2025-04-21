@@ -7,6 +7,7 @@ import MasonryFigure from './masonry.figure.module.scss';
 import Packs from './packs';
 import Post from './post';
 import Shortcuts from './shortcuts';
+import Store from './store';
 import Tags from './tags.module.scss';
 import Timeline from './timeline.module.scss';
 import View from './view';
@@ -22,6 +23,7 @@ const Styles = {
   Packs,
   Post,
   Shortcuts,
+  Store,
   Tags,
   Timeline,
   View,

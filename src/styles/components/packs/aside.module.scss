@@ -11,7 +11,30 @@
   top: 4.375rem;
   transition: transform 0.4s ease;
 
+  input[type='checkbox'] {
+    display: none;
+  }
+
+  .label {
+    background: var(--button);
+    border-radius: 0.25rem;
+    color: var(--button-text);
+    cursor: pointer;
+    display: none;
+    font-size: 0.9rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.5rem 0;
+    width: 9rem;
+
+    &:after {
+      content: 'View Packs List';
+    }
+  }
+
   .packs {
+    transition: all 0.4s ease;
+
     ul {
       display: flex;
       flex: 1;
@@ -80,7 +103,33 @@
 
   @include screen.medium {
     height: auto;
+    margin-bottom: 1rem;
+    overflow-y: unset;
+    padding: 0;
     position: relative;
     top: auto;
+
+    .packs {
+      height: 0;
+      overflow: hidden;
+
+      ul {
+        padding-top: 1rem;
+      }
+    }
+
+    .label {
+      display: block;
+    }
+
+    .toggle:checked + .label {
+      &:after {
+        content: 'Hide Packs List';
+      }
+    }
+
+    .toggle:checked + .label + .packs {
+      height: 34rem;
+    }
   }
 }

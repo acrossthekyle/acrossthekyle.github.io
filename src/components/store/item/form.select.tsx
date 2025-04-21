@@ -1,9 +1,10 @@
 'use client';
 
+import { kebabCase } from 'lodash';
+import { ChangeEvent, useId } from 'react';
+
 import Images from '@/images';
 import Styles from '@/styles';
-
-import { useViewModel } from './page.component.form.select.viewModel';
 
 type Props = {
   label: string;
@@ -12,10 +13,16 @@ type Props = {
   value: number;
 };
 
-const scss = Styles.Pages.Store.Item.PageComponentFormSelect;
+const scss = Styles.Components.Store.Item.FormSelect;
 
 function Select({ label = '', onChange, options = [], value = 0 }: Props) {
-  const { handleOnChange, name, uuid } = useViewModel(label, onChange);
+  const uuid = useId();
+
+  const handleOnChange = (event: ChangeEvent<HTMLSelectElement>) => {
+    const selection = (event.target as HTMLSelectElement).value;
+
+    onChange(Number(selection));
+  };
 
   return (
     <div className={scss.container}>
@@ -25,7 +32,7 @@ function Select({ label = '', onChange, options = [], value = 0 }: Props) {
       <select
         className={scss.select}
         id={uuid}
-        name={name}
+        name={kebabCase(label.toLowerCase())}
         onChange={handleOnChange}
         value={value}
       >

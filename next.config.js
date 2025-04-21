@@ -1,8 +1,4 @@
-const withMDX = require('@next/mdx')({
-  options: {
-    recmaPlugins: [require('recma-mdx-displayname')],
-  },
-});
+const withMDX = require('@next/mdx')();
 
 module.exports = withMDX({
   images: {
@@ -21,30 +17,6 @@ module.exports = withMDX({
       {
         source: '/',
         destination: '/home',
-      },
-      {
-        source: '/store',
-        destination: '/store/page',
-      },
-      {
-        source: '/store/:item',
-        destination: '/store/item/page',
-      },
-      {
-        source: '/store/checkout/cart',
-        destination: '/store/checkout/cart/page',
-      },
-      {
-        source: '/store/checkout/confirm',
-        destination: '/store/checkout/confirm/page',
-      },
-      {
-        source: '/store/checkout/success',
-        destination: '/store/checkout/success/page',
-      },
-      {
-        source: '/store/policies',
-        destination: '/store/policies/page',
       },
     ];
   },

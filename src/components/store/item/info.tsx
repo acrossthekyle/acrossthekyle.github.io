@@ -1,6 +1,6 @@
 import Styles from '@/styles';
 
-const scss = Styles.Pages.Store.Item.PageComponentInfo;
+const scss = Styles.Components.Store.Item.Info;
 
 type Props = {
   name: string;

@@ -24,7 +24,7 @@ function mutateTag(tag: string | null) {
 }
 
 export const getServerSideProps = async (request) => {
-  const tag = request.query.tag[0].toLowerCase();
+  const tag = request.query.tag.toLowerCase();
 
   const results = posts
     .filter(({ tags }) => tags.includes(tag))

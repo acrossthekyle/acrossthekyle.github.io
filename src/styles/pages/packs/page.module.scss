@@ -50,6 +50,10 @@
   .container {
     flex-direction: column;
   }
+
+  .main {
+    padding-top: 0;
+  }
 }
 
 @include screen.little {

@@ -1,6 +1,6 @@
 import Styles from '@/styles';
 
-const scss = Styles.Pages.Store.Item.PageComponentDescriptions;
+const scss = Styles.Components.Store.Item.Descriptions;
 
 type Props = {
   frame: number;

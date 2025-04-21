@@ -1,5 +1,6 @@
 'use client';
 
+import { useId, useState } from 'react';
 import { InView } from 'react-intersection-observer';
 import Link from 'next/link';
 
@@ -7,20 +8,22 @@ import Components from '@/components';
 import Styles from '@/styles';
 import type { Store } from '@/types';
 
-import { useViewModel } from './page.component.card.viewModel';
-
-const scss = Styles.Pages.Store.PageComponentCard;
+const scss = Styles.Components.Store.Card;
 
 type Props = {
-  item?: Store.Page.Item;
+  item: Store.Page.Item;
 };
 
 function Card({ item }: Props) {
-  const { handleOnInView, hasEnteredView, uuid } = useViewModel();
+  const [hasEnteredView, setHasEnteredView] = useState(false);
 
-  if (!item) {
-    return null;
-  }
+  const uuid = useId();
+
+  const handleOnInView = (isInView: boolean) => {
+    if (!hasEnteredView && isInView) {
+      setHasEnteredView(true);
+    }
+  };
 
   return (
     <InView onChange={handleOnInView} threshold={0.1}>

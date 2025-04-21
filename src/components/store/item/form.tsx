@@ -1,10 +1,11 @@
-import Components from '@/components';
 import Styles from '@/styles';
 import type { Store } from '@/types';
 
-import Select from './page.component.form.select';
+import Button from '../../button';
 
-const scss = Styles.Pages.Store.Item.PageComponentForm;
+import Select from './form.select';
+
+const scss = Styles.Components.Store.Item.Form;
 
 type Props = Store.Item.Page.Form;
 
@@ -60,11 +61,7 @@ function Form({
           value={quantity}
         />
       </div>
-      <Components.Button
-        className={scss.add}
-        onClick={onAddToCart}
-        text="Add to cart"
-      />
+      <Button className={scss.add} onClick={onAddToCart} text="Add to cart" />
       <small className={scss.disclaimer}>
         * Image shown is preview-only, actual amount of photo space cropped on
         final product may vary

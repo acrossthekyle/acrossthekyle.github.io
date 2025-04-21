@@ -2,9 +2,8 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 import { headers } from 'next/headers';
 import Stripe from 'stripe';
 
+import { store } from '@/cache/store';
 import Constants from '@/constants';
-
-import data from '../_database/store/items';
 
 const LOCAL_HOST_ADDRESS = 'http://localhost:3000/store/';
 
@@ -22,7 +21,7 @@ export default async function handler(
     let line_items = [];
 
     items.forEach(({ colorId, frameId, itemId, sizeId, quantity }) => {
-      const found = data.find(({ id }) => id === itemId);
+      const found = store.find(({ id }) => id === itemId);
 
       if (found) {
         const frame = found.styles.find(({ id }) => id === frameId);

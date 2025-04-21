@@ -1,7 +1,8 @@
-import Components from '@/components';
 import Styles from '@/styles';
 
-const scss = Styles.Pages.Store.Item.PageComponentAside;
+import Image from '../../image';
+
+const scss = Styles.Components.Store.Item.Aside;
 
 type Props = {
   color: number;
@@ -14,7 +15,7 @@ function Aside({ color, frame, image, name }: Props) {
   return (
     <div className={scss.aside}>
       <div className={scss.image} data-frame={frame} data-frame-color={color}>
-        <Components.Image
+        <Image
           alt={name}
           canTransform={false}
           height={432}

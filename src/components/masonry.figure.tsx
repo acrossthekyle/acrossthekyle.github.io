@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import { ReactNode, useCallback, useId, useState } from 'react';
 import { InView } from 'react-intersection-observer';
 import { truncate } from 'lodash';
 import Link from 'next/link';
@@ -9,14 +9,24 @@ import type { Components } from '@/types';
 
 import Image from './image';
 import Tags from './tags';
-import { useViewModel } from './masonry.figure.viewModel';
 
 const scss = Styles.Components.MasonryFigure;
 
 type Props = Components.MasonryItem;
 
 function Figure({ date, image, snippet, tags, title, uri }: Props) {
-  const { handleOnInView, hasEnteredView, uuid } = useViewModel();
+  const [hasEnteredView, setHasEnteredView] = useState(false);
+
+  const uuid = useId();
+
+  const handleOnInView = useCallback(
+    (isInView: boolean) => {
+      if (!hasEnteredView && isInView) {
+        setHasEnteredView(true);
+      }
+    },
+    [hasEnteredView],
+  );
 
   return (
     <InView onChange={handleOnInView} threshold={0.1}>

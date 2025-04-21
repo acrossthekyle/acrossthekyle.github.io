@@ -1,12 +1,14 @@
+'use client';
+
 import { InView } from 'react-intersection-observer';
 import Link from 'next/link';
+import { useCallback, useState } from 'react';
 
 import Images from '@/images';
 import Styles from '@/styles';
 import type { Components } from '@/types';
 
 import Image from './image';
-import { useViewModel } from './world.viewModel';
 
 const scss = Styles.Components.World;
 
@@ -16,7 +18,16 @@ type Props = {
 };
 
 function World({ className = '', markers }: Props) {
-  const { handleOnInView, hasEnteredView } = useViewModel();
+  const [hasEnteredView, setHasEnteredView] = useState(false);
+
+  const handleOnInView = useCallback(
+    (isInView: boolean) => {
+      if (!hasEnteredView && isInView) {
+        setHasEnteredView(true);
+      }
+    },
+    [hasEnteredView],
+  );
 
   return (
     <InView onChange={handleOnInView} threshold={0.3}>

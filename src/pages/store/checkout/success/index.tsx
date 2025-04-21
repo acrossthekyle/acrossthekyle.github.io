@@ -1,12 +1,26 @@
-import Components from '@/components';
-import Styles from '@/styles';
+'use client';
 
-import { useViewModel } from './page.viewModel';
+import { useEffect } from 'react';
+
+import Components from '@/components';
+import Hooks from '@/hooks';
+import Styles from '@/styles';
 
 const scss = Styles.Pages.Store.Checkout.Success.Page;
 
 function Page() {
-  const { email, isLoading, isReady, name } = useViewModel();
+  const { data, fetchData, isLoading, isReady } = Hooks.useApi();
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      localStorage.removeItem('cart');
+
+      const params = new URLSearchParams(new URL(window.location.href).search);
+
+      fetchData(`store/confirmation?session_id=${params.get('session_id')}`);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <Components.View title="Shop | Checkout Confirmation">
@@ -15,8 +29,8 @@ function Page() {
         <>
           <h1 className={scss.heading}>Thank you!</h1>
           <p className={scss.paragraph}>
-            Thanks for your order {name}, a receipt should be on its way to{' '}
-            {email}.
+            Thanks for your order {data?.name || ''}, a receipt should be on its
+            way to {data?.email || ''}.
           </p>
           <p className={scss.paragraph}>
             If the receipt does not arrive, or if you have any questions, please

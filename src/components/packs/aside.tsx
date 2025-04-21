@@ -13,6 +13,12 @@ type Props = {
 function Component({ activeId, packs }: Props) {
   return (
     <aside className={scss.aside}>
+      <input id="toggle" className={scss.toggle} type="checkbox" />
+      <label
+        aria-label="Toggle packs list"
+        htmlFor="toggle"
+        className={scss.label}
+      />
       <div className={scss.packs}>
         <ul>
           {(packs || []).map((pack) => (

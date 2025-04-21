@@ -1,11 +1,12 @@
-import { ReactNode, useState } from 'react';
+'use client';
+
+import { ReactNode, useCallback, useState } from 'react';
 
 import Styles from '@/styles';
 import type { Components } from '@/types';
 
 import Button from './button';
 import Figure from './masonry.figure';
-import { useViewModel } from './masonry.viewModel';
 
 const scss = Styles.Components.Masonry;
 
@@ -13,8 +14,14 @@ type Props = {
   items: Components.MasonryItem[];
 };
 
+const PAGE_SIZE = 9;
+
 function Masonry({ items }: Props) {
-  const { handleOnViewMore, shown } = useViewModel();
+  const [shown, setShown] = useState(PAGE_SIZE);
+
+  const handleOnViewMore = useCallback(() => {
+    setShown(shown + PAGE_SIZE);
+  }, [shown]);
 
   return (
     <div className={scss.masonry} id="masonry">

@@ -1,8 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 
+import { store } from '@/cache/store';
 import type { Store } from '@/types';
-
-import items from '../_database/store/items';
 
 export default function handler(
   request: NextApiRequest,
@@ -12,7 +11,7 @@ export default function handler(
     let results = [];
 
     request.body.forEach(({ colorId, frameId, itemId, sizeId, quantity }) => {
-      const found = items.find(({ id }) => id === itemId);
+      const found = store.find(({ id }) => id === itemId);
 
       if (found) {
         const frame = found.styles.find(({ id }) => id === frameId);
