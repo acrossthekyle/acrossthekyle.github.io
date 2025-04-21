@@ -4,8 +4,9 @@ import { useId, useState } from 'react';
 import { InView } from 'react-intersection-observer';
 import Link from 'next/link';
 
-import Components from '@/components';
 import Styles from '@/styles';
+
+import Image from '../image';
 
 const scss = Styles.Components.Store.Card;
 
@@ -37,7 +38,7 @@ function Card({ image, price, title, uri }: Props) {
             href={uri}
             ref={ref}
           >
-            <Components.Image
+            <Image
               alt=""
               height={432}
               sizes="(max-width: 768px) 100vw, 33vw"

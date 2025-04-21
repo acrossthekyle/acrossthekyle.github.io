@@ -7,7 +7,7 @@ import Constants from '@/constants';
 import Styles from '@/styles';
 
 import Image from '../../image';
-import Shortcuts from '../../shortcuts/shortcuts';
+import Shortcuts from '../../shortcuts';
 import Tags from '../../tags';
 import Contact from './contact';
 import Theme from './theme';
