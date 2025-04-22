@@ -46,45 +46,19 @@ function Figure({ date, image, snippet, tags, title, uri }: Props) {
               width={768}
             />
           </Link>
-          <figcaption className={scss.caption}>
+          <figcaption>
             {tags && <Tags className={scss.tags} items={tags} />}
             <h2 id={uuid}>
               <Link className={scss.title} href={uri}>
                 {title}
               </Link>
             </h2>
+            {date && <time>{date}</time>}
             {snippet && (
-              <p className={scss.preview}>
+              <p>
                 {truncate(snippet, { length: 156, separator: ' ' })}
                 <span aria-hidden="true">..</span>
               </p>
-            )}
-            {date && (
-              <div className={scss.context}>
-                <Link
-                  aria-label="About Kyle"
-                  className={scss.author}
-                  href="/me"
-                >
-                  <Image
-                    alt=""
-                    aria-hidden="true"
-                    canTransform={false}
-                    height={20}
-                    quality={30}
-                    sizes="5vw"
-                    src={Constants.ME_URL}
-                    width={20}
-                  />
-                </Link>
-                <div className={scss.info}>
-                  <span aria-hidden="true">Kyle Gilbert</span>
-                  <span aria-hidden="true" className={scss.divider}>
-                    /
-                  </span>
-                  <time>{date}</time>
-                </div>
-              </div>
             )}
           </figcaption>
         </figure>

@@ -4,7 +4,7 @@ const scss = Styles.Components.Store.Item.Info;
 
 type Props = {
   name: string;
-  price: number;
+  price: string;
   snippet: string;
 };
 

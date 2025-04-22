@@ -14,11 +14,8 @@ type Props = {
   onAddToCart: () => void;
   onSelectColor: (index: number) => void;
   onSelectFrame: (index: number) => void;
-  onSelectQuantity: (index: number) => void;
   onSelectSize: (index: number) => void;
   hasColors: boolean;
-  quantity: number;
-  quantityOptions: string[];
   size: number;
   sizeOptions: string[];
 };
@@ -31,11 +28,8 @@ function Form({
   onAddToCart,
   onSelectColor,
   onSelectFrame,
-  onSelectQuantity,
   onSelectSize,
   hasColors,
-  quantity,
-  quantityOptions,
   size,
   sizeOptions,
 }: Props) {
@@ -67,14 +61,6 @@ function Form({
           />
         </div>
       )}
-      <div className={scss.item}>
-        <Select
-          label="Quantity"
-          onChange={onSelectQuantity}
-          options={quantityOptions}
-          value={quantity}
-        />
-      </div>
       <Button className={scss.add} onClick={onAddToCart} text="Add to cart" />
       <small className={scss.disclaimer}>
         * Image shown is preview-only, actual amount of photo space cropped on

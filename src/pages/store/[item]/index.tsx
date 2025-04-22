@@ -29,7 +29,6 @@ function Page() {
   const [frame, setFrame] = useState(2);
   const [color, setColor] = useState(1);
   const [size, setSize] = useState(3);
-  const [quantity, setQuantity] = useState(1);
 
   useEffect(() => {
     const result = store.find(({ uri }) =>
@@ -59,22 +58,15 @@ function Page() {
     setSize(index);
   };
 
-  const handleOnSelectQuantity = (index: number) => {
-    setQuantity(index);
-  };
-
   const handleOnAddToCart = () => {
-    if (quantity > 0) {
-      add(data?.id, data?.styles, frame, color, size, quantity);
+    add(data?.id, data?.styles, frame, color, size, 1);
 
-      push('/store/checkout/cart');
-    }
+    push('/store/checkout/cart');
   };
 
   const hasColors = data?.styles[frame]?.colors.length > 0;
   const name = data?.title || '';
-  // @ts-expect-error
-  const price = (data?.styles[frame]?.price || 0) * quantity;
+  const price = data?.styles[frame]?.price || '0';
   const snippet = data?.snippet || '';
 
   return (
@@ -112,11 +104,8 @@ function Page() {
             onAddToCart={handleOnAddToCart}
             onSelectColor={handleOnSelectColor}
             onSelectFrame={handleOnSelectFrame}
-            onSelectQuantity={handleOnSelectQuantity}
             onSelectSize={handleOnSelectSize}
             hasColors={hasColors}
-            quantity={quantity}
-            quantityOptions={['0', '1', '2', '3', '4', '5']}
             size={size}
             sizeOptions={getFlattenedItems(data?.styles[frame]?.sizes)}
           />

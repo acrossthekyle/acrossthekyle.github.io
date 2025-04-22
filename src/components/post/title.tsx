@@ -31,24 +31,7 @@ function Title({ author, breadcrumbs, date, tags, title }: Props) {
         </ul>
       )}
       <h1 className={scss.title}>{title}</h1>
-      <div className={scss.context}>
-        <Link aria-label={`About ${author}`} className={scss.author} href="/me">
-          <Image
-            alt=""
-            aria-hidden="true"
-            canTransform={false}
-            height={24}
-            quality={20}
-            sizes="10vw"
-            src={Constants.ME_URL}
-            width={24}
-          />
-        </Link>
-        <div className={scss.items}>
-          <h4 className={`${scss.item} ${scss.name}`}>{author}</h4>
-          <span className={`${scss.item} ${scss.date}`}>{date}</span>
-        </div>
-      </div>
+      <time className={`${scss.item} ${scss.date}`}>{date}</time>
     </div>
   );
 }

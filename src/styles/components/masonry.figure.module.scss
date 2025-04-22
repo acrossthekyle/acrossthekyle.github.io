@@ -15,7 +15,7 @@
     height: 100%;
   }
 
-  .caption {
+  figcaption {
     display: block;
     padding-top: 1rem;
     position: relative;
@@ -36,41 +36,17 @@
       }
     }
 
-    .preview {
+    p {
       font-size: 0.95rem;
       line-height: 1.65rem;
-      margin-bottom: 0.65rem;
-      margin-top: 0.25rem;
+      margin-top: 0.8rem;
     }
 
-    .context {
-      align-items: center;
-      display: flex;
-      flex-direction: row;
+    time {
+      display: block;
       font-size: 0.75rem;
-      margin-bottom: 0.5rem;
-      position: relative;
+      margin: 0.5rem 0 0;
       text-transform: uppercase;
-      width: auto;
-
-      .author {
-        border-radius: 50%;
-        height: 1.5rem;
-        margin-right: 0.5rem;
-        opacity: 0.75;
-        overflow: hidden;
-        width: 1.5rem;
-      }
-
-      .info {
-        align-items: center;
-        display: flex;
-
-        .divider {
-          display: inline-block;
-          margin: 0 0.25rem;
-        }
-      }
     }
   }
 
@@ -80,37 +56,10 @@
   }
 
   @include screen.small {
-    .caption {
-      .preview {
+    figcaption {
+      p {
         font-size: 1rem;
-        margin-bottom: 0.75rem;
-        margin-top: 0.5rem;
-      }
-
-      .context {
-        align-items: unset;
-        flex-grow: 1;
-        font-size: 0.85rem;
-        margin-bottom: 1rem;
-
-        .author {
-          height: 1.9rem;
-          width: 1.9rem;
-        }
-
-        .info {
-          align-items: flex-start;
-          flex-direction: column;
-          justify-content: space-between;
-
-          .divider {
-            display: none;
-          }
-
-          time {
-            opacity: 0.5;
-          }
-        }
+        margin: 0.5rem 0 0.75rem;
       }
     }
   }
