@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { MDXRemote, type MDXRemoteSerializeResult } from 'next-mdx-remote';
 import { serialize } from 'next-mdx-remote/serialize';
 
+import { posts } from '@/cache/posts';
 import Components from '@/components';
 import type { Posts } from '@/types';
 import { transformStagesForTimeline } from '@/utils/components';
@@ -32,8 +33,15 @@ type Meta = {
   stats: Posts.Stats | null;
 };
 
-export const getServerSideProps = async (request) => {
-  const id = request.query.post.toLowerCase();
+export async function getStaticPaths() {
+  return {
+    paths: posts.map((post) => post.uri),
+    fallback: true,
+  };
+}
+
+export const getStaticProps = async (context) => {
+  const id = context.params.post.toLowerCase();
 
   try {
     const metaModule = await import(`@/cache/posts/${id}/meta`);
@@ -81,6 +89,10 @@ type Props = {
 };
 
 function Page({ content, meta, route, stages }: Props) {
+  if (!meta) {
+    return null;
+  }
+
   return (
     <Components.View title={meta.title}>
       <Components.Post.Title

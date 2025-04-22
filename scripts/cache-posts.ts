@@ -11,7 +11,7 @@ import { parse } from 'date-fns';
 const postsDirectory = path.join(process.cwd(), './src/posts');
 const cacheDirectory = './src/cache/posts';
 
-function trimGpxCoordinates(gpx, everyThird = false) {
+function trimGpxCoordinates(gpx) {
   const coordinates = [];
 
   gpx.features.forEach((feature) => {
@@ -23,7 +23,7 @@ function trimGpxCoordinates(gpx, everyThird = false) {
   });
 
   return coordinates
-    .filter((_, index) => (everyThird ? index % 3 === 2 : index % 2 === 0))
+    .filter((_, index) => index % 3 === 2) // every third
     .filter((coordinate) => coordinate[0] !== null && coordinate[1] !== null)
     .map((coordinate) => [coordinate[1], coordinate[0]]);
 }
@@ -241,7 +241,7 @@ async function serializePostContent(folder, content) {
   writeCacheFile(`${cacheDirectory}/${folder}`, 'content.js', json);
 }
 
-async function writeRoute(folder, meta, everyThird = false) {
+async function writeRoute(folder, meta) {
   if (!meta.route) {
     return;
   }
@@ -249,7 +249,7 @@ async function writeRoute(folder, meta, everyThird = false) {
   const gpx = await routeFromGpx(`${meta.route.route}.gpx`);
 
   if (gpx) {
-    const coordinates = trimGpxCoordinates(gpx, everyThird);
+    const coordinates = trimGpxCoordinates(gpx);
 
     const json = `export const route = ${JSON.stringify(coordinates)};`;
 
@@ -293,7 +293,7 @@ async function cache() {
   posts.forEach(async (post) => {
     await serializePostContent(post.folder, post.content);
 
-    await writeRoute(post.folder, post.meta, true);
+    await writeRoute(post.folder, post.meta);
 
     writeMetaData(post.folder, post.meta);
 

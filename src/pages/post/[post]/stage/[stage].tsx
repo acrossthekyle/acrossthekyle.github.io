@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { MDXRemote, type MDXRemoteSerializeResult } from 'next-mdx-remote';
 import { serialize } from 'next-mdx-remote/serialize';
 
+import { posts } from '@/cache/posts';
 import Components from '@/components';
 import type { Posts } from '@/types';
 
@@ -31,9 +32,36 @@ type Meta = {
   previous?: string;
 };
 
-export const getServerSideProps = async (request) => {
-  const id = request.query.post.toLowerCase();
-  const stage = request.query.stage;
+export async function getStaticPaths() {
+  let paths = [];
+
+  await Promise.all(
+    posts.map(async (post) => {
+      try {
+        const stagesModule = await import(
+          `@/cache/posts/${post.uri.replace('/post/', '')}/stages/meta`
+        );
+
+        stagesModule.meta.forEach((stage) => {
+          if (stage.uri) {
+            paths.push(stage.uri);
+          }
+        });
+      } catch (error) {
+        // ignore posts that don't have stages
+      }
+    }),
+  );
+
+  return {
+    paths,
+    fallback: true,
+  };
+}
+
+export const getStaticProps = async (context) => {
+  const id = context.params.post.toLowerCase();
+  const stage = context.params.stage;
 
   try {
     const metaModule = await import(`@/cache/posts/${id}/stages/${stage}/meta`);
@@ -73,6 +101,10 @@ type Props = {
 };
 
 function Page({ content, meta, route }: Props) {
+  if (!meta) {
+    return null;
+  }
+
   return (
     <Components.View title={meta.title}>
       <Components.Post.Title
