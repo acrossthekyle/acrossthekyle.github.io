@@ -1,6 +1,7 @@
-const withMDX = require('@next/mdx')();
+import createMDX from '@next/mdx';
+import type { NextConfig } from 'next';
 
-module.exports = withMDX({
+const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
@@ -20,4 +21,8 @@ module.exports = withMDX({
       },
     ];
   },
-});
+};
+
+const withMDX = createMDX();
+
+export default withMDX(nextConfig);

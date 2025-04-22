@@ -1,35 +1,14 @@
+import { packs } from '@/cache/packs';
 import Components from '@/components';
 import Constants from '@/constants';
 import Images from '@/images';
 import Styles from '@/styles';
 import type { Packs } from '@/types';
 import { Units } from '@/types/packs';
-import { getPacksFromCsvs } from '@/utils/files';
-import {
-  calculateBaseWeight,
-  calculateConsumableWeight,
-  calculateWeight,
-  calculateWeightPerCategory,
-  calculateWornWeight,
-  groupByCategory,
-} from '@/utils/packs';
 
 const scss = Styles.Pages.Packs.Page;
 
 export const getServerSideProps = async (request, response) => {
-  const data = await getPacksFromCsvs();
-
-  const packs: Packs.Pack[] = data.map(({ items, ...rest }) => {
-    return {
-      ...rest,
-      categories: calculateWeightPerCategory(groupByCategory(items)),
-      weightBase: calculateBaseWeight(items),
-      weightConsumable: calculateConsumableWeight(items),
-      weightTotal: calculateWeight(items),
-      weightWorn: calculateWornWeight(items),
-    };
-  });
-
   const query = request?.query?.pack?.[0];
 
   const pack: Packs.Pack = packs.find((pack) => pack.id === query) || packs[0];

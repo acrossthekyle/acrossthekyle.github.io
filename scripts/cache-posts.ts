@@ -147,38 +147,41 @@ function getPosts() {
     }
   });
 
-  const posts = postsFolders.map((postFolder) => {
-    const post = fs.readFileSync(
-      path.join(postsDirectory, `${postFolder}/index.mdx`),
-      'utf8',
+  const posts = postsFolders
+    .map((postFolder) => {
+      const post = fs.readFileSync(
+        path.join(postsDirectory, `${postFolder}/index.mdx`),
+        'utf8',
+      );
+
+      const { content, data } = matter(post);
+
+      const stages = getPostStages(postFolder, data);
+
+      return {
+        content,
+        folder: postFolder,
+        meta: {
+          ...data,
+          marker: data.marker
+            ? {
+                left: `${data.marker.split(',')[0]}%`,
+                top: `${data.marker.split(',')[1]}%`,
+              }
+            : null,
+          newer: null,
+          older: null,
+          stats: null,
+          tags: data.tags.split(','),
+        },
+        stages,
+      };
+    })
+    .sort(
+      (a, b) =>
+        parse(b.meta.date, 'MMMM do, yyyy', new Date()) -
+        parse(a.meta.date, 'MMMM do, yyyy', new Date()),
     );
-
-    const { content, data } = matter(post);
-
-    const stages = getPostStages(postFolder, data);
-
-    return {
-      content,
-      folder: postFolder,
-      meta: {
-        ...data,
-        marker: data.marker ? {
-          left: `${data.marker.split(',')[0]}%`,
-          top: `${data.marker.split(',')[1]}%`,
-        } : null,
-        newer: null,
-        older: null,
-        stats: null,
-        tags: data.tags.split(','),
-      },
-      stages,
-    };
-  })
-  .sort(
-    (a, b) =>
-      parse(b.meta.date, 'MMMM do, yyyy', new Date()) -
-      parse(a.meta.date, 'MMMM do, yyyy', new Date()),
-  );
 
   posts.map((post) => {
     if (post.meta.next) {
@@ -207,7 +210,8 @@ function getPosts() {
 
       if (post.stages) {
         routeStart = post.stages[0].meta.title.split(' to ')[0];
-        routeStop = post.stages[post.stages.length - 1].meta.title.split(' to ')[1];
+        routeStop =
+          post.stages[post.stages.length - 1].meta.title.split(' to ')[1];
       }
 
       post.meta.route = {
@@ -235,7 +239,9 @@ function getPosts() {
 async function serializePostContent(folder, content) {
   const source = await serialize(content);
 
-  writeCacheFile(`${cacheDirectory}/${folder}`, 'content.js', JSON.stringify(source));
+  const json = `export const content = ${JSON.stringify(source)};`;
+
+  writeCacheFile(`${cacheDirectory}/${folder}`, 'content.js', json);
 }
 
 async function writeRoute(folder, meta, everyThird = false) {
@@ -248,7 +254,9 @@ async function writeRoute(folder, meta, everyThird = false) {
   if (gpx) {
     const coordinates = trimGpxCoordinates(gpx, everyThird);
 
-    writeCacheFile(`${cacheDirectory}/${folder}`, 'route.js', JSON.stringify(coordinates));
+    const json = `export const route = ${JSON.stringify(coordinates)};`;
+
+    writeCacheFile(`${cacheDirectory}/${folder}`, 'route.js', json);
   }
 }
 
@@ -257,11 +265,19 @@ async function serializeStageContent(folder, stage, content) {
 
   createCacheDirectory(`${cacheDirectory}/${folder}/stages`);
 
-  writeCacheFile(`${cacheDirectory}/${folder}/stages/${stage}`, 'content.js', JSON.stringify(source));
+  const json = `export const content = ${JSON.stringify(source)};`;
+
+  writeCacheFile(
+    `${cacheDirectory}/${folder}/stages/${stage}`,
+    'content.js',
+    json,
+  );
 }
 
 function writeMetaData(folder, meta) {
-  writeCacheFile(`${cacheDirectory}/${folder}`, 'meta.js', JSON.stringify(meta));
+  const json = `export const meta = ${JSON.stringify(meta)};`;
+
+  writeCacheFile(`${cacheDirectory}/${folder}`, 'meta.js', json);
 }
 
 async function cache() {
@@ -269,13 +285,13 @@ async function cache() {
     if (error) {
       console.error(error);
     } else {
-      console.log('Cache cleared');
+      console.log('Cache:Posts cleared');
     }
   });
 
   const posts = getPosts();
 
-  const postsMetaData = `export const posts = ${JSON.stringify(posts.map((post) => post.meta))}`;
+  const postsMetaData = `export const posts = ${JSON.stringify(posts.map((post) => post.meta))};`;
 
   writeCacheFile(cacheDirectory, 'index.js', postsMetaData);
 

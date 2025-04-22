@@ -1,15 +1,8 @@
-import fs from 'fs';
-import path from 'path';
-import matter from 'gray-matter';
 import Link from 'next/link';
-import { serialize } from 'next-mdx-remote/serialize';
 import { MDXRemote, type MDXRemoteSerializeResult } from 'next-mdx-remote';
 
-import { posts } from '@/cache/posts';
 import Components from '@/components';
 import type { Posts } from '@/types';
-import { routeFromGpx } from '@/utils/files';
-import { trimGpxCoordinates } from '@/utils/posts';
 
 const components = {
   Gallery: Components.Post.Gallery,
@@ -26,123 +19,59 @@ type Meta = {
   date: string;
   image: string;
   breadcrumbs: Posts.Breadcrumb[];
-  route: string;
+  route: Posts.Route;
   gain: string;
   loss: string;
   miles: string;
-  time: string;
+  time: number | number[];
+  newer: Posts.Newer | null;
+  older: Posts.Older | null;
   next?: string;
   previous?: string;
 };
 
-type Stage = {
-  data: Meta;
-  source: string;
-};
+export const getServerSideProps = async (request) => {
+  const id = request.query.post.toLowerCase();
+  const stage = request.query.stage;
 
-async function getStage(post: string, stage: string) {
-  const filePath = path.join(
-    path.join(process.cwd(), './src/posts'),
-    `${post}/stages/${stage}.mdx`,
-  );
+  try {
+    const metaModule = await import(`@/cache/posts/${id}/stages/${stage}/meta`);
+    const meta = metaModule.meta;
 
-  const file = await fs.readFileSync(filePath, 'utf-8');
+    const contentModule = await import(
+      `@/cache/posts/${id}/stages/${stage}/content`
+    );
+    const content = contentModule.content;
 
-  const { data, content } = matter(file);
+    const routeModule = await import(
+      `@/cache/posts/${id}/stages/${stage}/route`
+    );
+    const route = routeModule.route;
 
-  const source = await serialize(content);
-
-  return {
-    data,
-    source,
-  };
-}
-
-export const getServerSideProps = async (request, response) => {
-  const { data, source } = await getStage(
-    request.query.post.toLowerCase(),
-    request.query.stage,
-  );
-
-  const post = posts.find((post) => post.id === data.parent);
-
-  let newer = null;
-  let older = null;
-
-  if (data.next) {
-    newer = post?.stages
-      .filter((stage) => stage.id === data.next)
-      .map((stage) => ({
-        image: stage.image,
-        title: stage.title,
-        uri: stage.uri,
-      }))[0];
-  }
-
-  if (data.previous) {
-    older = post?.stages
-      .filter((stage) => stage.id === data.previous)
-      .map((stage) => ({
-        image: stage.image,
-        title: stage.title,
-        uri: stage.uri,
-      }))[0];
-  }
-
-  const stats = {
-    gain: data.gain,
-    loss: data.loss,
-    miles: data.miles,
-    time: data.time.split(','),
-  };
-
-  let route = null;
-
-  if (data.route) {
-    const gpx = await routeFromGpx(`${data.route}.gpx`);
-
-    route = {
-      route: trimGpxCoordinates(gpx),
-      start: data.title.split(' to ')[0],
-      stop: data.title.split(' to ')[1],
+    return {
+      props: {
+        content,
+        meta,
+        route: {
+          ...meta.route,
+          route,
+        },
+      },
+    };
+  } catch (error) {
+    return {
+      notFound: true,
     };
   }
-
-  return {
-    props: {
-      meta: {
-        ...data,
-        breadcrumbs: [
-          {
-            title: post.title,
-            uri: post.uri,
-          },
-          {
-            title: 'Stages',
-            uri: `${post.uri}#timeline`,
-          },
-        ],
-        tags: data.tags.split(','),
-      },
-      newer,
-      older,
-      route,
-      source,
-      stats,
-    },
-  };
 };
 
 type Props = {
+  content: MDXRemoteSerializeResult;
   meta: Meta;
-  newer: Posts.Newer | null;
-  older: Posts.Older | null;
-  route: Posts.Route | null;
-  source: MDXRemoteSerializeResult;
-  stats: Posts.Stats;
+  route: Posts.Route;
 };
 
-function Page({ meta, newer, older, route, source, stats }: Props) {
+function Page({ content, meta, route }: Props) {
   return (
     <Components.View title={meta.title}>
       <Components.Post.Title
@@ -155,17 +84,24 @@ function Page({ meta, newer, older, route, source, stats }: Props) {
       <Components.Post.Hero image={meta.image} />
       <Components.Post.Content>
         <MDXRemote
-          {...source}
+          {...content}
           components={{
             ...components,
-            Route: () => (route ? <Components.Post.Route {...route} /> : null),
-            Stats: () => (stats ? <Components.Post.Stats {...stats} /> : null),
+            Route: () => <Components.Post.Route {...route} />,
+            Stats: () => (
+              <Components.Post.Stats
+                gain={meta.gain}
+                loss={meta.loss}
+                miles={meta.miles}
+                time={meta.time}
+              />
+            ),
           }}
         />
         <Components.Post.Navigation
-          newer={newer}
+          newer={meta.newer}
           newerLabel="Next Stage"
-          older={older}
+          older={meta.older}
           olderLabel="Previous Stage"
         />
       </Components.Post.Content>

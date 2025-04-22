@@ -11,7 +11,7 @@ export type Stats = {
 };
 
 export type Route = {
-  route: [number, number][];
+  route: string;
   start: string;
   stop: string;
 };
@@ -46,17 +46,25 @@ export type Older = {
   uri: string;
 };
 
+export type Marker = {
+  left: string;
+  top: string;
+};
+
 export type Post = {
   author: string;
   date: string;
   id: string;
   image: string;
   location: string;
-  marker?: string;
+  marker?: Marker;
   next?: string;
+  newer?: Newer;
+  older?: Older;
   previous?: string;
+  route?: Route;
   snippet: string;
-  stages?: Stage[];
+  stats?: Stats;
   tags: string[];
   title: string;
   uri: string;

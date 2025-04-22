@@ -10,14 +10,11 @@ function Page() {
     .filter((post) => post.marker)
     .map((post) => {
       if (post.marker) {
-        const marker = post.marker?.split(',');
-
         return {
+          ...post.marker,
           isPointOfOrigin: false,
           isPrivate: false,
           label: post.title,
-          left: `${marker[0]}%`,
-          top: `${marker[1]}%`,
           uri: post.uri,
         };
       }

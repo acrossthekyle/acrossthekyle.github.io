@@ -17,7 +17,7 @@ export type Item = {
 export type Category = {
   category: string;
   items: Item[];
-  weight: number;
+  weight: string;
 };
 
 export type Raw = {

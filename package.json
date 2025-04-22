@@ -15,7 +15,8 @@
     "test": "jest --passWithNoTests",
     "e2e": "npx playwright test",
     "e2e:start": "next build && next start",
-    "cache-posts": "npx tsx --experimental-modules scripts/cache-posts.ts && git add ./src/cache/posts.js"
+    "cache-posts": "npx tsx --experimental-modules scripts/cache-posts.ts && git add --all",
+    "cache-packs": "npx tsx --experimental-modules scripts/cache-packs.ts && git add --all"
   },
   "dependencies": {
     "@formspree/react": "3.0.0",
@@ -69,6 +70,7 @@
     "precommit-msg",
     "format:fix",
     "cache-posts",
+    "cache-packs",
     "build",
     "test"
   ],
