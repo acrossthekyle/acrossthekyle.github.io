@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { MDXRemote, type MDXRemoteSerializeResult } from 'next-mdx-remote';
+import { serialize } from 'next-mdx-remote/serialize';
 
 import Components from '@/components';
 import type { Posts } from '@/types';
@@ -41,7 +42,7 @@ export const getServerSideProps = async (request) => {
     const contentModule = await import(
       `@/cache/posts/${id}/stages/${stage}/content`
     );
-    const content = contentModule.content;
+    const content = await serialize(contentModule.content);
 
     const routeModule = await import(
       `@/cache/posts/${id}/stages/${stage}/route`

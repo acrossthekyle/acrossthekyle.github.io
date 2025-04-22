@@ -7,7 +7,6 @@ import fsPromises from 'fs/promises';
 import path from 'path';
 import matter from 'gray-matter';
 import { parse } from 'date-fns';
-import { serialize } from 'next-mdx-remote/serialize';
 
 const postsDirectory = path.join(process.cwd(), './src/posts');
 const cacheDirectory = './src/cache/posts';
@@ -237,9 +236,7 @@ function getPosts() {
 }
 
 async function serializePostContent(folder, content) {
-  const source = await serialize(content);
-
-  const json = `export const content = ${JSON.stringify(source)};`;
+  const json = `export const content = ${JSON.stringify(content)};`;
 
   writeCacheFile(`${cacheDirectory}/${folder}`, 'content.js', json);
 }
@@ -261,11 +258,9 @@ async function writeRoute(folder, meta, everyThird = false) {
 }
 
 async function serializeStageContent(folder, stage, content) {
-  const source = await serialize(content);
-
   createCacheDirectory(`${cacheDirectory}/${folder}/stages`);
 
-  const json = `export const content = ${JSON.stringify(source)};`;
+  const json = `export const content = ${JSON.stringify(content)};`;
 
   writeCacheFile(
     `${cacheDirectory}/${folder}/stages/${stage}`,
