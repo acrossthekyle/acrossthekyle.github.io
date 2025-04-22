@@ -237,7 +237,9 @@ function getPosts() {
 }
 
 async function serializePostContent(folder, content) {
-  const source = await serialize(content);
+  const source = await serialize(content, {
+    mdxOptions: { development: false },
+  });
 
   const json = `export const content = ${JSON.stringify(source)};`;
 
@@ -261,7 +263,9 @@ async function writeRoute(folder, meta, everyThird = false) {
 }
 
 async function serializeStageContent(folder, stage, content) {
-  const source = await serialize(content);
+  const source = await serialize(content, {
+    mdxOptions: { development: false },
+  });
 
   createCacheDirectory(`${cacheDirectory}/${folder}/stages`);
 
