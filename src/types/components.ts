@@ -25,8 +25,6 @@ export type Marker = {
 export type TimelineSegment = {
   cta?: string;
   eyeBrow: string;
-  isReadOnly?: boolean;
-  subTitle?: string;
   title: string;
-  uri: string;
+  uri?: string;
 };

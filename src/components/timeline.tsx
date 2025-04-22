@@ -17,14 +17,7 @@ function Timeline({ indexPrefix, segments }: Props) {
       <div className={scss.container}>
         {segments.map(
           (
-            {
-              cta = 'View',
-              eyeBrow,
-              isReadOnly,
-              subTitle,
-              title,
-              uri,
-            }: Components.TimelineSegment,
+            { cta = 'View', eyeBrow, title, uri }: Components.TimelineSegment,
             index: number,
           ) => (
             <div className={scss.block} key={`segment-${index}`}>
@@ -35,10 +28,7 @@ function Timeline({ indexPrefix, segments }: Props) {
               <div className={scss.title}>
                 {eyeBrow && <span>{eyeBrow}</span>}
                 <h3>{title}</h3>
-                {subTitle && <h4>{subTitle}</h4>}
-                {!isReadOnly && (
-                  <Button className={scss.more} href={uri} text={cta} />
-                )}
+                <Button className={scss.more} href={uri} text={cta} />
               </div>
             </div>
           ),

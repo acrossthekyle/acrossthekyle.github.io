@@ -29,9 +29,8 @@ export function transformStagesForTimeline(
   items = stages.map(({ date, title, uri }) => ({
     cta: 'View',
     eyeBrow: date,
-    isReadOnly: false,
-    title: title,
-    uri: uri,
+    title,
+    uri,
   }));
 
   return items;

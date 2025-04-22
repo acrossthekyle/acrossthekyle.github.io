@@ -21,7 +21,7 @@ export type Stage = {
   date: string;
   gain: number;
   id: string;
-  image: string;
+  image?: string;
   loss: number;
   miles: number;
   next?: string;
@@ -31,7 +31,7 @@ export type Stage = {
   time: string;
   tags: string;
   title: string;
-  uri: string;
+  uri?: string;
 };
 
 export type Newer = {
