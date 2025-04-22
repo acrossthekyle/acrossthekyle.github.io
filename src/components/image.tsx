@@ -1,4 +1,6 @@
-import { RefObject, forwardRef, useState } from 'react';
+'use client';
+
+import { RefObject, forwardRef, useEffect, useState } from 'react';
 import NextJsImage, { ImageProps } from 'next/image';
 
 import Constants from '@/constants';
@@ -18,9 +20,12 @@ const Image = forwardRef(function UiImage(
 ) {
   const [isLoaded, setIsLoaded] = useState(false);
 
+  useEffect(() => {
+    setIsLoaded(false);
+  }, [src]);
+
   return (
     <div className={scss.image} data-can-transform={canTransform}>
-      {!isLoaded && <div aria-hidden="true" className={scss.skeleton} />}
       <NextJsImage
         quality={80}
         {...rest}
@@ -31,6 +36,7 @@ const Image = forwardRef(function UiImage(
         ref={ref}
         src={`${Constants.IMAGE_BASE_URL}${src}`}
       />
+      {!isLoaded && <div aria-hidden="true" className={scss.skeleton} />}
     </div>
   );
 });

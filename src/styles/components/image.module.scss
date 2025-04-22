@@ -48,10 +48,11 @@
 .skeleton {
   background: var(--skeleton-background);
   height: 100%;
+  inset: 0;
   overflow: hidden;
   position: absolute;
   width: 100%;
-  z-index: 0;
+  z-index: 1;
 
   &::after {
     animation: shimmer 2s infinite;
