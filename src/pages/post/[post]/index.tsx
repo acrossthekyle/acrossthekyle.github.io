@@ -104,7 +104,7 @@ export const getServerSideProps = async (request, response) => {
   if (data.route) {
     const gpx = await routeFromGpx(`${data.route}.gpx`);
 
-    const coordinates = trimGpxCoordinates(gpx);
+    const coordinates = trimGpxCoordinates(gpx, true);
 
     let routeStart = '';
     let routeStop = '';

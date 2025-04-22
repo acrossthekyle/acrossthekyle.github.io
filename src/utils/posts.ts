@@ -1,4 +1,4 @@
-export function trimGpxCoordinates(gpx) {
+export function trimGpxCoordinates(gpx, everyThird = false) {
   const coordinates = [];
 
   gpx.features.forEach((feature) => {
@@ -10,7 +10,7 @@ export function trimGpxCoordinates(gpx) {
   });
 
   return coordinates
-    .filter((_, index) => index % 3 === 2)
+    .filter((_, index) => (everyThird ? index % 3 === 2 : index % 2 === 0))
     .filter((coordinate) => coordinate[0] !== null && coordinate[1] !== null)
     .map((coordinate) => [coordinate[1], coordinate[0]]);
 }
