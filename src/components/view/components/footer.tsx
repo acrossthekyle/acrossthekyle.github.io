@@ -6,25 +6,32 @@ import { posts } from '@/cache/posts';
 import Constants from '@/constants';
 import Styles from '@/styles';
 
+import Categories from '../../categories';
 import Image from '../../image';
 import Shortcuts from '../../shortcuts';
-import Tags from '../../tags';
 import Contact from './contact';
 import Theme from './theme';
 
 const scss = Styles.Components.View.Components.Footer;
 
 function Footer() {
-  const tags = uniq(flatten(posts.map(({ tags }) => tags)));
+  const categories = uniq(flatten(posts.map(({ categories }) => categories)));
 
   return (
     <footer className={scss.footer}>
       <div className={scss.columns}>
         <div className={scss.column}>
           <h2>About Me</h2>
-          <p>{Constants.ABOUT_ME_BLURB}</p>
-          <h2>Tags</h2>
-          <Tags className={scss.tags} items={tags} mode="secondary" />
+          <p>
+            My thru-hiking journey began in 2018, with the iconic 500-mile
+            Camino de Santiago...
+          </p>
+          <h2>Categories</h2>
+          <Categories
+            className={scss.categories}
+            items={[...categories, 'stage']}
+            mode="secondary"
+          />
         </div>
         <div className={scss.column}>
           <h2>Recent Posts</h2>

@@ -4,11 +4,11 @@ export function transformPostsForMasonry(
   posts: Posts.Post[],
 ): Components.MasonryItem[] {
   const items: Components.MasonryItem[] = posts.map(
-    ({ date, image, snippet, tags, title, uri }) => ({
+    ({ categories, date, image, snippet, title, uri }) => ({
+      categories,
       date,
       image,
       snippet,
-      tags,
       title,
       uri,
     }),

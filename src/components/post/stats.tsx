@@ -5,16 +5,17 @@ import Styles from '@/styles';
 const scss = Styles.Components.Post.Stats;
 
 type Props = {
+  className?: string;
   gain?: string | number;
   loss?: string | number;
   miles: string | number;
   time?: number | number[];
 };
 
-function Stats({ gain, loss, miles, time }: Props) {
+function Stats({ className = '', gain, loss, miles, time }: Props) {
   return (
     <>
-      <div className={scss.stats}>
+      <div className={`${scss.stats} ${className}`.trim()}>
         <h2 className={scss.stat}>
           <span>
             {new Intl.NumberFormat().format(Number(miles))}

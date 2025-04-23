@@ -19,7 +19,7 @@ type Meta = {
   id: string;
   uri: string;
   title: string;
-  tags: string[];
+  categories: string[];
   author: string;
   date: string;
   image: string;
@@ -97,8 +97,8 @@ function Page({ content, meta, route, stages }: Props) {
     <Components.View title={meta.title}>
       <Components.Post.Title
         author={meta.author}
+        categories={meta.categories}
         date={meta.date}
-        tags={meta.tags}
         title={meta.title}
       />
       <Components.Post.Hero image={meta.image} />

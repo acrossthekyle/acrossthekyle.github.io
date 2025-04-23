@@ -2,7 +2,7 @@ import Styles from '@/styles';
 
 import Button from './button';
 
-const scss = Styles.Components.Tags;
+const scss = Styles.Components.Categories;
 
 type Props = {
   className?: string;
@@ -10,12 +10,12 @@ type Props = {
   mode?: string;
 };
 
-function Tags({ className = '', items, mode = 'primary' }: Props) {
+function Categories({ className = '', items, mode = 'primary' }: Props) {
   return (
-    <div className={`${scss.tags} ${className}`.trim()}>
+    <div className={`${scss.container} ${className}`.trim()}>
       {items.map((item: string) => (
         <Button
-          href={`/tags/${encodeURIComponent(item)}`}
+          href={`/categories/${encodeURIComponent(item)}`}
           key={item}
           mode={mode}
           text={item}
@@ -25,4 +25,4 @@ function Tags({ className = '', items, mode = 'primary' }: Props) {
   );
 }
 
-export default Tags;
+export default Categories;

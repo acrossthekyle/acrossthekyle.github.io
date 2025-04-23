@@ -1,7 +1,7 @@
 import Page from './page.module.scss';
 
-const Tag = {
+const Categories = {
   Page,
 };
 
-export default Tag;
+export default Categories;

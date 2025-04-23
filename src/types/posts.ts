@@ -18,6 +18,7 @@ export type Route = {
 
 export type Stage = {
   author: string;
+  categories: string;
   date: string;
   gain: number;
   id: string;
@@ -29,7 +30,6 @@ export type Stage = {
   parent: string;
   route: string;
   time: string;
-  tags: string;
   title: string;
   uri?: string;
 };
@@ -53,6 +53,7 @@ export type Marker = {
 
 export type Post = {
   author: string;
+  categories: string[];
   date: string;
   id: string;
   image: string;
@@ -65,7 +66,6 @@ export type Post = {
   route?: Route;
   snippet: string;
   stats?: Stats;
-  tags: string[];
   title: string;
   uri: string;
 };

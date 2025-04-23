@@ -49,10 +49,10 @@ function createCacheDirectory(destination) {
   }
 }
 
-function writeCacheFile(destination, file, content) {
+async function writeCacheFile(destination, file, content) {
   createCacheDirectory(destination);
 
-  fs.writeFile(`${destination}/${file}`, content, function (error) {
+  await fs.writeFile(`${destination}/${file}`, content, function (error) {
     if (error) {
       return console.log(error);
     }
@@ -95,7 +95,7 @@ function getPostStages(postFolder, postMeta) {
           ],
           newer: null,
           older: null,
-          tags: data.tags.split(','),
+          categories: data.categories.split(','),
           time: data.time.split(','),
         },
       };
@@ -171,7 +171,7 @@ function getPosts() {
           newer: null,
           older: null,
           stats: null,
-          tags: data.tags.split(','),
+          categories: data.categories.split(','),
         },
         stages,
       };
@@ -238,7 +238,7 @@ function getPosts() {
 async function serializePostContent(folder, content) {
   const json = `export const content = ${JSON.stringify(content)};`;
 
-  writeCacheFile(`${cacheDirectory}/${folder}`, 'content.js', json);
+  await writeCacheFile(`${cacheDirectory}/${folder}`, 'content.js', json);
 }
 
 async function writeRoute(folder, meta) {
@@ -253,7 +253,7 @@ async function writeRoute(folder, meta) {
 
     const json = `export const route = ${JSON.stringify(coordinates)};`;
 
-    writeCacheFile(`${cacheDirectory}/${folder}`, 'route.js', json);
+    await writeCacheFile(`${cacheDirectory}/${folder}`, 'route.js', json);
   }
 }
 
@@ -262,17 +262,17 @@ async function serializeStageContent(folder, stage, content) {
 
   const json = `export const content = ${JSON.stringify(content)};`;
 
-  writeCacheFile(
+  await writeCacheFile(
     `${cacheDirectory}/${folder}/stages/${stage}`,
     'content.js',
     json,
   );
 }
 
-function writeMetaData(folder, meta) {
+async function writeMetaData(folder, meta) {
   const json = `export const meta = ${JSON.stringify(meta)};`;
 
-  writeCacheFile(`${cacheDirectory}/${folder}`, 'meta.js', json);
+  await writeCacheFile(`${cacheDirectory}/${folder}`, 'meta.js', json);
 }
 
 async function cache() {
@@ -285,32 +285,63 @@ async function cache() {
   });
 
   const posts = getPosts();
+  const stages = [];
 
-  const postsMetaData = `export const posts = ${JSON.stringify(posts.map((post) => post.meta))};`;
+  await writeCacheFile(
+    cacheDirectory,
+    'index.js',
+    `export const posts = ${JSON.stringify(posts.map((post) => post.meta))};`,
+  );
 
-  writeCacheFile(cacheDirectory, 'index.js', postsMetaData);
+  await Promise.all(
+    posts.map(async (post) => {
+      await serializePostContent(post.folder, post.content);
 
-  posts.forEach(async (post) => {
-    await serializePostContent(post.folder, post.content);
+      await writeRoute(post.folder, post.meta);
 
-    await writeRoute(post.folder, post.meta);
+      await writeMetaData(post.folder, post.meta);
 
-    writeMetaData(post.folder, post.meta);
+      if (post.stages !== null) {
+        await writeMetaData(
+          `${post.folder}/stages`,
+          post.stages.map((stage) => stage.meta),
+        );
 
-    if (post.stages !== null) {
-      const stages = post.stages.map((stage) => stage.meta);
+        stages.push({
+          date: post.meta.date,
+          title: post.meta.title,
+          stages: [...post.stages].map((stage) => stage.meta),
+          stats: post.meta.stats,
+          uri: post.meta.uri,
+        });
 
-      writeMetaData(`${post.folder}/stages`, stages);
+        post.stages.forEach(async (stage) => {
+          await serializeStageContent(post.folder, stage.stage, stage.content);
 
-      post.stages.forEach(async (stage) => {
-        await serializeStageContent(post.folder, stage.stage, stage.content);
+          await writeRoute(`${post.folder}/stages/${stage.stage}`, stage.meta);
 
-        await writeRoute(`${post.folder}/stages/${stage.stage}`, stage.meta);
+          await writeMetaData(
+            `${post.folder}/stages/${stage.stage}`,
+            stage.meta,
+          );
+        });
+      }
+    }),
+  );
 
-        writeMetaData(`${post.folder}/stages/${stage.stage}`, stage.meta);
-      });
-    }
-  });
+  if (stages.length > 0) {
+    await writeCacheFile(
+      cacheDirectory,
+      'stages.js',
+      `export const stages = ${JSON.stringify(
+        stages.sort(
+          (a, b) =>
+            parse(b.date, 'MMMM do, yyyy', new Date()) -
+            parse(a.date, 'MMMM do, yyyy', new Date()),
+        ),
+      )};`,
+    );
+  }
 }
 
-cache();
+await cache();

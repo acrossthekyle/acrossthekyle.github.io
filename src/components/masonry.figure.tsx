@@ -7,14 +7,14 @@ import Constants from '@/constants';
 import Styles from '@/styles';
 import type { Components } from '@/types';
 
+import Categories from './categories';
 import Image from './image';
-import Tags from './tags';
 
 const scss = Styles.Components.MasonryFigure;
 
 type Props = Components.MasonryItem;
 
-function Figure({ date, image, snippet, tags, title, uri }: Props) {
+function Figure({ categories, date, image, snippet, title, uri }: Props) {
   const [hasEnteredView, setHasEnteredView] = useState(false);
 
   const uuid = useId();
@@ -32,22 +32,26 @@ function Figure({ date, image, snippet, tags, title, uri }: Props) {
     <InView onChange={handleOnInView} threshold={0.1}>
       {({ ref }) => (
         <figure className={scss.figure} data-in-view={hasEnteredView}>
-          <Link
-            aria-describedby={uuid}
-            className={scss.link}
-            href={uri}
-            ref={ref}
-          >
-            <Image
-              alt=""
-              height={432}
-              sizes="(max-width: 768px) 100vw, 33vw"
-              src={image}
-              width={768}
-            />
-          </Link>
+          {!!image && (
+            <Link
+              aria-describedby={uuid}
+              className={scss.link}
+              href={uri}
+              ref={ref}
+            >
+              <Image
+                alt=""
+                height={432}
+                sizes="(max-width: 768px) 100vw, 33vw"
+                src={image}
+                width={768}
+              />
+            </Link>
+          )}
           <figcaption>
-            {tags && <Tags className={scss.tags} items={tags} />}
+            {categories && (
+              <Categories className={scss.categories} items={categories} />
+            )}
             <h2 id={uuid}>
               <Link className={scss.title} href={uri}>
                 {title}

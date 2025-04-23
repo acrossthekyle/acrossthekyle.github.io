@@ -4,23 +4,23 @@ import Constants from '@/constants';
 import Styles from '@/styles';
 import type { Posts } from '@/types';
 
+import Categories from '../categories';
 import Image from '../image';
-import Tags from '../tags';
 
 const scss = Styles.Components.Post.Title;
 
 type Props = {
   author: string;
   breadcrumbs?: Posts.Breadcrumb[];
+  categories: string[];
   date: string;
-  tags: string[];
   title: string;
 };
 
-function Title({ author, breadcrumbs, date, tags, title }: Props) {
+function Title({ author, breadcrumbs, categories, date, title }: Props) {
   return (
     <div className={scss.container}>
-      <Tags className={scss.tags} items={tags} />
+      <Categories className={scss.categories} items={categories} />
       {breadcrumbs && (
         <ul className={scss.breadcrumbs}>
           {breadcrumbs.map((breadcrumb) => (

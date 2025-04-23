@@ -1,0 +1,67 @@
+@use 'styles/mixins/_on' as on;
+@use 'styles/mixins/_screen' as screen;
+
+.header {
+  text-align: center;
+}
+
+.total {
+  margin: 0;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+  text-align: center;
+  width: 100%;
+
+  @include screen.small {
+    padding-bottom: 0.5rem;
+  }
+}
+
+.stages {
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .post,
+  .date {
+    text-align: center;
+  }
+
+  .post {
+    margin-bottom: 0.5rem;
+
+    a {
+      transition: all 0.4s ease-in-out;
+
+      @include on.hover {
+        box-shadow:
+          0 -1px var(--body) inset,
+          0 -3px var(--travels-title-hover) inset;
+      }
+    }
+  }
+
+  .date {
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+
+  .stats {
+    justify-content: center;
+    margin-bottom: 6rem;
+  }
+
+  @include screen.smedium {
+    .post,
+    .date {
+      text-align: left;
+    }
+
+    .stats {
+      justify-content: flex-start;
+    }
+  }
+}
