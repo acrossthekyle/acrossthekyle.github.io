@@ -2,6 +2,7 @@
 
 import { gpx } from '@tmcw/togeojson';
 import { DOMParser } from '@xmldom/xmldom';
+import _ from 'lodash';
 import fs from 'fs';
 import fsPromises from 'fs/promises';
 import path from 'path';
@@ -309,10 +310,7 @@ async function cache() {
 
         stages.push({
           date: post.meta.date,
-          title: post.meta.title,
           stages: [...post.stages].map((stage) => stage.meta),
-          stats: post.meta.stats,
-          uri: post.meta.uri,
         });
 
         post.stages.forEach(async (stage) => {
@@ -334,11 +332,15 @@ async function cache() {
       cacheDirectory,
       'stages.js',
       `export const stages = ${JSON.stringify(
-        stages.sort(
-          (a, b) =>
-            parse(b.date, 'MMMM do, yyyy', new Date()) -
-            parse(a.date, 'MMMM do, yyyy', new Date()),
-        ),
+        _.flatten(
+          stages
+            .sort(
+              (a, b) =>
+                parse(b.date, 'MMMM do, yyyy', new Date()) -
+                parse(a.date, 'MMMM do, yyyy', new Date()),
+            )
+            .map((stage) => stage.stages),
+        ).filter((stage) => !stage.readOnly),
       )};`,
     );
   }

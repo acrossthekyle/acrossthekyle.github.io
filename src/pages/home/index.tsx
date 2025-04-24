@@ -5,7 +5,7 @@ import { posts } from '@/cache/posts';
 import Components from '@/components';
 import Constants from '@/constants';
 import Styles from '@/styles';
-import { transformPostsForMasonry } from '@/utils/components';
+import { transformPostsOrStagesForMasonry } from '@/utils/components';
 
 const scss = Styles.Pages.Home.Page;
 
@@ -31,7 +31,7 @@ function Page() {
           shouldLabel
         />
       </div>
-      <Components.Masonry items={transformPostsForMasonry(posts)} />
+      <Components.Masonry items={transformPostsOrStagesForMasonry(posts)} />
     </Components.View>
   );
 }

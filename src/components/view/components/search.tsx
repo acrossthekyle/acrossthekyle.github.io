@@ -2,9 +2,10 @@
 
 import Fuse from 'fuse.js';
 import Link from 'next/link';
-import { ChangeEvent, useState } from 'react';
+import { ChangeEvent, KeyboardEvent, useState } from 'react';
 
 import { posts } from '@/cache/posts';
+import { stages } from '@/cache/posts/stages';
 import Images from '@/images';
 import Styles from '@/styles';
 import type { Posts } from '@/types';
@@ -15,6 +16,10 @@ type Props = {
   isSearching: boolean;
   onClose: () => void;
 };
+
+const FUSE = new Fuse([...posts, ...stages], {
+  keys: ['categories', 'date', 'location', 'title'],
+});
 
 function Search({ isSearching, onClose }: Props) {
   const [results, setResults] = useState([]);
@@ -31,11 +36,16 @@ function Search({ isSearching, onClose }: Props) {
       return;
     }
 
-    const fuse = new Fuse(posts, {
-      keys: ['date', 'location', 'title'],
-    });
+    setResults(FUSE.search(term).map((result) => result.item));
+  };
 
-    setResults(fuse.search(term).map((result) => result.item));
+  const handleOnKeyDown = (event: KeyboardEvent<HTMLInputElement>) => {
+    if (event.key === 'Escape') {
+      setQuery('');
+      setResults([]);
+
+      onClose();
+    }
   };
 
   return (
@@ -70,6 +80,7 @@ function Search({ isSearching, onClose }: Props) {
             className={scss.field}
             id="search-input"
             onChange={handleOnSearch}
+            onKeyDown={handleOnKeyDown}
             placeholder="Search posts..."
             type="text"
             value={query}

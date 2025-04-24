@@ -1,20 +1,20 @@
 import type { Components, Posts } from '@/types';
 
-export function transformPostsForMasonry(
-  posts: Posts.Post[],
+export function transformPostsOrStagesForMasonry(
+  input: Posts.Post[] | Posts.Stage[],
 ): Components.MasonryItem[] {
-  const items: Components.MasonryItem[] = posts.map(
-    ({ categories, date, image, snippet, title, uri }) => ({
-      categories,
+  const output: Components.MasonryItem[] = input.map(
+    ({ categories, date, title, ...rest }) => ({
+      categories: categories || [],
       date,
-      image,
-      snippet,
+      image: rest.image || '',
+      snippet: rest.snippet || '',
       title,
-      uri,
+      uri: rest.uri || '',
     }),
   );
 
-  return items;
+  return output;
 }
 
 export function transformStagesForTimeline(
