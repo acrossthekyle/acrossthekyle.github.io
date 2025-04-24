@@ -77,8 +77,8 @@ function View({ children, className = '', element, title }: Props) {
                 </button>
                 <Components.Cart />
                 <Components.Theme />
+                <Components.Menu />
               </div>
-              <Components.Menu />
             </div>
           </div>
         </div>

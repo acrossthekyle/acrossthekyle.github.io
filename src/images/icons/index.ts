@@ -9,6 +9,7 @@ import Instagram from './instagram';
 import Link from './link';
 import List from './list';
 import Marker from './marker';
+import Menu from './menu';
 import Search from './search';
 import Shirt from './shirt';
 import Store from './store';
@@ -30,6 +31,7 @@ const Icons = {
   Link,
   List,
   Marker,
+  Menu,
   Search,
   Shirt,
   Store,

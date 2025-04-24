@@ -5,7 +5,7 @@ import { useRouter } from 'next/router';
 
 type Props = {
   containerClassName?: string;
-  linkClassName: string;
+  linkClassName?: string;
   onClick?: () => void;
 };
 

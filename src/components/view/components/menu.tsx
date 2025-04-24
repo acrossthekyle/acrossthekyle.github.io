@@ -1,9 +1,9 @@
 'use client';
 
-import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useCallback, useEffect, useState } from 'react';
 
+import Images from '@/images';
 import Styles from '@/styles';
 
 import Navigation from './navigation';
@@ -34,17 +34,11 @@ function Menu() {
     setIsActive(false);
 
     document.getElementById('menuOpen').focus();
-
-    document
-      .querySelector('html')
-      .setAttribute('data-cannot-overflow', 'false');
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isActive]);
 
   const handleOnOpen = useCallback(() => {
     setIsActive(true);
-
-    document.querySelector('html').setAttribute('data-cannot-overflow', 'true');
 
     setTimeout(() => {
       document.getElementById('menuClose').focus();
@@ -54,54 +48,39 @@ function Menu() {
 
   const handleOnLinkClick = useCallback(() => {
     setIsActive(false);
-
-    document
-      .querySelector('html')
-      .setAttribute('data-cannot-overflow', 'false');
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isActive]);
 
   return (
     <>
       <button
-        aria-label="Open menu"
-        className={scss.menuButton}
+        className={scss.open}
         id="menuOpen"
         onClick={handleOnOpen}
         title="Open Menu"
         type="button"
       >
-        <div aria-hidden="true" className={scss.icon} />
+        <Images.Icons.Menu />
       </button>
-      <div className={scss.menu} data-active={isActive}>
-        <div
-          aria-labelledby="menuHeading"
-          aria-modal="true"
-          className={scss.content}
-          role="dialog"
-          tabIndex={-1}
-        >
-          <div className={scss.circle}>
-            <div className={scss.wrapper}>
-              <button
-                aria-label="Close menu"
-                className={scss.close}
-                id="menuClose"
-                onClick={handleOnClose}
-                title="Close menu"
-                type="button"
-              >
-                <div aria-hidden="true" className={scss.icon} />
-              </button>
-              <h2 id="menuHeading">Menu</h2>
-              <Navigation
-                linkClassName={scss.link}
-                onClick={handleOnLinkClick}
-              />
+      <nav className={scss.container} data-active={isActive}>
+        <div className={scss.wrapper}>
+          <button
+            className={scss.close}
+            id="menuClose"
+            onClick={handleOnClose}
+            title="Close menu"
+            type="button"
+          >
+            <Images.Icons.Close />
+          </button>
+          <div className={scss.content}>
+            <div className={scss.item}>
+              <h2>Menu</h2>
+              <Navigation onClick={handleOnLinkClick} />
             </div>
           </div>
         </div>
-      </div>
+      </nav>
     </>
   );
 }

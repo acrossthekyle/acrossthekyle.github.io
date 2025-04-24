@@ -1,166 +1,86 @@
-@use 'styles/mixins/_on' as on;
 @use 'styles/mixins/_screen' as screen;
 
-.menuButton {
-  align-items: center;
+.open {
   display: none;
-  height: 3rem;
-  justify-content: center;
-  position: absolute;
-  right: 4.25rem;
-  top: 0.65rem;
-  width: 3rem;
+  margin-left: 0.4rem;
   z-index: 1;
 
-  .icon {
-    background: var(--menu-icon-dark);
-    position: relative;
-    width: 50%;
-    height: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.4s ease;
-
-    &:before,
-    &:after {
-      content: '';
-      position: absolute;
-      z-index: 1;
-      top: -7px;
-      width: 100%;
-      height: 2px;
-      background: inherit;
-    }
-
-    &:after {
-      top: 7px;
-    }
-  }
-
   @include screen.medium {
-    display: flex;
-  }
-
-  @include screen.small {
-    right: 0.25rem;
+    display: block;
   }
 }
 
-.menu {
-  display: none;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 10;
+.container {
+  background-color: var(--body);
+  inset: 0;
+  opacity: 0;
+  position: fixed;
+  transition: all 0.2s ease;
+  visibility: hidden;
+  z-index: -1;
 
-  .close {
+  .wrapper {
     align-items: center;
     display: flex;
-    height: 3rem;
-    justify-content: center;
-    outline: 0;
-    position: absolute;
-    right: 4.2rem;
-    top: 0.5rem;
-    visibility: hidden;
-    width: 3rem;
-    z-index: 1;
+    margin: 0 auto;
+    padding-top: 12.5rem;
+    width: 80%;
 
-    .icon {
-      background: var(--menu-icon-active);
-      position: relative;
-      width: 50%;
-      height: 2px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transform: rotate(135deg);
-      transition: all 0.4s ease;
+    .close {
+      position: absolute;
+      right: 1.25rem;
+      top: 1.25rem;
+      z-index: 5;
 
-      &:before,
-      &:after {
-        content: '';
-        position: absolute;
-        z-index: 1;
-        top: 0;
-        width: 100%;
-        height: 2px;
-        background: inherit;
-        transform: rotate(90deg);
+      svg {
+        height: 1.75rem !important;
+        width: 1.75rem !important;
       }
     }
-  }
 
-  .content {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    visibility: hidden;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    .content {
+      height: 75vh;
+      overflow-y: auto;
+      width: 100%;
 
-    .circle {
-      align-items: center;
-      background: var(--menu-background);
-      border-radius: 50%;
-      display: flex;
-      flex: none;
-      flex-direction: column;
-      height: 210vh;
-      justify-content: center;
-      position: relative;
-      transform: scale(0);
-      transition: all 0.4s ease;
-      width: 210vh;
-
-      .wrapper {
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-        opacity: 0;
-        padding-top: 6.25rem;
-        position: relative;
-        transition: opacity 0.4s ease;
-        width: 100vw;
-        z-index: 2;
+      .item {
+        margin-bottom: 2rem;
 
         h2 {
-          margin-bottom: 1.875rem;
-          padding-bottom: 1.25rem;
+          color: var(--text);
+          font-size: 1.875rem;
+          font-weight: 700;
+          margin-bottom: 3rem;
+          padding-bottom: 1rem;
           position: relative;
           text-align: center;
 
           &:after {
+            background-color: var(--text);
             bottom: 0;
             content: '';
-            position: absolute;
-            left: 50%;
-            transform: translate(-50%, -50%);
             display: block;
-            width: 25px;
-            height: 2px;
-            background-color: #4a4b51;
+            height: 0.125rem;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            width: 1.5rem;
           }
         }
 
         ul {
+          list-style: none;
           margin: 0;
           padding: 0;
 
           li {
-            display: flex;
-            justify-content: center;
-            list-style: none;
-            margin-bottom: 2rem;
+            display: block;
+            margin: 0 1rem 2.25rem;
+            text-align: center;
 
             a {
-              position: relative;
-              padding: 5px 7px;
+              font-size: 1rem;
+              padding: 0.25rem 0.5rem;
               text-transform: uppercase;
             }
           }
@@ -170,35 +90,24 @@
   }
 
   &[data-active='true'] {
-    z-index: 99;
+    z-index: 100;
+    opacity: 1;
+    visibility: visible;
+  }
 
-    .close {
-      visibility: visible;
-    }
+  @include screen.medium {
+    display: block;
+  }
 
-    .content {
-      visibility: visible;
-
-      .circle {
-        transform: scale(1);
-        transition-duration: 0.75s;
-
-        .wrapper {
-          opacity: 1;
-          transition: opacity 0.4s ease;
-        }
-      }
+  @include screen.small {
+    .wrapper {
+      padding-top: 6.25rem;
     }
   }
-}
 
-@include screen.medium {
-  .menu {
-    display: block;
-
-    .close {
-      right: 0.5rem;
-      top: 3rem;
-    }
+  @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    -webkit-backdrop-filter: saturate(180%) blur(0.625rem);
+    backdrop-filter: saturate(180%) blur(0.625rem);
+    background-color: var(--menu-background);
   }
 }
