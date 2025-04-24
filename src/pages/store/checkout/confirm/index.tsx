@@ -48,7 +48,13 @@ function Page() {
   };
 
   return (
-    <Components.View title="Shop | Checkout">
+    <Components.View
+      metadata={{
+        title: `Store | Checkout`,
+        description: '',
+        url: '/store/checkout/confirm',
+      }}
+    >
       <h1 className={scss.header}>Checkout</h1>
       <div className={scss.checkout} id="checkout">
         <EmbeddedCheckoutProvider

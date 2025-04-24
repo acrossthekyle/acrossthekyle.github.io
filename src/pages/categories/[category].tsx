@@ -1,4 +1,4 @@
-import { flatten, uniq } from 'lodash';
+import { capitalize, flatten, map, uniq } from 'lodash';
 
 import { posts } from '@/cache/posts';
 import { stages } from '@/cache/posts/stages';
@@ -8,6 +8,16 @@ import type { Posts } from '@/types';
 import { transformPostsOrStagesForMasonry } from '@/utils/components';
 
 const scss = Styles.Pages.Categories.Page;
+
+function format(value: string) {
+  let divider = ' ';
+
+  if (value.includes('-')) {
+    divider = '-';
+  }
+
+  return map(value.split(divider), capitalize).join(divider);
+}
 
 export async function getStaticPaths() {
   const categories = uniq(
@@ -51,7 +61,13 @@ type Props = {
 
 function Page({ category, results, total }: Props) {
   return (
-    <Components.View title={`Categories | ${category}`}>
+    <Components.View
+      metadata={{
+        title: `Categories | ${format(category)}`,
+        description: `Posts tagged with "${format(category)}"`,
+        url: `/categories/${encodeURIComponent(category)}`,
+      }}
+    >
       <h1 className={scss.header}>Category: {category}</h1>
       <p className={scss.total}>{`${total} Item(s)`}</p>
       <Components.Masonry items={transformPostsOrStagesForMasonry(results)} />

@@ -35,7 +35,14 @@ type Props = {
 
 function Page({ pack, packs, units, uri }: Props) {
   return (
-    <Components.View element="div" title="Packs">
+    <Components.View
+      element="div"
+      metadata={{
+        title: `Packs`,
+        description: `Every trip is different with its own set of gear. These are the packs that I bring with me on each of my hikes.`,
+        url: uri,
+      }}
+    >
       <h1 className={scss.heading}>Packs</h1>
       <Components.Packs.Units units={units} uri={uri} />
       <div className={scss.container}>

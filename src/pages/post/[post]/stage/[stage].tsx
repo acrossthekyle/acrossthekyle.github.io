@@ -106,7 +106,16 @@ function Page({ content, meta, route }: Props) {
   }
 
   return (
-    <Components.View title={meta.title}>
+    <Components.View
+      metadata={{
+        title: `Post | ${meta.breadcrumbs
+          .filter((crumb) => crumb.title !== 'Stages')
+          .map((crumb) => crumb.title)
+          .join(' - ')} - ${meta.title}`,
+        description: meta.title,
+        url: meta.uri,
+      }}
+    >
       <Components.Post.Title
         author={meta.author}
         breadcrumbs={meta.breadcrumbs}

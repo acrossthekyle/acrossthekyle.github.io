@@ -94,7 +94,13 @@ function Page({ content, meta, route, stages }: Props) {
   }
 
   return (
-    <Components.View title={meta.title}>
+    <Components.View
+      metadata={{
+        title: `Post | ${meta.title}`,
+        description: meta.snippet,
+        url: meta.uri,
+      }}
+    >
       <Components.Post.Title
         author={meta.author}
         categories={meta.categories}

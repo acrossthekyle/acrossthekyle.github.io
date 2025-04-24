@@ -7,7 +7,13 @@ const scss = Styles.Pages.Store.Page;
 
 function Page() {
   return (
-    <Components.View title="Store">
+    <Components.View
+      metadata={{
+        title: `Store`,
+        description: `These prints for purchase are inspired by this planet, and captured by me, while marching through forests and over mountains.`,
+        url: '/store',
+      }}
+    >
       <h1 className={scss.heading}>Store</h1>
       <div className={scss.items}>
         {store.map((item: Store.Item) => (

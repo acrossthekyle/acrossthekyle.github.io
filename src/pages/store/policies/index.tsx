@@ -2,7 +2,13 @@ import Components from '@/components';
 
 function Page() {
   return (
-    <Components.View title="Store | Policies">
+    <Components.View
+      metadata={{
+        title: `Store | Policies`,
+        description: '',
+        url: '/store/policies',
+      }}
+    >
       <Components.Store.Policies />
     </Components.View>
   );

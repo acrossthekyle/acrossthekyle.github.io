@@ -10,6 +10,7 @@ class MyDocument extends Document {
           <meta name="author" content="Kyle Gilbert" />
           <meta
             name="description"
+            key="description"
             content="I'm a backpacker/programmer based in Chicago with my partner and our dog Dax."
           />
           <meta name="format-detection" content="telephone=no" />
@@ -29,13 +30,22 @@ class MyDocument extends Document {
           <meta name="theme-color" content="#1d1d1d" />
           <meta name="msapplication-navbutton-color" content="#1d1d1d" />
 
-          <meta property="og:title" content="Kyle - Backpacker/Programmer" />
+          <meta
+            property="og:title"
+            key="og:title"
+            content="Kyle - Backpacker/Programmer"
+          />
           <meta
             property="og:description"
+            key="og:description"
             content="I'm a backpacker/programmer based in Chicago with my partner and our dog Dax."
           />
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://www.acrossthekyle.com" />
+          <meta
+            property="og:url"
+            key="og:url"
+            content="https://www.acrossthekyle.com"
+          />
           <meta property="og:locale" content="en" />
           <meta property="og:site_name" content="Kyle Gilbert" />
           <meta

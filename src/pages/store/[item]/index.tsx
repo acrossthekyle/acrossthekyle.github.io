@@ -70,7 +70,13 @@ function Page() {
   const snippet = data?.snippet || '';
 
   return (
-    <Components.View title={`Store | ${name}`}>
+    <Components.View
+      metadata={{
+        title: `Store | ${name}`,
+        description: snippet,
+        url: data?.uri,
+      }}
+    >
       <div className={scss.wrapper}>
         <Components.Store.Item.Aside
           color={color}

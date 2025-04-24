@@ -30,7 +30,14 @@ function Page() {
   });
 
   return (
-    <Components.View title="About">
+    <Components.View
+      metadata={{
+        title: 'About',
+        description:
+          'My thru-hiking journey began in 2018, with the iconic 500-mile Camino de Santiago across Northern Spain.',
+        url: `/me`,
+      }}
+    >
       <div className={scss.image}>
         <Components.Image
           alt=""

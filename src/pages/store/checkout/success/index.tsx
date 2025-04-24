@@ -26,7 +26,13 @@ function Page() {
   }, []);
 
   return (
-    <Components.View title="Shop | Checkout Confirmation">
+    <Components.View
+      metadata={{
+        title: `Store | Checkout Confirmation`,
+        description: '',
+        url: '/store/checkout/success',
+      }}
+    >
       {isLoading && <Components.Loading />}
       {isReady && (
         <>

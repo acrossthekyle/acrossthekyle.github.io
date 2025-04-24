@@ -41,7 +41,13 @@ function Page() {
     .toFixed(2);
 
   return (
-    <Components.View title="Store | Cart">
+    <Components.View
+      metadata={{
+        title: `Store | Cart`,
+        description: '',
+        url: '/store/checkout/cart',
+      }}
+    >
       <div className={scss.container}>
         {cart.length === 0 ? (
           <div className={scss.empty}>

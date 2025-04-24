@@ -11,11 +11,17 @@ import Components from './components';
 
 const scss = Styles.Components.View.View;
 
+type Metadata = {
+  description: string;
+  title: string;
+  url: string;
+};
+
 type Props = {
   children: ReactNode | ReactNode[];
   className?: string;
   element?: string;
-  title?: string;
+  metadata?: Metadata;
 };
 
 function Wrapper({ children, element, ...rest }) {
@@ -26,7 +32,7 @@ function Wrapper({ children, element, ...rest }) {
   return <main {...rest}>{children}</main>;
 }
 
-function View({ children, className = '', element, title }: Props) {
+function View({ children, className = '', element, metadata }: Props) {
   const [isSearching, setIsSearching] = useState(false);
 
   const handleOnOpenSearch = () => {
@@ -48,8 +54,38 @@ function View({ children, className = '', element, title }: Props) {
   return (
     <>
       <Head>
-        {!title && <title>Across The Kyle</title>}
-        {title && <title>Across The Kyle &mdash;&mdash; {title}</title>}
+        {!metadata?.title && <title>Across The Kyle</title>}
+        {metadata?.title && (
+          <>
+            <title>Across The Kyle - {metadata.title}</title>
+            <meta
+              property="og:title"
+              key="og:title"
+              content={`Across The Kyle - ${metadata.title}`}
+            />
+          </>
+        )}
+        {metadata?.description && (
+          <>
+            <meta
+              name="description"
+              key="description"
+              content={metadata.description}
+            />
+            <meta
+              property="og:description"
+              key="og:description"
+              content={metadata.description}
+            />
+          </>
+        )}
+        {metadata?.url && (
+          <meta
+            property="og:url"
+            key="og:url"
+            content={`https://www.acrossthekyle.com${metadata.url}`}
+          />
+        )}
       </Head>
       <header className={scss.header}>
         <div className={scss.wrapper}>
