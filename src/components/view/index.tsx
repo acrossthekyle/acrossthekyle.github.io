@@ -55,11 +55,9 @@ function View({ children, className = '', element, title }: Props) {
         <div className={scss.wrapper}>
           <div className={scss.container}>
             <div className={scss.inner}>
-              <div className={scss.logo}>
-                <Link aria-label="acrossthekyle" href="/" id="logo">
-                  AcrossThe<span>Kyle</span>
-                </Link>
-              </div>
+              <Link className={scss.logo} href="/" id="logo">
+                AcrossThe<span>Kyle</span>
+              </Link>
               <nav className={scss.nav}>
                 <div className={scss.wrapper}>
                   <Components.Navigation
@@ -70,14 +68,15 @@ function View({ children, className = '', element, title }: Props) {
               </nav>
               <div className={scss.icons}>
                 <button
-                  aria-label="Search for posts"
                   id="searchOpen"
                   onClick={handleOnOpenSearch}
+                  title="Search for posts"
                   type="button"
                 >
                   <Images.Icons.Search />
                 </button>
                 <Components.Cart />
+                <Components.Theme />
               </div>
               <Components.Menu />
             </div>

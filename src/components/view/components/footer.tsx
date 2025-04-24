@@ -10,7 +10,6 @@ import Categories from '../../categories';
 import Image from '../../image';
 import Shortcuts from '../../shortcuts';
 import Contact from './contact';
-import Theme from './theme';
 
 const scss = Styles.Components.View.Components.Footer;
 
@@ -92,7 +91,6 @@ function Footer() {
           </Link>
           . See you out there.
         </span>
-        <Theme />
       </div>
     </footer>
   );

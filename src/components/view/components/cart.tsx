@@ -10,7 +10,11 @@ function Cart() {
   const hasItems = useCartHasItems();
 
   return (
-    <Link className={scss.link} href="/store/checkout/cart">
+    <Link
+      className={scss.link}
+      href="/store/checkout/cart"
+      title="Go to shopping cart"
+    >
       <Images.Icons.Cart />
       {hasItems && <span className={scss.count} />}
     </Link>

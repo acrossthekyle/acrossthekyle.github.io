@@ -1,6 +1,6 @@
 'use client';
 
-import { ReactNode, createContext, useState } from 'react';
+import { ReactNode, createContext, useEffect, useState } from 'react';
 
 type Props = {
   children: ReactNode | ReactNode[];
@@ -15,6 +15,11 @@ export const ThemeContext = createContext({
 
 const Theme = ({ children }: Props) => {
   const [theme, setTheme] = useState('dark');
+
+  useEffect(() => {
+    setTheme(localStorage.getItem('theme'));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
