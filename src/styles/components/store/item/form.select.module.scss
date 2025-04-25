@@ -20,6 +20,10 @@
     padding: 0 2.5rem 0 0.875rem;
     position: relative;
     -webkit-appearance: none;
+
+    &:focus {
+      outline: 1px solid var(--button);
+    }
   }
 
   .chevron {
