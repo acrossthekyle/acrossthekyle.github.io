@@ -1,200 +1,222 @@
 import { test, expect } from '@playwright/test';
 
-async function addToCart(page, main, index) {
-  const figure = await main.getByRole('figure').nth(index);
-  const figcaption = await figure.locator('figcaption');
-  const heading = await figcaption.getByRole('heading', { level: 2 });
-  const anchor = await heading.locator('a[href*="store/"]').nth(0);
+test('store empty cart', async ({ page }) => {
+  await page.goto('/store/checkout/cart');
 
-  await anchor.click();
+  const main = await page.getByRole('main');
 
-  const button = await main.getByRole('button', { name: 'ADD TO CART' });
+  const noItems = await main.getByRole('heading', {
+    level: 2,
+    name: 'no items in cart',
+  });
 
-  await button.click();
-}
+  await expect(noItems).toBeVisible();
 
-test('loads', async ({ page }) => {
-  await page.goto('/store');
+  const link = await main.getByRole('link', { name: 'back to store' });
 
-  await expect(page).toHaveTitle(`Across The Kyle —— Store`);
+  await link.click();
+
+  const heading = await main.getByRole('heading', {
+    level: 1,
+    name: 'store',
+  });
+
+  await expect(heading).toBeVisible();
 });
 
-test('has at least nine items', async ({ page }) => {
+test('store items', async ({ page }) => {
   await page.goto('/store');
 
-  const figure = await page.getByRole('figure');
-  const count = await figure.count();
+  const masonry = await page.getByRole('figure');
+
+  const count = await masonry.count();
 
   await expect(count).toBeGreaterThanOrEqual(9);
 });
 
-test('empty cart goes back to store', async ({ page }) => {
-  await page.goto('/store/checkout/cart');
-
-  await expect(page).toHaveTitle(`Across The Kyle —— Store | Cart`);
-
-  const main = await page.locator('main');
-  const heading = await main.getByRole('heading', { level: 2 });
-  const text = await heading.textContent();
-
-  await expect(text).toEqual(`No items in cart`);
-
-  const link = await main.getByRole('link', { name: 'Back to Store' });
-
-  link.click();
-
-  await expect(page).toHaveTitle(`Across The Kyle —— Store`);
-});
-
-test('goes to details', async ({ page }) => {
+test('store item details', async ({ page }) => {
   await page.goto('/store');
 
-  const main = await page.locator('main');
+  const main = await page.getByRole('main');
+
   const figure = await main.getByRole('figure').nth(0);
-  const figcaption = await figure.locator('figcaption');
-  const heading = await figcaption.getByRole('heading', { level: 2 });
-  const anchor = await heading.locator('a[href*="store/"]').nth(0);
-  const text = await anchor.textContent();
 
-  await anchor.click();
+  const name = await figure.getByRole('heading', { level: 2 }).textContent();
 
-  await expect(page).toHaveTitle(`Across The Kyle —— Store | ${text}`);
+  await figure.getByRole('link').nth(0).click();
+
+  const heading = await main.getByRole('heading', {
+    level: 1,
+    name,
+  });
+
+  await expect(heading).toBeVisible();
+
+  const price = await main.getByRole('heading', {
+    level: 2,
+    name: '$215.00',
+  });
+
+  await expect(price).toBeVisible();
+
+  const frame = await main.locator('select[name="frame"]');
+
+  const selectedFrame = await frame.evaluate((select) =>
+    select.options[select.value].text.toLowerCase(),
+  );
+
+  await expect(selectedFrame).toEqual('framed with mat');
+
+  const size = await main.locator('select[name="size"]');
+
+  const selectedSize = await size.evaluate(
+    (select) => select.options[select.value].text,
+  );
+
+  await expect(selectedSize).toEqual('18" x 24"');
+
+  const color = await main.locator('select[name="frame-color"]');
+
+  const selectedColor = await color.evaluate((select) =>
+    select.options[select.value].text.toLowerCase(),
+  );
+
+  await expect(selectedColor).toEqual('white');
+
+  await frame.selectOption({ index: 1 });
+
+  const updatedColor = await color.evaluate((select) =>
+    select.options[select.value].text.toLowerCase(),
+  );
+
+  await expect(updatedColor).toEqual('white');
+
+  const framedSize = await size.evaluate(
+    (select) => select.options[select.value].text,
+  );
+
+  await expect(framedSize).toEqual('11" x 14"');
+
+  await frame.selectOption({ index: 0 });
+
+  expect(color).not.toBeVisible();
+
+  const noFrameSize = await size.evaluate(
+    (select) => select.options[select.value].text,
+  );
+
+  await expect(noFrameSize).toEqual('5" x 7"');
+
+  await frame.selectOption({ index: 1 });
+
+  const framedColor = await color.evaluate((select) =>
+    select.options[select.value].text.toLowerCase(),
+  );
+
+  await expect(framedColor).toEqual('black');
+
+  await frame.selectOption({ index: 2 });
+  await size.selectOption({ index: 3 });
+  await color.selectOption({ index: 1 });
+
+  await main.getByRole('button', { name: 'add to cart' }).click();
+
+  const cart = await main.getByRole('heading', {
+    level: 1,
+    name: 'cart',
+  });
+
+  await expect(cart).toBeVisible();
 });
 
-test('add to cart', async ({ page }) => {
-  await page.goto('/store');
+test('store cart', async ({ page }) => {
+  await page.goto('/store/stone-gateway');
 
   const main = await page.locator('main');
 
-  await addToCart(page, main, 0);
+  await main.getByRole('button', { name: 'add to cart' }).click();
 
-  const link = await main.getByRole('link', { name: 'Checkout' });
+  const link = await main.getByRole('link', { name: 'checkout' });
 
   await expect(link).not.toBeHidden();
 
-  const items = page.locator('#items');
+  const item = await main.locator('section');
 
-  const name = await items.getByRole('heading', { level: 2 }).nth(0);
-  const text = await name.textContent();
+  await expect(item).toHaveCount(1);
 
-  await expect(text).toEqual('Stone Gateway');
+  const name = await main.getByRole('heading', {
+    level: 2,
+    name: 'stone gateway',
+  });
 
-  const list = items.locator('ul > li');
+  await expect(name).toBeVisible();
 
-  const size = await list.nth(0).textContent();
-  const frame = await list.nth(1).textContent();
-  const color = await list.nth(2).textContent();
-  const mat = await list.nth(3).textContent();
+  const list = main.getByRole('list');
+
+  const size = await list.locator('li').nth(0).textContent();
+  const frame = await list.locator('li').nth(1).textContent();
+  const color = await list.locator('li').nth(2).textContent();
+  const mat = await list.locator('li').nth(3).textContent();
 
   expect(size).toEqual('Size: 18" x 24"');
   expect(frame).toEqual('Frame: Yes');
   expect(color).toEqual('Color: White');
   expect(mat).toEqual('Mat: Yes');
-});
 
-test('remove cart item', async ({ page }) => {
-  await page.goto('/store');
+  const initialQuantity = await main.getByRole('span', {
+    title: 'quantity of 1',
+  });
 
-  const main = await page.locator('main');
+  const initialItemPrice = await item.getByRole('paragraph').textContent();
+  const initialCartPrice = await main
+    .getByRole('paragraph')
+    .nth(0)
+    .textContent();
 
-  await addToCart(page, main, 0);
+  await expect(initialItemPrice).toEqual('$215.00');
+  await expect(initialCartPrice).toEqual('$215.00');
 
-  const items = page.locator('#items');
+  await expect(initialQuantity).toBeDefined();
 
-  const remove = await items
-    .getByRole('button', { title: 'Remove item' })
-    .nth(0);
+  await main.getByRole('button', { name: '+' }).click();
 
-  await remove.click();
+  const increasedItemPrice = await item.getByRole('paragraph').textContent();
+  const increasedCartPrice = await main
+    .getByRole('paragraph')
+    .nth(0)
+    .textContent();
 
-  const checkout = await main.getByRole('link', { name: 'Checkout' });
-  const back = await main.getByRole('link', { name: 'Back to Store' });
+  await expect(increasedItemPrice).toEqual('$430.00 (215.00 x 2)');
+  await expect(increasedCartPrice).toEqual('$430.00');
 
-  await expect(checkout).toBeHidden();
-  await expect(back).not.toBeHidden();
-});
+  const increasedQuantity = await main.getByRole('span', {
+    title: 'quantity of 2',
+  });
 
-test('increase cart item quantity', async ({ page }) => {
-  await page.goto('/store');
+  await expect(increasedQuantity).toBeDefined();
 
-  const main = await page.locator('main');
+  await main.getByRole('button', { name: '-' }).click();
 
-  await addToCart(page, main, 0);
+  const decreasedItemPrice = await item.getByRole('paragraph').textContent();
+  const decreasedCartPrice = await main
+    .getByRole('paragraph')
+    .nth(0)
+    .textContent();
 
-  const items = page.locator('#items');
+  await expect(decreasedItemPrice).toEqual('$215.00');
+  await expect(decreasedCartPrice).toEqual('$215.00');
 
-  const current = await items
-    .getByRole('span', { title: 'Quantity of 1' })
-    .nth(0);
+  const decreasedQuantity = await main.getByRole('span', {
+    title: 'quantity of 1',
+  });
 
-  await expect(current).toBeDefined();
+  await expect(decreasedQuantity).toBeDefined();
 
-  const increase = await items
-    .getByRole('button', { title: 'Increase quantity' })
-    .nth(0);
+  await main.getByRole('button', { name: 'remove item' }).click();
 
-  await increase.click();
+  const checkout = await main.getByRole('link', { name: 'checkout' });
+  const back = await main.getByRole('link', { name: 'back to store' });
 
-  const increased = await items
-    .getByRole('span', { title: 'Quantity of 2' })
-    .nth(0);
-
-  await expect(increased).toBeDefined();
-});
-
-test('decrease cart item quantity', async ({ page }) => {
-  await page.goto('/store');
-
-  const main = await page.locator('main');
-
-  await addToCart(page, main, 0);
-
-  const items = page.locator('#items');
-
-  const current = await items
-    .getByRole('span', { title: 'Quantity of 1' })
-    .nth(0);
-
-  await expect(current).toBeDefined();
-
-  const decrease = await items
-    .getByRole('button', { title: 'Decrease quantity' })
-    .nth(0);
-
-  await decrease.click();
-
-  const checkout = await main.getByRole('link', { name: 'Checkout' });
-  const back = await main.getByRole('link', { name: 'Back to Store' });
-
-  await expect(checkout).toBeHidden();
-  await expect(back).not.toBeHidden();
-});
-
-test('multiple cart items', async ({ browserName, page }) => {
-  test.skip(
-    browserName !== 'chromium',
-    'This feature is only relevant in Chrome',
-  );
-
-  await page.goto('/store');
-
-  const main = await page.locator('main');
-
-  await addToCart(page, main, 0);
-
-  await page.goto('/store');
-
-  await addToCart(page, main, 1);
-
-  const header = await page.locator('header');
-  const cart = await header.locator('a[href*="store/checkout/cart"]');
-
-  await cart.click();
-
-  const items = await page.locator('#items');
-
-  const headings = await items.getByRole('heading', { level: 2 });
-  const count = await headings.count();
-
-  expect(count).toBe(2);
+  await expect(checkout).not.toBeVisible();
+  await expect(back).toBeVisible();
 });

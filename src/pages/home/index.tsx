@@ -13,9 +13,10 @@ function Page() {
   return (
     <Components.View>
       <div className={scss.header}>
-        <Link aria-hidden="true" className={scss.image} href="/me">
+        <Link className={scss.image} href="/me" title="Kyle Gilbert">
           <Components.Image
             alt=""
+            aria-hidden="true"
             canTransform={false}
             height={432}
             sizes="25vw"

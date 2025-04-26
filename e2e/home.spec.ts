@@ -1,169 +1,83 @@
 import { test, expect } from '@playwright/test';
 
-test('loads', async ({ page }) => {
+test('home loads', async ({ page }) => {
   await page.goto('/');
 
-  const h1 = await page.getByRole('heading', {
+  const heading = await page.getByRole('heading', {
     level: 1,
     name: 'kyle gilbert',
   });
 
-  await expect(h1).toBeVisible();
+  await expect(heading).toBeVisible();
 });
 
-// test('goes to me from large avatar', async ({ page }) => {
-//   await page.goto('/');
+test('home avatar navigates to about', async ({ page }) => {
+  await page.goto('/');
 
-//   const main = await page.locator('main');
-//   const me = await main.locator('a[href*="/me"]').nth(1);
+  const main = await page.getByRole('main');
 
-//   await me.click();
+  await main
+    .getByRole('link', {
+      name: 'kyle gilbert',
+    })
+    .click();
 
-//   await expect(page).toHaveTitle(`Across The Kyle —— About`);
-// });
+  const heading = await page.getByRole('heading', {
+    level: 1,
+    name: 'about',
+  });
 
-// test('has at least nine posts on initial load', async ({ page }) => {
-//   await page.goto('/');
-//   const posts = page.locator('#masonry');
+  await expect(heading).toBeVisible();
+});
 
-//   await expect(posts.getByRole('figure')).toHaveCount(9);
-// });
+[
+  {
+    name: 'me',
+    title: /about/i,
+  },
+  {
+    name: 'packs',
+    title: /packs/i,
+  },
+  {
+    name: 'store',
+    title: /store/i,
+  },
+  {
+    name: 'instagram',
+    url: 'https://www.instagram.com/acrossthekyle/',
+  },
+  {
+    name: 'garmin',
+    url: 'https://apps.garmin.com/en-US/developer/f796f8e5-5034-44c2-99a7-21d319c6c728/apps',
+  },
+].forEach(({ name, title, url }) => {
+  test(`home shortcut ${name} navigates`, async ({ browser }) => {
+    const context = await browser.newContext();
+    const page = await context.newPage();
 
-// test('loads more posts', async ({ page }) => {
-//   await page.goto('/');
-//   const button = await page.getByRole('button', { name: 'load more' });
-//   const posts = page.locator('#masonry');
+    await page.goto('/');
 
-//   button.click();
+    const main = await page.getByRole('main');
 
-//   await expect(posts.getByRole('figure')).toHaveCount(18);
+    const shortcuts = await main.locator('[class^="shortcuts"]').nth(0);
 
-//   button.click();
+    await shortcuts
+      .getByRole('link', {
+        name,
+      })
+      .click();
 
-//   await expect(posts.getByRole('figure')).toHaveCount(19);
-//   await expect(button).toBeHidden();
-// });
+    if (url) {
+      const [pages] = await Promise.all([page.context().waitForEvent('page')]);
 
-// test('posts have information', async ({ page }) => {
-//   await page.goto('/');
-//   const posts = page.locator('#masonry');
-//   const figure = await posts.getByRole('figure').nth(0);
-//   const figcaption = await figure.locator('figcaption');
-//   const figcaptionTags = await figcaption.locator('a[href*="tags/"]').count();
+      const tabs = pages.context().pages();
 
-//   await expect(figure.locator('figcaption')).toHaveCount(1);
-//   await expect(figcaptionTags).toBeGreaterThanOrEqual(1);
-//   await expect(figcaption.getByRole('heading', { level: 2 })).toHaveCount(1);
-//   await expect(figcaption.getByRole('paragraph')).toHaveCount(1);
-//   await expect(figcaption.getByText('kyle gilbert')).toHaveCount(1);
-//   await expect(figcaption.getByRole('time')).toHaveCount(1);
-// });
+      await tabs[1].waitForLoadState('load');
 
-// test('post image link goes to post', async ({ page }) => {
-//   await page.goto('/');
-//   const posts = page.locator('#masonry');
-//   const figure = await posts.getByRole('figure').nth(0);
-//   const figcaption = await figure.locator('figcaption');
-//   const heading = await figcaption.getByRole('heading', { level: 2 });
-//   const post = await heading.textContent();
-//   const anchor = await figure.locator('a[href*="posts/"]').nth(0);
-
-//   anchor.click();
-
-//   const title = new RegExp(`Across The Kyle —— Travels | ${post}`.trim());
-
-//   await expect(page).toHaveTitle(title);
-// });
-
-// test('post tag goes to tags list', async ({ page }) => {
-//   await page.goto('/');
-//   const posts = page.locator('#masonry');
-//   const figure = await posts.getByRole('figure').nth(0);
-//   const figcaption = await figure.locator('figcaption');
-//   const figcaptionTag = await figcaption.locator('a[href*="tags/"]').nth(0);
-
-//   figcaptionTag.click();
-
-//   await expect(page).toHaveTitle(/Tags/);
-// });
-
-// test('post heading link goes to post', async ({ page }) => {
-//   await page.goto('/');
-//   const posts = page.locator('#masonry');
-//   const figure = await posts.getByRole('figure').nth(0);
-//   const figcaption = await figure.locator('figcaption');
-//   const heading = await figcaption.getByRole('heading', { level: 2 });
-//   const post = await heading.textContent();
-//   const anchor = await heading.locator('a[href*="posts/"]').nth(0);
-
-//   anchor.click();
-
-//   const title = new RegExp(`Across The Kyle —— Travels | ${post}`.trim());
-
-//   await expect(page).toHaveTitle(title);
-// });
-
-// test('post caption author navigates to me', async ({ page }) => {
-//   await page.goto('/');
-//   const posts = page.locator('#masonry');
-//   const figure = await posts.getByRole('figure').nth(0);
-//   const figcaption = await figure.locator('figcaption');
-//   const author = await figcaption.locator('a[href*="me"]').nth(0);
-
-//   author.click();
-
-//   await expect(page).toHaveTitle(`Across The Kyle —— About`);
-// });
-
-// test('footer tag goes to tags page', async ({ page }) => {
-//   await page.goto('/');
-
-//   const footer = await page.locator('footer');
-//   const tag = await footer.locator('a[href*="tags/"]').nth(0);
-
-//   tag.click();
-
-//   await expect(page).toHaveTitle(/Tags/);
-// });
-
-// test('footer has three recent posts', async ({ page }) => {
-//   await page.goto('/');
-
-//   const footer = await page.locator('footer');
-
-//   await expect(footer.locator('figure')).toHaveCount(3);
-// });
-
-// test('footer recent post image link navigates to post', async ({ page }) => {
-//   await page.goto('/');
-
-//   const footer = await page.locator('footer');
-//   const figure = await footer.locator('figure').nth(0);
-//   const figcaption = await figure.locator('figcaption');
-//   const heading = await figcaption.getByRole('heading', { level: 3 });
-//   const post = await heading.textContent();
-//   const anchor = await figure.locator('a[href*="posts/"]').nth(0);
-
-//   await anchor.click();
-
-//   const title = new RegExp(`Across The Kyle —— Travels | ${post}`.trim());
-
-//   await expect(page).toHaveTitle(title);
-// });
-
-// test('footer recent post heading link navigates to post', async ({ page }) => {
-//   await page.goto('/');
-
-//   const footer = await page.locator('footer');
-//   const figure = await footer.locator('figure').nth(0);
-//   const figcaption = await figure.locator('figcaption');
-//   const heading = await figcaption.getByRole('heading', { level: 3 });
-//   const post = await heading.textContent();
-//   const anchor = await heading.locator('a[href*="posts/"]');
-
-//   await anchor.click();
-
-//   const title = new RegExp(`Across The Kyle —— Travels | ${post}`.trim());
-
-//   await expect(page).toHaveTitle(title);
-// });
+      await expect(tabs[1]).toHaveURL(url);
+    } else {
+      await expect(page).toHaveTitle(title);
+    }
+  });
+});
