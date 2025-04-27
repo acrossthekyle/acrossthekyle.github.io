@@ -41,10 +41,10 @@ function Shortcuts({
       <Link
         className={`${scss.link} ${childClassName}`}
         href="/store"
-        title="Store"
+        title="Prints"
       >
         <Images.Icons.Store />
-        {shouldLabel && <span className={scss.site}>Store</span>}
+        {shouldLabel && <span className={scss.site}>Prints</span>}
       </Link>
       <External
         className={`${scss.link} ${childClassName}`}

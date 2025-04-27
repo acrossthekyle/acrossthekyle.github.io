@@ -55,10 +55,9 @@ function Page() {
           After thru-hiking trails across the globe, from the rugged paths of
           South America to the towering peaks of Nepal, I've learned one
           powerful truth: it's not the destination that leaves the greatest
-          impact &mdash; it's the journey itself. Day after day, mile after
-          mile, mountain pass after mountain pass, I discover new depths of what
-          I'm truly capable of.
+          impact &mdash; it's the journey itself.
         </p>
+        <h2>How it started</h2>
         <p>
           My thru-hiking journey began in 2018, with the iconic 500-mile Camino
           de Santiago across Northern Spain. A month-long adventure that took me
@@ -66,18 +65,18 @@ function Page() {
           ways, from the challenges of endless walking to the thrill of meeting
           incredible people along the way. There's something indescribable about
           carrying everything you need on your back, wandering from village to
-          village, day in and day out. Sure, my feet ached like never before,
-          but each step unveiled a new sense of resilience &mdash; and I
-          experienced the world in a way I never had before.
+          village, day in and day out. My feet ached like never before, but each
+          step unveiled a new sense of resilience and I experienced the world
+          from an entirely new perspective.
         </p>
         <p>
-          By the end of it, I was hooked. Since that first Camino, I've
-          completed seven unique thru-hikes, summited several towering peaks,
-          and traveled through over a dozen countries. But it's the places I've
-          returned to &mdash; like the peaceful trails of Spain and the
-          breathtaking Annapurna Circuit in Nepal &mdash; that have truly
-          captured my heart.
+          By the end of it, I was hooked. Since then I've completed seven unique
+          thru-hikes, summited several towering peaks, and traveled to over a
+          dozen countries. But it's the places I've wanted to return to, like
+          the peaceful trails of Spain or the breathtaking heights of Nepal,
+          that have truly captured my heart.
         </p>
+        <h2>(Nearly) everywhere I've been</h2>
         <Components.World markers={markers} />
         <h2>The Boring Stuff</h2>
         <p>

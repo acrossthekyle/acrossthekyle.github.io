@@ -54,7 +54,7 @@ export default async function handler(
               price_data: {
                 currency: 'USD',
                 product_data: {
-                  name: found.title,
+                  name: `${found.title} Print`,
                   description,
                   images: [`${Constants.IMAGE_BASE_URL}${found.image}`],
                 },

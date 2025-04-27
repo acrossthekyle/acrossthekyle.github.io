@@ -65,11 +65,11 @@ test('header navigates to store', async ({ page }) => {
 
   const header = await page.locator('header');
 
-  await header.getByRole('link', { name: 'store' }).click();
+  await header.getByRole('link', { name: 'prints' }).click();
 
   const h1 = await page.getByRole('heading', {
     level: 1,
-    name: 'store',
+    name: 'prints',
   });
 
   await expect(h1).toBeVisible();

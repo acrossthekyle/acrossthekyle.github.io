@@ -52,7 +52,7 @@ function Page() {
         {cart.length === 0 ? (
           <div className={scss.empty}>
             <h2>No items in cart</h2>
-            <Components.Button href="/store" text="Back to Store" />
+            <Components.Button href="/store" text="Back to Prints" />
           </div>
         ) : (
           <>
@@ -80,6 +80,7 @@ function Page() {
                       <Link href={item.uri}>
                         <Components.Image
                           alt={item.name}
+                          aria-hidden="true"
                           height={432}
                           sizes="(max-width: 768px) 100vw, 25vw"
                           src={item.image}
@@ -93,6 +94,7 @@ function Page() {
                           <Link href={item.uri}>{item.name}</Link>
                         </h2>
                         <p className={scss.price}>
+                          Print -{' '}
                           {item.quantity > 1 && (
                             <>
                               ${item.total} ({item.price} x {item.quantity})

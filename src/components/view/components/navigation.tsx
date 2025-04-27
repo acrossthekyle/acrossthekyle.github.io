@@ -35,7 +35,7 @@ function Navigation({
       </li>
       <li className={linkClassName} data-active={pathname === '/store'}>
         <Link href="/store" onClick={onClick}>
-          Store
+          Prints
         </Link>
       </li>
     </ul>

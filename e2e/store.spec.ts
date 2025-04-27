@@ -12,13 +12,13 @@ test('store empty cart', async ({ page }) => {
 
   await expect(noItems).toBeVisible();
 
-  const link = await main.getByRole('link', { name: 'back to store' });
+  const link = await main.getByRole('link', { name: 'back to prints' });
 
   await link.click();
 
   const heading = await main.getByRole('heading', {
     level: 1,
-    name: 'store',
+    name: 'prints',
   });
 
   await expect(heading).toBeVisible();
@@ -173,8 +173,8 @@ test('store cart', async ({ page }) => {
     .nth(0)
     .textContent();
 
-  await expect(initialItemPrice).toEqual('$215.00');
-  await expect(initialCartPrice).toEqual('$215.00');
+  await expect(initialItemPrice).toContain('$215.00');
+  await expect(initialCartPrice).toContain('$215.00');
 
   await expect(initialQuantity).toBeDefined();
 
@@ -186,8 +186,8 @@ test('store cart', async ({ page }) => {
     .nth(0)
     .textContent();
 
-  await expect(increasedItemPrice).toEqual('$430.00 (215.00 x 2)');
-  await expect(increasedCartPrice).toEqual('$430.00');
+  await expect(increasedItemPrice).toContain('$430.00 (215.00 x 2)');
+  await expect(increasedCartPrice).toContain('$430.00');
 
   const increasedQuantity = await main.getByRole('span', {
     title: 'quantity of 2',
@@ -203,8 +203,8 @@ test('store cart', async ({ page }) => {
     .nth(0)
     .textContent();
 
-  await expect(decreasedItemPrice).toEqual('$215.00');
-  await expect(decreasedCartPrice).toEqual('$215.00');
+  await expect(decreasedItemPrice).toContain('$215.00');
+  await expect(decreasedCartPrice).toContain('$215.00');
 
   const decreasedQuantity = await main.getByRole('span', {
     title: 'quantity of 1',
@@ -215,8 +215,92 @@ test('store cart', async ({ page }) => {
   await main.getByRole('button', { name: 'remove item' }).click();
 
   const checkout = await main.getByRole('link', { name: 'checkout' });
-  const back = await main.getByRole('link', { name: 'back to store' });
+  const back = await main.getByRole('link', { name: 'back to prints' });
 
   await expect(checkout).not.toBeVisible();
   await expect(back).toBeVisible();
+});
+
+test('store cart decrease', async ({ page }) => {
+  await page.goto('/store/stone-gateway');
+
+  const main = await page.locator('main');
+
+  await main.getByRole('button', { name: 'add to cart' }).click();
+
+  const item = await main.locator('section');
+
+  await main.getByRole('button', { name: '-' }).click();
+
+  const checkout = await main.getByRole('link', { name: 'checkout' });
+  const back = await main.getByRole('link', { name: 'back to prints' });
+
+  await expect(checkout).not.toBeVisible();
+  await expect(back).toBeVisible();
+});
+
+test('store confirm success', async ({ page }) => {
+  await page.goto('/store/stone-gateway');
+
+  const main = await page.locator('main');
+
+  await main.getByRole('button', { name: 'add to cart' }).click();
+
+  await main.getByRole('link', { name: 'checkout' }).click();
+
+  const checkout = await main.getByRole('heading', {
+    level: 1,
+    name: 'checkout',
+  });
+
+  await expect(checkout).toBeVisible();
+
+  const iFrame = await page.frameLocator('iframe[name="embedded-checkout"]');
+
+  const item = await iFrame.getByText('Stone Gateway Print');
+  const price = await iFrame.getByText('$215.00');
+  const options = await iFrame.getByText(
+    'Size: 18" x 24" • Frame: Yes • Color: White • Yes',
+  );
+
+  await expect(item).toBeVisible();
+  await expect(price).toBeVisible();
+  await expect(options).toBeVisible();
+
+  await iFrame.locator('#email').fill('hello@acrossthekyle.com');
+
+  await iFrame.locator('#shippingName').fill('Kyle Gilbert');
+  await iFrame.locator('#shippingAddressLine1').fill('312 Test Street');
+  await iFrame.locator('#shippingAddressLine2').fill('#4');
+  await iFrame.locator('#shippingLocality').fill('Chicago');
+  await iFrame.locator('#shippingPostalCode').fill('60614');
+
+  await iFrame.locator('#cardNumber').fill('4242424242424242');
+  await iFrame.locator('#cardExpiry').fill('12/40');
+  await iFrame.locator('#cardCvc').fill('123');
+
+  await iFrame.getByRole('button', { name: 'pay' }).click();
+
+  await page.waitForURL(new RegExp('.*store\/checkout\/success(?!\/)'));
+
+  const thankYou = await page.getByRole('heading', {
+    level: 1,
+    name: 'thank you!',
+  });
+
+  await expect(thankYou).toBeVisible();
+
+  const customerName = await page
+    .locator('p', {
+      hasText: 'Kyle Gilbert',
+    })
+    .nth(0);
+  const customerEmail = await page
+    .locator('p', {
+      hasText: 'hello@acrossthekyle.com',
+    })
+    .nth(0);
+
+  await expect(customerName).toBeVisible();
+  await expect(customerEmail).toBeVisible();
 });

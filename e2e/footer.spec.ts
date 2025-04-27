@@ -30,3 +30,18 @@ test('footer recent posts', async ({ page }) => {
 
   await expect(page).toHaveURL(/post/i);
 });
+
+test('footer contact', async ({ page }) => {
+  await page.goto('/');
+
+  const footer = await page.locator('footer');
+
+  await footer.locator('#email').fill('hello@acrossthekyle.com');
+  await footer.locator('#message').fill('test message from playwright');
+
+  await footer.getByRole('button', { name: 'submit' }).click();
+
+  const success = await footer.getByText('Thanks for reaching out!');
+
+  await expect(success).toBeVisible();
+});

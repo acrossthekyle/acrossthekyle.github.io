@@ -72,7 +72,7 @@ function Page() {
   return (
     <Components.View
       metadata={{
-        title: `Store | ${name}`,
+        title: `Prints | ${name}`,
         description: snippet,
         url: data?.uri,
       }}
@@ -89,7 +89,7 @@ function Page() {
             shouldAlignCenter={false}
             items={[
               {
-                text: 'Store',
+                text: 'Prints',
                 uri: '/store',
               },
               {

@@ -9,12 +9,12 @@ function Page() {
   return (
     <Components.View
       metadata={{
-        title: `Store`,
+        title: `Prints`,
         description: `These prints for purchase are inspired by this planet, and captured by me, while marching through forests and over mountains.`,
         url: '/store',
       }}
     >
-      <h1 className={scss.heading}>Store</h1>
+      <h1 className={scss.heading}>Prints</h1>
       <div className={scss.items}>
         {store.map((item: Store.Item) => (
           <div className={scss.item} key={item.title}>

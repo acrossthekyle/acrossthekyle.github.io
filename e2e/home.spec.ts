@@ -40,8 +40,8 @@ test('home avatar navigates to about', async ({ page }) => {
     title: /packs/i,
   },
   {
-    name: 'store',
-    title: /store/i,
+    name: 'prints',
+    title: /prints/i,
   },
   {
     name: 'instagram',
