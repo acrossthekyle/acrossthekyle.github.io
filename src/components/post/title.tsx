@@ -20,7 +20,7 @@ type Props = {
 function Title({ author, breadcrumbs, categories, date, title }: Props) {
   return (
     <div className={scss.container}>
-      <Categories className={scss.categories} items={categories} />
+      <Categories items={categories} />
       {breadcrumbs && (
         <ul className={scss.breadcrumbs}>
           {breadcrumbs.map((breadcrumb) => (
