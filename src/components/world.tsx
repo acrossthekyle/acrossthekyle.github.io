@@ -32,7 +32,8 @@ function World({ className = '', markers }: Props) {
   return (
     <InView onChange={handleOnInView} threshold={0.3}>
       {({ ref }) => (
-        <div
+        <figure
+          aria-hidden="true"
           className={`${scss.world} ${className}`.trim()}
           data-in-view={hasEnteredView}
           ref={ref}
@@ -73,7 +74,7 @@ function World({ className = '', markers }: Props) {
               </div>
             );
           })}
-        </div>
+        </figure>
       )}
     </InView>
   );

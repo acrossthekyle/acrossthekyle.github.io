@@ -12,16 +12,19 @@ type Props = {
 
 function Categories({ className = '', items, mode = 'primary' }: Props) {
   return (
-    <div className={`${scss.container} ${className}`.trim()}>
+    <dl className={`${scss.container} ${className}`.trim()}>
       {items.map((item: string) => (
-        <Button
-          href={`/categories/${encodeURIComponent(item)}`}
-          key={item}
-          mode={mode}
-          text={item}
-        />
+        <dt key={item}>
+          <Button
+            href={`/categories/${encodeURIComponent(item)}`}
+            key={item}
+            mode={mode}
+            text={item}
+          />
+        </dt>
       ))}
-    </div>
+      <dd>Categories for the post</dd>
+    </dl>
   );
 }
 

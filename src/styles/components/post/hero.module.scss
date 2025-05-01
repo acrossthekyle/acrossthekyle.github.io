@@ -1,20 +1,32 @@
 @use 'styles/mixins/_screen' as screen;
 
 .container {
-  border-radius: 0.125rem;
-  height: 80vh;
+  align-items: center;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
   margin-bottom: 1.5rem;
   overflow: hidden;
   position: relative;
-  max-width: var(--max-width);
-  width: auto;
 
   img {
-    border-radius: 2px;
-    position: relative;
+    height: auto;
+    max-width: var(--max-width);
+    width: 100%;
   }
 
-  @include screen.smedium {
-    height: 40vh;
+  @include screen.large {
+    margin-left: -2.25rem;
+    margin-right: -2.25rem;
+  }
+
+  @include screen.medium {
+    margin-left: -5rem;
+    margin-right: -5rem;
+  }
+
+  @include screen.small {
+    margin-left: -1rem;
+    margin-right: -1rem;
   }
 }

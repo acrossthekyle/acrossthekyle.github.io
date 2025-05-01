@@ -5,12 +5,12 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
   position: relative;
   width: 100%;
   z-index: 3;
 
-  .breadcrumbs {
+  ul {
     list-style: none;
     margin: 1.25rem 0 0;
     padding: 0;
@@ -45,28 +45,87 @@
     }
   }
 
-  .title {
+  h1 {
     font-size: 3rem;
     line-height: 3.5rem;
-    margin: 0.75rem auto;
+    margin: 0.75rem auto 1rem;
+    max-width: 48rem;
     position: relative;
     text-align: center;
-    max-width: 48rem;
   }
 
-  time {
-    font-size: 0.8rem;
+  p {
+    font-size: 1.15rem;
+    font-weight: 500;
+    max-width: 44rem;
+    margin-bottom: 3rem;
+    opacity: 0.7;
+    position: relative;
+    text-align: center;
+
+    &:after {
+      background: var(--text);
+      content: '';
+      display: block;
+      height: 1px;
+      left: 50%;
+      margin-left: -4rem;
+      opacity: 0.15;
+      position: absolute;
+      bottom: -1.5rem;
+      width: 8rem;
+    }
+  }
+
+  section {
+    display: flex;
+    font-size: 0.75rem;
+    font-weight: 400;
+    opacity: 0.5;
     text-transform: uppercase;
+
+    time {
+      display: block;
+    }
+
+    span {
+      display: block;
+      margin-left: 1rem;
+      padding-left: 0.25rem;
+      position: relative;
+
+      &:before {
+        content: '•';
+        display: block;
+        font-size: 1rem;
+        left: -0.5rem;
+        line-height: 1rem;
+        margin-top: -0.5rem;
+        opacity: 0.6;
+        position: absolute;
+        top: 50%;
+      }
+    }
   }
 
   @include screen.small {
     align-items: flex-start;
+    margin-bottom: 3rem;
 
-    .title {
+    h1 {
       text-align: left;
       margin-left: 0;
       margin-right: 0;
       max-width: 100%;
+    }
+
+    p {
+      margin-bottom: 1.5rem;
+      text-align: left;
+
+      &:after {
+        display: none;
+      }
     }
   }
 }

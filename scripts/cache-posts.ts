@@ -8,6 +8,7 @@ import fsPromises from 'fs/promises';
 import path from 'path';
 import matter from 'gray-matter';
 import { parse } from 'date-fns';
+import readingTime from 'reading-time';
 
 const postsDirectory = path.join(process.cwd(), './src/posts');
 const cacheDirectory = './src/cache/posts';
@@ -98,6 +99,7 @@ function getPostStages(postFolder, postMeta) {
           older: null,
           categories: data.categories.split(','),
           time: data.time.split(','),
+          readingTime: readingTime(content).minutes,
         },
       };
     });
@@ -173,6 +175,7 @@ function getPosts() {
           older: null,
           stats: null,
           categories: data.categories.split(','),
+          readingTime: readingTime(content).minutes,
         },
         stages,
       };

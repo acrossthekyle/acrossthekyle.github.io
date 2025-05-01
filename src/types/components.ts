@@ -4,13 +4,13 @@ export type Breadcrumb = {
 };
 
 export type MasonryItem = {
-  categories?: string[];
-  date?: string;
+  categories: string[];
+  date: string;
   image: string;
-  price?: string;
   snippet?: string;
   title: string;
   uri: string;
+  readingTime: number;
 };
 
 export type Marker = {

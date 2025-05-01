@@ -8,12 +8,10 @@ type Props = {
 
 function Content({ children }: Props) {
   return (
-    <div className={scss.wrapper}>
-      <div className={scss.content}>
-        {children}
-        <div data-backdrop data-backdrop-active="false" />
-      </div>
-    </div>
+    <section className={scss.wrapper}>
+      {children}
+      <div data-backdrop data-backdrop-active="false" />
+    </section>
   );
 }
 

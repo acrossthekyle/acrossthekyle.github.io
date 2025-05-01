@@ -1,8 +1,7 @@
 @use 'styles/mixins/_on' as on;
-@use 'styles/mixins/_screen' as screen;
 
 .image {
-  border-radius: 0.125rem;
+  border-radius: 0.25rem;
   display: block;
   height: 100%;
   position: relative;
@@ -38,10 +37,6 @@
         visibility: visible;
       }
     }
-  }
-
-  @include screen.small {
-    border-radius: 0.5rem;
   }
 }
 

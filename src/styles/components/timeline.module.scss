@@ -9,7 +9,10 @@
 .container {
   display: flex;
   flex-direction: column;
+  font-family: var(--rubik) !important;
+  list-style: none;
   margin-top: 4rem;
+  padding-left: 0 !important;
   position: relative;
   width: 100%;
 
@@ -27,6 +30,7 @@
   .block {
     display: flex;
     height: 11rem;
+    line-height: unset;
     position: relative;
     width: 100%;
 
@@ -72,11 +76,6 @@
       opacity: 1;
       position: absolute;
       width: 22rem;
-
-      span {
-        display: block;
-        margin-bottom: 0.25rem;
-      }
 
       h4 {
         color: var(--text-dimmed);
@@ -142,11 +141,6 @@
         max-width: calc(100% - 3rem);
         position: relative;
         width: auto;
-
-        span {
-          margin-bottom: 0;
-          margin-top: 1rem;
-        }
 
         .more {
           margin-bottom: 2rem;

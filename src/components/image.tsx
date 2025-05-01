@@ -8,6 +8,23 @@ import Styles from '@/styles';
 
 const scss = Styles.Components.Image;
 
+type TransformableProps = {
+  canTransform: boolean;
+  children: React.ReactNode | React.ReactNode[];
+};
+
+const Transformable = ({ canTransform, children }: TransformableProps) => {
+  if (canTransform) {
+    return (
+      <figure className={scss.image} data-can-transform={canTransform}>
+        {children}
+      </figure>
+    );
+  }
+
+  return <>{children}</>;
+};
+
 const Image = forwardRef(function UiImage(
   {
     canTransform = true,
@@ -25,7 +42,7 @@ const Image = forwardRef(function UiImage(
   }, [src]);
 
   return (
-    <div className={scss.image} data-can-transform={canTransform}>
+    <Transformable canTransform={canTransform}>
       <NextJsImage
         quality={80}
         {...rest}
@@ -37,7 +54,7 @@ const Image = forwardRef(function UiImage(
         src={`${Constants.IMAGE_BASE_URL}${src}`}
       />
       {!isLoaded && <div aria-hidden="true" className={scss.skeleton} />}
-    </div>
+    </Transformable>
   );
 });
 

@@ -4,7 +4,7 @@ import Categories from './categories.module.scss';
 import Image from './image.module.scss';
 import Loading from './loading.module.scss';
 import Masonry from './masonry.module.scss';
-import MasonryFigure from './masonry.figure.module.scss';
+import MasonryArticle from './masonry.article.module.scss';
 import Packs from './packs';
 import Post from './post';
 import Shortcuts from './shortcuts';
@@ -20,7 +20,7 @@ const Styles = {
   Image,
   Loading,
   Masonry,
-  MasonryFigure,
+  MasonryArticle,
   Packs,
   Post,
   Shortcuts,

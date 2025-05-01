@@ -1,12 +1,12 @@
 'use client';
 
-import { ReactNode, useCallback, useState } from 'react';
+import { useCallback, useState } from 'react';
 
 import Styles from '@/styles';
 import type { Components } from '@/types';
 
 import Button from './button';
-import Figure from './masonry.figure';
+import Article from './masonry.article';
 
 const scss = Styles.Components.Masonry;
 
@@ -25,15 +25,11 @@ function Masonry({ items }: Props) {
 
   return (
     <div className={scss.masonry} id="masonry">
-      <div className={scss.items}>
-        {[...items]
-          .splice(0, shown)
-          .map((item: Components.MasonryItem, index) => (
-            <div className={scss.item} key={`key-${index}`}>
-              <Figure {...item} />
-            </div>
-          ))}
-      </div>
+      {[...items]
+        .splice(0, shown)
+        .map((item: Components.MasonryItem, index) => (
+          <Article {...item} key={`key-${index}`} />
+        ))}
       {shown < items.length && (
         <div className={scss.footer}>
           <Button

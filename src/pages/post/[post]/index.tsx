@@ -24,13 +24,14 @@ type Meta = {
   date: string;
   image: string;
   location: string;
-  snippet: string;
+  snippet?: string;
   marker?: Posts.Marker;
   next?: string;
   newer: Posts.Newer | null;
   older: Posts.Older | null;
   previous?: string;
   stats: Posts.Stats | null;
+  readingTime: number;
 };
 
 export async function getStaticPaths() {
@@ -101,34 +102,44 @@ function Page({ content, meta, route, stages }: Props) {
         url: meta.uri,
       }}
     >
-      <Components.Post.Title
-        author={meta.author}
-        categories={meta.categories}
-        date={meta.date}
-        title={meta.title}
-      />
-      <Components.Post.Hero image={meta.image} />
-      <Components.Post.Content>
-        <MDXRemote
-          {...content}
-          components={{
-            ...components,
-            Route: () => (route ? <Components.Post.Route {...route} /> : null),
-            Stages: () =>
-              stages ? (
-                <Components.Timeline
-                  indexPrefix="Day"
-                  segments={transformStagesForTimeline(stages)}
-                />
-              ) : null,
-            Stats: () =>
-              meta.stats ? <Components.Post.Stats {...meta.stats} /> : null,
-            World: () =>
-              meta.marker ? <Components.World markers={[meta.marker]} /> : null,
-          }}
+      <article>
+        <Components.Post.Title
+          author={meta.author}
+          categories={meta.categories}
+          date={meta.date}
+          readingTime={meta.readingTime}
+          snippet={meta.snippet}
+          title={meta.title}
         />
-        <Components.Post.Navigation newer={meta.newer} older={meta.older} />
-      </Components.Post.Content>
+        <Components.Post.Hero image={meta.image} />
+        <Components.Post.Content>
+          <MDXRemote
+            {...content}
+            components={{
+              ...components,
+              Route: () =>
+                route ? <Components.Post.Route {...route} /> : null,
+              Stages: () =>
+                stages ? (
+                  <>
+                    <h2>Stages</h2>
+                    <Components.Timeline
+                      indexPrefix="Day"
+                      segments={transformStagesForTimeline(stages)}
+                    />
+                  </>
+                ) : null,
+              Stats: () =>
+                meta.stats ? <Components.Post.Stats {...meta.stats} /> : null,
+              World: () =>
+                meta.marker ? (
+                  <Components.World markers={[meta.marker]} />
+                ) : null,
+            }}
+          />
+        </Components.Post.Content>
+      </article>
+      <Components.Post.Navigation newer={meta.newer} older={meta.older} />
     </Components.View>
   );
 }

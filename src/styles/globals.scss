@@ -238,6 +238,7 @@ body {
     line-height: 2rem;
     margin: 0;
     padding: 0;
+    text-rendering: optimizeLegibility;
     text-transform: uppercase;
   }
 
@@ -262,8 +263,8 @@ body {
     margin: 0 0 1.5rem;
   }
 
-  ul {
-    font-family: var(--domine);
+  ul,
+  ol {
     font-size: 1.15rem;
   }
 

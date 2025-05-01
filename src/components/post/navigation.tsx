@@ -22,7 +22,7 @@ function Navigation({
   olderLabel = 'Older Post',
 }: Props) {
   return (
-    <div className={scss.navigation} id="navigation">
+    <nav className={scss.navigation} id="navigation">
       {older && (
         <Link className={scss.previous} href={older.uri}>
           <div className={scss.image}>
@@ -65,7 +65,7 @@ function Navigation({
           </h3>
         </Link>
       )}
-    </div>
+    </nav>
   );
 }
 

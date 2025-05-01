@@ -1,12 +1,23 @@
 .container {
-  a {
-    font-size: 0.725rem;
-    margin-bottom: 0.25rem;
+  display: flex;
+  margin-bottom: 0.25rem;
+
+  dt {
+    display: inline-block;
     margin-right: 0.25rem;
-    padding: 0.4rem 0.5rem 0.3rem;
+
+    a {
+      font-size: 0.725rem;
+      padding: 0.4rem 0.5rem 0.3rem;
+    }
 
     &:last-child {
       margin-right: 0;
     }
+  }
+
+  dd {
+    position: absolute;
+    visibility: hidden;
   }
 }

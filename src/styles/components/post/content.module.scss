@@ -2,16 +2,10 @@
 
 .wrapper {
   margin: 0 auto;
-  max-width: var(--max-width);
-  transition: all 0.5s ease-in-out;
-  width: auto;
-}
-
-.content {
-  margin: 0 auto;
+  max-width: 850px;
   padding: 1rem 2rem 0;
   position: relative;
-  max-width: 850px;
+  transition: all 0.5s ease-in-out;
   width: auto;
 
   p {
@@ -40,6 +34,16 @@
   h2 {
     margin-bottom: 1.75rem;
     margin-top: 3rem;
+  }
+
+  ul,
+  ol {
+    font-family: var(--domine);
+    padding-left: 1.25rem;
+
+    li {
+      line-height: 2.25rem;
+    }
   }
 
   @include screen.smedium {

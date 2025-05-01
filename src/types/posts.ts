@@ -4,10 +4,10 @@ export type Breadcrumb = {
 };
 
 export type Stats = {
-  gain?: number;
-  loss?: number;
+  gain: number;
+  loss: number;
   miles: number;
-  time?: number | number[];
+  time: number | number[];
 };
 
 export type Route = {
@@ -32,6 +32,7 @@ export type Stage = {
   time: string;
   title: string;
   uri?: string;
+  readingTime: number;
 };
 
 export type Newer = {
@@ -68,4 +69,5 @@ export type Post = {
   stats?: Stats;
   title: string;
   uri: string;
+  readingTime: number;
 };

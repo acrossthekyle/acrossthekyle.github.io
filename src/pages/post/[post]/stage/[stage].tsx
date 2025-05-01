@@ -30,6 +30,7 @@ type Meta = {
   older: Posts.Older | null;
   next?: string;
   previous?: string;
+  readingTime: number;
 };
 
 export async function getStaticPaths() {
@@ -121,6 +122,7 @@ function Page({ content, meta, route }: Props) {
         breadcrumbs={meta.breadcrumbs}
         categories={meta.categories}
         date={meta.date}
+        readingTime={meta.readingTime}
         title={meta.title}
       />
       <Components.Post.Hero image={meta.image} />

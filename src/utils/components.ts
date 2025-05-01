@@ -4,13 +4,14 @@ export function transformPostsOrStagesForMasonry(
   input: Posts.Post[] | Posts.Stage[],
 ): Components.MasonryItem[] {
   const output: Components.MasonryItem[] = input.map(
-    ({ categories, date, title, ...rest }) => ({
+    ({ categories, date, readingTime, title, ...rest }) => ({
       categories: categories || [],
       date,
       image: rest.image || '',
       snippet: rest.snippet || '',
       title,
       uri: rest.uri || '',
+      readingTime,
     }),
   );
 

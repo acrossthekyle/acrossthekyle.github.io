@@ -14,15 +14,25 @@ type Props = {
   breadcrumbs?: Posts.Breadcrumb[];
   categories: string[];
   date: string;
+  readingTime: number;
+  snippet?: string;
   title: string;
 };
 
-function Title({ author, breadcrumbs, categories, date, title }: Props) {
+function Title({
+  author,
+  breadcrumbs,
+  categories,
+  date,
+  readingTime,
+  snippet,
+  title,
+}: Props) {
   return (
-    <div className={scss.container}>
+    <header className={scss.container}>
       <Categories items={categories} />
       {breadcrumbs && (
-        <ul className={scss.breadcrumbs}>
+        <ul>
           {breadcrumbs.map((breadcrumb) => (
             <li key={breadcrumb.title}>
               <Link href={breadcrumb.uri}>{breadcrumb.title}</Link>
@@ -30,9 +40,13 @@ function Title({ author, breadcrumbs, categories, date, title }: Props) {
           ))}
         </ul>
       )}
-      <h1 className={scss.title}>{title}</h1>
-      <time className={`${scss.item} ${scss.date}`}>{date}</time>
-    </div>
+      <h1>{title}</h1>
+      {snippet && <p>{snippet}</p>}
+      <section>
+        <time className={`${scss.item} ${scss.date}`}>{date}</time>
+        <span>{Math.ceil(readingTime)} Min Read</span>
+      </section>
+    </header>
   );
 }
 

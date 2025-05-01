@@ -10,7 +10,7 @@ type Props = {
 
 function Hero({ image }: Props) {
   return (
-    <div className={scss.container}>
+    <figure className={scss.container}>
       <Image
         alt="hero"
         canTransform={false}
@@ -19,7 +19,7 @@ function Hero({ image }: Props) {
         src={image}
         width={1920}
       />
-    </div>
+    </figure>
   );
 }
 
