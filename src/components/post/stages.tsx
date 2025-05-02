@@ -33,17 +33,21 @@ function Stages({ stages }: Props) {
               <span>Day {String(index + 1).padStart(2, '0')}</span>
               <h3>{title}</h3>
               {snippet && <p>{snippet}</p>}
-              <Image
-                alt={title}
-                canTransform={false}
-                height={432}
-                quality={50}
-                sizes="(max-width: 768px) 100vw, 33vw"
-                src={image}
-                width={768}
-              />
+              {image && (
+                <Image
+                  alt={title}
+                  canTransform={false}
+                  height={432}
+                  quality={50}
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                  src={image}
+                  width={768}
+                />
+              )}
               <Stats gain={gain} loss={loss} miles={miles} time={time} />
-              <Button href={uri} text="Read Trip Report" />
+              {uri && (
+                <Button href={uri} text="View Route and read Trip Report" />
+              )}
             </li>
           ),
         )}

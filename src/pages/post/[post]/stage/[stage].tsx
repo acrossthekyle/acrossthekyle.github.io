@@ -31,6 +31,7 @@ type Meta = {
   next?: string;
   previous?: string;
   readingTime: number;
+  snippet?: string;
 };
 
 export async function getStaticPaths() {
@@ -123,6 +124,7 @@ function Page({ content, meta, route }: Props) {
         categories={meta.categories}
         date={meta.date}
         readingTime={meta.readingTime}
+        snippet={meta.snippet}
         title={meta.title}
       />
       <Components.Post.Hero image={meta.image} />
