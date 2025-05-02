@@ -11,6 +11,7 @@ const components = {
   Checklist: Components.Post.Checklist,
   Gallery: Components.Post.Gallery,
   Route: Components.Post.Route,
+  Stages: Components.Post.Stages,
   Stats: Components.Post.Stats,
   World: Components.World,
 };
@@ -120,15 +121,7 @@ function Page({ content, meta, route, stages }: Props) {
               Route: () =>
                 route ? <Components.Post.Route {...route} /> : null,
               Stages: () =>
-                stages ? (
-                  <>
-                    <h2>Stages</h2>
-                    <Components.Timeline
-                      indexPrefix="Day"
-                      segments={transformStagesForTimeline(stages)}
-                    />
-                  </>
-                ) : null,
+                stages ? <Components.Post.Stages stages={stages} /> : null,
               Stats: () =>
                 meta.stats ? <Components.Post.Stats {...meta.stats} /> : null,
               World: () =>

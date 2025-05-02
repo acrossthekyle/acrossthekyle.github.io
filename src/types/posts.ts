@@ -29,10 +29,11 @@ export type Stage = {
   previous?: string;
   parent: string;
   route: string;
-  time: string;
+  time: number | number[];
   title: string;
   uri?: string;
   readingTime: number;
+  snippet?: string;
 };
 
 export type Newer = {

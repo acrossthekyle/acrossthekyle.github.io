@@ -92,7 +92,7 @@ function getPostStages(postFolder, postMeta) {
             },
             {
               title: 'Stages',
-              uri: `${postMeta.uri}#timeline`,
+              uri: `${postMeta.uri}#stages`,
             },
           ],
           newer: null,
