@@ -1,0 +1,59 @@
+category,type,name,weight,worn,consumable,link
+pack,Pack,Durston Gear Kakwa 55,29.8,,,https://durstongear.com/products/kakwa-55
+pack,Pack Liner,Nylofume,1.02,,,https://evolvedsupplyco.com/supplies/p/nylofume-pack-liner
+shelter,tent,Durston Gear X-Dome 1+,35,,,https://durstongear.com/products/x-dome-1-plus-ultralight-backpacking-tent
+shelter,stakes,MSR Ground Hog Mini,1.98,,,https://www.rei.com/product/829838/msr-mini-ground-hog-stake
+shelter,,PVC End Cap,0.39,,,https://www.homedepot.com/p/Charlotte-Pipe-1-2-in-PVC-Schedule-40-Socket-Cap-PVC021160600HD/203811669
+sleeping,Quilt,EE Revelation 10ºF,27,,,https://enlightenedequipment.com/revelation-stock
+sleeping,Pillow,Exped Mega,6,,,https://www.rei.com/product/149971/exped-mega-pillow
+sleeping,Pad,Therm-a-rest NeoLoft Large/Wide,32,,,https://www.rei.com/product/241039/therm-a-rest-neoloft-sleeping-pad
+clothing,Shoes,Salomon Trail Running shoes,26,yes,,
+clothing,Hat,Arc’teryx Trucker,2.15,yes,,https://arcteryx.com/us/en/shop/bird-curved-brim-trucker-hat
+clothing,Sunglasses,Goodr,0.78,yes,,https://goodr.com/collections/the-ogs/products/a-gingers-soul
+clothing,sun hoody,Outdoor Research Echo,4.5,yes,,https://www.outdoorresearch.com/collections/sun-protection/products/mens-echo-hoodie-287625
+clothing,Pullover,Farpointe Yakona Cruiser,4.02,yes,,https://www.farpointeog.com/stock/p/yakona-hoodie-available-314
+clothing,Underwear,Unbound Merino Wool Boxer Brief,2.86,yes,,https://unboundmerino.com/products/black-boxer-brief
+clothing,Socks,Darn Tough Quarter,1.9,yes,,https://www.amazon.com/dp/B074ZGXRYL
+clothing,down jacket,Mountain Hardwear,7.97,,,https://www.amazon.com/gp/product/B07W5XC3DD
+clothing,Rain Jacket,Enlightened Equipment Visp,5.22,,,https://enlightenedequipment.com/visp-rain-jacket
+clothing,sun hoody,Outdoor Research Echo,4.5,,,https://www.outdoorresearch.com/collections/sun-protection/products/mens-echo-hoodie-287625
+clothing,Underwear,Unbound Merino Wool Boxer Brief,2.86,,,https://unboundmerino.com/products/black-boxer-brief
+clothing,Socks,Darn Tough Quarter,1.9,,,https://www.amazon.com/dp/B074ZGXRYL
+kitchen,pot,TOAKS titanium 750ml,3.8,,,https://www.amazon.com/gp/product/B009B98FGW
+kitchen,stove,MSR PocketRocket Deluxe,2.9,,,https://www.rei.com/product/148209/msr-pocketrocket-deluxe-stove
+kitchen,utensil,TOAKS titanium long,0.53,,,https://www.garagegrowngear.com/products/titanium-long-handle-spoon-by-toaks
+kitchen,odor barrier,NyloPro Odor Proof Bag,0.63,,,https://zpacks.com/products/nylopro-odor-barrier-bags
+kitchen,fuel,MSR IsoPro 4oz,7.4,,yes,https://www.rei.com/product/849634/msr-isopro-fuel-canister-39-oz-110g
+kitchen,food bag,Adotec Ultralight Food Locker 14L,6.75,,,https://adotecgear.com/product/ultralight-food-locker-grizzly-bear/
+kitchen,lighter,Bic,1,,yes,
+water,water Filter,Platypus Quickdraw,2.4,,,https://www.rei.com/product/188475
+water,water pouch,Platypus 1L,1.4,,,https://www.rei.com/product/188475
+water,Water Bottles,M!Go 32oz,9.3,,,https://mazamadesigns.com/products/m-go-bottle
+hygiene,Toothpaste tablets,,0.53,,yes,https://www.garagegrowngear.com/products/tooth-tabs-by-unpaste
+hygiene,Toothbrush,Foldable,0.74,,,https://www.target.com/p/foldable-travel-toothbrush-up-38-up-8482/-/A-89947685
+hygiene,Hand Sanitizer,,1.62,,yes,
+hygiene,Deodorant,Travel-sized,0.95,,yes,https://www.amazon.com/dp/B00E3B47ZQ
+hygiene,Toilet paper,,1.69,,yes,
+hygiene,Toilet bag,,0.44,,,
+hygiene,Body Wipes,,2,,yes,https://www.target.com/p/wet-ones-antibacterial-hand-wipes-travel-pack-fresh-20ct/-/A-15045578
+hygiene,Hair Ties,,0.32,,,
+hygiene,Chapstick,SPF 15,0.32,,yes,
+hygiene,trowel,BoglerCo Ultralight,0.48,,,https://www.garagegrowngear.com/products/ultralight-trowel-by-boglerco
+aid kit,Med + Repair Kit,Ibuprofen + allergy medicine + repair tape,3.35,,,https://www.rei.com/product/800721/adventure-medical-kits-ultralightwatertight-3-medical-kit
+electronics,GPS Smartwatch,Garmin Enduro 2,1.8,yes,,https://www.garmin.com/en-US/p/854515
+electronics,,iPhone 16 Pro,7.8,,,https://www.apple.com/iphone-16-pro/
+electronics,headlamp,Nitecore NU25 UL,1.59,,,https://www.nitecorestore.com/NITECORE-NU25-UL-Headlamp-p/fl-nite-nu25-400ul-bk.htm
+miscellaneous,Trekking Pole,Durston Gear Iceline,4.7,,,https://durstongear.com/products/iceline-trekking-poles
+miscellaneous,Bug Wipes,Picaridin insect repellent,1.13,,,https://www.amazon.com/dp/B001ARBSTO
+miscellaneous,reading Glasses,,2.47,,,
+miscellaneous,Wallet,,2,,,
+miscellaneous,Keys,Building + unit,1.2,,,
+miscellaneous,Earplugs,Loop Quiet 2,0.5,,,https://www.amazon.com/dp/B0D3V61JC8
+packed food + water,Water,2 liters,74.4,,yes,
+packed food + water,,Dinner and breakfast + bars,16,,yes,
+luxury items,e-reader,Amazon Kindle Paperwhite,7.23,,,https://www.amazon.com/dp/B08KTZ8249
+luxury items,hammock,ENO Sub6 Ultralight,5.82,,,https://eaglesnestoutfittersinc.com/products/sub6-ultralight-hammock
+luxury items,hammock straps,ENO Ultralight,3.88,,,https://eaglesnestoutfittersinc.com/products/helios-ultralight-hammock-straps
+luxury items,swiss army knife,Victorinox Classic,0.74,,,https://www.amazon.com/dp/B00004YVB2
+luxury items,saw,SILKY F180,5.3,,,https://www.rei.com/product/120670/silky-f180-folding-hand-saw
+luxury items,fire starter,,1,,yes,https://www.amazon.com/dp/B000LBS6LS

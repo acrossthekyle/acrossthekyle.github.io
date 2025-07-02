@@ -1,0 +1,72 @@
+category,type,name,weight,worn,consumable,link
+pack,pack,ZPacks Arc Haul,20.9,yes,,https://zpacks.com/products/arc-haul-ultra-60l-backpack
+sleeping,pillow,S2S Aero,2.1,,,https://www.amazon.com/dp/B003Z218V0
+sleeping,sleeping bag,REI Co-op Magma 15,15.9,,,https://www.rei.com/product/148248/rei-co-op-magma-15-sleeping-bag-mens
+sleeping,pad,Therm-a-Rest NeoAir XLite,12,,,https://www.amazon.com/dp/B00PZL14EK
+shelter,tent,Ultamid 2,19.1,,,https://hyperlitemountaingear.com/products/ultamid-2-ultralight-pyramid-tent
+shelter,tent inner,Ultamid 2 Half Insert,14.8,,,https://hyperlitemountaingear.com/products/ultamid-2-half-insert
+shelter,stakes,MSR Groundhog x 8,4,,,https://www.rei.com/product/682543/msr-ground-hog-stake
+shelter,bandana condensation wipe,,1.25,,,https://www.amazon.com/dp/B078C8SJ5L
+clothing,shoes,X Ultra 3 Low GTX,26.8,yes,,https://www.rei.com/product/122169/salomon-x-ultra-3-low-gtx-hiking-shoes-mens
+clothing,underwear,Smartwool boxer briefs,3.25,yes,,https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens
+clothing,socks,Wrightsock Double-Layer,2.5,yes,,https://www.rei.com/product/105720/wrightsock-escape-crew-socks
+clothing,sunglasses,Aviator,0.78,yes,,
+clothing,hat,Tilley Wanderer,5.4,yes,,https://www.rei.com/product/121041/tilley-wanderer-hat
+clothing,shirt,Smartwool Long sleeve,6.46,yes,,https://www.rei.com/product/112042/smartwool-merino-150-pattern-crew-base-layer-long-sleeve-top-mens
+clothing,pants,Prana Brion,10.7,yes,,https://www.rei.com/product/146748/prana-brion-pants-mens
+clothing,rain jacket,Patagonia 3L,14.1,,,
+clothing,shirt,Smartwool Long sleeve,6.46,,,https://www.rei.com/product/112042/smartwool-merino-150-pattern-crew-base-layer-long-sleeve-top-mens
+clothing,shirt,Smartwool Long sleeve,6.46,,,https://www.rei.com/product/112042/smartwool-merino-150-pattern-crew-base-layer-long-sleeve-top-mens
+clothing,underwear,Smartwool boxer briefs,3.25,,,https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens
+clothing,socks,Wrightsock Double-Layer,2.5,,,https://www.rei.com/product/105720/wrightsock-escape-crew-socks
+clothing,sandals,Coleman,14.5,,,
+clothing,shower flip flops,,5.2,,,https://www.amazon.com/gp/product/B0CT68MQ56
+clothing,gloves,Seirus All Weather,5,,,https://www.rei.com/product/836503/seirus-soundtouch-hyperlite-all-weather-gloves-mens
+clothing,pants,Vuori Ponto,8,,,https://www.rei.com/product/112280/vuori-ponto-performance-pants-mens
+clothing,down jacket,Ghost Whisperer,7.6,,,https://www.amazon.com/dp/B07W5XC3DD
+water,water bottles,Nalgene 1L,11.8,,,https://www.amazon.com/dp/B001NCDE4S
+water,water filter,Sawyer Squeeze,3.7,,,https://www.rei.com/product/103071/sawyer-squeeze-water-filter-plus
+cooking,pot,TOAKS Titanium 750ml,3.9,,,https://www.amazon.com/dp/B009B98FGW
+cooking,spoon,TOAKS Titanium Long,0.65,,,https://www.amazon.com/dp/B00EZHML88
+cooking,stove,MSR PocketRocket 2,2.6,,,https://www.rei.com/product/114890/msr-pocketrocket-2-stove
+cooking,fuel,MSR,8,,yes,
+hygiene,toothbrush,Foldable,0.74,,,https://www.target.com/p/foldable-travel-toothbrush-up-38-up-8482/-/A-89947685
+hygiene,toothpaste,Travel-sized,1.5,,yes,
+hygiene,deodorant,Travel-sized,1.5,,yes,
+hygiene,soap,Dr Bronners,3,,yes,
+hygiene,towel,PackTowl,6.4,,,https://www.amazon.com/dp/B09LNSRTJL
+hygiene,chapstick,SPF 15,0.32,,yes,
+aid kit,compeed,,1.45,,yes,https://www.amazon.com/Compeed-Blister-Plasters-Hydrocolloid-Treatment/dp/B092WFQ3TZ
+aid kit,bandages,,2.4,,yes,https://www.amazon.com/gp/product/B06XQ8B8Y8
+aid kit,toilet paper,,3,,,
+aid kit,pills,Allergy medicine + pseudoephedrine,1.1,,yes,
+aid kit,repair tape,Tenacious,2,,,https://www.amazon.com/dp/B001949Z4I
+electronics,headlamp,Petzl Actik,3.17,,,https://www.rei.com/product/109952/petzl-actik-headlamp-2018
+electronics,batteries,AAA,3,,,
+electronics,powerbank,Anker Powercore 13000mah,9,,,https://www.amazon.com/dp/B00Z9QVE4Q
+electronics,charger,iPhone Power Brick 5W,1.44,,,
+electronics,,iPhone X,6.8,yes,,https://support.apple.com/en-us/111864
+electronics,adapter,All-in-One,3.2,,,https://www.amazon.com/gp/product/B01I9F3ONC
+electronics,cable,iPhone USB,1,,,
+electronics,cable,Anker,1,,,
+electronics,headphones,Apple wired,0.46,yes,,
+packed food + water,meals + snacks,8,128,,yes,
+packed food + water,water,2 liters,74.4,,yes,
+miscellaneous,knee brace,Patella Stabilizer,10.56,yes,,https://www.amazon.com/dp/B07D5C3YJ4
+miscellaneous,money belt,Eagle Creek Travel,1,yes,,https://www.amazon.com/dp/B0054IH4N4
+miscellaneous,trekking poles,Leki Corklite,19.1,yes,,https://www.rei.com/product/881622/leki-corklite-trekking-poles-pair
+miscellaneous,earplugs,AnMeng,0.81,,,https://www.amazon.com/dp/B071FJXCY9
+miscellaneous,reading glasses,,2.47,,,
+miscellaneous,wallet,,2,,,
+miscellaneous,passport,,1.5,,,
+miscellaneous,keys,Building + unit,1.2,,,
+miscellaneous,detergent,S2S Laundry Wash,3.14,,yes,https://www.amazon.com/dp/B002UOZT3M
+miscellaneous,clothesline,S2S Lite,1.3,,,https://www.rei.com/product/807452/sea-to-summit-lite-line-clothesline
+miscellaneous,multi-tool,Gerber,1.41,,,https://www.amazon.com/dp/B00TBF5JC4
+miscellaneous,laundry clips,,1.32,,,https://www.amazon.com/dp/B00AT9RTAG
+miscellaneous,emergency,Mylar,0.5,,,https://www.amazon.com/dp/B01LYNWRLA
+miscellaneous,trekking pole bag,,0.92,,,https://www.amazon.com/dp/B01I98YQA4
+miscellaneous,stuff sack,S2S Ultra-sil,1,,,https://www.amazon.com/dp/B0754NKQ69
+miscellaneous,stuff sack,S2S Ultra-sil,1,,,https://www.amazon.com/dp/B0754NKQ69
+miscellaneous,stuff sack,S2S Ultra-sil,1,,,https://www.amazon.com/dp/B0754NKQ69
+miscellaneous,stuff sack,S2S Ultra-sil,1,,,https://www.amazon.com/dp/B0754NKQ69

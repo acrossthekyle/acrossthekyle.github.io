@@ -1,0 +1,197 @@
+{
+  "date": "September 9th - September 11th, 2022",
+  "timestamp": "September 9th, 2022",
+  "id": "2oThDjcm12S3Viu",
+  "type": "summits",
+  "image": "2022/09/09/f722df6c-2869-4ff0-80f7-37014241e135.jpeg",
+  "location": "Granite and Leadville",
+  "marker": {
+    "left": "12",
+    "top": "30"
+  },
+  "next": "V3V3fsmvjdZ6TPE",
+  "previous": "kMw47tqPsEgrI14",
+  "description": [],
+  "categories": [
+    "summit",
+    "day hike",
+    "14'er"
+  ],
+  "title": "Colorado",
+  "direction": "out-and-back",
+  "itinerary": {
+    "map": "north-america",
+    "outbound": [
+      {
+        "date": "September 8",
+        "start": {
+          "name": "Chicago",
+          "port": "ORD"
+        },
+        "end": {
+          "name": "Denver",
+          "port": "DEN"
+        },
+        "type": "flight",
+        "distance": "886",
+        "duration": {
+          "hours": "2",
+          "minutes": "45"
+        }
+      }
+    ],
+    "during": [
+      {
+        "date": "September 8",
+        "start": {
+          "name": "Denver",
+          "port": "DEN"
+        },
+        "end": {
+          "name": "Twin Lakes Campground",
+          "municipality": "Twin Lakes, Colorado"
+        },
+        "type": "driving",
+        "distance": "122",
+        "duration": {
+          "hours": "2",
+          "minutes": "14"
+        }
+      },
+      {
+        "date": "September 9",
+        "start": {
+          "name": "Twin Lakes Campground",
+          "municipality": "Twin Lakes, Colorado"
+        },
+        "end": {
+          "name": "Mount Belford Trailhead",
+          "municipality": "Granite, Colorado"
+        },
+        "type": "driving",
+        "distance": "9",
+        "duration": {
+          "hours": "0",
+          "minutes": "14"
+        }
+      },
+      {
+        "date": "September 9",
+        "start": {
+          "name": "Mount Belford Trailhead",
+          "municipality": "Granite, Colorado"
+        },
+        "end": {
+          "name": "Mount Belford",
+          "municipality": "Summit"
+        },
+        "type": "walking",
+        "distance": null,
+        "duration": null
+      },
+      {
+        "date": "September 9",
+        "start": {
+          "name": "Mount Belford Trailhead",
+          "municipality": "Granite, Colorado"
+        },
+        "end": {
+          "name": "Breckenridge",
+          "municipality": "Colorado"
+        },
+        "type": "driving",
+        "distance": "57",
+        "duration": {
+          "hours": "1",
+          "minutes": "13"
+        }
+      },
+      {
+        "date": "September 10",
+        "start": {
+          "name": "Breckenridge",
+          "municipality": "Colorado"
+        },
+        "end": {
+          "name": "Mount Massive Trailhead",
+          "municipality": "Leadville, Colorado"
+        },
+        "type": "driving",
+        "distance": "54",
+        "duration": {
+          "hours": "1",
+          "minutes": "31"
+        }
+      },
+      {
+        "date": "September 11",
+        "start": {
+          "name": "Mount Massive Trailhead",
+          "municipality": "Leadville, Colorado"
+        },
+        "end": {
+          "name": "Mount Massive",
+          "municipality": "Summit"
+        },
+        "type": "walking",
+        "distance": null,
+        "duration": null
+      },
+      {
+        "date": "September 11",
+        "start": {
+          "name": "Mount Massive Trailhead",
+          "municipality": "Leadville, Colorado"
+        },
+        "end": {
+          "name": "Silverthorne",
+          "municipality": "Colorado"
+        },
+        "type": "driving",
+        "distance": "35",
+        "duration": {
+          "hours": "0",
+          "minutes": "37"
+        }
+      },
+      {
+        "date": "September 12",
+        "start": {
+          "name": "Silverthorne",
+          "municipality": "Colorado"
+        },
+        "end": {
+          "name": "Denver",
+          "port": "DEN"
+        },
+        "type": "driving",
+        "distance": "67",
+        "duration": {
+          "hours": "1",
+          "minutes": "9"
+        }
+      }
+    ],
+    "inbound": [
+      {
+        "date": "September 12",
+        "start": {
+          "name": "Denver",
+          "port": "DEN"
+        },
+        "end": {
+          "name": "Chicago",
+          "port": "ORD"
+        },
+        "type": "flight",
+        "distance": "886",
+        "duration": {
+          "hours": "2",
+          "minutes": "45"
+        }
+      }
+    ]
+  },
+  "lodging": "camping",
+  "printId": []
+}

@@ -1,0 +1,151 @@
+{
+  "date": "May 7th - May 12th, 2022",
+  "timestamp": "May 7th, 2022",
+  "id": "OfpW2rt8VHawxvu",
+  "type": "thru-hike",
+  "image": "2022/05/07/4a15a62a-a739-4ad9-83ff-3200e16c6bd5.jpeg",
+  "location": "Scottish Highlands, Scotland",
+  "marker": {
+    "left": "43.6",
+    "top": "14.4"
+  },
+  "next": "kMw47tqPsEgrI14",
+  "previous": "Lsgt4mh2dQrdWrn",
+  "description": "The route runs from the town of Milngavie (pronounced mil-guy) near Glasgow, past Loch Lomond, over the Highlands, through Glencoe and up to Fort William. Thanks to the mix of lowland beauty and dramatic scenery, it's renowned not just as one of the best hikes in Scotland, but as one of the most beautiful hikes in the entire world.",
+  "categories": [
+    "thru-hike",
+    "europe",
+    "scotland"
+  ],
+  "title": "West Highland Way",
+  "direction": "one-way",
+  "itinerary": {
+    "map": "world",
+    "outbound": [
+      {
+        "date": "May 5",
+        "start": {
+          "name": "Chicago",
+          "port": "ORD"
+        },
+        "end": {
+          "name": "London",
+          "port": "LHR"
+        },
+        "type": "flight",
+        "distance": "3939",
+        "duration": {
+          "hours": "7",
+          "minutes": "35"
+        }
+      },
+      {
+        "date": "May 6",
+        "start": {
+          "name": "London",
+          "port": "LHR"
+        },
+        "end": {
+          "name": "Glasgow",
+          "port": "GLA"
+        },
+        "type": "flight",
+        "distance": "345.2",
+        "duration": {
+          "hours": "1",
+          "minutes": "30"
+        }
+      },
+      {
+        "date": "May 7",
+        "start": {
+          "name": "Glasgow",
+          "municipality": "Scotland"
+        },
+        "end": {
+          "name": "Milngavie",
+          "municipality": "Scotland"
+        },
+        "type": "train",
+        "distance": "6",
+        "duration": {
+          "hours": "0",
+          "minutes": "25"
+        }
+      }
+    ],
+    "during": [
+      {
+        "date": "May 8 - May 12",
+        "start": {
+          "name": "Milngavie",
+          "municipality": "Scotland"
+        },
+        "end": {
+          "name": "Fort William",
+          "municipality": "Scotland"
+        },
+        "type": "walking",
+        "distance": null,
+        "duration": {
+          "days": "6"
+        }
+      }
+    ],
+    "inbound": [
+      {
+        "date": "May 14",
+        "start": {
+          "name": "Fort William",
+          "municipality": "Scotland"
+        },
+        "end": {
+          "name": "Glasgow",
+          "municipality": "Scotland"
+        },
+        "type": "train",
+        "distance": "74",
+        "duration": {
+          "hours": "3",
+          "minutes": "51"
+        }
+      },
+      {
+        "date": "May 15",
+        "start": {
+          "name": "Glasgow",
+          "port": "GLA"
+        },
+        "end": {
+          "name": "London",
+          "port": "LHR"
+        },
+        "type": "flight",
+        "distance": "345.2",
+        "duration": {
+          "hours": "1",
+          "minutes": "30"
+        }
+      },
+      {
+        "date": "May 15",
+        "start": {
+          "name": "London",
+          "port": "LHR"
+        },
+        "end": {
+          "name": "Chicago",
+          "port": "ORD"
+        },
+        "type": "flight",
+        "distance": "3939",
+        "duration": {
+          "hours": "7",
+          "minutes": "35"
+        }
+      }
+    ]
+  },
+  "lodging": "camping",
+  "printId": []
+}

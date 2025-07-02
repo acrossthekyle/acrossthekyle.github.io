@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+:root {
+  --background: #262626;
+  --foreground: #ffffff;
+}
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+}
+
+@theme {
+  --breakpoint-5xs: 19.0625rem; /* 305 px */
+  --breakpoint-4xs: 20.9375rem; /* 335 px */
+  --breakpoint-3xs: 25.625rem; /* 410px */
+  --breakpoint-2xs: 30rem; /* 480px */
+  --breakpoint-xs: 33.125rem; /* 530px */
+
+  --text-tiny: 0.625rem;
+  --max-w-8xl: 100rem;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+
+  ::selection {
+    color: var(--background);
+    background: var(--foreground);
+  }
+
+  select {
+    -webkit-appearance: none;
+  }
+
+  .leaflet-tile {
+    filter: grayscale(100%) invert(100%);
+    opacity: 50% !important;
+  }
+
+  .leaflet-container {
+    background: var(--background);
+  }
+
+  .leaflet-control {
+    clear: none;
+    z-index: 10;
+  }
+
+  .leaflet-control-zoom {
+    border: none !important;
+    top: 6rem;
+    right: 1.5rem;
+  }
+
+  .leaflet-top .leaflet-control,
+  .leaflet-right .leaflet-control {
+    margin-top: 0;
+    margin-right: 0;
+  }
+
+  .leaflet-control-zoom-in,
+  .leaflet-control-zoom-out {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    border-bottom: none !important;
+    border-radius: 0.5rem !important;
+    color: #ffffff !important;
+    opacity: 0.5;
+    height: 2rem !important;
+    width: 2rem !important;
+    line-height: 26px !important;
+    transition: opacity .5s;
+  }
+
+  .leaflet-control-zoom-in:hover,
+  .leaflet-control-zoom-out:hover {
+    opacity: 1;
+  }
+
+  .leaflet-control-zoom-in {
+    margin-bottom: 0.25rem;
+  }
+
+  .leaflet-control-zoom-out {
+    margin-bottom: 0;
+  }
+
+  .leaflet-tooltip {
+    border: none;
+    box-shadow: none;
+    background: var(--background);
+    color: white;
+    transition: none !important;
+  }
+
+  .leaflet-tooltip-left:before {
+    border-left-color: var(--background);
+  }
+
+  .leaflet-tooltip-right:before {
+    border-right-color: var(--background);
+  }
+
+  .leaflet-control-attribution {
+    visibility: hidden;
+  }
+}

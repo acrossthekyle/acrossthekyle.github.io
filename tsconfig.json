@@ -1,51 +1,27 @@
 {
   "compilerOptions": {
-    "baseUrl": "src/",
-    "paths": {
-      "@/cache": ["cache/"],
-      "@/cache/*": ["cache/*"],
-      "@/components": ["components/"],
-      "@/components/*": ["components/*"],
-      "@/constants": ["constants/"],
-      "@/constants/*": ["constants/*"],
-      "@/contexts": ["contexts/"],
-      "@/contexts/*": ["contexts/*"],
-      "@/data": ["data/"],
-      "@/data/*": ["data/*"],
-      "@/hooks": ["hooks/"],
-      "@/hooks/*": ["hooks/*"],
-      "@/images": ["images/"],
-      "@/images/*": ["images/*"],
-      "@/models": ["models/"],
-      "@/models/*": ["models/*"],
-      "@/store": ["store/"],
-      "@/store/*": ["store/*"],
-      "@/styles": ["styles/"],
-      "@/styles/*": ["styles/*"],
-      "@/types": ["types/"],
-      "@/types/*": ["types/*"],
-      "@/utils": ["utils/"],
-      "@/utils/*": ["utils/*"]
-    },
+    "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": false,
+    "strict": true,
     "noEmit": true,
-    "incremental": true,
     "esModuleInterop": true,
     "module": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
+    "incremental": true,
     "plugins": [
       {
         "name": "next"
       }
     ],
-    "target": "ES2017"
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
-  "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
 }
