@@ -1,5 +1,7 @@
 'use client';
 
+import type { Trip } from '@/types';
+
 import Card from './card';
 import Skeleton from './skeleton';
 import { useModel } from './model';
@@ -16,8 +18,13 @@ export default function View() {
 
   return (
     <ul className={styles.view}>
-      {trips.map((trip, index: number) => (
-        <Card index={index} key={index} onClick={handleOnClick} trip={trip} />
+      {trips.map((trip: Trip, index: number) => (
+        <Card
+          index={index}
+          key={index}
+          onClick={() => handleOnClick(trip)}
+          trip={trip}
+        />
       ))}
     </ul>
   );

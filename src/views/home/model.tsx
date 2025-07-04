@@ -3,13 +3,13 @@ import { useEffect, useState } from 'react';
 import Fuse from 'fuse.js';
 
 import { useModal } from '@/hooks/useModal';
+import type { Trip } from '@/types';
 
 import View from '../trip';
 import { useStore } from './store';
-import { type Trip } from './types';
 
 type Model = {
-  handleOnClick: (id: string) => void;
+  handleOnClick: (trip: Trip) => void;
   isLoading: boolean;
   trips: Trip[];
 };
@@ -53,9 +53,9 @@ export function useModel(): Model {
     return search.search(query).map((result) => result.item);
   };
 
-  const handleOnClick = (id: string) => {
+  const handleOnClick = (trip: Trip) => {
     modal({
-      content: <View id={id} />,
+      content: <View trip={trip} />,
       hasDarkBackdrop: true,
       isCloseable: false,
       size: '7xl',

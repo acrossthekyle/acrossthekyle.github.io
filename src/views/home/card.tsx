@@ -4,12 +4,13 @@ import Image from 'next/image';
 import { useCallback, useState } from 'react';
 import { InView } from 'react-intersection-observer';
 
+import type { Trip } from '@/types';
+
 import styles from './stylesheet';
-import { type Trip } from './types';
 
 type Props = {
   index: number;
-  onClick: (id: string) => void;
+  onClick: () => void;
   trip: Trip;
 };
 
@@ -28,11 +29,11 @@ export default function Card({ index, onClick, trip }: Props) {
   return (
     <InView onChange={handleOnInView} threshold={0.01}>
       {({ ref }) => (
-        <li className={styles.cell(hasEnteredView)} ref={ref}>
+        <li className={styles.card(hasEnteredView)} ref={ref}>
           <figure className={styles.figure}>
             <button
               className={styles.link}
-              onClick={() => onClick(trip.id)}
+              onClick={onClick}
               type="button"
             >
               <Image
@@ -45,17 +46,11 @@ export default function Card({ index, onClick, trip }: Props) {
               />
               <figcaption className={styles.caption}>
                 <p className={styles.eyebrow}>
-                  {new Intl.NumberFormat().format(Number(trip.stats.time))} {trip.label}s
-                  {' '}
-                  {trip.type !== 'summits' && (
-                    <>• {new Intl.NumberFormat().format(Number(trip.stats.distance))} miles
-                    </>
-                  )}
-                  {' '}
-                  {trip.type === 'summits' && (
-                    <>• {new Intl.NumberFormat().format(Number(trip.stats.altitude))} ft
-                    </>
-                  )}
+                  {
+                    trip.stats
+                      .map(({ value, units }) => `${value} ${units}`)
+                      .join(' • ')
+                  }
                 </p>
                 <h2 className={styles.title}>{trip.title}</h2>
                 <h3 className={styles.year}>{trip.year}</h3>

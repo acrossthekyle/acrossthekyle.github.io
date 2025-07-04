@@ -1,857 +1,1122 @@
 const data = [
   {
-    "id": "kR4VbcTpW47GOQ9",
+    "id": "JGBVl0ims7ToiOc",
+    "tripId": "smdTdOu9zzcIC7K",
+    "title": "Great Pyramids at Giza",
+    "date": "December 29th, 2022",
+    "image": "2022/12/28/c206b03e-01aa-43d3-ba10-19fc0eeb3fbd.jpeg",
+    "gps": {
+      "latitude": "29.9769",
+      "longitude": "31.1327"
+    }
+  },
+  {
+    "id": "eTI9zRFxngDfGPG",
+    "tripId": "smdTdOu9zzcIC7K",
+    "title": "Great Sphinx of Giza",
+    "date": "December 29th, 2022",
+    "image": "2022/12/28/b3275967-68fd-4c69-ad40-df15b2a697b5.jpeg",
+    "gps": {
+      "latitude": "29.9753",
+      "longitude": "31.1376"
+    }
+  },
+  {
+    "id": "IFdVgEoW2IrnKrj",
+    "tripId": "smdTdOu9zzcIC7K",
+    "title": "Step Pyramid of Djoser at Saqqarah",
+    "date": "December 30th, 2022",
+    "image": "2022/12/28/2fbb089e-8a80-4c3b-b071-709cc9702a84.jpeg",
+    "gps": {
+      "latitude": "29.8713",
+      "longitude": "31.2168"
+    }
+  },
+  {
+    "id": "W15yKeFCxvATOil",
+    "tripId": "smdTdOu9zzcIC7K",
+    "title": "Bent Pyramid at Dahshur",
+    "date": "December 30th, 2022",
+    "image": "2022/12/28/d9a7b01b-5915-493c-8c25-5a8ebd77ac58.jpeg",
+    "gps": {
+      "latitude": "29.7904",
+      "longitude": "31.2093"
+    }
+  },
+  {
+    "id": "rnraRDCtw3XsRqn",
+    "tripId": "smdTdOu9zzcIC7K",
+    "title": "Egyptian Museum",
+    "date": "January 1st, 2023",
+    "image": "2022/12/28/f24edc7b-3854-40c5-a2e7-33e2e2e27bde.jpeg",
+    "gps": {
+      "latitude": "30.0483",
+      "longitude": "31.2337"
+    }
+  },
+  {
+    "id": "Oo4ztsy4dyPpr1W",
+    "tripId": "smdTdOu9zzcIC7K",
+    "title": "Colossi of Memnon",
+    "date": "January 3rd, 2023",
+    "image": "2022/12/28/171e29ad-82f5-491e-bac8-b56733464b5a.jpeg",
+    "gps": {
+      "latitude": "25.7204",
+      "longitude": "32.6104"
+    }
+  },
+  {
+    "id": "wDcoxJ6tDMmxbYq",
+    "tripId": "smdTdOu9zzcIC7K",
+    "title": "Valley of the Kings",
+    "date": "January 3rd, 2023",
+    "image": "2022/12/28/f135fdfe-1c54-4f54-b8b5-fbd7887055ab.jpeg",
+    "gps": {
+      "latitude": "25.7402",
+      "longitude": "32.6014"
+    }
+  },
+  {
+    "id": "QYS2aCdUXOBOYkq",
+    "tripId": "smdTdOu9zzcIC7K",
+    "title": "Valley of the Queens",
+    "date": "January 3rd, 2023",
+    "image": "2022/12/28/bc5b055a-7117-4e18-9aac-8384ba214d5e.jpeg",
+    "gps": {
+      "latitude": "25.7277",
+      "longitude": "32.5931"
+    }
+  },
+  {
+    "id": "hAcW42W7KSsqof9",
+    "tripId": "smdTdOu9zzcIC7K",
+    "title": "Habu Temple",
+    "date": "January 3rd, 2023",
+    "image": "2022/12/28/44f2c787-1209-4e11-a2fe-64030e0c472c.jpeg",
+    "gps": {
+      "latitude": "25.7017",
+      "longitude": "32.6333"
+    }
+  },
+  {
+    "id": "P1nb3050lIzAp07",
+    "tripId": "smdTdOu9zzcIC7K",
+    "title": "Hatsheputs Temple",
+    "date": "January 3rd, 2023",
+    "image": "2022/12/28/b7e2eeb1-90d3-49cb-bdb8-41acf2162f78.jpeg",
+    "gps": {
+      "latitude": "25.7383",
+      "longitude": "32.6065"
+    }
+  },
+  {
+    "id": "wF74IyHrf8AQ19o",
+    "tripId": "smdTdOu9zzcIC7K",
+    "title": "Balloon Ride over Luxor",
+    "date": "January 4th, 2023",
+    "image": "2022/12/28/b13b3a23-187a-4dc4-912d-e225b21af78a.jpeg",
+    "gps": {
+      "latitude": "25.731563",
+      "longitude": "32.618445"
+    }
+  },
+  {
+    "id": "3N4iFGe9Hy6qmk8",
+    "tripId": "smdTdOu9zzcIC7K",
+    "title": "Luxor Temple",
+    "date": "January 4th, 2023",
+    "image": "2022/12/28/9799718c-81f7-460d-9f0a-7ddd2dffb060.jpeg",
+    "gps": {
+      "latitude": "25.6872",
+      "longitude": "32.6396"
+    }
+  },
+  {
+    "id": "RCa9bsOLeABHkAW",
+    "tripId": "smdTdOu9zzcIC7K",
+    "title": "Karnak Temple Complex",
+    "date": "January 4th, 2023",
+    "image": "2022/12/28/7f2020f6-ccd2-4f4a-98a1-44abd2df6911.jpeg",
+    "gps": {
+      "latitude": "25.7188",
+      "longitude": "32.6573"
+    }
+  },
+  {
+    "id": "ev3IrTHgknP8M6K",
     "tripId": "rDF2WHqEvEKlILl",
     "title": "Braies to Rifugio Biella",
     "date": "July 16th, 2019",
-    "image": "2019/07/16/eba70b28-4c7d-45f3-aa93-46b24011cb80.jpeg"
+    "image": "2019/07/16/eba70b28-4c7d-45f3-aa93-46b24011cb80.jpeg",
+    "gps": null
   },
   {
-    "id": "En1FHqGiYR9bCqX",
+    "id": "egaHa1lm9BKCPEF",
     "tripId": "rDF2WHqEvEKlILl",
     "title": "Rifugio Biella to Rifugio Lavarella",
     "date": "July 17th, 2019",
-    "image": "2019/07/16/69890344-e575-484e-86ae-5ddeb000c4f9.jpeg"
+    "image": "2019/07/16/69890344-e575-484e-86ae-5ddeb000c4f9.jpeg",
+    "gps": null
   },
   {
-    "id": "DZw1l4ZxK0JdoNJ",
+    "id": "Ecu2w5mncDVuSiq",
     "tripId": "rDF2WHqEvEKlILl",
     "title": "Rifugio Lavarella to Rifugio Scotoni",
     "date": "July 18th, 2019",
-    "image": "2019/07/16/c296dcc3-1cf7-458d-9e9d-d57902532468.jpeg"
+    "image": "2019/07/16/c296dcc3-1cf7-458d-9e9d-d57902532468.jpeg",
+    "gps": null
   },
   {
-    "id": "4FQOoRseLwTxCZG",
-    "tripId": "rDF2WHqEvEKlILl",
-    "title": "Rifugio Averau to Rifugio Citta de Fume",
-    "date": "July 20th, 2019",
-    "image": "2019/07/16/557d453a-3958-48a1-b56a-41ad3349d9c4.jpeg"
-  },
-  {
-    "id": "25eWrsDV3F8aOrF",
+    "id": "p3U9ouFEJrsJXQ2",
     "tripId": "rDF2WHqEvEKlILl",
     "title": "Rifugio Scotoni to Rifugio Averau",
     "date": "July 19th, 2019",
-    "image": "2019/07/16/300ea557-2d33-43ee-8082-09e50aca4c32.jpeg"
+    "image": "2019/07/16/300ea557-2d33-43ee-8082-09e50aca4c32.jpeg",
+    "gps": null
   },
   {
-    "id": "hIssqWf3Cn6HOyu",
+    "id": "xSAEWyZ5MHgK23N",
     "tripId": "rDF2WHqEvEKlILl",
     "title": "Rifugio Citta de Fume to Rifugio Tissi",
     "date": "July 21st, 2019",
-    "image": "2019/07/16/90a6b598-14d8-4a1c-9e1e-2dd87019d0d9.jpeg"
+    "image": "2019/07/16/90a6b598-14d8-4a1c-9e1e-2dd87019d0d9.jpeg",
+    "gps": null
   },
   {
-    "id": "02YOnEmdnvZsqMa",
+    "id": "hfXKbrt8Ino76Em",
     "tripId": "rDF2WHqEvEKlILl",
-    "title": "Rifugio Carestiato to Rifugio Pramperet",
-    "date": "July 23rd, 2019",
-    "image": "2019/07/16/21806386-052d-4a82-941e-6728771acd63.jpeg"
+    "title": "Rifugio Averau to Rifugio Citta de Fume",
+    "date": "July 20th, 2019",
+    "image": "2019/07/16/557d453a-3958-48a1-b56a-41ad3349d9c4.jpeg",
+    "gps": null
   },
   {
-    "id": "Q1e3N6z7NWKyTig",
-    "tripId": "rDF2WHqEvEKlILl",
-    "title": "Rifugio Pramperet to Rifugio Pian de Fontana",
-    "date": "July 24th, 2019",
-    "image": "2019/07/16/673cbf24-710a-4154-97a1-ef0c83e2f688.jpeg"
-  },
-  {
-    "id": "7oQ8222pa2rTIyy",
-    "tripId": "rDF2WHqEvEKlILl",
-    "title": "Rifugio Pian de Fontana to Finito",
-    "date": "July 25th, 2019",
-    "image": "2019/07/16/ec12aa87-bd8f-480f-9c4e-b97e9c551305.jpeg"
-  },
-  {
-    "id": "dkStz7RHBtjfuSh",
+    "id": "BpUejipyjfTC2EA",
     "tripId": "rDF2WHqEvEKlILl",
     "title": "Rifugio Tissi to Rifugio Carestiato",
     "date": "July 22nd, 2019",
-    "image": "2019/07/16/05e7281e-66e6-463e-8d77-d9cc577fd92a.jpeg"
+    "image": "2019/07/16/05e7281e-66e6-463e-8d77-d9cc577fd92a.jpeg",
+    "gps": null
   },
   {
-    "id": "liKdUBp4fzTEKEJ",
+    "id": "UklloawqCSZyKbw",
+    "tripId": "rDF2WHqEvEKlILl",
+    "title": "Rifugio Carestiato to Rifugio Pramperet",
+    "date": "July 23rd, 2019",
+    "image": "2019/07/16/21806386-052d-4a82-941e-6728771acd63.jpeg",
+    "gps": null
+  },
+  {
+    "id": "Y1IJx7V4bqN11OQ",
+    "tripId": "rDF2WHqEvEKlILl",
+    "title": "Rifugio Pramperet to Rifugio Pian de Fontana",
+    "date": "July 24th, 2019",
+    "image": "2019/07/16/673cbf24-710a-4154-97a1-ef0c83e2f688.jpeg",
+    "gps": null
+  },
+  {
+    "id": "WgAjMS1DfcQo9x8",
+    "tripId": "rDF2WHqEvEKlILl",
+    "title": "Rifugio Pian de Fontana to Finito",
+    "date": "July 25th, 2019",
+    "image": "2019/07/16/ec12aa87-bd8f-480f-9c4e-b97e9c551305.jpeg",
+    "gps": null
+  },
+  {
+    "id": "eIic2aj1gp1sMLB",
     "tripId": "N4HkpHlfYaqDxql",
     "title": "Saint Jean Pied de Port to Roncesvalles",
     "date": "June 2nd, 2018",
-    "image": "2018/06/02/b99234b3-8d5a-4f1e-97cc-a87bcf2931e7.jpeg"
+    "image": "2018/06/02/b99234b3-8d5a-4f1e-97cc-a87bcf2931e7.jpeg",
+    "gps": null
   },
   {
-    "id": "0D3KmZqow6TSlis",
+    "id": "S0cLiN76rAgMBsT",
     "tripId": "N4HkpHlfYaqDxql",
     "title": "Roncesvalles to Zubiri",
     "date": "June 3rd, 2018",
-    "image": "2018/06/02/46e56627-14fa-4fd9-b43a-c20fea73f53e.jpeg"
+    "image": "2018/06/02/46e56627-14fa-4fd9-b43a-c20fea73f53e.jpeg",
+    "gps": null
   },
   {
-    "id": "zLRxlKxdaVj5zoZ",
-    "tripId": "N4HkpHlfYaqDxql",
-    "title": "Zubiri to Pamplona",
-    "date": "June 4th, 2018",
-    "image": "2018/06/02/b1407a0f-a422-4b31-89dc-aac3fc819054.jpeg"
-  },
-  {
-    "id": "V4oc00ut0bVH5lg",
+    "id": "UaCRFgCANEKHOcj",
     "tripId": "N4HkpHlfYaqDxql",
     "title": "Pamplona to Puente la Reina",
     "date": "June 5th, 2018",
-    "image": "2018/06/02/98c367b7-10fe-45fb-a1ec-d35f6bab7c85.jpeg"
+    "image": "2018/06/02/98c367b7-10fe-45fb-a1ec-d35f6bab7c85.jpeg",
+    "gps": null
   },
   {
-    "id": "QGq8uAlVXZxuii7",
+    "id": "te2l8djeDqtQsWU",
+    "tripId": "N4HkpHlfYaqDxql",
+    "title": "Zubiri to Pamplona",
+    "date": "June 4th, 2018",
+    "image": "2018/06/02/b1407a0f-a422-4b31-89dc-aac3fc819054.jpeg",
+    "gps": null
+  },
+  {
+    "id": "Aw06qoJpNHcaZnJ",
     "tripId": "N4HkpHlfYaqDxql",
     "title": "Puente la Reina to Estella",
     "date": "June 6th, 2018",
-    "image": "2018/06/02/8e941cab-5618-49a9-aaf9-bdd4dde4c8c0.jpeg"
+    "image": "2018/06/02/8e941cab-5618-49a9-aaf9-bdd4dde4c8c0.jpeg",
+    "gps": null
   },
   {
-    "id": "OiIuZ9qZCaShL1S",
+    "id": "oU7KtBgj0cw8rPn",
     "tripId": "N4HkpHlfYaqDxql",
     "title": "Estella to Sansol",
     "date": "June 7th, 2018",
-    "image": "2018/06/02/073ca6de-6026-4bb2-967b-c195537af725.jpeg"
+    "image": "2018/06/02/073ca6de-6026-4bb2-967b-c195537af725.jpeg",
+    "gps": null
   },
   {
-    "id": "Tman2OObP6SJ5L6",
+    "id": "R47kYCF8tZy9Ykg",
     "tripId": "N4HkpHlfYaqDxql",
     "title": "Sansol to Logrono",
     "date": "June 8th, 2018",
-    "image": "2018/06/02/cee4c1db-be1e-4782-a8d7-7232f0ca7ab9.jpeg"
+    "image": "2018/06/02/cee4c1db-be1e-4782-a8d7-7232f0ca7ab9.jpeg",
+    "gps": null
   },
   {
-    "id": "7eigtCFl8eQYYS5",
+    "id": "3bMs0MQhz4idQkC",
     "tripId": "N4HkpHlfYaqDxql",
     "title": "Logrono to Najera",
     "date": "June 9th, 2018",
-    "image": "2018/06/02/51d0710e-f2a1-4263-b46b-f310c1521853.jpeg"
+    "image": "2018/06/02/51d0710e-f2a1-4263-b46b-f310c1521853.jpeg",
+    "gps": null
   },
   {
-    "id": "wBuzpQknqbTfA3I",
-    "tripId": "N4HkpHlfYaqDxql",
-    "title": "Santo Domingo to Belorado",
-    "date": "June 11th, 2018",
-    "image": "2018/06/02/abc80cf9-1ab3-4b01-86c4-1d0bcc232315.jpeg"
-  },
-  {
-    "id": "02PkfK0et8G6Md6",
+    "id": "TyfDTir96hS4ii8",
     "tripId": "N4HkpHlfYaqDxql",
     "title": "Najera to Santo Domingo",
     "date": "June 10th, 2018",
-    "image": "2018/06/02/b40465e9-7051-4c3d-a6e8-715503f56e87.jpeg"
+    "image": "2018/06/02/b40465e9-7051-4c3d-a6e8-715503f56e87.jpeg",
+    "gps": null
   },
   {
-    "id": "yc06vBX2CgMHT0H",
+    "id": "JLp0idkJm4FjLIv",
+    "tripId": "N4HkpHlfYaqDxql",
+    "title": "Santo Domingo to Belorado",
+    "date": "June 11th, 2018",
+    "image": "2018/06/02/abc80cf9-1ab3-4b01-86c4-1d0bcc232315.jpeg",
+    "gps": null
+  },
+  {
+    "id": "S1pwhICvGENabQr",
     "tripId": "N4HkpHlfYaqDxql",
     "title": "Belorado to Ages",
     "date": "June 12th, 2018",
-    "image": "2018/06/02/8ebae5d3-f1e7-4649-92c6-03ec7e89cd63.jpeg"
+    "image": "2018/06/02/8ebae5d3-f1e7-4649-92c6-03ec7e89cd63.jpeg",
+    "gps": null
   },
   {
-    "id": "ErUJzQ6nMqFJgcb",
+    "id": "OQKqXE8asreVlLL",
     "tripId": "N4HkpHlfYaqDxql",
     "title": "Ages to Burgos",
     "date": "June 13th, 2018",
-    "image": "2018/06/02/9f2b2430-e0e2-4c00-ab83-296a8d079cdc.jpeg"
+    "image": "2018/06/02/9f2b2430-e0e2-4c00-ab83-296a8d079cdc.jpeg",
+    "gps": null
   },
   {
-    "id": "Lt0VisBCVAYb8pk",
-    "tripId": "N4HkpHlfYaqDxql",
-    "title": "Fromista to Carrion",
-    "date": "June 16th, 2018",
-    "image": "2018/06/02/c13d0453-aaa9-42af-a09b-d860dcc89a55.jpeg"
-  },
-  {
-    "id": "S2jJ0OpOpnXGtrc",
+    "id": "YPOxOXjIT5y0Orj",
     "tripId": "N4HkpHlfYaqDxql",
     "title": "Burgos to Hontanas",
     "date": "June 14th, 2018",
-    "image": "2018/06/02/095c1f15-0930-424c-8a8d-e92be9592305.jpeg"
+    "image": "2018/06/02/095c1f15-0930-424c-8a8d-e92be9592305.jpeg",
+    "gps": null
   },
   {
-    "id": "fVomlXa0cz1qDQB",
+    "id": "kSKh0oth1ypwPvd",
     "tripId": "N4HkpHlfYaqDxql",
     "title": "Hontanas to Fromista",
     "date": "June 15th, 2018",
-    "image": "2018/06/02/f01b3633-2645-48d0-a151-eca7c6aaf304.jpeg"
+    "image": "2018/06/02/f01b3633-2645-48d0-a151-eca7c6aaf304.jpeg",
+    "gps": null
   },
   {
-    "id": "QL6WkedTFSHqJtd",
+    "id": "LboIXLrnnxCLduv",
     "tripId": "N4HkpHlfYaqDxql",
-    "title": "Reliegos to Leon",
-    "date": "June 19th, 2018",
-    "image": "2018/06/02/6f4d6cff-0ec4-4ece-8704-3c42ffb3999d.jpeg"
+    "title": "Fromista to Carrion",
+    "date": "June 16th, 2018",
+    "image": "2018/06/02/c13d0453-aaa9-42af-a09b-d860dcc89a55.jpeg",
+    "gps": null
   },
   {
-    "id": "PSbh8WJZoY76UIc",
-    "tripId": "N4HkpHlfYaqDxql",
-    "title": "Leon to Mazarife",
-    "date": "June 20th, 2018",
-    "image": "2018/06/02/661253f5-13b9-4c2a-9c2e-4be6c8800e7e.jpeg"
-  },
-  {
-    "id": "To8p2RunyK5tWwE",
-    "tripId": "N4HkpHlfYaqDxql",
-    "title": "Carrion to Sahagun",
-    "date": "June 17th, 2018",
-    "image": "2018/06/02/c6fe47cd-e630-43a9-97bf-c47e17bf43c2.jpeg"
-  },
-  {
-    "id": "sUyGyxX08UCL0HC",
+    "id": "OkqKkv7bDK5FpTx",
     "tripId": "N4HkpHlfYaqDxql",
     "title": "Sahagun to Reliegos",
     "date": "June 18th, 2018",
-    "image": "2018/06/02/882ccc55-428f-4975-a25b-ae68eb2d5e94.jpeg"
+    "image": "2018/06/02/882ccc55-428f-4975-a25b-ae68eb2d5e94.jpeg",
+    "gps": null
   },
   {
-    "id": "Alo8Xq2OExqovXG",
+    "id": "8qsV3S4wfKBcAT2",
+    "tripId": "N4HkpHlfYaqDxql",
+    "title": "Carrion to Sahagun",
+    "date": "June 17th, 2018",
+    "image": "2018/06/02/c6fe47cd-e630-43a9-97bf-c47e17bf43c2.jpeg",
+    "gps": null
+  },
+  {
+    "id": "zhKF2o9ZkmvLzU2",
+    "tripId": "N4HkpHlfYaqDxql",
+    "title": "Reliegos to Leon",
+    "date": "June 19th, 2018",
+    "image": "2018/06/02/6f4d6cff-0ec4-4ece-8704-3c42ffb3999d.jpeg",
+    "gps": null
+  },
+  {
+    "id": "4mLOzKaK0bt8Qy3",
     "tripId": "N4HkpHlfYaqDxql",
     "title": "Mazarife to Astorga",
     "date": "June 21st, 2018",
-    "image": "2018/06/02/4d57c21f-274b-4fbf-be31-1dc90554174d.jpeg"
+    "image": "2018/06/02/4d57c21f-274b-4fbf-be31-1dc90554174d.jpeg",
+    "gps": null
   },
   {
-    "id": "gQvZl5nzP9jlZhN",
+    "id": "bdxJfjOhPOnRUIN",
     "tripId": "N4HkpHlfYaqDxql",
-    "title": "Astorga to Foncebadon",
-    "date": "June 22nd, 2018",
-    "image": "2018/06/02/b4b2091e-cba2-4670-bf0a-4264423613de.jpeg"
+    "title": "Leon to Mazarife",
+    "date": "June 20th, 2018",
+    "image": "2018/06/02/661253f5-13b9-4c2a-9c2e-4be6c8800e7e.jpeg",
+    "gps": null
   },
   {
-    "id": "FA0WBSpZO1A6xz1",
+    "id": "LxcQMlckhWCQWDI",
     "tripId": "N4HkpHlfYaqDxql",
     "title": "Foncebadon to Ponferrada",
     "date": "June 23rd, 2018",
-    "image": "2018/06/02/1ffb5c94-4869-4b32-b597-27ef65b7b172.jpeg"
+    "image": "2018/06/02/1ffb5c94-4869-4b32-b597-27ef65b7b172.jpeg",
+    "gps": null
   },
   {
-    "id": "LIyGIAstgLffdKp",
+    "id": "NbBVseLNq1rtpG2",
+    "tripId": "N4HkpHlfYaqDxql",
+    "title": "Astorga to Foncebadon",
+    "date": "June 22nd, 2018",
+    "image": "2018/06/02/b4b2091e-cba2-4670-bf0a-4264423613de.jpeg",
+    "gps": null
+  },
+  {
+    "id": "TkDdE7TcXTgtwBN",
     "tripId": "N4HkpHlfYaqDxql",
     "title": "Ponferrada to Villafranca",
     "date": "June 24th, 2018",
-    "image": "2018/06/02/fe3cfc0d-ec95-41b5-aaad-c6c2651a873a.jpeg"
+    "image": "2018/06/02/fe3cfc0d-ec95-41b5-aaad-c6c2651a873a.jpeg",
+    "gps": null
   },
   {
-    "id": "NelMIWZyLMYlsQ9",
+    "id": "vxEjcmaTdjnlbHz",
     "tripId": "N4HkpHlfYaqDxql",
     "title": "Villafranca to O Cebreiro",
     "date": "June 25th, 2018",
-    "image": "2018/06/02/fd299326-5f8b-4eed-a864-26b29757c836.jpeg"
+    "image": "2018/06/02/fd299326-5f8b-4eed-a864-26b29757c836.jpeg",
+    "gps": null
   },
   {
-    "id": "5K1Rrsz7MB0CMAA",
+    "id": "TbLNH24EZ0ZRTZV",
     "tripId": "N4HkpHlfYaqDxql",
     "title": "O Cebreiro to Sarria",
     "date": "June 26th, 2018",
-    "image": "2018/06/02/26afedd7-3ddf-4bb7-b411-bbdeae7d5620.jpeg"
+    "image": "2018/06/02/26afedd7-3ddf-4bb7-b411-bbdeae7d5620.jpeg",
+    "gps": null
   },
   {
-    "id": "VuMBRkVQzBsxAcX",
-    "tripId": "N4HkpHlfYaqDxql",
-    "title": "Sarria to Portomarin",
-    "date": "June 27th, 2018",
-    "image": "2018/06/02/df3c429f-0016-41f7-8345-4fc4aafba61c.jpeg"
-  },
-  {
-    "id": "5d2PcCOsxk8qfY2",
-    "tripId": "N4HkpHlfYaqDxql",
-    "title": "Pedrouzo to Santiago de Compostela",
-    "date": "June 30th, 2018",
-    "image": "2018/06/02/eabd34c9-09cd-4aed-8af7-30a8c95cc4dd.jpeg"
-  },
-  {
-    "id": "pBvXL7Cvw01VLVC",
-    "tripId": "N4HkpHlfYaqDxql",
-    "title": "Santiago de Compostela to Negreira",
-    "date": "July 2nd, 2018",
-    "image": "2018/06/02/4d62ae86-da07-474d-b930-222e7c65d69b.jpeg"
-  },
-  {
-    "id": "N8uDCCEoowOIVDy",
+    "id": "JesUWwrEJmbiQEo",
     "tripId": "N4HkpHlfYaqDxql",
     "title": "Portomarin to Melide",
     "date": "June 28th, 2018",
-    "image": "2018/06/02/c1f6b4f8-e4b7-4318-b7ce-38426c492bef.jpeg"
+    "image": "2018/06/02/c1f6b4f8-e4b7-4318-b7ce-38426c492bef.jpeg",
+    "gps": null
   },
   {
-    "id": "lsHfAdTJMwCDqR5",
+    "id": "lDOggRMHljwBja8",
+    "tripId": "N4HkpHlfYaqDxql",
+    "title": "Sarria to Portomarin",
+    "date": "June 27th, 2018",
+    "image": "2018/06/02/df3c429f-0016-41f7-8345-4fc4aafba61c.jpeg",
+    "gps": null
+  },
+  {
+    "id": "I38fUAhF229Acz1",
     "tripId": "N4HkpHlfYaqDxql",
     "title": "Melide to Pedrouzo",
     "date": "June 29th, 2018",
-    "image": "2018/06/02/ddb71f0f-151e-43c5-af02-3fc8816b4e13.jpeg"
+    "image": "2018/06/02/ddb71f0f-151e-43c5-af02-3fc8816b4e13.jpeg",
+    "gps": null
   },
   {
-    "id": "OnscDwu15T04POP",
+    "id": "IZzj2lJHH6Ny6Jp",
     "tripId": "N4HkpHlfYaqDxql",
-    "title": "Negreira to Olveiroa",
-    "date": "July 3rd, 2018",
-    "image": "2018/06/02/e759426d-5ca2-4018-9baa-d3b9b3ef64c3.jpeg"
+    "title": "Pedrouzo to Santiago de Compostela",
+    "date": "June 30th, 2018",
+    "image": "2018/06/02/eabd34c9-09cd-4aed-8af7-30a8c95cc4dd.jpeg",
+    "gps": null
   },
   {
-    "id": "wnx9P2Mxrm0X0oQ",
+    "id": "rzf72bu2KDX1LWW",
     "tripId": "N4HkpHlfYaqDxql",
     "title": "Olveiroa to Fisterra",
     "date": "July 4th, 2018",
-    "image": "2018/06/02/b41136d6-0803-46f5-adbf-3ea4ba413f09.jpeg"
+    "image": "2018/06/02/b41136d6-0803-46f5-adbf-3ea4ba413f09.jpeg",
+    "gps": null
   },
   {
-    "id": "8tdYs3tRd9rmyTI",
-    "tripId": "9sTY7zOYLEgzg14",
-    "title": "La Plata Peak",
-    "date": "September 4th, 2020",
-    "image": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg"
+    "id": "mrXiQHcPo3kmnm6",
+    "tripId": "N4HkpHlfYaqDxql",
+    "title": "Santiago de Compostela to Negreira",
+    "date": "July 2nd, 2018",
+    "image": "2018/06/02/4d62ae86-da07-474d-b930-222e7c65d69b.jpeg",
+    "gps": null
   },
   {
-    "id": "kodyZIpsKDxOAna",
+    "id": "GMptUCL91W3XOUX",
+    "tripId": "N4HkpHlfYaqDxql",
+    "title": "Negreira to Olveiroa",
+    "date": "July 3rd, 2018",
+    "image": "2018/06/02/e759426d-5ca2-4018-9baa-d3b9b3ef64c3.jpeg",
+    "gps": null
+  },
+  {
+    "id": "TMQkefRHrZ1xuJF",
     "tripId": "9sTY7zOYLEgzg14",
     "title": "Mount Bierstadt",
     "date": "September 5th, 2020",
-    "image": "2020/09/05/54a89ed8-86d4-4918-b7b3-b883ecea72c8.jpeg"
+    "image": "2020/09/05/54a89ed8-86d4-4918-b7b3-b883ecea72c8.jpeg",
+    "gps": null
   },
   {
-    "id": "CT8N1khu2rzeuIA",
+    "id": "KlHb628sFDkPsGk",
     "tripId": "9sTY7zOYLEgzg14",
     "title": "Grays Peak",
     "date": "September 6th, 2020",
-    "image": "2020/09/06/80307849-8964-4e0d-a70f-f6371ca7fcad.jpeg"
+    "image": "2020/09/06/80307849-8964-4e0d-a70f-f6371ca7fcad.jpeg",
+    "gps": null
   },
   {
-    "id": "FHnfITauQMhMI0g",
-    "tripId": "yCgl91McCKXS8qT",
-    "title": "Quandary Peak",
-    "date": "September 1st, 2019",
-    "image": "2019/09/01/1cd21f68-72d8-457d-8558-d98b63755d8c.jpeg"
+    "id": "QyRWx2uGUg5pEiR",
+    "tripId": "9sTY7zOYLEgzg14",
+    "title": "La Plata Peak",
+    "date": "September 4th, 2020",
+    "image": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
+    "gps": null
   },
   {
-    "id": "s86IEWd7EhgqJWW",
+    "id": "HGuDNTlzbb7TvGQ",
     "tripId": "yCgl91McCKXS8qT",
     "title": "Mount Elbert",
     "date": "August 31st, 2019",
-    "image": "2019/08/31/8cac350f-f71e-4d78-b394-05ab790f1c1a.jpeg"
+    "image": "2019/08/31/8cac350f-f71e-4d78-b394-05ab790f1c1a.jpeg",
+    "gps": null
   },
   {
-    "id": "fiuvTZ5ORIfaUvA",
-    "tripId": "w2RLiwOJUV47nRG",
-    "title": "Welcome Center to Refugio Seron",
-    "date": "February 18th, 2020",
-    "image": "2020/02/18/122e86a0-f27a-4870-8748-c8f6a1270540.jpeg"
+    "id": "z5sriw8HzqmfBd3",
+    "tripId": "yCgl91McCKXS8qT",
+    "title": "Quandary Peak",
+    "date": "September 1st, 2019",
+    "image": "2019/09/01/1cd21f68-72d8-457d-8558-d98b63755d8c.jpeg",
+    "gps": null
   },
   {
-    "id": "lGre4uzcLUGIFDX",
+    "id": "uobIyyHXnbMYInV",
     "tripId": "w2RLiwOJUV47nRG",
     "title": "Refugio Seron to Refugio Dickson",
     "date": "February 19th, 2020",
-    "image": "2020/02/18/6197317f-d0b3-4cab-98a8-1232f8c5ccd1.jpeg"
+    "image": "2020/02/18/6197317f-d0b3-4cab-98a8-1232f8c5ccd1.jpeg",
+    "gps": null
   },
   {
-    "id": "wsLzVSO1ODrM3N2",
+    "id": "jPOj9EQYwe4zzol",
     "tripId": "w2RLiwOJUV47nRG",
-    "title": "Refugio Dickson to Refugio Perros",
-    "date": "February 20th, 2020",
-    "image": "2020/02/18/ea99b26a-9751-42db-b380-53f740aa8400.jpeg"
+    "title": "Welcome Center to Refugio Seron",
+    "date": "February 18th, 2020",
+    "image": "2020/02/18/122e86a0-f27a-4870-8748-c8f6a1270540.jpeg",
+    "gps": null
   },
   {
-    "id": "eothfXSAid1Bh7U",
-    "tripId": "w2RLiwOJUV47nRG",
-    "title": "Refugio Grey to Refugio Paine Grande",
-    "date": "February 22nd, 2020",
-    "image": "2020/02/18/dd6e739e-b793-4c64-8e7c-c6a631b467c7.jpeg"
-  },
-  {
-    "id": "dtZqIOg28P1HtUO",
+    "id": "tcFvUO9Xb0HmoVx",
     "tripId": "w2RLiwOJUV47nRG",
     "title": "Refugio Perros to Refugio Grey",
     "date": "February 21st, 2020",
-    "image": "2020/02/18/64e0b359-3d8f-4fde-bbbc-13bf577a6a10.jpeg"
+    "image": "2020/02/18/64e0b359-3d8f-4fde-bbbc-13bf577a6a10.jpeg",
+    "gps": null
   },
   {
-    "id": "dQiHbSKi3BBcS3C",
+    "id": "L106zv3cQvj3Wxy",
+    "tripId": "w2RLiwOJUV47nRG",
+    "title": "Refugio Dickson to Refugio Perros",
+    "date": "February 20th, 2020",
+    "image": "2020/02/18/ea99b26a-9751-42db-b380-53f740aa8400.jpeg",
+    "gps": null
+  },
+  {
+    "id": "YWSaD3sNOLRhtbx",
+    "tripId": "w2RLiwOJUV47nRG",
+    "title": "Refugio Grey to Refugio Paine Grande",
+    "date": "February 22nd, 2020",
+    "image": "2020/02/18/dd6e739e-b793-4c64-8e7c-c6a631b467c7.jpeg",
+    "gps": null
+  },
+  {
+    "id": "88dblQwlPr3lDRa",
     "tripId": "w2RLiwOJUV47nRG",
     "title": "Refugio Paine Grande to Refugio Frances",
     "date": "February 23rd, 2020",
-    "image": "2020/02/18/0f6b917a-c72b-4048-ae0a-48e503fcb6b0.jpeg"
+    "image": "2020/02/18/0f6b917a-c72b-4048-ae0a-48e503fcb6b0.jpeg",
+    "gps": null
   },
   {
-    "id": "QBjoWSgpZT7zjhx",
+    "id": "etMo1asxEC3bZsl",
     "tripId": "w2RLiwOJUV47nRG",
     "title": "Refugio Frances to Refugio Chileno",
     "date": "February 24th, 2020",
-    "image": "2020/02/18/165af4d8-47a6-4148-9031-14a8df29ee8d.jpeg"
+    "image": "2020/02/18/165af4d8-47a6-4148-9031-14a8df29ee8d.jpeg",
+    "gps": null
   },
   {
-    "id": "j1Azq7Ke9FzfxnO",
+    "id": "IWnmFbB8DWVx05M",
     "tripId": "w2RLiwOJUV47nRG",
     "title": "Refugio Chileno to Welcome Center",
     "date": "February 25th, 2020",
-    "image": "2020/02/18/6676df01-acc8-4098-9da4-ec33cc9588f0.jpeg"
+    "image": "2020/02/18/6676df01-acc8-4098-9da4-ec33cc9588f0.jpeg",
+    "gps": null
   },
   {
-    "id": "rPO429pqRPG3vlz",
+    "id": "EOjcCxa4xLQ8uqk",
     "tripId": "lBkSFDPGjsrJaHk",
     "title": "Besishar to Bhulbhule",
     "date": "October 19th, 2019",
-    "image": "2019/10/19/672dcde8-57ae-4bf9-885f-ae039d3a824d.jpeg"
+    "image": "2019/10/19/672dcde8-57ae-4bf9-885f-ae039d3a824d.jpeg",
+    "gps": null
   },
   {
-    "id": "R8uwpzkAeBfTvca",
-    "tripId": "lBkSFDPGjsrJaHk",
-    "title": "Jagat to Dharapani",
-    "date": "October 21st, 2019",
-    "image": "2019/10/19/f62c646d-7f32-4825-bef6-ac17f55e34eb.jpeg"
-  },
-  {
-    "id": "8cQVackhNHClNJD",
-    "tripId": "lBkSFDPGjsrJaHk",
-    "title": "Chame to Upper Pisang",
-    "date": "October 23rd, 2019",
-    "image": "2019/10/19/6aca3230-2b44-4b44-a093-9f88e4f8e660.jpeg"
-  },
-  {
-    "id": "0YE3rh2UcwcioQ1",
+    "id": "qDoc4kGJK8QvvFE",
     "tripId": "lBkSFDPGjsrJaHk",
     "title": "Bhulbhule to Jagat",
     "date": "October 20th, 2019",
-    "image": "2019/10/19/9dc2e7c6-03bb-4bde-853b-c0dd57e4b962.jpeg"
+    "image": "2019/10/19/9dc2e7c6-03bb-4bde-853b-c0dd57e4b962.jpeg",
+    "gps": null
   },
   {
-    "id": "ApTMj4NJNPCkraI",
+    "id": "xsw7BXnm7MJPgps",
+    "tripId": "lBkSFDPGjsrJaHk",
+    "title": "Jagat to Dharapani",
+    "date": "October 21st, 2019",
+    "image": "2019/10/19/f62c646d-7f32-4825-bef6-ac17f55e34eb.jpeg",
+    "gps": null
+  },
+  {
+    "id": "L1jNwtt9QMe06j5",
     "tripId": "lBkSFDPGjsrJaHk",
     "title": "Dharapani to Chame",
     "date": "October 22nd, 2019",
-    "image": "2019/10/19/b2fc7b4c-6d1c-48f6-8137-7f5dd6519b4c.jpeg"
+    "image": "2019/10/19/b2fc7b4c-6d1c-48f6-8137-7f5dd6519b4c.jpeg",
+    "gps": null
   },
   {
-    "id": "Smfg31b9OsbK7Vq",
+    "id": "0weTb0tqow73c7Y",
     "tripId": "lBkSFDPGjsrJaHk",
-    "title": "Tilicho Lake Basecamp to Shree Kharka",
-    "date": "October 26th, 2019",
-    "image": "2019/10/19/7b690423-f830-4b60-a195-a65d01c618c2.jpeg"
+    "title": "Chame to Upper Pisang",
+    "date": "October 23rd, 2019",
+    "image": "2019/10/19/6aca3230-2b44-4b44-a093-9f88e4f8e660.jpeg",
+    "gps": null
   },
   {
-    "id": "o9lEfPKitut8dTY",
-    "tripId": "lBkSFDPGjsrJaHk",
-    "title": "Manang to Tilicho Lake Basecamp",
-    "date": "October 25th, 2019",
-    "image": "2019/10/19/71fde6f3-b314-4672-9061-6e3075413fe8.jpeg"
-  },
-  {
-    "id": "kD9yajejKsT165t",
+    "id": "6lHcKH9gfsS824J",
     "tripId": "lBkSFDPGjsrJaHk",
     "title": "Upper Pisang to Manang",
     "date": "October 24th, 2019",
-    "image": "2019/10/19/815b2816-5212-44f4-9923-6d3d32bcf721.jpeg"
+    "image": "2019/10/19/815b2816-5212-44f4-9923-6d3d32bcf721.jpeg",
+    "gps": null
   },
   {
-    "id": "fI5yJZK5c6N1G5T",
+    "id": "4JvQ0Bbi7K3A8iN",
+    "tripId": "lBkSFDPGjsrJaHk",
+    "title": "Manang to Tilicho Lake Basecamp",
+    "date": "October 25th, 2019",
+    "image": "2019/10/19/71fde6f3-b314-4672-9061-6e3075413fe8.jpeg",
+    "gps": null
+  },
+  {
+    "id": "hHRgeDFniD5kwsl",
+    "tripId": "lBkSFDPGjsrJaHk",
+    "title": "Tilicho Lake Basecamp to Shree Kharka",
+    "date": "October 26th, 2019",
+    "image": "2019/10/19/7b690423-f830-4b60-a195-a65d01c618c2.jpeg",
+    "gps": null
+  },
+  {
+    "id": "PDEFQcmodu7BeeR",
     "tripId": "lBkSFDPGjsrJaHk",
     "title": "Shree Kharka to Phedi",
     "date": "October 27th, 2019",
-    "image": "2019/10/19/cebe8c96-690b-47a8-8c01-d2b02cb88e89.jpeg"
+    "image": "2019/10/19/cebe8c96-690b-47a8-8c01-d2b02cb88e89.jpeg",
+    "gps": null
   },
   {
-    "id": "Tr5Skk3HbikgDs7",
+    "id": "FhWyGZpmjGlp8Rc",
     "tripId": "lBkSFDPGjsrJaHk",
     "title": "Phedi to Muktinath",
     "date": "October 28th, 2019",
-    "image": "2019/10/19/122b6d64-d3e6-4ee1-be18-6cf380bf9d29.jpeg"
+    "image": "2019/10/19/122b6d64-d3e6-4ee1-be18-6cf380bf9d29.jpeg",
+    "gps": null
   },
   {
-    "id": "vRhb2ePf826l0aO",
+    "id": "o2y4YzWEinlr1qX",
     "tripId": "lBkSFDPGjsrJaHk",
     "title": "Muktinath to Marpha",
     "date": "October 29th, 2019",
-    "image": "2019/10/19/2905aa8f-e8fb-45f4-b307-6b7f90464048.jpeg"
+    "image": "2019/10/19/2905aa8f-e8fb-45f4-b307-6b7f90464048.jpeg",
+    "gps": null
   },
   {
-    "id": "9Kz21VK1nOs0XS4",
+    "id": "1V6zWL2ckLiGZQ5",
     "tripId": "lBkSFDPGjsrJaHk",
     "title": "Marpha to Ghasa",
     "date": "October 30th, 2019",
-    "image": "2019/10/19/6b13c07d-f936-4a4f-add7-6a44f0d7ec9b.jpeg"
+    "image": "2019/10/19/6b13c07d-f936-4a4f-add7-6a44f0d7ec9b.jpeg",
+    "gps": null
   },
   {
-    "id": "lPv74034QK5w9ww",
-    "tripId": "lBkSFDPGjsrJaHk",
-    "title": "Deurali to Annapurna Basecamp",
-    "date": "November 3rd, 2019",
-    "image": "2019/10/19/f4b91cc4-ac76-4cb3-9bf4-76707f390cf9.jpeg"
-  },
-  {
-    "id": "bPo7EfzE4L2ufCx",
-    "tripId": "lBkSFDPGjsrJaHk",
-    "title": "Chomrong to Deurali",
-    "date": "November 2nd, 2019",
-    "image": "2019/10/19/a3db606a-711a-4494-9d63-f33749134372.jpeg"
-  },
-  {
-    "id": "WCBF5v36fBs4MyA",
+    "id": "0Dw4ihz20pkezXA",
     "tripId": "lBkSFDPGjsrJaHk",
     "title": "Ghorepani to Chomrong",
     "date": "November 1st, 2019",
-    "image": "2019/10/19/9bc5c1c5-940b-4424-8587-fd010dd8ef2f.jpeg"
+    "image": "2019/10/19/9bc5c1c5-940b-4424-8587-fd010dd8ef2f.jpeg",
+    "gps": null
   },
   {
-    "id": "odTJG5uvXJY42tJ",
+    "id": "xXsAjCz243RYIXY",
+    "tripId": "lBkSFDPGjsrJaHk",
+    "title": "Chomrong to Deurali",
+    "date": "November 2nd, 2019",
+    "image": "2019/10/19/a3db606a-711a-4494-9d63-f33749134372.jpeg",
+    "gps": null
+  },
+  {
+    "id": "ZAZ8ftfYH1k817L",
+    "tripId": "lBkSFDPGjsrJaHk",
+    "title": "Deurali to Annapurna Basecamp",
+    "date": "November 3rd, 2019",
+    "image": "2019/10/19/f4b91cc4-ac76-4cb3-9bf4-76707f390cf9.jpeg",
+    "gps": null
+  },
+  {
+    "id": "ZzIUknFAuZgSdZ2",
     "tripId": "lBkSFDPGjsrJaHk",
     "title": "Chomrong to Motkyu",
     "date": "November 5th, 2019",
-    "image": "2019/10/19/a1a1e1f9-437a-4a65-996b-ee97dd605b88.jpeg"
+    "image": "2019/10/19/a1a1e1f9-437a-4a65-996b-ee97dd605b88.jpeg",
+    "gps": null
   },
   {
-    "id": "znuCVjDXV8xXpRf",
+    "id": "dLA9CGyWIdSIw5N",
     "tripId": "lBkSFDPGjsrJaHk",
     "title": "Annapurna Basecamp to Chomrong",
     "date": "November 4th, 2019",
-    "image": "2019/10/19/7d83bfff-1906-42d1-965e-65383a825ce5.jpeg"
+    "image": "2019/10/19/7d83bfff-1906-42d1-965e-65383a825ce5.jpeg",
+    "gps": null
   },
   {
-    "id": "aqwQB3lbO1Mlnsa",
+    "id": "a17JwWfpjCUGoJW",
     "tripId": "lBkSFDPGjsrJaHk",
     "title": "Ghasa to Ghorepani",
     "date": "October 31st, 2019",
-    "image": "2019/10/19/e139daae-ded3-4fb1-8421-c411da3585fd.jpeg"
+    "image": "2019/10/19/e139daae-ded3-4fb1-8421-c411da3585fd.jpeg",
+    "gps": null
   },
   {
-    "id": "YLFlGvb1iPnOb99",
+    "id": "dITixzEApJXQvuA",
     "tripId": "3XxhkdLe7pvjCfc",
     "title": "Auberge le Truc to Refuge de La Croix du Bonhomme",
     "date": "September 3rd, 2018",
-    "image": "2018/09/02/68ada2f9-206d-4205-b1db-e5f18303b933.jpeg"
+    "image": "2018/09/02/68ada2f9-206d-4205-b1db-e5f18303b933.jpeg",
+    "gps": null
   },
   {
-    "id": "f5elqNqBqHh0uUj",
-    "tripId": "3XxhkdLe7pvjCfc",
-    "title": "Rifugio Bonatti to L'Auberge Maya Joie",
-    "date": "September 7th, 2018",
-    "image": "2018/09/02/63aa457f-62cc-4caf-90bd-e799e4e53ed7.jpeg"
-  },
-  {
-    "id": "FylN6uix8dPOGLn",
+    "id": "7h7URfE9Tk0nPL0",
     "tripId": "3XxhkdLe7pvjCfc",
     "title": "Refuge de La Croix du Bonhomme to Refuge Robert Blanc",
     "date": "September 4th, 2018",
-    "image": "2018/09/02/2040be79-47f4-4665-9cd5-82d32cb70d9e.jpeg"
+    "image": "2018/09/02/2040be79-47f4-4665-9cd5-82d32cb70d9e.jpeg",
+    "gps": null
   },
   {
-    "id": "eFu1mrV1c42V3uZ",
+    "id": "Ef5Gv1kKQL47rPm",
+    "tripId": "3XxhkdLe7pvjCfc",
+    "title": "Rifugio Bonatti to L'Auberge Maya Joie",
+    "date": "September 7th, 2018",
+    "image": "2018/09/02/63aa457f-62cc-4caf-90bd-e799e4e53ed7.jpeg",
+    "gps": null
+  },
+  {
+    "id": "kaCTTxLrf8Xqmdh",
     "tripId": "3XxhkdLe7pvjCfc",
     "title": "L'Auberge Maya Joie to Gite Bon Abri",
     "date": "September 8th, 2018",
-    "image": "2018/09/02/6164b1d7-2380-414c-8d46-726d7c4fa524.jpeg"
+    "image": "2018/09/02/6164b1d7-2380-414c-8d46-726d7c4fa524.jpeg",
+    "gps": null
   },
   {
-    "id": "1DhGmfxGM014JAR",
+    "id": "HznrN2T6JYmdiB4",
     "tripId": "3XxhkdLe7pvjCfc",
     "title": "Refuge le Peuty to Auberge la Boerne",
     "date": "September 10th, 2018",
-    "image": "2018/09/02/137fd4e9-310e-4ac2-b6c5-4a902fef6a6c.jpeg"
+    "image": "2018/09/02/137fd4e9-310e-4ac2-b6c5-4a902fef6a6c.jpeg",
+    "gps": null
   },
   {
-    "id": "640ig6wDML8pxxL",
-    "tripId": "3XxhkdLe7pvjCfc",
-    "title": "Refuge de lo Flegere to Refuge de Bellechat",
-    "date": "September 12th, 2018",
-    "image": "2018/09/02/a03c048f-b7df-4b74-9d76-b735915700cb.jpeg"
-  },
-  {
-    "id": "F0l33RCGpdTTMow",
+    "id": "Bab1JitslVhJuSH",
     "tripId": "3XxhkdLe7pvjCfc",
     "title": "Refuge de Bellechat to Les Houches",
     "date": "September 13th, 2018",
-    "image": "2018/09/02/525868c1-6594-47ef-a44a-cc4172bc02ab.jpeg"
+    "image": "2018/09/02/525868c1-6594-47ef-a44a-cc4172bc02ab.jpeg",
+    "gps": null
   },
   {
-    "id": "FH98OrHTzGE3800",
+    "id": "3S59CK5U0EO3ce0",
     "tripId": "3XxhkdLe7pvjCfc",
     "title": "Auberge la Boerne to Refuge de lo Flegere",
     "date": "September 11th, 2018",
-    "image": "2018/09/02/82666b15-9938-4976-bc19-0096a7d9d0b6.jpeg"
+    "image": "2018/09/02/82666b15-9938-4976-bc19-0096a7d9d0b6.jpeg",
+    "gps": null
   },
   {
-    "id": "vUlc2xq70cap5Yl",
+    "id": "NpWHuhCxP0P6N3a",
+    "tripId": "3XxhkdLe7pvjCfc",
+    "title": "Refuge de lo Flegere to Refuge de Bellechat",
+    "date": "September 12th, 2018",
+    "image": "2018/09/02/a03c048f-b7df-4b74-9d76-b735915700cb.jpeg",
+    "gps": null
+  },
+  {
+    "id": "9LyoFZVNbnleUlK",
     "tripId": "3XxhkdLe7pvjCfc",
     "title": "Les Houches to Auberge le Truc",
     "date": "September 2nd, 2018",
-    "image": "2018/09/02/c0befd91-52d4-4fcb-a038-56d91d39875d.jpeg"
+    "image": "2018/09/02/c0befd91-52d4-4fcb-a038-56d91d39875d.jpeg",
+    "gps": null
   },
   {
-    "id": "sYB8nDUgb4jc8A5",
+    "id": "mbvEB6pLWNsZPOw",
     "tripId": "3XxhkdLe7pvjCfc",
     "title": "Refuge Robert Blanc to Maison Veille",
     "date": "September 5th, 2018",
-    "image": "2018/09/02/2f490398-37bf-43f6-bc41-792740c61298.jpeg"
+    "image": "2018/09/02/2f490398-37bf-43f6-bc41-792740c61298.jpeg",
+    "gps": null
   },
   {
-    "id": "W3j8k0RT6ClbF65",
+    "id": "rzjkjb5dbku6IWP",
     "tripId": "3XxhkdLe7pvjCfc",
     "title": "Maison Veille to Rifugio Bonatti",
     "date": "September 6th, 2018",
-    "image": "2018/09/02/e5c57efc-5a28-442b-b74c-424021e0886f.jpeg"
+    "image": "2018/09/02/e5c57efc-5a28-442b-b74c-424021e0886f.jpeg",
+    "gps": null
   },
   {
-    "id": "3HVjpMHOaDNdZsb",
+    "id": "dI1hVsT8EkeddYT",
     "tripId": "3XxhkdLe7pvjCfc",
     "title": "Gite Bon Abri to Refuge le Peuty",
     "date": "September 9th, 2018",
-    "image": "2018/09/02/6bd6393c-e3e4-462c-9996-d3a228f76910.jpeg"
+    "image": "2018/09/02/6bd6393c-e3e4-462c-9996-d3a228f76910.jpeg",
+    "gps": null
   },
   {
-    "id": "nw6GpACkVaRnCQD",
+    "id": "bM45ehSFzKCIcR8",
     "tripId": "Lsgt4mh2dQrdWrn",
     "title": "Mount Shavano",
     "date": "September 7th, 2021",
-    "image": "2021/09/07/9c414ac6-cbce-4dd4-9e8a-ac3d36b9e833.jpeg"
+    "image": "2021/09/07/9c414ac6-cbce-4dd4-9e8a-ac3d36b9e833.jpeg",
+    "gps": null
   },
   {
-    "id": "Nxj5ezN4IrVcj5M",
+    "id": "wQiqylRZ3ZMv7Sl",
     "tripId": "Lsgt4mh2dQrdWrn",
     "title": "Mount DeCaLi",
     "date": "September 9th, 2021",
-    "image": "2021/09/09/1e11830d-f313-4f15-85cf-a7dc23357b5d.jpeg"
+    "image": "2021/09/09/1e11830d-f313-4f15-85cf-a7dc23357b5d.jpeg",
+    "gps": null
   },
   {
-    "id": "ltklvrqrDtUeLur",
+    "id": "46aybnW5JgF5Cbg",
     "tripId": "2oThDjcm12S3Viu",
     "title": "Mount Massive",
     "date": "September 11th, 2022",
-    "image": "2022/09/11/b74f68ae-d627-4a89-9122-fbc75562e59d.jpeg"
+    "image": "2022/09/11/b74f68ae-d627-4a89-9122-fbc75562e59d.jpeg",
+    "gps": null
   },
   {
-    "id": "sqI1SaRKXg0dNDk",
+    "id": "260QMqdcNNLXKMs",
     "tripId": "2oThDjcm12S3Viu",
     "title": "Mount Belford",
     "date": "September 9th, 2022",
-    "image": "2022/09/09/f722df6c-2869-4ff0-80f7-37014241e135.jpeg"
+    "image": "2022/09/09/f722df6c-2869-4ff0-80f7-37014241e135.jpeg",
+    "gps": null
   },
   {
-    "id": "LDhopScAnu7DN0v",
+    "id": "UGVhlxouYzBOfQ6",
     "tripId": "kMw47tqPsEgrI14",
     "title": "Parnell Segment",
     "date": "May 3rd, 2025",
-    "image": "2025/05/03/e402c0b1-e827-4123-b7b5-74947b240687.jpeg"
+    "image": "2025/05/03/e402c0b1-e827-4123-b7b5-74947b240687.jpeg",
+    "gps": null
   },
   {
-    "id": "W4yJ1AfWig0Sk5E",
+    "id": "E9FGPlu0r9ACusL",
     "tripId": "kMw47tqPsEgrI14",
     "title": "Greenbush Segment",
     "date": "May 4th, 2025",
-    "image": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg"
+    "image": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
+    "gps": null
   },
   {
-    "id": "pa6IUciNHDOl0G6",
+    "id": "7eQ96hlx4a9299v",
     "tripId": "kMw47tqPsEgrI14",
     "title": "Blue Spring and Stony Ridge Segments",
     "date": "July 15th, 2022",
-    "image": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg"
+    "image": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",
+    "gps": null
   },
   {
-    "id": "VAXniU6Ad9OVGNB",
+    "id": "C6eqHuDj3eMBrYP",
     "tripId": "pvSEvH3A7Ysnvsf",
     "title": "Auberge la Boerne to Refuge de lo Flegere",
     "date": "August 5th, 2024",
-    "image": "2024/07/27/554e6f3d-c456-4516-8058-138675279487.jpeg"
+    "image": "2024/07/27/554e6f3d-c456-4516-8058-138675279487.jpeg",
+    "gps": null
   },
   {
-    "id": "3DRMOBuashjefcK",
+    "id": "Gq1UuMlqFZvXwrF",
     "tripId": "pvSEvH3A7Ysnvsf",
     "title": "Hotel Edelweiss to Gite Bon Abri",
     "date": "August 2nd, 2024",
-    "image": "2024/07/27/22400157-4853-4974-856b-86b1bc986ef9.jpeg"
+    "image": "2024/07/27/22400157-4853-4974-856b-86b1bc986ef9.jpeg",
+    "gps": null
   },
   {
-    "id": "C1OhftT4lDwN8ld",
+    "id": "lkP3ClptQATlcJd",
     "tripId": "pvSEvH3A7Ysnvsf",
     "title": "Gite Bon Abri to Hotel Forclaz",
     "date": "August 3rd, 2024",
-    "image": "2024/07/27/99d87d66-9534-4aca-9489-eb2fbbdc152b.jpeg"
+    "image": "2024/07/27/99d87d66-9534-4aca-9489-eb2fbbdc152b.jpeg",
+    "gps": null
   },
   {
-    "id": "MyjAqlJV2ldj2EM",
-    "tripId": "pvSEvH3A7Ysnvsf",
-    "title": "Auberge le Truc to Refuge de La Croix du Bonhomme",
-    "date": "July 28th, 2024",
-    "image": "2024/07/27/10146a42-b18d-4318-bc5b-c32279532e4d.jpeg"
-  },
-  {
-    "id": "3zxDFslMdzmtSJo",
-    "tripId": "pvSEvH3A7Ysnvsf",
-    "title": "Refuge de La Croix du Bonhomme to Refuge Robert Blanc",
-    "date": "July 29th, 2024",
-    "image": "2024/07/27/be9a961c-fc7d-43dc-b466-29a359d1cd12.jpeg"
-  },
-  {
-    "id": "FSysWMsuH2gNcPm",
+    "id": "uoeDov4Zrre572b",
     "tripId": "pvSEvH3A7Ysnvsf",
     "title": "Les Houches to Auberge le Truc",
     "date": "July 27th, 2024",
-    "image": "2024/07/27/ac7799bd-b2a8-4f77-8a8d-6d42a8740390.jpeg"
+    "image": "2024/07/27/ac7799bd-b2a8-4f77-8a8d-6d42a8740390.jpeg",
+    "gps": null
   },
   {
-    "id": "J04iJFaKz4EJYmV",
+    "id": "VIUFNnkPrpnaXgO",
+    "tripId": "pvSEvH3A7Ysnvsf",
+    "title": "Auberge le Truc to Refuge de La Croix du Bonhomme",
+    "date": "July 28th, 2024",
+    "image": "2024/07/27/10146a42-b18d-4318-bc5b-c32279532e4d.jpeg",
+    "gps": null
+  },
+  {
+    "id": "76xNrrx1ZTwZgXY",
+    "tripId": "pvSEvH3A7Ysnvsf",
+    "title": "Refuge de La Croix du Bonhomme to Refuge Robert Blanc",
+    "date": "July 29th, 2024",
+    "image": "2024/07/27/be9a961c-fc7d-43dc-b466-29a359d1cd12.jpeg",
+    "gps": null
+  },
+  {
+    "id": "437764S5NgQy9U2",
     "tripId": "pvSEvH3A7Ysnvsf",
     "title": "Maison Veille to Rifugio Bonatti",
     "date": "July 31st, 2024",
-    "image": "2024/07/27/f1310350-3cb1-4f1b-b591-e08d0971f23b.jpeg"
+    "image": "2024/07/27/f1310350-3cb1-4f1b-b591-e08d0971f23b.jpeg",
+    "gps": null
   },
   {
-    "id": "xXMv4Z7JzXvJlEs",
+    "id": "H8WitGFapg6Sz1W",
     "tripId": "pvSEvH3A7Ysnvsf",
     "title": "Rifugio Bonatti to Hotel Edelweiss",
     "date": "August 1st, 2024",
-    "image": "2024/07/27/b70777d8-b89d-4d60-b422-2d2af80483e4.jpeg"
+    "image": "2024/07/27/b70777d8-b89d-4d60-b422-2d2af80483e4.jpeg",
+    "gps": null
   },
   {
-    "id": "AOQ27kKNjzPNhfM",
+    "id": "PcS95oYWCjkxlqq",
     "tripId": "pvSEvH3A7Ysnvsf",
     "title": "Hotel Forclaz to Auberge la Boerne",
     "date": "August 4th, 2024",
-    "image": "2024/07/27/91e2be29-62d0-4be0-a00a-9ebd9d9dc395.jpeg"
+    "image": "2024/07/27/91e2be29-62d0-4be0-a00a-9ebd9d9dc395.jpeg",
+    "gps": null
   },
   {
-    "id": "CUygD7Z5zON9CqE",
+    "id": "ky2llg0w3ADObLF",
     "tripId": "pvSEvH3A7Ysnvsf",
     "title": "Refuge de lo Flegere to Les Houches",
     "date": "August 6th, 2024",
-    "image": "2024/07/27/480c5394-dfa7-4760-8f62-5a39cb66cb98.jpeg"
+    "image": "2024/07/27/480c5394-dfa7-4760-8f62-5a39cb66cb98.jpeg",
+    "gps": null
   },
   {
-    "id": "mahNyiKYI50xdvS",
+    "id": "hnQDLoe2qtK8QMW",
     "tripId": "pvSEvH3A7Ysnvsf",
     "title": "Refuge Robert Blanc to Maison Veille",
     "date": "July 30th, 2024",
-    "image": "2024/07/27/70c7c361-4273-48ad-88e2-2806cb62855d.jpeg"
+    "image": "2024/07/27/70c7c361-4273-48ad-88e2-2806cb62855d.jpeg",
+    "gps": null
   },
   {
-    "id": "WoLXruU7R8kosuy",
+    "id": "YCTFNmzCk1c2VU9",
     "tripId": "OfpW2rt8VHawxvu",
     "title": "Milngavie to Drymen",
     "date": "May 7th, 2022",
-    "image": "2022/05/07/75a8c027-07cd-4184-9157-d48dd5d1a32e.jpeg"
+    "image": "2022/05/07/75a8c027-07cd-4184-9157-d48dd5d1a32e.jpeg",
+    "gps": null
   },
   {
-    "id": "q60AeRle8mkY6k1",
+    "id": "XR7wfOFOBoQuzee",
     "tripId": "OfpW2rt8VHawxvu",
     "title": "Drymen to Sallochy",
     "date": "May 8th, 2022",
-    "image": "2022/05/07/e8dd9fed-56e4-45bf-aee4-d1bc44a5363c.jpeg"
+    "image": "2022/05/07/e8dd9fed-56e4-45bf-aee4-d1bc44a5363c.jpeg",
+    "gps": null
   },
   {
-    "id": "52DuHEtlBLqxsRU",
+    "id": "OGjo0aoQcFNA10W",
     "tripId": "OfpW2rt8VHawxvu",
     "title": "Kinlochleven to Fort William",
     "date": "May 12th, 2022",
-    "image": "2022/05/07/07741eea-d85e-42cf-a2d4-d0f87102bffc.jpeg"
+    "image": "2022/05/07/07741eea-d85e-42cf-a2d4-d0f87102bffc.jpeg",
+    "gps": null
   },
   {
-    "id": "24ImShpzCsX3xmC",
+    "id": "F3WpBTvMNCyHuVj",
     "tripId": "OfpW2rt8VHawxvu",
     "title": "Sallochy to Bienglas Farm",
     "date": "May 9th, 2022",
-    "image": "2022/05/07/e610c340-2b8c-481c-8442-dc4543db3f2c.jpeg"
+    "image": "2022/05/07/e610c340-2b8c-481c-8442-dc4543db3f2c.jpeg",
+    "gps": null
   },
   {
-    "id": "63ypbaFxfTlygc1",
+    "id": "XWPGrmgR5t4IDMZ",
     "tripId": "OfpW2rt8VHawxvu",
     "title": "Bienglas Farm to Bridge of Orchy",
     "date": "May 10th, 2022",
-    "image": "2022/05/07/b7df127a-0f69-4b29-843f-e1a7c6f858bf.jpeg"
+    "image": "2022/05/07/b7df127a-0f69-4b29-843f-e1a7c6f858bf.jpeg",
+    "gps": null
   },
   {
-    "id": "iD0JI1eI2ibtH56",
+    "id": "hlMUUfzMtgR4B7E",
     "tripId": "OfpW2rt8VHawxvu",
     "title": "Bridge of Orchy to Kinlochleven",
     "date": "May 11th, 2022",
-    "image": "2022/05/07/4a15a62a-a739-4ad9-83ff-3200e16c6bd5.jpeg"
+    "image": "2022/05/07/4a15a62a-a739-4ad9-83ff-3200e16c6bd5.jpeg",
+    "gps": null
   },
   {
-    "id": "nhUJPPlBQepKIiv",
+    "id": "qlURBb4FG8EZjda",
     "tripId": "V3V3fsmvjdZ6TPE",
     "title": "Calenzana to Refuge D'Ortu Di U Piobbu",
     "date": "June 21st, 2023",
-    "image": "2023/06/21/f1d1c83f-941d-4351-aa5e-08d698b78775.jpeg"
+    "image": "2023/06/21/f1d1c83f-941d-4351-aa5e-08d698b78775.jpeg",
+    "gps": null
   },
   {
-    "id": "xpyM0hbuUCpOHWt",
+    "id": "Bk13XJaXgTaWZq8",
     "tripId": "V3V3fsmvjdZ6TPE",
     "title": "Refuge de Carozzu to Ascu Stagnu",
     "date": "June 23rd, 2023",
-    "image": "2023/06/21/4b13a3d8-a55c-4bed-b887-ad3490ab964f.jpeg"
+    "image": "2023/06/21/4b13a3d8-a55c-4bed-b887-ad3490ab964f.jpeg",
+    "gps": null
   },
   {
-    "id": "7pc9rthntqmSgp7",
+    "id": "sGYgPWm6cr14U5y",
     "tripId": "V3V3fsmvjdZ6TPE",
     "title": "Refuge de Petra Piana to Refuge de l'Onda",
     "date": "June 28th, 2023",
-    "image": "2023/06/21/c9234d8d-0bb4-4eb7-83a2-62ab20c741ab.jpeg"
+    "image": "2023/06/21/c9234d8d-0bb4-4eb7-83a2-62ab20c741ab.jpeg",
+    "gps": null
   },
   {
-    "id": "pvtzJXzhHPVe9qW",
+    "id": "2oIFhIyoK4QdmQ7",
     "tripId": "V3V3fsmvjdZ6TPE",
     "title": "Refuge de l'Onda to Vizzavona",
     "date": "June 29th, 2023",
-    "image": "2023/06/21/273b1f88-962f-4011-8797-d21c640e73ff.jpeg"
+    "image": "2023/06/21/273b1f88-962f-4011-8797-d21c640e73ff.jpeg",
+    "gps": null
   },
   {
-    "id": "5ORIfHExjqvOtAJ",
+    "id": "brXTGrEmgdsPoHx",
     "tripId": "V3V3fsmvjdZ6TPE",
     "title": "Refuge D'Ortu Di U Piobbu to Refuge de Carozzu",
     "date": "June 22nd, 2023",
-    "image": "2023/06/21/e2d0721f-2c3f-4367-8f7b-1176c94b3e2c.jpeg"
+    "image": "2023/06/21/e2d0721f-2c3f-4367-8f7b-1176c94b3e2c.jpeg",
+    "gps": null
   },
   {
-    "id": "RvV2aF4Hsj8mCXI",
+    "id": "ruNFrYBZfiJbTwd",
     "tripId": "V3V3fsmvjdZ6TPE",
     "title": "Auberge U Vallone to Hotel Castel di Vergio",
     "date": "June 25th, 2023",
-    "image": "2023/06/21/f0dc6ac2-b0e5-4e2a-b874-0d40f47c454b.jpeg"
+    "image": "2023/06/21/f0dc6ac2-b0e5-4e2a-b874-0d40f47c454b.jpeg",
+    "gps": null
   },
   {
-    "id": "RPNu2AWJVwkbjws",
+    "id": "XTw67aMZTUIskZY",
     "tripId": "V3V3fsmvjdZ6TPE",
     "title": "Hotel Castel di Vergio to Refuge de Manganu",
     "date": "June 26th, 2023",
-    "image": "2023/06/21/95b4adaa-bbbe-4de3-b9f8-96365390f142.jpeg"
+    "image": "2023/06/21/95b4adaa-bbbe-4de3-b9f8-96365390f142.jpeg",
+    "gps": null
   },
   {
-    "id": "3LX3kQCC6Vt36jP",
+    "id": "o0471oDbptASEFb",
     "tripId": "V3V3fsmvjdZ6TPE",
     "title": "Refuge de Manganu to Refuge de Petra Piana",
     "date": "June 27th, 2023",
-    "image": "2023/06/21/6f292945-8f72-41b4-97d3-37ff51a6165d.jpeg"
+    "image": "2023/06/21/6f292945-8f72-41b4-97d3-37ff51a6165d.jpeg",
+    "gps": null
   },
   {
-    "id": "TNu1P0uxYfu5cYp",
+    "id": "Yee0bxkCWezrUMn",
     "tripId": "V3V3fsmvjdZ6TPE",
     "title": "Vizzavona to Bocca di Verdi",
     "date": "June 30th, 2023",
-    "image": "2023/06/21/54334c14-8bae-4478-97f7-179f79cd2ca6.jpeg"
+    "image": "2023/06/21/54334c14-8bae-4478-97f7-179f79cd2ca6.jpeg",
+    "gps": null
   },
   {
-    "id": "06G2c93vG2vaByx",
+    "id": "7JjOgYjpS0Y2Yb4",
     "tripId": "V3V3fsmvjdZ6TPE",
     "title": "Bocca di Verdi to Refuge d'Usciolu",
     "date": "July 1st, 2023",
-    "image": "2023/06/21/73a5df9e-fefd-43d0-ad5a-7f71dcb003cc.jpeg"
+    "image": "2023/06/21/73a5df9e-fefd-43d0-ad5a-7f71dcb003cc.jpeg",
+    "gps": null
   },
   {
-    "id": "2v7KK2VYl8wKW4S",
+    "id": "lC8HMeTYd94oTaZ",
     "tripId": "V3V3fsmvjdZ6TPE",
     "title": "Refuge d'Usciolu to Refuge d'Asinau",
     "date": "July 2nd, 2023",
-    "image": "2023/06/21/d36a683f-4d95-4b0c-987d-d190336c49ee.jpeg"
+    "image": "2023/06/21/d36a683f-4d95-4b0c-987d-d190336c49ee.jpeg",
+    "gps": null
   },
   {
-    "id": "FdCToHi6OVNoo4X",
+    "id": "GVivuEOhKbBrXcd",
     "tripId": "V3V3fsmvjdZ6TPE",
     "title": "Ascu Stagnu to Auberge U Vallone",
     "date": "June 24th, 2023",
-    "image": "2023/06/21/8f85de22-b937-4ea5-9dfa-e45eb357e7b8.jpeg"
+    "image": "2023/06/21/8f85de22-b937-4ea5-9dfa-e45eb357e7b8.jpeg",
+    "gps": null
   },
   {
-    "id": "R6TJmbiSydBTe1C",
+    "id": "MiFukAawD6ODr0i",
     "tripId": "V3V3fsmvjdZ6TPE",
     "title": "Refuge d'Asinau to Conca",
     "date": "July 3rd, 2023",
-    "image": "2023/06/21/f0cd0897-3fc9-47a2-808e-e1627dfb45bc.jpeg"
+    "image": "2023/06/21/f0cd0897-3fc9-47a2-808e-e1627dfb45bc.jpeg",
+    "gps": null
   }
 ];
 

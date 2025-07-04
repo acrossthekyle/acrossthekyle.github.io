@@ -10,7 +10,7 @@ import fs from 'fs';
 import fsPromises from 'fs/promises';
 import path from 'path';
 
-const trips = path.join(process.cwd(), './repository/trips');
+const trips = path.join(process.cwd(), './repository');
 const output = path.join(process.cwd(), './src/data');
 
 /* UTILITY METHODS */
@@ -395,6 +395,10 @@ function calculateLongestTime(stages) {
 }
 
 async function getTripStats(trip, stages) {
+  if (trip.type === 'vacation') {
+    return null;
+  }
+
   return [
     {
       type: 'max-altitude',
@@ -545,13 +549,8 @@ async function go() {
               'America/Chicago'
             )
           ) / 1000,
-        description: Array.isArray(tripData.description) ? tripData.description : [tripData.description],
         coordinates: tripData.marker,
-        lodging: tripData.lodging,
         location: tripData.location,
-        direction: tripData.direction,
-        next: tripData.next,
-        previous: tripData.previous,
       });
 
       tripData.categories.forEach((category) => {
@@ -596,72 +595,84 @@ async function go() {
             id: tripStageId,
             tripId,
             title: tripStage.title,
-            description: tripStage.description,
             date: tripStage.date,
             image: tripStage.image,
+            gps: tripStage.gps || null,
           });
 
-          tripStagesStatsTable.push({
-            id: generateId(),
-            tripId,
-            tripStageId,
-            type: 'total-time',
-            value: tripStage.time,
-          });
+          if (tripStage.time) {
+            tripStagesStatsTable.push({
+              id: generateId(),
+              tripId,
+              tripStageId,
+              type: 'total-time',
+              value: tripStage.time,
+            });
+          }
 
-          tripStagesStatsTable.push({
-            id: generateId(),
-            tripId,
-            tripStageId,
-            type: 'total-distance',
-            value: tripStage.miles,
-          });
+          if (tripStage.miles) {
+            tripStagesStatsTable.push({
+              id: generateId(),
+              tripId,
+              tripStageId,
+              type: 'total-distance',
+              value: tripStage.miles,
+            });
+          }
 
-          tripStagesStatsTable.push({
-            id: generateId(),
-            tripId,
-            tripStageId,
-            type: 'total-gain',
-            value: tripStage.gain,
-          });
+          if (tripStage.gain) {
+            tripStagesStatsTable.push({
+              id: generateId(),
+              tripId,
+              tripStageId,
+              type: 'total-gain',
+              value: tripStage.gain,
+            });
+          }
 
-          tripStagesStatsTable.push({
-            id: generateId(),
-            tripId,
-            tripStageId,
-            type: 'total-loss',
-            value: tripStage.loss,
-          });
+          if (tripStage.loss) {
+            tripStagesStatsTable.push({
+              id: generateId(),
+              tripId,
+              tripStageId,
+              type: 'total-loss',
+              value: tripStage.loss,
+            });
+          }
 
-          tripStagesStatsTable.push({
-            id: generateId(),
-            tripId,
-            tripStageId,
-            type: 'max-altitude',
-            value: Math.max(...tripStage.elevation).toFixed(0),
-          });
+          if (tripStage.elevation) {
+            tripStagesStatsTable.push({
+              id: generateId(),
+              tripId,
+              tripStageId,
+              type: 'max-altitude',
+              value: Math.max(...tripStage.elevation).toFixed(0),
+            });
 
-          tripStagesStatsTable.push({
-            id: generateId(),
-            tripId,
-            tripStageId,
-            type: 'min-altitude',
-            value: Math.min(...tripStage.elevation).toFixed(0),
-          });
+            tripStagesStatsTable.push({
+              id: generateId(),
+              tripId,
+              tripStageId,
+              type: 'min-altitude',
+              value: Math.min(...tripStage.elevation).toFixed(0),
+            });
 
-          tripStagesElevationsTable.push({
-            id: generateId(),
-            tripId,
-            tripStageId,
-            values: tripStage.elevation,
-          });
+            tripStagesElevationsTable.push({
+              id: generateId(),
+              tripId,
+              tripStageId,
+              values: tripStage.elevation,
+            });
+          }
 
-          tripStagesRoutesTable.push({
-            id: generateId(),
-            tripId,
-            tripStageId,
-            values: tripStage.route,
-          });
+          if (tripStage.route) {
+            tripStagesRoutesTable.push({
+              id: generateId(),
+              tripId,
+              tripStageId,
+              values: tripStage.route,
+            });
+          }
         });
       }
     }),

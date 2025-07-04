@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 
-import { type Trip } from './types';
+import type { Trip } from '@/types';
 
 type State = {
   hasError: boolean;

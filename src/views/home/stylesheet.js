@@ -13,7 +13,7 @@ const styles = {
     lg:gap-16
     lg:grid-cols-3
   `),
-  cell: (hasEnteredView) => tw(`
+  card: (hasEnteredView) => tw(`
     relative
     ease-in-out duration-500
 
@@ -73,10 +73,6 @@ const styles = {
     text-xs font-normal uppercase
   `),
   year: tw(`text-sm uppercase`),
-  metrics: tw(`
-    flex gap-2
-    text-white text-tiny uppercase
-  `),
   pulse: tw(`animate-pulse`),
   skeleton: tw(`
     relative

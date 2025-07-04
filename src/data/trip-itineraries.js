@@ -1,6 +1,137 @@
 const data = [
   {
-    "id": "VjgOoHdCnHRt3KW",
+    "id": "VdgILCDaRAQVk8K",
+    "tripId": "smdTdOu9zzcIC7K",
+    "itinerary": {
+      "map": "world",
+      "outbound": [
+        {
+          "date": "December 27th",
+          "start": {
+            "name": "Rochester",
+            "port": "ROC"
+          },
+          "end": {
+            "name": "New York City",
+            "port": "JFK"
+          },
+          "type": "flight",
+          "distance": "264",
+          "duration": {
+            "hours": "1",
+            "minutes": "24"
+          }
+        },
+        {
+          "date": "December 27th",
+          "start": {
+            "name": "New York City",
+            "port": "JFK"
+          },
+          "end": {
+            "name": "Istanbul",
+            "port": "IST"
+          },
+          "type": "flight",
+          "distance": "5015",
+          "duration": {
+            "hours": "9",
+            "minutes": "30"
+          }
+        },
+        {
+          "date": "December 28th",
+          "start": {
+            "name": "Istanbul",
+            "port": "IST"
+          },
+          "end": {
+            "name": "Cairo",
+            "port": "CAI"
+          },
+          "type": "flight",
+          "distance": "782",
+          "duration": {
+            "hours": "2",
+            "minutes": "25"
+          }
+        }
+      ],
+      "during": [
+        {
+          "date": "December 28 - January 5",
+          "start": {
+            "name": "Cairo",
+            "municipality": "Egypt"
+          },
+          "end": {
+            "name": "Cairo",
+            "municipality": "Egypt"
+          },
+          "type": "sight-seeing",
+          "distance": null,
+          "duration": {
+            "days": "8"
+          }
+        }
+      ],
+      "inbound": [
+        {
+          "date": "January 6th",
+          "start": {
+            "name": "Cairo",
+            "port": "CAI"
+          },
+          "end": {
+            "name": "Istanbul",
+            "port": "IST"
+          },
+          "type": "flight",
+          "distance": "782",
+          "duration": {
+            "hours": "2",
+            "minutes": "25"
+          }
+        },
+        {
+          "date": "January 6th",
+          "start": {
+            "name": "Istanbul",
+            "port": "IST"
+          },
+          "end": {
+            "name": "New York City",
+            "port": "JFK"
+          },
+          "type": "flight",
+          "distance": "5015",
+          "duration": {
+            "hours": "9",
+            "minutes": "30"
+          }
+        },
+        {
+          "date": "January 6th",
+          "start": {
+            "name": "New York City",
+            "port": "JFK"
+          },
+          "end": {
+            "name": "Rochester",
+            "port": "ROC"
+          },
+          "type": "flight",
+          "distance": "264",
+          "duration": {
+            "hours": "1",
+            "minutes": "24"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "UzEKAgHM18n1gfm",
     "tripId": "rDF2WHqEvEKlILl",
     "itinerary": {
       "map": "world",
@@ -182,7 +313,7 @@ const data = [
     }
   },
   {
-    "id": "8cvdC6d5KQYFc75",
+    "id": "WmtOgUO4j8A7sQG",
     "tripId": "N4HkpHlfYaqDxql",
     "itinerary": {
       "map": "world",
@@ -330,7 +461,7 @@ const data = [
     }
   },
   {
-    "id": "r0m4XC65qM6uVl0",
+    "id": "2ig4nEQLDY8mMbP",
     "tripId": "9sTY7zOYLEgzg14",
     "itinerary": {
       "map": "north-america",
@@ -521,7 +652,7 @@ const data = [
     }
   },
   {
-    "id": "ocV9Jqa03mTmOlo",
+    "id": "SuW27UeFwRrWYS8",
     "tripId": "yCgl91McCKXS8qT",
     "itinerary": {
       "map": "north-america",
@@ -664,7 +795,7 @@ const data = [
     }
   },
   {
-    "id": "0FQbAEzqDi3EjUb",
+    "id": "nLwuwnagLcDbZ4G",
     "tripId": "w2RLiwOJUV47nRG",
     "itinerary": {
       "map": "world",
@@ -863,7 +994,7 @@ const data = [
     }
   },
   {
-    "id": "9ZOep8aVGNcNkK8",
+    "id": "1aNLeNI8GOur6HO",
     "tripId": "lBkSFDPGjsrJaHk",
     "itinerary": {
       "map": "world",
@@ -1062,7 +1193,7 @@ const data = [
     }
   },
   {
-    "id": "QtJfQXEonfzpgtr",
+    "id": "yIhve7sLh3SDEvb",
     "tripId": "3XxhkdLe7pvjCfc",
     "itinerary": {
       "map": "world",
@@ -1193,7 +1324,7 @@ const data = [
     }
   },
   {
-    "id": "TnkmMfMrrC0VID6",
+    "id": "a0xczvottcCVVho",
     "tripId": "Lsgt4mh2dQrdWrn",
     "itinerary": {
       "map": "north-america",
@@ -1299,7 +1430,7 @@ const data = [
     }
   },
   {
-    "id": "jKJE3ckmMAYDyrL",
+    "id": "1cNgLczcSx091Au",
     "tripId": "2oThDjcm12S3Viu",
     "itinerary": {
       "map": "north-america",
@@ -1476,7 +1607,7 @@ const data = [
     }
   },
   {
-    "id": "FrvI3OaL0Brsc62",
+    "id": "A6otOOtHw9XAwOW",
     "tripId": "pvSEvH3A7Ysnvsf",
     "itinerary": {
       "map": "world",
@@ -1607,7 +1738,7 @@ const data = [
     }
   },
   {
-    "id": "igHdtaYUeHsEyuV",
+    "id": "6kifH9gJIaa92Ti",
     "tripId": "OfpW2rt8VHawxvu",
     "itinerary": {
       "map": "world",
@@ -1738,7 +1869,7 @@ const data = [
     }
   },
   {
-    "id": "vWPh7uxYpNIqDuL",
+    "id": "erSNK1ayVOhnv6Z",
     "tripId": "V3V3fsmvjdZ6TPE",
     "itinerary": {
       "map": "world",

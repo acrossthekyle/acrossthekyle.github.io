@@ -11,5 +11,9 @@ export function getLabel(type) {
     return 'summit';
   }
 
+  if (type === 'vacation') {
+    return 'destination';
+  }
+
   return '';
 }

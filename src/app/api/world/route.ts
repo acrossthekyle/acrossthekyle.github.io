@@ -32,11 +32,6 @@ export async function GET() {
     left: '22',
     top: '43',
   });
-  // egypt
-  coordinates.push({
-    left: '54',
-    top: '36',
-  });
 
   return NextResponse.json(coordinates);
 }

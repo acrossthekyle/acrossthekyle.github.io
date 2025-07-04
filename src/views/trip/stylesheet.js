@@ -7,7 +7,7 @@ const styles = {
     w-[calc(100vw-0.5rem)]
     mb-2
     overflow-hidden
-    bg-white/10
+    bg-(--background)
     duration-400
     rounded-2xl
 
@@ -18,13 +18,24 @@ const styles = {
     sm:shadow-2xl
     lg:w-[calc(100vw-6rem)]
   `),
-  pulse: tw(`animate-pulse`),
-  skeleton: tw(`
+  inner: tw(`
     relative
-    overflow-hidden
-    h-full w-full
-    bg-neutral-900
-    rounded-2xl
+    flex flex-col gap-0
+    h-full
+    ease-in-out duration-800
+
+    md:flex-row
+  `),
+  close: tw(`
+    absolute top-0 left-0 z-5
+    cursor-pointer
+    p-3
+
+    sm:p-6
+  `),
+  x: tw(`
+    w-5 h-5
+    stroke-1
   `),
 };
 

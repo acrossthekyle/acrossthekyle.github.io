@@ -1,13 +1,13 @@
 import { useModal } from '@/hooks/useModal';
 
-import Menu from './menu';
+import Components from './components';
 
 export function useModel() {
   const { modal } = useModal();
 
   const handleOnMenuOpen = () => {
     modal({
-      content: <Menu />,
+      content: <Components.Menu />,
       size: 'md',
     });
   };

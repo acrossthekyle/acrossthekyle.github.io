@@ -3,9 +3,8 @@
 import { AlignRight } from 'lucide-react';
 import { ReactNode, Suspense } from 'react';
 
-import Modal from './modal';
+import Components from './components';
 import { useModel } from './model';
-import Search from './search';
 import styles from './stylesheet';
 
 type Props = {
@@ -20,7 +19,7 @@ export default function View({ children }: Props) {
       <header className={styles.header}>
         <div className={styles.inner}>
           <Suspense>
-            <Search />
+            <Components.Search />
           </Suspense>
           <button
             className={styles.menu}
@@ -34,7 +33,7 @@ export default function View({ children }: Props) {
       <main className={styles.main}>
         {children}
       </main>
-      <Modal />
+      <Components.Modal />
     </>
   );
 }

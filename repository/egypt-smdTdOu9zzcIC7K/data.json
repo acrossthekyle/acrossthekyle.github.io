@@ -1,0 +1,151 @@
+{
+  "date": "December 29th - January 6th, 2023",
+  "timestamp": "December 29th, 2022",
+  "id": "smdTdOu9zzcIC7K",
+  "type": "vacation",
+  "image": "2022/12/28/88613c33-7796-47be-afc6-d31f51a80600.jpeg",
+  "location": "Cairo and Luxor",
+  "previous": "2oThDjcm12S3Viu",
+  "next": "V3V3fsmvjdZ6TPE",
+  "marker": {
+    "left": "54",
+    "top": "36"
+  },
+  "description": "",
+  "categories": [
+    "africa",
+    "egypt",
+    "cairo",
+    "luxor"
+  ],
+  "title": "Egypt",
+  "direction": null,
+  "itinerary": {
+    "map": "world",
+    "outbound": [
+      {
+        "date": "December 27th",
+        "start": {
+          "name": "Rochester",
+          "port": "ROC"
+        },
+        "end": {
+          "name": "New York City",
+          "port": "JFK"
+        },
+        "type": "flight",
+        "distance": "264",
+        "duration": {
+          "hours": "1",
+          "minutes": "24"
+        }
+      },
+      {
+        "date": "December 27th",
+        "start": {
+          "name": "New York City",
+          "port": "JFK"
+        },
+        "end": {
+          "name": "Istanbul",
+          "port": "IST"
+        },
+        "type": "flight",
+        "distance": "5015",
+        "duration": {
+          "hours": "9",
+          "minutes": "30"
+        }
+      },
+      {
+        "date": "December 28th",
+        "start": {
+          "name": "Istanbul",
+          "port": "IST"
+        },
+        "end": {
+          "name": "Cairo",
+          "port": "CAI"
+        },
+        "type": "flight",
+        "distance": "782",
+        "duration": {
+          "hours": "2",
+          "minutes": "25"
+        }
+      }
+    ],
+    "during": [
+      {
+        "date": "December 28 - January 5",
+        "start": {
+          "name": "Cairo",
+          "municipality": "Egypt"
+        },
+        "end": {
+          "name": "Cairo",
+          "municipality": "Egypt"
+        },
+        "type": "sight-seeing",
+        "distance": null,
+        "duration": {
+          "days": "8"
+        }
+      }
+    ],
+    "inbound": [
+      {
+        "date": "January 6th",
+        "start": {
+          "name": "Cairo",
+          "port": "CAI"
+        },
+        "end": {
+          "name": "Istanbul",
+          "port": "IST"
+        },
+        "type": "flight",
+        "distance": "782",
+        "duration": {
+          "hours": "2",
+          "minutes": "25"
+        }
+      },
+      {
+        "date": "January 6th",
+        "start": {
+          "name": "Istanbul",
+          "port": "IST"
+        },
+        "end": {
+          "name": "New York City",
+          "port": "JFK"
+        },
+        "type": "flight",
+        "distance": "5015",
+        "duration": {
+          "hours": "9",
+          "minutes": "30"
+        }
+      },
+      {
+        "date": "January 6th",
+        "start": {
+          "name": "New York City",
+          "port": "JFK"
+        },
+        "end": {
+          "name": "Rochester",
+          "port": "ROC"
+        },
+        "type": "flight",
+        "distance": "264",
+        "duration": {
+          "hours": "1",
+          "minutes": "24"
+        }
+      }
+    ]
+  },
+  "lodging": "hotels"
+}
