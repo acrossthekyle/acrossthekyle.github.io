@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = {
   control: tw(`
-    absolute top-1/2 z-3
+    absolute top-1/2 z-5
     flex items-center justify-center
     w-8 h-8
     -mt-4

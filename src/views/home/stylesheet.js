@@ -51,15 +51,15 @@ const styles = {
     h-full w-full
     transition-gpu duration-500
 
-    opacity-70
+    grayscale-100
+    opacity-90
 
-    sm:grayscale-100
-    sm:opacity-90
-
-    sm:group-focus:grayscale-0
-    sm:group-focus:opacity-100
-    sm:group-hover:opacity-100
-    sm:group-hover:grayscale-0
+    group-focus:grayscale-0
+    group-focus:opacity-100
+    group-active:grayscale-0
+    group-active:opacity-100
+    group-hover:opacity-100
+    group-hover:grayscale-0
   `),
   caption: tw(`
     absolute z-3 inset-0

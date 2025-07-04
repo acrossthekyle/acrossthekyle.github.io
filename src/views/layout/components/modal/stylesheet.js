@@ -38,13 +38,12 @@ const styles = {
     `)}
   `),
   wrapper: tw(`
-    flex items-end justify-center
+    flex items-center justify-center
     min-h-full
     p-0
     text-center
 
     sm:p-4
-    lg:items-center
     lg:p-0
   `),
   content: (isOpen, size) => tw(`

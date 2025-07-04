@@ -11,11 +11,12 @@ const styles = {
     duration-400
     rounded-2xl
 
-    sm:h-[calc(100dvh-6rem)]
+    sm:h-[calc(100dvh-2rem)]
     sm:w-[calc(100vw-2rem)]
     sm:max-w-7xl
     sm:shadow-black
     sm:shadow-2xl
+    lg:h-[calc(100dvh-6rem)]
     lg:w-[calc(100vw-6rem)]
   `),
   inner: tw(`
@@ -24,7 +25,9 @@ const styles = {
     h-full
     ease-in-out duration-800
 
-    md:flex-row
+    lg:flex-row
+    landscape:flex-row
+    portrait:flex-col
   `),
   close: tw(`
     absolute top-0 left-0 z-5

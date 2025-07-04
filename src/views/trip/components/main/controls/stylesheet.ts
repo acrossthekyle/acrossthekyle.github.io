@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = {
   gear: tw(`
-    absolute left-3 bottom-3 z-2
+    absolute left-3 bottom-3 z-5
     flex items-center justify-center
     w-8 h-8
     cursor-pointer
@@ -14,7 +14,7 @@ const styles = {
     sm:bottom-6
   `),
   map: tw(`
-    absolute bottom-3 right-3 z-3
+    absolute bottom-3 right-3 z-5
     flex items-center justify-center
     w-8 h-8
     cursor-pointer
