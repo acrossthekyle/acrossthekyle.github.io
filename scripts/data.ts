@@ -534,7 +534,9 @@ async function go() {
         title: tripData.title,
         type: tripData.type,
         image: tripData.image,
-        date: tripData.date,
+        date: tripData.date.toLowerCase().includes('since') ?
+          null :
+          tripData.date.split(',')[0],
         year:
           tripData.date.toLowerCase().includes('since')
             ? `${tripData.date.toLowerCase().replace('since ', '')} - ${formatDate(new Date(), 'yyyy')}`

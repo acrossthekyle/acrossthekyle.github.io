@@ -9,14 +9,14 @@ const styles = {
     cursor-pointer
   `),
   next: tw(`
-    right-2
+    right-1
 
-    sm:right-4
+    sm:right-3
   `),
   previous: tw(`
-    left-2
+    left-1
 
-    sm:left-4
+    sm:left-3
   `),
   chevron: tw(`
     w-5 h-5

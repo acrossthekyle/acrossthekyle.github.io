@@ -32,6 +32,22 @@ const styles = {
     z-1
     opacity-0
   `),
+  caption: tw(`
+    absolute bottom-16 z-5
+    px-4
+    w-full
+    text-sm text-white font-black uppercase
+  `),
+  title: tw(`
+    flex items-start justify-center
+    mb-2
+
+    sm:mb-1
+  `),
+  step: tw(`
+    block
+    text-xs font-normal uppercase
+  `),
 };
 
 export default styles;

@@ -42,7 +42,7 @@ export default function Main({
   return (
     <div className={styles.container(view)}>
       <Gallery active={index} swipeable={swipeable.ref} trip={trip} />
-      <Header active={index} trip={trip} />
+      <Header trip={trip} />
       <Navigation onNext={onNext} onPrevious={onPrevious} suffix={trip.label} />
       <Controls
         hasGear={trip.hasGear}

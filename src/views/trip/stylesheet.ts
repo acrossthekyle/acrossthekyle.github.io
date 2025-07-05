@@ -3,8 +3,8 @@ import tw from '@/styles';
 const styles = {
   container: tw(`
     relative
-    h-[calc(100dvh-1rem)]
-    w-[calc(100vw-0.5rem)]
+    h-[calc(100dvh-2rem)]
+    w-[calc(100vw-2rem)]
     mb-2
     overflow-hidden
     bg-(--background)
@@ -32,7 +32,7 @@ const styles = {
   close: tw(`
     absolute top-0 left-0 z-5
     cursor-pointer
-    p-3
+    p-4
 
     sm:p-6
   `),

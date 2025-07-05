@@ -26,6 +26,14 @@ export default function Gallery({ active, swipeable, trip }: Props) {
             width="1920"
           />
         ))}
+        <figcaption className={styles.caption}>
+          <span className={styles.title}>
+            {trip.stages[active].title.replace(/ to /g, '\u00A0\u2192\u00A0')}
+          </span>
+          <span className={styles.step}>
+            {trip.label} {active + 1} / {trip.length}
+          </span>
+        </figcaption>
       </figure>
     </div>
   );

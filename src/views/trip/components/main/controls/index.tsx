@@ -18,24 +18,24 @@ export default function Controls({ hasGear, hasGps, hasRoutes }: Props) {
     <>
       {hasGear && (
         <button
-          className={styles.gear}
+          className={`${styles.control} ${styles.gear}`}
           onClick={() => shift(Overlay.Gear)}
           title="View gear"
           type="button"
         >
-          <ClipboardList className={styles.icon} />
+          <ClipboardList className={styles.icon} /> Gear
         </button>
       )}
       {(hasRoutes || hasGps) && (
         <button
-          className={styles.map}
+          className={`${styles.control} ${styles.map}`}
           onClick={() => shift(
             view === View.ImageOverMap ? View.ImageWithMap : View.ImageOverMap,
           )}
           title="Toggle map"
           type="button"
         >
-          <Map className={styles.icon} />
+          Map <Map className={styles.icon} />
         </button>
       )}
     </>

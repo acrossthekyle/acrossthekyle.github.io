@@ -4,7 +4,7 @@ const data = [
     "title": "Egypt",
     "type": "vacation",
     "image": "2022/12/28/88613c33-7796-47be-afc6-d31f51a80600.jpeg",
-    "date": "December 29th - January 6th, 2023",
+    "date": "December 29 - January 6",
     "year": "2023",
     "timestamp": 1672293600,
     "coordinates": {
@@ -18,7 +18,7 @@ const data = [
     "title": "Alta Via 1",
     "type": "thru-hike",
     "image": "2019/07/16/c4d424d9-7826-422d-9e0f-1b7e8b20af99.jpeg",
-    "date": "July 16th - July 25th, 2019",
+    "date": "July 16 - 25",
     "year": "2019",
     "timestamp": 1563253200,
     "coordinates": {
@@ -32,7 +32,7 @@ const data = [
     "title": "Camino de Santiago",
     "type": "thru-hike",
     "image": "2018/06/02/42f8785d-32c0-4446-9a39-d88aa028e407.jpeg",
-    "date": "June 2nd - July 4th, 2018",
+    "date": "June 2 - July 4",
     "year": "2018",
     "timestamp": 1527915600,
     "coordinates": {
@@ -46,7 +46,7 @@ const data = [
     "title": "Colorado",
     "type": "summits",
     "image": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
-    "date": "September 3rd - September 7th, 2020",
+    "date": "September 3 - 7",
     "year": "2020",
     "timestamp": 1599109200,
     "location": "Granite, Idaho Springs, and Silver Plume"
@@ -56,7 +56,7 @@ const data = [
     "title": "Colorado",
     "type": "summits",
     "image": "2019/08/31/8cac350f-f71e-4d78-b394-05ab790f1c1a.jpeg",
-    "date": "August 30th - September 2nd, 2019",
+    "date": "August 30 - September 2",
     "year": "2019",
     "timestamp": 1567141200,
     "location": "Twin Lakes and Breckenridge"
@@ -66,7 +66,7 @@ const data = [
     "title": "O Circuit",
     "type": "thru-hike",
     "image": "2020/02/18/5e958df4-56a2-4292-ae6d-b694f078a985.jpeg",
-    "date": "February 18th - February 25th, 2020",
+    "date": "February 18 - 25",
     "year": "2020",
     "timestamp": 1582005600,
     "coordinates": {
@@ -80,7 +80,7 @@ const data = [
     "title": "Annapurna",
     "type": "thru-hike",
     "image": "2019/10/19/922fa9b2-fff3-4457-b0b4-18dc26c0b2b8.jpeg",
-    "date": "October 19th - November 6th, 2019",
+    "date": "October 19 - November 6",
     "year": "2019",
     "timestamp": 1571461200,
     "coordinates": {
@@ -94,21 +94,21 @@ const data = [
     "title": "Tour du Mont Blanc",
     "type": "thru-hike",
     "image": "2018/09/02/2c1912f7-c571-4a3a-8240-0e602c9e8e47.jpeg",
-    "date": "September 2nd - September 13th, 2018",
+    "date": "September 2 - 13",
     "year": "2018",
     "timestamp": 1535864400,
     "coordinates": {
       "left": "46.6",
       "top": "22"
     },
-    "location": "French, Italian, and Swiss, Alps"
+    "location": "France, Italy, Switzerland"
   },
   {
     "id": "Lsgt4mh2dQrdWrn",
     "title": "Colorado",
     "type": "summits",
     "image": "2021/09/07/9c414ac6-cbce-4dd4-9e8a-ac3d36b9e833.jpeg",
-    "date": "September 7th - September 9th, 2021",
+    "date": "September 7 - 9",
     "year": "2021",
     "timestamp": 1630990800,
     "location": "Buena Vista and Alma"
@@ -118,7 +118,7 @@ const data = [
     "title": "Colorado",
     "type": "summits",
     "image": "2022/09/09/f722df6c-2869-4ff0-80f7-37014241e135.jpeg",
-    "date": "September 9th - September 11th, 2022",
+    "date": "September 9 - 11",
     "year": "2022",
     "timestamp": 1662699600,
     "coordinates": {
@@ -132,7 +132,7 @@ const data = [
     "title": "Ice Age Trail",
     "type": "section-hike",
     "image": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",
-    "date": "Since 2022",
+    "date": null,
     "year": "2022 - 2025",
     "timestamp": 1657861200,
     "coordinates": {
@@ -146,21 +146,21 @@ const data = [
     "title": "Tour du Mont Blanc",
     "type": "thru-hike",
     "image": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg",
-    "date": "July 27th - August 6th, 2024",
+    "date": "July 27 - August 6",
     "year": "2024",
     "timestamp": 1722056400,
     "coordinates": {
       "left": "46.6",
       "top": "22"
     },
-    "location": "French, Italian, and Swiss, Alps"
+    "location": "France, Italy, Switzerland"
   },
   {
     "id": "OfpW2rt8VHawxvu",
     "title": "West Highland Way",
     "type": "thru-hike",
     "image": "2022/05/07/4a15a62a-a739-4ad9-83ff-3200e16c6bd5.jpeg",
-    "date": "May 7th - May 12th, 2022",
+    "date": "May 7 - 12",
     "year": "2022",
     "timestamp": 1651899600,
     "coordinates": {
@@ -174,7 +174,7 @@ const data = [
     "title": "GR No. 20",
     "type": "thru-hike",
     "image": "2023/06/21/0ff34736-949f-4981-b339-06b6d304ba51.jpeg",
-    "date": "June 21st - July 3rd, 2023",
+    "date": "June 21 - July 3",
     "year": "2023",
     "timestamp": 1687323600,
     "coordinates": {

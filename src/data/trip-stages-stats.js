@@ -1,8 +1,8 @@
 const data = [
   {
-    "id": "jzROFTlM10uSUc0",
+    "id": "N37fxqkAoUIGJQH",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "ev3IrTHgknP8M6K",
+    "tripStageId": "ub0f4DNwRNbs1sT",
     "type": "total-time",
     "value": {
       "hours": "5",
@@ -10,44 +10,44 @@ const data = [
     }
   },
   {
-    "id": "PZBGPWFsjThDjuy",
+    "id": "MH8oZ98gOwggc2u",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "ev3IrTHgknP8M6K",
+    "tripStageId": "ub0f4DNwRNbs1sT",
     "type": "total-distance",
     "value": "5.36"
   },
   {
-    "id": "gAI55a3qr0Oqmh9",
+    "id": "jeJr7VF5OqhsNEa",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "ev3IrTHgknP8M6K",
+    "tripStageId": "ub0f4DNwRNbs1sT",
     "type": "total-gain",
     "value": "4304"
   },
   {
-    "id": "jW0vSAgbKy1gy4x",
+    "id": "pasQ7uaYOFML795",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "ev3IrTHgknP8M6K",
+    "tripStageId": "ub0f4DNwRNbs1sT",
     "type": "total-loss",
     "value": "1564"
   },
   {
-    "id": "Am9a67HIOk7P1J7",
+    "id": "TgoYMZwAeGjHQVC",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "ev3IrTHgknP8M6K",
+    "tripStageId": "ub0f4DNwRNbs1sT",
     "type": "max-altitude",
     "value": "9129"
   },
   {
-    "id": "7vjfVtgN558uomN",
+    "id": "gpJXZjYU9pSC1qc",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "ev3IrTHgknP8M6K",
+    "tripStageId": "ub0f4DNwRNbs1sT",
     "type": "min-altitude",
     "value": "4882"
   },
   {
-    "id": "e2PZ8HoqbJDZ95R",
+    "id": "XqiQGDKaPbrm8us",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "egaHa1lm9BKCPEF",
+    "tripStageId": "im01SVc6ClQbhdv",
     "type": "total-time",
     "value": {
       "hours": "5",
@@ -55,44 +55,44 @@ const data = [
     }
   },
   {
-    "id": "NXvjdA3aycbggti",
+    "id": "ylzOXnrkhuD4sem",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "egaHa1lm9BKCPEF",
+    "tripStageId": "im01SVc6ClQbhdv",
     "type": "total-distance",
     "value": "8.19"
   },
   {
-    "id": "7nV1aOy3N0tSHh3",
+    "id": "pSF5QK4yjZjlGJb",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "egaHa1lm9BKCPEF",
+    "tripStageId": "im01SVc6ClQbhdv",
     "type": "total-gain",
     "value": "2022"
   },
   {
-    "id": "zNCtiClCK7x3H1N",
+    "id": "0RjJiyQjoHRsufk",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "egaHa1lm9BKCPEF",
+    "tripStageId": "im01SVc6ClQbhdv",
     "type": "total-loss",
     "value": "2951"
   },
   {
-    "id": "92feb3WDdPUUY0X",
+    "id": "Ve1L4PqTyi2d5xe",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "egaHa1lm9BKCPEF",
+    "tripStageId": "im01SVc6ClQbhdv",
     "type": "max-altitude",
     "value": "7625"
   },
   {
-    "id": "ygCI4vNbpcTuat9",
+    "id": "ei2xT2nOXdiegui",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "egaHa1lm9BKCPEF",
+    "tripStageId": "im01SVc6ClQbhdv",
     "type": "min-altitude",
     "value": "5030"
   },
   {
-    "id": "wGl8lrcNMPucN19",
+    "id": "vOOCEDAedDNox7g",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "Ecu2w5mncDVuSiq",
+    "tripStageId": "g8dRusJhkd1tPUH",
     "type": "total-time",
     "value": {
       "hours": "5",
@@ -100,134 +100,44 @@ const data = [
     }
   },
   {
-    "id": "vllEnBW1fWfGGsF",
+    "id": "LVqu5YXp4rDaSYG",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "Ecu2w5mncDVuSiq",
+    "tripStageId": "g8dRusJhkd1tPUH",
     "type": "total-distance",
     "value": "6.35"
   },
   {
-    "id": "plsFJLvtjX70xrx",
+    "id": "yRJ2jA4r6L4grlA",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "Ecu2w5mncDVuSiq",
+    "tripStageId": "g8dRusJhkd1tPUH",
     "type": "total-gain",
     "value": "1856"
   },
   {
-    "id": "fkIPMMFPELgkhEG",
+    "id": "zsR7HOHBTEnXn7G",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "Ecu2w5mncDVuSiq",
+    "tripStageId": "g8dRusJhkd1tPUH",
     "type": "total-loss",
     "value": "2014"
   },
   {
-    "id": "0YJgcxFUIYUZ8m5",
+    "id": "dkA35vdvHhD4T6Y",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "Ecu2w5mncDVuSiq",
+    "tripStageId": "g8dRusJhkd1tPUH",
     "type": "max-altitude",
     "value": "8172"
   },
   {
-    "id": "kc9XfN63BO25Kmr",
+    "id": "Mi9fId6vuHpUUSo",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "Ecu2w5mncDVuSiq",
+    "tripStageId": "g8dRusJhkd1tPUH",
     "type": "min-altitude",
     "value": "6553"
   },
   {
-    "id": "MiU3eUIpPpaa2Qn",
+    "id": "aF4yZSoLcvCq47q",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "p3U9ouFEJrsJXQ2",
-    "type": "total-time",
-    "value": {
-      "hours": "7",
-      "minutes": "40"
-    }
-  },
-  {
-    "id": "SAqjGwWhm1fSPUm",
-    "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "p3U9ouFEJrsJXQ2",
-    "type": "total-distance",
-    "value": "9.71"
-  },
-  {
-    "id": "KmSbI5PpXCknKqy",
-    "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "p3U9ouFEJrsJXQ2",
-    "type": "total-gain",
-    "value": "4694"
-  },
-  {
-    "id": "f8fqatBcVKAsD6K",
-    "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "p3U9ouFEJrsJXQ2",
-    "type": "total-loss",
-    "value": "3336"
-  },
-  {
-    "id": "SXEyHoeMD19pFFp",
-    "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "p3U9ouFEJrsJXQ2",
-    "type": "max-altitude",
-    "value": "8427"
-  },
-  {
-    "id": "NnMDmleyS9f4UOc",
-    "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "p3U9ouFEJrsJXQ2",
-    "type": "min-altitude",
-    "value": "5644"
-  },
-  {
-    "id": "Wim8LWAEaobADuc",
-    "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "xSAEWyZ5MHgK23N",
-    "type": "total-time",
-    "value": {
-      "hours": "7",
-      "minutes": "40"
-    }
-  },
-  {
-    "id": "JSYduqlWXYrrK04",
-    "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "xSAEWyZ5MHgK23N",
-    "type": "total-distance",
-    "value": "8.38"
-  },
-  {
-    "id": "Z1Mzev3LjqUbX80",
-    "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "xSAEWyZ5MHgK23N",
-    "type": "total-gain",
-    "value": "3124"
-  },
-  {
-    "id": "03pDFTQt10Hvh6R",
-    "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "xSAEWyZ5MHgK23N",
-    "type": "total-loss",
-    "value": "2031"
-  },
-  {
-    "id": "bLXRekpnb7glIQI",
-    "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "xSAEWyZ5MHgK23N",
-    "type": "max-altitude",
-    "value": "7345"
-  },
-  {
-    "id": "ZnT169aY2ou7v5g",
-    "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "xSAEWyZ5MHgK23N",
-    "type": "min-altitude",
-    "value": "5585"
-  },
-  {
-    "id": "53Rpljc82Cw6NCs",
-    "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "hfXKbrt8Ino76Em",
+    "tripStageId": "sATJyz9asgExoXX",
     "type": "total-time",
     "value": {
       "hours": "6",
@@ -235,134 +145,89 @@ const data = [
     }
   },
   {
-    "id": "gjZ7BviMc2MpkHB",
+    "id": "jJBf4AT6xTWSr5B",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "hfXKbrt8Ino76Em",
+    "tripStageId": "sATJyz9asgExoXX",
     "type": "total-distance",
     "value": "0.09"
   },
   {
-    "id": "cGppWzdp3rCJyK7",
+    "id": "y1d3O87mSmGaQ61",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "hfXKbrt8Ino76Em",
+    "tripStageId": "sATJyz9asgExoXX",
     "type": "total-gain",
     "value": "1599"
   },
   {
-    "id": "Uv8jh50hJBVphou",
+    "id": "WhlJ1DNLV0Y04y2",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "hfXKbrt8Ino76Em",
+    "tripStageId": "sATJyz9asgExoXX",
     "type": "total-loss",
     "value": "3205"
   },
   {
-    "id": "58vknjCSJIQ6WDL",
+    "id": "WXU4Ax7iIvHOJlJ",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "hfXKbrt8Ino76Em",
+    "tripStageId": "sATJyz9asgExoXX",
     "type": "max-altitude",
     "value": "7850"
   },
   {
-    "id": "A77W8rH6er1iE69",
+    "id": "jbWTe1TXWv46KEo",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "hfXKbrt8Ino76Em",
+    "tripStageId": "sATJyz9asgExoXX",
     "type": "min-altitude",
     "value": "6438"
   },
   {
-    "id": "DBcC9vLBPRrWRwS",
+    "id": "P4BNJKjp9uXEz5U",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "BpUejipyjfTC2EA",
+    "tripStageId": "gcfP4OnkfGFlvnF",
     "type": "total-time",
     "value": {
-      "hours": "6",
-      "minutes": "0"
-    }
-  },
-  {
-    "id": "9t8KfxBg56OC9Yz",
-    "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "BpUejipyjfTC2EA",
-    "type": "total-distance",
-    "value": "9.02"
-  },
-  {
-    "id": "maCQZXZ1yJxZsh0",
-    "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "BpUejipyjfTC2EA",
-    "type": "total-gain",
-    "value": "2532"
-  },
-  {
-    "id": "rFRHOsb50yvqfyR",
-    "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "BpUejipyjfTC2EA",
-    "type": "total-loss",
-    "value": "3969"
-  },
-  {
-    "id": "cyJF6pTReSWdIMB",
-    "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "BpUejipyjfTC2EA",
-    "type": "max-altitude",
-    "value": "7368"
-  },
-  {
-    "id": "GfVKjRUyFhNmhqE",
-    "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "BpUejipyjfTC2EA",
-    "type": "min-altitude",
-    "value": "4654"
-  },
-  {
-    "id": "Vp2BUEq9eHHl6P5",
-    "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "UklloawqCSZyKbw",
-    "type": "total-time",
-    "value": {
-      "hours": "5",
+      "hours": "7",
       "minutes": "40"
     }
   },
   {
-    "id": "xpdooP4k7HW9q4Z",
+    "id": "nbocwFSvAIU3fsb",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "UklloawqCSZyKbw",
+    "tripStageId": "gcfP4OnkfGFlvnF",
     "type": "total-distance",
-    "value": "8.18"
+    "value": "9.71"
   },
   {
-    "id": "FnIjjJTcnVaL57w",
+    "id": "WPspV44rLJ48LFR",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "UklloawqCSZyKbw",
+    "tripStageId": "gcfP4OnkfGFlvnF",
     "type": "total-gain",
-    "value": "2020"
+    "value": "4694"
   },
   {
-    "id": "yJJFZvBwfC3U5Td",
+    "id": "jUTuDtSdQVbtkXa",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "UklloawqCSZyKbw",
+    "tripStageId": "gcfP4OnkfGFlvnF",
     "type": "total-loss",
-    "value": "1955"
+    "value": "3336"
   },
   {
-    "id": "JxpOg5p3jg6nIqq",
+    "id": "iI5kavflfg5AXoV",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "UklloawqCSZyKbw",
+    "tripStageId": "gcfP4OnkfGFlvnF",
     "type": "max-altitude",
-    "value": "6513"
+    "value": "8427"
   },
   {
-    "id": "QoABHEnY7ix3PAa",
+    "id": "lhf2UJNRE1B311A",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "UklloawqCSZyKbw",
+    "tripStageId": "gcfP4OnkfGFlvnF",
     "type": "min-altitude",
-    "value": "4971"
+    "value": "5644"
   },
   {
-    "id": "3PXFHnp7nWmcFd0",
+    "id": "dP2RjIdFseQ2Aji",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "Y1IJx7V4bqN11OQ",
+    "tripStageId": "MixWR6tyUfqmeTr",
     "type": "total-time",
     "value": {
       "hours": "4",
@@ -370,44 +235,89 @@ const data = [
     }
   },
   {
-    "id": "fXBfVllt88CNcWM",
+    "id": "xAfHhWf1Bw3IfbC",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "Y1IJx7V4bqN11OQ",
+    "tripStageId": "MixWR6tyUfqmeTr",
     "type": "total-distance",
     "value": "3.77"
   },
   {
-    "id": "BLZsq7GmZ29Bdyq",
+    "id": "dPyjzzQ306rvXcA",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "Y1IJx7V4bqN11OQ",
+    "tripStageId": "MixWR6tyUfqmeTr",
     "type": "total-gain",
     "value": "1768"
   },
   {
-    "id": "Ju1UBmMIbRw4TYS",
+    "id": "OdgOXqy6L7PrAXO",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "Y1IJx7V4bqN11OQ",
+    "tripStageId": "MixWR6tyUfqmeTr",
     "type": "total-loss",
     "value": "2470"
   },
   {
-    "id": "dQ8nNErvCHglwsw",
+    "id": "0vBEpoToourvaRn",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "Y1IJx7V4bqN11OQ",
+    "tripStageId": "MixWR6tyUfqmeTr",
     "type": "max-altitude",
     "value": "7878"
   },
   {
-    "id": "XUrnCLqj3IJAlhu",
+    "id": "kU8dR7ICISzC9fa",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "Y1IJx7V4bqN11OQ",
+    "tripStageId": "MixWR6tyUfqmeTr",
     "type": "min-altitude",
     "value": "5392"
   },
   {
-    "id": "fyPHLLDB9ehdM1Q",
+    "id": "xKKsxjcgDuYIc6b",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "WgAjMS1DfcQo9x8",
+    "tripStageId": "Bket3MP3G5tLU4o",
+    "type": "total-time",
+    "value": {
+      "hours": "5",
+      "minutes": "40"
+    }
+  },
+  {
+    "id": "M3wC1L1W7NmLImQ",
+    "tripId": "rDF2WHqEvEKlILl",
+    "tripStageId": "Bket3MP3G5tLU4o",
+    "type": "total-distance",
+    "value": "8.18"
+  },
+  {
+    "id": "nHiixSXKDj0545g",
+    "tripId": "rDF2WHqEvEKlILl",
+    "tripStageId": "Bket3MP3G5tLU4o",
+    "type": "total-gain",
+    "value": "2020"
+  },
+  {
+    "id": "bj1Ah8U966wZ093",
+    "tripId": "rDF2WHqEvEKlILl",
+    "tripStageId": "Bket3MP3G5tLU4o",
+    "type": "total-loss",
+    "value": "1955"
+  },
+  {
+    "id": "EmcoZUgJFhc2SH4",
+    "tripId": "rDF2WHqEvEKlILl",
+    "tripStageId": "Bket3MP3G5tLU4o",
+    "type": "max-altitude",
+    "value": "6513"
+  },
+  {
+    "id": "V7MKqxWgPfc9egG",
+    "tripId": "rDF2WHqEvEKlILl",
+    "tripStageId": "Bket3MP3G5tLU4o",
+    "type": "min-altitude",
+    "value": "4971"
+  },
+  {
+    "id": "kz4K3XFO3yXJuvk",
+    "tripId": "rDF2WHqEvEKlILl",
+    "tripStageId": "GT8FM5LynbqLznq",
     "type": "total-time",
     "value": {
       "hours": "5",
@@ -415,44 +325,134 @@ const data = [
     }
   },
   {
-    "id": "eKTi7TeTqERFu8W",
+    "id": "MMb17u3vwtG9FkU",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "WgAjMS1DfcQo9x8",
+    "tripStageId": "GT8FM5LynbqLznq",
     "type": "total-distance",
     "value": "6.78"
   },
   {
-    "id": "oFb2YgWU1W8np7f",
+    "id": "vDT5Hh2jVrqU6u1",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "WgAjMS1DfcQo9x8",
+    "tripStageId": "GT8FM5LynbqLznq",
     "type": "total-gain",
     "value": "1190"
   },
   {
-    "id": "3rh6Y0U4MlMl78P",
+    "id": "1Nx5aCiK2nvYEbG",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "WgAjMS1DfcQo9x8",
+    "tripStageId": "GT8FM5LynbqLznq",
     "type": "total-loss",
     "value": "5095"
   },
   {
-    "id": "AOfSAxcWo0Y25yS",
+    "id": "3YJlpr2SXbdv1UB",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "WgAjMS1DfcQo9x8",
+    "tripStageId": "GT8FM5LynbqLznq",
     "type": "max-altitude",
     "value": "5695"
   },
   {
-    "id": "FYjtSnoK5xX2sHr",
+    "id": "nrO8U6IVzEOzTPA",
     "tripId": "rDF2WHqEvEKlILl",
-    "tripStageId": "WgAjMS1DfcQo9x8",
+    "tripStageId": "GT8FM5LynbqLznq",
     "type": "min-altitude",
     "value": "1419"
   },
   {
-    "id": "aCQkfxgmLLl7cmP",
+    "id": "K7mqmZzXsGQhn64",
+    "tripId": "rDF2WHqEvEKlILl",
+    "tripStageId": "ztoBZRYbI06EjS0",
+    "type": "total-time",
+    "value": {
+      "hours": "6",
+      "minutes": "0"
+    }
+  },
+  {
+    "id": "fN5StYDNzm8yZYE",
+    "tripId": "rDF2WHqEvEKlILl",
+    "tripStageId": "ztoBZRYbI06EjS0",
+    "type": "total-distance",
+    "value": "9.02"
+  },
+  {
+    "id": "fqJ8biBqiwXllJm",
+    "tripId": "rDF2WHqEvEKlILl",
+    "tripStageId": "ztoBZRYbI06EjS0",
+    "type": "total-gain",
+    "value": "2532"
+  },
+  {
+    "id": "uBPj1uBOSvXGRtr",
+    "tripId": "rDF2WHqEvEKlILl",
+    "tripStageId": "ztoBZRYbI06EjS0",
+    "type": "total-loss",
+    "value": "3969"
+  },
+  {
+    "id": "sGkgmTLP8tdyQm6",
+    "tripId": "rDF2WHqEvEKlILl",
+    "tripStageId": "ztoBZRYbI06EjS0",
+    "type": "max-altitude",
+    "value": "7368"
+  },
+  {
+    "id": "35yVnt7JqH392Y8",
+    "tripId": "rDF2WHqEvEKlILl",
+    "tripStageId": "ztoBZRYbI06EjS0",
+    "type": "min-altitude",
+    "value": "4654"
+  },
+  {
+    "id": "WmuWiFA438HM0wF",
+    "tripId": "rDF2WHqEvEKlILl",
+    "tripStageId": "j8ugMl1PZ8EA2av",
+    "type": "total-time",
+    "value": {
+      "hours": "7",
+      "minutes": "40"
+    }
+  },
+  {
+    "id": "k9jXCYR9EsfkI9o",
+    "tripId": "rDF2WHqEvEKlILl",
+    "tripStageId": "j8ugMl1PZ8EA2av",
+    "type": "total-distance",
+    "value": "8.38"
+  },
+  {
+    "id": "fYKmYko59f6KwPe",
+    "tripId": "rDF2WHqEvEKlILl",
+    "tripStageId": "j8ugMl1PZ8EA2av",
+    "type": "total-gain",
+    "value": "3124"
+  },
+  {
+    "id": "3vzgnmfO5i4Mfvl",
+    "tripId": "rDF2WHqEvEKlILl",
+    "tripStageId": "j8ugMl1PZ8EA2av",
+    "type": "total-loss",
+    "value": "2031"
+  },
+  {
+    "id": "2cHepbAFp6FfNE2",
+    "tripId": "rDF2WHqEvEKlILl",
+    "tripStageId": "j8ugMl1PZ8EA2av",
+    "type": "max-altitude",
+    "value": "7345"
+  },
+  {
+    "id": "GlfhR9g5nvO1QYx",
+    "tripId": "rDF2WHqEvEKlILl",
+    "tripStageId": "j8ugMl1PZ8EA2av",
+    "type": "min-altitude",
+    "value": "5585"
+  },
+  {
+    "id": "TJ8F7a1fBkt16zF",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "eIic2aj1gp1sMLB",
+    "tripStageId": "chO3bWh3CfJ19Nq",
     "type": "total-time",
     "value": {
       "hours": "5",
@@ -460,44 +460,44 @@ const data = [
     }
   },
   {
-    "id": "B5YdkTeK7h1Nv1f",
+    "id": "HzSSxfZJQkD86o4",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "eIic2aj1gp1sMLB",
+    "tripStageId": "chO3bWh3CfJ19Nq",
     "type": "total-distance",
     "value": "14.8"
   },
   {
-    "id": "jrTSx5f7tezWwTg",
+    "id": "X1cvraGYee2AwLQ",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "eIic2aj1gp1sMLB",
+    "tripStageId": "chO3bWh3CfJ19Nq",
     "type": "total-gain",
     "value": "4525"
   },
   {
-    "id": "we7ejcB4uFlevRH",
+    "id": "tzkXkIlUQKdaLku",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "eIic2aj1gp1sMLB",
+    "tripStageId": "chO3bWh3CfJ19Nq",
     "type": "total-loss",
     "value": "2005"
   },
   {
-    "id": "EslnAgHf35h9siT",
+    "id": "gFFi5qy4FJDdxqE",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "eIic2aj1gp1sMLB",
+    "tripStageId": "chO3bWh3CfJ19Nq",
     "type": "max-altitude",
     "value": "4700"
   },
   {
-    "id": "C3PLhMqF4zJ57cv",
+    "id": "1IQr21yc5GETym8",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "eIic2aj1gp1sMLB",
+    "tripStageId": "chO3bWh3CfJ19Nq",
     "type": "min-altitude",
     "value": "540"
   },
   {
-    "id": "2gmbARiueADIgJ7",
+    "id": "OEqkRrQKpWFtAzt",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "S0cLiN76rAgMBsT",
+    "tripStageId": "89EfOX6swk3D7DG",
     "type": "total-time",
     "value": {
       "hours": "4",
@@ -505,44 +505,89 @@ const data = [
     }
   },
   {
-    "id": "hRyEaJu46MvbZAa",
+    "id": "wxg241Ijx82hfmC",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "S0cLiN76rAgMBsT",
+    "tripStageId": "89EfOX6swk3D7DG",
     "type": "total-distance",
     "value": "13.15"
   },
   {
-    "id": "hnndR0s5WOjDW1D",
+    "id": "hepSew1KOfmbjEm",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "S0cLiN76rAgMBsT",
+    "tripStageId": "89EfOX6swk3D7DG",
     "type": "total-gain",
     "value": "1176"
   },
   {
-    "id": "47OostCMEO4qCCT",
+    "id": "5GNayD1vFKabPLw",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "S0cLiN76rAgMBsT",
+    "tripStageId": "89EfOX6swk3D7DG",
     "type": "total-loss",
     "value": "2551"
   },
   {
-    "id": "nz3d1Aj2WwULvmH",
+    "id": "esXPIPy5LDKtF9j",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "S0cLiN76rAgMBsT",
+    "tripStageId": "89EfOX6swk3D7DG",
     "type": "max-altitude",
     "value": "3114"
   },
   {
-    "id": "35mzCC04qj1siHT",
+    "id": "IHFWsjrdZLbXKeJ",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "S0cLiN76rAgMBsT",
+    "tripStageId": "89EfOX6swk3D7DG",
     "type": "min-altitude",
     "value": "1764"
   },
   {
-    "id": "d2CoOgcDe1yD05J",
+    "id": "T979q3UVPF9cKkP",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "UaCRFgCANEKHOcj",
+    "tripStageId": "ZXtlHcN2QFoQDkB",
+    "type": "total-time",
+    "value": {
+      "hours": "4",
+      "minutes": "0"
+    }
+  },
+  {
+    "id": "7bjxnALHD9GR4oM",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "ZXtlHcN2QFoQDkB",
+    "type": "total-distance",
+    "value": "12.56"
+  },
+  {
+    "id": "ttDZu4HiDu6GRzh",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "ZXtlHcN2QFoQDkB",
+    "type": "total-gain",
+    "value": "950"
+  },
+  {
+    "id": "MSfaCHSihdDTfY9",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "ZXtlHcN2QFoQDkB",
+    "type": "total-loss",
+    "value": "1223"
+  },
+  {
+    "id": "1JcljZ8FgcMIerr",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "ZXtlHcN2QFoQDkB",
+    "type": "max-altitude",
+    "value": "1881"
+  },
+  {
+    "id": "R9ffIOT7REK8BeI",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "ZXtlHcN2QFoQDkB",
+    "type": "min-altitude",
+    "value": "1365"
+  },
+  {
+    "id": "T4B7QwI4EXqbnlQ",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "FxJDQhJCVXy6x0X",
     "type": "total-time",
     "value": {
       "hours": "4",
@@ -550,89 +595,44 @@ const data = [
     }
   },
   {
-    "id": "H7mDYrdKRMBUdet",
+    "id": "vQZfz23ZYmyPIhT",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "UaCRFgCANEKHOcj",
+    "tripStageId": "FxJDQhJCVXy6x0X",
     "type": "total-distance",
     "value": "14.53"
   },
   {
-    "id": "pjR62fgPHWm3IU9",
+    "id": "6kqqLXpiEVwd257",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "UaCRFgCANEKHOcj",
+    "tripStageId": "FxJDQhJCVXy6x0X",
     "type": "total-gain",
     "value": "1484"
   },
   {
-    "id": "t652XobyxyNY1DH",
+    "id": "lLEFda966xj6YVJ",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "UaCRFgCANEKHOcj",
+    "tripStageId": "FxJDQhJCVXy6x0X",
     "type": "total-loss",
     "value": "1794"
   },
   {
-    "id": "oUMk8RwV9vcyuyp",
+    "id": "eDQeLS0zcfZV6Xt",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "UaCRFgCANEKHOcj",
+    "tripStageId": "FxJDQhJCVXy6x0X",
     "type": "max-altitude",
     "value": "2510"
   },
   {
-    "id": "9K4L42PWi8wSsMO",
+    "id": "QEgOfleEtwKdgSF",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "UaCRFgCANEKHOcj",
+    "tripStageId": "FxJDQhJCVXy6x0X",
     "type": "min-altitude",
     "value": "1155"
   },
   {
-    "id": "fiG1RVNIKZmV5y1",
+    "id": "AFtXbdQvC1gKeDp",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "te2l8djeDqtQsWU",
-    "type": "total-time",
-    "value": {
-      "hours": "4",
-      "minutes": "0"
-    }
-  },
-  {
-    "id": "C9Ukgl7bP81s5bG",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "te2l8djeDqtQsWU",
-    "type": "total-distance",
-    "value": "12.56"
-  },
-  {
-    "id": "I49JMlf9QIsnhml",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "te2l8djeDqtQsWU",
-    "type": "total-gain",
-    "value": "950"
-  },
-  {
-    "id": "5PwfmSj8LUZNZ7X",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "te2l8djeDqtQsWU",
-    "type": "total-loss",
-    "value": "1223"
-  },
-  {
-    "id": "eRYYbqDvi1zMBM7",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "te2l8djeDqtQsWU",
-    "type": "max-altitude",
-    "value": "1881"
-  },
-  {
-    "id": "tfudmFGykYXn4qp",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "te2l8djeDqtQsWU",
-    "type": "min-altitude",
-    "value": "1365"
-  },
-  {
-    "id": "bZnwJnCv9fAL5TV",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "Aw06qoJpNHcaZnJ",
+    "tripStageId": "sfcvzgJRTV3LWbc",
     "type": "total-time",
     "value": {
       "hours": "4",
@@ -640,44 +640,44 @@ const data = [
     }
   },
   {
-    "id": "NwQCOcPAhNw4sXZ",
+    "id": "wGdMvti6t27NlEX",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "Aw06qoJpNHcaZnJ",
+    "tripStageId": "sfcvzgJRTV3LWbc",
     "type": "total-distance",
     "value": "13.04"
   },
   {
-    "id": "39gjeWv7FucJwgO",
+    "id": "SCHf9IFTPlmJCBs",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "Aw06qoJpNHcaZnJ",
+    "tripStageId": "sfcvzgJRTV3LWbc",
     "type": "total-gain",
     "value": "1424"
   },
   {
-    "id": "TBrwUbTYoVXSY12",
+    "id": "ADD2nLpgh0mnILn",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "Aw06qoJpNHcaZnJ",
+    "tripStageId": "sfcvzgJRTV3LWbc",
     "type": "total-loss",
     "value": "1189"
   },
   {
-    "id": "VaGzyvCF7VkwAju",
+    "id": "bJu5JhaoKXQyZZI",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "Aw06qoJpNHcaZnJ",
+    "tripStageId": "sfcvzgJRTV3LWbc",
     "type": "max-altitude",
     "value": "1611"
   },
   {
-    "id": "5ZJSQ9TrAXX9U11",
+    "id": "I09b8aTpnLjMIAS",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "Aw06qoJpNHcaZnJ",
+    "tripStageId": "sfcvzgJRTV3LWbc",
     "type": "min-altitude",
     "value": "1104"
   },
   {
-    "id": "37Wtjf9VXuFoxbC",
+    "id": "fIARJSb7rkHYg0N",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "oU7KtBgj0cw8rPn",
+    "tripStageId": "9y370vHo6rqrfc1",
     "type": "total-time",
     "value": {
       "hours": "5",
@@ -685,44 +685,44 @@ const data = [
     }
   },
   {
-    "id": "9yIpZ0wlCoGVnhv",
+    "id": "PfPNoqyypYciFUx",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "oU7KtBgj0cw8rPn",
+    "tripStageId": "9y370vHo6rqrfc1",
     "type": "total-distance",
     "value": "17.46"
   },
   {
-    "id": "EetxeC8DZBTgl59",
+    "id": "7bpejTTjFaaWTHn",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "oU7KtBgj0cw8rPn",
+    "tripStageId": "9y370vHo6rqrfc1",
     "type": "total-gain",
     "value": "1603"
   },
   {
-    "id": "zdXKIZQevOcQFpI",
+    "id": "41lpEjkg4qXZikV",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "oU7KtBgj0cw8rPn",
+    "tripStageId": "9y370vHo6rqrfc1",
     "type": "total-loss",
     "value": "1368"
   },
   {
-    "id": "Q3XBNZrYBJYeR5A",
+    "id": "xzZhfxmu4A6YbQ5",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "oU7KtBgj0cw8rPn",
+    "tripStageId": "9y370vHo6rqrfc1",
     "type": "max-altitude",
     "value": "2187"
   },
   {
-    "id": "tzgM5m8PiwuBxok",
+    "id": "FPYSx2NWABkhgD1",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "oU7KtBgj0cw8rPn",
+    "tripStageId": "9y370vHo6rqrfc1",
     "type": "min-altitude",
     "value": "1375"
   },
   {
-    "id": "ow7ZevnieyOtoxi",
+    "id": "sekzWKDIl3FiEFQ",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "R47kYCF8tZy9Ykg",
+    "tripStageId": "lmw8ReL2oZxjNUk",
     "type": "total-time",
     "value": {
       "hours": "4",
@@ -730,89 +730,44 @@ const data = [
     }
   },
   {
-    "id": "4CKq3v1Q4TVJxRL",
+    "id": "P2Rc8yx3VBKu7lO",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "R47kYCF8tZy9Ykg",
+    "tripStageId": "lmw8ReL2oZxjNUk",
     "type": "total-distance",
     "value": "12.56"
   },
   {
-    "id": "kclYuo2p3gAKMh9",
+    "id": "ndGKmAwvq3yNFJK",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "R47kYCF8tZy9Ykg",
+    "tripStageId": "lmw8ReL2oZxjNUk",
     "type": "total-gain",
     "value": "1148"
   },
   {
-    "id": "Cfnij88AljzVzyJ",
+    "id": "n31IHumnymS8G98",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "R47kYCF8tZy9Ykg",
+    "tripStageId": "lmw8ReL2oZxjNUk",
     "type": "total-loss",
     "value": "1520"
   },
   {
-    "id": "kJjew6ogLbi0Izv",
+    "id": "v19b8aGV5E0tS4E",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "R47kYCF8tZy9Ykg",
+    "tripStageId": "lmw8ReL2oZxjNUk",
     "type": "max-altitude",
     "value": "1887"
   },
   {
-    "id": "c2y8hKLVB9xDd0A",
+    "id": "81ZW5v0qdNvwOay",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "R47kYCF8tZy9Ykg",
+    "tripStageId": "lmw8ReL2oZxjNUk",
     "type": "min-altitude",
     "value": "1203"
   },
   {
-    "id": "7WEDOzMbjSvGrFg",
+    "id": "cHl8I7CAv3lO6Cx",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "3bMs0MQhz4idQkC",
-    "type": "total-time",
-    "value": {
-      "hours": "5",
-      "minutes": "40"
-    }
-  },
-  {
-    "id": "A0VS54ozwnVOlSV",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "3bMs0MQhz4idQkC",
-    "type": "total-distance",
-    "value": "17.58"
-  },
-  {
-    "id": "eY3eFsoPFJlo9v7",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "3bMs0MQhz4idQkC",
-    "type": "total-gain",
-    "value": "1301"
-  },
-  {
-    "id": "Pcmj9XLocp7ot6Z",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "3bMs0MQhz4idQkC",
-    "type": "total-loss",
-    "value": "952"
-  },
-  {
-    "id": "olvPqLIcF5q6w9M",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "3bMs0MQhz4idQkC",
-    "type": "max-altitude",
-    "value": "2172"
-  },
-  {
-    "id": "I4p75GJvWd4HupT",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "3bMs0MQhz4idQkC",
-    "type": "min-altitude",
-    "value": "1256"
-  },
-  {
-    "id": "voY6a4NkaYFTbNT",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "TyfDTir96hS4ii8",
+    "tripStageId": "thqfkxjssHe9jFs",
     "type": "total-time",
     "value": {
       "hours": "4",
@@ -820,44 +775,89 @@ const data = [
     }
   },
   {
-    "id": "d5hcZgcGSE1qBjz",
+    "id": "biwQpRjxyDUFd7s",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "TyfDTir96hS4ii8",
+    "tripStageId": "thqfkxjssHe9jFs",
     "type": "total-distance",
     "value": "13.27"
   },
   {
-    "id": "FAsbpBcaropBpyq",
+    "id": "LEDZzfULLIB8NX4",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "TyfDTir96hS4ii8",
+    "tripStageId": "thqfkxjssHe9jFs",
     "type": "total-gain",
     "value": "1336"
   },
   {
-    "id": "qIKlw9LgasJxzzh",
+    "id": "cjBUnvDHsOFb8k8",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "TyfDTir96hS4ii8",
+    "tripStageId": "thqfkxjssHe9jFs",
     "type": "total-loss",
     "value": "829"
   },
   {
-    "id": "ryvQZstLdfiVLW1",
+    "id": "b335h31uaF9Rz4u",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "TyfDTir96hS4ii8",
+    "tripStageId": "thqfkxjssHe9jFs",
     "type": "max-altitude",
     "value": "2468"
   },
   {
-    "id": "qD3bS4ciGjCxmwW",
+    "id": "GUyjbWevz69RjGX",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "TyfDTir96hS4ii8",
+    "tripStageId": "thqfkxjssHe9jFs",
     "type": "min-altitude",
     "value": "1599"
   },
   {
-    "id": "86iLXjXBWQZTniM",
+    "id": "yi0hNgDzMThxoKK",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "JLp0idkJm4FjLIv",
+    "tripStageId": "f344A7LBeFmULOc",
+    "type": "total-time",
+    "value": {
+      "hours": "5",
+      "minutes": "40"
+    }
+  },
+  {
+    "id": "1bHJlvPg3fcop3Q",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "f344A7LBeFmULOc",
+    "type": "total-distance",
+    "value": "17.58"
+  },
+  {
+    "id": "ygz2FMK9zLAznq1",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "f344A7LBeFmULOc",
+    "type": "total-gain",
+    "value": "1301"
+  },
+  {
+    "id": "YNbACUxE5TitI47",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "f344A7LBeFmULOc",
+    "type": "total-loss",
+    "value": "952"
+  },
+  {
+    "id": "osyjyqKuIaufFcG",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "f344A7LBeFmULOc",
+    "type": "max-altitude",
+    "value": "2172"
+  },
+  {
+    "id": "FU6bo86igiePWkf",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "f344A7LBeFmULOc",
+    "type": "min-altitude",
+    "value": "1256"
+  },
+  {
+    "id": "Ag3XG5xFEIHrKLJ",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "0xkOnam7GzjyIzB",
     "type": "total-time",
     "value": {
       "hours": "4",
@@ -865,44 +865,44 @@ const data = [
     }
   },
   {
-    "id": "5lSiSQIWpRMdIr2",
+    "id": "Y6dgVBoqbSoF6Xc",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "JLp0idkJm4FjLIv",
+    "tripStageId": "0xkOnam7GzjyIzB",
     "type": "total-distance",
     "value": "13.65"
   },
   {
-    "id": "VnaLwCKqH5gtJv9",
+    "id": "f7UMPe4uV5L3akq",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "JLp0idkJm4FjLIv",
+    "tripStageId": "0xkOnam7GzjyIzB",
     "type": "total-gain",
     "value": "1178"
   },
   {
-    "id": "5UbFwm9PIkcz66Y",
+    "id": "nIxcVvY51pgarFb",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "JLp0idkJm4FjLIv",
+    "tripStageId": "0xkOnam7GzjyIzB",
     "type": "total-loss",
     "value": "747"
   },
   {
-    "id": "eseJwZSxgU0PCqD",
+    "id": "GuxSOamxOaSDrC6",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "JLp0idkJm4FjLIv",
+    "tripStageId": "0xkOnam7GzjyIzB",
     "type": "max-altitude",
     "value": "2707"
   },
   {
-    "id": "6lqfqs94HjjchLf",
+    "id": "hn3wee6uevR86XG",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "JLp0idkJm4FjLIv",
+    "tripStageId": "0xkOnam7GzjyIzB",
     "type": "min-altitude",
     "value": "2067"
   },
   {
-    "id": "Oxy4V880b3G6maR",
+    "id": "Ce7E5ysgAW3p6ac",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "S1pwhICvGENabQr",
+    "tripStageId": "fhwv8zrLUJG9c2H",
     "type": "total-time",
     "value": {
       "hours": "5",
@@ -910,44 +910,44 @@ const data = [
     }
   },
   {
-    "id": "EoCoMlAQ7fc91Fr",
+    "id": "GNVxKM4w57kQ3Ys",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "S1pwhICvGENabQr",
+    "tripStageId": "fhwv8zrLUJG9c2H",
     "type": "total-distance",
     "value": "16.95"
   },
   {
-    "id": "AmN96qwe3QaPO1A",
+    "id": "Rsr8AzWCFN0ASj8",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "S1pwhICvGENabQr",
+    "tripStageId": "fhwv8zrLUJG9c2H",
     "type": "total-gain",
     "value": "1660"
   },
   {
-    "id": "onMMAze3MjISgbP",
+    "id": "co7nsBNsOv9nnJn",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "S1pwhICvGENabQr",
+    "tripStageId": "fhwv8zrLUJG9c2H",
     "type": "total-loss",
     "value": "1020"
   },
   {
-    "id": "B8rnRCJI783qAMU",
+    "id": "oJ5x7t0PiQ4p4p4",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "S1pwhICvGENabQr",
+    "tripStageId": "fhwv8zrLUJG9c2H",
     "type": "max-altitude",
     "value": "3793"
   },
   {
-    "id": "jVLgXheWe3453O3",
+    "id": "J1QGM7xNDINVDcz",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "S1pwhICvGENabQr",
+    "tripStageId": "fhwv8zrLUJG9c2H",
     "type": "min-altitude",
     "value": "2498"
   },
   {
-    "id": "MvtnzwZndBipYnX",
+    "id": "YVnrO8fwMzA5eIX",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "OQKqXE8asreVlLL",
+    "tripStageId": "GuvY749BgWbHBTh",
     "type": "total-time",
     "value": {
       "hours": "4",
@@ -955,44 +955,44 @@ const data = [
     }
   },
   {
-    "id": "eytJVV4kP6E19Tq",
+    "id": "sgKhP5sn7A0ooos",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "OQKqXE8asreVlLL",
+    "tripStageId": "GuvY749BgWbHBTh",
     "type": "total-distance",
     "value": "13.6"
   },
   {
-    "id": "nB7XZg7Of407qUm",
+    "id": "vpavnVjdl6dGLEq",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "OQKqXE8asreVlLL",
+    "tripStageId": "GuvY749BgWbHBTh",
     "type": "total-gain",
     "value": "487"
   },
   {
-    "id": "3FAygXZ98y95V9z",
+    "id": "2ANCs7sYZYRAXbX",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "OQKqXE8asreVlLL",
+    "tripStageId": "GuvY749BgWbHBTh",
     "type": "total-loss",
     "value": "843"
   },
   {
-    "id": "bPbFOP0Yb4iMsai",
+    "id": "yluMId4JovYatS4",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "OQKqXE8asreVlLL",
+    "tripStageId": "GuvY749BgWbHBTh",
     "type": "max-altitude",
     "value": "3528"
   },
   {
-    "id": "q4wKZeWHYHMXsan",
+    "id": "x9OA5ojv8wKFWRu",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "OQKqXE8asreVlLL",
+    "tripStageId": "GuvY749BgWbHBTh",
     "type": "min-altitude",
     "value": "2813"
   },
   {
-    "id": "Sel1RdjcN4DGrbt",
+    "id": "jTzT0nbXdaw6SBT",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "YPOxOXjIT5y0Orj",
+    "tripStageId": "OiY8B3VmBUb8yNC",
     "type": "total-time",
     "value": {
       "hours": "6",
@@ -1000,44 +1000,44 @@ const data = [
     }
   },
   {
-    "id": "4NSSzP09hHxnPlU",
+    "id": "txE4BY1mCcX07gi",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "YPOxOXjIT5y0Orj",
+    "tripStageId": "OiY8B3VmBUb8yNC",
     "type": "total-distance",
     "value": "19.71"
   },
   {
-    "id": "pbHcVmJd70CAop5",
+    "id": "ZN9YVRJVZBe74MG",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "YPOxOXjIT5y0Orj",
+    "tripStageId": "OiY8B3VmBUb8yNC",
     "type": "total-gain",
     "value": "1048"
   },
   {
-    "id": "VkFXPbsp7tENXEK",
+    "id": "2jT52QKuosNk3ks",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "YPOxOXjIT5y0Orj",
+    "tripStageId": "OiY8B3VmBUb8yNC",
     "type": "total-loss",
     "value": "998"
   },
   {
-    "id": "iCaGhEld7ix9cdU",
+    "id": "vKy7f1rSwz5F4jK",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "YPOxOXjIT5y0Orj",
+    "tripStageId": "OiY8B3VmBUb8yNC",
     "type": "max-altitude",
     "value": "3074"
   },
   {
-    "id": "Kt65ckDkn2uTS7i",
+    "id": "PuDB8z3UTHlXRYL",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "YPOxOXjIT5y0Orj",
+    "tripStageId": "OiY8B3VmBUb8yNC",
     "type": "min-altitude",
     "value": "2690"
   },
   {
-    "id": "reRAVJ22YrqPl5X",
+    "id": "JwuNEVD2gbcvhn6",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "kSKh0oth1ypwPvd",
+    "tripStageId": "XGgP07TWOn0PeMC",
     "type": "total-time",
     "value": {
       "hours": "6",
@@ -1045,44 +1045,44 @@ const data = [
     }
   },
   {
-    "id": "gfx9ozSHoDArhul",
+    "id": "RyDuB6vSLjrBCv8",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "kSKh0oth1ypwPvd",
+    "tripStageId": "XGgP07TWOn0PeMC",
     "type": "total-distance",
     "value": "21.23"
   },
   {
-    "id": "oljgmYIuJk4QXJZ",
+    "id": "f259zzUz1mUOEcv",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "kSKh0oth1ypwPvd",
+    "tripStageId": "XGgP07TWOn0PeMC",
     "type": "total-gain",
     "value": "968"
   },
   {
-    "id": "t1UjnxRHYkdqgsD",
+    "id": "OBzmm96YbaIkhvg",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "kSKh0oth1ypwPvd",
+    "tripStageId": "XGgP07TWOn0PeMC",
     "type": "total-loss",
     "value": "1265"
   },
   {
-    "id": "qCMp5ekwoj8e7T4",
+    "id": "awMRsvmI2Um2bhL",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "kSKh0oth1ypwPvd",
+    "tripStageId": "XGgP07TWOn0PeMC",
     "type": "max-altitude",
     "value": "2999"
   },
   {
-    "id": "6AfV3oXViEZ4tvb",
+    "id": "R9qSLaMXsn1R1YI",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "kSKh0oth1ypwPvd",
+    "tripStageId": "XGgP07TWOn0PeMC",
     "type": "min-altitude",
     "value": "2520"
   },
   {
-    "id": "pb2tVvbpkfSdjiF",
+    "id": "KNlplt6q38SgVbQ",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "LboIXLrnnxCLduv",
+    "tripStageId": "RrOQvbKp5UkeUk2",
     "type": "total-time",
     "value": {
       "hours": "3",
@@ -1090,44 +1090,44 @@ const data = [
     }
   },
   {
-    "id": "XKjmb6vvZ1Gw63q",
+    "id": "ZQnQ55w6i7uv68I",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "LboIXLrnnxCLduv",
+    "tripStageId": "RrOQvbKp5UkeUk2",
     "type": "total-distance",
     "value": "11.52"
   },
   {
-    "id": "dBHi5O7n7ushml8",
+    "id": "kBkxZQvo0xrEDwC",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "LboIXLrnnxCLduv",
+    "tripStageId": "RrOQvbKp5UkeUk2",
     "type": "total-gain",
     "value": "347"
   },
   {
-    "id": "WaG7u782shzISIH",
+    "id": "DWr0sje84gmqWFO",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "LboIXLrnnxCLduv",
+    "tripStageId": "RrOQvbKp5UkeUk2",
     "type": "total-loss",
     "value": "199"
   },
   {
-    "id": "JzD3jNBCFSauUY9",
+    "id": "kAfPHT4X37EJ4b9",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "LboIXLrnnxCLduv",
+    "tripStageId": "RrOQvbKp5UkeUk2",
     "type": "max-altitude",
     "value": "2789"
   },
   {
-    "id": "vCFfRO3Sjo1nAc7",
+    "id": "aX9i7UOy4JY1NQx",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "LboIXLrnnxCLduv",
+    "tripStageId": "RrOQvbKp5UkeUk2",
     "type": "min-altitude",
     "value": "2541"
   },
   {
-    "id": "q8AkYb2CtA8iacB",
+    "id": "K6AfxUeEajvtWc2",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "OkqKkv7bDK5FpTx",
+    "tripStageId": "7ErfHrZi1R0WRBE",
     "type": "total-time",
     "value": {
       "hours": "6",
@@ -1135,44 +1135,89 @@ const data = [
     }
   },
   {
-    "id": "aazook9SQGecrBi",
+    "id": "uCOXFMIuBNhIKIl",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "OkqKkv7bDK5FpTx",
+    "tripStageId": "7ErfHrZi1R0WRBE",
     "type": "total-distance",
     "value": "19.15"
   },
   {
-    "id": "EYLnHNaZB1jJDKd",
+    "id": "aR5gPL4lobyYbB5",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "OkqKkv7bDK5FpTx",
+    "tripStageId": "7ErfHrZi1R0WRBE",
     "type": "total-gain",
     "value": "522"
   },
   {
-    "id": "ng7cY4Cwd9FYNyy",
+    "id": "PzuexkcFT7eobXP",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "OkqKkv7bDK5FpTx",
+    "tripStageId": "7ErfHrZi1R0WRBE",
     "type": "total-loss",
     "value": "555"
   },
   {
-    "id": "flYTNDFMFgsyoVb",
+    "id": "jOhcMkYwAGahscZ",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "OkqKkv7bDK5FpTx",
+    "tripStageId": "7ErfHrZi1R0WRBE",
     "type": "max-altitude",
     "value": "2884"
   },
   {
-    "id": "Ok1QxwSJTDaWiud",
+    "id": "ovR07BxVv2Xu29z",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "OkqKkv7bDK5FpTx",
+    "tripStageId": "7ErfHrZi1R0WRBE",
     "type": "min-altitude",
     "value": "2623"
   },
   {
-    "id": "KxtVZJ8JPwQhqGM",
+    "id": "yrMiQRkPuBCRID4",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "8qsV3S4wfKBcAT2",
+    "tripStageId": "6bBxukkuiKc7GC6",
+    "type": "total-time",
+    "value": {
+      "hours": "5",
+      "minutes": "0"
+    }
+  },
+  {
+    "id": "kjKTznIy7MyZCmS",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "6bBxukkuiKc7GC6",
+    "type": "total-distance",
+    "value": "15.46"
+  },
+  {
+    "id": "9CdgYJyOe3aWysR",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "6bBxukkuiKc7GC6",
+    "type": "total-gain",
+    "value": "637"
+  },
+  {
+    "id": "5ZblXuTGtkY7eEp",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "6bBxukkuiKc7GC6",
+    "type": "total-loss",
+    "value": "580"
+  },
+  {
+    "id": "78hYJHB1M5AdEgV",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "6bBxukkuiKc7GC6",
+    "type": "max-altitude",
+    "value": "3055"
+  },
+  {
+    "id": "e1iYxRbrk6rIPDJ",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "6bBxukkuiKc7GC6",
+    "type": "min-altitude",
+    "value": "2590"
+  },
+  {
+    "id": "4H2bThSHpHrij9H",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "fZHly0P1rwfxkve",
     "type": "total-time",
     "value": {
       "hours": "8",
@@ -1180,89 +1225,89 @@ const data = [
     }
   },
   {
-    "id": "WwEAgX9K7BPe34j",
+    "id": "uZJ3eHB3v3Ue0jl",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "8qsV3S4wfKBcAT2",
+    "tripStageId": "fZHly0P1rwfxkve",
     "type": "total-distance",
     "value": "24.95"
   },
   {
-    "id": "0pw8LDCYpxAvOG3",
+    "id": "KyG7TEjxJXtemNK",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "8qsV3S4wfKBcAT2",
+    "tripStageId": "fZHly0P1rwfxkve",
     "type": "total-gain",
     "value": "794"
   },
   {
-    "id": "H9wV3kznlje6bxs",
+    "id": "RYE3sXZvH2Ru1EC",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "8qsV3S4wfKBcAT2",
+    "tripStageId": "fZHly0P1rwfxkve",
     "type": "total-loss",
     "value": "785"
   },
   {
-    "id": "dnokjm5bJJld2x2",
+    "id": "1fn17YOAtUn0Ib1",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "8qsV3S4wfKBcAT2",
+    "tripStageId": "fZHly0P1rwfxkve",
     "type": "max-altitude",
     "value": "2956"
   },
   {
-    "id": "YtYiiVuzswL9VCe",
+    "id": "YRUIK9inPvyqojw",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "8qsV3S4wfKBcAT2",
+    "tripStageId": "fZHly0P1rwfxkve",
     "type": "min-altitude",
     "value": "2652"
   },
   {
-    "id": "qgZx33Pv9Z3Msbv",
+    "id": "ZK8DNbL5HNYjjGk",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "zhKF2o9ZkmvLzU2",
+    "tripStageId": "dThSqP2hncU8bAE",
     "type": "total-time",
     "value": {
-      "hours": "5",
-      "minutes": "0"
+      "hours": "4",
+      "minutes": "10"
     }
   },
   {
-    "id": "Und7k94BQWgWlT8",
+    "id": "SwqtIFBKu4zQ15m",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "zhKF2o9ZkmvLzU2",
+    "tripStageId": "dThSqP2hncU8bAE",
     "type": "total-distance",
-    "value": "15.46"
+    "value": "12.8"
   },
   {
-    "id": "7u7KxST9TA48Sq2",
+    "id": "plaYOFJsBZ93Lyy",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "zhKF2o9ZkmvLzU2",
+    "tripStageId": "dThSqP2hncU8bAE",
     "type": "total-gain",
-    "value": "637"
+    "value": "675"
   },
   {
-    "id": "4ibUNlaTZwoParx",
+    "id": "yZNIfXvidadmFCb",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "zhKF2o9ZkmvLzU2",
+    "tripStageId": "dThSqP2hncU8bAE",
     "type": "total-loss",
-    "value": "580"
+    "value": "551"
   },
   {
-    "id": "T7lKoGlYScxTLOW",
+    "id": "b1bI2AC7ND41S7i",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "zhKF2o9ZkmvLzU2",
+    "tripStageId": "dThSqP2hncU8bAE",
     "type": "max-altitude",
-    "value": "3055"
+    "value": "2976"
   },
   {
-    "id": "Jemo887DObVbf3X",
+    "id": "1D2WfMGYm2U4gOa",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "zhKF2o9ZkmvLzU2",
+    "tripStageId": "dThSqP2hncU8bAE",
     "type": "min-altitude",
-    "value": "2590"
+    "value": "2699"
   },
   {
-    "id": "045eXJ0y76zvfg0",
+    "id": "lLpoTGqZM5DAF2o",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "4mLOzKaK0bt8Qy3",
+    "tripStageId": "NyTf1IbXeLwPpTJ",
     "type": "total-time",
     "value": {
       "hours": "6",
@@ -1270,134 +1315,44 @@ const data = [
     }
   },
   {
-    "id": "34OOj6QBhGiWdwd",
+    "id": "aQUQ8wDmbymbU77",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "4mLOzKaK0bt8Qy3",
+    "tripStageId": "NyTf1IbXeLwPpTJ",
     "type": "total-distance",
     "value": "19.12"
   },
   {
-    "id": "RWTN2vcnDalcV8b",
+    "id": "BiyBoLf3ZbK3IfB",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "4mLOzKaK0bt8Qy3",
+    "tripStageId": "NyTf1IbXeLwPpTJ",
     "type": "total-gain",
     "value": "826"
   },
   {
-    "id": "HSXVLTygzGde1yP",
+    "id": "2k5XRVfypTHnKor",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "4mLOzKaK0bt8Qy3",
+    "tripStageId": "NyTf1IbXeLwPpTJ",
     "type": "total-loss",
     "value": "847"
   },
   {
-    "id": "Y6dJvcEEGXJgz5D",
+    "id": "dB1oZ5JM3SXVRTu",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "4mLOzKaK0bt8Qy3",
+    "tripStageId": "NyTf1IbXeLwPpTJ",
     "type": "max-altitude",
     "value": "3019"
   },
   {
-    "id": "roQIisbmjFkPKZD",
+    "id": "3Q9bHLB7DfGXABx",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "4mLOzKaK0bt8Qy3",
+    "tripStageId": "NyTf1IbXeLwPpTJ",
     "type": "min-altitude",
     "value": "2681"
   },
   {
-    "id": "Sqnf9VC1BGfkyp0",
+    "id": "ENb8Rof87eL9mpm",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "bdxJfjOhPOnRUIN",
-    "type": "total-time",
-    "value": {
-      "hours": "4",
-      "minutes": "10"
-    }
-  },
-  {
-    "id": "IEnTEYlSp3d0ZqZ",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "bdxJfjOhPOnRUIN",
-    "type": "total-distance",
-    "value": "12.8"
-  },
-  {
-    "id": "b2dpa9tKvR7UWGw",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "bdxJfjOhPOnRUIN",
-    "type": "total-gain",
-    "value": "675"
-  },
-  {
-    "id": "5YUiYknF1npw7C9",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "bdxJfjOhPOnRUIN",
-    "type": "total-loss",
-    "value": "551"
-  },
-  {
-    "id": "zZXStg77wZaC0iL",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "bdxJfjOhPOnRUIN",
-    "type": "max-altitude",
-    "value": "2976"
-  },
-  {
-    "id": "Dx073pakbr08ksE",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "bdxJfjOhPOnRUIN",
-    "type": "min-altitude",
-    "value": "2699"
-  },
-  {
-    "id": "nZaKR5lUljHLmI9",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "LxcQMlckhWCQWDI",
-    "type": "total-time",
-    "value": {
-      "hours": "5",
-      "minutes": "20"
-    }
-  },
-  {
-    "id": "J32OCS4nWyXADwQ",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "LxcQMlckhWCQWDI",
-    "type": "total-distance",
-    "value": "16.4"
-  },
-  {
-    "id": "Z7pj6WmZYDsMeID",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "LxcQMlckhWCQWDI",
-    "type": "total-gain",
-    "value": "901"
-  },
-  {
-    "id": "zcRe795Y0FoNZXE",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "LxcQMlckhWCQWDI",
-    "type": "total-loss",
-    "value": "3810"
-  },
-  {
-    "id": "XcopZq8DxTufKIu",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "LxcQMlckhWCQWDI",
-    "type": "max-altitude",
-    "value": "4953"
-  },
-  {
-    "id": "z4fDJamd9glKMY9",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "LxcQMlckhWCQWDI",
-    "type": "min-altitude",
-    "value": "1656"
-  },
-  {
-    "id": "SBTNxzxaNcCCKbJ",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "NbBVseLNq1rtpG2",
+    "tripStageId": "UbaOlKoaOyp1jq0",
     "type": "total-time",
     "value": {
       "hours": "5",
@@ -1405,44 +1360,44 @@ const data = [
     }
   },
   {
-    "id": "vIGEZEZnSvn3j28",
+    "id": "wqWy0YSrb2eEBPh",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "NbBVseLNq1rtpG2",
+    "tripStageId": "UbaOlKoaOyp1jq0",
     "type": "total-distance",
     "value": "16.04"
   },
   {
-    "id": "t7JIAcOAczl8xa2",
+    "id": "EoRMuaBJW9b5kV0",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "NbBVseLNq1rtpG2",
+    "tripStageId": "UbaOlKoaOyp1jq0",
     "type": "total-gain",
     "value": "2063"
   },
   {
-    "id": "gq6g8WlWyJk0xbI",
+    "id": "LgoAyCuEJyu13L9",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "NbBVseLNq1rtpG2",
+    "tripStageId": "UbaOlKoaOyp1jq0",
     "type": "total-loss",
     "value": "203"
   },
   {
-    "id": "MFBksU8Q2eWzKa2",
+    "id": "D2rYVRHnoh7ASg8",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "NbBVseLNq1rtpG2",
+    "tripStageId": "UbaOlKoaOyp1jq0",
     "type": "max-altitude",
     "value": "4662"
   },
   {
-    "id": "la5eIFza6vlUGzX",
+    "id": "g7WMtKJa9bzOxXz",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "NbBVseLNq1rtpG2",
+    "tripStageId": "UbaOlKoaOyp1jq0",
     "type": "min-altitude",
     "value": "2805"
   },
   {
-    "id": "klMGzmpZHAlecsZ",
+    "id": "60ZVkYVPAvuqvty",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "TkDdE7TcXTgtwBN",
+    "tripStageId": "LgQ8UZOlGL77M55",
     "type": "total-time",
     "value": {
       "hours": "4",
@@ -1450,44 +1405,89 @@ const data = [
     }
   },
   {
-    "id": "huZGW00n6kBOShk",
+    "id": "yciXJG6B0NtjX0R",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "TkDdE7TcXTgtwBN",
+    "tripStageId": "LgQ8UZOlGL77M55",
     "type": "total-distance",
     "value": "13.85"
   },
   {
-    "id": "S9Je7I7bhxp6IsQ",
+    "id": "qXgZY7ZX3osvkhS",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "TkDdE7TcXTgtwBN",
+    "tripStageId": "LgQ8UZOlGL77M55",
     "type": "total-gain",
     "value": "1014"
   },
   {
-    "id": "SFkKArrKE2lov7c",
+    "id": "ZoeIkQK58zcMMxs",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "TkDdE7TcXTgtwBN",
+    "tripStageId": "LgQ8UZOlGL77M55",
     "type": "total-loss",
     "value": "1038"
   },
   {
-    "id": "W9Q62apQwZXCCSA",
+    "id": "MTALqItMLCuLlpG",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "TkDdE7TcXTgtwBN",
+    "tripStageId": "LgQ8UZOlGL77M55",
     "type": "max-altitude",
     "value": "1904"
   },
   {
-    "id": "ObLNufiPrcyLqZt",
+    "id": "RiyPJXzonZ4HfbD",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "TkDdE7TcXTgtwBN",
+    "tripStageId": "LgQ8UZOlGL77M55",
     "type": "min-altitude",
     "value": "1552"
   },
   {
-    "id": "UwBGFVvq9x0kxWw",
+    "id": "tPP8cnsQIQSdXNL",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "vxEjcmaTdjnlbHz",
+    "tripStageId": "VZ8LbWd8KnZsT8e",
+    "type": "total-time",
+    "value": {
+      "hours": "5",
+      "minutes": "20"
+    }
+  },
+  {
+    "id": "TVXw2fpyhTwEZEF",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "VZ8LbWd8KnZsT8e",
+    "type": "total-distance",
+    "value": "16.4"
+  },
+  {
+    "id": "04BJr2NsgcihtZh",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "VZ8LbWd8KnZsT8e",
+    "type": "total-gain",
+    "value": "901"
+  },
+  {
+    "id": "Qe0Fp6chfUMuTLm",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "VZ8LbWd8KnZsT8e",
+    "type": "total-loss",
+    "value": "3810"
+  },
+  {
+    "id": "WVR6W6MBUDka79D",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "VZ8LbWd8KnZsT8e",
+    "type": "max-altitude",
+    "value": "4953"
+  },
+  {
+    "id": "szpO4u5kmokfdA7",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "VZ8LbWd8KnZsT8e",
+    "type": "min-altitude",
+    "value": "1656"
+  },
+  {
+    "id": "s67CiwSXcP6OyoQ",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "ZxjMYSnSFw16KpB",
     "type": "total-time",
     "value": {
       "hours": "5",
@@ -1495,134 +1495,44 @@ const data = [
     }
   },
   {
-    "id": "4ECgLgiunnCs5r1",
+    "id": "jjluvSThKYR8CuO",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "vxEjcmaTdjnlbHz",
+    "tripStageId": "ZxjMYSnSFw16KpB",
     "type": "total-distance",
     "value": "17.5"
   },
   {
-    "id": "OSO8QWkQcRgytLo",
+    "id": "hX0FWcuIFjt5VDT",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "vxEjcmaTdjnlbHz",
+    "tripStageId": "ZxjMYSnSFw16KpB",
     "type": "total-gain",
     "value": "3308"
   },
   {
-    "id": "0wrOyh3tCGH0fCk",
+    "id": "FJykDvU85OwjLzG",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "vxEjcmaTdjnlbHz",
+    "tripStageId": "ZxjMYSnSFw16KpB",
     "type": "total-loss",
     "value": "802"
   },
   {
-    "id": "MCwhExKOz0va4EY",
+    "id": "NkzhPfd6D9TGCPm",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "vxEjcmaTdjnlbHz",
+    "tripStageId": "ZxjMYSnSFw16KpB",
     "type": "max-altitude",
     "value": "4301"
   },
   {
-    "id": "vegtweMDqJmykVO",
+    "id": "KKHuRBs5CIj119Z",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "vxEjcmaTdjnlbHz",
+    "tripStageId": "ZxjMYSnSFw16KpB",
     "type": "min-altitude",
     "value": "1624"
   },
   {
-    "id": "uUIOwHuyG9CGwkj",
+    "id": "lB0Eu47j4sGDbaE",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "TbLNH24EZ0ZRTZV",
-    "type": "total-time",
-    "value": {
-      "hours": "7",
-      "minutes": "40"
-    }
-  },
-  {
-    "id": "kPC2aC8bN3ykeex",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "TbLNH24EZ0ZRTZV",
-    "type": "total-distance",
-    "value": "23.51"
-  },
-  {
-    "id": "C9WIf0tgwJZxQ94",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "TbLNH24EZ0ZRTZV",
-    "type": "total-gain",
-    "value": "2417"
-  },
-  {
-    "id": "8M1OlxYNiTVtDiA",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "TbLNH24EZ0ZRTZV",
-    "type": "total-loss",
-    "value": "5243"
-  },
-  {
-    "id": "VLIatQ0qAau2FCc",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "TbLNH24EZ0ZRTZV",
-    "type": "max-altitude",
-    "value": "4405"
-  },
-  {
-    "id": "B8VBehXF5jcEUlT",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "TbLNH24EZ0ZRTZV",
-    "type": "min-altitude",
-    "value": "1378"
-  },
-  {
-    "id": "QAofOkeYVqtMDhV",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "JesUWwrEJmbiQEo",
-    "type": "total-time",
-    "value": {
-      "hours": "7",
-      "minutes": "50"
-    }
-  },
-  {
-    "id": "yv0JdgHPzAfVtJ0",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "JesUWwrEJmbiQEo",
-    "type": "total-distance",
-    "value": "24.32"
-  },
-  {
-    "id": "VcCBZam1v9UVjbB",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "JesUWwrEJmbiQEo",
-    "type": "total-gain",
-    "value": "2752"
-  },
-  {
-    "id": "mxzMoxrFN1oLSqe",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "JesUWwrEJmbiQEo",
-    "type": "total-loss",
-    "value": "2526"
-  },
-  {
-    "id": "4HtniDWYKACA7Id",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "JesUWwrEJmbiQEo",
-    "type": "max-altitude",
-    "value": "2377"
-  },
-  {
-    "id": "y6wCJQmChSgJAVq",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "JesUWwrEJmbiQEo",
-    "type": "min-altitude",
-    "value": "1144"
-  },
-  {
-    "id": "KFt5wWX8LpI9JgL",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "lDOggRMHljwBja8",
+    "tripStageId": "SwylM3XY78mW5c1",
     "type": "total-time",
     "value": {
       "hours": "4",
@@ -1630,44 +1540,179 @@ const data = [
     }
   },
   {
-    "id": "Mb3geXmVeYISoTH",
+    "id": "np8dOxLrIZAJ69J",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "lDOggRMHljwBja8",
+    "tripStageId": "SwylM3XY78mW5c1",
     "type": "total-distance",
     "value": "13.52"
   },
   {
-    "id": "k96oHvZcsm42wC0",
+    "id": "EzsBzXo6kA2oPDW",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "lDOggRMHljwBja8",
+    "tripStageId": "SwylM3XY78mW5c1",
     "type": "total-gain",
     "value": "1584"
   },
   {
-    "id": "AATRv3qMK9oiWHM",
+    "id": "Qkzcm6tQxlVmOXQ",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "lDOggRMHljwBja8",
+    "tripStageId": "SwylM3XY78mW5c1",
     "type": "total-loss",
     "value": "1765"
   },
   {
-    "id": "SfpigKiLZvoMDzK",
+    "id": "A12IvmzhjrnF9M8",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "lDOggRMHljwBja8",
+    "tripStageId": "SwylM3XY78mW5c1",
     "type": "max-altitude",
     "value": "2178"
   },
   {
-    "id": "9NpT9v5gXHYBftU",
+    "id": "LaGlIrdyu0Cvyxm",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "lDOggRMHljwBja8",
+    "tripStageId": "SwylM3XY78mW5c1",
     "type": "min-altitude",
     "value": "1089"
   },
   {
-    "id": "bzLbyj7MWeHx6g6",
+    "id": "y16xyNgza60TVAz",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "I38fUAhF229Acz1",
+    "tripStageId": "jmV138trhMf37m3",
+    "type": "total-time",
+    "value": {
+      "hours": "7",
+      "minutes": "40"
+    }
+  },
+  {
+    "id": "tNvM4uQGdsD67dA",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "jmV138trhMf37m3",
+    "type": "total-distance",
+    "value": "23.51"
+  },
+  {
+    "id": "Uar3Pqbgtm52Caf",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "jmV138trhMf37m3",
+    "type": "total-gain",
+    "value": "2417"
+  },
+  {
+    "id": "TyzWoI78GGCaofT",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "jmV138trhMf37m3",
+    "type": "total-loss",
+    "value": "5243"
+  },
+  {
+    "id": "m2yNAIuHIeLkVDC",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "jmV138trhMf37m3",
+    "type": "max-altitude",
+    "value": "4405"
+  },
+  {
+    "id": "RkAtrfsoPKgX1nw",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "jmV138trhMf37m3",
+    "type": "min-altitude",
+    "value": "1378"
+  },
+  {
+    "id": "59AuKpmc6sS3FgC",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "sxRogFfEfU5Y5Xn",
+    "type": "total-time",
+    "value": {
+      "hours": "4",
+      "minutes": "5"
+    }
+  },
+  {
+    "id": "R2S9FkI0KiF8kvj",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "sxRogFfEfU5Y5Xn",
+    "type": "total-distance",
+    "value": "12.63"
+  },
+  {
+    "id": "iWKXu9l59vdzXCe",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "sxRogFfEfU5Y5Xn",
+    "type": "total-gain",
+    "value": "1667"
+  },
+  {
+    "id": "z8fO1VONS4hW1wo",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "sxRogFfEfU5Y5Xn",
+    "type": "total-loss",
+    "value": "1969"
+  },
+  {
+    "id": "0WaHl8v89YYksUr",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "sxRogFfEfU5Y5Xn",
+    "type": "max-altitude",
+    "value": "928"
+  },
+  {
+    "id": "7bent54w5XunJQI",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "sxRogFfEfU5Y5Xn",
+    "type": "min-altitude",
+    "value": "158"
+  },
+  {
+    "id": "22UIvQOvciBvGAw",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "mG9obtPiV5tck0Y",
+    "type": "total-time",
+    "value": {
+      "hours": "7",
+      "minutes": "50"
+    }
+  },
+  {
+    "id": "DyBSEYuClcNXawj",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "mG9obtPiV5tck0Y",
+    "type": "total-distance",
+    "value": "24.32"
+  },
+  {
+    "id": "diU96kWNiPnXmEH",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "mG9obtPiV5tck0Y",
+    "type": "total-gain",
+    "value": "2752"
+  },
+  {
+    "id": "wNoLcOZaHW3yfWK",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "mG9obtPiV5tck0Y",
+    "type": "total-loss",
+    "value": "2526"
+  },
+  {
+    "id": "IxqC3MRT8mxFGZL",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "mG9obtPiV5tck0Y",
+    "type": "max-altitude",
+    "value": "2377"
+  },
+  {
+    "id": "5ytIXnLJ0NvMrqZ",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "mG9obtPiV5tck0Y",
+    "type": "min-altitude",
+    "value": "1144"
+  },
+  {
+    "id": "ASfWVUph1j9Mho4",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "B7i4x4qoJLPxE4Y",
     "type": "total-time",
     "value": {
       "hours": "6",
@@ -1675,44 +1720,44 @@ const data = [
     }
   },
   {
-    "id": "54GLR4IPQtWVbIQ",
+    "id": "JP2VrxzjmwhqHDB",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "I38fUAhF229Acz1",
+    "tripStageId": "B7i4x4qoJLPxE4Y",
     "type": "total-distance",
     "value": "20.56"
   },
   {
-    "id": "7gj8f9KHOCIiCLM",
+    "id": "Ifh4J3sFilmJTsz",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "I38fUAhF229Acz1",
+    "tripStageId": "B7i4x4qoJLPxE4Y",
     "type": "total-gain",
     "value": "2275"
   },
   {
-    "id": "NbuuRjVp5Q3Ettl",
+    "id": "Tj8NeST6ZIMympA",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "I38fUAhF229Acz1",
+    "tripStageId": "B7i4x4qoJLPxE4Y",
     "type": "total-loss",
     "value": "2858"
   },
   {
-    "id": "ASblZRwoNEHA2e1",
+    "id": "pGLUhouwp63XK0S",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "I38fUAhF229Acz1",
+    "tripStageId": "B7i4x4qoJLPxE4Y",
     "type": "max-altitude",
     "value": "1534"
   },
   {
-    "id": "2qUhwXDHUtnx22W",
+    "id": "9SAe3eyVAdnpl1t",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "I38fUAhF229Acz1",
+    "tripStageId": "B7i4x4qoJLPxE4Y",
     "type": "min-altitude",
     "value": "853"
   },
   {
-    "id": "h2fuOpYINTh7Iqs",
+    "id": "XVbvaJ8KVOlyQyo",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "IZzj2lJHH6Ny6Jp",
+    "tripStageId": "sK4LJgnzGMeIim3",
     "type": "total-time",
     "value": {
       "hours": "3",
@@ -1720,134 +1765,44 @@ const data = [
     }
   },
   {
-    "id": "iVfEj62g7krLCaN",
+    "id": "KAgeXx4kMbByzKa",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "IZzj2lJHH6Ny6Jp",
+    "tripStageId": "sK4LJgnzGMeIim3",
     "type": "total-distance",
     "value": "11.78"
   },
   {
-    "id": "UhwA8YQ12SPTnHj",
+    "id": "PLeYbgF5rCT0ifP",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "IZzj2lJHH6Ny6Jp",
+    "tripStageId": "sK4LJgnzGMeIim3",
     "type": "total-gain",
     "value": "1194"
   },
   {
-    "id": "IMtnkkqzPokA7o9",
+    "id": "ewGixqpqnve9Fpw",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "IZzj2lJHH6Ny6Jp",
+    "tripStageId": "sK4LJgnzGMeIim3",
     "type": "total-loss",
     "value": "1263"
   },
   {
-    "id": "B0YDz9aIUwOMMAs",
+    "id": "wRmIvfhlaqtZwmc",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "IZzj2lJHH6Ny6Jp",
+    "tripStageId": "sK4LJgnzGMeIim3",
     "type": "max-altitude",
     "value": "1283"
   },
   {
-    "id": "COUN3VIMNrNfqUm",
+    "id": "Y8KBXcJMh5bgoUi",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "IZzj2lJHH6Ny6Jp",
+    "tripStageId": "sK4LJgnzGMeIim3",
     "type": "min-altitude",
     "value": "816"
   },
   {
-    "id": "XtAHEY49XTBL7YZ",
+    "id": "HtJgC6SxHF1AWTA",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "rzf72bu2KDX1LWW",
-    "type": "total-time",
-    "value": {
-      "hours": "7",
-      "minutes": "5"
-    }
-  },
-  {
-    "id": "kAwqvnmHMjWWfJh",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "rzf72bu2KDX1LWW",
-    "type": "total-distance",
-    "value": "21.55"
-  },
-  {
-    "id": "LFsZbJLRqfFOuc9",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "rzf72bu2KDX1LWW",
-    "type": "total-gain",
-    "value": "2194"
-  },
-  {
-    "id": "IvUIwdymDQ41Nui",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "rzf72bu2KDX1LWW",
-    "type": "total-loss",
-    "value": "2738"
-  },
-  {
-    "id": "6f75taAJy7Qj5Tk",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "rzf72bu2KDX1LWW",
-    "type": "max-altitude",
-    "value": "1227"
-  },
-  {
-    "id": "cYKFCIMxofHvKvp",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "rzf72bu2KDX1LWW",
-    "type": "min-altitude",
-    "value": "0"
-  },
-  {
-    "id": "t4vI6HWDqXzKlF6",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "mrXiQHcPo3kmnm6",
-    "type": "total-time",
-    "value": {
-      "hours": "4",
-      "minutes": "5"
-    }
-  },
-  {
-    "id": "IAMdyFN9fg9k0XT",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "mrXiQHcPo3kmnm6",
-    "type": "total-distance",
-    "value": "12.63"
-  },
-  {
-    "id": "LrW8xsAqEsJnbTa",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "mrXiQHcPo3kmnm6",
-    "type": "total-gain",
-    "value": "1667"
-  },
-  {
-    "id": "TY4q6OSgdVdqc2j",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "mrXiQHcPo3kmnm6",
-    "type": "total-loss",
-    "value": "1969"
-  },
-  {
-    "id": "6Akyg2in3tkkepR",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "mrXiQHcPo3kmnm6",
-    "type": "max-altitude",
-    "value": "928"
-  },
-  {
-    "id": "m0mLDRR74Dav9pC",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "mrXiQHcPo3kmnm6",
-    "type": "min-altitude",
-    "value": "158"
-  },
-  {
-    "id": "G7z9Myl3qch0C6L",
-    "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "GMptUCL91W3XOUX",
+    "tripStageId": "QSoDw2d7sAjy1JO",
     "type": "total-time",
     "value": {
       "hours": "6",
@@ -1855,134 +1810,89 @@ const data = [
     }
   },
   {
-    "id": "7LKImc2ZtdlRqO5",
+    "id": "57omOxxzs4yPkqw",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "GMptUCL91W3XOUX",
+    "tripStageId": "QSoDw2d7sAjy1JO",
     "type": "total-distance",
     "value": "20.62"
   },
   {
-    "id": "k3snwFz69ML9q7y",
+    "id": "pRDiooPgJnnDQ7W",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "GMptUCL91W3XOUX",
+    "tripStageId": "QSoDw2d7sAjy1JO",
     "type": "total-gain",
     "value": "2413"
   },
   {
-    "id": "rBJ1Kek8eyaxaMB",
+    "id": "Xfetd32LXDdfccj",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "GMptUCL91W3XOUX",
+    "tripStageId": "QSoDw2d7sAjy1JO",
     "type": "total-loss",
     "value": "2052"
   },
   {
-    "id": "yvXNAUzWvLDwTlf",
+    "id": "VS4KXzI56BHJimJ",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "GMptUCL91W3XOUX",
+    "tripStageId": "QSoDw2d7sAjy1JO",
     "type": "max-altitude",
     "value": "1560"
   },
   {
-    "id": "iEfXF1UDoNSod2J",
+    "id": "6WzMRRHu9Uu99zw",
     "tripId": "N4HkpHlfYaqDxql",
-    "tripStageId": "GMptUCL91W3XOUX",
+    "tripStageId": "QSoDw2d7sAjy1JO",
     "type": "min-altitude",
     "value": "489"
   },
   {
-    "id": "rtk9gXGKtHKd3pe",
-    "tripId": "9sTY7zOYLEgzg14",
-    "tripStageId": "TMQkefRHrZ1xuJF",
+    "id": "FrsjCWnGh3mK2hS",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "82eKvHX6xWPd906",
     "type": "total-time",
     "value": {
-      "hours": "8",
-      "minutes": "0"
+      "hours": "7",
+      "minutes": "5"
     }
   },
   {
-    "id": "wnMXADLjxwStRNc",
-    "tripId": "9sTY7zOYLEgzg14",
-    "tripStageId": "TMQkefRHrZ1xuJF",
+    "id": "ZgnEXn89MxJp73P",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "82eKvHX6xWPd906",
     "type": "total-distance",
-    "value": "3.55"
+    "value": "21.55"
   },
   {
-    "id": "Zwg1jA97azW5raj",
-    "tripId": "9sTY7zOYLEgzg14",
-    "tripStageId": "TMQkefRHrZ1xuJF",
+    "id": "Mh7kP3vVJOXHSDA",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "82eKvHX6xWPd906",
     "type": "total-gain",
-    "value": "2553"
+    "value": "2194"
   },
   {
-    "id": "uTreBbRihOBgXpQ",
-    "tripId": "9sTY7zOYLEgzg14",
-    "tripStageId": "TMQkefRHrZ1xuJF",
+    "id": "27bN8gyAIRmHjgK",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "82eKvHX6xWPd906",
     "type": "total-loss",
-    "value": "136"
+    "value": "2738"
   },
   {
-    "id": "I5Uv0coyvsaS2h3",
-    "tripId": "9sTY7zOYLEgzg14",
-    "tripStageId": "TMQkefRHrZ1xuJF",
+    "id": "C5d9ghGJrbU57oy",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "82eKvHX6xWPd906",
     "type": "max-altitude",
-    "value": "14070"
+    "value": "1227"
   },
   {
-    "id": "THo24W8VepGS7Cq",
-    "tripId": "9sTY7zOYLEgzg14",
-    "tripStageId": "TMQkefRHrZ1xuJF",
+    "id": "IbyezvQsdrpZxpS",
+    "tripId": "N4HkpHlfYaqDxql",
+    "tripStageId": "82eKvHX6xWPd906",
     "type": "min-altitude",
-    "value": "11514"
-  },
-  {
-    "id": "a00XCZsCb8f92TP",
-    "tripId": "9sTY7zOYLEgzg14",
-    "tripStageId": "KlHb628sFDkPsGk",
-    "type": "total-time",
-    "value": {
-      "hours": "6",
-      "minutes": "30"
-    }
-  },
-  {
-    "id": "S08ndLiMNHkikOH",
-    "tripId": "9sTY7zOYLEgzg14",
-    "tripStageId": "KlHb628sFDkPsGk",
-    "type": "total-distance",
-    "value": "3.59"
-  },
-  {
-    "id": "4d7xppnGjVBgGt9",
-    "tripId": "9sTY7zOYLEgzg14",
-    "tripStageId": "KlHb628sFDkPsGk",
-    "type": "total-gain",
-    "value": "3012"
-  },
-  {
-    "id": "raVhWv4fvWcPfmw",
-    "tripId": "9sTY7zOYLEgzg14",
-    "tripStageId": "KlHb628sFDkPsGk",
-    "type": "total-loss",
     "value": "0"
   },
   {
-    "id": "kPqaG9I3VAZmHk1",
+    "id": "qUpmPQzrqzXHhF6",
     "tripId": "9sTY7zOYLEgzg14",
-    "tripStageId": "KlHb628sFDkPsGk",
-    "type": "max-altitude",
-    "value": "14253"
-  },
-  {
-    "id": "4Wd4u5iRRZC31ce",
-    "tripId": "9sTY7zOYLEgzg14",
-    "tripStageId": "KlHb628sFDkPsGk",
-    "type": "min-altitude",
-    "value": "11247"
-  },
-  {
-    "id": "5neXyDDFh7GSjdW",
-    "tripId": "9sTY7zOYLEgzg14",
-    "tripStageId": "QyRWx2uGUg5pEiR",
+    "tripStageId": "aAu9CHbdqMnSC71",
     "type": "total-time",
     "value": {
       "hours": "9",
@@ -1990,89 +1900,134 @@ const data = [
     }
   },
   {
-    "id": "FEv8EHLpwzYrNsn",
+    "id": "LajQjt8L0gfMBWN",
     "tripId": "9sTY7zOYLEgzg14",
-    "tripStageId": "QyRWx2uGUg5pEiR",
+    "tripStageId": "aAu9CHbdqMnSC71",
     "type": "total-distance",
     "value": "4.31"
   },
   {
-    "id": "xp6CoOcpJUEgmDV",
+    "id": "UmbG6OndqMKL5jv",
     "tripId": "9sTY7zOYLEgzg14",
-    "tripStageId": "QyRWx2uGUg5pEiR",
+    "tripStageId": "aAu9CHbdqMnSC71",
     "type": "total-gain",
     "value": "4310"
   },
   {
-    "id": "wxoSGmtuQJVO9kA",
+    "id": "QzO6jZ6JVqyXAdv",
     "tripId": "9sTY7zOYLEgzg14",
-    "tripStageId": "QyRWx2uGUg5pEiR",
+    "tripStageId": "aAu9CHbdqMnSC71",
     "type": "total-loss",
     "value": "148"
   },
   {
-    "id": "Umh6NFhUWW5nMQ0",
+    "id": "8pf0SGh48Sdv506",
     "tripId": "9sTY7zOYLEgzg14",
-    "tripStageId": "QyRWx2uGUg5pEiR",
+    "tripStageId": "aAu9CHbdqMnSC71",
     "type": "max-altitude",
     "value": "14375"
   },
   {
-    "id": "g1dFYCrw3NGZpQy",
+    "id": "1IlAgU1eyoqrqkK",
     "tripId": "9sTY7zOYLEgzg14",
-    "tripStageId": "QyRWx2uGUg5pEiR",
+    "tripStageId": "aAu9CHbdqMnSC71",
     "type": "min-altitude",
     "value": "10101"
   },
   {
-    "id": "FQ4N7m9o7lK3JaJ",
-    "tripId": "yCgl91McCKXS8qT",
-    "tripStageId": "HGuDNTlzbb7TvGQ",
+    "id": "wkWSSmdg2IfNXhg",
+    "tripId": "9sTY7zOYLEgzg14",
+    "tripStageId": "ormpGep3LLBdjvq",
     "type": "total-time",
     "value": {
       "hours": "8",
+      "minutes": "0"
+    }
+  },
+  {
+    "id": "tJND1ARVJM5BwgW",
+    "tripId": "9sTY7zOYLEgzg14",
+    "tripStageId": "ormpGep3LLBdjvq",
+    "type": "total-distance",
+    "value": "3.55"
+  },
+  {
+    "id": "pYZmOHq6BXq4HDR",
+    "tripId": "9sTY7zOYLEgzg14",
+    "tripStageId": "ormpGep3LLBdjvq",
+    "type": "total-gain",
+    "value": "2553"
+  },
+  {
+    "id": "WjMySvuj9ZiLqc3",
+    "tripId": "9sTY7zOYLEgzg14",
+    "tripStageId": "ormpGep3LLBdjvq",
+    "type": "total-loss",
+    "value": "136"
+  },
+  {
+    "id": "lkJ2VtKa0KIlOJU",
+    "tripId": "9sTY7zOYLEgzg14",
+    "tripStageId": "ormpGep3LLBdjvq",
+    "type": "max-altitude",
+    "value": "14070"
+  },
+  {
+    "id": "fYK1sTD4ZqFIR3m",
+    "tripId": "9sTY7zOYLEgzg14",
+    "tripStageId": "ormpGep3LLBdjvq",
+    "type": "min-altitude",
+    "value": "11514"
+  },
+  {
+    "id": "uhbperwct5VfNvP",
+    "tripId": "9sTY7zOYLEgzg14",
+    "tripStageId": "xqy3ZzfSWNQAaBR",
+    "type": "total-time",
+    "value": {
+      "hours": "6",
       "minutes": "30"
     }
   },
   {
-    "id": "WXkpVZtmQaT8sts",
-    "tripId": "yCgl91McCKXS8qT",
-    "tripStageId": "HGuDNTlzbb7TvGQ",
+    "id": "MEIgtUP7gGCrqcG",
+    "tripId": "9sTY7zOYLEgzg14",
+    "tripStageId": "xqy3ZzfSWNQAaBR",
     "type": "total-distance",
-    "value": "4.7"
+    "value": "3.59"
   },
   {
-    "id": "duraMJgoeQvaBfl",
-    "tripId": "yCgl91McCKXS8qT",
-    "tripStageId": "HGuDNTlzbb7TvGQ",
+    "id": "O7ymimtPGgW4NGD",
+    "tripId": "9sTY7zOYLEgzg14",
+    "tripStageId": "xqy3ZzfSWNQAaBR",
     "type": "total-gain",
-    "value": "4411"
+    "value": "3012"
   },
   {
-    "id": "zsCMufKHXWfhcWw",
-    "tripId": "yCgl91McCKXS8qT",
-    "tripStageId": "HGuDNTlzbb7TvGQ",
+    "id": "irU9lGaoLgt0v4j",
+    "tripId": "9sTY7zOYLEgzg14",
+    "tripStageId": "xqy3ZzfSWNQAaBR",
     "type": "total-loss",
-    "value": "44"
+    "value": "0"
   },
   {
-    "id": "v4bhoB7eCcNr38U",
-    "tripId": "yCgl91McCKXS8qT",
-    "tripStageId": "HGuDNTlzbb7TvGQ",
+    "id": "NnTItkNC4rJYeo9",
+    "tripId": "9sTY7zOYLEgzg14",
+    "tripStageId": "xqy3ZzfSWNQAaBR",
     "type": "max-altitude",
-    "value": "14422"
+    "value": "14253"
   },
   {
-    "id": "Xw3JjWngF4zYFPc",
-    "tripId": "yCgl91McCKXS8qT",
-    "tripStageId": "HGuDNTlzbb7TvGQ",
+    "id": "Ic9sIxBWEQRULYE",
+    "tripId": "9sTY7zOYLEgzg14",
+    "tripStageId": "xqy3ZzfSWNQAaBR",
     "type": "min-altitude",
-    "value": "10073"
+    "value": "11247"
   },
   {
-    "id": "AIrZ2s4O9EJj68g",
+    "id": "eEmx5DCsFsTb3F7",
     "tripId": "yCgl91McCKXS8qT",
-    "tripStageId": "z5sriw8HzqmfBd3",
+    "tripStageId": "4k8DrO2og9ZiYCm",
     "type": "total-time",
     "value": {
       "hours": "6",
@@ -2080,44 +2035,134 @@ const data = [
     }
   },
   {
-    "id": "gYLSQSIooPSrBNw",
+    "id": "VHXUwTzxBSYyggU",
     "tripId": "yCgl91McCKXS8qT",
-    "tripStageId": "z5sriw8HzqmfBd3",
+    "tripStageId": "4k8DrO2og9ZiYCm",
     "type": "total-distance",
     "value": "2.98"
   },
   {
-    "id": "q9KB4xpNa4uH3j0",
+    "id": "cNF3rcpP8bNwqef",
     "tripId": "yCgl91McCKXS8qT",
-    "tripStageId": "z5sriw8HzqmfBd3",
+    "tripStageId": "4k8DrO2og9ZiYCm",
     "type": "total-gain",
     "value": "3330"
   },
   {
-    "id": "NUeOWPttJh5HvUA",
+    "id": "wK7g4IJcGaWtLdK",
     "tripId": "yCgl91McCKXS8qT",
-    "tripStageId": "z5sriw8HzqmfBd3",
+    "tripStageId": "4k8DrO2og9ZiYCm",
     "type": "total-loss",
     "value": "0"
   },
   {
-    "id": "NXvAK1xlazjyIhC",
+    "id": "kiDZXIl9lojpHK8",
     "tripId": "yCgl91McCKXS8qT",
-    "tripStageId": "z5sriw8HzqmfBd3",
+    "tripStageId": "4k8DrO2og9ZiYCm",
     "type": "max-altitude",
     "value": "14206"
   },
   {
-    "id": "FKnqkKRIYlh3JgI",
+    "id": "9ixg1VfSwc2AsXx",
     "tripId": "yCgl91McCKXS8qT",
-    "tripStageId": "z5sriw8HzqmfBd3",
+    "tripStageId": "4k8DrO2og9ZiYCm",
     "type": "min-altitude",
     "value": "10922"
   },
   {
-    "id": "KtX6ejkQl0Aiosy",
+    "id": "PBWt0amvbChpI1v",
+    "tripId": "yCgl91McCKXS8qT",
+    "tripStageId": "ha0OBsl9sjQQiTG",
+    "type": "total-time",
+    "value": {
+      "hours": "8",
+      "minutes": "30"
+    }
+  },
+  {
+    "id": "xhue8pttAbzJl70",
+    "tripId": "yCgl91McCKXS8qT",
+    "tripStageId": "ha0OBsl9sjQQiTG",
+    "type": "total-distance",
+    "value": "4.7"
+  },
+  {
+    "id": "SjMQegIglZUnO3o",
+    "tripId": "yCgl91McCKXS8qT",
+    "tripStageId": "ha0OBsl9sjQQiTG",
+    "type": "total-gain",
+    "value": "4411"
+  },
+  {
+    "id": "T3knrbTlfEmjHtw",
+    "tripId": "yCgl91McCKXS8qT",
+    "tripStageId": "ha0OBsl9sjQQiTG",
+    "type": "total-loss",
+    "value": "44"
+  },
+  {
+    "id": "G7QzeDFHczhKoic",
+    "tripId": "yCgl91McCKXS8qT",
+    "tripStageId": "ha0OBsl9sjQQiTG",
+    "type": "max-altitude",
+    "value": "14422"
+  },
+  {
+    "id": "nbXHrStqeD0AjLK",
+    "tripId": "yCgl91McCKXS8qT",
+    "tripStageId": "ha0OBsl9sjQQiTG",
+    "type": "min-altitude",
+    "value": "10073"
+  },
+  {
+    "id": "ssF0F2BwkxNE3AK",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "uobIyyHXnbMYInV",
+    "tripStageId": "koEVaua7nIhFrY4",
+    "type": "total-time",
+    "value": {
+      "hours": "3",
+      "minutes": "40"
+    }
+  },
+  {
+    "id": "rZ6h1Jx5sXhfih4",
+    "tripId": "w2RLiwOJUV47nRG",
+    "tripStageId": "koEVaua7nIhFrY4",
+    "type": "total-distance",
+    "value": "8.12"
+  },
+  {
+    "id": "KpX43722UkqYtj3",
+    "tripId": "w2RLiwOJUV47nRG",
+    "tripStageId": "koEVaua7nIhFrY4",
+    "type": "total-gain",
+    "value": "895"
+  },
+  {
+    "id": "xla8Vm5gH9sGspJ",
+    "tripId": "w2RLiwOJUV47nRG",
+    "tripStageId": "koEVaua7nIhFrY4",
+    "type": "total-loss",
+    "value": "779"
+  },
+  {
+    "id": "ZasWdZ0AIyqawJl",
+    "tripId": "w2RLiwOJUV47nRG",
+    "tripStageId": "koEVaua7nIhFrY4",
+    "type": "max-altitude",
+    "value": "1268"
+  },
+  {
+    "id": "GTFC9kY4kFG4sqz",
+    "tripId": "w2RLiwOJUV47nRG",
+    "tripStageId": "koEVaua7nIhFrY4",
+    "type": "min-altitude",
+    "value": "444"
+  },
+  {
+    "id": "vIlxRjzJGR8JLCe",
+    "tripId": "w2RLiwOJUV47nRG",
+    "tripStageId": "J0tIxRnGKmy98tU",
     "type": "total-time",
     "value": {
       "hours": "4",
@@ -2125,134 +2170,44 @@ const data = [
     }
   },
   {
-    "id": "qszCkx4hjQMgvm1",
+    "id": "yW4yX7rxoSrtbsr",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "uobIyyHXnbMYInV",
+    "tripStageId": "J0tIxRnGKmy98tU",
     "type": "total-distance",
     "value": "10.98"
   },
   {
-    "id": "UXHoBF0IFkMbxJE",
+    "id": "H34OtV0t9oanDqz",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "uobIyyHXnbMYInV",
+    "tripStageId": "J0tIxRnGKmy98tU",
     "type": "total-gain",
     "value": "1036"
   },
   {
-    "id": "cLDQTdmDKkm0URZ",
+    "id": "BNvzEFCzaATOAzB",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "uobIyyHXnbMYInV",
+    "tripStageId": "J0tIxRnGKmy98tU",
     "type": "total-loss",
     "value": "920"
   },
   {
-    "id": "u0oguFlAUAPEhWF",
+    "id": "Q3fCfS49jYXBNz4",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "uobIyyHXnbMYInV",
+    "tripStageId": "J0tIxRnGKmy98tU",
     "type": "max-altitude",
     "value": "1155"
   },
   {
-    "id": "fv6phCjH0Jjk8dl",
+    "id": "wYxYNczv5M2jXH8",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "uobIyyHXnbMYInV",
+    "tripStageId": "J0tIxRnGKmy98tU",
     "type": "min-altitude",
     "value": "515"
   },
   {
-    "id": "yRZC2B0Qs8tko3f",
+    "id": "VQWZFRSPTplavol",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "jPOj9EQYwe4zzol",
-    "type": "total-time",
-    "value": {
-      "hours": "3",
-      "minutes": "40"
-    }
-  },
-  {
-    "id": "KOEvPUJ7ndh8X1y",
-    "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "jPOj9EQYwe4zzol",
-    "type": "total-distance",
-    "value": "8.12"
-  },
-  {
-    "id": "1vv4Q6iZrNHB8x3",
-    "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "jPOj9EQYwe4zzol",
-    "type": "total-gain",
-    "value": "895"
-  },
-  {
-    "id": "3j8aJhYt3U5pdlw",
-    "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "jPOj9EQYwe4zzol",
-    "type": "total-loss",
-    "value": "779"
-  },
-  {
-    "id": "teZ0TL85VJ6KYVC",
-    "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "jPOj9EQYwe4zzol",
-    "type": "max-altitude",
-    "value": "1268"
-  },
-  {
-    "id": "PxtXmrb5NkxxuFK",
-    "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "jPOj9EQYwe4zzol",
-    "type": "min-altitude",
-    "value": "444"
-  },
-  {
-    "id": "vu6p9L3xNuBxT9N",
-    "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "tcFvUO9Xb0HmoVx",
-    "type": "total-time",
-    "value": {
-      "hours": "5",
-      "minutes": "15"
-    }
-  },
-  {
-    "id": "pQFAKt7K8QlG56R",
-    "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "tcFvUO9Xb0HmoVx",
-    "type": "total-distance",
-    "value": "8.6"
-  },
-  {
-    "id": "QquaeEj3zi0iScy",
-    "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "tcFvUO9Xb0HmoVx",
-    "type": "total-gain",
-    "value": "2395"
-  },
-  {
-    "id": "CBCSaMJiDKNwRnO",
-    "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "tcFvUO9Xb0HmoVx",
-    "type": "total-loss",
-    "value": "3976"
-  },
-  {
-    "id": "ZttBvk9IJo9clD5",
-    "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "tcFvUO9Xb0HmoVx",
-    "type": "max-altitude",
-    "value": "3874"
-  },
-  {
-    "id": "Zag5nE2elkEYHMz",
-    "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "tcFvUO9Xb0HmoVx",
-    "type": "min-altitude",
-    "value": "257"
-  },
-  {
-    "id": "PmNSdAGvW2GvXxX",
-    "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "L106zv3cQvj3Wxy",
+    "tripStageId": "kJObtoel4Vrx5gq",
     "type": "total-time",
     "value": {
       "hours": "4",
@@ -2260,44 +2215,89 @@ const data = [
     }
   },
   {
-    "id": "tL3K5GQ91ok582C",
+    "id": "T1eVu1cUmjjleKY",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "L106zv3cQvj3Wxy",
+    "tripStageId": "kJObtoel4Vrx5gq",
     "type": "total-distance",
     "value": "7.03"
   },
   {
-    "id": "7ekj81d8iI75QWl",
+    "id": "Zip0hMmhNEwDvuL",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "L106zv3cQvj3Wxy",
+    "tripStageId": "kJObtoel4Vrx5gq",
     "type": "total-gain",
     "value": "1429"
   },
   {
-    "id": "3JNUAL3MNTNkPBn",
+    "id": "ShE1kdD3bnrphJd",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "L106zv3cQvj3Wxy",
+    "tripStageId": "kJObtoel4Vrx5gq",
     "type": "total-loss",
     "value": "268"
   },
   {
-    "id": "6Zl9oz0idCKZQgf",
+    "id": "dEUKul77R0kAn3N",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "L106zv3cQvj3Wxy",
+    "tripStageId": "kJObtoel4Vrx5gq",
     "type": "max-altitude",
     "value": "1835"
   },
   {
-    "id": "OKnZ9FWUEd9FyWv",
+    "id": "Qatj7XoPgADs7AC",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "L106zv3cQvj3Wxy",
+    "tripStageId": "kJObtoel4Vrx5gq",
     "type": "min-altitude",
     "value": "721"
   },
   {
-    "id": "w46rBmXvhBGf3cp",
+    "id": "9ZLpX5att2Fc2p2",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "YWSaD3sNOLRhtbx",
+    "tripStageId": "S4jFnuJ6g3Vj92q",
+    "type": "total-time",
+    "value": {
+      "hours": "5",
+      "minutes": "15"
+    }
+  },
+  {
+    "id": "sbLLdeTNpDku4Nw",
+    "tripId": "w2RLiwOJUV47nRG",
+    "tripStageId": "S4jFnuJ6g3Vj92q",
+    "type": "total-distance",
+    "value": "8.6"
+  },
+  {
+    "id": "EeYaDhz8lwhsTg6",
+    "tripId": "w2RLiwOJUV47nRG",
+    "tripStageId": "S4jFnuJ6g3Vj92q",
+    "type": "total-gain",
+    "value": "2395"
+  },
+  {
+    "id": "8niUNw6gPL1KxUv",
+    "tripId": "w2RLiwOJUV47nRG",
+    "tripStageId": "S4jFnuJ6g3Vj92q",
+    "type": "total-loss",
+    "value": "3976"
+  },
+  {
+    "id": "AMNKxRVtv0iVHAh",
+    "tripId": "w2RLiwOJUV47nRG",
+    "tripStageId": "S4jFnuJ6g3Vj92q",
+    "type": "max-altitude",
+    "value": "3874"
+  },
+  {
+    "id": "LoZ56GoCkw49RCM",
+    "tripId": "w2RLiwOJUV47nRG",
+    "tripStageId": "S4jFnuJ6g3Vj92q",
+    "type": "min-altitude",
+    "value": "257"
+  },
+  {
+    "id": "IpBW8EAVwmzBUU8",
+    "tripId": "w2RLiwOJUV47nRG",
+    "tripStageId": "6ppcxE3NmGU5J9g",
     "type": "total-time",
     "value": {
       "hours": "3",
@@ -2305,44 +2305,44 @@ const data = [
     }
   },
   {
-    "id": "WgMMal8yM5bdoBJ",
+    "id": "bza5B47m32jnjjA",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "YWSaD3sNOLRhtbx",
+    "tripStageId": "6ppcxE3NmGU5J9g",
     "type": "total-distance",
     "value": "6.54"
   },
   {
-    "id": "2hG40vkmLwYPJOG",
+    "id": "EI0LDiYzNXrar6Y",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "YWSaD3sNOLRhtbx",
+    "tripStageId": "6ppcxE3NmGU5J9g",
     "type": "total-gain",
     "value": "906"
   },
   {
-    "id": "JIw8LaiPYHDQ5ke",
+    "id": "hFTr5aNBwUPdnRU",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "YWSaD3sNOLRhtbx",
+    "tripStageId": "6ppcxE3NmGU5J9g",
     "type": "total-loss",
     "value": "1037"
   },
   {
-    "id": "nXPYibWWlU0kmWo",
+    "id": "0r68f5B5MQ9WjLj",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "YWSaD3sNOLRhtbx",
+    "tripStageId": "6ppcxE3NmGU5J9g",
     "type": "max-altitude",
     "value": "868"
   },
   {
-    "id": "tqxxIFrHpifAwne",
+    "id": "n1vy3dDjz3JI3BO",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "YWSaD3sNOLRhtbx",
+    "tripStageId": "6ppcxE3NmGU5J9g",
     "type": "min-altitude",
     "value": "128"
   },
   {
-    "id": "vvTMvbKBgYOjQoO",
+    "id": "pziVgLzShEevejG",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "88dblQwlPr3lDRa",
+    "tripStageId": "vyN0rSsmgBkNt6z",
     "type": "total-time",
     "value": {
       "hours": "6",
@@ -2350,44 +2350,44 @@ const data = [
     }
   },
   {
-    "id": "hIID8lMUZEfscPJ",
+    "id": "iCGG9lZqZHoCs9R",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "88dblQwlPr3lDRa",
+    "tripStageId": "vyN0rSsmgBkNt6z",
     "type": "total-distance",
     "value": "12.35"
   },
   {
-    "id": "QZ8k0FOkdaEyRZd",
+    "id": "Pwa0N5ThvO3iOrk",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "88dblQwlPr3lDRa",
+    "tripStageId": "vyN0rSsmgBkNt6z",
     "type": "total-gain",
     "value": "2621"
   },
   {
-    "id": "8XbZ0maY5CYsdB2",
+    "id": "BKyhe1nUaXAnJ0w",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "88dblQwlPr3lDRa",
+    "tripStageId": "vyN0rSsmgBkNt6z",
     "type": "total-loss",
     "value": "2201"
   },
   {
-    "id": "ILcMvSgbd5BDIIE",
+    "id": "DPEcqymwoC3OPdV",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "88dblQwlPr3lDRa",
+    "tripStageId": "vyN0rSsmgBkNt6z",
     "type": "max-altitude",
     "value": "2440"
   },
   {
-    "id": "5iEvOtoTAGIrYUu",
+    "id": "UpQFMG8lyUl8TH5",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "88dblQwlPr3lDRa",
+    "tripStageId": "vyN0rSsmgBkNt6z",
     "type": "min-altitude",
     "value": "136"
   },
   {
-    "id": "M832avsTZ4cgjus",
+    "id": "NQwPTJUHOkCWn6s",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "etMo1asxEC3bZsl",
+    "tripStageId": "V0ZeOg9iRr1wVki",
     "type": "total-time",
     "value": {
       "hours": "6",
@@ -2395,44 +2395,44 @@ const data = [
     }
   },
   {
-    "id": "zzDsPdiHqnfJbUK",
+    "id": "sb6hY9eed6W0Kuf",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "etMo1asxEC3bZsl",
+    "tripStageId": "V0ZeOg9iRr1wVki",
     "type": "total-distance",
     "value": "9.51"
   },
   {
-    "id": "mowCUtK3d5mVjen",
+    "id": "uuW3emRAoLt52wT",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "etMo1asxEC3bZsl",
+    "tripStageId": "V0ZeOg9iRr1wVki",
     "type": "total-gain",
     "value": "2064"
   },
   {
-    "id": "AFjloMPlByeaqmv",
+    "id": "DoBEBfC8nVByUQH",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "etMo1asxEC3bZsl",
+    "tripStageId": "V0ZeOg9iRr1wVki",
     "type": "total-loss",
     "value": "1225"
   },
   {
-    "id": "EfT0TorSydYWH8H",
+    "id": "o0EOM2KpRLz1pEN",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "etMo1asxEC3bZsl",
+    "tripStageId": "V0ZeOg9iRr1wVki",
     "type": "max-altitude",
     "value": "1532"
   },
   {
-    "id": "6HobTIWMU369i2L",
+    "id": "oujlck0uGiHnrgj",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "etMo1asxEC3bZsl",
+    "tripStageId": "V0ZeOg9iRr1wVki",
     "type": "min-altitude",
     "value": "222"
   },
   {
-    "id": "bjNyiMVtqtjJ7lU",
+    "id": "gGYYetXpDVbKBFA",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "IWnmFbB8DWVx05M",
+    "tripStageId": "kdIRhieHg56F5gU",
     "type": "total-time",
     "value": {
       "hours": "9",
@@ -2440,44 +2440,44 @@ const data = [
     }
   },
   {
-    "id": "bXje5Obq3KvKEaq",
+    "id": "T0bm4CnlEas0OP9",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "IWnmFbB8DWVx05M",
+    "tripStageId": "kdIRhieHg56F5gU",
     "type": "total-distance",
     "value": "8.81"
   },
   {
-    "id": "IoqUbtOhp33HH4L",
+    "id": "H07yC681wmUkWPo",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "IWnmFbB8DWVx05M",
+    "tripStageId": "kdIRhieHg56F5gU",
     "type": "total-gain",
     "value": "1852"
   },
   {
-    "id": "bXlZmW9F53ekunF",
+    "id": "kDbqeGiTrPllnWb",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "IWnmFbB8DWVx05M",
+    "tripStageId": "kdIRhieHg56F5gU",
     "type": "total-loss",
     "value": "2782"
   },
   {
-    "id": "vdlldU5x1xiu3QN",
+    "id": "DbT5vIOID5g9Xqf",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "IWnmFbB8DWVx05M",
+    "tripStageId": "kdIRhieHg56F5gU",
     "type": "max-altitude",
     "value": "2882"
   },
   {
-    "id": "MkGSblU7yCTV05u",
+    "id": "Cxs7vkRPn0MQtJi",
     "tripId": "w2RLiwOJUV47nRG",
-    "tripStageId": "IWnmFbB8DWVx05M",
+    "tripStageId": "kdIRhieHg56F5gU",
     "type": "min-altitude",
     "value": "404"
   },
   {
-    "id": "u8JVuxd4VXs049l",
+    "id": "WCVNRMsXUTlKeX0",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "EOjcCxa4xLQ8uqk",
+    "tripStageId": "yNQvWh5wyLGOxvy",
     "type": "total-time",
     "value": {
       "hours": "5",
@@ -2485,134 +2485,44 @@ const data = [
     }
   },
   {
-    "id": "AI1dI1uJdTqpwuj",
+    "id": "815V0IpKZsOkHl2",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "EOjcCxa4xLQ8uqk",
+    "tripStageId": "yNQvWh5wyLGOxvy",
     "type": "total-distance",
     "value": "8.83"
   },
   {
-    "id": "RBFikEeP2YKdFY8",
+    "id": "u4ZqBUoDEYVcRq6",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "EOjcCxa4xLQ8uqk",
+    "tripStageId": "yNQvWh5wyLGOxvy",
     "type": "total-gain",
     "value": "1679"
   },
   {
-    "id": "MM5RLjGytIYCFUr",
+    "id": "sirWhUq5CyOs5zh",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "EOjcCxa4xLQ8uqk",
+    "tripStageId": "yNQvWh5wyLGOxvy",
     "type": "total-loss",
     "value": "1493"
   },
   {
-    "id": "yOGg8hp9IQw7bA9",
+    "id": "IgW0C8Zskp1KejP",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "EOjcCxa4xLQ8uqk",
+    "tripStageId": "yNQvWh5wyLGOxvy",
     "type": "max-altitude",
     "value": "3472"
   },
   {
-    "id": "gcoPFziGYztdcMA",
+    "id": "twY17w5j0mcnGKa",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "EOjcCxa4xLQ8uqk",
+    "tripStageId": "yNQvWh5wyLGOxvy",
     "type": "min-altitude",
     "value": "2544"
   },
   {
-    "id": "FFHKHF5E2GBhOhR",
+    "id": "t2GCREZLeqF0NhS",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "qDoc4kGJK8QvvFE",
-    "type": "total-time",
-    "value": {
-      "hours": "7",
-      "minutes": "0"
-    }
-  },
-  {
-    "id": "zyXkwC6JhxQgaEi",
-    "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "qDoc4kGJK8QvvFE",
-    "type": "total-distance",
-    "value": "11.62"
-  },
-  {
-    "id": "6cePVdSf3lO1pgg",
-    "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "qDoc4kGJK8QvvFE",
-    "type": "total-gain",
-    "value": "3437"
-  },
-  {
-    "id": "Y4PEBSqyI5GEzgn",
-    "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "qDoc4kGJK8QvvFE",
-    "type": "total-loss",
-    "value": "2079"
-  },
-  {
-    "id": "7BDpA76Padk4Nz7",
-    "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "qDoc4kGJK8QvvFE",
-    "type": "max-altitude",
-    "value": "4557"
-  },
-  {
-    "id": "0ZJgivtwCQWrvt2",
-    "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "qDoc4kGJK8QvvFE",
-    "type": "min-altitude",
-    "value": "2727"
-  },
-  {
-    "id": "KlBXGHiibAYAXLE",
-    "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "xsw7BXnm7MJPgps",
-    "type": "total-time",
-    "value": {
-      "hours": "7",
-      "minutes": "30"
-    }
-  },
-  {
-    "id": "NVrG9Dz76t4umNC",
-    "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "xsw7BXnm7MJPgps",
-    "type": "total-distance",
-    "value": "9.61"
-  },
-  {
-    "id": "UdvhWEDhYjpUFdG",
-    "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "xsw7BXnm7MJPgps",
-    "type": "total-gain",
-    "value": "3825"
-  },
-  {
-    "id": "VNJ2woa84UQzuVl",
-    "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "xsw7BXnm7MJPgps",
-    "type": "total-loss",
-    "value": "1721"
-  },
-  {
-    "id": "H8FpJmQhQtdXYKf",
-    "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "xsw7BXnm7MJPgps",
-    "type": "max-altitude",
-    "value": "6194"
-  },
-  {
-    "id": "GLcviWhkYan7PTK",
-    "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "xsw7BXnm7MJPgps",
-    "type": "min-altitude",
-    "value": "4081"
-  },
-  {
-    "id": "odJLipcmKLmNJR6",
-    "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "L1jNwtt9QMe06j5",
+    "tripStageId": "mFuLSRLHjnlGT2c",
     "type": "total-time",
     "value": {
       "hours": "7",
@@ -2620,44 +2530,44 @@ const data = [
     }
   },
   {
-    "id": "WriKZ8VbqV8e9St",
+    "id": "NVQlg28Cg0a4jlj",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "L1jNwtt9QMe06j5",
+    "tripStageId": "mFuLSRLHjnlGT2c",
     "type": "total-distance",
     "value": "10.3"
   },
   {
-    "id": "wMJqYrDUVA9SNtt",
+    "id": "lb3jEGg7995Pzpz",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "L1jNwtt9QMe06j5",
+    "tripStageId": "mFuLSRLHjnlGT2c",
     "type": "total-gain",
     "value": "4315"
   },
   {
-    "id": "4sQZKZNjlpDsC0S",
+    "id": "ZcoGo02HGMqJkiI",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "L1jNwtt9QMe06j5",
+    "tripStageId": "mFuLSRLHjnlGT2c",
     "type": "total-loss",
     "value": "1716"
   },
   {
-    "id": "9aox7kKxYWrZM5t",
+    "id": "83vQrfBmfW3Y8o0",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "L1jNwtt9QMe06j5",
+    "tripStageId": "mFuLSRLHjnlGT2c",
     "type": "max-altitude",
     "value": "8949"
   },
   {
-    "id": "Y0fgTdzJZnhVknx",
+    "id": "GEIBUWUA8GPnCs7",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "L1jNwtt9QMe06j5",
+    "tripStageId": "mFuLSRLHjnlGT2c",
     "type": "min-altitude",
     "value": "6192"
   },
   {
-    "id": "lMEcuvDKMQajK8U",
+    "id": "JBNObfy2EpD3cOg",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "0weTb0tqow73c7Y",
+    "tripStageId": "k3Lf8ek7ObrtQ3m",
     "type": "total-time",
     "value": {
       "hours": "6",
@@ -2665,89 +2575,134 @@ const data = [
     }
   },
   {
-    "id": "awUAlYDeR8tMZsw",
+    "id": "lVjM0U6cAsigCpQ",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "0weTb0tqow73c7Y",
+    "tripStageId": "k3Lf8ek7ObrtQ3m",
     "type": "total-distance",
     "value": "8.82"
   },
   {
-    "id": "BJAYguqHara42A5",
+    "id": "Qn59lx9rM7uYdi8",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "0weTb0tqow73c7Y",
+    "tripStageId": "k3Lf8ek7ObrtQ3m",
     "type": "total-gain",
     "value": "2732"
   },
   {
-    "id": "CUnHPDklx9E2sTM",
+    "id": "SsQgGGgHXlEA2QJ",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "0weTb0tqow73c7Y",
+    "tripStageId": "k3Lf8ek7ObrtQ3m",
     "type": "total-loss",
     "value": "749"
   },
   {
-    "id": "VhNz1ygqzbciDmG",
+    "id": "ofjc03Z9cdedk3n",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "0weTb0tqow73c7Y",
+    "tripStageId": "k3Lf8ek7ObrtQ3m",
     "type": "max-altitude",
     "value": "10763"
   },
   {
-    "id": "eMPIybH16xNgxKi",
+    "id": "esY1pgXAf7k82Y9",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "0weTb0tqow73c7Y",
+    "tripStageId": "k3Lf8ek7ObrtQ3m",
     "type": "min-altitude",
     "value": "8793"
   },
   {
-    "id": "7M4Uv3HCtPBXlIV",
+    "id": "5jVH5BrgW1XGlF5",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "6lHcKH9gfsS824J",
+    "tripStageId": "Wp2WbosdEDJsRRr",
     "type": "total-time",
     "value": {
-      "hours": "8",
-      "minutes": "5"
+      "hours": "7",
+      "minutes": "0"
     }
   },
   {
-    "id": "gqIxCjjW7dCHZi0",
+    "id": "0FqpxWrLcJbykrv",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "6lHcKH9gfsS824J",
+    "tripStageId": "Wp2WbosdEDJsRRr",
     "type": "total-distance",
-    "value": "12.77"
+    "value": "11.62"
   },
   {
-    "id": "rMlzC7yoYs7g3so",
+    "id": "j2MBcl6SPn03EXI",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "6lHcKH9gfsS824J",
+    "tripStageId": "Wp2WbosdEDJsRRr",
     "type": "total-gain",
-    "value": "2848"
+    "value": "3437"
   },
   {
-    "id": "6wzTkTsatqkaRdq",
+    "id": "Fu3kVzECclFKv0Y",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "6lHcKH9gfsS824J",
+    "tripStageId": "Wp2WbosdEDJsRRr",
     "type": "total-loss",
-    "value": "2006"
+    "value": "2079"
   },
   {
-    "id": "2nCYaNMzZ8FzcqC",
+    "id": "GOrqdyZwCHbEreD",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "6lHcKH9gfsS824J",
+    "tripStageId": "Wp2WbosdEDJsRRr",
     "type": "max-altitude",
-    "value": "15164"
+    "value": "4557"
   },
   {
-    "id": "DQbzyeJEqRuAE8p",
+    "id": "rorPfnqhtZeOsfF",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "6lHcKH9gfsS824J",
+    "tripStageId": "Wp2WbosdEDJsRRr",
     "type": "min-altitude",
-    "value": "10804"
+    "value": "2727"
   },
   {
-    "id": "uoh5tJaRx4AQdFp",
+    "id": "WJwCViNeYpQKvvE",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "4JvQ0Bbi7K3A8iN",
+    "tripStageId": "h6YYvm6dLvl6RlS",
+    "type": "total-time",
+    "value": {
+      "hours": "7",
+      "minutes": "30"
+    }
+  },
+  {
+    "id": "nQKFPqJBhzg16jl",
+    "tripId": "lBkSFDPGjsrJaHk",
+    "tripStageId": "h6YYvm6dLvl6RlS",
+    "type": "total-distance",
+    "value": "9.61"
+  },
+  {
+    "id": "eLJaUrO8dRCFeDB",
+    "tripId": "lBkSFDPGjsrJaHk",
+    "tripStageId": "h6YYvm6dLvl6RlS",
+    "type": "total-gain",
+    "value": "3825"
+  },
+  {
+    "id": "a2E1kKjJZ4xypeI",
+    "tripId": "lBkSFDPGjsrJaHk",
+    "tripStageId": "h6YYvm6dLvl6RlS",
+    "type": "total-loss",
+    "value": "1721"
+  },
+  {
+    "id": "2s9VZ9Wn2uwSxUz",
+    "tripId": "lBkSFDPGjsrJaHk",
+    "tripStageId": "h6YYvm6dLvl6RlS",
+    "type": "max-altitude",
+    "value": "6194"
+  },
+  {
+    "id": "H61KHrnTOLXXirA",
+    "tripId": "lBkSFDPGjsrJaHk",
+    "tripStageId": "h6YYvm6dLvl6RlS",
+    "type": "min-altitude",
+    "value": "4081"
+  },
+  {
+    "id": "jkFETNs85jtg2Kt",
+    "tripId": "lBkSFDPGjsrJaHk",
+    "tripStageId": "Liu3yWYZw87eMUs",
     "type": "total-time",
     "value": {
       "hours": "6",
@@ -2755,44 +2710,44 @@ const data = [
     }
   },
   {
-    "id": "vfi8AalJNgZ2dll",
+    "id": "CWIYqUk9UCFHWyK",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "4JvQ0Bbi7K3A8iN",
+    "tripStageId": "Liu3yWYZw87eMUs",
     "type": "total-distance",
     "value": "8.91"
   },
   {
-    "id": "vP9WFMoJg57AH96",
+    "id": "UwfJKpPAdVTC9uj",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "4JvQ0Bbi7K3A8iN",
+    "tripStageId": "Liu3yWYZw87eMUs",
     "type": "total-gain",
     "value": "3090"
   },
   {
-    "id": "yTipjcurkhU7Xdv",
+    "id": "RadVKr4swJfg6R3",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "4JvQ0Bbi7K3A8iN",
+    "tripStageId": "Liu3yWYZw87eMUs",
     "type": "total-loss",
     "value": "1126"
   },
   {
-    "id": "ymgvR07T3wu5uI7",
+    "id": "9bEAkq9HSUlG9fr",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "4JvQ0Bbi7K3A8iN",
+    "tripStageId": "Liu3yWYZw87eMUs",
     "type": "max-altitude",
     "value": "13926"
   },
   {
-    "id": "hrCuJlAwcp63WCi",
+    "id": "8mGQqurfgeJHupl",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "4JvQ0Bbi7K3A8iN",
+    "tripStageId": "Liu3yWYZw87eMUs",
     "type": "min-altitude",
     "value": "11622"
   },
   {
-    "id": "bIjhecROKIy4ZEB",
+    "id": "ZLNKVu3JtRhIq8h",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "hHRgeDFniD5kwsl",
+    "tripStageId": "9ebbA61CgSqzd3S",
     "type": "total-time",
     "value": {
       "hours": "8",
@@ -2800,44 +2755,89 @@ const data = [
     }
   },
   {
-    "id": "SsM7Cd16pIWGYjr",
+    "id": "LecJcWGp4NWcplt",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "hHRgeDFniD5kwsl",
+    "tripStageId": "9ebbA61CgSqzd3S",
     "type": "total-distance",
     "value": "10.27"
   },
   {
-    "id": "EP8ETIcqkhLaN1v",
+    "id": "0vuz6URZBO3BvwV",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "hHRgeDFniD5kwsl",
+    "tripStageId": "9ebbA61CgSqzd3S",
     "type": "total-gain",
     "value": "3619"
   },
   {
-    "id": "NiGBfE6t0FvHu2F",
+    "id": "RvrnO5JLXeMV17G",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "hHRgeDFniD5kwsl",
+    "tripStageId": "9ebbA61CgSqzd3S",
     "type": "total-loss",
     "value": "3884"
   },
   {
-    "id": "96oORI8tpKtltHv",
+    "id": "3tUlPv3EshOS3KL",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "hHRgeDFniD5kwsl",
+    "tripStageId": "9ebbA61CgSqzd3S",
     "type": "max-altitude",
     "value": "16435"
   },
   {
-    "id": "BCFHWbeoqWCwFuq",
+    "id": "AlRbTMnEmsmhXiS",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "hHRgeDFniD5kwsl",
+    "tripStageId": "9ebbA61CgSqzd3S",
     "type": "min-altitude",
     "value": "13328"
   },
   {
-    "id": "LO0M01bk1XBNxh6",
+    "id": "P8H7me0ydCb8Hjr",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "PDEFQcmodu7BeeR",
+    "tripStageId": "YNAkx0LZyGRdCGl",
+    "type": "total-time",
+    "value": {
+      "hours": "8",
+      "minutes": "5"
+    }
+  },
+  {
+    "id": "1HVhBYoGylWP7d2",
+    "tripId": "lBkSFDPGjsrJaHk",
+    "tripStageId": "YNAkx0LZyGRdCGl",
+    "type": "total-distance",
+    "value": "12.77"
+  },
+  {
+    "id": "TpU0RPIchg7fsGT",
+    "tripId": "lBkSFDPGjsrJaHk",
+    "tripStageId": "YNAkx0LZyGRdCGl",
+    "type": "total-gain",
+    "value": "2848"
+  },
+  {
+    "id": "CME488XTMaC6qQX",
+    "tripId": "lBkSFDPGjsrJaHk",
+    "tripStageId": "YNAkx0LZyGRdCGl",
+    "type": "total-loss",
+    "value": "2006"
+  },
+  {
+    "id": "BNQvJME0g8EK1hm",
+    "tripId": "lBkSFDPGjsrJaHk",
+    "tripStageId": "YNAkx0LZyGRdCGl",
+    "type": "max-altitude",
+    "value": "15164"
+  },
+  {
+    "id": "wFgkAI22IVFbRvP",
+    "tripId": "lBkSFDPGjsrJaHk",
+    "tripStageId": "YNAkx0LZyGRdCGl",
+    "type": "min-altitude",
+    "value": "10804"
+  },
+  {
+    "id": "adIciweDCHr4GaB",
+    "tripId": "lBkSFDPGjsrJaHk",
+    "tripStageId": "5lXToPv4lltG0Zx",
     "type": "total-time",
     "value": {
       "hours": "6",
@@ -2845,44 +2845,44 @@ const data = [
     }
   },
   {
-    "id": "9g0Ce8kBuUQHDQQ",
+    "id": "GuI2HSDtGP5OqMb",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "PDEFQcmodu7BeeR",
+    "tripStageId": "5lXToPv4lltG0Zx",
     "type": "total-distance",
     "value": "10.53"
   },
   {
-    "id": "LsaiNaBjgiYQyDw",
+    "id": "Vk2wsotrghD9P9e",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "PDEFQcmodu7BeeR",
+    "tripStageId": "5lXToPv4lltG0Zx",
     "type": "total-gain",
     "value": "3169"
   },
   {
-    "id": "8JNy8aZFqa47cSw",
+    "id": "rjNRMuJT5PiG3wD",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "PDEFQcmodu7BeeR",
+    "tripStageId": "5lXToPv4lltG0Zx",
     "type": "total-loss",
     "value": "1615"
   },
   {
-    "id": "jI6Fiv3dBh7ENVh",
+    "id": "WNN6pQE20zSg3bC",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "PDEFQcmodu7BeeR",
+    "tripStageId": "5lXToPv4lltG0Zx",
     "type": "max-altitude",
     "value": "14869"
   },
   {
-    "id": "rJgyX29qtQGSP9d",
+    "id": "rRjJoTTyFHB8Fc2",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "PDEFQcmodu7BeeR",
+    "tripStageId": "5lXToPv4lltG0Zx",
     "type": "min-altitude",
     "value": "12610"
   },
   {
-    "id": "gBMn4flGTnlt01h",
+    "id": "MeJRbm4mjytGjBt",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "FhWyGZpmjGlp8Rc",
+    "tripStageId": "DftcCjgD4zL2MMr",
     "type": "total-time",
     "value": {
       "hours": "8",
@@ -2890,44 +2890,44 @@ const data = [
     }
   },
   {
-    "id": "Uffh3k8lhnbRRsg",
+    "id": "aweM0e2zhNxw78M",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "FhWyGZpmjGlp8Rc",
+    "tripStageId": "DftcCjgD4zL2MMr",
     "type": "total-distance",
     "value": "8.99"
   },
   {
-    "id": "4gsXHbaMEWtEuFe",
+    "id": "5ArWTuQr0SfwMMr",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "FhWyGZpmjGlp8Rc",
+    "tripStageId": "DftcCjgD4zL2MMr",
     "type": "total-gain",
     "value": "2889"
   },
   {
-    "id": "gJ3R8YRsEV2ggge",
+    "id": "5frqy5mtzHZ6KN6",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "FhWyGZpmjGlp8Rc",
+    "tripStageId": "DftcCjgD4zL2MMr",
     "type": "total-loss",
     "value": "5724"
   },
   {
-    "id": "AqjkQvhImD60QCm",
+    "id": "2KNEVPcVudvx7JD",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "FhWyGZpmjGlp8Rc",
+    "tripStageId": "DftcCjgD4zL2MMr",
     "type": "max-altitude",
     "value": "17751"
   },
   {
-    "id": "vKzuu8ifi1eAu0i",
+    "id": "gRIPv5O4tAiWCi6",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "FhWyGZpmjGlp8Rc",
+    "tripStageId": "DftcCjgD4zL2MMr",
     "type": "min-altitude",
     "value": "12042"
   },
   {
-    "id": "NbZYVIIfekGI3SL",
+    "id": "ro8VFggvipQDNYz",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "o2y4YzWEinlr1qX",
+    "tripStageId": "ijZvkzMcor4QfM4",
     "type": "total-time",
     "value": {
       "hours": "6",
@@ -2935,44 +2935,44 @@ const data = [
     }
   },
   {
-    "id": "yRnu9GxiGYLbFiu",
+    "id": "egSY9NyuyJvC8Dk",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "o2y4YzWEinlr1qX",
+    "tripStageId": "ijZvkzMcor4QfM4",
     "type": "total-distance",
     "value": "14.98"
   },
   {
-    "id": "hZ34CG0MBHjrlr4",
+    "id": "ksoZjqEvn5Kx3R8",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "o2y4YzWEinlr1qX",
+    "tripStageId": "ijZvkzMcor4QfM4",
     "type": "total-gain",
     "value": "1292"
   },
   {
-    "id": "04Nnaui827Hdv3D",
+    "id": "7k9eJTJd4hHa62c",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "o2y4YzWEinlr1qX",
+    "tripStageId": "ijZvkzMcor4QfM4",
     "type": "total-loss",
     "value": "4480"
   },
   {
-    "id": "qJXb1tqykZaF2Sc",
+    "id": "pTTWSkz5xTlZYfO",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "o2y4YzWEinlr1qX",
+    "tripStageId": "ijZvkzMcor4QfM4",
     "type": "max-altitude",
     "value": "12534"
   },
   {
-    "id": "ru9Tv9KIo6Mxcc7",
+    "id": "dqqBuOPIxMs9Ylg",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "o2y4YzWEinlr1qX",
+    "tripStageId": "ijZvkzMcor4QfM4",
     "type": "min-altitude",
     "value": "8827"
   },
   {
-    "id": "4NE6PmhocmbSKSt",
+    "id": "ip84XFxeq45AbDG",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "1V6zWL2ckLiGZQ5",
+    "tripStageId": "WX8DJfjNQkHjeom",
     "type": "total-time",
     "value": {
       "hours": "6",
@@ -2980,44 +2980,44 @@ const data = [
     }
   },
   {
-    "id": "ye5CZLOZyu50M5m",
+    "id": "3Qjk5eyuzHpCrEo",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "1V6zWL2ckLiGZQ5",
+    "tripStageId": "WX8DJfjNQkHjeom",
     "type": "total-distance",
     "value": "17.65"
   },
   {
-    "id": "2j4VRBY4kYdL0w8",
+    "id": "GvrEflRBT1YtOiJ",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "1V6zWL2ckLiGZQ5",
+    "tripStageId": "WX8DJfjNQkHjeom",
     "type": "total-gain",
     "value": "2053"
   },
   {
-    "id": "fkDWy0Erey8O871",
+    "id": "KIW8bWWybns7CLs",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "1V6zWL2ckLiGZQ5",
+    "tripStageId": "WX8DJfjNQkHjeom",
     "type": "total-loss",
     "value": "4262"
   },
   {
-    "id": "cGi49cAaaz5zu4C",
+    "id": "blV7N3KQhkgAlQS",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "1V6zWL2ckLiGZQ5",
+    "tripStageId": "WX8DJfjNQkHjeom",
     "type": "max-altitude",
     "value": "9165"
   },
   {
-    "id": "mzido6G5Up2lW5a",
+    "id": "VIGv4GLgiJ3uRFq",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "1V6zWL2ckLiGZQ5",
+    "tripStageId": "WX8DJfjNQkHjeom",
     "type": "min-altitude",
     "value": "6682"
   },
   {
-    "id": "uJQ1ZUX2p0G1ai4",
+    "id": "0LxF1tOVe5hhhuY",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "0Dw4ihz20pkezXA",
+    "tripStageId": "tTsC0nLaynzVkfb",
     "type": "total-time",
     "value": {
       "hours": "7",
@@ -3025,44 +3025,44 @@ const data = [
     }
   },
   {
-    "id": "ODdi1YhnFrY9CcN",
+    "id": "7GkfM5B3KMTR6Gc",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "0Dw4ihz20pkezXA",
+    "tripStageId": "tTsC0nLaynzVkfb",
     "type": "total-distance",
     "value": "10.53"
   },
   {
-    "id": "N9l6S8BGhSsnw13",
+    "id": "k8cXW1uyfeKprAf",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "0Dw4ihz20pkezXA",
+    "tripStageId": "tTsC0nLaynzVkfb",
     "type": "total-gain",
     "value": "3186"
   },
   {
-    "id": "z8ZPDlYtNkihgM7",
+    "id": "nRTFmnTNZOvzS0s",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "0Dw4ihz20pkezXA",
+    "tripStageId": "tTsC0nLaynzVkfb",
     "type": "total-loss",
     "value": "5359"
   },
   {
-    "id": "9L7fLBsY4HC1xed",
+    "id": "NaWz6vaQEQHcUmp",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "0Dw4ihz20pkezXA",
+    "tripStageId": "tTsC0nLaynzVkfb",
     "type": "max-altitude",
     "value": "10466"
   },
   {
-    "id": "XpYGydJoOgxHrzk",
+    "id": "wfImlwNgZWwNzSO",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "0Dw4ihz20pkezXA",
+    "tripStageId": "tTsC0nLaynzVkfb",
     "type": "min-altitude",
     "value": "6342"
   },
   {
-    "id": "scwKrITXp3wNY7w",
+    "id": "pApFoHxVRVqjMn5",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "xXsAjCz243RYIXY",
+    "tripStageId": "sqCFEBmPZUkl1MP",
     "type": "total-time",
     "value": {
       "hours": "7",
@@ -3070,89 +3070,44 @@ const data = [
     }
   },
   {
-    "id": "bhVh4WOOjnXnYL0",
+    "id": "Ow857jDr8zzNzbR",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "xXsAjCz243RYIXY",
+    "tripStageId": "sqCFEBmPZUkl1MP",
     "type": "total-distance",
     "value": "8.42"
   },
   {
-    "id": "nsvR4BsmWTgSU1P",
+    "id": "dsKK3B0oNDE8spx",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "xXsAjCz243RYIXY",
+    "tripStageId": "sqCFEBmPZUkl1MP",
     "type": "total-gain",
     "value": "5001"
   },
   {
-    "id": "JQiv8PJjMuaKatZ",
+    "id": "QiJqJkxTRzkkK0d",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "xXsAjCz243RYIXY",
+    "tripStageId": "sqCFEBmPZUkl1MP",
     "type": "total-loss",
     "value": "1019"
   },
   {
-    "id": "vjA3iBzCgZcGrAg",
+    "id": "yMyJXBn1NbePekD",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "xXsAjCz243RYIXY",
+    "tripStageId": "sqCFEBmPZUkl1MP",
     "type": "max-altitude",
     "value": "10403"
   },
   {
-    "id": "EPzWaC3vKMtzj5U",
+    "id": "uA6fndDctUTkVGc",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "xXsAjCz243RYIXY",
+    "tripStageId": "sqCFEBmPZUkl1MP",
     "type": "min-altitude",
     "value": "6167"
   },
   {
-    "id": "NqLgmTGRzJ8irf9",
+    "id": "m15fqjoZjKAijYB",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "ZAZ8ftfYH1k817L",
-    "type": "total-time",
-    "value": {
-      "hours": "3",
-      "minutes": "40"
-    }
-  },
-  {
-    "id": "Q0LTrUKrMGilXOF",
-    "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "ZAZ8ftfYH1k817L",
-    "type": "total-distance",
-    "value": "4.14"
-  },
-  {
-    "id": "yZdbYi6oL7OH5IE",
-    "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "ZAZ8ftfYH1k817L",
-    "type": "total-gain",
-    "value": "3163"
-  },
-  {
-    "id": "5yGhBT3bBJYNkZA",
-    "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "ZAZ8ftfYH1k817L",
-    "type": "total-loss",
-    "value": "95"
-  },
-  {
-    "id": "Znv3XlCuONxBZJv",
-    "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "ZAZ8ftfYH1k817L",
-    "type": "max-altitude",
-    "value": "13475"
-  },
-  {
-    "id": "Nuh5Si9OxX6mjRp",
-    "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "ZAZ8ftfYH1k817L",
-    "type": "min-altitude",
-    "value": "10432"
-  },
-  {
-    "id": "YuHlS0YUov7etZk",
-    "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "ZzIUknFAuZgSdZ2",
+    "tripStageId": "HoMT7YSdcPJHAg9",
     "type": "total-time",
     "value": {
       "hours": "3",
@@ -3160,44 +3115,89 @@ const data = [
     }
   },
   {
-    "id": "0f7CrAG7kcLcMFp",
+    "id": "SUrqltqlzFD6Ynm",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "ZzIUknFAuZgSdZ2",
+    "tripStageId": "HoMT7YSdcPJHAg9",
     "type": "total-distance",
     "value": "1.85"
   },
   {
-    "id": "V7nHuk1Im81gFsH",
+    "id": "R35FARrHwdRovDR",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "ZzIUknFAuZgSdZ2",
+    "tripStageId": "HoMT7YSdcPJHAg9",
     "type": "total-gain",
     "value": "275"
   },
   {
-    "id": "nMARmTZVnNAOU5D",
+    "id": "3pCJmDsIqeidJP7",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "ZzIUknFAuZgSdZ2",
+    "tripStageId": "HoMT7YSdcPJHAg9",
     "type": "total-loss",
     "value": "2056"
   },
   {
-    "id": "b0El3XKfJ89UBWU",
+    "id": "48BWTjWVSb54e6X",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "ZzIUknFAuZgSdZ2",
+    "tripStageId": "HoMT7YSdcPJHAg9",
     "type": "max-altitude",
     "value": "7360"
   },
   {
-    "id": "v3V9cVA02BgMhAL",
+    "id": "qVXHWP7GNsGCroE",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "ZzIUknFAuZgSdZ2",
+    "tripStageId": "HoMT7YSdcPJHAg9",
     "type": "min-altitude",
     "value": "5181"
   },
   {
-    "id": "ywflDcjtG8TpU0a",
+    "id": "7K8giWC0WdJECKp",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "dLA9CGyWIdSIw5N",
+    "tripStageId": "c0xGFL0OUwv61yI",
+    "type": "total-time",
+    "value": {
+      "hours": "3",
+      "minutes": "40"
+    }
+  },
+  {
+    "id": "tehNmLVWHF3ttgn",
+    "tripId": "lBkSFDPGjsrJaHk",
+    "tripStageId": "c0xGFL0OUwv61yI",
+    "type": "total-distance",
+    "value": "4.14"
+  },
+  {
+    "id": "qemtKOHU3jBeoOo",
+    "tripId": "lBkSFDPGjsrJaHk",
+    "tripStageId": "c0xGFL0OUwv61yI",
+    "type": "total-gain",
+    "value": "3163"
+  },
+  {
+    "id": "u93V8cLjf5OCI2u",
+    "tripId": "lBkSFDPGjsrJaHk",
+    "tripStageId": "c0xGFL0OUwv61yI",
+    "type": "total-loss",
+    "value": "95"
+  },
+  {
+    "id": "SrVxwrI3n7OHUAk",
+    "tripId": "lBkSFDPGjsrJaHk",
+    "tripStageId": "c0xGFL0OUwv61yI",
+    "type": "max-altitude",
+    "value": "13475"
+  },
+  {
+    "id": "xj1b83LeJGqYFpQ",
+    "tripId": "lBkSFDPGjsrJaHk",
+    "tripStageId": "c0xGFL0OUwv61yI",
+    "type": "min-altitude",
+    "value": "10432"
+  },
+  {
+    "id": "4ComIxadhypn5Ww",
+    "tripId": "lBkSFDPGjsrJaHk",
+    "tripStageId": "OozT9qSPuk95uLl",
     "type": "total-time",
     "value": {
       "hours": "8",
@@ -3205,44 +3205,44 @@ const data = [
     }
   },
   {
-    "id": "1pUUivo0WKCIMA9",
+    "id": "ocLMYVKn5FamAhl",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "dLA9CGyWIdSIw5N",
+    "tripStageId": "OozT9qSPuk95uLl",
     "type": "total-distance",
     "value": "12.63"
   },
   {
-    "id": "PXqAOUFC0tQNsCb",
+    "id": "Fx5Q4VtPwHqzXE5",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "dLA9CGyWIdSIw5N",
+    "tripStageId": "OozT9qSPuk95uLl",
     "type": "total-gain",
     "value": "1263"
   },
   {
-    "id": "on7x9Gjbuc5ch2Y",
+    "id": "UFijdgmxRlsCKv0",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "dLA9CGyWIdSIw5N",
+    "tripStageId": "OozT9qSPuk95uLl",
     "type": "total-loss",
     "value": "8110"
   },
   {
-    "id": "ZPVWNAO1r6QOpQO",
+    "id": "G8vwvlCGVdian8t",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "dLA9CGyWIdSIw5N",
+    "tripStageId": "OozT9qSPuk95uLl",
     "type": "max-altitude",
     "value": "13470"
   },
   {
-    "id": "HVed65HpFAYd9fB",
+    "id": "u6sPE3XxoXSWA6o",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "dLA9CGyWIdSIw5N",
+    "tripStageId": "OozT9qSPuk95uLl",
     "type": "min-altitude",
     "value": "6167"
   },
   {
-    "id": "cO5oCwe46qPyShQ",
+    "id": "3YrNNTLK1EkFqdQ",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "a17JwWfpjCUGoJW",
+    "tripStageId": "QTBr6dCKzo6z9Zv",
     "type": "total-time",
     "value": {
       "hours": "15",
@@ -3250,44 +3250,44 @@ const data = [
     }
   },
   {
-    "id": "y2ZxDdHLmrDeF1W",
+    "id": "fpzVpqsMLLdY9oP",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "a17JwWfpjCUGoJW",
+    "tripStageId": "QTBr6dCKzo6z9Zv",
     "type": "total-distance",
     "value": "19.87"
   },
   {
-    "id": "ySLC9GzBorJakng",
+    "id": "GyoCcrY9Ree8W7Z",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "a17JwWfpjCUGoJW",
+    "tripStageId": "QTBr6dCKzo6z9Zv",
     "type": "total-gain",
     "value": "6431"
   },
   {
-    "id": "nEHwmglbpnETCi1",
+    "id": "8ceybHhtwlEYp9w",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "a17JwWfpjCUGoJW",
+    "tripStageId": "QTBr6dCKzo6z9Zv",
     "type": "total-loss",
     "value": "3596"
   },
   {
-    "id": "XTc3iqyBRanzPcy",
+    "id": "4npM0vfZTvlZtFe",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "a17JwWfpjCUGoJW",
+    "tripStageId": "QTBr6dCKzo6z9Zv",
     "type": "max-altitude",
     "value": "9340"
   },
   {
-    "id": "B73ySalVOy4oV2E",
+    "id": "pI284NS2bthLIRn",
     "tripId": "lBkSFDPGjsrJaHk",
-    "tripStageId": "a17JwWfpjCUGoJW",
+    "tripStageId": "QTBr6dCKzo6z9Zv",
     "type": "min-altitude",
     "value": "3975"
   },
   {
-    "id": "tgW7PQddGsGY00H",
+    "id": "dfyBspI0ohiHCE4",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "dITixzEApJXQvuA",
+    "tripStageId": "bd7d61XjZuqssOr",
     "type": "total-time",
     "value": {
       "hours": "7",
@@ -3295,44 +3295,44 @@ const data = [
     }
   },
   {
-    "id": "2HEy9KtJWRmFZVF",
+    "id": "5kuM6Voaflud6Yz",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "dITixzEApJXQvuA",
+    "tripStageId": "bd7d61XjZuqssOr",
     "type": "total-distance",
     "value": "10.52"
   },
   {
-    "id": "6kZtqNeI1ZXwmC6",
+    "id": "UEJxlsqambji0JO",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "dITixzEApJXQvuA",
+    "tripStageId": "bd7d61XjZuqssOr",
     "type": "total-gain",
     "value": "4395"
   },
   {
-    "id": "GUm8qW56a0og7PW",
+    "id": "OEO2bvmLZdkXe7T",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "dITixzEApJXQvuA",
+    "tripStageId": "bd7d61XjZuqssOr",
     "type": "total-loss",
     "value": "2027"
   },
   {
-    "id": "RIvwJpCJXz28o2i",
+    "id": "9uxz6NOUDD6PCZ7",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "dITixzEApJXQvuA",
+    "tripStageId": "bd7d61XjZuqssOr",
     "type": "max-altitude",
     "value": "8143"
   },
   {
-    "id": "IfhgsrbcvVwm1AZ",
+    "id": "uTV0Lucn6I7Iw4A",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "dITixzEApJXQvuA",
+    "tripStageId": "bd7d61XjZuqssOr",
     "type": "min-altitude",
     "value": "3786"
   },
   {
-    "id": "5AH6TTnbmnJmxtz",
+    "id": "XTnmq65ezQT3jkJ",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "7h7URfE9Tk0nPL0",
+    "tripStageId": "BjZSbJo3I3gf1xt",
     "type": "total-time",
     "value": {
       "hours": "7",
@@ -3340,44 +3340,44 @@ const data = [
     }
   },
   {
-    "id": "QLlwLWrnXHyyXi5",
+    "id": "ISdQILwyUi9YpmW",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "7h7URfE9Tk0nPL0",
+    "tripStageId": "BjZSbJo3I3gf1xt",
     "type": "total-distance",
     "value": "7.87"
   },
   {
-    "id": "hRp294z5f06iszk",
+    "id": "sRy90Nj8rWOX16T",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "7h7URfE9Tk0nPL0",
+    "tripStageId": "BjZSbJo3I3gf1xt",
     "type": "total-gain",
     "value": "3916"
   },
   {
-    "id": "GHOqaR7TfFwE8lu",
+    "id": "cWt2ZUSiQ2rlnHt",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "7h7URfE9Tk0nPL0",
+    "tripStageId": "BjZSbJo3I3gf1xt",
     "type": "total-loss",
     "value": "2900"
   },
   {
-    "id": "lw47YeM0MXUv5GW",
+    "id": "ebV4QLEmOQlYd8Z",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "7h7URfE9Tk0nPL0",
+    "tripStageId": "BjZSbJo3I3gf1xt",
     "type": "max-altitude",
     "value": "8968"
   },
   {
-    "id": "cK8VGaYzpb3nPt3",
+    "id": "e1fzoZC5mbKmvub",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "7h7URfE9Tk0nPL0",
+    "tripStageId": "BjZSbJo3I3gf1xt",
     "type": "min-altitude",
     "value": "5849"
   },
   {
-    "id": "mQQ0ljCkkMJmVLh",
+    "id": "mPbVAgvs8HRVPEW",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "Ef5Gv1kKQL47rPm",
+    "tripStageId": "bM2cEJihvnLrj5W",
     "type": "total-time",
     "value": {
       "hours": "7",
@@ -3385,44 +3385,44 @@ const data = [
     }
   },
   {
-    "id": "kvCF97GuCk37kL2",
+    "id": "VMoetQtkGGg9UjC",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "Ef5Gv1kKQL47rPm",
+    "tripStageId": "bM2cEJihvnLrj5W",
     "type": "total-distance",
     "value": "11.9"
   },
   {
-    "id": "gPExSMHqXUCpVe9",
+    "id": "FWui27gn6m13s3Z",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "Ef5Gv1kKQL47rPm",
+    "tripStageId": "bM2cEJihvnLrj5W",
     "type": "total-gain",
     "value": "2907"
   },
   {
-    "id": "FKKQq63JRZRypEu",
+    "id": "VJgBVD9nV5cJJKy",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "Ef5Gv1kKQL47rPm",
+    "tripStageId": "bM2cEJihvnLrj5W",
     "type": "total-loss",
     "value": "4225"
   },
   {
-    "id": "zkkdM8OgQ2TqbfT",
+    "id": "5YUAozkqSwuUbXI",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "Ef5Gv1kKQL47rPm",
+    "tripStageId": "bM2cEJihvnLrj5W",
     "type": "max-altitude",
     "value": "8306"
   },
   {
-    "id": "8Og28H0NiatWe5C",
+    "id": "EL2gat5s5yaoy8z",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "Ef5Gv1kKQL47rPm",
+    "tripStageId": "bM2cEJihvnLrj5W",
     "type": "min-altitude",
     "value": "5300"
   },
   {
-    "id": "cHAUlJ58l9g0c6l",
+    "id": "feHqLCMSuX4jN3c",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "kaCTTxLrf8Xqmdh",
+    "tripStageId": "z9VID0zreq4aJrl",
     "type": "total-time",
     "value": {
       "hours": "6",
@@ -3430,44 +3430,44 @@ const data = [
     }
   },
   {
-    "id": "b3mAMNsOAtxrObX",
+    "id": "hD09rsAklxsfert",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "kaCTTxLrf8Xqmdh",
+    "tripStageId": "z9VID0zreq4aJrl",
     "type": "total-distance",
     "value": "10.22"
   },
   {
-    "id": "tR3joEIeIGUI0kr",
+    "id": "NnksCNHvAGMoZGJ",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "kaCTTxLrf8Xqmdh",
+    "tripStageId": "z9VID0zreq4aJrl",
     "type": "total-gain",
     "value": "1707"
   },
   {
-    "id": "w55QBnK8pgwVV0g",
+    "id": "7Lo0HJf8M80cORb",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "kaCTTxLrf8Xqmdh",
+    "tripStageId": "z9VID0zreq4aJrl",
     "type": "total-loss",
     "value": "2226"
   },
   {
-    "id": "ZmDTqVaNxeGPRWa",
+    "id": "KUSq3bsT7jYZVnz",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "kaCTTxLrf8Xqmdh",
+    "tripStageId": "z9VID0zreq4aJrl",
     "type": "max-altitude",
     "value": "5246"
   },
   {
-    "id": "dybI3FY12sXJ1zC",
+    "id": "Jyk0OznGcpTIyEw",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "kaCTTxLrf8Xqmdh",
+    "tripStageId": "z9VID0zreq4aJrl",
     "type": "min-altitude",
     "value": "3447"
   },
   {
-    "id": "qadXDJUCYHfpT5z",
+    "id": "GlgUp3ASMQqnrTK",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "HznrN2T6JYmdiB4",
+    "tripStageId": "mPL1wrfTRWNmySR",
     "type": "total-time",
     "value": {
       "hours": "7",
@@ -3475,44 +3475,44 @@ const data = [
     }
   },
   {
-    "id": "2cp4ryqLbtIJAUR",
+    "id": "moGJcjGBAOXRilb",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "HznrN2T6JYmdiB4",
+    "tripStageId": "mPL1wrfTRWNmySR",
     "type": "total-distance",
     "value": "8.79"
   },
   {
-    "id": "DNY9QtJwliCdnZN",
+    "id": "GRZzfhTyYbhAQpo",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "HznrN2T6JYmdiB4",
+    "tripStageId": "mPL1wrfTRWNmySR",
     "type": "total-gain",
     "value": "3723"
   },
   {
-    "id": "foUsALe74q1uxA8",
+    "id": "1HISsqOTTtqtwv3",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "HznrN2T6JYmdiB4",
+    "tripStageId": "mPL1wrfTRWNmySR",
     "type": "total-loss",
     "value": "3316"
   },
   {
-    "id": "Hbh4Ed9a0WouT0O",
+    "id": "SvKgQ0aMo9oPiSK",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "HznrN2T6JYmdiB4",
+    "tripStageId": "mPL1wrfTRWNmySR",
     "type": "max-altitude",
     "value": "7235"
   },
   {
-    "id": "i2QshMus3RBai3E",
+    "id": "DFNgEIyibsCrosg",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "HznrN2T6JYmdiB4",
+    "tripStageId": "mPL1wrfTRWNmySR",
     "type": "min-altitude",
     "value": "4218"
   },
   {
-    "id": "2zGmXvULaYYUfTu",
+    "id": "5ulExbXNWq9XK0C",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "Bab1JitslVhJuSH",
+    "tripStageId": "bWpd7fyNvOsi93b",
     "type": "total-time",
     "value": {
       "hours": "4",
@@ -3520,44 +3520,89 @@ const data = [
     }
   },
   {
-    "id": "lvQoQiowuyrut1P",
+    "id": "kM55CICkB6S5ojp",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "Bab1JitslVhJuSH",
+    "tripStageId": "bWpd7fyNvOsi93b",
     "type": "total-distance",
     "value": "4.55"
   },
   {
-    "id": "9wUhu2PWVyXQtbO",
+    "id": "x5qsGz0hJ0dbYTV",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "Bab1JitslVhJuSH",
+    "tripStageId": "bWpd7fyNvOsi93b",
     "type": "total-gain",
     "value": "142"
   },
   {
-    "id": "6xBgzdvnAUp9pmd",
+    "id": "jE9wjYnjXJgH412",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "Bab1JitslVhJuSH",
+    "tripStageId": "bWpd7fyNvOsi93b",
     "type": "total-loss",
     "value": "3825"
   },
   {
-    "id": "o5H25ZFHcw9yJen",
+    "id": "8KsDm9ZrQVw2WVJ",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "Bab1JitslVhJuSH",
+    "tripStageId": "bWpd7fyNvOsi93b",
     "type": "max-altitude",
     "value": "7041"
   },
   {
-    "id": "mzHrcJoZTZGK5fo",
+    "id": "h4ITEhAW88FYmIH",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "Bab1JitslVhJuSH",
+    "tripStageId": "bWpd7fyNvOsi93b",
     "type": "min-altitude",
     "value": "3202"
   },
   {
-    "id": "CT4Kdoht2Kh3OkK",
+    "id": "fMNvhZ2qfT36hZe",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "3S59CK5U0EO3ce0",
+    "tripStageId": "1S5vHxyVN9vhE3a",
+    "type": "total-time",
+    "value": {
+      "hours": "4",
+      "minutes": "0"
+    }
+  },
+  {
+    "id": "XNIhAf3hmkxxqRr",
+    "tripId": "3XxhkdLe7pvjCfc",
+    "tripStageId": "1S5vHxyVN9vhE3a",
+    "type": "total-distance",
+    "value": "6.6"
+  },
+  {
+    "id": "htePYXsow1HGOHd",
+    "tripId": "3XxhkdLe7pvjCfc",
+    "tripStageId": "1S5vHxyVN9vhE3a",
+    "type": "total-gain",
+    "value": "2412"
+  },
+  {
+    "id": "ZQyddooWkYdM0au",
+    "tripId": "3XxhkdLe7pvjCfc",
+    "tripStageId": "1S5vHxyVN9vhE3a",
+    "type": "total-loss",
+    "value": "1568"
+  },
+  {
+    "id": "0DZfE2zSiMbxCdL",
+    "tripId": "3XxhkdLe7pvjCfc",
+    "tripStageId": "1S5vHxyVN9vhE3a",
+    "type": "max-altitude",
+    "value": "8214"
+  },
+  {
+    "id": "5oaTXngHKSTsbjC",
+    "tripId": "3XxhkdLe7pvjCfc",
+    "tripStageId": "1S5vHxyVN9vhE3a",
+    "type": "min-altitude",
+    "value": "5947"
+  },
+  {
+    "id": "tjQCyV2uIhkmofg",
+    "tripId": "3XxhkdLe7pvjCfc",
+    "tripStageId": "I5bCFrD3FftejlT",
     "type": "total-time",
     "value": {
       "hours": "6",
@@ -3565,89 +3610,44 @@ const data = [
     }
   },
   {
-    "id": "ASiBISSW196uYjz",
+    "id": "Ilhgd8wKCgYmygv",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "3S59CK5U0EO3ce0",
+    "tripStageId": "I5bCFrD3FftejlT",
     "type": "total-distance",
     "value": "5.1"
   },
   {
-    "id": "e5eBKtajSBFnMnr",
+    "id": "V2opg5Ro4I24HPZ",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "3S59CK5U0EO3ce0",
+    "tripStageId": "I5bCFrD3FftejlT",
     "type": "total-gain",
     "value": "3136"
   },
   {
-    "id": "BloTB0BGVsWxn8M",
+    "id": "ZdvwX6Go2O2Lmsf",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "3S59CK5U0EO3ce0",
+    "tripStageId": "I5bCFrD3FftejlT",
     "type": "total-loss",
     "value": "1636"
   },
   {
-    "id": "O1N44FyTNUwn33V",
+    "id": "IpC8IMQXxQudoyT",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "3S59CK5U0EO3ce0",
+    "tripStageId": "I5bCFrD3FftejlT",
     "type": "max-altitude",
     "value": "7724"
   },
   {
-    "id": "muoH25gePzluxBG",
+    "id": "LKp0c3n556LLRGE",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "3S59CK5U0EO3ce0",
+    "tripStageId": "I5bCFrD3FftejlT",
     "type": "min-altitude",
     "value": "4639"
   },
   {
-    "id": "PvMOxaq1ajaEkM1",
+    "id": "oQG16m495OEM7zs",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "NpWHuhCxP0P6N3a",
-    "type": "total-time",
-    "value": {
-      "hours": "4",
-      "minutes": "0"
-    }
-  },
-  {
-    "id": "8zgaV82zywcbJIY",
-    "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "NpWHuhCxP0P6N3a",
-    "type": "total-distance",
-    "value": "6.6"
-  },
-  {
-    "id": "05kEqLsq5I5KMCX",
-    "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "NpWHuhCxP0P6N3a",
-    "type": "total-gain",
-    "value": "2412"
-  },
-  {
-    "id": "iSZwdLWHfcSM6wL",
-    "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "NpWHuhCxP0P6N3a",
-    "type": "total-loss",
-    "value": "1568"
-  },
-  {
-    "id": "IUqT42IqVd9MvKZ",
-    "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "NpWHuhCxP0P6N3a",
-    "type": "max-altitude",
-    "value": "8214"
-  },
-  {
-    "id": "zOMO8JeN0Z0f0Yo",
-    "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "NpWHuhCxP0P6N3a",
-    "type": "min-altitude",
-    "value": "5947"
-  },
-  {
-    "id": "bqOimmQfEBnh21b",
-    "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "9LyoFZVNbnleUlK",
+    "tripStageId": "JqFOJzBcyShwydM",
     "type": "total-time",
     "value": {
       "hours": "7",
@@ -3655,44 +3655,44 @@ const data = [
     }
   },
   {
-    "id": "o7Wxy40ePhoAMzR",
+    "id": "la1nHVez5DtNL7X",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "9LyoFZVNbnleUlK",
+    "tripStageId": "JqFOJzBcyShwydM",
     "type": "total-distance",
     "value": "9.23"
   },
   {
-    "id": "IrsKFMSWpIcuIm2",
+    "id": "X7f47JGSKNx07Bw",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "9LyoFZVNbnleUlK",
+    "tripStageId": "JqFOJzBcyShwydM",
     "type": "total-gain",
     "value": "4669"
   },
   {
-    "id": "mZjJUWqLKOoQteB",
+    "id": "cnv2hFukj5SX9Ts",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "9LyoFZVNbnleUlK",
+    "tripStageId": "JqFOJzBcyShwydM",
     "type": "total-loss",
     "value": "2333"
   },
   {
-    "id": "migsvIrfZkVM1CC",
+    "id": "Yp3VNBaPpF8UCWf",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "9LyoFZVNbnleUlK",
+    "tripStageId": "JqFOJzBcyShwydM",
     "type": "max-altitude",
     "value": "6915"
   },
   {
-    "id": "kdsqkG1B79JvQQX",
+    "id": "1pFpe0ylfyLEOOE",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "9LyoFZVNbnleUlK",
+    "tripStageId": "JqFOJzBcyShwydM",
     "type": "min-altitude",
     "value": "3263"
   },
   {
-    "id": "lxbxR5Q5RxNg6uK",
+    "id": "zMcpJczvkxAF7v4",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "mbvEB6pLWNsZPOw",
+    "tripStageId": "D7ZZbWrzky3RbWC",
     "type": "total-time",
     "value": {
       "hours": "7",
@@ -3700,44 +3700,44 @@ const data = [
     }
   },
   {
-    "id": "tWfkPh20Sl7lBJ9",
+    "id": "1AFOzsVjJR2oWPC",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "mbvEB6pLWNsZPOw",
+    "tripStageId": "D7ZZbWrzky3RbWC",
     "type": "total-distance",
     "value": "11.1"
   },
   {
-    "id": "hId7dGnHie6g1VN",
+    "id": "Hh9BzzhVPQYvVTT",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "mbvEB6pLWNsZPOw",
+    "tripStageId": "D7ZZbWrzky3RbWC",
     "type": "total-gain",
     "value": "2303"
   },
   {
-    "id": "KjZGuzM4QNFje3X",
+    "id": "45PALiMw2MwxM8Y",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "mbvEB6pLWNsZPOw",
+    "tripStageId": "D7ZZbWrzky3RbWC",
     "type": "total-loss",
     "value": "4922"
   },
   {
-    "id": "LdSJWV3KfiGNRqt",
+    "id": "v9ELDagXOXUK5Ur",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "mbvEB6pLWNsZPOw",
+    "tripStageId": "D7ZZbWrzky3RbWC",
     "type": "max-altitude",
     "value": "8998"
   },
   {
-    "id": "54LQZD7rwNEFOuG",
+    "id": "ZWHEg4OoyW16ZQ5",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "mbvEB6pLWNsZPOw",
+    "tripStageId": "D7ZZbWrzky3RbWC",
     "type": "min-altitude",
     "value": "6420"
   },
   {
-    "id": "QuEx2pXRhv31INg",
+    "id": "KZo7Ha4JOgmkn8x",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "rzjkjb5dbku6IWP",
+    "tripStageId": "FqRi4aSZsV9nEHZ",
     "type": "total-time",
     "value": {
       "hours": "7",
@@ -3745,44 +3745,44 @@ const data = [
     }
   },
   {
-    "id": "0Z6Pja2DOAMIMCt",
+    "id": "kWGWF2BG26DuP2N",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "rzjkjb5dbku6IWP",
+    "tripStageId": "FqRi4aSZsV9nEHZ",
     "type": "total-distance",
     "value": "10.36"
   },
   {
-    "id": "WwsqK0uR26vOyFZ",
+    "id": "a6Jh5XRgYTqb4tn",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "rzjkjb5dbku6IWP",
+    "tripStageId": "FqRi4aSZsV9nEHZ",
     "type": "total-gain",
     "value": "3523"
   },
   {
-    "id": "icA1bu7ynywWQWw",
+    "id": "271EysQ9rXmqAhi",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "rzjkjb5dbku6IWP",
+    "tripStageId": "FqRi4aSZsV9nEHZ",
     "type": "total-loss",
     "value": "3308"
   },
   {
-    "id": "ZnRxx6dCnzPVh76",
+    "id": "7Rx4UbvEPFQONTD",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "rzjkjb5dbku6IWP",
+    "tripStageId": "FqRi4aSZsV9nEHZ",
     "type": "max-altitude",
     "value": "6688"
   },
   {
-    "id": "tVgds8AjIacTCug",
+    "id": "U2wCokgHlU14H6F",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "rzjkjb5dbku6IWP",
+    "tripStageId": "FqRi4aSZsV9nEHZ",
     "type": "min-altitude",
     "value": "3863"
   },
   {
-    "id": "P5d2fV7teaE5G31",
+    "id": "cNwW40asMHJOOyR",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "dI1hVsT8EkeddYT",
+    "tripStageId": "uI2BwkmMI1Xexvq",
     "type": "total-time",
     "value": {
       "hours": "8",
@@ -3790,44 +3790,44 @@ const data = [
     }
   },
   {
-    "id": "l9O0FkIaUzghBxr",
+    "id": "2YS2B1ybgfCCCXY",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "dI1hVsT8EkeddYT",
+    "tripStageId": "uI2BwkmMI1Xexvq",
     "type": "total-distance",
     "value": "8.74"
   },
   {
-    "id": "0SyvvIpFka0xaSs",
+    "id": "WcG7oTP0M5uAv19",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "dI1hVsT8EkeddYT",
+    "tripStageId": "uI2BwkmMI1Xexvq",
     "type": "total-gain",
     "value": "4044"
   },
   {
-    "id": "2ohmGvXD4TVHKAD",
+    "id": "c7WtPklaAWBdGQD",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "dI1hVsT8EkeddYT",
+    "tripStageId": "uI2BwkmMI1Xexvq",
     "type": "total-loss",
     "value": "4415"
   },
   {
-    "id": "5beFJPgTKJGrJK8",
+    "id": "w7aTthmrQERhS7T",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "dI1hVsT8EkeddYT",
+    "tripStageId": "uI2BwkmMI1Xexvq",
     "type": "max-altitude",
     "value": "8687"
   },
   {
-    "id": "aiTBMKaVd6Qiyrr",
+    "id": "IzgonmHdfprPKmc",
     "tripId": "3XxhkdLe7pvjCfc",
-    "tripStageId": "dI1hVsT8EkeddYT",
+    "tripStageId": "uI2BwkmMI1Xexvq",
     "type": "min-altitude",
     "value": "4365"
   },
   {
-    "id": "Cc2NQjzaxOCVYwL",
+    "id": "z0mZWTIx53zMfce",
     "tripId": "Lsgt4mh2dQrdWrn",
-    "tripStageId": "bM45ehSFzKCIcR8",
+    "tripStageId": "HoOy2KcfSf1m20A",
     "type": "total-time",
     "value": {
       "hours": "9",
@@ -3835,44 +3835,44 @@ const data = [
     }
   },
   {
-    "id": "GYEkAWzlrF33IHo",
+    "id": "SAh7EcNdR19KSDS",
     "tripId": "Lsgt4mh2dQrdWrn",
-    "tripStageId": "bM45ehSFzKCIcR8",
+    "tripStageId": "HoOy2KcfSf1m20A",
     "type": "total-distance",
     "value": "4.54"
   },
   {
-    "id": "sk7amXEu7DnOLqR",
+    "id": "E0TOE7LlOHJal91",
     "tripId": "Lsgt4mh2dQrdWrn",
-    "tripStageId": "bM45ehSFzKCIcR8",
+    "tripStageId": "HoOy2KcfSf1m20A",
     "type": "total-gain",
     "value": "4405"
   },
   {
-    "id": "8PUb1xQeqCanBBE",
+    "id": "WUVEj4Bmkc5VpJd",
     "tripId": "Lsgt4mh2dQrdWrn",
-    "tripStageId": "bM45ehSFzKCIcR8",
+    "tripStageId": "HoOy2KcfSf1m20A",
     "type": "total-loss",
     "value": "2"
   },
   {
-    "id": "msoMw2d6w2sZDLt",
+    "id": "7K8L5t0AnJWzp2j",
     "tripId": "Lsgt4mh2dQrdWrn",
-    "tripStageId": "bM45ehSFzKCIcR8",
+    "tripStageId": "HoOy2KcfSf1m20A",
     "type": "max-altitude",
     "value": "14121"
   },
   {
-    "id": "B6Dl70Ho9bGSG9I",
+    "id": "oLeOBixMgTOZO2q",
     "tripId": "Lsgt4mh2dQrdWrn",
-    "tripStageId": "bM45ehSFzKCIcR8",
+    "tripStageId": "HoOy2KcfSf1m20A",
     "type": "min-altitude",
     "value": "9747"
   },
   {
-    "id": "emAqHszm1JkL1l4",
+    "id": "wlDa8XrJKnyXJpE",
     "tripId": "Lsgt4mh2dQrdWrn",
-    "tripStageId": "wQiqylRZ3ZMv7Sl",
+    "tripStageId": "exUx67ggBzteDZR",
     "type": "total-time",
     "value": {
       "hours": "6",
@@ -3880,44 +3880,44 @@ const data = [
     }
   },
   {
-    "id": "BYhpPzl1aiS7FZ6",
+    "id": "an3C6andRV8MHoS",
     "tripId": "Lsgt4mh2dQrdWrn",
-    "tripStageId": "wQiqylRZ3ZMv7Sl",
+    "tripStageId": "exUx67ggBzteDZR",
     "type": "total-distance",
     "value": "5.76"
   },
   {
-    "id": "2ex7RBbU14LcfF5",
+    "id": "69icJHxBn88vhYS",
     "tripId": "Lsgt4mh2dQrdWrn",
-    "tripStageId": "wQiqylRZ3ZMv7Sl",
+    "tripStageId": "exUx67ggBzteDZR",
     "type": "total-gain",
     "value": "3134"
   },
   {
-    "id": "AAqUi8qSfxjWzNt",
+    "id": "tOCUkLYnj1f1brb",
     "tripId": "Lsgt4mh2dQrdWrn",
-    "tripStageId": "wQiqylRZ3ZMv7Sl",
+    "tripStageId": "exUx67ggBzteDZR",
     "type": "total-loss",
     "value": "1741"
   },
   {
-    "id": "4R1XH6uhg1pbm5N",
+    "id": "Tt4SqoSalzwGoCZ",
     "tripId": "Lsgt4mh2dQrdWrn",
-    "tripStageId": "wQiqylRZ3ZMv7Sl",
+    "tripStageId": "exUx67ggBzteDZR",
     "type": "max-altitude",
     "value": "14282"
   },
   {
-    "id": "3rgjgoKchRR3bK4",
+    "id": "8V7zGFAhD07vA6c",
     "tripId": "Lsgt4mh2dQrdWrn",
-    "tripStageId": "wQiqylRZ3ZMv7Sl",
+    "tripStageId": "exUx67ggBzteDZR",
     "type": "min-altitude",
     "value": "12054"
   },
   {
-    "id": "N2UUKlRR4Pl94PI",
+    "id": "TIaK1m2pjOltXq0",
     "tripId": "2oThDjcm12S3Viu",
-    "tripStageId": "46aybnW5JgF5Cbg",
+    "tripStageId": "uVnlK9Te4HTW8Lz",
     "type": "total-time",
     "value": {
       "hours": "7",
@@ -3925,44 +3925,44 @@ const data = [
     }
   },
   {
-    "id": "G9EM70NdSqkPzc0",
+    "id": "b70yvGJvr41s1pv",
     "tripId": "2oThDjcm12S3Viu",
-    "tripStageId": "46aybnW5JgF5Cbg",
+    "tripStageId": "uVnlK9Te4HTW8Lz",
     "type": "total-distance",
     "value": "6.64"
   },
   {
-    "id": "B7f5QYz0Kt60DQb",
+    "id": "D21xAEGMtvPh65I",
     "tripId": "2oThDjcm12S3Viu",
-    "tripStageId": "46aybnW5JgF5Cbg",
+    "tripStageId": "uVnlK9Te4HTW8Lz",
     "type": "total-gain",
     "value": "4419"
   },
   {
-    "id": "LtiwMhGgkzHoM43",
+    "id": "DVczsbJLrcAXgmb",
     "tripId": "2oThDjcm12S3Viu",
-    "tripStageId": "46aybnW5JgF5Cbg",
+    "tripStageId": "uVnlK9Te4HTW8Lz",
     "type": "total-loss",
     "value": "123"
   },
   {
-    "id": "sNIkA08eE2ziFbu",
+    "id": "2fnPHAMYHzMvaHk",
     "tripId": "2oThDjcm12S3Viu",
-    "tripStageId": "46aybnW5JgF5Cbg",
+    "tripStageId": "uVnlK9Te4HTW8Lz",
     "type": "max-altitude",
     "value": "14367"
   },
   {
-    "id": "YGZdnhv3fY3Sb6F",
+    "id": "pzkJjeCo0uos0Uk",
     "tripId": "2oThDjcm12S3Viu",
-    "tripStageId": "46aybnW5JgF5Cbg",
+    "tripStageId": "uVnlK9Te4HTW8Lz",
     "type": "min-altitude",
     "value": "10060"
   },
   {
-    "id": "Ewn6hhxC8wyTeJ0",
+    "id": "0kzR5qWMtiJA7vu",
     "tripId": "2oThDjcm12S3Viu",
-    "tripStageId": "260QMqdcNNLXKMs",
+    "tripStageId": "gika66FtxFXZL7I",
     "type": "total-time",
     "value": {
       "hours": "8",
@@ -3970,89 +3970,44 @@ const data = [
     }
   },
   {
-    "id": "xmsQdiY1YsMzZZ8",
+    "id": "9xLzmrFNraQEL7o",
     "tripId": "2oThDjcm12S3Viu",
-    "tripStageId": "260QMqdcNNLXKMs",
+    "tripStageId": "gika66FtxFXZL7I",
     "type": "total-distance",
     "value": "4.26"
   },
   {
-    "id": "nOHmNdqHPykHmRP",
+    "id": "C6M9v7HemABVNAL",
     "tripId": "2oThDjcm12S3Viu",
-    "tripStageId": "260QMqdcNNLXKMs",
+    "tripStageId": "gika66FtxFXZL7I",
     "type": "total-gain",
     "value": "4474"
   },
   {
-    "id": "u413dlXHj9xPoNH",
+    "id": "zRE7fXi1u69eMQ1",
     "tripId": "2oThDjcm12S3Viu",
-    "tripStageId": "260QMqdcNNLXKMs",
+    "tripStageId": "gika66FtxFXZL7I",
     "type": "total-loss",
     "value": "0"
   },
   {
-    "id": "ILdCqngCfu3r43C",
+    "id": "21j9u0uU4oCX4DS",
     "tripId": "2oThDjcm12S3Viu",
-    "tripStageId": "260QMqdcNNLXKMs",
+    "tripStageId": "gika66FtxFXZL7I",
     "type": "max-altitude",
     "value": "14144"
   },
   {
-    "id": "ckoBAsZ7FNp4xFl",
+    "id": "GyYq99qLKJeOLmP",
     "tripId": "2oThDjcm12S3Viu",
-    "tripStageId": "260QMqdcNNLXKMs",
+    "tripStageId": "gika66FtxFXZL7I",
     "type": "min-altitude",
     "value": "9725"
   },
   {
-    "id": "R3XoZqSW5w3UgSV",
+    "id": "XioWlX5OXio5TpC",
     "tripId": "kMw47tqPsEgrI14",
-    "tripStageId": "UGVhlxouYzBOfQ6",
-    "type": "total-time",
-    "value": {
-      "hours": "04",
-      "minutes": "48"
-    }
-  },
-  {
-    "id": "pSkzUMlpYp2SFQi",
-    "tripId": "kMw47tqPsEgrI14",
-    "tripStageId": "UGVhlxouYzBOfQ6",
-    "type": "total-distance",
-    "value": "8.46"
-  },
-  {
-    "id": "Mxc0vNi6565ysPh",
-    "tripId": "kMw47tqPsEgrI14",
-    "tripStageId": "UGVhlxouYzBOfQ6",
-    "type": "total-gain",
-    "value": "653"
-  },
-  {
-    "id": "h0RkkBizVWftMe3",
-    "tripId": "kMw47tqPsEgrI14",
-    "tripStageId": "UGVhlxouYzBOfQ6",
-    "type": "total-loss",
-    "value": "562"
-  },
-  {
-    "id": "qagUcyJkYLYOAPR",
-    "tripId": "kMw47tqPsEgrI14",
-    "tripStageId": "UGVhlxouYzBOfQ6",
-    "type": "max-altitude",
-    "value": "1314"
-  },
-  {
-    "id": "NvaOBDgBqGCC2oV",
-    "tripId": "kMw47tqPsEgrI14",
-    "tripStageId": "UGVhlxouYzBOfQ6",
-    "type": "min-altitude",
-    "value": "1040"
-  },
-  {
-    "id": "lbDPBzP0aEkPkxM",
-    "tripId": "kMw47tqPsEgrI14",
-    "tripStageId": "E9FGPlu0r9ACusL",
+    "tripStageId": "CX8BWWsdv5xRJHT",
     "type": "total-time",
     "value": {
       "hours": "03",
@@ -4060,44 +4015,89 @@ const data = [
     }
   },
   {
-    "id": "AWlt4WbaFgsd3TB",
+    "id": "3i5jMvHuGxxQIUc",
     "tripId": "kMw47tqPsEgrI14",
-    "tripStageId": "E9FGPlu0r9ACusL",
+    "tripStageId": "CX8BWWsdv5xRJHT",
     "type": "total-distance",
     "value": "7.59"
   },
   {
-    "id": "7kW6rRHNZvilMqx",
+    "id": "qgnfBcpFiKDweQM",
     "tripId": "kMw47tqPsEgrI14",
-    "tripStageId": "E9FGPlu0r9ACusL",
+    "tripStageId": "CX8BWWsdv5xRJHT",
     "type": "total-gain",
     "value": "461"
   },
   {
-    "id": "FxHUw6ldIsJMeCT",
+    "id": "pggQxednhVz828o",
     "tripId": "kMw47tqPsEgrI14",
-    "tripStageId": "E9FGPlu0r9ACusL",
+    "tripStageId": "CX8BWWsdv5xRJHT",
     "type": "total-loss",
     "value": "643"
   },
   {
-    "id": "itgoYO7dcHf3qNi",
+    "id": "rKpx6tBwBpXCTXI",
     "tripId": "kMw47tqPsEgrI14",
-    "tripStageId": "E9FGPlu0r9ACusL",
+    "tripStageId": "CX8BWWsdv5xRJHT",
     "type": "max-altitude",
     "value": "1213"
   },
   {
-    "id": "QGyZ7NjAuJJaPdu",
+    "id": "HCZOXVmkZnO4Tvn",
     "tripId": "kMw47tqPsEgrI14",
-    "tripStageId": "E9FGPlu0r9ACusL",
+    "tripStageId": "CX8BWWsdv5xRJHT",
     "type": "min-altitude",
     "value": "972"
   },
   {
-    "id": "VbOQU5fG2Yumsu1",
+    "id": "xHh04MH3tEfTMEl",
     "tripId": "kMw47tqPsEgrI14",
-    "tripStageId": "7eQ96hlx4a9299v",
+    "tripStageId": "55d2xvSizAOSZAm",
+    "type": "total-time",
+    "value": {
+      "hours": "04",
+      "minutes": "48"
+    }
+  },
+  {
+    "id": "NbYeonhG5tXbg6q",
+    "tripId": "kMw47tqPsEgrI14",
+    "tripStageId": "55d2xvSizAOSZAm",
+    "type": "total-distance",
+    "value": "8.46"
+  },
+  {
+    "id": "sbchamI08jZFdB3",
+    "tripId": "kMw47tqPsEgrI14",
+    "tripStageId": "55d2xvSizAOSZAm",
+    "type": "total-gain",
+    "value": "653"
+  },
+  {
+    "id": "ml5ztJ265duxe8G",
+    "tripId": "kMw47tqPsEgrI14",
+    "tripStageId": "55d2xvSizAOSZAm",
+    "type": "total-loss",
+    "value": "562"
+  },
+  {
+    "id": "FZQvIo4Ko0XDUVq",
+    "tripId": "kMw47tqPsEgrI14",
+    "tripStageId": "55d2xvSizAOSZAm",
+    "type": "max-altitude",
+    "value": "1314"
+  },
+  {
+    "id": "oBBzWU91kBxZOa3",
+    "tripId": "kMw47tqPsEgrI14",
+    "tripStageId": "55d2xvSizAOSZAm",
+    "type": "min-altitude",
+    "value": "1040"
+  },
+  {
+    "id": "OeD4On3xgKk4QHD",
+    "tripId": "kMw47tqPsEgrI14",
+    "tripStageId": "RFbe62A92MDuL3F",
     "type": "total-time",
     "value": {
       "hours": "04",
@@ -4105,44 +4105,44 @@ const data = [
     }
   },
   {
-    "id": "JTmDL0ty7WkA9Qn",
+    "id": "dlULIprjWVS3lm3",
     "tripId": "kMw47tqPsEgrI14",
-    "tripStageId": "7eQ96hlx4a9299v",
+    "tripStageId": "RFbe62A92MDuL3F",
     "type": "total-distance",
     "value": "11.37"
   },
   {
-    "id": "xUt5KVSZbVHThwu",
+    "id": "zmuDsKL731SZwwT",
     "tripId": "kMw47tqPsEgrI14",
-    "tripStageId": "7eQ96hlx4a9299v",
+    "tripStageId": "RFbe62A92MDuL3F",
     "type": "total-gain",
     "value": "905"
   },
   {
-    "id": "BujlLOVKogtNPaB",
+    "id": "9mbhNTo5NIhWkYv",
     "tripId": "kMw47tqPsEgrI14",
-    "tripStageId": "7eQ96hlx4a9299v",
+    "tripStageId": "RFbe62A92MDuL3F",
     "type": "total-loss",
     "value": "839"
   },
   {
-    "id": "ioGJTWOG0b17s5b",
+    "id": "bpBTGXfMXPhs7bl",
     "tripId": "kMw47tqPsEgrI14",
-    "tripStageId": "7eQ96hlx4a9299v",
+    "tripStageId": "RFbe62A92MDuL3F",
     "type": "max-altitude",
     "value": "1051"
   },
   {
-    "id": "0YLbaaSHqZBz9lT",
+    "id": "P0v0VJVi3PYA6WD",
     "tripId": "kMw47tqPsEgrI14",
-    "tripStageId": "7eQ96hlx4a9299v",
+    "tripStageId": "RFbe62A92MDuL3F",
     "type": "min-altitude",
     "value": "855"
   },
   {
-    "id": "udYWzUwAH3o2yn0",
+    "id": "IIoMNvTHjjfAZ8L",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "C6eqHuDj3eMBrYP",
+    "tripStageId": "rM4M0Dh8is6lAQR",
     "type": "total-time",
     "value": {
       "hours": "3",
@@ -4150,44 +4150,44 @@ const data = [
     }
   },
   {
-    "id": "DKV9GY01nluByu6",
+    "id": "qUv58KNgY6P4gBl",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "C6eqHuDj3eMBrYP",
+    "tripStageId": "rM4M0Dh8is6lAQR",
     "type": "total-distance",
     "value": "5.67"
   },
   {
-    "id": "NN4B4t44JwPe0xR",
+    "id": "BSNnyYiTVeLpLQO",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "C6eqHuDj3eMBrYP",
+    "tripStageId": "rM4M0Dh8is6lAQR",
     "type": "total-gain",
     "value": "3388"
   },
   {
-    "id": "rZAf5LT79qhis53",
+    "id": "q7TdLX8BG32qJ9G",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "C6eqHuDj3eMBrYP",
+    "tripStageId": "rM4M0Dh8is6lAQR",
     "type": "total-loss",
     "value": "1812"
   },
   {
-    "id": "04KQmdGSKs8gOud",
+    "id": "F2KaYr70HatYrLI",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "C6eqHuDj3eMBrYP",
+    "tripStageId": "rM4M0Dh8is6lAQR",
     "type": "max-altitude",
     "value": "7749"
   },
   {
-    "id": "O6ORNeuM87osXAX",
+    "id": "mpWymdy1vLY1Qtl",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "C6eqHuDj3eMBrYP",
+    "tripStageId": "rM4M0Dh8is6lAQR",
     "type": "min-altitude",
     "value": "4628"
   },
   {
-    "id": "QbTDStUpeitQBQc",
+    "id": "wqykQTUDxSiT9l3",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "Gq1UuMlqFZvXwrF",
+    "tripStageId": "Sux9gbY7V93P7NO",
     "type": "total-time",
     "value": {
       "hours": "4",
@@ -4195,44 +4195,44 @@ const data = [
     }
   },
   {
-    "id": "VHXlvYbhwTbmEOU",
+    "id": "dzBEEznjQPt4Lev",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "Gq1UuMlqFZvXwrF",
+    "tripStageId": "Sux9gbY7V93P7NO",
     "type": "total-distance",
     "value": "10"
   },
   {
-    "id": "jXhiGR7J7Wuh4m9",
+    "id": "qvOgyQ3gItuBoJq",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "Gq1UuMlqFZvXwrF",
+    "tripStageId": "Sux9gbY7V93P7NO",
     "type": "total-gain",
     "value": "1988"
   },
   {
-    "id": "o6L1TFlDZnb0Rer",
+    "id": "HkY2YIQBcB8wwuN",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "Gq1UuMlqFZvXwrF",
+    "tripStageId": "Sux9gbY7V93P7NO",
     "type": "total-loss",
     "value": "2364"
   },
   {
-    "id": "M8KSxhJMPR83fyz",
+    "id": "dmIdxIIiHlulkoW",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "Gq1UuMlqFZvXwrF",
+    "tripStageId": "Sux9gbY7V93P7NO",
     "type": "max-altitude",
     "value": "5278"
   },
   {
-    "id": "Z7jo6fiEb0DXKEG",
+    "id": "toZkXCJuzhfaVG6",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "Gq1UuMlqFZvXwrF",
+    "tripStageId": "Sux9gbY7V93P7NO",
     "type": "min-altitude",
     "value": "3465"
   },
   {
-    "id": "ssTPNkDGk5cO492",
+    "id": "kt9fMhHBd8uH5nD",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "lkP3ClptQATlcJd",
+    "tripStageId": "Sv9ErLjW2v97uiF",
     "type": "total-time",
     "value": {
       "hours": "4",
@@ -4240,44 +4240,44 @@ const data = [
     }
   },
   {
-    "id": "yGVUoElulXUjG0S",
+    "id": "1KvKn8ipAvb96UK",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "lkP3ClptQATlcJd",
+    "tripStageId": "Sv9ErLjW2v97uiF",
     "type": "total-distance",
     "value": "7.91"
   },
   {
-    "id": "sD1pR8cZ1gjGSZ5",
+    "id": "pEE93oMM93GNQz5",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "lkP3ClptQATlcJd",
+    "tripStageId": "Sv9ErLjW2v97uiF",
     "type": "total-gain",
     "value": "2669"
   },
   {
-    "id": "9sweTJu3E6qo0su",
+    "id": "rh6AdMk4uRdoHcz",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "lkP3ClptQATlcJd",
+    "tripStageId": "Sv9ErLjW2v97uiF",
     "type": "total-loss",
     "value": "2405"
   },
   {
-    "id": "4HKqHIKMh3sBppt",
+    "id": "gLPZouv9xm3Hlxi",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "lkP3ClptQATlcJd",
+    "tripStageId": "Sv9ErLjW2v97uiF",
     "type": "max-altitude",
     "value": "6738"
   },
   {
-    "id": "x5m78KTeCt26ASk",
+    "id": "iVRdO106RPttrBU",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "lkP3ClptQATlcJd",
+    "tripStageId": "Sv9ErLjW2v97uiF",
     "type": "min-altitude",
     "value": "4357"
   },
   {
-    "id": "ZXrwJvsMlIuF4lH",
+    "id": "k2LOWHHN1n8Di4N",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "uoeDov4Zrre572b",
+    "tripStageId": "E7U66LnwTlwI3ZW",
     "type": "total-time",
     "value": {
       "hours": "7",
@@ -4285,44 +4285,89 @@ const data = [
     }
   },
   {
-    "id": "usNkmrjcc1kakTW",
+    "id": "xnnAzUD2TlhNsii",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "uoeDov4Zrre572b",
+    "tripStageId": "E7U66LnwTlwI3ZW",
     "type": "total-distance",
     "value": "10.09"
   },
   {
-    "id": "IcCGqwfxhQdp33U",
+    "id": "iDYoaBaHtnvCXEE",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "uoeDov4Zrre572b",
+    "tripStageId": "E7U66LnwTlwI3ZW",
     "type": "total-gain",
     "value": "4781"
   },
   {
-    "id": "q38nCUtM2Cb5Lw0",
+    "id": "xMI7cgmZKj7Ikwa",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "uoeDov4Zrre572b",
+    "tripStageId": "E7U66LnwTlwI3ZW",
     "type": "total-loss",
     "value": "2440"
   },
   {
-    "id": "x1LbNq0JKb5m8iD",
+    "id": "8OaD1EgrucwHmHk",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "uoeDov4Zrre572b",
+    "tripStageId": "E7U66LnwTlwI3ZW",
     "type": "max-altitude",
     "value": "6964"
   },
   {
-    "id": "ECfsIgbqLPebpW6",
+    "id": "qqA1LGHuId8QgTX",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "uoeDov4Zrre572b",
+    "tripStageId": "E7U66LnwTlwI3ZW",
     "type": "min-altitude",
     "value": "3304"
   },
   {
-    "id": "lmuYcxe7X7D5Soh",
+    "id": "KORkyMkhslqY3fB",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "VIUFNnkPrpnaXgO",
+    "tripStageId": "fEFuYiP0PBFsHjx",
+    "type": "total-time",
+    "value": {
+      "hours": "6",
+      "minutes": "38"
+    }
+  },
+  {
+    "id": "yAAhqmRV2MlDS4L",
+    "tripId": "pvSEvH3A7Ysnvsf",
+    "tripStageId": "fEFuYiP0PBFsHjx",
+    "type": "total-distance",
+    "value": "9.57"
+  },
+  {
+    "id": "v8bu12mgJJhoR3x",
+    "tripId": "pvSEvH3A7Ysnvsf",
+    "tripStageId": "fEFuYiP0PBFsHjx",
+    "type": "total-gain",
+    "value": "3988"
+  },
+  {
+    "id": "hG7l2G7WqyPxfbP",
+    "tripId": "pvSEvH3A7Ysnvsf",
+    "tripStageId": "fEFuYiP0PBFsHjx",
+    "type": "total-loss",
+    "value": "3046"
+  },
+  {
+    "id": "LbxwLrDFYRxxxDr",
+    "tripId": "pvSEvH3A7Ysnvsf",
+    "tripStageId": "fEFuYiP0PBFsHjx",
+    "type": "max-altitude",
+    "value": "8919"
+  },
+  {
+    "id": "WN2KYDXtVQIjpvT",
+    "tripId": "pvSEvH3A7Ysnvsf",
+    "tripStageId": "fEFuYiP0PBFsHjx",
+    "type": "min-altitude",
+    "value": "5878"
+  },
+  {
+    "id": "lXLvko9U5lZAy1V",
+    "tripId": "pvSEvH3A7Ysnvsf",
+    "tripStageId": "AAF0Ic8iF3K72tW",
     "type": "total-time",
     "value": {
       "hours": "6",
@@ -4330,89 +4375,44 @@ const data = [
     }
   },
   {
-    "id": "5yuW8ppOTxg84bI",
+    "id": "9GE9IQmKCMum5EW",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "VIUFNnkPrpnaXgO",
+    "tripStageId": "AAF0Ic8iF3K72tW",
     "type": "total-distance",
     "value": "11.46"
   },
   {
-    "id": "ekLb1sW5mlGnuCR",
+    "id": "ajnsMXphJmYYVkG",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "VIUFNnkPrpnaXgO",
+    "tripStageId": "AAF0Ic8iF3K72tW",
     "type": "total-gain",
     "value": "4455"
   },
   {
-    "id": "JP4XIdecCbiHvab",
+    "id": "zY2QQv3hy36BrWb",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "VIUFNnkPrpnaXgO",
+    "tripStageId": "AAF0Ic8iF3K72tW",
     "type": "total-loss",
     "value": "2015"
   },
   {
-    "id": "tefc3pnhXuWdZBK",
+    "id": "a78T5uChk7zVu0m",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "VIUFNnkPrpnaXgO",
+    "tripStageId": "AAF0Ic8iF3K72tW",
     "type": "max-altitude",
     "value": "8184"
   },
   {
-    "id": "aiHn46uH1ew3j4r",
+    "id": "hXD8qtjJK0OpPOs",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "VIUFNnkPrpnaXgO",
+    "tripStageId": "AAF0Ic8iF3K72tW",
     "type": "min-altitude",
     "value": "3818"
   },
   {
-    "id": "fERZMkdChYogfIr",
+    "id": "ygyigWM0oOExdWo",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "76xNrrx1ZTwZgXY",
-    "type": "total-time",
-    "value": {
-      "hours": "6",
-      "minutes": "38"
-    }
-  },
-  {
-    "id": "xfhDHC5rT2HBVio",
-    "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "76xNrrx1ZTwZgXY",
-    "type": "total-distance",
-    "value": "9.57"
-  },
-  {
-    "id": "zbVxbPlKKs5Iiem",
-    "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "76xNrrx1ZTwZgXY",
-    "type": "total-gain",
-    "value": "3988"
-  },
-  {
-    "id": "h9oO37TstTvrNKG",
-    "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "76xNrrx1ZTwZgXY",
-    "type": "total-loss",
-    "value": "3046"
-  },
-  {
-    "id": "DMgrARUlQiSvskF",
-    "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "76xNrrx1ZTwZgXY",
-    "type": "max-altitude",
-    "value": "8919"
-  },
-  {
-    "id": "O5TEGuCoG1bcSYk",
-    "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "76xNrrx1ZTwZgXY",
-    "type": "min-altitude",
-    "value": "5878"
-  },
-  {
-    "id": "oHkH9xjKzQbrI1s",
-    "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "437764S5NgQy9U2",
+    "tripStageId": "LEBGqvpf0M9EsTd",
     "type": "total-time",
     "value": {
       "hours": "6",
@@ -4420,44 +4420,44 @@ const data = [
     }
   },
   {
-    "id": "YtTKuZTFugg8Eel",
+    "id": "KfMyGw7ZO9RoRGg",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "437764S5NgQy9U2",
+    "tripStageId": "LEBGqvpf0M9EsTd",
     "type": "total-distance",
     "value": "11.2"
   },
   {
-    "id": "QpgG0XJkx6UuqxB",
+    "id": "2g6WW9xhxUFB0ZX",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "437764S5NgQy9U2",
+    "tripStageId": "LEBGqvpf0M9EsTd",
     "type": "total-gain",
     "value": "3587"
   },
   {
-    "id": "t9wWlDSNn3B2yaT",
+    "id": "E78qGWRYbppwS2j",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "437764S5NgQy9U2",
+    "tripStageId": "LEBGqvpf0M9EsTd",
     "type": "total-loss",
     "value": "3446"
   },
   {
-    "id": "3BqyPvqyB1VmSn0",
+    "id": "zFHBg8Ag7DFxHXZ",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "437764S5NgQy9U2",
+    "tripStageId": "LEBGqvpf0M9EsTd",
     "type": "max-altitude",
     "value": "6677"
   },
   {
-    "id": "ZCooAQq75wJH2GT",
+    "id": "gjhZoZ7FXuym3qn",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "437764S5NgQy9U2",
+    "tripStageId": "LEBGqvpf0M9EsTd",
     "type": "min-altitude",
     "value": "3949"
   },
   {
-    "id": "AjUYTIYBCzAEwi8",
+    "id": "euLucz1qMtP2Q5u",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "H8WitGFapg6Sz1W",
+    "tripStageId": "VbHZ46N7Z5od6Yo",
     "type": "total-time",
     "value": {
       "hours": "6",
@@ -4465,44 +4465,44 @@ const data = [
     }
   },
   {
-    "id": "ul2ermAGmcEUpbD",
+    "id": "pOx4SKvFzb1OSNP",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "H8WitGFapg6Sz1W",
+    "tripStageId": "VbHZ46N7Z5od6Yo",
     "type": "total-distance",
     "value": "13.02"
   },
   {
-    "id": "tBvA30gcoNusdo1",
+    "id": "wF5Rf4TzDvJGxoe",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "H8WitGFapg6Sz1W",
+    "tripStageId": "VbHZ46N7Z5od6Yo",
     "type": "total-gain",
     "value": "3141"
   },
   {
-    "id": "gG4fOaWO21pS8mr",
+    "id": "un1dZIRSKqfuUiX",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "H8WitGFapg6Sz1W",
+    "tripStageId": "VbHZ46N7Z5od6Yo",
     "type": "total-loss",
     "value": "4471"
   },
   {
-    "id": "OBIR6yiuUUZSFzS",
+    "id": "rOF6SBrqSk4BVn0",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "H8WitGFapg6Sz1W",
+    "tripStageId": "VbHZ46N7Z5od6Yo",
     "type": "max-altitude",
     "value": "8327"
   },
   {
-    "id": "5U29eOMDAxVCkWN",
+    "id": "JzAie2ODJOFPYrN",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "H8WitGFapg6Sz1W",
+    "tripStageId": "VbHZ46N7Z5od6Yo",
     "type": "min-altitude",
     "value": "5319"
   },
   {
-    "id": "1zrgTxbGUzhs5Vq",
+    "id": "QMmqqE9pzgI51b6",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "PcS95oYWCjkxlqq",
+    "tripStageId": "Ybk8K48Rl2U5mW6",
     "type": "total-time",
     "value": {
       "hours": "5",
@@ -4510,44 +4510,44 @@ const data = [
     }
   },
   {
-    "id": "zeGDPpGbFfjXkdZ",
+    "id": "0SyFMhb98DOLWeu",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "PcS95oYWCjkxlqq",
+    "tripStageId": "Ybk8K48Rl2U5mW6",
     "type": "total-distance",
     "value": "9.72"
   },
   {
-    "id": "0oCGmmsx4k23ERK",
+    "id": "RVqxgojOmTeZfX0",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "PcS95oYWCjkxlqq",
+    "tripStageId": "Ybk8K48Rl2U5mW6",
     "type": "total-gain",
     "value": "3672"
   },
   {
-    "id": "drjB72gXCGPm5qW",
+    "id": "jSWOf219ZMwxFhn",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "PcS95oYWCjkxlqq",
+    "tripStageId": "Ybk8K48Rl2U5mW6",
     "type": "total-loss",
     "value": "4054"
   },
   {
-    "id": "mh79BwtrMZt9OIs",
+    "id": "gKzlZ1yGwEt3VAU",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "PcS95oYWCjkxlqq",
+    "tripStageId": "Ybk8K48Rl2U5mW6",
     "type": "max-altitude",
     "value": "7271"
   },
   {
-    "id": "cjMNMIIyWSUJ5Wn",
+    "id": "vTffRH2mEmlV0CA",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "PcS95oYWCjkxlqq",
+    "tripStageId": "Ybk8K48Rl2U5mW6",
     "type": "min-altitude",
     "value": "4362"
   },
   {
-    "id": "GPd0WFfydZjIcfB",
+    "id": "xpqpCoorbCcUHcu",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "ky2llg0w3ADObLF",
+    "tripStageId": "QJy9aSqWcdeBMev",
     "type": "total-time",
     "value": {
       "hours": "6",
@@ -4555,44 +4555,44 @@ const data = [
     }
   },
   {
-    "id": "Qlgr74CciXemgpu",
+    "id": "R4gVvMg0kVnzpqe",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "ky2llg0w3ADObLF",
+    "tripStageId": "QJy9aSqWcdeBMev",
     "type": "total-distance",
     "value": "11.65"
   },
   {
-    "id": "krDuhxYHLc1uPpc",
+    "id": "Wf334vI7NTLtyC1",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "ky2llg0w3ADObLF",
+    "tripStageId": "QJy9aSqWcdeBMev",
     "type": "total-gain",
     "value": "2899"
   },
   {
-    "id": "YkzkbnL1hzy19y2",
+    "id": "lsm9Nf8KrCufWle",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "ky2llg0w3ADObLF",
+    "tripStageId": "QJy9aSqWcdeBMev",
     "type": "total-loss",
     "value": "5759"
   },
   {
-    "id": "worLPCfiQrtUbpE",
+    "id": "OreF5hgF9JEUyGT",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "ky2llg0w3ADObLF",
+    "tripStageId": "QJy9aSqWcdeBMev",
     "type": "max-altitude",
     "value": "8294"
   },
   {
-    "id": "L4TyrI9moR2Pm6j",
+    "id": "RiYqcGTSgxE30Ub",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "ky2llg0w3ADObLF",
+    "tripStageId": "QJy9aSqWcdeBMev",
     "type": "min-altitude",
     "value": "3269"
   },
   {
-    "id": "b1NPAtGmhbw9mf7",
+    "id": "YZAtgW1zFmuVfby",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "hnQDLoe2qtK8QMW",
+    "tripStageId": "jaYj8IZTKK9fvup",
     "type": "total-time",
     "value": {
       "hours": "8",
@@ -4600,44 +4600,44 @@ const data = [
     }
   },
   {
-    "id": "IYuWFKUYNtMaI0Z",
+    "id": "Ri8P5g3QzMAFO0e",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "hnQDLoe2qtK8QMW",
+    "tripStageId": "jaYj8IZTKK9fvup",
     "type": "total-distance",
     "value": "15.92"
   },
   {
-    "id": "UIOxV9MfVQ5YW8V",
+    "id": "YsonvnScbe1hE9g",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "hnQDLoe2qtK8QMW",
+    "tripStageId": "jaYj8IZTKK9fvup",
     "type": "total-gain",
     "value": "3919"
   },
   {
-    "id": "kAYazvXOUNHhJHu",
+    "id": "DYS3QX44roWZTcw",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "hnQDLoe2qtK8QMW",
+    "tripStageId": "jaYj8IZTKK9fvup",
     "type": "total-loss",
     "value": "6461"
   },
   {
-    "id": "dRaeU4qn640K5Mi",
+    "id": "ygamzNoDAekPP4f",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "hnQDLoe2qtK8QMW",
+    "tripStageId": "jaYj8IZTKK9fvup",
     "type": "max-altitude",
     "value": "8960"
   },
   {
-    "id": "vtCDhZbG30MK4Sl",
+    "id": "MNoeWTcKo0kZFX5",
     "tripId": "pvSEvH3A7Ysnvsf",
-    "tripStageId": "hnQDLoe2qtK8QMW",
+    "tripStageId": "jaYj8IZTKK9fvup",
     "type": "min-altitude",
     "value": "6162"
   },
   {
-    "id": "2zVpHpczqtsCVuo",
+    "id": "lJB8ieiZbBP6ozu",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "YCTFNmzCk1c2VU9",
+    "tripStageId": "OnjhQADUJgYWoL2",
     "type": "total-time",
     "value": {
       "hours": "4",
@@ -4645,44 +4645,44 @@ const data = [
     }
   },
   {
-    "id": "dbHQRU5L8HRVT4i",
+    "id": "LyvJcv2tgWyVeXc",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "YCTFNmzCk1c2VU9",
+    "tripStageId": "OnjhQADUJgYWoL2",
     "type": "total-distance",
     "value": "10.8"
   },
   {
-    "id": "k1YCGkW35uZu6Qm",
+    "id": "1VHo7o1JW4Vj0Rm",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "YCTFNmzCk1c2VU9",
+    "tripStageId": "OnjhQADUJgYWoL2",
     "type": "total-gain",
     "value": "671"
   },
   {
-    "id": "5qoBPZbKbDe4i55",
+    "id": "vp1F2GYi97D0RQa",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "YCTFNmzCk1c2VU9",
+    "tripStageId": "OnjhQADUJgYWoL2",
     "type": "total-loss",
     "value": "723"
   },
   {
-    "id": "HclJ9DZ1xIKv0zz",
+    "id": "JDRuyVInwTKyvnR",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "YCTFNmzCk1c2VU9",
+    "tripStageId": "OnjhQADUJgYWoL2",
     "type": "max-altitude",
     "value": "469"
   },
   {
-    "id": "kAKS9wH7oS8PrRB",
+    "id": "mBxlSvmVtkRw8zK",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "YCTFNmzCk1c2VU9",
+    "tripStageId": "OnjhQADUJgYWoL2",
     "type": "min-altitude",
     "value": "76"
   },
   {
-    "id": "1DSRbfAsyqw9NB2",
+    "id": "uMhJFxPfxzdTggn",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "XR7wfOFOBoQuzee",
+    "tripStageId": "3AWs5fCo8DL3HX2",
     "type": "total-time",
     "value": {
       "hours": "5",
@@ -4690,44 +4690,44 @@ const data = [
     }
   },
   {
-    "id": "yUlf7UxavHFXnyF",
+    "id": "DRKFBqsDx0jj8eE",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "XR7wfOFOBoQuzee",
+    "tripStageId": "3AWs5fCo8DL3HX2",
     "type": "total-distance",
     "value": "13.2"
   },
   {
-    "id": "gB85XE9Lk62FbJ5",
+    "id": "vSdPITLHeoEOZVY",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "XR7wfOFOBoQuzee",
+    "tripStageId": "3AWs5fCo8DL3HX2",
     "type": "total-gain",
     "value": "2121"
   },
   {
-    "id": "GH6Vzablb59bzzH",
+    "id": "XHTCiPpM6Wpy4Sg",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "XR7wfOFOBoQuzee",
+    "tripStageId": "3AWs5fCo8DL3HX2",
     "type": "total-loss",
     "value": "2199"
   },
   {
-    "id": "lLMCzPBOOnjm1cw",
+    "id": "2jqPPAUuP4w2uVz",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "XR7wfOFOBoQuzee",
+    "tripStageId": "3AWs5fCo8DL3HX2",
     "type": "max-altitude",
     "value": "1165"
   },
   {
-    "id": "36ZaFu2JenhhJYs",
+    "id": "VbyqcxLxglXdIIH",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "XR7wfOFOBoQuzee",
+    "tripStageId": "3AWs5fCo8DL3HX2",
     "type": "min-altitude",
     "value": "35"
   },
   {
-    "id": "mDCvzBQ5oDKNlHk",
+    "id": "WBeYKlALH4Ln2Uq",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "OGjo0aoQcFNA10W",
+    "tripStageId": "8PievzjG3JpGFkg",
     "type": "total-time",
     "value": {
       "hours": "5",
@@ -4735,44 +4735,44 @@ const data = [
     }
   },
   {
-    "id": "ny52iKwzOr94teM",
+    "id": "aNaPYw9aBCaQUtQ",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "OGjo0aoQcFNA10W",
+    "tripStageId": "8PievzjG3JpGFkg",
     "type": "total-distance",
     "value": "15.9"
   },
   {
-    "id": "ACYwP7a8bFjky7h",
+    "id": "h3DSZwYPWvIUzrx",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "OGjo0aoQcFNA10W",
+    "tripStageId": "8PievzjG3JpGFkg",
     "type": "total-gain",
     "value": "2514"
   },
   {
-    "id": "1VzzXfMT4MEKAS3",
+    "id": "SdBqVynhbYAnIid",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "OGjo0aoQcFNA10W",
+    "tripStageId": "8PievzjG3JpGFkg",
     "type": "total-loss",
     "value": "2505"
   },
   {
-    "id": "sSPfd2q5HGSgyOX",
+    "id": "dJfi8ZpZG66MfRJ",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "OGjo0aoQcFNA10W",
+    "tripStageId": "8PievzjG3JpGFkg",
     "type": "max-altitude",
     "value": "1091"
   },
   {
-    "id": "WxrkzKLHTkGpAiR",
+    "id": "Zk2jnKkkEeYdO68",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "OGjo0aoQcFNA10W",
+    "tripStageId": "8PievzjG3JpGFkg",
     "type": "min-altitude",
     "value": "35"
   },
   {
-    "id": "JXtR22od2ewLFcb",
+    "id": "6cAq1dnGjVnikho",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "F3WpBTvMNCyHuVj",
+    "tripStageId": "pBzaHsGLNaXKfkJ",
     "type": "total-time",
     "value": {
       "hours": "7",
@@ -4780,44 +4780,44 @@ const data = [
     }
   },
   {
-    "id": "8jIoEakdDMLhrRc",
+    "id": "thFDyvpkrwWyTA2",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "F3WpBTvMNCyHuVj",
+    "tripStageId": "pBzaHsGLNaXKfkJ",
     "type": "total-distance",
     "value": "17.4"
   },
   {
-    "id": "Pztjb2BZHwoKRMO",
+    "id": "a4jbqQMfah0ngWR",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "F3WpBTvMNCyHuVj",
+    "tripStageId": "pBzaHsGLNaXKfkJ",
     "type": "total-gain",
     "value": "2926"
   },
   {
-    "id": "xlnuRR3vsRHBPa8",
+    "id": "AoVpgfHxQHhTfq4",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "F3WpBTvMNCyHuVj",
+    "tripStageId": "pBzaHsGLNaXKfkJ",
     "type": "total-loss",
     "value": "2880"
   },
   {
-    "id": "DmAWNlEJz3HhTbn",
+    "id": "wxXhuOhPhlFMAJU",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "F3WpBTvMNCyHuVj",
+    "tripStageId": "pBzaHsGLNaXKfkJ",
     "type": "max-altitude",
     "value": "367"
   },
   {
-    "id": "E1keJTtCLgtD53Y",
+    "id": "LkNe18A1fh20XPN",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "F3WpBTvMNCyHuVj",
+    "tripStageId": "pBzaHsGLNaXKfkJ",
     "type": "min-altitude",
     "value": "52"
   },
   {
-    "id": "ErrJ7T031PHMI5r",
+    "id": "ve8yjkFr5oDRgCS",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "XWPGrmgR5t4IDMZ",
+    "tripStageId": "K7XlHMd7OQUebab",
     "type": "total-time",
     "value": {
       "hours": "7",
@@ -4825,44 +4825,44 @@ const data = [
     }
   },
   {
-    "id": "ARGIqI0qeGo4FMq",
+    "id": "xnPLyIqthd5uMzb",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "XWPGrmgR5t4IDMZ",
+    "tripStageId": "K7XlHMd7OQUebab",
     "type": "total-distance",
     "value": "19.3"
   },
   {
-    "id": "PU5r13EdDNuSK2z",
+    "id": "ryNBBqSgdq6a7Dg",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "XWPGrmgR5t4IDMZ",
+    "tripStageId": "K7XlHMd7OQUebab",
     "type": "total-gain",
     "value": "2775"
   },
   {
-    "id": "wljgKvXMefsDDq6",
+    "id": "sdN8pI5bBZ5wv6G",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "XWPGrmgR5t4IDMZ",
+    "tripStageId": "K7XlHMd7OQUebab",
     "type": "total-loss",
     "value": "2298"
   },
   {
-    "id": "pwWgInCdyHjhtnr",
+    "id": "g4ozucysm61WfdT",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "XWPGrmgR5t4IDMZ",
+    "tripStageId": "K7XlHMd7OQUebab",
     "type": "max-altitude",
     "value": "1101"
   },
   {
-    "id": "zUEw3nGCIGXU7ee",
+    "id": "fx5J9KZFns22AIf",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "XWPGrmgR5t4IDMZ",
+    "tripStageId": "K7XlHMd7OQUebab",
     "type": "min-altitude",
     "value": "60"
   },
   {
-    "id": "qWTC7bBqVdqkpqu",
+    "id": "5V2YZbx5S0ZFa7i",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "hlMUUfzMtgR4B7E",
+    "tripStageId": "vOUd7tolPthDeQ6",
     "type": "total-time",
     "value": {
       "hours": "7",
@@ -4870,44 +4870,44 @@ const data = [
     }
   },
   {
-    "id": "byuirgscJGltfws",
+    "id": "Hf9Ie6V12k7st5y",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "hlMUUfzMtgR4B7E",
+    "tripStageId": "vOUd7tolPthDeQ6",
     "type": "total-distance",
     "value": "21.3"
   },
   {
-    "id": "2CDFNL6DyLXPHoL",
+    "id": "pPZY2OLfzWyDSN3",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "hlMUUfzMtgR4B7E",
+    "tripStageId": "vOUd7tolPthDeQ6",
     "type": "total-gain",
     "value": "3335"
   },
   {
-    "id": "kNRyhkUirK3Ru9I",
+    "id": "7HLBvi3xMnpfaUV",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "hlMUUfzMtgR4B7E",
+    "tripStageId": "vOUd7tolPthDeQ6",
     "type": "total-loss",
     "value": "3826"
   },
   {
-    "id": "vUwGQjl9jnzEcMv",
+    "id": "pw2yCiXu7e9b991",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "hlMUUfzMtgR4B7E",
+    "tripStageId": "vOUd7tolPthDeQ6",
     "type": "max-altitude",
     "value": "1805"
   },
   {
-    "id": "fVdZazXZFXoj31q",
+    "id": "wvjVcnaixI5xbqF",
     "tripId": "OfpW2rt8VHawxvu",
-    "tripStageId": "hlMUUfzMtgR4B7E",
+    "tripStageId": "vOUd7tolPthDeQ6",
     "type": "min-altitude",
     "value": "20"
   },
   {
-    "id": "qLRDuktpFm8WIX4",
+    "id": "IEAvmg5rDisN2ph",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "qlURBb4FG8EZjda",
+    "tripStageId": "LNq8tsMwLbJl6aF",
     "type": "total-time",
     "value": {
       "hours": "5",
@@ -4915,44 +4915,44 @@ const data = [
     }
   },
   {
-    "id": "aOcGVefy1pJkI3e",
+    "id": "rU1XiSPRGcmE2cY",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "qlURBb4FG8EZjda",
+    "tripStageId": "LNq8tsMwLbJl6aF",
     "type": "total-distance",
     "value": "7.73"
   },
   {
-    "id": "T5r92aCcmmGPutC",
+    "id": "HwHp0eynjH1zWJi",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "qlURBb4FG8EZjda",
+    "tripStageId": "LNq8tsMwLbJl6aF",
     "type": "total-gain",
     "value": "4849"
   },
   {
-    "id": "SXbzFU7z4IYbLnX",
+    "id": "cNkH0RRts0YWqBm",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "qlURBb4FG8EZjda",
+    "tripStageId": "LNq8tsMwLbJl6aF",
     "type": "total-loss",
     "value": "815"
   },
   {
-    "id": "EvQgWnyu9D0PwHh",
+    "id": "xWBbfJiJ4bjzr0N",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "qlURBb4FG8EZjda",
+    "tripStageId": "LNq8tsMwLbJl6aF",
     "type": "max-altitude",
     "value": "5170"
   },
   {
-    "id": "N8xDWX3M4UT5Xrd",
+    "id": "TcSxJxJoHG1qIaW",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "qlURBb4FG8EZjda",
+    "tripStageId": "LNq8tsMwLbJl6aF",
     "type": "min-altitude",
     "value": "1024"
   },
   {
-    "id": "fiPxZCaiIGkDJKT",
+    "id": "RZwH4ePmGlB4rZC",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "Bk13XJaXgTaWZq8",
+    "tripStageId": "NR5DBt3rJYIpT10",
     "type": "total-time",
     "value": {
       "hours": "5",
@@ -4960,44 +4960,44 @@ const data = [
     }
   },
   {
-    "id": "MHyWmLK9BTSxAdW",
+    "id": "XEia9dVUwPx3FH9",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "Bk13XJaXgTaWZq8",
+    "tripStageId": "NR5DBt3rJYIpT10",
     "type": "total-distance",
     "value": "4.74"
   },
   {
-    "id": "HxZY5CfaJmXBcFu",
+    "id": "JhYGgM51OiEOiQ2",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "Bk13XJaXgTaWZq8",
+    "tripStageId": "NR5DBt3rJYIpT10",
     "type": "total-gain",
     "value": "2939"
   },
   {
-    "id": "ZlJaguRJnVry6Vr",
+    "id": "JDx1qC28VqJdYpA",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "Bk13XJaXgTaWZq8",
+    "tripStageId": "NR5DBt3rJYIpT10",
     "type": "total-loss",
     "value": "2419"
   },
   {
-    "id": "97JpAW6pfldU8VG",
+    "id": "T7wcGxVBCJI2uJN",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "Bk13XJaXgTaWZq8",
+    "tripStageId": "NR5DBt3rJYIpT10",
     "type": "max-altitude",
     "value": "6566"
   },
   {
-    "id": "AeZAWmHwin7ER1t",
+    "id": "DJ3EkwIaYwyMaVB",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "Bk13XJaXgTaWZq8",
+    "tripStageId": "NR5DBt3rJYIpT10",
     "type": "min-altitude",
     "value": "4007"
   },
   {
-    "id": "5ISCKjiVNaUvC55",
+    "id": "ENK8B9gHnOoPiws",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "sGYgPWm6cr14U5y",
+    "tripStageId": "9mhzvWQRQY3opIe",
     "type": "total-time",
     "value": {
       "hours": "4",
@@ -5005,44 +5005,44 @@ const data = [
     }
   },
   {
-    "id": "1abTFt9VSvsrUNk",
+    "id": "5C5SDNBcvOemeWA",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "sGYgPWm6cr14U5y",
+    "tripStageId": "9mhzvWQRQY3opIe",
     "type": "total-distance",
     "value": "6.87"
   },
   {
-    "id": "q7WOFKRCMHZVME0",
+    "id": "ha2pTqMD99Ka9T1",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "sGYgPWm6cr14U5y",
+    "tripStageId": "9mhzvWQRQY3opIe",
     "type": "total-gain",
     "value": "1537"
   },
   {
-    "id": "z8KHSkp96NeBbVV",
+    "id": "EroK2bnRoltSxCm",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "sGYgPWm6cr14U5y",
+    "tripStageId": "9mhzvWQRQY3opIe",
     "type": "total-loss",
     "value": "3022"
   },
   {
-    "id": "SzSWTyF0KfLdcCO",
+    "id": "EKFmrsMtvtLWxwz",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "sGYgPWm6cr14U5y",
+    "tripStageId": "9mhzvWQRQY3opIe",
     "type": "max-altitude",
     "value": "6058"
   },
   {
-    "id": "2zndUWsvouV7wyq",
+    "id": "XqguZ3NEOwDcej3",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "sGYgPWm6cr14U5y",
+    "tripStageId": "9mhzvWQRQY3opIe",
     "type": "min-altitude",
     "value": "3085"
   },
   {
-    "id": "25lIwZTfkC43kh6",
+    "id": "1pEoKgdPIfLzxKY",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "2oIFhIyoK4QdmQ7",
+    "tripStageId": "OKAi9QyXz00ubd7",
     "type": "total-time",
     "value": {
       "hours": "4",
@@ -5050,44 +5050,44 @@ const data = [
     }
   },
   {
-    "id": "tI4ouXHEp4HeDOA",
+    "id": "pSe5QNgZQnkZGQg",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "2oIFhIyoK4QdmQ7",
+    "tripStageId": "OKAi9QyXz00ubd7",
     "type": "total-distance",
     "value": "7.68"
   },
   {
-    "id": "d5TqqCH9mbFFQqI",
+    "id": "ZnypnLY1hdNkQPP",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "2oIFhIyoK4QdmQ7",
+    "tripStageId": "OKAi9QyXz00ubd7",
     "type": "total-gain",
     "value": "2471"
   },
   {
-    "id": "xOKV0XD7ugOTlEr",
+    "id": "mr256PkC9raEOU6",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "2oIFhIyoK4QdmQ7",
+    "tripStageId": "OKAi9QyXz00ubd7",
     "type": "total-loss",
     "value": "4008"
   },
   {
-    "id": "CKvsZV0paZpTMNs",
+    "id": "LeZJObG0BAdM4Ux",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "2oIFhIyoK4QdmQ7",
+    "tripStageId": "OKAi9QyXz00ubd7",
     "type": "max-altitude",
     "value": "6946"
   },
   {
-    "id": "KuDiLL6RiQnfOVe",
+    "id": "jEMNDeEkUGElk2T",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "2oIFhIyoK4QdmQ7",
+    "tripStageId": "OKAi9QyXz00ubd7",
     "type": "min-altitude",
     "value": "3078"
   },
   {
-    "id": "nu4u078FIpy8KIY",
+    "id": "QzOW4HzT2UJgg92",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "brXTGrEmgdsPoHx",
+    "tripStageId": "vE1bOub5YOxCIeX",
     "type": "total-time",
     "value": {
       "hours": "6",
@@ -5095,89 +5095,44 @@ const data = [
     }
   },
   {
-    "id": "Ih96khTybqxlZEL",
+    "id": "4izNyN0yd5jYOvk",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "brXTGrEmgdsPoHx",
+    "tripStageId": "vE1bOub5YOxCIeX",
     "type": "total-distance",
     "value": "6.3"
   },
   {
-    "id": "5UPNwFRElLnmJpJ",
+    "id": "IpSVqE0tkfIRhCs",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "brXTGrEmgdsPoHx",
+    "tripStageId": "vE1bOub5YOxCIeX",
     "type": "total-gain",
     "value": "2882"
   },
   {
-    "id": "LiW2Ydx3DVZAvKB",
+    "id": "cccZ4QoSLHhQyxv",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "brXTGrEmgdsPoHx",
+    "tripStageId": "vE1bOub5YOxCIeX",
     "type": "total-loss",
     "value": "3780"
   },
   {
-    "id": "LAqzIbJEial3KoO",
+    "id": "4MiPVCBTemNEA2L",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "brXTGrEmgdsPoHx",
+    "tripStageId": "vE1bOub5YOxCIeX",
     "type": "max-altitude",
     "value": "6710"
   },
   {
-    "id": "6VzfHV2oTJJTC4M",
+    "id": "7sGWMkuWVJLbuGZ",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "brXTGrEmgdsPoHx",
+    "tripStageId": "vE1bOub5YOxCIeX",
     "type": "min-altitude",
     "value": "4285"
   },
   {
-    "id": "PwHuLOPQDVBY0kC",
+    "id": "fmajXhZPeKLGvwh",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "ruNFrYBZfiJbTwd",
-    "type": "total-time",
-    "value": {
-      "hours": "6",
-      "minutes": "8"
-    }
-  },
-  {
-    "id": "37GiZrWiOaAeClS",
-    "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "ruNFrYBZfiJbTwd",
-    "type": "total-distance",
-    "value": "9.72"
-  },
-  {
-    "id": "zqkZbo6Lru2nzmO",
-    "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "ruNFrYBZfiJbTwd",
-    "type": "total-gain",
-    "value": "3071"
-  },
-  {
-    "id": "c2uHelqTRgxzMg3",
-    "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "ruNFrYBZfiJbTwd",
-    "type": "total-loss",
-    "value": "3098"
-  },
-  {
-    "id": "OVyjp3SEx7t78dV",
-    "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "ruNFrYBZfiJbTwd",
-    "type": "max-altitude",
-    "value": "6693"
-  },
-  {
-    "id": "umWnQZqgRV0o04M",
-    "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "ruNFrYBZfiJbTwd",
-    "type": "min-altitude",
-    "value": "4488"
-  },
-  {
-    "id": "oEwf7LXZCoOOQfz",
-    "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "XTw67aMZTUIskZY",
+    "tripStageId": "w3ykWBj1O0KXjlX",
     "type": "total-time",
     "value": {
       "hours": "6",
@@ -5185,44 +5140,89 @@ const data = [
     }
   },
   {
-    "id": "FzkUaJ9Ml1FPMQm",
+    "id": "FiWIEu89CePpziO",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "XTw67aMZTUIskZY",
+    "tripStageId": "w3ykWBj1O0KXjlX",
     "type": "total-distance",
     "value": "11.16"
   },
   {
-    "id": "PD9KQ2DdTeAUz1m",
+    "id": "1bDd3xf3SB5Tzsu",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "XTw67aMZTUIskZY",
+    "tripStageId": "w3ykWBj1O0KXjlX",
     "type": "total-gain",
     "value": "2202"
   },
   {
-    "id": "RqO4Xe2KjH2PTDv",
+    "id": "DRnhvqKksyzbDZt",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "XTw67aMZTUIskZY",
+    "tripStageId": "w3ykWBj1O0KXjlX",
     "type": "total-loss",
     "value": "1547"
   },
   {
-    "id": "Gj9mi22eYhsJt1Z",
+    "id": "uwP5c4OFBzjK8Zq",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "XTw67aMZTUIskZY",
+    "tripStageId": "w3ykWBj1O0KXjlX",
     "type": "max-altitude",
     "value": "6183"
   },
   {
-    "id": "5tP7rB6GResMVRU",
+    "id": "TAQALQfMX4JFKck",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "XTw67aMZTUIskZY",
+    "tripStageId": "w3ykWBj1O0KXjlX",
     "type": "min-altitude",
     "value": "4394"
   },
   {
-    "id": "F4pFsLDCGYzpZB7",
+    "id": "rzfxatkV8Ci2Awb",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "o0471oDbptASEFb",
+    "tripStageId": "8dW7SL8usI446Po",
+    "type": "total-time",
+    "value": {
+      "hours": "6",
+      "minutes": "8"
+    }
+  },
+  {
+    "id": "pNfqKw7smwS9Cm5",
+    "tripId": "V3V3fsmvjdZ6TPE",
+    "tripStageId": "8dW7SL8usI446Po",
+    "type": "total-distance",
+    "value": "9.72"
+  },
+  {
+    "id": "Pdi4ZQ0nrJHDBdY",
+    "tripId": "V3V3fsmvjdZ6TPE",
+    "tripStageId": "8dW7SL8usI446Po",
+    "type": "total-gain",
+    "value": "3071"
+  },
+  {
+    "id": "tm6xcasbPPiZmm2",
+    "tripId": "V3V3fsmvjdZ6TPE",
+    "tripStageId": "8dW7SL8usI446Po",
+    "type": "total-loss",
+    "value": "3098"
+  },
+  {
+    "id": "8OlVd4xz2w7ujyL",
+    "tripId": "V3V3fsmvjdZ6TPE",
+    "tripStageId": "8dW7SL8usI446Po",
+    "type": "max-altitude",
+    "value": "6693"
+  },
+  {
+    "id": "e73e6mnNKCasp31",
+    "tripId": "V3V3fsmvjdZ6TPE",
+    "tripStageId": "8dW7SL8usI446Po",
+    "type": "min-altitude",
+    "value": "4488"
+  },
+  {
+    "id": "IgINoBvt4LXwAxJ",
+    "tripId": "V3V3fsmvjdZ6TPE",
+    "tripStageId": "hhQ2WtiFfl3vn45",
     "type": "total-time",
     "value": {
       "hours": "6",
@@ -5230,44 +5230,44 @@ const data = [
     }
   },
   {
-    "id": "sZ4JCJyZ42hQjNn",
+    "id": "jE4r1qRYQ2LfQMK",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "o0471oDbptASEFb",
+    "tripStageId": "hhQ2WtiFfl3vn45",
     "type": "total-distance",
     "value": "6.72"
   },
   {
-    "id": "MfNNYCVjtTAgwk3",
+    "id": "uTQVqJBnHG6cMxM",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "o0471oDbptASEFb",
+    "tripStageId": "hhQ2WtiFfl3vn45",
     "type": "total-gain",
     "value": "3031"
   },
   {
-    "id": "G3HIcR2CWNR7e6B",
+    "id": "hCuFnTlsllOgUEg",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "o0471oDbptASEFb",
+    "tripStageId": "hhQ2WtiFfl3vn45",
     "type": "total-loss",
     "value": "2147"
   },
   {
-    "id": "uTviosfpqMMagRz",
+    "id": "AmkOrEjtBzIWJWH",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "o0471oDbptASEFb",
+    "tripStageId": "hhQ2WtiFfl3vn45",
     "type": "max-altitude",
     "value": "7313"
   },
   {
-    "id": "GJ5izF2RttjbyIq",
+    "id": "bIYuMhJzARj8MgE",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "o0471oDbptASEFb",
+    "tripStageId": "hhQ2WtiFfl3vn45",
     "type": "min-altitude",
     "value": "5292"
   },
   {
-    "id": "VkdblptpreNwGTR",
+    "id": "tiYHPwlUfq0Lguw",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "Yee0bxkCWezrUMn",
+    "tripStageId": "TZ7IuD3W8Ovw1B8",
     "type": "total-time",
     "value": {
       "hours": "7",
@@ -5275,44 +5275,44 @@ const data = [
     }
   },
   {
-    "id": "jn13HraGYxhWaR9",
+    "id": "qY6JLMb7fvz1eGc",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "Yee0bxkCWezrUMn",
+    "tripStageId": "TZ7IuD3W8Ovw1B8",
     "type": "total-distance",
     "value": "17.4"
   },
   {
-    "id": "TNuS6SuqzTQZMZJ",
+    "id": "0TOT6Zvlt70E48r",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "Yee0bxkCWezrUMn",
+    "tripStageId": "TZ7IuD3W8Ovw1B8",
     "type": "total-gain",
     "value": "4857"
   },
   {
-    "id": "V4FGVReX7uU3LdW",
+    "id": "a6Tg3f3ljd9hlwz",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "Yee0bxkCWezrUMn",
+    "tripStageId": "TZ7IuD3W8Ovw1B8",
     "type": "total-loss",
     "value": "3690"
   },
   {
-    "id": "JtTPquypEWH0MyZ",
+    "id": "xI3BdpjrObOBJ05",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "Yee0bxkCWezrUMn",
+    "tripStageId": "TZ7IuD3W8Ovw1B8",
     "type": "max-altitude",
     "value": "5406"
   },
   {
-    "id": "rQSS25j5nkFooIX",
+    "id": "XuBy5tdQlNm9wft",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "Yee0bxkCWezrUMn",
+    "tripStageId": "TZ7IuD3W8Ovw1B8",
     "type": "min-altitude",
     "value": "3129"
   },
   {
-    "id": "p9eprhmiru2khuw",
+    "id": "4VcEoC0xSeFSs8c",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "7JjOgYjpS0Y2Yb4",
+    "tripStageId": "nBqsilyWlTZmrEJ",
     "type": "total-time",
     "value": {
       "hours": "7",
@@ -5320,44 +5320,44 @@ const data = [
     }
   },
   {
-    "id": "V0IISN16TT7XRNk",
+    "id": "ZOQ1DT1TgCLyFLB",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "7JjOgYjpS0Y2Yb4",
+    "tripStageId": "nBqsilyWlTZmrEJ",
     "type": "total-distance",
     "value": "10.94"
   },
   {
-    "id": "5yqDKttO1ML49m9",
+    "id": "GzCo4rEXK5tArAe",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "7JjOgYjpS0Y2Yb4",
+    "tripStageId": "nBqsilyWlTZmrEJ",
     "type": "total-gain",
     "value": "4969"
   },
   {
-    "id": "rKpCRSIFmdPl0Ps",
+    "id": "25NKD8RxWKZe1EB",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "7JjOgYjpS0Y2Yb4",
+    "tripStageId": "nBqsilyWlTZmrEJ",
     "type": "total-loss",
     "value": "3545"
   },
   {
-    "id": "m0ZysbALaLqIZ9D",
+    "id": "PJ81qUtdLrBQGG8",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "7JjOgYjpS0Y2Yb4",
+    "tripStageId": "nBqsilyWlTZmrEJ",
     "type": "max-altitude",
     "value": "6550"
   },
   {
-    "id": "E4F15ag5qtytFlw",
+    "id": "4v79Go6x9CRHLQ1",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "7JjOgYjpS0Y2Yb4",
+    "tripStageId": "nBqsilyWlTZmrEJ",
     "type": "min-altitude",
     "value": "4314"
   },
   {
-    "id": "P0O9n8bPwx7Canh",
+    "id": "GBgzAgOMfKwXNNB",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "lC8HMeTYd94oTaZ",
+    "tripStageId": "If9xn8UOdBpTRbd",
     "type": "total-time",
     "value": {
       "hours": "7",
@@ -5365,44 +5365,44 @@ const data = [
     }
   },
   {
-    "id": "5aRPP5vWWDEmyi0",
+    "id": "J2gnL9WyTK2B92s",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "lC8HMeTYd94oTaZ",
+    "tripStageId": "If9xn8UOdBpTRbd",
     "type": "total-distance",
     "value": "13.88"
   },
   {
-    "id": "i3rWUBFGCsGe1bm",
+    "id": "f5C8mCaVvQfZt5q",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "lC8HMeTYd94oTaZ",
+    "tripStageId": "If9xn8UOdBpTRbd",
     "type": "total-gain",
     "value": "3809"
   },
   {
-    "id": "1lHYTc2gGFjo0h0",
+    "id": "xqiCDfLLqIz2iS5",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "lC8HMeTYd94oTaZ",
+    "tripStageId": "If9xn8UOdBpTRbd",
     "type": "total-loss",
     "value": "4453"
   },
   {
-    "id": "lCFeRwWRUz4Jghl",
+    "id": "oXXGItVe0baS3Mr",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "lC8HMeTYd94oTaZ",
+    "tripStageId": "If9xn8UOdBpTRbd",
     "type": "max-altitude",
     "value": "6638"
   },
   {
-    "id": "P4ufvOTFP8DvhNH",
+    "id": "aDg3EueArzCi8mP",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "lC8HMeTYd94oTaZ",
+    "tripStageId": "If9xn8UOdBpTRbd",
     "type": "min-altitude",
     "value": "4295"
   },
   {
-    "id": "Jejhjcubz0XkFVi",
+    "id": "bbRJwdRjBg7oTQR",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "GVivuEOhKbBrXcd",
+    "tripStageId": "JqFPF39Up5wbmiZ",
     "type": "total-time",
     "value": {
       "hours": "8",
@@ -5410,44 +5410,44 @@ const data = [
     }
   },
   {
-    "id": "6kaYuKQdx8YKfwz",
+    "id": "NezGgkfKg7J8Ktf",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "GVivuEOhKbBrXcd",
+    "tripStageId": "JqFPF39Up5wbmiZ",
     "type": "total-distance",
     "value": "7.95"
   },
   {
-    "id": "VObaw52mOorDSZX",
+    "id": "Ows0y2L6MTlxQ9E",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "GVivuEOhKbBrXcd",
+    "tripStageId": "JqFPF39Up5wbmiZ",
     "type": "total-gain",
     "value": "4105"
   },
   {
-    "id": "F0lg3TGfVCSG5T0",
+    "id": "XPrEyhMyTWVEquH",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "GVivuEOhKbBrXcd",
+    "tripStageId": "JqFPF39Up5wbmiZ",
     "type": "total-loss",
     "value": "4064"
   },
   {
-    "id": "A4hFCEXCbMvG8Gj",
+    "id": "Ut1gkKrLB7tMSJq",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "GVivuEOhKbBrXcd",
+    "tripStageId": "JqFPF39Up5wbmiZ",
     "type": "max-altitude",
     "value": "8550"
   },
   {
-    "id": "Kfxfpn79XxFdyw6",
+    "id": "o1xrYOTDu2ucvfG",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "GVivuEOhKbBrXcd",
+    "tripStageId": "JqFPF39Up5wbmiZ",
     "type": "min-altitude",
     "value": "4679"
   },
   {
-    "id": "5VuKwStB3nu9wqO",
+    "id": "UPKCEkpbYEdK1jt",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "MiFukAawD6ODr0i",
+    "tripStageId": "MAsiM2TEusqxIQx",
     "type": "total-time",
     "value": {
       "hours": "9",
@@ -5455,37 +5455,37 @@ const data = [
     }
   },
   {
-    "id": "1gnzVsL9JNKH347",
+    "id": "J7C5OaySI9XzneY",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "MiFukAawD6ODr0i",
+    "tripStageId": "MAsiM2TEusqxIQx",
     "type": "total-distance",
     "value": "18.89"
   },
   {
-    "id": "Prt5M07VlKkCryD",
+    "id": "cv0Cw9b2x2Wclkb",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "MiFukAawD6ODr0i",
+    "tripStageId": "MAsiM2TEusqxIQx",
     "type": "total-gain",
     "value": "3753"
   },
   {
-    "id": "qhjRub1aTDaQ6kD",
+    "id": "nsRYEXdDhwCpLg8",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "MiFukAawD6ODr0i",
+    "tripStageId": "MAsiM2TEusqxIQx",
     "type": "total-loss",
     "value": "7961"
   },
   {
-    "id": "17nPniXFDRTz2sH",
+    "id": "HNvI9HOkQoE9FuB",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "MiFukAawD6ODr0i",
+    "tripStageId": "MAsiM2TEusqxIQx",
     "type": "max-altitude",
     "value": "5026"
   },
   {
-    "id": "prH5Bx40fEptMjC",
+    "id": "GRxFPiyknUtkviL",
     "tripId": "V3V3fsmvjdZ6TPE",
-    "tripStageId": "MiFukAawD6ODr0i",
+    "tripStageId": "MAsiM2TEusqxIQx",
     "type": "min-altitude",
     "value": "927"
   }

@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { useCallback, useState } from 'react';
 import { InView } from 'react-intersection-observer';
 
@@ -53,7 +54,16 @@ export default function Card({ index, onClick, trip }: Props) {
                   }
                 </p>
                 <h2 className={styles.title}>{trip.title}</h2>
-                <h3 className={styles.year}>{trip.year}</h3>
+                <h3 className={styles.year}>
+                  {[trip.date, trip.year].filter(Boolean).join(', ')}
+                </h3>
+                <ul className={styles.tags}>
+                  {trip.categories.map((category) => (
+                    <li className={styles.tag} key={category}>
+                      {category}
+                    </li>
+                  ))}
+                </ul>
               </figcaption>
             </button>
           </figure>

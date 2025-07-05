@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { parse } from 'date-fns';
 
 import tripsTable from '@/data/trips';
+import tripCategoriesTable from '@/data/trip-categories';
 import tripGearTable from '@/data/trip-gear';
 import tripStagesTable from '@/data/trip-stages';
 import tripStagesRoutesTable from '@/data/trip-stages-routes';
@@ -86,7 +87,7 @@ function getTripStageStats(stageId) {
 export async function GET() {
   const trips = tripsTable
     .sort((a, b) => b.timestamp - a.timestamp)
-    .map(({ id, image, location, title, type, year }) => {
+    .map(({ date, id, image, location, title, type, year }) => {
       const stages = tripStagesTable
         .filter((tripStage) => tripStage.tripId === id)
         .sort(
@@ -116,7 +117,11 @@ export async function GET() {
       const hasRoutes = stages.filter(stage => stage.route).length > 0;
       const hasGps = stages.filter(stage => stage.gps).length > 0;
 
+      const categories = tripCategoriesTable.filter(tripCategory => tripCategory.tripId === id).map(({ name }) => name);
+
       return {
+        categories,
+        date,
         gear: gear ? {
           ...gear,
           id: undefined,

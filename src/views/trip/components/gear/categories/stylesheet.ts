@@ -3,8 +3,8 @@ import tw from '@/styles';
 const styles = {
   container: (isOpen: boolean) => tw(`
     relative
-    mt-2
-    mx-2
+    mt-4
+    mx-4
     backdrop-blur-xs
     bg-white/10
     rounded-lg

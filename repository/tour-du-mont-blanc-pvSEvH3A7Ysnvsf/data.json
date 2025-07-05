@@ -1,10 +1,10 @@
 {
-  "date": "July 27th - August 6th, 2024",
+  "date": "July 27 - August 6, 2024",
   "timestamp": "July 27th, 2024",
   "id": "pvSEvH3A7Ysnvsf",
   "type": "thru-hike",
   "image": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg",
-  "location": "French, Italian, and Swiss, Alps",
+  "location": "France, Italy, Switzerland",
   "previous": "V3V3fsmvjdZ6TPE",
   "next": null,
   "marker": {
@@ -13,9 +13,9 @@
   },
   "description": "Considered one of the classic long-distance hiking trails, the Tour du Mont Blanc circumnavigates the Mont Blanc massif in the Alps, passing through France, Italy, and Switzerland. It's known for its stunning views, diverse scenery, and the opportunity to experience three different cultures. The rustic, mountain life – remote and authentic, was the perfect first foray into long-distance trekking. It's a challenging trek, but the reward goes far beyond the views with amazing meals in cozy mountain huts. The blend of breathtaking landscapes, rich cultures, and warm encounters makes this journey truly unforgettable.",
   "categories": [
+    "thru-hike",
     "europe",
-    "alps",
-    "repeat"
+    "alps"
   ],
   "title": "Tour du Mont Blanc",
   "direction": "loop",

@@ -1,32 +1,33 @@
 import tw from '@/styles';
 
 const styles = {
-  gear: tw(`
-    absolute left-3 bottom-3 z-5
+  control: tw(`
+    absolute bottom-3 z-5
     flex items-center justify-center
-    w-8 h-8
+    w-auto h-8
     cursor-pointer
     bg-white/10
     backdrop-blur-sm
     rounded-lg
+    text-sm uppercase
 
-    sm:left-6
     sm:bottom-6
   `),
-  map: tw(`
-    absolute bottom-3 right-3 z-5
-    flex items-center justify-center
-    w-8 h-8
-    cursor-pointer
-    bg-white/10
-    backdrop-blur-sm
-    rounded-lg
+  gear: tw(`
+    left-3
+    pe-2
 
-    sm:bottom-6
+    sm:left-6
+  `),
+  map: tw(`
+    right-3
+    ps-2
+
     sm:right-6
   `),
   icon: tw(`
-    w-5 h-5
+    w-4 h-4
+    mx-2
     stroke-white
     stroke-2
   `),

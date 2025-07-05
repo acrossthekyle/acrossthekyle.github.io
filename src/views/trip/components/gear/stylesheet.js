@@ -34,7 +34,6 @@ const styles = {
     overflow-y-scroll
     bg-black/60
     ease-in-out duration-500
-    pb-2
 
     ${isActive ? (`
       translate-x-0
@@ -43,11 +42,10 @@ const styles = {
     `)}
 
     sm:w-98
-    sm:pb-6
   `),
   header: tw(`
     text-left text-sm font-light uppercase
-    px-3 pt-3
+    px-4 pt-4
 
     sm:px-6
     sm:pt-6
@@ -55,15 +53,17 @@ const styles = {
   `),
   base: tw(`
     block
+    mt-1
     text-xs font-extralight
   `),
   categories: tw(`
     flex justify-center
-    mx-2 mt-2
+    mx-4 mt-4 mb-2
     text-left
 
     sm:mx-6
     sm:mt-6
+    sm:mb-0
   `),
   category: tw(`
     backdrop-blur-xs
@@ -98,7 +98,7 @@ const styles = {
     group-last:border-b-0
   `),
   item: tw(`
-    mb-2
+    mb-4
     text-xs uppercase
     line-clamp-1
 
@@ -114,7 +114,7 @@ const styles = {
     after:text-tiny
   `),
   close: tw(`
-    absolute top-3 right-3 z-1
+    absolute top-4 right-4 z-1
     cursor-pointer
 
     sm:top-6

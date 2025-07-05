@@ -53,6 +53,8 @@ export type Stage = {
 };
 
 export type Trip = {
+  categories: string[];
+  date: string | null;
   gear?: Gear;
   gps: StageGPS[] | null;
   hasGear: boolean;

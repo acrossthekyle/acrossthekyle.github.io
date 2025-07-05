@@ -13,8 +13,7 @@ const styles = {
   `),
   chevron: tw(`
     absolute right-4
-    w-4
-    h-4
+    w-4 h-4
   `),
   weight: tw(`
     absolute right-12

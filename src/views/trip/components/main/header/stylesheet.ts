@@ -5,7 +5,7 @@ const styles = {
     absolute top-0 right-0 z-4
     text-right
     w-full
-    p-3
+    p-4
 
     sm:p-6
   `),
@@ -14,16 +14,10 @@ const styles = {
     ms-10
   `),
   trip: tw(`
-    mb-1
-    text-3xl font-thin uppercase
-  `),
-  title: tw(`
-    mb-1
-    text-sm text-white text-right font-black uppercase
-  `),
-  step: tw(`
-    block
-    text-xs font-normal uppercase
+    text-2xl font-thin uppercase
+
+    sm:mb-6
+    sm:text-3xl
   `),
 };
 

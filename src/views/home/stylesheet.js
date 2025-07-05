@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = {
   view: tw(`
-    grid auto-rows-[1rem] gap-4 grid-cols-1
+    grid auto-rows-[1rem] gap-6 grid-cols-1
     w-full max-w-7xl
     my-0 mx-auto
     pb-4
@@ -16,12 +16,24 @@ const styles = {
   card: (hasEnteredView) => tw(`
     relative
     ease-in-out duration-500
+    rounded-2xl
+    overflow-hidden
+
+    before:absolute
+    before:z-3
+    before:inset-0
+    before:opacity-100
+    before:bg-radial
+    before:from-transparent
+    before:to-black/60
+    before:pointer-events-none
+    before:duration-500
 
     ${hasEnteredView ? 'top-0 opacity-100' : 'top-12 opacity-0'}
 
     [:nth-child(1n)]:row-span-11
-    [:nth-child(2n)]:row-span-15
-    [:nth-child(3n)]:row-span-13
+    [:nth-child(2n)]:row-span-14
+    [:nth-child(3n)]:row-span-12
 
     sm:[:nth-child(1n)]:row-span-9
     sm:[:nth-child(2n)]:row-span-13
@@ -29,49 +41,47 @@ const styles = {
     lg:[:nth-child(1n)]:row-span-5
     lg:[:nth-child(2n)]:row-span-8
     lg:[:nth-child(3n)]:row-span-6
+
+    hover:before:opacity-50
   `),
   figure: tw(`
     relative
     h-full
   `),
   link: tw(`
-    group
     relative
     block
     w-full h-full
-    overflow-hidden
-    rounded-2xl
     cursor-pointer
-    text-left
   `),
   image: tw(`
     relative z-0
     object-cover
-    transition-all duration-500
     h-full w-full
-    transition-gpu duration-500
-
-    grayscale-100
-    opacity-90
-
-    group-focus:grayscale-0
-    group-focus:opacity-100
-    group-active:grayscale-0
-    group-active:opacity-100
-    group-hover:opacity-100
-    group-hover:grayscale-0
+    rounded-2xl
   `),
   caption: tw(`
-    absolute z-3 inset-0
+    absolute inset-0 z-3
     flex flex-col items-center justify-center
-    p-4
-    text-center
+    py-4
   `),
-  title: tw(`text-white text-2xl font-black uppercase`),
+  tags: tw(`
+    flex flex-col gap-2
+    mt-2
+
+    4xs:flex-row
+  `),
+  tag: tw(`
+    flex items-center justify-center
+    py-2.5 pb-2.25 px-2
+    bg-white/60
+    rounded-sm
+    text-tiny/0 text-black/50 font-light uppercase
+  `),
   eyebrow: tw(`
-    mx-2 mt-1
     text-xs font-normal uppercase
   `),
+  title: tw(`text-white text-2xl font-black uppercase`),
   year: tw(`text-sm uppercase`),
   pulse: tw(`animate-pulse`),
   skeleton: tw(`
