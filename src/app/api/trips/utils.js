@@ -7,7 +7,7 @@ export function getLabel(type) {
     return 'section';
   }
 
-  if (type === 'summits') {
+  if (type === 'peak-bagging') {
     return 'summit';
   }
 

@@ -28,6 +28,26 @@ const data = [
     "location": "Dolomites, Northern Italy"
   },
   {
+    "id": "9sTY7zOYLEgzg14",
+    "title": "Colorado",
+    "type": "peak-bagging",
+    "image": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
+    "date": "September 3 - 7",
+    "year": "2020",
+    "timestamp": 1599109200,
+    "location": "Granite, Idaho Springs, and Silver Plume"
+  },
+  {
+    "id": "yCgl91McCKXS8qT",
+    "title": "Colorado",
+    "type": "peak-bagging",
+    "image": "2019/08/31/8cac350f-f71e-4d78-b394-05ab790f1c1a.jpeg",
+    "date": "August 30 - September 2",
+    "year": "2019",
+    "timestamp": 1567141200,
+    "location": "Twin Lakes and Breckenridge"
+  },
+  {
     "id": "N4HkpHlfYaqDxql",
     "title": "Camino de Santiago",
     "type": "thru-hike",
@@ -40,26 +60,6 @@ const data = [
       "top": "26"
     },
     "location": "Northern Spain"
-  },
-  {
-    "id": "9sTY7zOYLEgzg14",
-    "title": "Colorado",
-    "type": "summits",
-    "image": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
-    "date": "September 3 - 7",
-    "year": "2020",
-    "timestamp": 1599109200,
-    "location": "Granite, Idaho Springs, and Silver Plume"
-  },
-  {
-    "id": "yCgl91McCKXS8qT",
-    "title": "Colorado",
-    "type": "summits",
-    "image": "2019/08/31/8cac350f-f71e-4d78-b394-05ab790f1c1a.jpeg",
-    "date": "August 30 - September 2",
-    "year": "2019",
-    "timestamp": 1567141200,
-    "location": "Twin Lakes and Breckenridge"
   },
   {
     "id": "w2RLiwOJUV47nRG",
@@ -87,7 +87,7 @@ const data = [
       "left": "71.3",
       "top": "32"
     },
-    "location": "Pokhara, Nepal"
+    "location": "Himalayas, Nepal"
   },
   {
     "id": "3XxhkdLe7pvjCfc",
@@ -101,12 +101,12 @@ const data = [
       "left": "46.6",
       "top": "22"
     },
-    "location": "France, Italy, Switzerland"
+    "location": "Alps, Europe"
   },
   {
     "id": "Lsgt4mh2dQrdWrn",
     "title": "Colorado",
-    "type": "summits",
+    "type": "peak-bagging",
     "image": "2021/09/07/9c414ac6-cbce-4dd4-9e8a-ac3d36b9e833.jpeg",
     "date": "September 7 - 9",
     "year": "2021",
@@ -116,7 +116,7 @@ const data = [
   {
     "id": "2oThDjcm12S3Viu",
     "title": "Colorado",
-    "type": "summits",
+    "type": "peak-bagging",
     "image": "2022/09/09/f722df6c-2869-4ff0-80f7-37014241e135.jpeg",
     "date": "September 9 - 11",
     "year": "2022",
@@ -153,7 +153,7 @@ const data = [
       "left": "46.6",
       "top": "22"
     },
-    "location": "France, Italy, Switzerland"
+    "location": "Alps, Europe"
   },
   {
     "id": "OfpW2rt8VHawxvu",
@@ -167,7 +167,7 @@ const data = [
       "left": "43.6",
       "top": "14.4"
     },
-    "location": "Scottish Highlands, Scotland"
+    "location": "Highlands, Scotland"
   },
   {
     "id": "V3V3fsmvjdZ6TPE",

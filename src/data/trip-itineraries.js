@@ -1,6 +1,6 @@
 const data = [
   {
-    "id": "IqaMKJHOV3il6mp",
+    "id": "CvooBqyBi3tSBt8",
     "tripId": "smdTdOu9zzcIC7K",
     "itinerary": {
       "map": "world",
@@ -131,7 +131,7 @@ const data = [
     }
   },
   {
-    "id": "maiCVn2AxewE7Gs",
+    "id": "EgGijVb9rPLvvnn",
     "tripId": "rDF2WHqEvEKlILl",
     "itinerary": {
       "map": "world",
@@ -313,155 +313,7 @@ const data = [
     }
   },
   {
-    "id": "DBO2awsX7H4OAdR",
-    "tripId": "N4HkpHlfYaqDxql",
-    "itinerary": {
-      "map": "world",
-      "outbound": [
-        {
-          "date": "May 31",
-          "start": {
-            "name": "Chicago",
-            "port": "ORD"
-          },
-          "end": {
-            "name": "Reykjavik",
-            "port": "RKV"
-          },
-          "type": "flight",
-          "distance": "2957",
-          "duration": {
-            "hours": "6",
-            "minutes": "15"
-          }
-        },
-        {
-          "date": "June 1",
-          "start": {
-            "name": "Reykjavik",
-            "port": "RKV"
-          },
-          "end": {
-            "name": "Paris",
-            "port": "CDG"
-          },
-          "type": "flight",
-          "distance": "1386",
-          "duration": {
-            "hours": "3",
-            "minutes": "27"
-          }
-        },
-        {
-          "date": "June 1",
-          "start": {
-            "name": "Paris",
-            "port": "CDG"
-          },
-          "end": {
-            "name": "Lyon",
-            "port": "LYS"
-          },
-          "type": "flight",
-          "distance": "257",
-          "duration": {
-            "hours": "1",
-            "minutes": "8"
-          }
-        },
-        {
-          "date": "June 1",
-          "start": {
-            "name": "Lyon",
-            "port": "LYS"
-          },
-          "end": {
-            "name": "Biarritz",
-            "port": "BIQ"
-          },
-          "type": "flight",
-          "distance": "360",
-          "duration": {
-            "hours": "1",
-            "minutes": "20"
-          }
-        },
-        {
-          "date": "June 1",
-          "start": {
-            "name": "Biarritz",
-            "port": "BIQ"
-          },
-          "end": {
-            "name": "St Jean Pied de Port",
-            "municipality": "France"
-          },
-          "type": "bus",
-          "distance": "33",
-          "duration": {
-            "hours": "2",
-            "minutes": "0"
-          }
-        }
-      ],
-      "during": [
-        {
-          "date": "June 2 - July 4",
-          "start": {
-            "name": "St Jean Pied de Port",
-            "municipality": "France"
-          },
-          "end": {
-            "name": "Fisterra",
-            "municipality": "Spain"
-          },
-          "type": "walking",
-          "distance": null,
-          "duration": {
-            "days": "32"
-          }
-        }
-      ],
-      "inbound": [
-        {
-          "date": "July 7",
-          "start": {
-            "name": "Santiago de Compostela",
-            "port": "SCQ"
-          },
-          "end": {
-            "name": "London",
-            "port": "LGW"
-          },
-          "type": "flight",
-          "distance": "689",
-          "duration": {
-            "hours": "2",
-            "minutes": "10"
-          }
-        },
-        {
-          "date": "July 7",
-          "start": {
-            "name": "London",
-            "port": "LGW"
-          },
-          "end": {
-            "name": "Chicago",
-            "port": "ORD"
-          },
-          "type": "flight",
-          "distance": "3963",
-          "duration": {
-            "hours": "8",
-            "minutes": "30"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "id": "146Kb29MIWfe1aR",
+    "id": "zpVjK3SOjKsqjBX",
     "tripId": "9sTY7zOYLEgzg14",
     "itinerary": {
       "map": "north-america",
@@ -652,7 +504,7 @@ const data = [
     }
   },
   {
-    "id": "XzAdcrRDhCFgisJ",
+    "id": "wBO5XmWB4ZkUeqC",
     "tripId": "yCgl91McCKXS8qT",
     "itinerary": {
       "map": "north-america",
@@ -795,7 +647,155 @@ const data = [
     }
   },
   {
-    "id": "f2GUtggGsWjvggr",
+    "id": "NnCjpoIrfJO31uW",
+    "tripId": "N4HkpHlfYaqDxql",
+    "itinerary": {
+      "map": "world",
+      "outbound": [
+        {
+          "date": "May 31",
+          "start": {
+            "name": "Chicago",
+            "port": "ORD"
+          },
+          "end": {
+            "name": "Reykjavik",
+            "port": "RKV"
+          },
+          "type": "flight",
+          "distance": "2957",
+          "duration": {
+            "hours": "6",
+            "minutes": "15"
+          }
+        },
+        {
+          "date": "June 1",
+          "start": {
+            "name": "Reykjavik",
+            "port": "RKV"
+          },
+          "end": {
+            "name": "Paris",
+            "port": "CDG"
+          },
+          "type": "flight",
+          "distance": "1386",
+          "duration": {
+            "hours": "3",
+            "minutes": "27"
+          }
+        },
+        {
+          "date": "June 1",
+          "start": {
+            "name": "Paris",
+            "port": "CDG"
+          },
+          "end": {
+            "name": "Lyon",
+            "port": "LYS"
+          },
+          "type": "flight",
+          "distance": "257",
+          "duration": {
+            "hours": "1",
+            "minutes": "8"
+          }
+        },
+        {
+          "date": "June 1",
+          "start": {
+            "name": "Lyon",
+            "port": "LYS"
+          },
+          "end": {
+            "name": "Biarritz",
+            "port": "BIQ"
+          },
+          "type": "flight",
+          "distance": "360",
+          "duration": {
+            "hours": "1",
+            "minutes": "20"
+          }
+        },
+        {
+          "date": "June 1",
+          "start": {
+            "name": "Biarritz",
+            "port": "BIQ"
+          },
+          "end": {
+            "name": "St Jean Pied de Port",
+            "municipality": "France"
+          },
+          "type": "bus",
+          "distance": "33",
+          "duration": {
+            "hours": "2",
+            "minutes": "0"
+          }
+        }
+      ],
+      "during": [
+        {
+          "date": "June 2 - July 4",
+          "start": {
+            "name": "St Jean Pied de Port",
+            "municipality": "France"
+          },
+          "end": {
+            "name": "Fisterra",
+            "municipality": "Spain"
+          },
+          "type": "walking",
+          "distance": null,
+          "duration": {
+            "days": "32"
+          }
+        }
+      ],
+      "inbound": [
+        {
+          "date": "July 7",
+          "start": {
+            "name": "Santiago de Compostela",
+            "port": "SCQ"
+          },
+          "end": {
+            "name": "London",
+            "port": "LGW"
+          },
+          "type": "flight",
+          "distance": "689",
+          "duration": {
+            "hours": "2",
+            "minutes": "10"
+          }
+        },
+        {
+          "date": "July 7",
+          "start": {
+            "name": "London",
+            "port": "LGW"
+          },
+          "end": {
+            "name": "Chicago",
+            "port": "ORD"
+          },
+          "type": "flight",
+          "distance": "3963",
+          "duration": {
+            "hours": "8",
+            "minutes": "30"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "xpc361lq2VMNxbd",
     "tripId": "w2RLiwOJUV47nRG",
     "itinerary": {
       "map": "world",
@@ -994,7 +994,7 @@ const data = [
     }
   },
   {
-    "id": "vDFzeeAcGkCngd5",
+    "id": "GuvS4XfvNQ8idFN",
     "tripId": "lBkSFDPGjsrJaHk",
     "itinerary": {
       "map": "world",
@@ -1193,7 +1193,7 @@ const data = [
     }
   },
   {
-    "id": "wOeUMLGAdYduX0Q",
+    "id": "7lIL5YIR3adjsRa",
     "tripId": "3XxhkdLe7pvjCfc",
     "itinerary": {
       "map": "world",
@@ -1324,7 +1324,7 @@ const data = [
     }
   },
   {
-    "id": "6xExwtsvhJjk5Wf",
+    "id": "a6StJbYdFjbdCYi",
     "tripId": "Lsgt4mh2dQrdWrn",
     "itinerary": {
       "map": "north-america",
@@ -1430,7 +1430,7 @@ const data = [
     }
   },
   {
-    "id": "XBlzlQeqCqT9tgB",
+    "id": "56iCVNIu0DsMfGn",
     "tripId": "2oThDjcm12S3Viu",
     "itinerary": {
       "map": "north-america",
@@ -1607,7 +1607,7 @@ const data = [
     }
   },
   {
-    "id": "DXoeTi5kGYfoxdk",
+    "id": "x9ttci44XXYIPEx",
     "tripId": "pvSEvH3A7Ysnvsf",
     "itinerary": {
       "map": "world",
@@ -1738,7 +1738,7 @@ const data = [
     }
   },
   {
-    "id": "ECSFcicNKUNok1a",
+    "id": "YwtlTXAKWdZW0jm",
     "tripId": "OfpW2rt8VHawxvu",
     "itinerary": {
       "map": "world",
@@ -1869,7 +1869,7 @@ const data = [
     }
   },
   {
-    "id": "uIV0KReYJXJhi6r",
+    "id": "rSAYTi8BUPnxeo8",
     "tripId": "V3V3fsmvjdZ6TPE",
     "itinerary": {
       "map": "world",

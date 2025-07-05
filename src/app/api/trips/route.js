@@ -40,7 +40,7 @@ function getTripStats(id, tripType, label, stages) {
     });
   }
 
-  if (['summits'].includes(tripType) && altitude) {
+  if (['peak-bagging'].includes(tripType) && altitude) {
     result.push({
       value: formatNumber(altitude.value),
       units: 'ft',
@@ -106,7 +106,7 @@ export async function GET() {
               .find((stageRoute) => stageRoute.tripStageId === stage.id)
                 ?.values || null,
             stats,
-            title: stage.title,
+            title: type === 'peak-bagging' ? `${stage.title} - ${stats.altitude.value} ${stats.altitude.units}` : stage.title,
           };
         });
 

@@ -56,13 +56,7 @@ export default function Card({ index, onClick, trip }: Props) {
                 <h3 className={styles.year}>
                   {[trip.date, trip.year].filter(Boolean).join(', ')}
                 </h3>
-                <ul className={styles.tags}>
-                  {trip.categories.map((category) => (
-                    <li className={styles.tag} key={category}>
-                      {category}
-                    </li>
-                  ))}
-                </ul>
+                <span className={styles.tag}>{trip.type}</span>
               </figcaption>
             </button>
           </figure>

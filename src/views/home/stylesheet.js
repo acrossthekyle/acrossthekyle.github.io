@@ -25,7 +25,7 @@ const styles = {
     before:opacity-100
     before:bg-radial
     before:from-transparent
-    before:to-black/60
+    before:to-black/40
     before:pointer-events-none
     before:duration-500
 
@@ -65,15 +65,10 @@ const styles = {
     flex flex-col items-center justify-center
     py-4
   `),
-  tags: tw(`
-    flex flex-col gap-2
-    mt-2
-
-    4xs:flex-row
-  `),
   tag: tw(`
     flex items-center justify-center
     py-2.5 pb-2.25 px-2
+    mt-2
     bg-white/60
     rounded-sm
     text-tiny/0 text-black/50 font-light uppercase
