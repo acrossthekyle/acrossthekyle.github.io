@@ -42,6 +42,11 @@ export default function View({ trip }: Props) {
           trip={trip}
         />
         <Components.Gear trip={trip} />
+        <Components.List
+          active={currentIndex}
+          onChange={handleOnChange}
+          trip={trip}
+        />
       </div>
     </div>
   );

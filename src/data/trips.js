@@ -28,16 +28,6 @@ const data = [
     "location": "Dolomites, Northern Italy"
   },
   {
-    "id": "9sTY7zOYLEgzg14",
-    "title": "Colorado",
-    "type": "peak-bagging",
-    "image": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
-    "date": "September 3 - 7",
-    "year": "2020",
-    "timestamp": 1599109200,
-    "location": "Granite, Idaho Springs, and Silver Plume"
-  },
-  {
     "id": "N4HkpHlfYaqDxql",
     "title": "Camino de Santiago",
     "type": "thru-hike",
@@ -50,6 +40,16 @@ const data = [
       "top": "26"
     },
     "location": "Northern Spain"
+  },
+  {
+    "id": "9sTY7zOYLEgzg14",
+    "title": "Colorado",
+    "type": "peak-bagging",
+    "image": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
+    "date": "September 3 - 7",
+    "year": "2020",
+    "timestamp": 1599109200,
+    "location": "Granite, Idaho Springs, and Silver Plume"
   },
   {
     "id": "yCgl91McCKXS8qT",

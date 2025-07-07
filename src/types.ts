@@ -44,6 +44,7 @@ export type StageGPS = {
 };
 
 export type Stage = {
+  date: string;
   hasStats: boolean;
   gps: StageGPS | null;
   image: string;
@@ -82,4 +83,5 @@ export enum View {
 export enum Overlay {
   None = 3,
   Gear = 4,
+  List = 5,
 }

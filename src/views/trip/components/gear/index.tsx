@@ -1,4 +1,3 @@
-import { ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
 
 import { useView } from '@/hooks/useView';
@@ -18,34 +17,20 @@ type Props = {
 export default function Gear({ trip }: Props) {
   const { handleOnSelect, index } = useModel();
 
-  const { overlay, shift } = useView();
+  const { overlay } = useView();
 
-  if (!trip.hasGear) {
-    return null;
-  }
-
-  if (!trip.gear) {
+  if (!trip.hasGear || !trip.gear) {
     return null;
   }
 
   return (
-    <Components.Panel
-      isActive={overlay === Overlay.Gear}
-      onClose={() => shift(Overlay.None)}
-    >
+    <Components.Panel isActive={overlay === Overlay.Gear}>
       <h3 className={styles.header}>
         Gear
         <span className={styles.base}>
           {trip.gear.weightBase} lbs Base weight
         </span>
       </h3>
-      <button
-        className={styles.close}
-        onClick={() => shift(Overlay.None)}
-        type="button"
-      >
-        <ArrowLeft className={styles.arrow} />
-      </button>
       <Categories
         categories={trip.gear.categories}
         onSelect={handleOnSelect}

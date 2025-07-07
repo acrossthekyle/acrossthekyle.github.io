@@ -99,6 +99,7 @@ export async function GET() {
           const stats = getTripStageStats(stage.id);
 
           return {
+            date: stage.date,
             hasStats: stats !== null,
             image: stage.image,
             gps: stage.gps,

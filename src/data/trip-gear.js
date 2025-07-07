@@ -1,6 +1,6 @@
 const data = [
   {
-    "id": "prcUy6myoZz8VAS",
+    "id": "H1d835bmn3rXAym",
     "tripId": "rDF2WHqEvEKlILl",
     "items": [
       {
@@ -1290,613 +1290,7 @@ const data = [
     "weightWorn": "9.36"
   },
   {
-    "id": "wmgpLzbeWoxKStq",
-    "tripId": "9sTY7zOYLEgzg14",
-    "items": [
-      {
-        "category": "pack",
-        "type": "Pack",
-        "name": "ESC Ranger",
-        "weight": 19.25,
-        "worn": false,
-        "consumable": false,
-        "link": "https://evolvedsupplyco.com/supplies/p/the-ranger"
-      },
-      {
-        "category": "pack",
-        "type": "Pack Liner",
-        "name": "Nylofume",
-        "weight": 1.02,
-        "worn": false,
-        "consumable": false,
-        "link": "https://evolvedsupplyco.com/supplies/p/nylofume-pack-liner"
-      },
-      {
-        "category": "clothing",
-        "type": "Shorts",
-        "name": "Vuori Kore",
-        "weight": 5.33,
-        "worn": true,
-        "consumable": false,
-        "link": "https://vuoriclothing.com/products/kore-short-charcoal"
-      },
-      {
-        "category": "clothing",
-        "type": "sun hoody",
-        "name": "Outdoor Research Echo",
-        "weight": 4.5,
-        "worn": true,
-        "consumable": false,
-        "link": "https://www.outdoorresearch.com/collections/sun-protection/products/mens-echo-hoodie-287625"
-      },
-      {
-        "category": "clothing",
-        "type": "Shoes",
-        "name": "Topo Athletic Pursuit",
-        "weight": 22,
-        "worn": true,
-        "consumable": false,
-        "link": "https://www.topoathletic.com/mens-pursuit"
-      },
-      {
-        "category": "clothing",
-        "type": "Underwear",
-        "name": "Smartwool boxer briefs",
-        "weight": 3.25,
-        "worn": true,
-        "consumable": false,
-        "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens"
-      },
-      {
-        "category": "clothing",
-        "type": "Knee Brace",
-        "name": "Mueller",
-        "weight": 3,
-        "worn": true,
-        "consumable": false,
-        "link": "https://www.amazon.com/gp/product/B00267SFL6"
-      },
-      {
-        "category": "clothing",
-        "type": "Socks",
-        "name": "Darn Tough Ankle",
-        "weight": 1.55,
-        "worn": true,
-        "consumable": false,
-        "link": "https://www.amazon.com/gp/product/B07BHX9PN8"
-      },
-      {
-        "category": "clothing",
-        "type": "Sunglasses",
-        "name": "Goodr",
-        "weight": 0.78,
-        "worn": true,
-        "consumable": false,
-        "link": "https://goodr.com/collections/the-ogs/products/a-gingers-soul"
-      },
-      {
-        "category": "clothing",
-        "type": "Hat",
-        "name": "Arc’teryx Trucker",
-        "weight": 2.15,
-        "worn": true,
-        "consumable": false,
-        "link": "https://arcteryx.com/us/en/shop/bird-curved-brim-trucker-hat"
-      },
-      {
-        "category": "clothing",
-        "type": "down jacket",
-        "name": "Mountain Hardwear",
-        "weight": 7.97,
-        "worn": false,
-        "consumable": false,
-        "link": "https://www.amazon.com/gp/product/B07W5XC3DD"
-      },
-      {
-        "category": "clothing",
-        "type": "Rain Jacket",
-        "name": "Enlightened Equipment Visp",
-        "weight": 5.22,
-        "worn": false,
-        "consumable": false,
-        "link": "https://enlightenedequipment.com/visp-rain-jacket/"
-      },
-      {
-        "category": "clothing",
-        "type": "Pullover",
-        "name": "Senchi Designs Wren Alpha Hoodie",
-        "weight": 4.02,
-        "worn": false,
-        "consumable": false,
-        "link": "https://senchidesigns.com/collections/shop/products/wren-hoodie"
-      },
-      {
-        "category": "water",
-        "type": "Filter",
-        "name": "Platypus Quickdraw",
-        "weight": 2.4,
-        "worn": false,
-        "consumable": false,
-        "link": "https://www.rei.com/product/188475"
-      },
-      {
-        "category": "water",
-        "type": "Filter Pouch",
-        "name": "Platypus 1L",
-        "weight": 1.4,
-        "worn": false,
-        "consumable": false,
-        "link": "https://www.rei.com/product/188475"
-      },
-      {
-        "category": "water",
-        "type": "Water Bottles",
-        "name": "Smartwater",
-        "weight": 3,
-        "worn": false,
-        "consumable": false,
-        "link": ""
-      },
-      {
-        "category": "hygiene",
-        "type": "Hand Sanitizer",
-        "name": "",
-        "weight": 1.62,
-        "worn": false,
-        "consumable": true,
-        "link": ""
-      },
-      {
-        "category": "hygiene",
-        "type": "Toilet paper",
-        "name": "",
-        "weight": 1.69,
-        "worn": false,
-        "consumable": true,
-        "link": ""
-      },
-      {
-        "category": "hygiene",
-        "type": "Chapstick",
-        "name": "SPF 15",
-        "weight": 0.32,
-        "worn": false,
-        "consumable": true,
-        "link": ""
-      },
-      {
-        "category": "hygiene",
-        "type": "Sunblock",
-        "name": "33 SPF Joshua Tree sun stick",
-        "weight": 0.95,
-        "worn": false,
-        "consumable": true,
-        "link": "https://www.amazon.com/gp/product/B004Y6K8XA"
-      },
-      {
-        "category": "aid kit",
-        "type": "Med + Repair Kit",
-        "name": "Ibuprofen + allergy medicine + repair tape",
-        "weight": 3.35,
-        "worn": false,
-        "consumable": true,
-        "link": "https://www.rei.com/product/800721/adventure-medical-kits-ultralightwatertight-3-medical-kit"
-      },
-      {
-        "category": "electronics",
-        "type": "Headlamp",
-        "name": "Nitecore NU25 UL",
-        "weight": 1.59,
-        "worn": false,
-        "consumable": false,
-        "link": "https://www.nitecorestore.com/NITECORE-NU25-UL-Headlamp-p/fl-nite-nu25-400ul-bk.htm"
-      },
-      {
-        "category": "electronics",
-        "type": "GPS Smartwatch",
-        "name": "Garmin Enduro 2",
-        "weight": 1.8,
-        "worn": true,
-        "consumable": false,
-        "link": "https://www.garmin.com/en-US/p/854515"
-      },
-      {
-        "category": "electronics",
-        "type": "Phone",
-        "name": "iPhone 16 Pro",
-        "weight": 7.8,
-        "worn": true,
-        "consumable": false,
-        "link": "https://www.apple.com/iphone-16-pro/"
-      },
-      {
-        "category": "packed food + water",
-        "type": "Water",
-        "name": "2 liters",
-        "weight": 74.4,
-        "worn": false,
-        "consumable": true,
-        "link": ""
-      },
-      {
-        "category": "packed food + water",
-        "type": "Snacks",
-        "name": "",
-        "weight": 4,
-        "worn": false,
-        "consumable": true,
-        "link": ""
-      },
-      {
-        "category": "luxury items",
-        "type": "Headphones",
-        "name": "Airpods Pro 2",
-        "weight": 1.9,
-        "worn": false,
-        "consumable": false,
-        "link": "https://www.amazon.com/dp/B0BDHWDR12"
-      },
-      {
-        "category": "miscellaneous",
-        "type": "Trekking Pole",
-        "name": "CNOC Cork",
-        "weight": 9.66,
-        "worn": true,
-        "consumable": false,
-        "link": "https://cnocoutdoors.com/collections/trekking-poles/products/cnoc-telescopic-trekking-poles-cork-grip-single-pole"
-      },
-      {
-        "category": "miscellaneous",
-        "type": "Keys",
-        "name": "Building + unit",
-        "weight": 1.2,
-        "worn": false,
-        "consumable": false,
-        "link": ""
-      },
-      {
-        "category": "miscellaneous",
-        "type": "Wallet",
-        "name": "",
-        "weight": 2,
-        "worn": false,
-        "consumable": true,
-        "link": ""
-      }
-    ],
-    "categories": [
-      {
-        "category": "Pack",
-        "items": [
-          {
-            "category": "pack",
-            "type": "Pack",
-            "name": "ESC Ranger",
-            "weight": 19.25,
-            "worn": false,
-            "consumable": false,
-            "link": "https://evolvedsupplyco.com/supplies/p/the-ranger"
-          },
-          {
-            "category": "pack",
-            "type": "Pack Liner",
-            "name": "Nylofume",
-            "weight": 1.02,
-            "worn": false,
-            "consumable": false,
-            "link": "https://evolvedsupplyco.com/supplies/p/nylofume-pack-liner"
-          }
-        ],
-        "weight": "1.27"
-      },
-      {
-        "category": "Clothing",
-        "items": [
-          {
-            "category": "clothing",
-            "type": "Shorts",
-            "name": "Vuori Kore",
-            "weight": 5.33,
-            "worn": true,
-            "consumable": false,
-            "link": "https://vuoriclothing.com/products/kore-short-charcoal"
-          },
-          {
-            "category": "clothing",
-            "type": "sun hoody",
-            "name": "Outdoor Research Echo",
-            "weight": 4.5,
-            "worn": true,
-            "consumable": false,
-            "link": "https://www.outdoorresearch.com/collections/sun-protection/products/mens-echo-hoodie-287625"
-          },
-          {
-            "category": "clothing",
-            "type": "Shoes",
-            "name": "Topo Athletic Pursuit",
-            "weight": 22,
-            "worn": true,
-            "consumable": false,
-            "link": "https://www.topoathletic.com/mens-pursuit"
-          },
-          {
-            "category": "clothing",
-            "type": "Underwear",
-            "name": "Smartwool boxer briefs",
-            "weight": 3.25,
-            "worn": true,
-            "consumable": false,
-            "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens"
-          },
-          {
-            "category": "clothing",
-            "type": "Knee Brace",
-            "name": "Mueller",
-            "weight": 3,
-            "worn": true,
-            "consumable": false,
-            "link": "https://www.amazon.com/gp/product/B00267SFL6"
-          },
-          {
-            "category": "clothing",
-            "type": "Socks",
-            "name": "Darn Tough Ankle",
-            "weight": 1.55,
-            "worn": true,
-            "consumable": false,
-            "link": "https://www.amazon.com/gp/product/B07BHX9PN8"
-          },
-          {
-            "category": "clothing",
-            "type": "Sunglasses",
-            "name": "Goodr",
-            "weight": 0.78,
-            "worn": true,
-            "consumable": false,
-            "link": "https://goodr.com/collections/the-ogs/products/a-gingers-soul"
-          },
-          {
-            "category": "clothing",
-            "type": "Hat",
-            "name": "Arc’teryx Trucker",
-            "weight": 2.15,
-            "worn": true,
-            "consumable": false,
-            "link": "https://arcteryx.com/us/en/shop/bird-curved-brim-trucker-hat"
-          },
-          {
-            "category": "clothing",
-            "type": "down jacket",
-            "name": "Mountain Hardwear",
-            "weight": 7.97,
-            "worn": false,
-            "consumable": false,
-            "link": "https://www.amazon.com/gp/product/B07W5XC3DD"
-          },
-          {
-            "category": "clothing",
-            "type": "Rain Jacket",
-            "name": "Enlightened Equipment Visp",
-            "weight": 5.22,
-            "worn": false,
-            "consumable": false,
-            "link": "https://enlightenedequipment.com/visp-rain-jacket/"
-          },
-          {
-            "category": "clothing",
-            "type": "Pullover",
-            "name": "Senchi Designs Wren Alpha Hoodie",
-            "weight": 4.02,
-            "worn": false,
-            "consumable": false,
-            "link": "https://senchidesigns.com/collections/shop/products/wren-hoodie"
-          }
-        ],
-        "weight": "3.74"
-      },
-      {
-        "category": "Water",
-        "items": [
-          {
-            "category": "water",
-            "type": "Filter",
-            "name": "Platypus Quickdraw",
-            "weight": 2.4,
-            "worn": false,
-            "consumable": false,
-            "link": "https://www.rei.com/product/188475"
-          },
-          {
-            "category": "water",
-            "type": "Filter Pouch",
-            "name": "Platypus 1L",
-            "weight": 1.4,
-            "worn": false,
-            "consumable": false,
-            "link": "https://www.rei.com/product/188475"
-          },
-          {
-            "category": "water",
-            "type": "Water Bottles",
-            "name": "Smartwater",
-            "weight": 3,
-            "worn": false,
-            "consumable": false,
-            "link": ""
-          }
-        ],
-        "weight": "0.42"
-      },
-      {
-        "category": "Hygiene",
-        "items": [
-          {
-            "category": "hygiene",
-            "type": "Hand Sanitizer",
-            "name": "",
-            "weight": 1.62,
-            "worn": false,
-            "consumable": true,
-            "link": ""
-          },
-          {
-            "category": "hygiene",
-            "type": "Toilet paper",
-            "name": "",
-            "weight": 1.69,
-            "worn": false,
-            "consumable": true,
-            "link": ""
-          },
-          {
-            "category": "hygiene",
-            "type": "Chapstick",
-            "name": "SPF 15",
-            "weight": 0.32,
-            "worn": false,
-            "consumable": true,
-            "link": ""
-          },
-          {
-            "category": "hygiene",
-            "type": "Sunblock",
-            "name": "33 SPF Joshua Tree sun stick",
-            "weight": 0.95,
-            "worn": false,
-            "consumable": true,
-            "link": "https://www.amazon.com/gp/product/B004Y6K8XA"
-          }
-        ],
-        "weight": "0.29"
-      },
-      {
-        "category": "Aid Kit",
-        "items": [
-          {
-            "category": "aid kit",
-            "type": "Med + Repair Kit",
-            "name": "Ibuprofen + allergy medicine + repair tape",
-            "weight": 3.35,
-            "worn": false,
-            "consumable": true,
-            "link": "https://www.rei.com/product/800721/adventure-medical-kits-ultralightwatertight-3-medical-kit"
-          }
-        ],
-        "weight": "0.21"
-      },
-      {
-        "category": "Electronics",
-        "items": [
-          {
-            "category": "electronics",
-            "type": "Headlamp",
-            "name": "Nitecore NU25 UL",
-            "weight": 1.59,
-            "worn": false,
-            "consumable": false,
-            "link": "https://www.nitecorestore.com/NITECORE-NU25-UL-Headlamp-p/fl-nite-nu25-400ul-bk.htm"
-          },
-          {
-            "category": "electronics",
-            "type": "GPS Smartwatch",
-            "name": "Garmin Enduro 2",
-            "weight": 1.8,
-            "worn": true,
-            "consumable": false,
-            "link": "https://www.garmin.com/en-US/p/854515"
-          },
-          {
-            "category": "electronics",
-            "type": "Phone",
-            "name": "iPhone 16 Pro",
-            "weight": 7.8,
-            "worn": true,
-            "consumable": false,
-            "link": "https://www.apple.com/iphone-16-pro/"
-          }
-        ],
-        "weight": "0.70"
-      },
-      {
-        "category": "Packed Food + Water",
-        "items": [
-          {
-            "category": "packed food + water",
-            "type": "Water",
-            "name": "2 liters",
-            "weight": 74.4,
-            "worn": false,
-            "consumable": true,
-            "link": ""
-          },
-          {
-            "category": "packed food + water",
-            "type": "Snacks",
-            "name": "",
-            "weight": 4,
-            "worn": false,
-            "consumable": true,
-            "link": ""
-          }
-        ],
-        "weight": "4.90"
-      },
-      {
-        "category": "Luxury Items",
-        "items": [
-          {
-            "category": "luxury items",
-            "type": "Headphones",
-            "name": "Airpods Pro 2",
-            "weight": 1.9,
-            "worn": false,
-            "consumable": false,
-            "link": "https://www.amazon.com/dp/B0BDHWDR12"
-          }
-        ],
-        "weight": "0.12"
-      },
-      {
-        "category": "Miscellaneous",
-        "items": [
-          {
-            "category": "miscellaneous",
-            "type": "Trekking Pole",
-            "name": "CNOC Cork",
-            "weight": 9.66,
-            "worn": true,
-            "consumable": false,
-            "link": "https://cnocoutdoors.com/collections/trekking-poles/products/cnoc-telescopic-trekking-poles-cork-grip-single-pole"
-          },
-          {
-            "category": "miscellaneous",
-            "type": "Keys",
-            "name": "Building + unit",
-            "weight": 1.2,
-            "worn": false,
-            "consumable": false,
-            "link": ""
-          },
-          {
-            "category": "miscellaneous",
-            "type": "Wallet",
-            "name": "",
-            "weight": 2,
-            "worn": false,
-            "consumable": true,
-            "link": ""
-          }
-        ],
-        "weight": "0.80"
-      }
-    ],
-    "weightBase": "3.06",
-    "weightConsumable": "5.52",
-    "weightTotal": "12.45",
-    "weightWorn": "3.86"
-  },
-  {
-    "id": "PkQfWorHuyOCYfa",
+    "id": "PPwYipl6sGQXf0y",
     "tripId": "N4HkpHlfYaqDxql",
     "items": [
       {
@@ -3168,7 +2562,613 @@ const data = [
     "weightWorn": "8.45"
   },
   {
-    "id": "2XlVFrUYrTgAfxV",
+    "id": "Myupzx2yR19kMuL",
+    "tripId": "9sTY7zOYLEgzg14",
+    "items": [
+      {
+        "category": "pack",
+        "type": "Pack",
+        "name": "ESC Ranger",
+        "weight": 19.25,
+        "worn": false,
+        "consumable": false,
+        "link": "https://evolvedsupplyco.com/supplies/p/the-ranger"
+      },
+      {
+        "category": "pack",
+        "type": "Pack Liner",
+        "name": "Nylofume",
+        "weight": 1.02,
+        "worn": false,
+        "consumable": false,
+        "link": "https://evolvedsupplyco.com/supplies/p/nylofume-pack-liner"
+      },
+      {
+        "category": "clothing",
+        "type": "Shorts",
+        "name": "Vuori Kore",
+        "weight": 5.33,
+        "worn": true,
+        "consumable": false,
+        "link": "https://vuoriclothing.com/products/kore-short-charcoal"
+      },
+      {
+        "category": "clothing",
+        "type": "sun hoody",
+        "name": "Outdoor Research Echo",
+        "weight": 4.5,
+        "worn": true,
+        "consumable": false,
+        "link": "https://www.outdoorresearch.com/collections/sun-protection/products/mens-echo-hoodie-287625"
+      },
+      {
+        "category": "clothing",
+        "type": "Shoes",
+        "name": "Topo Athletic Pursuit",
+        "weight": 22,
+        "worn": true,
+        "consumable": false,
+        "link": "https://www.topoathletic.com/mens-pursuit"
+      },
+      {
+        "category": "clothing",
+        "type": "Underwear",
+        "name": "Smartwool boxer briefs",
+        "weight": 3.25,
+        "worn": true,
+        "consumable": false,
+        "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens"
+      },
+      {
+        "category": "clothing",
+        "type": "Knee Brace",
+        "name": "Mueller",
+        "weight": 3,
+        "worn": true,
+        "consumable": false,
+        "link": "https://www.amazon.com/gp/product/B00267SFL6"
+      },
+      {
+        "category": "clothing",
+        "type": "Socks",
+        "name": "Darn Tough Ankle",
+        "weight": 1.55,
+        "worn": true,
+        "consumable": false,
+        "link": "https://www.amazon.com/gp/product/B07BHX9PN8"
+      },
+      {
+        "category": "clothing",
+        "type": "Sunglasses",
+        "name": "Goodr",
+        "weight": 0.78,
+        "worn": true,
+        "consumable": false,
+        "link": "https://goodr.com/collections/the-ogs/products/a-gingers-soul"
+      },
+      {
+        "category": "clothing",
+        "type": "Hat",
+        "name": "Arc’teryx Trucker",
+        "weight": 2.15,
+        "worn": true,
+        "consumable": false,
+        "link": "https://arcteryx.com/us/en/shop/bird-curved-brim-trucker-hat"
+      },
+      {
+        "category": "clothing",
+        "type": "down jacket",
+        "name": "Mountain Hardwear",
+        "weight": 7.97,
+        "worn": false,
+        "consumable": false,
+        "link": "https://www.amazon.com/gp/product/B07W5XC3DD"
+      },
+      {
+        "category": "clothing",
+        "type": "Rain Jacket",
+        "name": "Enlightened Equipment Visp",
+        "weight": 5.22,
+        "worn": false,
+        "consumable": false,
+        "link": "https://enlightenedequipment.com/visp-rain-jacket/"
+      },
+      {
+        "category": "clothing",
+        "type": "Pullover",
+        "name": "Senchi Designs Wren Alpha Hoodie",
+        "weight": 4.02,
+        "worn": false,
+        "consumable": false,
+        "link": "https://senchidesigns.com/collections/shop/products/wren-hoodie"
+      },
+      {
+        "category": "water",
+        "type": "Filter",
+        "name": "Platypus Quickdraw",
+        "weight": 2.4,
+        "worn": false,
+        "consumable": false,
+        "link": "https://www.rei.com/product/188475"
+      },
+      {
+        "category": "water",
+        "type": "Filter Pouch",
+        "name": "Platypus 1L",
+        "weight": 1.4,
+        "worn": false,
+        "consumable": false,
+        "link": "https://www.rei.com/product/188475"
+      },
+      {
+        "category": "water",
+        "type": "Water Bottles",
+        "name": "Smartwater",
+        "weight": 3,
+        "worn": false,
+        "consumable": false,
+        "link": ""
+      },
+      {
+        "category": "hygiene",
+        "type": "Hand Sanitizer",
+        "name": "",
+        "weight": 1.62,
+        "worn": false,
+        "consumable": true,
+        "link": ""
+      },
+      {
+        "category": "hygiene",
+        "type": "Toilet paper",
+        "name": "",
+        "weight": 1.69,
+        "worn": false,
+        "consumable": true,
+        "link": ""
+      },
+      {
+        "category": "hygiene",
+        "type": "Chapstick",
+        "name": "SPF 15",
+        "weight": 0.32,
+        "worn": false,
+        "consumable": true,
+        "link": ""
+      },
+      {
+        "category": "hygiene",
+        "type": "Sunblock",
+        "name": "33 SPF Joshua Tree sun stick",
+        "weight": 0.95,
+        "worn": false,
+        "consumable": true,
+        "link": "https://www.amazon.com/gp/product/B004Y6K8XA"
+      },
+      {
+        "category": "aid kit",
+        "type": "Med + Repair Kit",
+        "name": "Ibuprofen + allergy medicine + repair tape",
+        "weight": 3.35,
+        "worn": false,
+        "consumable": true,
+        "link": "https://www.rei.com/product/800721/adventure-medical-kits-ultralightwatertight-3-medical-kit"
+      },
+      {
+        "category": "electronics",
+        "type": "Headlamp",
+        "name": "Nitecore NU25 UL",
+        "weight": 1.59,
+        "worn": false,
+        "consumable": false,
+        "link": "https://www.nitecorestore.com/NITECORE-NU25-UL-Headlamp-p/fl-nite-nu25-400ul-bk.htm"
+      },
+      {
+        "category": "electronics",
+        "type": "GPS Smartwatch",
+        "name": "Garmin Enduro 2",
+        "weight": 1.8,
+        "worn": true,
+        "consumable": false,
+        "link": "https://www.garmin.com/en-US/p/854515"
+      },
+      {
+        "category": "electronics",
+        "type": "Phone",
+        "name": "iPhone 16 Pro",
+        "weight": 7.8,
+        "worn": true,
+        "consumable": false,
+        "link": "https://www.apple.com/iphone-16-pro/"
+      },
+      {
+        "category": "packed food + water",
+        "type": "Water",
+        "name": "2 liters",
+        "weight": 74.4,
+        "worn": false,
+        "consumable": true,
+        "link": ""
+      },
+      {
+        "category": "packed food + water",
+        "type": "Snacks",
+        "name": "",
+        "weight": 4,
+        "worn": false,
+        "consumable": true,
+        "link": ""
+      },
+      {
+        "category": "luxury items",
+        "type": "Headphones",
+        "name": "Airpods Pro 2",
+        "weight": 1.9,
+        "worn": false,
+        "consumable": false,
+        "link": "https://www.amazon.com/dp/B0BDHWDR12"
+      },
+      {
+        "category": "miscellaneous",
+        "type": "Trekking Pole",
+        "name": "CNOC Cork",
+        "weight": 9.66,
+        "worn": true,
+        "consumable": false,
+        "link": "https://cnocoutdoors.com/collections/trekking-poles/products/cnoc-telescopic-trekking-poles-cork-grip-single-pole"
+      },
+      {
+        "category": "miscellaneous",
+        "type": "Keys",
+        "name": "Building + unit",
+        "weight": 1.2,
+        "worn": false,
+        "consumable": false,
+        "link": ""
+      },
+      {
+        "category": "miscellaneous",
+        "type": "Wallet",
+        "name": "",
+        "weight": 2,
+        "worn": false,
+        "consumable": true,
+        "link": ""
+      }
+    ],
+    "categories": [
+      {
+        "category": "Pack",
+        "items": [
+          {
+            "category": "pack",
+            "type": "Pack",
+            "name": "ESC Ranger",
+            "weight": 19.25,
+            "worn": false,
+            "consumable": false,
+            "link": "https://evolvedsupplyco.com/supplies/p/the-ranger"
+          },
+          {
+            "category": "pack",
+            "type": "Pack Liner",
+            "name": "Nylofume",
+            "weight": 1.02,
+            "worn": false,
+            "consumable": false,
+            "link": "https://evolvedsupplyco.com/supplies/p/nylofume-pack-liner"
+          }
+        ],
+        "weight": "1.27"
+      },
+      {
+        "category": "Clothing",
+        "items": [
+          {
+            "category": "clothing",
+            "type": "Shorts",
+            "name": "Vuori Kore",
+            "weight": 5.33,
+            "worn": true,
+            "consumable": false,
+            "link": "https://vuoriclothing.com/products/kore-short-charcoal"
+          },
+          {
+            "category": "clothing",
+            "type": "sun hoody",
+            "name": "Outdoor Research Echo",
+            "weight": 4.5,
+            "worn": true,
+            "consumable": false,
+            "link": "https://www.outdoorresearch.com/collections/sun-protection/products/mens-echo-hoodie-287625"
+          },
+          {
+            "category": "clothing",
+            "type": "Shoes",
+            "name": "Topo Athletic Pursuit",
+            "weight": 22,
+            "worn": true,
+            "consumable": false,
+            "link": "https://www.topoathletic.com/mens-pursuit"
+          },
+          {
+            "category": "clothing",
+            "type": "Underwear",
+            "name": "Smartwool boxer briefs",
+            "weight": 3.25,
+            "worn": true,
+            "consumable": false,
+            "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens"
+          },
+          {
+            "category": "clothing",
+            "type": "Knee Brace",
+            "name": "Mueller",
+            "weight": 3,
+            "worn": true,
+            "consumable": false,
+            "link": "https://www.amazon.com/gp/product/B00267SFL6"
+          },
+          {
+            "category": "clothing",
+            "type": "Socks",
+            "name": "Darn Tough Ankle",
+            "weight": 1.55,
+            "worn": true,
+            "consumable": false,
+            "link": "https://www.amazon.com/gp/product/B07BHX9PN8"
+          },
+          {
+            "category": "clothing",
+            "type": "Sunglasses",
+            "name": "Goodr",
+            "weight": 0.78,
+            "worn": true,
+            "consumable": false,
+            "link": "https://goodr.com/collections/the-ogs/products/a-gingers-soul"
+          },
+          {
+            "category": "clothing",
+            "type": "Hat",
+            "name": "Arc’teryx Trucker",
+            "weight": 2.15,
+            "worn": true,
+            "consumable": false,
+            "link": "https://arcteryx.com/us/en/shop/bird-curved-brim-trucker-hat"
+          },
+          {
+            "category": "clothing",
+            "type": "down jacket",
+            "name": "Mountain Hardwear",
+            "weight": 7.97,
+            "worn": false,
+            "consumable": false,
+            "link": "https://www.amazon.com/gp/product/B07W5XC3DD"
+          },
+          {
+            "category": "clothing",
+            "type": "Rain Jacket",
+            "name": "Enlightened Equipment Visp",
+            "weight": 5.22,
+            "worn": false,
+            "consumable": false,
+            "link": "https://enlightenedequipment.com/visp-rain-jacket/"
+          },
+          {
+            "category": "clothing",
+            "type": "Pullover",
+            "name": "Senchi Designs Wren Alpha Hoodie",
+            "weight": 4.02,
+            "worn": false,
+            "consumable": false,
+            "link": "https://senchidesigns.com/collections/shop/products/wren-hoodie"
+          }
+        ],
+        "weight": "3.74"
+      },
+      {
+        "category": "Water",
+        "items": [
+          {
+            "category": "water",
+            "type": "Filter",
+            "name": "Platypus Quickdraw",
+            "weight": 2.4,
+            "worn": false,
+            "consumable": false,
+            "link": "https://www.rei.com/product/188475"
+          },
+          {
+            "category": "water",
+            "type": "Filter Pouch",
+            "name": "Platypus 1L",
+            "weight": 1.4,
+            "worn": false,
+            "consumable": false,
+            "link": "https://www.rei.com/product/188475"
+          },
+          {
+            "category": "water",
+            "type": "Water Bottles",
+            "name": "Smartwater",
+            "weight": 3,
+            "worn": false,
+            "consumable": false,
+            "link": ""
+          }
+        ],
+        "weight": "0.42"
+      },
+      {
+        "category": "Hygiene",
+        "items": [
+          {
+            "category": "hygiene",
+            "type": "Hand Sanitizer",
+            "name": "",
+            "weight": 1.62,
+            "worn": false,
+            "consumable": true,
+            "link": ""
+          },
+          {
+            "category": "hygiene",
+            "type": "Toilet paper",
+            "name": "",
+            "weight": 1.69,
+            "worn": false,
+            "consumable": true,
+            "link": ""
+          },
+          {
+            "category": "hygiene",
+            "type": "Chapstick",
+            "name": "SPF 15",
+            "weight": 0.32,
+            "worn": false,
+            "consumable": true,
+            "link": ""
+          },
+          {
+            "category": "hygiene",
+            "type": "Sunblock",
+            "name": "33 SPF Joshua Tree sun stick",
+            "weight": 0.95,
+            "worn": false,
+            "consumable": true,
+            "link": "https://www.amazon.com/gp/product/B004Y6K8XA"
+          }
+        ],
+        "weight": "0.29"
+      },
+      {
+        "category": "Aid Kit",
+        "items": [
+          {
+            "category": "aid kit",
+            "type": "Med + Repair Kit",
+            "name": "Ibuprofen + allergy medicine + repair tape",
+            "weight": 3.35,
+            "worn": false,
+            "consumable": true,
+            "link": "https://www.rei.com/product/800721/adventure-medical-kits-ultralightwatertight-3-medical-kit"
+          }
+        ],
+        "weight": "0.21"
+      },
+      {
+        "category": "Electronics",
+        "items": [
+          {
+            "category": "electronics",
+            "type": "Headlamp",
+            "name": "Nitecore NU25 UL",
+            "weight": 1.59,
+            "worn": false,
+            "consumable": false,
+            "link": "https://www.nitecorestore.com/NITECORE-NU25-UL-Headlamp-p/fl-nite-nu25-400ul-bk.htm"
+          },
+          {
+            "category": "electronics",
+            "type": "GPS Smartwatch",
+            "name": "Garmin Enduro 2",
+            "weight": 1.8,
+            "worn": true,
+            "consumable": false,
+            "link": "https://www.garmin.com/en-US/p/854515"
+          },
+          {
+            "category": "electronics",
+            "type": "Phone",
+            "name": "iPhone 16 Pro",
+            "weight": 7.8,
+            "worn": true,
+            "consumable": false,
+            "link": "https://www.apple.com/iphone-16-pro/"
+          }
+        ],
+        "weight": "0.70"
+      },
+      {
+        "category": "Packed Food + Water",
+        "items": [
+          {
+            "category": "packed food + water",
+            "type": "Water",
+            "name": "2 liters",
+            "weight": 74.4,
+            "worn": false,
+            "consumable": true,
+            "link": ""
+          },
+          {
+            "category": "packed food + water",
+            "type": "Snacks",
+            "name": "",
+            "weight": 4,
+            "worn": false,
+            "consumable": true,
+            "link": ""
+          }
+        ],
+        "weight": "4.90"
+      },
+      {
+        "category": "Luxury Items",
+        "items": [
+          {
+            "category": "luxury items",
+            "type": "Headphones",
+            "name": "Airpods Pro 2",
+            "weight": 1.9,
+            "worn": false,
+            "consumable": false,
+            "link": "https://www.amazon.com/dp/B0BDHWDR12"
+          }
+        ],
+        "weight": "0.12"
+      },
+      {
+        "category": "Miscellaneous",
+        "items": [
+          {
+            "category": "miscellaneous",
+            "type": "Trekking Pole",
+            "name": "CNOC Cork",
+            "weight": 9.66,
+            "worn": true,
+            "consumable": false,
+            "link": "https://cnocoutdoors.com/collections/trekking-poles/products/cnoc-telescopic-trekking-poles-cork-grip-single-pole"
+          },
+          {
+            "category": "miscellaneous",
+            "type": "Keys",
+            "name": "Building + unit",
+            "weight": 1.2,
+            "worn": false,
+            "consumable": false,
+            "link": ""
+          },
+          {
+            "category": "miscellaneous",
+            "type": "Wallet",
+            "name": "",
+            "weight": 2,
+            "worn": false,
+            "consumable": true,
+            "link": ""
+          }
+        ],
+        "weight": "0.80"
+      }
+    ],
+    "weightBase": "3.06",
+    "weightConsumable": "5.52",
+    "weightTotal": "12.45",
+    "weightWorn": "3.86"
+  },
+  {
+    "id": "ts6pwpkwUP3STUn",
     "tripId": "yCgl91McCKXS8qT",
     "items": [
       {
@@ -3774,7 +3774,7 @@ const data = [
     "weightWorn": "3.86"
   },
   {
-    "id": "6sFF33uawZa6gUB",
+    "id": "niyFColcL25hFX7",
     "tripId": "w2RLiwOJUV47nRG",
     "items": [
       {
@@ -5130,7 +5130,7 @@ const data = [
     "weightWorn": "7.17"
   },
   {
-    "id": "ze1qvAiYvr31yBI",
+    "id": "m0wIaq1u6NJjWk7",
     "tripId": "lBkSFDPGjsrJaHk",
     "items": [
       {
@@ -6492,7 +6492,7 @@ const data = [
     "weightWorn": "9.93"
   },
   {
-    "id": "uUuGKjJYNiA3ASq",
+    "id": "JIfNPVPokJY7dJg",
     "tripId": "3XxhkdLe7pvjCfc",
     "items": [
       {
@@ -7746,7 +7746,7 @@ const data = [
     "weightWorn": "9.36"
   },
   {
-    "id": "SpKB1PvdZ0viGFu",
+    "id": "Q1DrMYrorNnpLFA",
     "tripId": "Lsgt4mh2dQrdWrn",
     "items": [
       {
@@ -8352,7 +8352,7 @@ const data = [
     "weightWorn": "3.86"
   },
   {
-    "id": "N9rKbXIkgr0oR7T",
+    "id": "klD9INlvFB4QzaV",
     "tripId": "2oThDjcm12S3Viu",
     "items": [
       {
@@ -8958,7 +8958,7 @@ const data = [
     "weightWorn": "3.86"
   },
   {
-    "id": "cyFXeuZCxImyWOw",
+    "id": "wkhOX2cZJzHdtWE",
     "tripId": "kMw47tqPsEgrI14",
     "items": [
       {
@@ -10086,7 +10086,7 @@ const data = [
     "weightWorn": "2.75"
   },
   {
-    "id": "clG42MQsnBi9vP3",
+    "id": "YMYgkFwmifdzxKI",
     "tripId": "pvSEvH3A7Ysnvsf",
     "items": [
       {
@@ -11340,7 +11340,7 @@ const data = [
     "weightWorn": "3.09"
   },
   {
-    "id": "1MHi8IFx1INRQL5",
+    "id": "NfkQ7OY5VYM5ouJ",
     "tripId": "OfpW2rt8VHawxvu",
     "items": [
       {
@@ -12408,7 +12408,7 @@ const data = [
     "weightWorn": "3.74"
   },
   {
-    "id": "BihFVXPmNKjn0uJ",
+    "id": "0cHRUDlHW37AJYK",
     "tripId": "V3V3fsmvjdZ6TPE",
     "items": [
       {

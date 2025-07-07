@@ -33,6 +33,10 @@ body {
     -webkit-appearance: none;
   }
 
+  button[type="button"] {
+    text-align: left;
+  }
+
   .leaflet-tile {
     filter: grayscale(100%) invert(100%);
     opacity: 50% !important;

@@ -16,7 +16,7 @@ const styles = {
   `),
   backdrop: (isActive: boolean) => tw(`
     absolute inset-0 z-1
-    backdrop-blur-sm
+    backdrop-blur-xs
     ease-in-out duration-500
 
     ${isActive ? `
@@ -32,9 +32,10 @@ const styles = {
     h-full
     w-full
     overflow-y-scroll
-    bg-black/60
+    bg-black/70
     ease-in-out duration-500
     pb-2
+    shadow-black shadow-2xl
 
     ${isActive ? (`
       translate-x-0
@@ -42,8 +43,20 @@ const styles = {
       -translate-x-full
     `)}
 
-    sm:w-98
+    sm:w-xl
     sm:pb-6
+  `),
+  close: tw(`
+    absolute top-4 right-4 z-1
+    cursor-pointer
+
+    sm:top-6
+    sm:right-6
+  `),
+  arrow: tw(`
+    w-5 h-5
+    stroke-white
+    stroke-2
   `),
 };
 

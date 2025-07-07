@@ -1,7 +1,9 @@
+import { Route } from 'lucide-react';
 import Image from 'next/image';
 import { RefCallback } from 'react';
 
-import type { Trip } from '@/types';
+import { useView } from '@/hooks/useView';
+import { type Trip, Overlay } from '@/types';
 
 import styles from './stylesheet';
 
@@ -12,6 +14,8 @@ type Props = {
 };
 
 export default function Gallery({ active, swipeable, trip }: Props) {
+  const { shift } = useView();
+
   return (
     <div className={styles.container}>
       <figure className={styles.figure} ref={swipeable}>
@@ -31,8 +35,18 @@ export default function Gallery({ active, swipeable, trip }: Props) {
             {trip.stages[active].title.replace(/ to /g, '\u00A0\u2192\u00A0')}
           </span>
           <span className={styles.step}>
-            {trip.label} {active + 1} / {trip.length}
+            {trip.stages[active].date}
           </span>
+          {trip.length > 3 && (
+            <button
+              className={styles.all}
+              onClick={() => shift(Overlay.List)}
+              title="View all"
+              type="button"
+            >
+              <Route className={styles.icon} /> Timeline
+            </button>
+          )}
         </figcaption>
       </figure>
     </div>
