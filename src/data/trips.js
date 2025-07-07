@@ -38,20 +38,10 @@ const data = [
     "location": "Granite, Idaho Springs, and Silver Plume"
   },
   {
-    "id": "yCgl91McCKXS8qT",
-    "title": "Colorado",
-    "type": "peak-bagging",
-    "image": "2019/08/31/8cac350f-f71e-4d78-b394-05ab790f1c1a.jpeg",
-    "date": "August 30 - September 2",
-    "year": "2019",
-    "timestamp": 1567141200,
-    "location": "Twin Lakes and Breckenridge"
-  },
-  {
     "id": "N4HkpHlfYaqDxql",
     "title": "Camino de Santiago",
     "type": "thru-hike",
-    "image": "2018/06/02/42f8785d-32c0-4446-9a39-d88aa028e407.jpeg",
+    "image": "2018/06/02/cb1647f3-cfe3-407e-977c-1d52dfd849ed.jpeg",
     "date": "June 2 - July 4",
     "year": "2018",
     "timestamp": 1527915600,
@@ -60,6 +50,16 @@ const data = [
       "top": "26"
     },
     "location": "Northern Spain"
+  },
+  {
+    "id": "yCgl91McCKXS8qT",
+    "title": "Colorado",
+    "type": "peak-bagging",
+    "image": "2019/08/31/52f1514b-91a4-494d-93df-6ae9c81df01c.jpeg",
+    "date": "August 30 - September 2",
+    "year": "2019",
+    "timestamp": 1567141200,
+    "location": "Twin Lakes and Breckenridge"
   },
   {
     "id": "w2RLiwOJUV47nRG",
@@ -79,7 +79,7 @@ const data = [
     "id": "lBkSFDPGjsrJaHk",
     "title": "Annapurna",
     "type": "thru-hike",
-    "image": "2019/10/19/922fa9b2-fff3-4457-b0b4-18dc26c0b2b8.jpeg",
+    "image": "2019/10/19/946a73ae-8a0a-4cec-8f61-c0ff90245aa3.jpeg",
     "date": "October 19 - November 6",
     "year": "2019",
     "timestamp": 1571461200,
@@ -93,7 +93,7 @@ const data = [
     "id": "3XxhkdLe7pvjCfc",
     "title": "Tour du Mont Blanc",
     "type": "thru-hike",
-    "image": "2018/09/02/2c1912f7-c571-4a3a-8240-0e602c9e8e47.jpeg",
+    "image": "2018/09/02/ec37f4a8-6310-4bf6-b1a7-cddb1f91bf3b.jpeg",
     "date": "September 2 - 13",
     "year": "2018",
     "timestamp": 1535864400,
@@ -107,7 +107,7 @@ const data = [
     "id": "Lsgt4mh2dQrdWrn",
     "title": "Colorado",
     "type": "peak-bagging",
-    "image": "2021/09/07/9c414ac6-cbce-4dd4-9e8a-ac3d36b9e833.jpeg",
+    "image": "2021/09/07/fbe767d5-63c6-4af7-8643-ceef9b4cce92.jpeg",
     "date": "September 7 - 9",
     "year": "2021",
     "timestamp": 1630990800,
@@ -159,7 +159,7 @@ const data = [
     "id": "OfpW2rt8VHawxvu",
     "title": "West Highland Way",
     "type": "thru-hike",
-    "image": "2022/05/07/4a15a62a-a739-4ad9-83ff-3200e16c6bd5.jpeg",
+    "image": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
     "date": "May 7 - 12",
     "year": "2022",
     "timestamp": 1651899600,

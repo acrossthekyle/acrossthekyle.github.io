@@ -24,16 +24,24 @@ export const StackContext = createContext({
 
 export default function Stack({ children }: Props) {
   const { dispatch } = useEvent('onEscape');
+  const { dispatch: dispatchLeft } = useEvent('onLeft');
+  const { dispatch: dispatchRight } = useEvent('onRight');
 
   const { removeStack, stack } = useStack();
 
   const handleOnKeyUp = useCallback((event: KeyboardEvent) => {
-    if (event.key === 'Escape' && stack.length > 0) {
+    if (stack.length > 0) {
       const id = stack[stack.length - 1];
 
-      dispatch(id);
+      if (event.key === 'Escape') {
+        dispatch(id);
 
-      removeStack();
+        removeStack();
+      } else if (event.key === 'ArrowRight') {
+        dispatchRight(id);
+      } else if (event.key === 'ArrowLeft') {
+        dispatchLeft(id);
+      }
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [stack]);

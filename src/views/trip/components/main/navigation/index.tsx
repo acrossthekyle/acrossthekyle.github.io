@@ -4,6 +4,9 @@ import {
   ChevronLeft,
   ChevronRight,
 } from 'lucide-react';
+
+import { useEvent } from '@/hooks/useEvent';
+
 import styles from './stylesheet';
 
 type Props = {
@@ -17,6 +20,18 @@ export default function Images({
   onPrevious,
   suffix,
 }: Props) {
+  useEvent('onLeft', (id: string) => {
+    if (id === 'modal') {
+      onPrevious();
+    }
+  });
+
+  useEvent('onRight', (id: string) => {
+    if (id === 'modal') {
+      onNext();
+    }
+  });
+
   return (
     <>
       <button

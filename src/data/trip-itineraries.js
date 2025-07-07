@@ -1,6 +1,6 @@
 const data = [
   {
-    "id": "CvooBqyBi3tSBt8",
+    "id": "PJpQA4IlJ2PHRaL",
     "tripId": "smdTdOu9zzcIC7K",
     "itinerary": {
       "map": "world",
@@ -131,7 +131,7 @@ const data = [
     }
   },
   {
-    "id": "EgGijVb9rPLvvnn",
+    "id": "AJ6NNtTOgwLKwe6",
     "tripId": "rDF2WHqEvEKlILl",
     "itinerary": {
       "map": "world",
@@ -313,7 +313,7 @@ const data = [
     }
   },
   {
-    "id": "zpVjK3SOjKsqjBX",
+    "id": "qQJhHU3Nv4cmivw",
     "tripId": "9sTY7zOYLEgzg14",
     "itinerary": {
       "map": "north-america",
@@ -504,150 +504,7 @@ const data = [
     }
   },
   {
-    "id": "wBO5XmWB4ZkUeqC",
-    "tripId": "yCgl91McCKXS8qT",
-    "itinerary": {
-      "map": "north-america",
-      "outbound": [
-        {
-          "date": "August 30",
-          "start": {
-            "name": "Chicago",
-            "port": "ORD"
-          },
-          "end": {
-            "name": "Denver",
-            "port": "DEN"
-          },
-          "type": "driving",
-          "distance": "886",
-          "duration": {
-            "hours": "2",
-            "minutes": "45"
-          }
-        }
-      ],
-      "during": [
-        {
-          "date": "August 31",
-          "start": {
-            "name": "Denver",
-            "municipality": "Colorado"
-          },
-          "end": {
-            "name": "Mount Elbert Trailhead",
-            "municipality": "Twin Lakes, Colorado"
-          },
-          "type": "driving",
-          "distance": "122",
-          "duration": {
-            "hours": "2",
-            "minutes": "14"
-          }
-        },
-        {
-          "date": "August 31",
-          "start": {
-            "name": "Mount Elbert Trailhead",
-            "municipality": "Twin Lakes, Colorado"
-          },
-          "end": {
-            "name": "Mount Elbert",
-            "municipality": "Summit"
-          },
-          "type": "walking",
-          "distance": null,
-          "duration": null
-        },
-        {
-          "date": "August 31",
-          "start": {
-            "name": "Mount Elbert Trailhead",
-            "municipality": "Twin Lakes, Colorado"
-          },
-          "end": {
-            "name": "Denver",
-            "municipality": "Colorado"
-          },
-          "type": "driving",
-          "distance": "122",
-          "duration": {
-            "hours": "2",
-            "minutes": "14"
-          }
-        },
-        {
-          "date": "September 1",
-          "start": {
-            "name": "Denver",
-            "municipality": "Colorado"
-          },
-          "end": {
-            "name": "Quandary Peak Trailhead",
-            "municipality": "Breckenridge, Colorado"
-          },
-          "type": "driving",
-          "distance": "80",
-          "duration": {
-            "hours": "1",
-            "minutes": "34"
-          }
-        },
-        {
-          "date": "September 1",
-          "start": {
-            "name": "Quandary Peak Trailhead",
-            "municipality": "Breckenridge, Colorado"
-          },
-          "end": {
-            "name": "Quandary Peak",
-            "municipality": "Summit"
-          },
-          "type": "walking",
-          "distance": null,
-          "duration": null
-        },
-        {
-          "date": "September 1",
-          "start": {
-            "name": "Quandary Peak Trailhead",
-            "municipality": "Breckenridge, Colorado"
-          },
-          "end": {
-            "name": "Denver",
-            "municipality": "Colorado"
-          },
-          "type": "driving",
-          "distance": "80",
-          "duration": {
-            "hours": "1",
-            "minutes": "34"
-          }
-        }
-      ],
-      "inbound": [
-        {
-          "date": "September 2",
-          "start": {
-            "name": "Denver",
-            "port": "DEN"
-          },
-          "end": {
-            "name": "Chicago",
-            "port": "ORD"
-          },
-          "type": "flight",
-          "distance": "886",
-          "duration": {
-            "hours": "2",
-            "minutes": "45"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "id": "NnCjpoIrfJO31uW",
+    "id": "IpOYN508vIZbsj1",
     "tripId": "N4HkpHlfYaqDxql",
     "itinerary": {
       "map": "world",
@@ -795,7 +652,150 @@ const data = [
     }
   },
   {
-    "id": "xpc361lq2VMNxbd",
+    "id": "KHZYzoqv7TAnIWj",
+    "tripId": "yCgl91McCKXS8qT",
+    "itinerary": {
+      "map": "north-america",
+      "outbound": [
+        {
+          "date": "August 30",
+          "start": {
+            "name": "Chicago",
+            "port": "ORD"
+          },
+          "end": {
+            "name": "Denver",
+            "port": "DEN"
+          },
+          "type": "driving",
+          "distance": "886",
+          "duration": {
+            "hours": "2",
+            "minutes": "45"
+          }
+        }
+      ],
+      "during": [
+        {
+          "date": "August 31",
+          "start": {
+            "name": "Denver",
+            "municipality": "Colorado"
+          },
+          "end": {
+            "name": "Mount Elbert Trailhead",
+            "municipality": "Twin Lakes, Colorado"
+          },
+          "type": "driving",
+          "distance": "122",
+          "duration": {
+            "hours": "2",
+            "minutes": "14"
+          }
+        },
+        {
+          "date": "August 31",
+          "start": {
+            "name": "Mount Elbert Trailhead",
+            "municipality": "Twin Lakes, Colorado"
+          },
+          "end": {
+            "name": "Mount Elbert",
+            "municipality": "Summit"
+          },
+          "type": "walking",
+          "distance": null,
+          "duration": null
+        },
+        {
+          "date": "August 31",
+          "start": {
+            "name": "Mount Elbert Trailhead",
+            "municipality": "Twin Lakes, Colorado"
+          },
+          "end": {
+            "name": "Denver",
+            "municipality": "Colorado"
+          },
+          "type": "driving",
+          "distance": "122",
+          "duration": {
+            "hours": "2",
+            "minutes": "14"
+          }
+        },
+        {
+          "date": "September 1",
+          "start": {
+            "name": "Denver",
+            "municipality": "Colorado"
+          },
+          "end": {
+            "name": "Quandary Peak Trailhead",
+            "municipality": "Breckenridge, Colorado"
+          },
+          "type": "driving",
+          "distance": "80",
+          "duration": {
+            "hours": "1",
+            "minutes": "34"
+          }
+        },
+        {
+          "date": "September 1",
+          "start": {
+            "name": "Quandary Peak Trailhead",
+            "municipality": "Breckenridge, Colorado"
+          },
+          "end": {
+            "name": "Quandary Peak",
+            "municipality": "Summit"
+          },
+          "type": "walking",
+          "distance": null,
+          "duration": null
+        },
+        {
+          "date": "September 1",
+          "start": {
+            "name": "Quandary Peak Trailhead",
+            "municipality": "Breckenridge, Colorado"
+          },
+          "end": {
+            "name": "Denver",
+            "municipality": "Colorado"
+          },
+          "type": "driving",
+          "distance": "80",
+          "duration": {
+            "hours": "1",
+            "minutes": "34"
+          }
+        }
+      ],
+      "inbound": [
+        {
+          "date": "September 2",
+          "start": {
+            "name": "Denver",
+            "port": "DEN"
+          },
+          "end": {
+            "name": "Chicago",
+            "port": "ORD"
+          },
+          "type": "flight",
+          "distance": "886",
+          "duration": {
+            "hours": "2",
+            "minutes": "45"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "ukjWsP4gRN7JW7c",
     "tripId": "w2RLiwOJUV47nRG",
     "itinerary": {
       "map": "world",
@@ -994,7 +994,7 @@ const data = [
     }
   },
   {
-    "id": "GuvS4XfvNQ8idFN",
+    "id": "yuzz1rJCkbw8Jwt",
     "tripId": "lBkSFDPGjsrJaHk",
     "itinerary": {
       "map": "world",
@@ -1193,7 +1193,7 @@ const data = [
     }
   },
   {
-    "id": "7lIL5YIR3adjsRa",
+    "id": "yxbA7UvwynoleN3",
     "tripId": "3XxhkdLe7pvjCfc",
     "itinerary": {
       "map": "world",
@@ -1324,7 +1324,7 @@ const data = [
     }
   },
   {
-    "id": "a6StJbYdFjbdCYi",
+    "id": "6jcClCZ822hTIhk",
     "tripId": "Lsgt4mh2dQrdWrn",
     "itinerary": {
       "map": "north-america",
@@ -1430,7 +1430,7 @@ const data = [
     }
   },
   {
-    "id": "56iCVNIu0DsMfGn",
+    "id": "6gwq8a6NvlF5y5Q",
     "tripId": "2oThDjcm12S3Viu",
     "itinerary": {
       "map": "north-america",
@@ -1607,7 +1607,7 @@ const data = [
     }
   },
   {
-    "id": "x9ttci44XXYIPEx",
+    "id": "e47qdxiUFU5y6yj",
     "tripId": "pvSEvH3A7Ysnvsf",
     "itinerary": {
       "map": "world",
@@ -1738,7 +1738,7 @@ const data = [
     }
   },
   {
-    "id": "YwtlTXAKWdZW0jm",
+    "id": "0goHL7KMCXJyqsK",
     "tripId": "OfpW2rt8VHawxvu",
     "itinerary": {
       "map": "world",
@@ -1869,7 +1869,7 @@ const data = [
     }
   },
   {
-    "id": "rSAYTi8BUPnxeo8",
+    "id": "IHukmGEaAsZC82F",
     "tripId": "V3V3fsmvjdZ6TPE",
     "itinerary": {
       "map": "world",
