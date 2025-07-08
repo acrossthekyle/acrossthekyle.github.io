@@ -17,6 +17,7 @@ const styles = {
   `),
   item: tw(`
     relative
+    flex
     pb-8
     text-left
 
@@ -37,10 +38,9 @@ const styles = {
     cursor-pointer
   `),
   circle: tw(`
-    absolute -top-0.25
+    absolute -top-0.5
     flex items-center justify-center
     w-5 h-5
-    me-3
     rounded-full
     border-2 border-white
   `),
