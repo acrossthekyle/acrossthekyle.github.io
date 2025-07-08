@@ -9,10 +9,9 @@ const styles = {
     sm:pt-6
   `),
   container: tw(`
-    mt-4
-    px-4
+    mt-6
+    px-4.5
 
-    sm:mt-6
     sm:px-6
   `),
   item: tw(`
