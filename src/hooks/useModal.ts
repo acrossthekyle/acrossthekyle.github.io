@@ -8,14 +8,12 @@ import { useStack } from './useStack';
 
 type ModalOptions = {
   content: ReactNode | ReactNode[];
-  hasDarkBackdrop?: boolean;
   isCloseable?: boolean;
   size?: string;
 };
 
 type State = {
   content: ReactNode | ReactNode[] | null;
-  hasDarkBackdrop: boolean;
   isCloseable: boolean;
   isOpen: boolean;
   size: string;
@@ -29,14 +27,12 @@ type Actions = {
 const store = create<State & Actions>()(
   (set) => ({
     content: null,
-    hasDarkBackdrop: false,
     isCloseable: true,
     isOpen: false,
     size: 'md',
     setModal: (options: ModalOptions) => {
       set({
         content: options.content,
-        hasDarkBackdrop: options.hasDarkBackdrop ?? false,
         isCloseable: options.isCloseable ?? true,
         size: options.size ?? 'md',
       });
@@ -55,7 +51,6 @@ const store = create<State & Actions>()(
       setTimeout(() => {
         set({
           content: null,
-          hasDarkBackdrop: false,
           isCloseable: true,
           size: 'md',
         });
@@ -67,7 +62,6 @@ const store = create<State & Actions>()(
 export function useModal() {
   const {
     content,
-    hasDarkBackdrop,
     isCloseable,
     isOpen,
     setModal,
@@ -110,7 +104,6 @@ export function useModal() {
   return {
     content,
     handleOnClose,
-    hasDarkBackdrop,
     isCloseable,
     isOpen,
     modal,

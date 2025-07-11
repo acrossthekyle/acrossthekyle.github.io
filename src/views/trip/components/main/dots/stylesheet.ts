@@ -2,10 +2,10 @@ import tw from '@/styles';
 
 const styles = {
   dots: tw(`
-    absolute left-10 right-10 bottom-16 z-4
+    absolute left-10 right-10 bottom-27 z-4
     flex items-center justify-center
 
-    sm:bottom-19
+    sm:bottom-30
   `),
   dot: tw(`
     duration-500

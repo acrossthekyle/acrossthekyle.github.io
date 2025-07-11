@@ -16,7 +16,6 @@ const styles = {
   `),
   backdrop: (isActive: boolean) => tw(`
     absolute inset-0 z-1
-    backdrop-blur-xs
     ease-in-out duration-500
 
     ${isActive ? `

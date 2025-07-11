@@ -6,17 +6,16 @@ const styles = {
     flex items-center justify-center
     w-8 h-8
     -mt-4
-    cursor-pointer
   `),
   next: tw(`
-    right-1
+    right-3
 
-    sm:right-3
+    sm:right-6
   `),
   previous: tw(`
-    left-1
+    left-3
 
-    sm:left-3
+    sm:left-6
   `),
   chevron: tw(`
     w-5 h-5

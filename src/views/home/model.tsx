@@ -56,7 +56,6 @@ export function useModel(): Model {
   const handleOnClick = (trip: Trip) => {
     modal({
       content: <View trip={trip} />,
-      hasDarkBackdrop: true,
       isCloseable: false,
       size: '7xl',
     });

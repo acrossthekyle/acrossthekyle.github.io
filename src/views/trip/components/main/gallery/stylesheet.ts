@@ -33,13 +33,13 @@ const styles = {
     opacity-0
   `),
   caption: tw(`
-    absolute bottom-3 z-5
+    absolute bottom-14 z-5
     flex flex-col items-center
     px-4
     w-full
     text-sm text-white font-black uppercase
 
-    sm:bottom-6
+    sm:bottom-17
   `),
   title: tw(`
     flex items-start justify-center
@@ -50,21 +50,6 @@ const styles = {
   step: tw(`
     block
     text-xs font-normal uppercase
-  `),
-  all: tw(`
-    flex items-center justify-center gap-2
-    p-2
-    mt-11
-    cursor-pointer
-    bg-white/10
-    backdrop-blur-sm
-    rounded-lg
-    text-xs font-normal uppercase
-  `),
-  icon: tw(`
-    w-3.5 h-3.5
-    stroke-white
-    stroke-2
   `),
 };
 

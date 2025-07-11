@@ -10,13 +10,12 @@ const styles = {
     sm:p-6
   `),
   location: tw(`
-    text-sm font-thin uppercase
+    text-xs font-thin uppercase
     ms-10
   `),
   trip: tw(`
     text-2xl font-thin uppercase
 
-    sm:mb-6
     sm:text-3xl
   `),
 };

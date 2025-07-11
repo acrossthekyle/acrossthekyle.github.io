@@ -1,4 +1,4 @@
-import { Footprints, Star, X } from 'lucide-react';
+import { Star, X } from 'lucide-react';
 
 import { useView } from '@/hooks/useView';
 import { type Trip, Overlay } from '@/types';
@@ -14,20 +14,17 @@ type Props = {
 };
 
 export default function List({ active, onChange, trip }: Props) {
-  const { overlay, shift } = useView();
+  const { overlay } = useView();
 
   return (
     <Components.Panel isActive={overlay === Overlay.List}>
       <h3 className={styles.header}>
-        Timeline
+        Itinerary
       </h3>
       <ul className={styles.container}>
         {trip.stages.map(({ date, title }, index: number) => (
           <li className={styles.item} key={title}>
-            <div className={`${styles.circle} ${active === index ? styles.filled : ''}`.trim()}>
-              {active !== index && index === 0 && (
-                <Footprints className={styles.terminus} />
-              )}
+            <div className={`${styles.circle} ${active >= index ? styles.filled : ''}`.trim()}>
               {active !== index && index === trip.length - 1 && (
                 <X className={styles.terminus} />
               )}
@@ -35,11 +32,7 @@ export default function List({ active, onChange, trip }: Props) {
             </div>
             <button
               className={styles.cta}
-              onClick={() => {
-                shift(Overlay.None);
-
-                onChange(index);
-              }}
+              onClick={() => onChange(index)}
               type="button"
             >
               <div>

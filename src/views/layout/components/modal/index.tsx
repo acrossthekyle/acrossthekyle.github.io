@@ -11,7 +11,6 @@ export default function Modal() {
   const {
     content,
     handleOnClose,
-    hasDarkBackdrop,
     isCloseable,
     isOpen,
     size,
@@ -26,7 +25,7 @@ export default function Modal() {
     >
       <button
         aria-hidden="true"
-        className={styles.backdrop(isOpen, hasDarkBackdrop)}
+        className={styles.backdrop(isOpen)}
         onClick={handleOnClose}
         type="button"
       />

@@ -7,6 +7,7 @@ import {
 
 import { useEvent } from '@/hooks/useEvent';
 
+import Components from '../components';
 import styles from './stylesheet';
 
 type Props = {
@@ -34,22 +35,20 @@ export default function Images({
 
   return (
     <>
-      <button
+      <Components.Button
         className={`${styles.control} ${styles.previous}`}
         onClick={onPrevious}
         title={`Previous ${suffix}`}
-        type="button"
       >
         <ChevronLeft className={styles.chevron} />
-      </button>
-      <button
+      </Components.Button>
+      <Components.Button
         className={`${styles.control} ${styles.next}`}
         onClick={onNext}
         title={`Next ${suffix}`}
-        type="button"
       >
         <ChevronRight className={styles.chevron} />
-      </button>
+      </Components.Button>
     </>
   );
 }

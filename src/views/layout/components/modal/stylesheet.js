@@ -2,12 +2,10 @@ import tw from '@/styles';
 
 const styles = {
   dialog: tw(`relative z-10`),
-  backdrop: (isOpen, hasDarkBackdrop) => tw(`
+  backdrop: (isOpen) => tw(`
     fixed inset-0
     backdrop-blur-lg
     cursor-default
-
-    ${hasDarkBackdrop ? 'bg-(--background) sm:bg-transparent' : ''}
 
     ${isOpen ? (`
       opacity-100
@@ -82,9 +80,9 @@ const styles = {
     `)}
   `),
   close: tw(`
-    absolute top-2 left-2 z-3
+    absolute top-1 left-2 z-3
     cursor-pointer
-    p-2
+    p-3
 
     sm:p-6
   `),

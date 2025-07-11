@@ -1,8 +1,9 @@
-import { ClipboardList, Map } from 'lucide-react';
+import { AlignLeft, ClipboardList, Map } from 'lucide-react';
 
 import { useView } from '@/hooks/useView';
 import { Overlay, View } from '@/types';
 
+import Components from '../components';
 import styles from './stylesheet';
 
 type Props = {
@@ -15,29 +16,34 @@ export default function Controls({ hasGear, hasGps, hasRoutes }: Props) {
   const { shift, view } = useView();
 
   return (
-    <>
+    <div className={styles.container}>
       {hasGear && (
-        <button
-          className={`${styles.control} ${styles.gear}`}
+        <Components.Button
+          className={styles.control}
           onClick={() => shift(Overlay.Gear)}
           title="View gear"
-          type="button"
         >
           <ClipboardList className={styles.icon} /> Gear
-        </button>
+        </Components.Button>
       )}
+      <Components.Button
+        className={styles.control}
+        onClick={() => shift(Overlay.List)}
+        title="View all"
+      >
+        <AlignLeft className={styles.icon} /> Itinerary
+      </Components.Button>
       {(hasRoutes || hasGps) && (
-        <button
-          className={`${styles.control} ${styles.map}`}
+        <Components.Button
+          className={styles.control}
           onClick={() => shift(
             view === View.ImageOverMap ? View.ImageWithMap : View.ImageOverMap,
           )}
           title="Toggle map"
-          type="button"
         >
           Map <Map className={styles.icon} />
-        </button>
+        </Components.Button>
       )}
-    </>
+    </div>
   );
 }

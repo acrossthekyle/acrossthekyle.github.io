@@ -3,19 +3,17 @@ import tw from '@/styles';
 const styles = {
   container: tw(`
     relative
-    h-[calc(100dvh-2rem)]
-    w-[calc(100vw-2rem)]
-    mb-2
+    h-dvh
+    w-dvw
     overflow-hidden
-    bg-(--background)
+    shadow-black shadow-2xl
     duration-400
-    rounded-2xl
+    bg-(--background)
 
+    sm:rounded-2xl
     sm:h-[calc(100dvh-2rem)]
     sm:w-[calc(100vw-2rem)]
     sm:max-w-7xl
-    sm:shadow-black
-    sm:shadow-2xl
     lg:h-[calc(100dvh-6rem)]
     lg:w-[calc(100vw-6rem)]
   `),
