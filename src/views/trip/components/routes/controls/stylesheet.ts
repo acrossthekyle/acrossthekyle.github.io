@@ -20,7 +20,7 @@ const styles = {
     lg:right-auto
   `),
   icon: tw(`
-    w-5 h-5
+    w-3.5 h-3.5
     stroke-white
     stroke-2
   `),

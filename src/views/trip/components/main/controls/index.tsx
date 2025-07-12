@@ -1,4 +1,10 @@
-import { AlignLeft, ClipboardList, Map } from 'lucide-react';
+import {
+  List,
+  ChevronLeft,
+  ChevronRight,
+  ClipboardList,
+  Map,
+} from 'lucide-react';
 
 import { useView } from '@/hooks/useView';
 import { Overlay, View } from '@/types';
@@ -10,29 +16,46 @@ type Props = {
   hasGear: boolean;
   hasGps: boolean;
   hasRoutes: boolean;
+  onNext: () => void;
+  onPrevious: () => void;
+  suffix: string;
 };
 
-export default function Controls({ hasGear, hasGps, hasRoutes }: Props) {
+export default function Controls({
+  hasGear,
+  hasGps,
+  hasRoutes,
+  onNext,
+  onPrevious,
+  suffix,
+}: Props) {
   const { shift, view } = useView();
 
   return (
     <div className={styles.container}>
+      <Components.Button
+        className={styles.control}
+        onClick={onPrevious}
+        title={`Previous ${suffix}`}
+      >
+        <ChevronLeft className={styles.icon} />
+      </Components.Button>
+      <Components.Button
+        className={styles.control}
+        onClick={() => shift(Overlay.List)}
+        title="View itinerary"
+      >
+        <List className={styles.icon} />
+      </Components.Button>
       {hasGear && (
         <Components.Button
           className={styles.control}
           onClick={() => shift(Overlay.Gear)}
           title="View gear"
         >
-          <ClipboardList className={styles.icon} /> Gear
+          <ClipboardList className={styles.icon} />
         </Components.Button>
       )}
-      <Components.Button
-        className={styles.control}
-        onClick={() => shift(Overlay.List)}
-        title="View all"
-      >
-        <AlignLeft className={styles.icon} /> Itinerary
-      </Components.Button>
       {(hasRoutes || hasGps) && (
         <Components.Button
           className={styles.control}
@@ -41,9 +64,16 @@ export default function Controls({ hasGear, hasGps, hasRoutes }: Props) {
           )}
           title="Toggle map"
         >
-          Map <Map className={styles.icon} />
+          <Map className={styles.icon} />
         </Components.Button>
       )}
+      <Components.Button
+        className={styles.control}
+        onClick={onNext}
+        title={`Next ${suffix}`}
+      >
+        <ChevronRight className={styles.icon} />
+      </Components.Button>
     </div>
   );
 }

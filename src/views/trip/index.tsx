@@ -25,13 +25,13 @@ export default function View({ trip }: Props) {
         <button
           className={styles.close}
           onClick={handleOnClose}
+          title="Close trip"
           type="button"
         >
           <X className={styles.x} />
         </button>
         <Components.Main
           index={currentIndex}
-          onChange={handleOnChange}
           onNext={handleOnNext}
           onPrevious={handleOnPrevious}
           trip={trip}

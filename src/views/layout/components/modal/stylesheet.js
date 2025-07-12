@@ -80,11 +80,13 @@ const styles = {
     `)}
   `),
   close: tw(`
-    absolute top-1 left-2 z-3
+    absolute top-0 right-2.5 z-3
     cursor-pointer
     p-3
 
     sm:p-6
+    sm:left-2.5
+    sm:right-auto
   `),
   icon: tw(`
     w-5 h-5

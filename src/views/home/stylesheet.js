@@ -76,9 +76,15 @@ const styles = {
   eyebrow: tw(`
     text-xs font-normal uppercase
   `),
-  title: tw(`text-white text-2xl font-black uppercase`),
-  year: tw(`text-sm uppercase`),
-  pulse: tw(`animate-pulse`),
+  title: tw(`
+    text-white text-2xl font-black uppercase
+  `),
+  year: tw(`
+    text-xs uppercase
+  `),
+  pulse: tw(`
+    animate-pulse
+  `),
   skeleton: tw(`
     relative
     overflow-hidden

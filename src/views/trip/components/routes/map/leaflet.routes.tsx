@@ -7,7 +7,6 @@ import { Fragment, useEffect, useRef, useState } from 'react';
 import {
   CircleMarker,
   MapContainer,
-  Marker,
   Polyline,
   TileLayer,
   useMap,
@@ -20,15 +19,6 @@ import Controls from './controls';
 import styles from './stylesheet';
 
 const WORLD_ZOOM_LEVEL = 2;
-
-function mapPinIcon() {
-  return L.divIcon({
-    className: '',
-    html: `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fde047" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin-icon lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>`,
-    iconSize: [30, 30],
-    iconAnchor: [14, 24],
-  });
-};
 
 type Props = {
   currentIndex: number;
@@ -248,23 +238,17 @@ export default function Leaflet({
         <>
           <CircleMarker
             center={all[currentIndex][0]}
-            className={styles.circle}
-            fill={false}
-            opacity={1}
-            weight={1}
-            radius={8}
-            dashArray={[4, 4]}
-          />
-          <CircleMarker
-            center={all[currentIndex][0]}
-            className={styles.circle}
+            className={`${styles.circle} ${styles.start}`}
             fillOpacity={1}
             opacity={1}
-            radius={2}
+            radius={4}
           />
-          <Marker
-            position={all[currentIndex][all[currentIndex].length - 1]}
-            icon={mapPinIcon()}
+          <CircleMarker
+            center={all[currentIndex][all[currentIndex].length - 1]}
+            className={`${styles.circle} ${styles.end}`}
+            fillOpacity={1}
+            opacity={1}
+            radius={4}
           />
         </>
       )}

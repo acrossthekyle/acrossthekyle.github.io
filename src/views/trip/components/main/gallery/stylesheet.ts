@@ -33,19 +33,20 @@ const styles = {
     opacity-0
   `),
   caption: tw(`
-    absolute bottom-14 z-5
-    flex flex-col items-center
-    px-4
-    w-full
-    text-sm text-white font-black uppercase
+    absolute left-3 bottom-14 z-5
+    flex flex-col
+    text-xs text-left font-normal uppercase
 
+    sm:left-6
     sm:bottom-17
   `),
   title: tw(`
-    flex items-start justify-center
-    mb-2
-
-    sm:mb-1
+    text-sm text-white font-black uppercase
+    mb-1 me-3
+  `),
+  date: tw(`
+    block
+    mb-1
   `),
   step: tw(`
     block

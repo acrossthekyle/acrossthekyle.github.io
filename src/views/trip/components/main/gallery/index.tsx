@@ -30,8 +30,11 @@ export default function Gallery({ active, swipeable, trip }: Props) {
           <span className={styles.title}>
             {trip.stages[active].title.replace(/ to /g, '\u00A0\u2192\u00A0')}
           </span>
-          <span className={styles.step}>
+          <span className={styles.date}>
             {trip.stages[active].date}
+          </span>
+          <span className={styles.step}>
+            {String(active + 1).padStart(2, '0')} / {String(trip.length).padStart(2, '0')}
           </span>
         </figcaption>
       </figure>

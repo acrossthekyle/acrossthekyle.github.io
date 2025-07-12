@@ -28,11 +28,13 @@ const styles = {
     portrait:flex-col
   `),
   close: tw(`
-    absolute top-0 left-0 z-5
+    absolute top-0 right-0 z-5
     cursor-pointer
     p-4
 
     sm:p-6
+    sm:left-0
+    sm:right-auto
   `),
   x: tw(`
     w-5 h-5

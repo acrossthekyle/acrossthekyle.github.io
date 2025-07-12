@@ -55,7 +55,7 @@ const styles = {
   arrow: tw(`
     w-5 h-5
     stroke-white
-    stroke-2
+    stroke-1
   `),
 };
 

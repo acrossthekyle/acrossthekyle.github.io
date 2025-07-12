@@ -36,7 +36,9 @@ const styles = {
     3xs:mt-4
     3xs:ms-0
   `),
-  name: tw(`text-xl font-black uppercase`),
+  name: tw(`
+    text-xl font-black uppercase
+  `),
   job: tw(`
     text-tiny font-medium uppercase
     pt-2
@@ -44,7 +46,7 @@ const styles = {
     3xs:px-4
   `),
   location: tw(`
-    text-xs/5 uppercase font-medium
+    text-xs uppercase font-medium
   `),
   introduction: tw(`
     p-6 pb-8

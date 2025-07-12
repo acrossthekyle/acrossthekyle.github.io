@@ -31,7 +31,7 @@ const data = [
     "id": "N4HkpHlfYaqDxql",
     "title": "Camino de Santiago",
     "type": "thru-hike",
-    "image": "2018/06/02/cb1647f3-cfe3-407e-977c-1d52dfd849ed.jpeg",
+    "image": "2018/06/02/1921986b-9cf8-4bf8-b531-3bfe2f098f93.jpeg",
     "date": "June 2 - July 4",
     "year": "2018",
     "timestamp": 1527915600,

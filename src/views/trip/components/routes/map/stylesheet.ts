@@ -45,6 +45,12 @@ const styles = {
     stroke-yellow-300
     !pointer-events-none
   `),
+  start: tw(`
+    fill-black
+  `),
+  end: tw(`
+    fill-yellow-300
+  `),
   pin: tw(`
     stroke-10
   `),

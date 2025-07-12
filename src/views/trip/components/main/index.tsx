@@ -6,15 +6,12 @@ import { useView } from '@/hooks/useView';
 import type { Trip } from '@/types';
 
 import Controls from './controls';
-import Dots from './dots';
 import Gallery from './gallery';
 import Header from './header';
-import Navigation from './navigation';
 import styles from './stylesheet';
 
 type Props = {
   index: number;
-  onChange: (index: number) => void;
   onNext: () => void;
   onPrevious: () => void;
   trip: Trip;
@@ -22,7 +19,6 @@ type Props = {
 
 export default function Main({
   index,
-  onChange,
   onNext,
   onPrevious,
   trip,
@@ -43,13 +39,14 @@ export default function Main({
     <div className={styles.container(view)}>
       <Gallery active={index} swipeable={swipeable.ref} trip={trip} />
       <Header trip={trip} />
-      <Navigation onNext={onNext} onPrevious={onPrevious} suffix={trip.label} />
       <Controls
         hasGear={trip.hasGear}
         hasGps={trip.hasGps}
         hasRoutes={trip.hasRoutes}
+        onNext={onNext}
+        onPrevious={onPrevious}
+        suffix={trip.label}
       />
-      <Dots active={index} onClick={onChange} total={trip.length} />
     </div>
   );
 }
