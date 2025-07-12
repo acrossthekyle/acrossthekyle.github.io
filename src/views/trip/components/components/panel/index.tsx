@@ -1,5 +1,8 @@
+'use client';
+
 import { X } from 'lucide-react';
 import { ReactNode } from 'react';
+import { SwipeEventData, useSwipeable } from 'react-swipeable';
 
 import { useView } from '@/hooks/useView';
 import { Overlay } from '@/types';
@@ -14,8 +17,16 @@ type Props = {
 export default function Panel({ children, isActive }: Props) {
   const { shift } = useView();
 
+  const swipeable = useSwipeable({
+    onSwiped: (eventData: SwipeEventData) => {
+      if (eventData.dir.toLowerCase() === 'left') {
+        shift(Overlay.None);
+      }
+    },
+  });
+
   return (
-    <div className={styles.container(isActive)}>
+    <div className={styles.container(isActive)} {...swipeable}>
       <button
         className={styles.backdrop(isActive)}
         onClick={() => shift(Overlay.None)}

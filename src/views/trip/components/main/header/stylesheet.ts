@@ -2,30 +2,19 @@ import tw from '@/styles';
 
 const styles = {
   header: tw(`
-    absolute -top-1 left-0 z-4
-    text-left
+    absolute -top-1 right-0 z-4
+    text-right
     w-full
-    p-4
+    p-4 ps-10
+    font-thin uppercase
 
     sm:p-6
-    sm:right-0
-    sm:left-auto
-    sm:text-right
   `),
   trip: tw(`
-    text-2xl font-thin uppercase
-    me-10
-
-    sm:text-3xl
-    sm:ms-10
-    sm:me-0
+    text-3xl
   `),
   location: tw(`
-    text-xs font-thin uppercase
-    me-10
-
-    sm:ms-10
-    sm:me-0
+    text-xs
   `),
 };
 

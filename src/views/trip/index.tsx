@@ -32,6 +32,7 @@ export default function View({ trip }: Props) {
         </button>
         <Components.Main
           index={currentIndex}
+          onClose={handleOnClose}
           onNext={handleOnNext}
           onPrevious={handleOnPrevious}
           trip={trip}

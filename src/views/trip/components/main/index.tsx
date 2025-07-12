@@ -12,6 +12,7 @@ import styles from './stylesheet';
 
 type Props = {
   index: number;
+  onClose: () => void;
   onNext: () => void;
   onPrevious: () => void;
   trip: Trip;
@@ -19,6 +20,7 @@ type Props = {
 
 export default function Main({
   index,
+  onClose,
   onNext,
   onPrevious,
   trip,
@@ -31,6 +33,8 @@ export default function Main({
         onNext();
       } else if (eventData.dir.toLowerCase() === 'right') {
         onPrevious();
+      } else if (eventData.dir.toLowerCase() === 'down') {
+        onClose();
       }
     },
   });
