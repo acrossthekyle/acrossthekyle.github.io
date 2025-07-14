@@ -15,22 +15,25 @@ type Props = {
 };
 
 export default function Card({ index, onClick, trip }: Props) {
+  const [hasBeenScrolled, setHasBeenScrolled] = useState(false);
   const [hasEnteredView, setHasEnteredView] = useState(false);
 
   const handleOnInView = useCallback(
     (isInView: boolean) => {
-      if (!hasEnteredView && isInView) {
-        setHasEnteredView(true);
+      setHasEnteredView(isInView);
+
+      if (!hasBeenScrolled && isInView) {
+        setHasBeenScrolled(true);
       }
     },
-    [hasEnteredView],
+    [hasBeenScrolled],
   );
 
   return (
-    <InView onChange={handleOnInView} threshold={0.01}>
+    <InView onChange={handleOnInView} threshold={0.75}>
       {({ ref }) => (
-        <li className={styles.card(hasEnteredView)} ref={ref}>
-          <figure className={styles.figure}>
+        <li className={styles.card(hasBeenScrolled, hasEnteredView)} ref={ref}>
+          <figure className={styles.figure(hasBeenScrolled)}>
             <button
               className={styles.link}
               onClick={onClick}
@@ -38,25 +41,17 @@ export default function Card({ index, onClick, trip }: Props) {
             >
               <Image
                 alt=""
-                className={styles.image}
+                className={styles.image(hasEnteredView)}
                 height="333"
                 priority={index < 3}
                 src={trip.image}
                 width="500"
               />
               <figcaption className={styles.caption}>
-                <p className={styles.eyebrow}>
-                  {
-                    trip.stats
-                      .map(({ value, units }) => `${value} ${units}`)
-                      .join(' • ')
-                  }
-                </p>
                 <h2 className={styles.title}>{trip.title}</h2>
-                <h3 className={styles.year}>
-                  {[trip.date, trip.year].filter(Boolean).join(', ')}
-                </h3>
-                <span className={styles.tag}>{trip.type}</span>
+                <span className={styles.subtitle}>
+                  {trip.type} • {trip.year}
+                </span>
               </figcaption>
             </button>
           </figure>

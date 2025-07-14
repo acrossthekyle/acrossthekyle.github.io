@@ -1,6 +1,6 @@
 'use client';
 
-import { AlignRight } from 'lucide-react';
+import { AlignLeft } from 'lucide-react';
 import { ReactNode, Suspense } from 'react';
 
 import Components from './components';
@@ -18,16 +18,16 @@ export default function View({ children }: Props) {
     <>
       <header className={styles.header}>
         <div className={styles.inner}>
-          <Suspense>
-            <Components.Search />
-          </Suspense>
           <button
             className={styles.menu}
             onClick={handleOnMenuOpen}
             type="button"
           >
-            <AlignRight className={styles.icon} />
+            <AlignLeft className={styles.icon} />
           </button>
+          <Suspense>
+            <Components.Search />
+          </Suspense>
         </div>
       </header>
       <main className={styles.main}>
