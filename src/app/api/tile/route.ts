@@ -23,6 +23,7 @@ export async function GET(request: NextRequest) {
         'Cache-Control': 'max-age=2592000',
       },
     });
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   } catch (e) {
     return new NextResponse('invalid', { status: 500 });
   }
