@@ -2,7 +2,6 @@ import '../globals.css';
 
 import type { Metadata, Viewport } from 'next';
 import { Geist } from 'next/font/google';
-import { ReactNode } from 'react';
 
 import Stack from '@/context/stack';
 import Layout from '@/views/layout';
@@ -38,10 +37,8 @@ export const viewport: Viewport = {
 
 export default function RootLayout({
   children,
-  modal,
 }: {
-  children: ReactNode;
-  modal: React.ReactNode;
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
@@ -50,7 +47,6 @@ export default function RootLayout({
           <Layout>
             {children}
           </Layout>
-          {modal}
         </Stack>
       </body>
     </html>

@@ -192,8 +192,10 @@ export default function Leaflet({
       zoomControl={false}
     >
       <TileLayer
-        attribution="Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ"
-        url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}"
+        attribution={
+            '&copy; <a href="https://stadiamaps.com/" target="_blank">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>'
+          }
+          url={`/api/tile?z={z}&x={x}&y={y}&r={r}`}
       />
       {recentZoom !== WORLD_ZOOM_LEVEL && all.map((route, index) => {
         return (

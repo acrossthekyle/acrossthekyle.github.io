@@ -23,14 +23,14 @@ const styles = {
     select-none
     row-span-11
 
-    sm:[:nth-child(1n)]:row-span-9
-    sm:[:nth-child(2n)]:row-span-11
+    sm:[:nth-child(1n)]:row-span-7
+    sm:[:nth-child(2n)]:row-span-9
     lg:[:nth-child(1n)]:row-span-5
     lg:[:nth-child(2n)]:row-span-8
     lg:[:nth-child(3n)]:row-span-6
 
     ${hasEnteredView ? `
-      opacity-90
+      opacity-100
       shadow-black
       scale-100
 

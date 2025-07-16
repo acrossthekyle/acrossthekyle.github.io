@@ -20,10 +20,6 @@
   --max-w-8xl: 100rem;
 }
 
-body, html {
-  overflow-x: hidden;
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
@@ -39,11 +35,6 @@ body {
 
   button[type="button"] {
     text-align: left;
-  }
-
-  .leaflet-tile {
-    filter: grayscale(100%) invert(100%);
-    opacity: 50% !important;
   }
 
   .leaflet-container {
