@@ -1,6 +1,6 @@
 const data = [
   {
-    "id": "U66GfsTi4Zflk90",
+    "id": "cQL45G0TpL8unPb",
     "tripId": "smdTdOu9zzcIC7K",
     "itinerary": {
       "map": "world",
@@ -131,7 +131,7 @@ const data = [
     }
   },
   {
-    "id": "Zuac9AG3sprwPky",
+    "id": "QAwQRzgA8xUUk1D",
     "tripId": "rDF2WHqEvEKlILl",
     "itinerary": {
       "map": "world",
@@ -313,7 +313,7 @@ const data = [
     }
   },
   {
-    "id": "fm4EI6xwr4fS5DR",
+    "id": "r9jkQ86pmrplbEy",
     "tripId": "N4HkpHlfYaqDxql",
     "itinerary": {
       "map": "world",
@@ -461,7 +461,7 @@ const data = [
     }
   },
   {
-    "id": "1aKrt3214WpUh5W",
+    "id": "RznA0a4aSiUI6Ap",
     "tripId": "9sTY7zOYLEgzg14",
     "itinerary": {
       "map": "north-america",
@@ -652,7 +652,7 @@ const data = [
     }
   },
   {
-    "id": "ipphQxODYIY99lb",
+    "id": "IwUZcfHbzEER8QW",
     "tripId": "yCgl91McCKXS8qT",
     "itinerary": {
       "map": "north-america",
@@ -795,7 +795,7 @@ const data = [
     }
   },
   {
-    "id": "XhHgSqyAW9SlmwU",
+    "id": "LVzXu1key9yv1WP",
     "tripId": "w2RLiwOJUV47nRG",
     "itinerary": {
       "map": "world",
@@ -994,7 +994,7 @@ const data = [
     }
   },
   {
-    "id": "oi2gam6CZg3PGpL",
+    "id": "EGRhreclqtBodxP",
     "tripId": "lBkSFDPGjsrJaHk",
     "itinerary": {
       "map": "world",
@@ -1193,7 +1193,7 @@ const data = [
     }
   },
   {
-    "id": "62FJennWMPTRton",
+    "id": "a39LiI8STzhg9Sv",
     "tripId": "3XxhkdLe7pvjCfc",
     "itinerary": {
       "map": "world",
@@ -1324,7 +1324,7 @@ const data = [
     }
   },
   {
-    "id": "1W48ROygP7b74aC",
+    "id": "iOvakGQu0T0HaKZ",
     "tripId": "Lsgt4mh2dQrdWrn",
     "itinerary": {
       "map": "north-america",
@@ -1430,7 +1430,7 @@ const data = [
     }
   },
   {
-    "id": "ynzamQwZunlBRj6",
+    "id": "o3C9C5t5jW6ArdF",
     "tripId": "2oThDjcm12S3Viu",
     "itinerary": {
       "map": "north-america",
@@ -1607,7 +1607,7 @@ const data = [
     }
   },
   {
-    "id": "dCrOtZCeJHk6to5",
+    "id": "zLLu5uglbo7Xymu",
     "tripId": "pvSEvH3A7Ysnvsf",
     "itinerary": {
       "map": "world",
@@ -1738,7 +1738,7 @@ const data = [
     }
   },
   {
-    "id": "quvIgEioJWFSi6n",
+    "id": "dfCsWZesR6QJorB",
     "tripId": "OfpW2rt8VHawxvu",
     "itinerary": {
       "map": "world",
@@ -1869,7 +1869,7 @@ const data = [
     }
   },
   {
-    "id": "Z72yCsDnNyO7DW6",
+    "id": "VhwQdWBULb6b3eu",
     "tripId": "V3V3fsmvjdZ6TPE",
     "itinerary": {
       "map": "world",

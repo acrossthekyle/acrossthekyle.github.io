@@ -171,7 +171,7 @@ const data = [
   },
   {
     "id": "V3V3fsmvjdZ6TPE",
-    "title": "GR No. 20",
+    "title": "Corsica Grand Route",
     "type": "thru-hike",
     "image": "2023/06/21/0ff34736-949f-4981-b339-06b6d304ba51.jpeg",
     "date": "June 21 - July 3",

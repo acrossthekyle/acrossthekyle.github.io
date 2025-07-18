@@ -8,7 +8,11 @@ export async function GET(request: NextRequest) {
   const y = searchParams.get('y');
   const z = searchParams.get('z');
 
-  const tile = `https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/${z}/${x}/${y}${r}.png?api_key=${process.env.LEAFLET_STADIA_API_KEY}`;
+  let tile = `https://tile.openstreetmap.org/${z}/${x}/${y}.png`;
+
+  if (process.env.NODE_ENV === 'production') {
+    tile = `https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/${z}/${x}/${y}${r}.png?api_key=${process.env.LEAFLET_STADIA_API_KEY}`;
+  }
 
   try {
     const result = await fetch(tile);
