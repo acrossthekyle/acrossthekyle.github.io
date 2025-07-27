@@ -1,14 +1,14 @@
 import tw from '@/styles';
 
-const styles = {
-  search: tw(`
+const styles = tw({
+  search: `
     group
     relative
     h-10 w-auto
     ms-8
     duration-500
-  `),
-  input: tw(`
+  `,
+  input: `
     w-full h-full
     text-white font-thin tracking-wide
     border-transparent
@@ -28,20 +28,20 @@ const styles = {
     focus:ring-white/50
 
     sm:w-50
-  `),
-  submit: tw(`
+  `,
+  submit: `
     absolute left-3 top-3
     rounded-lg
     border-transparent
     flex items-center justify-center
     transition-all
     cursor-pointer
-  `),
-  icon: tw(`
+  `,
+  icon: `
     h-4 w-4
     stroke-1
     stroke-white/50
-  `),
-};
+  `,
+});
 
 export default styles;

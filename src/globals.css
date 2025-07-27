@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #262626;
+  --background: #1c1917;
   --foreground: #ffffff;
 }
 
@@ -18,6 +18,94 @@
 
   --text-tiny: 0.625rem;
   --max-w-8xl: 100rem;
+
+  --animate-scale-enter: scaleEnter .75s cubic-bezier(0.25, 0.1, 0.25, 1) 1;
+  --animate-scale-leave: scaleLeave .75s cubic-bezier(0.25, 0.1, 0.25, 1) 1;
+
+  --animate-slide-in-left: slideInLeft .75s ease-out 1;
+  --animate-slide-in-right: slideInRight .75s ease-out 1;
+  --animate-slide-in-up: slideInUp .75s ease-out 1;
+  --animate-slide-in-down: slideInDown .75s ease-out 1;
+
+  --animate-slide-out-left: slideOutLeft .4s ease-in 1 forwards;
+  --animate-slide-out-right: slideOutRight .4s ease-in 1 forwards;
+  --animate-slide-out-up: slideOutUp .4s ease-in 1 forwards;
+  --animate-slide-out-down: slideOutDown .4s ease-in 1 forwards;
+
+  --animate-slide-in-left-text: .4s slideInLeftText .2s ease-out 1 forwards;
+  --animate-slide-in-right-text: .4s slideInRightText .2s ease-out 1 forwards;
+  --animate-slide-in-up-text: .4s slideInUpText .2s ease-out 1 forwards;
+  --animate-slide-in-down-text: .4s slideInDownText .3s ease-out 1 forwards;
+
+  @keyframes scaleEnter {
+    0% { transform: scale(.8); }
+    100% { transform: scale(1); }
+  }
+
+  @keyframes scaleLeave {
+    0% { transform: scale(1); }
+    100% { transform: scale(.8); }
+  }
+
+  @keyframes slideInLeft {
+    0% { opacity: 0; transform: translateX(-100%); }
+    100% { opacity: 100; transform: translateX(0); }
+  }
+
+  @keyframes slideInLeftText {
+    0% { opacity: 0; transform: translateX(-50%); }
+    100% { opacity: 100; transform: translateX(0); }
+  }
+
+  @keyframes slideOutLeft {
+    0% { opacity: 100; transform: translateX(0); }
+    100% { opacity: 50; transform: translateX(-100%); }
+  }
+
+  @keyframes slideInRight {
+    0% { opacity: 0; transform: translateX(100%); }
+    100% { opacity: 100; transform: translateX(0); }
+  }
+
+  @keyframes slideInRightText {
+    0% { opacity: 0; transform: translateX(50%); }
+    100% { opacity: 100; transform: translateX(0); }
+  }
+
+  @keyframes slideOutRight {
+    0% { opacity: 100; transform: translateX(0); }
+    100% { opacity: 50; transform: translateX(100%); }
+  }
+
+  @keyframes slideInUp {
+    0% { opacity: 0; transform: translateY(100%); }
+    100% { opacity: 100; transform: translateY(0); }
+  }
+
+  @keyframes slideInUpText {
+    0% { opacity: 0; transform: translateY(50%); }
+    100% { opacity: 100; transform: translateY(0); }
+  }
+
+  @keyframes slideOutUp {
+    0% { opacity: 100; transform: translateY(0); }
+    100% { opacity: 50; transform: translateY(100%); }
+  }
+
+  @keyframes slideInDown {
+    0% { opacity: 0; transform: translateY(-100%); }
+    100% { opacity: 100; transform: translateY(0); }
+  }
+
+  @keyframes slideInDownText {
+    0% { opacity: 0; transform: translateY(-50%); }
+    100% { opacity: 100; transform: translateY(0); }
+  }
+
+  @keyframes slideOutDown {
+    0% { opacity: 100; transform: translateY(0); }
+    100% { opacity: 50; transform: translateY(-100%); }
+  }
 }
 
 body {
@@ -37,69 +125,39 @@ body {
     text-align: left;
   }
 
+  #all-routes .leaflet-tile-pane {
+    display: none;
+  }
+
+  #all-routes .leaflet-tooltip {
+    background: #222;
+    border: none;
+    border-radius: 0.5rem;
+    transition: opacity 0.25s ease-in;
+  }
+
+  #all-routes .leaflet-tooltip-left:before {
+    border-left-color: #222;
+  }
+
+  #all-routes .leaflet-tooltip-right:before {
+    border-right-color: #222;
+  }
+
+  #all-routes .leaflet-tooltip-top:before {
+    border-top-color: #222;
+  }
+
+  #all-routes .leaflet-tooltip-bottom:before {
+    border-bottom-color: #222;
+  }
+
+  #all-routes {
+    overflow: visible;
+  }
+
   .leaflet-container {
     background: var(--background);
-  }
-
-  .leaflet-control {
-    clear: none;
-    z-index: 10;
-  }
-
-  .leaflet-control-zoom {
-    border: none !important;
-    top: 6rem;
-    right: 1.5rem;
-  }
-
-  .leaflet-top .leaflet-control,
-  .leaflet-right .leaflet-control {
-    margin-top: 0;
-    margin-right: 0;
-  }
-
-  .leaflet-control-zoom-in,
-  .leaflet-control-zoom-out {
-    display: flex;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.7) !important;
-    border-bottom: none !important;
-    border-radius: 0.5rem !important;
-    color: #ffffff !important;
-    opacity: 0.5;
-    height: 2rem !important;
-    width: 2rem !important;
-    line-height: 26px !important;
-    transition: opacity .5s;
-  }
-
-  .leaflet-control-zoom-in:hover,
-  .leaflet-control-zoom-out:hover {
-    opacity: 1;
-  }
-
-  .leaflet-control-zoom-in {
-    margin-bottom: 0.25rem;
-  }
-
-  .leaflet-control-zoom-out {
-    margin-bottom: 0;
-  }
-
-  .leaflet-tooltip {
-    border: none;
-    box-shadow: none;
-    background: var(--background);
-    color: white;
-    transition: none !important;
-  }
-
-  .leaflet-tooltip-left:before {
-    border-left-color: var(--background);
-  }
-
-  .leaflet-tooltip-right:before {
-    border-right-color: var(--background);
   }
 
   .leaflet-control-attribution {

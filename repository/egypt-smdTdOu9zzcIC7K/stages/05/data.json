@@ -1,13 +1,6 @@
 {
   "date": "January 1st, 2023",
-  "id": "snmXF8XETo",
   "title": "Egyptian Museum",
   "image": "2022/12/28/f24edc7b-3854-40c5-a2e7-33e2e2e27bde.jpeg",
-  "gps": {
-    "latitude": "30.0483",
-    "longitude": "31.2337"
-  },
-  "parent": "smdTdOu9zzcIC7K",
-  "next": "jj3YBScIF2d7Wp6",
-  "previous": "vDy4a0rrn5"
+  "latlong": ["30.0483", "31.2337"]
 }

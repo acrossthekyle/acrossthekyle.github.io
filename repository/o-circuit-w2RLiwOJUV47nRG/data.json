@@ -1,218 +1,27 @@
 {
-  "date": "February 18 - 25, 2020",
-  "timestamp": "February 18th, 2020",
-  "id": "w2RLiwOJUV47nRG",
+  "dates": ["2/18/2020", "2/25/2020"],
+  "days": "8",
+  "timestamp": "1582041600",
   "type": "thru-hike",
   "image": "2020/02/18/5e958df4-56a2-4292-ae6d-b694f078a985.jpeg",
-  "location": "Patagonia, Chile",
+  "location": "Patagonia",
+  "tagline": "The end of the world",
   "marker": {
     "left": "25.8",
     "top": "95.5"
   },
-  "next": "Lsgt4mh2dQrdWrn",
-  "previous": "lBkSFDPGjsrJaHk",
-  "description": "The O Circuit is a thru-hike in the Torres del Paine National park of Patagonia in Southern Chile known for its soaring mountains, bright blue icebergs that cleave from glaciers and golden grasslands that shelter rare wildlife. It is hike of a lifetime in a wild place at the end of the world. The amazing granite towers that give the park its name are a unique experience.",
+  "previews": {
+    "small": "2020/02/18/38a1b675-74c7-45b5-9e37-8020d298a0b3.jpeg",
+    "large": "2020/02/18/dd6e739e-b793-4c64-8e7c-c6a631b467c7.jpeg"
+  },
+  "description": [
+    "A tapestry of landscapes surrounding spires of granite",
+    "Towering granite peaks, sprawling glaciers, pristine lakes, and windswept plains."
+  ],
   "categories": [
     "thru-hike",
     "south america",
     "patagonia"
   ],
-  "title": "O Circuit",
-  "direction": "loop",
-  "itinerary": {
-    "map": "world",
-    "outbound": [
-      {
-        "date": "February 16",
-        "start": {
-          "name": "Chicago",
-          "port": "ORD"
-        },
-        "end": {
-          "name": "Dallas",
-          "port": "DFW"
-        },
-        "type": "flight",
-        "distance": "802",
-        "duration": {
-          "hours": "2",
-          "minutes": "30"
-        }
-      },
-      {
-        "date": "February 17",
-        "start": {
-          "name": "Dallas",
-          "port": "DFW"
-        },
-        "end": {
-          "name": "Santiago",
-          "port": "SCL"
-        },
-        "type": "flight",
-        "distance": "4870",
-        "duration": {
-          "hours": "9",
-          "minutes": "25"
-        }
-      },
-      {
-        "date": "February 17",
-        "start": {
-          "name": "Santiago",
-          "port": "SCL"
-        },
-        "end": {
-          "name": "Punta Arenas",
-          "port": "PUQ"
-        },
-        "type": "flight",
-        "distance": "1371",
-        "duration": {
-          "hours": "3",
-          "minutes": "30"
-        }
-      },
-      {
-        "date": "February 17",
-        "start": {
-          "name": "Punta Arenas",
-          "port": "PUQ"
-        },
-        "end": {
-          "name": "Puerto Natales",
-          "municipality": "Patagonia, Chile"
-        },
-        "type": "bus",
-        "distance": "154",
-        "duration": {
-          "hours": "3",
-          "minutes": "15"
-        }
-      },
-      {
-        "date": "February 18",
-        "start": {
-          "name": "Puerto Natales",
-          "municipality": "Patagonia, Chile"
-        },
-        "end": {
-          "name": "Torres del Paine",
-          "municipality": "Patagonia, Chile"
-        },
-        "type": "bus",
-        "distance": "70",
-        "duration": {
-          "hours": "2",
-          "minutes": "0"
-        }
-      }
-    ],
-    "during": [
-      {
-        "date": "February 18 - February 25",
-        "start": {
-          "name": "Refugio Seron",
-          "municipality": "Patagonia, Chile"
-        },
-        "end": {
-          "name": "Refugio Chileno",
-          "municipality": "Patagonia, Chile"
-        },
-        "type": "walking",
-        "distance": null,
-        "duration": {
-          "days": "8"
-        }
-      }
-    ],
-    "inbound": [
-      {
-      "date": "February 25",
-        "start": {
-          "name": "Torres del Paine",
-          "municipality": "Patagonia, Chile"
-        },
-        "end": {
-          "name": "Puerto Natales",
-          "municipality": "Patagonia, Chile"
-        },
-        "type": "bus",
-        "distance": "70",
-        "duration": {
-          "hours": "2",
-          "minutes": "0"
-        }
-      },
-      {
-        "date": "February 26",
-        "start": {
-          "name": "Puerto Natales",
-          "municipality": "Patagonia, Chile"
-        },
-        "end": {
-          "name": "Punta Arenas",
-          "municipality": "Patagonia, Chile"
-        },
-        "type": "bus",
-        "distance": "154",
-        "duration": {
-          "hours": "3",
-          "minutes": "15"
-        }
-      },
-      {
-        "date": "February 27",
-        "start": {
-          "name": "Punta Arenas",
-          "port": "PUQ"
-        },
-        "end": {
-          "name": "Santiago",
-          "port": "SCL"
-        },
-        "type": "flight",
-        "distance": "1371",
-        "duration": {
-          "hours": "3",
-          "minutes": "30"
-        }
-      },
-      {
-        "date": "February 28",
-        "start": {
-          "name": "Santiago",
-          "port": "SCL"
-        },
-        "end": {
-          "name": "Dallas",
-          "port": "DFW"
-        },
-        "type": "flight",
-        "distance": "4870",
-        "duration": {
-          "hours": "9",
-          "minutes": "25"
-        }
-      },
-      {
-        "date": "February 28",
-        "start": {
-          "name": "Dallas",
-          "port": "DFW"
-        },
-        "end": {
-          "name": "Chicago",
-          "port": "ORD"
-        },
-        "type": "flight",
-        "distance": "802",
-        "duration": {
-          "hours": "2",
-          "minutes": "30"
-        }
-      }
-    ]
-  },
-  "lodging": "camping"
+  "title": "Torres del Paine Circuit"
 }

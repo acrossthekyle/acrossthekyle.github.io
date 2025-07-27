@@ -1,13 +1,6 @@
 {
   "date": "January 3rd, 2023",
-  "id": "qdOZE6PE0m1X35z",
   "title": "Habu Temple",
   "image": "2022/12/28/44f2c787-1209-4e11-a2fe-64030e0c472c.jpeg",
-  "gps": {
-    "latitude": "25.7017",
-    "longitude": "32.6333"
-  },
-  "parent": "smdTdOu9zzcIC7K",
-  "next": "MXWfPwh0avtMVTE",
-  "previous": "brupkrttnUbfyKm"
+  "latlong": ["25.7017", "32.6333"]
 }

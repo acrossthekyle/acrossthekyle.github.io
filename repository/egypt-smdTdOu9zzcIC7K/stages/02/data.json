@@ -1,13 +1,6 @@
 {
   "date": "December 29th, 2022",
-  "id": "QiHbri0Gey",
   "title": "Great Sphinx of Giza",
   "image": "2022/12/28/b3275967-68fd-4c69-ad40-df15b2a697b5.jpeg",
-  "gps": {
-    "latitude": "29.9753",
-    "longitude": "31.1376"
-  },
-  "parent": "smdTdOu9zzcIC7K",
-  "next": "vDy4a0rrn5",
-  "previous": null
+  "latlong": ["29.9753", "31.1376"]
 }

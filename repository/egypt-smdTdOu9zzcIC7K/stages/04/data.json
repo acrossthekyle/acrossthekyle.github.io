@@ -1,13 +1,6 @@
 {
   "date": "December 30th, 2022",
-  "id": "vDy4a0rrn5",
   "title": "Bent Pyramid at Dahshur",
   "image": "2022/12/28/67389b3e-bdda-4a92-a884-7fdaf2ae145f.jpeg",
-  "gps": {
-    "latitude": "29.7904",
-    "longitude": "31.2093"
-  },
-  "parent": "smdTdOu9zzcIC7K",
-  "next": "snmXF8XETo",
-  "previous": "QiHbri0Gey"
+  "latlong": ["29.7904", "31.2093"]
 }

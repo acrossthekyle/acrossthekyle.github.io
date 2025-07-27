@@ -1,13 +1,6 @@
 {
   "date": "December 29th, 2022",
-  "id": "QiHbri0Gey",
   "title": "Great Pyramids at Giza",
   "image": "2022/12/28/c206b03e-01aa-43d3-ba10-19fc0eeb3fbd.jpeg",
-  "gps": {
-    "latitude": "29.9769",
-    "longitude": "31.1327"
-  },
-  "parent": "smdTdOu9zzcIC7K",
-  "next": "vDy4a0rrn5",
-  "previous": null
+  "latlong": ["29.9769", "31.1327"]
 }

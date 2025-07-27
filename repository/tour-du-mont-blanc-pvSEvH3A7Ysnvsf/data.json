@@ -1,150 +1,28 @@
 {
-  "date": "July 27 - August 6, 2024",
-  "timestamp": "July 27th, 2024",
-  "id": "pvSEvH3A7Ysnvsf",
+  "dates": ["7/27/2024", "8/6/2024"],
+  "days": "11",
+  "timestamp": "1753228805",
   "type": "thru-hike",
   "image": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg",
-  "location": "Alps, Europe",
-  "previous": "V3V3fsmvjdZ6TPE",
-  "next": null,
+  "location": "The Alps",
+  "tagline": "Rich with history",
+  "previews": {
+    "small": "2024/07/27/a45073e7-ef67-4e31-a5e7-3ba9b4b97b4e.jpeg",
+    "large": "2024/07/27/b70777d8-b89d-4d60-b422-2d2af80483e4.jpeg"
+  },
   "marker": {
     "left": "46.6",
     "top": "22"
   },
-  "description": "Considered one of the classic long-distance hiking trails, the Tour du Mont Blanc circumnavigates the Mont Blanc massif in the Alps, passing through France, Italy, and Switzerland. It's known for its stunning views, diverse scenery, and the opportunity to experience three different cultures. The rustic, mountain life – remote and authentic, was the perfect first foray into long-distance trekking. It's a challenging trek, but the reward goes far beyond the views with amazing meals in cozy mountain huts. The blend of breathtaking landscapes, rich cultures, and warm encounters makes this journey truly unforgettable.",
+  "description": [
+    "A circumnavigation of the highest peak in Western Europe",
+    "Breathtaking views of glaciers, towering granite peaks, lush valleys, and alpine meadows."
+  ],
   "categories": [
     "thru-hike",
     "europe",
-    "alps"
+    "alps",
+    "repeat"
   ],
-  "title": "Tour du Mont Blanc",
-  "direction": "loop",
-  "itinerary": {
-    "map": "world",
-    "outbound": [
-      {
-        "date": "July 23",
-        "start": {
-          "name": "Rochester",
-          "port": "ROC"
-        },
-        "end": {
-          "name": "Washington, D.C.",
-          "port": "IAD"
-        },
-        "type": "flight",
-        "distance": "288",
-        "duration": {
-          "hours": "1",
-          "minutes": "25"
-        }
-      },
-      {
-        "date": "July 23",
-        "start": {
-          "name": "Washington, D.C.",
-          "port": "IAD"
-        },
-        "end": {
-          "name": "Geneva",
-          "port": "GVA"
-        },
-        "type": "flight",
-        "distance": "4091",
-        "duration": {
-          "hours": "8",
-          "minutes": "15"
-        }
-      },
-      {
-        "date": "July 26",
-        "start": {
-          "name": "Geneva",
-          "port": "GVA"
-        },
-        "end": {
-          "name": "Les Houches",
-          "municipality": "France"
-        },
-        "type": "bus",
-        "distance": "47",
-        "duration": {
-          "hours": "1",
-          "minutes": "15"
-        }
-      }
-    ],
-    "during": [
-      {
-        "date": "July 27 - August 6",
-        "start": {
-          "name": "Les Houches",
-          "municipality": "France"
-        },
-        "end": {
-          "name": "Les Houches",
-          "municipality": "France"
-        },
-        "type": "walking",
-        "distance": null,
-        "duration": {
-          "days": "11"
-        }
-      }
-    ],
-    "inbound": [
-      {
-        "date": "August 7",
-        "start": {
-          "name": "Les Houches",
-          "municipality": "France"
-        },
-        "end": {
-          "name": "Geneva",
-          "port": "GVA"
-        },
-        "type": "bus",
-        "distance": "47",
-        "duration": {
-          "hours": "1",
-          "minutes": "15"
-        }
-      },
-      {
-        "date": "August 7",
-        "start": {
-          "name": "Geneva",
-          "port": "GVA"
-        },
-        "end": {
-          "name": "Washington, D.C.",
-          "port": "IAD"
-        },
-        "type": "flight",
-        "distance": "4102",
-        "duration": {
-          "hours": "8",
-          "minutes": "15"
-        }
-      },
-      {
-        "date": "August 7",
-        "start": {
-          "name": "Washington, D.C.",
-          "port": "IAD"
-        },
-        "end": {
-          "name": "Rochester",
-          "port": "ROC"
-        },
-        "type": "flight",
-        "distance": "288",
-        "duration": {
-          "hours": "1",
-          "minutes": "25"
-        }
-      }
-    ]
-  },
-  "lodging": "refuges"
+  "title": "Tour du Mont Blanc Redux"
 }

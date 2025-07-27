@@ -1,9 +1,9 @@
 import { create } from 'zustand';
 
-import { type Marker } from './types';
+import { type Coordinates } from '@/types';
 
 type State = {
-  markers: Marker[];
+  markers: Coordinates[];
 };
 
 type Actions = {

@@ -1,9 +1,9 @@
 import { NextResponse } from 'next/server';
 
-import tripsTable from '@/data/trips';
+import data from '../data';
 
 export async function GET() {
-  const coordinates = tripsTable
+  const coordinates = data
     .map(({ coordinates }) => coordinates)
     .filter(Boolean);
 

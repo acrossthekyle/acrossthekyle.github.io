@@ -1,0 +1,26 @@
+{
+  "dates": ["8/31/2019"],
+  "timestamp": "1567195200",
+  "title": "Southern Rockies 14ers",
+  "type": "peak-bagging",
+  "image": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
+  "location": "Colorado",
+  "tagline": "58 Summits above 14,000 feet",
+  "previews": {
+    "small": "2020/09/06/80307849-8964-4e0d-a70f-f6371ca7fcad.jpeg",
+    "large": "2022/09/09/f722df6c-2869-4ff0-80f7-37014241e135.jpeg"
+  },
+  "marker": {
+    "left": "12",
+    "top": "30"
+  },
+  "description": [
+    "An awe-inspiring experience offering unparalleled rewards",
+    "Reaching the summit is a moment of profound triumph, a feeling of being on top of the world."
+  ],
+  "categories": [
+    "peak-bagging",
+    "north america",
+    "colorado"
+  ]
+}

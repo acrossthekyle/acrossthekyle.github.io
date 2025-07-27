@@ -30,19 +30,19 @@ export default function Stack({ children }: Props) {
   const { removeStack, stack } = useStack();
 
   const handleOnKeyUp = useCallback((event: KeyboardEvent) => {
-    if (stack.length > 0) {
-      const id = stack[stack.length - 1];
+    // if (stack.length > 0) {
+    //   const id = stack[stack.length - 1];
 
       if (event.key === 'Escape') {
-        dispatch(id);
+        dispatch();
 
         removeStack();
       } else if (event.key === 'ArrowRight') {
-        dispatchRight(id);
+        dispatchRight();
       } else if (event.key === 'ArrowLeft') {
-        dispatchLeft(id);
+        dispatchLeft();
       }
-    }
+    // }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [stack]);
 

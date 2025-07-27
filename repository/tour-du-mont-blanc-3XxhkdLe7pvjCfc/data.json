@@ -1,150 +1,27 @@
 {
-  "date": "September 2 - 13, 2018",
-  "timestamp": "September 2nd, 2018",
-  "id": "3XxhkdLe7pvjCfc",
+  "dates": ["9/2/2018", "9/13/2018"],
+  "days": "12",
+  "timestamp": "1535872800",
   "type": "thru-hike",
   "image": "2018/09/02/ec37f4a8-6310-4bf6-b1a7-cddb1f91bf3b.jpeg",
-  "location": "Alps, Europe",
+  "location": "The Alps",
+  "tagline": "Standing as a timeless monument",
   "marker": {
     "left": "46.6",
     "top": "22"
   },
-  "next": "rDF2WHqEvEKlILl",
-  "previous": "N4HkpHlfYaqDxql",
-  "description": "Considered one of the classic long-distance hiking trails, the Tour du Mont Blanc circumnavigates the Mont Blanc massif in the Alps, passing through France, Italy, and Switzerland. It's known for its stunning views, diverse scenery, and the opportunity to experience three different cultures. The rustic, mountain life – remote and authentic, was the perfect first foray into long-distance trekking. It's a challenging trek, but the reward goes far beyond the views with amazing meals in cozy mountain huts. The blend of breathtaking landscapes, rich cultures, and warm encounters makes this journey truly unforgettable.",
+  "previews": {
+    "small": "2018/09/02/0ea4750a-307a-44be-a466-bb081d137d3c.jpeg",
+    "large": "2018/09/02/135eea74-e1bc-4cab-bfd7-28d17405a744.jpeg"
+  },
+  "description": [
+    "A classic trek that circles the Mont Blanc massif",
+    "Crossing borders between France, Italy, and Switzerland, offering a unique blend of cultures, and stunning scenery."
+  ],
   "categories": [
     "thru-hike",
     "europe",
     "alps"
   ],
-  "title": "Tour du Mont Blanc",
-  "direction": "loop",
-  "itinerary": {
-    "map": "world",
-    "outbound": [
-      {
-        "date": "August 31",
-        "start": {
-          "name": "Chicago",
-          "port": "ORD"
-        },
-        "end": {
-          "name": "Frankfurt",
-          "port": "FRA"
-        },
-        "type": "flight",
-        "distance": "4328",
-        "duration": {
-          "hours": "8",
-          "minutes": "45"
-        }
-      },
-      {
-        "date": "September 1",
-        "start": {
-          "name": "Frankfurt",
-          "port": "FRA"
-        },
-        "end": {
-          "name": "Geneva",
-          "port": "GVA"
-        },
-        "type": "flight",
-        "distance": "285",
-        "duration": {
-          "hours": "1",
-          "minutes": "20"
-        }
-      },
-      {
-        "date": "September 1",
-        "start": {
-          "name": "Geneva",
-          "port": "GVA"
-        },
-        "end": {
-          "name": "Les Houches",
-          "municipality": "France"
-        },
-        "type": "bus",
-        "distance": "47",
-        "duration": {
-          "hours": "1",
-          "minutes": "15"
-        }
-      }
-    ],
-    "during": [
-      {
-        "date": "September 2 - September 13",
-        "start": {
-          "name": "Les Houches",
-          "municipality": "France"
-        },
-        "end": {
-          "name": "Les Houches",
-          "municipality": "France"
-        },
-        "type": "walking",
-        "distance": null,
-        "duration": {
-          "days": "12"
-        }
-      }
-    ],
-    "inbound": [
-      {
-        "date": "September 14",
-        "start": {
-          "name": "Les Houches",
-          "municipality": "France"
-        },
-        "end": {
-          "name": "Geneva",
-          "port": "GVA"
-        },
-        "type": "bus",
-        "distance": "47",
-        "duration": {
-          "hours": "1",
-          "minutes": "15"
-        }
-      },
-      {
-        "date": "September 14",
-        "start": {
-          "name": "Geneva",
-          "port": "GVA"
-        },
-        "end": {
-          "name": "Washington, D.C.",
-          "port": "IAD"
-        },
-        "type": "flight",
-        "distance": "4102",
-        "duration": {
-          "hours": "9",
-          "minutes": "30"
-        }
-      },
-      {
-        "date": "September 14",
-        "start": {
-          "name": "Washington, D.C.",
-          "port": "IAD"
-        },
-        "end": {
-          "name": "Chicago",
-          "port": "ORD"
-        },
-        "type": "flight",
-        "distance": "588",
-        "duration": {
-          "hours": "2",
-          "minutes": "15"
-        }
-      }
-    ]
-  },
-  "lodging": "refuges"
+  "title": "Tour du Mont Blanc"
 }

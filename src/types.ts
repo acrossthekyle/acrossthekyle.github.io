@@ -25,53 +25,103 @@ export type Gear = {
 export type Route = [number, number];
 
 export type Stat = {
+  label: string;
   value: string;
   units: string
 };
 
-export type StageStats = {
-  altitude: Stat | null;
-  distance: Stat | null;
-  time: {
-    hours: Stat;
-    minutes: Stat;
-  } | null;
-};
-
-export type StageGPS = {
-  latitude: number;
-  longitude: number;
-};
-
 export type Stage = {
   date: string;
+  elevation: string[];
   hasStats: boolean;
-  gps: StageGPS | null;
-  image: string;
-  route: Route[];
-  stats: StageStats | null;
+  images: {
+    hero: string;
+  };
+  index: number;
+  latlong: string[];
+  next: string | null;
+  previous: string | null;
+  slug: string;
+  stats: {
+    distance: Stat | null;
+    gain: Stat | null;
+    loss: Stat | null;
+    max: Stat | null;
+    time: Stat | null;
+  };
+  termini: {
+    end: string;
+    start: string;
+  };
   title: string;
+};
+
+export type Coordinates = {
+  left: string;
+  top: string;
+};
+
+export type DateParts = {
+  month: string;
+  day: string;
+  year: string;
+};
+
+export type Date = {
+  dates: {
+    start: {
+      long: DateParts;
+      short: DateParts;
+    };
+    end: {
+      long: DateParts;
+      short: DateParts;
+    };
+  };
+  year: string[];
 };
 
 export type Trip = {
   categories: string[];
-  date: string | null;
-  gear?: Gear;
-  gps: StageGPS[] | null;
+  coordinates: Coordinates;
+  date: Date;
+  description: string[];
+  gear: Gear | null;
   hasGear: boolean;
-  hasGps: boolean;
+  hasLatlong: boolean;
   hasRoutes: boolean;
   id: string;
-  image: string;
+  images: {
+    hero: string;
+    large: string;
+    small: string;
+  };
+  index: number;
   label: string;
-  length: number;
+  latlong: string[][];
   location: string;
-  routes: [number, number][][] | null;
+  next: string | null;
+  previous: string | null;
+  routes: Route[][] | null;
+  slug: string;
   stages: Stage[];
   stats: Stat[];
+  stats: {
+    altitude: Stat | null;
+    days: Stat;
+    distance: Stat | null;
+    length: Stat;
+  };
+  tagline: string;
+  termini: {
+    end: string;
+    isSame: boolean;
+    start: string;
+  };
+  timestamp: string;
   title: string;
+  total: number;
   type: string;
-  year: string;
 };
 
 export enum View {

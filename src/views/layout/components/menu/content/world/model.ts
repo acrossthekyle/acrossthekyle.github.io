@@ -1,10 +1,11 @@
 import { useEffect } from 'react';
 
+import { type Coordinates } from '@/types';
+
 import { useStore } from './store';
-import { type Marker } from './types';
 
 type Model = {
-  markers: Marker[];
+  markers: Coordinates[];
 };
 
 export function useModel(): Model {

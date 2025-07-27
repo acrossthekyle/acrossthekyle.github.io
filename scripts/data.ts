@@ -4,14 +4,14 @@ import { gpx } from '@tmcw/togeojson';
 import { DOMParser } from '@xmldom/xmldom';
 import { parse } from 'csv-parse';
 import { TZDate } from '@date-fns/tz';
-import { format as formatDate, parse as parseDate, getTime } from 'date-fns';
+import { format as formatDate, parse as parseDate } from 'date-fns';
 import _ from 'lodash';
 import fs from 'fs';
 import fsPromises from 'fs/promises';
 import path from 'path';
 
 const trips = path.join(process.cwd(), './repository');
-const output = path.join(process.cwd(), './src/data');
+const output = path.join(process.cwd(), './src/app/api');
 
 /* UTILITY METHODS */
 
@@ -79,17 +79,17 @@ function calculateConsumableWeight(items) {
 }
 
 function calculateWeightPerCategory(categories) {
-  let output = [];
+  let result = [];
 
   for (let category in categories) {
-    output.push({
+    result.push({
       category,
       items: categories[category],
       weight: calculateWeight(categories[category]),
     });
   }
 
-  return output;
+  return result;
 }
 
 function groupByCategory(items) {
@@ -139,7 +139,6 @@ async function parseCsv(folder) {
     }
 
     return {
-      items,
       categories: calculateWeightPerCategory(groupByCategory(items)),
       weightBase: calculateBaseWeight(items),
       weightConsumable: calculateConsumableWeight(items),
@@ -166,7 +165,7 @@ function parseGpxCoordinates(gpx) {
 
   const filtered = (
     coordinates.length > 2000
-      ? coordinates.filter((_, index) => index % 3 === 2)
+      ? coordinates.filter((coordinate, index) => index % 3 === 2)
       : coordinates
     );
 
@@ -228,492 +227,370 @@ async function parseGpx(folder: string) {
   }
 }
 
+function formatNumber(value) {
+  return new Intl.NumberFormat().format(Number(value).toFixed(0));
+}
+
 /* DETAILS */
 
-async function getStages(trip) {
-  if (!fs.existsSync(`${trips}/${trip}/stages`)) {
+async function getStages(folder) {
+  if (!fs.existsSync(`${trips}/${folder}/stages`)) {
     return null;
   }
 
-  const folders = fs.readdirSync(`${trips}/${trip}/stages`).filter((directory) => {
-    if (directory !== '.DS_Store') {
-      return directory;
-    }
-  });
+  const folders = fs.readdirSync(`${trips}/${folder}/stages`)
+    .filter((directory) => {
+      if (directory !== '.DS_Store') {
+        return directory;
+      }
+    });
 
   const stages = [];
 
   await Promise.all(
-    folders.map(async (folder) => {
+    folders.map(async (stageFolder) => {
       const data = JSON.parse(fs.readFileSync(
-        path.join(trips, `${trip}/stages/${folder}/data.json`),
+        path.join(trips, `${folder}/stages/${stageFolder}/data.json`),
         'utf8',
       ));
 
-      const { elevation, route } = await parseGpx(`${trip}/stages/${folder}`);
+      const { elevation, route } = await parseGpx(`${folder}/stages/${stageFolder}`);
+
+      let stats = {
+        distance: null,
+        gain: null,
+        loss: null,
+        max: null,
+        time: null,
+      };
+
+      if (data.gain) {
+        stats.gain = {
+          label: 'gain',
+          value: formatNumber(data.gain),
+          units: 'ft',
+        };
+      }
+
+      if (data.loss) {
+        stats.loss = {
+          label: 'loss',
+          value: formatNumber(data.loss),
+          units: 'ft',
+        };
+      }
+
+      if (data.miles) {
+        stats.distance = {
+          label: 'distance',
+          value: formatNumber(Number(data.miles).toFixed(2)),
+          units: 'miles',
+        };
+      }
+
+      if (data.minutes) {
+        stats.time = {
+          label: 'time',
+          value: (data.minutes / 60).toFixed(1),
+          units: 'hours',
+        };
+      }
+
+      if (elevation) {
+        stats.max = {
+          label: 'altitude',
+          value: formatNumber(Math.max(...elevation).toFixed(0)),
+          units: 'ft',
+        };
+      }
 
       stages.push({
-        ...data,
-        route,
+        date: data.date,
         elevation,
+        hasStats: stats !== null,
+        id: generateId(),
+        images: {
+          hero: data.image,
+        },
+        index: null,
+        latlong: data.latlong,
+        next: null,
+        previous: null,
+        route,
+        slug: _.kebabCase(data.title),
+        stats,
+        termini: {
+          end: getTermini(data.title, 1),
+          start: getTermini(data.title, 0),
+        },
+        title: data.title,
       });
     }),
   );
 
-  return stages;
-}
+  const sorted = stages.sort(
+    (a, b) =>
+      parseDate(a.date, 'MMMM do, yyyy', new Date()).getTime() -
+      parseDate(b.date, 'MMMM do, yyyy', new Date()).getTime(),
+  );
 
-function calculateMaxAltitude(stages) {
-  const altitudes = [];
-
-  stages.forEach((stage) => {
-    altitudes.push(
-      Math.max(...stage.elevation)
-    );
-  });
-
-  return Math.max(...altitudes).toFixed(0);
-}
-
-function calculateMinAltitude(stages) {
-  const altitudes = [];
-
-  stages.forEach((stage) => {
-    altitudes.push(
-      Math.min(...stage.elevation)
-    );
-  });
-
-  return Math.min(...altitudes).toFixed(0);
-}
-
-function calculateElevationGain(stages) {
-  const totalGain = stages.reduce((accumulator, stage) => {
-    return accumulator + Number(stage.gain);
-  }, 0);
-
-  return totalGain;
-}
-
-function calculateElevationLoss(stages) {
-  const totalLoss = stages.reduce((accumulator, stage) => {
-    return accumulator + Number(stage.loss);
-  }, 0);
-
-  return totalLoss;
-}
-
-function calculateAverageElevationGain(stages) {
-  const totalGain = stages.reduce((accumulator, stage) => {
-    return accumulator + Number(stage.gain);
-  }, 0);
-
-  return totalGain / stages.length;
-}
-
-function calculateAverageElevationLoss(stages) {
-  const totalLoss = stages.reduce((accumulator, stage) => {
-    return accumulator + Number(stage.loss);
-  }, 0);
-
-  return totalLoss / stages.length;
-}
-
-function calculateTotalDistance(stages) {
-  return stages.reduce((accumulator, stage) => {
-    return accumulator + Number(stage.miles);
-  }, 0);
-}
-
-function calculateAverageDistance(stages) {
-  const avg = stages.reduce((accumulator, stage) => {
-    return accumulator + Number(stage.miles);
-  }, 0);
-
-  return avg / stages.length;
-}
-
-function calculateLongestDistance(stages) {
-  const distances = stages.map(({ miles }) => Number(miles));
-
-  return Math.max(...distances);
-}
-
-function calculateShortestDistance(stages) {
-  const distances = stages.map(({ miles }) => Number(miles));
-
-  return Math.min(...distances);
-}
-
-function calculateAverageTime(stages) {
-  let minutes = 0;
-
-  stages.forEach((stage) => {
-    minutes += ((Number(stage.time.hours) * 60) + Number(stage.time.minutes));
-  });
-
-  minutes = minutes / stages.length;
-
-  return {
-    hours: Math.floor(minutes / 60),
-    minutes: minutes % 60
-  };
-}
-
-function calculateShortestTime(stages) {
-  let minutes = [];
-
-  stages.forEach((stage) => {
-    minutes.push(
-      ((Number(stage.time.hours) * 60) + Number(stage.time.minutes))
-    );
-  });
-
-  minutes = Math.min(...minutes);
-
-  return {
-    hours: Math.floor(minutes / 60),
-    minutes: minutes % 60
-  };
-}
-
-function calculateLongestTime(stages) {
-  let minutes = [];
-
-  stages.forEach((stage) => {
-    minutes.push(
-      ((Number(stage.time.hours) * 60) + Number(stage.time.minutes))
-    );
-  });
-
-  minutes = Math.max(...minutes);
-
-  return {
-    hours: Math.floor(minutes / 60),
-    minutes: minutes % 60
-  };
-}
-
-async function getTripStats(trip, stages) {
-  if (trip.type === 'vacation') {
-    return null;
-  }
-
-  return [
-    {
-      type: 'max-altitude',
-      value: stages ? calculateMaxAltitude(stages) : null,
-    },
-    {
-      type: 'min-altitude',
-      value: stages ? calculateMinAltitude(stages) : null,
-    },
-    {
-      type: 'total-gain',
-      value: stages ? calculateElevationGain(stages).toFixed(0) : null,
-    },
-    {
-      type: 'total-loss',
-      value: stages ? calculateElevationLoss(stages).toFixed(0) : null,
-    },
-    {
-      type: 'average-%-gain',
-      value: stages ? calculateAverageElevationGain(stages).toFixed(0) : null,
-    },
-    {
-      type: 'average-%-loss',
-      value: stages ? calculateAverageElevationLoss(stages).toFixed(0) : null,
-    },
-    {
-      type: 'total-distance',
-      value: stages ? calculateTotalDistance(stages).toFixed(1) : null,
-    },
-    {
-      type: 'average-%-distance',
-      value: stages ? calculateAverageDistance(stages).toFixed(1) : null,
-    },
-    {
-      type: 'smallest-%-distance',
-      value: stages ? calculateShortestDistance(stages).toFixed(1) : null,
-    },
-    {
-      type: 'largest-%-distance',
-      value: stages ? calculateLongestDistance(stages).toFixed(1) : null,
-    },
-    {
-      type: 'total-time',
-      value: { days: stages ? stages.length : trip.time.days },
-    },
-    {
-      type: 'average-%-time',
-      value: stages ? calculateAverageTime(stages) : null,
-    },
-    {
-      type: 'shortest-%-time',
-      value: stages ? calculateShortestTime(stages) : null,
-    },
-    {
-      type: 'longest-%-time',
-      value: stages ? calculateLongestTime(stages) : null,
-    },
-  ];
-}
-
-function filterAndGroupNested(items, printIdToMatch) {
-  // 1. Filter the items by the given printId
-  const filteredItems = items.filter(item => item.printId === printIdToMatch);
-
-  // 2. Group the filtered items recursively by style, size, and then color
-  const result = {};
-  filteredItems.forEach(item => {
-    const styleKey = item.style.replace('Framed with Mat', 'framed-with-mat').toLowerCase();
-    const sizeKey = item.size.replace('"', '').replace('"', '').replace(' x ', 'x');
-    const colorKey = item.color?.toLowerCase(); // Use color value as key if available
-
-    if (!result[styleKey]) {
-      result[styleKey] = {};
-    }
-
-    if (!result[styleKey][sizeKey]) {
-      result[styleKey][sizeKey] = {};
-    }
-
-    // Determine the final key for the nested object
-    const finalKey = item.colorId ? colorKey : 'noColor'; // Use a default key if colorId doesn't exist
-
-    if (!result[styleKey][sizeKey][finalKey]) {
-      // Create the structure with the final object
-      result[styleKey][sizeKey][finalKey] = {
-        id: item.id // Assign colorId or sizeId to the "id" key
-      };
-    }
-    // You could also add other properties from the item here if needed
-    // For example:
-    result[styleKey][sizeKey][finalKey].price = item.price;
+  const result = sorted.map((item, index) => {
+    return {
+      ...item,
+      index,
+      previous: index === 0 ? null : sorted[index - 1].slug,
+      next: index === sorted.length - 1 ? null : sorted[index + 1].slug,
+    };
   });
 
   return result;
 }
 
+function calculateAltitude(stages) {
+  const altitudes = [];
+
+  stages.forEach((stage) => {
+    if (stage.elevation) {
+      altitudes.push(
+        Math.max(...stage.elevation)
+      );
+    }
+  });
+
+  return altitudes.length > 0 ? Math.max(...altitudes).toFixed(0) : null;
+}
+
+function calculateDistance(stages) {
+  const distance = stages.reduce((accumulator, stage) => {
+    const miles = stage.stats.distance;
+
+    if (miles) {
+      return accumulator + Number(miles.value);
+    }
+
+    return accumulator;
+  }, 0);
+
+  return distance > 0 ? distance : null;
+}
+
+async function getTripStats(trip, stages) {
+  const altitude = calculateAltitude(stages);
+  const distance = calculateDistance(stages);
+
+  let stats = {
+    altitude: null,
+    distance: null,
+    days: {
+      label: 'days',
+      value: trip.days,
+      units: null,
+    },
+    length: {
+      label: 'length',
+      value: stages.length,
+      units: null,
+    },
+  };
+
+  if (altitude !== null) {
+    stats.altitude = {
+      label: 'altitude',
+      value: formatNumber(altitude),
+      units: 'ft',
+    };
+  }
+
+  if (distance !== null) {
+    stats.distance = {
+      label: 'distance',
+      value: formatNumber(distance.toFixed(0)),
+      units: 'miles',
+    };
+  }
+
+  return stats;
+}
+
+async function getTripDate(trip, stages) {
+  const start = parseDate(trip.dates[0], 'M/dd/yyyy', new Date());
+  const year = [formatDate(start, 'yyyy')];
+
+  let dates = null;
+
+  if (trip.dates.length > 1) {
+    const end = parseDate(trip.dates[1], 'M/dd/yyyy', new Date());
+
+    dates = {
+      start: {
+        long: {
+          month: formatDate(start, 'LLLL'),
+          day: formatDate(start, 'do'),
+          year: formatDate(start, 'yyyy'),
+        },
+        short: {
+          month: formatDate(start, 'LLL'),
+          day: formatDate(start, 'd'),
+          year: formatDate(start, 'yy'),
+        },
+      },
+      end: {
+        long: {
+          month: formatDate(end, 'LLLL'),
+          day: formatDate(end, 'do'),
+          year: formatDate(end, 'yyyy'),
+        },
+        short: {
+          month: formatDate(end, 'LLL'),
+          day: formatDate(end, 'd'),
+          year: formatDate(end, 'yy'),
+        },
+      },
+    };
+  }
+
+  if (dates === null) {
+    year.push(stages[stages.length - 1].date.split(',')[1]);
+  }
+
+  return {
+    dates,
+    year,
+  };
+}
+
+function getLabel(type) {
+  if (type === 'thru-hike') {
+    return 'day';
+  }
+
+  if (type === 'section-hike') {
+    return 'section';
+  }
+
+  if (type === 'peak-bagging') {
+    return 'summit';
+  }
+
+  if (type === 'vacation') {
+    return 'destination';
+  }
+
+  return '';
+}
+
+function getTermini(string, index) {
+  return string.includes(' to ') ? string.split(' to ')[index] : string;
+}
+
+async function getTripTermini(trip, stages) {
+  const termini = {
+    end: trip.cities ? trip.cities[trip.cities.length - 1] : stages[stages.length - 1].title,
+    start: trip.cities ? trip.cities[0] : stages[0].title,
+  };
+
+  const end = getTermini(termini.end, 1);
+  const start = getTermini(termini.start, 0);
+
+  return {
+    end,
+    isSame: start.toLowerCase() === end.toLowerCase(),
+    start,
+  }
+}
+
+function simpleHash(str) {
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    const char = str.charCodeAt(i);
+    hash = (hash << 5) - hash + char; // A common bitwise operation for hashing
+    hash |= 0; // Ensure 32-bit integer
+  }
+  // Convert to base 36 for a shorter, alphanumeric string
+  return (hash >>> 0).toString(36);
+}
+
 /* GO */
 
 async function go() {
-  const tripFolders = fs.readdirSync(trips).filter((directory) => {
+  const folders = fs.readdirSync(trips).filter((directory) => {
     if (directory !== '.DS_Store') {
       return directory;
     }
   });
 
-  const tripsTable = [];
-  const tripCatgoriesTable = [];
-  const tripGearTable = [];
-  const tripStatsTable = [];
-  const tripItinerarysTable = [];
-  const tripStagesTable = [];
-  const tripStagesElevationsTable = [];
-  const tripStagesRoutesTable = [];
-  const tripStagesStatsTable = [];
+  const data = [];
 
   await Promise.all(
-    tripFolders.map(async (tripFolder) => {
-      const tripData = JSON.parse(fs.readFileSync(
-        path.join(trips, `${tripFolder}/data.json`),
+    folders.map(async (folder) => {
+      const trip = JSON.parse(fs.readFileSync(
+        path.join(trips, `${folder}/data.json`),
         'utf8',
       ));
 
-      const tripId = tripData.id;
+      const gear = await parseCsv(folder);
+      const stages = await getStages(folder);
+      const stats = await getTripStats(trip, stages);
+      const date = await getTripDate(trip, stages);
+      const termini = await getTripTermini(trip, stages);
 
-      const tripGear = await parseCsv(tripFolder);
+      const hasRoutes = stages.filter(stage => stage.route).length > 0;
+      const hasLatlong = stages.filter(stage => stage.latlong).length > 0;
 
-      const tripStages = await getStages(tripFolder);
+      const slug = _.kebabCase(trip.title);
 
-      const tripStats = await getTripStats(tripData, tripStages);
-
-      tripsTable.push({
-        id: tripId,
-        title: tripData.title,
-        type: tripData.type,
-        image: tripData.image,
-        date: tripData.date.toLowerCase().includes('since') ?
-          null :
-          tripData.date.split(',')[0],
-        year:
-          tripData.date.toLowerCase().includes('since')
-            ? `${tripData.date.toLowerCase().replace('since ', '')} - ${formatDate(new Date(), 'yyyy')}`
-            : tripData.date.split(',')[1].trim(),
-        timestamp: getTime(
-            new TZDate(
-              parseDate(
-                tripData.timestamp,
-                'MMMM do, yyyy',
-                new Date()
-              ),
-              'America/Chicago'
-            )
-          ) / 1000,
-        coordinates: tripData.marker,
-        location: tripData.location,
+      data.push({
+        categories: trip.categories,
+        cities: trip.cities,
+        coordinates: trip.marker,
+        date,
+        description: trip.description,
+        gear,
+        hasGear: gear !== null,
+        hasLatlong,
+        hasRoutes,
+        id: generateId(),
+        images: {
+          hero: trip.image,
+          small: trip.previews.small,
+          large: trip.previews.large,
+        },
+        index: null,
+        label: getLabel(trip.type),
+        latlong: hasLatlong ? stages.map(stage => stage.latlong) : null,
+        location: trip.location,
+        next: null,
+        previous: null,
+        routes: hasRoutes ? stages.map(stage => stage.route) : null,
+        shareable: simpleHash(slug),
+        slug,
+        stages: stages.map(({ elevation, route, ...rest }) => ({
+          ...rest,
+        })),
+        stats,
+        tagline: trip.tagline,
+        termini,
+        timestamp: trip.timestamp,
+        title: trip.title,
+        total: folders.length,
+        type: trip.type,
       });
-
-      tripData.categories.forEach((category) => {
-        tripCatgoriesTable.push({
-          id: generateId(),
-          tripId,
-          name: category,
-        });
-      });
-
-      if (tripGear) {
-        tripGearTable.push({
-          id: generateId(),
-          tripId,
-          ...tripGear,
-        });
-      }
-
-      if (tripData.itinerary) {
-        tripItinerarysTable.push({
-          id: generateId(),
-          tripId,
-          itinerary: tripData.itinerary,
-        });
-      }
-
-      if (tripStats) {
-        tripStats.forEach((stat) => {
-          tripStatsTable.push({
-            id: generateId(),
-            tripId,
-            ...stat,
-          });
-        });
-      }
-
-      if (tripStages) {
-        tripStages.forEach((tripStage) => {
-          const tripStageId = generateId();
-
-          tripStagesTable.push({
-            id: tripStageId,
-            tripId,
-            title: tripStage.title,
-            date: tripStage.date,
-            image: tripStage.image,
-            gps: tripStage.gps || null,
-          });
-
-          if (tripStage.time) {
-            tripStagesStatsTable.push({
-              id: generateId(),
-              tripId,
-              tripStageId,
-              type: 'total-time',
-              value: tripStage.time,
-            });
-          }
-
-          if (tripStage.miles) {
-            tripStagesStatsTable.push({
-              id: generateId(),
-              tripId,
-              tripStageId,
-              type: 'total-distance',
-              value: tripStage.miles,
-            });
-          }
-
-          if (tripStage.gain) {
-            tripStagesStatsTable.push({
-              id: generateId(),
-              tripId,
-              tripStageId,
-              type: 'total-gain',
-              value: tripStage.gain,
-            });
-          }
-
-          if (tripStage.loss) {
-            tripStagesStatsTable.push({
-              id: generateId(),
-              tripId,
-              tripStageId,
-              type: 'total-loss',
-              value: tripStage.loss,
-            });
-          }
-
-          if (tripStage.elevation) {
-            tripStagesStatsTable.push({
-              id: generateId(),
-              tripId,
-              tripStageId,
-              type: 'max-altitude',
-              value: Math.max(...tripStage.elevation).toFixed(0),
-            });
-
-            tripStagesStatsTable.push({
-              id: generateId(),
-              tripId,
-              tripStageId,
-              type: 'min-altitude',
-              value: Math.min(...tripStage.elevation).toFixed(0),
-            });
-
-            tripStagesElevationsTable.push({
-              id: generateId(),
-              tripId,
-              tripStageId,
-              values: tripStage.elevation,
-            });
-          }
-
-          if (tripStage.route) {
-            tripStagesRoutesTable.push({
-              id: generateId(),
-              tripId,
-              tripStageId,
-              values: tripStage.route,
-            });
-          }
-        });
-      }
     }),
   );
 
-  if (tripsTable.length) {
-    writeData('trips.js', tripsTable);
-  }
+  if (data.length) {
+    const sorted = data.sort((a, b) => b.timestamp - a.timestamp);
 
-  if (tripCatgoriesTable.length) {
-    writeData('trip-categories.js', tripCatgoriesTable);
-  }
+    const result = sorted.map((item, index) => {
+      return {
+        ...item,
+        index,
+        next: index === 0 ? sorted[sorted.length - 1].slug : sorted[index - 1].slug,
+        previous: index === sorted.length - 1 ? sorted[0].slug : sorted[index + 1].slug,
+      };
+    });
 
-  if (tripGearTable.length) {
-    writeData('trip-gear.js', tripGearTable);
-  }
-
-  if (tripStatsTable.length) {
-    writeData('trip-stats.js', tripStatsTable);
-  }
-
-  if (tripItinerarysTable.length) {
-    writeData('trip-itineraries.js', tripItinerarysTable);
-  }
-
-  if (tripStagesTable.length) {
-    writeData('trip-stages.js', tripStagesTable);
-  }
-
-  if (tripStagesElevationsTable.length) {
-    writeData('trip-stages-elevations.js', tripStagesElevationsTable);
-  }
-
-  if (tripStagesRoutesTable.length) {
-    writeData('trip-stages-routes.js', tripStagesRoutesTable);
-  }
-
-  if (tripStagesStatsTable.length) {
-    writeData('trip-stages-stats.js', tripStagesStatsTable);
+    writeData('data.js', result);
   }
 }
 

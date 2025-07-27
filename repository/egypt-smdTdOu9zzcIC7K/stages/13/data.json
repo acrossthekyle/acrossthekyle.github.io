@@ -1,13 +1,6 @@
 {
   "date": "January 4th, 2023",
-  "id": "p8zKlm9fRshH1GH",
   "title": "Karnak Temple Complex",
   "image": "2022/12/28/7f2020f6-ccd2-4f4a-98a1-44abd2df6911.jpeg",
-  "gps": {
-    "latitude": "25.7188",
-    "longitude": "32.6573"
-  },
-  "parent": "smdTdOu9zzcIC7K",
-  "next": null,
-  "previous": "MrT6JjAQ4nucenP"
+  "latlong": ["25.7188", "32.6573"]
 }

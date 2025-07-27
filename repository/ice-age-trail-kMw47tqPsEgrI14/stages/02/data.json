@@ -1,16 +1,9 @@
 {
   "date": "May 3rd, 2025",
-  "id": "kD83mb02bg94hcz",
   "title": "Parnell Segment",
   "image": "2025/05/03/e402c0b1-e827-4123-b7b5-74947b240687.jpeg",
-  "parent": "kMw47tqPsEgrI14",
-  "next": "1gc64lznf03bs8d",
-  "previous": "0cmJs793gB5eQmf",
   "gain": "653",
   "loss": "562",
   "miles": "8.46",
-  "time": {
-    "hours": "04",
-    "minutes": "48"
-  }
+  "minutes": "288"
 }

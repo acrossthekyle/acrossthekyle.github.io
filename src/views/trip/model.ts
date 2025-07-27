@@ -1,43 +1,98 @@
 'use client';
 
-import { useState } from 'react';
+ import { useRouter } from 'next/navigation';
+import { useEffect, useState } from 'react';
 
-import { useModal } from '@/hooks/useModal';
+import { useEvent } from '@/hooks/useEvent';
+import { useTrips } from '@/hooks/useTrips';
+import type { Trip } from '@/types';
 
 type Model = {
-  currentIndex: number;
-  handleOnClose: () => void;
-  handleOnChange: (index: number) => void;
-  handleOnNext: () => void;
   handleOnPrevious: () => void;
+  handleOnNext: () => void;
+  trip: Trip;
 };
 
-export function useModel(total: number): Model {
-  const { handleOnClose } = useModal();
+// const useMousePosition = () => {
+//   const [x, setX] = useState(0);
+//   const [y, setY] = useState(0);
 
-  const [currentIndex, setCurrentIndex] = useState(0);
+//   const handleOnMove = (e: MouseEvent) => {
+//     setX(e.clientX);
+//     setY(e.clientY);
+//   };
 
-  const handleOnChange = (index: number) => {
-    setCurrentIndex(index);
+//   useEffect(() => {
+//     window.addEventListener('mousemove', handleOnMove);
+
+//     return () => window.removeEventListener('mousemove', handleOnMove);
+//   }, []);
+
+//   return {
+//     x,
+//     y,
+//   };
+// };
+
+export function useModel(slug: string): Model {
+  const { find, isLoading } = useTrips();
+
+  // const mouse = useMousePosition();
+
+  const router = useRouter();
+
+  // const [exitDirection, setExitDirection] = useState(null);
+  const [trip, setTrip] = useState<Trip | undefined>();
+  const [toggle, setToggle] = useState('route');
+
+  const getTrip = async () => {
+    const result = await find(slug);
+
+    setTrip(result);
+  }
+
+  useEffect(() => {
+    getTrip();
+  }, []);
+
+  const handleOnPrevious = () => {
+    // setExitDirection('previous');
+
+    router.push(`/trips/${trip.previous}`);
   };
 
   const handleOnNext = () => {
-    setCurrentIndex(
-      currentIndex === total - 1 ? 0 : currentIndex + 1
-    );
+    // setExitDirection('next');
+
+    router.push(`/trips/${trip.next}`);
   };
 
-  const handleOnPrevious = () => {
-    setCurrentIndex(
-      currentIndex === 0 ? total - 1 : currentIndex - 1
-    );
+  const handleOnWaypoints = () => {
+    setToggle('route');
   };
+
+  const handleOnTimeline = () => {
+    setToggle('list');
+  };
+
+  useEvent('onEscape', () => {
+    router.push('/');
+  });
+
+  useEvent('onLeft', () => {
+    handleOnPrevious();
+  });
+
+  useEvent('onRight', () => {
+    handleOnNext();
+  });
 
   return {
-    currentIndex,
-    handleOnClose,
-    handleOnChange,
     handleOnNext,
     handleOnPrevious,
+    handleOnTimeline,
+    handleOnWaypoints,
+    toggle,
+    trip,
   };
 }

@@ -1,6 +1,7 @@
 'use client';
 
-import { AlignLeft } from 'lucide-react';
+import { LayoutDashboard, User } from 'lucide-react';
+import Link from 'next/link';
 import { ReactNode, Suspense } from 'react';
 
 import Components from './components';
@@ -18,13 +19,19 @@ export default function View({ children }: Props) {
     <>
       <header className={styles.header}>
         <div className={styles.inner}>
-          <button
+          <Link
+            className={styles.home}
+            href="/"
+          >
+            <LayoutDashboard className={styles.icon} />
+          </Link>
+          {/*<button
             className={styles.menu}
             onClick={handleOnMenuOpen}
             type="button"
           >
-            <AlignLeft className={styles.icon} />
-          </button>
+            {'{'} ACROSS THE KYLE {'}'}
+          </button>*/}
           <Suspense>
             <Components.Search />
           </Suspense>

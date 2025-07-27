@@ -1,7 +1,7 @@
 {
-  "date": "Since 2022",
-  "timestamp": "July 15th, 2022",
-  "id": "kMw47tqPsEgrI14",
+  "dates": ["7/15/2022"],
+  "days": "3",
+  "timestamp": "1657904400",
   "type": "section-hike",
   "image": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",
   "location": "Wisconsin",
@@ -9,16 +9,18 @@
     "left": "16",
     "top": "25"
   },
-  "next": "2oThDjcm12S3Viu",
-  "previous": "OfpW2rt8VHawxvu",
+  "previews": {
+    "small": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
+    "large": "2025/05/03/e402c0b1-e827-4123-b7b5-74947b240687.jpeg"
+  },
   "description": [
-    "The Ice Age Trail is a 1,200 mile footpath in Wisconsin that offers a unique opportunity to explore the geological history left behind by glaciers, including diverse landscapes and glacial features, such as kettles, eskers, and moraines. Segment lengths range from about one to sixteen miles, offering flexibility for day trips or longer backpacking excursions. Hiking the Ice Age Trail in segments provides a more manageable way to explore its vastness."
+    "A testament to the colossal power of nature's icy embrace",
+    "Walking the kettles and moraines left behind by the glaciers, several millenia ago."
   ],
   "categories": [
-    "section-hike"
+    "section-hike",
+    "north america",
+    "wisconsin"
   ],
-  "title": "Ice Age Trail",
-  "direction": "one-way",
-  "itinerary": null,
-  "lodging": "camping"
+  "title": "Ice Age Trail"
 }

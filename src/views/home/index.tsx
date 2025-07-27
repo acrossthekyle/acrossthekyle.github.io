@@ -8,7 +8,7 @@ import { useModel } from './model';
 import styles from './stylesheet';
 
 export default function View() {
-  const { handleOnClick, isLoading, trips } = useModel();
+  const { isLoading, trips } = useModel();
 
   if (isLoading) {
     return (
@@ -18,11 +18,9 @@ export default function View() {
 
   return (
     <ul className={styles.view}>
-      {trips.map((trip: Trip, index: number) => (
+      {trips.map((trip: Trip) => (
         <Card
-          index={index}
-          key={index}
-          onClick={() => handleOnClick(trip)}
+          key={trip.index}
           trip={trip}
         />
       ))}
