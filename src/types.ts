@@ -24,10 +24,28 @@ export type Gear = {
 
 export type Route = [number, number];
 
-export type Stat = {
+export type StatFull = {
+  label: string;
+  value: {
+    imperial: string;
+    metric: string;
+  };
+  units: {
+    imperial: {
+      full: string;
+      abbreviated: string;
+    };
+    metric: {
+      full: string;
+      abbreviated: string;
+    };
+  };
+};
+
+export type StatShort = {
   label: string;
   value: string;
-  units: string
+  units: string;
 };
 
 export type Stage = {
@@ -43,11 +61,11 @@ export type Stage = {
   previous: string | null;
   slug: string;
   stats: {
-    distance: Stat | null;
-    gain: Stat | null;
-    loss: Stat | null;
-    max: Stat | null;
-    time: Stat | null;
+    distance: StatFull | null;
+    gain: StatFull | null;
+    loss: StatFull | null;
+    max: StatFull | null;
+    time: StatShort | null;
   };
   termini: {
     end: string;
@@ -105,12 +123,11 @@ export type Trip = {
   routes: Route[][] | null;
   slug: string;
   stages: Stage[];
-  stats: Stat[];
   stats: {
-    altitude: Stat | null;
-    days: Stat;
-    distance: Stat | null;
-    length: Stat;
+    altitude: StatFull | null;
+    days: StatShort;
+    distance: StatFull | null;
+    length: StatShort;
   };
   tagline: string;
   termini: {

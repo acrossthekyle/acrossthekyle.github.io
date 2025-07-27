@@ -267,8 +267,20 @@ async function getStages(folder) {
       if (data.gain) {
         stats.gain = {
           label: 'gain',
-          value: formatNumber(data.gain),
-          units: 'ft',
+          value: {
+            imperial: formatNumber(data.gain),
+            metric: formatNumber(data.gain/3.281),
+          },
+          units: {
+            imperial: {
+              full: 'feet',
+              abbreviated: 'ft',
+            },
+            metric: {
+              full: 'meters',
+              abbreviated: 'm',
+            },
+          },
         };
       }
 
@@ -276,22 +288,47 @@ async function getStages(folder) {
         stats.loss = {
           label: 'loss',
           value: formatNumber(data.loss),
-          units: 'ft',
+          value: {
+            imperial: formatNumber(data.loss),
+            metric: formatNumber(data.loss/3.281),
+          },
+          units: {
+            imperial: {
+              full: 'feet',
+              abbreviated: 'ft',
+            },
+            metric: {
+              full: 'meters',
+              abbreviated: 'm',
+            },
+          },
         };
       }
 
       if (data.miles) {
         stats.distance = {
           label: 'distance',
-          value: formatNumber(Number(data.miles).toFixed(2)),
-          units: 'miles',
+          value: {
+            imperial: formatNumber(Number(data.miles)),
+            metric: formatNumber(Number(data.miles) * 1.609),
+          },
+          units: {
+            imperial: {
+              full: 'miles',
+              abbreviated: 'mi',
+            },
+            metric: {
+              full: 'kilometers',
+              abbreviated: 'km',
+            },
+          },
         };
       }
 
       if (data.minutes) {
         stats.time = {
           label: 'time',
-          value: (data.minutes / 60).toFixed(1),
+          value: Math.ceil(data.minutes / 60).toFixed(0),
           units: 'hours',
         };
       }
@@ -299,8 +336,20 @@ async function getStages(folder) {
       if (elevation) {
         stats.max = {
           label: 'altitude',
-          value: formatNumber(Math.max(...elevation).toFixed(0)),
-          units: 'ft',
+          value: {
+            imperial: formatNumber(Math.max(...elevation)),
+            metric: formatNumber(Math.max(...elevation)/3.281),
+          },
+          units: {
+            imperial: {
+              full: 'feet',
+              abbreviated: 'ft',
+            },
+            metric: {
+              full: 'meters',
+              abbreviated: 'm',
+            },
+          },
         };
       }
 
@@ -362,10 +411,8 @@ function calculateAltitude(stages) {
 
 function calculateDistance(stages) {
   const distance = stages.reduce((accumulator, stage) => {
-    const miles = stage.stats.distance;
-
-    if (miles) {
-      return accumulator + Number(miles.value);
+    if (stage.stats.distance !== null) {
+      return accumulator + Number(stage.stats.distance.value.imperial);
     }
 
     return accumulator;
@@ -397,15 +444,40 @@ async function getTripStats(trip, stages) {
     stats.altitude = {
       label: 'altitude',
       value: formatNumber(altitude),
-      units: 'ft',
+      value: {
+        imperial: formatNumber(altitude),
+        metric: formatNumber(altitude/3.281),
+      },
+      units: {
+        imperial: {
+          full: 'feet',
+          abbreviated: 'ft',
+        },
+        metric: {
+          full: 'meters',
+          abbreviated: 'm',
+        },
+      },
     };
   }
 
   if (distance !== null) {
     stats.distance = {
       label: 'distance',
-      value: formatNumber(distance.toFixed(0)),
-      units: 'miles',
+      value: {
+        imperial: formatNumber(distance),
+        metric: formatNumber(distance * 1.609),
+      },
+      units: {
+        imperial: {
+          full: 'miles',
+          abbreviated: 'mi',
+        },
+        metric: {
+          full: 'kilometers',
+          abbreviated: 'km',
+        },
+      },
     };
   }
 

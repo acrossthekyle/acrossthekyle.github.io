@@ -3,7 +3,7 @@
 import 'leaflet/dist/leaflet.css';
 
 import L from 'leaflet';
-import { MoveRight } from 'lucide-react';
+import { CornerDownRight, MoveHorizontal, TrendingDown, TrendingUp } from 'lucide-react';
 import { Fragment, useEffect, useRef, useState } from 'react';
 import {
   CircleMarker,
@@ -22,7 +22,57 @@ type Props = {
   stages: Stages[];
 };
 
+type PopupProps = {
+  index: number;
+  stage: Stage;
+  total: number;
+};
+
+function Popup({ index, stage, total }: PopupProps) {
+  return (
+    <Tooltip opacity={0.8}>
+      <div className={styles.popup}>
+        <span className={styles.day}>
+          {index + 1} / {total}
+        </span>
+        <h5 className={styles.from}>
+          {stage.termini.start}
+        </h5>
+        <h4 className={styles.to}>
+          <CornerDownRight className={styles.icon} /> {stage.termini.end}
+        </h4>
+        <div className={styles.distance}>
+          <MoveHorizontal className={styles.trend} />
+          <span>
+            {stage.stats.distance.value}{' '}
+            <small className={styles.small}>
+              {stage.stats.distance.units}
+            </small>
+          </span>
+        </div>
+        <div className={styles.elevation}>
+          <div className={styles.value}>
+            <TrendingUp className={styles.trend} />
+            {stage.stats.gain.value}
+            <small className={styles.small}>
+              {stage.stats.gain.units}
+            </small>
+          </div>
+          <div className={styles.value}>
+            <TrendingDown className={styles.trend} />
+            {stage.stats.loss.value}
+            <small className={styles.small}>
+              {stage.stats.loss.units}
+            </small>
+          </div>
+        </div>
+      </div>
+    </Tooltip>
+  );
+}
+
 export default function Leaflet({ isLoop, routes, stages }: Props) {
+  const [activeRoute, setActiveRoute] = useState<null | number>(null);
   const [all, setAll] = useState<Route[][]>([]);
 
   const mapRef = useRef<L.Map | null>(null);
@@ -78,24 +128,6 @@ export default function Leaflet({ isLoop, routes, stages }: Props) {
           </Fragment>
         );
       })}
-      {!isLoop && (
-        <>
-          <CircleMarker
-            center={first[0]}
-            className={styles.outer}
-            fillOpacity={1}
-            opacity={1}
-            radius={19}
-          />
-          <CircleMarker
-            center={first[0]}
-            className={styles.inner}
-            fillOpacity={1}
-            opacity={1}
-            radius={12}
-          />
-        </>
-      )}
       {all.map((route, index) => {
         return (
           <Polyline
@@ -114,70 +146,51 @@ export default function Leaflet({ isLoop, routes, stages }: Props) {
             key={index}
             opacity={1}
             radius={5}
-          >
-            <Tooltip opacity={1}>
-              <div className={styles.popup}>
-                <span className={styles.day}>
-                  Day {index + 1}
-                </span>
-                <h5 className={styles.from}>
-                  {stages[index].termini.start}
-                  <MoveRight className={styles.icon} />
-                </h5>
-                <h4 className={styles.to}>
-                  {stages[index].termini.end}
-                </h4>
-                <ul className={styles.stats}>
-                  <li className={styles.stat}>
-                    <span>Distance</span>
-                    <span className={styles.units}>
-                      {stages[index].stats.distance.value} {stages[index].stats.distance.units}
-                    </span>
-                  </li>
-                  <li className={styles.stat}>
-                    <span>Duration</span>
-                    <span className={styles.units}>
-                      {stages[index].stats.time.value} {stages[index].stats.time.units}
-                    </span>
-                  </li>
-                  <li className={styles.stat}>
-                    <span>Gain</span>
-                    <span className={styles.units}>
-                      {stages[index].stats.gain.value} {stages[index].stats.gain.units}
-                    </span>
-                  </li>
-                  <li className={styles.stat}>
-                    <span>Loss</span>
-                    <span className={styles.units}>
-                      {stages[index].stats.loss.value} {stages[index].stats.loss.units}
-                    </span>
-                  </li>
-                </ul>
-              </div>
-            </Tooltip>
-          </CircleMarker>
+          />
         );
       })}
-      {!isLoop && (
-        <CircleMarker
-          center={first[0]}
-          className={styles.dot}
-          fillOpacity={1}
-          opacity={1}
-          radius={5}
-        >
-          <Tooltip>
-            <div className={styles.popup}>
-              <h5 className={styles.from}>
-                Point of Departure
-              </h5>
-              <h4 className={styles.to}>
-                {stages[0].termini.start}
-              </h4>
-            </div>
-          </Tooltip>
-        </CircleMarker>
-      )}
+      {all.map((route, index) => {
+        return (
+          <Fragment key={index}>
+            {activeRoute === index && (
+              <>
+                <CircleMarker
+                  center={route[route.length - 1]}
+                  className={styles.overlayDot}
+                  fillOpacity={1}
+                  opacity={1}
+                  radius={5}
+                />
+                <Polyline
+                  className={styles.active}
+                  positions={route}
+                />
+              </>
+            )}
+            <CircleMarker
+              center={route[route.length - 1]}
+              className={styles.overlay}
+              fillOpacity={1}
+              opacity={1}
+              radius={19}
+              eventHandlers={{
+                mouseover: () => {
+                  setActiveRoute(index);
+                },
+                mouseout: () => {
+                  setActiveRoute(null);
+                },
+              }}
+            >
+              <Popup
+                index={index}
+                stage={stages[index]}
+                total={stages.length}
+              />
+            </CircleMarker>
+          </Fragment>
+        );
+      })}
     </MapContainer>
   );
 }

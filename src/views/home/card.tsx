@@ -32,7 +32,7 @@ export default function Card({ trip }: Props) {
     <InView onChange={handleOnInView} threshold={0.75}>
       {({ ref }) => (
         <li className={styles.card(hasBeenScrolled, hasEnteredView)} ref={ref}>
-          <figure className={styles.figure}>
+          <figure className={styles.figure(hasBeenScrolled)}>
             <Link
               className={styles.link}
               href={`/trips/${trip.slug}`}
@@ -45,20 +45,13 @@ export default function Card({ trip }: Props) {
                 src={trip.images.hero}
                 width="500"
               />
-            </Link>
-            <figcaption className={styles.caption}>
-              <h2 className={styles.title}>
-                <span className={styles.eyebrow}>
-                  {trip.categories.join(' • ')}
+              <figcaption className={styles.caption}>
+                <h2 className={styles.title}>{trip.title}</h2>
+                <span className={styles.subtitle}>
+                  {trip.type} • {trip.date.year.join('-')}
                 </span>
-                <Link href={`/trips/${trip.slug}`}>
-                  {trip.title}
-                </Link>
-              </h2>
-              <span className={styles.subtitle}>
-                {trip.description[1]}
-              </span>
-            </figcaption>
+              </figcaption>
+            </Link>
           </figure>
         </li>
       )}

@@ -1,7 +1,7 @@
 'use client';
 
 import { lowerFirst } from 'lodash';
-import { ArrowLeft, ArrowRight, List, Route } from 'lucide-react';
+import { ArrowLeft, ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -30,13 +30,7 @@ export default function View({ isInitial, slug }: Props) {
 
   return (
     <article className={styles.container}>
-      <header className={styles.header}>
-        <h1 className={styles.title}>
-          {trip.title}
-        </h1>
-        <p className={styles.excerpt}>
-          {trip.description[1]}
-        </p>
+      <header className={`${styles.screen} ${styles.header}`}>
         <ul className={styles.categories}>
           {trip.categories.map((category) => (
             <li key={category}>
@@ -50,91 +44,97 @@ export default function View({ isInitial, slug }: Props) {
             </li>
           ))}
         </ul>
+        <h1 className={styles.title}>
+          {trip.title}
+        </h1>
+        <p className={styles.excerpt}>
+          {trip.description[1]}
+        </p>
       </header>
       <section className={styles.body}>
-        <figure className={styles.figure}>
+        <figure className={styles.screen}>
           <Image
             alt=""
-            className={styles.image}
+            className={styles.hero}
             height="1080"
             src={trip.images.hero}
             width="1920"
           />
         </figure>
-        <h3 className={styles.heading}>
-          {trip.description[0]} in {trip.location}
-        </h3>
-        <div className={styles.previews}>
-          <figure className={styles.large}>
-            <Image
-              alt=""
-              className={styles.preview}
-              height="1080"
-              src={trip.images.large}
-              width="1920"
-            />
-          </figure>
-          <figure className={styles.small}>
-            <Image
-              alt=""
-              className={styles.preview}
-              height="1080"
-              src={trip.images.small}
-              width="1920"
-            />
-          </figure>
+        <div className={`${styles.intro}`}>
+          <h3 className={styles.heading}>
+            {trip.description[0]}
+          </h3>
+          {/*<button
+            className={styles.explore}
+            onClick={() => {}}
+            type="button"
+          >
+            Experience The Trail
+          </button>*/}
+          <ul className={styles.stats}>
+            <li>
+              <h4 className={styles.eyebrow}>
+                Start
+              </h4>
+              The {trip.title} started at {trip.termini.start}.
+            </li>
+            <li>
+              <h4 className={styles.eyebrow}>
+                Distance
+              </h4>
+              The entire trek was {trip.stats.distance.value.imperial} {trip.stats.distance.units.imperial.full}, or {trip.stats.distance.value.metric} {trip.stats.distance.units.metric.full}.
+            </li>
+            <li>
+              <h4 className={styles.eyebrow}>
+                Duration
+              </h4>
+              Covering that distance, from start to finish, took {trip.stats.days.value} days.
+            </li>
+            <li>
+              <h4 className={styles.eyebrow}>
+                Peak
+              </h4>
+              The hike reached a maximum altitude of {trip.stats.altitude.value.imperial} {trip.stats.altitude.units.imperial.abbreviated}, or {trip.stats.altitude.value.metric} {trip.stats.altitude.units.metric.abbreviated}.
+            </li>
+          </ul>
         </div>
-        <h4 className={styles.subheading}>
-          The Trail
+
+        <h3 className={styles.subheading}>
+          Timeline
+        </h3>
+        <h4 className={styles.dates}>
+          <span className={styles.year}>
+            {trip.date.year.join(' - ')}
+          </span>
+          {trip.date.dates.start.long.month} {trip.date.dates.start.long.day} &mdash; {trip.date.dates.end.long.month} {trip.date.dates.end.long.day}
         </h4>
-        <ul className={styles.stats}>
-          <li>
-            <h4 className={styles.statheading}>
-              <span className={styles.index}>(01)</span>
-              Route
-            </h4>
-            {trip.termini.isSame ? (
-              `The ${trip.title} thru-hike started and ended in the same place: ${trip.termini.start} `
-            ) : (
-              `The ${trip.title} thru-hike started in ${trip.termini.start}, and ended in ${trip.termini.end}`
-            )}
-          </li>
-          <li>
-            <h4 className={styles.statheading}>
-              <span className={styles.index}>(02)</span>
-              Length
-            </h4>
-            Upon completion the entire trek had covered {trip.stats.distance.value} {trip.stats.distance.units}, or approximately {(trip.stats.distance.value * 1.609).toFixed(0)} kilometers
-          </li>
-          <li>
-            <h4 className={styles.statheading}>
-              <span className={styles.index}>(03)</span>
-              Duration
-            </h4>
-            Hiking that distance, from start to finish, took roughly {trip.stats.days.value - 1} nights and {trip.stats.days.value} days
-          </li>
-          <li>
-            <h4 className={styles.statheading}>
-              <span className={styles.index}>(04)</span>
-              Peak
-            </h4>
-            By foot, the trail (including any side treks) reached a maximum altitude of {trip.stats.altitude.value} {trip.stats.altitude.units}
-          </li>
+        <ul className={styles.timeline}>
+          {trip.stages.map((stage) => (
+            <li className={styles.step} key={stage.index}>
+              <figure className={styles.figure}>
+                <Image
+                  alt=""
+                  className={styles.preview}
+                  height="1080"
+                  src={stage.images.hero}
+                  width="1920"
+                />
+                <figcaption className={styles.caption}>
+                  {stage.termini.end}
+                </figcaption>
+              </figure>
+            </li>
+          ))}
         </ul>
-        {trip.hasRoutes && (
+
+        {/*{trip.hasRoutes && (
           <Map
             isLoop={trip.termini.isSame}
             routes={trip.routes}
             stages={trip.stages}
           />
-        )}
-        <button
-          className={styles.explore}
-          onClick={() => {}}
-          type="button"
-        >
-          Experience The Trail
-        </button>
+        )}*/}
       </section>
       <footer className={styles.footer}>
         <button
@@ -142,15 +142,17 @@ export default function View({ isInitial, slug }: Props) {
           onClick={handleOnPrevious}
           type="button"
         >
-          <ArrowLeft className={styles.icon} /> Older
+          <ArrowLeft className={styles.icon} /> Previous Trip
         </button>
-        <button
-          className={styles.navigation}
-          onClick={handleOnNext}
-          type="button"
-        >
-          Newer <ArrowRight className={styles.icon} />
-        </button>
+        {trip.index !== 0 && (
+          <button
+            className={styles.navigation}
+            onClick={handleOnNext}
+            type="button"
+          >
+            Next Trip <ArrowRight className={styles.icon} />
+          </button>
+        )}
       </footer>
     </article>
   );
