@@ -11,7 +11,6 @@ const Leaflet = dynamic(() => import('./route.leaflet'), {
 });
 
 type Props = {
-  isLoop: boolean;
   routes: Route[][];
   stages: Stage[];
 };

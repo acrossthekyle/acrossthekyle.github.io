@@ -22,6 +22,37 @@ export type Gear = {
   weightWorn: string;
 };
 
+export type Coordinates = {
+  left: string;
+  top: string;
+};
+
+export type DateParts = {
+  month: string;
+  day: string;
+  year: string;
+};
+
+export type Date = {
+  dates: {
+    start: {
+      long: DateParts;
+      short: DateParts;
+    };
+    end: {
+      long: DateParts;
+      short: DateParts;
+    };
+  };
+  year: string[];
+};
+
+export type Navigation = {
+  date: Date;
+  slug: string;
+  title: string;
+};
+
 export type Route = [number, number];
 
 export type StatFull = {
@@ -48,6 +79,12 @@ export type StatShort = {
   units: string;
 };
 
+export type Termini = {
+  end: string;
+  isSame: boolean;
+  start: string;
+};
+
 export type Stage = {
   date: string;
   elevation: string[];
@@ -57,8 +94,8 @@ export type Stage = {
   };
   index: number;
   latlong: string[];
-  next: string | null;
-  previous: string | null;
+  next: Navigation | null;
+  previous: Navigation | null;
   slug: string;
   stats: {
     distance: StatFull | null;
@@ -67,36 +104,8 @@ export type Stage = {
     max: StatFull | null;
     time: StatShort | null;
   };
-  termini: {
-    end: string;
-    start: string;
-  };
+  termini: Termini;
   title: string;
-};
-
-export type Coordinates = {
-  left: string;
-  top: string;
-};
-
-export type DateParts = {
-  month: string;
-  day: string;
-  year: string;
-};
-
-export type Date = {
-  dates: {
-    start: {
-      long: DateParts;
-      short: DateParts;
-    };
-    end: {
-      long: DateParts;
-      short: DateParts;
-    };
-  };
-  year: string[];
 };
 
 export type Trip = {
@@ -118,8 +127,8 @@ export type Trip = {
   label: string;
   latlong: string[][];
   location: string;
-  next: string | null;
-  previous: string | null;
+  next: Navigation | null;
+  previous: Navigation | null;
   routes: Route[][] | null;
   slug: string;
   stages: Stage[];
@@ -130,11 +139,7 @@ export type Trip = {
     length: StatShort;
   };
   tagline: string;
-  termini: {
-    end: string;
-    isSame: boolean;
-    start: string;
-  };
+  termini: Termini;
   timestamp: string;
   title: string;
   total: number;

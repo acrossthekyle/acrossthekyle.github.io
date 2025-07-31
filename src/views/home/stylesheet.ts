@@ -14,11 +14,10 @@ const styles = tw({
     lg:grid-cols-3
     lg:pb-16
   `,
-  card: (hasBeenScrolled: boolean, hasEnteredView: boolean) => tw(`
+  card: (hasEnteredView: boolean) => tw(`
     group
     relative
-    transform-gpu
-    duration-800
+    transform-gpu duration-800
     shadow-2xl/50
     select-none
     row-span-11
@@ -47,19 +46,13 @@ const styles = tw({
     sm:hover:shadow-black
     sm:active:scale-100
   `),
-  figure: (hasBeenScrolled: boolean) => tw(`
+  figure: `
     relative
     h-full
     rounded-3xl
     overflow-hidden
     duration-500
-
-    ${hasBeenScrolled ? `
-      sm:opacity-100
-    ` : `
-      sm:opacity-30
-    `}
-  `),
+  `,
   link: `
     relative
     block

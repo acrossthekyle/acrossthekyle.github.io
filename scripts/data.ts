@@ -353,10 +353,13 @@ async function getStages(folder) {
         };
       }
 
+      const end = getTermini(data.title, 1);
+      const start = getTermini(data.title, 0);
+
       stages.push({
         date: data.date,
         elevation,
-        hasStats: stats !== null,
+        hasStats: !Object.values(stats).every(value => value === null),
         id: generateId(),
         images: {
           hero: data.image,
@@ -369,8 +372,9 @@ async function getStages(folder) {
         slug: _.kebabCase(data.title),
         stats,
         termini: {
-          end: getTermini(data.title, 1),
-          start: getTermini(data.title, 0),
+          end,
+          isSame: start.toLowerCase() === end.toLowerCase(),
+          start,
         },
         title: data.title,
       });
@@ -387,8 +391,16 @@ async function getStages(folder) {
     return {
       ...item,
       index,
-      previous: index === 0 ? null : sorted[index - 1].slug,
-      next: index === sorted.length - 1 ? null : sorted[index + 1].slug,
+      previous: index === 0 ? null : {
+        date: sorted[index - 1].date,
+        slug: sorted[index - 1].slug,
+        title: sorted[index - 1].title,
+      },
+      next: index === sorted.length - 1 ? null : {
+        date: sorted[index + 1].date,
+        slug: sorted[index + 1].slug,
+        title: sorted[index + 1].title,
+      },
     };
   });
 
@@ -486,7 +498,7 @@ async function getTripStats(trip, stages) {
 
 async function getTripDate(trip, stages) {
   const start = parseDate(trip.dates[0], 'M/dd/yyyy', new Date());
-  const year = [formatDate(start, 'yyyy')];
+  const year = [formatDate(start, 'yyyy').trim()];
 
   let dates = null;
 
@@ -522,7 +534,7 @@ async function getTripDate(trip, stages) {
   }
 
   if (dates === null) {
-    year.push(stages[stages.length - 1].date.split(',')[1]);
+    year.push(stages[stages.length - 1].date.split(',')[1].trim());
   }
 
   return {
@@ -533,7 +545,7 @@ async function getTripDate(trip, stages) {
 
 function getLabel(type) {
   if (type === 'thru-hike') {
-    return 'day';
+    return 'stage';
   }
 
   if (type === 'section-hike') {
@@ -654,11 +666,22 @@ async function go() {
     const sorted = data.sort((a, b) => b.timestamp - a.timestamp);
 
     const result = sorted.map((item, index) => {
+      const nextIndex = index === 0 ? null : index - 1;
+      const previousIndex = index === sorted.length - 1 ? null : index + 1;
+
       return {
         ...item,
         index,
-        next: index === 0 ? sorted[sorted.length - 1].slug : sorted[index - 1].slug,
-        previous: index === sorted.length - 1 ? sorted[0].slug : sorted[index + 1].slug,
+        next: nextIndex ? {
+          date: sorted[nextIndex].date,
+          slug: sorted[nextIndex].slug,
+          title: sorted[nextIndex].title,
+        } : null,
+        previous: previousIndex ? {
+          date: sorted[previousIndex].date,
+          slug: sorted[previousIndex].slug,
+          title: sorted[previousIndex].title,
+        } : null,
       };
     });
 

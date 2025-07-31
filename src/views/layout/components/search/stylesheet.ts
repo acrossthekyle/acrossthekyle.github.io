@@ -15,7 +15,9 @@ const styles = tw({
     rounded-full
     duration-500
     pl-10
-    bg-black/10
+    bg-zinc-800
+    border
+    border-white/5
 
     placeholder:text-white/30
     placeholder:text-xs

@@ -14,25 +14,20 @@ type Props = {
 };
 
 export default function Card({ trip }: Props) {
-  const [hasBeenScrolled, setHasBeenScrolled] = useState(false);
   const [hasEnteredView, setHasEnteredView] = useState(false);
 
   const handleOnInView = useCallback(
     (isInView: boolean) => {
       setHasEnteredView(isInView);
-
-      if (!hasBeenScrolled && isInView) {
-        setHasBeenScrolled(true);
-      }
     },
-    [hasBeenScrolled],
+    [],
   );
 
   return (
     <InView onChange={handleOnInView} threshold={0.75}>
       {({ ref }) => (
-        <li className={styles.card(hasBeenScrolled, hasEnteredView)} ref={ref}>
-          <figure className={styles.figure(hasBeenScrolled)}>
+        <li className={styles.card(hasEnteredView)} ref={ref}>
+          <figure className={styles.figure}>
             <Link
               className={styles.link}
               href={`/trips/${trip.slug}`}

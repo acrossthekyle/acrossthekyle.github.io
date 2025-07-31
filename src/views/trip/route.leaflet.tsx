@@ -17,7 +17,6 @@ import type { Route, Stage } from '@/types';
 import styles from './map.stylesheet';
 
 type Props = {
-  isLoop: boolean;
   routes: Route[][];
   stages: Stages[];
 };
@@ -44,25 +43,25 @@ function Popup({ index, stage, total }: PopupProps) {
         <div className={styles.distance}>
           <MoveHorizontal className={styles.trend} />
           <span>
-            {stage.stats.distance.value}{' '}
+            {stage.stats.distance.value.imperial}{' '}
             <small className={styles.small}>
-              {stage.stats.distance.units}
+              {stage.stats.distance.units.imperial.abbreviated}
             </small>
           </span>
         </div>
         <div className={styles.elevation}>
           <div className={styles.value}>
             <TrendingUp className={styles.trend} />
-            {stage.stats.gain.value}
+            {stage.stats.gain.value.imperial}
             <small className={styles.small}>
-              {stage.stats.gain.units}
+              {stage.stats.gain.units.imperial.abbreviated}
             </small>
           </div>
           <div className={styles.value}>
             <TrendingDown className={styles.trend} />
-            {stage.stats.loss.value}
+            {stage.stats.loss.value.imperial}
             <small className={styles.small}>
-              {stage.stats.loss.units}
+              {stage.stats.loss.units.imperial.abbreviated}
             </small>
           </div>
         </div>
@@ -71,7 +70,7 @@ function Popup({ index, stage, total }: PopupProps) {
   );
 }
 
-export default function Leaflet({ isLoop, routes, stages }: Props) {
+export default function Leaflet({ routes, stages }: Props) {
   const [activeRoute, setActiveRoute] = useState<null | number>(null);
   const [all, setAll] = useState<Route[][]>([]);
 

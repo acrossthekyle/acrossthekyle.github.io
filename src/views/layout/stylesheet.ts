@@ -4,16 +4,14 @@ const styles = tw({
   header: `
     relative z-1
     w-full
-    mt-6
-    px-4
+    pt-6 px-4
 
     sm:px-8
-    sm:mt-12
+    sm:pt-12
   `,
   inner: `
     flex items-center justify-between
-    w-full max-w-7xl
-    my-0 mx-auto
+    w-full
   `,
   home: `
     group
