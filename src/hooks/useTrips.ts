@@ -9,8 +9,8 @@ type State = {
 };
 
 type Actions = {
-  fetch: () => void;
-  find: (slug: string) => void;
+  fetch: () => Promise<Trip[]>;
+  find: (slug: string) => Promise<Trip | undefined>;
 };
 
 const store = create<State & Actions>()(
@@ -46,13 +46,13 @@ const store = create<State & Actions>()(
       return trips;
     },
     find: async (slug: string) => {
-      let trips = get().trips;
+      if (get().trips.length === 0) {
+        const trips = await get().fetch();
 
-      if (trips.length === 0) {
-        trips = await get().fetch();
+        return trips.find(trip => trip.slug === slug);
       }
 
-      return trips.find(trip => trip.slug === slug);
+      return get().trips.find(trip => trip.slug === slug);
     },
   }),
 );

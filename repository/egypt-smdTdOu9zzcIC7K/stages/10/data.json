@@ -1,6 +1,9 @@
 {
-  "date": "January 3rd, 2023",
-  "title": "Hatsheputs Temple",
-  "image": "2022/12/28/b7e2eeb1-90d3-49cb-bdb8-41acf2162f78.jpeg",
-  "latlong": ["25.7383", "32.6065"]
+  "date": "January 4th, 2023",
+  "title": "Luxor Temple",
+  "image": "2022/12/28/9799718c-81f7-460d-9f0a-7ddd2dffb060.jpeg",
+  "images": [
+    "2022/12/28/ae9f8f53-2e60-4dc3-890e-c330842d4ee1.jpeg",
+    "2022/12/28/63dd5017-e9f2-4def-8aa6-2f97f2803ed4.jpeg"
+  ]
 }

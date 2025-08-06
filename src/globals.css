@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #27272a;
+  --background: #000000;
   --foreground: #ffffff;
 }
 
@@ -19,8 +19,10 @@
   --text-tiny: 0.625rem;
   --max-w-8xl: 100rem;
 
-  --animate-slide-in-left: slideInLeft .75s cubic-bezier(0.25, 0.1, 0.25, 1) 1;
-  --animate-slide-in-right: slideInRight .75s cubic-bezier(0.25, 0.1, 0.25, 1) 1;
+  --animate-slide-in-left: slideInLeft 1s cubic-bezier(0.25, 0.1, 0.25, 1) 1;
+  --animate-slide-in-right: .3s slideInRight .3s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
+  --animate-slide-in-down: slideInDown 1s cubic-bezier(0.25, 0.1, 0.25, 1) 1;
+  --animate-slide-in-up: slideInUp 1s cubic-bezier(0.25, 0.1, 0.25, 1) 1;
 
   @keyframes slideInLeft {
     0% { opacity: 0; transform: translateX(-100%); }
@@ -30,6 +32,28 @@
   @keyframes slideInRight {
     0% { opacity: 0; transform: translateX(100%); }
     100% { opacity: 100; transform: translateX(0); }
+  }
+
+  @keyframes slideInDown {
+    0% { opacity: 0; transform: translateY(-100%); }
+    100% { opacity: 100; transform: translateY(0); }
+  }
+
+  @keyframes slideInUp {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+      scale: 10%;
+    }
+    50% {
+      transform: translateX(0);
+      scale: 90%;
+    }
+    100% {
+      opacity: 100;
+      transform: translateX(0);
+      scale: 100%;
+    }
   }
 }
 
@@ -46,99 +70,16 @@ body {
     -webkit-appearance: none;
   }
 
-  #all-routes .leaflet-tile-pane {
-    display: none;
-  }
-
-  #all-routes .leaflet-tooltip {
-    background-color: transparent;
-    border: none;
-    border-radius: 0;
-    box-shadow: none;
-    color: transparent;
-    padding: 0;
-    transition: opacity 0.25s ease-in;
-    white-space: unset;
-  }
-
-  #all-routes .leaflet-tooltip-left {
-    margin-right: 1rem;
-  }
-
-  #all-routes .leaflet-tooltip-right {
-    margin-left: 1rem;
-  }
-
-  #all-routes .leaflet-tooltip-top {
-    margin-bottom: 1rem;
-  }
-
-  #all-routes .leaflet-tooltip-bottom {
-    margin-top: 1rem;
-  }
-
-  #all-routes .leaflet-tooltip-left:before {
-    display: none;
-  }
-
-  #all-routes .leaflet-tooltip-right:before {
-    display: none;
-  }
-
-  #all-routes .leaflet-tooltip-top:before {
-    display: none;
-  }
-
-  #all-routes .leaflet-tooltip-bottom:before {
-    display: none;
-  }
-
-  #all-routes {
-    overflow: visible;
-  }
-
   .leaflet-container {
-    background: var(--background);
+    background: transparent;
   }
+
+  .leaflet-tile-pane {
+    filter: grayscale(100%);
+  }
+
 
   .leaflet-control-attribution {
     visibility: hidden;
-  }
-
-  @media screen and (max-width: 768px) {
-    #all-routes {
-      overflow: hidden;
-    }
-
-    #all-routes .leaflet-tooltip {
-      position: absolute !important;
-      bottom: 3rem !important;
-      left: 0 !important;
-      width: 100%;
-      transform: none !important;
-    }
-
-    #all-routes .leaflet-tooltip-left {
-      margin-right: 0 !important;
-    }
-
-    #all-routes .leaflet-tooltip-right {
-      margin-left: 0 !important;
-    }
-
-    #all-routes .leaflet-tooltip-top {
-      margin-bottom: 0 !important;
-    }
-
-    #all-routes .leaflet-tooltip-bottom {
-      margin-top: 0 !important;
-    }
-
-    #all-routes .leaflet-map-pane,
-    #all-routes .leaflet-tooltip-pane {
-      position: relative;
-      height: 100%;
-      pointer-events: none;
-    }
   }
 }

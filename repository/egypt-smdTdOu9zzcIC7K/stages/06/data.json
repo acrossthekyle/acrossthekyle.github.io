@@ -1,6 +1,9 @@
 {
   "date": "January 3rd, 2023",
-  "title": "Colossi of Memnon",
-  "image": "2022/12/28/171e29ad-82f5-491e-bac8-b56733464b5a.jpeg",
-  "latlong": ["25.7204", "32.6104"]
+  "title": "Valley of the Queens",
+  "image": "2022/12/28/bc5b055a-7117-4e18-9aac-8384ba214d5e.jpeg",
+  "images": [
+    "2022/12/28/9fb7c062-5816-4154-b8cd-525a81f82be0.jpeg",
+    "2022/12/28/fbbc1e85-56eb-4230-ad9c-2fca9414ae1a.jpeg"
+  ]
 }

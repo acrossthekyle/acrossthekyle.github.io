@@ -1,6 +1,9 @@
 {
-  "date": "December 29th, 2022",
-  "title": "Great Sphinx of Giza",
-  "image": "2022/12/28/b3275967-68fd-4c69-ad40-df15b2a697b5.jpeg",
-  "latlong": ["29.9753", "31.1376"]
+  "date": "December 30th, 2022",
+  "title": "Step and Bent Pyramids",
+  "image": "2022/12/28/2fbb089e-8a80-4c3b-b071-709cc9702a84.jpeg",
+  "images": [
+    "2022/12/28/d9a7b01b-5915-493c-8c25-5a8ebd77ac58.jpeg",
+    "2022/12/28/fe1acec1-a2b8-4d00-9e2f-7a42c4431323.jpeg"
+  ]
 }

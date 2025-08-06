@@ -6,7 +6,8 @@ import { useTrips } from '@/hooks/useTrips';
 import type { Trip } from '@/types';
 
 type Model = {
-  trip: Trip;
+  isLoading: boolean;
+  trip: Trip | undefined;
 };
 
 export function useModel(slug: string): Model {
@@ -22,9 +23,12 @@ export function useModel(slug: string): Model {
 
   useEffect(() => {
     getTrip();
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return {
+    isLoading,
     trip,
   };
 }

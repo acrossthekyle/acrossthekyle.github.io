@@ -4,7 +4,7 @@ import type { Metadata, Viewport } from 'next';
 import { Geist } from 'next/font/google';
 
 import Stack from '@/context/stack';
-import Layout from '@/views/layout';
+import Layout from '@/layouts/root';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -32,17 +32,17 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 1,
   userScalable: false,
-  themeColor: '#1c1917',
+  themeColor: '#000000',
 }
 
-export default function RootLayout({
-  children,
-}: {
+type Props = {
   children: React.ReactNode;
-}) {
+};
+
+export default function RootLayout({ children }: Props) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} antialiased`}>
+    <html className="h-full" lang="en">
+      <body className={`${geistSans.variable} antialiased flex flex-col h-full`}>
         <Stack>
           <Layout>
             {children}

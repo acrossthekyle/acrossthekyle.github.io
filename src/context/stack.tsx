@@ -8,7 +8,6 @@ import {
 } from 'react';
 
 import { useEvent } from '@/hooks/useEvent';
-import { useStack } from '@/hooks/useStack';
 
 type Props = {
   children: ReactNode | ReactNode[];
@@ -24,35 +23,13 @@ export const StackContext = createContext({
 
 export default function Stack({ children }: Props) {
   const { dispatch } = useEvent('onEscape');
-  const { dispatch: dispatchLeft } = useEvent('onLeft');
-  const { dispatch: dispatchRight } = useEvent('onRight');
-
-  const { removeStack, stack } = useStack();
 
   const handleOnKeyUp = useCallback((event: KeyboardEvent) => {
-    // if (stack.length > 0) {
-    //   const id = stack[stack.length - 1];
-
-      if (event.key === 'Escape') {
-        dispatch();
-
-        removeStack();
-      } else if (event.key === 'ArrowRight') {
-        dispatchRight();
-      } else if (event.key === 'ArrowLeft') {
-        dispatchLeft();
-      }
-    // }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [stack]);
-
-  useEffect(() => {
-    if (stack.length > 0) {
-      document.body.classList.add('overflow-hidden');
-    } else {
-      document.body.classList.remove('overflow-hidden');
+    if (event.key === 'Escape') {
+      dispatch('escaped');
     }
-  }, [stack]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   useEffect(() => {
     document.addEventListener('keyup', handleOnKeyUp);

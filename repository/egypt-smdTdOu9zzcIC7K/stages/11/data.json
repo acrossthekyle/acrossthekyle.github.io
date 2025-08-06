@@ -1,6 +1,9 @@
 {
   "date": "January 4th, 2023",
-  "title": "Balloon Ride over Luxor",
-  "image": "2022/12/28/b13b3a23-187a-4dc4-912d-e225b21af78a.jpeg",
-  "latlong": ["25.731563", "32.618445"]
+  "title": "Karnak Temple Complex",
+  "image": "2022/12/28/6bf7f094-4f84-42b6-8bbc-5b501a25f3e7.jpeg",
+  "images": [
+    "2022/12/28/7f2020f6-ccd2-4f4a-98a1-44abd2df6911.jpeg",
+    "2022/12/28/3499fb61-f3ca-4a3d-9f5c-e41df689c4dd.jpeg"
+  ]
 }

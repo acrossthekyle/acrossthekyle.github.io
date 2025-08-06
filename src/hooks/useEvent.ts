@@ -8,8 +8,6 @@ interface AppEvent<PayloadType = unknown> extends Event {
 
 export interface CustomWindowEventMap extends WindowEventMap {
   onEscape: AppEvent<string>;
-  onLeft: AppEvent<string>;
-  onRight: AppEvent<string>;
 }
 
 export const useEvent = <PayloadType = unknown>(

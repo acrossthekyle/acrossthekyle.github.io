@@ -1,6 +1,9 @@
 {
   "date": "January 3rd, 2023",
-  "title": "Valley of the Queens",
-  "image": "2022/12/28/bc5b055a-7117-4e18-9aac-8384ba214d5e.jpeg",
-  "latlong": ["25.7277", "32.5931"]
+  "title": "Hatsheputs Temple",
+  "image": "2022/12/28/b7e2eeb1-90d3-49cb-bdb8-41acf2162f78.jpeg",
+  "images": [
+    "2022/12/28/eee38045-1d4f-4bbd-b6f3-17eb34db5191.jpeg",
+    "2022/12/28/0707fa9e-8d4c-475c-ab8b-1649dfcc2964.jpeg"
+  ]
 }

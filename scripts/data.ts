@@ -363,6 +363,7 @@ async function getStages(folder) {
         id: generateId(),
         images: {
           hero: data.image,
+          supplementary: data.images || [],
         },
         index: null,
         latlong: data.latlong,

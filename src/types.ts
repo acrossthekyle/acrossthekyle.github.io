@@ -33,17 +33,19 @@ export type DateParts = {
   year: string;
 };
 
-export type Date = {
-  dates: {
-    start: {
-      long: DateParts;
-      short: DateParts;
-    };
-    end: {
-      long: DateParts;
-      short: DateParts;
-    };
+export type Dates = {
+  start: {
+    long: DateParts;
+    short: DateParts;
   };
+  end: {
+    long: DateParts;
+    short: DateParts;
+  };
+};
+
+export type Date = {
+  dates: Dates | null;
   year: string[];
 };
 
@@ -91,6 +93,7 @@ export type Stage = {
   hasStats: boolean;
   images: {
     hero: string;
+    supplementary: string[];
   };
   index: number;
   latlong: string[];

@@ -1,6 +1,9 @@
 {
-  "date": "January 3rd, 2023",
-  "title": "Habu Temple",
-  "image": "2022/12/28/44f2c787-1209-4e11-a2fe-64030e0c472c.jpeg",
-  "latlong": ["25.7017", "32.6333"]
+  "date": "January 4th, 2023",
+  "title": "Balloon Ride over Luxor",
+  "image": "2022/12/28/b13b3a23-187a-4dc4-912d-e225b21af78a.jpeg",
+  "images": [
+    "2022/12/28/7a643edd-7610-46a0-a6b9-94bf3288d0f8.jpeg",
+    "2022/12/28/d6086591-0ed7-4e71-8276-5690e9584044.jpeg"
+  ]
 }

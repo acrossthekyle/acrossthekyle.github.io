@@ -1,6 +1,9 @@
 {
-  "date": "January 1st, 2023",
-  "title": "Egyptian Museum",
-  "image": "2022/12/28/f24edc7b-3854-40c5-a2e7-33e2e2e27bde.jpeg",
-  "latlong": ["30.0483", "31.2337"]
+  "date": "January 3rd, 2023",
+  "title": "Valley of the Kings",
+  "image": "2022/12/28/f135fdfe-1c54-4f54-b8b5-fbd7887055ab.jpeg",
+  "images": [
+    "2022/12/28/5f93fbaf-0c30-4f70-959d-a5e4384eff83.jpeg",
+    "2022/12/28/d8ebe864-7209-44ae-b426-a05337965b8d.jpeg"
+  ]
 }

@@ -1,6 +1,9 @@
 {
   "date": "December 29th, 2022",
-  "title": "Great Pyramids at Giza",
-  "image": "2022/12/28/c206b03e-01aa-43d3-ba10-19fc0eeb3fbd.jpeg",
-  "latlong": ["29.9769", "31.1327"]
+  "title": "Giza Plateau",
+  "image": "2022/12/28/4a450c11-fa71-4501-83de-95cf248aeecc.jpeg",
+  "images": [
+    "2022/12/28/c0f9c079-8942-4390-bb9e-dae4e0a65034.jpeg",
+    "2022/12/28/b3275967-68fd-4c69-ad40-df15b2a697b5.jpeg"
+  ]
 }

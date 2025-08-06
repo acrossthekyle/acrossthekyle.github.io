@@ -1,116 +1,80 @@
 import tw from '@/styles';
 
 const styles = tw({
-  title: `
-    flex items-center
-    w-full
-    ps-8 mt-10 mb-16
-    text-4xl/9 text-yellow-300 font-black uppercase font-stretch-ultra-condensed
-  `,
-  description: `
+  timeline:  `
     relative
-    w-full max-w-xl
-    mb-16
-    ps-8
-    text-2xl font-extralight text-left font-stretch-condensed
+    flex flex-col gap-16
   `,
-  timeline: `
+  stage: `
+    group/stage
     relative
-    grid grid-cols-2 gap-x-14
-    w-full
-    mb-10
-    px-8
-  `,
-  step: (hasEnteredView: boolean) => tw(`
-    group
-    relative
-    py-4
-    duration-800
-
-    ${hasEnteredView ? `animate-slide-in-left` : 'opacity-0'}
-  `),
-  cta: (isActive: boolean) => tw(`
-    relative
-    w-full
-    pe-12
-    text-4xl text-white font-black uppercase text-left
-    cursor-pointer
-    duration-500
-
-    ${isActive ? 'text-yellow-300' : ''}
-
-    hover:text-yellow-300
-  `),
-  plus: (isActive: boolean) => tw(`
-    absolute -left-10 top-1
-    w-8 h-8
-    stroke-1
-    duration-100 ease-in
-
-    ${isActive ? 'rotate-45' : 'rotate-0'}
-  `),
-  index: `
-    absolute right-0
-    text-3xl text-white/5 font-black font-stretch-ultra-condensed text-right
-  `,
-  date: `
-    text-xl text-stone-400 font-medium uppercase font-stretch-ultra-condensed
-  `,
-  details: (isActive: boolean) => tw(`
-    overflow-hidden
-    duration-500
-
-    ${isActive ? 'h-110' : 'h-0'}
-  `),
-  inner: (isActive: boolean) => tw(`
-    relative
-    h-110
-    border-b
-
-    ${isActive ? 'border-b border-b-white/5' : 'border-b-white/0'}
-  `),
-  stats: `
-    absolute inset-0 bottom-0 right-0
-    h-104
-    flex flex-row justify-end items-end gap-6
-    text-right
-  `,
-  label: `
-    text-tiny text-yellow-300 font-bold uppercase
-  `,
-  value: `
-    text-base text-white font-semibold
-  `,
-  units: `
-    ps-1
-    text-base text-white font-semibold uppercase font-stretch-ultra-condensed
   `,
   figure: `
-    pt-8 pb-20
-    h-full
+    relative z-0
+    overflow-hidden
   `,
-  preview: `
-    w-full h-full
-    rounded-lg
+  button: `
+    relative
+  `,
+  image: `
+    relative z-1
+    aspect-3/2
     object-cover
-    opacity-90
+    w-full h-full
+    grayscale-100
+    brightness-40
+    transform-gpu duration-400
+
+    group-hover/stage:brightness-90
+    group-hover/stage:grayscale-0
   `,
-  views: `
-    absolute bottom-6 left-0 z-1
-    rounded-lg
-    flex gap-4
+  caption: `
+    absolute bottom-8 left-8 z-2
+    me-8
+    pointer-events-none
+
   `,
-  view: `
-    text-xl text-white uppercase font-black
+  eyebrow: `
+    mb-0.5
+    text-sm text-white
+    font-medium
+    uppercase
+    tracking-widest
+    transform-gpu duration-250
+
+    group-hover/stage:font-normal
+    group-hover/stage:tracking-tight
+  `,
+  index: `
+    inline-block
+    me-1
+  `,
+  title: `
+    text-4xl/7
+    font-black
+    uppercase
+    tracking-normal
+    transform-gpu duration-250
+
+    group-hover/stage:font-semibold
+    group-hover/stage:tracking-tighter
+    group-hover/stage:font-stretch-condensed
+  `,
+  details: `
+    group/details
+    absolute right-8 top-8 z-2
     cursor-pointer
+    opacity-0
     duration-300
 
-    hover:text-yellow-300
+    group-hover/stage:opacity-100
   `,
   icon: `
-    w-4 h-4
-    stroke-2
-    stroke-white
+    h-8 w-8
+    stroke-1
+    duration-300
+
+    group-hover/details:stroke-2
   `,
 });
 
