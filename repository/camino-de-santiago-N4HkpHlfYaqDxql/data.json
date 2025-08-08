@@ -15,12 +15,12 @@
     "large": "2018/06/02/50570d33-285a-4561-bc7f-b7e500363359.jpeg"
   },
   "description": [
-    "A series of ancient routes that unfolded across Europe",
+    "A series of ancient routes that unfold across Europe",
     "Walking over hills and mountains, pushing through deserts, and swimming in rivers, all leading towards the city of Santiago de Compostela and the Atlantic ocean."
   ],
   "categories": [
     "thru-hike",
     "europe"
   ],
-  "title": "Camino de Santiago"
+  "title": ["Camino de", "Santiago"]
 }

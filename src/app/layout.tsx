@@ -3,7 +3,7 @@ import '../globals.css';
 import type { Metadata, Viewport } from 'next';
 import { Geist } from 'next/font/google';
 
-import Stack from '@/context/stack';
+import Events from '@/context/events';
 import Layout from '@/layouts/root';
 
 const geistSans = Geist({
@@ -42,12 +42,12 @@ type Props = {
 export default function RootLayout({ children }: Props) {
   return (
     <html className="h-full" lang="en">
-      <body className={`${geistSans.variable} antialiased flex flex-col h-full`}>
-        <Stack>
+      <body className={`${geistSans.variable} antialiased h-full`}>
+        <Events>
           <Layout>
             {children}
           </Layout>
-        </Stack>
+        </Events>
       </body>
     </html>
   );

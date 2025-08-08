@@ -1,80 +1,144 @@
 import tw from '@/styles';
 
 const styles = tw({
-  timeline:  `
-    relative
-    flex flex-col gap-16
-  `,
-  stage: `
-    group/stage
-    relative
-  `,
-  figure: `
-    relative z-0
-    overflow-hidden
-  `,
-  button: `
-    relative
-  `,
-  image: `
-    relative z-1
+  timeline: (isFullscreen: boolean) => tw(`
+    ${isFullscreen ? `
+      h-screen w-full
+    ` : `
+      flex flex-col gap-4
+    `}
+  `),
+  stage: (isFullscreen: boolean, isActive: boolean) => tw(`
+    ${isFullscreen ? `
+      absolute inset-0
+      h-screen w-screen
+      duration-400
+
+      ${isActive ? `
+        z-1
+        opacity-100
+      ` : `
+        z-0
+        opacity-0
+      `}
+    ` : `
+      opacity-0
+      group/stage
+      relative
+      animate-in
+    `}
+  `),
+  image: (isFullscreen: boolean, isActive: boolean) => tw(`
+    z-1
     aspect-3/2
     object-cover
     w-full h-full
-    grayscale-100
-    brightness-40
-    transform-gpu duration-400
+    duration-400
 
-    group-hover/stage:brightness-90
-    group-hover/stage:grayscale-0
-  `,
+    ${isActive ? 'opacity-100' : 'opacity-0'}
+
+    ${isFullscreen ? `
+      absolute inset-0
+      grayscale-0
+      brightness-80
+    ` : `
+      relative
+      grayscale-100
+      brightness-40
+
+      group-hover/stage:brightness-75
+    `}
+  `),
   caption: `
     absolute bottom-8 left-8 z-2
-    me-8
-    pointer-events-none
-
+    me-30
   `,
   eyebrow: `
-    mb-0.5
-    text-sm text-white
+    mb-1
+    text-sm text-white text-left
     font-medium
     uppercase
-    tracking-widest
-    transform-gpu duration-250
+    tracking-wider
+    transform-gpu duration-500
 
     group-hover/stage:font-normal
-    group-hover/stage:tracking-tight
+    group-hover/stage:tracking-tighter
   `,
   index: `
-    inline-block
-    me-1
+    hidden
+    mb-0.5
+    text-tiny
   `,
   title: `
-    text-4xl/7
+    text-4xl/7 text-left
     font-black
     uppercase
-    tracking-normal
-    transform-gpu duration-250
+    tracking-tight
+    transform-gpu duration-500
 
-    group-hover/stage:font-semibold
-    group-hover/stage:tracking-tighter
-    group-hover/stage:font-stretch-condensed
+    group-hover/stage:font-extralight
+    group-hover/stage:tracking-normal
   `,
-  details: `
-    group/details
-    absolute right-8 top-8 z-2
-    cursor-pointer
+  fullscreen: `
+    absolute bottom-7 right-8 z-2
+    uppercase
+    text-sm text-white text-right
+    font-normal font-mono
     opacity-0
-    duration-300
+    duration-400
 
     group-hover/stage:opacity-100
+
+    focus:opacity-100
   `,
-  icon: `
-    h-8 w-8
-    stroke-1
+  close: `
+    absolute bottom-7 right-8 z-2
+    uppercase
+    text-sm
+    font-normal font-mono
+  `,
+  navigation: `
+    absolute bottom-6 right-6 z-3
+    flex items-center gap-1
+  `,
+  current: `
+    text-xs
+    font-mono
+    uppercase
+  `,
+  control: `
+    group/control
+    p-1
+    text-sm text-white
+    font-normal font-mono
+    uppercase
+  `,
+  previous: `
+    w-3 h-3
+    fill-transparent
+    stroke-2 stroke-white
+    -rotate-90
     duration-300
 
-    group-hover/details:stroke-2
+    group-hover/control:fill-white
+  `,
+  next: `
+    w-3 h-3
+    fill-transparent
+    stroke-2 stroke-white
+    rotate-90
+    duration-400
+
+    group-hover/control:fill-white
+  `,
+  stats: `
+    absolute top-7 left-8 z-2
+    flex gap-4
+  `,
+  stat: `
+    uppercase
+    text-xs text-white text-right
+    font-normal font-mono
   `,
 });
 

@@ -11,7 +11,7 @@ type Props = {
 };
 
 export default function View({ slug }: Props) {
-  const { trip } = useModel(slug);
+  const { handleOnFullscreen, handleOnGear, trip } = useModel(slug);
 
   if (!trip) {
     return null; // todo - add loading state
@@ -20,13 +20,8 @@ export default function View({ slug }: Props) {
   return (
     <article className={styles.container}>
       <header className={styles.header}>
-        <h1>
-          {trip.description.join(getStats(trip))}
-        </h1>
-      </header>
-      <Timeline trip={trip} />
-      <footer className={styles.footer}>
-        <p>
+        <h2>
+          {trip.type} &mdash; {trip.location}, {' '}
           {trip.date.dates ? (
             <>
               {trip.date.dates.start.short.month}{' '}
@@ -38,10 +33,21 @@ export default function View({ slug }: Props) {
           ) : (
             <>{trip.date.year.join(' - ')}</>
           )}
-        </p>
-        <p>{trip.type}</p>
-        {trip.location}
-      </footer>
+          <span className={styles.block}>{getStats(trip)}</span>
+        </h2>
+        {trip.hasGear && (
+          <button
+            className={styles.gear}
+            onClick={handleOnGear}
+            type="button"
+          >
+            View Gear
+          </button>
+        )}
+      </header>
+      <section>
+        <Timeline onFullscreen={handleOnFullscreen} trip={trip} />
+      </section>
     </article>
   );
 }

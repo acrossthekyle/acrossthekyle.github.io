@@ -366,7 +366,7 @@ async function getStages(folder) {
           supplementary: data.images || [],
         },
         index: null,
-        latlong: data.latlong,
+        location: data.location || null,
         next: null,
         previous: null,
         route,
@@ -619,8 +619,7 @@ async function go() {
       const date = await getTripDate(trip, stages);
       const termini = await getTripTermini(trip, stages);
 
-      const hasRoutes = stages.filter(stage => stage.route).length > 0;
-      const hasLatlong = stages.filter(stage => stage.latlong).length > 0;
+      // const hasRoutes = stages.filter(stage => stage.route).length > 0;
 
       const slug = _.kebabCase(trip.title);
 
@@ -632,8 +631,7 @@ async function go() {
         description: trip.description,
         gear,
         hasGear: gear !== null,
-        hasLatlong,
-        hasRoutes,
+        // hasRoutes,
         id: generateId(),
         images: {
           hero: trip.image,
@@ -642,11 +640,10 @@ async function go() {
         },
         index: null,
         label: getLabel(trip.type),
-        latlong: hasLatlong ? stages.map(stage => stage.latlong) : null,
         location: trip.location,
         next: null,
         previous: null,
-        routes: hasRoutes ? stages.map(stage => stage.route) : null,
+        // routes: hasRoutes ? stages.map(stage => stage.route) : null,
         shareable: simpleHash(slug),
         slug,
         stages: stages.map(({ elevation, route, ...rest }) => ({

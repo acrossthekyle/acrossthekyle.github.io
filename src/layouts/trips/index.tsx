@@ -11,14 +11,19 @@ type Props = {
 };
 
 export default function Layout({ children }: Props) {
-  const { isOnTrip, route, trips } = useModel();
+  const { activeRef, isOnTrip, route, trips } = useModel();
 
   return (
     <>
       <section className={styles.section}>
         <ul className={styles.trips(isOnTrip)}>
           {trips.map((trip) => (
-            <li className={styles.item} key={trip.index}>
+            <li
+              className={styles.item}
+              key={trip.index}
+              ref={route === `/trips/${trip.slug}` ? activeRef : undefined}
+              style={{ animationDelay: `${0.1 + (trip.index * 0.025)}s` }}
+            >
               <Link
                 className={styles.link(
                   isOnTrip,
@@ -28,7 +33,9 @@ export default function Layout({ children }: Props) {
                   isOnTrip && route === `/trips/${trip.slug}` ? '/trips' : `/trips/${trip.slug}`
                 }
               >
-                {trip.title}
+                {trip.title.map((part) => (
+                  <span className={styles.part} key={part}>{part}</span>
+                ))}
               </Link>
             </li>
           ))}

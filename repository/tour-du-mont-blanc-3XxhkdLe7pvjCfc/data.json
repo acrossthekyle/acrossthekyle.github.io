@@ -22,5 +22,5 @@
     "thru-hike",
     "europe"
   ],
-  "title": "Tour du Mont Blanc"
+  "title": ["Tour du", "Mont Blanc"]
 }

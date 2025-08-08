@@ -89,14 +89,13 @@ export type Termini = {
 
 export type Stage = {
   date: string;
-  elevation: string[];
   hasStats: boolean;
   images: {
     hero: string;
     supplementary: string[];
   };
   index: number;
-  latlong: string[];
+  location: string | null;
   next: Navigation | null;
   previous: Navigation | null;
   slug: string;
@@ -118,8 +117,6 @@ export type Trip = {
   description: string[];
   gear: Gear | null;
   hasGear: boolean;
-  hasLatlong: boolean;
-  hasRoutes: boolean;
   id: string;
   images: {
     hero: string;
@@ -128,11 +125,9 @@ export type Trip = {
   };
   index: number;
   label: string;
-  latlong: string[][];
   location: string;
   next: Navigation | null;
   previous: Navigation | null;
-  routes: Route[][] | null;
   slug: string;
   stages: Stage[];
   stats: {
@@ -144,7 +139,7 @@ export type Trip = {
   tagline: string;
   termini: Termini;
   timestamp: string;
-  title: string;
+  title: string[];
   total: number;
   type: string;
 };

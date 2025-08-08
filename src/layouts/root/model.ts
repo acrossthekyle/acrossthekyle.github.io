@@ -3,6 +3,8 @@
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
+import { useFullscreen } from '@/hooks/useFullscreen';
+
 type Model = {
   handleOnFullscreen: () => void;
   isFullscreen: boolean;
@@ -14,7 +16,8 @@ type Model = {
 export function useModel(): Model {
   const pathname = usePathname();
 
-  const [isFullscreen, setIsFullscreen] = useState(false);
+  const { isFullscreen, enterFullscreen, exitFullscreen } = useFullscreen();
+
   const [isOnRoot, setIsOnRoot] = useState(false);
   const [isOnTrip, setIsOnTrip] = useState(false);
 
@@ -23,29 +26,11 @@ export function useModel(): Model {
     setIsOnTrip(pathname.includes('/trips/'));
   }, [pathname]);
 
-  useEffect(() => {
-    const handleOnChange = () => {
-      if (!document.fullscreenElement) {
-        setIsFullscreen(false);
-      } else {
-        setIsFullscreen(true);
-      }
-    };
-
-    document.addEventListener('fullscreenchange', handleOnChange);
-
-    return () => {
-      document.removeEventListener('fullscreenchange', handleOnChange);
-    };
-  }, []);
-
   const handleOnFullscreen = () => {
-    if (!document.fullscreenElement) {
-      document.documentElement.requestFullscreen();
+    if (isFullscreen) {
+      exitFullscreen();
     } else {
-      if (document.exitFullscreen) {
-        document.exitFullscreen();
-      }
+      enterFullscreen();
     }
   };
 

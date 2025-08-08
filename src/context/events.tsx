@@ -8,6 +8,7 @@ import {
 } from 'react';
 
 import { useEvent } from '@/hooks/useEvent';
+import { useFullscreen } from '@/hooks/useFullscreen';
 
 type Props = {
   children: ReactNode | ReactNode[];
@@ -17,12 +18,14 @@ type KeyboardEvent = {
   key: string;
 };
 
-export const StackContext = createContext({
+export const EventsContext = createContext({
   //
 });
 
-export default function Stack({ children }: Props) {
+export default function Events({ children }: Props) {
   const { dispatch } = useEvent('onEscape');
+
+  const { exitFullscreen } = useFullscreen();
 
   const handleOnKeyUp = useCallback((event: KeyboardEvent) => {
     if (event.key === 'Escape') {
@@ -39,9 +42,26 @@ export default function Stack({ children }: Props) {
     };
   }, [handleOnKeyUp]);
 
+  useEffect(() => {
+    const handleOnChange = () => {
+      if (!document.fullscreenElement) {
+        dispatch('escaped');
+
+        exitFullscreen();
+      }
+    };
+
+    document.addEventListener('fullscreenchange', handleOnChange);
+
+    return () => {
+      document.removeEventListener('fullscreenchange', handleOnChange);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   return (
-    <StackContext.Provider value={{}}>
+    <EventsContext.Provider value={{}}>
       {children}
-    </StackContext.Provider>
+    </EventsContext.Provider>
   );
 };

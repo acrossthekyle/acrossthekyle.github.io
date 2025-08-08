@@ -4,19 +4,14 @@ import { ReactNode } from 'react';
 import { create } from 'zustand';
 
 import { useEvent } from './useEvent';
-import { useStack } from './useStack';
 
 type ModalOptions = {
   content: ReactNode | ReactNode[];
-  isCloseable?: boolean;
-  size?: string;
 };
 
 type State = {
   content: ReactNode | ReactNode[] | null;
-  isCloseable: boolean;
   isOpen: boolean;
-  size: string;
 };
 
 type Actions = {
@@ -27,14 +22,10 @@ type Actions = {
 const store = create<State & Actions>()(
   (set) => ({
     content: null,
-    isCloseable: true,
     isOpen: false,
-    size: 'md',
     setModal: (options: ModalOptions) => {
       set({
         content: options.content,
-        isCloseable: options.isCloseable ?? true,
-        size: options.size ?? 'md',
       });
 
       setTimeout(() => {
@@ -51,8 +42,6 @@ const store = create<State & Actions>()(
       setTimeout(() => {
         set({
           content: null,
-          isCloseable: true,
-          size: 'md',
         });
       }, 300);
     },
@@ -62,25 +51,13 @@ const store = create<State & Actions>()(
 export function useModal() {
   const {
     content,
-    isCloseable,
     isOpen,
     setModal,
-    size,
     unsetModal,
   } = store();
 
-  const { addStack, removeStack } = useStack();
-
   const closeModal = () => {
     unsetModal();
-  };
-
-  const handleOnClose = () => {
-    if (isOpen) {
-      removeStack();
-
-      closeModal();
-    }
   };
 
   const handleOnEscape = () => {
@@ -90,23 +67,17 @@ export function useModal() {
   };
 
   const modal = (options: ModalOptions) => {
-    addStack('modal');
-
     setModal(options);
   };
 
-  useEvent('onEscape', (id) => {
-    if (id === 'modal') {
-      handleOnEscape();
-    }
+  useEvent('onEscape', () => {
+    handleOnEscape();
   });
 
   return {
+    closeModal,
     content,
-    handleOnClose,
-    isCloseable,
     isOpen,
     modal,
-    size,
   };
 }

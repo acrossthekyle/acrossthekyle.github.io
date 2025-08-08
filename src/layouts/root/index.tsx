@@ -1,9 +1,10 @@
 'use client';
 
-import { Fullscreen, Minimize } from 'lucide-react';
+import { Maximize, Minimize } from 'lucide-react';
 import Link from 'next/link';
 import { ReactNode } from 'react';
 
+import Modal from './modal';
 import { useModel } from './model';
 import styles from './stylesheet';
 
@@ -12,14 +13,22 @@ type Props = {
 };
 
 export default function Layout({ children }: Props) {
-  const { handleOnFullscreen, isFullscreen, isOnRoot, isOnTrip, route } = useModel();
+  const {
+    handleOnFullscreen,
+    isFullscreen,
+    isOnRoot,
+    isOnTrip,
+    route,
+  } = useModel();
 
   return (
     <>
       <header className={styles.header}>
-        <Link className={styles.home} href="/">
-          K<span className={styles.yle(isOnRoot)}>YLE</span>
-        </Link>
+        <h1>
+          <Link className={styles.home} href="/">
+            K
+          </Link>
+        </h1>
       </header>
       <main className={styles.main}>
         <nav className={styles.nav}>
@@ -27,15 +36,19 @@ export default function Layout({ children }: Props) {
             <li className={styles.item}>
               <Link
                 className={styles.link(isOnRoot, isOnTrip, route.includes('/trips'))}
-                href={isOnRoot ? '/trips' : '/'}
+                href={
+                  isOnRoot ? '/trips' : (route === '/trips' ? '/' : '/trips')
+                }
               >
-                Destinations
+                Trips
               </Link>
             </li>
             <li className={styles.item}>
               <Link
                 className={styles.link(isOnRoot, isOnTrip, route === '/about')}
-                href={isOnRoot ? '/about' : '/'}
+                href={
+                  isOnRoot ? '/about' : (route === '/about' ? '/' : '/about')
+                }
               >
                 About
               </Link>
@@ -43,7 +56,9 @@ export default function Layout({ children }: Props) {
             <li className={styles.item}>
               <Link
                 className={styles.link(isOnRoot, isOnTrip, route === '/contact')}
-                href={isOnRoot ? '/contact' : '/'}
+                href={
+                  isOnRoot ? '/contact' : (route === '/contact' ? '/' : '/contact')
+                }
               >
                 Contact
               </Link>
@@ -61,10 +76,11 @@ export default function Layout({ children }: Props) {
           {isFullscreen ? (
             <Minimize className={styles.icon} />
           ) : (
-            <Fullscreen className={styles.icon} />
+            <Maximize className={styles.icon} />
           )}
         </button>
       </footer>
+      <Modal />
     </>
   );
 }

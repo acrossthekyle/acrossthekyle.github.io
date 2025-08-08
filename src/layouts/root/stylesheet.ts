@@ -2,17 +2,14 @@ import tw from '@/styles';
 
 const styles = tw({
   header: `
-    absolute left-0 top-0 z-1
-    ps-20
-    pt-12
+    absolute left-0 right-0 top-0 z-1
+    flex justify-between
+    px-20 pt-12
   `,
   home: `
-    text-xl font-black
-    decoration-4 underline underline-offset-4
+    text-xl text-white
+    font-black
   `,
-  yle: (isOnRoot: boolean) => tw(`
-    ${isOnRoot ? 'hidden' : 'inline'}
-  `),
   main: `
     flex
     h-full
@@ -34,7 +31,7 @@ const styles = tw({
       hover:font-light
       hover:tracking-wider
     ` : `
-      transform-gpu duration-500
+      transform-gpu duration-200
       font-thin font-stretch-ultra-condensed
 
       ${isOnTrip ? 'text-5xl/8' : 'text-8xl/18'}
@@ -43,7 +40,6 @@ const styles = tw({
         text-white
       ` : `
         text-white/25
-
         hover:text-white
       `}
     `}
@@ -51,14 +47,13 @@ const styles = tw({
     uppercase
   `),
   footer: (isOnTrip: boolean) => tw(`
-    absolute right-20 bottom-12
+    absolute right-20 bottom-10.5 z-0
     duration-300
 
     ${isOnTrip ? 'opacity-0' : 'opacity-100'}
   `),
   fullscreen: `
     group/fullscreen
-    cursor-pointer
   `,
   icon: `
     w-8 h-8

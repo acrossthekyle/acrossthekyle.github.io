@@ -6,38 +6,36 @@ const styles = tw({
     w-full
     pe-20
     overflow-y-scroll
+    scroll-smooth
   `,
   trips: (isOnTrip: boolean) => tw(`
-    group
-    flex flex-col
+    group/trips
+    flex flex-col gap-2
     py-14 pb-12
-    duration-500
+    duration-200
 
     ${isOnTrip ? `
-      w-80
       ml-72
     ` : `
       pe-20
-      w-auto
       ml-116
     `}
   `),
   item: `
     w-full
-    mb-2
     opacity-0
-    animate-slide-in-right
+    animate-elastic-in
   `,
   link: (isOnTrip: boolean, isActive: boolean) => tw(`
     block
     w-full
     transform-gpu
     uppercase
+    text-8xl/18
 
     ${isOnTrip ? `
-      text-8xl/18
       font-stretch-ultra-condensed
-      duration-400
+      duration-300
 
       ${isActive ? `
         font-medium
@@ -52,16 +50,21 @@ const styles = tw({
         hover:font-medium
       `}
     ` : `
-      text-9xl/25 text-white font-black
-      duration-300
+      text-white
+      font-black
+      duration-400
 
       hover:font-extralight
       hover:tracking-wider
       hover:text-white
 
-      group-hover:text-white/25
+      group-hover/trips:text-white/25
     `}
   `),
+  part: `
+    block
+    line-clamp-1
+  `,
 });
 
 export default styles;
