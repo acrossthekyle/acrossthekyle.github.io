@@ -3,9 +3,6 @@ import '../globals.css';
 import type { Metadata, Viewport } from 'next';
 import { Geist } from 'next/font/google';
 
-import Stack from '@/context/stack';
-import Layout from '@/views/layout';
-
 const geistSans = Geist({
   variable: '--font-geist-sans',
   subsets: ['latin'],
@@ -32,22 +29,14 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 1,
   userScalable: false,
-  themeColor: '#262626',
+  themeColor: '#000000',
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout() {
   return (
     <html lang="en">
       <body className={`${geistSans.variable} antialiased`}>
-        <Stack>
-          <Layout>
-            {children}
-          </Layout>
-        </Stack>
+        <h1>Under Maintenance</h1>
       </body>
     </html>
   );
