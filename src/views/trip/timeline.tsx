@@ -1,6 +1,6 @@
 'use client';
 
-import { Triangle } from 'lucide-react';
+import { Triangle, X } from 'lucide-react';
 import Image from 'next/image';
 
 import type { Trip } from '@/types';
@@ -38,7 +38,7 @@ export default function Timeline({
           onClick={handleOnMiniscreen}
           type="button"
         >
-          Exit
+          <X />
         </button>
       )}
       <ol className={styles.timeline(isFullscreen)}>
@@ -117,11 +117,18 @@ export default function Timeline({
           </li>
         ))}
       </ol>
-      {isFullscreen && activeImages.length > 1 && (
+      {isFullscreen && (
         <div className={styles.navigation}>
-          <span className={styles.current}>
-            image {activeImageIndex + 1}/{activeImages.length}
-          </span>
+          {activeImages.length > 1? (
+            <span className={styles.current}>
+              image {activeImageIndex + 1}/{activeImages.length}
+            </span>
+          ) : (
+            <span className={styles.current}>
+              {String(activeIndex + 1).padStart(3, '0')}/
+              {String(trip.stats.length.value).padStart(3, '0')}
+            </span>
+          )}
           <button
             className={styles.control}
             onClick={handleOnPrevious}

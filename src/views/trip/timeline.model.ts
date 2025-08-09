@@ -17,7 +17,7 @@ type Model = {
 export function useModel(trip: Trip, index?: number): Model {
   const { closeModal } = useModal();
 
-  const [activeIndex] = useState(index ?? -1);
+  const [activeIndex, setActiveIndex] = useState(index ?? -1);
   const [activeImageIndex, setActiveImageIndex] = useState(0);
   const [activeImages, setActiveImages] = useState<string[]>([]);
 
@@ -31,19 +31,23 @@ export function useModel(trip: Trip, index?: number): Model {
   }, [activeIndex, trip.stages]);
 
   const handleOnPrevious = () => {
-    setActiveImageIndex(
-      activeImageIndex === 0
-        ? activeImages.length - 1
-        : activeImageIndex - 1,
-    );
+    handleNavigation('previous');
   };
 
   const handleOnNext = () => {
-    setActiveImageIndex(
-      activeImageIndex === activeImages.length - 1
-        ? 0
-        : activeImageIndex + 1,
-    );
+    handleNavigation('next');
+  };
+
+  const handleNavigation = (direction: 'next' | 'previous') => {
+    const total = activeImages.length > 1 ? (activeImages.length - 1) : (trip.stages.length - 1);
+    const current = activeImages.length > 1 ? activeImageIndex : activeIndex;
+    const callback = activeImages.length > 1 ? setActiveImageIndex : setActiveIndex;
+
+    if (direction === 'next') {
+      callback(current === total ? 0 : current + 1);
+    } else {
+      callback(current === 0 ? total : current - 1);
+    }
   };
 
   const handleOnMiniscreen = () => {

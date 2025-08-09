@@ -22,7 +22,7 @@ const styles = tw({
   status: `
     w-full max-w-4xl
     pe-20 mb-4
-    text-2xl
+    text-xl
     uppercase
   `,
   body: `

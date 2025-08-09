@@ -98,7 +98,7 @@ const styles = tw({
     font-normal font-mono
   `,
   navigation: `
-    absolute bottom-6 right-6 z-3
+    absolute top-7 right-7 z-3
     flex items-center gap-1
   `,
   current: `

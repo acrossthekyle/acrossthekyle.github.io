@@ -1,5 +1,7 @@
 'use client';
 
+import { X } from 'lucide-react';
+
 import type { Trip } from '@/types';
 
 import { useModel } from './gear.model';
@@ -24,7 +26,7 @@ export default function Gear({ onClose, trip }: Props) {
         onClick={onClose}
         type="button"
       >
-        Exit
+        <X />
       </button>
       <ul className={styles.stats(activeIndex === -1)}>
         <li className={styles.stat}>
