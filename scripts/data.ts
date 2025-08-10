@@ -56,7 +56,29 @@ async function writeData(destination, data) {
   await writeFile(output, destination, json);
 }
 
-/* CSV */
+function turnStringIntoArrayForLists(value: string) {
+  const parts = value.split(' ');
+  let result = [''];
+  let index = 0;
+
+  parts.forEach((part: string) => {
+    if (result[index].length < 12) {
+      const combination = `${result[index]} ${part}`.trim();
+
+      if (combination.length < 12) {
+        result.splice(index, 1, combination);
+      } else {
+        ++index
+
+        result.splice(index, 1, part);
+      }
+    }
+  });
+
+  return result;
+}
+
+/* GEAR */
 
 function calculateWeight(items) {
   const total = [...items].reduce((sum, item) => sum + item.weight, 0);
@@ -110,7 +132,7 @@ function groupByCategory(items) {
   }, {});
 }
 
-async function parseCsv(folder) {
+async function getGear(folder) {
   const filePath = path.join(trips, `${folder}/gear.csv`);
 
   if (!fs.existsSync(filePath)) {
@@ -131,7 +153,9 @@ async function parseCsv(folder) {
 
     for await (const item of parser) {
       items.push({
-        ...item,
+        category: item.category,
+        link: item.link,
+        name: turnStringIntoArrayForLists(`${item.name} ${item.type}`.trim()),
         consumable: item.consumable === 'yes',
         weight: Number(item.weight),
         worn: item.worn === 'yes',
@@ -613,7 +637,7 @@ async function go() {
         'utf8',
       ));
 
-      const gear = await parseCsv(folder);
+      const gear = await getGear(folder);
       const stages = await getStages(folder);
       const stats = await getTripStats(trip, stages);
       const date = await getTripDate(trip, stages);
@@ -653,7 +677,7 @@ async function go() {
         tagline: trip.tagline,
         termini,
         timestamp: trip.timestamp,
-        title: trip.title,
+        title: turnStringIntoArrayForLists(trip.title),
         total: folders.length,
         type: trip.type,
       });

@@ -1,11 +1,11 @@
 'use client';
 
 import { Triangle, X } from 'lucide-react';
-import Image from 'next/image';
 
 import type { Trip } from '@/types';
 
 import { useModel } from './timeline.model';
+import Image from './timeline.image';
 import styles from './timeline.stylesheet';
 
 type Props = {
@@ -25,9 +25,11 @@ export default function Timeline({
     activeImages,
     activeImageIndex,
     activeIndex,
+    handleOnCarouselNext,
+    handleOnCarouselPrevious,
     handleOnMiniscreen,
-    handleOnNext,
-    handleOnPrevious,
+    handleOnNavigationNext,
+    handleOnNavigationPrevious,
   } = useModel(trip, index);
 
   return (
@@ -38,7 +40,7 @@ export default function Timeline({
           onClick={handleOnMiniscreen}
           type="button"
         >
-          <X />
+          <X className={styles.x} />
         </button>
       )}
       <ol className={styles.timeline(isFullscreen)}>
@@ -48,32 +50,23 @@ export default function Timeline({
             key={stage.index}
             style={{ animationDelay: `${0.5 + (stage.index * 0.05)}s` }}
           >
-            <figure className="h-full w-full">
+            <figure className={styles.figure}>
+              {/* TODO - image loading state for all image on slow connections */}
               {!isFullscreen && (
                 <Image
-                  alt=""
                   className={styles.image(isFullscreen, true)}
-                  height="1080"
                   src={stage.images.hero}
-                  width="1920"
                 />
               )}
               {isFullscreen && activeImages.map((image, index: number) => (
                 <Image
-                  alt=""
                   className={styles.image(isFullscreen, activeImageIndex === index)}
-                  height="1080"
                   key={image}
                   src={image}
-                  width="1920"
                 />
               ))}
               <figcaption className={styles.caption}>
                 <p className={styles.eyebrow}>
-                  <span className={styles.index}>
-                    {String(stage.index + 1).padStart(3, '0')}/
-                    {String(trip.stats.length.value).padStart(3, '0')}
-                  </span>
                   {stage.location && (
                     <>{stage.location}</>
                   )}
@@ -95,55 +88,72 @@ export default function Timeline({
                 Fullscreen
               </button>
             )}
-            {isFullscreen && stage.hasStats && (
-              <ul className={styles.stats}>
-                {stage.stats.distance && (
-                  <li className={styles.stat}>
-                    Distance: {stage.stats.distance.value.imperial} {stage.stats.distance.units.imperial.full}
-                  </li>
-                )}
-                {stage.stats.time && (
-                  <li className={styles.stat}>
-                    Time: {stage.stats.time.value} {stage.stats.time.units}
-                  </li>
-                )}
-                {stage.stats.max && (
-                  <li className={styles.stat}>
-                    Peak: {stage.stats.max.value.imperial} {stage.stats.max.units.imperial.full}
-                  </li>
-                )}
-              </ul>
-            )}
           </li>
         ))}
       </ol>
       {isFullscreen && (
-        <div className={styles.navigation}>
-          {activeImages.length > 1? (
-            <span className={styles.current}>
-              image {activeImageIndex + 1}/{activeImages.length}
-            </span>
-          ) : (
+        <>
+          {trip.stages[activeIndex].hasStats && (
+            <ul className={styles.stats}>
+              {trip.stages[activeIndex].stats.distance && (
+                <li className={styles.stat}>
+                  Distance: {trip.stages[activeIndex].stats.distance.value.imperial} {trip.stages[activeIndex].stats.distance.units.imperial.full}
+                </li>
+              )}
+              {trip.stages[activeIndex].stats.time && (
+                <li className={styles.stat}>
+                  Time: {trip.stages[activeIndex].stats.time.value} {trip.stages[activeIndex].stats.time.units}
+                </li>
+              )}
+              {trip.stages[activeIndex].stats.max && (
+                <li className={styles.stat}>
+                  Peak: {trip.stages[activeIndex].stats.max.value.imperial} {trip.stages[activeIndex].stats.max.units.imperial.full}
+                </li>
+              )}
+            </ul>
+          )}
+          {activeImages.length > 1 && (
+            <div className={styles.carousel}>
+              <button
+                className={styles.control}
+                onClick={handleOnCarouselPrevious}
+                type="button"
+              >
+                <Triangle className={styles.previous} />
+              </button>
+              <span className={styles.current}>
+                Image {activeImageIndex + 1}/{activeImages.length}
+              </span>
+              <button
+                className={styles.control}
+                onClick={handleOnCarouselNext}
+                type="button"
+              >
+                <Triangle className={styles.next} />
+              </button>
+            </div>
+          )}
+          <div className={styles.navigation}>
+            <button
+              className={styles.control}
+              onClick={handleOnNavigationPrevious}
+              type="button"
+            >
+              <Triangle className={styles.previous} />
+            </button>
             <span className={styles.current}>
               {String(activeIndex + 1).padStart(3, '0')}/
               {String(trip.stats.length.value).padStart(3, '0')}
             </span>
-          )}
-          <button
-            className={styles.control}
-            onClick={handleOnPrevious}
-            type="button"
-          >
-            <Triangle className={styles.previous} />
-          </button>
-          <button
-            className={styles.control}
-            onClick={handleOnNext}
-            type="button"
-          >
-            <Triangle className={styles.next} />
-          </button>
-        </div>
+            <button
+              className={styles.control}
+              onClick={handleOnNavigationNext}
+              type="button"
+            >
+              <Triangle className={styles.next} />
+            </button>
+          </div>
+        </>
       )}
     </>
   );

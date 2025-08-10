@@ -11,19 +11,13 @@
     "reboot": "npm run data && npm run dev"
   },
   "dependencies": {
-    "chart.js": "4.4.9",
-    "fuse.js": "^7.1.0",
-    "leaflet": "1.9.4",
     "lodash": "4.17.21",
     "lucide-react": "^0.519.0",
     "next": "^15.4.4",
     "react": "^19.0.0",
-    "react-chartjs-2": "5.3.0",
-    "react-countup": "^6.5.3",
     "react-dom": "^19.0.0",
     "react-focus-lock": "^2.13.6",
     "react-intersection-observer": "^9.16.0",
-    "react-leaflet": "^5.0.0",
     "react-swipeable": "^7.0.2",
     "ts-node": "10.9.2",
     "zustand": "^5.0.4"

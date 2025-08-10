@@ -9,9 +9,11 @@ type Model = {
   activeImages: string[];
   activeImageIndex: number;
   activeIndex: number;
+  handleOnCarouselNext: () => void;
+  handleOnCarouselPrevious: () => void;
   handleOnMiniscreen: () => void;
-  handleOnNext: () => void;
-  handleOnPrevious: () => void;
+  handleOnNavigationNext: () => void;
+  handleOnNavigationPrevious: () => void;
 };
 
 export function useModel(trip: Trip, index?: number): Model {
@@ -30,24 +32,34 @@ export function useModel(trip: Trip, index?: number): Model {
     }
   }, [activeIndex, trip.stages]);
 
-  const handleOnPrevious = () => {
-    handleNavigation('previous');
+  const handleOnNavigationPrevious = () => {
+    const total = trip.stages.length - 1;
+    const current = activeIndex;
+
+    setActiveIndex(current === 0 ? total : current - 1);
+    setActiveImageIndex(0);
   };
 
-  const handleOnNext = () => {
-    handleNavigation('next');
+  const handleOnNavigationNext = () => {
+    const total = trip.stages.length - 1;
+    const current = activeIndex;
+
+    setActiveIndex(current === total ? 0 : current + 1);
+    setActiveImageIndex(0);
   };
 
-  const handleNavigation = (direction: 'next' | 'previous') => {
-    const total = activeImages.length > 1 ? (activeImages.length - 1) : (trip.stages.length - 1);
-    const current = activeImages.length > 1 ? activeImageIndex : activeIndex;
-    const callback = activeImages.length > 1 ? setActiveImageIndex : setActiveIndex;
+  const handleOnCarouselNext = () => {
+    const total = activeImages.length - 1;
+    const current = activeImageIndex;
 
-    if (direction === 'next') {
-      callback(current === total ? 0 : current + 1);
-    } else {
-      callback(current === 0 ? total : current - 1);
-    }
+    setActiveImageIndex(current === total ? 0 : current + 1);
+  };
+
+  const handleOnCarouselPrevious = () => {
+    const total = activeImages.length - 1;
+    const current = activeImageIndex;
+
+    setActiveImageIndex(current === 0 ? total : current - 1);
   };
 
   const handleOnMiniscreen = () => {
@@ -58,8 +70,10 @@ export function useModel(trip: Trip, index?: number): Model {
     activeImages,
     activeImageIndex,
     activeIndex,
+    handleOnCarouselNext,
+    handleOnCarouselPrevious,
     handleOnMiniscreen,
-    handleOnNext,
-    handleOnPrevious,
+    handleOnNavigationNext,
+    handleOnNavigationPrevious,
   };
 }

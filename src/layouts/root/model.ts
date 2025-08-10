@@ -1,11 +1,12 @@
 'use client';
 
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
 import { useFullscreen } from '@/hooks/useFullscreen';
 
 type Model = {
+  handleOnBack: () => void;
   handleOnFullscreen: () => void;
   isFullscreen: boolean;
   isOnRoot: boolean;
@@ -16,9 +17,11 @@ type Model = {
 export function useModel(): Model {
   const pathname = usePathname();
 
+  const router = useRouter();
+
   const { isFullscreen, enterFullscreen, exitFullscreen } = useFullscreen();
 
-  const [isOnRoot, setIsOnRoot] = useState(false);
+  const [isOnRoot, setIsOnRoot] = useState(true);
   const [isOnTrip, setIsOnTrip] = useState(false);
 
   useEffect(() => {
@@ -34,7 +37,12 @@ export function useModel(): Model {
     }
   };
 
+  const handleOnBack = () => {
+    router.back();
+  };
+
   return {
+    handleOnBack,
     handleOnFullscreen,
     isFullscreen,
     isOnRoot,

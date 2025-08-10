@@ -2,31 +2,72 @@ import tw from '@/styles';
 
 const styles = tw({
   header: `
-    absolute left-0 right-0 top-0 z-1
+    relative z-1
     flex justify-between
-    px-20 pt-12
+    px-6 pt-6
+
+    ml:left-0
+    ml:top-0
+    ml:absolute
+    sl:pt-12
+    sl:px-20
   `,
-  home: `
+  home: (isOnRoot: boolean) => tw(`
     text-xl text-white
     font-black
-  `,
+
+    ${!isOnRoot ? `
+      hidden
+
+      ml:block
+    ` : `
+      block
+    `}
+  `),
+  back: (isOnRoot: boolean) => tw(`
+    text-base text-white
+    font-black
+    uppercase
+
+    ${!isOnRoot ? `
+      block
+
+      ml:hidden
+    ` : `
+      hidden
+    `}
+  `),
   main: `
-    flex
     h-full
+
+    ml:flex
   `,
-  nav: `
+  nav: (isOnRoot: boolean) => tw(`
     absolute bottom-0 left-0 z-1
     flex items-end
-    ps-20 pb-12
-  `,
+    pl-6 pb-6
+
+    sl:pl-20
+    sl:pb-12
+
+    ${isOnRoot ? '' : `
+      hidden
+      ml:block
+    `}
+  `),
   item: `
     overflow-hidden
   `,
   link: (isOnRoot: boolean, isOnTrip: boolean, isActive: boolean) => tw(`
     ${isOnRoot ? `
+      text-3xl/5 text-white
+      font-black
       transform-gpu duration-200
-      text-9xl/26 text-white font-black
-      h-26
+
+      5xs:text-4xl/7
+      2xs:text-6xl/12
+      md:text-8xl/20
+      lg:text-9xl/26
 
       hover:font-light
       hover:tracking-wider
@@ -34,7 +75,14 @@ const styles = tw({
       transform-gpu duration-200
       font-thin font-stretch-ultra-condensed
 
-      ${isOnTrip ? 'text-5xl/8' : 'text-8xl/18'}
+      ${isOnTrip ? `
+        text-5xl/10
+      ` : `
+        text-5xl/10
+
+        ml:text-6xl/12
+        sl:text-8xl/18
+      `}
 
       ${isActive ? `
         text-white
@@ -47,10 +95,16 @@ const styles = tw({
     uppercase
   `),
   footer: (isOnTrip: boolean) => tw(`
-    absolute right-20 bottom-10.5 z-0
+    hidden
+    absolute right-8 bottom-6 z-0
     duration-300
 
     ${isOnTrip ? 'opacity-0' : 'opacity-100'}
+
+    ml:block
+    lg:right-6
+    sl:bottom-11
+    sl:right-20
   `),
   fullscreen: `
     group/fullscreen

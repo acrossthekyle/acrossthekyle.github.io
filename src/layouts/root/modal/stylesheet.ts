@@ -26,6 +26,7 @@ const styles = tw({
     transform
     w-full h-dvh
     overscroll-contain
+    overflow-y-scroll
 
     ${isOpen ? (`
       ease-out duration-300

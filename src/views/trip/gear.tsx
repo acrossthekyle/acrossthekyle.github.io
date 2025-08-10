@@ -1,6 +1,6 @@
 'use client';
 
-import { X } from 'lucide-react';
+import { ArrowLeft, X } from 'lucide-react';
 
 import type { Trip } from '@/types';
 
@@ -12,8 +12,28 @@ type Props = {
   trip: Trip;
 };
 
+type ItemProps = {
+  name: string[];
+  weight: number;
+};
+
+function Item({ name, weight }: ItemProps) {
+  return (
+    <>
+      <span className={styles.name}>
+        {name.map((part: string) => (
+          <span className={styles.part} key={part}>{part}</span>
+        ))}
+      </span>
+      <span className={styles.weight}>
+        {weight}<small>oz</small>
+      </span>
+    </>
+  );
+}
+
 export default function Gear({ onClose, trip }: Props) {
-  const { activeIndex, handleOnCategory, isOnCategory } = useModel();
+  const { activeIndex, handleOnBack, handleOnCategory, isOnCategory } = useModel();
 
   if (trip.gear === null) {
     return null;
@@ -22,13 +42,20 @@ export default function Gear({ onClose, trip }: Props) {
   return (
     <>
       <button
-        className={styles.close}
+        className={styles.close(isOnCategory)}
         onClick={onClose}
         type="button"
       >
-        <X />
+        <X className={styles.x} />
       </button>
-      <ul className={styles.stats(activeIndex === -1)}>
+      <button
+        className={styles.back(isOnCategory)}
+        onClick={handleOnBack}
+        type="button"
+      >
+        <ArrowLeft className={styles.x} />
+      </button>
+      <ul className={styles.stats(isOnCategory)}>
         <li className={styles.stat}>
           {trip.gear.weightBase} <small>lbs</small>
           <span className={styles.label}>Base Weight</span>
@@ -46,7 +73,7 @@ export default function Gear({ onClose, trip }: Props) {
           <span className={styles.label}>Total Weight</span>
         </li>
       </ul>
-      <ul className={styles.categories}>
+      <ul className={styles.categories(isOnCategory)}>
         {trip.gear.categories.map((category, index: number) => (
           <li
             className={styles.category}
@@ -63,7 +90,7 @@ export default function Gear({ onClose, trip }: Props) {
           </li>
         ))}
       </ul>
-      {activeIndex > -1 && (
+      {isOnCategory && (
         <section className={styles.list}>
           <ul className={styles.items}>
             {trip.gear.categories[activeIndex].items.map((item, index: number) => (
@@ -75,19 +102,11 @@ export default function Gear({ onClose, trip }: Props) {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <span className={styles.name}>{item.name} {item.type}</span>
-                    <span className={styles.weight}>
-                      {item.weight}
-                      <small>oz</small>
-                    </span>
+                    <Item name={item.name} weight={item.weight} />
                   </a>
                 ) : (
                   <div className={styles.item(false)}>
-                    <span className={styles.name}>{item.name} {item.type}</span>
-                    <span className={styles.weight}>
-                      {item.weight}
-                      <small>oz</small>
-                    </span>
+                    <Item name={item.name} weight={item.weight} />
                   </div>
                 )}
               </li>

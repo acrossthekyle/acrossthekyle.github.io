@@ -12,12 +12,11 @@ import Timeline from './timeline';
 type Model = {
   handleOnFullscreen: (index: number) => void;
   handleOnGear: () => void;
-  isLoading: boolean;
   trip: Trip | undefined;
 };
 
 export function useModel(slug: string): Model {
-  const { find, isLoading } = useTrips();
+  const { find } = useTrips();
 
   const { closeModal, modal } = useModal();
 
@@ -53,7 +52,6 @@ export function useModel(slug: string): Model {
   return {
     handleOnFullscreen,
     handleOnGear,
-    isLoading,
     trip,
   };
 }

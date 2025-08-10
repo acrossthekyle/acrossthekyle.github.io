@@ -14,6 +14,7 @@ type Props = {
 
 export default function Layout({ children }: Props) {
   const {
+    handleOnBack,
     handleOnFullscreen,
     isFullscreen,
     isOnRoot,
@@ -25,13 +26,20 @@ export default function Layout({ children }: Props) {
     <>
       <header className={styles.header}>
         <h1>
-          <Link className={styles.home} href="/">
+          <Link className={styles.home(isOnRoot)} href="/">
             K
           </Link>
+          <button
+            className={styles.back(isOnRoot)}
+            onClick={handleOnBack}
+            type="button"
+          >
+            Back
+          </button>
         </h1>
       </header>
       <main className={styles.main}>
-        <nav className={styles.nav}>
+        <nav className={styles.nav(isOnRoot)}>
           <ul>
             <li className={styles.item}>
               <Link
@@ -40,7 +48,7 @@ export default function Layout({ children }: Props) {
                   isOnRoot ? '/trips' : (route === '/trips' ? '/' : '/trips')
                 }
               >
-                Trips
+                Wanderings
               </Link>
             </li>
             <li className={styles.item}>

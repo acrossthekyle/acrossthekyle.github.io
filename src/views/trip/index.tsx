@@ -1,9 +1,8 @@
 'use client';
 
-import { useModel } from './model';
-import styles from './stylesheet';
-
+import { useModel } from './index.model';
 import { getStats } from './index.utils';
+import styles from './index.stylesheet';
 import Timeline from './timeline';
 
 type Props = {
@@ -14,13 +13,13 @@ export default function View({ slug }: Props) {
   const { handleOnFullscreen, handleOnGear, trip } = useModel(slug);
 
   if (!trip) {
-    return null; // todo - add loading state
+    return null;
   }
 
   return (
     <article className={styles.container}>
       <header className={styles.header}>
-        <h2>
+        <h2 className={styles.heading}>
           {trip.type} &mdash; {trip.location}, {' '}
           {trip.date.dates ? (
             <>

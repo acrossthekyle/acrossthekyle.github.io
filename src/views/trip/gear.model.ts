@@ -4,6 +4,7 @@ import { useState } from 'react';
 
 type Model = {
   activeIndex: number;
+  handleOnBack: () => void;
   handleOnCategory: (index: number) => void;
   isOnCategory: boolean;
 };
@@ -19,8 +20,13 @@ export function useModel(): Model {
     }
   };
 
+  const handleOnBack = () => {
+    setActiveIndex(-1);
+  };
+
   return {
     activeIndex,
+    handleOnBack,
     handleOnCategory,
     isOnCategory: activeIndex !== -1,
   };

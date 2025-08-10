@@ -1,7 +1,6 @@
 export type GearItem = {
   category: string;
-  type: string;
-  name: string;
+  name: string[];
   weight: number;
   worn: boolean;
   consumable: boolean;

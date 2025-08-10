@@ -11,13 +11,24 @@ type Props = {
 };
 
 export default function Layout({ children }: Props) {
-  const { activeRef, isOnTrip, route, trips } = useModel();
+  const { activeRef, isLoading, isOnTrip, route, trips } = useModel();
 
   return (
     <>
-      <section className={styles.section}>
+      <section className={styles.section(isOnTrip)}>
         <ul className={styles.trips(isOnTrip)}>
-          {trips.map((trip) => (
+          {isLoading && Array.from({ length: 11 }).map((_, index) => (
+            <li
+              className={styles.item}
+              key={index}
+              style={{ animationDelay: `${0.1 + (index * 0.025)}s` }}
+            >
+              <div className={styles.skeleton} />
+              <div className={styles.skeleton} />
+              <div className={styles.skeleton} />
+            </li>
+          ))}
+          {!isLoading && trips.map((trip) => (
             <li
               className={styles.item}
               key={trip.index}

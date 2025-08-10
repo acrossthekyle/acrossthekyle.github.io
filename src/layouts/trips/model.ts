@@ -36,7 +36,8 @@ export function useModel(): Model {
     if (activeRef.current && isOnTrip) {
       activeRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
-  }, [isOnTrip]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [activeRef.current, isOnTrip]);
 
   return {
     activeRef,

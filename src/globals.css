@@ -15,6 +15,9 @@
   --breakpoint-3xs: 25.625rem; /* 410px */
   --breakpoint-2xs: 30rem; /* 480px */
   --breakpoint-xs: 33.125rem; /* 530px */
+  --breakpoint-ml: 60.3125rem; /* 965px */
+  --breakpoint-sl: 73.75rem; /* 1180px */
+  --breakpoint-sx: 87.5rem; /* 1400px */
 
   --text-tiny: 0.625rem;
   --max-w-8xl: 100rem;
