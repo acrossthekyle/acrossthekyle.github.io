@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { SwipeEventData, useSwipeable } from 'react-swipeable';
 
 import { useModal } from '@/hooks/useModal';
 import type { Trip } from '@/types';
@@ -14,6 +15,7 @@ type Model = {
   handleOnMiniscreen: () => void;
   handleOnNavigationNext: () => void;
   handleOnNavigationPrevious: () => void;
+  swipeable: any; // todo
 };
 
 export function useModel(trip: Trip, index?: number): Model {
@@ -26,8 +28,8 @@ export function useModel(trip: Trip, index?: number): Model {
   useEffect(() => {
     if (activeIndex !== -1) {
       setActiveImages([
-        trip.stages[activeIndex].images.hero,
-        ...trip.stages[activeIndex].images.supplementary,
+        trip.stages[activeIndex]?.images.hero,
+        ...trip.stages[activeIndex]?.images.supplementary,
       ]);
     }
   }, [activeIndex, trip.stages]);
@@ -66,6 +68,16 @@ export function useModel(trip: Trip, index?: number): Model {
     closeModal();
   };
 
+  const swipeable = useSwipeable({
+    onSwiped: (eventData: SwipeEventData) => {
+      if (eventData.dir.toLowerCase() === 'left') {
+        handleOnNavigationNext();
+      } else if (eventData.dir.toLowerCase() === 'right') {
+        handleOnNavigationPrevious();
+      }
+    },
+  });
+
   return {
     activeImages,
     activeImageIndex,
@@ -75,5 +87,6 @@ export function useModel(trip: Trip, index?: number): Model {
     handleOnMiniscreen,
     handleOnNavigationNext,
     handleOnNavigationPrevious,
+    swipeable,
   };
 }

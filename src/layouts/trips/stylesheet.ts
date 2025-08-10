@@ -68,7 +68,7 @@ const styles = tw({
         hover:font-medium
       `}
     ` : `
-      text-3xl/6
+      text-3xl/7
 
       text-white
       font-black
@@ -80,10 +80,10 @@ const styles = tw({
 
       group-hover/trips:text-white/25
 
-      5xs:text-4xl/7
-      3xs:text-5xl/9
-      2xs:text-6xl/11
-      md:text-7xl/13
+      5xs:text-4xl/8
+      4xs:text-5xl/10
+      2xs:text-6xl/12
+      xs:text-7xl/14
       sl:text-8xl/18
     `}
   `),

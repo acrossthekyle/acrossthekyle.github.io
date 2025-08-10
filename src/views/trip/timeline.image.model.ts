@@ -7,13 +7,11 @@ type Model = {
   handleOnLoad: () => void;
   hasEnteredView: boolean;
   isLoading: boolean;
-  isOnSmallScreen: boolean;
 };
 
 export function useModel(src: string): Model {
   const [isLoading, setIsLoading] = useState(true);
   const [hasEnteredView, setHasEnteredView] = useState(false);
-  const [isOnSmallScreen] = useState(window.screen.width <= 768);
 
   useEffect(() => {
     setIsLoading(true);
@@ -36,6 +34,5 @@ export function useModel(src: string): Model {
     handleOnInView,
     hasEnteredView,
     isLoading,
-    isOnSmallScreen,
   };
 }

@@ -7,17 +7,17 @@ import { useModel } from './timeline.image.model';
 import styles from './timeline.stylesheet';
 
 type Props = {
-  className: string;
+  isActive: boolean;
+  isFullscreen: boolean;
   src: string;
 };
 
-export default function Image({ className, src }: Props) {
+export default function Image({ isActive, isFullscreen, src }: Props) {
   const {
     handleOnInView,
     handleOnLoad,
     hasEnteredView,
     isLoading,
-    isOnSmallScreen,
   } = useModel(src);
 
   return (
@@ -26,7 +26,7 @@ export default function Image({ className, src }: Props) {
         <>
           <NextJsImage
             alt=""
-            className={`${className} ${isOnSmallScreen && hasEnteredView ? styles.view : ''}`.trim()}
+            className={styles.image(isFullscreen, isActive, hasEnteredView)}
             height={1620}
             onLoad={handleOnLoad}
             ref={ref}
@@ -34,7 +34,12 @@ export default function Image({ className, src }: Props) {
             src={src}
             width={2880}
           />
-          {isLoading && <div aria-hidden="true" className={styles.skeleton} />}
+          {isLoading && (
+            <div
+              aria-hidden="true"
+              className={styles.skeleton(isFullscreen, isActive)}
+            />
+          )}
         </>
       )}
     </InView>

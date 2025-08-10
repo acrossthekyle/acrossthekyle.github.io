@@ -4,17 +4,15 @@ export default function View() {
   return (
     <article className={styles.container}>
       <header className={styles.header}>
-        <h1 className={styles.title}>The section about me</h1>
-        <p className={styles.status}>
-          Based out of Chicago, currently employed as a Senior Software Engineer.
-        </p>
+        <h1 className={styles.title}>
+          <span className={styles.block}>The</span>
+          <span className={styles.block}>section</span>
+          <span className={styles.block}>about me</span>
+        </h1>
       </header>
       <section>
         <p className={styles.body}>
-          Hey, my name's Kyle. I've thru-hiked, or backpacked, several trails across the globe from the rugged paths of Corsica to the towering peaks of Nepal. In total I've been to 13 countries, hiked 1,385 miles of trail, and have spent the past {new Date().getFullYear() - 2010}+ years as a software engineer.
-        </p>
-        <p className={styles.body}>
-          As you've probably already noticed, my biggest passions are thru-hiking, and coding websites/mobile apps. I can spend hours experimenting with code, or planning the next big adventure abroad.
+          I'm a Thru-hiker and web developer with {new Date().getFullYear() - 2012}+ years of software development experience, who loves to spend hours experimenting with code, or planning the next big hike. Based in Chicago, former engineer at Rally Health and now working for Optum Digital. Over the past several years I have been to 13 countries, hiked 1,385 miles of trail abroad, and worked for a variety of companies developing their web-based products.
         </p>
       </section>
     </article>

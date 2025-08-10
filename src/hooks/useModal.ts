@@ -58,6 +58,8 @@ export function useModal() {
 
   const closeModal = () => {
     unsetModal();
+
+    document.body.classList.remove('overflow-hidden');
   };
 
   const handleOnEscape = () => {
@@ -68,6 +70,8 @@ export function useModal() {
 
   const modal = (options: ModalOptions) => {
     setModal(options);
+
+    document.body.classList.add('overflow-hidden');
   };
 
   useEvent('onEscape', () => {

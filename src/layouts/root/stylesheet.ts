@@ -38,8 +38,7 @@ const styles = tw({
     `}
   `),
   main: `
-    h-full
-
+    md:h-full
     ml:flex
   `,
   nav: (isOnRoot: boolean) => tw(`
@@ -52,11 +51,15 @@ const styles = tw({
 
     ${isOnRoot ? '' : `
       hidden
+
       ml:block
     `}
   `),
   item: `
     overflow-hidden
+    mb-2
+
+    md:mb-0
   `,
   link: (isOnRoot: boolean, isOnTrip: boolean, isActive: boolean) => tw(`
     ${isOnRoot ? `

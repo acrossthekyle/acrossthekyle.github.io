@@ -30,6 +30,7 @@ export default function Timeline({
     handleOnMiniscreen,
     handleOnNavigationNext,
     handleOnNavigationPrevious,
+    swipeable,
   } = useModel(trip, index);
 
   return (
@@ -43,7 +44,7 @@ export default function Timeline({
           <X className={styles.x} />
         </button>
       )}
-      <ol className={styles.timeline(isFullscreen)}>
+      <ol className={styles.timeline(isFullscreen)} {...swipeable}>
         {trip.stages.map((stage) => (
           <li
             className={styles.stage(isFullscreen, activeIndex === stage.index)}
@@ -51,21 +52,22 @@ export default function Timeline({
             style={{ animationDelay: `${0.5 + (stage.index * 0.05)}s` }}
           >
             <figure className={styles.figure}>
-              {/* TODO - image loading state for all image on slow connections */}
               {!isFullscreen && (
                 <Image
-                  className={styles.image(isFullscreen, true)}
+                  isActive
+                  isFullscreen={isFullscreen}
                   src={stage.images.hero}
                 />
               )}
               {isFullscreen && activeImages.map((image, index: number) => (
                 <Image
-                  className={styles.image(isFullscreen, activeImageIndex === index)}
+                  isActive={activeImageIndex === index}
+                  isFullscreen={isFullscreen}
                   key={image}
                   src={image}
                 />
               ))}
-              <figcaption className={styles.caption}>
+              <figcaption className={styles.caption(isFullscreen)}>
                 <p className={styles.eyebrow}>
                   {stage.location && (
                     <>{stage.location}</>

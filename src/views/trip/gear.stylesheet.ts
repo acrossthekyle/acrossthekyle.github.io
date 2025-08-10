@@ -53,8 +53,9 @@ const styles = tw({
   categories: (isOnCategory: boolean) => tw(`
     group/categories
     absolute bottom-6 left-6 z-1
-    flex flex-col
+    flex flex-col gap-2
 
+    md:gap-0
     sl:bottom-12
     sl:left-20
 
@@ -62,9 +63,7 @@ const styles = tw({
       hidden
 
       ml:block
-    ` : `
-
-    `}
+    ` : ``}
   `),
   category: `
     overflow-hidden

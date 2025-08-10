@@ -4,7 +4,7 @@ const styles = tw({
   container: `
     group/container
     relative z-0
-    flex flex-col
+    flex flex-col justify-between
     py-6 pl-6
     overflow-y-scroll
 
@@ -18,23 +18,24 @@ const styles = tw({
   `,
   header: `
     w-full
-    mb-4 pr-6
+    mb-8 pr-6
     animate-elastic-in
 
-    ml:mb-8
-    ml:pr-20
-    ml:max-w-4xl
+    ml:pr-10
   `,
   title: `
-    mb-4
-    text-5xl/10
+    text-4xl/7
     font-black
     uppercase
 
-    2xs:text-6xl/12
-    ml:mb-8
-    ml:text-8xl/19
+    5xs:text-5xl/10
+    3xs:text-6xl/12
+    2xs:text-7xl/14
+    sm:text-8xl/19
     sl:text-9xl/24
+  `,
+  block: `
+    block
   `,
   status: `
     w-full
@@ -46,14 +47,44 @@ const styles = tw({
   `,
   body: `
     w-full
-    pr-6 mb-4
-    text-base
-    uppercase
+    pr-6
+    text-lg
+    font-medium
     animate-elastic-in
 
-    ml:text-lg
-    ml:pr-20
+    ml:text-3xl
+    ml:pr-36
     ml:max-2-2xl
+  `,
+  columns: `
+    hidden
+    grid grid-cols-2
+    mt-12
+  `,
+  heading: `
+    text-4xl
+    font-bold
+    uppercase
+    animate-elastic-in
+  `,
+  list: `
+    flex flex-col gap-6
+    mt-12
+    pr-36
+    animate-elastic-in
+  `,
+  name: `
+    text-2xl
+    font-semibold
+  `,
+  date: `
+    text-sm
+    uppercase
+  `,
+  place: `
+    block
+    text-base
+    font-light
   `,
 });
 
