@@ -42,7 +42,7 @@ const styles = tw({
     opacity-0
     animate-elastic-in
   `,
-  link: (isOnTrip: boolean, isActive: boolean) => tw(`
+  link: (isOnTrip: boolean, isActive: boolean, isInView: boolean) => tw(`
     block
     w-full
     transform-gpu
@@ -69,22 +69,32 @@ const styles = tw({
       `}
     ` : `
       text-3xl/7
-
-      text-white
-      font-black
       duration-400
 
-      hover:font-extralight
-      hover:tracking-wider
-      hover:text-white
+      ${isInView ? `
+        text-white
+        font-black
+      ` : `
+        font-extralight
+        tracking-wider
+        text-white/25
 
-      group-hover/trips:text-white/25
+        md:text-white
+        md:font-black
+        md:tracking-normal
+      `}
+
+      md:hover:font-extralight
+      md:hover:tracking-wider
+      md:hover:text-white
+
+      md:group-hover/trips:text-white/25
 
       5xs:text-4xl/8
       4xs:text-5xl/10
       2xs:text-6xl/12
       xs:text-7xl/14
-      sl:text-8xl/18
+      sl:text-8xl/19
     `}
   `),
   part: `

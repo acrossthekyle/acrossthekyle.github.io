@@ -21,10 +21,10 @@ export type Gear = {
   weightWorn: string;
 };
 
-export type Coordinates = {
-  left: string;
-  top: string;
-};
+// export type Coordinates = {
+//   left: string;
+//   top: string;
+// };
 
 export type DateParts = {
   month: string;
@@ -48,11 +48,11 @@ export type Date = {
   year: string[];
 };
 
-export type Navigation = {
-  date: Date;
-  slug: string;
-  title: string;
-};
+// export type Navigation = {
+//   date: Date;
+//   slug: string;
+//   title: string;
+// };
 
 export type Route = [number, number];
 
@@ -95,8 +95,8 @@ export type Stage = {
   };
   index: number;
   location: string | null;
-  next: Navigation | null;
-  previous: Navigation | null;
+  // next: Navigation | null;
+  // previous: Navigation | null;
   slug: string;
   stats: {
     distance: StatFull | null;
@@ -110,23 +110,23 @@ export type Stage = {
 };
 
 export type Trip = {
-  categories: string[];
-  coordinates: Coordinates;
+  // categories: string[];
+  // coordinates: Coordinates;
   date: Date;
   description: string[];
   gear: Gear | null;
   hasGear: boolean;
   id: string;
-  images: {
-    hero: string;
-    large: string;
-    small: string;
-  };
+  // images: {
+  //   hero: string;
+  //   large: string;
+  //   small: string;
+  // };
   index: number;
-  label: string;
+  // label: string;
   location: string;
-  next: Navigation | null;
-  previous: Navigation | null;
+  // next: Navigation | null;
+  // previous: Navigation | null;
   slug: string;
   stages: Stage[];
   stats: {
@@ -135,11 +135,11 @@ export type Trip = {
     distance: StatFull | null;
     length: StatShort;
   };
-  tagline: string;
+  // tagline: string;
   termini: Termini;
   timestamp: string;
   title: string[];
-  total: number;
+  // total: number;
   type: string;
 };
 

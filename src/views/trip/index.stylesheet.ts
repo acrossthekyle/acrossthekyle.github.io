@@ -3,12 +3,12 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     relative z-1
-    opacity-0
-    animate-slide-down
     scroll-smooth
     w-full
     py-6 pr-6 pl-6 pt-6
 
+    ml:opacity-0
+    ml:animate-elastic-in
     ml:absolute
     ml:right-0
     ml:top-0
@@ -22,37 +22,41 @@ const styles = tw({
     sl:w-[calc(100%-38rem)]
     sx:pl-36
   `,
-  header: `
-    relative
-    flex flex-col items-start
-    mb-6
-    text-sm
-    font-mono
-    uppercase
+  title: `
+    mb-8
+    text-5xl/10
+    font-black uppercase
+    animate-slide-down
 
-    sm:flex-row
-    sm:justify-between
-    sl:mb-12
-    sx:mb-16
+    xs:text-6xl/12
+    ml:hidden
   `,
   heading: `
-    me-8
+    relative
+    mb-8
+    text-base
+    uppercase
+    animate-slide-down
+
+    ml:mr-24
+    sl:mb-12
   `,
   block: `
     block
   `,
   gear: `
-    absolute -top-11.25 right-0
+    absolute -top-6 right-6
+    text-base text-white
+    font-black
     uppercase
-    underline-offset-4
-    text-right
-    w-24
+    duration-300
+    animate-slide-in
 
-    hover:underline
+    hover:font-light
 
-    sm:relative
-    sm:top-auto
-    sm:right-auto
+    ml:top-6
+    sl:top-12
+    sl:right-20
   `,
 });
 

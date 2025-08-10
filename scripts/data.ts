@@ -391,8 +391,8 @@ async function getStages(folder) {
         },
         index: null,
         location: data.location || null,
-        next: null,
-        previous: null,
+        // next: null,
+        // previous: null,
         route,
         slug: _.kebabCase(data.title),
         stats,
@@ -416,16 +416,16 @@ async function getStages(folder) {
     return {
       ...item,
       index,
-      previous: index === 0 ? null : {
-        date: sorted[index - 1].date,
-        slug: sorted[index - 1].slug,
-        title: sorted[index - 1].title,
-      },
-      next: index === sorted.length - 1 ? null : {
-        date: sorted[index + 1].date,
-        slug: sorted[index + 1].slug,
-        title: sorted[index + 1].title,
-      },
+      // previous: index === 0 ? null : {
+      //   date: sorted[index - 1].date,
+      //   slug: sorted[index - 1].slug,
+      //   title: sorted[index - 1].title,
+      // },
+      // next: index === sorted.length - 1 ? null : {
+      //   date: sorted[index + 1].date,
+      //   slug: sorted[index + 1].slug,
+      //   title: sorted[index + 1].title,
+      // },
     };
   });
 
@@ -643,42 +643,40 @@ async function go() {
       const date = await getTripDate(trip, stages);
       const termini = await getTripTermini(trip, stages);
 
-      // const hasRoutes = stages.filter(stage => stage.route).length > 0;
-
-      const slug = _.kebabCase(trip.title);
+      const slug = _.kebabCase(`${trip.title} ${trip.categories.includes('repeat') ? '-repeat' : ''}`.trim());
 
       data.push({
-        categories: trip.categories,
-        cities: trip.cities,
-        coordinates: trip.marker,
+        // categories: trip.categories,
+        // cities: trip.cities,
+        // coordinates: trip.marker,
         date,
         description: trip.description,
         gear,
         hasGear: gear !== null,
         // hasRoutes,
         id: generateId(),
-        images: {
-          hero: trip.image,
-          small: trip.previews.small,
-          large: trip.previews.large,
-        },
+        // images: {
+        //   hero: trip.image,
+        //   small: trip.previews.small,
+        //   large: trip.previews.large,
+        // },
         index: null,
-        label: getLabel(trip.type),
+        // label: getLabel(trip.type),
         location: trip.location,
-        next: null,
-        previous: null,
+        // next: null,
+        // previous: null,
         // routes: hasRoutes ? stages.map(stage => stage.route) : null,
-        shareable: simpleHash(slug),
+        // shareable: simpleHash(slug),
         slug,
         stages: stages.map(({ elevation, route, ...rest }) => ({
           ...rest,
         })),
         stats,
-        tagline: trip.tagline,
+        // tagline: trip.tagline,
         termini,
         timestamp: trip.timestamp,
         title: turnStringIntoArrayForLists(trip.title),
-        total: folders.length,
+        // total: folders.length,
         type: trip.type,
       });
     }),
@@ -688,22 +686,22 @@ async function go() {
     const sorted = data.sort((a, b) => b.timestamp - a.timestamp);
 
     const result = sorted.map((item, index) => {
-      const nextIndex = index === 0 ? null : index - 1;
-      const previousIndex = index === sorted.length - 1 ? null : index + 1;
+      // const nextIndex = index === 0 ? null : index - 1;
+      // const previousIndex = index === sorted.length - 1 ? null : index + 1;
 
       return {
         ...item,
         index,
-        next: nextIndex ? {
-          date: sorted[nextIndex].date,
-          slug: sorted[nextIndex].slug,
-          title: sorted[nextIndex].title,
-        } : null,
-        previous: previousIndex ? {
-          date: sorted[previousIndex].date,
-          slug: sorted[previousIndex].slug,
-          title: sorted[previousIndex].title,
-        } : null,
+        // next: nextIndex ? {
+        //   date: sorted[nextIndex].date,
+        //   slug: sorted[nextIndex].slug,
+        //   title: sorted[nextIndex].title,
+        // } : null,
+        // previous: previousIndex ? {
+        //   date: sorted[previousIndex].date,
+        //   slug: sorted[previousIndex].slug,
+        //   title: sorted[previousIndex].title,
+        // } : null,
       };
     });
 

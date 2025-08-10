@@ -9,7 +9,7 @@ import Image from './timeline.image';
 import styles from './timeline.stylesheet';
 
 type Props = {
-  isFullscreen?: boolean;
+  isFullscreen: boolean;
   index?: number;
   onFullscreen?: (index: number) => void;
   trip: Trip;

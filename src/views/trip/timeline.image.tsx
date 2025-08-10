@@ -30,7 +30,7 @@ export default function Image({ isActive, isFullscreen, src }: Props) {
             height={1620}
             onLoad={handleOnLoad}
             ref={ref}
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            sizes="100vw"
             src={src}
             width={2880}
           />

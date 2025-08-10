@@ -24,15 +24,15 @@ const styles = tw({
     ml:pr-10
   `,
   title: `
-    text-4xl/7
+    text-4xl/9
     font-black
     uppercase
 
-    5xs:text-5xl/10
-    3xs:text-6xl/12
-    2xs:text-7xl/14
-    sm:text-8xl/19
-    sl:text-9xl/24
+    5xs:text-5xl/11
+    3xs:text-6xl/14
+    2xs:text-7xl/16
+    sm:text-8xl/21
+    sl:text-9xl/28
   `,
   block: `
     block
@@ -49,12 +49,11 @@ const styles = tw({
     w-full
     pr-6
     text-lg
-    font-medium
+    font-normal
     animate-elastic-in
 
     ml:text-3xl
     ml:pr-36
-    ml:max-2-2xl
   `,
   columns: `
     hidden

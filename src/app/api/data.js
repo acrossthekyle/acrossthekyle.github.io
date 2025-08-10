@@ -1,14 +1,5 @@
 const data = [
   {
-    "categories": [
-      "thru-hike",
-      "europe",
-      "repeat"
-    ],
-    "coordinates": {
-      "left": "46.6",
-      "top": "22"
-    },
     "date": {
       "dates": {
         "start": {
@@ -866,72 +857,21 @@ const data = [
       "weightWorn": "3.09"
     },
     "hasGear": true,
-    "id": "1eBkZsHx0QJdCPM",
-    "images": {
-      "hero": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg",
-      "small": "2024/07/27/a45073e7-ef67-4e31-a5e7-3ba9b4b97b4e.jpeg",
-      "large": "2024/07/27/b70777d8-b89d-4d60-b422-2d2af80483e4.jpeg"
-    },
+    "id": "zu1v5SNgQyaDhPY",
     "index": 0,
-    "label": "stage",
     "location": "The Alps",
-    "next": null,
-    "previous": {
-      "date": {
-        "dates": {
-          "start": {
-            "long": {
-              "month": "June",
-              "day": "21st",
-              "year": "2023"
-            },
-            "short": {
-              "month": "Jun",
-              "day": "21",
-              "year": "23"
-            }
-          },
-          "end": {
-            "long": {
-              "month": "July",
-              "day": "3rd",
-              "year": "2023"
-            },
-            "short": {
-              "month": "Jul",
-              "day": "3",
-              "year": "23"
-            }
-          }
-        },
-        "year": [
-          "2023"
-        ]
-      },
-      "slug": "gr-20",
-      "title": [
-        "GR20"
-      ]
-    },
-    "shareable": "1b2blat",
-    "slug": "tour-du-mont-blanc-redux",
+    "slug": "tour-du-mont-blanc-repeat",
     "stages": [
       {
         "date": "July 27th, 2024",
         "hasStats": true,
-        "id": "wJm46wFa6vtnWIl",
+        "id": "yXfTAWT3n8kcdN1",
         "images": {
           "hero": "2024/07/27/ac7799bd-b2a8-4f77-8a8d-6d42a8740390.jpeg",
           "supplementary": []
         },
         "index": 0,
         "location": null,
-        "next": {
-          "date": "July 28th, 2024",
-          "slug": "auberge-le-truc-to-refuge-de-la-croix-du-bonhomme",
-          "title": "Auberge le Truc to Refuge de La Croix du Bonhomme"
-        },
-        "previous": null,
         "slug": "les-houches-to-auberge-le-truc",
         "stats": {
           "distance": {
@@ -1018,23 +958,13 @@ const data = [
       {
         "date": "July 28th, 2024",
         "hasStats": true,
-        "id": "hWzDiYytNHicbMZ",
+        "id": "V2buzNHvLhhnJdx",
         "images": {
           "hero": "2024/07/27/10146a42-b18d-4318-bc5b-c32279532e4d.jpeg",
           "supplementary": []
         },
         "index": 1,
         "location": null,
-        "next": {
-          "date": "July 29th, 2024",
-          "slug": "refuge-de-la-croix-du-bonhomme-to-refuge-robert-blanc",
-          "title": "Refuge de La Croix du Bonhomme to Refuge Robert Blanc"
-        },
-        "previous": {
-          "date": "July 27th, 2024",
-          "slug": "les-houches-to-auberge-le-truc",
-          "title": "Les Houches to Auberge le Truc"
-        },
         "slug": "auberge-le-truc-to-refuge-de-la-croix-du-bonhomme",
         "stats": {
           "distance": {
@@ -1121,23 +1051,13 @@ const data = [
       {
         "date": "July 29th, 2024",
         "hasStats": true,
-        "id": "wAHmBTHSiPH1ptF",
+        "id": "rlojdNtFtlVSeJe",
         "images": {
           "hero": "2024/07/27/be9a961c-fc7d-43dc-b466-29a359d1cd12.jpeg",
           "supplementary": []
         },
         "index": 2,
         "location": null,
-        "next": {
-          "date": "July 30th, 2024",
-          "slug": "refuge-robert-blanc-to-maison-veille",
-          "title": "Refuge Robert Blanc to Maison Veille"
-        },
-        "previous": {
-          "date": "July 28th, 2024",
-          "slug": "auberge-le-truc-to-refuge-de-la-croix-du-bonhomme",
-          "title": "Auberge le Truc to Refuge de La Croix du Bonhomme"
-        },
         "slug": "refuge-de-la-croix-du-bonhomme-to-refuge-robert-blanc",
         "stats": {
           "distance": {
@@ -1224,23 +1144,13 @@ const data = [
       {
         "date": "July 30th, 2024",
         "hasStats": true,
-        "id": "8YmsdJbLBGNQ8J2",
+        "id": "9HPaUuqA2TT1bxJ",
         "images": {
           "hero": "2024/07/27/a45073e7-ef67-4e31-a5e7-3ba9b4b97b4e.jpeg",
           "supplementary": []
         },
         "index": 3,
         "location": null,
-        "next": {
-          "date": "July 31st, 2024",
-          "slug": "maison-veille-to-rifugio-bonatti",
-          "title": "Maison Veille to Rifugio Bonatti"
-        },
-        "previous": {
-          "date": "July 29th, 2024",
-          "slug": "refuge-de-la-croix-du-bonhomme-to-refuge-robert-blanc",
-          "title": "Refuge de La Croix du Bonhomme to Refuge Robert Blanc"
-        },
         "slug": "refuge-robert-blanc-to-maison-veille",
         "stats": {
           "distance": {
@@ -1327,23 +1237,13 @@ const data = [
       {
         "date": "July 31st, 2024",
         "hasStats": true,
-        "id": "D9cw17tAd3jVAo0",
+        "id": "gDrqgqIhhXjWK2v",
         "images": {
           "hero": "2024/07/27/f1310350-3cb1-4f1b-b591-e08d0971f23b.jpeg",
           "supplementary": []
         },
         "index": 4,
         "location": null,
-        "next": {
-          "date": "August 1st, 2024",
-          "slug": "rifugio-bonatti-to-hotel-edelweiss",
-          "title": "Rifugio Bonatti to Hotel Edelweiss"
-        },
-        "previous": {
-          "date": "July 30th, 2024",
-          "slug": "refuge-robert-blanc-to-maison-veille",
-          "title": "Refuge Robert Blanc to Maison Veille"
-        },
         "slug": "maison-veille-to-rifugio-bonatti",
         "stats": {
           "distance": {
@@ -1430,23 +1330,13 @@ const data = [
       {
         "date": "August 1st, 2024",
         "hasStats": true,
-        "id": "mss2eklN58zY9w8",
+        "id": "YQhaq21MRz4p1RJ",
         "images": {
           "hero": "2024/07/27/b70777d8-b89d-4d60-b422-2d2af80483e4.jpeg",
           "supplementary": []
         },
         "index": 5,
         "location": null,
-        "next": {
-          "date": "August 2nd, 2024",
-          "slug": "hotel-edelweiss-to-gite-bon-abri",
-          "title": "Hotel Edelweiss to Gite Bon Abri"
-        },
-        "previous": {
-          "date": "July 31st, 2024",
-          "slug": "maison-veille-to-rifugio-bonatti",
-          "title": "Maison Veille to Rifugio Bonatti"
-        },
         "slug": "rifugio-bonatti-to-hotel-edelweiss",
         "stats": {
           "distance": {
@@ -1533,23 +1423,13 @@ const data = [
       {
         "date": "August 2nd, 2024",
         "hasStats": true,
-        "id": "iLOw4clp1Y0vABk",
+        "id": "gSN8SKSA61Aurbx",
         "images": {
           "hero": "2024/07/27/22400157-4853-4974-856b-86b1bc986ef9.jpeg",
           "supplementary": []
         },
         "index": 6,
         "location": null,
-        "next": {
-          "date": "August 3rd, 2024",
-          "slug": "gite-bon-abri-to-hotel-forclaz",
-          "title": "Gite Bon Abri to Hotel Forclaz"
-        },
-        "previous": {
-          "date": "August 1st, 2024",
-          "slug": "rifugio-bonatti-to-hotel-edelweiss",
-          "title": "Rifugio Bonatti to Hotel Edelweiss"
-        },
         "slug": "hotel-edelweiss-to-gite-bon-abri",
         "stats": {
           "distance": {
@@ -1636,23 +1516,13 @@ const data = [
       {
         "date": "August 3rd, 2024",
         "hasStats": true,
-        "id": "MLbhaiRtpYMLRb4",
+        "id": "2dzzrSwB4N0Gqvj",
         "images": {
           "hero": "2024/07/27/99d87d66-9534-4aca-9489-eb2fbbdc152b.jpeg",
           "supplementary": []
         },
         "index": 7,
         "location": null,
-        "next": {
-          "date": "August 4th, 2024",
-          "slug": "hotel-forclaz-to-auberge-la-boerne",
-          "title": "Hotel Forclaz to Auberge la Boerne"
-        },
-        "previous": {
-          "date": "August 2nd, 2024",
-          "slug": "hotel-edelweiss-to-gite-bon-abri",
-          "title": "Hotel Edelweiss to Gite Bon Abri"
-        },
         "slug": "gite-bon-abri-to-hotel-forclaz",
         "stats": {
           "distance": {
@@ -1739,23 +1609,13 @@ const data = [
       {
         "date": "August 4th, 2024",
         "hasStats": true,
-        "id": "lPXMaETx8AjXsSg",
+        "id": "4kH061jvUNRTphV",
         "images": {
           "hero": "2024/07/27/91e2be29-62d0-4be0-a00a-9ebd9d9dc395.jpeg",
           "supplementary": []
         },
         "index": 8,
         "location": null,
-        "next": {
-          "date": "August 5th, 2024",
-          "slug": "auberge-la-boerne-to-refuge-de-lo-flegere",
-          "title": "Auberge la Boerne to Refuge de lo Flegere"
-        },
-        "previous": {
-          "date": "August 3rd, 2024",
-          "slug": "gite-bon-abri-to-hotel-forclaz",
-          "title": "Gite Bon Abri to Hotel Forclaz"
-        },
         "slug": "hotel-forclaz-to-auberge-la-boerne",
         "stats": {
           "distance": {
@@ -1842,23 +1702,13 @@ const data = [
       {
         "date": "August 5th, 2024",
         "hasStats": true,
-        "id": "AaCXR7n6lSi84EA",
+        "id": "MU9OA5RVv4oEhwI",
         "images": {
           "hero": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg",
           "supplementary": []
         },
         "index": 9,
         "location": null,
-        "next": {
-          "date": "August 6th, 2024",
-          "slug": "refuge-de-lo-flegere-to-les-houches",
-          "title": "Refuge de lo Flegere to Les Houches"
-        },
-        "previous": {
-          "date": "August 4th, 2024",
-          "slug": "hotel-forclaz-to-auberge-la-boerne",
-          "title": "Hotel Forclaz to Auberge la Boerne"
-        },
         "slug": "auberge-la-boerne-to-refuge-de-lo-flegere",
         "stats": {
           "distance": {
@@ -1945,19 +1795,13 @@ const data = [
       {
         "date": "August 6th, 2024",
         "hasStats": true,
-        "id": "teSpouQafyhWwHZ",
+        "id": "eNtuSy0pmqdYNVg",
         "images": {
           "hero": "2024/07/27/480c5394-dfa7-4760-8f62-5a39cb66cb98.jpeg",
           "supplementary": []
         },
         "index": 10,
         "location": null,
-        "next": null,
-        "previous": {
-          "date": "August 5th, 2024",
-          "slug": "auberge-la-boerne-to-refuge-de-lo-flegere",
-          "title": "Auberge la Boerne to Refuge de lo Flegere"
-        },
         "slug": "refuge-de-lo-flegere-to-les-houches",
         "stats": {
           "distance": {
@@ -2088,7 +1932,6 @@ const data = [
         "units": null
       }
     },
-    "tagline": "Rich with history",
     "termini": {
       "end": "Les Houches",
       "isSame": true,
@@ -2097,21 +1940,11 @@ const data = [
     "timestamp": "1753228805",
     "title": [
       "Tour du",
-      "Mont Blanc",
-      "Redux"
+      "Mont Blanc"
     ],
-    "total": 11,
     "type": "thru-hike"
   },
   {
-    "categories": [
-      "thru-hike",
-      "europe"
-    ],
-    "coordinates": {
-      "left": "46.5",
-      "top": "26"
-    },
     "date": {
       "dates": {
         "start": {
@@ -2893,73 +2726,21 @@ const data = [
       "weightWorn": "3.74"
     },
     "hasGear": true,
-    "id": "qH0CX7GOZlEB1s4",
-    "images": {
-      "hero": "2023/06/21/0ff34736-949f-4981-b339-06b6d304ba51.jpeg",
-      "small": "2023/06/21/05769f04-5b00-4fd5-a233-55c00c9871c5.jpeg",
-      "large": "2023/06/21/f0cd0897-3fc9-47a2-808e-e1627dfb45bc.jpeg"
-    },
+    "id": "czqw63zFUnzirSp",
     "index": 1,
-    "label": "stage",
     "location": "Corsica",
-    "next": null,
-    "previous": {
-      "date": {
-        "dates": {
-          "start": {
-            "long": {
-              "month": "December",
-              "day": "29th",
-              "year": "2022"
-            },
-            "short": {
-              "month": "Dec",
-              "day": "29",
-              "year": "22"
-            }
-          },
-          "end": {
-            "long": {
-              "month": "January",
-              "day": "6th",
-              "year": "2023"
-            },
-            "short": {
-              "month": "Jan",
-              "day": "6",
-              "year": "23"
-            }
-          }
-        },
-        "year": [
-          "2022"
-        ]
-      },
-      "slug": "cairo-luxor",
-      "title": [
-        "Cairo +",
-        "Luxor"
-      ]
-    },
-    "shareable": "1mok80",
     "slug": "gr-20",
     "stages": [
       {
         "date": "June 21st, 2023",
         "hasStats": true,
-        "id": "jPwf1BxEJfm9rw2",
+        "id": "d9bqFueKUX5Qwtu",
         "images": {
           "hero": "2023/06/21/f1d1c83f-941d-4351-aa5e-08d698b78775.jpeg",
           "supplementary": []
         },
         "index": 0,
         "location": null,
-        "next": {
-          "date": "June 22nd, 2023",
-          "slug": "d-ortu-di-u-piobbu-to-carozzu",
-          "title": "D'Ortu Di U Piobbu to Carozzu"
-        },
-        "previous": null,
         "slug": "calenzana-to-d-ortu-di-u-piobbu",
         "stats": {
           "distance": {
@@ -3046,23 +2827,13 @@ const data = [
       {
         "date": "June 22nd, 2023",
         "hasStats": true,
-        "id": "8qZWZzrMDpMbn8U",
+        "id": "XbNprDDAy9YIusF",
         "images": {
           "hero": "2023/06/21/e2d0721f-2c3f-4367-8f7b-1176c94b3e2c.jpeg",
           "supplementary": []
         },
         "index": 1,
         "location": null,
-        "next": {
-          "date": "June 23rd, 2023",
-          "slug": "carozzu-to-ascu-stagnu",
-          "title": "Carozzu to Ascu Stagnu"
-        },
-        "previous": {
-          "date": "June 21st, 2023",
-          "slug": "calenzana-to-d-ortu-di-u-piobbu",
-          "title": "Calenzana to D'Ortu Di U Piobbu"
-        },
         "slug": "d-ortu-di-u-piobbu-to-carozzu",
         "stats": {
           "distance": {
@@ -3149,23 +2920,13 @@ const data = [
       {
         "date": "June 23rd, 2023",
         "hasStats": true,
-        "id": "QHy9c4hUNLSdaWN",
+        "id": "PTsfsZ0kIUCYd3C",
         "images": {
           "hero": "2023/06/21/4b13a3d8-a55c-4bed-b887-ad3490ab964f.jpeg",
           "supplementary": []
         },
         "index": 2,
         "location": null,
-        "next": {
-          "date": "June 24th, 2023",
-          "slug": "ascu-stagnu-to-u-vallone",
-          "title": "Ascu Stagnu to U Vallone"
-        },
-        "previous": {
-          "date": "June 22nd, 2023",
-          "slug": "d-ortu-di-u-piobbu-to-carozzu",
-          "title": "D'Ortu Di U Piobbu to Carozzu"
-        },
         "slug": "carozzu-to-ascu-stagnu",
         "stats": {
           "distance": {
@@ -3252,23 +3013,13 @@ const data = [
       {
         "date": "June 24th, 2023",
         "hasStats": true,
-        "id": "Y57zUDSoif4vuqu",
+        "id": "zJaiMh6Xv4MCnhD",
         "images": {
           "hero": "2023/06/21/8f85de22-b937-4ea5-9dfa-e45eb357e7b8.jpeg",
           "supplementary": []
         },
         "index": 3,
         "location": null,
-        "next": {
-          "date": "June 25th, 2023",
-          "slug": "u-vallone-to-castel-di-vergio",
-          "title": "U Vallone to Castel di Vergio"
-        },
-        "previous": {
-          "date": "June 23rd, 2023",
-          "slug": "carozzu-to-ascu-stagnu",
-          "title": "Carozzu to Ascu Stagnu"
-        },
         "slug": "ascu-stagnu-to-u-vallone",
         "stats": {
           "distance": {
@@ -3355,23 +3106,13 @@ const data = [
       {
         "date": "June 25th, 2023",
         "hasStats": true,
-        "id": "CCNcFibcrancJHU",
+        "id": "4WRwECPfffUDvZE",
         "images": {
           "hero": "2023/06/21/f0dc6ac2-b0e5-4e2a-b874-0d40f47c454b.jpeg",
           "supplementary": []
         },
         "index": 4,
         "location": null,
-        "next": {
-          "date": "June 26th, 2023",
-          "slug": "castel-di-vergio-to-manganu",
-          "title": "Castel di Vergio to Manganu"
-        },
-        "previous": {
-          "date": "June 24th, 2023",
-          "slug": "ascu-stagnu-to-u-vallone",
-          "title": "Ascu Stagnu to U Vallone"
-        },
         "slug": "u-vallone-to-castel-di-vergio",
         "stats": {
           "distance": {
@@ -3458,23 +3199,13 @@ const data = [
       {
         "date": "June 26th, 2023",
         "hasStats": true,
-        "id": "WbYxDwGBhQsNY74",
+        "id": "SRUBVRgX6MsORt3",
         "images": {
           "hero": "2023/06/21/95b4adaa-bbbe-4de3-b9f8-96365390f142.jpeg",
           "supplementary": []
         },
         "index": 5,
         "location": null,
-        "next": {
-          "date": "June 27th, 2023",
-          "slug": "manganu-to-petra-piana",
-          "title": "Manganu to Petra Piana"
-        },
-        "previous": {
-          "date": "June 25th, 2023",
-          "slug": "u-vallone-to-castel-di-vergio",
-          "title": "U Vallone to Castel di Vergio"
-        },
         "slug": "castel-di-vergio-to-manganu",
         "stats": {
           "distance": {
@@ -3561,23 +3292,13 @@ const data = [
       {
         "date": "June 27th, 2023",
         "hasStats": true,
-        "id": "auRIuefKY46Tcym",
+        "id": "XC96ocPQjEXYtgP",
         "images": {
           "hero": "2023/06/21/05769f04-5b00-4fd5-a233-55c00c9871c5.jpeg",
           "supplementary": []
         },
         "index": 6,
         "location": null,
-        "next": {
-          "date": "June 28th, 2023",
-          "slug": "petra-piana-to-l-onda",
-          "title": "Petra Piana to l'Onda"
-        },
-        "previous": {
-          "date": "June 26th, 2023",
-          "slug": "castel-di-vergio-to-manganu",
-          "title": "Castel di Vergio to Manganu"
-        },
         "slug": "manganu-to-petra-piana",
         "stats": {
           "distance": {
@@ -3664,23 +3385,13 @@ const data = [
       {
         "date": "June 28th, 2023",
         "hasStats": true,
-        "id": "mTweuToWswFfFKF",
+        "id": "KhyO7U9cTnHqDwe",
         "images": {
           "hero": "2023/06/21/4e7bda74-809e-48a9-a904-5645bf2e7dde.jpeg",
           "supplementary": []
         },
         "index": 7,
         "location": null,
-        "next": {
-          "date": "June 29th, 2023",
-          "slug": "l-onda-to-vizzavona",
-          "title": "l'Onda to Vizzavona"
-        },
-        "previous": {
-          "date": "June 27th, 2023",
-          "slug": "manganu-to-petra-piana",
-          "title": "Manganu to Petra Piana"
-        },
         "slug": "petra-piana-to-l-onda",
         "stats": {
           "distance": {
@@ -3767,23 +3478,13 @@ const data = [
       {
         "date": "June 29th, 2023",
         "hasStats": true,
-        "id": "L2rHtVnyXxOtd86",
+        "id": "YnDMLc4gnHtXpPq",
         "images": {
           "hero": "2023/06/21/2cc8532b-6441-49fb-927e-ebdb001b78cf.jpeg",
           "supplementary": []
         },
         "index": 8,
         "location": null,
-        "next": {
-          "date": "June 30th, 2023",
-          "slug": "vizzavona-to-bocca-di-verdi",
-          "title": "Vizzavona to Bocca di Verdi"
-        },
-        "previous": {
-          "date": "June 28th, 2023",
-          "slug": "petra-piana-to-l-onda",
-          "title": "Petra Piana to l'Onda"
-        },
         "slug": "l-onda-to-vizzavona",
         "stats": {
           "distance": {
@@ -3870,23 +3571,13 @@ const data = [
       {
         "date": "June 30th, 2023",
         "hasStats": true,
-        "id": "SF2GmmugVtLxZ7q",
+        "id": "3PLNvwASIUVGscd",
         "images": {
           "hero": "2023/06/21/54334c14-8bae-4478-97f7-179f79cd2ca6.jpeg",
           "supplementary": []
         },
         "index": 9,
         "location": null,
-        "next": {
-          "date": "July 1st, 2023",
-          "slug": "bocca-di-verdi-to-d-usciolu",
-          "title": "Bocca di Verdi to d'Usciolu"
-        },
-        "previous": {
-          "date": "June 29th, 2023",
-          "slug": "l-onda-to-vizzavona",
-          "title": "l'Onda to Vizzavona"
-        },
         "slug": "vizzavona-to-bocca-di-verdi",
         "stats": {
           "distance": {
@@ -3973,23 +3664,13 @@ const data = [
       {
         "date": "July 1st, 2023",
         "hasStats": true,
-        "id": "gyMEuciClXnNJGt",
+        "id": "TbgCA4ZVeFjeZpJ",
         "images": {
           "hero": "2023/06/21/73a5df9e-fefd-43d0-ad5a-7f71dcb003cc.jpeg",
           "supplementary": []
         },
         "index": 10,
         "location": null,
-        "next": {
-          "date": "July 2nd, 2023",
-          "slug": "d-usciolu-to-d-asinau",
-          "title": "d'Usciolu to d'Asinau"
-        },
-        "previous": {
-          "date": "June 30th, 2023",
-          "slug": "vizzavona-to-bocca-di-verdi",
-          "title": "Vizzavona to Bocca di Verdi"
-        },
         "slug": "bocca-di-verdi-to-d-usciolu",
         "stats": {
           "distance": {
@@ -4076,23 +3757,13 @@ const data = [
       {
         "date": "July 2nd, 2023",
         "hasStats": true,
-        "id": "yvibHueOHOYg7aE",
+        "id": "f25rJf2WIFiTj3d",
         "images": {
           "hero": "2023/06/21/d36a683f-4d95-4b0c-987d-d190336c49ee.jpeg",
           "supplementary": []
         },
         "index": 11,
         "location": null,
-        "next": {
-          "date": "July 3rd, 2023",
-          "slug": "d-asinau-to-conca",
-          "title": "d'Asinau to Conca"
-        },
-        "previous": {
-          "date": "July 1st, 2023",
-          "slug": "bocca-di-verdi-to-d-usciolu",
-          "title": "Bocca di Verdi to d'Usciolu"
-        },
         "slug": "d-usciolu-to-d-asinau",
         "stats": {
           "distance": {
@@ -4179,19 +3850,13 @@ const data = [
       {
         "date": "July 3rd, 2023",
         "hasStats": true,
-        "id": "wgNnvnc928s2OKV",
+        "id": "4ElT8eGhBVlluyR",
         "images": {
           "hero": "2023/06/21/f0cd0897-3fc9-47a2-808e-e1627dfb45bc.jpeg",
           "supplementary": []
         },
         "index": 12,
         "location": null,
-        "next": null,
-        "previous": {
-          "date": "July 2nd, 2023",
-          "slug": "d-usciolu-to-d-asinau",
-          "title": "d'Usciolu to d'Asinau"
-        },
         "slug": "d-asinau-to-conca",
         "stats": {
           "distance": {
@@ -4322,7 +3987,6 @@ const data = [
         "units": null
       }
     },
-    "tagline": "Rising from the Mediterranean",
     "termini": {
       "end": "Conca",
       "isSame": false,
@@ -4332,22 +3996,9 @@ const data = [
     "title": [
       "GR20"
     ],
-    "total": 11,
     "type": "thru-hike"
   },
   {
-    "categories": [
-      "vacation",
-      "africa"
-    ],
-    "cities": [
-      "Cairo",
-      "Luxor"
-    ],
-    "coordinates": {
-      "left": "54",
-      "top": "36"
-    },
     "date": {
       "dates": {
         "start": {
@@ -4385,73 +4036,15 @@ const data = [
     ],
     "gear": null,
     "hasGear": false,
-    "id": "CryI7o0Q8x4IvKY",
-    "images": {
-      "hero": "2022/12/28/88613c33-7796-47be-afc6-d31f51a80600.jpeg",
-      "small": "2022/12/28/67389b3e-bdda-4a92-a884-7fdaf2ae145f.jpeg",
-      "large": "2022/12/28/b13b3a23-187a-4dc4-912d-e225b21af78a.jpeg"
-    },
+    "id": "aLwfWTEWGeo84I5",
     "index": 2,
-    "label": "destination",
     "location": "Egypt",
-    "next": {
-      "date": {
-        "dates": {
-          "start": {
-            "long": {
-              "month": "June",
-              "day": "21st",
-              "year": "2023"
-            },
-            "short": {
-              "month": "Jun",
-              "day": "21",
-              "year": "23"
-            }
-          },
-          "end": {
-            "long": {
-              "month": "July",
-              "day": "3rd",
-              "year": "2023"
-            },
-            "short": {
-              "month": "Jul",
-              "day": "3",
-              "year": "23"
-            }
-          }
-        },
-        "year": [
-          "2023"
-        ]
-      },
-      "slug": "gr-20",
-      "title": [
-        "GR20"
-      ]
-    },
-    "previous": {
-      "date": {
-        "dates": null,
-        "year": [
-          "2022",
-          "2025"
-        ]
-      },
-      "slug": "ice-age-trail",
-      "title": [
-        "Ice Age",
-        "Trail"
-      ]
-    },
-    "shareable": "xoi6wd",
     "slug": "cairo-luxor",
     "stages": [
       {
         "date": "December 29th, 2022",
         "hasStats": false,
-        "id": "03TiaqsaIyZYFhd",
+        "id": "DCk7q5bpdb7Y2Cl",
         "images": {
           "hero": "2022/12/28/4a450c11-fa71-4501-83de-95cf248aeecc.jpeg",
           "supplementary": [
@@ -4461,12 +4054,6 @@ const data = [
         },
         "index": 0,
         "location": "Cairo",
-        "next": {
-          "date": "December 30th, 2022",
-          "slug": "step-and-bent-pyramids",
-          "title": "Step and Bent Pyramids"
-        },
-        "previous": null,
         "slug": "giza-plateau",
         "stats": {
           "distance": null,
@@ -4485,7 +4072,7 @@ const data = [
       {
         "date": "December 30th, 2022",
         "hasStats": false,
-        "id": "CWIJp84Yv2Z0gJ0",
+        "id": "WsgcGBTzDG3JmIb",
         "images": {
           "hero": "2022/12/28/2fbb089e-8a80-4c3b-b071-709cc9702a84.jpeg",
           "supplementary": [
@@ -4495,16 +4082,6 @@ const data = [
         },
         "index": 1,
         "location": "Cairo",
-        "next": {
-          "date": "January 1st, 2023",
-          "slug": "museums",
-          "title": "Museums"
-        },
-        "previous": {
-          "date": "December 29th, 2022",
-          "slug": "giza-plateau",
-          "title": "Giza Plateau"
-        },
         "slug": "step-and-bent-pyramids",
         "stats": {
           "distance": null,
@@ -4523,23 +4100,13 @@ const data = [
       {
         "date": "January 1st, 2023",
         "hasStats": false,
-        "id": "5zxSaCZptlC6B76",
+        "id": "bpnPuWAP5PznA7m",
         "images": {
           "hero": "2022/12/28/f24edc7b-3854-40c5-a2e7-33e2e2e27bde.jpeg",
           "supplementary": []
         },
         "index": 2,
         "location": "Cairo",
-        "next": {
-          "date": "January 3rd, 2023",
-          "slug": "colossi-of-memnon",
-          "title": "Colossi of Memnon"
-        },
-        "previous": {
-          "date": "December 30th, 2022",
-          "slug": "step-and-bent-pyramids",
-          "title": "Step and Bent Pyramids"
-        },
         "slug": "museums",
         "stats": {
           "distance": null,
@@ -4558,23 +4125,13 @@ const data = [
       {
         "date": "January 3rd, 2023",
         "hasStats": false,
-        "id": "Tm6nTvorxvcdsP4",
+        "id": "0tCZZJwAdYCjtcP",
         "images": {
           "hero": "2022/12/28/5e393275-ee80-475d-83cf-26192cd55738.jpeg",
           "supplementary": []
         },
         "index": 3,
         "location": "Luxor",
-        "next": {
-          "date": "January 3rd, 2023",
-          "slug": "valley-of-the-kings",
-          "title": "Valley of the Kings"
-        },
-        "previous": {
-          "date": "January 1st, 2023",
-          "slug": "museums",
-          "title": "Museums"
-        },
         "slug": "colossi-of-memnon",
         "stats": {
           "distance": null,
@@ -4593,7 +4150,7 @@ const data = [
       {
         "date": "January 3rd, 2023",
         "hasStats": false,
-        "id": "ZAAXvxo3ImHfmiT",
+        "id": "Hi1XQ6UlALWODDc",
         "images": {
           "hero": "2022/12/28/f135fdfe-1c54-4f54-b8b5-fbd7887055ab.jpeg",
           "supplementary": [
@@ -4603,16 +4160,6 @@ const data = [
         },
         "index": 4,
         "location": "Luxor",
-        "next": {
-          "date": "January 3rd, 2023",
-          "slug": "valley-of-the-queens",
-          "title": "Valley of the Queens"
-        },
-        "previous": {
-          "date": "January 3rd, 2023",
-          "slug": "colossi-of-memnon",
-          "title": "Colossi of Memnon"
-        },
         "slug": "valley-of-the-kings",
         "stats": {
           "distance": null,
@@ -4631,7 +4178,7 @@ const data = [
       {
         "date": "January 3rd, 2023",
         "hasStats": false,
-        "id": "lCHq0ql9hbUIYpL",
+        "id": "QzJMByeoQekxwmm",
         "images": {
           "hero": "2022/12/28/bc5b055a-7117-4e18-9aac-8384ba214d5e.jpeg",
           "supplementary": [
@@ -4641,16 +4188,6 @@ const data = [
         },
         "index": 5,
         "location": "Luxor",
-        "next": {
-          "date": "January 3rd, 2023",
-          "slug": "habu-temple",
-          "title": "Habu Temple"
-        },
-        "previous": {
-          "date": "January 3rd, 2023",
-          "slug": "valley-of-the-kings",
-          "title": "Valley of the Kings"
-        },
         "slug": "valley-of-the-queens",
         "stats": {
           "distance": null,
@@ -4669,7 +4206,7 @@ const data = [
       {
         "date": "January 3rd, 2023",
         "hasStats": false,
-        "id": "3NRi9KYB79kpwtv",
+        "id": "yQHDEOmuNgTLHU7",
         "images": {
           "hero": "2022/12/28/44f2c787-1209-4e11-a2fe-64030e0c472c.jpeg",
           "supplementary": [
@@ -4679,16 +4216,6 @@ const data = [
         },
         "index": 6,
         "location": "Luxor",
-        "next": {
-          "date": "January 3rd, 2023",
-          "slug": "hatsheputs-temple",
-          "title": "Hatsheputs Temple"
-        },
-        "previous": {
-          "date": "January 3rd, 2023",
-          "slug": "valley-of-the-queens",
-          "title": "Valley of the Queens"
-        },
         "slug": "habu-temple",
         "stats": {
           "distance": null,
@@ -4707,7 +4234,7 @@ const data = [
       {
         "date": "January 3rd, 2023",
         "hasStats": false,
-        "id": "byYmJvGmtLw1AGg",
+        "id": "0KeQw4hU7q0UIUy",
         "images": {
           "hero": "2022/12/28/b7e2eeb1-90d3-49cb-bdb8-41acf2162f78.jpeg",
           "supplementary": [
@@ -4717,16 +4244,6 @@ const data = [
         },
         "index": 7,
         "location": "Luxor",
-        "next": {
-          "date": "January 4th, 2023",
-          "slug": "hot-air-balloon-ride",
-          "title": "Hot Air Balloon Ride"
-        },
-        "previous": {
-          "date": "January 3rd, 2023",
-          "slug": "habu-temple",
-          "title": "Habu Temple"
-        },
         "slug": "hatsheputs-temple",
         "stats": {
           "distance": null,
@@ -4745,7 +4262,7 @@ const data = [
       {
         "date": "January 4th, 2023",
         "hasStats": false,
-        "id": "nTBcF1xIdOAUII4",
+        "id": "mMKB9VHZAyoHEid",
         "images": {
           "hero": "2022/12/28/b13b3a23-187a-4dc4-912d-e225b21af78a.jpeg",
           "supplementary": [
@@ -4755,16 +4272,6 @@ const data = [
         },
         "index": 8,
         "location": "Luxor",
-        "next": {
-          "date": "January 4th, 2023",
-          "slug": "luxor-temple",
-          "title": "Luxor Temple"
-        },
-        "previous": {
-          "date": "January 3rd, 2023",
-          "slug": "hatsheputs-temple",
-          "title": "Hatsheputs Temple"
-        },
         "slug": "hot-air-balloon-ride",
         "stats": {
           "distance": null,
@@ -4783,7 +4290,7 @@ const data = [
       {
         "date": "January 4th, 2023",
         "hasStats": false,
-        "id": "TAOpCgoclj8o12X",
+        "id": "wRMhb0VGNl1vomd",
         "images": {
           "hero": "2022/12/28/9799718c-81f7-460d-9f0a-7ddd2dffb060.jpeg",
           "supplementary": [
@@ -4793,16 +4300,6 @@ const data = [
         },
         "index": 9,
         "location": "Luxor",
-        "next": {
-          "date": "January 4th, 2023",
-          "slug": "karnak-temple-complex",
-          "title": "Karnak Temple Complex"
-        },
-        "previous": {
-          "date": "January 4th, 2023",
-          "slug": "hot-air-balloon-ride",
-          "title": "Hot Air Balloon Ride"
-        },
         "slug": "luxor-temple",
         "stats": {
           "distance": null,
@@ -4821,7 +4318,7 @@ const data = [
       {
         "date": "January 4th, 2023",
         "hasStats": false,
-        "id": "cqtnw99RG5lXvI7",
+        "id": "9eJ07CkZZv50nLp",
         "images": {
           "hero": "2022/12/28/6bf7f094-4f84-42b6-8bbc-5b501a25f3e7.jpeg",
           "supplementary": [
@@ -4831,12 +4328,6 @@ const data = [
         },
         "index": 10,
         "location": "Luxor",
-        "next": null,
-        "previous": {
-          "date": "January 4th, 2023",
-          "slug": "luxor-temple",
-          "title": "Luxor Temple"
-        },
         "slug": "karnak-temple-complex",
         "stats": {
           "distance": null,
@@ -4867,7 +4358,6 @@ const data = [
         "units": null
       }
     },
-    "tagline": "Land of the Pharoahs",
     "termini": {
       "end": "Luxor",
       "isSame": false,
@@ -4878,18 +4368,9 @@ const data = [
       "Cairo +",
       "Luxor"
     ],
-    "total": 11,
     "type": "vacation"
   },
   {
-    "categories": [
-      "section-hike",
-      "north america"
-    ],
-    "coordinates": {
-      "left": "16",
-      "top": "25"
-    },
     "date": {
       "dates": null,
       "year": [
@@ -5667,111 +5148,21 @@ const data = [
       "weightWorn": "2.75"
     },
     "hasGear": true,
-    "id": "JiEBxPvlmBuumys",
-    "images": {
-      "hero": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",
-      "small": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
-      "large": "2025/05/03/e402c0b1-e827-4123-b7b5-74947b240687.jpeg"
-    },
+    "id": "nKRGVkCjCyf8amN",
     "index": 3,
-    "label": "section",
     "location": "Wisconsin",
-    "next": {
-      "date": {
-        "dates": {
-          "start": {
-            "long": {
-              "month": "December",
-              "day": "29th",
-              "year": "2022"
-            },
-            "short": {
-              "month": "Dec",
-              "day": "29",
-              "year": "22"
-            }
-          },
-          "end": {
-            "long": {
-              "month": "January",
-              "day": "6th",
-              "year": "2023"
-            },
-            "short": {
-              "month": "Jan",
-              "day": "6",
-              "year": "23"
-            }
-          }
-        },
-        "year": [
-          "2022"
-        ]
-      },
-      "slug": "cairo-luxor",
-      "title": [
-        "Cairo +",
-        "Luxor"
-      ]
-    },
-    "previous": {
-      "date": {
-        "dates": {
-          "start": {
-            "long": {
-              "month": "May",
-              "day": "7th",
-              "year": "2022"
-            },
-            "short": {
-              "month": "May",
-              "day": "7",
-              "year": "22"
-            }
-          },
-          "end": {
-            "long": {
-              "month": "May",
-              "day": "12th",
-              "year": "2022"
-            },
-            "short": {
-              "month": "May",
-              "day": "12",
-              "year": "22"
-            }
-          }
-        },
-        "year": [
-          "2022"
-        ]
-      },
-      "slug": "west-highland-way",
-      "title": [
-        "West",
-        "Highland",
-        "Way"
-      ]
-    },
-    "shareable": "1apbqba",
     "slug": "ice-age-trail",
     "stages": [
       {
         "date": "July 15th, 2022",
         "hasStats": true,
-        "id": "I8m5kp6F7E4iE0n",
+        "id": "qEcaNtXy1W5whtK",
         "images": {
           "hero": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",
           "supplementary": []
         },
         "index": 0,
         "location": null,
-        "next": {
-          "date": "May 3rd, 2025",
-          "slug": "parnell-segment",
-          "title": "Parnell Segment"
-        },
-        "previous": null,
         "slug": "blue-spring-and-stony-ridge-segments",
         "stats": {
           "distance": {
@@ -5858,23 +5249,13 @@ const data = [
       {
         "date": "May 3rd, 2025",
         "hasStats": true,
-        "id": "UP8czdwDwn3qgg3",
+        "id": "RlA6qyajMLrf4Td",
         "images": {
           "hero": "2025/05/03/e402c0b1-e827-4123-b7b5-74947b240687.jpeg",
           "supplementary": []
         },
         "index": 1,
         "location": null,
-        "next": {
-          "date": "May 4th, 2025",
-          "slug": "greenbush-segment",
-          "title": "Greenbush Segment"
-        },
-        "previous": {
-          "date": "July 15th, 2022",
-          "slug": "blue-spring-and-stony-ridge-segments",
-          "title": "Blue Spring and Stony Ridge Segments"
-        },
         "slug": "parnell-segment",
         "stats": {
           "distance": {
@@ -5961,19 +5342,13 @@ const data = [
       {
         "date": "May 4th, 2025",
         "hasStats": true,
-        "id": "bEA2e5RdD3BJKcJ",
+        "id": "nKxGb9KolfUqnUV",
         "images": {
           "hero": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
           "supplementary": []
         },
         "index": 2,
         "location": null,
-        "next": null,
-        "previous": {
-          "date": "May 3rd, 2025",
-          "slug": "parnell-segment",
-          "title": "Parnell Segment"
-        },
         "slug": "greenbush-segment",
         "stats": {
           "distance": {
@@ -6104,7 +5479,6 @@ const data = [
         "units": null
       }
     },
-    "tagline": "Kettles and moraines, oh my",
     "termini": {
       "end": "Greenbush Segment",
       "isSame": false,
@@ -6115,18 +5489,9 @@ const data = [
       "Ice Age",
       "Trail"
     ],
-    "total": 11,
     "type": "section-hike"
   },
   {
-    "categories": [
-      "thru-hike",
-      "europe"
-    ],
-    "coordinates": {
-      "left": "43.6",
-      "top": "14.4"
-    },
     "date": {
       "dates": {
         "start": {
@@ -6881,87 +6246,21 @@ const data = [
       "weightWorn": "3.74"
     },
     "hasGear": true,
-    "id": "kgPR6wzs9HuPxUO",
-    "images": {
-      "hero": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
-      "small": "2022/05/07/e8dd9fed-56e4-45bf-aee4-d1bc44a5363c.jpeg",
-      "large": "2022/05/07/07741eea-d85e-42cf-a2d4-d0f87102bffc.jpeg"
-    },
+    "id": "fOyzY3AQLIvo7mC",
     "index": 4,
-    "label": "stage",
     "location": "Scotland",
-    "next": {
-      "date": {
-        "dates": null,
-        "year": [
-          "2022",
-          "2025"
-        ]
-      },
-      "slug": "ice-age-trail",
-      "title": [
-        "Ice Age",
-        "Trail"
-      ]
-    },
-    "previous": {
-      "date": {
-        "dates": {
-          "start": {
-            "long": {
-              "month": "February",
-              "day": "18th",
-              "year": "2020"
-            },
-            "short": {
-              "month": "Feb",
-              "day": "18",
-              "year": "20"
-            }
-          },
-          "end": {
-            "long": {
-              "month": "February",
-              "day": "25th",
-              "year": "2020"
-            },
-            "short": {
-              "month": "Feb",
-              "day": "25",
-              "year": "20"
-            }
-          }
-        },
-        "year": [
-          "2020"
-        ]
-      },
-      "slug": "torres-del-paine-o-circuit",
-      "title": [
-        "Torres del",
-        "Paine O",
-        "Circuit"
-      ]
-    },
-    "shareable": "x57z7x",
     "slug": "west-highland-way",
     "stages": [
       {
         "date": "May 7th, 2022",
         "hasStats": true,
-        "id": "rtcx8TvJjkQouEp",
+        "id": "bnQUxruTWldmcqR",
         "images": {
           "hero": "2022/05/07/75a8c027-07cd-4184-9157-d48dd5d1a32e.jpeg",
           "supplementary": []
         },
         "index": 0,
         "location": null,
-        "next": {
-          "date": "May 8th, 2022",
-          "slug": "drymen-to-sallochy",
-          "title": "Drymen to Sallochy"
-        },
-        "previous": null,
         "slug": "milngavie-to-drymen",
         "stats": {
           "distance": {
@@ -7048,23 +6347,13 @@ const data = [
       {
         "date": "May 8th, 2022",
         "hasStats": true,
-        "id": "Fw16Vfckig4ZwJb",
+        "id": "jWv2KQP8NWry5jv",
         "images": {
           "hero": "2022/05/07/e8dd9fed-56e4-45bf-aee4-d1bc44a5363c.jpeg",
           "supplementary": []
         },
         "index": 1,
         "location": null,
-        "next": {
-          "date": "May 9th, 2022",
-          "slug": "sallochy-to-bienglas-farm",
-          "title": "Sallochy to Bienglas Farm"
-        },
-        "previous": {
-          "date": "May 7th, 2022",
-          "slug": "milngavie-to-drymen",
-          "title": "Milngavie to Drymen"
-        },
         "slug": "drymen-to-sallochy",
         "stats": {
           "distance": {
@@ -7151,23 +6440,13 @@ const data = [
       {
         "date": "May 9th, 2022",
         "hasStats": true,
-        "id": "IrVvPK3wa157IlL",
+        "id": "kid1gI6PYmNRL32",
         "images": {
           "hero": "2022/05/07/e610c340-2b8c-481c-8442-dc4543db3f2c.jpeg",
           "supplementary": []
         },
         "index": 2,
         "location": null,
-        "next": {
-          "date": "May 10th, 2022",
-          "slug": "bienglas-farm-to-bridge-of-orchy",
-          "title": "Bienglas Farm to Bridge of Orchy"
-        },
-        "previous": {
-          "date": "May 8th, 2022",
-          "slug": "drymen-to-sallochy",
-          "title": "Drymen to Sallochy"
-        },
         "slug": "sallochy-to-bienglas-farm",
         "stats": {
           "distance": {
@@ -7254,23 +6533,13 @@ const data = [
       {
         "date": "May 10th, 2022",
         "hasStats": true,
-        "id": "2zObSnlPtGXoIp6",
+        "id": "NFRu9yBa2PZ6qHT",
         "images": {
           "hero": "2022/05/07/b7df127a-0f69-4b29-843f-e1a7c6f858bf.jpeg",
           "supplementary": []
         },
         "index": 3,
         "location": null,
-        "next": {
-          "date": "May 11th, 2022",
-          "slug": "bridge-of-orchy-to-kinlochleven",
-          "title": "Bridge of Orchy to Kinlochleven"
-        },
-        "previous": {
-          "date": "May 9th, 2022",
-          "slug": "sallochy-to-bienglas-farm",
-          "title": "Sallochy to Bienglas Farm"
-        },
         "slug": "bienglas-farm-to-bridge-of-orchy",
         "stats": {
           "distance": {
@@ -7357,23 +6626,13 @@ const data = [
       {
         "date": "May 11th, 2022",
         "hasStats": true,
-        "id": "bei2X5mT5Hzsrl9",
+        "id": "j5QpogeeA8E2w6Y",
         "images": {
           "hero": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
           "supplementary": []
         },
         "index": 4,
         "location": null,
-        "next": {
-          "date": "May 12th, 2022",
-          "slug": "kinlochleven-to-fort-william",
-          "title": "Kinlochleven to Fort William"
-        },
-        "previous": {
-          "date": "May 10th, 2022",
-          "slug": "bienglas-farm-to-bridge-of-orchy",
-          "title": "Bienglas Farm to Bridge of Orchy"
-        },
         "slug": "bridge-of-orchy-to-kinlochleven",
         "stats": {
           "distance": {
@@ -7460,19 +6719,13 @@ const data = [
       {
         "date": "May 12th, 2022",
         "hasStats": true,
-        "id": "1g09PlTgZleqLyS",
+        "id": "wlwOTa9jWuSEwGB",
         "images": {
           "hero": "2022/05/07/07741eea-d85e-42cf-a2d4-d0f87102bffc.jpeg",
           "supplementary": []
         },
         "index": 5,
         "location": null,
-        "next": null,
-        "previous": {
-          "date": "May 11th, 2022",
-          "slug": "bridge-of-orchy-to-kinlochleven",
-          "title": "Bridge of Orchy to Kinlochleven"
-        },
         "slug": "kinlochleven-to-fort-william",
         "stats": {
           "distance": {
@@ -7603,7 +6856,6 @@ const data = [
         "units": null
       }
     },
-    "tagline": "Misty glens and deep lochs",
     "termini": {
       "end": "Fort William",
       "isSame": false,
@@ -7615,18 +6867,9 @@ const data = [
       "Highland",
       "Way"
     ],
-    "total": 11,
     "type": "thru-hike"
   },
   {
-    "categories": [
-      "thru-hike",
-      "south america"
-    ],
-    "coordinates": {
-      "left": "25.8",
-      "top": "95.5"
-    },
     "date": {
       "dates": {
         "start": {
@@ -8545,112 +7788,21 @@ const data = [
       "weightWorn": "7.17"
     },
     "hasGear": true,
-    "id": "iBZlgH28oAW02oo",
-    "images": {
-      "hero": "2020/02/18/5e958df4-56a2-4292-ae6d-b694f078a985.jpeg",
-      "small": "2020/02/18/38a1b675-74c7-45b5-9e37-8020d298a0b3.jpeg",
-      "large": "2020/02/18/dd6e739e-b793-4c64-8e7c-c6a631b467c7.jpeg"
-    },
+    "id": "4UvhFQBnBouahTk",
     "index": 5,
-    "label": "stage",
     "location": "Patagonia",
-    "next": {
-      "date": {
-        "dates": {
-          "start": {
-            "long": {
-              "month": "May",
-              "day": "7th",
-              "year": "2022"
-            },
-            "short": {
-              "month": "May",
-              "day": "7",
-              "year": "22"
-            }
-          },
-          "end": {
-            "long": {
-              "month": "May",
-              "day": "12th",
-              "year": "2022"
-            },
-            "short": {
-              "month": "May",
-              "day": "12",
-              "year": "22"
-            }
-          }
-        },
-        "year": [
-          "2022"
-        ]
-      },
-      "slug": "west-highland-way",
-      "title": [
-        "West",
-        "Highland",
-        "Way"
-      ]
-    },
-    "previous": {
-      "date": {
-        "dates": {
-          "start": {
-            "long": {
-              "month": "October",
-              "day": "19th",
-              "year": "2019"
-            },
-            "short": {
-              "month": "Oct",
-              "day": "19",
-              "year": "19"
-            }
-          },
-          "end": {
-            "long": {
-              "month": "November",
-              "day": "6th",
-              "year": "2019"
-            },
-            "short": {
-              "month": "Nov",
-              "day": "6",
-              "year": "19"
-            }
-          }
-        },
-        "year": [
-          "2019"
-        ]
-      },
-      "slug": "annapurna-circuit-basecamp",
-      "title": [
-        "Annapurna",
-        "Circuit +",
-        "Basecamp"
-      ]
-    },
-    "shareable": "1qcfxev",
     "slug": "torres-del-paine-o-circuit",
     "stages": [
       {
         "date": "February 18th, 2020",
         "hasStats": true,
-        "id": "RRwwX4ZW1Y1XqWJ",
+        "id": "FcMDNC8Q8tId6k6",
         "images": {
           "hero": "2020/02/18/619eec82-6980-4f31-a11f-7c5581d02989.jpeg",
           "supplementary": []
         },
         "index": 0,
         "location": null,
-        "next": {
-          "date": "February 19th, 2020",
-          "slug": "seron-to-dickson",
-          "title": "Seron to Dickson"
-        },
-        "previous": null,
         "slug": "laguna-amarga-to-seron",
         "stats": {
           "distance": {
@@ -8737,23 +7889,13 @@ const data = [
       {
         "date": "February 19th, 2020",
         "hasStats": true,
-        "id": "PGplxt8SAUrxMo6",
+        "id": "90kIizjIkqPmnJV",
         "images": {
           "hero": "2020/02/18/98e3190e-5480-4eb9-8883-c8d9fbb3f485.jpeg",
           "supplementary": []
         },
         "index": 1,
         "location": null,
-        "next": {
-          "date": "February 20th, 2020",
-          "slug": "dickson-to-perros",
-          "title": "Dickson to Perros"
-        },
-        "previous": {
-          "date": "February 18th, 2020",
-          "slug": "laguna-amarga-to-seron",
-          "title": "Laguna Amarga to Seron"
-        },
         "slug": "seron-to-dickson",
         "stats": {
           "distance": {
@@ -8840,23 +7982,13 @@ const data = [
       {
         "date": "February 20th, 2020",
         "hasStats": true,
-        "id": "dRfbM7dIR20A4Xz",
+        "id": "5WLt0HgXY3eNKpN",
         "images": {
           "hero": "2020/02/18/f477b7bb-7f38-42ff-a855-f90668a73f28.jpeg",
           "supplementary": []
         },
         "index": 2,
         "location": null,
-        "next": {
-          "date": "February 21st, 2020",
-          "slug": "perros-to-grey",
-          "title": "Perros to Grey"
-        },
-        "previous": {
-          "date": "February 19th, 2020",
-          "slug": "seron-to-dickson",
-          "title": "Seron to Dickson"
-        },
         "slug": "dickson-to-perros",
         "stats": {
           "distance": {
@@ -8943,23 +8075,13 @@ const data = [
       {
         "date": "February 21st, 2020",
         "hasStats": true,
-        "id": "Lym69ZTfSKPD3pg",
+        "id": "CegJMVbrpvoizUA",
         "images": {
           "hero": "2020/02/18/38a1b675-74c7-45b5-9e37-8020d298a0b3.jpeg",
           "supplementary": []
         },
         "index": 3,
         "location": null,
-        "next": {
-          "date": "February 22nd, 2020",
-          "slug": "grey-to-paine-grande",
-          "title": "Grey to Paine Grande"
-        },
-        "previous": {
-          "date": "February 20th, 2020",
-          "slug": "dickson-to-perros",
-          "title": "Dickson to Perros"
-        },
         "slug": "perros-to-grey",
         "stats": {
           "distance": {
@@ -9046,23 +8168,13 @@ const data = [
       {
         "date": "February 22nd, 2020",
         "hasStats": true,
-        "id": "BbYHxRYaEckNgbR",
+        "id": "E3cmXGZwPEm6IpA",
         "images": {
           "hero": "2020/02/18/dd6e739e-b793-4c64-8e7c-c6a631b467c7.jpeg",
           "supplementary": []
         },
         "index": 4,
         "location": null,
-        "next": {
-          "date": "February 23rd, 2020",
-          "slug": "paine-grande-to-frances",
-          "title": "Paine Grande to Frances"
-        },
-        "previous": {
-          "date": "February 21st, 2020",
-          "slug": "perros-to-grey",
-          "title": "Perros to Grey"
-        },
         "slug": "grey-to-paine-grande",
         "stats": {
           "distance": {
@@ -9149,23 +8261,13 @@ const data = [
       {
         "date": "February 23rd, 2020",
         "hasStats": true,
-        "id": "BdVmYNd4qKOjIVw",
+        "id": "7oD44MUpTMKzsXU",
         "images": {
           "hero": "2020/02/18/380820b8-520a-49fa-8f01-651ca63fd84f.jpeg",
           "supplementary": []
         },
         "index": 5,
         "location": null,
-        "next": {
-          "date": "February 24th, 2020",
-          "slug": "frances-to-chileno",
-          "title": "Frances to Chileno"
-        },
-        "previous": {
-          "date": "February 22nd, 2020",
-          "slug": "grey-to-paine-grande",
-          "title": "Grey to Paine Grande"
-        },
         "slug": "paine-grande-to-frances",
         "stats": {
           "distance": {
@@ -9252,23 +8354,13 @@ const data = [
       {
         "date": "February 24th, 2020",
         "hasStats": true,
-        "id": "YuGOUN9G4BrarsU",
+        "id": "hVjGY0FNN7688Oq",
         "images": {
           "hero": "2020/02/18/790032e0-6483-4631-9cbe-d912510a1a48.jpeg",
           "supplementary": []
         },
         "index": 6,
         "location": null,
-        "next": {
-          "date": "February 25th, 2020",
-          "slug": "chileno-to-laguna-amarga",
-          "title": "Chileno to Laguna Amarga"
-        },
-        "previous": {
-          "date": "February 23rd, 2020",
-          "slug": "paine-grande-to-frances",
-          "title": "Paine Grande to Frances"
-        },
         "slug": "frances-to-chileno",
         "stats": {
           "distance": {
@@ -9355,19 +8447,13 @@ const data = [
       {
         "date": "February 25th, 2020",
         "hasStats": true,
-        "id": "xGcF6eTOqEsOMZp",
+        "id": "qUms58zg7Qjqdoi",
         "images": {
           "hero": "2020/02/18/630411a8-f5ce-47fe-8261-f94e00654447.jpeg",
           "supplementary": []
         },
         "index": 7,
         "location": null,
-        "next": null,
-        "previous": {
-          "date": "February 24th, 2020",
-          "slug": "frances-to-chileno",
-          "title": "Frances to Chileno"
-        },
         "slug": "chileno-to-laguna-amarga",
         "stats": {
           "distance": {
@@ -9498,7 +8584,6 @@ const data = [
         "units": null
       }
     },
-    "tagline": "The end of the world",
     "termini": {
       "end": "Laguna Amarga",
       "isSame": true,
@@ -9510,18 +8595,9 @@ const data = [
       "Paine O",
       "Circuit"
     ],
-    "total": 11,
     "type": "thru-hike"
   },
   {
-    "categories": [
-      "thru-hike",
-      "asia"
-    ],
-    "coordinates": {
-      "left": "71.3",
-      "top": "32"
-    },
     "date": {
       "dates": {
         "start": {
@@ -10437,88 +9513,21 @@ const data = [
       "weightWorn": "9.93"
     },
     "hasGear": true,
-    "id": "zOm96tPU28TsFEV",
-    "images": {
-      "hero": "2019/10/19/b9b20eb0-e569-4778-99c6-de3a3c2eb15e.jpeg",
-      "small": "2019/10/19/40b7a029-2f0c-4807-94fa-86a07ee9ffa9.jpeg",
-      "large": "2019/10/19/3773c3c4-265f-4e7e-8f0a-d6e1a7d9b85c.jpeg"
-    },
+    "id": "TSiP8xcXLZ0UNcm",
     "index": 6,
-    "label": "stage",
     "location": "Nepal",
-    "next": {
-      "date": {
-        "dates": {
-          "start": {
-            "long": {
-              "month": "February",
-              "day": "18th",
-              "year": "2020"
-            },
-            "short": {
-              "month": "Feb",
-              "day": "18",
-              "year": "20"
-            }
-          },
-          "end": {
-            "long": {
-              "month": "February",
-              "day": "25th",
-              "year": "2020"
-            },
-            "short": {
-              "month": "Feb",
-              "day": "25",
-              "year": "20"
-            }
-          }
-        },
-        "year": [
-          "2020"
-        ]
-      },
-      "slug": "torres-del-paine-o-circuit",
-      "title": [
-        "Torres del",
-        "Paine O",
-        "Circuit"
-      ]
-    },
-    "previous": {
-      "date": {
-        "dates": null,
-        "year": [
-          "2019",
-          "2022"
-        ]
-      },
-      "slug": "southern-rockies-14-ers",
-      "title": [
-        "Southern",
-        "Rockies",
-        "14ers"
-      ]
-    },
-    "shareable": "11zwuir",
     "slug": "annapurna-circuit-basecamp",
     "stages": [
       {
         "date": "October 19th, 2019",
         "hasStats": true,
-        "id": "9Y0yswpSsUoojhm",
+        "id": "yWdOJqB6HN3g1Ji",
         "images": {
           "hero": "2019/10/19/672dcde8-57ae-4bf9-885f-ae039d3a824d.jpeg",
           "supplementary": []
         },
         "index": 0,
         "location": null,
-        "next": {
-          "date": "October 20th, 2019",
-          "slug": "bhulbhule-to-jagat",
-          "title": "Bhulbhule to Jagat"
-        },
-        "previous": null,
         "slug": "besishar-to-bhulbhule",
         "stats": {
           "distance": {
@@ -10605,23 +9614,13 @@ const data = [
       {
         "date": "October 20th, 2019",
         "hasStats": true,
-        "id": "CjaKP8CrG9PGkkr",
+        "id": "mWRGBKyDkvB9ZPM",
         "images": {
           "hero": "2019/10/19/cde86c7c-f794-4a99-8286-9af3de9425fc.jpeg",
           "supplementary": []
         },
         "index": 1,
         "location": null,
-        "next": {
-          "date": "October 21st, 2019",
-          "slug": "jagat-to-dharapani",
-          "title": "Jagat to Dharapani"
-        },
-        "previous": {
-          "date": "October 19th, 2019",
-          "slug": "besishar-to-bhulbhule",
-          "title": "Besishar to Bhulbhule"
-        },
         "slug": "bhulbhule-to-jagat",
         "stats": {
           "distance": {
@@ -10708,23 +9707,13 @@ const data = [
       {
         "date": "October 21st, 2019",
         "hasStats": true,
-        "id": "T6daZhunf55Y3od",
+        "id": "gcAabQza5bVS8hF",
         "images": {
           "hero": "2019/10/19/69d8dc52-42d4-4295-9b25-1f7542c1da8b.jpeg",
           "supplementary": []
         },
         "index": 2,
         "location": null,
-        "next": {
-          "date": "October 22nd, 2019",
-          "slug": "dharapani-to-chame",
-          "title": "Dharapani to Chame"
-        },
-        "previous": {
-          "date": "October 20th, 2019",
-          "slug": "bhulbhule-to-jagat",
-          "title": "Bhulbhule to Jagat"
-        },
         "slug": "jagat-to-dharapani",
         "stats": {
           "distance": {
@@ -10811,23 +9800,13 @@ const data = [
       {
         "date": "October 22nd, 2019",
         "hasStats": true,
-        "id": "uxdhfaTgdc6voGy",
+        "id": "50RLcGuI3trasMI",
         "images": {
           "hero": "2019/10/19/de48b8b7-ef5d-4c21-93a8-d6e4d7628e7f.jpeg",
           "supplementary": []
         },
         "index": 3,
         "location": null,
-        "next": {
-          "date": "October 23rd, 2019",
-          "slug": "chame-to-upper-pisang",
-          "title": "Chame to Upper Pisang"
-        },
-        "previous": {
-          "date": "October 21st, 2019",
-          "slug": "jagat-to-dharapani",
-          "title": "Jagat to Dharapani"
-        },
         "slug": "dharapani-to-chame",
         "stats": {
           "distance": {
@@ -10914,23 +9893,13 @@ const data = [
       {
         "date": "October 23rd, 2019",
         "hasStats": true,
-        "id": "wzhO8P3DW57JuHA",
+        "id": "bflpEKF75i3Hoom",
         "images": {
           "hero": "2019/10/19/91fcb255-9894-434c-9c39-41ea5070e819.jpeg",
           "supplementary": []
         },
         "index": 4,
         "location": null,
-        "next": {
-          "date": "October 24th, 2019",
-          "slug": "upper-pisang-to-manang",
-          "title": "Upper Pisang to Manang"
-        },
-        "previous": {
-          "date": "October 22nd, 2019",
-          "slug": "dharapani-to-chame",
-          "title": "Dharapani to Chame"
-        },
         "slug": "chame-to-upper-pisang",
         "stats": {
           "distance": {
@@ -11017,23 +9986,13 @@ const data = [
       {
         "date": "October 24th, 2019",
         "hasStats": true,
-        "id": "t264Mus2t5CRzPI",
+        "id": "rK17iO9MK16JLb3",
         "images": {
           "hero": "2019/10/19/b9b20eb0-e569-4778-99c6-de3a3c2eb15e.jpeg",
           "supplementary": []
         },
         "index": 5,
         "location": null,
-        "next": {
-          "date": "October 25th, 2019",
-          "slug": "manang-to-tilicho-lake-basecamp",
-          "title": "Manang to Tilicho Lake Basecamp"
-        },
-        "previous": {
-          "date": "October 23rd, 2019",
-          "slug": "chame-to-upper-pisang",
-          "title": "Chame to Upper Pisang"
-        },
         "slug": "upper-pisang-to-manang",
         "stats": {
           "distance": {
@@ -11120,23 +10079,13 @@ const data = [
       {
         "date": "October 25th, 2019",
         "hasStats": true,
-        "id": "dxuQ5kKmWRM8ly6",
+        "id": "lGAnKsZZyDC1iXf",
         "images": {
           "hero": "2019/10/19/ed197052-01d7-4739-807c-39340385c0fc.jpeg",
           "supplementary": []
         },
         "index": 6,
         "location": null,
-        "next": {
-          "date": "October 26th, 2019",
-          "slug": "tilicho-lake-basecamp-to-shree-kharka",
-          "title": "Tilicho Lake Basecamp to Shree Kharka"
-        },
-        "previous": {
-          "date": "October 24th, 2019",
-          "slug": "upper-pisang-to-manang",
-          "title": "Upper Pisang to Manang"
-        },
         "slug": "manang-to-tilicho-lake-basecamp",
         "stats": {
           "distance": {
@@ -11223,23 +10172,13 @@ const data = [
       {
         "date": "October 26th, 2019",
         "hasStats": true,
-        "id": "OptWVtY1dgwPmXi",
+        "id": "x5Z6Bwhee4E1nc1",
         "images": {
           "hero": "2019/10/19/d7837a44-81d2-4fa0-9912-bb15508be721.jpeg",
           "supplementary": []
         },
         "index": 7,
         "location": null,
-        "next": {
-          "date": "October 27th, 2019",
-          "slug": "shree-kharka-to-phedi",
-          "title": "Shree Kharka to Phedi"
-        },
-        "previous": {
-          "date": "October 25th, 2019",
-          "slug": "manang-to-tilicho-lake-basecamp",
-          "title": "Manang to Tilicho Lake Basecamp"
-        },
         "slug": "tilicho-lake-basecamp-to-shree-kharka",
         "stats": {
           "distance": {
@@ -11326,23 +10265,13 @@ const data = [
       {
         "date": "October 27th, 2019",
         "hasStats": true,
-        "id": "EGv7D6hwR8dM2PG",
+        "id": "CrEVCMKomosKNVX",
         "images": {
           "hero": "2019/10/19/40b7a029-2f0c-4807-94fa-86a07ee9ffa9.jpeg",
           "supplementary": []
         },
         "index": 8,
         "location": null,
-        "next": {
-          "date": "October 28th, 2019",
-          "slug": "phedi-to-muktinath",
-          "title": "Phedi to Muktinath"
-        },
-        "previous": {
-          "date": "October 26th, 2019",
-          "slug": "tilicho-lake-basecamp-to-shree-kharka",
-          "title": "Tilicho Lake Basecamp to Shree Kharka"
-        },
         "slug": "shree-kharka-to-phedi",
         "stats": {
           "distance": {
@@ -11429,23 +10358,13 @@ const data = [
       {
         "date": "October 28th, 2019",
         "hasStats": true,
-        "id": "cLMcbOuHdMWdwUc",
+        "id": "DLRb2LJ5qk347yo",
         "images": {
           "hero": "2019/10/19/f76cbaab-0139-44b4-bc5c-6c816731d927.jpeg",
           "supplementary": []
         },
         "index": 9,
         "location": null,
-        "next": {
-          "date": "October 29th, 2019",
-          "slug": "muktinath-to-marpha",
-          "title": "Muktinath to Marpha"
-        },
-        "previous": {
-          "date": "October 27th, 2019",
-          "slug": "shree-kharka-to-phedi",
-          "title": "Shree Kharka to Phedi"
-        },
         "slug": "phedi-to-muktinath",
         "stats": {
           "distance": {
@@ -11532,23 +10451,13 @@ const data = [
       {
         "date": "October 29th, 2019",
         "hasStats": true,
-        "id": "g07wW9B4YD3PgFs",
+        "id": "MLMN7MgK9xGZT0x",
         "images": {
           "hero": "2019/10/19/93b7286f-a87a-4d8e-8d85-6a3f50dcd82c.jpeg",
           "supplementary": []
         },
         "index": 10,
         "location": null,
-        "next": {
-          "date": "October 30th, 2019",
-          "slug": "marpha-to-ghasa",
-          "title": "Marpha to Ghasa"
-        },
-        "previous": {
-          "date": "October 28th, 2019",
-          "slug": "phedi-to-muktinath",
-          "title": "Phedi to Muktinath"
-        },
         "slug": "muktinath-to-marpha",
         "stats": {
           "distance": {
@@ -11635,23 +10544,13 @@ const data = [
       {
         "date": "October 30th, 2019",
         "hasStats": true,
-        "id": "31yPDKxm31tX3By",
+        "id": "UDN5knHTgJWAaFi",
         "images": {
           "hero": "2019/10/19/9f9bca6e-e30a-4ca0-b005-5a0bda57f649.jpeg",
           "supplementary": []
         },
         "index": 11,
         "location": null,
-        "next": {
-          "date": "October 31st, 2019",
-          "slug": "ghasa-to-ghorepani",
-          "title": "Ghasa to Ghorepani"
-        },
-        "previous": {
-          "date": "October 29th, 2019",
-          "slug": "muktinath-to-marpha",
-          "title": "Muktinath to Marpha"
-        },
         "slug": "marpha-to-ghasa",
         "stats": {
           "distance": {
@@ -11738,23 +10637,13 @@ const data = [
       {
         "date": "October 31st, 2019",
         "hasStats": true,
-        "id": "31w42uTrDnRRyRS",
+        "id": "hfid98BoX2hK9vL",
         "images": {
           "hero": "2019/10/19/5cf22091-8d99-4cdd-870c-f91db81c1049.jpeg",
           "supplementary": []
         },
         "index": 12,
         "location": null,
-        "next": {
-          "date": "November 1st, 2019",
-          "slug": "ghorepani-to-chomrong",
-          "title": "Ghorepani to Chomrong"
-        },
-        "previous": {
-          "date": "October 30th, 2019",
-          "slug": "marpha-to-ghasa",
-          "title": "Marpha to Ghasa"
-        },
         "slug": "ghasa-to-ghorepani",
         "stats": {
           "distance": {
@@ -11841,23 +10730,13 @@ const data = [
       {
         "date": "November 1st, 2019",
         "hasStats": true,
-        "id": "pBKFsqic4YgEBhY",
+        "id": "cBFmoMN0IUMFBzk",
         "images": {
           "hero": "2019/10/19/b2ef8848-2e35-43dd-9f06-98434903f810.jpeg",
           "supplementary": []
         },
         "index": 13,
         "location": null,
-        "next": {
-          "date": "November 2nd, 2019",
-          "slug": "chomrong-to-deurali",
-          "title": "Chomrong to Deurali"
-        },
-        "previous": {
-          "date": "October 31st, 2019",
-          "slug": "ghasa-to-ghorepani",
-          "title": "Ghasa to Ghorepani"
-        },
         "slug": "ghorepani-to-chomrong",
         "stats": {
           "distance": {
@@ -11944,23 +10823,13 @@ const data = [
       {
         "date": "November 2nd, 2019",
         "hasStats": true,
-        "id": "0OWbK0kq9GfTehp",
+        "id": "o0X2Jee2iFY0AZH",
         "images": {
           "hero": "2019/10/19/a052d193-0be9-4288-b017-65d459c3eca1.jpeg",
           "supplementary": []
         },
         "index": 14,
         "location": null,
-        "next": {
-          "date": "November 3rd, 2019",
-          "slug": "deurali-to-annapurna-basecamp",
-          "title": "Deurali to Annapurna Basecamp"
-        },
-        "previous": {
-          "date": "November 1st, 2019",
-          "slug": "ghorepani-to-chomrong",
-          "title": "Ghorepani to Chomrong"
-        },
         "slug": "chomrong-to-deurali",
         "stats": {
           "distance": {
@@ -12047,23 +10916,13 @@ const data = [
       {
         "date": "November 3rd, 2019",
         "hasStats": true,
-        "id": "DrklRS2lXdu6noF",
+        "id": "YoL4kPPRA1PC4gF",
         "images": {
           "hero": "2019/10/19/3773c3c4-265f-4e7e-8f0a-d6e1a7d9b85c.jpeg",
           "supplementary": []
         },
         "index": 15,
         "location": null,
-        "next": {
-          "date": "November 4th, 2019",
-          "slug": "annapurna-basecamp-to-chomrong",
-          "title": "Annapurna Basecamp to Chomrong"
-        },
-        "previous": {
-          "date": "November 2nd, 2019",
-          "slug": "chomrong-to-deurali",
-          "title": "Chomrong to Deurali"
-        },
         "slug": "deurali-to-annapurna-basecamp",
         "stats": {
           "distance": {
@@ -12150,23 +11009,13 @@ const data = [
       {
         "date": "November 4th, 2019",
         "hasStats": true,
-        "id": "UhG7V00snAox2XY",
+        "id": "Oq4N3pNRdlwBKli",
         "images": {
           "hero": "2019/10/19/490d1db6-aaad-4ed3-9181-081ca318cd16.jpeg",
           "supplementary": []
         },
         "index": 16,
         "location": null,
-        "next": {
-          "date": "November 5th, 2019",
-          "slug": "chomrong-to-jhinudanda",
-          "title": "Chomrong to Jhinudanda"
-        },
-        "previous": {
-          "date": "November 3rd, 2019",
-          "slug": "deurali-to-annapurna-basecamp",
-          "title": "Deurali to Annapurna Basecamp"
-        },
         "slug": "annapurna-basecamp-to-chomrong",
         "stats": {
           "distance": {
@@ -12253,19 +11102,13 @@ const data = [
       {
         "date": "November 5th, 2019",
         "hasStats": true,
-        "id": "g9jlU6otxMEBpn2",
+        "id": "Qo4rH7o5bKAGHgr",
         "images": {
           "hero": "2019/10/19/8fef1e6f-d483-445c-b19c-d47bb7f1fc68.jpeg",
           "supplementary": []
         },
         "index": 17,
         "location": null,
-        "next": null,
-        "previous": {
-          "date": "November 4th, 2019",
-          "slug": "annapurna-basecamp-to-chomrong",
-          "title": "Annapurna Basecamp to Chomrong"
-        },
         "slug": "chomrong-to-jhinudanda",
         "stats": {
           "distance": {
@@ -12396,7 +11239,6 @@ const data = [
         "units": null
       }
     },
-    "tagline": "The land of giants",
     "termini": {
       "end": "Jhinudanda",
       "isSame": false,
@@ -12408,18 +11250,9 @@ const data = [
       "Circuit +",
       "Basecamp"
     ],
-    "total": 11,
     "type": "thru-hike"
   },
   {
-    "categories": [
-      "peak-bagging",
-      "north america"
-    ],
-    "coordinates": {
-      "left": "12",
-      "top": "30"
-    },
     "date": {
       "dates": null,
       "year": [
@@ -12848,110 +11681,21 @@ const data = [
       "weightWorn": "3.86"
     },
     "hasGear": true,
-    "id": "fFDXneQkFampTMo",
-    "images": {
-      "hero": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
-      "small": "2020/09/06/80307849-8964-4e0d-a70f-f6371ca7fcad.jpeg",
-      "large": "2022/09/09/f722df6c-2869-4ff0-80f7-37014241e135.jpeg"
-    },
+    "id": "fCOYg5VzYZ6xGkM",
     "index": 7,
-    "label": "summit",
     "location": "Colorado",
-    "next": {
-      "date": {
-        "dates": {
-          "start": {
-            "long": {
-              "month": "October",
-              "day": "19th",
-              "year": "2019"
-            },
-            "short": {
-              "month": "Oct",
-              "day": "19",
-              "year": "19"
-            }
-          },
-          "end": {
-            "long": {
-              "month": "November",
-              "day": "6th",
-              "year": "2019"
-            },
-            "short": {
-              "month": "Nov",
-              "day": "6",
-              "year": "19"
-            }
-          }
-        },
-        "year": [
-          "2019"
-        ]
-      },
-      "slug": "annapurna-circuit-basecamp",
-      "title": [
-        "Annapurna",
-        "Circuit +",
-        "Basecamp"
-      ]
-    },
-    "previous": {
-      "date": {
-        "dates": {
-          "start": {
-            "long": {
-              "month": "July",
-              "day": "16th",
-              "year": "2019"
-            },
-            "short": {
-              "month": "Jul",
-              "day": "16",
-              "year": "19"
-            }
-          },
-          "end": {
-            "long": {
-              "month": "July",
-              "day": "25th",
-              "year": "2019"
-            },
-            "short": {
-              "month": "Jul",
-              "day": "25",
-              "year": "19"
-            }
-          }
-        },
-        "year": [
-          "2019"
-        ]
-      },
-      "slug": "alta-via-1",
-      "title": [
-        "Alta Via 1"
-      ]
-    },
-    "shareable": "mkhjps",
     "slug": "southern-rockies-14-ers",
     "stages": [
       {
         "date": "August 31st, 2019",
         "hasStats": true,
-        "id": "WehGhSkGL1XQ7Bf",
+        "id": "8JOjSOvJGd4iNd6",
         "images": {
           "hero": "2019/08/31/52f1514b-91a4-494d-93df-6ae9c81df01c.jpeg",
           "supplementary": []
         },
         "index": 0,
         "location": null,
-        "next": {
-          "date": "September 1st, 2019",
-          "slug": "quandary-peak",
-          "title": "Quandary Peak"
-        },
-        "previous": null,
         "slug": "mount-elbert",
         "stats": {
           "distance": {
@@ -13038,23 +11782,13 @@ const data = [
       {
         "date": "September 1st, 2019",
         "hasStats": true,
-        "id": "EsyPsdlvqlU6pJr",
+        "id": "vMk4mUogLUV5z9b",
         "images": {
           "hero": "2019/09/01/08d28c7e-387b-418f-8226-b2a87485f1d8.jpeg",
           "supplementary": []
         },
         "index": 1,
         "location": null,
-        "next": {
-          "date": "September 4th, 2020",
-          "slug": "la-plata-peak",
-          "title": "La Plata Peak"
-        },
-        "previous": {
-          "date": "August 31st, 2019",
-          "slug": "mount-elbert",
-          "title": "Mount Elbert"
-        },
         "slug": "quandary-peak",
         "stats": {
           "distance": {
@@ -13141,23 +11875,13 @@ const data = [
       {
         "date": "September 4th, 2020",
         "hasStats": true,
-        "id": "Er87o6SRTQ3Botb",
+        "id": "mmXxQQxmwPo2laK",
         "images": {
           "hero": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
           "supplementary": []
         },
         "index": 2,
         "location": null,
-        "next": {
-          "date": "September 5th, 2020",
-          "slug": "mount-bierstadt",
-          "title": "Mount Bierstadt"
-        },
-        "previous": {
-          "date": "September 1st, 2019",
-          "slug": "quandary-peak",
-          "title": "Quandary Peak"
-        },
         "slug": "la-plata-peak",
         "stats": {
           "distance": {
@@ -13244,23 +11968,13 @@ const data = [
       {
         "date": "September 5th, 2020",
         "hasStats": true,
-        "id": "91uUFBy1ANpQbBe",
+        "id": "CKGuVOlzj31kkb3",
         "images": {
           "hero": "2020/09/05/54a89ed8-86d4-4918-b7b3-b883ecea72c8.jpeg",
           "supplementary": []
         },
         "index": 3,
         "location": null,
-        "next": {
-          "date": "September 6th, 2020",
-          "slug": "grays-peak",
-          "title": "Grays Peak"
-        },
-        "previous": {
-          "date": "September 4th, 2020",
-          "slug": "la-plata-peak",
-          "title": "La Plata Peak"
-        },
         "slug": "mount-bierstadt",
         "stats": {
           "distance": {
@@ -13347,23 +12061,13 @@ const data = [
       {
         "date": "September 6th, 2020",
         "hasStats": true,
-        "id": "7TTx9ttTmThf0mF",
+        "id": "5F9IVEm9bhZTcKy",
         "images": {
           "hero": "2020/09/06/80307849-8964-4e0d-a70f-f6371ca7fcad.jpeg",
           "supplementary": []
         },
         "index": 4,
         "location": null,
-        "next": {
-          "date": "September 7th, 2021",
-          "slug": "mount-shavano",
-          "title": "Mount Shavano"
-        },
-        "previous": {
-          "date": "September 5th, 2020",
-          "slug": "mount-bierstadt",
-          "title": "Mount Bierstadt"
-        },
         "slug": "grays-peak",
         "stats": {
           "distance": {
@@ -13450,23 +12154,13 @@ const data = [
       {
         "date": "September 7th, 2021",
         "hasStats": true,
-        "id": "dqacy1KtpSi36lc",
+        "id": "RQG0DUN08TXromH",
         "images": {
           "hero": "2021/09/07/fbe767d5-63c6-4af7-8643-ceef9b4cce92.jpeg",
           "supplementary": []
         },
         "index": 5,
         "location": null,
-        "next": {
-          "date": "September 9th, 2021",
-          "slug": "mount-de-ca-li",
-          "title": "Mount DeCaLi"
-        },
-        "previous": {
-          "date": "September 6th, 2020",
-          "slug": "grays-peak",
-          "title": "Grays Peak"
-        },
         "slug": "mount-shavano",
         "stats": {
           "distance": {
@@ -13553,23 +12247,13 @@ const data = [
       {
         "date": "September 9th, 2021",
         "hasStats": true,
-        "id": "kGK2iJ4M3dWdcKp",
+        "id": "u5hTwc2FpWE4lrn",
         "images": {
           "hero": "2021/09/09/8e1e0c1f-c391-4bc0-807c-7bdd8d20815b.jpeg",
           "supplementary": []
         },
         "index": 6,
         "location": null,
-        "next": {
-          "date": "September 9th, 2022",
-          "slug": "mount-belford",
-          "title": "Mount Belford"
-        },
-        "previous": {
-          "date": "September 7th, 2021",
-          "slug": "mount-shavano",
-          "title": "Mount Shavano"
-        },
         "slug": "mount-de-ca-li",
         "stats": {
           "distance": {
@@ -13656,23 +12340,13 @@ const data = [
       {
         "date": "September 9th, 2022",
         "hasStats": true,
-        "id": "G7JNqsfpe6PZEIC",
+        "id": "lBvVwcZTQ8A2LkY",
         "images": {
           "hero": "2022/09/09/f722df6c-2869-4ff0-80f7-37014241e135.jpeg",
           "supplementary": []
         },
         "index": 7,
         "location": null,
-        "next": {
-          "date": "September 11th, 2022",
-          "slug": "mount-massive",
-          "title": "Mount Massive"
-        },
-        "previous": {
-          "date": "September 9th, 2021",
-          "slug": "mount-de-ca-li",
-          "title": "Mount DeCaLi"
-        },
         "slug": "mount-belford",
         "stats": {
           "distance": {
@@ -13759,19 +12433,13 @@ const data = [
       {
         "date": "September 11th, 2022",
         "hasStats": true,
-        "id": "XDbSSc0bZmJV40H",
+        "id": "aYXzPP68ZSlcBOO",
         "images": {
           "hero": "2022/09/11/b74f68ae-d627-4a89-9122-fbc75562e59d.jpeg",
           "supplementary": []
         },
         "index": 8,
         "location": null,
-        "next": null,
-        "previous": {
-          "date": "September 9th, 2022",
-          "slug": "mount-belford",
-          "title": "Mount Belford"
-        },
         "slug": "mount-massive",
         "stats": {
           "distance": {
@@ -13901,7 +12569,6 @@ const data = [
         "units": null
       }
     },
-    "tagline": "58 Summits above 14,000 feet",
     "termini": {
       "end": "Mount Massive",
       "isSame": false,
@@ -13913,19 +12580,9 @@ const data = [
       "Rockies",
       "14ers"
     ],
-    "total": 11,
     "type": "peak-bagging"
   },
   {
-    "categories": [
-      "thru-hike",
-      "europe",
-      "italy"
-    ],
-    "coordinates": {
-      "left": "47.75",
-      "top": "21"
-    },
     "date": {
       "dates": {
         "start": {
@@ -14800,87 +13457,21 @@ const data = [
       "weightWorn": "9.36"
     },
     "hasGear": true,
-    "id": "G4uvxHIHXaHCeYP",
-    "images": {
-      "hero": "2019/07/16/c4d424d9-7826-422d-9e0f-1b7e8b20af99.jpeg",
-      "small": "2019/07/16/b1128805-54bb-4b7b-adcb-f2b6ae3fada6.jpeg",
-      "large": "2019/07/16/a3f65b8c-4b57-4194-a3a1-5769f1d63373.jpeg"
-    },
+    "id": "VytyqWlNoHIbuHk",
     "index": 8,
-    "label": "stage",
     "location": "The Dolomites",
-    "next": {
-      "date": {
-        "dates": null,
-        "year": [
-          "2019",
-          "2022"
-        ]
-      },
-      "slug": "southern-rockies-14-ers",
-      "title": [
-        "Southern",
-        "Rockies",
-        "14ers"
-      ]
-    },
-    "previous": {
-      "date": {
-        "dates": {
-          "start": {
-            "long": {
-              "month": "September",
-              "day": "2nd",
-              "year": "2018"
-            },
-            "short": {
-              "month": "Sep",
-              "day": "2",
-              "year": "18"
-            }
-          },
-          "end": {
-            "long": {
-              "month": "September",
-              "day": "13th",
-              "year": "2018"
-            },
-            "short": {
-              "month": "Sep",
-              "day": "13",
-              "year": "18"
-            }
-          }
-        },
-        "year": [
-          "2018"
-        ]
-      },
-      "slug": "tour-du-mont-blanc",
-      "title": [
-        "Tour du",
-        "Mont Blanc"
-      ]
-    },
-    "shareable": "138u9kt",
     "slug": "alta-via-1",
     "stages": [
       {
         "date": "July 16th, 2019",
         "hasStats": true,
-        "id": "kMXDwG8mopSaKAx",
+        "id": "HGjGcapBoGgZe6v",
         "images": {
           "hero": "2019/07/16/eba70b28-4c7d-45f3-aa93-46b24011cb80.jpeg",
           "supplementary": []
         },
         "index": 0,
         "location": null,
-        "next": {
-          "date": "July 17th, 2019",
-          "slug": "biella-to-lavarella",
-          "title": "Biella to Lavarella"
-        },
-        "previous": null,
         "slug": "braies-to-biella",
         "stats": {
           "distance": {
@@ -14967,23 +13558,13 @@ const data = [
       {
         "date": "July 17th, 2019",
         "hasStats": true,
-        "id": "jw6MmKAvfuajYsY",
+        "id": "IHtBOzQAGvO69rk",
         "images": {
           "hero": "2019/07/16/69890344-e575-484e-86ae-5ddeb000c4f9.jpeg",
           "supplementary": []
         },
         "index": 1,
         "location": null,
-        "next": {
-          "date": "July 18th, 2019",
-          "slug": "lavarella-to-scotoni",
-          "title": "Lavarella to Scotoni"
-        },
-        "previous": {
-          "date": "July 16th, 2019",
-          "slug": "braies-to-biella",
-          "title": "Braies to Biella"
-        },
         "slug": "biella-to-lavarella",
         "stats": {
           "distance": {
@@ -15070,23 +13651,13 @@ const data = [
       {
         "date": "July 18th, 2019",
         "hasStats": true,
-        "id": "i0ODPLZdGxfNslz",
+        "id": "6BEZUf2VfJBifvz",
         "images": {
           "hero": "2019/07/16/081c1b83-7036-4c3c-aa2f-0534f4250ab8.jpeg",
           "supplementary": []
         },
         "index": 2,
         "location": null,
-        "next": {
-          "date": "July 19th, 2019",
-          "slug": "scotoni-to-averau",
-          "title": "Scotoni to Averau"
-        },
-        "previous": {
-          "date": "July 17th, 2019",
-          "slug": "biella-to-lavarella",
-          "title": "Biella to Lavarella"
-        },
         "slug": "lavarella-to-scotoni",
         "stats": {
           "distance": {
@@ -15173,23 +13744,13 @@ const data = [
       {
         "date": "July 19th, 2019",
         "hasStats": true,
-        "id": "He7daKUI3lM8Qo9",
+        "id": "nATyM2FWE2ANwY0",
         "images": {
           "hero": "2019/07/16/eb243b48-8084-4c7e-94c0-5a163983d407.jpeg",
           "supplementary": []
         },
         "index": 3,
         "location": null,
-        "next": {
-          "date": "July 20th, 2019",
-          "slug": "averau-to-citta-de-fume",
-          "title": "Averau to Citta de Fume"
-        },
-        "previous": {
-          "date": "July 18th, 2019",
-          "slug": "lavarella-to-scotoni",
-          "title": "Lavarella to Scotoni"
-        },
         "slug": "scotoni-to-averau",
         "stats": {
           "distance": {
@@ -15276,23 +13837,13 @@ const data = [
       {
         "date": "July 20th, 2019",
         "hasStats": true,
-        "id": "giMAVztvnkU6avs",
+        "id": "kKkmzJgYtw8EfXJ",
         "images": {
           "hero": "2019/07/16/a3f65b8c-4b57-4194-a3a1-5769f1d63373.jpeg",
           "supplementary": []
         },
         "index": 4,
         "location": null,
-        "next": {
-          "date": "July 21st, 2019",
-          "slug": "citta-de-fume-to-tissi",
-          "title": "Citta de Fume to Tissi"
-        },
-        "previous": {
-          "date": "July 19th, 2019",
-          "slug": "scotoni-to-averau",
-          "title": "Scotoni to Averau"
-        },
         "slug": "averau-to-citta-de-fume",
         "stats": {
           "distance": {
@@ -15379,23 +13930,13 @@ const data = [
       {
         "date": "July 21st, 2019",
         "hasStats": true,
-        "id": "4NUpq2COhdv0j8X",
+        "id": "45t6jat4WixariJ",
         "images": {
           "hero": "2019/07/16/b1128805-54bb-4b7b-adcb-f2b6ae3fada6.jpeg",
           "supplementary": []
         },
         "index": 5,
         "location": null,
-        "next": {
-          "date": "July 22nd, 2019",
-          "slug": "tissi-to-carestiato",
-          "title": "Tissi to Carestiato"
-        },
-        "previous": {
-          "date": "July 20th, 2019",
-          "slug": "averau-to-citta-de-fume",
-          "title": "Averau to Citta de Fume"
-        },
         "slug": "citta-de-fume-to-tissi",
         "stats": {
           "distance": {
@@ -15482,23 +14023,13 @@ const data = [
       {
         "date": "July 22nd, 2019",
         "hasStats": true,
-        "id": "RhOcRCWk1KxO1qT",
+        "id": "ZDArRr0t1Md0qdo",
         "images": {
           "hero": "2019/07/16/a46e829f-147b-40d1-b7ae-2f743923feca.jpeg",
           "supplementary": []
         },
         "index": 6,
         "location": null,
-        "next": {
-          "date": "July 23rd, 2019",
-          "slug": "carestiato-to-pramperet",
-          "title": "Carestiato to Pramperet"
-        },
-        "previous": {
-          "date": "July 21st, 2019",
-          "slug": "citta-de-fume-to-tissi",
-          "title": "Citta de Fume to Tissi"
-        },
         "slug": "tissi-to-carestiato",
         "stats": {
           "distance": {
@@ -15585,23 +14116,13 @@ const data = [
       {
         "date": "July 23rd, 2019",
         "hasStats": true,
-        "id": "5Sns3vGXI69a5Vx",
+        "id": "USijFpapmvrb3Yg",
         "images": {
           "hero": "2019/07/16/21806386-052d-4a82-941e-6728771acd63.jpeg",
           "supplementary": []
         },
         "index": 7,
         "location": null,
-        "next": {
-          "date": "July 24th, 2019",
-          "slug": "pramperet-to-pian-de-fontana",
-          "title": "Pramperet to Pian de Fontana"
-        },
-        "previous": {
-          "date": "July 22nd, 2019",
-          "slug": "tissi-to-carestiato",
-          "title": "Tissi to Carestiato"
-        },
         "slug": "carestiato-to-pramperet",
         "stats": {
           "distance": {
@@ -15688,23 +14209,13 @@ const data = [
       {
         "date": "July 24th, 2019",
         "hasStats": true,
-        "id": "ivX6lrG1DYKM8RL",
+        "id": "nNh2xySh9H3ihzA",
         "images": {
           "hero": "2019/07/16/2982a2fe-75f6-473a-8d98-2c664c5cd38e.jpeg",
           "supplementary": []
         },
         "index": 8,
         "location": null,
-        "next": {
-          "date": "July 25th, 2019",
-          "slug": "pian-de-fontana-to-la-pissa",
-          "title": "Pian de Fontana to La Pissa"
-        },
-        "previous": {
-          "date": "July 23rd, 2019",
-          "slug": "carestiato-to-pramperet",
-          "title": "Carestiato to Pramperet"
-        },
         "slug": "pramperet-to-pian-de-fontana",
         "stats": {
           "distance": {
@@ -15791,19 +14302,13 @@ const data = [
       {
         "date": "July 25th, 2019",
         "hasStats": true,
-        "id": "4TKsDa5CCkPRZ2y",
+        "id": "EfJE9k6wefuOEDq",
         "images": {
           "hero": "2019/07/16/735a0783-62ba-4f8e-97d8-c9b9f5327cfe.jpeg",
           "supplementary": []
         },
         "index": 9,
         "location": null,
-        "next": null,
-        "previous": {
-          "date": "July 24th, 2019",
-          "slug": "pramperet-to-pian-de-fontana",
-          "title": "Pramperet to Pian de Fontana"
-        },
         "slug": "pian-de-fontana-to-la-pissa",
         "stats": {
           "distance": {
@@ -15934,7 +14439,6 @@ const data = [
         "units": null
       }
     },
-    "tagline": "A natural wonder of extraordinary beauty",
     "termini": {
       "end": "La Pissa",
       "isSame": false,
@@ -15944,18 +14448,9 @@ const data = [
     "title": [
       "Alta Via 1"
     ],
-    "total": 11,
     "type": "thru-hike"
   },
   {
-    "categories": [
-      "thru-hike",
-      "europe"
-    ],
-    "coordinates": {
-      "left": "46.6",
-      "top": "22"
-    },
     "date": {
       "dates": {
         "start": {
@@ -16801,109 +15296,21 @@ const data = [
       "weightWorn": "9.36"
     },
     "hasGear": true,
-    "id": "hqMcGpudn8YO3v3",
-    "images": {
-      "hero": "2018/09/02/ec37f4a8-6310-4bf6-b1a7-cddb1f91bf3b.jpeg",
-      "small": "2018/09/02/0ea4750a-307a-44be-a466-bb081d137d3c.jpeg",
-      "large": "2018/09/02/135eea74-e1bc-4cab-bfd7-28d17405a744.jpeg"
-    },
+    "id": "YJjgKQIHq18bkM4",
     "index": 9,
-    "label": "stage",
     "location": "The Alps",
-    "next": {
-      "date": {
-        "dates": {
-          "start": {
-            "long": {
-              "month": "July",
-              "day": "16th",
-              "year": "2019"
-            },
-            "short": {
-              "month": "Jul",
-              "day": "16",
-              "year": "19"
-            }
-          },
-          "end": {
-            "long": {
-              "month": "July",
-              "day": "25th",
-              "year": "2019"
-            },
-            "short": {
-              "month": "Jul",
-              "day": "25",
-              "year": "19"
-            }
-          }
-        },
-        "year": [
-          "2019"
-        ]
-      },
-      "slug": "alta-via-1",
-      "title": [
-        "Alta Via 1"
-      ]
-    },
-    "previous": {
-      "date": {
-        "dates": {
-          "start": {
-            "long": {
-              "month": "June",
-              "day": "2nd",
-              "year": "2018"
-            },
-            "short": {
-              "month": "Jun",
-              "day": "2",
-              "year": "18"
-            }
-          },
-          "end": {
-            "long": {
-              "month": "July",
-              "day": "4th",
-              "year": "2018"
-            },
-            "short": {
-              "month": "Jul",
-              "day": "4",
-              "year": "18"
-            }
-          }
-        },
-        "year": [
-          "2018"
-        ]
-      },
-      "slug": "camino-de-santiago",
-      "title": [
-        "Camino de",
-        "Santiago"
-      ]
-    },
-    "shareable": "1uw757y",
     "slug": "tour-du-mont-blanc",
     "stages": [
       {
         "date": "September 2nd, 2018",
         "hasStats": true,
-        "id": "0FwjtXhteqPeUjw",
+        "id": "rchWqzoX771Sm4Y",
         "images": {
           "hero": "2018/09/02/135eea74-e1bc-4cab-bfd7-28d17405a744.jpeg",
           "supplementary": []
         },
         "index": 0,
         "location": null,
-        "next": {
-          "date": "September 3rd, 2018",
-          "slug": "auberge-le-truc-to-refuge-de-la-croix-du-bonhomme",
-          "title": "Auberge le Truc to Refuge de La Croix du Bonhomme"
-        },
-        "previous": null,
         "slug": "les-houches-to-auberge-le-truc",
         "stats": {
           "distance": {
@@ -16990,23 +15397,13 @@ const data = [
       {
         "date": "September 3rd, 2018",
         "hasStats": true,
-        "id": "ujZh4FUGSNddVyj",
+        "id": "veMKgBM7w6lc7LU",
         "images": {
           "hero": "2018/09/02/56d3cc07-47c1-40c8-b7ee-483aa01d777c.jpeg",
           "supplementary": []
         },
         "index": 1,
         "location": null,
-        "next": {
-          "date": "September 4th, 2018",
-          "slug": "refuge-de-la-croix-du-bonhomme-to-refuge-robert-blanc",
-          "title": "Refuge de La Croix du Bonhomme to Refuge Robert Blanc"
-        },
-        "previous": {
-          "date": "September 2nd, 2018",
-          "slug": "les-houches-to-auberge-le-truc",
-          "title": "Les Houches to Auberge le Truc"
-        },
         "slug": "auberge-le-truc-to-refuge-de-la-croix-du-bonhomme",
         "stats": {
           "distance": {
@@ -17093,23 +15490,13 @@ const data = [
       {
         "date": "September 4th, 2018",
         "hasStats": true,
-        "id": "XC7FnyANHIAIclD",
+        "id": "jpKaEM1rFJ2G3kS",
         "images": {
           "hero": "2018/09/02/0420d236-d12a-40e8-8d6c-90558e26d304.jpeg",
           "supplementary": []
         },
         "index": 2,
         "location": null,
-        "next": {
-          "date": "September 5th, 2018",
-          "slug": "refuge-robert-blanc-to-maison-veille",
-          "title": "Refuge Robert Blanc to Maison Veille"
-        },
-        "previous": {
-          "date": "September 3rd, 2018",
-          "slug": "auberge-le-truc-to-refuge-de-la-croix-du-bonhomme",
-          "title": "Auberge le Truc to Refuge de La Croix du Bonhomme"
-        },
         "slug": "refuge-de-la-croix-du-bonhomme-to-refuge-robert-blanc",
         "stats": {
           "distance": {
@@ -17196,23 +15583,13 @@ const data = [
       {
         "date": "September 5th, 2018",
         "hasStats": true,
-        "id": "JeAN2ixKYYbygzb",
+        "id": "lW8X1AqS9W7zGCV",
         "images": {
           "hero": "2018/09/02/488a5815-e763-406d-94e1-5e51ff25cafe.jpeg",
           "supplementary": []
         },
         "index": 3,
         "location": null,
-        "next": {
-          "date": "September 6th, 2018",
-          "slug": "maison-veille-to-rifugio-bonatti",
-          "title": "Maison Veille to Rifugio Bonatti"
-        },
-        "previous": {
-          "date": "September 4th, 2018",
-          "slug": "refuge-de-la-croix-du-bonhomme-to-refuge-robert-blanc",
-          "title": "Refuge de La Croix du Bonhomme to Refuge Robert Blanc"
-        },
         "slug": "refuge-robert-blanc-to-maison-veille",
         "stats": {
           "distance": {
@@ -17299,23 +15676,13 @@ const data = [
       {
         "date": "September 6th, 2018",
         "hasStats": true,
-        "id": "leUX1rdQot2XddW",
+        "id": "9XfUWVUNfRv7TyC",
         "images": {
           "hero": "2018/09/02/9cefaedf-2e6b-439a-9512-f1f37d2374eb.jpeg",
           "supplementary": []
         },
         "index": 4,
         "location": null,
-        "next": {
-          "date": "September 7th, 2018",
-          "slug": "rifugio-bonatti-to-l-auberge-maya-joie",
-          "title": "Rifugio Bonatti to L'Auberge Maya Joie"
-        },
-        "previous": {
-          "date": "September 5th, 2018",
-          "slug": "refuge-robert-blanc-to-maison-veille",
-          "title": "Refuge Robert Blanc to Maison Veille"
-        },
         "slug": "maison-veille-to-rifugio-bonatti",
         "stats": {
           "distance": {
@@ -17402,23 +15769,13 @@ const data = [
       {
         "date": "September 7th, 2018",
         "hasStats": true,
-        "id": "cVZrl0Rnlw4aNm1",
+        "id": "X0JEH5V0FwRbdmp",
         "images": {
           "hero": "2018/09/02/891cd8a7-97d2-4251-ac34-6c816c0ec570.jpeg",
           "supplementary": []
         },
         "index": 5,
         "location": null,
-        "next": {
-          "date": "September 8th, 2018",
-          "slug": "l-auberge-maya-joie-to-gite-bon-abri",
-          "title": "L'Auberge Maya Joie to Gite Bon Abri"
-        },
-        "previous": {
-          "date": "September 6th, 2018",
-          "slug": "maison-veille-to-rifugio-bonatti",
-          "title": "Maison Veille to Rifugio Bonatti"
-        },
         "slug": "rifugio-bonatti-to-l-auberge-maya-joie",
         "stats": {
           "distance": {
@@ -17505,23 +15862,13 @@ const data = [
       {
         "date": "September 8th, 2018",
         "hasStats": true,
-        "id": "UsFD9E7ShZfePiJ",
+        "id": "fNTsIkPbRR8WFQq",
         "images": {
           "hero": "2018/09/02/8d209b3b-8d40-49b3-b754-fd91466c9708.jpeg",
           "supplementary": []
         },
         "index": 6,
         "location": null,
-        "next": {
-          "date": "September 9th, 2018",
-          "slug": "gite-bon-abri-to-refuge-le-peuty",
-          "title": "Gite Bon Abri to Refuge le Peuty"
-        },
-        "previous": {
-          "date": "September 7th, 2018",
-          "slug": "rifugio-bonatti-to-l-auberge-maya-joie",
-          "title": "Rifugio Bonatti to L'Auberge Maya Joie"
-        },
         "slug": "l-auberge-maya-joie-to-gite-bon-abri",
         "stats": {
           "distance": {
@@ -17608,23 +15955,13 @@ const data = [
       {
         "date": "September 9th, 2018",
         "hasStats": true,
-        "id": "Pu73KsOulXdbi7o",
+        "id": "OaOAiioh66CyAG1",
         "images": {
           "hero": "2018/09/02/21248df2-d0b9-41d2-9662-b6215c24c298.jpeg",
           "supplementary": []
         },
         "index": 7,
         "location": null,
-        "next": {
-          "date": "September 10th, 2018",
-          "slug": "refuge-le-peuty-to-auberge-la-boerne",
-          "title": "Refuge le Peuty to Auberge la Boerne"
-        },
-        "previous": {
-          "date": "September 8th, 2018",
-          "slug": "l-auberge-maya-joie-to-gite-bon-abri",
-          "title": "L'Auberge Maya Joie to Gite Bon Abri"
-        },
         "slug": "gite-bon-abri-to-refuge-le-peuty",
         "stats": {
           "distance": {
@@ -17711,23 +16048,13 @@ const data = [
       {
         "date": "September 10th, 2018",
         "hasStats": true,
-        "id": "c7hH3tokUmMPfdU",
+        "id": "uqjVgBthOSxfvGR",
         "images": {
           "hero": "2018/09/02/ec37f4a8-6310-4bf6-b1a7-cddb1f91bf3b.jpeg",
           "supplementary": []
         },
         "index": 8,
         "location": null,
-        "next": {
-          "date": "September 11th, 2018",
-          "slug": "auberge-la-boerne-to-refuge-de-lo-flegere",
-          "title": "Auberge la Boerne to Refuge de lo Flegere"
-        },
-        "previous": {
-          "date": "September 9th, 2018",
-          "slug": "gite-bon-abri-to-refuge-le-peuty",
-          "title": "Gite Bon Abri to Refuge le Peuty"
-        },
         "slug": "refuge-le-peuty-to-auberge-la-boerne",
         "stats": {
           "distance": {
@@ -17814,23 +16141,13 @@ const data = [
       {
         "date": "September 11th, 2018",
         "hasStats": true,
-        "id": "haAExnGdignZqTo",
+        "id": "398nxVNdzW05KCQ",
         "images": {
           "hero": "2018/09/02/0ea4750a-307a-44be-a466-bb081d137d3c.jpeg",
           "supplementary": []
         },
         "index": 9,
         "location": null,
-        "next": {
-          "date": "September 12th, 2018",
-          "slug": "refuge-de-lo-flegere-to-refuge-de-bellechat",
-          "title": "Refuge de lo Flegere to Refuge de Bellechat"
-        },
-        "previous": {
-          "date": "September 10th, 2018",
-          "slug": "refuge-le-peuty-to-auberge-la-boerne",
-          "title": "Refuge le Peuty to Auberge la Boerne"
-        },
         "slug": "auberge-la-boerne-to-refuge-de-lo-flegere",
         "stats": {
           "distance": {
@@ -17917,23 +16234,13 @@ const data = [
       {
         "date": "September 12th, 2018",
         "hasStats": true,
-        "id": "SFIPFw9HoLeUEOA",
+        "id": "9X9Rv9hEagZ1EaA",
         "images": {
           "hero": "2018/09/02/3faeb9f8-d262-4c12-869f-4470b0dc0574.jpeg",
           "supplementary": []
         },
         "index": 10,
         "location": null,
-        "next": {
-          "date": "September 13th, 2018",
-          "slug": "refuge-de-bellechat-to-les-houches",
-          "title": "Refuge de Bellechat to Les Houches"
-        },
-        "previous": {
-          "date": "September 11th, 2018",
-          "slug": "auberge-la-boerne-to-refuge-de-lo-flegere",
-          "title": "Auberge la Boerne to Refuge de lo Flegere"
-        },
         "slug": "refuge-de-lo-flegere-to-refuge-de-bellechat",
         "stats": {
           "distance": {
@@ -18020,19 +16327,13 @@ const data = [
       {
         "date": "September 13th, 2018",
         "hasStats": true,
-        "id": "vDwC0pBbCdrgqGK",
+        "id": "eAiURQ5lxhxh40s",
         "images": {
           "hero": "2018/09/02/8a0d6d12-a40d-47ba-9d09-6b8d5572bb32.jpeg",
           "supplementary": []
         },
         "index": 11,
         "location": null,
-        "next": null,
-        "previous": {
-          "date": "September 12th, 2018",
-          "slug": "refuge-de-lo-flegere-to-refuge-de-bellechat",
-          "title": "Refuge de lo Flegere to Refuge de Bellechat"
-        },
         "slug": "refuge-de-bellechat-to-les-houches",
         "stats": {
           "distance": {
@@ -18163,7 +16464,6 @@ const data = [
         "units": null
       }
     },
-    "tagline": "Standing as a timeless monument",
     "termini": {
       "end": "Les Houches",
       "isSame": true,
@@ -18174,18 +16474,9 @@ const data = [
       "Tour du",
       "Mont Blanc"
     ],
-    "total": 11,
     "type": "thru-hike"
   },
   {
-    "categories": [
-      "thru-hike",
-      "europe"
-    ],
-    "coordinates": {
-      "left": "42.8",
-      "top": "26"
-    },
     "date": {
       "dates": {
         "start": {
@@ -19042,73 +17333,21 @@ const data = [
       "weightWorn": "8.45"
     },
     "hasGear": true,
-    "id": "EQ7P71Uz0o0R7fk",
-    "images": {
-      "hero": "2018/06/02/1921986b-9cf8-4bf8-b531-3bfe2f098f93.jpeg",
-      "small": "2018/06/02/aa8b0404-f4d1-44ed-bc96-ce65eae03848.jpeg",
-      "large": "2018/06/02/50570d33-285a-4561-bc7f-b7e500363359.jpeg"
-    },
+    "id": "IJIOAmhptLEV3vU",
     "index": 10,
-    "label": "stage",
     "location": "Northern Spain",
-    "next": {
-      "date": {
-        "dates": {
-          "start": {
-            "long": {
-              "month": "September",
-              "day": "2nd",
-              "year": "2018"
-            },
-            "short": {
-              "month": "Sep",
-              "day": "2",
-              "year": "18"
-            }
-          },
-          "end": {
-            "long": {
-              "month": "September",
-              "day": "13th",
-              "year": "2018"
-            },
-            "short": {
-              "month": "Sep",
-              "day": "13",
-              "year": "18"
-            }
-          }
-        },
-        "year": [
-          "2018"
-        ]
-      },
-      "slug": "tour-du-mont-blanc",
-      "title": [
-        "Tour du",
-        "Mont Blanc"
-      ]
-    },
-    "previous": null,
-    "shareable": "qf97im",
     "slug": "camino-de-santiago",
     "stages": [
       {
         "date": "June 2nd, 2018",
         "hasStats": true,
-        "id": "aLXxyiU2RQ86bjY",
+        "id": "Od6BKqkOmg4Nj2k",
         "images": {
           "hero": "2018/06/02/36c8ce31-ccce-4133-9528-338124462edf.jpeg",
           "supplementary": []
         },
         "index": 0,
         "location": null,
-        "next": {
-          "date": "June 3rd, 2018",
-          "slug": "roncesvalles-to-zubiri",
-          "title": "Roncesvalles to Zubiri"
-        },
-        "previous": null,
         "slug": "saint-jean-pied-de-port-to-roncesvalles",
         "stats": {
           "distance": {
@@ -19195,23 +17434,13 @@ const data = [
       {
         "date": "June 3rd, 2018",
         "hasStats": true,
-        "id": "aBNJgOvgPbykdSD",
+        "id": "IXaOVdX4d39WyTc",
         "images": {
           "hero": "2018/06/02/259d7373-6f3d-4274-8ff8-440cb2724702.jpeg",
           "supplementary": []
         },
         "index": 1,
         "location": null,
-        "next": {
-          "date": "June 4th, 2018",
-          "slug": "zubiri-to-pamplona",
-          "title": "Zubiri to Pamplona"
-        },
-        "previous": {
-          "date": "June 2nd, 2018",
-          "slug": "saint-jean-pied-de-port-to-roncesvalles",
-          "title": "Saint Jean Pied de Port to Roncesvalles"
-        },
         "slug": "roncesvalles-to-zubiri",
         "stats": {
           "distance": {
@@ -19298,23 +17527,13 @@ const data = [
       {
         "date": "June 4th, 2018",
         "hasStats": true,
-        "id": "n1n95JBSRqZrQj1",
+        "id": "NOZSpm6dnNRlPR4",
         "images": {
           "hero": "2018/06/02/94c5e141-580c-483b-91aa-13a88bf0f8fd.jpeg",
           "supplementary": []
         },
         "index": 2,
         "location": null,
-        "next": {
-          "date": "June 5th, 2018",
-          "slug": "pamplona-to-puente-la-reina",
-          "title": "Pamplona to Puente la Reina"
-        },
-        "previous": {
-          "date": "June 3rd, 2018",
-          "slug": "roncesvalles-to-zubiri",
-          "title": "Roncesvalles to Zubiri"
-        },
         "slug": "zubiri-to-pamplona",
         "stats": {
           "distance": {
@@ -19401,23 +17620,13 @@ const data = [
       {
         "date": "June 5th, 2018",
         "hasStats": true,
-        "id": "oSXxr70ZjWiQaIG",
+        "id": "IAokVnrd0pigEGT",
         "images": {
           "hero": "2018/06/02/88b734d7-ee6f-437f-a44b-6233d7f86158.jpeg",
           "supplementary": []
         },
         "index": 3,
         "location": null,
-        "next": {
-          "date": "June 6th, 2018",
-          "slug": "puente-la-reina-to-estella",
-          "title": "Puente la Reina to Estella"
-        },
-        "previous": {
-          "date": "June 4th, 2018",
-          "slug": "zubiri-to-pamplona",
-          "title": "Zubiri to Pamplona"
-        },
         "slug": "pamplona-to-puente-la-reina",
         "stats": {
           "distance": {
@@ -19504,23 +17713,13 @@ const data = [
       {
         "date": "June 6th, 2018",
         "hasStats": true,
-        "id": "lY5imwIOMzOtMj4",
+        "id": "RQ9zeV2EmYQ3lTP",
         "images": {
           "hero": "2018/06/02/6de64c25-13b3-441f-96b8-1f80cd4d6bd6.jpeg",
           "supplementary": []
         },
         "index": 4,
         "location": null,
-        "next": {
-          "date": "June 7th, 2018",
-          "slug": "estella-to-sansol",
-          "title": "Estella to Sansol"
-        },
-        "previous": {
-          "date": "June 5th, 2018",
-          "slug": "pamplona-to-puente-la-reina",
-          "title": "Pamplona to Puente la Reina"
-        },
         "slug": "puente-la-reina-to-estella",
         "stats": {
           "distance": {
@@ -19607,23 +17806,13 @@ const data = [
       {
         "date": "June 7th, 2018",
         "hasStats": true,
-        "id": "sGTPSbIE7cv71vx",
+        "id": "yjN87LsdCEZKAUY",
         "images": {
           "hero": "2018/06/02/f3c24aa0-ec3f-4319-9585-e178b9fd7bca.jpeg",
           "supplementary": []
         },
         "index": 5,
         "location": null,
-        "next": {
-          "date": "June 8th, 2018",
-          "slug": "sansol-to-logrono",
-          "title": "Sansol to Logrono"
-        },
-        "previous": {
-          "date": "June 6th, 2018",
-          "slug": "puente-la-reina-to-estella",
-          "title": "Puente la Reina to Estella"
-        },
         "slug": "estella-to-sansol",
         "stats": {
           "distance": {
@@ -19710,23 +17899,13 @@ const data = [
       {
         "date": "June 8th, 2018",
         "hasStats": true,
-        "id": "WVwKnYqoqunz1Q8",
+        "id": "qEquQdd4omSgrVr",
         "images": {
           "hero": "2018/06/02/71b4d4f4-b9d4-40b9-8902-cef791391428.jpeg",
           "supplementary": []
         },
         "index": 6,
         "location": null,
-        "next": {
-          "date": "June 9th, 2018",
-          "slug": "logrono-to-najera",
-          "title": "Logrono to Najera"
-        },
-        "previous": {
-          "date": "June 7th, 2018",
-          "slug": "estella-to-sansol",
-          "title": "Estella to Sansol"
-        },
         "slug": "sansol-to-logrono",
         "stats": {
           "distance": {
@@ -19813,23 +17992,13 @@ const data = [
       {
         "date": "June 9th, 2018",
         "hasStats": true,
-        "id": "ckLls1IonJK1QKK",
+        "id": "9u4Qx4yQJQ8TA5Z",
         "images": {
           "hero": "2018/06/02/e5a310be-0e12-45d8-9121-dbac375a4234.jpeg",
           "supplementary": []
         },
         "index": 7,
         "location": null,
-        "next": {
-          "date": "June 10th, 2018",
-          "slug": "najera-to-santo-domingo",
-          "title": "Najera to Santo Domingo"
-        },
-        "previous": {
-          "date": "June 8th, 2018",
-          "slug": "sansol-to-logrono",
-          "title": "Sansol to Logrono"
-        },
         "slug": "logrono-to-najera",
         "stats": {
           "distance": {
@@ -19916,23 +18085,13 @@ const data = [
       {
         "date": "June 10th, 2018",
         "hasStats": true,
-        "id": "AGWgB9oDgmvynn1",
+        "id": "cofkyLTuqj5vISR",
         "images": {
           "hero": "2018/06/02/50570d33-285a-4561-bc7f-b7e500363359.jpeg",
           "supplementary": []
         },
         "index": 8,
         "location": null,
-        "next": {
-          "date": "June 11th, 2018",
-          "slug": "santo-domingo-to-belorado",
-          "title": "Santo Domingo to Belorado"
-        },
-        "previous": {
-          "date": "June 9th, 2018",
-          "slug": "logrono-to-najera",
-          "title": "Logrono to Najera"
-        },
         "slug": "najera-to-santo-domingo",
         "stats": {
           "distance": {
@@ -20019,23 +18178,13 @@ const data = [
       {
         "date": "June 11th, 2018",
         "hasStats": true,
-        "id": "0bOjhwcnJE5r4um",
+        "id": "VqQ4n8p8xb0lUCi",
         "images": {
           "hero": "2018/06/02/009b868c-38ee-43e7-bc1c-90b259306d86.jpeg",
           "supplementary": []
         },
         "index": 9,
         "location": null,
-        "next": {
-          "date": "June 12th, 2018",
-          "slug": "belorado-to-ages",
-          "title": "Belorado to Ages"
-        },
-        "previous": {
-          "date": "June 10th, 2018",
-          "slug": "najera-to-santo-domingo",
-          "title": "Najera to Santo Domingo"
-        },
         "slug": "santo-domingo-to-belorado",
         "stats": {
           "distance": {
@@ -20122,23 +18271,13 @@ const data = [
       {
         "date": "June 12th, 2018",
         "hasStats": true,
-        "id": "SQL43ScqUKHcmJA",
+        "id": "lzo2RPhz9g03OPL",
         "images": {
           "hero": "2018/06/02/678b2b3a-6724-4bca-99b7-f7ed9a4683e7.jpeg",
           "supplementary": []
         },
         "index": 10,
         "location": null,
-        "next": {
-          "date": "June 13th, 2018",
-          "slug": "ages-to-burgos",
-          "title": "Ages to Burgos"
-        },
-        "previous": {
-          "date": "June 11th, 2018",
-          "slug": "santo-domingo-to-belorado",
-          "title": "Santo Domingo to Belorado"
-        },
         "slug": "belorado-to-ages",
         "stats": {
           "distance": {
@@ -20225,23 +18364,13 @@ const data = [
       {
         "date": "June 13th, 2018",
         "hasStats": true,
-        "id": "xKNq7Lnj0EtaeC1",
+        "id": "LRFCmXembFHQH88",
         "images": {
           "hero": "2018/06/02/28740c31-9cb0-4952-af50-9f1bab6c1edb.jpeg",
           "supplementary": []
         },
         "index": 11,
         "location": null,
-        "next": {
-          "date": "June 14th, 2018",
-          "slug": "burgos-to-hontanas",
-          "title": "Burgos to Hontanas"
-        },
-        "previous": {
-          "date": "June 12th, 2018",
-          "slug": "belorado-to-ages",
-          "title": "Belorado to Ages"
-        },
         "slug": "ages-to-burgos",
         "stats": {
           "distance": {
@@ -20328,23 +18457,13 @@ const data = [
       {
         "date": "June 14th, 2018",
         "hasStats": true,
-        "id": "oGn0fvJtnpYkT2k",
+        "id": "zwe4TJiOtqT1eEh",
         "images": {
           "hero": "2018/06/02/3ecd42d0-421e-4e3d-a770-830e68e2652c.jpeg",
           "supplementary": []
         },
         "index": 12,
         "location": null,
-        "next": {
-          "date": "June 15th, 2018",
-          "slug": "hontanas-to-fromista",
-          "title": "Hontanas to Fromista"
-        },
-        "previous": {
-          "date": "June 13th, 2018",
-          "slug": "ages-to-burgos",
-          "title": "Ages to Burgos"
-        },
         "slug": "burgos-to-hontanas",
         "stats": {
           "distance": {
@@ -20431,23 +18550,13 @@ const data = [
       {
         "date": "June 15th, 2018",
         "hasStats": true,
-        "id": "IcM33mIizgBfp0n",
+        "id": "CvA9WfA0LeonYEH",
         "images": {
           "hero": "2018/06/02/98a7eed4-299d-40e6-a537-779a5bab6c77.jpeg",
           "supplementary": []
         },
         "index": 13,
         "location": null,
-        "next": {
-          "date": "June 16th, 2018",
-          "slug": "fromista-to-carrion",
-          "title": "Fromista to Carrion"
-        },
-        "previous": {
-          "date": "June 14th, 2018",
-          "slug": "burgos-to-hontanas",
-          "title": "Burgos to Hontanas"
-        },
         "slug": "hontanas-to-fromista",
         "stats": {
           "distance": {
@@ -20534,23 +18643,13 @@ const data = [
       {
         "date": "June 16th, 2018",
         "hasStats": true,
-        "id": "WzcOJKafCBi5fm5",
+        "id": "1cI8GfrpDSKUldd",
         "images": {
           "hero": "2018/06/02/2e08d5fe-1711-4768-8ded-f3714e186923.jpeg",
           "supplementary": []
         },
         "index": 14,
         "location": null,
-        "next": {
-          "date": "June 17th, 2018",
-          "slug": "carrion-to-sahagun",
-          "title": "Carrion to Sahagun"
-        },
-        "previous": {
-          "date": "June 15th, 2018",
-          "slug": "hontanas-to-fromista",
-          "title": "Hontanas to Fromista"
-        },
         "slug": "fromista-to-carrion",
         "stats": {
           "distance": {
@@ -20637,23 +18736,13 @@ const data = [
       {
         "date": "June 17th, 2018",
         "hasStats": true,
-        "id": "cT4oMf9GDCahiXA",
+        "id": "STdVG9KKDhLBgVc",
         "images": {
           "hero": "2018/06/02/bcdc06e3-4c95-4138-9779-bc46670a4e1b.jpeg",
           "supplementary": []
         },
         "index": 15,
         "location": null,
-        "next": {
-          "date": "June 18th, 2018",
-          "slug": "sahagun-to-reliegos",
-          "title": "Sahagun to Reliegos"
-        },
-        "previous": {
-          "date": "June 16th, 2018",
-          "slug": "fromista-to-carrion",
-          "title": "Fromista to Carrion"
-        },
         "slug": "carrion-to-sahagun",
         "stats": {
           "distance": {
@@ -20740,23 +18829,13 @@ const data = [
       {
         "date": "June 18th, 2018",
         "hasStats": true,
-        "id": "zbdwjMgVl6KDNaB",
+        "id": "Cxp1SttPo7ghrUC",
         "images": {
           "hero": "2018/06/02/2b268d15-bea2-42ae-a15c-1ab6fd5fe4f7.jpeg",
           "supplementary": []
         },
         "index": 16,
         "location": null,
-        "next": {
-          "date": "June 19th, 2018",
-          "slug": "reliegos-to-leon",
-          "title": "Reliegos to Leon"
-        },
-        "previous": {
-          "date": "June 17th, 2018",
-          "slug": "carrion-to-sahagun",
-          "title": "Carrion to Sahagun"
-        },
         "slug": "sahagun-to-reliegos",
         "stats": {
           "distance": {
@@ -20843,23 +18922,13 @@ const data = [
       {
         "date": "June 19th, 2018",
         "hasStats": true,
-        "id": "2mKrn0jT1miuZKY",
+        "id": "f9iaopNpLN8vhhT",
         "images": {
           "hero": "2018/06/02/845acb7b-86f3-4768-8ce3-c8be727c50af.jpeg",
           "supplementary": []
         },
         "index": 17,
         "location": null,
-        "next": {
-          "date": "June 20th, 2018",
-          "slug": "leon-to-mazarife",
-          "title": "Leon to Mazarife"
-        },
-        "previous": {
-          "date": "June 18th, 2018",
-          "slug": "sahagun-to-reliegos",
-          "title": "Sahagun to Reliegos"
-        },
         "slug": "reliegos-to-leon",
         "stats": {
           "distance": {
@@ -20946,23 +19015,13 @@ const data = [
       {
         "date": "June 20th, 2018",
         "hasStats": true,
-        "id": "SmBpO6M8gyBy2tZ",
+        "id": "Y5e5egZwfyr9Y7j",
         "images": {
           "hero": "2018/06/02/f5741d7d-6a86-47ae-a5b1-f1bced05bb00.jpeg",
           "supplementary": []
         },
         "index": 18,
         "location": null,
-        "next": {
-          "date": "June 21st, 2018",
-          "slug": "mazarife-to-astorga",
-          "title": "Mazarife to Astorga"
-        },
-        "previous": {
-          "date": "June 19th, 2018",
-          "slug": "reliegos-to-leon",
-          "title": "Reliegos to Leon"
-        },
         "slug": "leon-to-mazarife",
         "stats": {
           "distance": {
@@ -21049,23 +19108,13 @@ const data = [
       {
         "date": "June 21st, 2018",
         "hasStats": true,
-        "id": "oLxLNz0HcuQO41q",
+        "id": "6u7P4cNED8gugrA",
         "images": {
           "hero": "2018/06/02/0cf7b647-1681-4b88-be6a-cbba1163f38a.jpeg",
           "supplementary": []
         },
         "index": 19,
         "location": null,
-        "next": {
-          "date": "June 22nd, 2018",
-          "slug": "astorga-to-foncebadon",
-          "title": "Astorga to Foncebadon"
-        },
-        "previous": {
-          "date": "June 20th, 2018",
-          "slug": "leon-to-mazarife",
-          "title": "Leon to Mazarife"
-        },
         "slug": "mazarife-to-astorga",
         "stats": {
           "distance": {
@@ -21152,23 +19201,13 @@ const data = [
       {
         "date": "June 22nd, 2018",
         "hasStats": true,
-        "id": "hDuAUacnvMSg7C8",
+        "id": "vZFdT4lCfvhtl5T",
         "images": {
           "hero": "2018/06/02/bf4e84fe-e4ca-4834-ab65-393f965bbdb8.jpeg",
           "supplementary": []
         },
         "index": 20,
         "location": null,
-        "next": {
-          "date": "June 23rd, 2018",
-          "slug": "foncebadon-to-ponferrada",
-          "title": "Foncebadon to Ponferrada"
-        },
-        "previous": {
-          "date": "June 21st, 2018",
-          "slug": "mazarife-to-astorga",
-          "title": "Mazarife to Astorga"
-        },
         "slug": "astorga-to-foncebadon",
         "stats": {
           "distance": {
@@ -21255,23 +19294,13 @@ const data = [
       {
         "date": "June 23rd, 2018",
         "hasStats": true,
-        "id": "gv2cTxlXJbQdrqD",
+        "id": "SRQltCDpfrPRgrc",
         "images": {
           "hero": "2018/06/02/2901af55-b7bf-41ec-9471-6ec3699b1f12.jpeg",
           "supplementary": []
         },
         "index": 21,
         "location": null,
-        "next": {
-          "date": "June 24th, 2018",
-          "slug": "ponferrada-to-villafranca",
-          "title": "Ponferrada to Villafranca"
-        },
-        "previous": {
-          "date": "June 22nd, 2018",
-          "slug": "astorga-to-foncebadon",
-          "title": "Astorga to Foncebadon"
-        },
         "slug": "foncebadon-to-ponferrada",
         "stats": {
           "distance": {
@@ -21358,23 +19387,13 @@ const data = [
       {
         "date": "June 24th, 2018",
         "hasStats": true,
-        "id": "uiTMjHxn5Kk880n",
+        "id": "oPz1HemAo8sWPI1",
         "images": {
           "hero": "2018/06/02/7fa41365-3d33-461b-9be5-5a946064923c.jpeg",
           "supplementary": []
         },
         "index": 22,
         "location": null,
-        "next": {
-          "date": "June 25th, 2018",
-          "slug": "villafranca-to-o-cebreiro",
-          "title": "Villafranca to O Cebreiro"
-        },
-        "previous": {
-          "date": "June 23rd, 2018",
-          "slug": "foncebadon-to-ponferrada",
-          "title": "Foncebadon to Ponferrada"
-        },
         "slug": "ponferrada-to-villafranca",
         "stats": {
           "distance": {
@@ -21461,23 +19480,13 @@ const data = [
       {
         "date": "June 25th, 2018",
         "hasStats": true,
-        "id": "Gvb57hpNoh3W9Pv",
+        "id": "ZQzKiYPjoMUzPaW",
         "images": {
           "hero": "2018/06/02/6349679e-acbf-4f74-ad4a-0d9032c3b293.jpeg",
           "supplementary": []
         },
         "index": 23,
         "location": null,
-        "next": {
-          "date": "June 26th, 2018",
-          "slug": "o-cebreiro-to-sarria",
-          "title": "O Cebreiro to Sarria"
-        },
-        "previous": {
-          "date": "June 24th, 2018",
-          "slug": "ponferrada-to-villafranca",
-          "title": "Ponferrada to Villafranca"
-        },
         "slug": "villafranca-to-o-cebreiro",
         "stats": {
           "distance": {
@@ -21564,23 +19573,13 @@ const data = [
       {
         "date": "June 26th, 2018",
         "hasStats": true,
-        "id": "fnHgEoeMgD7cE5z",
+        "id": "HTuucM64KFhMN3d",
         "images": {
           "hero": "2018/06/02/4e1b42f2-3994-4d1c-ad29-620eab9c80c7.jpeg",
           "supplementary": []
         },
         "index": 24,
         "location": null,
-        "next": {
-          "date": "June 27th, 2018",
-          "slug": "sarria-to-portomarin",
-          "title": "Sarria to Portomarin"
-        },
-        "previous": {
-          "date": "June 25th, 2018",
-          "slug": "villafranca-to-o-cebreiro",
-          "title": "Villafranca to O Cebreiro"
-        },
         "slug": "o-cebreiro-to-sarria",
         "stats": {
           "distance": {
@@ -21667,23 +19666,13 @@ const data = [
       {
         "date": "June 27th, 2018",
         "hasStats": true,
-        "id": "Vht6y4z9g2JmMxx",
+        "id": "A1lsON2BiBMbA0F",
         "images": {
           "hero": "2018/06/02/3d738e26-0747-447a-98fb-0bb35e1736c3.jpeg",
           "supplementary": []
         },
         "index": 25,
         "location": null,
-        "next": {
-          "date": "June 28th, 2018",
-          "slug": "portomarin-to-melide",
-          "title": "Portomarin to Melide"
-        },
-        "previous": {
-          "date": "June 26th, 2018",
-          "slug": "o-cebreiro-to-sarria",
-          "title": "O Cebreiro to Sarria"
-        },
         "slug": "sarria-to-portomarin",
         "stats": {
           "distance": {
@@ -21770,23 +19759,13 @@ const data = [
       {
         "date": "June 28th, 2018",
         "hasStats": true,
-        "id": "2mBkeXTCmAlvu3A",
+        "id": "91mT8orQpCwo3mf",
         "images": {
           "hero": "2018/06/02/4e8fd9a9-ed5f-429f-9230-efa731461a5f.jpeg",
           "supplementary": []
         },
         "index": 26,
         "location": null,
-        "next": {
-          "date": "June 29th, 2018",
-          "slug": "melide-to-pedrouzo",
-          "title": "Melide to Pedrouzo"
-        },
-        "previous": {
-          "date": "June 27th, 2018",
-          "slug": "sarria-to-portomarin",
-          "title": "Sarria to Portomarin"
-        },
         "slug": "portomarin-to-melide",
         "stats": {
           "distance": {
@@ -21873,23 +19852,13 @@ const data = [
       {
         "date": "June 29th, 2018",
         "hasStats": true,
-        "id": "axMWjg3eR1Q3511",
+        "id": "50tYGJF1Unyseqw",
         "images": {
           "hero": "2018/06/02/2dcb1878-efe7-47d7-b7b5-b031ab143cb6.jpeg",
           "supplementary": []
         },
         "index": 27,
         "location": null,
-        "next": {
-          "date": "June 30th, 2018",
-          "slug": "pedrouzo-to-santiago-de-compostela",
-          "title": "Pedrouzo to Santiago de Compostela"
-        },
-        "previous": {
-          "date": "June 28th, 2018",
-          "slug": "portomarin-to-melide",
-          "title": "Portomarin to Melide"
-        },
         "slug": "melide-to-pedrouzo",
         "stats": {
           "distance": {
@@ -21976,23 +19945,13 @@ const data = [
       {
         "date": "June 30th, 2018",
         "hasStats": true,
-        "id": "V2QwOvM3bLmykee",
+        "id": "x37rqRIf09zjJ88",
         "images": {
           "hero": "2018/06/02/1921986b-9cf8-4bf8-b531-3bfe2f098f93.jpeg",
           "supplementary": []
         },
         "index": 28,
         "location": null,
-        "next": {
-          "date": "July 2nd, 2018",
-          "slug": "santiago-de-compostela-to-negreira",
-          "title": "Santiago de Compostela to Negreira"
-        },
-        "previous": {
-          "date": "June 29th, 2018",
-          "slug": "melide-to-pedrouzo",
-          "title": "Melide to Pedrouzo"
-        },
         "slug": "pedrouzo-to-santiago-de-compostela",
         "stats": {
           "distance": {
@@ -22079,23 +20038,13 @@ const data = [
       {
         "date": "July 2nd, 2018",
         "hasStats": true,
-        "id": "QfNbAodT1EGP2aJ",
+        "id": "j350MopjtKGEMfp",
         "images": {
           "hero": "2018/06/02/7f51e3c4-518e-4147-8e73-c19d6c87ce11.jpeg",
           "supplementary": []
         },
         "index": 29,
         "location": null,
-        "next": {
-          "date": "July 3rd, 2018",
-          "slug": "negreira-to-olveiroa",
-          "title": "Negreira to Olveiroa"
-        },
-        "previous": {
-          "date": "June 30th, 2018",
-          "slug": "pedrouzo-to-santiago-de-compostela",
-          "title": "Pedrouzo to Santiago de Compostela"
-        },
         "slug": "santiago-de-compostela-to-negreira",
         "stats": {
           "distance": {
@@ -22182,23 +20131,13 @@ const data = [
       {
         "date": "July 3rd, 2018",
         "hasStats": true,
-        "id": "b49btuqJwrmvujc",
+        "id": "6VRulyoeGTRm2rk",
         "images": {
           "hero": "2018/06/02/32011e1d-8075-4b90-9a91-db88c3d66989.jpeg",
           "supplementary": []
         },
         "index": 30,
         "location": null,
-        "next": {
-          "date": "July 4th, 2018",
-          "slug": "olveiroa-to-fisterra",
-          "title": "Olveiroa to Fisterra"
-        },
-        "previous": {
-          "date": "July 2nd, 2018",
-          "slug": "santiago-de-compostela-to-negreira",
-          "title": "Santiago de Compostela to Negreira"
-        },
         "slug": "negreira-to-olveiroa",
         "stats": {
           "distance": {
@@ -22285,19 +20224,13 @@ const data = [
       {
         "date": "July 4th, 2018",
         "hasStats": true,
-        "id": "hWXKBUfIsmdUzdi",
+        "id": "kKItxpVcBDjtqTK",
         "images": {
           "hero": "2018/06/02/aa8b0404-f4d1-44ed-bc96-ce65eae03848.jpeg",
           "supplementary": []
         },
         "index": 31,
         "location": null,
-        "next": null,
-        "previous": {
-          "date": "July 3rd, 2018",
-          "slug": "negreira-to-olveiroa",
-          "title": "Negreira to Olveiroa"
-        },
         "slug": "olveiroa-to-fisterra",
         "stats": {
           "distance": {
@@ -22428,7 +20361,6 @@ const data = [
         "units": null
       }
     },
-    "tagline": "A rich mosaic of landscapes",
     "termini": {
       "end": "Fisterra",
       "isSame": false,
@@ -22439,7 +20371,6 @@ const data = [
       "Camino de",
       "Santiago"
     ],
-    "total": 11,
     "type": "thru-hike"
   }
 ];

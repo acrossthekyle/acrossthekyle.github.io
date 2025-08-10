@@ -15,7 +15,8 @@ type Model = {
   handleOnMiniscreen: () => void;
   handleOnNavigationNext: () => void;
   handleOnNavigationPrevious: () => void;
-  swipeable: any; // todo
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  swipeable: any;
 };
 
 export function useModel(trip: Trip, index?: number): Model {

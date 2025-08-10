@@ -1,8 +1,8 @@
 'use client';
 
-import Link from 'next/link';
 import { ReactNode } from 'react';
 
+import Item from './index.item';
 import { useModel } from './model';
 import styles from './stylesheet';
 
@@ -11,7 +11,7 @@ type Props = {
 };
 
 export default function Layout({ children }: Props) {
-  const { activeRef, isLoading, isOnTrip, route, trips } = useModel();
+  const { isLoading, isOnTrip, trips } = useModel();
 
   return (
     <>
@@ -29,26 +29,11 @@ export default function Layout({ children }: Props) {
             </li>
           ))}
           {!isLoading && trips.map((trip) => (
-            <li
-              className={styles.item}
+            <Item
+              isOnTrip={isOnTrip}
               key={trip.index}
-              ref={route === `/trips/${trip.slug}` ? activeRef : undefined}
-              style={{ animationDelay: `${0.1 + (trip.index * 0.025)}s` }}
-            >
-              <Link
-                className={styles.link(
-                  isOnTrip,
-                  route === `/trips/${trip.slug}`,
-                )}
-                href={
-                  isOnTrip && route === `/trips/${trip.slug}` ? '/trips' : `/trips/${trip.slug}`
-                }
-              >
-                {trip.title.map((part) => (
-                  <span className={styles.part} key={part}>{part}</span>
-                ))}
-              </Link>
-            </li>
+              trip={trip}
+            />
           ))}
         </ul>
       </section>

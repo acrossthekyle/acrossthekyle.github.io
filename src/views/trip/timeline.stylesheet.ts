@@ -30,6 +30,9 @@ const styles = tw({
       h-78
       opacity-0
       animate-in
+
+      ml:opacity-100
+      ml:animate-none
     `}
   `),
   figure: `
@@ -121,17 +124,7 @@ const styles = tw({
   `,
   fullscreen: `
     absolute inset-0 z-2
-    uppercase
-    text-sm text-white text-right
-    font-normal font-mono
     opacity-0
-
-    md:inset-auto
-    md:bottom-7
-    md:right-8
-    md:duration-400
-    md:group-hover/stage:opacity-100
-    md:focus:opacity-100
   `,
   close: `
     absolute bottom-4 right-4 z-2

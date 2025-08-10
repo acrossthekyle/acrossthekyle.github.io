@@ -18,7 +18,8 @@ export default function View({ slug }: Props) {
 
   return (
     <article className={styles.container}>
-      <header className={styles.header}>
+      <header>
+        <h1 className={styles.title}>{trip.title.join(' ')}</h1>
         <h2 className={styles.heading}>
           {trip.type} &mdash; {trip.location}, {' '}
           {trip.date.dates ? (
@@ -45,7 +46,7 @@ export default function View({ slug }: Props) {
         )}
       </header>
       <section>
-        <Timeline onFullscreen={handleOnFullscreen} trip={trip} />
+        <Timeline isFullscreen={false} onFullscreen={handleOnFullscreen} trip={trip} />
       </section>
     </article>
   );

@@ -132,7 +132,7 @@ const styles = tw({
   item: (isLink: boolean) => tw(`
     group/item
     relative
-    text-xl/4 text-white text-left
+    text-xl/5 text-white text-left
     font-black
     uppercase
     transform-gpu duration-400
@@ -155,9 +155,9 @@ const styles = tw({
       after:relative
       after:top-0.5
 
-      3xs:after:absolute
-      3xs:after:right-0
-      3xs:after:-top-1.5
+      ml:after:absolute
+      ml:after:right-0
+      ml:after:-top-1.5
       lg:after:font-thin
       lg:after:text-4xl
       lg:after:top-4
@@ -177,16 +177,20 @@ const styles = tw({
 
     group-hover/item:opacity-100
 
-    3xs:pr-8
-    3xs:absolute
-    3xs:-top-1
-    3xs:right-0
+    ml:pr-8
+    ml:absolute
+    ml:-top-1
+    ml:right-0
     lg:pr-0
     xl:text-lg
     sx:text-xl
   `,
   part: `
-    block
+    inline-block
+    me-1
+
+    ml:block
+    ml:me-0
   `,
 });
 
