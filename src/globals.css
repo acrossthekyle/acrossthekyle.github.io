@@ -11,26 +11,35 @@
 
 @theme {
   --breakpoint-5xs: 19.0625rem; /* 305 px */
-  --breakpoint-4xs: 20.9375rem; /* 335 px */
+  --breakpoint-4xs: 22.5rem; /* 360 px */
   --breakpoint-3xs: 25.625rem; /* 410px */
   --breakpoint-2xs: 30rem; /* 480px */
   --breakpoint-xs: 33.125rem; /* 530px */
+  --breakpoint-mp: 50.625rem; /* 810px */
   --breakpoint-ml: 60.3125rem; /* 965px */
+  --breakpoint-2ml: 67.5rem; /* 1080px */
   --breakpoint-sl: 73.75rem; /* 1180px */
   --breakpoint-sx: 87.5rem; /* 1400px */
+  --breakpoint-2sx: 90.625rem; /* 1450px */
 
   --text-tiny: 0.625rem;
   --max-w-8xl: 100rem;
 
-  --animate-elastic-in: slideInRight .65s cubic-bezier(.4, -0.6, 0.32, 1.6) forwards;
+  --animate-elastic-in-from-right: slideInRight .65s cubic-bezier(.4, -0.6, 0.32, 1.6) forwards;
+  --animate-elastic-in-from-left: slideInLeft .65s cubic-bezier(.4, -0.6, 0.32, 1.6) forwards;
   --animate-elastic-down: slideInDown .7s cubic-bezier(0.5, 0, 0, 1.5) forwards;
   --animate-elastic-up: slideInUp .7s cubic-bezier(0.5, 0, 0, 1.5) forwards;
   --animate-slide-in: slideInRight .3s ease-out forwards;
   --animate-slide-down: slideInDown .3s ease-out forwards;
-  --animate-in: 1s fadeIn 1s ease-out forwards;
+  --animate-in: fadeIn .3s ease-in forwards;
 
   @keyframes slideInRight {
     0% { opacity: 0; transform: translateX(100%); }
+    100% { opacity: 1; transform: translateX(0); }
+  }
+
+  @keyframes slideInLeft {
+    0% { opacity: 0; transform: translateX(-100%); }
     100% { opacity: 1; transform: translateX(0); }
   }
 

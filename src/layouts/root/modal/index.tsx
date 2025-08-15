@@ -10,27 +10,25 @@ export default function Modal() {
   const {
     content,
     isOpen,
+    size,
   } = useModal();
 
   return (
     <div
-      className={styles.dialog}
+      className={styles.dialog(isOpen)}
       role="dialog"
       aria-modal="true"
       tabIndex={-1}
+      style={size ? {
+        top: `${size.top}px`,
+        left: `${size.left}px`,
+        height: size.height,
+        width: size.width,
+      } : undefined}
     >
-      <div className={styles.container(isOpen)}>
-        <div className={styles.wrapper}>
-          <FocusLock disabled={!isOpen}>
-            <div
-              className={styles.content(isOpen)}
-              tabIndex={-1}
-            >
-              {content}
-            </div>
-          </FocusLock>
-        </div>
-      </div>
+      <FocusLock className="h-full" disabled={!isOpen}>
+        {content}
+      </FocusLock>
     </div>
   );
 }

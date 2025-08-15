@@ -1,20 +1,53 @@
+import Link from 'next/link';
+
+import Article from '@/ui/article';
+
 import styles from './stylesheet';
 
 export default function View() {
+  const headerNodes = [
+    <>Hey it's</>,
+    <><span className={styles.emphasis}>Kyle!</span></>,
+    <>I'm in</>,
+    <><span className={styles.emphasis}>Chicago</span></>,
+    <>Where I work</>,
+    <>as a</>,
+    <><span className={styles.emphasis}>Frontend</span></>,
+    <><span className={styles.emphasis}>Developer</span></>,
+    <>at Optum</>,
+    <>Digital.</>,
+    <><br /></>,
+    <>I'm also a</>,
+    <><span className={styles.emphasis}>thru-hiker.</span></>,
+  ];
+
   return (
-    <article className={styles.container}>
-      <header className={styles.header}>
-        <h1 className={styles.title}>
-          <span className={styles.block}>The</span>
-          <span className={styles.block}>section</span>
-          <span className={styles.block}>about me</span>
+    <Article isFull>
+      <header>
+        <h1 className={styles.text}>
+          Whether I'm building <span className={styles.emphasis}>software</span> or <span className={styles.emphasis}>walking</span> across a mountain range, I'm always seeking new ways to <span className={styles.emphasis}>move forward</span> with intention and <span className={styles.emphasis}>curiosity</span>.
         </h1>
       </header>
       <section>
-        <p className={styles.body}>
-          I'm a thru-hiker and web developer with {new Date().getFullYear() - 2012}+ years of software development experience, who loves to spend hours experimenting with code, or planning the next big hike. Based in Chicago, former engineer at Rally Health and now working for Optum Digital. Over the past several years I have been to 13 countries, hiked 1,385 miles of trail abroad, and worked for a variety of companies developing their web-based products.
+        <p className={styles.text}>
+          Hey, my name's <span className={styles.emphasis}>Kyle</span>, and I live in <span className={styles.emphasis}>Chicago</span> with my partner and our dog Dax.
+        </p>
+        <p className={styles.text}>
+          I'm a full-time <span className={styles.emphasis}>Frontend Developer</span> with 13+ years of experience at Optum Digital where my work effects millions.
+        </p>
+        <p className={styles.text}>
+          When I'm not at a computer I'm disconnecting and <span className={styles.emphasis}>thru-hiking</span> a long-distance trail somewhere.
         </p>
       </section>
-    </article>
+      <footer>
+        <Link
+          className={styles.resume}
+          href="/acrossthekyle-resume.pdf"
+          target="_blank"
+        >
+          Learn more about what I do for a living here
+        </Link>
+      </footer>
+    </Article>
   );
 }

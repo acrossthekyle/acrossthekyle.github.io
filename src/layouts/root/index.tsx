@@ -1,11 +1,7 @@
-'use client';
-
-import { Maximize, Minimize } from 'lucide-react';
-import Link from 'next/link';
 import { ReactNode } from 'react';
 
+import Header from './header';
 import Modal from './modal';
-import { useModel } from './model';
 import styles from './stylesheet';
 
 type Props = {
@@ -13,80 +9,16 @@ type Props = {
 };
 
 export default function Layout({ children }: Props) {
-  const {
-    handleOnBack,
-    handleOnFullscreen,
-    isFullscreen,
-    isOnRoot,
-    isOnTrip,
-    route,
-  } = useModel();
-
   return (
     <>
-      <header className={styles.header}>
-        <h1>
-          <Link className={styles.home(isOnRoot)} href="/">
-            K
-          </Link>
-          <button
-            className={styles.back(isOnRoot)}
-            onClick={handleOnBack}
-            type="button"
-          >
-            Back
-          </button>
-        </h1>
-      </header>
+      <Header />
       <main className={styles.main}>
-        <nav className={styles.nav(isOnRoot)}>
-          <ul>
-            <li className={styles.item}>
-              <Link
-                className={styles.link(isOnRoot, isOnTrip, route.includes('/trips'))}
-                href={
-                  isOnRoot ? '/trips' : (route === '/trips' ? '/' : '/trips')
-                }
-              >
-                Wanderings
-              </Link>
-            </li>
-            <li className={styles.item}>
-              <Link
-                className={styles.link(isOnRoot, isOnTrip, route === '/about')}
-                href={
-                  isOnRoot ? '/about' : (route === '/about' ? '/' : '/about')
-                }
-              >
-                About
-              </Link>
-            </li>
-            <li className={styles.item}>
-              <Link
-                className={styles.link(isOnRoot, isOnTrip, route === '/contact')}
-                href={
-                  isOnRoot ? '/contact' : (route === '/contact' ? '/' : '/contact')
-                }
-              >
-                Contact
-              </Link>
-            </li>
-          </ul>
-        </nav>
         {children}
       </main>
-      <footer className={styles.footer(isOnTrip)}>
-        <button
-          className={styles.fullscreen}
-          onClick={handleOnFullscreen}
-          type="button"
-        >
-          {isFullscreen ? (
-            <Minimize className={styles.icon} />
-          ) : (
-            <Maximize className={styles.icon} />
-          )}
-        </button>
+      <footer className={styles.footer}>
+        <span className={styles.copy}>
+          &copy; '87 - {new Date().getFullYear()}
+        </span>
       </footer>
       <Modal />
     </>

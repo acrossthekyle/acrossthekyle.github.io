@@ -1,5 +1,9 @@
 function clean(string) {
-  return string.replace(/(\r\n|\n|\r)/gm, '').replace(/\s+/g, ' ').trim();
+  return string
+    .replace('false', '')
+    .replace(/(\r\n|\n|\r)/gm, '')
+    .replace(/\s+/g, ' ')
+    .trim();
 }
 
 export default function tw(styles) {

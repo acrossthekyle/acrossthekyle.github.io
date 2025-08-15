@@ -63,14 +63,16 @@ function turnStringIntoArrayForLists(value: string) {
 
   parts.forEach((part: string) => {
     if (result[index].length < 12) {
-      const combination = `${result[index]} ${part}`.trim();
+      const combination = `${result[index]} ${part.trim()}`.trim();
 
       if (combination.length < 12) {
         result.splice(index, 1, combination);
+      } else if (part.length > 12 ) {
+        result.splice(index, 1, part.trim());
       } else {
         ++index
 
-        result.splice(index, 1, part);
+        result.splice(index, 1, part.trim());
       }
     }
   });
@@ -380,8 +382,21 @@ async function getStages(folder) {
       const end = getTermini(data.title, 1);
       const start = getTermini(data.title, 0);
 
+      const date = parseDate(data.date, 'MMMM do, yyyy', new Date());
+
       stages.push({
-        date: data.date,
+        date: {
+          long: {
+            month: formatDate(date, 'MMMM'),
+            day: formatDate(date, 'do'),
+            year: formatDate(date, 'yyyy'),
+          },
+          short: {
+            month: formatDate(date, 'MM'),
+            day: formatDate(date, 'dd'),
+            year: formatDate(date, 'yy'),
+          },
+        },
         elevation,
         hasStats: !Object.values(stats).every(value => value === null),
         id: generateId(),
@@ -397,19 +412,19 @@ async function getStages(folder) {
         slug: _.kebabCase(data.title),
         stats,
         termini: {
-          end,
+          end: turnStringIntoArrayForLists(end),
           isSame: start.toLowerCase() === end.toLowerCase(),
-          start,
+          start: turnStringIntoArrayForLists(start),
         },
-        title: data.title,
+        title: turnStringIntoArrayForLists(data.title),
       });
     }),
   );
 
   const sorted = stages.sort(
     (a, b) =>
-      parseDate(a.date, 'MMMM do, yyyy', new Date()).getTime() -
-      parseDate(b.date, 'MMMM do, yyyy', new Date()).getTime(),
+      parseDate(`${a.date.long.month} ${a.date.long.day}, ${a.date.long.year}`, 'MMMM do, yyyy', new Date()).getTime() -
+      parseDate(`${b.date.long.month} ${b.date.long.day}, ${b.date.long.year}`, 'MMMM do, yyyy', new Date()).getTime(),
   );
 
   const result = sorted.map((item, index) => {
@@ -559,7 +574,7 @@ async function getTripDate(trip, stages) {
   }
 
   if (dates === null) {
-    year.push(stages[stages.length - 1].date.split(',')[1].trim());
+    year.push(stages[stages.length - 1].date.long.year.trim());
   }
 
   return {
@@ -569,11 +584,11 @@ async function getTripDate(trip, stages) {
 }
 
 function getLabel(type) {
-  if (type === 'thru-hike') {
-    return 'stage';
+  if (type === 'thru-hiking') {
+    return 'day';
   }
 
-  if (type === 'section-hike') {
+  if (type === 'section-hiking') {
     return 'section';
   }
 
@@ -581,7 +596,7 @@ function getLabel(type) {
     return 'summit';
   }
 
-  if (type === 'vacation') {
+  if (type === 'vacationing') {
     return 'destination';
   }
 
@@ -594,17 +609,17 @@ function getTermini(string, index) {
 
 async function getTripTermini(trip, stages) {
   const termini = {
-    end: trip.cities ? trip.cities[trip.cities.length - 1] : stages[stages.length - 1].title,
-    start: trip.cities ? trip.cities[0] : stages[0].title,
+    end: trip.cities ? trip.cities[trip.cities.length - 1] : stages[stages.length - 1].title.join(' '),
+    start: trip.cities ? trip.cities[0] : stages[0].title.join(' '),
   };
 
   const end = getTermini(termini.end, 1);
   const start = getTermini(termini.start, 0);
 
   return {
-    end,
+    end: turnStringIntoArrayForLists(end),
     isSame: start.toLowerCase() === end.toLowerCase(),
-    start,
+    start: turnStringIntoArrayForLists(start),
   }
 }
 
@@ -646,7 +661,7 @@ async function go() {
       const slug = _.kebabCase(`${trip.title} ${trip.categories.includes('repeat') ? '-repeat' : ''}`.trim());
 
       data.push({
-        // categories: trip.categories,
+        categories: trip.categories,
         // cities: trip.cities,
         // coordinates: trip.marker,
         date,
@@ -655,13 +670,13 @@ async function go() {
         hasGear: gear !== null,
         // hasRoutes,
         id: generateId(),
-        // images: {
-        //   hero: trip.image,
-        //   small: trip.previews.small,
-        //   large: trip.previews.large,
-        // },
+        images: {
+          hero: trip.image,
+          // small: trip.previews.small,
+          // large: trip.previews.large,
+        },
         index: null,
-        // label: getLabel(trip.type),
+        label: getLabel(trip.type),
         location: trip.location,
         // next: null,
         // previous: null,

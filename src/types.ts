@@ -81,13 +81,16 @@ export type StatShort = {
 };
 
 export type Termini = {
-  end: string;
+  end: string[];
   isSame: boolean;
-  start: string;
+  start: string[];
 };
 
 export type Stage = {
-  date: string;
+  date: {
+    long: DateParts;
+    short: DateParts;
+  };
   hasStats: boolean;
   images: {
     hero: string;
@@ -106,24 +109,24 @@ export type Stage = {
     time: StatShort | null;
   };
   termini: Termini;
-  title: string;
+  title: string[];
 };
 
 export type Trip = {
-  // categories: string[];
+  categories: string[];
   // coordinates: Coordinates;
   date: Date;
   description: string[];
   gear: Gear | null;
   hasGear: boolean;
   id: string;
-  // images: {
-  //   hero: string;
-  //   large: string;
-  //   small: string;
-  // };
+  images: {
+    hero: string;
+    // large: string;
+    // small: string;
+  };
   index: number;
-  // label: string;
+  label: string;
   location: string;
   // next: Navigation | null;
   // previous: Navigation | null;

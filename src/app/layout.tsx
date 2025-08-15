@@ -6,6 +6,8 @@ import { Geist } from 'next/font/google';
 import Events from '@/context/events';
 import Layout from '@/layouts/root';
 
+import styles from './stylesheet';
+
 const geistSans = Geist({
   variable: '--font-geist-sans',
   subsets: ['latin'],
@@ -42,7 +44,7 @@ type Props = {
 export default function RootLayout({ children }: Props) {
   return (
     <html className="h-full" lang="en">
-      <body className={`${geistSans.variable} antialiased h-full`}>
+      <body className={`${geistSans.variable} ${styles.body}`}>
         <Events>
           <Layout>
             {children}

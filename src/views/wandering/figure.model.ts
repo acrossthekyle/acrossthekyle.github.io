@@ -1,25 +1,17 @@
 'use client';
 
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useRef, useState } from 'react';
 
 type Model = {
+  figureRef: React.RefObject<HTMLFigureElement | null>;
   handleOnInView: (isInView: boolean) => void;
-  handleOnLoad: () => void;
   hasEnteredView: boolean;
-  isLoading: boolean;
 };
 
-export function useModel(src: string): Model {
-  const [isLoading, setIsLoading] = useState(true);
+export function useModel(): Model {
   const [hasEnteredView, setHasEnteredView] = useState(false);
 
-  useEffect(() => {
-    setIsLoading(true);
-  }, [src]);
-
-  const handleOnLoad = () => {
-    setIsLoading(false);
-  };
+  const figureRef = useRef<HTMLFigureElement | null>(null);
 
   const handleOnInView = useCallback(
     (isInView: boolean) => {
@@ -30,9 +22,8 @@ export function useModel(src: string): Model {
   );
 
   return {
-    handleOnLoad,
+    figureRef,
     handleOnInView,
     hasEnteredView,
-    isLoading,
   };
 }

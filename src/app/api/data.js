@@ -1,5 +1,10 @@
 const data = [
   {
+    "categories": [
+      "thru-hike",
+      "europe",
+      "repeat"
+    ],
     "date": {
       "dates": {
         "start": {
@@ -83,7 +88,6 @@ const data = [
               "category": "sleeping",
               "link": "https://seatosummit.com/products/adaptor-coolmax-liner-insect-shield",
               "name": [
-                "",
                 "Sea-to-Summit"
               ],
               "consumable": false,
@@ -857,15 +861,30 @@ const data = [
       "weightWorn": "3.09"
     },
     "hasGear": true,
-    "id": "zu1v5SNgQyaDhPY",
+    "id": "dPRVr1Wf71ZTTV6",
+    "images": {
+      "hero": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg"
+    },
     "index": 0,
-    "location": "The Alps",
+    "label": "day",
+    "location": "The French Italian And Swiss Alps",
     "slug": "tour-du-mont-blanc-repeat",
     "stages": [
       {
-        "date": "July 27th, 2024",
+        "date": {
+          "long": {
+            "month": "July",
+            "day": "27th",
+            "year": "2024"
+          },
+          "short": {
+            "month": "07",
+            "day": "27",
+            "year": "24"
+          }
+        },
         "hasStats": true,
-        "id": "yXfTAWT3n8kcdN1",
+        "id": "56amnzPs4A4R7i9",
         "images": {
           "hero": "2024/07/27/ac7799bd-b2a8-4f77-8a8d-6d42a8740390.jpeg",
           "supplementary": []
@@ -949,16 +968,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Auberge le Truc",
+          "end": [
+            "Auberge le",
+            "Truc"
+          ],
           "isSame": false,
-          "start": "Les Houches"
+          "start": [
+            "Les Houches"
+          ]
         },
-        "title": "Les Houches to Auberge le Truc"
+        "title": [
+          "Les Houches",
+          "to Auberge",
+          "le Truc"
+        ]
       },
       {
-        "date": "July 28th, 2024",
+        "date": {
+          "long": {
+            "month": "July",
+            "day": "28th",
+            "year": "2024"
+          },
+          "short": {
+            "month": "07",
+            "day": "28",
+            "year": "24"
+          }
+        },
         "hasStats": true,
-        "id": "V2buzNHvLhhnJdx",
+        "id": "FQEw2JJPw7sZXcL",
         "images": {
           "hero": "2024/07/27/10146a42-b18d-4318-bc5b-c32279532e4d.jpeg",
           "supplementary": []
@@ -1042,16 +1081,40 @@ const data = [
           }
         },
         "termini": {
-          "end": "Refuge de La Croix du Bonhomme",
+          "end": [
+            "Refuge de",
+            "La Croix du",
+            "Bonhomme"
+          ],
           "isSame": false,
-          "start": "Auberge le Truc"
+          "start": [
+            "Auberge le",
+            "Truc"
+          ]
         },
-        "title": "Auberge le Truc to Refuge de La Croix du Bonhomme"
+        "title": [
+          "Auberge le",
+          "Truc to",
+          "Refuge de",
+          "La Croix du",
+          "Bonhomme"
+        ]
       },
       {
-        "date": "July 29th, 2024",
+        "date": {
+          "long": {
+            "month": "July",
+            "day": "29th",
+            "year": "2024"
+          },
+          "short": {
+            "month": "07",
+            "day": "29",
+            "year": "24"
+          }
+        },
         "hasStats": true,
-        "id": "rlojdNtFtlVSeJe",
+        "id": "hx60npK9SnUexwB",
         "images": {
           "hero": "2024/07/27/be9a961c-fc7d-43dc-b466-29a359d1cd12.jpeg",
           "supplementary": []
@@ -1135,16 +1198,42 @@ const data = [
           }
         },
         "termini": {
-          "end": "Refuge Robert Blanc",
+          "end": [
+            "Refuge",
+            "Robert",
+            "Blanc"
+          ],
           "isSame": false,
-          "start": "Refuge de La Croix du Bonhomme"
+          "start": [
+            "Refuge de",
+            "La Croix du",
+            "Bonhomme"
+          ]
         },
-        "title": "Refuge de La Croix du Bonhomme to Refuge Robert Blanc"
+        "title": [
+          "Refuge de",
+          "La Croix du",
+          "Bonhomme to",
+          "Refuge",
+          "Robert",
+          "Blanc"
+        ]
       },
       {
-        "date": "July 30th, 2024",
+        "date": {
+          "long": {
+            "month": "July",
+            "day": "30th",
+            "year": "2024"
+          },
+          "short": {
+            "month": "07",
+            "day": "30",
+            "year": "24"
+          }
+        },
         "hasStats": true,
-        "id": "9HPaUuqA2TT1bxJ",
+        "id": "k828b75Dr1kspsw",
         "images": {
           "hero": "2024/07/27/a45073e7-ef67-4e31-a5e7-3ba9b4b97b4e.jpeg",
           "supplementary": []
@@ -1228,16 +1317,40 @@ const data = [
           }
         },
         "termini": {
-          "end": "Maison Veille",
+          "end": [
+            "Maison",
+            "Veille"
+          ],
           "isSame": false,
-          "start": "Refuge Robert Blanc"
+          "start": [
+            "Refuge",
+            "Robert",
+            "Blanc"
+          ]
         },
-        "title": "Refuge Robert Blanc to Maison Veille"
+        "title": [
+          "Refuge",
+          "Robert",
+          "Blanc to",
+          "Maison",
+          "Veille"
+        ]
       },
       {
-        "date": "July 31st, 2024",
+        "date": {
+          "long": {
+            "month": "July",
+            "day": "31st",
+            "year": "2024"
+          },
+          "short": {
+            "month": "07",
+            "day": "31",
+            "year": "24"
+          }
+        },
         "hasStats": true,
-        "id": "gDrqgqIhhXjWK2v",
+        "id": "RJkiRSQdnYeh9yo",
         "images": {
           "hero": "2024/07/27/f1310350-3cb1-4f1b-b591-e08d0971f23b.jpeg",
           "supplementary": []
@@ -1321,16 +1434,38 @@ const data = [
           }
         },
         "termini": {
-          "end": "Rifugio Bonatti",
+          "end": [
+            "Rifugio",
+            "Bonatti"
+          ],
           "isSame": false,
-          "start": "Maison Veille"
+          "start": [
+            "Maison",
+            "Veille"
+          ]
         },
-        "title": "Maison Veille to Rifugio Bonatti"
+        "title": [
+          "Maison",
+          "Veille to",
+          "Rifugio",
+          "Bonatti"
+        ]
       },
       {
-        "date": "August 1st, 2024",
+        "date": {
+          "long": {
+            "month": "August",
+            "day": "1st",
+            "year": "2024"
+          },
+          "short": {
+            "month": "08",
+            "day": "01",
+            "year": "24"
+          }
+        },
         "hasStats": true,
-        "id": "YQhaq21MRz4p1RJ",
+        "id": "M778r2l5wjW1kby",
         "images": {
           "hero": "2024/07/27/b70777d8-b89d-4d60-b422-2d2af80483e4.jpeg",
           "supplementary": []
@@ -1414,16 +1549,38 @@ const data = [
           }
         },
         "termini": {
-          "end": "Hotel Edelweiss",
+          "end": [
+            "Hotel",
+            "Edelweiss"
+          ],
           "isSame": false,
-          "start": "Rifugio Bonatti"
+          "start": [
+            "Rifugio",
+            "Bonatti"
+          ]
         },
-        "title": "Rifugio Bonatti to Hotel Edelweiss"
+        "title": [
+          "Rifugio",
+          "Bonatti to",
+          "Hotel",
+          "Edelweiss"
+        ]
       },
       {
-        "date": "August 2nd, 2024",
+        "date": {
+          "long": {
+            "month": "August",
+            "day": "2nd",
+            "year": "2024"
+          },
+          "short": {
+            "month": "08",
+            "day": "02",
+            "year": "24"
+          }
+        },
         "hasStats": true,
-        "id": "gSN8SKSA61Aurbx",
+        "id": "7EhV2Du3VcIF1Ny",
         "images": {
           "hero": "2024/07/27/22400157-4853-4974-856b-86b1bc986ef9.jpeg",
           "supplementary": []
@@ -1507,16 +1664,38 @@ const data = [
           }
         },
         "termini": {
-          "end": "Gite Bon Abri",
+          "end": [
+            "Gite Bon",
+            "Abri"
+          ],
           "isSame": false,
-          "start": "Hotel Edelweiss"
+          "start": [
+            "Hotel",
+            "Edelweiss"
+          ]
         },
-        "title": "Hotel Edelweiss to Gite Bon Abri"
+        "title": [
+          "Hotel",
+          "Edelweiss",
+          "to Gite Bon",
+          "Abri"
+        ]
       },
       {
-        "date": "August 3rd, 2024",
+        "date": {
+          "long": {
+            "month": "August",
+            "day": "3rd",
+            "year": "2024"
+          },
+          "short": {
+            "month": "08",
+            "day": "03",
+            "year": "24"
+          }
+        },
         "hasStats": true,
-        "id": "2dzzrSwB4N0Gqvj",
+        "id": "rzvSk5JcdYKB2PW",
         "images": {
           "hero": "2024/07/27/99d87d66-9534-4aca-9489-eb2fbbdc152b.jpeg",
           "supplementary": []
@@ -1600,16 +1779,38 @@ const data = [
           }
         },
         "termini": {
-          "end": "Hotel Forclaz",
+          "end": [
+            "Hotel",
+            "Forclaz"
+          ],
           "isSame": false,
-          "start": "Gite Bon Abri"
+          "start": [
+            "Gite Bon",
+            "Abri"
+          ]
         },
-        "title": "Gite Bon Abri to Hotel Forclaz"
+        "title": [
+          "Gite Bon",
+          "Abri to",
+          "Hotel",
+          "Forclaz"
+        ]
       },
       {
-        "date": "August 4th, 2024",
+        "date": {
+          "long": {
+            "month": "August",
+            "day": "4th",
+            "year": "2024"
+          },
+          "short": {
+            "month": "08",
+            "day": "04",
+            "year": "24"
+          }
+        },
         "hasStats": true,
-        "id": "4kH061jvUNRTphV",
+        "id": "4FsIgvMxbdawznE",
         "images": {
           "hero": "2024/07/27/91e2be29-62d0-4be0-a00a-9ebd9d9dc395.jpeg",
           "supplementary": []
@@ -1693,16 +1894,38 @@ const data = [
           }
         },
         "termini": {
-          "end": "Auberge la Boerne",
+          "end": [
+            "Auberge la",
+            "Boerne"
+          ],
           "isSame": false,
-          "start": "Hotel Forclaz"
+          "start": [
+            "Hotel",
+            "Forclaz"
+          ]
         },
-        "title": "Hotel Forclaz to Auberge la Boerne"
+        "title": [
+          "Hotel",
+          "Forclaz to",
+          "Auberge la",
+          "Boerne"
+        ]
       },
       {
-        "date": "August 5th, 2024",
+        "date": {
+          "long": {
+            "month": "August",
+            "day": "5th",
+            "year": "2024"
+          },
+          "short": {
+            "month": "08",
+            "day": "05",
+            "year": "24"
+          }
+        },
         "hasStats": true,
-        "id": "MU9OA5RVv4oEhwI",
+        "id": "6MbJ3Vq7XWkQw0s",
         "images": {
           "hero": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg",
           "supplementary": []
@@ -1786,16 +2009,38 @@ const data = [
           }
         },
         "termini": {
-          "end": "Refuge de lo Flegere",
+          "end": [
+            "Refuge de",
+            "lo Flegere"
+          ],
           "isSame": false,
-          "start": "Auberge la Boerne"
+          "start": [
+            "Auberge la",
+            "Boerne"
+          ]
         },
-        "title": "Auberge la Boerne to Refuge de lo Flegere"
+        "title": [
+          "Auberge la",
+          "Boerne to",
+          "Refuge de",
+          "lo Flegere"
+        ]
       },
       {
-        "date": "August 6th, 2024",
+        "date": {
+          "long": {
+            "month": "August",
+            "day": "6th",
+            "year": "2024"
+          },
+          "short": {
+            "month": "08",
+            "day": "06",
+            "year": "24"
+          }
+        },
         "hasStats": true,
-        "id": "eNtuSy0pmqdYNVg",
+        "id": "2q2in0Ug2dTzG6F",
         "images": {
           "hero": "2024/07/27/480c5394-dfa7-4760-8f62-5a39cb66cb98.jpeg",
           "supplementary": []
@@ -1879,11 +2124,21 @@ const data = [
           }
         },
         "termini": {
-          "end": "Les Houches",
+          "end": [
+            "Les Houches"
+          ],
           "isSame": false,
-          "start": "Refuge de lo Flegere"
+          "start": [
+            "Refuge de",
+            "lo Flegere"
+          ]
         },
-        "title": "Refuge de lo Flegere to Les Houches"
+        "title": [
+          "Refuge de",
+          "lo Flegere",
+          "to Les",
+          "Houches"
+        ]
       }
     ],
     "stats": {
@@ -1933,18 +2188,26 @@ const data = [
       }
     },
     "termini": {
-      "end": "Les Houches",
+      "end": [
+        "Les Houches"
+      ],
       "isSame": true,
-      "start": "Les Houches"
+      "start": [
+        "Les Houches"
+      ]
     },
     "timestamp": "1753228805",
     "title": [
       "Tour du",
       "Mont Blanc"
     ],
-    "type": "thru-hike"
+    "type": "thru-hiking"
   },
   {
+    "categories": [
+      "thru-hike",
+      "europe"
+    ],
     "date": {
       "dates": {
         "start": {
@@ -2726,15 +2989,30 @@ const data = [
       "weightWorn": "3.74"
     },
     "hasGear": true,
-    "id": "czqw63zFUnzirSp",
+    "id": "BGlkiqStVqdWBp8",
+    "images": {
+      "hero": "2023/06/21/0ff34736-949f-4981-b339-06b6d304ba51.jpeg"
+    },
     "index": 1,
-    "location": "Corsica",
+    "label": "day",
+    "location": "Corsica France",
     "slug": "gr-20",
     "stages": [
       {
-        "date": "June 21st, 2023",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "21st",
+            "year": "2023"
+          },
+          "short": {
+            "month": "06",
+            "day": "21",
+            "year": "23"
+          }
+        },
         "hasStats": true,
-        "id": "d9bqFueKUX5Qwtu",
+        "id": "CB33gc6dHvUlxuC",
         "images": {
           "hero": "2023/06/21/f1d1c83f-941d-4351-aa5e-08d698b78775.jpeg",
           "supplementary": []
@@ -2818,16 +3096,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "D'Ortu Di U Piobbu",
+          "end": [
+            "D'Ortu Di U",
+            "Piobbu"
+          ],
           "isSame": false,
-          "start": "Calenzana"
+          "start": [
+            "Calenzana"
+          ]
         },
-        "title": "Calenzana to D'Ortu Di U Piobbu"
+        "title": [
+          "Calenzana",
+          "to D'Ortu",
+          "Di U Piobbu"
+        ]
       },
       {
-        "date": "June 22nd, 2023",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "22nd",
+            "year": "2023"
+          },
+          "short": {
+            "month": "06",
+            "day": "22",
+            "year": "23"
+          }
+        },
         "hasStats": true,
-        "id": "XbNprDDAy9YIusF",
+        "id": "gTguNr7s9KycTtX",
         "images": {
           "hero": "2023/06/21/e2d0721f-2c3f-4367-8f7b-1176c94b3e2c.jpeg",
           "supplementary": []
@@ -2911,16 +3209,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Carozzu",
+          "end": [
+            "Carozzu"
+          ],
           "isSame": false,
-          "start": "D'Ortu Di U Piobbu"
+          "start": [
+            "D'Ortu Di U",
+            "Piobbu"
+          ]
         },
-        "title": "D'Ortu Di U Piobbu to Carozzu"
+        "title": [
+          "D'Ortu Di U",
+          "Piobbu to",
+          "Carozzu"
+        ]
       },
       {
-        "date": "June 23rd, 2023",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "23rd",
+            "year": "2023"
+          },
+          "short": {
+            "month": "06",
+            "day": "23",
+            "year": "23"
+          }
+        },
         "hasStats": true,
-        "id": "PTsfsZ0kIUCYd3C",
+        "id": "LTiUMiq16c1KwnF",
         "images": {
           "hero": "2023/06/21/4b13a3d8-a55c-4bed-b887-ad3490ab964f.jpeg",
           "supplementary": []
@@ -3004,16 +3322,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Ascu Stagnu",
+          "end": [
+            "Ascu Stagnu"
+          ],
           "isSame": false,
-          "start": "Carozzu"
+          "start": [
+            "Carozzu"
+          ]
         },
-        "title": "Carozzu to Ascu Stagnu"
+        "title": [
+          "Carozzu to",
+          "Ascu Stagnu"
+        ]
       },
       {
-        "date": "June 24th, 2023",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "24th",
+            "year": "2023"
+          },
+          "short": {
+            "month": "06",
+            "day": "24",
+            "year": "23"
+          }
+        },
         "hasStats": true,
-        "id": "zJaiMh6Xv4MCnhD",
+        "id": "ZReyMiFm6rqIFYE",
         "images": {
           "hero": "2023/06/21/8f85de22-b937-4ea5-9dfa-e45eb357e7b8.jpeg",
           "supplementary": []
@@ -3097,16 +3433,35 @@ const data = [
           }
         },
         "termini": {
-          "end": "U Vallone",
+          "end": [
+            "U Vallone"
+          ],
           "isSame": false,
-          "start": "Ascu Stagnu"
+          "start": [
+            "Ascu Stagnu"
+          ]
         },
-        "title": "Ascu Stagnu to U Vallone"
+        "title": [
+          "Ascu Stagnu",
+          "to U",
+          "Vallone"
+        ]
       },
       {
-        "date": "June 25th, 2023",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "25th",
+            "year": "2023"
+          },
+          "short": {
+            "month": "06",
+            "day": "25",
+            "year": "23"
+          }
+        },
         "hasStats": true,
-        "id": "4WRwECPfffUDvZE",
+        "id": "gNuMPn7RVpVTyFX",
         "images": {
           "hero": "2023/06/21/f0dc6ac2-b0e5-4e2a-b874-0d40f47c454b.jpeg",
           "supplementary": []
@@ -3190,16 +3545,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Castel di Vergio",
+          "end": [
+            "Castel di",
+            "Vergio"
+          ],
           "isSame": false,
-          "start": "U Vallone"
+          "start": [
+            "U Vallone"
+          ]
         },
-        "title": "U Vallone to Castel di Vergio"
+        "title": [
+          "U Vallone",
+          "to Castel",
+          "di Vergio"
+        ]
       },
       {
-        "date": "June 26th, 2023",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "26th",
+            "year": "2023"
+          },
+          "short": {
+            "month": "06",
+            "day": "26",
+            "year": "23"
+          }
+        },
         "hasStats": true,
-        "id": "SRUBVRgX6MsORt3",
+        "id": "dlQmM0V8XPSTiUG",
         "images": {
           "hero": "2023/06/21/95b4adaa-bbbe-4de3-b9f8-96365390f142.jpeg",
           "supplementary": []
@@ -3283,16 +3658,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Manganu",
+          "end": [
+            "Manganu"
+          ],
           "isSame": false,
-          "start": "Castel di Vergio"
+          "start": [
+            "Castel di",
+            "Vergio"
+          ]
         },
-        "title": "Castel di Vergio to Manganu"
+        "title": [
+          "Castel di",
+          "Vergio to",
+          "Manganu"
+        ]
       },
       {
-        "date": "June 27th, 2023",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "27th",
+            "year": "2023"
+          },
+          "short": {
+            "month": "06",
+            "day": "27",
+            "year": "23"
+          }
+        },
         "hasStats": true,
-        "id": "XC96ocPQjEXYtgP",
+        "id": "IxX2vELrXoaalcI",
         "images": {
           "hero": "2023/06/21/05769f04-5b00-4fd5-a233-55c00c9871c5.jpeg",
           "supplementary": []
@@ -3376,16 +3771,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Petra Piana",
+          "end": [
+            "Petra Piana"
+          ],
           "isSame": false,
-          "start": "Manganu"
+          "start": [
+            "Manganu"
+          ]
         },
-        "title": "Manganu to Petra Piana"
+        "title": [
+          "Manganu to",
+          "Petra Piana"
+        ]
       },
       {
-        "date": "June 28th, 2023",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "28th",
+            "year": "2023"
+          },
+          "short": {
+            "month": "06",
+            "day": "28",
+            "year": "23"
+          }
+        },
         "hasStats": true,
-        "id": "KhyO7U9cTnHqDwe",
+        "id": "2GHL3few2G2bXL9",
         "images": {
           "hero": "2023/06/21/4e7bda74-809e-48a9-a904-5645bf2e7dde.jpeg",
           "supplementary": []
@@ -3469,16 +3882,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "l'Onda",
+          "end": [
+            "l'Onda"
+          ],
           "isSame": false,
-          "start": "Petra Piana"
+          "start": [
+            "Petra Piana"
+          ]
         },
-        "title": "Petra Piana to l'Onda"
+        "title": [
+          "Petra Piana",
+          "to l'Onda"
+        ]
       },
       {
-        "date": "June 29th, 2023",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "29th",
+            "year": "2023"
+          },
+          "short": {
+            "month": "06",
+            "day": "29",
+            "year": "23"
+          }
+        },
         "hasStats": true,
-        "id": "YnDMLc4gnHtXpPq",
+        "id": "TDK86bOdsNd7V7k",
         "images": {
           "hero": "2023/06/21/2cc8532b-6441-49fb-927e-ebdb001b78cf.jpeg",
           "supplementary": []
@@ -3562,16 +3993,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Vizzavona",
+          "end": [
+            "Vizzavona"
+          ],
           "isSame": false,
-          "start": "l'Onda"
+          "start": [
+            "l'Onda"
+          ]
         },
-        "title": "l'Onda to Vizzavona"
+        "title": [
+          "l'Onda to",
+          "Vizzavona"
+        ]
       },
       {
-        "date": "June 30th, 2023",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "30th",
+            "year": "2023"
+          },
+          "short": {
+            "month": "06",
+            "day": "30",
+            "year": "23"
+          }
+        },
         "hasStats": true,
-        "id": "3PLNvwASIUVGscd",
+        "id": "8O4nGcW3ttzG9vb",
         "images": {
           "hero": "2023/06/21/54334c14-8bae-4478-97f7-179f79cd2ca6.jpeg",
           "supplementary": []
@@ -3655,16 +4104,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Bocca di Verdi",
+          "end": [
+            "Bocca di",
+            "Verdi"
+          ],
           "isSame": false,
-          "start": "Vizzavona"
+          "start": [
+            "Vizzavona"
+          ]
         },
-        "title": "Vizzavona to Bocca di Verdi"
+        "title": [
+          "Vizzavona",
+          "to Bocca di",
+          "Verdi"
+        ]
       },
       {
-        "date": "July 1st, 2023",
+        "date": {
+          "long": {
+            "month": "July",
+            "day": "1st",
+            "year": "2023"
+          },
+          "short": {
+            "month": "07",
+            "day": "01",
+            "year": "23"
+          }
+        },
         "hasStats": true,
-        "id": "TbgCA4ZVeFjeZpJ",
+        "id": "NhnkPMJfEE4TfCn",
         "images": {
           "hero": "2023/06/21/73a5df9e-fefd-43d0-ad5a-7f71dcb003cc.jpeg",
           "supplementary": []
@@ -3748,16 +4217,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "d'Usciolu",
+          "end": [
+            "d'Usciolu"
+          ],
           "isSame": false,
-          "start": "Bocca di Verdi"
+          "start": [
+            "Bocca di",
+            "Verdi"
+          ]
         },
-        "title": "Bocca di Verdi to d'Usciolu"
+        "title": [
+          "Bocca di",
+          "Verdi to",
+          "d'Usciolu"
+        ]
       },
       {
-        "date": "July 2nd, 2023",
+        "date": {
+          "long": {
+            "month": "July",
+            "day": "2nd",
+            "year": "2023"
+          },
+          "short": {
+            "month": "07",
+            "day": "02",
+            "year": "23"
+          }
+        },
         "hasStats": true,
-        "id": "f25rJf2WIFiTj3d",
+        "id": "Ooefi71j7Cbu91X",
         "images": {
           "hero": "2023/06/21/d36a683f-4d95-4b0c-987d-d190336c49ee.jpeg",
           "supplementary": []
@@ -3841,16 +4330,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "d'Asinau",
+          "end": [
+            "d'Asinau"
+          ],
           "isSame": false,
-          "start": "d'Usciolu"
+          "start": [
+            "d'Usciolu"
+          ]
         },
-        "title": "d'Usciolu to d'Asinau"
+        "title": [
+          "d'Usciolu",
+          "to d'Asinau"
+        ]
       },
       {
-        "date": "July 3rd, 2023",
+        "date": {
+          "long": {
+            "month": "July",
+            "day": "3rd",
+            "year": "2023"
+          },
+          "short": {
+            "month": "07",
+            "day": "03",
+            "year": "23"
+          }
+        },
         "hasStats": true,
-        "id": "4ElT8eGhBVlluyR",
+        "id": "AczIM9nQ77ZX5fX",
         "images": {
           "hero": "2023/06/21/f0cd0897-3fc9-47a2-808e-e1627dfb45bc.jpeg",
           "supplementary": []
@@ -3934,11 +4441,18 @@ const data = [
           }
         },
         "termini": {
-          "end": "Conca",
+          "end": [
+            "Conca"
+          ],
           "isSame": false,
-          "start": "d'Asinau"
+          "start": [
+            "d'Asinau"
+          ]
         },
-        "title": "d'Asinau to Conca"
+        "title": [
+          "d'Asinau to",
+          "Conca"
+        ]
       }
     ],
     "stats": {
@@ -3988,17 +4502,25 @@ const data = [
       }
     },
     "termini": {
-      "end": "Conca",
+      "end": [
+        "Conca"
+      ],
       "isSame": false,
-      "start": "Calenzana"
+      "start": [
+        "Calenzana"
+      ]
     },
     "timestamp": "1687332000",
     "title": [
       "GR20"
     ],
-    "type": "thru-hike"
+    "type": "thru-hiking"
   },
   {
+    "categories": [
+      "vacation",
+      "africa"
+    ],
     "date": {
       "dates": {
         "start": {
@@ -4036,15 +4558,30 @@ const data = [
     ],
     "gear": null,
     "hasGear": false,
-    "id": "aLwfWTEWGeo84I5",
+    "id": "dph4p3glikpK4lK",
+    "images": {
+      "hero": "2022/12/28/88613c33-7796-47be-afc6-d31f51a80600.jpeg"
+    },
     "index": 2,
+    "label": "destination",
     "location": "Egypt",
     "slug": "cairo-luxor",
     "stages": [
       {
-        "date": "December 29th, 2022",
+        "date": {
+          "long": {
+            "month": "December",
+            "day": "29th",
+            "year": "2022"
+          },
+          "short": {
+            "month": "12",
+            "day": "29",
+            "year": "22"
+          }
+        },
         "hasStats": false,
-        "id": "DCk7q5bpdb7Y2Cl",
+        "id": "ozYiq4GuXJQJZlm",
         "images": {
           "hero": "2022/12/28/4a450c11-fa71-4501-83de-95cf248aeecc.jpeg",
           "supplementary": [
@@ -4053,7 +4590,7 @@ const data = [
           ]
         },
         "index": 0,
-        "location": "Cairo",
+        "location": "Giza",
         "slug": "giza-plateau",
         "stats": {
           "distance": null,
@@ -4063,16 +4600,36 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": "Giza Plateau",
+          "end": [
+            "Giza",
+            "Plateau"
+          ],
           "isSame": true,
-          "start": "Giza Plateau"
+          "start": [
+            "Giza",
+            "Plateau"
+          ]
         },
-        "title": "Giza Plateau"
+        "title": [
+          "Giza",
+          "Plateau"
+        ]
       },
       {
-        "date": "December 30th, 2022",
+        "date": {
+          "long": {
+            "month": "December",
+            "day": "30th",
+            "year": "2022"
+          },
+          "short": {
+            "month": "12",
+            "day": "30",
+            "year": "22"
+          }
+        },
         "hasStats": false,
-        "id": "WsgcGBTzDG3JmIb",
+        "id": "OkLeNHU1tKmu2yP",
         "images": {
           "hero": "2022/12/28/2fbb089e-8a80-4c3b-b071-709cc9702a84.jpeg",
           "supplementary": [
@@ -4081,7 +4638,7 @@ const data = [
           ]
         },
         "index": 1,
-        "location": "Cairo",
+        "location": "Saqqarah & Dahshur",
         "slug": "step-and-bent-pyramids",
         "stats": {
           "distance": null,
@@ -4091,16 +4648,39 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": "Step and Bent Pyramids",
+          "end": [
+            "Step and",
+            "Bent",
+            "Pyramids"
+          ],
           "isSame": true,
-          "start": "Step and Bent Pyramids"
+          "start": [
+            "Step and",
+            "Bent",
+            "Pyramids"
+          ]
         },
-        "title": "Step and Bent Pyramids"
+        "title": [
+          "Step and",
+          "Bent",
+          "Pyramids"
+        ]
       },
       {
-        "date": "January 1st, 2023",
+        "date": {
+          "long": {
+            "month": "January",
+            "day": "1st",
+            "year": "2023"
+          },
+          "short": {
+            "month": "01",
+            "day": "01",
+            "year": "23"
+          }
+        },
         "hasStats": false,
-        "id": "bpnPuWAP5PznA7m",
+        "id": "CluRn51EjcQhCJf",
         "images": {
           "hero": "2022/12/28/f24edc7b-3854-40c5-a2e7-33e2e2e27bde.jpeg",
           "supplementary": []
@@ -4116,22 +4696,39 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": "Museums",
+          "end": [
+            "Museums"
+          ],
           "isSame": true,
-          "start": "Museums"
+          "start": [
+            "Museums"
+          ]
         },
-        "title": "Museums"
+        "title": [
+          "Museums"
+        ]
       },
       {
-        "date": "January 3rd, 2023",
+        "date": {
+          "long": {
+            "month": "January",
+            "day": "3rd",
+            "year": "2023"
+          },
+          "short": {
+            "month": "01",
+            "day": "03",
+            "year": "23"
+          }
+        },
         "hasStats": false,
-        "id": "0tCZZJwAdYCjtcP",
+        "id": "WJJfl3qyyv4KKDd",
         "images": {
           "hero": "2022/12/28/5e393275-ee80-475d-83cf-26192cd55738.jpeg",
           "supplementary": []
         },
         "index": 3,
-        "location": "Luxor",
+        "location": "West Bank of Luxor",
         "slug": "colossi-of-memnon",
         "stats": {
           "distance": null,
@@ -4141,16 +4738,36 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": "Colossi of Memnon",
+          "end": [
+            "Colossi of",
+            "Memnon"
+          ],
           "isSame": true,
-          "start": "Colossi of Memnon"
+          "start": [
+            "Colossi of",
+            "Memnon"
+          ]
         },
-        "title": "Colossi of Memnon"
+        "title": [
+          "Colossi of",
+          "Memnon"
+        ]
       },
       {
-        "date": "January 3rd, 2023",
+        "date": {
+          "long": {
+            "month": "January",
+            "day": "3rd",
+            "year": "2023"
+          },
+          "short": {
+            "month": "01",
+            "day": "03",
+            "year": "23"
+          }
+        },
         "hasStats": false,
-        "id": "Hi1XQ6UlALWODDc",
+        "id": "nu9e7aWHC1LwARv",
         "images": {
           "hero": "2022/12/28/f135fdfe-1c54-4f54-b8b5-fbd7887055ab.jpeg",
           "supplementary": [
@@ -4159,7 +4776,7 @@ const data = [
           ]
         },
         "index": 4,
-        "location": "Luxor",
+        "location": "West Bank of Luxor",
         "slug": "valley-of-the-kings",
         "stats": {
           "distance": null,
@@ -4169,16 +4786,36 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": "Valley of the Kings",
+          "end": [
+            "Valley of",
+            "the Kings"
+          ],
           "isSame": true,
-          "start": "Valley of the Kings"
+          "start": [
+            "Valley of",
+            "the Kings"
+          ]
         },
-        "title": "Valley of the Kings"
+        "title": [
+          "Valley of",
+          "the Kings"
+        ]
       },
       {
-        "date": "January 3rd, 2023",
+        "date": {
+          "long": {
+            "month": "January",
+            "day": "3rd",
+            "year": "2023"
+          },
+          "short": {
+            "month": "01",
+            "day": "03",
+            "year": "23"
+          }
+        },
         "hasStats": false,
-        "id": "QzJMByeoQekxwmm",
+        "id": "9vbcTu3UkScWqL4",
         "images": {
           "hero": "2022/12/28/bc5b055a-7117-4e18-9aac-8384ba214d5e.jpeg",
           "supplementary": [
@@ -4187,7 +4824,7 @@ const data = [
           ]
         },
         "index": 5,
-        "location": "Luxor",
+        "location": "West Bank of Luxor",
         "slug": "valley-of-the-queens",
         "stats": {
           "distance": null,
@@ -4197,16 +4834,36 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": "Valley of the Queens",
+          "end": [
+            "Valley of",
+            "the Queens"
+          ],
           "isSame": true,
-          "start": "Valley of the Queens"
+          "start": [
+            "Valley of",
+            "the Queens"
+          ]
         },
-        "title": "Valley of the Queens"
+        "title": [
+          "Valley of",
+          "the Queens"
+        ]
       },
       {
-        "date": "January 3rd, 2023",
+        "date": {
+          "long": {
+            "month": "January",
+            "day": "3rd",
+            "year": "2023"
+          },
+          "short": {
+            "month": "01",
+            "day": "03",
+            "year": "23"
+          }
+        },
         "hasStats": false,
-        "id": "yQHDEOmuNgTLHU7",
+        "id": "BzcEgppE1vSRwRB",
         "images": {
           "hero": "2022/12/28/44f2c787-1209-4e11-a2fe-64030e0c472c.jpeg",
           "supplementary": [
@@ -4215,8 +4872,8 @@ const data = [
           ]
         },
         "index": 6,
-        "location": "Luxor",
-        "slug": "habu-temple",
+        "location": "West Bank of Luxor",
+        "slug": "medinet-habu-temple",
         "stats": {
           "distance": null,
           "gain": null,
@@ -4225,16 +4882,36 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": "Habu Temple",
+          "end": [
+            "Medinet",
+            "Habu Temple"
+          ],
           "isSame": true,
-          "start": "Habu Temple"
+          "start": [
+            "Medinet",
+            "Habu Temple"
+          ]
         },
-        "title": "Habu Temple"
+        "title": [
+          "Medinet",
+          "Habu Temple"
+        ]
       },
       {
-        "date": "January 3rd, 2023",
+        "date": {
+          "long": {
+            "month": "January",
+            "day": "3rd",
+            "year": "2023"
+          },
+          "short": {
+            "month": "01",
+            "day": "03",
+            "year": "23"
+          }
+        },
         "hasStats": false,
-        "id": "0KeQw4hU7q0UIUy",
+        "id": "h33kRV8fR6MFoMo",
         "images": {
           "hero": "2022/12/28/b7e2eeb1-90d3-49cb-bdb8-41acf2162f78.jpeg",
           "supplementary": [
@@ -4243,8 +4920,8 @@ const data = [
           ]
         },
         "index": 7,
-        "location": "Luxor",
-        "slug": "hatsheputs-temple",
+        "location": "West Bank of Luxor",
+        "slug": "hatshepsuts-mortuary-temple",
         "stats": {
           "distance": null,
           "gain": null,
@@ -4253,16 +4930,39 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": "Hatsheputs Temple",
+          "end": [
+            "Hatshepsuts",
+            "Mortuary",
+            "Temple"
+          ],
           "isSame": true,
-          "start": "Hatsheputs Temple"
+          "start": [
+            "Hatshepsuts",
+            "Mortuary",
+            "Temple"
+          ]
         },
-        "title": "Hatsheputs Temple"
+        "title": [
+          "Hatshepsuts",
+          "Mortuary",
+          "Temple"
+        ]
       },
       {
-        "date": "January 4th, 2023",
+        "date": {
+          "long": {
+            "month": "January",
+            "day": "4th",
+            "year": "2023"
+          },
+          "short": {
+            "month": "01",
+            "day": "04",
+            "year": "23"
+          }
+        },
         "hasStats": false,
-        "id": "mMKB9VHZAyoHEid",
+        "id": "3JS252yL4Ebtyp6",
         "images": {
           "hero": "2022/12/28/b13b3a23-187a-4dc4-912d-e225b21af78a.jpeg",
           "supplementary": [
@@ -4271,7 +4971,7 @@ const data = [
           ]
         },
         "index": 8,
-        "location": "Luxor",
+        "location": "West Bank of Luxor",
         "slug": "hot-air-balloon-ride",
         "stats": {
           "distance": null,
@@ -4281,16 +4981,39 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": "Hot Air Balloon Ride",
+          "end": [
+            "Hot Air",
+            "Balloon",
+            "Ride"
+          ],
           "isSame": true,
-          "start": "Hot Air Balloon Ride"
+          "start": [
+            "Hot Air",
+            "Balloon",
+            "Ride"
+          ]
         },
-        "title": "Hot Air Balloon Ride"
+        "title": [
+          "Hot Air",
+          "Balloon",
+          "Ride"
+        ]
       },
       {
-        "date": "January 4th, 2023",
+        "date": {
+          "long": {
+            "month": "January",
+            "day": "4th",
+            "year": "2023"
+          },
+          "short": {
+            "month": "01",
+            "day": "04",
+            "year": "23"
+          }
+        },
         "hasStats": false,
-        "id": "wRMhb0VGNl1vomd",
+        "id": "IHJnlrYzD1KoZob",
         "images": {
           "hero": "2022/12/28/9799718c-81f7-460d-9f0a-7ddd2dffb060.jpeg",
           "supplementary": [
@@ -4309,16 +5032,36 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": "Luxor Temple",
+          "end": [
+            "Luxor",
+            "Temple"
+          ],
           "isSame": true,
-          "start": "Luxor Temple"
+          "start": [
+            "Luxor",
+            "Temple"
+          ]
         },
-        "title": "Luxor Temple"
+        "title": [
+          "Luxor",
+          "Temple"
+        ]
       },
       {
-        "date": "January 4th, 2023",
+        "date": {
+          "long": {
+            "month": "January",
+            "day": "4th",
+            "year": "2023"
+          },
+          "short": {
+            "month": "01",
+            "day": "04",
+            "year": "23"
+          }
+        },
         "hasStats": false,
-        "id": "9eJ07CkZZv50nLp",
+        "id": "g1Ari9bVUqbTNCx",
         "images": {
           "hero": "2022/12/28/6bf7f094-4f84-42b6-8bbc-5b501a25f3e7.jpeg",
           "supplementary": [
@@ -4337,11 +5080,23 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": "Karnak Temple Complex",
+          "end": [
+            "Karnak",
+            "Temple",
+            "Complex"
+          ],
           "isSame": true,
-          "start": "Karnak Temple Complex"
+          "start": [
+            "Karnak",
+            "Temple",
+            "Complex"
+          ]
         },
-        "title": "Karnak Temple Complex"
+        "title": [
+          "Karnak",
+          "Temple",
+          "Complex"
+        ]
       }
     ],
     "stats": {
@@ -4359,18 +5114,26 @@ const data = [
       }
     },
     "termini": {
-      "end": "Luxor",
+      "end": [
+        "Luxor"
+      ],
       "isSame": false,
-      "start": "Cairo"
+      "start": [
+        "Cairo"
+      ]
     },
     "timestamp": "1672304400",
     "title": [
       "Cairo +",
       "Luxor"
     ],
-    "type": "vacation"
+    "type": "vacationing"
   },
   {
+    "categories": [
+      "section-hike",
+      "north america"
+    ],
     "date": {
       "dates": null,
       "year": [
@@ -5148,15 +5911,30 @@ const data = [
       "weightWorn": "2.75"
     },
     "hasGear": true,
-    "id": "nKRGVkCjCyf8amN",
+    "id": "qB1aA24StqLXxrH",
+    "images": {
+      "hero": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg"
+    },
     "index": 3,
-    "location": "Wisconsin",
+    "label": "section",
+    "location": "Wisconsin USA",
     "slug": "ice-age-trail",
     "stages": [
       {
-        "date": "July 15th, 2022",
+        "date": {
+          "long": {
+            "month": "July",
+            "day": "15th",
+            "year": "2022"
+          },
+          "short": {
+            "month": "07",
+            "day": "15",
+            "year": "22"
+          }
+        },
         "hasStats": true,
-        "id": "qEcaNtXy1W5whtK",
+        "id": "glbG0WSKjrmrUbf",
         "images": {
           "hero": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",
           "supplementary": []
@@ -5240,16 +6018,42 @@ const data = [
           }
         },
         "termini": {
-          "end": "Blue Spring and Stony Ridge Segments",
+          "end": [
+            "Blue Spring",
+            "and Stony",
+            "Ridge",
+            "Segments"
+          ],
           "isSame": true,
-          "start": "Blue Spring and Stony Ridge Segments"
+          "start": [
+            "Blue Spring",
+            "and Stony",
+            "Ridge",
+            "Segments"
+          ]
         },
-        "title": "Blue Spring and Stony Ridge Segments"
+        "title": [
+          "Blue Spring",
+          "and Stony",
+          "Ridge",
+          "Segments"
+        ]
       },
       {
-        "date": "May 3rd, 2025",
+        "date": {
+          "long": {
+            "month": "May",
+            "day": "3rd",
+            "year": "2025"
+          },
+          "short": {
+            "month": "05",
+            "day": "03",
+            "year": "25"
+          }
+        },
         "hasStats": true,
-        "id": "RlA6qyajMLrf4Td",
+        "id": "z9gS9vPIgA0AP20",
         "images": {
           "hero": "2025/05/03/e402c0b1-e827-4123-b7b5-74947b240687.jpeg",
           "supplementary": []
@@ -5333,16 +6137,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Parnell Segment",
+          "end": [
+            "Parnell",
+            "Segment"
+          ],
           "isSame": true,
-          "start": "Parnell Segment"
+          "start": [
+            "Parnell",
+            "Segment"
+          ]
         },
-        "title": "Parnell Segment"
+        "title": [
+          "Parnell",
+          "Segment"
+        ]
       },
       {
-        "date": "May 4th, 2025",
+        "date": {
+          "long": {
+            "month": "May",
+            "day": "4th",
+            "year": "2025"
+          },
+          "short": {
+            "month": "05",
+            "day": "04",
+            "year": "25"
+          }
+        },
         "hasStats": true,
-        "id": "nKxGb9KolfUqnUV",
+        "id": "8zBOwx5adYIm8uK",
         "images": {
           "hero": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
           "supplementary": []
@@ -5426,11 +6250,20 @@ const data = [
           }
         },
         "termini": {
-          "end": "Greenbush Segment",
+          "end": [
+            "Greenbush",
+            "Segment"
+          ],
           "isSame": true,
-          "start": "Greenbush Segment"
+          "start": [
+            "Greenbush",
+            "Segment"
+          ]
         },
-        "title": "Greenbush Segment"
+        "title": [
+          "Greenbush",
+          "Segment"
+        ]
       }
     ],
     "stats": {
@@ -5480,18 +6313,30 @@ const data = [
       }
     },
     "termini": {
-      "end": "Greenbush Segment",
+      "end": [
+        "Greenbush",
+        "Segment"
+      ],
       "isSame": false,
-      "start": "Blue Spring and Stony Ridge Segments"
+      "start": [
+        "Blue Spring",
+        "and Stony",
+        "Ridge",
+        "Segments"
+      ]
     },
     "timestamp": "1657904400",
     "title": [
       "Ice Age",
       "Trail"
     ],
-    "type": "section-hike"
+    "type": "section-hiking"
   },
   {
+    "categories": [
+      "thru-hike",
+      "europe"
+    ],
     "date": {
       "dates": {
         "start": {
@@ -6246,15 +7091,30 @@ const data = [
       "weightWorn": "3.74"
     },
     "hasGear": true,
-    "id": "fOyzY3AQLIvo7mC",
+    "id": "BnwDtCMJ6qLfHJJ",
+    "images": {
+      "hero": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg"
+    },
     "index": 4,
-    "location": "Scotland",
+    "label": "day",
+    "location": "Scotland UK",
     "slug": "west-highland-way",
     "stages": [
       {
-        "date": "May 7th, 2022",
+        "date": {
+          "long": {
+            "month": "May",
+            "day": "7th",
+            "year": "2022"
+          },
+          "short": {
+            "month": "05",
+            "day": "07",
+            "year": "22"
+          }
+        },
         "hasStats": true,
-        "id": "bnQUxruTWldmcqR",
+        "id": "5zAyI9lT3A5uksU",
         "images": {
           "hero": "2022/05/07/75a8c027-07cd-4184-9157-d48dd5d1a32e.jpeg",
           "supplementary": []
@@ -6338,16 +7198,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Drymen",
+          "end": [
+            "Drymen"
+          ],
           "isSame": false,
-          "start": "Milngavie"
+          "start": [
+            "Milngavie"
+          ]
         },
-        "title": "Milngavie to Drymen"
+        "title": [
+          "Milngavie",
+          "to Drymen"
+        ]
       },
       {
-        "date": "May 8th, 2022",
+        "date": {
+          "long": {
+            "month": "May",
+            "day": "8th",
+            "year": "2022"
+          },
+          "short": {
+            "month": "05",
+            "day": "08",
+            "year": "22"
+          }
+        },
         "hasStats": true,
-        "id": "jWv2KQP8NWry5jv",
+        "id": "pOuJbvDxufAWysz",
         "images": {
           "hero": "2022/05/07/e8dd9fed-56e4-45bf-aee4-d1bc44a5363c.jpeg",
           "supplementary": []
@@ -6431,16 +7309,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Sallochy",
+          "end": [
+            "Sallochy"
+          ],
           "isSame": false,
-          "start": "Drymen"
+          "start": [
+            "Drymen"
+          ]
         },
-        "title": "Drymen to Sallochy"
+        "title": [
+          "Drymen to",
+          "Sallochy"
+        ]
       },
       {
-        "date": "May 9th, 2022",
+        "date": {
+          "long": {
+            "month": "May",
+            "day": "9th",
+            "year": "2022"
+          },
+          "short": {
+            "month": "05",
+            "day": "09",
+            "year": "22"
+          }
+        },
         "hasStats": true,
-        "id": "kid1gI6PYmNRL32",
+        "id": "eOwgYVXZqsIps9j",
         "images": {
           "hero": "2022/05/07/e610c340-2b8c-481c-8442-dc4543db3f2c.jpeg",
           "supplementary": []
@@ -6524,16 +7420,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Bienglas Farm",
+          "end": [
+            "Bienglas",
+            "Farm"
+          ],
           "isSame": false,
-          "start": "Sallochy"
+          "start": [
+            "Sallochy"
+          ]
         },
-        "title": "Sallochy to Bienglas Farm"
+        "title": [
+          "Sallochy to",
+          "Bienglas",
+          "Farm"
+        ]
       },
       {
-        "date": "May 10th, 2022",
+        "date": {
+          "long": {
+            "month": "May",
+            "day": "10th",
+            "year": "2022"
+          },
+          "short": {
+            "month": "05",
+            "day": "10",
+            "year": "22"
+          }
+        },
         "hasStats": true,
-        "id": "NFRu9yBa2PZ6qHT",
+        "id": "06OmnifntiyBLX3",
         "images": {
           "hero": "2022/05/07/b7df127a-0f69-4b29-843f-e1a7c6f858bf.jpeg",
           "supplementary": []
@@ -6617,16 +7533,38 @@ const data = [
           }
         },
         "termini": {
-          "end": "Bridge of Orchy",
+          "end": [
+            "Bridge of",
+            "Orchy"
+          ],
           "isSame": false,
-          "start": "Bienglas Farm"
+          "start": [
+            "Bienglas",
+            "Farm"
+          ]
         },
-        "title": "Bienglas Farm to Bridge of Orchy"
+        "title": [
+          "Bienglas",
+          "Farm to",
+          "Bridge of",
+          "Orchy"
+        ]
       },
       {
-        "date": "May 11th, 2022",
+        "date": {
+          "long": {
+            "month": "May",
+            "day": "11th",
+            "year": "2022"
+          },
+          "short": {
+            "month": "05",
+            "day": "11",
+            "year": "22"
+          }
+        },
         "hasStats": true,
-        "id": "j5QpogeeA8E2w6Y",
+        "id": "pZCQLNhsk6DqQKF",
         "images": {
           "hero": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
           "supplementary": []
@@ -6710,16 +7648,37 @@ const data = [
           }
         },
         "termini": {
-          "end": "Kinlochleven",
+          "end": [
+            "",
+            "Kinlochleven"
+          ],
           "isSame": false,
-          "start": "Bridge of Orchy"
+          "start": [
+            "Bridge of",
+            "Orchy"
+          ]
         },
-        "title": "Bridge of Orchy to Kinlochleven"
+        "title": [
+          "Bridge of",
+          "Orchy to",
+          "Kinlochleven"
+        ]
       },
       {
-        "date": "May 12th, 2022",
+        "date": {
+          "long": {
+            "month": "May",
+            "day": "12th",
+            "year": "2022"
+          },
+          "short": {
+            "month": "05",
+            "day": "12",
+            "year": "22"
+          }
+        },
         "hasStats": true,
-        "id": "wlwOTa9jWuSEwGB",
+        "id": "xvs9qGXsbfjh5KU",
         "images": {
           "hero": "2022/05/07/07741eea-d85e-42cf-a2d4-d0f87102bffc.jpeg",
           "supplementary": []
@@ -6803,11 +7762,20 @@ const data = [
           }
         },
         "termini": {
-          "end": "Fort William",
+          "end": [
+            "Fort",
+            "William"
+          ],
           "isSame": false,
-          "start": "Kinlochleven"
+          "start": [
+            "",
+            "Kinlochleven"
+          ]
         },
-        "title": "Kinlochleven to Fort William"
+        "title": [
+          "",
+          "Kinlochleven"
+        ]
       }
     ],
     "stats": {
@@ -6857,9 +7825,14 @@ const data = [
       }
     },
     "termini": {
-      "end": "Fort William",
+      "end": [
+        "",
+        "Kinlochleven"
+      ],
       "isSame": false,
-      "start": "Milngavie"
+      "start": [
+        "Milngavie"
+      ]
     },
     "timestamp": "1651911600",
     "title": [
@@ -6867,9 +7840,13 @@ const data = [
       "Highland",
       "Way"
     ],
-    "type": "thru-hike"
+    "type": "thru-hiking"
   },
   {
+    "categories": [
+      "thru-hike",
+      "south america"
+    ],
     "date": {
       "dates": {
         "start": {
@@ -7415,7 +8392,6 @@ const data = [
               "link": "",
               "name": [
                 "Allergy",
-                "medicine +",
                 "pseudoephedrine"
               ],
               "consumable": true,
@@ -7788,15 +8764,30 @@ const data = [
       "weightWorn": "7.17"
     },
     "hasGear": true,
-    "id": "4UvhFQBnBouahTk",
+    "id": "S7iCieaJeWvV89b",
+    "images": {
+      "hero": "2020/02/18/5e958df4-56a2-4292-ae6d-b694f078a985.jpeg"
+    },
     "index": 5,
-    "location": "Patagonia",
+    "label": "day",
+    "location": "Patagonia Chile",
     "slug": "torres-del-paine-o-circuit",
     "stages": [
       {
-        "date": "February 18th, 2020",
+        "date": {
+          "long": {
+            "month": "February",
+            "day": "18th",
+            "year": "2020"
+          },
+          "short": {
+            "month": "02",
+            "day": "18",
+            "year": "20"
+          }
+        },
         "hasStats": true,
-        "id": "FcMDNC8Q8tId6k6",
+        "id": "uJoJbBKoNg9NkPL",
         "images": {
           "hero": "2020/02/18/619eec82-6980-4f31-a11f-7c5581d02989.jpeg",
           "supplementary": []
@@ -7880,16 +8871,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Seron",
+          "end": [
+            "Seron"
+          ],
           "isSame": false,
-          "start": "Laguna Amarga"
+          "start": [
+            "Laguna",
+            "Amarga"
+          ]
         },
-        "title": "Laguna Amarga to Seron"
+        "title": [
+          "Laguna",
+          "Amarga to",
+          "Seron"
+        ]
       },
       {
-        "date": "February 19th, 2020",
+        "date": {
+          "long": {
+            "month": "February",
+            "day": "19th",
+            "year": "2020"
+          },
+          "short": {
+            "month": "02",
+            "day": "19",
+            "year": "20"
+          }
+        },
         "hasStats": true,
-        "id": "90kIizjIkqPmnJV",
+        "id": "c2t5CI8cG7Rgyxt",
         "images": {
           "hero": "2020/02/18/98e3190e-5480-4eb9-8883-c8d9fbb3f485.jpeg",
           "supplementary": []
@@ -7973,16 +8984,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Dickson",
+          "end": [
+            "Dickson"
+          ],
           "isSame": false,
-          "start": "Seron"
+          "start": [
+            "Seron"
+          ]
         },
-        "title": "Seron to Dickson"
+        "title": [
+          "Seron to",
+          "Dickson"
+        ]
       },
       {
-        "date": "February 20th, 2020",
+        "date": {
+          "long": {
+            "month": "February",
+            "day": "20th",
+            "year": "2020"
+          },
+          "short": {
+            "month": "02",
+            "day": "20",
+            "year": "20"
+          }
+        },
         "hasStats": true,
-        "id": "5WLt0HgXY3eNKpN",
+        "id": "ZKTsF1shuGyilxS",
         "images": {
           "hero": "2020/02/18/f477b7bb-7f38-42ff-a855-f90668a73f28.jpeg",
           "supplementary": []
@@ -8066,16 +9095,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Perros",
+          "end": [
+            "Perros"
+          ],
           "isSame": false,
-          "start": "Dickson"
+          "start": [
+            "Dickson"
+          ]
         },
-        "title": "Dickson to Perros"
+        "title": [
+          "Dickson to",
+          "Perros"
+        ]
       },
       {
-        "date": "February 21st, 2020",
+        "date": {
+          "long": {
+            "month": "February",
+            "day": "21st",
+            "year": "2020"
+          },
+          "short": {
+            "month": "02",
+            "day": "21",
+            "year": "20"
+          }
+        },
         "hasStats": true,
-        "id": "CegJMVbrpvoizUA",
+        "id": "euWcGXk1YM4Wcbq",
         "images": {
           "hero": "2020/02/18/38a1b675-74c7-45b5-9e37-8020d298a0b3.jpeg",
           "supplementary": []
@@ -8159,16 +9206,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Grey",
+          "end": [
+            "Grey"
+          ],
           "isSame": false,
-          "start": "Perros"
+          "start": [
+            "Perros"
+          ]
         },
-        "title": "Perros to Grey"
+        "title": [
+          "Perros to",
+          "Grey"
+        ]
       },
       {
-        "date": "February 22nd, 2020",
+        "date": {
+          "long": {
+            "month": "February",
+            "day": "22nd",
+            "year": "2020"
+          },
+          "short": {
+            "month": "02",
+            "day": "22",
+            "year": "20"
+          }
+        },
         "hasStats": true,
-        "id": "E3cmXGZwPEm6IpA",
+        "id": "cIor1befGss2D7Y",
         "images": {
           "hero": "2020/02/18/dd6e739e-b793-4c64-8e7c-c6a631b467c7.jpeg",
           "supplementary": []
@@ -8252,16 +9317,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Paine Grande",
+          "end": [
+            "Paine",
+            "Grande"
+          ],
           "isSame": false,
-          "start": "Grey"
+          "start": [
+            "Grey"
+          ]
         },
-        "title": "Grey to Paine Grande"
+        "title": [
+          "Grey to",
+          "Paine",
+          "Grande"
+        ]
       },
       {
-        "date": "February 23rd, 2020",
+        "date": {
+          "long": {
+            "month": "February",
+            "day": "23rd",
+            "year": "2020"
+          },
+          "short": {
+            "month": "02",
+            "day": "23",
+            "year": "20"
+          }
+        },
         "hasStats": true,
-        "id": "7oD44MUpTMKzsXU",
+        "id": "LQMpOFlVK4erR8y",
         "images": {
           "hero": "2020/02/18/380820b8-520a-49fa-8f01-651ca63fd84f.jpeg",
           "supplementary": []
@@ -8345,16 +9430,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Frances",
+          "end": [
+            "Frances"
+          ],
           "isSame": false,
-          "start": "Paine Grande"
+          "start": [
+            "Paine",
+            "Grande"
+          ]
         },
-        "title": "Paine Grande to Frances"
+        "title": [
+          "Paine",
+          "Grande to",
+          "Frances"
+        ]
       },
       {
-        "date": "February 24th, 2020",
+        "date": {
+          "long": {
+            "month": "February",
+            "day": "24th",
+            "year": "2020"
+          },
+          "short": {
+            "month": "02",
+            "day": "24",
+            "year": "20"
+          }
+        },
         "hasStats": true,
-        "id": "hVjGY0FNN7688Oq",
+        "id": "d7XgAREJETjrlvY",
         "images": {
           "hero": "2020/02/18/790032e0-6483-4631-9cbe-d912510a1a48.jpeg",
           "supplementary": []
@@ -8438,16 +9543,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Chileno",
+          "end": [
+            "Chileno"
+          ],
           "isSame": false,
-          "start": "Frances"
+          "start": [
+            "Frances"
+          ]
         },
-        "title": "Frances to Chileno"
+        "title": [
+          "Frances to",
+          "Chileno"
+        ]
       },
       {
-        "date": "February 25th, 2020",
+        "date": {
+          "long": {
+            "month": "February",
+            "day": "25th",
+            "year": "2020"
+          },
+          "short": {
+            "month": "02",
+            "day": "25",
+            "year": "20"
+          }
+        },
         "hasStats": true,
-        "id": "qUms58zg7Qjqdoi",
+        "id": "9VKDsVOu6r4Ppth",
         "images": {
           "hero": "2020/02/18/630411a8-f5ce-47fe-8261-f94e00654447.jpeg",
           "supplementary": []
@@ -8531,11 +9654,20 @@ const data = [
           }
         },
         "termini": {
-          "end": "Laguna Amarga",
+          "end": [
+            "Laguna",
+            "Amarga"
+          ],
           "isSame": false,
-          "start": "Chileno"
+          "start": [
+            "Chileno"
+          ]
         },
-        "title": "Chileno to Laguna Amarga"
+        "title": [
+          "Chileno to",
+          "Laguna",
+          "Amarga"
+        ]
       }
     ],
     "stats": {
@@ -8585,9 +9717,15 @@ const data = [
       }
     },
     "termini": {
-      "end": "Laguna Amarga",
+      "end": [
+        "Laguna",
+        "Amarga"
+      ],
       "isSame": true,
-      "start": "Laguna Amarga"
+      "start": [
+        "Laguna",
+        "Amarga"
+      ]
     },
     "timestamp": "1582041600",
     "title": [
@@ -8595,9 +9733,13 @@ const data = [
       "Paine O",
       "Circuit"
     ],
-    "type": "thru-hike"
+    "type": "thru-hiking"
   },
   {
+    "categories": [
+      "thru-hike",
+      "asia"
+    ],
     "date": {
       "dates": {
         "start": {
@@ -8671,7 +9813,6 @@ const data = [
               "category": "sleeping",
               "link": "https://seatosummit.com/products/adaptor-coolmax-liner-insect-shield",
               "name": [
-                "",
                 "Sea-to-Summit"
               ],
               "consumable": false,
@@ -9085,7 +10226,6 @@ const data = [
               "link": "",
               "name": [
                 "Allergy",
-                "medicine +",
                 "pseudoephedrine"
               ],
               "consumable": true,
@@ -9513,15 +10653,30 @@ const data = [
       "weightWorn": "9.93"
     },
     "hasGear": true,
-    "id": "TSiP8xcXLZ0UNcm",
+    "id": "wLMcPbb0jXFi5ru",
+    "images": {
+      "hero": "2019/10/19/b9b20eb0-e569-4778-99c6-de3a3c2eb15e.jpeg"
+    },
     "index": 6,
-    "location": "Nepal",
+    "label": "day",
+    "location": "The Himalayas of Nepal",
     "slug": "annapurna-circuit-basecamp",
     "stages": [
       {
-        "date": "October 19th, 2019",
+        "date": {
+          "long": {
+            "month": "October",
+            "day": "19th",
+            "year": "2019"
+          },
+          "short": {
+            "month": "10",
+            "day": "19",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "yWdOJqB6HN3g1Ji",
+        "id": "EDXJEZsaNoMAwEG",
         "images": {
           "hero": "2019/10/19/672dcde8-57ae-4bf9-885f-ae039d3a824d.jpeg",
           "supplementary": []
@@ -9605,16 +10760,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Bhulbhule",
+          "end": [
+            "Bhulbhule"
+          ],
           "isSame": false,
-          "start": "Besishar"
+          "start": [
+            "Besishar"
+          ]
         },
-        "title": "Besishar to Bhulbhule"
+        "title": [
+          "Besishar to",
+          "Bhulbhule"
+        ]
       },
       {
-        "date": "October 20th, 2019",
+        "date": {
+          "long": {
+            "month": "October",
+            "day": "20th",
+            "year": "2019"
+          },
+          "short": {
+            "month": "10",
+            "day": "20",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "mWRGBKyDkvB9ZPM",
+        "id": "29K5DfGNQyMJ8FU",
         "images": {
           "hero": "2019/10/19/cde86c7c-f794-4a99-8286-9af3de9425fc.jpeg",
           "supplementary": []
@@ -9698,16 +10871,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Jagat",
+          "end": [
+            "Jagat"
+          ],
           "isSame": false,
-          "start": "Bhulbhule"
+          "start": [
+            "Bhulbhule"
+          ]
         },
-        "title": "Bhulbhule to Jagat"
+        "title": [
+          "Bhulbhule",
+          "to Jagat"
+        ]
       },
       {
-        "date": "October 21st, 2019",
+        "date": {
+          "long": {
+            "month": "October",
+            "day": "21st",
+            "year": "2019"
+          },
+          "short": {
+            "month": "10",
+            "day": "21",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "gcAabQza5bVS8hF",
+        "id": "TuhvevnZsmvnC8C",
         "images": {
           "hero": "2019/10/19/69d8dc52-42d4-4295-9b25-1f7542c1da8b.jpeg",
           "supplementary": []
@@ -9791,16 +10982,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Dharapani",
+          "end": [
+            "Dharapani"
+          ],
           "isSame": false,
-          "start": "Jagat"
+          "start": [
+            "Jagat"
+          ]
         },
-        "title": "Jagat to Dharapani"
+        "title": [
+          "Jagat to",
+          "Dharapani"
+        ]
       },
       {
-        "date": "October 22nd, 2019",
+        "date": {
+          "long": {
+            "month": "October",
+            "day": "22nd",
+            "year": "2019"
+          },
+          "short": {
+            "month": "10",
+            "day": "22",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "50RLcGuI3trasMI",
+        "id": "xWv3uLd1YXDRrcq",
         "images": {
           "hero": "2019/10/19/de48b8b7-ef5d-4c21-93a8-d6e4d7628e7f.jpeg",
           "supplementary": []
@@ -9884,16 +11093,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Chame",
+          "end": [
+            "Chame"
+          ],
           "isSame": false,
-          "start": "Dharapani"
+          "start": [
+            "Dharapani"
+          ]
         },
-        "title": "Dharapani to Chame"
+        "title": [
+          "Dharapani",
+          "to Chame"
+        ]
       },
       {
-        "date": "October 23rd, 2019",
+        "date": {
+          "long": {
+            "month": "October",
+            "day": "23rd",
+            "year": "2019"
+          },
+          "short": {
+            "month": "10",
+            "day": "23",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "bflpEKF75i3Hoom",
+        "id": "ZhDJRP08VvnNGoo",
         "images": {
           "hero": "2019/10/19/91fcb255-9894-434c-9c39-41ea5070e819.jpeg",
           "supplementary": []
@@ -9977,16 +11204,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Upper Pisang",
+          "end": [
+            "Upper",
+            "Pisang"
+          ],
           "isSame": false,
-          "start": "Chame"
+          "start": [
+            "Chame"
+          ]
         },
-        "title": "Chame to Upper Pisang"
+        "title": [
+          "Chame to",
+          "Upper",
+          "Pisang"
+        ]
       },
       {
-        "date": "October 24th, 2019",
+        "date": {
+          "long": {
+            "month": "October",
+            "day": "24th",
+            "year": "2019"
+          },
+          "short": {
+            "month": "10",
+            "day": "24",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "rK17iO9MK16JLb3",
+        "id": "Ji1r0R62wLyh4t3",
         "images": {
           "hero": "2019/10/19/b9b20eb0-e569-4778-99c6-de3a3c2eb15e.jpeg",
           "supplementary": []
@@ -10070,16 +11317,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Manang",
+          "end": [
+            "Manang"
+          ],
           "isSame": false,
-          "start": "Upper Pisang"
+          "start": [
+            "Upper",
+            "Pisang"
+          ]
         },
-        "title": "Upper Pisang to Manang"
+        "title": [
+          "Upper",
+          "Pisang to",
+          "Manang"
+        ]
       },
       {
-        "date": "October 25th, 2019",
+        "date": {
+          "long": {
+            "month": "October",
+            "day": "25th",
+            "year": "2019"
+          },
+          "short": {
+            "month": "10",
+            "day": "25",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "lGAnKsZZyDC1iXf",
+        "id": "kxEU0jKjUioByYG",
         "images": {
           "hero": "2019/10/19/ed197052-01d7-4739-807c-39340385c0fc.jpeg",
           "supplementary": []
@@ -10163,16 +11430,38 @@ const data = [
           }
         },
         "termini": {
-          "end": "Tilicho Lake Basecamp",
+          "end": [
+            "Tilicho",
+            "Lake",
+            "Basecamp"
+          ],
           "isSame": false,
-          "start": "Manang"
+          "start": [
+            "Manang"
+          ]
         },
-        "title": "Manang to Tilicho Lake Basecamp"
+        "title": [
+          "Manang to",
+          "Tilicho",
+          "Lake",
+          "Basecamp"
+        ]
       },
       {
-        "date": "October 26th, 2019",
+        "date": {
+          "long": {
+            "month": "October",
+            "day": "26th",
+            "year": "2019"
+          },
+          "short": {
+            "month": "10",
+            "day": "26",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "x5Z6Bwhee4E1nc1",
+        "id": "y1RfwIWE1SR7YQs",
         "images": {
           "hero": "2019/10/19/d7837a44-81d2-4fa0-9912-bb15508be721.jpeg",
           "supplementary": []
@@ -10256,16 +11545,40 @@ const data = [
           }
         },
         "termini": {
-          "end": "Shree Kharka",
+          "end": [
+            "Shree",
+            "Kharka"
+          ],
           "isSame": false,
-          "start": "Tilicho Lake Basecamp"
+          "start": [
+            "Tilicho",
+            "Lake",
+            "Basecamp"
+          ]
         },
-        "title": "Tilicho Lake Basecamp to Shree Kharka"
+        "title": [
+          "Tilicho",
+          "Lake",
+          "Basecamp to",
+          "Shree",
+          "Kharka"
+        ]
       },
       {
-        "date": "October 27th, 2019",
+        "date": {
+          "long": {
+            "month": "October",
+            "day": "27th",
+            "year": "2019"
+          },
+          "short": {
+            "month": "10",
+            "day": "27",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "CrEVCMKomosKNVX",
+        "id": "K4hcjnm2oq60DKB",
         "images": {
           "hero": "2019/10/19/40b7a029-2f0c-4807-94fa-86a07ee9ffa9.jpeg",
           "supplementary": []
@@ -10349,16 +11662,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Phedi",
+          "end": [
+            "Phedi"
+          ],
           "isSame": false,
-          "start": "Shree Kharka"
+          "start": [
+            "Shree",
+            "Kharka"
+          ]
         },
-        "title": "Shree Kharka to Phedi"
+        "title": [
+          "Shree",
+          "Kharka to",
+          "Phedi"
+        ]
       },
       {
-        "date": "October 28th, 2019",
+        "date": {
+          "long": {
+            "month": "October",
+            "day": "28th",
+            "year": "2019"
+          },
+          "short": {
+            "month": "10",
+            "day": "28",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "DLRb2LJ5qk347yo",
+        "id": "7Ylh49UoZVg1YRT",
         "images": {
           "hero": "2019/10/19/f76cbaab-0139-44b4-bc5c-6c816731d927.jpeg",
           "supplementary": []
@@ -10442,16 +11775,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Muktinath",
+          "end": [
+            "Muktinath"
+          ],
           "isSame": false,
-          "start": "Phedi"
+          "start": [
+            "Phedi"
+          ]
         },
-        "title": "Phedi to Muktinath"
+        "title": [
+          "Phedi to",
+          "Muktinath"
+        ]
       },
       {
-        "date": "October 29th, 2019",
+        "date": {
+          "long": {
+            "month": "October",
+            "day": "29th",
+            "year": "2019"
+          },
+          "short": {
+            "month": "10",
+            "day": "29",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "MLMN7MgK9xGZT0x",
+        "id": "9yShMaS5Ztw0sua",
         "images": {
           "hero": "2019/10/19/93b7286f-a87a-4d8e-8d85-6a3f50dcd82c.jpeg",
           "supplementary": []
@@ -10535,16 +11886,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Marpha",
+          "end": [
+            "Marpha"
+          ],
           "isSame": false,
-          "start": "Muktinath"
+          "start": [
+            "Muktinath"
+          ]
         },
-        "title": "Muktinath to Marpha"
+        "title": [
+          "Muktinath",
+          "to Marpha"
+        ]
       },
       {
-        "date": "October 30th, 2019",
+        "date": {
+          "long": {
+            "month": "October",
+            "day": "30th",
+            "year": "2019"
+          },
+          "short": {
+            "month": "10",
+            "day": "30",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "UDN5knHTgJWAaFi",
+        "id": "6mlFNWcgedRAPvG",
         "images": {
           "hero": "2019/10/19/9f9bca6e-e30a-4ca0-b005-5a0bda57f649.jpeg",
           "supplementary": []
@@ -10628,16 +11997,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Ghasa",
+          "end": [
+            "Ghasa"
+          ],
           "isSame": false,
-          "start": "Marpha"
+          "start": [
+            "Marpha"
+          ]
         },
-        "title": "Marpha to Ghasa"
+        "title": [
+          "Marpha to",
+          "Ghasa"
+        ]
       },
       {
-        "date": "October 31st, 2019",
+        "date": {
+          "long": {
+            "month": "October",
+            "day": "31st",
+            "year": "2019"
+          },
+          "short": {
+            "month": "10",
+            "day": "31",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "hfid98BoX2hK9vL",
+        "id": "2Pxv9c2mwR0UzaU",
         "images": {
           "hero": "2019/10/19/5cf22091-8d99-4cdd-870c-f91db81c1049.jpeg",
           "supplementary": []
@@ -10721,16 +12108,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Ghorepani",
+          "end": [
+            "Ghorepani"
+          ],
           "isSame": false,
-          "start": "Ghasa"
+          "start": [
+            "Ghasa"
+          ]
         },
-        "title": "Ghasa to Ghorepani"
+        "title": [
+          "Ghasa to",
+          "Ghorepani"
+        ]
       },
       {
-        "date": "November 1st, 2019",
+        "date": {
+          "long": {
+            "month": "November",
+            "day": "1st",
+            "year": "2019"
+          },
+          "short": {
+            "month": "11",
+            "day": "01",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "cBFmoMN0IUMFBzk",
+        "id": "zYBRoddYz9PNaiD",
         "images": {
           "hero": "2019/10/19/b2ef8848-2e35-43dd-9f06-98434903f810.jpeg",
           "supplementary": []
@@ -10814,16 +12219,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Chomrong",
+          "end": [
+            "Chomrong"
+          ],
           "isSame": false,
-          "start": "Ghorepani"
+          "start": [
+            "Ghorepani"
+          ]
         },
-        "title": "Ghorepani to Chomrong"
+        "title": [
+          "Ghorepani",
+          "to Chomrong"
+        ]
       },
       {
-        "date": "November 2nd, 2019",
+        "date": {
+          "long": {
+            "month": "November",
+            "day": "2nd",
+            "year": "2019"
+          },
+          "short": {
+            "month": "11",
+            "day": "02",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "o0X2Jee2iFY0AZH",
+        "id": "4tfh1BaXcf3B1BQ",
         "images": {
           "hero": "2019/10/19/a052d193-0be9-4288-b017-65d459c3eca1.jpeg",
           "supplementary": []
@@ -10907,16 +12330,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Deurali",
+          "end": [
+            "Deurali"
+          ],
           "isSame": false,
-          "start": "Chomrong"
+          "start": [
+            "Chomrong"
+          ]
         },
-        "title": "Chomrong to Deurali"
+        "title": [
+          "Chomrong to",
+          "Deurali"
+        ]
       },
       {
-        "date": "November 3rd, 2019",
+        "date": {
+          "long": {
+            "month": "November",
+            "day": "3rd",
+            "year": "2019"
+          },
+          "short": {
+            "month": "11",
+            "day": "03",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "YoL4kPPRA1PC4gF",
+        "id": "muO8cufqFbDsQnQ",
         "images": {
           "hero": "2019/10/19/3773c3c4-265f-4e7e-8f0a-d6e1a7d9b85c.jpeg",
           "supplementary": []
@@ -11000,16 +12441,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Annapurna Basecamp",
+          "end": [
+            "Annapurna",
+            "Basecamp"
+          ],
           "isSame": false,
-          "start": "Deurali"
+          "start": [
+            "Deurali"
+          ]
         },
-        "title": "Deurali to Annapurna Basecamp"
+        "title": [
+          "Deurali to",
+          "Annapurna",
+          "Basecamp"
+        ]
       },
       {
-        "date": "November 4th, 2019",
+        "date": {
+          "long": {
+            "month": "November",
+            "day": "4th",
+            "year": "2019"
+          },
+          "short": {
+            "month": "11",
+            "day": "04",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "Oq4N3pNRdlwBKli",
+        "id": "ahDdzl3ncPm2yui",
         "images": {
           "hero": "2019/10/19/490d1db6-aaad-4ed3-9181-081ca318cd16.jpeg",
           "supplementary": []
@@ -11093,16 +12554,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Chomrong",
+          "end": [
+            "Chomrong"
+          ],
           "isSame": false,
-          "start": "Annapurna Basecamp"
+          "start": [
+            "Annapurna",
+            "Basecamp"
+          ]
         },
-        "title": "Annapurna Basecamp to Chomrong"
+        "title": [
+          "Annapurna",
+          "Basecamp to",
+          "Chomrong"
+        ]
       },
       {
-        "date": "November 5th, 2019",
+        "date": {
+          "long": {
+            "month": "November",
+            "day": "5th",
+            "year": "2019"
+          },
+          "short": {
+            "month": "11",
+            "day": "05",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "Qo4rH7o5bKAGHgr",
+        "id": "HDhxXa3dtyx2BQ1",
         "images": {
           "hero": "2019/10/19/8fef1e6f-d483-445c-b19c-d47bb7f1fc68.jpeg",
           "supplementary": []
@@ -11186,11 +12667,18 @@ const data = [
           }
         },
         "termini": {
-          "end": "Jhinudanda",
+          "end": [
+            "Jhinudanda"
+          ],
           "isSame": false,
-          "start": "Chomrong"
+          "start": [
+            "Chomrong"
+          ]
         },
-        "title": "Chomrong to Jhinudanda"
+        "title": [
+          "Chomrong to",
+          "Jhinudanda"
+        ]
       }
     ],
     "stats": {
@@ -11240,9 +12728,13 @@ const data = [
       }
     },
     "termini": {
-      "end": "Jhinudanda",
+      "end": [
+        "Jhinudanda"
+      ],
       "isSame": false,
-      "start": "Besishar"
+      "start": [
+        "Besishar"
+      ]
     },
     "timestamp": "1571465700",
     "title": [
@@ -11250,9 +12742,13 @@ const data = [
       "Circuit +",
       "Basecamp"
     ],
-    "type": "thru-hike"
+    "type": "thru-hiking"
   },
   {
+    "categories": [
+      "peak-bagging",
+      "north america"
+    ],
     "date": {
       "dates": null,
       "year": [
@@ -11681,15 +13177,30 @@ const data = [
       "weightWorn": "3.86"
     },
     "hasGear": true,
-    "id": "fCOYg5VzYZ6xGkM",
+    "id": "3qhOM6Fen4tr4x5",
+    "images": {
+      "hero": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg"
+    },
     "index": 7,
-    "location": "Colorado",
+    "label": "summit",
+    "location": "The Colorado Rocky Mountains",
     "slug": "southern-rockies-14-ers",
     "stages": [
       {
-        "date": "August 31st, 2019",
+        "date": {
+          "long": {
+            "month": "August",
+            "day": "31st",
+            "year": "2019"
+          },
+          "short": {
+            "month": "08",
+            "day": "31",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "8JOjSOvJGd4iNd6",
+        "id": "kLenNtiZseop4L6",
         "images": {
           "hero": "2019/08/31/52f1514b-91a4-494d-93df-6ae9c81df01c.jpeg",
           "supplementary": []
@@ -11773,16 +13284,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Mount Elbert",
+          "end": [
+            "Mount",
+            "Elbert"
+          ],
           "isSame": true,
-          "start": "Mount Elbert"
+          "start": [
+            "Mount",
+            "Elbert"
+          ]
         },
-        "title": "Mount Elbert"
+        "title": [
+          "Mount",
+          "Elbert"
+        ]
       },
       {
-        "date": "September 1st, 2019",
+        "date": {
+          "long": {
+            "month": "September",
+            "day": "1st",
+            "year": "2019"
+          },
+          "short": {
+            "month": "09",
+            "day": "01",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "vMk4mUogLUV5z9b",
+        "id": "lQO4CKt7ZIa2fcJ",
         "images": {
           "hero": "2019/09/01/08d28c7e-387b-418f-8226-b2a87485f1d8.jpeg",
           "supplementary": []
@@ -11866,16 +13397,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Quandary Peak",
+          "end": [
+            "Quandary",
+            "Peak"
+          ],
           "isSame": true,
-          "start": "Quandary Peak"
+          "start": [
+            "Quandary",
+            "Peak"
+          ]
         },
-        "title": "Quandary Peak"
+        "title": [
+          "Quandary",
+          "Peak"
+        ]
       },
       {
-        "date": "September 4th, 2020",
+        "date": {
+          "long": {
+            "month": "September",
+            "day": "4th",
+            "year": "2020"
+          },
+          "short": {
+            "month": "09",
+            "day": "04",
+            "year": "20"
+          }
+        },
         "hasStats": true,
-        "id": "mmXxQQxmwPo2laK",
+        "id": "cBIUe0GYxdoEtxk",
         "images": {
           "hero": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
           "supplementary": []
@@ -11959,16 +13510,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "La Plata Peak",
+          "end": [
+            "La Plata",
+            "Peak"
+          ],
           "isSame": true,
-          "start": "La Plata Peak"
+          "start": [
+            "La Plata",
+            "Peak"
+          ]
         },
-        "title": "La Plata Peak"
+        "title": [
+          "La Plata",
+          "Peak"
+        ]
       },
       {
-        "date": "September 5th, 2020",
+        "date": {
+          "long": {
+            "month": "September",
+            "day": "5th",
+            "year": "2020"
+          },
+          "short": {
+            "month": "09",
+            "day": "05",
+            "year": "20"
+          }
+        },
         "hasStats": true,
-        "id": "CKGuVOlzj31kkb3",
+        "id": "Pzbl5Lv86lizJfH",
         "images": {
           "hero": "2020/09/05/54a89ed8-86d4-4918-b7b3-b883ecea72c8.jpeg",
           "supplementary": []
@@ -12052,16 +13623,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Mount Bierstadt",
+          "end": [
+            "Mount",
+            "Bierstadt"
+          ],
           "isSame": true,
-          "start": "Mount Bierstadt"
+          "start": [
+            "Mount",
+            "Bierstadt"
+          ]
         },
-        "title": "Mount Bierstadt"
+        "title": [
+          "Mount",
+          "Bierstadt"
+        ]
       },
       {
-        "date": "September 6th, 2020",
+        "date": {
+          "long": {
+            "month": "September",
+            "day": "6th",
+            "year": "2020"
+          },
+          "short": {
+            "month": "09",
+            "day": "06",
+            "year": "20"
+          }
+        },
         "hasStats": true,
-        "id": "5F9IVEm9bhZTcKy",
+        "id": "xEGYhLlt2HVXAXe",
         "images": {
           "hero": "2020/09/06/80307849-8964-4e0d-a70f-f6371ca7fcad.jpeg",
           "supplementary": []
@@ -12145,16 +13736,33 @@ const data = [
           }
         },
         "termini": {
-          "end": "Grays Peak",
+          "end": [
+            "Grays Peak"
+          ],
           "isSame": true,
-          "start": "Grays Peak"
+          "start": [
+            "Grays Peak"
+          ]
         },
-        "title": "Grays Peak"
+        "title": [
+          "Grays Peak"
+        ]
       },
       {
-        "date": "September 7th, 2021",
+        "date": {
+          "long": {
+            "month": "September",
+            "day": "7th",
+            "year": "2021"
+          },
+          "short": {
+            "month": "09",
+            "day": "07",
+            "year": "21"
+          }
+        },
         "hasStats": true,
-        "id": "RQG0DUN08TXromH",
+        "id": "39DoNNobb7gi5oU",
         "images": {
           "hero": "2021/09/07/fbe767d5-63c6-4af7-8643-ceef9b4cce92.jpeg",
           "supplementary": []
@@ -12238,16 +13846,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Mount Shavano",
+          "end": [
+            "Mount",
+            "Shavano"
+          ],
           "isSame": true,
-          "start": "Mount Shavano"
+          "start": [
+            "Mount",
+            "Shavano"
+          ]
         },
-        "title": "Mount Shavano"
+        "title": [
+          "Mount",
+          "Shavano"
+        ]
       },
       {
-        "date": "September 9th, 2021",
+        "date": {
+          "long": {
+            "month": "September",
+            "day": "9th",
+            "year": "2021"
+          },
+          "short": {
+            "month": "09",
+            "day": "09",
+            "year": "21"
+          }
+        },
         "hasStats": true,
-        "id": "u5hTwc2FpWE4lrn",
+        "id": "rYiGXnvZ11wfwwk",
         "images": {
           "hero": "2021/09/09/8e1e0c1f-c391-4bc0-807c-7bdd8d20815b.jpeg",
           "supplementary": []
@@ -12331,16 +13959,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Mount DeCaLi",
+          "end": [
+            "Mount",
+            "DeCaLi"
+          ],
           "isSame": true,
-          "start": "Mount DeCaLi"
+          "start": [
+            "Mount",
+            "DeCaLi"
+          ]
         },
-        "title": "Mount DeCaLi"
+        "title": [
+          "Mount",
+          "DeCaLi"
+        ]
       },
       {
-        "date": "September 9th, 2022",
+        "date": {
+          "long": {
+            "month": "September",
+            "day": "9th",
+            "year": "2022"
+          },
+          "short": {
+            "month": "09",
+            "day": "09",
+            "year": "22"
+          }
+        },
         "hasStats": true,
-        "id": "lBvVwcZTQ8A2LkY",
+        "id": "r0dIidII1P9Fk4b",
         "images": {
           "hero": "2022/09/09/f722df6c-2869-4ff0-80f7-37014241e135.jpeg",
           "supplementary": []
@@ -12424,16 +14072,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Mount Belford",
+          "end": [
+            "Mount",
+            "Belford"
+          ],
           "isSame": true,
-          "start": "Mount Belford"
+          "start": [
+            "Mount",
+            "Belford"
+          ]
         },
-        "title": "Mount Belford"
+        "title": [
+          "Mount",
+          "Belford"
+        ]
       },
       {
-        "date": "September 11th, 2022",
+        "date": {
+          "long": {
+            "month": "September",
+            "day": "11th",
+            "year": "2022"
+          },
+          "short": {
+            "month": "09",
+            "day": "11",
+            "year": "22"
+          }
+        },
         "hasStats": true,
-        "id": "aYXzPP68ZSlcBOO",
+        "id": "P1M1vn7ydP9mBvB",
         "images": {
           "hero": "2022/09/11/b74f68ae-d627-4a89-9122-fbc75562e59d.jpeg",
           "supplementary": []
@@ -12517,11 +14185,20 @@ const data = [
           }
         },
         "termini": {
-          "end": "Mount Massive",
+          "end": [
+            "Mount",
+            "Massive"
+          ],
           "isSame": true,
-          "start": "Mount Massive"
+          "start": [
+            "Mount",
+            "Massive"
+          ]
         },
-        "title": "Mount Massive"
+        "title": [
+          "Mount",
+          "Massive"
+        ]
       }
     ],
     "stats": {
@@ -12570,9 +14247,15 @@ const data = [
       }
     },
     "termini": {
-      "end": "Mount Massive",
+      "end": [
+        "Mount",
+        "Massive"
+      ],
       "isSame": false,
-      "start": "Mount Elbert"
+      "start": [
+        "Mount",
+        "Elbert"
+      ]
     },
     "timestamp": "1567195200",
     "title": [
@@ -12583,6 +14266,11 @@ const data = [
     "type": "peak-bagging"
   },
   {
+    "categories": [
+      "thru-hike",
+      "europe",
+      "italy"
+    ],
     "date": {
       "dates": {
         "start": {
@@ -12657,7 +14345,6 @@ const data = [
               "category": "sleeping",
               "link": "https://seatosummit.com/products/adaptor-coolmax-liner-insect-shield",
               "name": [
-                "",
                 "Sea-to-Summit"
               ],
               "consumable": false,
@@ -13087,7 +14774,6 @@ const data = [
               "link": "",
               "name": [
                 "Allergy",
-                "medicine +",
                 "pseudoephedrine"
               ],
               "consumable": true,
@@ -13457,15 +15143,30 @@ const data = [
       "weightWorn": "9.36"
     },
     "hasGear": true,
-    "id": "VytyqWlNoHIbuHk",
+    "id": "NEtdIXNbEE6i0jV",
+    "images": {
+      "hero": "2019/07/16/c4d424d9-7826-422d-9e0f-1b7e8b20af99.jpeg"
+    },
     "index": 8,
-    "location": "The Dolomites",
+    "label": "day",
+    "location": "The Northern Italian Dolomites",
     "slug": "alta-via-1",
     "stages": [
       {
-        "date": "July 16th, 2019",
+        "date": {
+          "long": {
+            "month": "July",
+            "day": "16th",
+            "year": "2019"
+          },
+          "short": {
+            "month": "07",
+            "day": "16",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "HGjGcapBoGgZe6v",
+        "id": "OySuSJ2nTRKVLFE",
         "images": {
           "hero": "2019/07/16/eba70b28-4c7d-45f3-aa93-46b24011cb80.jpeg",
           "supplementary": []
@@ -13549,16 +15250,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Biella",
+          "end": [
+            "Biella"
+          ],
           "isSame": false,
-          "start": "Braies"
+          "start": [
+            "Braies"
+          ]
         },
-        "title": "Braies to Biella"
+        "title": [
+          "Braies to",
+          "Biella"
+        ]
       },
       {
-        "date": "July 17th, 2019",
+        "date": {
+          "long": {
+            "month": "July",
+            "day": "17th",
+            "year": "2019"
+          },
+          "short": {
+            "month": "07",
+            "day": "17",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "IHtBOzQAGvO69rk",
+        "id": "dSHAdRf7Qcy7oKv",
         "images": {
           "hero": "2019/07/16/69890344-e575-484e-86ae-5ddeb000c4f9.jpeg",
           "supplementary": []
@@ -13642,16 +15361,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Lavarella",
+          "end": [
+            "Lavarella"
+          ],
           "isSame": false,
-          "start": "Biella"
+          "start": [
+            "Biella"
+          ]
         },
-        "title": "Biella to Lavarella"
+        "title": [
+          "Biella to",
+          "Lavarella"
+        ]
       },
       {
-        "date": "July 18th, 2019",
+        "date": {
+          "long": {
+            "month": "July",
+            "day": "18th",
+            "year": "2019"
+          },
+          "short": {
+            "month": "07",
+            "day": "18",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "6BEZUf2VfJBifvz",
+        "id": "lb6KxxpzfaxmpYF",
         "images": {
           "hero": "2019/07/16/081c1b83-7036-4c3c-aa2f-0534f4250ab8.jpeg",
           "supplementary": []
@@ -13735,16 +15472,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Scotoni",
+          "end": [
+            "Scotoni"
+          ],
           "isSame": false,
-          "start": "Lavarella"
+          "start": [
+            "Lavarella"
+          ]
         },
-        "title": "Lavarella to Scotoni"
+        "title": [
+          "Lavarella",
+          "to Scotoni"
+        ]
       },
       {
-        "date": "July 19th, 2019",
+        "date": {
+          "long": {
+            "month": "July",
+            "day": "19th",
+            "year": "2019"
+          },
+          "short": {
+            "month": "07",
+            "day": "19",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "nATyM2FWE2ANwY0",
+        "id": "8sZLFs8VWXTAUfD",
         "images": {
           "hero": "2019/07/16/eb243b48-8084-4c7e-94c0-5a163983d407.jpeg",
           "supplementary": []
@@ -13828,16 +15583,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Averau",
+          "end": [
+            "Averau"
+          ],
           "isSame": false,
-          "start": "Scotoni"
+          "start": [
+            "Scotoni"
+          ]
         },
-        "title": "Scotoni to Averau"
+        "title": [
+          "Scotoni to",
+          "Averau"
+        ]
       },
       {
-        "date": "July 20th, 2019",
+        "date": {
+          "long": {
+            "month": "July",
+            "day": "20th",
+            "year": "2019"
+          },
+          "short": {
+            "month": "07",
+            "day": "20",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "kKkmzJgYtw8EfXJ",
+        "id": "djzgQH285muMFsr",
         "images": {
           "hero": "2019/07/16/a3f65b8c-4b57-4194-a3a1-5769f1d63373.jpeg",
           "supplementary": []
@@ -13921,16 +15694,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Citta de Fume",
+          "end": [
+            "Citta de",
+            "Fume"
+          ],
           "isSame": false,
-          "start": "Averau"
+          "start": [
+            "Averau"
+          ]
         },
-        "title": "Averau to Citta de Fume"
+        "title": [
+          "Averau to",
+          "Citta de",
+          "Fume"
+        ]
       },
       {
-        "date": "July 21st, 2019",
+        "date": {
+          "long": {
+            "month": "July",
+            "day": "21st",
+            "year": "2019"
+          },
+          "short": {
+            "month": "07",
+            "day": "21",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "45t6jat4WixariJ",
+        "id": "nQmW19fwBKHR7x7",
         "images": {
           "hero": "2019/07/16/b1128805-54bb-4b7b-adcb-f2b6ae3fada6.jpeg",
           "supplementary": []
@@ -14014,16 +15807,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Tissi",
+          "end": [
+            "Tissi"
+          ],
           "isSame": false,
-          "start": "Citta de Fume"
+          "start": [
+            "Citta de",
+            "Fume"
+          ]
         },
-        "title": "Citta de Fume to Tissi"
+        "title": [
+          "Citta de",
+          "Fume to",
+          "Tissi"
+        ]
       },
       {
-        "date": "July 22nd, 2019",
+        "date": {
+          "long": {
+            "month": "July",
+            "day": "22nd",
+            "year": "2019"
+          },
+          "short": {
+            "month": "07",
+            "day": "22",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "ZDArRr0t1Md0qdo",
+        "id": "ssQjl9U9QF5wMWg",
         "images": {
           "hero": "2019/07/16/a46e829f-147b-40d1-b7ae-2f743923feca.jpeg",
           "supplementary": []
@@ -14107,16 +15920,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Carestiato",
+          "end": [
+            "Carestiato"
+          ],
           "isSame": false,
-          "start": "Tissi"
+          "start": [
+            "Tissi"
+          ]
         },
-        "title": "Tissi to Carestiato"
+        "title": [
+          "Tissi to",
+          "Carestiato"
+        ]
       },
       {
-        "date": "July 23rd, 2019",
+        "date": {
+          "long": {
+            "month": "July",
+            "day": "23rd",
+            "year": "2019"
+          },
+          "short": {
+            "month": "07",
+            "day": "23",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "USijFpapmvrb3Yg",
+        "id": "R1Sw0c8Dsfko8os",
         "images": {
           "hero": "2019/07/16/21806386-052d-4a82-941e-6728771acd63.jpeg",
           "supplementary": []
@@ -14200,16 +16031,35 @@ const data = [
           }
         },
         "termini": {
-          "end": "Pramperet",
+          "end": [
+            "Pramperet"
+          ],
           "isSame": false,
-          "start": "Carestiato"
+          "start": [
+            "Carestiato"
+          ]
         },
-        "title": "Carestiato to Pramperet"
+        "title": [
+          "Carestiato",
+          "to",
+          "Pramperet"
+        ]
       },
       {
-        "date": "July 24th, 2019",
+        "date": {
+          "long": {
+            "month": "July",
+            "day": "24th",
+            "year": "2019"
+          },
+          "short": {
+            "month": "07",
+            "day": "24",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "nNh2xySh9H3ihzA",
+        "id": "M4dcHn8ogbzBs0w",
         "images": {
           "hero": "2019/07/16/2982a2fe-75f6-473a-8d98-2c664c5cd38e.jpeg",
           "supplementary": []
@@ -14293,16 +16143,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Pian de Fontana",
+          "end": [
+            "Pian de",
+            "Fontana"
+          ],
           "isSame": false,
-          "start": "Pramperet"
+          "start": [
+            "Pramperet"
+          ]
         },
-        "title": "Pramperet to Pian de Fontana"
+        "title": [
+          "Pramperet",
+          "to Pian de",
+          "Fontana"
+        ]
       },
       {
-        "date": "July 25th, 2019",
+        "date": {
+          "long": {
+            "month": "July",
+            "day": "25th",
+            "year": "2019"
+          },
+          "short": {
+            "month": "07",
+            "day": "25",
+            "year": "19"
+          }
+        },
         "hasStats": true,
-        "id": "EfJE9k6wefuOEDq",
+        "id": "duxrqeqwNOGycZ6",
         "images": {
           "hero": "2019/07/16/735a0783-62ba-4f8e-97d8-c9b9f5327cfe.jpeg",
           "supplementary": []
@@ -14386,11 +16256,20 @@ const data = [
           }
         },
         "termini": {
-          "end": "La Pissa",
+          "end": [
+            "La Pissa"
+          ],
           "isSame": false,
-          "start": "Pian de Fontana"
+          "start": [
+            "Pian de",
+            "Fontana"
+          ]
         },
-        "title": "Pian de Fontana to La Pissa"
+        "title": [
+          "Pian de",
+          "Fontana to",
+          "La Pissa"
+        ]
       }
     ],
     "stats": {
@@ -14440,17 +16319,25 @@ const data = [
       }
     },
     "termini": {
-      "end": "La Pissa",
+      "end": [
+        "La Pissa"
+      ],
       "isSame": false,
-      "start": "Braies"
+      "start": [
+        "Braies"
+      ]
     },
     "timestamp": "1563261600",
     "title": [
       "Alta Via 1"
     ],
-    "type": "thru-hike"
+    "type": "thru-hiking"
   },
   {
+    "categories": [
+      "thru-hike",
+      "europe"
+    ],
     "date": {
       "dates": {
         "start": {
@@ -14525,7 +16412,6 @@ const data = [
               "category": "sleeping",
               "link": "https://seatosummit.com/products/adaptor-coolmax-liner-insect-shield",
               "name": [
-                "",
                 "Sea-to-Summit"
               ],
               "consumable": false,
@@ -14928,7 +16814,6 @@ const data = [
               "link": "",
               "name": [
                 "Allergy",
-                "medicine +",
                 "pseudoephedrine"
               ],
               "consumable": true,
@@ -14978,7 +16863,6 @@ const data = [
               "category": "electronics",
               "link": "",
               "name": [
-                "5000mAh",
                 "Ultra-compact"
               ],
               "consumable": false,
@@ -15296,15 +17180,30 @@ const data = [
       "weightWorn": "9.36"
     },
     "hasGear": true,
-    "id": "YJjgKQIHq18bkM4",
+    "id": "VNnl0GlxMfdR6eT",
+    "images": {
+      "hero": "2018/09/02/ec37f4a8-6310-4bf6-b1a7-cddb1f91bf3b.jpeg"
+    },
     "index": 9,
-    "location": "The Alps",
+    "label": "day",
+    "location": "The French Italian And Swiss Alps",
     "slug": "tour-du-mont-blanc",
     "stages": [
       {
-        "date": "September 2nd, 2018",
+        "date": {
+          "long": {
+            "month": "September",
+            "day": "2nd",
+            "year": "2018"
+          },
+          "short": {
+            "month": "09",
+            "day": "02",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "rchWqzoX771Sm4Y",
+        "id": "XCX7Xe6SGpznvn7",
         "images": {
           "hero": "2018/09/02/135eea74-e1bc-4cab-bfd7-28d17405a744.jpeg",
           "supplementary": []
@@ -15388,16 +17287,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Auberge le Truc",
+          "end": [
+            "Auberge le",
+            "Truc"
+          ],
           "isSame": false,
-          "start": "Les Houches"
+          "start": [
+            "Les Houches"
+          ]
         },
-        "title": "Les Houches to Auberge le Truc"
+        "title": [
+          "Les Houches",
+          "to Auberge",
+          "le Truc"
+        ]
       },
       {
-        "date": "September 3rd, 2018",
+        "date": {
+          "long": {
+            "month": "September",
+            "day": "3rd",
+            "year": "2018"
+          },
+          "short": {
+            "month": "09",
+            "day": "03",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "veMKgBM7w6lc7LU",
+        "id": "4Gs1RZDQgowgElc",
         "images": {
           "hero": "2018/09/02/56d3cc07-47c1-40c8-b7ee-483aa01d777c.jpeg",
           "supplementary": []
@@ -15481,16 +17400,40 @@ const data = [
           }
         },
         "termini": {
-          "end": "Refuge de La Croix du Bonhomme",
+          "end": [
+            "Refuge de",
+            "La Croix du",
+            "Bonhomme"
+          ],
           "isSame": false,
-          "start": "Auberge le Truc"
+          "start": [
+            "Auberge le",
+            "Truc"
+          ]
         },
-        "title": "Auberge le Truc to Refuge de La Croix du Bonhomme"
+        "title": [
+          "Auberge le",
+          "Truc to",
+          "Refuge de",
+          "La Croix du",
+          "Bonhomme"
+        ]
       },
       {
-        "date": "September 4th, 2018",
+        "date": {
+          "long": {
+            "month": "September",
+            "day": "4th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "09",
+            "day": "04",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "jpKaEM1rFJ2G3kS",
+        "id": "kDkDEOIfrrSz3OZ",
         "images": {
           "hero": "2018/09/02/0420d236-d12a-40e8-8d6c-90558e26d304.jpeg",
           "supplementary": []
@@ -15574,16 +17517,42 @@ const data = [
           }
         },
         "termini": {
-          "end": "Refuge Robert Blanc",
+          "end": [
+            "Refuge",
+            "Robert",
+            "Blanc"
+          ],
           "isSame": false,
-          "start": "Refuge de La Croix du Bonhomme"
+          "start": [
+            "Refuge de",
+            "La Croix du",
+            "Bonhomme"
+          ]
         },
-        "title": "Refuge de La Croix du Bonhomme to Refuge Robert Blanc"
+        "title": [
+          "Refuge de",
+          "La Croix du",
+          "Bonhomme to",
+          "Refuge",
+          "Robert",
+          "Blanc"
+        ]
       },
       {
-        "date": "September 5th, 2018",
+        "date": {
+          "long": {
+            "month": "September",
+            "day": "5th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "09",
+            "day": "05",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "lW8X1AqS9W7zGCV",
+        "id": "bnt56B8Q3PycDr9",
         "images": {
           "hero": "2018/09/02/488a5815-e763-406d-94e1-5e51ff25cafe.jpeg",
           "supplementary": []
@@ -15667,16 +17636,40 @@ const data = [
           }
         },
         "termini": {
-          "end": "Maison Veille",
+          "end": [
+            "Maison",
+            "Veille"
+          ],
           "isSame": false,
-          "start": "Refuge Robert Blanc"
+          "start": [
+            "Refuge",
+            "Robert",
+            "Blanc"
+          ]
         },
-        "title": "Refuge Robert Blanc to Maison Veille"
+        "title": [
+          "Refuge",
+          "Robert",
+          "Blanc to",
+          "Maison",
+          "Veille"
+        ]
       },
       {
-        "date": "September 6th, 2018",
+        "date": {
+          "long": {
+            "month": "September",
+            "day": "6th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "09",
+            "day": "06",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "9XfUWVUNfRv7TyC",
+        "id": "2HQoQczylTeSFxJ",
         "images": {
           "hero": "2018/09/02/9cefaedf-2e6b-439a-9512-f1f37d2374eb.jpeg",
           "supplementary": []
@@ -15760,16 +17753,38 @@ const data = [
           }
         },
         "termini": {
-          "end": "Rifugio Bonatti",
+          "end": [
+            "Rifugio",
+            "Bonatti"
+          ],
           "isSame": false,
-          "start": "Maison Veille"
+          "start": [
+            "Maison",
+            "Veille"
+          ]
         },
-        "title": "Maison Veille to Rifugio Bonatti"
+        "title": [
+          "Maison",
+          "Veille to",
+          "Rifugio",
+          "Bonatti"
+        ]
       },
       {
-        "date": "September 7th, 2018",
+        "date": {
+          "long": {
+            "month": "September",
+            "day": "7th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "09",
+            "day": "07",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "X0JEH5V0FwRbdmp",
+        "id": "iMeHRb4J3v820bL",
         "images": {
           "hero": "2018/09/02/891cd8a7-97d2-4251-ac34-6c816c0ec570.jpeg",
           "supplementary": []
@@ -15853,16 +17868,38 @@ const data = [
           }
         },
         "termini": {
-          "end": "L'Auberge Maya Joie",
+          "end": [
+            "L'Auberge",
+            "Maya Joie"
+          ],
           "isSame": false,
-          "start": "Rifugio Bonatti"
+          "start": [
+            "Rifugio",
+            "Bonatti"
+          ]
         },
-        "title": "Rifugio Bonatti to L'Auberge Maya Joie"
+        "title": [
+          "Rifugio",
+          "Bonatti to",
+          "L'Auberge",
+          "Maya Joie"
+        ]
       },
       {
-        "date": "September 8th, 2018",
+        "date": {
+          "long": {
+            "month": "September",
+            "day": "8th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "09",
+            "day": "08",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "fNTsIkPbRR8WFQq",
+        "id": "Uxz1NVm2OEnnOcI",
         "images": {
           "hero": "2018/09/02/8d209b3b-8d40-49b3-b754-fd91466c9708.jpeg",
           "supplementary": []
@@ -15946,16 +17983,38 @@ const data = [
           }
         },
         "termini": {
-          "end": "Gite Bon Abri",
+          "end": [
+            "Gite Bon",
+            "Abri"
+          ],
           "isSame": false,
-          "start": "L'Auberge Maya Joie"
+          "start": [
+            "L'Auberge",
+            "Maya Joie"
+          ]
         },
-        "title": "L'Auberge Maya Joie to Gite Bon Abri"
+        "title": [
+          "L'Auberge",
+          "Maya Joie",
+          "to Gite Bon",
+          "Abri"
+        ]
       },
       {
-        "date": "September 9th, 2018",
+        "date": {
+          "long": {
+            "month": "September",
+            "day": "9th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "09",
+            "day": "09",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "OaOAiioh66CyAG1",
+        "id": "CS7n1SmIHU4pvk5",
         "images": {
           "hero": "2018/09/02/21248df2-d0b9-41d2-9662-b6215c24c298.jpeg",
           "supplementary": []
@@ -16039,16 +18098,38 @@ const data = [
           }
         },
         "termini": {
-          "end": "Refuge le Peuty",
+          "end": [
+            "Refuge le",
+            "Peuty"
+          ],
           "isSame": false,
-          "start": "Gite Bon Abri"
+          "start": [
+            "Gite Bon",
+            "Abri"
+          ]
         },
-        "title": "Gite Bon Abri to Refuge le Peuty"
+        "title": [
+          "Gite Bon",
+          "Abri to",
+          "Refuge le",
+          "Peuty"
+        ]
       },
       {
-        "date": "September 10th, 2018",
+        "date": {
+          "long": {
+            "month": "September",
+            "day": "10th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "09",
+            "day": "10",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "uqjVgBthOSxfvGR",
+        "id": "CksdRr4bzftRK13",
         "images": {
           "hero": "2018/09/02/ec37f4a8-6310-4bf6-b1a7-cddb1f91bf3b.jpeg",
           "supplementary": []
@@ -16132,16 +18213,38 @@ const data = [
           }
         },
         "termini": {
-          "end": "Auberge la Boerne",
+          "end": [
+            "Auberge la",
+            "Boerne"
+          ],
           "isSame": false,
-          "start": "Refuge le Peuty"
+          "start": [
+            "Refuge le",
+            "Peuty"
+          ]
         },
-        "title": "Refuge le Peuty to Auberge la Boerne"
+        "title": [
+          "Refuge le",
+          "Peuty to",
+          "Auberge la",
+          "Boerne"
+        ]
       },
       {
-        "date": "September 11th, 2018",
+        "date": {
+          "long": {
+            "month": "September",
+            "day": "11th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "09",
+            "day": "11",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "398nxVNdzW05KCQ",
+        "id": "iMTK0LIKEZwu2yL",
         "images": {
           "hero": "2018/09/02/0ea4750a-307a-44be-a466-bb081d137d3c.jpeg",
           "supplementary": []
@@ -16225,16 +18328,38 @@ const data = [
           }
         },
         "termini": {
-          "end": "Refuge de lo Flegere",
+          "end": [
+            "Refuge de",
+            "lo Flegere"
+          ],
           "isSame": false,
-          "start": "Auberge la Boerne"
+          "start": [
+            "Auberge la",
+            "Boerne"
+          ]
         },
-        "title": "Auberge la Boerne to Refuge de lo Flegere"
+        "title": [
+          "Auberge la",
+          "Boerne to",
+          "Refuge de",
+          "lo Flegere"
+        ]
       },
       {
-        "date": "September 12th, 2018",
+        "date": {
+          "long": {
+            "month": "September",
+            "day": "12th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "09",
+            "day": "12",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "9X9Rv9hEagZ1EaA",
+        "id": "Nr526prMiTkJWwS",
         "images": {
           "hero": "2018/09/02/3faeb9f8-d262-4c12-869f-4470b0dc0574.jpeg",
           "supplementary": []
@@ -16318,16 +18443,39 @@ const data = [
           }
         },
         "termini": {
-          "end": "Refuge de Bellechat",
+          "end": [
+            "Refuge de",
+            "Bellechat"
+          ],
           "isSame": false,
-          "start": "Refuge de lo Flegere"
+          "start": [
+            "Refuge de",
+            "lo Flegere"
+          ]
         },
-        "title": "Refuge de lo Flegere to Refuge de Bellechat"
+        "title": [
+          "Refuge de",
+          "lo Flegere",
+          "to Refuge",
+          "de",
+          "Bellechat"
+        ]
       },
       {
-        "date": "September 13th, 2018",
+        "date": {
+          "long": {
+            "month": "September",
+            "day": "13th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "09",
+            "day": "13",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "eAiURQ5lxhxh40s",
+        "id": "RgI6JHUpTmGjAIk",
         "images": {
           "hero": "2018/09/02/8a0d6d12-a40d-47ba-9d09-6b8d5572bb32.jpeg",
           "supplementary": []
@@ -16411,11 +18559,21 @@ const data = [
           }
         },
         "termini": {
-          "end": "Les Houches",
+          "end": [
+            "Les Houches"
+          ],
           "isSame": false,
-          "start": "Refuge de Bellechat"
+          "start": [
+            "Refuge de",
+            "Bellechat"
+          ]
         },
-        "title": "Refuge de Bellechat to Les Houches"
+        "title": [
+          "Refuge de",
+          "Bellechat",
+          "to Les",
+          "Houches"
+        ]
       }
     ],
     "stats": {
@@ -16465,18 +18623,26 @@ const data = [
       }
     },
     "termini": {
-      "end": "Les Houches",
+      "end": [
+        "Les Houches"
+      ],
       "isSame": true,
-      "start": "Les Houches"
+      "start": [
+        "Les Houches"
+      ]
     },
     "timestamp": "1535872800",
     "title": [
       "Tour du",
       "Mont Blanc"
     ],
-    "type": "thru-hike"
+    "type": "thru-hiking"
   },
   {
+    "categories": [
+      "thru-hike",
+      "europe"
+    ],
     "date": {
       "dates": {
         "start": {
@@ -16551,7 +18717,6 @@ const data = [
               "category": "sleeping",
               "link": "https://seatosummit.com/products/adaptor-coolmax-liner-insect-shield",
               "name": [
-                "",
                 "Sea-to-Summit"
               ],
               "consumable": false,
@@ -16965,7 +19130,6 @@ const data = [
               "link": "",
               "name": [
                 "Allergy",
-                "medicine +",
                 "pseudoephedrine"
               ],
               "consumable": true,
@@ -17004,7 +19168,6 @@ const data = [
               "category": "electronics",
               "link": "",
               "name": [
-                "5000mAh",
                 "Ultra-compact"
               ],
               "consumable": false,
@@ -17333,15 +19496,30 @@ const data = [
       "weightWorn": "8.45"
     },
     "hasGear": true,
-    "id": "IJIOAmhptLEV3vU",
+    "id": "yd6MG9xCmg8LJ1Z",
+    "images": {
+      "hero": "2018/06/02/1921986b-9cf8-4bf8-b531-3bfe2f098f93.jpeg"
+    },
     "index": 10,
+    "label": "day",
     "location": "Northern Spain",
     "slug": "camino-de-santiago",
     "stages": [
       {
-        "date": "June 2nd, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "2nd",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "02",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "Od6BKqkOmg4Nj2k",
+        "id": "WzarmT22K8sCwvz",
         "images": {
           "hero": "2018/06/02/36c8ce31-ccce-4133-9528-338124462edf.jpeg",
           "supplementary": []
@@ -17425,16 +19603,39 @@ const data = [
           }
         },
         "termini": {
-          "end": "Roncesvalles",
+          "end": [
+            "",
+            "Roncesvalles"
+          ],
           "isSame": false,
-          "start": "Saint Jean Pied de Port"
+          "start": [
+            "Saint Jean",
+            "Pied de",
+            "Port"
+          ]
         },
-        "title": "Saint Jean Pied de Port to Roncesvalles"
+        "title": [
+          "Saint Jean",
+          "Pied de",
+          "Port to",
+          "Roncesvalles"
+        ]
       },
       {
-        "date": "June 3rd, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "3rd",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "03",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "IXaOVdX4d39WyTc",
+        "id": "rIF4VzPFsfixyf1",
         "images": {
           "hero": "2018/06/02/259d7373-6f3d-4274-8ff8-440cb2724702.jpeg",
           "supplementary": []
@@ -17518,16 +19719,35 @@ const data = [
           }
         },
         "termini": {
-          "end": "Zubiri",
+          "end": [
+            "Zubiri"
+          ],
           "isSame": false,
-          "start": "Roncesvalles"
+          "start": [
+            "",
+            "Roncesvalles"
+          ]
         },
-        "title": "Roncesvalles to Zubiri"
+        "title": [
+          "",
+          "Roncesvalles"
+        ]
       },
       {
-        "date": "June 4th, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "4th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "04",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "NOZSpm6dnNRlPR4",
+        "id": "3bn08WGZlcl3XMz",
         "images": {
           "hero": "2018/06/02/94c5e141-580c-483b-91aa-13a88bf0f8fd.jpeg",
           "supplementary": []
@@ -17611,16 +19831,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Pamplona",
+          "end": [
+            "Pamplona"
+          ],
           "isSame": false,
-          "start": "Zubiri"
+          "start": [
+            "Zubiri"
+          ]
         },
-        "title": "Zubiri to Pamplona"
+        "title": [
+          "Zubiri to",
+          "Pamplona"
+        ]
       },
       {
-        "date": "June 5th, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "5th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "05",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "IAokVnrd0pigEGT",
+        "id": "IXZbc9sapeUoGsr",
         "images": {
           "hero": "2018/06/02/88b734d7-ee6f-437f-a44b-6233d7f86158.jpeg",
           "supplementary": []
@@ -17704,16 +19942,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Puente la Reina",
+          "end": [
+            "Puente la",
+            "Reina"
+          ],
           "isSame": false,
-          "start": "Pamplona"
+          "start": [
+            "Pamplona"
+          ]
         },
-        "title": "Pamplona to Puente la Reina"
+        "title": [
+          "Pamplona to",
+          "Puente la",
+          "Reina"
+        ]
       },
       {
-        "date": "June 6th, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "6th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "06",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "RQ9zeV2EmYQ3lTP",
+        "id": "kgRu25nygfjBpqh",
         "images": {
           "hero": "2018/06/02/6de64c25-13b3-441f-96b8-1f80cd4d6bd6.jpeg",
           "supplementary": []
@@ -17797,16 +20055,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Estella",
+          "end": [
+            "Estella"
+          ],
           "isSame": false,
-          "start": "Puente la Reina"
+          "start": [
+            "Puente la",
+            "Reina"
+          ]
         },
-        "title": "Puente la Reina to Estella"
+        "title": [
+          "Puente la",
+          "Reina to",
+          "Estella"
+        ]
       },
       {
-        "date": "June 7th, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "7th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "07",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "yjN87LsdCEZKAUY",
+        "id": "bJqfHBOvfCYi5QW",
         "images": {
           "hero": "2018/06/02/f3c24aa0-ec3f-4319-9585-e178b9fd7bca.jpeg",
           "supplementary": []
@@ -17890,16 +20168,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Sansol",
+          "end": [
+            "Sansol"
+          ],
           "isSame": false,
-          "start": "Estella"
+          "start": [
+            "Estella"
+          ]
         },
-        "title": "Estella to Sansol"
+        "title": [
+          "Estella to",
+          "Sansol"
+        ]
       },
       {
-        "date": "June 8th, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "8th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "08",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "qEquQdd4omSgrVr",
+        "id": "AQiew9kp0IfurHf",
         "images": {
           "hero": "2018/06/02/71b4d4f4-b9d4-40b9-8902-cef791391428.jpeg",
           "supplementary": []
@@ -17983,16 +20279,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Logrono",
+          "end": [
+            "Logrono"
+          ],
           "isSame": false,
-          "start": "Sansol"
+          "start": [
+            "Sansol"
+          ]
         },
-        "title": "Sansol to Logrono"
+        "title": [
+          "Sansol to",
+          "Logrono"
+        ]
       },
       {
-        "date": "June 9th, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "9th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "09",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "9u4Qx4yQJQ8TA5Z",
+        "id": "wRaADiOsVvgv9WY",
         "images": {
           "hero": "2018/06/02/e5a310be-0e12-45d8-9121-dbac375a4234.jpeg",
           "supplementary": []
@@ -18076,16 +20390,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Najera",
+          "end": [
+            "Najera"
+          ],
           "isSame": false,
-          "start": "Logrono"
+          "start": [
+            "Logrono"
+          ]
         },
-        "title": "Logrono to Najera"
+        "title": [
+          "Logrono to",
+          "Najera"
+        ]
       },
       {
-        "date": "June 10th, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "10th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "10",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "cofkyLTuqj5vISR",
+        "id": "JK4xH8gO9TcE6EJ",
         "images": {
           "hero": "2018/06/02/50570d33-285a-4561-bc7f-b7e500363359.jpeg",
           "supplementary": []
@@ -18169,16 +20501,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Santo Domingo",
+          "end": [
+            "Santo",
+            "Domingo"
+          ],
           "isSame": false,
-          "start": "Najera"
+          "start": [
+            "Najera"
+          ]
         },
-        "title": "Najera to Santo Domingo"
+        "title": [
+          "Najera to",
+          "Santo",
+          "Domingo"
+        ]
       },
       {
-        "date": "June 11th, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "11th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "11",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "VqQ4n8p8xb0lUCi",
+        "id": "Taxd8V68BTNHwgj",
         "images": {
           "hero": "2018/06/02/009b868c-38ee-43e7-bc1c-90b259306d86.jpeg",
           "supplementary": []
@@ -18262,16 +20614,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Belorado",
+          "end": [
+            "Belorado"
+          ],
           "isSame": false,
-          "start": "Santo Domingo"
+          "start": [
+            "Santo",
+            "Domingo"
+          ]
         },
-        "title": "Santo Domingo to Belorado"
+        "title": [
+          "Santo",
+          "Domingo to",
+          "Belorado"
+        ]
       },
       {
-        "date": "June 12th, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "12th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "12",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "lzo2RPhz9g03OPL",
+        "id": "jPvtxOPY5LDTG5e",
         "images": {
           "hero": "2018/06/02/678b2b3a-6724-4bca-99b7-f7ed9a4683e7.jpeg",
           "supplementary": []
@@ -18355,16 +20727,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Ages",
+          "end": [
+            "Ages"
+          ],
           "isSame": false,
-          "start": "Belorado"
+          "start": [
+            "Belorado"
+          ]
         },
-        "title": "Belorado to Ages"
+        "title": [
+          "Belorado to",
+          "Ages"
+        ]
       },
       {
-        "date": "June 13th, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "13th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "13",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "LRFCmXembFHQH88",
+        "id": "mat5AAgTB73jYpE",
         "images": {
           "hero": "2018/06/02/28740c31-9cb0-4952-af50-9f1bab6c1edb.jpeg",
           "supplementary": []
@@ -18448,16 +20838,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Burgos",
+          "end": [
+            "Burgos"
+          ],
           "isSame": false,
-          "start": "Ages"
+          "start": [
+            "Ages"
+          ]
         },
-        "title": "Ages to Burgos"
+        "title": [
+          "Ages to",
+          "Burgos"
+        ]
       },
       {
-        "date": "June 14th, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "14th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "14",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "zwe4TJiOtqT1eEh",
+        "id": "apyAyeQCdmCHAnK",
         "images": {
           "hero": "2018/06/02/3ecd42d0-421e-4e3d-a770-830e68e2652c.jpeg",
           "supplementary": []
@@ -18541,16 +20949,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Hontanas",
+          "end": [
+            "Hontanas"
+          ],
           "isSame": false,
-          "start": "Burgos"
+          "start": [
+            "Burgos"
+          ]
         },
-        "title": "Burgos to Hontanas"
+        "title": [
+          "Burgos to",
+          "Hontanas"
+        ]
       },
       {
-        "date": "June 15th, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "15th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "15",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "CvA9WfA0LeonYEH",
+        "id": "hsrULw7YvqPfDJo",
         "images": {
           "hero": "2018/06/02/98a7eed4-299d-40e6-a537-779a5bab6c77.jpeg",
           "supplementary": []
@@ -18634,16 +21060,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Fromista",
+          "end": [
+            "Fromista"
+          ],
           "isSame": false,
-          "start": "Hontanas"
+          "start": [
+            "Hontanas"
+          ]
         },
-        "title": "Hontanas to Fromista"
+        "title": [
+          "Hontanas to",
+          "Fromista"
+        ]
       },
       {
-        "date": "June 16th, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "16th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "16",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "1cI8GfrpDSKUldd",
+        "id": "ruGGe9vePrmWEEv",
         "images": {
           "hero": "2018/06/02/2e08d5fe-1711-4768-8ded-f3714e186923.jpeg",
           "supplementary": []
@@ -18727,16 +21171,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Carrion",
+          "end": [
+            "Carrion"
+          ],
           "isSame": false,
-          "start": "Fromista"
+          "start": [
+            "Fromista"
+          ]
         },
-        "title": "Fromista to Carrion"
+        "title": [
+          "Fromista to",
+          "Carrion"
+        ]
       },
       {
-        "date": "June 17th, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "17th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "17",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "STdVG9KKDhLBgVc",
+        "id": "1s7AqhAxg6CSTyi",
         "images": {
           "hero": "2018/06/02/bcdc06e3-4c95-4138-9779-bc46670a4e1b.jpeg",
           "supplementary": []
@@ -18820,16 +21282,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Sahagun",
+          "end": [
+            "Sahagun"
+          ],
           "isSame": false,
-          "start": "Carrion"
+          "start": [
+            "Carrion"
+          ]
         },
-        "title": "Carrion to Sahagun"
+        "title": [
+          "Carrion to",
+          "Sahagun"
+        ]
       },
       {
-        "date": "June 18th, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "18th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "18",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "Cxp1SttPo7ghrUC",
+        "id": "iqwZuT5ASCh0Pml",
         "images": {
           "hero": "2018/06/02/2b268d15-bea2-42ae-a15c-1ab6fd5fe4f7.jpeg",
           "supplementary": []
@@ -18913,16 +21393,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Reliegos",
+          "end": [
+            "Reliegos"
+          ],
           "isSame": false,
-          "start": "Sahagun"
+          "start": [
+            "Sahagun"
+          ]
         },
-        "title": "Sahagun to Reliegos"
+        "title": [
+          "Sahagun to",
+          "Reliegos"
+        ]
       },
       {
-        "date": "June 19th, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "19th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "19",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "f9iaopNpLN8vhhT",
+        "id": "VhfzSH5qAcCgFce",
         "images": {
           "hero": "2018/06/02/845acb7b-86f3-4768-8ce3-c8be727c50af.jpeg",
           "supplementary": []
@@ -19006,16 +21504,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Leon",
+          "end": [
+            "Leon"
+          ],
           "isSame": false,
-          "start": "Reliegos"
+          "start": [
+            "Reliegos"
+          ]
         },
-        "title": "Reliegos to Leon"
+        "title": [
+          "Reliegos to",
+          "Leon"
+        ]
       },
       {
-        "date": "June 20th, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "20th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "20",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "Y5e5egZwfyr9Y7j",
+        "id": "XXntTatJmEZE5Uz",
         "images": {
           "hero": "2018/06/02/f5741d7d-6a86-47ae-a5b1-f1bced05bb00.jpeg",
           "supplementary": []
@@ -19099,16 +21615,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Mazarife",
+          "end": [
+            "Mazarife"
+          ],
           "isSame": false,
-          "start": "Leon"
+          "start": [
+            "Leon"
+          ]
         },
-        "title": "Leon to Mazarife"
+        "title": [
+          "Leon to",
+          "Mazarife"
+        ]
       },
       {
-        "date": "June 21st, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "21st",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "21",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "6u7P4cNED8gugrA",
+        "id": "jU59SfASO1PkIIF",
         "images": {
           "hero": "2018/06/02/0cf7b647-1681-4b88-be6a-cbba1163f38a.jpeg",
           "supplementary": []
@@ -19192,16 +21726,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Astorga",
+          "end": [
+            "Astorga"
+          ],
           "isSame": false,
-          "start": "Mazarife"
+          "start": [
+            "Mazarife"
+          ]
         },
-        "title": "Mazarife to Astorga"
+        "title": [
+          "Mazarife to",
+          "Astorga"
+        ]
       },
       {
-        "date": "June 22nd, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "22nd",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "22",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "vZFdT4lCfvhtl5T",
+        "id": "aChRFGcUAx5a112",
         "images": {
           "hero": "2018/06/02/bf4e84fe-e4ca-4834-ab65-393f965bbdb8.jpeg",
           "supplementary": []
@@ -19285,16 +21837,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Foncebadon",
+          "end": [
+            "Foncebadon"
+          ],
           "isSame": false,
-          "start": "Astorga"
+          "start": [
+            "Astorga"
+          ]
         },
-        "title": "Astorga to Foncebadon"
+        "title": [
+          "Astorga to",
+          "Foncebadon"
+        ]
       },
       {
-        "date": "June 23rd, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "23rd",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "23",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "SRQltCDpfrPRgrc",
+        "id": "l17OgoMX7D0mRWw",
         "images": {
           "hero": "2018/06/02/2901af55-b7bf-41ec-9471-6ec3699b1f12.jpeg",
           "supplementary": []
@@ -19378,16 +21948,35 @@ const data = [
           }
         },
         "termini": {
-          "end": "Ponferrada",
+          "end": [
+            "Ponferrada"
+          ],
           "isSame": false,
-          "start": "Foncebadon"
+          "start": [
+            "Foncebadon"
+          ]
         },
-        "title": "Foncebadon to Ponferrada"
+        "title": [
+          "Foncebadon",
+          "to",
+          "Ponferrada"
+        ]
       },
       {
-        "date": "June 24th, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "24th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "24",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "oPz1HemAo8sWPI1",
+        "id": "od6Pf2eZzAk3FVm",
         "images": {
           "hero": "2018/06/02/7fa41365-3d33-461b-9be5-5a946064923c.jpeg",
           "supplementary": []
@@ -19471,16 +22060,35 @@ const data = [
           }
         },
         "termini": {
-          "end": "Villafranca",
+          "end": [
+            "Villafranca"
+          ],
           "isSame": false,
-          "start": "Ponferrada"
+          "start": [
+            "Ponferrada"
+          ]
         },
-        "title": "Ponferrada to Villafranca"
+        "title": [
+          "Ponferrada",
+          "to",
+          "Villafranca"
+        ]
       },
       {
-        "date": "June 25th, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "25th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "25",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "ZQzKiYPjoMUzPaW",
+        "id": "CFcTMnt55RqwcOP",
         "images": {
           "hero": "2018/06/02/6349679e-acbf-4f74-ad4a-0d9032c3b293.jpeg",
           "supplementary": []
@@ -19564,16 +22172,35 @@ const data = [
           }
         },
         "termini": {
-          "end": "O Cebreiro",
+          "end": [
+            "O Cebreiro"
+          ],
           "isSame": false,
-          "start": "Villafranca"
+          "start": [
+            "Villafranca"
+          ]
         },
-        "title": "Villafranca to O Cebreiro"
+        "title": [
+          "Villafranca",
+          "to O",
+          "Cebreiro"
+        ]
       },
       {
-        "date": "June 26th, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "26th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "26",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "HTuucM64KFhMN3d",
+        "id": "mJkCrpxZ6wDFf07",
         "images": {
           "hero": "2018/06/02/4e1b42f2-3994-4d1c-ad29-620eab9c80c7.jpeg",
           "supplementary": []
@@ -19657,16 +22284,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Sarria",
+          "end": [
+            "Sarria"
+          ],
           "isSame": false,
-          "start": "O Cebreiro"
+          "start": [
+            "O Cebreiro"
+          ]
         },
-        "title": "O Cebreiro to Sarria"
+        "title": [
+          "O Cebreiro",
+          "to Sarria"
+        ]
       },
       {
-        "date": "June 27th, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "27th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "27",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "A1lsON2BiBMbA0F",
+        "id": "tsy345Cg7YzUX2U",
         "images": {
           "hero": "2018/06/02/3d738e26-0747-447a-98fb-0bb35e1736c3.jpeg",
           "supplementary": []
@@ -19750,16 +22395,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Portomarin",
+          "end": [
+            "Portomarin"
+          ],
           "isSame": false,
-          "start": "Sarria"
+          "start": [
+            "Sarria"
+          ]
         },
-        "title": "Sarria to Portomarin"
+        "title": [
+          "Sarria to",
+          "Portomarin"
+        ]
       },
       {
-        "date": "June 28th, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "28th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "28",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "91mT8orQpCwo3mf",
+        "id": "852TBKoYkfaPJkD",
         "images": {
           "hero": "2018/06/02/4e8fd9a9-ed5f-429f-9230-efa731461a5f.jpeg",
           "supplementary": []
@@ -19843,16 +22506,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Melide",
+          "end": [
+            "Melide"
+          ],
           "isSame": false,
-          "start": "Portomarin"
+          "start": [
+            "Portomarin"
+          ]
         },
-        "title": "Portomarin to Melide"
+        "title": [
+          "Portomarin",
+          "to Melide"
+        ]
       },
       {
-        "date": "June 29th, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "29th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "29",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "50tYGJF1Unyseqw",
+        "id": "vGgJjM8l09XzD4u",
         "images": {
           "hero": "2018/06/02/2dcb1878-efe7-47d7-b7b5-b031ab143cb6.jpeg",
           "supplementary": []
@@ -19936,16 +22617,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Pedrouzo",
+          "end": [
+            "Pedrouzo"
+          ],
           "isSame": false,
-          "start": "Melide"
+          "start": [
+            "Melide"
+          ]
         },
-        "title": "Melide to Pedrouzo"
+        "title": [
+          "Melide to",
+          "Pedrouzo"
+        ]
       },
       {
-        "date": "June 30th, 2018",
+        "date": {
+          "long": {
+            "month": "June",
+            "day": "30th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "06",
+            "day": "30",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "x37rqRIf09zjJ88",
+        "id": "NgtYoSYfAtIFfHZ",
         "images": {
           "hero": "2018/06/02/1921986b-9cf8-4bf8-b531-3bfe2f098f93.jpeg",
           "supplementary": []
@@ -20029,16 +22728,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Santiago de Compostela",
+          "end": [
+            "Santiago de",
+            "Compostela"
+          ],
           "isSame": false,
-          "start": "Pedrouzo"
+          "start": [
+            "Pedrouzo"
+          ]
         },
-        "title": "Pedrouzo to Santiago de Compostela"
+        "title": [
+          "Pedrouzo to",
+          "Santiago de",
+          "Compostela"
+        ]
       },
       {
-        "date": "July 2nd, 2018",
+        "date": {
+          "long": {
+            "month": "July",
+            "day": "2nd",
+            "year": "2018"
+          },
+          "short": {
+            "month": "07",
+            "day": "02",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "j350MopjtKGEMfp",
+        "id": "lDhHE4pdQZJrHhe",
         "images": {
           "hero": "2018/06/02/7f51e3c4-518e-4147-8e73-c19d6c87ce11.jpeg",
           "supplementary": []
@@ -20122,16 +22841,36 @@ const data = [
           }
         },
         "termini": {
-          "end": "Negreira",
+          "end": [
+            "Negreira"
+          ],
           "isSame": false,
-          "start": "Santiago de Compostela"
+          "start": [
+            "Santiago de",
+            "Compostela"
+          ]
         },
-        "title": "Santiago de Compostela to Negreira"
+        "title": [
+          "Santiago de",
+          "Compostela",
+          "to Negreira"
+        ]
       },
       {
-        "date": "July 3rd, 2018",
+        "date": {
+          "long": {
+            "month": "July",
+            "day": "3rd",
+            "year": "2018"
+          },
+          "short": {
+            "month": "07",
+            "day": "03",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "6VRulyoeGTRm2rk",
+        "id": "E8z5LaeJPnf5RUX",
         "images": {
           "hero": "2018/06/02/32011e1d-8075-4b90-9a91-db88c3d66989.jpeg",
           "supplementary": []
@@ -20215,16 +22954,34 @@ const data = [
           }
         },
         "termini": {
-          "end": "Olveiroa",
+          "end": [
+            "Olveiroa"
+          ],
           "isSame": false,
-          "start": "Negreira"
+          "start": [
+            "Negreira"
+          ]
         },
-        "title": "Negreira to Olveiroa"
+        "title": [
+          "Negreira to",
+          "Olveiroa"
+        ]
       },
       {
-        "date": "July 4th, 2018",
+        "date": {
+          "long": {
+            "month": "July",
+            "day": "4th",
+            "year": "2018"
+          },
+          "short": {
+            "month": "07",
+            "day": "04",
+            "year": "18"
+          }
+        },
         "hasStats": true,
-        "id": "kKItxpVcBDjtqTK",
+        "id": "5rvRVJidkB6ww5O",
         "images": {
           "hero": "2018/06/02/aa8b0404-f4d1-44ed-bc96-ce65eae03848.jpeg",
           "supplementary": []
@@ -20308,11 +23065,18 @@ const data = [
           }
         },
         "termini": {
-          "end": "Fisterra",
+          "end": [
+            "Fisterra"
+          ],
           "isSame": false,
-          "start": "Olveiroa"
+          "start": [
+            "Olveiroa"
+          ]
         },
-        "title": "Olveiroa to Fisterra"
+        "title": [
+          "Olveiroa to",
+          "Fisterra"
+        ]
       }
     ],
     "stats": {
@@ -20362,16 +23126,22 @@ const data = [
       }
     },
     "termini": {
-      "end": "Fisterra",
+      "end": [
+        "Fisterra"
+      ],
       "isSame": false,
-      "start": "Saint Jean Pied de Port"
+      "start": [
+        "Saint Jean",
+        "Pied de",
+        "Port"
+      ]
     },
     "timestamp": "1527933600",
     "title": [
       "Camino de",
       "Santiago"
     ],
-    "type": "thru-hike"
+    "type": "thru-hiking"
   }
 ];
 

@@ -7,43 +7,60 @@ import { useEvent } from './useEvent';
 
 type ModalOptions = {
   content: ReactNode | ReactNode[];
+  ref: React.RefObject<HTMLFigureElement | null>;
+};
+
+type Size = {
+  top: number;
+  left: number;
+  height: number;
+  width: number;
 };
 
 type State = {
   content: ReactNode | ReactNode[] | null;
   isOpen: boolean;
+  size?: Size;
+  sizeBackup?: Size;
 };
 
 type Actions = {
-  setModal: (options: ModalOptions) => void;
+  setFinalSize: (size: Size) => void;
+  setModal: (content: ReactNode | ReactNode[], size: Size) => void;
   unsetModal: () => void;
 };
 
 const store = create<State & Actions>()(
-  (set) => ({
+  (set, get) => ({
     content: null,
     isOpen: false,
-    setModal: (options: ModalOptions) => {
+    size: undefined,
+    sizeBackup: undefined,
+    setModal: (content: ReactNode | ReactNode[], size: Size) => {
       set({
-        content: options.content,
+        content,
+        isOpen: true,
+        size,
+        sizeBackup: size,
       });
-
-      setTimeout(() => {
-        set({
-          isOpen: true,
-        });
-      }, 200);
+    },
+    setFinalSize: (size: Size) => {
+      set({
+        size,
+      });
     },
     unsetModal: () => {
       set({
-        isOpen: false,
+        size: get().sizeBackup,
       });
 
       setTimeout(() => {
         set({
           content: null,
+          isOpen: false,
+          size: undefined,
         });
-      }, 300);
+      }, 400);
     },
   }),
 );
@@ -52,7 +69,9 @@ export function useModal() {
   const {
     content,
     isOpen,
+    setFinalSize,
     setModal,
+    size,
     unsetModal,
   } = store();
 
@@ -69,7 +88,30 @@ export function useModal() {
   };
 
   const modal = (options: ModalOptions) => {
-    setModal(options);
+    const boundingClientRect = options.ref.current.getBoundingClientRect();
+    const computedStyle = {
+      width: window.getComputedStyle(options.ref.current).width,
+      height: window.getComputedStyle(options.ref.current).height,
+    };
+
+    setModal(
+      options.content,
+      {
+        top: boundingClientRect.top,
+        left: boundingClientRect.left,
+        height: computedStyle.height,
+        width: computedStyle.width,
+      }
+    );
+
+    setTimeout(() => {
+      setFinalSize({
+        height: '100vh',
+        width: '100vw',
+        top: '0',
+        left: '0',
+      });
+    }, 1);
 
     document.body.classList.add('overflow-hidden');
   };
@@ -83,5 +125,6 @@ export function useModal() {
     content,
     isOpen,
     modal,
+    size,
   };
 }

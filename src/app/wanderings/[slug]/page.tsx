@@ -1,4 +1,4 @@
-import View from '@/views/trip';
+import View from '@/views/wandering';
 
 type Params = Promise<{ slug: string }>;
 

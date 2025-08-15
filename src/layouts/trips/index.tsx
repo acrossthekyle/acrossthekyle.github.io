@@ -2,41 +2,30 @@
 
 import { ReactNode } from 'react';
 
-import Item from './index.item';
+import Directory from '@/ui/directory';
+
 import { useModel } from './model';
-import styles from './stylesheet';
 
 type Props = {
   children: ReactNode | ReactNode[];
 };
 
 export default function Layout({ children }: Props) {
-  const { isLoading, isOnTrip, trips } = useModel();
+  const { isLoading, trips } = useModel();
+
+  if (isLoading) {
+    return null; // todo
+  }
 
   return (
     <>
-      <section className={styles.section(isOnTrip)}>
-        <ul className={styles.trips(isOnTrip)}>
-          {isLoading && Array.from({ length: 11 }).map((_, index) => (
-            <li
-              className={styles.item}
-              key={index}
-              style={{ animationDelay: `${0.1 + (index * 0.025)}s` }}
-            >
-              <div className={styles.skeleton} />
-              <div className={styles.skeleton} />
-              <div className={styles.skeleton} />
-            </li>
-          ))}
-          {!isLoading && trips.map((trip) => (
-            <Item
-              isOnTrip={isOnTrip}
-              key={trip.index}
-              trip={trip}
-            />
-          ))}
-        </ul>
-      </section>
+      <Directory
+        align="start"
+        items={trips.map((trip) => ({
+          path: `/wanderings/${trip.slug}`,
+          text: trip.title,
+        }))}
+      />
       {children}
     </>
   );
