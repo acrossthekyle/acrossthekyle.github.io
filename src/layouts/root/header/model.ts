@@ -27,7 +27,7 @@ const ROUTES = [
   {
     base: '/wanderings',
     path: '/wanderings',
-    text: 'Wanderings',
+    text: 'Travels',
   },
   {
     base: '/contact',

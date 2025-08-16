@@ -59,7 +59,7 @@ export default function View({ slug }: Props) {
               key={stage.index}
               style={{ animationDelay: `${0.1 + (stage.index * 0.125)}s` }}
             >
-              <Figure onMaximize={handleOnMaximize} stage={stage} />
+              <Figure onMaximize={handleOnMaximize} stage={stage} total={trip.stats.length.value} />
             </li>
           ))}
         </ul>

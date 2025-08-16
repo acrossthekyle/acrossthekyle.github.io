@@ -37,6 +37,10 @@ const styles = tw({
   anchor: `
     font-black
     uppercase
+
+    focus:outline-0
+    focus:ring-1
+    focus:ring-white
   `,
   home: (isOnRoot: boolean, isOnParent: boolean) => {
     if (isOnRoot) {
@@ -82,6 +86,14 @@ const styles = tw({
       ml:hidden
     `);
   },
+  star: `
+    h-6 w-6
+    stroke-2
+    fill-white
+    duration-300
+
+    hover:rotate-72
+  `,
   nav: (isOnRoot: boolean, isOnParent: boolean) => {
     if (isOnRoot) {
       return tw(`
@@ -107,8 +119,6 @@ const styles = tw({
   },
   item: `
     overflow-hidden
-  `,
-  item: `
     opacity-0
     animate-elastic-in-from-left
 
@@ -120,12 +130,21 @@ const styles = tw({
     isOnChild: boolean,
     isActive: boolean,
   ) => {
+    const common = `
+      outline-0
+
+      focus:text-white
+    `;
+
     if (isOnRoot) {
       return tw(`
+        relative
+        inline-block
         text-3xl/5 text-white
         font-black
         uppercase
         duration-200
+        overflow-hidden
 
         5xs:text-5xl/10
         5xs:font-stretch-condensed
@@ -133,11 +152,18 @@ const styles = tw({
         3xs:text-5xl/10
         2xs:text-6xl/12
         md:font-stretch-normal
+        md:h-21
         md:text-8xl/20
-        lg:text-9xl/26
+        md:pe-20
+        2xl:h-26
+        2xl:text-9xl/26
 
-        md:hover:font-light
-        md:hover:tracking-wider
+        hover:font-light
+        hover:tracking-wider
+
+        ${common}
+        focus:font-light
+        focus:tracking-wider
       `);
     }
 
@@ -151,6 +177,8 @@ const styles = tw({
         md:hover:text-white
         ml:text-6xl/12
         sl:text-8xl/18
+
+        ${common}
       `);
     }
 
@@ -162,8 +190,17 @@ const styles = tw({
 
       md:hover:text-white
       lg:text-5xl/10
+
+      ${common}
     `);
   },
+  index: `
+    ms-2
+    w-8
+    text-xl
+    font-light
+    tracking-normal
+  `,
 });
 
 export default styles;

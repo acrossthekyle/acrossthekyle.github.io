@@ -12,6 +12,8 @@ const styles = tw({
       ml:pr-20
       sl:py-12
       sl:pl-20
+
+      outline-0
     `;
 
     if (isFull) {
@@ -25,7 +27,7 @@ const styles = tw({
         md:bottom-0
         md:overflow-y-scroll
         md:left-54
-        ml:left-84
+        ml:left-64
         sl:left-90
       `);
     }

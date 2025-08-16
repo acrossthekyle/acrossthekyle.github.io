@@ -36,7 +36,9 @@ export default function Image({
         <div
           aria-hidden="true"
           className={styles.skeleton}
-        />
+        >
+          <div className={styles.pulse} />
+        </div>
       )}
     </>
   );

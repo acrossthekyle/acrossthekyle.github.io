@@ -1,5 +1,6 @@
 'use client';
 
+import { Star } from 'lucide-react';
 import Link from 'next/link';
 
 import { useModel } from './model';
@@ -21,7 +22,7 @@ export default function Header() {
         className={`${styles.anchor} ${styles.home(isOnRoot, isOnParent)}`}
         href="/"
       >
-        K
+        <Star className={styles.star} />
       </Link>
       <button
         className={`${styles.anchor} ${styles.back(isOnRoot, isOnParent)}`}
@@ -48,6 +49,9 @@ export default function Header() {
                 href={isOnRoot || current !== route.path ? route.path : '/'}
               >
                 {route.text}
+                <span className={styles.index}>
+                  {String(index + 1).padStart(2, '0')}
+                </span>
               </Link>
             </li>
           ))}

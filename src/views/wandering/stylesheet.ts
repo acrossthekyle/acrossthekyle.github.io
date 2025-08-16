@@ -43,17 +43,17 @@ const styles = tw({
     3xs:text-3xl/6
     2xs:text-4xl/8
     sm:text-5xl/10
-    md:text-6xl/13
+    2ml:text-6xl/13
   `,
   date: `
-    text-yellow-300/60
+    text-yellow-300/90
     font-thin font-stretch-ultra-condensed
     uppercase
     tracking-tight
     ms-2
   `,
   stats: `
-    text-white/40
+    text-white/80
     font-thin
     uppercase
   `,
@@ -71,6 +71,7 @@ const styles = tw({
     animate-elastic-in-from-right
   `,
   figure: (isFullscreen: boolean) => tw(`
+    relative
     duration-400
 
     ${isFullscreen ? `
@@ -110,11 +111,17 @@ const styles = tw({
     `);
   },
   skeleton: `
-    absolute z-1
-    w-full h-full
-    object-cover
+    absolute z-5 inset-0
+  `,
+  pulse: `
+    relative
+    aspect-square
     bg-neutral-600
     animate-pulse
+
+    sm:w-full
+    sm:h-full
+    sm:aspect-auto
   `,
   caption: `
     relative z-2
@@ -124,8 +131,8 @@ const styles = tw({
     2xs:absolute
     2xs:left-4
     2xs:bottom-4
-    md:left-8
-    md:bottom-8
+    2ml:left-8
+    2ml:bottom-8
   `,
   heading: `
     text-4xl/7 text-white/80
@@ -135,6 +142,13 @@ const styles = tw({
 
     md:me-8
     sl:text-5xl/10
+  `,
+  index: `
+    ms-2
+    w-8
+    text-xl
+    font-normal
+    tracking-normal
   `,
   subheading: `
     mb-1
@@ -148,12 +162,14 @@ const styles = tw({
   `,
   toggle: (isInView: boolean) => tw(`
     hidden
-    absolute right-8 bottom-8 z-2
+    absolute right-4 bottom-4 z-2
     uppercase
     font-black
     text-white/80
     duration-200
 
+    2ml:bottom-8
+    2ml:right-8
     ml:block
 
     hover:text-white

@@ -37,7 +37,7 @@ export default function Directory({ align = 'end', items }: Props) {
                 target={item.isExternal === true ? '_blank' : undefined}
                 rel={item.isExternal === true ? 'noreferrer' : undefined}
               >
-                {item.text.map((word) => (
+                {item.text.map((word, segment: number) => (
                   <span
                     className={styles.block(
                       item.isExternal === true || item.isApp === true,
@@ -45,6 +45,11 @@ export default function Directory({ align = 'end', items }: Props) {
                     key={word}
                   >
                     {word}
+                    {(segment === (item.text.length - 1)) && (
+                      <span className={styles.index}>
+                        {String(index + 1).padStart(2, '0')}
+                      </span>
+                    )}
                   </span>
                 ))}
               </Link>

@@ -13,9 +13,10 @@ type Props = {
   onMaximize: (stage: Stage, ref: React.RefObject<HTMLFigureElement | null>) => void;
   onMinimize?: () => void;
   stage: Stage;
+  total: number;
 };
 
-export default function Figure({ isFullscreen, onMaximize, onMinimize, stage }: Props) {
+export default function Figure({ isFullscreen, onMaximize, onMinimize, stage, total }: Props) {
   const {
     figureRef,
     handleOnInView,
@@ -37,6 +38,9 @@ export default function Figure({ isFullscreen, onMaximize, onMinimize, stage }: 
               {stage.termini.end.map((word) => (
                 <span key={word}>{' '}{word}</span>
               ))}
+              <span className={styles.index}>
+                {String(stage.index + 1).padStart(3, '0')}/{String(total).padStart(3, '0')}
+              </span>
             </h2>
             <p className={styles.subheading}>
               <span className={styles.highlight}>

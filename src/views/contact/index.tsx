@@ -4,7 +4,7 @@ const ITEMS = [
   {
     isApp: true,
     path: 'mailto:hello@acrossthekyle.com',
-    text: ['Email'],
+    text: ['E-mail'],
   },
   {
     isExternal: true,
