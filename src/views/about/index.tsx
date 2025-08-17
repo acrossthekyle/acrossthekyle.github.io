@@ -33,7 +33,7 @@ export default function View() {
           </Link>.
         </p>
         <p className={styles.text}>
-          Some hikes I've done include the Tour du Mont Blanc in the Alps, the GR 20 in Corsica, the O Circuit in Patagonia, and the basecamp + Annapurna Circuit in Nepal.
+          Some hikes I've done include the Tour du Mont Blanc in the Alps, the GR 20 in Corsica, the O Circuit in Patagonia, and the Annapurna Basecamp & Circuit in Nepal.
         </p>
         <p className={styles.text}>
           Check out my{' '}

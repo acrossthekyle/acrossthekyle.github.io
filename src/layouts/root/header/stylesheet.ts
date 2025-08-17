@@ -89,6 +89,9 @@ const styles = tw({
     if (isOnRoot) {
       return tw(`
         flex flex-col
+        pb-6
+
+        ml:pb-0
       `);
     }
 
@@ -98,6 +101,9 @@ const styles = tw({
 
         hidden
 
+        pb-6
+
+        ml:pb-0
         md:block
       `);
     }

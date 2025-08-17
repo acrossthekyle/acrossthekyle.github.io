@@ -43,7 +43,7 @@ export default function Directory({ align = 'end', items }: Props) {
                 target={item.isExternal === true ? '_blank' : undefined}
                 rel={item.isExternal === true ? 'noreferrer' : undefined}
               >
-                <span className={styles.meta(isOnChild, current === item.path)}>
+                <span className={styles.meta}>
                   {(item.meta || []).map((meta, k: number) => (
                     <Fragment key={meta}>
                       <span className={styles.text}>

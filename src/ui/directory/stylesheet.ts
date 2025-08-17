@@ -47,7 +47,6 @@ const styles = tw({
   list: (align: 'end' | 'start') => tw(`
     group/list
     flex flex-col gap-4
-    lg:gap-2
 
     ${align === 'start' && `
       justify-end
@@ -143,7 +142,7 @@ const styles = tw({
     3xs:text-lg
     sm:text-xl/5
   `,
-  meta: (isOnChild: boolean, isActive: boolean) => tw(`
+  meta: `
     relative top-0
     flex gap-2
     text-sm/3 text-white/90
@@ -152,32 +151,15 @@ const styles = tw({
     duration-300
     mb-1
 
-    ${isActive ? 'lg:!text-white/90' : 'lg:text-white/25'}
-
     group-hover/link:!text-white/90
     group-hover/list:text-white/25
-
-    lg:text-lg/4
-    lg:ms-0
-    lg:text-right
-    lg:opacity-0
-    lg:absolute
-    lg:top-0
-    lg:right-12
-    lg:flex-col
-    lg:gap-0
-    ${!isOnChild && 'lg:group-hover/link:opacity-100'}
-  `),
+  `,
   text: `
-    inline-block
-
-    lg:block
+    block
   `,
   slash: `
     w-3 h-3
     stroke-1
-
-    lg:hidden
   `,
 });
 

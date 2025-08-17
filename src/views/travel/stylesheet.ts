@@ -60,8 +60,7 @@ const styles = tw({
   `,
   figure: (isFullscreen: boolean) => tw(`
     relative
-    duration-400
-    bg-black
+    transform-gpu duration-400
 
     ${isFullscreen ? `
       h-full
@@ -80,7 +79,7 @@ const styles = tw({
     const common = `
       object-cover
       w-full h-full
-      duration-500
+      transform-gpu duration-500
     `;
 
     if (isPlaceholder) {

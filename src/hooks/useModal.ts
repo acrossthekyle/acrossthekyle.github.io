@@ -115,7 +115,7 @@ export function useModal() {
         top: 0,
         left: 0,
       });
-    }, 1);
+    }, 100);
 
     document.body.classList.add('overflow-hidden');
   };
