@@ -5,8 +5,8 @@
   "title": "Alta Via 1",
   "type": "thru-hiking",
   "image": "2019/07/16/c4d424d9-7826-422d-9e0f-1b7e8b20af99.jpeg",
-  "location": "The Northern Italian Dolomites",
-  "tagline": "A natural wonder of extraordinary beauty",
+  "location": "the Dolomites",
+  "tagline": "A panorama of jagged ridges, vertical walls, and majestic towers",
   "previews": {
     "small": "2019/07/16/b1128805-54bb-4b7b-adcb-f2b6ae3fada6.jpeg",
     "large": "2019/07/16/a3f65b8c-4b57-4194-a3a1-5769f1d63373.jpeg"
@@ -16,7 +16,6 @@
     "Traversing through a panorama of jagged, saw-edged ridges, vertical walls, and majestic towers."
   ],
   "categories": [
-    "thru-hike",
     "europe",
     "italy"
   ],

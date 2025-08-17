@@ -1,4 +1,4 @@
-import Trips from '@/layouts/trips';
+import Travels from '@/layouts/travels';
 
 type Props = {
   children: React.ReactNode;
@@ -6,6 +6,6 @@ type Props = {
 
 export default function Layout({ children }: Props) {
   return (
-    <Trips>{children}</Trips>
+    <Travels>{children}</Travels>
   );
 };

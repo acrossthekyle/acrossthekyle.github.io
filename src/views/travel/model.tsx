@@ -7,10 +7,9 @@ import { useTrips } from '@/hooks/useTrips';
 import type { Stage, Trip } from '@/types';
 
 import Figure from './figure';
-import { getStats } from './utils';
 
 type Model = {
-  handleOnMaximize: (stage: Stage, ref: React.RefObject<HTMLFigureElement | null>) => void;
+  handleOnMaximize: (stage: Stage, ref: React.RefObject<HTMLFrameElement | null>, galleryIndex: number) => void;
   handleOnViewMore: () => void;
   shown: number;
   trip: Trip | undefined;
@@ -45,9 +44,21 @@ export function useModel(slug: string): Model {
     closeModal();
   };
 
-  const handleOnMaximize = (stage: Stage, ref: React.RefObject<HTMLFigureElement | null>) => {
+  const handleOnMaximize = (stage: Stage, ref: React.RefObject<HTMLFrameElement | null>, galleryIndex: number) => {
+    if (!trip) {
+      return;
+    }
+
     modal({
-      content: <Figure isFullscreen onMinimize={handleOnMinimize} stage={stage} />,
+      content: (
+        <Figure
+          activeGalleryIndex={galleryIndex}
+          isFullscreen
+          onMinimize={handleOnMinimize}
+          stage={stage}
+          total={trip.stats.length.value}
+        />
+      ),
       ref,
     });
   };
@@ -56,7 +67,6 @@ export function useModel(slug: string): Model {
     handleOnMaximize,
     handleOnViewMore,
     shown,
-    stats: getStats(trip),
     trip,
   };
 }

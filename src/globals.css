@@ -25,7 +25,7 @@
   --text-tiny: 0.625rem;
   --max-w-8xl: 100rem;
 
-  --animate-elastic-in-from-right: slideInRight .65s cubic-bezier(.4, -0.6, 0.32, 1.6) forwards;
+  --animate-elastic-in-from-right: slideInRight .5s cubic-bezier(.4, -0.6, 0.32, 1.6) forwards;
   --animate-elastic-in-from-left: slideInLeft .65s cubic-bezier(.4, -0.6, 0.32, 1.6) forwards;
   --animate-elastic-down: slideInDown .7s cubic-bezier(0.5, 0, 0, 1.5) forwards;
   --animate-elastic-up: slideInUp .7s cubic-bezier(0.5, 0, 0, 1.5) forwards;
@@ -34,7 +34,7 @@
   --animate-in: fadeIn .3s ease-in forwards;
 
   @keyframes slideInRight {
-    0% { opacity: 0; transform: translateX(100%); }
+    0% { opacity: 0; transform: translateX(50%); }
     100% { opacity: 1; transform: translateX(0); }
   }
 

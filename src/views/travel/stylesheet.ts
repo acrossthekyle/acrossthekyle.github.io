@@ -5,12 +5,14 @@ const styles = tw({
   categories: `
     flex gap-4
     mb-4
+
+    ml:hidden
   `,
   category: `
     uppercase
-    text-sm
+    text-xs
 
-    sm:text-base
+    sm:text-sm
   `,
   header: `
     relative
@@ -21,9 +23,8 @@ const styles = tw({
     flex flex-col gap-0
     mb-4
     text-4xl/8 text-white/90
-    font-black
-    uppercase
     font-black font-stretch-condensed
+    uppercase
     tracking-tighter
 
     5xs:text-5xl/10
@@ -35,27 +36,14 @@ const styles = tw({
   `,
   subtitle: `
     mb-12
-    text-3xl/7 text-white/90
-    font-medium font-stretch-ultra-condensed
-    uppercase
-    tracking-tight
+    text-xl text-white/90
+    font-normal font-stretch-condensed
 
-    3xs:text-3xl/6
-    2xs:text-4xl/8
-    sm:text-5xl/10
-    2ml:text-6xl/13
+    xs:text-2xl
   `,
   date: `
     text-yellow-300/90
-    font-thin font-stretch-ultra-condensed
-    uppercase
-    tracking-tight
-    ms-2
-  `,
-  stats: `
-    text-white/80
     font-thin
-    uppercase
   `,
   stages: `
     group/stages
@@ -73,25 +61,46 @@ const styles = tw({
   figure: (isFullscreen: boolean) => tw(`
     relative
     duration-400
+    bg-black
 
     ${isFullscreen ? `
       h-full
     ` : `
       aspect-square
 
-      sm:aspect-auto
+      xs:aspect-auto
     `}
   `),
-  image: (isInView: boolean, isFullscreen: boolean) => {
+  image: (
+    isInView: boolean,
+    isActive: boolean,
+    isFullscreen: boolean,
+    isPlaceholder: boolean,
+  ) => {
     const common = `
       object-cover
       w-full h-full
       duration-500
     `;
 
+    if (isPlaceholder) {
+      return tw(`
+        relative z-0
+        ${common}
+        opacity-0
+      `);
+    }
+
+    const gallery = `
+      absolute inset-0 z-2
+
+      ${isActive ? 'opacity-100' : 'opacity-0'}
+    `;
+
     if (isFullscreen) {
       return tw(`
         ${common}
+        ${gallery}
 
         brightness-90
         grayscale-0
@@ -100,6 +109,7 @@ const styles = tw({
 
     return tw(`
       ${common}
+      ${gallery}
 
       ${isInView ? `
         brightness-90
@@ -110,13 +120,42 @@ const styles = tw({
       `}
     `);
   },
+  gallery: (hasEnteredView: boolean) => tw(`
+    absolute z-3 bottom-2
+    p-2
+    duration-200
+
+    ${hasEnteredView ? 'opacity-100' : 'opacity-0'}
+
+    ml:-mt-5
+    ml:top-1/2
+    ml:bottom-auto
+  `),
+  previous: `
+    right-10
+
+    ml:left-1
+    ml:right-auto
+    2ml:left-6
+  `,
+  next: `
+    right-1
+
+    2ml:right-6
+  `,
+  arrow: `
+    h-6 w-6
+    stroke-2
+    stroke-white/90
+  `,
   skeleton: `
     absolute z-5 inset-0
+    bg-black
   `,
   pulse: `
     relative
     aspect-square
-    bg-neutral-600
+    bg-neutral-900
     animate-pulse
 
     sm:w-full
@@ -124,22 +163,20 @@ const styles = tw({
     sm:aspect-auto
   `,
   caption: `
-    relative z-2
-    mt-4
+    absolute z-2 left-4 bottom-4
 
-    2xs:mt-0
-    2xs:absolute
-    2xs:left-4
-    2xs:bottom-4
     2ml:left-8
     2ml:bottom-8
   `,
   heading: `
-    text-4xl/7 text-white/80
+    text-2xl/3 text-white/80
     font-bold font-stretch-ultra-condensed
     uppercase
-    mb-3 me-4
+    me-4
 
+    4xs:text-3xl/6
+    3xs:text-4xl/7
+    md:mb-3
     md:me-8
     sl:text-5xl/10
   `,
@@ -150,15 +187,38 @@ const styles = tw({
     font-normal
     tracking-normal
   `,
+  slash: `
+    inline
+    h-3.5
+    w-3
+    -mt-0.5
+  `,
   subheading: `
     mb-1
     font-mono
-    text-sm
+    text-xs
+
+    2xs:block
+    sl:text-sm
   `,
   highlight: `
+    inline
     py-0.5 px-2
     bg-yellow-300/90
     text-black
+  `,
+  break: `
+    block
+    opacity-0
+    text-tiny/1
+
+    2xs:text-xs
+    2xs:opacity-100
+    2xs:py-0.5
+    2xs:bg-yellow-300/90
+    2xs:text-black
+    2xs:inline
+    sl:text-sm
   `,
   toggle: (isInView: boolean) => tw(`
     hidden
@@ -181,21 +241,19 @@ const styles = tw({
     `}
   `),
   footer: `
-    mt-12
+    mt-6
     flex flex-col items-center
+
+    sl:mt-12
   `,
   more: `
-    group/more
-    flex items-center
     p-2
-    text-white
-  `,
-  plus: `
-    w-10 h-10
-    stroke-1
-    duration-200
+    text-xl text-white
+    font-black font-stretch-extra-condensed
+    uppercase
+    duration-300
 
-    group-hover/more:scale-125
+    hover:text-yellow-300
   `,
 });
 

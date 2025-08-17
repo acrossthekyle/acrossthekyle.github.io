@@ -4,7 +4,7 @@ const styles = tw({
   header: (isOnRoot: boolean, isOnParent: boolean, isOnChild: boolean) => tw(`
     top-0 left-0 bottom-0 z-1
     flex flex-col items-start justify-between
-    p-6
+    p-6 pb-0
 
     md:z-3
 
@@ -37,22 +37,17 @@ const styles = tw({
   anchor: `
     font-black
     uppercase
-
-    focus:outline-0
-    focus:ring-1
-    focus:ring-white
   `,
   home: (isOnRoot: boolean, isOnParent: boolean) => {
     if (isOnRoot) {
-      return tw('text-xl text-white block');
+      return tw('block');
     }
 
     if (isOnParent) {
-      return tw('text-xl text-white hidden md:block');
+      return tw('hidden md:block');
     }
 
     return tw(`
-      text-xl text-white
       hidden
 
       ml:block
@@ -60,10 +55,7 @@ const styles = tw({
   },
   back: (isOnRoot: boolean, isOnParent: boolean) => {
     const common = `
-      text-sm text-black
-      bg-white
-      rounded-full
-      py-1 px-4
+      text-base text-white/90
     `;
 
     if (isOnRoot) {
@@ -88,8 +80,7 @@ const styles = tw({
   },
   star: `
     h-6 w-6
-    stroke-2
-    fill-white
+    fill-white/90
     duration-300
 
     hover:rotate-72
@@ -118,7 +109,6 @@ const styles = tw({
     `);
   },
   item: `
-    overflow-hidden
     opacity-0
     animate-elastic-in-from-left
 
@@ -130,76 +120,82 @@ const styles = tw({
     isOnChild: boolean,
     isActive: boolean,
   ) => {
-    const common = `
-      outline-0
-
-      focus:text-white
+    const root = `
+      relative
+      inline-block
+      uppercase
+      duration-200
+      overflow-hidden
     `;
 
     if (isOnRoot) {
       return tw(`
-        relative
-        inline-block
-        text-3xl/5 text-white
-        font-black
-        uppercase
-        duration-200
-        overflow-hidden
+        ${root}
 
-        5xs:text-5xl/10
+        h-6
+        text-3xl/5 text-white/90
+        font-black
+
+        5xs:h-9
+        5xs:text-5xl/9
         5xs:font-stretch-condensed
-        3xs:tracking-normal
-        3xs:text-5xl/10
-        2xs:text-6xl/12
-        md:font-stretch-normal
-        md:h-21
-        md:text-8xl/20
+        4xs:h-11
+        4xs:text-6xl/10
+        3xs:h-14
+        3xs:text-7xl/14
+        sm:h-19
+        sm:text-8xl/18
         md:pe-20
         2xl:h-26
         2xl:text-9xl/26
 
         hover:font-light
         hover:tracking-wider
-
-        ${common}
-        focus:font-light
-        focus:tracking-wider
       `);
     }
 
+    const sub = `
+      ${isActive ? 'text-white/90' : 'text-white/25'}
+      font-thin font-stretch-ultra-condensed
+
+      hover:text-white/90
+    `;
+
     if (isOnParent) {
       return tw(`
-        text-5xl/10 ${isActive ? 'text-white' : 'text-white/25'}
-        font-thin font-stretch-ultra-condensed
-        uppercase
-        duration-200
+        ${root}
+        ${sub}
 
-        md:hover:text-white
-        ml:text-6xl/12
+        text-5xl/9
+        h-9
+
+        ml:text-6xl/10
+        ml:h-11
         sl:text-8xl/18
-
-        ${common}
+        sl:h-19
       `);
     }
 
     return tw(`
-      text-4xl/7 ${isActive ? 'text-white' : 'text-white/25'}
-      font-thin font-stretch-ultra-condensed
-      uppercase
-      duration-200
+      ${root}
+      ${sub}
 
-      md:hover:text-white
-      lg:text-5xl/10
+      text-4xl/6
+      h-7
 
-      ${common}
+      lg:text-5xl/9
+      lg:h-9
     `);
   },
   index: `
     ms-2
     w-8
-    text-xl
+    text-sm text-yellow-300/90
     font-light
     tracking-normal
+
+    3xs:text-lg
+    sm:text-xl
   `,
 });
 

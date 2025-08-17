@@ -6,15 +6,22 @@ import { useModel } from './image.model';
 import styles from './stylesheet';
 
 type Props = {
+  isActive: boolean;
   isFullscreen?: boolean;
   isInView?: boolean;
-  ref: React.RejObject;
+  isPlaceholder?: boolean;
+  quality?: number;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  ref?: React.RefObject<any> | ((node?: Element | null | undefined) => void);
   src: string;
 };
 
 export default function Image({
+  isActive,
   isFullscreen = false,
   isInView = false,
+  isPlaceholder = false,
+  quality = 100,
   ref,
   src,
 }: Props) {
@@ -24,15 +31,16 @@ export default function Image({
     <>
       <NextJsImage
         alt=""
-        className={styles.image(isInView, isFullscreen)}
+        className={styles.image(isInView, isActive, isFullscreen, isPlaceholder)}
         height={1080}
         onLoad={handleOnLoad}
+        quality={quality}
         ref={ref}
         sizes="100vw"
         src={src}
         width={1920}
       />
-      {isLoading && (
+      {isLoading && !isFullscreen && (
         <div
           aria-hidden="true"
           className={styles.skeleton}

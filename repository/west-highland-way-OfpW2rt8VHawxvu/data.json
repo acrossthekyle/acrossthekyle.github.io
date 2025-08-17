@@ -4,8 +4,8 @@
   "timestamp": "1651911600",
   "type": "thru-hiking",
   "image": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
-  "location": "Scotland UK",
-  "tagline": "Misty glens and deep lochs",
+  "location": "Scotland",
+  "tagline": "Filled with misty glens, lochs, and endless rain",
   "marker": {
     "left": "43.6",
     "top": "14.4"
@@ -19,8 +19,8 @@
     "Walking over dirt and gravel paths, from the south to the north, camping along the way."
   ],
   "categories": [
-    "thru-hike",
-    "europe"
+    "europe",
+    "uk"
   ],
   "title": "West Highland Way"
 }

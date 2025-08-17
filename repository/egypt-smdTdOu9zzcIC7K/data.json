@@ -6,7 +6,7 @@
   "image": "2022/12/28/88613c33-7796-47be-afc6-d31f51a80600.jpeg",
   "location": "Egypt",
   "cities": ["Cairo", "Luxor"],
-  "tagline": "Land of the Pharoahs",
+  "tagline": "Land of ancient wonders, full of bustling cities and streets",
   "previews": {
     "small": "2022/12/28/67389b3e-bdda-4a92-a884-7fdaf2ae145f.jpeg",
     "large": "2022/12/28/b13b3a23-187a-4dc4-912d-e225b21af78a.jpeg"
@@ -20,7 +20,6 @@
     "From pyramids, tombs, and temples, to soaring overhead in a hot air balloon ride."
   ],
   "categories": [
-    "vacation",
     "africa"
   ],
   "title": "Cairo & Luxor"

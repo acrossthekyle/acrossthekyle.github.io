@@ -4,8 +4,8 @@
   "timestamp": "1582041600",
   "type": "thru-hiking",
   "image": "2020/02/18/5e958df4-56a2-4292-ae6d-b694f078a985.jpeg",
-  "location": "Patagonia Chile",
-  "tagline": "The end of the world",
+  "location": "Patagonia",
+  "tagline": "At the end of the world",
   "marker": {
     "left": "25.8",
     "top": "95.5"
@@ -19,8 +19,8 @@
     "With towering granite peaks, sprawling glaciers, pristine lakes, and windswept plains."
   ],
   "categories": [
-    "thru-hike",
-    "south america"
+    "south america",
+    "chile"
   ],
   "title": "Torres del Paine O Circuit"
 }

@@ -1,11 +1,14 @@
 'use client';
 
+import { Slash } from 'lucide-react';
 import Link from 'next/link';
+import { Fragment } from 'react';
 
 import { useModel } from './model';
 import styles from './stylesheet';
 
 type Item = {
+  meta?: string[];
   isApp?: boolean;
   isExternal?: boolean;
   path: string;
@@ -13,7 +16,7 @@ type Item = {
 };
 
 type Props = {
-  align: 'end' | 'start';
+  align?: 'end' | 'start';
   items: Item[];
 };
 
@@ -32,11 +35,24 @@ export default function Directory({ align = 'end', items }: Props) {
               style={{ animationDelay: `${0.1 + (index * 0.025)}s` }}
             >
               <Link
-                className={styles.link(isOnChild, current === item.path)}
+                className={styles.link(
+                  isOnChild,
+                  current === item.path,
+                )}
                 href={isOnChild && current === item.path ? previous : item.path}
                 target={item.isExternal === true ? '_blank' : undefined}
                 rel={item.isExternal === true ? 'noreferrer' : undefined}
               >
+                <span className={styles.meta(isOnChild, current === item.path)}>
+                  {(item.meta || []).map((meta, k: number) => (
+                    <Fragment key={meta}>
+                      <span className={styles.text}>
+                        {meta}
+                      </span>
+                      {(item.meta || []).length > 1 && k === 0 && <Slash className={styles.slash} />}
+                    </Fragment>
+                  ))}
+                </span>
                 {item.text.map((word, segment: number) => (
                   <span
                     className={styles.block(

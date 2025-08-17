@@ -4,8 +4,8 @@
   "timestamp": "1657904400",
   "type": "section-hiking",
   "image": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",
-  "location": "Wisconsin USA",
-  "tagline": "Kettles and moraines, oh my",
+  "location": "Wisconsin",
+  "tagline": "A place of glacial kettles and moraines",
   "marker": {
     "left": "16",
     "top": "25"
@@ -20,7 +20,8 @@
   ],
   "categories": [
     "section-hike",
-    "north america"
+    "north america",
+    "usa"
   ],
   "title": "Ice Age Trail"
 }

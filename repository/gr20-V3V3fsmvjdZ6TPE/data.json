@@ -4,8 +4,8 @@
   "timestamp": "1687332000",
   "type": "thru-hiking",
   "image": "2023/06/21/0ff34736-949f-4981-b339-06b6d304ba51.jpeg",
-  "location": "Corsica France",
-  "tagline": "Rising from the Mediterranean",
+  "location": "Corsica",
+  "tagline": "A challenging island trail in the Mediterranean",
   "marker": {
     "left": "46.5",
     "top": "26"
@@ -19,8 +19,8 @@
     "Traversing the mountainous spine of Corsica while camping at mountain huts along the trail."
   ],
   "categories": [
-    "thru-hike",
-    "europe"
+    "europe",
+    "france"
   ],
-  "title": "GR20"
+  "title": "GR 20"
 }

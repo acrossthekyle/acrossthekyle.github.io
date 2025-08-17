@@ -7,63 +7,54 @@ import styles from './stylesheet';
 export default function View() {
   return (
     <Article isFull>
-      <header className={styles.group}>
-        <h1 className={styles.text}>
-          Whether I'm building <span className={`${styles.emphasis} ${styles.highlight}`}>software</span> or <span className={`${styles.emphasis} ${styles.highlight}`}>walking</span> across a mountain range<span className={styles.emphasis}>,</span> I'm always seeking new ways to <span className={`${styles.emphasis} ${styles.highlight}`}>move forward</span> with intention and curiosity.
-        </h1>
-      </header>
       <section className={styles.group}>
         <p className={styles.text}>
-          Hey<span className={styles.emphasis}>,</span> I'm <span className={`${styles.emphasis} ${styles.highlight}`}>Kyle</span><span className={styles.emphasis}>,</span> and I live in <span className={`${styles.emphasis} ${styles.highlight}`}>Chicago</span> with my partner and our dog <span className={`${styles.emphasis} ${styles.highlight}`}>Dax</span>.
+          Whether I'm building software or walking across a mountain range, I'm always seeking new ways to move forward  with intention and curiosity.
         </p>
         <p className={styles.text}>
-          I'm a full-time <span className={`${styles.emphasis} ${styles.highlight}`}>Frontend Developer</span>{' '}
-          at{' '}
+          Hey, I'm Kyle, and I live in Chicago with my partner and our dog Dax. When I'm not at a computer I'm disconnecting by thru-hiking a long-distance trail somewhere.
+        </p>
+        <p className={styles.text}>
+          I'm a full-time Frontend Developer at{' '}
           <Link
             className={`${styles.anchor} ${styles.external}`}
             href="https://business.optum.com/en/"
             target="_blank"
           >
-            <span className={styles.emphasis}>Optum Digital</span>
+            Optum Digital
           </Link>{' '}
-          with more than {new Date().getFullYear()-2012} years of insight<span className={styles.emphasis}>,</span> where my work impacts millions. Read up on{' '}
+          with more than {new Date().getFullYear()-2012} years of insight, where my work impacts millions. Learn more on my{' '}
           <Link
             className={`${styles.anchor} ${styles.external}`}
             href="/acrossthekyle-resume.pdf"
             target="_blank"
           >
-            <span className={styles.emphasis}>my career</span>
+            resume
           </Link>.
         </p>
         <p className={styles.text}>
-          When I'm not at a computer I'm disconnecting by <span className={`${styles.emphasis} ${styles.highlight}`}>thru-hiking</span> a long-distance trail somewhere.
+          Some hikes I've done include the Tour du Mont Blanc in the Alps, the GR 20 in Corsica, the O Circuit in Patagonia, and the basecamp + Annapurna Circuit in Nepal.
         </p>
         <p className={styles.text}>
-          Some hikes I've done include the <span className={`${styles.emphasis} ${styles.highlight}`}>Tour du Mont Blanc</span> in the Alps<span className={styles.emphasis}>,</span> the <span className={`${styles.emphasis} ${styles.highlight}`}>GR 20</span> in Corsica<span className={styles.emphasis}>,</span> the <span className={`${styles.emphasis} ${styles.highlight}`}>O Circuit</span> in Patagonia<span className={styles.emphasis}>,</span> and the <span className={`${styles.emphasis} ${styles.highlight}`}>basecamp + Annapurna Circuit</span> in Nepal.
-        </p>
-        <p className={styles.text}>
-          Browse all of the{' '}
+          Check out my{' '}
           <Link
-            className={`${styles.anchor} ${styles.internal}`}
-            href="/wanderings"
+            className={styles.anchor}
+            href="/travels"
           >
-            <span className={styles.emphasis}>trips and hikes</span>
+            travels
           </Link>{' '}
-          I've done
-          <span className={styles.emphasis}>,</span> or if you want to get in touch you can{' '}
+          to see (nearly) everywhere I've been, or if you want to get in touch you can{' '}
           <Link
-            className={`${styles.anchor} ${styles.internal}`}
+            className={styles.anchor}
             href="/contact"
           >
-            <span className={styles.emphasis}>Reach out</span>
+            reach out
           </Link>.
         </p>
-      </section>
-      <footer className={styles.group}>
         <p className={styles.text}>
           See you out there!
         </p>
-      </footer>
+      </section>
     </Article>
   );
 }

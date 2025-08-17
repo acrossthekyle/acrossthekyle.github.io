@@ -4,8 +4,8 @@
   "timestamp": "1535872800",
   "type": "thru-hiking",
   "image": "2018/09/02/ec37f4a8-6310-4bf6-b1a7-cddb1f91bf3b.jpeg",
-  "location": "The French Italian And Swiss Alps",
-  "tagline": "Standing as a timeless monument",
+  "location": "the French Italian and Swiss Alps",
+  "tagline": "A challenging experience with diverse landscapes and alpine charm",
   "marker": {
     "left": "46.6",
     "top": "22"
@@ -19,7 +19,6 @@
     "Crossing borders between France, Italy, and Switzerland, offering a unique blend of cultures, and stunning scenery."
   ],
   "categories": [
-    "thru-hike",
     "europe"
   ],
   "title": "Tour du Mont Blanc"

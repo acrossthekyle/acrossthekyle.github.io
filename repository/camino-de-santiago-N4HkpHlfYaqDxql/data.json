@@ -4,7 +4,7 @@
   "timestamp": "1527933600",
   "type": "thru-hiking",
   "image": "2018/06/02/1921986b-9cf8-4bf8-b531-3bfe2f098f93.jpeg",
-  "location": "Northern Spain",
+  "location": "the autonomous regions of Navarra, La Rioja, Castile and León, and Galicia",
   "tagline": "A rich mosaic of landscapes",
   "marker": {
     "left": "42.8",
@@ -19,8 +19,8 @@
     "Walking over hills and mountains, pushing through deserts, and swimming in rivers, all leading towards the city of Santiago de Compostela and the Atlantic ocean."
   ],
   "categories": [
-    "thru-hike",
-    "europe"
+    "europe",
+    "spain"
   ],
   "title": "Camino de Santiago"
 }

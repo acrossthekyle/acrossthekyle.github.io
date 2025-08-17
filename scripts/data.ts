@@ -652,7 +652,7 @@ async function go() {
         'utf8',
       ));
 
-      const gear = await getGear(folder);
+      // const gear = await getGear(folder);
       const stages = await getStages(folder);
       const stats = await getTripStats(trip, stages);
       const date = await getTripDate(trip, stages);
@@ -666,8 +666,8 @@ async function go() {
         // coordinates: trip.marker,
         date,
         description: trip.description,
-        gear,
-        hasGear: gear !== null,
+        // gear,
+        // hasGear: gear !== null,
         // hasRoutes,
         id: generateId(),
         images: {
@@ -687,7 +687,7 @@ async function go() {
           ...rest,
         })),
         stats,
-        // tagline: trip.tagline,
+        tagline: trip.tagline,
         termini,
         timestamp: trip.timestamp,
         title: turnStringIntoArrayForLists(trip.title),

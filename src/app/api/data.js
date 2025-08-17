@@ -1,7 +1,6 @@
 const data = [
   {
     "categories": [
-      "thru-hike",
       "europe",
       "repeat"
     ],
@@ -40,834 +39,13 @@ const data = [
       "A circumnavigation of the highest peak in Western Europe",
       "With breathtaking views of glaciers, towering granite peaks, lush valleys, and alpine meadows."
     ],
-    "gear": {
-      "categories": [
-        {
-          "category": "Pack",
-          "items": [
-            {
-              "category": "pack",
-              "link": "https://evolvedsupplyco.com/supplies/p/the-ranger",
-              "name": [
-                "ESC Ranger",
-                "Pack"
-              ],
-              "consumable": false,
-              "weight": 19.25,
-              "worn": false
-            },
-            {
-              "category": "pack",
-              "link": "https://evolvedsupplyco.com/supplies/p/nylofume-pack-liner",
-              "name": [
-                "Nylofume",
-                "Pack Liner"
-              ],
-              "consumable": false,
-              "weight": 1.02,
-              "worn": false
-            },
-            {
-              "category": "pack",
-              "link": "",
-              "name": [
-                "Drawstring",
-                "Bag"
-              ],
-              "consumable": false,
-              "weight": 3,
-              "worn": false
-            }
-          ],
-          "weight": "1.45"
-        },
-        {
-          "category": "Sleeping",
-          "items": [
-            {
-              "category": "sleeping",
-              "link": "https://seatosummit.com/products/adaptor-coolmax-liner-insect-shield",
-              "name": [
-                "Sea-to-Summit"
-              ],
-              "consumable": false,
-              "weight": 12.8,
-              "worn": false
-            },
-            {
-              "category": "sleeping",
-              "link": "https://www.rei.com/product/149971/exped-mega-pillow",
-              "name": [
-                "Exped Mega",
-                "Pillow"
-              ],
-              "consumable": false,
-              "weight": 6,
-              "worn": false
-            }
-          ],
-          "weight": "1.18"
-        },
-        {
-          "category": "Clothing",
-          "items": [
-            {
-              "category": "clothing",
-              "link": "https://vuoriclothing.com/products/kore-short-charcoal",
-              "name": [
-                "Vuori Kore",
-                "Shorts"
-              ],
-              "consumable": false,
-              "weight": 5.33,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
-              "name": [
-                "Smartwool",
-                "boxer",
-                "briefs",
-                "Underwear"
-              ],
-              "consumable": false,
-              "weight": 3.25,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/gp/product/B07BHX9PN8",
-              "name": [
-                "Darn Tough",
-                "Ankle Socks"
-              ],
-              "consumable": false,
-              "weight": 1.55,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://goodr.com/collections/the-ogs/products/a-gingers-soul",
-              "name": [
-                "Goodr",
-                "Sunglasses"
-              ],
-              "consumable": false,
-              "weight": 0.78,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://arcteryx.com/us/en/shop/bird-curved-brim-trucker-hat",
-              "name": [
-                "Arc’teryx",
-                "Trucker Hat"
-              ],
-              "consumable": false,
-              "weight": 2.15,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.topoathletic.com/mens-pursuit",
-              "name": [
-                "Topo",
-                "Athletic",
-                "Pursuit",
-                "Shoes"
-              ],
-              "consumable": false,
-              "weight": 22,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/gp/product/B00267SFL6",
-              "name": [
-                "Mueller",
-                "Knee",
-                "Stabilizer",
-                "Knee Braces"
-              ],
-              "consumable": false,
-              "weight": 3,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/gp/product/B07W5XC3DD",
-              "name": [
-                "Mountain",
-                "Hardwear",
-                "down jacket"
-              ],
-              "consumable": false,
-              "weight": 7.97,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
-              "name": [
-                "Smartwool",
-                "boxer",
-                "briefs",
-                "Underwear"
-              ],
-              "consumable": false,
-              "weight": 3.25,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://vuoriclothing.com/products/elevate-kore-short-black",
-              "name": [
-                "Vuori Kore",
-                "Shorts"
-              ],
-              "consumable": false,
-              "weight": 5.33,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/gp/product/B07BHX9PN8",
-              "name": [
-                "Darn Tough",
-                "Ankle Socks"
-              ],
-              "consumable": false,
-              "weight": 1.55,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://senchidesigns.com/collections/shop/products/wren-hoodie",
-              "name": [
-                "Senchi",
-                "Designs",
-                "Wren Alpha",
-                "Hoodie",
-                "Pullover"
-              ],
-              "consumable": false,
-              "weight": 4.02,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://enlightenedequipment.com/visp-rain-jacket/",
-              "name": [
-                "Enlightened",
-                "Equipment",
-                "Visp Rain",
-                "Jacket"
-              ],
-              "consumable": false,
-              "weight": 5.22,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.outdoorresearch.com/collections/sun-protection/products/mens-echo-hoodie-287625",
-              "name": [
-                "Outdoor",
-                "Research",
-                "Echo sun",
-                "hoody"
-              ],
-              "consumable": false,
-              "weight": 4.5,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
-              "name": [
-                "Smartwool",
-                "boxer",
-                "briefs",
-                "Underwear"
-              ],
-              "consumable": false,
-              "weight": 3.25,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/gp/product/B07BHX9PN8",
-              "name": [
-                "Darn Tough",
-                "Ankle Socks"
-              ],
-              "consumable": false,
-              "weight": 1.55,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.smartwool.com/shop/mens-classic-all-season-merino-base-layer-long-sleeve-sw016952",
-              "name": [
-                "Smartwool",
-                "Long sleeve",
-                "Shirt"
-              ],
-              "consumable": false,
-              "weight": 6.53,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.patagonia.com/product/mens-terrebonne-joggers/194187855635.html",
-              "name": [
-                "Vuori Kore",
-                "joggers"
-              ],
-              "consumable": false,
-              "weight": 8.29,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/Crocs-Unisex-Classic-Clogs-Latte/dp/B0014C5S7S",
-              "name": [
-                "Crocs",
-                "Classic",
-                "Clogs",
-                "Sandals"
-              ],
-              "consumable": false,
-              "weight": 13.12,
-              "worn": false
-            }
-          ],
-          "weight": "6.41"
-        },
-        {
-          "category": "Water",
-          "items": [
-            {
-              "category": "water",
-              "link": "",
-              "name": [
-                "Nalgene",
-                "32oz narrow",
-                "mouth Water",
-                "Bottles"
-              ],
-              "consumable": false,
-              "weight": 11.7,
-              "worn": false
-            },
-            {
-              "category": "water",
-              "link": "https://www.rei.com/product/116364/katadyn-befree-collapsible-water-filter-bottle-338-fl-oz",
-              "name": [
-                "Katadyn",
-                "BeFree 1L",
-                "water",
-                "Filter"
-              ],
-              "consumable": false,
-              "weight": 2.29,
-              "worn": false
-            }
-          ],
-          "weight": "0.87"
-        },
-        {
-          "category": "Hygiene",
-          "items": [
-            {
-              "category": "hygiene",
-              "link": "https://www.garagegrowngear.com/products/tooth-tabs-by-unpaste",
-              "name": [
-                "Toothpaste",
-                "tablets"
-              ],
-              "consumable": true,
-              "weight": 0.53,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "https://www.target.com/p/foldable-travel-toothbrush-up-38-up-8482/-/A-89947685",
-              "name": [
-                "Foldable",
-                "Toothbrush"
-              ],
-              "consumable": false,
-              "weight": 0.74,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "Hand",
-                "Sanitizer"
-              ],
-              "consumable": true,
-              "weight": 1.62,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "https://www.amazon.com/dp/B000HJXQ9G",
-              "name": [
-                "Dr.",
-                "Bronners",
-                "Body/Hair",
-                "Wash"
-              ],
-              "consumable": true,
-              "weight": 2.89,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "https://www.target.com/p/vanicream-daily-facial-moisturizer-for-sensitive-skin-3-fl-oz/-/A-80038093",
-              "name": [
-                "Face Lotion"
-              ],
-              "consumable": true,
-              "weight": 1.38,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "https://www.amazon.com/gp/product/B01N2HMAV1",
-              "name": [
-                "PackTowl",
-                "Towel"
-              ],
-              "consumable": false,
-              "weight": 6.31,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "https://www.amazon.com/dp/B00E3B47ZQ",
-              "name": [
-                "",
-                "Travel-sized"
-              ],
-              "consumable": true,
-              "weight": 0.95,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "Toilet",
-                "paper"
-              ],
-              "consumable": true,
-              "weight": 1.69,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "https://www.target.com/p/wet-ones-antibacterial-hand-wipes-travel-pack-fresh-20ct/-/A-15045578",
-              "name": [
-                "Body Wipes"
-              ],
-              "consumable": true,
-              "weight": 2,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "Q-tips"
-              ],
-              "consumable": true,
-              "weight": 0.21,
-              "worn": false
-            }
-          ],
-          "weight": "1.15"
-        },
-        {
-          "category": "Aid Kit",
-          "items": [
-            {
-              "category": "aid kit",
-              "link": "https://www.rei.com/product/800721/adventure-medical-kits-ultralightwatertight-3-medical-kit",
-              "name": [
-                "Ibuprofen +",
-                "allergy",
-                "medicine +",
-                "repair tape",
-                "Med +",
-                "Repair Kit"
-              ],
-              "consumable": false,
-              "weight": 3.35,
-              "worn": false
-            }
-          ],
-          "weight": "0.21"
-        },
-        {
-          "category": "Electronics",
-          "items": [
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "Apple Wired",
-                "Headphones"
-              ],
-              "consumable": false,
-              "weight": 0.46,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "https://www.nitecorestore.com/Nitecore-NB10000-Gen-2-Power-Bank-p/bat-nite-nb10000.htm",
-              "name": [
-                "Nitecore",
-                "NB10000",
-                "Powerbank"
-              ],
-              "consumable": false,
-              "weight": 5.36,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "https://www.garmin.com/en-US/p/854515",
-              "name": [
-                "Garmin",
-                "Enduro 2",
-                "GPS",
-                "Smartwatch"
-              ],
-              "consumable": false,
-              "weight": 1.8,
-              "worn": true
-            },
-            {
-              "category": "electronics",
-              "link": "https://www.apple.com/iphone-16-pro/",
-              "name": [
-                "iPhone 16",
-                "Pro Phone"
-              ],
-              "consumable": false,
-              "weight": 7.8,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "Cables"
-              ],
-              "consumable": false,
-              "weight": 1.9,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "https://www.amazon.com/gp/product/B071GC3G9G",
-              "name": [
-                "Type CEF",
-                "Outlet",
-                "Adapter"
-              ],
-              "consumable": false,
-              "weight": 1.16,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "Anker",
-                "USB-A/USB-C",
-                "30W charger",
-                "dual port"
-              ],
-              "consumable": false,
-              "weight": 2.19,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "https://www.garmin.com/en-US/p/793265",
-              "name": [
-                "Garmin",
-                "inReach",
-                "Messenger",
-                "SOS"
-              ],
-              "consumable": false,
-              "weight": 4.2,
-              "worn": false
-            }
-          ],
-          "weight": "1.55"
-        },
-        {
-          "category": "Packed Food + Water",
-          "items": [
-            {
-              "category": "packed food + water",
-              "link": "",
-              "name": [
-                "2 liters",
-                "Water"
-              ],
-              "consumable": true,
-              "weight": 74.4,
-              "worn": false
-            },
-            {
-              "category": "packed food + water",
-              "link": "",
-              "name": [
-                "Packed",
-                "Lunch"
-              ],
-              "consumable": true,
-              "weight": 4,
-              "worn": false
-            }
-          ],
-          "weight": "4.90"
-        },
-        {
-          "category": "Miscellaneous",
-          "items": [
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Playing",
-                "cards"
-              ],
-              "consumable": false,
-              "weight": 3.28,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://cnocoutdoors.com/collections/trekking-poles/products/cnoc-telescopic-trekking-poles-cork-grip-single-pole",
-              "name": [
-                "CNOC Cork",
-                "Trekking",
-                "Pole"
-              ],
-              "consumable": false,
-              "weight": 9.66,
-              "worn": true
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Hair Ties"
-              ],
-              "consumable": false,
-              "weight": 0.32,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Clothing",
-                "wire and",
-                "pins"
-              ],
-              "consumable": false,
-              "weight": 2.82,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Comb"
-              ],
-              "consumable": false,
-              "weight": 0.53,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B001ARBSTO",
-              "name": [
-                "Picaridin",
-                "insect",
-                "repellent",
-                "Bug Wipes"
-              ],
-              "consumable": false,
-              "weight": 1.13,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "SPF 15",
-                "Chapstick"
-              ],
-              "consumable": true,
-              "weight": 0.32,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/gp/product/B004Y6K8XA",
-              "name": [
-                "33 SPF",
-                "Joshua Tree",
-                "sun stick",
-                "Sunblock"
-              ],
-              "consumable": true,
-              "weight": 0.95,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Earplugs"
-              ],
-              "consumable": false,
-              "weight": 0.14,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "reading",
-                "Glasses"
-              ],
-              "consumable": false,
-              "weight": 2.47,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Wallet"
-              ],
-              "consumable": false,
-              "weight": 2,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Building +",
-                "unit Keys"
-              ],
-              "consumable": false,
-              "weight": 1.2,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Nail",
-                "clippers"
-              ],
-              "consumable": false,
-              "weight": 0.46,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Passport"
-              ],
-              "consumable": false,
-              "weight": 2.57,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Carabiners"
-              ],
-              "consumable": false,
-              "weight": 0.81,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Tums"
-              ],
-              "consumable": true,
-              "weight": 1.21,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Nuun"
-              ],
-              "consumable": true,
-              "weight": 2.29,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Small",
-                "dyneema bag"
-              ],
-              "consumable": false,
-              "weight": 0.49,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Small",
-                "ziplock bag"
-              ],
-              "consumable": false,
-              "weight": 0.18,
-              "worn": false
-            }
-          ],
-          "weight": "2.05"
-        }
-      ],
-      "weightBase": "10.78",
-      "weightConsumable": "5.90",
-      "weightTotal": "19.78",
-      "weightWorn": "3.09"
-    },
-    "hasGear": true,
-    "id": "B57QJ9TQ2BZvrNe",
+    "id": "JgGaj6i3h93Qkx4",
     "images": {
       "hero": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg"
     },
     "index": 0,
     "label": "day",
-    "location": "The French Italian And Swiss Alps",
+    "location": "the French Italian and Swiss Alps",
     "slug": "tour-du-mont-blanc-repeat",
     "stages": [
       {
@@ -884,7 +62,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "VTzFYolE78Rm1Jk",
+        "id": "E0VSbq71iX8RuGc",
         "images": {
           "hero": "2024/07/27/ac7799bd-b2a8-4f77-8a8d-6d42a8740390.jpeg",
           "supplementary": []
@@ -997,7 +175,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "kmJ7j3PbFr5a7Y4",
+        "id": "A7UmAe64Bh4kuiC",
         "images": {
           "hero": "2024/07/27/10146a42-b18d-4318-bc5b-c32279532e4d.jpeg",
           "supplementary": []
@@ -1114,7 +292,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "wAc3sBr71T6oGHR",
+        "id": "CVi6wkZPZuB3mJr",
         "images": {
           "hero": "2024/07/27/be9a961c-fc7d-43dc-b466-29a359d1cd12.jpeg",
           "supplementary": []
@@ -1233,7 +411,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "jwwqZFTF8zf8o2e",
+        "id": "wn9N0q5hnNjTUks",
         "images": {
           "hero": "2024/07/27/a45073e7-ef67-4e31-a5e7-3ba9b4b97b4e.jpeg",
           "supplementary": []
@@ -1350,7 +528,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "Bwm1OnBnLZGZSMY",
+        "id": "5EgZXwLCFtKxUqY",
         "images": {
           "hero": "2024/07/27/f1310350-3cb1-4f1b-b591-e08d0971f23b.jpeg",
           "supplementary": []
@@ -1465,7 +643,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "OKP0uSQrQ6jWlSj",
+        "id": "NtkSG17VjPRZHO9",
         "images": {
           "hero": "2024/07/27/b70777d8-b89d-4d60-b422-2d2af80483e4.jpeg",
           "supplementary": []
@@ -1580,7 +758,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "8ulvpIAq5Di13ch",
+        "id": "qVwOW9LwXYkzFNp",
         "images": {
           "hero": "2024/07/27/22400157-4853-4974-856b-86b1bc986ef9.jpeg",
           "supplementary": []
@@ -1695,7 +873,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "DzCcMIPb7Y49Vk4",
+        "id": "2Uo2ovWo4H7Ytw2",
         "images": {
           "hero": "2024/07/27/99d87d66-9534-4aca-9489-eb2fbbdc152b.jpeg",
           "supplementary": []
@@ -1810,7 +988,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "pgJPHH9XSo1GSDl",
+        "id": "X9rThbhVydaRJDl",
         "images": {
           "hero": "2024/07/27/91e2be29-62d0-4be0-a00a-9ebd9d9dc395.jpeg",
           "supplementary": []
@@ -1925,7 +1103,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "3ojchyYEd718Hti",
+        "id": "45LCDVf6Dhkuz7G",
         "images": {
           "hero": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg",
           "supplementary": []
@@ -2040,7 +1218,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "UHLmVC1jVrsvWL6",
+        "id": "mT1JqDgFLhR9DHO",
         "images": {
           "hero": "2024/07/27/480c5394-dfa7-4760-8f62-5a39cb66cb98.jpeg",
           "supplementary": []
@@ -2187,6 +1365,7 @@ const data = [
         "units": null
       }
     },
+    "tagline": "Returning to an old friend",
     "termini": {
       "end": [
         "Les Houches"
@@ -2205,8 +1384,8 @@ const data = [
   },
   {
     "categories": [
-      "thru-hike",
-      "europe"
+      "europe",
+      "france"
     ],
     "date": {
       "dates": {
@@ -2243,759 +1422,13 @@ const data = [
       "A renowned thru-hike, regarded as the most challenging in Europe",
       "Traversing the mountainous spine of Corsica while camping at mountain huts along the trail."
     ],
-    "gear": {
-      "categories": [
-        {
-          "category": "Pack",
-          "items": [
-            {
-              "category": "pack",
-              "link": "https://evolvedsupplyco.com/supplies/p/the-ranger",
-              "name": [
-                "ESC Ranger",
-                "Pack"
-              ],
-              "consumable": false,
-              "weight": 19.25,
-              "worn": false
-            },
-            {
-              "category": "pack",
-              "link": "https://evolvedsupplyco.com/supplies/p/nylofume-pack-liner",
-              "name": [
-                "Nylofume",
-                "Pack Liner"
-              ],
-              "consumable": false,
-              "weight": 1.02,
-              "worn": false
-            }
-          ],
-          "weight": "1.27"
-        },
-        {
-          "category": "Shelter",
-          "items": [
-            {
-              "category": "shelter",
-              "link": "https://durstongear.com/products/x-mid-pro-1-tent-ultralight-thruhiking",
-              "name": [
-                "Durston",
-                "X-Mid Pro 1",
-                "tent"
-              ],
-              "consumable": false,
-              "weight": 16,
-              "worn": false
-            },
-            {
-              "category": "shelter",
-              "link": "https://www.rei.com/product/829838/msr-mini-ground-hog-stake",
-              "name": [
-                "MSR Ground",
-                "Hog Minis x",
-                "8 stakes"
-              ],
-              "consumable": false,
-              "weight": 6,
-              "worn": false
-            }
-          ],
-          "weight": "1.38"
-        },
-        {
-          "category": "Sleeping",
-          "items": [
-            {
-              "category": "sleeping",
-              "link": "https://www.bigagnes.com/collections/new-arrivals/products/zoom-ul-insulated",
-              "name": [
-                "Big Agnes",
-                "Zoom UL",
-                "Regular/Wide"
-              ],
-              "consumable": false,
-              "weight": 17,
-              "worn": false
-            },
-            {
-              "category": "sleeping",
-              "link": "https://enlightenedequipment.com/enigma",
-              "name": [
-                "EE Engima",
-                "30ºF/-1ºC",
-                "Regular",
-                "Quilt"
-              ],
-              "consumable": false,
-              "weight": 16.33,
-              "worn": false
-            },
-            {
-              "category": "sleeping",
-              "link": "https://www.rei.com/product/239220/exped-mega-pillow",
-              "name": [
-                "Exped",
-                "Pillow"
-              ],
-              "consumable": false,
-              "weight": 6,
-              "worn": false
-            }
-          ],
-          "weight": "2.46"
-        },
-        {
-          "category": "Clothing",
-          "items": [
-            {
-              "category": "clothing",
-              "link": "https://vuoriclothing.com/products/kore-short-charcoal",
-              "name": [
-                "Vuori Kore",
-                "Shorts"
-              ],
-              "consumable": false,
-              "weight": 5.33,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.outdoorresearch.com/collections/sun-protection/products/mens-echo-hoodie-287625",
-              "name": [
-                "Outdoor",
-                "Research",
-                "Echo sun",
-                "hoody"
-              ],
-              "consumable": false,
-              "weight": 4.5,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "Altra Lone",
-                "Peak 6",
-                "Shoes"
-              ],
-              "consumable": false,
-              "weight": 20,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
-              "name": [
-                "Smartwool",
-                "boxer",
-                "briefs",
-                "Underwear"
-              ],
-              "consumable": false,
-              "weight": 3.25,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/gp/product/B00267SFL6",
-              "name": [
-                "Mueller",
-                "Knee Brace"
-              ],
-              "consumable": false,
-              "weight": 3,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/gp/product/B07BHX9PN8",
-              "name": [
-                "Darn Tough",
-                "Ankle Socks"
-              ],
-              "consumable": false,
-              "weight": 1.55,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://goodr.com/collections/the-ogs/products/a-gingers-soul",
-              "name": [
-                "Goodr",
-                "Sunglasses"
-              ],
-              "consumable": false,
-              "weight": 0.78,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://arcteryx.com/us/en/shop/bird-curved-brim-trucker-hat",
-              "name": [
-                "Arc’teryx",
-                "Trucker Hat"
-              ],
-              "consumable": false,
-              "weight": 2.15,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/gp/product/B07W5XC3DD",
-              "name": [
-                "Mountain",
-                "Hardwear",
-                "down jacket"
-              ],
-              "consumable": false,
-              "weight": 7.97,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://enlightenedequipment.com/visp-rain-jacket/",
-              "name": [
-                "Enlightened",
-                "Equipment",
-                "Visp Rain",
-                "Jacket"
-              ],
-              "consumable": false,
-              "weight": 5.22,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.outdoorresearch.com/collections/sun-protection/products/mens-echo-hoodie-287625",
-              "name": [
-                "Outdoor",
-                "Research",
-                "Echo sun",
-                "hoody"
-              ],
-              "consumable": false,
-              "weight": 4.5,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
-              "name": [
-                "Smartwool",
-                "boxer",
-                "briefs",
-                "Underwear"
-              ],
-              "consumable": false,
-              "weight": 3.25,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/gp/product/B07BHX9PN8",
-              "name": [
-                "Darn Tough",
-                "Ankle Socks"
-              ],
-              "consumable": false,
-              "weight": 1.55,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://senchidesigns.com/collections/shop/products/wren-hoodie",
-              "name": [
-                "Senchi",
-                "Designs",
-                "Wren Alpha",
-                "Hoodie",
-                "Pullover"
-              ],
-              "consumable": false,
-              "weight": 4.02,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.patagonia.com/product/mens-terrebonne-joggers/194187855635.html",
-              "name": [
-                "Vuori Kore",
-                "joggers"
-              ],
-              "consumable": false,
-              "weight": 8.29,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "",
-                "Store-bought"
-              ],
-              "consumable": false,
-              "weight": 6,
-              "worn": false
-            }
-          ],
-          "weight": "5.08"
-        },
-        {
-          "category": "Water",
-          "items": [
-            {
-              "category": "water",
-              "link": "https://www.rei.com/product/188475",
-              "name": [
-                "Platypus",
-                "Quickdraw",
-                "Filter"
-              ],
-              "consumable": false,
-              "weight": 2.4,
-              "worn": false
-            },
-            {
-              "category": "water",
-              "link": "https://www.rei.com/product/188475",
-              "name": [
-                "Platypus 1L",
-                "Filter",
-                "Pouch"
-              ],
-              "consumable": false,
-              "weight": 1.4,
-              "worn": false
-            },
-            {
-              "category": "water",
-              "link": "",
-              "name": [
-                "Smartwater",
-                "Water",
-                "Bottles"
-              ],
-              "consumable": false,
-              "weight": 3,
-              "worn": false
-            }
-          ],
-          "weight": "0.42"
-        },
-        {
-          "category": "Hygiene",
-          "items": [
-            {
-              "category": "hygiene",
-              "link": "https://www.garagegrowngear.com/products/tooth-tabs-by-unpaste",
-              "name": [
-                "Toothpaste",
-                "tablets"
-              ],
-              "consumable": true,
-              "weight": 0.53,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "https://www.target.com/p/foldable-travel-toothbrush-up-38-up-8482/-/A-89947685",
-              "name": [
-                "Foldable",
-                "Toothbrush"
-              ],
-              "consumable": false,
-              "weight": 0.74,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "Hand",
-                "Sanitizer"
-              ],
-              "consumable": true,
-              "weight": 1.62,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "Toilet",
-                "paper"
-              ],
-              "consumable": true,
-              "weight": 1.69,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "https://www.amazon.com/dp/B000HJXQ9G",
-              "name": [
-                "Dr.",
-                "Bronners",
-                "Body/Hair",
-                "Wash"
-              ],
-              "consumable": true,
-              "weight": 2.89,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "https://www.target.com/p/vanicream-daily-facial-moisturizer-for-sensitive-skin-3-fl-oz/-/A-80038093",
-              "name": [
-                "Face Lotion"
-              ],
-              "consumable": true,
-              "weight": 1.38,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "https://www.amazon.com/dp/B00E3B47ZQ",
-              "name": [
-                "",
-                "Travel-sized"
-              ],
-              "consumable": true,
-              "weight": 0.95,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "Ultralight",
-                "Towel"
-              ],
-              "consumable": false,
-              "weight": 3,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "Comb"
-              ],
-              "consumable": false,
-              "weight": 0.53,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "Hair Ties"
-              ],
-              "consumable": false,
-              "weight": 0.32,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "SPF 15",
-                "Chapstick"
-              ],
-              "consumable": true,
-              "weight": 0.32,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "https://www.amazon.com/gp/product/B004Y6K8XA",
-              "name": [
-                "33 SPF",
-                "Joshua Tree",
-                "sun stick",
-                "Sunblock"
-              ],
-              "consumable": true,
-              "weight": 0.95,
-              "worn": false
-            }
-          ],
-          "weight": "0.93"
-        },
-        {
-          "category": "Aid Kit",
-          "items": [
-            {
-              "category": "aid kit",
-              "link": "https://www.rei.com/product/800721/adventure-medical-kits-ultralightwatertight-3-medical-kit",
-              "name": [
-                "Ibuprofen +",
-                "allergy",
-                "medicine +",
-                "repair tape",
-                "Med +",
-                "Repair Kit"
-              ],
-              "consumable": true,
-              "weight": 3.35,
-              "worn": false
-            }
-          ],
-          "weight": "0.21"
-        },
-        {
-          "category": "Electronics",
-          "items": [
-            {
-              "category": "electronics",
-              "link": "https://www.nitecorestore.com/NITECORE-NU25-UL-Headlamp-p/fl-nite-nu25-400ul-bk.htm",
-              "name": [
-                "Nitecore",
-                "NU25 UL",
-                "Headlamp"
-              ],
-              "consumable": false,
-              "weight": 1.59,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "https://www.nitecorestore.com/Nitecore-NB10000-Gen-2-Power-Bank-p/bat-nite-nb10000.htm",
-              "name": [
-                "Nitecore",
-                "NB10000",
-                "Powerbank"
-              ],
-              "consumable": false,
-              "weight": 5.36,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "https://www.amazon.com/dp/B0BDKB4W7N",
-              "name": [
-                "Anker USB-C",
-                "40W charger",
-                "dual port"
-              ],
-              "consumable": false,
-              "weight": 3,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "https://www.garmin.com/en-US/p/854515",
-              "name": [
-                "Garmin",
-                "Enduro 2",
-                "GPS",
-                "Smartwatch"
-              ],
-              "consumable": false,
-              "weight": 1.8,
-              "worn": true
-            },
-            {
-              "category": "electronics",
-              "link": "https://www.apple.com/iphone-16-pro/",
-              "name": [
-                "iPhone 16",
-                "Pro Phone"
-              ],
-              "consumable": false,
-              "weight": 7.8,
-              "worn": true
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "Cables"
-              ],
-              "consumable": false,
-              "weight": 1.9,
-              "worn": false
-            }
-          ],
-          "weight": "1.34"
-        },
-        {
-          "category": "Packed Food + Water",
-          "items": [
-            {
-              "category": "packed food + water",
-              "link": "",
-              "name": [
-                "2 liters",
-                "Water"
-              ],
-              "consumable": true,
-              "weight": 74.4,
-              "worn": false
-            },
-            {
-              "category": "packed food + water",
-              "link": "",
-              "name": [
-                "Snacks"
-              ],
-              "consumable": true,
-              "weight": 4,
-              "worn": false
-            }
-          ],
-          "weight": "4.90"
-        },
-        {
-          "category": "Luxury Items",
-          "items": [
-            {
-              "category": "luxury items",
-              "link": "https://www.amazon.com/dp/B08KTZ8249",
-              "name": [
-                "Amazon",
-                "Kindle",
-                "Paperwhite",
-                "E-Reader"
-              ],
-              "consumable": false,
-              "weight": 7.23,
-              "worn": false
-            },
-            {
-              "category": "luxury items",
-              "link": "https://www.amazon.com/dp/B0BDHWDR12",
-              "name": [
-                "Airpods Pro",
-                "2",
-                "Headphones"
-              ],
-              "consumable": false,
-              "weight": 1.9,
-              "worn": false
-            },
-            {
-              "category": "luxury items",
-              "link": "https://www.amazon.com/gp/product/B07Z13G1P5",
-              "name": [
-                "Bluetooth",
-                "Headphones",
-                "adapter"
-              ],
-              "consumable": false,
-              "weight": 0.5,
-              "worn": false
-            },
-            {
-              "category": "luxury items",
-              "link": "https://www.amazon.com/dp/B01I98YQA4",
-              "name": [
-                "Trekking",
-                "Pole bag"
-              ],
-              "consumable": false,
-              "weight": 0.92,
-              "worn": false
-            }
-          ],
-          "weight": "0.66"
-        },
-        {
-          "category": "Miscellaneous",
-          "items": [
-            {
-              "category": "miscellaneous",
-              "link": "https://cnocoutdoors.com/collections/trekking-poles/products/cnoc-telescopic-trekking-poles-cork-grip-single-pole",
-              "name": [
-                "CNOC Cork",
-                "Trekking",
-                "Pole"
-              ],
-              "consumable": false,
-              "weight": 9.66,
-              "worn": true
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Earplugs"
-              ],
-              "consumable": false,
-              "weight": 0.14,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Drawstring",
-                "Bag"
-              ],
-              "consumable": false,
-              "weight": 3,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "reading",
-                "Glasses"
-              ],
-              "consumable": false,
-              "weight": 2.47,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Building +",
-                "unit Keys"
-              ],
-              "consumable": false,
-              "weight": 1.2,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Wallet"
-              ],
-              "consumable": true,
-              "weight": 2,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Passport"
-              ],
-              "consumable": false,
-              "weight": 2.57,
-              "worn": false
-            }
-          ],
-          "weight": "1.32"
-        }
-      ],
-      "weightBase": "10.35",
-      "weightConsumable": "5.88",
-      "weightTotal": "19.97",
-      "weightWorn": "3.74"
-    },
-    "hasGear": true,
-    "id": "BlKplXILAfHpf6r",
+    "id": "3I8FMx3u0lX8nnp",
     "images": {
       "hero": "2023/06/21/0ff34736-949f-4981-b339-06b6d304ba51.jpeg"
     },
     "index": 1,
     "label": "day",
-    "location": "Corsica France",
+    "location": "Corsica",
     "slug": "gr-20",
     "stages": [
       {
@@ -3012,7 +1445,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "3JFNCrTHkX5VH4E",
+        "id": "4q1zhMz8ZMlsJAd",
         "images": {
           "hero": "2023/06/21/f1d1c83f-941d-4351-aa5e-08d698b78775.jpeg",
           "supplementary": []
@@ -3125,7 +1558,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "hCvV6bqpBB7LLlm",
+        "id": "nVoQyJMhnXFoRSc",
         "images": {
           "hero": "2023/06/21/e2d0721f-2c3f-4367-8f7b-1176c94b3e2c.jpeg",
           "supplementary": []
@@ -3238,7 +1671,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "DMsE8hYTAW8D24a",
+        "id": "5GS6HKtcOutohUc",
         "images": {
           "hero": "2023/06/21/4b13a3d8-a55c-4bed-b887-ad3490ab964f.jpeg",
           "supplementary": []
@@ -3349,7 +1782,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "tWDBtw9tbeDXDry",
+        "id": "yEaFEq8Q3cZNv2f",
         "images": {
           "hero": "2023/06/21/8f85de22-b937-4ea5-9dfa-e45eb357e7b8.jpeg",
           "supplementary": []
@@ -3461,7 +1894,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "JaUpjX2taQpK1fU",
+        "id": "woEyEAyygGUIxcA",
         "images": {
           "hero": "2023/06/21/f0dc6ac2-b0e5-4e2a-b874-0d40f47c454b.jpeg",
           "supplementary": []
@@ -3574,7 +2007,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "I4aUTWX3slQzmba",
+        "id": "5beQSAkIktvLraT",
         "images": {
           "hero": "2023/06/21/95b4adaa-bbbe-4de3-b9f8-96365390f142.jpeg",
           "supplementary": []
@@ -3687,7 +2120,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "EEDbQjdsttBKTcF",
+        "id": "cEaCHfaSBBjDvpB",
         "images": {
           "hero": "2023/06/21/05769f04-5b00-4fd5-a233-55c00c9871c5.jpeg",
           "supplementary": []
@@ -3798,7 +2231,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "rEjWLaDfZxfrHZN",
+        "id": "cILXaLlCpSYyiPk",
         "images": {
           "hero": "2023/06/21/4e7bda74-809e-48a9-a904-5645bf2e7dde.jpeg",
           "supplementary": []
@@ -3909,7 +2342,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "98PMUiuIsTEx6DJ",
+        "id": "WtaSI6yoBOFpn33",
         "images": {
           "hero": "2023/06/21/2cc8532b-6441-49fb-927e-ebdb001b78cf.jpeg",
           "supplementary": []
@@ -4020,7 +2453,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "2TbtvEr97m3tIRj",
+        "id": "h6sHKRh9mBg2yW1",
         "images": {
           "hero": "2023/06/21/54334c14-8bae-4478-97f7-179f79cd2ca6.jpeg",
           "supplementary": []
@@ -4133,7 +2566,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "z8g5T4rWd2Oy5UU",
+        "id": "FPBp6d9n6O0eJOG",
         "images": {
           "hero": "2023/06/21/73a5df9e-fefd-43d0-ad5a-7f71dcb003cc.jpeg",
           "supplementary": []
@@ -4246,7 +2679,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "GX7jcPTvzBIKFLQ",
+        "id": "ks6yF7AoPDiWDAq",
         "images": {
           "hero": "2023/06/21/d36a683f-4d95-4b0c-987d-d190336c49ee.jpeg",
           "supplementary": []
@@ -4357,7 +2790,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "KwUKAMBaAvqcJwS",
+        "id": "MzmmSFgHrvdUwIU",
         "images": {
           "hero": "2023/06/21/f0cd0897-3fc9-47a2-808e-e1627dfb45bc.jpeg",
           "supplementary": []
@@ -4501,6 +2934,7 @@ const data = [
         "units": null
       }
     },
+    "tagline": "A challenging island trail in the Mediterranean",
     "termini": {
       "end": [
         "Conca"
@@ -4512,13 +2946,12 @@ const data = [
     },
     "timestamp": "1687332000",
     "title": [
-      "GR20"
+      "GR 20"
     ],
     "type": "thru-hiking"
   },
   {
     "categories": [
-      "vacation",
       "africa"
     ],
     "date": {
@@ -4556,9 +2989,7 @@ const data = [
       "An ancient land full of bustling cities and streets",
       "From pyramids, tombs, and temples, to soaring overhead in a hot air balloon ride."
     ],
-    "gear": null,
-    "hasGear": false,
-    "id": "Jq58rhgz7HtZ0R0",
+    "id": "FB8IEHjH3nM8eUu",
     "images": {
       "hero": "2022/12/28/88613c33-7796-47be-afc6-d31f51a80600.jpeg"
     },
@@ -4581,7 +3012,7 @@ const data = [
           }
         },
         "hasStats": false,
-        "id": "K8XfTIlsRjzAxZ5",
+        "id": "futMDyi5dlBH6kB",
         "images": {
           "hero": "2022/12/28/4a450c11-fa71-4501-83de-95cf248aeecc.jpeg",
           "supplementary": [
@@ -4629,7 +3060,7 @@ const data = [
           }
         },
         "hasStats": false,
-        "id": "LYQpV8hR7NwAKvf",
+        "id": "HbVYDmWIjP0ehtL",
         "images": {
           "hero": "2022/12/28/2fbb089e-8a80-4c3b-b071-709cc9702a84.jpeg",
           "supplementary": [
@@ -4680,7 +3111,7 @@ const data = [
           }
         },
         "hasStats": false,
-        "id": "65PjDQD7iqKoIaK",
+        "id": "wl509DY2643H3BB",
         "images": {
           "hero": "2022/12/28/f24edc7b-3854-40c5-a2e7-33e2e2e27bde.jpeg",
           "supplementary": []
@@ -4722,7 +3153,7 @@ const data = [
           }
         },
         "hasStats": false,
-        "id": "qA7gWuP71d9UdDL",
+        "id": "U76PrsttEwlhFAC",
         "images": {
           "hero": "2022/12/28/5e393275-ee80-475d-83cf-26192cd55738.jpeg",
           "supplementary": []
@@ -4767,7 +3198,7 @@ const data = [
           }
         },
         "hasStats": false,
-        "id": "oIIke81Fa0CXJgo",
+        "id": "Rr9Kd9G50abo9L4",
         "images": {
           "hero": "2022/12/28/f135fdfe-1c54-4f54-b8b5-fbd7887055ab.jpeg",
           "supplementary": [
@@ -4815,7 +3246,7 @@ const data = [
           }
         },
         "hasStats": false,
-        "id": "rp8qxs3clWvGbt0",
+        "id": "dO7Xm1jUJX2x02O",
         "images": {
           "hero": "2022/12/28/bc5b055a-7117-4e18-9aac-8384ba214d5e.jpeg",
           "supplementary": [
@@ -4863,7 +3294,7 @@ const data = [
           }
         },
         "hasStats": false,
-        "id": "emqEf3UKlkKaAa1",
+        "id": "t6NE2HxL9qUVODW",
         "images": {
           "hero": "2022/12/28/44f2c787-1209-4e11-a2fe-64030e0c472c.jpeg",
           "supplementary": [
@@ -4911,7 +3342,7 @@ const data = [
           }
         },
         "hasStats": false,
-        "id": "9EP71mGjc6uINhA",
+        "id": "Sm6aG0xPHYB032s",
         "images": {
           "hero": "2022/12/28/b7e2eeb1-90d3-49cb-bdb8-41acf2162f78.jpeg",
           "supplementary": [
@@ -4962,7 +3393,7 @@ const data = [
           }
         },
         "hasStats": false,
-        "id": "PZnIoPMViSDcJ4B",
+        "id": "fDSe5WiRT4g531A",
         "images": {
           "hero": "2022/12/28/b13b3a23-187a-4dc4-912d-e225b21af78a.jpeg",
           "supplementary": [
@@ -5013,7 +3444,7 @@ const data = [
           }
         },
         "hasStats": false,
-        "id": "mg1VWyRAuSidHyp",
+        "id": "bcJLqQsGJ69HkDC",
         "images": {
           "hero": "2022/12/28/9799718c-81f7-460d-9f0a-7ddd2dffb060.jpeg",
           "supplementary": [
@@ -5061,7 +3492,7 @@ const data = [
           }
         },
         "hasStats": false,
-        "id": "JA9DT1XXha2nBNS",
+        "id": "KS7hlPNj7T3fumu",
         "images": {
           "hero": "2022/12/28/6bf7f094-4f84-42b6-8bbc-5b501a25f3e7.jpeg",
           "supplementary": [
@@ -5113,6 +3544,7 @@ const data = [
         "units": null
       }
     },
+    "tagline": "Land of ancient wonders, full of bustling cities and streets",
     "termini": {
       "end": [
         "Luxor"
@@ -5132,7 +3564,8 @@ const data = [
   {
     "categories": [
       "section-hike",
-      "north america"
+      "north america",
+      "usa"
     ],
     "date": {
       "dates": null,
@@ -5145,779 +3578,13 @@ const data = [
       "A testament to the colossal power of nature's icy embrace",
       "Walking the kettles and moraines left behind by the glaciers, several millenia ago."
     ],
-    "gear": {
-      "categories": [
-        {
-          "category": "Pack",
-          "items": [
-            {
-              "category": "pack",
-              "link": "https://durstongear.com/products/kakwa-55",
-              "name": [
-                "Durston",
-                "Gear Kakwa",
-                "55 Pack"
-              ],
-              "consumable": false,
-              "weight": 29.8,
-              "worn": false
-            },
-            {
-              "category": "pack",
-              "link": "https://evolvedsupplyco.com/supplies/p/nylofume-pack-liner",
-              "name": [
-                "Nylofume",
-                "Pack Liner"
-              ],
-              "consumable": false,
-              "weight": 1.02,
-              "worn": false
-            }
-          ],
-          "weight": "1.93"
-        },
-        {
-          "category": "Shelter",
-          "items": [
-            {
-              "category": "shelter",
-              "link": "https://durstongear.com/products/x-dome-1-plus-ultralight-backpacking-tent",
-              "name": [
-                "Durston",
-                "Gear X-Dome",
-                "1+ tent"
-              ],
-              "consumable": false,
-              "weight": 35,
-              "worn": false
-            },
-            {
-              "category": "shelter",
-              "link": "https://www.rei.com/product/829838/msr-mini-ground-hog-stake",
-              "name": [
-                "MSR Ground",
-                "Hog Mini",
-                "stakes"
-              ],
-              "consumable": false,
-              "weight": 1.98,
-              "worn": false
-            },
-            {
-              "category": "shelter",
-              "link": "https://www.homedepot.com/p/Charlotte-Pipe-1-2-in-PVC-Schedule-40-Socket-Cap-PVC021160600HD/203811669",
-              "name": [
-                "PVC End Cap"
-              ],
-              "consumable": false,
-              "weight": 0.39,
-              "worn": false
-            }
-          ],
-          "weight": "2.34"
-        },
-        {
-          "category": "Sleeping",
-          "items": [
-            {
-              "category": "sleeping",
-              "link": "https://enlightenedequipment.com/revelation-stock",
-              "name": [
-                "EE",
-                "Revelation",
-                "10ºF Quilt"
-              ],
-              "consumable": false,
-              "weight": 27,
-              "worn": false
-            },
-            {
-              "category": "sleeping",
-              "link": "https://www.rei.com/product/149971/exped-mega-pillow",
-              "name": [
-                "Exped Mega",
-                "Pillow"
-              ],
-              "consumable": false,
-              "weight": 6,
-              "worn": false
-            },
-            {
-              "category": "sleeping",
-              "link": "https://www.rei.com/product/241039/therm-a-rest-neoloft-sleeping-pad",
-              "name": [
-                "",
-                "Therm-a-rest"
-              ],
-              "consumable": false,
-              "weight": 32,
-              "worn": false
-            }
-          ],
-          "weight": "4.06"
-        },
-        {
-          "category": "Clothing",
-          "items": [
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "Salomon",
-                "Trail",
-                "Running",
-                "shoes Shoes"
-              ],
-              "consumable": false,
-              "weight": 26,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://arcteryx.com/us/en/shop/bird-curved-brim-trucker-hat",
-              "name": [
-                "Arc’teryx",
-                "Trucker Hat"
-              ],
-              "consumable": false,
-              "weight": 2.15,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://goodr.com/collections/the-ogs/products/a-gingers-soul",
-              "name": [
-                "Goodr",
-                "Sunglasses"
-              ],
-              "consumable": false,
-              "weight": 0.78,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.outdoorresearch.com/collections/sun-protection/products/mens-echo-hoodie-287625",
-              "name": [
-                "Outdoor",
-                "Research",
-                "Echo sun",
-                "hoody"
-              ],
-              "consumable": false,
-              "weight": 4.5,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.farpointeog.com/stock/p/yakona-hoodie-available-314",
-              "name": [
-                "Farpointe",
-                "Yakona",
-                "Cruiser",
-                "Pullover"
-              ],
-              "consumable": false,
-              "weight": 4.02,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://unboundmerino.com/products/black-boxer-brief",
-              "name": [
-                "Unbound",
-                "Merino Wool",
-                "Boxer Brief",
-                "Underwear"
-              ],
-              "consumable": false,
-              "weight": 2.86,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/dp/B074ZGXRYL",
-              "name": [
-                "Darn Tough",
-                "Quarter",
-                "Socks"
-              ],
-              "consumable": false,
-              "weight": 1.9,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/gp/product/B07W5XC3DD",
-              "name": [
-                "Mountain",
-                "Hardwear",
-                "down jacket"
-              ],
-              "consumable": false,
-              "weight": 7.97,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://enlightenedequipment.com/visp-rain-jacket",
-              "name": [
-                "Enlightened",
-                "Equipment",
-                "Visp Rain",
-                "Jacket"
-              ],
-              "consumable": false,
-              "weight": 5.22,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.outdoorresearch.com/collections/sun-protection/products/mens-echo-hoodie-287625",
-              "name": [
-                "Outdoor",
-                "Research",
-                "Echo sun",
-                "hoody"
-              ],
-              "consumable": false,
-              "weight": 4.5,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://unboundmerino.com/products/black-boxer-brief",
-              "name": [
-                "Unbound",
-                "Merino Wool",
-                "Boxer Brief",
-                "Underwear"
-              ],
-              "consumable": false,
-              "weight": 2.86,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/dp/B074ZGXRYL",
-              "name": [
-                "Darn Tough",
-                "Quarter",
-                "Socks"
-              ],
-              "consumable": false,
-              "weight": 1.9,
-              "worn": false
-            }
-          ],
-          "weight": "4.04"
-        },
-        {
-          "category": "Kitchen",
-          "items": [
-            {
-              "category": "kitchen",
-              "link": "https://www.amazon.com/gp/product/B009B98FGW",
-              "name": [
-                "TOAKS",
-                "titanium",
-                "750ml pot"
-              ],
-              "consumable": false,
-              "weight": 3.8,
-              "worn": false
-            },
-            {
-              "category": "kitchen",
-              "link": "https://www.rei.com/product/148209/msr-pocketrocket-deluxe-stove",
-              "name": [
-                "MSR",
-                "PocketRocket"
-              ],
-              "consumable": false,
-              "weight": 2.9,
-              "worn": false
-            },
-            {
-              "category": "kitchen",
-              "link": "https://www.garagegrowngear.com/products/titanium-long-handle-spoon-by-toaks",
-              "name": [
-                "TOAKS",
-                "titanium",
-                "long",
-                "utensil"
-              ],
-              "consumable": false,
-              "weight": 0.53,
-              "worn": false
-            },
-            {
-              "category": "kitchen",
-              "link": "https://zpacks.com/products/nylopro-odor-barrier-bags",
-              "name": [
-                "NyloPro",
-                "Odor Proof",
-                "Bag odor",
-                "barrier"
-              ],
-              "consumable": false,
-              "weight": 0.63,
-              "worn": false
-            },
-            {
-              "category": "kitchen",
-              "link": "https://www.rei.com/product/849634/msr-isopro-fuel-canister-39-oz-110g",
-              "name": [
-                "MSR IsoPro",
-                "4oz fuel"
-              ],
-              "consumable": true,
-              "weight": 7.4,
-              "worn": false
-            },
-            {
-              "category": "kitchen",
-              "link": "https://adotecgear.com/product/ultralight-food-locker-grizzly-bear/",
-              "name": [
-                "Adotec",
-                "Ultralight",
-                "Food Locker",
-                "14L food",
-                "bag"
-              ],
-              "consumable": false,
-              "weight": 6.75,
-              "worn": false
-            },
-            {
-              "category": "kitchen",
-              "link": "",
-              "name": [
-                "Bic lighter"
-              ],
-              "consumable": true,
-              "weight": 1,
-              "worn": false
-            }
-          ],
-          "weight": "1.44"
-        },
-        {
-          "category": "Water",
-          "items": [
-            {
-              "category": "water",
-              "link": "https://www.rei.com/product/188475",
-              "name": [
-                "Platypus",
-                "Quickdraw",
-                "water",
-                "Filter"
-              ],
-              "consumable": false,
-              "weight": 2.4,
-              "worn": false
-            },
-            {
-              "category": "water",
-              "link": "https://www.rei.com/product/188475",
-              "name": [
-                "Platypus 1L",
-                "water pouch"
-              ],
-              "consumable": false,
-              "weight": 1.4,
-              "worn": false
-            },
-            {
-              "category": "water",
-              "link": "https://mazamadesigns.com/products/m-go-bottle",
-              "name": [
-                "M!Go 32oz",
-                "Water",
-                "Bottles"
-              ],
-              "consumable": false,
-              "weight": 9.3,
-              "worn": false
-            }
-          ],
-          "weight": "0.82"
-        },
-        {
-          "category": "Hygiene",
-          "items": [
-            {
-              "category": "hygiene",
-              "link": "https://www.garagegrowngear.com/products/tooth-tabs-by-unpaste",
-              "name": [
-                "Toothpaste",
-                "tablets"
-              ],
-              "consumable": true,
-              "weight": 0.53,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "https://www.target.com/p/foldable-travel-toothbrush-up-38-up-8482/-/A-89947685",
-              "name": [
-                "Foldable",
-                "Toothbrush"
-              ],
-              "consumable": false,
-              "weight": 0.74,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "Hand",
-                "Sanitizer"
-              ],
-              "consumable": true,
-              "weight": 1.62,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "https://www.amazon.com/dp/B00E3B47ZQ",
-              "name": [
-                "",
-                "Travel-sized"
-              ],
-              "consumable": true,
-              "weight": 0.95,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "Toilet",
-                "paper"
-              ],
-              "consumable": true,
-              "weight": 1.69,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "Toilet bag"
-              ],
-              "consumable": false,
-              "weight": 0.44,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "https://www.target.com/p/wet-ones-antibacterial-hand-wipes-travel-pack-fresh-20ct/-/A-15045578",
-              "name": [
-                "Body Wipes"
-              ],
-              "consumable": true,
-              "weight": 2,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "Hair Ties"
-              ],
-              "consumable": false,
-              "weight": 0.32,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "SPF 15",
-                "Chapstick"
-              ],
-              "consumable": true,
-              "weight": 0.32,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "https://www.garagegrowngear.com/products/ultralight-trowel-by-boglerco",
-              "name": [
-                "BoglerCo",
-                "Ultralight",
-                "trowel"
-              ],
-              "consumable": false,
-              "weight": 0.48,
-              "worn": false
-            }
-          ],
-          "weight": "0.57"
-        },
-        {
-          "category": "Aid Kit",
-          "items": [
-            {
-              "category": "aid kit",
-              "link": "https://www.rei.com/product/800721/adventure-medical-kits-ultralightwatertight-3-medical-kit",
-              "name": [
-                "Ibuprofen +",
-                "allergy",
-                "medicine +",
-                "repair tape",
-                "Med +",
-                "Repair Kit"
-              ],
-              "consumable": false,
-              "weight": 3.35,
-              "worn": false
-            }
-          ],
-          "weight": "0.21"
-        },
-        {
-          "category": "Electronics",
-          "items": [
-            {
-              "category": "electronics",
-              "link": "https://www.garmin.com/en-US/p/854515",
-              "name": [
-                "Garmin",
-                "Enduro 2",
-                "GPS",
-                "Smartwatch"
-              ],
-              "consumable": false,
-              "weight": 1.8,
-              "worn": true
-            },
-            {
-              "category": "electronics",
-              "link": "https://www.apple.com/iphone-16-pro/",
-              "name": [
-                "iPhone 16",
-                "Pro"
-              ],
-              "consumable": false,
-              "weight": 7.8,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "https://www.nitecorestore.com/NITECORE-NU25-UL-Headlamp-p/fl-nite-nu25-400ul-bk.htm",
-              "name": [
-                "Nitecore",
-                "NU25 UL",
-                "headlamp"
-              ],
-              "consumable": false,
-              "weight": 1.59,
-              "worn": false
-            }
-          ],
-          "weight": "0.70"
-        },
-        {
-          "category": "Miscellaneous",
-          "items": [
-            {
-              "category": "miscellaneous",
-              "link": "https://durstongear.com/products/iceline-trekking-poles",
-              "name": [
-                "Durston",
-                "Gear",
-                "Iceline",
-                "Trekking",
-                "Pole"
-              ],
-              "consumable": false,
-              "weight": 4.7,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B001ARBSTO",
-              "name": [
-                "Picaridin",
-                "insect",
-                "repellent",
-                "Bug Wipes"
-              ],
-              "consumable": false,
-              "weight": 1.13,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "reading",
-                "Glasses"
-              ],
-              "consumable": false,
-              "weight": 2.47,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Wallet"
-              ],
-              "consumable": false,
-              "weight": 2,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Building +",
-                "unit Keys"
-              ],
-              "consumable": false,
-              "weight": 1.2,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B0D3V61JC8",
-              "name": [
-                "Loop Quiet",
-                "2 Earplugs"
-              ],
-              "consumable": false,
-              "weight": 0.5,
-              "worn": false
-            }
-          ],
-          "weight": "0.75"
-        },
-        {
-          "category": "Packed Food + Water",
-          "items": [
-            {
-              "category": "packed food + water",
-              "link": "",
-              "name": [
-                "2 liters",
-                "Water"
-              ],
-              "consumable": true,
-              "weight": 74.4,
-              "worn": false
-            },
-            {
-              "category": "packed food + water",
-              "link": "",
-              "name": [
-                "Dinner and",
-                "breakfast +",
-                "bars"
-              ],
-              "consumable": true,
-              "weight": 16,
-              "worn": false
-            }
-          ],
-          "weight": "5.65"
-        },
-        {
-          "category": "Luxury Items",
-          "items": [
-            {
-              "category": "luxury items",
-              "link": "https://www.amazon.com/dp/B08KTZ8249",
-              "name": [
-                "Amazon",
-                "Kindle",
-                "Paperwhite",
-                "e-reader"
-              ],
-              "consumable": false,
-              "weight": 7.23,
-              "worn": false
-            },
-            {
-              "category": "luxury items",
-              "link": "https://eaglesnestoutfittersinc.com/products/sub6-ultralight-hammock",
-              "name": [
-                "ENO Sub6",
-                "Ultralight",
-                "hammock"
-              ],
-              "consumable": false,
-              "weight": 5.82,
-              "worn": false
-            },
-            {
-              "category": "luxury items",
-              "link": "https://eaglesnestoutfittersinc.com/products/helios-ultralight-hammock-straps",
-              "name": [
-                "ENO",
-                "Ultralight",
-                "hammock",
-                "straps"
-              ],
-              "consumable": false,
-              "weight": 3.88,
-              "worn": false
-            },
-            {
-              "category": "luxury items",
-              "link": "https://www.amazon.com/dp/B00004YVB2",
-              "name": [
-                "Victorinox",
-                "Classic",
-                "swiss army",
-                "knife"
-              ],
-              "consumable": false,
-              "weight": 0.74,
-              "worn": false
-            },
-            {
-              "category": "luxury items",
-              "link": "https://www.rei.com/product/120670/silky-f180-folding-hand-saw",
-              "name": [
-                "SILKY F180",
-                "saw"
-              ],
-              "consumable": false,
-              "weight": 5.3,
-              "worn": false
-            },
-            {
-              "category": "luxury items",
-              "link": "https://www.amazon.com/dp/B000LBS6LS",
-              "name": [
-                "fire",
-                "starter"
-              ],
-              "consumable": true,
-              "weight": 1,
-              "worn": false
-            }
-          ],
-          "weight": "1.50"
-        }
-      ],
-      "weightBase": "14.57",
-      "weightConsumable": "6.68",
-      "weightTotal": "24.00",
-      "weightWorn": "2.75"
-    },
-    "hasGear": true,
-    "id": "VH7XgS9XAVna9Ku",
+    "id": "6NQBNHlzlfyvAeR",
     "images": {
       "hero": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg"
     },
     "index": 3,
     "label": "section",
-    "location": "Wisconsin USA",
+    "location": "Wisconsin",
     "slug": "ice-age-trail",
     "stages": [
       {
@@ -5934,7 +3601,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "qOTGkNKLIbm0w7f",
+        "id": "awLq6hPhlai1whA",
         "images": {
           "hero": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",
           "supplementary": []
@@ -6053,7 +3720,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "KAb7uDdOHNNumYz",
+        "id": "rwyNAqRTvQS6RCw",
         "images": {
           "hero": "2025/05/03/e402c0b1-e827-4123-b7b5-74947b240687.jpeg",
           "supplementary": []
@@ -6166,7 +3833,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "LAhcfMqvrXVelzE",
+        "id": "ylKtXpXiK1um3Fr",
         "images": {
           "hero": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
           "supplementary": []
@@ -6312,6 +3979,7 @@ const data = [
         "units": null
       }
     },
+    "tagline": "A place of glacial kettles and moraines",
     "termini": {
       "end": [
         "Greenbush",
@@ -6334,8 +4002,8 @@ const data = [
   },
   {
     "categories": [
-      "thru-hike",
-      "europe"
+      "europe",
+      "uk"
     ],
     "date": {
       "dates": {
@@ -6372,732 +4040,13 @@ const data = [
       "An ever-changing route, from the lowlands to the highlands",
       "Walking over dirt and gravel paths, from the south to the north, camping along the way."
     ],
-    "gear": {
-      "categories": [
-        {
-          "category": "Pack",
-          "items": [
-            {
-              "category": "pack",
-              "link": "",
-              "name": [
-                "Waymark",
-                "Gear Co",
-                "Thru 40L",
-                "Pack"
-              ],
-              "consumable": false,
-              "weight": 24.7,
-              "worn": false
-            },
-            {
-              "category": "pack",
-              "link": "https://zpacks.com/products/pack-liner",
-              "name": [
-                "ZPacks",
-                "Dyneema Dry",
-                "Bag Pack",
-                "Liner"
-              ],
-              "consumable": false,
-              "weight": 1.2,
-              "worn": false
-            }
-          ],
-          "weight": "1.62"
-        },
-        {
-          "category": "Shelter",
-          "items": [
-            {
-              "category": "shelter",
-              "link": "https://www.rei.com/product/188354/big-agnes-tiger-wall-ul2-solution-dyed-tent",
-              "name": [
-                "Big Agnes",
-                "Tigerwall",
-                "UL2 Tent"
-              ],
-              "consumable": false,
-              "weight": 42,
-              "worn": false
-            },
-            {
-              "category": "shelter",
-              "link": "https://www.rei.com/product/829838/msr-mini-ground-hog-stake",
-              "name": [
-                "MSR",
-                "Groundhog",
-                "Minis x 8",
-                "Stakes"
-              ],
-              "consumable": false,
-              "weight": 2.68,
-              "worn": false
-            }
-          ],
-          "weight": "2.79"
-        },
-        {
-          "category": "Sleeping",
-          "items": [
-            {
-              "category": "sleeping",
-              "link": "https://www.amazon.com/dp/B00PZL14EK",
-              "name": [
-                "",
-                "Therm-a-Rest"
-              ],
-              "consumable": false,
-              "weight": 12,
-              "worn": false
-            },
-            {
-              "category": "sleeping",
-              "link": "https://www.amazon.com/dp/B003Z218V0",
-              "name": [
-                "S2S Aero",
-                "Pillow"
-              ],
-              "consumable": false,
-              "weight": 2.1,
-              "worn": false
-            },
-            {
-              "category": "sleeping",
-              "link": "https://enlightenedequipment.com/enigma",
-              "name": [
-                "EE Engima",
-                "Regular",
-                "10ºF Quilt"
-              ],
-              "consumable": false,
-              "weight": 16.33,
-              "worn": false
-            }
-          ],
-          "weight": "1.90"
-        },
-        {
-          "category": "Clothing",
-          "items": [
-            {
-              "category": "clothing",
-              "link": "https://www.outdoorresearch.com/collections/sun-protection/products/mens-echo-hoodie-287625",
-              "name": [
-                "Outdoor",
-                "Research",
-                "Echo sun",
-                "hoody"
-              ],
-              "consumable": false,
-              "weight": 4.5,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://vuoriclothing.com/products/kore-short-charcoal",
-              "name": [
-                "Vuori Kore",
-                "Shorts"
-              ],
-              "consumable": false,
-              "weight": 5.33,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "Altra Lone",
-                "Peak 6",
-                "Shoes"
-              ],
-              "consumable": false,
-              "weight": 20,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
-              "name": [
-                "Smartwool",
-                "boxer",
-                "briefs",
-                "Underwear"
-              ],
-              "consumable": false,
-              "weight": 3.25,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/gp/product/B00267SFL6",
-              "name": [
-                "Mueller",
-                "Knee",
-                "Stabilizer",
-                "Knee Braces"
-              ],
-              "consumable": false,
-              "weight": 3,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/gp/product/B07BHX9PN8",
-              "name": [
-                "Darn Tough",
-                "Ankle Socks"
-              ],
-              "consumable": false,
-              "weight": 1.55,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://goodr.com/collections/the-ogs/products/a-gingers-soul",
-              "name": [
-                "Goodr",
-                "Sunglasses"
-              ],
-              "consumable": false,
-              "weight": 0.78,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://arcteryx.com/us/en/shop/bird-curved-brim-trucker-hat",
-              "name": [
-                "Arc’teryx",
-                "Trucker Hat"
-              ],
-              "consumable": false,
-              "weight": 2.15,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/gp/product/B07W5XC3DD",
-              "name": [
-                "Mountain",
-                "Hardwear",
-                "down jacket"
-              ],
-              "consumable": false,
-              "weight": 7.97,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://enlightenedequipment.com/visp-rain-jacket/",
-              "name": [
-                "Enlightened",
-                "Equipment",
-                "Visp Rain",
-                "Jacket"
-              ],
-              "consumable": false,
-              "weight": 5.22,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.outdoorresearch.com/collections/sun-protection/products/mens-echo-hoodie-287625",
-              "name": [
-                "Outdoor",
-                "Research",
-                "Echo sun",
-                "hoody"
-              ],
-              "consumable": false,
-              "weight": 4.5,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
-              "name": [
-                "Smartwool",
-                "boxer",
-                "briefs",
-                "Underwear"
-              ],
-              "consumable": false,
-              "weight": 3.25,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/gp/product/B07BHX9PN8",
-              "name": [
-                "Darn Tough",
-                "Ankle Socks"
-              ],
-              "consumable": false,
-              "weight": 1.55,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://senchidesigns.com/collections/shop/products/wren-hoodie",
-              "name": [
-                "Senchi",
-                "Designs",
-                "Wren Alpha",
-                "Hoodie",
-                "Pullover"
-              ],
-              "consumable": false,
-              "weight": 4.02,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.patagonia.com/product/mens-terrebonne-joggers/194187855635.html",
-              "name": [
-                "Vuori Kore",
-                "joggers"
-              ],
-              "consumable": false,
-              "weight": 8.29,
-              "worn": false
-            }
-          ],
-          "weight": "4.71"
-        },
-        {
-          "category": "Water",
-          "items": [
-            {
-              "category": "water",
-              "link": "https://www.rei.com/product/188475",
-              "name": [
-                "Platypus",
-                "Quickdraw",
-                "water",
-                "Filter"
-              ],
-              "consumable": false,
-              "weight": 2.4,
-              "worn": false
-            },
-            {
-              "category": "water",
-              "link": "https://www.rei.com/product/188475",
-              "name": [
-                "Platypus 1L",
-                "water",
-                "Filter",
-                "Pouch"
-              ],
-              "consumable": false,
-              "weight": 1.4,
-              "worn": false
-            },
-            {
-              "category": "water",
-              "link": "",
-              "name": [
-                "Nalgene 1L",
-                "Water",
-                "Bottles"
-              ],
-              "consumable": false,
-              "weight": 11,
-              "worn": false
-            }
-          ],
-          "weight": "0.93"
-        },
-        {
-          "category": "Hygiene",
-          "items": [
-            {
-              "category": "hygiene",
-              "link": "https://www.garagegrowngear.com/products/tooth-tabs-by-unpaste",
-              "name": [
-                "Toothpaste",
-                "tablets"
-              ],
-              "consumable": true,
-              "weight": 2,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "https://www.target.com/p/foldable-travel-toothbrush-up-38-up-8482/-/A-89947685",
-              "name": [
-                "Foldable",
-                "Toothbrush"
-              ],
-              "consumable": false,
-              "weight": 0.74,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "Hand",
-                "Sanitizer"
-              ],
-              "consumable": true,
-              "weight": 1.62,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "Toilet",
-                "paper"
-              ],
-              "consumable": true,
-              "weight": 1.69,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "https://www.amazon.com/dp/B000HJXQ9G",
-              "name": [
-                "Dr.",
-                "Bronners",
-                "Body/Hair",
-                "Wash"
-              ],
-              "consumable": true,
-              "weight": 2.89,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "https://www.amazon.com/dp/B00E3B47ZQ",
-              "name": [
-                "",
-                "Travel-sized"
-              ],
-              "consumable": true,
-              "weight": 0.95,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "https://www.amazon.com/gp/product/B01N2HMAV1",
-              "name": [
-                "PackTowl",
-                "Towel"
-              ],
-              "consumable": false,
-              "weight": 6.31,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "Comb"
-              ],
-              "consumable": false,
-              "weight": 0.53,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "Hair Ties"
-              ],
-              "consumable": false,
-              "weight": 0.32,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "SPF 15",
-                "Chapstick"
-              ],
-              "consumable": true,
-              "weight": 0.32,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "https://www.amazon.com/gp/product/B004Y6K8XA",
-              "name": [
-                "33 SPF",
-                "Joshua Tree",
-                "sun stick",
-                "Sunblock"
-              ],
-              "consumable": true,
-              "weight": 0.95,
-              "worn": false
-            }
-          ],
-          "weight": "1.15"
-        },
-        {
-          "category": "Aid Kit",
-          "items": [
-            {
-              "category": "aid kit",
-              "link": "https://www.rei.com/product/800721/adventure-medical-kits-ultralightwatertight-3-medical-kit",
-              "name": [
-                "Ibuprofen +",
-                "allergy",
-                "medicine +",
-                "repair tape",
-                "Med +",
-                "Repair Kit"
-              ],
-              "consumable": true,
-              "weight": 3.35,
-              "worn": false
-            }
-          ],
-          "weight": "0.21"
-        },
-        {
-          "category": "Electronics",
-          "items": [
-            {
-              "category": "electronics",
-              "link": "https://www.nitecorestore.com/NITECORE-NU25-UL-Headlamp-p/fl-nite-nu25-400ul-bk.htm",
-              "name": [
-                "Nitecore",
-                "NU25 UL",
-                "Headlamp"
-              ],
-              "consumable": false,
-              "weight": 1.59,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "https://www.nitecorestore.com/Nitecore-NB10000-Gen-2-Power-Bank-p/bat-nite-nb10000.htm",
-              "name": [
-                "Nitecore",
-                "NB10000",
-                "Powerbank"
-              ],
-              "consumable": false,
-              "weight": 5.36,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "https://www.amazon.com/dp/B0BDKB4W7N",
-              "name": [
-                "Anker USB-C",
-                "40W charger",
-                "dual port"
-              ],
-              "consumable": false,
-              "weight": 3,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "https://www.garmin.com/en-US/p/854515",
-              "name": [
-                "Garmin",
-                "Enduro 2",
-                "GPS",
-                "Smartwatch"
-              ],
-              "consumable": false,
-              "weight": 1.8,
-              "worn": true
-            },
-            {
-              "category": "electronics",
-              "link": "https://www.apple.com/iphone-16-pro/",
-              "name": [
-                "iPhone 16",
-                "Pro Phone"
-              ],
-              "consumable": false,
-              "weight": 7.8,
-              "worn": true
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "Cables"
-              ],
-              "consumable": false,
-              "weight": 1.9,
-              "worn": false
-            }
-          ],
-          "weight": "1.34"
-        },
-        {
-          "category": "Packed Food + Water",
-          "items": [
-            {
-              "category": "packed food + water",
-              "link": "",
-              "name": [
-                "2 liters",
-                "Water"
-              ],
-              "consumable": true,
-              "weight": 74.4,
-              "worn": false
-            },
-            {
-              "category": "packed food + water",
-              "link": "",
-              "name": [
-                "Snacks"
-              ],
-              "consumable": true,
-              "weight": 4,
-              "worn": false
-            }
-          ],
-          "weight": "4.90"
-        },
-        {
-          "category": "Luxury Items",
-          "items": [
-            {
-              "category": "luxury items",
-              "link": "https://www.amazon.com/dp/B0BDHWDR12",
-              "name": [
-                "Airpods Pro",
-                "2",
-                "Headphones"
-              ],
-              "consumable": false,
-              "weight": 1.9,
-              "worn": false
-            },
-            {
-              "category": "luxury items",
-              "link": "https://www.amazon.com/gp/product/B07Z13G1P5",
-              "name": [
-                "Bluetooth",
-                "Headphones",
-                "adapter"
-              ],
-              "consumable": false,
-              "weight": 0.5,
-              "worn": false
-            },
-            {
-              "category": "luxury items",
-              "link": "https://www.amazon.com/dp/B01I98YQA4",
-              "name": [
-                "Trekking",
-                "Pole bag"
-              ],
-              "consumable": false,
-              "weight": 0.92,
-              "worn": false
-            }
-          ],
-          "weight": "0.21"
-        },
-        {
-          "category": "Miscellaneous",
-          "items": [
-            {
-              "category": "miscellaneous",
-              "link": "https://cnocoutdoors.com/collections/trekking-poles/products/cnoc-telescopic-trekking-poles-cork-grip-single-pole",
-              "name": [
-                "CNOC Cork",
-                "Trekking",
-                "Pole"
-              ],
-              "consumable": false,
-              "weight": 9.66,
-              "worn": true
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Earplugs"
-              ],
-              "consumable": false,
-              "weight": 0.14,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "reading",
-                "Glasses"
-              ],
-              "consumable": false,
-              "weight": 2.47,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Wallet"
-              ],
-              "consumable": true,
-              "weight": 2,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Passport"
-              ],
-              "consumable": false,
-              "weight": 2.57,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Building +",
-                "unit Keys"
-              ],
-              "consumable": false,
-              "weight": 1.2,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Drawstring",
-                "Bag"
-              ],
-              "consumable": false,
-              "weight": 3,
-              "worn": false
-            }
-          ],
-          "weight": "1.31"
-        }
-      ],
-      "weightBase": "11.44",
-      "weightConsumable": "5.89",
-      "weightTotal": "21.07",
-      "weightWorn": "3.74"
-    },
-    "hasGear": true,
-    "id": "4c4TtxOEtlyzRgy",
+    "id": "2kDtwNIEAwzf28G",
     "images": {
       "hero": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg"
     },
     "index": 4,
     "label": "day",
-    "location": "Scotland UK",
+    "location": "Scotland",
     "slug": "west-highland-way",
     "stages": [
       {
@@ -7114,7 +4063,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "RJp5zyvx7xOrN13",
+        "id": "j23eOUka9A3GjAU",
         "images": {
           "hero": "2022/05/07/75a8c027-07cd-4184-9157-d48dd5d1a32e.jpeg",
           "supplementary": []
@@ -7225,7 +4174,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "ispRtDSyNp2oYt5",
+        "id": "zjTZQZa0aIyeOd9",
         "images": {
           "hero": "2022/05/07/e8dd9fed-56e4-45bf-aee4-d1bc44a5363c.jpeg",
           "supplementary": []
@@ -7336,7 +4285,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "2ok0CM2ROT6Zo7X",
+        "id": "U0U826OZ0NmM5xi",
         "images": {
           "hero": "2022/05/07/e610c340-2b8c-481c-8442-dc4543db3f2c.jpeg",
           "supplementary": []
@@ -7449,7 +4398,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "Q45WhvA4Cwk9ifA",
+        "id": "b6N2ecMAXCiqKhu",
         "images": {
           "hero": "2022/05/07/b7df127a-0f69-4b29-843f-e1a7c6f858bf.jpeg",
           "supplementary": []
@@ -7564,7 +4513,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "eML06u7Vpiq6c3z",
+        "id": "yZseq9o4JlwdeZI",
         "images": {
           "hero": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
           "supplementary": []
@@ -7678,7 +4627,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "7AJ6lKZH09j7HgA",
+        "id": "15bqLDFzuYE0EPY",
         "images": {
           "hero": "2022/05/07/07741eea-d85e-42cf-a2d4-d0f87102bffc.jpeg",
           "supplementary": []
@@ -7824,6 +4773,7 @@ const data = [
         "units": null
       }
     },
+    "tagline": "Filled with misty glens, lochs, and endless rain",
     "termini": {
       "end": [
         "",
@@ -7844,8 +4794,8 @@ const data = [
   },
   {
     "categories": [
-      "thru-hike",
-      "south america"
+      "south america",
+      "chile"
     ],
     "date": {
       "dates": {
@@ -7882,895 +4832,13 @@ const data = [
       "A tapestry of landscapes surrounding spires of granite",
       "With towering granite peaks, sprawling glaciers, pristine lakes, and windswept plains."
     ],
-    "gear": {
-      "categories": [
-        {
-          "category": "Pack",
-          "items": [
-            {
-              "category": "pack",
-              "link": "https://zpacks.com/products/arc-haul-ultra-60l-backpack",
-              "name": [
-                "ZPacks Arc",
-                "Haul pack"
-              ],
-              "consumable": false,
-              "weight": 20.9,
-              "worn": true
-            }
-          ],
-          "weight": "1.31"
-        },
-        {
-          "category": "Sleeping",
-          "items": [
-            {
-              "category": "sleeping",
-              "link": "https://www.amazon.com/dp/B003Z218V0",
-              "name": [
-                "S2S Aero",
-                "pillow"
-              ],
-              "consumable": false,
-              "weight": 2.1,
-              "worn": false
-            },
-            {
-              "category": "sleeping",
-              "link": "https://www.rei.com/product/148248/rei-co-op-magma-15-sleeping-bag-mens",
-              "name": [
-                "REI Co-op",
-                "Magma 15",
-                "sleeping",
-                "bag"
-              ],
-              "consumable": false,
-              "weight": 15.9,
-              "worn": false
-            },
-            {
-              "category": "sleeping",
-              "link": "https://www.amazon.com/dp/B00PZL14EK",
-              "name": [
-                "",
-                "Therm-a-Rest"
-              ],
-              "consumable": false,
-              "weight": 12,
-              "worn": false
-            }
-          ],
-          "weight": "1.88"
-        },
-        {
-          "category": "Shelter",
-          "items": [
-            {
-              "category": "shelter",
-              "link": "https://hyperlitemountaingear.com/products/ultamid-2-ultralight-pyramid-tent",
-              "name": [
-                "Ultamid 2",
-                "tent"
-              ],
-              "consumable": false,
-              "weight": 19.1,
-              "worn": false
-            },
-            {
-              "category": "shelter",
-              "link": "https://hyperlitemountaingear.com/products/ultamid-2-half-insert",
-              "name": [
-                "Ultamid 2",
-                "Half Insert",
-                "tent inner"
-              ],
-              "consumable": false,
-              "weight": 14.8,
-              "worn": false
-            },
-            {
-              "category": "shelter",
-              "link": "https://www.rei.com/product/682543/msr-ground-hog-stake",
-              "name": [
-                "MSR",
-                "Groundhog x",
-                "8 stakes"
-              ],
-              "consumable": false,
-              "weight": 4,
-              "worn": false
-            },
-            {
-              "category": "shelter",
-              "link": "https://www.amazon.com/dp/B078C8SJ5L",
-              "name": [
-                "bandana",
-                "condensation"
-              ],
-              "consumable": false,
-              "weight": 1.25,
-              "worn": false
-            }
-          ],
-          "weight": "2.45"
-        },
-        {
-          "category": "Clothing",
-          "items": [
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/122169/salomon-x-ultra-3-low-gtx-hiking-shoes-mens",
-              "name": [
-                "X Ultra 3",
-                "Low GTX",
-                "shoes"
-              ],
-              "consumable": false,
-              "weight": 26.8,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
-              "name": [
-                "Smartwool",
-                "boxer",
-                "briefs",
-                "underwear"
-              ],
-              "consumable": false,
-              "weight": 3.25,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/105720/wrightsock-escape-crew-socks",
-              "name": [
-                "Wrightsock",
-                "Double-Layer"
-              ],
-              "consumable": false,
-              "weight": 2.5,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "Aviator",
-                "sunglasses"
-              ],
-              "consumable": false,
-              "weight": 0.78,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/121041/tilley-wanderer-hat",
-              "name": [
-                "Tilley",
-                "Wanderer",
-                "hat"
-              ],
-              "consumable": false,
-              "weight": 5.4,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/112042/smartwool-merino-150-pattern-crew-base-layer-long-sleeve-top-mens",
-              "name": [
-                "Smartwool",
-                "Long sleeve",
-                "shirt"
-              ],
-              "consumable": false,
-              "weight": 6.46,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/146748/prana-brion-pants-mens",
-              "name": [
-                "Prana Brion",
-                "pants"
-              ],
-              "consumable": false,
-              "weight": 10.7,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "Patagonia",
-                "3L rain",
-                "jacket"
-              ],
-              "consumable": false,
-              "weight": 14.1,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/112042/smartwool-merino-150-pattern-crew-base-layer-long-sleeve-top-mens",
-              "name": [
-                "Smartwool",
-                "Long sleeve",
-                "shirt"
-              ],
-              "consumable": false,
-              "weight": 6.46,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/112042/smartwool-merino-150-pattern-crew-base-layer-long-sleeve-top-mens",
-              "name": [
-                "Smartwool",
-                "Long sleeve",
-                "shirt"
-              ],
-              "consumable": false,
-              "weight": 6.46,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
-              "name": [
-                "Smartwool",
-                "boxer",
-                "briefs",
-                "underwear"
-              ],
-              "consumable": false,
-              "weight": 3.25,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/105720/wrightsock-escape-crew-socks",
-              "name": [
-                "Wrightsock",
-                "Double-Layer"
-              ],
-              "consumable": false,
-              "weight": 2.5,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "Coleman",
-                "sandals"
-              ],
-              "consumable": false,
-              "weight": 14.5,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/gp/product/B0CT68MQ56",
-              "name": [
-                "shower flip",
-                "flops"
-              ],
-              "consumable": false,
-              "weight": 5.2,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/836503/seirus-soundtouch-hyperlite-all-weather-gloves-mens",
-              "name": [
-                "Seirus All",
-                "Weather",
-                "gloves"
-              ],
-              "consumable": false,
-              "weight": 5,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/112280/vuori-ponto-performance-pants-mens",
-              "name": [
-                "Vuori Ponto",
-                "pants"
-              ],
-              "consumable": false,
-              "weight": 8,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/dp/B07W5XC3DD",
-              "name": [
-                "Ghost",
-                "Whisperer",
-                "down jacket"
-              ],
-              "consumable": false,
-              "weight": 7.6,
-              "worn": false
-            }
-          ],
-          "weight": "8.06"
-        },
-        {
-          "category": "Water",
-          "items": [
-            {
-              "category": "water",
-              "link": "https://www.amazon.com/dp/B001NCDE4S",
-              "name": [
-                "Nalgene 1L",
-                "water",
-                "bottles"
-              ],
-              "consumable": false,
-              "weight": 11.8,
-              "worn": false
-            },
-            {
-              "category": "water",
-              "link": "https://www.rei.com/product/103071/sawyer-squeeze-water-filter-plus",
-              "name": [
-                "Sawyer",
-                "Squeeze",
-                "water",
-                "filter"
-              ],
-              "consumable": false,
-              "weight": 3.7,
-              "worn": false
-            }
-          ],
-          "weight": "0.97"
-        },
-        {
-          "category": "Cooking",
-          "items": [
-            {
-              "category": "cooking",
-              "link": "https://www.amazon.com/dp/B009B98FGW",
-              "name": [
-                "TOAKS",
-                "Titanium",
-                "750ml pot"
-              ],
-              "consumable": false,
-              "weight": 3.9,
-              "worn": false
-            },
-            {
-              "category": "cooking",
-              "link": "https://www.amazon.com/dp/B00EZHML88",
-              "name": [
-                "TOAKS",
-                "Titanium",
-                "Long spoon"
-              ],
-              "consumable": false,
-              "weight": 0.65,
-              "worn": false
-            },
-            {
-              "category": "cooking",
-              "link": "https://www.rei.com/product/114890/msr-pocketrocket-2-stove",
-              "name": [
-                "MSR",
-                "PocketRocket"
-              ],
-              "consumable": false,
-              "weight": 2.6,
-              "worn": false
-            },
-            {
-              "category": "cooking",
-              "link": "",
-              "name": [
-                "MSR fuel"
-              ],
-              "consumable": true,
-              "weight": 8,
-              "worn": false
-            }
-          ],
-          "weight": "0.95"
-        },
-        {
-          "category": "Hygiene",
-          "items": [
-            {
-              "category": "hygiene",
-              "link": "https://www.target.com/p/foldable-travel-toothbrush-up-38-up-8482/-/A-89947685",
-              "name": [
-                "Foldable",
-                "toothbrush"
-              ],
-              "consumable": false,
-              "weight": 0.74,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "",
-                "Travel-sized"
-              ],
-              "consumable": true,
-              "weight": 1.5,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "",
-                "Travel-sized"
-              ],
-              "consumable": true,
-              "weight": 1.5,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "Dr Bronners",
-                "soap"
-              ],
-              "consumable": true,
-              "weight": 3,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "https://www.amazon.com/dp/B09LNSRTJL",
-              "name": [
-                "PackTowl",
-                "towel"
-              ],
-              "consumable": false,
-              "weight": 6.4,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "SPF 15",
-                "chapstick"
-              ],
-              "consumable": true,
-              "weight": 0.32,
-              "worn": false
-            }
-          ],
-          "weight": "0.84"
-        },
-        {
-          "category": "Aid Kit",
-          "items": [
-            {
-              "category": "aid kit",
-              "link": "https://www.amazon.com/Compeed-Blister-Plasters-Hydrocolloid-Treatment/dp/B092WFQ3TZ",
-              "name": [
-                "compeed"
-              ],
-              "consumable": true,
-              "weight": 1.45,
-              "worn": false
-            },
-            {
-              "category": "aid kit",
-              "link": "https://www.amazon.com/gp/product/B06XQ8B8Y8",
-              "name": [
-                "bandages"
-              ],
-              "consumable": true,
-              "weight": 2.4,
-              "worn": false
-            },
-            {
-              "category": "aid kit",
-              "link": "",
-              "name": [
-                "toilet",
-                "paper"
-              ],
-              "consumable": false,
-              "weight": 3,
-              "worn": false
-            },
-            {
-              "category": "aid kit",
-              "link": "",
-              "name": [
-                "Allergy",
-                "pseudoephedrine"
-              ],
-              "consumable": true,
-              "weight": 1.1,
-              "worn": false
-            },
-            {
-              "category": "aid kit",
-              "link": "https://www.amazon.com/dp/B001949Z4I",
-              "name": [
-                "Tenacious",
-                "repair tape"
-              ],
-              "consumable": false,
-              "weight": 2,
-              "worn": false
-            }
-          ],
-          "weight": "0.62"
-        },
-        {
-          "category": "Electronics",
-          "items": [
-            {
-              "category": "electronics",
-              "link": "https://www.rei.com/product/109952/petzl-actik-headlamp-2018",
-              "name": [
-                "Petzl Actik",
-                "headlamp"
-              ],
-              "consumable": false,
-              "weight": 3.17,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "AAA",
-                "batteries"
-              ],
-              "consumable": false,
-              "weight": 3,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "https://www.amazon.com/dp/B00Z9QVE4Q",
-              "name": [
-                "Anker",
-                "Powercore",
-                "13000mah",
-                "powerbank"
-              ],
-              "consumable": false,
-              "weight": 9,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "iPhone",
-                "Power Brick",
-                "5W charger"
-              ],
-              "consumable": false,
-              "weight": 1.44,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "https://support.apple.com/en-us/111864",
-              "name": [
-                "iPhone X"
-              ],
-              "consumable": false,
-              "weight": 6.8,
-              "worn": true
-            },
-            {
-              "category": "electronics",
-              "link": "https://www.amazon.com/gp/product/B01I9F3ONC",
-              "name": [
-                "All-in-One",
-                "adapter"
-              ],
-              "consumable": false,
-              "weight": 3.2,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "iPhone USB",
-                "cable"
-              ],
-              "consumable": false,
-              "weight": 1,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "Anker cable"
-              ],
-              "consumable": false,
-              "weight": 1,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "Apple wired",
-                "headphones"
-              ],
-              "consumable": false,
-              "weight": 0.46,
-              "worn": true
-            }
-          ],
-          "weight": "1.82"
-        },
-        {
-          "category": "Packed Food + Water",
-          "items": [
-            {
-              "category": "packed food + water",
-              "link": "",
-              "name": [
-                "8 meals +",
-                "snacks"
-              ],
-              "consumable": true,
-              "weight": 128,
-              "worn": false
-            },
-            {
-              "category": "packed food + water",
-              "link": "",
-              "name": [
-                "2 liters",
-                "water"
-              ],
-              "consumable": true,
-              "weight": 74.4,
-              "worn": false
-            }
-          ],
-          "weight": "12.65"
-        },
-        {
-          "category": "Miscellaneous",
-          "items": [
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B07D5C3YJ4",
-              "name": [
-                "Patella",
-                "Stabilizer",
-                "knee brace"
-              ],
-              "consumable": false,
-              "weight": 10.56,
-              "worn": true
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B0054IH4N4",
-              "name": [
-                "Eagle Creek",
-                "Travel",
-                "money belt"
-              ],
-              "consumable": false,
-              "weight": 1,
-              "worn": true
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.rei.com/product/881622/leki-corklite-trekking-poles-pair",
-              "name": [
-                "Leki",
-                "Corklite",
-                "trekking",
-                "poles"
-              ],
-              "consumable": false,
-              "weight": 19.1,
-              "worn": true
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B071FJXCY9",
-              "name": [
-                "AnMeng",
-                "earplugs"
-              ],
-              "consumable": false,
-              "weight": 0.81,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "reading",
-                "glasses"
-              ],
-              "consumable": false,
-              "weight": 2.47,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "wallet"
-              ],
-              "consumable": false,
-              "weight": 2,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "passport"
-              ],
-              "consumable": false,
-              "weight": 1.5,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Building +",
-                "unit keys"
-              ],
-              "consumable": false,
-              "weight": 1.2,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B002UOZT3M",
-              "name": [
-                "S2S Laundry",
-                "Wash",
-                "detergent"
-              ],
-              "consumable": true,
-              "weight": 3.14,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.rei.com/product/807452/sea-to-summit-lite-line-clothesline",
-              "name": [
-                "S2S Lite",
-                "clothesline"
-              ],
-              "consumable": false,
-              "weight": 1.3,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B00TBF5JC4",
-              "name": [
-                "Gerber",
-                "multi-tool"
-              ],
-              "consumable": false,
-              "weight": 1.41,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B00AT9RTAG",
-              "name": [
-                "laundry",
-                "clips"
-              ],
-              "consumable": false,
-              "weight": 1.32,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B01LYNWRLA",
-              "name": [
-                "Mylar",
-                "emergency"
-              ],
-              "consumable": false,
-              "weight": 0.5,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B01I98YQA4",
-              "name": [
-                "trekking",
-                "pole bag"
-              ],
-              "consumable": false,
-              "weight": 0.92,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B0754NKQ69",
-              "name": [
-                "S2S",
-                "Ultra-sil",
-                "stuff sack"
-              ],
-              "consumable": false,
-              "weight": 1,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B0754NKQ69",
-              "name": [
-                "S2S",
-                "Ultra-sil",
-                "stuff sack"
-              ],
-              "consumable": false,
-              "weight": 1,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B0754NKQ69",
-              "name": [
-                "S2S",
-                "Ultra-sil",
-                "stuff sack"
-              ],
-              "consumable": false,
-              "weight": 1,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B0754NKQ69",
-              "name": [
-                "S2S",
-                "Ultra-sil",
-                "stuff sack"
-              ],
-              "consumable": false,
-              "weight": 1,
-              "worn": false
-            }
-          ],
-          "weight": "3.20"
-        }
-      ],
-      "weightBase": "13.52",
-      "weightConsumable": "14.05",
-      "weightTotal": "34.74",
-      "weightWorn": "7.17"
-    },
-    "hasGear": true,
-    "id": "KirqdTUfUxyFuzk",
+    "id": "2xmUa3h2ekYizvH",
     "images": {
       "hero": "2020/02/18/5e958df4-56a2-4292-ae6d-b694f078a985.jpeg"
     },
     "index": 5,
     "label": "day",
-    "location": "Patagonia Chile",
+    "location": "Patagonia",
     "slug": "torres-del-paine-o-circuit",
     "stages": [
       {
@@ -8787,7 +4855,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "lFnq8FNkfDuFTFy",
+        "id": "PIQToIWtCWDayXF",
         "images": {
           "hero": "2020/02/18/619eec82-6980-4f31-a11f-7c5581d02989.jpeg",
           "supplementary": []
@@ -8900,7 +4968,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "BT1aJtUAqUngnUq",
+        "id": "CBW1UJ6xWLB9coP",
         "images": {
           "hero": "2020/02/18/98e3190e-5480-4eb9-8883-c8d9fbb3f485.jpeg",
           "supplementary": []
@@ -9011,7 +5079,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "uQWyUvxjDl2OQjR",
+        "id": "zd05idiZOKBI81E",
         "images": {
           "hero": "2020/02/18/f477b7bb-7f38-42ff-a855-f90668a73f28.jpeg",
           "supplementary": []
@@ -9122,7 +5190,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "aaCqYUxhzUr2k5P",
+        "id": "VydJqQKZXsSatBi",
         "images": {
           "hero": "2020/02/18/38a1b675-74c7-45b5-9e37-8020d298a0b3.jpeg",
           "supplementary": []
@@ -9233,7 +5301,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "QwXJKV2bXkHTLq1",
+        "id": "JnPOse9kaGR78t1",
         "images": {
           "hero": "2020/02/18/dd6e739e-b793-4c64-8e7c-c6a631b467c7.jpeg",
           "supplementary": []
@@ -9346,7 +5414,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "evJE0kkXREAqzOx",
+        "id": "3BjGVimDw5IJOte",
         "images": {
           "hero": "2020/02/18/380820b8-520a-49fa-8f01-651ca63fd84f.jpeg",
           "supplementary": []
@@ -9459,7 +5527,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "QbvGnmegPm7YC0i",
+        "id": "bnC6STo1t5FKFh2",
         "images": {
           "hero": "2020/02/18/790032e0-6483-4631-9cbe-d912510a1a48.jpeg",
           "supplementary": []
@@ -9570,7 +5638,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "DoU2tfEhrNmoOQO",
+        "id": "Tv8lWAB0hFx7ehg",
         "images": {
           "hero": "2020/02/18/630411a8-f5ce-47fe-8261-f94e00654447.jpeg",
           "supplementary": []
@@ -9716,6 +5784,7 @@ const data = [
         "units": null
       }
     },
+    "tagline": "At the end of the world",
     "termini": {
       "end": [
         "Laguna",
@@ -9737,8 +5806,8 @@ const data = [
   },
   {
     "categories": [
-      "thru-hike",
-      "asia"
+      "asia",
+      "nepal"
     ],
     "date": {
       "dates": {
@@ -9775,891 +5844,13 @@ const data = [
       "A journey through the heart of the Himalayas",
       "Encircling the Annapurna massif, from subtropical forests to the high-altitude desert of the Tibetan plateau."
     ],
-    "gear": {
-      "categories": [
-        {
-          "category": "Pack",
-          "items": [
-            {
-              "category": "pack",
-              "link": "https://www.rei.com/product/895643/osprey-kestrel-38-pack-2018-mens",
-              "name": [
-                "Osprey",
-                "Kestrel 38",
-                "pack"
-              ],
-              "consumable": false,
-              "weight": 65.12,
-              "worn": true
-            }
-          ],
-          "weight": "4.07"
-        },
-        {
-          "category": "Sleeping",
-          "items": [
-            {
-              "category": "sleeping",
-              "link": "https://www.amazon.com/dp/B003Z218V0",
-              "name": [
-                "S2S Aero",
-                "pillow"
-              ],
-              "consumable": false,
-              "weight": 2.1,
-              "worn": false
-            },
-            {
-              "category": "sleeping",
-              "link": "https://seatosummit.com/products/adaptor-coolmax-liner-insect-shield",
-              "name": [
-                "Sea-to-Summit"
-              ],
-              "consumable": false,
-              "weight": 12.8,
-              "worn": false
-            },
-            {
-              "category": "sleeping",
-              "link": "https://www.rei.com/product/148248/rei-co-op-magma-15-sleeping-bag-mens",
-              "name": [
-                "REI Co-op",
-                "Magma 15",
-                "sleeping",
-                "bag"
-              ],
-              "consumable": false,
-              "weight": 15.9,
-              "worn": false
-            }
-          ],
-          "weight": "1.93"
-        },
-        {
-          "category": "Clothing",
-          "items": [
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/122169/salomon-x-ultra-3-low-gtx-hiking-shoes-mens",
-              "name": [
-                "X Ultra 3",
-                "Low GTX",
-                "shoes"
-              ],
-              "consumable": false,
-              "weight": 26.8,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
-              "name": [
-                "Smartwool",
-                "boxer",
-                "briefs",
-                "underwear"
-              ],
-              "consumable": false,
-              "weight": 3.25,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/105720/wrightsock-escape-crew-socks",
-              "name": [
-                "Wrightsock",
-                "Double-Layer"
-              ],
-              "consumable": false,
-              "weight": 2.5,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "Aviator",
-                "sunglasses"
-              ],
-              "consumable": false,
-              "weight": 0.78,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/121041/tilley-wanderer-hat",
-              "name": [
-                "Tilley",
-                "Wanderer",
-                "hat"
-              ],
-              "consumable": false,
-              "weight": 5.4,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/112042/smartwool-merino-150-pattern-crew-base-layer-long-sleeve-top-mens",
-              "name": [
-                "Smartwool",
-                "Long sleeve",
-                "shirt"
-              ],
-              "consumable": false,
-              "weight": 6.46,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/146748/prana-brion-pants-mens",
-              "name": [
-                "Prana Brion",
-                "pants"
-              ],
-              "consumable": false,
-              "weight": 10.7,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "Patagonia",
-                "3L rain",
-                "jacket"
-              ],
-              "consumable": false,
-              "weight": 14.1,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/112042/smartwool-merino-150-pattern-crew-base-layer-long-sleeve-top-mens",
-              "name": [
-                "Smartwool",
-                "Long sleeve",
-                "shirt"
-              ],
-              "consumable": false,
-              "weight": 6.46,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/112042/smartwool-merino-150-pattern-crew-base-layer-long-sleeve-top-mens",
-              "name": [
-                "Smartwool",
-                "Long sleeve",
-                "shirt"
-              ],
-              "consumable": false,
-              "weight": 6.46,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
-              "name": [
-                "Smartwool",
-                "boxer",
-                "briefs",
-                "underwear"
-              ],
-              "consumable": false,
-              "weight": 3.25,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
-              "name": [
-                "Smartwool",
-                "boxer",
-                "briefs",
-                "underwear"
-              ],
-              "consumable": false,
-              "weight": 3.25,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/105720/wrightsock-escape-crew-socks",
-              "name": [
-                "Wrightsock",
-                "Double-Layer"
-              ],
-              "consumable": false,
-              "weight": 2.5,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/Wrightsock-Unisex-Escape-Black-Camino/dp/B01IVU06GI",
-              "name": [
-                "Wrightsock",
-                "Double-Layer"
-              ],
-              "consumable": false,
-              "weight": 2.5,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "Coleman",
-                "sandals"
-              ],
-              "consumable": false,
-              "weight": 14.5,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/gp/product/B0CT68MQ56",
-              "name": [
-                "shower flip",
-                "flops"
-              ],
-              "consumable": false,
-              "weight": 5.2,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/836503/seirus-soundtouch-hyperlite-all-weather-gloves-mens",
-              "name": [
-                "Seirus All",
-                "Weather",
-                "gloves"
-              ],
-              "consumable": false,
-              "weight": 5,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/112280/vuori-ponto-performance-pants-mens",
-              "name": [
-                "Vuori Ponto",
-                "pants"
-              ],
-              "consumable": false,
-              "weight": 8,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/878092/rei-co-op-650-down-jacket-mens",
-              "name": [
-                "REI Co-op",
-                "Down jacket"
-              ],
-              "consumable": false,
-              "weight": 10.5,
-              "worn": false
-            }
-          ],
-          "weight": "8.60"
-        },
-        {
-          "category": "Water",
-          "items": [
-            {
-              "category": "water",
-              "link": "https://www.amazon.com/dp/B001NCDE4S",
-              "name": [
-                "Nalgene 1L",
-                "water",
-                "bottle"
-              ],
-              "consumable": false,
-              "weight": 5.9,
-              "worn": false
-            },
-            {
-              "category": "water",
-              "link": "https://www.rei.com/product/101366",
-              "name": [
-                "Osprey 3L",
-                "water",
-                "bladder"
-              ],
-              "consumable": false,
-              "weight": 7.8,
-              "worn": false
-            },
-            {
-              "category": "water",
-              "link": "https://www.rei.com/product/103071/sawyer-squeeze-water-filter-plus",
-              "name": [
-                "Sawyer",
-                "Squeeze",
-                "water",
-                "filter"
-              ],
-              "consumable": false,
-              "weight": 3.7,
-              "worn": false
-            }
-          ],
-          "weight": "1.09"
-        },
-        {
-          "category": "Hygiene",
-          "items": [
-            {
-              "category": "hygiene",
-              "link": "https://www.target.com/p/foldable-travel-toothbrush-up-38-up-8482/-/A-89947685",
-              "name": [
-                "Foldable",
-                "travel",
-                "toothbrush"
-              ],
-              "consumable": false,
-              "weight": 0.74,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "toothpaste"
-              ],
-              "consumable": true,
-              "weight": 3,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "deodorant"
-              ],
-              "consumable": true,
-              "weight": 2.7,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "soap case"
-              ],
-              "consumable": false,
-              "weight": 3,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "soap bar"
-              ],
-              "consumable": true,
-              "weight": 3,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "https://www.rei.com/product/127504/rei-co-op-multi-towel-lite",
-              "name": [
-                "REI Co-op",
-                "Multi Lite",
-                "towel"
-              ],
-              "consumable": false,
-              "weight": 6,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "SPF 15",
-                "chapstick"
-              ],
-              "consumable": true,
-              "weight": 0.32,
-              "worn": false
-            }
-          ],
-          "weight": "1.17"
-        },
-        {
-          "category": "Aid Kit",
-          "items": [
-            {
-              "category": "aid kit",
-              "link": "https://www.amazon.com/Compeed-Blister-Plasters-Hydrocolloid-Treatment/dp/B092WFQ3TZ",
-              "name": [
-                "compeed"
-              ],
-              "consumable": true,
-              "weight": 1.45,
-              "worn": false
-            },
-            {
-              "category": "aid kit",
-              "link": "https://www.amazon.com/gp/product/B06XQ8B8Y8",
-              "name": [
-                "bandages"
-              ],
-              "consumable": true,
-              "weight": 2.4,
-              "worn": false
-            },
-            {
-              "category": "aid kit",
-              "link": "https://www.amazon.com/gp/product/B014G8XSLY",
-              "name": [
-                "toilet",
-                "paper"
-              ],
-              "consumable": false,
-              "weight": 3.37,
-              "worn": false
-            },
-            {
-              "category": "aid kit",
-              "link": "",
-              "name": [
-                "Allergy",
-                "pseudoephedrine"
-              ],
-              "consumable": true,
-              "weight": 1.1,
-              "worn": false
-            },
-            {
-              "category": "aid kit",
-              "link": "https://www.rei.com/product/866996/aquamira-water-treatment-1-oz",
-              "name": [
-                "water",
-                "purification"
-              ],
-              "consumable": true,
-              "weight": 3,
-              "worn": false
-            }
-          ],
-          "weight": "0.71"
-        },
-        {
-          "category": "Electronics",
-          "items": [
-            {
-              "category": "electronics",
-              "link": "https://www.rei.com/product/109952/petzl-actik-headlamp-2018",
-              "name": [
-                "Petzl Actik",
-                "headlamp"
-              ],
-              "consumable": false,
-              "weight": 3.17,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "AAA",
-                "batteries"
-              ],
-              "consumable": false,
-              "weight": 3,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "https://www.amazon.com/dp/B00Z9QVE4Q",
-              "name": [
-                "Anker",
-                "Powercore",
-                "13000mah",
-                "powerbank"
-              ],
-              "consumable": false,
-              "weight": 9,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "iPhone",
-                "Power Brick",
-                "5W charger"
-              ],
-              "consumable": false,
-              "weight": 1.44,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "https://support.apple.com/en-us/111864",
-              "name": [
-                "iPhone X"
-              ],
-              "consumable": false,
-              "weight": 6.8,
-              "worn": true
-            },
-            {
-              "category": "electronics",
-              "link": "https://www.amazon.com/gp/product/B01I9F3ONC",
-              "name": [
-                "All-in-One",
-                "adapter"
-              ],
-              "consumable": false,
-              "weight": 3.2,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "iPhone USB",
-                "cable"
-              ],
-              "consumable": false,
-              "weight": 1,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "Anker cable"
-              ],
-              "consumable": false,
-              "weight": 1,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "Apple wired",
-                "headphones"
-              ],
-              "consumable": false,
-              "weight": 0.46,
-              "worn": true
-            }
-          ],
-          "weight": "1.82"
-        },
-        {
-          "category": "Packed Food + Water",
-          "items": [
-            {
-              "category": "packed food + water",
-              "link": "",
-              "name": [
-                "snacks"
-              ],
-              "consumable": true,
-              "weight": 8,
-              "worn": false
-            },
-            {
-              "category": "packed food + water",
-              "link": "",
-              "name": [
-                "3 liters",
-                "water"
-              ],
-              "consumable": true,
-              "weight": 111.6,
-              "worn": false
-            }
-          ],
-          "weight": "7.47"
-        },
-        {
-          "category": "Miscellaneous",
-          "items": [
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B07D5C3YJ4",
-              "name": [
-                "Patella",
-                "Stabilizer",
-                "knee brace"
-              ],
-              "consumable": false,
-              "weight": 10.56,
-              "worn": true
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B01N68XF0O",
-              "name": [
-                "Scrubba",
-                "Wash",
-                "laundry bag"
-              ],
-              "consumable": false,
-              "weight": 5.3,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/gp/product/B072J2MWZ6",
-              "name": [
-                "whistle"
-              ],
-              "consumable": false,
-              "weight": 0.42,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B07B3LDM4Y",
-              "name": [
-                "packable",
-                "backpack"
-              ],
-              "consumable": false,
-              "weight": 4,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B0054IH4N4",
-              "name": [
-                "Eagle Creek",
-                "Travel",
-                "money belt"
-              ],
-              "consumable": false,
-              "weight": 1,
-              "worn": true
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.rei.com/product/881622/leki-corklite-trekking-poles-pair",
-              "name": [
-                "Leki",
-                "Corklite",
-                "trekking",
-                "poles"
-              ],
-              "consumable": false,
-              "weight": 19.1,
-              "worn": true
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B071FJXCY9",
-              "name": [
-                "AnMeng",
-                "earplugs"
-              ],
-              "consumable": false,
-              "weight": 0.81,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "reading",
-                "glasses"
-              ],
-              "consumable": false,
-              "weight": 2.47,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "wallet"
-              ],
-              "consumable": false,
-              "weight": 2,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "passport"
-              ],
-              "consumable": false,
-              "weight": 1.5,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Building +",
-                "unit keys"
-              ],
-              "consumable": false,
-              "weight": 1.2,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B017X2WJME",
-              "name": [
-                "NeatPack",
-                "toiletry",
-                "bag"
-              ],
-              "consumable": false,
-              "weight": 3.2,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B002UOZT3M",
-              "name": [
-                "S2S Laundry",
-                "Wash",
-                "detergent"
-              ],
-              "consumable": true,
-              "weight": 3.14,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.rei.com/product/807452/sea-to-summit-lite-line-clothesline",
-              "name": [
-                "S2S Lite",
-                "clothesline"
-              ],
-              "consumable": false,
-              "weight": 1.3,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B00TBF5JC4",
-              "name": [
-                "Gerber",
-                "multi-tool"
-              ],
-              "consumable": false,
-              "weight": 1.41,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B00AT9RTAG",
-              "name": [
-                "laundry",
-                "clips"
-              ],
-              "consumable": false,
-              "weight": 1.32,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B01LYNWRLA",
-              "name": [
-                "Mylar",
-                "emergency"
-              ],
-              "consumable": false,
-              "weight": 0.5,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B01I98YQA4",
-              "name": [
-                "trekking",
-                "pole bag"
-              ],
-              "consumable": false,
-              "weight": 0.92,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.rei.com/product/877062/brunton-truarc-3-compass",
-              "name": [
-                "TruArc 3",
-                "compass"
-              ],
-              "consumable": false,
-              "weight": 1.1,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B0754NKQ69",
-              "name": [
-                "S2S",
-                "Ultra-sil",
-                "stuff sack"
-              ],
-              "consumable": false,
-              "weight": 1,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B0754NKQ69",
-              "name": [
-                "S2S",
-                "Ultra-sil",
-                "stuff sack"
-              ],
-              "consumable": false,
-              "weight": 1,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B0754NKQ69",
-              "name": [
-                "S2S",
-                "Ultra-sil",
-                "stuff sack"
-              ],
-              "consumable": false,
-              "weight": 1,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B0754NKQ69",
-              "name": [
-                "S2S",
-                "Ultra-sil",
-                "stuff sack"
-              ],
-              "consumable": false,
-              "weight": 1,
-              "worn": false
-            }
-          ],
-          "weight": "4.08"
-        }
-      ],
-      "weightBase": "12.27",
-      "weightConsumable": "8.73",
-      "weightTotal": "30.93",
-      "weightWorn": "9.93"
-    },
-    "hasGear": true,
-    "id": "3Su8hNz5cWgj7WP",
+    "id": "G97WC5i1JE7Vtzr",
     "images": {
       "hero": "2019/10/19/b9b20eb0-e569-4778-99c6-de3a3c2eb15e.jpeg"
     },
     "index": 6,
     "label": "day",
-    "location": "The Himalayas of Nepal",
+    "location": "the Himalayas",
     "slug": "annapurna-circuit-basecamp",
     "stages": [
       {
@@ -10676,7 +5867,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "zH198I6K7Hlhnm0",
+        "id": "XbpzvpRKW9wcUeX",
         "images": {
           "hero": "2019/10/19/672dcde8-57ae-4bf9-885f-ae039d3a824d.jpeg",
           "supplementary": []
@@ -10787,7 +5978,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "20ja3jOTx97u42P",
+        "id": "UTMDzbu2wXdKyhD",
         "images": {
           "hero": "2019/10/19/cde86c7c-f794-4a99-8286-9af3de9425fc.jpeg",
           "supplementary": []
@@ -10898,7 +6089,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "GnZpa0OmPG5xVVL",
+        "id": "1AMgpNGTp6ZhdhR",
         "images": {
           "hero": "2019/10/19/69d8dc52-42d4-4295-9b25-1f7542c1da8b.jpeg",
           "supplementary": []
@@ -11009,7 +6200,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "Lujb7H4McgwpB32",
+        "id": "5SepLE7msJ9zB8c",
         "images": {
           "hero": "2019/10/19/de48b8b7-ef5d-4c21-93a8-d6e4d7628e7f.jpeg",
           "supplementary": []
@@ -11120,7 +6311,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "8L5OKYMt171f1nc",
+        "id": "7qxGlz4Q21VFWaG",
         "images": {
           "hero": "2019/10/19/91fcb255-9894-434c-9c39-41ea5070e819.jpeg",
           "supplementary": []
@@ -11233,7 +6424,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "YtgSTzHO1Cp2ySi",
+        "id": "4ulJs88WNj4NOby",
         "images": {
           "hero": "2019/10/19/b9b20eb0-e569-4778-99c6-de3a3c2eb15e.jpeg",
           "supplementary": []
@@ -11346,7 +6537,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "fpCs2VPtjlaojud",
+        "id": "LPV6nq88RW0VrqQ",
         "images": {
           "hero": "2019/10/19/ed197052-01d7-4739-807c-39340385c0fc.jpeg",
           "supplementary": []
@@ -11461,7 +6652,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "yYCxd5kqEkHFMwL",
+        "id": "dr5RMgWb0ZzsJ9e",
         "images": {
           "hero": "2019/10/19/d7837a44-81d2-4fa0-9912-bb15508be721.jpeg",
           "supplementary": []
@@ -11578,7 +6769,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "yiVVLbJpHhGQofZ",
+        "id": "ba0ylX8b1sHboYy",
         "images": {
           "hero": "2019/10/19/40b7a029-2f0c-4807-94fa-86a07ee9ffa9.jpeg",
           "supplementary": []
@@ -11691,7 +6882,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "cJYYbRA417j2niB",
+        "id": "Kq1OkvLpknXuoS2",
         "images": {
           "hero": "2019/10/19/f76cbaab-0139-44b4-bc5c-6c816731d927.jpeg",
           "supplementary": []
@@ -11802,7 +6993,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "UyMmVvSEyDQUQ8d",
+        "id": "NC17pGs1NBBpSMU",
         "images": {
           "hero": "2019/10/19/93b7286f-a87a-4d8e-8d85-6a3f50dcd82c.jpeg",
           "supplementary": []
@@ -11913,7 +7104,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "DcpU9hj45LTRi6p",
+        "id": "EZfc75mzLGCXJmE",
         "images": {
           "hero": "2019/10/19/9f9bca6e-e30a-4ca0-b005-5a0bda57f649.jpeg",
           "supplementary": []
@@ -12024,7 +7215,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "iGz4bq0plfIs66x",
+        "id": "OLrqjhfUqI0i06Q",
         "images": {
           "hero": "2019/10/19/5cf22091-8d99-4cdd-870c-f91db81c1049.jpeg",
           "supplementary": []
@@ -12135,7 +7326,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "Fk5kbbUhPy1M0PW",
+        "id": "kTAlHvntkikPILA",
         "images": {
           "hero": "2019/10/19/b2ef8848-2e35-43dd-9f06-98434903f810.jpeg",
           "supplementary": []
@@ -12246,7 +7437,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "2tiAG8Cq1EXTYa4",
+        "id": "WLnSankJJw9iSge",
         "images": {
           "hero": "2019/10/19/a052d193-0be9-4288-b017-65d459c3eca1.jpeg",
           "supplementary": []
@@ -12357,7 +7548,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "5hpzbv4KG66PKeP",
+        "id": "qLy5aOtxKXe2wHn",
         "images": {
           "hero": "2019/10/19/3773c3c4-265f-4e7e-8f0a-d6e1a7d9b85c.jpeg",
           "supplementary": []
@@ -12470,7 +7661,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "5ESutWotc8DUt9i",
+        "id": "olnoZ7vibwOwwe2",
         "images": {
           "hero": "2019/10/19/490d1db6-aaad-4ed3-9181-081ca318cd16.jpeg",
           "supplementary": []
@@ -12583,7 +7774,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "laZLRYkAD4gTFmp",
+        "id": "pDgrG5YzAiclCef",
         "images": {
           "hero": "2019/10/19/8fef1e6f-d483-445c-b19c-d47bb7f1fc68.jpeg",
           "supplementary": []
@@ -12727,6 +7918,7 @@ const data = [
         "units": null
       }
     },
+    "tagline": "Surrounded by giants",
     "termini": {
       "end": [
         "Jhinudanda"
@@ -12746,8 +7938,8 @@ const data = [
   },
   {
     "categories": [
-      "peak-bagging",
-      "north america"
+      "north america",
+      "usa"
     ],
     "date": {
       "dates": null,
@@ -12760,430 +7952,13 @@ const data = [
       "An awe-inspiring experience offering unparalleled rewards",
       "Reaching the summit is a moment of profound triumph, a feeling of being on top of the world."
     ],
-    "gear": {
-      "categories": [
-        {
-          "category": "Pack",
-          "items": [
-            {
-              "category": "pack",
-              "link": "https://evolvedsupplyco.com/supplies/p/the-ranger",
-              "name": [
-                "ESC Ranger",
-                "Pack"
-              ],
-              "consumable": false,
-              "weight": 19.25,
-              "worn": false
-            },
-            {
-              "category": "pack",
-              "link": "https://evolvedsupplyco.com/supplies/p/nylofume-pack-liner",
-              "name": [
-                "Nylofume",
-                "Pack Liner"
-              ],
-              "consumable": false,
-              "weight": 1.02,
-              "worn": false
-            }
-          ],
-          "weight": "1.27"
-        },
-        {
-          "category": "Clothing",
-          "items": [
-            {
-              "category": "clothing",
-              "link": "https://vuoriclothing.com/products/kore-short-charcoal",
-              "name": [
-                "Vuori Kore",
-                "Shorts"
-              ],
-              "consumable": false,
-              "weight": 5.33,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.outdoorresearch.com/collections/sun-protection/products/mens-echo-hoodie-287625",
-              "name": [
-                "Outdoor",
-                "Research",
-                "Echo sun",
-                "hoody"
-              ],
-              "consumable": false,
-              "weight": 4.5,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.topoathletic.com/mens-pursuit",
-              "name": [
-                "Topo",
-                "Athletic",
-                "Pursuit",
-                "Shoes"
-              ],
-              "consumable": false,
-              "weight": 22,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
-              "name": [
-                "Smartwool",
-                "boxer",
-                "briefs",
-                "Underwear"
-              ],
-              "consumable": false,
-              "weight": 3.25,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/gp/product/B00267SFL6",
-              "name": [
-                "Mueller",
-                "Knee Brace"
-              ],
-              "consumable": false,
-              "weight": 3,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/gp/product/B07BHX9PN8",
-              "name": [
-                "Darn Tough",
-                "Ankle Socks"
-              ],
-              "consumable": false,
-              "weight": 1.55,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://goodr.com/collections/the-ogs/products/a-gingers-soul",
-              "name": [
-                "Goodr",
-                "Sunglasses"
-              ],
-              "consumable": false,
-              "weight": 0.78,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://arcteryx.com/us/en/shop/bird-curved-brim-trucker-hat",
-              "name": [
-                "Arc’teryx",
-                "Trucker Hat"
-              ],
-              "consumable": false,
-              "weight": 2.15,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/gp/product/B07W5XC3DD",
-              "name": [
-                "Mountain",
-                "Hardwear",
-                "down jacket"
-              ],
-              "consumable": false,
-              "weight": 7.97,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://enlightenedequipment.com/visp-rain-jacket/",
-              "name": [
-                "Enlightened",
-                "Equipment",
-                "Visp Rain",
-                "Jacket"
-              ],
-              "consumable": false,
-              "weight": 5.22,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://senchidesigns.com/collections/shop/products/wren-hoodie",
-              "name": [
-                "Senchi",
-                "Designs",
-                "Wren Alpha",
-                "Hoodie",
-                "Pullover"
-              ],
-              "consumable": false,
-              "weight": 4.02,
-              "worn": false
-            }
-          ],
-          "weight": "3.74"
-        },
-        {
-          "category": "Water",
-          "items": [
-            {
-              "category": "water",
-              "link": "https://www.rei.com/product/188475",
-              "name": [
-                "Platypus",
-                "Quickdraw",
-                "Filter"
-              ],
-              "consumable": false,
-              "weight": 2.4,
-              "worn": false
-            },
-            {
-              "category": "water",
-              "link": "https://www.rei.com/product/188475",
-              "name": [
-                "Platypus 1L",
-                "Filter",
-                "Pouch"
-              ],
-              "consumable": false,
-              "weight": 1.4,
-              "worn": false
-            },
-            {
-              "category": "water",
-              "link": "",
-              "name": [
-                "Smartwater",
-                "Water",
-                "Bottles"
-              ],
-              "consumable": false,
-              "weight": 3,
-              "worn": false
-            }
-          ],
-          "weight": "0.42"
-        },
-        {
-          "category": "Hygiene",
-          "items": [
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "Hand",
-                "Sanitizer"
-              ],
-              "consumable": true,
-              "weight": 1.62,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "Toilet",
-                "paper"
-              ],
-              "consumable": true,
-              "weight": 1.69,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "SPF 15",
-                "Chapstick"
-              ],
-              "consumable": true,
-              "weight": 0.32,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "https://www.amazon.com/gp/product/B004Y6K8XA",
-              "name": [
-                "33 SPF",
-                "Joshua Tree",
-                "sun stick",
-                "Sunblock"
-              ],
-              "consumable": true,
-              "weight": 0.95,
-              "worn": false
-            }
-          ],
-          "weight": "0.29"
-        },
-        {
-          "category": "Aid Kit",
-          "items": [
-            {
-              "category": "aid kit",
-              "link": "https://www.rei.com/product/800721/adventure-medical-kits-ultralightwatertight-3-medical-kit",
-              "name": [
-                "Ibuprofen +",
-                "allergy",
-                "medicine +",
-                "repair tape",
-                "Med +",
-                "Repair Kit"
-              ],
-              "consumable": true,
-              "weight": 3.35,
-              "worn": false
-            }
-          ],
-          "weight": "0.21"
-        },
-        {
-          "category": "Electronics",
-          "items": [
-            {
-              "category": "electronics",
-              "link": "https://www.nitecorestore.com/NITECORE-NU25-UL-Headlamp-p/fl-nite-nu25-400ul-bk.htm",
-              "name": [
-                "Nitecore",
-                "NU25 UL",
-                "Headlamp"
-              ],
-              "consumable": false,
-              "weight": 1.59,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "https://www.garmin.com/en-US/p/854515",
-              "name": [
-                "Garmin",
-                "Enduro 2",
-                "GPS",
-                "Smartwatch"
-              ],
-              "consumable": false,
-              "weight": 1.8,
-              "worn": true
-            },
-            {
-              "category": "electronics",
-              "link": "https://www.apple.com/iphone-16-pro/",
-              "name": [
-                "iPhone 16",
-                "Pro Phone"
-              ],
-              "consumable": false,
-              "weight": 7.8,
-              "worn": true
-            }
-          ],
-          "weight": "0.70"
-        },
-        {
-          "category": "Packed Food + Water",
-          "items": [
-            {
-              "category": "packed food + water",
-              "link": "",
-              "name": [
-                "2 liters",
-                "Water"
-              ],
-              "consumable": true,
-              "weight": 74.4,
-              "worn": false
-            },
-            {
-              "category": "packed food + water",
-              "link": "",
-              "name": [
-                "Snacks"
-              ],
-              "consumable": true,
-              "weight": 4,
-              "worn": false
-            }
-          ],
-          "weight": "4.90"
-        },
-        {
-          "category": "Luxury Items",
-          "items": [
-            {
-              "category": "luxury items",
-              "link": "https://www.amazon.com/dp/B0BDHWDR12",
-              "name": [
-                "Airpods Pro",
-                "2",
-                "Headphones"
-              ],
-              "consumable": false,
-              "weight": 1.9,
-              "worn": false
-            }
-          ],
-          "weight": "0.12"
-        },
-        {
-          "category": "Miscellaneous",
-          "items": [
-            {
-              "category": "miscellaneous",
-              "link": "https://cnocoutdoors.com/collections/trekking-poles/products/cnoc-telescopic-trekking-poles-cork-grip-single-pole",
-              "name": [
-                "CNOC Cork",
-                "Trekking",
-                "Pole"
-              ],
-              "consumable": false,
-              "weight": 9.66,
-              "worn": true
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Building +",
-                "unit Keys"
-              ],
-              "consumable": false,
-              "weight": 1.2,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Wallet"
-              ],
-              "consumable": true,
-              "weight": 2,
-              "worn": false
-            }
-          ],
-          "weight": "0.80"
-        }
-      ],
-      "weightBase": "3.06",
-      "weightConsumable": "5.52",
-      "weightTotal": "12.45",
-      "weightWorn": "3.86"
-    },
-    "hasGear": true,
-    "id": "BKfA2ZLRNVoEEN5",
+    "id": "lEcVnWIXj2UTsFN",
     "images": {
       "hero": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg"
     },
     "index": 7,
     "label": "summit",
-    "location": "The Colorado Rocky Mountains",
+    "location": "the Colorado Rocky Mountains",
     "slug": "southern-rockies-14-ers",
     "stages": [
       {
@@ -13200,7 +7975,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "gljJm63JMCc2zcm",
+        "id": "ZNbtqOJnScAtpBU",
         "images": {
           "hero": "2019/08/31/52f1514b-91a4-494d-93df-6ae9c81df01c.jpeg",
           "supplementary": []
@@ -13313,7 +8088,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "4mnJuVebC5hlLSu",
+        "id": "0OHOnItWPESytMB",
         "images": {
           "hero": "2019/09/01/08d28c7e-387b-418f-8226-b2a87485f1d8.jpeg",
           "supplementary": []
@@ -13426,7 +8201,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "MxpzP2YldxyUKiN",
+        "id": "XSfl1ziaeQ2IMOU",
         "images": {
           "hero": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
           "supplementary": []
@@ -13539,7 +8314,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "AOzeHo1a5DNQp8h",
+        "id": "3CwoWv7NApoxBVq",
         "images": {
           "hero": "2020/09/05/54a89ed8-86d4-4918-b7b3-b883ecea72c8.jpeg",
           "supplementary": []
@@ -13652,7 +8427,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "UYoHq8SDqpx8dzM",
+        "id": "ITYetQWStqvqTJY",
         "images": {
           "hero": "2020/09/06/80307849-8964-4e0d-a70f-f6371ca7fcad.jpeg",
           "supplementary": []
@@ -13762,7 +8537,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "yYtLfzl601iEtDJ",
+        "id": "UKNwVJY2dxpLhKt",
         "images": {
           "hero": "2021/09/07/fbe767d5-63c6-4af7-8643-ceef9b4cce92.jpeg",
           "supplementary": []
@@ -13875,7 +8650,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "raEv1dyVEBdCkbc",
+        "id": "JkIWKO8DCawDjkf",
         "images": {
           "hero": "2021/09/09/8e1e0c1f-c391-4bc0-807c-7bdd8d20815b.jpeg",
           "supplementary": []
@@ -13988,7 +8763,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "n4jcuU2XW079tbY",
+        "id": "fYqPgXPyGw50FO2",
         "images": {
           "hero": "2022/09/09/f722df6c-2869-4ff0-80f7-37014241e135.jpeg",
           "supplementary": []
@@ -14101,7 +8876,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "nyk4XbPmcTlDLlJ",
+        "id": "33aHQm3V0PhZoJr",
         "images": {
           "hero": "2022/09/11/b74f68ae-d627-4a89-9122-fbc75562e59d.jpeg",
           "supplementary": []
@@ -14246,6 +9021,7 @@ const data = [
         "units": null
       }
     },
+    "tagline": "58 Summits above 14,000 feet",
     "termini": {
       "end": [
         "Mount",
@@ -14267,7 +9043,6 @@ const data = [
   },
   {
     "categories": [
-      "thru-hike",
       "europe",
       "italy"
     ],
@@ -14306,850 +9081,13 @@ const data = [
       "A journey through a landscape sculpted by nature",
       "Traversing through a panorama of jagged, saw-edged ridges, vertical walls, and majestic towers."
     ],
-    "gear": {
-      "categories": [
-        {
-          "category": "Pack",
-          "items": [
-            {
-              "category": "pack",
-              "link": "https://www.rei.com/product/895643/osprey-kestrel-38-pack-2018-mens",
-              "name": [
-                "Osprey",
-                "Kestrel 38",
-                "pack"
-              ],
-              "consumable": false,
-              "weight": 65.12,
-              "worn": true
-            }
-          ],
-          "weight": "4.07"
-        },
-        {
-          "category": "Sleeping",
-          "items": [
-            {
-              "category": "sleeping",
-              "link": "https://www.amazon.com/dp/B073XGRR42",
-              "name": [
-                "Trekology",
-                "Ultralight",
-                "pillow"
-              ],
-              "consumable": false,
-              "weight": 3.35,
-              "worn": false
-            },
-            {
-              "category": "sleeping",
-              "link": "https://seatosummit.com/products/adaptor-coolmax-liner-insect-shield",
-              "name": [
-                "Sea-to-Summit"
-              ],
-              "consumable": false,
-              "weight": 12.8,
-              "worn": false
-            }
-          ],
-          "weight": "1.01"
-        },
-        {
-          "category": "Clothing",
-          "items": [
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "Trayl",
-                "Mountain",
-                "Biking",
-                "shorts"
-              ],
-              "consumable": false,
-              "weight": 9,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "Salomon XA",
-                "Pro 3D",
-                "shoes"
-              ],
-              "consumable": false,
-              "weight": 22,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
-              "name": [
-                "Smartwool",
-                "boxer",
-                "briefs",
-                "underwear"
-              ],
-              "consumable": false,
-              "weight": 3.25,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/105720/wrightsock-escape-crew-socks",
-              "name": [
-                "Wrightsock",
-                "Double-Layer"
-              ],
-              "consumable": false,
-              "weight": 2.5,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "Aviator",
-                "sunglasses"
-              ],
-              "consumable": false,
-              "weight": 0.78,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "Trucker Cap",
-                "hat"
-              ],
-              "consumable": false,
-              "weight": 2.15,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/119100/rei-co-op-sahara-heathered-t-shirt-mens",
-              "name": [
-                "REI Co-op",
-                "Sahara",
-                "t-shirt"
-              ],
-              "consumable": false,
-              "weight": 7,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/134025/prana-stretch-zion-straight-pants-mens",
-              "name": [
-                "Prana",
-                "Stretch",
-                "Zion",
-                "Straight",
-                "pants"
-              ],
-              "consumable": false,
-              "weight": 13,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "Patagonia",
-                "3L rain",
-                "jacket"
-              ],
-              "consumable": false,
-              "weight": 14.1,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "The North",
-                "Face",
-                "Momentum",
-                "Jacket",
-                "fleece"
-              ],
-              "consumable": false,
-              "weight": 14,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/119100/rei-co-op-sahara-heathered-t-shirt-mens",
-              "name": [
-                "REI Co-op",
-                "Sahara",
-                "t-shirt"
-              ],
-              "consumable": false,
-              "weight": 7,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/143465/patagonia-capilene-cool-lightweight-long-sleeve-shirt-mens",
-              "name": [
-                "Patagonia",
-                "Capilene",
-                "shirt"
-              ],
-              "consumable": false,
-              "weight": 3.3,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
-              "name": [
-                "Smartwool",
-                "boxer",
-                "briefs",
-                "underwear"
-              ],
-              "consumable": false,
-              "weight": 3.25,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
-              "name": [
-                "Smartwool",
-                "boxer",
-                "briefs",
-                "underwear"
-              ],
-              "consumable": false,
-              "weight": 3.25,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/105720/wrightsock-escape-crew-socks",
-              "name": [
-                "Wrightsock",
-                "Double-Layer"
-              ],
-              "consumable": false,
-              "weight": 2.5,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/Wrightsock-Unisex-Escape-Black-Camino/dp/B01IVU06GI",
-              "name": [
-                "Wrightsock",
-                "Double-Layer"
-              ],
-              "consumable": false,
-              "weight": 2.5,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "Coleman",
-                "sandals"
-              ],
-              "consumable": false,
-              "weight": 14.5,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/gp/product/B0CT68MQ56",
-              "name": [
-                "shower flip",
-                "flops"
-              ],
-              "consumable": false,
-              "weight": 5.2,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/836503/seirus-soundtouch-hyperlite-all-weather-gloves-mens",
-              "name": [
-                "Seirus All",
-                "Weather",
-                "gloves"
-              ],
-              "consumable": false,
-              "weight": 5,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/894802/rei-co-op-teton-fleece-pants-mens-32-inseam",
-              "name": [
-                "REI Co-op",
-                "Fleece",
-                "pants"
-              ],
-              "consumable": false,
-              "weight": 10,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "REI Co-op",
-                "vest"
-              ],
-              "consumable": false,
-              "weight": 5,
-              "worn": false
-            }
-          ],
-          "weight": "9.33"
-        },
-        {
-          "category": "Water",
-          "items": [
-            {
-              "category": "water",
-              "link": "",
-              "name": [
-                "CamelBak",
-                "water",
-                "bottle"
-              ],
-              "consumable": false,
-              "weight": 5.47,
-              "worn": false
-            },
-            {
-              "category": "water",
-              "link": "https://www.rei.com/product/108367/camelbak-crux-2l-reservoir-2-liters",
-              "name": [
-                "CamelBak 2L",
-                "water",
-                "bladder"
-              ],
-              "consumable": false,
-              "weight": 7,
-              "worn": false
-            },
-            {
-              "category": "water",
-              "link": "https://www.rei.com/product/103071/sawyer-squeeze-water-filter-plus",
-              "name": [
-                "Sawyer",
-                "Squeeze",
-                "water",
-                "filter"
-              ],
-              "consumable": false,
-              "weight": 3.7,
-              "worn": false
-            }
-          ],
-          "weight": "1.01"
-        },
-        {
-          "category": "Hygiene",
-          "items": [
-            {
-              "category": "hygiene",
-              "link": "https://www.target.com/p/foldable-travel-toothbrush-up-38-up-8482/-/A-89947685",
-              "name": [
-                "travel",
-                "toothbrush"
-              ],
-              "consumable": false,
-              "weight": 0.74,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "toothpaste"
-              ],
-              "consumable": true,
-              "weight": 3,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "deodorant"
-              ],
-              "consumable": true,
-              "weight": 2.7,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "soap case"
-              ],
-              "consumable": false,
-              "weight": 3,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "soap bar"
-              ],
-              "consumable": true,
-              "weight": 3,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "https://www.rei.com/product/127504/rei-co-op-multi-towel-lite",
-              "name": [
-                "REI Co-op",
-                "Multi Lite",
-                "towel"
-              ],
-              "consumable": false,
-              "weight": 6,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "SPF 15",
-                "chapstick"
-              ],
-              "consumable": true,
-              "weight": 0.32,
-              "worn": false
-            }
-          ],
-          "weight": "1.17"
-        },
-        {
-          "category": "Aid Kit",
-          "items": [
-            {
-              "category": "aid kit",
-              "link": "https://www.amazon.com/Compeed-Blister-Plasters-Hydrocolloid-Treatment/dp/B092WFQ3TZ",
-              "name": [
-                "compeed"
-              ],
-              "consumable": true,
-              "weight": 1.45,
-              "worn": false
-            },
-            {
-              "category": "aid kit",
-              "link": "https://www.amazon.com/gp/product/B06XQ8B8Y8",
-              "name": [
-                "bandages"
-              ],
-              "consumable": true,
-              "weight": 2.4,
-              "worn": false
-            },
-            {
-              "category": "aid kit",
-              "link": "https://www.amazon.com/gp/product/B014G8XSLY",
-              "name": [
-                "toilet",
-                "paper"
-              ],
-              "consumable": false,
-              "weight": 3.37,
-              "worn": false
-            },
-            {
-              "category": "aid kit",
-              "link": "",
-              "name": [
-                "Allergy",
-                "pseudoephedrine"
-              ],
-              "consumable": true,
-              "weight": 1.1,
-              "worn": false
-            },
-            {
-              "category": "aid kit",
-              "link": "https://www.rei.com/product/407071/potable-aqua-iodine-tablets",
-              "name": [
-                "water",
-                "purification"
-              ],
-              "consumable": false,
-              "weight": 3,
-              "worn": false
-            }
-          ],
-          "weight": "0.71"
-        },
-        {
-          "category": "Electronics",
-          "items": [
-            {
-              "category": "electronics",
-              "link": "https://www.rei.com/product/109952/petzl-actik-headlamp-2018",
-              "name": [
-                "Petzl Actik",
-                "headlamp"
-              ],
-              "consumable": false,
-              "weight": 3.17,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "AAA",
-                "batteries"
-              ],
-              "consumable": false,
-              "weight": 3,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "https://www.amazon.com/dp/B00Z9QVE4Q",
-              "name": [
-                "Anker",
-                "Powercore",
-                "13000mah",
-                "powerbank"
-              ],
-              "consumable": false,
-              "weight": 9,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "iPhone",
-                "Power Brick",
-                "5W charger"
-              ],
-              "consumable": false,
-              "weight": 1.44,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "https://support.apple.com/en-us/111864",
-              "name": [
-                "iPhone X"
-              ],
-              "consumable": false,
-              "weight": 6.8,
-              "worn": true
-            },
-            {
-              "category": "electronics",
-              "link": "https://www.amazon.com/gp/product/B01I9F3ONC",
-              "name": [
-                "All-in-One",
-                "adapter"
-              ],
-              "consumable": false,
-              "weight": 3.2,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "iPhone USB",
-                "cable"
-              ],
-              "consumable": false,
-              "weight": 1,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "Anker cable"
-              ],
-              "consumable": false,
-              "weight": 1,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "Apple wired",
-                "headphones"
-              ],
-              "consumable": false,
-              "weight": 0.46,
-              "worn": true
-            }
-          ],
-          "weight": "1.82"
-        },
-        {
-          "category": "Packed Food + Water",
-          "items": [
-            {
-              "category": "packed food + water",
-              "link": "",
-              "name": [
-                "snacks"
-              ],
-              "consumable": true,
-              "weight": 8,
-              "worn": false
-            },
-            {
-              "category": "packed food + water",
-              "link": "",
-              "name": [
-                "3 liters",
-                "water"
-              ],
-              "consumable": true,
-              "weight": 111.6,
-              "worn": false
-            }
-          ],
-          "weight": "7.47"
-        },
-        {
-          "category": "Miscellaneous",
-          "items": [
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B07D5C3YJ4",
-              "name": [
-                "Patella",
-                "Stabilizer",
-                "knee brace"
-              ],
-              "consumable": false,
-              "weight": 10.56,
-              "worn": true
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B01N68XF0O",
-              "name": [
-                "Scrubba",
-                "Wash",
-                "laundry bag"
-              ],
-              "consumable": false,
-              "weight": 5.3,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/gp/product/B072J2MWZ6",
-              "name": [
-                "whistle"
-              ],
-              "consumable": false,
-              "weight": 0.42,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/Drawstring-Backpack-Waterproof-String-Pocket/dp/B09GY8ZXJW",
-              "name": [
-                "drawstring",
-                "bag"
-              ],
-              "consumable": false,
-              "weight": 6,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B0054IH4N4",
-              "name": [
-                "Eagle Creek",
-                "Travel",
-                "money belt"
-              ],
-              "consumable": false,
-              "weight": 1,
-              "worn": true
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.rei.com/product/881622/leki-corklite-trekking-poles-pair",
-              "name": [
-                "Leki",
-                "Corklite",
-                "trekking",
-                "poles"
-              ],
-              "consumable": false,
-              "weight": 19.1,
-              "worn": true
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B071FJXCY9",
-              "name": [
-                "AnMeng",
-                "earplugs"
-              ],
-              "consumable": false,
-              "weight": 0.81,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "reading",
-                "glasses"
-              ],
-              "consumable": false,
-              "weight": 2.47,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "wallet"
-              ],
-              "consumable": false,
-              "weight": 2,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "passport"
-              ],
-              "consumable": false,
-              "weight": 1.5,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Building +",
-                "unit keys"
-              ],
-              "consumable": false,
-              "weight": 1.2,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B017X2WJME",
-              "name": [
-                "NeatPack",
-                "toiletry",
-                "bag"
-              ],
-              "consumable": false,
-              "weight": 3.2,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B002UOZT3M",
-              "name": [
-                "S2S Laundry",
-                "Wash",
-                "detergent"
-              ],
-              "consumable": true,
-              "weight": 3.14,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.rei.com/product/807452/sea-to-summit-lite-line-clothesline",
-              "name": [
-                "S2S Lite",
-                "clothesline"
-              ],
-              "consumable": false,
-              "weight": 1.3,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B00TBF5JC4",
-              "name": [
-                "Gerber",
-                "multi-tool"
-              ],
-              "consumable": false,
-              "weight": 1.41,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B00AT9RTAG",
-              "name": [
-                "laundry",
-                "clips"
-              ],
-              "consumable": false,
-              "weight": 1.32,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B01LYNWRLA",
-              "name": [
-                "Mylar",
-                "emergency",
-                "blanket"
-              ],
-              "consumable": false,
-              "weight": 0.5,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B01I98YQA4",
-              "name": [
-                "trekking",
-                "pole bag"
-              ],
-              "consumable": false,
-              "weight": 0.92,
-              "worn": false
-            }
-          ],
-          "weight": "3.88"
-        }
-      ],
-      "weightBase": "12.57",
-      "weightConsumable": "8.54",
-      "weightTotal": "30.48",
-      "weightWorn": "9.36"
-    },
-    "hasGear": true,
-    "id": "eeho5b2WpFFB31l",
+    "id": "V3shBqTVpiCPz84",
     "images": {
       "hero": "2019/07/16/c4d424d9-7826-422d-9e0f-1b7e8b20af99.jpeg"
     },
     "index": 8,
     "label": "day",
-    "location": "The Northern Italian Dolomites",
+    "location": "the Dolomites",
     "slug": "alta-via-1",
     "stages": [
       {
@@ -15166,7 +9104,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "FkgMzd0VXdwN6ci",
+        "id": "BD50Lj2Vdku0J9O",
         "images": {
           "hero": "2019/07/16/eba70b28-4c7d-45f3-aa93-46b24011cb80.jpeg",
           "supplementary": []
@@ -15277,7 +9215,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "18OkY4vKAD1lgwM",
+        "id": "65BKsEVkf3fBRqz",
         "images": {
           "hero": "2019/07/16/69890344-e575-484e-86ae-5ddeb000c4f9.jpeg",
           "supplementary": []
@@ -15388,7 +9326,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "UC3ms0urf8puFxl",
+        "id": "TPbfKrq260mEWwO",
         "images": {
           "hero": "2019/07/16/081c1b83-7036-4c3c-aa2f-0534f4250ab8.jpeg",
           "supplementary": []
@@ -15499,7 +9437,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "nPFb6r70MpaaOBE",
+        "id": "vXlXL4G7wDbN71x",
         "images": {
           "hero": "2019/07/16/eb243b48-8084-4c7e-94c0-5a163983d407.jpeg",
           "supplementary": []
@@ -15610,7 +9548,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "PZ1tuzoXAqcFus7",
+        "id": "UfMcoI9kjbbazBN",
         "images": {
           "hero": "2019/07/16/a3f65b8c-4b57-4194-a3a1-5769f1d63373.jpeg",
           "supplementary": []
@@ -15723,7 +9661,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "92lOQxfxPfhm3YY",
+        "id": "s4FKHnpZr2tnZIm",
         "images": {
           "hero": "2019/07/16/b1128805-54bb-4b7b-adcb-f2b6ae3fada6.jpeg",
           "supplementary": []
@@ -15836,7 +9774,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "hou4qq6NMmuYRSu",
+        "id": "AAosc3CMql8wGGc",
         "images": {
           "hero": "2019/07/16/a46e829f-147b-40d1-b7ae-2f743923feca.jpeg",
           "supplementary": []
@@ -15947,7 +9885,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "OUPHQqiz5NLD53R",
+        "id": "7kMYzbSYucVK0Rk",
         "images": {
           "hero": "2019/07/16/21806386-052d-4a82-941e-6728771acd63.jpeg",
           "supplementary": []
@@ -16059,7 +9997,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "j2YeEGYyid2aqNn",
+        "id": "3JSx8tjV4wH6n1z",
         "images": {
           "hero": "2019/07/16/2982a2fe-75f6-473a-8d98-2c664c5cd38e.jpeg",
           "supplementary": []
@@ -16172,7 +10110,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "asY9GhwIqW8jrGo",
+        "id": "xLNgc3G7jdPkkNj",
         "images": {
           "hero": "2019/07/16/735a0783-62ba-4f8e-97d8-c9b9f5327cfe.jpeg",
           "supplementary": []
@@ -16318,6 +10256,7 @@ const data = [
         "units": null
       }
     },
+    "tagline": "A panorama of jagged ridges, vertical walls, and majestic towers",
     "termini": {
       "end": [
         "La Pissa"
@@ -16335,7 +10274,6 @@ const data = [
   },
   {
     "categories": [
-      "thru-hike",
       "europe"
     ],
     "date": {
@@ -16373,820 +10311,13 @@ const data = [
       "A classic trek that circles the Mont Blanc mountain",
       "Crossing borders between France, Italy, and Switzerland, offering a unique blend of cultures, and stunning scenery."
     ],
-    "gear": {
-      "categories": [
-        {
-          "category": "Pack",
-          "items": [
-            {
-              "category": "pack",
-              "link": "https://www.rei.com/product/895643/osprey-kestrel-38-pack-2018-mens",
-              "name": [
-                "Osprey",
-                "Kestrel 38",
-                "pack"
-              ],
-              "consumable": false,
-              "weight": 65.12,
-              "worn": true
-            }
-          ],
-          "weight": "4.07"
-        },
-        {
-          "category": "Sleeping",
-          "items": [
-            {
-              "category": "sleeping",
-              "link": "https://www.amazon.com/dp/B073XGRR42",
-              "name": [
-                "Trekology",
-                "Ultralight",
-                "pillow"
-              ],
-              "consumable": false,
-              "weight": 3.35,
-              "worn": false
-            },
-            {
-              "category": "sleeping",
-              "link": "https://seatosummit.com/products/adaptor-coolmax-liner-insect-shield",
-              "name": [
-                "Sea-to-Summit"
-              ],
-              "consumable": false,
-              "weight": 12.8,
-              "worn": false
-            }
-          ],
-          "weight": "1.01"
-        },
-        {
-          "category": "Clothing",
-          "items": [
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "Trayl",
-                "Mountain",
-                "Biking",
-                "shorts"
-              ],
-              "consumable": false,
-              "weight": 9,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "Salomon XA",
-                "Pro 3D",
-                "shoes"
-              ],
-              "consumable": false,
-              "weight": 22,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
-              "name": [
-                "Smartwool",
-                "boxer",
-                "briefs",
-                "underwear"
-              ],
-              "consumable": false,
-              "weight": 3.25,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/105720/wrightsock-escape-crew-socks",
-              "name": [
-                "Wrightsock",
-                "Double-Layer"
-              ],
-              "consumable": false,
-              "weight": 2.5,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "Aviator",
-                "sunglasses"
-              ],
-              "consumable": false,
-              "weight": 0.78,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "Trucker Cap",
-                "hat"
-              ],
-              "consumable": false,
-              "weight": 2.15,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/119100/rei-co-op-sahara-heathered-t-shirt-mens",
-              "name": [
-                "REI Co-op",
-                "Sahara",
-                "t-shirt"
-              ],
-              "consumable": false,
-              "weight": 7,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/894351",
-              "name": [
-                "Prana",
-                "Stretch",
-                "Zion pants"
-              ],
-              "consumable": false,
-              "weight": 18.4,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "Patagonia",
-                "3L rain",
-                "jacket"
-              ],
-              "consumable": false,
-              "weight": 14.1,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "The North",
-                "Face",
-                "Momentum",
-                "fleece"
-              ],
-              "consumable": false,
-              "weight": 14,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/119100/rei-co-op-sahara-heathered-t-shirt-mens",
-              "name": [
-                "REI Co-op",
-                "Sahara",
-                "t-shirt"
-              ],
-              "consumable": false,
-              "weight": 7,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/112042/smartwool-merino-150-pattern-crew-base-layer-long-sleeve-top-mens",
-              "name": [
-                "Smartwool",
-                "Long sleeve",
-                "shirt"
-              ],
-              "consumable": false,
-              "weight": 6.46,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
-              "name": [
-                "Smartwool",
-                "boxer",
-                "briefs",
-                "underwear"
-              ],
-              "consumable": false,
-              "weight": 3.25,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
-              "name": [
-                "Smartwool",
-                "boxer",
-                "briefs",
-                "underwear"
-              ],
-              "consumable": false,
-              "weight": 3.25,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/105720/wrightsock-escape-crew-socks",
-              "name": [
-                "Wrightsock",
-                "Double-Layer"
-              ],
-              "consumable": false,
-              "weight": 2.5,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/Wrightsock-Unisex-Escape-Black-Camino/dp/B01IVU06GI",
-              "name": [
-                "Wrightsock",
-                "Double-Layer"
-              ],
-              "consumable": false,
-              "weight": 2.5,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "Coleman",
-                "sandals"
-              ],
-              "consumable": false,
-              "weight": 14.5,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/gp/product/B0CT68MQ56",
-              "name": [
-                "Shower Flip",
-                "Flops"
-              ],
-              "consumable": false,
-              "weight": 5.2,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/836503/seirus-soundtouch-hyperlite-all-weather-gloves-mens",
-              "name": [
-                "Seirus All",
-                "Weather",
-                "gloves"
-              ],
-              "consumable": false,
-              "weight": 5,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/894802/rei-co-op-teton-fleece-pants-mens-32-inseam",
-              "name": [
-                "REI Co-op",
-                "Fleece",
-                "pants"
-              ],
-              "consumable": false,
-              "weight": 10,
-              "worn": false
-            }
-          ],
-          "weight": "9.55"
-        },
-        {
-          "category": "Water",
-          "items": [
-            {
-              "category": "water",
-              "link": "",
-              "name": [
-                "CamelBak",
-                "water",
-                "bottle"
-              ],
-              "consumable": false,
-              "weight": 5.47,
-              "worn": false
-            },
-            {
-              "category": "water",
-              "link": "https://www.rei.com/product/108367/camelbak-crux-2l-reservoir-2-liters",
-              "name": [
-                "CamelBak 2L",
-                "water",
-                "bladder"
-              ],
-              "consumable": false,
-              "weight": 7,
-              "worn": false
-            }
-          ],
-          "weight": "0.78"
-        },
-        {
-          "category": "Hygiene",
-          "items": [
-            {
-              "category": "hygiene",
-              "link": "https://www.target.com/p/foldable-travel-toothbrush-up-38-up-8482/-/A-89947685",
-              "name": [
-                "Foldable",
-                "toothbrush"
-              ],
-              "consumable": false,
-              "weight": 0.74,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "toothpaste"
-              ],
-              "consumable": true,
-              "weight": 3,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "deodorant"
-              ],
-              "consumable": true,
-              "weight": 2.7,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "soap case"
-              ],
-              "consumable": false,
-              "weight": 3,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "soap bar"
-              ],
-              "consumable": true,
-              "weight": 3,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "https://www.rei.com/product/127504/rei-co-op-multi-towel-lite",
-              "name": [
-                "REI Co-op",
-                "Multi Lite",
-                "towel"
-              ],
-              "consumable": false,
-              "weight": 6,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "SPF 15",
-                "chapstick"
-              ],
-              "consumable": true,
-              "weight": 0.32,
-              "worn": false
-            }
-          ],
-          "weight": "1.17"
-        },
-        {
-          "category": "Aid Kit",
-          "items": [
-            {
-              "category": "aid kit",
-              "link": "https://www.amazon.com/Compeed-Blister-Plasters-Hydrocolloid-Treatment/dp/B092WFQ3TZ",
-              "name": [
-                "compeed"
-              ],
-              "consumable": true,
-              "weight": 1.45,
-              "worn": false
-            },
-            {
-              "category": "aid kit",
-              "link": "https://www.amazon.com/gp/product/B06XQ8B8Y8",
-              "name": [
-                "bandages"
-              ],
-              "consumable": true,
-              "weight": 2.4,
-              "worn": false
-            },
-            {
-              "category": "aid kit",
-              "link": "https://www.amazon.com/gp/product/B014G8XSLY",
-              "name": [
-                "toilet",
-                "paper"
-              ],
-              "consumable": false,
-              "weight": 3.37,
-              "worn": false
-            },
-            {
-              "category": "aid kit",
-              "link": "",
-              "name": [
-                "Allergy",
-                "pseudoephedrine"
-              ],
-              "consumable": true,
-              "weight": 1.1,
-              "worn": false
-            },
-            {
-              "category": "aid kit",
-              "link": "https://www.rei.com/product/407071/potable-aqua-iodine-tablets",
-              "name": [
-                "water",
-                "purification"
-              ],
-              "consumable": false,
-              "weight": 3,
-              "worn": false
-            }
-          ],
-          "weight": "0.71"
-        },
-        {
-          "category": "Electronics",
-          "items": [
-            {
-              "category": "electronics",
-              "link": "https://www.rei.com/product/109952/petzl-actik-headlamp-2018",
-              "name": [
-                "Petzl Actik",
-                "headlamp"
-              ],
-              "consumable": false,
-              "weight": 3.17,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "AAA",
-                "batteries"
-              ],
-              "consumable": false,
-              "weight": 3,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "Ultra-compact"
-              ],
-              "consumable": false,
-              "weight": 5.36,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "iPhone",
-                "Power Brick",
-                "5W charger"
-              ],
-              "consumable": false,
-              "weight": 1.44,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "https://support.apple.com/en-us/111864",
-              "name": [
-                "iPhone X"
-              ],
-              "consumable": false,
-              "weight": 6.8,
-              "worn": true
-            },
-            {
-              "category": "electronics",
-              "link": "https://www.amazon.com/gp/product/B01I9F3ONC",
-              "name": [
-                "All-in-One",
-                "adapter"
-              ],
-              "consumable": false,
-              "weight": 3.2,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "iPhone USB",
-                "cable"
-              ],
-              "consumable": false,
-              "weight": 1,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "Poweradd",
-                "cable"
-              ],
-              "consumable": false,
-              "weight": 1,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "Apple wired",
-                "headphones"
-              ],
-              "consumable": false,
-              "weight": 0.46,
-              "worn": true
-            }
-          ],
-          "weight": "1.59"
-        },
-        {
-          "category": "Packed Food + Water",
-          "items": [
-            {
-              "category": "packed food + water",
-              "link": "",
-              "name": [
-                "snacks"
-              ],
-              "consumable": true,
-              "weight": 8,
-              "worn": false
-            },
-            {
-              "category": "packed food + water",
-              "link": "",
-              "name": [
-                "3 liters",
-                "water"
-              ],
-              "consumable": true,
-              "weight": 111.6,
-              "worn": false
-            }
-          ],
-          "weight": "7.47"
-        },
-        {
-          "category": "Miscellaneous",
-          "items": [
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B07D5C3YJ4",
-              "name": [
-                "Patella",
-                "Stabilizer",
-                "knee brace"
-              ],
-              "consumable": false,
-              "weight": 10.56,
-              "worn": true
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B01N68XF0O",
-              "name": [
-                "Scrubba",
-                "Wash",
-                "laundry bag"
-              ],
-              "consumable": false,
-              "weight": 5.3,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/gp/product/B072J2MWZ6",
-              "name": [
-                "whistle"
-              ],
-              "consumable": false,
-              "weight": 0.42,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/Drawstring-Backpack-Waterproof-String-Pocket/dp/B09GY8ZXJW",
-              "name": [
-                "drawstring",
-                "bag"
-              ],
-              "consumable": false,
-              "weight": 6,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B0054IH4N4",
-              "name": [
-                "Eagle Creek",
-                "Travel",
-                "money belt"
-              ],
-              "consumable": false,
-              "weight": 1,
-              "worn": true
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.rei.com/product/881622/leki-corklite-trekking-poles-pair",
-              "name": [
-                "Leki",
-                "Corklite",
-                "trekking",
-                "poles"
-              ],
-              "consumable": false,
-              "weight": 19.1,
-              "worn": true
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B071FJXCY9",
-              "name": [
-                "AnMeng",
-                "earplugs"
-              ],
-              "consumable": false,
-              "weight": 0.81,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "reading",
-                "glasses"
-              ],
-              "consumable": false,
-              "weight": 2.47,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "wallet"
-              ],
-              "consumable": false,
-              "weight": 2,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "passport"
-              ],
-              "consumable": false,
-              "weight": 1.5,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Building +",
-                "unit keys"
-              ],
-              "consumable": false,
-              "weight": 1.2,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B017X2WJME",
-              "name": [
-                "NeatPack",
-                "toiletry",
-                "bag"
-              ],
-              "consumable": false,
-              "weight": 3.2,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B002UOZT3M",
-              "name": [
-                "S2S Laundry",
-                "Wash",
-                "detergent"
-              ],
-              "consumable": true,
-              "weight": 3.14,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.rei.com/product/807452/sea-to-summit-lite-line-clothesline",
-              "name": [
-                "S2S Lite",
-                "clothesline"
-              ],
-              "consumable": false,
-              "weight": 1.3,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B00TBF5JC4",
-              "name": [
-                "Gerber",
-                "multi-tool"
-              ],
-              "consumable": false,
-              "weight": 1.41,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B00AT9RTAG",
-              "name": [
-                "laundry",
-                "clips"
-              ],
-              "consumable": false,
-              "weight": 1.32,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B01LYNWRLA",
-              "name": [
-                "Mylar",
-                "emergency"
-              ],
-              "consumable": false,
-              "weight": 0.5,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B01I98YQA4",
-              "name": [
-                "trekking",
-                "pole bag"
-              ],
-              "consumable": false,
-              "weight": 0.92,
-              "worn": false
-            }
-          ],
-          "weight": "3.88"
-        }
-      ],
-      "weightBase": "12.34",
-      "weightConsumable": "8.54",
-      "weightTotal": "30.24",
-      "weightWorn": "9.36"
-    },
-    "hasGear": true,
-    "id": "SbGxrfGvKfiaSfb",
+    "id": "ECNSPRxZGMKcuj6",
     "images": {
       "hero": "2018/09/02/ec37f4a8-6310-4bf6-b1a7-cddb1f91bf3b.jpeg"
     },
     "index": 9,
     "label": "day",
-    "location": "The French Italian And Swiss Alps",
+    "location": "the French Italian and Swiss Alps",
     "slug": "tour-du-mont-blanc",
     "stages": [
       {
@@ -17203,7 +10334,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "SapcNdEkjw4aFjf",
+        "id": "xwGktjYOqYIkSzs",
         "images": {
           "hero": "2018/09/02/135eea74-e1bc-4cab-bfd7-28d17405a744.jpeg",
           "supplementary": []
@@ -17316,7 +10447,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "ZlDibgD0YWuReMh",
+        "id": "r6h7cXVTg8CKx74",
         "images": {
           "hero": "2018/09/02/56d3cc07-47c1-40c8-b7ee-483aa01d777c.jpeg",
           "supplementary": []
@@ -17433,7 +10564,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "oDAkHkFl5XmM1o8",
+        "id": "oB1Dod054PHJYAj",
         "images": {
           "hero": "2018/09/02/0420d236-d12a-40e8-8d6c-90558e26d304.jpeg",
           "supplementary": []
@@ -17552,7 +10683,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "3PUnRqiU71yXZ6N",
+        "id": "zR5HXL4AVWwgtwU",
         "images": {
           "hero": "2018/09/02/488a5815-e763-406d-94e1-5e51ff25cafe.jpeg",
           "supplementary": []
@@ -17669,7 +10800,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "gzCKsSEMTJ0HS8N",
+        "id": "Tgd7HSwcFeNlIlw",
         "images": {
           "hero": "2018/09/02/9cefaedf-2e6b-439a-9512-f1f37d2374eb.jpeg",
           "supplementary": []
@@ -17784,7 +10915,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "S0QSRFnMysF1EHu",
+        "id": "yDosgImy54BNDNu",
         "images": {
           "hero": "2018/09/02/891cd8a7-97d2-4251-ac34-6c816c0ec570.jpeg",
           "supplementary": []
@@ -17899,7 +11030,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "Ho1LqOff0jLoYdc",
+        "id": "nXMGuX0Q0wKiBpF",
         "images": {
           "hero": "2018/09/02/8d209b3b-8d40-49b3-b754-fd91466c9708.jpeg",
           "supplementary": []
@@ -18014,7 +11145,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "kzX3UZJAZqUWolh",
+        "id": "ACeOrf3v9Svy250",
         "images": {
           "hero": "2018/09/02/21248df2-d0b9-41d2-9662-b6215c24c298.jpeg",
           "supplementary": []
@@ -18129,7 +11260,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "v9QVTzG6WKftDiw",
+        "id": "3rjFvoMae9TbQ5R",
         "images": {
           "hero": "2018/09/02/ec37f4a8-6310-4bf6-b1a7-cddb1f91bf3b.jpeg",
           "supplementary": []
@@ -18244,7 +11375,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "9cv6mCZG5YQIvLz",
+        "id": "L9FjjFxD3A4xvAZ",
         "images": {
           "hero": "2018/09/02/0ea4750a-307a-44be-a466-bb081d137d3c.jpeg",
           "supplementary": []
@@ -18359,7 +11490,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "u5t6oMjCZeRFArn",
+        "id": "NUi5MJsh5sAWUiu",
         "images": {
           "hero": "2018/09/02/3faeb9f8-d262-4c12-869f-4470b0dc0574.jpeg",
           "supplementary": []
@@ -18475,7 +11606,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "O3oAZzcFCVCW4pM",
+        "id": "6MIaI2mEZKCCl95",
         "images": {
           "hero": "2018/09/02/8a0d6d12-a40d-47ba-9d09-6b8d5572bb32.jpeg",
           "supplementary": []
@@ -18622,6 +11753,7 @@ const data = [
         "units": null
       }
     },
+    "tagline": "A challenging experience with diverse landscapes and alpine charm",
     "termini": {
       "end": [
         "Les Houches"
@@ -18640,8 +11772,8 @@ const data = [
   },
   {
     "categories": [
-      "thru-hike",
-      "europe"
+      "europe",
+      "spain"
     ],
     "date": {
       "dates": {
@@ -18678,831 +11810,13 @@ const data = [
       "A series of ancient routes that unfold across Europe",
       "Walking over hills and mountains, pushing through deserts, and swimming in rivers, all leading towards the city of Santiago de Compostela and the Atlantic ocean."
     ],
-    "gear": {
-      "categories": [
-        {
-          "category": "Pack",
-          "items": [
-            {
-              "category": "pack",
-              "link": "https://www.rei.com/product/895643/osprey-kestrel-38-pack-2018-mens",
-              "name": [
-                "Osprey",
-                "Kestrel 38",
-                "pack"
-              ],
-              "consumable": false,
-              "weight": 65.12,
-              "worn": true
-            }
-          ],
-          "weight": "4.07"
-        },
-        {
-          "category": "Sleeping",
-          "items": [
-            {
-              "category": "sleeping",
-              "link": "https://www.amazon.com/dp/B073XGRR42",
-              "name": [
-                "Trekology",
-                "Ultralight",
-                "pillow"
-              ],
-              "consumable": false,
-              "weight": 3.35,
-              "worn": false
-            },
-            {
-              "category": "sleeping",
-              "link": "https://seatosummit.com/products/adaptor-coolmax-liner-insect-shield",
-              "name": [
-                "Sea-to-Summit"
-              ],
-              "consumable": false,
-              "weight": 12.8,
-              "worn": false
-            }
-          ],
-          "weight": "1.01"
-        },
-        {
-          "category": "Clothing",
-          "items": [
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "Trayl",
-                "Mountain",
-                "Biking",
-                "shorts"
-              ],
-              "consumable": false,
-              "weight": 9,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "Salomon XA",
-                "Pro 3D",
-                "shoes"
-              ],
-              "consumable": false,
-              "weight": 22,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
-              "name": [
-                "Smartwool",
-                "boxer",
-                "briefs",
-                "underwear"
-              ],
-              "consumable": false,
-              "weight": 3.25,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/Wrightsock-Unisex-Escape-Black-Camino/dp/B01IVU06GI",
-              "name": [
-                "Wrightsock",
-                "Double-Layer"
-              ],
-              "consumable": false,
-              "weight": 2.5,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "Aviator",
-                "sunglasses"
-              ],
-              "consumable": false,
-              "weight": 0.78,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "Trucker Cap",
-                "hat"
-              ],
-              "consumable": false,
-              "weight": 2.15,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/112497/outdoor-research-echo-duo-t-shirt-mens",
-              "name": [
-                "Outdoor",
-                "Research",
-                "Echo Duo",
-                "t-shirt"
-              ],
-              "consumable": false,
-              "weight": 3.1,
-              "worn": true
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/894351",
-              "name": [
-                "Prana",
-                "Stretch",
-                "Zion pants"
-              ],
-              "consumable": false,
-              "weight": 18.4,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "Patagonia",
-                "3L rain",
-                "jacket"
-              ],
-              "consumable": false,
-              "weight": 14.1,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "The North",
-                "Face",
-                "Momentum",
-                "fleece"
-              ],
-              "consumable": false,
-              "weight": 14,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/119100/rei-co-op-sahara-heathered-t-shirt-mens",
-              "name": [
-                "REI Co-op",
-                "Sahara",
-                "t-shirt"
-              ],
-              "consumable": false,
-              "weight": 7,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/112042/smartwool-merino-150-pattern-crew-base-layer-long-sleeve-top-mens",
-              "name": [
-                "Smartwool",
-                "Long sleeve",
-                "shirt"
-              ],
-              "consumable": false,
-              "weight": 6.46,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
-              "name": [
-                "Smartwool",
-                "boxer",
-                "briefs",
-                "underwear"
-              ],
-              "consumable": false,
-              "weight": 3.25,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
-              "name": [
-                "Smartwool",
-                "boxer",
-                "briefs",
-                "underwear"
-              ],
-              "consumable": false,
-              "weight": 3.25,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/105720/wrightsock-escape-crew-socks",
-              "name": [
-                "Wrightsock",
-                "Double-Layer"
-              ],
-              "consumable": false,
-              "weight": 2.5,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/105720/wrightsock-escape-crew-socks",
-              "name": [
-                "Wrightsock",
-                "Double-Layer"
-              ],
-              "consumable": false,
-              "weight": 2.5,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "Coleman",
-                "sandals"
-              ],
-              "consumable": false,
-              "weight": 14.5,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.amazon.com/gp/product/B0CT68MQ56",
-              "name": [
-                "shower flip",
-                "flops"
-              ],
-              "consumable": false,
-              "weight": 5.2,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "https://www.rei.com/product/836503/",
-              "name": [
-                "Seirus All",
-                "Weather",
-                "gloves"
-              ],
-              "consumable": false,
-              "weight": 5,
-              "worn": false
-            },
-            {
-              "category": "clothing",
-              "link": "",
-              "name": [
-                "REI Co-op",
-                "vest"
-              ],
-              "consumable": false,
-              "weight": 5,
-              "worn": false
-            }
-          ],
-          "weight": "9.00"
-        },
-        {
-          "category": "Water",
-          "items": [
-            {
-              "category": "water",
-              "link": "",
-              "name": [
-                "CamelBak",
-                "water",
-                "bottle"
-              ],
-              "consumable": false,
-              "weight": 5.47,
-              "worn": false
-            },
-            {
-              "category": "water",
-              "link": "https://www.rei.com/product/108367/camelbak-crux-2l-reservoir-2-liters",
-              "name": [
-                "CamelBak 2L",
-                "water",
-                "bladder"
-              ],
-              "consumable": false,
-              "weight": 7,
-              "worn": false
-            }
-          ],
-          "weight": "0.78"
-        },
-        {
-          "category": "Hygiene",
-          "items": [
-            {
-              "category": "hygiene",
-              "link": "https://www.target.com/p/foldable-travel-toothbrush-up-38-up-8482/-/A-89947685",
-              "name": [
-                "Foldable",
-                "toothbrush"
-              ],
-              "consumable": false,
-              "weight": 0.74,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "toothpaste"
-              ],
-              "consumable": true,
-              "weight": 3,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "deodorant"
-              ],
-              "consumable": true,
-              "weight": 2.7,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "soap case"
-              ],
-              "consumable": false,
-              "weight": 3,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "soap bar"
-              ],
-              "consumable": true,
-              "weight": 3,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "https://www.rei.com/product/127504/rei-co-op-multi-towel-lite",
-              "name": [
-                "REI Co-op",
-                "Multi Lite",
-                "towel"
-              ],
-              "consumable": false,
-              "weight": 6,
-              "worn": false
-            },
-            {
-              "category": "hygiene",
-              "link": "",
-              "name": [
-                "SPF 15",
-                "chapstick"
-              ],
-              "consumable": true,
-              "weight": 0.32,
-              "worn": false
-            }
-          ],
-          "weight": "1.17"
-        },
-        {
-          "category": "Aid Kit",
-          "items": [
-            {
-              "category": "aid kit",
-              "link": "https://www.amazon.com/Compeed-Blister-Plasters-Hydrocolloid-Treatment/dp/B092WFQ3TZ",
-              "name": [
-                "compeed"
-              ],
-              "consumable": true,
-              "weight": 1.45,
-              "worn": false
-            },
-            {
-              "category": "aid kit",
-              "link": "https://www.amazon.com/gp/product/B06XQ8B8Y8",
-              "name": [
-                "bandages"
-              ],
-              "consumable": true,
-              "weight": 2.4,
-              "worn": false
-            },
-            {
-              "category": "aid kit",
-              "link": "https://www.amazon.com/gp/product/B014G8XSLY",
-              "name": [
-                "toilet",
-                "paper"
-              ],
-              "consumable": false,
-              "weight": 3.37,
-              "worn": false
-            },
-            {
-              "category": "aid kit",
-              "link": "https://www.rei.com/product/407071/potable-aqua-iodine-tablets",
-              "name": [
-                "Water",
-                "purification"
-              ],
-              "consumable": false,
-              "weight": 3,
-              "worn": false
-            },
-            {
-              "category": "aid kit",
-              "link": "",
-              "name": [
-                "Allergy",
-                "pseudoephedrine"
-              ],
-              "consumable": true,
-              "weight": 1.1,
-              "worn": false
-            }
-          ],
-          "weight": "0.71"
-        },
-        {
-          "category": "Electronics",
-          "items": [
-            {
-              "category": "electronics",
-              "link": "https://www.rei.com/product/109952/petzl-actik-headlamp-2018",
-              "name": [
-                "Petzl Actik",
-                "headlamp"
-              ],
-              "consumable": false,
-              "weight": 3.1,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "AAA",
-                "batteries"
-              ],
-              "consumable": false,
-              "weight": 3,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "Ultra-compact"
-              ],
-              "consumable": false,
-              "weight": 5.36,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "iPhone",
-                "Power Brick",
-                "5W charger"
-              ],
-              "consumable": false,
-              "weight": 1.44,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "https://support.apple.com/en-us/111864",
-              "name": [
-                "iPhone X"
-              ],
-              "consumable": false,
-              "weight": 6.8,
-              "worn": true
-            },
-            {
-              "category": "electronics",
-              "link": "https://www.amazon.com/gp/product/B071GC3G9G",
-              "name": [
-                "Type CEF",
-                "adapter"
-              ],
-              "consumable": false,
-              "weight": 1.16,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "iPhone USB",
-                "cable"
-              ],
-              "consumable": false,
-              "weight": 1,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "Poweradd",
-                "cable"
-              ],
-              "consumable": false,
-              "weight": 1,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "https://www.amazon.com/dp/B071XDRZ5S",
-              "name": [
-                "Maximm",
-                "Extension 6",
-                "Ft cord"
-              ],
-              "consumable": false,
-              "weight": 7.2,
-              "worn": false
-            },
-            {
-              "category": "electronics",
-              "link": "",
-              "name": [
-                "Apple wired",
-                "headphones"
-              ],
-              "consumable": false,
-              "weight": 0.46,
-              "worn": true
-            }
-          ],
-          "weight": "1.91"
-        },
-        {
-          "category": "Packed Food + Water",
-          "items": [
-            {
-              "category": "packed food + water",
-              "link": "",
-              "name": [
-                "snacks"
-              ],
-              "consumable": true,
-              "weight": 8,
-              "worn": false
-            },
-            {
-              "category": "packed food + water",
-              "link": "",
-              "name": [
-                "3 liters",
-                "water"
-              ],
-              "consumable": true,
-              "weight": 111.6,
-              "worn": false
-            }
-          ],
-          "weight": "7.47"
-        },
-        {
-          "category": "Miscellaneous",
-          "items": [
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/Drawstring-Backpack-Waterproof-String-Pocket/dp/B09GY8ZXJW",
-              "name": [
-                "drawstring",
-                "bag"
-              ],
-              "consumable": false,
-              "weight": 6,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B0054IH4N4",
-              "name": [
-                "Eagle Creek",
-                "Travel",
-                "money belt"
-              ],
-              "consumable": false,
-              "weight": 1,
-              "worn": true
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.rei.com/product/881622/leki-corklite-trekking-poles-pair",
-              "name": [
-                "Leki",
-                "Corklite",
-                "trekking",
-                "poles"
-              ],
-              "consumable": false,
-              "weight": 19.1,
-              "worn": true
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B071FJXCY9",
-              "name": [
-                "AnMeng",
-                "earplugs"
-              ],
-              "consumable": false,
-              "weight": 0.81,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "reading",
-                "glasses"
-              ],
-              "consumable": false,
-              "weight": 2.47,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "contact",
-                "lenses"
-              ],
-              "consumable": false,
-              "weight": 0.47,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "contact",
-                "lense wash"
-              ],
-              "consumable": false,
-              "weight": 8,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "wallet"
-              ],
-              "consumable": false,
-              "weight": 2,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "US passport"
-              ],
-              "consumable": false,
-              "weight": 1.5,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Camino",
-                "passport"
-              ],
-              "consumable": false,
-              "weight": 1.5,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "",
-              "name": [
-                "Building +",
-                "unit keys"
-              ],
-              "consumable": false,
-              "weight": 1.2,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B017X2WJME",
-              "name": [
-                "NeatPack",
-                "toiletry",
-                "bag"
-              ],
-              "consumable": false,
-              "weight": 3.2,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B002UOZT3M",
-              "name": [
-                "S2S Laundry",
-                "Wash",
-                "detergent"
-              ],
-              "consumable": true,
-              "weight": 3.14,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.rei.com/product/807452/sea-to-summit-lite-line-clothesline",
-              "name": [
-                "S2S Lite",
-                "clothesline"
-              ],
-              "consumable": false,
-              "weight": 1.3,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B00TBF5JC4",
-              "name": [
-                "Gerber",
-                "multi-tool"
-              ],
-              "consumable": false,
-              "weight": 1.41,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B00AT9RTAG",
-              "name": [
-                "laundry",
-                "clips"
-              ],
-              "consumable": false,
-              "weight": 1.32,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B01LYNWRLA",
-              "name": [
-                "Mylar",
-                "emergency"
-              ],
-              "consumable": false,
-              "weight": 0.5,
-              "worn": false
-            },
-            {
-              "category": "miscellaneous",
-              "link": "https://www.amazon.com/dp/B01I98YQA4",
-              "name": [
-                "trekking",
-                "pole bag"
-              ],
-              "consumable": false,
-              "weight": 0.92,
-              "worn": false
-            }
-          ],
-          "weight": "3.49"
-        }
-      ],
-      "weightBase": "12.61",
-      "weightConsumable": "8.54",
-      "weightTotal": "29.61",
-      "weightWorn": "8.45"
-    },
-    "hasGear": true,
-    "id": "dk7xGBuHeBRH9lU",
+    "id": "z9PlPtLs2zMuUTj",
     "images": {
       "hero": "2018/06/02/1921986b-9cf8-4bf8-b531-3bfe2f098f93.jpeg"
     },
     "index": 10,
     "label": "day",
-    "location": "Northern Spain",
+    "location": "the autonomous regions of Navarra, La Rioja, Castile and León, and Galicia",
     "slug": "camino-de-santiago",
     "stages": [
       {
@@ -19519,7 +11833,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "7WG30oTdECLvBaw",
+        "id": "0Z3BEC0PQLYJ7bh",
         "images": {
           "hero": "2018/06/02/36c8ce31-ccce-4133-9528-338124462edf.jpeg",
           "supplementary": []
@@ -19635,7 +11949,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "zlGSwjLvDdsuyOB",
+        "id": "wOcZmR7DDh6YgMx",
         "images": {
           "hero": "2018/06/02/259d7373-6f3d-4274-8ff8-440cb2724702.jpeg",
           "supplementary": []
@@ -19747,7 +12061,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "KbHTiT3OL94yAG8",
+        "id": "ODZRAZwtzvfWZnk",
         "images": {
           "hero": "2018/06/02/94c5e141-580c-483b-91aa-13a88bf0f8fd.jpeg",
           "supplementary": []
@@ -19858,7 +12172,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "GdgkeIgmi2V1lBr",
+        "id": "WeyHAoYAI7WHrzn",
         "images": {
           "hero": "2018/06/02/88b734d7-ee6f-437f-a44b-6233d7f86158.jpeg",
           "supplementary": []
@@ -19971,7 +12285,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "gEMnZ3CE1HcW2Tb",
+        "id": "5uzXpl5YUZ4Lxet",
         "images": {
           "hero": "2018/06/02/6de64c25-13b3-441f-96b8-1f80cd4d6bd6.jpeg",
           "supplementary": []
@@ -20084,7 +12398,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "W2BMc2woYcg9K9H",
+        "id": "z5KD483KMxhfeTz",
         "images": {
           "hero": "2018/06/02/f3c24aa0-ec3f-4319-9585-e178b9fd7bca.jpeg",
           "supplementary": []
@@ -20195,7 +12509,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "fJrLwQ8AeNqI6CK",
+        "id": "fJzHsYoUROpnArZ",
         "images": {
           "hero": "2018/06/02/71b4d4f4-b9d4-40b9-8902-cef791391428.jpeg",
           "supplementary": []
@@ -20306,7 +12620,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "Jm6hEpwMacShSvZ",
+        "id": "26Hklt5u0rsuhPT",
         "images": {
           "hero": "2018/06/02/e5a310be-0e12-45d8-9121-dbac375a4234.jpeg",
           "supplementary": []
@@ -20417,7 +12731,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "A0MUr8zav4aJIX1",
+        "id": "8rI3Bxvmz5AFbUs",
         "images": {
           "hero": "2018/06/02/50570d33-285a-4561-bc7f-b7e500363359.jpeg",
           "supplementary": []
@@ -20530,7 +12844,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "e6lMm2j6yAdLLxi",
+        "id": "mRV2oISK7rl0bbK",
         "images": {
           "hero": "2018/06/02/009b868c-38ee-43e7-bc1c-90b259306d86.jpeg",
           "supplementary": []
@@ -20643,7 +12957,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "1WUaJRX4yCaVrFk",
+        "id": "V419WU0QWdmQ30C",
         "images": {
           "hero": "2018/06/02/678b2b3a-6724-4bca-99b7-f7ed9a4683e7.jpeg",
           "supplementary": []
@@ -20754,7 +13068,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "luaNY7IrAptOqze",
+        "id": "UqJTyASdYi6xrN8",
         "images": {
           "hero": "2018/06/02/28740c31-9cb0-4952-af50-9f1bab6c1edb.jpeg",
           "supplementary": []
@@ -20865,7 +13179,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "mHQObK5sIsdpgsL",
+        "id": "cFwMgqCoNNf4jCK",
         "images": {
           "hero": "2018/06/02/3ecd42d0-421e-4e3d-a770-830e68e2652c.jpeg",
           "supplementary": []
@@ -20976,7 +13290,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "vdUO0OSrP4xlCi7",
+        "id": "RQxfV2z9Dt9D4sX",
         "images": {
           "hero": "2018/06/02/98a7eed4-299d-40e6-a537-779a5bab6c77.jpeg",
           "supplementary": []
@@ -21087,7 +13401,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "EnBjCeK4ULiZmjx",
+        "id": "5CV6cn4qLLyxLhI",
         "images": {
           "hero": "2018/06/02/2e08d5fe-1711-4768-8ded-f3714e186923.jpeg",
           "supplementary": []
@@ -21198,7 +13512,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "MHPQWlUVJKx9IrC",
+        "id": "2DUir0f88Q9donw",
         "images": {
           "hero": "2018/06/02/bcdc06e3-4c95-4138-9779-bc46670a4e1b.jpeg",
           "supplementary": []
@@ -21309,7 +13623,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "AfPIyjLjKPbu129",
+        "id": "uADo54k3xVH9UCx",
         "images": {
           "hero": "2018/06/02/2b268d15-bea2-42ae-a15c-1ab6fd5fe4f7.jpeg",
           "supplementary": []
@@ -21420,7 +13734,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "jZYnoRp2PXbVAlF",
+        "id": "iR6EQQNzBFU3qAe",
         "images": {
           "hero": "2018/06/02/845acb7b-86f3-4768-8ce3-c8be727c50af.jpeg",
           "supplementary": []
@@ -21531,7 +13845,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "cyT3QewgMoYfr0k",
+        "id": "nl6v0sz701BbMOW",
         "images": {
           "hero": "2018/06/02/f5741d7d-6a86-47ae-a5b1-f1bced05bb00.jpeg",
           "supplementary": []
@@ -21642,7 +13956,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "5Ce4f9lekRGyMWN",
+        "id": "svQcDoNskipDPiO",
         "images": {
           "hero": "2018/06/02/0cf7b647-1681-4b88-be6a-cbba1163f38a.jpeg",
           "supplementary": []
@@ -21753,7 +14067,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "i2io5Ydu8ZJvhMw",
+        "id": "AbxdObRJIfDI3Mt",
         "images": {
           "hero": "2018/06/02/bf4e84fe-e4ca-4834-ab65-393f965bbdb8.jpeg",
           "supplementary": []
@@ -21864,7 +14178,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "RrqYtZnVjDaSmgL",
+        "id": "6KqZD48j5MO8HbK",
         "images": {
           "hero": "2018/06/02/2901af55-b7bf-41ec-9471-6ec3699b1f12.jpeg",
           "supplementary": []
@@ -21976,7 +14290,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "pI42IfBRVCvexss",
+        "id": "Vs1UCV4UlCYCia4",
         "images": {
           "hero": "2018/06/02/7fa41365-3d33-461b-9be5-5a946064923c.jpeg",
           "supplementary": []
@@ -22088,7 +14402,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "Fawa6uuI5oO3kqH",
+        "id": "3d0reoZaoKoQS3j",
         "images": {
           "hero": "2018/06/02/6349679e-acbf-4f74-ad4a-0d9032c3b293.jpeg",
           "supplementary": []
@@ -22200,7 +14514,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "NsvNYC3V1xZdca4",
+        "id": "KEEbh35wg2VzvZy",
         "images": {
           "hero": "2018/06/02/4e1b42f2-3994-4d1c-ad29-620eab9c80c7.jpeg",
           "supplementary": []
@@ -22311,7 +14625,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "rpjuSg4z3JnDC4x",
+        "id": "WLZsHCOjxUBgBBW",
         "images": {
           "hero": "2018/06/02/3d738e26-0747-447a-98fb-0bb35e1736c3.jpeg",
           "supplementary": []
@@ -22422,7 +14736,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "yAeB7xxFftOs6Pp",
+        "id": "RLiQEp2iVaMLpCR",
         "images": {
           "hero": "2018/06/02/4e8fd9a9-ed5f-429f-9230-efa731461a5f.jpeg",
           "supplementary": []
@@ -22533,7 +14847,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "74Cn6OQOWGmI48J",
+        "id": "h3m3C2JbFgtL5On",
         "images": {
           "hero": "2018/06/02/2dcb1878-efe7-47d7-b7b5-b031ab143cb6.jpeg",
           "supplementary": []
@@ -22644,7 +14958,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "qQilbPGrMsiBx0O",
+        "id": "bpU7AtmIFXhUWoK",
         "images": {
           "hero": "2018/06/02/1921986b-9cf8-4bf8-b531-3bfe2f098f93.jpeg",
           "supplementary": []
@@ -22757,7 +15071,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "CxbnWpRhhEgjUQC",
+        "id": "yvqLk5D6xTeP028",
         "images": {
           "hero": "2018/06/02/7f51e3c4-518e-4147-8e73-c19d6c87ce11.jpeg",
           "supplementary": []
@@ -22870,7 +15184,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "YVmeB4QVQTKHYa1",
+        "id": "4Gxlm9bjKUcBXpu",
         "images": {
           "hero": "2018/06/02/32011e1d-8075-4b90-9a91-db88c3d66989.jpeg",
           "supplementary": []
@@ -22981,7 +15295,7 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "YlHFtadfxVfmk9X",
+        "id": "K6z80kuOgbLrtpt",
         "images": {
           "hero": "2018/06/02/aa8b0404-f4d1-44ed-bc96-ce65eae03848.jpeg",
           "supplementary": []
@@ -23125,6 +15439,7 @@ const data = [
         "units": null
       }
     },
+    "tagline": "A rich mosaic of landscapes",
     "termini": {
       "end": [
         "Fisterra"

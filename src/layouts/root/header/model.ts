@@ -20,19 +20,19 @@ type Model = {
 
 const ROUTES = [
   {
-    base: '/about',
-    path: '/about',
-    text: 'About',
-  },
-  {
-    base: '/wanderings',
-    path: '/wanderings',
+    base: '/travels',
+    path: '/travels',
     text: 'Travels',
   },
   {
     base: '/contact',
     path: '/contact',
     text: 'Contact',
+  },
+  {
+    base: '/about',
+    path: '/about',
+    text: 'About',
   },
 ];
 

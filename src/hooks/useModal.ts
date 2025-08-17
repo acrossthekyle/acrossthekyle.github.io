@@ -7,14 +7,14 @@ import { useEvent } from './useEvent';
 
 type ModalOptions = {
   content: ReactNode | ReactNode[];
-  ref: React.RefObject<HTMLFigureElement | null>;
+  ref: React.RefObject<HTMLFrameElement | null>;
 };
 
 type Size = {
   top: number;
   left: number;
-  height: number;
-  width: number;
+  height: string;
+  width: string;
 };
 
 type State = {
@@ -88,6 +88,10 @@ export function useModal() {
   };
 
   const modal = (options: ModalOptions) => {
+    if (options.ref.current === null) {
+      return;
+    }
+
     const boundingClientRect = options.ref.current.getBoundingClientRect();
     const computedStyle = {
       width: window.getComputedStyle(options.ref.current).width,
@@ -108,8 +112,8 @@ export function useModal() {
       setFinalSize({
         height: '100vh',
         width: '100vw',
-        top: '0',
-        left: '0',
+        top: 0,
+        left: 0,
       });
     }, 1);
 

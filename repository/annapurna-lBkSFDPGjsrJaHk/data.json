@@ -4,8 +4,8 @@
   "timestamp": "1571465700",
   "type": "thru-hiking",
   "image": "2019/10/19/b9b20eb0-e569-4778-99c6-de3a3c2eb15e.jpeg",
-  "location": "The Himalayas of Nepal",
-  "tagline": "The land of giants",
+  "location": "the Himalayas",
+  "tagline": "Surrounded by giants",
   "marker": {
     "left": "71.3",
     "top": "32"
@@ -19,8 +19,8 @@
     "Encircling the Annapurna massif, from subtropical forests to the high-altitude desert of the Tibetan plateau."
   ],
   "categories": [
-    "thru-hike",
-    "asia"
+    "asia",
+    "nepal"
   ],
   "title": "Annapurna Circuit + Basecamp"
 }

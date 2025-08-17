@@ -1,6 +1,7 @@
 function clean(string) {
   return string
     .replace('false', '')
+    .replace('undefined', '')
     .replace(/(\r\n|\n|\r)/gm, '')
     .replace(/\s+/g, ' ')
     .trim();
