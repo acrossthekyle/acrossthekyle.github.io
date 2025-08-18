@@ -194,7 +194,7 @@ const styles = tw({
     `);
   },
   index: `
-    ms-2
+    ms-1
     w-8
     text-sm text-yellow-300/90
     font-light

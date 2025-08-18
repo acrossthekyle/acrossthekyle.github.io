@@ -37,7 +37,7 @@ export default function Figure({
   } = useModel(stage.images, activeGalleryIndex);
 
   return (
-    <InView onChange={handleOnInView} threshold={1}>
+    <InView onChange={handleOnInView} threshold={0.65}>
       {({ ref }) => (
         <figure className={styles.figure(isFullscreen)} ref={figureRef}>
           <Image

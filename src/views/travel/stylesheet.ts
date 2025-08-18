@@ -80,6 +80,7 @@ const styles = tw({
       object-cover
       w-full h-full
       transform-gpu duration-500
+      rounded-lg
     `;
 
     if (isPlaceholder) {
@@ -172,6 +173,7 @@ const styles = tw({
     font-bold font-stretch-ultra-condensed
     uppercase
     me-4
+    mb-1
 
     4xs:text-3xl/6
     3xs:text-4xl/7
