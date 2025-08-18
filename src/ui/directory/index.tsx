@@ -17,17 +17,25 @@ type Item = {
 
 type Props = {
   align?: 'end' | 'start';
+  isLoading?: boolean;
   items: Item[];
 };
 
-export default function Directory({ align = 'end', items }: Props) {
+export default function Directory({ align = 'end', isLoading, items }: Props) {
   const { activeRef, current, isOnChild, previous } = useModel();
 
   return (
     <aside className={styles.container(isOnChild, align)}>
       <nav>
         <ul className={styles.list(align)}>
-          {items.map((item, index: number) => (
+          {isLoading && (
+            <>
+              {Array.from({ length: 13 }).map((_, index) => (
+                <li className={styles.pulse(isOnChild)} key={index} />
+              ))}
+            </>
+          )}
+          {!isLoading && items.map((item, index: number) => (
             <li
               className={styles.item}
               key={index}

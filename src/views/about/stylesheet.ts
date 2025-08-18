@@ -9,8 +9,7 @@ const styles = tw({
     font-medium
     animate-elastic-up
 
-    xl:text-3xl
-    2xl:text-4xl
+    2xl:text-3xl
   `,
   emphasis: `
     font-light

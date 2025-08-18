@@ -2,7 +2,7 @@
 
 import NextJsImage from 'next/image';
 
-import { useModel } from './image.model';
+import { useModel } from './model';
 import styles from './stylesheet';
 
 type Props = {

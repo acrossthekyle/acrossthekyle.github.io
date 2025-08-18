@@ -1,10 +1,11 @@
 'use client';
 
-import Article from '@/ui/article';
+import Section from '@/ui/section';
 
 import Figure from './figure';
 import { useModel } from './model';
 import styles from './stylesheet';
+import Title from './title';
 
 type Props = {
   slug: string;
@@ -18,31 +19,28 @@ export default function View({ slug }: Props) {
   }
 
   return (
-    <Article>
-      <section>
-        <ul className={styles.stages}>
-          {[...trip.stages].splice(0, shown).map((stage) => (
-            <li
-              className={styles.stage}
-              key={stage.index}
-              style={{ animationDelay: `${0.1 + (stage.index * 0.125)}s` }}
-            >
-              <Figure onMaximize={handleOnMaximize} stage={stage} total={trip.stats.length.value} />
-            </li>
-          ))}
-        </ul>
-      </section>
-      {shown < Number(trip.stats.length.value) && (
-        <footer className={styles.footer}>
-          <button
-            className={styles.more}
-            onClick={handleOnViewMore}
-            type="button"
+    <Section>
+      <Title date={trip.date} title={trip.title} type={trip.type} />
+      <ul className={styles.stages}>
+        {[...trip.stages].splice(0, shown).map((stage) => (
+          <li
+            className={styles.stage}
+            key={stage.index}
+            style={{ animationDelay: `${0.1 + (stage.index * 0.125)}s` }}
           >
-            Load More
-          </button>
-        </footer>
+            <Figure onMaximize={handleOnMaximize} stage={stage} total={trip.stats.length.value} />
+          </li>
+        ))}
+      </ul>
+      {shown < Number(trip.stats.length.value) && (
+        <button
+          className={styles.more}
+          onClick={handleOnViewMore}
+          type="button"
+        >
+          Load More
+        </button>
       )}
-    </Article>
+    </Section>
   );
 }

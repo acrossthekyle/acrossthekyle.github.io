@@ -3,10 +3,9 @@
 import { ReactNode } from 'react';
 
 import Directory from '@/ui/directory';
-import { getTripDate } from '@/utils';
+import { getStaticType, getTripDate } from '@/utils';
 
 import { useModel } from './model';
-import { getStaticType } from './utils';
 
 type Props = {
   children: ReactNode | ReactNode[];
@@ -15,14 +14,11 @@ type Props = {
 export default function Layout({ children }: Props) {
   const { isLoading, trips } = useModel();
 
-  if (isLoading) {
-    return null; // todo
-  }
-
   return (
     <>
       <Directory
         align="start"
+        isLoading={isLoading}
         items={trips.map((trip) => ({
           meta: [getStaticType(trip.type), getTripDate(trip.date)],
           path: `/travels/${trip.slug}`,

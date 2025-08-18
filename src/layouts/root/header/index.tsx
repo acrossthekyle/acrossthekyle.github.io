@@ -1,6 +1,6 @@
 'use client';
 
-import { Star } from 'lucide-react';
+import { MoveLeft, Star } from 'lucide-react';
 import Link from 'next/link';
 
 import { useModel } from './model';
@@ -29,7 +29,7 @@ export default function Header() {
         onClick={handleOnBack}
         type="button"
       >
-        Back
+        <MoveLeft />
       </button>
       <nav className={styles.nav(isOnRoot, isOnParent)}>
         <ul>

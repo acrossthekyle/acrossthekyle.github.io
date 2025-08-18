@@ -6,10 +6,10 @@ type Props = {
   isFull?: boolean;
 };
 
-export default function Article({ children, className = '', isFull }: Props) {
+export default function Section({ children, className = '', isFull }: Props) {
   return (
-    <article className={`${styles.container(isFull)} ${className}`.trim()}>
+    <section className={`${styles.container(isFull)} ${className}`.trim()}>
       {children}
-    </article>
+    </section>
   );
 }
