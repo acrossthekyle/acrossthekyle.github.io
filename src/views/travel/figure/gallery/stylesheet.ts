@@ -8,45 +8,38 @@ const styles = tw({
 
     ${hasEnteredView ? 'opacity-100' : 'opacity-0'}
 
-    ml:top-4.5
     ml:bottom-auto
+    ml:top-2.5
+    2ml:top-4.5
   `),
   previous: `
-    right-20
+    right-16.5
 
-    ml:left-6
-    ml:right-auto
+    2ml:right-21
   `,
   next: `
-    right-2
+    right-0.5
 
-    ml:left-16
-    ml:right-auto
+    2ml:right-4
   `,
   arrow: `
-    h-6 w-6
-    stroke-2
-    stroke-white/80
+    h-5 w-5
+    stroke-3
+    stroke-white/90
   `,
   index: (hasEnteredView: boolean) => tw(`
-    absolute bottom-4 right-12 z-3
-    text-sm text-white/80
-    font-black
+    absolute right-10 bottom-3.5 z-3
+    text-sm text-white/90
+    font-mono font-bold
     duration-200
 
     ${hasEnteredView ? 'opacity-100' : 'opacity-0'}
 
-    ml:top-7
+    ml:top-4.5
     ml:bottom-auto
-    ml:right-6
+    2ml:top-6.5
+    2ml:right-14
   `),
-  slash: `
-    inline
-    stroke-4 stroke-white/80
-    h-2.5
-    w-2.5
-    -mt-0.5
-  `,
 });
 
 export default styles;

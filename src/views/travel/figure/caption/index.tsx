@@ -5,16 +5,20 @@ import type { Stage } from '@/types';
 import styles from './stylesheet';
 
 type Props = {
+  label: string;
   stage: Stage;
   total: string;
 };
 
-export default function Caption({ stage, total }: Props) {
+export default function Caption({ label, stage, total }: Props) {
   return (
     <figcaption className={styles.caption}>
       <h2 className={styles.heading}>
         <span className={styles.index}>
-          {String(stage.index + 1).padStart(3, '0')} <Slash className={styles.slash} /> {String(total).padStart(3, '0')}
+          {label}{' '}
+          {String(stage.index + 1).padStart(3, '0')}{' '}
+          <Slash className={styles.slash} />{' '}
+          {String(total).padStart(3, '0')}
         </span>
         {stage.termini.end.join(' ')}
       </h2>
@@ -29,7 +33,13 @@ export default function Caption({ stage, total }: Props) {
           <>
             {!stage.termini.isSame && <span className={styles.break}>-</span>}
             <span className={styles.highlight}>
-              {stage.stats.distance && (
+              {label === 'summit' && stage.stats.max && (
+                <>
+                  {stage.stats.max.value.imperial}{' '}
+                  {stage.stats.max.units.imperial.abbreviated} max alt.
+                </>
+              )}
+              {label !== 'summit' && stage.stats.distance && (
                 <>
                   {stage.stats.distance.value.imperial}{' '}
                   {stage.stats.distance.units.imperial.full}

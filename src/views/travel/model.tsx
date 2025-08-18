@@ -54,6 +54,7 @@ export function useModel(slug: string): Model {
         <Figure
           activeGalleryIndex={galleryIndex}
           isFullscreen
+          label={trip.label}
           onMinimize={handleOnMinimize}
           stage={stage}
           total={trip.stats.length.value}

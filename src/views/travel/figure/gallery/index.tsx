@@ -1,6 +1,6 @@
 'use client';
 
-import { MoveLeft, MoveRight, Slash } from 'lucide-react';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { InView } from 'react-intersection-observer';
 
 import Image from './image';
@@ -37,7 +37,7 @@ export default function Figure({
         <>
           {!isFullscreen && images.length > 1 && (
             <span className={styles.index(isInView)}>
-              {index + 1} <Slash className={styles.slash} /> {images.length}
+              {index + 1}/{images.length}
             </span>
           )}
           <Image
@@ -54,7 +54,7 @@ export default function Figure({
               onClick={onPrevious}
               type="button"
             >
-              <MoveLeft className={styles.arrow} />
+              <ChevronLeft className={styles.arrow} />
             </button>
           )}
           {images.map((image: string, key: number) => (
@@ -72,7 +72,7 @@ export default function Figure({
               onClick={onNext}
               type="button"
             >
-              <MoveRight className={styles.arrow} />
+              <ChevronRight className={styles.arrow} />
             </button>
           )}
         </>

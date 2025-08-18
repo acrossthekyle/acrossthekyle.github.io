@@ -10,6 +10,7 @@ import styles from './stylesheet';
 type Props = {
   activeGalleryIndex?: number;
   isFullscreen?: boolean;
+  label: string;
   onMaximize?: (stage: Stage, ref: React.RefObject<HTMLFrameElement | null>, galleryIndex: number) => void;
   onMinimize?: () => void;
   stage: Stage;
@@ -19,6 +20,7 @@ type Props = {
 export default function Figure({
   activeGalleryIndex = 0,
   isFullscreen,
+  label,
   onMaximize,
   onMinimize,
   stage,
@@ -45,7 +47,7 @@ export default function Figure({
         onNext={handleOnGalleryNext}
         onPrevious={handleOnGalleryPrevious}
       />
-      <Caption stage={stage} total={total} />
+      <Caption label={label} stage={stage} total={total} />
       {isFullscreen ? (
         <button
           className={styles.toggle(hasEnteredView)}

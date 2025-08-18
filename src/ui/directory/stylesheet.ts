@@ -145,14 +145,11 @@ const styles = tw({
   meta: `
     relative top-0
     flex gap-2
-    text-sm/3 text-white/90
+    mb-1
+    text-sm/3
     font-light font-stretch-condensed
     tracking-normal
     duration-300
-    mb-1
-
-    group-hover/link:!text-white/90
-    group-hover/list:text-white/25
   `,
   text: `
     block
