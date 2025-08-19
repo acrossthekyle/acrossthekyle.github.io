@@ -12,12 +12,13 @@ type Props = {
 };
 
 export default function Layout({ children }: Props) {
-  const { isLoading, trips } = useModel();
+  const { filters, isLoading, trips } = useModel();
 
   return (
     <>
       <Directory
         align="start"
+        filters={filters}
         isLoading={isLoading}
         items={trips.map((trip) => ({
           meta: [getStaticType(trip.type), getTripDate(trip.date)],

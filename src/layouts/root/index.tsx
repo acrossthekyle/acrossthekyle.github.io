@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import { ReactNode, Suspense } from 'react';
 
 import Header from './header';
 import Modal from './modal';
@@ -11,10 +11,12 @@ type Props = {
 export default function Layout({ children }: Props) {
   return (
     <>
-      <Header />
-      <main className={styles.main}>
-        {children}
-      </main>
+      <Suspense>
+        <Header />
+        <main className={styles.main}>
+          {children}
+        </main>
+      </Suspense>
       <footer className={styles.footer}>
         <span className={styles.copy}>
           &copy; '87 - {new Date().getFullYear()}

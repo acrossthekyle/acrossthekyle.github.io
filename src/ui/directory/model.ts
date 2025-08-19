@@ -1,17 +1,20 @@
 'use client';
 
-import { usePathname } from 'next/navigation';
+import { usePathname, useSearchParams } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
 
 type Model = {
   activeRef: React.RefObject<HTMLLIElement | null>;
   current: string;
+  filter: string | null;
   isOnChild: boolean;
   previous: string;
 };
 
 export function useModel(): Model {
   const pathname = usePathname();
+
+  const searchParams = useSearchParams();
 
   const [isOnChild, setIsOnChild] = useState(false);
 
@@ -28,9 +31,12 @@ export function useModel(): Model {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [activeRef.current, isOnChild]);
 
+  const filter = searchParams.get('filter');
+
   return {
     activeRef,
     current: pathname,
+    filter,
     isOnChild,
     previous: `/${pathname.split('/')[1]}`,
   };

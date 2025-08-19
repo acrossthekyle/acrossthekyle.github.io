@@ -24,7 +24,7 @@ export default function View() {
         },
         {
           isExternal: true,
-          meta: ['Site codebase'],
+          meta: ['My coding projects'],
           path: 'https://github.com/acrossthekyle/acrossthekyle.github.io',
           text: ['GitHub'],
         },

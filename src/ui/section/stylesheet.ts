@@ -13,8 +13,6 @@ const styles = tw({
       ml:left-110
       lg:left-120
       sl:left-136
-      ml:pr-20
-      ml:py-12
       sx:left-156
     `;
 
@@ -23,13 +21,15 @@ const styles = tw({
         ${common}
 
         md:pl-10
-        ml:pl-14
         md:absolute
         md:right-0
         md:top-0
         md:bottom-0
         md:overflow-y-scroll
         md:left-42
+        ml:pl-14
+        ml:pr-20
+        ml:py-12
       `);
     }
 
@@ -42,6 +42,8 @@ const styles = tw({
       ml:top-0
       ml:bottom-0
       ml:overflow-y-scroll
+      sl:pr-20
+      sl:py-12
     `);
   },
 });

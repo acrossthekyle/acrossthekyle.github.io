@@ -4,8 +4,12 @@ import { Slash } from 'lucide-react';
 import Link from 'next/link';
 import { Fragment } from 'react';
 
+import type { Filter } from '@/types';
+
+import Filters from './filters';
 import { useModel } from './model';
 import styles from './stylesheet';
+import { decorateLink } from './utils';
 
 type Item = {
   meta?: string[];
@@ -17,17 +21,26 @@ type Item = {
 
 type Props = {
   align?: 'end' | 'start';
+  filters?: Filter[];
   isLoading?: boolean;
   items: Item[];
 };
 
-export default function Directory({ align = 'end', isLoading, items }: Props) {
-  const { activeRef, current, isOnChild, previous } = useModel();
+export default function Directory({
+  align = 'end',
+  filters,
+  isLoading,
+  items,
+}: Props) {
+  const { activeRef, current, filter, isOnChild, previous } = useModel();
 
   return (
     <aside className={styles.container(isOnChild, align)}>
+      {filters && (
+        <Filters current={current} filters={filters} isOnChild={isOnChild} />
+      )}
       <nav>
-        <ul className={styles.list(align)}>
+        <ul className={styles.list}>
           {isLoading && (
             <>
               {Array.from({ length: 13 }).map((_, index) => (
@@ -47,7 +60,10 @@ export default function Directory({ align = 'end', isLoading, items }: Props) {
                   isOnChild,
                   current === item.path,
                 )}
-                href={isOnChild && current === item.path ? previous : item.path}
+                href={decorateLink(
+                  isOnChild && current === item.path ? previous : item.path,
+                  filter,
+                )}
                 target={item.isExternal === true ? '_blank' : undefined}
                 rel={item.isExternal === true ? 'noreferrer' : undefined}
               >

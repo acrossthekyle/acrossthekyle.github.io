@@ -3,8 +3,8 @@ import tw from '@/styles';
 const styles = tw({
   header: (isOnRoot: boolean, isOnParent: boolean, isOnChild: boolean) => tw(`
     top-0 left-0 bottom-0 z-1
-    flex flex-col items-start justify-between
-    p-6 pb-0
+    flex flex-col items-start justify-end
+    p-6 pb-0 pt-4
 
     md:z-3
 
@@ -34,28 +34,10 @@ const styles = tw({
       sl:py-12
     `}
   `),
-  anchor: `
-    font-black
-    uppercase
-  `,
-  home: (isOnRoot: boolean, isOnParent: boolean) => {
-    if (isOnRoot) {
-      return tw('block');
-    }
-
-    if (isOnParent) {
-      return tw('hidden md:block');
-    }
-
-    return tw(`
-      hidden
-
-      ml:block
-    `);
-  },
-  back: (isOnRoot: boolean, isOnParent: boolean) => {
+  breadcrumbs: (isOnRoot: boolean, isOnParent: boolean) => {
     const common = `
-      text-base text-white/90
+      flex items-center gap-1
+      py-2
     `;
 
     if (isOnRoot) {
@@ -78,12 +60,12 @@ const styles = tw({
       ml:hidden
     `);
   },
-  star: `
-    h-6 w-6
-    fill-white/90
-    duration-300
+  breadcrumb: `
+    text-xs $text-white/90
+    font-black
+    uppercase
 
-    hover:rotate-72
+    sm:text-sm
   `,
   nav: (isOnRoot: boolean, isOnParent: boolean) => {
     if (isOnRoot) {
@@ -141,6 +123,7 @@ const styles = tw({
         h-6
         text-3xl/5 text-white/90
         font-black
+        mb-1
 
         5xs:h-9
         5xs:text-5xl/9

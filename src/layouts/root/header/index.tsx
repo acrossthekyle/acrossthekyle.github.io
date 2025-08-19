@@ -1,6 +1,5 @@
 'use client';
 
-import { MoveLeft, Star } from 'lucide-react';
 import Link from 'next/link';
 
 import { useModel } from './model';
@@ -8,8 +7,8 @@ import styles from './stylesheet';
 
 export default function Header() {
   const {
+    breadcrumbs,
     current,
-    handleOnBack,
     isOnChild,
     isOnParent,
     isOnRoot,
@@ -18,19 +17,18 @@ export default function Header() {
 
   return (
     <header className={styles.header(isOnRoot, isOnParent, isOnChild)}>
-      <Link
-        className={`${styles.anchor} ${styles.home(isOnRoot, isOnParent)}`}
-        href="/"
-      >
-        <Star className={styles.star} />
-      </Link>
-      <button
-        className={`${styles.anchor} ${styles.back(isOnRoot, isOnParent)}`}
-        onClick={handleOnBack}
-        type="button"
-      >
-        <MoveLeft />
-      </button>
+      <div className={styles.breadcrumbs(isOnRoot, isOnParent)}>
+        {breadcrumbs.map((breadcrumb) => (
+          <Link
+            className={styles.breadcrumb}
+            href={breadcrumb.path}
+            key={breadcrumb.name}
+          >
+            <span className="font-mono">/</span>{' '}
+            {breadcrumb.name}
+          </Link>
+        ))}
+      </div>
       <nav className={styles.nav(isOnRoot, isOnParent)}>
         <ul>
           {routes.map((route, index: number) => (

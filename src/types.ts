@@ -103,3 +103,9 @@ export type Trip = {
   title: string[];
   type: string;
 };
+
+export type Filter = {
+  count: number;
+  filter: string;
+  name: string;
+};

@@ -44,24 +44,20 @@ const styles = tw({
       sl:left-80
     `);
   },
-  list: (align: 'end' | 'start') => tw(`
+  list: `
     group/list
-    flex flex-col gap-4
-
-    ${align === 'start' && `
-      justify-end
-    `}
-  `),
+  `,
   item: `
-    flex flex-col
+    mb-4
     opacity-0
     animate-elastic-in-from-right
+
+    last:mb-0
   `,
   link: (isOnChild: boolean, isActive: boolean) => {
     const root = `
       group/link
 
-      block
       uppercase
       duration-300
       overflow-hidden

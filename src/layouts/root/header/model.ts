@@ -1,6 +1,6 @@
 'use client';
 
-import { usePathname, useRouter } from 'next/navigation';
+import { usePathname, useSearchParams } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
 type Route = {
@@ -9,9 +9,14 @@ type Route = {
   text: string;
 };
 
+type Breadcrumb = {
+  name: string;
+  path: string;
+};
+
 type Model = {
+  breadcrumbs: Breadcrumb[];
   current: string;
-  handleOnBack: () => void;
   isOnChild: boolean;
   isOnParent: boolean;
   isOnRoot: boolean;
@@ -36,10 +41,34 @@ const ROUTES = [
   },
 ];
 
+function getBreadcrumbs(
+  current: string,
+  parameters: string,
+  isOnParent: boolean,
+) {
+  const active = ROUTES.find((route) => current.includes(route.base));
+  const root = {
+    name: 'Menu',
+    path: '/',
+  };
+
+  if (isOnParent) {
+    return [root];
+  }
+
+  return [
+    root,
+    {
+      name: active?.text || '',
+      path: `${active?.base || '/'}${!!parameters ? '?' + parameters : ''}`,
+    },
+  ];
+}
+
 export function useModel(): Model {
   const pathname = usePathname();
 
-  const router = useRouter();
+  const searchParams = useSearchParams();
 
   const [isOnRoot, setIsOnRoot] = useState(true);
   const [isOnParent, setIsOnParent] = useState(false);
@@ -53,26 +82,17 @@ export function useModel(): Model {
     setIsOnChild(slashes.length === 2);
   }, [pathname]);
 
-  const handleOnBack = () => {
-    if (isOnChild) {
-      const path = ROUTES.find(route => pathname.includes(route.base));
-
-      if (path) {
-        router.push(path.base);
-      } else {
-        router.push('/');
-      }
-    } else if (isOnParent) {
-      router.push('/');
-    }
-  };
+  const parameters = searchParams.toString();
 
   return {
+    breadcrumbs: getBreadcrumbs(pathname, parameters, isOnParent),
     current: pathname,
-    handleOnBack,
     isOnChild,
     isOnParent,
     isOnRoot,
-    routes: ROUTES,
+    routes: ROUTES.map((route) => ({
+      ...route,
+      path: pathname.includes(route.base) ? `${route.base}${!!parameters ? '?' + parameters : ''}` : route.path,
+    })),
   };
 }
