@@ -4,7 +4,7 @@ const styles = tw({
   block: `block`,
   title: `
     block
-    mb-8
+    mb-6
     text-4xl/8 text-white/90
     font-bold font-stretch-extra-condensed
     tracking-tighter

@@ -2,14 +2,27 @@ import tw from '@/styles';
 
 const styles = tw({
   group: `
-    flex flex-col gap-6
+    flex flex-col gap-3
+  `,
+  heading: `
+    mt-6
+    pb-1
+    font-stretch-condensed
+    uppercase
+    animate-elastic-in-from-right
+
+    first:mt-0
+  `,
+  index: `
+    text-base text-yellow-300/90
+    font-normal
   `,
   text: `
-    text-2xl text-white/90
+    text-lg text-white/90 text-justify
     font-medium
-    animate-elastic-up
+    animate-elastic-in-from-right
 
-    2xl:text-3xl
+    2xl:text-2xl
   `,
   emphasis: `
     font-light

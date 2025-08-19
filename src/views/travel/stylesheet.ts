@@ -16,12 +16,12 @@ const styles = tw({
     w-full
     py-2
     mt-6
-    text-xl text-white text-center
+    text-xl text-white/90 text-center
     font-black font-stretch-extra-condensed
     uppercase
     duration-300
 
-    hover:text-yellow-300
+    hover:text-yellow-300/90
 
     sl:mt-12
   `,

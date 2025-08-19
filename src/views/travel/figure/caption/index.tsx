@@ -45,7 +45,7 @@ export default function Caption({ label, stage, total }: Props) {
                   {stage.stats.distance.units.imperial.full}
                 </>
               )}
-              /
+              {' '}/{' '}
               {stage.stats.time && (
                 <>
                   {stage.stats.time.value}{' '}
