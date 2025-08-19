@@ -47,7 +47,7 @@ const styles = tw({
   `,
   slash: `
     inline-block
-    -mt-4 ml-1
+    -mt-2 ml-1
     w-3 h-3
     stroke-2
     stroke-white/90
