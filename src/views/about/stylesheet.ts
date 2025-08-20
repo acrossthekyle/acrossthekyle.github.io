@@ -12,15 +12,12 @@ const styles = tw({
   heading: `
     mt-6
     pb-1
-    font-stretch-condensed
+    text-base text-yellow-300/90
+    font-normal font-stretch-condensed
     uppercase
     animate-elastic-in-from-right
 
-    first:mt-0
-  `,
-  index: `
-    text-base text-yellow-300/90
-    font-normal
+    md:first-of-type:mt-0
   `,
   text: `
     text-lg text-white/90 text-justify

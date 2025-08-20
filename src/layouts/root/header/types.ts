@@ -5,13 +5,7 @@ export type Route = {
   text: string;
 };
 
-export type Breadcrumb = {
-  name: string;
-  path: string;
-};
-
 export type Model = {
-  breadcrumbs: Breadcrumb[];
   isOnParent: boolean;
   isOnRoot: boolean;
   routes: Route[];

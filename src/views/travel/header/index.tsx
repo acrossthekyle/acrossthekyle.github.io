@@ -1,4 +1,5 @@
 import { Slash } from 'lucide-react';
+import Link from 'next/link';
 
 import type { Date } from '@/types';
 import { getStaticType, getTripDate } from '@/utils';
@@ -15,6 +16,8 @@ export default function Header({ date, title, type }: Props) {
   return (
     <h1 className={styles.title}>
       <span className={styles.meta}>
+        <Link href="/travels">Travels</Link>
+        <Slash className={styles.slash} />
         {getStaticType(type)}
         <Slash className={styles.slash} />
         {getTripDate(date)}

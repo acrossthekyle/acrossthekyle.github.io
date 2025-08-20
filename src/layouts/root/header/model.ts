@@ -4,7 +4,7 @@ import { usePathname, useSearchParams } from 'next/navigation';
 
 import { routes } from './constants';
 import type { Model } from './types';
-import { getBreadcrumbs, getRoutePath } from './utils';
+import { getRoutePath } from './utils';
 
 export function useModel(): Model {
   const pathname = usePathname();
@@ -17,7 +17,6 @@ export function useModel(): Model {
   const parameters = searchParams.toString();
 
   return {
-    breadcrumbs: getBreadcrumbs(pathname, parameters, isOnParent),
     isOnParent,
     isOnRoot,
     routes: routes.map((route) => ({

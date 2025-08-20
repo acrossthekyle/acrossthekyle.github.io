@@ -8,15 +8,15 @@ export const routes: Route[] = [
     text: 'Travels',
   },
   {
-    base: '/contact',
-    isActive: false,
-    path: '/contact',
-    text: 'Contact',
-  },
-  {
     base: '/about',
     isActive: false,
     path: '/about',
     text: 'About',
+  },
+  {
+    base: '/contact',
+    isActive: false,
+    path: '/contact',
+    text: 'Contact',
   },
 ];

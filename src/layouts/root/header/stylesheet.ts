@@ -5,7 +5,7 @@ const styles = tw({
     const common = `
       top-0 left-0 bottom-0 z-1
       flex flex-col items-start justify-end
-      p-6 pb-0 pt-4
+      p-6
 
       md:z-3
     `;
@@ -47,16 +47,15 @@ const styles = tw({
   },
   logo: (isOnRoot: boolean, isOnParent: boolean) => {
     const common = `
-      absolute top-6 left-6
-      font-black
-      uppercase
+      group/logo
+      flex items-center
     `;
 
     if (isOnRoot) {
       return tw(`
-        block
-
         ${common}
+        block
+        absolute top-6 left-6
 
         ml:top-12
         ml:left-20
@@ -65,63 +64,60 @@ const styles = tw({
 
     if (isOnParent) {
       return tw(`
-        hidden
         ${common}
+        relative
 
-        md:block
+        md:absolute
+        md:top-6
+        md:left-6
         ml:top-12
         ml:left-20
       `);
     }
 
     return tw(`
-      hidden
       ${common}
+      relative
 
-      ml:block
+      ml:absolute
+      ml:top-6
+      ml:left-6
       sl:top-12
       sl:left-20
     `);
   },
-  star: `
-    h-6 w-6
-    fill-white/90
-    duration-300
-
-    hover:rotate-72
+  square: `
+    relative
+    flex flex-col items-center justify-center
+    mr-1
+    bg-white
+    h-3 w-3
+    mr-0.75
+    rounded-xs
   `,
-  breadcrumbs: (isOnRoot: boolean, isOnParent: boolean) => {
-    const common = `
-      flex items-center gap-1
-    `;
-
-    if (isOnRoot) {
-      return 'hidden';
-    }
-
-    if (isOnParent) {
-      return tw(`
-        block
-        ${common}
-
-        md:hidden
-      `);
-    }
-
-    return tw(`
-      block
-      ${common}
-
-      ml:hidden
-    `);
-  },
-  breadcrumb: `
-    py-2
-    text-xs $text-white/90
+  o: `
+    h-2.5 w-2.5
+    bg-black
+    rounded-full
+  `,
+  username: (isOnRoot: boolean) => tw(`
+    flex items-center
+    text-base
     font-black
     uppercase
+    duration-300
 
-    sm:text-sm
+    ${isOnRoot ? 'opacity-100' : 'opacity-0'}
+  `),
+  over: `
+    block
+    w-0
+    duration-500
+    overflow-hidden
+    text-black
+
+    group-hover/logo:w-12
+    group-hover/logo:text-white
   `,
   nav: (isOnRoot: boolean, isOnParent: boolean) => {
     if (isOnRoot) {

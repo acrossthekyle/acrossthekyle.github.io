@@ -1,6 +1,5 @@
 'use client';
 
-import { Star } from 'lucide-react';
 import Link from 'next/link';
 
 import { useModel } from './model';
@@ -8,7 +7,6 @@ import styles from './stylesheet';
 
 export default function Header() {
   const {
-    breadcrumbs,
     isOnParent,
     isOnRoot,
     routes,
@@ -20,20 +18,14 @@ export default function Header() {
         className={styles.logo(isOnRoot, isOnParent)}
         href="/"
       >
-        <Star className={styles.star} />
+        <span className={styles.square}>
+          <span className={styles.o} />
+        </span>
+        <span className={styles.username(isOnRoot)}>
+          <span className={styles.over}>över</span>
+          kyle
+        </span>
       </Link>
-      <div className={styles.breadcrumbs(isOnRoot, isOnParent)}>
-        {breadcrumbs.map((breadcrumb) => (
-          <Link
-            className={styles.breadcrumb}
-            href={breadcrumb.path}
-            key={breadcrumb.name}
-          >
-            <span className="font-mono">/</span>{' '}
-            {breadcrumb.name}
-          </Link>
-        ))}
-      </div>
       <nav className={styles.nav(isOnRoot, isOnParent)}>
         <ul>
           {routes.map((route, index: number) => (

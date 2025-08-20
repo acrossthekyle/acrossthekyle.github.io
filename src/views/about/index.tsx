@@ -10,13 +10,13 @@ export default function View() {
     <Section className={styles.group} isFull>
       <Title className={styles.title}>About</Title>
       <h2 className={styles.heading}>
-        <span className={styles.index}>01</span>
+        01
       </h2>
       <p className={styles.text}>
         Whether I'm building software or walking across a mountain range, I'm always seeking new ways to move forward  with intention and curiosity. Hey, I'm Kyle, and I live in Chicago with my partner and our dog Dax. When I'm not at a computer I'm disconnecting by thru-hiking a long-distance trail.
       </p>
       <h2 className={styles.heading}>
-        <span className={styles.index}>02</span>
+        02
       </h2>
       <p className={styles.text}>
         I'm a full-time Frontend Developer at{' '}
@@ -37,7 +37,7 @@ export default function View() {
         </Link>.
       </p>
       <h2 className={styles.heading}>
-        <span className={styles.index}>03</span>
+        03
       </h2>
       <p className={styles.text}>
         Some hikes I've done include the Tour du Mont Blanc in the Alps, the GR 20 in Corsica, the O Circuit in Patagonia, and the Annapurna Basecamp & Circuit trek in Nepal.

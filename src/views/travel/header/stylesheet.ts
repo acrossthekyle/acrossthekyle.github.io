@@ -23,10 +23,11 @@ const styles = tw({
     text-tiny/3 text-white/90
     font-light font-stretch-condensed
     tracking-normal
-    mb-1
+    mb-2 -mt-4
 
     4xs:text-xs/3
     2xs:text-sm/3
+    ml:mt-0
   `,
   slash: `
     w-3 h-3
