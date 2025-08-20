@@ -19,7 +19,7 @@ export default function Header({ date, title, type }: Props) {
         <Slash className={styles.slash} />
         {getTripDate(date)}
       </span>
-      {title.map((word: string, index: number) => (
+      {title.map((word: string) => (
         <span className={styles.block} key={word}>
           {word}
         </span>
