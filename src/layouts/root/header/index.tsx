@@ -1,5 +1,6 @@
 'use client';
 
+import { X } from 'lucide-react';
 import Link from 'next/link';
 
 import { useModel } from './model';
@@ -7,6 +8,7 @@ import styles from './stylesheet';
 
 export default function Header() {
   const {
+    handleOnBack,
     isOnParent,
     isOnRoot,
     routes,
@@ -15,7 +17,7 @@ export default function Header() {
   return (
     <header className={styles.header(isOnRoot, isOnParent)}>
       <Link
-        className={styles.logo(isOnRoot, isOnParent)}
+        className={`${styles.anchor(isOnRoot, isOnParent)} ${styles.logo(isOnRoot, isOnParent)}`}
         href="/"
       >
         <span className={styles.square}>
@@ -26,6 +28,13 @@ export default function Header() {
           kyle
         </span>
       </Link>
+      <button
+        className={`${styles.anchor(isOnRoot, isOnParent)} ${styles.close(isOnRoot, isOnParent)}`}
+        onClick={handleOnBack}
+        type="button"
+      >
+        <X className={styles.x} />
+      </button>
       <nav className={styles.nav(isOnRoot, isOnParent)}>
         <ul>
           {routes.map((route, index: number) => (

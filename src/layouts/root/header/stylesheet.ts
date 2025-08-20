@@ -4,7 +4,6 @@ const styles = tw({
   header: (isOnRoot: boolean, isOnParent: boolean) => {
     const common = `
       top-0 left-0 bottom-0 z-1
-      flex flex-col items-start justify-end
       p-6
 
       md:z-3
@@ -13,7 +12,8 @@ const styles = tw({
     if (isOnRoot) {
       return tw(`
         ${common}
-
+        flex flex-col items-start justify-end
+        pb-0
         h-full
 
         ml:pl-20
@@ -24,10 +24,13 @@ const styles = tw({
     if (isOnParent) {
       return tw(`
         ${common}
-
         relative
+        flex flex-row items-start justify-between
 
         md:absolute
+        md:flex-col
+        md:justify-end
+        ml:pb-0
         ml:pl-20
         ml:py-12
       `);
@@ -35,17 +38,20 @@ const styles = tw({
 
     return tw(`
       ${common}
-
       relative
+      flex flex-row items-start justify-between
 
       md:px-6
       md:py-6
+      ml:pb-0
       ml:absolute
+      ml:flex-col
+      ml:justify-end
       sl:pl-20
       sl:py-12
     `);
   },
-  logo: (isOnRoot: boolean, isOnParent: boolean) => {
+  anchor: (isOnRoot: boolean, isOnParent: boolean) => {
     const common = `
       group/logo
       flex items-center
@@ -55,10 +61,9 @@ const styles = tw({
       return tw(`
         ${common}
         block
-        absolute top-6 left-6
+        absolute top-6
 
         ml:top-12
-        ml:left-20
       `);
     }
 
@@ -69,9 +74,7 @@ const styles = tw({
 
         md:absolute
         md:top-6
-        md:left-6
         ml:top-12
-        ml:left-20
       `);
     }
 
@@ -81,24 +84,78 @@ const styles = tw({
 
       ml:absolute
       ml:top-6
-      ml:left-6
       sl:top-12
+    `);
+  },
+  logo: (isOnRoot: boolean, isOnParent: boolean) => {
+    if (isOnRoot) {
+      return tw(`
+        absolute
+        left-6
+
+        ml:left-20
+      `);
+    }
+
+    if (isOnParent) {
+      return tw(`
+        absolute
+
+        md:left-6
+        ml:left-20
+      `);
+    }
+
+    return tw(`
+      absolute
+
+      ml:left-6
       sl:left-20
+    `);
+  },
+  close: (isOnRoot: boolean, isOnParent: boolean) => {
+    if (isOnRoot) {
+      return tw(`
+        hidden
+      `);
+    }
+
+    if (isOnParent) {
+      return tw(`
+        block
+
+        md:right-6
+        md:hidden
+        ml:right-20
+      `);
+    }
+
+    return tw(`
+      block
+
+      ml:hidden
+      ml:right-6
+      sl:right-20
     `);
   },
   square: `
     relative
     flex flex-col items-center justify-center
     mr-1
-    bg-white
+    bg-white/90
     h-3 w-3
     mr-0.75
     rounded-xs
   `,
   o: `
-    h-2.5 w-2.5
+    h-2 w-2
     bg-black
     rounded-full
+  `,
+  x: `
+    mt-0.5
+    w-5 h-5
+    stroke-3 stroke-white/90
   `,
   username: (isOnRoot: boolean) => tw(`
     flex items-center

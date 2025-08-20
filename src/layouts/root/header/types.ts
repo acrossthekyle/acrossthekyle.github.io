@@ -6,6 +6,7 @@ export type Route = {
 };
 
 export type Model = {
+  handleOnBack: () => void;
   isOnParent: boolean;
   isOnRoot: boolean;
   routes: Route[];
