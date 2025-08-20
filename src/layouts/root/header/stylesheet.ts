@@ -48,7 +48,6 @@ const styles = tw({
   breadcrumbs: (isOnRoot: boolean, isOnParent: boolean) => {
     const common = `
       flex items-center gap-1
-      py-2
     `;
 
     if (isOnRoot) {
@@ -72,6 +71,7 @@ const styles = tw({
     `);
   },
   breadcrumb: `
+    py-2
     text-xs $text-white/90
     font-black
     uppercase

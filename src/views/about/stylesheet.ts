@@ -2,6 +2,8 @@ import tw from '@/styles';
 
 const styles = tw({
   title: `
+    -mt-4
+
     md:hidden
   `,
   group: `
