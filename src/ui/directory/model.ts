@@ -1,7 +1,7 @@
 'use client';
 
 import { usePathname, useSearchParams } from 'next/navigation';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 
 type Model = {
   activeRef: React.RefObject<HTMLLIElement | null>;
@@ -16,13 +16,9 @@ export function useModel(): Model {
 
   const searchParams = useSearchParams();
 
-  const [isOnChild, setIsOnChild] = useState(false);
-
   const activeRef = useRef<HTMLLIElement | null>(null);
 
-  useEffect(() => {
-    setIsOnChild(pathname.split('').filter(character => character === '/').length === 2);
-  }, [pathname]);
+  const isOnChild = pathname.split('').filter(character => character === '/').length === 2;
 
   useEffect(() => {
     if (activeRef.current && isOnChild) {
