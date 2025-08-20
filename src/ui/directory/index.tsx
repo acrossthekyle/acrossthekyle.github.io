@@ -6,6 +6,8 @@ import { Fragment } from 'react';
 
 import type { Filter } from '@/types';
 
+import Title from '../title';
+
 import Filters from './filters';
 import { useModel } from './model';
 import styles from './stylesheet';
@@ -21,21 +23,28 @@ type Item = {
 
 type Props = {
   align?: 'end' | 'start';
+  className?: string;
   filters?: Filter[];
   isLoading?: boolean;
   items: Item[];
+  title?: string;
 };
 
 export default function Directory({
   align = 'end',
+  className = '',
   filters,
   isLoading,
   items,
+  title,
 }: Props) {
   const { activeRef, current, filter, isOnChild, previous } = useModel();
 
   return (
-    <aside className={styles.container(isOnChild, align)}>
+    <aside
+      className={`${styles.container(isOnChild, align)} ${className}`.trim()}
+    >
+      {title && (<Title className={styles.title}>{title}</Title>)}
       {filters && (
         <Filters current={current} filters={filters} isOnChild={isOnChild} />
       )}

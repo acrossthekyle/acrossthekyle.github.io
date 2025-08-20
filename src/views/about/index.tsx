@@ -1,12 +1,14 @@
 import Link from 'next/link';
 
 import Section from '@/ui/section';
+import Title from '@/ui/title';
 
 import styles from './stylesheet';
 
 export default function View() {
   return (
     <Section className={styles.group} isFull>
+      <Title className={styles.title}>About</Title>
       <h2 className={styles.heading}>
         <span className={styles.index}>01</span>
       </h2>

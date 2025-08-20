@@ -20,8 +20,6 @@ export type Date = {
   year: string[];
 };
 
-export type Route = [number, number];
-
 export type StatFull = {
   label: string;
   value: {
@@ -66,11 +64,8 @@ export type Stage = {
   images: StageImages;
   index: number;
   location: string | null;
-  slug: string;
   stats: {
     distance: StatFull | null;
-    gain: StatFull | null;
-    loss: StatFull | null;
     max: StatFull | null;
     time: StatShort | null;
   };
@@ -79,26 +74,14 @@ export type Stage = {
 };
 
 export type Trip = {
-  categories: string[];
   date: Date;
-  description: string[];
-  id: string;
-  images: {
-    hero: string;
-  };
   index: number;
   label: string;
-  location: string;
   slug: string;
   stages: Stage[];
   stats: {
-    altitude: StatFull | null;
-    days: StatShort;
-    distance: StatFull | null;
     length: StatShort;
   };
-  tagline: string;
-  termini: Termini;
   timestamp: string;
   title: string[];
   type: string;

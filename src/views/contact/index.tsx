@@ -3,6 +3,7 @@ import Directory from '@/ui/directory';
 export default function View() {
   return (
     <Directory
+      className="h-full"
       items={[
         {
           isApp: true,
@@ -29,6 +30,7 @@ export default function View() {
           text: ['GitHub'],
         },
       ]}
+      title="Contact"
     />
   );
 }

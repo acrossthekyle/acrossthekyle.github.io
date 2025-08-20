@@ -36,14 +36,19 @@ const styles = tw({
     return tw(`
       ${common}
 
-      h-full
-
       ml:left-62
       ml:py-12
       ml:pl-14
       sl:left-80
     `);
   },
+  title: `
+    absolute top-6 left-6
+    opacity-0
+    animate-in
+
+    md:hidden
+  `,
   list: `
     group/list
   `,

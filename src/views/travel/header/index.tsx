@@ -1,6 +1,7 @@
 import { Slash } from 'lucide-react';
 
 import type { Date } from '@/types';
+import Title from '@/ui/title';
 import { getStaticType, getTripDate } from '@/utils';
 
 import styles from './stylesheet';
@@ -11,9 +12,9 @@ type Props = {
   type: string;
 };
 
-export default function Title({ date, title, type }: Props) {
+export default function Header({ date, title, type }: Props) {
   return (
-    <h1 className={styles.title}>
+    <Title>
       <span className={styles.meta}>
         {getStaticType(type)}
         <Slash className={styles.slash} />
@@ -29,6 +30,6 @@ export default function Title({ date, title, type }: Props) {
           )}
         </span>
       ))}
-    </h1>
+    </Title>
   );
 }

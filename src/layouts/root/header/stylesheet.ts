@@ -1,39 +1,50 @@
 import tw from '@/styles';
 
 const styles = tw({
-  header: (isOnRoot: boolean, isOnParent: boolean, isOnChild: boolean) => tw(`
-    top-0 left-0 bottom-0 z-1
-    flex flex-col items-start justify-end
-    p-6 pb-0 pt-4
+  header: (isOnRoot: boolean, isOnParent: boolean) => {
+    const common = `
+      top-0 left-0 bottom-0 z-1
+      flex flex-col items-start justify-end
+      p-6 pb-0 pt-4
 
-    md:z-3
+      md:z-3
+    `;
 
-    ${isOnRoot && `
-      h-full
-    `}
+    if (isOnRoot) {
+      return tw(`
+        ${common}
 
-    ${isOnParent && `
+        h-full
+
+        ml:pl-20
+        ml:py-12
+      `);
+    }
+
+    if (isOnParent) {
+      return tw(`
+        ${common}
+
+        relative
+
+        md:absolute
+        ml:pl-20
+        ml:py-12
+      `);
+    }
+
+    return tw(`
+      ${common}
+
       relative
-
-      md:absolute
-    `}
-
-    ${(isOnRoot || isOnParent) && `
-      ml:pl-20
-      ml:py-12
-    `}
-
-    ${isOnChild && `
-      relative
-
-      ml:absolute
 
       md:px-6
       md:py-6
+      ml:absolute
       sl:pl-20
       sl:py-12
-    `}
-  `),
+    `);
+  },
   breadcrumbs: (isOnRoot: boolean, isOnParent: boolean) => {
     const common = `
       flex items-center gap-1
@@ -79,10 +90,8 @@ const styles = tw({
 
     if (isOnParent) {
       return tw(`
-        flex flex-col
-
         hidden
-
+        flex flex-col
         pb-6
 
         ml:pb-0
@@ -105,7 +114,6 @@ const styles = tw({
   link: (
     isOnRoot: boolean,
     isOnParent: boolean,
-    isOnChild: boolean,
     isActive: boolean,
   ) => {
     const root = `

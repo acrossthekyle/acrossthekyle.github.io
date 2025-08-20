@@ -8,15 +8,13 @@ import styles from './stylesheet';
 export default function Header() {
   const {
     breadcrumbs,
-    current,
-    isOnChild,
     isOnParent,
     isOnRoot,
     routes,
   } = useModel();
 
   return (
-    <header className={styles.header(isOnRoot, isOnParent, isOnChild)}>
+    <header className={styles.header(isOnRoot, isOnParent)}>
       <div className={styles.breadcrumbs(isOnRoot, isOnParent)}>
         {breadcrumbs.map((breadcrumb) => (
           <Link
@@ -41,10 +39,9 @@ export default function Header() {
                 className={styles.link(
                   isOnRoot,
                   isOnParent,
-                  isOnChild,
-                  current.includes(route.base),
+                  route.isActive,
                 )}
-                href={isOnRoot || current !== route.path ? route.path : '/'}
+                href={route.path}
               >
                 {route.text}
                 <span className={styles.index}>

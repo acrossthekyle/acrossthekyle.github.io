@@ -284,52 +284,52 @@ async function getStages(folder) {
 
       let stats = {
         distance: null,
-        gain: null,
-        loss: null,
+        // gain: null,
+        // loss: null,
         max: null,
         time: null,
       };
 
-      if (data.gain) {
-        stats.gain = {
-          label: 'gain',
-          value: {
-            imperial: formatNumber(data.gain),
-            metric: formatNumber(data.gain/3.281),
-          },
-          units: {
-            imperial: {
-              full: 'feet',
-              abbreviated: 'ft',
-            },
-            metric: {
-              full: 'meters',
-              abbreviated: 'm',
-            },
-          },
-        };
-      }
+      // if (data.gain) {
+      //   stats.gain = {
+      //     label: 'gain',
+      //     value: {
+      //       imperial: formatNumber(data.gain),
+      //       metric: formatNumber(data.gain/3.281),
+      //     },
+      //     units: {
+      //       imperial: {
+      //         full: 'feet',
+      //         abbreviated: 'ft',
+      //       },
+      //       metric: {
+      //         full: 'meters',
+      //         abbreviated: 'm',
+      //       },
+      //     },
+      //   };
+      // }
 
-      if (data.loss) {
-        stats.loss = {
-          label: 'loss',
-          value: formatNumber(data.loss),
-          value: {
-            imperial: formatNumber(data.loss),
-            metric: formatNumber(data.loss/3.281),
-          },
-          units: {
-            imperial: {
-              full: 'feet',
-              abbreviated: 'ft',
-            },
-            metric: {
-              full: 'meters',
-              abbreviated: 'm',
-            },
-          },
-        };
-      }
+      // if (data.loss) {
+      //   stats.loss = {
+      //     label: 'loss',
+      //     value: formatNumber(data.loss),
+      //     value: {
+      //       imperial: formatNumber(data.loss),
+      //       metric: formatNumber(data.loss/3.281),
+      //     },
+      //     units: {
+      //       imperial: {
+      //         full: 'feet',
+      //         abbreviated: 'ft',
+      //       },
+      //       metric: {
+      //         full: 'meters',
+      //         abbreviated: 'm',
+      //       },
+      //     },
+      //   };
+      // }
 
       if (data.miles) {
         stats.distance = {
@@ -409,7 +409,7 @@ async function getStages(folder) {
         // next: null,
         // previous: null,
         route,
-        slug: _.kebabCase(data.title),
+        // slug: _.kebabCase(data.title),
         stats,
         termini: {
           end: turnStringIntoArrayForLists(end),
@@ -474,17 +474,17 @@ function calculateDistance(stages) {
 }
 
 async function getTripStats(trip, stages) {
-  const altitude = calculateAltitude(stages);
-  const distance = calculateDistance(stages);
+  // const altitude = calculateAltitude(stages);
+  // const distance = calculateDistance(stages);
 
   let stats = {
-    altitude: null,
-    distance: null,
-    days: {
-      label: 'days',
-      value: trip.days,
-      units: null,
-    },
+    // altitude: null,
+    // distance: null,
+    // days: {
+    //   label: 'days',
+    //   value: trip.days,
+    //   units: null,
+    // },
     length: {
       label: 'length',
       value: stages.length,
@@ -492,46 +492,46 @@ async function getTripStats(trip, stages) {
     },
   };
 
-  if (altitude !== null) {
-    stats.altitude = {
-      label: 'altitude',
-      value: formatNumber(altitude),
-      value: {
-        imperial: formatNumber(altitude),
-        metric: formatNumber(altitude/3.281),
-      },
-      units: {
-        imperial: {
-          full: 'feet',
-          abbreviated: 'ft',
-        },
-        metric: {
-          full: 'meters',
-          abbreviated: 'm',
-        },
-      },
-    };
-  }
+  // if (altitude !== null) {
+  //   stats.altitude = {
+  //     label: 'altitude',
+  //     value: formatNumber(altitude),
+  //     value: {
+  //       imperial: formatNumber(altitude),
+  //       metric: formatNumber(altitude/3.281),
+  //     },
+  //     units: {
+  //       imperial: {
+  //         full: 'feet',
+  //         abbreviated: 'ft',
+  //       },
+  //       metric: {
+  //         full: 'meters',
+  //         abbreviated: 'm',
+  //       },
+  //     },
+  //   };
+  // }
 
-  if (distance !== null) {
-    stats.distance = {
-      label: 'distance',
-      value: {
-        imperial: formatNumber(distance),
-        metric: formatNumber(distance * 1.609),
-      },
-      units: {
-        imperial: {
-          full: 'miles',
-          abbreviated: 'mi',
-        },
-        metric: {
-          full: 'kilometers',
-          abbreviated: 'km',
-        },
-      },
-    };
-  }
+  // if (distance !== null) {
+  //   stats.distance = {
+  //     label: 'distance',
+  //     value: {
+  //       imperial: formatNumber(distance),
+  //       metric: formatNumber(distance * 1.609),
+  //     },
+  //     units: {
+  //       imperial: {
+  //         full: 'miles',
+  //         abbreviated: 'mi',
+  //       },
+  //       metric: {
+  //         full: 'kilometers',
+  //         abbreviated: 'km',
+  //       },
+  //     },
+  //   };
+  // }
 
   return stats;
 }
@@ -656,28 +656,28 @@ async function go() {
       const stages = await getStages(folder);
       const stats = await getTripStats(trip, stages);
       const date = await getTripDate(trip, stages);
-      const termini = await getTripTermini(trip, stages);
+      // const termini = await getTripTermini(trip, stages);
 
       const slug = _.kebabCase(`${trip.title} ${trip.categories.includes('repeat') ? '-repeat' : ''}`.trim());
 
       data.push({
-        categories: trip.categories,
+        // categories: trip.categories,
         // cities: trip.cities,
         // coordinates: trip.marker,
         date,
-        description: trip.description,
+        // description: trip.description,
         // gear,
         // hasGear: gear !== null,
         // hasRoutes,
-        id: generateId(),
-        images: {
-          hero: trip.image,
-          // small: trip.previews.small,
-          // large: trip.previews.large,
-        },
+        // id: generateId(),
+        // images: {
+        //   hero: trip.image,
+        //   small: trip.previews.small,
+        //   large: trip.previews.large,
+        // },
         index: null,
         label: getLabel(trip.type),
-        location: trip.location,
+        // location: trip.location,
         // next: null,
         // previous: null,
         // routes: hasRoutes ? stages.map(stage => stage.route) : null,
@@ -687,8 +687,8 @@ async function go() {
           ...rest,
         })),
         stats,
-        tagline: trip.tagline,
-        termini,
+        // tagline: trip.tagline,
+        // termini,
         timestamp: trip.timestamp,
         title: turnStringIntoArrayForLists(trip.title),
         // total: folders.length,

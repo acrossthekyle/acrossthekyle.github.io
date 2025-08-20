@@ -3,9 +3,9 @@
 import Section from '@/ui/section';
 
 import Figure from './figure';
+import Header from './header';
 import { useModel } from './model';
 import styles from './stylesheet';
-import Title from './title';
 
 type Props = {
   slug: string;
@@ -20,7 +20,7 @@ export default function View({ slug }: Props) {
 
   return (
     <Section>
-      <Title date={trip.date} title={trip.title} type={trip.type} />
+      <Header date={trip.date} title={trip.title} type={trip.type} />
       <ul className={styles.stages}>
         {[...trip.stages].splice(0, shown).map((stage) => (
           <li

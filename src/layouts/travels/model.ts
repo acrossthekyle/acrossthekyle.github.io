@@ -1,26 +1,19 @@
 'use client';
 
-import { groupBy } from 'lodash';
 import { useEffect, useState } from 'react';
-import { useSearchParams } from 'next/navigation';
+import { usePathname, useSearchParams } from 'next/navigation';
 
 import { useTrips } from '@/hooks/useTrips';
 import type { Filter, Trip } from '@/types';
-import { getStaticType } from '@/utils';
+
+import { filterBy, getFilters } from './utils';
 
 type Model = {
   filters: Filter[];
   isLoading: boolean;
+  isOnTravels: boolean;
   trips: Trip[];
 };
-
-function filterBy(trips: Trip[], filter: string | null) {
-  if (!filter) {
-    return trips;
-  }
-
-  return trips.filter((trip) => trip.type === filter.toLowerCase());
-}
 
 export function useModel(): Model {
   const [filters, setFilters] = useState<Filter[]>([]);
@@ -28,6 +21,8 @@ export function useModel(): Model {
   const { fetch, isLoading, trips } = useTrips();
 
   const searchParams = useSearchParams();
+
+  const pathname = usePathname();
 
   const filter = searchParams.get('filter');
 
@@ -38,25 +33,14 @@ export function useModel(): Model {
 
   useEffect(() => {
     if (trips) {
-      const types = trips.map((trip) => trip.type);
-      const groups = groupBy(types);
-      const result: Filter[] = [];
-
-      for (const item in groups) {
-        result.push({
-          count: groups[item].length,
-          filter: item,
-          name: `${getStaticType(item)}${groups[item].length > 1 ? 's' : ''}`,
-        });
-      }
-
-      setFilters(result);
+      setFilters(getFilters(trips));
     }
   }, [trips]);
 
   return {
     filters,
     isLoading,
+    isOnTravels: pathname === '/travels',
     trips: filterBy(trips, filter),
   };
 }

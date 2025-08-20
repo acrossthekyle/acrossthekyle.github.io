@@ -1,6 +1,9 @@
 import tw from '@/styles';
 
 const styles = tw({
+  title: `
+    md:hidden
+  `,
   group: `
     flex flex-col gap-3
   `,

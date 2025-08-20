@@ -1,9 +1,5 @@
 const data = [
   {
-    "categories": [
-      "europe",
-      "repeat"
-    ],
     "date": {
       "dates": {
         "start": {
@@ -35,17 +31,8 @@ const data = [
         "2024"
       ]
     },
-    "description": [
-      "A circumnavigation of the highest peak in Western Europe",
-      "With breathtaking views of glaciers, towering granite peaks, lush valleys, and alpine meadows."
-    ],
-    "id": "ZamDMlByl5p6ayw",
-    "images": {
-      "hero": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg"
-    },
     "index": 0,
     "label": "day",
-    "location": "the French Italian and Swiss Alps",
     "slug": "tour-du-mont-blanc-repeat",
     "stages": [
       {
@@ -62,14 +49,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "kfFKsBUmKCmrBSD",
+        "id": "RvqDwD9vurgOaa8",
         "images": {
           "hero": "2024/07/27/ac7799bd-b2a8-4f77-8a8d-6d42a8740390.jpeg",
           "supplementary": []
         },
         "index": 0,
         "location": null,
-        "slug": "les-houches-to-auberge-le-truc",
         "stats": {
           "distance": {
             "label": "distance",
@@ -85,40 +71,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "4,781",
-              "metric": "1,457"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,440",
-              "metric": "744"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -175,14 +127,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "emQqIVy5Hkszz4K",
+        "id": "q1HenNl0jBPSD1C",
         "images": {
           "hero": "2024/07/27/10146a42-b18d-4318-bc5b-c32279532e4d.jpeg",
           "supplementary": []
         },
         "index": 1,
         "location": null,
-        "slug": "auberge-le-truc-to-refuge-de-la-croix-du-bonhomme",
         "stats": {
           "distance": {
             "label": "distance",
@@ -198,40 +149,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "4,455",
-              "metric": "1,358"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,015",
-              "metric": "614"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -292,14 +209,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "JHRiLYtvhH3od34",
+        "id": "Os9Jeh3eXrctpFd",
         "images": {
           "hero": "2024/07/27/be9a961c-fc7d-43dc-b466-29a359d1cd12.jpeg",
           "supplementary": []
         },
         "index": 2,
         "location": null,
-        "slug": "refuge-de-la-croix-du-bonhomme-to-refuge-robert-blanc",
         "stats": {
           "distance": {
             "label": "distance",
@@ -315,40 +231,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "3,988",
-              "metric": "1,215"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "3,046",
-              "metric": "928"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -411,14 +293,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "7Qwq6U4RX879kF0",
+        "id": "O52E9dStNQu1fcP",
         "images": {
           "hero": "2024/07/27/a45073e7-ef67-4e31-a5e7-3ba9b4b97b4e.jpeg",
           "supplementary": []
         },
         "index": 3,
         "location": null,
-        "slug": "refuge-robert-blanc-to-maison-veille",
         "stats": {
           "distance": {
             "label": "distance",
@@ -434,40 +315,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "3,919",
-              "metric": "1,194"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "6,461",
-              "metric": "1,969"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -528,14 +375,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "MdzwRK9Zd62qGJz",
+        "id": "Ph9kw7TLUwgC0cY",
         "images": {
           "hero": "2024/07/27/f1310350-3cb1-4f1b-b591-e08d0971f23b.jpeg",
           "supplementary": []
         },
         "index": 4,
         "location": null,
-        "slug": "maison-veille-to-rifugio-bonatti",
         "stats": {
           "distance": {
             "label": "distance",
@@ -551,40 +397,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "3,587",
-              "metric": "1,093"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "3,446",
-              "metric": "1,050"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -643,14 +455,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "iVWhSe8gZgJVTUj",
+        "id": "3y6WrlVUSrB1qTA",
         "images": {
           "hero": "2024/07/27/b70777d8-b89d-4d60-b422-2d2af80483e4.jpeg",
           "supplementary": []
         },
         "index": 5,
         "location": null,
-        "slug": "rifugio-bonatti-to-hotel-edelweiss",
         "stats": {
           "distance": {
             "label": "distance",
@@ -666,40 +477,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "3,141",
-              "metric": "957"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "4,471",
-              "metric": "1,363"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -758,14 +535,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "rNdDIEUZUzAirMX",
+        "id": "TtBalGsFnKabN4D",
         "images": {
           "hero": "2024/07/27/22400157-4853-4974-856b-86b1bc986ef9.jpeg",
           "supplementary": []
         },
         "index": 6,
         "location": null,
-        "slug": "hotel-edelweiss-to-gite-bon-abri",
         "stats": {
           "distance": {
             "label": "distance",
@@ -781,40 +557,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "1,988",
-              "metric": "606"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,364",
-              "metric": "721"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -873,14 +615,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "IJleejyRYAKNBY8",
+        "id": "cKYNlD05BBjQYWY",
         "images": {
           "hero": "2024/07/27/99d87d66-9534-4aca-9489-eb2fbbdc152b.jpeg",
           "supplementary": []
         },
         "index": 7,
         "location": null,
-        "slug": "gite-bon-abri-to-hotel-forclaz",
         "stats": {
           "distance": {
             "label": "distance",
@@ -896,40 +637,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,669",
-              "metric": "813"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,405",
-              "metric": "733"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -988,14 +695,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "xUYogIjwB4Fr18U",
+        "id": "6GRUx1iBJeDOV0A",
         "images": {
           "hero": "2024/07/27/91e2be29-62d0-4be0-a00a-9ebd9d9dc395.jpeg",
           "supplementary": []
         },
         "index": 8,
         "location": null,
-        "slug": "hotel-forclaz-to-auberge-la-boerne",
         "stats": {
           "distance": {
             "label": "distance",
@@ -1011,40 +717,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "3,672",
-              "metric": "1,119"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "4,054",
-              "metric": "1,236"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -1103,14 +775,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "26OE9y6ndDm7Pvc",
+        "id": "h18svXUrqgwhLvK",
         "images": {
           "hero": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg",
           "supplementary": []
         },
         "index": 9,
         "location": null,
-        "slug": "auberge-la-boerne-to-refuge-de-lo-flegere",
         "stats": {
           "distance": {
             "label": "distance",
@@ -1126,40 +797,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "3,388",
-              "metric": "1,033"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "1,812",
-              "metric": "552"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -1218,14 +855,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "ApVRtYiYnWbn7eS",
+        "id": "VPyMt8PZhaA87x0",
         "images": {
           "hero": "2024/07/27/480c5394-dfa7-4760-8f62-5a39cb66cb98.jpeg",
           "supplementary": []
         },
         "index": 10,
         "location": null,
-        "slug": "refuge-de-lo-flegere-to-les-houches",
         "stats": {
           "distance": {
             "label": "distance",
@@ -1241,40 +877,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,899",
-              "metric": "884"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "5,759",
-              "metric": "1,755"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -1320,60 +922,11 @@ const data = [
       }
     ],
     "stats": {
-      "altitude": {
-        "label": "altitude",
-        "value": {
-          "imperial": "8,960",
-          "metric": "2,731"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
-        }
-      },
-      "distance": {
-        "label": "distance",
-        "value": {
-          "imperial": "117",
-          "metric": "188"
-        },
-        "units": {
-          "imperial": {
-            "full": "miles",
-            "abbreviated": "mi"
-          },
-          "metric": {
-            "full": "kilometers",
-            "abbreviated": "km"
-          }
-        }
-      },
-      "days": {
-        "label": "days",
-        "value": "11",
-        "units": null
-      },
       "length": {
         "label": "length",
         "value": 11,
         "units": null
       }
-    },
-    "tagline": "Returning to an old friend",
-    "termini": {
-      "end": [
-        "Les Houches"
-      ],
-      "isSame": true,
-      "start": [
-        "Les Houches"
-      ]
     },
     "timestamp": "1753228805",
     "title": [
@@ -1383,10 +936,6 @@ const data = [
     "type": "thru-hiking"
   },
   {
-    "categories": [
-      "europe",
-      "france"
-    ],
     "date": {
       "dates": {
         "start": {
@@ -1418,17 +967,8 @@ const data = [
         "2023"
       ]
     },
-    "description": [
-      "A renowned thru-hike, regarded as the most challenging in Europe",
-      "Traversing the mountainous spine of Corsica while camping at mountain huts along the trail."
-    ],
-    "id": "bKxyfrTqgH10fKm",
-    "images": {
-      "hero": "2023/06/21/0ff34736-949f-4981-b339-06b6d304ba51.jpeg"
-    },
     "index": 1,
     "label": "day",
-    "location": "Corsica",
     "slug": "gr-20",
     "stages": [
       {
@@ -1445,14 +985,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "YRsh7OVUI2k5yyt",
+        "id": "AEsYVwRQ5iRh3z3",
         "images": {
           "hero": "2023/06/21/f1d1c83f-941d-4351-aa5e-08d698b78775.jpeg",
           "supplementary": []
         },
         "index": 0,
         "location": null,
-        "slug": "calenzana-to-d-ortu-di-u-piobbu",
         "stats": {
           "distance": {
             "label": "distance",
@@ -1468,40 +1007,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "4,849",
-              "metric": "1,478"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "815",
-              "metric": "248"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -1558,14 +1063,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "FH6HBpxzJwbYtNQ",
+        "id": "IDLTjTiUsMn5swy",
         "images": {
           "hero": "2023/06/21/e2d0721f-2c3f-4367-8f7b-1176c94b3e2c.jpeg",
           "supplementary": []
         },
         "index": 1,
         "location": null,
-        "slug": "d-ortu-di-u-piobbu-to-carozzu",
         "stats": {
           "distance": {
             "label": "distance",
@@ -1581,40 +1085,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,882",
-              "metric": "878"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "3,780",
-              "metric": "1,152"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -1671,14 +1141,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "hQhCd9WyrTjEsUx",
+        "id": "wmJgt5AtygcMYs6",
         "images": {
           "hero": "2023/06/21/4b13a3d8-a55c-4bed-b887-ad3490ab964f.jpeg",
           "supplementary": []
         },
         "index": 2,
         "location": null,
-        "slug": "carozzu-to-ascu-stagnu",
         "stats": {
           "distance": {
             "label": "distance",
@@ -1694,40 +1163,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,939",
-              "metric": "896"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,419",
-              "metric": "737"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -1782,14 +1217,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "DFORZFaWEH9vnyT",
+        "id": "vLHXGUAVy6FFPfy",
         "images": {
           "hero": "2023/06/21/8f85de22-b937-4ea5-9dfa-e45eb357e7b8.jpeg",
           "supplementary": []
         },
         "index": 3,
         "location": null,
-        "slug": "ascu-stagnu-to-u-vallone",
         "stats": {
           "distance": {
             "label": "distance",
@@ -1805,40 +1239,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "4,105",
-              "metric": "1,251"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "4,064",
-              "metric": "1,239"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -1894,14 +1294,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "ghRpMfxyU7HXwVJ",
+        "id": "hu0IB9pcbKfqao3",
         "images": {
           "hero": "2023/06/21/f0dc6ac2-b0e5-4e2a-b874-0d40f47c454b.jpeg",
           "supplementary": []
         },
         "index": 4,
         "location": null,
-        "slug": "u-vallone-to-castel-di-vergio",
         "stats": {
           "distance": {
             "label": "distance",
@@ -1917,40 +1316,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "3,071",
-              "metric": "936"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "3,098",
-              "metric": "944"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -2007,14 +1372,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "LXrASCDnVEhbB6V",
+        "id": "Jw66ork4XnwLFlf",
         "images": {
           "hero": "2023/06/21/95b4adaa-bbbe-4de3-b9f8-96365390f142.jpeg",
           "supplementary": []
         },
         "index": 5,
         "location": null,
-        "slug": "castel-di-vergio-to-manganu",
         "stats": {
           "distance": {
             "label": "distance",
@@ -2030,40 +1394,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,202",
-              "metric": "671"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "1,547",
-              "metric": "472"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -2120,14 +1450,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "hAw9T8VwyvJj566",
+        "id": "qHpUybBlOv0zqEQ",
         "images": {
           "hero": "2023/06/21/05769f04-5b00-4fd5-a233-55c00c9871c5.jpeg",
           "supplementary": []
         },
         "index": 6,
         "location": null,
-        "slug": "manganu-to-petra-piana",
         "stats": {
           "distance": {
             "label": "distance",
@@ -2143,40 +1472,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "3,031",
-              "metric": "924"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,147",
-              "metric": "654"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -2231,14 +1526,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "mKCQr2zgX3cek1C",
+        "id": "7dlXrnQGEWJmo8j",
         "images": {
           "hero": "2023/06/21/4e7bda74-809e-48a9-a904-5645bf2e7dde.jpeg",
           "supplementary": []
         },
         "index": 7,
         "location": null,
-        "slug": "petra-piana-to-l-onda",
         "stats": {
           "distance": {
             "label": "distance",
@@ -2254,40 +1548,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "1,537",
-              "metric": "468"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "3,022",
-              "metric": "921"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -2342,14 +1602,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "44fj4v2azOFNxLJ",
+        "id": "iFex7pa2Cqs3NWc",
         "images": {
           "hero": "2023/06/21/2cc8532b-6441-49fb-927e-ebdb001b78cf.jpeg",
           "supplementary": []
         },
         "index": 8,
         "location": null,
-        "slug": "l-onda-to-vizzavona",
         "stats": {
           "distance": {
             "label": "distance",
@@ -2365,40 +1624,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,471",
-              "metric": "753"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "4,008",
-              "metric": "1,222"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -2453,14 +1678,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "4mxAd57s9jcQNcA",
+        "id": "ZyUehoj7HumaDLy",
         "images": {
           "hero": "2023/06/21/54334c14-8bae-4478-97f7-179f79cd2ca6.jpeg",
           "supplementary": []
         },
         "index": 9,
         "location": null,
-        "slug": "vizzavona-to-bocca-di-verdi",
         "stats": {
           "distance": {
             "label": "distance",
@@ -2476,40 +1700,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "4,857",
-              "metric": "1,480"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "3,690",
-              "metric": "1,125"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -2566,14 +1756,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "vhxGiEXzicxMJOR",
+        "id": "nv8w25cVfC6xBGh",
         "images": {
           "hero": "2023/06/21/73a5df9e-fefd-43d0-ad5a-7f71dcb003cc.jpeg",
           "supplementary": []
         },
         "index": 10,
         "location": null,
-        "slug": "bocca-di-verdi-to-d-usciolu",
         "stats": {
           "distance": {
             "label": "distance",
@@ -2589,40 +1778,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "4,969",
-              "metric": "1,514"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "3,545",
-              "metric": "1,080"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -2679,14 +1834,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "hOgm4NmMb4yBH1S",
+        "id": "NjwvHwmUPXmM16q",
         "images": {
           "hero": "2023/06/21/d36a683f-4d95-4b0c-987d-d190336c49ee.jpeg",
           "supplementary": []
         },
         "index": 11,
         "location": null,
-        "slug": "d-usciolu-to-d-asinau",
         "stats": {
           "distance": {
             "label": "distance",
@@ -2702,40 +1856,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "3,809",
-              "metric": "1,161"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "4,453",
-              "metric": "1,357"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -2790,14 +1910,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "IBOauhLoxHaaH9a",
+        "id": "D0jPktMLN6TJNym",
         "images": {
           "hero": "2023/06/21/f0cd0897-3fc9-47a2-808e-e1627dfb45bc.jpeg",
           "supplementary": []
         },
         "index": 12,
         "location": null,
-        "slug": "d-asinau-to-conca",
         "stats": {
           "distance": {
             "label": "distance",
@@ -2813,40 +1932,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "3,753",
-              "metric": "1,144"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "7,961",
-              "metric": "2,426"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -2889,60 +1974,11 @@ const data = [
       }
     ],
     "stats": {
-      "altitude": {
-        "label": "altitude",
-        "value": {
-          "imperial": "8,550",
-          "metric": "2,606"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
-        }
-      },
-      "distance": {
-        "label": "distance",
-        "value": {
-          "imperial": "131",
-          "metric": "211"
-        },
-        "units": {
-          "imperial": {
-            "full": "miles",
-            "abbreviated": "mi"
-          },
-          "metric": {
-            "full": "kilometers",
-            "abbreviated": "km"
-          }
-        }
-      },
-      "days": {
-        "label": "days",
-        "value": "13",
-        "units": null
-      },
       "length": {
         "label": "length",
         "value": 13,
         "units": null
       }
-    },
-    "tagline": "A challenging island trail in the Mediterranean",
-    "termini": {
-      "end": [
-        "Conca"
-      ],
-      "isSame": false,
-      "start": [
-        "Calenzana"
-      ]
     },
     "timestamp": "1687332000",
     "title": [
@@ -2951,9 +1987,6 @@ const data = [
     "type": "thru-hiking"
   },
   {
-    "categories": [
-      "africa"
-    ],
     "date": {
       "dates": {
         "start": {
@@ -2985,17 +2018,8 @@ const data = [
         "2022"
       ]
     },
-    "description": [
-      "An ancient land full of bustling cities and streets",
-      "From pyramids, tombs, and temples, to soaring overhead in a hot air balloon ride."
-    ],
-    "id": "fUhSNbZyDXjBx5Q",
-    "images": {
-      "hero": "2022/12/28/88613c33-7796-47be-afc6-d31f51a80600.jpeg"
-    },
     "index": 2,
     "label": "destination",
-    "location": "Egypt",
     "slug": "cairo-luxor",
     "stages": [
       {
@@ -3012,7 +2036,7 @@ const data = [
           }
         },
         "hasStats": false,
-        "id": "D7SitDSd10Y6f1o",
+        "id": "6Uv6nZpERk6vqFJ",
         "images": {
           "hero": "2022/12/28/c0f9c079-8942-4390-bb9e-dae4e0a65034.jpeg",
           "supplementary": [
@@ -3022,11 +2046,8 @@ const data = [
         },
         "index": 0,
         "location": "Giza",
-        "slug": "giza-plateau",
         "stats": {
           "distance": null,
-          "gain": null,
-          "loss": null,
           "max": null,
           "time": null
         },
@@ -3060,7 +2081,7 @@ const data = [
           }
         },
         "hasStats": false,
-        "id": "qDkpmhlhIcCxmwJ",
+        "id": "iJsIJ8nZGYn9bVF",
         "images": {
           "hero": "2022/12/28/d9a7b01b-5915-493c-8c25-5a8ebd77ac58.jpeg",
           "supplementary": [
@@ -3070,11 +2091,8 @@ const data = [
         },
         "index": 1,
         "location": "Saqqarah & Dahshur",
-        "slug": "bent-and-step-pyramids",
         "stats": {
           "distance": null,
-          "gain": null,
-          "loss": null,
           "max": null,
           "time": null
         },
@@ -3111,18 +2129,15 @@ const data = [
           }
         },
         "hasStats": false,
-        "id": "OsIVCsA4ByyTiuM",
+        "id": "dUkX0Egip6AAEZ9",
         "images": {
           "hero": "2022/12/28/f24edc7b-3854-40c5-a2e7-33e2e2e27bde.jpeg",
           "supplementary": []
         },
         "index": 2,
         "location": "Cairo",
-        "slug": "museums-in-cairo",
         "stats": {
           "distance": null,
-          "gain": null,
-          "loss": null,
           "max": null,
           "time": null
         },
@@ -3156,18 +2171,15 @@ const data = [
           }
         },
         "hasStats": false,
-        "id": "fXuw8LWyFPIGaLy",
+        "id": "CdPa9gNyyUIFCvP",
         "images": {
           "hero": "2022/12/28/5e393275-ee80-475d-83cf-26192cd55738.jpeg",
           "supplementary": []
         },
         "index": 3,
         "location": "West Bank of Luxor",
-        "slug": "colossi-of-memnon",
         "stats": {
           "distance": null,
-          "gain": null,
-          "loss": null,
           "max": null,
           "time": null
         },
@@ -3201,7 +2213,7 @@ const data = [
           }
         },
         "hasStats": false,
-        "id": "h2ZHQQPmp9nBE8J",
+        "id": "rhBH3t5L4r1PrsS",
         "images": {
           "hero": "2022/12/28/5f93fbaf-0c30-4f70-959d-a5e4384eff83.jpeg",
           "supplementary": [
@@ -3211,11 +2223,8 @@ const data = [
         },
         "index": 4,
         "location": "West Bank of Luxor",
-        "slug": "valley-of-the-kings",
         "stats": {
           "distance": null,
-          "gain": null,
-          "loss": null,
           "max": null,
           "time": null
         },
@@ -3249,7 +2258,7 @@ const data = [
           }
         },
         "hasStats": false,
-        "id": "Hl7EloQF1CB8sfd",
+        "id": "gHe8W3ztpnVhZPx",
         "images": {
           "hero": "2022/12/28/9fb7c062-5816-4154-b8cd-525a81f82be0.jpeg",
           "supplementary": [
@@ -3259,11 +2268,8 @@ const data = [
         },
         "index": 5,
         "location": "West Bank of Luxor",
-        "slug": "valley-of-the-queens",
         "stats": {
           "distance": null,
-          "gain": null,
-          "loss": null,
           "max": null,
           "time": null
         },
@@ -3297,7 +2303,7 @@ const data = [
           }
         },
         "hasStats": false,
-        "id": "tnEyYaxYXiE1bII",
+        "id": "r90ro5FQeELi3t5",
         "images": {
           "hero": "2022/12/28/44f2c787-1209-4e11-a2fe-64030e0c472c.jpeg",
           "supplementary": [
@@ -3307,11 +2313,8 @@ const data = [
         },
         "index": 6,
         "location": "West Bank of Luxor",
-        "slug": "medinet-habu-temple",
         "stats": {
           "distance": null,
-          "gain": null,
-          "loss": null,
           "max": null,
           "time": null
         },
@@ -3345,7 +2348,7 @@ const data = [
           }
         },
         "hasStats": false,
-        "id": "KbPJAO36ZrzPWNz",
+        "id": "ehHOHQpYA5IbITg",
         "images": {
           "hero": "2022/12/28/b7e2eeb1-90d3-49cb-bdb8-41acf2162f78.jpeg",
           "supplementary": [
@@ -3355,11 +2358,8 @@ const data = [
         },
         "index": 7,
         "location": "West Bank of Luxor",
-        "slug": "hatshepsuts-mortuary-temple",
         "stats": {
           "distance": null,
-          "gain": null,
-          "loss": null,
           "max": null,
           "time": null
         },
@@ -3396,7 +2396,7 @@ const data = [
           }
         },
         "hasStats": false,
-        "id": "OpDszSe29FUkW68",
+        "id": "KFC2FcwUCePEqqy",
         "images": {
           "hero": "2022/12/28/b13b3a23-187a-4dc4-912d-e225b21af78a.jpeg",
           "supplementary": [
@@ -3406,11 +2406,8 @@ const data = [
         },
         "index": 8,
         "location": "West Bank of Luxor",
-        "slug": "hot-air-balloon-ride",
         "stats": {
           "distance": null,
-          "gain": null,
-          "loss": null,
           "max": null,
           "time": null
         },
@@ -3447,7 +2444,7 @@ const data = [
           }
         },
         "hasStats": false,
-        "id": "NGTwGmuEg1b6EXc",
+        "id": "eY6vcpwymovYWPe",
         "images": {
           "hero": "2022/12/28/9799718c-81f7-460d-9f0a-7ddd2dffb060.jpeg",
           "supplementary": [
@@ -3457,11 +2454,8 @@ const data = [
         },
         "index": 9,
         "location": "Luxor",
-        "slug": "luxor-temple",
         "stats": {
           "distance": null,
-          "gain": null,
-          "loss": null,
           "max": null,
           "time": null
         },
@@ -3495,7 +2489,7 @@ const data = [
           }
         },
         "hasStats": false,
-        "id": "gCvfwE1rnX458sF",
+        "id": "moXWC3fB9XFSU61",
         "images": {
           "hero": "2022/12/28/6bf7f094-4f84-42b6-8bbc-5b501a25f3e7.jpeg",
           "supplementary": [
@@ -3505,11 +2499,8 @@ const data = [
         },
         "index": 10,
         "location": "Luxor",
-        "slug": "karnak-temple-complex",
         "stats": {
           "distance": null,
-          "gain": null,
-          "loss": null,
           "max": null,
           "time": null
         },
@@ -3534,28 +2525,11 @@ const data = [
       }
     ],
     "stats": {
-      "altitude": null,
-      "distance": null,
-      "days": {
-        "label": "days",
-        "value": "8",
-        "units": null
-      },
       "length": {
         "label": "length",
         "value": 11,
         "units": null
       }
-    },
-    "tagline": "Land of ancient wonders, full of bustling cities and streets",
-    "termini": {
-      "end": [
-        "Luxor"
-      ],
-      "isSame": false,
-      "start": [
-        "Cairo"
-      ]
     },
     "timestamp": "1672304400",
     "title": [
@@ -3565,11 +2539,6 @@ const data = [
     "type": "vacationing"
   },
   {
-    "categories": [
-      "section-hike",
-      "north america",
-      "usa"
-    ],
     "date": {
       "dates": null,
       "year": [
@@ -3577,17 +2546,8 @@ const data = [
         "2025"
       ]
     },
-    "description": [
-      "A testament to the colossal power of nature's icy embrace",
-      "Walking the kettles and moraines left behind by the glaciers, several millenia ago."
-    ],
-    "id": "SisgL6ZOg6uzBk0",
-    "images": {
-      "hero": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg"
-    },
     "index": 3,
     "label": "section",
-    "location": "Wisconsin",
     "slug": "ice-age-trail",
     "stages": [
       {
@@ -3604,14 +2564,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "la88l6nisWU9GhL",
+        "id": "fotJEzf81t7W9Vr",
         "images": {
           "hero": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",
           "supplementary": []
         },
         "index": 0,
         "location": null,
-        "slug": "blue-spring-and-stony-ridge-segments",
         "stats": {
           "distance": {
             "label": "distance",
@@ -3627,40 +2586,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "905",
-              "metric": "276"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "839",
-              "metric": "256"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -3723,14 +2648,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "YtRHEs38JY8wNIl",
+        "id": "LLD7hPuRDZnkvWh",
         "images": {
           "hero": "2025/05/03/e402c0b1-e827-4123-b7b5-74947b240687.jpeg",
           "supplementary": []
         },
         "index": 1,
         "location": null,
-        "slug": "parnell-segment",
         "stats": {
           "distance": {
             "label": "distance",
@@ -3746,40 +2670,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "653",
-              "metric": "199"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "562",
-              "metric": "171"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -3836,14 +2726,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "aUd0A2C3PvYEHz2",
+        "id": "86UVGZZ099DR4Ik",
         "images": {
           "hero": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
           "supplementary": []
         },
         "index": 2,
         "location": null,
-        "slug": "greenbush-segment",
         "stats": {
           "distance": {
             "label": "distance",
@@ -3859,40 +2748,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "461",
-              "metric": "141"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "643",
-              "metric": "196"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -3937,64 +2792,11 @@ const data = [
       }
     ],
     "stats": {
-      "altitude": {
-        "label": "altitude",
-        "value": {
-          "imperial": "1,314",
-          "metric": "400"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
-        }
-      },
-      "distance": {
-        "label": "distance",
-        "value": {
-          "imperial": "27",
-          "metric": "43"
-        },
-        "units": {
-          "imperial": {
-            "full": "miles",
-            "abbreviated": "mi"
-          },
-          "metric": {
-            "full": "kilometers",
-            "abbreviated": "km"
-          }
-        }
-      },
-      "days": {
-        "label": "days",
-        "value": "3",
-        "units": null
-      },
       "length": {
         "label": "length",
         "value": 3,
         "units": null
       }
-    },
-    "tagline": "A place of glacial kettles and moraines",
-    "termini": {
-      "end": [
-        "Greenbush",
-        "Segment"
-      ],
-      "isSame": false,
-      "start": [
-        "Blue Spring",
-        "and Stony",
-        "Ridge",
-        "Segments"
-      ]
     },
     "timestamp": "1657904400",
     "title": [
@@ -4004,10 +2806,6 @@ const data = [
     "type": "section-hiking"
   },
   {
-    "categories": [
-      "europe",
-      "uk"
-    ],
     "date": {
       "dates": {
         "start": {
@@ -4039,17 +2837,8 @@ const data = [
         "2022"
       ]
     },
-    "description": [
-      "An ever-changing route, from the lowlands to the highlands",
-      "Walking over dirt and gravel paths, from the south to the north, camping along the way."
-    ],
-    "id": "21d0QR3aGIScOFZ",
-    "images": {
-      "hero": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg"
-    },
     "index": 4,
     "label": "day",
-    "location": "Scotland",
     "slug": "west-highland-way",
     "stages": [
       {
@@ -4066,14 +2855,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "oIPvBr7rGEhNY31",
+        "id": "NXP31NVDFnUPNt4",
         "images": {
           "hero": "2022/05/07/75a8c027-07cd-4184-9157-d48dd5d1a32e.jpeg",
           "supplementary": []
         },
         "index": 0,
         "location": null,
-        "slug": "milngavie-to-drymen",
         "stats": {
           "distance": {
             "label": "distance",
@@ -4089,40 +2877,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "671",
-              "metric": "205"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "723",
-              "metric": "220"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -4177,14 +2931,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "24alkxLg3bkpJMg",
+        "id": "oY7Va9aC11O0vk6",
         "images": {
           "hero": "2022/05/07/e8dd9fed-56e4-45bf-aee4-d1bc44a5363c.jpeg",
           "supplementary": []
         },
         "index": 1,
         "location": null,
-        "slug": "drymen-to-sallochy",
         "stats": {
           "distance": {
             "label": "distance",
@@ -4200,40 +2953,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,121",
-              "metric": "646"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,199",
-              "metric": "670"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -4288,14 +3007,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "bPZWj4tVU7hSdGh",
+        "id": "NCBuH8C7GquO5cU",
         "images": {
           "hero": "2022/05/07/e610c340-2b8c-481c-8442-dc4543db3f2c.jpeg",
           "supplementary": []
         },
         "index": 2,
         "location": null,
-        "slug": "sallochy-to-bienglas-farm",
         "stats": {
           "distance": {
             "label": "distance",
@@ -4311,40 +3029,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,926",
-              "metric": "892"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,880",
-              "metric": "878"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -4401,14 +3085,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "XDhi61u6lZK1rDe",
+        "id": "K5wYz81KBur26MV",
         "images": {
           "hero": "2022/05/07/b7df127a-0f69-4b29-843f-e1a7c6f858bf.jpeg",
           "supplementary": []
         },
         "index": 3,
         "location": null,
-        "slug": "bienglas-farm-to-bridge-of-orchy",
         "stats": {
           "distance": {
             "label": "distance",
@@ -4424,40 +3107,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,775",
-              "metric": "846"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,298",
-              "metric": "700"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -4516,14 +3165,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "CybUF3Ca7ESy7BT",
+        "id": "YsVhaXY4Ien2HF6",
         "images": {
           "hero": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
           "supplementary": []
         },
         "index": 4,
         "location": null,
-        "slug": "bridge-of-orchy-to-kinlochleven",
         "stats": {
           "distance": {
             "label": "distance",
@@ -4539,40 +3187,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "3,335",
-              "metric": "1,016"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "3,826",
-              "metric": "1,166"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -4630,14 +3244,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "u7CAYC2mBHDFudi",
+        "id": "t5HZZnxjT1AtGhr",
         "images": {
           "hero": "2022/05/07/07741eea-d85e-42cf-a2d4-d0f87102bffc.jpeg",
           "supplementary": []
         },
         "index": 5,
         "location": null,
-        "slug": "kinlochleven-to-fort-william",
         "stats": {
           "distance": {
             "label": "distance",
@@ -4653,40 +3266,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,514",
-              "metric": "766"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,505",
-              "metric": "763"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -4731,61 +3310,11 @@ const data = [
       }
     ],
     "stats": {
-      "altitude": {
-        "label": "altitude",
-        "value": {
-          "imperial": "1,805",
-          "metric": "550"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
-        }
-      },
-      "distance": {
-        "label": "distance",
-        "value": {
-          "imperial": "97",
-          "metric": "156"
-        },
-        "units": {
-          "imperial": {
-            "full": "miles",
-            "abbreviated": "mi"
-          },
-          "metric": {
-            "full": "kilometers",
-            "abbreviated": "km"
-          }
-        }
-      },
-      "days": {
-        "label": "days",
-        "value": "6",
-        "units": null
-      },
       "length": {
         "label": "length",
         "value": 6,
         "units": null
       }
-    },
-    "tagline": "Filled with misty glens, lochs, and endless rain",
-    "termini": {
-      "end": [
-        "",
-        "Kinlochleven"
-      ],
-      "isSame": false,
-      "start": [
-        "Milngavie"
-      ]
     },
     "timestamp": "1651911600",
     "title": [
@@ -4796,10 +3325,6 @@ const data = [
     "type": "thru-hiking"
   },
   {
-    "categories": [
-      "south america",
-      "chile"
-    ],
     "date": {
       "dates": {
         "start": {
@@ -4831,17 +3356,8 @@ const data = [
         "2020"
       ]
     },
-    "description": [
-      "A tapestry of landscapes surrounding spires of granite",
-      "With towering granite peaks, sprawling glaciers, pristine lakes, and windswept plains."
-    ],
-    "id": "STLYo3TmAFnYQlT",
-    "images": {
-      "hero": "2020/02/18/5e958df4-56a2-4292-ae6d-b694f078a985.jpeg"
-    },
     "index": 5,
     "label": "day",
-    "location": "Patagonia",
     "slug": "torres-del-paine-o-circuit",
     "stages": [
       {
@@ -4858,14 +3374,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "Jcr7zi6W8qKuTIH",
+        "id": "pWNFzpJwv35N6Uo",
         "images": {
           "hero": "2020/02/18/619eec82-6980-4f31-a11f-7c5581d02989.jpeg",
           "supplementary": []
         },
         "index": 0,
         "location": null,
-        "slug": "laguna-amarga-to-seron",
         "stats": {
           "distance": {
             "label": "distance",
@@ -4881,40 +3396,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "895",
-              "metric": "273"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "779",
-              "metric": "237"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -4971,14 +3452,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "5JFEUNQJCfems2N",
+        "id": "TujfdIdRHZ3qk8T",
         "images": {
           "hero": "2020/02/18/98e3190e-5480-4eb9-8883-c8d9fbb3f485.jpeg",
           "supplementary": []
         },
         "index": 1,
         "location": null,
-        "slug": "seron-to-dickson",
         "stats": {
           "distance": {
             "label": "distance",
@@ -4994,40 +3474,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "1,036",
-              "metric": "316"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "920",
-              "metric": "280"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -5082,14 +3528,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "whQ7ynYr69ns9S5",
+        "id": "bd3QEiASAUpMFSC",
         "images": {
           "hero": "2020/02/18/f477b7bb-7f38-42ff-a855-f90668a73f28.jpeg",
           "supplementary": []
         },
         "index": 2,
         "location": null,
-        "slug": "dickson-to-perros",
         "stats": {
           "distance": {
             "label": "distance",
@@ -5105,40 +3550,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "1,429",
-              "metric": "436"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "268",
-              "metric": "82"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -5193,14 +3604,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "VRVuMQiBAhVThoQ",
+        "id": "k4yyc53OW1QXd3p",
         "images": {
           "hero": "2020/02/18/38a1b675-74c7-45b5-9e37-8020d298a0b3.jpeg",
           "supplementary": []
         },
         "index": 3,
         "location": null,
-        "slug": "perros-to-grey",
         "stats": {
           "distance": {
             "label": "distance",
@@ -5216,40 +3626,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,395",
-              "metric": "730"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "3,976",
-              "metric": "1,212"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -5304,14 +3680,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "QoZMQ7RjyNHombA",
+        "id": "fwhL1HvBrQ3cet5",
         "images": {
           "hero": "2020/02/18/dd6e739e-b793-4c64-8e7c-c6a631b467c7.jpeg",
           "supplementary": []
         },
         "index": 4,
         "location": null,
-        "slug": "grey-to-paine-grande",
         "stats": {
           "distance": {
             "label": "distance",
@@ -5327,40 +3702,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "906",
-              "metric": "276"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "1,037",
-              "metric": "316"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -5417,14 +3758,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "U4SiVhAbfkadDmz",
+        "id": "cGJ7VHl1uXjpqgh",
         "images": {
           "hero": "2020/02/18/380820b8-520a-49fa-8f01-651ca63fd84f.jpeg",
           "supplementary": []
         },
         "index": 5,
         "location": null,
-        "slug": "paine-grande-to-frances",
         "stats": {
           "distance": {
             "label": "distance",
@@ -5440,40 +3780,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,621",
-              "metric": "799"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,201",
-              "metric": "671"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -5530,14 +3836,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "9FJ1d2G44UyaVz1",
+        "id": "a2JFQhBif39jf9s",
         "images": {
           "hero": "2020/02/18/790032e0-6483-4631-9cbe-d912510a1a48.jpeg",
           "supplementary": []
         },
         "index": 6,
         "location": null,
-        "slug": "frances-to-chileno",
         "stats": {
           "distance": {
             "label": "distance",
@@ -5553,40 +3858,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,064",
-              "metric": "629"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "1,225",
-              "metric": "373"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -5641,14 +3912,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "MUuyKps4gXOn1JH",
+        "id": "v2diXxcz1mPZjwU",
         "images": {
           "hero": "2020/02/18/630411a8-f5ce-47fe-8261-f94e00654447.jpeg",
           "supplementary": []
         },
         "index": 7,
         "location": null,
-        "slug": "chileno-to-laguna-amarga",
         "stats": {
           "distance": {
             "label": "distance",
@@ -5664,40 +3934,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "1,852",
-              "metric": "564"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,782",
-              "metric": "848"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -5742,62 +3978,11 @@ const data = [
       }
     ],
     "stats": {
-      "altitude": {
-        "label": "altitude",
-        "value": {
-          "imperial": "3,874",
-          "metric": "1,181"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
-        }
-      },
-      "distance": {
-        "label": "distance",
-        "value": {
-          "imperial": "73",
-          "metric": "117"
-        },
-        "units": {
-          "imperial": {
-            "full": "miles",
-            "abbreviated": "mi"
-          },
-          "metric": {
-            "full": "kilometers",
-            "abbreviated": "km"
-          }
-        }
-      },
-      "days": {
-        "label": "days",
-        "value": "8",
-        "units": null
-      },
       "length": {
         "label": "length",
         "value": 8,
         "units": null
       }
-    },
-    "tagline": "At the end of the world",
-    "termini": {
-      "end": [
-        "Laguna",
-        "Amarga"
-      ],
-      "isSame": true,
-      "start": [
-        "Laguna",
-        "Amarga"
-      ]
     },
     "timestamp": "1582041600",
     "title": [
@@ -5808,10 +3993,6 @@ const data = [
     "type": "thru-hiking"
   },
   {
-    "categories": [
-      "asia",
-      "nepal"
-    ],
     "date": {
       "dates": {
         "start": {
@@ -5843,17 +4024,8 @@ const data = [
         "2019"
       ]
     },
-    "description": [
-      "A journey through the heart of the Himalayas",
-      "Encircling the Annapurna massif, from subtropical forests to the high-altitude desert of the Tibetan plateau."
-    ],
-    "id": "2H6QaIb85Sbk2zJ",
-    "images": {
-      "hero": "2019/10/19/b9b20eb0-e569-4778-99c6-de3a3c2eb15e.jpeg"
-    },
     "index": 6,
     "label": "day",
-    "location": "the Himalayas",
     "slug": "annapurna-circuit-basecamp",
     "stages": [
       {
@@ -5870,14 +4042,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "f5uivpimA79PXyL",
+        "id": "8btMepmTusEakQ0",
         "images": {
           "hero": "2019/10/19/672dcde8-57ae-4bf9-885f-ae039d3a824d.jpeg",
           "supplementary": []
         },
         "index": 0,
         "location": null,
-        "slug": "besishar-to-bhulbhule",
         "stats": {
           "distance": {
             "label": "distance",
@@ -5893,40 +4064,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "1,679",
-              "metric": "512"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "1,493",
-              "metric": "455"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -5981,14 +4118,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "dParVysk6RE7htS",
+        "id": "nq00B51srn4Bh6U",
         "images": {
           "hero": "2019/10/19/cde86c7c-f794-4a99-8286-9af3de9425fc.jpeg",
           "supplementary": []
         },
         "index": 1,
         "location": null,
-        "slug": "bhulbhule-to-jagat",
         "stats": {
           "distance": {
             "label": "distance",
@@ -6004,40 +4140,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "3,437",
-              "metric": "1,048"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,079",
-              "metric": "634"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -6092,14 +4194,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "Nqci780pSwhP2kw",
+        "id": "YOoJYbgSy7yoOyA",
         "images": {
           "hero": "2019/10/19/69d8dc52-42d4-4295-9b25-1f7542c1da8b.jpeg",
           "supplementary": []
         },
         "index": 2,
         "location": null,
-        "slug": "jagat-to-dharapani",
         "stats": {
           "distance": {
             "label": "distance",
@@ -6115,40 +4216,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "3,825",
-              "metric": "1,166"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "1,721",
-              "metric": "525"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -6203,14 +4270,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "oY1IYLfJksemq5Q",
+        "id": "1o27kK9RYxH4u8e",
         "images": {
           "hero": "2019/10/19/de48b8b7-ef5d-4c21-93a8-d6e4d7628e7f.jpeg",
           "supplementary": []
         },
         "index": 3,
         "location": null,
-        "slug": "dharapani-to-chame",
         "stats": {
           "distance": {
             "label": "distance",
@@ -6226,40 +4292,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "4,315",
-              "metric": "1,315"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "1,716",
-              "metric": "523"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -6314,14 +4346,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "m0NSBR5fBK3G9t5",
+        "id": "yP8kgXJIkxOfypC",
         "images": {
           "hero": "2019/10/19/91fcb255-9894-434c-9c39-41ea5070e819.jpeg",
           "supplementary": []
         },
         "index": 4,
         "location": null,
-        "slug": "chame-to-upper-pisang",
         "stats": {
           "distance": {
             "label": "distance",
@@ -6337,40 +4368,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,732",
-              "metric": "833"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "749",
-              "metric": "228"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -6427,14 +4424,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "0G9LGMTYnK34dr4",
+        "id": "5Sn6Zlpuw6ko1v2",
         "images": {
           "hero": "2019/10/19/b9b20eb0-e569-4778-99c6-de3a3c2eb15e.jpeg",
           "supplementary": []
         },
         "index": 5,
         "location": null,
-        "slug": "upper-pisang-to-manang",
         "stats": {
           "distance": {
             "label": "distance",
@@ -6450,40 +4446,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,848",
-              "metric": "868"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,006",
-              "metric": "611"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -6540,14 +4502,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "2OEvEGFM2dw23hR",
+        "id": "YAObCdFwMV2rFcw",
         "images": {
           "hero": "2019/10/19/ed197052-01d7-4739-807c-39340385c0fc.jpeg",
           "supplementary": []
         },
         "index": 6,
         "location": null,
-        "slug": "manang-to-tilicho-lake-basecamp",
         "stats": {
           "distance": {
             "label": "distance",
@@ -6563,40 +4524,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "3,090",
-              "metric": "942"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "1,126",
-              "metric": "343"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -6655,14 +4582,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "DThTXmTerWNBjBw",
+        "id": "YaQcBnGsF2CjQL1",
         "images": {
           "hero": "2019/10/19/d7837a44-81d2-4fa0-9912-bb15508be721.jpeg",
           "supplementary": []
         },
         "index": 7,
         "location": null,
-        "slug": "tilicho-lake-basecamp-to-shree-kharka",
         "stats": {
           "distance": {
             "label": "distance",
@@ -6678,40 +4604,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "3,619",
-              "metric": "1,103"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "3,884",
-              "metric": "1,184"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -6772,14 +4664,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "hXj6AycsTQZl195",
+        "id": "eJAAm5koIwnXVjN",
         "images": {
           "hero": "2019/10/19/40b7a029-2f0c-4807-94fa-86a07ee9ffa9.jpeg",
           "supplementary": []
         },
         "index": 8,
         "location": null,
-        "slug": "shree-kharka-to-phedi",
         "stats": {
           "distance": {
             "label": "distance",
@@ -6795,40 +4686,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "3,169",
-              "metric": "966"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "1,615",
-              "metric": "492"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -6885,14 +4742,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "eGN3MvgjdSzh7NC",
+        "id": "iu1o6rFzCENH38o",
         "images": {
           "hero": "2019/10/19/f76cbaab-0139-44b4-bc5c-6c816731d927.jpeg",
           "supplementary": []
         },
         "index": 9,
         "location": null,
-        "slug": "phedi-to-muktinath",
         "stats": {
           "distance": {
             "label": "distance",
@@ -6908,40 +4764,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,889",
-              "metric": "881"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "5,724",
-              "metric": "1,745"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -6996,14 +4818,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "GKoqwL3rrxUZNAZ",
+        "id": "1BWoAv62oU2HoUy",
         "images": {
           "hero": "2019/10/19/93b7286f-a87a-4d8e-8d85-6a3f50dcd82c.jpeg",
           "supplementary": []
         },
         "index": 10,
         "location": null,
-        "slug": "muktinath-to-marpha",
         "stats": {
           "distance": {
             "label": "distance",
@@ -7019,40 +4840,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "1,292",
-              "metric": "394"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "4,480",
-              "metric": "1,365"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -7107,14 +4894,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "8xExbaZwosKLnmL",
+        "id": "WLrXx7HQvLKiQaZ",
         "images": {
           "hero": "2019/10/19/9f9bca6e-e30a-4ca0-b005-5a0bda57f649.jpeg",
           "supplementary": []
         },
         "index": 11,
         "location": null,
-        "slug": "marpha-to-ghasa",
         "stats": {
           "distance": {
             "label": "distance",
@@ -7130,40 +4916,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,053",
-              "metric": "626"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "4,262",
-              "metric": "1,299"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -7218,14 +4970,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "0u6PC5hiqN3Lnti",
+        "id": "t03D5Yn8AQrdEkl",
         "images": {
           "hero": "2019/10/19/5cf22091-8d99-4cdd-870c-f91db81c1049.jpeg",
           "supplementary": []
         },
         "index": 12,
         "location": null,
-        "slug": "ghasa-to-ghorepani",
         "stats": {
           "distance": {
             "label": "distance",
@@ -7241,40 +4992,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "6,431",
-              "metric": "1,960"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "3,596",
-              "metric": "1,096"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -7329,14 +5046,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "P69Slt7COBXGFGW",
+        "id": "VrwCw8D0D8Q8Shr",
         "images": {
           "hero": "2019/10/19/b2ef8848-2e35-43dd-9f06-98434903f810.jpeg",
           "supplementary": []
         },
         "index": 13,
         "location": null,
-        "slug": "ghorepani-to-chomrong",
         "stats": {
           "distance": {
             "label": "distance",
@@ -7352,40 +5068,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "3,186",
-              "metric": "971"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "5,359",
-              "metric": "1,633"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -7440,14 +5122,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "lmALAoLmd7tq6Wi",
+        "id": "u7bjialoXZvpXcD",
         "images": {
           "hero": "2019/10/19/a052d193-0be9-4288-b017-65d459c3eca1.jpeg",
           "supplementary": []
         },
         "index": 14,
         "location": null,
-        "slug": "chomrong-to-deurali",
         "stats": {
           "distance": {
             "label": "distance",
@@ -7463,40 +5144,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "5,001",
-              "metric": "1,524"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "1,019",
-              "metric": "311"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -7551,14 +5198,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "PwksSZUT7VY3Hw1",
+        "id": "aXG2otJ73mFA41V",
         "images": {
           "hero": "2019/10/19/3773c3c4-265f-4e7e-8f0a-d6e1a7d9b85c.jpeg",
           "supplementary": []
         },
         "index": 15,
         "location": null,
-        "slug": "deurali-to-annapurna-basecamp",
         "stats": {
           "distance": {
             "label": "distance",
@@ -7574,40 +5220,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "3,163",
-              "metric": "964"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "95",
-              "metric": "29"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -7664,14 +5276,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "1USAWWBo3kT6R1a",
+        "id": "s2hjTWNloqTrCEI",
         "images": {
           "hero": "2019/10/19/490d1db6-aaad-4ed3-9181-081ca318cd16.jpeg",
           "supplementary": []
         },
         "index": 16,
         "location": null,
-        "slug": "annapurna-basecamp-to-chomrong",
         "stats": {
           "distance": {
             "label": "distance",
@@ -7687,40 +5298,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "1,263",
-              "metric": "385"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "8,110",
-              "metric": "2,472"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -7777,14 +5354,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "PIpxTji98f1Rxsl",
+        "id": "UJJGfOotlrmXyOf",
         "images": {
           "hero": "2019/10/19/8fef1e6f-d483-445c-b19c-d47bb7f1fc68.jpeg",
           "supplementary": []
         },
         "index": 17,
         "location": null,
-        "slug": "chomrong-to-jhinudanda",
         "stats": {
           "distance": {
             "label": "distance",
@@ -7800,40 +5376,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "275",
-              "metric": "84"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,056",
-              "metric": "627"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -7876,60 +5418,11 @@ const data = [
       }
     ],
     "stats": {
-      "altitude": {
-        "label": "altitude",
-        "value": {
-          "imperial": "17,751",
-          "metric": "5,410"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
-        }
-      },
-      "distance": {
-        "label": "distance",
-        "value": {
-          "imperial": "193",
-          "metric": "311"
-        },
-        "units": {
-          "imperial": {
-            "full": "miles",
-            "abbreviated": "mi"
-          },
-          "metric": {
-            "full": "kilometers",
-            "abbreviated": "km"
-          }
-        }
-      },
-      "days": {
-        "label": "days",
-        "value": "18",
-        "units": null
-      },
       "length": {
         "label": "length",
         "value": 18,
         "units": null
       }
-    },
-    "tagline": "Surrounded by giants",
-    "termini": {
-      "end": [
-        "Jhinudanda"
-      ],
-      "isSame": false,
-      "start": [
-        "Besishar"
-      ]
     },
     "timestamp": "1571465700",
     "title": [
@@ -7940,10 +5433,6 @@ const data = [
     "type": "thru-hiking"
   },
   {
-    "categories": [
-      "north america",
-      "usa"
-    ],
     "date": {
       "dates": null,
       "year": [
@@ -7951,17 +5440,8 @@ const data = [
         "2022"
       ]
     },
-    "description": [
-      "An awe-inspiring experience offering unparalleled rewards",
-      "Reaching the summit is a moment of profound triumph, a feeling of being on top of the world."
-    ],
-    "id": "TMKaxIVruj76gM4",
-    "images": {
-      "hero": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg"
-    },
     "index": 7,
     "label": "summit",
-    "location": "the Colorado Rocky Mountains",
     "slug": "southern-rockies-14-ers",
     "stages": [
       {
@@ -7978,14 +5458,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "L9iQX0f3ktROUs5",
+        "id": "4nI8oxx8n8yNL2t",
         "images": {
           "hero": "2019/08/31/52f1514b-91a4-494d-93df-6ae9c81df01c.jpeg",
           "supplementary": []
         },
         "index": 0,
         "location": null,
-        "slug": "mount-elbert",
         "stats": {
           "distance": {
             "label": "distance",
@@ -8001,40 +5480,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "4,411",
-              "metric": "1,344"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "44",
-              "metric": "13"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -8091,14 +5536,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "CgAXTJS7LjxrjmZ",
+        "id": "QoHxV2O1F0dOAbi",
         "images": {
           "hero": "2019/09/01/08d28c7e-387b-418f-8226-b2a87485f1d8.jpeg",
           "supplementary": []
         },
         "index": 1,
         "location": null,
-        "slug": "quandary-peak",
         "stats": {
           "distance": {
             "label": "distance",
@@ -8114,40 +5558,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "3,330",
-              "metric": "1,015"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "0",
-              "metric": "0"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -8204,14 +5614,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "XSELj2BaS5tP3xq",
+        "id": "4oQvvMO2Yr8SsHC",
         "images": {
           "hero": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
           "supplementary": []
         },
         "index": 2,
         "location": null,
-        "slug": "la-plata-peak",
         "stats": {
           "distance": {
             "label": "distance",
@@ -8227,40 +5636,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "4,310",
-              "metric": "1,314"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "148",
-              "metric": "45"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -8317,14 +5692,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "GlhuUWIqhdeW9Dh",
+        "id": "aNgER491rN5MmB4",
         "images": {
           "hero": "2020/09/05/54a89ed8-86d4-4918-b7b3-b883ecea72c8.jpeg",
           "supplementary": []
         },
         "index": 3,
         "location": null,
-        "slug": "mount-bierstadt",
         "stats": {
           "distance": {
             "label": "distance",
@@ -8340,40 +5714,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,553",
-              "metric": "778"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "136",
-              "metric": "41"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -8430,14 +5770,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "fRRmvAzBpyQZ2DE",
+        "id": "NJPG57LFM6Svw9i",
         "images": {
           "hero": "2020/09/06/80307849-8964-4e0d-a70f-f6371ca7fcad.jpeg",
           "supplementary": []
         },
         "index": 4,
         "location": null,
-        "slug": "grays-peak",
         "stats": {
           "distance": {
             "label": "distance",
@@ -8453,40 +5792,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "3,012",
-              "metric": "918"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "0",
-              "metric": "0"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -8540,14 +5845,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "B5PTikr1P6ZQCYY",
+        "id": "VXfIUdULIKWRKNh",
         "images": {
           "hero": "2021/09/07/fbe767d5-63c6-4af7-8643-ceef9b4cce92.jpeg",
           "supplementary": []
         },
         "index": 5,
         "location": null,
-        "slug": "mount-shavano",
         "stats": {
           "distance": {
             "label": "distance",
@@ -8563,40 +5867,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "4,405",
-              "metric": "1,343"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2",
-              "metric": "1"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -8653,14 +5923,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "tovz7r1FNpbH4l5",
+        "id": "TIIbIbKiREOeCMO",
         "images": {
           "hero": "2021/09/09/8e1e0c1f-c391-4bc0-807c-7bdd8d20815b.jpeg",
           "supplementary": []
         },
         "index": 6,
         "location": null,
-        "slug": "mount-de-ca-li",
         "stats": {
           "distance": {
             "label": "distance",
@@ -8676,40 +5945,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "3,134",
-              "metric": "955"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "1,741",
-              "metric": "531"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -8766,14 +6001,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "JFmEb877TOXpbP0",
+        "id": "S8FlSDVli5FLZoY",
         "images": {
           "hero": "2022/09/09/f722df6c-2869-4ff0-80f7-37014241e135.jpeg",
           "supplementary": []
         },
         "index": 7,
         "location": null,
-        "slug": "mount-belford",
         "stats": {
           "distance": {
             "label": "distance",
@@ -8789,40 +6023,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "4,474",
-              "metric": "1,364"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "0",
-              "metric": "0"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -8879,14 +6079,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "DlY593FMqEDJzNH",
+        "id": "GNKMwzBBJyotgIV",
         "images": {
           "hero": "2022/09/11/b74f68ae-d627-4a89-9122-fbc75562e59d.jpeg",
           "supplementary": []
         },
         "index": 8,
         "location": null,
-        "slug": "mount-massive",
         "stats": {
           "distance": {
             "label": "distance",
@@ -8902,40 +6101,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "4,419",
-              "metric": "1,347"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "123",
-              "metric": "37"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -8980,61 +6145,11 @@ const data = [
       }
     ],
     "stats": {
-      "altitude": {
-        "label": "altitude",
-        "value": {
-          "imperial": "14,422",
-          "metric": "4,396"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
-        }
-      },
-      "distance": {
-        "label": "distance",
-        "value": {
-          "imperial": "42",
-          "metric": "68"
-        },
-        "units": {
-          "imperial": {
-            "full": "miles",
-            "abbreviated": "mi"
-          },
-          "metric": {
-            "full": "kilometers",
-            "abbreviated": "km"
-          }
-        }
-      },
-      "days": {
-        "label": "days",
-        "units": null
-      },
       "length": {
         "label": "length",
         "value": 9,
         "units": null
       }
-    },
-    "tagline": "58 Summits above 14,000 feet",
-    "termini": {
-      "end": [
-        "Mount",
-        "Massive"
-      ],
-      "isSame": false,
-      "start": [
-        "Mount",
-        "Elbert"
-      ]
     },
     "timestamp": "1567195200",
     "title": [
@@ -9045,10 +6160,6 @@ const data = [
     "type": "peak-bagging"
   },
   {
-    "categories": [
-      "europe",
-      "italy"
-    ],
     "date": {
       "dates": {
         "start": {
@@ -9080,17 +6191,8 @@ const data = [
         "2019"
       ]
     },
-    "description": [
-      "A journey through a landscape sculpted by nature",
-      "Traversing through a panorama of jagged, saw-edged ridges, vertical walls, and majestic towers."
-    ],
-    "id": "8EUUdFQ49aya5Tf",
-    "images": {
-      "hero": "2019/07/16/c4d424d9-7826-422d-9e0f-1b7e8b20af99.jpeg"
-    },
     "index": 8,
     "label": "day",
-    "location": "the Dolomites",
     "slug": "alta-via-1",
     "stages": [
       {
@@ -9107,14 +6209,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "WrAYGnYixwxwH06",
+        "id": "ALixFyYUTviaAkD",
         "images": {
           "hero": "2019/07/16/eba70b28-4c7d-45f3-aa93-46b24011cb80.jpeg",
           "supplementary": []
         },
         "index": 0,
         "location": null,
-        "slug": "braies-to-biella",
         "stats": {
           "distance": {
             "label": "distance",
@@ -9130,40 +6231,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "4,304",
-              "metric": "1,312"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "1,564",
-              "metric": "477"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -9218,14 +6285,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "hUNSEzFtUF2Yfly",
+        "id": "DK1kMa6xh44D3s8",
         "images": {
           "hero": "2019/07/16/69890344-e575-484e-86ae-5ddeb000c4f9.jpeg",
           "supplementary": []
         },
         "index": 1,
         "location": null,
-        "slug": "biella-to-lavarella",
         "stats": {
           "distance": {
             "label": "distance",
@@ -9241,40 +6307,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,022",
-              "metric": "616"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,951",
-              "metric": "899"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -9329,14 +6361,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "TUr0tdtnJw5XJUx",
+        "id": "5VQOTlarocrbL9i",
         "images": {
           "hero": "2019/07/16/081c1b83-7036-4c3c-aa2f-0534f4250ab8.jpeg",
           "supplementary": []
         },
         "index": 2,
         "location": null,
-        "slug": "lavarella-to-scotoni",
         "stats": {
           "distance": {
             "label": "distance",
@@ -9352,40 +6383,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "1,856",
-              "metric": "566"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,014",
-              "metric": "614"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -9440,14 +6437,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "1bQqsZObLM23WSe",
+        "id": "W0Od9NbaZugq9d8",
         "images": {
           "hero": "2019/07/16/eb243b48-8084-4c7e-94c0-5a163983d407.jpeg",
           "supplementary": []
         },
         "index": 3,
         "location": null,
-        "slug": "scotoni-to-averau",
         "stats": {
           "distance": {
             "label": "distance",
@@ -9463,40 +6459,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "4,694",
-              "metric": "1,431"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "3,336",
-              "metric": "1,017"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -9551,14 +6513,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "eBJUJUFMOyJ9gcd",
+        "id": "eJp20W7YcnTrq1V",
         "images": {
           "hero": "2019/07/16/a3f65b8c-4b57-4194-a3a1-5769f1d63373.jpeg",
           "supplementary": []
         },
         "index": 4,
         "location": null,
-        "slug": "averau-to-citta-de-fume",
         "stats": {
           "distance": {
             "label": "distance",
@@ -9574,40 +6535,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "1,599",
-              "metric": "487"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "3,205",
-              "metric": "977"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -9664,14 +6591,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "4So72HmMJhOauJS",
+        "id": "5S8Selc5E9NCChN",
         "images": {
           "hero": "2019/07/16/b1128805-54bb-4b7b-adcb-f2b6ae3fada6.jpeg",
           "supplementary": []
         },
         "index": 5,
         "location": null,
-        "slug": "citta-de-fume-to-tissi",
         "stats": {
           "distance": {
             "label": "distance",
@@ -9687,40 +6613,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "3,124",
-              "metric": "952"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,031",
-              "metric": "619"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -9777,14 +6669,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "TMoojCoI38deqxC",
+        "id": "Jd3plFNIrkBD0ha",
         "images": {
           "hero": "2019/07/16/a46e829f-147b-40d1-b7ae-2f743923feca.jpeg",
           "supplementary": []
         },
         "index": 6,
         "location": null,
-        "slug": "tissi-to-carestiato",
         "stats": {
           "distance": {
             "label": "distance",
@@ -9800,40 +6691,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,532",
-              "metric": "772"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "3,969",
-              "metric": "1,210"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -9888,14 +6745,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "RliRkSCMKqXa8hH",
+        "id": "cNWKC70NR3uMYOJ",
         "images": {
           "hero": "2019/07/16/21806386-052d-4a82-941e-6728771acd63.jpeg",
           "supplementary": []
         },
         "index": 7,
         "location": null,
-        "slug": "carestiato-to-pramperet",
         "stats": {
           "distance": {
             "label": "distance",
@@ -9911,40 +6767,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,020",
-              "metric": "616"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "1,955",
-              "metric": "596"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -10000,14 +6822,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "4rjQWUgKKiV4KPG",
+        "id": "qoZ0LuetIpFQe9t",
         "images": {
           "hero": "2019/07/16/2982a2fe-75f6-473a-8d98-2c664c5cd38e.jpeg",
           "supplementary": []
         },
         "index": 8,
         "location": null,
-        "slug": "pramperet-to-pian-de-fontana",
         "stats": {
           "distance": {
             "label": "distance",
@@ -10023,40 +6844,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "1,768",
-              "metric": "539"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,470",
-              "metric": "753"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -10113,14 +6900,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "abvW6SLKdlqY88E",
+        "id": "RUBWLgkxYBA1IS2",
         "images": {
           "hero": "2019/07/16/735a0783-62ba-4f8e-97d8-c9b9f5327cfe.jpeg",
           "supplementary": []
         },
         "index": 9,
         "location": null,
-        "slug": "pian-de-fontana-to-la-pissa",
         "stats": {
           "distance": {
             "label": "distance",
@@ -10136,40 +6922,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "1,190",
-              "metric": "363"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "5,095",
-              "metric": "1,553"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -10214,60 +6966,11 @@ const data = [
       }
     ],
     "stats": {
-      "altitude": {
-        "label": "altitude",
-        "value": {
-          "imperial": "9,129",
-          "metric": "2,782"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
-        }
-      },
-      "distance": {
-        "label": "distance",
-        "value": {
-          "imperial": "65",
-          "metric": "105"
-        },
-        "units": {
-          "imperial": {
-            "full": "miles",
-            "abbreviated": "mi"
-          },
-          "metric": {
-            "full": "kilometers",
-            "abbreviated": "km"
-          }
-        }
-      },
-      "days": {
-        "label": "days",
-        "value": "10",
-        "units": null
-      },
       "length": {
         "label": "length",
         "value": 10,
         "units": null
       }
-    },
-    "tagline": "A panorama of jagged ridges, vertical walls, and majestic towers",
-    "termini": {
-      "end": [
-        "La Pissa"
-      ],
-      "isSame": false,
-      "start": [
-        "Braies"
-      ]
     },
     "timestamp": "1563261600",
     "title": [
@@ -10276,9 +6979,6 @@ const data = [
     "type": "thru-hiking"
   },
   {
-    "categories": [
-      "europe"
-    ],
     "date": {
       "dates": {
         "start": {
@@ -10310,17 +7010,8 @@ const data = [
         "2018"
       ]
     },
-    "description": [
-      "A classic trek that circles the Mont Blanc mountain",
-      "Crossing borders between France, Italy, and Switzerland, offering a unique blend of cultures, and stunning scenery."
-    ],
-    "id": "bUgeUQ2nu9MByQx",
-    "images": {
-      "hero": "2018/09/02/ec37f4a8-6310-4bf6-b1a7-cddb1f91bf3b.jpeg"
-    },
     "index": 9,
     "label": "day",
-    "location": "the French Italian and Swiss Alps",
     "slug": "tour-du-mont-blanc",
     "stages": [
       {
@@ -10337,14 +7028,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "wVYGuHOyMgwS9hO",
+        "id": "hAW1ci2blOc9QVb",
         "images": {
           "hero": "2018/09/02/135eea74-e1bc-4cab-bfd7-28d17405a744.jpeg",
           "supplementary": []
         },
         "index": 0,
         "location": null,
-        "slug": "les-houches-to-auberge-le-truc",
         "stats": {
           "distance": {
             "label": "distance",
@@ -10360,40 +7050,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "4,669",
-              "metric": "1,423"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,333",
-              "metric": "711"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -10450,14 +7106,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "Upkz0jrSMBx59sM",
+        "id": "x1whS2QfUs93Etn",
         "images": {
           "hero": "2018/09/02/56d3cc07-47c1-40c8-b7ee-483aa01d777c.jpeg",
           "supplementary": []
         },
         "index": 1,
         "location": null,
-        "slug": "auberge-le-truc-to-refuge-de-la-croix-du-bonhomme",
         "stats": {
           "distance": {
             "label": "distance",
@@ -10473,40 +7128,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "4,395",
-              "metric": "1,340"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,027",
-              "metric": "618"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -10567,14 +7188,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "3SlgRsa6PbzIcqT",
+        "id": "6pRzCpkUymiYz64",
         "images": {
           "hero": "2018/09/02/0420d236-d12a-40e8-8d6c-90558e26d304.jpeg",
           "supplementary": []
         },
         "index": 2,
         "location": null,
-        "slug": "refuge-de-la-croix-du-bonhomme-to-refuge-robert-blanc",
         "stats": {
           "distance": {
             "label": "distance",
@@ -10590,40 +7210,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "3,916",
-              "metric": "1,194"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,900",
-              "metric": "884"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -10686,14 +7272,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "AmpXASqIKWAz8Xv",
+        "id": "GK04QvtjTArfbYa",
         "images": {
           "hero": "2018/09/02/488a5815-e763-406d-94e1-5e51ff25cafe.jpeg",
           "supplementary": []
         },
         "index": 3,
         "location": null,
-        "slug": "refuge-robert-blanc-to-maison-veille",
         "stats": {
           "distance": {
             "label": "distance",
@@ -10709,40 +7294,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,303",
-              "metric": "702"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "4,922",
-              "metric": "1,500"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -10803,14 +7354,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "MXBT4YgKQXX7xHu",
+        "id": "v9xYmOehsqLOYUm",
         "images": {
           "hero": "2018/09/02/9cefaedf-2e6b-439a-9512-f1f37d2374eb.jpeg",
           "supplementary": []
         },
         "index": 4,
         "location": null,
-        "slug": "maison-veille-to-rifugio-bonatti",
         "stats": {
           "distance": {
             "label": "distance",
@@ -10826,40 +7376,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "3,523",
-              "metric": "1,074"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "3,308",
-              "metric": "1,008"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -10918,14 +7434,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "3QEm9Cg5BAkcmq1",
+        "id": "ngEI0sQlr0NtOJR",
         "images": {
           "hero": "2018/09/02/891cd8a7-97d2-4251-ac34-6c816c0ec570.jpeg",
           "supplementary": []
         },
         "index": 5,
         "location": null,
-        "slug": "rifugio-bonatti-to-l-auberge-maya-joie",
         "stats": {
           "distance": {
             "label": "distance",
@@ -10941,40 +7456,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,907",
-              "metric": "886"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "4,225",
-              "metric": "1,288"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -11033,14 +7514,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "fIO6kW97XKMSn4C",
+        "id": "Z4qTzVnTYPyQ7Lb",
         "images": {
           "hero": "2018/09/02/8d209b3b-8d40-49b3-b754-fd91466c9708.jpeg",
           "supplementary": []
         },
         "index": 6,
         "location": null,
-        "slug": "l-auberge-maya-joie-to-gite-bon-abri",
         "stats": {
           "distance": {
             "label": "distance",
@@ -11056,40 +7536,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "1,707",
-              "metric": "520"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,226",
-              "metric": "678"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -11148,14 +7594,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "4V34AJpNgBSP7Zc",
+        "id": "GYH3KaPghuEQHYe",
         "images": {
           "hero": "2018/09/02/21248df2-d0b9-41d2-9662-b6215c24c298.jpeg",
           "supplementary": []
         },
         "index": 7,
         "location": null,
-        "slug": "gite-bon-abri-to-refuge-le-peuty",
         "stats": {
           "distance": {
             "label": "distance",
@@ -11171,40 +7616,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "4,044",
-              "metric": "1,233"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "4,415",
-              "metric": "1,346"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -11263,14 +7674,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "4XypWuEmIdnoYHx",
+        "id": "X3gh5FBgDLOKRwi",
         "images": {
           "hero": "2018/09/02/ec37f4a8-6310-4bf6-b1a7-cddb1f91bf3b.jpeg",
           "supplementary": []
         },
         "index": 8,
         "location": null,
-        "slug": "refuge-le-peuty-to-auberge-la-boerne",
         "stats": {
           "distance": {
             "label": "distance",
@@ -11286,40 +7696,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "3,723",
-              "metric": "1,135"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "3,316",
-              "metric": "1,011"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -11378,14 +7754,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "FkDnMvVhk4sni2A",
+        "id": "qn5QfU33t5BHpU4",
         "images": {
           "hero": "2018/09/02/0ea4750a-307a-44be-a466-bb081d137d3c.jpeg",
           "supplementary": []
         },
         "index": 9,
         "location": null,
-        "slug": "auberge-la-boerne-to-refuge-de-lo-flegere",
         "stats": {
           "distance": {
             "label": "distance",
@@ -11401,40 +7776,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "3,136",
-              "metric": "956"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "1,636",
-              "metric": "499"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -11493,14 +7834,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "4pMLnMI0NatdVdS",
+        "id": "oRFos99CEBNJZrQ",
         "images": {
           "hero": "2018/09/02/3faeb9f8-d262-4c12-869f-4470b0dc0574.jpeg",
           "supplementary": []
         },
         "index": 10,
         "location": null,
-        "slug": "refuge-de-lo-flegere-to-refuge-de-bellechat",
         "stats": {
           "distance": {
             "label": "distance",
@@ -11516,40 +7856,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,412",
-              "metric": "735"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "1,568",
-              "metric": "478"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -11609,14 +7915,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "ytrC47bih00Krb7",
+        "id": "4ZnvakqYCMJ2vi6",
         "images": {
           "hero": "2018/09/02/8a0d6d12-a40d-47ba-9d09-6b8d5572bb32.jpeg",
           "supplementary": []
         },
         "index": 11,
         "location": null,
-        "slug": "refuge-de-bellechat-to-les-houches",
         "stats": {
           "distance": {
             "label": "distance",
@@ -11632,40 +7937,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "142",
-              "metric": "43"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "3,825",
-              "metric": "1,166"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -11711,60 +7982,11 @@ const data = [
       }
     ],
     "stats": {
-      "altitude": {
-        "label": "altitude",
-        "value": {
-          "imperial": "8,998",
-          "metric": "2,742"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
-        }
-      },
-      "distance": {
-        "label": "distance",
-        "value": {
-          "imperial": "106",
-          "metric": "171"
-        },
-        "units": {
-          "imperial": {
-            "full": "miles",
-            "abbreviated": "mi"
-          },
-          "metric": {
-            "full": "kilometers",
-            "abbreviated": "km"
-          }
-        }
-      },
-      "days": {
-        "label": "days",
-        "value": "12",
-        "units": null
-      },
       "length": {
         "label": "length",
         "value": 12,
         "units": null
       }
-    },
-    "tagline": "A challenging experience with diverse landscapes and alpine charm",
-    "termini": {
-      "end": [
-        "Les Houches"
-      ],
-      "isSame": true,
-      "start": [
-        "Les Houches"
-      ]
     },
     "timestamp": "1535872800",
     "title": [
@@ -11774,10 +7996,6 @@ const data = [
     "type": "thru-hiking"
   },
   {
-    "categories": [
-      "europe",
-      "spain"
-    ],
     "date": {
       "dates": {
         "start": {
@@ -11809,17 +8027,8 @@ const data = [
         "2018"
       ]
     },
-    "description": [
-      "A series of ancient routes that unfold across Europe",
-      "Walking over hills and mountains, pushing through deserts, and swimming in rivers, all leading towards the city of Santiago de Compostela and the Atlantic ocean."
-    ],
-    "id": "N5MJBfo2S8bE8YF",
-    "images": {
-      "hero": "2018/06/02/1921986b-9cf8-4bf8-b531-3bfe2f098f93.jpeg"
-    },
     "index": 10,
     "label": "day",
-    "location": "the autonomous regions of Navarra, La Rioja, Castile and León, and Galicia",
     "slug": "camino-de-santiago",
     "stages": [
       {
@@ -11836,14 +8045,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "kw3I5pCfSWiklhQ",
+        "id": "VGrX5SAsIzTTr8O",
         "images": {
           "hero": "2018/06/02/36c8ce31-ccce-4133-9528-338124462edf.jpeg",
           "supplementary": []
         },
         "index": 0,
         "location": null,
-        "slug": "saint-jean-pied-de-port-to-roncesvalles",
         "stats": {
           "distance": {
             "label": "distance",
@@ -11859,40 +8067,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "4,525",
-              "metric": "1,379"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,005",
-              "metric": "611"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -11952,14 +8126,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "prNQJ29Czw2LluN",
+        "id": "muRJ06LCeQGS0KP",
         "images": {
           "hero": "2018/06/02/259d7373-6f3d-4274-8ff8-440cb2724702.jpeg",
           "supplementary": []
         },
         "index": 1,
         "location": null,
-        "slug": "roncesvalles-to-zubiri",
         "stats": {
           "distance": {
             "label": "distance",
@@ -11975,40 +8148,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "1,176",
-              "metric": "358"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,551",
-              "metric": "778"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -12064,14 +8203,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "j9ZHlSTeoaY6ewq",
+        "id": "qKYP8QQ6JZYJUW1",
         "images": {
           "hero": "2018/06/02/94c5e141-580c-483b-91aa-13a88bf0f8fd.jpeg",
           "supplementary": []
         },
         "index": 2,
         "location": null,
-        "slug": "zubiri-to-pamplona",
         "stats": {
           "distance": {
             "label": "distance",
@@ -12087,40 +8225,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "950",
-              "metric": "290"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "1,223",
-              "metric": "373"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -12175,14 +8279,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "KE7TKRqfls3PlaQ",
+        "id": "JwGrJ7AnKPTUsJq",
         "images": {
           "hero": "2018/06/02/88b734d7-ee6f-437f-a44b-6233d7f86158.jpeg",
           "supplementary": []
         },
         "index": 3,
         "location": null,
-        "slug": "pamplona-to-puente-la-reina",
         "stats": {
           "distance": {
             "label": "distance",
@@ -12198,40 +8301,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "1,484",
-              "metric": "452"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "1,794",
-              "metric": "547"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -12288,14 +8357,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "tyIYVWlbU7dSgrB",
+        "id": "jTuVJIInb9Gisp3",
         "images": {
           "hero": "2018/06/02/6de64c25-13b3-441f-96b8-1f80cd4d6bd6.jpeg",
           "supplementary": []
         },
         "index": 4,
         "location": null,
-        "slug": "puente-la-reina-to-estella",
         "stats": {
           "distance": {
             "label": "distance",
@@ -12311,40 +8379,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "1,424",
-              "metric": "434"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "1,189",
-              "metric": "362"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -12401,14 +8435,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "fKnWkuwl8fASco8",
+        "id": "1B5AjSZfoVa92Re",
         "images": {
           "hero": "2018/06/02/f3c24aa0-ec3f-4319-9585-e178b9fd7bca.jpeg",
           "supplementary": []
         },
         "index": 5,
         "location": null,
-        "slug": "estella-to-sansol",
         "stats": {
           "distance": {
             "label": "distance",
@@ -12424,40 +8457,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "1,603",
-              "metric": "489"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "1,368",
-              "metric": "417"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -12512,14 +8511,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "Px7OqYy5zo31c4B",
+        "id": "WUhpwRgpE2LPOMp",
         "images": {
           "hero": "2018/06/02/71b4d4f4-b9d4-40b9-8902-cef791391428.jpeg",
           "supplementary": []
         },
         "index": 6,
         "location": null,
-        "slug": "sansol-to-logrono",
         "stats": {
           "distance": {
             "label": "distance",
@@ -12535,40 +8533,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "1,148",
-              "metric": "350"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "1,520",
-              "metric": "463"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -12623,14 +8587,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "wvHJhylNNHJhHSt",
+        "id": "56rkvwJlIip4wHL",
         "images": {
           "hero": "2018/06/02/e5a310be-0e12-45d8-9121-dbac375a4234.jpeg",
           "supplementary": []
         },
         "index": 7,
         "location": null,
-        "slug": "logrono-to-najera",
         "stats": {
           "distance": {
             "label": "distance",
@@ -12646,40 +8609,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "1,301",
-              "metric": "397"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "952",
-              "metric": "290"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -12734,14 +8663,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "gAdPEnbCdXQeIP1",
+        "id": "GQ4Vl3cTQQL4vXd",
         "images": {
           "hero": "2018/06/02/50570d33-285a-4561-bc7f-b7e500363359.jpeg",
           "supplementary": []
         },
         "index": 8,
         "location": null,
-        "slug": "najera-to-santo-domingo",
         "stats": {
           "distance": {
             "label": "distance",
@@ -12757,40 +8685,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "1,336",
-              "metric": "407"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "829",
-              "metric": "253"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -12847,14 +8741,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "0bHoNz5VRT3JVfL",
+        "id": "LH7yUgro0hDQmy8",
         "images": {
           "hero": "2018/06/02/009b868c-38ee-43e7-bc1c-90b259306d86.jpeg",
           "supplementary": []
         },
         "index": 9,
         "location": null,
-        "slug": "santo-domingo-to-belorado",
         "stats": {
           "distance": {
             "label": "distance",
@@ -12870,40 +8763,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "1,178",
-              "metric": "359"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "747",
-              "metric": "228"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -12960,14 +8819,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "7gHGV8g4zywhM7R",
+        "id": "ALA9UTcDPK9YZYu",
         "images": {
           "hero": "2018/06/02/678b2b3a-6724-4bca-99b7-f7ed9a4683e7.jpeg",
           "supplementary": []
         },
         "index": 10,
         "location": null,
-        "slug": "belorado-to-ages",
         "stats": {
           "distance": {
             "label": "distance",
@@ -12983,40 +8841,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "1,660",
-              "metric": "506"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "1,020",
-              "metric": "311"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -13071,14 +8895,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "bP944ARml5e0G5C",
+        "id": "fYIBbSYQuAFFZCd",
         "images": {
           "hero": "2018/06/02/28740c31-9cb0-4952-af50-9f1bab6c1edb.jpeg",
           "supplementary": []
         },
         "index": 11,
         "location": null,
-        "slug": "ages-to-burgos",
         "stats": {
           "distance": {
             "label": "distance",
@@ -13094,40 +8917,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "487",
-              "metric": "148"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "843",
-              "metric": "257"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -13182,14 +8971,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "re83AW8brfAbsxa",
+        "id": "a71fHz7IHmLWfcp",
         "images": {
           "hero": "2018/06/02/3ecd42d0-421e-4e3d-a770-830e68e2652c.jpeg",
           "supplementary": []
         },
         "index": 12,
         "location": null,
-        "slug": "burgos-to-hontanas",
         "stats": {
           "distance": {
             "label": "distance",
@@ -13205,40 +8993,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "1,048",
-              "metric": "319"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "998",
-              "metric": "304"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -13293,14 +9047,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "mMc6WOp3vh9XzxY",
+        "id": "j818Wf8wypREqWK",
         "images": {
           "hero": "2018/06/02/98a7eed4-299d-40e6-a537-779a5bab6c77.jpeg",
           "supplementary": []
         },
         "index": 13,
         "location": null,
-        "slug": "hontanas-to-fromista",
         "stats": {
           "distance": {
             "label": "distance",
@@ -13316,40 +9069,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "968",
-              "metric": "295"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "1,265",
-              "metric": "386"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -13404,14 +9123,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "rPx4y2nplOtHxAH",
+        "id": "4iJoFtxzLznxiwS",
         "images": {
           "hero": "2018/06/02/2e08d5fe-1711-4768-8ded-f3714e186923.jpeg",
           "supplementary": []
         },
         "index": 14,
         "location": null,
-        "slug": "fromista-to-carrion",
         "stats": {
           "distance": {
             "label": "distance",
@@ -13427,40 +9145,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "347",
-              "metric": "106"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "199",
-              "metric": "61"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -13515,14 +9199,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "KhaGglRZJjC6f14",
+        "id": "mstCgPItHcmqJX0",
         "images": {
           "hero": "2018/06/02/bcdc06e3-4c95-4138-9779-bc46670a4e1b.jpeg",
           "supplementary": []
         },
         "index": 15,
         "location": null,
-        "slug": "carrion-to-sahagun",
         "stats": {
           "distance": {
             "label": "distance",
@@ -13538,40 +9221,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "794",
-              "metric": "242"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "785",
-              "metric": "239"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -13626,14 +9275,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "97acqHvIu5aMlL3",
+        "id": "PQadMe0Atenxh3Z",
         "images": {
           "hero": "2018/06/02/2b268d15-bea2-42ae-a15c-1ab6fd5fe4f7.jpeg",
           "supplementary": []
         },
         "index": 16,
         "location": null,
-        "slug": "sahagun-to-reliegos",
         "stats": {
           "distance": {
             "label": "distance",
@@ -13649,40 +9297,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "522",
-              "metric": "159"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "555",
-              "metric": "169"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -13737,14 +9351,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "BE83cRqjnVZQ3du",
+        "id": "Sx6qF5gzw790DXY",
         "images": {
           "hero": "2018/06/02/845acb7b-86f3-4768-8ce3-c8be727c50af.jpeg",
           "supplementary": []
         },
         "index": 17,
         "location": null,
-        "slug": "reliegos-to-leon",
         "stats": {
           "distance": {
             "label": "distance",
@@ -13760,40 +9373,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "637",
-              "metric": "194"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "580",
-              "metric": "177"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -13848,14 +9427,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "pqSwORTTjxAgk9S",
+        "id": "fFCNkCtUYFUpHuE",
         "images": {
           "hero": "2018/06/02/f5741d7d-6a86-47ae-a5b1-f1bced05bb00.jpeg",
           "supplementary": []
         },
         "index": 18,
         "location": null,
-        "slug": "leon-to-mazarife",
         "stats": {
           "distance": {
             "label": "distance",
@@ -13871,40 +9449,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "675",
-              "metric": "206"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "551",
-              "metric": "168"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -13959,14 +9503,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "yg6XzPsHZilWBi0",
+        "id": "kKjuMUZUvXo741X",
         "images": {
           "hero": "2018/06/02/0cf7b647-1681-4b88-be6a-cbba1163f38a.jpeg",
           "supplementary": []
         },
         "index": 19,
         "location": null,
-        "slug": "mazarife-to-astorga",
         "stats": {
           "distance": {
             "label": "distance",
@@ -13982,40 +9525,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "826",
-              "metric": "252"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "847",
-              "metric": "258"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -14070,14 +9579,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "qWbUuB48P3nQwSi",
+        "id": "GzYpp4f8DvqP3oy",
         "images": {
           "hero": "2018/06/02/bf4e84fe-e4ca-4834-ab65-393f965bbdb8.jpeg",
           "supplementary": []
         },
         "index": 20,
         "location": null,
-        "slug": "astorga-to-foncebadon",
         "stats": {
           "distance": {
             "label": "distance",
@@ -14093,40 +9601,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,063",
-              "metric": "629"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "203",
-              "metric": "62"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -14181,14 +9655,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "UsxQvVoZoCFd0ks",
+        "id": "Y0zhsKakiQOWBRH",
         "images": {
           "hero": "2018/06/02/2901af55-b7bf-41ec-9471-6ec3699b1f12.jpeg",
           "supplementary": []
         },
         "index": 21,
         "location": null,
-        "slug": "foncebadon-to-ponferrada",
         "stats": {
           "distance": {
             "label": "distance",
@@ -14204,40 +9677,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "901",
-              "metric": "275"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "3,810",
-              "metric": "1,161"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -14293,14 +9732,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "aLIb5uMFp0voAPq",
+        "id": "Ub7Y1YHxcQJh54E",
         "images": {
           "hero": "2018/06/02/7fa41365-3d33-461b-9be5-5a946064923c.jpeg",
           "supplementary": []
         },
         "index": 22,
         "location": null,
-        "slug": "ponferrada-to-villafranca",
         "stats": {
           "distance": {
             "label": "distance",
@@ -14316,40 +9754,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "1,014",
-              "metric": "309"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "1,038",
-              "metric": "316"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -14405,14 +9809,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "o9xavpKFhdxEvJC",
+        "id": "8qaH8427HSBmYAF",
         "images": {
           "hero": "2018/06/02/6349679e-acbf-4f74-ad4a-0d9032c3b293.jpeg",
           "supplementary": []
         },
         "index": 23,
         "location": null,
-        "slug": "villafranca-to-o-cebreiro",
         "stats": {
           "distance": {
             "label": "distance",
@@ -14428,40 +9831,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "3,308",
-              "metric": "1,008"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "802",
-              "metric": "244"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -14517,14 +9886,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "1s0QQ3B12kXK4t1",
+        "id": "awtDZ0NBOoO1DAD",
         "images": {
           "hero": "2018/06/02/4e1b42f2-3994-4d1c-ad29-620eab9c80c7.jpeg",
           "supplementary": []
         },
         "index": 24,
         "location": null,
-        "slug": "o-cebreiro-to-sarria",
         "stats": {
           "distance": {
             "label": "distance",
@@ -14540,40 +9908,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,417",
-              "metric": "737"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "5,243",
-              "metric": "1,598"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -14628,14 +9962,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "mGome7zUDMR1KuC",
+        "id": "SWe84f7JZaAFutt",
         "images": {
           "hero": "2018/06/02/3d738e26-0747-447a-98fb-0bb35e1736c3.jpeg",
           "supplementary": []
         },
         "index": 25,
         "location": null,
-        "slug": "sarria-to-portomarin",
         "stats": {
           "distance": {
             "label": "distance",
@@ -14651,40 +9984,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "1,584",
-              "metric": "483"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "1,765",
-              "metric": "538"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -14739,14 +10038,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "WIVIHLMY9pf7f6h",
+        "id": "a01A7rav3jE0esI",
         "images": {
           "hero": "2018/06/02/4e8fd9a9-ed5f-429f-9230-efa731461a5f.jpeg",
           "supplementary": []
         },
         "index": 26,
         "location": null,
-        "slug": "portomarin-to-melide",
         "stats": {
           "distance": {
             "label": "distance",
@@ -14762,40 +10060,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,752",
-              "metric": "839"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,526",
-              "metric": "770"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -14850,14 +10114,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "FIVE44mwjOWlZRG",
+        "id": "M7c6ZFE3ma0PdAz",
         "images": {
           "hero": "2018/06/02/2dcb1878-efe7-47d7-b7b5-b031ab143cb6.jpeg",
           "supplementary": []
         },
         "index": 27,
         "location": null,
-        "slug": "melide-to-pedrouzo",
         "stats": {
           "distance": {
             "label": "distance",
@@ -14873,40 +10136,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,275",
-              "metric": "693"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,858",
-              "metric": "871"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -14961,14 +10190,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "VcKNHse8NpZ5FkA",
+        "id": "QIIOUvrMlEOJmpZ",
         "images": {
           "hero": "2018/06/02/1921986b-9cf8-4bf8-b531-3bfe2f098f93.jpeg",
           "supplementary": []
         },
         "index": 28,
         "location": null,
-        "slug": "pedrouzo-to-santiago-de-compostela",
         "stats": {
           "distance": {
             "label": "distance",
@@ -14984,40 +10212,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "1,194",
-              "metric": "364"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "1,263",
-              "metric": "385"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -15074,14 +10268,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "3sqkcK87jEvvZav",
+        "id": "Etg8SycOQ8PAplj",
         "images": {
           "hero": "2018/06/02/7f51e3c4-518e-4147-8e73-c19d6c87ce11.jpeg",
           "supplementary": []
         },
         "index": 29,
         "location": null,
-        "slug": "santiago-de-compostela-to-negreira",
         "stats": {
           "distance": {
             "label": "distance",
@@ -15097,40 +10290,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "1,667",
-              "metric": "508"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "1,969",
-              "metric": "600"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -15187,14 +10346,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "n17eKujmdqcNJRm",
+        "id": "l5NcXXojgs7NB8s",
         "images": {
           "hero": "2018/06/02/32011e1d-8075-4b90-9a91-db88c3d66989.jpeg",
           "supplementary": []
         },
         "index": 30,
         "location": null,
-        "slug": "negreira-to-olveiroa",
         "stats": {
           "distance": {
             "label": "distance",
@@ -15210,40 +10368,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,413",
-              "metric": "735"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,052",
-              "metric": "625"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -15298,14 +10422,13 @@ const data = [
           }
         },
         "hasStats": true,
-        "id": "S1pg7OvZ6GYSTai",
+        "id": "JBFzHLuxBSGzOsV",
         "images": {
           "hero": "2018/06/02/aa8b0404-f4d1-44ed-bc96-ce65eae03848.jpeg",
           "supplementary": []
         },
         "index": 31,
         "location": null,
-        "slug": "olveiroa-to-fisterra",
         "stats": {
           "distance": {
             "label": "distance",
@@ -15321,40 +10444,6 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
-              }
-            }
-          },
-          "gain": {
-            "label": "gain",
-            "value": {
-              "imperial": "2,194",
-              "metric": "669"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
-            }
-          },
-          "loss": {
-            "label": "loss",
-            "value": {
-              "imperial": "2,738",
-              "metric": "835"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
               }
             }
           },
@@ -15397,62 +10486,11 @@ const data = [
       }
     ],
     "stats": {
-      "altitude": {
-        "label": "altitude",
-        "value": {
-          "imperial": "4,953",
-          "metric": "1,510"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
-        }
-      },
-      "distance": {
-        "label": "distance",
-        "value": {
-          "imperial": "534",
-          "metric": "859"
-        },
-        "units": {
-          "imperial": {
-            "full": "miles",
-            "abbreviated": "mi"
-          },
-          "metric": {
-            "full": "kilometers",
-            "abbreviated": "km"
-          }
-        }
-      },
-      "days": {
-        "label": "days",
-        "value": "32",
-        "units": null
-      },
       "length": {
         "label": "length",
         "value": 32,
         "units": null
       }
-    },
-    "tagline": "A rich mosaic of landscapes",
-    "termini": {
-      "end": [
-        "Fisterra"
-      ],
-      "isSame": false,
-      "start": [
-        "Saint Jean",
-        "Pied de",
-        "Port"
-      ]
     },
     "timestamp": "1527933600",
     "title": [
