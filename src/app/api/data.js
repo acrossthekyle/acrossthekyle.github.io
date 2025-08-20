@@ -1,33 +1,8 @@
 const data = [
   {
     "date": {
-      "dates": {
-        "start": {
-          "long": {
-            "month": "July",
-            "day": "27th",
-            "year": "2024"
-          },
-          "short": {
-            "month": "Jul",
-            "day": "27",
-            "year": "24"
-          }
-        },
-        "end": {
-          "long": {
-            "month": "August",
-            "day": "6th",
-            "year": "2024"
-          },
-          "short": {
-            "month": "Aug",
-            "day": "6",
-            "year": "24"
-          }
-        }
-      },
-      "year": [
+      "date": "Jul 27 2024",
+      "years": [
         "2024"
       ]
     },
@@ -36,20 +11,9 @@ const data = [
     "slug": "tour-du-mont-blanc-repeat",
     "stages": [
       {
-        "date": {
-          "long": {
-            "month": "July",
-            "day": "27th",
-            "year": "2024"
-          },
-          "short": {
-            "month": "07",
-            "day": "27",
-            "year": "24"
-          }
-        },
+        "date": "07.27.2024",
         "hasStats": true,
-        "id": "RvqDwD9vurgOaa8",
+        "id": "Pycd8l5vvznCHMV",
         "images": {
           "hero": "2024/07/27/ac7799bd-b2a8-4f77-8a8d-6d42a8740390.jpeg",
           "supplementary": []
@@ -114,20 +78,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "July",
-            "day": "28th",
-            "year": "2024"
-          },
-          "short": {
-            "month": "07",
-            "day": "28",
-            "year": "24"
-          }
-        },
+        "date": "07.28.2024",
         "hasStats": true,
-        "id": "q1HenNl0jBPSD1C",
+        "id": "ltVfAEMnh4v5eSM",
         "images": {
           "hero": "2024/07/27/10146a42-b18d-4318-bc5b-c32279532e4d.jpeg",
           "supplementary": []
@@ -196,20 +149,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "July",
-            "day": "29th",
-            "year": "2024"
-          },
-          "short": {
-            "month": "07",
-            "day": "29",
-            "year": "24"
-          }
-        },
+        "date": "07.29.2024",
         "hasStats": true,
-        "id": "Os9Jeh3eXrctpFd",
+        "id": "HlVLy6wsFeo9leH",
         "images": {
           "hero": "2024/07/27/be9a961c-fc7d-43dc-b466-29a359d1cd12.jpeg",
           "supplementary": []
@@ -280,20 +222,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "July",
-            "day": "30th",
-            "year": "2024"
-          },
-          "short": {
-            "month": "07",
-            "day": "30",
-            "year": "24"
-          }
-        },
+        "date": "07.30.2024",
         "hasStats": true,
-        "id": "O52E9dStNQu1fcP",
+        "id": "kh6f06dzcf6GB6c",
         "images": {
           "hero": "2024/07/27/a45073e7-ef67-4e31-a5e7-3ba9b4b97b4e.jpeg",
           "supplementary": []
@@ -362,20 +293,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "July",
-            "day": "31st",
-            "year": "2024"
-          },
-          "short": {
-            "month": "07",
-            "day": "31",
-            "year": "24"
-          }
-        },
+        "date": "07.31.2024",
         "hasStats": true,
-        "id": "Ph9kw7TLUwgC0cY",
+        "id": "rnq2GP8vDbJwQkS",
         "images": {
           "hero": "2024/07/27/f1310350-3cb1-4f1b-b591-e08d0971f23b.jpeg",
           "supplementary": []
@@ -442,20 +362,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "August",
-            "day": "1st",
-            "year": "2024"
-          },
-          "short": {
-            "month": "08",
-            "day": "01",
-            "year": "24"
-          }
-        },
+        "date": "08.01.2024",
         "hasStats": true,
-        "id": "3y6WrlVUSrB1qTA",
+        "id": "7J1mCdMNAvF7ssn",
         "images": {
           "hero": "2024/07/27/b70777d8-b89d-4d60-b422-2d2af80483e4.jpeg",
           "supplementary": []
@@ -522,20 +431,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "August",
-            "day": "2nd",
-            "year": "2024"
-          },
-          "short": {
-            "month": "08",
-            "day": "02",
-            "year": "24"
-          }
-        },
+        "date": "08.02.2024",
         "hasStats": true,
-        "id": "TtBalGsFnKabN4D",
+        "id": "CdRY8LPYwo04Pxd",
         "images": {
           "hero": "2024/07/27/22400157-4853-4974-856b-86b1bc986ef9.jpeg",
           "supplementary": []
@@ -602,20 +500,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "August",
-            "day": "3rd",
-            "year": "2024"
-          },
-          "short": {
-            "month": "08",
-            "day": "03",
-            "year": "24"
-          }
-        },
+        "date": "08.03.2024",
         "hasStats": true,
-        "id": "cKYNlD05BBjQYWY",
+        "id": "iAgUWQtzAnQkzHo",
         "images": {
           "hero": "2024/07/27/99d87d66-9534-4aca-9489-eb2fbbdc152b.jpeg",
           "supplementary": []
@@ -682,20 +569,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "August",
-            "day": "4th",
-            "year": "2024"
-          },
-          "short": {
-            "month": "08",
-            "day": "04",
-            "year": "24"
-          }
-        },
+        "date": "08.04.2024",
         "hasStats": true,
-        "id": "6GRUx1iBJeDOV0A",
+        "id": "EwHFUEXG8MUrfPQ",
         "images": {
           "hero": "2024/07/27/91e2be29-62d0-4be0-a00a-9ebd9d9dc395.jpeg",
           "supplementary": []
@@ -762,20 +638,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "August",
-            "day": "5th",
-            "year": "2024"
-          },
-          "short": {
-            "month": "08",
-            "day": "05",
-            "year": "24"
-          }
-        },
+        "date": "08.05.2024",
         "hasStats": true,
-        "id": "h18svXUrqgwhLvK",
+        "id": "xVuDlgqeAIfvaa1",
         "images": {
           "hero": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg",
           "supplementary": []
@@ -842,20 +707,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "August",
-            "day": "6th",
-            "year": "2024"
-          },
-          "short": {
-            "month": "08",
-            "day": "06",
-            "year": "24"
-          }
-        },
+        "date": "08.06.2024",
         "hasStats": true,
-        "id": "VPyMt8PZhaA87x0",
+        "id": "X8o7IExIzbaljrs",
         "images": {
           "hero": "2024/07/27/480c5394-dfa7-4760-8f62-5a39cb66cb98.jpeg",
           "supplementary": []
@@ -937,33 +791,8 @@ const data = [
   },
   {
     "date": {
-      "dates": {
-        "start": {
-          "long": {
-            "month": "June",
-            "day": "21st",
-            "year": "2023"
-          },
-          "short": {
-            "month": "Jun",
-            "day": "21",
-            "year": "23"
-          }
-        },
-        "end": {
-          "long": {
-            "month": "July",
-            "day": "3rd",
-            "year": "2023"
-          },
-          "short": {
-            "month": "Jul",
-            "day": "3",
-            "year": "23"
-          }
-        }
-      },
-      "year": [
+      "date": "Jun 21 2023",
+      "years": [
         "2023"
       ]
     },
@@ -972,20 +801,9 @@ const data = [
     "slug": "gr-20",
     "stages": [
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "21st",
-            "year": "2023"
-          },
-          "short": {
-            "month": "06",
-            "day": "21",
-            "year": "23"
-          }
-        },
+        "date": "06.21.2023",
         "hasStats": true,
-        "id": "AEsYVwRQ5iRh3z3",
+        "id": "LbNPA16D5KXaAGm",
         "images": {
           "hero": "2023/06/21/f1d1c83f-941d-4351-aa5e-08d698b78775.jpeg",
           "supplementary": []
@@ -1050,20 +868,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "22nd",
-            "year": "2023"
-          },
-          "short": {
-            "month": "06",
-            "day": "22",
-            "year": "23"
-          }
-        },
+        "date": "06.22.2023",
         "hasStats": true,
-        "id": "IDLTjTiUsMn5swy",
+        "id": "CkEwGDJfRGOnph1",
         "images": {
           "hero": "2023/06/21/e2d0721f-2c3f-4367-8f7b-1176c94b3e2c.jpeg",
           "supplementary": []
@@ -1128,20 +935,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "23rd",
-            "year": "2023"
-          },
-          "short": {
-            "month": "06",
-            "day": "23",
-            "year": "23"
-          }
-        },
+        "date": "06.23.2023",
         "hasStats": true,
-        "id": "wmJgt5AtygcMYs6",
+        "id": "UmioHnK94CAMTgE",
         "images": {
           "hero": "2023/06/21/4b13a3d8-a55c-4bed-b887-ad3490ab964f.jpeg",
           "supplementary": []
@@ -1204,20 +1000,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "24th",
-            "year": "2023"
-          },
-          "short": {
-            "month": "06",
-            "day": "24",
-            "year": "23"
-          }
-        },
+        "date": "06.24.2023",
         "hasStats": true,
-        "id": "vLHXGUAVy6FFPfy",
+        "id": "VJz1l4OUVjMR7GG",
         "images": {
           "hero": "2023/06/21/8f85de22-b937-4ea5-9dfa-e45eb357e7b8.jpeg",
           "supplementary": []
@@ -1281,20 +1066,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "25th",
-            "year": "2023"
-          },
-          "short": {
-            "month": "06",
-            "day": "25",
-            "year": "23"
-          }
-        },
+        "date": "06.25.2023",
         "hasStats": true,
-        "id": "hu0IB9pcbKfqao3",
+        "id": "1cWPDIulvYkK2MY",
         "images": {
           "hero": "2023/06/21/f0dc6ac2-b0e5-4e2a-b874-0d40f47c454b.jpeg",
           "supplementary": []
@@ -1359,20 +1133,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "26th",
-            "year": "2023"
-          },
-          "short": {
-            "month": "06",
-            "day": "26",
-            "year": "23"
-          }
-        },
+        "date": "06.26.2023",
         "hasStats": true,
-        "id": "Jw66ork4XnwLFlf",
+        "id": "O2U4PUpPtCvEpem",
         "images": {
           "hero": "2023/06/21/95b4adaa-bbbe-4de3-b9f8-96365390f142.jpeg",
           "supplementary": []
@@ -1437,20 +1200,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "27th",
-            "year": "2023"
-          },
-          "short": {
-            "month": "06",
-            "day": "27",
-            "year": "23"
-          }
-        },
+        "date": "06.27.2023",
         "hasStats": true,
-        "id": "qHpUybBlOv0zqEQ",
+        "id": "DR00iNCMLuEgx6L",
         "images": {
           "hero": "2023/06/21/05769f04-5b00-4fd5-a233-55c00c9871c5.jpeg",
           "supplementary": []
@@ -1513,20 +1265,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "28th",
-            "year": "2023"
-          },
-          "short": {
-            "month": "06",
-            "day": "28",
-            "year": "23"
-          }
-        },
+        "date": "06.28.2023",
         "hasStats": true,
-        "id": "7dlXrnQGEWJmo8j",
+        "id": "HXv2VFqx18BR5qJ",
         "images": {
           "hero": "2023/06/21/4e7bda74-809e-48a9-a904-5645bf2e7dde.jpeg",
           "supplementary": []
@@ -1589,20 +1330,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "29th",
-            "year": "2023"
-          },
-          "short": {
-            "month": "06",
-            "day": "29",
-            "year": "23"
-          }
-        },
+        "date": "06.29.2023",
         "hasStats": true,
-        "id": "iFex7pa2Cqs3NWc",
+        "id": "OUwXrIrsQjO3l7X",
         "images": {
           "hero": "2023/06/21/2cc8532b-6441-49fb-927e-ebdb001b78cf.jpeg",
           "supplementary": []
@@ -1665,20 +1395,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "30th",
-            "year": "2023"
-          },
-          "short": {
-            "month": "06",
-            "day": "30",
-            "year": "23"
-          }
-        },
+        "date": "06.30.2023",
         "hasStats": true,
-        "id": "ZyUehoj7HumaDLy",
+        "id": "FNZUJOTcQ59sZ1F",
         "images": {
           "hero": "2023/06/21/54334c14-8bae-4478-97f7-179f79cd2ca6.jpeg",
           "supplementary": []
@@ -1743,20 +1462,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "July",
-            "day": "1st",
-            "year": "2023"
-          },
-          "short": {
-            "month": "07",
-            "day": "01",
-            "year": "23"
-          }
-        },
+        "date": "07.01.2023",
         "hasStats": true,
-        "id": "nv8w25cVfC6xBGh",
+        "id": "TGlEE9IV1QMZ0mY",
         "images": {
           "hero": "2023/06/21/73a5df9e-fefd-43d0-ad5a-7f71dcb003cc.jpeg",
           "supplementary": []
@@ -1821,20 +1529,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "July",
-            "day": "2nd",
-            "year": "2023"
-          },
-          "short": {
-            "month": "07",
-            "day": "02",
-            "year": "23"
-          }
-        },
+        "date": "07.02.2023",
         "hasStats": true,
-        "id": "NjwvHwmUPXmM16q",
+        "id": "GRMsusvpHkxjesO",
         "images": {
           "hero": "2023/06/21/d36a683f-4d95-4b0c-987d-d190336c49ee.jpeg",
           "supplementary": []
@@ -1897,20 +1594,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "July",
-            "day": "3rd",
-            "year": "2023"
-          },
-          "short": {
-            "month": "07",
-            "day": "03",
-            "year": "23"
-          }
-        },
+        "date": "07.03.2023",
         "hasStats": true,
-        "id": "D0jPktMLN6TJNym",
+        "id": "MiGUeBv6fW9lJoJ",
         "images": {
           "hero": "2023/06/21/f0cd0897-3fc9-47a2-808e-e1627dfb45bc.jpeg",
           "supplementary": []
@@ -1988,33 +1674,8 @@ const data = [
   },
   {
     "date": {
-      "dates": {
-        "start": {
-          "long": {
-            "month": "December",
-            "day": "29th",
-            "year": "2022"
-          },
-          "short": {
-            "month": "Dec",
-            "day": "29",
-            "year": "22"
-          }
-        },
-        "end": {
-          "long": {
-            "month": "January",
-            "day": "6th",
-            "year": "2023"
-          },
-          "short": {
-            "month": "Jan",
-            "day": "6",
-            "year": "23"
-          }
-        }
-      },
-      "year": [
+      "date": "Dec 29 2022",
+      "years": [
         "2022"
       ]
     },
@@ -2023,20 +1684,9 @@ const data = [
     "slug": "cairo-luxor",
     "stages": [
       {
-        "date": {
-          "long": {
-            "month": "December",
-            "day": "29th",
-            "year": "2022"
-          },
-          "short": {
-            "month": "12",
-            "day": "29",
-            "year": "22"
-          }
-        },
+        "date": "12.29.2022",
         "hasStats": false,
-        "id": "6Uv6nZpERk6vqFJ",
+        "id": "830zS8WtmlfoTDB",
         "images": {
           "hero": "2022/12/28/c0f9c079-8942-4390-bb9e-dae4e0a65034.jpeg",
           "supplementary": [
@@ -2068,20 +1718,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "December",
-            "day": "30th",
-            "year": "2022"
-          },
-          "short": {
-            "month": "12",
-            "day": "30",
-            "year": "22"
-          }
-        },
+        "date": "12.30.2022",
         "hasStats": false,
-        "id": "iJsIJ8nZGYn9bVF",
+        "id": "7k3eKX0S2TgPik8",
         "images": {
           "hero": "2022/12/28/d9a7b01b-5915-493c-8c25-5a8ebd77ac58.jpeg",
           "supplementary": [
@@ -2116,20 +1755,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "January",
-            "day": "1st",
-            "year": "2023"
-          },
-          "short": {
-            "month": "01",
-            "day": "01",
-            "year": "23"
-          }
-        },
+        "date": "01.01.2023",
         "hasStats": false,
-        "id": "dUkX0Egip6AAEZ9",
+        "id": "DiUMhK9yIxMiIXg",
         "images": {
           "hero": "2022/12/28/f24edc7b-3854-40c5-a2e7-33e2e2e27bde.jpeg",
           "supplementary": []
@@ -2158,20 +1786,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "January",
-            "day": "3rd",
-            "year": "2023"
-          },
-          "short": {
-            "month": "01",
-            "day": "03",
-            "year": "23"
-          }
-        },
+        "date": "01.03.2023",
         "hasStats": false,
-        "id": "CdPa9gNyyUIFCvP",
+        "id": "PnguPeuI5c4yQdZ",
         "images": {
           "hero": "2022/12/28/5e393275-ee80-475d-83cf-26192cd55738.jpeg",
           "supplementary": []
@@ -2200,20 +1817,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "January",
-            "day": "3rd",
-            "year": "2023"
-          },
-          "short": {
-            "month": "01",
-            "day": "03",
-            "year": "23"
-          }
-        },
+        "date": "01.03.2023",
         "hasStats": false,
-        "id": "rhBH3t5L4r1PrsS",
+        "id": "PAPhuiNBWnsA0wj",
         "images": {
           "hero": "2022/12/28/5f93fbaf-0c30-4f70-959d-a5e4384eff83.jpeg",
           "supplementary": [
@@ -2245,20 +1851,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "January",
-            "day": "3rd",
-            "year": "2023"
-          },
-          "short": {
-            "month": "01",
-            "day": "03",
-            "year": "23"
-          }
-        },
+        "date": "01.03.2023",
         "hasStats": false,
-        "id": "gHe8W3ztpnVhZPx",
+        "id": "WtnQCz8wNEXufGg",
         "images": {
           "hero": "2022/12/28/9fb7c062-5816-4154-b8cd-525a81f82be0.jpeg",
           "supplementary": [
@@ -2290,20 +1885,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "January",
-            "day": "3rd",
-            "year": "2023"
-          },
-          "short": {
-            "month": "01",
-            "day": "03",
-            "year": "23"
-          }
-        },
+        "date": "01.03.2023",
         "hasStats": false,
-        "id": "r90ro5FQeELi3t5",
+        "id": "pihMnuuhS1XPiMP",
         "images": {
           "hero": "2022/12/28/44f2c787-1209-4e11-a2fe-64030e0c472c.jpeg",
           "supplementary": [
@@ -2335,20 +1919,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "January",
-            "day": "3rd",
-            "year": "2023"
-          },
-          "short": {
-            "month": "01",
-            "day": "03",
-            "year": "23"
-          }
-        },
+        "date": "01.03.2023",
         "hasStats": false,
-        "id": "ehHOHQpYA5IbITg",
+        "id": "WNSrE9VRNLSBhyu",
         "images": {
           "hero": "2022/12/28/b7e2eeb1-90d3-49cb-bdb8-41acf2162f78.jpeg",
           "supplementary": [
@@ -2383,20 +1956,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "January",
-            "day": "4th",
-            "year": "2023"
-          },
-          "short": {
-            "month": "01",
-            "day": "04",
-            "year": "23"
-          }
-        },
+        "date": "01.04.2023",
         "hasStats": false,
-        "id": "KFC2FcwUCePEqqy",
+        "id": "en9nzPxZmE3AmTR",
         "images": {
           "hero": "2022/12/28/b13b3a23-187a-4dc4-912d-e225b21af78a.jpeg",
           "supplementary": [
@@ -2431,20 +1993,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "January",
-            "day": "4th",
-            "year": "2023"
-          },
-          "short": {
-            "month": "01",
-            "day": "04",
-            "year": "23"
-          }
-        },
+        "date": "01.04.2023",
         "hasStats": false,
-        "id": "eY6vcpwymovYWPe",
+        "id": "QLBBujVbA1OIu3k",
         "images": {
           "hero": "2022/12/28/9799718c-81f7-460d-9f0a-7ddd2dffb060.jpeg",
           "supplementary": [
@@ -2476,20 +2027,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "January",
-            "day": "4th",
-            "year": "2023"
-          },
-          "short": {
-            "month": "01",
-            "day": "04",
-            "year": "23"
-          }
-        },
+        "date": "01.04.2023",
         "hasStats": false,
-        "id": "moXWC3fB9XFSU61",
+        "id": "d3PdRJryLZOw3v7",
         "images": {
           "hero": "2022/12/28/6bf7f094-4f84-42b6-8bbc-5b501a25f3e7.jpeg",
           "supplementary": [
@@ -2540,8 +2080,8 @@ const data = [
   },
   {
     "date": {
-      "dates": null,
-      "year": [
+      "date": null,
+      "years": [
         "2022",
         "2025"
       ]
@@ -2551,20 +2091,9 @@ const data = [
     "slug": "ice-age-trail",
     "stages": [
       {
-        "date": {
-          "long": {
-            "month": "July",
-            "day": "15th",
-            "year": "2022"
-          },
-          "short": {
-            "month": "07",
-            "day": "15",
-            "year": "22"
-          }
-        },
+        "date": "07.15.2022",
         "hasStats": true,
-        "id": "fotJEzf81t7W9Vr",
+        "id": "RNJXyTusTi038W4",
         "images": {
           "hero": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",
           "supplementary": []
@@ -2635,20 +2164,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "May",
-            "day": "3rd",
-            "year": "2025"
-          },
-          "short": {
-            "month": "05",
-            "day": "03",
-            "year": "25"
-          }
-        },
+        "date": "05.03.2025",
         "hasStats": true,
-        "id": "LLD7hPuRDZnkvWh",
+        "id": "IRWIqWaH5sTYdKV",
         "images": {
           "hero": "2025/05/03/e402c0b1-e827-4123-b7b5-74947b240687.jpeg",
           "supplementary": []
@@ -2713,20 +2231,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "May",
-            "day": "4th",
-            "year": "2025"
-          },
-          "short": {
-            "month": "05",
-            "day": "04",
-            "year": "25"
-          }
-        },
+        "date": "05.04.2025",
         "hasStats": true,
-        "id": "86UVGZZ099DR4Ik",
+        "id": "l6vpdjcPPvNjpff",
         "images": {
           "hero": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
           "supplementary": []
@@ -2807,33 +2314,8 @@ const data = [
   },
   {
     "date": {
-      "dates": {
-        "start": {
-          "long": {
-            "month": "May",
-            "day": "7th",
-            "year": "2022"
-          },
-          "short": {
-            "month": "May",
-            "day": "7",
-            "year": "22"
-          }
-        },
-        "end": {
-          "long": {
-            "month": "May",
-            "day": "12th",
-            "year": "2022"
-          },
-          "short": {
-            "month": "May",
-            "day": "12",
-            "year": "22"
-          }
-        }
-      },
-      "year": [
+      "date": "May 7 2022",
+      "years": [
         "2022"
       ]
     },
@@ -2842,20 +2324,9 @@ const data = [
     "slug": "west-highland-way",
     "stages": [
       {
-        "date": {
-          "long": {
-            "month": "May",
-            "day": "7th",
-            "year": "2022"
-          },
-          "short": {
-            "month": "05",
-            "day": "07",
-            "year": "22"
-          }
-        },
+        "date": "05.07.2022",
         "hasStats": true,
-        "id": "NXP31NVDFnUPNt4",
+        "id": "a7SkbotjcqipUW3",
         "images": {
           "hero": "2022/05/07/75a8c027-07cd-4184-9157-d48dd5d1a32e.jpeg",
           "supplementary": []
@@ -2918,20 +2389,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "May",
-            "day": "8th",
-            "year": "2022"
-          },
-          "short": {
-            "month": "05",
-            "day": "08",
-            "year": "22"
-          }
-        },
+        "date": "05.08.2022",
         "hasStats": true,
-        "id": "oY7Va9aC11O0vk6",
+        "id": "WQuCGI94jQ70EeP",
         "images": {
           "hero": "2022/05/07/e8dd9fed-56e4-45bf-aee4-d1bc44a5363c.jpeg",
           "supplementary": []
@@ -2994,20 +2454,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "May",
-            "day": "9th",
-            "year": "2022"
-          },
-          "short": {
-            "month": "05",
-            "day": "09",
-            "year": "22"
-          }
-        },
+        "date": "05.09.2022",
         "hasStats": true,
-        "id": "NCBuH8C7GquO5cU",
+        "id": "SJcjJpp9StNh4kq",
         "images": {
           "hero": "2022/05/07/e610c340-2b8c-481c-8442-dc4543db3f2c.jpeg",
           "supplementary": []
@@ -3072,20 +2521,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "May",
-            "day": "10th",
-            "year": "2022"
-          },
-          "short": {
-            "month": "05",
-            "day": "10",
-            "year": "22"
-          }
-        },
+        "date": "05.10.2022",
         "hasStats": true,
-        "id": "K5wYz81KBur26MV",
+        "id": "CCWvOTTLNH7NoAb",
         "images": {
           "hero": "2022/05/07/b7df127a-0f69-4b29-843f-e1a7c6f858bf.jpeg",
           "supplementary": []
@@ -3152,20 +2590,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "May",
-            "day": "11th",
-            "year": "2022"
-          },
-          "short": {
-            "month": "05",
-            "day": "11",
-            "year": "22"
-          }
-        },
+        "date": "05.11.2022",
         "hasStats": true,
-        "id": "YsVhaXY4Ien2HF6",
+        "id": "iIO7jmjdI5o4xrn",
         "images": {
           "hero": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
           "supplementary": []
@@ -3231,20 +2658,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "May",
-            "day": "12th",
-            "year": "2022"
-          },
-          "short": {
-            "month": "05",
-            "day": "12",
-            "year": "22"
-          }
-        },
+        "date": "05.12.2022",
         "hasStats": true,
-        "id": "t5HZZnxjT1AtGhr",
+        "id": "5o5EvLd4P4LOuXN",
         "images": {
           "hero": "2022/05/07/07741eea-d85e-42cf-a2d4-d0f87102bffc.jpeg",
           "supplementary": []
@@ -3326,33 +2742,8 @@ const data = [
   },
   {
     "date": {
-      "dates": {
-        "start": {
-          "long": {
-            "month": "February",
-            "day": "18th",
-            "year": "2020"
-          },
-          "short": {
-            "month": "Feb",
-            "day": "18",
-            "year": "20"
-          }
-        },
-        "end": {
-          "long": {
-            "month": "February",
-            "day": "25th",
-            "year": "2020"
-          },
-          "short": {
-            "month": "Feb",
-            "day": "25",
-            "year": "20"
-          }
-        }
-      },
-      "year": [
+      "date": "Feb 18 2020",
+      "years": [
         "2020"
       ]
     },
@@ -3361,20 +2752,9 @@ const data = [
     "slug": "torres-del-paine-o-circuit",
     "stages": [
       {
-        "date": {
-          "long": {
-            "month": "February",
-            "day": "18th",
-            "year": "2020"
-          },
-          "short": {
-            "month": "02",
-            "day": "18",
-            "year": "20"
-          }
-        },
+        "date": "02.18.2020",
         "hasStats": true,
-        "id": "pWNFzpJwv35N6Uo",
+        "id": "ktVQjmO02bgeYes",
         "images": {
           "hero": "2020/02/18/619eec82-6980-4f31-a11f-7c5581d02989.jpeg",
           "supplementary": []
@@ -3439,20 +2819,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "February",
-            "day": "19th",
-            "year": "2020"
-          },
-          "short": {
-            "month": "02",
-            "day": "19",
-            "year": "20"
-          }
-        },
+        "date": "02.19.2020",
         "hasStats": true,
-        "id": "TujfdIdRHZ3qk8T",
+        "id": "dmdPOsSnw0MMAZ7",
         "images": {
           "hero": "2020/02/18/98e3190e-5480-4eb9-8883-c8d9fbb3f485.jpeg",
           "supplementary": []
@@ -3515,20 +2884,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "February",
-            "day": "20th",
-            "year": "2020"
-          },
-          "short": {
-            "month": "02",
-            "day": "20",
-            "year": "20"
-          }
-        },
+        "date": "02.20.2020",
         "hasStats": true,
-        "id": "bd3QEiASAUpMFSC",
+        "id": "dRd3cwhPBJ2SkWf",
         "images": {
           "hero": "2020/02/18/f477b7bb-7f38-42ff-a855-f90668a73f28.jpeg",
           "supplementary": []
@@ -3591,20 +2949,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "February",
-            "day": "21st",
-            "year": "2020"
-          },
-          "short": {
-            "month": "02",
-            "day": "21",
-            "year": "20"
-          }
-        },
+        "date": "02.21.2020",
         "hasStats": true,
-        "id": "k4yyc53OW1QXd3p",
+        "id": "IZdjiOs10DsuNrp",
         "images": {
           "hero": "2020/02/18/38a1b675-74c7-45b5-9e37-8020d298a0b3.jpeg",
           "supplementary": []
@@ -3667,20 +3014,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "February",
-            "day": "22nd",
-            "year": "2020"
-          },
-          "short": {
-            "month": "02",
-            "day": "22",
-            "year": "20"
-          }
-        },
+        "date": "02.22.2020",
         "hasStats": true,
-        "id": "fwhL1HvBrQ3cet5",
+        "id": "LIVFcb9pyDR7gFf",
         "images": {
           "hero": "2020/02/18/dd6e739e-b793-4c64-8e7c-c6a631b467c7.jpeg",
           "supplementary": []
@@ -3745,20 +3081,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "February",
-            "day": "23rd",
-            "year": "2020"
-          },
-          "short": {
-            "month": "02",
-            "day": "23",
-            "year": "20"
-          }
-        },
+        "date": "02.23.2020",
         "hasStats": true,
-        "id": "cGJ7VHl1uXjpqgh",
+        "id": "I7JmGgb485E27OG",
         "images": {
           "hero": "2020/02/18/380820b8-520a-49fa-8f01-651ca63fd84f.jpeg",
           "supplementary": []
@@ -3823,20 +3148,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "February",
-            "day": "24th",
-            "year": "2020"
-          },
-          "short": {
-            "month": "02",
-            "day": "24",
-            "year": "20"
-          }
-        },
+        "date": "02.24.2020",
         "hasStats": true,
-        "id": "a2JFQhBif39jf9s",
+        "id": "31UKEa81MQElqsC",
         "images": {
           "hero": "2020/02/18/790032e0-6483-4631-9cbe-d912510a1a48.jpeg",
           "supplementary": []
@@ -3899,20 +3213,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "February",
-            "day": "25th",
-            "year": "2020"
-          },
-          "short": {
-            "month": "02",
-            "day": "25",
-            "year": "20"
-          }
-        },
+        "date": "02.25.2020",
         "hasStats": true,
-        "id": "v2diXxcz1mPZjwU",
+        "id": "IYTacMYAmKPi48F",
         "images": {
           "hero": "2020/02/18/630411a8-f5ce-47fe-8261-f94e00654447.jpeg",
           "supplementary": []
@@ -3994,33 +3297,8 @@ const data = [
   },
   {
     "date": {
-      "dates": {
-        "start": {
-          "long": {
-            "month": "October",
-            "day": "19th",
-            "year": "2019"
-          },
-          "short": {
-            "month": "Oct",
-            "day": "19",
-            "year": "19"
-          }
-        },
-        "end": {
-          "long": {
-            "month": "November",
-            "day": "6th",
-            "year": "2019"
-          },
-          "short": {
-            "month": "Nov",
-            "day": "6",
-            "year": "19"
-          }
-        }
-      },
-      "year": [
+      "date": "Oct 19 2019",
+      "years": [
         "2019"
       ]
     },
@@ -4029,20 +3307,9 @@ const data = [
     "slug": "annapurna-circuit-basecamp",
     "stages": [
       {
-        "date": {
-          "long": {
-            "month": "October",
-            "day": "19th",
-            "year": "2019"
-          },
-          "short": {
-            "month": "10",
-            "day": "19",
-            "year": "19"
-          }
-        },
+        "date": "10.19.2019",
         "hasStats": true,
-        "id": "8btMepmTusEakQ0",
+        "id": "LgwXlPXTJu2i4Op",
         "images": {
           "hero": "2019/10/19/672dcde8-57ae-4bf9-885f-ae039d3a824d.jpeg",
           "supplementary": []
@@ -4105,20 +3372,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "October",
-            "day": "20th",
-            "year": "2019"
-          },
-          "short": {
-            "month": "10",
-            "day": "20",
-            "year": "19"
-          }
-        },
+        "date": "10.20.2019",
         "hasStats": true,
-        "id": "nq00B51srn4Bh6U",
+        "id": "hqmGSdg9U8iVwqV",
         "images": {
           "hero": "2019/10/19/cde86c7c-f794-4a99-8286-9af3de9425fc.jpeg",
           "supplementary": []
@@ -4181,20 +3437,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "October",
-            "day": "21st",
-            "year": "2019"
-          },
-          "short": {
-            "month": "10",
-            "day": "21",
-            "year": "19"
-          }
-        },
+        "date": "10.21.2019",
         "hasStats": true,
-        "id": "YOoJYbgSy7yoOyA",
+        "id": "JqBJRCOXVcx8UY3",
         "images": {
           "hero": "2019/10/19/69d8dc52-42d4-4295-9b25-1f7542c1da8b.jpeg",
           "supplementary": []
@@ -4257,20 +3502,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "October",
-            "day": "22nd",
-            "year": "2019"
-          },
-          "short": {
-            "month": "10",
-            "day": "22",
-            "year": "19"
-          }
-        },
+        "date": "10.22.2019",
         "hasStats": true,
-        "id": "1o27kK9RYxH4u8e",
+        "id": "5zzZ1MHr8utGHhr",
         "images": {
           "hero": "2019/10/19/de48b8b7-ef5d-4c21-93a8-d6e4d7628e7f.jpeg",
           "supplementary": []
@@ -4333,20 +3567,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "October",
-            "day": "23rd",
-            "year": "2019"
-          },
-          "short": {
-            "month": "10",
-            "day": "23",
-            "year": "19"
-          }
-        },
+        "date": "10.23.2019",
         "hasStats": true,
-        "id": "yP8kgXJIkxOfypC",
+        "id": "y1bVa6SlCiW1XdJ",
         "images": {
           "hero": "2019/10/19/91fcb255-9894-434c-9c39-41ea5070e819.jpeg",
           "supplementary": []
@@ -4411,20 +3634,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "October",
-            "day": "24th",
-            "year": "2019"
-          },
-          "short": {
-            "month": "10",
-            "day": "24",
-            "year": "19"
-          }
-        },
+        "date": "10.24.2019",
         "hasStats": true,
-        "id": "5Sn6Zlpuw6ko1v2",
+        "id": "4toym087BRv3Pcz",
         "images": {
           "hero": "2019/10/19/b9b20eb0-e569-4778-99c6-de3a3c2eb15e.jpeg",
           "supplementary": []
@@ -4489,20 +3701,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "October",
-            "day": "25th",
-            "year": "2019"
-          },
-          "short": {
-            "month": "10",
-            "day": "25",
-            "year": "19"
-          }
-        },
+        "date": "10.25.2019",
         "hasStats": true,
-        "id": "YAObCdFwMV2rFcw",
+        "id": "cPDkQrSukp7fwDi",
         "images": {
           "hero": "2019/10/19/ed197052-01d7-4739-807c-39340385c0fc.jpeg",
           "supplementary": []
@@ -4569,20 +3770,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "October",
-            "day": "26th",
-            "year": "2019"
-          },
-          "short": {
-            "month": "10",
-            "day": "26",
-            "year": "19"
-          }
-        },
+        "date": "10.26.2019",
         "hasStats": true,
-        "id": "YaQcBnGsF2CjQL1",
+        "id": "6HwK6IYiQwu97VK",
         "images": {
           "hero": "2019/10/19/d7837a44-81d2-4fa0-9912-bb15508be721.jpeg",
           "supplementary": []
@@ -4651,20 +3841,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "October",
-            "day": "27th",
-            "year": "2019"
-          },
-          "short": {
-            "month": "10",
-            "day": "27",
-            "year": "19"
-          }
-        },
+        "date": "10.27.2019",
         "hasStats": true,
-        "id": "eJAAm5koIwnXVjN",
+        "id": "0iqVVURrFwZbM5u",
         "images": {
           "hero": "2019/10/19/40b7a029-2f0c-4807-94fa-86a07ee9ffa9.jpeg",
           "supplementary": []
@@ -4729,20 +3908,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "October",
-            "day": "28th",
-            "year": "2019"
-          },
-          "short": {
-            "month": "10",
-            "day": "28",
-            "year": "19"
-          }
-        },
+        "date": "10.28.2019",
         "hasStats": true,
-        "id": "iu1o6rFzCENH38o",
+        "id": "DU1cUN4et47G0Li",
         "images": {
           "hero": "2019/10/19/f76cbaab-0139-44b4-bc5c-6c816731d927.jpeg",
           "supplementary": []
@@ -4805,20 +3973,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "October",
-            "day": "29th",
-            "year": "2019"
-          },
-          "short": {
-            "month": "10",
-            "day": "29",
-            "year": "19"
-          }
-        },
+        "date": "10.29.2019",
         "hasStats": true,
-        "id": "1BWoAv62oU2HoUy",
+        "id": "fOYZPtYeOBV1YLH",
         "images": {
           "hero": "2019/10/19/93b7286f-a87a-4d8e-8d85-6a3f50dcd82c.jpeg",
           "supplementary": []
@@ -4881,20 +4038,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "October",
-            "day": "30th",
-            "year": "2019"
-          },
-          "short": {
-            "month": "10",
-            "day": "30",
-            "year": "19"
-          }
-        },
+        "date": "10.30.2019",
         "hasStats": true,
-        "id": "WLrXx7HQvLKiQaZ",
+        "id": "lAr4ZZ6Ip1AXiBY",
         "images": {
           "hero": "2019/10/19/9f9bca6e-e30a-4ca0-b005-5a0bda57f649.jpeg",
           "supplementary": []
@@ -4957,20 +4103,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "October",
-            "day": "31st",
-            "year": "2019"
-          },
-          "short": {
-            "month": "10",
-            "day": "31",
-            "year": "19"
-          }
-        },
+        "date": "10.31.2019",
         "hasStats": true,
-        "id": "t03D5Yn8AQrdEkl",
+        "id": "I8HhDEwasXtvG5G",
         "images": {
           "hero": "2019/10/19/5cf22091-8d99-4cdd-870c-f91db81c1049.jpeg",
           "supplementary": []
@@ -5033,20 +4168,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "November",
-            "day": "1st",
-            "year": "2019"
-          },
-          "short": {
-            "month": "11",
-            "day": "01",
-            "year": "19"
-          }
-        },
+        "date": "11.01.2019",
         "hasStats": true,
-        "id": "VrwCw8D0D8Q8Shr",
+        "id": "UPXE2XGF589jfXb",
         "images": {
           "hero": "2019/10/19/b2ef8848-2e35-43dd-9f06-98434903f810.jpeg",
           "supplementary": []
@@ -5109,20 +4233,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "November",
-            "day": "2nd",
-            "year": "2019"
-          },
-          "short": {
-            "month": "11",
-            "day": "02",
-            "year": "19"
-          }
-        },
+        "date": "11.02.2019",
         "hasStats": true,
-        "id": "u7bjialoXZvpXcD",
+        "id": "CosJyYrlwz1f2EJ",
         "images": {
           "hero": "2019/10/19/a052d193-0be9-4288-b017-65d459c3eca1.jpeg",
           "supplementary": []
@@ -5185,20 +4298,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "November",
-            "day": "3rd",
-            "year": "2019"
-          },
-          "short": {
-            "month": "11",
-            "day": "03",
-            "year": "19"
-          }
-        },
+        "date": "11.03.2019",
         "hasStats": true,
-        "id": "aXG2otJ73mFA41V",
+        "id": "akFo0lYSmzKpoND",
         "images": {
           "hero": "2019/10/19/3773c3c4-265f-4e7e-8f0a-d6e1a7d9b85c.jpeg",
           "supplementary": []
@@ -5263,20 +4365,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "November",
-            "day": "4th",
-            "year": "2019"
-          },
-          "short": {
-            "month": "11",
-            "day": "04",
-            "year": "19"
-          }
-        },
+        "date": "11.04.2019",
         "hasStats": true,
-        "id": "s2hjTWNloqTrCEI",
+        "id": "ip30Xkt1jzTSybc",
         "images": {
           "hero": "2019/10/19/490d1db6-aaad-4ed3-9181-081ca318cd16.jpeg",
           "supplementary": []
@@ -5341,20 +4432,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "November",
-            "day": "5th",
-            "year": "2019"
-          },
-          "short": {
-            "month": "11",
-            "day": "05",
-            "year": "19"
-          }
-        },
+        "date": "11.05.2019",
         "hasStats": true,
-        "id": "UJJGfOotlrmXyOf",
+        "id": "FFEYv5eWkHWMtzn",
         "images": {
           "hero": "2019/10/19/8fef1e6f-d483-445c-b19c-d47bb7f1fc68.jpeg",
           "supplementary": []
@@ -5434,8 +4514,8 @@ const data = [
   },
   {
     "date": {
-      "dates": null,
-      "year": [
+      "date": null,
+      "years": [
         "2019",
         "2022"
       ]
@@ -5445,20 +4525,9 @@ const data = [
     "slug": "southern-rockies-14-ers",
     "stages": [
       {
-        "date": {
-          "long": {
-            "month": "August",
-            "day": "31st",
-            "year": "2019"
-          },
-          "short": {
-            "month": "08",
-            "day": "31",
-            "year": "19"
-          }
-        },
+        "date": "08.31.2019",
         "hasStats": true,
-        "id": "4nI8oxx8n8yNL2t",
+        "id": "3NLgFJBJkZEy6i7",
         "images": {
           "hero": "2019/08/31/52f1514b-91a4-494d-93df-6ae9c81df01c.jpeg",
           "supplementary": []
@@ -5523,20 +4592,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "September",
-            "day": "1st",
-            "year": "2019"
-          },
-          "short": {
-            "month": "09",
-            "day": "01",
-            "year": "19"
-          }
-        },
+        "date": "09.01.2019",
         "hasStats": true,
-        "id": "QoHxV2O1F0dOAbi",
+        "id": "Lwq4Z6hTdJgPq8B",
         "images": {
           "hero": "2019/09/01/08d28c7e-387b-418f-8226-b2a87485f1d8.jpeg",
           "supplementary": []
@@ -5601,20 +4659,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "September",
-            "day": "4th",
-            "year": "2020"
-          },
-          "short": {
-            "month": "09",
-            "day": "04",
-            "year": "20"
-          }
-        },
+        "date": "09.04.2020",
         "hasStats": true,
-        "id": "4oQvvMO2Yr8SsHC",
+        "id": "FNHSWTwoB1r4IKh",
         "images": {
           "hero": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
           "supplementary": []
@@ -5679,20 +4726,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "September",
-            "day": "5th",
-            "year": "2020"
-          },
-          "short": {
-            "month": "09",
-            "day": "05",
-            "year": "20"
-          }
-        },
+        "date": "09.05.2020",
         "hasStats": true,
-        "id": "aNgER491rN5MmB4",
+        "id": "1ECM29gkCLagHud",
         "images": {
           "hero": "2020/09/05/54a89ed8-86d4-4918-b7b3-b883ecea72c8.jpeg",
           "supplementary": []
@@ -5757,20 +4793,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "September",
-            "day": "6th",
-            "year": "2020"
-          },
-          "short": {
-            "month": "09",
-            "day": "06",
-            "year": "20"
-          }
-        },
+        "date": "09.06.2020",
         "hasStats": true,
-        "id": "NJPG57LFM6Svw9i",
+        "id": "4lTLlEpbeGKToy2",
         "images": {
           "hero": "2020/09/06/80307849-8964-4e0d-a70f-f6371ca7fcad.jpeg",
           "supplementary": []
@@ -5832,20 +4857,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "September",
-            "day": "7th",
-            "year": "2021"
-          },
-          "short": {
-            "month": "09",
-            "day": "07",
-            "year": "21"
-          }
-        },
+        "date": "09.07.2021",
         "hasStats": true,
-        "id": "VXfIUdULIKWRKNh",
+        "id": "wYViAGcMS3ASaMy",
         "images": {
           "hero": "2021/09/07/fbe767d5-63c6-4af7-8643-ceef9b4cce92.jpeg",
           "supplementary": []
@@ -5910,20 +4924,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "September",
-            "day": "9th",
-            "year": "2021"
-          },
-          "short": {
-            "month": "09",
-            "day": "09",
-            "year": "21"
-          }
-        },
+        "date": "09.09.2021",
         "hasStats": true,
-        "id": "TIIbIbKiREOeCMO",
+        "id": "UmKsMbTcfzDDMqi",
         "images": {
           "hero": "2021/09/09/8e1e0c1f-c391-4bc0-807c-7bdd8d20815b.jpeg",
           "supplementary": []
@@ -5988,20 +4991,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "September",
-            "day": "9th",
-            "year": "2022"
-          },
-          "short": {
-            "month": "09",
-            "day": "09",
-            "year": "22"
-          }
-        },
+        "date": "09.09.2022",
         "hasStats": true,
-        "id": "S8FlSDVli5FLZoY",
+        "id": "CU896AJNXToO67f",
         "images": {
           "hero": "2022/09/09/f722df6c-2869-4ff0-80f7-37014241e135.jpeg",
           "supplementary": []
@@ -6066,20 +5058,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "September",
-            "day": "11th",
-            "year": "2022"
-          },
-          "short": {
-            "month": "09",
-            "day": "11",
-            "year": "22"
-          }
-        },
+        "date": "09.11.2022",
         "hasStats": true,
-        "id": "GNKMwzBBJyotgIV",
+        "id": "EphNJB5mwvdPIur",
         "images": {
           "hero": "2022/09/11/b74f68ae-d627-4a89-9122-fbc75562e59d.jpeg",
           "supplementary": []
@@ -6161,33 +5142,8 @@ const data = [
   },
   {
     "date": {
-      "dates": {
-        "start": {
-          "long": {
-            "month": "July",
-            "day": "16th",
-            "year": "2019"
-          },
-          "short": {
-            "month": "Jul",
-            "day": "16",
-            "year": "19"
-          }
-        },
-        "end": {
-          "long": {
-            "month": "July",
-            "day": "25th",
-            "year": "2019"
-          },
-          "short": {
-            "month": "Jul",
-            "day": "25",
-            "year": "19"
-          }
-        }
-      },
-      "year": [
+      "date": "Jul 16 2019",
+      "years": [
         "2019"
       ]
     },
@@ -6196,20 +5152,9 @@ const data = [
     "slug": "alta-via-1",
     "stages": [
       {
-        "date": {
-          "long": {
-            "month": "July",
-            "day": "16th",
-            "year": "2019"
-          },
-          "short": {
-            "month": "07",
-            "day": "16",
-            "year": "19"
-          }
-        },
+        "date": "07.16.2019",
         "hasStats": true,
-        "id": "ALixFyYUTviaAkD",
+        "id": "RKaBFyRLpsFtSM9",
         "images": {
           "hero": "2019/07/16/eba70b28-4c7d-45f3-aa93-46b24011cb80.jpeg",
           "supplementary": []
@@ -6272,20 +5217,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "July",
-            "day": "17th",
-            "year": "2019"
-          },
-          "short": {
-            "month": "07",
-            "day": "17",
-            "year": "19"
-          }
-        },
+        "date": "07.17.2019",
         "hasStats": true,
-        "id": "DK1kMa6xh44D3s8",
+        "id": "nTWGp3ZVxudLuAn",
         "images": {
           "hero": "2019/07/16/69890344-e575-484e-86ae-5ddeb000c4f9.jpeg",
           "supplementary": []
@@ -6348,20 +5282,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "July",
-            "day": "18th",
-            "year": "2019"
-          },
-          "short": {
-            "month": "07",
-            "day": "18",
-            "year": "19"
-          }
-        },
+        "date": "07.18.2019",
         "hasStats": true,
-        "id": "5VQOTlarocrbL9i",
+        "id": "0buOSdOYh4Vki60",
         "images": {
           "hero": "2019/07/16/081c1b83-7036-4c3c-aa2f-0534f4250ab8.jpeg",
           "supplementary": []
@@ -6424,20 +5347,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "July",
-            "day": "19th",
-            "year": "2019"
-          },
-          "short": {
-            "month": "07",
-            "day": "19",
-            "year": "19"
-          }
-        },
+        "date": "07.19.2019",
         "hasStats": true,
-        "id": "W0Od9NbaZugq9d8",
+        "id": "ptAKqM3rAJwTVRZ",
         "images": {
           "hero": "2019/07/16/eb243b48-8084-4c7e-94c0-5a163983d407.jpeg",
           "supplementary": []
@@ -6500,20 +5412,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "July",
-            "day": "20th",
-            "year": "2019"
-          },
-          "short": {
-            "month": "07",
-            "day": "20",
-            "year": "19"
-          }
-        },
+        "date": "07.20.2019",
         "hasStats": true,
-        "id": "eJp20W7YcnTrq1V",
+        "id": "gd1daffnK1HZnMh",
         "images": {
           "hero": "2019/07/16/a3f65b8c-4b57-4194-a3a1-5769f1d63373.jpeg",
           "supplementary": []
@@ -6578,20 +5479,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "July",
-            "day": "21st",
-            "year": "2019"
-          },
-          "short": {
-            "month": "07",
-            "day": "21",
-            "year": "19"
-          }
-        },
+        "date": "07.21.2019",
         "hasStats": true,
-        "id": "5S8Selc5E9NCChN",
+        "id": "NQiw6NuMqYOS7O0",
         "images": {
           "hero": "2019/07/16/b1128805-54bb-4b7b-adcb-f2b6ae3fada6.jpeg",
           "supplementary": []
@@ -6656,20 +5546,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "July",
-            "day": "22nd",
-            "year": "2019"
-          },
-          "short": {
-            "month": "07",
-            "day": "22",
-            "year": "19"
-          }
-        },
+        "date": "07.22.2019",
         "hasStats": true,
-        "id": "Jd3plFNIrkBD0ha",
+        "id": "0VuukjtJXnGlTbl",
         "images": {
           "hero": "2019/07/16/a46e829f-147b-40d1-b7ae-2f743923feca.jpeg",
           "supplementary": []
@@ -6732,20 +5611,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "July",
-            "day": "23rd",
-            "year": "2019"
-          },
-          "short": {
-            "month": "07",
-            "day": "23",
-            "year": "19"
-          }
-        },
+        "date": "07.23.2019",
         "hasStats": true,
-        "id": "cNWKC70NR3uMYOJ",
+        "id": "4No44mudKPVT0Zq",
         "images": {
           "hero": "2019/07/16/21806386-052d-4a82-941e-6728771acd63.jpeg",
           "supplementary": []
@@ -6809,20 +5677,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "July",
-            "day": "24th",
-            "year": "2019"
-          },
-          "short": {
-            "month": "07",
-            "day": "24",
-            "year": "19"
-          }
-        },
+        "date": "07.24.2019",
         "hasStats": true,
-        "id": "qoZ0LuetIpFQe9t",
+        "id": "z5izFQi1QFUF38k",
         "images": {
           "hero": "2019/07/16/2982a2fe-75f6-473a-8d98-2c664c5cd38e.jpeg",
           "supplementary": []
@@ -6887,20 +5744,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "July",
-            "day": "25th",
-            "year": "2019"
-          },
-          "short": {
-            "month": "07",
-            "day": "25",
-            "year": "19"
-          }
-        },
+        "date": "07.25.2019",
         "hasStats": true,
-        "id": "RUBWLgkxYBA1IS2",
+        "id": "cZPqn5ADdPupPI5",
         "images": {
           "hero": "2019/07/16/735a0783-62ba-4f8e-97d8-c9b9f5327cfe.jpeg",
           "supplementary": []
@@ -6980,33 +5826,8 @@ const data = [
   },
   {
     "date": {
-      "dates": {
-        "start": {
-          "long": {
-            "month": "September",
-            "day": "2nd",
-            "year": "2018"
-          },
-          "short": {
-            "month": "Sep",
-            "day": "2",
-            "year": "18"
-          }
-        },
-        "end": {
-          "long": {
-            "month": "September",
-            "day": "13th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "Sep",
-            "day": "13",
-            "year": "18"
-          }
-        }
-      },
-      "year": [
+      "date": "Sep 2 2018",
+      "years": [
         "2018"
       ]
     },
@@ -7015,20 +5836,9 @@ const data = [
     "slug": "tour-du-mont-blanc",
     "stages": [
       {
-        "date": {
-          "long": {
-            "month": "September",
-            "day": "2nd",
-            "year": "2018"
-          },
-          "short": {
-            "month": "09",
-            "day": "02",
-            "year": "18"
-          }
-        },
+        "date": "09.02.2018",
         "hasStats": true,
-        "id": "hAW1ci2blOc9QVb",
+        "id": "crKlSqVQliiJUtJ",
         "images": {
           "hero": "2018/09/02/135eea74-e1bc-4cab-bfd7-28d17405a744.jpeg",
           "supplementary": []
@@ -7093,20 +5903,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "September",
-            "day": "3rd",
-            "year": "2018"
-          },
-          "short": {
-            "month": "09",
-            "day": "03",
-            "year": "18"
-          }
-        },
+        "date": "09.03.2018",
         "hasStats": true,
-        "id": "x1whS2QfUs93Etn",
+        "id": "s0lO3TI6W7PxGIN",
         "images": {
           "hero": "2018/09/02/56d3cc07-47c1-40c8-b7ee-483aa01d777c.jpeg",
           "supplementary": []
@@ -7175,20 +5974,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "September",
-            "day": "4th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "09",
-            "day": "04",
-            "year": "18"
-          }
-        },
+        "date": "09.04.2018",
         "hasStats": true,
-        "id": "6pRzCpkUymiYz64",
+        "id": "7ebUzTvcRHdx4ok",
         "images": {
           "hero": "2018/09/02/0420d236-d12a-40e8-8d6c-90558e26d304.jpeg",
           "supplementary": []
@@ -7259,20 +6047,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "September",
-            "day": "5th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "09",
-            "day": "05",
-            "year": "18"
-          }
-        },
+        "date": "09.05.2018",
         "hasStats": true,
-        "id": "GK04QvtjTArfbYa",
+        "id": "yrPqNI67wiG01EN",
         "images": {
           "hero": "2018/09/02/488a5815-e763-406d-94e1-5e51ff25cafe.jpeg",
           "supplementary": []
@@ -7341,20 +6118,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "September",
-            "day": "6th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "09",
-            "day": "06",
-            "year": "18"
-          }
-        },
+        "date": "09.06.2018",
         "hasStats": true,
-        "id": "v9xYmOehsqLOYUm",
+        "id": "Nmb4ABBiPKWOMdw",
         "images": {
           "hero": "2018/09/02/9cefaedf-2e6b-439a-9512-f1f37d2374eb.jpeg",
           "supplementary": []
@@ -7421,20 +6187,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "September",
-            "day": "7th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "09",
-            "day": "07",
-            "year": "18"
-          }
-        },
+        "date": "09.07.2018",
         "hasStats": true,
-        "id": "ngEI0sQlr0NtOJR",
+        "id": "9u4BKZORx3xLnd5",
         "images": {
           "hero": "2018/09/02/891cd8a7-97d2-4251-ac34-6c816c0ec570.jpeg",
           "supplementary": []
@@ -7501,20 +6256,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "September",
-            "day": "8th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "09",
-            "day": "08",
-            "year": "18"
-          }
-        },
+        "date": "09.08.2018",
         "hasStats": true,
-        "id": "Z4qTzVnTYPyQ7Lb",
+        "id": "TRNYH3r4FvkLZX8",
         "images": {
           "hero": "2018/09/02/8d209b3b-8d40-49b3-b754-fd91466c9708.jpeg",
           "supplementary": []
@@ -7581,20 +6325,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "September",
-            "day": "9th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "09",
-            "day": "09",
-            "year": "18"
-          }
-        },
+        "date": "09.09.2018",
         "hasStats": true,
-        "id": "GYH3KaPghuEQHYe",
+        "id": "ACFAvVmlHtioVRd",
         "images": {
           "hero": "2018/09/02/21248df2-d0b9-41d2-9662-b6215c24c298.jpeg",
           "supplementary": []
@@ -7661,20 +6394,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "September",
-            "day": "10th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "09",
-            "day": "10",
-            "year": "18"
-          }
-        },
+        "date": "09.10.2018",
         "hasStats": true,
-        "id": "X3gh5FBgDLOKRwi",
+        "id": "9bjDmntVWput7Rn",
         "images": {
           "hero": "2018/09/02/ec37f4a8-6310-4bf6-b1a7-cddb1f91bf3b.jpeg",
           "supplementary": []
@@ -7741,20 +6463,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "September",
-            "day": "11th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "09",
-            "day": "11",
-            "year": "18"
-          }
-        },
+        "date": "09.11.2018",
         "hasStats": true,
-        "id": "qn5QfU33t5BHpU4",
+        "id": "4jfYRMrdAbkTu6L",
         "images": {
           "hero": "2018/09/02/0ea4750a-307a-44be-a466-bb081d137d3c.jpeg",
           "supplementary": []
@@ -7821,20 +6532,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "September",
-            "day": "12th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "09",
-            "day": "12",
-            "year": "18"
-          }
-        },
+        "date": "09.12.2018",
         "hasStats": true,
-        "id": "oRFos99CEBNJZrQ",
+        "id": "6zblhYvdQzaIeXq",
         "images": {
           "hero": "2018/09/02/3faeb9f8-d262-4c12-869f-4470b0dc0574.jpeg",
           "supplementary": []
@@ -7902,20 +6602,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "September",
-            "day": "13th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "09",
-            "day": "13",
-            "year": "18"
-          }
-        },
+        "date": "09.13.2018",
         "hasStats": true,
-        "id": "4ZnvakqYCMJ2vi6",
+        "id": "bVoCfAG974LkxqN",
         "images": {
           "hero": "2018/09/02/8a0d6d12-a40d-47ba-9d09-6b8d5572bb32.jpeg",
           "supplementary": []
@@ -7997,33 +6686,8 @@ const data = [
   },
   {
     "date": {
-      "dates": {
-        "start": {
-          "long": {
-            "month": "June",
-            "day": "2nd",
-            "year": "2018"
-          },
-          "short": {
-            "month": "Jun",
-            "day": "2",
-            "year": "18"
-          }
-        },
-        "end": {
-          "long": {
-            "month": "July",
-            "day": "4th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "Jul",
-            "day": "4",
-            "year": "18"
-          }
-        }
-      },
-      "year": [
+      "date": "Jun 2 2018",
+      "years": [
         "2018"
       ]
     },
@@ -8032,20 +6696,9 @@ const data = [
     "slug": "camino-de-santiago",
     "stages": [
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "2nd",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "02",
-            "year": "18"
-          }
-        },
+        "date": "06.02.2018",
         "hasStats": true,
-        "id": "VGrX5SAsIzTTr8O",
+        "id": "ZN2bga3jxX5BkQA",
         "images": {
           "hero": "2018/06/02/36c8ce31-ccce-4133-9528-338124462edf.jpeg",
           "supplementary": []
@@ -8113,20 +6766,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "3rd",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "03",
-            "year": "18"
-          }
-        },
+        "date": "06.03.2018",
         "hasStats": true,
-        "id": "muRJ06LCeQGS0KP",
+        "id": "T1dCQte677BYOMb",
         "images": {
           "hero": "2018/06/02/259d7373-6f3d-4274-8ff8-440cb2724702.jpeg",
           "supplementary": []
@@ -8190,20 +6832,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "4th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "04",
-            "year": "18"
-          }
-        },
+        "date": "06.04.2018",
         "hasStats": true,
-        "id": "qKYP8QQ6JZYJUW1",
+        "id": "dvUIoZnuem68Dh2",
         "images": {
           "hero": "2018/06/02/94c5e141-580c-483b-91aa-13a88bf0f8fd.jpeg",
           "supplementary": []
@@ -8266,20 +6897,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "5th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "05",
-            "year": "18"
-          }
-        },
+        "date": "06.05.2018",
         "hasStats": true,
-        "id": "JwGrJ7AnKPTUsJq",
+        "id": "Y4z2kB5J3cPMQnz",
         "images": {
           "hero": "2018/06/02/88b734d7-ee6f-437f-a44b-6233d7f86158.jpeg",
           "supplementary": []
@@ -8344,20 +6964,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "6th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "06",
-            "year": "18"
-          }
-        },
+        "date": "06.06.2018",
         "hasStats": true,
-        "id": "jTuVJIInb9Gisp3",
+        "id": "r40pttoy5WqWBuZ",
         "images": {
           "hero": "2018/06/02/6de64c25-13b3-441f-96b8-1f80cd4d6bd6.jpeg",
           "supplementary": []
@@ -8422,20 +7031,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "7th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "07",
-            "year": "18"
-          }
-        },
+        "date": "06.07.2018",
         "hasStats": true,
-        "id": "1B5AjSZfoVa92Re",
+        "id": "E6RNn9jgVT3DIlh",
         "images": {
           "hero": "2018/06/02/f3c24aa0-ec3f-4319-9585-e178b9fd7bca.jpeg",
           "supplementary": []
@@ -8498,20 +7096,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "8th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "08",
-            "year": "18"
-          }
-        },
+        "date": "06.08.2018",
         "hasStats": true,
-        "id": "WUhpwRgpE2LPOMp",
+        "id": "waY3Ym7vPRNHdgB",
         "images": {
           "hero": "2018/06/02/71b4d4f4-b9d4-40b9-8902-cef791391428.jpeg",
           "supplementary": []
@@ -8574,20 +7161,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "9th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "09",
-            "year": "18"
-          }
-        },
+        "date": "06.09.2018",
         "hasStats": true,
-        "id": "56rkvwJlIip4wHL",
+        "id": "zKARh1nidlK2Eaf",
         "images": {
           "hero": "2018/06/02/e5a310be-0e12-45d8-9121-dbac375a4234.jpeg",
           "supplementary": []
@@ -8650,20 +7226,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "10th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "10",
-            "year": "18"
-          }
-        },
+        "date": "06.10.2018",
         "hasStats": true,
-        "id": "GQ4Vl3cTQQL4vXd",
+        "id": "1dMct9FNUGc27aV",
         "images": {
           "hero": "2018/06/02/50570d33-285a-4561-bc7f-b7e500363359.jpeg",
           "supplementary": []
@@ -8728,20 +7293,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "11th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "11",
-            "year": "18"
-          }
-        },
+        "date": "06.11.2018",
         "hasStats": true,
-        "id": "LH7yUgro0hDQmy8",
+        "id": "m3gw9COzwZTb2kW",
         "images": {
           "hero": "2018/06/02/009b868c-38ee-43e7-bc1c-90b259306d86.jpeg",
           "supplementary": []
@@ -8806,20 +7360,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "12th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "12",
-            "year": "18"
-          }
-        },
+        "date": "06.12.2018",
         "hasStats": true,
-        "id": "ALA9UTcDPK9YZYu",
+        "id": "4SPR7Yc2n17TDul",
         "images": {
           "hero": "2018/06/02/678b2b3a-6724-4bca-99b7-f7ed9a4683e7.jpeg",
           "supplementary": []
@@ -8882,20 +7425,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "13th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "13",
-            "year": "18"
-          }
-        },
+        "date": "06.13.2018",
         "hasStats": true,
-        "id": "fYIBbSYQuAFFZCd",
+        "id": "G7joH2KCF7wVfiv",
         "images": {
           "hero": "2018/06/02/28740c31-9cb0-4952-af50-9f1bab6c1edb.jpeg",
           "supplementary": []
@@ -8958,20 +7490,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "14th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "14",
-            "year": "18"
-          }
-        },
+        "date": "06.14.2018",
         "hasStats": true,
-        "id": "a71fHz7IHmLWfcp",
+        "id": "syQgZCbYRZNyDCC",
         "images": {
           "hero": "2018/06/02/3ecd42d0-421e-4e3d-a770-830e68e2652c.jpeg",
           "supplementary": []
@@ -9034,20 +7555,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "15th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "15",
-            "year": "18"
-          }
-        },
+        "date": "06.15.2018",
         "hasStats": true,
-        "id": "j818Wf8wypREqWK",
+        "id": "KbN71DBPl2pokGx",
         "images": {
           "hero": "2018/06/02/98a7eed4-299d-40e6-a537-779a5bab6c77.jpeg",
           "supplementary": []
@@ -9110,20 +7620,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "16th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "16",
-            "year": "18"
-          }
-        },
+        "date": "06.16.2018",
         "hasStats": true,
-        "id": "4iJoFtxzLznxiwS",
+        "id": "54osWXoXGv39lLG",
         "images": {
           "hero": "2018/06/02/2e08d5fe-1711-4768-8ded-f3714e186923.jpeg",
           "supplementary": []
@@ -9186,20 +7685,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "17th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "17",
-            "year": "18"
-          }
-        },
+        "date": "06.17.2018",
         "hasStats": true,
-        "id": "mstCgPItHcmqJX0",
+        "id": "Gygv053ozxyTmu4",
         "images": {
           "hero": "2018/06/02/bcdc06e3-4c95-4138-9779-bc46670a4e1b.jpeg",
           "supplementary": []
@@ -9262,20 +7750,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "18th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "18",
-            "year": "18"
-          }
-        },
+        "date": "06.18.2018",
         "hasStats": true,
-        "id": "PQadMe0Atenxh3Z",
+        "id": "ejpXsBDHBOERv7q",
         "images": {
           "hero": "2018/06/02/2b268d15-bea2-42ae-a15c-1ab6fd5fe4f7.jpeg",
           "supplementary": []
@@ -9338,20 +7815,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "19th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "19",
-            "year": "18"
-          }
-        },
+        "date": "06.19.2018",
         "hasStats": true,
-        "id": "Sx6qF5gzw790DXY",
+        "id": "W756vEPVgxhzn0Q",
         "images": {
           "hero": "2018/06/02/845acb7b-86f3-4768-8ce3-c8be727c50af.jpeg",
           "supplementary": []
@@ -9414,20 +7880,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "20th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "20",
-            "year": "18"
-          }
-        },
+        "date": "06.20.2018",
         "hasStats": true,
-        "id": "fFCNkCtUYFUpHuE",
+        "id": "7qgd6FpgUxCqZu1",
         "images": {
           "hero": "2018/06/02/f5741d7d-6a86-47ae-a5b1-f1bced05bb00.jpeg",
           "supplementary": []
@@ -9490,20 +7945,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "21st",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "21",
-            "year": "18"
-          }
-        },
+        "date": "06.21.2018",
         "hasStats": true,
-        "id": "kKjuMUZUvXo741X",
+        "id": "2OAYVJ8KU8Gaol6",
         "images": {
           "hero": "2018/06/02/0cf7b647-1681-4b88-be6a-cbba1163f38a.jpeg",
           "supplementary": []
@@ -9566,20 +8010,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "22nd",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "22",
-            "year": "18"
-          }
-        },
+        "date": "06.22.2018",
         "hasStats": true,
-        "id": "GzYpp4f8DvqP3oy",
+        "id": "QpAHa1ikKRHBvHL",
         "images": {
           "hero": "2018/06/02/bf4e84fe-e4ca-4834-ab65-393f965bbdb8.jpeg",
           "supplementary": []
@@ -9642,20 +8075,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "23rd",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "23",
-            "year": "18"
-          }
-        },
+        "date": "06.23.2018",
         "hasStats": true,
-        "id": "Y0zhsKakiQOWBRH",
+        "id": "Gwygl7RTMRteaOK",
         "images": {
           "hero": "2018/06/02/2901af55-b7bf-41ec-9471-6ec3699b1f12.jpeg",
           "supplementary": []
@@ -9719,20 +8141,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "24th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "24",
-            "year": "18"
-          }
-        },
+        "date": "06.24.2018",
         "hasStats": true,
-        "id": "Ub7Y1YHxcQJh54E",
+        "id": "SjRKr4XDUmiJllr",
         "images": {
           "hero": "2018/06/02/7fa41365-3d33-461b-9be5-5a946064923c.jpeg",
           "supplementary": []
@@ -9796,20 +8207,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "25th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "25",
-            "year": "18"
-          }
-        },
+        "date": "06.25.2018",
         "hasStats": true,
-        "id": "8qaH8427HSBmYAF",
+        "id": "GTKIMBB02ICqjVT",
         "images": {
           "hero": "2018/06/02/6349679e-acbf-4f74-ad4a-0d9032c3b293.jpeg",
           "supplementary": []
@@ -9873,20 +8273,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "26th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "26",
-            "year": "18"
-          }
-        },
+        "date": "06.26.2018",
         "hasStats": true,
-        "id": "awtDZ0NBOoO1DAD",
+        "id": "drUjjg8c5XkxPlf",
         "images": {
           "hero": "2018/06/02/4e1b42f2-3994-4d1c-ad29-620eab9c80c7.jpeg",
           "supplementary": []
@@ -9949,20 +8338,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "27th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "27",
-            "year": "18"
-          }
-        },
+        "date": "06.27.2018",
         "hasStats": true,
-        "id": "SWe84f7JZaAFutt",
+        "id": "A4YUlNFiiYOPOFt",
         "images": {
           "hero": "2018/06/02/3d738e26-0747-447a-98fb-0bb35e1736c3.jpeg",
           "supplementary": []
@@ -10025,20 +8403,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "28th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "28",
-            "year": "18"
-          }
-        },
+        "date": "06.28.2018",
         "hasStats": true,
-        "id": "a01A7rav3jE0esI",
+        "id": "3kINc6rDWGK1JD3",
         "images": {
           "hero": "2018/06/02/4e8fd9a9-ed5f-429f-9230-efa731461a5f.jpeg",
           "supplementary": []
@@ -10101,20 +8468,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "29th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "29",
-            "year": "18"
-          }
-        },
+        "date": "06.29.2018",
         "hasStats": true,
-        "id": "M7c6ZFE3ma0PdAz",
+        "id": "U20L7iJAh9vjeEB",
         "images": {
           "hero": "2018/06/02/2dcb1878-efe7-47d7-b7b5-b031ab143cb6.jpeg",
           "supplementary": []
@@ -10177,20 +8533,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "June",
-            "day": "30th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "06",
-            "day": "30",
-            "year": "18"
-          }
-        },
+        "date": "06.30.2018",
         "hasStats": true,
-        "id": "QIIOUvrMlEOJmpZ",
+        "id": "qIrSt0DuwX1skMJ",
         "images": {
           "hero": "2018/06/02/1921986b-9cf8-4bf8-b531-3bfe2f098f93.jpeg",
           "supplementary": []
@@ -10255,20 +8600,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "July",
-            "day": "2nd",
-            "year": "2018"
-          },
-          "short": {
-            "month": "07",
-            "day": "02",
-            "year": "18"
-          }
-        },
+        "date": "07.02.2018",
         "hasStats": true,
-        "id": "Etg8SycOQ8PAplj",
+        "id": "3VWnfNEFaOdj1mP",
         "images": {
           "hero": "2018/06/02/7f51e3c4-518e-4147-8e73-c19d6c87ce11.jpeg",
           "supplementary": []
@@ -10333,20 +8667,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "July",
-            "day": "3rd",
-            "year": "2018"
-          },
-          "short": {
-            "month": "07",
-            "day": "03",
-            "year": "18"
-          }
-        },
+        "date": "07.03.2018",
         "hasStats": true,
-        "id": "l5NcXXojgs7NB8s",
+        "id": "06PlV5XLbDQSdhR",
         "images": {
           "hero": "2018/06/02/32011e1d-8075-4b90-9a91-db88c3d66989.jpeg",
           "supplementary": []
@@ -10409,20 +8732,9 @@ const data = [
         ]
       },
       {
-        "date": {
-          "long": {
-            "month": "July",
-            "day": "4th",
-            "year": "2018"
-          },
-          "short": {
-            "month": "07",
-            "day": "04",
-            "year": "18"
-          }
-        },
+        "date": "07.04.2018",
         "hasStats": true,
-        "id": "JBFzHLuxBSGzOsV",
+        "id": "KQxhKxaEFbYb4q2",
         "images": {
           "hero": "2018/06/02/aa8b0404-f4d1-44ed-bc96-ce65eae03848.jpeg",
           "supplementary": []

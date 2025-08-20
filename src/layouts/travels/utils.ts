@@ -3,12 +3,12 @@ import { groupBy } from 'lodash';
 import type { Filter, Trip } from '@/types';
 import { getStaticType } from '@/utils';
 
-export function filterBy(trips: Trip[], filter: string | null): Trip[] {
-  if (!filter) {
+export function filterBy(trips: Trip[], type: string | null): Trip[] {
+  if (!type) {
     return trips;
   }
 
-  return trips.filter((trip) => trip.type === filter.toLowerCase());
+  return trips.filter((trip) => trip.type === type.toLowerCase());
 }
 
 export function getFilters(trips: Trip[]): Filter[] {

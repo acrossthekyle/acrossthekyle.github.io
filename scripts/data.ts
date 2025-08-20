@@ -385,18 +385,7 @@ async function getStages(folder) {
       const date = parseDate(data.date, 'MMMM do, yyyy', new Date());
 
       stages.push({
-        date: {
-          long: {
-            month: formatDate(date, 'MMMM'),
-            day: formatDate(date, 'do'),
-            year: formatDate(date, 'yyyy'),
-          },
-          short: {
-            month: formatDate(date, 'MM'),
-            day: formatDate(date, 'dd'),
-            year: formatDate(date, 'yy'),
-          },
-        },
+        date: `${formatDate(date, 'MM')}.${formatDate(date, 'dd')}.${formatDate(date, 'yyyy')}`,
         elevation,
         hasStats: !Object.values(stats).every(value => value === null),
         id: generateId(),
@@ -423,8 +412,8 @@ async function getStages(folder) {
 
   const sorted = stages.sort(
     (a, b) =>
-      parseDate(`${a.date.long.month} ${a.date.long.day}, ${a.date.long.year}`, 'MMMM do, yyyy', new Date()).getTime() -
-      parseDate(`${b.date.long.month} ${b.date.long.day}, ${b.date.long.year}`, 'MMMM do, yyyy', new Date()).getTime(),
+      parseDate(`${a.date}`, 'MM.dd.yyyy', new Date()).getTime() -
+      parseDate(`${b.date}`, 'MM.dd.yyyy', new Date()).getTime(),
   );
 
   const result = sorted.map((item, index) => {
@@ -538,48 +527,21 @@ async function getTripStats(trip, stages) {
 
 async function getTripDate(trip, stages) {
   const start = parseDate(trip.dates[0], 'M/dd/yyyy', new Date());
-  const year = [formatDate(start, 'yyyy').trim()];
+  const years = [formatDate(start, 'yyyy').trim()];
 
-  let dates = null;
+  let date = null;
 
   if (trip.dates.length > 1) {
-    const end = parseDate(trip.dates[1], 'M/dd/yyyy', new Date());
-
-    dates = {
-      start: {
-        long: {
-          month: formatDate(start, 'LLLL'),
-          day: formatDate(start, 'do'),
-          year: formatDate(start, 'yyyy'),
-        },
-        short: {
-          month: formatDate(start, 'LLL'),
-          day: formatDate(start, 'd'),
-          year: formatDate(start, 'yy'),
-        },
-      },
-      end: {
-        long: {
-          month: formatDate(end, 'LLLL'),
-          day: formatDate(end, 'do'),
-          year: formatDate(end, 'yyyy'),
-        },
-        short: {
-          month: formatDate(end, 'LLL'),
-          day: formatDate(end, 'd'),
-          year: formatDate(end, 'yy'),
-        },
-      },
-    };
+    date = `${formatDate(start, 'LLL')} ${formatDate(start, 'd')} ${years}`;
   }
 
-  if (dates === null) {
-    year.push(stages[stages.length - 1].date.long.year.trim());
+  if (date === null) {
+    years.push(stages[stages.length - 1].date.split('.')[2].trim());
   }
 
   return {
-    dates,
-    year,
+    date,
+    years,
   };
 }
 

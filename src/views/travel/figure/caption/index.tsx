@@ -58,7 +58,7 @@ export default function Caption({ label, stage, total }: Props) {
       </p>
       <p className={styles.subheading}>
         <span className={styles.highlight}>
-          {stage.date.short.month}.{stage.date.short.day}.{stage.date.long.year}
+          {stage.date}
         </span>
       </p>
     </figcaption>

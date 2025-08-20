@@ -4,20 +4,9 @@ export type DateParts = {
   year: string;
 };
 
-export type Dates = {
-  start: {
-    long: DateParts;
-    short: DateParts;
-  };
-  end: {
-    long: DateParts;
-    short: DateParts;
-  };
-};
-
 export type Date = {
-  dates: Dates | null;
-  year: string[];
+  date: string | null;
+  years: string[];
 };
 
 export type StatFull = {
@@ -56,10 +45,7 @@ export type StageImages = {
 };
 
 export type Stage = {
-  date: {
-    long: DateParts;
-    short: DateParts;
-  };
+  date: string;
   hasStats: boolean;
   images: StageImages;
   index: number;
