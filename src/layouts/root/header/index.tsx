@@ -1,5 +1,6 @@
 'use client';
 
+import { Star } from 'lucide-react';
 import Link from 'next/link';
 
 import { useModel } from './model';
@@ -15,6 +16,12 @@ export default function Header() {
 
   return (
     <header className={styles.header(isOnRoot, isOnParent)}>
+      <Link
+        className={styles.logo(isOnRoot, isOnParent)}
+        href="/"
+      >
+        <Star className={styles.star} />
+      </Link>
       <div className={styles.breadcrumbs(isOnRoot, isOnParent)}>
         {breadcrumbs.map((breadcrumb) => (
           <Link

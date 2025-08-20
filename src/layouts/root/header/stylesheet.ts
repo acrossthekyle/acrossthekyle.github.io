@@ -45,6 +45,51 @@ const styles = tw({
       sl:py-12
     `);
   },
+  logo: (isOnRoot: boolean, isOnParent: boolean) => {
+    const common = `
+      absolute top-6 left-6
+      font-black
+      uppercase
+    `;
+
+    if (isOnRoot) {
+      return tw(`
+        block
+
+        ${common}
+
+        ml:top-12
+        ml:left-20
+      `);
+    }
+
+    if (isOnParent) {
+      return tw(`
+        hidden
+        ${common}
+
+        md:block
+        ml:top-12
+        ml:left-20
+      `);
+    }
+
+    return tw(`
+      hidden
+      ${common}
+
+      ml:block
+      sl:top-12
+      sl:left-20
+    `);
+  },
+  star: `
+    h-6 w-6
+    fill-white/90
+    duration-300
+
+    hover:rotate-72
+  `,
   breadcrumbs: (isOnRoot: boolean, isOnParent: boolean) => {
     const common = `
       flex items-center gap-1
@@ -140,8 +185,8 @@ const styles = tw({
         4xs:text-6xl/10
         3xs:h-14
         3xs:text-7xl/14
-        sm:h-19
-        sm:text-8xl/18
+        sm:h-18
+        sm:text-8xl/17
         md:pe-20
         2xl:h-26
         2xl:text-9xl/26
