@@ -1,9 +1,3 @@
-export type DateParts = {
-  month: string;
-  day: string;
-  year: string;
-};
-
 export type Date = {
   date: string | null;
   years: string[];

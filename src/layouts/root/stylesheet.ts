@@ -3,6 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   main: `
     flex-1
+
     md:h-auto
     ml:flex
   `,
