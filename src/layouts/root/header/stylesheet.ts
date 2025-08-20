@@ -4,7 +4,7 @@ const styles = tw({
   header: (isOnRoot: boolean, isOnParent: boolean) => {
     const common = `
       top-0 left-0 bottom-0 z-1
-      p-6
+      p-6 pb-0
 
       md:z-3
     `;
@@ -25,12 +25,12 @@ const styles = tw({
       return tw(`
         ${common}
         relative
-        flex flex-row items-start justify-between
+        flex flex-row items-center justify-between
 
         md:absolute
         md:flex-col
+        md:items-start
         md:justify-end
-        ml:pb-0
         ml:pl-20
         ml:py-12
       `);
@@ -39,7 +39,7 @@ const styles = tw({
     return tw(`
       ${common}
       relative
-      flex flex-row items-start justify-between
+      flex flex-row items-center justify-between
 
       md:px-6
       md:py-6
@@ -47,19 +47,14 @@ const styles = tw({
       ml:absolute
       ml:flex-col
       ml:justify-end
+      ml:items-start
       sl:pl-20
       sl:py-12
     `);
   },
   anchor: (isOnRoot: boolean, isOnParent: boolean) => {
-    const common = `
-      group/logo
-      flex items-center
-    `;
-
     if (isOnRoot) {
       return tw(`
-        ${common}
         block
         absolute top-6
 
@@ -69,7 +64,6 @@ const styles = tw({
 
     if (isOnParent) {
       return tw(`
-        ${common}
         relative
 
         md:absolute
@@ -79,7 +73,6 @@ const styles = tw({
     }
 
     return tw(`
-      ${common}
       relative
 
       ml:absolute
@@ -138,43 +131,14 @@ const styles = tw({
       sl:right-20
     `);
   },
-  square: `
-    relative
-    flex flex-col items-center justify-center
-    mr-1
-    bg-white/90
-    h-3 w-3
-    mr-0.75
-    rounded-xs
-  `,
-  o: `
-    h-2 w-2
-    bg-black
-    rounded-full
+  star: `
+    h-8 w-8
+    stroke-0
+    fill-white/90
   `,
   x: `
-    mt-0.5
-    w-5 h-5
-    stroke-3 stroke-white/90
-  `,
-  username: (isOnRoot: boolean) => tw(`
-    flex items-center
-    text-base
-    font-black
-    uppercase
-    duration-300
-
-    ${isOnRoot ? 'opacity-100' : 'opacity-0'}
-  `),
-  over: `
-    block
-    w-0
-    duration-500
-    overflow-hidden
-    text-black
-
-    group-hover/logo:w-12
-    group-hover/logo:text-white
+    w-8 h-8
+    stroke-2 stroke-white/90
   `,
   nav: (isOnRoot: boolean, isOnParent: boolean) => {
     if (isOnRoot) {

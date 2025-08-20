@@ -3,7 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   title: `
     block
-    mb-6
+    mb-6 mt-5
     text-4xl/8 text-white/90
     font-bold font-stretch-extra-condensed
     tracking-tighter

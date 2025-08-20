@@ -1,6 +1,6 @@
 'use client';
 
-import { X } from 'lucide-react';
+import { Star, X } from 'lucide-react';
 import Link from 'next/link';
 
 import { useModel } from './model';
@@ -20,13 +20,7 @@ export default function Header() {
         className={`${styles.anchor(isOnRoot, isOnParent)} ${styles.logo(isOnRoot, isOnParent)}`}
         href="/"
       >
-        <span className={styles.square}>
-          <span className={styles.o} />
-        </span>
-        <span className={styles.username(isOnRoot)}>
-          <span className={styles.over}>över</span>
-          kyle
-        </span>
+        <Star className={styles.star} />
       </Link>
       <button
         className={`${styles.anchor(isOnRoot, isOnParent)} ${styles.close(isOnRoot, isOnParent)}`}

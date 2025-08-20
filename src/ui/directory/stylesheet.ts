@@ -43,7 +43,7 @@ const styles = tw({
     `);
   },
   title: `
-    absolute top-2 left-6
+    absolute top-6 left-6
     opacity-0
     animate-in
 
