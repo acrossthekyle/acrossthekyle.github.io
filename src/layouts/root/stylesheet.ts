@@ -15,7 +15,7 @@ const styles = tw({
     ml:right-20
   `,
   copy: `
-    absolute
+    flex items-center
     invisible
   `,
 });

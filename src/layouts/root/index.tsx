@@ -19,7 +19,7 @@ export default function Layout({ children }: Props) {
       </Suspense>
       <footer className={styles.footer}>
         <span className={styles.copy}>
-          &copy; '87 - {new Date().getFullYear()}
+          &copy; 1987 - {new Date().getFullYear()}
         </span>
       </footer>
       <Modal />

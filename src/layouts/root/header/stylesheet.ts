@@ -135,7 +135,7 @@ const styles = tw({
 
         5xs:h-9
         5xs:text-5xl/9
-        5xs:font-stretch-condensed
+        5xs:font-stretch-semi-condensed
         4xs:h-11
         4xs:text-6xl/10
         3xs:h-14
@@ -146,8 +146,8 @@ const styles = tw({
         2xl:h-26
         2xl:text-9xl/26
 
-        hover:font-light
-        hover:tracking-wider
+        hover:font-extralight
+        hover:tracking-wide
       `);
     }
 

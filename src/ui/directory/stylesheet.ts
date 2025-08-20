@@ -64,7 +64,7 @@ const styles = tw({
       group/link
 
       uppercase
-      duration-300
+      duration-200
       overflow-hidden
     `;
 
