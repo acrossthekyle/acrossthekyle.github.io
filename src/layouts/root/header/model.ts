@@ -1,7 +1,6 @@
 'use client';
 
 import { usePathname, useSearchParams } from 'next/navigation';
-import { useEffect, useState } from 'react';
 
 import { routes } from './constants';
 import type { Model } from './types';
@@ -12,15 +11,8 @@ export function useModel(): Model {
 
   const searchParams = useSearchParams();
 
-  const [isOnRoot, setIsOnRoot] = useState(true);
-  const [isOnParent, setIsOnParent] = useState(false);
-
-  useEffect(() => {
-    const slashes = pathname.split('').filter(character => character === '/');
-
-    setIsOnRoot(pathname === '/');
-    setIsOnParent(pathname !== '/' && slashes.length === 1);
-  }, [pathname]);
+  const isOnRoot = pathname === '/';
+  const isOnParent = pathname !== '/' && pathname.split('').filter(character => character === '/').length === 1;
 
   const parameters = searchParams.toString();
 

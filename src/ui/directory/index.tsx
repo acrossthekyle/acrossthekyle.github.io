@@ -33,7 +33,7 @@ type Props = {
 export default function Directory({
   align = 'end',
   className = '',
-  filters,
+  filters = [],
   isLoading,
   items,
   title,
@@ -45,7 +45,7 @@ export default function Directory({
       className={`${styles.container(isOnChild, align)} ${className}`.trim()}
     >
       {title && (<Title className={styles.title}>{title}</Title>)}
-      {filters && (
+      {filters.length > 0 && (
         <Filters current={current} filters={filters} isOnChild={isOnChild} />
       )}
       <nav>
