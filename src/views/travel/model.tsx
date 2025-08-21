@@ -3,8 +3,8 @@
 import { useCallback, useEffect, useState } from 'react';
 
 import { useModal } from '@/hooks/useModal';
-import { useTrips } from '@/hooks/useTrips';
-import type { Stage, Trip } from '@/types';
+import { useTravels } from '@/hooks/useTravels';
+import type { Stage, Travel } from '@/types';
 
 import Figure from './figure';
 
@@ -12,27 +12,20 @@ type Model = {
   handleOnMaximize: (stage: Stage, ref: React.RefObject<HTMLFrameElement | null>, galleryIndex: number) => void;
   handleOnViewMore: () => void;
   shown: number;
-  trip: Trip | undefined;
+  travel?: Travel;
 };
 
 const AMOUNT_SHOWN = 6;
 
 export function useModel(slug: string): Model {
-  const { find } = useTrips();
+  const { find, travel } = useTravels();
 
   const { closeModal, modal } = useModal();
 
   const [shown, setShown] = useState(AMOUNT_SHOWN);
-  const [trip, setTrip] = useState<Trip | undefined>();
 
   useEffect(() => {
-    const getTrip = async () => {
-      const result = await find(slug);
-
-      setTrip(result);
-    }
-
-    getTrip();
+    find(slug);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -45,7 +38,7 @@ export function useModel(slug: string): Model {
   };
 
   const handleOnMaximize = (stage: Stage, ref: React.RefObject<HTMLFrameElement | null>, galleryIndex: number) => {
-    if (!trip) {
+    if (!travel) {
       return;
     }
 
@@ -54,10 +47,10 @@ export function useModel(slug: string): Model {
         <Figure
           activeGalleryIndex={galleryIndex}
           isFullscreen
-          label={trip.label}
+          label={travel.label}
           onMinimize={handleOnMinimize}
           stage={stage}
-          total={trip.stats.length.value}
+          total={travel.stats.length.value}
         />
       ),
       ref,
@@ -68,6 +61,6 @@ export function useModel(slug: string): Model {
     handleOnMaximize,
     handleOnViewMore,
     shown,
-    trip,
+    travel,
   };
 }

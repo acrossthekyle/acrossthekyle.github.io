@@ -33,7 +33,7 @@ export type Termini = {
   start: string[];
 };
 
-export type StageImages = {
+export type Images = {
   hero: string;
   supplementary: string[];
 };
@@ -41,7 +41,7 @@ export type StageImages = {
 export type Stage = {
   date: string;
   hasStats: boolean;
-  images: StageImages;
+  images: Images;
   index: number;
   location: string | null;
   stats: {
@@ -53,7 +53,7 @@ export type Stage = {
   title: string[];
 };
 
-export type Trip = {
+export type Travel = {
   date: Date;
   index: number;
   label: string;

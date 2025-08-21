@@ -1,4 +1,4 @@
-import trips from '@/app/api/data';
+import travels from '@/app/api/data';
 
 import { filterBy, getFilters } from './utils';
 
@@ -9,27 +9,27 @@ describe('utils', () => {
   let countOfVacationing;
 
   beforeEach(() => {
-    countOfThruHiking = trips.filter(trip => trip.type === 'thru-hiking');
-    countOfSectionHiking = trips.filter(trip => trip.type === 'section-hiking');
-    countOfPeakBagging = trips.filter(trip => trip.type === 'peak-bagging');
-    countOfVacationing = trips.filter(trip => trip.type === 'vacationing');
+    countOfThruHiking = travels.filter(trip => trip.type === 'thru-hiking');
+    countOfSectionHiking = travels.filter(trip => trip.type === 'section-hiking');
+    countOfPeakBagging = travels.filter(trip => trip.type === 'peak-bagging');
+    countOfVacationing = travels.filter(trip => trip.type === 'vacationing');
   });
 
   describe('filterBy', () => {
     it('will filter by trip type', () => {
-      expect(filterBy(trips, '')).toHaveLength(trips.length);
-      expect(filterBy(trips, null)).toHaveLength(trips.length);
+      expect(filterBy(travels, '')).toHaveLength(travels.length);
+      expect(filterBy(travels, null)).toHaveLength(travels.length);
 
-      expect(filterBy(trips, 'vacationing')).toHaveLength(countOfVacationing.length);
-      expect(filterBy(trips, 'peak-bagging')).toHaveLength(countOfPeakBagging.length);
-      expect(filterBy(trips, 'section-hiking')).toHaveLength(countOfSectionHiking.length);
-      expect(filterBy(trips, 'thru-hiking')).toHaveLength(countOfThruHiking.length);
+      expect(filterBy(travels, 'vacationing')).toHaveLength(countOfVacationing.length);
+      expect(filterBy(travels, 'peak-bagging')).toHaveLength(countOfPeakBagging.length);
+      expect(filterBy(travels, 'section-hiking')).toHaveLength(countOfSectionHiking.length);
+      expect(filterBy(travels, 'thru-hiking')).toHaveLength(countOfThruHiking.length);
     });
   });
 
   describe('getFilters', () => {
     it('will get filters based on trip types', () => {
-      expect(getFilters(trips)).toEqual([
+      expect(getFilters(travels)).toEqual([
         {
           count: countOfThruHiking.length,
           filter: 'thru-hiking',

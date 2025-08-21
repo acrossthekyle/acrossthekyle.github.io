@@ -2,7 +2,7 @@ import { Slash } from 'lucide-react';
 import Link from 'next/link';
 
 import type { Date } from '@/types';
-import { getStaticType, getTripDate } from '@/utils';
+import { getStaticType, getDate } from '@/utils';
 
 import styles from './stylesheet';
 
@@ -20,7 +20,7 @@ export default function Header({ date, title, type }: Props) {
         <Slash className={styles.slash} />
         {getStaticType(type)}
         <Slash className={styles.slash} />
-        {getTripDate(date)}
+        {getDate(date)}
       </span>
       {title.map((word: string) => (
         <span className={styles.block} key={word}>

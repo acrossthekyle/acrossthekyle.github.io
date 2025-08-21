@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   title: `
-    pl-6 pt-6
+    pl-6 pt-12
 
     md:hidden
   `,

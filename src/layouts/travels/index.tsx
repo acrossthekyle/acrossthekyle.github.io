@@ -4,7 +4,7 @@ import { ReactNode } from 'react';
 
 import Directory from '@/ui/directory';
 import Title from '@/ui/title';
-import { getStaticType, getTripDate } from '@/utils';
+import { getStaticType, getDate } from '@/utils';
 
 import { useModel } from './model';
 import styles from './stylesheet';
@@ -14,7 +14,7 @@ type Props = {
 };
 
 export default function Layout({ children }: Props) {
-  const { filters, isLoading, isOnTravels, trips } = useModel();
+  const { filters, isLoading, isOnTravels, travels } = useModel();
 
   return (
     <>
@@ -23,8 +23,8 @@ export default function Layout({ children }: Props) {
         align="start"
         filters={filters}
         isLoading={isLoading}
-        items={trips.map((trip) => ({
-          meta: [getStaticType(trip.type), getTripDate(trip.date)],
+        items={travels.map((trip) => ({
+          meta: [getStaticType(trip.type), getDate(trip.date)],
           path: `/travels/${trip.slug}`,
           text: trip.title,
         }))}

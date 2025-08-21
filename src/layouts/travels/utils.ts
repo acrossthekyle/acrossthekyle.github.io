@@ -1,18 +1,18 @@
 import { groupBy } from 'lodash';
 
-import type { Filter, Trip } from '@/types';
+import type { Filter, Travel } from '@/types';
 import { getStaticType } from '@/utils';
 
-export function filterBy(trips: Trip[], type: string | null): Trip[] {
+export function filterBy(travels: Travel[], type: string | null): Travel[] {
   if (!type) {
-    return trips;
+    return travels;
   }
 
-  return trips.filter((trip) => trip.type === type.toLowerCase());
+  return travels.filter((travel) => travel.type === type.toLowerCase());
 }
 
-export function getFilters(trips: Trip[]): Filter[] {
-  const types = trips.map((trip) => trip.type);
+export function getFilters(travels: Travel[]): Filter[] {
+  const types = travels.map((travel) => travel.type);
   const groups = groupBy(types);
   const result: Filter[] = [];
 

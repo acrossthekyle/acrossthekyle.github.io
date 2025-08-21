@@ -1,5 +1,7 @@
 'use client';
 
+import { Maximize, Minimize } from 'lucide-react';
+
 import type { Stage } from '@/types';
 
 import Caption from './caption';
@@ -54,7 +56,7 @@ export default function Figure({
           onClick={onMinimize}
           type="button"
         >
-          Close
+          <Minimize />
         </button>
       ) : (
         <button
@@ -62,7 +64,7 @@ export default function Figure({
           onClick={() => onMaximize?.(stage, figureRef, galleryIndex)}
           type="button"
         >
-          Fullscreen
+          <Maximize />
         </button>
       )}
     </figure>

@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from 'react';
 
-import type { StageImages } from '@/types';
+import type { Images } from '@/types';
 
 type Model = {
   figureRef: React.RefObject<HTMLFrameElement | null>;
@@ -14,7 +14,7 @@ type Model = {
   hasEnteredView: boolean;
 };
 
-export function useModel(images: StageImages, activeGalleryIndex: number): Model {
+export function useModel(images: Images, activeGalleryIndex: number): Model {
   const [gallery, setGallery] = useState<string[]>([]);
   const [galleryIndex, setGalleryIndex] = useState(activeGalleryIndex);
   const [hasEnteredView, setHasEnteredView] = useState(false);

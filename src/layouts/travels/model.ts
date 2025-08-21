@@ -3,8 +3,8 @@
 import { useEffect, useState } from 'react';
 import { usePathname, useSearchParams } from 'next/navigation';
 
-import { useTrips } from '@/hooks/useTrips';
-import type { Filter, Trip } from '@/types';
+import { useTravels } from '@/hooks/useTravels';
+import type { Filter, Travel } from '@/types';
 
 import { filterBy, getFilters } from './utils';
 
@@ -12,13 +12,13 @@ type Model = {
   filters: Filter[];
   isLoading: boolean;
   isOnTravels: boolean;
-  trips: Trip[];
+  travels: Travel[];
 };
 
 export function useModel(): Model {
   const [filters, setFilters] = useState<Filter[]>([]);
 
-  const { fetch, isLoading, trips } = useTrips();
+  const { all, isLoading, travels } = useTravels();
 
   const searchParams = useSearchParams();
 
@@ -27,20 +27,20 @@ export function useModel(): Model {
   const filter = searchParams.get('filter');
 
   useEffect(() => {
-    fetch();
+    all();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
-    if (trips) {
-      setFilters(getFilters(trips));
+    if (travels) {
+      setFilters(getFilters(travels));
     }
-  }, [trips]);
+  }, [travels]);
 
   return {
     filters,
     isLoading,
     isOnTravels: pathname === '/travels',
-    trips: filterBy(trips, filter),
+    travels: filterBy(travels, filter),
   };
 }

@@ -1,6 +1,11 @@
 import tw from '@/styles';
 
 const styles = tw({
+  section: `
+    mt-6
+
+    ml:mt-0
+  `,
   stages: `
     flex flex-col gap-8
 
@@ -24,6 +29,13 @@ const styles = tw({
     hover:text-yellow-300/90
 
     sl:mt-12
+  `,
+  pulse: `
+    relative
+    h-100
+    w-full
+    bg-neutral-900
+    animate-pulse
   `,
 });
 

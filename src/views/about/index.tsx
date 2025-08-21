@@ -13,7 +13,7 @@ export default function View() {
         01
       </h2>
       <p className={styles.text}>
-        Whether I'm building software or walking across a mountain range, I'm always seeking new ways to move forward  with intention and curiosity. Hey, I'm Kyle, and I live in Chicago with my partner and our dog Dax. When I'm not at a computer I'm disconnecting by thru-hiking a long-distance trail.
+        Hey, I'm Kyle, and I live in Chicago with my partner and our dog Dax. When I'm not at a computer I'm disconnecting by thru-hiking a long-distance trail. Whether I'm building software or walking across a mountain range, I'm always seeking new ways to move forward  with intention and curiosity.
       </p>
       <h2 className={styles.heading}>
         02

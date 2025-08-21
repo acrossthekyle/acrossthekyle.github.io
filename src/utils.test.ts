@@ -1,4 +1,4 @@
-import { getStaticType, getTripDate } from './utils';
+import { getStaticType, getDate } from './utils';
 
 describe('utils', () => {
   describe('getStaticType', () => {
@@ -12,13 +12,13 @@ describe('utils', () => {
     });
   });
 
-  describe('getTripDate', () => {
+  describe('getDate', () => {
     it('will return only the years joined by an ndash', () => {
-      expect(getTripDate({ date: null, years: [1, 2] })).toEqual('1 - 2');
+      expect(getDate({ date: null, years: [1, 2] })).toEqual('1 - 2');
     });
 
     it('will return month day and year', () => {
-      expect(getTripDate({
+      expect(getDate({
         date: '3 1 2',
         years: [2],
       })).toEqual('3 1 2');

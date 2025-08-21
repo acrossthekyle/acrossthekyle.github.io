@@ -43,7 +43,7 @@ const styles = tw({
     `);
   },
   title: `
-    absolute top-6 left-6
+    absolute top-12 left-6
     opacity-0
     animate-in
 
@@ -103,7 +103,7 @@ const styles = tw({
     return tw(`
       ${root}
 
-      text-4xl/8 text-white/90
+      text-4xl/7 text-white/90
       font-bold font-stretch-condensed
       tracking-tighter
 
@@ -128,20 +128,20 @@ const styles = tw({
 
     ${isExternal && `
       last:after:content-['↗']
-      last:after:font-normal
-      last:after:text-xl
+      last:after:font-light
+      last:after:text-tiny
       last:after:text-yellow-300/90
+      last:after:tracking-normal
+      last:after:5xs:text-xs
     `}
   `),
   index: `
-    inline-block
     mx-2
-    text-sm text-yellow-300/90
-    font-light font-stretch-condensed
+    text-tiny text-yellow-300/90
+    font-light
     tracking-normal
 
-    3xs:text-lg
-    sm:text-xl/5
+    5xs:text-xs
   `,
   meta: `
     relative top-0

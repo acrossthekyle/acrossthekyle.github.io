@@ -132,12 +132,12 @@ const styles = tw({
     `);
   },
   star: `
-    h-8 w-8
+    h-7 w-7
     stroke-0
     fill-white/90
   `,
   x: `
-    w-8 h-8
+    w-7 h-7
     stroke-2 stroke-white/90
   `,
   nav: (isOnRoot: boolean, isOnParent: boolean) => {
@@ -190,21 +190,23 @@ const styles = tw({
       return tw(`
         ${root}
 
-        h-6
-        text-3xl/5 text-white/90
-        font-black
-        mb-1
+        h-7
+        text-4xl/7 text-white/90
+        font-bold font-stretch-condensed
+        tracking-tighter
 
         5xs:h-9
         5xs:text-5xl/9
-        5xs:font-stretch-semi-condensed
         4xs:h-11
         4xs:text-6xl/10
         3xs:h-14
         3xs:text-7xl/14
+        2xs:font-stretch-semi-condensed
         sm:h-18
         sm:text-8xl/17
         md:pe-20
+        md:font-stretch-normal
+        md:tracking-tight
         2xl:h-26
         2xl:text-9xl/26
 
@@ -247,14 +249,12 @@ const styles = tw({
     `);
   },
   index: `
-    ms-1
-    w-8
-    text-sm text-yellow-300/90
+    ml-1
+    text-tiny text-yellow-300/90
     font-light
     tracking-normal
 
-    3xs:text-lg
-    sm:text-xl
+    5xs:text-xs
   `,
 });
 

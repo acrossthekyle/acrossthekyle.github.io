@@ -12,32 +12,46 @@ type Props = {
 };
 
 export default function View({ slug }: Props) {
-  const { handleOnMaximize, handleOnViewMore, shown, trip } = useModel(slug);
+  const { handleOnMaximize, handleOnViewMore, shown, travel } = useModel(slug);
 
-  if (!trip) {
-    return null;
+  if (!travel) {
+    return (
+      <Section className={styles.section}>
+        <ul className={styles.stages}>
+          {Array.from({ length: 13 }).map((_, index) => (
+            <li
+              className={styles.stage}
+              key={index}
+              style={{ animationDelay: `${0.1 + (index * 0.125)}s` }}
+            >
+              <div className={styles.pulse} />
+            </li>
+          ))}
+        </ul>
+      </Section>
+    );
   }
 
   return (
-    <Section>
-      <Header date={trip.date} title={trip.title} type={trip.type} />
+    <Section className={styles.section}>
+      <Header date={travel.date} title={travel.title} type={travel.type} />
       <ul className={styles.stages}>
-        {[...trip.stages].splice(0, shown).map((stage) => (
+        {[...travel.stages].splice(0, shown).map((stage) => (
           <li
             className={styles.stage}
             key={stage.index}
             style={{ animationDelay: `${0.1 + (stage.index * 0.125)}s` }}
           >
             <Figure
-              label={trip.label}
+              label={travel.label}
               onMaximize={handleOnMaximize}
               stage={stage}
-              total={trip.stats.length.value}
+              total={travel.stats.length.value}
             />
           </li>
         ))}
       </ul>
-      {shown < Number(trip.stats.length.value) && (
+      {shown < Number(travel.stats.length.value) && (
         <button
           className={styles.more}
           onClick={handleOnViewMore}
