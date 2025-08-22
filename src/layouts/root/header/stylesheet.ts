@@ -190,20 +190,18 @@ const styles = tw({
       return tw(`
         ${root}
 
-        h-7
-        text-4xl/7 text-white/90
+        h-10
+        text-5xl/9 text-white/90
         font-bold font-stretch-condensed
         tracking-tighter
 
-        5xs:h-9
-        5xs:text-5xl/9
-        4xs:h-11
-        4xs:text-6xl/10
-        3xs:h-14
-        3xs:text-7xl/14
+        5xs:h-12
+        5xs:text-6xl/12
+        4xs:h-14
+        4xs:text-7xl/14
         2xs:font-stretch-semi-condensed
-        sm:h-18
-        sm:text-8xl/17
+        sm:h-18.5
+        sm:text-8xl/18
         md:pe-20
         md:font-stretch-normal
         md:tracking-tight
