@@ -12,12 +12,17 @@ const styles = tw({
   heading: `
     mt-6
     pb-1
-    text-base text-yellow-300/90
-    font-normal font-stretch-condensed
+    text-xl text-white/90
+    font-black font-stretch-semi-condensed
     uppercase
     animate-elastic-in-from-right
 
     md:first-of-type:mt-0
+  `,
+  index: `
+    ms-2
+    text-tiny text-yellow-300/90
+    font-light
   `,
   text: `
     text-lg text-white/90 text-justify
@@ -25,9 +30,6 @@ const styles = tw({
     animate-elastic-in-from-right
 
     2xl:text-2xl
-  `,
-  emphasis: `
-    font-light
   `,
   anchor: `
     text-yellow-300

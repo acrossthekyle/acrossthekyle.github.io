@@ -1,7 +1,7 @@
 import { ReactNode, Suspense } from 'react';
 
 import Header from './header';
-import Modal from './modal';
+import Zoom from './zoom';
 import styles from './stylesheet';
 
 type Props = {
@@ -22,7 +22,7 @@ export default function Layout({ children }: Props) {
           &copy; 1987 - {new Date().getFullYear()}
         </span>
       </footer>
-      <Modal />
+      <Zoom />
     </>
   );
 }

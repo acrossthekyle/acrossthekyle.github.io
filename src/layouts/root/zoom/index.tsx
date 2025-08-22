@@ -2,16 +2,16 @@
 
 import FocusLock from 'react-focus-lock';
 
-import { useModal } from '@/hooks/useModal';
+import { useZoom } from '@/hooks/useZoom';
 
 import styles from './stylesheet';
 
-export default function Modal() {
+export default function Zoom() {
   const {
     content,
     isOpen,
     size,
-  } = useModal();
+  } = useZoom();
 
   return (
     <div

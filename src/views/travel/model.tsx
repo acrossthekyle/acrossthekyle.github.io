@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useState } from 'react';
 
-import { useModal } from '@/hooks/useModal';
+import { useZoom } from '@/hooks/useZoom';
 import { useTravels } from '@/hooks/useTravels';
 import type { Stage, Travel } from '@/types';
 
@@ -20,7 +20,7 @@ const AMOUNT_SHOWN = 6;
 export function useModel(slug: string): Model {
   const { find, travel } = useTravels();
 
-  const { closeModal, modal } = useModal();
+  const { zoomOut, zoom } = useZoom();
 
   const [shown, setShown] = useState(AMOUNT_SHOWN);
 
@@ -34,7 +34,7 @@ export function useModel(slug: string): Model {
   }, [shown]);
 
   const handleOnMinimize = () => {
-    closeModal();
+    zoomOut();
   };
 
   const handleOnMaximize = (stage: Stage, ref: React.RefObject<HTMLFrameElement | null>, galleryIndex: number) => {
@@ -42,7 +42,7 @@ export function useModel(slug: string): Model {
       return;
     }
 
-    modal({
+    zoom({
       content: (
         <Figure
           activeGalleryIndex={galleryIndex}

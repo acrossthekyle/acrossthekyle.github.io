@@ -55,13 +55,16 @@ export type Stage = {
 
 export type Travel = {
   date: Date;
+  description: string[];
   index: number;
   label: string;
+  location: string;
   slug: string;
   stages: Stage[];
   stats: {
     length: StatShort;
   };
+  tagline: string;
   timestamp: string;
   title: string[];
   type: string;

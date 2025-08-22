@@ -6,21 +6,10 @@
   "image": "2019/10/19/b9b20eb0-e569-4778-99c6-de3a3c2eb15e.jpeg",
   "location": "the Himalayas",
   "tagline": "Surrounded by giants",
-  "marker": {
-    "left": "71.3",
-    "top": "32"
-  },
-  "previews": {
-    "small": "2019/10/19/40b7a029-2f0c-4807-94fa-86a07ee9ffa9.jpeg",
-    "large": "2019/10/19/3773c3c4-265f-4e7e-8f0a-d6e1a7d9b85c.jpeg"
-  },
   "description": [
-    "A journey through the heart of the Himalayas",
-    "Encircling the Annapurna massif, from subtropical forests to the high-altitude desert of the Tibetan plateau."
-  ],
-  "categories": [
-    "asia",
-    "nepal"
+    "The %title% is a long-distance National Scenic Trail spanning 532 miles across Wisconsin in North America, traversing the state in a series of segments (or sections) that form a 'U' shape, from the northeast corner to the western edge bordering the state of Minnesota. It gets its name from the numerous kettles and moraines left behind by the glaciers.",
+    "I went during the (second) best time of the year, from October to November, in order to have the most favorable weather and trail conditions. The circuit, including the main trail and side trails we used for acclimatizing on rest days (such as in Manang), and the trek to basecamp, totaled %distance% miles in length, and took %length% days to complete while hiking the trail in a counter-clockwise direction. This direction of travel allows you to slowly ease into the daily altitude gain, and which made it easier when crossing the highest point between Phedi and Muktinath, at %max% ft. The total gain and loss in elevation for this trail was %gain% ft up, and %loss% ft down, making it one of the harder treks I have done.",
+    "These pictures showcase my time on trail, and offer a glimpse into the %length% %label%s spent on this thru-hike."
   ],
   "title": "Annapurna Circuit + Basecamp"
 }

@@ -10,7 +10,7 @@ const styles = tw({
     uppercase
 
     5xs:text-5xl/10
-    4xs:text-6xl/12
+    4xs:text-7xl/14
     2xs:text-7xl/14
     2xs:font-stretch-semi-condensed
     sm:text-8xl/18
@@ -23,7 +23,7 @@ const styles = tw({
     text-tiny/3 text-white/90
     font-light font-stretch-condensed
     tracking-normal
-    mb-2 -mt-4
+    mb-3 -mt-4
 
     4xs:text-xs/3
     2xs:text-sm/3

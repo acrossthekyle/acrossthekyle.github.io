@@ -1,9 +1,13 @@
 'use client';
 
+import { ChevronDown } from 'lucide-react';
+
 import Section from '@/ui/section';
 
+import Description from './description';
 import Figure from './figure';
 import Header from './header';
+import Subheader from './subheader';
 import { useModel } from './model';
 import styles from './stylesheet';
 
@@ -34,7 +38,16 @@ export default function View({ slug }: Props) {
 
   return (
     <Section className={styles.section}>
-      <Header date={travel.date} title={travel.title} type={travel.type} />
+      <Header
+        title={travel.title}
+        type={travel.type}
+      />
+      <Subheader
+        date={travel.date}
+        location={travel.location}
+        tagline={travel.tagline}
+      />
+      <Description description={travel.description} />
       <ul className={styles.stages}>
         {[...travel.stages].splice(0, shown).map((stage) => (
           <li
@@ -57,7 +70,8 @@ export default function View({ slug }: Props) {
           onClick={handleOnViewMore}
           type="button"
         >
-          Load More
+          Continue
+          <ChevronDown />
         </button>
       )}
     </Section>

@@ -7,9 +7,11 @@ const styles = tw({
     ml:mt-0
   `,
   stages: `
-    flex flex-col gap-8
+    flex flex-col gap-0
+    mt-6
 
-    sm:gap-12
+    sm:gap-4
+    ml:mt-12
   `,
   stage: `
     relative
@@ -18,6 +20,7 @@ const styles = tw({
     animate-elastic-in-from-right
   `,
   more: `
+    flex flex-col items-center
     w-full
     py-2
     mt-6

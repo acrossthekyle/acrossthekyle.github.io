@@ -4,6 +4,7 @@ const styles = tw({
   figure: (isFullscreen: boolean) => tw(`
     relative
     transform-gpu duration-400
+    mb-8
 
     ${isFullscreen ? `
       h-full

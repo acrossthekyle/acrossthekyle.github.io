@@ -24,8 +24,8 @@ const styles = tw({
   `,
   filter: (isActive: boolean) => tw(`
     inline-block
-    text-xs ${isActive ? 'text-yellow-300/90' : 'text-white/90'}
-    font-black
+    text-tiny ${isActive ? 'text-yellow-300/90' : 'text-white/90'}
+    font-medium
     uppercase
     overflow-hidden
     duration-300
@@ -37,7 +37,7 @@ const styles = tw({
     ml:flex
     ml:justify-start
     ml:pe-1
-    lg:text-sm
+    lg:text-xs
   `),
   count: `
     inline-block

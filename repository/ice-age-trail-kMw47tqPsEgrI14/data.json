@@ -6,22 +6,10 @@
   "image": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",
   "location": "Wisconsin",
   "tagline": "A place of glacial kettles and moraines",
-  "marker": {
-    "left": "16",
-    "top": "25"
-  },
-  "previews": {
-    "small": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
-    "large": "2025/05/03/e402c0b1-e827-4123-b7b5-74947b240687.jpeg"
-  },
   "description": [
-    "A testament to the colossal power of nature's icy embrace",
-    "Walking the kettles and moraines left behind by the glaciers, several millenia ago."
-  ],
-  "categories": [
-    "section-hike",
-    "north america",
-    "usa"
+    "The %title% is a long-distance National Scenic Trail spanning 532 miles across Wisconsin in North America, traversing the state in a series of segments (or sections) that form a 'U' shape, from the northeast corner to the western edge bordering the state of Minnesota. It gets its name from the numerous kettles and moraines left behind by the glaciers.",
+    "I went during the (second) best time of the year, from October to November, in order to have the most favorable weather and trail conditions. The circuit, including the main trail and side trails we used for acclimatizing on rest days (such as in Manang), and the trek to basecamp, totaled %distance% miles in length, and took %length% days to complete while hiking the trail in a counter-clockwise direction. This direction of travel allows you to slowly ease into the daily altitude gain, and which made it easier when crossing the highest point between Phedi and Muktinath, at %max% ft. The total gain and loss in elevation for this trail was %gain% ft up, and %loss% ft down, making it one of the harder treks I have done.",
+    "These pictures showcase the sections of the trail I've done so far."
   ],
   "title": "Ice Age Trail"
 }

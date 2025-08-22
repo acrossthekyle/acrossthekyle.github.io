@@ -5,7 +5,7 @@ import { create } from 'zustand';
 
 import { useEvent } from './useEvent';
 
-type ModalOptions = {
+type ZoomOptions = {
   content: ReactNode | ReactNode[];
   ref: React.RefObject<HTMLFrameElement | null>;
 };
@@ -26,8 +26,8 @@ type State = {
 
 type Actions = {
   setFinalSize: (size: Size) => void;
-  setModal: (content: ReactNode | ReactNode[], size: Size) => void;
-  unsetModal: () => void;
+  setZoom: (content: ReactNode | ReactNode[], size: Size) => void;
+  unset: () => void;
 };
 
 const store = create<State & Actions>()(
@@ -36,7 +36,7 @@ const store = create<State & Actions>()(
     isOpen: false,
     size: undefined,
     sizeBackup: undefined,
-    setModal: (content: ReactNode | ReactNode[], size: Size) => {
+    setZoom: (content: ReactNode | ReactNode[], size: Size) => {
       set({
         content,
         isOpen: true,
@@ -49,7 +49,7 @@ const store = create<State & Actions>()(
         size,
       });
     },
-    unsetModal: () => {
+    unset: () => {
       set({
         size: get().sizeBackup,
       });
@@ -65,29 +65,29 @@ const store = create<State & Actions>()(
   }),
 );
 
-export function useModal() {
+export function useZoom() {
   const {
     content,
     isOpen,
     setFinalSize,
-    setModal,
+    setZoom,
     size,
-    unsetModal,
+    unset,
   } = store();
 
-  const closeModal = () => {
-    unsetModal();
+  const zoomOut = () => {
+    unset();
 
     document.body.classList.remove('overflow-hidden');
   };
 
   const handleOnEscape = () => {
     if (isOpen) {
-      closeModal();
+      zoomOut();
     }
   };
 
-  const modal = (options: ModalOptions) => {
+  const zoom = (options: ZoomOptions) => {
     if (options.ref.current === null) {
       return;
     }
@@ -98,7 +98,7 @@ export function useModal() {
       height: window.getComputedStyle(options.ref.current).height,
     };
 
-    setModal(
+    setZoom(
       options.content,
       {
         top: boundingClientRect.top,
@@ -125,10 +125,10 @@ export function useModal() {
   });
 
   return {
-    closeModal,
+    zoomOut,
     content,
     isOpen,
-    modal,
+    zoom,
     size,
   };
 }
