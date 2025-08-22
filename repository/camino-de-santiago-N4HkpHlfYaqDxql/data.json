@@ -6,21 +6,10 @@
   "image": "2018/06/02/1921986b-9cf8-4bf8-b531-3bfe2f098f93.jpeg",
   "location": "the autonomous regions of Navarra, La Rioja, Castile and León, and Galicia",
   "tagline": "A rich mosaic of landscapes",
-  "marker": {
-    "left": "42.8",
-    "top": "26"
-  },
-  "previews": {
-    "small": "2018/06/02/aa8b0404-f4d1-44ed-bc96-ce65eae03848.jpeg",
-    "large": "2018/06/02/50570d33-285a-4561-bc7f-b7e500363359.jpeg"
-  },
+  "title": "Camino de Santiago",
   "description": [
-    "A series of ancient routes that unfold across Europe",
-    "Walking over hills and mountains, pushing through deserts, and swimming in rivers, all leading towards the city of Santiago de Compostela and the Atlantic ocean."
-  ],
-  "categories": [
-    "europe",
-    "spain"
-  ],
-  "title": "Camino de Santiago"
+    "A series of ancient routes that unfold across Europe, the Camino de Santiago (or Camino) is a network of continously used trails since medieval times leading to the city of Santiago de Compostela in northwestern Spain. The most popular route is the Camino Frances which goes from the border of France all the way to the Atlantic ocean, and takes several weeks to complete.",
+    "This was my first long-distance trail, and after much preparation I flew to Spain at the end of May 2018 and started the trail on June 2nd. The Camino wears you down over the first few days, but then builds you back up, and after the first week I was walking 15 - 25 miles daily, all leading towards the city of Santiago and the Atlantic ocean. I spent %length% days walking %distance% over hills and mountains, through deserts, and swimming in rivers, to reach the ocean.",
+    "It's hard to capture %length% worth of experiences in these few snapshots, but hopefully they offer a picture of my journey on this adventure, and a glimpse into the time spent on this thru-hike."
+  ]
 }

@@ -53,7 +53,7 @@ export default function View({ slug }: Props) {
           <li
             className={styles.stage}
             key={stage.index}
-            style={{ animationDelay: `${0.1 + (stage.index * 0.125)}s` }}
+            style={{ animationDelay: `${0.1 + ((stage.index % 6) * 0.125)}s` }}
           >
             <Figure
               label={travel.label}

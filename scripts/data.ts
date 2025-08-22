@@ -284,52 +284,51 @@ async function getStages(folder) {
 
       let stats = {
         distance: null,
-        // gain: null,
-        // loss: null,
+        gain: null,
+        loss: null,
         max: null,
         time: null,
       };
 
-      // if (data.gain) {
-      //   stats.gain = {
-      //     label: 'gain',
-      //     value: {
-      //       imperial: formatNumber(data.gain),
-      //       metric: formatNumber(data.gain/3.281),
-      //     },
-      //     units: {
-      //       imperial: {
-      //         full: 'feet',
-      //         abbreviated: 'ft',
-      //       },
-      //       metric: {
-      //         full: 'meters',
-      //         abbreviated: 'm',
-      //       },
-      //     },
-      //   };
-      // }
+      if (data.gain) {
+        stats.gain = {
+          label: 'gain',
+          value: {
+            imperial: formatNumber(data.gain),
+            metric: formatNumber(data.gain/3.281),
+          },
+          units: {
+            imperial: {
+              full: 'feet',
+              abbreviated: 'ft',
+            },
+            metric: {
+              full: 'meters',
+              abbreviated: 'm',
+            },
+          },
+        };
+      }
 
-      // if (data.loss) {
-      //   stats.loss = {
-      //     label: 'loss',
-      //     value: formatNumber(data.loss),
-      //     value: {
-      //       imperial: formatNumber(data.loss),
-      //       metric: formatNumber(data.loss/3.281),
-      //     },
-      //     units: {
-      //       imperial: {
-      //         full: 'feet',
-      //         abbreviated: 'ft',
-      //       },
-      //       metric: {
-      //         full: 'meters',
-      //         abbreviated: 'm',
-      //       },
-      //     },
-      //   };
-      // }
+      if (data.loss) {
+        stats.loss = {
+          label: 'loss',
+          value: {
+            imperial: formatNumber(data.loss),
+            metric: formatNumber(data.loss/3.281),
+          },
+          units: {
+            imperial: {
+              full: 'feet',
+              abbreviated: 'ft',
+            },
+            metric: {
+              full: 'meters',
+              abbreviated: 'm',
+            },
+          },
+        };
+      }
 
       if (data.miles) {
         stats.distance = {
@@ -395,10 +394,7 @@ async function getStages(folder) {
         },
         index: null,
         location: data.location || null,
-        // next: null,
-        // previous: null,
         route,
-        // slug: _.kebabCase(data.title),
         stats,
         termini: {
           end: turnStringIntoArrayForLists(end),
@@ -420,16 +416,6 @@ async function getStages(folder) {
     return {
       ...item,
       index,
-      // previous: index === 0 ? null : {
-      //   date: sorted[index - 1].date,
-      //   slug: sorted[index - 1].slug,
-      //   title: sorted[index - 1].title,
-      // },
-      // next: index === sorted.length - 1 ? null : {
-      //   date: sorted[index + 1].date,
-      //   slug: sorted[index + 1].slug,
-      //   title: sorted[index + 1].title,
-      // },
     };
   });
 
@@ -462,18 +448,46 @@ function calculateDistance(stages) {
   return distance > 0 ? distance : null;
 }
 
+function calculateGain(stages) {
+  const gain = stages.reduce((accumulator, stage) => {
+    if (stage.stats.gain !== null) {
+      return accumulator + Number(stage.stats.gain.value.imperial.replace(',', ''));
+    }
+
+    return accumulator;
+  }, 0);
+
+  return gain > 0 ? gain : null;
+}
+
+function calculateLoss(stages) {
+  const loss = stages.reduce((accumulator, stage) => {
+    if (stage.stats.loss !== null) {
+      return accumulator + Number(stage.stats.loss.value.imperial.replace(',', ''));
+    }
+
+    return accumulator;
+  }, 0);
+
+  return loss > 0 ? loss : null;
+}
+
 async function getTripStats(trip, stages) {
-  // const altitude = calculateAltitude(stages);
-  // const distance = calculateDistance(stages);
+  const altitude = calculateAltitude(stages);
+  const distance = calculateDistance(stages);
+  const gain = calculateGain(stages);
+  const loss = calculateLoss(stages);
 
   let stats = {
-    // altitude: null,
-    // distance: null,
-    // days: {
-    //   label: 'days',
-    //   value: trip.days,
-    //   units: null,
-    // },
+    altitude: null,
+    distance: null,
+    gain: null,
+    loss: null,
+    days: {
+      label: 'days',
+      value: trip.days,
+      units: null,
+    },
     length: {
       label: 'length',
       value: stages.length,
@@ -481,46 +495,85 @@ async function getTripStats(trip, stages) {
     },
   };
 
-  // if (altitude !== null) {
-  //   stats.altitude = {
-  //     label: 'altitude',
-  //     value: formatNumber(altitude),
-  //     value: {
-  //       imperial: formatNumber(altitude),
-  //       metric: formatNumber(altitude/3.281),
-  //     },
-  //     units: {
-  //       imperial: {
-  //         full: 'feet',
-  //         abbreviated: 'ft',
-  //       },
-  //       metric: {
-  //         full: 'meters',
-  //         abbreviated: 'm',
-  //       },
-  //     },
-  //   };
-  // }
+  if (gain !== null) {
+    stats.gain = {
+      label: 'gain',
+      value: {
+        imperial: formatNumber(gain),
+        metric: formatNumber(gain/3.281),
+      },
+      units: {
+        imperial: {
+          full: 'feet',
+          abbreviated: 'ft',
+        },
+        metric: {
+          full: 'meters',
+          abbreviated: 'm',
+        },
+      },
+    };
+  }
 
-  // if (distance !== null) {
-  //   stats.distance = {
-  //     label: 'distance',
-  //     value: {
-  //       imperial: formatNumber(distance),
-  //       metric: formatNumber(distance * 1.609),
-  //     },
-  //     units: {
-  //       imperial: {
-  //         full: 'miles',
-  //         abbreviated: 'mi',
-  //       },
-  //       metric: {
-  //         full: 'kilometers',
-  //         abbreviated: 'km',
-  //       },
-  //     },
-  //   };
-  // }
+  if (loss !== null) {
+    stats.loss = {
+      label: 'loss',
+      value: {
+        imperial: formatNumber(loss),
+        metric: formatNumber(loss/3.281),
+      },
+      units: {
+        imperial: {
+          full: 'feet',
+          abbreviated: 'ft',
+        },
+        metric: {
+          full: 'meters',
+          abbreviated: 'm',
+        },
+      },
+    };
+  }
+
+  if (altitude !== null) {
+    stats.altitude = {
+      label: 'altitude',
+      value: {
+        imperial: formatNumber(altitude),
+        metric: formatNumber(altitude/3.281),
+      },
+      units: {
+        imperial: {
+          full: 'feet',
+          abbreviated: 'ft',
+        },
+        metric: {
+          full: 'meters',
+          abbreviated: 'm',
+        },
+      },
+    };
+  }
+
+  if (distance !== null) {
+    stats.distance = {
+      label: 'distance',
+      value: {
+        imperial: formatNumber(distance),
+        metric: formatNumber(distance * 1.609),
+      },
+      units: {
+        imperial: {
+          full: 'miles',
+          abbreviated: 'mi',
+        },
+        metric: {
+          full: 'kilometers',
+          abbreviated: 'km',
+        },
+      },
+    };
+  }
 
   return stats;
 }
@@ -569,31 +622,28 @@ function getTermini(string, index) {
   return string.includes(' to ') ? string.split(' to ')[index] : string;
 }
 
-async function getTripTermini(trip, stages) {
-  const termini = {
-    end: trip.cities ? trip.cities[trip.cities.length - 1] : stages[stages.length - 1].title.join(' '),
-    start: trip.cities ? trip.cities[0] : stages[0].title.join(' '),
-  };
+function formatDescription(description, stats) {
+  return description.map((paragraph) => {
+    paragraph = paragraph.replace('%length%', stats.length.value);
 
-  const end = getTermini(termini.end, 1);
-  const start = getTermini(termini.start, 0);
+    if (stats.gain !== null) {
+      paragraph = paragraph.replace('%gain%', `${stats.gain.value.imperial} ${stats.gain.units.imperial.abbreviated}`);
+    }
 
-  return {
-    end: turnStringIntoArrayForLists(end),
-    isSame: start.toLowerCase() === end.toLowerCase(),
-    start: turnStringIntoArrayForLists(start),
-  }
-}
+    if (stats.loss !== null) {
+      paragraph = paragraph.replace('%loss%', `${stats.loss.value.imperial} ${stats.loss.units.imperial.abbreviated}`);
+    }
 
-function simpleHash(str) {
-  let hash = 0;
-  for (let i = 0; i < str.length; i++) {
-    const char = str.charCodeAt(i);
-    hash = (hash << 5) - hash + char; // A common bitwise operation for hashing
-    hash |= 0; // Ensure 32-bit integer
-  }
-  // Convert to base 36 for a shorter, alphanumeric string
-  return (hash >>> 0).toString(36);
+    if (stats.distance !== null) {
+      paragraph = paragraph.replace('%distance%', `${stats.distance.value.imperial} ${stats.distance.units.imperial.full}`);
+    }
+
+    if (stats.altitude !== null) {
+      paragraph = paragraph.replace('%max%', `${stats.altitude.value.imperial} ${stats.altitude.units.imperial.full}`);
+    }
+
+    return paragraph;
+  });
 }
 
 /* GO */
@@ -614,42 +664,28 @@ async function go() {
         'utf8',
       ));
 
-      // const gear = await getGear(folder);
       const stages = await getStages(folder);
       const stats = await getTripStats(trip, stages);
       const date = await getTripDate(trip, stages);
-      // const termini = await getTripTermini(trip, stages);
 
-      const slug = _.kebabCase(`${trip.title} ${trip.categories.includes('repeat') ? '-repeat' : ''}`.trim());
+      const slug = _.kebabCase(`${trip.title} ${trip.repeat ? '-repeat' : ''}`.trim());
 
       data.push({
-        // categories: trip.categories,
-        // cities: trip.cities,
-        // coordinates: trip.marker,
         date,
-        description: trip.description,
-        // gear,
-        // hasGear: gear !== null,
-        // hasRoutes,
-        // id: generateId(),
-        // image: trip.image,
+        description: formatDescription(trip.description, stats),
         index: null,
         label: getLabel(trip.type),
         location: trip.location,
-        // next: null,
-        // previous: null,
-        // routes: hasRoutes ? stages.map(stage => stage.route) : null,
-        // shareable: simpleHash(slug),
         slug,
         stages: stages.map(({ elevation, route, ...rest }) => ({
           ...rest,
         })),
-        stats,
+        stats: {
+          length: stats.length,
+        },
         tagline: trip.tagline,
-        // termini,
         timestamp: trip.timestamp,
         title: turnStringIntoArrayForLists(trip.title),
-        // total: folders.length,
         type: trip.type,
       });
     }),
@@ -658,23 +694,10 @@ async function go() {
   if (data.length) {
     const sorted = data.sort((a, b) => b.timestamp - a.timestamp);
 
-    const result = sorted.map((item, index) => {
-      // const nextIndex = index === 0 ? null : index - 1;
-      // const previousIndex = index === sorted.length - 1 ? null : index + 1;
-
+    const result = sorted.map(({ timestamp, ...rest }, index) => {
       return {
-        ...item,
+        ...rest,
         index,
-        // next: nextIndex ? {
-        //   date: sorted[nextIndex].date,
-        //   slug: sorted[nextIndex].slug,
-        //   title: sorted[nextIndex].title,
-        // } : null,
-        // previous: previousIndex ? {
-        //   date: sorted[previousIndex].date,
-        //   slug: sorted[previousIndex].slug,
-        //   title: sorted[previousIndex].title,
-        // } : null,
       };
     });
 

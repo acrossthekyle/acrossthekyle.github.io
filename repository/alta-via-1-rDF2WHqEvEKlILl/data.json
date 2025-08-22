@@ -2,25 +2,14 @@
   "dates": ["7/16/2019", "7/25/2019"],
   "days": "10",
   "timestamp": "1563261600",
-  "title": "Alta Via 1",
   "type": "thru-hiking",
   "image": "2019/07/16/c4d424d9-7826-422d-9e0f-1b7e8b20af99.jpeg",
   "location": "the Dolomites",
   "tagline": "A panorama of jagged ridges, vertical walls, and majestic towers",
-  "previews": {
-    "small": "2019/07/16/b1128805-54bb-4b7b-adcb-f2b6ae3fada6.jpeg",
-    "large": "2019/07/16/a3f65b8c-4b57-4194-a3a1-5769f1d63373.jpeg"
-  },
+  "title": "Alta Via 1",
   "description": [
-    "A journey through a landscape sculpted by nature",
-    "Traversing through a panorama of jagged, saw-edged ridges, vertical walls, and majestic towers."
-  ],
-  "categories": [
-    "europe",
-    "italy"
-  ],
-  "marker": {
-    "left": "47.75",
-    "top": "21"
-  }
+    "The Alta Via 1, or AV1, is one of seven routes that runs through the Dolomite mountains in northern Italy. 1 is the classic high route in the Dolomites, and the easiest of the seven. As a result it was one of the busier mountain trails I had done, thanks to its numerous easy-to-get-to access points. It passes through some of the most beautiful areas in the world filled with captivating landscapes due to the varied shapes and colors of the mountains.",
+    "In 2019, during the second half of July, I set off for Northern Italy to hike the AV1 route from North to South, finishing in the Italian city of Belluno. It took exactly %length% days to complete the %distance% of trail, without any rest days. The beginning and end of the route were the hardest, each with large amounts of ascending and descending, but the majority of the trail's elevation change was evenly distributed. The total elevation gain/loss was %gain% up, and %loss% down, with a maximum altitude of %max%.",
+    "These pictures showcase some of the amazing natural formations visible from the trail, and offer a glimpse into the %length% days spent on this thru-hike."
+  ]
 }

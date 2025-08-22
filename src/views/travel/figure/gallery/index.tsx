@@ -32,7 +32,7 @@ export default function Figure({
   }
 
   return (
-    <InView onChange={onInView} threshold={0.65}>
+    <InView onChange={onInView} threshold={1}>
       {({ ref }) => (
         <>
           {!isFullscreen && images.length > 1 && (

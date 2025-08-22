@@ -5,22 +5,11 @@
   "type": "thru-hiking",
   "image": "2023/06/21/0ff34736-949f-4981-b339-06b6d304ba51.jpeg",
   "location": "Corsica",
-  "tagline": "A challenging island trail in the Mediterranean",
-  "marker": {
-    "left": "46.5",
-    "top": "26"
-  },
-  "previews": {
-    "small": "2023/06/21/05769f04-5b00-4fd5-a233-55c00c9871c5.jpeg",
-    "large": "2023/06/21/f0cd0897-3fc9-47a2-808e-e1627dfb45bc.jpeg"
-  },
+  "tagline": "A challenging trail on an island in the Mediterranean",
+  "title": "GR 20",
   "description": [
-    "A renowned thru-hike, regarded as the most challenging in Europe",
-    "Traversing the mountainous spine of Corsica while camping at mountain huts along the trail."
-  ],
-  "categories": [
-    "europe",
-    "france"
-  ],
-  "title": "GR 20"
+     "The French Grande Randonnée No. 20, better known as the GR 20, is a 'Great Hike' footpath that crosses the Mediterranean island of Corsica running from north to south, described as one of the top trails in the world. The trail is considered to be the most difficult of all the GR routes in Europe and can demand over 3,000 feet of vertical ascent in just 3 short miles. Between the northern starting point at Calenzana to the finish at Conca in the south, there are hidden mountain lakes, expansive sea views, rugged and rocky cliffs, and remarkable panoramas.",
+    "I went during the summer months of June and July and I didn't book any refuges or campsites in advance; I simply showed up at a refuge, said I had a tent, and pitched it wherever there was an open spot. Even though I had survived hiking in the Himalayas this was definitely the hardest thru-hike I have ever done. But, it was also one of the most rewarding. After the halfway point I began combining stages due to the ease of the southern portion. My thru-hike of this trail ended up taking %length% days, %distance%, with a total ascent of %gain% and a total loss of %loss%.",
+    "These pictures showcase the %length% days spent on the trail."
+  ]
 }

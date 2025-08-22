@@ -6,7 +6,11 @@ const data = [
         "2024"
       ]
     },
-    "image": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg",
+    "description": [
+      "The Tour du Mont Blanc is a hiking route that I had first completed in 2018, and I had always wanted to revisit it. In the summer of 2024, from July to August, I did just that, this time accompaniad by my partner.",
+      "We were treated with great weather during the day on this trek, with only a couple nights of rain well after we had arrived at our places of stay, and only one day of a refreshing light drizzle as we crossed from Italy into Switzerland. Overall the trek was much as had I remembered it, and it was a nice trip down memory lane as we walked along the trail. It was a bit of a struggle in some parts due to us living in the flat lands of Chicago, but we managed to conquer each tough segment and relax at the end of the day with a couple of beverages.",
+      "These pictures showcase the views from the trail."
+    ],
     "index": 0,
     "label": "day",
     "location": "the French Italian and Swiss Alps",
@@ -15,7 +19,7 @@ const data = [
       {
         "date": "07.27.2024",
         "hasStats": true,
-        "id": "dTywHg5NiFjCcTp",
+        "id": "56fC7Qv1taBWL2f",
         "images": {
           "hero": "2024/07/27/ac7799bd-b2a8-4f77-8a8d-6d42a8740390.jpeg",
           "supplementary": []
@@ -37,6 +41,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "4,781",
+              "metric": "1,457"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,440",
+              "metric": "744"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -82,7 +120,7 @@ const data = [
       {
         "date": "07.28.2024",
         "hasStats": true,
-        "id": "fJPUNdAfiggTJSE",
+        "id": "oIyh4C36goTQjN7",
         "images": {
           "hero": "2024/07/27/10146a42-b18d-4318-bc5b-c32279532e4d.jpeg",
           "supplementary": []
@@ -104,6 +142,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "4,455",
+              "metric": "1,358"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,015",
+              "metric": "614"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -153,7 +225,7 @@ const data = [
       {
         "date": "07.29.2024",
         "hasStats": true,
-        "id": "lR2vougMdhs5kIR",
+        "id": "HtqqoYDiENRTL15",
         "images": {
           "hero": "2024/07/27/be9a961c-fc7d-43dc-b466-29a359d1cd12.jpeg",
           "supplementary": []
@@ -175,6 +247,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "3,988",
+              "metric": "1,215"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "3,046",
+              "metric": "928"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -226,7 +332,7 @@ const data = [
       {
         "date": "07.30.2024",
         "hasStats": true,
-        "id": "mvB48B8dIrnxVk0",
+        "id": "AhSt5wWjs02Anuk",
         "images": {
           "hero": "2024/07/27/a45073e7-ef67-4e31-a5e7-3ba9b4b97b4e.jpeg",
           "supplementary": []
@@ -248,6 +354,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "3,919",
+              "metric": "1,194"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "6,461",
+              "metric": "1,969"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -297,7 +437,7 @@ const data = [
       {
         "date": "07.31.2024",
         "hasStats": true,
-        "id": "PHV2P5RFMDUElil",
+        "id": "QCCjqb2JbrGJjM8",
         "images": {
           "hero": "2024/07/27/f1310350-3cb1-4f1b-b591-e08d0971f23b.jpeg",
           "supplementary": []
@@ -319,6 +459,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "3,587",
+              "metric": "1,093"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "3,446",
+              "metric": "1,050"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -366,7 +540,7 @@ const data = [
       {
         "date": "08.01.2024",
         "hasStats": true,
-        "id": "8YRQuDon9gNzyQF",
+        "id": "68Qc6bQiQ8yVN6p",
         "images": {
           "hero": "2024/07/27/b70777d8-b89d-4d60-b422-2d2af80483e4.jpeg",
           "supplementary": []
@@ -388,6 +562,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "3,141",
+              "metric": "957"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "4,471",
+              "metric": "1,363"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -435,7 +643,7 @@ const data = [
       {
         "date": "08.02.2024",
         "hasStats": true,
-        "id": "ZSBWVek2nTIIXYo",
+        "id": "9Kzga8Ow4JKW6Xl",
         "images": {
           "hero": "2024/07/27/22400157-4853-4974-856b-86b1bc986ef9.jpeg",
           "supplementary": []
@@ -457,6 +665,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "1,988",
+              "metric": "606"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,364",
+              "metric": "721"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -504,7 +746,7 @@ const data = [
       {
         "date": "08.03.2024",
         "hasStats": true,
-        "id": "iMAtuTGvHJ4z987",
+        "id": "6mt3XBvvcwGQ04T",
         "images": {
           "hero": "2024/07/27/99d87d66-9534-4aca-9489-eb2fbbdc152b.jpeg",
           "supplementary": []
@@ -526,6 +768,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,669",
+              "metric": "813"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,405",
+              "metric": "733"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -573,7 +849,7 @@ const data = [
       {
         "date": "08.04.2024",
         "hasStats": true,
-        "id": "psDk3tY2IHU6PBN",
+        "id": "Fn7K4vu3yrI9VaK",
         "images": {
           "hero": "2024/07/27/91e2be29-62d0-4be0-a00a-9ebd9d9dc395.jpeg",
           "supplementary": []
@@ -595,6 +871,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "3,672",
+              "metric": "1,119"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "4,054",
+              "metric": "1,236"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -642,7 +952,7 @@ const data = [
       {
         "date": "08.05.2024",
         "hasStats": true,
-        "id": "gGNDdezSagQB9cy",
+        "id": "1BqpVUko01eySp9",
         "images": {
           "hero": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg",
           "supplementary": []
@@ -664,6 +974,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "3,388",
+              "metric": "1,033"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "1,812",
+              "metric": "552"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -711,7 +1055,7 @@ const data = [
       {
         "date": "08.06.2024",
         "hasStats": true,
-        "id": "TVkojrCHuO0ECZw",
+        "id": "uyAsJXydHaeEBmE",
         "images": {
           "hero": "2024/07/27/480c5394-dfa7-4760-8f62-5a39cb66cb98.jpeg",
           "supplementary": []
@@ -733,6 +1077,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,899",
+              "metric": "884"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "5,759",
+              "metric": "1,755"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -785,7 +1163,6 @@ const data = [
       }
     },
     "tagline": "Returning to an old friend",
-    "timestamp": "1753228805",
     "title": [
       "Tour du",
       "Mont Blanc"
@@ -799,7 +1176,11 @@ const data = [
         "2023"
       ]
     },
-    "image": "2023/06/21/0ff34736-949f-4981-b339-06b6d304ba51.jpeg",
+    "description": [
+      "The French Grande Randonnée No. 20, better known as the GR 20, is a 'Great Hike' footpath that crosses the Mediterranean island of Corsica running from north to south, described as one of the top trails in the world. The trail is considered to be the most difficult of all the GR routes in Europe and can demand over 3,000 feet of vertical ascent in just 3 short miles. Between the northern starting point at Calenzana to the finish at Conca in the south, there are hidden mountain lakes, expansive sea views, rugged and rocky cliffs, and remarkable panoramas.",
+      "I went during the summer months of June and July and I didn't book any refuges or campsites in advance; I simply showed up at a refuge, said I had a tent, and pitched it wherever there was an open spot. Even though I had survived hiking in the Himalayas this was definitely the hardest thru-hike I have ever done. But, it was also one of the most rewarding. After the halfway point I began combining stages due to the ease of the southern portion. My thru-hike of this trail ended up taking 13 days, 131 miles, with a total ascent of 44,475 ft and a total loss of 44,549 ft.",
+      "These pictures showcase the 13 days spent on the trail."
+    ],
     "index": 1,
     "label": "day",
     "location": "Corsica",
@@ -808,7 +1189,7 @@ const data = [
       {
         "date": "06.21.2023",
         "hasStats": true,
-        "id": "JZjOUe139R5BBuZ",
+        "id": "zfwZqfArfQsHv6w",
         "images": {
           "hero": "2023/06/21/f1d1c83f-941d-4351-aa5e-08d698b78775.jpeg",
           "supplementary": []
@@ -830,6 +1211,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "4,849",
+              "metric": "1,478"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "815",
+              "metric": "248"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -875,7 +1290,7 @@ const data = [
       {
         "date": "06.22.2023",
         "hasStats": true,
-        "id": "jWXF7LjM3gJ7W3k",
+        "id": "tZd2sCxSYpC3a6s",
         "images": {
           "hero": "2023/06/21/e2d0721f-2c3f-4367-8f7b-1176c94b3e2c.jpeg",
           "supplementary": []
@@ -897,6 +1312,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,882",
+              "metric": "878"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "3,780",
+              "metric": "1,152"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -942,7 +1391,7 @@ const data = [
       {
         "date": "06.23.2023",
         "hasStats": true,
-        "id": "hoedTXcPDB31kir",
+        "id": "Z4D8RRMR3Vmu2mO",
         "images": {
           "hero": "2023/06/21/4b13a3d8-a55c-4bed-b887-ad3490ab964f.jpeg",
           "supplementary": []
@@ -964,6 +1413,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,939",
+              "metric": "896"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,419",
+              "metric": "737"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -1007,7 +1490,7 @@ const data = [
       {
         "date": "06.24.2023",
         "hasStats": true,
-        "id": "0uSplYzwXMnEy0E",
+        "id": "0Dkc9PAuN6xXvuP",
         "images": {
           "hero": "2023/06/21/8f85de22-b937-4ea5-9dfa-e45eb357e7b8.jpeg",
           "supplementary": []
@@ -1029,6 +1512,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "4,105",
+              "metric": "1,251"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "4,064",
+              "metric": "1,239"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -1073,7 +1590,7 @@ const data = [
       {
         "date": "06.25.2023",
         "hasStats": true,
-        "id": "VU3e33oWp6XA7Eg",
+        "id": "flJVCWGhwRbx6hG",
         "images": {
           "hero": "2023/06/21/f0dc6ac2-b0e5-4e2a-b874-0d40f47c454b.jpeg",
           "supplementary": []
@@ -1095,6 +1612,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "3,071",
+              "metric": "936"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "3,098",
+              "metric": "944"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -1140,7 +1691,7 @@ const data = [
       {
         "date": "06.26.2023",
         "hasStats": true,
-        "id": "NMLmSuK9k6qbkBE",
+        "id": "UkZfqS18LnritTD",
         "images": {
           "hero": "2023/06/21/95b4adaa-bbbe-4de3-b9f8-96365390f142.jpeg",
           "supplementary": []
@@ -1162,6 +1713,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,202",
+              "metric": "671"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "1,547",
+              "metric": "472"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -1207,7 +1792,7 @@ const data = [
       {
         "date": "06.27.2023",
         "hasStats": true,
-        "id": "V9ALjBzlTKRXVCl",
+        "id": "HO0xFSSLkbH3rj2",
         "images": {
           "hero": "2023/06/21/05769f04-5b00-4fd5-a233-55c00c9871c5.jpeg",
           "supplementary": []
@@ -1229,6 +1814,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "3,031",
+              "metric": "924"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,147",
+              "metric": "654"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -1272,7 +1891,7 @@ const data = [
       {
         "date": "06.28.2023",
         "hasStats": true,
-        "id": "eL8FioIiAJMMX8I",
+        "id": "l7w7Hk54KZaQTEl",
         "images": {
           "hero": "2023/06/21/4e7bda74-809e-48a9-a904-5645bf2e7dde.jpeg",
           "supplementary": []
@@ -1294,6 +1913,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "1,537",
+              "metric": "468"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "3,022",
+              "metric": "921"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -1337,7 +1990,7 @@ const data = [
       {
         "date": "06.29.2023",
         "hasStats": true,
-        "id": "fdPZD3eav9wfJWw",
+        "id": "pFBqo24Td9FTl8N",
         "images": {
           "hero": "2023/06/21/2cc8532b-6441-49fb-927e-ebdb001b78cf.jpeg",
           "supplementary": []
@@ -1359,6 +2012,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,471",
+              "metric": "753"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "4,008",
+              "metric": "1,222"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -1402,7 +2089,7 @@ const data = [
       {
         "date": "06.30.2023",
         "hasStats": true,
-        "id": "xjIxWJbKKW0HffX",
+        "id": "Sddczz2A0OzzKOb",
         "images": {
           "hero": "2023/06/21/54334c14-8bae-4478-97f7-179f79cd2ca6.jpeg",
           "supplementary": []
@@ -1424,6 +2111,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "4,857",
+              "metric": "1,480"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "3,690",
+              "metric": "1,125"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -1469,7 +2190,7 @@ const data = [
       {
         "date": "07.01.2023",
         "hasStats": true,
-        "id": "4v3gc2EEeiBBw2r",
+        "id": "heInsCWCb0S0LAH",
         "images": {
           "hero": "2023/06/21/73a5df9e-fefd-43d0-ad5a-7f71dcb003cc.jpeg",
           "supplementary": []
@@ -1491,6 +2212,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "4,969",
+              "metric": "1,514"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "3,545",
+              "metric": "1,080"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -1536,7 +2291,7 @@ const data = [
       {
         "date": "07.02.2023",
         "hasStats": true,
-        "id": "IVz7Kr1poihgruc",
+        "id": "u5CVrnYVD7iDnUs",
         "images": {
           "hero": "2023/06/21/d36a683f-4d95-4b0c-987d-d190336c49ee.jpeg",
           "supplementary": []
@@ -1558,6 +2313,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "3,809",
+              "metric": "1,161"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "4,453",
+              "metric": "1,357"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -1601,7 +2390,7 @@ const data = [
       {
         "date": "07.03.2023",
         "hasStats": true,
-        "id": "e1XZCG6jNj312Xc",
+        "id": "IBJyN850pkml9FT",
         "images": {
           "hero": "2023/06/21/f0cd0897-3fc9-47a2-808e-e1627dfb45bc.jpeg",
           "supplementary": []
@@ -1623,6 +2412,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "3,753",
+              "metric": "1,144"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "7,961",
+              "metric": "2,426"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -1671,8 +2494,7 @@ const data = [
         "units": null
       }
     },
-    "tagline": "A challenging island trail in the Mediterranean",
-    "timestamp": "1687332000",
+    "tagline": "A challenging trail on an island in the Mediterranean",
     "title": [
       "GR 20"
     ],
@@ -1685,7 +2507,10 @@ const data = [
         "2022"
       ]
     },
-    "image": "2022/12/28/88613c33-7796-47be-afc6-d31f51a80600.jpeg",
+    "description": [
+      "From pyramids, tombs, and temples, to soaring overhead in a hot air balloon ride, we tried to do it all on this once-in-a-lifetime vacation from December 2022 to January 2023. Egypt is an ancient place, full of history, and busy streets. We knew to expect the unexpected, but we weren't prepared for how amazing the historical landmarks were, or how different the culture was.",
+      "Egypt is an amazing place if you only consider the historical things. The way the locals treat foriegners leaves something to be desired. If we ever came back we would definitely do it through a service that would plan everything for us, and rely on tour guides for everything."
+    ],
     "index": 2,
     "label": "destination",
     "location": "Egypt",
@@ -1694,7 +2519,7 @@ const data = [
       {
         "date": "12.29.2022",
         "hasStats": false,
-        "id": "4A2DBnUyzse6kPp",
+        "id": "1KXO2XfgPXZaZJk",
         "images": {
           "hero": "2022/12/28/c0f9c079-8942-4390-bb9e-dae4e0a65034.jpeg",
           "supplementary": [
@@ -1706,6 +2531,8 @@ const data = [
         "location": "Giza",
         "stats": {
           "distance": null,
+          "gain": null,
+          "loss": null,
           "max": null,
           "time": null
         },
@@ -1728,7 +2555,7 @@ const data = [
       {
         "date": "12.30.2022",
         "hasStats": false,
-        "id": "qJJdOSdAOhqqSz4",
+        "id": "yuOIm6Cdlgqh2i4",
         "images": {
           "hero": "2022/12/28/d9a7b01b-5915-493c-8c25-5a8ebd77ac58.jpeg",
           "supplementary": [
@@ -1740,6 +2567,8 @@ const data = [
         "location": "Saqqarah & Dahshur",
         "stats": {
           "distance": null,
+          "gain": null,
+          "loss": null,
           "max": null,
           "time": null
         },
@@ -1765,7 +2594,7 @@ const data = [
       {
         "date": "01.01.2023",
         "hasStats": false,
-        "id": "GAflDWoMQvffZ34",
+        "id": "KqIhr4cS9jkz52k",
         "images": {
           "hero": "2022/12/28/f24edc7b-3854-40c5-a2e7-33e2e2e27bde.jpeg",
           "supplementary": []
@@ -1774,6 +2603,8 @@ const data = [
         "location": "Cairo",
         "stats": {
           "distance": null,
+          "gain": null,
+          "loss": null,
           "max": null,
           "time": null
         },
@@ -1796,7 +2627,7 @@ const data = [
       {
         "date": "01.03.2023",
         "hasStats": false,
-        "id": "82POqyIIOJnZEXd",
+        "id": "V89kBOyrihkXjAI",
         "images": {
           "hero": "2022/12/28/5e393275-ee80-475d-83cf-26192cd55738.jpeg",
           "supplementary": []
@@ -1805,6 +2636,8 @@ const data = [
         "location": "West Bank of Luxor",
         "stats": {
           "distance": null,
+          "gain": null,
+          "loss": null,
           "max": null,
           "time": null
         },
@@ -1827,7 +2660,7 @@ const data = [
       {
         "date": "01.03.2023",
         "hasStats": false,
-        "id": "z0xzZsgieNr86Pt",
+        "id": "pZFWEg6grxOk64t",
         "images": {
           "hero": "2022/12/28/5f93fbaf-0c30-4f70-959d-a5e4384eff83.jpeg",
           "supplementary": [
@@ -1839,6 +2672,8 @@ const data = [
         "location": "West Bank of Luxor",
         "stats": {
           "distance": null,
+          "gain": null,
+          "loss": null,
           "max": null,
           "time": null
         },
@@ -1861,7 +2696,7 @@ const data = [
       {
         "date": "01.03.2023",
         "hasStats": false,
-        "id": "dmmKvFsky9DuPWc",
+        "id": "zNhQ2r7auwhco11",
         "images": {
           "hero": "2022/12/28/9fb7c062-5816-4154-b8cd-525a81f82be0.jpeg",
           "supplementary": [
@@ -1873,6 +2708,8 @@ const data = [
         "location": "West Bank of Luxor",
         "stats": {
           "distance": null,
+          "gain": null,
+          "loss": null,
           "max": null,
           "time": null
         },
@@ -1895,7 +2732,7 @@ const data = [
       {
         "date": "01.03.2023",
         "hasStats": false,
-        "id": "2PWCV6eeSoqxmuU",
+        "id": "Rtx9NOhruZ0tj1L",
         "images": {
           "hero": "2022/12/28/44f2c787-1209-4e11-a2fe-64030e0c472c.jpeg",
           "supplementary": [
@@ -1907,6 +2744,8 @@ const data = [
         "location": "West Bank of Luxor",
         "stats": {
           "distance": null,
+          "gain": null,
+          "loss": null,
           "max": null,
           "time": null
         },
@@ -1929,7 +2768,7 @@ const data = [
       {
         "date": "01.03.2023",
         "hasStats": false,
-        "id": "lqZiAIK8aXi1naz",
+        "id": "isBGA64Ez82y8Gg",
         "images": {
           "hero": "2022/12/28/b7e2eeb1-90d3-49cb-bdb8-41acf2162f78.jpeg",
           "supplementary": [
@@ -1941,6 +2780,8 @@ const data = [
         "location": "West Bank of Luxor",
         "stats": {
           "distance": null,
+          "gain": null,
+          "loss": null,
           "max": null,
           "time": null
         },
@@ -1966,7 +2807,7 @@ const data = [
       {
         "date": "01.04.2023",
         "hasStats": false,
-        "id": "O5GhoKZvB8hZUwL",
+        "id": "qsRYYletHFRWilU",
         "images": {
           "hero": "2022/12/28/b13b3a23-187a-4dc4-912d-e225b21af78a.jpeg",
           "supplementary": [
@@ -1978,6 +2819,8 @@ const data = [
         "location": "West Bank of Luxor",
         "stats": {
           "distance": null,
+          "gain": null,
+          "loss": null,
           "max": null,
           "time": null
         },
@@ -2003,7 +2846,7 @@ const data = [
       {
         "date": "01.04.2023",
         "hasStats": false,
-        "id": "fh9WHRjspr0l0kA",
+        "id": "Ep5o4wxiUYLhKEn",
         "images": {
           "hero": "2022/12/28/9799718c-81f7-460d-9f0a-7ddd2dffb060.jpeg",
           "supplementary": [
@@ -2015,6 +2858,8 @@ const data = [
         "location": "Luxor",
         "stats": {
           "distance": null,
+          "gain": null,
+          "loss": null,
           "max": null,
           "time": null
         },
@@ -2037,7 +2882,7 @@ const data = [
       {
         "date": "01.04.2023",
         "hasStats": false,
-        "id": "6wafBB2CKXWhsz0",
+        "id": "sWsx3zDmYYoRmpU",
         "images": {
           "hero": "2022/12/28/6bf7f094-4f84-42b6-8bbc-5b501a25f3e7.jpeg",
           "supplementary": [
@@ -2049,6 +2894,8 @@ const data = [
         "location": "Luxor",
         "stats": {
           "distance": null,
+          "gain": null,
+          "loss": null,
           "max": null,
           "time": null
         },
@@ -2080,7 +2927,6 @@ const data = [
       }
     },
     "tagline": "Land of ancient wonders, full of bustling cities and streets",
-    "timestamp": "1672304400",
     "title": [
       "Cairo &",
       "Luxor"
@@ -2095,7 +2941,10 @@ const data = [
         "2025"
       ]
     },
-    "image": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",
+    "description": [
+      "The Ice Age Trail is a long-distance National Scenic Trail spanning 1,200 miles across Wisconsin in North America, traversing the state in a series of segments (or sections) that roughly form a 'U' shape, from the northeast corner, down to the south, and back up to the northwestern edge bordering the state of Minnesota. It gets its name from the numerous kettles and moraines left behind by the glaciers.",
+      "So far I have completed 3 sections over %days% days totalling 27 miles. The overall gain and loss of elevation is low on these trails, but it's the constant up and down over the small rolling hills that start to wear you down. These pictures showcase the mostly forested sections of the trail I've done so far."
+    ],
     "index": 3,
     "label": "section",
     "location": "Wisconsin",
@@ -2104,7 +2953,7 @@ const data = [
       {
         "date": "07.15.2022",
         "hasStats": true,
-        "id": "tOS5NF2z38AidjE",
+        "id": "1r1wJ1ILI93UrdX",
         "images": {
           "hero": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",
           "supplementary": []
@@ -2126,6 +2975,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "905",
+              "metric": "276"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "839",
+              "metric": "256"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -2177,7 +3060,7 @@ const data = [
       {
         "date": "05.03.2025",
         "hasStats": true,
-        "id": "aacqTAZcc3fiu4x",
+        "id": "hObgilqJMFDtHAQ",
         "images": {
           "hero": "2025/05/03/e402c0b1-e827-4123-b7b5-74947b240687.jpeg",
           "supplementary": []
@@ -2199,6 +3082,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "653",
+              "metric": "199"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "562",
+              "metric": "171"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -2244,7 +3161,7 @@ const data = [
       {
         "date": "05.04.2025",
         "hasStats": true,
-        "id": "u1mgprVfo7QpK3v",
+        "id": "uBBjTyAtLcc738K",
         "images": {
           "hero": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
           "supplementary": []
@@ -2266,6 +3183,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "461",
+              "metric": "141"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "643",
+              "metric": "196"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -2317,7 +3268,6 @@ const data = [
       }
     },
     "tagline": "A place of glacial kettles and moraines",
-    "timestamp": "1657904400",
     "title": [
       "Ice Age",
       "Trail"
@@ -2331,7 +3281,11 @@ const data = [
         "2022"
       ]
     },
-    "image": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
+    "description": [
+      "The West Highland Way is a long-distance trail in the highlands of Scotland, running from Milngavie north of Glasgow to Fort William, covering 97 miles. The trail utilizes many ancient roads, and old coaching routes. I walked from south to north, making it a journey from the Lowlands to the Highlands. The route took me 6 days to complete while camping overnight in fields, on a beach along a lake, and under a bridge.",
+      "I went in May of 2022 when the weather is supposedly favorable, and the nasty insects known as Midges aren't out yet. I was not prepared for the amount of rain that would be dropped on me on nearly every day of the trek, and by the end of it I was chilled to the bone and soaked through-n-through. Surprisngly this trek didn't end up being a favorite of mine, but I did see some amazing mountain scenery once I got up into the Highlands.",
+      "Here are the days I spent on trail showcasing the varied landscapes and scenery."
+    ],
     "index": 4,
     "label": "day",
     "location": "Scotland",
@@ -2340,7 +3294,7 @@ const data = [
       {
         "date": "05.07.2022",
         "hasStats": true,
-        "id": "ELhJyJFHiHAsVhY",
+        "id": "9knuwvVWPRL4uHi",
         "images": {
           "hero": "2022/05/07/75a8c027-07cd-4184-9157-d48dd5d1a32e.jpeg",
           "supplementary": []
@@ -2362,6 +3316,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "671",
+              "metric": "205"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "723",
+              "metric": "220"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -2405,7 +3393,7 @@ const data = [
       {
         "date": "05.08.2022",
         "hasStats": true,
-        "id": "TKnSSXDKgEkkXbg",
+        "id": "CksAlfYN1OKyHkj",
         "images": {
           "hero": "2022/05/07/e8dd9fed-56e4-45bf-aee4-d1bc44a5363c.jpeg",
           "supplementary": []
@@ -2427,6 +3415,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,121",
+              "metric": "646"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,199",
+              "metric": "670"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -2470,7 +3492,7 @@ const data = [
       {
         "date": "05.09.2022",
         "hasStats": true,
-        "id": "y8GyxHn1M5M4B79",
+        "id": "z6jWnRRHv6Qaegb",
         "images": {
           "hero": "2022/05/07/e610c340-2b8c-481c-8442-dc4543db3f2c.jpeg",
           "supplementary": []
@@ -2492,6 +3514,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,926",
+              "metric": "892"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,880",
+              "metric": "878"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -2537,7 +3593,7 @@ const data = [
       {
         "date": "05.10.2022",
         "hasStats": true,
-        "id": "66qRBZFEGzsIQja",
+        "id": "RGfsUZpKAuCicgb",
         "images": {
           "hero": "2022/05/07/b7df127a-0f69-4b29-843f-e1a7c6f858bf.jpeg",
           "supplementary": []
@@ -2559,6 +3615,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,775",
+              "metric": "846"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,298",
+              "metric": "700"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -2606,7 +3696,7 @@ const data = [
       {
         "date": "05.11.2022",
         "hasStats": true,
-        "id": "yCjcDUPFr3GzLfW",
+        "id": "FT06HoZ2wVF1nxe",
         "images": {
           "hero": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
           "supplementary": []
@@ -2628,6 +3718,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "3,335",
+              "metric": "1,016"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "3,826",
+              "metric": "1,166"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -2674,7 +3798,7 @@ const data = [
       {
         "date": "05.12.2022",
         "hasStats": true,
-        "id": "r2WNQcBtOjwWWHR",
+        "id": "bEUHQ6pV2ha4sFh",
         "images": {
           "hero": "2022/05/07/07741eea-d85e-42cf-a2d4-d0f87102bffc.jpeg",
           "supplementary": []
@@ -2696,6 +3820,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,514",
+              "metric": "766"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,505",
+              "metric": "763"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -2747,7 +3905,6 @@ const data = [
       }
     },
     "tagline": "Filled with misty glens, lochs, and endless rain",
-    "timestamp": "1651911600",
     "title": [
       "West",
       "Highland",
@@ -2762,7 +3919,11 @@ const data = [
         "2020"
       ]
     },
-    "image": "2020/02/18/5e958df4-56a2-4292-ae6d-b694f078a985.jpeg",
+    "description": [
+      "A tapestry of landscapes surrounding spires of granite, the long-distance trails in Patagonia do not disapoint, with towering granite peaks, sprawling glaciers, pristine lakes, and windswept plains. There are two trekking routes (or circuits) in Torres del Paine National Park: the 'W' and the 'O'. Both routes get their names from each trail's layout, and the O Circuit that I did is a route that runs the entire perimeter of the park, and ends at the same place it starts.",
+      "In the winter of 2020, during the second half of February, I traveled to Patagonia to embark on this trail. This was my second time being in the region (my first was in 2016). This trail was a good combination of rustic and modern, and was one of the shorter thru-hikes I have done at 8 days and 73 miles. The highlight of the circuit was coming up over the ridge at Grays Pass and seeing the massive Grays Glacier layed out below us. It filled the horizon from end to end.",
+      "These pictures showcase my time on trail, and offer a glimpse into the 8 days spent on this thru-hike."
+    ],
     "index": 5,
     "label": "day",
     "location": "Patagonia",
@@ -2771,7 +3932,7 @@ const data = [
       {
         "date": "02.18.2020",
         "hasStats": true,
-        "id": "0pRPbqUaEnmP6v4",
+        "id": "H6TBshStz1lTwz2",
         "images": {
           "hero": "2020/02/18/619eec82-6980-4f31-a11f-7c5581d02989.jpeg",
           "supplementary": []
@@ -2793,6 +3954,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "895",
+              "metric": "273"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "779",
+              "metric": "237"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -2838,7 +4033,7 @@ const data = [
       {
         "date": "02.19.2020",
         "hasStats": true,
-        "id": "NzDYGg4NtuoReYu",
+        "id": "C7446HSGtHaCY33",
         "images": {
           "hero": "2020/02/18/98e3190e-5480-4eb9-8883-c8d9fbb3f485.jpeg",
           "supplementary": []
@@ -2860,6 +4055,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "1,036",
+              "metric": "316"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "920",
+              "metric": "280"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -2903,7 +4132,7 @@ const data = [
       {
         "date": "02.20.2020",
         "hasStats": true,
-        "id": "CsbJInQenkcYvnI",
+        "id": "Zo1Ey9ghQTb0uw1",
         "images": {
           "hero": "2020/02/18/f477b7bb-7f38-42ff-a855-f90668a73f28.jpeg",
           "supplementary": []
@@ -2925,6 +4154,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "1,429",
+              "metric": "436"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "268",
+              "metric": "82"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -2968,7 +4231,7 @@ const data = [
       {
         "date": "02.21.2020",
         "hasStats": true,
-        "id": "XoBpv7q4rIfLjp7",
+        "id": "4OuFh7UJFpLD9uk",
         "images": {
           "hero": "2020/02/18/38a1b675-74c7-45b5-9e37-8020d298a0b3.jpeg",
           "supplementary": []
@@ -2990,6 +4253,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,395",
+              "metric": "730"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "3,976",
+              "metric": "1,212"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -3033,7 +4330,7 @@ const data = [
       {
         "date": "02.22.2020",
         "hasStats": true,
-        "id": "DoTYXuulRefd39U",
+        "id": "WPtnrrzTUGjUoJ5",
         "images": {
           "hero": "2020/02/18/dd6e739e-b793-4c64-8e7c-c6a631b467c7.jpeg",
           "supplementary": []
@@ -3055,6 +4352,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "906",
+              "metric": "276"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "1,037",
+              "metric": "316"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -3100,7 +4431,7 @@ const data = [
       {
         "date": "02.23.2020",
         "hasStats": true,
-        "id": "Ygc1ziJ2aSQAVlV",
+        "id": "iQCvhZkNLcqx4px",
         "images": {
           "hero": "2020/02/18/380820b8-520a-49fa-8f01-651ca63fd84f.jpeg",
           "supplementary": []
@@ -3122,6 +4453,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,621",
+              "metric": "799"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,201",
+              "metric": "671"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -3167,7 +4532,7 @@ const data = [
       {
         "date": "02.24.2020",
         "hasStats": true,
-        "id": "dr9ZUlUr1QUHm6Y",
+        "id": "ccQso53sBcagq0b",
         "images": {
           "hero": "2020/02/18/790032e0-6483-4631-9cbe-d912510a1a48.jpeg",
           "supplementary": []
@@ -3189,6 +4554,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,064",
+              "metric": "629"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "1,225",
+              "metric": "373"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -3232,7 +4631,7 @@ const data = [
       {
         "date": "02.25.2020",
         "hasStats": true,
-        "id": "P0M6NCnmjfNfqXL",
+        "id": "4NITR8FvFrcznj1",
         "images": {
           "hero": "2020/02/18/630411a8-f5ce-47fe-8261-f94e00654447.jpeg",
           "supplementary": []
@@ -3254,6 +4653,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "1,852",
+              "metric": "564"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,782",
+              "metric": "848"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -3305,7 +4738,6 @@ const data = [
       }
     },
     "tagline": "At the end of the world",
-    "timestamp": "1582041600",
     "title": [
       "Torres del",
       "Paine O",
@@ -3320,7 +4752,11 @@ const data = [
         "2019"
       ]
     },
-    "image": "2019/10/19/b9b20eb0-e569-4778-99c6-de3a3c2eb15e.jpeg",
+    "description": [
+      "The Annapurna Circuit is a circular route that goes around the Annapurna Mountain (one of the eight tallest peaks in the world). The trail gets it start in the subtropical forests along paddy fields and waterfalls at 2,500 feet, and ascends all the way up to the frozen Arctic region at 17,800 feet reaching the Tibetan plateau.",
+      "I went during the (second) best time of the year, from October to November, in order to have the most favorable weather and trail conditions. The circuit, including the main trail and side trails we used for acclimatizing on rest days (such as in Manang), and the trek to basecamp, totaled 193 miles, and took 18 days to complete while hiking the trail in a counter-clockwise direction. This direction of travel allows you to slowly ease into the daily altitude gain, and which made it easier when crossing the highest point between Phedi and Muktinath, at 17,751 feet. The total gain and loss in elevation for this trail was 54,267 ft up, and 51,090 ft down, making it one of the harder treks I have done.",
+      "These pictures showcase my time on trail, and offer a glimpse into the 18 days spent on this thru-hike."
+    ],
     "index": 6,
     "label": "day",
     "location": "the Himalayas",
@@ -3329,7 +4765,7 @@ const data = [
       {
         "date": "10.19.2019",
         "hasStats": true,
-        "id": "uwz8WKm384XjCZW",
+        "id": "89tvrVGR1LkMnmj",
         "images": {
           "hero": "2019/10/19/672dcde8-57ae-4bf9-885f-ae039d3a824d.jpeg",
           "supplementary": []
@@ -3351,6 +4787,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "1,679",
+              "metric": "512"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "1,493",
+              "metric": "455"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -3394,7 +4864,7 @@ const data = [
       {
         "date": "10.20.2019",
         "hasStats": true,
-        "id": "9XiW3R9ZK8yxSwK",
+        "id": "rf8rj37JcXKR96F",
         "images": {
           "hero": "2019/10/19/cde86c7c-f794-4a99-8286-9af3de9425fc.jpeg",
           "supplementary": []
@@ -3416,6 +4886,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "3,437",
+              "metric": "1,048"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,079",
+              "metric": "634"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -3459,7 +4963,7 @@ const data = [
       {
         "date": "10.21.2019",
         "hasStats": true,
-        "id": "UYhPsFFY4cj5gqC",
+        "id": "dYteVpqzC2eiSWk",
         "images": {
           "hero": "2019/10/19/69d8dc52-42d4-4295-9b25-1f7542c1da8b.jpeg",
           "supplementary": []
@@ -3481,6 +4985,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "3,825",
+              "metric": "1,166"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "1,721",
+              "metric": "525"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -3524,7 +5062,7 @@ const data = [
       {
         "date": "10.22.2019",
         "hasStats": true,
-        "id": "e6HfRrBdZXpauF5",
+        "id": "BHTWY5BBOuUEU7Q",
         "images": {
           "hero": "2019/10/19/de48b8b7-ef5d-4c21-93a8-d6e4d7628e7f.jpeg",
           "supplementary": []
@@ -3546,6 +5084,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "4,315",
+              "metric": "1,315"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "1,716",
+              "metric": "523"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -3589,7 +5161,7 @@ const data = [
       {
         "date": "10.23.2019",
         "hasStats": true,
-        "id": "rMPiNo31b7PoRm2",
+        "id": "o6jkZvJQgHbLXrq",
         "images": {
           "hero": "2019/10/19/91fcb255-9894-434c-9c39-41ea5070e819.jpeg",
           "supplementary": []
@@ -3611,6 +5183,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,732",
+              "metric": "833"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "749",
+              "metric": "228"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -3656,7 +5262,7 @@ const data = [
       {
         "date": "10.24.2019",
         "hasStats": true,
-        "id": "uGcsNhOb0w1EYwO",
+        "id": "gsLYIVBJkjbSrtw",
         "images": {
           "hero": "2019/10/19/b9b20eb0-e569-4778-99c6-de3a3c2eb15e.jpeg",
           "supplementary": []
@@ -3678,6 +5284,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,848",
+              "metric": "868"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,006",
+              "metric": "611"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -3723,7 +5363,7 @@ const data = [
       {
         "date": "10.25.2019",
         "hasStats": true,
-        "id": "zxNMaUnDIkb5pfl",
+        "id": "iAANT7UKsrkA1JJ",
         "images": {
           "hero": "2019/10/19/ed197052-01d7-4739-807c-39340385c0fc.jpeg",
           "supplementary": []
@@ -3745,6 +5385,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "3,090",
+              "metric": "942"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "1,126",
+              "metric": "343"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -3792,7 +5466,7 @@ const data = [
       {
         "date": "10.26.2019",
         "hasStats": true,
-        "id": "Am7VBdDq53Y04iv",
+        "id": "99Err3g6bkleyo3",
         "images": {
           "hero": "2019/10/19/d7837a44-81d2-4fa0-9912-bb15508be721.jpeg",
           "supplementary": []
@@ -3814,6 +5488,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "3,619",
+              "metric": "1,103"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "3,884",
+              "metric": "1,184"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -3863,7 +5571,7 @@ const data = [
       {
         "date": "10.27.2019",
         "hasStats": true,
-        "id": "yKmJ1h1p487PDJR",
+        "id": "EdjKrt9qszzjMXs",
         "images": {
           "hero": "2019/10/19/40b7a029-2f0c-4807-94fa-86a07ee9ffa9.jpeg",
           "supplementary": []
@@ -3885,6 +5593,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "3,169",
+              "metric": "966"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "1,615",
+              "metric": "492"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -3930,7 +5672,7 @@ const data = [
       {
         "date": "10.28.2019",
         "hasStats": true,
-        "id": "pRfeISJQCdVlc1l",
+        "id": "8fvELTzW6arL5w0",
         "images": {
           "hero": "2019/10/19/f76cbaab-0139-44b4-bc5c-6c816731d927.jpeg",
           "supplementary": []
@@ -3952,6 +5694,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,889",
+              "metric": "881"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "5,724",
+              "metric": "1,745"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -3995,7 +5771,7 @@ const data = [
       {
         "date": "10.29.2019",
         "hasStats": true,
-        "id": "ZQep32pCLOPuGjO",
+        "id": "9CMYJ8tNGk56Cch",
         "images": {
           "hero": "2019/10/19/93b7286f-a87a-4d8e-8d85-6a3f50dcd82c.jpeg",
           "supplementary": []
@@ -4017,6 +5793,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "1,292",
+              "metric": "394"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "4,480",
+              "metric": "1,365"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -4060,7 +5870,7 @@ const data = [
       {
         "date": "10.30.2019",
         "hasStats": true,
-        "id": "E9pFKNizHgIerl0",
+        "id": "MP02ayg2fyR1I9Z",
         "images": {
           "hero": "2019/10/19/9f9bca6e-e30a-4ca0-b005-5a0bda57f649.jpeg",
           "supplementary": []
@@ -4082,6 +5892,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,053",
+              "metric": "626"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "4,262",
+              "metric": "1,299"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -4125,7 +5969,7 @@ const data = [
       {
         "date": "10.31.2019",
         "hasStats": true,
-        "id": "EeJJHBsPLVzB7Nx",
+        "id": "5D2VrApInOjT7GS",
         "images": {
           "hero": "2019/10/19/5cf22091-8d99-4cdd-870c-f91db81c1049.jpeg",
           "supplementary": []
@@ -4147,6 +5991,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "6,431",
+              "metric": "1,960"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "3,596",
+              "metric": "1,096"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -4190,7 +6068,7 @@ const data = [
       {
         "date": "11.01.2019",
         "hasStats": true,
-        "id": "dTInQyAauyiKydK",
+        "id": "g0lFh4MspNZ2p4v",
         "images": {
           "hero": "2019/10/19/b2ef8848-2e35-43dd-9f06-98434903f810.jpeg",
           "supplementary": []
@@ -4212,6 +6090,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "3,186",
+              "metric": "971"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "5,359",
+              "metric": "1,633"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -4255,7 +6167,7 @@ const data = [
       {
         "date": "11.02.2019",
         "hasStats": true,
-        "id": "TxK6bMLdrmZ995u",
+        "id": "yw8gLtSHwNTFa3T",
         "images": {
           "hero": "2019/10/19/a052d193-0be9-4288-b017-65d459c3eca1.jpeg",
           "supplementary": []
@@ -4277,6 +6189,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "5,001",
+              "metric": "1,524"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "1,019",
+              "metric": "311"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -4320,7 +6266,7 @@ const data = [
       {
         "date": "11.03.2019",
         "hasStats": true,
-        "id": "sJOvAxAzGxXLfxR",
+        "id": "m9a6C22pzunatfQ",
         "images": {
           "hero": "2019/10/19/3773c3c4-265f-4e7e-8f0a-d6e1a7d9b85c.jpeg",
           "supplementary": []
@@ -4342,6 +6288,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "3,163",
+              "metric": "964"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "95",
+              "metric": "29"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -4387,7 +6367,7 @@ const data = [
       {
         "date": "11.04.2019",
         "hasStats": true,
-        "id": "6GPMIEmiGxIAWAh",
+        "id": "6LmsFBbb5C25xGO",
         "images": {
           "hero": "2019/10/19/490d1db6-aaad-4ed3-9181-081ca318cd16.jpeg",
           "supplementary": []
@@ -4409,6 +6389,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "1,263",
+              "metric": "385"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "8,110",
+              "metric": "2,472"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -4454,7 +6468,7 @@ const data = [
       {
         "date": "11.05.2019",
         "hasStats": true,
-        "id": "XhINQdXunQANb92",
+        "id": "Y3R85BhkWii9k4v",
         "images": {
           "hero": "2019/10/19/8fef1e6f-d483-445c-b19c-d47bb7f1fc68.jpeg",
           "supplementary": []
@@ -4476,6 +6490,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "275",
+              "metric": "84"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,056",
+              "metric": "627"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -4525,7 +6573,6 @@ const data = [
       }
     },
     "tagline": "Surrounded by giants",
-    "timestamp": "1571465700",
     "title": [
       "Annapurna",
       "Circuit +",
@@ -4541,7 +6588,10 @@ const data = [
         "2022"
       ]
     },
-    "image": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
+    "description": [
+      "Peak-bagging is the activity of hiking to the summits of a list of mountains, often defined by specific criteria like altitude or location, and then checking them off as completed. For the Rocky Mountains in Colorado, that criteria is hiking to peaks above 14,000 feet in elevation. It's an awe-inspiring experience offering unparalleled views. Reaching the summit is a moment of profound triumph, a feeling of being on top of the world.",
+      "These are the summits I have completed so far, 9 in total, with most of them being Class 1 and 2 routes. My favorite so far was Quandary Peak."
+    ],
     "index": 7,
     "label": "summit",
     "location": "the Colorado Rocky Mountains",
@@ -4550,7 +6600,7 @@ const data = [
       {
         "date": "08.31.2019",
         "hasStats": true,
-        "id": "YM4rwpRMTILd2Tr",
+        "id": "Tf6FHP8N7fFqvwT",
         "images": {
           "hero": "2019/08/31/52f1514b-91a4-494d-93df-6ae9c81df01c.jpeg",
           "supplementary": []
@@ -4572,6 +6622,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "4,411",
+              "metric": "1,344"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "44",
+              "metric": "13"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -4617,7 +6701,7 @@ const data = [
       {
         "date": "09.01.2019",
         "hasStats": true,
-        "id": "BU9FBR0X4ifLK47",
+        "id": "7ajTa1IhAUXoLpm",
         "images": {
           "hero": "2019/09/01/08d28c7e-387b-418f-8226-b2a87485f1d8.jpeg",
           "supplementary": []
@@ -4639,6 +6723,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "3,330",
+              "metric": "1,015"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "0",
+              "metric": "0"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -4684,7 +6802,7 @@ const data = [
       {
         "date": "09.04.2020",
         "hasStats": true,
-        "id": "4Vji53zTGfYZeZm",
+        "id": "T62b6GHE36Ikepc",
         "images": {
           "hero": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
           "supplementary": []
@@ -4706,6 +6824,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "4,310",
+              "metric": "1,314"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "148",
+              "metric": "45"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -4751,7 +6903,7 @@ const data = [
       {
         "date": "09.05.2020",
         "hasStats": true,
-        "id": "c6WC6sUktbljkR7",
+        "id": "jQ34e4pESV2kZzo",
         "images": {
           "hero": "2020/09/05/54a89ed8-86d4-4918-b7b3-b883ecea72c8.jpeg",
           "supplementary": []
@@ -4773,6 +6925,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,553",
+              "metric": "778"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "136",
+              "metric": "41"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -4818,7 +7004,7 @@ const data = [
       {
         "date": "09.06.2020",
         "hasStats": true,
-        "id": "Gd11y8mrWFPN9QA",
+        "id": "7lexcXJbtVsSUjc",
         "images": {
           "hero": "2020/09/06/80307849-8964-4e0d-a70f-f6371ca7fcad.jpeg",
           "supplementary": []
@@ -4840,6 +7026,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "3,012",
+              "metric": "918"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "0",
+              "metric": "0"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -4882,7 +7102,7 @@ const data = [
       {
         "date": "09.07.2021",
         "hasStats": true,
-        "id": "Dc05xoqBDuu2n6l",
+        "id": "pAM5wNPWSDnamSD",
         "images": {
           "hero": "2021/09/07/fbe767d5-63c6-4af7-8643-ceef9b4cce92.jpeg",
           "supplementary": []
@@ -4904,6 +7124,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "4,405",
+              "metric": "1,343"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2",
+              "metric": "1"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -4949,7 +7203,7 @@ const data = [
       {
         "date": "09.09.2021",
         "hasStats": true,
-        "id": "SUSDLGRZqV6O9HN",
+        "id": "XWp64KPOKWtAWS4",
         "images": {
           "hero": "2021/09/09/8e1e0c1f-c391-4bc0-807c-7bdd8d20815b.jpeg",
           "supplementary": []
@@ -4971,6 +7225,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "3,134",
+              "metric": "955"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "1,741",
+              "metric": "531"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -5016,7 +7304,7 @@ const data = [
       {
         "date": "09.09.2022",
         "hasStats": true,
-        "id": "UYcGy0a8BdX0Iz2",
+        "id": "eVS7KPbHp3t8Hku",
         "images": {
           "hero": "2022/09/09/f722df6c-2869-4ff0-80f7-37014241e135.jpeg",
           "supplementary": []
@@ -5038,6 +7326,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "4,474",
+              "metric": "1,364"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "0",
+              "metric": "0"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -5083,7 +7405,7 @@ const data = [
       {
         "date": "09.11.2022",
         "hasStats": true,
-        "id": "BGPg1rjMIwSHQZH",
+        "id": "Lf7HQdHSpbt5AWS",
         "images": {
           "hero": "2022/09/11/b74f68ae-d627-4a89-9122-fbc75562e59d.jpeg",
           "supplementary": []
@@ -5105,6 +7427,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "4,419",
+              "metric": "1,347"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "123",
+              "metric": "37"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -5156,7 +7512,6 @@ const data = [
       }
     },
     "tagline": "58 Summits above 14,000 feet",
-    "timestamp": "1567195200",
     "title": [
       "Southern",
       "Rockies",
@@ -5171,7 +7526,11 @@ const data = [
         "2019"
       ]
     },
-    "image": "2019/07/16/c4d424d9-7826-422d-9e0f-1b7e8b20af99.jpeg",
+    "description": [
+      "The Alta Via 1, or AV1, is one of seven routes that runs through the Dolomite mountains in northern Italy. 1 is the classic high route in the Dolomites, and the easiest of the seven. As a result it was one of the busier mountain trails I had done, thanks to its numerous easy-to-get-to access points. It passes through some of the most beautiful areas in the world filled with captivating landscapes due to the varied shapes and colors of the mountains.",
+      "In 2019, during the second half of July, I set off for Northern Italy to hike the AV1 route from North to South, finishing in the Italian city of Belluno. It took exactly 10 days to complete the 65 miles of trail, without any rest days. The beginning and end of the route were the hardest, each with large amounts of ascending and descending, but the majority of the trail's elevation change was evenly distributed. The total elevation gain/loss was 25,109 ft up, and 28,590 ft down, with a maximum altitude of 9,129 feet.",
+      "These pictures showcase some of the amazing natural formations visible from the trail, and offer a glimpse into the 10 days spent on this thru-hike."
+    ],
     "index": 8,
     "label": "day",
     "location": "the Dolomites",
@@ -5180,7 +7539,7 @@ const data = [
       {
         "date": "07.16.2019",
         "hasStats": true,
-        "id": "3m5DZH5qMcRQM8G",
+        "id": "PVOMejiIUni3Sj3",
         "images": {
           "hero": "2019/07/16/eba70b28-4c7d-45f3-aa93-46b24011cb80.jpeg",
           "supplementary": []
@@ -5202,6 +7561,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "4,304",
+              "metric": "1,312"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "1,564",
+              "metric": "477"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -5245,7 +7638,7 @@ const data = [
       {
         "date": "07.17.2019",
         "hasStats": true,
-        "id": "smT5tNqNaXpoXcB",
+        "id": "Nf6ZmktfCsnM8VW",
         "images": {
           "hero": "2019/07/16/69890344-e575-484e-86ae-5ddeb000c4f9.jpeg",
           "supplementary": []
@@ -5267,6 +7660,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,022",
+              "metric": "616"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,951",
+              "metric": "899"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -5310,7 +7737,7 @@ const data = [
       {
         "date": "07.18.2019",
         "hasStats": true,
-        "id": "6LkpGh39u8toK3Y",
+        "id": "n58nwnB0cQs39Ei",
         "images": {
           "hero": "2019/07/16/081c1b83-7036-4c3c-aa2f-0534f4250ab8.jpeg",
           "supplementary": []
@@ -5332,6 +7759,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "1,856",
+              "metric": "566"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,014",
+              "metric": "614"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -5375,7 +7836,7 @@ const data = [
       {
         "date": "07.19.2019",
         "hasStats": true,
-        "id": "22rjdSQj1cU7gg8",
+        "id": "BidymcSImNP5R5C",
         "images": {
           "hero": "2019/07/16/eb243b48-8084-4c7e-94c0-5a163983d407.jpeg",
           "supplementary": []
@@ -5397,6 +7858,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "4,694",
+              "metric": "1,431"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "3,336",
+              "metric": "1,017"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -5440,7 +7935,7 @@ const data = [
       {
         "date": "07.20.2019",
         "hasStats": true,
-        "id": "U2hqartuiiiO8Rd",
+        "id": "FpYkyz21hNkdPFo",
         "images": {
           "hero": "2019/07/16/a3f65b8c-4b57-4194-a3a1-5769f1d63373.jpeg",
           "supplementary": []
@@ -5462,6 +7957,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "1,599",
+              "metric": "487"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "3,205",
+              "metric": "977"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -5507,7 +8036,7 @@ const data = [
       {
         "date": "07.21.2019",
         "hasStats": true,
-        "id": "Kbs7Dq4A8tKq91g",
+        "id": "AiTLiRS4yHuKklJ",
         "images": {
           "hero": "2019/07/16/b1128805-54bb-4b7b-adcb-f2b6ae3fada6.jpeg",
           "supplementary": []
@@ -5529,6 +8058,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "3,124",
+              "metric": "952"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,031",
+              "metric": "619"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -5574,7 +8137,7 @@ const data = [
       {
         "date": "07.22.2019",
         "hasStats": true,
-        "id": "Buz4H5tueXOdICt",
+        "id": "aIIACXoJZsZKIXy",
         "images": {
           "hero": "2019/07/16/a46e829f-147b-40d1-b7ae-2f743923feca.jpeg",
           "supplementary": []
@@ -5596,6 +8159,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,532",
+              "metric": "772"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "3,969",
+              "metric": "1,210"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -5639,7 +8236,7 @@ const data = [
       {
         "date": "07.23.2019",
         "hasStats": true,
-        "id": "1VYAVBNafLaNNvr",
+        "id": "Xf3bW31phPb5VbS",
         "images": {
           "hero": "2019/07/16/21806386-052d-4a82-941e-6728771acd63.jpeg",
           "supplementary": []
@@ -5661,6 +8258,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,020",
+              "metric": "616"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "1,955",
+              "metric": "596"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -5705,7 +8336,7 @@ const data = [
       {
         "date": "07.24.2019",
         "hasStats": true,
-        "id": "LUuMcnJ7gw1zgsZ",
+        "id": "l1XQIPzIyJh6MSV",
         "images": {
           "hero": "2019/07/16/2982a2fe-75f6-473a-8d98-2c664c5cd38e.jpeg",
           "supplementary": []
@@ -5727,6 +8358,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "1,768",
+              "metric": "539"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,470",
+              "metric": "753"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -5772,7 +8437,7 @@ const data = [
       {
         "date": "07.25.2019",
         "hasStats": true,
-        "id": "l40WJMUNRJqwemT",
+        "id": "FeobWx1clsikFMF",
         "images": {
           "hero": "2019/07/16/735a0783-62ba-4f8e-97d8-c9b9f5327cfe.jpeg",
           "supplementary": []
@@ -5794,6 +8459,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "1,190",
+              "metric": "363"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "5,095",
+              "metric": "1,553"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -5845,7 +8544,6 @@ const data = [
       }
     },
     "tagline": "A panorama of jagged ridges, vertical walls, and majestic towers",
-    "timestamp": "1563261600",
     "title": [
       "Alta Via 1"
     ],
@@ -5858,7 +8556,11 @@ const data = [
         "2018"
       ]
     },
-    "image": "2018/09/02/ec37f4a8-6310-4bf6-b1a7-cddb1f91bf3b.jpeg",
+    "description": [
+      "The Tour du Mont Blanc, or TMB, is a hiking route that encircles the Mont Blanc mountain in the Alps, passing through three different countries: France, Italy and Switzerland. It's around 100 miles long, with a lot of elevation gain/loss and it is considered a classic long-distance hiking trail, offering a unique blend of cultures, and stunning scenery.",
+      "Shortly after completing the Camino in Spain I set off in September of 2018 to do this thru-hike. Along the route there are places called Refuges in the mountains where I spent each night. Amenities varied at each place, but they all included a bed, a full bathroom, and meals. The sights during the day are amazing, and the effort I put in during each day made every sight and sound worth it. I did some of the alternate routes on the trail, and my total distance came out to 106 miles over 12 days, and the elevation changes ended up being 36,877 ft up and 36,701 ft down. I can't wait to do it again.",
+      "These pictures showcase my time on trail, and offer a glimpse into the 12 days spent on this thru-hike."
+    ],
     "index": 9,
     "label": "day",
     "location": "the French Italian and Swiss Alps",
@@ -5867,7 +8569,7 @@ const data = [
       {
         "date": "09.02.2018",
         "hasStats": true,
-        "id": "2xVEtxmeGDzhyDS",
+        "id": "oORVIr7XOcqlG43",
         "images": {
           "hero": "2018/09/02/135eea74-e1bc-4cab-bfd7-28d17405a744.jpeg",
           "supplementary": []
@@ -5889,6 +8591,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "4,669",
+              "metric": "1,423"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,333",
+              "metric": "711"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -5934,7 +8670,7 @@ const data = [
       {
         "date": "09.03.2018",
         "hasStats": true,
-        "id": "I36Y25NZ3VQlKm3",
+        "id": "JugtdTmB3VQbCbJ",
         "images": {
           "hero": "2018/09/02/56d3cc07-47c1-40c8-b7ee-483aa01d777c.jpeg",
           "supplementary": []
@@ -5956,6 +8692,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "4,395",
+              "metric": "1,340"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,027",
+              "metric": "618"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -6005,7 +8775,7 @@ const data = [
       {
         "date": "09.04.2018",
         "hasStats": true,
-        "id": "4Pdsn7l3wXOnX0R",
+        "id": "DtIDb126TsaNeiy",
         "images": {
           "hero": "2018/09/02/0420d236-d12a-40e8-8d6c-90558e26d304.jpeg",
           "supplementary": []
@@ -6027,6 +8797,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "3,916",
+              "metric": "1,194"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,900",
+              "metric": "884"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -6078,7 +8882,7 @@ const data = [
       {
         "date": "09.05.2018",
         "hasStats": true,
-        "id": "DvnLlyd017NNz7Q",
+        "id": "5lAsp8XzBvOISlm",
         "images": {
           "hero": "2018/09/02/488a5815-e763-406d-94e1-5e51ff25cafe.jpeg",
           "supplementary": []
@@ -6100,6 +8904,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,303",
+              "metric": "702"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "4,922",
+              "metric": "1,500"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -6149,7 +8987,7 @@ const data = [
       {
         "date": "09.06.2018",
         "hasStats": true,
-        "id": "ttfr4cz8aSLdtKB",
+        "id": "LpC8BxVKZZhtmQM",
         "images": {
           "hero": "2018/09/02/9cefaedf-2e6b-439a-9512-f1f37d2374eb.jpeg",
           "supplementary": []
@@ -6171,6 +9009,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "3,523",
+              "metric": "1,074"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "3,308",
+              "metric": "1,008"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -6218,7 +9090,7 @@ const data = [
       {
         "date": "09.07.2018",
         "hasStats": true,
-        "id": "MO6fkRfF6QTLPw9",
+        "id": "US3hrZlgXK5tASY",
         "images": {
           "hero": "2018/09/02/891cd8a7-97d2-4251-ac34-6c816c0ec570.jpeg",
           "supplementary": []
@@ -6240,6 +9112,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,907",
+              "metric": "886"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "4,225",
+              "metric": "1,288"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -6287,7 +9193,7 @@ const data = [
       {
         "date": "09.08.2018",
         "hasStats": true,
-        "id": "zar523LoSb8OjfZ",
+        "id": "EEQeG7iWoU7COdh",
         "images": {
           "hero": "2018/09/02/8d209b3b-8d40-49b3-b754-fd91466c9708.jpeg",
           "supplementary": []
@@ -6309,6 +9215,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "1,707",
+              "metric": "520"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,226",
+              "metric": "678"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -6356,7 +9296,7 @@ const data = [
       {
         "date": "09.09.2018",
         "hasStats": true,
-        "id": "omIxxMWQKUV6XUD",
+        "id": "pzQbjMRU2VujMWj",
         "images": {
           "hero": "2018/09/02/21248df2-d0b9-41d2-9662-b6215c24c298.jpeg",
           "supplementary": []
@@ -6378,6 +9318,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "4,044",
+              "metric": "1,233"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "4,415",
+              "metric": "1,346"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -6425,7 +9399,7 @@ const data = [
       {
         "date": "09.10.2018",
         "hasStats": true,
-        "id": "ggmxY0qSAXgun5c",
+        "id": "GFHvvKfjc3z5p9B",
         "images": {
           "hero": "2018/09/02/ec37f4a8-6310-4bf6-b1a7-cddb1f91bf3b.jpeg",
           "supplementary": []
@@ -6447,6 +9421,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "3,723",
+              "metric": "1,135"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "3,316",
+              "metric": "1,011"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -6494,7 +9502,7 @@ const data = [
       {
         "date": "09.11.2018",
         "hasStats": true,
-        "id": "elX25eIBC2emB1q",
+        "id": "bnrxueSO0rzsxGv",
         "images": {
           "hero": "2018/09/02/0ea4750a-307a-44be-a466-bb081d137d3c.jpeg",
           "supplementary": []
@@ -6516,6 +9524,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "3,136",
+              "metric": "956"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "1,636",
+              "metric": "499"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -6563,7 +9605,7 @@ const data = [
       {
         "date": "09.12.2018",
         "hasStats": true,
-        "id": "i6vJW5hAFJ589Fh",
+        "id": "mldEssmdaHwwv48",
         "images": {
           "hero": "2018/09/02/3faeb9f8-d262-4c12-869f-4470b0dc0574.jpeg",
           "supplementary": []
@@ -6585,6 +9627,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,412",
+              "metric": "735"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "1,568",
+              "metric": "478"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -6633,7 +9709,7 @@ const data = [
       {
         "date": "09.13.2018",
         "hasStats": true,
-        "id": "REHVUhgf9JpqoWq",
+        "id": "U7fU8nnOYXsx7V5",
         "images": {
           "hero": "2018/09/02/8a0d6d12-a40d-47ba-9d09-6b8d5572bb32.jpeg",
           "supplementary": []
@@ -6655,6 +9731,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "142",
+              "metric": "43"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "3,825",
+              "metric": "1,166"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -6707,7 +9817,6 @@ const data = [
       }
     },
     "tagline": "A challenging experience with diverse landscapes and alpine charm",
-    "timestamp": "1535872800",
     "title": [
       "Tour du",
       "Mont Blanc"
@@ -6721,7 +9830,11 @@ const data = [
         "2018"
       ]
     },
-    "image": "2018/06/02/1921986b-9cf8-4bf8-b531-3bfe2f098f93.jpeg",
+    "description": [
+      "A series of ancient routes that unfold across Europe, the Camino de Santiago (or Camino) is a network of continously used trails since medieval times leading to the city of Santiago de Compostela in northwestern Spain. The most popular route is the Camino Frances which goes from the border of France all the way to the Atlantic ocean, and takes several weeks to complete.",
+      "This was my first long-distance trail, and after much preparation I flew to Spain at the end of May 2018 and started the trail on June 2nd. The Camino wears you down over the first few days, but then builds you back up, and after the first week I was walking 15 - 25 miles daily, all leading towards the city of Santiago and the Atlantic ocean. I spent 32 days walking 534 miles over hills and mountains, through deserts, and swimming in rivers, to reach the ocean.",
+      "It's hard to capture 32 worth of experiences in these few snapshots, but hopefully they offer a picture of my journey on this adventure, and a glimpse into the time spent on this thru-hike."
+    ],
     "index": 10,
     "label": "day",
     "location": "the autonomous regions of Navarra, La Rioja, Castile and León, and Galicia",
@@ -6730,7 +9843,7 @@ const data = [
       {
         "date": "06.02.2018",
         "hasStats": true,
-        "id": "Hv0ZFSR0eOoODjY",
+        "id": "ityo2jOEQAwchC0",
         "images": {
           "hero": "2018/06/02/36c8ce31-ccce-4133-9528-338124462edf.jpeg",
           "supplementary": []
@@ -6752,6 +9865,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "4,525",
+              "metric": "1,379"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,005",
+              "metric": "611"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -6800,7 +9947,7 @@ const data = [
       {
         "date": "06.03.2018",
         "hasStats": true,
-        "id": "ElZjo0QLFMIQsdW",
+        "id": "Ene2fIEOilsFEti",
         "images": {
           "hero": "2018/06/02/259d7373-6f3d-4274-8ff8-440cb2724702.jpeg",
           "supplementary": []
@@ -6822,6 +9969,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "1,176",
+              "metric": "358"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,551",
+              "metric": "778"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -6866,7 +10047,7 @@ const data = [
       {
         "date": "06.04.2018",
         "hasStats": true,
-        "id": "GbWntTLN8slgekF",
+        "id": "HzqnmmSdmIh9ESX",
         "images": {
           "hero": "2018/06/02/94c5e141-580c-483b-91aa-13a88bf0f8fd.jpeg",
           "supplementary": []
@@ -6888,6 +10069,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "950",
+              "metric": "290"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "1,223",
+              "metric": "373"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -6931,7 +10146,7 @@ const data = [
       {
         "date": "06.05.2018",
         "hasStats": true,
-        "id": "QPPyxyOGot2Deas",
+        "id": "0E0XXCgdTgWxi4L",
         "images": {
           "hero": "2018/06/02/88b734d7-ee6f-437f-a44b-6233d7f86158.jpeg",
           "supplementary": []
@@ -6953,6 +10168,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "1,484",
+              "metric": "452"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "1,794",
+              "metric": "547"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -6998,7 +10247,7 @@ const data = [
       {
         "date": "06.06.2018",
         "hasStats": true,
-        "id": "YOfhYU3vOserA7Y",
+        "id": "GwOP3lBTlyi7xUG",
         "images": {
           "hero": "2018/06/02/6de64c25-13b3-441f-96b8-1f80cd4d6bd6.jpeg",
           "supplementary": []
@@ -7020,6 +10269,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "1,424",
+              "metric": "434"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "1,189",
+              "metric": "362"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -7065,7 +10348,7 @@ const data = [
       {
         "date": "06.07.2018",
         "hasStats": true,
-        "id": "knm9odEyAggzJgk",
+        "id": "1XZPyXNvRRFmOO1",
         "images": {
           "hero": "2018/06/02/f3c24aa0-ec3f-4319-9585-e178b9fd7bca.jpeg",
           "supplementary": []
@@ -7087,6 +10370,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "1,603",
+              "metric": "489"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "1,368",
+              "metric": "417"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -7130,7 +10447,7 @@ const data = [
       {
         "date": "06.08.2018",
         "hasStats": true,
-        "id": "xHjkKoyD28od0zE",
+        "id": "6kvYNuDeEvxgR6w",
         "images": {
           "hero": "2018/06/02/71b4d4f4-b9d4-40b9-8902-cef791391428.jpeg",
           "supplementary": []
@@ -7152,6 +10469,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "1,148",
+              "metric": "350"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "1,520",
+              "metric": "463"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -7195,7 +10546,7 @@ const data = [
       {
         "date": "06.09.2018",
         "hasStats": true,
-        "id": "znzgh7kkEWK3GUm",
+        "id": "10zFSb4PcvlueH5",
         "images": {
           "hero": "2018/06/02/e5a310be-0e12-45d8-9121-dbac375a4234.jpeg",
           "supplementary": []
@@ -7217,6 +10568,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "1,301",
+              "metric": "397"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "952",
+              "metric": "290"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -7260,7 +10645,7 @@ const data = [
       {
         "date": "06.10.2018",
         "hasStats": true,
-        "id": "4exGeKDNmmsEO9u",
+        "id": "QMuSlSXjV7KEuCR",
         "images": {
           "hero": "2018/06/02/50570d33-285a-4561-bc7f-b7e500363359.jpeg",
           "supplementary": []
@@ -7282,6 +10667,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "1,336",
+              "metric": "407"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "829",
+              "metric": "253"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -7327,7 +10746,7 @@ const data = [
       {
         "date": "06.11.2018",
         "hasStats": true,
-        "id": "sfyJyiIOZmOyyRi",
+        "id": "UWhIUBBtVTYuNYC",
         "images": {
           "hero": "2018/06/02/009b868c-38ee-43e7-bc1c-90b259306d86.jpeg",
           "supplementary": []
@@ -7349,6 +10768,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "1,178",
+              "metric": "359"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "747",
+              "metric": "228"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -7394,7 +10847,7 @@ const data = [
       {
         "date": "06.12.2018",
         "hasStats": true,
-        "id": "ks4hvtNNTAEZSjN",
+        "id": "0pUYSF6GULStH1B",
         "images": {
           "hero": "2018/06/02/678b2b3a-6724-4bca-99b7-f7ed9a4683e7.jpeg",
           "supplementary": []
@@ -7416,6 +10869,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "1,660",
+              "metric": "506"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "1,020",
+              "metric": "311"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -7459,7 +10946,7 @@ const data = [
       {
         "date": "06.13.2018",
         "hasStats": true,
-        "id": "oxV8eKi7NADV9u7",
+        "id": "En0wQIc4N0MeApd",
         "images": {
           "hero": "2018/06/02/28740c31-9cb0-4952-af50-9f1bab6c1edb.jpeg",
           "supplementary": []
@@ -7481,6 +10968,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "487",
+              "metric": "148"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "843",
+              "metric": "257"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -7524,7 +11045,7 @@ const data = [
       {
         "date": "06.14.2018",
         "hasStats": true,
-        "id": "gaNrwPjx585LCQ4",
+        "id": "peJcpulEfEhqina",
         "images": {
           "hero": "2018/06/02/3ecd42d0-421e-4e3d-a770-830e68e2652c.jpeg",
           "supplementary": []
@@ -7546,6 +11067,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "1,048",
+              "metric": "319"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "998",
+              "metric": "304"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -7589,7 +11144,7 @@ const data = [
       {
         "date": "06.15.2018",
         "hasStats": true,
-        "id": "e7LVIW9weh2I1mm",
+        "id": "3MQrxvc86uovWoI",
         "images": {
           "hero": "2018/06/02/98a7eed4-299d-40e6-a537-779a5bab6c77.jpeg",
           "supplementary": []
@@ -7611,6 +11166,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "968",
+              "metric": "295"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "1,265",
+              "metric": "386"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -7654,7 +11243,7 @@ const data = [
       {
         "date": "06.16.2018",
         "hasStats": true,
-        "id": "wyLU4C4livROfcW",
+        "id": "eDaomz0IpmbRvKL",
         "images": {
           "hero": "2018/06/02/2e08d5fe-1711-4768-8ded-f3714e186923.jpeg",
           "supplementary": []
@@ -7676,6 +11265,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "347",
+              "metric": "106"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "199",
+              "metric": "61"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -7719,7 +11342,7 @@ const data = [
       {
         "date": "06.17.2018",
         "hasStats": true,
-        "id": "peHrkmMfV3MuvFJ",
+        "id": "bqD8iQfqNjIh00U",
         "images": {
           "hero": "2018/06/02/bcdc06e3-4c95-4138-9779-bc46670a4e1b.jpeg",
           "supplementary": []
@@ -7741,6 +11364,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "794",
+              "metric": "242"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "785",
+              "metric": "239"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -7784,7 +11441,7 @@ const data = [
       {
         "date": "06.18.2018",
         "hasStats": true,
-        "id": "4euKs8vXLH7yPNw",
+        "id": "icCPW9uAKMOZeYb",
         "images": {
           "hero": "2018/06/02/2b268d15-bea2-42ae-a15c-1ab6fd5fe4f7.jpeg",
           "supplementary": []
@@ -7806,6 +11463,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "522",
+              "metric": "159"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "555",
+              "metric": "169"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -7849,7 +11540,7 @@ const data = [
       {
         "date": "06.19.2018",
         "hasStats": true,
-        "id": "Sz6a6MGfvBj5JzV",
+        "id": "GnAiy9itRMXdazC",
         "images": {
           "hero": "2018/06/02/845acb7b-86f3-4768-8ce3-c8be727c50af.jpeg",
           "supplementary": []
@@ -7871,6 +11562,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "637",
+              "metric": "194"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "580",
+              "metric": "177"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -7914,7 +11639,7 @@ const data = [
       {
         "date": "06.20.2018",
         "hasStats": true,
-        "id": "aJVODXN5454WWYO",
+        "id": "jf3eI04oUwIQwIx",
         "images": {
           "hero": "2018/06/02/f5741d7d-6a86-47ae-a5b1-f1bced05bb00.jpeg",
           "supplementary": []
@@ -7936,6 +11661,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "675",
+              "metric": "206"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "551",
+              "metric": "168"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -7979,7 +11738,7 @@ const data = [
       {
         "date": "06.21.2018",
         "hasStats": true,
-        "id": "G6y9svBoqcS1uG8",
+        "id": "pPVgacUAGg4nnx9",
         "images": {
           "hero": "2018/06/02/0cf7b647-1681-4b88-be6a-cbba1163f38a.jpeg",
           "supplementary": []
@@ -8001,6 +11760,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "826",
+              "metric": "252"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "847",
+              "metric": "258"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -8044,7 +11837,7 @@ const data = [
       {
         "date": "06.22.2018",
         "hasStats": true,
-        "id": "Bphy8HBGRG9YDoC",
+        "id": "sZ0O4OSFRGyNOwk",
         "images": {
           "hero": "2018/06/02/bf4e84fe-e4ca-4834-ab65-393f965bbdb8.jpeg",
           "supplementary": []
@@ -8066,6 +11859,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,063",
+              "metric": "629"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "203",
+              "metric": "62"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -8109,7 +11936,7 @@ const data = [
       {
         "date": "06.23.2018",
         "hasStats": true,
-        "id": "zABa98KIIoHjIWi",
+        "id": "BZSv416WZa6Wnxl",
         "images": {
           "hero": "2018/06/02/2901af55-b7bf-41ec-9471-6ec3699b1f12.jpeg",
           "supplementary": []
@@ -8131,6 +11958,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "901",
+              "metric": "275"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "3,810",
+              "metric": "1,161"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -8175,7 +12036,7 @@ const data = [
       {
         "date": "06.24.2018",
         "hasStats": true,
-        "id": "7scVOICy3qEKi41",
+        "id": "ibyPp1HXBr3juOx",
         "images": {
           "hero": "2018/06/02/7fa41365-3d33-461b-9be5-5a946064923c.jpeg",
           "supplementary": []
@@ -8197,6 +12058,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "1,014",
+              "metric": "309"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "1,038",
+              "metric": "316"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -8241,7 +12136,7 @@ const data = [
       {
         "date": "06.25.2018",
         "hasStats": true,
-        "id": "9MOU4sr9oactfcj",
+        "id": "LUcGHjIRn8jjQxL",
         "images": {
           "hero": "2018/06/02/6349679e-acbf-4f74-ad4a-0d9032c3b293.jpeg",
           "supplementary": []
@@ -8263,6 +12158,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "3,308",
+              "metric": "1,008"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "802",
+              "metric": "244"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -8307,7 +12236,7 @@ const data = [
       {
         "date": "06.26.2018",
         "hasStats": true,
-        "id": "TcblB7moBt3dWbP",
+        "id": "d4NeRlBPT1JOMys",
         "images": {
           "hero": "2018/06/02/4e1b42f2-3994-4d1c-ad29-620eab9c80c7.jpeg",
           "supplementary": []
@@ -8329,6 +12258,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,417",
+              "metric": "737"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "5,243",
+              "metric": "1,598"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -8372,7 +12335,7 @@ const data = [
       {
         "date": "06.27.2018",
         "hasStats": true,
-        "id": "I6CUvuGiw4B62iJ",
+        "id": "Ib2YwyBLswMUtlq",
         "images": {
           "hero": "2018/06/02/3d738e26-0747-447a-98fb-0bb35e1736c3.jpeg",
           "supplementary": []
@@ -8394,6 +12357,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "1,584",
+              "metric": "483"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "1,765",
+              "metric": "538"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -8437,7 +12434,7 @@ const data = [
       {
         "date": "06.28.2018",
         "hasStats": true,
-        "id": "QxtTFllhawgwWf7",
+        "id": "zkSVTibbVWPybYG",
         "images": {
           "hero": "2018/06/02/4e8fd9a9-ed5f-429f-9230-efa731461a5f.jpeg",
           "supplementary": []
@@ -8459,6 +12456,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,752",
+              "metric": "839"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,526",
+              "metric": "770"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -8502,7 +12533,7 @@ const data = [
       {
         "date": "06.29.2018",
         "hasStats": true,
-        "id": "j3H3qcPaNmIkzqV",
+        "id": "I4D6LaTKXOnhyz6",
         "images": {
           "hero": "2018/06/02/2dcb1878-efe7-47d7-b7b5-b031ab143cb6.jpeg",
           "supplementary": []
@@ -8524,6 +12555,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,275",
+              "metric": "693"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,858",
+              "metric": "871"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -8567,7 +12632,7 @@ const data = [
       {
         "date": "06.30.2018",
         "hasStats": true,
-        "id": "dc0W4kIPeHgdQ2e",
+        "id": "UNS3pkG3S5FKRkv",
         "images": {
           "hero": "2018/06/02/1921986b-9cf8-4bf8-b531-3bfe2f098f93.jpeg",
           "supplementary": []
@@ -8589,6 +12654,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "1,194",
+              "metric": "364"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "1,263",
+              "metric": "385"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -8634,7 +12733,7 @@ const data = [
       {
         "date": "07.02.2018",
         "hasStats": true,
-        "id": "qMWpAwQ6AWRjgtS",
+        "id": "mklO381yHC2nuFI",
         "images": {
           "hero": "2018/06/02/7f51e3c4-518e-4147-8e73-c19d6c87ce11.jpeg",
           "supplementary": []
@@ -8656,6 +12755,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "1,667",
+              "metric": "508"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "1,969",
+              "metric": "600"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -8701,7 +12834,7 @@ const data = [
       {
         "date": "07.03.2018",
         "hasStats": true,
-        "id": "r8U5iI6gxYBskZD",
+        "id": "3MFAOHlCIKEg3Nc",
         "images": {
           "hero": "2018/06/02/32011e1d-8075-4b90-9a91-db88c3d66989.jpeg",
           "supplementary": []
@@ -8723,6 +12856,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,413",
+              "metric": "735"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,052",
+              "metric": "625"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -8766,7 +12933,7 @@ const data = [
       {
         "date": "07.04.2018",
         "hasStats": true,
-        "id": "Af8SI3uaqfSbbe3",
+        "id": "7Pg0sazF0EyN7rS",
         "images": {
           "hero": "2018/06/02/aa8b0404-f4d1-44ed-bc96-ce65eae03848.jpeg",
           "supplementary": []
@@ -8788,6 +12955,40 @@ const data = [
               "metric": {
                 "full": "kilometers",
                 "abbreviated": "km"
+              }
+            }
+          },
+          "gain": {
+            "label": "gain",
+            "value": {
+              "imperial": "2,194",
+              "metric": "669"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
+              }
+            }
+          },
+          "loss": {
+            "label": "loss",
+            "value": {
+              "imperial": "2,738",
+              "metric": "835"
+            },
+            "units": {
+              "imperial": {
+                "full": "feet",
+                "abbreviated": "ft"
+              },
+              "metric": {
+                "full": "meters",
+                "abbreviated": "m"
               }
             }
           },
@@ -8837,7 +13038,6 @@ const data = [
       }
     },
     "tagline": "A rich mosaic of landscapes",
-    "timestamp": "1527933600",
     "title": [
       "Camino de",
       "Santiago"

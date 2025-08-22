@@ -1,15 +1,14 @@
 {
   "dates": ["7/15/2022"],
-  "days": "3",
+  "days": "4",
   "timestamp": "1657904400",
   "type": "section-hiking",
   "image": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",
   "location": "Wisconsin",
   "tagline": "A place of glacial kettles and moraines",
+  "title": "Ice Age Trail",
   "description": [
-    "The %title% is a long-distance National Scenic Trail spanning 532 miles across Wisconsin in North America, traversing the state in a series of segments (or sections) that form a 'U' shape, from the northeast corner to the western edge bordering the state of Minnesota. It gets its name from the numerous kettles and moraines left behind by the glaciers.",
-    "I went during the (second) best time of the year, from October to November, in order to have the most favorable weather and trail conditions. The circuit, including the main trail and side trails we used for acclimatizing on rest days (such as in Manang), and the trek to basecamp, totaled %distance% miles in length, and took %length% days to complete while hiking the trail in a counter-clockwise direction. This direction of travel allows you to slowly ease into the daily altitude gain, and which made it easier when crossing the highest point between Phedi and Muktinath, at %max% ft. The total gain and loss in elevation for this trail was %gain% ft up, and %loss% ft down, making it one of the harder treks I have done.",
-    "These pictures showcase the sections of the trail I've done so far."
-  ],
-  "title": "Ice Age Trail"
+    "The Ice Age Trail is a long-distance National Scenic Trail spanning 1,200 miles across Wisconsin in North America, traversing the state in a series of segments (or sections) that roughly form a 'U' shape, from the northeast corner, down to the south, and back up to the northwestern edge bordering the state of Minnesota. It gets its name from the numerous kettles and moraines left behind by the glaciers.",
+    "So far I have completed %length% sections over %days% days totalling %distance%. The overall gain and loss of elevation is low on these trails, but it's the constant up and down over the small rolling hills that start to wear you down. These pictures showcase the mostly forested sections of the trail I've done so far."
+  ]
 }
