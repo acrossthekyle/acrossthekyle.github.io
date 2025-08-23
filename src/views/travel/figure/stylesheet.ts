@@ -25,7 +25,6 @@ const styles = tw({
     2ml:bottom-7.5
     2ml:right-8
     ml:block
-    3xl:hidden
 
     hover:text-white
 

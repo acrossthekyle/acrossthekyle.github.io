@@ -205,8 +205,8 @@ const styles = tw({
         md:pe-20
         md:font-stretch-normal
         md:tracking-tight
-        2xl:h-26
-        2xl:text-9xl/26
+        3xl:h-26
+        3xl:text-9xl/26
 
         hover:font-extralight
         hover:tracking-wide
@@ -232,6 +232,8 @@ const styles = tw({
         ml:h-11
         sl:text-8xl/18
         sl:h-19
+        3xl:h-26
+        3xl:text-9xl/26
       `);
     }
 
@@ -244,6 +246,10 @@ const styles = tw({
 
       lg:text-5xl/9
       lg:h-9
+      3xl:h-14
+      3xl:text-7xl/14
+      4xl:h-26
+      4xl:text-9xl/26
     `);
   },
   index: `

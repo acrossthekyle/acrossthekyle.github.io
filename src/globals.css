@@ -20,8 +20,9 @@
   --breakpoint-2ml: 67.5rem; /* 1080px */
   --breakpoint-sl: 73.75rem; /* 1180px */
   --breakpoint-sx: 87.5rem; /* 1400px */
-  --breakpoint-2sx: 90.625rem; /* 1450px */
+  --breakpoint-2xl: 91.875rem; /* 1470px */
   --breakpoint-3xl: 120rem; /* 1920px */
+  --breakpoint-4xl: 160rem; /* 2560px */
 
   --container-8xl: 91.875rem; /* 1470px */
 

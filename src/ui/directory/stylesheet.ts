@@ -30,6 +30,9 @@ const styles = tw({
         sl:py-12
         sl:pl-14
         sl:left-56
+        3xl:pl-30
+        3xl:left-60
+        4xl:left-100
       `);
     }
 
@@ -40,6 +43,9 @@ const styles = tw({
       ml:py-12
       ml:pl-14
       sl:left-80
+      3xl:pl-30
+      3xl:left-94
+      4xl:left-100
     `);
   },
   title: `
@@ -74,6 +80,8 @@ const styles = tw({
         font-stretch-ultra-condensed
 
         sx:text-8xl/18
+        3xl:text-9xl/26
+        3xl:font-stretch-extra-condensed
       `;
 
       if (isActive) {
@@ -116,7 +124,7 @@ const styles = tw({
       md:font-stretch-normal
       md:tracking-tight
       lg:text-8xl/18
-      2xl:text-9xl/26
+      3xl:text-9xl/26
 
       hover:font-extralight
       hover:text-white/90

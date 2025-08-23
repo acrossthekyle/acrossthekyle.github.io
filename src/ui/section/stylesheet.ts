@@ -27,6 +27,8 @@ const styles = tw({
         ml:py-12
         ml:left-62
         sl:left-80
+        3xl:left-110
+        3xl:pl-20
       `);
     }
 
@@ -45,6 +47,8 @@ const styles = tw({
       sl:pr-20
       sl:py-12
       sx:left-156
+      3xl:left-250
+      4xl:left-300
     `);
   },
 });
