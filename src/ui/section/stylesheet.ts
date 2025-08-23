@@ -9,11 +9,6 @@ const styles = tw({
       outline-0
       opacity-0
       animate-in
-
-      ml:left-110
-      lg:left-120
-      sl:left-136
-      sx:left-156
     `;
 
     if (isFull) {
@@ -30,6 +25,8 @@ const styles = tw({
         ml:pl-14
         ml:pr-20
         ml:py-12
+        ml:left-62
+        sl:left-80
       `);
     }
 
@@ -42,8 +39,12 @@ const styles = tw({
       ml:top-0
       ml:bottom-0
       ml:overflow-y-scroll
+      ml:left-110
+      lg:left-120
+      sl:left-136
       sl:pr-20
       sl:py-12
+      sx:left-156
     `);
   },
 });

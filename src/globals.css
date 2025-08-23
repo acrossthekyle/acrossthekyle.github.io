@@ -23,8 +23,9 @@
   --breakpoint-2sx: 90.625rem; /* 1450px */
   --breakpoint-3xl: 120rem; /* 1920px */
 
-  --text-tiny: 0.625rem;
-  --max-w-8xl: 100rem;
+  --container-8xl: 91.875rem; /* 1470px */
+
+  --text-tiny: 0.625rem; /* 10px */
 
   --animate-elastic-in-from-right: slideInRight .5s cubic-bezier(.4, -0.6, 0.32, 1.6) forwards;
   --animate-elastic-in-from-left: slideInLeft .65s cubic-bezier(.4, -0.6, 0.32, 1.6) forwards;

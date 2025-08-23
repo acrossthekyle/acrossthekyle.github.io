@@ -46,9 +46,6 @@ const styles = tw({
 
     focus:ring-1
   `,
-  internal: `
-    after:content-['_→']
-  `,
   external: `
     after:content-['_↗']
   `,
