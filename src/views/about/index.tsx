@@ -49,7 +49,7 @@ export default function View() {
             </Link> becomes the page you're on right now, thrills me to no end.
           </p>
           <p className={styles.paragraph}>
-            I'm work full-time at Optum where I employ more than 13 years of insight, impacting millions. I have a passion for creating digital experiences with attention to detail, and an ability to adapt, producing products and features that last for years, or until the design team wants to redo it.
+            I work full-time at Optum where I employ more than 13 years of insight, impacting millions. I have a passion for creating digital experiences with attention to detail, and an ability to adapt, producing products and features that last for years, or until the design team wants to redo it.
           </p>
           <p className={styles.paragraph}>
             Some tools of the trade include Javascript, otherwise known as the brains of the operation, a friendly fact-checker of code called Typescript, the HTML bones of all websites in the world, and the renowned CSS stylist of the world wide web.
@@ -119,7 +119,14 @@ export default function View() {
             I first witnessed groups of people carrying large backpacks setting off from a refuge in the Torres del Paine national park of Patagonia in 2016 and was instantly mesmerized by the idea of backpacking, and then somehow forgot about it for two uneventful years until the spring of 2018.
           </p>
           <p className={styles.paragraph}>
-            The idea and fascination returned to me and a few months later I was setting foot on a long-distance trail called the Camino de Santiago in Spain. After 32 days, and 500+ miles, I was hooked and I haven't looked back since.
+            The idea and fascination returned to me and a few months later I was setting foot on a long-distance trail called the{' '}
+            <Link
+              className={styles.link}
+              href="/travels/camino-de-santiago"
+            >
+              Camino de Santiago
+            </Link>{' '}
+            in Spain. After 32 days, and 500+ miles, I was hooked and I haven't looked back since.
           </p>
           <p className={styles.paragraph}>
             Most recently I returned to the{' '}
@@ -180,7 +187,7 @@ export default function View() {
                   2016
                 </h5>
                 <p className={styles.when}>
-                  Discovered backpacking while in Patagonia on vacation
+                  Discovered backpacking while on vacation in Patagonia
                 </p>
               </li>
               <li>
@@ -188,7 +195,7 @@ export default function View() {
                   2018
                 </h5>
                 <p className={styles.when}>
-                  Embarked on first long-distance trail thru-hike
+                  Embarked on first long-distance thru-hike
                 </p>
               </li>
               <li>
@@ -204,7 +211,7 @@ export default function View() {
                   {new Date().getFullYear()}
                 </h5>
                 <p className={styles.when}>
-                  Seeking out and planning  the next big adventure
+                  Seeking out and planning the next big adventure
                 </p>
               </li>
             </ul>

@@ -153,7 +153,7 @@ const styles = tw({
   `,
   place: `
     text-white/90
-    font-light
+    font-semibold
     uppercase
 
     4xl:text-2xl
