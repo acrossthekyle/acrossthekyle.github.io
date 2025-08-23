@@ -7,8 +7,7 @@ const styles = tw({
       scroll-smooth
       p-6
       outline-0
-      opacity-0
-      animate-in
+      animate-elastic-in-from-right
     `;
 
     if (isFull) {

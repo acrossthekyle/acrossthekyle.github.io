@@ -2,7 +2,7 @@
 
 import { ChevronDown } from 'lucide-react';
 
-import Section from '@/ui/section';
+import Article from '@/ui/article';
 
 import Description from './description';
 import Figure from './figure';
@@ -20,7 +20,7 @@ export default function View({ slug }: Props) {
 
   if (!travel) {
     return (
-      <Section className={styles.section}>
+      <Article className={styles.section}>
         <ul className={styles.stages}>
           {Array.from({ length: 13 }).map((_, index) => (
             <li
@@ -32,12 +32,12 @@ export default function View({ slug }: Props) {
             </li>
           ))}
         </ul>
-      </Section>
+      </Article>
     );
   }
 
   return (
-    <Section className={styles.section}>
+    <Article className={styles.section}>
       <Header
         title={travel.title}
         type={travel.type}
@@ -74,6 +74,6 @@ export default function View({ slug }: Props) {
           <ChevronDown />
         </button>
       )}
-    </Section>
+    </Article>
   );
 }
