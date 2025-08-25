@@ -1,11 +1,10 @@
 'use client';
 
-import { ChevronDown } from 'lucide-react';
-
 import Article from '@/ui/article';
 
 import Description from './description';
 import Figure from './figure';
+import Footer from './footer';
 import Header from './header';
 import Subheader from './subheader';
 import { useModel } from './model';
@@ -64,16 +63,11 @@ export default function View({ slug }: Props) {
           </li>
         ))}
       </ul>
-      {shown < Number(travel.stats.length.value) && (
-        <button
-          className={styles.more}
-          onClick={handleOnViewMore}
-          type="button"
-        >
-          Continue
-          <ChevronDown />
-        </button>
-      )}
+      <Footer
+        onViewMore={handleOnViewMore}
+        shown={shown}
+        travel={travel}
+      />
     </Article>
   );
 }
