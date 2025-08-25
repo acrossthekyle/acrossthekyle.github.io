@@ -14,8 +14,12 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: 'Kyle Gilbert',
-  description: `Backpacker/web developer based in Chicago with my partner and our dog Dax.`,
+  title: {
+    template: '%s | Kyle',
+    default: 'Kyle',
+  },
+  keywords: ['across', 'the', 'kyle', 'Kyle', 'Gilbert', 'Thru-hiker', 'UI Developer'],
+  description: `I'm a thru-hiker and UI developer seeking new ways to move forward with intention and curiosity`,
   authors: [{ name: 'Kyle Gilbert' }],
   referrer: 'origin-when-cross-origin',
   formatDetection: {
@@ -27,13 +31,24 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  openGraph: {
+    title: 'Kyle',
+    description: `I'm a thru-hiker and UI developer seeking new ways to move forward with intention and curiosity`,
+    url: 'https://acrossthekyle.com',
+    siteName: 'acrossthekyle',
+    images: [
+      {
+        url: 'https://ik.imagekit.io/acrossthekyle/uploads/2023/06/21/05769f04-5b00-4fd5-a233-55c00c9871c5.jpeg?q=50',
+        width: 800,
+        height: 600,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
 };
 
 export const viewport: Viewport = {
-  width: 'device-width',
-  initialScale: 1,
-  maximumScale: 1,
-  userScalable: false,
   themeColor: '#000000',
 }
 
