@@ -17,6 +17,7 @@ type Props = {
   onMinimize?: () => void;
   stage: Stage;
   total: string;
+  type: string;
 };
 
 export default function Figure({
@@ -27,6 +28,7 @@ export default function Figure({
   onMinimize,
   stage,
   total,
+  type,
 }: Props) {
   const {
     figureRef,
@@ -42,6 +44,7 @@ export default function Figure({
     <figure className={styles.figure(isFullscreen)} ref={figureRef}>
       <Gallery
         hasEnteredView={hasEnteredView}
+        imageFilter={stage.imageFilter}
         images={gallery}
         index={galleryIndex}
         isFullscreen={isFullscreen}
@@ -50,22 +53,26 @@ export default function Figure({
         onPrevious={handleOnGalleryPrevious}
       />
       <Caption label={label} stage={stage} total={total} />
-      {isFullscreen ? (
-        <button
-          className={styles.toggle(hasEnteredView)}
-          onClick={onMinimize}
-          type="button"
-        >
-          <Minimize />
-        </button>
-      ) : (
-        <button
-          className={styles.toggle(hasEnteredView)}
-          onClick={() => onMaximize?.(stage, figureRef, galleryIndex)}
-          type="button"
-        >
-          <Maximize />
-        </button>
+      {type !== 'collection' && (
+        <>
+          {isFullscreen ? (
+            <button
+              className={styles.toggle(hasEnteredView)}
+              onClick={onMinimize}
+              type="button"
+            >
+              <Minimize />
+            </button>
+          ) : (
+            <button
+              className={styles.toggle(hasEnteredView)}
+              onClick={() => onMaximize?.(stage, figureRef, galleryIndex)}
+              type="button"
+            >
+              <Maximize />
+            </button>
+          )}
+        </>
       )}
     </figure>
   );

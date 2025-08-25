@@ -8,6 +8,7 @@ import styles from './stylesheet';
 
 type Props = {
   hasEnteredView: boolean;
+  imageFilter?: string;
   images: string[],
   index: number,
   isFullscreen?: boolean;
@@ -18,6 +19,7 @@ type Props = {
 
 export default function Figure({
   hasEnteredView,
+  imageFilter,
   images,
   index,
   isFullscreen,
@@ -59,6 +61,7 @@ export default function Figure({
           )}
           {images.map((image: string, key: number) => (
             <Image
+              imageFilter={imageFilter}
               isActive={index === key}
               isFullscreen={isFullscreen}
               isInView={hasEnteredView}

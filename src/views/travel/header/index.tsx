@@ -1,8 +1,6 @@
 import { Slash } from 'lucide-react';
 import Link from 'next/link';
 
-import { getStaticType } from '@/utils';
-
 import styles from './stylesheet';
 
 type Props = {
@@ -16,7 +14,7 @@ export default function Header({ title, type }: Props) {
       <span className={styles.meta}>
         <Link href="/travels">Travels</Link>
         <Slash className={styles.slash} />
-        {getStaticType(type)}
+        {type}
       </span>
       {title.map((word: string) => (
         <span className={styles.block} key={word}>

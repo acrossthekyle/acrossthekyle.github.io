@@ -1,7 +1,6 @@
 import { groupBy } from 'lodash';
 
 import type { Filter, Travel } from '@/types';
-import { getStaticType } from '@/utils';
 
 export function filterBy(travels: Travel[], type: string | null): Travel[] {
   if (!type) {
@@ -20,9 +19,11 @@ export function getFilters(travels: Travel[]): Filter[] {
     result.push({
       count: groups[item].length,
       filter: item,
-      name: `${getStaticType(item)}${groups[item].length > 1 ? 's' : ''}`,
+      name: `${item}${groups[item].length > 1 ? 's' : ''}`,
     });
   }
+
+  result.sort((a, b) => a.filter.localeCompare(b.filter));
 
   return result;
 }

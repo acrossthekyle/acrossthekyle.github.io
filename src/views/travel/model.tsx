@@ -51,6 +51,7 @@ export function useModel(slug: string): Model {
           onMinimize={handleOnMinimize}
           stage={stage}
           total={travel.stats.length.value}
+          type={travel.type}
         />
       ),
       ref,

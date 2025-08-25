@@ -63,7 +63,7 @@ const store = create<State & Actions>()(
 
       const data = get().travels;
 
-      const found = data.find(trip => trip.slug === slug);
+      const found = data.find(item => item.slug === slug);
 
       if (!found) {
         return;

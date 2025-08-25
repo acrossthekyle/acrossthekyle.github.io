@@ -59,6 +59,7 @@ export default function View({ slug }: Props) {
               onMaximize={handleOnMaximize}
               stage={stage}
               total={travel.stats.length.value}
+              type={travel.type}
             />
           </li>
         ))}

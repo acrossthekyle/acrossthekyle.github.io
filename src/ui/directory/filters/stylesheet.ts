@@ -2,25 +2,20 @@ import tw from '@/styles';
 
 const styles = tw({
   container: (isOnChild: boolean) => tw(`
-    ${isOnChild ? 'hidden' : 'block'}
+    ${isOnChild && `
+      w-66
+
+      sx:w-84
+    `}
 
     animate-elastic-in-from-right
   `),
   options: `
     mb-6
-
-    ml:flex
-    ml:flex-row
-    ml:items-center
-    ml:gap-1
   `,
   option: `
     inline-block
     pr-1
-
-    ml:flex
-    ml:items-center
-    ml:pr-0
   `,
   filter: (isActive: boolean) => tw(`
     inline-block
@@ -33,10 +28,6 @@ const styles = tw({
 
     hover:text-white/50
 
-    ml:py-1
-    ml:flex
-    ml:justify-start
-    ml:pe-1
     lg:text-xs
   `),
   count: `
@@ -51,9 +42,6 @@ const styles = tw({
     w-3 h-3
     stroke-2
     stroke-white/90
-
-    ml:ml-0
-    ml:mt-0
   `,
 });
 

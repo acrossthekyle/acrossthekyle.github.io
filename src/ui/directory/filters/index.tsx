@@ -12,9 +12,15 @@ type Props = {
   current: string;
   filters: Filter[];
   isOnChild: boolean;
+  previous: string;
 };
 
-export default function Filters({ current, filters, isOnChild }: Props) {
+export default function Filters({
+  current,
+  filters,
+  isOnChild,
+  previous,
+}: Props) {
   const { active } = useModel();
 
   return (
@@ -23,7 +29,7 @@ export default function Filters({ current, filters, isOnChild }: Props) {
         <li className={styles.option}>
           <Link
             className={styles.filter(active === null)}
-            href={current}
+            href={isOnChild ? previous : current}
           >
             All
             <span className={styles.count}>
@@ -36,7 +42,7 @@ export default function Filters({ current, filters, isOnChild }: Props) {
           <li className={styles.option} key={filter.filter}>
             <Link
               className={styles.filter(active === filter.filter)}
-              href={`${current}?filter=${filter.filter}`}
+              href={`${isOnChild ? previous : current}?filter=${filter.filter}`}
             >
               {filter.name}
               <span className={styles.count}>

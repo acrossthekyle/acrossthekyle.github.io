@@ -19,7 +19,8 @@ const data = [
       {
         "date": "07.27.2024",
         "hasStats": true,
-        "id": "56fC7Qv1taBWL2f",
+        "id": "GA8BSSsFSjr774U",
+        "imageFilter": "none",
         "images": {
           "hero": "2024/07/27/ac7799bd-b2a8-4f77-8a8d-6d42a8740390.jpeg",
           "supplementary": []
@@ -120,7 +121,8 @@ const data = [
       {
         "date": "07.28.2024",
         "hasStats": true,
-        "id": "oIyh4C36goTQjN7",
+        "id": "h1t7BHPGIGOJ3TQ",
+        "imageFilter": "none",
         "images": {
           "hero": "2024/07/27/10146a42-b18d-4318-bc5b-c32279532e4d.jpeg",
           "supplementary": []
@@ -225,7 +227,8 @@ const data = [
       {
         "date": "07.29.2024",
         "hasStats": true,
-        "id": "HtqqoYDiENRTL15",
+        "id": "O6cEdwEcX3eMsyM",
+        "imageFilter": "none",
         "images": {
           "hero": "2024/07/27/be9a961c-fc7d-43dc-b466-29a359d1cd12.jpeg",
           "supplementary": []
@@ -332,7 +335,8 @@ const data = [
       {
         "date": "07.30.2024",
         "hasStats": true,
-        "id": "AhSt5wWjs02Anuk",
+        "id": "CCoryWW9470ycTG",
+        "imageFilter": "none",
         "images": {
           "hero": "2024/07/27/a45073e7-ef67-4e31-a5e7-3ba9b4b97b4e.jpeg",
           "supplementary": []
@@ -437,7 +441,8 @@ const data = [
       {
         "date": "07.31.2024",
         "hasStats": true,
-        "id": "QCCjqb2JbrGJjM8",
+        "id": "u8O3HnFBh2UAOHW",
+        "imageFilter": "none",
         "images": {
           "hero": "2024/07/27/f1310350-3cb1-4f1b-b591-e08d0971f23b.jpeg",
           "supplementary": []
@@ -540,7 +545,8 @@ const data = [
       {
         "date": "08.01.2024",
         "hasStats": true,
-        "id": "68Qc6bQiQ8yVN6p",
+        "id": "3M0X3cs67NjPaHm",
+        "imageFilter": "none",
         "images": {
           "hero": "2024/07/27/b70777d8-b89d-4d60-b422-2d2af80483e4.jpeg",
           "supplementary": []
@@ -643,7 +649,8 @@ const data = [
       {
         "date": "08.02.2024",
         "hasStats": true,
-        "id": "9Kzga8Ow4JKW6Xl",
+        "id": "qYsKZ7PaZe4olbd",
+        "imageFilter": "none",
         "images": {
           "hero": "2024/07/27/22400157-4853-4974-856b-86b1bc986ef9.jpeg",
           "supplementary": []
@@ -746,7 +753,8 @@ const data = [
       {
         "date": "08.03.2024",
         "hasStats": true,
-        "id": "6mt3XBvvcwGQ04T",
+        "id": "VauckBNojGB0PMZ",
+        "imageFilter": "none",
         "images": {
           "hero": "2024/07/27/99d87d66-9534-4aca-9489-eb2fbbdc152b.jpeg",
           "supplementary": []
@@ -849,7 +857,8 @@ const data = [
       {
         "date": "08.04.2024",
         "hasStats": true,
-        "id": "Fn7K4vu3yrI9VaK",
+        "id": "REBDvdEISN0anuv",
+        "imageFilter": "none",
         "images": {
           "hero": "2024/07/27/91e2be29-62d0-4be0-a00a-9ebd9d9dc395.jpeg",
           "supplementary": []
@@ -952,7 +961,8 @@ const data = [
       {
         "date": "08.05.2024",
         "hasStats": true,
-        "id": "1BqpVUko01eySp9",
+        "id": "1PXVEWPCLu9Udgl",
+        "imageFilter": "none",
         "images": {
           "hero": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg",
           "supplementary": []
@@ -1055,7 +1065,8 @@ const data = [
       {
         "date": "08.06.2024",
         "hasStats": true,
-        "id": "uyAsJXydHaeEBmE",
+        "id": "tDbKwAS6FhTUHBW",
+        "imageFilter": "none",
         "images": {
           "hero": "2024/07/27/480c5394-dfa7-4760-8f62-5a39cb66cb98.jpeg",
           "supplementary": []
@@ -1167,7 +1178,7 @@ const data = [
       "Tour du",
       "Mont Blanc"
     ],
-    "type": "thru-hiking"
+    "type": "thru-hike"
   },
   {
     "date": {
@@ -1189,7 +1200,8 @@ const data = [
       {
         "date": "06.21.2023",
         "hasStats": true,
-        "id": "zfwZqfArfQsHv6w",
+        "id": "WmjYhZuAuLrQQsG",
+        "imageFilter": "none",
         "images": {
           "hero": "2023/06/21/f1d1c83f-941d-4351-aa5e-08d698b78775.jpeg",
           "supplementary": []
@@ -1290,7 +1302,8 @@ const data = [
       {
         "date": "06.22.2023",
         "hasStats": true,
-        "id": "tZd2sCxSYpC3a6s",
+        "id": "xiVEaDElK8nExHn",
+        "imageFilter": "none",
         "images": {
           "hero": "2023/06/21/e2d0721f-2c3f-4367-8f7b-1176c94b3e2c.jpeg",
           "supplementary": []
@@ -1391,7 +1404,8 @@ const data = [
       {
         "date": "06.23.2023",
         "hasStats": true,
-        "id": "Z4D8RRMR3Vmu2mO",
+        "id": "NIyNyQLhlLTGTLm",
+        "imageFilter": "none",
         "images": {
           "hero": "2023/06/21/4b13a3d8-a55c-4bed-b887-ad3490ab964f.jpeg",
           "supplementary": []
@@ -1490,7 +1504,8 @@ const data = [
       {
         "date": "06.24.2023",
         "hasStats": true,
-        "id": "0Dkc9PAuN6xXvuP",
+        "id": "vgV0oFV5syhMU9Q",
+        "imageFilter": "none",
         "images": {
           "hero": "2023/06/21/8f85de22-b937-4ea5-9dfa-e45eb357e7b8.jpeg",
           "supplementary": []
@@ -1590,7 +1605,8 @@ const data = [
       {
         "date": "06.25.2023",
         "hasStats": true,
-        "id": "flJVCWGhwRbx6hG",
+        "id": "9AQGsWCSGEZpbgD",
+        "imageFilter": "none",
         "images": {
           "hero": "2023/06/21/f0dc6ac2-b0e5-4e2a-b874-0d40f47c454b.jpeg",
           "supplementary": []
@@ -1691,7 +1707,8 @@ const data = [
       {
         "date": "06.26.2023",
         "hasStats": true,
-        "id": "UkZfqS18LnritTD",
+        "id": "RmYFYzQC8JBuhR8",
+        "imageFilter": "none",
         "images": {
           "hero": "2023/06/21/95b4adaa-bbbe-4de3-b9f8-96365390f142.jpeg",
           "supplementary": []
@@ -1792,7 +1809,8 @@ const data = [
       {
         "date": "06.27.2023",
         "hasStats": true,
-        "id": "HO0xFSSLkbH3rj2",
+        "id": "A1o2qBbONAX6Ak9",
+        "imageFilter": "none",
         "images": {
           "hero": "2023/06/21/05769f04-5b00-4fd5-a233-55c00c9871c5.jpeg",
           "supplementary": []
@@ -1891,7 +1909,8 @@ const data = [
       {
         "date": "06.28.2023",
         "hasStats": true,
-        "id": "l7w7Hk54KZaQTEl",
+        "id": "RLwwwze924eBcmr",
+        "imageFilter": "none",
         "images": {
           "hero": "2023/06/21/4e7bda74-809e-48a9-a904-5645bf2e7dde.jpeg",
           "supplementary": []
@@ -1990,7 +2009,8 @@ const data = [
       {
         "date": "06.29.2023",
         "hasStats": true,
-        "id": "pFBqo24Td9FTl8N",
+        "id": "t3mBye8oZOXx1zH",
+        "imageFilter": "none",
         "images": {
           "hero": "2023/06/21/2cc8532b-6441-49fb-927e-ebdb001b78cf.jpeg",
           "supplementary": []
@@ -2089,7 +2109,8 @@ const data = [
       {
         "date": "06.30.2023",
         "hasStats": true,
-        "id": "Sddczz2A0OzzKOb",
+        "id": "JpnBwcwufvUg0ht",
+        "imageFilter": "none",
         "images": {
           "hero": "2023/06/21/54334c14-8bae-4478-97f7-179f79cd2ca6.jpeg",
           "supplementary": []
@@ -2190,7 +2211,8 @@ const data = [
       {
         "date": "07.01.2023",
         "hasStats": true,
-        "id": "heInsCWCb0S0LAH",
+        "id": "BiUSC4obJf1P5C9",
+        "imageFilter": "none",
         "images": {
           "hero": "2023/06/21/73a5df9e-fefd-43d0-ad5a-7f71dcb003cc.jpeg",
           "supplementary": []
@@ -2291,7 +2313,8 @@ const data = [
       {
         "date": "07.02.2023",
         "hasStats": true,
-        "id": "u5CVrnYVD7iDnUs",
+        "id": "ugdrfU42wPJ5ygS",
+        "imageFilter": "none",
         "images": {
           "hero": "2023/06/21/d36a683f-4d95-4b0c-987d-d190336c49ee.jpeg",
           "supplementary": []
@@ -2390,7 +2413,8 @@ const data = [
       {
         "date": "07.03.2023",
         "hasStats": true,
-        "id": "IBJyN850pkml9FT",
+        "id": "zdk1Cv8Y3Ay1B9d",
+        "imageFilter": "none",
         "images": {
           "hero": "2023/06/21/f0cd0897-3fc9-47a2-808e-e1627dfb45bc.jpeg",
           "supplementary": []
@@ -2498,7 +2522,7 @@ const data = [
     "title": [
       "GR 20"
     ],
-    "type": "thru-hiking"
+    "type": "thru-hike"
   },
   {
     "date": {
@@ -2519,7 +2543,8 @@ const data = [
       {
         "date": "12.29.2022",
         "hasStats": false,
-        "id": "1KXO2XfgPXZaZJk",
+        "id": "WZQ0C8YzO1OI8At",
+        "imageFilter": "none",
         "images": {
           "hero": "2022/12/28/c0f9c079-8942-4390-bb9e-dae4e0a65034.jpeg",
           "supplementary": [
@@ -2555,7 +2580,8 @@ const data = [
       {
         "date": "12.30.2022",
         "hasStats": false,
-        "id": "yuOIm6Cdlgqh2i4",
+        "id": "Zax9VHmFoxCCkVt",
+        "imageFilter": "none",
         "images": {
           "hero": "2022/12/28/d9a7b01b-5915-493c-8c25-5a8ebd77ac58.jpeg",
           "supplementary": [
@@ -2594,7 +2620,8 @@ const data = [
       {
         "date": "01.01.2023",
         "hasStats": false,
-        "id": "KqIhr4cS9jkz52k",
+        "id": "8U7DnZqt3IBa5G0",
+        "imageFilter": "none",
         "images": {
           "hero": "2022/12/28/f24edc7b-3854-40c5-a2e7-33e2e2e27bde.jpeg",
           "supplementary": []
@@ -2627,7 +2654,8 @@ const data = [
       {
         "date": "01.03.2023",
         "hasStats": false,
-        "id": "V89kBOyrihkXjAI",
+        "id": "ga2zKIFVi7HFJvq",
+        "imageFilter": "none",
         "images": {
           "hero": "2022/12/28/5e393275-ee80-475d-83cf-26192cd55738.jpeg",
           "supplementary": []
@@ -2660,7 +2688,8 @@ const data = [
       {
         "date": "01.03.2023",
         "hasStats": false,
-        "id": "pZFWEg6grxOk64t",
+        "id": "xF6FLsRbDE2YgPs",
+        "imageFilter": "none",
         "images": {
           "hero": "2022/12/28/5f93fbaf-0c30-4f70-959d-a5e4384eff83.jpeg",
           "supplementary": [
@@ -2696,7 +2725,8 @@ const data = [
       {
         "date": "01.03.2023",
         "hasStats": false,
-        "id": "zNhQ2r7auwhco11",
+        "id": "uBFy2G0JtkQOX2n",
+        "imageFilter": "none",
         "images": {
           "hero": "2022/12/28/9fb7c062-5816-4154-b8cd-525a81f82be0.jpeg",
           "supplementary": [
@@ -2732,7 +2762,8 @@ const data = [
       {
         "date": "01.03.2023",
         "hasStats": false,
-        "id": "Rtx9NOhruZ0tj1L",
+        "id": "js8547iZ0bGTVgg",
+        "imageFilter": "none",
         "images": {
           "hero": "2022/12/28/44f2c787-1209-4e11-a2fe-64030e0c472c.jpeg",
           "supplementary": [
@@ -2768,7 +2799,8 @@ const data = [
       {
         "date": "01.03.2023",
         "hasStats": false,
-        "id": "isBGA64Ez82y8Gg",
+        "id": "ttqGH55rIBzIrQl",
+        "imageFilter": "none",
         "images": {
           "hero": "2022/12/28/b7e2eeb1-90d3-49cb-bdb8-41acf2162f78.jpeg",
           "supplementary": [
@@ -2807,7 +2839,8 @@ const data = [
       {
         "date": "01.04.2023",
         "hasStats": false,
-        "id": "qsRYYletHFRWilU",
+        "id": "s8B3zrU3SzrVJ9O",
+        "imageFilter": "none",
         "images": {
           "hero": "2022/12/28/b13b3a23-187a-4dc4-912d-e225b21af78a.jpeg",
           "supplementary": [
@@ -2846,7 +2879,8 @@ const data = [
       {
         "date": "01.04.2023",
         "hasStats": false,
-        "id": "Ep5o4wxiUYLhKEn",
+        "id": "JdUppH8vOZNP7p9",
+        "imageFilter": "none",
         "images": {
           "hero": "2022/12/28/9799718c-81f7-460d-9f0a-7ddd2dffb060.jpeg",
           "supplementary": [
@@ -2882,7 +2916,8 @@ const data = [
       {
         "date": "01.04.2023",
         "hasStats": false,
-        "id": "sWsx3zDmYYoRmpU",
+        "id": "rQy1gUhAjnYuoIF",
+        "imageFilter": "none",
         "images": {
           "hero": "2022/12/28/6bf7f094-4f84-42b6-8bbc-5b501a25f3e7.jpeg",
           "supplementary": [
@@ -2931,7 +2966,7 @@ const data = [
       "Cairo &",
       "Luxor"
     ],
-    "type": "vacationing"
+    "type": "vacation"
   },
   {
     "date": {
@@ -2953,7 +2988,8 @@ const data = [
       {
         "date": "07.15.2022",
         "hasStats": true,
-        "id": "1r1wJ1ILI93UrdX",
+        "id": "VHoyt9ypD68b7j0",
+        "imageFilter": "none",
         "images": {
           "hero": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",
           "supplementary": []
@@ -3060,7 +3096,8 @@ const data = [
       {
         "date": "05.03.2025",
         "hasStats": true,
-        "id": "hObgilqJMFDtHAQ",
+        "id": "SdSjinVZscv7yY0",
+        "imageFilter": "none",
         "images": {
           "hero": "2025/05/03/e402c0b1-e827-4123-b7b5-74947b240687.jpeg",
           "supplementary": []
@@ -3161,7 +3198,8 @@ const data = [
       {
         "date": "05.04.2025",
         "hasStats": true,
-        "id": "uBBjTyAtLcc738K",
+        "id": "irx72pPlOZmeMAY",
+        "imageFilter": "none",
         "images": {
           "hero": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
           "supplementary": []
@@ -3272,7 +3310,7 @@ const data = [
       "Ice Age",
       "Trail"
     ],
-    "type": "section-hiking"
+    "type": "section-hike"
   },
   {
     "date": {
@@ -3294,7 +3332,8 @@ const data = [
       {
         "date": "05.07.2022",
         "hasStats": true,
-        "id": "9knuwvVWPRL4uHi",
+        "id": "YrUWiEBtPasYZcq",
+        "imageFilter": "none",
         "images": {
           "hero": "2022/05/07/75a8c027-07cd-4184-9157-d48dd5d1a32e.jpeg",
           "supplementary": []
@@ -3393,7 +3432,8 @@ const data = [
       {
         "date": "05.08.2022",
         "hasStats": true,
-        "id": "CksAlfYN1OKyHkj",
+        "id": "7NmgJg7fsC5EfGL",
+        "imageFilter": "none",
         "images": {
           "hero": "2022/05/07/e8dd9fed-56e4-45bf-aee4-d1bc44a5363c.jpeg",
           "supplementary": []
@@ -3492,7 +3532,8 @@ const data = [
       {
         "date": "05.09.2022",
         "hasStats": true,
-        "id": "z6jWnRRHv6Qaegb",
+        "id": "u6reqY6RtfQorpf",
+        "imageFilter": "none",
         "images": {
           "hero": "2022/05/07/e610c340-2b8c-481c-8442-dc4543db3f2c.jpeg",
           "supplementary": []
@@ -3593,7 +3634,8 @@ const data = [
       {
         "date": "05.10.2022",
         "hasStats": true,
-        "id": "RGfsUZpKAuCicgb",
+        "id": "Qvzan1YcmznioTs",
+        "imageFilter": "none",
         "images": {
           "hero": "2022/05/07/b7df127a-0f69-4b29-843f-e1a7c6f858bf.jpeg",
           "supplementary": []
@@ -3696,7 +3738,8 @@ const data = [
       {
         "date": "05.11.2022",
         "hasStats": true,
-        "id": "FT06HoZ2wVF1nxe",
+        "id": "y1v4NeDXiEAvtj2",
+        "imageFilter": "none",
         "images": {
           "hero": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
           "supplementary": []
@@ -3798,7 +3841,8 @@ const data = [
       {
         "date": "05.12.2022",
         "hasStats": true,
-        "id": "bEUHQ6pV2ha4sFh",
+        "id": "apKkVH7Soqp0z4y",
+        "imageFilter": "none",
         "images": {
           "hero": "2022/05/07/07741eea-d85e-42cf-a2d4-d0f87102bffc.jpeg",
           "supplementary": []
@@ -3910,7 +3954,240 @@ const data = [
       "Highland",
       "Way"
     ],
-    "type": "thru-hiking"
+    "type": "thru-hike"
+  },
+  {
+    "date": {
+      "date": "Mar 22 2022",
+      "years": [
+        "2022"
+      ]
+    },
+    "description": [
+      "We decided to book a last minute trip to Puerto Rico in order to escape the lingering winter cold in Chicago, and spent a few days exploring parts of the island from the beaches to the jungle to the forts. Sadly the damage from the recently destructive hurricane was still visible in many areas of San Juan."
+    ],
+    "index": 5,
+    "label": "destination",
+    "location": "Puerto Rico",
+    "slug": "puerto-rico",
+    "stages": [
+      {
+        "date": "03.23.2022",
+        "hasStats": false,
+        "id": "gVg27R2VmRGMKi7",
+        "imageFilter": "none",
+        "images": {
+          "hero": "2022/03/23/bd07b1b4-bc19-45fc-b47a-1a4011585b68.jpeg",
+          "supplementary": [
+            "2022/03/23/9f212336-298d-4c7d-874f-a3be34c95d7d.jpeg",
+            "2022/03/23/f754e9e7-ae92-41ce-b9f7-760cc75c807b.jpeg"
+          ]
+        },
+        "index": 0,
+        "location": "San Juan",
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "Beaches"
+          ],
+          "isSame": true,
+          "start": [
+            "Beaches"
+          ]
+        },
+        "title": [
+          "Beaches"
+        ]
+      },
+      {
+        "date": "03.24.2022",
+        "hasStats": false,
+        "id": "pwn4hVyeQrq2fhu",
+        "imageFilter": "none",
+        "images": {
+          "hero": "2022/03/23/1ba3d3f7-9462-4375-9770-4efedf15f582.jpeg",
+          "supplementary": []
+        },
+        "index": 1,
+        "location": "San Juan",
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "Castillo",
+            "San Felipe"
+          ],
+          "isSame": true,
+          "start": [
+            "Castillo",
+            "San Felipe"
+          ]
+        },
+        "title": [
+          "Castillo",
+          "San Felipe"
+        ]
+      },
+      {
+        "date": "03.25.2022",
+        "hasStats": false,
+        "id": "7h6HjDya96ntsQ7",
+        "imageFilter": "none",
+        "images": {
+          "hero": "2022/03/23/d6631709-51a8-43d4-8eb1-12ea7c9df08d.jpeg",
+          "supplementary": []
+        },
+        "index": 2,
+        "location": "Ceiba",
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "El Yunque",
+            "National",
+            "Forest"
+          ],
+          "isSame": true,
+          "start": [
+            "El Yunque",
+            "National",
+            "Forest"
+          ]
+        },
+        "title": [
+          "El Yunque",
+          "National",
+          "Forest"
+        ]
+      }
+    ],
+    "stats": {
+      "length": {
+        "label": "length",
+        "value": 3,
+        "units": null
+      }
+    },
+    "tagline": "Swapping the winter cold for sunny beaches",
+    "title": [
+      "Puerto Rico"
+    ],
+    "type": "vacation"
+  },
+  {
+    "date": {
+      "date": "Mar 29 2021",
+      "years": [
+        "2021"
+      ]
+    },
+    "description": [
+      "We took a short vacation down to Gatlinburg, Tennessee to do some overnight camping and day-hiking in the Smoky Mountains."
+    ],
+    "index": 6,
+    "label": "",
+    "location": "Gatlinburg, Tennessee",
+    "slug": "smoky-mountains",
+    "stages": [
+      {
+        "date": "03.29.2021",
+        "hasStats": false,
+        "id": "aDoverTYeLziF89",
+        "imageFilter": "none",
+        "images": {
+          "hero": "2021/03/29/995ec1e3-1273-41dc-bf5e-a731062d3fd4.jpeg",
+          "supplementary": [
+            "2021/03/29/8c55d298-f0b0-434b-8e04-0629d6940c3a.jpeg"
+          ]
+        },
+        "index": 0,
+        "location": null,
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "Mount Le",
+            "Conte"
+          ],
+          "isSame": true,
+          "start": [
+            "Mount Le",
+            "Conte"
+          ]
+        },
+        "title": [
+          "Mount Le",
+          "Conte"
+        ]
+      },
+      {
+        "date": "03.30.2021",
+        "hasStats": false,
+        "id": "4qfLkTqD6wUP8Zr",
+        "imageFilter": "none",
+        "images": {
+          "hero": "2021/03/29/71154815-22c2-490f-9f8c-37201ee4fbd9.jpeg",
+          "supplementary": [
+            "2021/03/29/4c77c6e3-3341-4b7a-bd59-fe45c03dda16.jpeg"
+          ]
+        },
+        "index": 1,
+        "location": null,
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "Rocky Top"
+          ],
+          "isSame": true,
+          "start": [
+            "Rocky Top"
+          ]
+        },
+        "title": [
+          "Rocky Top"
+        ]
+      }
+    ],
+    "stats": {
+      "length": {
+        "label": "length",
+        "value": 2,
+        "units": null
+      }
+    },
+    "tagline": "A freezing cold night with sunfilled day-hiking",
+    "title": [
+      "Smoky",
+      "Mountains"
+    ],
+    "type": "day-hike"
   },
   {
     "date": {
@@ -3924,7 +4201,7 @@ const data = [
       "In the winter of 2020, during the second half of February, I traveled to Patagonia to embark on this trail. This was my second time being in the region (my first was in 2016). This trail was a good combination of rustic and modern, and was one of the shorter thru-hikes I have done at 8 days and 73 miles. The highlight of the circuit was coming up over the ridge at Grays Pass and seeing the massive Grays Glacier layed out below us. It filled the horizon from end to end.",
       "These pictures showcase my time on trail, and offer a glimpse into the 8 days spent on this thru-hike."
     ],
-    "index": 5,
+    "index": 7,
     "label": "day",
     "location": "Patagonia",
     "slug": "torres-del-paine-o-circuit",
@@ -3932,7 +4209,8 @@ const data = [
       {
         "date": "02.18.2020",
         "hasStats": true,
-        "id": "H6TBshStz1lTwz2",
+        "id": "hOI5SWkOydEC3yZ",
+        "imageFilter": "none",
         "images": {
           "hero": "2020/02/18/619eec82-6980-4f31-a11f-7c5581d02989.jpeg",
           "supplementary": []
@@ -4033,7 +4311,8 @@ const data = [
       {
         "date": "02.19.2020",
         "hasStats": true,
-        "id": "C7446HSGtHaCY33",
+        "id": "HAWKKpPjpmiZeob",
+        "imageFilter": "none",
         "images": {
           "hero": "2020/02/18/98e3190e-5480-4eb9-8883-c8d9fbb3f485.jpeg",
           "supplementary": []
@@ -4132,7 +4411,8 @@ const data = [
       {
         "date": "02.20.2020",
         "hasStats": true,
-        "id": "Zo1Ey9ghQTb0uw1",
+        "id": "SEArOYvRqiCg2Bo",
+        "imageFilter": "none",
         "images": {
           "hero": "2020/02/18/f477b7bb-7f38-42ff-a855-f90668a73f28.jpeg",
           "supplementary": []
@@ -4231,7 +4511,8 @@ const data = [
       {
         "date": "02.21.2020",
         "hasStats": true,
-        "id": "4OuFh7UJFpLD9uk",
+        "id": "zGialtXW8YPnOoe",
+        "imageFilter": "none",
         "images": {
           "hero": "2020/02/18/38a1b675-74c7-45b5-9e37-8020d298a0b3.jpeg",
           "supplementary": []
@@ -4330,7 +4611,8 @@ const data = [
       {
         "date": "02.22.2020",
         "hasStats": true,
-        "id": "WPtnrrzTUGjUoJ5",
+        "id": "oXts5PXNpE09i1T",
+        "imageFilter": "none",
         "images": {
           "hero": "2020/02/18/dd6e739e-b793-4c64-8e7c-c6a631b467c7.jpeg",
           "supplementary": []
@@ -4431,7 +4713,8 @@ const data = [
       {
         "date": "02.23.2020",
         "hasStats": true,
-        "id": "iQCvhZkNLcqx4px",
+        "id": "AtdlJG7wypi6xax",
+        "imageFilter": "none",
         "images": {
           "hero": "2020/02/18/380820b8-520a-49fa-8f01-651ca63fd84f.jpeg",
           "supplementary": []
@@ -4532,7 +4815,8 @@ const data = [
       {
         "date": "02.24.2020",
         "hasStats": true,
-        "id": "ccQso53sBcagq0b",
+        "id": "Vhc1bRtV3VHmI8K",
+        "imageFilter": "none",
         "images": {
           "hero": "2020/02/18/790032e0-6483-4631-9cbe-d912510a1a48.jpeg",
           "supplementary": []
@@ -4631,7 +4915,8 @@ const data = [
       {
         "date": "02.25.2020",
         "hasStats": true,
-        "id": "4NITR8FvFrcznj1",
+        "id": "sQytK9pSVugwBft",
+        "imageFilter": "none",
         "images": {
           "hero": "2020/02/18/630411a8-f5ce-47fe-8261-f94e00654447.jpeg",
           "supplementary": []
@@ -4743,7 +5028,7 @@ const data = [
       "Paine O",
       "Circuit"
     ],
-    "type": "thru-hiking"
+    "type": "thru-hike"
   },
   {
     "date": {
@@ -4757,7 +5042,7 @@ const data = [
       "I went during the (second) best time of the year, from October to November, in order to have the most favorable weather and trail conditions. The circuit, including the main trail and side trails we used for acclimatizing on rest days (such as in Manang), and the trek to basecamp, totaled 193 miles, and took 18 days to complete while hiking the trail in a counter-clockwise direction. This direction of travel allows you to slowly ease into the daily altitude gain, and which made it easier when crossing the highest point between Phedi and Muktinath, at 17,751 feet. The total gain and loss in elevation for this trail was 54,267 ft up, and 51,090 ft down, making it one of the harder treks I have done.",
       "These pictures showcase my time on trail, and offer a glimpse into the 18 days spent on this thru-hike."
     ],
-    "index": 6,
+    "index": 8,
     "label": "day",
     "location": "the Himalayas",
     "slug": "annapurna-circuit-basecamp",
@@ -4765,7 +5050,8 @@ const data = [
       {
         "date": "10.19.2019",
         "hasStats": true,
-        "id": "89tvrVGR1LkMnmj",
+        "id": "TTIL8244dxyt6j3",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/10/19/672dcde8-57ae-4bf9-885f-ae039d3a824d.jpeg",
           "supplementary": []
@@ -4864,7 +5150,8 @@ const data = [
       {
         "date": "10.20.2019",
         "hasStats": true,
-        "id": "rf8rj37JcXKR96F",
+        "id": "xJYurdb4SMBelN3",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/10/19/cde86c7c-f794-4a99-8286-9af3de9425fc.jpeg",
           "supplementary": []
@@ -4963,7 +5250,8 @@ const data = [
       {
         "date": "10.21.2019",
         "hasStats": true,
-        "id": "dYteVpqzC2eiSWk",
+        "id": "oYjGzO7xJNByDAA",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/10/19/69d8dc52-42d4-4295-9b25-1f7542c1da8b.jpeg",
           "supplementary": []
@@ -5062,7 +5350,8 @@ const data = [
       {
         "date": "10.22.2019",
         "hasStats": true,
-        "id": "BHTWY5BBOuUEU7Q",
+        "id": "0Un9uccYyyhRmBK",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/10/19/de48b8b7-ef5d-4c21-93a8-d6e4d7628e7f.jpeg",
           "supplementary": []
@@ -5161,7 +5450,8 @@ const data = [
       {
         "date": "10.23.2019",
         "hasStats": true,
-        "id": "o6jkZvJQgHbLXrq",
+        "id": "tX3EzqFrxbBnnNR",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/10/19/91fcb255-9894-434c-9c39-41ea5070e819.jpeg",
           "supplementary": []
@@ -5262,7 +5552,8 @@ const data = [
       {
         "date": "10.24.2019",
         "hasStats": true,
-        "id": "gsLYIVBJkjbSrtw",
+        "id": "at7myY44xbdR7v6",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/10/19/b9b20eb0-e569-4778-99c6-de3a3c2eb15e.jpeg",
           "supplementary": []
@@ -5363,7 +5654,8 @@ const data = [
       {
         "date": "10.25.2019",
         "hasStats": true,
-        "id": "iAANT7UKsrkA1JJ",
+        "id": "VDzKzAg9y9Jvx89",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/10/19/ed197052-01d7-4739-807c-39340385c0fc.jpeg",
           "supplementary": []
@@ -5466,7 +5758,8 @@ const data = [
       {
         "date": "10.26.2019",
         "hasStats": true,
-        "id": "99Err3g6bkleyo3",
+        "id": "VemuydzWtwfyJa1",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/10/19/d7837a44-81d2-4fa0-9912-bb15508be721.jpeg",
           "supplementary": []
@@ -5571,7 +5864,8 @@ const data = [
       {
         "date": "10.27.2019",
         "hasStats": true,
-        "id": "EdjKrt9qszzjMXs",
+        "id": "e9n2GyauZtP349G",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/10/19/40b7a029-2f0c-4807-94fa-86a07ee9ffa9.jpeg",
           "supplementary": []
@@ -5672,7 +5966,8 @@ const data = [
       {
         "date": "10.28.2019",
         "hasStats": true,
-        "id": "8fvELTzW6arL5w0",
+        "id": "oa7pMXIhU3tzhNp",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/10/19/f76cbaab-0139-44b4-bc5c-6c816731d927.jpeg",
           "supplementary": []
@@ -5771,7 +6066,8 @@ const data = [
       {
         "date": "10.29.2019",
         "hasStats": true,
-        "id": "9CMYJ8tNGk56Cch",
+        "id": "zsoOfyJxtgLe8iW",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/10/19/93b7286f-a87a-4d8e-8d85-6a3f50dcd82c.jpeg",
           "supplementary": []
@@ -5870,7 +6166,8 @@ const data = [
       {
         "date": "10.30.2019",
         "hasStats": true,
-        "id": "MP02ayg2fyR1I9Z",
+        "id": "QVoiOvQfhAu7Y02",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/10/19/9f9bca6e-e30a-4ca0-b005-5a0bda57f649.jpeg",
           "supplementary": []
@@ -5969,7 +6266,8 @@ const data = [
       {
         "date": "10.31.2019",
         "hasStats": true,
-        "id": "5D2VrApInOjT7GS",
+        "id": "rWOXF8LCxUgIC9W",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/10/19/5cf22091-8d99-4cdd-870c-f91db81c1049.jpeg",
           "supplementary": []
@@ -6068,7 +6366,8 @@ const data = [
       {
         "date": "11.01.2019",
         "hasStats": true,
-        "id": "g0lFh4MspNZ2p4v",
+        "id": "NE1h8K6sNtCYu2T",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/10/19/b2ef8848-2e35-43dd-9f06-98434903f810.jpeg",
           "supplementary": []
@@ -6167,7 +6466,8 @@ const data = [
       {
         "date": "11.02.2019",
         "hasStats": true,
-        "id": "yw8gLtSHwNTFa3T",
+        "id": "EGwrOvfsx2AgKGv",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/10/19/a052d193-0be9-4288-b017-65d459c3eca1.jpeg",
           "supplementary": []
@@ -6266,7 +6566,8 @@ const data = [
       {
         "date": "11.03.2019",
         "hasStats": true,
-        "id": "m9a6C22pzunatfQ",
+        "id": "5W2zxV5yHPFcr2N",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/10/19/3773c3c4-265f-4e7e-8f0a-d6e1a7d9b85c.jpeg",
           "supplementary": []
@@ -6367,7 +6668,8 @@ const data = [
       {
         "date": "11.04.2019",
         "hasStats": true,
-        "id": "6LmsFBbb5C25xGO",
+        "id": "WUfkk5brepSKWQs",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/10/19/490d1db6-aaad-4ed3-9181-081ca318cd16.jpeg",
           "supplementary": []
@@ -6468,7 +6770,8 @@ const data = [
       {
         "date": "11.05.2019",
         "hasStats": true,
-        "id": "Y3R85BhkWii9k4v",
+        "id": "2XdiBHgsHk6eW8v",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/10/19/8fef1e6f-d483-445c-b19c-d47bb7f1fc68.jpeg",
           "supplementary": []
@@ -6578,7 +6881,7 @@ const data = [
       "Circuit +",
       "Basecamp"
     ],
-    "type": "thru-hiking"
+    "type": "thru-hike"
   },
   {
     "date": {
@@ -6592,7 +6895,7 @@ const data = [
       "Peak-bagging is the activity of hiking to the summits of a list of mountains, often defined by specific criteria like altitude or location, and then checking them off as completed. For the Rocky Mountains in Colorado, that criteria is hiking to peaks above 14,000 feet in elevation. It's an awe-inspiring experience offering unparalleled views. Reaching the summit is a moment of profound triumph, a feeling of being on top of the world.",
       "These are the summits I have completed so far, 9 in total, with most of them being Class 1 and 2 routes. My favorite so far was Quandary Peak."
     ],
-    "index": 7,
+    "index": 9,
     "label": "summit",
     "location": "the Colorado Rocky Mountains",
     "slug": "southern-rockies-14-ers",
@@ -6600,7 +6903,8 @@ const data = [
       {
         "date": "08.31.2019",
         "hasStats": true,
-        "id": "Tf6FHP8N7fFqvwT",
+        "id": "RbcSDbM5MMWPIAQ",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/08/31/52f1514b-91a4-494d-93df-6ae9c81df01c.jpeg",
           "supplementary": []
@@ -6701,7 +7005,8 @@ const data = [
       {
         "date": "09.01.2019",
         "hasStats": true,
-        "id": "7ajTa1IhAUXoLpm",
+        "id": "IHduBVFmex2AGva",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/09/01/08d28c7e-387b-418f-8226-b2a87485f1d8.jpeg",
           "supplementary": []
@@ -6802,7 +7107,8 @@ const data = [
       {
         "date": "09.04.2020",
         "hasStats": true,
-        "id": "T62b6GHE36Ikepc",
+        "id": "hIrBX9BLBtRHpdX",
+        "imageFilter": "none",
         "images": {
           "hero": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
           "supplementary": []
@@ -6903,7 +7209,8 @@ const data = [
       {
         "date": "09.05.2020",
         "hasStats": true,
-        "id": "jQ34e4pESV2kZzo",
+        "id": "Ojv9siPAMZ7QJhF",
+        "imageFilter": "none",
         "images": {
           "hero": "2020/09/05/54a89ed8-86d4-4918-b7b3-b883ecea72c8.jpeg",
           "supplementary": []
@@ -7004,7 +7311,8 @@ const data = [
       {
         "date": "09.06.2020",
         "hasStats": true,
-        "id": "7lexcXJbtVsSUjc",
+        "id": "EJ2xZ8RhhN3OOCS",
+        "imageFilter": "none",
         "images": {
           "hero": "2020/09/06/80307849-8964-4e0d-a70f-f6371ca7fcad.jpeg",
           "supplementary": []
@@ -7102,7 +7410,8 @@ const data = [
       {
         "date": "09.07.2021",
         "hasStats": true,
-        "id": "pAM5wNPWSDnamSD",
+        "id": "uTGt7sjeH221DvR",
+        "imageFilter": "none",
         "images": {
           "hero": "2021/09/07/fbe767d5-63c6-4af7-8643-ceef9b4cce92.jpeg",
           "supplementary": []
@@ -7203,7 +7512,8 @@ const data = [
       {
         "date": "09.09.2021",
         "hasStats": true,
-        "id": "XWp64KPOKWtAWS4",
+        "id": "DcF9OKKYhYAvou0",
+        "imageFilter": "none",
         "images": {
           "hero": "2021/09/09/8e1e0c1f-c391-4bc0-807c-7bdd8d20815b.jpeg",
           "supplementary": []
@@ -7304,7 +7614,8 @@ const data = [
       {
         "date": "09.09.2022",
         "hasStats": true,
-        "id": "eVS7KPbHp3t8Hku",
+        "id": "I7qDAIlIMW02Ujn",
+        "imageFilter": "none",
         "images": {
           "hero": "2022/09/09/f722df6c-2869-4ff0-80f7-37014241e135.jpeg",
           "supplementary": []
@@ -7405,7 +7716,8 @@ const data = [
       {
         "date": "09.11.2022",
         "hasStats": true,
-        "id": "Lf7HQdHSpbt5AWS",
+        "id": "PNr5YbpHrnSMXvm",
+        "imageFilter": "none",
         "images": {
           "hero": "2022/09/11/b74f68ae-d627-4a89-9122-fbc75562e59d.jpeg",
           "supplementary": []
@@ -7531,7 +7843,7 @@ const data = [
       "In 2019, during the second half of July, I set off for Northern Italy to hike the AV1 route from North to South, finishing in the Italian city of Belluno. It took exactly 10 days to complete the 65 miles of trail, without any rest days. The beginning and end of the route were the hardest, each with large amounts of ascending and descending, but the majority of the trail's elevation change was evenly distributed. The total elevation gain/loss was 25,109 ft up, and 28,590 ft down, with a maximum altitude of 9,129 feet.",
       "These pictures showcase some of the amazing natural formations visible from the trail, and offer a glimpse into the 10 days spent on this thru-hike."
     ],
-    "index": 8,
+    "index": 10,
     "label": "day",
     "location": "the Dolomites",
     "slug": "alta-via-1",
@@ -7539,7 +7851,8 @@ const data = [
       {
         "date": "07.16.2019",
         "hasStats": true,
-        "id": "PVOMejiIUni3Sj3",
+        "id": "IiFnKTLp9La9e08",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/07/16/eba70b28-4c7d-45f3-aa93-46b24011cb80.jpeg",
           "supplementary": []
@@ -7638,7 +7951,8 @@ const data = [
       {
         "date": "07.17.2019",
         "hasStats": true,
-        "id": "Nf6ZmktfCsnM8VW",
+        "id": "nPRTHBJ2ShErci2",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/07/16/69890344-e575-484e-86ae-5ddeb000c4f9.jpeg",
           "supplementary": []
@@ -7737,7 +8051,8 @@ const data = [
       {
         "date": "07.18.2019",
         "hasStats": true,
-        "id": "n58nwnB0cQs39Ei",
+        "id": "ZuKAiG7AUIbKibi",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/07/16/081c1b83-7036-4c3c-aa2f-0534f4250ab8.jpeg",
           "supplementary": []
@@ -7836,7 +8151,8 @@ const data = [
       {
         "date": "07.19.2019",
         "hasStats": true,
-        "id": "BidymcSImNP5R5C",
+        "id": "B7e9PbCZqntyt0N",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/07/16/eb243b48-8084-4c7e-94c0-5a163983d407.jpeg",
           "supplementary": []
@@ -7935,7 +8251,8 @@ const data = [
       {
         "date": "07.20.2019",
         "hasStats": true,
-        "id": "FpYkyz21hNkdPFo",
+        "id": "ZpghXeIYWiKkOKh",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/07/16/a3f65b8c-4b57-4194-a3a1-5769f1d63373.jpeg",
           "supplementary": []
@@ -8036,7 +8353,8 @@ const data = [
       {
         "date": "07.21.2019",
         "hasStats": true,
-        "id": "AiTLiRS4yHuKklJ",
+        "id": "XN1atmmGBq69SEY",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/07/16/b1128805-54bb-4b7b-adcb-f2b6ae3fada6.jpeg",
           "supplementary": []
@@ -8137,7 +8455,8 @@ const data = [
       {
         "date": "07.22.2019",
         "hasStats": true,
-        "id": "aIIACXoJZsZKIXy",
+        "id": "MAEBYtAIoef9jmG",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/07/16/a46e829f-147b-40d1-b7ae-2f743923feca.jpeg",
           "supplementary": []
@@ -8236,7 +8555,8 @@ const data = [
       {
         "date": "07.23.2019",
         "hasStats": true,
-        "id": "Xf3bW31phPb5VbS",
+        "id": "wO8KjIJgag6x2ns",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/07/16/21806386-052d-4a82-941e-6728771acd63.jpeg",
           "supplementary": []
@@ -8336,7 +8656,8 @@ const data = [
       {
         "date": "07.24.2019",
         "hasStats": true,
-        "id": "l1XQIPzIyJh6MSV",
+        "id": "dNMvR1W69K91z7t",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/07/16/2982a2fe-75f6-473a-8d98-2c664c5cd38e.jpeg",
           "supplementary": []
@@ -8437,7 +8758,8 @@ const data = [
       {
         "date": "07.25.2019",
         "hasStats": true,
-        "id": "FeobWx1clsikFMF",
+        "id": "uFvxxWXTD9s7sE9",
+        "imageFilter": "none",
         "images": {
           "hero": "2019/07/16/735a0783-62ba-4f8e-97d8-c9b9f5327cfe.jpeg",
           "supplementary": []
@@ -8547,7 +8869,137 @@ const data = [
     "title": [
       "Alta Via 1"
     ],
-    "type": "thru-hiking"
+    "type": "thru-hike"
+  },
+  {
+    "date": {
+      "date": "Nov 6 2019",
+      "years": [
+        "2019"
+      ]
+    },
+    "description": [
+      "I took some time to explore the city of Pokhara in Nepal (including going paragliding for the first time) after completing the Annapurna Circuit Basecamp treks before heading home to Chicago."
+    ],
+    "index": 11,
+    "label": "destination",
+    "location": "Nepal",
+    "slug": "pokhara",
+    "stages": [
+      {
+        "date": "11.06.2019",
+        "hasStats": false,
+        "id": "E8uDDPlyIkHZ54d",
+        "imageFilter": "none",
+        "images": {
+          "hero": "2019/11/06/5c63aeb6-aaf3-4874-b785-7c7b3feaa261.jpeg",
+          "supplementary": [
+            "2019/11/06/7fd89872-a90a-4024-bbe6-cbc204799e17.jpeg",
+            "2019/11/06/0a6730d7-113b-4bca-b9d1-71ecf8e69713.jpeg"
+          ]
+        },
+        "index": 0,
+        "location": "Pokhara",
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "Lake Fewa"
+          ],
+          "isSame": true,
+          "start": [
+            "Lake Fewa"
+          ]
+        },
+        "title": [
+          "Lake Fewa"
+        ]
+      },
+      {
+        "date": "11.07.2019",
+        "hasStats": false,
+        "id": "vXN8o15MWa0ogW7",
+        "imageFilter": "none",
+        "images": {
+          "hero": "2019/11/06/e0a5e830-9489-43e4-8b95-e20808744b9d.jpeg",
+          "supplementary": [
+            "2019/11/06/4b67a99b-7108-4279-8dc2-d22b95585639.jpeg"
+          ]
+        },
+        "index": 1,
+        "location": "Pokhara",
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "Peace",
+            "Pagoda"
+          ],
+          "isSame": true,
+          "start": [
+            "Peace",
+            "Pagoda"
+          ]
+        },
+        "title": [
+          "Peace",
+          "Pagoda"
+        ]
+      },
+      {
+        "date": "11.08.2019",
+        "hasStats": false,
+        "id": "q934v039FaWlzJe",
+        "imageFilter": "none",
+        "images": {
+          "hero": "2019/11/06/588fe58c-d0ca-4d04-b8c9-c7e269b32c83.jpeg",
+          "supplementary": []
+        },
+        "index": 2,
+        "location": "Pokhara",
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "Paragliding"
+          ],
+          "isSame": true,
+          "start": [
+            "Paragliding"
+          ]
+        },
+        "title": [
+          "Paragliding"
+        ]
+      }
+    ],
+    "stats": {
+      "length": {
+        "label": "length",
+        "value": 3,
+        "units": null
+      }
+    },
+    "tagline": "Outdoor adventurist hub of Nepal",
+    "title": [
+      "Pokhara"
+    ],
+    "type": "vacation"
   },
   {
     "date": {
@@ -8561,7 +9013,7 @@ const data = [
       "Shortly after completing the Camino in Spain I set off in September of 2018 to do this thru-hike. Along the route there are places called Refuges in the mountains where I spent each night. Amenities varied at each place, but they all included a bed, a full bathroom, and meals. The sights during the day are amazing, and the effort I put in during each day made every sight and sound worth it. I did some of the alternate routes on the trail, and my total distance came out to 106 miles over 12 days, and the elevation changes ended up being 36,877 ft up and 36,701 ft down. I can't wait to do it again.",
       "These pictures showcase my time on trail, and offer a glimpse into the 12 days spent on this thru-hike."
     ],
-    "index": 9,
+    "index": 12,
     "label": "day",
     "location": "the French Italian and Swiss Alps",
     "slug": "tour-du-mont-blanc",
@@ -8569,7 +9021,8 @@ const data = [
       {
         "date": "09.02.2018",
         "hasStats": true,
-        "id": "oORVIr7XOcqlG43",
+        "id": "8g7X54i16vjJ9Z2",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/09/02/135eea74-e1bc-4cab-bfd7-28d17405a744.jpeg",
           "supplementary": []
@@ -8670,7 +9123,8 @@ const data = [
       {
         "date": "09.03.2018",
         "hasStats": true,
-        "id": "JugtdTmB3VQbCbJ",
+        "id": "JGrvTOXJCnpWxc4",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/09/02/56d3cc07-47c1-40c8-b7ee-483aa01d777c.jpeg",
           "supplementary": []
@@ -8775,7 +9229,8 @@ const data = [
       {
         "date": "09.04.2018",
         "hasStats": true,
-        "id": "DtIDb126TsaNeiy",
+        "id": "bEfrYuZay6C619i",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/09/02/0420d236-d12a-40e8-8d6c-90558e26d304.jpeg",
           "supplementary": []
@@ -8882,7 +9337,8 @@ const data = [
       {
         "date": "09.05.2018",
         "hasStats": true,
-        "id": "5lAsp8XzBvOISlm",
+        "id": "neXzxbIgHIcSP3k",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/09/02/488a5815-e763-406d-94e1-5e51ff25cafe.jpeg",
           "supplementary": []
@@ -8987,7 +9443,8 @@ const data = [
       {
         "date": "09.06.2018",
         "hasStats": true,
-        "id": "LpC8BxVKZZhtmQM",
+        "id": "WLVuVqTrfkSTaZV",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/09/02/9cefaedf-2e6b-439a-9512-f1f37d2374eb.jpeg",
           "supplementary": []
@@ -9090,7 +9547,8 @@ const data = [
       {
         "date": "09.07.2018",
         "hasStats": true,
-        "id": "US3hrZlgXK5tASY",
+        "id": "sy5JMCi8PCjKThF",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/09/02/891cd8a7-97d2-4251-ac34-6c816c0ec570.jpeg",
           "supplementary": []
@@ -9193,7 +9651,8 @@ const data = [
       {
         "date": "09.08.2018",
         "hasStats": true,
-        "id": "EEQeG7iWoU7COdh",
+        "id": "2cLtxi1dKHp6qI9",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/09/02/8d209b3b-8d40-49b3-b754-fd91466c9708.jpeg",
           "supplementary": []
@@ -9296,7 +9755,8 @@ const data = [
       {
         "date": "09.09.2018",
         "hasStats": true,
-        "id": "pzQbjMRU2VujMWj",
+        "id": "mKr9etaa21pWKsz",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/09/02/21248df2-d0b9-41d2-9662-b6215c24c298.jpeg",
           "supplementary": []
@@ -9399,7 +9859,8 @@ const data = [
       {
         "date": "09.10.2018",
         "hasStats": true,
-        "id": "GFHvvKfjc3z5p9B",
+        "id": "Y5k0tLI58EK7Cgx",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/09/02/ec37f4a8-6310-4bf6-b1a7-cddb1f91bf3b.jpeg",
           "supplementary": []
@@ -9502,7 +9963,8 @@ const data = [
       {
         "date": "09.11.2018",
         "hasStats": true,
-        "id": "bnrxueSO0rzsxGv",
+        "id": "UVKiBFZCWt3pqD9",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/09/02/0ea4750a-307a-44be-a466-bb081d137d3c.jpeg",
           "supplementary": []
@@ -9605,7 +10067,8 @@ const data = [
       {
         "date": "09.12.2018",
         "hasStats": true,
-        "id": "mldEssmdaHwwv48",
+        "id": "AIVtYnvj3QwUL04",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/09/02/3faeb9f8-d262-4c12-869f-4470b0dc0574.jpeg",
           "supplementary": []
@@ -9709,7 +10172,8 @@ const data = [
       {
         "date": "09.13.2018",
         "hasStats": true,
-        "id": "U7fU8nnOYXsx7V5",
+        "id": "4Q5dtGimuBL5faw",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/09/02/8a0d6d12-a40d-47ba-9d09-6b8d5572bb32.jpeg",
           "supplementary": []
@@ -9821,7 +10285,242 @@ const data = [
       "Tour du",
       "Mont Blanc"
     ],
-    "type": "thru-hiking"
+    "type": "thru-hike"
+  },
+  {
+    "date": {
+      "date": "Jul 25 2018",
+      "years": [
+        "2018"
+      ]
+    },
+    "description": [
+      "New York City has some iconic bridges, and in July of 2018 I spent a couple of days playing tourist while snapping some pictures of these metal and stone beasts."
+    ],
+    "index": 13,
+    "label": "item",
+    "location": "New York City",
+    "slug": "new-york-city-bridges",
+    "stages": [
+      {
+        "date": "07.25.2018",
+        "hasStats": false,
+        "id": "f8D4Tx4wmJxtuZr",
+        "imageFilter": "grayscale",
+        "images": {
+          "hero": "2018/07/24/79693c9f-ef6a-4dd2-acd8-095e1e835684.jpeg",
+          "supplementary": []
+        },
+        "index": 0,
+        "location": "Downtown Brooklyn",
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "Manhattan",
+            "Bridge"
+          ],
+          "isSame": true,
+          "start": [
+            "Manhattan",
+            "Bridge"
+          ]
+        },
+        "title": [
+          "Manhattan",
+          "Bridge"
+        ]
+      },
+      {
+        "date": "07.25.2018",
+        "hasStats": false,
+        "id": "y8s9LXMon7jyvkX",
+        "imageFilter": "grayscale",
+        "images": {
+          "hero": "2018/07/24/c6e927a9-39c3-408a-8363-a08bb5d31032.jpeg",
+          "supplementary": []
+        },
+        "index": 1,
+        "location": "Downtown Brooklyn",
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "Manhattan",
+            "Bridge"
+          ],
+          "isSame": true,
+          "start": [
+            "Manhattan",
+            "Bridge"
+          ]
+        },
+        "title": [
+          "Manhattan",
+          "Bridge"
+        ]
+      },
+      {
+        "date": "07.25.2018",
+        "hasStats": false,
+        "id": "vtuWWaGixb7F7IV",
+        "imageFilter": "grayscale",
+        "images": {
+          "hero": "2018/07/24/581a2a63-d3be-467d-8d78-247590241d1e.jpeg",
+          "supplementary": []
+        },
+        "index": 2,
+        "location": "Downtown Brooklyn",
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "Manhattan",
+            "Bridge"
+          ],
+          "isSame": true,
+          "start": [
+            "Manhattan",
+            "Bridge"
+          ]
+        },
+        "title": [
+          "Manhattan",
+          "Bridge"
+        ]
+      },
+      {
+        "date": "07.26.2018",
+        "hasStats": false,
+        "id": "IYCCNwYsdnWnDND",
+        "imageFilter": "grayscale",
+        "images": {
+          "hero": "2018/07/24/24d5bf65-9b1f-41fd-9d61-59d39307e237.jpeg",
+          "supplementary": []
+        },
+        "index": 3,
+        "location": "Williamsburg",
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "",
+            "Williamsburg"
+          ],
+          "isSame": true,
+          "start": [
+            "",
+            "Williamsburg"
+          ]
+        },
+        "title": [
+          "",
+          "Williamsburg"
+        ]
+      },
+      {
+        "date": "07.26.2018",
+        "hasStats": false,
+        "id": "kXK7QNpK2IBeW0d",
+        "imageFilter": "grayscale",
+        "images": {
+          "hero": "2018/07/24/f0bf65ae-2a4a-4dec-a576-21de3b409b43.jpeg",
+          "supplementary": []
+        },
+        "index": 4,
+        "location": "Williamsburg",
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "",
+            "Williamsburg"
+          ],
+          "isSame": true,
+          "start": [
+            "",
+            "Williamsburg"
+          ]
+        },
+        "title": [
+          "",
+          "Williamsburg"
+        ]
+      },
+      {
+        "date": "07.26.2018",
+        "hasStats": false,
+        "id": "FbHVLXggrg5rUYr",
+        "imageFilter": "grayscale",
+        "images": {
+          "hero": "2018/07/24/1bb41680-664b-4097-8b78-6e2a64ebf3f5.jpeg",
+          "supplementary": []
+        },
+        "index": 5,
+        "location": "Williamsburg",
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "",
+            "Williamsburg"
+          ],
+          "isSame": true,
+          "start": [
+            "",
+            "Williamsburg"
+          ]
+        },
+        "title": [
+          "",
+          "Williamsburg"
+        ]
+      }
+    ],
+    "stats": {
+      "length": {
+        "label": "length",
+        "value": 6,
+        "units": null
+      }
+    },
+    "tagline": "The big apple",
+    "title": [
+      "New York",
+      "City",
+      "Bridges"
+    ],
+    "type": "collection"
   },
   {
     "date": {
@@ -9835,7 +10534,7 @@ const data = [
       "This was my first long-distance trail, and after much preparation I flew to Spain at the end of May 2018 and started the trail on June 2nd. The Camino wears you down over the first few days, but then builds you back up, and after the first week I was walking 15 - 25 miles daily, all leading towards the city of Santiago and the Atlantic ocean. I spent 32 days walking 534 miles over hills and mountains, through deserts, and swimming in rivers, to reach the ocean.",
       "It's hard to capture 32 worth of experiences in these few snapshots, but hopefully they offer a picture of my journey on this adventure, and a glimpse into the time spent on this thru-hike."
     ],
-    "index": 10,
+    "index": 14,
     "label": "day",
     "location": "the autonomous regions of Navarra, La Rioja, Castile and León, and Galicia",
     "slug": "camino-de-santiago",
@@ -9843,7 +10542,8 @@ const data = [
       {
         "date": "06.02.2018",
         "hasStats": true,
-        "id": "ityo2jOEQAwchC0",
+        "id": "JDmGRBrJqlabAVK",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/36c8ce31-ccce-4133-9528-338124462edf.jpeg",
           "supplementary": []
@@ -9947,7 +10647,8 @@ const data = [
       {
         "date": "06.03.2018",
         "hasStats": true,
-        "id": "Ene2fIEOilsFEti",
+        "id": "2Hk8sCEGMPdODvp",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/259d7373-6f3d-4274-8ff8-440cb2724702.jpeg",
           "supplementary": []
@@ -10047,7 +10748,8 @@ const data = [
       {
         "date": "06.04.2018",
         "hasStats": true,
-        "id": "HzqnmmSdmIh9ESX",
+        "id": "E1CjXuuvTaVvEnD",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/94c5e141-580c-483b-91aa-13a88bf0f8fd.jpeg",
           "supplementary": []
@@ -10146,7 +10848,8 @@ const data = [
       {
         "date": "06.05.2018",
         "hasStats": true,
-        "id": "0E0XXCgdTgWxi4L",
+        "id": "Y8TrlJKbsqi8iJv",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/88b734d7-ee6f-437f-a44b-6233d7f86158.jpeg",
           "supplementary": []
@@ -10247,7 +10950,8 @@ const data = [
       {
         "date": "06.06.2018",
         "hasStats": true,
-        "id": "GwOP3lBTlyi7xUG",
+        "id": "TckDrLsI1254Btl",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/6de64c25-13b3-441f-96b8-1f80cd4d6bd6.jpeg",
           "supplementary": []
@@ -10348,7 +11052,8 @@ const data = [
       {
         "date": "06.07.2018",
         "hasStats": true,
-        "id": "1XZPyXNvRRFmOO1",
+        "id": "gKSKSE1jV4rSSAQ",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/f3c24aa0-ec3f-4319-9585-e178b9fd7bca.jpeg",
           "supplementary": []
@@ -10447,7 +11152,8 @@ const data = [
       {
         "date": "06.08.2018",
         "hasStats": true,
-        "id": "6kvYNuDeEvxgR6w",
+        "id": "ybKx2GZHPijmywB",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/71b4d4f4-b9d4-40b9-8902-cef791391428.jpeg",
           "supplementary": []
@@ -10546,7 +11252,8 @@ const data = [
       {
         "date": "06.09.2018",
         "hasStats": true,
-        "id": "10zFSb4PcvlueH5",
+        "id": "yPnpff9ZraV14Ln",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/e5a310be-0e12-45d8-9121-dbac375a4234.jpeg",
           "supplementary": []
@@ -10645,7 +11352,8 @@ const data = [
       {
         "date": "06.10.2018",
         "hasStats": true,
-        "id": "QMuSlSXjV7KEuCR",
+        "id": "jalOljm6sh5wC9X",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/50570d33-285a-4561-bc7f-b7e500363359.jpeg",
           "supplementary": []
@@ -10746,7 +11454,8 @@ const data = [
       {
         "date": "06.11.2018",
         "hasStats": true,
-        "id": "UWhIUBBtVTYuNYC",
+        "id": "GHliEWRnpZJ3bdl",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/009b868c-38ee-43e7-bc1c-90b259306d86.jpeg",
           "supplementary": []
@@ -10847,7 +11556,8 @@ const data = [
       {
         "date": "06.12.2018",
         "hasStats": true,
-        "id": "0pUYSF6GULStH1B",
+        "id": "w7pEUCZbPDX52jP",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/678b2b3a-6724-4bca-99b7-f7ed9a4683e7.jpeg",
           "supplementary": []
@@ -10946,7 +11656,8 @@ const data = [
       {
         "date": "06.13.2018",
         "hasStats": true,
-        "id": "En0wQIc4N0MeApd",
+        "id": "GwaqMWS8fAgzGIk",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/28740c31-9cb0-4952-af50-9f1bab6c1edb.jpeg",
           "supplementary": []
@@ -11045,7 +11756,8 @@ const data = [
       {
         "date": "06.14.2018",
         "hasStats": true,
-        "id": "peJcpulEfEhqina",
+        "id": "TBnCgWvclS2qhlM",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/3ecd42d0-421e-4e3d-a770-830e68e2652c.jpeg",
           "supplementary": []
@@ -11144,7 +11856,8 @@ const data = [
       {
         "date": "06.15.2018",
         "hasStats": true,
-        "id": "3MQrxvc86uovWoI",
+        "id": "dynTjFU6TqTsfJB",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/98a7eed4-299d-40e6-a537-779a5bab6c77.jpeg",
           "supplementary": []
@@ -11243,7 +11956,8 @@ const data = [
       {
         "date": "06.16.2018",
         "hasStats": true,
-        "id": "eDaomz0IpmbRvKL",
+        "id": "9s6IZ0lq20l1L0Q",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/2e08d5fe-1711-4768-8ded-f3714e186923.jpeg",
           "supplementary": []
@@ -11342,7 +12056,8 @@ const data = [
       {
         "date": "06.17.2018",
         "hasStats": true,
-        "id": "bqD8iQfqNjIh00U",
+        "id": "lxgkwKT8MeDN5eW",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/bcdc06e3-4c95-4138-9779-bc46670a4e1b.jpeg",
           "supplementary": []
@@ -11441,7 +12156,8 @@ const data = [
       {
         "date": "06.18.2018",
         "hasStats": true,
-        "id": "icCPW9uAKMOZeYb",
+        "id": "9wYFmw3cUL9xaox",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/2b268d15-bea2-42ae-a15c-1ab6fd5fe4f7.jpeg",
           "supplementary": []
@@ -11540,7 +12256,8 @@ const data = [
       {
         "date": "06.19.2018",
         "hasStats": true,
-        "id": "GnAiy9itRMXdazC",
+        "id": "nB3zgl6T0rUoB2J",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/845acb7b-86f3-4768-8ce3-c8be727c50af.jpeg",
           "supplementary": []
@@ -11639,7 +12356,8 @@ const data = [
       {
         "date": "06.20.2018",
         "hasStats": true,
-        "id": "jf3eI04oUwIQwIx",
+        "id": "qbgGG7dTHjZK6vI",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/f5741d7d-6a86-47ae-a5b1-f1bced05bb00.jpeg",
           "supplementary": []
@@ -11738,7 +12456,8 @@ const data = [
       {
         "date": "06.21.2018",
         "hasStats": true,
-        "id": "pPVgacUAGg4nnx9",
+        "id": "MB7jgMAiG7uFwmv",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/0cf7b647-1681-4b88-be6a-cbba1163f38a.jpeg",
           "supplementary": []
@@ -11837,7 +12556,8 @@ const data = [
       {
         "date": "06.22.2018",
         "hasStats": true,
-        "id": "sZ0O4OSFRGyNOwk",
+        "id": "SjbHHf5VgRgbP9Q",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/bf4e84fe-e4ca-4834-ab65-393f965bbdb8.jpeg",
           "supplementary": []
@@ -11936,7 +12656,8 @@ const data = [
       {
         "date": "06.23.2018",
         "hasStats": true,
-        "id": "BZSv416WZa6Wnxl",
+        "id": "5xRZNwnxlk9dLlB",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/2901af55-b7bf-41ec-9471-6ec3699b1f12.jpeg",
           "supplementary": []
@@ -12036,7 +12757,8 @@ const data = [
       {
         "date": "06.24.2018",
         "hasStats": true,
-        "id": "ibyPp1HXBr3juOx",
+        "id": "Wx95L6yEQGkJ6WK",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/7fa41365-3d33-461b-9be5-5a946064923c.jpeg",
           "supplementary": []
@@ -12136,7 +12858,8 @@ const data = [
       {
         "date": "06.25.2018",
         "hasStats": true,
-        "id": "LUcGHjIRn8jjQxL",
+        "id": "xb7rnfGWhsS5qL3",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/6349679e-acbf-4f74-ad4a-0d9032c3b293.jpeg",
           "supplementary": []
@@ -12236,7 +12959,8 @@ const data = [
       {
         "date": "06.26.2018",
         "hasStats": true,
-        "id": "d4NeRlBPT1JOMys",
+        "id": "3mvikHDec6qOPdP",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/4e1b42f2-3994-4d1c-ad29-620eab9c80c7.jpeg",
           "supplementary": []
@@ -12335,7 +13059,8 @@ const data = [
       {
         "date": "06.27.2018",
         "hasStats": true,
-        "id": "Ib2YwyBLswMUtlq",
+        "id": "2b36uon6aerkRj9",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/3d738e26-0747-447a-98fb-0bb35e1736c3.jpeg",
           "supplementary": []
@@ -12434,7 +13159,8 @@ const data = [
       {
         "date": "06.28.2018",
         "hasStats": true,
-        "id": "zkSVTibbVWPybYG",
+        "id": "rCxZkfmEldSkMWD",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/4e8fd9a9-ed5f-429f-9230-efa731461a5f.jpeg",
           "supplementary": []
@@ -12533,7 +13259,8 @@ const data = [
       {
         "date": "06.29.2018",
         "hasStats": true,
-        "id": "I4D6LaTKXOnhyz6",
+        "id": "kDm9QRt3xiRtWSW",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/2dcb1878-efe7-47d7-b7b5-b031ab143cb6.jpeg",
           "supplementary": []
@@ -12632,7 +13359,8 @@ const data = [
       {
         "date": "06.30.2018",
         "hasStats": true,
-        "id": "UNS3pkG3S5FKRkv",
+        "id": "6kBNcNfP0ZT5MFt",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/1921986b-9cf8-4bf8-b531-3bfe2f098f93.jpeg",
           "supplementary": []
@@ -12733,7 +13461,8 @@ const data = [
       {
         "date": "07.02.2018",
         "hasStats": true,
-        "id": "mklO381yHC2nuFI",
+        "id": "wpksIMSIrFI0Gs4",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/7f51e3c4-518e-4147-8e73-c19d6c87ce11.jpeg",
           "supplementary": []
@@ -12834,7 +13563,8 @@ const data = [
       {
         "date": "07.03.2018",
         "hasStats": true,
-        "id": "3MFAOHlCIKEg3Nc",
+        "id": "o2rneZZItd1gWf6",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/32011e1d-8075-4b90-9a91-db88c3d66989.jpeg",
           "supplementary": []
@@ -12933,7 +13663,8 @@ const data = [
       {
         "date": "07.04.2018",
         "hasStats": true,
-        "id": "7Pg0sazF0EyN7rS",
+        "id": "Cx1EDerKUXllnJk",
+        "imageFilter": "none",
         "images": {
           "hero": "2018/06/02/aa8b0404-f4d1-44ed-bc96-ce65eae03848.jpeg",
           "supplementary": []
@@ -13042,7 +13773,275 @@ const data = [
       "Camino de",
       "Santiago"
     ],
-    "type": "thru-hiking"
+    "type": "thru-hike"
+  },
+  {
+    "date": {
+      "date": null,
+      "years": [
+        "2021",
+        "2025"
+      ]
+    },
+    "description": [
+      "This album is a collection of images taken here and there over the years."
+    ],
+    "index": 15,
+    "label": "item",
+    "location": "Various",
+    "slug": "odds-and-ends",
+    "stages": [
+      {
+        "date": "02.15.2021",
+        "hasStats": false,
+        "id": "LkFhOFZTptNJyaj",
+        "imageFilter": "none",
+        "images": {
+          "hero": "2021/02/15/99dac382-c788-4a2b-bfd0-f50e52b131e6.jpeg",
+          "supplementary": [
+            "2021/02/15/7d036995-b64e-4f4a-906d-b90525dc9bc2.jpeg"
+          ]
+        },
+        "index": 0,
+        "location": "Virginia",
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "Shenandoah"
+          ],
+          "isSame": true,
+          "start": [
+            "Shenandoah"
+          ]
+        },
+        "title": [
+          "Shenandoah"
+        ]
+      },
+      {
+        "date": "05.28.2022",
+        "hasStats": false,
+        "id": "G6f1uIvJM0Bd7yk",
+        "imageFilter": "none",
+        "images": {
+          "hero": "2022/05/28/b5db01f1-f716-4538-a3dc-46d41183fbf7.jpeg",
+          "supplementary": []
+        },
+        "index": 1,
+        "location": "Vermont",
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "Brattleboro"
+          ],
+          "isSame": true,
+          "start": [
+            "Brattleboro"
+          ]
+        },
+        "title": [
+          "Brattleboro"
+        ]
+      },
+      {
+        "date": "06.30.2022",
+        "hasStats": false,
+        "id": "CbwuuVC1awhVZMg",
+        "imageFilter": "none",
+        "images": {
+          "hero": "2022/06/30/cda98785-1307-4628-a906-43871965c819.jpeg",
+          "supplementary": []
+        },
+        "index": 2,
+        "location": "Cuyahoga Valley National Park",
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "The Ledges"
+          ],
+          "isSame": true,
+          "start": [
+            "The Ledges"
+          ]
+        },
+        "title": [
+          "The Ledges"
+        ]
+      },
+      {
+        "date": "07.01.2022",
+        "hasStats": false,
+        "id": "C2aZMJke5babkbQ",
+        "imageFilter": "none",
+        "images": {
+          "hero": "2022/07/01/e5c12868-8911-42a3-95fb-f61d8ebda746.jpeg",
+          "supplementary": []
+        },
+        "index": 3,
+        "location": "Lake Huron, New York",
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "Chimney",
+            "Bluffs"
+          ],
+          "isSame": true,
+          "start": [
+            "Chimney",
+            "Bluffs"
+          ]
+        },
+        "title": [
+          "Chimney",
+          "Bluffs"
+        ]
+      },
+      {
+        "date": "07.04.2022",
+        "hasStats": false,
+        "id": "TsdKU8RxBzl24KX",
+        "imageFilter": "none",
+        "images": {
+          "hero": "2022/07/04/924a6a32-f108-4a28-a048-ff1fadf764e8.jpeg",
+          "supplementary": [
+            "2022/07/04/28441820-1d4d-4952-b998-ef662df285e9.jpeg",
+            "2022/07/04/aebe1bd1-78fb-4596-9324-f06522bc4de9.jpeg"
+          ]
+        },
+        "index": 4,
+        "location": "South Hill, New York",
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "Buttermilk",
+            "Falls"
+          ],
+          "isSame": true,
+          "start": [
+            "Buttermilk",
+            "Falls"
+          ]
+        },
+        "title": [
+          "Buttermilk",
+          "Falls"
+        ]
+      },
+      {
+        "date": "07.24.2024",
+        "hasStats": false,
+        "id": "4jQvlhi60KVr9et",
+        "imageFilter": "none",
+        "images": {
+          "hero": "2024/07/24/f6f7470b-5e4e-42f7-aa59-ccabe81778bf.jpeg",
+          "supplementary": [
+            "2024/07/24/e19b87b3-ff48-499f-a225-3d4d608e9311.jpeg",
+            "2024/07/24/e38ad9d4-d8b7-433c-bdec-55294d442928.jpeg"
+          ]
+        },
+        "index": 5,
+        "location": "Geneva, Switzerland",
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "Geneva"
+          ],
+          "isSame": true,
+          "start": [
+            "Geneva"
+          ]
+        },
+        "title": [
+          "Geneva"
+        ]
+      },
+      {
+        "date": "07.08.2025",
+        "hasStats": false,
+        "id": "G1lFSM3b1s461U7",
+        "imageFilter": "none",
+        "images": {
+          "hero": "2025/07/08/20ef7d2c-f40a-469e-a48c-8769d3cf5934.jpeg",
+          "supplementary": [
+            "2025/07/08/ab0bcc21-1bba-4629-8a3e-ea36e2b53efc.jpeg",
+            "2025/07/08/e19c94a5-b059-430a-8b25-25f870eb01de.jpeg"
+          ]
+        },
+        "index": 6,
+        "location": "Upper Penninsula, Michicagn",
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "Mackinac",
+            "Island"
+          ],
+          "isSame": true,
+          "start": [
+            "Mackinac",
+            "Island"
+          ]
+        },
+        "title": [
+          "Mackinac",
+          "Island"
+        ]
+      }
+    ],
+    "stats": {
+      "length": {
+        "label": "length",
+        "value": 7,
+        "units": null
+      }
+    },
+    "tagline": "An assortment of pictures",
+    "title": [
+      "Odds and",
+      "Ends"
+    ],
+    "type": "collection"
   }
 ];
 

@@ -6,6 +6,7 @@ const styles = tw({
     isActive: boolean,
     isFullscreen: boolean,
     isPlaceholder: boolean,
+    imageFilter?: string,
   ) => {
     const common = `
       object-cover
@@ -22,33 +23,42 @@ const styles = tw({
       `);
     }
 
+    let filter = '';
+
+    if (imageFilter === 'none') {
+      if (isFullscreen) {
+        filter = `
+          brightness-90
+          grayscale-0
+        `;
+      } else {
+        filter = `
+          ${isInView ? `
+            brightness-90
+            grayscale-0
+          ` : `
+            brightness-40
+            grayscale-100
+          `}
+        `;
+      }
+    } else if (imageFilter === 'grayscale') {
+      filter = `
+        brightness-60
+        grayscale-100
+      `;
+    }
+
     const gallery = `
       absolute inset-0 z-2
 
       ${isActive ? 'opacity-100' : 'opacity-0'}
     `;
 
-    if (isFullscreen) {
-      return tw(`
-        ${common}
-        ${gallery}
-
-        brightness-90
-        grayscale-0
-      `);
-    }
-
     return tw(`
       ${common}
       ${gallery}
-
-      ${isInView ? `
-        brightness-90
-        grayscale-0
-      ` : `
-        brightness-40
-        grayscale-100
-      `}
+      ${filter}
     `);
   },
   skeleton: `

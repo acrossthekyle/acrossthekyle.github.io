@@ -6,6 +6,7 @@ import { useModel } from './model';
 import styles from './stylesheet';
 
 type Props = {
+  imageFilter?: string;
   isActive: boolean;
   isFullscreen?: boolean;
   isInView?: boolean;
@@ -17,6 +18,7 @@ type Props = {
 };
 
 export default function Image({
+  imageFilter,
   isActive,
   isFullscreen = false,
   isInView = false,
@@ -31,7 +33,13 @@ export default function Image({
     <>
       <NextJsImage
         alt=""
-        className={styles.image(isInView, isActive, isFullscreen, isPlaceholder)}
+        className={styles.image(
+          isInView,
+          isActive,
+          isFullscreen,
+          isPlaceholder,
+          imageFilter,
+        )}
         height={1080}
         onLoad={handleOnLoad}
         quality={quality}

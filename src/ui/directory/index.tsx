@@ -46,7 +46,12 @@ export default function Directory({
     >
       {title && (<Title className={styles.title}>{title}</Title>)}
       {filters.length > 0 && (
-        <Filters current={current} filters={filters} isOnChild={isOnChild} />
+        <Filters
+          current={current}
+          filters={filters}
+          isOnChild={isOnChild}
+          previous={previous}
+        />
       )}
       <nav>
         <ul className={styles.list}>

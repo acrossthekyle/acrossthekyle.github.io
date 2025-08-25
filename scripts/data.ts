@@ -388,6 +388,7 @@ async function getStages(folder) {
         elevation,
         hasStats: !Object.values(stats).every(value => value === null),
         id: generateId(),
+        imageFilter: data.filter ?? 'none',
         images: {
           hero: data.image,
           supplementary: data.images || [],
@@ -599,11 +600,11 @@ async function getTripDate(trip, stages) {
 }
 
 function getLabel(type) {
-  if (type === 'thru-hiking') {
+  if (type === 'thru-hike') {
     return 'day';
   }
 
-  if (type === 'section-hiking') {
+  if (type === 'section-hike') {
     return 'section';
   }
 
@@ -611,8 +612,12 @@ function getLabel(type) {
     return 'summit';
   }
 
-  if (type === 'vacationing') {
+  if (type === 'vacation') {
     return 'destination';
+  }
+
+  if (type === 'collection') {
+    return 'item';
   }
 
   return '';
