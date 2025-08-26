@@ -28,7 +28,7 @@ export default function DirectoryLink({
 
   return (
     <Link
-      className={styles.link(isOnChild, isActive, isExternal)}
+      className={styles.link(isOnChild, isActive)}
       href={decorateLink(
         isOnChild && isActive ? previous : href,
         searchParameters,

@@ -1,22 +1,17 @@
 import '../globals.css';
 
 import type { Metadata, Viewport } from 'next';
-import { Geist } from 'next/font/google';
+import { Suspense } from 'react';
 
 import Events from '@/context/events';
 import Layout from '@/layouts/root';
 
-import styles from './stylesheet';
-
-const geistSans = Geist({
-  variable: '--font-geist-sans',
-  subsets: ['latin'],
-});
+import Body from './body';
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Kyle',
-    default: 'Kyle',
+    template: '%s | K',
+    default: 'K',
   },
   keywords: ['across', 'the', 'kyle', 'Kyle', 'Gilbert', 'Thru-hiker', 'UI Developer'],
   description: `I'm a thru-hiker and UI developer seeking new ways to move forward with intention and curiosity`,
@@ -59,13 +54,15 @@ type Props = {
 export default function RootLayout({ children }: Props) {
   return (
     <html className="h-full" lang="en">
-      <body className={`${geistSans.variable} ${styles.body}`}>
-        <Events>
-          <Layout>
-            {children}
-          </Layout>
-        </Events>
-      </body>
+      <Suspense>
+        <Body>
+          <Events>
+            <Layout>
+              {children}
+            </Layout>
+          </Events>
+        </Body>
+      </Suspense>
     </html>
   );
 }

@@ -1,25 +1,13 @@
 import tw from '@/styles';
 
 const styles = tw({
-  link: (isOnChild: boolean, isActive: boolean, isExternal: boolean) => {
+  link: (isOnChild: boolean, isActive: boolean) => {
     const root = `
       group/link
 
       uppercase
       duration-200
       overflow-hidden
-
-      ${isExternal && `
-        last:before:content-['↗']
-        last:before:block
-        last:before:float-left
-        last:before:mr-2
-        last:before:font-light
-        last:before:text-tiny
-        last:before:text-yellow-300/90
-        last:before:tracking-normal
-        last:before:5xs:text-xs
-      `}
     `;
 
     if (isOnChild) {
@@ -60,12 +48,11 @@ const styles = tw({
       ${root}
 
       text-4xl/7 text-white/90
-      font-bold font-stretch-condensed
+      font-black font-stretch-extra-condensed
       tracking-tighter
 
       5xs:text-5xl/10
       4xs:text-6xl/12
-      2xs:text-7xl/14
       2xs:font-stretch-semi-condensed
       sm:text-8xl/18
       md:text-7xl/14

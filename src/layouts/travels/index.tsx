@@ -18,21 +18,18 @@ import {
   FilterSlash,
   Filters,
 } from '@/ui/filters';
-import Title from '@/ui/title';
 
 import { useModel } from './model';
-import styles from './stylesheet';
 
 type Props = {
   children: ReactNode | ReactNode[];
 };
 
 export default function Layout({ children }: Props) {
-  const { filters, isLoading, isOnTravels, ref, total, travels } = useModel();
+  const { filters, isLoading, ref, total, travels } = useModel();
 
   return (
     <>
-      {isOnTravels && <Title className={styles.title}>Travels</Title>}
       <Directory align="start">
         <Filters>
           <FilterItem>

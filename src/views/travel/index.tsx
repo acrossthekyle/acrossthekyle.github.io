@@ -19,7 +19,7 @@ export default function View({ slug }: Props) {
 
   if (!travel) {
     return (
-      <Article className={styles.section}>
+      <Article>
         <ul className={styles.stages}>
           {Array.from({ length: 13 }).map((_, index) => (
             <li
@@ -36,7 +36,7 @@ export default function View({ slug }: Props) {
   }
 
   return (
-    <Article className={styles.section}>
+    <Article>
       <Header
         title={travel.title}
         type={travel.type}

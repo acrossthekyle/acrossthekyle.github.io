@@ -1,13 +1,13 @@
 import tw from '@/styles';
 
-const styles = tw({
-  body: `
+const styles = {
+  body: (isOnRoot: boolean, isOnParent: boolean) => tw(`
     antialiased
-    h-full
     flex flex-col
+    h-full
 
-    md:block
-  `,
-});
+    ${isOnRoot || isOnParent ? 'md:flex-row' : 'lg:flex-row'}
+  `),
+};
 
 export default styles;

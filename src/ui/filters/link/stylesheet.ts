@@ -8,7 +8,6 @@ const styles = tw({
     uppercase
     overflow-hidden
     duration-300
-    pt-1
 
     hover:text-white/50
 

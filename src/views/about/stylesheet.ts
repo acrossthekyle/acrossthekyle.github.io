@@ -1,19 +1,11 @@
 import tw from '@/styles';
 
 const styles = tw({
-  title: `
-    mt-6
-
-    md:hidden
-  `,
   hero: `
-    mt-6
-    text-2xl text-left text-white/90
+    text-2xl text-white/90 text-justify
     font-black font-stretch-semi-condensed
     uppercase
 
-    3xs:text-justify
-    sm:mt-0
     sm:text-3xl
     md:text-4xl
     ml:text-5xl
@@ -23,9 +15,7 @@ const styles = tw({
   `,
   tab: `
     inline-block
-    w-0
-
-    xl:w-60
+    w-1/5
   `,
   since: `
     inline-block
@@ -45,9 +35,8 @@ const styles = tw({
   `,
   blurb: `
     flex-1
-    text-lg text-left text-white/90
+    text-lg text-justify text-white/90
 
-    sm:text-justify
     sm:text-xl
     3xl:text-2xl
     4xl:text-4xl
@@ -71,27 +60,10 @@ const styles = tw({
   `,
   image: `
     aspect-3/2
-    h-20
-    rounded-full
     object-cover
     object-top
     brightness-90
     grayscale-100
-
-    5xs:h-24
-    4xs:h-28
-    3xs:h-34
-    xs:h-44
-    sm:h-54
-    md:h-44
-    mp:h-54
-    ml:h-48
-    lg:h-50
-    2ml:h-30
-    sl:h-40
-    sx:h-48
-    3xl:h-64
-    4xl:h-96
   `,
   at: `
     block
@@ -103,7 +75,6 @@ const styles = tw({
   section: `
     flex flex-col-reverse gap-10
     mt-10 pt-10
-    border-t-2 border-t-white/20 border-dashed
 
     2ml:flex-row
     xl:mt-20

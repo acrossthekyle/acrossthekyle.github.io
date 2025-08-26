@@ -1,12 +1,11 @@
 import tw from '@/styles';
 
 const styles = tw({
-  title: `
-    absolute top-12 left-6
+  item: `
     opacity-0
-    animate-in
+    animate-elastic-in-from-left
 
-    md:hidden
+    md:animate-elastic-in-from-right
   `,
 });
 

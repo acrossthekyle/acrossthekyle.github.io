@@ -5,7 +5,6 @@ import {
   DirectoryLink,
   DirectoryText,
   DirectoryItems,
-  DirectoryTitle,
 } from '@/ui/directory';
 
 const items = [
@@ -34,7 +33,6 @@ const items = [
 export default function View() {
   return (
     <Directory align="end" className="h-full">
-      <DirectoryTitle>Contact</DirectoryTitle>
       <DirectoryItems>
         {items.map((item, index: number) => (
           <DirectoryItem index={index} key={index}>

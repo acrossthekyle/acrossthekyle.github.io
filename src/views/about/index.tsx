@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import Article from '@/ui/article';
-import Title from '@/ui/title';
 
 import styles from './stylesheet';
 
@@ -10,11 +9,10 @@ export default function View() {
   return (
     <Article isFull>
       <header>
-        <Title className={styles.title}>About</Title>
-        <h2 className={styles.hero}>
+        <h1 className={styles.hero}>
           <span className={styles.tab} />
           I'M A THRU-HIKER AND UI DEVELOPER SEEKING NEW WAYS TO MOVE FORWARD WITH INTENTION AND CURIOSITY.
-        </h2>
+        </h1>
         <span className={styles.since}>Since 1987</span>
       </header>
       <section className={styles.introduction}>

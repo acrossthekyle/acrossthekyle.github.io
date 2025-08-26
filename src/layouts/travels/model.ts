@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import { usePathname, useSearchParams } from 'next/navigation';
+import { useSearchParams } from 'next/navigation';
 
 import { useTravels } from '@/hooks/useTravels';
 import type { Filter } from '@/types';
@@ -18,7 +18,6 @@ type Travel = {
 type Model = {
   filters: Filter[];
   isLoading: boolean;
-  isOnTravels: boolean;
   ref: React.RefObject<HTMLAnchorElement | null>;
   total: number;
   travels: Travel[];
@@ -32,8 +31,6 @@ export function useModel(): Model {
   const { all, isLoading, travels } = useTravels();
 
   const searchParams = useSearchParams();
-
-  const pathname = usePathname();
 
   const filter = searchParams.get('filter');
 
@@ -51,7 +48,6 @@ export function useModel(): Model {
   return {
     filters,
     isLoading,
-    isOnTravels: pathname === '/travels',
     ref,
     total: filters.reduce((total, filter) => total + filter.count, 0),
     travels: filterBy(travels, filter).map((travel) => ({

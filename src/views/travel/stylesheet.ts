@@ -1,11 +1,6 @@
 import tw from '@/styles';
 
 const styles = tw({
-  section: `
-    mt-6
-
-    ml:mt-0
-  `,
   stages: `
     flex flex-col gap-0
     mt-6

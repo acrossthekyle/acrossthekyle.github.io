@@ -5,7 +5,7 @@ const styles = tw({
     block
   `,
   index: `
-    mx-2
+    ml-2
     text-tiny text-yellow-300/90
     font-light
     tracking-normal
