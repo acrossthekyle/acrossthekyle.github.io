@@ -6,7 +6,7 @@ interface AppEvent<PayloadType = unknown> extends Event {
   detail: PayloadType;
 }
 
-export interface CustomWindowEventMap extends WindowEventMap {
+interface CustomWindowEventMap extends WindowEventMap {
   onEscape: AppEvent<string>;
 }
 

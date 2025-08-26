@@ -2,9 +2,23 @@
 
 import { ReactNode } from 'react';
 
-import Directory from '@/ui/directory';
+import {
+  Directory,
+  DirectoryItem,
+  DirectoryEyebrow,
+  DirectoryLink,
+  DirectoryText,
+  DirectoryItems,
+  DirectoryLoading,
+} from '@/ui/directory';
+import {
+  FilterCount,
+  FilterItem,
+  FilterLink,
+  FilterSlash,
+  Filters,
+} from '@/ui/filters';
 import Title from '@/ui/title';
-import { getDate } from '@/utils';
 
 import { useModel } from './model';
 import styles from './stylesheet';
@@ -14,21 +28,44 @@ type Props = {
 };
 
 export default function Layout({ children }: Props) {
-  const { filters, isLoading, isOnTravels, travels } = useModel();
+  const { filters, isLoading, isOnTravels, ref, total, travels } = useModel();
 
   return (
     <>
       {isOnTravels && <Title className={styles.title}>Travels</Title>}
-      <Directory
-        align="start"
-        filters={filters}
-        isLoading={isLoading}
-        items={travels.map((travel) => ({
-          meta: [travel.type, getDate(travel.date)],
-          path: `/travels/${travel.slug}`,
-          text: travel.title,
-        }))}
-      />
+      <Directory align="start">
+        <Filters>
+          <FilterItem>
+            <FilterLink>
+              All
+              <FilterCount value={total}/>
+            </FilterLink>
+            <FilterSlash />
+          </FilterItem>
+          {filters.map((filter, index: number) => (
+            <FilterItem key={index}>
+              <FilterLink parameter={filter.filter}>
+                {filter.name}
+                <FilterCount value={filter.count}/>
+              </FilterLink>
+              {index !== filters.length - 1 && (
+                <FilterSlash />
+              )}
+            </FilterItem>
+          ))}
+        </Filters>
+        <DirectoryItems>
+          {isLoading && <DirectoryLoading />}
+          {!isLoading && travels.map((travel, index: number) => (
+            <DirectoryItem index={index} key={index}>
+              <DirectoryLink href={travel.path} ref={ref}>
+                <DirectoryEyebrow text={travel.meta} />
+                <DirectoryText index={index} text={travel.text} />
+              </DirectoryLink>
+            </DirectoryItem>
+          ))}
+        </DirectoryItems>
+      </Directory>
       {children}
     </>
   );

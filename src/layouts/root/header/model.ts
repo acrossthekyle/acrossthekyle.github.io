@@ -1,30 +1,30 @@
 'use client';
 
-import { usePathname, useRouter, useSearchParams } from 'next/navigation';
+import { useRouter } from 'next/navigation';
+
+import { useHierarchy } from '@/hooks/useHierarchy';
 
 import { routes } from './constants';
 import type { Model } from './types';
 import { getRoutePath } from './utils';
 
 export function useModel(): Model {
-  const pathname = usePathname();
   const router = useRouter();
-  const searchParams = useSearchParams();
 
-  const segments = pathname.split('').filter(character => character === '/');
-
-  const isOnRoot = pathname === '/';
-  const isOnParent = pathname !== '/' && segments.length === 1;
-  const isOnChild = segments.length === 2;
-
-  const parameters = searchParams.toString();
+  const {
+    isOnChild,
+    isOnParent,
+    isOnRoot,
+    path,
+    searchParameters,
+  } = useHierarchy();
 
   const handleOnBack = () => {
     if (isOnChild) {
-      const path = routes.find(route => pathname.includes(route.base));
+      const route = routes.find(route => path.includes(route.base));
 
-      if (path) {
-        router.push(`${path.base}${parameters ? '?' : ''}${parameters}`.trim());
+      if (route) {
+        router.push(`${route.base}${searchParameters ? '?' : ''}${searchParameters}`);
 
         return;
       }
@@ -39,13 +39,13 @@ export function useModel(): Model {
     isOnRoot,
     routes: routes.map((route) => ({
       ...route,
-      isActive: pathname.includes(route.base),
+      isActive: path.includes(route.base),
       path: getRoutePath(
         isOnRoot,
         route.base,
         route.path,
-        pathname,
-        parameters,
+        path,
+        searchParameters,
       ),
     })),
   };

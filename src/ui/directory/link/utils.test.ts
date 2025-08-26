@@ -5,7 +5,7 @@ describe('utils', () => {
     it('will return filters appended to the path', () => {
       expect(decorateLink('/', null)).toEqual('/');
       expect(decorateLink('/', '')).toEqual('/');
-      expect(decorateLink('/', 'thru-hike')).toEqual('/?filter=thru-hike');
+      expect(decorateLink('/', 'filter=thru-hike')).toEqual('/?filter=thru-hike');
     });
   });
 });
