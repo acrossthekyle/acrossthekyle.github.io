@@ -388,7 +388,6 @@ async function getStages(folder) {
         elevation,
         hasStats: !Object.values(stats).every(value => value === null),
         id: generateId(),
-        imageFilter: data.filter ?? 'none',
         images: {
           hero: data.image,
           supplementary: data.images || [],

@@ -8,7 +8,7 @@ const styles = tw({
     `;
 
     const fixed = `
-      fixed z-2
+      fixed left-0 right-0 z-2
       flex-row
       bg-black
       h-19 w-full

@@ -1,15 +1,8 @@
 import tw from '@/styles';
 
 const styles = tw({
-  image: (
-    isInView: boolean,
-    isActive: boolean,
-    isFullscreen: boolean,
-    isPlaceholder: boolean,
-    imageFilter?: string,
-  ) => {
+  image: (isInView: boolean, isActive: boolean, isPlaceholder: boolean) => {
     const common = `
-      object-cover
       w-full h-full
       transform-gpu duration-500
       rounded-lg
@@ -17,50 +10,40 @@ const styles = tw({
 
     if (isPlaceholder) {
       return tw(`
-        relative z-0
         ${common}
+
+        relative z-0
         opacity-0
       `);
     }
 
-    let filter = '';
-
-    if (imageFilter === 'none') {
-      if (isFullscreen) {
-        filter = `
-          brightness-90
-          grayscale-0
-        `;
-      } else {
-        filter = `
-          ${isInView ? `
-            brightness-90
-            grayscale-0
-          ` : `
-            brightness-40
-            grayscale-100
-          `}
-        `;
-      }
-    } else if (imageFilter === 'grayscale') {
-      filter = `
-        brightness-60
-        grayscale-100
-      `;
-    }
-
-    const gallery = `
+    return tw(`
+      ${common}
       absolute inset-0 z-2
 
       ${isActive ? 'opacity-100' : 'opacity-0'}
-    `;
 
-    return tw(`
-      ${common}
-      ${gallery}
-      ${filter}
+      ${isInView ? `
+        brightness-90
+        grayscale-0
+      ` : `
+        brightness-40
+        grayscale-100
+      `}
     `);
   },
+  maximized: (isLandscape?: boolean) => tw(`
+    ${isLandscape === true ? 'object-cover' : ''}
+    ${isLandscape === true ? 'w-full' : 'w-auto'}
+    h-full
+    transform-gpu duration-500
+    rounded-lg
+    absolute inset-auto z-2
+    opacity-100
+
+    brightness-90
+    grayscale-0
+  `),
   skeleton: `
     absolute z-5 inset-0
     bg-black
@@ -74,6 +57,25 @@ const styles = tw({
     sm:w-full
     sm:h-full
     sm:aspect-auto
+  `,
+  minimize: `
+    relative z-3
+    flex justify-center
+    w-full h-full
+  `,
+  toggle: `
+    hidden
+    absolute right-4 bottom-3.5 z-2
+    uppercase
+    font-black
+    text-white/80
+    duration-200
+
+    2ml:bottom-7.5
+    2ml:right-8
+    ml:block
+
+    hover:text-white
   `,
 });
 

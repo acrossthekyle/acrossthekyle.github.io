@@ -6,9 +6,7 @@ const styles = {
       absolute top-6
       text-xl
       font-black font-stretch-condensed
-      underline underline-offset-3
-      decoration-4 uppercase
-      duration-500
+      uppercase
     `;
 
     if (isOnRoot) {
@@ -16,9 +14,7 @@ const styles = {
         ${common}
 
         left-6
-        rotate-0
 
-        md:rotate-0
         ml:left-20
         ml:top-12
       `);
@@ -28,14 +24,11 @@ const styles = {
       return tw(`
         ${common}
 
-        left-1/2
-        -ml-1.5 -mt-0.5
-        rotate-360
+        right-6
+        left-auto
 
+        md:right-auto
         md:left-6
-        md:rotate-0
-        md:ml-0
-        md:mt-0
         ml:left-20
         ml:top-12
       `);
@@ -44,13 +37,10 @@ const styles = {
     return tw(`
       ${common}
 
-      left-full
-      -ml-10 -mt-0.5
-      rotate-720
+      right-6
+      left-auto
 
-      lg:rotate-0
-      lg:ml-0
-      lg:mt-0
+      lg:right-auto
       lg:left-6
       xl:left-20
       xl:top-12

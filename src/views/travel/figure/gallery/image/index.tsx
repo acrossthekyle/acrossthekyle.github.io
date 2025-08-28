@@ -6,9 +6,7 @@ import { useModel } from './model';
 import styles from './stylesheet';
 
 type Props = {
-  imageFilter?: string;
   isActive: boolean;
-  isFullscreen?: boolean;
   isInView?: boolean;
   isPlaceholder?: boolean;
   quality?: number;
@@ -18,9 +16,7 @@ type Props = {
 };
 
 export default function Image({
-  imageFilter,
   isActive,
-  isFullscreen = false,
   isInView = false,
   isPlaceholder = false,
   quality = 100,
@@ -33,13 +29,7 @@ export default function Image({
     <>
       <NextJsImage
         alt=""
-        className={styles.image(
-          isInView,
-          isActive,
-          isFullscreen,
-          isPlaceholder,
-          imageFilter,
-        )}
+        className={styles.image(isInView, isActive, isPlaceholder)}
         height={1080}
         onLoad={handleOnLoad}
         quality={quality}
@@ -48,7 +38,7 @@ export default function Image({
         src={src}
         width={1920}
       />
-      {isLoading && !isFullscreen && (
+      {isLoading && (
         <div
           aria-hidden="true"
           className={styles.skeleton}

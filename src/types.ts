@@ -41,7 +41,6 @@ export type Images = {
 export type Stage = {
   date: string;
   hasStats: boolean;
-  imageFilter?: string;
   images: Images;
   index: number;
   location: string | null;

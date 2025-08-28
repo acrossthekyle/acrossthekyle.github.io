@@ -15,7 +15,7 @@ type Props = {
 };
 
 export default function View({ slug }: Props) {
-  const { handleOnMaximize, handleOnViewMore, shown, travel } = useModel(slug);
+  const { handleOnViewMore, shown, travel } = useModel(slug);
 
   if (!travel) {
     return (
@@ -56,10 +56,8 @@ export default function View({ slug }: Props) {
           >
             <Figure
               label={travel.label}
-              onMaximize={handleOnMaximize}
               stage={stage}
               total={travel.stats.length.value}
-              type={travel.type}
             />
           </li>
         ))}

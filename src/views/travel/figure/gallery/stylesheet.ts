@@ -40,6 +40,26 @@ const styles = tw({
     2ml:top-6.5
     2ml:right-14
   `),
+  toggle: (isInView: boolean) => tw(`
+    hidden
+    absolute right-4 bottom-3.5 z-2
+    uppercase
+    font-black
+    text-white/80
+    duration-200
+
+    2ml:bottom-7.5
+    2ml:right-8
+    ml:block
+
+    hover:text-white
+
+    ${isInView ? `
+      opacity-100
+    ` : `
+      opacity-0
+    `}
+  `),
 });
 
 export default styles;

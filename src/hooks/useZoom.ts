@@ -7,7 +7,7 @@ import { useEvent } from './useEvent';
 
 type ZoomOptions = {
   content: ReactNode | ReactNode[];
-  ref: React.RefObject<HTMLFrameElement | null>;
+  ref: React.RefObject<HTMLImageElement | null>;
 };
 
 type Size = {

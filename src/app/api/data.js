@@ -19,8 +19,7 @@ const data = [
       {
         "date": "07.27.2024",
         "hasStats": true,
-        "id": "Ec8qrrmNuSjcGys",
-        "imageFilter": "none",
+        "id": "RDTsHQGuV8cWNh2",
         "images": {
           "hero": "2024/07/27/ac7799bd-b2a8-4f77-8a8d-6d42a8740390.jpeg",
           "supplementary": []
@@ -121,8 +120,7 @@ const data = [
       {
         "date": "07.28.2024",
         "hasStats": true,
-        "id": "1Uk7jMY6vJwi0Rj",
-        "imageFilter": "none",
+        "id": "4CMnZSDi8RK8RUV",
         "images": {
           "hero": "2024/07/27/10146a42-b18d-4318-bc5b-c32279532e4d.jpeg",
           "supplementary": []
@@ -227,8 +225,7 @@ const data = [
       {
         "date": "07.29.2024",
         "hasStats": true,
-        "id": "3UGNNPQBRCBUE8t",
-        "imageFilter": "none",
+        "id": "7BKp6NIisT7l4sp",
         "images": {
           "hero": "2024/07/27/be9a961c-fc7d-43dc-b466-29a359d1cd12.jpeg",
           "supplementary": []
@@ -335,8 +332,7 @@ const data = [
       {
         "date": "07.30.2024",
         "hasStats": true,
-        "id": "RxLrdm06O0G4vLF",
-        "imageFilter": "none",
+        "id": "XtZRtmln98oNDlo",
         "images": {
           "hero": "2024/07/27/a45073e7-ef67-4e31-a5e7-3ba9b4b97b4e.jpeg",
           "supplementary": []
@@ -441,8 +437,7 @@ const data = [
       {
         "date": "07.31.2024",
         "hasStats": true,
-        "id": "XOEkJ5xpAJ3o6CY",
-        "imageFilter": "none",
+        "id": "CsqIrFPW493CkJh",
         "images": {
           "hero": "2024/07/27/f1310350-3cb1-4f1b-b591-e08d0971f23b.jpeg",
           "supplementary": []
@@ -545,8 +540,7 @@ const data = [
       {
         "date": "08.01.2024",
         "hasStats": true,
-        "id": "HOq3zoUjkbswNef",
-        "imageFilter": "none",
+        "id": "SgnAieapptnEoXC",
         "images": {
           "hero": "2024/07/27/b70777d8-b89d-4d60-b422-2d2af80483e4.jpeg",
           "supplementary": []
@@ -649,8 +643,7 @@ const data = [
       {
         "date": "08.02.2024",
         "hasStats": true,
-        "id": "phPsAZlFqWg4wb1",
-        "imageFilter": "none",
+        "id": "1qnFm3ym4F9BvhK",
         "images": {
           "hero": "2024/07/27/22400157-4853-4974-856b-86b1bc986ef9.jpeg",
           "supplementary": []
@@ -753,8 +746,7 @@ const data = [
       {
         "date": "08.03.2024",
         "hasStats": true,
-        "id": "EguwYLRFpxQQ5i8",
-        "imageFilter": "none",
+        "id": "kfq3PqqiOBgxWBn",
         "images": {
           "hero": "2024/07/27/99d87d66-9534-4aca-9489-eb2fbbdc152b.jpeg",
           "supplementary": []
@@ -857,8 +849,7 @@ const data = [
       {
         "date": "08.04.2024",
         "hasStats": true,
-        "id": "OOB5YRhYaLzKm55",
-        "imageFilter": "none",
+        "id": "GlwIPFGQHoEqTtv",
         "images": {
           "hero": "2024/07/27/91e2be29-62d0-4be0-a00a-9ebd9d9dc395.jpeg",
           "supplementary": []
@@ -961,8 +952,7 @@ const data = [
       {
         "date": "08.05.2024",
         "hasStats": true,
-        "id": "Xddzo1eWYbPq6DU",
-        "imageFilter": "none",
+        "id": "gDXOBXjcxat0DSH",
         "images": {
           "hero": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg",
           "supplementary": []
@@ -1065,8 +1055,7 @@ const data = [
       {
         "date": "08.06.2024",
         "hasStats": true,
-        "id": "CmXKmOytlZIJ6SD",
-        "imageFilter": "none",
+        "id": "hejHUAEFkT3HbFW",
         "images": {
           "hero": "2024/07/27/480c5394-dfa7-4760-8f62-5a39cb66cb98.jpeg",
           "supplementary": []
@@ -1200,8 +1189,7 @@ const data = [
       {
         "date": "06.21.2023",
         "hasStats": true,
-        "id": "tcTgYmOeQ7oH1Lr",
-        "imageFilter": "none",
+        "id": "ZqWRZaQMhHrKFsZ",
         "images": {
           "hero": "2023/06/21/f1d1c83f-941d-4351-aa5e-08d698b78775.jpeg",
           "supplementary": []
@@ -1302,8 +1290,7 @@ const data = [
       {
         "date": "06.22.2023",
         "hasStats": true,
-        "id": "5wbH0s5uz5JZCJR",
-        "imageFilter": "none",
+        "id": "EedwaVXzjkuUQ7j",
         "images": {
           "hero": "2023/06/21/e2d0721f-2c3f-4367-8f7b-1176c94b3e2c.jpeg",
           "supplementary": []
@@ -1404,8 +1391,7 @@ const data = [
       {
         "date": "06.23.2023",
         "hasStats": true,
-        "id": "AHxV8iK5nqaah4W",
-        "imageFilter": "none",
+        "id": "zdXwGK0HsOnxgKp",
         "images": {
           "hero": "2023/06/21/4b13a3d8-a55c-4bed-b887-ad3490ab964f.jpeg",
           "supplementary": []
@@ -1504,8 +1490,7 @@ const data = [
       {
         "date": "06.24.2023",
         "hasStats": true,
-        "id": "BLR9GSfcBVQI5BS",
-        "imageFilter": "none",
+        "id": "3BCAlJeNurCyPJE",
         "images": {
           "hero": "2023/06/21/8f85de22-b937-4ea5-9dfa-e45eb357e7b8.jpeg",
           "supplementary": []
@@ -1605,8 +1590,7 @@ const data = [
       {
         "date": "06.25.2023",
         "hasStats": true,
-        "id": "clJMdhQkfXmWCJW",
-        "imageFilter": "none",
+        "id": "ZxQaMUz3AwnmhIS",
         "images": {
           "hero": "2023/06/21/f0dc6ac2-b0e5-4e2a-b874-0d40f47c454b.jpeg",
           "supplementary": []
@@ -1707,8 +1691,7 @@ const data = [
       {
         "date": "06.26.2023",
         "hasStats": true,
-        "id": "sUoDxKVe1aKexrs",
-        "imageFilter": "none",
+        "id": "SpsUtgqbWcGn7jz",
         "images": {
           "hero": "2023/06/21/95b4adaa-bbbe-4de3-b9f8-96365390f142.jpeg",
           "supplementary": []
@@ -1809,8 +1792,7 @@ const data = [
       {
         "date": "06.27.2023",
         "hasStats": true,
-        "id": "PcYrziy4yV97QNF",
-        "imageFilter": "none",
+        "id": "a183s4S33osxvBp",
         "images": {
           "hero": "2023/06/21/05769f04-5b00-4fd5-a233-55c00c9871c5.jpeg",
           "supplementary": []
@@ -1909,8 +1891,7 @@ const data = [
       {
         "date": "06.28.2023",
         "hasStats": true,
-        "id": "jKDzPqVGBVGWnAe",
-        "imageFilter": "none",
+        "id": "rtwE3uVmBxBZJlq",
         "images": {
           "hero": "2023/06/21/4e7bda74-809e-48a9-a904-5645bf2e7dde.jpeg",
           "supplementary": []
@@ -2009,8 +1990,7 @@ const data = [
       {
         "date": "06.29.2023",
         "hasStats": true,
-        "id": "2FeJcwgOmEhREJn",
-        "imageFilter": "none",
+        "id": "RNm2E4Xzfaufbt3",
         "images": {
           "hero": "2023/06/21/2cc8532b-6441-49fb-927e-ebdb001b78cf.jpeg",
           "supplementary": []
@@ -2109,8 +2089,7 @@ const data = [
       {
         "date": "06.30.2023",
         "hasStats": true,
-        "id": "TgzjTlGZiPWxwWZ",
-        "imageFilter": "none",
+        "id": "HcHjxSahvVeLrCT",
         "images": {
           "hero": "2023/06/21/54334c14-8bae-4478-97f7-179f79cd2ca6.jpeg",
           "supplementary": []
@@ -2211,8 +2190,7 @@ const data = [
       {
         "date": "07.01.2023",
         "hasStats": true,
-        "id": "yOjqChYMVl6vmXF",
-        "imageFilter": "none",
+        "id": "FdMwVfqnS6Fcprb",
         "images": {
           "hero": "2023/06/21/73a5df9e-fefd-43d0-ad5a-7f71dcb003cc.jpeg",
           "supplementary": []
@@ -2313,8 +2291,7 @@ const data = [
       {
         "date": "07.02.2023",
         "hasStats": true,
-        "id": "L44gUrsiohqTkKL",
-        "imageFilter": "none",
+        "id": "Tshrfa0PlaPVuhX",
         "images": {
           "hero": "2023/06/21/d36a683f-4d95-4b0c-987d-d190336c49ee.jpeg",
           "supplementary": []
@@ -2413,8 +2390,7 @@ const data = [
       {
         "date": "07.03.2023",
         "hasStats": true,
-        "id": "Z6YdeKsAbCdo7CG",
-        "imageFilter": "none",
+        "id": "vMOoR6wqdtyjlO8",
         "images": {
           "hero": "2023/06/21/f0cd0897-3fc9-47a2-808e-e1627dfb45bc.jpeg",
           "supplementary": []
@@ -2543,8 +2519,7 @@ const data = [
       {
         "date": "12.29.2022",
         "hasStats": false,
-        "id": "1UBpqc4p616gM3K",
-        "imageFilter": "none",
+        "id": "SgXdhV480erXimN",
         "images": {
           "hero": "2022/12/28/c0f9c079-8942-4390-bb9e-dae4e0a65034.jpeg",
           "supplementary": [
@@ -2580,8 +2555,7 @@ const data = [
       {
         "date": "12.30.2022",
         "hasStats": false,
-        "id": "vGW5oC83XqNoNKk",
-        "imageFilter": "none",
+        "id": "2zWqR0ZHcV2CgpP",
         "images": {
           "hero": "2022/12/28/d9a7b01b-5915-493c-8c25-5a8ebd77ac58.jpeg",
           "supplementary": [
@@ -2620,8 +2594,7 @@ const data = [
       {
         "date": "01.01.2023",
         "hasStats": false,
-        "id": "54ZGg3Y8xrQv8BG",
-        "imageFilter": "none",
+        "id": "uLMHlRk3bRqD1wa",
         "images": {
           "hero": "2022/12/28/f24edc7b-3854-40c5-a2e7-33e2e2e27bde.jpeg",
           "supplementary": []
@@ -2654,8 +2627,7 @@ const data = [
       {
         "date": "01.03.2023",
         "hasStats": false,
-        "id": "0PzzQKoRN96TPFg",
-        "imageFilter": "none",
+        "id": "Kz01FgpWZA9RJ86",
         "images": {
           "hero": "2022/12/28/5e393275-ee80-475d-83cf-26192cd55738.jpeg",
           "supplementary": []
@@ -2688,8 +2660,7 @@ const data = [
       {
         "date": "01.03.2023",
         "hasStats": false,
-        "id": "CmihADc8uUV4LMi",
-        "imageFilter": "none",
+        "id": "sFMTPyEdPFLhajO",
         "images": {
           "hero": "2022/12/28/5f93fbaf-0c30-4f70-959d-a5e4384eff83.jpeg",
           "supplementary": [
@@ -2725,8 +2696,7 @@ const data = [
       {
         "date": "01.03.2023",
         "hasStats": false,
-        "id": "xXuuEreW5JQqXyX",
-        "imageFilter": "none",
+        "id": "hH2bxJjgUFTaUSH",
         "images": {
           "hero": "2022/12/28/9fb7c062-5816-4154-b8cd-525a81f82be0.jpeg",
           "supplementary": [
@@ -2762,8 +2732,7 @@ const data = [
       {
         "date": "01.03.2023",
         "hasStats": false,
-        "id": "iLOfyJ4KGoKjljf",
-        "imageFilter": "none",
+        "id": "ZYy8hZHep2ITt7u",
         "images": {
           "hero": "2022/12/28/44f2c787-1209-4e11-a2fe-64030e0c472c.jpeg",
           "supplementary": [
@@ -2799,8 +2768,7 @@ const data = [
       {
         "date": "01.03.2023",
         "hasStats": false,
-        "id": "X856SgupjWoAQck",
-        "imageFilter": "none",
+        "id": "3B9AFN8NRGoC49W",
         "images": {
           "hero": "2022/12/28/b7e2eeb1-90d3-49cb-bdb8-41acf2162f78.jpeg",
           "supplementary": [
@@ -2839,8 +2807,7 @@ const data = [
       {
         "date": "01.04.2023",
         "hasStats": false,
-        "id": "s9DwDEU4OFBbJdG",
-        "imageFilter": "none",
+        "id": "PyqDABUSWvq8MGO",
         "images": {
           "hero": "2022/12/28/b13b3a23-187a-4dc4-912d-e225b21af78a.jpeg",
           "supplementary": [
@@ -2879,8 +2846,7 @@ const data = [
       {
         "date": "01.04.2023",
         "hasStats": false,
-        "id": "w8rXAHNWNZtBgbi",
-        "imageFilter": "none",
+        "id": "1bzY5ZLYb8KL90e",
         "images": {
           "hero": "2022/12/28/9799718c-81f7-460d-9f0a-7ddd2dffb060.jpeg",
           "supplementary": [
@@ -2916,8 +2882,7 @@ const data = [
       {
         "date": "01.04.2023",
         "hasStats": false,
-        "id": "K9ODb6A8Fv3Hhmd",
-        "imageFilter": "none",
+        "id": "ghTA43epXiL5YDp",
         "images": {
           "hero": "2022/12/28/6bf7f094-4f84-42b6-8bbc-5b501a25f3e7.jpeg",
           "supplementary": [
@@ -2988,8 +2953,7 @@ const data = [
       {
         "date": "07.15.2022",
         "hasStats": true,
-        "id": "3Z7CqqCxCKiZucK",
-        "imageFilter": "none",
+        "id": "Gl4VONfJN1fVVhR",
         "images": {
           "hero": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",
           "supplementary": []
@@ -3096,8 +3060,7 @@ const data = [
       {
         "date": "05.03.2025",
         "hasStats": true,
-        "id": "8AjgLnMylQMRi3j",
-        "imageFilter": "none",
+        "id": "becr09xYQTpDUWY",
         "images": {
           "hero": "2025/05/03/e402c0b1-e827-4123-b7b5-74947b240687.jpeg",
           "supplementary": []
@@ -3198,8 +3161,7 @@ const data = [
       {
         "date": "05.04.2025",
         "hasStats": true,
-        "id": "Ds94l6DMjYv0hWr",
-        "imageFilter": "none",
+        "id": "YIssW1pbczU5JTr",
         "images": {
           "hero": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
           "supplementary": []
@@ -3332,8 +3294,7 @@ const data = [
       {
         "date": "05.07.2022",
         "hasStats": true,
-        "id": "kCZeKDIr184dXQT",
-        "imageFilter": "none",
+        "id": "c02JrjnHW8Cug6x",
         "images": {
           "hero": "2022/05/07/75a8c027-07cd-4184-9157-d48dd5d1a32e.jpeg",
           "supplementary": []
@@ -3432,8 +3393,7 @@ const data = [
       {
         "date": "05.08.2022",
         "hasStats": true,
-        "id": "FVODKWz0DTfds2T",
-        "imageFilter": "none",
+        "id": "PpQ8fto0N4QhDq4",
         "images": {
           "hero": "2022/05/07/e8dd9fed-56e4-45bf-aee4-d1bc44a5363c.jpeg",
           "supplementary": []
@@ -3532,8 +3492,7 @@ const data = [
       {
         "date": "05.09.2022",
         "hasStats": true,
-        "id": "k1gDUCJtnZOZIWT",
-        "imageFilter": "none",
+        "id": "tppEDdfvg7JRb76",
         "images": {
           "hero": "2022/05/07/e610c340-2b8c-481c-8442-dc4543db3f2c.jpeg",
           "supplementary": []
@@ -3634,8 +3593,7 @@ const data = [
       {
         "date": "05.10.2022",
         "hasStats": true,
-        "id": "c3GTL36ok5z192D",
-        "imageFilter": "none",
+        "id": "b2iiONfM09LnfcD",
         "images": {
           "hero": "2022/05/07/b7df127a-0f69-4b29-843f-e1a7c6f858bf.jpeg",
           "supplementary": []
@@ -3738,8 +3696,7 @@ const data = [
       {
         "date": "05.11.2022",
         "hasStats": true,
-        "id": "AUjP1NltS3yi3Bp",
-        "imageFilter": "none",
+        "id": "wtKA5TvUNJREKBO",
         "images": {
           "hero": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
           "supplementary": []
@@ -3841,8 +3798,7 @@ const data = [
       {
         "date": "05.12.2022",
         "hasStats": true,
-        "id": "jDbJnSh7ozGeLe5",
-        "imageFilter": "none",
+        "id": "F0E4tc0oOFZWmtC",
         "images": {
           "hero": "2022/05/07/07741eea-d85e-42cf-a2d4-d0f87102bffc.jpeg",
           "supplementary": []
@@ -3974,8 +3930,7 @@ const data = [
       {
         "date": "03.23.2022",
         "hasStats": false,
-        "id": "ywRLhOw83h6Qdbo",
-        "imageFilter": "none",
+        "id": "6S9ax7T4GiaKFjn",
         "images": {
           "hero": "2022/03/23/bd07b1b4-bc19-45fc-b47a-1a4011585b68.jpeg",
           "supplementary": [
@@ -4008,8 +3963,7 @@ const data = [
       {
         "date": "03.24.2022",
         "hasStats": false,
-        "id": "XsAZUswdDs9oMjs",
-        "imageFilter": "none",
+        "id": "Rzw2FMPkxlcbzVw",
         "images": {
           "hero": "2022/03/23/1ba3d3f7-9462-4375-9770-4efedf15f582.jpeg",
           "supplementary": []
@@ -4042,8 +3996,7 @@ const data = [
       {
         "date": "03.25.2022",
         "hasStats": false,
-        "id": "OzrLNG3CDepjIPz",
-        "imageFilter": "none",
+        "id": "lpdrivwVZ2PeyKP",
         "images": {
           "hero": "2022/03/23/d6631709-51a8-43d4-8eb1-12ea7c9df08d.jpeg",
           "supplementary": []
@@ -4108,8 +4061,7 @@ const data = [
       {
         "date": "03.29.2021",
         "hasStats": false,
-        "id": "5buzGnliMV9giHC",
-        "imageFilter": "none",
+        "id": "BSPLVD9Hiak0HiO",
         "images": {
           "hero": "2021/03/29/995ec1e3-1273-41dc-bf5e-a731062d3fd4.jpeg",
           "supplementary": [
@@ -4144,8 +4096,7 @@ const data = [
       {
         "date": "03.30.2021",
         "hasStats": false,
-        "id": "e2SwD1md8rk1sj1",
-        "imageFilter": "none",
+        "id": "jbkyObqrUS5M3rY",
         "images": {
           "hero": "2021/03/29/71154815-22c2-490f-9f8c-37201ee4fbd9.jpeg",
           "supplementary": [
@@ -4209,8 +4160,7 @@ const data = [
       {
         "date": "02.18.2020",
         "hasStats": true,
-        "id": "9tR0gRKB7mjWTTn",
-        "imageFilter": "none",
+        "id": "dCym4lzOmzb874L",
         "images": {
           "hero": "2020/02/18/619eec82-6980-4f31-a11f-7c5581d02989.jpeg",
           "supplementary": []
@@ -4311,8 +4261,7 @@ const data = [
       {
         "date": "02.19.2020",
         "hasStats": true,
-        "id": "z0wwOzA5Fisnu3D",
-        "imageFilter": "none",
+        "id": "yVk2fOYpdV4y6UJ",
         "images": {
           "hero": "2020/02/18/98e3190e-5480-4eb9-8883-c8d9fbb3f485.jpeg",
           "supplementary": []
@@ -4411,8 +4360,7 @@ const data = [
       {
         "date": "02.20.2020",
         "hasStats": true,
-        "id": "PKsqFnHIPs1HWri",
-        "imageFilter": "none",
+        "id": "oPXnQsMyRoLTtjp",
         "images": {
           "hero": "2020/02/18/f477b7bb-7f38-42ff-a855-f90668a73f28.jpeg",
           "supplementary": []
@@ -4511,8 +4459,7 @@ const data = [
       {
         "date": "02.21.2020",
         "hasStats": true,
-        "id": "S4dKyk5KzozmkiG",
-        "imageFilter": "none",
+        "id": "7JcjSzZ8UFWAtkA",
         "images": {
           "hero": "2020/02/18/38a1b675-74c7-45b5-9e37-8020d298a0b3.jpeg",
           "supplementary": []
@@ -4611,8 +4558,7 @@ const data = [
       {
         "date": "02.22.2020",
         "hasStats": true,
-        "id": "frrF3d5AzQ7Yd8q",
-        "imageFilter": "none",
+        "id": "l3d9eg7bbPndbOE",
         "images": {
           "hero": "2020/02/18/dd6e739e-b793-4c64-8e7c-c6a631b467c7.jpeg",
           "supplementary": []
@@ -4713,8 +4659,7 @@ const data = [
       {
         "date": "02.23.2020",
         "hasStats": true,
-        "id": "anIoD4LuvqsBdLh",
-        "imageFilter": "none",
+        "id": "mNzhY6bhR2I2ETz",
         "images": {
           "hero": "2020/02/18/380820b8-520a-49fa-8f01-651ca63fd84f.jpeg",
           "supplementary": []
@@ -4815,8 +4760,7 @@ const data = [
       {
         "date": "02.24.2020",
         "hasStats": true,
-        "id": "S8qJs2nfUuNaM3K",
-        "imageFilter": "none",
+        "id": "d84CTi8wc6nepRh",
         "images": {
           "hero": "2020/02/18/790032e0-6483-4631-9cbe-d912510a1a48.jpeg",
           "supplementary": []
@@ -4915,8 +4859,7 @@ const data = [
       {
         "date": "02.25.2020",
         "hasStats": true,
-        "id": "UIj0nTYUrIfluYf",
-        "imageFilter": "none",
+        "id": "PbmZymgL1u5rWxV",
         "images": {
           "hero": "2020/02/18/630411a8-f5ce-47fe-8261-f94e00654447.jpeg",
           "supplementary": []
@@ -5050,8 +4993,7 @@ const data = [
       {
         "date": "10.19.2019",
         "hasStats": true,
-        "id": "ALAyv8ElNsFk4m6",
-        "imageFilter": "none",
+        "id": "NAUC35txO5aIhRa",
         "images": {
           "hero": "2019/10/19/672dcde8-57ae-4bf9-885f-ae039d3a824d.jpeg",
           "supplementary": []
@@ -5150,8 +5092,7 @@ const data = [
       {
         "date": "10.20.2019",
         "hasStats": true,
-        "id": "fC8w7BAp0ZgJkJh",
-        "imageFilter": "none",
+        "id": "EVuz2PnS22U5qZM",
         "images": {
           "hero": "2019/10/19/cde86c7c-f794-4a99-8286-9af3de9425fc.jpeg",
           "supplementary": []
@@ -5250,8 +5191,7 @@ const data = [
       {
         "date": "10.21.2019",
         "hasStats": true,
-        "id": "eWuh9WTJoWvBdjR",
-        "imageFilter": "none",
+        "id": "XRclR9XT4AOZdyi",
         "images": {
           "hero": "2019/10/19/69d8dc52-42d4-4295-9b25-1f7542c1da8b.jpeg",
           "supplementary": []
@@ -5350,8 +5290,7 @@ const data = [
       {
         "date": "10.22.2019",
         "hasStats": true,
-        "id": "3Gs6znoTjNNxF1S",
-        "imageFilter": "none",
+        "id": "ABQKAJW9obtOfEy",
         "images": {
           "hero": "2019/10/19/de48b8b7-ef5d-4c21-93a8-d6e4d7628e7f.jpeg",
           "supplementary": []
@@ -5450,8 +5389,7 @@ const data = [
       {
         "date": "10.23.2019",
         "hasStats": true,
-        "id": "kbGucZKhUOhzBHs",
-        "imageFilter": "none",
+        "id": "C8WsQFPAsjMl2y0",
         "images": {
           "hero": "2019/10/19/91fcb255-9894-434c-9c39-41ea5070e819.jpeg",
           "supplementary": []
@@ -5552,8 +5490,7 @@ const data = [
       {
         "date": "10.24.2019",
         "hasStats": true,
-        "id": "vTruBcs7XPPZfrg",
-        "imageFilter": "none",
+        "id": "XdrsSbh1YWDVcem",
         "images": {
           "hero": "2019/10/19/b9b20eb0-e569-4778-99c6-de3a3c2eb15e.jpeg",
           "supplementary": []
@@ -5654,8 +5591,7 @@ const data = [
       {
         "date": "10.25.2019",
         "hasStats": true,
-        "id": "qRAYvSpH0mmqBIc",
-        "imageFilter": "none",
+        "id": "tSbqeTXobUvv4K3",
         "images": {
           "hero": "2019/10/19/ed197052-01d7-4739-807c-39340385c0fc.jpeg",
           "supplementary": []
@@ -5758,8 +5694,7 @@ const data = [
       {
         "date": "10.26.2019",
         "hasStats": true,
-        "id": "vl42RrdVI2jdgHw",
-        "imageFilter": "none",
+        "id": "BYW9LI9V8SiQLNV",
         "images": {
           "hero": "2019/10/19/d7837a44-81d2-4fa0-9912-bb15508be721.jpeg",
           "supplementary": []
@@ -5864,8 +5799,7 @@ const data = [
       {
         "date": "10.27.2019",
         "hasStats": true,
-        "id": "vAEeAF3fBj2rXKx",
-        "imageFilter": "none",
+        "id": "F1AT8GHliz7ok96",
         "images": {
           "hero": "2019/10/19/40b7a029-2f0c-4807-94fa-86a07ee9ffa9.jpeg",
           "supplementary": []
@@ -5966,8 +5900,7 @@ const data = [
       {
         "date": "10.28.2019",
         "hasStats": true,
-        "id": "ElyAdIfwrMZUfzP",
-        "imageFilter": "none",
+        "id": "mSCAoTTQGgwTfaO",
         "images": {
           "hero": "2019/10/19/f76cbaab-0139-44b4-bc5c-6c816731d927.jpeg",
           "supplementary": []
@@ -6066,8 +5999,7 @@ const data = [
       {
         "date": "10.29.2019",
         "hasStats": true,
-        "id": "18kN9vjw1Wb8q1E",
-        "imageFilter": "none",
+        "id": "uJzP3d2YzYbHQ5g",
         "images": {
           "hero": "2019/10/19/93b7286f-a87a-4d8e-8d85-6a3f50dcd82c.jpeg",
           "supplementary": []
@@ -6166,8 +6098,7 @@ const data = [
       {
         "date": "10.30.2019",
         "hasStats": true,
-        "id": "NiZDJub51rRKrQJ",
-        "imageFilter": "none",
+        "id": "UK0MVGsYyl6fw1m",
         "images": {
           "hero": "2019/10/19/9f9bca6e-e30a-4ca0-b005-5a0bda57f649.jpeg",
           "supplementary": []
@@ -6266,8 +6197,7 @@ const data = [
       {
         "date": "10.31.2019",
         "hasStats": true,
-        "id": "MVS4MxVzsBODdh0",
-        "imageFilter": "none",
+        "id": "1rarr6mJCVQRvXJ",
         "images": {
           "hero": "2019/10/19/5cf22091-8d99-4cdd-870c-f91db81c1049.jpeg",
           "supplementary": []
@@ -6366,8 +6296,7 @@ const data = [
       {
         "date": "11.01.2019",
         "hasStats": true,
-        "id": "yUs7JMkWg8ZfuE5",
-        "imageFilter": "none",
+        "id": "1vZbQN5xeLUMpQu",
         "images": {
           "hero": "2019/10/19/b2ef8848-2e35-43dd-9f06-98434903f810.jpeg",
           "supplementary": []
@@ -6466,8 +6395,7 @@ const data = [
       {
         "date": "11.02.2019",
         "hasStats": true,
-        "id": "QxpDiBNi1s8AEbC",
-        "imageFilter": "none",
+        "id": "T9LEIQiNTkBCMdw",
         "images": {
           "hero": "2019/10/19/a052d193-0be9-4288-b017-65d459c3eca1.jpeg",
           "supplementary": []
@@ -6566,8 +6494,7 @@ const data = [
       {
         "date": "11.03.2019",
         "hasStats": true,
-        "id": "tGhSggLrCCKrsLh",
-        "imageFilter": "none",
+        "id": "hrkbQFY4MIK9BkZ",
         "images": {
           "hero": "2019/10/19/3773c3c4-265f-4e7e-8f0a-d6e1a7d9b85c.jpeg",
           "supplementary": []
@@ -6668,8 +6595,7 @@ const data = [
       {
         "date": "11.04.2019",
         "hasStats": true,
-        "id": "aeM14ygMyYbUwxn",
-        "imageFilter": "none",
+        "id": "AMlOrUdMQ66U0Ig",
         "images": {
           "hero": "2019/10/19/490d1db6-aaad-4ed3-9181-081ca318cd16.jpeg",
           "supplementary": []
@@ -6770,8 +6696,7 @@ const data = [
       {
         "date": "11.05.2019",
         "hasStats": true,
-        "id": "JPlxcoQGg5Ddfds",
-        "imageFilter": "none",
+        "id": "p5esVItDpDbaUDr",
         "images": {
           "hero": "2019/10/19/8fef1e6f-d483-445c-b19c-d47bb7f1fc68.jpeg",
           "supplementary": []
@@ -6903,8 +6828,7 @@ const data = [
       {
         "date": "08.31.2019",
         "hasStats": true,
-        "id": "xA2YBtGrfAdyjZK",
-        "imageFilter": "none",
+        "id": "aTBRnL9CbavSRiL",
         "images": {
           "hero": "2019/08/31/52f1514b-91a4-494d-93df-6ae9c81df01c.jpeg",
           "supplementary": []
@@ -7005,8 +6929,7 @@ const data = [
       {
         "date": "09.01.2019",
         "hasStats": true,
-        "id": "K3BB4WYeQGvw0Ze",
-        "imageFilter": "none",
+        "id": "5z9Jjg9ImLL4SUk",
         "images": {
           "hero": "2019/09/01/08d28c7e-387b-418f-8226-b2a87485f1d8.jpeg",
           "supplementary": []
@@ -7107,8 +7030,7 @@ const data = [
       {
         "date": "09.04.2020",
         "hasStats": true,
-        "id": "lEMiFVl6fbVdR9U",
-        "imageFilter": "none",
+        "id": "y46fpq6mvyb6Q2f",
         "images": {
           "hero": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
           "supplementary": []
@@ -7209,8 +7131,7 @@ const data = [
       {
         "date": "09.05.2020",
         "hasStats": true,
-        "id": "LnlAPZc1OwC1MRk",
-        "imageFilter": "none",
+        "id": "gDLSTrF2TK290Zb",
         "images": {
           "hero": "2020/09/05/54a89ed8-86d4-4918-b7b3-b883ecea72c8.jpeg",
           "supplementary": []
@@ -7311,8 +7232,7 @@ const data = [
       {
         "date": "09.06.2020",
         "hasStats": true,
-        "id": "ENxxH9VDoSfXUFj",
-        "imageFilter": "none",
+        "id": "tNVcYLX3iTA3X5P",
         "images": {
           "hero": "2020/09/06/80307849-8964-4e0d-a70f-f6371ca7fcad.jpeg",
           "supplementary": []
@@ -7410,8 +7330,7 @@ const data = [
       {
         "date": "09.07.2021",
         "hasStats": true,
-        "id": "OOAYRvxO3p1gope",
-        "imageFilter": "none",
+        "id": "vXf8fDQkdVITYTS",
         "images": {
           "hero": "2021/09/07/fbe767d5-63c6-4af7-8643-ceef9b4cce92.jpeg",
           "supplementary": []
@@ -7512,8 +7431,7 @@ const data = [
       {
         "date": "09.09.2021",
         "hasStats": true,
-        "id": "aDVhJ81NxUohkHC",
-        "imageFilter": "none",
+        "id": "CTTSHMUWilUeAK2",
         "images": {
           "hero": "2021/09/09/8e1e0c1f-c391-4bc0-807c-7bdd8d20815b.jpeg",
           "supplementary": []
@@ -7614,8 +7532,7 @@ const data = [
       {
         "date": "09.09.2022",
         "hasStats": true,
-        "id": "ea5l8utHEdDyaav",
-        "imageFilter": "none",
+        "id": "I8wGGc49Uebsc7H",
         "images": {
           "hero": "2022/09/09/f722df6c-2869-4ff0-80f7-37014241e135.jpeg",
           "supplementary": []
@@ -7716,8 +7633,7 @@ const data = [
       {
         "date": "09.11.2022",
         "hasStats": true,
-        "id": "CRurd6awiBwGiG7",
-        "imageFilter": "none",
+        "id": "4OWC2jYSb7fP1KF",
         "images": {
           "hero": "2022/09/11/b74f68ae-d627-4a89-9122-fbc75562e59d.jpeg",
           "supplementary": []
@@ -7851,8 +7767,7 @@ const data = [
       {
         "date": "07.16.2019",
         "hasStats": true,
-        "id": "E0Z3IFvTDQbbJXy",
-        "imageFilter": "none",
+        "id": "575dYGTEpo1N0uk",
         "images": {
           "hero": "2019/07/16/eba70b28-4c7d-45f3-aa93-46b24011cb80.jpeg",
           "supplementary": []
@@ -7951,8 +7866,7 @@ const data = [
       {
         "date": "07.17.2019",
         "hasStats": true,
-        "id": "js2RrOVQ4aC9Bax",
-        "imageFilter": "none",
+        "id": "DwXBOWZd6LcZ3Zv",
         "images": {
           "hero": "2019/07/16/69890344-e575-484e-86ae-5ddeb000c4f9.jpeg",
           "supplementary": []
@@ -8051,8 +7965,7 @@ const data = [
       {
         "date": "07.18.2019",
         "hasStats": true,
-        "id": "qvT7CmFmj46ZCmR",
-        "imageFilter": "none",
+        "id": "PzBU6HtGz6vNmv2",
         "images": {
           "hero": "2019/07/16/081c1b83-7036-4c3c-aa2f-0534f4250ab8.jpeg",
           "supplementary": []
@@ -8151,8 +8064,7 @@ const data = [
       {
         "date": "07.19.2019",
         "hasStats": true,
-        "id": "b8hvDAXINQiVEtR",
-        "imageFilter": "none",
+        "id": "nmeOgKWP6H6DU18",
         "images": {
           "hero": "2019/07/16/eb243b48-8084-4c7e-94c0-5a163983d407.jpeg",
           "supplementary": []
@@ -8251,8 +8163,7 @@ const data = [
       {
         "date": "07.20.2019",
         "hasStats": true,
-        "id": "iDeiqIcBIvULXZi",
-        "imageFilter": "none",
+        "id": "8HHA5eM50tjRtW3",
         "images": {
           "hero": "2019/07/16/a3f65b8c-4b57-4194-a3a1-5769f1d63373.jpeg",
           "supplementary": []
@@ -8353,8 +8264,7 @@ const data = [
       {
         "date": "07.21.2019",
         "hasStats": true,
-        "id": "8v8HqyI2k3uC8Mk",
-        "imageFilter": "none",
+        "id": "3QZEX5ulhpAZQqC",
         "images": {
           "hero": "2019/07/16/b1128805-54bb-4b7b-adcb-f2b6ae3fada6.jpeg",
           "supplementary": []
@@ -8455,8 +8365,7 @@ const data = [
       {
         "date": "07.22.2019",
         "hasStats": true,
-        "id": "i1zHuW0oDhq4mJ0",
-        "imageFilter": "none",
+        "id": "XzKwt9S559HieKk",
         "images": {
           "hero": "2019/07/16/a46e829f-147b-40d1-b7ae-2f743923feca.jpeg",
           "supplementary": []
@@ -8555,8 +8464,7 @@ const data = [
       {
         "date": "07.23.2019",
         "hasStats": true,
-        "id": "yJi34uxbT8Sgorj",
-        "imageFilter": "none",
+        "id": "3ClzfYVLwC8Tja2",
         "images": {
           "hero": "2019/07/16/21806386-052d-4a82-941e-6728771acd63.jpeg",
           "supplementary": []
@@ -8656,8 +8564,7 @@ const data = [
       {
         "date": "07.24.2019",
         "hasStats": true,
-        "id": "TAOYsGAhYL2pdbh",
-        "imageFilter": "none",
+        "id": "37e1GdwXcn0eHvc",
         "images": {
           "hero": "2019/07/16/2982a2fe-75f6-473a-8d98-2c664c5cd38e.jpeg",
           "supplementary": []
@@ -8758,8 +8665,7 @@ const data = [
       {
         "date": "07.25.2019",
         "hasStats": true,
-        "id": "t6ugHuVSRFKaloh",
-        "imageFilter": "none",
+        "id": "8X9z9twucFyDH8I",
         "images": {
           "hero": "2019/07/16/735a0783-62ba-4f8e-97d8-c9b9f5327cfe.jpeg",
           "supplementary": []
@@ -8889,8 +8795,7 @@ const data = [
       {
         "date": "11.06.2019",
         "hasStats": false,
-        "id": "Xg0sszPIxp90MLF",
-        "imageFilter": "none",
+        "id": "BOh5HnqibIQ3fR9",
         "images": {
           "hero": "2019/11/06/5c63aeb6-aaf3-4874-b785-7c7b3feaa261.jpeg",
           "supplementary": [
@@ -8923,8 +8828,7 @@ const data = [
       {
         "date": "11.07.2019",
         "hasStats": false,
-        "id": "8eCMZr65hRvIwX0",
-        "imageFilter": "none",
+        "id": "c63P6vpzeEZCykI",
         "images": {
           "hero": "2019/11/06/e0a5e830-9489-43e4-8b95-e20808744b9d.jpeg",
           "supplementary": [
@@ -8959,8 +8863,7 @@ const data = [
       {
         "date": "11.08.2019",
         "hasStats": false,
-        "id": "UG3MIT0zGeeBYYa",
-        "imageFilter": "none",
+        "id": "45SghqAh2Y49UWP",
         "images": {
           "hero": "2019/11/06/588fe58c-d0ca-4d04-b8c9-c7e269b32c83.jpeg",
           "supplementary": []
@@ -9021,8 +8924,7 @@ const data = [
       {
         "date": "09.02.2018",
         "hasStats": true,
-        "id": "FbSahCfoIpKxSAe",
-        "imageFilter": "none",
+        "id": "8PXpNJKhefO7Xgg",
         "images": {
           "hero": "2018/09/02/135eea74-e1bc-4cab-bfd7-28d17405a744.jpeg",
           "supplementary": []
@@ -9123,8 +9025,7 @@ const data = [
       {
         "date": "09.03.2018",
         "hasStats": true,
-        "id": "MMjNGO7hzkHv5Pj",
-        "imageFilter": "none",
+        "id": "BPu6A3gYeSyz4vD",
         "images": {
           "hero": "2018/09/02/56d3cc07-47c1-40c8-b7ee-483aa01d777c.jpeg",
           "supplementary": []
@@ -9229,8 +9130,7 @@ const data = [
       {
         "date": "09.04.2018",
         "hasStats": true,
-        "id": "nyM3Hrxqu7P3Unn",
-        "imageFilter": "none",
+        "id": "kYD1oWI0i6iDkgY",
         "images": {
           "hero": "2018/09/02/0420d236-d12a-40e8-8d6c-90558e26d304.jpeg",
           "supplementary": []
@@ -9337,8 +9237,7 @@ const data = [
       {
         "date": "09.05.2018",
         "hasStats": true,
-        "id": "LFegRQFgvjroNoN",
-        "imageFilter": "none",
+        "id": "6mhidtkR6kb1ANZ",
         "images": {
           "hero": "2018/09/02/488a5815-e763-406d-94e1-5e51ff25cafe.jpeg",
           "supplementary": []
@@ -9443,8 +9342,7 @@ const data = [
       {
         "date": "09.06.2018",
         "hasStats": true,
-        "id": "sT6YRggrVmoduDZ",
-        "imageFilter": "none",
+        "id": "UUMq1BeUxEkk47p",
         "images": {
           "hero": "2018/09/02/9cefaedf-2e6b-439a-9512-f1f37d2374eb.jpeg",
           "supplementary": []
@@ -9547,8 +9445,7 @@ const data = [
       {
         "date": "09.07.2018",
         "hasStats": true,
-        "id": "Rmn03F6ULxkxJpi",
-        "imageFilter": "none",
+        "id": "g2cwMZenOREFsFV",
         "images": {
           "hero": "2018/09/02/891cd8a7-97d2-4251-ac34-6c816c0ec570.jpeg",
           "supplementary": []
@@ -9651,8 +9548,7 @@ const data = [
       {
         "date": "09.08.2018",
         "hasStats": true,
-        "id": "jKqdfnpsFetFy4m",
-        "imageFilter": "none",
+        "id": "WecYz23PErGYpwL",
         "images": {
           "hero": "2018/09/02/8d209b3b-8d40-49b3-b754-fd91466c9708.jpeg",
           "supplementary": []
@@ -9755,8 +9651,7 @@ const data = [
       {
         "date": "09.09.2018",
         "hasStats": true,
-        "id": "vtyvdUXpVykcB5t",
-        "imageFilter": "none",
+        "id": "0jGGAHtjdQYVNct",
         "images": {
           "hero": "2018/09/02/21248df2-d0b9-41d2-9662-b6215c24c298.jpeg",
           "supplementary": []
@@ -9859,8 +9754,7 @@ const data = [
       {
         "date": "09.10.2018",
         "hasStats": true,
-        "id": "3qwIAd1udhixKpo",
-        "imageFilter": "none",
+        "id": "NdtBFZKZRxOS1Pd",
         "images": {
           "hero": "2018/09/02/ec37f4a8-6310-4bf6-b1a7-cddb1f91bf3b.jpeg",
           "supplementary": []
@@ -9963,8 +9857,7 @@ const data = [
       {
         "date": "09.11.2018",
         "hasStats": true,
-        "id": "TcO3TktYcNMsfyT",
-        "imageFilter": "none",
+        "id": "Mk7N541TMgEHvjF",
         "images": {
           "hero": "2018/09/02/0ea4750a-307a-44be-a466-bb081d137d3c.jpeg",
           "supplementary": []
@@ -10067,8 +9960,7 @@ const data = [
       {
         "date": "09.12.2018",
         "hasStats": true,
-        "id": "abxMUf2ZkcqJAAY",
-        "imageFilter": "none",
+        "id": "ZYTSFCn9iPjv2Ku",
         "images": {
           "hero": "2018/09/02/3faeb9f8-d262-4c12-869f-4470b0dc0574.jpeg",
           "supplementary": []
@@ -10172,8 +10064,7 @@ const data = [
       {
         "date": "09.13.2018",
         "hasStats": true,
-        "id": "dsK86sc2I587QkB",
-        "imageFilter": "none",
+        "id": "XIlWFakMNalUhKa",
         "images": {
           "hero": "2018/09/02/8a0d6d12-a40d-47ba-9d09-6b8d5572bb32.jpeg",
           "supplementary": []
@@ -10305,8 +10196,7 @@ const data = [
       {
         "date": "07.25.2018",
         "hasStats": false,
-        "id": "qFGPFp3Znfr9Okb",
-        "imageFilter": "grayscale",
+        "id": "ctxLvNzmzyOyPwv",
         "images": {
           "hero": "2018/07/24/79693c9f-ef6a-4dd2-acd8-095e1e835684.jpeg",
           "supplementary": []
@@ -10339,8 +10229,7 @@ const data = [
       {
         "date": "07.25.2018",
         "hasStats": false,
-        "id": "3RxDxQmH1QUGL0X",
-        "imageFilter": "grayscale",
+        "id": "rLxi1tIIl0DOfju",
         "images": {
           "hero": "2018/07/24/c6e927a9-39c3-408a-8363-a08bb5d31032.jpeg",
           "supplementary": []
@@ -10373,8 +10262,7 @@ const data = [
       {
         "date": "07.25.2018",
         "hasStats": false,
-        "id": "pno7QMuG13BMKcc",
-        "imageFilter": "grayscale",
+        "id": "3A4HpLrkYykq3c4",
         "images": {
           "hero": "2018/07/24/581a2a63-d3be-467d-8d78-247590241d1e.jpeg",
           "supplementary": []
@@ -10407,8 +10295,7 @@ const data = [
       {
         "date": "07.26.2018",
         "hasStats": false,
-        "id": "OpcTp8wCkcwNlRz",
-        "imageFilter": "grayscale",
+        "id": "UiCYFnXnGyGrVP7",
         "images": {
           "hero": "2018/07/24/24d5bf65-9b1f-41fd-9d61-59d39307e237.jpeg",
           "supplementary": []
@@ -10441,8 +10328,7 @@ const data = [
       {
         "date": "07.26.2018",
         "hasStats": false,
-        "id": "3p8JF8xmjQmCYiw",
-        "imageFilter": "grayscale",
+        "id": "qRYI7gWtLbcwUAD",
         "images": {
           "hero": "2018/07/24/f0bf65ae-2a4a-4dec-a576-21de3b409b43.jpeg",
           "supplementary": []
@@ -10475,8 +10361,7 @@ const data = [
       {
         "date": "07.26.2018",
         "hasStats": false,
-        "id": "znq5WowxV7anzwT",
-        "imageFilter": "grayscale",
+        "id": "XOwG0YjdnuKitAQ",
         "images": {
           "hero": "2018/07/24/1bb41680-664b-4097-8b78-6e2a64ebf3f5.jpeg",
           "supplementary": []
@@ -10542,8 +10427,7 @@ const data = [
       {
         "date": "06.02.2018",
         "hasStats": true,
-        "id": "SVQArB1dBRRTyxK",
-        "imageFilter": "none",
+        "id": "2r9tNGmTwaOEtC8",
         "images": {
           "hero": "2018/06/02/36c8ce31-ccce-4133-9528-338124462edf.jpeg",
           "supplementary": []
@@ -10647,8 +10531,7 @@ const data = [
       {
         "date": "06.03.2018",
         "hasStats": true,
-        "id": "LfrvbHtMxOPthi3",
-        "imageFilter": "none",
+        "id": "rEgNF4YHG2BO02D",
         "images": {
           "hero": "2018/06/02/259d7373-6f3d-4274-8ff8-440cb2724702.jpeg",
           "supplementary": []
@@ -10748,8 +10631,7 @@ const data = [
       {
         "date": "06.04.2018",
         "hasStats": true,
-        "id": "flTXNYXUAl2Im59",
-        "imageFilter": "none",
+        "id": "n70mpLK6uYrVsPt",
         "images": {
           "hero": "2018/06/02/94c5e141-580c-483b-91aa-13a88bf0f8fd.jpeg",
           "supplementary": []
@@ -10848,8 +10730,7 @@ const data = [
       {
         "date": "06.05.2018",
         "hasStats": true,
-        "id": "Yt8WgGkEpc9VYDQ",
-        "imageFilter": "none",
+        "id": "PDz7i7kYd91tqlu",
         "images": {
           "hero": "2018/06/02/88b734d7-ee6f-437f-a44b-6233d7f86158.jpeg",
           "supplementary": []
@@ -10950,8 +10831,7 @@ const data = [
       {
         "date": "06.06.2018",
         "hasStats": true,
-        "id": "Ft5EkARMzbmHp27",
-        "imageFilter": "none",
+        "id": "YbHun2ix0Q9JFP0",
         "images": {
           "hero": "2018/06/02/6de64c25-13b3-441f-96b8-1f80cd4d6bd6.jpeg",
           "supplementary": []
@@ -11052,8 +10932,7 @@ const data = [
       {
         "date": "06.07.2018",
         "hasStats": true,
-        "id": "VifXPLppT20l3Xn",
-        "imageFilter": "none",
+        "id": "lGxOCGHyvJImZzd",
         "images": {
           "hero": "2018/06/02/f3c24aa0-ec3f-4319-9585-e178b9fd7bca.jpeg",
           "supplementary": []
@@ -11152,8 +11031,7 @@ const data = [
       {
         "date": "06.08.2018",
         "hasStats": true,
-        "id": "eksZJdcZDUq0L1T",
-        "imageFilter": "none",
+        "id": "oPpt3UmJ02M5NbM",
         "images": {
           "hero": "2018/06/02/71b4d4f4-b9d4-40b9-8902-cef791391428.jpeg",
           "supplementary": []
@@ -11252,8 +11130,7 @@ const data = [
       {
         "date": "06.09.2018",
         "hasStats": true,
-        "id": "FOPnahf4nAXJcFd",
-        "imageFilter": "none",
+        "id": "zvrblESkTawHeB4",
         "images": {
           "hero": "2018/06/02/e5a310be-0e12-45d8-9121-dbac375a4234.jpeg",
           "supplementary": []
@@ -11352,8 +11229,7 @@ const data = [
       {
         "date": "06.10.2018",
         "hasStats": true,
-        "id": "4fCgMEpAK0pVJYH",
-        "imageFilter": "none",
+        "id": "Spkz9zY3gIAMLFs",
         "images": {
           "hero": "2018/06/02/50570d33-285a-4561-bc7f-b7e500363359.jpeg",
           "supplementary": []
@@ -11454,8 +11330,7 @@ const data = [
       {
         "date": "06.11.2018",
         "hasStats": true,
-        "id": "j6GExOn6FRacaq0",
-        "imageFilter": "none",
+        "id": "EJJ26KG9arPEqEn",
         "images": {
           "hero": "2018/06/02/009b868c-38ee-43e7-bc1c-90b259306d86.jpeg",
           "supplementary": []
@@ -11556,8 +11431,7 @@ const data = [
       {
         "date": "06.12.2018",
         "hasStats": true,
-        "id": "YbUjs9L6Jmo2tSK",
-        "imageFilter": "none",
+        "id": "lUixXiWMOTJrD0w",
         "images": {
           "hero": "2018/06/02/678b2b3a-6724-4bca-99b7-f7ed9a4683e7.jpeg",
           "supplementary": []
@@ -11656,8 +11530,7 @@ const data = [
       {
         "date": "06.13.2018",
         "hasStats": true,
-        "id": "bs9X7WFfB1GAW7n",
-        "imageFilter": "none",
+        "id": "paV2ducfoqcQdLt",
         "images": {
           "hero": "2018/06/02/28740c31-9cb0-4952-af50-9f1bab6c1edb.jpeg",
           "supplementary": []
@@ -11756,8 +11629,7 @@ const data = [
       {
         "date": "06.14.2018",
         "hasStats": true,
-        "id": "pkwaHEBG6pSCSYY",
-        "imageFilter": "none",
+        "id": "qL6jSUTNIQY58yr",
         "images": {
           "hero": "2018/06/02/3ecd42d0-421e-4e3d-a770-830e68e2652c.jpeg",
           "supplementary": []
@@ -11856,8 +11728,7 @@ const data = [
       {
         "date": "06.15.2018",
         "hasStats": true,
-        "id": "BtfQsnNv62tTVyy",
-        "imageFilter": "none",
+        "id": "4iH7OEQBjm6IxGR",
         "images": {
           "hero": "2018/06/02/98a7eed4-299d-40e6-a537-779a5bab6c77.jpeg",
           "supplementary": []
@@ -11956,8 +11827,7 @@ const data = [
       {
         "date": "06.16.2018",
         "hasStats": true,
-        "id": "fbjZkhadOFMk12R",
-        "imageFilter": "none",
+        "id": "ISNl4K5Hwe2jaAL",
         "images": {
           "hero": "2018/06/02/2e08d5fe-1711-4768-8ded-f3714e186923.jpeg",
           "supplementary": []
@@ -12056,8 +11926,7 @@ const data = [
       {
         "date": "06.17.2018",
         "hasStats": true,
-        "id": "QEhrZL1NMgJgF3K",
-        "imageFilter": "none",
+        "id": "tFDPwhHepFcj9X8",
         "images": {
           "hero": "2018/06/02/bcdc06e3-4c95-4138-9779-bc46670a4e1b.jpeg",
           "supplementary": []
@@ -12156,8 +12025,7 @@ const data = [
       {
         "date": "06.18.2018",
         "hasStats": true,
-        "id": "W17Y58JAzhiGK9p",
-        "imageFilter": "none",
+        "id": "XljU0Na4NvJS27U",
         "images": {
           "hero": "2018/06/02/2b268d15-bea2-42ae-a15c-1ab6fd5fe4f7.jpeg",
           "supplementary": []
@@ -12256,8 +12124,7 @@ const data = [
       {
         "date": "06.19.2018",
         "hasStats": true,
-        "id": "TsGanmF7WKk5fry",
-        "imageFilter": "none",
+        "id": "THTn67Bm7BJa0qf",
         "images": {
           "hero": "2018/06/02/845acb7b-86f3-4768-8ce3-c8be727c50af.jpeg",
           "supplementary": []
@@ -12356,8 +12223,7 @@ const data = [
       {
         "date": "06.20.2018",
         "hasStats": true,
-        "id": "P8uK77DKC2v5n0W",
-        "imageFilter": "none",
+        "id": "YXJeR6l0vS27iby",
         "images": {
           "hero": "2018/06/02/f5741d7d-6a86-47ae-a5b1-f1bced05bb00.jpeg",
           "supplementary": []
@@ -12456,8 +12322,7 @@ const data = [
       {
         "date": "06.21.2018",
         "hasStats": true,
-        "id": "2BF4G7rJNodSpeZ",
-        "imageFilter": "none",
+        "id": "vQJapG6pDTlzuoa",
         "images": {
           "hero": "2018/06/02/0cf7b647-1681-4b88-be6a-cbba1163f38a.jpeg",
           "supplementary": []
@@ -12556,8 +12421,7 @@ const data = [
       {
         "date": "06.22.2018",
         "hasStats": true,
-        "id": "lJT2ilZI8GcxWa0",
-        "imageFilter": "none",
+        "id": "I6RtfpKntE7fBY5",
         "images": {
           "hero": "2018/06/02/bf4e84fe-e4ca-4834-ab65-393f965bbdb8.jpeg",
           "supplementary": []
@@ -12656,8 +12520,7 @@ const data = [
       {
         "date": "06.23.2018",
         "hasStats": true,
-        "id": "eVyM7jv2VcSqZmt",
-        "imageFilter": "none",
+        "id": "JcQdWyqzFXocgrZ",
         "images": {
           "hero": "2018/06/02/2901af55-b7bf-41ec-9471-6ec3699b1f12.jpeg",
           "supplementary": []
@@ -12757,8 +12620,7 @@ const data = [
       {
         "date": "06.24.2018",
         "hasStats": true,
-        "id": "I4kzW7MiDueduBI",
-        "imageFilter": "none",
+        "id": "WqifCtulIggmamu",
         "images": {
           "hero": "2018/06/02/7fa41365-3d33-461b-9be5-5a946064923c.jpeg",
           "supplementary": []
@@ -12858,8 +12720,7 @@ const data = [
       {
         "date": "06.25.2018",
         "hasStats": true,
-        "id": "gguszL1OC7CFHkA",
-        "imageFilter": "none",
+        "id": "JpSP3NjkW0ZQflt",
         "images": {
           "hero": "2018/06/02/6349679e-acbf-4f74-ad4a-0d9032c3b293.jpeg",
           "supplementary": []
@@ -12959,8 +12820,7 @@ const data = [
       {
         "date": "06.26.2018",
         "hasStats": true,
-        "id": "8NVElMBLtkSKx3g",
-        "imageFilter": "none",
+        "id": "Noe9kexTjwF5wBe",
         "images": {
           "hero": "2018/06/02/4e1b42f2-3994-4d1c-ad29-620eab9c80c7.jpeg",
           "supplementary": []
@@ -13059,8 +12919,7 @@ const data = [
       {
         "date": "06.27.2018",
         "hasStats": true,
-        "id": "VxAemuTMUCfAvxz",
-        "imageFilter": "none",
+        "id": "QTyiNHxJFyqH4YR",
         "images": {
           "hero": "2018/06/02/3d738e26-0747-447a-98fb-0bb35e1736c3.jpeg",
           "supplementary": []
@@ -13159,8 +13018,7 @@ const data = [
       {
         "date": "06.28.2018",
         "hasStats": true,
-        "id": "7anosnxDFtt9oNq",
-        "imageFilter": "none",
+        "id": "YGfaclkSaidGZBd",
         "images": {
           "hero": "2018/06/02/4e8fd9a9-ed5f-429f-9230-efa731461a5f.jpeg",
           "supplementary": []
@@ -13259,8 +13117,7 @@ const data = [
       {
         "date": "06.29.2018",
         "hasStats": true,
-        "id": "k2fus4FiRPF5iog",
-        "imageFilter": "none",
+        "id": "Tj05qs41Sud5O2i",
         "images": {
           "hero": "2018/06/02/2dcb1878-efe7-47d7-b7b5-b031ab143cb6.jpeg",
           "supplementary": []
@@ -13359,8 +13216,7 @@ const data = [
       {
         "date": "06.30.2018",
         "hasStats": true,
-        "id": "QbpmNHXXnAxMjTI",
-        "imageFilter": "none",
+        "id": "DPvPn9EErQeU4f9",
         "images": {
           "hero": "2018/06/02/1921986b-9cf8-4bf8-b531-3bfe2f098f93.jpeg",
           "supplementary": []
@@ -13461,8 +13317,7 @@ const data = [
       {
         "date": "07.02.2018",
         "hasStats": true,
-        "id": "p0s1y8IW9dKx1c6",
-        "imageFilter": "none",
+        "id": "5AL8MmsXmtCt3Tu",
         "images": {
           "hero": "2018/06/02/7f51e3c4-518e-4147-8e73-c19d6c87ce11.jpeg",
           "supplementary": []
@@ -13563,8 +13418,7 @@ const data = [
       {
         "date": "07.03.2018",
         "hasStats": true,
-        "id": "wNFf9vL3m12sRJC",
-        "imageFilter": "none",
+        "id": "9SpmN0Revdt6QmA",
         "images": {
           "hero": "2018/06/02/32011e1d-8075-4b90-9a91-db88c3d66989.jpeg",
           "supplementary": []
@@ -13663,8 +13517,7 @@ const data = [
       {
         "date": "07.04.2018",
         "hasStats": true,
-        "id": "Kdm8cO4lmexWlgQ",
-        "imageFilter": "none",
+        "id": "VyzFolX3UBMBiyo",
         "images": {
           "hero": "2018/06/02/aa8b0404-f4d1-44ed-bc96-ce65eae03848.jpeg",
           "supplementary": []
@@ -13793,8 +13646,7 @@ const data = [
       {
         "date": "03.19.2016",
         "hasStats": false,
-        "id": "Gp8FZ8BlZk4p6Ay",
-        "imageFilter": "none",
+        "id": "eaqGfUy55KAhVMz",
         "images": {
           "hero": "2016/03/18/a3205d70-0fc8-416a-b383-eb08e9e612a5.jpeg",
           "supplementary": [
@@ -13830,8 +13682,7 @@ const data = [
       {
         "date": "03.20.2016",
         "hasStats": false,
-        "id": "w4pu3iboGzUQAZB",
-        "imageFilter": "none",
+        "id": "0bqYTQNNUpPrG07",
         "images": {
           "hero": "2016/03/18/f531232b-9aa6-4b92-b58e-5f7dcd1ce726.jpeg",
           "supplementary": [
@@ -13863,8 +13714,7 @@ const data = [
       {
         "date": "03.21.2016",
         "hasStats": false,
-        "id": "ophrR03UKgyoOnv",
-        "imageFilter": "none",
+        "id": "mHrS0vtXysCxDGS",
         "images": {
           "hero": "2016/03/18/1f5577cc-e0c2-4c66-987e-903a9b6be02c.jpeg",
           "supplementary": [
@@ -13899,8 +13749,7 @@ const data = [
       {
         "date": "03.23.2016",
         "hasStats": false,
-        "id": "FIkPiKDJpfKjLKx",
-        "imageFilter": "none",
+        "id": "JHNRL3mLxioMZxQ",
         "images": {
           "hero": "2016/03/18/b941c594-5218-449f-b79d-cb9936f56ad5.jpeg",
           "supplementary": [
@@ -13932,8 +13781,7 @@ const data = [
       {
         "date": "03.25.2016",
         "hasStats": false,
-        "id": "hadSXmnIPDGPF29",
-        "imageFilter": "none",
+        "id": "lpNVQEaehnWr3rW",
         "images": {
           "hero": "2016/03/18/fb45dc07-e4fe-4d90-b39a-f54e50142d5a.jpeg",
           "supplementary": [
@@ -13968,8 +13816,7 @@ const data = [
       {
         "date": "03.26.2016",
         "hasStats": false,
-        "id": "Bunp7lsTHnk0Vpa",
-        "imageFilter": "none",
+        "id": "t0boOXcVX24A9ZX",
         "images": {
           "hero": "2016/03/18/9e9e78a3-a2ad-4a09-962c-fc1866ccfbd4.jpeg",
           "supplementary": [
@@ -14004,8 +13851,7 @@ const data = [
       {
         "date": "03.27.2016",
         "hasStats": false,
-        "id": "9Q1KyadcqK8brG7",
-        "imageFilter": "none",
+        "id": "kDjGmYzibHjMjYS",
         "images": {
           "hero": "2016/03/18/adec3785-1bc2-49be-b6f8-8e87f7cf9308.jpeg",
           "supplementary": [
@@ -14073,8 +13919,7 @@ const data = [
       {
         "date": "02.15.2021",
         "hasStats": false,
-        "id": "A8H0hbo67kelgxx",
-        "imageFilter": "none",
+        "id": "9lEsQflQTYEDoQ2",
         "images": {
           "hero": "2021/02/15/99dac382-c788-4a2b-bfd0-f50e52b131e6.jpeg",
           "supplementary": [
@@ -14106,8 +13951,7 @@ const data = [
       {
         "date": "05.28.2022",
         "hasStats": false,
-        "id": "CcJNsGEhCd30ksk",
-        "imageFilter": "none",
+        "id": "OrZ2JjZkGLUmvhc",
         "images": {
           "hero": "2022/05/28/b5db01f1-f716-4538-a3dc-46d41183fbf7.jpeg",
           "supplementary": []
@@ -14137,8 +13981,7 @@ const data = [
       {
         "date": "06.30.2022",
         "hasStats": false,
-        "id": "ztPkztXp4qvVIIz",
-        "imageFilter": "none",
+        "id": "QJQZqAtHhyvROvq",
         "images": {
           "hero": "2022/06/30/cda98785-1307-4628-a906-43871965c819.jpeg",
           "supplementary": []
@@ -14168,8 +14011,7 @@ const data = [
       {
         "date": "07.01.2022",
         "hasStats": false,
-        "id": "68oJ0KK7OHEaJYz",
-        "imageFilter": "none",
+        "id": "CK2gjTDxp5ZDAYO",
         "images": {
           "hero": "2022/07/01/e5c12868-8911-42a3-95fb-f61d8ebda746.jpeg",
           "supplementary": []
@@ -14202,8 +14044,7 @@ const data = [
       {
         "date": "07.04.2022",
         "hasStats": false,
-        "id": "AwYXutFGTuALCYt",
-        "imageFilter": "none",
+        "id": "Oul1vXrK33itLRp",
         "images": {
           "hero": "2022/07/04/924a6a32-f108-4a28-a048-ff1fadf764e8.jpeg",
           "supplementary": [
@@ -14239,8 +14080,7 @@ const data = [
       {
         "date": "07.24.2024",
         "hasStats": false,
-        "id": "xJDT5kt5qNeHYKi",
-        "imageFilter": "none",
+        "id": "1VVgFK2XDYW6DRc",
         "images": {
           "hero": "2024/07/24/f6f7470b-5e4e-42f7-aa59-ccabe81778bf.jpeg",
           "supplementary": [
@@ -14273,8 +14113,7 @@ const data = [
       {
         "date": "07.08.2025",
         "hasStats": false,
-        "id": "RQNX1OmhyTODSYT",
-        "imageFilter": "none",
+        "id": "qyCGQdlk2iishok",
         "images": {
           "hero": "2025/07/08/20ef7d2c-f40a-469e-a48c-8769d3cf5934.jpeg",
           "supplementary": [

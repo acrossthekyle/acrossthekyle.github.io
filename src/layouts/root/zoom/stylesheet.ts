@@ -4,6 +4,7 @@ const styles = {
   dialog: (isOpen: boolean) => tw(`
     absolute
     transform-gpu duration-300
+    bg-black
 
     ${isOpen ? `
       h-screen

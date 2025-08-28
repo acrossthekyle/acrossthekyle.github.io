@@ -1,85 +1,85 @@
 'use client';
 
-import { ChevronLeft, ChevronRight } from 'lucide-react';
-import { InView } from 'react-intersection-observer';
+import { ChevronLeft, ChevronRight, Maximize } from 'lucide-react';
+import { useInView } from 'react-intersection-observer';
+
+import type { Stage } from '@/types';
 
 import Image from './image';
+import { useModel } from './model';
 import styles from './stylesheet';
+import { getThreshold } from './utils';
 
 type Props = {
-  hasEnteredView: boolean;
-  imageFilter?: string;
-  images: string[],
-  index: number,
-  isFullscreen?: boolean;
-  onInView: (isInView: boolean) => void,
-  onNext: () => void,
-  onPrevious: () => void,
+  stage: Stage;
 };
 
-export default function Figure({
-  hasEnteredView,
-  imageFilter,
-  images,
-  index,
-  isFullscreen,
-  onInView,
-  onNext,
-  onPrevious,
-}: Props) {
-  const isInView = isFullscreen ? false : hasEnteredView;
+export default function Gallery({ stage }: Props) {
+  const {
+    handleOnMaximize,
+    handleOnNext,
+    handleOnPrevious,
+    images,
+    index,
+    zoomRef,
+  } = useModel(stage);
+
+  const { ref, inView } = useInView({
+    threshold: getThreshold(zoomRef),
+  });
 
   if (images.length === 0) {
     return null;
   }
 
   return (
-    <InView onChange={onInView} threshold={1}>
-      {({ ref }) => (
-        <>
-          {!isFullscreen && images.length > 1 && (
-            <span className={styles.index(isInView)}>
-              {index + 1}/{images.length}
-            </span>
-          )}
-          <Image
-            isActive
-            isFullscreen={isFullscreen}
-            isPlaceholder
-            quality={1}
-            ref={ref}
-            src={images[0]}
-          />
-          {images.length > 1 && (
-            <button
-              className={`${styles.gallery(isInView)} ${styles.previous}`}
-              onClick={onPrevious}
-              type="button"
-            >
-              <ChevronLeft className={styles.arrow} />
-            </button>
-          )}
-          {images.map((image: string, key: number) => (
-            <Image
-              imageFilter={imageFilter}
-              isActive={index === key}
-              isFullscreen={isFullscreen}
-              isInView={hasEnteredView}
-              key={image}
-              src={image}
-            />
-          ))}
-          {images.length > 1 && (
-            <button
-              className={`${styles.gallery(isInView)} ${styles.next}`}
-              onClick={onNext}
-              type="button"
-            >
-              <ChevronRight className={styles.arrow} />
-            </button>
-          )}
-        </>
+    <>
+      {images.length > 1 && (
+        <span className={styles.index(inView)}>
+          {index + 1}/{images.length}
+        </span>
       )}
-    </InView>
+      <Image
+        isActive
+        isPlaceholder
+        quality={1}
+        ref={ref}
+        src={images[0]}
+      />
+      {images.length > 1 && (
+        <button
+          className={`${styles.gallery(inView)} ${styles.previous}`}
+          onClick={handleOnPrevious}
+          type="button"
+        >
+          <ChevronLeft className={styles.arrow} />
+        </button>
+      )}
+      {images.map((image: string, key: number) => (
+        <Image
+          isActive={index === key}
+          isInView={inView}
+          key={image}
+          ref={index === key ? zoomRef : undefined}
+          src={image}
+        />
+      ))}
+      {images.length > 1 && (
+        <button
+          className={`${styles.gallery(inView)} ${styles.next}`}
+          onClick={handleOnNext}
+          type="button"
+        >
+          <ChevronRight className={styles.arrow} />
+        </button>
+      )}
+      <button
+        className={styles.toggle(inView)}
+        onClick={handleOnMaximize}
+        type="button"
+      >
+        <Maximize />
+      </button>
+    </>
   );
 }
