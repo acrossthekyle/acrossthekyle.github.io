@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import Article from '@/ui/article';
+import { Article } from '@/ui/article';
 
 import styles from './stylesheet';
 

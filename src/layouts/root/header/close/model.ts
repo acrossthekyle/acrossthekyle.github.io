@@ -1,15 +1,11 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
-
 import { useHierarchy } from '@/hooks/useHierarchy';
 
 import { routes } from '../constants';
 import type { Model } from './types';
 
 export function useModel(): Model {
-  const router = useRouter();
-
   const {
     isOnChild,
     isOnParent,
@@ -18,23 +14,19 @@ export function useModel(): Model {
     searchParameters,
   } = useHierarchy();
 
-  const handleOnBack = () => {
-    if (isOnChild) {
-      const route = routes.find(route => path.includes(route.base));
+  let uri = '/';
 
-      if (route) {
-        router.push(`${route.base}${searchParameters ? '?' : ''}${searchParameters}`);
+  if (isOnChild) {
+    const route = routes.find(route => path.includes(route.base));
 
-        return;
-      }
+    if (route) {
+      uri = `${route.base}${searchParameters ? '?' : ''}${searchParameters}`;
     }
-
-    router.push('/');
   };
 
   return {
-    handleOnBack,
     isOnParent,
     isOnRoot,
+    uri,
   };
 }

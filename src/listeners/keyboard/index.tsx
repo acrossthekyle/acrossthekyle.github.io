@@ -1,27 +1,14 @@
 'use client';
 
-import {
-  ReactNode,
-  createContext,
-  useCallback,
-  useEffect,
-} from 'react';
+import { useCallback, useEffect } from 'react';
 
 import { useEvent } from '@/hooks/useEvent';
-
-type Props = {
-  children: ReactNode | ReactNode[];
-};
 
 type KeyboardEvent = {
   key: string;
 };
 
-export const EventsContext = createContext({
-  //
-});
-
-export default function Events({ children }: Props) {
+export default function KeyboardListener() {
   const { dispatch } = useEvent('onEscape');
 
   const handleOnKeyUp = useCallback((event: KeyboardEvent) => {
@@ -39,9 +26,5 @@ export default function Events({ children }: Props) {
     };
   }, [handleOnKeyUp]);
 
-  return (
-    <EventsContext.Provider value={{}}>
-      {children}
-    </EventsContext.Provider>
-  );
+  return null;
 };

@@ -15,6 +15,7 @@ import {
   FilterCount,
   FilterItem,
   FilterLink,
+  FilterLoading,
   FilterSlash,
   Filters,
 } from '@/ui/filters';
@@ -32,24 +33,29 @@ export default function Layout({ children }: Props) {
     <>
       <Directory align="start">
         <Filters>
-          <FilterItem>
-            <FilterLink>
-              All
-              <FilterCount value={total}/>
-            </FilterLink>
-            <FilterSlash />
-          </FilterItem>
-          {filters.map((filter, index: number) => (
-            <FilterItem key={index}>
-              <FilterLink parameter={filter.filter}>
-                {filter.name}
-                <FilterCount value={filter.count}/>
-              </FilterLink>
-              {index !== filters.length - 1 && (
+          {isLoading && <FilterLoading />}
+          {!isLoading && (
+            <>
+              <FilterItem>
+                <FilterLink>
+                  All
+                  <FilterCount value={total}/>
+                </FilterLink>
                 <FilterSlash />
-              )}
-            </FilterItem>
-          ))}
+              </FilterItem>
+              {filters.map((filter, index: number) => (
+                <FilterItem key={index}>
+                  <FilterLink parameter={filter.filter}>
+                    {filter.name}
+                    <FilterCount value={filter.count}/>
+                  </FilterLink>
+                  {index !== filters.length - 1 && (
+                    <FilterSlash />
+                  )}
+                </FilterItem>
+              ))}
+            </>
+          )}
         </Filters>
         <DirectoryItems>
           {isLoading && <DirectoryLoading />}

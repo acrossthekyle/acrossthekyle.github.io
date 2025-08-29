@@ -1,16 +1,14 @@
-'use client';
-
-import { useHierarchy } from '@/hooks/useHierarchy';
-
 import styles from './stylesheet';
 
-export default function DirectoryLoading() {
-  const { isOnChild } = useHierarchy();
+type Props = {
+  skeletons?: number;
+};
 
+export default function DirectoryLoading({ skeletons = 13 }: Props) {
   return (
     <>
-      {Array.from({ length: 13 }).map((_, index) => (
-        <li className={styles.pulse(isOnChild)} key={index} />
+      {Array.from({ length: skeletons }).map((_, index) => (
+        <li className={styles.loading} key={index} />
       ))}
     </>
   );

@@ -32,7 +32,7 @@ const items = [
 
 export default function View() {
   return (
-    <Directory align="end" className="h-full">
+    <Directory align="end">
       <DirectoryItems>
         {items.map((item, index: number) => (
           <DirectoryItem index={index} key={index}>

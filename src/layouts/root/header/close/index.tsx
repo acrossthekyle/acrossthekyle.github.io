@@ -1,22 +1,23 @@
 'use client';
 
+import Link from 'next/link';
+
 import { useModel } from './model';
 import styles from './stylesheet';
 
 export default function Header() {
   const {
-    handleOnBack,
     isOnParent,
     isOnRoot,
+    uri,
   } = useModel();
 
   return (
-    <button
+    <Link
       className={styles.close(isOnRoot, isOnParent)}
-      onClick={handleOnBack}
-      type="button"
+      href={uri}
     >
       BACK
-    </button>
+    </Link>
   );
 }

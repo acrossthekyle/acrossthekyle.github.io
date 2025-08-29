@@ -3,7 +3,6 @@ export function getRoutePath(
   base: string,
   route: string,
   pathname: string,
-  parameters: string,
 ): string {
   if (isOnRoot) {
     return route;
@@ -13,7 +12,5 @@ export function getRoutePath(
     return '/';
   }
 
-  return pathname.includes(base)
-    ? `${base}${!!parameters ? '?' + parameters : ''}`
-    : base;
+  return base;
 }

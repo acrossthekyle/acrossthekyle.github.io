@@ -11,7 +11,6 @@ export function useModel(): Model {
     isOnParent,
     isOnRoot,
     path,
-    searchParameters,
   } = useHierarchy();
 
   return {
@@ -25,7 +24,6 @@ export function useModel(): Model {
         route.base,
         route.path,
         path,
-        searchParameters,
       ),
     })),
   };

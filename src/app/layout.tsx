@@ -3,8 +3,8 @@ import '../globals.css';
 import type { Metadata, Viewport } from 'next';
 import { Suspense } from 'react';
 
-import Events from '@/context/events';
 import Layout from '@/layouts/root';
+import { KeyboardListener } from '@/listeners';
 
 import Body from './body';
 
@@ -56,11 +56,10 @@ export default function RootLayout({ children }: Props) {
     <html className="h-full" lang="en">
       <Suspense>
         <Body>
-          <Events>
-            <Layout>
-              {children}
-            </Layout>
-          </Events>
+          <KeyboardListener />
+          <Layout>
+            {children}
+          </Layout>
         </Body>
       </Suspense>
     </html>

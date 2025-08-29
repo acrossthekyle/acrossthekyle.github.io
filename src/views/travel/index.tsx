@@ -1,6 +1,6 @@
 'use client';
 
-import Article from '@/ui/article';
+import { Article } from '@/ui/article';
 
 import Description from './description';
 import Figure from './figure';

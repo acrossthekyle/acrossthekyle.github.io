@@ -2,8 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   loading: `
-    h-30 w-full
-    mb-6
+    h-20 w-full
     bg-neutral-900
     animate-pulse
   `,
