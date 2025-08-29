@@ -1,4 +1,4 @@
-import { shuffle } from 'lodash';
+import shuffle from 'lodash.shuffle';
 import { NextResponse } from 'next/server';
 
 import data from '../data';

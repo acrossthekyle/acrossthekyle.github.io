@@ -12,7 +12,8 @@
     "test": "jest"
   },
   "dependencies": {
-    "lodash": "4.17.21",
+    "lodash.groupby": "^4.6.0",
+    "lodash.shuffle": "^4.2.0",
     "lucide-react": "^0.519.0",
     "next": "^15.4.4",
     "react": "^19.0.0",
@@ -33,7 +34,8 @@
     "@types/geojson": "^7946.0.16",
     "@types/jest": "^30.0.0",
     "@types/leaflet": "^1.9.17",
-    "@types/lodash": "^4.17.19",
+    "@types/lodash.groupby": "^4.6.9",
+    "@types/lodash.shuffle": "^4.2.9",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
