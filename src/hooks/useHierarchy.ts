@@ -1,6 +1,8 @@
 'use client';
 
-import { usePathname, useSearchParams } from 'next/navigation';
+import { useContext } from 'react';
+
+import { HierarchyContext } from '@/contexts/hierarchy';
 
 type Model = {
   base: string;
@@ -13,25 +15,7 @@ type Model = {
 };
 
 export function useHierarchy(): Model {
-  const current = usePathname();
+  const context = useContext(HierarchyContext);
 
-  const searchParams = useSearchParams();
-
-  const segments = current.split('').filter(character => character === '/');
-
-  const isOnRoot = current === '/';
-  const isOnParent = current !== '/' && segments.length === 1;
-  const isOnChild = segments.length === 2;
-
-  const previous = `/${current.split('/')[1]}`;
-
-  return {
-    base: isOnChild ? previous : current,
-    isOnChild,
-    isOnParent,
-    isOnRoot,
-    path: current,
-    previous,
-    searchParameters: searchParams.toString(),
-  };
+  return context;
 }

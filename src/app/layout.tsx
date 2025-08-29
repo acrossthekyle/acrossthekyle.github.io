@@ -3,6 +3,7 @@ import '../globals.css';
 import type { Metadata, Viewport } from 'next';
 import { Suspense } from 'react';
 
+import Hierarchy from '@/contexts/hierarchy';
 import Layout from '@/layouts/root';
 import { KeyboardListener } from '@/listeners';
 
@@ -55,12 +56,14 @@ export default function RootLayout({ children }: Props) {
   return (
     <html className="h-full" lang="en">
       <Suspense>
-        <Body>
-          <KeyboardListener />
-          <Layout>
-            {children}
-          </Layout>
-        </Body>
+        <Hierarchy>
+          <Body>
+            <KeyboardListener />
+            <Layout>
+              {children}
+            </Layout>
+          </Body>
+        </Hierarchy>
       </Suspense>
     </html>
   );
