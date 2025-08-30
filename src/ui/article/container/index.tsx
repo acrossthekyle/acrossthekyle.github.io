@@ -10,12 +10,12 @@ type Props = {
 };
 
 export default function Article({ children, isFull, onScrollEnd }: Props) {
-  const { handleOnScroll, ref } = useModel(onScrollEnd);
+  const { handleArticleScroll, ref } = useModel(onScrollEnd);
 
   return (
     <article
       className={styles.container(isFull)}
-      onScroll={handleOnScroll}
+      onScroll={handleArticleScroll}
       ref={ref}
     >
       {children}

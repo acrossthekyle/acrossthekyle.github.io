@@ -1,27 +1,41 @@
 'use client';
 
-import { useRef } from 'react';
+import { useEffect, useRef } from 'react';
 
 type Model = {
-  handleOnScroll: () => void;
+  handleArticleScroll: () => void;
   ref: React.RefObject<HTMLElement | null>;
 };
 
 export function useModel(onScrollEnd?: () => void): Model {
   const ref = useRef(null);
 
-  const handleOnScroll = () => {
+  useEffect(() => {
+    const handleWindowScroll = () => {
+      if (window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 10) {
+        onScrollEnd?.();
+      }
+    };
+
+    window.addEventListener('scroll', handleWindowScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleWindowScroll);
+    };
+  }, [onScrollEnd]);
+
+  const handleArticleScroll = () => {
     if (ref.current) {
       const { scrollTop, scrollHeight, clientHeight } = ref.current;
 
-      if (scrollTop + clientHeight >= scrollHeight) {
+      if (Math.ceil(scrollTop + clientHeight) >= scrollHeight) {
         onScrollEnd?.();
       }
     }
   };
 
   return {
-    handleOnScroll,
+    handleArticleScroll,
     ref,
   };
 }

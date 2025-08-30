@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   images: {
     loader: 'custom',
     loaderFile: './next.config.image-loader.js',
+    qualities: [10, 80, 100],
     remotePatterns: [new URL('https://imagekit.io/acrossthekyle/**')],
   },
 };
