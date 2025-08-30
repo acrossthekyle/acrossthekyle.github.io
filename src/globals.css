@@ -2,7 +2,7 @@
 
 :root {
   --background: #000000;
-  --foreground: #ffffff;
+  --foreground: rgba(255, 255, 255, .9);
 }
 
 @theme inline {
@@ -10,50 +10,37 @@
 }
 
 @theme {
-  --breakpoint-5xs: 19.0625rem; /* 305 px */
-  --breakpoint-4xs: 22.5rem; /* 360 px */
-  --breakpoint-3xs: 25.625rem; /* 410px */
-  --breakpoint-2xs: 30rem; /* 480px */
-  --breakpoint-xs: 33.125rem; /* 530px */
-  --breakpoint-mp: 50.625rem; /* 810px */
-  --breakpoint-ml: 60.3125rem; /* 965px */
-  --breakpoint-2ml: 67.5rem; /* 1080px */
-  --breakpoint-sl: 73.75rem; /* 1180px */
-  --breakpoint-sx: 87.5rem; /* 1400px */
-  --breakpoint-2xl: 91.875rem; /* 1470px */
-  --breakpoint-3xl: 120rem; /* 1920px */
-  --breakpoint-4xl: 160rem; /* 2560px */
-
-  --container-8xl: 91.875rem; /* 1470px */
+  --breakpoint-pico: 19.0625rem; /* 305p */
+  --breakpoint-nano: 22.5rem; /* 360px */
+  --breakpoint-micro: 25.625rem; /* 410px */
+  --breakpoint-milli: 30rem; /* 480px */
+  --breakpoint-centi: 33.125rem; /* 530px */
+  --breakpoint-deci: 40rem; /* 640px */
+  --breakpoint-base: 48rem; /* 768px */
+  --breakpoint-deka: 60.3125rem; /* 965px */
+  --breakpoint-hecto: 64rem; /* 1204px: */
+  --breakpoint-kilo: 67.5rem; /* 1080px */
+  --breakpoint-mega: 73.75rem; /* 1180px */
+  --breakpoint-giga: 80rem; /* 1280px */
+  --breakpoint-tera: 120rem; /* 1920px */
+  --breakpoint-peta: 160rem; /* 2560px */
 
   --text-tiny: 0.625rem; /* 10px */
 
-  --animate-elastic-in-from-right: slideInRight .5s cubic-bezier(.4, -0.6, 0.32, 1.6) forwards;
-  --animate-elastic-in-from-left: slideInLeft .65s cubic-bezier(.4, -0.6, 0.32, 1.6) forwards;
-  --animate-elastic-down: slideInDown .7s cubic-bezier(0.5, 0, 0, 1.5) forwards;
-  --animate-elastic-up: slideInUp .7s cubic-bezier(0.5, 0, 0, 1.5) forwards;
-  --animate-slide-in: slideInRight .3s ease-out forwards;
-  --animate-slide-down: slideInDown .3s ease-out forwards;
-  --animate-in: fadeIn .3s ease-in forwards;
+  --animate-elastic-in-from-right: elasticInFromRight .5s cubic-bezier(.4, -0.6, 0.32, 1.6) forwards;
+  --animate-elastic-in-from-left: elasticInFromLeft .65s cubic-bezier(.4, -0.6, 0.32, 1.6) forwards;
+  --animate-loader-one: .3s fadeIn 1s ease-in forwards;
+  --animate-loader-two: .3s fadeIn 6s ease-in forwards;
+  --animate-loader-three: .3s fadeIn 11s ease-in forwards;
 
-  @keyframes slideInRight {
+  @keyframes elasticInFromRight {
     0% { opacity: 0; transform: translateX(50%); }
     100% { opacity: 1; transform: translateX(0); }
   }
 
-  @keyframes slideInLeft {
+  @keyframes elasticInFromLeft {
     0% { opacity: 0; transform: translateX(-100%); }
     100% { opacity: 1; transform: translateX(0); }
-  }
-
-  @keyframes slideInDown {
-    0% { opacity: 0; transform: translateY(-100%); }
-    100% { opacity: 1; transform: translateY(0); }
-  }
-
-  @keyframes slideInUp {
-    0% { opacity: 0; transform: translateY(100%); }
-    100% { opacity: 1; transform: translateY(0); }
   }
 
   @keyframes fadeIn {
@@ -75,10 +62,6 @@ body {
 
   ::-webkit-scrollbar {
     display: none;
-  }
-
-  select {
-    -webkit-appearance: none;
   }
 
   a,

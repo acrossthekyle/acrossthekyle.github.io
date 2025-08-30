@@ -4,8 +4,8 @@ const styles = tw({
   caption: `
     absolute z-2 left-4 bottom-4
 
-    2ml:left-8
-    2ml:bottom-8
+    kilo:left-8
+    kilo:bottom-8
   `,
   heading: `
     text-2xl/5 text-white/80
@@ -14,11 +14,11 @@ const styles = tw({
     me-4
     mb-2
 
-    4xs:text-3xl/6
-    3xs:text-4xl/7
-    md:mb-3
-    md:me-8
-    sl:text-5xl/10
+    nano:text-3xl/6
+    micro:text-4xl/7
+    base:mb-3
+    base:me-8
+    mega:text-5xl/10
   `,
   index: `
     block
@@ -26,7 +26,7 @@ const styles = tw({
     font-normal
     tracking-normal
 
-    3xs:text-xl/5
+    micro:text-xl/5
   `,
   slash: `
     inline
@@ -39,27 +39,28 @@ const styles = tw({
     font-mono
     text-xs
 
-    2xs:block
-    sl:text-sm
+    centi:block
+    mega:text-sm
   `,
   highlight: `
     inline
     py-0.5 px-2
     bg-yellow-300/90
     text-black
+    rounded-xs
   `,
   break: `
     block
     opacity-0
     text-tiny/1
 
-    2xs:text-xs
-    2xs:opacity-100
-    2xs:py-0.5
-    2xs:bg-yellow-300/90
-    2xs:text-black
-    2xs:inline
-    sl:text-sm
+    milli:text-xs
+    milli:opacity-100
+    milli:py-0.5
+    milli:bg-yellow-300/90
+    milli:text-black
+    milli:inline
+    mega:text-sm
   `,
 });
 

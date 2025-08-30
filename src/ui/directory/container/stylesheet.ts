@@ -18,10 +18,10 @@ const styles = tw({
         ${common}
         hidden
 
-        lg:block
-        sl:pl-10
-        sl:pr-6
-        xl:py-12
+        hecto:block
+        mega:pl-10
+        mega:pr-6
+        giga:py-12
       `);
     }
 
@@ -30,10 +30,10 @@ const styles = tw({
 
       pt-30
 
-      md:pt-6
-      md:pl-20
-      ml:pr-20
-      ml:py-12
+      base:pt-6
+      base:pl-12
+      deka:pr-12
+      deka:py-12
     `);
   },
 });

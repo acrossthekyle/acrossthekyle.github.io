@@ -5,7 +5,7 @@ const styles = {
     const common = `
       flex flex-col
 
-      md:flex-row
+      base:flex-row
     `;
 
     if (isOnRoot) {

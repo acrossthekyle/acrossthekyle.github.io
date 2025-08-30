@@ -20,9 +20,9 @@ const styles = tw({
 
         flex-1 flex-col
 
-        md:flex-0
-        ml:pl-20
-        ml:py-12
+        base:flex-0
+        deka:px-12
+        deka:py-12
       `);
     }
 
@@ -31,12 +31,12 @@ const styles = tw({
         ${common}
         ${fixed}
 
-        md:w-auto
-        md:h-full
-        md:relative
-        md:flex-col
-        ml:pl-20
-        ml:py-12
+        base:w-auto
+        base:h-full
+        base:relative
+        base:flex-col
+        deka:px-12
+        deka:py-12
       `);
     }
 
@@ -44,12 +44,12 @@ const styles = tw({
       ${common}
       ${fixed}
 
-      lg:w-auto
-      lg:h-full
-      lg:relative
-      lg:flex-col
-      xl:pl-20
-      xl:py-12
+      hecto:w-auto
+      hecto:h-full
+      hecto:relative
+      hecto:flex-col
+      giga:px-12
+      giga:py-12
     `);
   },
 });

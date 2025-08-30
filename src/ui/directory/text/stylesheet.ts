@@ -10,7 +10,7 @@ const styles = tw({
     font-light
     tracking-normal
 
-    5xs:text-xs
+    pico:text-xs
   `,
 });
 

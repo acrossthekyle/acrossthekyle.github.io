@@ -15,8 +15,8 @@ const styles = {
 
         left-6
 
-        ml:left-20
-        ml:top-12
+        deka:left-12
+        deka:top-12
       `);
     }
 
@@ -27,10 +27,10 @@ const styles = {
         right-6
         left-auto
 
-        md:right-auto
-        md:left-6
-        ml:left-20
-        ml:top-12
+        base:right-auto
+        base:left-6
+        deka:left-12
+        deka:top-12
       `);
     }
 
@@ -40,10 +40,10 @@ const styles = {
       right-6
       left-auto
 
-      lg:right-auto
-      lg:left-6
-      xl:left-20
-      xl:top-12
+      hecto:right-auto
+      hecto:left-6
+      giga:left-12
+      giga:top-12
     `);
   },
 };

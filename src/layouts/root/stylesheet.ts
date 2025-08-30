@@ -6,7 +6,7 @@ const styles = {
     flex flex-col
     h-full
 
-    ${isOnRoot || isOnParent ? 'md:flex-row' : 'lg:flex-row'}
+    ${isOnRoot || isOnParent ? 'base:flex-row' : 'hecto:flex-row'}
   `),
 };
 

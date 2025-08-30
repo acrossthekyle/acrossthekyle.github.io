@@ -60,7 +60,7 @@ const store = create<State & Actions>()(
           isOpen: false,
           size: undefined,
         });
-      }, 400);
+      }, 500);
     },
   }),
 );

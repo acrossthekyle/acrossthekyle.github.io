@@ -1,15 +1,9 @@
 import tw from '@/styles';
 
 const styles = tw({
-  container: (isOnChild: boolean) => tw(`
-    ${isOnChild && `
-      w-66
-
-      sx:w-84
-    `}
-
+  container: `
     animate-elastic-in-from-right
-  `),
+  `,
   items: `
     mb-6
   `,

@@ -4,29 +4,29 @@ const styles = tw({
   title: `
     block
     mb-6
-    text-4xl/8 text-white/90
+    text-4xl/8
     font-bold font-stretch-extra-condensed
     tracking-tighter
     uppercase
 
-    5xs:text-5xl/10
-    4xs:text-7xl/14
-    2xs:text-7xl/14
-    2xs:font-stretch-semi-condensed
-    sm:text-8xl/18
-    sm:mb-12
-    lg:hidden
+    pico:text-5xl/10
+    nano:text-7xl/14
+    milli:text-7xl/14
+    milli:font-stretch-semi-condensed
+    deci:text-8xl/18
+    deci:mb-12
+    hecto:hidden
   `,
   block: `block`,
   meta: `
     flex gap-2
-    text-tiny/3 text-white/90
+    text-tiny/3
     font-light font-stretch-condensed
     tracking-normal
     mb-3
 
-    4xs:text-xs/3
-    2xs:text-sm/3
+    nano:text-xs/3
+    milli:text-sm/3
   `,
   slash: `
     w-3 h-3

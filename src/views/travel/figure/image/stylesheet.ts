@@ -1,8 +1,9 @@
 import tw from '@/styles';
 
 const styles = tw({
-  image: (isInView: boolean, isActive: boolean, isPlaceholder: boolean) => {
+  image: (isInView: boolean, isPlaceholder: boolean) => {
     const common = `
+      object-cover
       w-full h-full
       transform-gpu duration-500
       rounded-lg
@@ -11,17 +12,16 @@ const styles = tw({
     if (isPlaceholder) {
       return tw(`
         ${common}
-
-        relative z-0
+        absolute inset-0 z-0
         opacity-0
       `);
     }
 
     return tw(`
       ${common}
-      absolute inset-0 z-2
+      aspect-square
 
-      ${isActive ? 'opacity-100' : 'opacity-0'}
+      centi:aspect-auto
 
       ${isInView ? `
         brightness-90
@@ -38,15 +38,15 @@ const styles = tw({
     h-full
     transform-gpu duration-500
     rounded-lg
-    absolute inset-auto z-2
-    opacity-100
 
     brightness-90
     grayscale-0
   `),
   skeleton: `
-    absolute z-5 inset-0
+    aspect-square
     bg-black
+
+    cenit:aspect-3/2
   `,
   pulse: `
     relative
@@ -54,16 +54,37 @@ const styles = tw({
     bg-neutral-900
     animate-pulse
 
-    sm:w-full
-    sm:h-full
-    sm:aspect-auto
+    deci:w-full
+    deci:h-full
+    deci:aspect-auto
   `,
-  minimize: `
+  zoomed: `
     relative z-3
     flex justify-center
     w-full h-full
+    bg-black
   `,
-  toggle: `
+  maximize: (isInView: boolean) => tw(`
+    hidden
+    absolute right-4 bottom-3.5 z-3
+    uppercase
+    font-black
+    text-white/80
+    duration-200
+
+    kilo:bottom-7.5
+    kilo:right-8
+    deka:block
+
+    hover:text-white
+
+    ${isInView ? `
+      opacity-100
+    ` : `
+      opacity-0
+    `}
+  `),
+  minimize: `
     hidden
     absolute right-4 bottom-3.5 z-2
     uppercase
@@ -71,11 +92,11 @@ const styles = tw({
     text-white/80
     duration-200
 
-    2ml:bottom-7.5
-    2ml:right-8
-    ml:block
+    kilo:bottom-7.5
+    kilo:right-8
+    deka:block
 
-    hover:text-white
+    hover:text-white/90
   `,
 });
 

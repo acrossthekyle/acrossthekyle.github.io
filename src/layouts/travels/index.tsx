@@ -33,7 +33,31 @@ export default function Layout({ children }: Props) {
     <>
       <Directory align="start">
         <Filters>
-          {isLoading && <FilterLoading />}
+          {isLoading && (
+            <>
+              <FilterItem>
+                <FilterLoading size="small" />
+              </FilterItem>
+              <FilterItem>
+                <FilterLoading size="medium" />
+              </FilterItem>
+              <FilterItem>
+                <FilterLoading size="large" />
+              </FilterItem>
+              <FilterItem>
+                <FilterLoading size="medium" />
+              </FilterItem>
+              <FilterItem>
+                <FilterLoading size="medium" />
+              </FilterItem>
+              <FilterItem>
+                <FilterLoading size="large" />
+              </FilterItem>
+              <FilterItem>
+                <FilterLoading size="medium" />
+              </FilterItem>
+            </>
+          )}
           {!isLoading && (
             <>
               <FilterItem>
@@ -58,7 +82,11 @@ export default function Layout({ children }: Props) {
           )}
         </Filters>
         <DirectoryItems>
-          {isLoading && <DirectoryLoading />}
+          {isLoading && Array.from({ length: 13 }).map((_, index) => (
+            <DirectoryItem key={index} index={index}>
+              <DirectoryLoading lines={2} />
+            </DirectoryItem>
+          ))}
           {!isLoading && travels.map((travel, index: number) => (
             <DirectoryItem index={index} key={index}>
               <DirectoryLink href={travel.path} ref={ref}>

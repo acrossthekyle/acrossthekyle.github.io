@@ -1,7 +1,14 @@
 import styles from './stylesheet';
 
-export default function FiltersLoading() {
+type Props = {
+  size: 'small' | 'medium' | 'large';
+};
+
+export default function FiltersLoading({ size }: Props) {
   return (
-    <li className={styles.loading} />
+    <span className={styles.pulse}>
+      <span className={`${styles.text} ${styles[size]}`} />
+      <span className={styles.count} />
+    </span>
   );
 }

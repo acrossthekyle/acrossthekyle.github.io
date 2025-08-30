@@ -1,15 +1,17 @@
 import styles from './stylesheet';
 
 type Props = {
-  skeletons?: number;
+  lines: number;
 };
 
-export default function DirectoryLoading({ skeletons = 13 }: Props) {
+export default function DirectoryLoading({ lines }: Props) {
   return (
-    <>
-      {Array.from({ length: skeletons }).map((_, index) => (
-        <li className={styles.loading} key={index} />
-      ))}
-    </>
+    <span className={styles.pulse}>
+      <span className={styles.eyebrow} />
+      <span className={`${styles.text} ${styles.short}`} />
+      {lines === 2 && (
+        <span className={`${styles.text} ${styles.long}`} />
+      )}
+    </span>
   );
 }

@@ -8,6 +8,7 @@ import Layout from '@/layouts/root';
 import { KeyboardListener } from '@/listeners';
 
 import Body from './body';
+import Loader from './loader';
 
 export const metadata: Metadata = {
   title: {
@@ -62,6 +63,7 @@ export default function RootLayout({ children }: Props) {
             <Layout>
               {children}
             </Layout>
+            <Loader />
           </Body>
         </Hierarchy>
       </Suspense>

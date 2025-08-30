@@ -19,23 +19,23 @@ const styles = tw({
         ${root}
 
         h-10
-        text-5xl/9 text-white/90
+        text-5xl/9
         font-black font-stretch-condensed
         tracking-tighter
         mb-1
 
-        5xs:h-12
-        5xs:text-6xl/12
-        4xs:h-14
-        4xs:text-7xl/14
-        2xs:font-stretch-semi-condensed
-        sm:h-18.5
-        sm:text-8xl/18
-        md:pe-20
-        md:font-stretch-normal
-        md:tracking-tight
-        3xl:h-26
-        3xl:text-9xl/26
+        pico:h-12
+        pico:text-6xl/12
+        nano:h-14
+        nano:text-7xl/14
+        milli:font-stretch-semi-condensed
+        deci:h-18.5
+        deci:text-8xl/18
+        base:pe-12
+        base:font-stretch-normal
+        base:tracking-tight
+        tera:h-26
+        tera:text-9xl/26
 
         hover:font-extralight
         hover:tracking-wide
@@ -43,7 +43,7 @@ const styles = tw({
     }
 
     const sub = `
-      ${isActive ? 'text-white/90' : 'text-white/25'}
+      ${isActive ? '' : 'text-white/25'}
       font-thin font-stretch-ultra-condensed
 
       hover:text-white/90
@@ -57,12 +57,12 @@ const styles = tw({
         text-5xl/9
         h-9
 
-        ml:text-6xl/10
-        ml:h-11
-        sl:text-8xl/18
-        sl:h-19
-        3xl:h-26
-        3xl:text-9xl/26
+        deka:text-6xl/10
+        deka:h-11
+        mega:text-8xl/18
+        mega:h-19
+        tera:h-26
+        tera:text-9xl/26
       `);
     }
 
@@ -73,12 +73,12 @@ const styles = tw({
       text-4xl/6
       h-7
 
-      lg:text-5xl/9
-      lg:h-9
-      3xl:h-14
-      3xl:text-7xl/14
-      4xl:h-26
-      4xl:text-9xl/26
+      hecto:text-5xl/9
+      hecto:h-9
+      tera:h-14
+      tera:text-7xl/14
+      peta:h-26
+      peta:text-9xl/26
     `);
   },
 });

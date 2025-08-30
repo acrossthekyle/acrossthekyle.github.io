@@ -5,21 +5,14 @@ const styles = tw({
     flex flex-col gap-0
     mt-6
 
-    sm:gap-4
-    ml:mt-12
+    deci:gap-4
+    deka:mt-12
   `,
   stage: `
     relative
     cursor-default
     opacity-0
     animate-elastic-in-from-right
-  `,
-  pulse: `
-    relative
-    h-100
-    w-full
-    bg-neutral-900
-    animate-pulse
   `,
 });
 

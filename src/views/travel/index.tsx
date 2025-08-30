@@ -6,6 +6,7 @@ import Description from './description';
 import Figure from './figure';
 import Footer from './footer';
 import Header from './header';
+import Loading from './loading';
 import Subheader from './subheader';
 import { useModel } from './model';
 import styles from './stylesheet';
@@ -18,21 +19,7 @@ export default function View({ slug }: Props) {
   const { handleOnViewMore, shown, travel } = useModel(slug);
 
   if (!travel) {
-    return (
-      <Article>
-        <ul className={styles.stages}>
-          {Array.from({ length: 13 }).map((_, index) => (
-            <li
-              className={styles.stage}
-              key={index}
-              style={{ animationDelay: `${0.1 + (index * 0.125)}s` }}
-            >
-              <div className={styles.pulse} />
-            </li>
-          ))}
-        </ul>
-      </Article>
-    );
+    return <Loading />;
   }
 
   return (

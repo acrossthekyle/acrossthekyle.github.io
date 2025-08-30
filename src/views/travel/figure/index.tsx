@@ -1,7 +1,7 @@
 import type { Stage } from '@/types';
 
 import Caption from './caption';
-import Gallery from './gallery';
+import Image from './image';
 import styles from './stylesheet';
 
 type Props = {
@@ -13,7 +13,7 @@ type Props = {
 export default function Figure({ label, stage, total }: Props) {
   return (
     <figure className={styles.figure}>
-      <Gallery stage={stage} />
+      <Image stage={stage} />
       <Caption label={label} stage={stage} total={total} />
     </figure>
   );

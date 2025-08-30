@@ -13,14 +13,14 @@ const styles = tw({
         hidden
         flex flex-col
 
-        md:block
+        base:block
       `);
     }
 
     return tw(`
       hidden
 
-      lg:block
+      hecto:block
     `);
   },
 });

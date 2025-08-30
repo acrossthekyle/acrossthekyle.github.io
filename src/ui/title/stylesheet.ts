@@ -4,16 +4,16 @@ const styles = tw({
   title: `
     block
     mb-6
-    text-xl text-white/90
+    text-xl
     font-thin
     uppercase
 
-    5xs:text-2xl
-    4xs:text-3xl
-    3xs:text-4xl
-    sm:text-5xl
-    sm:mb-12
-    md:hidden
+    pico:text-2xl
+    nano:text-3xl
+    micro:text-4xl
+    deci:text-5xl
+    deci:mb-12
+    base:hidden
   `,
 });
 

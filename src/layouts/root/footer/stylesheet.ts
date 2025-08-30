@@ -5,8 +5,8 @@ const styles = tw({
     fixed bottom-6 right-6 z-4
     flex flex-col
 
-    ml:bottom-12
-    ml:right-20
+    deka:bottom-12
+    deka:right-12
   `,
   copy: `
     flex items-center

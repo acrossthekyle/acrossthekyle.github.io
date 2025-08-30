@@ -1,9 +1,9 @@
 import { Orientation } from './types';
 
 export function getOrientation(
-  ref: React.RefObject<HTMLImageElement | null>,
+  ref?: React.RefObject<HTMLImageElement | null>,
 ): Orientation | undefined {
-  if (ref === null) {
+  if (ref === undefined || ref === null) {
     return undefined;
   }
 

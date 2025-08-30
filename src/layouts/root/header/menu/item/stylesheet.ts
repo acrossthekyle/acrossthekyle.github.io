@@ -5,7 +5,7 @@ const styles = tw({
     opacity-0
     animate-elastic-in-from-left
 
-    md:animate-elastic-in-from-right
+    base:animate-elastic-in-from-right
   `,
 });
 

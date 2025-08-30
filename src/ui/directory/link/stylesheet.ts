@@ -15,9 +15,8 @@ const styles = tw({
         text-7xl/14
         font-stretch-ultra-condensed
 
-        sx:text-8xl/18
-        3xl:text-9xl/26
-        3xl:font-stretch-extra-condensed
+        tera:text-9xl/26
+        tera:font-stretch-extra-condensed
       `;
 
       if (isActive) {
@@ -25,7 +24,6 @@ const styles = tw({
           ${root}
           ${sub}
 
-          text-white/90
           font-medium
           tracking-tighter
         `);
@@ -47,19 +45,19 @@ const styles = tw({
     return tw(`
       ${root}
 
-      text-4xl/7 text-white/90
+      text-4xl/7
       font-black font-stretch-extra-condensed
       tracking-tighter
 
-      5xs:text-5xl/10
-      4xs:text-6xl/12
-      2xs:font-stretch-semi-condensed
-      sm:text-8xl/18
-      md:text-7xl/14
-      md:font-stretch-normal
-      md:tracking-tight
-      lg:text-8xl/18
-      3xl:text-9xl/26
+      pico:text-5xl/10
+      nano:text-6xl/12
+      milli:font-stretch-semi-condensed
+      deci:text-8xl/18
+      base:text-7xl/14
+      base:font-stretch-normal
+      base:tracking-tight
+      hecto:text-8xl/18
+      tera:text-9xl/26
 
       hover:font-extralight
       hover:text-white/90

@@ -1,9 +1,10 @@
-import { Article, ArticleLoading } from '@/ui/article';
+import { Article } from '@/ui/article';
+import AboutLoading from '@/views/about/loading';
 
 export default function Loading() {
   return (
     <Article isFull>
-      <ArticleLoading />
+      <AboutLoading />
     </Article>
   );
 }

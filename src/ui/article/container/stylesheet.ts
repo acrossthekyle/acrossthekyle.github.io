@@ -16,9 +16,9 @@ const styles = tw({
         ${common}
         pt-30
 
-        md:pt-6
-        ml:px-20
-        ml:py-12
+        base:pt-6
+        deka:px-12
+        deka:py-12
       `);
     }
 
@@ -26,9 +26,9 @@ const styles = tw({
       ${common}
       pt-30
 
-      lg:pt-6
-      xl:px-20
-      xl:py-12
+      hecto:pt-6
+      giga:px-12
+      giga:py-12
     `);
   },
 });

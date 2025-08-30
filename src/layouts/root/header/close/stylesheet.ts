@@ -19,14 +19,14 @@ const styles = tw({
       return tw(`
         ${common}
 
-        md:hidden
+        base:hidden
       `);
     }
 
     return tw(`
       ${common}
 
-      lg:hidden
+      hecto:hidden
     `);
   },
 });

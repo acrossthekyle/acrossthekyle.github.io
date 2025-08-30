@@ -1,5 +1,3 @@
-import { useHierarchy } from '@/hooks/useHierarchy';
-
 import styles from './stylesheet';
 
 type Props = {
@@ -7,10 +5,8 @@ type Props = {
 };
 
 export default function FilterContainer({ children }: Props) {
-  const { isOnChild } = useHierarchy();
-
   return (
-    <section className={styles.container(isOnChild)}>
+    <section className={styles.container}>
       <ul className={styles.items}>
         {children}
       </ul>
