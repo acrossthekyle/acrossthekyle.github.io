@@ -10,7 +10,6 @@ export default function View() {
     <Article isFull>
       <header>
         <h1 className={styles.hero}>
-          <span className={styles.tab} />
           I'M A THRU-HIKER AND UI DEVELOPER SEEKING NEW WAYS TO MOVE FORWARD WITH INTENTION AND CURIOSITY.
         </h1>
         <span className={styles.since}>Since 1987</span>

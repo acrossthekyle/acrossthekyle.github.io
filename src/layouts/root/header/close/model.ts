@@ -11,7 +11,6 @@ export function useModel(): Model {
     isOnParent,
     isOnRoot,
     path,
-    searchParameters,
   } = useHierarchy();
 
   let uri = '/';
@@ -20,7 +19,7 @@ export function useModel(): Model {
     const route = routes.find(route => path.includes(route.base));
 
     if (route) {
-      uri = `${route.base}${searchParameters ? '?' : ''}${searchParameters}`;
+      uri = route.base;
     }
   };
 

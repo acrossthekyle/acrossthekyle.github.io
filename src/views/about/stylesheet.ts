@@ -13,10 +13,6 @@ const styles = tw({
     tera:text-7xl
     peta:text-8xl
   `,
-  tab: `
-    inline-block
-    w-1/5
-  `,
   since: `
     inline-block
     mt-2
@@ -60,10 +56,14 @@ const styles = tw({
   `,
   image: `
     aspect-3/2
-    object-cover
-    object-top
-    brightness-90
+    object-cover object-top
+    rounded-sm
+    brightness-40
     grayscale-100
+    duration-300
+
+    hover:brightness-90
+    hover:grayscale-0
   `,
   at: `
     block

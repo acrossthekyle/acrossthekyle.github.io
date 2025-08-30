@@ -1,12 +1,12 @@
 'use client';
 
-import { useCallback, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import { useTravels } from '@/hooks/useTravels';
 import type { Travel } from '@/types';
 
 type Model = {
-  handleOnViewMore: () => void;
+  handleOnScrollEnd: () => void;
   shown: number;
   travel?: Travel;
 };
@@ -25,12 +25,12 @@ export function useModel(slug: string): Model {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const handleOnViewMore = useCallback(() => {
-    setShown(shown + AMOUNT_SHOWN);
-  }, [shown]);
+  const handleOnScrollEnd = () => {
+    setShown((previous) => previous + AMOUNT_SHOWN);
+  };
 
   return {
-    handleOnViewMore,
+    handleOnScrollEnd,
     shown,
     travel,
   };

@@ -6,7 +6,6 @@ export default function Loading() {
     <>
       <header>
         <h1 className={`${about.hero} ${styles.skeleton}`}>
-          <span className={about.tab} />
           <span className={`${styles.hero} ${styles.small}`} />
           <span className={`${styles.hero} ${styles.medium}`} />
           <span className={`${styles.hero} ${styles.large}`} />

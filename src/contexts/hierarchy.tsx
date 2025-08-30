@@ -1,6 +1,6 @@
 'use client';
 
-import { usePathname, useSearchParams } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import { ReactNode, createContext } from 'react';
 
 type Props = {
@@ -14,13 +14,10 @@ export const HierarchyContext = createContext({
   isOnRoot: false,
   path: '',
   previous: '',
-  searchParameters: '',
 });
 
 export default function Hierarchy({ children }: Props) {
   const current = usePathname();
-
-  const searchParams = useSearchParams();
 
   const segments = current.split('').filter(character => character === '/');
 
@@ -39,7 +36,6 @@ export default function Hierarchy({ children }: Props) {
         isOnRoot,
         path: current,
         previous,
-        searchParameters: searchParams.toString(),
       }}
     >
       {children}

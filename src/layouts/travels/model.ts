@@ -1,13 +1,9 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
-import { useSearchParams } from 'next/navigation';
+import { useEffect, useRef } from 'react';
 
 import { useTravels } from '@/hooks/useTravels';
-import type { Filter } from '@/types';
 import { getDate } from '@/utils';
-
-import { filterBy, getFilters } from './utils';
 
 type Travel = {
   meta: string[];
@@ -16,41 +12,25 @@ type Travel = {
 };
 
 type Model = {
-  filters: Filter[];
   isLoading: boolean;
   ref: React.RefObject<HTMLAnchorElement | null>;
-  total: number;
   travels: Travel[];
 };
 
 export function useModel(): Model {
   const ref = useRef<HTMLAnchorElement | null>(null);
 
-  const [filters, setFilters] = useState<Filter[]>([]);
-
   const { all, isLoading, travels } = useTravels();
-
-  const searchParams = useSearchParams();
-
-  const filter = searchParams.get('filter');
 
   useEffect(() => {
     all();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  useEffect(() => {
-    if (travels) {
-      setFilters(getFilters(travels));
-    }
-  }, [travels]);
-
   return {
-    filters,
     isLoading,
     ref,
-    total: filters.reduce((total, filter) => total + filter.count, 0),
-    travels: filterBy(travels, filter).map((travel) => ({
+    travels: travels.map((travel) => ({
       meta: [travel.type, getDate(travel.date)],
       path: `/travels/${travel.slug}`,
       text: travel.title,

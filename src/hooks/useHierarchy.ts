@@ -11,7 +11,6 @@ type Model = {
   isOnRoot: boolean;
   path: string;
   previous: string;
-  searchParameters: string;
 };
 
 export function useHierarchy(): Model {

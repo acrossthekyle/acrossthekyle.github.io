@@ -4,7 +4,6 @@ import { Article } from '@/ui/article';
 
 import Description from './description';
 import Figure from './figure';
-import Footer from './footer';
 import Header from './header';
 import Loading from './loading';
 import Subheader from './subheader';
@@ -16,14 +15,14 @@ type Props = {
 };
 
 export default function View({ slug }: Props) {
-  const { handleOnViewMore, shown, travel } = useModel(slug);
+  const { handleOnScrollEnd, shown, travel } = useModel(slug);
 
   if (!travel) {
     return <Loading />;
   }
 
   return (
-    <Article>
+    <Article onScrollEnd={handleOnScrollEnd}>
       <Header
         title={travel.title}
         type={travel.type}
@@ -49,11 +48,6 @@ export default function View({ slug }: Props) {
           </li>
         ))}
       </ul>
-      <Footer
-        onViewMore={handleOnViewMore}
-        shown={shown}
-        travel={travel}
-      />
     </Article>
   );
 }

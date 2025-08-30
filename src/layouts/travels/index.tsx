@@ -11,14 +11,6 @@ import {
   DirectoryItems,
   DirectoryLoading,
 } from '@/ui/directory';
-import {
-  FilterCount,
-  FilterItem,
-  FilterLink,
-  FilterLoading,
-  FilterSlash,
-  Filters,
-} from '@/ui/filters';
 
 import { useModel } from './model';
 
@@ -27,60 +19,11 @@ type Props = {
 };
 
 export default function Layout({ children }: Props) {
-  const { filters, isLoading, ref, total, travels } = useModel();
+  const { isLoading, ref, travels } = useModel();
 
   return (
     <>
       <Directory align="start">
-        <Filters>
-          {isLoading && (
-            <>
-              <FilterItem>
-                <FilterLoading size="small" />
-              </FilterItem>
-              <FilterItem>
-                <FilterLoading size="medium" />
-              </FilterItem>
-              <FilterItem>
-                <FilterLoading size="large" />
-              </FilterItem>
-              <FilterItem>
-                <FilterLoading size="medium" />
-              </FilterItem>
-              <FilterItem>
-                <FilterLoading size="medium" />
-              </FilterItem>
-              <FilterItem>
-                <FilterLoading size="large" />
-              </FilterItem>
-              <FilterItem>
-                <FilterLoading size="medium" />
-              </FilterItem>
-            </>
-          )}
-          {!isLoading && (
-            <>
-              <FilterItem>
-                <FilterLink>
-                  All
-                  <FilterCount value={total}/>
-                </FilterLink>
-                <FilterSlash />
-              </FilterItem>
-              {filters.map((filter, index: number) => (
-                <FilterItem key={index}>
-                  <FilterLink parameter={filter.filter}>
-                    {filter.name}
-                    <FilterCount value={filter.count}/>
-                  </FilterLink>
-                  {index !== filters.length - 1 && (
-                    <FilterSlash />
-                  )}
-                </FilterItem>
-              ))}
-            </>
-          )}
-        </Filters>
         <DirectoryItems>
           {isLoading && Array.from({ length: 13 }).map((_, index) => (
             <DirectoryItem key={index} index={index}>

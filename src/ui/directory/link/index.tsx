@@ -6,7 +6,6 @@ import { useHierarchy } from '@/hooks/useHierarchy';
 
 import { useScroll } from './hooks';
 import styles from './stylesheet';
-import { decorateLink } from './utils';
 
 type Props = {
   children: React.ReactNode;
@@ -19,7 +18,7 @@ export default function DirectoryLink({
   href,
   ref,
 }: Props) {
-  const { isOnChild, path, previous, searchParameters } = useHierarchy();
+  const { isOnChild, path, previous } = useHierarchy();
 
   const isActive = path === href;
   const isExternal = href.includes('https://') || href.includes('mailto:');
@@ -29,10 +28,7 @@ export default function DirectoryLink({
   return (
     <Link
       className={styles.link(isOnChild, isActive)}
-      href={decorateLink(
-        isOnChild && isActive ? previous : href,
-        searchParameters,
-      )}
+      href={isOnChild && isActive ? previous : href}
       ref={isActive ? ref : undefined}
       rel={isExternal ? 'noreferrer' : undefined}
       target={isExternal ? '_blank' : undefined}
