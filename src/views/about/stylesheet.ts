@@ -47,6 +47,7 @@ const styles = tw({
     peta:text-lg
   `,
   me: `
+    relative
     flex-2
     font-mono
     text-sm text-left

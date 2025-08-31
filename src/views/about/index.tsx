@@ -1,8 +1,8 @@
-import Image from 'next/image';
 import Link from 'next/link';
 
 import { Article } from '@/ui/article';
 
+import Image from './image';
 import styles from './stylesheet';
 
 export default function View() {
@@ -23,13 +23,7 @@ export default function View() {
           </span>
         </p>
         <p className={styles.me}>
-          <Image
-            alt=""
-            className={styles.image}
-            height={1080}
-            src="2023/06/21/05769f04-5b00-4fd5-a233-55c00c9871c5.jpeg"
-            width={1920}
-          />
+          <Image />
         </p>
       </section>
       <section className={styles.section}>

@@ -46,7 +46,7 @@ const styles = tw({
     aspect-square
     bg-black
 
-    cenit:aspect-3/2
+    centi:aspect-3/2
   `,
   pulse: `
     relative
@@ -54,9 +54,9 @@ const styles = tw({
     bg-neutral-900
     animate-pulse
 
+    centi:aspect-3/2
     deci:w-full
     deci:h-full
-    deci:aspect-auto
   `,
   zoomed: `
     relative z-3
