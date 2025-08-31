@@ -20,7 +20,6 @@ const styles = tw({
 
         flex-1 flex-col
 
-        base:flex-0
         deka:px-12
         deka:py-12
       `);

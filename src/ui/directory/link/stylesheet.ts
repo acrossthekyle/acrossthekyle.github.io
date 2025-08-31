@@ -7,7 +7,6 @@ const styles = tw({
 
       uppercase
       duration-200
-      overflow-hidden
     `;
 
     if (isOnChild) {
@@ -15,6 +14,7 @@ const styles = tw({
         text-7xl/14
         font-stretch-ultra-condensed
 
+        mega:text-8xl/18
         tera:text-9xl/26
         tera:font-stretch-extra-condensed
       `;

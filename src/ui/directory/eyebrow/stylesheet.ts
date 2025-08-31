@@ -2,20 +2,27 @@ import tw from '@/styles';
 
 const styles = tw({
   eyebrow: `
-    relative top-0
-    flex gap-2
+    block
     mb-1
-    text-sm/3
-    font-light font-stretch-condensed
-    tracking-normal
-    duration-300
+    text-sm
   `,
   text: `
-    block
+    inline
+    text-xs/3
+    font-light font-stretch-condensed
+    tracking-normal
+
+    milli:text-sm/3
   `,
   slash: `
-    w-3 h-3
-    stroke-1
+    inline-block
+    mx-1 -mt-0.5
+    w-2 h-2
+    stroke-2
+
+    milli:w-3
+    milli:h-3
+    milli:mx-2
   `,
 });
 

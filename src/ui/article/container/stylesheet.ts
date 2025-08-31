@@ -14,7 +14,7 @@ const styles = tw({
     if (isFull) {
       return tw(`
         ${common}
-        pt-30
+        pt-20
 
         base:pt-6
         deka:px-12
@@ -24,7 +24,7 @@ const styles = tw({
 
     return tw(`
       ${common}
-      pt-30
+      pt-20
 
       hecto:pt-6
       giga:px-12

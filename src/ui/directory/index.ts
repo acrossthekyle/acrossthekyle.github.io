@@ -4,5 +4,6 @@ export { default as DirectoryItem } from './item';
 export { default as DirectoryItems } from './items';
 export { default as DirectoryLink } from './link';
 export { default as DirectoryLoading } from './loading';
+export { default as DirectoryNumber } from './number';
 export { default as DirectoryText } from './text';
 export { default as DirectoryTitle } from './title';

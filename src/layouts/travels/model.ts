@@ -31,7 +31,7 @@ export function useModel(): Model {
     isLoading,
     ref,
     travels: travels.map((travel) => ({
-      meta: [travel.type, getDate(travel.date)],
+      meta: [travel.location, getDate(travel.date)],
       path: `/travels/${travel.slug}`,
       text: travel.title,
     })),

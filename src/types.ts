@@ -71,9 +71,3 @@ export type Travel = {
   title: string[];
   type: string;
 };
-
-export type Filter = {
-  count: number;
-  filter: string;
-  name: string;
-};

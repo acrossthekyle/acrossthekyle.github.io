@@ -7,6 +7,7 @@ import {
   DirectoryItem,
   DirectoryEyebrow,
   DirectoryLink,
+  DirectoryNumber,
   DirectoryText,
   DirectoryItems,
   DirectoryLoading,
@@ -33,8 +34,10 @@ export default function Layout({ children }: Props) {
           {!isLoading && travels.map((travel, index: number) => (
             <DirectoryItem index={index} key={index}>
               <DirectoryLink href={travel.path} ref={ref}>
-                <DirectoryEyebrow text={travel.meta} />
-                <DirectoryText index={index} text={travel.text} />
+                <DirectoryEyebrow text={travel.meta}>
+                  <DirectoryNumber index={index} />
+                </DirectoryEyebrow>
+                <DirectoryText text={travel.text} />
               </DirectoryLink>
             </DirectoryItem>
           ))}

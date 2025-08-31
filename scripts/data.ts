@@ -387,7 +387,6 @@ async function getStages(folder) {
         date: `${formatDate(date, 'MM')}.${formatDate(date, 'dd')}.${formatDate(date, 'yyyy')}`,
         elevation,
         hasStats: !Object.values(stats).every(value => value === null),
-        id: generateId(),
         images: {
           hero: data.image,
           supplementary: data.images || [],

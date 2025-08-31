@@ -5,12 +5,14 @@ const styles = tw({
     const common = `
       flex-1
       ${align === 'end' && 'flex flex-col'}
-      pl-6 py-6 pr-6
+      px-6 py-6
       scroll-smooth
       overflow-y-scroll
       duration-300
 
       ${align === 'end' && 'justify-end'}
+
+      base:flex-none
     `;
 
     if (isOnChild) {
@@ -19,8 +21,11 @@ const styles = tw({
         hidden
 
         hecto:block
+        hecto:w-80
         mega:pl-10
         mega:pr-6
+        mega:w-100
+        giga:w-100
         giga:py-12
       `);
     }
@@ -28,7 +33,8 @@ const styles = tw({
     return tw(`
       ${common}
 
-      pt-30
+      pt-20
+      w-full
 
       base:pt-6
       base:pl-12

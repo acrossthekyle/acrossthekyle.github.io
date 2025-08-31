@@ -1,84 +1,58 @@
 import tw from '@/styles';
 
 const styles = tw({
+  header: `
+    mb-12
+  `,
   hero: `
-    text-2xl text-justify
-    font-black font-stretch-semi-condensed
+    text-4xl text-justify [text-align-last:justify]
+    font-black font-stretch-condensed
     uppercase
+    tracking-tighter
 
-    deci:text-3xl
-    base:text-4xl
-    deka:text-5xl
-    giga:text-6xl
-    tera:text-7xl
+    base:tracking-normal
+    deka:text-6xl
+    giga:text-7xl
     peta:text-8xl
   `,
-  since: `
+  highlight: `
     inline-block
-    mt-2
+    mt-4
     p-2 py-1
-    text-black text-tiny
+    text-black text-sm
     font-normal font-mono
-    bg-yellow-300
-
-    deci:text-xs
-  `,
-  introduction: `
-    flex flex-col gap-10
-    my-10
-
-    kilo:flex-row
-  `,
-  blurb: `
-    flex-1
-    text-lg text-justify
-
-    deci:text-xl
-    tera:text-2xl
-    peta:text-4xl
-  `,
-  socials: `
-    block
-    mt-6
-    font-mono
-    text-sm
-
-    giga:mt-12
-    peta:text-lg
-  `,
-  me: `
-    relative
-    flex-2
-    font-mono
-    text-sm text-left
-
-    deci:text-right
-    peta:text-lg
-  `,
-  image: `
-    aspect-3/2
-    object-cover object-top
-    rounded-sm
-    brightness-40
-    grayscale-100
-    duration-300
-
-    hover:brightness-90
-    hover:grayscale-0
-  `,
-  at: `
-    block
-    text-yellow-300
+    bg-yellow-300/90
+    lowercase
   `,
   link: `
     text-yellow-300
   `,
-  section: `
-    flex flex-col-reverse gap-10
-    mt-20
+  introduction: `
+    flex justify-between flex-col gap-10
+    mb-12
+    pb-12
+    border-b-1 border-b-white/25
 
     kilo:flex-row
-    giga:mt-40
+  `,
+  blurb: `
+    text-2xl
+    font-light
+
+    base:text-3xl
+    peta:text-4xl
+  `,
+  section: `
+    flex flex-col gap-10
+    mb-12
+    pb-12
+    border-b-1 border-b-white/25
+
+    kilo:flex-row-reverse
+
+    last:mb-0
+    last:border-0
+    last:pb-0
   `,
   left: `
     flex-1
@@ -88,11 +62,14 @@ const styles = tw({
     text-lg text-justify
 
     peta:text-3xl
+
+    last:mb-0
   `,
   right: `
     flex-1
-    flex flex-col gap-10 justify-between
+    flex flex-col gap-6 justify-between
 
+    milli:gap-10
     centi:flex-row
   `,
   heading: `
@@ -120,7 +97,6 @@ const styles = tw({
   `,
   list: `
     flex flex-col gap-4
-    mt-4
   `,
   place: `
     font-semibold

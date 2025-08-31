@@ -38,7 +38,7 @@ export default function View() {
           <DirectoryItem index={index} key={index}>
             <DirectoryLink href={item.path}>
               <DirectoryEyebrow text={item.meta} />
-              <DirectoryText index={index} text={item.text} />
+              <DirectoryText text={item.text} />
             </DirectoryLink>
           </DirectoryItem>
         ))}

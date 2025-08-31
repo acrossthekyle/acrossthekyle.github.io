@@ -4,12 +4,12 @@ const styles = tw({
   title: `
     block
     mb-6
-    text-4xl/8
+    text-5xl/10
     font-bold font-stretch-extra-condensed
     tracking-tighter
     uppercase
 
-    pico:text-5xl/10
+    pico:text-6xl/12
     nano:text-7xl/14
     milli:text-7xl/14
     milli:font-stretch-semi-condensed
@@ -20,12 +20,11 @@ const styles = tw({
   block: `block`,
   meta: `
     flex gap-2
-    text-tiny/3
+    text-xs/3
     font-light font-stretch-condensed
     tracking-normal
-    mb-3
+    mb-2
 
-    nano:text-xs/3
     milli:text-sm/3
   `,
   slash: `
