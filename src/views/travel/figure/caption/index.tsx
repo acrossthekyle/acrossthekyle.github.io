@@ -1,4 +1,4 @@
-import { Slash } from 'lucide-react';
+import { MoveRight, Slash } from 'lucide-react';
 
 import type { Stage } from '@/types';
 
@@ -13,54 +13,19 @@ type Props = {
 export default function Caption({ label, stage, total }: Props) {
   return (
     <figcaption className={styles.caption}>
-      <h2 className={styles.heading}>
-        <span className={styles.index}>
-          {label}{' '}
-          {String(stage.index + 1).padStart(3, '0')}{' '}
-          <Slash className={styles.slash} />{' '}
-          {String(total).padStart(3, '0')}
-        </span>
-        {stage.termini.end.join(' ')}
-      </h2>
-      <p className={styles.subheading}>
-        {(!stage.termini.isSame || !!stage.location) && (
-          <span className={styles.highlight}>
-            {!stage.termini.isSame && 'Via '}
-            {!!stage.location ? stage.location : (!stage.termini.isSame ? `${stage.termini.start.join(' ')}` : '')}
-          </span>
-        )}
-        {stage.hasStats && (
-          <>
-            {!stage.termini.isSame && <span className={styles.break}>-</span>}
-            <span className={styles.highlight}>
-              {label === 'summit' && stage.stats.max && (
-                <>
-                  {stage.stats.max.value.imperial}{' '}
-                  {stage.stats.max.units.imperial.abbreviated} max alt.
-                </>
-              )}
-              {label !== 'summit' && stage.stats.distance && (
-                <>
-                  {stage.stats.distance.value.imperial}{' '}
-                  {stage.stats.distance.units.imperial.full}
-                </>
-              )}
-              {' '}/{' '}
-              {stage.stats.time && (
-                <>
-                  {stage.stats.time.value}{' '}
-                  {stage.stats.time.units}
-                </>
-              )}
-            </span>
-          </>
-        )}
-      </p>
-      <p className={styles.subheading}>
-        <span className={styles.highlight}>
-          {stage.date}
-        </span>
-      </p>
+      <span className={styles.index}>
+        <span className={styles.label}>{label}</span>
+        {String(stage.index + 1).padStart(3, '0')}{' '}
+        <Slash className={styles.slash} />{' '}
+        {String(total).padStart(3, '0')}
+      </span>
+      {!stage.termini.isSame && (
+        <>
+          {stage.termini.start.join(' ')}{' '}
+          <MoveRight className={styles.arrow} />{' '}
+        </>
+      )}
+      {stage.termini.end.join(' ')}
     </figcaption>
   );
 }

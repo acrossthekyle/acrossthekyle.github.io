@@ -2,13 +2,12 @@ import tw from '@/styles';
 
 const styles = tw({
   heading: `
-    text-2xl/5
+    text-2xl/6
     font-bold font-stretch-ultra-condensed
     uppercase
     me-4
     mt-4 mb-8
 
-    nano:text-2xl/5
     base:me-8
     mega:text-5xl/10
   `,

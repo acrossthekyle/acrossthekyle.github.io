@@ -20,12 +20,10 @@ const styles = tw({
   block: `block`,
   meta: `
     flex gap-2
-    text-xs/3
+    text-sm/3
     font-light font-stretch-condensed
     tracking-normal
     mb-2
-
-    milli:text-sm/3
   `,
   slash: `
     w-3 h-3

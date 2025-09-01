@@ -3,10 +3,8 @@
 import { useEffect, useRef } from 'react';
 
 import { useTravels } from '@/hooks/useTravels';
-import { getDate } from '@/utils';
 
 type Travel = {
-  meta: string[];
   path: string;
   text: string[];
 };
@@ -31,7 +29,6 @@ export function useModel(): Model {
     isLoading,
     ref,
     travels: travels.map((travel) => ({
-      meta: [travel.location, getDate(travel.date)],
       path: `/travels/${travel.slug}`,
       text: travel.title,
     })),

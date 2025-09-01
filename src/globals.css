@@ -10,7 +10,7 @@
 }
 
 @theme {
-  --breakpoint-pico: 19.0625rem; /* 305p */
+  --breakpoint-pico: 20.9375rem; /* 330px */
   --breakpoint-nano: 22.5rem; /* 360px */
   --breakpoint-micro: 25.625rem; /* 410px */
   --breakpoint-milli: 30rem; /* 480px */

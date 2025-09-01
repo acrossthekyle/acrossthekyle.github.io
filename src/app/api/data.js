@@ -2470,7 +2470,7 @@ const data = [
         "units": null
       }
     },
-    "tagline": "A challenging trail on an island in the Mediterranean",
+    "tagline": "A challenging Mediterranean island trail",
     "title": [
       "GR 20"
     ],
@@ -2700,17 +2700,17 @@ const data = [
         "termini": {
           "end": [
             "Tomb of",
-            "Ramses V/VI"
+            "Ramses V"
           ],
           "isSame": true,
           "start": [
             "Tomb of",
-            "Ramses V/VI"
+            "Ramses V"
           ]
         },
         "title": [
           "Tomb of",
-          "Ramses V/VI"
+          "Ramses V"
         ]
       },
       {
@@ -4288,6 +4288,7 @@ const data = [
         },
         "termini": {
           "end": [
+            "Refugio",
             "Seron"
           ],
           "isSame": false,
@@ -4299,6 +4300,7 @@ const data = [
         "title": [
           "Laguna",
           "Amarga to",
+          "Refugio",
           "Seron"
         ]
       },
@@ -4388,15 +4390,19 @@ const data = [
         },
         "termini": {
           "end": [
+            "Refugio",
             "Dickson"
           ],
           "isSame": false,
           "start": [
+            "Refugio",
             "Seron"
           ]
         },
         "title": [
+          "Refugio",
           "Seron to",
+          "Refugio",
           "Dickson"
         ]
       },
@@ -4486,15 +4492,19 @@ const data = [
         },
         "termini": {
           "end": [
+            "Refugio",
             "Perros"
           ],
           "isSame": false,
           "start": [
+            "Refugio",
             "Dickson"
           ]
         },
         "title": [
+          "Refugio",
           "Dickson to",
+          "Refugio",
           "Perros"
         ]
       },
@@ -4584,15 +4594,19 @@ const data = [
         },
         "termini": {
           "end": [
+            "Refugio",
             "Grey"
           ],
           "isSame": false,
           "start": [
+            "Refugio",
             "Perros"
           ]
         },
         "title": [
+          "Refugio",
           "Perros to",
+          "Refugio",
           "Grey"
         ]
       },
@@ -4682,16 +4696,20 @@ const data = [
         },
         "termini": {
           "end": [
+            "Refugio",
             "Paine",
             "Grande"
           ],
           "isSame": false,
           "start": [
+            "Refugio",
             "Grey"
           ]
         },
         "title": [
+          "Refugio",
           "Grey to",
+          "Refugio",
           "Paine",
           "Grande"
         ]
@@ -4782,17 +4800,21 @@ const data = [
         },
         "termini": {
           "end": [
+            "Refugio",
             "Frances"
           ],
           "isSame": false,
           "start": [
+            "Refugio",
             "Paine",
             "Grande"
           ]
         },
         "title": [
+          "Refugio",
           "Paine",
           "Grande to",
+          "Refugio",
           "Frances"
         ]
       },
@@ -4882,15 +4904,19 @@ const data = [
         },
         "termini": {
           "end": [
+            "Refugio",
             "Chileno"
           ],
           "isSame": false,
           "start": [
+            "Refugio",
             "Frances"
           ]
         },
         "title": [
+          "Refugio",
           "Frances to",
+          "Refugio",
           "Chileno"
         ]
       },
@@ -4985,10 +5011,12 @@ const data = [
           ],
           "isSame": false,
           "start": [
+            "Refugio",
             "Chileno"
           ]
         },
         "title": [
+          "Refugio",
           "Chileno to",
           "Laguna",
           "Amarga"
@@ -7860,6 +7888,7 @@ const data = [
         },
         "termini": {
           "end": [
+            "Rifugio",
             "Biella"
           ],
           "isSame": false,
@@ -7869,6 +7898,7 @@ const data = [
         },
         "title": [
           "Braies to",
+          "Rifugio",
           "Biella"
         ]
       },
@@ -7958,15 +7988,19 @@ const data = [
         },
         "termini": {
           "end": [
+            "Rifugio",
             "Lavarella"
           ],
           "isSame": false,
           "start": [
+            "Rifugio",
             "Biella"
           ]
         },
         "title": [
+          "Rifugio",
           "Biella to",
+          "Rifugio",
           "Lavarella"
         ]
       },
@@ -8056,16 +8090,20 @@ const data = [
         },
         "termini": {
           "end": [
+            "Rifugio",
             "Scotoni"
           ],
           "isSame": false,
           "start": [
+            "Rifugio",
             "Lavarella"
           ]
         },
         "title": [
+          "Rifugio",
           "Lavarella",
-          "to Scotoni"
+          "to Rifugio",
+          "Scotoni"
         ]
       },
       {
@@ -8154,15 +8192,19 @@ const data = [
         },
         "termini": {
           "end": [
+            "Rifugio",
             "Averau"
           ],
           "isSame": false,
           "start": [
+            "Rifugio",
             "Scotoni"
           ]
         },
         "title": [
+          "Rifugio",
           "Scotoni to",
+          "Rifugio",
           "Averau"
         ]
       },
@@ -8252,16 +8294,20 @@ const data = [
         },
         "termini": {
           "end": [
+            "Rifugio",
             "Citta de",
             "Fume"
           ],
           "isSame": false,
           "start": [
+            "Rifugio",
             "Averau"
           ]
         },
         "title": [
+          "Rifugio",
           "Averau to",
+          "Rifugio",
           "Citta de",
           "Fume"
         ]
@@ -8352,17 +8398,21 @@ const data = [
         },
         "termini": {
           "end": [
+            "Rifugio",
             "Tissi"
           ],
           "isSame": false,
           "start": [
+            "Rifugio",
             "Citta de",
             "Fume"
           ]
         },
         "title": [
+          "Rifugio",
           "Citta de",
           "Fume to",
+          "Rifugio",
           "Tissi"
         ]
       },
@@ -8452,15 +8502,19 @@ const data = [
         },
         "termini": {
           "end": [
+            "Rifugio",
             "Carestiato"
           ],
           "isSame": false,
           "start": [
+            "Rifugio",
             "Tissi"
           ]
         },
         "title": [
+          "Rifugio",
           "Tissi to",
+          "Rifugio",
           "Carestiato"
         ]
       },
@@ -8550,16 +8604,19 @@ const data = [
         },
         "termini": {
           "end": [
+            "Rifugio",
             "Pramperet"
           ],
           "isSame": false,
           "start": [
+            "Rifugio",
             "Carestiato"
           ]
         },
         "title": [
+          "Rifugio",
           "Carestiato",
-          "to",
+          "to Rifugio",
           "Pramperet"
         ]
       },
@@ -8649,17 +8706,21 @@ const data = [
         },
         "termini": {
           "end": [
+            "Rifugio",
             "Pian de",
             "Fontana"
           ],
           "isSame": false,
           "start": [
+            "Rifugio",
             "Pramperet"
           ]
         },
         "title": [
+          "Rifugio",
           "Pramperet",
-          "to Pian de",
+          "to Rifugio",
+          "Pian de",
           "Fontana"
         ]
       },
@@ -8749,18 +8810,22 @@ const data = [
         },
         "termini": {
           "end": [
-            "La Pissa"
+            "La Pissa",
+            "Bus Stop"
           ],
           "isSame": false,
           "start": [
+            "Rifugio",
             "Pian de",
             "Fontana"
           ]
         },
         "title": [
+          "Rifugio",
           "Pian de",
           "Fontana to",
-          "La Pissa"
+          "La Pissa",
+          "Bus Stop"
         ]
       }
     ],

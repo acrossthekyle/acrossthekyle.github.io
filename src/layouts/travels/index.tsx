@@ -5,7 +5,6 @@ import { ReactNode } from 'react';
 import {
   Directory,
   DirectoryItem,
-  DirectoryEyebrow,
   DirectoryLink,
   DirectoryText,
   DirectoryItems,
@@ -33,7 +32,6 @@ export default function Layout({ children }: Props) {
           {!isLoading && travels.map((travel, index: number) => (
             <DirectoryItem index={index} key={index}>
               <DirectoryLink href={travel.path} ref={ref}>
-                <DirectoryEyebrow text={travel.meta} />
                 <DirectoryText text={travel.text} />
               </DirectoryLink>
             </DirectoryItem>

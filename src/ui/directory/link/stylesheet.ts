@@ -45,12 +45,12 @@ const styles = tw({
     return tw(`
       ${root}
 
-      text-4xl/7
+      text-5xl/10
       font-black font-stretch-extra-condensed
       tracking-tighter
 
-      pico:text-5xl/10
-      nano:text-6xl/12
+      pico:text-6xl/12
+      milli:text-7xl/14
       milli:font-stretch-semi-condensed
       deci:text-8xl/18
       base:text-7xl/14
