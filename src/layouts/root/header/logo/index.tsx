@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <Link className={styles.logo(isOnRoot, isOnParent)} href="/">
-      @
+      •.*
     </Link>
   );
 }

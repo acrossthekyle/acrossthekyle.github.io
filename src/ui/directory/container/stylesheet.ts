@@ -33,7 +33,7 @@ const styles = tw({
     return tw(`
       ${common}
 
-      pt-20
+      pt-25
       w-full
 
       base:pt-6

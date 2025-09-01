@@ -4,7 +4,7 @@ const styles = tw({
   index: `
     inline-block
     mr-1
-    text-xs text-yellow-300/90
+    text-xs
     font-light font-stretch-condensed
     tracking-normal
 

@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   item: `
-    mb-1
+    mb-4
     opacity-0
     animate-elastic-in-from-right
 

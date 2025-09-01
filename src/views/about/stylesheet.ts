@@ -33,11 +33,12 @@ const styles = tw({
     pb-12
     border-b-1 border-b-white/25
 
+    kilo:gap-50
     kilo:flex-row
   `,
   blurb: `
     text-2xl
-    font-light
+    font-medium
 
     base:text-3xl
     peta:text-4xl
@@ -100,7 +101,6 @@ const styles = tw({
   `,
   place: `
     font-semibold
-    uppercase
 
     peta:text-2xl
   `,

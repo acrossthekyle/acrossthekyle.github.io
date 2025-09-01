@@ -9,32 +9,34 @@ export default function View() {
     <Article isFull>
       <header className={styles.header}>
         <h1 className={styles.hero}>
-          A thru-hiker and UI developer seeking new ways to move forward wanderfully
+          I'm a thru-hiker and UI developer seeking new ways to move forward wanderfully
         </h1>
         <span className={styles.highlight}>
-          <Link
-            href="https://instagram.com/acrossthekyle"
-            rel="noreferrer"
-            target="_blank"
-          >
-            @acrossthekyle
-          </Link>
+          Since 1987
         </span>
       </header>
       <section className={styles.introduction}>
         <p className={styles.blurb}>
-          Hello, I'm Kyle, a software engineer who calls Chicago home, and hiking long-distance trails a vacation.
+          Hey, my name's Kyle: a software engineer with zero awards or recognitions who calls Chicago (Potawatomi, Ojibwe, and Odawa lands) home, and hiking long-distance trails a vacation.
         </p>
         <p className={styles.tags}>
-          #wanderfulthruhiker
+          #wanderlust
         </p>
       </section>
       <section className={styles.section}>
         <div className={styles.right}>
           <h3 className={styles.heading}>
-            UI<br />
-            Developer<br />
-            <span className={styles.highlight}>2012 &ndash; {new Date().getFullYear()}</span>
+            Code<br />
+            Tinkerer<br />
+            <span className={styles.highlight}>
+              <Link
+                href="https://github.com/acrossthekyle/acrossthekyle.github.io"
+                target="_blank"
+                rel="noreferrer"
+              >
+                @github
+              </Link>
+            </span>
           </h3>
           <div className={styles.timeline}>
             <ul className={styles.list}>
@@ -43,7 +45,8 @@ export default function View() {
                   Optum
                 </h5>
                 <p className={styles.when}>
-                  From 2020
+                  Senior Software Engineer II<br />
+                  2020 - {new Date().getFullYear()}
                 </p>
               </li>
               <li>
@@ -51,6 +54,7 @@ export default function View() {
                   Rally Health
                 </h5>
                 <p className={styles.when}>
+                  Senior Frontend Engineer<br />
                   2018 - 2020
                 </p>
               </li>
@@ -59,6 +63,7 @@ export default function View() {
                   Earlybird
                 </h5>
                 <p className={styles.when}>
+                  Fullstack Web Developer<br />
                   2015 - 2018
                 </p>
               </li>
@@ -67,6 +72,7 @@ export default function View() {
                   Red Frog
                 </h5>
                 <p className={styles.when}>
+                  Web Developer<br />
                   2013 - 2015
                 </p>
               </li>
@@ -75,6 +81,7 @@ export default function View() {
                   Silverline
                 </h5>
                 <p className={styles.when}>
+                  Junior Web Developer<br />
                   2012 - 2013
                 </p>
               </li>
@@ -83,7 +90,7 @@ export default function View() {
         </div>
         <div className={styles.left}>
           <p className={styles.paragraph}>
-            I like to make pretty things with code, and the fact that{' '}
+            I like to make crafty things with code, and the fact that{' '}
             <Link
               className={styles.link}
               href="https://raw.githubusercontent.com/acrossthekyle/acrossthekyle.github.io/refs/heads/main/src/views/about/index.tsx"
@@ -91,25 +98,34 @@ export default function View() {
               rel="noreferrer"
             >
               this code
-            </Link> becomes the page you're on thrills me to no end.
+            </Link>{' '}
+            becomes the page you're on thrills me to no end.
           </p>
           <p className={styles.paragraph}>
             I work full-time at Optum where I employ more than {new Date().getFullYear() - 2012} years of insight, impacting millions. I have a passion for creating digital experiences with attention to detail, and an ability to adapt, producing products and features that last for years, or until the design team wants to redo it.
           </p>
           <p className={styles.paragraph}>
-            Some tools of the trade include Javascript, otherwise known as the brains of the operation, a friendly fact-checker of code called Typescript, the HTML bones of all websites in the world, and the renowned CSS stylist of the world wide web.
+            Some tools of the trade include <span className="font-mono">Javascript</span>, otherwise known as the brains of the operation, a friendly fact-checker of code called <span className="font-mono">Typescript</span>, the <span className="font-mono">HTML</span> bones of all websites in the world, and the renowned <span className="font-mono">CSS</span> stylist of the world wide web. Occasionally I'll throw in some <span className="font-mono">Python</span>, and <span className="font-mono">MySQL</span>, if I need to do cloud-based things.
           </p>
           <p className={styles.paragraph}>
-            Working as a UI Developer affords me the ability to travel around the world...
+            Working as a software engineer also affords me the ability to travel around the world...
           </p>
         </div>
       </section>
       <section className={styles.section}>
         <div className={styles.right}>
           <h3 className={styles.heading}>
-            Thru<br />
-            Hiker<br />
-            <span className={styles.highlight}>2018 &ndash; {new Date().getFullYear()}</span>
+            Trail<br />
+            Walker<br />
+            <span className={styles.highlight}>
+              <Link
+                href="https://instagram.com/acrossthekyle"
+                rel="noreferrer"
+                target="_blank"
+              >
+                @acrossthekyle
+              </Link>
+            </span>
           </h3>
           <div className={styles.timeline}>
             <ul className={styles.list}>

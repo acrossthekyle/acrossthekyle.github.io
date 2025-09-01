@@ -3,8 +3,10 @@ import tw from '@/styles';
 const styles = tw({
   eyebrow: `
     block
-    mb-1
+    mb-0
     text-sm
+
+    milli:mb-1
   `,
   text: `
     inline

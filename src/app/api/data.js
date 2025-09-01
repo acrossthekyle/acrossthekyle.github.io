@@ -10387,13 +10387,13 @@ const data = [
       ]
     },
     "description": [
-      "A series of ancient routes that unfold across Europe, the Camino de Santiago (or Camino) is a network of continously used trails since medieval times leading to the city of Santiago de Compostela in northwestern Spain. The most popular route is the Camino Frances which goes from the border of France all the way to the Atlantic ocean, and takes several weeks to complete.",
+      "A series of ancient routes that unfold across Europe, the Camino de Santiago (or Camino) is a network of continously used trails since medieval times leading to the city of Santiago de Compostela in northwestern Spain. The most popular route is the Camino Frances which goes from the border of France all the way to the Atlantic ocean, crossing the Navarra, La Rioja, Castile and León, and Galicia regions, taking several weeks to complete.",
       "This was my first long-distance trail, and after much preparation I flew to Spain at the end of May 2018 and started the trail on June 2nd. The Camino wears you down over the first few days, but then builds you back up, and after the first week I was walking 15 - 25 miles daily, all leading towards the city of Santiago and the Atlantic ocean. I spent 32 days walking 534 miles over hills and mountains, through deserts, and swimming in rivers, to reach the ocean.",
       "It's hard to capture 32 worth of experiences in these few snapshots, but hopefully they offer a picture of my journey on this adventure, and a glimpse into the time spent on this thru-hike."
     ],
     "index": 14,
     "label": "day",
-    "location": "Navarra, La Rioja, Castile and León, and Galicia, Spain",
+    "location": "Northern Spain",
     "slug": "camino-de-santiago",
     "stages": [
       {

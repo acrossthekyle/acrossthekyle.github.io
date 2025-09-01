@@ -11,8 +11,8 @@ import Loader from './loader';
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | K',
-    default: 'K',
+    template: '%s | Kyle',
+    default: 'Kyle',
   },
   keywords: ['across', 'the', 'kyle', 'Kyle', 'Gilbert', 'Thru-hiker', 'UI Developer'],
   description: `I'm a thru-hiker and UI developer seeking new ways to move forward with intention and curiosity`,

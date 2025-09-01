@@ -19,14 +19,9 @@ const items = [
     text: ['LinkedIn'],
   },
   {
-    meta: ['Pictures from my travels'],
+    meta: ['Pictures from my wanderings'],
     path: 'https://instagram.com/acrossthekyle',
     text: ['Instagram'],
-  },
-  {
-    meta: ['My coding projects'],
-    path: 'https://github.com/acrossthekyle/acrossthekyle.github.io',
-    text: ['GitHub'],
   },
 ];
 

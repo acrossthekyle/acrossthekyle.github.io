@@ -4,9 +4,14 @@ const styles = {
   logo: (isOnRoot: boolean, isOnParent: boolean) => {
     const common = `
       absolute top-6
-      text-xl
-      font-black font-stretch-condensed
-      uppercase
+      flex items-center justify-center
+      text-base text-black
+      font-black
+      bg-white/90 rounded-full
+      w-8 h-8
+      duration-300
+
+      hover:bg-yellow-300/90
     `;
 
     if (isOnRoot) {
@@ -24,10 +29,10 @@ const styles = {
       return tw(`
         ${common}
 
-        right-6
-        left-auto
+        left-full
+        -ml-13
 
-        base:right-auto
+        hecto:ml-0
         base:left-6
         deka:left-12
         deka:top-12
@@ -37,10 +42,10 @@ const styles = {
     return tw(`
       ${common}
 
-      right-6
-      left-auto
+      left-full
+      -ml-13
 
-      hecto:right-auto
+      hecto:ml-0
       hecto:left-6
       giga:left-12
       giga:top-12
