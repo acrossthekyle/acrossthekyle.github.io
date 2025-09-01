@@ -2,7 +2,10 @@ import tw from '@/styles';
 
 const styles = tw({
   header: `
-    mb-12
+    relative z-1
+    mb-8
+
+    deka:mb-0
   `,
   hero: `
     text-4xl text-justify [text-align-last:justify]
@@ -13,43 +16,66 @@ const styles = tw({
     base:tracking-normal
     deka:text-6xl
     giga:text-7xl
-    peta:text-8xl
+    tera:text-8xl
+    peta:text-9xl
   `,
   highlight: `
     inline-block
-    mt-4
+    mt-2 mb-4
     p-2 py-1
     text-black text-sm
     font-normal font-mono
     bg-yellow-300/90
-    lowercase
+
+    tera:text-lg
   `,
   link: `
     text-yellow-300
   `,
+  external: `
+    inline-block
+    mt-2 mb-4
+    text-yellow-300/90 text-base
+    font-normal font-mono
+
+    tera:text-lg
+  `,
+  arrow: `
+    inline-block
+    ml-0.75 -mt-0.25
+    w-4 h-4
+    stroke-2
+    stroke-yellow-300/90
+  `,
   introduction: `
-    flex justify-between flex-col gap-10
-    mb-12
-    pb-12
+    relative z-0
+    flex items-center justify-between flex-col-reverse gap-10
+    mb-16
+    pb-16
     border-b-1 border-b-white/25
 
-    kilo:gap-50
-    kilo:flex-row
+    centi:items-end
+    centi:flex-row
   `,
   blurb: `
-    text-2xl
+    w-full
+    text-xl text-justify
     font-medium
 
-    base:text-3xl
-    peta:text-4xl
+    centi:w-120
+    base:text-2xl
+    tera:w-160
+    tera:text-3xl
+    peta:w-200
+    peta:text-5xl
   `,
   section: `
     flex flex-col gap-10
-    mb-12
-    pb-12
+    mb-16
+    pb-16
     border-b-1 border-b-white/25
 
-    kilo:flex-row-reverse
+    kilo:flex-row
 
     last:mb-0
     last:border-0
@@ -62,6 +88,7 @@ const styles = tw({
     mb-4
     text-lg text-justify
 
+    tera:text-2xl
     peta:text-3xl
 
     last:mb-0
@@ -75,13 +102,14 @@ const styles = tw({
   `,
   heading: `
     w-40
-    text-2xl
+    text-3xl
     font-black
     uppercase
 
+    kilo:text-4xl
     giga:w-50
-    giga:text-4xl
-    peta:text-5xl
+    giga:text-5xl
+    peta:text-6xl
   `,
   subheading: `
     text-lg
@@ -91,24 +119,27 @@ const styles = tw({
     peta:text-2xl
   `,
   timeline: `
-    w-50
+    grid grid-cols-2 gap-4
     text-left
 
+    centi:w-50
+    centi:flex
+    centi:flex-col
     centi:text-right
-  `,
-  list: `
-    flex flex-col gap-4
+    tera:w-80
   `,
   place: `
     font-semibold
 
-    peta:text-2xl
+    tera:text-2xl
+    peta:text-4xl
   `,
   when: `
     text-sm
     font-light
 
-    peta:text-xl
+    tera:text-xl
+    peta:text-2xl
   `,
 });
 

@@ -1,7 +1,9 @@
+import { ArrowUpRight } from 'lucide-react';
 import Link from 'next/link';
 
 import { Article } from '@/ui/article';
 
+import Image from './image';
 import styles from './stylesheet';
 
 export default function View() {
@@ -9,84 +11,81 @@ export default function View() {
     <Article isFull>
       <header className={styles.header}>
         <h1 className={styles.hero}>
-          I'm a thru-hiker and UI developer seeking new ways to move forward wanderfully
+          I'm a thru-hiker and UI developer seeking new ways to move forward with wanderful intent
         </h1>
         <span className={styles.highlight}>
-          Since 1987
+          Making tracks since 1987
         </span>
       </header>
       <section className={styles.introduction}>
         <p className={styles.blurb}>
-          Hey, my name's Kyle: a software engineer with zero awards or recognitions who calls Chicago (Potawatomi, Ojibwe, and Odawa lands) home, and hiking long-distance trails a vacation.
+          I'm a developer with zero awards or recognitions who lives on the lands belonging to the <span className="font-serif italic">Potawatomi, Ojibwe,</span> and <span className="font-serif italic">Odawa</span> (otherwise known as the city of <span className="font-serif italic">Chicago</span>). I also like to call hiking a long-distance trail from beginning to end a vacation.
         </p>
-        <p className={styles.tags}>
-          #wanderlust
-        </p>
+        <Image />
       </section>
       <section className={styles.section}>
         <div className={styles.right}>
           <h3 className={styles.heading}>
             Code<br />
             Tinkerer<br />
-            <span className={styles.highlight}>
+            <span className={`${styles.external} lowercase`}>
+              View the code<br />
               <Link
                 href="https://github.com/acrossthekyle/acrossthekyle.github.io"
                 target="_blank"
                 rel="noreferrer"
               >
-                @github
+                @github<ArrowUpRight className={styles.arrow} />
               </Link>
             </span>
           </h3>
-          <div className={styles.timeline}>
-            <ul className={styles.list}>
-              <li>
-                <h5 className={styles.place}>
-                  Optum
-                </h5>
-                <p className={styles.when}>
-                  Senior Software Engineer II<br />
-                  2020 - {new Date().getFullYear()}
-                </p>
-              </li>
-              <li>
-                <h5 className={styles.place}>
-                  Rally Health
-                </h5>
-                <p className={styles.when}>
-                  Senior Frontend Engineer<br />
-                  2018 - 2020
-                </p>
-              </li>
-              <li>
-                <h5 className={styles.place}>
-                  Earlybird
-                </h5>
-                <p className={styles.when}>
-                  Fullstack Web Developer<br />
-                  2015 - 2018
-                </p>
-              </li>
-              <li>
-                <h5 className={styles.place}>
-                  Red Frog
-                </h5>
-                <p className={styles.when}>
-                  Web Developer<br />
-                  2013 - 2015
-                </p>
-              </li>
-              <li>
-                <h5 className={styles.place}>
-                  Silverline
-                </h5>
-                <p className={styles.when}>
-                  Junior Web Developer<br />
-                  2012 - 2013
-                </p>
-              </li>
-            </ul>
-          </div>
+          <ul className={styles.timeline}>
+            <li>
+              <h5 className={styles.place}>
+                Optum
+              </h5>
+              <p className={styles.when}>
+                Senior Software Engineer II<br />
+                2020 - {new Date().getFullYear()}
+              </p>
+            </li>
+            <li>
+              <h5 className={styles.place}>
+                Rally Health
+              </h5>
+              <p className={styles.when}>
+                Senior Frontend Engineer<br />
+                2018 - 2020
+              </p>
+            </li>
+            <li>
+              <h5 className={styles.place}>
+                Earlybird
+              </h5>
+              <p className={styles.when}>
+                Fullstack Web Developer<br />
+                2015 - 2018
+              </p>
+            </li>
+            <li>
+              <h5 className={styles.place}>
+                Red Frog
+              </h5>
+              <p className={styles.when}>
+                Web Developer<br />
+                2013 - 2015
+              </p>
+            </li>
+            <li>
+              <h5 className={styles.place}>
+                Silverline
+              </h5>
+              <p className={styles.when}>
+                Junior Web Developer<br />
+                2012 - 2013
+              </p>
+            </li>
+          </ul>
         </div>
         <div className={styles.left}>
           <p className={styles.paragraph}>
@@ -97,7 +96,7 @@ export default function View() {
               target="_blank"
               rel="noreferrer"
             >
-              this code
+              this code<ArrowUpRight className={styles.arrow} />
             </Link>{' '}
             becomes the page you're on thrills me to no end.
           </p>
@@ -117,52 +116,51 @@ export default function View() {
           <h3 className={styles.heading}>
             Trail<br />
             Walker<br />
-            <span className={styles.highlight}>
+            <span className={`${styles.external} lowercase`}>
+              follow me<br />
               <Link
                 href="https://instagram.com/acrossthekyle"
                 rel="noreferrer"
                 target="_blank"
               >
-                @acrossthekyle
+                @acrossthekyle<ArrowUpRight className={styles.arrow} />
               </Link>
             </span>
           </h3>
-          <div className={styles.timeline}>
-            <ul className={styles.list}>
-              <li>
-                <h5 className={styles.place}>
-                  2016
-                </h5>
-                <p className={styles.when}>
-                  Discovered backpacking while on vacation in Patagonia
-                </p>
-              </li>
-              <li>
-                <h5 className={styles.place}>
-                  2018
-                </h5>
-                <p className={styles.when}>
-                  Embarked on first long-distance thru-hike
-                </p>
-              </li>
-              <li>
-                <h5 className={styles.place}>
-                  2018 - 2024
-                </h5>
-                <p className={styles.when}>
-                  Completed several thru-hikes all around the world
-                </p>
-              </li>
-              <li>
-                <h5 className={styles.place}>
-                  {new Date().getFullYear()}
-                </h5>
-                <p className={styles.when}>
-                  Seeking out and planning the next big adventure
-                </p>
-              </li>
-            </ul>
-          </div>
+          <ul className={styles.timeline}>
+            <li>
+              <h5 className={styles.place}>
+                2016
+              </h5>
+              <p className={styles.when}>
+                Discovered backpacking while on vacation in Patagonia
+              </p>
+            </li>
+            <li>
+              <h5 className={styles.place}>
+                2018
+              </h5>
+              <p className={styles.when}>
+                Embarked on first long-distance thru-hike
+              </p>
+            </li>
+            <li>
+              <h5 className={styles.place}>
+                2018 - 2024
+              </h5>
+              <p className={styles.when}>
+                Completed several thru-hikes all around the world
+              </p>
+            </li>
+            <li>
+              <h5 className={styles.place}>
+                {new Date().getFullYear()}
+              </h5>
+              <p className={styles.when}>
+                Seeking out and planning the next big adventure
+              </p>
+            </li>
+          </ul>
         </div>
         <div className={styles.left}>
           <p className={styles.paragraph}>
