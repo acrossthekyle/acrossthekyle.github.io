@@ -1,8 +1,8 @@
 import styles from './stylesheet';
 
 type Props = {
-  children: React.ReactNode | React.ReactNode[];
-  id: string;
+  children?: React.ReactNode | React.ReactNode[];
+  id?: string;
 };
 
 export default function After({ children, id }: Props) {

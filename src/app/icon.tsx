@@ -1,4 +1,3 @@
-import { ArrowUpRight } from 'lucide-react';
 import { ImageResponse } from 'next/og';
 
 export const size = {

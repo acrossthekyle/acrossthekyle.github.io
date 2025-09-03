@@ -3,6 +3,12 @@ import NextJsLink from 'next/link';
 
 import styles from './stylesheet';
 
+type Props = {
+  children: React.ReactNode | React.ReactNode[];
+  href: string;
+  isExternal?: boolean;
+};
+
 export default function Link({ children, href, isExternal }: Props) {
   return (
     <NextJsLink
