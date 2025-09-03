@@ -1,3 +1,4 @@
+import { ArrowUpRight } from 'lucide-react';
 import { ImageResponse } from 'next/og';
 
 export const size = {
@@ -10,11 +11,10 @@ export const contentType = 'image/png';
 export default function Icon() {
   return new ImageResponse(
     (
-      // ImageResponse JSX element
       <div
         style={{
           fontSize: 24,
-          background: 'black',
+          background: 'transparent',
           width: '100%',
           height: '100%',
           display: 'flex',
@@ -26,10 +26,7 @@ export default function Icon() {
         K
       </div>
     ),
-    // ImageResponse options
     {
-      // For convenience, we can re-use the exported icons size metadata
-      // config to also set the ImageResponse's width and height.
       ...size,
     }
   )

@@ -1,235 +1,262 @@
-import { ArrowUpRight } from 'lucide-react';
-import Link from 'next/link';
-
 import { Article } from '@/ui/article';
 
-import Image from './image';
-import styles from './stylesheet';
+import Hero from './hero';
+import {
+  HeadingIndex,
+  HeadingLarge,
+  HeadingSmall,
+} from './heading';
+import Link from './link';
+import {
+  List,
+  ListItemContentList,
+  ListItemContentListItem,
+  ListItemContentListItemJustified,
+  ListItemContentListItemLabel,
+  ListItemHeading,
+  ListItemHeadingSubtext,
+  ListItem,
+} from './list';
+import Paragraph from './paragraph';
+import {
+  SectionHorizontal,
+  SectionBefore,
+  SectionAfter,
+  SectionVertical,
+} from './section';
 
 export default function View() {
   return (
     <Article isFull>
-      <header className={styles.header}>
-        <h1 className={styles.hero}>
-          I'm a thru-hiker and UI developer seeking new ways to move forward with wanderful intent
-        </h1>
-        <span className={styles.highlight}>
-          Making tracks since 1987
-        </span>
-      </header>
-      <section className={styles.introduction}>
-        <p className={styles.blurb}>
-          I'm a developer with zero awards or recognitions who lives on the lands belonging to the <span className="font-serif italic">Potawatomi, Ojibwe,</span> and <span className="font-serif italic">Odawa</span> (otherwise known as the city of <span className="font-serif italic">Chicago</span>). I also like to call hiking a long-distance trail from beginning to end a vacation.
-        </p>
-        <Image />
-      </section>
-      <section className={styles.section}>
-        <div className={styles.right}>
-          <h3 className={styles.heading}>
-            Code<br />
-            Tinkerer<br />
-            <span className={`${styles.external} lowercase`}>
-              View the code<br />
-              <Link
-                href="https://github.com/acrossthekyle/acrossthekyle.github.io"
-                target="_blank"
-                rel="noreferrer"
-              >
-                @github<ArrowUpRight className={styles.arrow} />
-              </Link>
-            </span>
-          </h3>
-          <ul className={styles.timeline}>
-            <li>
-              <h5 className={styles.place}>
-                Optum
-              </h5>
-              <p className={styles.when}>
-                Senior Software Engineer II<br />
-                2020 - {new Date().getFullYear()}
-              </p>
-            </li>
-            <li>
-              <h5 className={styles.place}>
-                Rally Health
-              </h5>
-              <p className={styles.when}>
-                Senior Frontend Engineer<br />
-                2018 - 2020
-              </p>
-            </li>
-            <li>
-              <h5 className={styles.place}>
-                Earlybird
-              </h5>
-              <p className={styles.when}>
-                Fullstack Web Developer<br />
-                2015 - 2018
-              </p>
-            </li>
-            <li>
-              <h5 className={styles.place}>
-                Red Frog
-              </h5>
-              <p className={styles.when}>
-                Web Developer<br />
-                2013 - 2015
-              </p>
-            </li>
-            <li>
-              <h5 className={styles.place}>
-                Silverline
-              </h5>
-              <p className={styles.when}>
-                Junior Web Developer<br />
-                2012 - 2013
-              </p>
-            </li>
-          </ul>
-        </div>
-        <div className={styles.left}>
-          <p className={styles.paragraph}>
-            I like to make crafty things with code, and the fact that{' '}
-            <Link
-              className={styles.link}
-              href="https://raw.githubusercontent.com/acrossthekyle/acrossthekyle.github.io/refs/heads/main/src/views/about/index.tsx"
-              target="_blank"
-              rel="noreferrer"
-            >
-              this code<ArrowUpRight className={styles.arrow} />
-            </Link>{' '}
-            becomes the page you're on thrills me to no end.
-          </p>
-          <p className={styles.paragraph}>
-            I work full-time at Optum where I employ more than {new Date().getFullYear() - 2012} years of insight, impacting millions. I have a passion for creating digital experiences with attention to detail, and an ability to adapt, producing products and features that last for years, or until the design team wants to redo it.
-          </p>
-          <p className={styles.paragraph}>
-            Some tools of the trade include <span className="font-mono">Javascript</span>, otherwise known as the brains of the operation, a friendly fact-checker of code called <span className="font-mono">Typescript</span>, the <span className="font-mono">HTML</span> bones of all websites in the world, and the renowned <span className="font-mono">CSS</span> stylist of the world wide web. Occasionally I'll throw in some <span className="font-mono">Python</span>, and <span className="font-mono">MySQL</span>, if I need to do cloud-based things.
-          </p>
-          <p className={styles.paragraph}>
-            Working as a software engineer also affords me the ability to travel around the world...
-          </p>
-        </div>
-      </section>
-      <section className={styles.section}>
-        <div className={styles.right}>
-          <h3 className={styles.heading}>
-            Trail<br />
-            Walker<br />
-            <span className={`${styles.external} lowercase`}>
-              follow me<br />
-              <Link
-                href="https://instagram.com/acrossthekyle"
-                rel="noreferrer"
-                target="_blank"
-              >
-                @acrossthekyle<ArrowUpRight className={styles.arrow} />
-              </Link>
-            </span>
-          </h3>
-          <ul className={styles.timeline}>
-            <li>
-              <h5 className={styles.place}>
-                2016
-              </h5>
-              <p className={styles.when}>
-                Discovered backpacking while on vacation in Patagonia
-              </p>
-            </li>
-            <li>
-              <h5 className={styles.place}>
-                2018
-              </h5>
-              <p className={styles.when}>
-                Embarked on first long-distance thru-hike
-              </p>
-            </li>
-            <li>
-              <h5 className={styles.place}>
-                2018 - 2024
-              </h5>
-              <p className={styles.when}>
-                Completed several thru-hikes all around the world
-              </p>
-            </li>
-            <li>
-              <h5 className={styles.place}>
-                {new Date().getFullYear()}
-              </h5>
-              <p className={styles.when}>
-                Seeking out and planning the next big adventure
-              </p>
-            </li>
-          </ul>
-        </div>
-        <div className={styles.left}>
-          <p className={styles.paragraph}>
-            Nature and the mountains are my church, and nothing revs me up more than leaving the crowded city behind, and walking a long-distance trail from beginning to end, carrying everything I need on my back.
-          </p>
-          <p className={styles.paragraph}>
-            In 2016 I had my first encounter with the idea of backpacking when I saw a group of backpackers setting off from a refuge in Patagonia and was instantly mesmerized, and then somehow forgot about it for two uneventful years.
-          </p>
-          <p className={styles.paragraph}>
-            The idea and fascination returned to me in the spring of 2018, and a few months later I was setting foot on a long-distance trail called the{' '}
-            <Link
-              className={styles.link}
-              href="/travels/camino-de-santiago"
-            >
-              Camino de Santiago
-            </Link>{' '}
-            in Spain. After 32 days, and 500+ miles, I was hooked and I haven't looked back since.
-          </p>
-          <p className={styles.paragraph}>
-            Most recently I returned to the{' '}
-            <Link
-              className={styles.link}
-              href="/travels/tour-du-mont-blanc-repeat"
-            >
-              Tour du Mont Blanc
-            </Link>{' '}
-            in 2024, a{' '}
-            <Link
-              className={styles.link}
-              href="/travels/tour-du-mont-blanc"
-            >
-              repeat of a classic hike
-            </Link>{' '}
-            of mine from 2018. Some others I've done include the self-proclaimed "toughest trek in Europe" known as the{' '}
-            <Link
-              className={styles.link}
-              href="/travels/gr-20"
-            >
-              GR 20
-            </Link>{' '}
-            in Corsica, my first love: the{' '}
-            <Link
-              className={styles.link}
-              href="/travels/torres-del-paine-o-circuit"
-            >
-              O Circuit
-            </Link>{' '}
-            at the end of the world in Patagonia in 2020, and the
-            {' '}
-            <Link
-              className={styles.link}
-              href="/travels/annapurna-circuit-basecamp"
-            >
-              Annapurna Circuit
-            </Link>{' '}
-            in the Himalayas of Nepal, a place where I nearly bit it.
-          </p>
-          <p className={styles.paragraph}>
-            Check out my{' '}
-            <Link
-              className={styles.link}
-              href="/travels"
-            >
-              travels
-            </Link>{' '}
-            for a brief glimpse of (nearly) everything I've done.
-          </p>
-        </div>
-      </section>
+      <Hero />
+      <SectionHorizontal a11yLabel="Background">
+        <SectionBefore id="ui">
+          <HeadingLarge id="ui">
+            <HeadingIndex index="01." />
+            Creating things from scratch motivates me to do what I do.
+          </HeadingLarge>
+          <Paragraph>
+            Making things with code  thrills me to no end: digital experiences are my bread and butter. With attention to detail, and an ability to adapt, I produce everlasting things.
+          </Paragraph>
+          <Paragraph>
+            I'm a self-taught web developer/software engineer/UI developer/coder with a strong background in JavaScript/TypeScript, and HTML/CSS.
+          </Paragraph>
+          <Paragraph>
+            I have hands-on experience working on high-traffic, customer-facing products and prioritize building clean, maintainable codebases that enable continuous improvement and scalability.
+          </Paragraph>
+        </SectionBefore>
+        <SectionAfter id="hike">
+          <HeadingLarge id="hike">
+            <HeadingIndex index="02." />
+            Experiencing new sights and sounds keeps me moving.
+          </HeadingLarge>
+          <Paragraph>
+            The mountains are my church, and after hiking more than 1,900 miles of trail nothing inspires me more than leaving the crowded city behind and heading into nature carrying everything I need on my back.
+          </Paragraph>
+          <Paragraph>
+            I thru-hiked my first trail in 2018 called the Camino, in Spain. It took me 32 days to walk from the Pyrenees mountains in the east to the Atlantic ocean in the west, and it was unforgetable.
+          </Paragraph>
+          <Paragraph>
+            If I can walk dozens of miles every day for a weeks on end, I can do anything.
+          </Paragraph>
+        </SectionAfter>
+      </SectionHorizontal>
+      <SectionVertical id="career">
+        <HeadingSmall id="career">
+          <HeadingIndex index="03." />
+          Career Experience
+        </HeadingSmall>
+        <List>
+          <ListItem>
+            <ListItemHeading>
+              Optum
+              <ListItemHeadingSubtext>
+                Health solution and care delivery organization
+              </ListItemHeadingSubtext>
+              <ListItemHeadingSubtext>
+                2020 &mdash; Present
+              </ListItemHeadingSubtext>
+            </ListItemHeading>
+            <ListItemContentList>
+              <ListItemContentListItem>
+                <ListItemContentListItemJustified>
+                  <ListItemContentListItemLabel>Position:</ListItemContentListItemLabel>
+                  Senior Software Engineer II
+                </ListItemContentListItemJustified>
+              </ListItemContentListItem>
+              <ListItemContentListItem>
+                <ListItemContentListItemJustified>
+                  <ListItemContentListItemLabel>Location:</ListItemContentListItemLabel>
+                  Chicago, IL
+                </ListItemContentListItemJustified>
+              </ListItemContentListItem>
+              <ListItemContentListItem>
+                <ListItemContentListItemJustified>
+                  <ListItemContentListItemLabel>Industry:</ListItemContentListItemLabel>
+                  Healthcare
+                </ListItemContentListItemJustified>
+              </ListItemContentListItem>
+              <ListItemContentListItem>
+                <ListItemContentListItemJustified>
+                  <ListItemContentListItemLabel>Website:</ListItemContentListItemLabel>
+                  <Link href="https://www.optum.com" isExternal>
+                    www.optum.com
+                  </Link>
+                </ListItemContentListItemJustified>
+              </ListItemContentListItem>
+            </ListItemContentList>
+          </ListItem>
+          <ListItem>
+            <ListItemHeading>
+              Rally Health
+              <ListItemHeadingSubtext>
+                Personalized data-driven health care
+              </ListItemHeadingSubtext>
+              <ListItemHeadingSubtext>
+                2018 &mdash; 2020
+              </ListItemHeadingSubtext>
+            </ListItemHeading>
+            <ListItemContentList>
+              <ListItemContentListItem>
+                <ListItemContentListItemJustified>
+                  <ListItemContentListItemLabel>Position:</ListItemContentListItemLabel>
+                  Senior Frontend Engineer
+                </ListItemContentListItemJustified>
+              </ListItemContentListItem>
+              <ListItemContentListItem>
+                <ListItemContentListItemJustified>
+                  <ListItemContentListItemLabel>Location:</ListItemContentListItemLabel>
+                  Chicago, IL
+                </ListItemContentListItemJustified>
+              </ListItemContentListItem>
+              <ListItemContentListItem>
+                <ListItemContentListItemJustified>
+                  <ListItemContentListItemLabel>Industry:</ListItemContentListItemLabel>
+                  Healthcare
+                </ListItemContentListItemJustified>
+              </ListItemContentListItem>
+              <ListItemContentListItem>
+                <ListItemContentListItemJustified>
+                  <ListItemContentListItemLabel>Website:</ListItemContentListItemLabel>
+                  <Link href="www.rallyhealth.com" isExternal>
+                    www.rallyhealth.com
+                  </Link>
+                </ListItemContentListItemJustified>
+              </ListItemContentListItem>
+            </ListItemContentList>
+          </ListItem>
+          <ListItem>
+            <ListItemHeading>
+              Earlybird Co
+              <ListItemHeadingSubtext>
+                Custom web design and development startup
+              </ListItemHeadingSubtext>
+              <ListItemHeadingSubtext>
+                2015 &mdash; 2018
+              </ListItemHeadingSubtext>
+            </ListItemHeading>
+            <ListItemContentList>
+              <ListItemContentListItem>
+                <ListItemContentListItemJustified>
+                  <ListItemContentListItemLabel>Position:</ListItemContentListItemLabel>
+                  Fullstack Engineer
+                </ListItemContentListItemJustified>
+              </ListItemContentListItem>
+              <ListItemContentListItem>
+                <ListItemContentListItemJustified>
+                  <ListItemContentListItemLabel>Location:</ListItemContentListItemLabel>
+                  Chicago, IL
+                </ListItemContentListItemJustified>
+              </ListItemContentListItem>
+              <ListItemContentListItem>
+                <ListItemContentListItemJustified>
+                  <ListItemContentListItemLabel>Industry:</ListItemContentListItemLabel>
+                  Tech
+                </ListItemContentListItemJustified>
+              </ListItemContentListItem>
+            </ListItemContentList>
+          </ListItem>
+          <ListItem>
+            <ListItemHeading>
+              Red Frog Events
+              <ListItemHeadingSubtext>
+                Experiential entertainment events
+              </ListItemHeadingSubtext>
+              <ListItemHeadingSubtext>
+                2013 &mdash; 2015
+              </ListItemHeadingSubtext>
+            </ListItemHeading>
+            <ListItemContentList>
+              <ListItemContentListItem>
+                <ListItemContentListItemJustified>
+                  <ListItemContentListItemLabel>Position:</ListItemContentListItemLabel>
+                  Web Developer
+                </ListItemContentListItemJustified>
+              </ListItemContentListItem>
+              <ListItemContentListItem>
+                <ListItemContentListItemJustified>
+                  <ListItemContentListItemLabel>Location:</ListItemContentListItemLabel>
+                  Chicago, IL
+                </ListItemContentListItemJustified>
+              </ListItemContentListItem>
+              <ListItemContentListItem>
+                <ListItemContentListItemJustified>
+                  <ListItemContentListItemLabel>Industry:</ListItemContentListItemLabel>
+                  Event
+                </ListItemContentListItemJustified>
+              </ListItemContentListItem>
+            </ListItemContentList>
+          </ListItem>
+          <ListItem>
+            <ListItemHeading>
+              Silverline Creative
+              <ListItemHeadingSubtext>
+                Custom web design and development studio
+              </ListItemHeadingSubtext>
+              <ListItemHeadingSubtext>
+                2012 &mdash; 2013
+              </ListItemHeadingSubtext>
+            </ListItemHeading>
+            <ListItemContentList>
+              <ListItemContentListItem>
+                <ListItemContentListItemJustified>
+                  <ListItemContentListItemLabel>Position:</ListItemContentListItemLabel>
+                  Junior Web Developer
+                </ListItemContentListItemJustified>
+              </ListItemContentListItem>
+              <ListItemContentListItem>
+                <ListItemContentListItemJustified>
+                  <ListItemContentListItemLabel>Location:</ListItemContentListItemLabel>
+                  Naperville, IL
+                </ListItemContentListItemJustified>
+              </ListItemContentListItem>
+              <ListItemContentListItem>
+                <ListItemContentListItemJustified>
+                  <ListItemContentListItemLabel>Industry:</ListItemContentListItemLabel>
+                  Tech
+                </ListItemContentListItemJustified>
+              </ListItemContentListItem>
+            </ListItemContentList>
+          </ListItem>
+        </List>
+      </SectionVertical>
+      <SectionHorizontal>
+        <SectionBefore id="addendum">
+          <HeadingLarge id="addendum">
+            <HeadingIndex index="04." />
+            Addendum
+          </HeadingLarge>
+          <Paragraph>
+            I'm always open to new opportunities. If you're interested in working together, or have questions about any of the travels/hikes that I've done, find me online at any of{' '}
+            <Link href="/contact">these locations</Link>.
+          </Paragraph>
+          <Paragraph>
+            You can find the codebase for this site on{' '}
+            <Link href="https://github.com/acrossthekyle/acrossthekyle.github.io" isExternal>github.com</Link>.
+          </Paragraph>
+        </SectionBefore>
+        <SectionAfter />
+      </SectionHorizontal>
     </Article>
   );
 }

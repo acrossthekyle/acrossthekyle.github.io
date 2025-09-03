@@ -28,8 +28,8 @@ const styles = tw({
         nano:h-14
         nano:text-7xl/14
         milli:font-stretch-semi-condensed
-        deci:h-18.5
-        deci:text-8xl/18
+        deci:h-18
+        deci:text-8xl/17
         base:pe-12
         base:font-stretch-normal
         base:tracking-tight
@@ -56,10 +56,10 @@ const styles = tw({
         text-5xl/9
         h-9
 
-        deka:text-6xl/10
         deka:h-11
-        mega:text-8xl/18
-        mega:h-19
+        deka:text-6xl/10
+        mega:h-18
+        mega:text-8xl/17
         tera:h-26
         tera:text-9xl/26
       `);
@@ -69,11 +69,11 @@ const styles = tw({
       ${root}
       ${sub}
 
-      text-4xl/6
       h-7
+      text-4xl/6
 
-      hecto:text-5xl/9
       hecto:h-9
+      hecto:text-5xl/8
       tera:h-14
       tera:text-7xl/14
       peta:h-26

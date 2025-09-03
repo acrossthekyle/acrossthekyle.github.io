@@ -2,28 +2,23 @@ import tw from '@/styles';
 
 const styles = tw({
   heading: `
-    text-2xl/6
-    font-bold font-stretch-ultra-condensed
+    hidden
+    text-lg/5
+    font-black
+    mr-6 mt-6
     uppercase
-    me-4
-    mt-4 mb-8
-
-    base:me-8
-    mega:text-5xl/10
   `,
   subheading: `
+    block
     mb-1
-    font-mono
-    text-xs text-left
+    text-sm text-left
+    font-medium
     capitalize
-
-    milli:block
-    mega:text-sm
   `,
   highlight: `
     inline-block
     py-0.5 px-2
-    bg-yellow-300/90
+    bg-white/90
     text-black
     rounded-xs
   `,

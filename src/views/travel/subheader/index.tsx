@@ -16,11 +16,13 @@ export default function Subheader({
 }: Props) {
   return (
     <>
-      <p className={styles.subheading}>
-        <span className={styles.highlight}>
-          {location}
-        </span>
-      </p>
+      {location.toLowerCase() !== 'various' && (
+        <p className={styles.subheading}>
+          <span className={styles.highlight}>
+            {location}
+          </span>
+        </p>
+      )}
       <p className={styles.subheading}>
         <span className={styles.highlight}>
           {getDate(date)}

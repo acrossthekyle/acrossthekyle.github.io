@@ -5,14 +5,12 @@ const styles = tw({
     flex flex-col gap-6
     mt-6
 
-    deci:gap-12
+    giga:gap-12
     deka:mt-12
   `,
   stage: `
     relative
     cursor-default
-    opacity-0
-    animate-elastic-in-from-right
   `,
 });
 

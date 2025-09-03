@@ -2,34 +2,29 @@ import tw from '@/styles';
 
 const styles = tw({
   caption: `
-    absolute z-2 left-4 bottom-4
-    text-2xl/5 text-white/80
+    absolute z-2 left-4 bottom-4 right-4
+    text-2xl/5 text-white/90
     font-bold font-stretch-ultra-condensed
     uppercase
     mr-4
 
-    nano:text-3xl/6
-    micro:text-4xl/8
-    base:mr-20
-    kilo:left-8
-    kilo:bottom-8
+    base:right-18
+    base:left-8
+    base:bottom-8
   `,
   index: `
     block
-    text-base/5
+    text-base/6 text-white/75
     font-normal
-    tracking-normal
-
-    micro:text-xl/5
   `,
   label: `
-    mr-1.5
+    mr-1
   `,
   arrow: `
     inline-block
-    -mt-1
+    stroke-1
 
-    micro:-mt-2
+    micro:-mt-1
   `,
   slash: `
     inline

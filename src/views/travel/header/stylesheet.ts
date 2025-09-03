@@ -18,17 +18,6 @@ const styles = tw({
     hecto:hidden
   `,
   block: `block`,
-  meta: `
-    flex gap-2
-    text-sm/3
-    font-light font-stretch-condensed
-    tracking-normal
-    mb-2
-  `,
-  slash: `
-    w-3 h-3
-    stroke-1
-  `,
 });
 
 export default styles;

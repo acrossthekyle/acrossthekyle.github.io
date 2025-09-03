@@ -66,14 +66,14 @@ const styles = tw({
   `,
   maximize: (isInView: boolean) => tw(`
     hidden
-    absolute right-4 bottom-3.5 z-3
+    absolute right-4 bottom-4 z-3
     uppercase
     font-black
     text-white/80
     duration-200
 
-    kilo:bottom-7.5
-    kilo:right-8
+    base:bottom-8
+    base:right-8
     deka:block
 
     hover:text-white

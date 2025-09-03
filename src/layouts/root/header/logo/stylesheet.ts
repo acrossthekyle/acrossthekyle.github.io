@@ -11,7 +11,7 @@ const styles = {
       w-8 h-8
       duration-300
 
-      hover:bg-yellow-300/90
+      hover:bg-white/70
     `;
 
     if (isOnRoot) {

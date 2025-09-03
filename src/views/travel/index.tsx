@@ -23,10 +23,7 @@ export default function View({ slug }: Props) {
 
   return (
     <Article onScrollEnd={handleOnScrollEnd}>
-      <Header
-        title={travel.title}
-        type={travel.type}
-      />
+      <Header title={travel.title} />
       <Subheader
         date={travel.date}
         location={travel.location}

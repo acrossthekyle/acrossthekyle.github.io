@@ -11,7 +11,7 @@ export default function Image() {
   return (
     <>
       <NextJsImage
-        alt=""
+        alt="Picture of Kyle Gilbert"
         className={styles.image}
         height={540}
         onLoad={() => setIsLoaded(true)}

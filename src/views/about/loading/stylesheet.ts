@@ -4,39 +4,28 @@ const styles = tw({
   skeleton: `
     animate-pulse
   `,
+  header: `
+    mb-16
+  `,
   hero: `
     inline-block
-    h-20
+    h-30
     mr-2
     bg-neutral-900
   `,
-  tiny: `
-    w-20
-  `,
   small: `
-    w-40
+    w-50
   `,
   medium: `
-    w-60
+    w-70
   `,
   large: `
-    w-80
+    w-90
   `,
   word: `
     inline-block
     h-4
     mr-1
-    bg-neutral-900
-  `,
-  image: `
-    block
-    w-full h-80
-    bg-neutral-900
-  `,
-  heading: `
-    inline-block
-    h-10
-    mb-2
     bg-neutral-900
   `,
 });

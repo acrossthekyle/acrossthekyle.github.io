@@ -10236,7 +10236,7 @@ const data = [
     "index": 13,
     "label": "item",
     "location": "New York City, New York",
-    "slug": "bridges",
+    "slug": "new-york-city",
     "stages": [
       {
         "date": "07.25.2018",
@@ -10440,7 +10440,8 @@ const data = [
     },
     "tagline": "The Big Apple",
     "title": [
-      "Bridges"
+      "New York",
+      "City"
     ],
     "type": "collection"
   },
@@ -10454,7 +10455,7 @@ const data = [
     "description": [
       "A series of ancient routes that unfold across Europe, the Camino de Santiago (or Camino) is a network of continously used trails since medieval times leading to the city of Santiago de Compostela in northwestern Spain. The most popular route is the Camino Frances which goes from the border of France all the way to the Atlantic ocean, crossing the Navarra, La Rioja, Castile and León, and Galicia regions, taking several weeks to complete.",
       "This was my first long-distance trail, and after much preparation I flew to Spain at the end of May 2018 and started the trail on June 2nd. The Camino wears you down over the first few days, but then builds you back up, and after the first week I was walking 15 - 25 miles daily, all leading towards the city of Santiago and the Atlantic ocean. I spent 32 days walking 534 miles over hills and mountains, through deserts, and swimming in rivers, to reach the ocean.",
-      "It's hard to capture 32 worth of experiences in these few snapshots, but hopefully they offer a picture of my journey on this adventure, and a glimpse into the time spent on this thru-hike."
+      "It's hard to capture 32 days worth of experiences in these few snapshots, but hopefully they offer a picture of my journey on this adventure, and a glimpse into the time spent on this thru-hike."
     ],
     "index": 14,
     "label": "day",
@@ -13903,12 +13904,12 @@ const data = [
       ]
     },
     "description": [
-      "This album is a collection of images taken here and there over the years."
+      "This collection of images was taken here and there over the years."
     ],
     "index": 16,
     "label": "item",
     "location": "Various",
-    "slug": "odds-and-ends",
+    "slug": "coast-to-coast",
     "stages": [
       {
         "date": "02.15.2021",
@@ -14132,8 +14133,8 @@ const data = [
     },
     "tagline": "An assortment of pictures",
     "title": [
-      "Odds and",
-      "Ends"
+      "Coast to",
+      "Coast"
     ],
     "type": "collection"
   }

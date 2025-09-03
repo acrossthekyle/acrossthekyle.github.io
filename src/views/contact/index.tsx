@@ -8,16 +8,16 @@ import {
 
 const items = [
   {
+    path: 'https://instagram.com/acrossthekyle',
+    text: ['Instagram'],
+  },
+  {
     path: 'mailto:hello@acrossthekyle.com',
     text: ['E-mail'],
   },
   {
     path: 'https://linkedin.com/in/acrossthekyle',
     text: ['LinkedIn'],
-  },
-  {
-    path: 'https://instagram.com/acrossthekyle',
-    text: ['Instagram'],
   },
 ];
 

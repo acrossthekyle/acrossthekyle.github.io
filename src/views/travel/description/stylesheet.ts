@@ -2,14 +2,10 @@ import tw from '@/styles';
 
 const styles = tw({
   paragraph: `
-    mb-4
-    text-base text-justify
-    tracking-wide
-    animate-elastic-in-from-right
+    my-4
+    text-base
 
     last-of-type:mb-0
-
-    deka:mb-3
   `,
 });
 

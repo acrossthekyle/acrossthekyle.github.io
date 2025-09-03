@@ -2,15 +2,24 @@ import tw from '@/styles';
 
 const styles = tw({
   image: `
-    w-60 h-60
+    relative z-0
+    w-full h-auto
+    px-10
+    mt-6
 
-    kilo:w-80
-    kilo:h-80
-
-    tera:w-130
-    tera:h-130
-    peta:w-160
-    peta:h-160
+    centi:w-76
+    centi:h-76
+    centi:mt-0
+    centi:px-0
+    centi:absolute
+    centi:right-0
+    centi:bottom-0
+    deci:w-100
+    deci:h-100
+    tera:w-120
+    tera:h-120
+    peta:w-180
+    peta:h-180
   `,
   skeleton: `
     block
