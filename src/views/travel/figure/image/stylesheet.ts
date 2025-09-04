@@ -6,13 +6,14 @@ const styles = tw({
     w-full h-full
     transform-gpu duration-500
     rounded-lg
-
     aspect-square
     brightness-60
     grayscale-100
 
     centi:aspect-auto
 
+    group-active/figure:brightness-90
+    group-active/figure:grayscale-0
     group-hover/figure:brightness-90
     group-hover/figure:grayscale-0
   `,
