@@ -56,18 +56,18 @@ async function writeData(destination, data) {
   await writeFile(output, destination, json);
 }
 
-function turnStringIntoArrayForLists(value: string) {
+function turnStringIntoArrayForLists(value: string, limit = 12) {
   const parts = value.split(' ');
   let result = [''];
   let index = 0;
 
   parts.forEach((part: string) => {
-    if (result[index].length < 12) {
+    if (result[index].length < limit) {
       const combination = `${result[index]} ${part.trim()}`.trim();
 
-      if (combination.length < 12) {
+      if (combination.length < limit) {
         result.splice(index, 1, combination);
-      } else if (part.length > 12 ) {
+      } else if (part.length > limit ) {
         result.splice(index, 1, part.trim());
       } else {
         ++index
@@ -396,11 +396,11 @@ async function getStages(folder) {
         route,
         stats,
         termini: {
-          end: turnStringIntoArrayForLists(end),
+          end: turnStringIntoArrayForLists(end, 22),
           isSame: start.toLowerCase() === end.toLowerCase(),
-          start: turnStringIntoArrayForLists(start),
+          start: turnStringIntoArrayForLists(start, 22),
         },
-        title: turnStringIntoArrayForLists(data.title),
+        title: turnStringIntoArrayForLists(data.title, 22),
       });
     }),
   );

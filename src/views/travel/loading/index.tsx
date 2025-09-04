@@ -15,14 +15,6 @@ export default function Loading() {
       <p className={`${styles.highlight} ${styles.skeleton}`}>
         <span className={`${styles.sentence} ${styles.small}`} />
       </p>
-      <h3 className={`${styles.heading} ${styles.skeleton}`}>
-        <span className={`${styles.word} ${styles.big} ${styles.small}`} />
-        <span className={`${styles.word} ${styles.big} ${styles.medium}`} />
-        <span className={`${styles.word} ${styles.big} ${styles.tiny}`} />
-        <span className={`${styles.word} ${styles.big} ${styles.small}`} />
-        <span className={`${styles.word} ${styles.big} ${styles.tiny}`} />
-        <span className={`${styles.word} ${styles.big} ${styles.tiny}`} />
-      </h3>
       {Array.from({ length: 3 }).map((_, index) => (
         <p className={`${styles.paragraph} ${styles.skeleton}`} key={index}>
           <span className={`${styles.word} ${styles.small}`} />

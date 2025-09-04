@@ -1,8 +1,7 @@
 'use client';
 
-import { Minimize } from 'lucide-react';
 import Image from 'next/image';
-import { useEffect, useRef, useState } from 'react';
+import { useRef } from 'react';
 
 import { useZoom } from '@/hooks/useZoom';
 import type { Stage } from '@/types';
@@ -12,26 +11,14 @@ import { getOrientation } from './utils';
 import { Orientation } from './types';
 
 type Model = {
-  handleOnLoad: () => void;
   handleOnMaximize: () => void;
-  isLoading: boolean;
-  zoomRef: React.RefObject<HTMLImageElement | null>;
+  zoomRef: React.RefObject<HTMLButtonElement | null>;
 };
 
 export function useModel(stage: Stage): Model {
-  const [isLoading, setIsLoading] = useState(true);
-
-  const zoomRef = useRef<HTMLImageElement | null>(null);
+  const zoomRef = useRef<HTMLButtonElement | null>(null);
 
   const { zoomOut, zoom } = useZoom();
-
-  useEffect(() => {
-    setIsLoading(true);
-  }, [stage.images.hero]);
-
-  const handleOnLoad = () => {
-    setIsLoading(false);
-  };
 
   const handleOnMinimize = () => {
     zoomOut();
@@ -42,32 +29,27 @@ export function useModel(stage: Stage): Model {
 
     zoom({
       content: (
-        <div className={styles.zoomed}>
+        <button
+          className={styles.minimize}
+          onClick={handleOnMinimize}
+          type="button"
+        >
           <Image
             alt=""
-            className={styles.maximized(isLandscape)}
+            className={styles.image(isLandscape)}
             height={1080}
             sizes="100vw"
             src={stage.images.hero}
             width={1920}
           />
-          <button
-            className={styles.minimize}
-            onClick={handleOnMinimize}
-            type="button"
-          >
-            <Minimize />
-          </button>
-        </div>
+        </button>
       ),
       ref: zoomRef,
     });
   };
 
   return {
-    handleOnLoad,
     handleOnMaximize,
-    isLoading,
     zoomRef,
   };
 }

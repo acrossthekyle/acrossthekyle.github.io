@@ -5,10 +5,10 @@ const styles = {
     const common = `
       absolute top-6
       flex items-center justify-center
-      text-base text-black
+      text-sm text-black
       font-black
       bg-white/90 rounded-full
-      w-8 h-8
+      w-7 h-7
       duration-300
 
       hover:bg-white/70

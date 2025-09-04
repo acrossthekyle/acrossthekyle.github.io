@@ -1,55 +1,34 @@
 'use client';
 
-import { Maximize } from 'lucide-react';
-import Image from 'next/image';
-import { useInView } from 'react-intersection-observer';
+import NextJsImage from 'next/image';
 
 import type { Stage } from '@/types';
 
 import { useModel } from './model';
 import styles from './stylesheet';
-import { getThreshold } from './utils';
 
 type Props = {
   stage: Stage;
 };
 
-export default function Gallery({ stage }: Props) {
-  const { handleOnLoad, handleOnMaximize, isLoading, zoomRef } = useModel(stage);
-
-  const { ref, inView } = useInView({
-    threshold: getThreshold(zoomRef),
-  });
+export default function Image({ stage }: Props) {
+  const { handleOnLoad, isLoading } = useModel(stage);
 
   return (
     <>
-      <Image
-        alt=""
-        className={styles.image(false, true)}
-        height={1080}
-        quality={10}
-        ref={ref}
-        sizes="100vw"
-        src={stage.images.hero}
-        width={1920}
-      />
-      <Image
-        alt=""
-        className={styles.image(inView, false)}
+      <NextJsImage
+        alt={
+          !stage.termini.isSame
+            ? `${stage.termini.start.join(' ')} To ${stage.termini.end.join(' ')}`
+            : (stage.location || 'travel image')
+        }
+        className={styles.image}
         height={1080}
         onLoad={handleOnLoad}
-        ref={zoomRef}
         sizes="100vw"
         src={stage.images.hero}
         width={1920}
       />
-      <button
-        className={styles.maximize(inView)}
-        onClick={handleOnMaximize}
-        type="button"
-      >
-        <Maximize />
-      </button>
       {isLoading && (
         <div
           aria-hidden="true"

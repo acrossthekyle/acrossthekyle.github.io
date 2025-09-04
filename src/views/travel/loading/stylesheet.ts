@@ -14,15 +14,13 @@ const styles = tw({
   highlight: `
     mb-2
   `,
-  heading: `
-    mt-4 mb-10
-  `,
   big: `h-10`,
   paragraph: `
-    mb-4
+    mt-4
   `,
   stages: `
     flex flex-col gap-10
+    mt-8
   `,
   short: `
     w-6/10

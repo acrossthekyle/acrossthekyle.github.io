@@ -5,12 +5,8 @@ const styles = tw({
     flex flex-col gap-1
     animate-pulse
   `,
-  eyebrow: `
-    w-40 h-6
-    bg-neutral-900
-  `,
   text: `
-    h-20
+    h-24
     bg-neutral-900
   `,
   short: `

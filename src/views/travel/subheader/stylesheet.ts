@@ -1,13 +1,6 @@
 import tw from '@/styles';
 
 const styles = tw({
-  heading: `
-    hidden
-    text-lg/5
-    font-black
-    mr-6 mt-6
-    uppercase
-  `,
   subheading: `
     block
     mb-1

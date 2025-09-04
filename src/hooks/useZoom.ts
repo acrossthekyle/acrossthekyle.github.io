@@ -7,7 +7,7 @@ import { useEvent } from './useEvent';
 
 type ZoomOptions = {
   content: ReactNode | ReactNode[];
-  ref: React.RefObject<HTMLImageElement | null>;
+  ref: React.RefObject<HTMLButtonElement | null>;
 };
 
 type Size = {
@@ -60,7 +60,7 @@ const store = create<State & Actions>()(
           isOpen: false,
           size: undefined,
         });
-      }, 500);
+      }, 300);
     },
   }),
 );

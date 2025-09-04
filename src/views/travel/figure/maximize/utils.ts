@@ -1,7 +1,7 @@
 import { Orientation } from './types';
 
 export function getOrientation(
-  ref?: React.RefObject<HTMLImageElement | null>,
+  ref?: React.RefObject<HTMLButtonElement | null>,
 ): Orientation | undefined {
   if (ref === undefined || ref === null) {
     return undefined;
@@ -17,7 +17,7 @@ export function getOrientation(
   return isLandscape ? Orientation.Landscape : Orientation.Portrait;
 };
 
-export function getThreshold(ref: React.RefObject<HTMLImageElement | null>) {
+export function getThreshold(ref: React.RefObject<HTMLButtonElement | null>) {
   const orientation = getOrientation(ref);
 
   if (orientation === undefined) {

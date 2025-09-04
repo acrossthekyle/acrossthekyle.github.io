@@ -102,8 +102,7 @@ const data = [
         },
         "termini": {
           "end": [
-            "Auberge le",
-            "Truc"
+            "Auberge le Truc"
           ],
           "isSame": false,
           "start": [
@@ -111,9 +110,8 @@ const data = [
           ]
         },
         "title": [
-          "Les Houches",
-          "to Auberge",
-          "le Truc"
+          "Les Houches to",
+          "Auberge le Truc"
         ]
       },
       {
@@ -202,21 +200,17 @@ const data = [
         },
         "termini": {
           "end": [
-            "Refuge de",
-            "La Croix du",
+            "Refuge de La Croix du",
             "Bonhomme"
           ],
           "isSame": false,
           "start": [
-            "Auberge le",
-            "Truc"
+            "Auberge le Truc"
           ]
         },
         "title": [
-          "Auberge le",
-          "Truc to",
-          "Refuge de",
-          "La Croix du",
+          "Auberge le Truc to",
+          "Refuge de La Croix du",
           "Bonhomme"
         ]
       },
@@ -306,24 +300,18 @@ const data = [
         },
         "termini": {
           "end": [
-            "Refuge",
-            "Robert",
-            "Blanc"
+            "Refuge Robert Blanc"
           ],
           "isSame": false,
           "start": [
-            "Refuge de",
-            "La Croix du",
+            "Refuge de La Croix du",
             "Bonhomme"
           ]
         },
         "title": [
-          "Refuge de",
-          "La Croix du",
-          "Bonhomme to",
-          "Refuge",
-          "Robert",
-          "Blanc"
+          "Refuge de La Croix du",
+          "Bonhomme to Refuge",
+          "Robert Blanc"
         ]
       },
       {
@@ -412,22 +400,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Maison",
-            "Veille"
+            "Maison Veille"
           ],
           "isSame": false,
           "start": [
-            "Refuge",
-            "Robert",
-            "Blanc"
+            "Refuge Robert Blanc"
           ]
         },
         "title": [
-          "Refuge",
-          "Robert",
-          "Blanc to",
-          "Maison",
-          "Veille"
+          "Refuge Robert Blanc",
+          "to Maison Veille"
         ]
       },
       {
@@ -516,20 +498,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Rifugio",
-            "Bonatti"
+            "Rifugio Bonatti"
           ],
           "isSame": false,
           "start": [
-            "Maison",
-            "Veille"
+            "Maison Veille"
           ]
         },
         "title": [
-          "Maison",
-          "Veille to",
-          "Rifugio",
-          "Bonatti"
+          "Maison Veille to",
+          "Rifugio Bonatti"
         ]
       },
       {
@@ -618,20 +596,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Hotel",
-            "Edelweiss"
+            "Hotel Edelweiss"
           ],
           "isSame": false,
           "start": [
-            "Rifugio",
-            "Bonatti"
+            "Rifugio Bonatti"
           ]
         },
         "title": [
-          "Rifugio",
-          "Bonatti to",
-          "Hotel",
-          "Edelweiss"
+          "Rifugio Bonatti to",
+          "Hotel Edelweiss"
         ]
       },
       {
@@ -720,20 +694,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Gite Bon",
-            "Abri"
+            "Gite Bon Abri"
           ],
           "isSame": false,
           "start": [
-            "Hotel",
-            "Edelweiss"
+            "Hotel Edelweiss"
           ]
         },
         "title": [
-          "Hotel",
-          "Edelweiss",
-          "to Gite Bon",
-          "Abri"
+          "Hotel Edelweiss to",
+          "Gite Bon Abri"
         ]
       },
       {
@@ -822,20 +792,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Hotel",
-            "Forclaz"
+            "Hotel Forclaz"
           ],
           "isSame": false,
           "start": [
-            "Gite Bon",
-            "Abri"
+            "Gite Bon Abri"
           ]
         },
         "title": [
-          "Gite Bon",
-          "Abri to",
-          "Hotel",
-          "Forclaz"
+          "Gite Bon Abri to",
+          "Hotel Forclaz"
         ]
       },
       {
@@ -924,20 +890,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Auberge la",
-            "Boerne"
+            "Auberge la Boerne"
           ],
           "isSame": false,
           "start": [
-            "Hotel",
-            "Forclaz"
+            "Hotel Forclaz"
           ]
         },
         "title": [
-          "Hotel",
-          "Forclaz to",
-          "Auberge la",
-          "Boerne"
+          "Hotel Forclaz to",
+          "Auberge la Boerne"
         ]
       },
       {
@@ -1026,20 +988,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Refuge de",
-            "lo Flegere"
+            "Refuge de lo Flegere"
           ],
           "isSame": false,
           "start": [
-            "Auberge la",
-            "Boerne"
+            "Auberge la Boerne"
           ]
         },
         "title": [
-          "Auberge la",
-          "Boerne to",
-          "Refuge de",
-          "lo Flegere"
+          "Auberge la Boerne to",
+          "Refuge de lo Flegere"
         ]
       },
       {
@@ -1132,15 +1090,12 @@ const data = [
           ],
           "isSame": false,
           "start": [
-            "Refuge de",
-            "lo Flegere"
+            "Refuge de lo Flegere"
           ]
         },
         "title": [
-          "Refuge de",
-          "lo Flegere",
-          "to Les",
-          "Houches"
+          "Refuge de lo Flegere",
+          "to Les Houches"
         ]
       }
     ],
@@ -1261,8 +1216,7 @@ const data = [
         },
         "termini": {
           "end": [
-            "D'Ortu Di U",
-            "Piobbu"
+            "D'Ortu Di U Piobbu"
           ],
           "isSame": false,
           "start": [
@@ -1270,8 +1224,7 @@ const data = [
           ]
         },
         "title": [
-          "Calenzana",
-          "to D'Ortu",
+          "Calenzana to D'Ortu",
           "Di U Piobbu"
         ]
       },
@@ -1365,13 +1318,11 @@ const data = [
           ],
           "isSame": false,
           "start": [
-            "D'Ortu Di U",
-            "Piobbu"
+            "D'Ortu Di U Piobbu"
           ]
         },
         "title": [
-          "D'Ortu Di U",
-          "Piobbu to",
+          "D'Ortu Di U Piobbu to",
           "Carozzu"
         ]
       },
@@ -1469,8 +1420,8 @@ const data = [
           ]
         },
         "title": [
-          "Carozzu to",
-          "Ascu Stagnu"
+          "Carozzu to Ascu",
+          "Stagnu"
         ]
       },
       {
@@ -1567,8 +1518,7 @@ const data = [
           ]
         },
         "title": [
-          "Ascu Stagnu",
-          "to U",
+          "Ascu Stagnu to U",
           "Vallone"
         ]
       },
@@ -1658,8 +1608,7 @@ const data = [
         },
         "termini": {
           "end": [
-            "Castel di",
-            "Vergio"
+            "Castel di Vergio"
           ],
           "isSame": false,
           "start": [
@@ -1667,8 +1616,7 @@ const data = [
           ]
         },
         "title": [
-          "U Vallone",
-          "to Castel",
+          "U Vallone to Castel",
           "di Vergio"
         ]
       },
@@ -1762,13 +1710,11 @@ const data = [
           ],
           "isSame": false,
           "start": [
-            "Castel di",
-            "Vergio"
+            "Castel di Vergio"
           ]
         },
         "title": [
-          "Castel di",
-          "Vergio to",
+          "Castel di Vergio to",
           "Manganu"
         ]
       },
@@ -1866,8 +1812,8 @@ const data = [
           ]
         },
         "title": [
-          "Manganu to",
-          "Petra Piana"
+          "Manganu to Petra",
+          "Piana"
         ]
       },
       {
@@ -1964,8 +1910,7 @@ const data = [
           ]
         },
         "title": [
-          "Petra Piana",
-          "to l'Onda"
+          "Petra Piana to l'Onda"
         ]
       },
       {
@@ -2062,8 +2007,7 @@ const data = [
           ]
         },
         "title": [
-          "l'Onda to",
-          "Vizzavona"
+          "l'Onda to Vizzavona"
         ]
       },
       {
@@ -2152,8 +2096,7 @@ const data = [
         },
         "termini": {
           "end": [
-            "Bocca di",
-            "Verdi"
+            "Bocca di Verdi"
           ],
           "isSame": false,
           "start": [
@@ -2161,8 +2104,7 @@ const data = [
           ]
         },
         "title": [
-          "Vizzavona",
-          "to Bocca di",
+          "Vizzavona to Bocca di",
           "Verdi"
         ]
       },
@@ -2256,13 +2198,11 @@ const data = [
           ],
           "isSame": false,
           "start": [
-            "Bocca di",
-            "Verdi"
+            "Bocca di Verdi"
           ]
         },
         "title": [
-          "Bocca di",
-          "Verdi to",
+          "Bocca di Verdi to",
           "d'Usciolu"
         ]
       },
@@ -2360,8 +2300,7 @@ const data = [
           ]
         },
         "title": [
-          "d'Usciolu",
-          "to d'Asinau"
+          "d'Usciolu to d'Asinau"
         ]
       },
       {
@@ -2458,8 +2397,7 @@ const data = [
           ]
         },
         "title": [
-          "d'Asinau to",
-          "Conca"
+          "d'Asinau to Conca"
         ]
       }
     ],
@@ -2510,18 +2448,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "The",
-            "Pyramids"
+            "The Pyramids"
           ],
           "isSame": true,
           "start": [
-            "The",
-            "Pyramids"
+            "The Pyramids"
           ]
         },
         "title": [
-          "The",
-          "Pyramids"
+          "The Pyramids"
         ]
       },
       {
@@ -2571,18 +2506,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Bent",
-            "Pyramid"
+            "Bent Pyramid"
           ],
           "isSame": true,
           "start": [
-            "Bent",
-            "Pyramid"
+            "Bent Pyramid"
           ]
         },
         "title": [
-          "Bent",
-          "Pyramid"
+          "Bent Pyramid"
         ]
       },
       {
@@ -2603,18 +2535,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Step",
-            "Pyramid"
+            "Step Pyramid"
           ],
           "isSame": true,
           "start": [
-            "Step",
-            "Pyramid"
+            "Step Pyramid"
           ]
         },
         "title": [
-          "Step",
-          "Pyramid"
+          "Step Pyramid"
         ]
       },
       {
@@ -2635,18 +2564,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Museums in",
-            "Cairo"
+            "Museums in Cairo"
           ],
           "isSame": true,
           "start": [
-            "Museums in",
-            "Cairo"
+            "Museums in Cairo"
           ]
         },
         "title": [
-          "Museums in",
-          "Cairo"
+          "Museums in Cairo"
         ]
       },
       {
@@ -2667,18 +2593,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Colossi of",
-            "Memnon"
+            "Colossi of Memnon"
           ],
           "isSame": true,
           "start": [
-            "Colossi of",
-            "Memnon"
+            "Colossi of Memnon"
           ]
         },
         "title": [
-          "Colossi of",
-          "Memnon"
+          "Colossi of Memnon"
         ]
       },
       {
@@ -2699,18 +2622,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Tomb of",
-            "Ramses V"
+            "Tomb of Ramses V"
           ],
           "isSame": true,
           "start": [
-            "Tomb of",
-            "Ramses V"
+            "Tomb of Ramses V"
           ]
         },
         "title": [
-          "Tomb of",
-          "Ramses V"
+          "Tomb of Ramses V"
         ]
       },
       {
@@ -2731,20 +2651,17 @@ const data = [
         },
         "termini": {
           "end": [
-            "Tomb of the",
-            "King",
+            "Tomb of the King",
             "Tutankhamun"
           ],
           "isSame": true,
           "start": [
-            "Tomb of the",
-            "King",
+            "Tomb of the King",
             "Tutankhamun"
           ]
         },
         "title": [
-          "Tomb of the",
-          "King",
+          "Tomb of the King",
           "Tutankhamun"
         ]
       },
@@ -2766,18 +2683,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Tomb of",
-            "Ramses III"
+            "Tomb of Ramses III"
           ],
           "isSame": true,
           "start": [
-            "Tomb of",
-            "Ramses III"
+            "Tomb of Ramses III"
           ]
         },
         "title": [
-          "Tomb of",
-          "Ramses III"
+          "Tomb of Ramses III"
         ]
       },
       {
@@ -2798,18 +2712,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Valley of",
-            "the Queens"
+            "Valley of the Queens"
           ],
           "isSame": true,
           "start": [
-            "Valley of",
-            "the Queens"
+            "Valley of the Queens"
           ]
         },
         "title": [
-          "Valley of",
-          "the Queens"
+          "Valley of the Queens"
         ]
       },
       {
@@ -2830,18 +2741,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Medinet",
-            "Habu Temple"
+            "Medinet Habu Temple"
           ],
           "isSame": true,
           "start": [
-            "Medinet",
-            "Habu Temple"
+            "Medinet Habu Temple"
           ]
         },
         "title": [
-          "Medinet",
-          "Habu Temple"
+          "Medinet Habu Temple"
         ]
       },
       {
@@ -2862,20 +2770,17 @@ const data = [
         },
         "termini": {
           "end": [
-            "Hatshepsuts",
-            "Mortuary",
+            "Hatshepsuts Mortuary",
             "Temple"
           ],
           "isSame": true,
           "start": [
-            "Hatshepsuts",
-            "Mortuary",
+            "Hatshepsuts Mortuary",
             "Temple"
           ]
         },
         "title": [
-          "Hatshepsuts",
-          "Mortuary",
+          "Hatshepsuts Mortuary",
           "Temple"
         ]
       },
@@ -2897,21 +2802,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Hot Air",
-            "Balloon",
-            "Ride"
+            "Hot Air Balloon Ride"
           ],
           "isSame": true,
           "start": [
-            "Hot Air",
-            "Balloon",
-            "Ride"
+            "Hot Air Balloon Ride"
           ]
         },
         "title": [
-          "Hot Air",
-          "Balloon",
-          "Ride"
+          "Hot Air Balloon Ride"
         ]
       },
       {
@@ -2932,18 +2831,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Luxor",
-            "Temple"
+            "Luxor Temple"
           ],
           "isSame": true,
           "start": [
-            "Luxor",
-            "Temple"
+            "Luxor Temple"
           ]
         },
         "title": [
-          "Luxor",
-          "Temple"
+          "Luxor Temple"
         ]
       },
       {
@@ -2964,21 +2860,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Karnak",
-            "Temple",
-            "Complex"
+            "Karnak Temple Complex"
           ],
           "isSame": true,
           "start": [
-            "Karnak",
-            "Temple",
-            "Complex"
+            "Karnak Temple Complex"
           ]
         },
         "title": [
-          "Karnak",
-          "Temple",
-          "Complex"
+          "Karnak Temple Complex"
         ]
       }
     ],
@@ -3021,7 +2911,7 @@ const data = [
           "supplementary": []
         },
         "index": 0,
-        "location": null,
+        "location": "Eagle",
         "stats": {
           "distance": {
             "label": "distance",
@@ -3099,24 +2989,18 @@ const data = [
         },
         "termini": {
           "end": [
-            "Blue Spring",
-            "and Stony",
-            "Ridge",
-            "Segments"
+            "Blue Spring and Stony",
+            "Ridge Segments"
           ],
           "isSame": true,
           "start": [
-            "Blue Spring",
-            "and Stony",
-            "Ridge",
-            "Segments"
+            "Blue Spring and Stony",
+            "Ridge Segments"
           ]
         },
         "title": [
-          "Blue Spring",
-          "and Stony",
-          "Ridge",
-          "Segments"
+          "Blue Spring and Stony",
+          "Ridge Segments"
         ]
       },
       {
@@ -3127,7 +3011,7 @@ const data = [
           "supplementary": []
         },
         "index": 1,
-        "location": null,
+        "location": "Mauthe Lake",
         "stats": {
           "distance": {
             "label": "distance",
@@ -3205,18 +3089,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Parnell",
-            "Segment"
+            "Parnell Segment"
           ],
           "isSame": true,
           "start": [
-            "Parnell",
-            "Segment"
+            "Parnell Segment"
           ]
         },
         "title": [
-          "Parnell",
-          "Segment"
+          "Parnell Segment"
         ]
       },
       {
@@ -3227,7 +3108,7 @@ const data = [
           "supplementary": []
         },
         "index": 2,
-        "location": null,
+        "location": "Glenbeulah",
         "stats": {
           "distance": {
             "label": "distance",
@@ -3305,18 +3186,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Greenbush",
-            "Segment"
+            "Greenbush Segment"
           ],
           "isSame": true,
           "start": [
-            "Greenbush",
-            "Segment"
+            "Greenbush Segment"
           ]
         },
         "title": [
-          "Greenbush",
-          "Segment"
+          "Greenbush Segment"
         ]
       }
     ],
@@ -3445,8 +3323,7 @@ const data = [
           ]
         },
         "title": [
-          "Milngavie",
-          "to Drymen"
+          "Milngavie to Drymen"
         ]
       },
       {
@@ -3543,8 +3420,7 @@ const data = [
           ]
         },
         "title": [
-          "Drymen to",
-          "Sallochy"
+          "Drymen to Sallochy"
         ]
       },
       {
@@ -3633,8 +3509,7 @@ const data = [
         },
         "termini": {
           "end": [
-            "Bienglas",
-            "Farm"
+            "Bienglas Farm"
           ],
           "isSame": false,
           "start": [
@@ -3642,8 +3517,7 @@ const data = [
           ]
         },
         "title": [
-          "Sallochy to",
-          "Bienglas",
+          "Sallochy to Bienglas",
           "Farm"
         ]
       },
@@ -3733,20 +3607,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Bridge of",
-            "Orchy"
+            "Bridge of Orchy"
           ],
           "isSame": false,
           "start": [
-            "Bienglas",
-            "Farm"
+            "Bienglas Farm"
           ]
         },
         "title": [
-          "Bienglas",
-          "Farm to",
-          "Bridge of",
-          "Orchy"
+          "Bienglas Farm to",
+          "Bridge of Orchy"
         ]
       },
       {
@@ -3835,18 +3705,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "",
             "Kinlochleven"
           ],
           "isSame": false,
           "start": [
-            "Bridge of",
-            "Orchy"
+            "Bridge of Orchy"
           ]
         },
         "title": [
-          "Bridge of",
-          "Orchy to",
+          "Bridge of Orchy to",
           "Kinlochleven"
         ]
       },
@@ -3936,18 +3803,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Fort",
-            "William"
+            "Fort William"
           ],
           "isSame": false,
           "start": [
-            "",
             "Kinlochleven"
           ]
         },
         "title": [
-          "",
-          "Kinlochleven"
+          "Kinlochleven to Fort",
+          "William"
         ]
       }
     ],
@@ -3999,18 +3864,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Ocean Park",
-            "Beach"
+            "Ocean Park Beach"
           ],
           "isSame": true,
           "start": [
-            "Ocean Park",
-            "Beach"
+            "Ocean Park Beach"
           ]
         },
         "title": [
-          "Ocean Park",
-          "Beach"
+          "Ocean Park Beach"
         ]
       },
       {
@@ -4031,18 +3893,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Castillo",
-            "San Felipe"
+            "Castillo San Felipe"
           ],
           "isSame": true,
           "start": [
-            "Castillo",
-            "San Felipe"
+            "Castillo San Felipe"
           ]
         },
         "title": [
-          "Castillo",
-          "San Felipe"
+          "Castillo San Felipe"
         ]
       },
       {
@@ -4063,20 +3922,17 @@ const data = [
         },
         "termini": {
           "end": [
-            "El Yunque",
-            "National",
+            "El Yunque National",
             "Forest"
           ],
           "isSame": true,
           "start": [
-            "El Yunque",
-            "National",
+            "El Yunque National",
             "Forest"
           ]
         },
         "title": [
-          "El Yunque",
-          "National",
+          "El Yunque National",
           "Forest"
         ]
       }
@@ -4117,7 +3973,7 @@ const data = [
           "supplementary": []
         },
         "index": 0,
-        "location": null,
+        "location": "Sevier County",
         "stats": {
           "distance": null,
           "gain": null,
@@ -4127,18 +3983,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Mount Le",
-            "Conte"
+            "Mount Le Conte"
           ],
           "isSame": true,
           "start": [
-            "Mount Le",
-            "Conte"
+            "Mount Le Conte"
           ]
         },
         "title": [
-          "Mount Le",
-          "Conte"
+          "Mount Le Conte"
         ]
       },
       {
@@ -4149,7 +4002,7 @@ const data = [
           "supplementary": []
         },
         "index": 1,
-        "location": null,
+        "location": "Thunderhead Mountain",
         "stats": {
           "distance": null,
           "gain": null,
@@ -4159,15 +4012,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Rocky Top"
+            "Rocky Top Peak"
           ],
           "isSame": true,
           "start": [
-            "Rocky Top"
+            "Rocky Top Peak"
           ]
         },
         "title": [
-          "Rocky Top"
+          "Rocky Top Peak"
         ]
       }
     ],
@@ -4288,20 +4141,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Refugio",
-            "Seron"
+            "Refugio Seron"
           ],
           "isSame": false,
           "start": [
-            "Laguna",
-            "Amarga"
+            "Laguna Amarga"
           ]
         },
         "title": [
-          "Laguna",
-          "Amarga to",
-          "Refugio",
-          "Seron"
+          "Laguna Amarga to",
+          "Refugio Seron"
         ]
       },
       {
@@ -4390,20 +4239,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Refugio",
-            "Dickson"
+            "Refugio Dickson"
           ],
           "isSame": false,
           "start": [
-            "Refugio",
-            "Seron"
+            "Refugio Seron"
           ]
         },
         "title": [
-          "Refugio",
-          "Seron to",
-          "Refugio",
-          "Dickson"
+          "Refugio Seron to",
+          "Refugio Dickson"
         ]
       },
       {
@@ -4492,20 +4337,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Refugio",
-            "Perros"
+            "Refugio Perros"
           ],
           "isSame": false,
           "start": [
-            "Refugio",
-            "Dickson"
+            "Refugio Dickson"
           ]
         },
         "title": [
-          "Refugio",
-          "Dickson to",
-          "Refugio",
-          "Perros"
+          "Refugio Dickson to",
+          "Refugio Perros"
         ]
       },
       {
@@ -4594,20 +4435,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Refugio",
-            "Grey"
+            "Refugio Grey"
           ],
           "isSame": false,
           "start": [
-            "Refugio",
-            "Perros"
+            "Refugio Perros"
           ]
         },
         "title": [
-          "Refugio",
-          "Perros to",
-          "Refugio",
-          "Grey"
+          "Refugio Perros to",
+          "Refugio Grey"
         ]
       },
       {
@@ -4696,22 +4533,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Refugio",
-            "Paine",
-            "Grande"
+            "Refugio Paine Grande"
           ],
           "isSame": false,
           "start": [
-            "Refugio",
-            "Grey"
+            "Refugio Grey"
           ]
         },
         "title": [
-          "Refugio",
-          "Grey to",
-          "Refugio",
-          "Paine",
-          "Grande"
+          "Refugio Grey to",
+          "Refugio Paine Grande"
         ]
       },
       {
@@ -4800,22 +4631,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Refugio",
-            "Frances"
+            "Refugio Frances"
           ],
           "isSame": false,
           "start": [
-            "Refugio",
-            "Paine",
-            "Grande"
+            "Refugio Paine Grande"
           ]
         },
         "title": [
-          "Refugio",
-          "Paine",
-          "Grande to",
-          "Refugio",
-          "Frances"
+          "Refugio Paine Grande",
+          "to Refugio Frances"
         ]
       },
       {
@@ -4904,20 +4729,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Refugio",
-            "Chileno"
+            "Refugio Chileno"
           ],
           "isSame": false,
           "start": [
-            "Refugio",
-            "Frances"
+            "Refugio Frances"
           ]
         },
         "title": [
-          "Refugio",
-          "Frances to",
-          "Refugio",
-          "Chileno"
+          "Refugio Frances to",
+          "Refugio Chileno"
         ]
       },
       {
@@ -5006,20 +4827,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Laguna",
-            "Amarga"
+            "Laguna Amarga"
           ],
           "isSame": false,
           "start": [
-            "Refugio",
-            "Chileno"
+            "Refugio Chileno"
           ]
         },
         "title": [
-          "Refugio",
-          "Chileno to",
-          "Laguna",
-          "Amarga"
+          "Refugio Chileno to",
+          "Laguna Amarga"
         ]
       }
     ],
@@ -5149,8 +4966,7 @@ const data = [
           ]
         },
         "title": [
-          "Besishar to",
-          "Bhulbhule"
+          "Besishar to Bhulbhule"
         ]
       },
       {
@@ -5247,8 +5063,7 @@ const data = [
           ]
         },
         "title": [
-          "Bhulbhule",
-          "to Jagat"
+          "Bhulbhule to Jagat"
         ]
       },
       {
@@ -5345,8 +5160,7 @@ const data = [
           ]
         },
         "title": [
-          "Jagat to",
-          "Dharapani"
+          "Jagat to Dharapani"
         ]
       },
       {
@@ -5443,8 +5257,7 @@ const data = [
           ]
         },
         "title": [
-          "Dharapani",
-          "to Chame"
+          "Dharapani to Chame"
         ]
       },
       {
@@ -5533,8 +5346,7 @@ const data = [
         },
         "termini": {
           "end": [
-            "Upper",
-            "Pisang"
+            "Upper Pisang"
           ],
           "isSame": false,
           "start": [
@@ -5542,9 +5354,7 @@ const data = [
           ]
         },
         "title": [
-          "Chame to",
-          "Upper",
-          "Pisang"
+          "Chame to Upper Pisang"
         ]
       },
       {
@@ -5637,13 +5447,11 @@ const data = [
           ],
           "isSame": false,
           "start": [
-            "Upper",
-            "Pisang"
+            "Upper Pisang"
           ]
         },
         "title": [
-          "Upper",
-          "Pisang to",
+          "Upper Pisang to",
           "Manang"
         ]
       },
@@ -5733,9 +5541,7 @@ const data = [
         },
         "termini": {
           "end": [
-            "Tilicho",
-            "Lake",
-            "Basecamp"
+            "Tilicho Lake Basecamp"
           ],
           "isSame": false,
           "start": [
@@ -5743,10 +5549,8 @@ const data = [
           ]
         },
         "title": [
-          "Manang to",
-          "Tilicho",
-          "Lake",
-          "Basecamp"
+          "Manang to Tilicho",
+          "Lake Basecamp"
         ]
       },
       {
@@ -5835,22 +5639,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Shree",
-            "Kharka"
+            "Shree Kharka"
           ],
           "isSame": false,
           "start": [
-            "Tilicho",
-            "Lake",
-            "Basecamp"
+            "Tilicho Lake Basecamp"
           ]
         },
         "title": [
-          "Tilicho",
-          "Lake",
-          "Basecamp to",
-          "Shree",
-          "Kharka"
+          "Tilicho Lake Basecamp",
+          "to Shree Kharka"
         ]
       },
       {
@@ -5943,14 +5741,11 @@ const data = [
           ],
           "isSame": false,
           "start": [
-            "Shree",
-            "Kharka"
+            "Shree Kharka"
           ]
         },
         "title": [
-          "Shree",
-          "Kharka to",
-          "Phedi"
+          "Shree Kharka to Phedi"
         ]
       },
       {
@@ -6047,8 +5842,7 @@ const data = [
           ]
         },
         "title": [
-          "Phedi to",
-          "Muktinath"
+          "Phedi to Muktinath"
         ]
       },
       {
@@ -6145,8 +5939,7 @@ const data = [
           ]
         },
         "title": [
-          "Muktinath",
-          "to Marpha"
+          "Muktinath to Marpha"
         ]
       },
       {
@@ -6243,8 +6036,7 @@ const data = [
           ]
         },
         "title": [
-          "Marpha to",
-          "Ghasa"
+          "Marpha to Ghasa"
         ]
       },
       {
@@ -6341,8 +6133,7 @@ const data = [
           ]
         },
         "title": [
-          "Ghasa to",
-          "Ghorepani"
+          "Ghasa to Ghorepani"
         ]
       },
       {
@@ -6439,8 +6230,7 @@ const data = [
           ]
         },
         "title": [
-          "Ghorepani",
-          "to Chomrong"
+          "Ghorepani to Chomrong"
         ]
       },
       {
@@ -6537,8 +6327,7 @@ const data = [
           ]
         },
         "title": [
-          "Chomrong to",
-          "Deurali"
+          "Chomrong to Deurali"
         ]
       },
       {
@@ -6627,8 +6416,7 @@ const data = [
         },
         "termini": {
           "end": [
-            "Annapurna",
-            "Basecamp"
+            "Annapurna Basecamp"
           ],
           "isSame": false,
           "start": [
@@ -6636,8 +6424,7 @@ const data = [
           ]
         },
         "title": [
-          "Deurali to",
-          "Annapurna",
+          "Deurali to Annapurna",
           "Basecamp"
         ]
       },
@@ -6731,13 +6518,11 @@ const data = [
           ],
           "isSame": false,
           "start": [
-            "Annapurna",
-            "Basecamp"
+            "Annapurna Basecamp"
           ]
         },
         "title": [
-          "Annapurna",
-          "Basecamp to",
+          "Annapurna Basecamp to",
           "Chomrong"
         ]
       },
@@ -6880,7 +6665,7 @@ const data = [
           "supplementary": []
         },
         "index": 0,
-        "location": null,
+        "location": "Sawatch Range",
         "stats": {
           "distance": {
             "label": "distance",
@@ -6958,18 +6743,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Mount",
-            "Elbert"
+            "Mount Elbert"
           ],
           "isSame": true,
           "start": [
-            "Mount",
-            "Elbert"
+            "Mount Elbert"
           ]
         },
         "title": [
-          "Mount",
-          "Elbert"
+          "Mount Elbert"
         ]
       },
       {
@@ -6980,7 +6762,7 @@ const data = [
           "supplementary": []
         },
         "index": 1,
-        "location": null,
+        "location": "Tenmile Range",
         "stats": {
           "distance": {
             "label": "distance",
@@ -7058,18 +6840,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Quandary",
-            "Peak"
+            "Quandary Peak"
           ],
           "isSame": true,
           "start": [
-            "Quandary",
-            "Peak"
+            "Quandary Peak"
           ]
         },
         "title": [
-          "Quandary",
-          "Peak"
+          "Quandary Peak"
         ]
       },
       {
@@ -7080,7 +6859,7 @@ const data = [
           "supplementary": []
         },
         "index": 2,
-        "location": null,
+        "location": "Sawatch Range",
         "stats": {
           "distance": {
             "label": "distance",
@@ -7158,18 +6937,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "La Plata",
-            "Peak"
+            "La Plata Peak"
           ],
           "isSame": true,
           "start": [
-            "La Plata",
-            "Peak"
+            "La Plata Peak"
           ]
         },
         "title": [
-          "La Plata",
-          "Peak"
+          "La Plata Peak"
         ]
       },
       {
@@ -7180,7 +6956,7 @@ const data = [
           "supplementary": []
         },
         "index": 3,
-        "location": null,
+        "location": "Front Range",
         "stats": {
           "distance": {
             "label": "distance",
@@ -7258,18 +7034,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Mount",
-            "Bierstadt"
+            "Mount Bierstadt"
           ],
           "isSame": true,
           "start": [
-            "Mount",
-            "Bierstadt"
+            "Mount Bierstadt"
           ]
         },
         "title": [
-          "Mount",
-          "Bierstadt"
+          "Mount Bierstadt"
         ]
       },
       {
@@ -7280,7 +7053,7 @@ const data = [
           "supplementary": []
         },
         "index": 4,
-        "location": null,
+        "location": "Front Range",
         "stats": {
           "distance": {
             "label": "distance",
@@ -7377,7 +7150,7 @@ const data = [
           "supplementary": []
         },
         "index": 5,
-        "location": null,
+        "location": "Sawatch Range",
         "stats": {
           "distance": {
             "label": "distance",
@@ -7455,18 +7228,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Mount",
-            "Shavano"
+            "Mount Shavano"
           ],
           "isSame": true,
           "start": [
-            "Mount",
-            "Shavano"
+            "Mount Shavano"
           ]
         },
         "title": [
-          "Mount",
-          "Shavano"
+          "Mount Shavano"
         ]
       },
       {
@@ -7477,7 +7247,7 @@ const data = [
           "supplementary": []
         },
         "index": 6,
-        "location": null,
+        "location": "Mosquito Range",
         "stats": {
           "distance": {
             "label": "distance",
@@ -7555,18 +7325,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Mount",
-            "DeCaLi"
+            "Mount DeCaLi"
           ],
           "isSame": true,
           "start": [
-            "Mount",
-            "DeCaLi"
+            "Mount DeCaLi"
           ]
         },
         "title": [
-          "Mount",
-          "DeCaLi"
+          "Mount DeCaLi"
         ]
       },
       {
@@ -7577,7 +7344,7 @@ const data = [
           "supplementary": []
         },
         "index": 7,
-        "location": null,
+        "location": "Sawatch Range",
         "stats": {
           "distance": {
             "label": "distance",
@@ -7655,18 +7422,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Mount",
-            "Belford"
+            "Mount Belford"
           ],
           "isSame": true,
           "start": [
-            "Mount",
-            "Belford"
+            "Mount Belford"
           ]
         },
         "title": [
-          "Mount",
-          "Belford"
+          "Mount Belford"
         ]
       },
       {
@@ -7677,7 +7441,7 @@ const data = [
           "supplementary": []
         },
         "index": 8,
-        "location": null,
+        "location": "Sawatch Range",
         "stats": {
           "distance": {
             "label": "distance",
@@ -7755,18 +7519,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Mount",
-            "Massive"
+            "Mount Massive"
           ],
           "isSame": true,
           "start": [
-            "Mount",
-            "Massive"
+            "Mount Massive"
           ]
         },
         "title": [
-          "Mount",
-          "Massive"
+          "Mount Massive"
         ]
       }
     ],
@@ -7888,8 +7649,7 @@ const data = [
         },
         "termini": {
           "end": [
-            "Rifugio",
-            "Biella"
+            "Rifugio Biella"
           ],
           "isSame": false,
           "start": [
@@ -7897,8 +7657,7 @@ const data = [
           ]
         },
         "title": [
-          "Braies to",
-          "Rifugio",
+          "Braies to Rifugio",
           "Biella"
         ]
       },
@@ -7988,20 +7747,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Rifugio",
-            "Lavarella"
+            "Rifugio Lavarella"
           ],
           "isSame": false,
           "start": [
-            "Rifugio",
-            "Biella"
+            "Rifugio Biella"
           ]
         },
         "title": [
-          "Rifugio",
-          "Biella to",
-          "Rifugio",
-          "Lavarella"
+          "Rifugio Biella to",
+          "Rifugio Lavarella"
         ]
       },
       {
@@ -8090,20 +7845,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Rifugio",
-            "Scotoni"
+            "Rifugio Scotoni"
           ],
           "isSame": false,
           "start": [
-            "Rifugio",
-            "Lavarella"
+            "Rifugio Lavarella"
           ]
         },
         "title": [
-          "Rifugio",
-          "Lavarella",
-          "to Rifugio",
-          "Scotoni"
+          "Rifugio Lavarella to",
+          "Rifugio Scotoni"
         ]
       },
       {
@@ -8192,20 +7943,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Rifugio",
-            "Averau"
+            "Rifugio Averau"
           ],
           "isSame": false,
           "start": [
-            "Rifugio",
-            "Scotoni"
+            "Rifugio Scotoni"
           ]
         },
         "title": [
-          "Rifugio",
-          "Scotoni to",
-          "Rifugio",
-          "Averau"
+          "Rifugio Scotoni to",
+          "Rifugio Averau"
         ]
       },
       {
@@ -8294,22 +8041,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Rifugio",
-            "Citta de",
-            "Fume"
+            "Rifugio Citta de Fume"
           ],
           "isSame": false,
           "start": [
-            "Rifugio",
-            "Averau"
+            "Rifugio Averau"
           ]
         },
         "title": [
-          "Rifugio",
-          "Averau to",
-          "Rifugio",
-          "Citta de",
-          "Fume"
+          "Rifugio Averau to",
+          "Rifugio Citta de Fume"
         ]
       },
       {
@@ -8398,22 +8139,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Rifugio",
-            "Tissi"
+            "Rifugio Tissi"
           ],
           "isSame": false,
           "start": [
-            "Rifugio",
-            "Citta de",
-            "Fume"
+            "Rifugio Citta de Fume"
           ]
         },
         "title": [
-          "Rifugio",
-          "Citta de",
-          "Fume to",
-          "Rifugio",
-          "Tissi"
+          "Rifugio Citta de Fume",
+          "to Rifugio Tissi"
         ]
       },
       {
@@ -8502,20 +8237,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Rifugio",
-            "Carestiato"
+            "Rifugio Carestiato"
           ],
           "isSame": false,
           "start": [
-            "Rifugio",
-            "Tissi"
+            "Rifugio Tissi"
           ]
         },
         "title": [
-          "Rifugio",
-          "Tissi to",
-          "Rifugio",
-          "Carestiato"
+          "Rifugio Tissi to",
+          "Rifugio Carestiato"
         ]
       },
       {
@@ -8604,20 +8335,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Rifugio",
-            "Pramperet"
+            "Rifugio Pramperet"
           ],
           "isSame": false,
           "start": [
-            "Rifugio",
-            "Carestiato"
+            "Rifugio Carestiato"
           ]
         },
         "title": [
-          "Rifugio",
-          "Carestiato",
-          "to Rifugio",
-          "Pramperet"
+          "Rifugio Carestiato to",
+          "Rifugio Pramperet"
         ]
       },
       {
@@ -8706,21 +8433,17 @@ const data = [
         },
         "termini": {
           "end": [
-            "Rifugio",
-            "Pian de",
+            "Rifugio Pian de",
             "Fontana"
           ],
           "isSame": false,
           "start": [
-            "Rifugio",
-            "Pramperet"
+            "Rifugio Pramperet"
           ]
         },
         "title": [
-          "Rifugio",
-          "Pramperet",
-          "to Rifugio",
-          "Pian de",
+          "Rifugio Pramperet to",
+          "Rifugio Pian de",
           "Fontana"
         ]
       },
@@ -8810,21 +8533,17 @@ const data = [
         },
         "termini": {
           "end": [
-            "La Pissa",
-            "Bus Stop"
+            "La Pissa Bus Stop"
           ],
           "isSame": false,
           "start": [
-            "Rifugio",
-            "Pian de",
+            "Rifugio Pian de",
             "Fontana"
           ]
         },
         "title": [
-          "Rifugio",
-          "Pian de",
-          "Fontana to",
-          "La Pissa",
+          "Rifugio Pian de",
+          "Fontana to La Pissa",
           "Bus Stop"
         ]
       }
@@ -8904,18 +8623,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Peace",
-            "Pagoda"
+            "Peace Pagoda"
           ],
           "isSame": true,
           "start": [
-            "Peace",
-            "Pagoda"
+            "Peace Pagoda"
           ]
         },
         "title": [
-          "Peace",
-          "Pagoda"
+          "Peace Pagoda"
         ]
       },
       {
@@ -9064,8 +8780,7 @@ const data = [
         },
         "termini": {
           "end": [
-            "Auberge le",
-            "Truc"
+            "Auberge le Truc"
           ],
           "isSame": false,
           "start": [
@@ -9073,9 +8788,8 @@ const data = [
           ]
         },
         "title": [
-          "Les Houches",
-          "to Auberge",
-          "le Truc"
+          "Les Houches to",
+          "Auberge le Truc"
         ]
       },
       {
@@ -9164,21 +8878,17 @@ const data = [
         },
         "termini": {
           "end": [
-            "Refuge de",
-            "La Croix du",
+            "Refuge de La Croix du",
             "Bonhomme"
           ],
           "isSame": false,
           "start": [
-            "Auberge le",
-            "Truc"
+            "Auberge le Truc"
           ]
         },
         "title": [
-          "Auberge le",
-          "Truc to",
-          "Refuge de",
-          "La Croix du",
+          "Auberge le Truc to",
+          "Refuge de La Croix du",
           "Bonhomme"
         ]
       },
@@ -9268,24 +8978,18 @@ const data = [
         },
         "termini": {
           "end": [
-            "Refuge",
-            "Robert",
-            "Blanc"
+            "Refuge Robert Blanc"
           ],
           "isSame": false,
           "start": [
-            "Refuge de",
-            "La Croix du",
+            "Refuge de La Croix du",
             "Bonhomme"
           ]
         },
         "title": [
-          "Refuge de",
-          "La Croix du",
-          "Bonhomme to",
-          "Refuge",
-          "Robert",
-          "Blanc"
+          "Refuge de La Croix du",
+          "Bonhomme to Refuge",
+          "Robert Blanc"
         ]
       },
       {
@@ -9374,22 +9078,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Maison",
-            "Veille"
+            "Maison Veille"
           ],
           "isSame": false,
           "start": [
-            "Refuge",
-            "Robert",
-            "Blanc"
+            "Refuge Robert Blanc"
           ]
         },
         "title": [
-          "Refuge",
-          "Robert",
-          "Blanc to",
-          "Maison",
-          "Veille"
+          "Refuge Robert Blanc",
+          "to Maison Veille"
         ]
       },
       {
@@ -9478,20 +9176,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Rifugio",
-            "Bonatti"
+            "Rifugio Bonatti"
           ],
           "isSame": false,
           "start": [
-            "Maison",
-            "Veille"
+            "Maison Veille"
           ]
         },
         "title": [
-          "Maison",
-          "Veille to",
-          "Rifugio",
-          "Bonatti"
+          "Maison Veille to",
+          "Rifugio Bonatti"
         ]
       },
       {
@@ -9580,20 +9274,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "L'Auberge",
-            "Maya Joie"
+            "L'Auberge Maya Joie"
           ],
           "isSame": false,
           "start": [
-            "Rifugio",
-            "Bonatti"
+            "Rifugio Bonatti"
           ]
         },
         "title": [
-          "Rifugio",
-          "Bonatti to",
-          "L'Auberge",
-          "Maya Joie"
+          "Rifugio Bonatti to",
+          "L'Auberge Maya Joie"
         ]
       },
       {
@@ -9682,20 +9372,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Gite Bon",
-            "Abri"
+            "Gite Bon Abri"
           ],
           "isSame": false,
           "start": [
-            "L'Auberge",
-            "Maya Joie"
+            "L'Auberge Maya Joie"
           ]
         },
         "title": [
-          "L'Auberge",
-          "Maya Joie",
-          "to Gite Bon",
-          "Abri"
+          "L'Auberge Maya Joie",
+          "to Gite Bon Abri"
         ]
       },
       {
@@ -9784,20 +9470,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Refuge le",
-            "Peuty"
+            "Refuge le Peuty"
           ],
           "isSame": false,
           "start": [
-            "Gite Bon",
-            "Abri"
+            "Gite Bon Abri"
           ]
         },
         "title": [
-          "Gite Bon",
-          "Abri to",
-          "Refuge le",
-          "Peuty"
+          "Gite Bon Abri to",
+          "Refuge le Peuty"
         ]
       },
       {
@@ -9886,20 +9568,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Auberge la",
-            "Boerne"
+            "Auberge la Boerne"
           ],
           "isSame": false,
           "start": [
-            "Refuge le",
-            "Peuty"
+            "Refuge le Peuty"
           ]
         },
         "title": [
-          "Refuge le",
-          "Peuty to",
-          "Auberge la",
-          "Boerne"
+          "Refuge le Peuty to",
+          "Auberge la Boerne"
         ]
       },
       {
@@ -9988,20 +9666,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Refuge de",
-            "lo Flegere"
+            "Refuge de lo Flegere"
           ],
           "isSame": false,
           "start": [
-            "Auberge la",
-            "Boerne"
+            "Auberge la Boerne"
           ]
         },
         "title": [
-          "Auberge la",
-          "Boerne to",
-          "Refuge de",
-          "lo Flegere"
+          "Auberge la Boerne to",
+          "Refuge de lo Flegere"
         ]
       },
       {
@@ -10090,20 +9764,16 @@ const data = [
         },
         "termini": {
           "end": [
-            "Refuge de",
-            "Bellechat"
+            "Refuge de Bellechat"
           ],
           "isSame": false,
           "start": [
-            "Refuge de",
-            "lo Flegere"
+            "Refuge de lo Flegere"
           ]
         },
         "title": [
-          "Refuge de",
-          "lo Flegere",
-          "to Refuge",
-          "de",
+          "Refuge de lo Flegere",
+          "to Refuge de",
           "Bellechat"
         ]
       },
@@ -10197,15 +9867,12 @@ const data = [
           ],
           "isSame": false,
           "start": [
-            "Refuge de",
-            "Bellechat"
+            "Refuge de Bellechat"
           ]
         },
         "title": [
-          "Refuge de",
-          "Bellechat",
-          "to Les",
-          "Houches"
+          "Refuge de Bellechat",
+          "to Les Houches"
         ]
       }
     ],
@@ -10256,18 +9923,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Manhattan",
-            "Bridge"
+            "Manhattan Bridge"
           ],
           "isSame": true,
           "start": [
-            "Manhattan",
-            "Bridge"
+            "Manhattan Bridge"
           ]
         },
         "title": [
-          "Manhattan",
-          "Bridge"
+          "Manhattan Bridge"
         ]
       },
       {
@@ -10288,18 +9952,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Manhattan",
-            "Bridge"
+            "Manhattan Bridge"
           ],
           "isSame": true,
           "start": [
-            "Manhattan",
-            "Bridge"
+            "Manhattan Bridge"
           ]
         },
         "title": [
-          "Manhattan",
-          "Bridge"
+          "Manhattan Bridge"
         ]
       },
       {
@@ -10320,18 +9981,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Manhattan",
-            "Bridge"
+            "Manhattan Bridge"
           ],
           "isSame": true,
           "start": [
-            "Manhattan",
-            "Bridge"
+            "Manhattan Bridge"
           ]
         },
         "title": [
-          "Manhattan",
-          "Bridge"
+          "Manhattan Bridge"
         ]
       },
       {
@@ -10352,18 +10010,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "",
-            "Williamsburg"
+            "Williamsburg Bridge"
           ],
           "isSame": true,
           "start": [
-            "",
-            "Williamsburg"
+            "Williamsburg Bridge"
           ]
         },
         "title": [
-          "",
-          "Williamsburg"
+          "Williamsburg Bridge"
         ]
       },
       {
@@ -10384,18 +10039,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "",
-            "Williamsburg"
+            "Williamsburg Bridge"
           ],
           "isSame": true,
           "start": [
-            "",
-            "Williamsburg"
+            "Williamsburg Bridge"
           ]
         },
         "title": [
-          "",
-          "Williamsburg"
+          "Williamsburg Bridge"
         ]
       },
       {
@@ -10416,18 +10068,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "",
-            "Williamsburg"
+            "Williamsburg Bridge"
           ],
           "isSame": true,
           "start": [
-            "",
-            "Williamsburg"
+            "Williamsburg Bridge"
           ]
         },
         "title": [
-          "",
-          "Williamsburg"
+          "Williamsburg Bridge"
         ]
       }
     ],
@@ -10548,21 +10197,17 @@ const data = [
         },
         "termini": {
           "end": [
-            "",
             "Roncesvalles"
           ],
           "isSame": false,
           "start": [
-            "Saint Jean",
-            "Pied de",
+            "Saint Jean Pied de",
             "Port"
           ]
         },
         "title": [
-          "Saint Jean",
-          "Pied de",
-          "Port to",
-          "Roncesvalles"
+          "Saint Jean Pied de",
+          "Port to Roncesvalles"
         ]
       },
       {
@@ -10655,13 +10300,12 @@ const data = [
           ],
           "isSame": false,
           "start": [
-            "",
             "Roncesvalles"
           ]
         },
         "title": [
-          "",
-          "Roncesvalles"
+          "Roncesvalles to",
+          "Zubiri"
         ]
       },
       {
@@ -10758,8 +10402,7 @@ const data = [
           ]
         },
         "title": [
-          "Zubiri to",
-          "Pamplona"
+          "Zubiri to Pamplona"
         ]
       },
       {
@@ -10848,8 +10491,7 @@ const data = [
         },
         "termini": {
           "end": [
-            "Puente la",
-            "Reina"
+            "Puente la Reina"
           ],
           "isSame": false,
           "start": [
@@ -10857,8 +10499,7 @@ const data = [
           ]
         },
         "title": [
-          "Pamplona to",
-          "Puente la",
+          "Pamplona to Puente la",
           "Reina"
         ]
       },
@@ -10952,13 +10593,11 @@ const data = [
           ],
           "isSame": false,
           "start": [
-            "Puente la",
-            "Reina"
+            "Puente la Reina"
           ]
         },
         "title": [
-          "Puente la",
-          "Reina to",
+          "Puente la Reina to",
           "Estella"
         ]
       },
@@ -11056,8 +10695,7 @@ const data = [
           ]
         },
         "title": [
-          "Estella to",
-          "Sansol"
+          "Estella to Sansol"
         ]
       },
       {
@@ -11154,8 +10792,7 @@ const data = [
           ]
         },
         "title": [
-          "Sansol to",
-          "Logrono"
+          "Sansol to Logrono"
         ]
       },
       {
@@ -11252,8 +10889,7 @@ const data = [
           ]
         },
         "title": [
-          "Logrono to",
-          "Najera"
+          "Logrono to Najera"
         ]
       },
       {
@@ -11342,8 +10978,7 @@ const data = [
         },
         "termini": {
           "end": [
-            "Santo",
-            "Domingo"
+            "Santo Domingo"
           ],
           "isSame": false,
           "start": [
@@ -11351,8 +10986,7 @@ const data = [
           ]
         },
         "title": [
-          "Najera to",
-          "Santo",
+          "Najera to Santo",
           "Domingo"
         ]
       },
@@ -11446,13 +11080,11 @@ const data = [
           ],
           "isSame": false,
           "start": [
-            "Santo",
-            "Domingo"
+            "Santo Domingo"
           ]
         },
         "title": [
-          "Santo",
-          "Domingo to",
+          "Santo Domingo to",
           "Belorado"
         ]
       },
@@ -11550,8 +11182,7 @@ const data = [
           ]
         },
         "title": [
-          "Belorado to",
-          "Ages"
+          "Belorado to Ages"
         ]
       },
       {
@@ -11648,8 +11279,7 @@ const data = [
           ]
         },
         "title": [
-          "Ages to",
-          "Burgos"
+          "Ages to Burgos"
         ]
       },
       {
@@ -11746,8 +11376,7 @@ const data = [
           ]
         },
         "title": [
-          "Burgos to",
-          "Hontanas"
+          "Burgos to Hontanas"
         ]
       },
       {
@@ -11844,8 +11473,7 @@ const data = [
           ]
         },
         "title": [
-          "Hontanas to",
-          "Fromista"
+          "Hontanas to Fromista"
         ]
       },
       {
@@ -11942,8 +11570,7 @@ const data = [
           ]
         },
         "title": [
-          "Fromista to",
-          "Carrion"
+          "Fromista to Carrion"
         ]
       },
       {
@@ -12040,8 +11667,7 @@ const data = [
           ]
         },
         "title": [
-          "Carrion to",
-          "Sahagun"
+          "Carrion to Sahagun"
         ]
       },
       {
@@ -12138,8 +11764,7 @@ const data = [
           ]
         },
         "title": [
-          "Sahagun to",
-          "Reliegos"
+          "Sahagun to Reliegos"
         ]
       },
       {
@@ -12236,8 +11861,7 @@ const data = [
           ]
         },
         "title": [
-          "Reliegos to",
-          "Leon"
+          "Reliegos to Leon"
         ]
       },
       {
@@ -12334,8 +11958,7 @@ const data = [
           ]
         },
         "title": [
-          "Leon to",
-          "Mazarife"
+          "Leon to Mazarife"
         ]
       },
       {
@@ -12432,8 +12055,7 @@ const data = [
           ]
         },
         "title": [
-          "Mazarife to",
-          "Astorga"
+          "Mazarife to Astorga"
         ]
       },
       {
@@ -12530,8 +12152,7 @@ const data = [
           ]
         },
         "title": [
-          "Astorga to",
-          "Foncebadon"
+          "Astorga to Foncebadon"
         ]
       },
       {
@@ -12628,8 +12249,7 @@ const data = [
           ]
         },
         "title": [
-          "Foncebadon",
-          "to",
+          "Foncebadon to",
           "Ponferrada"
         ]
       },
@@ -12727,8 +12347,7 @@ const data = [
           ]
         },
         "title": [
-          "Ponferrada",
-          "to",
+          "Ponferrada to",
           "Villafranca"
         ]
       },
@@ -12826,8 +12445,7 @@ const data = [
           ]
         },
         "title": [
-          "Villafranca",
-          "to O",
+          "Villafranca to O",
           "Cebreiro"
         ]
       },
@@ -12925,8 +12543,7 @@ const data = [
           ]
         },
         "title": [
-          "O Cebreiro",
-          "to Sarria"
+          "O Cebreiro to Sarria"
         ]
       },
       {
@@ -13023,8 +12640,7 @@ const data = [
           ]
         },
         "title": [
-          "Sarria to",
-          "Portomarin"
+          "Sarria to Portomarin"
         ]
       },
       {
@@ -13121,8 +12737,7 @@ const data = [
           ]
         },
         "title": [
-          "Portomarin",
-          "to Melide"
+          "Portomarin to Melide"
         ]
       },
       {
@@ -13219,8 +12834,7 @@ const data = [
           ]
         },
         "title": [
-          "Melide to",
-          "Pedrouzo"
+          "Melide to Pedrouzo"
         ]
       },
       {
@@ -13318,9 +12932,8 @@ const data = [
           ]
         },
         "title": [
-          "Pedrouzo to",
-          "Santiago de",
-          "Compostela"
+          "Pedrouzo to Santiago",
+          "de Compostela"
         ]
       },
       {
@@ -13419,8 +13032,8 @@ const data = [
         },
         "title": [
           "Santiago de",
-          "Compostela",
-          "to Negreira"
+          "Compostela to",
+          "Negreira"
         ]
       },
       {
@@ -13517,8 +13130,7 @@ const data = [
           ]
         },
         "title": [
-          "Negreira to",
-          "Olveiroa"
+          "Negreira to Olveiroa"
         ]
       },
       {
@@ -13615,8 +13227,7 @@ const data = [
           ]
         },
         "title": [
-          "Olveiroa to",
-          "Fisterra"
+          "Olveiroa to Fisterra"
         ]
       }
     ],
@@ -13725,20 +13336,17 @@ const data = [
         },
         "termini": {
           "end": [
-            "San José de",
-            "Maipo",
+            "San José de Maipo",
             "Glacier"
           ],
           "isSame": true,
           "start": [
-            "San José de",
-            "Maipo",
+            "San José de Maipo",
             "Glacier"
           ]
         },
         "title": [
-          "San José de",
-          "Maipo",
+          "San José de Maipo",
           "Glacier"
         ]
       },
@@ -13760,21 +13368,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Cousino",
-            "Macul",
-            "Winery"
+            "Cousino Macul Winery"
           ],
           "isSame": true,
           "start": [
-            "Cousino",
-            "Macul",
-            "Winery"
+            "Cousino Macul Winery"
           ]
         },
         "title": [
-          "Cousino",
-          "Macul",
-          "Winery"
+          "Cousino Macul Winery"
         ]
       },
       {
@@ -13795,24 +13397,18 @@ const data = [
         },
         "termini": {
           "end": [
-            "Torres del",
-            "Paine",
-            "National",
-            "Park"
+            "Torres del Paine",
+            "National Park"
           ],
           "isSame": true,
           "start": [
-            "Torres del",
-            "Paine",
-            "National",
-            "Park"
+            "Torres del Paine",
+            "National Park"
           ]
         },
         "title": [
-          "Torres del",
-          "Paine",
-          "National",
-          "Park"
+          "Torres del Paine",
+          "National Park"
         ]
       },
       {
@@ -13833,18 +13429,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Cueva del",
-            "Milodón"
+            "Cueva del Milodón"
           ],
           "isSame": true,
           "start": [
-            "Cueva del",
-            "Milodón"
+            "Cueva del Milodón"
           ]
         },
         "title": [
-          "Cueva del",
-          "Milodón"
+          "Cueva del Milodón"
         ]
       },
       {
@@ -13865,18 +13458,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Glacier",
-            "Cruise"
+            "Glacier Cruise"
           ],
           "isSame": true,
           "start": [
-            "Glacier",
-            "Cruise"
+            "Glacier Cruise"
           ]
         },
         "title": [
-          "Glacier",
-          "Cruise"
+          "Glacier Cruise"
         ]
       }
     ],
@@ -14016,18 +13606,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Chimney",
-            "Bluffs"
+            "Chimney Bluffs"
           ],
           "isSame": true,
           "start": [
-            "Chimney",
-            "Bluffs"
+            "Chimney Bluffs"
           ]
         },
         "title": [
-          "Chimney",
-          "Bluffs"
+          "Chimney Bluffs"
         ]
       },
       {
@@ -14048,18 +13635,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Buttermilk",
-            "Falls"
+            "Buttermilk Falls"
           ],
           "isSame": true,
           "start": [
-            "Buttermilk",
-            "Falls"
+            "Buttermilk Falls"
           ]
         },
         "title": [
-          "Buttermilk",
-          "Falls"
+          "Buttermilk Falls"
         ]
       },
       {
@@ -14109,18 +13693,15 @@ const data = [
         },
         "termini": {
           "end": [
-            "Mackinac",
-            "Island"
+            "Mackinac Island"
           ],
           "isSame": true,
           "start": [
-            "Mackinac",
-            "Island"
+            "Mackinac Island"
           ]
         },
         "title": [
-          "Mackinac",
-          "Island"
+          "Mackinac Island"
         ]
       }
     ],

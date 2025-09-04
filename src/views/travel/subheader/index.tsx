@@ -6,13 +6,11 @@ import styles from './stylesheet';
 type Props = {
   date: Date;
   location: string;
-  tagline: string;
 };
 
 export default function Subheader({
   date,
   location,
-  tagline,
 }: Props) {
   return (
     <>
@@ -28,9 +26,6 @@ export default function Subheader({
           {getDate(date)}
         </span>
       </p>
-      <h3 className={styles.heading}>
-        {tagline}
-      </h3>
     </>
   );
 }
