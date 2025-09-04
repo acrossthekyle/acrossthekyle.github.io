@@ -1,8 +1,4 @@
-'use client';
-
 import { Geist } from 'next/font/google';
-
-import { useHierarchy } from '@/hooks/useHierarchy';
 
 import styles from './stylesheet';
 
@@ -16,11 +12,9 @@ type Props = {
 };
 
 export default function Body({ children }: Props) {
-  const { isOnParent, isOnRoot } = useHierarchy();
-
   return (
     <body
-      className={`${geistSans.variable} ${styles.body(isOnRoot, isOnParent)}`}
+      className={`${geistSans.variable} ${styles.body}`}
     >
       {children}
     </body>

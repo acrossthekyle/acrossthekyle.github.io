@@ -1,8 +1,13 @@
 import type { Stage } from '@/types';
+import {
+  Image,
+  ImageMaximize,
+  ImageOptions,
+  ImagePlaceholder,
+  ImageSkeleton,
+} from '@/ui/image';
 
 import Caption from './caption';
-import Image from './image';
-import Maximize from './maximize';
 import styles from './stylesheet';
 
 type Props = {
@@ -12,10 +17,24 @@ type Props = {
 export default function Figure({ stage }: Props) {
   return (
     <figure className={styles.figure}>
-      <Maximize stage={stage}>
-        <Image stage={stage} />
-        <Caption stage={stage} />
-      </Maximize>
+      <Image src={stage.images.hero}>
+        <ImagePlaceholder>
+          <ImageMaximize>
+            <ImageOptions
+              alt={
+                !stage.termini.isSame
+                  ? `${stage.termini.start.join(' ')} To ${stage.termini.end.join(' ')}`
+                  : stage.location
+              }
+              height={1080}
+              sizes="(max-width: 768px) 100vw, 50vw"
+              width={1920}
+            />
+          </ImageMaximize>
+          <Caption stage={stage} />
+          <ImageSkeleton />
+        </ImagePlaceholder>
+      </Image>
     </figure>
   );
 }

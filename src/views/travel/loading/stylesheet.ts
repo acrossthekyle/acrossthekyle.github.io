@@ -9,7 +9,7 @@ const styles = tw({
     w-full
     mb-6
 
-    hecto:hidden
+    base:hidden
   `,
   highlight: `
     mb-2

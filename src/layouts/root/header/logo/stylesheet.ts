@@ -45,10 +45,10 @@ const styles = {
       left-full
       -ml-13
 
-      hecto:ml-0
-      hecto:left-6
-      giga:left-12
-      giga:top-12
+      base:ml-0
+      base:left-6
+      deka:left-12
+      deka:top-12
     `);
   },
 };

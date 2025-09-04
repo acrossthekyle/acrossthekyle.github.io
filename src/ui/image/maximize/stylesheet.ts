@@ -2,10 +2,13 @@ import tw from '@/styles';
 
 const styles = tw({
   wrapper: `
+    group/maximize
+    w-full h-full
     text-left
     pointer-events-none
 
-    hecto:pointer-events-auto
+    base:!cursor-zoom-in
+    base:pointer-events-auto
   `,
   image: (isLandscape?: boolean) => tw(`
     ${isLandscape === true ? 'object-cover' : ''}
@@ -22,6 +25,7 @@ const styles = tw({
     flex justify-center
     w-full h-full
     bg-black
+    !cursor-zoom-out
   `,
 });
 

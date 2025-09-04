@@ -1,13 +1,13 @@
 import tw from '@/styles';
 
 const styles = tw({
-  body: (isOnRoot: boolean, isOnParent: boolean) => tw(`
+  body: `
     antialiased
     flex flex-col
     h-full
 
-    ${isOnRoot || isOnParent ? 'base:flex-row' : 'hecto:flex-row'}
-  `),
+    base:flex-row
+  `,
   loader: (isLoaded: boolean) => tw(`
     fixed inset-0 z-9999
     flex flex-col justify-start

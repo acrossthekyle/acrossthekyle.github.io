@@ -27,11 +27,11 @@ export default function View({ slug }: Props) {
       <Subheader date={travel.date} location={travel.location} />
       <Description description={travel.description} />
       <ul className={styles.stages}>
-        {[...travel.stages].splice(0, shown).map((stage) => (
+        {[...travel.stages].splice(0, shown).map((stage, index) => (
           <li
             className={styles.stage}
-            key={stage.index}
-            style={{ animationDelay: `${0.1 + ((stage.index % 6) * 0.125)}s` }}
+            key={index}
+            style={{ animationDelay: `${0.1 + ((index % 6) * 0.125)}s` }}
           >
             <Figure stage={stage} />
           </li>

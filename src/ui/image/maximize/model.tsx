@@ -1,30 +1,36 @@
 'use client';
 
 import Image from 'next/image';
-import { useRef } from 'react';
+import { useContext, useRef } from 'react';
 
 import { useZoom } from '@/hooks/useZoom';
-import type { Stage } from '@/types';
+import { Orientation } from '@/types';
+import { getOrientation } from '@/utils';
 
+import { ImageContext } from '../context';
 import styles from './stylesheet';
-import { getOrientation } from './utils';
-import { Orientation } from './types';
 
 type Model = {
   handleOnMaximize: () => void;
   zoomRef: React.RefObject<HTMLButtonElement | null>;
 };
 
-export function useModel(stage: Stage): Model {
+export function useModel(): Model {
+  const { onMaximized, onMinimized, src } = useContext(ImageContext);
+
   const zoomRef = useRef<HTMLButtonElement | null>(null);
 
   const { zoomOut, zoom } = useZoom();
 
   const handleOnMinimize = () => {
     zoomOut();
+
+    onMinimized();
   };
 
   const handleOnMaximize = () => {
+    onMaximized();
+
     const isLandscape = getOrientation(zoomRef) === Orientation.Landscape;
 
     zoom({
@@ -35,11 +41,11 @@ export function useModel(stage: Stage): Model {
           type="button"
         >
           <Image
-            alt=""
+            alt="Fullscreen image"
             className={styles.image(isLandscape)}
             height={1080}
-            sizes="100vw"
-            src={stage.images.hero}
+            sizes="(max-width: 768px) 100vw, 50vw"
+            src={src}
             width={1920}
           />
         </button>

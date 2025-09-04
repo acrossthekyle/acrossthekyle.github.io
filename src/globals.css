@@ -10,7 +10,7 @@
 }
 
 @theme {
-  --breakpoint-pico: 20.9375rem; /* 330px */
+  --breakpoint-pico: 20.9375rem; /* 335px */
   --breakpoint-nano: 22.5rem; /* 360px */
   --breakpoint-micro: 25.625rem; /* 410px */
   --breakpoint-milli: 30rem; /* 480px */
@@ -32,6 +32,14 @@
   --animate-loader-one: .3s fadeIn 1s ease-in forwards;
   --animate-loader-two: .3s fadeIn 6s ease-in forwards;
   --animate-loader-three: .3s fadeIn 11s ease-in forwards;
+  --animate-article-in-elastic: slideInFromRight .7s ease-in forwards;
+  --animate-article-in-fade: fadeIn .5s ease-in forwards;
+
+  @keyframes slideInFromRight {
+    0% { opacity: 0%; position: fixed; transform: translateX(100%); }
+    50% { position: relative; transform: translateX(0); }
+    100% { opacity: 100%;  }
+  }
 
   @keyframes elasticInFromRight {
     0% { opacity: 0; transform: translateX(50%); }

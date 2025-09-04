@@ -37,7 +37,7 @@ const styles = {
       ${common}
       h-7
 
-      hecto:h-9
+      base:h-9
       tera:h-14
       peta:h-26
     `);

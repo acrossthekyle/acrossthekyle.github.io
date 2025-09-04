@@ -20,7 +20,7 @@ const styles = tw({
     return tw(`
       hidden
 
-      hecto:block
+      base:block
     `);
   },
 });

@@ -8,7 +8,8 @@ const styles = tw({
       overflow-y-scroll
       py-6 px-6
       outline-0
-      animate-elastic-in-from-right
+
+      ${isFull ? 'animate-article-in-fade' : 'animate-article-in-elastic'}
     `;
 
     if (isFull) {
@@ -26,9 +27,9 @@ const styles = tw({
       ${common}
       pt-25
 
-      hecto:pt-6
-      giga:px-12
-      giga:py-12
+      base:pt-6
+      deka:px-12
+      deka:py-12
     `);
   },
 });

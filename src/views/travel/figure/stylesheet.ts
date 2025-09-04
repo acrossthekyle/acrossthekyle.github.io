@@ -5,8 +5,10 @@ const styles = tw({
     group/figure
     relative
     select-none
+    aspect-square
 
-    hecto:select-auto
+    base:aspect-auto
+    base:select-auto
   `,
 });
 

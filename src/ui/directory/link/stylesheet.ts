@@ -11,11 +11,12 @@ const styles = tw({
 
     if (isOnChild) {
       const sub = `
-        text-7xl/14
+        text-6xl/11
         font-stretch-ultra-condensed
 
-        mega:text-8xl/18
-        tera:text-9xl/26
+        base:text-7xl/13
+        mega:text-8xl/17.5
+        giga:text-8xl/17.5
         tera:font-stretch-extra-condensed
       `;
 

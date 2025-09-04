@@ -19,7 +19,7 @@ type Size = {
 
 type State = {
   content: ReactNode | ReactNode[] | null;
-  isOpen: boolean;
+  isZoomed: boolean;
   size?: Size;
   sizeBackup?: Size;
 };
@@ -33,13 +33,13 @@ type Actions = {
 const store = create<State & Actions>()(
   (set, get) => ({
     content: null,
-    isOpen: false,
+    isZoomed: false,
     size: undefined,
     sizeBackup: undefined,
     setZoom: (content: ReactNode | ReactNode[], size: Size) => {
       set({
         content,
-        isOpen: true,
+        isZoomed: true,
         size,
         sizeBackup: size,
       });
@@ -57,7 +57,7 @@ const store = create<State & Actions>()(
       setTimeout(() => {
         set({
           content: null,
-          isOpen: false,
+          isZoomed: false,
           size: undefined,
         });
       }, 300);
@@ -68,7 +68,7 @@ const store = create<State & Actions>()(
 export function useZoom() {
   const {
     content,
-    isOpen,
+    isZoomed,
     setFinalSize,
     setZoom,
     size,
@@ -82,7 +82,7 @@ export function useZoom() {
   };
 
   const handleOnEscape = () => {
-    if (isOpen) {
+    if (isZoomed) {
       zoomOut();
     }
   };
@@ -127,7 +127,7 @@ export function useZoom() {
   return {
     zoomOut,
     content,
-    isOpen,
+    isZoomed,
     zoom,
     size,
   };

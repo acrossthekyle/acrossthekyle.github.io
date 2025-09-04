@@ -42,8 +42,7 @@ export type Stage = {
   date: string;
   hasStats: boolean;
   images: Images;
-  index: number;
-  location: string | null;
+  location: string;
   stats: {
     distance: StatFull | null;
     gain: StatFull | null;
@@ -52,7 +51,6 @@ export type Stage = {
     time: StatShort | null;
   };
   termini: Termini;
-  title: string[];
 };
 
 export type Travel = {
@@ -70,4 +68,9 @@ export type Travel = {
   timestamp: string;
   title: string[];
   type: string;
+};
+
+export enum Orientation {
+  Landscape = 'landscape',
+  Portrait = 'portrait',
 };

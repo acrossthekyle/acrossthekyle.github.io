@@ -20,13 +20,11 @@ const styles = tw({
         ${common}
         hidden
 
-        hecto:block
-        hecto:w-80
-        mega:pl-10
-        mega:pr-6
+        base:block
+        base:w-65
+        deka:py-12
+        base:w-74
         mega:w-100
-        giga:w-100
-        giga:py-12
       `);
     }
 

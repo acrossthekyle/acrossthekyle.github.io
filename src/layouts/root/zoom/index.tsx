@@ -9,13 +9,13 @@ import styles from './stylesheet';
 export default function Zoom() {
   const {
     content,
-    isOpen,
+    isZoomed,
     size,
   } = useZoom();
 
   return (
     <div
-      className={styles.dialog(isOpen)}
+      className={styles.dialog(isZoomed)}
       role="dialog"
       aria-modal="true"
       tabIndex={-1}
@@ -26,7 +26,7 @@ export default function Zoom() {
         width: size.width,
       } : undefined}
     >
-      <FocusLock className="h-full" disabled={!isOpen}>
+      <FocusLock className="h-full" disabled={!isZoomed}>
         {content}
       </FocusLock>
     </div>

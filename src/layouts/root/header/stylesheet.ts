@@ -43,12 +43,12 @@ const styles = tw({
       ${common}
       ${fixed}
 
-      hecto:w-auto
-      hecto:h-full
-      hecto:relative
-      hecto:flex-col
-      giga:px-12
-      giga:py-12
+      base:w-auto
+      base:h-full
+      base:relative
+      base:flex-col
+      deka:px-12
+      deka:py-12
     `);
   },
 });

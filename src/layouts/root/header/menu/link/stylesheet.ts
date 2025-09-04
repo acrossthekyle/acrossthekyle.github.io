@@ -72,8 +72,8 @@ const styles = tw({
       h-7
       text-4xl/6
 
-      hecto:h-9
-      hecto:text-5xl/8
+      base:h-9
+      base:text-5xl/8
       tera:h-14
       tera:text-7xl/14
       peta:h-26

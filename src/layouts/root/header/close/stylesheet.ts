@@ -26,7 +26,7 @@ const styles = tw({
     return tw(`
       ${common}
 
-      hecto:hidden
+      base:hidden
     `);
   },
 });
