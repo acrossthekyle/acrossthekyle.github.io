@@ -33,39 +33,24 @@ export type Termini = {
   start: string[];
 };
 
-export type Images = {
-  hero: string;
-  supplementary: string[];
-};
-
 export type Stage = {
-  date: string;
-  hasStats: boolean;
-  images: Images;
+  image: string;
   location: string;
-  stats: {
-    distance: StatFull | null;
-    gain: StatFull | null;
-    loss: StatFull | null;
-    max: StatFull | null;
-    time: StatShort | null;
-  };
   termini: Termini;
 };
 
-export type Travel = {
+export type Data = {
   date: Date;
   description: string[];
-  index: number;
-  label: string;
   location: string;
   slug: string;
   stages: Stage[];
   stats: {
+    altitude: StatFull | null;
+    days: StatShort;
+    distance: StatFull | null;
     length: StatShort;
   };
-  tagline: string;
-  timestamp: string;
   title: string[];
   type: string;
 };

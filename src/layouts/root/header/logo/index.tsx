@@ -7,10 +7,10 @@ import { useHierarchy } from '@/hooks/useHierarchy';
 import styles from './stylesheet';
 
 export default function Header() {
-  const { isOnParent, isOnRoot } = useHierarchy();
+  const { isOnRoot } = useHierarchy();
 
   return (
-    <Link className={styles.logo(isOnRoot, isOnParent)} href="/">
+    <Link className={styles.logo(isOnRoot)} href="/">
       K
     </Link>
   );

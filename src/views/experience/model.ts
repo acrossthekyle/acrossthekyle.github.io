@@ -1,0 +1,37 @@
+'use client';
+
+import { useEffect, useState } from 'react';
+
+import { useData } from '@/hooks/useData';
+import type { Data } from '@/types';
+
+type Model = {
+  data?: Data;
+  handleOnScrollEnd: () => void;
+  shown: number;
+};
+
+const AMOUNT_SHOWN = 6;
+
+export function useModel(slug: string): Model {
+  const { find, item } = useData();
+
+  const [shown, setShown] = useState(AMOUNT_SHOWN);
+
+  useEffect(() => {
+    find(slug);
+
+    window.scrollTo(0, 0);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  const handleOnScrollEnd = () => {
+    setShown((previous) => previous + AMOUNT_SHOWN);
+  };
+
+  return {
+    data: item,
+    handleOnScrollEnd,
+    shown,
+  };
+}

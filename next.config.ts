@@ -8,6 +8,20 @@ const nextConfig: NextConfig = {
     qualities: [10, 80, 100],
     remotePatterns: [new URL('https://imagekit.io/acrossthekyle/**')],
   },
+  async redirects() {
+    return [
+      {
+        source: '/travels',
+        destination: '/experiences',
+        permanent: true,
+      },
+      {
+        source: '/travels/:slug',
+        destination: '/experiences/:slug',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

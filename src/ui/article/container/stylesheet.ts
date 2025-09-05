@@ -6,7 +6,7 @@ const styles = tw({
       flex-2
       scroll-smooth
       overflow-y-scroll
-      py-6 px-6
+      py-3 px-3
       outline-0
 
       ${isFull ? 'animate-article-in-fade' : 'animate-article-in-elastic'}
@@ -15,7 +15,7 @@ const styles = tw({
     if (isFull) {
       return tw(`
         ${common}
-        pt-25
+        pt-20
 
         base:pt-6
         deka:px-12
@@ -25,7 +25,7 @@ const styles = tw({
 
     return tw(`
       ${common}
-      pt-25
+      pt-20
 
       base:pt-6
       deka:px-12

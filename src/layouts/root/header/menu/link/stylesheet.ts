@@ -11,7 +11,6 @@ const styles = tw({
       inline-block
       uppercase
       duration-200
-      overflow-hidden
     `;
 
     if (isOnRoot) {
@@ -19,9 +18,9 @@ const styles = tw({
         ${root}
 
         h-10
-        text-5xl/9
-        font-black font-stretch-condensed
-        tracking-tight
+        text-5xl/10
+        font-black font-stretch-extra-condensed
+        tracking-tighter
 
         pico:h-12
         pico:text-6xl/12

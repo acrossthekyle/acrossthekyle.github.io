@@ -4,7 +4,7 @@ const styles = tw({
   close: (isOnRoot: boolean, isOnParent: boolean) => {
     const common = `
       block
-      absolute left-6 top-6
+      absolute left-3 top-3
       font-bold font-stretch-ultra-condensed
       text-lg
     `;

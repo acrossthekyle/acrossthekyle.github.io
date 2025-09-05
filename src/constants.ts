@@ -1,0 +1,1 @@
+export const introduction = `Hello, I'm Kyle Gilbert, and I'm a code tinkerer and thru-hiker who has spent the last ${new Date().getFullYear() - 2012} years building parts of the web that you probably use today (with zero awards or recognitions), and the last ${new Date().getFullYear() - 2018} years hiking around the world.`;

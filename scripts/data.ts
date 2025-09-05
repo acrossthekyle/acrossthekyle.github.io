@@ -387,10 +387,7 @@ async function getStages(folder) {
         date: `${formatDate(date, 'MM')}.${formatDate(date, 'dd')}.${formatDate(date, 'yyyy')}`,
         elevation,
         hasStats: !Object.values(stats).every(value => value === null),
-        images: {
-          hero: data.image,
-          supplementary: data.images || [],
-        },
+        image: data.image,
         index: null,
         location: data.location || null,
         route,
@@ -645,6 +642,10 @@ function formatDescription(description, stats) {
       paragraph = paragraph.replace('%max%', `${stats.altitude.value.imperial} ${stats.altitude.units.imperial.full}`);
     }
 
+    if (stats.days !== null) {
+      paragraph = paragraph.replace('%days%', `${stats.days.value}`);
+    }
+
     return paragraph;
   });
 }
@@ -676,17 +677,19 @@ async function go() {
       data.push({
         date,
         description: formatDescription(trip.description, stats),
-        index: null,
-        label: getLabel(trip.type),
         location: trip.location,
         slug,
-        stages: stages.map(({ elevation, route, ...rest }) => ({
-          ...rest,
+        stages: stages.map(({ image, location, termini }) => ({
+          image,
+          location,
+          termini,
         })),
         stats: {
+          altitude: stats.altitude,
+          days: stats.days,
+          distance: stats.distance,
           length: stats.length,
         },
-        tagline: trip.tagline,
         timestamp: trip.timestamp,
         title: turnStringIntoArrayForLists(trip.title),
         type: trip.type,
@@ -700,11 +703,10 @@ async function go() {
     const result = sorted.map(({ timestamp, ...rest }, index) => {
       return {
         ...rest,
-        index,
       };
     });
 
-    writeData('data.js', result);
+    writeData('db.js', result);
   }
 }
 

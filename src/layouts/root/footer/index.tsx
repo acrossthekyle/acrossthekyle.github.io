@@ -1,15 +1,29 @@
 'use client';
 
-import { useHierarchy } from '@/hooks/useHierarchy';
+import { Maximize, Minimize } from 'lucide-react';
 
+import { useModel } from './model';
 import styles from './stylesheet';
 
 export default function Footer() {
-  const { isOnRoot } = useHierarchy();
+  const { handleOnToggle, isFullscreen, isFullscreenSupported, isOnRoot } = useModel();
 
   return (
     <footer className={styles.footer}>
-      <span className={styles.copy(isOnRoot)}>
+      {isFullscreenSupported && (
+        <button
+          className={styles.toggle(isOnRoot)}
+          onClick={handleOnToggle}
+          type="button"
+        >
+          {isFullscreen ? (
+            <Minimize />
+          ) : (
+            <Maximize />
+          )}
+        </button>
+      )}
+      <span className={styles.copy}>
         &copy; {new Date().getFullYear()}
       </span>
     </footer>

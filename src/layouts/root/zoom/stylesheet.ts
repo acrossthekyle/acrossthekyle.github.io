@@ -1,11 +1,30 @@
 import tw from '@/styles';
 
 const styles = {
-  dialog: (isOpen: boolean) => tw(`
+  backdrop: (canBlur: boolean) => tw(`
+    fixed inset-0
+    backdrop-blur-xs
+    cursor-default
+
+    ${canBlur ? (`
+      opacity-100
+      translate-x-0
+      z-1
+
+      [transition:opacity_.5s_var(--ease-in-out),translate_0s]
+    `) : (`
+      opacity-0
+      translate-x-full
+      z-0
+
+      [transition:opacity_.5s_var(--ease-in-out),translate_0s_linear_.5s]
+    `)}
+  `),
+  dialog: (isZoomed: boolean) => tw(`
     absolute
     transform-gpu duration-300
 
-    ${isOpen ? `
+    ${isZoomed ? `
       h-screen
       z-100
       opacity-100

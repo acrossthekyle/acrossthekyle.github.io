@@ -14,11 +14,11 @@ const styles = {
     centi:aspect-auto
 
     ${isInView && `
-      !brightness-90
+      !brightness-80
       !grayscale-0
 
       ${isMaximized ? `
-        !brightness-90
+        !brightness-80
         !grayscale-0
       ` : `
         base:!brightness-60
@@ -26,12 +26,9 @@ const styles = {
       `}
     `}
 
-    base:group-active/figure:!brightness-90
-    base:group-active/figure:!grayscale-0
-    base:group-focus/maximize:!brightness-90
-    base:group-focus/maximize:!grayscale-0
-    base:group-hover/figure:!brightness-90
-    base:group-hover/figure:!grayscale-0
+    base:group-active/figure:!brightness-80
+    base:group-focus/maximize:!brightness-80
+    base:group-hover/figure:!brightness-80
   `),
 };
 

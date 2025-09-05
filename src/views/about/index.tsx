@@ -64,7 +64,7 @@ export default function View() {
       <SectionVertical id="career">
         <HeadingSmall id="career">
           <HeadingIndex index="03." />
-          Career Experience
+          Career
         </HeadingSmall>
         <List>
           <ListItem>

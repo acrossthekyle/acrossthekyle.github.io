@@ -1,9 +1,9 @@
 import tw from '@/styles';
 
 const styles = {
-  logo: (isOnRoot: boolean, isOnParent: boolean) => {
+  logo: (isOnRoot: boolean) => {
     const common = `
-      absolute top-6
+      absolute top-3
       flex items-center justify-center
       text-sm text-black
       font-black
@@ -12,30 +12,16 @@ const styles = {
       duration-300
 
       hover:bg-white/70
+
+      deka:left-12
+      deka:top-12
     `;
 
     if (isOnRoot) {
       return tw(`
         ${common}
 
-        left-6
-
-        deka:left-12
-        deka:top-12
-      `);
-    }
-
-    if (isOnParent) {
-      return tw(`
-        ${common}
-
-        left-full
-        -ml-13
-
-        base:ml-0
-        base:left-6
-        deka:left-12
-        deka:top-12
+        left-3
       `);
     }
 
@@ -43,12 +29,10 @@ const styles = {
       ${common}
 
       left-full
-      -ml-13
+      -ml-10
 
       base:ml-0
-      base:left-6
-      deka:left-12
-      deka:top-12
+      base:left-3
     `);
   },
 };

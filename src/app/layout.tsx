@@ -2,6 +2,7 @@ import '../globals.css';
 
 import type { Metadata, Viewport } from 'next';
 
+import { introduction } from '@/constants';
 import Hierarchy from '@/contexts/hierarchy';
 import Layout from '@/layouts/root';
 import { KeyboardListener } from '@/listeners';
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
     default: 'Kyle',
   },
   keywords: ['across', 'the', 'kyle', 'Kyle', 'Gilbert', 'Thru-hiker', 'UI Developer'],
-  description: `I'm a thru-hiker and UI developer seeking new ways to move forward with intention and curiosity`,
+  description: introduction,
   authors: [{ name: 'Kyle Gilbert' }],
   referrer: 'origin-when-cross-origin',
   formatDetection: {
@@ -29,7 +30,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Kyle',
-    description: `I'm a thru-hiker and UI developer seeking new ways to move forward with intention and curiosity`,
+    description: introduction,
     url: 'https://acrossthekyle.com',
     siteName: 'acrossthekyle',
     images: [

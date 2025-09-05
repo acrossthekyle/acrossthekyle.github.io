@@ -4,14 +4,14 @@ const styles = tw({
   header: (isOnRoot: boolean, isOnParent: boolean) => {
     const common = `
       flex items-start justify-end
-      px-6 py-6
+      px-3 py-3
     `;
 
     const fixed = `
       fixed left-0 right-0 z-2
       flex-row
       bg-black
-      h-19 w-full
+      h-13 w-full
     `;
 
     if (isOnRoot) {

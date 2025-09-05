@@ -18,6 +18,7 @@ type Size = {
 };
 
 type State = {
+  canBlur: boolean;
   content: ReactNode | ReactNode[] | null;
   isZoomed: boolean;
   size?: Size;
@@ -32,12 +33,14 @@ type Actions = {
 
 const store = create<State & Actions>()(
   (set, get) => ({
+    canBlur: false,
     content: null,
     isZoomed: false,
     size: undefined,
     sizeBackup: undefined,
     setZoom: (content: ReactNode | ReactNode[], size: Size) => {
       set({
+        canBlur: true,
         content,
         isZoomed: true,
         size,
@@ -51,6 +54,7 @@ const store = create<State & Actions>()(
     },
     unset: () => {
       set({
+        canBlur: false,
         size: get().sizeBackup,
       });
 
@@ -67,6 +71,7 @@ const store = create<State & Actions>()(
 
 export function useZoom() {
   const {
+    canBlur,
     content,
     isZoomed,
     setFinalSize,
@@ -110,10 +115,10 @@ export function useZoom() {
 
     setTimeout(() => {
       setFinalSize({
-        height: '100vh',
-        width: '100vw',
-        top: 0,
-        left: 0,
+        height: 'calc(100vh - 48px)',
+        width: 'calc(100vw - 48px)',
+        top: 24,
+        left: 24,
       });
     }, 100);
 
@@ -125,10 +130,11 @@ export function useZoom() {
   });
 
   return {
-    zoomOut,
+    canBlur,
     content,
     isZoomed,
-    zoom,
     size,
+    zoom,
+    zoomOut,
   };
 }

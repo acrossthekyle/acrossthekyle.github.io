@@ -2,10 +2,10 @@ import type { Route } from './types';
 
 export const routes: Route[] = [
   {
-    base: '/travels',
+    base: '/experiences',
     isActive: false,
-    path: '/travels',
-    text: 'Travels',
+    path: '/experiences',
+    text: 'Experiences',
   },
   {
     base: '/about',

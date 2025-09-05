@@ -3,12 +3,11 @@
   "days": "12",
   "timestamp": "1535872800",
   "type": "thru-hike",
-  "location": "the French Italian and Swiss Alps",
+  "location": "French, Italian, and Swiss Alps",
   "tagline": "A challenging experience with diverse landscapes and alpine charm",
   "title": "Tour du Mont Blanc",
   "description": [
-    "The Tour du Mont Blanc, or TMB, is a hiking route that encircles the Mont Blanc mountain in the Alps, passing through three different countries: France, Italy and Switzerland. It's around 100 miles long, with a lot of elevation gain/loss and it is considered a classic long-distance hiking trail, offering a unique blend of cultures, and stunning scenery.",
-    "Shortly after completing the Camino in Spain I set off in September of 2018 to do this thru-hike. Along the route there are places called Refuges in the mountains where I spent each night. Amenities varied at each place, but they all included a bed, a full bathroom, and meals. The sights during the day are amazing, and the effort I put in during each day made every sight and sound worth it. I did some of the alternate routes on the trail, and my total distance came out to %distance% over %length% days, and the elevation changes ended up being %gain% up and %loss% down. I can't wait to do it again.",
-    "These pictures showcase my time on trail, and offer a glimpse into the %length% days spent on this thru-hike."
+    "Encircling the Mont Blanc mountain in the Alps, the tour of this peak is a classic long-distance hike passing through France, Italy, and Switzerland that offered a challenging experience filled with diverse landscapes, a unique blend of cultures, and stunning alpine charm. I slept in comfy mountain huts and ate warm meals every night.",
+    "The sights from the trail, and at the mountain huts, are beautiful and well worth the daily gain and loss of thousands of feet in elevation."
   ]
 }

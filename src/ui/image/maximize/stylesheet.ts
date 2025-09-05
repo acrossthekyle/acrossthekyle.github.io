@@ -7,7 +7,7 @@ const styles = tw({
     text-left
     pointer-events-none
 
-    base:!cursor-zoom-in
+    base:!cursor-open
     base:pointer-events-auto
   `,
   image: (isLandscape?: boolean) => tw(`
@@ -17,15 +17,14 @@ const styles = tw({
     transform-gpu duration-500
     rounded-lg
 
-    brightness-90
+    brightness-80
     grayscale-0
   `),
   minimize: `
     relative z-3
     flex justify-center
     w-full h-full
-    bg-black
-    !cursor-zoom-out
+    !cursor-close
   `,
 });
 

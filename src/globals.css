@@ -27,6 +27,9 @@
 
   --text-tiny: 0.625rem; /* 10px */
 
+  --cursor-close: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><line x1="0" y1="0" x2="16" y2="16" stroke="white" stroke-width="1"/><line x1="16" y1="0" x2="0" y2="16" stroke="white" stroke-width="1"/></svg>') 8 8, zoom-out;
+  --cursor-open: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><line x1="0" y1="10" x2="20" y2="10" stroke="white" stroke-width="1"/><line x1="10" y1="0" x2="10" y2="20" stroke="white" stroke-width="1"/></svg>') 8 8, zoom-in;
+
   --animate-elastic-in-from-right: elasticInFromRight .5s cubic-bezier(.4, -0.6, 0.32, 1.6) forwards;
   --animate-elastic-in-from-left: elasticInFromLeft .65s cubic-bezier(.4, -0.6, 0.32, 1.6) forwards;
   --animate-loader-one: .3s fadeIn 1s ease-in forwards;
@@ -75,5 +78,11 @@ body {
   a,
   button[type=button] {
     cursor: pointer;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    cursor: auto;
   }
 }
