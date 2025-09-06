@@ -7,7 +7,7 @@ const data = [
       ]
     },
     "description": [
-      "A place and trail so amazing that in 2024 I repeated a previous hike of this trail, accompanied by my partner. The trek was much as had I remembered, with abundant trips down memory lane. These pictures showcase our views from the trail."
+      "Returning to an old friend and repeating a previous hike of this trail, this time accompanied by my partner. The trek was much as had I remembered, with abundant trips down memory lane. These pictures showcase our views from the trail."
     ],
     "location": "French, Italian, and Swiss Alps",
     "slug": "tour-du-mont-blanc-redux",
@@ -210,6 +210,170 @@ const data = [
       "Redux"
     ],
     "type": "thru-hike"
+  },
+  {
+    "date": {
+      "date": "Jul 8 2025",
+      "years": [
+        "2025"
+      ]
+    },
+    "description": [
+      "Spending two days visiting the infamous Mackinac Island in the Upper Peninsula of Michigan."
+    ],
+    "location": "Michigan",
+    "slug": "mackinac-island",
+    "stages": [
+      {
+        "image": "2025/07/08/ab0bcc21-1bba-4629-8a3e-ea36e2b53efc.jpeg",
+        "location": "Mackinac Island State Park",
+        "termini": {
+          "end": [
+            "Arch Rock"
+          ],
+          "isSame": true,
+          "start": [
+            "Arch Rock"
+          ]
+        }
+      },
+      {
+        "image": "2025/07/08/5e1d8fd7-ebfe-4800-b7b8-af16285ecd85.jpeg",
+        "location": "Mackinac Island State Park",
+        "termini": {
+          "end": [
+            "Sugar Loaf Rock"
+          ],
+          "isSame": true,
+          "start": [
+            "Sugar Loaf Rock"
+          ]
+        }
+      },
+      {
+        "image": "2025/07/08/e19c94a5-b059-430a-8b25-25f870eb01de.jpeg",
+        "location": "Mackinac Island State Park",
+        "termini": {
+          "end": [
+            "Fort Holmes"
+          ],
+          "isSame": true,
+          "start": [
+            "Fort Holmes"
+          ]
+        }
+      },
+      {
+        "image": "2025/07/08/20ef7d2c-f40a-469e-a48c-8769d3cf5934.jpeg",
+        "location": "Mackinac Island",
+        "termini": {
+          "end": [
+            "Sunrise over the",
+            "island"
+          ],
+          "isSame": true,
+          "start": [
+            "Sunrise over the",
+            "island"
+          ]
+        }
+      }
+    ],
+    "stats": {
+      "altitude": null,
+      "days": {
+        "label": "days",
+        "value": "2",
+        "units": null
+      },
+      "distance": null,
+      "length": {
+        "label": "length",
+        "value": 4,
+        "units": null
+      }
+    },
+    "title": [
+      "Mackinac",
+      "Island"
+    ],
+    "type": "vacation"
+  },
+  {
+    "date": {
+      "date": "Jul 24 2024",
+      "years": [
+        "2024"
+      ]
+    },
+    "description": [
+      "Before heading into the Alps for the Tour du Mont Blanc, we took some time to explore the city of Geneva in Switzerland."
+    ],
+    "location": "Switzerland",
+    "slug": "geneva",
+    "stages": [
+      {
+        "image": "2024/07/24/f6f7470b-5e4e-42f7-aa59-ccabe81778bf.jpeg",
+        "location": "Geneva",
+        "termini": {
+          "end": [
+            "Jet d'Eau de Geneve"
+          ],
+          "isSame": true,
+          "start": [
+            "Jet d'Eau de Geneve"
+          ]
+        }
+      },
+      {
+        "image": "2024/07/24/e19b87b3-ff48-499f-a225-3d4d608e9311.jpeg",
+        "location": "Geneva",
+        "termini": {
+          "end": [
+            "Cathedral",
+            "Saint-Pierre"
+          ],
+          "isSame": true,
+          "start": [
+            "Cathedral",
+            "Saint-Pierre"
+          ]
+        }
+      },
+      {
+        "image": "2024/07/24/e38ad9d4-d8b7-433c-bdec-55294d442928.jpeg",
+        "location": "Geneva",
+        "termini": {
+          "end": [
+            "Conservatory and",
+            "Botanical Garden"
+          ],
+          "isSame": true,
+          "start": [
+            "Conservatory and",
+            "Botanical Garden"
+          ]
+        }
+      }
+    ],
+    "stats": {
+      "altitude": null,
+      "days": {
+        "label": "days",
+        "value": "2",
+        "units": null
+      },
+      "distance": null,
+      "length": {
+        "label": "length",
+        "value": 3,
+        "units": null
+      }
+    },
+    "title": [
+      "Geneva"
+    ],
+    "type": "vacation"
   },
   {
     "date": {
@@ -1064,6 +1228,78 @@ const data = [
     "title": [
       "Smoky",
       "Mountains"
+    ],
+    "type": "day-hike"
+  },
+  {
+    "date": {
+      "date": "Feb 15 2021",
+      "years": [
+        "2021"
+      ]
+    },
+    "description": [
+      "A winter wonderland day-hike up Whiteoak Canyon in the Shenandoah National Park."
+    ],
+    "location": "Virginia",
+    "slug": "shenandoah",
+    "stages": [
+      {
+        "image": "2021/02/15/8c743325-3b33-459b-83b7-cda8e59842a7.jpeg",
+        "location": "Shenandoah",
+        "termini": {
+          "end": [
+            "Massive Icicles"
+          ],
+          "isSame": true,
+          "start": [
+            "Massive Icicles"
+          ]
+        }
+      },
+      {
+        "image": "2021/02/15/99dac382-c788-4a2b-bfd0-f50e52b131e6.jpeg",
+        "location": "Shenandoah",
+        "termini": {
+          "end": [
+            "Whiteoak Canyon"
+          ],
+          "isSame": true,
+          "start": [
+            "Whiteoak Canyon"
+          ]
+        }
+      },
+      {
+        "image": "2021/02/15/41c0e5d9-91ff-4308-ab23-5d878a9c2627.jpeg",
+        "location": "Shenandoah",
+        "termini": {
+          "end": [
+            "Lovebirds"
+          ],
+          "isSame": true,
+          "start": [
+            "Lovebirds"
+          ]
+        }
+      }
+    ],
+    "stats": {
+      "altitude": null,
+      "days": {
+        "label": "days",
+        "value": "1",
+        "units": null
+      },
+      "distance": null,
+      "length": {
+        "label": "length",
+        "value": 3,
+        "units": null
+      }
+    },
+    "title": [
+      "Shenandoah"
     ],
     "type": "day-hike"
   },
@@ -2949,31 +3185,130 @@ const data = [
   },
   {
     "date": {
-      "date": null,
+      "date": "Mar 19 2015",
       "years": [
-        "2021",
-        "2025"
+        "2015"
       ]
     },
     "description": [
-      "For those unplanned moments here and there over the years captured by the camera."
+      "Embarking on my first vacation abroad, in South America, experiencing the sights and sounds of Buenos Aires and Montevideo, and Lollapalooza."
     ],
-    "location": "Various",
-    "slug": "coast-to-coast",
+    "location": "Argentina and Uruguay",
+    "slug": "buenos-aires",
     "stages": [
       {
-        "image": "2021/02/15/99dac382-c788-4a2b-bfd0-f50e52b131e6.jpeg",
-        "location": "Virginia",
+        "image": "2015/03/19/1ddbd381-ac73-4dc2-9fa9-7398e0438098.jpeg",
+        "location": "Buenos Aires",
         "termini": {
           "end": [
-            "Shenandoah"
+            "Hop on hop off tour"
           ],
           "isSame": true,
           "start": [
-            "Shenandoah"
+            "Hop on hop off tour"
           ]
         }
       },
+      {
+        "image": "2015/03/19/7e447ab0-dea1-4f58-b3fa-2155c23f6176.jpeg",
+        "location": "Buenos Aires",
+        "termini": {
+          "end": [
+            "La Catedral"
+          ],
+          "isSame": true,
+          "start": [
+            "La Catedral"
+          ]
+        }
+      },
+      {
+        "image": "2015/03/19/36c1fead-d537-4c38-abb9-b09edeb17b94.jpeg",
+        "location": "Buenos Aires",
+        "termini": {
+          "end": [
+            "Marionette Performer"
+          ],
+          "isSame": true,
+          "start": [
+            "Marionette Performer"
+          ]
+        }
+      },
+      {
+        "image": "2015/03/19/aaa356af-6a08-4305-8fe2-80819bd00f16.jpeg",
+        "location": "Buenos Aires",
+        "termini": {
+          "end": [
+            "Lollapalooza"
+          ],
+          "isSame": true,
+          "start": [
+            "Lollapalooza"
+          ]
+        }
+      },
+      {
+        "image": "2015/03/19/9650d680-3809-45e9-a9df-0e108f3e1498.jpeg",
+        "location": "Montevideo",
+        "termini": {
+          "end": [
+            "Exploring the city"
+          ],
+          "isSame": true,
+          "start": [
+            "Exploring the city"
+          ]
+        }
+      },
+      {
+        "image": "2015/03/19/2894ebbc-a07d-40c9-91e7-68db3eeed340.jpeg",
+        "location": "Montevideo",
+        "termini": {
+          "end": [
+            "Independence Plaza"
+          ],
+          "isSame": true,
+          "start": [
+            "Independence Plaza"
+          ]
+        }
+      }
+    ],
+    "stats": {
+      "altitude": null,
+      "days": {
+        "label": "days",
+        "value": "7",
+        "units": null
+      },
+      "distance": null,
+      "length": {
+        "label": "length",
+        "value": 6,
+        "units": null
+      }
+    },
+    "title": [
+      "Buenos",
+      "Aires"
+    ],
+    "type": "vacation"
+  },
+  {
+    "date": {
+      "date": null,
+      "years": [
+        "2021",
+        "2022"
+      ]
+    },
+    "description": [
+      "For those random moments here and there over the years captured by the camera."
+    ],
+    "location": "Vermont, Ohio, New York",
+    "slug": "moments",
+    "stages": [
       {
         "image": "2022/05/28/b5db01f1-f716-4538-a3dc-46d41183fbf7.jpeg",
         "location": "Vermont",
@@ -3025,51 +3360,24 @@ const data = [
             "Buttermilk Falls"
           ]
         }
-      },
-      {
-        "image": "2024/07/24/f6f7470b-5e4e-42f7-aa59-ccabe81778bf.jpeg",
-        "location": "Geneva, Switzerland",
-        "termini": {
-          "end": [
-            "Geneva"
-          ],
-          "isSame": true,
-          "start": [
-            "Geneva"
-          ]
-        }
-      },
-      {
-        "image": "2025/07/08/20ef7d2c-f40a-469e-a48c-8769d3cf5934.jpeg",
-        "location": "Upper Penninsula, Michicagn",
-        "termini": {
-          "end": [
-            "Mackinac Island"
-          ],
-          "isSame": true,
-          "start": [
-            "Mackinac Island"
-          ]
-        }
       }
     ],
     "stats": {
       "altitude": null,
       "days": {
         "label": "days",
-        "value": "0",
+        "value": "4",
         "units": null
       },
       "distance": null,
       "length": {
         "label": "length",
-        "value": 7,
+        "value": 4,
         "units": null
       }
     },
     "title": [
-      "Coast to",
-      "Coast"
+      "Moments"
     ],
     "type": "collection"
   }
