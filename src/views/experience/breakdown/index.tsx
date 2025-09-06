@@ -10,7 +10,7 @@ type Props = {
 export default function Breakdown({ data }: Props) {
   return (
     <section className={styles.container} aria-label="Stats and Information">
-      <section className={styles.section} aria-labelledby="where">
+      <section aria-labelledby="where">
         <h2 className={styles.heading} id="where">
           <span className={styles.index}>01.</span>
           Location
@@ -29,8 +29,8 @@ export default function Breakdown({ data }: Props) {
         </p>
       </section>
       {data.type !== 'vacation' && (
-        <section className={styles.section} aria-labelledby="where">
-          <h2 className={styles.heading} id="where">
+        <section className={styles.section} aria-labelledby="length">
+          <h2 className={styles.heading} id="length">
             <span className={styles.index}>03.</span>
             {data.type === 'collection' && 'Items'}
             {data.type === 'day-hike' && 'Hikes'}
@@ -47,8 +47,8 @@ export default function Breakdown({ data }: Props) {
       {['peak-bagging', 'section-hike', 'thru-hike'].includes(data.type) && (
         <>
           {data.stats.distance && (
-            <section className={styles.section} aria-labelledby="when">
-              <h2 className={styles.heading} id="when">
+            <section className={styles.section} aria-labelledby="distance">
+              <h2 className={styles.heading} id="distance">
                 <span className={styles.index}>04.</span>
                 Length
               </h2>
@@ -58,8 +58,8 @@ export default function Breakdown({ data }: Props) {
             </section>
           )}
           {data.stats.altitude && (
-            <section className={styles.section} aria-labelledby="what">
-              <h2 className={styles.heading} id="what">
+            <section className={styles.section} aria-labelledby="peak">
+              <h2 className={styles.heading} id="peak">
                 <span className={styles.index}>05.</span>
                 Peak
               </h2>

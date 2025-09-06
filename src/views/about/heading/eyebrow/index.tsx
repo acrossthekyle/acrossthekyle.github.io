@@ -1,13 +1,13 @@
 import styles from './stylesheet';
 
 type Props = {
-  index: string;
+  children: React.ReactNode | React.ReactNode[];
 };
 
-export default function Count({ index }: Props) {
+export default function Count({ children }: Props) {
   return (
     <span className={styles.index}>
-      {index}
+      {children}
     </span>
   );
 }

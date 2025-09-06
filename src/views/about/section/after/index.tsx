@@ -2,12 +2,12 @@ import styles from './stylesheet';
 
 type Props = {
   children?: React.ReactNode | React.ReactNode[];
-  id?: string;
+  labelledBy?: string;
 };
 
-export default function After({ children, id }: Props) {
+export default function After({ children, labelledBy }: Props) {
   return (
-    <section aria-labelledby={id} className={styles.container}>
+    <section aria-labelledby={labelledBy} className={styles.container}>
       {children}
     </section>
   );

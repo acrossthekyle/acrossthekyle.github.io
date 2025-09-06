@@ -2,7 +2,7 @@ import { Article } from '@/ui/article';
 
 import Hero from './hero';
 import {
-  HeadingIndex,
+  HeadingEyebrow,
   HeadingLarge,
   HeadingSmall,
 } from './heading';
@@ -30,9 +30,9 @@ export default function View() {
     <Article isFull>
       <Hero />
       <SectionHorizontal a11yLabel="Background">
-        <SectionBefore id="ui">
+        <SectionBefore labelledBy="ui">
           <HeadingLarge id="ui">
-            <HeadingIndex index="01." />
+            <HeadingEyebrow>01.</HeadingEyebrow>
             Creating things from scratch motivates me to do what I do.
           </HeadingLarge>
           <Paragraph>
@@ -45,9 +45,9 @@ export default function View() {
             I have hands-on experience working on high-traffic, customer-facing products and prioritize building clean, maintainable codebases that enable continuous improvement and scalability.
           </Paragraph>
         </SectionBefore>
-        <SectionAfter id="hike">
+        <SectionAfter labelledBy="hike">
           <HeadingLarge id="hike">
-            <HeadingIndex index="02." />
+            <HeadingEyebrow>02.</HeadingEyebrow>
             Experiencing new sights and sounds keeps me moving.
           </HeadingLarge>
           <Paragraph>
@@ -61,9 +61,9 @@ export default function View() {
           </Paragraph>
         </SectionAfter>
       </SectionHorizontal>
-      <SectionVertical id="career">
+      <SectionVertical labelledBy="career">
         <HeadingSmall id="career">
-          <HeadingIndex index="03." />
+          <HeadingEyebrow>03.</HeadingEyebrow>
           Career
         </HeadingSmall>
         <List>
@@ -241,9 +241,9 @@ export default function View() {
         </List>
       </SectionVertical>
       <SectionHorizontal>
-        <SectionBefore id="addendum">
+        <SectionBefore labelledBy="addendum">
           <HeadingLarge id="addendum">
-            <HeadingIndex index="04." />
+            <HeadingEyebrow>04.</HeadingEyebrow>
             Addendum
           </HeadingLarge>
           <Paragraph>
