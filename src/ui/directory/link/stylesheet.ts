@@ -1,12 +1,14 @@
 import tw from '@/styles';
 
 const styles = tw({
-  link: (isOnChild: boolean, isActive: boolean) => {
+  link: (isOnChild: boolean, isActive: boolean, isInView: boolean) => {
     const root = `
       group/link
 
       uppercase
-      duration-200
+      transform-gpu duration-300
+
+      base:duration-200
     `;
 
     if (isOnChild) {
@@ -63,6 +65,8 @@ const styles = tw({
       hover:font-extralight
       hover:text-white/90
       group-hover/list:text-white/25
+
+      ${!isInView && 'font-extralight text-white/40 base:font-black base:text-white/90'}
     `);
   },
 });

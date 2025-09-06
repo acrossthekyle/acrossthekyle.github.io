@@ -12,6 +12,7 @@ const styles = tw({
       flex-row
       bg-black
       h-13 w-full
+      shadow-lg/75 shadow-black
     `;
 
     if (isOnRoot) {
