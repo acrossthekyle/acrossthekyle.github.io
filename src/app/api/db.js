@@ -297,7 +297,7 @@ const data = [
       "Mackinac",
       "Island"
     ],
-    "type": "vacation"
+    "type": "cities"
   },
   {
     "date": {
@@ -373,7 +373,7 @@ const data = [
     "title": [
       "Geneva"
     ],
-    "type": "vacation"
+    "type": "cities"
   },
   {
     "date": {
@@ -841,7 +841,7 @@ const data = [
       "Cairo &",
       "Luxor"
     ],
-    "type": "vacation"
+    "type": "cities"
   },
   {
     "date": {
@@ -1169,7 +1169,7 @@ const data = [
     "title": [
       "San Juan"
     ],
-    "type": "vacation"
+    "type": "cities"
   },
   {
     "date": {
@@ -1228,78 +1228,6 @@ const data = [
     "title": [
       "Smoky",
       "Mountains"
-    ],
-    "type": "day-hike"
-  },
-  {
-    "date": {
-      "date": "Feb 15 2021",
-      "years": [
-        "2021"
-      ]
-    },
-    "description": [
-      "A winter wonderland day-hike up Whiteoak Canyon in the Shenandoah National Park."
-    ],
-    "location": "Virginia",
-    "slug": "shenandoah",
-    "stages": [
-      {
-        "image": "2021/02/15/8c743325-3b33-459b-83b7-cda8e59842a7.jpeg",
-        "location": "Shenandoah",
-        "termini": {
-          "end": [
-            "Massive Icicles"
-          ],
-          "isSame": true,
-          "start": [
-            "Massive Icicles"
-          ]
-        }
-      },
-      {
-        "image": "2021/02/15/99dac382-c788-4a2b-bfd0-f50e52b131e6.jpeg",
-        "location": "Shenandoah",
-        "termini": {
-          "end": [
-            "Whiteoak Canyon"
-          ],
-          "isSame": true,
-          "start": [
-            "Whiteoak Canyon"
-          ]
-        }
-      },
-      {
-        "image": "2021/02/15/41c0e5d9-91ff-4308-ab23-5d878a9c2627.jpeg",
-        "location": "Shenandoah",
-        "termini": {
-          "end": [
-            "Lovebirds"
-          ],
-          "isSame": true,
-          "start": [
-            "Lovebirds"
-          ]
-        }
-      }
-    ],
-    "stats": {
-      "altitude": null,
-      "days": {
-        "label": "days",
-        "value": "1",
-        "units": null
-      },
-      "distance": null,
-      "length": {
-        "label": "length",
-        "value": 3,
-        "units": null
-      }
-    },
-    "title": [
-      "Shenandoah"
     ],
     "type": "day-hike"
   },
@@ -2228,7 +2156,7 @@ const data = [
     "title": [
       "Pokhara"
     ],
-    "type": "vacation"
+    "type": "cities"
   },
   {
     "date": {
@@ -3181,7 +3109,7 @@ const data = [
       "Patagonia &",
       "Valparaiso"
     ],
-    "type": "vacation"
+    "type": "cities"
   },
   {
     "date": {
@@ -3194,7 +3122,7 @@ const data = [
       "Embarking on my first vacation abroad, in South America, experiencing the sights and sounds of Buenos Aires and Montevideo, and Lollapalooza."
     ],
     "location": "Argentina and Uruguay",
-    "slug": "buenos-aires",
+    "slug": "buenos-aires-montevideo",
     "stages": [
       {
         "image": "2015/03/19/1ddbd381-ac73-4dc2-9fa9-7398e0438098.jpeg",
@@ -3291,9 +3219,10 @@ const data = [
     },
     "title": [
       "Buenos",
-      "Aires"
+      "Aires &",
+      "Montevideo"
     ],
-    "type": "vacation"
+    "type": "cities"
   },
   {
     "date": {
@@ -3304,11 +3233,24 @@ const data = [
       ]
     },
     "description": [
-      "For those random moments here and there over the years captured by the camera."
+      "For those one-off adventures here and there over the years."
     ],
-    "location": "Vermont, Ohio, New York",
-    "slug": "moments",
+    "location": "Vermont, Virginia, Ohio, New York",
+    "slug": "various",
     "stages": [
+      {
+        "image": "2021/02/15/99dac382-c788-4a2b-bfd0-f50e52b131e6.jpeg",
+        "location": "Virginia",
+        "termini": {
+          "end": [
+            "Shenandoah"
+          ],
+          "isSame": true,
+          "start": [
+            "Shenandoah"
+          ]
+        }
+      },
       {
         "image": "2022/05/28/b5db01f1-f716-4538-a3dc-46d41183fbf7.jpeg",
         "location": "Vermont",
@@ -3366,18 +3308,18 @@ const data = [
       "altitude": null,
       "days": {
         "label": "days",
-        "value": "4",
+        "value": "5",
         "units": null
       },
       "distance": null,
       "length": {
         "label": "length",
-        "value": 4,
+        "value": 5,
         "units": null
       }
     },
     "title": [
-      "Moments"
+      "Various"
     ],
     "type": "collection"
   }

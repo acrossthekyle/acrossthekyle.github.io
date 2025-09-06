@@ -28,7 +28,7 @@ export default function Breakdown({ data }: Props) {
           {getDate(data.date)}
         </p>
       </section>
-      {!['day-hike', 'vacation'].includes(data.type) && (
+      {!['day-hike', 'cities'].includes(data.type) && (
         <section className={styles.section} aria-labelledby="length">
           <h2 className={styles.heading} id="length">
             <span className={styles.index}>03.</span>

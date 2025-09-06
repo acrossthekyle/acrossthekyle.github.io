@@ -11,6 +11,7 @@ type ModifiedData = Data & {
 type State = {
   hasError: boolean;
   isLoading: boolean;
+  isMissing: boolean;
   item?: ModifiedData;
   items: ModifiedData[];
 };
@@ -24,6 +25,7 @@ const store = create<State & Actions>()(
   (set, get) => ({
     hasError: false,
     isLoading: true,
+    isMissing: false,
     item: undefined,
     items: [],
     all: async () => {
@@ -37,6 +39,7 @@ const store = create<State & Actions>()(
         set({
           hasError: true,
           isLoading: false,
+          isMissing: false,
           items: [],
         });
 
@@ -48,6 +51,7 @@ const store = create<State & Actions>()(
       set({
         hasError: false,
         isLoading: false,
+        isMissing: false,
         items: items.map((data: Data) => ({
           ...data,
           isReady: false,
@@ -66,11 +70,12 @@ const store = create<State & Actions>()(
       const found = items.find(item => item.slug === slug);
 
       if (!found) {
+        set({ isMissing: true });
         return;
       }
 
       if (found.isReady) {
-        set({ item: found });
+        set({ isMissing: false, item: found });
 
         return;
       }
@@ -78,7 +83,7 @@ const store = create<State & Actions>()(
       const response = await fetch(`/api/data/${found.slug.toLowerCase()}`);
 
       if (!response.ok) {
-        set({ item: undefined });
+        set({ isMissing: true, item: undefined });
 
         return;
       }
@@ -86,6 +91,7 @@ const store = create<State & Actions>()(
       const json = await response.json();
 
       set({
+        isMissing: false,
         item: json,
         items: items.map((data: ModifiedData) => {
           if (data.slug.toLowerCase() === json.slug.toLowerCase()) {
@@ -103,12 +109,13 @@ const store = create<State & Actions>()(
 );
 
 export function useData() {
-  const { all, find, isLoading, item, items } = store();
+  const { all, find, isLoading, isMissing, item, items } = store();
 
   return {
     all,
     find,
     isLoading,
+    isMissing,
     item,
     items,
   };

@@ -1,5 +1,6 @@
 'use client';
 
+import { notFound } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
 import { useData } from '@/hooks/useData';
@@ -14,7 +15,7 @@ type Model = {
 const AMOUNT_SHOWN = 6;
 
 export function useModel(slug: string): Model {
-  const { find, item } = useData();
+  const { find, isMissing, item } = useData();
 
   const [shown, setShown] = useState(AMOUNT_SHOWN);
 
@@ -24,6 +25,12 @@ export function useModel(slug: string): Model {
     window.scrollTo(0, 0);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  useEffect(() => {
+    if (isMissing) {
+      notFound();
+    }
+  }, [isMissing]);
 
   const handleOnScrollEnd = () => {
     setShown((previous) => previous + AMOUNT_SHOWN);
