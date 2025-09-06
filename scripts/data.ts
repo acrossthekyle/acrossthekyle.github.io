@@ -672,7 +672,7 @@ async function go() {
       const stats = await getTripStats(trip, stages);
       const date = await getTripDate(trip, stages);
 
-      const slug = kebabCase(`${trip.title} ${trip.repeat ? '-repeat' : ''}`.trim());
+      const slug = kebabCase(trip.title.trim());
 
       data.push({
         date,

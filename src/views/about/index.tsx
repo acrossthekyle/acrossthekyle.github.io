@@ -2,9 +2,8 @@ import { Article } from '@/ui/article';
 
 import Hero from './hero';
 import {
+  Heading,
   HeadingEyebrow,
-  HeadingLarge,
-  HeadingSmall,
 } from './heading';
 import Link from './link';
 import {
@@ -31,10 +30,10 @@ export default function View() {
       <Hero />
       <SectionHorizontal a11yLabel="Background">
         <SectionBefore labelledBy="ui">
-          <HeadingLarge id="ui">
+          <Heading id="ui">
             <HeadingEyebrow>01.</HeadingEyebrow>
             Creating things from scratch motivates me to do what I do.
-          </HeadingLarge>
+          </Heading>
           <Paragraph>
             Making things with code  thrills me to no end: digital experiences are my bread and butter. With attention to detail, and an ability to adapt, I produce everlasting things.
           </Paragraph>
@@ -46,10 +45,10 @@ export default function View() {
           </Paragraph>
         </SectionBefore>
         <SectionAfter labelledBy="hike">
-          <HeadingLarge id="hike">
+          <Heading id="hike">
             <HeadingEyebrow>02.</HeadingEyebrow>
             Experiencing new sights and sounds keeps me moving.
-          </HeadingLarge>
+          </Heading>
           <Paragraph>
             The mountains are my church, and after hiking more than 1,900 miles of trail nothing inspires me more than leaving the crowded city behind and heading into nature carrying everything I need on my back.
           </Paragraph>
@@ -62,10 +61,10 @@ export default function View() {
         </SectionAfter>
       </SectionHorizontal>
       <SectionVertical labelledBy="career">
-        <HeadingSmall id="career">
+        <Heading id="career">
           <HeadingEyebrow>03.</HeadingEyebrow>
           Career
-        </HeadingSmall>
+        </Heading>
         <List>
           <ListItem>
             <ListItemHeading>
@@ -242,10 +241,10 @@ export default function View() {
       </SectionVertical>
       <SectionHorizontal>
         <SectionBefore labelledBy="addendum">
-          <HeadingLarge id="addendum">
+          <Heading id="addendum">
             <HeadingEyebrow>04.</HeadingEyebrow>
-            Addendum
-          </HeadingLarge>
+            In Conclusion
+          </Heading>
           <Paragraph>
             I'm always open to new opportunities. If you're interested in working together, or have questions about any of the travels/hikes that I've done, find me online at any of{' '}
             <Link href="/contact">these locations</Link>.

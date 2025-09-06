@@ -10,7 +10,7 @@ const data = [
       "A place and trail so amazing that in 2024 I repeated a previous hike of this trail, accompanied by my partner. The trek was much as had I remembered, with abundant trips down memory lane. These pictures showcase our views from the trail."
     ],
     "location": "French, Italian, and Swiss Alps",
-    "slug": "tour-du-mont-blanc-repeat",
+    "slug": "tour-du-mont-blanc-redux",
     "stages": [
       {
         "image": "2024/07/27/ac7799bd-b2a8-4f77-8a8d-6d42a8740390.jpeg",
@@ -206,7 +206,8 @@ const data = [
     },
     "title": [
       "Tour du",
-      "Mont Blanc"
+      "Mont Blanc",
+      "Redux"
     ],
     "type": "thru-hike"
   },
