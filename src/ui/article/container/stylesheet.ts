@@ -9,7 +9,7 @@ const styles = tw({
     outline-0
     animate-article-in-fade
 
-    base:pt-6
+    base:pt-2
     deka:px-12
     deka:py-12
   `,

@@ -43,16 +43,13 @@ const styles = tw({
     pointer-events-none
 
     pico:text-2xl/5
-    base:right-8
-    base:left-8
-    base:bottom-8
     micro:text-3xl/6
     centi:font-stretch-semi-condensed
     base:text-2xl/5
     deka:text-3xl/6
-    deka:right-8
-    deka:left-8
-    deka:bottom-8
+    hecto:right-8
+    hecto:left-8
+    hecto:bottom-8
     kilo:text-4xl/7
 
     group-hover/figure:font-stretch-condensed

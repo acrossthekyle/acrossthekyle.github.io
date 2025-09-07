@@ -21,9 +21,9 @@ const styles = tw({
         hidden
 
         base:block
-        base:w-65
+        base:w-60
         deka:py-12
-        base:w-74
+        deka:w-70
         mega:w-100
       `);
     }

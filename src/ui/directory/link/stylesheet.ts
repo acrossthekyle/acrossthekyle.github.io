@@ -23,28 +23,28 @@ const styles = tw({
         ${lines === 1 && `
           h-11
 
-          base:h-13
+          deka:h-13
           mega:h-17.5
         `}
 
         ${lines === 2 && `
           h-22
 
-          base:h-26
+          deka:h-26
           mega:h-35
         `}
 
         ${lines === 3 && `
           h-33
 
-          base:h-39
+          deka:h-39
           mega:h-52.5
         `}
 
         text-6xl/11
         font-stretch-ultra-condensed
 
-        base:text-7xl/13
+        deka:text-7xl/13
         mega:text-8xl/17.5
         tera:font-stretch-extra-condensed
       `;
