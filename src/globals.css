@@ -35,6 +35,7 @@
   --animate-loader-one: .3s fadeIn 1s ease-in forwards;
   --animate-loader-two: .3s fadeIn 6s ease-in forwards;
   --animate-loader-three: .3s fadeIn 11s ease-in forwards;
+  --animate-in-fade: fadeIn .5s ease-in forwards;
   --animate-article-in-elastic: slideInFromRight .7s ease-in forwards;
   --animate-article-in-fade: fadeIn .5s ease-in forwards;
 

@@ -24,8 +24,8 @@ const styles = tw({
 
         pico:h-12
         pico:text-6xl/12
-        nano:h-14
-        nano:text-7xl/14
+        milli:h-14
+        milli:text-7xl/14
         milli:font-stretch-semi-condensed
         deci:h-18
         deci:text-8xl/17

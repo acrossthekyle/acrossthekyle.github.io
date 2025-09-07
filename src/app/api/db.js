@@ -7,7 +7,7 @@ const data = [
       ]
     },
     "description": [
-      "Returning to an old friend and repeating a previous hike of this trail, this time accompanied by my partner. The trek was much as had I remembered, with abundant trips down memory lane. These pictures showcase our views from the trail."
+      "Returning to an old friend and repeating a previous hike of this trail, this time accompanied by my partner. The trek was much as had I remembered, with abundant trips down memory lane. These pictures showcase our daily amazing views from the trail."
     ],
     "location": "French, Italian, and Swiss Alps",
     "slug": "tour-du-mont-blanc-redux",
@@ -307,7 +307,7 @@ const data = [
       ]
     },
     "description": [
-      "Before heading into the Alps for the Tour du Mont Blanc, we took some time to explore the city of Geneva in Switzerland."
+      "Before heading into the Alps for the Tour du Mont Blanc we took some time to explore the city of Geneva, from breakfast along the Rhone river to exploring Old Town and the botanical gardens."
     ],
     "location": "Switzerland",
     "slug": "geneva",
@@ -354,6 +354,21 @@ const data = [
             "Botanical Garden"
           ]
         }
+      },
+      {
+        "image": "2024/07/24/202b0f0d-2a00-44f1-8c41-1eb8e7748f09.jpeg",
+        "location": "Geneva",
+        "termini": {
+          "end": [
+            "Patek Philippe Watch",
+            "Museum"
+          ],
+          "isSame": true,
+          "start": [
+            "Patek Philippe Watch",
+            "Museum"
+          ]
+        }
       }
     ],
     "stats": {
@@ -366,7 +381,7 @@ const data = [
       "distance": null,
       "length": {
         "label": "length",
-        "value": 3,
+        "value": 4,
         "units": null
       }
     },
@@ -618,7 +633,7 @@ const data = [
       ]
     },
     "description": [
-      "A land of ancient wonders, Egypt is a place full of history and bustling cities. Awe-inspiring pyramids, tombs, and temples are everywhere, best seen up close as well as from afar."
+      "Spending New Years Eve in a land of ancient wonders. Egypt is a place full of history and bustling cities, awe-inspiring pyramids, tombs, and amazing temples. Seeing them up close, and being able to touch them, is how history is meant to be experienced."
     ],
     "location": "Egypt",
     "slug": "cairo-luxor",
@@ -1179,7 +1194,7 @@ const data = [
       ]
     },
     "description": [
-      "Backpacking and day-hiking in the Smoky Mountains of Tennessee."
+      "We set off for the Smoky Mountains of Gatlinburg, and some overnight backpacking and section-hiking of the Appalachian Trail. Mother Nature had other plans though, and our four-day hiking plans turned into two days of day-hiking."
     ],
     "location": "Gatlinburg, Tennessee",
     "slug": "smoky-mountains",
@@ -1410,8 +1425,8 @@ const data = [
       ]
     },
     "description": [
-      "Surrounded by giants, and ranging from subtropical forests and waterfalls along paddy fields at 2,500 feet to the frozen arctic region of the Tibetan plateau at 17,000 feet, the Annapurna Circuit wound its way around the Annapurna mountain (one of the eight tallest peaks in the world) of the Himalayas in Nepal.",
-      "The sheer amount of elevation gain and loss each day, and changing biomes, led to this being one of my toughest treks, and nearly succumbing to hypothermia while hiking up to Ghorepani didn't help. These pictures showcase my time on trail."
+      "Surrounded by giants, and ranging from subtropical forests and waterfalls along paddy fields at 2,500 feet to the frozen arctic region of the Tibetan plateau at 17,000 feet, the Annapurna Circuit wound its way around the Annapurna mountain (one of the eight tallest peaks in the world) in the Himalayas in Nepal.",
+      "The sheer amount of elevation gain and loss each day, and changing biomes, led to this being one of my toughest treks, and nearly succumbing to hypothermia while hiking up to Ghorepani didn't help. These pictures showcase my experience."
     ],
     "location": "The Himalayas, Nepal",
     "slug": "annapurna-circuit-basecamp",
@@ -1715,7 +1730,7 @@ const data = [
     "description": [
       "Reaching the summits of the Colorado Rocky Mountains, and breathing in the cold alpine air at 14,000 feet, is an awe-inspiring experience offering unparalleled views and moments of profound triumph, a feeling of being on top of the world."
     ],
-    "location": "the Colorado Rocky Mountains",
+    "location": "Colorado Rocky Mountains",
     "slug": "southern-rockies-14-ers",
     "stages": [
       {
@@ -2094,7 +2109,7 @@ const data = [
       ]
     },
     "description": [
-      "Exploring the city of Pokhara in Nepal: the base of operations after completing the Annapurna Circuit and Basecamp treks, including paragliding for the first time."
+      "After completing the Annapurna Circuit and Basecamp treks I returned to the outdoor adventurist capital of Nepal: Pokhara. Here I explord the city for a few days, including going paragliding for the first time."
     ],
     "location": "Nepal",
     "slug": "pokhara",
@@ -2167,7 +2182,7 @@ const data = [
     },
     "description": [
       "Encircling the Mont Blanc mountain in the Alps, the tour of this peak is a classic long-distance hike passing through France, Italy, and Switzerland that offered a challenging experience filled with diverse landscapes, a unique blend of cultures, and stunning alpine charm. I slept in comfy mountain huts and ate warm meals every night.",
-      "The sights from the trail, and at the mountain huts, are beautiful and well worth the daily gain and loss of thousands of feet in elevation."
+      "The sights from the trail, and at the mountain huts, are beautiful and well worth the thousands of feet of daily elevation gain and loss."
     ],
     "location": "French, Italian, and Swiss Alps",
     "slug": "tour-du-mont-blanc",
@@ -2385,20 +2400,33 @@ const data = [
   },
   {
     "date": {
-      "date": "Jul 25 2018",
+      "date": "Jul 24 2018",
       "years": [
         "2018"
       ]
     },
     "description": [
-      "Playing New York City tourist in July of 2018, snapping pictures of its iconic metal and stone bridges."
+      "Exploring the Big Apple for a week in the summer of 2018."
     ],
     "location": "New York City, New York",
     "slug": "new-york-city",
     "stages": [
       {
-        "image": "2018/07/24/79693c9f-ef6a-4dd2-acd8-095e1e835684.jpeg",
-        "location": "Downtown Brooklyn",
+        "image": "2018/07/24/cb030bb5-9458-4d97-8d0e-755c1fafc5a7.jpeg",
+        "location": "Transmitter Park",
+        "termini": {
+          "end": [
+            "A Key Message"
+          ],
+          "isSame": true,
+          "start": [
+            "A Key Message"
+          ]
+        }
+      },
+      {
+        "image": "2018/07/24/1c8d8548-f4e3-4d3a-8f83-7dc2c66ac0c1.jpeg",
+        "location": "Brooklyn - DUMBO",
         "termini": {
           "end": [
             "Manhattan Bridge"
@@ -2410,34 +2438,8 @@ const data = [
         }
       },
       {
-        "image": "2018/07/24/c6e927a9-39c3-408a-8363-a08bb5d31032.jpeg",
-        "location": "Downtown Brooklyn",
-        "termini": {
-          "end": [
-            "Manhattan Bridge"
-          ],
-          "isSame": true,
-          "start": [
-            "Manhattan Bridge"
-          ]
-        }
-      },
-      {
-        "image": "2018/07/24/581a2a63-d3be-467d-8d78-247590241d1e.jpeg",
-        "location": "Downtown Brooklyn",
-        "termini": {
-          "end": [
-            "Manhattan Bridge"
-          ],
-          "isSame": true,
-          "start": [
-            "Manhattan Bridge"
-          ]
-        }
-      },
-      {
-        "image": "2018/07/24/24d5bf65-9b1f-41fd-9d61-59d39307e237.jpeg",
-        "location": "Williamsburg",
+        "image": "2018/07/24/7e7ff041-d1ca-4f91-933c-7c235c03c0fa.jpeg",
+        "location": "Brooklyn - DUMBO",
         "termini": {
           "end": [
             "Williamsburg Bridge"
@@ -2462,15 +2464,56 @@ const data = [
         }
       },
       {
-        "image": "2018/07/24/1bb41680-664b-4097-8b78-6e2a64ebf3f5.jpeg",
-        "location": "Williamsburg",
+        "image": "2018/07/24/bf162b3d-3b01-4da6-b423-f08200dda3a7.jpeg",
+        "location": "Brooklyn - DUMBO",
         "termini": {
           "end": [
-            "Williamsburg Bridge"
+            "DUMBO"
           ],
           "isSame": true,
           "start": [
-            "Williamsburg Bridge"
+            "DUMBO"
+          ]
+        }
+      },
+      {
+        "image": "2018/07/24/8736b5dc-44d7-4104-b0f7-17cea8775930.jpeg",
+        "location": "Manhattan",
+        "termini": {
+          "end": [
+            "Central Park"
+          ],
+          "isSame": true,
+          "start": [
+            "Central Park"
+          ]
+        }
+      },
+      {
+        "image": "2018/07/24/2eb94217-fbb2-40ff-8113-346ec5ae9ac4.jpeg",
+        "location": "Long Island",
+        "termini": {
+          "end": [
+            "Grand Army Plaza"
+          ],
+          "isSame": true,
+          "start": [
+            "Grand Army Plaza"
+          ]
+        }
+      },
+      {
+        "image": "2018/07/24/89de8bf1-0619-4bea-b54f-19d69f66c6ce.jpeg",
+        "location": "Manhattan",
+        "termini": {
+          "end": [
+            "Grand Central",
+            "Terminal"
+          ],
+          "isSame": true,
+          "start": [
+            "Grand Central",
+            "Terminal"
           ]
         }
       }
@@ -2479,13 +2522,13 @@ const data = [
       "altitude": null,
       "days": {
         "label": "days",
-        "value": "2",
+        "value": "5",
         "units": null
       },
       "distance": null,
       "length": {
         "label": "length",
-        "value": 6,
+        "value": 8,
         "units": null
       }
     },
@@ -2493,7 +2536,7 @@ const data = [
       "New York",
       "City"
     ],
-    "type": "collection"
+    "type": "cities"
   },
   {
     "date": {
@@ -2503,7 +2546,7 @@ const data = [
       ]
     },
     "description": [
-      "Starting on the border between France and Spain, high in the Pyrenees mountains, and leading to the Atlantic ocean, the Camino Frances is part of a series of ancient routes that unfold across Europe called the Camino de Santiago: a network of pilgrimages leading to the city of Santiago de Compostela in northwestern Spain. I spent weeks walking hundreds of miles over hills and mountains, through deserts, across rivers, and under thick forests. The Camino wears you down and then builds you back up.",
+      "Starting on the border between France and Spain, high in the Pyrenees mountains, and leading to the Atlantic ocean, the Camino Frances is part of a series of ancient routes that unfold across Europe called the Camino de Santiago: a network of pilgrimages leading to the city of Santiago de Compostela in northwestern Spain. I spent weeks walking hundreds of miles over hills and mountains, through deserts, across rivers, and under thick forests.",
       "It's hard to capture 32 days worth of experiences in these snapshots, but hopefully they offer a picture of my journey on this adventure, and a glimpse into the time spent on this thru-hike."
     ],
     "location": "Northern France and Spain",
@@ -2989,7 +3032,7 @@ const data = [
       ]
     },
     "description": [
-      "South America is a place I keep coming back to, due in part to discovering backpacking in Chile while hiking in the Andes mountains towards glaciers and towers of granite."
+      "Once again I headed to South America for another international adventure, this time including Lollapalooza, discovering a passion for the wilderness by hiking into the Andes mountains in search of glaciers, and heading down to Patagonia where I first learned about backpacking while walking underneath the granite spires called Torres del Paine."
     ],
     "location": "Chile",
     "slug": "santiago-patagonia-valparaiso",
@@ -3119,7 +3162,7 @@ const data = [
       ]
     },
     "description": [
-      "Embarking on my first vacation abroad, in South America, experiencing the sights and sounds of Buenos Aires and Montevideo, and Lollapalooza."
+      "I put my brand new passport to good use and embarked on my first vacation abroad to South America, experiencing the sights and sounds of Buenos Aires and Montevideo, and my first music festival at Lollapalooza."
     ],
     "location": "Argentina and Uruguay",
     "slug": "buenos-aires-montevideo",
@@ -3233,10 +3276,10 @@ const data = [
       ]
     },
     "description": [
-      "For those one-off adventures here and there over the years."
+      "Snapshots from some of our adventures in various northeastern locations, from winter wonderland hiking in Shenandoah, to exploring ruins in Vermont and walking through water-carved canyons."
     ],
     "location": "Vermont, Virginia, Ohio, New York",
-    "slug": "various",
+    "slug": "east-coast-archives",
     "stages": [
       {
         "image": "2021/02/15/99dac382-c788-4a2b-bfd0-f50e52b131e6.jpeg",
@@ -3319,7 +3362,8 @@ const data = [
       }
     },
     "title": [
-      "Various"
+      "East Coast",
+      "Archives"
     ],
     "type": "collection"
   }

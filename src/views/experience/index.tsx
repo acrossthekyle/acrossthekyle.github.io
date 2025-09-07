@@ -34,11 +34,6 @@ export default function View({ slug }: Props) {
           </span>
         ))}
       </h1>
-      {data.description.map((paragraph) => (
-        <p className={styles.description} key={paragraph}>
-          {paragraph}
-        </p>
-      ))}
       <Breakdown data={data} />
       <ul className={styles.stages}>
         {[...data.stages].splice(0, shown).map((stage, index) => (

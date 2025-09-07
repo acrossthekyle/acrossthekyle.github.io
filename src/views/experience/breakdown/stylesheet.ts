@@ -1,28 +1,30 @@
 import tw from '@/styles';
 
 const styles = tw({
-  container: `
-    grid grid-cols-2 gap-x-6 gap-y-6
-    my-10
+  sections: `
+    grid grid-cols-2 gap-x-4 gap-y-2
 
     base:gap-x-12
-    base:gap-y-8
     giga:grid-cols-3
   `,
+  section: `
+    mb-6
+  `,
   heading: `
+    mb-1
     text-base
     font-black
     uppercase
   `,
   index: `
-    block
+    hidden
     text-xs/3
     font-normal
     lowercase
   `,
   content: `
+    mb-4
     text-base/5
-    capitalize
   `,
 });
 

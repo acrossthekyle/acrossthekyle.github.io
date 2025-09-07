@@ -16,7 +16,7 @@ const styles = {
         h-10
 
         pico:h-12
-        nano:h-14
+        milli:h-14
         deci:h-18
         tera:h-26
       `);

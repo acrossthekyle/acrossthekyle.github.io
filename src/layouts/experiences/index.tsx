@@ -18,7 +18,7 @@ type Props = {
 };
 
 export default function Layout({ children }: Props) {
-  const { isLoading, ref, data } = useModel();
+  const { data, isLoading, ref } = useModel();
 
   return (
     <>
@@ -31,8 +31,8 @@ export default function Layout({ children }: Props) {
           ))}
           {!isLoading && data.map((item, index: number) => (
             <DirectoryItem index={index} key={index}>
-              <DirectoryLink href={item.path} ref={ref}>
-                <DirectoryText text={item.text} />
+              <DirectoryLink href={`/experiences/${item.slug}`} ref={ref}>
+                <DirectoryText text={item.title} />
               </DirectoryLink>
             </DirectoryItem>
           ))}

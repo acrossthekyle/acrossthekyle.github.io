@@ -16,16 +16,10 @@ const styles = tw({
     deci:text-8xl/18
     base:hidden
   `,
-  description: `
-    mb-4
-    text-base
-  `,
   stages: `
     group/stages
     flex flex-col gap-6
     mt-6
-
-    deka:mt-12
   `,
   stage: `
     relative

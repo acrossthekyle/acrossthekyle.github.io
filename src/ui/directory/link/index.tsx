@@ -5,7 +5,6 @@ import { useInView } from 'react-intersection-observer';
 
 import { useHierarchy } from '@/hooks/useHierarchy';
 
-import { useScroll } from './hooks';
 import styles from './stylesheet';
 
 type Props = {
@@ -27,8 +26,6 @@ export default function DirectoryLink({
 
   const isActive = path === href;
   const isExternal = href.includes('https://') || href.includes('mailto:');
-
-  useScroll(isActive ? ref : undefined);
 
   return (
     <Link

@@ -9,7 +9,7 @@ const styles = {
     ${canBlur ? (`
       opacity-100
       translate-x-0
-      z-1
+      z-2
 
       [transition:opacity_.5s_var(--ease-in-out),translate_0s]
     `) : (`
