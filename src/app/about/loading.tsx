@@ -3,7 +3,7 @@ import AboutLoading from '@/views/about/loading';
 
 export default function Loading() {
   return (
-    <Article isFull>
+    <Article>
       <AboutLoading />
     </Article>
   );

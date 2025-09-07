@@ -11,6 +11,7 @@ const styles = tw({
       inline-block
       uppercase
       duration-200
+      overflow-hidden
     `;
 
     if (isOnRoot) {

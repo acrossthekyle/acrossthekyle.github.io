@@ -26,7 +26,7 @@ import {
 
 export default function View() {
   return (
-    <Article isFull>
+    <Article>
       <Hero />
       <SectionHorizontal a11yLabel="Background">
         <SectionBefore labelledBy="ui">

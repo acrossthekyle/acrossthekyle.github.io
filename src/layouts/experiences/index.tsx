@@ -30,8 +30,12 @@ export default function Layout({ children }: Props) {
             </DirectoryItem>
           ))}
           {!isLoading && data.map((item, index: number) => (
-            <DirectoryItem index={index} key={index}>
-              <DirectoryLink href={`/experiences/${item.slug}`} ref={ref}>
+            <DirectoryItem index={index} key={index} lines={item.title.length}>
+              <DirectoryLink
+                href={`/experiences/${item.slug}`}
+                lines={item.title.length}
+                ref={ref}
+              >
                 <DirectoryText text={item.title} />
               </DirectoryLink>
             </DirectoryItem>

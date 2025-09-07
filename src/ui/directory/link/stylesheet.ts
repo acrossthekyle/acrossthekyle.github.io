@@ -1,24 +1,51 @@
 import tw from '@/styles';
 
 const styles = tw({
-  link: (isOnChild: boolean, isActive: boolean, isInView: boolean) => {
+  link: (
+    isOnChild: boolean,
+    isActive: boolean,
+    isInView: boolean,
+    lines: number,
+  ) => {
     const root = `
       group/link
 
       uppercase
       transform-gpu duration-300
+      overflow-hidden
+      outline-0
 
       base:duration-200
     `;
 
     if (isOnChild) {
       const sub = `
+        ${lines === 1 && `
+          h-11
+
+          base:h-13
+          mega:h-17.5
+        `}
+
+        ${lines === 2 && `
+          h-22
+
+          base:h-26
+          mega:h-35
+        `}
+
+        ${lines === 3 && `
+          h-33
+
+          base:h-39
+          mega:h-52.5
+        `}
+
         text-6xl/11
         font-stretch-ultra-condensed
 
         base:text-7xl/13
         mega:text-8xl/17.5
-        giga:text-8xl/17.5
         tera:font-stretch-extra-condensed
       `;
 
@@ -42,27 +69,31 @@ const styles = tw({
         hover:tracking-tighter
         hover:text-white/90
         hover:font-medium
+        focus:tracking-tighter
+        focus:text-white/90
+        focus:font-medium
       `);
     }
 
     return tw(`
       ${root}
 
-      text-5xl/10
+      text-5xl/9
       font-black font-stretch-extra-condensed
       tracking-tighter
 
-      pico:text-6xl/12
-      milli:text-7xl/14
+      pico:text-6xl/11
+      milli:text-7xl/13
       milli:font-stretch-semi-condensed
-      deci:text-8xl/18
-      base:text-7xl/14
+      deci:text-8xl/17.5
+      base:text-7xl/13
       base:font-stretch-normal
       base:tracking-tight
-      hecto:text-8xl/18
+      hecto:text-8xl/17.5
       tera:text-9xl/26
 
       hover:font-extralight
+      focus:font-extralight
       hover:text-white/90
       group-hover/list:text-white/25
 

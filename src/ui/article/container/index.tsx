@@ -5,16 +5,15 @@ import styles from './stylesheet';
 
 type Props = {
   children: React.ReactNode | React.ReactNode[];
-  isFull?: boolean;
   onScrollEnd?: () => void;
 };
 
-export default function Article({ children, isFull, onScrollEnd }: Props) {
+export default function Article({ children, onScrollEnd }: Props) {
   const { handleArticleScroll, ref } = useModel(onScrollEnd);
 
   return (
     <article
-      className={styles.container(isFull)}
+      className={styles.container}
       onScroll={handleArticleScroll}
       ref={ref}
     >
