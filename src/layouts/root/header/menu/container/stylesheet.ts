@@ -5,6 +5,7 @@ const styles = tw({
     if (isOnRoot) {
       return tw(`
         flex flex-col
+        w-full
       `);
     }
 
