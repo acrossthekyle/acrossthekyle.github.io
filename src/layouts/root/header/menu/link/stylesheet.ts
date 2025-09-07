@@ -11,7 +11,7 @@ const styles = tw({
       inline-block
       uppercase
       duration-200
-      overflow-hidden
+      outline-0
     `;
 
     if (isOnRoot) {
@@ -38,6 +38,8 @@ const styles = tw({
 
         hover:font-extralight
         hover:tracking-wide
+        focus:font-extralight
+        focus:tracking-wide
       `);
     }
 

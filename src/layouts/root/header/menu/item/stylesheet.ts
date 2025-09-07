@@ -6,6 +6,7 @@ const styles = {
       opacity-0
       animate-elastic-in-from-left
       duration-200
+      overflow-hidden
 
       base:animate-elastic-in-from-right
     `;
