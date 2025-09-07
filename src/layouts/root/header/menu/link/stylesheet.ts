@@ -38,8 +38,6 @@ const styles = tw({
 
         hover:font-extralight
         hover:tracking-wide
-        focus:font-extralight
-        focus:tracking-wide
       `);
     }
 

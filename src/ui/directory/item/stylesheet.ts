@@ -40,8 +40,8 @@ const styles = {
         pico:h-11.25
         milli:h-13.5
         deci:h-18
-        base:h-13.5
-        hecto:h-18
+        base:h-13.75
+        hecto:h-18.25
       `}
 
       ${lines === 2 && `
@@ -49,9 +49,9 @@ const styles = {
 
         pico:h-22.25
         milli:h-26
-        deci:h-35
-        base:h-26
-        hecto:h-35.5
+        deci:h-35.5
+        base:h-27.25
+        hecto:h-36.25
       `}
 
       ${lines === 3 && `
@@ -60,8 +60,8 @@ const styles = {
         pico:h-33.25
         milli:h-39.5
         deci:h-53
-        base:h-39.5
-        hecto:h-53
+        base:h-40.75
+        hecto:h-54.25
       `}
     `);
   },

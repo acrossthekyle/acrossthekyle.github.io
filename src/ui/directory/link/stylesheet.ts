@@ -69,9 +69,6 @@ const styles = tw({
         hover:tracking-tighter
         hover:text-white/90
         hover:font-medium
-        focus:tracking-tighter
-        focus:text-white/90
-        focus:font-medium
       `);
     }
 
@@ -86,14 +83,13 @@ const styles = tw({
       milli:text-7xl/13
       milli:font-stretch-semi-condensed
       deci:text-8xl/17.5
-      base:text-7xl/13
+      base:text-7xl/13.5
       base:font-stretch-normal
       base:tracking-tight
-      hecto:text-8xl/17.5
+      hecto:text-8xl/18
       tera:text-9xl/26
 
       hover:font-extralight
-      focus:font-extralight
       hover:text-white/90
       group-hover/list:text-white/25
 
