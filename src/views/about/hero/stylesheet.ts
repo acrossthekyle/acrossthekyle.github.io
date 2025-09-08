@@ -10,15 +10,15 @@ const styles = tw({
   `,
   hero: `
     relative z-2
-    text-4xl/8
+    text-4xl/7
     font-black font-stretch-condensed
     uppercase
     w-full
 
-    pico:text-5xl/10
-    milli:text-6xl/12
+    pico:text-5xl/9
+    milli:text-6xl/11.5
     centi:max-w-130
-    deci:text-7xl/14
+    deci:text-7xl/13.5
     base:max-w-160
     kilo:max-w-200
     kilo:text-8xl/18
