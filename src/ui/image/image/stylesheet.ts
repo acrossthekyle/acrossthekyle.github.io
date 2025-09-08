@@ -1,17 +1,16 @@
 import tw from '@/styles';
 
 const styles = {
-  image: (isInView: boolean, isMaximized: boolean) => tw(`
+  image: (isLandscapeOrientation: boolean, isInView: boolean, isMaximized: boolean) => tw(`
     object-cover
     w-full h-full
     transform-gpu duration-500
-    rounded-lg
-    aspect-square
     brightness-60
     grayscale-100
-    select-none
 
-    centi:aspect-auto
+    ${isLandscapeOrientation && `
+      portrait:aspect-16/9
+    `}
 
     ${isInView && `
       !brightness-80
@@ -27,7 +26,6 @@ const styles = {
     `}
 
     base:group-active/figure:!brightness-80
-    base:group-focus/maximize:!brightness-80
     base:group-hover/figure:!brightness-80
   `),
 };

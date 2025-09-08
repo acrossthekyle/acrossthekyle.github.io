@@ -5,7 +5,7 @@ const styles = tw({
     flex-2
     scroll-smooth
     overflow-y-scroll
-    py-3 px-3 pt-20
+    py-3 px-3 pt-14
     outline-0
     animate-article-in-fade
 

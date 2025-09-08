@@ -83,7 +83,7 @@ export function useZoom() {
   const zoomOut = () => {
     unset();
 
-    document.body.classList.remove('overflow-hidden');
+    document.documentElement.classList.remove('overflow-hidden');
   };
 
   const handleOnEscape = () => {
@@ -122,7 +122,7 @@ export function useZoom() {
       });
     }, 100);
 
-    document.body.classList.add('overflow-hidden');
+    document.documentElement.classList.add('overflow-hidden');
   };
 
   useEvent('onEscape', () => {

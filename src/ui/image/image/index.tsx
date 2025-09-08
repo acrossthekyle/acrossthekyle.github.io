@@ -15,17 +15,29 @@ type Props = {
   width: number;
 };
 
-export default function Image({ alt, className = '', height, sizes, width }: Props) {
-  const { isMaximized, onLoad, src } = useContext(ImageContext);
+export default function Image({
+  alt,
+  className = '',
+  height,
+  sizes,
+  width,
+}: Props) {
+  const {
+    isLandscapeOrientation,
+    isMaximized,
+    isInPortraitMode,
+    onLoad,
+    src,
+  } = useContext(ImageContext);
 
   const { ref, inView } = useInView({
-    threshold: 1,
+    threshold: isInPortraitMode ? 1 : .7,
   });
 
   return (
     <NextJsImage
       alt={alt}
-      className={`${styles.image(inView, isMaximized)} ${className}`.trim()}
+      className={`${styles.image(isLandscapeOrientation, inView, isMaximized)} ${className}`.trim()}
       height={height}
       onLoad={onLoad}
       ref={ref}

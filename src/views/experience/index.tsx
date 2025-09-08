@@ -6,6 +6,7 @@ import {
   ImageMaximize,
   ImageOptions,
   ImagePlaceholder,
+  ImageRotateWarning,
   ImageSkeleton,
 } from '@/ui/image';
 
@@ -45,18 +46,16 @@ export default function View({ slug }: Props) {
             <figure className={styles.figure}>
               <Image src={stage.image}>
                 <ImagePlaceholder>
-                  <ImageMaximize>
-                    <ImageOptions
-                      alt={
-                        !stage.termini.isSame
-                          ? `${stage.termini.start.join(' ')} To ${stage.termini.end.join(' ')}`
-                          : stage.location
-                      }
-                      height={1080}
-                      sizes="(max-width: 768px) 100vw, 50vw"
-                      width={1920}
-                    />
-                  </ImageMaximize>
+                  <ImageOptions
+                    alt={
+                      !stage.termini.isSame
+                        ? `${stage.termini.start.join(' ')} To ${stage.termini.end.join(' ')}`
+                        : stage.location
+                    }
+                    height={1080}
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    width={1920}
+                  />
                   <figcaption className={styles.caption}>
                     <span className={styles.index}>
                       {String(index + 1).padStart(2, '0')}.{' '}
@@ -66,6 +65,8 @@ export default function View({ slug }: Props) {
                       <span className="block" key={word}>{word}</span>
                     ))}
                   </figcaption>
+                  <ImageMaximize />
+                  <ImageRotateWarning />
                   <ImageSkeleton />
                 </ImagePlaceholder>
               </Image>

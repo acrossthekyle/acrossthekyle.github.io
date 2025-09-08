@@ -7,14 +7,10 @@ import { useModel } from './model';
 import styles from './stylesheet';
 
 export default function Header() {
-  const {
-    isOnParent,
-    isOnRoot,
-    routes,
-  } = useModel();
+  const { isOnRoot, routes } = useModel();
 
   return (
-    <header className={styles.header(isOnRoot, isOnParent)}>
+    <header className={styles.header(isOnRoot)}>
       <Logo />
       <Close />
       <Menu>

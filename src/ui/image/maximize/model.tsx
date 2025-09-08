@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { useContext, useRef } from 'react';
+import { useContext, useEffect, useRef } from 'react';
 
 import { useZoom } from '@/hooks/useZoom';
 import { Orientation } from '@/types';
@@ -12,15 +12,33 @@ import styles from './stylesheet';
 
 type Model = {
   handleOnMaximize: () => void;
+  handleOnWarn: () => void;
   zoomRef: React.RefObject<HTMLButtonElement | null>;
 };
 
 export function useModel(): Model {
-  const { onMaximized, onMinimized, src } = useContext(ImageContext);
+  const {
+    isLandscapeOrientation,
+    isLoading,
+    onMaximized,
+    onMinimized,
+    onOrientation,
+    onWarn,
+    src,
+  } = useContext(ImageContext);
 
   const zoomRef = useRef<HTMLButtonElement | null>(null);
 
   const { zoomOut, zoom } = useZoom();
+
+  useEffect(() => {
+    if (!isLoading) {
+      setTimeout(() => {
+        onOrientation(getOrientation(zoomRef) === Orientation.Landscape);
+      }, 100);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isLoading]);
 
   const handleOnMinimize = () => {
     zoomOut();
@@ -31,8 +49,6 @@ export function useModel(): Model {
   const handleOnMaximize = () => {
     onMaximized();
 
-    const isLandscape = getOrientation(zoomRef) === Orientation.Landscape;
-
     zoom({
       content: (
         <button
@@ -42,7 +58,7 @@ export function useModel(): Model {
         >
           <Image
             alt="Fullscreen image"
-            className={styles.image(isLandscape)}
+            className={styles.image(isLandscapeOrientation)}
             height={1080}
             sizes="(max-width: 768px) 100vw, 50vw"
             src={src}
@@ -54,8 +70,13 @@ export function useModel(): Model {
     });
   };
 
+  const handleOnWarn = () => {
+    onWarn();
+  };
+
   return {
     handleOnMaximize,
+    handleOnWarn,
     zoomRef,
   };
 }

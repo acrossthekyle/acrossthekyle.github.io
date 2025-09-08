@@ -1,28 +1,39 @@
 import tw from '@/styles';
 
-const styles = tw({
-  wrapper: `
-    group/maximize
-    w-full h-full
-    text-left
-    pointer-events-none
+const wrapper = `
+  group/maximize
+  absolute inset-0
+  w-full h-full
+  text-left
+  !cursor-open
+`;
 
-    base:!cursor-open
-    base:pointer-events-auto
+const styles = tw({
+  landscape: `
+    ${wrapper}
+    z-1
+
+    landscape:hidden
+    base:landscape:block
+  `,
+  portrait: `
+    ${wrapper}
+    z-2
+
+    landscape:hidden
   `,
   image: (isLandscape?: boolean) => tw(`
     ${isLandscape === true ? 'object-cover' : ''}
     ${isLandscape === true ? 'w-full' : 'w-auto'}
-    h-full
+    ${isLandscape === true ? 'h-full' : 'h-auto'}
     transform-gpu duration-500
-    rounded-lg
 
     brightness-80
     grayscale-0
   `),
   minimize: `
     relative z-3
-    flex justify-center
+    flex items-center justify-center
     w-full h-full
     !cursor-close
   `,

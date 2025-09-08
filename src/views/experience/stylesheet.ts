@@ -27,11 +27,6 @@ const styles = tw({
   figure: `
     group/figure
     relative
-    select-none
-    aspect-square
-
-    base:aspect-auto
-    base:select-auto
   `,
   caption: `
     absolute z-2 left-4 bottom-5.5 right-4
