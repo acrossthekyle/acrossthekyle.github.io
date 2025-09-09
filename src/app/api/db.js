@@ -1911,7 +1911,7 @@ const data = [
       ]
     },
     "description": [
-      "I set off for Northern Italy to hike one of seven trails in the Dolomites, collectively called the Alta Via routes. Running North to South, and finishing in Belluno, this classic high route passes through a panorama of jagged ridges, vertical walls, and majestic towers, accumulating in some of the most beautiful mountains in the world.",
+      "In Northern Italy there are a series of seven trails collectively known as the Alta Via routes. This is a thru-hike of one of those trails. Running North to South, and finishing in Belluno, the classic high route Alta Via 1 passes through a panorama of jagged ridges, vertical walls, and majestic towers, culminating in some of the most beautiful landscapes in the world.",
       "These pictures showcase some of the amazing natural formations visible from the trail, and offer a glimpse into the 10 days spent on this thru-hike."
     ],
     "location": "The Dolomites, Italy",

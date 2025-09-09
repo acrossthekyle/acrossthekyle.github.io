@@ -1,12 +1,11 @@
 'use client';
 
-import { ReactNode } from 'react';
 import { create } from 'zustand';
 
 import { useEvent } from './useEvent';
 
 type ZoomOptions = {
-  content: ReactNode | ReactNode[];
+  content: React.ReactNode | React.ReactNode[];
   ref: React.RefObject<HTMLButtonElement | null>;
 };
 
@@ -19,7 +18,7 @@ type Size = {
 
 type State = {
   canBlur: boolean;
-  content: ReactNode | ReactNode[] | null;
+  content: React.ReactNode | React.ReactNode[] | null;
   isZoomed: boolean;
   size?: Size;
   sizeBackup?: Size;
@@ -27,7 +26,7 @@ type State = {
 
 type Actions = {
   setFinalSize: (size: Size) => void;
-  setZoom: (content: ReactNode | ReactNode[], size: Size) => void;
+  setZoom: (content: React.ReactNode | React.ReactNode[], size: Size) => void;
   unset: () => void;
 };
 
@@ -38,7 +37,7 @@ const store = create<State & Actions>()(
     isZoomed: false,
     size: undefined,
     sizeBackup: undefined,
-    setZoom: (content: ReactNode | ReactNode[], size: Size) => {
+    setZoom: (content: React.ReactNode | React.ReactNode[], size: Size) => {
       set({
         canBlur: true,
         content,

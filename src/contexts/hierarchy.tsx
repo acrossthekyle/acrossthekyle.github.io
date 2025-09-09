@@ -1,10 +1,10 @@
 'use client';
 
 import { usePathname } from 'next/navigation';
-import { ReactNode, createContext } from 'react';
+import { createContext } from 'react';
 
 type Props = {
-  children: ReactNode | ReactNode[];
+  children: React.ReactNode | React.ReactNode[];
 };
 
 export const HierarchyContext = createContext({

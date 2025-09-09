@@ -1,25 +1,12 @@
 import tw from '@/styles';
 
 const styles = {
-  main: (isOnRoot: boolean) => {
-    const common = `
-      flex flex-col
+  main: (isOnRoot: boolean) => tw(`
+    ${!isOnRoot && 'flex-1'}
+    flex flex-col
 
-      base:flex-row
-    `;
-
-    if (isOnRoot) {
-      return tw(`
-        ${common}
-      `);
-    }
-
-    return tw(`
-      ${common}
-
-      flex-1
-    `);
-  },
+    base:flex-row
+  `)
 };
 
 export default styles;

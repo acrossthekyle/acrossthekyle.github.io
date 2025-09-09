@@ -1,13 +1,11 @@
 'use client';
 
-import { ReactNode } from 'react';
-
 import { useHierarchy } from '@/hooks/useHierarchy';
 
 import styles from './stylesheet';
 
 type Props = {
-  children: ReactNode | ReactNode[];
+  children: React.ReactNode | React.ReactNode[];
 };
 
 export default function Main({ children }: Props) {

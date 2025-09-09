@@ -1,6 +1,9 @@
 import tw from '@/styles';
 
 const styles = tw({
+  container: `
+    mb-1
+  `,
   pulse: `
     flex flex-col gap-1
     animate-pulse

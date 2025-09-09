@@ -1,7 +1,5 @@
 'use client';
 
-import { ReactNode } from 'react';
-
 import {
   Directory,
   DirectoryItem,
@@ -14,7 +12,7 @@ import {
 import { useModel } from './model';
 
 type Props = {
-  children: ReactNode | ReactNode[];
+  children: React.ReactNode | React.ReactNode[];
 };
 
 export default function Layout({ children }: Props) {
@@ -25,9 +23,7 @@ export default function Layout({ children }: Props) {
       <Directory align="start">
         <DirectoryItems>
           {isLoading && Array.from({ length: 13 }).map((_, index) => (
-            <DirectoryItem key={index} index={index}>
-              <DirectoryLoading lines={2} />
-            </DirectoryItem>
+            <DirectoryLoading key={index} lines={2} />
           ))}
           {!isLoading && data.map((item, index: number) => (
             <DirectoryItem index={index} key={index} lines={item.title.length}>

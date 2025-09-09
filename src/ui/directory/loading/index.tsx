@@ -6,11 +6,13 @@ type Props = {
 
 export default function DirectoryLoading({ lines }: Props) {
   return (
-    <span className={styles.pulse}>
-      <span className={`${styles.text} ${styles.short}`} />
-      {lines === 2 && (
-        <span className={`${styles.text} ${styles.long}`} />
-      )}
-    </span>
+    <li className={styles.container}>
+      <span className={styles.pulse}>
+        <span className={`${styles.text} ${styles.short}`} />
+        {lines === 2 && (
+          <span className={`${styles.text} ${styles.long}`} />
+        )}
+      </span>
+    </li>
   );
 }
