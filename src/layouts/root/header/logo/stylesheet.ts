@@ -3,7 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   container: (isOnRoot: boolean) => {
     const common = `
-      absolute top-3
+      absolute top-3 z-3
       w-7 h-7
       duration-300
 

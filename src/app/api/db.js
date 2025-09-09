@@ -2416,11 +2416,11 @@ const data = [
         "location": "Transmitter Park",
         "termini": {
           "end": [
-            "A Key Message"
+            "Key Message"
           ],
           "isSame": true,
           "start": [
-            "A Key Message"
+            "Key Message"
           ]
         }
       },
