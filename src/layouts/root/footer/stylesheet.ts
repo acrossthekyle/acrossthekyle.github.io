@@ -5,12 +5,12 @@ const styles = tw({
     fixed top-3 right-3 z-4
     flex flex-col
 
-    deka:top-auto
-    deka:bottom-12
-    deka:right-12
+    base:top-auto
+    base:bottom-12
+    base:right-12
   `,
   toggle: (isOnRoot: boolean) => tw(`
-    ${!isOnRoot && 'invisible'}
+    ${!isOnRoot && 'hidden'}
   `),
   copy: `
     invisible

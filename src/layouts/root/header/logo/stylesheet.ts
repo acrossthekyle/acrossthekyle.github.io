@@ -1,17 +1,11 @@
 import tw from '@/styles';
 
-const styles = {
-  logo: (isOnRoot: boolean) => {
+const styles = tw({
+  container: (isOnRoot: boolean) => {
     const common = `
       absolute top-3
-      flex items-center justify-center
-      text-sm text-black
-      font-black
-      bg-white/90 rounded-full
       w-7 h-7
       duration-300
-
-      hover:bg-white/70
 
       deka:left-12
       deka:top-12
@@ -35,6 +29,9 @@ const styles = {
       base:left-3
     `);
   },
-};
+  icon: `
+    w-8 h-8
+  `,
+});
 
 export default styles;
