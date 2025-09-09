@@ -3032,7 +3032,7 @@ const data = [
       ]
     },
     "description": [
-      "Once again I headed to South America for another international adventure, this time including Lollapalooza, discovering a passion for the wilderness by hiking into the Andes mountains in search of glaciers, and heading down to Patagonia where I first learned about backpacking while walking underneath the granite spires called Torres del Paine."
+      "I returned to South America for another international adventure, this time including Lollapalooza, discovering a passion for the wilderness by hiking into the Andes mountains in search of glaciers, and heading down to Patagonia where I first learned about backpacking while walking underneath the granite spires called Torres del Paine."
     ],
     "location": "Chile",
     "slug": "santiago-patagonia-valparaiso",
@@ -3162,7 +3162,7 @@ const data = [
       ]
     },
     "description": [
-      "I put my brand new passport to good use and embarked on my first vacation abroad to South America, experiencing the sights and sounds of Buenos Aires and Montevideo, and my first music festival at Lollapalooza."
+      "I embarked on my first vacation abroad to South America, experiencing the sights and sounds of Buenos Aires and Montevideo, and my first music festival at Lollapalooza."
     ],
     "location": "Argentina and Uruguay",
     "slug": "buenos-aires-montevideo",

@@ -37,13 +37,12 @@ const styles = tw({
   blurb: `
     relative z-2
     mt-8
-    text-base
+    text-lg
     font-medium
 
     deci:mr-12
     deci:mt-56
     deci:w-1/2
-    base:text-lg
     kilo:mt-64
     tera:w-160
     tera:text-xl
