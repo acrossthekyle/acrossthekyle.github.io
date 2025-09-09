@@ -19,8 +19,8 @@ export default function Rotate() {
   return (
     <div className={styles.container} role="alert">
       <p className={styles.message}>
-        {isLandscapeOrientation && 'Rotate your device for a widescreen 16:9 zoomed-in viewing experience'}
-        {!isLandscapeOrientation && 'Device already in optimal rotation for best zoomed-in viewing experience'}
+        {isLandscapeOrientation && 'Rotate device for a better viewing experience'}
+        {!isLandscapeOrientation && 'Device already in best viewing experience'}
       </p>
       <button
         className={styles.dismiss}
