@@ -1,6 +1,7 @@
 'use client';
 
-import { useContext } from 'react';
+import { Smartphone, X } from 'lucide-react';
+import { useContext, useEffect, useState } from 'react';
 
 import { ImageContext } from '../context';
 import styles from './stylesheet';
@@ -12,23 +13,42 @@ export default function Rotate() {
     shouldWarn,
   } = useContext(ImageContext);
 
+  const [shouldRotate, setShouldRotate] = useState(false);
+
+  useEffect(() => {
+    if (shouldWarn) {
+      setTimeout(() => {
+        setShouldRotate(true);
+      }, 500);
+    } else {
+      setShouldRotate(false);
+    }
+  }, [shouldWarn]);
+
   if (!shouldWarn) {
     return null;
   }
 
   return (
-    <div className={styles.container} role="alert">
+    <button
+      className={styles.container}
+      onClick={onDismissWarn}
+      role="alert"
+      type="button"
+    >
       <p className={styles.message}>
-        {isLandscapeOrientation && 'Rotate device for a better viewing experience'}
-        {!isLandscapeOrientation && 'Device already in best viewing experience'}
+        {isLandscapeOrientation && 'Rotate device for maximum image size'}
+        {!isLandscapeOrientation && 'Image already at maximum size'}
       </p>
-      <button
-        className={styles.dismiss}
-        onClick={onDismissWarn}
-        type="button"
-      >
-        Dismiss
-      </button>
-    </div>
+      {isLandscapeOrientation && (
+        <div className={styles.rotate(shouldRotate)}>
+          <Smartphone size={36} strokeWidth={1} />
+        </div>
+      )}
+      {!isLandscapeOrientation && (
+        <Smartphone size={36} strokeWidth={1} />
+      )}
+      <X className={styles.x} size={24} strokeWidth={1} />
+    </button>
   );
 }

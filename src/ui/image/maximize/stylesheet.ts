@@ -23,13 +23,19 @@ const styles = tw({
     landscape:hidden
   `,
   image: (isLandscape?: boolean) => tw(`
-    ${isLandscape === true ? 'object-cover' : ''}
-    ${isLandscape === true ? 'w-full' : 'w-auto'}
-    ${isLandscape === true ? 'h-full' : 'h-auto'}
     transform-gpu duration-500
+    rounded-sm
 
     brightness-80
     grayscale-0
+
+    ${isLandscape === true ? `
+      object-cover
+      w-full
+      h-full
+    ` : `
+      w-auto h-full
+    `}
   `),
   minimize: `
     relative z-3

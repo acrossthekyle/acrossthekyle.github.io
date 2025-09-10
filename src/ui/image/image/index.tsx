@@ -24,7 +24,6 @@ export default function Image({
 }: Props) {
   const {
     isLandscapeOrientation,
-    isMaximized,
     isInPortraitMode,
     onLoad,
     src,
@@ -37,7 +36,7 @@ export default function Image({
   return (
     <NextJsImage
       alt={alt}
-      className={`${styles.image(isLandscapeOrientation, inView, isMaximized)} ${className}`.trim()}
+      className={`${styles.image(isLandscapeOrientation, inView)} ${className}`.trim()}
       height={height}
       onLoad={onLoad}
       ref={ref}

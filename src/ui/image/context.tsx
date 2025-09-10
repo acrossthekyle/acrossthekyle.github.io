@@ -50,6 +50,8 @@ export default function Context({ children, src }: Props) {
 
       const handleOrientationChange = (event: MediaQueryListEvent) => {
         setIsInPortraitMode(event.matches);
+
+        setShouldWarn(false);
       };
 
       orientation.addEventListener('change', handleOrientationChange);

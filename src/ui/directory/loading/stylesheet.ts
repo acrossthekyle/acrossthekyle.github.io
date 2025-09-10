@@ -9,8 +9,10 @@ const styles = tw({
     animate-pulse
   `,
   text: `
-    h-24
+    h-12
     bg-neutral-900
+
+    base:h-24
   `,
   short: `
     w-6/10

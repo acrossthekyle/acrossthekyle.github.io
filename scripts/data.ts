@@ -103,22 +103,26 @@ function calculateConsumableWeight(items) {
 }
 
 function calculateWeightPerCategory(categories) {
-  let result = [];
+  let results = [];
 
   for (let category in categories) {
-    result.push({
-      category,
-      items: categories[category],
-      weight: calculateWeight(categories[category]),
+    results.push({
+      title: category,
+      items: categories[category].map(({ link, name, weight }) => ({
+        link,
+        name,
+        weight,
+      })),
+      // weight: calculateWeight(categories[category]),
     });
   }
 
-  return result;
+  return results;
 }
 
 function groupByCategory(items) {
-  return [...items].reduce((accumulator, current) => {
-    let key = current['category']
+  const grouped = [...items].reduce((accumulator, current) => {
+    let key = current.category
       .toLowerCase()
       .split(' ')
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
@@ -128,10 +132,25 @@ function groupByCategory(items) {
       accumulator[key] = [];
     }
 
-    accumulator[key].push(current);
+    accumulator[key].push({
+      link: current.link,
+      name: current.name,
+      weight: current.weight,
+    });
 
     return accumulator;
   }, {});
+
+  const results = [];
+
+  for (let category in grouped) {
+    results.push({
+      title: category,
+      items: grouped[category],
+    });
+  }
+
+  return results;
 }
 
 async function getGear(folder) {
@@ -158,18 +177,18 @@ async function getGear(folder) {
         category: item.category,
         link: item.link,
         name: turnStringIntoArrayForLists(`${item.name} ${item.type}`.trim()),
-        consumable: item.consumable === 'yes',
+        // consumable: item.consumable === 'yes',
         weight: Number(item.weight),
-        worn: item.worn === 'yes',
+        // worn: item.worn === 'yes',
       });
     }
 
     return {
-      categories: calculateWeightPerCategory(groupByCategory(items)),
-      weightBase: calculateBaseWeight(items),
-      weightConsumable: calculateConsumableWeight(items),
-      weightTotal: calculateWeight(items),
-      weightWorn: calculateWornWeight(items),
+      categories: groupByCategory(items),
+      // weightBase: calculateBaseWeight(items),
+      // weightConsumable: calculateConsumableWeight(items),
+      // weightTotal: calculateWeight(items),
+      // weightWorn: calculateWornWeight(items),
     };
   } catch (e) {
     return null;
@@ -668,16 +687,25 @@ async function go() {
         'utf8',
       ));
 
+      const gear = await getGear(folder);
       const stages = await getStages(folder);
       const stats = await getTripStats(trip, stages);
       const date = await getTripDate(trip, stages);
 
       const slug = kebabCase(trip.title.trim());
 
+      const hasRoutes = stages.filter(stage => stage.route).length > 0;
+
       data.push({
         date,
         description: formatDescription(trip.description, stats),
+        // gear,
+        // hasGear: gear !== null,
+        // hasRoutes,
         location: trip.location,
+        // routes: [...stages].map(({ route }) => ({
+        //   route,
+        // })),
         slug,
         stages: stages.map(({ image, location, termini }) => ({
           image,

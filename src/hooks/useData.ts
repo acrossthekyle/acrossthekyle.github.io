@@ -71,6 +71,7 @@ const store = create<State & Actions>()(
 
       if (!found) {
         set({ isMissing: true });
+
         return;
       }
 

@@ -5,7 +5,7 @@ import data from '../../db';
 export async function GET(request, { params }) {
   const { slug } = await params;
 
-  return NextResponse.json(
-    data.find((item) => item.slug.toLowerCase() === slug.toLowerCase()),
-  );
+  const found = data.find((item) => item.slug.toLowerCase() === slug.toLowerCase());
+
+  return NextResponse.json(found);
 }
