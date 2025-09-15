@@ -7,5 +7,12 @@ export async function GET(request, { params }) {
 
   const found = data.find((item) => item.slug.toLowerCase() === slug.toLowerCase());
 
-  return NextResponse.json(found);
+  return NextResponse.json({
+    ...found,
+    stages: found.stages.map(({ image, location, termini }) => ({
+      image,
+      location,
+      termini,
+    })),
+  });
 }

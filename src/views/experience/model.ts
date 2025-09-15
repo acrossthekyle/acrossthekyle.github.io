@@ -22,6 +22,9 @@ export function useModel(slug: string): Model {
   useEffect(() => {
     find(slug);
 
+    // if #XX exists in url, set shown value to minimum
+    // value required to show #XX ID on screen
+
     window.scrollTo(0, 0);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);

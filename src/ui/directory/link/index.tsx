@@ -20,19 +20,19 @@ export default function DirectoryLink({
   lines = 1,
   ref,
 }: Props) {
-  const { isOnChild, path, previous } = useHierarchy();
+  const { isOnChild, isOnGrandChild, path, previous } = useHierarchy();
 
   const [inViewRef, inView] = useInView({
     threshold: .75,
   });
 
-  const isActive = path === href;
+  const isActive = isOnGrandChild ? path.includes(href) : path === href;
   const isExternal = href.includes('https://') || href.includes('mailto:');
 
   return (
     <Link
       className={styles.link(isOnChild, isActive, inView, lines)}
-      href={isOnChild && isActive ? previous : href}
+      href={isActive ? (isOnGrandChild ? href : previous) : href}
       ref={isActive ? ref : inViewRef}
       rel={isExternal ? 'noreferrer' : undefined}
       target={isExternal ? '_blank' : undefined}

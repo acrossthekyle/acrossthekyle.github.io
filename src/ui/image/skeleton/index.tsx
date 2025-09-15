@@ -3,13 +3,18 @@
 import { useContext } from 'react';
 
 import { ImageContext } from '../context';
+import { useModel } from './model';
 import styles from './stylesheet';
 
 export default function Skeleton() {
   const { isLoading } = useContext(ImageContext);
 
+  const { ref } = useModel();
+
   if (!isLoading) {
-    return null;
+    return (
+      <div className={styles.orientation} ref={ref} />
+    );
   }
 
   return (

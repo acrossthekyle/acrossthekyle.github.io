@@ -3,8 +3,8 @@ import tw from '@/styles';
 const styles = {
   backdrop: (canBlur: boolean) => tw(`
     fixed inset-0
-    backdrop-blur-xs
-    bg-black/75
+    backdrop-blur-md
+    bg-black/20
     cursor-default
 
     ${canBlur ? (`
@@ -27,9 +27,8 @@ const styles = {
 
     ${isZoomed ? `
       z-100
-      opacity-100
       fixed
-    ` : `z-0 opacity-0`}
+    ` : `z-0`}
   `),
 };
 

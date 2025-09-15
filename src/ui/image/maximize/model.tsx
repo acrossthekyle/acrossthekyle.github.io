@@ -1,11 +1,9 @@
 'use client';
 
 import Image from 'next/image';
-import { useContext, useEffect, useRef } from 'react';
+import { useContext, useRef } from 'react';
 
 import { useZoom } from '@/hooks/useZoom';
-import { Orientation } from '@/types';
-import { getOrientation } from '@/utils';
 
 import { ImageContext } from '../context';
 import styles from './stylesheet';
@@ -19,10 +17,8 @@ type Model = {
 export function useModel(): Model {
   const {
     isLandscapeOrientation,
-    isLoading,
     onMaximized,
     onMinimized,
-    onOrientation,
     onWarn,
     src,
   } = useContext(ImageContext);
@@ -30,15 +26,6 @@ export function useModel(): Model {
   const zoomRef = useRef<HTMLButtonElement | null>(null);
 
   const { zoomOut, zoom } = useZoom();
-
-  useEffect(() => {
-    if (!isLoading) {
-      setTimeout(() => {
-        onOrientation(getOrientation(zoomRef) === Orientation.Landscape);
-      }, 100);
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [isLoading]);
 
   const handleOnMinimize = () => {
     zoomOut();

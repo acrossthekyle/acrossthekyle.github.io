@@ -20,7 +20,7 @@ export function getHierarchy(path: string) {
 }
 
 export function getOrientation(
-  ref?: React.RefObject<HTMLButtonElement | null>,
+  ref?: React.RefObject<HTMLButtonElement | HTMLDivElement | null>,
 ): Orientation | undefined {
   if (ref === undefined || ref === null) {
     return undefined;

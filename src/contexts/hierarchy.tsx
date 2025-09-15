@@ -10,6 +10,7 @@ type Props = {
 export const HierarchyContext = createContext({
   base: '',
   isOnChild: false,
+  isOnGrandChild: false,
   isOnParent: false,
   isOnRoot: false,
   path: '',
@@ -23,7 +24,8 @@ export default function Hierarchy({ children }: Props) {
 
   const isOnRoot = current === '/';
   const isOnParent = current !== '/' && segments.length === 1;
-  const isOnChild = segments.length === 2;
+  const isOnChild = segments.length >= 2;
+  const isOnGrandChild = segments.length > 2;
 
   const previous = `/${current.split('/')[1]}`;
 
@@ -32,6 +34,7 @@ export default function Hierarchy({ children }: Props) {
       value={{
         base: isOnChild ? previous : current,
         isOnChild,
+        isOnGrandChild,
         isOnParent,
         isOnRoot,
         path: current,

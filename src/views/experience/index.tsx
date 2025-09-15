@@ -21,7 +21,7 @@ export default function View({ slug }: Props) {
     <Article onScrollEnd={handleOnScrollEnd}>
       <Header title={data.title} />
       <Breakdown data={data} />
-      <Pictures stages={[...data.stages].splice(0, shown)} />
+      <Pictures slug={slug} stages={[...data.stages].splice(0, shown)} />
     </Article>
   );
 }

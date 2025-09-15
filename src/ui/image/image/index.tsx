@@ -10,6 +10,7 @@ import styles from './stylesheet';
 type Props = {
   alt: string;
   className?: string;
+  colorize?: boolean;
   height: number;
   sizes: string;
   width: number;
@@ -18,6 +19,7 @@ type Props = {
 export default function Image({
   alt,
   className = '',
+  colorize = false,
   height,
   sizes,
   width,
@@ -36,7 +38,7 @@ export default function Image({
   return (
     <NextJsImage
       alt={alt}
-      className={`${styles.image(isLandscapeOrientation, inView)} ${className}`.trim()}
+      className={`${styles.image(isLandscapeOrientation, inView, colorize)} ${className}`.trim()}
       height={height}
       onLoad={onLoad}
       ref={ref}

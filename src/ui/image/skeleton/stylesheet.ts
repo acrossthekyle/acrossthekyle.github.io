@@ -14,6 +14,10 @@ const styles = tw({
   sr: `
     invisible
   `,
+  orientation: `
+    absolute inset-0 z-0
+    w-full h-full
+  `,
 });
 
 export default styles;

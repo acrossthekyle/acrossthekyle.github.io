@@ -8,6 +8,7 @@ import type { Model } from './types';
 export function useModel(): Model {
   const {
     isOnChild,
+    isOnGrandChild,
     isOnParent,
     isOnRoot,
     path,
@@ -15,13 +16,18 @@ export function useModel(): Model {
 
   let uri = '/';
 
-  if (isOnChild) {
+  if (isOnGrandChild) {
+    const parts = path.split('/');
+
+    uri = parts.slice(0, -1).join('/');
+    uri = `${uri}#${parts[parts.length - 1]}`;
+  } else if (isOnChild) {
     const route = routes.find(route => path.includes(route.base));
 
     if (route) {
       uri = route.base;
     }
-  };
+  }
 
   return {
     isOnParent,

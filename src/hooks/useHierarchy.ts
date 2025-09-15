@@ -7,6 +7,7 @@ import { HierarchyContext } from '@/contexts/hierarchy';
 type Model = {
   base: string;
   isOnChild: boolean;
+  isOnGrandChild: boolean;
   isOnParent: boolean;
   isOnRoot: boolean;
   path: string;

@@ -400,10 +400,8 @@ async function getStages(folder) {
       const end = getTermini(data.title, 1);
       const start = getTermini(data.title, 0);
 
-      const date = parseDate(data.date, 'MMMM do, yyyy', new Date());
-
       stages.push({
-        date: `${formatDate(date, 'MM')}.${formatDate(date, 'dd')}.${formatDate(date, 'yyyy')}`,
+        date: data.date,
         elevation,
         hasStats: !Object.values(stats).every(value => value === null),
         image: data.image,
@@ -423,8 +421,8 @@ async function getStages(folder) {
 
   const sorted = stages.sort(
     (a, b) =>
-      parseDate(`${a.date}`, 'MM.dd.yyyy', new Date()).getTime() -
-      parseDate(`${b.date}`, 'MM.dd.yyyy', new Date()).getTime(),
+      parseDate(`${a.date}`, 'MMMM do, yyyy', new Date()).getTime() -
+      parseDate(`${b.date}`, 'MMMM do, yyyy', new Date()).getTime(),
   );
 
   const result = sorted.map((item, index) => {
@@ -604,7 +602,7 @@ async function getTripDate(trip, stages) {
   }
 
   if (date === null) {
-    years.push(stages[stages.length - 1].date.split('.')[2].trim());
+    years.push(stages[stages.length - 1].date.split(',')[1].trim());
   }
 
   return {
@@ -707,9 +705,11 @@ async function go() {
         //   route,
         // })),
         slug,
-        stages: stages.map(({ image, location, termini }) => ({
+        stages: stages.map(({ date, image, location, stats, termini }) => ({
+          date,
           image,
           location,
+          stats,
           termini,
         })),
         stats: {

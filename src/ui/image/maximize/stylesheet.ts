@@ -5,7 +5,7 @@ const wrapper = `
   absolute inset-0
   w-full h-full
   text-left
-  !cursor-open
+  !cursor-zoom-in
 `;
 
 const styles = tw({
@@ -23,11 +23,10 @@ const styles = tw({
     landscape:hidden
   `,
   image: (isLandscape?: boolean) => tw(`
-    transform-gpu duration-500
+    duration-500
     rounded-sm
 
-    brightness-80
-    grayscale-0
+    brightness-90
 
     ${isLandscape === true ? `
       object-cover
@@ -41,7 +40,7 @@ const styles = tw({
     relative z-3
     flex items-center justify-center
     w-full h-full
-    !cursor-close
+    !cursor-zoom-out
   `,
 });
 

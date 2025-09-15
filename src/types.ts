@@ -34,8 +34,15 @@ export type Termini = {
 };
 
 export type Stage = {
+  date: string;
   image: string;
   location: string;
+  stats: {
+    distance: StatFull | null;
+    gain: StatFull | null;
+    loss: StatFull | null;
+    max: StatFull | null;
+  };
   termini: Termini;
 };
 

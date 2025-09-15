@@ -3,8 +3,7 @@ import tw from '@/styles';
 const styles = {
   item: (isOnChild: boolean, lines: number) => {
     const common = `
-      opacity-0
-      animate-elastic-in-from-right
+      ${!isOnChild && 'opacity-0 animate-elastic-in-from-right'}
       overflow-hidden
     `;
 
