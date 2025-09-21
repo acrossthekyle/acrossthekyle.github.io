@@ -1,6 +1,10 @@
 import tw from '@/styles';
 
 const styles = tw({
+  html: `
+    h-full
+    overflow-x-hidden
+  `,
   body: `
     antialiased
     flex flex-col

@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   sections: `
-    grid grid-cols-2 gap-x-6 gap-y-2
+    grid grid-cols-2 gap-x-2 gap-y-0
     mb-4
 
     base:gap-x-12
@@ -12,7 +12,7 @@ const styles = tw({
     mb-6
   `,
   heading: `
-    mb-1
+    mb-0
     text-sm
     font-black
     uppercase
@@ -24,8 +24,9 @@ const styles = tw({
     lowercase
   `,
   content: `
-    mb-4
+    mb-2
     text-base
+    font-medium
   `,
 });
 

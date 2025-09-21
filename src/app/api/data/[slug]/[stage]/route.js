@@ -19,10 +19,8 @@ export async function GET(request, { params }) {
 
   return NextResponse.json({
     index: stage,
-    location: found.location,
     slug: found.slug,
     stage: result,
     title: found.title,
-    type: found.type,
   });
 }

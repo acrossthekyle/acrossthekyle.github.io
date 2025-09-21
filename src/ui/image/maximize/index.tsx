@@ -3,8 +3,12 @@
 import { useModel } from './model';
 import styles from './stylesheet';
 
-export default function Maximize() {
-  const { handleOnMaximize, handleOnWarn, zoomRef } = useModel();
+type Props = {
+  caption?: string
+};
+
+export default function Maximize({ caption }: Props) {
+  const { handleOnMaximize, handleOnWarn, zoomRef } = useModel(caption);
 
   return (
     <>

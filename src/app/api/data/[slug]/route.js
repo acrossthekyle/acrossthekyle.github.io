@@ -9,7 +9,9 @@ export async function GET(request, { params }) {
 
   return NextResponse.json({
     ...found,
-    stages: found.stages.map(({ image, location, termini }) => ({
+    stages: found.stages.map(({ date, description, image, location, termini }) => ({
+      date,
+      description: description !== undefined ? [description[0]] : undefined,
       image,
       location,
       termini,

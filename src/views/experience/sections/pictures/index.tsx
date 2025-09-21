@@ -1,13 +1,15 @@
-import Link from 'next/link';
-
 import type { Stage } from '@/types';
 import {
   Image,
   ImageCaption,
   ImageCaptionEyebrow,
+  ImageCaptionSubtitle,
   ImageFigure,
+  ImageLink,
+  ImageMaximize,
   ImageOptions,
   ImagePlaceholder,
+  ImageRotateWarning,
   ImageSkeleton,
 } from '@/ui/image';
 
@@ -21,45 +23,56 @@ type Props = {
 export default function Pictures({ slug, stages }: Props) {
   return (
     <ul className={styles.list}>
-      {stages.map((stage, index) => {
-        const anchor = String(index + 1).padStart(2, '0');
-
-        return (
-          <li className={styles.item} key={index}>
-            <div aria-hidden="true" id={anchor} />
-            <ImageFigure>
-              <Image src={stage.image}>
-                <ImagePlaceholder>
-                  <ImageOptions
-                    alt={
-                      !stage.termini.isSame
-                        ? `${stage.termini.start.join(' ')} To ${stage.termini.end.join(' ')}`
-                        : stage.location
-                    }
-                    height={1080}
-                    sizes="(max-width: 768px) 100vw, 50vw"
-                    width={1920}
-                  />
-                  <Link
-                    className="absolute inset-0 z-5"
-                    href={`${slug}/${anchor}`}
-                  />
+      {stages.map((stage, index) => (
+        <li className={styles.item} key={index}>
+          <ImageFigure>
+            <Image src={stage.image}>
+              <ImagePlaceholder>
+                <ImageOptions
+                  alt={
+                    !stage.termini.isSame
+                      ? `${stage.termini.start.join(' ')} To ${stage.termini.end.join(' ')}`
+                      : stage.location
+                  }
+                  height={1080}
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  width={1920}
+                />
+                {stage.description ? (
                   <ImageCaption>
                     <ImageCaptionEyebrow>
-                      {anchor}.{' '}
-                      {!stage.termini.isSame ? `${stage.termini.start.join(' ')} To` : stage.location}
+                      {String(index + 1).padStart(2, '0')}.
                     </ImageCaptionEyebrow>
                     {stage.termini.end.map((word) => (
                       <span className="block" key={word}>{word}</span>
                     ))}
+                    <ImageCaptionSubtitle>
+                      {stage.date} • 4 min read
+                    </ImageCaptionSubtitle>
                   </ImageCaption>
-                  <ImageSkeleton />
-                </ImagePlaceholder>
-              </Image>
-            </ImageFigure>
-          </li>
-        );
-      })}
+                ) : (
+                  <ImageCaption>
+                    <ImageCaptionSubtitle>
+                      {stage.termini.end.join(' ')} - {stage.date}
+                    </ImageCaptionSubtitle>
+                  </ImageCaption>
+                )}
+                {stage.description ? (
+                  <ImageLink
+                    href={`/blog/${slug}/${String(index + 1).padStart(2, '0')}`}
+                  />
+                ) : (
+                  <ImageMaximize
+                    caption={`${stage.termini.end.join(' ')} - ${stage.date}`}
+                  />
+                )}
+                <ImageRotateWarning />
+                <ImageSkeleton />
+              </ImagePlaceholder>
+            </Image>
+          </ImageFigure>
+        </li>
+      ))}
     </ul>
   );
 }

@@ -20,7 +20,6 @@ export function useModel(): Model {
     const parts = path.split('/');
 
     uri = parts.slice(0, -1).join('/');
-    uri = `${uri}#${parts[parts.length - 1]}`;
   } else if (isOnChild) {
     const route = routes.find(route => path.includes(route.base));
 

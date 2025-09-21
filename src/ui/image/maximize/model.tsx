@@ -6,6 +6,7 @@ import { useContext, useRef } from 'react';
 import { useZoom } from '@/hooks/useZoom';
 
 import { ImageContext } from '../context';
+import { ImageCaption, ImageCaptionSubtitle } from '../index';
 import styles from './stylesheet';
 
 type Model = {
@@ -14,7 +15,7 @@ type Model = {
   zoomRef: React.RefObject<HTMLButtonElement | null>;
 };
 
-export function useModel(): Model {
+export function useModel(caption?: string): Model {
   const {
     isLandscapeOrientation,
     onMaximized,
@@ -44,13 +45,20 @@ export function useModel(): Model {
           type="button"
         >
           <Image
-            alt="Fullscreen image"
+            alt={caption || 'fullscreen image'}
             className={styles.image(isLandscapeOrientation)}
             height={1080}
             sizes="(max-width: 768px) 100vw, 50vw"
             src={src}
             width={1920}
           />
+          {caption && (
+            <ImageCaption>
+              <ImageCaptionSubtitle>
+                {caption}
+              </ImageCaptionSubtitle>
+            </ImageCaption>
+          )}
         </button>
       ),
       ref: zoomRef,

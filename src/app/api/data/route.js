@@ -6,11 +6,8 @@ import data from '../db';
 export async function GET() {
   const shuffled = shuffle(data);
 
-  return NextResponse.json(shuffled.map(({ date, location, slug, title, type }) => ({
-    date,
-    location,
+  return NextResponse.json(shuffled.map(({ slug, title }) => ({
     slug,
     title,
-    type,
   })));
 }

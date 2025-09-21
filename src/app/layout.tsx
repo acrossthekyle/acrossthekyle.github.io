@@ -6,9 +6,11 @@ import { introduction } from '@/constants';
 import Hierarchy from '@/contexts/hierarchy';
 import Layout from '@/layouts/root';
 import { KeyboardListener } from '@/listeners';
+import Cursor from '@/ui/cursor';
 
 import Body from './body';
 import Loader from './loader';
+import styles from './stylesheet';
 
 export const metadata: Metadata = {
   title: {
@@ -55,13 +57,14 @@ type Props = {
 
 export default function RootLayout({ children }: Props) {
   return (
-    <html className="h-full overflow-x-hidden" lang="en">
+    <html className={styles.html} lang="en">
       <Hierarchy>
+        <KeyboardListener />
         <Body>
-          <KeyboardListener />
           <Layout>
             {children}
           </Layout>
+          <Cursor />
           <Loader />
         </Body>
       </Hierarchy>

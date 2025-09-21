@@ -10,7 +10,7 @@ const styles = {
     ${canBlur ? (`
       opacity-100
       translate-x-0
-      z-2
+      z-3
 
       [transition:opacity_.5s_var(--ease-in-out),translate_0s]
     `) : (`
@@ -27,8 +27,9 @@ const styles = {
 
     ${isZoomed ? `
       z-100
+      opacity-100
       fixed
-    ` : `z-0`}
+    ` : `z-0 opacity-0`}
   `),
 };
 

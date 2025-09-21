@@ -1,4 +1,5 @@
 export { default as Image } from './container';
+export { default as ImageLink } from './link';
 export { default as ImageCaption } from './caption';
 export { default as ImageCaptionEyebrow } from './eyebrow';
 export { default as ImageFigure } from './figure';
@@ -7,3 +8,4 @@ export { default as ImageOptions } from './image';
 export { default as ImagePlaceholder } from './placeholder';
 export { default as ImageRotateWarning } from './rotate';
 export { default as ImageSkeleton } from './skeleton';
+export { default as ImageCaptionSubtitle } from './subtitle';

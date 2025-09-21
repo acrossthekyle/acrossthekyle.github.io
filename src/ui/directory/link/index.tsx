@@ -23,7 +23,7 @@ export default function DirectoryLink({
   const { isOnChild, isOnGrandChild, path, previous } = useHierarchy();
 
   const [inViewRef, inView] = useInView({
-    threshold: .75,
+    threshold: .65,
   });
 
   const isActive = isOnGrandChild ? path.includes(href) : path === href;

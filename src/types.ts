@@ -3,30 +3,6 @@ export type Date = {
   years: string[];
 };
 
-export type StatFull = {
-  label: string;
-  value: {
-    imperial: string;
-    metric: string;
-  };
-  units: {
-    imperial: {
-      full: string;
-      abbreviated: string;
-    };
-    metric: {
-      full: string;
-      abbreviated: string;
-    };
-  };
-};
-
-export type StatShort = {
-  label: string;
-  value: string;
-  units: string;
-};
-
 export type Termini = {
   end: string[];
   isSame: boolean;
@@ -35,31 +11,18 @@ export type Termini = {
 
 export type Stage = {
   date: string;
+  description?: string[];
   image: string;
   location: string;
-  stats: {
-    distance: StatFull | null;
-    gain: StatFull | null;
-    loss: StatFull | null;
-    max: StatFull | null;
-  };
   termini: Termini;
 };
 
 export type Data = {
   date: Date;
   description: string[];
-  location: string;
   slug: string;
   stages: Stage[];
-  stats: {
-    altitude: StatFull | null;
-    days: StatShort;
-    distance: StatFull | null;
-    length: StatShort;
-  };
   title: string[];
-  type: string;
 };
 
 export enum Orientation {

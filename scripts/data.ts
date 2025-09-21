@@ -402,6 +402,7 @@ async function getStages(folder) {
 
       stages.push({
         date: data.date,
+        description: data.description || undefined,
         elevation,
         hasStats: !Object.values(stats).every(value => value === null),
         image: data.image,
@@ -639,9 +640,10 @@ function getTermini(string, index) {
   return string.includes(' to ') ? string.split(' to ')[index] : string;
 }
 
-function formatDescription(description, stats) {
-  return description.map((paragraph) => {
+function formatDescription(trip, stats) {
+  return trip.description.map((paragraph) => {
     paragraph = paragraph.replace('%length%', stats.length.value);
+    paragraph = paragraph.replace('%location%', trip.location);
 
     if (stats.gain !== null) {
       paragraph = paragraph.replace('%gain%', `${stats.gain.value.imperial} ${stats.gain.units.imperial.abbreviated}`);
@@ -660,7 +662,7 @@ function formatDescription(description, stats) {
     }
 
     if (stats.days !== null) {
-      paragraph = paragraph.replace('%days%', `${stats.days.value}`);
+      paragraph = paragraph.replace('%days%', `${stats.days.value} days`);
     }
 
     return paragraph;
@@ -696,31 +698,33 @@ async function go() {
 
       data.push({
         date,
-        description: formatDescription(trip.description, stats),
+        description: formatDescription(trip, stats),
         // gear,
         // hasGear: gear !== null,
         // hasRoutes,
-        location: trip.location,
+        // label: getLabel(trip.type),
+        // location: trip.location,
         // routes: [...stages].map(({ route }) => ({
         //   route,
         // })),
         slug,
-        stages: stages.map(({ date, image, location, stats, termini }) => ({
+        stages: stages.map(({ date, description, image, location, stats, termini }) => ({
           date,
+          description,
           image,
           location,
-          stats,
+          // stats,
           termini,
         })),
-        stats: {
-          altitude: stats.altitude,
-          days: stats.days,
-          distance: stats.distance,
-          length: stats.length,
-        },
+        // stats: {
+        //   altitude: stats.altitude,
+        //   days: stats.days,
+        //   distance: stats.distance,
+        //   length: stats.length,
+        // },
         timestamp: trip.timestamp,
         title: turnStringIntoArrayForLists(trip.title),
-        type: trip.type,
+        // type: trip.type,
       });
     }),
   );

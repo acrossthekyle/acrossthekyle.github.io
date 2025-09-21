@@ -6,7 +6,7 @@
   "location": "Corsica, France",
   "title": "GR 20",
   "description": [
-     "Considered to be the most difficult of all trails in Europe, the GR 20 (or French High Route) is a footpath that traverses the Mediterranean island of Corsica from north to south, along its spiny mountainous backbone, demanding thousands of feet of elevation change every day. Between the northern starting point at Calenzana to the finish at Conca in the south, there are hidden mountain lakes, expansive sea views, rugged and rocky cliffs, and remarkable panoramas.",
-    "Even though I had survived hiking in the Himalayas, this was definitely the hardest thru-hike I have ever done."
+     "Considered to be the most difficult of all trails in Europe, the GR 20 (or French High Route) is a footpath that traverses the Mediterranean island of Corsica from north to south along its spiny mountainous backbone, reaching a maximum altitude of %max%. It demanded thousands of feet of elevation change every day, totally %gain% of gain and %loss% of loss. Between the northern starting point at Calenzana to the finish at Conca in the south, there were hidden mountain lakes, expansive sea views, rugged and rocky cliffs, and remarkable panoramas.",
+    "Even though I had survived hiking in the Himalayas, this was definitely the hardest thru-hike I have ever done. It took me %days% to complete it, over a distance of %distance%."
   ]
 }

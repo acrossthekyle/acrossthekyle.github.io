@@ -24,7 +24,7 @@ const styles = tw({
         base:w-60
         deka:py-12
         deka:w-70
-        mega:w-100
+        mega:w-90
       `);
     }
 

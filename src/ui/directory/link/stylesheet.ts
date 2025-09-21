@@ -10,12 +10,14 @@ const styles = tw({
     const root = `
       group/link
 
+      block
       uppercase
-      transform-gpu duration-300
+      transform-gpu duration-300 delay-62
       overflow-hidden
       outline-0
 
       base:duration-200
+      base:delay-0
     `;
 
     if (isOnChild) {
@@ -93,7 +95,7 @@ const styles = tw({
       hover:text-white/90
       group-hover/list:text-white/25
 
-      ${!isInView && 'font-extralight text-white/40 base:font-black base:text-white/90'}
+      ${!isInView && 'text-white/10 origin-top-left scale-60 base:scale-100 base:text-white/90'}
     `);
   },
 });

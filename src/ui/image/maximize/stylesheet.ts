@@ -5,7 +5,6 @@ const wrapper = `
   absolute inset-0
   w-full h-full
   text-left
-  !cursor-zoom-in
 `;
 
 const styles = tw({
@@ -26,7 +25,8 @@ const styles = tw({
     duration-500
     rounded-sm
 
-    brightness-90
+    brightness-80
+    grayscale-0
 
     ${isLandscape === true ? `
       object-cover
@@ -40,7 +40,7 @@ const styles = tw({
     relative z-3
     flex items-center justify-center
     w-full h-full
-    !cursor-zoom-out
+    text-left
   `,
 });
 

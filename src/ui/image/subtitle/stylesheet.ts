@@ -1,18 +1,12 @@
 import tw from '@/styles';
 
 const styles = tw({
-  eyebrow: `
+  subtitle: `
     block
-    mb-0.5
-    text-tiny text-white/90
+    text-tiny/5.5 text-white/90
     font-semibold
     tracking-wider
     font-stretch-semi-expanded
-    duration-300
-
-    micro:text-xs
-    deka:text-tiny
-    kilo:text-xs
   `,
 });
 

@@ -1,11 +1,9 @@
 import tw from '@/styles';
 
 const styles = tw({
-  figure: `
-    group/figure
-    relative
-    rounded-sm
-    overflow-hidden
+  action: `
+    absolute inset-0 z-3
+    w-full h-full
   `,
 });
 

@@ -2,7 +2,7 @@
 
 import { Article } from '@/ui/article';
 
-import { Breakdown, Header, Pictures } from './sections';
+import { Header, Overview, Pictures } from './sections';
 import Loading from './loading';
 import { useModel } from './model';
 
@@ -19,8 +19,8 @@ export default function View({ slug }: Props) {
 
   return (
     <Article onScrollEnd={handleOnScrollEnd}>
-      <Header title={data.title} />
-      <Breakdown data={data} />
+      <Header date={data.date} title={data.title} />
+      <Overview data={data} />
       <Pictures slug={slug} stages={[...data.stages].splice(0, shown)} />
     </Article>
   );
