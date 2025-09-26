@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = {
   backdrop: (canBlur: boolean) => tw(`
-    fixed inset-0
+    fixed inset-0 z-7
     backdrop-blur-md
     bg-black/20
     cursor-default

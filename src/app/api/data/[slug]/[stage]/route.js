@@ -18,9 +18,9 @@ export async function GET(request, { params }) {
   const result = found.stages[Number(stage) - 1];
 
   return NextResponse.json({
-    index: stage,
-    slug: found.slug,
-    stage: result,
-    title: found.title,
+    date: result.date,
+    description: result.description,
+    experience: found.title.join(' '),
+    title: result.termini.end.join(' '),
   });
 }

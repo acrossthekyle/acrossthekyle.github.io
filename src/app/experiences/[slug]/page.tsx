@@ -1,12 +1,10 @@
 import type { Metadata } from 'next';
 
-import View from '@/views/experience';
+type Params = Promise<{ slug: string }>;
 
 type MetadataProps = {
-  params: Promise<{ slug: string }>
-}
-
-type Params = Promise<{ slug: string }>;
+  params: Params;
+};
 
 export async function generateMetadata({ params }: MetadataProps): Promise<Metadata> {
   const { slug } = await params;
@@ -15,7 +13,7 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
 
   if (!response.ok) {
     return {
-      title: `Experience Not Found`,
+      title: 'Experience Not Found',
       description: 'That experience does not exist',
     };
   }
@@ -28,10 +26,6 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
   };
 };
 
-export default async function Page({ params }: { params: Params }) {
-  const { slug } = await params;
-
-  return (
-    <View slug={slug} />
-  );
+export default function Page() {
+  return null;
 }

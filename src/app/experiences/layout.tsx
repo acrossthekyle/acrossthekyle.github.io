@@ -1,4 +1,4 @@
-import Experiences from '@/layouts/experiences';
+import { Experiences } from '@/layouts/experiences';
 
 type Props = {
   children: React.ReactNode;

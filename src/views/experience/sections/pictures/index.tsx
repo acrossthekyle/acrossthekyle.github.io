@@ -1,3 +1,5 @@
+import { ArrowUpRight, MoveDiagonal } from 'lucide-react';
+
 import type { Stage } from '@/types';
 import {
   Image,
@@ -48,18 +50,20 @@ export default function Pictures({ slug, stages }: Props) {
                     ))}
                     <ImageCaptionSubtitle>
                       {stage.date} • 4 min read
+                      <ArrowUpRight aria-hidden="true" className={styles.arrow} />
                     </ImageCaptionSubtitle>
                   </ImageCaption>
                 ) : (
                   <ImageCaption>
                     <ImageCaptionSubtitle>
                       {stage.termini.end.join(' ')} - {stage.date}
+                      <MoveDiagonal aria-hidden="true" className={styles.arrow} />
                     </ImageCaptionSubtitle>
                   </ImageCaption>
                 )}
                 {stage.description ? (
                   <ImageLink
-                    href={`/blog/${slug}/${String(index + 1).padStart(2, '0')}`}
+                    href={`/experiences/${slug}/${String(index + 1).padStart(2, '0')}`}
                   />
                 ) : (
                   <ImageMaximize

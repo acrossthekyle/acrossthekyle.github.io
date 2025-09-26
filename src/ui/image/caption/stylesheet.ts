@@ -3,7 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   caption: `
     absolute z-2 left-4 bottom-4 right-4
-    text-xl/4 text-white/90
+    text-xl/4
     font-black font-stretch-condensed
     uppercase
     duration-300

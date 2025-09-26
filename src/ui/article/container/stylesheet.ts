@@ -7,7 +7,7 @@ const styles = tw({
     overflow-y-scroll
     py-3 px-3 pt-14
     outline-0
-    animate-article-in-fade
+    animate-in-fade
 
     base:pt-2
     deka:px-12

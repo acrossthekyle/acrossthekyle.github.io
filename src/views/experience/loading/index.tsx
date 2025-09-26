@@ -9,7 +9,7 @@ export default function Loading() {
         <span className={`${styles.hero} ${styles.short}`} />
         <span className={`${styles.hero} ${styles.long}`} />
       </h1>
-      {Array.from({ length: 3 }).map((_, index) => (
+      {Array.from({ length: 1 }).map((_, index) => (
         <p className={`${styles.paragraph} ${styles.skeleton}`} key={index}>
           <span className={`${styles.word} ${styles.small}`} />
           <span className={`${styles.word} ${styles.medium}`} />

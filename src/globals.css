@@ -30,18 +30,13 @@
 
   --animate-elastic-in-from-right: elasticInFromRight .5s cubic-bezier(.4, -0.6, 0.32, 1.6) forwards;
   --animate-elastic-in-from-left: elasticInFromLeft .65s cubic-bezier(.4, -0.6, 0.32, 1.6) forwards;
+  --animate-slide-left: slideInFromRight .3s ease-in forwards;
   --animate-loader-one: .3s fadeIn 1s ease-in forwards;
   --animate-loader-two: .3s fadeIn 6s ease-in forwards;
   --animate-loader-three: .3s fadeIn 11s ease-in forwards;
   --animate-in-fade: fadeIn .5s ease-in forwards;
-  --animate-article-in-elastic: slideInFromRight .7s ease-in forwards;
-  --animate-article-in-fade: fadeIn .5s ease-in forwards;
-
-  @keyframes slideInFromRight {
-    0% { opacity: 0%; position: fixed; transform: translateX(100%); }
-    50% { position: relative; transform: translateX(0); }
-    100% { opacity: 100%;  }
-  }
+  --animate-in-fade-quick: fadeIn .1s ease-in forwards;
+  --animate-in-fade-delayed: .25s fadeIn .2s ease-in forwards;
 
   @keyframes elasticInFromRight {
     0% { opacity: 0; transform: translateX(50%); }
@@ -53,6 +48,16 @@
     100% { opacity: 1; transform: translateX(0); }
   }
 
+  @keyframes elasticInUp {
+    0% { transform: translateY(100%); }
+    100% { transform: translateY(0); }
+  }
+
+  @keyframes slideInFromRight {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(0); }
+  }
+
   @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
@@ -60,7 +65,7 @@
 }
 
 * {
-  cursor: none;
+  cursor: none !important;
 }
 
 body {
@@ -81,6 +86,6 @@ body {
 
 @media (prefers-reduced-motion: reduce) {
   * {
-    cursor: auto;
+    cursor: auto !important;
   }
 }

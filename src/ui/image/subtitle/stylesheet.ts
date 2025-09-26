@@ -3,8 +3,10 @@ import tw from '@/styles';
 const styles = tw({
   subtitle: `
     block
-    text-tiny/5.5 text-white/90
-    font-semibold
+    mt-1.5
+    pr-8
+    text-tiny/2.5 text-white/90
+    font-medium
     tracking-wider
     font-stretch-semi-expanded
   `,

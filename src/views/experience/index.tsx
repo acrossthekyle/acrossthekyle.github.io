@@ -10,7 +10,7 @@ type Props = {
   slug: string;
 };
 
-export default function View({ slug }: Props) {
+export default function Layout({ slug }: Props) {
   const { handleOnScrollEnd, shown, data } = useModel(slug);
 
   if (!data) {
