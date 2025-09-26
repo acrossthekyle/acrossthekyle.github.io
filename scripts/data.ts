@@ -40,7 +40,7 @@ async function createDirectory(destination) {
   }
 }
 
-async function writeFile(destination, filename, content) {
+async function writeFile(destination, filename, content, silent = false) {
   createDirectory(destination);
 
   await fs.writeFile(`${destination}/${filename}`, content, function (error) {
@@ -48,7 +48,9 @@ async function writeFile(destination, filename, content) {
       return console.log(error);
     }
 
-    console.log(`wrote ${destination}/${filename}`);
+    if (!silent) {
+      console.log(`wrote ${destination}/${filename}`);
+    }
   });
 }
 
@@ -274,23 +276,23 @@ async function parseGpx(folder: string) {
   }
 }
 
-async function parseMdx(folder) {
-  if (!fs.existsSync(path.join(trips, `${folder}/post.mdx`))) {
+async function parseMd(folder) {
+  if (!fs.existsSync(path.join(trips, `${folder}/post.md`))) {
     return {
       description: undefined,
       readingTime: undefined,
     };
   }
 
-  const mdx = fs.readFileSync(
-    path.join(trips, `${folder}/post.mdx`),
+  const md = fs.readFileSync(
+    path.join(trips, `${folder}/post.md`),
     'utf-8',
   );
 
-  const { content } = matter(mdx);
+  const { content } = matter(md);
 
   return {
-    description: content.replace(/<[^>]*>/g, '').split(/\n\s*\n/).map(p => p.replace(/\n/g, ' ').trim()).filter(Boolean),
+    description: content.split(/\n\n/),
     readingTime: Math.ceil(readingTime(content).minutes).toFixed(0),
   };
 }
@@ -324,7 +326,7 @@ async function getStages(folder) {
 
       const { elevation, route } = await parseGpx(`${folder}/stages/${stageFolder}`);
 
-      const { description, readingTime } = await parseMdx(`${folder}/stages/${stageFolder}`);
+      const { description, readingTime } = await parseMd(`${folder}/stages/${stageFolder}`);
 
       let stats = {
         distance: null,

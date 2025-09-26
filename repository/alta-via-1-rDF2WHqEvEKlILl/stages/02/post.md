@@ -1,0 +1,15 @@
+Breakfast on these kinds of treks is usually nothing to write home about. It basically consists of bread and jam, maybe some milk or yogurt with granola, and some juice or coffee. And even then the servings are small and unsatisfying. But on the Alta Via 1 the breakfasts have more to them, such as eggs!
+
+I thought the views from the first day were great, but on the second day they got even better. As soon as we left the rifugio we were immersed once more in open rolling land surrounded by all sorts of geologic formations. Truly, I have never seen so much variety before.
+
+We walked and hiked over grassy hills as the trail took us towards mountains in the far distance. About an 70 minutes later we transitioned from open, rocky, fields to forests thick with pine trees and various other conifers. While the trail has been mostly small ascents and descents up until this point, it now turned towards a massive descent that had wooden railings protecting us from the dropoffs on our right. We were descending down the side of a mountain and into a valley.
+
+Upon reaching the valley floor we were greeted with the sight of a rifugio in the distance that offered a sunny peaceful place to rest and drink and eat a second breakfast. But an hour later we decided that it was time to move on, and leave this idyllic valley behind, and regain the elevation we had just lost by heading into a different portion of the mountains.
+
+Here the ground was a bit sandier, maybe due to the variety of composition of the rocks around us. It almost felt like someone had dropped a beach right into the middle of the path. Could have been an old lake bed as well for all we knew. Lots of switchbacks in this area, which on a full belly wasn't the most fun.
+
+With blue partly cloudy skies, and towers of mountains around us, we pressed on and happened upon a river flowing just beyond a small family farm house. No livestock around so we felt safe taking off our shoes and dipping our feet into the ice-cold waters. What a feeling that was.
+
+Shortly thereafter we arrived at our place for the night: Rifugio Lavarella. It was situated on a little lake/pond, with watery features all over the property, and some cows grazing around it.
+
+Another fabulous dinner in a fabulous place-of-stay. This Alta Via 1 trek has the best food so far out of all the treks I've done to date. We chilled on the patio under umbrellas watching the clouds flow by and some took naps. It was a very relaxing locale.

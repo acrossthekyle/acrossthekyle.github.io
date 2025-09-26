@@ -1,0 +1,45 @@
+The clouds hung over the valley as I left the Rifugio in the morning. Across the valley floor stood Mont Blanc, but it refused to reveal itself that day. I would have to wait three more days before seeing it.Several abandoned buildings greeted me on todays hike, and I took every opportunity to walk amongst them.
+
+Within an hour the Rifugio had disappeared behind the trees as I worked my across the hillside, and descended down.
+
+Most of the morning was filled with zig-zags in the trail. The walls of the valley were dotted with clumps of evergreens on one side, and the gray wall of rockslides and mountains on the other. I took every chance that I could to turn around and snap some pictures.
+
+The clouds kept a dark mood over the world around me, and I was alone for most of the first hours of the day. The river below me looked like as good a place as any to take a break. I broke out my snacks and sat there for a few moments enjoying the sounds of the water rushing by. There was a Chalet nearby that most people stopped by for breakfast.
+
+After taking in my fill of the river and the quite, I packed up and headed out for the ascent to Rifugio Elena, which was on the way up to the crest known as the Grand Col Ferret (not to be confused with the Petit Col Ferret just below it).
+
+When I arrived at the Rifugio I was forced to step inside and warm up. The wind up here were intense, and howled around every rock and wall corner. It was time to put on the extra layers for the next hike but first, a hot sandwich.
+
+I bought a toasty Bocadillo (just a sandwich really, with meat and cheese), and joined Barak and Neta at a table in the back. We tried to take some group pictures outside but the wind and cold made us look miserable in the pictures.
+
+The winds did not let up as we climbed to the top of the Col. The clouds seemed to be getting lower and lower, but it was actually us who were getting higher and higher. Here the trails seemed to go off into nothingness.
+
+At the top of the Grand Col (2537m) the clouds were racing over the ground, running into Italy behind us. If it wasn’t tied down, it would be sent running with the clouds. My first views of Switzerland (from the Alps at least) were of dirt paths and yellow grass covered hills. Once we were several dozen feet into our next country, the wind died down.
+
+Here it was quiet. Probably the quietest that I’ve ever heard in nature. No birds, no wind, no animals. Just clouds, with the sun poking through, and the views of fresh mountains. I literally didn’t hear anything for several minutes as I stood there staring in awe at the towering clouds moving across the face of a mountain to the East of me.
+
+Further along a grassy hillside appeared and provided a great spot to sit down and rest. Several other people were already here, and I tried to find a spot that wasn’t covered in dried cow poop. In the valley below us cows were being herded from one end to the other, and we watched their herd move in slow motion while listening to their bells.
+
+Finally the clouds were going away, and the bright sun was shining down on us. On the way down I had what could possibly be considered the worst fright of the trip:
+
+As I came up to a pass on the trail that went down to a farm that sold cheeses from the cows that it owned, I had to walk through a herd of gray furry looking cows. Some of them ignored you, but others were also moving down the trail at the same time.
+
+I decided to step over the wire that marked the path for the cows to take in order to stay away from them since they didn’t cross the wires. This worked until I crossed back on to the dirt path, certain that no more cows were around me. From above came the sound of a cow bell as a couple of cows had begun to make their way down the trail.
+
+One cow in particular was moving at a fast pace, and I quickened my own pace in order to stay ahead of it. I stuck to the dirt path, but the cow decided to take a shortcut over the grassy part. Our two paths crossed at the bottom of the trail.
+
+I froze in my place. The cow did not. It kept coming, at a good trot as well. At the last moment I jumped back and out of its way.
+
+Now, earlier I had said that I considered this to be the worst fright of the trip, but I think I scared the cow more than it scared me.
+
+As I jumped back it also jumped, but straight into the air. I must have startled it, and the thing must have flown at least 5 feet into the air. It continued trotting down the path after landing back on the ground. I quickly gathered myself (luckily no bodily fluids had been released), and kept going.
+
+The rest of the day, in comparison, was uneventful.
+
+Beautiful green hills and valleys, along with deep blue skies and white clouds, filled the world around me. I met some Irish girls on the way into town after crossing the river, and we helped each other get lost and found.
+
+Tonight I would be staying at Maya Joie just outside of the small town of La Fouly. Went shopping at the food market and bought stuff to make sandwiches for tomorrow. We then grabbed a beer at the bar above the food market.
+
+Dinner was a traditional Swiss dinner made from a gigantic melting block of cheese and served with potatoes called Raclette. My god was it delicious! In total I had three servings, and enough cheese for a good long while. After dinner we played scrabble.
+
+Tomorrow promises to be the easiest day so far with only 500m of total gain.

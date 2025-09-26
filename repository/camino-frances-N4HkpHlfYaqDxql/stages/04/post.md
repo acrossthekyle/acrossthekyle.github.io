@@ -1,0 +1,39 @@
+I could get used to mornings like the ones in Pamplona. Not a soul in sight with the air calm and peaceful in the old city I set out before the others to explore parts that I wasn't able to see yesterday. The only people in the streets were other pilgrims walking in the opposite direction as they left the city for the next stage.
+
+It didn't take me long to find a route leading way away from the square, and towards the other areas of the city. While the square in the morning was calm and peaceful, the area outside of the urban center were bustling with activity.
+
+There wasn't much to see beyond the architecture of the buildings, and the various parks. You couldn't even get inside the arena where the release the bulls. Slightly disappointed, I hurried back to the Albergue.
+
+Leaving the city took less time than entering it. The residents were starting to stir, and the street cleaners were mopping up the mess from the previous night.
+
+After zigzagging through a series of small and large parks we found ourselves once again walking through the countryside of Spain with the city growing smaller and smaller with each glance backwards.
+
+Nothing but green fields were laid out in front of us, with clouds sticking to the ground, their fingers clawing at the hills in the distance trying to pull themselves closer to the earth.
+
+Rainbows appeared at every edge of a leading cloud formation. Luckily the rain stayed away from us, and their dark gray color was merely for show.
+
+Large and narrow gravel paths filled with potholes of water snaked their way across the fields, through small forests, and over small rivers. Gradually The Way began to rise higher and higher leading towards Zariquiegui: the last stop before crossing over Alto de Perdon, and the windy mountain crossing.
+
+I caught up with Tania's group (Shelby, Alex, and Tania) in Zariquiegui. They were getting ready to head out as I arrived. Jokingly I said that I'd see them at the next rest stop since that was where we kept running into each other. The other friends from my group slowly trickled in and dropped their bags at the cafe.
+
+After recharging we slowly left for the top of the mountain. On the way up we kept leap frogging each other when those in front slowed down, or took pictures, and the others from behind kept going.
+
+The views from the top did not disappoint, and it was the windiest spot so far on the Camino with views of the countryside extending away in all directions.
+
+The way down though was hard, and slow going.
+
+After reaching flat ground again, I suddenly found myself very much alone. I don’t know how it started, but I was talking to myself. To be perfectly honest with you, I have never done anything like this before. All sorts of random things started popping into my brain, and coming out of my mouth.
+
+I stopped paying attention to the ground I was walking on, or to the world around me. I just walked and talked, walked and talked.
+
+Everything from the real reason why I’m here doing the Camino, why I do the things I do, realizing that I hated my job, what brought me happiness, and what left me empty and wanting more.
+
+It was an amazing feeling to shine light onto things that were hiding in the shadows, and things that I didn’t even know I was thinking. I felt so great about airing out my thoughts and feelings.
+
+At some point I met up with the others in the outskirts of Urtega. We grabbed lunch at a small Albergue in town for about an hour, and relaxed in the sun.
+
+After leaving Urtega we spread out again as we walked through Obanos on our way to Puente la Reina.
+
+An attractive looking Albergue at the edge of town as we got off of the Camino beckoned to us. It took some debating, but we ended up staying at Albergue Reparadores further in to town. It is one of the oldest Albergues on the Camino (hundreds of years). Some of us from our group cooked a dinner, and the others shared what they had to give.
+
+Overall this wasn’t a bad day in terms of terrain or distance, but this was the first time that I had done any sort of back-to-back, day-in-day-out, walking and my feet were feeling it. Hopefully tomorrow will be flat ground on the way to Estella.

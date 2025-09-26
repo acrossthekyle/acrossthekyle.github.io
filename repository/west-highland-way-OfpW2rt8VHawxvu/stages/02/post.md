@@ -1,0 +1,23 @@
+No rain overnight, so that's a good sign for the day. My earplugs kept falling out as I slept, making true deep sleep ellusive for the most part. I dressed in my tent, packed up most of the gear, and exited to find a bright and cloudy sky awaiting me.
+
+Oatmeal with dehydrated banana slices is usually my go-to meal for backpacking trips that I need to bring my own food, and this hike was no different. I set about the task of boiling water on my tiny stove that was balanced on a piece of rock so as to keep the flames away from the, albiet wet, grass. My companion from yesterday emerged from their tent and started cooking breakfast as well. They mentioned that they would be taking it slow today, and that yesterday was rough on them, so I wished them a good hike and packed up my cooking gear after finishing breakfast, and set out on the route.
+
+We visited the town of Drymen last night, and today's route followed that same way. Once past the town the route detoured from the road and onto a more familiar dirt path that went between two farms. Green grass and yellow flowers filled the space around me as the trail gradually merged with a local forest preserve.
+
+Luxurious wide gravel paths took me through pine woods, and sections of wood that were bleached and/or regrowing from a previous disaster. Not more than an hour later and the trail left the forest preserve behind, and once more became a thin rock-strewn dirt path. The first views of the Loc were also attainable from here, but the path did not go directly to them and instead it curved to the right and towards hills and wide open lands.
+
+Multiple stone walls separated the terrain into varoius misshapen grid chunks. Gray clouds still hung overhead, threatening to start raining at any moment but thankfully they never did. The mid-morning destination was becoming clearer though as the trail was decidely heading in one direction: towards a massive hill/mountain.
+
+After a short bridge crossing over a meandering stream, the dirt path turned into stone steps, which meant it was time to climb. Luckily the steps didn't last for long before a dirt trail appeared and started to circle around and zig-zag up the side of this monsterous hill. All around me were fields and rolling hills patched up by strands of trees here and there.
+
+Finally, after a turn in the trail, the Loc was in full view. Another 20 minutes of walking and scrambling up some loose dirt/hillside terrain and I was at the top. What a sight to behold! The gray clouds even gave way to white pillowy clouds as I reached the top. This Loc was absolutely massive, and no wonder it would take the rest of the day today, and most of the day tomorrow, before finally getting around it. It must have been a weekend, or holiday, because the trail was filled with a bunch of weekend hikers out for a stroll.
+
+I knew I still had a ways to go today, so I spent just enough time up at the top to get some photos, have a snack, and relax before beginning the descent straight down to the local town below.
+
+Going down wasn't that bad, it was the amount of people on the trail that made it a not-fully-enjoyable time. But 30 minutes later and I was walking through bright green confifer woods. It was nearly noon and time for lunch. I had only brought enough meals for dinner and breakfast because I had read that there were plenty of stops along the way to get lunch and/or snacks. I found a restaurant on the edge of the water, and sat outside as I ate a burger and frees and sipped on a nice cold beer.
+
+Anxious to keep going I suited back up, refilled my water bottles, and set off into the woods once more. The trail started ascending once more to get back into the hills that surrounded that town. I passed by a few more WHW hikers as the trail meandered through the trees before settling into a route that ran parallel with the waters. The beaches that I passed were all very stony, and no sand was present. After about 1.5 hours of walking at a brisk pace through the hot and stuffy trees I was excited to finally come across the campground where I would be spending the night.
+
+My reserved spot was right on the beach, with a great view of the waters and surrounding hills/mountains. It was 4pm at this point, which meant a lot of time to just sit and chill. I strung up my dirty clothes to dry and air out, set up the tent (which was no easy feat in the winds that were blowing off of the lake), and sat in my backpacking chair. I read, took a nap, made some dinner, strolled along the waters edge, and didn't do much of anything else before it was time to go to bed.
+
+Today was a good day on trail: amazing views, variety of terrain, and good meals.

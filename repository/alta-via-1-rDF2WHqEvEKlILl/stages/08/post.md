@@ -1,0 +1,11 @@
+Todays sunrise through the trees was a special treat; normally I haven't been up early enough to see it, but today I just couldn't sleep. The trail today was a nice mixture of forests, ascending and cross cols between mountain tops, and passing what I can only presume are old military barracks built of stone.
+
+We started off through the trees after leaving the rifugio and walking across grassy fields which offered some amazing views, but shortly there-after we had to walk on a road as we descended. Luckily the trail didn't hang out on the road for long and we were back in the trees. Saw some cool looking ruins in there as well.
+
+The woods left us behind as the trail took a turn and the vegetation gradually thinned out as we headed onto some exposed scree fields. More great views though! But it sure was hot today without the trees or clouds to block the sun. After a while of going across the scree field, and through more small pine trees, we came to a grassy clearing that had an old hut with a water trough that was still working. We filled up our bottles and kept moving.
+
+Our views today mostly consisted of mountains in the distance, and small pine tree forests. But as we came around a bend in the trail after going through some bushes and other vegetation we came across some pretty neat looking stone ruines. They looked too big to be someones old home, so my guess is that they were left overs from World War II. I tried to explore them as much as possible but the vegetation within had grown too thick.
+
+Afterwards the trail took us to a crest with some nice views, and then narrowed as it turned down into a pine tree and bush forest. I remember racing through this area because of the heat and the smell of pine was overwhelming. Rifugio Pramperet was also visible in the distance, and I was craving a shower, and some lunch. The dormitories were set along one wall with a courtyard in the middle, a nice spot for eating outside.
+
+The front balcony had lots of tables with umbrellas, and the inner dining hall was a good size as well. A special after-dinner treat (which the dinner itself was amazing, as they all have been on this trek) involved a Moose coming to visit us! It didn't get very close, but close enough for us to see pretty well. We also watched the sun set behind the mountains.

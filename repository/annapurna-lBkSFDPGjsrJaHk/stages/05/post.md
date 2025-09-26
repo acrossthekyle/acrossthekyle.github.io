@@ -1,0 +1,9 @@
+Left Chame after a fulfilling breakfast. The sun was already high in the sky as we walked high above the same fast-flowing river that has been with us since the beginning. As we left we passed a monumen to Buddha saying "Buddha was born in Nepal".
+
+Starting to see a lot of porters on trail today, probably from those who chose to take a jeep up to the village last night. These poor folks are carrying multiple large bags on their backs while walking in sandals. They're not getting paid enough to do this.
+
+Passed another Buddha monument around a bend in the mountain trail saying the same thing: born in Nepal. This part of the trail was most definitely blasted out of the vertical wall of rock that we were walking alongside. We also had to share the trail today with lots of jeeps and motorbikes. Even though we had to share the trail, at least it was nice and wide.
+
+The views though, they are starting to get pretty awesome-looking. The trees are becoming fewer, and the mountains greater. From here we can actually see the Annapurna Massif.
+
+Our destination today was Upper Pisang, as opposed to Lower Pisang. We made it in due time, and found a lovely place with a view to stay at. In Upper Pisang there is also a buddhist temple that we could go to, and we didn't pass up the opportunity. We're also high enough now that we need our puffy jackets to go walking around in the afternoon. I have never seen so many colors in one building before. This buddhist temple was a joy for the eyes.

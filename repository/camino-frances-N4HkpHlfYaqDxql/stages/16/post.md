@@ -1,0 +1,35 @@
+Want to know a great way to start your day? First, buy some liquid deodorant when you get into town at night, and in the morning when you're about leave take it out and shake it vigorously. Keep shaking it until a stray drop finds its way into your eye. Now that you're half-blind, and possibly puffy-eyed, reluctantly put on your glasses. Not the best way to start what would become one of the longest days on the camino.
+
+At 5:30am, bound for the stretch of the Camino that some called The Wasteland, we left Carrion and in no time at all we were walking the ancient Roman route known as the Via Aquitana.
+
+The green trees in the distance separated the gray world above us from the yellow world around us, with the white gravel path never faltering as it shot across the land.
+
+With very little to see, or do, we kept our heads down and focused on the walking. Luckily the clouds hung around all morning and kept the temperature down. Some folks played their music, but mostly everyone was focused on the destination.
+
+And it wasn't all that bad. It only took us 3.5 hours of walking, and one stop at a small area with benches, to reach the end of this 17 kilometer stretch in Calzadilla de la Cueza. Believe it or not, I'm halfway to Santiago!
+
+The clouds disappeared after breakfast in Calzadilla as we continued towards Ledigos, and Terradillos de los Templarios. As the sun shined down upon us, the temperatures rose.
+
+Crissi and I were walking so fast that as we entered Ledigos we realized that we had left Bianca behind. We waited around for her to show up, but she never did. She most likely took a break earlier on without us noticing.
+
+We arrived at Terradillos de los Templarios just after noon. There was a little picnic area amongst what appeared to be the ruins of an old well, and we found a few other pilgrims there. This was the first spot of shade since leaving Calzadilla, so we joined them at the stone table with some cold cokes.
+
+Terradillos was technically a stage ender, but Crissi and I were feeling adventurous (or crazy) and decided to push on. We said our goodbyes and hit the road once more, deciding to make it as far as Sahagún before calling it quits for the day. If only we had known how much it was going to hurt.
+
+We spent the next hour making bets on how much further we had to go before we would see the next town (I lost them all), and talking about why we disliked our jobs and what we were going to do about it. It was here that I think I officially decided to start looking for something new.
+
+Finally, after losing the second bet, we reached the top of a hill and spied Moratinos sitting a kilometer away. Several stone messages, and arrows, dotted the path as we hiked downhill into town.
+
+They had their own little Hobbitville here which were actually Bodegas (a sign literally said "No, Hobbits do NOT live here"). Trees wrapped in blankets dominated the small town square in front of the church as we headed out. A few kilometers later we came upon San Nicolás del Real Camino. A local Albergue had an attached restaurant, which meant more sugar-filled Coca Cola, and making sure we were ready to do the final push to Sahagún.
+
+We arrived in the city at 4pm after taking an odd, twisting, path that took us out of our way just so we could see an old church, and some stone statues. Thanks Camino.
+
+The Municipal Albergue in this city was an old church, and the beds + kitchen + bathrooms were in the upper level/attic of the church. We got to choose our beds before checking in and paying. This place, oddly, had the best Wi-Fi so far on the Camino. I updated my music library later that night because listening to the same songs for 16 days gets old, fast.
+
+Not much was in our little area of town, and after walking 40 kilometers we were not in the mood for exploring the city by foot. There was a small hostel cafe across the street from the church, and Bianca walked by as we were checking it out. We were so happy to see her, and to see that she made it safe 'n sound. By now it was getting close to 6pm and we were overdue for our afternoon naps.
+
+It was Sunday, and nothing was open, which meant no cooking tonight. We retired to our beds, but ended up napping for too long. We awoke in the evening, around 8pm or so.
+
+Crissi and I grabbed a late dinner at a large restaurant across the street, and watched part of the world cup game. As we were leaving the restaurant Luis found us and practically dropped to his knees. He had forgotten the passcode for the church door and was panicking thinking that he would have to sleep outside tonight.
+
+Today’s walking total was 39 kilometers, the longest stretch yet. It felt as bad as the walk into Hontanas three days earlier. I guess after a certain point the pain is the same. For me, it usually kicks in around 20 kilometers, which in an odd way helps me know how much ground has been covered for the day. Tomorrow is hopefully an easier day, seeing as how we did 1.5 stages today. Our planned destination is Mansilla, but we'll see if that actually happens.

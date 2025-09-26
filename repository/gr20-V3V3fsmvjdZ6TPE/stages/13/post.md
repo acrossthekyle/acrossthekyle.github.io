@@ -1,0 +1,19 @@
+Last night was a terrifying one. Horses decided to wander into the camping area after everyone had gone to sleep, and literally walked right past my head. It's a good thing it was a full moon and that they could see the tents, or else I worry what might have happened. But then dogs started barking at them, spooking the horses and causing them to start galloping through the tents in order to get away. I laid awake in fright for a while.
+
+Today was the last day on trail, although I didn't quite know it yet. After doing multiple days of double-stages I wasn't sure if I had it in me to do nearly 20 miles today and finish, so my goal for the day was to make it to the last refuge on trail and spend the night there. With that in mind I packed up my stuff, and hit the trail.
+
+The trail started off by heading straight down into a valley from the refuge for a while and then crossing over to the other side of the valley, and then back up for a bit before leveling out for a good long while. Here and there were waterfalls and some tiny rivers that required crossing, but overall the early morning portion was mostly even ground with very little ups and downs.
+
+First it was through a forest, and then up towards a more desert-looking terrain with the trail being exposed to the sun for nearly the entire time. And, sure enough, I got lost again. I must have not been paying attention to the trail markers and probably missed a crucial one, but I ended up following a different trail that took me in the completely wrong direction. I bushwhacked, scrambed, and climbed my way back to the main trail.
+
+Once back on the trail I followed it closely and kept a vigilant eye out for markers. It now started to go up and up towards a forested area and a large public park that had a large amount of hotels and places to stay just down the road from it. I chose not to stop and take a break and to keep pushing through. The trail from this point was a very wide, and flat, dirt path.
+
+The flat portion ended eventually, and now there was a steep ascent up towards a mountain top. It took maybe an hour to get up there. From there it was another series of ups and downs before arriving at the last refuge on trail. I debated spending the night here, and after scoping it out and seeing that they too had cows and horses wandering through the campsite I decided that I had had enough of that and pushed on. I was going to finish today.
+
+It was such a long day, with so many ups and downs in elevation. My feet were killing me. About three hours after leaving the last refuge behind, and after many tiring ascents/descents, I came to a pass in the rocks that signaled the beginning of the end of the trail for me. It was like a gate you had to pass through.
+
+From here it would take about 30 minutes of racing downhill as fast as I could go before I reached the end of the trail, and emerged from the woods onto a paved road that led into the town of Conca, and the official end of the trek. I collapsed as I reached the bar that signaled the end, and I ran into my first American there! We shared a celebratory beer and then headed off into town to find the local campground (the cheapest of the options). From there, in the morning, I took a shuttle into Porto Vecchio where I had a hotel room waiting for me.
+
+This trek was the hardest I had ever done, and the most amazing. I met a lot of great people, and while there were struggles (both physically and mentally) along the way, overall this thru-hike was a great experience.
+
+I have finally completed the list of treks I first created back in 2018. What an amazing feeling!

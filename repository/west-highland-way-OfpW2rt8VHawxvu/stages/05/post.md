@@ -1,0 +1,23 @@
+Today would be filled with a mixture of sun and rain, and mountains, while traveling through the true highlands of Scotland. I had a cabin reserved for the night in the town of Kinlochleven, and would desperately need it after another rain-soaked day.
+
+A rivers rushing waters, a kind of whitenoise, always help me sleep. Breakfast today would be two packets of granola and two packets of dried banana slices. I had a surplus of backpacking food at this point, and would be able to leave the rest of it behind at the cabin tonight since tomorrow would be my last day on trail. The clock struck 8am, and I was on my way.
+
+Forests lined the riverbank where I slept last night, and it was nice to be walking within them right out of the gate. Rains last night created fresh wet conditions on the trail though, which meant more tiptoeing on any rocks that stuck their tops above water. My shoes did stay dry for long sadly.
+
+Not 30 minutes later and forests were already behind me, and scraggly grasslands lay before me, with a large lake in the distance. Up and over hills, dry patches of trail few and far between. Discontinous forests in oddly arranged groups were in the distance all around me, perhaps a reforesting process? Up ahead there was a bed and breakfast, but the restaurant services were only for guests and the store for buying snacks wasn't open yet. I waited a little bit to see if someone would come and open up shop, but they never did. Given how far I would have to go today I decided to simply bust out a protein bar and keep going.
+
+The terrain today varied between forests, and grasslands, and the trail seemed to stretch on forever into the distant mountains. By this point, around 10am, the clouds started to drop their rain on me. It started as a fine mist, but slowly turned into a steady downpour of rain. I did not see many people on today's segment, maybe the rain kept them away.
+
+Besides the rain, the views on this part of the trail today were amazing! I love hiking in the mountains, and today I was surrounded by all sorts of them. I truly felt like I was alone in the world today, walking through this remote land, with the unrelenting rain beating down on me, and not another soul in sight.
+
+For nearly two hours I marched on through the rain, up and over small passes between mountains, trying to stay in good spirits. Eventually the trail left the remote world behind and joined up with a paved road that led to a hotel called The Kingshouse. It's one of the stops along the way, and I hoped they would have hot food, and sure enough, they did.
+
+I spent a good long hour there, eating hot food, and trying to let my stuff dry out as much as possible. I used one of the bathroom stales to change out of my wet clothing, and into some fresh dry things. There's nothing like a dry pair of socks and underwear to immediately brighten ones spirits. At 1pm I left The Kingshouse behind and continued on me way, through more mountains.
+
+The rain was done for the day, thank god, and the sunshine brought the most amazing views I had seen so far. A bright blue sky, and dark stone mountains, dominated my view, and the world around me. These pictures don't do it justice.
+
+After walking through these amazing mountains for another 90 minutes, it was time to start descending down into the town of Kinlochleven. It was a long way down, took nearly an hour but felt like forever what with all of the twist and turns in the trail. Eventually I reached the towns outer limits, and it wasn't a pleasant way to enter the town: the trail exits right next to a factory.
+
+There were also no waymarks as I got into town telling me which way the trail would go tomorrow, so I had to pop open Google Maps and figure out how to actually get into the town. After a wrong turn I made it to the town center. Finding the cabin took a bit more effort, and figuring out where to go in was also tricky, I even had to call the host in order to figure out where to go.
+
+I settled in and began laying out my cold wet gear in order for it to try out. The place had a TV, which was nice, and the bed was big and comfy. I made the last of my backpacking meals for dinner, and discarded the rest. I was looking forward to a good nights sleep.

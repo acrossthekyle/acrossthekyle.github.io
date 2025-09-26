@@ -1,0 +1,41 @@
+Today started like the others: rise early, and beat the heat. Our exit from Sahagún in the pre-dawn hours was a quiet one. Most of the other pilgrims at the church were still sleeping, including Bianca. The streets were empty as we got our first look at the churches. We passed through the arch of San Benito, followed the yellow arrows on the ground, and before we knew it we were out of the city.
+
+We took in the sun rising behind us as we walked silently, and quickly, to Calzada de Coto five kilometers away. Nothing was open this early in the morning, and Mondays in Spain are treated somewhat like Sundays (another day of rest). Luckily we found breakfast at an Albergue in Calzadilla de los Hermanillos approximately nine kilometers further on. And it's a good thing to, because it was 9:30 am and the heat was returning.
+
+In the distance I could see the mountains that would be welcoming us in about a week, and couldn't wait to be done with all of the flatness!
+
+After breakfast we headed for the second longest Wasteland stretch of the Meseta, the one that no one told us about. And from what we could see, we were the only pilgrims who chose this route. The others must have chosen the route that goes along the highway.
+
+A short while later we came to the end of the paved road at a T-junction, but The Way continued forward into the endlessly flat world on a trail covered in brown-red dirt. The first Camino marker after leaving the paved road had a single beat-up shoe resting on it. Not a good sign. I half expected to see vultures circling overhead.
+
+We were now on another ancient Roman road. Those guys really knew how to pick 'em. This one was called Via Trajana. And despite the fact that we were in a hot dry place, I still thought it was cool that we were walking on history. Can't always say that back in the States.
+
+With nothing but dried up fields in the visible distance, and the dirt path forever going forward through it, we put our headphones in and cracked on. There was zero shade as the sun relentlessly shined down on our backs.
+
+After about two hours in to the hellish walk another pilgrim caught up, overcame us, and left us behind in her dust. And once again, we were alone in this dry world.
+
+At one point, probably about 2/3 of the way through, I lost track of Crissi walking behind me. I quickly doubled back, fearing that she had fallen or tripped. Thankfully she was simply resting in some hard to find shade on the side of the trail. She had also run out of water so I gave her my water bottle reserves.
+
+An old train depot up ahead had long ago been abandoned, and no town was in sight. There was a train moving in the distance in the direction of our travel, so hopefully we were getting close...
+
+Slowly a line of trees in the distance began to materialize, and I prayed that this would mean the end of the wasteland. We were now three hours into this stretch, which is how much time it took us to finish yesterdays wasteland. But alas, no end was near.
+
+To our surprise, we came across an old French man who was returning to St Jean after reaching Santiago. I was in awe that anyone would want to walk this part of The Way again. What a mad man, I said. At last we reached the trees which stood as a physical, and symbolic, end to the longest hottest dryest stretch of walking I've ever done in life. Through the trees we saw bulls feasting on piles of potatoes.
+
+After exiting the small patch of trees and not seeing any town, or any sign of a town, I started cursing the earth, my shoes, and the distance. The pain was incredible. My supply of water was gone, and the water bottle that I had given to Crissi was nearly empty. If we didn't make it to a town within the next hour or so, we were going to have issues.
+
+We crossed over a modern bridge that had some sort of importance (I can't remember what exactly), all I remember is that the hand railing was too hot to touch. There were some informational signs before and after the bridge that described the land around us and its history. I ignored them and, going against all logic, I decided to walk even faster!
+
+In the distance I could see what looked like a lighthouse at the top of a hill. It was a metallic pyramid shaped structure at the top of what looked like a radio tower. It was a shining beacon that told us we were about to arrive in a town, and arrive at sanctuary. With every curve in the path (which was now a white gravel), I turned around in order to make sure Crissi was still behind me.
+
+Reliegos was another town that appeared out of nowhere. At the edge of the hill I spotted the town below. I started walking faster and faster, eager to get out of this dirt and onto paved road. Bad idea. The paved road felt so much worse than the gravel path. I had to sit down on the curb. I couldn't go any further now that I was within the town limits.
+
+Crissi arrived a few minutes later, and we decided to stay at an Albergue behind a bar.
+
+This stretch should really be the one known as The Wasteland since it’s 10x worse than the first one. It took us nearly four hours to cross it and there were literally no places to stop or find shade. Water was not available, and the unrelenting heat plus sun are a deadly combo. But, it was pretty at some points.
+
+I passed out immediately after eating. My dreams, when I do dream on the Camino, have been crystal clear and very vivid. Maybe it’s because I lack the level of external stimuli that I normally receive at home, since all I’m doing is walking, and being in incredible amounts of pain. Or maybe it's just the opposite, and it's this activity that is putting my brain into overdrive at night.
+
+After a successful stop at a local grocery store we grabbed dinner with two people from Holland: Walter and Yo-yo. Luis also found us, or maybe we found him, but either way we were happy to see a familiar face.
+
+Needless to say, we went to bed early tonight. Our room only had six beds in it, and the bathroom was really nice. But the room was filled with snorers, and my earplugs kept popping out. After a walk like today, I needed all the sleep that I could get. We decided to try and sleep in tomorrow. Leon was our destination, and the end of this flat land.

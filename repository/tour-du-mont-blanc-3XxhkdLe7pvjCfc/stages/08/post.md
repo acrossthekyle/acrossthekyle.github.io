@@ -1,0 +1,37 @@
+The sun and blue skies were out in full force today. Hiking through the woods in the early morning hours with the sun streaming through the trees is one of the most magical things that you can hope to see in nature.I took my time walking today, and made sure to see everything.
+
+The first 30 minutes were easy because I had already gone this way at least three times last night! I knew where to go, and which routes to take.
+
+Once I reached the flat ground that entered the mountains I took a break to remove my jacket and get ready. I figured it would take me a couple of hours to get to the top, but it ended up taking three.
+
+I was making for the Fenetre d’Arpette at 2,665m. This is also the other highest point on the TMB (but not an official one since it’s optional and not recommended).
+
+The first half of the trek was through woods before quickly turning into shrubs and low sparse trees. Colors of all kinds accompanied me as I crossed over rivers, pulled myself up over boulders, and went up into the mountains. I turned around once at least every 10 minutes to snap a picture of the ever increasing field of view behind me.
+
+Soon enough all forms of large vegetation where gone, and we were left with crab grass and rocks. And even then that was gone within 30 minutes and all that was left were bare rocks.
+
+The scariest part of todays hike and climb came upon me just below the summit. A field of boulders, some the size of camper vans, lay between me and my goal.
+
+I had walked/hiked over fields of small boulders a few days earlier when I had left Robert Blanc for Italy. These were different. The average size was much greater, and these guys moved a lot more than those did.
+
+I avoided all distractions (hence no pictures of this) as I went up. I kept a watchful eye out for the white and red strips that told you which way to go. Several cairns that were placed along the way also helped.
+
+At one point I had to hug a boulder the size of my bedroom as I inched my way around it.
+
+Several of these rocks also required you to climb up them, only to realize you went the wrong way, and then you had to find a scary alternate way around them.
+
+Once I got passed the field of rocks, I turned around to stay back in wonder and amazement. Second scariest obstacle had been overcome!
+
+On the way up the steep zig-zag path to the top I came upon Barak and Neta. We shared lunch and picture taking at the top, and sat there for nearly an hour, taking it all in.
+
+They say that they way down is harder than the way up sometimes, and this time they were correct. While the fight up meant dealing with shifting boulders the size of cars, the fight down meant fighting one of the steepest and sloppiest descents to date.
+
+A massive glacier (Glacier du Trient) occupied our view to the left, along with the massive smooth rock that it had created during its life.
+
+I quickly lost patience after we got through the scariest part of the descent, and started to hurry down to the river below. I started jumping down at certain parts (which is not a good idea when you have bad knees). For some reason I just wanted to be done with the descent. In total it took three hours to get down.
+
+I waited for the others to catch up at a bar near the river just outside of town. It was filled with locals, but they were used to seeing backpackers come down from the mountains.
+
+Finally, by 3:30pm we were on our way to our rest spot for the night: Refuge du Peuty. I cannot recommend this place enough.
+
+The two women who run this place make dinner for you in an old washing machine (not kidding), and play the best music during dinner which is made from ingredients grown on their property. I’m not kidding when I say that our dinner had actual flowers cooked into it.

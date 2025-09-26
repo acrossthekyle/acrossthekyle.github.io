@@ -1,0 +1,15 @@
+The terrain and biome started to change almost immediately as I left Deurali and headed for Annapurna Basecamp. Green bushes and grasses gave way to mostly bare rock faces covered in thing yellow grasses as I headed deeper and higher into the valley between the mountainsides.
+
+I felt like a tiny nothing while hiking through these massive rock formations. After an hour or so the first patches of snow started to appear. The world around me had been jungle not 60 minutes earlier, and now here I was suddenly transported to a new world.
+
+There was a refuge on the way to Basecamp, but I wanted to be surrounded by snow, and kept going. A helicopter kept droning overhead as it went up and down the valley. My guess was resupply, but I later found out it was bringing tourists up to Basecamp, allowing them to bypass the hike altogether.
+
+Clouds started to build as I continued on, now walking through inches of snow and over icy surfaces. Fresh snow must have fallen last night, because the trail was hard to find, and I ended up doing a little bit of bushwacking as I made my way. Up ahead though I could see the Basecamp refuge as clouds started to fill the world around me. More snow was coming, but I had made it just in time.
+
+It didn't take long to get to Basecamp from Deurali, maybe 3 hours max? I could have probably made it yesterday, if it weren't for the rain which was most likely snow up at these elevations. My cash was running out, and I ended up having to sharing a room with a French couple I had met down in Chomrong. After getting settled in and taking a nice hot shower, I went to the good-sized dining hall to hang out, eat, read, and enjoy this winter wonderland around me.
+
+The snow storm lasted for a few hours, and after it passed the skies were a crystal-clear blue with some remaining clouds scooting along the surface in a weird fog/cloud-inversion mix. I took this opportunity to walk around a bit and checkout a dropoff nearby that had some great cloud-inversion going on.
+
+I made a lot of progress on my book today, seeing as how I had arrived by late morning. A couple of dogs that lived around the refuges (not sure if they had owners) kept trying to sneak into the dining hall to get out of the cold and to beg for food, but the hosts kept shooing them out.
+
+During lunch and dinner I made some friends with a couple of Americans from Colorado and Washington. They seemed like decent people. After the sun set there wasn't much more reading I could do in the dim lights of the dining hall. Didn't matter though, I wanted to go to bed early in order to wake up to see the sunrise.

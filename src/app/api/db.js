@@ -2187,7 +2187,7 @@ const data = [
         ],
         "image": "2019/07/16/eb243b48-8084-4c7e-94c0-5a163983d407.jpeg",
         "location": null,
-        "readingTime": "4",
+        "readingTime": "3",
         "termini": {
           "end": [
             "Rifugio Averau"
