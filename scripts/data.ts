@@ -9,6 +9,8 @@ import kebabCase from 'lodash.kebabcase';
 import fs from 'fs';
 import fsPromises from 'fs/promises';
 import path from 'path';
+import matter from 'gray-matter';
+import readingTime from 'reading-time';
 
 const trips = path.join(process.cwd(), './repository');
 const output = path.join(process.cwd(), './src/app/api');
@@ -272,6 +274,27 @@ async function parseGpx(folder: string) {
   }
 }
 
+async function parseMdx(folder) {
+  if (!fs.existsSync(path.join(trips, `${folder}/post.mdx`))) {
+    return {
+      description: undefined,
+      readingTime: undefined,
+    };
+  }
+
+  const mdx = fs.readFileSync(
+    path.join(trips, `${folder}/post.mdx`),
+    'utf-8',
+  );
+
+  const { content } = matter(mdx);
+
+  return {
+    description: content.replace(/<[^>]*>/g, '').split(/\n\s*\n/).map(p => p.replace(/\n/g, ' ').trim()).filter(Boolean),
+    readingTime: Math.ceil(readingTime(content).minutes).toFixed(0),
+  };
+}
+
 function formatNumber(value) {
   return new Intl.NumberFormat().format(Number(value).toFixed(0));
 }
@@ -300,6 +323,8 @@ async function getStages(folder) {
       ));
 
       const { elevation, route } = await parseGpx(`${folder}/stages/${stageFolder}`);
+
+      const { description, readingTime } = await parseMdx(`${folder}/stages/${stageFolder}`);
 
       let stats = {
         distance: null,
@@ -402,12 +427,13 @@ async function getStages(folder) {
 
       stages.push({
         date: data.date,
-        description: data.description || undefined,
+        description,
         elevation,
         hasStats: !Object.values(stats).every(value => value === null),
         image: data.image,
         index: null,
         location: data.location || null,
+        readingTime,
         route,
         stats,
         termini: {
@@ -708,11 +734,12 @@ async function go() {
         //   route,
         // })),
         slug,
-        stages: stages.map(({ date, description, image, location, stats, termini }) => ({
+        stages: stages.map(({ date, description, image, location, readingTime, stats, termini }) => ({
           date,
           description,
           image,
           location,
+          readingTime,
           // stats,
           termini,
         })),

@@ -1,4 +1,4 @@
-import { ArrowUpRight, MoveDiagonal } from 'lucide-react';
+import { ArrowUpRight, MoveDiagonal2 } from 'lucide-react';
 
 import type { Stage } from '@/types';
 import {
@@ -40,7 +40,7 @@ export default function Pictures({ slug, stages }: Props) {
                   sizes="(max-width: 768px) 100vw, 50vw"
                   width={1920}
                 />
-                {stage.description ? (
+                {stage.hasPost ? (
                   <ImageCaption>
                     <ImageCaptionEyebrow>
                       {String(index + 1).padStart(2, '0')}.
@@ -49,7 +49,7 @@ export default function Pictures({ slug, stages }: Props) {
                       <span className="block" key={word}>{word}</span>
                     ))}
                     <ImageCaptionSubtitle>
-                      {stage.date} • 4 min read
+                      {stage.date} • {stage.readingTime} min read
                       <ArrowUpRight aria-hidden="true" className={styles.arrow} />
                     </ImageCaptionSubtitle>
                   </ImageCaption>
@@ -57,11 +57,11 @@ export default function Pictures({ slug, stages }: Props) {
                   <ImageCaption>
                     <ImageCaptionSubtitle>
                       {stage.termini.end.join(' ')} - {stage.date}
-                      <MoveDiagonal aria-hidden="true" className={styles.arrow} />
+                      <MoveDiagonal2 aria-hidden="true" className={styles.arrow} />
                     </ImageCaptionSubtitle>
                   </ImageCaption>
                 )}
-                {stage.description ? (
+                {stage.hasPost ? (
                   <ImageLink
                     href={`/experiences/${slug}/${String(index + 1).padStart(2, '0')}`}
                   />

@@ -21,6 +21,7 @@ export async function GET(request, { params }) {
     date: result.date,
     description: result.description,
     experience: found.title.join(' '),
+    readingTime: result.readingTime,
     title: result.termini.end.join(' '),
   });
 }

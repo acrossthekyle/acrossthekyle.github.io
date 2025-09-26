@@ -10,6 +10,7 @@ import styles from './stylesheet';
 type Post = {
   date?: string;
   description?: string[];
+  readingTime?: string;
   title?: string;
 }
 
@@ -19,7 +20,7 @@ type Props = {
 };
 
 export default function View({ post, slug }: Props) {
-  const { date, description, title } = use(post);
+  const { date, description, readingTime, title } = use(post);
 
   return (
     <>
@@ -32,6 +33,7 @@ export default function View({ post, slug }: Props) {
               <h1 className={styles.heading}>
                 {title}
                 <span className={styles.lid}>{date}</span>
+                <span className={styles.time}>{readingTime} min read</span>
               </h1>
             </header>
           )}

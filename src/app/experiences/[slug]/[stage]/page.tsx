@@ -46,7 +46,7 @@ export default async function Page({ params }: { params: Params }) {
   const data = getData(slug, stage);
 
   return (
-    <Suspense fallback={<div className="fixed inset-0 z-5 backdrop-blur-md bg-black/80 opacity-0 animate-in-fade-quick" />}>
+    <Suspense fallback={<div className="fixed inset-0 z-5 bg-black base:backdrop-blur-md base:bg-black/80 opacity-0 animate-in-fade-quick" />}>
       <View post={data} slug={slug} />
     </Suspense>
   );

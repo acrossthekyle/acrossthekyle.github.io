@@ -11,9 +11,10 @@ export type Termini = {
 
 export type Stage = {
   date: string;
-  description?: string[];
+  hasPost: boolean;
   image: string;
   location: string;
+  readingTime?: string;
   termini: Termini;
 };
 

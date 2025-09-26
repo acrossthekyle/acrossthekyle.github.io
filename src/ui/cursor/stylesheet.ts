@@ -2,6 +2,7 @@ import tw from '@/styles';
 
 const styles = {
   inner: (isPressed: boolean) => tw(`
+    hidden
     fixed z-9999
     ${isPressed ? 'w-6 h-6' : 'w-4 h-4'}
     rounded-full
@@ -10,8 +11,11 @@ const styles = {
     pointer-events-none
     transition-[width,height,border]
     duration-200
+
+    base:block
   `),
   outer: (isPressed: boolean) => tw(`
+    hidden
     fixed left-0 top-0 z-9999
     ${isPressed ? 'w-4 h-4' : 'w-12 h-12'}
     rounded-full
@@ -25,6 +29,8 @@ const styles = {
     `}
     pointer-events-none
     duration-200
+
+    base:block
   `),
 };
 
