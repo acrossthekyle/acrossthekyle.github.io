@@ -42,6 +42,11 @@ const styles = tw({
     w-full h-full
     text-left
   `,
+  arrow: `
+    absolute right-4 bottom-4
+    w-3.5 h-3.5
+    stroke-2
+  `,
 });
 
 export default styles;

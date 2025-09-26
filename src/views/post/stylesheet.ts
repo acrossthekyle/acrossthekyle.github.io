@@ -2,38 +2,37 @@ import tw from '@/styles';
 
 const styles = tw({
   backdrop: `
+    hidden
     fixed inset-0 z-5
     h-full w-full
     bg-black
 
+    base:block
     base:backdrop-blur-md
     base:bg-black/80
   `,
   container: `
-    fixed inset-0 z-6
-    flex flex-col
+    block
     w-full h-full
     bg-transparent
     text-white/90
-    overflow-y-scroll
-    overscroll-contain
+    mt-12
 
-    base:flex-row
+    base:mt-0
+    base:overscroll-contain
+    base:overflow-y-scroll
+    base:fixed
+    base:inset-0
+    base:z-6
   `,
   close: `
-    relative z-1
-    flex justify-start
-    w-full
-    pt-4 pl-2
+    hidden
+    fixed top-12 right-12 z-1
+    justify-start
     opacity-0
     animate-in-fade-delayed
 
-    base:w-auto
-    base:fixed
-    base:top-12
-    base:right-12
-    base:pt-0
-    base:pl-0
+    base:flex
   `,
   x: `
     stroke-1 stroke-white/90
@@ -70,6 +69,11 @@ const styles = tw({
     mt-1
     text-tiny text-white/75
     font-medium font-stretch-normal
+  `,
+  figure: `
+    w-full
+
+    base:max-w-lg
   `,
   content: `
     w-full

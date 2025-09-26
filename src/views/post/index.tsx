@@ -3,6 +3,15 @@
 import { use } from 'react';
 
 import { Article } from '@/ui/article';
+import {
+  Image,
+  ImageFigure,
+  ImageMaximize,
+  ImageOptions,
+  ImagePlaceholder,
+  ImageRotateWarning,
+  ImageSkeleton,
+} from '@/ui/image';
 
 import Toggle from './toggle';
 import styles from './stylesheet';
@@ -10,6 +19,7 @@ import styles from './stylesheet';
 type Post = {
   date?: string;
   description?: string[];
+  image: string;
   readingTime?: string;
   title?: string;
 }
@@ -20,7 +30,7 @@ type Props = {
 };
 
 export default function View({ post, slug }: Props) {
-  const { date, description, readingTime, title } = use(post);
+  const { date, description, image, readingTime, title } = use(post);
 
   return (
     <>
@@ -37,6 +47,22 @@ export default function View({ post, slug }: Props) {
               </h1>
             </header>
           )}
+          <ImageFigure className={styles.figure}>
+            <Image src={image}>
+              <ImagePlaceholder>
+                <ImageOptions
+                  alt=""
+                  colorize
+                  height={1080}
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  width={1920}
+                />
+                <ImageMaximize />
+                <ImageRotateWarning />
+                <ImageSkeleton />
+              </ImagePlaceholder>
+            </Image>
+          </ImageFigure>
           <section className={styles.content}>
             {(description || []).map((paragraph, index) => (
               <p className={styles.paragraph} key={index}>{paragraph}</p>

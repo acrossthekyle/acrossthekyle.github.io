@@ -4,11 +4,13 @@ import { notFound } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
 import { useData } from '@/hooks/useData';
+import { useHierarchy } from '@/hooks/useHierarchy';
 import type { Data } from '@/types';
 
 type Model = {
   data?: Data;
   handleOnScrollEnd: () => void;
+  isOnGrandChild: boolean;
   shown: number;
 };
 
@@ -16,6 +18,8 @@ const AMOUNT_SHOWN = 6;
 
 export function useModel(slug: string): Model {
   const { find, isMissing, item } = useData();
+
+  const { isOnGrandChild } = useHierarchy();
 
   const [shown, setShown] = useState(AMOUNT_SHOWN);
 
@@ -39,6 +43,7 @@ export function useModel(slug: string): Model {
   return {
     data: item,
     handleOnScrollEnd,
+    isOnGrandChild,
     shown,
   };
 }

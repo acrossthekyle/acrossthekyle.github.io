@@ -1,5 +1,3 @@
-import { ArrowUpRight, MoveDiagonal2 } from 'lucide-react';
-
 import type { Stage } from '@/types';
 import {
   Image,
@@ -41,34 +39,33 @@ export default function Pictures({ slug, stages }: Props) {
                   width={1920}
                 />
                 {stage.hasPost ? (
-                  <ImageCaption>
-                    <ImageCaptionEyebrow>
-                      {String(index + 1).padStart(2, '0')}.
-                    </ImageCaptionEyebrow>
-                    {stage.termini.end.map((word) => (
-                      <span className="block" key={word}>{word}</span>
-                    ))}
-                    <ImageCaptionSubtitle>
-                      {stage.date} • {stage.readingTime} min read
-                      <ArrowUpRight aria-hidden="true" className={styles.arrow} />
-                    </ImageCaptionSubtitle>
-                  </ImageCaption>
+                  <>
+                    <ImageCaption>
+                      <ImageCaptionEyebrow>
+                        {String(index + 1).padStart(2, '0')}.
+                      </ImageCaptionEyebrow>
+                      {stage.termini.end.map((word) => (
+                        <span className="block" key={word}>{word}</span>
+                      ))}
+                      <ImageCaptionSubtitle>
+                        {stage.date} • {stage.readingTime} min read
+                      </ImageCaptionSubtitle>
+                    </ImageCaption>
+                    <ImageLink
+                      href={`/experiences/${slug}/${String(index + 1).padStart(2, '0')}`}
+                    />
+                  </>
                 ) : (
-                  <ImageCaption>
-                    <ImageCaptionSubtitle>
-                      {stage.termini.end.join(' ')} - {stage.date}
-                      <MoveDiagonal2 aria-hidden="true" className={styles.arrow} />
-                    </ImageCaptionSubtitle>
-                  </ImageCaption>
-                )}
-                {stage.hasPost ? (
-                  <ImageLink
-                    href={`/experiences/${slug}/${String(index + 1).padStart(2, '0')}`}
-                  />
-                ) : (
-                  <ImageMaximize
-                    caption={`${stage.termini.end.join(' ')} - ${stage.date}`}
-                  />
+                  <>
+                    <ImageCaption>
+                      <ImageCaptionSubtitle>
+                        {stage.termini.end.join(' ')} - {stage.date}
+                      </ImageCaptionSubtitle>
+                    </ImageCaption>
+                    <ImageMaximize
+                      caption={`${stage.termini.end.join(' ')} - ${stage.date}`}
+                    />
+                  </>
                 )}
                 <ImageRotateWarning />
                 <ImageSkeleton />

@@ -1,11 +1,14 @@
 'use client';
 
+import { useRouter } from 'next/navigation';
+
 import { useHierarchy } from '@/hooks/useHierarchy';
 
 import { routes } from '../constants';
-import type { Model } from './types';
 
-export function useModel(): Model {
+export function useModel() {
+  const router = useRouter();
+
   const {
     isOnChild,
     isOnGrandChild,
@@ -16,11 +19,7 @@ export function useModel(): Model {
 
   let uri = '/';
 
-  if (isOnGrandChild) {
-    const parts = path.split('/');
-
-    uri = parts.slice(0, -1).join('/');
-  } else if (isOnChild) {
+  if (isOnChild) {
     const route = routes.find(route => path.includes(route.base));
 
     if (route) {
@@ -28,7 +27,13 @@ export function useModel(): Model {
     }
   }
 
+  const handleOnBack = () => {
+    router.back();
+  };
+
   return {
+    handleOnBack,
+    isOnGrandChild,
     isOnParent,
     isOnRoot,
     uri,

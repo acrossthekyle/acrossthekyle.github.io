@@ -5,7 +5,9 @@ const styles = {
     relative
 
     ${isLoading && `
-      aspect-3/2
+      aspect-square
+
+      base:aspect-3/2
     `}
   `),
 };

@@ -2,9 +2,6 @@
 
 import { X } from 'lucide-react';
 import { useRouter } from 'next/navigation';
-import { useEffect } from 'react';
-
-import { useEvent } from '@/hooks/useEvent';
 
 import styles from './stylesheet';
 
@@ -15,17 +12,7 @@ type Props = {
 export default function Toggle({ slug }: Props) {
   const router = useRouter();
 
-  useEffect(() => {
-    document.documentElement.classList.add('overflow-hidden');
-  }, []);
-
-  useEvent('onEscape', () => {
-    handleOnClose();
-  });
-
   const handleOnClose = () => {
-    document.documentElement.classList.remove('overflow-hidden');
-
     router.push(`/experiences/${slug}`);
   };
 

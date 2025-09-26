@@ -1,3 +1,4 @@
+import { ArrowUpRight } from 'lucide-react';
 import NextJsLink from 'next/link';
 
 import styles from './stylesheet';
@@ -11,6 +12,7 @@ export default function Link({ children, href }: Props) {
   return (
     <NextJsLink className={styles.action} href={href}>
       {children}
+      <ArrowUpRight aria-hidden="true" className={styles.arrow} />
     </NextJsLink>
   );
 }
