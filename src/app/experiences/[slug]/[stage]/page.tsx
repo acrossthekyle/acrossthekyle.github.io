@@ -3,6 +3,8 @@ import { Suspense } from 'react';
 
 import View from '@/views/post';
 
+import styles from './stylesheet';
+
 type Params = Promise<{
   slug: string;
   stage: string;
@@ -29,8 +31,8 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
 
   if (data === null) {
     return {
-      title: 'Post Not Found',
-      description: 'That post does not exist',
+      title: '404: Post Not Found',
+      description: 'Post does not exist',
     };
   }
 
@@ -46,7 +48,7 @@ export default async function Page({ params }: { params: Params }) {
   const data = getData(slug, stage);
 
   return (
-    <Suspense fallback={<div className="fixed inset-0 z-5 bg-black base:backdrop-blur-md base:bg-black/80 opacity-0 animate-in-fade-quick" />}>
+    <Suspense fallback={<div className={styles.fallback} />}>
       <View post={data} slug={slug} />
     </Suspense>
   );

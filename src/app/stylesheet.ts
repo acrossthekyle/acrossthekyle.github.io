@@ -14,9 +14,11 @@ const styles = tw({
   `,
   loader: (isLoaded: boolean) => tw(`
     fixed inset-0 z-9999
-    flex flex-col justify-start
+    flex flex-col justify-end
     p-6
-    font-black text-xl
+    font-black
+    text-5xl/10
+    uppercase
     bg-black
 
     ${isLoaded ? `

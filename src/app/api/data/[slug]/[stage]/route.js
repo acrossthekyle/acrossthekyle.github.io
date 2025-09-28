@@ -20,6 +20,7 @@ export async function GET(request, { params }) {
   return NextResponse.json({
     date: result.date,
     description: result.description,
+    experience: found.title.join(' '),
     image: result.image,
     readingTime: result.readingTime,
     title: result.termini.end.join(' '),

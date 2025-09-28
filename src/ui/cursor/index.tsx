@@ -46,8 +46,8 @@ export default function Cursor() {
 
   return (
     <>
-      <div className={styles.inner(isPressed)} ref={inner} />
-      <div className={styles.outer(isPressed)} ref={outer} />
+      <div className={`${styles.inner(isPressed)} cursor-custom`} ref={inner} />
+      <div className={`${styles.outer(isPressed)} cursor-custom`} ref={outer} />
     </>
   );
 };

@@ -30,7 +30,33 @@ type Props = {
 };
 
 export default function View({ post, slug }: Props) {
-  const { date, description, image, readingTime, title } = use(post);
+  const data = use(post);
+
+  if (!data) {
+    return (
+      <>
+        <div className={styles.backdrop} />
+        <dialog className={styles.container}>
+          <Toggle slug={slug} />
+          <Article className={styles.article}>
+            <header className={styles.header}>
+              <h1 className={styles.heading}>
+                Not Found
+                <span className={styles.lid}>404</span>
+              </h1>
+            </header>
+            <section className={styles.content}>
+              <p className={styles.paragraph}>
+                Post does not exist.
+              </p>
+            </section>
+          </Article>
+        </dialog>
+      </>
+    );
+  }
+
+  const { date, description, image, readingTime, title } = data;
 
   return (
     <>

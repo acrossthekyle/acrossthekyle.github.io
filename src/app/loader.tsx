@@ -14,15 +14,13 @@ export default function Loader() {
   return (
     <div className={styles.loader(isLoaded)}>
       <p className={styles.message(isLoaded)}>
-        <span className={styles.one}>
-          Loading...
-        </span>
-        <span className={styles.two}>
-          almost there...
-        </span>
-        <span className={styles.three}>
-          any second now...
-        </span>
+        Great<br />
+        Work<br />
+        Takes<br />
+        Time
+        <span className={styles.one}>.</span>
+        <span className={styles.two}>.</span>
+        <span className={styles.three}>.</span>
       </p>
     </div>
   );

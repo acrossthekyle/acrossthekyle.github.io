@@ -8,8 +8,6 @@ const styles = tw({
     bg-black
 
     base:block
-    base:backdrop-blur-md
-    base:bg-black/80
   `,
   container: `
     block
