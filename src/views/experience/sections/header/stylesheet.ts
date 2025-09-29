@@ -3,7 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   header: `
     block
-    mb-1
+    mb-2
     text-5xl/10
     font-black font-stretch-extra-condensed
     tracking-tighter
@@ -20,8 +20,8 @@ const styles = tw({
   date: `
     block
     mb-10
-    text-base
-    font-medium
+    text-sm
+    font-semibold
     uppercase
 
     deci:mb-12

@@ -95,7 +95,7 @@ const styles = tw({
       hover:text-white/90
       group-hover/list:text-white/25
 
-      ${!isInView && 'text-white/10 origin-top-left scale-60 base:scale-100 base:text-white/90'}
+      ${!isInView && 'text-white/10 base:text-white/90'}
     `);
   },
 });
