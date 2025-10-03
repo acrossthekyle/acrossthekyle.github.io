@@ -63,7 +63,7 @@ const store = create<State & Actions>()(
           isZoomed: false,
           size: undefined,
         });
-      }, 300);
+      }, 500);
     },
   }),
 );

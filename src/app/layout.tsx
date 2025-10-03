@@ -6,7 +6,6 @@ import { introduction } from '@/constants';
 import Hierarchy from '@/contexts/hierarchy';
 import Layout from '@/layouts/root';
 import { KeyboardListener } from '@/listeners';
-import Cursor from '@/ui/cursor';
 
 import Body from './body';
 import Loader from './loader';
@@ -64,7 +63,6 @@ export default function RootLayout({ children }: Props) {
           <Layout>
             {children}
           </Layout>
-          <Cursor />
           <Loader />
         </Body>
       </Hierarchy>

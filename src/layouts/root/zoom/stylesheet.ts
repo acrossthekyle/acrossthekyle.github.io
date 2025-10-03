@@ -23,7 +23,7 @@ const styles = {
   `),
   dialog: (isZoomed: boolean) => tw(`
     absolute
-    transform-gpu duration-300
+    transform-gpu duration-500
 
     ${isZoomed ? `
       z-100
