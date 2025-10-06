@@ -1,58 +1,41 @@
 import tw from '@/styles';
 
 const styles = tw({
-  backdrop: `
-    hidden
-    fixed inset-0 z-5
-    h-full w-full
-    bg-black
-
-    base:block
-  `,
   container: `
-    block
-    w-full h-full
+    relative
     bg-transparent
     text-white/90
-    mt-12
+    overflow-y-scroll
+    overscroll-contain
+    h-full w-full
+  `,
+  toggle: `
+    absolute top-2 right-2 z-1
+    flex justify-end
 
-    base:mt-0
-    base:overscroll-contain
-    base:overflow-y-scroll
-    base:fixed
-    base:inset-0
-    base:z-6
+    deka:top-12
+    deka:right-12
   `,
   close: `
     hidden
-    fixed top-12 right-12 z-1
-    justify-start
     opacity-0
     animate-in-fade-delayed
 
-    base:flex
+    base:block
   `,
   x: `
     stroke-1 stroke-white/90
   `,
   article: `
-    relative
-    flex-none
-    flex flex-col items-center gap-8
-    w-full
-    !pt-0
-    opacity-0
-    !animate-in-fade-delayed
+    flex flex-col gap-8
   `,
   header: `
     w-full
-    pt-2
 
-    base:pt-14
-    base:max-w-lg
+    base:pr-12
   `,
   heading: `
-    text-3xl text-left
+    text-3xl/6 text-left
     font-black font-stretch-semi-condensed
     uppercase
   `,
@@ -64,19 +47,15 @@ const styles = tw({
   `,
   time: `
     block
-    mt-1
     text-tiny text-white/75
     font-medium font-stretch-normal
   `,
   figure: `
+    block
     w-full
-
-    base:max-w-lg
   `,
   content: `
     w-full
-
-    base:max-w-lg
   `,
   paragraph: `
     pb-4

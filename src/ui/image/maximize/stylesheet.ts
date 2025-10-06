@@ -22,7 +22,6 @@ const styles = tw({
     landscape:hidden
   `,
   image: (isLandscape?: boolean) => tw(`
-    duration-500
     rounded-sm
 
     brightness-80

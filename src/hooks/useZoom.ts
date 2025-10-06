@@ -63,7 +63,7 @@ const store = create<State & Actions>()(
           isZoomed: false,
           size: undefined,
         });
-      }, 500);
+      }, 250);
     },
   }),
 );
@@ -119,7 +119,7 @@ export function useZoom() {
         top: 24,
         left: 24,
       });
-    }, 100);
+    }, 200);
 
     document.documentElement.classList.add('overflow-hidden');
   };

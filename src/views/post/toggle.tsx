@@ -23,8 +23,10 @@ export default function Toggle({ slug }: Props) {
   });
 
   return (
-    <button className={styles.close} onClick={handleOnClose} type="button">
-      <X className={styles.x} />
-    </button>
+    <div className={styles.toggle}>
+      <button className={styles.close} onClick={handleOnClose} type="button">
+        <X className={styles.x} />
+      </button>
+    </div>
   );
 }

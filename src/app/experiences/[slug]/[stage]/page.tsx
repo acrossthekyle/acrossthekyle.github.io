@@ -2,8 +2,7 @@ import type { Metadata } from 'next';
 import { Suspense } from 'react';
 
 import View from '@/views/post';
-
-import styles from './stylesheet';
+import Loading from '@/views/post/loading';
 
 type Params = Promise<{
   slug: string;
@@ -48,7 +47,7 @@ export default async function Page({ params }: { params: Params }) {
   const data = getData(slug, stage);
 
   return (
-    <Suspense fallback={<div className={styles.fallback} />}>
+    <Suspense fallback={<Loading />}>
       <View post={data} slug={slug} />
     </Suspense>
   );
