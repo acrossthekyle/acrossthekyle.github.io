@@ -3,15 +3,6 @@
 import { use } from 'react';
 
 import { Article } from '@/ui/article';
-import {
-  Image,
-  ImageFigure,
-  ImageMaximize,
-  ImageOptions,
-  ImagePlaceholder,
-  ImageRotateWarning,
-  ImageSkeleton,
-} from '@/ui/image';
 
 import Toggle from './toggle';
 import styles from './stylesheet';
@@ -53,7 +44,7 @@ export default function View({ post, slug }: Props) {
     );
   }
 
-  const { date, description, image, readingTime, title } = data;
+  const { date, description, readingTime, title } = data;
 
   return (
     <dialog className={styles.container} open>
@@ -68,21 +59,6 @@ export default function View({ post, slug }: Props) {
             </h1>
           </header>
         )}
-        <ImageFigure className={styles.figure}>
-          <Image src={image}>
-            <ImagePlaceholder>
-              <ImageOptions
-                alt=""
-                height={1080}
-                sizes="(max-width: 768px) 100vw, 50vw"
-                width={1920}
-              />
-              <ImageMaximize />
-              <ImageRotateWarning />
-              <ImageSkeleton />
-            </ImagePlaceholder>
-          </Image>
-        </ImageFigure>
         <section className={styles.content}>
           {(description || []).map((paragraph, index) => (
             <p className={styles.paragraph} key={index}>{paragraph}</p>

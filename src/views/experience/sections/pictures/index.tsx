@@ -22,7 +22,7 @@ type Props = {
 
 export default function Pictures({ slug, stages }: Props) {
   return (
-    <ul className={styles.list}>
+    <ul className={styles.list} id="images">
       {stages.map((stage, index) => (
         <li className={styles.item} key={index}>
           <ImageFigure>
@@ -38,34 +38,30 @@ export default function Pictures({ slug, stages }: Props) {
                   sizes="(max-width: 768px) 100vw, 50vw"
                   width={1920}
                 />
-                {stage.hasPost ? (
-                  <>
-                    <ImageCaption>
-                      <ImageCaptionEyebrow>
-                        {String(index + 1).padStart(2, '0')}.
-                      </ImageCaptionEyebrow>
-                      {stage.termini.end.map((word) => (
-                        <span className="block" key={word}>{word}</span>
-                      ))}
-                      <ImageCaptionSubtitle>
-                        {stage.date} • {stage.readingTime} min read
-                      </ImageCaptionSubtitle>
-                    </ImageCaption>
-                    <ImageLink
-                      href={`/experiences/${slug}/${String(index + 1).padStart(2, '0')}`}
-                    />
-                  </>
-                ) : (
-                  <>
-                    <ImageCaption>
-                      <ImageCaptionSubtitle>
-                        {stage.termini.end.join(' ')} - {stage.date}
-                      </ImageCaptionSubtitle>
-                    </ImageCaption>
-                    <ImageMaximize
-                      caption={`${stage.termini.end.join(' ')} - ${stage.date}`}
-                    />
-                  </>
+
+
+                <ImageCaption>
+                  <ImageCaptionEyebrow>
+                    {String(index + 1).padStart(2, '0')}.
+                  </ImageCaptionEyebrow>
+                  {stage.termini.end.map((word) => (
+                    <span className="block" key={word}>{word}</span>
+                  ))}
+                  <ImageCaptionSubtitle>
+                    {stage.date}
+                  </ImageCaptionSubtitle>
+                </ImageCaption>
+                <ImageMaximize
+                  caption={stage.termini.end}
+                  eyebrow={`${String(index + 1).padStart(2, '0')}.`}
+                  subtitle={stage.date}
+                />
+                {stage.hasPost && (
+                  <ImageLink
+                    href={`/experiences/${slug}/${String(index + 1).padStart(2, '0')}`}
+                  >
+                    Read Journal
+                  </ImageLink>
                 )}
                 <ImageRotateWarning />
                 <ImageSkeleton />

@@ -5,6 +5,7 @@ const wrapper = `
   absolute inset-0
   w-full h-full
   text-left
+  !cursor-zoom-in
 `;
 
 const styles = tw({
@@ -40,11 +41,7 @@ const styles = tw({
     flex items-center justify-center
     w-full h-full
     text-left
-  `,
-  arrow: `
-    absolute right-4 bottom-4
-    w-3.5 h-3.5
-    stroke-2
+    !cursor-zoom-out
   `,
 });
 

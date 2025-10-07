@@ -9,6 +9,13 @@ export default function Loading() {
         <span className={`${styles.hero} ${styles.short}`} />
         <span className={`${styles.hero} ${styles.long}`} />
       </h1>
+      <ul className={`${styles.stages} ${styles.skeleton}`}>
+        {Array.from({ length: 6 }).map((_, index) => (
+          <li key={index}>
+            <span className={styles.image} />
+          </li>
+        ))}
+      </ul>
       {Array.from({ length: 1 }).map((_, index) => (
         <p className={`${styles.paragraph} ${styles.skeleton}`} key={index}>
           <span className={`${styles.word} ${styles.small}`} />
@@ -25,13 +32,6 @@ export default function Loading() {
           <span className={`${styles.word} ${styles.tiny}`} />
         </p>
       ))}
-      <ul className={`${styles.stages} ${styles.skeleton}`}>
-        {Array.from({ length: 6 }).map((_, index) => (
-          <li key={index}>
-            <span className={styles.image} />
-          </li>
-        ))}
-      </ul>
     </Article>
   );
 }

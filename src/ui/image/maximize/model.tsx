@@ -6,7 +6,11 @@ import { useContext, useRef } from 'react';
 import { useZoom } from '@/hooks/useZoom';
 
 import { ImageContext } from '../context';
-import { ImageCaption, ImageCaptionSubtitle } from '../index';
+import {
+  ImageCaption,
+  ImageCaptionEyebrow,
+  ImageCaptionSubtitle,
+} from '../index';
 import styles from './stylesheet';
 
 type Model = {
@@ -15,7 +19,11 @@ type Model = {
   zoomRef: React.RefObject<HTMLButtonElement | null>;
 };
 
-export function useModel(caption?: string): Model {
+export function useModel(
+  caption: string[],
+  eyebrow: string,
+  subtitle: string,
+): Model {
   const {
     isLandscapeOrientation,
     onMaximized,
@@ -45,20 +53,24 @@ export function useModel(caption?: string): Model {
           type="button"
         >
           <Image
-            alt={caption || 'fullscreen image'}
+            alt={caption.join(' ')}
             className={styles.image(isLandscapeOrientation)}
             height={1080}
             sizes="(max-width: 768px) 100vw, 50vw"
             src={src}
             width={1920}
           />
-          {caption && (
-            <ImageCaption>
-              <ImageCaptionSubtitle>
-                {caption}
-              </ImageCaptionSubtitle>
-            </ImageCaption>
-          )}
+          <ImageCaption>
+            <ImageCaptionEyebrow>
+              {eyebrow}
+            </ImageCaptionEyebrow>
+            {caption.map((word) => (
+              <span className="block" key={word}>{word}</span>
+            ))}
+            <ImageCaptionSubtitle>
+              {subtitle}
+            </ImageCaptionSubtitle>
+          </ImageCaption>
         </button>
       ),
       ref: zoomRef,

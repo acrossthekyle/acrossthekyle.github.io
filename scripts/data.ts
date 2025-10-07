@@ -727,14 +727,14 @@ async function go() {
       data.push({
         date,
         description: formatDescription(trip, stats),
-        // gear,
-        // hasGear: gear !== null,
-        // hasRoutes,
-        // label: getLabel(trip.type),
-        // location: trip.location,
-        // routes: [...stages].map(({ route }) => ({
-        //   route,
-        // })),
+        gear,
+        hasGear: gear !== null,
+        hasRoutes,
+        label: getLabel(trip.type),
+        location: trip.location,
+        routes: [...stages].map(({ route }) => ({
+          route,
+        })),
         slug,
         stages: stages.map(({ date, description, image, location, readingTime, stats, termini }) => ({
           date,
@@ -742,18 +742,18 @@ async function go() {
           image,
           location,
           readingTime,
-          // stats,
+          stats,
           termini,
         })),
-        // stats: {
-        //   altitude: stats.altitude,
-        //   days: stats.days,
-        //   distance: stats.distance,
-        //   length: stats.length,
-        // },
+        stats: {
+          altitude: stats.altitude,
+          days: stats.days,
+          distance: stats.distance,
+          length: stats.length,
+        },
         timestamp: trip.timestamp,
         title: turnStringIntoArrayForLists(trip.title),
-        // type: trip.type,
+        type: trip.type,
       });
     }),
   );

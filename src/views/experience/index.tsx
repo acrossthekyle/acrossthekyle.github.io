@@ -5,6 +5,7 @@ import { Article } from '@/ui/article';
 import { Header, Overview, Pictures } from './sections';
 import Loading from './loading';
 import { useModel } from './model';
+import Shortcuts from './shortcuts';
 import styles from './stylesheet';
 
 type Props = {
@@ -12,20 +13,18 @@ type Props = {
 };
 
 export default function Layout({ slug }: Props) {
-  const { handleOnScrollEnd, isOnGrandChild, shown, data } = useModel(slug);
+  const { data, isOnGrandChild } = useModel(slug);
 
   if (!data) {
     return <Loading />;
   }
 
   return (
-    <Article
-      className={styles.article(isOnGrandChild)}
-      onScrollEnd={handleOnScrollEnd}
-    >
-      <Header date={data.date} title={data.title} />
-      <Overview data={data} />
-      <Pictures slug={slug} stages={[...data.stages].splice(0, shown)} />
+    <Article className={styles.article(isOnGrandChild)}>
+      <Shortcuts slug={slug} />
+      <Header title={data.title} />
+      <Pictures slug={slug} stages={data.stages} />
+      <Overview description={data.description} />
     </Article>
   );
 }

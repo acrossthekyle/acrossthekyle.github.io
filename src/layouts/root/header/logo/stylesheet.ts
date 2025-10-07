@@ -23,7 +23,7 @@ const styles = tw({
       ${common}
 
       left-full
-      -ml-10
+      -ml-9
 
       base:ml-0
       base:left-3

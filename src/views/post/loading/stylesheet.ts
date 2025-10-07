@@ -6,7 +6,6 @@ const styles = tw({
     !p-0
     !py-12
     !px-2
-    border-l-1 border-l-white/20
   `,
   skeleton: `
     animate-pulse

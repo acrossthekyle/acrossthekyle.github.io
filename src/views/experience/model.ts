@@ -1,7 +1,7 @@
 'use client';
 
 import { notFound } from 'next/navigation';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 import { useData } from '@/hooks/useData';
 import { useHierarchy } from '@/hooks/useHierarchy';
@@ -9,19 +9,13 @@ import type { Data } from '@/types';
 
 type Model = {
   data?: Data;
-  handleOnScrollEnd: () => void;
   isOnGrandChild: boolean;
-  shown: number;
 };
-
-const AMOUNT_SHOWN = 6;
 
 export function useModel(slug: string): Model {
   const { find, isMissing, item } = useData();
 
   const { isOnGrandChild } = useHierarchy();
-
-  const [shown, setShown] = useState(AMOUNT_SHOWN);
 
   useEffect(() => {
     find(slug);
@@ -36,14 +30,8 @@ export function useModel(slug: string): Model {
     }
   }, [isMissing]);
 
-  const handleOnScrollEnd = () => {
-    setShown((previous) => previous + AMOUNT_SHOWN);
-  };
-
   return {
     data: item,
-    handleOnScrollEnd,
     isOnGrandChild,
-    shown,
   };
 }

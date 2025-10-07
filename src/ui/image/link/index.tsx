@@ -11,7 +11,7 @@ type Props = {
 export default function Link({ children, href }: Props) {
   return (
     <NextJsLink className={styles.action} href={href}>
-      {children}
+      <span className={styles.child}>{children}</span>
       <ArrowUpRight aria-hidden="true" className={styles.arrow} />
     </NextJsLink>
   );

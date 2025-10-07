@@ -50,10 +50,6 @@ const styles = tw({
     text-tiny text-white/75
     font-medium font-stretch-normal
   `,
-  figure: `
-    block
-    w-full
-  `,
   content: `
     w-full
   `,

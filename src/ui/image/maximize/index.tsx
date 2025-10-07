@@ -1,16 +1,20 @@
 'use client';
 
-import { MoveDiagonal2 } from 'lucide-react';
-
 import { useModel } from './model';
 import styles from './stylesheet';
 
 type Props = {
-  caption?: string
+  caption: string[];
+  eyebrow: string;
+  subtitle: string;
 };
 
-export default function Maximize({ caption }: Props) {
-  const { handleOnMaximize, handleOnWarn, zoomRef } = useModel(caption);
+export default function Maximize({ caption, eyebrow, subtitle }: Props) {
+  const { handleOnMaximize, handleOnWarn, zoomRef } = useModel(
+    caption,
+    eyebrow,
+    subtitle,
+  );
 
   return (
     <>
@@ -19,9 +23,7 @@ export default function Maximize({ caption }: Props) {
         onClick={handleOnMaximize}
         ref={zoomRef}
         type="button"
-      >
-        <MoveDiagonal2 aria-hidden="true" className={styles.arrow} />
-      </button>
+      />
       <button
         className={styles.portrait}
         onClick={handleOnWarn}
