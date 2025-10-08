@@ -21,7 +21,7 @@ const styles = tw({
         h-10
         text-5xl/10
         font-black font-stretch-extra-condensed
-        tracking-tighter
+        tracking-tight
 
         pico:h-12
         pico:text-6xl/12

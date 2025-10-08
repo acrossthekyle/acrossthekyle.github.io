@@ -4,11 +4,9 @@ const styles = {
   item: (isOnRoot: boolean, isOnParent: boolean) => {
     const common = `
       opacity-0
-      animate-elastic-in-from-left
+      animate-elastic-in-from-right
       duration-200
       overflow-hidden
-
-      base:animate-elastic-in-from-right
     `;
 
     if (isOnRoot) {

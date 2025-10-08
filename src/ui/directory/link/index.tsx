@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import { useInView } from 'react-intersection-observer';
 
 import { useHierarchy } from '@/hooks/useHierarchy';
 
@@ -22,18 +21,14 @@ export default function DirectoryLink({
 }: Props) {
   const { isOnChild, isOnGrandChild, path, previous } = useHierarchy();
 
-  const [inViewRef, inView] = useInView({
-    threshold: .65,
-  });
-
   const isActive = isOnGrandChild ? path.includes(href) : path === href;
   const isExternal = href.includes('https://') || href.includes('mailto:');
 
   return (
     <Link
-      className={styles.link(isOnChild, isActive, inView, lines)}
+      className={styles.link(isOnChild, isActive, lines)}
       href={isActive ? (isOnGrandChild ? href : previous) : href}
-      ref={isActive ? ref : inViewRef}
+      ref={isActive ? ref : undefined}
       rel={isExternal ? 'noreferrer' : undefined}
       target={isExternal ? '_blank' : undefined}
     >

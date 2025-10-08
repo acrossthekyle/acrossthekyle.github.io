@@ -6,7 +6,7 @@ const styles = tw({
     mb-6
     text-5xl/10
     font-black font-stretch-extra-condensed
-    tracking-tighter
+    tracking-tight
     uppercase
 
     plank:text-6xl/12

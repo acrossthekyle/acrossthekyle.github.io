@@ -1,12 +1,7 @@
 import tw from '@/styles';
 
 const styles = tw({
-  link: (
-    isOnChild: boolean,
-    isActive: boolean,
-    isInView: boolean,
-    lines: number,
-  ) => {
+  link: (isOnChild: boolean, isActive: boolean, lines: number) => {
     const root = `
       group/link
 
@@ -79,7 +74,7 @@ const styles = tw({
 
       text-5xl/9.25
       font-black font-stretch-extra-condensed
-      tracking-tighter
+      tracking-tight
 
       pico:text-6xl/11.5
       milli:text-7xl/13.75
@@ -94,8 +89,6 @@ const styles = tw({
       hover:font-extralight
       hover:text-white/90
       group-hover/list:text-white/25
-
-      ${!isInView && 'text-white/10 base:text-white/90'}
     `);
   },
 });

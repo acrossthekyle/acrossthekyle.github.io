@@ -21,6 +21,7 @@ export async function GET(request, { params }) {
     date: result.date,
     description: result.description,
     experience: found.title.join(' '),
+    hasPost: result.description !== undefined && result.readingTime !== undefined,
     hasStats: result.hasStats,
     readingTime: result.readingTime,
     stats: result.stats,

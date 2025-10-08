@@ -8,10 +8,11 @@ const styles = tw({
     overflow-y-scroll
     overscroll-contain
     h-full w-full
-    pr-12
+
+    base:pr-12
   `,
   toggle: `
-    absolute top-2 right-2 z-1
+    fixed top-2 right-2 z-1
     flex justify-end
 
     deka:top-11
@@ -48,7 +49,7 @@ const styles = tw({
   `,
   time: `
     block
-    text-tiny text-white/75
+    text-xs
     font-medium font-stretch-normal
   `,
   content: `
@@ -56,8 +57,8 @@ const styles = tw({
   `,
   paragraph: `
     pb-4
-    text-base text-justify
-    font-normal
+    text-lg
+    font-light
 
     last:pb-0
   `,

@@ -12,6 +12,7 @@ import styles from './stylesheet';
 type Post = {
   date?: string;
   description?: string[];
+  hasPost: boolean;
   hasStats: boolean;
   readingTime?: string;
   stats: Stats;
@@ -47,17 +48,25 @@ export default function View({ post, slug }: Props) {
     );
   }
 
-  const { date, description, hasStats, readingTime, stats, title } = data;
+  const {
+    date,
+    description,
+    hasPost,
+    hasStats,
+    readingTime,
+    stats,
+    title,
+  } = data;
 
   return (
     <dialog className={styles.container} open>
       <Toggle slug={slug} />
       <Article className={styles.article}>
-        {title && date && (
+        {hasPost && title && date && (
           <header className={styles.header}>
             <h1 className={styles.heading}>
-              {title}
               <span className={styles.lid}>{date}</span>
+              {title}
               {readingTime && (
                 <span className={styles.time}>{readingTime} min read</span>
               )}

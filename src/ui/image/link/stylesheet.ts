@@ -10,6 +10,8 @@ const styles = tw({
     kilo:bottom-0.25
   `,
   child: `
+    inline-block
+    mr-1
     text-tiny text-white/90
     font-medium font-stretch-semi-expanded
     tracking-wider
