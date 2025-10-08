@@ -57,7 +57,7 @@ export default function Pictures({ slug, stages }: Props) {
                     {stage.hasPost ? (
                       <>View Journal{stage.hasStats ? ' & Stats' : ''}</>
                     ) : (
-                      <>View Stas</>
+                      <>View Stats</>
                     )}
                   </ImageLink>
                 )}
