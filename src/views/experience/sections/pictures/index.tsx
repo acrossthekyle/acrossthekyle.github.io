@@ -22,24 +22,18 @@ type Props = {
 
 export default function Pictures({ slug, stages }: Props) {
   return (
-    <ul className={styles.list} id="images">
+    <ul className={styles.list}>
       {stages.map((stage, index) => (
         <li className={styles.item} key={index}>
           <ImageFigure>
             <Image src={stage.image}>
               <ImagePlaceholder>
                 <ImageOptions
-                  alt={
-                    !stage.termini.isSame
-                      ? `${stage.termini.start.join(' ')} To ${stage.termini.end.join(' ')}`
-                      : stage.location
-                  }
+                  alt={stage.termini.end.join(' ')}
                   height={1080}
                   sizes="(max-width: 768px) 100vw, 50vw"
                   width={1920}
                 />
-
-
                 <ImageCaption>
                   <ImageCaptionEyebrow>
                     {String(index + 1).padStart(2, '0')}.
@@ -56,11 +50,15 @@ export default function Pictures({ slug, stages }: Props) {
                   eyebrow={`${String(index + 1).padStart(2, '0')}.`}
                   subtitle={stage.date}
                 />
-                {stage.hasPost && (
+                {(stage.hasPost || stage.hasStats) && (
                   <ImageLink
                     href={`/experiences/${slug}/${String(index + 1).padStart(2, '0')}`}
                   >
-                    Read Journal
+                    {stage.hasPost ? (
+                      <>View Journal{stage.hasStats ? ' & Stats' : ''}</>
+                    ) : (
+                      <>View Stas</>
+                    )}
                   </ImageLink>
                 )}
                 <ImageRotateWarning />

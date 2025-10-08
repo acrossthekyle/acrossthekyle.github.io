@@ -48,6 +48,7 @@ export function useModel(
     zoom({
       content: (
         <button
+          aria-label="minimize image"
           className={styles.minimize}
           onClick={handleOnMinimize}
           type="button"

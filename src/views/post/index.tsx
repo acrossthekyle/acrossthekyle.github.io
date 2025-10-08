@@ -3,15 +3,18 @@
 import { use } from 'react';
 
 import { Article } from '@/ui/article';
+import type { Stats } from '@/types';
 
+import Statistics from './stats';
 import Toggle from './toggle';
 import styles from './stylesheet';
 
 type Post = {
   date?: string;
   description?: string[];
-  image: string;
+  hasStats: boolean;
   readingTime?: string;
+  stats: Stats;
   title?: string;
 }
 
@@ -44,7 +47,7 @@ export default function View({ post, slug }: Props) {
     );
   }
 
-  const { date, description, readingTime, title } = data;
+  const { date, description, hasStats, readingTime, stats, title } = data;
 
   return (
     <dialog className={styles.container} open>
@@ -55,9 +58,14 @@ export default function View({ post, slug }: Props) {
             <h1 className={styles.heading}>
               {title}
               <span className={styles.lid}>{date}</span>
-              <span className={styles.time}>{readingTime} min read</span>
+              {readingTime && (
+                <span className={styles.time}>{readingTime} min read</span>
+              )}
             </h1>
           </header>
+        )}
+        {hasStats && (
+          <Statistics stats={stats} />
         )}
         <section className={styles.content}>
           {(description || []).map((paragraph, index) => (

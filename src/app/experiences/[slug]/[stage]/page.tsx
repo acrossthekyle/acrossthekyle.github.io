@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
 
   return {
     title: `${data.title} | ${data.experience} | Experiences`,
-    description: data.description[0],
+    description: data.description?.[0] || `${data.experience}: ${data.title} Stats`,
   };
 };
 

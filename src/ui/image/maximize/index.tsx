@@ -19,12 +19,14 @@ export default function Maximize({ caption, eyebrow, subtitle }: Props) {
   return (
     <>
       <button
+        aria-label="maximize image"
         className={styles.landscape}
         onClick={handleOnMaximize}
         ref={zoomRef}
         type="button"
       />
       <button
+        aria-label="maximize image warning"
         className={styles.portrait}
         onClick={handleOnWarn}
         type="button"

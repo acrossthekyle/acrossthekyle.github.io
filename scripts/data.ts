@@ -617,7 +617,10 @@ async function getTripStats(trip, stages) {
     };
   }
 
-  return stats;
+  return {
+    hasStats: stats.gain !== null && stats.loss !== null && stats.altitude !== null && stats.distance !== null,
+    stats,
+  };
 }
 
 async function getTripDate(trip, stages) {
@@ -717,7 +720,7 @@ async function go() {
 
       const gear = await getGear(folder);
       const stages = await getStages(folder);
-      const stats = await getTripStats(trip, stages);
+      const { hasStats, stats } = await getTripStats(trip, stages);
       const date = await getTripDate(trip, stages);
 
       const slug = kebabCase(trip.title.trim());
@@ -730,15 +733,17 @@ async function go() {
         gear,
         hasGear: gear !== null,
         hasRoutes,
+        hasStats,
         label: getLabel(trip.type),
         location: trip.location,
         routes: [...stages].map(({ route }) => ({
           route,
         })),
         slug,
-        stages: stages.map(({ date, description, image, location, readingTime, stats, termini }) => ({
+        stages: stages.map(({ date, description, hasStats, image, location, readingTime, stats, termini }) => ({
           date,
           description,
+          hasStats,
           image,
           location,
           readingTime,

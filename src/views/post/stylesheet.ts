@@ -8,18 +8,19 @@ const styles = tw({
     overflow-y-scroll
     overscroll-contain
     h-full w-full
+    pr-12
   `,
   toggle: `
     absolute top-2 right-2 z-1
     flex justify-end
 
-    deka:top-12
-    deka:right-12
+    deka:top-11
+    deka:right-9
   `,
   close: `
     hidden
     opacity-0
-    animate-in-fade-delayed
+    animate-in-fade
 
     base:block
   `,
@@ -35,13 +36,13 @@ const styles = tw({
     base:pr-12
   `,
   heading: `
-    text-3xl/6 text-left
+    text-3xl text-left
     font-black font-stretch-semi-condensed
     uppercase
   `,
   lid: `
     block
-    text-sm
+    text-xs
     tracking-wider
     font-semibold font-stretch-normal
   `,

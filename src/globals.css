@@ -35,7 +35,6 @@
   --animate-loader-two: .3s fadeIn 6s ease-in forwards;
   --animate-loader-three: .3s fadeIn 11s ease-in forwards;
   --animate-in-fade: fadeIn .5s ease-in forwards;
-  --animate-in-fade-quick: fadeIn .1s ease-in forwards;
   --animate-in-fade-delayed: .25s fadeIn .2s ease-in forwards;
 
   @keyframes elasticInFromRight {

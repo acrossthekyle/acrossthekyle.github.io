@@ -1,40 +1,37 @@
-import { Heading } from 'lucide-react';
-import Link from 'next/link';
+'use client';
 
+import { useModel } from './model';
 import styles from './stylesheet';
 
-type Props = {
-  slug: string;
-};
+export default function Shortcuts() {
+  const {
+    handleOnScrollToOverview,
+    handleOnScrollToTop,
+  } = useModel();
 
-export default function Shortcuts({ slug }: Props) {
   return (
     <>
-      <Link
-        className={styles.top}
-        href={`/experiences/${slug}`}
-        title="Images"
-      >
-        <Heading className={styles.arrow} />
-      </Link>
-      <Link
+      <div aria-hidden="true" className={styles.anchor} id="anchor" />
+      <button
         className={styles.images}
-        href="#images"
+        onClick={handleOnScrollToTop}
         title="Images"
+        type="button"
       >
         <span className={styles.image} />
         <span className={styles.image} />
         <span className={styles.image} />
-      </Link>
-      <Link
+      </button>
+      <button
         className={styles.overview}
-        href="#overview"
+        onClick={handleOnScrollToOverview}
         title="Overview"
+        type="button"
       >
         <span className={styles.text} />
         <span className={styles.text} />
         <span className={styles.text} />
-      </Link>
+      </button>
     </>
   );
 }

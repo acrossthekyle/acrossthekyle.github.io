@@ -15,8 +15,6 @@ const styles = tw({
     w-full
     mb-6
     px-12
-
-    base:hidden
   `,
   paragraph: `
     mb-4

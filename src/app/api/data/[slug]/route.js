@@ -9,12 +9,11 @@ export async function GET(request, { params }) {
 
   return NextResponse.json({
     ...found,
-    stages: found.stages.map(({ date, description, image, location, readingTime, termini }) => ({
+    stages: found.stages.map(({ date, description, hasStats, image, readingTime, termini }) => ({
       date,
       hasPost: description !== undefined && readingTime !== undefined,
+      hasStats,
       image,
-      location,
-      readingTime,
       termini,
     })),
   });

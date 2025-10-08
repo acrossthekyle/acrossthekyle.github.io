@@ -21,8 +21,9 @@ export async function GET(request, { params }) {
     date: result.date,
     description: result.description,
     experience: found.title.join(' '),
-    image: result.image,
+    hasStats: result.hasStats,
     readingTime: result.readingTime,
+    stats: result.stats,
     title: result.termini.end.join(' '),
   });
 }

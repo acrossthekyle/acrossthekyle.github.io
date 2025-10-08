@@ -21,7 +21,7 @@ export default function Layout({ slug }: Props) {
 
   return (
     <Article className={styles.article(isOnGrandChild)}>
-      <Shortcuts slug={slug} />
+      <Shortcuts />
       <Header title={data.title} />
       <Pictures slug={slug} stages={data.stages} />
       <Overview description={data.description} />

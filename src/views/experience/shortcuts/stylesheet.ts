@@ -1,7 +1,7 @@
 import tw from '@/styles';
 
 const common = `
-  fixed z-3
+  fixed z-10
   p-2
   bg-white/12.5
   rounded-sm
@@ -12,25 +12,15 @@ const common = `
 `;
 
 const styles = tw({
-  top: `
-    bottom-11.5 right-2.75
-
-    ${common}
-
-    base:hidden
-  `,
-  arrow: `
-    w-3.5 h-3.5
-    stroke-2
+  anchor: `
+    relative -top-32 right-0
   `,
   images: `
-    hidden
     bottom-11.5 right-2.5
     flex flex-col gap-1
 
     ${common}
 
-    base:flex
     base:top-2
     base:right-2
     base:bottom-auto
@@ -43,6 +33,13 @@ const styles = tw({
     rounded-xs
     border-1 border-white/90
     bg-transparent
+
+    first:h-[1px]
+    first:border-none
+    first:bg-white/90
+    last:h-[1px]
+    last:border-none
+    last:bg-white/90
   `,
   overview: `
     bottom-2.5 right-2.5
