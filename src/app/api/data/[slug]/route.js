@@ -8,7 +8,8 @@ export async function GET(request, { params }) {
   const found = data.find((item) => item.slug.toLowerCase() === slug.toLowerCase());
 
   return NextResponse.json({
-    ...found,
+    description: found.description,
+    slug,
     stages: found.stages.map(({ date, description, hasStats, image, readingTime, termini }) => ({
       date,
       hasPost: description !== undefined && readingTime !== undefined,
@@ -16,5 +17,6 @@ export async function GET(request, { params }) {
       image,
       termini,
     })),
+    title: found.title,
   });
 }

@@ -55,7 +55,7 @@ export default function Pictures({ slug, stages }: Props) {
                     href={`/experiences/${slug}/${String(index + 1).padStart(2, '0')}`}
                   >
                     {stage.hasPost ? (
-                      <>View Journal{stage.hasStats ? ' & Stats' : ''}</>
+                      <>Learn More</>
                     ) : (
                       <>View Stats</>
                     )}

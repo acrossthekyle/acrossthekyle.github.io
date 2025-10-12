@@ -22,8 +22,10 @@ export async function GET(request, { params }) {
     description: result.description,
     experience: found.title.join(' '),
     hasPost: result.description !== undefined && result.readingTime !== undefined,
+    hasRoute: result.hasRoute,
     hasStats: result.hasStats,
     readingTime: result.readingTime,
+    route: result.route,
     stats: result.stats,
     title: result.termini.end.join(' '),
   });

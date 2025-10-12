@@ -5,6 +5,7 @@ import { use } from 'react';
 import { Article } from '@/ui/article';
 import type { Stats } from '@/types';
 
+import Route from './route';
 import Statistics from './stats';
 import Toggle from './toggle';
 import styles from './stylesheet';
@@ -13,8 +14,10 @@ type Post = {
   date?: string;
   description?: string[];
   hasPost: boolean;
+  hasRoute: boolean;
   hasStats: boolean;
   readingTime?: string;
+  route: [number, number][];
   stats: Stats;
   title?: string;
 }
@@ -52,8 +55,10 @@ export default function View({ post, slug }: Props) {
     date,
     description,
     hasPost,
+    hasRoute,
     hasStats,
     readingTime,
+    route,
     stats,
     title,
   } = data;
@@ -75,6 +80,9 @@ export default function View({ post, slug }: Props) {
         )}
         {hasStats && (
           <Statistics stats={stats} />
+        )}
+        {hasRoute && (
+          <Route route={route} />
         )}
         <section className={styles.content}>
           {(description || []).map((paragraph, index) => (

@@ -81,4 +81,12 @@ body {
   button[type="button"] {
     cursor: pointer;
   }
+
+  .leaflet-control-container {
+    display: none;
+  }
+
+  .leaflet-container {
+    background: transparent;
+  }
 }

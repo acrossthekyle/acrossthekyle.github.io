@@ -254,8 +254,8 @@ function parseGpxCoordinates(gpx) {
 async function parseGpx(folder: string) {
   if (!fs.existsSync(path.join(trips, `${folder}/route.gpx`))) {
     return {
-      elevation: null,
-      route: null,
+      elevation: undefined,
+      route: undefined,
     };
   }
 
@@ -431,6 +431,7 @@ async function getStages(folder) {
         date: data.date,
         description,
         elevation,
+        hasRoute: route !== undefined,
         hasStats: !Object.values(stats).every(value => value === null),
         image: data.image,
         index: null,
@@ -725,28 +726,35 @@ async function go() {
 
       const slug = kebabCase(trip.title.trim());
 
-      const hasRoutes = stages.filter(stage => stage.route).length > 0;
-
       data.push({
         date,
         description: formatDescription(trip, stats),
         gear,
         hasGear: gear !== null,
-        hasRoutes,
         hasStats,
         label: getLabel(trip.type),
         location: trip.location,
-        routes: [...stages].map(({ route }) => ({
-          route,
-        })),
         slug,
-        stages: stages.map(({ date, description, hasStats, image, location, readingTime, stats, termini }) => ({
+        stages: stages.map(({
           date,
           description,
+          hasRoute,
           hasStats,
           image,
           location,
           readingTime,
+          route,
+          stats,
+          termini,
+        }) => ({
+          date,
+          description,
+          hasRoute,
+          hasStats,
+          image,
+          location,
+          readingTime,
+          route,
           stats,
           termini,
         })),

@@ -1,3 +1,5 @@
+export type Route = [number, number];
+
 export type StatFull = {
   label: string;
   value: {
