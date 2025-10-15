@@ -15,7 +15,7 @@ export default function Shortcuts() {
       <button
         className={styles.images}
         onClick={handleOnScrollToTop}
-        title="Images"
+        title="Jump to Images"
         type="button"
       >
         <span className={styles.image} />
@@ -25,7 +25,7 @@ export default function Shortcuts() {
       <button
         className={styles.overview}
         onClick={handleOnScrollToOverview}
-        title="Overview"
+        title="Jump to Overview"
         type="button"
       >
         <span className={styles.text} />

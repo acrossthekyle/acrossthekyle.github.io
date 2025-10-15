@@ -10,6 +10,16 @@ const styles = tw({
   item: `
     relative
   `,
+  more: `
+    font-black
+  `,
+  arrow: `
+    relative -top-0.25
+    inline-block
+    ml-0.5
+    w-3 h-3
+    stroke-4
+  `,
 });
 
 export default styles;

@@ -21,12 +21,12 @@ export async function GET(request, { params }) {
     date: result.date,
     description: result.description,
     experience: found.title.join(' '),
-    hasPost: result.description !== undefined && result.readingTime !== undefined,
     hasRoute: result.hasRoute,
     hasStats: result.hasStats,
     readingTime: result.readingTime,
     route: result.route,
     stats: result.stats,
+    termini: result.termini,
     title: result.termini.end.join(' '),
   });
 }

@@ -5,7 +5,6 @@ import { DOMParser } from '@xmldom/xmldom';
 import { parse } from 'csv-parse';
 import { TZDate } from '@date-fns/tz';
 import { format as formatDate, parse as parseDate } from 'date-fns';
-import kebabCase from 'lodash.kebabcase';
 import fs from 'fs';
 import fsPromises from 'fs/promises';
 import path from 'path';
@@ -724,8 +723,6 @@ async function go() {
       const { hasStats, stats } = await getTripStats(trip, stages);
       const date = await getTripDate(trip, stages);
 
-      const slug = kebabCase(trip.title.trim());
-
       data.push({
         date,
         description: formatDescription(trip, stats),
@@ -734,7 +731,7 @@ async function go() {
         hasStats,
         label: getLabel(trip.type),
         location: trip.location,
-        slug,
+        slug: trip.id,
         stages: stages.map(({
           date,
           description,

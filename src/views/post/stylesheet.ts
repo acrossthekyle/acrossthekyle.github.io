@@ -20,8 +20,6 @@ const styles = tw({
   `,
   close: `
     hidden
-    opacity-0
-    animate-in-fade
 
     base:block
   `,
@@ -37,18 +35,20 @@ const styles = tw({
     base:pr-12
   `,
   heading: `
-    text-3xl text-left
+    text-4xl/7
     font-black font-stretch-semi-condensed
     uppercase
   `,
   lid: `
     block
+    mb-1
     text-xs
     tracking-wider
     font-semibold font-stretch-normal
   `,
   time: `
     block
+    mt-1
     text-xs
     font-medium font-stretch-normal
   `,

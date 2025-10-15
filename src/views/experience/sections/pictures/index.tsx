@@ -1,9 +1,12 @@
+import { ArrowUpRight } from 'lucide-react';
+
 import type { Stage } from '@/types';
 import {
   Image,
   ImageCaption,
   ImageCaptionEyebrow,
   ImageCaptionSubtitle,
+  ImageCaptionText,
   ImageFigure,
   ImageLink,
   ImageMaximize,
@@ -34,33 +37,38 @@ export default function Pictures({ slug, stages }: Props) {
                   sizes="(max-width: 768px) 100vw, 50vw"
                   width={1920}
                 />
-                <ImageCaption>
-                  <ImageCaptionEyebrow>
-                    {String(index + 1).padStart(2, '0')}.
-                  </ImageCaptionEyebrow>
-                  {stage.termini.end.map((word) => (
-                    <span className="block" key={word}>{word}</span>
-                  ))}
-                  <ImageCaptionSubtitle>
-                    {stage.date}
-                  </ImageCaptionSubtitle>
-                </ImageCaption>
                 <ImageMaximize
                   caption={stage.termini.end}
                   eyebrow={`${String(index + 1).padStart(2, '0')}.`}
                   subtitle={stage.date}
                 />
-                {(stage.hasPost || stage.hasStats) && (
+                <ImageCaption>
                   <ImageLink
-                    href={`/experiences/${slug}/${String(index + 1).padStart(2, '0')}`}
+                    href={
+                      (stage.hasPost || stage.hasStats)
+                        ? `/experiences/${slug}/${String(index + 1).padStart(2, '0')}`
+                        : undefined
+                    }
                   >
-                    {stage.hasPost ? (
-                      <>Learn More</>
-                    ) : (
-                      <>View Stats</>
-                    )}
+                    <ImageCaptionEyebrow>
+                      {String(index + 1).padStart(2, '0')}.
+                    </ImageCaptionEyebrow>
+                    <ImageCaptionText>
+                      {stage.termini.end.map((word) => (
+                        <span className="block" key={word}>{word}</span>
+                      ))}
+                    </ImageCaptionText>
+                    <ImageCaptionSubtitle>
+                      {stage.date}
+                      {(stage.hasPost || stage.hasStats) && (
+                        <span className={styles.more}>
+                          {' '}• {stage.hasPost ? 'Learn More' : 'View Stats'}
+                          <ArrowUpRight className={styles.arrow} />
+                        </span>
+                      )}
+                    </ImageCaptionSubtitle>
                   </ImageLink>
-                )}
+                </ImageCaption>
                 <ImageRotateWarning />
                 <ImageSkeleton />
               </ImagePlaceholder>

@@ -1,9 +1,12 @@
-import type { Stats } from '@/types';
+import { Circle, CircleDot } from 'lucide-react';
+
+import type { Stats, Termini } from '@/types';
 
 import styles from './stylesheet';
 
 type Props = {
   stats: Stats;
+  termini: Termini;
 };
 
 type Section = {
@@ -11,8 +14,20 @@ type Section = {
   value: string;
 };
 
-export default function Stats({ stats }: Props) {
+export default function Stats({ stats, termini }: Props) {
   const sections: Section[] = [];
+
+  if (!termini.isSame) {
+    sections.push({
+      heading: 'Start',
+      value: termini.start.join(' '),
+    });
+
+    sections.push({
+      heading: 'Finish',
+      value: termini.end.join(' '),
+    });
+  }
 
   if (stats.time) {
     sections.push({
@@ -59,6 +74,12 @@ export default function Stats({ stats }: Props) {
           {section.heading && (
             <h2 className={styles.heading} id={section.heading.replace(' ', '-')}>
               {section.heading}
+              {section.heading === 'Start' && (
+                <Circle className={styles.icon} />
+              )}
+              {section.heading === 'Finish' && (
+                <CircleDot className={styles.icon} />
+              )}
             </h2>
           )}
           <p className={styles.content}>

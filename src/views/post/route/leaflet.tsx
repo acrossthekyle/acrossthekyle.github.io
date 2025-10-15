@@ -8,16 +8,20 @@ import {
   CircleMarker,
   MapContainer,
   Polyline,
+  TileLayer,
   useMap,
 } from 'react-leaflet';
+
+import type { Termini } from '@/types';
 
 import styles from './stylesheet';
 
 type Props = {
   route: [number, number][];
+  termini: Termini;
 };
 
-export default function Leaflet({ route }: Props) {
+export default function Leaflet({ route, termini }: Props) {
   const [data, setData] = useState<[number, number][]>([]);
 
   useEffect(() => {
@@ -26,20 +30,18 @@ export default function Leaflet({ route }: Props) {
     }
   }, [route]);
 
-  function Center({
-    center
-  }: { center: [number, number][] }) {
+  function Center({ positions }: { positions: [number, number][] }) {
     const map = useMap();
 
     useEffect(() => {
-      if (center.length > 0) {
-        const bounds = new L.LatLngBounds(center);
+      if (positions.length > 0) {
+        const bounds = new L.LatLngBounds(positions);
 
         map.fitBounds(bounds);
         map.dragging.disable();
       }
       // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [center]);
+    }, [positions]);
 
     return null;
   }
@@ -55,42 +57,52 @@ export default function Leaflet({ route }: Props) {
       doubleClickZoom={false}
       keyboard={false}
       scrollWheelZoom={false}
-      zoom={14}
+      zoom={1}
       zoomControl={false}
     >
+      <TileLayer
+        attribution="Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ"
+        url="https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png"
+      />
       <Polyline
         className={styles.route}
         positions={data}
       />
-      <CircleMarker
-        center={data[0]}
-        className={styles.outer}
-        fill={false}
-        opacity={1}
-        radius={4}
-      />
-      <CircleMarker
-        center={data[0]}
-        className={styles.inner}
-        fillOpacity={1}
-        opacity={1}
-        radius={2}
-      />
-      <CircleMarker
-        center={data[data.length - 1]}
-        className={styles.outer}
-        fill={false}
-        opacity={1}
-        radius={4}
-      />
-      <CircleMarker
-        center={data[data.length - 1]}
-        className={styles.inner}
-        fillOpacity={1}
-        opacity={1}
-        radius={2}
-      />
-      <Center center={data} />
+      {!termini.isSame && (
+        <>
+          <CircleMarker
+            center={data[0]}
+            className={styles.outer}
+            fill={false}
+            opacity={1}
+            radius={4}
+          />
+          <CircleMarker
+            center={data[0]}
+            className={styles.inner}
+            fillOpacity={1}
+            opacity={1}
+            radius={2}
+          >
+          </CircleMarker>
+          <CircleMarker
+            center={data[data.length - 1]}
+            className={styles.outer}
+            fill={false}
+            opacity={1}
+            radius={4}
+          />
+          <CircleMarker
+            center={data[data.length - 1]}
+            className={`${styles.inner} ${styles.solid}`}
+            fillOpacity={1}
+            opacity={1}
+            radius={3}
+          >
+          </CircleMarker>
+        </>
+      )}
+      <Center positions={data} />
     </MapContainer>
   );
 }

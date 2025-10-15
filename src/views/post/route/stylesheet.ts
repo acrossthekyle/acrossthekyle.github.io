@@ -2,8 +2,11 @@ import tw from '@/styles';
 
 const styles = tw({
   section: `
-    mt-6
-    h-75 w-full
+    h-100 w-full
+    mb-2
+    border-1 border-white/12.5
+    rounded-sm
+    overflow-hidden
   `,
   map: `
     relative
@@ -23,8 +26,19 @@ const styles = tw({
   `,
   inner: `
     relative z-2
+    fill-black
     stroke-black
     !pointer-events-none
+  `,
+  solid: `
+    fill-white
+    stroke-black
+    stroke-2
+  `,
+  icon: `
+    w-3 h-3
+    fill-white/90
+    stroke-2
   `,
 });
 

@@ -21,7 +21,7 @@ export default function DirectoryLink({
 }: Props) {
   const { isOnChild, isOnGrandChild, path, previous } = useHierarchy();
 
-  const isActive = isOnGrandChild ? path.includes(href) : path === href;
+  const isActive = isOnGrandChild ? path.substr(0, path.lastIndexOf('/')) === href : path === href;
   const isExternal = href.includes('https://') || href.includes('mailto:');
 
   return (

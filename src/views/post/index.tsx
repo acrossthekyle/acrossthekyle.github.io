@@ -3,7 +3,7 @@
 import { use } from 'react';
 
 import { Article } from '@/ui/article';
-import type { Stats } from '@/types';
+import type { Stats, Termini } from '@/types';
 
 import Route from './route';
 import Statistics from './stats';
@@ -13,21 +13,22 @@ import styles from './stylesheet';
 type Post = {
   date?: string;
   description?: string[];
-  hasPost: boolean;
   hasRoute: boolean;
   hasStats: boolean;
   readingTime?: string;
   route: [number, number][];
   stats: Stats;
+  termini: Termini;
   title?: string;
 }
 
 type Props = {
   post: Promise<Post>;
   slug: string;
+  stage: string;
 };
 
-export default function View({ post, slug }: Props) {
+export default function View({ post, slug, stage }: Props) {
   const data = use(post);
 
   if (!data) {
@@ -37,6 +38,9 @@ export default function View({ post, slug }: Props) {
         <Article className={styles.article}>
           <header className={styles.header}>
             <h1 className={styles.heading}>
+              <span className={styles.lid}>
+                {stage}.
+              </span>
               Not Found
               <span className={styles.lid}>404</span>
             </h1>
@@ -54,12 +58,12 @@ export default function View({ post, slug }: Props) {
   const {
     date,
     description,
-    hasPost,
     hasRoute,
     hasStats,
     readingTime,
     route,
     stats,
+    termini,
     title,
   } = data;
 
@@ -67,22 +71,27 @@ export default function View({ post, slug }: Props) {
     <dialog className={styles.container} open>
       <Toggle slug={slug} />
       <Article className={styles.article}>
-        {hasPost && title && date && (
+        {title && date && (
           <header className={styles.header}>
             <h1 className={styles.heading}>
-              <span className={styles.lid}>{date}</span>
+              <span className={styles.lid}>
+                {stage}.
+              </span>
               {title}
-              {readingTime && (
-                <span className={styles.time}>{readingTime} min read</span>
-              )}
+              <span className={styles.time}>
+                {date}
+                {readingTime && (
+                  <> • {readingTime} min read</>
+                )}
+              </span>
             </h1>
           </header>
         )}
         {hasStats && (
-          <Statistics stats={stats} />
+          <Statistics stats={stats} termini={termini} />
         )}
         {hasRoute && (
-          <Route route={route} />
+          <Route route={route} termini={termini} />
         )}
         <section className={styles.content}>
           {(description || []).map((paragraph, index) => (

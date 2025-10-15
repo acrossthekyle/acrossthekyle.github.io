@@ -1,24 +1,21 @@
 import tw from '@/styles';
 
+import stylesheet from '../stylesheet';
+
 const styles = tw({
-  container: `
-    h-full w-130
-    !p-0
-    !py-12
-    !px-2
-  `,
+  container: stylesheet.container,
   skeleton: `
     animate-pulse
   `,
-  header: `
-    flex flex-col gap-2
-    w-full
+  stats: `
+    grid grid-cols-2 gap-x-6 gap-y-4
     mb-6
-    px-12
+
+    base:gap-x-12
+    giga:grid-cols-3
   `,
   paragraph: `
     mb-4
-    px-12
 
     last:mb-0
   `,

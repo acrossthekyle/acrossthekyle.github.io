@@ -4,7 +4,7 @@ const styles = tw({
   eyebrow: `
     block
     mb-0.5
-    text-tiny text-white/90
+    text-tiny/3
     font-semibold
     tracking-wider
     font-stretch-semi-expanded
@@ -13,6 +13,8 @@ const styles = tw({
     micro:text-xs
     deka:text-tiny
     kilo:text-xs
+
+    group-hover/image-link:text-white
   `,
 });
 

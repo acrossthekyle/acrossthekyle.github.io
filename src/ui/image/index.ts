@@ -9,3 +9,4 @@ export { default as ImagePlaceholder } from './placeholder';
 export { default as ImageRotateWarning } from './rotate';
 export { default as ImageSkeleton } from './skeleton';
 export { default as ImageCaptionSubtitle } from './subtitle';
+export { default as ImageCaptionText } from './text';

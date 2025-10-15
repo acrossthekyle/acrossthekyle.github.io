@@ -86,6 +86,10 @@ body {
     display: none;
   }
 
+  .leaflet-control-attribution {
+    visibility: hidden;
+  }
+
   .leaflet-container {
     background: transparent;
   }

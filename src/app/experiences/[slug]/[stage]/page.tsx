@@ -47,8 +47,8 @@ export default async function Page({ params }: { params: Params }) {
   const data = getData(slug, stage);
 
   return (
-    <Suspense fallback={<Loading />}>
-      <View post={data} slug={slug} />
+    <Suspense fallback={<Loading slug={slug} />}>
+      <View post={data} slug={slug} stage={stage} />
     </Suspense>
   );
 }
