@@ -20,10 +20,6 @@ const styles = tw({
     text-lg/5
     font-light
   `,
-  icon: `
-    w-2.75 h-2.75
-    stroke-5
-  `,
 });
 
 export default styles;

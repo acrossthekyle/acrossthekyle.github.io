@@ -109,6 +109,21 @@ body {
     background: transparent;
   }
 
+  .leaflet-tooltip {
+    background: transparent;
+    drop-shadow: none;
+    border: none !important;
+    color: white;
+  }
+
+  .leaflet-tooltip-left:before {
+    display: none !important;
+  }
+
+  .leaflet-tooltip-right:before {
+    display: none !important;
+  }
+
   .apexcharts-tooltip {
     box-shadow: none !important;
   }

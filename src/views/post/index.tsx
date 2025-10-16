@@ -18,7 +18,6 @@ type Post = {
   hasElevation: boolean;
   hasRoute: boolean;
   hasStats: boolean;
-  readingTime?: string;
   route: [number, number][];
   stats: Stats;
   termini: Termini;
@@ -65,7 +64,6 @@ export default function View({ post, slug, stage }: Props) {
     hasElevation,
     hasRoute,
     hasStats,
-    readingTime,
     route,
     stats,
     termini,
@@ -78,22 +76,19 @@ export default function View({ post, slug, stage }: Props) {
       <Article className={styles.article}>
         {title && date && (
           <header className={styles.header}>
-            <h1 className={styles.heading}>
+            <h1 className={styles.title}>
               <span className={styles.lid}>
                 {stage}.
               </span>
               {title}
               <span className={styles.time}>
                 {date}
-                {readingTime && (
-                  <> • {readingTime} min read</>
-                )}
               </span>
             </h1>
           </header>
         )}
         {hasStats && (
-          <Statistics stats={stats} termini={termini} />
+          <Statistics stats={stats} />
         )}
         {hasRoute && (
           <Route route={route} termini={termini} />
@@ -102,7 +97,9 @@ export default function View({ post, slug, stage }: Props) {
           <Elevation elevation={elevation} />
         )}
         <section className={styles.content}>
-          <h2 className={styles.heading}>Trip Report</h2>
+          <h2 className={styles.heading}>
+            Trip Report
+          </h2>
           {(description || []).map((paragraph, index) => (
             <p className={styles.paragraph} key={index}>{paragraph}</p>
           ))}

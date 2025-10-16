@@ -9,6 +9,7 @@ import {
   MapContainer,
   Polyline,
   TileLayer,
+  Tooltip,
   useMap,
 } from 'react-leaflet';
 
@@ -80,6 +81,7 @@ export default function Leaflet({ route, termini }: Props) {
             opacity={1}
             radius={2}
           >
+            <Tooltip permanent>{termini.start.join(' ')}</Tooltip>
           </CircleMarker>
           <CircleMarker
             center={data[data.length - 1]}
@@ -95,6 +97,7 @@ export default function Leaflet({ route, termini }: Props) {
             opacity={1}
             radius={3}
           >
+            <Tooltip permanent>{termini.end.join(' ')}</Tooltip>
           </CircleMarker>
         </>
       )}

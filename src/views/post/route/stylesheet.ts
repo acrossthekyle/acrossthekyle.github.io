@@ -35,7 +35,6 @@ const styles = tw({
     relative z-2
     fill-black
     stroke-black
-    !pointer-events-none
   `,
   solid: `
     fill-white

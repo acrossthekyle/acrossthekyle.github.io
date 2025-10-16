@@ -56,7 +56,8 @@ const styles = tw({
     w-full
   `,
   heading: `
-    mb-3
+    flex items-center gap-1.5
+    mb-4
     text-sm text-white/90
     font-black
     tracking-wide

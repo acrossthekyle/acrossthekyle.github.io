@@ -25,7 +25,6 @@ export async function GET(request, { params }) {
     hasElevation: result.hasElevation,
     hasRoute: result.hasRoute,
     hasStats: result.hasStats,
-    readingTime: result.readingTime,
     route: result.route,
     stats: result.stats,
     termini: result.termini,
