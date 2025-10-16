@@ -1,6 +1,13 @@
 import tw from '@/styles';
 
 const styles = tw({
+  heading: `
+    mb-3
+    text-sm text-white/90
+    font-black
+    tracking-wide
+    uppercase
+  `,
   section: `
     h-100 w-full
     mb-2
@@ -15,7 +22,7 @@ const styles = tw({
   route: `
     relative z-2
     stroke-3
-    stroke-white/90
+    stroke-white/70
     !pointer-events-none
   `,
   outer: `

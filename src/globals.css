@@ -82,8 +82,23 @@ body {
     cursor: pointer;
   }
 
-  .leaflet-control-container {
-    display: none;
+  .leaflet-control-zoom {
+    top: 0.2rem;
+    right: -0.2rem;
+  }
+
+  .leaflet-control-zoom-in,
+  .leaflet-control-zoom-out {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-bottom: none !important;
+    color: #ffffff !important;
+    opacity: 0.8;
+    transition: opacity .5s;
+  }
+
+  .leaflet-control-zoom-in:hover,
+  .leaflet-control-zoom-out:hover {
+    opacity: 1;
   }
 
   .leaflet-control-attribution {
@@ -92,5 +107,9 @@ body {
 
   .leaflet-container {
     background: transparent;
+  }
+
+  .apexcharts-tooltip {
+    box-shadow: none !important;
   }
 }

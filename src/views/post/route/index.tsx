@@ -17,8 +17,13 @@ type Props = {
 
 export default function Route({ route, termini }: Props) {
   return (
-    <section aria-label="route" className={styles.section} id="route">
-      <Leaflet route={route} termini={termini} />
+    <section>
+      <h2 className={styles.heading}>
+        Route
+      </h2>
+      <div className={styles.section}>
+        <Leaflet route={route} termini={termini} />
+      </div>
     </section>
   );
 }

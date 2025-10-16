@@ -34,7 +34,7 @@ const styles = tw({
 
     base:pr-12
   `,
-  heading: `
+  title: `
     text-4xl/7
     font-black font-stretch-semi-condensed
     uppercase
@@ -54,6 +54,13 @@ const styles = tw({
   `,
   content: `
     w-full
+  `,
+  heading: `
+    mb-3
+    text-sm text-white/90
+    font-black
+    tracking-wide
+    uppercase
   `,
   paragraph: `
     pb-4

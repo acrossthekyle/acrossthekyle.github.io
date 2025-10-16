@@ -430,6 +430,7 @@ async function getStages(folder) {
         date: data.date,
         description,
         elevation,
+        hasElevation: elevation !== undefined,
         hasRoute: route !== undefined,
         hasStats: !Object.values(stats).every(value => value === null),
         image: data.image,
@@ -735,6 +736,8 @@ async function go() {
         stages: stages.map(({
           date,
           description,
+          elevation,
+          hasElevation,
           hasRoute,
           hasStats,
           image,
@@ -746,6 +749,8 @@ async function go() {
         }) => ({
           date,
           description,
+          elevation,
+          hasElevation,
           hasRoute,
           hasStats,
           image,

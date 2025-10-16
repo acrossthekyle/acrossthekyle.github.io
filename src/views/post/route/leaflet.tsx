@@ -38,7 +38,6 @@ export default function Leaflet({ route, termini }: Props) {
         const bounds = new L.LatLngBounds(positions);
 
         map.fitBounds(bounds);
-        map.dragging.disable();
       }
       // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [positions]);
@@ -54,11 +53,8 @@ export default function Leaflet({ route, termini }: Props) {
     <MapContainer
       center={data[0]}
       className={styles.map}
-      doubleClickZoom={false}
-      keyboard={false}
       scrollWheelZoom={false}
       zoom={1}
-      zoomControl={false}
     >
       <TileLayer
         attribution="Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ"

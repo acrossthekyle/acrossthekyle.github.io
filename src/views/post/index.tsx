@@ -5,6 +5,7 @@ import { use } from 'react';
 import { Article } from '@/ui/article';
 import type { Stats, Termini } from '@/types';
 
+import Elevation from './elevation';
 import Route from './route';
 import Statistics from './stats';
 import Toggle from './toggle';
@@ -13,6 +14,8 @@ import styles from './stylesheet';
 type Post = {
   date?: string;
   description?: string[];
+  elevation: number[];
+  hasElevation: boolean;
   hasRoute: boolean;
   hasStats: boolean;
   readingTime?: string;
@@ -37,7 +40,7 @@ export default function View({ post, slug, stage }: Props) {
         <Toggle slug={slug} />
         <Article className={styles.article}>
           <header className={styles.header}>
-            <h1 className={styles.heading}>
+            <h1 className={styles.title}>
               <span className={styles.lid}>
                 {stage}.
               </span>
@@ -58,6 +61,8 @@ export default function View({ post, slug, stage }: Props) {
   const {
     date,
     description,
+    elevation,
+    hasElevation,
     hasRoute,
     hasStats,
     readingTime,
@@ -93,7 +98,11 @@ export default function View({ post, slug, stage }: Props) {
         {hasRoute && (
           <Route route={route} termini={termini} />
         )}
+        {hasElevation && (
+          <Elevation elevation={elevation} />
+        )}
         <section className={styles.content}>
+          <h2 className={styles.heading}>Trip Report</h2>
           {(description || []).map((paragraph, index) => (
             <p className={styles.paragraph} key={index}>{paragraph}</p>
           ))}

@@ -20,7 +20,9 @@ export async function GET(request, { params }) {
   return NextResponse.json({
     date: result.date,
     description: result.description,
+    elevation: result.elevation,
     experience: found.title.join(' '),
+    hasElevation: result.hasElevation,
     hasRoute: result.hasRoute,
     hasStats: result.hasStats,
     readingTime: result.readingTime,
