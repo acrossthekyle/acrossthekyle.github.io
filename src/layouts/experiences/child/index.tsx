@@ -1,14 +1,15 @@
+import type { Experience } from '@/types';
 import View from '@/views/experience';
 
 type Props = {
   children: React.ReactNode | React.ReactNode[];
-  slug: string;
+  data: Experience | null;
 };
 
-export default function Layout({ children, slug }: Props) {
+export default function Layout({ children, data }: Props) {
   return (
     <>
-      <View slug={slug} />
+      <View data={data} />
       {children}
     </>
   );

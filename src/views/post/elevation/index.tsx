@@ -9,10 +9,14 @@ const Chart = dynamic(() => import('react-apexcharts'), {
 });
 
 type Props = {
-  elevation: number[];
+  elevation: string[] | null;
 };
 
 export default function Elevation({ elevation }: Props) {
+  if (elevation === null) {
+    return null;
+  }
+
   return (
     <section>
       <h2 className={styles.heading}>
@@ -113,7 +117,7 @@ export default function Elevation({ elevation }: Props) {
           series={[
             {
               name: '',
-              data: elevation,
+              data: elevation.map((value) => Number(value)),
             },
           ]}
           type="line"

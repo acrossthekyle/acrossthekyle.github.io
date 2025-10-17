@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 
+import get from './get';
+
 type Params = Promise<{ slug: string }>;
 
 type MetadataProps = {
@@ -9,16 +11,14 @@ type MetadataProps = {
 export async function generateMetadata({ params }: MetadataProps): Promise<Metadata> {
   const { slug } = await params;
 
-  const response = await fetch(`${process.env.BASE_URL}api/data/${slug.toLowerCase()}`);
+  const data = get(slug.toLowerCase());
 
-  if (!response.ok) {
+  if (data === null) {
     return {
-      title: 'Experience Not Found',
-      description: 'That experience does not exist',
+      title: '404 Not Found',
+      description: 'Sorry, this does not exist',
     };
   }
-
-  const data = await response.json();
 
   return {
     title: `${data.title.join(' ')} | Experiences`,

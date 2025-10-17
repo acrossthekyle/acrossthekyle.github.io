@@ -6,26 +6,28 @@ import {
   DirectoryLink,
   DirectoryText,
   DirectoryItems,
-  DirectoryLoading,
 } from '@/ui/directory';
 
 import { useModel } from './model';
 
-type Props = {
-  children: React.ReactNode | React.ReactNode[];
+type Data = {
+  slug: string;
+  title: string[];
 };
 
-export default function Layout({ children }: Props) {
-  const { data, isLoading, ref } = useModel();
+type Props = {
+  children: React.ReactNode | React.ReactNode[];
+  data: Data[];
+};
+
+export default function Layout({ children, data }: Props) {
+  const { ref } = useModel();
 
   return (
     <>
       <Directory align="start">
         <DirectoryItems>
-          {isLoading && Array.from({ length: 13 }).map((_, index) => (
-            <DirectoryLoading key={index} lines={2} />
-          ))}
-          {!isLoading && data.map((item, index: number) => (
+          {data.map((item, index: number) => (
             <DirectoryItem index={index} key={index} lines={item.title.length}>
               <DirectoryLink
                 href={`/experiences/${item.slug}`}

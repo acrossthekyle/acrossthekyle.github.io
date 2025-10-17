@@ -1,29 +1,34 @@
 'use client';
 
+import type { Experience } from '@/types';
 import { Article } from '@/ui/article';
 
 import { Header, Overview, Pictures } from './sections';
-import Loading from './loading';
 import { useModel } from './model';
 import Shortcuts from './shortcuts';
 import styles from './stylesheet';
 
 type Props = {
-  slug: string;
+  data: Experience | null;
 };
 
-export default function Layout({ slug }: Props) {
-  const { data, isOnGrandChild } = useModel(slug);
+export default function Layout({ data }: Props) {
+  const { isOnGrandChild } = useModel();
 
-  if (!data) {
-    return <Loading />;
+  if (data === null) {
+    return (
+      <Article className={styles.article(false)}>
+        <Header title={['404 Not Found']} />
+        <Overview description={['Sorry, this does not exist.']} />
+      </Article>
+    );
   }
 
   return (
     <Article className={styles.article(isOnGrandChild)}>
       <Shortcuts />
       <Header title={data.title} />
-      <Pictures slug={slug} stages={data.stages} />
+      <Pictures slug={data.slug} stages={data.stages} />
       <Overview description={data.description} />
     </Article>
   );

@@ -11,11 +11,15 @@ const Leaflet = dynamic(() => import('./leaflet'), {
 });
 
 type Props = {
-  route: [number, number][];
+  route: number[][] | null;
   termini: Termini;
 };
 
 export default function Route({ route, termini }: Props) {
+  if (route === null) {
+    return null;
+  }
+
   return (
     <section>
       <h2 className={styles.heading}>

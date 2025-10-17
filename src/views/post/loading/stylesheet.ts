@@ -14,6 +14,11 @@ const styles = tw({
     base:gap-x-12
     giga:grid-cols-3
   `,
+  rectangle: `
+    aspect-3/2
+    mb-6
+    bg-neutral-900
+  `,
   paragraph: `
     mb-4
 
@@ -34,10 +39,12 @@ const styles = tw({
   medium: `
     w-60
   `,
+  tall: `
+    h-9
+  `,
   hero: `
-    block
-    h-20
-    bg-neutral-900
+    flex flex-col gap-2
+    mb-10
   `,
   word: `
     inline-block

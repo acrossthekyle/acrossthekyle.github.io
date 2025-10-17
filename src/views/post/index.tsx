@@ -1,7 +1,3 @@
-'use client';
-
-import { use } from 'react';
-
 import { Article } from '@/ui/article';
 import type { Stats, Termini } from '@/types';
 
@@ -11,45 +7,39 @@ import Statistics from './stats';
 import Toggle from './toggle';
 import styles from './stylesheet';
 
-type Post = {
+type Data = {
   date?: string;
-  description?: string[];
-  elevation: number[];
+  description: string[];
+  elevation: string[] | null;
   hasElevation: boolean;
   hasRoute: boolean;
   hasStats: boolean;
-  route: [number, number][];
+  route: number[][] | null;
+  slug: string;
+  stage: string;
   stats: Stats;
   termini: Termini;
   title?: string;
 }
 
 type Props = {
-  post: Promise<Post>;
-  slug: string;
-  stage: string;
+  data: Data | null;
 };
 
-export default function View({ post, slug, stage }: Props) {
-  const data = use(post);
-
-  if (!data) {
+export default function View({ data }: Props) {
+  if (data === null) {
     return (
       <dialog className={styles.container} open>
-        <Toggle slug={slug} />
+        <Toggle />
         <Article className={styles.article}>
           <header className={styles.header}>
             <h1 className={styles.title}>
-              <span className={styles.lid}>
-                {stage}.
-              </span>
-              Not Found
-              <span className={styles.lid}>404</span>
+              404 Not Found
             </h1>
           </header>
           <section className={styles.content}>
             <p className={styles.paragraph}>
-              Post does not exist.
+              Sorry, this does not exist.
             </p>
           </section>
         </Article>
@@ -65,6 +55,8 @@ export default function View({ post, slug, stage }: Props) {
     hasRoute,
     hasStats,
     route,
+    slug,
+    stage,
     stats,
     termini,
     title,
@@ -96,14 +88,16 @@ export default function View({ post, slug, stage }: Props) {
         {hasElevation && (
           <Elevation elevation={elevation} />
         )}
-        <section className={styles.content}>
-          <h2 className={styles.heading}>
-            Trip Report
-          </h2>
-          {(description || []).map((paragraph, index) => (
-            <p className={styles.paragraph} key={index}>{paragraph}</p>
-          ))}
-        </section>
+        {description.length > 0 && (
+          <section className={styles.content}>
+            <h2 className={styles.heading}>
+              Trip Report
+            </h2>
+            {description.map((paragraph, index) => (
+              <p className={styles.paragraph} key={index}>{paragraph}</p>
+            ))}
+          </section>
+        )}
       </Article>
     </dialog>
   );

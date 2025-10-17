@@ -1,5 +1,3 @@
-export type Route = [number, number];
-
 export type StatFull = {
   label: string;
   value: {
@@ -24,11 +22,6 @@ export type StatShort = {
   units: string;
 };
 
-export type Date = {
-  date: string | null;
-  years: string[];
-};
-
 export type Termini = {
   end: string[];
   isSame: boolean;
@@ -48,14 +41,10 @@ export type Stage = {
   hasPost: boolean;
   hasStats: boolean;
   image: string;
-  location: string;
-  readingTime?: string;
-  stats: Stats;
   termini: Termini;
 };
 
-export type Data = {
-  date: Date;
+export type Experience = {
   description: string[];
   slug: string;
   stages: Stage[];

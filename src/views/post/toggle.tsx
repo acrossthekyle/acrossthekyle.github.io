@@ -8,14 +8,18 @@ import { useEvent } from '@/hooks/useEvent';
 import styles from './stylesheet';
 
 type Props = {
-  slug: string;
+  slug?: string;
 };
 
 export default function Toggle({ slug }: Props) {
   const router = useRouter();
 
   const handleOnClose = () => {
-    router.push(`/experiences/${slug}`);
+    if (slug) {
+      router.push(`/experiences/${slug}`);
+    } else {
+      router.back();
+    }
   };
 
   useEvent('onEscape', () => {

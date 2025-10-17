@@ -12,7 +12,7 @@ import matter from 'gray-matter';
 import readingTime from 'reading-time';
 
 const trips = path.join(process.cwd(), './repository');
-const output = path.join(process.cwd(), './src/app/api');
+const output = path.join(process.cwd(), './src/db');
 
 /* UTILITY METHODS */
 
@@ -428,16 +428,16 @@ async function getStages(folder) {
 
       stages.push({
         date: data.date,
-        description,
-        elevation,
+        description: description || [],
+        elevation: elevation || null,
         hasElevation: elevation !== undefined,
         hasRoute: route !== undefined,
         hasStats: !Object.values(stats).every(value => value === null),
         image: data.image,
         index: null,
         location: data.location || null,
-        readingTime,
-        route,
+        readingTime: readingTime || null,
+        route: route || null,
         stats,
         termini: {
           end: turnStringIntoArrayForLists(end, 22),
@@ -727,8 +727,8 @@ async function go() {
       data.push({
         date,
         description: formatDescription(trip, stats),
-        gear,
-        hasGear: gear !== null,
+        // gear,
+        // hasGear: gear !== null,
         hasStats,
         label: getLabel(trip.type),
         location: trip.location,
@@ -782,7 +782,7 @@ async function go() {
       };
     });
 
-    writeData('db.js', result);
+    writeData('index.js', result);
   }
 }
 
