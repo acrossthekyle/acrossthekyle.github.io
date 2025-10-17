@@ -1,6 +1,6 @@
 'use client';
 
-import Close from './close';
+import Back from './back';
 import Logo from './logo';
 import { Menu, MenuItem, MenuLink } from './menu';
 import { useModel } from './model';
@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <header className={styles.header(isOnRoot)}>
       <Logo />
-      <Close />
+      <Back />
       <Menu>
         {routes.map((route, index: number) => (
           <MenuItem index={index} key={index}>

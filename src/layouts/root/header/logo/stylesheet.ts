@@ -3,18 +3,19 @@ import tw from '@/styles';
 const styles = tw({
   container: (isOnRoot: boolean) => {
     const common = `
-      absolute top-3 z-3
+      absolute top-0 z-3
+      py-3 px-2
       duration-300
 
-      deka:left-12
-      deka:top-12
+      deka:left-9
+      deka:top-9
     `;
 
     if (isOnRoot) {
       return tw(`
         ${common}
 
-        left-3
+        left-0
       `);
     }
 
@@ -22,10 +23,10 @@ const styles = tw({
       ${common}
 
       left-full
-      -ml-7.5
+      -ml-10
 
       base:ml-0
-      base:left-3
+      base:left-0
     `);
   },
   icon: `
