@@ -44,7 +44,7 @@ export type Stage = {
   termini: Termini;
 };
 
-export type Experience = {
+export type Post = {
   description: string[];
   slug: string;
   stages: Stage[];

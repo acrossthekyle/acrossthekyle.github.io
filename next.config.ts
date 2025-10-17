@@ -12,12 +12,22 @@ const nextConfig: NextConfig = {
     return [
       {
         source: '/travels',
-        destination: '/experiences',
+        destination: '/blog',
+        permanent: true,
+      },
+      {
+        source: '/experiences',
+        destination: '/blog',
         permanent: true,
       },
       {
         source: '/travels/:slug',
-        destination: '/experiences/:slug',
+        destination: '/blog/:slug',
+        permanent: true,
+      },
+      {
+        source: '/experiences/:slug',
+        destination: '/blog/:slug',
         permanent: true,
       },
     ];
