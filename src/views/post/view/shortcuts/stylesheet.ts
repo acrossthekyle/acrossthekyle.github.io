@@ -1,11 +1,13 @@
 import tw from '@/styles';
 
 const common = `
+  hidden
   fixed z-10
   p-2
   bg-white/12.5
   rounded-sm
 
+  base:flex
   base:absolute
   base:bg-transparent
   base:rounded-none

@@ -1,11 +1,10 @@
 export function getRoutePath(
   isOnRoot: boolean,
   base: string,
-  route: string,
   pathname: string,
 ): string {
   if (isOnRoot) {
-    return route;
+    return base;
   }
 
   if (pathname === base) {

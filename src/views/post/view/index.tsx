@@ -28,8 +28,10 @@ export default function Layout({ data }: Props) {
     <Article className={styles.article(isOnGrandChild)}>
       <Shortcuts />
       <Header title={data.title} />
-      <Pictures slug={data.slug} stages={data.stages} />
-      <Overview description={data.description} />
+      <section className={styles.section}>
+        <Pictures slug={data.slug} stages={data.stages} />
+        <Overview description={data.description} />
+      </section>
     </Article>
   );
 }

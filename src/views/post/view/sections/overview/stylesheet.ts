@@ -2,7 +2,6 @@ import tw from '@/styles';
 
 const styles = tw({
   section: `
-    mt-6
   `,
   heading: `
     mb-0

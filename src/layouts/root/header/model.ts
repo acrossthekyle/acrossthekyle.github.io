@@ -22,7 +22,6 @@ export function useModel(): Model {
       path: getRoutePath(
         isOnRoot,
         route.base,
-        route.path,
         path,
       ),
     })),

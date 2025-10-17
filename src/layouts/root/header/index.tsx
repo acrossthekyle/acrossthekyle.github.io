@@ -16,7 +16,7 @@ export default function Header() {
       <Menu>
         {routes.map((route, index: number) => (
           <MenuItem index={index} key={index}>
-            <MenuLink href={route.path} isActive={route.isActive}>
+            <MenuLink href={route.base} isActive={route.isActive}>
               {route.text}
             </MenuLink>
           </MenuItem>
