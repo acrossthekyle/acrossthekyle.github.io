@@ -200,6 +200,31 @@ async function getGear(folder) {
 
 /* GPX */
 
+function reduceGpxData(data) {
+  const minVal = Math.min(...data);
+  const maxVal = Math.max(...data);
+  const indices = [data.indexOf(minVal), data.indexOf(maxVal)];
+  const targetSize = 150;
+
+  const step = (data.length - 1) / (targetSize - 1);
+
+  for (let i = 1; i < targetSize - 1; i++) {
+    let index = Math.round(i * step);
+
+    if (!indices.includes(index)) {
+      indices.push(index);
+    }
+  }
+
+  indices.sort((a, b) => a - b);
+
+  const result = indices
+    .filter((index) => index >= 0)
+    .map(index => data[index]);
+
+  return result;
+}
+
 function parseGpxCoordinates(gpx) {
   const coordinates = [];
 
@@ -217,36 +242,17 @@ function parseGpxCoordinates(gpx) {
       : coordinates
     );
 
-  const elevations = filtered
+  const elevation = filtered
     .filter((coordinate) => coordinate[2] !== null)
     .map((coordinate) => (coordinate[2] * 3.281).toFixed(0));
 
-  const minVal = Math.min(...elevations);
-  const maxVal = Math.max(...elevations);
-  const indices = [elevations.indexOf(minVal), elevations.indexOf(maxVal)];
-  const targetSize = 150;
-
-  const step = (elevations.length - 1) / (targetSize - 1);
-
-  for (let i = 1; i < targetSize - 1; i++) {
-    let index = Math.round(i * step);
-
-    if (!indices.includes(index)) {
-      indices.push(index);
-    }
-  }
-
-  indices.sort((a, b) => a - b);
-
-  const elevation = indices
-    .filter((index) => index >= 0)
-    .map(index => elevations[index]);
+  const route = filtered
+    .filter((coordinate) => coordinate[0] !== null && coordinate[1] !== null)
+    .map((coordinate) => [coordinate[1], coordinate[0]]);
 
   return {
-    elevation,
-    route: filtered
-      .filter((coordinate) => coordinate[0] !== null && coordinate[1] !== null)
-      .map((coordinate) => [coordinate[1], coordinate[0]]),
+    elevation: reduceGpxData(elevation),
+    route: reduceGpxData(route),
   };
 }
 

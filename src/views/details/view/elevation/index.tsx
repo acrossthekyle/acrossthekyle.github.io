@@ -1,6 +1,9 @@
 'use client';
 
 import dynamic from 'next/dynamic';
+import { useContext } from 'react';
+
+import { GpxContext } from '../context';
 
 import styles from './stylesheet';
 
@@ -13,6 +16,12 @@ type Props = {
 };
 
 export default function Elevation({ elevation }: Props) {
+  const { onHover } = useContext(GpxContext);
+
+  const handleMouseLeave = () => {
+    onHover(null);
+  };
+
   if (elevation === null) {
     return null;
   }
@@ -22,7 +31,7 @@ export default function Elevation({ elevation }: Props) {
       <h2 className={styles.heading}>
         Elevation
       </h2>
-      <div className={styles.section}>
+      <div className={styles.section} onMouseLeave={handleMouseLeave}>
         <Chart
           options={{
             chart: {
@@ -73,7 +82,7 @@ export default function Elevation({ elevation }: Props) {
               },
               crosshairs: {
                 stroke: {
-                  dashArray: 0
+                  dashArray: 0,
                 },
               },
               tooltip: {
@@ -110,7 +119,11 @@ export default function Elevation({ elevation }: Props) {
                 show: false,
               },
               y: {
-                formatter: (value: number) => `${new Intl.NumberFormat().format(value)} ft`,
+                formatter: (value: number, { dataPointIndex }) => {
+                  onHover(dataPointIndex);
+
+                  return `${new Intl.NumberFormat().format(value)} ft`;
+                },
               },
             },
           }}

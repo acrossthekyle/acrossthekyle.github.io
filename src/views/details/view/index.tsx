@@ -1,6 +1,8 @@
 import { Article } from '@/ui/article';
 import type { Stats, Termini } from '@/types';
 
+import Gpx from './context';
+import Description from './description';
 import Elevation from './elevation';
 import Route from './route';
 import Statistics from './stats';
@@ -34,14 +36,9 @@ export default function View({ data }: Props) {
         <Article className={styles.article}>
           <header className={styles.header}>
             <h1 className={styles.title}>
-              404 Not Found
+              404 Not Found: Sorry, this does not exist.
             </h1>
           </header>
-          <section className={styles.content}>
-            <p className={styles.paragraph}>
-              Sorry, this does not exist.
-            </p>
-          </section>
         </Article>
       </dialog>
     );
@@ -82,22 +79,15 @@ export default function View({ data }: Props) {
         {hasStats && (
           <Statistics stats={stats} />
         )}
-        {hasRoute && (
-          <Route route={route} termini={termini} />
-        )}
-        {hasElevation && (
-          <Elevation elevation={elevation} />
-        )}
-        {description.length > 0 && (
-          <section className={styles.content}>
-            <h2 className={styles.heading}>
-              Trip Report
-            </h2>
-            {description.map((paragraph, index) => (
-              <p className={styles.paragraph} key={index}>{paragraph}</p>
-            ))}
-          </section>
-        )}
+        <Gpx>
+          {hasRoute && (
+            <Route route={route} termini={termini} />
+          )}
+          {hasElevation && (
+            <Elevation elevation={elevation} />
+          )}
+        </Gpx>
+        <Description description={description} />
       </Article>
     </dialog>
   );

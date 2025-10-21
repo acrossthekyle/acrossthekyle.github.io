@@ -1,8 +1,11 @@
 'use client';
 
 import dynamic from 'next/dynamic';
+import { useContext } from 'react';
 
 import type { Termini } from '@/types';
+
+import { GpxContext } from '../context';
 
 import styles from './stylesheet';
 
@@ -16,6 +19,8 @@ type Props = {
 };
 
 export default function Route({ route, termini }: Props) {
+  const { hoverIndex } = useContext(GpxContext);
+
   if (route === null) {
     return null;
   }
@@ -26,7 +31,11 @@ export default function Route({ route, termini }: Props) {
         Route
       </h2>
       <div className={styles.section}>
-        <Leaflet route={route} termini={termini} />
+        <Leaflet
+          hoverIndex={hoverIndex}
+          route={route}
+          termini={termini}
+        />
       </div>
     </section>
   );

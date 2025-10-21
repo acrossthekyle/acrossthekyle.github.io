@@ -18,11 +18,16 @@ import type { Termini } from '@/types';
 import styles from './stylesheet';
 
 type Props = {
+  hoverIndex: number | null;
   route: number[][];
   termini: Termini;
 };
 
-export default function Leaflet({ route, termini }: Props) {
+export default function Leaflet({
+  hoverIndex,
+  route,
+  termini,
+}: Props) {
   const [data, setData] = useState<number[][]>([]);
 
   useEffect(() => {
@@ -107,6 +112,16 @@ export default function Leaflet({ route, termini }: Props) {
             <Tooltip permanent>{termini.end.join(' ')}</Tooltip>
           </CircleMarker>
         </>
+      )}
+      {hoverIndex !== null && (
+        <CircleMarker
+          // @ts-expect-error - will fix later
+          center={data[hoverIndex]}
+          className={styles.outer}
+          fill={false}
+          opacity={1}
+          radius={4}
+        />
       )}
       <Center positions={data} />
     </MapContainer>
