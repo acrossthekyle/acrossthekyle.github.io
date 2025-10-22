@@ -1,7 +1,5 @@
 'use client';
 
-import FocusLock from 'react-focus-lock';
-
 import { Article } from '@/ui/article';
 
 import Gpx from './context';
@@ -26,41 +24,37 @@ export default function View({ data }: Props) {
   if (data === null) {
     return (
       <dialog className={styles.container} open>
-        <FocusLock>
-          <Toggle />
-          <Article className={styles.article}>
-            <Header
-              date="Sorry, this does not exist."
-              stage="404"
-              title="Not Found"
-            />
-          </Article>
-        </FocusLock>
+        <Toggle />
+        <Article className={styles.article}>
+          <Header
+            date="Sorry, this does not exist."
+            stage="404"
+            title="Not Found"
+          />
+        </Article>
       </dialog>
     );
   }
 
   return (
     <dialog className={styles.container} open>
-      <FocusLock>
-        <Toggle slug={data.slug} />
-        <Article className={styles.article}>
-          <Header date={data.date} stage={data.stage} title={data.title} />
-          {data.hasStats && (
-            <Statistics stats={data.stats} />
+      <Toggle slug={data.slug} />
+      <Article className={styles.article}>
+        <Header date={data.date} stage={data.stage} title={data.title} />
+        {data.hasStats && (
+          <Statistics stats={data.stats} />
+        )}
+        <Gpx>
+          {data.hasRoute && (
+            <Route route={data.route} termini={data.termini} />
           )}
-          <Gpx>
-            {data.hasRoute && (
-              <Route route={data.route} termini={data.termini} />
-            )}
-            {data.hasElevation && (
-              <Elevation elevation={data.elevation} />
-            )}
-          </Gpx>
-          <Description description={data.description} />
-          <Footer next={data.next} previous={data.previous} slug={data.slug} />
-        </Article>
-      </FocusLock>
+          {data.hasElevation && (
+            <Elevation elevation={data.elevation} />
+          )}
+        </Gpx>
+        <Description description={data.description} />
+        <Footer next={data.next} previous={data.previous} slug={data.slug} />
+      </Article>
     </dialog>
   );
 }

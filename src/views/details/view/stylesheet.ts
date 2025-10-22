@@ -8,6 +8,7 @@ const styles = tw({
     overflow-y-scroll
     overscroll-contain
     h-full w-full
+    outline-0
 
     base:pr-12
   `,

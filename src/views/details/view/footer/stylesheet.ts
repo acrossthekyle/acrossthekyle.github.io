@@ -2,9 +2,8 @@ import tw from '@/styles';
 
 const styles = tw({
   footer: `
-    flex flex-row justify-between gap-0
-    border-t-1 border-t-white/12.5
-    pt-8
+    flex flex-row justify-between gap-4
+    pt-6
   `,
   link: `
     text-right
