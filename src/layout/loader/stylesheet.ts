@@ -1,17 +1,6 @@
 import tw from '@/styles';
 
 const styles = tw({
-  html: `
-    h-full
-    overflow-x-hidden
-  `,
-  body: `
-    antialiased
-    flex flex-col
-    h-full
-
-    base:flex-row
-  `,
   loader: (isLoaded: boolean) => tw(`
     fixed inset-0 z-9999
     flex flex-col justify-end

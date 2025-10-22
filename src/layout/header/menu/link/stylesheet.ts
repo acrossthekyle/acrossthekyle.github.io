@@ -8,32 +8,26 @@ const styles = tw({
   ) => {
     const root = `
       relative
-      inline-block
+      block
+      overflow-hidden
       uppercase
       duration-200
-      outline-0
     `;
 
     if (isOnRoot) {
       return tw(`
         ${root}
 
-        h-10
-        text-5xl/10
+        text-5xl/9.25
         font-black font-stretch-extra-condensed
         tracking-tight
 
-        pico:h-12
-        pico:text-6xl/12
-        milli:h-14
+        pico:text-6xl/11.5
         milli:text-7xl/14
         milli:font-stretch-semi-condensed
-        deci:h-18
-        deci:text-8xl/17
-        base:pe-12
+        deci:text-8xl/18.5
         base:font-stretch-normal
         base:tracking-tight
-        tera:h-26
         tera:text-9xl/26
 
         hover:font-extralight
@@ -53,14 +47,10 @@ const styles = tw({
         ${root}
         ${sub}
 
-        text-5xl/9
-        h-9
+        text-5xl/9.25
 
-        deka:h-11
-        deka:text-6xl/10
-        mega:h-18
-        mega:text-8xl/17
-        tera:h-26
+        deka:text-6xl/11.5
+        mega:text-8xl/18.5
         tera:text-9xl/26
       `);
     }
@@ -69,14 +59,8 @@ const styles = tw({
       ${root}
       ${sub}
 
-      h-7
-      text-4xl/6
-
-      base:h-9
-      base:text-5xl/8
-      tera:h-14
+      base:text-5xl/9.25
       tera:text-7xl/14
-      peta:h-26
       peta:text-9xl/26
     `);
   },

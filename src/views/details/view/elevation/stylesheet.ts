@@ -9,11 +9,14 @@ const styles = tw({
     uppercase
   `,
   section: `
-    h-75 w-full
+    h-50 w-full
     bg-white/4
     border-1 border-white/12.5
     overflow-hidden
     rounded-sm
+    select-none
+
+    base:h-75
   `,
 });
 

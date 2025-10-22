@@ -1,16 +1,21 @@
+'use client';
+
+import FocusLock from 'react-focus-lock';
+
 import { Article } from '@/ui/article';
 import type { Stats, Termini } from '@/types';
 
 import Gpx from './context';
 import Description from './description';
 import Elevation from './elevation';
+import Header from './header';
 import Route from './route';
 import Statistics from './stats';
 import styles from './stylesheet';
 import Toggle from './toggle';
 
 type Data = {
-  date?: string;
+  date: string;
   description: string[];
   elevation: string[] | null;
   hasElevation: boolean;
@@ -21,7 +26,7 @@ type Data = {
   stage: string;
   stats: Stats;
   termini: Termini;
-  title?: string;
+  title: string;
 };
 
 type Props = {
@@ -32,14 +37,16 @@ export default function View({ data }: Props) {
   if (data === null) {
     return (
       <dialog className={styles.container} open>
-        <Toggle />
-        <Article className={styles.article}>
-          <header className={styles.header}>
-            <h1 className={styles.title}>
-              404 Not Found: Sorry, this does not exist.
-            </h1>
-          </header>
-        </Article>
+        <FocusLock>
+          <Toggle />
+          <Article className={styles.article}>
+            <Header
+              date="Sorry, this does not exist."
+              stage="404"
+              title="Not Found"
+            />
+          </Article>
+        </FocusLock>
       </dialog>
     );
   }
@@ -61,34 +68,24 @@ export default function View({ data }: Props) {
 
   return (
     <dialog className={styles.container} open>
-      <Toggle slug={slug} />
-      <Article className={styles.article}>
-        {title && date && (
-          <header className={styles.header}>
-            <h1 className={styles.title}>
-              <span className={styles.lid}>
-                {stage}.
-              </span>
-              {title}
-              <span className={styles.time}>
-                {date}
-              </span>
-            </h1>
-          </header>
-        )}
-        {hasStats && (
-          <Statistics stats={stats} />
-        )}
-        <Gpx>
-          {hasRoute && (
-            <Route route={route} termini={termini} />
+      <FocusLock>
+        <Toggle slug={slug} />
+        <Article className={styles.article}>
+          <Header date={date} stage={stage} title={title} />
+          {hasStats && (
+            <Statistics stats={stats} />
           )}
-          {hasElevation && (
-            <Elevation elevation={elevation} />
-          )}
-        </Gpx>
-        <Description description={description} />
-      </Article>
+          <Gpx>
+            {hasRoute && (
+              <Route route={route} termini={termini} />
+            )}
+            {hasElevation && (
+              <Elevation elevation={elevation} />
+            )}
+          </Gpx>
+          <Description description={description} />
+        </Article>
+      </FocusLock>
     </dialog>
   );
 }

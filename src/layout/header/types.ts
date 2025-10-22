@@ -5,7 +5,6 @@ export type Route = {
 };
 
 export type Model = {
-  isOnParent: boolean;
   isOnRoot: boolean;
   routes: Route[];
 };

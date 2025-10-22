@@ -9,11 +9,14 @@ const styles = tw({
     uppercase
   `,
   section: `
-    h-100 w-full
+    aspect-square
     mb-2
     border-1 border-white/12.5
     rounded-sm
     overflow-hidden
+
+    base:h-100
+    base:w-full
   `,
   map: `
     relative

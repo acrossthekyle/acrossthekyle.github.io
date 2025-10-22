@@ -1,7 +1,6 @@
 import { Suspense } from 'react';
 
-import { Fallback } from '@/layouts/post';
-import { View } from '@/views/post';
+import { Fallback, View } from '@/views/post';
 
 import get from './get';
 

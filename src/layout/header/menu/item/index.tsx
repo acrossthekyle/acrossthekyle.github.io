@@ -1,7 +1,3 @@
-'use client';
-
-import { useHierarchy } from '@/hooks/useHierarchy';
-
 import styles from './stylesheet';
 
 type Props = {
@@ -10,11 +6,9 @@ type Props = {
 };
 
 export default function MenuItem({ children, index }: Props) {
-  const { isOnParent, isOnRoot } = useHierarchy();
-
   return (
     <li
-      className={styles.item(isOnRoot, isOnParent)}
+      className={styles.item}
       style={{ animationDelay: `${0.1 + (index * 0.025)}s` }}
     >
       {children}

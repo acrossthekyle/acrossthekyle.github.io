@@ -4,12 +4,8 @@ import type { Metadata, Viewport } from 'next';
 
 import { introduction } from '@/constants';
 import Hierarchy from '@/contexts/hierarchy';
-import Layout from '@/layouts/root';
+import Layout from '@/layout';
 import { KeyboardListener } from '@/listeners';
-
-import Body from './body';
-import Loader from './loader';
-import styles from './stylesheet';
 
 export const metadata: Metadata = {
   title: {
@@ -56,15 +52,12 @@ type Props = {
 
 export default function RootLayout({ children }: Props) {
   return (
-    <html className={styles.html} lang="en">
+    <html className="h-full overflow-x-hidden" lang="en">
       <Hierarchy>
         <KeyboardListener />
-        <Body>
-          <Layout>
-            {children}
-          </Layout>
-          <Loader />
-        </Body>
+        <Layout>
+          {children}
+        </Layout>
       </Hierarchy>
     </html>
   );

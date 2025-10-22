@@ -9,14 +9,12 @@ import styles from './stylesheet';
 type Props = {
   children: React.ReactNode;
   href: string;
-  lines?: number;
   ref?: React.RefObject<HTMLAnchorElement | null>;
 };
 
 export default function DirectoryLink({
   children,
   href,
-  lines = 1,
   ref,
 }: Props) {
   const { isOnChild, isOnGrandChild, path, previous } = useHierarchy();
@@ -26,7 +24,7 @@ export default function DirectoryLink({
 
   return (
     <Link
-      className={styles.link(isOnChild, isActive, lines)}
+      className={styles.link(isOnChild, isActive)}
       href={isActive ? (isOnGrandChild ? href : previous) : href}
       ref={isActive ? ref : undefined}
       rel={isExternal ? 'noreferrer' : undefined}

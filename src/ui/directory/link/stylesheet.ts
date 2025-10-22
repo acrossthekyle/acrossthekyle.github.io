@@ -1,7 +1,7 @@
 import tw from '@/styles';
 
 const styles = tw({
-  link: (isOnChild: boolean, isActive: boolean, lines: number) => {
+  link: (isOnChild: boolean, isActive: boolean) => {
     const root = `
       group/link
 
@@ -9,7 +9,6 @@ const styles = tw({
       uppercase
       transform-gpu duration-300 delay-62
       overflow-hidden
-      outline-0
 
       base:duration-200
       base:delay-0
@@ -17,32 +16,11 @@ const styles = tw({
 
     if (isOnChild) {
       const sub = `
-        ${lines === 1 && `
-          h-11.25
-
-          deka:h-13.25
-          mega:h-18
-        `}
-
-        ${lines === 2 && `
-          h-22.25
-
-          deka:h-26.5
-          mega:h-36
-        `}
-
-        ${lines === 3 && `
-          h-33.25
-
-          deka:h-39.5
-          mega:h-53
-        `}
-
-        text-6xl/11
+        text-6xl/11.5
         font-stretch-ultra-condensed
 
-        deka:text-7xl/13
-        mega:text-8xl/17.5
+        deka:text-7xl/14
+        mega:text-8xl/18.25
         tera:font-stretch-extra-condensed
       `;
 

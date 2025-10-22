@@ -1,6 +1,6 @@
 import { Suspense } from 'react';
 
-import { Fallback, Blog } from '@/layouts/blog';
+import { Fallback, View } from '@/views/blog';
 
 import db from '@/db';
 
@@ -16,7 +16,8 @@ export default function Layout({ children }: Props) {
 
   return (
     <Suspense fallback={<Fallback />}>
-      <Blog data={data}>{children}</Blog>
+      <View data={data} />
+      {children}
     </Suspense>
   );
 };

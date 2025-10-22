@@ -22,6 +22,7 @@ const styles = tw({
 
         base:block
         base:w-60
+        base:px-1
         deka:py-12
         deka:w-70
         mega:w-90

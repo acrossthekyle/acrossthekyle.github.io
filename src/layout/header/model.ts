@@ -8,13 +8,11 @@ import { getRoutePath } from './utils';
 
 export function useModel(): Model {
   const {
-    isOnParent,
     isOnRoot,
     path,
   } = useHierarchy();
 
   return {
-    isOnParent,
     isOnRoot,
     routes: routes.map((route) => ({
       ...route,
