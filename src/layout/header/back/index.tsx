@@ -6,17 +6,10 @@ import { useModel } from './model';
 import styles from './stylesheet';
 
 export default function Header() {
-  const {
-    isOnParent,
-    isOnRoot,
-    uri,
-  } = useModel();
+  const { isOnRoot, uri } = useModel();
 
   return (
-    <Link
-      className={styles.close(isOnRoot, isOnParent)}
-      href={uri}
-    >
+    <Link className={styles.close(isOnRoot)} href={uri}>
       BACK
     </Link>
   );

@@ -8,7 +8,6 @@ export function useModel() {
   const {
     isOnChild,
     isOnGrandChild,
-    isOnParent,
     isOnRoot,
     path,
   } = useHierarchy();
@@ -29,7 +28,6 @@ export function useModel() {
   }
 
   return {
-    isOnParent,
     isOnRoot,
     uri,
   };

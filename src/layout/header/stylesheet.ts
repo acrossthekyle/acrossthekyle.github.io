@@ -3,7 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   header: (isOnRoot: boolean) => {
     const common = `
-      flex items-start justify-end
+      flex items-start justify-between
       px-3 py-3
 
       deka:px-12
@@ -20,6 +20,8 @@ const styles = tw({
 
     return tw(`
       ${common}
+
+      flex-row-reverse
 
       base:w-auto
       base:h-full

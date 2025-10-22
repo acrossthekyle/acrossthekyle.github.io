@@ -3,8 +3,6 @@ import tw from '@/styles';
 const styles = tw({
   header: `
     w-full
-
-    base:pr-12
   `,
   title: `
     text-4xl/7

@@ -5,11 +5,9 @@ const styles = tw({
     flex-2
     scroll-smooth
     overflow-y-scroll
-    py-3 px-3 pt-14
+    p-3
 
-    base:pt-2
-    deka:px-12
-    deka:py-12
+    deka:p-12
   `,
 });
 

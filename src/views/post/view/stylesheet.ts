@@ -6,7 +6,9 @@ const styles = tw({
     deka:!pr-24
 
     ${isOnGrandChild && `
-      hidden
+      opacity-0
+
+      base:hidden
     `}
   `),
   section: `
