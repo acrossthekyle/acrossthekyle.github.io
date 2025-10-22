@@ -9,11 +9,21 @@ type KeyboardEvent = {
 };
 
 export default function KeyboardListener() {
-  const { dispatch } = useEvent('onEscape');
+  const { dispatch: escaped } = useEvent('onEscape');
+  const { dispatch: previous } = useEvent('onPrevious');
+  const { dispatch: next } = useEvent('onNext');
 
   const handleOnKeyUp = useCallback((event: KeyboardEvent) => {
     if (event.key === 'Escape') {
-      dispatch('escaped');
+      escaped();
+    }
+
+    if (event.key === 'ArrowLeft') {
+      previous();
+    }
+
+    if (event.key === 'ArrowRight') {
+      next();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);

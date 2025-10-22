@@ -8,6 +8,8 @@ interface AppEvent<PayloadType = unknown> extends Event {
 
 interface CustomWindowEventMap extends WindowEventMap {
   onEscape: AppEvent<string>;
+  onPrevious: AppEvent<string>;
+  onNext: AppEvent<string>;
 }
 
 export const useEvent = <PayloadType = unknown>(
@@ -31,7 +33,7 @@ export const useEvent = <PayloadType = unknown>(
   }, [callback, eventName]);
 
   const dispatch = useCallback(
-    (detail: PayloadType) => {
+    (detail?: PayloadType) => {
       const event = new CustomEvent(eventName, { detail });
 
       window.dispatchEvent(event);

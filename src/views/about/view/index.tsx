@@ -137,7 +137,7 @@ export default function View() {
               <ListItemContentListItem>
                 <ListItemContentListItemJustified>
                   <ListItemContentListItemLabel>Website:</ListItemContentListItemLabel>
-                  <Link href="www.rallyhealth.com" isExternal>
+                  <Link href="https://www.rallyhealth.com" isExternal>
                     www.rallyhealth.com
                   </Link>
                 </ListItemContentListItemJustified>
@@ -201,7 +201,7 @@ export default function View() {
               <ListItemContentListItem>
                 <ListItemContentListItemJustified>
                   <ListItemContentListItemLabel>Industry:</ListItemContentListItemLabel>
-                  Event
+                  Events
                 </ListItemContentListItemJustified>
               </ListItemContentListItem>
             </ListItemContentList>
@@ -243,7 +243,7 @@ export default function View() {
         <SectionBefore labelledBy="addendum">
           <Heading id="addendum">
             <HeadingEyebrow>04.</HeadingEyebrow>
-            In Conclusion
+            Addendum
           </Heading>
           <Paragraph>
             I'm always open to new opportunities. If you're interested in working together, or have questions about any of the travels/hikes that I've done, find me online at any of{' '}

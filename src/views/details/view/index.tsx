@@ -3,37 +3,26 @@
 import FocusLock from 'react-focus-lock';
 
 import { Article } from '@/ui/article';
-import type { Stats, Termini } from '@/types';
 
 import Gpx from './context';
 import Description from './description';
 import Elevation from './elevation';
+import Footer from './footer';
 import Header from './header';
+import { useModel } from './model';
 import Route from './route';
 import Statistics from './stats';
 import styles from './stylesheet';
 import Toggle from './toggle';
-
-type Data = {
-  date: string;
-  description: string[];
-  elevation: string[] | null;
-  hasElevation: boolean;
-  hasRoute: boolean;
-  hasStats: boolean;
-  route: number[][] | null;
-  slug: string;
-  stage: string;
-  stats: Stats;
-  termini: Termini;
-  title: string;
-};
+import type { Data } from './types';
 
 type Props = {
   data: Data | null;
 };
 
 export default function View({ data }: Props) {
+  useModel(data);
+
   if (data === null) {
     return (
       <dialog className={styles.container} open>
@@ -51,39 +40,25 @@ export default function View({ data }: Props) {
     );
   }
 
-  const {
-    date,
-    description,
-    elevation,
-    hasElevation,
-    hasRoute,
-    hasStats,
-    route,
-    slug,
-    stage,
-    stats,
-    termini,
-    title,
-  } = data;
-
   return (
     <dialog className={styles.container} open>
       <FocusLock>
-        <Toggle slug={slug} />
+        <Toggle slug={data.slug} />
         <Article className={styles.article}>
-          <Header date={date} stage={stage} title={title} />
-          {hasStats && (
-            <Statistics stats={stats} />
+          <Header date={data.date} stage={data.stage} title={data.title} />
+          {data.hasStats && (
+            <Statistics stats={data.stats} />
           )}
           <Gpx>
-            {hasRoute && (
-              <Route route={route} termini={termini} />
+            {data.hasRoute && (
+              <Route route={data.route} termini={data.termini} />
             )}
-            {hasElevation && (
-              <Elevation elevation={elevation} />
+            {data.hasElevation && (
+              <Elevation elevation={data.elevation} />
             )}
           </Gpx>
-          <Description description={description} />
+          <Description description={data.description} />
+          <Footer next={data.next} previous={data.previous} slug={data.slug} />
         </Article>
       </FocusLock>
     </dialog>

@@ -26,7 +26,10 @@ function getData(slug: string, stage: string) {
     return null;
   }
 
-  const result = found.stages[Number(stage) - 1];
+  const next = index === found.stages.length - 1 ? undefined : index + 2;
+  const previous = index === 0 ? undefined : index;
+
+  const result = found.stages[index];
 
   return {
     date: result.date,
@@ -35,6 +38,16 @@ function getData(slug: string, stage: string) {
     hasElevation: result.hasElevation,
     hasRoute: result.hasRoute,
     hasStats: result.hasStats,
+    next: next ? {
+      date: found.stages[next - 1].date,
+      index: String(next).padStart(2, '0'),
+      title: found.stages[next - 1].termini.end,
+    } : undefined,
+    previous: previous ? {
+      date: found.stages[previous - 1].date,
+      index: String(previous).padStart(2, '0'),
+      title: found.stages[previous - 1].termini.end,
+    } : undefined,
     route: result.route,
     slug,
     stage,

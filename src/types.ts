@@ -55,3 +55,9 @@ export enum Orientation {
   Landscape = 'landscape',
   Portrait = 'portrait',
 };
+
+export type Navigation = {
+  date: string;
+  index: string;
+  title: string[];
+};
