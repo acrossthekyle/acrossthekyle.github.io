@@ -4,16 +4,19 @@ export const routes: Route[] = [
   {
     base: '/about',
     isActive: false,
-    text: 'About',
+    label: 'About Me',
+    text: 'Ah·bowt',
   },
   {
     base: '/blog',
     isActive: false,
-    text: 'Travels',
+    label: 'My Travels',
+    text: 'tra·vlz',
   },
   {
     base: '/contact',
     isActive: false,
-    text: 'Contact',
+    label: 'Reach Out',
+    text: 'kän·takt',
   },
 ];

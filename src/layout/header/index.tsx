@@ -2,7 +2,7 @@
 
 import Back from './back';
 import Logo from './logo';
-import { Menu, MenuItem, MenuLink } from './menu';
+import { Menu, MenuItem, MenuLink, MenuText } from './menu';
 import { useModel } from './model';
 import styles from './stylesheet';
 
@@ -16,8 +16,12 @@ export default function Header() {
       <Menu>
         {routes.map((route, index: number) => (
           <MenuItem index={index} key={index}>
-            <MenuLink href={route.base} isActive={route.isActive}>
-              {route.text}
+            <MenuLink
+              href={route.base}
+              isActive={route.isActive}
+              label={route.label}
+            >
+              <MenuText index={index} words={[route.text]} />
             </MenuLink>
           </MenuItem>
         ))}

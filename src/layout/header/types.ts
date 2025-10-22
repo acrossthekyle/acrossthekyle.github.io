@@ -1,6 +1,7 @@
 export type Route = {
   base: string;
   isActive: boolean;
+  label: string;
   text: string;
 };
 

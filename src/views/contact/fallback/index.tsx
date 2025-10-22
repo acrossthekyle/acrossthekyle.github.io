@@ -1,17 +1,5 @@
-import {
-  Directory,
-  DirectoryItems,
-  DirectoryLoading,
-} from '@/ui/directory';
+import Loading from '@/ui/loading';
 
 export default function Fallback() {
-  return (
-    <Directory align="end">
-      <DirectoryItems>
-        {Array.from({ length: 4 }).map((_, index) => (
-          <DirectoryLoading key={index} lines={1} />
-        ))}
-      </DirectoryItems>
-    </Directory>
-  );
+  return <Loading />;
 }

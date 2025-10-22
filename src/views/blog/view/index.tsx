@@ -26,7 +26,7 @@ export default function View({ data }: Props) {
     <Directory align="start">
       <DirectoryItems>
         {data.map((item, index: number) => (
-          <DirectoryItem key={index}>
+          <DirectoryItem index={index} key={index}>
             <DirectoryLink href={`/blog/${item.slug}`} ref={ref}>
               <DirectoryText index={index} words={item.title} />
             </DirectoryLink>

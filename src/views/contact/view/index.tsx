@@ -26,7 +26,7 @@ export default function View() {
     <Directory align="end">
       <DirectoryItems>
         {items.map((item, index) => (
-          <DirectoryItem key={index}>
+          <DirectoryItem index={index} key={index}>
             <DirectoryLink href={item.path}>
               <DirectoryText index={index} words={item.text} />
             </DirectoryLink>
