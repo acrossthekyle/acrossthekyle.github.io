@@ -9,6 +9,8 @@ const styles = tw({
   `,
   item: `
     relative
+    opacity-0
+    animate-elastic-in-from-right
   `,
   more: `
     font-black

@@ -2,6 +2,8 @@ import tw from '@/styles';
 
 const styles = tw({
   section: `
+    base:opacity-0
+    base:animate-in-fade-delayed
   `,
   heading: `
     mb-0

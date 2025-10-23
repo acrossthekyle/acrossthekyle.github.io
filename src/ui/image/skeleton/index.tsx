@@ -2,11 +2,17 @@
 
 import { useContext } from 'react';
 
+import Loading from '../../loading';
 import { ImageContext } from '../context';
+
 import { useModel } from './model';
 import styles from './stylesheet';
 
-export default function Skeleton() {
+type Props = {
+  useSpinner?: boolean;
+};
+
+export default function Skeleton({ useSpinner }: Props) {
   const { isLoading } = useContext(ImageContext);
 
   const { ref } = useModel();
@@ -19,9 +25,11 @@ export default function Skeleton() {
 
   return (
     <div className={styles.skeleton}>
-      <div className={styles.pulse}>
-        <span className={styles.sr}>Loading Image</span>
-      </div>
+      {useSpinner ? <Loading /> : (
+        <div className={styles.pulse}>
+          <span className={styles.sr}>Loading Image</span>
+        </div>
+      )}
     </div>
   );
 }

@@ -1,3 +1,5 @@
+import { padIndex } from '@/utils';
+
 import styles from './stylesheet';
 
 type Props = {
@@ -13,7 +15,7 @@ export default function DirectoryText({ index, words }: Props) {
           {word}
           {iteration === (words.length - 1) && index !== undefined && (
             <span className={styles.index}>
-              {String(index + 1).padStart(2, '0')}
+              {padIndex(index + 1)}
             </span>
           )}
         </span>

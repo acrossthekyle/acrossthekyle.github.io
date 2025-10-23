@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Suspense } from 'react';
 
 import db from '@/db';
+import { padIndex } from '@/utils';
 import { Fallback, View } from '@/views/details';
 
 type Params = Promise<{
@@ -40,12 +41,12 @@ function getData(slug: string, stage: string) {
     hasStats: result.hasStats,
     next: next ? {
       date: found.stages[next - 1].date,
-      index: String(next).padStart(2, '0'),
+      index: padIndex(next),
       title: found.stages[next - 1].termini.end,
     } : undefined,
     previous: previous ? {
       date: found.stages[previous - 1].date,
-      index: String(previous).padStart(2, '0'),
+      index: padIndex(previous),
       title: found.stages[previous - 1].termini.end,
     } : undefined,
     route: result.route,

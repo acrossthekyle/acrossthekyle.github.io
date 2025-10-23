@@ -3,8 +3,10 @@
 import type { Post } from '@/types';
 import { Article } from '@/ui/article';
 
-import { Header, Overview, Pictures } from './sections';
+import Header from './header';
 import { useModel } from './model';
+import Overview from './overview';
+import Pictures from './pictures';
 import Shortcuts from './shortcuts';
 import styles from './stylesheet';
 
@@ -12,7 +14,7 @@ type Props = {
   data: Post | null;
 };
 
-export default function Layout({ data }: Props) {
+export default function View({ data }: Props) {
   const { isOnGrandChild } = useModel();
 
   if (data === null) {

@@ -14,6 +14,8 @@ const styles = tw({
     font-black font-stretch-condensed
     uppercase
     w-full
+    opacity-0
+    animate-elastic-in-from-right
 
     pico:text-5xl/9
     milli:text-6xl/11.5
@@ -29,6 +31,8 @@ const styles = tw({
   introduction: `
     flex flex-col-reverse
     mt-8
+    opacity-0
+    animate-elastic-in-from-right
 
     deci:-mt-48
     deci:flex-row
@@ -54,25 +58,6 @@ const styles = tw({
   `,
   emphasis: `
     font-serif italic
-  `,
-  skeleton: `
-    flex-1
-    z-1
-    px-10
-    mt-6
-    rounded-full
-    overflow-hidden
-
-    centi:w-76
-    centi:h-76
-    centi:mt-0
-    centi:px-0
-    deci:w-100
-    deci:h-100
-    tera:w-120
-    tera:h-120
-    peta:w-180
-    peta:h-180
   `,
 });
 

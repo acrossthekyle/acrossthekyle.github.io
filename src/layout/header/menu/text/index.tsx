@@ -1,6 +1,7 @@
 'use client';
 
 import { useHierarchy } from '@/hooks/useHierarchy';
+import { padIndex } from '@/utils';
 
 import styles from './stylesheet';
 
@@ -19,7 +20,7 @@ export default function MenuText({ index, words }: Props) {
           {word}
           {iteration === (words.length - 1) && index !== undefined && (
             <span className={styles.index(isOnChild)}>
-              {String(index + 1).padStart(2, '0')}
+              {padIndex(index + 1)}
             </span>
           )}
         </span>

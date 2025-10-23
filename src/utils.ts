@@ -1,5 +1,9 @@
 import { Orientation } from '@/types';
 
+export function padIndex(index: number) {
+  return String(index).padStart(2, '0');
+}
+
 export function getOrientation(
   ref?: React.RefObject<HTMLButtonElement | HTMLDivElement | null>,
 ): Orientation | undefined {
