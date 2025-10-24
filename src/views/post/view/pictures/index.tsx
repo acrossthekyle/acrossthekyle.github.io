@@ -10,7 +10,6 @@ import {
   ImageFigure,
   ImageLink,
   ImageMaximize,
-  ImageRotateWarning,
 } from '@/ui/image';
 import { padIndex } from '@/utils';
 
@@ -70,7 +69,6 @@ export default function Pictures({ slug, stages }: Props) {
                   </ImageCaptionSubtitle>
                 </ImageLink>
               </ImageCaption>
-              <ImageRotateWarning />
             </Image>
           </ImageFigure>
         </li>

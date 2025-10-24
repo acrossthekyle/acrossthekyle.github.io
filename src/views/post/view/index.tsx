@@ -30,10 +30,10 @@ export default function View({ data }: Props) {
     <Article className={styles.article(isOnGrandChild)}>
       <Shortcuts />
       <Header title={data.title} />
-      <section className={styles.section}>
+      <div className={styles.section}>
         <Pictures slug={data.slug} stages={data.stages} />
         <Overview description={data.description} />
-      </section>
+      </div>
     </Article>
   );
 }

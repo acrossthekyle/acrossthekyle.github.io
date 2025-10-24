@@ -52,7 +52,10 @@ export default function Stats({ stats }: Props) {
   return (
     <section className={styles.sections} aria-label="statistics">
       {sections.map((section: Section) => (
-        <section aria-labelledby={section.heading} key={section.heading}>
+        <section
+          aria-labelledby={section.heading.replace(' ', '-')}
+          key={section.heading}
+        >
           <h2 className={styles.heading} id={section.heading.replace(' ', '-')}>
             {section.heading}
           </h2>

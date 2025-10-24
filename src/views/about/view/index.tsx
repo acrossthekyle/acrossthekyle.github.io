@@ -18,9 +18,10 @@ import {
 } from './list';
 import Paragraph from './paragraph';
 import {
-  SectionHorizontal,
-  SectionBefore,
   SectionAfter,
+  SectionBefore,
+  SectionEmpty,
+  SectionHorizontal,
   SectionVertical,
 } from './section';
 
@@ -239,7 +240,7 @@ export default function View() {
           </ListItem>
         </List>
       </SectionVertical>
-      <SectionHorizontal>
+      <SectionHorizontal a11yLabel="Conclusion">
         <SectionBefore labelledBy="addendum">
           <Heading id="addendum">
             <HeadingEyebrow>04.</HeadingEyebrow>
@@ -254,7 +255,7 @@ export default function View() {
             <Link href="https://github.com/acrossthekyle/acrossthekyle.github.io" isExternal>github.com</Link>.
           </Paragraph>
         </SectionBefore>
-        <SectionAfter />
+        <SectionEmpty />
       </SectionHorizontal>
     </Article>
   );

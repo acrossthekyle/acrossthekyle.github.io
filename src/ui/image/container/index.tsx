@@ -36,8 +36,8 @@ export default function Container({
           sizes={sizes}
           width={width}
         />
-        {children}
         <Skeleton useSpinner={useSpinner} />
+        {children}
       </Placeholder>
     </Context>
   );

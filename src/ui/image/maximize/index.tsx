@@ -1,5 +1,7 @@
 'use client';
 
+import Rotate from '../rotate';
+
 import { useModel } from './model';
 import styles from './stylesheet';
 
@@ -31,6 +33,7 @@ export default function Maximize({ caption, eyebrow, subtitle }: Props) {
         onClick={handleOnWarn}
         type="button"
       />
+      <Rotate />
     </>
   );
 }

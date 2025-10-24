@@ -4,6 +4,5 @@ export { default as ImageCaption } from './caption';
 export { default as ImageCaptionEyebrow } from './eyebrow';
 export { default as ImageFigure } from './figure';
 export { default as ImageMaximize } from './maximize';
-export { default as ImageRotateWarning } from './rotate';
 export { default as ImageCaptionSubtitle } from './subtitle';
 export { default as ImageCaptionText } from './text';
