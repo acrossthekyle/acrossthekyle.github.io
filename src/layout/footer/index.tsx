@@ -17,9 +17,9 @@ export default function Footer() {
           type="button"
         >
           {isFullscreen ? (
-            <Minimize />
+            <Minimize className={styles.icon} preserveAspectRatio="none" />
           ) : (
-            <Maximize />
+            <Maximize className={styles.icon} preserveAspectRatio="none" />
           )}
         </button>
       )}

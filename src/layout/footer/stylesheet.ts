@@ -12,6 +12,10 @@ const styles = tw({
   toggle: (isOnRoot: boolean) => tw(`
     ${!isOnRoot && 'hidden'}
   `),
+  icon: `
+    w-10
+    stroke-1
+  `,
   copy: `
     invisible
     absolute -z-1
