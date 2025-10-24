@@ -14,7 +14,11 @@ export default function Footer({ next, previous, slug }: Props) {
   return (
     <footer className={styles.footer}>
       {previous ? (
-        <Link className={styles.link} href={`/blog/${slug}/${previous.index}`}>
+        <Link
+          className={styles.link}
+          href={`/blog/${slug}/${previous.index}`}
+          replace
+        >
           <h3 className={styles.title}>
             <span className={styles.lid}>
               Previous
@@ -29,7 +33,11 @@ export default function Footer({ next, previous, slug }: Props) {
         </Link>
       ) : (<div aria-hidden="true" className={styles.link} />)}
       {next ? (
-        <Link className={styles.link} href={`/blog/${slug}/${next.index}`}>
+        <Link
+          className={styles.link}
+          href={`/blog/${slug}/${next.index}`}
+          replace
+        >
           <h3 className={styles.title}>
             <span className={styles.lid}>
               Next

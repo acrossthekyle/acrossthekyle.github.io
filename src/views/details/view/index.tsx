@@ -43,7 +43,7 @@ export default function View({ data }: Props) {
   return (
     <dialog className={styles.container} open>
       <FocusLock>
-        <Toggle slug={data.slug} />
+        <Toggle />
         <Article className={styles.article}>
           <Header date={data.date} stage={data.stage} title={data.title} />
           {data.hasStats && (

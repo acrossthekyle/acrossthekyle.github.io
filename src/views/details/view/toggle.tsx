@@ -7,19 +7,11 @@ import { useEvent } from '@/hooks/useEvent';
 
 import styles from './stylesheet';
 
-type Props = {
-  slug?: string;
-};
-
-export default function Toggle({ slug }: Props) {
+export default function Toggle() {
   const router = useRouter();
 
   const handleOnClose = () => {
-    if (slug) {
-      router.push(`/blog/${slug}`);
-    } else {
-      router.back();
-    }
+    router.back();
   };
 
   useEvent('onEscape', () => {

@@ -35,7 +35,7 @@ const styles = tw({
   `,
   article: `
     flex flex-col gap-8
-    pt-14
+    pt-16
   `,
 });
 

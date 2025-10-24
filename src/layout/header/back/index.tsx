@@ -6,10 +6,22 @@ import { useModel } from './model';
 import styles from './stylesheet';
 
 export default function Header() {
-  const { isOnRoot, uri } = useModel();
+  const { handleOnBack, isOnChild, isOnRoot } = useModel();
+
+  if (isOnChild) {
+    return (
+      <button
+        className={styles.close(isOnRoot)}
+        onClick={handleOnBack}
+        type="button"
+      >
+        BACK
+      </button>
+    );
+  }
 
   return (
-    <Link className={styles.close(isOnRoot)} href={uri}>
+    <Link className={styles.close(isOnRoot)} href="/">
       BACK
     </Link>
   );
