@@ -7,6 +7,8 @@ const styles = tw({
     font-black font-stretch-extra-condensed
     tracking-tight
     uppercase
+    opacity-0
+    animate-in-fade
 
     plank:font-stretch-ultra-condensed
     pico:text-6xl/11.5

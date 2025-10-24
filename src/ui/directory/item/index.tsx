@@ -1,6 +1,8 @@
 'use client';
 
-import { useHierarchy } from '@/hooks/useHierarchy';
+import { useEffect, useState } from 'react';
+
+import { useLoad } from '@/hooks/useLoad';
 
 import styles from './stylesheet';
 
@@ -10,11 +12,29 @@ type Props = {
 };
 
 export default function DirectoryItem({ children, index }: Props) {
-  const { isOnChild } = useHierarchy();
+  const { path, previous } = useLoad();
+
+  const [canAnimate, setCanAnimate] = useState(true);
+
+  useEffect(() => {
+    const isFromRootOrParent = ['/', '/about', '/blog', '/contact']
+      .includes(previous) &&
+      ['/blog', '/contact'].includes(path);
+
+    if (isFromRootOrParent) {
+      const timeout = setTimeout(() => {
+        setCanAnimate(false);
+      }, 750);
+
+      return () => clearTimeout(timeout);
+    } else {
+      setCanAnimate(false);
+    }
+  }, [path, previous]);
 
   return (
     <li
-      className={styles.item(isOnChild)}
+      className={styles.item(canAnimate)}
       style={{ animationDelay: `${0.1 + (index * 0.025)}s` }}
     >
       {children}

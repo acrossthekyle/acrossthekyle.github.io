@@ -10,6 +10,8 @@ const styles = tw({
     overscroll-contain
     h-full w-full
     outline-0
+    opacity-0
+    animate-in-fade
 
     base:relative
     base:pr-12

@@ -17,7 +17,7 @@ export default function Header() {
         {routes.map((route, index: number) => (
           <MenuItem index={index} key={index}>
             <MenuLink
-              href={route.base}
+              href={route.path}
               isActive={route.isActive}
               label={route.label}
             >

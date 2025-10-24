@@ -4,6 +4,7 @@ import type { Metadata, Viewport } from 'next';
 
 import { introduction } from '@/constants';
 import Hierarchy from '@/contexts/hierarchy';
+import Load from '@/contexts/load';
 import Layout from '@/layout';
 import { KeyboardListener } from '@/listeners';
 
@@ -54,10 +55,12 @@ export default function RootLayout({ children }: Props) {
   return (
     <html className="h-full" lang="en">
       <Hierarchy>
-        <KeyboardListener />
-        <Layout>
-          {children}
-        </Layout>
+        <Load>
+          <KeyboardListener />
+          <Layout>
+            {children}
+          </Layout>
+        </Load>
       </Hierarchy>
     </html>
   );

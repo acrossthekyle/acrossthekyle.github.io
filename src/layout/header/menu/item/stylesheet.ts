@@ -1,9 +1,9 @@
 import tw from '@/styles';
 
 const styles = {
-  item: (isOnRoot: boolean) => tw(`
-    ${isOnRoot && 'opacity-0'}
-    ${isOnRoot && 'animate-elastic-in-from-right'}
+  item: (isFirstLoad: boolean) => tw(`
+    ${isFirstLoad && 'opacity-0'}
+    ${isFirstLoad && 'animate-elastic-in-from-right'}
   `),
 };
 

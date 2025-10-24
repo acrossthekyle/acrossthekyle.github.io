@@ -2,7 +2,9 @@ import tw from '@/styles';
 
 const styles = tw({
   section: `
-    base:opacity-0
+    opacity-0
+    animate-in-fade
+
     base:animate-in-fade-delayed
   `,
   heading: `
