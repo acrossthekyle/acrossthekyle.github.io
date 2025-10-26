@@ -1,4 +1,4 @@
-I arrived on the island of Corsica yesterday, after many connecting flights, from Chicago, and a short taxi ride from the airport near Calenzana, my starting point for this trek. I grabbed a quick dinner with some other hikes who were staying at the same Gîte, and then settled in for a restless night of sleep in anticipation of starting the trek early tomorrow morning. I can't wait to be back in the mountains.
+I arrived on the island of Corsica yesterday. My starting point for this trek was Calenzana where I grabbed a quick dinner with some other hikers who were staying at the same Gîte, and then settled in for a restless night of sleep in anticipation of starting the trek early tomorrow morning. I can't wait to be back in the mountains.
 
 I nearly quit on the first day.
 
