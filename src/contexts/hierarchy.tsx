@@ -31,7 +31,7 @@ export default function Hierarchy({ children }: Props) {
   const isOnChild = segments.length >= 2;
   const isOnGrandChild = segments.length > 2;
 
-  const previous = `/${current.split('/')[1]}`;
+  const previous = `/blog/${current.split('/')[2]}`;
 
   return (
     <HierarchyContext.Provider

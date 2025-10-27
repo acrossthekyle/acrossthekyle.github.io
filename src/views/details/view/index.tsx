@@ -45,7 +45,13 @@ export default function View({ data }: Props) {
       <FocusLock>
         <Toggle />
         <Article className={styles.article}>
-          <Header date={data.date} stage={data.stage} title={data.title} />
+          <Header
+            date={data.date}
+            image={data.image}
+            label={data.label}
+            stage={data.stage}
+            title={data.title}
+          />
           {data.hasStats && (
             <Statistics stats={data.stats} />
           )}

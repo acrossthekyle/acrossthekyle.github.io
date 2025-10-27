@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const common = `
   hidden
-  fixed z-10
+  fixed z-5
   p-2
   bg-white/12.5
   rounded-sm

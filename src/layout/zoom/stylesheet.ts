@@ -31,6 +31,16 @@ const styles = {
       fixed
     ` : `z-0 opacity-0`}
   `),
+  caption: (isLandscapeOrientation: boolean, isZoomed: boolean) => tw(`
+    absolute top-4 left-4 right-4 z-4
+    font-normal
+    text-xs
+    ${isLandscapeOrientation ? 'text-right' : 'text-center'}
+    uppercase
+
+    ${isZoomed ? 'duration-300 delay-200' : ''}
+    ${isZoomed ? 'opacity-100' : 'opacity-0'}
+  `),
 };
 
 export default styles;

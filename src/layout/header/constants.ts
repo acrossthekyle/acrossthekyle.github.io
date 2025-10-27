@@ -6,20 +6,20 @@ export const routes: Route[] = [
     isActive: false,
     label: 'About Me',
     path: '',
-    text: 'About Me',
+    text: 'About',
   },
   {
     base: '/blog/trekking',
     isActive: false,
     label: 'My treks and thru-hikes',
     path: '',
-    text: 'Trekking',
+    text: 'Thru-hikes',
   },
   {
     base: '/blog/destinations',
     isActive: false,
     label: 'World-wide destinations',
     path: '',
-    text: 'Destinations',
+    text: 'Getaways',
   },
 ];

@@ -2,9 +2,11 @@ import tw from '@/styles';
 
 const styles = tw({
   header: `
+    relative
     w-full
   `,
   title: `
+    mb-6
     text-4xl/7
     font-black font-stretch-semi-condensed
     uppercase

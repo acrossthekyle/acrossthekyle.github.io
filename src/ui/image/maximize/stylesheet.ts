@@ -13,34 +13,28 @@ const styles = tw({
     ${wrapper}
     z-1
 
-    landscape:hidden
     base:landscape:block
   `,
   portrait: `
     ${wrapper}
     z-2
 
-    landscape:hidden
+    hidden
   `,
-  image: (isLandscape?: boolean) => tw(`
+  image: `
     rounded-sm
 
     brightness-80
     grayscale-0
 
-    ${isLandscape === true ? `
-      object-cover
-      w-full
-      h-full
-    ` : `
-      w-auto h-full
-    `}
-  `),
+    object-cover
+    w-full
+    h-full
+  `,
   minimize: `
     relative z-3
     flex items-center justify-center
     w-full h-full
-    text-left
     !cursor-zoom-out
   `,
 });

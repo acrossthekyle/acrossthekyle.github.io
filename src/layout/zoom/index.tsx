@@ -9,8 +9,11 @@ import styles from './stylesheet';
 export default function Zoom() {
   const {
     canBlur,
+    caption,
     content,
+    isLandscapeOrientation,
     isZoomed,
+    isZooming,
     size,
   } = useZoom();
 
@@ -18,7 +21,7 @@ export default function Zoom() {
     <>
       <div className={styles.backdrop(canBlur)} />
       <div
-        className={styles.dialog(isZoomed)}
+        className={styles.dialog(isZooming)}
         role="dialog"
         aria-modal="true"
         tabIndex={-1}
@@ -29,8 +32,13 @@ export default function Zoom() {
           width: size.width,
         } : undefined}
       >
-        <FocusLock className="h-full" disabled={!isZoomed}>
+        <FocusLock className="h-full" disabled={!isZooming}>
           {content}
+          {!!caption && (
+            <div className={styles.caption(isLandscapeOrientation, isZoomed)}>
+              {caption}
+            </div>
+          )}
         </FocusLock>
       </div>
     </>

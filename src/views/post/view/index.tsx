@@ -3,11 +3,12 @@
 import type { Post } from '@/types';
 import { Article } from '@/ui/article';
 
+import Gallery from './gallery';
 import Header from './header';
 import { useModel } from './model';
 import Overview from './overview';
-import Pictures from './pictures';
 import Shortcuts from './shortcuts';
+import Timeline from './timeline';
 import styles from './stylesheet';
 
 type Props = {
@@ -31,7 +32,16 @@ export default function View({ data }: Props) {
       <Shortcuts />
       <Header title={data.title} />
       <div className={styles.section}>
-        <Pictures slug={data.slug} stages={data.stages} type={data.type} />
+        {data.type === 'destinations' ? (
+          <Gallery stages={data.stages} />
+        ) : (
+          <Timeline
+            label={data.label}
+            slug={data.slug}
+            stages={data.stages}
+            type={data.type}
+          />
+        )}
         <Overview description={data.description} />
       </div>
     </Article>

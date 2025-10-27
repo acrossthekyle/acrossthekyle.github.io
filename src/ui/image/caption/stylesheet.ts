@@ -9,7 +9,6 @@ const styles = tw({
     uppercase
     duration-300
     tracking-tighter
-    pointer-events-none
 
     pico:text-2xl/5
     micro:text-3xl/6

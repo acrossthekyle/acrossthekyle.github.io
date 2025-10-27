@@ -41,11 +41,13 @@ export type Stage = {
   hasPost: boolean;
   hasStats: boolean;
   image: string;
+  index: string;
   termini: Termini;
 };
 
 export type Post = {
   description: string[];
+  label: string;
   slug: string;
   stages: Stage[];
   title: string[];

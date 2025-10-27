@@ -7,6 +7,8 @@ export type Data = {
   hasElevation: boolean;
   hasRoute: boolean;
   hasStats: boolean;
+  image: string;
+  label: string;
   next?: Navigation;
   previous?: Navigation;
   route: number[][] | null;

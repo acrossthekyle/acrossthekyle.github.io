@@ -6,11 +6,6 @@ import { useContext, useRef } from 'react';
 import { useZoom } from '@/hooks/useZoom';
 
 import { ImageContext } from '../context';
-import {
-  ImageCaption,
-  ImageCaptionEyebrow,
-  ImageCaptionSubtitle,
-} from '../index';
 import styles from './stylesheet';
 
 type Model = {
@@ -19,11 +14,7 @@ type Model = {
   zoomRef: React.RefObject<HTMLButtonElement | null>;
 };
 
-export function useModel(
-  caption: string[],
-  eyebrow: string,
-  subtitle: string,
-): Model {
+export function useModel( caption?: string[] ): Model {
   const {
     isLandscapeOrientation,
     onMaximized,
@@ -46,6 +37,7 @@ export function useModel(
     onMaximized();
 
     zoom({
+      caption: caption?.join(' / '),
       content: (
         <button
           aria-label="minimize image"
@@ -54,26 +46,16 @@ export function useModel(
           type="button"
         >
           <Image
-            alt={caption.join(' ')}
-            className={styles.image(isLandscapeOrientation)}
+            alt={caption ? caption.join(' ') : ''}
+            className={styles.image}
             height={1080}
             sizes="(max-width: 768px) 100vw, 50vw"
             src={src}
             width={1920}
           />
-          <ImageCaption>
-            <ImageCaptionEyebrow>
-              {eyebrow}
-            </ImageCaptionEyebrow>
-            {caption.map((word) => (
-              <span className="block" key={word}>{word}</span>
-            ))}
-            <ImageCaptionSubtitle>
-              {subtitle}
-            </ImageCaptionSubtitle>
-          </ImageCaption>
         </button>
       ),
+      isLandscapeOrientation,
       ref: zoomRef,
     });
   };

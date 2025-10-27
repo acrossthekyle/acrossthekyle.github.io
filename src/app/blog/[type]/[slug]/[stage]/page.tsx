@@ -39,6 +39,8 @@ function getData(slug: string, stage: string) {
     hasElevation: result.hasElevation,
     hasRoute: result.hasRoute,
     hasStats: result.hasStats,
+    image: result.image,
+    label: found.label,
     next: next ? {
       date: found.stages[next - 1].date,
       index: padIndex(next),

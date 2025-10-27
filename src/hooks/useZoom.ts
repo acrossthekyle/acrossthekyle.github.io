@@ -5,7 +5,9 @@ import { create } from 'zustand';
 import { useEvent } from './useEvent';
 
 type ZoomOptions = {
+  caption?: string;
   content: React.ReactNode | React.ReactNode[];
+  isLandscapeOrientation: boolean;
   ref: React.RefObject<HTMLButtonElement | null>;
 };
 
@@ -18,49 +20,71 @@ type Size = {
 
 type State = {
   canBlur: boolean;
+  caption?: string;
   content: React.ReactNode | React.ReactNode[] | null;
+  isLandscapeOrientation: boolean;
   isZoomed: boolean;
+  isZooming: boolean;
   size?: Size;
   sizeBackup?: Size;
 };
 
 type Actions = {
   setFinalSize: (size: Size) => void;
-  setZoom: (content: React.ReactNode | React.ReactNode[], size: Size) => void;
+  setZoom: (
+    content: React.ReactNode | React.ReactNode[],
+    size: Size,
+    isLandscapeOrientation: boolean,
+    caption?: string,
+  ) => void;
   unset: () => void;
 };
 
 const store = create<State & Actions>()(
   (set, get) => ({
     canBlur: false,
+    caption: undefined,
     content: null,
+    isLandscapeOrientation: false,
     isZoomed: false,
+    isZooming: false,
     size: undefined,
     sizeBackup: undefined,
-    setZoom: (content: React.ReactNode | React.ReactNode[], size: Size) => {
+    setZoom: (
+      content: React.ReactNode | React.ReactNode[],
+      size: Size,
+      isLandscapeOrientation: boolean,
+      caption?: string,
+    ) => {
       set({
         canBlur: true,
+        caption,
         content,
-        isZoomed: true,
+        isLandscapeOrientation,
+        isZoomed: false,
+        isZooming: true,
         size,
         sizeBackup: size,
       });
     },
     setFinalSize: (size: Size) => {
       set({
+        isZoomed: true,
         size,
       });
     },
     unset: () => {
       set({
         canBlur: false,
+        isZoomed: false,
         size: get().sizeBackup,
       });
 
       setTimeout(() => {
         set({
+          caption: undefined,
           content: null,
-          isZoomed: false,
+          isZooming: false,
           size: undefined,
         });
       }, 250);
@@ -71,8 +95,11 @@ const store = create<State & Actions>()(
 export function useZoom() {
   const {
     canBlur,
+    caption,
     content,
+    isLandscapeOrientation,
     isZoomed,
+    isZooming,
     setFinalSize,
     setZoom,
     size,
@@ -109,7 +136,9 @@ export function useZoom() {
         left: boundingClientRect.left,
         height: computedStyle.height,
         width: computedStyle.width,
-      }
+      },
+      options.isLandscapeOrientation,
+      options.caption,
     );
 
     setTimeout(() => {
@@ -130,8 +159,11 @@ export function useZoom() {
 
   return {
     canBlur,
+    caption,
     content,
+    isLandscapeOrientation,
     isZoomed,
+    isZooming,
     size,
     zoom,
     zoomOut,
