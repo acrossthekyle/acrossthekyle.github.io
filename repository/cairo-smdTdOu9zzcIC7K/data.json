@@ -1,11 +1,11 @@
 {
-  "dates": ["12/29/2022", "1/6/2023"],
-  "days": "8",
+  "dates": ["12/29/2022", "1/2/2023"],
+  "days": "5",
   "timestamp": "1672304400",
-  "id": "cairo-and-luxor",
-  "type": "cities",
+  "id": "cairo",
+  "type": "destinations",
   "location": "Egypt",
-  "title": "Cairo & Luxor",
+  "title": "Cairo",
   "description": [
     "Spending New Years Eve in a land of ancient wonders. Egypt is a place full of history and bustling cities, awe-inspiring pyramids, tombs, and amazing temples. Seeing them up close, and being able to touch them, is how history is meant to be experienced. We visited %length% destinations over %days%."
   ]

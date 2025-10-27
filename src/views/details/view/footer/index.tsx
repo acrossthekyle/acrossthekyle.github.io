@@ -8,15 +8,16 @@ type Props = {
   next?: Navigation;
   previous?: Navigation;
   slug: string;
+  type: string;
 };
 
-export default function Footer({ next, previous, slug }: Props) {
+export default function Footer({ next, previous, slug, type }: Props) {
   return (
     <footer className={styles.footer}>
       {previous ? (
         <Link
           className={styles.link}
-          href={`/blog/${slug}/${previous.index}`}
+          href={`/blog/${type}/${slug}/${previous.index}`}
           replace
         >
           <h3 className={styles.title}>
@@ -35,7 +36,7 @@ export default function Footer({ next, previous, slug }: Props) {
       {next ? (
         <Link
           className={styles.link}
-          href={`/blog/${slug}/${next.index}`}
+          href={`/blog/${type}/${slug}/${next.index}`}
           replace
         >
           <h3 className={styles.title}>

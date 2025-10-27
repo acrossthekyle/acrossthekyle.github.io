@@ -19,5 +19,6 @@ export default function get(slug: string): Post | null {
       termini,
     })),
     title: data.title,
+    type: data.type,
   };
 };

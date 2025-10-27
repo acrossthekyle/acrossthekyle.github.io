@@ -58,7 +58,7 @@ export default function View({ data }: Props) {
             )}
           </Gpx>
           <Description description={data.description} />
-          <Footer next={data.next} previous={data.previous} slug={data.slug} />
+          <Footer next={data.next} previous={data.previous} slug={data.slug} type={data.type} />
         </Article>
       </FocusLock>
     </dialog>

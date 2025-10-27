@@ -22,7 +22,7 @@ const styles = tw({
     centi:max-w-130
     deci:text-7xl/13.5
     base:max-w-160
-    kilo:max-w-200
+    kilo:max-w-210
     kilo:text-8xl/18
     tera:max-w-260
     tera:text-9xl/26

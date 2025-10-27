@@ -1743,7 +1743,7 @@ const data = [
       "Yellow",
       "River Trail"
     ],
-    "type": "thru-hike"
+    "type": "trekking"
   },
   {
     "date": {
@@ -11031,7 +11031,7 @@ const data = [
       "Tour du",
       "Mont Blanc"
     ],
-    "type": "thru-hike"
+    "type": "trekking"
   },
   {
     "date": {
@@ -11184,7 +11184,7 @@ const data = [
     "title": [
       "Geneva"
     ],
-    "type": "cities"
+    "type": "destinations"
   },
   {
     "date": {
@@ -22276,163 +22276,23 @@ const data = [
     "title": [
       "GR 20"
     ],
-    "type": "thru-hike"
+    "type": "trekking"
   },
   {
     "date": {
-      "date": "Dec 29 2022",
+      "date": "Jan 3 2023",
       "years": [
-        "2022"
+        "2023"
       ]
     },
     "description": [
-      "Spending New Years Eve in a land of ancient wonders. Egypt is a place full of history and bustling cities, awe-inspiring pyramids, tombs, and amazing temples. Seeing them up close, and being able to touch them, is how history is meant to be experienced. We visited 15 destinations over 8 days."
+      "Spending New Years Eve in a land of ancient wonders. Egypt is a place full of history and bustling cities, awe-inspiring pyramids, tombs, and amazing temples. Seeing them up close, and being able to touch them, is how history is meant to be experienced. We visited 10 destinations over 4 days."
     ],
     "hasStats": false,
     "label": "",
     "location": "Egypt",
-    "slug": "cairo-and-luxor",
+    "slug": "luxor",
     "stages": [
-      {
-        "date": "December 29th, 2022",
-        "description": [],
-        "elevation": null,
-        "hasElevation": false,
-        "hasRoute": false,
-        "hasStats": false,
-        "image": "2022/12/28/c0f9c079-8942-4390-bb9e-dae4e0a65034.jpeg",
-        "location": "Giza Plateau, Giza",
-        "readingTime": null,
-        "route": null,
-        "stats": {
-          "distance": null,
-          "gain": null,
-          "loss": null,
-          "max": null,
-          "time": null
-        },
-        "termini": {
-          "end": [
-            "The Pyramids"
-          ],
-          "isSame": true,
-          "start": [
-            "The Pyramids"
-          ]
-        }
-      },
-      {
-        "date": "December 29th, 2022",
-        "description": [],
-        "elevation": null,
-        "hasElevation": false,
-        "hasRoute": false,
-        "hasStats": false,
-        "image": "2022/12/28/b3275967-68fd-4c69-ad40-df15b2a697b5.jpeg",
-        "location": "Giza Plateau, Giza",
-        "readingTime": null,
-        "route": null,
-        "stats": {
-          "distance": null,
-          "gain": null,
-          "loss": null,
-          "max": null,
-          "time": null
-        },
-        "termini": {
-          "end": [
-            "The Sphinx"
-          ],
-          "isSame": true,
-          "start": [
-            "The Sphinx"
-          ]
-        }
-      },
-      {
-        "date": "December 30th, 2022",
-        "description": [],
-        "elevation": null,
-        "hasElevation": false,
-        "hasRoute": false,
-        "hasStats": false,
-        "image": "2022/12/28/d9a7b01b-5915-493c-8c25-5a8ebd77ac58.jpeg",
-        "location": "Saqqarah",
-        "readingTime": null,
-        "route": null,
-        "stats": {
-          "distance": null,
-          "gain": null,
-          "loss": null,
-          "max": null,
-          "time": null
-        },
-        "termini": {
-          "end": [
-            "Bent Pyramid"
-          ],
-          "isSame": true,
-          "start": [
-            "Bent Pyramid"
-          ]
-        }
-      },
-      {
-        "date": "December 30th, 2022",
-        "description": [],
-        "elevation": null,
-        "hasElevation": false,
-        "hasRoute": false,
-        "hasStats": false,
-        "image": "2022/12/28/2fbb089e-8a80-4c3b-b071-709cc9702a84.jpeg",
-        "location": "Dahshur",
-        "readingTime": null,
-        "route": null,
-        "stats": {
-          "distance": null,
-          "gain": null,
-          "loss": null,
-          "max": null,
-          "time": null
-        },
-        "termini": {
-          "end": [
-            "Step Pyramid"
-          ],
-          "isSame": true,
-          "start": [
-            "Step Pyramid"
-          ]
-        }
-      },
-      {
-        "date": "January 1st, 2023",
-        "description": [],
-        "elevation": null,
-        "hasElevation": false,
-        "hasRoute": false,
-        "hasStats": false,
-        "image": "2022/12/28/f24edc7b-3854-40c5-a2e7-33e2e2e27bde.jpeg",
-        "location": "Cairo",
-        "readingTime": null,
-        "route": null,
-        "stats": {
-          "distance": null,
-          "gain": null,
-          "loss": null,
-          "max": null,
-          "time": null
-        },
-        "termini": {
-          "end": [
-            "Museums in Cairo"
-          ],
-          "isSame": true,
-          "start": [
-            "Museums in Cairo"
-          ]
-        }
-      },
       {
         "date": "January 3rd, 2023",
         "description": [],
@@ -22722,21 +22582,195 @@ const data = [
       "altitude": null,
       "days": {
         "label": "days",
-        "value": "8",
+        "value": "4",
         "units": null
       },
       "distance": null,
       "length": {
         "label": "length",
-        "value": 15,
+        "value": 10,
         "units": null
       }
     },
     "title": [
-      "Cairo &",
       "Luxor"
     ],
-    "type": "cities"
+    "type": "destinations"
+  },
+  {
+    "date": {
+      "date": "Dec 29 2022",
+      "years": [
+        "2022"
+      ]
+    },
+    "description": [
+      "Spending New Years Eve in a land of ancient wonders. Egypt is a place full of history and bustling cities, awe-inspiring pyramids, tombs, and amazing temples. Seeing them up close, and being able to touch them, is how history is meant to be experienced. We visited 5 destinations over 5 days."
+    ],
+    "hasStats": false,
+    "label": "",
+    "location": "Egypt",
+    "slug": "cairo",
+    "stages": [
+      {
+        "date": "December 29th, 2022",
+        "description": [],
+        "elevation": null,
+        "hasElevation": false,
+        "hasRoute": false,
+        "hasStats": false,
+        "image": "2022/12/28/c0f9c079-8942-4390-bb9e-dae4e0a65034.jpeg",
+        "location": "Giza Plateau, Giza",
+        "readingTime": null,
+        "route": null,
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "The Pyramids"
+          ],
+          "isSame": true,
+          "start": [
+            "The Pyramids"
+          ]
+        }
+      },
+      {
+        "date": "December 29th, 2022",
+        "description": [],
+        "elevation": null,
+        "hasElevation": false,
+        "hasRoute": false,
+        "hasStats": false,
+        "image": "2022/12/28/b3275967-68fd-4c69-ad40-df15b2a697b5.jpeg",
+        "location": "Giza Plateau, Giza",
+        "readingTime": null,
+        "route": null,
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "The Sphinx"
+          ],
+          "isSame": true,
+          "start": [
+            "The Sphinx"
+          ]
+        }
+      },
+      {
+        "date": "December 30th, 2022",
+        "description": [],
+        "elevation": null,
+        "hasElevation": false,
+        "hasRoute": false,
+        "hasStats": false,
+        "image": "2022/12/28/d9a7b01b-5915-493c-8c25-5a8ebd77ac58.jpeg",
+        "location": "Saqqarah",
+        "readingTime": null,
+        "route": null,
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "Bent Pyramid"
+          ],
+          "isSame": true,
+          "start": [
+            "Bent Pyramid"
+          ]
+        }
+      },
+      {
+        "date": "December 30th, 2022",
+        "description": [],
+        "elevation": null,
+        "hasElevation": false,
+        "hasRoute": false,
+        "hasStats": false,
+        "image": "2022/12/28/2fbb089e-8a80-4c3b-b071-709cc9702a84.jpeg",
+        "location": "Dahshur",
+        "readingTime": null,
+        "route": null,
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "Step Pyramid"
+          ],
+          "isSame": true,
+          "start": [
+            "Step Pyramid"
+          ]
+        }
+      },
+      {
+        "date": "January 1st, 2023",
+        "description": [],
+        "elevation": null,
+        "hasElevation": false,
+        "hasRoute": false,
+        "hasStats": false,
+        "image": "2022/12/28/f24edc7b-3854-40c5-a2e7-33e2e2e27bde.jpeg",
+        "location": "Cairo",
+        "readingTime": null,
+        "route": null,
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "Museums in Cairo"
+          ],
+          "isSame": true,
+          "start": [
+            "Museums in Cairo"
+          ]
+        }
+      }
+    ],
+    "stats": {
+      "altitude": null,
+      "days": {
+        "label": "days",
+        "value": "5",
+        "units": null
+      },
+      "distance": null,
+      "length": {
+        "label": "length",
+        "value": 5,
+        "units": null
+      }
+    },
+    "title": [
+      "Cairo"
+    ],
+    "type": "destinations"
   },
   {
     "date": {
@@ -27914,7 +27948,7 @@ const data = [
       "Highland",
       "Way"
     ],
-    "type": "thru-hike"
+    "type": "trekking"
   },
   {
     "date": {
@@ -28035,7 +28069,7 @@ const data = [
     "title": [
       "San Juan"
     ],
-    "type": "cities"
+    "type": "destinations"
   },
   {
     "date": {
@@ -33665,7 +33699,7 @@ const data = [
       "Paine O",
       "Circuit"
     ],
-    "type": "thru-hike"
+    "type": "trekking"
   },
   {
     "date": {
@@ -48958,7 +48992,7 @@ const data = [
       "Circuit +",
       "Basecamp"
     ],
-    "type": "thru-hike"
+    "type": "trekking"
   },
   {
     "date": {
@@ -48972,7 +49006,7 @@ const data = [
       "Reaching the summits of the Colorado Rocky Mountains and breathing in the cold alpine air at 14,000 feet is an awe-inspiring experience offering unparalleled views and moments of profound triumph, a feeling of being on top of the world. I have completed 9/58 summits, with the highest peak reaching 14,422 feet."
     ],
     "hasStats": true,
-    "label": "summit",
+    "label": "day",
     "location": "Colorado Rocky Mountains",
     "slug": "southern-rockies-peak-bagging",
     "stages": [
@@ -56315,10 +56349,9 @@ const data = [
     },
     "title": [
       "Southern",
-      "Rockies",
-      "14ers"
+      "Rockies"
     ],
-    "type": "peak-bagging"
+    "type": "trekking"
   },
   {
     "date": {
@@ -64859,7 +64892,7 @@ const data = [
     "title": [
       "Alta Via 1"
     ],
-    "type": "thru-hike"
+    "type": "trekking"
   },
   {
     "date": {
@@ -64978,7 +65011,7 @@ const data = [
     "title": [
       "Pokhara"
     ],
-    "type": "cities"
+    "type": "destinations"
   },
   {
     "date": {
@@ -75336,7 +75369,7 @@ const data = [
       "Tour du",
       "Mont Blanc"
     ],
-    "type": "thru-hike"
+    "type": "trekking"
   },
   {
     "date": {
@@ -102801,7 +102834,128 @@ const data = [
       "Camino",
       "Frances"
     ],
-    "type": "thru-hike"
+    "type": "trekking"
+  },
+  {
+    "date": {
+      "date": "Mar 25 2016",
+      "years": [
+        "2016"
+      ]
+    },
+    "description": [
+      "I first learned about backpacking/trekking while in Patagonia, walking underneath the granite spires called Torres del Paine."
+    ],
+    "hasStats": false,
+    "label": "",
+    "location": "Chile",
+    "slug": "patagonia",
+    "stages": [
+      {
+        "date": "March 25th, 2016",
+        "description": [],
+        "elevation": null,
+        "hasElevation": false,
+        "hasRoute": false,
+        "hasStats": false,
+        "image": "2016/03/18/fb45dc07-e4fe-4d90-b39a-f54e50142d5a.jpeg",
+        "location": "Patagonia",
+        "readingTime": null,
+        "route": null,
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "Torres del Paine",
+            "National Park"
+          ],
+          "isSame": true,
+          "start": [
+            "Torres del Paine",
+            "National Park"
+          ]
+        }
+      },
+      {
+        "date": "March 26th, 2016",
+        "description": [],
+        "elevation": null,
+        "hasElevation": false,
+        "hasRoute": false,
+        "hasStats": false,
+        "image": "2016/03/18/9e9e78a3-a2ad-4a09-962c-fc1866ccfbd4.jpeg",
+        "location": "Patagonia",
+        "readingTime": null,
+        "route": null,
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "Cueva del Milodón"
+          ],
+          "isSame": true,
+          "start": [
+            "Cueva del Milodón"
+          ]
+        }
+      },
+      {
+        "date": "March 27th, 2016",
+        "description": [],
+        "elevation": null,
+        "hasElevation": false,
+        "hasRoute": false,
+        "hasStats": false,
+        "image": "2016/03/18/adec3785-1bc2-49be-b6f8-8e87f7cf9308.jpeg",
+        "location": "Patagonia",
+        "readingTime": null,
+        "route": null,
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": [
+            "Glacier Cruise"
+          ],
+          "isSame": true,
+          "start": [
+            "Glacier Cruise"
+          ]
+        }
+      }
+    ],
+    "stats": {
+      "altitude": null,
+      "days": {
+        "label": "days",
+        "value": "3",
+        "units": null
+      },
+      "distance": null,
+      "length": {
+        "label": "length",
+        "value": 3,
+        "units": null
+      }
+    },
+    "title": [
+      "Patagonia"
+    ],
+    "type": "destinations"
   },
   {
     "date": {
@@ -102811,12 +102965,12 @@ const data = [
       ]
     },
     "description": [
-      "I returned to South America for another international adventure, this time including Lollapalooza, discovering a passion for the wilderness by hiking into the Andes mountains in search of glaciers, and heading down to Patagonia where I first learned about backpacking while walking underneath the granite spires called Torres del Paine."
+      "I returned to South America for another international adventure, this time including Lollapalooza, discovering a passion for the wilderness by hiking into the Andes mountains in search of glaciers, and heading down to Patagonia."
     ],
     "hasStats": false,
     "label": "",
     "location": "Chile",
-    "slug": "santiago-and-valparaiso-and-patagonia",
+    "slug": "santiago-and-valparaiso",
     "stages": [
       {
         "date": "March 19th, 2016",
@@ -102931,16 +103085,52 @@ const data = [
             "Cousino Macul Winery"
           ]
         }
+      }
+    ],
+    "stats": {
+      "altitude": null,
+      "days": {
+        "label": "days",
+        "value": "7",
+        "units": null
       },
+      "distance": null,
+      "length": {
+        "label": "length",
+        "value": 4,
+        "units": null
+      }
+    },
+    "title": [
+      "Santiago +",
+      "Valparaiso"
+    ],
+    "type": "destinations"
+  },
+  {
+    "date": {
+      "date": "Mar 23 2015",
+      "years": [
+        "2015"
+      ]
+    },
+    "description": [
+      "My first vacation abroad in South America continued with a quick plane ride over to Montevideo."
+    ],
+    "hasStats": false,
+    "label": "",
+    "location": "Uruguay",
+    "slug": "montevideo",
+    "stages": [
       {
-        "date": "March 25th, 2016",
+        "date": "March 23rd, 2015",
         "description": [],
         "elevation": null,
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
-        "image": "2016/03/18/fb45dc07-e4fe-4d90-b39a-f54e50142d5a.jpeg",
-        "location": "Patagonia",
+        "image": "2015/03/19/9650d680-3809-45e9-a9df-0e108f3e1498.jpeg",
+        "location": "Montevideo",
         "readingTime": null,
         "route": null,
         "stats": {
@@ -102952,25 +103142,23 @@ const data = [
         },
         "termini": {
           "end": [
-            "Torres del Paine",
-            "National Park"
+            "Exploring the city"
           ],
           "isSame": true,
           "start": [
-            "Torres del Paine",
-            "National Park"
+            "Exploring the city"
           ]
         }
       },
       {
-        "date": "March 26th, 2016",
+        "date": "March 23rd, 2015",
         "description": [],
         "elevation": null,
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
-        "image": "2016/03/18/9e9e78a3-a2ad-4a09-962c-fc1866ccfbd4.jpeg",
-        "location": "Patagonia",
+        "image": "2015/03/19/2894ebbc-a07d-40c9-91e7-68db3eeed340.jpeg",
+        "location": "Montevideo",
         "readingTime": null,
         "route": null,
         "stats": {
@@ -102982,39 +103170,11 @@ const data = [
         },
         "termini": {
           "end": [
-            "Cueva del Milodón"
+            "Independence Plaza"
           ],
           "isSame": true,
           "start": [
-            "Cueva del Milodón"
-          ]
-        }
-      },
-      {
-        "date": "March 27th, 2016",
-        "description": [],
-        "elevation": null,
-        "hasElevation": false,
-        "hasRoute": false,
-        "hasStats": false,
-        "image": "2016/03/18/adec3785-1bc2-49be-b6f8-8e87f7cf9308.jpeg",
-        "location": "Patagonia",
-        "readingTime": null,
-        "route": null,
-        "stats": {
-          "distance": null,
-          "gain": null,
-          "loss": null,
-          "max": null,
-          "time": null
-        },
-        "termini": {
-          "end": [
-            "Glacier Cruise"
-          ],
-          "isSame": true,
-          "start": [
-            "Glacier Cruise"
+            "Independence Plaza"
           ]
         }
       }
@@ -103023,22 +103183,20 @@ const data = [
       "altitude": null,
       "days": {
         "label": "days",
-        "value": "10",
+        "value": "3",
         "units": null
       },
       "distance": null,
       "length": {
         "label": "length",
-        "value": 7,
+        "value": 2,
         "units": null
       }
     },
     "title": [
-      "Santiago &",
-      "Valparaiso",
-      "+ Patagonia"
+      "Montevideo"
     ],
-    "type": "cities"
+    "type": "destinations"
   },
   {
     "date": {
@@ -103048,12 +103206,12 @@ const data = [
       ]
     },
     "description": [
-      "I embarked on my first vacation abroad to South America, experiencing the sights and sounds of Buenos Aires and Montevideo, and my first music festival at Lollapalooza."
+      "I embarked on my first vacation abroad to South America, experiencing the sights and sounds of Buenos Aires and my first music festival at Lollapalooza."
     ],
     "hasStats": false,
     "label": "",
-    "location": "Argentina and Uruguay",
-    "slug": "buenos-aires-and-montevideo",
+    "location": "Argentina",
+    "slug": "buenos-aires",
     "stages": [
       {
         "date": "March 21st, 2015",
@@ -103166,84 +103324,27 @@ const data = [
             "Lollapalooza"
           ]
         }
-      },
-      {
-        "date": "March 23rd, 2015",
-        "description": [],
-        "elevation": null,
-        "hasElevation": false,
-        "hasRoute": false,
-        "hasStats": false,
-        "image": "2015/03/19/9650d680-3809-45e9-a9df-0e108f3e1498.jpeg",
-        "location": "Montevideo",
-        "readingTime": null,
-        "route": null,
-        "stats": {
-          "distance": null,
-          "gain": null,
-          "loss": null,
-          "max": null,
-          "time": null
-        },
-        "termini": {
-          "end": [
-            "Exploring the city"
-          ],
-          "isSame": true,
-          "start": [
-            "Exploring the city"
-          ]
-        }
-      },
-      {
-        "date": "March 23rd, 2015",
-        "description": [],
-        "elevation": null,
-        "hasElevation": false,
-        "hasRoute": false,
-        "hasStats": false,
-        "image": "2015/03/19/2894ebbc-a07d-40c9-91e7-68db3eeed340.jpeg",
-        "location": "Montevideo",
-        "readingTime": null,
-        "route": null,
-        "stats": {
-          "distance": null,
-          "gain": null,
-          "loss": null,
-          "max": null,
-          "time": null
-        },
-        "termini": {
-          "end": [
-            "Independence Plaza"
-          ],
-          "isSame": true,
-          "start": [
-            "Independence Plaza"
-          ]
-        }
       }
     ],
     "stats": {
       "altitude": null,
       "days": {
         "label": "days",
-        "value": "7",
+        "value": "4",
         "units": null
       },
       "distance": null,
       "length": {
         "label": "length",
-        "value": 6,
+        "value": 4,
         "units": null
       }
     },
     "title": [
       "Buenos",
-      "Aires +",
-      "Montevideo"
+      "Aires"
     ],
-    "type": "cities"
+    "type": "destinations"
   }
 ];
 

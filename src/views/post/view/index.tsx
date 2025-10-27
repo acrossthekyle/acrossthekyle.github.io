@@ -31,7 +31,7 @@ export default function View({ data }: Props) {
       <Shortcuts />
       <Header title={data.title} />
       <div className={styles.section}>
-        <Pictures slug={data.slug} stages={data.stages} />
+        <Pictures slug={data.slug} stages={data.stages} type={data.type} />
         <Overview description={data.description} />
       </div>
     </Article>

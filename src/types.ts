@@ -49,6 +49,7 @@ export type Post = {
   slug: string;
   stages: Stage[];
   title: string[];
+  type: string;
 };
 
 export enum Orientation {

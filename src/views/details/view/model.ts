@@ -12,7 +12,7 @@ export function useModel(data: Data | null) {
   useEvent('onPrevious', () => {
     if (data !== null) {
       if (data.previous) {
-        router.push(`/blog/${data.slug}/${data.previous.index}`);
+        router.push(`/blog/${data.type}/${data.slug}/${data.previous.index}`);
       }
     }
   });
@@ -20,7 +20,7 @@ export function useModel(data: Data | null) {
   useEvent('onNext', () => {
     if (data !== null) {
       if (data.next) {
-        router.push(`/blog/${data.slug}/${data.next.index}`);
+        router.push(`/blog/${data.type}/${data.slug}/${data.next.index}`);
       }
     }
   });

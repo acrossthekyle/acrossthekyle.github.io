@@ -15,4 +15,5 @@ export type Data = {
   stats: Stats;
   termini: Termini;
   title: string;
+  type: string;
 };

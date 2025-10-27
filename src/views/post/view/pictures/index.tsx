@@ -18,9 +18,10 @@ import styles from './stylesheet';
 type Props = {
   slug: string;
   stages: Stage[];
+  type: string;
 };
 
-export default function Pictures({ slug, stages }: Props) {
+export default function Pictures({ slug, stages, type }: Props) {
   return (
     <ul className={styles.list}>
       {stages.map((stage, index) => (
@@ -46,7 +47,7 @@ export default function Pictures({ slug, stages }: Props) {
                 <ImageLink
                   href={
                     (stage.hasPost || stage.hasStats)
-                      ? `/blog/${slug}/${padIndex(index + 1)}`
+                      ? `/blog/${type}/${slug}/${padIndex(index + 1)}`
                       : undefined
                   }
                 >

@@ -13,6 +13,7 @@ import { useModel } from './model';
 type Data = {
   slug: string;
   title: string[];
+  type: string;
 };
 
 type Props = {
@@ -27,7 +28,7 @@ export default function View({ data }: Props) {
       <DirectoryItems>
         {data.map((item, index: number) => (
           <DirectoryItem index={index} key={index}>
-            <DirectoryLink href={`/blog/${item.slug}`} ref={ref}>
+            <DirectoryLink href={`/blog/${item.type}/${item.slug}`} ref={ref}>
               <DirectoryText index={index} words={item.title} />
             </DirectoryLink>
           </DirectoryItem>

@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <header className={styles.header}>
       <h1 className={styles.hero}>
-        A thru-hiker and UI developer always seeking new ways to move forward intentfully.
+        A backpacker and UI developer always seeking new ways to move forward intentfully.
       </h1>
       <section aria-label="Introduction to Kyle Gilbert" className={styles.introduction}>
         <p className={styles.blurb}>

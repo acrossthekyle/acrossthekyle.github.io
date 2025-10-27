@@ -20,7 +20,6 @@ import Paragraph from './paragraph';
 import {
   SectionAfter,
   SectionBefore,
-  SectionEmpty,
   SectionHorizontal,
   SectionVertical,
 } from './section';
@@ -247,15 +246,13 @@ export default function View() {
             Addendum
           </Heading>
           <Paragraph>
-            I'm always open to new opportunities. If you're interested in working together, or have questions about any of the travels/hikes that I've done, find me online at any of{' '}
-            <Link href="/contact">these locations</Link>.
+            I'm always open to new opportunities. If you're interested in working together, or have questions about any of the travels/hikes that I've done, you can reach out via <Link href="mailto:hello@acrossthekyle.com">email</Link>, or find me online at <Link href="https://linkedin.com/in/acrossthekyle" isExternal>LinkedIn</Link> or <Link href="https://instagram.com/acrossthekyle" isExternal>Instagram</Link>.
           </Paragraph>
           <Paragraph>
             You can find the codebase for this site on{' '}
             <Link href="https://github.com/acrossthekyle/acrossthekyle.github.io" isExternal>github.com</Link>.
           </Paragraph>
         </SectionBefore>
-        <SectionEmpty />
       </SectionHorizontal>
     </Article>
   );
