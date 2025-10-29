@@ -12,6 +12,7 @@ const styles = tw({
   landscape: `
     ${wrapper}
     z-1
+    hidden
 
     base:landscape:block
   `,

@@ -9,21 +9,19 @@ const styles = {
     brightness-60
     grayscale-100
 
-    ${isLandscapeOrientation && `
-      portrait:aspect-square
-    `}
+    landscape:aspect-3/2
+    portrait:aspect-square
 
     ${isInView && `
-      !brightness-80
+      brightness-80
       !grayscale-0
 
-      base:!brightness-60
+      base:brightness-60
       base:!grayscale-100
     `}
 
-    base:group-active/figure:!brightness-80
-    base:group-hover/figure:!brightness-80
-    base:group-hover/figure:scale-102
+    group-hover/figure:brightness-80
+    group-hover/figure:scale-102
   `),
 };
 

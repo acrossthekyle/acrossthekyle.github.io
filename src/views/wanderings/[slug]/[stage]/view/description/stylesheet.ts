@@ -14,8 +14,6 @@ const styles = tw({
   `,
   paragraph: `
     pb-4
-    text-lg
-    font-light
 
     last:pb-0
   `,

@@ -1,3 +1,18 @@
+export type GearItem = {
+  name: string[];
+  weight: number;
+  link: string;
+};
+
+export type GearCategory = {
+  title: string;
+  items: GearItem[];
+};
+
+export type Gear = {
+  categories: GearCategory[];
+};
+
 export type StatFull = {
   label: string;
   value: {
@@ -47,6 +62,8 @@ export type Stage = {
 
 export type Post = {
   description: string[];
+  // gear: Gear;
+  // hasGear: boolean;
   label: string;
   slug: string;
   stages: Stage[];

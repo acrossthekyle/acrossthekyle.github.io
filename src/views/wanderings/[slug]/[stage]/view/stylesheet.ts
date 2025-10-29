@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    fixed top-0 left-0 z-99
+    relative
     h-full w-full
     bg-black
     text-white/90
@@ -13,11 +13,10 @@ const styles = tw({
     opacity-0
     animate-in-fade
 
-    base:relative
     base:pr-12
   `,
   toggle: `
-    absolute top-2 left-0 z-9999
+    absolute top-0 left-0 z-9999
     flex justify-end
 
     base:right-0
@@ -35,7 +34,7 @@ const styles = tw({
   `,
   article: `
     flex flex-col gap-8
-    pt-16
+    pt-12
   `,
 });
 

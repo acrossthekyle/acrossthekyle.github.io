@@ -3,7 +3,7 @@ const data = [
     date: ['2020', 'Present'],
     industry: 'Healthcare',
     location: 'Chicago, IL',
-    overview: 'Health solution and care delivery organization',
+    overview: 'Health solution and care delivery',
     position: 'Senior Software Engineer II',
     responsibilities: [
       'Lead the development and maintenance of complex React and React Native applications, ensuring scalability, performance, and a high-quality user experience',

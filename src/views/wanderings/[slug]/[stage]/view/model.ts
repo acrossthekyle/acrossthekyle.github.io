@@ -1,6 +1,7 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
+import { useEffect } from 'react';
 
 import { useEvent } from '@/hooks/useEvent';
 
@@ -8,6 +9,12 @@ import type { Data } from './types';
 
 export function useModel(data: Data | null) {
   const router = useRouter();
+
+  useEffect(() => {
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 100);
+  }, []);
 
   useEvent('onPrevious', () => {
     if (data !== null) {

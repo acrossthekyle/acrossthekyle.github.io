@@ -12,10 +12,10 @@ export default function Maximize({ caption }: Props) {
 
   return (
     <button
-      aria-label="maximize image"
       className={styles.landscape}
       onClick={handleOnMaximize}
       ref={zoomRef}
+      title="Maximize"
       type="button"
     />
   );

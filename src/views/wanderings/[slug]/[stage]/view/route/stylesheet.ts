@@ -1,22 +1,14 @@
 import tw from '@/styles';
 
 const styles = tw({
-  heading: `
-    mb-3
-    text-sm text-white/90
-    font-black
-    tracking-wide
-    uppercase
-  `,
   section: `
-    aspect-square
+    h-50 w-full
     mb-2
     border-1 border-white/12.5
     rounded-sm
     overflow-hidden
 
-    base:h-100
-    base:w-full
+    base:h-75
   `,
   map: `
     relative

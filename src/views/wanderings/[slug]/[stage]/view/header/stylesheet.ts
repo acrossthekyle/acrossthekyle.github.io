@@ -6,23 +6,25 @@ const styles = tw({
     w-full
   `,
   title: `
-    mb-6
     text-4xl/7
     font-black font-stretch-semi-condensed
     uppercase
   `,
-  lid: `
+  eyebrow: `
     block
     mb-1
     text-xs
     tracking-wider
     font-semibold font-stretch-normal
   `,
-  time: `
-    block
-    mt-1
+  index: `
+    inline-block
+    ml-0.5
+    font-light
     text-xs
-    font-medium font-stretch-normal
+    tracking-normal
+
+    base:ml-1.5
   `,
 });
 

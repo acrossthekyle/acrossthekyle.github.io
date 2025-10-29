@@ -12,15 +12,12 @@ const styles = tw({
     opacity-0
     animate-elastic-in-from-right
   `,
-  more: `
-    font-black
-  `,
-  arrow: `
-    relative -top-0.25
+  index: `
     inline-block
-    ml-0.5
-    w-3 h-3
-    stroke-4
+    ml-1.5
+    font-light
+    text-xs
+    tracking-normal
   `,
 });
 

@@ -3,8 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   header: (isOnRoot: boolean) => {
     const common = `
-      flex items-start justify-between
-      px-3 py-3
+      flex items-end justify-end
 
       deka:px-12
       deka:py-12
@@ -15,6 +14,9 @@ const styles = tw({
         ${common}
 
         flex-1 flex-col
+
+        px-3
+        py-3
       `);
     }
 

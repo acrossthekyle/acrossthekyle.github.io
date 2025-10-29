@@ -7,8 +7,8 @@ const styles = tw({
     text-xl/4
     font-black font-stretch-condensed
     uppercase
-    duration-300
-    tracking-tighter
+    tracking-tight
+    pointer-events-none
 
     pico:text-2xl/5
     micro:text-3xl/6
@@ -16,7 +16,7 @@ const styles = tw({
     base:text-2xl/5
     hecto:mr-8
     hecto:left-8
-    hecto:bottom-8
+    hecto:bottom-6
     kilo:text-4xl/7
   `,
 });

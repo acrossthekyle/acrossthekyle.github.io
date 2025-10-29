@@ -1,8 +1,10 @@
 'use client';
 
 import 'leaflet/dist/leaflet.css';
+import 'leaflet-gesture-handling/dist/leaflet-gesture-handling.css';
 
 import L from 'leaflet';
+import { GestureHandling } from 'leaflet-gesture-handling';
 import { useEffect, useState } from 'react';
 import {
   CircleMarker,
@@ -41,6 +43,8 @@ export default function Leaflet({
 
     useEffect(() => {
       if (positions.length > 0) {
+        map.addHandler('gestureHandling', GestureHandling);
+
         // @ts-expect-error - will fix later
         const bounds = new L.LatLngBounds(positions);
 
@@ -62,6 +66,7 @@ export default function Leaflet({
       center={data[0]}
       className={styles.map}
       scrollWheelZoom={false}
+      gestureHandling={true}
       zoom={1}
     >
       <TileLayer
@@ -120,7 +125,7 @@ export default function Leaflet({
           className={styles.outer}
           fill={false}
           opacity={1}
-          radius={4}
+          radius={6}
         />
       )}
       <Center positions={data} />

@@ -7,9 +7,6 @@ const styles = tw({
     font-medium
     tracking-wider
     font-stretch-semi-expanded
-    duration-300
-
-    group-hover/image-link:text-white
   `,
 });
 

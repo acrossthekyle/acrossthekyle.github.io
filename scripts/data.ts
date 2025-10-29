@@ -446,11 +446,11 @@ async function getStages(folder) {
         route: route || null,
         stats,
         termini: {
-          end: turnStringIntoArrayForLists(end, 22),
+          end: turnStringIntoArrayForLists(end, 16),
           isSame: start.toLowerCase() === end.toLowerCase(),
-          start: turnStringIntoArrayForLists(start, 22),
+          start: turnStringIntoArrayForLists(start, 16),
         },
-        title: turnStringIntoArrayForLists(data.title, 22),
+        title: turnStringIntoArrayForLists(data.title, 16),
       });
     }),
   );
@@ -725,8 +725,8 @@ async function go() {
       data.push({
         date,
         description: formatDescription(trip, stats),
-        // gear,
-        // hasGear: gear !== null,
+        gear: gear === null ? {} : gear,
+        hasGear: gear !== null,
         hasStats,
         label: getLabel(trip.type),
         location: trip.location,

@@ -1,13 +1,6 @@
 import tw from '@/styles';
 
 const styles = tw({
-  heading: `
-    mb-3
-    text-sm text-white/90
-    font-black
-    tracking-wide
-    uppercase
-  `,
   section: `
     h-50 w-full
     bg-white/4
@@ -15,6 +8,7 @@ const styles = tw({
     overflow-hidden
     rounded-sm
     select-none
+    touch-none
 
     base:h-75
   `,

@@ -26,17 +26,12 @@ export default function Route({ route, termini }: Props) {
   }
 
   return (
-    <section>
-      <h2 className={styles.heading}>
-        Route
-      </h2>
-      <div className={styles.section}>
-        <Leaflet
-          hoverIndex={hoverIndex}
-          route={route}
-          termini={termini}
-        />
-      </div>
-    </section>
+    <div className={styles.section}>
+      <Leaflet
+        hoverIndex={hoverIndex}
+        route={route}
+        termini={termini}
+      />
+    </div>
   );
 }

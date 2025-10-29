@@ -2,31 +2,32 @@ import tw from '@/styles';
 
 const styles = tw({
   footer: `
-    flex flex-row justify-between gap-4
+    flex flex-row justify-between gap-16
     pt-6
   `,
-  link: `
+  half: `
+    w-1/2
     text-right
 
     first:text-left
+  `,
+  link: `
+    inline-block
   `,
   title: `
     text-2xl/5
     font-black font-stretch-semi-condensed
     uppercase
+    duration-200
+
+    hover:font-light
   `,
-  lid: `
+  eyebrow: `
     block
     mb-1
     text-xs
-    tracking-wider
+    tracking-normal
     font-semibold font-stretch-normal
-  `,
-  time: `
-    block
-    mt-1
-    text-xs
-    font-medium font-stretch-normal
   `,
 });
 

@@ -6,16 +6,13 @@ const styles = tw({
     deka:!pr-24
 
     ${isOnGrandChild && `
-      opacity-0
-
-      base:hidden
+      hidden
     `}
   `),
   section: `
     flex flex-col-reverse gap-6
 
     base:flex-col
-    base:gap-6
   `,
 });
 

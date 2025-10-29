@@ -54,6 +54,7 @@ const styles = tw({
     peta:text-2xl
   `,
   image: `
+    !aspect-auto
     deci:!w-1/2
   `,
   emphasis: `

@@ -22,11 +22,11 @@ export default function DirectoryItem({
   const [canAnimate, setCanAnimate] = useState(true);
 
   useEffect(() => {
-    const isFromChild = previous.includes('/blog');
+    const isFromChild = previous.includes('/wanderings') || previous.includes('/projects');
 
-    const isFromRootOrParent = ['/', '/about', '/blog', '/contact']
+    const isFromRootOrParent = ['/', '/about', '/wanderings', '/projects']
       .includes(previous) &&
-      ['/blog', '/contact'].includes(path) || isFromChild;
+      ['/wanderings', '/projects'].includes(path) || isFromChild;
 
     if (isFromRootOrParent) {
       const timeout = setTimeout(() => {

@@ -40,9 +40,9 @@ export function useModel( caption?: string[] ): Model {
     zoom({
       content: (
         <button
-          aria-label="minimize image"
           className={styles.minimize}
           onClick={handleOnMinimize}
+          title="Minimize"
           type="button"
         >
           <ImageFigure className="w-full h-full">
