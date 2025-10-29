@@ -6,10 +6,12 @@ const styles = tw({
     block
   `,
   index: (isOnChild: boolean) => tw(`
-    ml-1.5
+    ml-0.75
     text-tiny/2
     font-light font-stretch-condensed
     tracking-normal
+
+    base:ml-1.5
 
     ${isOnChild ? 'mega:text-tiny/3' : 'mega:text-sm/3'}
   `),

@@ -15,7 +15,7 @@ const styles = tw({
 
         flex-1 flex-col
 
-        px-3
+        px-2.5
         py-3
       `);
     }
