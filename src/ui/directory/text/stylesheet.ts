@@ -7,11 +7,12 @@ const styles = tw({
   `,
   index: `
     absolute bottom-0
-    ml-2
+    ml-1
     text-tiny/2
     font-light font-stretch-condensed
     tracking-normal
 
+    base:ml-2
     mega:text-sm/3
   `,
 });

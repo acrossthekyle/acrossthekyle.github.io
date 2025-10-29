@@ -6,22 +6,11 @@ import {
   HeadingEyebrow,
 } from './heading';
 import Link from './link';
-import {
-  List,
-  ListItemContentList,
-  ListItemContentListItem,
-  ListItemContentListItemJustified,
-  ListItemContentListItemLabel,
-  ListItemHeading,
-  ListItemHeadingSubtext,
-  ListItem,
-} from './list';
 import Paragraph from './paragraph';
 import {
   SectionAfter,
   SectionBefore,
   SectionHorizontal,
-  SectionVertical,
 } from './section';
 
 export default function View() {
@@ -60,193 +49,14 @@ export default function View() {
           </Paragraph>
         </SectionAfter>
       </SectionHorizontal>
-      <SectionVertical labelledBy="career">
-        <Heading id="career">
-          <HeadingEyebrow>03.</HeadingEyebrow>
-          Career
-        </Heading>
-        <List>
-          <ListItem>
-            <ListItemHeading>
-              Optum
-              <ListItemHeadingSubtext>
-                Health solution and care delivery organization
-              </ListItemHeadingSubtext>
-              <ListItemHeadingSubtext>
-                2020 &mdash; Present
-              </ListItemHeadingSubtext>
-            </ListItemHeading>
-            <ListItemContentList>
-              <ListItemContentListItem>
-                <ListItemContentListItemJustified>
-                  <ListItemContentListItemLabel>Position:</ListItemContentListItemLabel>
-                  Senior Software Engineer II
-                </ListItemContentListItemJustified>
-              </ListItemContentListItem>
-              <ListItemContentListItem>
-                <ListItemContentListItemJustified>
-                  <ListItemContentListItemLabel>Location:</ListItemContentListItemLabel>
-                  Chicago, IL
-                </ListItemContentListItemJustified>
-              </ListItemContentListItem>
-              <ListItemContentListItem>
-                <ListItemContentListItemJustified>
-                  <ListItemContentListItemLabel>Industry:</ListItemContentListItemLabel>
-                  Healthcare
-                </ListItemContentListItemJustified>
-              </ListItemContentListItem>
-              <ListItemContentListItem>
-                <ListItemContentListItemJustified>
-                  <ListItemContentListItemLabel>Website:</ListItemContentListItemLabel>
-                  <Link href="https://www.optum.com" isExternal>
-                    www.optum.com
-                  </Link>
-                </ListItemContentListItemJustified>
-              </ListItemContentListItem>
-            </ListItemContentList>
-          </ListItem>
-          <ListItem>
-            <ListItemHeading>
-              Rally Health
-              <ListItemHeadingSubtext>
-                Personalized data-driven health care
-              </ListItemHeadingSubtext>
-              <ListItemHeadingSubtext>
-                2018 &mdash; 2020
-              </ListItemHeadingSubtext>
-            </ListItemHeading>
-            <ListItemContentList>
-              <ListItemContentListItem>
-                <ListItemContentListItemJustified>
-                  <ListItemContentListItemLabel>Position:</ListItemContentListItemLabel>
-                  Senior Frontend Engineer
-                </ListItemContentListItemJustified>
-              </ListItemContentListItem>
-              <ListItemContentListItem>
-                <ListItemContentListItemJustified>
-                  <ListItemContentListItemLabel>Location:</ListItemContentListItemLabel>
-                  Chicago, IL
-                </ListItemContentListItemJustified>
-              </ListItemContentListItem>
-              <ListItemContentListItem>
-                <ListItemContentListItemJustified>
-                  <ListItemContentListItemLabel>Industry:</ListItemContentListItemLabel>
-                  Healthcare
-                </ListItemContentListItemJustified>
-              </ListItemContentListItem>
-              <ListItemContentListItem>
-                <ListItemContentListItemJustified>
-                  <ListItemContentListItemLabel>Website:</ListItemContentListItemLabel>
-                  <Link href="https://www.rallyhealth.com" isExternal>
-                    www.rallyhealth.com
-                  </Link>
-                </ListItemContentListItemJustified>
-              </ListItemContentListItem>
-            </ListItemContentList>
-          </ListItem>
-          <ListItem>
-            <ListItemHeading>
-              Earlybird Co
-              <ListItemHeadingSubtext>
-                Custom web design and development startup
-              </ListItemHeadingSubtext>
-              <ListItemHeadingSubtext>
-                2015 &mdash; 2018
-              </ListItemHeadingSubtext>
-            </ListItemHeading>
-            <ListItemContentList>
-              <ListItemContentListItem>
-                <ListItemContentListItemJustified>
-                  <ListItemContentListItemLabel>Position:</ListItemContentListItemLabel>
-                  Fullstack Engineer
-                </ListItemContentListItemJustified>
-              </ListItemContentListItem>
-              <ListItemContentListItem>
-                <ListItemContentListItemJustified>
-                  <ListItemContentListItemLabel>Location:</ListItemContentListItemLabel>
-                  Chicago, IL
-                </ListItemContentListItemJustified>
-              </ListItemContentListItem>
-              <ListItemContentListItem>
-                <ListItemContentListItemJustified>
-                  <ListItemContentListItemLabel>Industry:</ListItemContentListItemLabel>
-                  Tech
-                </ListItemContentListItemJustified>
-              </ListItemContentListItem>
-            </ListItemContentList>
-          </ListItem>
-          <ListItem>
-            <ListItemHeading>
-              Red Frog Events
-              <ListItemHeadingSubtext>
-                Experiential entertainment events
-              </ListItemHeadingSubtext>
-              <ListItemHeadingSubtext>
-                2013 &mdash; 2015
-              </ListItemHeadingSubtext>
-            </ListItemHeading>
-            <ListItemContentList>
-              <ListItemContentListItem>
-                <ListItemContentListItemJustified>
-                  <ListItemContentListItemLabel>Position:</ListItemContentListItemLabel>
-                  Web Developer
-                </ListItemContentListItemJustified>
-              </ListItemContentListItem>
-              <ListItemContentListItem>
-                <ListItemContentListItemJustified>
-                  <ListItemContentListItemLabel>Location:</ListItemContentListItemLabel>
-                  Chicago, IL
-                </ListItemContentListItemJustified>
-              </ListItemContentListItem>
-              <ListItemContentListItem>
-                <ListItemContentListItemJustified>
-                  <ListItemContentListItemLabel>Industry:</ListItemContentListItemLabel>
-                  Events
-                </ListItemContentListItemJustified>
-              </ListItemContentListItem>
-            </ListItemContentList>
-          </ListItem>
-          <ListItem>
-            <ListItemHeading>
-              Silverline Creative
-              <ListItemHeadingSubtext>
-                Custom web design and development studio
-              </ListItemHeadingSubtext>
-              <ListItemHeadingSubtext>
-                2012 &mdash; 2013
-              </ListItemHeadingSubtext>
-            </ListItemHeading>
-            <ListItemContentList>
-              <ListItemContentListItem>
-                <ListItemContentListItemJustified>
-                  <ListItemContentListItemLabel>Position:</ListItemContentListItemLabel>
-                  Junior Web Developer
-                </ListItemContentListItemJustified>
-              </ListItemContentListItem>
-              <ListItemContentListItem>
-                <ListItemContentListItemJustified>
-                  <ListItemContentListItemLabel>Location:</ListItemContentListItemLabel>
-                  Naperville, IL
-                </ListItemContentListItemJustified>
-              </ListItemContentListItem>
-              <ListItemContentListItem>
-                <ListItemContentListItemJustified>
-                  <ListItemContentListItemLabel>Industry:</ListItemContentListItemLabel>
-                  Tech
-                </ListItemContentListItemJustified>
-              </ListItemContentListItem>
-            </ListItemContentList>
-          </ListItem>
-        </List>
-      </SectionVertical>
       <SectionHorizontal a11yLabel="Conclusion">
         <SectionBefore labelledBy="addendum">
           <Heading id="addendum">
-            <HeadingEyebrow>04.</HeadingEyebrow>
-            Addendum
+            <HeadingEyebrow>03.</HeadingEyebrow>
+            Collaboration creates community
           </Heading>
           <Paragraph>
-            I'm always open to new opportunities. If you're interested in working together, or have questions about any of the travels/hikes that I've done, you can reach out via <Link href="mailto:hello@acrossthekyle.com">email</Link>, or find me online at <Link href="https://linkedin.com/in/acrossthekyle" isExternal>LinkedIn</Link> or <Link href="https://instagram.com/acrossthekyle" isExternal>Instagram</Link>.
+            I'm always open to new opportunities. If you're interested in working together, or have questions about any of the travels/hikes that I've done, you can reach out via <Link href="mailto:hello@acrossthekyle.com">email</Link>, view my <Link href="/acrossthekyle-resume.pdf" isExternal>resume</Link>, or find me online at <Link href="https://linkedin.com/in/acrossthekyle" isExternal>LinkedIn</Link> or <Link href="https://instagram.com/acrossthekyle" isExternal>Instagram</Link>.
           </Paragraph>
           <Paragraph>
             You can find the codebase for this site on{' '}

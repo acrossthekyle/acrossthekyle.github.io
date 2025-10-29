@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = {
   backdrop: (canBlur: boolean) => tw(`
-    fixed inset-0 z-7
+    fixed inset-0
     backdrop-blur-md
     bg-black/20
     cursor-default
@@ -10,7 +10,7 @@ const styles = {
     ${canBlur ? (`
       opacity-100
       translate-x-0
-      z-3
+      z-9998
 
       [transition:opacity_.5s_var(--ease-in-out),translate_0s]
     `) : (`
@@ -26,7 +26,7 @@ const styles = {
     transform-gpu duration-250
 
     ${isZoomed ? `
-      z-100
+      z-9999
       opacity-100
       fixed
     ` : `z-0 opacity-0`}

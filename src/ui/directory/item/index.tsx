@@ -8,18 +8,25 @@ import styles from './stylesheet';
 
 type Props = {
   children: React.ReactNode;
+  className?: string;
   index: number;
 };
 
-export default function DirectoryItem({ children, index }: Props) {
+export default function DirectoryItem({
+  children,
+  className = '',
+  index,
+}: Props) {
   const { path, previous } = useLoad();
 
   const [canAnimate, setCanAnimate] = useState(true);
 
   useEffect(() => {
+    const isFromChild = previous.includes('/blog');
+
     const isFromRootOrParent = ['/', '/about', '/blog', '/contact']
       .includes(previous) &&
-      ['/blog', '/contact'].includes(path);
+      ['/blog', '/contact'].includes(path) || isFromChild;
 
     if (isFromRootOrParent) {
       const timeout = setTimeout(() => {
@@ -34,7 +41,7 @@ export default function DirectoryItem({ children, index }: Props) {
 
   return (
     <li
-      className={styles.item(canAnimate)}
+      className={`${styles.item(canAnimate)} ${className}`.trim()}
       style={{ animationDelay: `${0.1 + (index * 0.025)}s` }}
     >
       {children}

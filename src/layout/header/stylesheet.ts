@@ -21,7 +21,7 @@ const styles = tw({
     return tw(`
       ${common}
 
-      flex-row-reverse
+      flex-row
 
       base:w-auto
       base:h-full

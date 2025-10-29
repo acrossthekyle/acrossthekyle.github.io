@@ -62,7 +62,7 @@ const styles = tw({
       base:font-stretch-normal
       base:tracking-tight
       hecto:text-8xl/18.5
-      tera:text-9xl/26
+      tera:text-9xl/24.75
 
       hover:font-extralight
       hover:text-white/90

@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { useContext, useRef } from 'react';
 
 import { useZoom } from '@/hooks/useZoom';
+import { ImageCaption, ImageCaptionSubtitle, ImageFigure } from '@/ui/image';
 
 import { ImageContext } from '../context';
 import styles from './stylesheet';
@@ -37,7 +38,6 @@ export function useModel( caption?: string[] ): Model {
     onMaximized();
 
     zoom({
-      caption: caption?.join(' / '),
       content: (
         <button
           aria-label="minimize image"
@@ -45,14 +45,21 @@ export function useModel( caption?: string[] ): Model {
           onClick={handleOnMinimize}
           type="button"
         >
-          <Image
-            alt={caption ? caption.join(' ') : ''}
-            className={styles.image}
-            height={1080}
-            sizes="(max-width: 768px) 100vw, 50vw"
-            src={src}
-            width={1920}
-          />
+          <ImageFigure className="w-full h-full">
+            <Image
+              alt={caption ? caption.join(' ') : ''}
+              className={styles.image}
+              height={1080}
+              sizes="(max-width: 768px) 100vw, 50vw"
+              src={src}
+              width={1920}
+            />
+            <ImageCaption>
+              <ImageCaptionSubtitle>
+                {caption?.join(' ')}
+              </ImageCaptionSubtitle>
+            </ImageCaption>
+          </ImageFigure>
         </button>
       ),
       isLandscapeOrientation,

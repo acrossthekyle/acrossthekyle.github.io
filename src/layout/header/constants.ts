@@ -2,24 +2,24 @@ import type { Route } from './types';
 
 export const routes: Route[] = [
   {
+    base: '/wanderings',
+    isActive: false,
+    label: 'My treks, thru-hikes, and other travels',
+    path: '',
+    text: 'Wanderings',
+  },
+  {
     base: '/about',
     isActive: false,
-    label: 'About Me',
+    label: 'All about me',
     path: '',
-    text: 'About',
+    text: `Inspired by`,
   },
   {
-    base: '/blog/trekking',
+    base: '/projects',
     isActive: false,
-    label: 'My treks and thru-hikes',
+    label: 'Things I have worked on',
     path: '',
-    text: 'Thru-hikes',
-  },
-  {
-    base: '/blog/destinations',
-    isActive: false,
-    label: 'World-wide destinations',
-    path: '',
-    text: 'Getaways',
+    text: 'Projects',
   },
 ];

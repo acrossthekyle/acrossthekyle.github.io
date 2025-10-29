@@ -20,7 +20,7 @@ const styles = tw({
         ${common}
         hidden
 
-        base:block
+        ${align === 'end' ? 'base:flex' : 'base:block'}
         base:w-60
         base:px-1
         deka:py-12

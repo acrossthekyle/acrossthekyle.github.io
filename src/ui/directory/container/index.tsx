@@ -5,12 +5,12 @@ import { useHierarchy } from '@/hooks/useHierarchy';
 import styles from './stylesheet';
 
 type Props = {
-  align: 'end' | 'start';
+  align?: 'end' | 'start';
   children: React.ReactNode;
 };
 
 export default function DirectoryContainer({
-  align,
+  align = 'start',
   children,
 }: Props) {
   const { isOnChild } = useHierarchy();

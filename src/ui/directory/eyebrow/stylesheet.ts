@@ -3,28 +3,12 @@ import tw from '@/styles';
 const styles = tw({
   eyebrow: `
     block
-    mb-0
-    text-sm
-
-    milli:mb-1
-  `,
-  text: `
-    inline
-    text-xs/3
+    text-6xl
     font-light font-stretch-condensed
-    tracking-normal
+    tracking-tighter
+    duration-200
 
-    milli:text-sm/3
-  `,
-  slash: `
-    inline-block
-    mx-1 -mt-0.5
-    w-2 h-2
-    stroke-2
-
-    milli:w-3
-    milli:h-3
-    milli:mx-2
+    group-hover/link:font-thin
   `,
 });
 

@@ -20,18 +20,14 @@ export const HierarchyContext = createContext({
 export default function Hierarchy({ children }: Props) {
   const current = usePathname();
 
-  const segments = (
-    current.includes('/blog')
-      ? current.replace('/blog', '')
-      : current
-  ).split('').filter(character => character === '/');
+  const segments = current.split('').filter(character => character === '/');
 
   const isOnRoot = current === '/';
   const isOnParent = current !== '/' && segments.length === 1;
   const isOnChild = segments.length >= 2;
   const isOnGrandChild = segments.length > 2;
 
-  const previous = `/blog/${current.split('/')[2]}`;
+  const previous = `/${current.split('/')[1]}`;
 
   return (
     <HierarchyContext.Provider

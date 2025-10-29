@@ -16,7 +16,7 @@ const styles = tw({
     base:text-2xl/5
     hecto:mr-8
     hecto:left-8
-    hecto:bottom-5
+    hecto:bottom-8
     kilo:text-4xl/7
   `,
 });
