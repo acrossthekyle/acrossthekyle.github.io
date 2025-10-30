@@ -1,5 +1,6 @@
 'use client';
 
+import Breadcrumbs from './breadcrumbs';
 import Logo from './logo';
 import { Menu, MenuItem, MenuLink, MenuText } from './menu';
 import { useModel } from './model';
@@ -12,6 +13,7 @@ export default function Header() {
   return (
     <header className={styles.header(isOnRoot, isOnGrandChild)}>
       <Logo />
+      <Breadcrumbs />
       <Search />
       <Menu>
         {routes.map((route, index: number) => (

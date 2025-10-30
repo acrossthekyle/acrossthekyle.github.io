@@ -7,11 +7,8 @@ const styles = tw({
 
       block
       uppercase
-      transform-gpu duration-300 delay-62
+      duration-200
       overflow-hidden
-
-      base:duration-200
-      base:delay-0
     `;
 
     if (isOnChild) {

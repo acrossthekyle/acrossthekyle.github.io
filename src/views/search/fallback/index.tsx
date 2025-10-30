@@ -1,5 +1,11 @@
 import Loading from '@/ui/loading';
 
+import styles from './stylesheet';
+
 export default function Fallback() {
-  return <Loading />;
+  return (
+    <dialog className={styles.container} open>
+      <Loading />
+    </dialog>
+  );
 }

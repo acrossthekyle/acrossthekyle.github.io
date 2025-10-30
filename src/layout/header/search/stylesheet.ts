@@ -5,7 +5,7 @@ const styles = tw({
     absolute top-3 right-2.25 z-10
 
     plank:top-6
-    plank:right-5
+    plank:right-6
     deka:bottom-12
     deka:right-12
     deka:top-auto

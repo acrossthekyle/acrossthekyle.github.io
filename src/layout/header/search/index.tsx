@@ -10,8 +10,6 @@ import styles from './stylesheet';
 export default function Search() {
   const { isOnRoot } = useHierarchy();
 
-  return null;
-
   if (!isOnRoot) {
     return null;
   }

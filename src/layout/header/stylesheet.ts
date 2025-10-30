@@ -32,13 +32,14 @@ const styles = tw({
     return tw(`
       ${common}
 
-      flex-row
+      flex-row justify-start
       p-6 pb-0
 
       base:w-auto
       base:h-full
       base:relative
       base:flex-col
+      base:justify-between
     `);
   },
 });

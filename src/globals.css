@@ -75,6 +75,11 @@ body {
     background: var(--foreground);
   }
 
+  ::placeholder {
+    color: var(--foreground);
+    opacity: 1;
+  }
+
   ::-webkit-scrollbar {
     display: none;
   }

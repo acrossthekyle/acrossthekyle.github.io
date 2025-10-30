@@ -62,8 +62,6 @@ export type Stage = {
 
 export type Post = {
   description: string[];
-  // gear: Gear;
-  // hasGear: boolean;
   label: string;
   slug: string;
   stages: Stage[];

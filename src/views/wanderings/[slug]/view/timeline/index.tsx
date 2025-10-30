@@ -52,7 +52,7 @@ export default function Timeline({ slug, stages }: Props) {
                   ))}
                 </ImageCaptionText>
                 <ImageCaptionSubtitle>
-                  {stage.hasStats && 'Stats, '}GPX{stage.hasPost && ', Overview'}
+                  View {stage.hasStats && 'Stats, '}GPX{stage.hasPost && ', Overview'}
                 </ImageCaptionSubtitle>
               </ImageLink>
             </ImageCaption>
