@@ -5,8 +5,7 @@ const styles = tw({
     const common = `
       flex items-end justify-end
 
-      deka:px-12
-      deka:py-12
+      deka:p-12
     `;
 
     if (isOnRoot) {
@@ -15,8 +14,7 @@ const styles = tw({
 
         flex-1 flex-col
 
-        px-2.5
-        py-3
+        p-6
       `);
     }
 
@@ -25,6 +23,7 @@ const styles = tw({
 
       flex-row
 
+      base:p-3
       base:w-auto
       base:h-full
       base:relative

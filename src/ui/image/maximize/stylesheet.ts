@@ -15,6 +15,7 @@ const styles = tw({
     hidden
 
     base:landscape:block
+    base:portrait:block
   `,
   portrait: `
     ${wrapper}

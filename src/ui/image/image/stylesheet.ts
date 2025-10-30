@@ -12,6 +12,9 @@ const styles = {
     landscape:aspect-3/2
     portrait:aspect-square
 
+    base:landscape:aspect-3/2
+    base:portrait:aspect-3/2
+
     ${isInView && `
       brightness-80
       !grayscale-0

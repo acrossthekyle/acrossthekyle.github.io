@@ -2,21 +2,22 @@ import tw from '@/styles';
 
 const styles = tw({
   caption: `
-    absolute z-2 left-4 bottom-4
-    mr-4
-    text-xl/4
+    absolute z-2 left-0 bottom-0 top-0 right-0
+    text-2xl/5
     font-black font-stretch-condensed
     uppercase
     tracking-tight
     pointer-events-none
 
-    pico:text-2xl/5
-    micro:text-3xl/6
-    centi:font-stretch-semi-condensed
+    pico:text-3xl/6
+    base:pr-4
+    base:left-8
+    base:bottom-6
+    base:top-auto
+    base:right-auto
     base:text-2xl/5
-    hecto:mr-8
-    hecto:left-8
-    hecto:bottom-6
+    baseplus:text-3xl/6
+    hecto:pr-8
     kilo:text-4xl/7
   `,
 });

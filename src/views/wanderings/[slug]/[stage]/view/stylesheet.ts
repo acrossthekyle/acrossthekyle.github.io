@@ -4,6 +4,7 @@ const styles = tw({
   container: `
     relative
     h-full w-full
+    pt-6
     bg-black
     text-white/90
     overflow-y-scroll
@@ -13,11 +14,12 @@ const styles = tw({
     opacity-0
     animate-in-fade
 
+    base:pt-0
     base:pr-12
   `,
-  toggle: `
-    absolute top-0 left-0 z-9999
-    flex justify-end
+  close: `
+    absolute top-3 left-3 z-9999
+    p-2
 
     base:right-0
     base:left-auto
@@ -25,16 +27,40 @@ const styles = tw({
     deka:top-9
     deka:right-7
   `,
-  close: `
+  up: `
+    hidden
+    fixed z-5
     p-2
+
+    base:block
+    base:bottom-1
+    base:right-1
+    deka:bottom-10
+    deka:right-7
   `,
-  x: `
+  icon: `
     w-7 h-7
     stroke-1 stroke-white/90
   `,
   article: `
     flex flex-col gap-8
     pt-12
+  `,
+  section: `
+    flex flex-col gap-3
+
+    base:flex-row
+    base:gap-0
+  `,
+  left: `
+    base:w-2/10
+    base:pr-2
+  `,
+  right: `
+    base:w-8/10
+  `,
+  heading: `
+    font-bold
   `,
 });
 

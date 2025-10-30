@@ -9,6 +9,7 @@ import Footer from './footer';
 import Header from './header';
 import { useModel } from './model';
 import Route from './route';
+import Section from './section';
 import Statistics from './stats';
 import styles from './stylesheet';
 import Toggle from './toggle';
@@ -23,7 +24,7 @@ export default function View({ data }: Props) {
 
   if (data === null) {
     return (
-      <dialog className={styles.container} open>
+      <dialog className={styles.container} id="dialog" open>
         <Toggle />
         <Article className={styles.article}>
           <Header
@@ -37,7 +38,7 @@ export default function View({ data }: Props) {
   }
 
   return (
-    <dialog className={styles.container} open>
+    <dialog className={styles.container} id="dialog" open>
       <Toggle />
       <Article className={styles.article}>
         <Header
@@ -46,52 +47,24 @@ export default function View({ data }: Props) {
           title={data.title}
         />
         {data.hasStats && (
-          <section>
-            <div className="flex flex-col gap-3 base:flex-row base:gap-0">
-                <div className="base:w-2/10 base:pr-2">
-                <h2>Stats</h2>
-              </div>
-              <div className="base:w-8/10">
-                <Statistics stats={data.stats} />
-              </div>
-            </div>
-          </section>
+          <Section heading="Stats">
+            <Statistics stats={data.stats} />
+          </Section>
         )}
         {data.hasRoute && data.hasElevation && (
           <Gpx>
-            <section>
-              <div className="flex flex-col gap-3 base:flex-row base:gap-0">
-                <div className="base:w-2/10 base:pr-2">
-                  <h2>Route</h2>
-                </div>
-                <div className="base:w-8/10">
-                  <Route route={data.route} termini={data.termini} />
-                </div>
-              </div>
-            </section>
-            <section>
-              <div className="flex flex-col gap-3 base:flex-row base:gap-0">
-                <div className="base:w-2/10 base:pr-2">
-                  <h2>Elevation</h2>
-                </div>
-                <div className="base:w-8/10">
-                  <Elevation elevation={data.elevation} />
-                </div>
-              </div>
-            </section>
+            <Section heading="Route">
+              <Route route={data.route} termini={data.termini} />
+            </Section>
+            <Section heading="Elevation">
+              <Elevation elevation={data.elevation} />
+            </Section>
           </Gpx>
         )}
         {data.description.length > 0 && (
-          <section>
-            <div className="flex flex-col gap-3 base:flex-row base:gap-0">
-                <div className="base:w-2/10 base:pr-2">
-                <h2>Overview</h2>
-              </div>
-              <div className="base:w-8/10">
-                <Description description={data.description} />
-              </div>
-            </div>
-          </section>
+          <Section heading="Overview">
+            <Description description={data.description} />
+          </Section>
         )}
         <Footer
           label={data.label}

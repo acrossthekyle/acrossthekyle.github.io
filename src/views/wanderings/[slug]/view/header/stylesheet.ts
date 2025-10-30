@@ -11,9 +11,8 @@ const styles = tw({
     animate-elastic-in-from-right
     mb-6
 
-    pico:text-6xl/11.5
-    milli:text-7xl/13.75
-    milli:font-stretch-semi-condensed
+    center:text-7xl/13.75
+    center:font-stretch-semi-condensed
     deci:text-8xl/18.5
     base:hidden
   `,

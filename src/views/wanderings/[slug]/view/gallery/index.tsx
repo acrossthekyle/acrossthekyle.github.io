@@ -25,7 +25,7 @@ export default function Gallery({ stages }: Props) {
             src={stage.image}
             width={1920}
           >
-            <ImageMaximize caption={[stage.index, stage.termini.end.join(' ')]} />
+            <ImageMaximize />
             <ImageCaption>
               <ImageCaptionSubtitle>
                 {stage.index} {stage.termini.end.join(' ')}

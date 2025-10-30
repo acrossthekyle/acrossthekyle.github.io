@@ -2,6 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   footer: `
+    hidden
     flex flex-row justify-between gap-16
     pt-6
   `,

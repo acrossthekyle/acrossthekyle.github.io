@@ -18,6 +18,7 @@
   --breakpoint-centi: 33.125rem; /* 530px */
   --breakpoint-deci: 40rem; /* 640px */
   --breakpoint-base: 48rem; /* 768px */
+  --breakpoint-baseplus: 50rem; /* 800px */
   --breakpoint-deka: 60.3125rem; /* 965px */
   --breakpoint-hecto: 64rem; /* 1024px: */
   --breakpoint-kilo: 67.5rem; /* 1080px */
@@ -122,6 +123,12 @@ body {
 
   .leaflet-tooltip-right:before {
     display: none !important;
+  }
+
+  .leaflet-gesture-handling-scroll-warning:after,
+  .leaflet-gesture-handling-touch-warning:after {
+    font-size: 1rem;
+    text-align: center;
   }
 
   .apexcharts-tooltip {

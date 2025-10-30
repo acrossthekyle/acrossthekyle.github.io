@@ -16,10 +16,11 @@ const styles = tw({
 
     if (isOnChild) {
       const sub = `
-        text-6xl/11.5
+        text-5xl/9.25
         font-stretch-ultra-condensed
 
-        deka:text-7xl/14
+        hecto:text-6xl/11.5
+        kilo:text-7xl/14
         mega:text-8xl/18.25
         tera:font-stretch-extra-condensed
       `;
@@ -54,9 +55,8 @@ const styles = tw({
       font-black font-stretch-extra-condensed
       tracking-tight
 
-      pico:text-6xl/11.5
-      milli:text-7xl/13.75
-      milli:font-stretch-semi-condensed
+      centi:text-7xl/13.75
+      centi:font-stretch-semi-condensed
       deci:text-8xl/18.5
       base:text-7xl/14
       base:font-stretch-normal

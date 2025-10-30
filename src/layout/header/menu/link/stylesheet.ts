@@ -22,9 +22,7 @@ const styles = tw({
         font-black font-stretch-extra-condensed
         tracking-tight
 
-        pico:text-6xl/11.5
-        milli:text-7xl/14
-        milli:font-stretch-semi-condensed
+        centi:text-7xl/14
         deci:text-8xl/18.5
         base:font-stretch-normal
         base:tracking-tight

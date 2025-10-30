@@ -18,13 +18,12 @@ const styles = tw({
     relative -top-32 right-0
   `,
   images: `
-    bottom-11.5 right-2.5
     flex flex-col gap-1
 
     ${common}
 
-    base:top-2
-    base:right-2
+    base:top-1
+    base:right-1
     base:bottom-auto
     deka:top-10
     deka:right-8
@@ -44,13 +43,12 @@ const styles = tw({
     last:bg-white/90
   `,
   overview: `
-    bottom-2.5 right-2.5
     flex flex-col gap-0.75
 
     ${common}
 
-    base:bottom-2
-    base:right-2
+    base:bottom-1
+    base:right-1
     deka:bottom-10
     deka:right-8
   `,
