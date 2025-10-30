@@ -2,7 +2,6 @@ import tw from '@/styles';
 
 const styles = tw({
   header: `
-    hidden
     relative
     w-full
   `,

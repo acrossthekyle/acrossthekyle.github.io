@@ -13,7 +13,7 @@ const styles = tw({
 
     base:ml-1.5
 
-    ${isOnChild ? 'mega:text-tiny/3' : 'mega:text-sm/3'}
+    ${isOnChild ? 'mega:text-tiny/3' : 'base:text-sm/3'}
   `),
 });
 

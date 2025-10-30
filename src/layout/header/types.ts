@@ -5,8 +5,3 @@ export type Route = {
   path: string;
   text: string;
 };
-
-export type Model = {
-  isOnRoot: boolean;
-  routes: Route[];
-};

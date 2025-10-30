@@ -9,7 +9,6 @@ const styles = tw({
     text-white/90
     overflow-y-scroll
     overscroll-contain
-    h-full w-full
     outline-0
     opacity-0
     animate-in-fade

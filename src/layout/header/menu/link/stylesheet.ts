@@ -18,10 +18,11 @@ const styles = tw({
       return tw(`
         ${root}
 
-        text-5xl/9.25
+        text-4xl/7
         font-black font-stretch-extra-condensed
         tracking-tight
 
+        plank:text-5xl/9.25
         centi:text-7xl/14
         deci:text-8xl/18.5
         base:font-stretch-normal

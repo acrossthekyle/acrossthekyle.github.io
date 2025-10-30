@@ -1,9 +1,9 @@
 import tw from '@/styles';
 
 const styles = tw({
-  header: (isOnRoot: boolean) => {
+  header: (isOnRoot: boolean, isOnGrandChild: boolean) => {
     const common = `
-      flex items-end justify-end
+      flex items-start justify-between
 
       deka:p-12
     `;
@@ -13,8 +13,19 @@ const styles = tw({
         ${common}
 
         flex-1 flex-col
+        p-3 pr-0
 
-        p-6
+        plank:p-6
+      `);
+    }
+
+    if (isOnGrandChild) {
+      return tw(`
+        ${common}
+        hidden
+
+        base:flex
+        base:flex-col
       `);
     }
 
@@ -22,8 +33,8 @@ const styles = tw({
       ${common}
 
       flex-row
+      p-6 pb-0
 
-      base:p-3
       base:w-auto
       base:h-full
       base:relative

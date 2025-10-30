@@ -3,16 +3,17 @@
 import { useHierarchy } from '@/hooks/useHierarchy';
 
 import { routes } from './constants';
-import type { Model } from './types';
 import { getRoutePath } from './utils';
 
-export function useModel(): Model {
+export function useModel() {
   const {
+    isOnGrandChild,
     isOnRoot,
     path,
   } = useHierarchy();
 
   return {
+    isOnGrandChild,
     isOnRoot,
     routes: routes.map((route) => ({
       ...route,
