@@ -11,7 +11,7 @@ const styles = tw({
   hero: `
     relative z-2
     text-4xl/7
-    font-black font-stretch-condensed
+    font-extrablack font-stretch-condensed
     uppercase
     w-full
     opacity-0

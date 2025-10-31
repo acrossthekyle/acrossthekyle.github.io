@@ -5,9 +5,9 @@ const styles = tw({
     absolute inset-0 z-9999
     w-full h-full
     flex flex-col items-center justify-start
-    pt-16 px-6
-    bg-black
-    text-white/90
+    pt-12 px-4
+    bg-white dark:bg-black
+    text-current/90
     overflow-y-scroll
     overscroll-contain
     outline-0
@@ -17,7 +17,7 @@ const styles = tw({
     base:p-0
   `,
   close: `
-    absolute top-3 left-3 z-9999
+    absolute top-1 left-1 z-9999
     p-2
 
     base:right-0
@@ -27,7 +27,7 @@ const styles = tw({
   `,
   icon: `
     w-7 h-7
-    stroke-1 stroke-white/90
+    stroke-1
   `,
   field: `
     w-full
@@ -77,8 +77,8 @@ const styles = tw({
     tera:text-9xl/24.75
 
     hover:font-extralight
-    hover:text-white/90
-    group-hover/list:text-white/25
+    hover:text-current/90
+    group-hover/list:text-current/25
   `,
   line: `
     relative

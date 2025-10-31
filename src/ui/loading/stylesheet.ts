@@ -8,7 +8,7 @@ const styles = tw({
   `,
   svg: `
     size-5
-    text-white
+    text-black/90 dark:text-white/90
     animate-spin
   `,
   circle: `

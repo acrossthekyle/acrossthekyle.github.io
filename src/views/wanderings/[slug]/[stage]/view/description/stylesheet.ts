@@ -7,7 +7,7 @@ const styles = tw({
   heading: `
     flex items-center gap-1.5
     mb-4
-    text-sm text-white/90
+    text-sm
     font-black
     tracking-wide
     uppercase

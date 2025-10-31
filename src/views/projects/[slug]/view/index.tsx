@@ -33,9 +33,11 @@ export default function View({ data }: Props) {
           </span>
         ))}
       </h1>
-      <time className={styles.time}>{data.date.join(' - ')}</time>
-      <p className={styles.overview}>{data.overview}</p>
       <ul className={styles.list}>
+        <li className={styles.parted}>
+          <h2 className={styles.label}>{data.overview}</h2>
+          <time className={styles.time}>{data.date.join(' - ')}</time>
+        </li>
         <li className={styles.parted}>
           <h2 className={styles.label}>Position</h2>
           <p>{data.position}</p>
@@ -51,7 +53,12 @@ export default function View({ data }: Props) {
         {data.website && (
           <li className={styles.parted}>
             <h2 className={styles.label}>Website</h2>
-            <Link href={`https://${data.website}`} rel="noreferrer" target="_blank">
+            <Link
+              className={styles.link}
+              href={`https://${data.website}`}
+              rel="noreferrer"
+              target="_blank"
+            >
               {data.website} <ArrowUpRight className={styles.icon} />
             </Link>
           </li>

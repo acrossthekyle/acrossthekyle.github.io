@@ -1,20 +1,30 @@
 import tw from '@/styles';
 
 const styles = tw({
-  search: `
-    absolute top-4 right-3 z-10
+  toggle: `
+    absolute top-4 right-12 z-10
 
     plank:top-4
-    plank:right-4
-    deka:bottom-12
+    plank:right-14
+    deka:top-12
     deka:right-12
     deka:top-auto
   `,
-  icon: `
+  sun: `
     w-6 h-6
 
     deka:w-7
     deka:h-7
+
+    light:hidden
+  `,
+  moon: `
+    w-6 h-6
+
+    deka:w-7
+    deka:h-7
+
+    dark:hidden
   `,
 });
 

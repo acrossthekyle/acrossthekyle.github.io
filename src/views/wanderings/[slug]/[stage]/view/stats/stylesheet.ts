@@ -1,21 +1,15 @@
 import tw from '@/styles';
 
 const styles = tw({
-  section: `
-    flex justify-between
-    mb-2
+  list: `
+    grid grid-cols-2 gap-4
+  `,
+  item: `
+    flex flex-col gap-0
   `,
   heading: `
     capitalize
-  `,
-  index: `
-    inline-block
-    mr-1.5
-    text-xs text-white/50
-    font-mono
-  `,
-  content: `
-
+    font-black
   `,
 });
 

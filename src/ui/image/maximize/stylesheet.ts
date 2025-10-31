@@ -1,27 +1,30 @@
 import tw from '@/styles';
 
-const wrapper = `
-  group/maximize
-  absolute inset-0
-  w-full h-full
-  text-left
-  !cursor-zoom-in
-`;
-
 const styles = tw({
-  landscape: `
-    ${wrapper}
-    z-1
+  dimensions: `
     hidden
+    absolute inset-0 z-0
 
-    base:landscape:block
-    base:portrait:block
+    base:block
   `,
-  portrait: `
-    ${wrapper}
-    z-2
-
+  maximize: `
     hidden
+    absolute bottom-5.25 right-5.5 z-3
+    p-2
+    font-extrablack
+    text-sm
+    uppercase
+    duration-300
+
+    hover:font-semibold
+    hover:text-current/90
+
+    hecto:portrait:hidden
+    hecto:landscape:block
+  `,
+  icon: `
+    w-8
+    stroke-2
   `,
   image: `
     rounded-sm

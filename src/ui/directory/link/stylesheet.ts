@@ -36,11 +36,11 @@ const styles = tw({
         ${root}
         ${sub}
 
-        text-white/25
+        text-current/25
         font-thin
 
         hover:tracking-tighter
-        hover:text-white/90
+        hover:text-current/90
         hover:font-medium
       `);
     }
@@ -49,7 +49,7 @@ const styles = tw({
       ${root}
 
       text-5xl/9.25
-      font-black font-stretch-extra-condensed
+      font-extrablack font-stretch-extra-condensed
       tracking-tight
 
       centi:text-7xl/13.75
@@ -62,8 +62,8 @@ const styles = tw({
       tera:text-9xl/24.75
 
       hover:font-extralight
-      hover:text-white/90
-      group-hover/list:text-white/25
+      hover:text-current/90
+      group-hover/list:text-current/25
     `);
   },
 });

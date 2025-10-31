@@ -2,15 +2,10 @@ import tw from '@/styles';
 
 const common = `
   hidden
-  fixed z-5
+  absolute z-5
   p-2
-  bg-white/12.5
-  rounded-sm
 
   base:flex
-  base:absolute
-  base:bg-transparent
-  base:rounded-none
 `;
 
 const styles = tw({
@@ -32,15 +27,15 @@ const styles = tw({
     block
     w-4 h-3
     rounded-xs
-    border-1 border-white/90
+    border-1 border-current/90
     bg-transparent
 
     first:h-[1px]
     first:border-none
-    first:bg-white/90
+    first:bg-current/90
     last:h-[1px]
     last:border-none
-    last:bg-white/90
+    last:bg-current/90
   `,
   overview: `
     flex flex-col gap-0.75
@@ -55,7 +50,7 @@ const styles = tw({
   text: `
     block
     w-3 h-0.5
-    bg-white/90
+    bg-current/90
 
     first:w-4
   `,

@@ -11,7 +11,7 @@ import styles from './stylesheet';
 type Model = {
   handleOnMaximize: () => void;
   handleOnWarn: () => void;
-  zoomRef: React.RefObject<HTMLButtonElement | null>;
+  zoomRef: React.RefObject<HTMLDivElement | null>;
 };
 
 export function useModel(): Model {
@@ -23,7 +23,7 @@ export function useModel(): Model {
     src,
   } = useContext(ImageContext);
 
-  const zoomRef = useRef<HTMLButtonElement | null>(null);
+  const zoomRef = useRef<HTMLDivElement | null>(null);
 
   const { zoomOut, zoom } = useZoom();
 

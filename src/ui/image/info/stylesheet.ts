@@ -1,10 +1,13 @@
 import tw from '@/styles';
 
 const styles = tw({
-  subtitle: `
+  info: `
     block
+    mb-2
+    p-6
     text-tiny/3
-    font-medium
+    font-extrablack
+    uppercase
     tracking-wider
     font-stretch-semi-expanded
   `,

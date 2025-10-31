@@ -446,11 +446,11 @@ async function getStages(folder) {
         route: route || null,
         stats,
         termini: {
-          end: turnStringIntoArrayForLists(end, 16),
+          end: turnStringIntoArrayForLists(end),
           isSame: start.toLowerCase() === end.toLowerCase(),
-          start: turnStringIntoArrayForLists(start, 16),
+          start: turnStringIntoArrayForLists(start),
         },
-        title: turnStringIntoArrayForLists(data.title, 16),
+        title: turnStringIntoArrayForLists(data.title),
       });
     }),
   );

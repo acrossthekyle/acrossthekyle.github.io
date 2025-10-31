@@ -3,15 +3,19 @@ import tw from '@/styles';
 const styles = tw({
   text: `
     inline-block
-    mb-0.5
-    duration-200
-    pointer-events-none
+    mt-1
+    duration-300
+    text-2xl/5
+    font-extrablack font-stretch-semi-expanded
+    tracking-tighter
+    uppercase
 
-    base:mb-1
+    pico:text-3xl/6
+    base:text-2xl/5
+    giga:text-4xl/7
 
-    group-hover/image-link:text-white
-    group-hover/image-link:tracking-tighter
-    group-hover/image-link:font-light
+    group-hover/figure:font-bold
+    group-hover/figure:font-stretch-normal
   `,
 });
 

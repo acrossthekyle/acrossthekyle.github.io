@@ -50,17 +50,13 @@ export default function Stats({ stats }: Props) {
   }
 
   return (
-    <>
+    <ul className={styles.list}>
       {sections.map((section: Section) => (
-        <div className={styles.section} key={section.heading}>
-          <h3 className={styles.heading}>
-            {section.heading}
-          </h3>
-          <p className={styles.content}>
-            {section.value}
-          </p>
-        </div>
+        <li className={styles.item} key={section.heading}>
+          <h3 className={styles.heading}>{section.heading}</h3>
+          <p>{section.value}</p>
+        </li>
       ))}
-    </>
+    </ul>
   );
 }

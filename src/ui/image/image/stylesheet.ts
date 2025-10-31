@@ -12,8 +12,8 @@ const styles = {
     landscape:aspect-3/2
     portrait:aspect-square
 
-    base:landscape:aspect-3/2
-    base:portrait:aspect-3/2
+    base:landscape:aspect-16/9
+    base:portrait:aspect-16/9
 
     ${isInView && `
       brightness-80
@@ -23,7 +23,6 @@ const styles = {
       base:!grayscale-100
     `}
 
-    group-hover/figure:brightness-80
     group-hover/figure:scale-102
   `),
 };

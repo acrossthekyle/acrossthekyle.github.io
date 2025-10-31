@@ -4,9 +4,9 @@ type Props = {
   children: React.ReactNode | React.ReactNode[];
 };
 
-export default function Subtitle({ children }: Props) {
+export default function Info({ children }: Props) {
   return (
-    <span className={styles.subtitle}>
+    <span className={styles.info}>
       {children}
     </span>
   );

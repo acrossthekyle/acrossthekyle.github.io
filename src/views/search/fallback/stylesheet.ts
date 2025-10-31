@@ -4,8 +4,8 @@ const styles = tw({
   container: `
     absolute inset-0 z-9999
     w-full h-full
-    bg-black/50
-    text-white/90
+    bg-white dark:bg-black
+    text-current/90
     overflow-y-scroll
     overscroll-contain
     outline-0

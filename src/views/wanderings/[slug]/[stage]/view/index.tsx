@@ -2,13 +2,13 @@
 
 import { Article } from '@/ui/article';
 
-import Gpx from './context';
+// import Gpx from './context';
 import Description from './description';
-import Elevation from './elevation';
+// import Elevation from './elevation';
 import Footer from './footer';
 import Header from './header';
 import { useModel } from './model';
-import Route from './route';
+// import Route from './route';
 import Section from './section';
 import Statistics from './stats';
 import styles from './stylesheet';
@@ -28,8 +28,7 @@ export default function View({ data }: Props) {
         <Toggle />
         <Article className={styles.article}>
           <Header
-            date="Sorry, this does not exist."
-            stage="404"
+            date="404"
             title="Not Found"
           />
         </Article>
@@ -43,15 +42,19 @@ export default function View({ data }: Props) {
       <Article className={styles.article}>
         <Header
           date={data.date}
-          stage={data.stage}
           title={data.title}
         />
         {data.hasStats && (
-          <Section heading="Stats">
+          <Section>
             <Statistics stats={data.stats} />
           </Section>
         )}
-        {data.hasRoute && data.hasElevation && (
+        {data.description.length > 0 && (
+          <Section heading="Overview">
+            <Description description={data.description} />
+          </Section>
+        )}
+        {/*{data.hasRoute && data.hasElevation && (
           <Gpx>
             <Section heading="Route">
               <Route route={data.route} termini={data.termini} />
@@ -60,18 +63,10 @@ export default function View({ data }: Props) {
               <Elevation elevation={data.elevation} />
             </Section>
           </Gpx>
-        )}
+        )}*/}
         {data.description.length > 0 && (
-          <Section heading="Overview">
-            <Description description={data.description} />
-          </Section>
+          <Footer />
         )}
-        <Footer
-          label={data.label}
-          next={data.next}
-          previous={data.previous}
-          slug={data.slug}
-        />
       </Article>
     </dialog>
   );

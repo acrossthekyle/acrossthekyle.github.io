@@ -5,9 +5,11 @@ const styles = {
     relative
 
     ${isLoading && `
-      aspect-square
+      landscape:aspect-3/2
+      portrait:aspect-10/9
 
-      base:aspect-3/2
+      base:landscape:aspect-16/9
+      base:portrait:aspect-16/9
     `}
   `),
 };

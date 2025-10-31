@@ -3,18 +3,20 @@ import tw from '@/styles';
 const styles = tw({
   eyebrow: `
     block
-    mb-0.5
+    uppercase
     text-tiny/3
-    font-semibold
-    tracking-wider
-    font-stretch-semi-expanded
+    font-bold
+    tracking-widest
+    font-stretch-semi-condensed
     duration-300
 
     micro:text-xs
     deka:text-tiny
     kilo:text-xs
 
-    group-hover/image-link:text-white
+    group-hover/figure:tracking-widest
+    group-hover/figure:font-semibold
+    group-hover/figure:font-stretch-condensed
   `,
 });
 

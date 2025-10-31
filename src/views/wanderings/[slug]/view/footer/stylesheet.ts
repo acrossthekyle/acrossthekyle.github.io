@@ -4,6 +4,8 @@ const styles = tw({
   footer: `
     flex justify-end
     mt-4
+
+    base:hidden
   `,
   up: `
     flex items-center gap-1

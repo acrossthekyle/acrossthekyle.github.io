@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+@custom-variant light (&:where([data-theme=light], [data-theme=light] *));
+
 :root {
   --background: #000000;
   --foreground: rgba(255, 255, 255, .9);
@@ -18,16 +21,19 @@
   --breakpoint-centi: 33.125rem; /* 530px */
   --breakpoint-deci: 40rem; /* 640px */
   --breakpoint-base: 48rem; /* 768px */
-  --breakpoint-baseplus: 50rem; /* 800px */
+  --breakpoint-baseplus: 52.5rem; /* 840px */
   --breakpoint-deka: 60.3125rem; /* 965px */
   --breakpoint-hecto: 64rem; /* 1024px: */
   --breakpoint-kilo: 67.5rem; /* 1080px */
   --breakpoint-mega: 73.75rem; /* 1180px */
   --breakpoint-giga: 80rem; /* 1280px */
+  --breakpoint-gigaplus: 84.125rem; /* 1346px */
   --breakpoint-tera: 120rem; /* 1920px */
   --breakpoint-peta: 160rem; /* 2560px */
 
   --text-tiny: 0.625rem; /* 10px */
+
+  --font-weight-extrablack: 1000; /**/
 
   --animate-elastic-in-from-right: elasticInFromRight .5s cubic-bezier(.4, -0.6, 0.32, 1.6) forwards;
   --animate-elastic-in-from-left: elasticInFromLeft .65s cubic-bezier(.4, -0.6, 0.32, 1.6) forwards;
@@ -65,20 +71,8 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
   -ms-overflow-style: none;
   scrollbar-width: none;
-
-  ::selection {
-    color: var(--background);
-    background: var(--foreground);
-  }
-
-  ::placeholder {
-    color: var(--foreground);
-    opacity: 1;
-  }
 
   ::-webkit-scrollbar {
     display: none;
@@ -91,6 +85,10 @@ body {
   .leaflet-control-zoom {
     top: 0.2rem;
     right: -0.2rem;
+  }
+
+  .leaflet-bar {
+    border: none !important;
   }
 
   .leaflet-control-zoom-in,

@@ -3,6 +3,7 @@
 import type { Post } from '@/types';
 import { Article } from '@/ui/article';
 
+import Footer from './footer';
 import Gallery from './gallery';
 import Header from './header';
 import { useModel } from './model';
@@ -42,6 +43,7 @@ export default function View({ data }: Props) {
         )}
         <Overview description={data.description} />
       </div>
+      <Footer />
     </Article>
   );
 }

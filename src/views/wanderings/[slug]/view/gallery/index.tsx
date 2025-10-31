@@ -2,7 +2,7 @@ import type { Stage } from '@/types';
 import {
   Image,
   ImageCaption,
-  ImageCaptionSubtitle,
+  ImageInfo,
   ImageFigure,
   ImageMaximize,
 } from '@/ui/image';
@@ -27,9 +27,9 @@ export default function Gallery({ stages }: Props) {
           >
             <ImageMaximize />
             <ImageCaption>
-              <ImageCaptionSubtitle>
-                {stage.index} {stage.termini.end.join(' ')}
-              </ImageCaptionSubtitle>
+              <ImageInfo>
+                {stage.termini.end.join(' ')}
+              </ImageInfo>
             </ImageCaption>
           </Image>
         </ImageFigure>

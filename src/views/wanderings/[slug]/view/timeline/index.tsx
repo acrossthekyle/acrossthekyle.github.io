@@ -3,7 +3,6 @@ import {
   Image,
   ImageCaption,
   ImageCaptionEyebrow,
-  ImageCaptionSubtitle,
   ImageCaptionText,
   ImageFigure,
   ImageLink,
@@ -38,11 +37,11 @@ export default function Timeline({ slug, stages }: Props) {
             </Image>
             <ImageCaption>
               <ImageLink
+                label={`Learn more about ${stage.termini.end.join(' ')}`}
                 href={`/wanderings/${slug}/${stage.index}`}
-                title={`Learn more about ${stage.termini.end.join(' ')}`}
               >
                 <ImageCaptionEyebrow>
-                  {stage.index}: {stage.date}
+                  {stage.date}
                 </ImageCaptionEyebrow>
                 <ImageCaptionText>
                   {stage.termini.end.map((word) => (
@@ -51,9 +50,6 @@ export default function Timeline({ slug, stages }: Props) {
                     </span>
                   ))}
                 </ImageCaptionText>
-                <ImageCaptionSubtitle>
-                  View {stage.hasStats && 'Stats, '}GPX{stage.hasPost && ', Overview'}
-                </ImageCaptionSubtitle>
               </ImageLink>
             </ImageCaption>
           </ImageFigure>

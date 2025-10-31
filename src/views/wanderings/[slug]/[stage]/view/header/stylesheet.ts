@@ -7,7 +7,7 @@ const styles = tw({
   `,
   title: `
     text-4xl/7
-    font-black font-stretch-semi-condensed
+    font-extrablack font-stretch-semi-condensed
     uppercase
   `,
   eyebrow: `

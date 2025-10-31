@@ -5,6 +5,7 @@ import Logo from './logo';
 import { Menu, MenuItem, MenuLink, MenuText } from './menu';
 import { useModel } from './model';
 import Search from './search';
+import Theme from './theme';
 import styles from './stylesheet';
 
 export default function Header() {
@@ -15,6 +16,7 @@ export default function Header() {
       <Logo />
       <Breadcrumbs />
       <Search />
+      <Theme />
       <Menu>
         {routes.map((route, index: number) => (
           <MenuItem index={index} key={index}>

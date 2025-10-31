@@ -18,10 +18,10 @@ const styles = tw({
     base:hidden
   `,
   time: `
-    font-bold
+    text-current/75
   `,
   overview: `
-    text-white/75
+    font-bold
   `,
   heading: `
     font-bold
@@ -29,7 +29,6 @@ const styles = tw({
   `,
   list: `
     flex flex-col gap-4
-    mt-6
   `,
   parted: `
     flex flex-col
@@ -37,19 +36,21 @@ const styles = tw({
   label: `
     font-bold
   `,
+  link: `
+    text-current/80
+  `,
   role: `
     flex
   `,
   index: `
     block
     mr-4
-    text-white/75
+    text-current/75
   `,
   icon: `
     inline-block
     w-4 h-4
     stroke-2
-    stroke-white/80
   `,
 });
 

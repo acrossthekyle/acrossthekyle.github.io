@@ -19,7 +19,7 @@ const styles = tw({
         ${root}
 
         text-4xl/7
-        font-black font-stretch-extra-condensed
+        font-extrablack font-stretch-extra-condensed
         tracking-tight
 
         plank:text-5xl/9.25
@@ -35,10 +35,10 @@ const styles = tw({
     }
 
     const sub = `
-      ${isActive ? '' : 'text-white/25'}
+      ${isActive ? '' : 'text-current/25'}
       font-thin font-stretch-ultra-condensed
 
-      hover:text-white/90
+      hover:text-current/90
     `;
 
     if (isOnParent) {

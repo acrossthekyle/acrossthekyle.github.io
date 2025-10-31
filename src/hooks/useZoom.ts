@@ -8,7 +8,7 @@ type ZoomOptions = {
   caption?: string;
   content: React.ReactNode | React.ReactNode[];
   isLandscapeOrientation: boolean;
-  ref: React.RefObject<HTMLButtonElement | null>;
+  ref: React.RefObject<HTMLDivElement | null>;
 };
 
 type Size = {

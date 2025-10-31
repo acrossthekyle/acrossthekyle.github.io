@@ -13,9 +13,9 @@ const styles = tw({
         ${common}
 
         flex-1 flex-col
-        p-3 pr-0
+        p-4 pr-0
 
-        plank:p-6
+        plank:p-4
       `);
     }
 
@@ -33,7 +33,7 @@ const styles = tw({
       ${common}
 
       flex-row justify-start
-      p-6 pb-0
+      p-4 pb-0
 
       base:w-auto
       base:h-full
