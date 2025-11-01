@@ -3,8 +3,9 @@
   "days": "11",
   "timestamp": "1753228805",
   "id": "tour-du-mont-blanc-repeat",
-  "type": "trekking",
-  "location": "French, Italian, and Swiss Alps",
+  "category": "trekking",
+  "type": "thru-hike",
+  "location": "The Alps",
   "title": "Tour du Mont Blanc",
   "description": [
     "Returning to an old friend and repeating a previous hike of this trail, this time accompanied by my partner. The trek was much as had I remembered, with abundant trips down memory lane. These pictures showcase our daily amazing views from the trail while hiked %distance% over %days%, reaching a maximum altitude of %max%."

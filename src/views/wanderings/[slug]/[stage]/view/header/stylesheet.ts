@@ -6,16 +6,26 @@ const styles = tw({
     w-full
   `,
   title: `
-    text-4xl/7
-    font-extrablack font-stretch-semi-condensed
+    text-2xl/5
+    font-extrablack font-stretch-semi-expanded
+    tracking-tighter
     uppercase
+
+    pico:text-3xl/6
+    giga:text-4xl/7
   `,
   eyebrow: `
     block
     mb-1
-    text-xs
-    tracking-wider
-    font-semibold font-stretch-normal
+    uppercase
+    text-tiny/3
+    font-bold
+    tracking-widest
+    font-stretch-semi-condensed
+
+    micro:text-xs
+    deka:text-tiny
+    kilo:text-xs
   `,
   index: `
     inline-block

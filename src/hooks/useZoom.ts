@@ -143,10 +143,10 @@ export function useZoom() {
 
     setTimeout(() => {
       setFinalSize({
-        height: 'calc(100vh - 48px)',
-        width: 'calc(100vw - 48px)',
-        top: 24,
-        left: 24,
+        height: '100%',
+        width: '100%',
+        top: 0,
+        left: 0,
       });
     }, 200);
 

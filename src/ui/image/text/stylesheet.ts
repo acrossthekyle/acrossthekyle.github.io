@@ -11,7 +11,6 @@ const styles = tw({
     uppercase
 
     pico:text-3xl/6
-    base:text-2xl/5
     giga:text-4xl/7
 
     group-hover/figure:font-bold

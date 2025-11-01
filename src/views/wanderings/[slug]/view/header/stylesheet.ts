@@ -20,11 +20,23 @@ const styles = tw({
   line: `
     block
   `,
-  location: `
+  info: `
     block
-    text-lg
-    font-light font-stretch-semi-condensed
-    tracking-normal
+    mt-1
+    text-sm/4
+    font-light font-stretch-normal
+    tracking-tight
+  `,
+  type: `
+    inline-block
+    mr-3
+  `,
+  location: `
+    inline-block
+    mr-3
+  `,
+  date: `
+    inline-block
   `,
 });
 

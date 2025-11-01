@@ -3,7 +3,8 @@
   "days": "7",
   "timestamp": "1458277200",
   "id": "santiago-and-valparaiso",
-  "type": "destinations",
+  "category": "destinations",
+  "type": "vacation",
   "location": "Chile",
   "title": "Santiago + Valparaiso",
   "description": [

@@ -3,8 +3,9 @@
   "days": "12",
   "timestamp": "1535872800",
   "id": "tour-du-mont-blanc",
-  "type": "trekking",
-  "location": "French, Italian, and Swiss Alps",
+  "category": "trekking",
+  "type": "thru-hike",
+  "location": "The Alps",
   "title": "Tour du Mont Blanc",
   "description": [
     "Encircling the Mont Blanc mountain in the Alps, the tour of this peak is a classic long-distance hike covering a distance of %distance% while passing through France, Italy, and Switzerland. It offered a challenging experience filled with diverse landscapes, a unique blend of cultures, and stunning alpine charm across %days% of hiking, all while sleeping in comfy mountain huts and eating warm home-cooked meals each night. The unofficially highest point on the trek, via an alternate route, was %max%.",

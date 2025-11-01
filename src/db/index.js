@@ -1,11 +1,7 @@
 const data = [
   {
-    "date": {
-      "date": "Oct 18 2025",
-      "years": [
-        "2025"
-      ]
-    },
+    "category": "trekking",
+    "date": "Oct 18 -  19, 2025",
     "description": [
       "Known for its unglaciated, hilly landscape, this remote counterclockwise backpacking loop in the Driftless Area of Iowa showcases the state's most rugged terrain with a route that crosses ravines, climbs sandstone bluffs, and provides views of the surrounding hardwood forests and wildlife."
     ],
@@ -1747,15 +1743,11 @@ const data = [
       "Yellow",
       "River Trail"
     ],
-    "type": "trekking"
+    "type": "trek"
   },
   {
-    "date": {
-      "date": "Jul 27 2024",
-      "years": [
-        "2024"
-      ]
-    },
+    "category": "trekking",
+    "date": "Jul 27 - Aug 6, 2024",
     "description": [
       "Returning to an old friend and repeating a previous hike of this trail, this time accompanied by my partner. The trek was much as had I remembered, with abundant trips down memory lane. These pictures showcase our daily amazing views from the trail while hiked 117 miles over 11 days, reaching a maximum altitude of 8,960 feet."
     ],
@@ -2371,7 +2363,7 @@ const data = [
     "hasGear": true,
     "hasStats": true,
     "label": "day",
-    "location": "French, Italian, and Swiss Alps",
+    "location": "The Alps",
     "slug": "tour-du-mont-blanc-repeat",
     "stages": [
       {
@@ -11655,22 +11647,18 @@ const data = [
       "Tour du",
       "Mont Blanc"
     ],
-    "type": "trekking"
+    "type": "thru-hike"
   },
   {
-    "date": {
-      "date": "Jul 24 2024",
-      "years": [
-        "2024"
-      ]
-    },
+    "category": "destinations",
+    "date": "Jul 24 -  25, 2024",
     "description": [
       "Before heading into the Alps for the Tour du Mont Blanc we took some time to explore the city of Geneva, from breakfast along the Rhone river to exploring Old Town and the botanical gardens."
     ],
     "gear": {},
     "hasGear": false,
     "hasStats": false,
-    "label": "",
+    "label": "destination",
     "location": "Switzerland",
     "slug": "geneva",
     "stages": [
@@ -11782,15 +11770,11 @@ const data = [
     "title": [
       "Geneva"
     ],
-    "type": "destinations"
+    "type": "vacation"
   },
   {
-    "date": {
-      "date": "Jun 21 2023",
-      "years": [
-        "2023"
-      ]
-    },
+    "category": "trekking",
+    "date": "Jun 21 - Jul 3, 2023",
     "description": [
       "Considered to be the most difficult of all trails in Europe, the GR 20 (or French High Route) is a footpath that traverses the Mediterranean island of Corsica from north to south along its spiny mountainous backbone, reaching a maximum altitude of 8,550 feet. It demanded thousands of feet of elevation change every day, totally 44,475 ft of gain and 44,549 ft of loss. Between the northern starting point at Calenzana to the finish at Conca in the south, there were hidden mountain lakes, expansive sea views, rugged and rocky cliffs, and remarkable panoramas.",
       "Even though I had survived hiking in the Himalayas, this was definitely the hardest thru-hike I have ever done. It took me 13 days to complete it, over a distance of 131 miles."
@@ -23437,22 +23421,18 @@ const data = [
     "title": [
       "GR 20"
     ],
-    "type": "trekking"
+    "type": "thru-hike"
   },
   {
-    "date": {
-      "date": "Jan 3 2023",
-      "years": [
-        "2023"
-      ]
-    },
+    "category": "destinations",
+    "date": "Jan 3 -  6, 2023",
     "description": [
       "Spending New Years Eve in a land of ancient wonders. Egypt is a place full of history and bustling cities, awe-inspiring pyramids, tombs, and amazing temples. Seeing them up close, and being able to touch them, is how history is meant to be experienced. We visited 10 destinations over 4 days."
     ],
     "gear": {},
     "hasGear": false,
     "hasStats": false,
-    "label": "",
+    "label": "destination",
     "location": "Egypt",
     "slug": "luxor",
     "stages": [
@@ -23782,22 +23762,18 @@ const data = [
     "title": [
       "Luxor"
     ],
-    "type": "destinations"
+    "type": "vacation"
   },
   {
-    "date": {
-      "date": "Dec 29 2022",
-      "years": [
-        "2022"
-      ]
-    },
+    "category": "destinations",
+    "date": "Dec 29, 2022 - Jan 2, 2023",
     "description": [
       "Spending New Years Eve in a land of ancient wonders. Egypt is a place full of history and bustling cities, awe-inspiring pyramids, tombs, and amazing temples. Seeing them up close, and being able to touch them, is how history is meant to be experienced. We visited 4 destinations over 5 days."
     ],
     "gear": {},
     "hasGear": false,
     "hasStats": false,
-    "label": "",
+    "label": "destination",
     "location": "Egypt",
     "slug": "cairo",
     "stages": [
@@ -23937,16 +23913,11 @@ const data = [
     "title": [
       "Cairo"
     ],
-    "type": "destinations"
+    "type": "vacation"
   },
   {
-    "date": {
-      "date": null,
-      "years": [
-        "2022",
-        "2025"
-      ]
-    },
+    "category": "trekking",
+    "date": "2022 - 2024",
     "description": [
       "A place of kettles and moraines from mile-thick glaciers long ago, completing this 1,200 mile long-distance national scenic trail in sections takes time. To date I've completed 3 sections over 4 days and 27 miles. It's not the distance on this trail that gets you; it's the constant up and down over rolling hills."
     ],
@@ -27102,15 +27073,11 @@ const data = [
       "Ice Age",
       "Trail"
     ],
-    "type": "trekking"
+    "type": "trek"
   },
   {
-    "date": {
-      "date": "May 7 2022",
-      "years": [
-        "2022"
-      ]
-    },
+    "category": "trekking",
+    "date": "May 7 -  12, 2022",
     "description": [
       "Filled with misty glens, deep lochs, and endless rain while hiking from Milngavie to Fort William, the West Highland Way is a long-distance trail in the highlands of Scotland spanning 97 miles. The trail travels down many ancient roads and old coaching routes, journeying from the lowlands to the highlands, while camping overnight in fields, along a lakeside beach, and under a bridge.",
       "I was not prepared for the amount of rain nearly every day of this trek that took 6 days to complete, and by the end of it I was chilled to the bone. But I witnessed some amazing mountains once I got into the Highlands at altitudes around 1,805 feet, with a total elevation gain of 14,342 ft and loss of 14,431 ft."
@@ -32806,22 +32773,18 @@ const data = [
       "Highland",
       "Way"
     ],
-    "type": "trekking"
+    "type": "thru-hike"
   },
   {
-    "date": {
-      "date": "Mar 22 2022",
-      "years": [
-        "2022"
-      ]
-    },
+    "category": "destinations",
+    "date": "Mar 22 -  25, 2022",
     "description": [
       "Escaping the trailing remnants of winter in Chicago by absconding last-minute down to Puerto Rico, walking its beaches, exploring the forts, and cliff jumping in the rain forests."
     ],
     "gear": {},
     "hasGear": false,
     "hasStats": false,
-    "label": "",
+    "label": "destination",
     "location": "Puerto Rico",
     "slug": "san-juan",
     "stages": [
@@ -32935,15 +32898,11 @@ const data = [
     "title": [
       "San Juan"
     ],
-    "type": "destinations"
+    "type": "vacation"
   },
   {
-    "date": {
-      "date": "Feb 18 2020",
-      "years": [
-        "2020"
-      ]
-    },
+    "category": "trekking",
+    "date": "Feb 18 -  25, 2020",
     "description": [
       "A tapestry of landscapes surrounded spires of granite, sprawling glaciers, pristine lakes, and windswept plains providing an idyllic background for thru-hiking 8 days and 73 miles in Chile. Here at the bottom of the world in Patagonia, with equal parts rustic and modern, the trail known as the 'O' Circuit circumnavigates the prominent Torres del Paine granite towers that the park is known for. But the real highlight of the circuit took place after summitting the ridge at John Gardner Pass at 3,874 feet and seeing the massive Grays Glacier layed out below, filling the horizon from end to end."
     ],
@@ -39223,15 +39182,11 @@ const data = [
       "Paine O",
       "Circuit"
     ],
-    "type": "trekking"
+    "type": "thru-hike"
   },
   {
-    "date": {
-      "date": "Oct 19 2019",
-      "years": [
-        "2019"
-      ]
-    },
+    "category": "trekking",
+    "date": "Oct 19 - Nov 6, 2019",
     "description": [
       "Ranging from tropical forests and waterfalls along paddy fields to the frozen arctic region of the Tibetan plateau at 17,751 feet, the Annapurna Circuit spanned 18 days while winding its way around one of the eight tallest peaks in the world in the Himalayas of Nepal for 193 miles.",
       "The sheer amount of total elevation gain and loss (54,267 ft and 51,090 ft, respectfully), changing biomes, and nearly succumbing to hypothermia, led to this being one of my toughest treks."
@@ -39887,7 +39842,7 @@ const data = [
     "hasGear": true,
     "hasStats": true,
     "label": "day",
-    "location": "Himalayas of Nepal",
+    "location": "Nepal",
     "slug": "annapurna-circuit-basecamp",
     "stages": [
       {
@@ -55173,16 +55128,11 @@ const data = [
       "Circuit +",
       "Basecamp"
     ],
-    "type": "trekking"
+    "type": "thru-hike"
   },
   {
-    "date": {
-      "date": null,
-      "years": [
-        "2019",
-        "2022"
-      ]
-    },
+    "category": "trekking",
+    "date": "2019 - 2021",
     "description": [
       "Reaching the summits of the Colorado Rocky Mountains and breathing in the cold alpine air at 14,000 feet is an awe-inspiring experience offering unparalleled views and moments of profound triumph, a feeling of being on top of the world. I have completed 9/58 summits, with the highest peak reaching 14,422 feet."
     ],
@@ -55501,8 +55451,8 @@ const data = [
     },
     "hasGear": true,
     "hasStats": true,
-    "label": "day",
-    "location": "Colorado Rocky Mountains",
+    "label": "",
+    "location": "Colorado",
     "slug": "southern-rockies-peak-bagging",
     "stages": [
       {
@@ -62859,17 +62809,13 @@ const data = [
       "Southern",
       "Rockies"
     ],
-    "type": "trekking"
+    "type": "peak-bagging"
   },
   {
-    "date": {
-      "date": "Jul 16 2019",
-      "years": [
-        "2019"
-      ]
-    },
+    "category": "trekking",
+    "date": "Jul 16 -  25, 2019",
     "description": [
-      "In the Dolomites of Northern Italy there are a series of seven trails collectively known as the Alta Via routes. This is a thru-hike of one of those trails: the Alta Via 1 (the most classic of the collection). Winding its way over 65 miles from North to South, this high route reached a maximum altitude of 9,129 feet and took 10 days to complete, while passing through a panorama of jagged ridges, vertical walls, and majestic towers, culminating in some of the most beautiful landscapes in the world."
+      "The Dolomites of Northern Italy contain a series of seven trails collectively known as the Alta Via routes. This is a thru-hike of one of those trails: the Alta Via 1 (the most classic of the collection). Winding its way over 65 miles from North to South, this high route reached a maximum altitude of 9,129 feet and took 10 days to complete, while passing through a panorama of jagged ridges, vertical walls, and majestic towers, culminating in some of the most beautiful landscapes in the world."
     ],
     "gear": {
       "categories": [
@@ -63493,7 +63439,7 @@ const data = [
     "hasGear": true,
     "hasStats": true,
     "label": "day",
-    "location": "Dolomites of Northern Italy",
+    "location": "The Dolomites",
     "slug": "alta-via-1",
     "stages": [
       {
@@ -72022,22 +71968,18 @@ const data = [
     "title": [
       "Alta Via 1"
     ],
-    "type": "trekking"
+    "type": "thru-hike"
   },
   {
-    "date": {
-      "date": "Nov 6 2019",
-      "years": [
-        "2019"
-      ]
-    },
+    "category": "destinations",
+    "date": "Nov 6 -  8, 2019",
     "description": [
       "After completing the Annapurna Circuit and Basecamp treks I returned to the outdoor adventurist capital of Nepal: Pokhara. Here I explord the city for a few days, including going paragliding for the first time."
     ],
     "gear": {},
     "hasGear": false,
     "hasStats": false,
-    "label": "",
+    "label": "destination",
     "location": "Nepal",
     "slug": "pokhara",
     "stages": [
@@ -72145,15 +72087,11 @@ const data = [
     "title": [
       "Pokhara"
     ],
-    "type": "destinations"
+    "type": "vacation"
   },
   {
-    "date": {
-      "date": "Sep 2 2018",
-      "years": [
-        "2018"
-      ]
-    },
+    "category": "trekking",
+    "date": "Sep 2 -  13, 2018",
     "description": [
       "Encircling the Mont Blanc mountain in the Alps, the tour of this peak is a classic long-distance hike covering a distance of 106 miles while passing through France, Italy, and Switzerland. It offered a challenging experience filled with diverse landscapes, a unique blend of cultures, and stunning alpine charm across 12 days of hiking, all while sleeping in comfy mountain huts and eating warm home-cooked meals each night. The unofficially highest point on the trek, via an alternate route, was 8,998 feet.",
       "The sights from the trail, and at the mountain huts, are beautiful and well worth the 36,877 ft of total elevation gain and 36,701 ft of total elevation loss."
@@ -72756,7 +72694,7 @@ const data = [
     "hasGear": true,
     "hasStats": true,
     "label": "day",
-    "location": "French, Italian, and Swiss Alps",
+    "location": "The Alps",
     "slug": "tour-du-mont-blanc",
     "stages": [
       {
@@ -83104,15 +83042,11 @@ const data = [
       "Tour du",
       "Mont Blanc"
     ],
-    "type": "trekking"
+    "type": "thru-hike"
   },
   {
-    "date": {
-      "date": "Jun 2 2018",
-      "years": [
-        "2018"
-      ]
-    },
+    "category": "trekking",
+    "date": "Jun 2 - Jul 4, 2018",
     "description": [
       "Starting high in the Pyrenees mountains between France and Spain, and leading to the Atlantic ocean, the Camino Frances is part of a series of ancient routes that unfold across Europe called the Camino de Santiago: a network of pilgrimages leading to the city of Santiago de Compostela in northwestern Spain. I spent 32 days walking 534 miles over hills and mountains, across deserts, through rivers, and in thick forests.",
       "It's hard to capture 32 days worth of experiences in these snapshots, but hopefully they offer a picture of my journey on this adventure, and a glimpse into the time spent on this thru-hike."
@@ -83723,7 +83657,7 @@ const data = [
     "hasGear": true,
     "hasStats": true,
     "label": "day",
-    "location": "Northern France and Spain",
+    "location": "Northern Spain",
     "slug": "camino-frances",
     "stages": [
       {
@@ -111180,22 +111114,18 @@ const data = [
       "Camino",
       "Frances"
     ],
-    "type": "trekking"
+    "type": "thru-hike"
   },
   {
-    "date": {
-      "date": "Mar 25 2016",
-      "years": [
-        "2016"
-      ]
-    },
+    "category": "destinations",
+    "date": "Mar 25 -  27, 2016",
     "description": [
       "I first learned about backpacking/trekking while in Patagonia, walking underneath the granite spires called Torres del Paine."
     ],
     "gear": {},
     "hasGear": false,
     "hasStats": false,
-    "label": "",
+    "label": "destination",
     "location": "Chile",
     "slug": "patagonia",
     "stages": [
@@ -111311,22 +111241,18 @@ const data = [
     "title": [
       "Patagonia"
     ],
-    "type": "destinations"
+    "type": "vacation"
   },
   {
-    "date": {
-      "date": "Mar 18 2016",
-      "years": [
-        "2016"
-      ]
-    },
+    "category": "destinations",
+    "date": "Mar 18 -  24, 2016",
     "description": [
       "I returned to South America for another international adventure, this time including Lollapalooza, discovering a passion for the wilderness by hiking into the Andes mountains in search of glaciers, and heading down to Patagonia."
     ],
     "gear": {},
     "hasGear": false,
     "hasStats": false,
-    "label": "",
+    "label": "destination",
     "location": "Chile",
     "slug": "santiago-and-valparaiso",
     "stages": [
@@ -111469,22 +111395,18 @@ const data = [
       "Santiago +",
       "Valparaiso"
     ],
-    "type": "destinations"
+    "type": "vacation"
   },
   {
-    "date": {
-      "date": "Mar 23 2015",
-      "years": [
-        "2015"
-      ]
-    },
+    "category": "destinations",
+    "date": "Mar 23 -  25, 2015",
     "description": [
       "My first vacation abroad in South America continued with a quick plane ride over to Montevideo."
     ],
     "gear": {},
     "hasGear": false,
     "hasStats": false,
-    "label": "",
+    "label": "destination",
     "location": "Uruguay",
     "slug": "montevideo",
     "stages": [
@@ -111566,22 +111488,18 @@ const data = [
     "title": [
       "Montevideo"
     ],
-    "type": "destinations"
+    "type": "vacation"
   },
   {
-    "date": {
-      "date": "Mar 19 2015",
-      "years": [
-        "2015"
-      ]
-    },
+    "category": "destinations",
+    "date": "Mar 19 -  22, 2015",
     "description": [
       "I embarked on my first vacation abroad to South America, experiencing the sights and sounds of Buenos Aires and my first music festival at Lollapalooza."
     ],
     "gear": {},
     "hasGear": false,
     "hasStats": false,
-    "label": "",
+    "label": "destination",
     "location": "Argentina",
     "slug": "buenos-aires",
     "stages": [
@@ -111722,7 +111640,7 @@ const data = [
       "Buenos",
       "Aires"
     ],
-    "type": "destinations"
+    "type": "vacation"
   }
 ];
 

@@ -3,7 +3,8 @@
   "days": "8",
   "timestamp": "1582041600",
   "id": "torres-del-paine-o-circuit",
-  "type": "trekking",
+  "category": "trekking",
+  "type": "thru-hike",
   "location": "Patagonia, Chile",
   "title": "Torres del Paine O Circuit",
   "description": [

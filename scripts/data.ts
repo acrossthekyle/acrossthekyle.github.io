@@ -632,26 +632,48 @@ async function getTripStats(trip, stages) {
 
 async function getTripDate(trip, stages) {
   const start = parseDate(trip.dates[0], 'M/dd/yyyy', new Date());
-  const years = [formatDate(start, 'yyyy').trim()];
+  const year = formatDate(start, 'yyyy').trim();
 
-  let date = null;
+  let range = null;
 
   if (trip.dates.length > 1) {
-    date = `${formatDate(start, 'LLL')} ${formatDate(start, 'd')} ${years}`;
+    const end = parseDate(trip.dates[1], 'M/dd/yyyy', new Date());
+
+    const monthA = formatDate(start, 'LLL');
+    const monthB = formatDate(end, 'LLL');
+
+    const yearA = formatDate(start, 'yyyy').trim();
+    const yearB = formatDate(end, 'yyyy').trim();
+
+    const doMonthsMatch = monthA === monthB;
+    const doYearsMatch = yearA === yearB;
+
+    range = [
+      [
+        monthA,
+        ` ${formatDate(start, 'd')}`,
+        doYearsMatch ? false : `, ${yearA}`,
+      ].filter(Boolean).join(''),
+      [
+        doMonthsMatch ? false : monthB,
+        ` ${formatDate(end, 'd')}`,
+        doYearsMatch ? `, ${yearA}` : `, ${yearB}`,
+      ].filter(Boolean).join(''),
+    ];
+  } else {
+    const end = stages[stages.length - 1].date.split(',')[1].trim();
+
+    range = [
+      formatDate(start, 'yyyy').trim(),
+      formatDate(end, 'yyyy').trim(),
+    ];
   }
 
-  if (date === null) {
-    years.push(stages[stages.length - 1].date.split(',')[1].trim());
-  }
-
-  return {
-    date,
-    years,
-  };
+  return range.join(' - ');
 }
 
 function getLabel(type) {
-  if (type === 'trekking') {
+  if (type === 'trek' || type === 'thru-hike') {
     return 'day';
   }
 
@@ -659,7 +681,7 @@ function getLabel(type) {
     return 'summit';
   }
 
-  if (type === 'destination') {
+  if (type === 'vacation') {
     return 'destination';
   }
 
@@ -723,6 +745,7 @@ async function go() {
       const date = await getTripDate(trip, stages);
 
       data.push({
+        category: trip.category,
         date,
         description: formatDescription(trip, stats),
         gear: gear === null ? {} : gear,

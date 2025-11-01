@@ -3,7 +3,8 @@
   "days": "3",
   "timestamp": "1427095973",
   "id": "montevideo",
-  "type": "destinations",
+  "category": "destinations",
+  "type": "vacation",
   "location": "Uruguay",
   "title": "Montevideo",
   "description": [

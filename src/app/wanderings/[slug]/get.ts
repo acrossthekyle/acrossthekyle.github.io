@@ -10,6 +10,8 @@ export default function get(slug: string): Post | null {
   }
 
   return {
+    category: data.category,
+    date: data.date,
     description: data.description,
     label: data.label,
     location: data.location,

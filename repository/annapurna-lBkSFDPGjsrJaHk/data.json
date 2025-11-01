@@ -3,11 +3,12 @@
   "days": "18",
   "timestamp": "1571465700",
   "id": "annapurna-circuit-basecamp",
-  "type": "trekking",
-  "location": "Himalayas of Nepal",
+  "category": "trekking",
+  "type": "thru-hike",
+  "location": "Nepal",
   "title": "Annapurna Circuit + Basecamp",
   "description": [
-    "Ranging from tropical forests and waterfalls along paddy fields to the frozen arctic region of the Tibetan plateau at %max%, the Annapurna Circuit spanned %days% while winding its way around one of the eight tallest peaks in the world in the %location% for %distance%.",
+    "Ranging from tropical forests and waterfalls along paddy fields to the frozen arctic region of the Tibetan plateau at %max%, the Annapurna Circuit spanned %days% while winding its way around one of the eight tallest peaks in the world in the Himalayas of %location% for %distance%.",
     "The sheer amount of total elevation gain and loss (%gain% and %loss%, respectfully), changing biomes, and nearly succumbing to hypothermia, led to this being one of my toughest treks."
   ]
 }

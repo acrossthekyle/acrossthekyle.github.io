@@ -24,6 +24,7 @@ const styles = {
     `}
 
     group-hover/figure:scale-102
+    group-hover/figure:!grayscale-0
   `),
 };
 

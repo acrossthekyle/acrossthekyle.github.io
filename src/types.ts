@@ -61,6 +61,8 @@ export type Stage = {
 };
 
 export type Post = {
+  category: string;
+  date: string;
   description: string[];
   label: string;
   location: string;

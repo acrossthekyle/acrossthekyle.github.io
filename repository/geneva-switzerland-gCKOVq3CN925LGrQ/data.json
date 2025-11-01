@@ -3,7 +3,8 @@
   "days": "2",
   "timestamp": "1721772000",
   "id": "geneva",
-  "type": "destinations",
+  "category": "destinations",
+  "type": "vacation",
   "location": "Switzerland",
   "title": "Geneva",
   "description": [

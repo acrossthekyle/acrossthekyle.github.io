@@ -3,7 +3,8 @@
   "days": "13",
   "timestamp": "1687332000",
   "id": "gr-20",
-  "type": "trekking",
+  "category": "trekking",
+  "type": "thru-hike",
   "location": "Corsica, France",
   "title": "GR 20",
   "description": [

@@ -3,7 +3,8 @@
   "days": "2",
   "timestamp": "1760859600",
   "id": "yellow-river-trail-backpack-loop",
-  "type": "trekking",
+  "category": "trekking",
+  "type": "trek",
   "location": "Harpers Ferry, Iowa",
   "title": "Yellow River Trail",
   "description": [

@@ -1,5 +1,7 @@
 'use client';
 
+import { GalleryVertical, Info } from 'lucide-react';
+
 import { useModel } from './model';
 import styles from './stylesheet';
 
@@ -13,24 +15,20 @@ export default function Shortcuts() {
     <>
       <div aria-hidden="true" className={styles.anchor} id="anchor" />
       <button
-        className={styles.images}
+        className={styles.top}
         onClick={handleOnScrollToTop}
         title="Jump to Images"
         type="button"
       >
-        <span className={styles.image} />
-        <span className={styles.image} />
-        <span className={styles.image} />
+        <GalleryVertical className={styles.icon} />
       </button>
       <button
-        className={styles.overview}
+        className={styles.bottom}
         onClick={handleOnScrollToOverview}
         title="Jump to Overview"
         type="button"
       >
-        <span className={styles.text} />
-        <span className={styles.text} />
-        <span className={styles.text} />
+        <Info className={styles.icon} />
       </button>
     </>
   );

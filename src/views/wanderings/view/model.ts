@@ -4,11 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 
 import { useHierarchy } from '@/hooks/useHierarchy';
 
-type Model = {
-  ref?: React.RefObject<HTMLAnchorElement | null>;
-};
-
-export function useModel(): Model {
+export function useModel() {
   const [hasScrolled, setHasScrolled] = useState(false);
 
   const ref = useRef<HTMLAnchorElement | null>(null);
@@ -34,6 +30,7 @@ export function useModel(): Model {
   }, [ref?.current, isOnChild]);
 
   return {
+    isOnChild,
     ref: hasScrolled ? undefined : ref,
   };
 }

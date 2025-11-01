@@ -11,6 +11,15 @@ const styles = tw({
     capitalize
     font-black
   `,
+  view: `
+    w-26
+    py-2
+    mt-3.5
+    border-1
+    rounded-full
+    text-xs text-center
+    uppercase
+  `,
 });
 
 export default styles;

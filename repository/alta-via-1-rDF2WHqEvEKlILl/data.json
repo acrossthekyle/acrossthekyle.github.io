@@ -3,10 +3,11 @@
   "days": "10",
   "timestamp": "1563261600",
   "id": "alta-via-1",
-  "type": "trekking",
-  "location": "Dolomites of Northern Italy",
+  "category": "trekking",
+  "type": "thru-hike",
+  "location": "The Dolomites",
   "title": "Alta Via 1",
   "description": [
-    "In the %location% there are a series of seven trails collectively known as the Alta Via routes. This is a thru-hike of one of those trails: the Alta Via 1 (the most classic of the collection). Winding its way over %distance% from North to South, this high route reached a maximum altitude of %max% and took %days% to complete, while passing through a panorama of jagged ridges, vertical walls, and majestic towers, culminating in some of the most beautiful landscapes in the world."
+    "%location% of Northern Italy contain a series of seven trails collectively known as the Alta Via routes. This is a thru-hike of one of those trails: the Alta Via 1 (the most classic of the collection). Winding its way over %distance% from North to South, this high route reached a maximum altitude of %max% and took %days% to complete, while passing through a panorama of jagged ridges, vertical walls, and majestic towers, culminating in some of the most beautiful landscapes in the world."
   ]
 }

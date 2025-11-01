@@ -3,7 +3,8 @@
   "days": "3",
   "timestamp": "1458891173",
   "id": "patagonia",
-  "type": "destinations",
+  "category": "destinations",
+  "type": "vacation",
   "location": "Chile",
   "title": "Patagonia",
   "description": [

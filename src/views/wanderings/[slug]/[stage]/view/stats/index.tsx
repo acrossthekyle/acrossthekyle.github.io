@@ -57,6 +57,9 @@ export default function Stats({ stats }: Props) {
           <p>{section.value}</p>
         </li>
       ))}
+      <li className={styles.item}>
+        <button className={styles.view} type="button">View GPX</button>
+      </li>
     </ul>
   );
 }

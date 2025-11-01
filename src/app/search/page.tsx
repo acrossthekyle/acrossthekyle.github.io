@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   const data = db.map(({ date, location, slug, title, type }) => ({
-    date: date.date,
+    date,
     location,
     slug,
     title,

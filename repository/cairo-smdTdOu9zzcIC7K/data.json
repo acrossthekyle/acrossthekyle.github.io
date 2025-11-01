@@ -3,7 +3,8 @@
   "days": "5",
   "timestamp": "1672304400",
   "id": "cairo",
-  "type": "destinations",
+  "category": "destinations",
+  "type": "vacation",
   "location": "Egypt",
   "title": "Cairo",
   "description": [

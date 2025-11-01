@@ -48,6 +48,8 @@ const styles = tw({
     return tw(`
       ${root}
 
+      relative
+
       text-5xl/9.25
       font-extrablack font-stretch-extra-condensed
       tracking-tight

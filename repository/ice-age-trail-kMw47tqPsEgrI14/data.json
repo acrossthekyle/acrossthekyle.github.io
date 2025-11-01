@@ -3,7 +3,8 @@
   "days": "4",
   "id": "ice-age-trail-section-hike",
   "timestamp": "1657904400",
-  "type": "trekking",
+  "category": "trekking",
+  "type": "trek",
   "location": "Wisconsin",
   "title": "Ice Age Trail",
   "description": [

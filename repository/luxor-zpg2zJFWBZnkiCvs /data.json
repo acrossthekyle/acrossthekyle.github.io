@@ -3,7 +3,8 @@
   "days": "4",
   "timestamp": "1672734773",
   "id": "luxor",
-  "type": "destinations",
+  "category": "destinations",
+  "type": "vacation",
   "location": "Egypt",
   "title": "Luxor",
   "description": [

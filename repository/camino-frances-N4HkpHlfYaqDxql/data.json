@@ -3,8 +3,9 @@
   "days": "32",
   "timestamp": "1527933600",
   "id": "camino-frances",
-  "type": "trekking",
-  "location": "Northern France and Spain",
+  "category": "trekking",
+  "type": "thru-hike",
+  "location": "Northern Spain",
   "title": "Camino Frances",
   "description": [
     "Starting high in the Pyrenees mountains between France and Spain, and leading to the Atlantic ocean, the Camino Frances is part of a series of ancient routes that unfold across Europe called the Camino de Santiago: a network of pilgrimages leading to the city of Santiago de Compostela in northwestern Spain. I spent %days% walking %distance% over hills and mountains, across deserts, through rivers, and in thick forests.",
