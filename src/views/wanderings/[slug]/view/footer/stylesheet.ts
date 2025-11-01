@@ -3,7 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   footer: `
     flex justify-end
-    mt-4
+    mt-8
 
     base:hidden
   `,

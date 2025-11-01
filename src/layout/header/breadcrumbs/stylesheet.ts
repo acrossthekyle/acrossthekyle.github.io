@@ -9,6 +9,10 @@ const styles = tw({
 
     base:hidden
   `,
+  slash: `
+    inline
+    mx-2
+  `,
 });
 
 export default styles;

@@ -35,7 +35,9 @@ const styles = tw({
       ${common}
 
       w-full
+      mt-12
 
+      base:mt-0
       base:pt-6
       base:pl-12
       deka:pr-12

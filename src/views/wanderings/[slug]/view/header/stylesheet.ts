@@ -4,17 +4,27 @@ const styles = tw({
   header: `
     block
     text-5xl/9.25
-    font-black font-stretch-extra-condensed
+    font-extrablack font-stretch-extra-condensed
     tracking-tight
     uppercase
     opacity-0
     animate-elastic-in-from-right
-    mb-6
+    mt-12 mb-6
 
-    center:text-7xl/13.75
-    center:font-stretch-semi-condensed
+    nano:text-6xl/11.5
+    milli:text-7xl/13.75
+    centi:font-stretch-semi-condensed
     deci:text-8xl/18.5
     base:hidden
+  `,
+  line: `
+    block
+  `,
+  location: `
+    block
+    text-lg
+    font-light font-stretch-semi-condensed
+    tracking-normal
   `,
 });
 

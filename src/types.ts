@@ -63,6 +63,7 @@ export type Stage = {
 export type Post = {
   description: string[];
   label: string;
+  location: string;
   slug: string;
   stages: Stage[];
   title: string[];

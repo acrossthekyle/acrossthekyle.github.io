@@ -9,12 +9,13 @@ const styles = tw({
     uppercase
     opacity-0
     animate-elastic-in-from-right
-    mb-6
+    mt-6 mb-6
 
     pico:text-6xl/11.5
     milli:text-7xl/13.75
     milli:font-stretch-semi-condensed
     deci:text-8xl/18.5
+    base:mt-0
     base:hidden
   `,
   time: `

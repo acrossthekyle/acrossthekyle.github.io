@@ -18,10 +18,12 @@ export default function Breadcrumbs() {
 
   return (
     <span className={styles.container}>
-      / <Link href="/">Home</Link>
+      <span className={styles.slash}>/</span>
+      <Link href="/">Home</Link>
       {isOnChild && (
         <>
-          {' '}/ <Link href={match.base}>{match.text}</Link>
+          <span className={styles.slash}>/</span>
+          <Link href={match.base}>{match.text}</Link>
         </>
       )}
     </span>

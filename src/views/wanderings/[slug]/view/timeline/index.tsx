@@ -45,7 +45,7 @@ export default function Timeline({ slug, stages }: Props) {
                 </ImageCaptionEyebrow>
                 <ImageCaptionText>
                   {stage.termini.end.map((word) => (
-                    <span className="block" key={word}>
+                    <span className={styles.line} key={word}>
                       {word}
                     </span>
                   ))}

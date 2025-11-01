@@ -11,9 +11,8 @@ export default function get(slug: string): Post | null {
 
   return {
     description: data.description,
-    // hasGear: data.hasGear,
-    // gear: data.gear,
     label: data.label,
+    location: data.location,
     slug,
     stages: data.stages.map(({ date, description, hasStats, image, readingTime, termini }, index) => ({
       date,

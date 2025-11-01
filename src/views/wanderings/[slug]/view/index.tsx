@@ -22,7 +22,7 @@ export default function View({ data }: Props) {
   if (data === null) {
     return (
       <Article className={styles.article(false)}>
-        <Header title={['404 Not Found']} />
+        <Header location="" title={['404 Not Found']} />
         <Overview description={['Sorry, this does not exist.']} />
       </Article>
     );
@@ -31,7 +31,7 @@ export default function View({ data }: Props) {
   return (
     <Article className={styles.article(isOnGrandChild)}>
       <Shortcuts />
-      <Header title={data.title} />
+      <Header location={data.location} title={data.title} />
       <div className={styles.section}>
         {data.type === 'destinations' ? (
           <Gallery stages={data.stages} />

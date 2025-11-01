@@ -52,13 +52,13 @@ const styles = tw({
       font-extrablack font-stretch-extra-condensed
       tracking-tight
 
-      centi:text-7xl/13.75
-      centi:font-stretch-semi-condensed
+      nano:text-6xl/11.5
+      milli:text-7xl/13.75
       deci:text-8xl/18.5
       base:text-7xl/14
       base:font-stretch-normal
       base:tracking-tight
-      hecto:text-8xl/18.5
+      kilo:text-8xl/18.5
       tera:text-9xl/24.75
 
       hover:font-extralight

@@ -25,6 +25,7 @@ const styles = tw({
   icon: `
     w-8
     stroke-2
+    stroke-white/90
   `,
   image: `
     rounded-sm

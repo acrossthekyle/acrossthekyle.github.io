@@ -22,8 +22,9 @@ const styles = tw({
         font-extrablack font-stretch-extra-condensed
         tracking-tight
 
-        plank:text-5xl/9.25
-        centi:text-7xl/14
+        plank:text-5xl/9
+        nano:text-6xl/11.5
+        milli:text-7xl/13.75
         deci:text-8xl/18.5
         base:font-stretch-normal
         base:tracking-tight

@@ -3,9 +3,10 @@ import tw from '@/styles';
 const styles = tw({
   header: `
     relative z-1
-    mb-10
+    mt-12 mb-10
 
     deci:mb-16
+    base:mt-0
     kilo:mb-32
   `,
   hero: `
