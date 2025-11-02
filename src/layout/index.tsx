@@ -1,4 +1,5 @@
 import Body from './body';
+import Gpx from './gpx';
 import Header from './header';
 import Loader from './loader';
 import Main from './main';
@@ -16,6 +17,7 @@ export default function Layout({ children }: Props) {
         {children}
       </Main>
       <Zoom />
+      <Gpx />
       <Loader />
     </Body>
   );

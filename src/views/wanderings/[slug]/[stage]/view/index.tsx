@@ -52,7 +52,12 @@ export default function View({ data }: Props) {
         />
         {data.hasStats && (
           <Section>
-            <Statistics elevation={data.elevation} route={data.route} stats={data.stats} termini={data.termini} />
+            <Statistics
+              elevation={data.elevation}
+              route={data.route}
+              stats={data.stats}
+              termini={data.termini}
+            />
           </Section>
         )}
         {data.description.length > 0 && (

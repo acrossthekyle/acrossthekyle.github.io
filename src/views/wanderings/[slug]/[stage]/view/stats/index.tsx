@@ -1,14 +1,8 @@
 'use client';
 
-import { X } from 'lucide-react';
-import { useState } from 'react';
-import FocusLock from 'react-focus-lock';
-
+import { useGpx } from '@/hooks/useGpx';
 import type { Stats, Termini } from '@/types';
 
-import Gpx from './context';
-import Elevation from './elevation';
-import Route from './route';
 import styles from './stylesheet';
 
 type Props = {
@@ -24,10 +18,10 @@ type Section = {
 };
 
 export default function Stats({ elevation, route, stats, termini }: Props) {
-  const [isOpen, setIsOpen] = useState(false);
+  const { openGpx } = useGpx();
 
-  const handleGpxToggle = () => {
-    setIsOpen((previousState) => !previousState);
+  const handleOnViewGpxPress = () => {
+    openGpx(elevation, route, termini);
   };
 
   const sections: Section[] = [];
@@ -68,46 +62,22 @@ export default function Stats({ elevation, route, stats, termini }: Props) {
   }
 
   return (
-    <>
-      <ul className={styles.list}>
-        {sections.map((section: Section) => (
-          <li className={styles.item} key={section.heading}>
-            <h3 className={styles.heading}>{section.heading}</h3>
-            <p>{section.value}</p>
-          </li>
-        ))}
-        <li className={styles.item}>
-          <button
-            className={styles.view}
-            onClick={handleGpxToggle}
-            type="button"
-          >
-            View GPX
-          </button>
+    <ul className={styles.list}>
+      {sections.map((section: Section) => (
+        <li className={styles.item} key={section.heading}>
+          <h3 className={styles.heading}>{section.heading}</h3>
+          <p>{section.value}</p>
         </li>
-      </ul>
-      <div className={styles.backdrop(isOpen)} />
-      <div
-        aria-modal="true"
-        className={styles.gpx(isOpen)}
-        role="dialog"
-        tabIndex={-1}
-      >
-        <FocusLock className="h-full">
-          <button
-            className={styles.close}
-            onClick={handleGpxToggle}
-            title="Close"
-            type="button"
-          >
-            <X className={styles.icon} />
-          </button>
-          <Gpx>
-            <Route route={route} termini={termini} />
-            <Elevation elevation={elevation} />
-          </Gpx>
-        </FocusLock>
-      </div>
-    </>
+      ))}
+      <li className={styles.item}>
+        <button
+          className={styles.view}
+          onClick={handleOnViewGpxPress}
+          type="button"
+        >
+          View GPX
+        </button>
+      </li>
+    </ul>
   );
 }
