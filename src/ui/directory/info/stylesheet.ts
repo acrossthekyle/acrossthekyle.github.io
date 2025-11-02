@@ -27,7 +27,7 @@ const styles = tw({
     base:opacity-0
     base:w-52
     base:my-0
-    base:text-sm/4
+    base:text-xs/3
   `),
   first: `
     inline-block
