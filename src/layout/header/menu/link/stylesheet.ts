@@ -18,16 +18,17 @@ const styles = tw({
       return tw(`
         ${root}
 
-        text-4xl/7
-        font-extrablack font-stretch-extra-condensed
+        text-5xl/9
+        font-extrablack font-stretch-ultra-condensed
         tracking-tight
 
-        plank:text-5xl/9
-        nano:text-6xl/11.5
-        milli:text-7xl/13.75
-        deci:text-8xl/18.5
+        pico:text-6xl/11.5
+        nano:text-7xl/13.75
+        milli:text-8xl/18.5
+        deci:text-9xl/24.5
         base:font-stretch-normal
         base:tracking-tight
+        base:text-8xl/18.5
         tera:text-9xl/26
 
         hover:font-extralight

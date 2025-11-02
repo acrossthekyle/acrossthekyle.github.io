@@ -24,6 +24,28 @@ const styles = tw({
 
     hover:bg-current/10
   `,
+  backdrop: (isOpen: boolean) => tw(`
+    block
+    absolute inset-0
+    bg-black
+    cursor-default
+
+    base:hidden
+
+    ${isOpen ? (`
+      opacity-100
+      translate-x-0
+      z-9998
+
+      [transition:opacity_.5s_var(--ease-in-out),translate_0s]
+    `) : (`
+      opacity-0
+      translate-x-full
+      z-0
+
+      [transition:opacity_.5s_var(--ease-in-out),translate_0s_linear_.5s]
+    `)}
+  `),
   gpx: (isOpen: boolean) => tw(`
     flex flex-col
     fixed inset-0

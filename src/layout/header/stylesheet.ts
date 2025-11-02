@@ -14,8 +14,6 @@ const styles = tw({
 
         flex-1 flex-col items-start
         p-4 pr-0
-
-        plank:p-4
       `);
     }
 

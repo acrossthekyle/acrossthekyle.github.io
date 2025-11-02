@@ -3,8 +3,8 @@ import tw from '@/styles';
 const styles = tw({
   header: `
     block
-    text-5xl/9.25
-    font-extrablack font-stretch-extra-condensed
+    text-5xl/9
+    font-extrablack font-stretch-ultra-condensed
     tracking-tight
     uppercase
     opacity-0
@@ -22,7 +22,7 @@ const styles = tw({
   `,
   info: `
     block
-    mt-2
+    mt-1
     text-tiny/3
     font-light font-stretch-normal
     tracking-tight

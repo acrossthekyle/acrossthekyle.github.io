@@ -4,6 +4,8 @@ const styles = tw({
   block: `
     relative
     block
+
+    first-letter:text-current/80
   `,
   index: (isOnChild: boolean) => tw(`
     ml-0.75

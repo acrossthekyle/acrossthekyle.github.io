@@ -86,6 +86,7 @@ export default function Stats({ elevation, route, stats, termini }: Props) {
           </button>
         </li>
       </ul>
+      <div className={styles.backdrop(isOpen)} />
       <div
         aria-modal="true"
         className={styles.gpx(isOpen)}

@@ -57,23 +57,29 @@ const styles = tw({
   list: `
     group/list
     flex flex-col
+    pb-4
+
+    base:pb-0
   `,
   link: `
+    group/link
+    relative
     block
     uppercase
     duration-200
     overflow-hidden
-    text-5xl/9.25
-    font-black font-stretch-extra-condensed
+
+    text-5xl/9
+    font-black font-stretch-ultra-condensed
     tracking-tight
 
-    centi:text-7xl/13.75
-    centi:font-stretch-semi-condensed
-    deci:text-8xl/18.5
-    base:text-7xl/14
+    pico:text-6xl/11.5
+    nano:text-7xl/13.75
+    milli:text-8xl/18.5
+    deci:text-9xl/24.5
     base:font-stretch-normal
     base:tracking-tight
-    hecto:text-8xl/18.5
+    base:text-8xl/18.5
     tera:text-9xl/24.75
 
     hover:font-extralight
@@ -93,6 +99,47 @@ const styles = tw({
 
     base:ml-2
     mega:text-sm/3
+  `,
+  info: `
+    block
+    relative z-1
+    mt-1 mb-2 mr-4
+    text-tiny/3
+    font-light font-stretch-normal
+    tracking-tight
+    duration-200
+
+    group-hover/link:base:opacity-100
+
+    base:absolute
+    base:mb-0
+    base:mt-0
+    base:bottom-0
+    base:right-0
+    base:opacity-0
+    base:w-52
+    base:my-0
+    base:text-xs/3
+    base:text-right
+  `,
+  first: `
+    inline-block
+    mr-3
+
+    base:block
+    base:mr-0
+  `,
+  second: `
+    inline-block
+    mr-3
+
+    base:block
+    base:mr-0
+  `,
+  third: `
+    inline-block
+
+    base:block
   `,
 });
 

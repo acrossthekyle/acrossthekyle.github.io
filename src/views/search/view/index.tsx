@@ -11,7 +11,7 @@ import Close from './close'
 import styles from './stylesheet';
 
 type Data = {
-  date: string | null;
+  date: string;
   location: string;
   slug: string;
   title: string[];
@@ -102,6 +102,11 @@ export default function View({ data }: Props) {
                         )}
                       </span>
                     ))}
+                    <span className={styles.info}>
+                      <span className={styles.first}>{result.type}</span>
+                      <span className={styles.second}>{result.location}</span>
+                      <span className={styles.third}>{result.date}</span>
+                    </span>
                   </Link>
                 </li>
               ))}
