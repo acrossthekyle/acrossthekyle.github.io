@@ -3,6 +3,7 @@
 import Fuse from 'fuse.js';
 import Link from 'next/link';
 import { ChangeEvent, KeyboardEvent, useEffect, useRef, useState } from 'react';
+import FocusLock from 'react-focus-lock';
 
 import { padIndex } from '@/utils';
 
@@ -66,41 +67,48 @@ export default function View({ data }: Props) {
   };
 
   return (
-    <dialog className={styles.container} open>
-      <Close />
-      <input
-        autoComplete="off"
-        className={styles.field}
-        onChange={handleOnSearch}
-        onKeyUp={handleOnKeyUp}
-        placeholder="Search"
-        ref={inputRef}
-        type="text"
-        value={query}
-      />
-      {results.length > 0 && (
-        <section className={styles.results}>
-          <h2 className={styles.heading}>{results.length} results</h2>
-          <ul className={styles.list}>
-            {results.map((result, index) => (
-              <li key={result.slug}>
-                <Link className={styles.link} href={`/wanderings/${result.slug}`}>
-                  {result.title.map((words, iteration) => (
-                    <span className={styles.line} key={iteration}>
-                      {words}
-                      {iteration === (result.title.length - 1) && (
-                        <span className={styles.index}>
-                          {padIndex(index + 1)}
-                        </span>
-                      )}
-                    </span>
-                  ))}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
-    </dialog>
+    <div
+      aria-modal="true"
+      className={styles.container}
+      role="dialog"
+      tabIndex={-1}
+    >
+      <FocusLock className="h-full w-full">
+        <Close />
+        <input
+          autoComplete="off"
+          className={styles.field}
+          onChange={handleOnSearch}
+          onKeyUp={handleOnKeyUp}
+          placeholder="Search"
+          ref={inputRef}
+          type="text"
+          value={query}
+        />
+        {results.length > 0 && (
+          <section className={styles.results}>
+            <h2 className={styles.heading}>{results.length} results</h2>
+            <ul className={styles.list}>
+              {results.map((result, index) => (
+                <li key={result.slug}>
+                  <Link className={styles.link} href={`/wanderings/${result.slug}`}>
+                    {result.title.map((words, iteration) => (
+                      <span className={styles.line} key={iteration}>
+                        {words}
+                        {iteration === (result.title.length - 1) && (
+                          <span className={styles.index}>
+                            {padIndex(index + 1)}
+                          </span>
+                        )}
+                      </span>
+                    ))}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+      </FocusLock>
+    </div>
   );
 }

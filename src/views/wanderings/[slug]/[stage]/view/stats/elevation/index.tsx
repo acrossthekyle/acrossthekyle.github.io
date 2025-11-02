@@ -50,20 +50,21 @@ export default function Elevation({ elevation }: Props) {
           dataLabels: {
             enabled: false,
           },
-          colors: ['#ffffffaa'],
+          fill: {
+            type: 'solid',
+            colors: ['#ffffff1b'],
+          },
           stroke: {
+            colors: ['#ffffffaa'],
             curve: 'smooth',
             width: 3,
           },
           grid: {
-            show: true,
-            borderColor: '#ffffff1a',
-            strokeDashArray: 6,
+            show: false,
+            borderColor: 'transparent',
             padding: {
-              top: 0,
-              right: 26,
-              bottom: 0,
-              left: 30,
+              right: 18,
+              left: 20,
             },
           },
           xaxis: {
@@ -93,10 +94,10 @@ export default function Elevation({ elevation }: Props) {
               show: false,
             },
             axisTicks: {
-              show: true,
+              show: false,
             },
             labels: {
-              offsetX: 8,
+              offsetX: 0,
               align: 'left',
               style: {
                 colors: '#ffffffdb',
@@ -129,7 +130,7 @@ export default function Elevation({ elevation }: Props) {
             data: elevation.map((value) => Number(value)),
           },
         ]}
-        type="line"
+        type="area"
         height="100%"
       />
     </div>

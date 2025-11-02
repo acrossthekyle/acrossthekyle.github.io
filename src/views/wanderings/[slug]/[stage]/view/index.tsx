@@ -2,13 +2,10 @@
 
 import { Article } from '@/ui/article';
 
-// import Gpx from './context';
 import Description from './description';
-// import Elevation from './elevation';
 import Footer from './footer';
 import Header from './header';
 import { useModel } from './model';
-// import Route from './route';
 import Section from './section';
 import Statistics from './stats';
 import styles from './stylesheet';
@@ -20,11 +17,15 @@ type Props = {
 };
 
 export default function View({ data }: Props) {
-  useModel(data);
+  useModel();
 
   if (data === null) {
     return (
-      <dialog className={styles.container} id="dialog" open>
+      <div
+        aria-modal="true"
+        className={styles.container}
+        role="dialog"
+      >
         <Toggle />
         <Article className={styles.article}>
           <Header
@@ -32,12 +33,17 @@ export default function View({ data }: Props) {
             title="Not Found"
           />
         </Article>
-      </dialog>
+      </div>
     );
   }
 
   return (
-    <dialog className={styles.container} id="dialog" open>
+    <div
+      aria-modal="true"
+      className={styles.container}
+      id="dialog"
+      role="dialog"
+    >
       <Toggle />
       <Article className={styles.article}>
         <Header
@@ -46,7 +52,7 @@ export default function View({ data }: Props) {
         />
         {data.hasStats && (
           <Section>
-            <Statistics stats={data.stats} />
+            <Statistics elevation={data.elevation} route={data.route} stats={data.stats} termini={data.termini} />
           </Section>
         )}
         {data.description.length > 0 && (
@@ -54,20 +60,10 @@ export default function View({ data }: Props) {
             <Description description={data.description} />
           </Section>
         )}
-        {/*{data.hasRoute && data.hasElevation && (
-          <Gpx>
-            <Section heading="Route">
-              <Route route={data.route} termini={data.termini} />
-            </Section>
-            <Section heading="Elevation">
-              <Elevation elevation={data.elevation} />
-            </Section>
-          </Gpx>
-        )}*/}
         {data.description.length > 0 && (
           <Footer />
         )}
       </Article>
-    </dialog>
+    </div>
   );
 }

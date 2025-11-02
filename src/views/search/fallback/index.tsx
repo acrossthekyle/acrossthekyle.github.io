@@ -4,8 +4,13 @@ import styles from './stylesheet';
 
 export default function Fallback() {
   return (
-    <dialog className={styles.container} open>
+    <div
+      aria-modal="true"
+      className={styles.container}
+      role="dialog"
+      tabIndex={-1}
+    >
       <Loading />
-    </dialog>
+    </div>
   );
 }

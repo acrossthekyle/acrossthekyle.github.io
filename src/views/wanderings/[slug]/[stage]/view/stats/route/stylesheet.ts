@@ -2,13 +2,8 @@ import tw from '@/styles';
 
 const styles = tw({
   section: `
-    h-50 w-full
-    mb-2
-    border-1 border-white/12.5
-    rounded-sm
+    h-[calc(100%-13rem)] w-full
     overflow-hidden
-
-    base:h-75
   `,
   map: `
     relative

@@ -5,11 +5,8 @@ const styles = tw({
     relative
     h-full w-full
     pt-8
-    bg-white dark:bg-black
-    text-current/90
     overflow-y-scroll
     overscroll-contain
-    outline-0
     opacity-0
     animate-in-fade
 
