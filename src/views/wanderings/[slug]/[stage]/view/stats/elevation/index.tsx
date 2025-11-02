@@ -63,6 +63,8 @@ export default function Elevation({ elevation }: Props) {
             show: false,
             borderColor: 'transparent',
             padding: {
+              top: 0,
+              bottom: 0,
               right: 18,
               left: 20,
             },

@@ -11,8 +11,8 @@ const styles = tw({
     animate-elastic-in-from-right
     mt-12 mb-6
 
-    nano:text-6xl/11.5
-    milli:text-7xl/13.75
+    pico:text-6xl/11.5
+    micro:text-7xl/13.75
     centi:font-stretch-semi-condensed
     deci:text-8xl/18.5
     base:hidden
@@ -22,8 +22,8 @@ const styles = tw({
   `,
   info: `
     block
-    mt-1
-    text-sm/4
+    mt-2
+    text-tiny/3
     font-light font-stretch-normal
     tracking-tight
   `,

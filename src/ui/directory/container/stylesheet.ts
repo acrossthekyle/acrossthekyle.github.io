@@ -28,6 +28,7 @@ const styles = tw({
         hecto:w-60
         kilo:w-70
         mega:w-90
+        tera:w-150
       `);
     }
 
@@ -36,6 +37,7 @@ const styles = tw({
 
       w-full
       mt-12
+      pr-0
 
       base:mt-0
       base:pt-6

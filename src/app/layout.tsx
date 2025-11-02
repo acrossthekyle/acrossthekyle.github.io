@@ -53,7 +53,7 @@ type Props = {
 
 export default function RootLayout({ children }: Props) {
   return (
-    <html className="h-full overflow-x-hidden" lang="en">
+    <html className="h-full overflow-x-hidden" data-theme="dark" lang="en">
       <Hierarchy>
         <Load>
           <KeyboardListener />

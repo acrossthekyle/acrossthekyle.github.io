@@ -2,15 +2,14 @@
 
 import {
   Directory,
-  DirectoryHover,
   DirectoryItem,
   DirectoryLink,
   DirectoryText,
+  DirectoryTextInfo,
   DirectoryItems,
 } from '@/ui/directory';
 
 import { useModel } from './model';
-import styles from './stylesheet';
 
 type Data = {
   date: string;
@@ -34,11 +33,11 @@ export default function View({ data }: Props) {
           <DirectoryItem index={index} key={index}>
             <DirectoryLink href={`/wanderings/${item.slug}`} ref={ref}>
               <DirectoryText index={index} words={item.title} />
-              <DirectoryHover>
-                <span className={styles.type}>{item.type}</span>
-                <span className={styles.location}>{item.location}</span>
-                <span className={styles.date}>{item.date}</span>
-              </DirectoryHover>
+              <DirectoryTextInfo
+                first={item.type}
+                second={item.location}
+                third={item.date}
+              />
             </DirectoryLink>
           </DirectoryItem>
         ))}

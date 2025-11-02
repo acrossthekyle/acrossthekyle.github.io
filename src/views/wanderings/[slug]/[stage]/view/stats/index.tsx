@@ -96,9 +96,10 @@ export default function Stats({ elevation, route, stats, termini }: Props) {
           <button
             className={styles.close}
             onClick={handleGpxToggle}
+            title="Close"
             type="button"
           >
-            <X />
+            <X className={styles.icon} />
           </button>
           <Gpx>
             <Route route={route} termini={termini} />

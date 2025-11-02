@@ -9,7 +9,9 @@ type Props = {
 }
 
 export default function Layout({ children }: Props) {
-  const data = db.map(({ slug, title }) => ({
+  const data = db.map(({ date, location, slug, title }) => ({
+    date,
+    location,
     slug,
     title,
   }));

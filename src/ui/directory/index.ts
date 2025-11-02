@@ -1,5 +1,5 @@
 export { default as Directory } from './container';
-export { default as DirectoryHover } from './hover';
+export { default as DirectoryTextInfo } from './info';
 export { default as DirectoryItem } from './item';
 export { default as DirectoryItems } from './items';
 export { default as DirectoryLink } from './link';

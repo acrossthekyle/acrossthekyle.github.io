@@ -56,7 +56,7 @@ export default function View() {
             Collaboration creates community
           </Heading>
           <Paragraph>
-            I'm always open to new opportunities. If you're interested in working together, or have questions about any of the travels/hikes that I've done, you can reach out via <Link href="mailto:hello@acrossthekyle.com">email</Link>, view my <Link href="/acrossthekyle-resume.pdf" isExternal>resume</Link>, or find me online at <Link href="https://linkedin.com/in/acrossthekyle" isExternal>LinkedIn</Link> or <Link href="https://instagram.com/acrossthekyle" isExternal>Instagram</Link>.
+            I'm always open to new opportunities. If you're interested in working together, or have questions about any of the travels/hikes that I've done, you can reach out via <Link href="mailto:hello@acrossthekyle.com">email</Link>, view my <Link href="/acrossthekyle-resume.pdf" isExternal>resume</Link>, or find me online at <Link href="https://linkedin.com/in/acrossthekyle" isExternal>LinkedIn</Link> and <Link href="https://instagram.com/acrossthekyle" isExternal>Instagram</Link>.
           </Paragraph>
           <Paragraph>
             You can find the codebase for this site on{' '}

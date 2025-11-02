@@ -673,11 +673,15 @@ async function getTripDate(trip, stages) {
 }
 
 function getLabel(type) {
-  if (type === 'trek' || type === 'thru-hike') {
+  if (type === 'overnight trek' || type === 'thru-hike') {
     return 'day';
   }
 
-  if (type === 'summits') {
+  if (type === 'section hike') {
+    return 'section';
+  }
+
+  if (type === 'peak-bagging') {
     return 'summit';
   }
 

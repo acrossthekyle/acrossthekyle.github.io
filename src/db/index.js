@@ -1743,7 +1743,7 @@ const data = [
       "Yellow",
       "River Trail"
     ],
-    "type": "trek"
+    "type": "overnight trek"
   },
   {
     "category": "trekking",
@@ -24498,7 +24498,7 @@ const data = [
     },
     "hasGear": true,
     "hasStats": true,
-    "label": "day",
+    "label": "section",
     "location": "Wisconsin",
     "slug": "ice-age-trail-section-hike",
     "stages": [
@@ -27073,7 +27073,7 @@ const data = [
       "Ice Age",
       "Trail"
     ],
-    "type": "trek"
+    "type": "section hike"
   },
   {
     "category": "trekking",
@@ -55451,7 +55451,7 @@ const data = [
     },
     "hasGear": true,
     "hasStats": true,
-    "label": "",
+    "label": "summit",
     "location": "Colorado",
     "slug": "southern-rockies-peak-bagging",
     "stages": [

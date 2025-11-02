@@ -2,21 +2,19 @@ import tw from '@/styles';
 
 const styles = tw({
   footer: `
-    flex justify-end
-    mt-8
+    flex justify-start
+    mt-8 mb-4
 
     base:hidden
   `,
   up: `
-    flex items-center gap-1
     uppercase
-    text-xs
+    text-xs text-center
     font-bold
-  `,
-  icon: `
-    inline-block
-    w-3 h-3
-    stroke-4
+    py-2
+    w-30
+    border-1
+    rounded-full
   `,
 });
 

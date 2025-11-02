@@ -16,9 +16,7 @@ export default function DirectoryContainer({
   const { isOnChild } = useHierarchy();
 
   return (
-    <aside
-      className={styles.container(isOnChild, align)}
-    >
+    <aside className={styles.container(isOnChild, align)}>
       {children}
     </aside>
   );

@@ -3,7 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   header: (isOnRoot: boolean, isOnGrandChild: boolean) => {
     const common = `
-      flex items-start justify-between
+      flex justify-between
 
       deka:p-12
     `;
@@ -12,7 +12,7 @@ const styles = tw({
       return tw(`
         ${common}
 
-        flex-1 flex-col
+        flex-1 flex-col items-start
         p-4 pr-0
 
         plank:p-4
@@ -26,19 +26,21 @@ const styles = tw({
 
         base:flex
         base:flex-col
+        base:items-start
       `);
     }
 
     return tw(`
       ${common}
 
-      flex-row justify-start
+      flex-row items-center justify-start
       p-4 pb-0
 
       base:w-auto
       base:h-full
       base:relative
       base:flex-col
+      base:items-start
       base:justify-between
     `);
   },

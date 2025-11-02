@@ -9,7 +9,7 @@ const styles = tw({
     absolute bottom-0
     ml-1
     text-tiny/2
-    font-light font-stretch-condensed
+    font-light font-stretch-extra-condensed
     tracking-normal
 
     base:ml-2

@@ -46,8 +46,18 @@ const styles = tw({
     `)}
   `),
   close: `
-    absolute top-4 right-4 z-9999
+    fixed top-1 left-1 z-9999
+    p-2
     text-white/90
+
+    base:right-0
+    base:left-auto
+    deka:top-9
+    deka:right-7
+  `,
+  icon: `
+    w-7 h-7
+    stroke-1
   `,
 });
 

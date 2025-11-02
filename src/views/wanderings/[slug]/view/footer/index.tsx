@@ -1,7 +1,5 @@
 'use client';
 
-import { ArrowUp } from 'lucide-react';
-
 import styles from './stylesheet';
 
 export default function Footer() {
@@ -16,7 +14,7 @@ export default function Footer() {
         onClick={handleOnScrollToTop}
         type="button"
       >
-        Back to top <ArrowUp className={styles.icon} />
+        Back to top
       </button>
     </footer>
   );
