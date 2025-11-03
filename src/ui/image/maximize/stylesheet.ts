@@ -9,15 +9,22 @@ const styles = tw({
   `,
   maximize: `
     hidden
-    absolute bottom-5.25 right-5.5 z-3
-    p-2
-    font-extrablack
-    text-sm
+    absolute bottom-8 right-7 z-3
+    py-1
+    w-20
+    border-1
+    rounded-full
+    font-black
+    text-tiny text-center
     uppercase
     duration-300
+    !cursor-zoom-in
 
-    hover:font-semibold
-    hover:text-current/90
+    giga:text-xs
+    giga:py-2
+    giga:w-24
+
+    hover:bg-current/10
 
     hecto:portrait:hidden
     hecto:landscape:block

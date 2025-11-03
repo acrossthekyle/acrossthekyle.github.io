@@ -28,6 +28,7 @@ export default function Timeline({ slug, stages }: Props) {
           <ImageFigure>
             <Image
               alt={stage.termini.end.join(' ')}
+              className={styles.image(index)}
               height={1080}
               sizes="(max-width: 768px) 100vw, 50vw"
               src={stage.image}

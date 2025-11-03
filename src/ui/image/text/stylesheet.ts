@@ -10,7 +10,7 @@ const styles = tw({
     tracking-tighter
     uppercase
 
-    pico:text-3xl/6
+    mega:text-3xl/6
     giga:text-4xl/7
 
     group-hover/figure:font-bold
