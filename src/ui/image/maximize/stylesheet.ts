@@ -9,7 +9,7 @@ const styles = tw({
   `,
   maximize: `
     hidden
-    absolute bottom-8 right-7 z-3
+    absolute bottom-8 left-7 z-3
     py-1
     w-20
     border-1
@@ -20,14 +20,14 @@ const styles = tw({
     duration-300
     !cursor-zoom-in
 
+    baseplus:right-7
+    baseplus:left-auto
     giga:text-xs
-    giga:py-2
-    giga:w-24
+    giga:py-1
+    giga:w-21
 
     hover:bg-current/10
-
-    hecto:portrait:hidden
-    hecto:landscape:block
+    base:block
   `,
   icon: `
     w-8

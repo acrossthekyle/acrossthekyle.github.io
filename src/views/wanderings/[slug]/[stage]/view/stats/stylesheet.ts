@@ -12,17 +12,21 @@ const styles = tw({
     font-black
   `,
   view: `
-    w-26
-    py-2
-    mt-3.5
+    mt-5.5
+    uppercase
+    text-tiny text-center
+    font-bold
+    py-0.5
+    w-18
     border-1
     rounded-full
-    font-black
-    text-xs text-center
-    uppercase
     duration-300
 
     hover:bg-current/10
+
+    base:w-21
+    base:text-xs
+    base:py-1
   `,
 });
 

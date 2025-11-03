@@ -7,12 +7,19 @@ const styles = tw({
   `,
   up: `
     uppercase
-    text-xs text-center
+    text-tiny text-center
     font-bold
-    py-2
-    w-30
+    py-0.5
+    w-23
     border-1
     rounded-full
+    duration-300
+
+    hover:bg-current/10
+
+    base:w-26
+    base:text-xs
+    base:py-1
   `,
 });
 

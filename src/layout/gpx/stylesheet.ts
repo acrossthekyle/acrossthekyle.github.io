@@ -2,7 +2,8 @@ import tw from '@/styles';
 
 const styles = tw({
   backdrop: (isOpen: boolean) => tw(`
-    fixed inset-0
+    h-[calc(100%+14rem)]
+    absolute inset-0
     bg-black
     cursor-default
 
@@ -14,7 +15,7 @@ const styles = tw({
       [transition:opacity_.5s_var(--ease-in-out),translate_0s]
     `) : (`
       opacity-0
-      translate-x-full
+      -translate-x-full
       z-0
 
       [transition:opacity_.5s_var(--ease-in-out),translate_0s_linear_.5s]

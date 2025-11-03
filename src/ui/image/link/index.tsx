@@ -19,6 +19,7 @@ export default function Link({ children, href, label, title }: Props) {
   return (
     <NextJsLink aria-label={label} className={styles.link} href={href} title={title}>
       {children}
+      <span className={styles.hint}>Details</span>
     </NextJsLink>
   );
 }

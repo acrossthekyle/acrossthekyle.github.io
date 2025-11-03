@@ -18,11 +18,14 @@ const styles = tw({
   image: (index: number) => {
     switch (index % 3) {
       case 0:
-        return '!aspect-square base:!aspect-16/9'; // Indices 0, 3, 6
+        // Indices 0, 3, 6
+        return '!aspect-4/5 base:!aspect-16/9';
       case 1:
-        return '!aspect-3/2 base:!aspect-16/9'; // Indices 1, 4, 7
+        // Indices 1, 4, 7
+        return '!aspect-9/8 base:!aspect-16/9';
       default:
-        return '!aspect-2/3 base:!aspect-16/9'; // Indices 2, 5, 8
+        // Indices 2, 5, 8
+        return '!aspect-square base:!aspect-16/9';
     }
   },
 });

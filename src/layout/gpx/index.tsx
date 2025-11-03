@@ -22,7 +22,7 @@ export default function Gpx() {
         role="dialog"
         tabIndex={-1}
       >
-        <FocusLock className="h-full">
+        <FocusLock className="h-full" disabled={!isOpen}>
           <button
             className={styles.close}
             onClick={closeGpx}
