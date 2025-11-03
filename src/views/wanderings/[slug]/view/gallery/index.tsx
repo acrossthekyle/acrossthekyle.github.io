@@ -20,6 +20,7 @@ export default function Gallery({ stages }: Props) {
         <ImageFigure key={stage.index}>
           <Image
             alt=""
+            className={styles.image(stage.index)}
             height={1080}
             sizes="(max-width: 768px) 100vw, 50vw"
             src={stage.image}

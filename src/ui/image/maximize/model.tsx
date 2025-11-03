@@ -1,5 +1,6 @@
 'use client';
 
+import { X } from 'lucide-react';
 import Image from 'next/image';
 import { useContext, useRef } from 'react';
 
@@ -38,23 +39,24 @@ export function useModel(): Model {
 
     zoom({
       content: (
-        <button
-          className={styles.minimize}
-          onClick={handleOnMinimize}
-          title="Minimize"
-          type="button"
-        >
-          <div className="w-full h-full">
-            <Image
-              alt=""
-              className={styles.image}
-              height={1080}
-              sizes="(max-width: 768px) 100vw, 50vw"
-              src={src}
-              width={1920}
-            />
-          </div>
-        </button>
+        <div className={styles.minimize}>
+          <button
+            className={styles.close}
+            onClick={handleOnMinimize}
+            title="Close"
+            type="button"
+          >
+            <X className={styles.icon} />
+          </button>
+          <Image
+            alt=""
+            className={styles.image}
+            height={1080}
+            sizes="(max-width: 768px) 100vw, 50vw"
+            src={src}
+            width={1920}
+          />
+        </div>
       ),
       isLandscapeOrientation,
       ref: zoomRef,

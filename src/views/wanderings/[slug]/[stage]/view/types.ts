@@ -16,5 +16,5 @@ export type Data = {
   stage: string;
   stats: Stats;
   termini: Termini;
-  title: string;
+  title: string[];
 };

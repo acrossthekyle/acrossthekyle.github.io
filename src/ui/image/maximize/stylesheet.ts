@@ -18,7 +18,6 @@ const styles = tw({
     text-tiny text-center
     uppercase
     duration-300
-    !cursor-zoom-in
 
     baseplus:right-7
     baseplus:left-auto
@@ -26,13 +25,8 @@ const styles = tw({
     giga:py-1
     giga:w-21
 
-    hover:bg-current/10
+    hover:bg-current/25
     base:block
-  `,
-  icon: `
-    w-8
-    stroke-2
-    stroke-white/90
   `,
   image: `
     rounded-sm
@@ -48,7 +42,17 @@ const styles = tw({
     relative z-3
     flex items-center justify-center
     w-full h-full
-    !cursor-zoom-out
+  `,
+  close: `
+    absolute top-1 right-1 z-1
+    p-2
+
+    deka:top-7
+    deka:right-7
+  `,
+  icon: `
+    w-8 h-8
+    stroke-1
   `,
 });
 

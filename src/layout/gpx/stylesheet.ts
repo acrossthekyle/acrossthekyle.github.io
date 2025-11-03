@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   backdrop: (isOpen: boolean) => tw(`
-    h-[calc(100%+14rem)]
+    h-full
     absolute inset-0
     bg-black
     cursor-default
@@ -27,6 +27,7 @@ const styles = tw({
     w-full h-full
     bg-black
     duration-250
+    overflow-contain
 
     ${isOpen ? (`
       opacity-100
@@ -43,18 +44,19 @@ const styles = tw({
     `)}
   `),
   close: `
-    fixed top-1 left-1 z-9999
+    fixed top-2 right-1 z-9999
     p-2
     text-white/90
 
     base:right-0
-    base:left-auto
     deka:top-9
     deka:right-7
   `,
   icon: `
-    w-7 h-7
-    stroke-1
+    w-8 h-8
+    stroke-2
+
+    base:stroke-1
   `,
 });
 

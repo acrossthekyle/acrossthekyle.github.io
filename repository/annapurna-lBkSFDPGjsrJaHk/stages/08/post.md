@@ -1,4 +1,4 @@
-Stars filled the cloudless early morning sky as we awoke around 3am and started getting packed up for our hike up to Tilicho Lake at 15,500 feet. It was cold and hard to move so early in the morning, but we managed to make our way onto the trail with our headlamps lighting the way.
+Stars filled the cloudless pre-dawn sky as we started packing up for our hike to Tilicho Lake at 16,435 feet. It was cold and hard to move so early in the morning, but we managed to make our way onto the trail with our headlamps lighting the way.
 
 Sunrise came about an hour and a half into our hike, slowly revealing the snowy-white world around us. The first half of the trail wasn't too bad, but the second half, as we got higher and higher, forced us to stop and take more breaks. Once we got to the more flat part of the trail our speed increased and we made it to the lake about 2-3 hours after starting.
 

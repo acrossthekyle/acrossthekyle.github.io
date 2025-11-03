@@ -30,7 +30,7 @@ export default function Image({
   } = useContext(ImageContext);
 
   const { ref, inView } = useInView({
-    threshold: isInPortraitMode ? 1 : .7,
+    threshold: isInPortraitMode ? .9 : .7,
   });
 
   return (

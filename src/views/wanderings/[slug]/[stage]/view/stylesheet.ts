@@ -4,7 +4,7 @@ const styles = tw({
   container: `
     relative
     h-full w-full
-    pt-8
+    pt-12
     overflow-y-scroll
     overscroll-contain
     opacity-0
@@ -14,7 +14,7 @@ const styles = tw({
     base:pr-12
   `,
   close: `
-    absolute top-1 left-1 z-9999
+    absolute top-2 left-1 z-9999
     p-2
 
     base:right-0
@@ -24,12 +24,13 @@ const styles = tw({
     deka:right-7
   `,
   icon: `
-    w-7 h-7
-    stroke-1
+    w-8 h-8
+    stroke-2
+
+    base:stroke-1
   `,
   article: `
     flex flex-col gap-6
-    pt-8
   `,
   section: `
     flex flex-col

@@ -56,7 +56,7 @@ function getData(slug: string, stage: string) {
     stage,
     stats: result.stats,
     termini: result.termini,
-    title: result.termini.end.join(' '),
+    title: result.termini.end,
     travel: found.title.join(' '),
   };
 };

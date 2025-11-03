@@ -6,6 +6,7 @@ import { Article } from '@/ui/article';
 import Footer from './footer';
 import Gallery from './gallery';
 import Header from './header';
+import Info from './info';
 import { useModel } from './model';
 import Overview from './overview';
 import Shortcuts from './shortcuts';
@@ -30,24 +31,18 @@ export default function View({ data }: Props) {
 
   return (
     <Article className={styles.article(isOnGrandChild)}>
+      <Header title={data.title} />
       <Shortcuts />
-      <Header
-        date={data.date}
-        location={data.location}
-        title={data.title}
-        type={data.type}
-      />
-      <div className={styles.section}>
-        {data.category === 'destinations' ? (
-          <Gallery stages={data.stages} />
-        ) : (
-          <Timeline
-            slug={data.slug}
-            stages={data.stages}
-          />
-        )}
-        <Overview description={data.description} />
-      </div>
+      {data.category === 'destinations' ? (
+        <Gallery stages={data.stages} />
+      ) : (
+        <Timeline
+          slug={data.slug}
+          stages={data.stages}
+        />
+      )}
+      <Info date={data.date} location={data.location} type={data.type} />
+      <Overview description={data.description} />
       <Footer />
     </Article>
   );

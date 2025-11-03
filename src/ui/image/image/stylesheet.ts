@@ -5,13 +5,14 @@ const styles = {
     object-cover
     w-full h-full
     transform-gpu duration-700
-    rounded-sm
+    rounded-2xl
     brightness-60
     grayscale-100
 
-    landscape:aspect-3/2
+    landscape:aspect-19/9
     portrait:aspect-square
 
+    base:rounded-sm
     base:landscape:aspect-16/9
     base:portrait:aspect-16/9
 

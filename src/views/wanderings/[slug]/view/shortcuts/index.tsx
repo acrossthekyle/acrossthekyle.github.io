@@ -1,6 +1,6 @@
 'use client';
 
-import { GalleryVertical, Info } from 'lucide-react';
+import { GalleryVertical, ListMinus } from 'lucide-react';
 
 import { useModel } from './model';
 import styles from './stylesheet';
@@ -28,7 +28,8 @@ export default function Shortcuts() {
         title="Jump to Overview"
         type="button"
       >
-        <Info className={styles.icon} />
+        <ListMinus className={styles.icon} />
+        <span className={styles.text}>Learn More</span>
       </button>
     </>
   );

@@ -2,23 +2,21 @@ import tw from '@/styles';
 
 const styles = tw({
   footer: `
-    flex justify-start
+    flex justify-center
     my-4
   `,
   up: `
     uppercase
-    text-tiny text-center
+    text-xs text-center
     font-bold
-    py-0.5
-    w-23
+    py-0.75
+    w-26
     border-1
     rounded-full
     duration-300
 
     hover:bg-current/10
 
-    base:w-26
-    base:text-xs
     base:py-1
   `,
 });

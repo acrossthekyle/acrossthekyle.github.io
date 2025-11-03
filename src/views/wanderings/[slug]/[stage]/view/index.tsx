@@ -1,5 +1,6 @@
 'use client';
 
+import { useGpx } from '@/hooks/useGpx';
 import { Article } from '@/ui/article';
 
 import Description from './description';
@@ -19,6 +20,12 @@ type Props = {
 export default function View({ data }: Props) {
   useModel();
 
+  const { isOpen } = useGpx();
+
+  if (isOpen) {
+    return null;
+  }
+
   if (data === null) {
     return (
       <div
@@ -30,7 +37,7 @@ export default function View({ data }: Props) {
         <Article className={styles.article}>
           <Header
             date="404"
-            title="Not Found"
+            title={['Not Found']}
           />
         </Article>
       </div>

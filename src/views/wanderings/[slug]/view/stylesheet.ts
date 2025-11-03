@@ -9,11 +9,6 @@ const styles = tw({
       hidden
     `}
   `),
-  section: `
-    flex flex-col-reverse gap-6
-
-    base:flex-col
-  `,
 });
 
 export default styles;

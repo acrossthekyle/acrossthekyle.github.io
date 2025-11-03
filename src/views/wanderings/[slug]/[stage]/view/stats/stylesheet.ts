@@ -14,10 +14,10 @@ const styles = tw({
   view: `
     mt-5.5
     uppercase
-    text-tiny text-center
+    text-xs text-center
     font-bold
-    py-0.5
-    w-18
+    py-0.75
+    w-22
     border-1
     rounded-full
     duration-300
@@ -25,7 +25,6 @@ const styles = tw({
     hover:bg-current/10
 
     base:w-21
-    base:text-xs
     base:py-1
   `,
 });

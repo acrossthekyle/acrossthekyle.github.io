@@ -6,15 +6,15 @@ const styles = tw({
     mt-1 mb-7
     duration-300
     text-xl/4
-    font-extrablack font-stretch-semi-expanded
+    font-extrablack font-stretch-semi-condensed
     tracking-tighter
     uppercase
 
-    pico:mb-0
+    micro:mb-0
+    micro:text-3xl/6
+    base:font-stretch-semi-expanded
     base:mb-9
     baseplus:mb-0
-    pico:text-2xl/5
-    mega:text-3xl/6
     giga:text-4xl/7
 
     group-hover/figure:font-bold

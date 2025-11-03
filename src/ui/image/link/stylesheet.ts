@@ -13,16 +13,16 @@ const styles = tw({
   `,
   hint: `
     absolute left-4 bottom-4
-    py-0.5
-    w-16
+    py-0.75
+    w-28
     border-1
     rounded-full
     font-black
-    text-tiny text-center
+    text-xs text-center
     uppercase
 
-    pico:right-4
-    pico:left-auto
+    micro:right-4
+    micro:left-auto
     base:hidden
   `,
 });

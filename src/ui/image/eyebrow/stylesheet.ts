@@ -4,13 +4,14 @@ const styles = tw({
   eyebrow: `
     block
     uppercase
-    text-tiny/3
-    font-bold
+    text-tiny
+    font-semibold
     tracking-widest
     font-stretch-semi-condensed
     duration-300
 
-    micro:text-xs
+    nano:text-xs
+    base:font-bold
     deka:text-tiny
     kilo:text-xs
 

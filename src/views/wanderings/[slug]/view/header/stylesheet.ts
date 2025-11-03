@@ -9,7 +9,7 @@ const styles = tw({
     uppercase
     opacity-0
     animate-elastic-in-from-right
-    mt-12 mb-6
+    mt-12 mb-3
 
     pico:text-6xl/11.5
     micro:text-7xl/13.75
@@ -19,24 +19,6 @@ const styles = tw({
   `,
   line: `
     block
-  `,
-  info: `
-    block
-    mt-1
-    text-tiny/3
-    font-light font-stretch-normal
-    tracking-tight
-  `,
-  type: `
-    inline-block
-    mr-3
-  `,
-  location: `
-    inline-block
-    mr-3
-  `,
-  date: `
-    inline-block
   `,
 });
 

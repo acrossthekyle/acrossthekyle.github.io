@@ -11776,7 +11776,8 @@ const data = [
     "category": "trekking",
     "date": "Jun 21 - Jul 3, 2023",
     "description": [
-      "Considered to be the most difficult of all trails in Europe, the GR 20 (or French High Route) is a footpath that traverses the Mediterranean island of Corsica from north to south along its spiny mountainous backbone, reaching a maximum altitude of 8,550 feet. It demanded thousands of feet of elevation change every day, totally 44,475 ft of gain and 44,549 ft of loss. Between the northern starting point at Calenzana to the finish at Conca in the south, there were hidden mountain lakes, expansive sea views, rugged and rocky cliffs, and remarkable panoramas.",
+      "Considered to be the most difficult of all trails in Europe, the Fra Li Monti (Corsican for 'across the mountains', and also more commonly known as the GR 20) is a footpath that traverses the Mediterranean island of Corsica from north to south along its spiny mountainous backbone, reaching a maximum altitude of 8,550 feet.",
+      "It demanded thousands of feet of elevation change every day, totally 44,475 ft of gain and 44,549 ft of loss. Between the northern starting point at Calenzana to the finish at Conca in the south, there were hidden mountain lakes, expansive sea views, rugged and rocky cliffs, and remarkable panoramas.",
       "Even though I had survived hiking in the Himalayas, this was definitely the hardest thru-hike I have ever done. It took me 13 days to complete it, over a distance of 131 miles."
     ],
     "gear": {
@@ -12339,7 +12340,7 @@ const data = [
     "hasStats": true,
     "label": "day",
     "location": "Corsica, France",
-    "slug": "gr-20",
+    "slug": "fra-li-monti",
     "stages": [
       {
         "date": "June 21st, 2023",
@@ -23419,7 +23420,8 @@ const data = [
       }
     },
     "title": [
-      "GR 20"
+      "Fra Li",
+      "Monti"
     ],
     "type": "thru-hike"
   },
@@ -32904,7 +32906,8 @@ const data = [
     "category": "trekking",
     "date": "Feb 18 -  25, 2020",
     "description": [
-      "A tapestry of landscapes surrounded spires of granite, sprawling glaciers, pristine lakes, and windswept plains providing an idyllic background for thru-hiking 8 days and 73 miles in Chile. Here at the bottom of the world in Patagonia, with equal parts rustic and modern, the trail known as the 'O' Circuit circumnavigates the prominent Torres del Paine granite towers that the park is known for. But the real highlight of the circuit took place after summitting the ridge at John Gardner Pass at 3,874 feet and seeing the massive Grays Glacier layed out below, filling the horizon from end to end."
+      "A tapestry of landscapes surrounded spires of granite, sprawling glaciers, pristine lakes, and windswept plains providing an idyllic background for thru-hiking 8 days and 73 miles in Chile.",
+      "Here at the bottom of the world in Patagonia, with equal parts rustic and modern, the trail known as the 'O' Circuit circumnavigates the prominent Torres del Paine granite towers that the park is known for. But the real highlight of the circuit took place after summitting the ridge at John Gardner Pass at 3,874 feet and seeing the massive Grays Glacier layed out below, filling the horizon from end to end."
     ],
     "gear": {
       "categories": [
@@ -45771,12 +45774,12 @@ const data = [
       {
         "date": "October 26th, 2019",
         "description": [
-          "Stars filled the cloudless early morning sky as we awoke around 3am and started getting packed up for our hike up to Tilicho Lake at 15,500 feet. It was cold and hard to move so early in the morning, but we managed to make our way onto the trail with our headlamps lighting the way.",
+          "Stars filled the cloudless pre-dawn sky as we started packing up for our hike to Tilicho Lake at 16,435 feet. It was cold and hard to move so early in the morning, but we managed to make our way onto the trail with our headlamps lighting the way.",
           "Sunrise came about an hour and a half into our hike, slowly revealing the snowy-white world around us. The first half of the trail wasn't too bad, but the second half, as we got higher and higher, forced us to stop and take more breaks. Once we got to the more flat part of the trail our speed increased and we made it to the lake about 2-3 hours after starting.",
           "While the lake itself wasn't unique in any obvious way, other than being at such a high elevation, it was the snow-covered mountains around us that really set the mood. As we stood there staring out of the lake a rumbling sound in the distance caught our attention and up near one of the peaks we could see an avalanche starting to careen down towards the lake. It was on the far side, so we were in no immediate danger, but it was an amazing sight to see.",
           "We couldn't stay long at the lake for it was far too cold and our fingers were going numb inside of our gloves (I even had to layers of gloves on). As we were leaving another, much larger, avalanche occurred that filled the space above the lake with powdery snow, but we were too far below the ridgeline to see it fully sadly.",
           "The way down went much faster, as it always dows, and we were moving at a fast pace in order to warm back up. We debated stopping at Basecamp on our way back for breakfast but decided to keep moving and stay at Shree Kharka instead because there was one particular place that had a dining hall with an amazing view of the mountains and valley below us.",
-          "The way back over the landslide-ridden trail went by much easier than it did yesterday, and again luckily there were no incidents. We chilled for the rest of the day at Shree Kharka, playing card games, listening to podcasts, and eating. We made our plans to go to Thorong Phedi tomorrow, and then onto Thorong La Pass (the highest point on the trek at 18,500 feet) and then to Muktinath."
+          "The way back over the landslide-ridden trail went by much easier than it did yesterday, and again luckily there were no incidents. We chilled for the rest of the day at Shree Kharka, playing card games, listening to podcasts, and eating. We made our plans to go to Thorong Phedi tomorrow, and then onto Thorong La Pass (the highest point on the trek at 18,500 feet) and then to Muktinath.\n"
         ],
         "elevation": [
           "13584",

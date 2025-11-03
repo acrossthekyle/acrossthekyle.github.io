@@ -2,7 +2,7 @@ import styles from './stylesheet';
 
 type Props = {
   date: string;
-  title: string;
+  title: string[];
 };
 
 export default function Header({ date, title }: Props) {
@@ -12,7 +12,11 @@ export default function Header({ date, title }: Props) {
         <span className={styles.eyebrow}>
           {date}
         </span>
-        {title}
+        {title.map((word, index) => (
+          <span className={styles.line} key={index}>
+            {word}
+          </span>
+        ))}
       </h1>
     </header>
   );
