@@ -27,7 +27,8 @@ const styles = tw({
     kilo:text-8xl/18
     tera:max-w-260
     tera:text-9xl/26
-    peta:max-w-280
+    peta:text-10xl/31
+    peta:max-w-340
   `,
   introduction: `
     flex flex-col-reverse
@@ -38,6 +39,8 @@ const styles = tw({
     deci:-mt-48
     deci:flex-row
     deci:items-end
+    tera:-mt-94
+    peta:-mt-110
   `,
   blurb: `
     relative z-2
@@ -52,7 +55,7 @@ const styles = tw({
     tera:w-160
     tera:text-xl
     peta:w-200
-    peta:text-2xl
+    peta:text-3xl
   `,
   image: `
     !aspect-auto

@@ -32,6 +32,7 @@ export default function View({ data }: Props) {
   return (
     <Article className={styles.article(isOnGrandChild)}>
       <Header title={data.title} />
+      <Info date={data.date} location={data.location} type={data.type} />
       <Shortcuts />
       {data.category === 'destinations' ? (
         <Gallery stages={data.stages} />
@@ -41,7 +42,6 @@ export default function View({ data }: Props) {
           stages={data.stages}
         />
       )}
-      <Info date={data.date} location={data.location} type={data.type} />
       <Overview description={data.description} />
       <Footer />
     </Article>

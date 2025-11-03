@@ -7,6 +7,8 @@ const styles = tw({
     font-medium
 
     last:mb-0
+
+    peta:text-2xl
   `,
 });
 

@@ -9,7 +9,7 @@ const styles = tw({
     uppercase
     opacity-0
     animate-elastic-in-from-right
-    mt-12 mb-3
+    mt-12 mb-4
 
     pico:text-6xl/11.5
     micro:text-7xl/13.75

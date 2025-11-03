@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   list: `
-    mb-4
+    mb-2
     font-medium
     capitalize
 

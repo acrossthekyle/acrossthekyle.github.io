@@ -49,8 +49,6 @@ const styles = tw({
     return tw(`
       ${root}
 
-      relative
-
       text-5xl/9
       font-extrablack font-stretch-ultra-condensed
       tracking-tight
@@ -61,8 +59,11 @@ const styles = tw({
       deci:text-9xl/24.5
       base:font-stretch-normal
       base:tracking-tight
-      base:text-8xl/18.5
+      base:text-7xl/13.75
+      kilo:text-8xl/18.5
+      giga:relative
       tera:text-9xl/24.75
+      peta:text-10xl/31
 
       hover:font-extralight
       hover:text-current/90

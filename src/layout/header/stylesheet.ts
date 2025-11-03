@@ -34,6 +34,7 @@ const styles = tw({
       flex-row items-center justify-start
       p-4 pb-0
 
+      base:pb-4
       base:w-auto
       base:h-full
       base:relative
