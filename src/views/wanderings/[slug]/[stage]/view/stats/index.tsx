@@ -24,7 +24,16 @@ export default function Stats({ elevation, route, stats, termini }: Props) {
     openGpx(elevation, route, termini);
   };
 
-  const sections: Section[] = [];
+  const sections: Section[] = [
+    {
+      heading: 'Start',
+      value: termini.start.join(' '),
+    },
+    {
+      heading: 'End',
+      value: termini.end.join(' '),
+    },
+  ];
 
   if (stats.time) {
     sections.push({

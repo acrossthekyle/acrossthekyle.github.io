@@ -1,7 +1,9 @@
 import tw from '@/styles';
 
+import { getAspectClassNames } from '../utils';
+
 const styles = {
-  image: (isLandscapeOrientation: boolean, isInView: boolean) => tw(`
+  image: (isInView: boolean, index: number) => tw(`
     object-cover
     w-full h-full
     transform-gpu duration-700
@@ -9,12 +11,9 @@ const styles = {
     brightness-60
     grayscale-100
 
-    landscape:aspect-19/9
-    portrait:aspect-square
+    ${getAspectClassNames(index)}
 
     base:rounded-sm
-    base:landscape:aspect-16/9
-    base:portrait:aspect-16/9
 
     ${isInView && `
       brightness-80

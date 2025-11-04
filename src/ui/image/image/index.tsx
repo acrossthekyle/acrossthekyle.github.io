@@ -11,6 +11,7 @@ type Props = {
   alt: string;
   className?: string;
   height: number;
+  index: number;
   sizes: string;
   width: number;
 };
@@ -19,11 +20,11 @@ export default function Image({
   alt,
   className = '',
   height,
+  index,
   sizes,
   width,
 }: Props) {
   const {
-    isLandscapeOrientation,
     isInPortraitMode,
     onLoad,
     src,
@@ -36,7 +37,7 @@ export default function Image({
   return (
     <NextJsImage
       alt={alt}
-      className={`${styles.image(isLandscapeOrientation, inView)} ${className}`.trim()}
+      className={`${styles.image(inView, index)} ${className}`.trim()}
       height={height}
       onLoad={onLoad}
       ref={ref}

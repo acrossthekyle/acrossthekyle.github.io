@@ -15,7 +15,7 @@ const styles = tw({
     border-1
     rounded-full
     font-black
-    text-tiny text-center
+    text-tiny text-center text-white/90
     uppercase
     duration-300
 
@@ -52,7 +52,7 @@ const styles = tw({
   `,
   icon: `
     w-8 h-8
-    stroke-1
+    stroke-1 stroke-white/90
   `,
 });
 

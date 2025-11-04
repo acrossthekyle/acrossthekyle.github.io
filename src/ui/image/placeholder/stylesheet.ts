@@ -1,16 +1,12 @@
 import tw from '@/styles';
 
+import { getAspectClassNames } from '../utils';
+
 const styles = {
-  placeholder: (isLoading: boolean) => tw(`
+  placeholder: (isLoading: boolean, index: number) => tw(`
     relative
 
-    ${isLoading && `
-      landscape:aspect-3/2
-      portrait:aspect-10/9
-
-      base:landscape:aspect-16/9
-      base:portrait:aspect-16/9
-    `}
+    ${isLoading && getAspectClassNames(index)}
   `),
 };
 

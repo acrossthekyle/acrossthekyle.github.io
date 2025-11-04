@@ -16,6 +16,8 @@ const styles = tw({
     mb-4
     text-base
     font-normal
+
+    last-of-type:mb-0
   `,
 });
 

@@ -6,7 +6,7 @@ const styles = tw({
   `,
   top: `
     hidden
-    absolute top-1 right-1 z-5
+    absolute top-2 right-0 z-5
     p-2
 
     base:block
@@ -23,6 +23,8 @@ const styles = tw({
     w-26
     border-1
     rounded-full
+    opacity-0
+    animate-elastic-in-from-right
 
     base:mb-0
     base:w-auto
@@ -30,7 +32,7 @@ const styles = tw({
     base:p-2
     base:absolute
     base:bottom-1
-    base:right-1
+    base:right-0
     base:z-5
     deka:bottom-10
     deka:right-7

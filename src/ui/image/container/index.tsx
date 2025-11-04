@@ -10,6 +10,7 @@ type Props = {
   children?: React.ReactNode | React.ReactNode[];
   className?: string;
   height: number;
+  index?: number;
   sizes: string;
   src: string;
   useSpinner?: boolean;
@@ -21,6 +22,7 @@ export default function Container({
   children,
   className = '',
   height,
+  index = 0,
   sizes,
   src,
   useSpinner,
@@ -28,11 +30,12 @@ export default function Container({
 }: Props) {
   return (
     <Context src={src}>
-      <Placeholder>
+      <Placeholder index={index}>
         <Image
           alt={alt}
           className={className}
           height={height}
+          index={index}
           sizes={sizes}
           width={width}
         />

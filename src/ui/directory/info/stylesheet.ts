@@ -5,8 +5,8 @@ const styles = tw({
     block
     relative z-1
     mt-1 mb-3 mr-4
-    text-xs/3.5 ${isOnChild ? `text-left` : `giga:text-right`}
-    font-light font-stretch-normal
+    text-sm/4 ${isOnChild ? `text-left` : `giga:text-right`}
+    font-mono font-light font-stretch-normal
     tracking-wide
     duration-200
 

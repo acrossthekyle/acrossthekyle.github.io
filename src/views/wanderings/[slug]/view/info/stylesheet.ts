@@ -5,6 +5,8 @@ const styles = tw({
     mb-2
     font-medium
     capitalize
+    opacity-0
+    animate-elastic-in-from-right
 
     base:hidden
   `,

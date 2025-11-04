@@ -16,12 +16,12 @@ type Props = {
 export default function Gallery({ stages }: Props) {
   return (
     <section className={styles.container} aria-label="gallery">
-      {stages.map((stage) => (
-        <ImageFigure key={stage.index}>
+      {stages.map((stage, index) => (
+        <ImageFigure key={index}>
           <Image
             alt=""
-            className={styles.image(stage.index)}
             height={1080}
+            index={index}
             sizes="(max-width: 768px) 100vw, 50vw"
             src={stage.image}
             width={1920}
