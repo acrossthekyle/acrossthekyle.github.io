@@ -2,8 +2,8 @@ import tw from '@/styles';
 
 const styles = tw({
   section: `
+    hidden
     h-54 w-full
-    border-t-1 border-t-white/12.5
     overflow-hidden
     select-none
     touch-none

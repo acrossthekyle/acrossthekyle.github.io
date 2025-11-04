@@ -46,7 +46,7 @@ const styles = tw({
   close: `
     fixed top-2 right-1 z-9999
     p-2
-    text-white/90
+    text-current/90
 
     base:right-0
     deka:top-9

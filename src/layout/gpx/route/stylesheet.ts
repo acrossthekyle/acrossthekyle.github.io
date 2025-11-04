@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   section: `
-    h-[calc(100%-13rem)] w-full
+    h-full w-full
     overflow-hidden
   `,
   map: `
@@ -12,28 +12,23 @@ const styles = tw({
   route: `
     relative z-2
     stroke-3
-    stroke-white/70
+    stroke-black/70 dark:stroke-white/70
     !pointer-events-none
   `,
   outer: `
     relative
-    stroke-white/90
+    stroke-black/90 dark:stroke-white/90
     stroke-5
     !pointer-events-none
   `,
   inner: `
     relative z-2
-    fill-black
-    stroke-black
+    fill-white dark:fill-black
+    stroke-white dark:stroke-black
   `,
   solid: `
-    fill-white
-    stroke-black
-    stroke-2
-  `,
-  icon: `
-    w-3 h-3
-    fill-white/90
+    fill-black dark:fill-white
+    stroke-white dark:stroke-black
     stroke-2
   `,
 });

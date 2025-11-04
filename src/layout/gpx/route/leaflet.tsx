@@ -31,9 +31,18 @@ export default function Leaflet({
   termini,
 }: Props) {
   const [data, setData] = useState<number[][]>([]);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   useEffect(() => {
     if (route) {
+      let theme = 'light';
+
+      if (localStorage.getItem('theme')) {
+        theme = localStorage.getItem('theme') || 'light';
+      }
+
+      setIsDarkMode(theme !== 'light');
+
       setData(route);
     }
   }, [route]);
@@ -71,7 +80,7 @@ export default function Leaflet({
     >
       <TileLayer
         attribution="Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ"
-        url="https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png"
+        url={`https://{s}.basemaps.cartocdn.com/${isDarkMode ? 'dark' : 'light'}_nolabels/{z}/{x}/{y}{r}.png`}
       />
       <Polyline
         className={styles.route}

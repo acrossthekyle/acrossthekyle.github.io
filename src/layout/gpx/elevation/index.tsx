@@ -50,10 +50,6 @@ export default function Elevation({ elevation }: Props) {
           dataLabels: {
             enabled: false,
           },
-          fill: {
-            type: 'solid',
-            colors: ['#ffffff1b'],
-          },
           stroke: {
             colors: ['#ffffffaa'],
             curve: 'smooth',
@@ -132,7 +128,7 @@ export default function Elevation({ elevation }: Props) {
             data: elevation.map((value) => Number(value)),
           },
         ]}
-        type="area"
+        type="line"
         height="100%"
       />
     </div>
