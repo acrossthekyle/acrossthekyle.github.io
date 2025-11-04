@@ -11,7 +11,15 @@ import Route from './route';
 import styles from './stylesheet';
 
 export default function Gpx() {
-  const { closeGpx, elevation, isOpen, route, termini } = useGpx();
+  const {
+    canRenderElevation,
+    closeGpx,
+    elevation,
+    isOpen,
+    route,
+    termini,
+    toggleElevation,
+  } = useGpx();
 
   return (
     <>
@@ -31,9 +39,22 @@ export default function Gpx() {
           >
             <X className={styles.icon} />
           </button>
+          <button
+            className={styles.view(canRenderElevation)}
+            onClick={toggleElevation}
+            type="button"
+          >
+            {canRenderElevation ? 'Hide' : 'Show'} elevation
+          </button>
           <Context>
-            <Route route={route} termini={termini} />
-            <Elevation elevation={elevation} />
+            <Route
+              route={route}
+              shouldShrink={canRenderElevation}
+              termini={termini}
+            />
+            {canRenderElevation && (
+              <Elevation elevation={elevation} />
+            )}
           </Context>
         </FocusLock>
       </div>

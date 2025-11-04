@@ -25,6 +25,7 @@ const styles = tw({
         base:flex
         base:flex-col
         base:items-start
+        base:relative
       `);
     }
 

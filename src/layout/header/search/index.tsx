@@ -15,7 +15,7 @@ export default function Search() {
   }
 
   return (
-    <Link className={styles.search} href="/search">
+    <Link className={styles.search(isOnRoot)} href="/search">
       <Icon className={styles.icon} />
     </Link>
   );

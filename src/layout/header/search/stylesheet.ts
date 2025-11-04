@@ -1,20 +1,37 @@
 import tw from '@/styles';
 
 const styles = tw({
-  search: `
-    absolute top-4 right-3 z-10
+  search: (isOnRoot: boolean) => {
+    const common = `
+      absolute
+    `;
 
-    plank:top-4
-    plank:right-4
-    deka:bottom-12
-    deka:right-12
-    deka:top-auto
-  `,
+    if (isOnRoot) {
+      return tw(`
+        ${common}
+
+        top-4 right-14
+
+        deka:bottom-12
+        deka:right-12
+        deka:top-auto
+      `);
+    }
+
+    return tw(`
+      ${common}
+
+      top-4 right-4
+
+      deka:right-12
+      deka:top-12
+    `);
+  },
   icon: `
     w-6 h-6
 
-    deka:w-7
-    deka:h-7
+    base:w-7
+    base:h-7
   `,
 });
 

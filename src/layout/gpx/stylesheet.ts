@@ -44,7 +44,7 @@ const styles = tw({
     `)}
   `),
   close: `
-    fixed top-2 right-1 z-9999
+    fixed top-2 right-2 z-9999
     p-2
     text-current/90
 
@@ -58,6 +58,24 @@ const styles = tw({
 
     base:stroke-1
   `,
+  view: (canRenderElevation: boolean) => tw(`
+    hidden
+    absolute ${canRenderElevation ? 'bottom-58' : 'bottom-5'} left-5 z-9999
+    text-current/90
+    uppercase
+    text-xs text-center
+    font-bold
+    py-0.75
+    w-32
+    border-1
+    rounded-full
+
+    base:top-5
+    base:left-5
+    base:bottom-auto
+    deka:top-9
+    deka:left-9
+  `),
 });
 
 export default styles;

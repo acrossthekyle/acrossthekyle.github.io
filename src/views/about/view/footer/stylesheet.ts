@@ -3,7 +3,9 @@ import tw from '@/styles';
 const styles = tw({
   footer: `
     flex justify-center
-    mb-4
+    mt-8 mb-4
+
+    base:hidden
   `,
   up: `
     uppercase
@@ -13,11 +15,6 @@ const styles = tw({
     w-26
     border-1
     rounded-full
-    duration-300
-
-    hover:bg-current/10
-
-    base:py-1
   `,
 });
 

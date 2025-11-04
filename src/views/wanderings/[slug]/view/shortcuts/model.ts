@@ -12,19 +12,7 @@ export const useModel = () => {
     }
   };
 
-  const handleOnScrollToTop = () => {
-    const element = document.getElementById('anchor');
-
-    if (element) {
-      element.scrollIntoView({
-        block: 'start',
-        behavior: 'smooth',
-      });
-    }
-  };
-
   return {
     handleOnScrollToOverview,
-    handleOnScrollToTop,
   };
 };

@@ -21,12 +21,14 @@ import styles from './stylesheet';
 
 type Props = {
   hoverIndex: number | null;
+  resize: boolean;
   route: number[][];
   termini: Termini;
 };
 
 export default function Leaflet({
   hoverIndex,
+  resize,
   route,
   termini,
 }: Props) {
@@ -49,6 +51,11 @@ export default function Leaflet({
 
   function Center({ positions }: { positions: number[][] }) {
     const map = useMap();
+
+    useEffect(() => {
+      map.invalidateSize();
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [resize]);
 
     useEffect(() => {
       if (positions.length > 0) {

@@ -4,20 +4,31 @@ const styles = tw({
   container: (isOnChild: boolean) => tw(`
     block
     relative z-1
-    mt-1 mb-3 mr-4
-    text-sm/4 ${isOnChild ? `text-left` : `giga:text-right`}
+    mt-1.5 mb-3 mr-4
+    text-xs
     font-mono font-light font-stretch-normal
     tracking-wide
     duration-200
 
     group-hover/link:base:opacity-100
 
+    base:text-xs/3
     base:absolute
     base:mb-0
     base:mt-0
+    base:opacity-0
+    base:w-52
+    base:my-0
+
     ${isOnChild ? `
-      base:bottom-44
-      base:left-12
+      text-left
+
+      base:bottom-34
+      base:left-4
+      deka:bottom-42
+      deka:left-12
+      mega:bottom-44
+      mega:text-sm/4
       tera:bottom-58
       peta:bottom-92
     ` : `
@@ -29,11 +40,9 @@ const styles = tw({
       giga:bottom-0
       giga:right-0
       giga:left-auto
+      giga:text-right
       tera:text-sm/4
     `}
-    base:opacity-0
-    base:w-52
-    base:my-0
   `),
   first: `
     inline-block

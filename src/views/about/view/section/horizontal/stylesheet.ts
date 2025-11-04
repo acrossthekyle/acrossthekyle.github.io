@@ -9,7 +9,7 @@ const styles = tw({
     kilo:gap-36
     kilo:flex-row
 
-    last:mb-0
+    last-of-type:mb-0
   `,
 });
 

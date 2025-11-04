@@ -39191,7 +39191,7 @@ const data = [
     "category": "trekking",
     "date": "Oct 19 - Nov 6, 2019",
     "description": [
-      "Ranging from tropical forests and waterfalls along paddy fields to the frozen arctic region of the Tibetan plateau at 17,751 feet, the Annapurna Circuit spanned 18 days while winding its way around one of the eight tallest peaks in the world in the Himalayas of Nepal for 193 miles.",
+      "Ranging from tropical forests and waterfalls along paddy fields to the frozen arctic region of the Tibetan plateau at 17,751 feet, the Annapurna Circuit + Basecamp thru-hike spanned 18 days while winding its way around one of the eight tallest peaks in the world in the Himalayas of Nepal for 193 miles.",
       "The sheer amount of total elevation gain and loss (54,267 ft and 51,090 ft, respectfully), changing biomes, and nearly succumbing to hypothermia, led to this being one of my toughest treks."
     ],
     "gear": {

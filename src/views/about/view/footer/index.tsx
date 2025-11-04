@@ -5,15 +5,6 @@ import styles from './stylesheet';
 export default function Footer() {
   const handleOnScrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-
-    const element = document.getElementById('anchor');
-
-    if (element) {
-      element.scrollIntoView({
-        block: 'start',
-        behavior: 'smooth',
-      });
-    }
   };
 
   return (

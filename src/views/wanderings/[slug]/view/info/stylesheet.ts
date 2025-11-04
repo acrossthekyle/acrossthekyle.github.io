@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   list: `
-    mb-2
+    mb-3
     font-medium
     capitalize
     opacity-0

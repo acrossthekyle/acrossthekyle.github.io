@@ -10,8 +10,7 @@ export default function Overview({ description }: Props) {
   }
 
   return (
-    <section className={styles.section}>
-      <h2 className={styles.heading}>Overview</h2>
+    <section aria-label="overview" className={styles.section}>
       {description.map((paragraph) => (
         <p className={styles.content} key={paragraph}>
           {paragraph}

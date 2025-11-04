@@ -31,6 +31,9 @@ export default function Elevation({ elevation }: Props) {
       <Chart
         options={{
           chart: {
+            animations: {
+              enabled: false,
+            },
             toolbar: {
               show: false,
             },
@@ -56,13 +59,13 @@ export default function Elevation({ elevation }: Props) {
             width: 3,
           },
           grid: {
-            show: false,
-            borderColor: 'transparent',
+            show: true,
+            borderColor: '#ffffff1a',
             padding: {
               top: 0,
               bottom: 0,
               right: 18,
-              left: 20,
+              left: 14,
             },
           },
           xaxis: {
@@ -71,6 +74,7 @@ export default function Elevation({ elevation }: Props) {
             categories: [],
             axisBorder: {
               show: false,
+              color: '#ffffff1a',
             },
             axisTicks: {
               show: false,
@@ -90,9 +94,11 @@ export default function Elevation({ elevation }: Props) {
           yaxis: {
             axisBorder: {
               show: false,
+              color: '#ffffff1a',
             },
             axisTicks: {
-              show: false,
+              show: true,
+              color: '#ffffff1a',
             },
             labels: {
               offsetX: 0,

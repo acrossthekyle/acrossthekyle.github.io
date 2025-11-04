@@ -1,28 +1,44 @@
 import tw from '@/styles';
 
 const styles = tw({
-  toggle: `
-    absolute top-4 right-12 z-10
+  toggle: (isOnRoot: boolean) => {
+    const common = `
+      absolute
+    `;
 
-    plank:top-4
-    plank:right-14
-    deka:top-12
-    deka:right-12
-    deka:top-auto
-  `,
+    if (isOnRoot) {
+      return tw(`
+        ${common}
+
+        top-4 right-4
+
+        deka:top-12
+        deka:right-12
+      `);
+    }
+
+    return tw(`
+      ${common}
+
+      top-4 right-4
+
+      deka:top-12
+      deka:right-12
+    `);
+  },
   sun: `
     w-6 h-6
 
-    deka:w-7
-    deka:h-7
+    base:w-7
+    base:h-7
 
     light:hidden
   `,
   moon: `
     w-6 h-6
 
-    deka:w-7
-    deka:h-7
+    base:w-7
+    base:h-7
 
     dark:hidden
   `,

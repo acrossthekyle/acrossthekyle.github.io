@@ -7,6 +7,8 @@ import { useHierarchy } from '@/hooks/useHierarchy';
 import styles from './stylesheet';
 
 export default function Theme() {
+  const { isOnRoot } = useHierarchy();
+
   const handleOnClick = () => {
     let theme = 'light';
 
@@ -25,8 +27,6 @@ export default function Theme() {
     }
   };
 
-  const { isOnRoot } = useHierarchy();
-
   if (!isOnRoot) {
     return null;
   }
@@ -34,7 +34,7 @@ export default function Theme() {
   return (
     <button
       aria-live="polite"
-      className={styles.toggle}
+      className={styles.toggle(isOnRoot)}
       onClick={handleOnClick}
       title="Toggle light &amp; dark theme"
       type="button"

@@ -1,5 +1,6 @@
 import { Article } from '@/ui/article';
 
+import Footer from './footer';
 import Hero from './hero';
 import {
   Heading,
@@ -64,6 +65,7 @@ export default function View() {
           </Paragraph>
         </SectionBefore>
       </SectionHorizontal>
+      <Footer />
     </Article>
   );
 }
