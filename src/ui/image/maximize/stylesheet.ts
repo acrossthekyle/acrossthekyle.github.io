@@ -10,7 +10,7 @@ const styles = tw({
   maximize: `
     hidden
     absolute bottom-8 left-7 z-3
-    py-1
+    py-0.75
     w-20
     border-1
     rounded-full
@@ -22,7 +22,7 @@ const styles = tw({
     baseplus:right-7
     baseplus:left-auto
     giga:text-xs
-    giga:py-1
+    mega:py-1
     giga:w-21
 
     hover:bg-current/25

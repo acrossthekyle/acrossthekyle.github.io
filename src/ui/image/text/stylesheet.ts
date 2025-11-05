@@ -15,6 +15,8 @@ const styles = tw({
     base:font-stretch-semi-expanded
     base:mb-9
     baseplus:mb-0
+    baseplus:text-2xl/5
+    mega:text-3xl/6
     giga:text-4xl/7
 
     group-hover/figure:font-bold

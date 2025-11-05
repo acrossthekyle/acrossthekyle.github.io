@@ -14,21 +14,23 @@ const Leaflet = dynamic(() => import('./leaflet'), {
 });
 
 type Props = {
+  elevation: string[] | null;
   route: number[][] | null;
   shouldShrink: boolean;
   termini: Termini;
 };
 
-export default function Route({ route, shouldShrink, termini }: Props) {
+export default function Route({ elevation, route, shouldShrink, termini }: Props) {
   const { hoverIndex } = useContext(GpxContext);
 
-  if (route === null) {
+  if (elevation === null || route === null) {
     return null;
   }
 
   return (
     <div className={styles.section(shouldShrink)}>
       <Leaflet
+        elevation={elevation}
         hoverIndex={hoverIndex}
         resize={shouldShrink}
         route={route}

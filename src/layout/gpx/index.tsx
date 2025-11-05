@@ -48,6 +48,7 @@ export default function Gpx() {
           </button>
           <Context>
             <Route
+              elevation={elevation}
               route={route}
               shouldShrink={canRenderElevation}
               termini={termini}

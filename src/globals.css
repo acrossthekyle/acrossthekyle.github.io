@@ -109,6 +109,23 @@ body {
     box-shadow: none;
     border: none !important;
     color: var(--tooltip-text-color);
+    text-shadow: 1px 1px 1px #000000;
+  }
+
+  .leaflet-tooltip-top {
+    margin-top: -1rem;
+  }
+
+  .leaflet-tooltip-bottom {
+    margin-top: 1rem;
+  }
+
+  .leaflet-tooltip-left {
+    margin-left: -1rem;
+  }
+
+  .leaflet-tooltip-right {
+    margin-left: 1rem;
   }
 
   .leaflet-tooltip-top:before,

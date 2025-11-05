@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   anchor: `
-    relative -top-32 right-0
+    relative -top-9999 right-0
   `,
   top: `
     hidden

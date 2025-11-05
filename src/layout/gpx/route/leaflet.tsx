@@ -20,6 +20,7 @@ import type { Termini } from '@/types';
 import styles from './stylesheet';
 
 type Props = {
+  elevation: string[];
   hoverIndex: number | null;
   resize: boolean;
   route: number[][];
@@ -27,6 +28,7 @@ type Props = {
 };
 
 export default function Leaflet({
+  elevation,
   hoverIndex,
   resize,
   route,
@@ -102,7 +104,7 @@ export default function Leaflet({
             className={styles.outer}
             fill={false}
             opacity={1}
-            radius={4}
+            radius={6}
           />
           <CircleMarker
             // @ts-expect-error - will fix later
@@ -110,9 +112,17 @@ export default function Leaflet({
             className={styles.inner}
             fillOpacity={1}
             opacity={1}
-            radius={2}
+            radius={5}
           >
-            <Tooltip permanent>{termini.start.join(' ')}</Tooltip>
+            <Tooltip permanent>
+              <span className={styles.eyebrow}>Start</span>
+              {termini.start.map((line, index) => (
+                <span className={styles.line} key={index}>{line}</span>
+              ))}
+              <span className={styles.elevation}>
+                {new Intl.NumberFormat().format(Number(elevation[0]))} ft
+              </span>
+            </Tooltip>
           </CircleMarker>
           <CircleMarker
             // @ts-expect-error - will fix later
@@ -120,17 +130,25 @@ export default function Leaflet({
             className={styles.outer}
             fill={false}
             opacity={1}
-            radius={4}
+            radius={6}
           />
           <CircleMarker
             // @ts-expect-error - will fix later
             center={data[data.length - 1]}
-            className={`${styles.inner} ${styles.solid}`}
+            className={styles.inner}
             fillOpacity={1}
             opacity={1}
-            radius={3}
+            radius={5}
           >
-            <Tooltip permanent>{termini.end.join(' ')}</Tooltip>
+            <Tooltip permanent>
+              <span className={styles.eyebrow}>Finish</span>
+              {termini.end.map((line, index) => (
+                <span className={styles.line} key={index}>{line}</span>
+              ))}
+              <span className={styles.elevation}>
+                {new Intl.NumberFormat().format(Number(elevation[elevation.length - 1]))} ft
+              </span>
+            </Tooltip>
           </CircleMarker>
         </>
       )}

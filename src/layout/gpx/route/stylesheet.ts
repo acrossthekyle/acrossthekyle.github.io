@@ -12,25 +12,40 @@ const styles = tw({
   `,
   route: `
     relative z-2
-    stroke-3
-    stroke-black/70 dark:stroke-white/70
+    stroke-4
+    stroke-black dark:stroke-white
     !pointer-events-none
   `,
   outer: `
     relative
-    stroke-black/90 dark:stroke-white/90
-    stroke-5
+    stroke-black dark:stroke-white
+    stroke-10
     !pointer-events-none
   `,
   inner: `
     relative z-2
     fill-white dark:fill-black
     stroke-white dark:stroke-black
+    !pointer-events-none
   `,
-  solid: `
-    fill-black dark:fill-white
-    stroke-white dark:stroke-black
-    stroke-2
+  eyebrow: `
+    block
+    font-normal
+    text-tiny
+    uppercase
+    tracking-widest
+  `,
+  line: `
+    block
+    text-base/3.5
+    font-extrablack
+    uppercase
+  `,
+  elevation: `
+    block
+    font-normal
+    text-xs
+    tracking-normal
   `,
 });
 
