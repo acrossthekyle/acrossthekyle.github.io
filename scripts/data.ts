@@ -446,9 +446,15 @@ async function getStages(folder) {
         route: route || null,
         stats,
         termini: {
-          end: turnStringIntoArrayForLists(end),
+          end: {
+            position: data.tooltips ? data.tooltips[1] : null,
+            words: turnStringIntoArrayForLists(end),
+          },
           isSame: start.toLowerCase() === end.toLowerCase(),
-          start: turnStringIntoArrayForLists(start),
+          start: {
+            position: data.tooltips ? data.tooltips[0] : null,
+            words: turnStringIntoArrayForLists(start),
+          },
         },
         title: turnStringIntoArrayForLists(data.title),
       });
@@ -774,14 +780,14 @@ async function go() {
         }) => ({
           date,
           description,
-          elevation,
+          elevation: hasElevation ? elevation : [],
           hasElevation,
           hasRoute,
           hasStats,
           image,
           location,
           readingTime,
-          route,
+          route: hasRoute ? route : [],
           stats,
           termini,
         })),

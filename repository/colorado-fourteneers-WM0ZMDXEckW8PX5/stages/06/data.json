@@ -1,10 +1,11 @@
 {
   "date": "September 7th, 2021",
-  "title": "Shavano/Tabeguache Trailhead to Mount Shavano",
+  "title": "Shavano Trailhead to Mount Shavano",
   "location": "Sawatch Range",
   "image": "2021/09/07/fbe767d5-63c6-4af7-8643-ceef9b4cce92.jpeg",
   "gain": "4405",
   "loss": "2",
   "miles": "4.54",
-  "minutes": "540"
+  "minutes": "540",
+  "tooltips": ["left", "right"]
 }

@@ -1,10 +1,11 @@
 {
   "date": "May 4th, 2025",
-  "title": "Greenbush Segment",
+  "title": "Parnell Shelter to Greenbush Trailhead",
   "image": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
   "location": "Glenbeulah",
   "gain": "461",
   "loss": "643",
   "miles": "7.59",
-  "minutes": "225"
+  "minutes": "225",
+  "tooltips": ["right", "left"]
 }

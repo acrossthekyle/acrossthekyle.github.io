@@ -1,10 +1,11 @@
 {
   "date": "September 1st, 2019",
-  "title": "Mc Cullough Gulch to Quandary Peak",
+  "title": "McCullough Gulch to Quandary Peak",
   "location": "Tenmile Range",
   "image": "2019/09/01/08d28c7e-387b-418f-8226-b2a87485f1d8.jpeg",
   "gain": "3330",
   "loss": "0",
   "miles": "2.98",
-  "minutes": "360"
+  "minutes": "360",
+  "tooltips": ["left", "left"]
 }

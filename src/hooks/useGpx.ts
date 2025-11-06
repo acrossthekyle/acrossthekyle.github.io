@@ -8,16 +8,16 @@ import { useEvent } from './useEvent';
 
 type State = {
   canRenderElevation: boolean;
-  elevation: string[] | null;
+  elevation: string[];
   isOpen: boolean;
-  route: number[][] | null;
+  route: [number, number][];
   termini: Termini;
 };
 
 type Actions = {
   setGpx: (
-    elevation: string[] | null,
-    route: number[][] | null,
+    elevation: string[],
+    route: [number, number][],
     termini: Termini,
   ) => void;
   toggleCanRenderElevation: () => void;
@@ -27,17 +27,23 @@ type Actions = {
 const store = create<State & Actions>()(
   (set, get) => ({
     canRenderElevation: false,
-    elevation: null,
+    elevation: [],
     isOpen: false,
-    route: null,
+    route: [],
     termini: {
-      end: [],
+      end: {
+        position: null,
+        words: [],
+      },
       isSame: false,
-      start: [],
+      start: {
+        position: null,
+        words: [],
+      },
     },
     setGpx: (
-      elevation: string[] | null,
-      route: number[][] | null,
+      elevation: string[],
+      route: [number, number][],
       termini: Termini,
     ) => {
       set({
@@ -55,12 +61,18 @@ const store = create<State & Actions>()(
 
       setTimeout(() => {
         set({
-          elevation: null,
-          route: null,
+          elevation: [],
+          route: [],
           termini: {
-            end: [],
+            end: {
+              position: null,
+              words: [],
+            },
             isSame: false,
-            start: [],
+            start: {
+              position: null,
+              words: [],
+            },
           },
         });
       }, 250);
@@ -87,8 +99,8 @@ export function useGpx() {
   };
 
   const openGpx = (
-    elevation: string[] | null,
-    route: number[][] | null,
+    elevation: string[],
+    route: [number, number][],
     termini: Termini,
   ) => {
     setGpx(

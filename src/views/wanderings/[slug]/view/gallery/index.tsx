@@ -29,7 +29,7 @@ export default function Gallery({ stages }: Props) {
             <ImageMaximize />
             <ImageCaption>
               <ImageInfo>
-                {stage.termini.end.join(' ')}
+                {stage.termini.end.words.join(' ')}
               </ImageInfo>
             </ImageCaption>
           </Image>

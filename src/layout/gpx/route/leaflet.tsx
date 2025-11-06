@@ -23,7 +23,7 @@ type Props = {
   elevation: string[];
   hoverIndex: number | null;
   resize: boolean;
-  route: number[][];
+  route: [number, number][];
   termini: Termini;
 };
 
@@ -34,7 +34,7 @@ export default function Leaflet({
   route,
   termini,
 }: Props) {
-  const [data, setData] = useState<number[][]>([]);
+  const [data, setData] = useState<[number, number][]>([]);
   const [isDarkMode, setIsDarkMode] = useState(true);
 
   useEffect(() => {
@@ -51,7 +51,7 @@ export default function Leaflet({
     }
   }, [route]);
 
-  function Center({ positions }: { positions: number[][] }) {
+  function Center({ positions }: { positions: [number, number][] }) {
     const map = useMap();
 
     useEffect(() => {
@@ -63,10 +63,31 @@ export default function Leaflet({
       if (positions.length > 0) {
         map.addHandler('gestureHandling', GestureHandling);
 
-        // @ts-expect-error - will fix later
+        let start = 0;
+        let end = 0;
+
+        termini.start.words.map((line) => {
+          if (line.length > start) {
+            start = line.length;
+          }
+        });
+
+        termini.end.words.map((line) => {
+          if (line.length > end) {
+            end = line.length;
+          }
+        });
+
+        const longest = start > end ? start : end;
+
         const bounds = new L.LatLngBounds(positions);
 
-        map.fitBounds(bounds);
+        map.fitBounds(bounds, {
+          padding: [
+            longest >= 12 ? 150 : 100,
+            longest >= 12 ? 150 : 100,
+          ],
+        });
       }
       // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [positions]);
@@ -80,10 +101,10 @@ export default function Leaflet({
 
   return (
     <MapContainer
-      // @ts-expect-error - will fix later
       center={data[0]}
       className={styles.map}
       scrollWheelZoom={false}
+      // @ts-expect-error prop is necessary
       gestureHandling={true}
       zoom={1}
     >
@@ -93,13 +114,11 @@ export default function Leaflet({
       />
       <Polyline
         className={styles.route}
-        // @ts-expect-error - will fix later
         positions={data}
       />
       {!termini.isSame && (
         <>
           <CircleMarker
-            // @ts-expect-error - will fix later
             center={data[0]}
             className={styles.outer}
             fill={false}
@@ -107,16 +126,19 @@ export default function Leaflet({
             radius={6}
           />
           <CircleMarker
-            // @ts-expect-error - will fix later
             center={data[0]}
             className={styles.inner}
             fillOpacity={1}
             opacity={1}
             radius={5}
           >
-            <Tooltip permanent>
+            <Tooltip
+              permanent
+              // @ts-expect-error string is fine
+              direction={termini.start.position !== null ? termini.start.position : undefined}
+            >
               <span className={styles.eyebrow}>Start</span>
-              {termini.start.map((line, index) => (
+              {termini.start.words.map((line, index) => (
                 <span className={styles.line} key={index}>{line}</span>
               ))}
               <span className={styles.elevation}>
@@ -125,7 +147,6 @@ export default function Leaflet({
             </Tooltip>
           </CircleMarker>
           <CircleMarker
-            // @ts-expect-error - will fix later
             center={data[data.length - 1]}
             className={styles.outer}
             fill={false}
@@ -133,16 +154,19 @@ export default function Leaflet({
             radius={6}
           />
           <CircleMarker
-            // @ts-expect-error - will fix later
             center={data[data.length - 1]}
             className={styles.inner}
             fillOpacity={1}
             opacity={1}
             radius={5}
           >
-            <Tooltip permanent>
+            <Tooltip
+              permanent
+              // @ts-expect-error string is fine
+              direction={termini.end.position !== null ? termini.end.position : undefined}
+            >
               <span className={styles.eyebrow}>Finish</span>
-              {termini.end.map((line, index) => (
+              {termini.end.words.map((line, index) => (
                 <span className={styles.line} key={index}>{line}</span>
               ))}
               <span className={styles.elevation}>
@@ -154,7 +178,6 @@ export default function Leaflet({
       )}
       {hoverIndex !== null && (
         <CircleMarker
-          // @ts-expect-error - will fix later
           center={data[hoverIndex]}
           className={styles.outer}
           fill={false}

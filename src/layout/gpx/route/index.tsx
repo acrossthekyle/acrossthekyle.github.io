@@ -14,8 +14,8 @@ const Leaflet = dynamic(() => import('./leaflet'), {
 });
 
 type Props = {
-  elevation: string[] | null;
-  route: number[][] | null;
+  elevation: string[];
+  route: [number, number][];
   shouldShrink: boolean;
   termini: Termini;
 };

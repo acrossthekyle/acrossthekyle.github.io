@@ -44,19 +44,19 @@ function getData(slug: string, stage: string) {
     next: next ? {
       date: found.stages[next - 1].date,
       index: padIndex(next),
-      title: found.stages[next - 1].termini.end,
+      title: found.stages[next - 1].termini.end.words,
     } : undefined,
     previous: previous ? {
       date: found.stages[previous - 1].date,
       index: padIndex(previous),
-      title: found.stages[previous - 1].termini.end,
+      title: found.stages[previous - 1].termini.end.words,
     } : undefined,
-    route: result.route,
+    route: result.route as [number, number][],
     slug,
     stage,
     stats: result.stats,
     termini: result.termini,
-    title: result.termini.end,
+    title: result.termini.end.words,
     travel: found.title.join(' '),
   };
 };
@@ -74,7 +74,7 @@ export async function generateMetadata({ params }: GenerateMetadata): Promise<Me
   }
 
   return {
-    title: `${data.title} | ${data.travel} | Wanderings`,
+    title: `${data.title.join(' ')} | ${data.travel} | Wanderings`,
     description: data.description?.[0] || `${data.travel}: ${data.title}`,
   };
 };

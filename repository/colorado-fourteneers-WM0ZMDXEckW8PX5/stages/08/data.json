@@ -6,5 +6,6 @@
   "gain": "4474",
   "loss": "0",
   "miles": "4.26",
-  "minutes": "492"
+  "minutes": "492",
+  "tooltips": ["right", "right"]
 }

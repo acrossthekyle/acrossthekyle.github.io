@@ -841,15 +841,21 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Browns",
-            "Hollow"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Browns",
+              "Hollow"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Browns",
-            "Trailhead"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Browns",
+              "Trailhead"
+            ]
+          }
         }
       },
       {
@@ -1681,15 +1687,21 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Browns",
-            "Trailhead"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Browns",
+              "Trailhead"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Browns",
-            "Hollow"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Browns",
+              "Hollow"
+            ]
+          }
         }
       }
     ],
@@ -3195,14 +3207,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Auberge",
-            "Truc"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Auberge",
+              "Truc"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Les Houches"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Les Houches"
+            ]
+          }
         }
       },
       {
@@ -4034,15 +4052,21 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "La Croix du",
-            "Bonhomme"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "La Croix du",
+              "Bonhomme"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Auberge",
-            "Truc"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Auberge",
+              "Truc"
+            ]
+          }
         }
       },
       {
@@ -4874,15 +4898,21 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Robert",
-            "Blanc"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Robert",
+              "Blanc"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "La Croix du",
-            "Bonhomme"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "La Croix du",
+              "Bonhomme"
+            ]
+          }
         }
       },
       {
@@ -5714,15 +5744,21 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Maison",
-            "Veille"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Maison",
+              "Veille"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Robert",
-            "Blanc"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Robert",
+              "Blanc"
+            ]
+          }
         }
       },
       {
@@ -6554,14 +6590,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Bonatti"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Bonatti"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Maison",
-            "Veille"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Maison",
+              "Veille"
+            ]
+          }
         }
       },
       {
@@ -7393,14 +7435,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Hotel",
-            "Edelweiss"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Hotel",
+              "Edelweiss"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Bonatti"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Bonatti"
+            ]
+          }
         }
       },
       {
@@ -8232,14 +8280,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Bon Abri"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Bon Abri"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Hotel",
-            "Edelweiss"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Hotel",
+              "Edelweiss"
+            ]
+          }
         }
       },
       {
@@ -9071,14 +9125,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Hotel",
-            "Forclaz"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Hotel",
+              "Forclaz"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Bon Abri"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Bon Abri"
+            ]
+          }
         }
       },
       {
@@ -9910,14 +9970,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "La Boerne"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "La Boerne"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Hotel",
-            "Forclaz"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Hotel",
+              "Forclaz"
+            ]
+          }
         }
       },
       {
@@ -10749,13 +10815,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "La Flegere"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "La Flegere"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "La Boerne"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "La Boerne"
+            ]
+          }
         }
       },
       {
@@ -11587,13 +11659,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Les Houches"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Les Houches"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "La Flegere"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "La Flegere"
+            ]
+          }
         }
       }
     ],
@@ -11665,14 +11743,14 @@ const data = [
       {
         "date": "July 24th, 2024",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2024/07/24/f6f7470b-5e4e-42f7-aa59-ccabe81778bf.jpeg",
         "location": "Geneva",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -11681,28 +11759,34 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "Jet d'Eau",
-            "de Geneve"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "Jet d'Eau",
+              "de Geneve"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "Jet d'Eau",
-            "de Geneve"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "Jet d'Eau",
+              "de Geneve"
+            ]
+          }
         }
       },
       {
         "date": "July 24th, 2024",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2024/07/24/e19b87b3-ff48-499f-a225-3d4d608e9311.jpeg",
         "location": "Geneva",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -11711,28 +11795,34 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "Cathedral",
-            "Saint-Pierre"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "Cathedral",
+              "Saint-Pierre"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "Cathedral",
-            "Saint-Pierre"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "Cathedral",
+              "Saint-Pierre"
+            ]
+          }
         }
       },
       {
         "date": "July 25th, 2024",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2024/07/24/e38ad9d4-d8b7-433c-bdec-55294d442928.jpeg",
         "location": "Geneva",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -11741,15 +11831,21 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "",
-            "Conservatory"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "",
+              "Conservatory"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "",
-            "Conservatory"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "",
+              "Conservatory"
+            ]
+          }
         }
       }
     ],
@@ -13181,14 +13277,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "D'Ortu Di U",
-            "Piobbu"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "D'Ortu Di U",
+              "Piobbu"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Calenzana"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Calenzana"
+            ]
+          }
         }
       },
       {
@@ -14029,14 +14131,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Carozzu"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Carozzu"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "D'Ortu Di U",
-            "Piobbu"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "D'Ortu Di U",
+              "Piobbu"
+            ]
+          }
         }
       },
       {
@@ -14876,13 +14984,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Ascu Stagnu"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Ascu Stagnu"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Carozzu"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Carozzu"
+            ]
+          }
         }
       },
       {
@@ -15726,13 +15840,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "U Vallone"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "U Vallone"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Ascu Stagnu"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Ascu Stagnu"
+            ]
+          }
         }
       },
       {
@@ -16577,14 +16697,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Castel di",
-            "Vergio"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Castel di",
+              "Vergio"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "U Vallone"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "U Vallone"
+            ]
+          }
         }
       },
       {
@@ -17424,14 +17550,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Manganu"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Manganu"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Castel di",
-            "Vergio"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Castel di",
+              "Vergio"
+            ]
+          }
         }
       },
       {
@@ -18273,13 +18405,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Petra Piana"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Petra Piana"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Manganu"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Manganu"
+            ]
+          }
         }
       },
       {
@@ -19121,13 +19259,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "l'Onda"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "l'Onda"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Petra Piana"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Petra Piana"
+            ]
+          }
         }
       },
       {
@@ -19965,13 +20109,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Vizzavona"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Vizzavona"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "l'Onda"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "l'Onda"
+            ]
+          }
         }
       },
       {
@@ -20813,14 +20963,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Bocca di",
-            "Verdi"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Bocca di",
+              "Verdi"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Vizzavona"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Vizzavona"
+            ]
+          }
         }
       },
       {
@@ -21665,14 +21821,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "d'Usciolu"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "d'Usciolu"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Bocca di",
-            "Verdi"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Bocca di",
+              "Verdi"
+            ]
+          }
         }
       },
       {
@@ -22514,13 +22676,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "d'Asinau"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "d'Asinau"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "d'Usciolu"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "d'Usciolu"
+            ]
+          }
         }
       },
       {
@@ -23363,13 +23531,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Conca"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Conca"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "d'Asinau"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "d'Asinau"
+            ]
+          }
         }
       }
     ],
@@ -23441,14 +23615,14 @@ const data = [
       {
         "date": "January 3rd, 2023",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2022/12/28/5e393275-ee80-475d-83cf-26192cd55738.jpeg",
         "location": "West Bank of Luxor",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -23457,28 +23631,34 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "Colossi of",
-            "Memnon"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "Colossi of",
+              "Memnon"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "Colossi of",
-            "Memnon"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "Colossi of",
+              "Memnon"
+            ]
+          }
         }
       },
       {
         "date": "January 3rd, 2023",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2022/12/28/5f93fbaf-0c30-4f70-959d-a5e4384eff83.jpeg",
         "location": "Valley of the Kings, Kurna, Luxor",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -23487,28 +23667,34 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "Tomb of",
-            "Ramses V"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "Tomb of",
+              "Ramses V"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "Tomb of",
-            "Ramses V"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "Tomb of",
+              "Ramses V"
+            ]
+          }
         }
       },
       {
         "date": "January 3rd, 2023",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2022/12/28/12a42c7a-6b58-4356-a873-35d8cb66314a.jpeg",
         "location": "Valley of the Kings, Kurna, Luxor",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -23517,30 +23703,36 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "Tomb of the",
-            "King",
-            "Tutankhamun"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "Tomb of the",
+              "King",
+              "Tutankhamun"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "Tomb of the",
-            "King",
-            "Tutankhamun"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "Tomb of the",
+              "King",
+              "Tutankhamun"
+            ]
+          }
         }
       },
       {
         "date": "January 3rd, 2023",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2022/12/28/d8ebe864-7209-44ae-b426-a05337965b8d.jpeg",
         "location": "Valley of the Kings, Kurna, Luxor",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -23549,28 +23741,34 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "Tomb of",
-            "Ramses III"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "Tomb of",
+              "Ramses III"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "Tomb of",
-            "Ramses III"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "Tomb of",
+              "Ramses III"
+            ]
+          }
         }
       },
       {
         "date": "January 3rd, 2023",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2022/12/28/9fb7c062-5816-4154-b8cd-525a81f82be0.jpeg",
         "location": "Kurna, Luxor",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -23579,28 +23777,34 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "Valley of",
-            "the Queens"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "Valley of",
+              "the Queens"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "Valley of",
-            "the Queens"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "Valley of",
+              "the Queens"
+            ]
+          }
         }
       },
       {
         "date": "January 3rd, 2023",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2022/12/28/44f2c787-1209-4e11-a2fe-64030e0c472c.jpeg",
         "location": "West Bank of Luxor",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -23609,28 +23813,34 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "Medinet",
-            "Habu Temple"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "Medinet",
+              "Habu Temple"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "Medinet",
-            "Habu Temple"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "Medinet",
+              "Habu Temple"
+            ]
+          }
         }
       },
       {
         "date": "January 3rd, 2023",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2022/12/28/b7e2eeb1-90d3-49cb-bdb8-41acf2162f78.jpeg",
         "location": "West Bank of Luxor",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -23639,30 +23849,36 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "Hatshepsuts",
-            "Mortuary",
-            "Temple"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "Hatshepsuts",
+              "Mortuary",
+              "Temple"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "Hatshepsuts",
-            "Mortuary",
-            "Temple"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "Hatshepsuts",
+              "Mortuary",
+              "Temple"
+            ]
+          }
         }
       },
       {
         "date": "January 4th, 2023",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2022/12/28/b13b3a23-187a-4dc4-912d-e225b21af78a.jpeg",
         "location": "West Bank of Luxor",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -23671,30 +23887,36 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "Hot Air",
-            "Balloon",
-            "Ride"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "Hot Air",
+              "Balloon",
+              "Ride"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "Hot Air",
-            "Balloon",
-            "Ride"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "Hot Air",
+              "Balloon",
+              "Ride"
+            ]
+          }
         }
       },
       {
         "date": "January 4th, 2023",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2022/12/28/9799718c-81f7-460d-9f0a-7ddd2dffb060.jpeg",
         "location": "Luxor",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -23703,28 +23925,34 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "Luxor",
-            "Temple"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "Luxor",
+              "Temple"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "Luxor",
-            "Temple"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "Luxor",
+              "Temple"
+            ]
+          }
         }
       },
       {
         "date": "January 4th, 2023",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2022/12/28/7f2020f6-ccd2-4f4a-98a1-44abd2df6911.jpeg",
         "location": "Luxor",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -23733,17 +23961,23 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "Karnak",
-            "Temple",
-            "Complex"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "Karnak",
+              "Temple",
+              "Complex"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "Karnak",
-            "Temple",
-            "Complex"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "Karnak",
+              "Temple",
+              "Complex"
+            ]
+          }
         }
       }
     ],
@@ -23782,14 +24016,14 @@ const data = [
       {
         "date": "December 29th, 2022",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2022/12/28/c0f9c079-8942-4390-bb9e-dae4e0a65034.jpeg",
         "location": "Giza Plateau, Giza",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -23798,28 +24032,34 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "The",
-            "Pyramids"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "The",
+              "Pyramids"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "The",
-            "Pyramids"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "The",
+              "Pyramids"
+            ]
+          }
         }
       },
       {
         "date": "December 29th, 2022",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2022/12/28/b3275967-68fd-4c69-ad40-df15b2a697b5.jpeg",
         "location": "Giza Plateau, Giza",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -23828,26 +24068,32 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "The Sphinx"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "The Sphinx"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "The Sphinx"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "The Sphinx"
+            ]
+          }
         }
       },
       {
         "date": "December 30th, 2022",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2022/12/28/d9a7b01b-5915-493c-8c25-5a8ebd77ac58.jpeg",
         "location": "Saqqarah",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -23856,28 +24102,34 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "Bent",
-            "Pyramid"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "Bent",
+              "Pyramid"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "Bent",
-            "Pyramid"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "Bent",
+              "Pyramid"
+            ]
+          }
         }
       },
       {
         "date": "December 30th, 2022",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2022/12/28/2fbb089e-8a80-4c3b-b071-709cc9702a84.jpeg",
         "location": "Dahshur",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -23886,15 +24138,21 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "Step",
-            "Pyramid"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "Step",
+              "Pyramid"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "Step",
-            "Pyramid"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "Step",
+              "Pyramid"
+            ]
+          }
         }
       }
     ],
@@ -25333,15 +25591,21 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Blue Spring",
-            "Segment"
-          ],
-          "isSame": true,
-          "start": [
-            "Blue Spring",
-            "Segment"
-          ]
+          "end": {
+            "position": "left",
+            "words": [
+              "Stony Ridge",
+              "Shelter"
+            ]
+          },
+          "isSame": false,
+          "start": {
+            "position": "right",
+            "words": [
+              "Blue Spring",
+              "Lake"
+            ]
+          }
         }
       },
       {
@@ -26173,15 +26437,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Parnell",
-            "Segment"
-          ],
-          "isSame": true,
-          "start": [
-            "Parnell",
-            "Segment"
-          ]
+          "end": {
+            "position": "right",
+            "words": [
+              "Parnell",
+              "Shelter"
+            ]
+          },
+          "isSame": false,
+          "start": {
+            "position": "left",
+            "words": [
+              "Butler Lake"
+            ]
+          }
         }
       },
       {
@@ -27013,15 +27282,21 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Greenbush",
-            "Segment"
-          ],
-          "isSame": true,
-          "start": [
-            "Greenbush",
-            "Segment"
-          ]
+          "end": {
+            "position": "left",
+            "words": [
+              "Greenbush",
+              "Trailhead"
+            ]
+          },
+          "isSame": false,
+          "start": {
+            "position": "right",
+            "words": [
+              "Parnell",
+              "Shelter"
+            ]
+          }
         }
       }
     ],
@@ -28453,13 +28728,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Drymen"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Drymen"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Milngavie"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Milngavie"
+            ]
+          }
         }
       },
       {
@@ -29304,13 +29585,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Sallochy"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Sallochy"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Drymen"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Drymen"
+            ]
+          }
         }
       },
       {
@@ -30158,14 +30445,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Bienglas",
-            "Farm"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Bienglas",
+              "Farm"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Sallochy"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Sallochy"
+            ]
+          }
         }
       },
       {
@@ -31009,15 +31302,21 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Bridge of",
-            "Orchy"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Bridge of",
+              "Orchy"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Bienglas",
-            "Farm"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Bienglas",
+              "Farm"
+            ]
+          }
         }
       },
       {
@@ -31862,15 +32161,21 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "",
-            "Kinlochleven"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "",
+              "Kinlochleven"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Bridge of",
-            "Orchy"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Bridge of",
+              "Orchy"
+            ]
+          }
         }
       },
       {
@@ -32712,15 +33017,21 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Fort",
-            "William"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Fort",
+              "William"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "",
-            "Kinlochleven"
-          ]
+          "start": {
+            "position": "bottom",
+            "words": [
+              "",
+              "Kinlochleven"
+            ]
+          }
         }
       }
     ],
@@ -32793,14 +33104,14 @@ const data = [
       {
         "date": "March 23rd, 2022",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2022/03/23/9f212336-298d-4c7d-874f-a3be34c95d7d.jpeg",
         "location": "San Juan",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -32809,28 +33120,34 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "Ocean Park",
-            "Beach"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "Ocean Park",
+              "Beach"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "Ocean Park",
-            "Beach"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "Ocean Park",
+              "Beach"
+            ]
+          }
         }
       },
       {
         "date": "March 24th, 2022",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2022/03/23/1ba3d3f7-9462-4375-9770-4efedf15f582.jpeg",
         "location": "San Juan",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -32839,28 +33156,34 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "Castillo",
-            "San Felipe"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "Castillo",
+              "San Felipe"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "Castillo",
-            "San Felipe"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "Castillo",
+              "San Felipe"
+            ]
+          }
         }
       },
       {
         "date": "March 25th, 2022",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2022/03/23/11a03e4e-ed4e-47c2-822e-f720a9628638.jpeg",
         "location": "Ceiba",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -32869,17 +33192,23 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "El Yunque",
-            "National",
-            "Forest"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "El Yunque",
+              "National",
+              "Forest"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "El Yunque",
-            "National",
-            "Forest"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "El Yunque",
+              "National",
+              "Forest"
+            ]
+          }
         }
       }
     ],
@@ -33968,14 +34297,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Seron"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Seron"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Laguna",
-            "Amarga"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Laguna",
+              "Amarga"
+            ]
+          }
         }
       },
       {
@@ -34604,13 +34939,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Dickson"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Dickson"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Seron"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Seron"
+            ]
+          }
         }
       },
       {
@@ -35173,13 +35514,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Perros"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Perros"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Dickson"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Dickson"
+            ]
+          }
         }
       },
       {
@@ -36017,13 +36364,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Grey"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Grey"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Perros"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Perros"
+            ]
+          }
         }
       },
       {
@@ -36587,14 +36940,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Paine",
-            "Grande"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Paine",
+              "Grande"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Grey"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Grey"
+            ]
+          }
         }
       },
       {
@@ -37433,14 +37792,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Frances"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Frances"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Paine",
-            "Grande"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Paine",
+              "Grande"
+            ]
+          }
         }
       },
       {
@@ -38278,13 +38643,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Chileno"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Chileno"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Frances"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Frances"
+            ]
+          }
         }
       },
       {
@@ -39123,14 +39494,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Laguna",
-            "Amarga"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Laguna",
+              "Amarga"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Chileno"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Chileno"
+            ]
+          }
         }
       }
     ],
@@ -40688,13 +41065,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Bhulbhule"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Bhulbhule"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Besishar"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Besishar"
+            ]
+          }
         }
       },
       {
@@ -41535,13 +41918,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Jagat"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Jagat"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Bhulbhule"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Bhulbhule"
+            ]
+          }
         }
       },
       {
@@ -42379,13 +42768,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Dharapani"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Dharapani"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Jagat"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Jagat"
+            ]
+          }
         }
       },
       {
@@ -43223,13 +43618,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Chame"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Chame"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Dharapani"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Dharapani"
+            ]
+          }
         }
       },
       {
@@ -44067,14 +44468,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Upper",
-            "Pisang"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Upper",
+              "Pisang"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Chame"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Chame"
+            ]
+          }
         }
       },
       {
@@ -44915,14 +45322,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Manang"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Manang"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Upper",
-            "Pisang"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Upper",
+              "Pisang"
+            ]
+          }
         }
       },
       {
@@ -45761,14 +46174,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Tilicho",
-            "Lake"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Tilicho",
+              "Lake"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Manang"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Manang"
+            ]
+          }
         }
       },
       {
@@ -46607,15 +47026,21 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Shree",
-            "Kharka"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Shree",
+              "Kharka"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Tilicho",
-            "Lake"
-          ]
+          "start": {
+            "position": "top",
+            "words": [
+              "Tilicho",
+              "Lake"
+            ]
+          }
         }
       },
       {
@@ -47453,14 +47878,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Phedi"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Phedi"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Shree",
-            "Kharka"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Shree",
+              "Kharka"
+            ]
+          }
         }
       },
       {
@@ -48297,13 +48728,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Muktinath"
-          ],
+          "end": {
+            "position": "bottom",
+            "words": [
+              "Muktinath"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Phedi"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Phedi"
+            ]
+          }
         }
       },
       {
@@ -49141,13 +49578,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Marpha"
-          ],
+          "end": {
+            "position": "bottom",
+            "words": [
+              "Marpha"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Muktinath"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Muktinath"
+            ]
+          }
         }
       },
       {
@@ -49984,13 +50427,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Ghasa"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Ghasa"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Marpha"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Marpha"
+            ]
+          }
         }
       },
       {
@@ -50835,13 +51284,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Ghorepani"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Ghorepani"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Ghasa"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Ghasa"
+            ]
+          }
         }
       },
       {
@@ -51682,13 +52137,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Chomrong"
-          ],
+          "end": {
+            "position": "bottom",
+            "words": [
+              "Chomrong"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Ghorepani"
-          ]
+          "start": {
+            "position": "top",
+            "words": [
+              "Ghorepani"
+            ]
+          }
         }
       },
       {
@@ -52527,13 +52988,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Deurali"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Deurali"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Chomrong"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Chomrong"
+            ]
+          }
         }
       },
       {
@@ -53374,14 +53841,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Annapurna",
-            "Basecamp"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Annapurna",
+              "Basecamp"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Deurali"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Deurali"
+            ]
+          }
         }
       },
       {
@@ -54225,14 +54698,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Chomrong"
-          ],
+          "end": {
+            "position": "bottom",
+            "words": [
+              "Chomrong"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Annapurna",
-            "Basecamp"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Annapurna",
+              "Basecamp"
+            ]
+          }
         }
       },
       {
@@ -55070,13 +55549,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Jhinudanda"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Jhinudanda"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Chomrong"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Chomrong"
+            ]
+          }
         }
       }
     ],
@@ -56287,16 +56772,21 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Mount",
-            "Elbert"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Mount",
+              "Elbert"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Halfmoon",
-            "Road",
-            "Trailhead"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Halfmoon",
+              "Trailhead"
+            ]
+          }
         }
       },
       {
@@ -56873,15 +57363,21 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Quandary",
-            "Peak"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Quandary",
+              "Peak"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Mc Cullough",
-            "Gulch"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "McCullough",
+              "Gulch"
+            ]
+          }
         }
       },
       {
@@ -57713,15 +58209,21 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "La Plata",
-            "Peak"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "La Plata",
+              "Peak"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Colorado 82",
-            "Trailhead"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Colorado 82",
+              "Trailhead"
+            ]
+          }
         }
       },
       {
@@ -58553,15 +59055,21 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Mount",
-            "Bierstadt"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Mount",
+              "Bierstadt"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Guanella",
-            "Pass"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Guanella",
+              "Pass"
+            ]
+          }
         }
       },
       {
@@ -59393,14 +59901,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Grays Peak"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Grays Peak"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Grays Peak",
-            "Trailhead"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Grays Peak",
+              "Trailhead"
+            ]
+          }
         }
       },
       {
@@ -60232,14 +60746,21 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Mount",
-            "Shavano"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Mount",
+              "Shavano"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Shavano/Tabeguache"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Shavano",
+              "Trailhead"
+            ]
+          }
         }
       },
       {
@@ -61071,14 +61592,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Mount",
-            "DeCaLiBron"
-          ],
+          "end": {
+            "position": "top",
+            "words": [
+              "Mount",
+              "DeCaLiBron"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Kite Lake"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Kite Lake"
+            ]
+          }
         }
       },
       {
@@ -61910,15 +62437,21 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Mount",
-            "Belford"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Mount",
+              "Belford"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Missouri",
-            "Gulch"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Missouri",
+              "Gulch"
+            ]
+          }
         }
       },
       {
@@ -62750,16 +63283,21 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Mount",
-            "Massive"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Mount",
+              "Massive"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Halfmoon",
-            "Creek",
-            "Trailhead"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Halfmoon",
+              "Trailhead"
+            ]
+          }
         }
       }
     ],
@@ -64285,13 +64823,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Biella"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Biella"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Braies"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Braies"
+            ]
+          }
         }
       },
       {
@@ -65132,13 +65676,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Lavarella"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Lavarella"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Biella"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Biella"
+            ]
+          }
         }
       },
       {
@@ -65982,13 +66532,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Scotoni"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Scotoni"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Lavarella"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Lavarella"
+            ]
+          }
         }
       },
       {
@@ -66830,13 +67386,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Averau"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Averau"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Scotoni"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Scotoni"
+            ]
+          }
         }
       },
       {
@@ -67674,14 +68236,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Citta de",
-            "Fume"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Citta de",
+              "Fume"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Averau"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Averau"
+            ]
+          }
         }
       },
       {
@@ -68523,14 +69091,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Tissi"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Tissi"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Citta de",
-            "Fume"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Citta de",
+              "Fume"
+            ]
+          }
         }
       },
       {
@@ -69370,13 +69944,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Carestiato"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Carestiato"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Tissi"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Tissi"
+            ]
+          }
         }
       },
       {
@@ -70215,13 +70795,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Pramperet"
-          ],
+          "end": {
+            "position": "bottom",
+            "words": [
+              "Pramperet"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Carestiato"
-          ]
+          "start": {
+            "position": "bottom",
+            "words": [
+              "Carestiato"
+            ]
+          }
         }
       },
       {
@@ -71062,14 +71648,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Pian de",
-            "Fontana"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Pian de",
+              "Fontana"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Pramperet"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Pramperet"
+            ]
+          }
         }
       },
       {
@@ -71911,14 +72503,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "La Pissa"
-          ],
+          "end": {
+            "position": "top",
+            "words": [
+              "La Pissa"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Pian de",
-            "Fontana"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Pian de",
+              "Fontana"
+            ]
+          }
         }
       }
     ],
@@ -71989,14 +72587,14 @@ const data = [
       {
         "date": "November 6th, 2019",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2019/11/06/0a6730d7-113b-4bca-b9d1-71ecf8e69713.jpeg",
         "location": "Pokhara",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -72005,26 +72603,32 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "Lake Fewa"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "Lake Fewa"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "Lake Fewa"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "Lake Fewa"
+            ]
+          }
         }
       },
       {
         "date": "November 7th, 2019",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2019/11/06/4286cd26-eaad-47b1-96f7-2dff5ea38352.jpeg",
         "location": "Pokhara",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -72033,28 +72637,34 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "Peace",
-            "Pagoda"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "Peace",
+              "Pagoda"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "Peace",
-            "Pagoda"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "Peace",
+              "Pagoda"
+            ]
+          }
         }
       },
       {
         "date": "November 8th, 2019",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2019/11/06/9bbcf55a-54e8-4a7e-8c6f-12d718bc0da0.jpeg",
         "location": "Pokhara",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -72063,13 +72673,19 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "Paragliding"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "Paragliding"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "Paragliding"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "Paragliding"
+            ]
+          }
         }
       }
     ],
@@ -73554,13 +74170,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Le Truc"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Le Truc"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Les Houches"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Les Houches"
+            ]
+          }
         }
       },
       {
@@ -74411,15 +75033,21 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "La Croix du",
-            "Bonhomme"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "La Croix du",
+              "Bonhomme"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Auberge",
-            "Truc"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Auberge",
+              "Truc"
+            ]
+          }
         }
       },
       {
@@ -75269,15 +75897,21 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Robert",
-            "Blanc"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Robert",
+              "Blanc"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "La Croix du",
-            "Bonhomme"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "La Croix du",
+              "Bonhomme"
+            ]
+          }
         }
       },
       {
@@ -76131,15 +76765,21 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Maison",
-            "Veille"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Maison",
+              "Veille"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Robert",
-            "Blanc"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Robert",
+              "Blanc"
+            ]
+          }
         }
       },
       {
@@ -76991,14 +77631,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Bonatti"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Bonatti"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Maison",
-            "Veille"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Maison",
+              "Veille"
+            ]
+          }
         }
       },
       {
@@ -77854,13 +78500,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Maya Joie"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Maya Joie"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Bonatti"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Bonatti"
+            ]
+          }
         }
       },
       {
@@ -78712,13 +79364,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Bon Abri"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Bon Abri"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Maya Joie"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Maya Joie"
+            ]
+          }
         }
       },
       {
@@ -79570,13 +80228,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Le Peuty"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Le Peuty"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Bon Abri"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Bon Abri"
+            ]
+          }
         }
       },
       {
@@ -80420,13 +81084,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "La Boerne"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "La Boerne"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Le Peuty"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Le Peuty"
+            ]
+          }
         }
       },
       {
@@ -81279,13 +81949,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "La Flegere"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "La Flegere"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "La Boerne"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "La Boerne"
+            ]
+          }
         }
       },
       {
@@ -82133,13 +82809,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Bellechat"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Bellechat"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "La Flegere"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "La Flegere"
+            ]
+          }
         }
       },
       {
@@ -82985,13 +83667,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Les Houches"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Les Houches"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Bellechat"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Bellechat"
+            ]
+          }
         }
       }
     ],
@@ -84511,16 +85199,22 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "",
-            "Roncesvalles"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "",
+              "Roncesvalles"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Saint Jean",
-            "Pied de",
-            "Port"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Saint Jean",
+              "Pied de",
+              "Port"
+            ]
+          }
         }
       },
       {
@@ -85370,14 +86064,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Zubiri"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Zubiri"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "",
-            "Roncesvalles"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "",
+              "Roncesvalles"
+            ]
+          }
         }
       },
       {
@@ -86226,13 +86926,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Pamplona"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Pamplona"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Zubiri"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Zubiri"
+            ]
+          }
         }
       },
       {
@@ -87085,14 +87791,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Puente la",
-            "Reina"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Puente la",
+              "Reina"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Pamplona"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Pamplona"
+            ]
+          }
         }
       },
       {
@@ -87940,14 +88652,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Estella"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Estella"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Puente la",
-            "Reina"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Puente la",
+              "Reina"
+            ]
+          }
         }
       },
       {
@@ -88803,13 +89521,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Sansol"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Sansol"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Estella"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Estella"
+            ]
+          }
         }
       },
       {
@@ -89661,13 +90385,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Logrono"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Logrono"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Sansol"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Sansol"
+            ]
+          }
         }
       },
       {
@@ -90526,13 +91256,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Najera"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Najera"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Logrono"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Logrono"
+            ]
+          }
         }
       },
       {
@@ -91385,14 +92121,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Santo",
-            "Domingo"
-          ],
+          "end": {
+            "position": "top",
+            "words": [
+              "Santo",
+              "Domingo"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Najera"
-          ]
+          "start": {
+            "position": "top",
+            "words": [
+              "Najera"
+            ]
+          }
         }
       },
       {
@@ -92245,14 +92987,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Belorado"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Belorado"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Santo",
-            "Domingo"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Santo",
+              "Domingo"
+            ]
+          }
         }
       },
       {
@@ -93104,13 +93852,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Ages"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Ages"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Belorado"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Belorado"
+            ]
+          }
         }
       },
       {
@@ -93965,13 +94719,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Burgos"
-          ],
+          "end": {
+            "position": "bottom",
+            "words": [
+              "Burgos"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Ages"
-          ]
+          "start": {
+            "position": "bottom",
+            "words": [
+              "Ages"
+            ]
+          }
         }
       },
       {
@@ -94831,13 +95591,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Hontanas"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Hontanas"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Burgos"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Burgos"
+            ]
+          }
         }
       },
       {
@@ -95692,13 +96458,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Fromista"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Fromista"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Hontanas"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Hontanas"
+            ]
+          }
         }
       },
       {
@@ -96544,13 +97316,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Carrion"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Carrion"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Fromista"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Fromista"
+            ]
+          }
         }
       },
       {
@@ -97401,13 +98179,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Sahagun"
-          ],
+          "end": {
+            "position": "top",
+            "words": [
+              "Sahagun"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Carrion"
-          ]
+          "start": {
+            "position": "bottom",
+            "words": [
+              "Carrion"
+            ]
+          }
         }
       },
       {
@@ -98261,13 +99045,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Reliegos"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Reliegos"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Sahagun"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Sahagun"
+            ]
+          }
         }
       },
       {
@@ -99116,13 +99906,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Leon"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Leon"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Reliegos"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Reliegos"
+            ]
+          }
         }
       },
       {
@@ -99981,13 +100777,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Mazarife"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Mazarife"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Leon"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Leon"
+            ]
+          }
         }
       },
       {
@@ -100849,13 +101651,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Astorga"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "Astorga"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Mazarife"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Mazarife"
+            ]
+          }
         }
       },
       {
@@ -101706,13 +102514,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Foncebadon"
-          ],
+          "end": {
+            "position": "top",
+            "words": [
+              "Foncebadon"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Astorga"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Astorga"
+            ]
+          }
         }
       },
       {
@@ -102555,13 +103369,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Ponferrada"
-          ],
+          "end": {
+            "position": "top",
+            "words": [
+              "Ponferrada"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Foncebadon"
-          ]
+          "start": {
+            "position": "top",
+            "words": [
+              "Foncebadon"
+            ]
+          }
         }
       },
       {
@@ -103406,13 +104226,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Villafranca"
-          ],
+          "end": {
+            "position": "bottom",
+            "words": [
+              "Villafranca"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Ponferrada"
-          ]
+          "start": {
+            "position": "left",
+            "words": [
+              "Ponferrada"
+            ]
+          }
         }
       },
       {
@@ -104255,13 +105081,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "O Cebreiro"
-          ],
+          "end": {
+            "position": "left",
+            "words": [
+              "O Cebreiro"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Villafranca"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Villafranca"
+            ]
+          }
         }
       },
       {
@@ -105103,13 +105935,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Sarria"
-          ],
+          "end": {
+            "position": "bottom",
+            "words": [
+              "Sarria"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "O Cebreiro"
-          ]
+          "start": {
+            "position": "top",
+            "words": [
+              "O Cebreiro"
+            ]
+          }
         }
       },
       {
@@ -105952,13 +106790,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Portomarin"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Portomarin"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Sarria"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Sarria"
+            ]
+          }
         }
       },
       {
@@ -106802,13 +107646,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Melide"
-          ],
+          "end": {
+            "position": "top",
+            "words": [
+              "Melide"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Portomarin"
-          ]
+          "start": {
+            "position": "bottom",
+            "words": [
+              "Portomarin"
+            ]
+          }
         }
       },
       {
@@ -107648,13 +108498,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Pedrouzo"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Pedrouzo"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Melide"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Melide"
+            ]
+          }
         }
       },
       {
@@ -108498,14 +109354,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Santiago de",
-            "Compostela"
-          ],
+          "end": {
+            "position": "bottom",
+            "words": [
+              "Santiago de",
+              "Compostela"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Pedrouzo"
-          ]
+          "start": {
+            "position": "bottom",
+            "words": [
+              "Pedrouzo"
+            ]
+          }
         }
       },
       {
@@ -109348,14 +110210,20 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Negreira"
-          ],
+          "end": {
+            "position": "top",
+            "words": [
+              "Negreira"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Santiago de",
-            "Compostela"
-          ]
+          "start": {
+            "position": "bottom",
+            "words": [
+              "Santiago de",
+              "Compostela"
+            ]
+          }
         }
       },
       {
@@ -110195,13 +111063,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Olveiroa"
-          ],
+          "end": {
+            "position": "top",
+            "words": [
+              "Olveiroa"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Negreira"
-          ]
+          "start": {
+            "position": "bottom",
+            "words": [
+              "Negreira"
+            ]
+          }
         }
       },
       {
@@ -111057,13 +111931,19 @@ const data = [
           }
         },
         "termini": {
-          "end": [
-            "Fisterra"
-          ],
+          "end": {
+            "position": "right",
+            "words": [
+              "Fisterra"
+            ]
+          },
           "isSame": false,
-          "start": [
-            "Olveiroa"
-          ]
+          "start": {
+            "position": "right",
+            "words": [
+              "Olveiroa"
+            ]
+          }
         }
       }
     ],
@@ -111135,14 +112015,14 @@ const data = [
       {
         "date": "March 25th, 2016",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2016/03/18/fb45dc07-e4fe-4d90-b39a-f54e50142d5a.jpeg",
         "location": "Patagonia",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -111151,32 +112031,38 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "Torres del",
-            "Paine",
-            "National",
-            "Park"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "Torres del",
+              "Paine",
+              "National",
+              "Park"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "Torres del",
-            "Paine",
-            "National",
-            "Park"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "Torres del",
+              "Paine",
+              "National",
+              "Park"
+            ]
+          }
         }
       },
       {
         "date": "March 26th, 2016",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2016/03/18/9e9e78a3-a2ad-4a09-962c-fc1866ccfbd4.jpeg",
         "location": "Patagonia",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -111185,28 +112071,34 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "Cueva del",
-            "Milodón"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "Cueva del",
+              "Milodón"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "Cueva del",
-            "Milodón"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "Cueva del",
+              "Milodón"
+            ]
+          }
         }
       },
       {
         "date": "March 27th, 2016",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2016/03/18/9742d413-6fdd-4474-a4a2-59ada5ddab14.jpeg",
         "location": "Patagonia",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -111215,15 +112107,21 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "Glacier",
-            "Cruise"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "Glacier",
+              "Cruise"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "Glacier",
-            "Cruise"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "Glacier",
+              "Cruise"
+            ]
+          }
         }
       }
     ],
@@ -111262,14 +112160,14 @@ const data = [
       {
         "date": "March 19th, 2016",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2016/03/18/a3205d70-0fc8-416a-b383-eb08e9e612a5.jpeg",
         "location": "Parque Metropolitano de Santiago",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -111278,26 +112176,32 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "Santiago"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "Santiago"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "Santiago"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "Santiago"
+            ]
+          }
         }
       },
       {
         "date": "March 20th, 2016",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2016/03/18/dd0b9008-fbc2-4916-a33c-303a406e8fa5.jpeg",
         "location": "Valparaiso Region",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -111306,26 +112210,32 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "Valparaiso"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "Valparaiso"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "Valparaiso"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "Valparaiso"
+            ]
+          }
         }
       },
       {
         "date": "March 21st, 2016",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2016/03/18/1f5577cc-e0c2-4c66-987e-903a9b6be02c.jpeg",
         "location": "Santiago",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -111334,30 +112244,36 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "San José de",
-            "Maipo",
-            "Glacier"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "San José de",
+              "Maipo",
+              "Glacier"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "San José de",
-            "Maipo",
-            "Glacier"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "San José de",
+              "Maipo",
+              "Glacier"
+            ]
+          }
         }
       },
       {
         "date": "March 23rd, 2016",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2016/03/18/b941c594-5218-449f-b79d-cb9936f56ad5.jpeg",
         "location": "Santiago",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -111366,17 +112282,23 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "Cousino",
-            "Macul",
-            "Winery"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "Cousino",
+              "Macul",
+              "Winery"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "Cousino",
-            "Macul",
-            "Winery"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "Cousino",
+              "Macul",
+              "Winery"
+            ]
+          }
         }
       }
     ],
@@ -111416,14 +112338,14 @@ const data = [
       {
         "date": "March 23rd, 2015",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2015/03/19/9650d680-3809-45e9-a9df-0e108f3e1498.jpeg",
         "location": "Montevideo",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -111432,28 +112354,34 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "Exploring",
-            "the city"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "Exploring",
+              "the city"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "Exploring",
-            "the city"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "Exploring",
+              "the city"
+            ]
+          }
         }
       },
       {
         "date": "March 23rd, 2015",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2015/03/19/2894ebbc-a07d-40c9-91e7-68db3eeed340.jpeg",
         "location": "Montevideo",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -111462,15 +112390,21 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "",
-            "Independence"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "",
+              "Independence"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "",
-            "Independence"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "",
+              "Independence"
+            ]
+          }
         }
       }
     ],
@@ -111509,14 +112443,14 @@ const data = [
       {
         "date": "March 21st, 2015",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2015/03/19/1ddbd381-ac73-4dc2-9fa9-7398e0438098.jpeg",
         "location": "Buenos Aires",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -111525,28 +112459,34 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "Hop on hop",
-            "off tour"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "Hop on hop",
+              "off tour"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "Hop on hop",
-            "off tour"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "Hop on hop",
+              "off tour"
+            ]
+          }
         }
       },
       {
         "date": "March 22nd, 2015",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2015/03/19/7e447ab0-dea1-4f58-b3fa-2155c23f6176.jpeg",
         "location": "Buenos Aires",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -111555,26 +112495,32 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "La Catedral"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "La Catedral"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "La Catedral"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "La Catedral"
+            ]
+          }
         }
       },
       {
         "date": "March 22nd, 2015",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2015/03/19/36c1fead-d537-4c38-abb9-b09edeb17b94.jpeg",
         "location": "Buenos Aires",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -111583,28 +112529,34 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "Marionette",
-            "Performer"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "Marionette",
+              "Performer"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "Marionette",
-            "Performer"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "Marionette",
+              "Performer"
+            ]
+          }
         }
       },
       {
         "date": "March 22nd, 2015",
         "description": [],
-        "elevation": null,
+        "elevation": [],
         "hasElevation": false,
         "hasRoute": false,
         "hasStats": false,
         "image": "2015/03/19/aaa356af-6a08-4305-8fe2-80819bd00f16.jpeg",
         "location": "Buenos Aires",
         "readingTime": null,
-        "route": null,
+        "route": [],
         "stats": {
           "distance": null,
           "gain": null,
@@ -111613,15 +112565,21 @@ const data = [
           "time": null
         },
         "termini": {
-          "end": [
-            "",
-            "Lollapalooza"
-          ],
+          "end": {
+            "position": null,
+            "words": [
+              "",
+              "Lollapalooza"
+            ]
+          },
           "isSame": true,
-          "start": [
-            "",
-            "Lollapalooza"
-          ]
+          "start": {
+            "position": null,
+            "words": [
+              "",
+              "Lollapalooza"
+            ]
+          }
         }
       }
     ],

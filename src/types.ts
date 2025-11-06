@@ -38,9 +38,15 @@ export type StatShort = {
 };
 
 export type Termini = {
-  end: string[];
+  end: {
+    position: string | null;
+    words: string[];
+  };
   isSame: boolean;
-  start: string[];
+  start: {
+    position: string | null;
+    words: string[];
+  };
 };
 
 export type Stats = {

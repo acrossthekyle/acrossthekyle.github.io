@@ -27,7 +27,7 @@ export default function Timeline({ slug, stages }: Props) {
         >
           <ImageFigure>
             <Image
-              alt={stage.termini.end.join(' ')}
+              alt={stage.termini.end.words.join(' ')}
               height={1080}
               index={index}
               sizes="(max-width: 768px) 100vw, 50vw"
@@ -38,14 +38,14 @@ export default function Timeline({ slug, stages }: Props) {
             </Image>
             <ImageCaption>
               <ImageLink
-                label={`Learn more about ${stage.termini.end.join(' ')}`}
+                label={`Learn more about ${stage.termini.end.words.join(' ')}`}
                 href={`/wanderings/${slug}/${stage.index}`}
               >
                 <ImageCaptionEyebrow>
                   {stage.date}
                 </ImageCaptionEyebrow>
                 <ImageCaptionText>
-                  {stage.termini.end.map((word) => (
+                  {stage.termini.end.words.map((word) => (
                     <span className={styles.line} key={word}>
                       {word}
                     </span>

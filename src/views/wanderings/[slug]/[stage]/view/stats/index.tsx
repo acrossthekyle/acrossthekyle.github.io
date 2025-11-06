@@ -6,8 +6,8 @@ import type { Stats, Termini } from '@/types';
 import styles from './stylesheet';
 
 type Props = {
-  elevation: string[] | null;
-  route: number[][] | null;
+  elevation: string[];
+  route: [number, number][];
   stats: Stats;
   termini: Termini;
 };
@@ -27,11 +27,11 @@ export default function Stats({ elevation, route, stats, termini }: Props) {
   const sections: Section[] = [
     {
       heading: 'Start',
-      value: termini.start.join(' '),
+      value: termini.start.words.join(' '),
     },
     {
       heading: 'End',
-      value: termini.end.join(' '),
+      value: termini.end.words.join(' '),
     },
   ];
 
