@@ -2,7 +2,7 @@
 
 import { create } from 'zustand';
 
-import type { Gpx, Termini } from '@/types';
+import type { Gpx, Stats, Termini } from '@/types';
 
 import { useEvent } from './useEvent';
 
@@ -10,12 +10,14 @@ type State = {
   canRenderElevation: boolean;
   gpx: Gpx;
   isOpen: boolean;
+  stats: Stats;
   termini: Termini;
 };
 
 type Actions = {
   setGpx: (
     gpx: Gpx,
+    stats: Stats,
     termini: Termini,
   ) => void;
   toggleCanRenderElevation: () => void;
@@ -27,6 +29,13 @@ const store = create<State & Actions>()(
     canRenderElevation: false,
     gpx: [],
     isOpen: false,
+    stats: {
+      distance: null,
+      gain: null,
+      loss: null,
+      max: null,
+      time: null,
+    },
     termini: {
       end: {
         position: null,
@@ -40,11 +49,13 @@ const store = create<State & Actions>()(
     },
     setGpx: (
       gpx: Gpx,
+      stats: Stats,
       termini: Termini,
     ) => {
       set({
         gpx,
         isOpen: true,
+        stats,
         termini,
       });
     },
@@ -57,6 +68,13 @@ const store = create<State & Actions>()(
       setTimeout(() => {
         set({
           gpx: [],
+          stats: {
+            distance: null,
+            gain: null,
+            loss: null,
+            max: null,
+            time: null,
+          },
           termini: {
             end: {
               position: null,
@@ -80,6 +98,7 @@ export function useGpx() {
     gpx,
     isOpen,
     setGpx,
+    stats,
     termini,
     toggleCanRenderElevation,
     unset,
@@ -91,8 +110,8 @@ export function useGpx() {
     document.documentElement.classList.remove('overflow-hidden');
   };
 
-  const openGpx = (gpx: Gpx, termini: Termini) => {
-    setGpx(gpx, termini);
+  const openGpx = (gpx: Gpx, stats: Stats, termini: Termini) => {
+    setGpx(gpx, stats, termini);
 
     document.documentElement.classList.add('overflow-hidden');
   };
@@ -111,6 +130,7 @@ export function useGpx() {
     gpx,
     isOpen,
     openGpx,
+    stats,
     termini,
     toggleElevation,
   };

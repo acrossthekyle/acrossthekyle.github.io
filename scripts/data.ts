@@ -204,7 +204,7 @@ function reduceGpxData(data) {
   const minVal = Math.min(...data);
   const maxVal = Math.max(...data);
   const indices = [data.indexOf(minVal), data.indexOf(maxVal)];
-  const targetSize = 150;
+  const targetSize = 200;
 
   const step = (data.length - 1) / (targetSize - 1);
 

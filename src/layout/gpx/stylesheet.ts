@@ -60,21 +60,18 @@ const styles = tw({
   `,
   view: (canRenderElevation: boolean) => tw(`
     hidden
-    absolute ${canRenderElevation ? 'bottom-58' : 'bottom-5'} left-5 z-9999
+    absolute bottom-5 right-5 z-9999
     text-current/90
     uppercase
     text-xs text-center
     font-bold
-    py-0.75
-    w-32
-    border-1
-    rounded-full
+    duration-300
 
-    base:top-5
-    base:left-5
-    base:bottom-auto
-    deka:top-9
-    deka:left-9
+    ${canRenderElevation ? 'opacity-0' : 'opacity-100'}
+
+    base:block
+    deka:bottom-12
+    deka:right-12
   `),
 });
 

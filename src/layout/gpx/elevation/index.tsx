@@ -1,8 +1,10 @@
 'use client';
 
+import { ChevronDown, ChevronUp, X } from 'lucide-react';
 import dynamic from 'next/dynamic';
-import { useContext } from 'react';
+import { useContext, useEffect, useState } from 'react';
 
+import { useGpx } from '@/hooks/useGpx';
 import type { Gpx } from '@/types';
 
 import { GpxContext } from '../context';
@@ -15,10 +17,25 @@ const Chart = dynamic(() => import('react-apexcharts'), {
 
 type Props = {
   gpx: Gpx;
+  shouldGrow: boolean;
 };
 
-export default function Elevation({ gpx }: Props) {
+export default function Elevation({ gpx, shouldGrow }: Props) {
+  const [isDarkMode, setIsDarkMode] = useState(true);
+
   const { onHover } = useContext(GpxContext);
+
+  const { stats, toggleElevation } = useGpx();
+
+  useEffect(() => {
+    let theme = 'light';
+
+    if (localStorage.getItem('theme')) {
+      theme = localStorage.getItem('theme') || 'light';
+    }
+
+    setIsDarkMode(theme !== 'light');
+  }, [gpx]);
 
   const handleMouseLeave = () => {
     onHover(null);
@@ -29,7 +46,39 @@ export default function Elevation({ gpx }: Props) {
   }
 
   return (
-    <div className={styles.section} onMouseLeave={handleMouseLeave}>
+    <div className={styles.section(shouldGrow)} onMouseLeave={handleMouseLeave}>
+      <span className={styles.title}>
+        Elevation
+        <span className={styles.change}>
+          {stats.gain && (
+            <span className={styles.inline}>
+              <ChevronUp className={styles.arrow} />
+              {stats.gain.value.imperial} {stats.gain.units.imperial.abbreviated}
+            </span>
+          )}
+          {stats.loss && (
+            <span className={styles.inline}>
+              <ChevronDown className={styles.arrow} />
+              {stats.loss.value.imperial} {stats.loss.units.imperial.abbreviated}
+            </span>
+          )}
+        </span>
+      </span>
+      {stats.distance && (
+        <div className={styles.ticks}>
+          {Array.from({ length: Number(stats.distance.value.imperial) + 1 }, (_, index) => (
+            <div className={styles.tick} key={index} />
+          ))}
+        </div>
+      )}
+      <button
+        className={styles.close}
+        onClick={toggleElevation}
+        title="Close elevation"
+        type="button"
+      >
+        <X className={styles.icon} />
+      </button>
       <Chart
         options={{
           chart: {
@@ -55,19 +104,23 @@ export default function Elevation({ gpx }: Props) {
           dataLabels: {
             enabled: false,
           },
+          fill: {
+            type: 'solid',
+            colors: [isDarkMode ? '#000000' : '#ffffff'],
+          },
           stroke: {
-            colors: ['#ffffffaa'],
+            colors: [isDarkMode ? '#000000aa' : '#ffffffaa'],
             curve: 'smooth',
-            width: 3,
+            width: 1,
           },
           grid: {
             show: true,
-            borderColor: '#ffffff1a',
+            borderColor: 'transparent',
             padding: {
               top: 0,
-              bottom: 0,
-              right: 18,
-              left: 14,
+              bottom: -22,
+              right: 10,
+              left: 0,
             },
           },
           xaxis: {
@@ -76,7 +129,7 @@ export default function Elevation({ gpx }: Props) {
             categories: [],
             axisBorder: {
               show: false,
-              color: '#ffffff1a',
+              color: isDarkMode ? '#0000001a' : '#ffffff1a',
             },
             axisTicks: {
               show: false,
@@ -96,21 +149,21 @@ export default function Elevation({ gpx }: Props) {
           yaxis: {
             axisBorder: {
               show: false,
-              color: '#ffffff1a',
+              color: isDarkMode ? '#0000001a' : '#ffffff1a',
             },
             axisTicks: {
-              show: true,
-              color: '#ffffff1a',
+              show: false,
+              color: isDarkMode ? '#0000001a' : '#ffffff1a',
             },
             labels: {
+              show: false,
               offsetX: 0,
-              align: 'left',
+              align: 'right',
               style: {
-                colors: '#ffffffdb',
+                colors: isDarkMode ? '#ffffffdb' : '#000000db',
                 fontWeight: 400,
               },
               formatter: (value: number) => `${new Intl.NumberFormat().format(value)} ft`,
-              show: true,
             },
           },
           tooltip: {
@@ -136,7 +189,7 @@ export default function Elevation({ gpx }: Props) {
             data: gpx.map(coordinate => coordinate[2]),
           },
         ]}
-        type="line"
+        type="area"
         height="100%"
       />
     </div>

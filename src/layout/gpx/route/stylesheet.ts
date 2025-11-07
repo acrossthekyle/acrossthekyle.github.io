@@ -1,11 +1,10 @@
 import tw from '@/styles';
 
 const styles = tw({
-  section: (shouldShrink: boolean) => tw(`
-    ${shouldShrink ? 'h-[calc(100%-13.5rem)]' : 'h-full'}
-    w-full
+  section: `
+    h-full w-full
     overflow-hidden
-  `),
+  `,
   map: `
     relative
     h-full w-full

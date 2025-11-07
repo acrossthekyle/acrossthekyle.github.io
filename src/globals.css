@@ -102,7 +102,7 @@ body {
     padding-left: 1rem;
   }
 
-  @media (width >= 48rem) {
+  @media (width >= 60.3125rem) {
     .leaflet-control {
       padding-top: 2.4rem;
       padding-left: 2.25rem;
@@ -130,7 +130,6 @@ body {
     box-shadow: none;
     border: none !important;
     color: var(--tooltip-text-color);
-    text-shadow: 1px 1px 1px #000000;
   }
 
   .leaflet-tooltip-top {
@@ -164,5 +163,15 @@ body {
 
   .apexcharts-tooltip {
     box-shadow: none !important;
+  }
+
+  .apexcharts-series {
+    clip-path: inset(0% 0% 0% 0% round 12px);
+  }
+
+  @media (width >= 60.3125rem) {
+    .apexcharts-series {
+      clip-path: inset(0% 0% 0% 0% round 6px) !important;
+    }
   }
 }

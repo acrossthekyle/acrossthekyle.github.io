@@ -20,7 +20,7 @@ export default function Stats({ gpx, stats, termini }: Props) {
   const { openGpx } = useGpx();
 
   const handleOnViewGpxPress = () => {
-    openGpx(gpx, termini);
+    openGpx(gpx, stats, termini);
   };
 
   const sections: Section[] = [

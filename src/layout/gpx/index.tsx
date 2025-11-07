@@ -1,6 +1,6 @@
 'use client';
 
-import { X } from 'lucide-react';
+import { TrendingUp, X } from 'lucide-react';
 import FocusLock from 'react-focus-lock';
 
 import { useGpx } from '@/hooks/useGpx';
@@ -29,7 +29,7 @@ export default function Gpx() {
         role="dialog"
         tabIndex={-1}
       >
-        <FocusLock className="h-full" disabled={!isOpen}>
+        <FocusLock className="relative h-full w-full" disabled={!isOpen}>
           <button
             className={styles.close}
             onClick={closeGpx}
@@ -41,9 +41,10 @@ export default function Gpx() {
           <button
             className={styles.view(canRenderElevation)}
             onClick={toggleElevation}
+            title="View elevation chart"
             type="button"
           >
-            {canRenderElevation ? 'Hide' : 'Show'} elevation
+            <TrendingUp />
           </button>
           <Context>
             <Route
@@ -51,9 +52,7 @@ export default function Gpx() {
               shouldShrink={canRenderElevation}
               termini={termini}
             />
-            {canRenderElevation && (
-              <Elevation gpx={gpx} />
-            )}
+            <Elevation gpx={gpx} shouldGrow={canRenderElevation} />
           </Context>
         </FocusLock>
       </div>

@@ -27,7 +27,7 @@ export default function Route({ gpx, shouldShrink, termini }: Props) {
   }
 
   return (
-    <div className={styles.section(shouldShrink)}>
+    <div className={styles.section}>
       <Plugin
         gpx={gpx}
         hoverIndex={hoverIndex}
