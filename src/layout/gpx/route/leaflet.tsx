@@ -15,30 +15,28 @@ import {
   useMap,
 } from 'react-leaflet';
 
-import type { Termini } from '@/types';
+import type { Gpx, Termini } from '@/types';
 
 import styles from './stylesheet';
 
 type Props = {
-  elevation: string[];
+  gpx: Gpx;
   hoverIndex: number | null;
   resize: boolean;
-  route: [number, number][];
   termini: Termini;
 };
 
 export default function Leaflet({
-  elevation,
+  gpx,
   hoverIndex,
   resize,
-  route,
   termini,
 }: Props) {
-  const [data, setData] = useState<[number, number][]>([]);
+  const [data, setData] = useState<Gpx>([]);
   const [isDarkMode, setIsDarkMode] = useState(true);
 
   useEffect(() => {
-    if (route) {
+    if (gpx) {
       let theme = 'light';
 
       if (localStorage.getItem('theme')) {
@@ -47,11 +45,11 @@ export default function Leaflet({
 
       setIsDarkMode(theme !== 'light');
 
-      setData(route);
+      setData(gpx);
     }
-  }, [route]);
+  }, [gpx]);
 
-  function Center({ positions }: { positions: [number, number][] }) {
+  function Center({ positions }: { positions: Gpx }) {
     const map = useMap();
 
     useEffect(() => {
@@ -95,7 +93,7 @@ export default function Leaflet({
     return null;
   }
 
-  if (data.length === 0) {
+  if (data === null) {
     return null;
   }
 
@@ -142,7 +140,7 @@ export default function Leaflet({
                 <span className={styles.line} key={index}>{line}</span>
               ))}
               <span className={styles.elevation}>
-                {new Intl.NumberFormat().format(Number(elevation[0]))} ft
+                {new Intl.NumberFormat().format(gpx[0][2])} ft
               </span>
             </Tooltip>
           </CircleMarker>
@@ -165,12 +163,12 @@ export default function Leaflet({
               // @ts-expect-error string is fine
               direction={termini.end.position !== null ? termini.end.position : undefined}
             >
-              <span className={styles.eyebrow}>Finish</span>
+              <span className={styles.eyebrow}>End</span>
               {termini.end.words.map((line, index) => (
                 <span className={styles.line} key={index}>{line}</span>
               ))}
               <span className={styles.elevation}>
-                {new Intl.NumberFormat().format(Number(elevation[elevation.length - 1]))} ft
+                {new Intl.NumberFormat().format(gpx[gpx.length - 1][2])} ft
               </span>
             </Tooltip>
           </CircleMarker>

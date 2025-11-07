@@ -6,5 +6,5 @@
   "loss": "5724",
   "miles": "8.99",
   "minutes": "480",
-  "tooltips": ["left", "bottom"]
+  "tooltips": ["bottom", "top"]
 }

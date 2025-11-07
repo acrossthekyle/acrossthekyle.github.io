@@ -1,6 +1,6 @@
 // @ts-nocheck
 
-import { gpx } from '@tmcw/togeojson';
+import { gpx as gpxParser } from '@tmcw/togeojson';
 import { DOMParser } from '@xmldom/xmldom';
 import { parse } from 'csv-parse';
 import { TZDate } from '@date-fns/tz';
@@ -242,26 +242,23 @@ function parseGpxCoordinates(gpx) {
       : coordinates
     );
 
-  const elevation = filtered
-    .filter((coordinate) => coordinate[2] !== null)
-    .map((coordinate) => (coordinate[2] * 3.281).toFixed(0));
+  return reduceGpxData(filtered
+    .filter((coordinate) => coordinate[0] !== null && coordinate[1] !== null && coordinate[2] !== null)
+    .map((coordinate) => {
+      const lat = coordinate[0];
+      const long = coordinate[1];
 
-  const route = filtered
-    .filter((coordinate) => coordinate[0] !== null && coordinate[1] !== null)
-    .map((coordinate) => [coordinate[1], coordinate[0]]);
+      coordinate[0] = long; // <-- leaflet is reversed
+      coordinate[1] = lat; // <-- leaflet is reversed
+      coordinate[2] = Number((coordinate[2] * 3.281).toFixed(0));
 
-  return {
-    elevation: reduceGpxData(elevation),
-    route: reduceGpxData(route),
-  };
+      return coordinate;
+    }));
 }
 
 async function parseGpx(folder: string) {
   if (!fs.existsSync(path.join(trips, `${folder}/route.gpx`))) {
-    return {
-      elevation: undefined,
-      route: undefined,
-    };
+    return undefined;
   }
 
   const xml = await fsPromises.readFile(
@@ -269,15 +266,10 @@ async function parseGpx(folder: string) {
     'utf-8',
   );
 
-  const parsed = gpx(new DOMParser().parseFromString(xml, 'text/xml'));
+  const parsed = gpxParser(new DOMParser().parseFromString(xml, 'text/xml'));
 
   if (parsed) {
-    const { elevation, route } = parseGpxCoordinates(parsed);
-
-    return {
-      elevation,
-      route,
-    }
+    return parseGpxCoordinates(parsed);
   }
 }
 
@@ -329,7 +321,7 @@ async function getStages(folder) {
         'utf8',
       ));
 
-      const { elevation, route } = await parseGpx(`${folder}/stages/${stageFolder}`);
+      const gpx = await parseGpx(`${folder}/stages/${stageFolder}`);
 
       const { description, readingTime } = await parseMd(`${folder}/stages/${stageFolder}`);
 
@@ -409,7 +401,9 @@ async function getStages(folder) {
         };
       }
 
-      if (elevation) {
+      if (gpx) {
+        const elevation = gpx.map(coordinate => coordinate[2]);
+
         stats.max = {
           label: 'altitude',
           value: {
@@ -435,15 +429,13 @@ async function getStages(folder) {
       stages.push({
         date: data.date,
         description: description || [],
-        elevation: elevation || null,
-        hasElevation: elevation !== undefined,
-        hasRoute: route !== undefined,
+        gpx: gpx || [],
+        hasGpx: gpx !== undefined,
         hasStats: !Object.values(stats).every(value => value === null),
         image: data.image,
         index: null,
         location: data.location || null,
         readingTime: readingTime || null,
-        route: route || null,
         stats,
         termini: {
           end: {
@@ -481,9 +473,11 @@ function calculateAltitude(stages) {
   const altitudes = [];
 
   stages.forEach((stage) => {
-    if (stage.elevation) {
+    if (stage.gpx) {
+      const elevation = stage.gpx.map(coordinate => coordinate[2]);
+
       altitudes.push(
-        Math.max(...stage.elevation)
+        Math.max(...elevation)
       );
     }
   });
@@ -631,7 +625,7 @@ async function getTripStats(trip, stages) {
   }
 
   return {
-    hasStats: stats.gain !== null && stats.loss !== null && stats.altitude !== null && stats.distance !== null,
+    hasStats: stats.gain !== null || stats.loss !== null || stats.altitude !== null || stats.distance !== null,
     stats,
   };
 }
@@ -767,27 +761,23 @@ async function go() {
         stages: stages.map(({
           date,
           description,
-          elevation,
-          hasElevation,
-          hasRoute,
+          gpx,
+          hasGpx,
           hasStats,
           image,
           location,
           readingTime,
-          route,
           stats,
           termini,
         }) => ({
           date,
           description,
-          elevation: hasElevation ? elevation : [],
-          hasElevation,
-          hasRoute,
+          gpx,
+          hasGpx,
           hasStats,
           image,
           location,
           readingTime,
-          route: hasRoute ? route : [],
           stats,
           termini,
         })),

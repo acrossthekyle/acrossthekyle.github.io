@@ -1,3 +1,5 @@
+export type Gpx = [number, number, number][];
+
 export type GearItem = {
   name: string[];
   weight: number;

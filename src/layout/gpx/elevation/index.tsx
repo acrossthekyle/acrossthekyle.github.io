@@ -3,6 +3,8 @@
 import dynamic from 'next/dynamic';
 import { useContext } from 'react';
 
+import type { Gpx } from '@/types';
+
 import { GpxContext } from '../context';
 
 import styles from './stylesheet';
@@ -12,17 +14,17 @@ const Chart = dynamic(() => import('react-apexcharts'), {
 });
 
 type Props = {
-  elevation: string[] | null;
+  gpx: Gpx;
 };
 
-export default function Elevation({ elevation }: Props) {
+export default function Elevation({ gpx }: Props) {
   const { onHover } = useContext(GpxContext);
 
   const handleMouseLeave = () => {
     onHover(null);
   };
 
-  if (elevation === null) {
+  if (gpx.length === 0) {
     return null;
   }
 
@@ -131,7 +133,7 @@ export default function Elevation({ elevation }: Props) {
         series={[
           {
             name: '',
-            data: elevation.map((value) => Number(value)),
+            data: gpx.map(coordinate => coordinate[2]),
           },
         ]}
         type="line"

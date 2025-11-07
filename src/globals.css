@@ -6,15 +6,15 @@
 :root {
   --background: #000000;
   --foreground: rgba(255, 255, 255, .9);
-  --tooltip-text-color: #ffffff;
+  --tooltip-text-color: rgba(255, 255, 255, .9);
 }
 
 html[data-theme="dark"] {
-  --tooltip-text-color: #ffffff;
+  --tooltip-text-color: rgba(255, 255, 255, .9);
 }
 
 html[data-theme="light"] {
-  --tooltip-text-color: #000000;
+  --tooltip-text-color: rgba(0, 0, 0, .9);
 }
 
 @theme inline {
@@ -51,7 +51,7 @@ html[data-theme="light"] {
   --animate-loader-one: .3s fadeIn 1s ease-in forwards;
   --animate-loader-two: .3s fadeIn 6s ease-in forwards;
   --animate-loader-three: .3s fadeIn 11s ease-in forwards;
-  --animate-in-fade: fadeIn .5s ease-in forwards;
+  --animate-in-fade: fadeIn .25s ease-in forwards;
   --animate-in-fade-delayed: .25s fadeIn .2s ease-in forwards;
 
   @keyframes elasticInFromRight {
@@ -92,8 +92,29 @@ body {
     cursor: pointer;
   }
 
-  .leaflet-control-zoom {
-    display: none;
+  .leaflet-bar {
+    border: 0 !important;
+  }
+
+  .leaflet-control {
+    margin: 0 !important;
+    padding-top: 0.3rem;
+    padding-left: 1rem;
+  }
+
+  @media (width >= 48rem) {
+    .leaflet-control {
+      padding-top: 2.4rem;
+      padding-left: 2.25rem;
+    }
+  }
+
+  .leaflet-control-zoom-in,
+  .leaflet-control-zoom-out {
+    background: transparent !important;
+    border: 0 !important;
+    color: var(--tooltip-text-color) !important;
+    font: lighter 1.75rem Lucida Console, Monaco, monospace !important;
   }
 
   .leaflet-control-attribution {

@@ -1,13 +1,12 @@
 'use client';
 
 import { useGpx } from '@/hooks/useGpx';
-import type { Stats, Termini } from '@/types';
+import type { Gpx, Stats, Termini } from '@/types';
 
 import styles from './stylesheet';
 
 type Props = {
-  elevation: string[];
-  route: [number, number][];
+  gpx: Gpx;
   stats: Stats;
   termini: Termini;
 };
@@ -17,11 +16,11 @@ type Section = {
   value: string;
 };
 
-export default function Stats({ elevation, route, stats, termini }: Props) {
+export default function Stats({ gpx, stats, termini }: Props) {
   const { openGpx } = useGpx();
 
   const handleOnViewGpxPress = () => {
-    openGpx(elevation, route, termini);
+    openGpx(gpx, termini);
   };
 
   const sections: Section[] = [

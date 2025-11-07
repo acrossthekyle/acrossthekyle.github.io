@@ -1,17 +1,15 @@
-import type { Navigation, Stats, Termini } from '@/types';
+import type { Gpx, Navigation, Stats, Termini } from '@/types';
 
 export type Data = {
   date: string;
   description: string[];
-  elevation: string[];
-  hasElevation: boolean;
-  hasRoute: boolean;
+  gpx: Gpx;
+  hasGpx: boolean;
   hasStats: boolean;
   image: string;
   label: string;
   next?: Navigation;
   previous?: Navigation;
-  route: [number, number][];
   slug: string;
   stage: string;
   stats: Stats;

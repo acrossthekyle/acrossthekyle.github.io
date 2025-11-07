@@ -8,11 +8,12 @@ const styles = tw({
 
     base:gap-6
   `,
-  item: `
+  item: (canAnimate: boolean) => tw(`
     relative
-    opacity-0
-    animate-elastic-in-from-right
-  `,
+
+    ${!canAnimate ? 'opacity-100' : 'opacity-0'}
+    ${canAnimate && 'animate-elastic-in-from-right'}
+  `),
   line: `
     block
   `,

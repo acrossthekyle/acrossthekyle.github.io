@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Suspense } from 'react';
 
 import db from '@/db';
+import type { Gpx } from '@/types';
 import { padIndex } from '@/utils';
 import { Fallback, View } from '@/views/wanderings/[slug]/[stage]';
 
@@ -35,9 +36,8 @@ function getData(slug: string, stage: string) {
   return {
     date: result.date,
     description: result.description,
-    elevation: result.elevation,
-    hasElevation: result.hasElevation,
-    hasRoute: result.hasRoute,
+    gpx: result.gpx as Gpx,
+    hasGpx: result.hasGpx,
     hasStats: result.hasStats,
     image: result.image,
     label: found.label,
@@ -51,7 +51,6 @@ function getData(slug: string, stage: string) {
       index: padIndex(previous),
       title: found.stages[previous - 1].termini.end.words,
     } : undefined,
-    route: result.route as [number, number][],
     slug,
     stage,
     stats: result.stats,

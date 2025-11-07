@@ -1,5 +1,7 @@
 'use client';
 
+import FocusLock from 'react-focus-lock';
+
 import { useGpx } from '@/hooks/useGpx';
 import { Article } from '@/ui/article';
 
@@ -32,14 +34,17 @@ export default function View({ data }: Props) {
         aria-modal="true"
         className={styles.container}
         role="dialog"
+        tabIndex={-1}
       >
-        <Toggle />
-        <Article className={styles.article}>
-          <Header
-            date="404"
-            title={['Not Found']}
-          />
-        </Article>
+        <FocusLock className="h-full">
+          <Toggle />
+          <Article className={styles.article}>
+            <Header
+              date="404"
+              title={['Not Found']}
+            />
+          </Article>
+        </FocusLock>
       </div>
     );
   }
@@ -50,32 +55,34 @@ export default function View({ data }: Props) {
       className={styles.container}
       id="dialog"
       role="dialog"
+      tabIndex={-1}
     >
-      <Toggle />
-      <Article className={styles.article}>
-        <Header
-          date={data.date}
-          title={data.title}
-        />
-        {data.hasStats && (
-          <Section>
-            <Statistics
-              elevation={data.elevation}
-              route={data.route}
-              stats={data.stats}
-              termini={data.termini}
-            />
-          </Section>
-        )}
-        {data.description.length > 0 && (
-          <Section heading="Overview">
-            <Description description={data.description} />
-          </Section>
-        )}
-        {data.description.length > 0 && (
-          <Footer />
-        )}
-      </Article>
+      <FocusLock className="h-full">
+        <Toggle />
+        <Article className={styles.article}>
+          <Header
+            date={data.date}
+            title={data.title}
+          />
+          {data.hasStats && (
+            <Section>
+              <Statistics
+                gpx={data.gpx}
+                stats={data.stats}
+                termini={data.termini}
+              />
+            </Section>
+          )}
+          {data.description.length > 0 && (
+            <Section heading="Overview">
+              <Description description={data.description} />
+            </Section>
+          )}
+          {data.description.length > 0 && (
+            <Footer />
+          )}
+        </Article>
+      </FocusLock>
     </div>
   );
 }

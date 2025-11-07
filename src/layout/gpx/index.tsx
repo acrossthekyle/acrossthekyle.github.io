@@ -14,9 +14,8 @@ export default function Gpx() {
   const {
     canRenderElevation,
     closeGpx,
-    elevation,
+    gpx,
     isOpen,
-    route,
     termini,
     toggleElevation,
   } = useGpx();
@@ -48,13 +47,12 @@ export default function Gpx() {
           </button>
           <Context>
             <Route
-              elevation={elevation}
-              route={route}
+              gpx={gpx}
               shouldShrink={canRenderElevation}
               termini={termini}
             />
             {canRenderElevation && (
-              <Elevation elevation={elevation} />
+              <Elevation gpx={gpx} />
             )}
           </Context>
         </FocusLock>

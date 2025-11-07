@@ -2,22 +2,20 @@
 
 import { create } from 'zustand';
 
-import type { Termini } from '@/types';
+import type { Gpx, Termini } from '@/types';
 
 import { useEvent } from './useEvent';
 
 type State = {
   canRenderElevation: boolean;
-  elevation: string[];
+  gpx: Gpx;
   isOpen: boolean;
-  route: [number, number][];
   termini: Termini;
 };
 
 type Actions = {
   setGpx: (
-    elevation: string[],
-    route: [number, number][],
+    gpx: Gpx,
     termini: Termini,
   ) => void;
   toggleCanRenderElevation: () => void;
@@ -27,9 +25,8 @@ type Actions = {
 const store = create<State & Actions>()(
   (set, get) => ({
     canRenderElevation: false,
-    elevation: [],
+    gpx: [],
     isOpen: false,
-    route: [],
     termini: {
       end: {
         position: null,
@@ -42,14 +39,12 @@ const store = create<State & Actions>()(
       },
     },
     setGpx: (
-      elevation: string[],
-      route: [number, number][],
+      gpx: Gpx,
       termini: Termini,
     ) => {
       set({
-        elevation,
+        gpx,
         isOpen: true,
-        route,
         termini,
       });
     },
@@ -61,8 +56,7 @@ const store = create<State & Actions>()(
 
       setTimeout(() => {
         set({
-          elevation: [],
-          route: [],
+          gpx: [],
           termini: {
             end: {
               position: null,
@@ -83,9 +77,8 @@ const store = create<State & Actions>()(
 export function useGpx() {
   const {
     canRenderElevation,
-    elevation,
+    gpx,
     isOpen,
-    route,
     setGpx,
     termini,
     toggleCanRenderElevation,
@@ -98,16 +91,8 @@ export function useGpx() {
     document.documentElement.classList.remove('overflow-hidden');
   };
 
-  const openGpx = (
-    elevation: string[],
-    route: [number, number][],
-    termini: Termini,
-  ) => {
-    setGpx(
-      elevation,
-      route,
-      termini,
-    );
+  const openGpx = (gpx: Gpx, termini: Termini) => {
+    setGpx(gpx, termini);
 
     document.documentElement.classList.add('overflow-hidden');
   };
@@ -123,10 +108,9 @@ export function useGpx() {
   return {
     canRenderElevation,
     closeGpx,
-    elevation,
+    gpx,
     isOpen,
     openGpx,
-    route,
     termini,
     toggleElevation,
   };
