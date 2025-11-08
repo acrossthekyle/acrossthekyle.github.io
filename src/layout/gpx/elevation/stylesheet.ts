@@ -2,33 +2,41 @@ import tw from '@/styles';
 
 const styles = tw({
   section: (shouldGrow: boolean) => tw(`
-    absolute left-5 bottom-5 right-5 z-9998
-    ${shouldGrow ? 'h-60 base:w-120' : 'h-54 base:w-0 base:h-0'}
+    absolute right-5 z-9998
+    h-52 w-[calc(100%-2.5rem)] base:h-60 base:w-120
     rounded-2xl
-    ${shouldGrow ? 'base:p-6 base:pt-8' : ''}
-    bg-black/90 dark:bg-white/90
-    overflow-hidden
+    pt-8
+    bg-black/75 dark:bg-white/75
     select-none
     touch-none
     duration-300
 
     base:rounded-md
-    base:left-auto
-    deka:bottom-12
     deka:right-12
+
+    ${shouldGrow ? 'bottom-5 deka:bottom-12' : '-bottom-60'}
   `),
+  close: `
+    absolute left-0 top-0 right-0 z-100
+    flex items-center justify-center
+    w-full
+  `,
+  handle: `
+    p-4 pt-3
+  `,
+  bar: `
+    block
+    h-1 w-10
+    bg-white/90 dark:bg-black/90
+    rounded-full
+  `,
   title: `
     flex justify-between gap-4
-    absolute top-2.5 left-2.5 right-2.5 z-99
+    absolute top-5 left-2.5 right-2.5 z-99
     text-sm text-white/90 dark:text-black/90
     font-normal
     uppercase
     tracking-tighter
-
-    base:justify-normal
-    base:top-7.25
-    base:right-8.5
-    base:left-8.5
   `,
   change: `
     flex gap-2
@@ -41,23 +49,9 @@ const styles = tw({
     stroke-white/90 dark:stroke-black/90
     stroke-2
   `,
-  close: `
-    hidden
-    absolute right-8 top-7 z-99
-
-    base:block
-  `,
-  icon: `
-    stroke-white/90 dark:stroke-black/90
-    stroke-1
-  `,
   ticks: `
     absolute left-2.5 bottom-2 right-2.5 z-9999
     flex justify-between
-
-    base:left-8
-    base:right-8
-    base:bottom-8
   `,
   tick: `
     w-[1px] h-1.5

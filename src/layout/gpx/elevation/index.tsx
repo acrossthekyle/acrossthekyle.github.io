@@ -1,6 +1,6 @@
 'use client';
 
-import { ChevronDown, ChevronUp, X } from 'lucide-react';
+import { ChevronDown, ChevronUp } from 'lucide-react';
 import dynamic from 'next/dynamic';
 import { useContext, useEffect, useState } from 'react';
 
@@ -47,6 +47,16 @@ export default function Elevation({ gpx, shouldGrow }: Props) {
 
   return (
     <div className={styles.section(shouldGrow)} onMouseLeave={handleMouseLeave}>
+      <div className={styles.close}>
+        <button
+          className={styles.handle}
+          onClick={toggleElevation}
+          title="Minimize elevation"
+          type="button"
+        >
+          <span className={styles.bar} />
+        </button>
+      </div>
       <span className={styles.title}>
         Elevation
         <span className={styles.change}>
@@ -71,14 +81,6 @@ export default function Elevation({ gpx, shouldGrow }: Props) {
           ))}
         </div>
       )}
-      <button
-        className={styles.close}
-        onClick={toggleElevation}
-        title="Close elevation"
-        type="button"
-      >
-        <X className={styles.icon} />
-      </button>
       <Chart
         options={{
           chart: {
@@ -129,7 +131,6 @@ export default function Elevation({ gpx, shouldGrow }: Props) {
             categories: [],
             axisBorder: {
               show: false,
-              color: isDarkMode ? '#0000001a' : '#ffffff1a',
             },
             axisTicks: {
               show: false,
@@ -149,30 +150,29 @@ export default function Elevation({ gpx, shouldGrow }: Props) {
           yaxis: {
             axisBorder: {
               show: false,
-              color: isDarkMode ? '#0000001a' : '#ffffff1a',
             },
             axisTicks: {
               show: false,
-              color: isDarkMode ? '#0000001a' : '#ffffff1a',
             },
             labels: {
               show: false,
-              offsetX: 0,
-              align: 'right',
-              style: {
-                colors: isDarkMode ? '#ffffffdb' : '#000000db',
-                fontWeight: 400,
-              },
-              formatter: (value: number) => `${new Intl.NumberFormat().format(value)} ft`,
             },
           },
           tooltip: {
             marker: {
               show: false,
             },
-            theme: 'dark',
+            custom: function({ series, seriesIndex, dataPointIndex }) {
+              return '<div>' +
+                '<span>' + new Intl.NumberFormat().format(series[seriesIndex][dataPointIndex]) + ' ft</span>' +
+              '</div>';
+            },
             x: {
               show: false,
+            },
+            fixed: {
+              enabled: true,
+              position: 'topLeft',
             },
             y: {
               formatter: (value: number, { dataPointIndex }) => {

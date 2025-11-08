@@ -39,12 +39,12 @@ export default function Gpx() {
             <X className={styles.icon} />
           </button>
           <button
-            className={styles.view(canRenderElevation)}
+            className={styles.view}
             onClick={toggleElevation}
             title="View elevation chart"
             type="button"
           >
-            <TrendingUp />
+            <TrendingUp className={styles.icon} />
           </button>
           <Context>
             <Route

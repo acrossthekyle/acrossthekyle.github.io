@@ -7,14 +7,17 @@
   --background: #000000;
   --foreground: rgba(255, 255, 255, .9);
   --tooltip-text-color: rgba(255, 255, 255, .9);
+  --elevation-text-color: rgba(255, 255, 255, .9);
 }
 
 html[data-theme="dark"] {
   --tooltip-text-color: rgba(255, 255, 255, .9);
+  --elevation-text-color: rgba(0, 0, 0, .9);
 }
 
 html[data-theme="light"] {
   --tooltip-text-color: rgba(0, 0, 0, .9);
+  --elevation-text-color: rgba(255, 255, 255, .9);
 }
 
 @theme inline {
@@ -162,7 +165,13 @@ body {
   }
 
   .apexcharts-tooltip {
+    background: transparent !important;
     box-shadow: none !important;
+    border: none !important;
+    color: var(--elevation-text-color);
+    font-weight: 400;
+    padding-left: 0.6rem !important;
+    padding-top: 0.25rem !important;
   }
 
   .apexcharts-series {

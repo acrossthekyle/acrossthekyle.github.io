@@ -58,21 +58,16 @@ const styles = tw({
 
     base:stroke-1
   `,
-  view: (canRenderElevation: boolean) => tw(`
-    hidden
-    absolute bottom-5 right-5 z-9999
+  view: `
+    absolute bottom-5 left-5 z-999
     text-current/90
     uppercase
     text-xs text-center
     font-bold
-    duration-300
 
-    ${canRenderElevation ? 'opacity-0' : 'opacity-100'}
-
-    base:block
     deka:bottom-12
-    deka:right-12
-  `),
+    deka:left-12
+  `,
 });
 
 export default styles;
