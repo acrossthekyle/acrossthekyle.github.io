@@ -18,9 +18,9 @@ export default function MenuLink({ children, href, isActive, label }: Props) {
 
   return (
     <Link
+      aria-label={label}
       className={styles.link(isOnRoot, isOnParent, isActive)}
       href={href}
-      title={label}
     >
       {children}
     </Link>

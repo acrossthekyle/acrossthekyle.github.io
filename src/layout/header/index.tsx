@@ -2,7 +2,7 @@
 
 import Breadcrumbs from './breadcrumbs';
 import Logo from './logo';
-import { Menu, MenuItem, MenuLink, MenuText } from './menu';
+import { MenuMobile, Menu, MenuInfo, MenuItem, MenuLink, MenuText } from './menu';
 import { useModel } from './model';
 import Search from './search';
 import Theme from './theme';
@@ -17,6 +17,7 @@ export default function Header() {
       <Breadcrumbs />
       <Search />
       <Theme />
+      <MenuMobile />
       <Menu>
         {routes.map((route, index: number) => (
           <MenuItem index={index} key={index}>
@@ -27,6 +28,7 @@ export default function Header() {
             >
               <MenuText index={index} words={[route.text]} />
             </MenuLink>
+            <MenuInfo>{route.label}</MenuInfo>
           </MenuItem>
         ))}
       </Menu>

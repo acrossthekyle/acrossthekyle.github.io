@@ -32,7 +32,7 @@ const styles = tw({
     return tw(`
       ${common}
 
-      flex-row items-center justify-start
+      flex-row items-center justify-between
       p-4 pb-0
 
       base:pb-4

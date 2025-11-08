@@ -11,14 +11,14 @@ export const routes: Route[] = [
   {
     base: '/about',
     isActive: false,
-    label: 'All about me',
+    label: 'Learn more about me',
     path: '',
-    text: `Inspired by`,
+    text: `Selfdom`,
   },
   {
     base: '/projects',
     isActive: false,
-    label: 'Things I have worked on',
+    label: `Things I've worked on`,
     path: '',
     text: 'Projects',
   },

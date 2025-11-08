@@ -12,7 +12,10 @@ export default function MenuContainer({ children }: Props) {
   const { isOnParent, isOnRoot } = useHierarchy();
 
   return (
-    <nav className={styles.container(isOnRoot, isOnParent)}>
+    <nav
+      aria-label="main navigation"
+      className={styles.container(isOnRoot, isOnParent)}
+    >
       <ul>
         {children}
       </ul>

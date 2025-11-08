@@ -2,17 +2,18 @@ import tw from '@/styles';
 
 const styles = tw({
   container: (isOnChild: boolean) => tw(`
-    block
+    hidden
     relative z-1
-    mt-1.5 mb-3 mr-4
-    text-xs
+    mt-1 mb-2 mr-4
+    text-xs/4
     font-mono font-light font-stretch-normal
     tracking-wide
     duration-200
 
     group-hover/link:base:opacity-100
 
-    base:text-xs/3
+    base:block
+    base:text-xs/4
     base:absolute
     base:mb-0
     base:mt-0
@@ -28,7 +29,7 @@ const styles = tw({
       deka:bottom-42
       deka:left-12
       mega:bottom-44
-      mega:text-sm/4
+      mega:text-xs/4
       tera:bottom-58
       peta:bottom-92
     ` : `

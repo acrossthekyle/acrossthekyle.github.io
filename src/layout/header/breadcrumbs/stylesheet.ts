@@ -2,12 +2,18 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    ml-2
+    w-full
+    mx-2 -mt-1
+  `,
+  list: `
+    flex
     text-sm
     uppercase
-    line-clamp-1
 
     base:hidden
+  `,
+  item: `
+    line-clamp-1
   `,
   slash: (isOnParent: boolean) => tw(`
     inline

@@ -3,29 +3,14 @@
 import { Moon, Sun } from 'lucide-react';
 
 import { useHierarchy } from '@/hooks/useHierarchy';
+import { useTheme } from '@/hooks/useTheme';
 
 import styles from './stylesheet';
 
 export default function Theme() {
   const { isOnRoot } = useHierarchy();
 
-  const handleOnClick = () => {
-    let theme = 'light';
-
-    if (localStorage.getItem('theme')) {
-      theme = localStorage.getItem('theme') || 'light';
-    }
-
-    const value = theme === 'dark' ? 'light' : 'dark';
-
-    localStorage.setItem('theme', value);
-
-    const element = document.querySelector('html');
-
-    if (element) {
-      element.setAttribute('data-theme', value);
-    }
-  };
+  const { onToggleTheme } = useTheme();
 
   if (!isOnRoot) {
     return null;
@@ -35,7 +20,7 @@ export default function Theme() {
     <button
       aria-live="polite"
       className={styles.toggle(isOnRoot)}
-      onClick={handleOnClick}
+      onClick={onToggleTheme}
       title="Toggle light &amp; dark theme"
       type="button"
     >

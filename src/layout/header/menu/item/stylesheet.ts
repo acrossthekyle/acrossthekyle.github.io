@@ -6,9 +6,9 @@ const styles = {
     ${isFirstLoad && 'animate-elastic-in-from-right'}
 
     ${isOnRoot && `
-      mb-1
+      group/item
+      relative
 
-      base:mb-0
       base:mr-20
     `}
   `),
