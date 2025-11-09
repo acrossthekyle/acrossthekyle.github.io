@@ -11,8 +11,6 @@ const styles = tw({
     overflow-y-scroll
     overscroll-contain
     outline-0
-    opacity-0
-    animate-in-fade
 
     base:p-0
   `,
