@@ -7,19 +7,19 @@ import { useTheme } from '@/hooks/useTheme';
 
 import styles from './stylesheet';
 
-export default function Theme() {
+type Props = {
+  isMenuActive: boolean;
+};
+
+export default function Theme({ isMenuActive }: Props) {
   const { isOnRoot } = useHierarchy();
 
   const { onToggleTheme } = useTheme();
 
-  if (!isOnRoot) {
-    return null;
-  }
-
   return (
     <button
       aria-live="polite"
-      className={styles.toggle(isOnRoot)}
+      className={styles.toggle(isOnRoot, isMenuActive)}
       onClick={onToggleTheme}
       title="Toggle light &amp; dark theme"
       type="button"

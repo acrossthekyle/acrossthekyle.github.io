@@ -4,13 +4,13 @@ const styles = tw({
   container: (isOnChild: boolean, align: 'end' | 'start') => {
     const common = `
       flex-1
-      ${align === 'end' && 'base:flex base:flex-col'}
+      ${align === 'end' && 'flex flex-col'}
       px-4 py-4
       scroll-smooth
       overflow-y-scroll
       duration-300
 
-      ${align === 'end' && 'base:justify-end'}
+      ${align === 'end' && 'justify-end'}
 
       base:flex-none
     `;

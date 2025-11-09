@@ -7,15 +7,15 @@ import { useHierarchy } from '@/hooks/useHierarchy';
 
 import styles from './stylesheet';
 
-export default function Search() {
+type Props = {
+  isMenuActive: boolean;
+};
+
+export default function Search({ isMenuActive }: Props) {
   const { isOnRoot } = useHierarchy();
 
-  if (!isOnRoot) {
-    return null;
-  }
-
   return (
-    <Link className={styles.search(isOnRoot)} href="/search">
+    <Link className={styles.search(isOnRoot, isMenuActive)} href="/search">
       <Icon className={styles.icon} />
     </Link>
   );

@@ -22,12 +22,12 @@ const styles = tw({
 
     base:right-0
     base:left-auto
-    deka:top-9
+    deka:top-8
     deka:right-7
   `,
   icon: `
-    w-7 h-7
-    stroke-1
+    w-8.25 h-8.25
+    stroke-1 stroke-current/90
   `,
   field: `
     w-full

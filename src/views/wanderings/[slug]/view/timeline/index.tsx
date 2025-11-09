@@ -17,11 +17,13 @@ import {
 import styles from './stylesheet';
 
 type Props = {
+  label: string;
   slug: string;
   stages: Stage[];
+  title: string[];
 };
 
-export default function Timeline({ slug, stages }: Props) {
+export default function Timeline({ label, slug, stages, title }: Props) {
   const { path, previous } = useLoad();
 
   const [canAnimate, setCanAnimate] = useState(true);
@@ -61,7 +63,7 @@ export default function Timeline({ slug, stages }: Props) {
             </Image>
             <ImageCaption>
               <ImageLink
-                label={`Learn more about ${stage.termini.end.words.join(' ')}`}
+                title={`View details about ${label} ${stage.index} of ${title.join(' ')}`.toUpperCase()}
                 href={`/wanderings/${slug}/${stage.index}`}
               >
                 <ImageCaptionEyebrow>

@@ -41,9 +41,10 @@ export function useModel(): Model {
       content: (
         <div className={styles.minimize}>
           <button
+            aria-controls="zoom"
+            aria-label="close zoom"
             className={styles.close}
             onClick={handleOnMinimize}
-            title="Close"
             type="button"
           >
             <X className={styles.icon} />

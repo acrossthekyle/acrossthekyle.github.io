@@ -1,9 +1,8 @@
 import Body from './body';
-import Gpx from './gpx';
+import { Gpx, Zoom } from './dialogs';
 import Header from './header';
 import Loader from './loader';
 import Main from './main';
-import Zoom from './zoom';
 
 type Props = {
   children: React.ReactNode | React.ReactNode[];

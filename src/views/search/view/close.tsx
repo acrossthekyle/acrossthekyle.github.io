@@ -1,7 +1,6 @@
 'use client';
 
 import { X } from 'lucide-react';
-import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
 import { useEvent } from '@/hooks/useEvent';
@@ -12,16 +11,17 @@ export default function Close() {
   const router = useRouter();
 
   useEvent('onEscape', () => {
-    router.push('/');
+    router.back();
   });
 
   return (
-    <Link
+    <button
       className={styles.close}
-      href="/"
+      onClick={router.back}
       title="Close"
+      type="button"
     >
       <X className={styles.icon} />
-    </Link>
+    </button>
   );
 }

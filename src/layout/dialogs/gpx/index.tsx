@@ -24,16 +24,21 @@ export default function Gpx() {
     <>
       <div className={styles.backdrop(isOpen)} />
       <div
+        aria-hidden={isOpen ? 'false' : 'true'}
+        aria-label="gpx"
         aria-modal="true"
         className={styles.gpx(isOpen)}
+        id="gpx"
         role="dialog"
         tabIndex={-1}
       >
         <FocusLock className="relative h-full w-full" disabled={!isOpen}>
           <button
+            aria-controls="gpx"
+            aria-label="close gpx"
             className={styles.close}
             onClick={closeGpx}
-            title="Close"
+            tabIndex={isOpen ? 0 : -1}
             type="button"
           >
             <X className={styles.icon} />
@@ -41,6 +46,7 @@ export default function Gpx() {
           <button
             className={styles.view}
             onClick={toggleElevation}
+            tabIndex={isOpen ? 1 : -1}
             title="View elevation chart"
             type="button"
           >

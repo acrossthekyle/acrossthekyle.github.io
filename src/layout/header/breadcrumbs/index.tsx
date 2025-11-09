@@ -2,9 +2,9 @@
 
 import Link from 'next/link';
 
+import { routes } from '@/constants';
 import { useHierarchy } from '@/hooks/useHierarchy';
 
-import { routes } from '../constants';
 import styles from './stylesheet';
 
 export default function Breadcrumbs() {

@@ -12,7 +12,7 @@ const styles = tw({
       return tw(`
         ${common}
 
-        flex-1 flex-col items-start
+        flex-1 flex-row w-full base:flex-col items-start
         p-4 pr-0
       `);
     }

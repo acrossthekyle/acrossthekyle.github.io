@@ -51,6 +51,7 @@ export default function Elevation({ gpx, shouldGrow }: Props) {
         <button
           className={styles.handle}
           onClick={toggleElevation}
+          tabIndex={-1}
           title="Minimize elevation"
           type="button"
         >

@@ -1,9 +1,6 @@
 import tw from '@/styles';
 
 const styles = tw({
-  link: (isOnRoot: boolean) => tw(`
-    ${!isOnRoot && '-mt-1'}
-  `),
   icon: `
     w-6 h-6
 

@@ -38,8 +38,10 @@ export default function View({ data }: Props) {
         <Gallery stages={data.stages} />
       ) : (
         <Timeline
+          label={data.label}
           slug={data.slug}
           stages={data.stages}
+          title={data.title}
         />
       )}
       <Overview description={data.description} />

@@ -5,11 +5,10 @@ import styles from './stylesheet';
 type Props = {
   children?: React.ReactNode | React.ReactNode[];
   href?: string;
-  label?: string;
   title?: string;
 };
 
-export default function Link({ children, href, label, title }: Props) {
+export default function Link({ children, href, title }: Props) {
   if (href === undefined) {
     return (
       <>{children}</>
@@ -17,7 +16,7 @@ export default function Link({ children, href, label, title }: Props) {
   }
 
   return (
-    <NextJsLink aria-label={label} className={styles.link} href={href} title={title}>
+    <NextJsLink className={styles.link} href={href} title={title}>
       {children}
       <span className={styles.hint}>View Details</span>
     </NextJsLink>

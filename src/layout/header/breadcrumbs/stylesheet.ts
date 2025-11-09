@@ -3,7 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     w-full
-    mx-2 -mt-1
+    mx-2
   `,
   list: `
     flex
