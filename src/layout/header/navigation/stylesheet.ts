@@ -2,7 +2,8 @@ import tw from '@/styles';
 
 const styles = tw({
   toggle: (isOnRoot: boolean) => tw(`
-    ${isOnRoot && 'mr-4'}
+    ${isOnRoot && 'pr-4'}
+    p-2
 
     base:hidden
   `),
@@ -67,11 +68,16 @@ const styles = tw({
   `),
   close: (isOpen: boolean) => tw(`
     ${!isOpen && 'hidden'}
-    absolute top-3 right-3
+    absolute top-1 right-1
+    p-2
   `),
+  x: `
+    w-10 h-10
+    stroke-2 stroke-current/90
+  `,
   icon: `
-    w-8.25 h-8.25
-    stroke-1 stroke-current/90
+    w-8 h-8
+    stroke-2 stroke-current/90
   `,
   list: `
     flex flex-col

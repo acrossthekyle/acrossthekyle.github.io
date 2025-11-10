@@ -2,17 +2,18 @@ import tw from '@/styles';
 
 const styles = tw({
   toggle: (isOnRoot: boolean, isMenuActive: boolean) => tw(`
-    absolute top-4 right-14
+    absolute top-2 right-16
+    p-2
 
     ${!isOnRoot && `base:hidden`}
     ${isOnRoot && !isMenuActive && `hidden base:block`}
 
-    base:right-4
-    deka:top-12
-    deka:right-12
+    base:right-2
+    deka:top-10
+    deka:right-10
   `),
   sun: `
-    w-6 h-6
+    w-8 h-8
 
     base:w-7
     base:h-7
@@ -20,7 +21,7 @@ const styles = tw({
     light:hidden
   `,
   moon: `
-    w-6 h-6
+    w-8 h-8
 
     base:w-7
     base:h-7

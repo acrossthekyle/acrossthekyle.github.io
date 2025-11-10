@@ -24,8 +24,11 @@ const styles = tw({
     deka:right-7
   `,
   icon: `
-    w-8.25 h-8.25
-    stroke-1 stroke-current/90
+    w-10 h-10
+    stroke-2 stroke-current/90
+
+    base:w-8
+    base:h-8
   `,
   field: `
     w-full

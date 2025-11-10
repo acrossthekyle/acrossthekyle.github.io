@@ -85,7 +85,7 @@ export default function Navigation() {
         onClick={handleOnMenuToggle}
         type="button"
       >
-        <TextAlignJustify />
+        <TextAlignJustify className={styles.icon} />
       </button>
       <nav
         aria-hidden={isMobile ? (isOpen ? 'false' : 'true') : 'false'}
@@ -108,7 +108,7 @@ export default function Navigation() {
             onClick={handleOnMenuToggle}
             type="button"
           >
-            <X className={styles.icon} />
+            <X className={styles.x} />
           </button>
           <Search isMenuActive={isOpen} />
           <Theme isMenuActive={isOpen} />
