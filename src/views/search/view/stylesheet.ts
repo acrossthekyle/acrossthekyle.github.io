@@ -33,10 +33,11 @@ const styles = tw({
   field: `
     w-full
     p-6 pl-0
-    text-4xl
+    text-2xl
     font-black
     uppercase
 
+    base:text-4xl
     base:pr-24
     base:p-12
     base:py-9

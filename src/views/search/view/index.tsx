@@ -80,7 +80,7 @@ export default function View({ data }: Props) {
           className={styles.field}
           onChange={handleOnSearch}
           onKeyUp={handleOnKeyUp}
-          placeholder="Search"
+          placeholder="Search Wanderings"
           ref={inputRef}
           type="text"
           value={query}
