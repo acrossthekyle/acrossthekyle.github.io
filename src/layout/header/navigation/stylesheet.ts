@@ -24,6 +24,8 @@ const styles = tw({
         ${isOpen ? common : 'absolute bottom-0 left-0'}
 
         base:static
+        base:pl-2
+        base:pb-2
         base:flex
         base:flex-col
         base:w-full
@@ -93,9 +95,8 @@ const styles = tw({
 
     ${isOnRoot && `
       group/item
-      relative
 
-      base:mr-20
+      deka:relative
     `}
   `),
   link: (
@@ -105,10 +106,11 @@ const styles = tw({
     isOpen: boolean,
   ) => {
     const root = `
-      relative
       block
       overflow-hidden
       uppercase
+
+      deka:relative
     `;
 
     const fonts = `
@@ -192,24 +194,24 @@ const styles = tw({
   `),
   info: `
     hidden
-    top-0 z-1
+    absolute left-4 bottom-60 z-1
+    w-52
     pr-4
-    mt-1
     uppercase
+    text-xs/4
     font-mono font-light font-stretch-normal
     tracking-wide
-    text-xs/4
+    opacity-0
     duration-200
 
     group-hover/item:opacity-100
 
     base:block
-    base:absolute
-    base:opacity-0
-    base:w-52
-    base:-right-20
-    base:text-right
-    base:text-xs/4
+    deka:text-right
+    deka:right-0
+    deka:left-auto
+    deka:bottom-0
+    deka:pr-0
   `,
 });
 
