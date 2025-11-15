@@ -12,6 +12,7 @@ import { padIndex } from '@/utils';
 import { useModel } from './model';
 import styles from './stylesheet';
 import Theme from './theme';
+import { getRoutePath } from './utils';
 
 type Props = {
   onToggle: () => void;
@@ -31,14 +32,19 @@ export default function Navigation({ onToggle, shouldPush }: Props) {
   const { isMobile } = useModel();
 
   const handleOnClick = (base: string) => {
-    if (path.includes(base)) {
+    if (path.includes(base) && isMobile) {
       onToggle();
     }
   };
 
-  const paths = routes.map((route) => ({
+  const links = routes.map((route) => ({
     ...route,
     isActive: path.includes(route.base),
+    path: shouldPush ? route.base : getRoutePath(
+      isOnRoot,
+      route.base,
+      path,
+    ),
   }));
 
   return (
@@ -67,27 +73,29 @@ export default function Navigation({ onToggle, shouldPush }: Props) {
         )}
         <Theme isMenuActive={shouldPush} />
         <ul className={styles.list}>
-          {paths.map(({ base, isActive, label, text }, index: number) => (
+          {links.map((link, index: number) => (
             <li
               className={styles.item(isFirstLoad, isOnRoot)}
               key={index}
               style={{ animationDelay: `${0.1 + (index * 0.025)}s` }}
             >
               <Link
-                aria-label={label}
-                className={styles.link(isOnRoot, isOnParent, isActive, shouldPush)}
-                href={path}
-                onClick={() => handleOnClick(base)}
+                aria-label={link.label}
+                className={
+                  styles.link(isOnRoot, isOnParent, link.isActive, shouldPush)
+                }
+                href={link.path}
+                onClick={() => handleOnClick(link.base)}
               >
                 <span className={styles.block}>
-                  {text}
+                  {link.text}
                   <span className={styles.index(isOnChild)}>
                     {padIndex(index + 1)}
                   </span>
                 </span>
               </Link>
               <span className={styles.info}>
-                {label}
+                {link.label}
               </span>
             </li>
           ))}
