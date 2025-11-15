@@ -4,6 +4,8 @@ const styles = tw({
   container: `
     w-full
     mx-2
+    opacity-0
+    animate-in-fade
   `,
   list: `
     flex

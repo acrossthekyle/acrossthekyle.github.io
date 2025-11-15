@@ -5,6 +5,7 @@ const styles = tw({
     w-full h-full
     flex items-center justify-center
     scale-500
+    pointer-events-none
   `,
   svg: `
     size-5

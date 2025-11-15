@@ -1,17 +1,12 @@
 import tw from '@/styles';
 
 const styles = tw({
-  toggle: (isOnRoot: boolean) => tw(`
-    ${isOnRoot && 'pr-4'}
-    p-2
-
-    base:hidden
-  `),
-  container: (isOnRoot: boolean, isOnParent: boolean, isOpen: boolean) => {
+  container: (isOnRoot: boolean, shouldPush: boolean) => {
     const common = `
-      fixed ${isOpen ? 'right-0' : '-right-full'} top-0 z-10
+      fixed ${shouldPush ? 'right-0' : '-right-full'} top-0 z-10
       w-full h-full
       bg-white dark:bg-black
+      duration-300 ${shouldPush && 'delay-200'}
 
       base:right-auto
       base:top-auto
@@ -21,7 +16,7 @@ const styles = tw({
 
     if (isOnRoot) {
       return tw(`
-        ${isOpen ? common : 'absolute bottom-0 left-0'}
+        absolute bottom-0 left-0
 
         base:static
         base:pl-2
@@ -29,16 +24,6 @@ const styles = tw({
         base:flex
         base:flex-col
         base:w-full
-      `);
-    }
-
-    if (isOnParent) {
-      return tw(`
-        ${common}
-
-        flex flex-col
-
-        base:block
       `);
     }
 
@@ -54,31 +39,13 @@ const styles = tw({
 
     base:block
   `,
-  heading: (isOnRoot: boolean, isOpen: boolean) => tw(`
-    ${!isOpen && 'hidden'}
-    ${isOnRoot && 'invisible'}
-    pl-4 pt-4
-    text-4xl/8
-    font-extrablack font-stretch-ultra-condensed
-    tracking-tight
-    uppercase
+  close: `
+    p-3
 
-    pico:text-5xl/9
-    nano:text-6xl/11.5
-    milli:text-7xl/13.75
-    deci:text-8xl/18.5
-  `),
-  close: (isOpen: boolean) => tw(`
-    ${!isOpen && 'hidden'}
-    absolute top-1 right-1
-    p-2
-  `),
-  x: `
-    w-10 h-10
-    stroke-2 stroke-current/90
+    base:hidden
   `,
   icon: `
-    w-8 h-8
+    w-10 h-10
     stroke-2 stroke-current/90
   `,
   list: `
@@ -103,7 +70,7 @@ const styles = tw({
     isOnRoot: boolean,
     isOnParent: boolean,
     isActive: boolean,
-    isOpen: boolean,
+    shouldPush: boolean,
   ) => {
     const root = `
       block
@@ -124,7 +91,7 @@ const styles = tw({
       deci:text-9xl/24.5
     `;
 
-    if (isOpen) {
+    if (shouldPush) {
       return tw(`
         ${root}
         ${fonts}
@@ -148,20 +115,19 @@ const styles = tw({
     }
 
     const sub = `
-      duration-200
-      ${!isActive && 'text-current/25'}
-      font-thin
-      font-stretch-ultra-condensed
+      base:duration-200
+      ${!isActive && 'base:text-current/25'}
+      base:font-thin
+      base:font-stretch-ultra-condensed
 
-      hover:text-current/90
+      base:hover:text-current/90
     `;
 
     if (isOnParent) {
       return tw(`
         ${root}
         ${sub}
-
-        text-5xl/9.25
+        ${fonts}
 
         deka:text-6xl/11.5
         mega:text-8xl/18.5
@@ -172,6 +138,7 @@ const styles = tw({
     return tw(`
       ${root}
       ${sub}
+      ${fonts}
 
       base:text-5xl/9.25
       tera:text-7xl/14
@@ -194,13 +161,14 @@ const styles = tw({
   `),
   info: `
     hidden
-    absolute left-4 bottom-60 z-1
+    absolute left-4 bottom-62 z-1
     w-52
     pr-4
     uppercase
-    text-xs/4
+    text-xs/3
     font-mono font-light font-stretch-normal
     tracking-wide
+    bg-black
     opacity-0
     duration-200
 

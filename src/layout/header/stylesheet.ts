@@ -1,7 +1,7 @@
 import tw from '@/styles';
 
 const styles = tw({
-  header: (isOnRoot: boolean, isOnGrandChild: boolean) => {
+  container: (isOnRoot: boolean, isOnGrandChild: boolean) => {
     const common = `
       flex justify-between
 
@@ -12,7 +12,7 @@ const styles = tw({
       return tw(`
         ${common}
 
-        flex-1 flex-row w-full base:flex-col items-start
+        flex-1 flex-col w-full items-start
         p-2 pr-0
       `);
     }
@@ -44,6 +44,22 @@ const styles = tw({
       base:justify-between
     `);
   },
+  navigation: (shouldPush: boolean) => tw(`
+    ${shouldPush && '-translate-x-full'}
+    flex items-center w-full
+    duration-300 ${!shouldPush && 'delay-200'}
+  `),
+  toggle: `
+    p-2
+    opacity-0
+    animate-in-fade
+
+    base:hidden
+  `,
+  icon: `
+    w-8 h-8
+    stroke-2 stroke-current/90
+  `,
 });
 
 export default styles;

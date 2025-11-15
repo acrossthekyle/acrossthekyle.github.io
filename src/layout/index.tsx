@@ -1,5 +1,6 @@
 import Body from './body';
 import { Gpx, Zoom } from './dialogs';
+import Footer from './footer';
 import Header from './header';
 import Loader from './loader';
 import Main from './main';
@@ -15,6 +16,7 @@ export default function Layout({ children }: Props) {
       <Main>
         {children}
       </Main>
+      <Footer />
       <Zoom />
       <Gpx />
       <Loader />

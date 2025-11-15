@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from 'react';
 
+import Loading from '@/ui/loading';
+
 import styles from './stylesheet';
 
 export default function Loader() {
@@ -11,17 +13,13 @@ export default function Loader() {
     setIsLoaded(true);
   }, []);
 
+  if (isLoaded) {
+    return null;
+  }
+
   return (
-    <div className={styles.loader(isLoaded)}>
-      <p className={styles.message(isLoaded)}>
-        Great<br />
-        Work<br />
-        Takes<br />
-        Time
-        <span className={styles.one}>.</span>
-        <span className={styles.two}>.</span>
-        <span className={styles.three}>.</span>
-      </p>
+    <div className={styles.container}>
+      <Loading />
     </div>
   );
 }
