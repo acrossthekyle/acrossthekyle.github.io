@@ -51,7 +51,7 @@ export default function Header() {
 
   return (
     <header className={styles.container(isOnRoot, isOnGrandChild)}>
-      <div className={styles.navigation(shouldPush)}>
+      <div className={styles.upper(shouldPush)}>
         <Logo />
         <Breadcrumbs />
         {!isOnRoot && (

@@ -2,13 +2,13 @@ import tw from '@/styles';
 
 const styles = tw({
   toggle: (isOnRoot: boolean, isMenuActive: boolean) => tw(`
-    ${isOnRoot ? 'fixed' : 'absolute'} top-2 right-2
+    ${isOnRoot ? 'fixed' : 'absolute'} top-2 ${isOnRoot ? 'right-2' : 'left-2'}
     p-2
 
     ${!isOnRoot && `base:hidden`}
     ${isOnRoot && !isMenuActive && `base:block`}
-
     base:right-2
+    base:left-auto
     deka:top-12
     deka:right-11.5
   `),

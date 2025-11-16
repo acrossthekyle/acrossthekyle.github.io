@@ -34,12 +34,13 @@ const styles = tw({
     `);
   },
   wrapper: `
-    flex flex-col justify-between
+    flex flex-col justify-end
     h-full
 
     base:block
   `,
   close: `
+    absolute top-0 right-0
     p-3
 
     base:hidden
@@ -129,7 +130,7 @@ const styles = tw({
         ${sub}
         ${fonts}
 
-        deka:text-6xl/11.5
+        base:text-6xl/11.5
         mega:text-8xl/18.5
         tera:text-9xl/26
       `);

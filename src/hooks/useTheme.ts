@@ -1,6 +1,14 @@
 'use client';
 
+import { useEffect, useState } from 'react';
+
 export function useTheme() {
+  const [current, setCurrent] = useState('light');
+
+  useEffect(() => {
+    setCurrent(localStorage.getItem('theme') || 'light');
+  }, []);
+
   const onToggleTheme = () => {
     let theme = 'light';
 
@@ -9,6 +17,8 @@ export function useTheme() {
     }
 
     const value = theme === 'dark' ? 'light' : 'dark';
+
+    setCurrent(value);
 
     localStorage.setItem('theme', value);
 
@@ -21,5 +31,6 @@ export function useTheme() {
 
   return {
     onToggleTheme,
+    theme: current,
   }
 }

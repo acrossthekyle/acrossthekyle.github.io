@@ -14,18 +14,18 @@ type Props = {
 export default function Theme({ isMenuActive }: Props) {
   const { isOnRoot } = useHierarchy();
 
-  const { onToggleTheme } = useTheme();
+  const { onToggleTheme, theme } = useTheme();
 
   return (
     <button
+      aria-label={`switch to ${theme === 'light' ? 'dark' : 'light'} theme`}
       aria-live="polite"
       className={styles.toggle(isOnRoot, isMenuActive)}
       onClick={onToggleTheme}
-      title="Toggle light &amp; dark theme"
       type="button"
     >
-      <Sun className={styles.sun} />
-      <Moon className={styles.moon} />
+      <Sun aria-hidden="true" className={styles.sun} />
+      <Moon aria-hidden="true" className={styles.moon} />
     </button>
   );
 }

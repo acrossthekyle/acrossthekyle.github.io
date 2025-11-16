@@ -44,7 +44,7 @@ const styles = tw({
       base:justify-between
     `);
   },
-  navigation: (shouldPush: boolean) => tw(`
+  upper: (shouldPush: boolean) => tw(`
     ${shouldPush && '-translate-x-full'}
     flex items-center w-full
     duration-300 ${!shouldPush && 'delay-200'}

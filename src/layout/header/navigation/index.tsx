@@ -4,15 +4,11 @@ import { X } from 'lucide-react';
 import Link from 'next/link';
 import FocusLock from 'react-focus-lock';
 
-import { routes } from '@/constants';
-import { useHierarchy } from '@/hooks/useHierarchy';
-import { useLoad } from '@/hooks/useLoad';
 import { padIndex } from '@/utils';
 
 import { useModel } from './model';
 import styles from './stylesheet';
 import Theme from './theme';
-import { getRoutePath } from './utils';
 
 type Props = {
   onToggle: () => void;
@@ -20,36 +16,18 @@ type Props = {
 };
 
 export default function Navigation({ onToggle, shouldPush }: Props) {
-  const { isFirstLoad } = useLoad();
-
   const {
+    handleOnClick,
+    isFirstLoad,
+    isMobile,
     isOnChild,
     isOnRoot,
     isOnParent,
-    path,
-  } = useHierarchy();
-
-  const { isMobile } = useModel();
-
-  const handleOnClick = (base: string) => {
-    if (path.includes(base) && isMobile) {
-      onToggle();
-    }
-  };
-
-  const links = routes.map((route) => ({
-    ...route,
-    isActive: path.includes(route.base),
-    path: shouldPush ? route.base : getRoutePath(
-      isOnRoot,
-      route.base,
-      path,
-    ),
-  }));
+    links,
+  } = useModel(onToggle, shouldPush);
 
   return (
-    <nav
-      aria-label="main navigation"
+    <div
       className={styles.container(isOnRoot, shouldPush)}
       id="menu"
       inert={isMobile && !isOnRoot ? (shouldPush ? false : true) : false}
@@ -72,35 +50,37 @@ export default function Navigation({ onToggle, shouldPush }: Props) {
           </button>
         )}
         <Theme isMenuActive={shouldPush} />
-        <ul className={styles.list}>
-          {links.map((link, index: number) => (
-            <li
-              className={styles.item(isFirstLoad, isOnRoot)}
-              key={index}
-              style={{ animationDelay: `${0.1 + (index * 0.025)}s` }}
-            >
-              <Link
-                aria-label={link.label}
-                className={
-                  styles.link(isOnRoot, isOnParent, link.isActive, shouldPush)
-                }
-                href={link.path}
-                onClick={() => handleOnClick(link.base)}
+        <nav aria-label="main navigation">
+          <ul className={styles.list}>
+            {links.map((link, index: number) => (
+              <li
+                className={styles.item(isFirstLoad, isOnRoot)}
+                key={index}
+                style={{ animationDelay: `${0.1 + (index * 0.025)}s` }}
               >
-                <span className={styles.block}>
-                  {link.text}
-                  <span className={styles.index(isOnChild)}>
-                    {padIndex(index + 1)}
+                <Link
+                  aria-label={link.label}
+                  className={
+                    styles.link(isOnRoot, isOnParent, link.isActive, shouldPush)
+                  }
+                  href={link.path}
+                  onClick={() => handleOnClick(link.base)}
+                >
+                  <span className={styles.block}>
+                    {link.text}
+                    <span className={styles.index(isOnChild)}>
+                      {padIndex(index + 1)}
+                    </span>
                   </span>
+                </Link>
+                <span className={styles.info}>
+                  {link.label}
                 </span>
-              </Link>
-              <span className={styles.info}>
-                {link.label}
-              </span>
-            </li>
-          ))}
-        </ul>
+              </li>
+            ))}
+          </ul>
+        </nav>
       </FocusLock>
-    </nav>
+    </div>
   );
 }
