@@ -169,7 +169,7 @@ const styles = tw({
     text-xs/3
     font-mono font-light font-stretch-normal
     tracking-wide
-    bg-black
+    bg-white dark:bg-black
     opacity-0
     duration-200
 
