@@ -5,10 +5,10 @@ const styles = tw({
     p-2
   `,
   icon: `
-    w-8 h-8
+    w-6 h-6
 
-    base:w-7
-    base:h-7
+    base:w-6
+    base:h-6
   `,
 });
 

@@ -2,10 +2,9 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    flex flex-col gap-8
+    flex flex-col gap-12
     mb-12
 
-    kilo:mb-32
     kilo:gap-36
     kilo:flex-row
 

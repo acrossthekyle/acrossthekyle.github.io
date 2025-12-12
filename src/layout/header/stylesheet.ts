@@ -57,7 +57,7 @@ const styles = tw({
     base:hidden
   `,
   icon: `
-    w-8 h-8
+    w-6 h-6
     stroke-2 stroke-current/90
   `,
 });

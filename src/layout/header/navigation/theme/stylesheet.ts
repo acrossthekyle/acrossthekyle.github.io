@@ -13,20 +13,20 @@ const styles = tw({
     deka:right-11.5
   `),
   sun: `
-    w-8 h-8
+    w-6 h-6
     stroke-2
 
-    base:w-7
-    base:h-7
+    base:w-6
+    base:h-6
 
     dark:hidden
   `,
   moon: `
-    w-8 h-8
+    w-6 h-6
     stroke-2
 
-    base:w-7
-    base:h-7
+    base:w-6
+    base:h-6
 
     light:hidden
   `,

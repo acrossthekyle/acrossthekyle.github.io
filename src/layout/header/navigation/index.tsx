@@ -68,14 +68,8 @@ export default function Navigation({ onToggle, shouldPush }: Props) {
                 >
                   <span className={styles.block}>
                     {link.text}
-                    <span className={styles.index(isOnChild)}>
-                      {padIndex(index + 1)}
-                    </span>
                   </span>
                 </Link>
-                <span className={styles.info}>
-                  {link.label}
-                </span>
               </li>
             ))}
           </ul>

@@ -3,11 +3,9 @@ import tw from '@/styles';
 const styles = tw({
   header: `
     relative z-1
-    mt-12 mb-10
+    my-12
 
-    deci:mb-16
     base:mt-0
-    kilo:mb-32
   `,
   hero: `
     relative z-2
@@ -20,27 +18,22 @@ const styles = tw({
 
     pico:text-5xl/9
     milli:text-6xl/11.5
-    centi:max-w-130
     deci:text-7xl/13.5
     base:max-w-160
     kilo:max-w-210
     kilo:text-8xl/18
     tera:max-w-260
-    tera:text-9xl/26
-    peta:text-10xl/31
+    tera:text-9xl/24
+    peta:text-10xl/30
     peta:max-w-340
   `,
   introduction: `
     flex flex-col-reverse
-    mt-8
     opacity-0
     animate-elastic-in-from-right
 
-    deci:-mt-48
-    deci:flex-row
-    deci:items-end
-    tera:-mt-94
-    peta:-mt-110
+    base:flex-row
+    base:items-end
   `,
   blurb: `
     relative z-2
@@ -48,10 +41,9 @@ const styles = tw({
     text-lg
     font-medium
 
-    deci:mr-12
-    deci:mt-56
-    deci:w-1/2
-    kilo:mt-64
+    base:mt-20
+    base:mr-12
+    base:w-1/2
     tera:w-160
     tera:text-xl
     peta:w-200
@@ -59,7 +51,16 @@ const styles = tw({
   `,
   image: `
     !aspect-auto
-    deci:!w-1/2
+    !h-auto
+    mt-12
+
+    base:!w-110
+    base:absolute
+    base:right-0
+    base:bottom-0
+    base:mt-0
+    tera:!w-140
+    peta:!w-180
   `,
   emphasis: `
     font-serif italic

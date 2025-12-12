@@ -46,7 +46,7 @@ const styles = tw({
     base:hidden
   `,
   icon: `
-    w-10 h-10
+    w-6 h-6
     stroke-2 stroke-current/90
   `,
   list: `
@@ -149,38 +149,6 @@ const styles = tw({
   block: `
     relative
     block
-  `,
-  index: (isOnChild: boolean) => tw(`
-    ml-0.75
-    text-tiny/2
-    font-light font-stretch-condensed
-    tracking-normal
-
-    base:ml-1.5
-
-    ${isOnChild ? 'mega:text-tiny/3' : 'base:text-sm/3'}
-  `),
-  info: `
-    hidden
-    absolute left-4 bottom-62 z-1
-    w-52
-    pr-4
-    uppercase
-    text-xs/3
-    font-mono font-light font-stretch-normal
-    tracking-wide
-    bg-white dark:bg-black
-    opacity-0
-    duration-200
-
-    group-hover/item:opacity-100
-
-    base:block
-    deka:text-right
-    deka:right-0
-    deka:left-auto
-    deka:bottom-0
-    deka:pr-0
   `,
 });
 
