@@ -64,7 +64,7 @@ export default function Navigation({ onToggle, shouldPush }: Props) {
                     styles.link(isOnRoot, isOnParent, link.isActive, shouldPush)
                   }
                   href={link.path}
-                  onClick={() => handleOnClick(link.base)}
+                  onClick={(event) => handleOnClick(event, link.base)}
                 >
                   <span className={styles.block}>
                     {link.text}

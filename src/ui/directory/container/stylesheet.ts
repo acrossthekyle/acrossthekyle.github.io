@@ -5,7 +5,7 @@ const styles = tw({
     const common = `
       flex-1
       ${align === 'end' && 'flex flex-col'}
-      px-4 py-4
+      px-4 py-2
       scroll-smooth
       overflow-y-scroll
       duration-300
@@ -40,7 +40,7 @@ const styles = tw({
       pr-0
 
       base:mt-0
-      base:pt-6
+      deka:pt-12
       base:pl-12
       deka:pr-12
       deka:py-12

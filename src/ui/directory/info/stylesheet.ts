@@ -33,8 +33,8 @@ const styles = tw({
       tera:bottom-58
       peta:bottom-92
     ` : `
-      base:bottom-36
-      base:left-4
+      base:bottom-40
+      base:left-2.5
       deka:left-12
       deka:bottom-50
       mega:bottom-70

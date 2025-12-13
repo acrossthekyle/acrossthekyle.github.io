@@ -1,6 +1,6 @@
 'use client';
 
-import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
 import { routes } from '@/constants';
 import { useHierarchy } from '@/hooks/useHierarchy';
@@ -8,55 +8,31 @@ import { useHierarchy } from '@/hooks/useHierarchy';
 import styles from './stylesheet';
 
 export default function Breadcrumbs() {
-  const { isOnChild, isOnParent, isOnRoot, path } = useHierarchy();
+  const router = useRouter();
+
+  const { isOnChild, isOnRoot, path } = useHierarchy();
 
   const match = routes.find((route) => path.includes(route.base));
 
-  const child = isOnChild && match ? path.replace(`${match.base}/`, '').replace(/-/g, ' ') : null;
+  const handleOnBack = () => {
+    router.back();
+  };
 
   if (isOnRoot || !match) {
     return null;
   }
 
   return (
-    <nav aria-label="breadcrumbs" className={styles.container}>
-      <ol className={styles.list}>
-        <li>
-          <span aria-hidden="true" className={styles.slash(false)}>/</span>
-          <Link href="/">Home</Link>
-        </li>
-        {(isOnParent || isOnChild) && (
-          <>
-            <li aria-current={isOnParent ? 'page' : undefined}>
-              <span aria-hidden="true" className={styles.slash(isOnParent)}>
-                /
-              </span>
-              {isOnParent ? (
-                <span className={styles.match(true)}>
-                  {match.text}
-                </span>
-              ) : (
-                <Link
-                  className={styles.match(isOnParent)}
-                  href={match.base}
-                >
-                  {match.text}
-                </Link>
-              )}
-            </li>
-            {child && (
-              <li aria-current="page" className={styles.item}>
-                <span aria-hidden="true" className={styles.slash(true)}>
-                  /
-                </span>
-                <span className={styles.match(true)}>
-                  {child}
-                </span>
-              </li>
-            )}
-          </>
+    <div className={styles.container}>
+      <div className={styles.heading}>
+        <h1 className={styles.item}>
+          {match.text}
+        </h1>
+        {isOnChild && (
+          <button className={styles.back} onClick={handleOnBack} type="button">Back to list</button>
         )}
-      </ol>
-    </nav>
+      </div>
+      <p className={styles.label}>{match.label}</p>
+    </div>
   );
 }

@@ -1,6 +1,6 @@
 'use client';
 
-import { TextAlignEnd } from 'lucide-react';
+import { Menu } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 import { useHierarchy } from '@/hooks/useHierarchy';
@@ -22,7 +22,7 @@ export default function Header() {
       document.documentElement.classList.add('overflow-hidden');
 
       if (main) {
-        main.classList.add('-translate-x-full');
+        main.classList.add('translate-y-[100vh]');
         main.classList.add('overflow-hidden');
       }
     } else {
@@ -32,8 +32,8 @@ export default function Header() {
         main.classList.remove('overflow-hidden');
 
         setTimeout(() => {
-          main.classList.remove('-translate-x-full');
-        }, 200);
+          main.classList.remove('translate-y-[100vh]');
+        }, 300);
       }
     }
   }, [shouldPush]);
@@ -46,13 +46,14 @@ export default function Header() {
   }, [path]);
 
   const handleOnToggle = () => {
+    window.scrollTo(0, 0);
+
     setShouldPush((previous: boolean) => !previous);
   };
 
   return (
     <header className={styles.container(isOnRoot, isOnGrandChild)}>
       <div className={styles.upper(shouldPush)}>
-        <Logo />
         <Breadcrumbs />
         {!isOnRoot && (
           <button
@@ -63,7 +64,7 @@ export default function Header() {
             onClick={handleOnToggle}
             type="button"
           >
-            <TextAlignEnd className={styles.icon} />
+            <Menu className={styles.icon} />
           </button>
         )}
       </div>

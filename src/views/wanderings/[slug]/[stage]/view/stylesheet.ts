@@ -24,8 +24,8 @@ const styles = tw({
     deka:right-7
   `,
   icon: `
-    w-8 h-8
-    stroke-2
+    w-7 h-7
+    stroke-2 stroke-current/90
 
     base:stroke-1
   `,

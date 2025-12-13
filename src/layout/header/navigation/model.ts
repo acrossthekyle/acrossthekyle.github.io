@@ -22,8 +22,13 @@ export const useModel = (onToggle: () => void, shouldPush: boolean) => {
     path,
   } = useHierarchy();
 
-  const handleOnClick = (base: string) => {
+  const handleOnClick = (
+    event: React.MouseEvent<HTMLAnchorElement>,
+    base: string,
+  ) => {
     if (path.includes(base) && isMobile) {
+      event.preventDefault();
+
       onToggle();
     }
   };

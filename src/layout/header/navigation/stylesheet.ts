@@ -3,12 +3,11 @@ import tw from '@/styles';
 const styles = tw({
   container: (isOnRoot: boolean, shouldPush: boolean) => {
     const common = `
-      fixed ${shouldPush ? 'right-0' : '-right-full'} top-0 z-10
+      absolute ${shouldPush ? 'top-0' : '-top-full'} left-0 z-10
       w-full h-full
-      bg-white dark:bg-black
-      duration-300 ${shouldPush && 'delay-200'}
+      duration-300 ${shouldPush && 'delay-300'}
 
-      base:right-auto
+      base:left-auto
       base:top-auto
       base:h-auto
       base:static
@@ -46,7 +45,7 @@ const styles = tw({
     base:hidden
   `,
   icon: `
-    w-6 h-6
+    w-7 h-7
     stroke-2 stroke-current/90
   `,
   list: `

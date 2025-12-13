@@ -45,12 +45,12 @@ const styles = tw({
     `);
   },
   upper: (shouldPush: boolean) => tw(`
-    ${shouldPush && '-translate-x-full'}
-    flex items-center w-full
-    duration-300 ${!shouldPush && 'delay-200'}
+    ${shouldPush && '-translate-x-[100vw]'}
+    flex items-start w-full
+    duration-300 ${!shouldPush && 'delay-300'}
   `),
   toggle: `
-    p-2
+    p-1
     opacity-0
     animate-in-fade
 
