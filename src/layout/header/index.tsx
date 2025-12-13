@@ -6,7 +6,6 @@ import { useEffect, useState } from 'react';
 import { useHierarchy } from '@/hooks/useHierarchy';
 
 import Breadcrumbs from './breadcrumbs';
-import Logo from './logo';
 import Navigation from './navigation';
 import styles from './stylesheet';
 
