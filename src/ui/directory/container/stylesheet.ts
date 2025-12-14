@@ -5,13 +5,14 @@ const styles = tw({
     const common = `
       flex-1
       ${align === 'end' && 'flex flex-col'}
-      px-4 py-2
+      px-4 py-2 pb-4
       scroll-smooth
       overflow-y-scroll
       duration-300
 
       ${align === 'end' && 'justify-end'}
 
+      base:pb-0
       base:flex-none
     `;
 

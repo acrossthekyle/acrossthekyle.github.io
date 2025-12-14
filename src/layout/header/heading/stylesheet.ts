@@ -2,37 +2,42 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
+    flex items-center
     w-full
     mx-2
     opacity-0
     animate-in-fade
+  `,
+  logo: `
+    block
+    pt-1.5 pr-4
 
-    base:hidden
+    base:pt-0
+  `,
+  image: `
+    w-11
+    opacity-70
+
+    base:w-10
   `,
   heading: `
-    flex items-center gap-4
     text-3xl
     font-extrablack font-stretch-ultra-condensed
     tracking-tight
     uppercase
+
+    base:hidden
   `,
   item: `
     line-clamp-1
   `,
-  back: `
-    uppercase
-    text-sm text-center
-    font-bold
-    tracking-normal
-    h-6
-    w-22
-    border-1
-    rounded-full
-  `,
   label: `
-    uppercase
-    text-xs/3.5
     block
+    text-tiny/3
+    uppercase
+
+    plank:text-xs/3.5
+    base:hidden
   `,
 });
 

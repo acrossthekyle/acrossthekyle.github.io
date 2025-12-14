@@ -15094,7 +15094,7 @@ const data = [
     "date": "Jun 21 - Jul 3, 2023",
     "description": [
       "Considered to be the most difficult of all trails in Europe, the Fra Li Monti (Corsican for 'across the mountains', and also more commonly known as the GR 20) is a footpath that traverses the Mediterranean island of Corsica from north to south along its spiny mountainous backbone, reaching a maximum altitude of 8,551 feet.",
-      "It demanded thousands of feet of elevation change every day, totally 44,475 ft of gain and 44,549 ft of loss. Between the northern starting point at Calenzana to the finish at Conca in the south, there were hidden mountain lakes, expansive sea views, rugged and rocky cliffs, and remarkable panoramas.",
+      "It demanded thousands of feet of elevation change every day, totaling 44,475 ft of gain and 44,549 ft of loss. Between the northern starting point at Calenzana to the finish at Conca in the south, there were hidden mountain lakes, expansive sea views, rugged and rocky cliffs, and remarkable panoramas.",
       "Even though I had survived hiking in the Himalayas, this was definitely the hardest thru-hike I have ever done. It took me 13 days to complete it, over a distance of 131 miles."
     ],
     "gear": {

@@ -103,7 +103,7 @@ const styles = tw({
         ${root}
         ${fonts}
 
-        base:duration-200
+        duration-200
         base:font-stretch-normal
         base:tracking-tight
         base:text-8xl/18.5
@@ -115,7 +115,7 @@ const styles = tw({
     }
 
     const sub = `
-      base:duration-200
+      duration-200
       ${!isActive && 'base:text-current/25'}
       base:font-thin
       base:font-stretch-ultra-condensed

@@ -6,7 +6,7 @@ const styles = tw({
     relative z-1
     mt-1 mb-2 mr-4
     text-xs/4
-    font-mono font-light font-stretch-normal
+    font-light font-stretch-normal
     tracking-wide
     duration-200
 

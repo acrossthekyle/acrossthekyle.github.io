@@ -25,7 +25,7 @@ html[data-theme="light"] {
 }
 
 @theme {
-  --breakpoint-plank: 19.0625rem; /* 305px */
+  --breakpoint-plank: 19.375rem; /* 310px */
   --breakpoint-pico: 20.9375rem; /* 335px */
   --breakpoint-nano: 22.5rem; /* 360px */
   --breakpoint-micro: 24.375rem; /* 390px */

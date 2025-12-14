@@ -1,11 +1,11 @@
 'use client';
 
-import { Menu } from 'lucide-react';
+import { ChartNoAxesGantt } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 import { useHierarchy } from '@/hooks/useHierarchy';
 
-import Breadcrumbs from './breadcrumbs';
+import Heading from './heading';
 import Navigation from './navigation';
 import styles from './stylesheet';
 
@@ -53,7 +53,7 @@ export default function Header() {
   return (
     <header className={styles.container(isOnRoot, isOnGrandChild)}>
       <div className={styles.upper(shouldPush)}>
-        <Breadcrumbs />
+        <Heading />
         {!isOnRoot && (
           <button
             aria-controls="menu"
@@ -63,7 +63,7 @@ export default function Header() {
             onClick={handleOnToggle}
             type="button"
           >
-            <Menu className={styles.icon} />
+            <ChartNoAxesGantt className={styles.icon} />
           </button>
         )}
       </div>
