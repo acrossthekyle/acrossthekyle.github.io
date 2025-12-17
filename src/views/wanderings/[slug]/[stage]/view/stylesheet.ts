@@ -4,7 +4,7 @@ const styles = tw({
   container: `
     relative
     h-full w-full
-    pt-12
+    pt-2
     overflow-y-scroll
     overscroll-contain
     opacity-0
@@ -14,11 +14,9 @@ const styles = tw({
     base:pr-12
   `,
   close: `
-    absolute top-2 left-1 z-9999
+    absolute top-2 right-1 z-9999
     p-2
 
-    base:right-0
-    base:left-auto
     base:fixed
     deka:top-9
     deka:right-7

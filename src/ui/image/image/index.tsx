@@ -10,8 +10,9 @@ import styles from './stylesheet';
 type Props = {
   alt: string;
   className?: string;
+  color?: boolean;
   height: number;
-  index: number;
+  index?: number;
   sizes: string;
   width: number;
 };
@@ -19,6 +20,7 @@ type Props = {
 export default function Image({
   alt,
   className = '',
+  color,
   height,
   index,
   sizes,
@@ -37,7 +39,7 @@ export default function Image({
   return (
     <NextJsImage
       alt={alt}
-      className={`${styles.image(inView, index)} ${className}`.trim()}
+      className={`${styles.image(inView, index, color)} ${className}`.trim()}
       height={height}
       onLoad={onLoad}
       ref={ref}

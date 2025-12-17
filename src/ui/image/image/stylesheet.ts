@@ -3,23 +3,23 @@ import tw from '@/styles';
 import { getAspectClassNames } from '../utils';
 
 const styles = {
-  image: (isInView: boolean, index: number) => tw(`
+  image: (isInView: boolean, index?: number, color?: boolean) => tw(`
     object-cover
     w-full h-full
     transform-gpu duration-700
     rounded-2xl
-    brightness-60
-    grayscale-100
+    ${!color && 'grayscale-100'}
+    ${!color ? 'brightness-60' : 'brightness-80'}
 
     ${getAspectClassNames(index)}
 
     base:rounded-sm
 
-    ${isInView && `
+    ${!color && isInView && `
       brightness-80
       !grayscale-0
 
-      base:brightness-60
+      base:brightness-80
       base:!grayscale-100
     `}
 

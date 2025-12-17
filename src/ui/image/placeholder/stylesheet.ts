@@ -3,7 +3,7 @@ import tw from '@/styles';
 import { getAspectClassNames } from '../utils';
 
 const styles = {
-  placeholder: (isLoading: boolean, index: number) => tw(`
+  placeholder: (isLoading: boolean, index?: number) => tw(`
     relative
 
     ${isLoading && getAspectClassNames(index)}

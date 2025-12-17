@@ -8,7 +8,7 @@ import styles from './stylesheet';
 type Props = {
   children: React.ReactNode | React.ReactNode[];
   className?: string;
-  index: number;
+  index?: number;
 };
 
 export default function Placeholder({ children, className, index }: Props) {
@@ -16,7 +16,10 @@ export default function Placeholder({ children, className, index }: Props) {
 
   if (isLoading) {
     return (
-      <div className={`${styles.placeholder(isLoading, index)} ${className}`}>
+      <div
+        aria-hidden="true"
+        className={`${styles.placeholder(isLoading, index)} ${className}`}
+      >
         {children}
       </div>
     );

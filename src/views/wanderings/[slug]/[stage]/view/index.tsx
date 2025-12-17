@@ -62,6 +62,7 @@ export default function View({ data }: Props) {
         <Article className={styles.article}>
           <Header
             date={data.date}
+            image={data.image}
             title={data.title}
           />
           {data.hasStats && (

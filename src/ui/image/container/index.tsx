@@ -9,6 +9,7 @@ type Props = {
   alt: string;
   children?: React.ReactNode | React.ReactNode[];
   className?: string;
+  color?: boolean;
   height: number;
   index?: number;
   sizes: string;
@@ -21,8 +22,9 @@ export default function Container({
   alt,
   children,
   className = '',
+  color,
   height,
-  index = 0,
+  index,
   sizes,
   src,
   useSpinner,
@@ -34,6 +36,7 @@ export default function Container({
         <Image
           alt={alt}
           className={className}
+          color={color}
           height={height}
           index={index}
           sizes={sizes}

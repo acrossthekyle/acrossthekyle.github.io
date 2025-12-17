@@ -10,6 +10,7 @@ const styles = tw({
     font-extrablack font-stretch-semi-condensed
     tracking-tighter
     uppercase
+    mb-6
 
     nano:text-3xl/6
     base:font-stretch-semi-expanded
