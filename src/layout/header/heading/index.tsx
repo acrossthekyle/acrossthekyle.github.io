@@ -9,7 +9,7 @@ import { useHierarchy } from '@/hooks/useHierarchy';
 import styles from './stylesheet';
 
 export default function Heading() {
-  const { isOnChild, isOnRoot, path } = useHierarchy();
+  const { path } = useHierarchy();
 
   const match = routes.find((route) => path.includes(route.base));
 

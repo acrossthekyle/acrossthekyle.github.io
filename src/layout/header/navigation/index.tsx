@@ -4,8 +4,6 @@ import { X } from 'lucide-react';
 import Link from 'next/link';
 import FocusLock from 'react-focus-lock';
 
-import { padIndex } from '@/utils';
-
 import { useModel } from './model';
 import styles from './stylesheet';
 import Theme from './theme';
@@ -20,7 +18,6 @@ export default function Navigation({ onToggle, shouldPush }: Props) {
     handleOnClick,
     isFirstLoad,
     isMobile,
-    isOnChild,
     isOnRoot,
     isOnParent,
     links,

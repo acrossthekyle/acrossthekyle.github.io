@@ -8,7 +8,7 @@ type Props = {
 
 export const GpxContext = createContext({
   hoverIndex: null,
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  // eslint-disable-next-line unused-imports/no-unused-vars
   onHover: (index: number | null) => {
     // noop
   },

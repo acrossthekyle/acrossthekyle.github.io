@@ -16,7 +16,6 @@ export const useModel = (onToggle: () => void, shouldPush: boolean) => {
   const { isFirstLoad } = useLoad();
 
   const {
-    isOnChild,
     isOnRoot,
     isOnParent,
     path,
@@ -59,7 +58,6 @@ export const useModel = (onToggle: () => void, shouldPush: boolean) => {
     handleOnClick,
     isFirstLoad,
     isMobile,
-    isOnChild,
     isOnRoot,
     isOnParent,
     links,

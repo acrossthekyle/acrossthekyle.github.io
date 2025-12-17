@@ -1,7 +1,5 @@
 'use client';
 
-import { Moon, Sun } from 'lucide-react';
-
 import { useHierarchy } from '@/hooks/useHierarchy';
 import { useTheme } from '@/hooks/useTheme';
 
