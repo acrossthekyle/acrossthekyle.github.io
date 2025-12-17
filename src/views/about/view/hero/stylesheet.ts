@@ -1,6 +1,9 @@
 import tw from '@/styles';
 
 const styles = tw({
+  anchor: `
+    relative -top-9999 right-0
+  `,
   header: `
     relative z-1
     my-12

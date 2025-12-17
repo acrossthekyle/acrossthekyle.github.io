@@ -5,16 +5,7 @@ const styles = tw({
     flex justify-center
     mt-8 mb-4
 
-    base:hidden
-  `,
-  up: `
-    uppercase
-    text-xs text-center
-    font-bold
-    py-0.75
-    w-26
-    border-1
-    rounded-full
+    base:mb-0
   `,
 });
 
