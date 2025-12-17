@@ -24,8 +24,10 @@ export default function Theme({ isMenuActive }: Props) {
       onClick={onToggleTheme}
       type="button"
     >
-      <Sun aria-hidden="true" className={styles.sun} />
-      <Moon aria-hidden="true" className={styles.moon} />
+      Switch to
+      <span aria-hidden="true" className={styles.sun}>Dark</span>
+      <span aria-hidden="true" className={styles.moon}>Light</span>
+      Mode
     </button>
   );
 }

@@ -12,7 +12,8 @@ const styles = tw({
     block
     pt-1.5 pr-4
 
-    base:pt-0
+    base:pr-0
+    deka:pt-0
   `,
   image: `
     w-11
