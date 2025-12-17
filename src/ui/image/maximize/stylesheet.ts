@@ -46,6 +46,8 @@ const styles = tw({
   close: `
     absolute top-1 right-1 z-1
     p-2
+    bg-black/10
+    rounded-lg
 
     deka:top-7
     deka:right-7
