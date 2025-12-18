@@ -11,15 +11,13 @@ const styles = tw({
     animate-in-fade
 
     base:pt-0
-    base:pr-12
   `,
   close: `
-    absolute top-2 right-1 z-9999
+    absolute top-1 right-0.5 z-4
     p-2
 
-    base:fixed
     deka:top-9
-    deka:right-7
+    deka:right-9
   `,
   icon: `
     w-7 h-7

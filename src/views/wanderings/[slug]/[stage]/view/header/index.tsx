@@ -1,4 +1,10 @@
-import { Image } from '@/ui/image';
+import {
+  Image,
+  ImageCaption,
+  ImageInfo,
+  ImageFigure,
+  ImageMaximize,
+} from '@/ui/image';
 
 import styles from './stylesheet';
 
@@ -22,15 +28,23 @@ export default function Header({ date, image, title }: Props) {
         ))}
       </h1>
       {image && (
-        <Image
-          alt=""
-          color
-          height={1080}
-          sizes="(max-width: 768px) 100vw, 50vw"
-          src={image}
-          width={1920}
-        >
-        </Image>
+        <ImageFigure>
+          <Image
+            alt=""
+            color
+            height={1080}
+            sizes="(max-width: 768px) 100vw, 50vw"
+            src={image}
+            width={1920}
+          >
+            <ImageCaption>
+              <ImageInfo>
+                Shot on iPhone
+              </ImageInfo>
+            </ImageCaption>
+            <ImageMaximize />
+          </Image>
+        </ImageFigure>
       )}
     </header>
   );

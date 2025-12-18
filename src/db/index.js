@@ -30132,8 +30132,7 @@ const data = [
           "end": {
             "position": null,
             "words": [
-              "Tomb of the",
-              "King",
+              "Tomb of",
               "Tutankhamun"
             ]
           },
@@ -30141,8 +30140,7 @@ const data = [
           "start": {
             "position": null,
             "words": [
-              "Tomb of the",
-              "King",
+              "Tomb of",
               "Tutankhamun"
             ]
           }
@@ -30271,7 +30269,6 @@ const data = [
             "position": null,
             "words": [
               "Hatshepsuts",
-              "Mortuary",
               "Temple"
             ]
           },
@@ -30280,7 +30277,6 @@ const data = [
             "position": null,
             "words": [
               "Hatshepsuts",
-              "Mortuary",
               "Temple"
             ]
           }
@@ -30306,7 +30302,6 @@ const data = [
           "end": {
             "position": null,
             "words": [
-              "Hot Air",
               "Balloon",
               "Ride"
             ]
@@ -30315,7 +30310,6 @@ const data = [
           "start": {
             "position": null,
             "words": [
-              "Hot Air",
               "Balloon",
               "Ride"
             ]
@@ -30376,18 +30370,14 @@ const data = [
           "end": {
             "position": null,
             "words": [
-              "Karnak",
-              "Temple",
-              "Complex"
+              "Karnak"
             ]
           },
           "isSame": true,
           "start": {
             "position": null,
             "words": [
-              "Karnak",
-              "Temple",
-              "Complex"
+              "Karnak"
             ]
           }
         }
@@ -30461,16 +30451,16 @@ const data = [
           "end": {
             "position": null,
             "words": [
-              "The",
-              "Pyramids"
+              "Pyramids of",
+              "Giza"
             ]
           },
           "isSame": true,
           "start": {
             "position": null,
             "words": [
-              "The",
-              "Pyramids"
+              "Pyramids of",
+              "Giza"
             ]
           }
         }
@@ -41849,7 +41839,6 @@ const data = [
             "position": null,
             "words": [
               "El Yunque",
-              "National",
               "Forest"
             ]
           },
@@ -41858,7 +41847,6 @@ const data = [
             "position": null,
             "words": [
               "El Yunque",
-              "National",
               "Forest"
             ]
           }
@@ -141445,9 +141433,7 @@ const data = [
             "position": null,
             "words": [
               "Torres del",
-              "Paine",
-              "National",
-              "Park"
+              "Paine"
             ]
           },
           "isSame": true,
@@ -141455,9 +141441,7 @@ const data = [
             "position": null,
             "words": [
               "Torres del",
-              "Paine",
-              "National",
-              "Park"
+              "Paine"
             ]
           }
         }
@@ -141663,8 +141647,7 @@ const data = [
           "end": {
             "position": null,
             "words": [
-              "San José de",
-              "Maipo",
+              "San José",
               "Glacier"
             ]
           },
@@ -141672,8 +141655,7 @@ const data = [
           "start": {
             "position": null,
             "words": [
-              "San José de",
-              "Maipo",
+              "San José",
               "Glacier"
             ]
           }
@@ -141700,7 +141682,6 @@ const data = [
             "position": null,
             "words": [
               "Cousino",
-              "Macul",
               "Winery"
             ]
           },
@@ -141709,7 +141690,6 @@ const data = [
             "position": null,
             "words": [
               "Cousino",
-              "Macul",
               "Winery"
             ]
           }
@@ -141819,7 +141799,7 @@ const data = [
           "end": {
             "position": null,
             "words": [
-              "",
+              "Plaza de",
               "Independence"
             ]
           },
@@ -141827,7 +141807,7 @@ const data = [
           "start": {
             "position": null,
             "words": [
-              "",
+              "Plaza de",
               "Independence"
             ]
           }

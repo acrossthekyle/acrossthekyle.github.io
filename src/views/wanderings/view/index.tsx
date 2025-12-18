@@ -27,7 +27,7 @@ export default function View({ data }: Props) {
   const { ref } = useModel();
 
   return (
-    <Directory>
+    <Directory label="wanderings">
       <DirectoryItems>
         {data.map((item, index: number) => (
           <DirectoryItem index={index} key={index}>

@@ -1,13 +1,16 @@
 import tw from '@/styles';
 
 const styles = {
-  backdrop: (canBlur: boolean) => tw(`
+  backdrop: (isActive: boolean) => tw(`
     fixed inset-0
-    backdrop-blur-md
+    flex items-center justify-center
+    backdrop-blur-xs
     bg-black/20
     cursor-default
+    uppercase
+    text-tiny
 
-    ${canBlur ? (`
+    ${isActive ? (`
       opacity-100
       translate-x-0
       z-9998
@@ -21,26 +24,43 @@ const styles = {
       [transition:opacity_.5s_var(--ease-in-out),translate_0s_linear_.5s]
     `)}
   `),
-  dialog: (isZoomed: boolean) => tw(`
-    absolute
-    transform-gpu duration-250
+  dialog: (isActive: boolean) => tw(`
+    fixed inset-0
 
-    ${isZoomed ? `
-      z-9999
+    ${isActive ? (`
       opacity-100
-      fixed
-    ` : `z-0 opacity-0`}
-  `),
-  caption: (isLandscapeOrientation: boolean, isZoomed: boolean) => tw(`
-    absolute top-4 left-4 right-4 z-4
-    font-normal
-    text-xs
-    ${isLandscapeOrientation ? 'text-right' : 'text-center'}
-    uppercase
+      translate-x-0
+      z-9998
 
-    ${isZoomed ? 'duration-300 delay-200' : ''}
-    ${isZoomed ? 'opacity-100' : 'opacity-0'}
+      [transition:opacity_.5s_var(--ease-in-out),translate_0s]
+    `) : (`
+      opacity-0
+      translate-x-full
+      z-0
+
+      [transition:opacity_.5s_var(--ease-in-out),translate_0s_linear_.5s]
+    `)}
   `),
+  image: `
+    brightness-80
+
+    object-cover
+    w-full
+    h-full
+  `,
+  close: `
+    absolute top-1 right-1 z-1
+    p-2
+    bg-black/10
+    rounded-lg
+
+    deka:top-9
+    deka:right-9
+  `,
+  icon: `
+    w-6.5 h-6.5
+    stroke-1 stroke-white/90
+  `,
 };
 
 export default styles;

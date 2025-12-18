@@ -24,6 +24,7 @@ export default function DirectoryLink({
 
   return (
     <Link
+      aria-current={isActive ? 'page' : undefined}
       className={styles.link(isOnChild, isActive)}
       href={isActive ? (isOnGrandChild ? href : previous) : href}
       ref={isActive ? ref : undefined}

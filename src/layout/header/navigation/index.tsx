@@ -56,7 +56,8 @@ export default function Navigation({ onToggle, shouldPush }: Props) {
                 style={{ animationDelay: `${0.1 + (index * 0.025)}s` }}
               >
                 <Link
-                  aria-label={link.label}
+                  aria-current={link.isActive ? 'page' : undefined}
+                  aria-label={`${link.text} (${link.label})`}
                   className={
                     styles.link(isOnRoot, isOnParent, link.isActive, shouldPush)
                   }

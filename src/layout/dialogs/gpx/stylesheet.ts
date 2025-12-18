@@ -50,7 +50,7 @@ const styles = tw({
 
     base:right-0
     deka:top-9
-    deka:right-7
+    deka:right-9
   `,
   icon: `
     w-7 h-7

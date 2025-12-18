@@ -4,50 +4,28 @@ const styles = tw({
   anchor: `
     relative -top-9999 right-0
   `,
-  top: `
+  shortcut: `
     hidden
-    absolute top-2 right-0 z-5
-    p-2
-
-    base:block
-    deka:top-10
-    deka:right-7
-  `,
-  bottom: `
-    relative
-    uppercase
-    text-xs text-center
-    font-bold
-    py-0.75
-    mb-6
-    w-26
-    border-1
-    rounded-full
+    absolute bottom-2 right-2 z-5
+    items-center gap-2
+    bg-black/20
+    p-1 pl-1.5
+    rounded-md
     opacity-0
     animate-elastic-in-from-right
 
-    base:mb-0
-    base:w-auto
-    base:border-0
-    base:p-2
-    base:absolute
-    base:bottom-1
-    base:right-0
-    base:z-5
-    deka:bottom-10
-    deka:right-7
+    base:flex
+    deka:bottom-12
+    deka:right-22
   `,
-  icon: `
-    hidden
-    w-6 h-6
-    stroke-2 stroke-current/90
-
-    base:block
+  keyboard: `
+    flex items-center gap-1
+    font-mono
+    text-xs
   `,
-  text: `
-    block
-
-    base:hidden
+  arrow: `
+    w-3.5 h-3.5
+    stroke-0 fill-current/90
   `,
 });
 

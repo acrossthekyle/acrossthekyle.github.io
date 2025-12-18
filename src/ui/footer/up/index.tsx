@@ -1,6 +1,10 @@
 'use client';
 
+import { useEffect } from 'react';
+
 import styles from './stylesheet';
+
+const keysPressed: { [key: string]: boolean } = {};
 
 export default function Up() {
   const handleOnClick = () => {
@@ -24,6 +28,33 @@ export default function Up() {
       });
     }
   };
+
+  useEffect(() => {
+    const handleKeyUp = (event: KeyboardEvent) => {
+      delete keysPressed[event.key];
+    };
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      keysPressed[event.key] = true;
+
+      if (
+        event.key === 'ArrowUp' &&
+        (keysPressed['Meta'] || keysPressed['Ctrl'])
+      ) {
+        event.preventDefault();
+
+        handleOnClick();
+      }
+    };
+
+    document.addEventListener('keyup', handleKeyUp);
+    document.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      document.removeEventListener('keyup', handleKeyUp);
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, []);
 
   return (
     <button

@@ -3,8 +3,6 @@
 import { X } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 
-import { useEvent } from '@/hooks/useEvent';
-
 import styles from './stylesheet';
 
 export default function Toggle() {
@@ -13,10 +11,6 @@ export default function Toggle() {
   const handleOnClose = () => {
     router.back();
   };
-
-  useEvent('onEscape', () => {
-    handleOnClose();
-  });
 
   return (
     <button

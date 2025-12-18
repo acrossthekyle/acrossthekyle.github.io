@@ -4,9 +4,8 @@ const styles = tw({
   list: `
     group/stages
     flex flex-col gap-4
-    mb-6
 
-    base:gap-6
+    deka:gap-6
   `,
   item: (canAnimate: boolean) => tw(`
     relative

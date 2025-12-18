@@ -18,20 +18,6 @@ const styles = tw({
     base:focus:pl-7
     base:focus:pb-7
   `,
-  hint: `
-    absolute left-4 bottom-4
-    py-0.75
-    w-28
-    border-1
-    rounded-full
-    font-black
-    text-xs text-center
-    uppercase
-
-    micro:right-4
-    micro:left-auto
-    base:hidden
-  `,
 });
 
 export default styles;

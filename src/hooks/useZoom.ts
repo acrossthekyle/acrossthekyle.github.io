@@ -4,88 +4,46 @@ import { create } from 'zustand';
 
 import { useEvent } from './useEvent';
 
-type ZoomOptions = {
-  caption?: string;
-  content: React.ReactNode | React.ReactNode[];
-  isLandscapeOrientation: boolean;
-  ref: React.RefObject<HTMLDivElement | null>;
-};
-
-type Size = {
-  top: number;
-  left: number;
-  height: string;
-  width: string;
-};
-
 type State = {
-  canBlur: boolean;
-  caption?: string;
-  content: React.ReactNode | React.ReactNode[] | null;
+  isActive: boolean;
   isLandscapeOrientation: boolean;
-  isZoomed: boolean;
-  isZooming: boolean;
-  size?: Size;
-  sizeBackup?: Size;
+  isReady: boolean;
+  src: string | null;
 };
 
 type Actions = {
-  setFinalSize: (size: Size) => void;
-  setZoom: (
-    content: React.ReactNode | React.ReactNode[],
-    size: Size,
-    isLandscapeOrientation: boolean,
-    caption?: string,
-  ) => void;
-  unset: () => void;
+  setLoaded: () => void
+  setZoom: (src: string, isLandscapeOrientation: boolean) => void;
+  unsetZoom: () => void;
 };
 
 const store = create<State & Actions>()(
-  (set, get) => ({
-    canBlur: false,
-    caption: undefined,
-    content: null,
+  (set) => ({
+    isActive: false,
     isLandscapeOrientation: false,
-    isZoomed: false,
-    isZooming: false,
-    size: undefined,
-    sizeBackup: undefined,
-    setZoom: (
-      content: React.ReactNode | React.ReactNode[],
-      size: Size,
-      isLandscapeOrientation: boolean,
-      caption?: string,
-    ) => {
+    isReady: false,
+    src: null,
+    setLoaded: () => {
       set({
-        canBlur: true,
-        caption,
-        content,
+        isReady: true,
+      });
+    },
+    setZoom: (source: string, isLandscapeOrientation: boolean) => {
+      set({
+        isActive: true,
         isLandscapeOrientation,
-        isZoomed: false,
-        isZooming: true,
-        size,
-        sizeBackup: size,
+        src: source,
       });
     },
-    setFinalSize: (size: Size) => {
+    unsetZoom: () => {
       set({
-        isZoomed: true,
-        size,
-      });
-    },
-    unset: () => {
-      set({
-        canBlur: false,
-        isZoomed: false,
-        size: get().sizeBackup,
+        isActive: false,
+        isReady: false,
       });
 
       setTimeout(() => {
         set({
-          caption: undefined,
-          content: null,
-          isZooming: false,
-          size: undefined,
+          src: null,
         });
       }, 250);
     },
@@ -94,77 +52,43 @@ const store = create<State & Actions>()(
 
 export function useZoom() {
   const {
-    canBlur,
-    caption,
-    content,
+    isActive,
     isLandscapeOrientation,
-    isZoomed,
-    isZooming,
-    setFinalSize,
+    isReady,
+    setLoaded,
     setZoom,
-    size,
-    unset,
+    src,
+    unsetZoom,
   } = store();
 
   const zoomOut = () => {
-    unset();
+    unsetZoom();
 
     document.documentElement.classList.remove('overflow-hidden');
   };
 
-  const handleOnEscape = () => {
-    if (isZoomed) {
-      zoomOut();
-    }
-  };
-
-  const zoom = (options: ZoomOptions) => {
-    if (options.ref.current === null) {
-      return;
-    }
-
-    const boundingClientRect = options.ref.current.getBoundingClientRect();
-    const computedStyle = {
-      width: window.getComputedStyle(options.ref.current).width,
-      height: window.getComputedStyle(options.ref.current).height,
-    };
-
-    setZoom(
-      options.content,
-      {
-        top: boundingClientRect.top,
-        left: boundingClientRect.left,
-        height: computedStyle.height,
-        width: computedStyle.width,
-      },
-      options.isLandscapeOrientation,
-      options.caption,
-    );
-
-    setTimeout(() => {
-      setFinalSize({
-        height: '100%',
-        width: '100%',
-        top: 0,
-        left: 0,
-      });
-    }, 200);
+  const zoom = (source: string, isLandscapeOrientation: boolean) => {
+    setZoom(source, isLandscapeOrientation);
 
     document.documentElement.classList.add('overflow-hidden');
   };
 
+  const handleOnLoad = () => {
+    setLoaded();
+  };
+
   useEvent('onEscape', () => {
-    handleOnEscape();
+    if (isActive) {
+      zoomOut();
+    }
   });
 
   return {
-    canBlur,
-    caption,
-    content,
+    handleOnLoad,
+    isActive,
     isLandscapeOrientation,
-    isZoomed,
-    isZooming,
-    size,
+    isReady,
+    src,
     zoom,
     zoomOut,
   };

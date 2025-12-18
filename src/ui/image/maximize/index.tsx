@@ -4,18 +4,13 @@ import { useModel } from './model';
 import styles from './stylesheet';
 
 export default function Maximize() {
-  const { handleOnMaximize, zoomRef } = useModel();
+  const { handleOnClick } = useModel();
 
   return (
-    <>
-      <div className={styles.dimensions} ref={zoomRef} />
-      <button
-        className={styles.maximize}
-        onClick={handleOnMaximize}
-        type="button"
-      >
-        Maximize
-      </button>
-    </>
+    <button
+      className={styles.maximize}
+      onClick={handleOnClick}
+      type="button"
+    />
   );
 }

@@ -21,6 +21,7 @@ const styles = tw({
       return tw(`
         ${common}
         hidden
+        p-2 pb-3
 
         base:flex
         base:flex-col
@@ -35,7 +36,7 @@ const styles = tw({
       flex-row items-center justify-between
       p-2 pb-0
 
-      base:pb-4
+      base:pb-3
       base:w-auto
       base:h-full
       base:relative

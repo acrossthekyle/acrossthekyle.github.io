@@ -3,16 +3,11 @@ import tw from '@/styles';
 const styles = tw({
   info: `
     block
-    pl-4 pb-4
-    text-tiny/3
-    font-extrablack
+    px-4 pb-2
+    text-tiny text-right
+    font-mono
+    tracking-widest
     uppercase
-    tracking-wider
-    font-stretch-semi-expanded
-
-    base:pl-8
-    base:pb-16
-    baseplus:pb-8
   `,
 });
 

@@ -18,7 +18,6 @@ export default function Link({ children, href, title }: Props) {
   return (
     <NextJsLink className={styles.link} href={href} title={title}>
       {children}
-      <span className={styles.hint}>View Details</span>
     </NextJsLink>
   );
 }

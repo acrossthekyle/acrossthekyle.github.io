@@ -4,9 +4,7 @@ import type { Post } from '@/types';
 import { Article } from '@/ui/article';
 
 import Footer from './footer';
-import Gallery from './gallery';
 import Header from './header';
-import Info from './info';
 import { useModel } from './model';
 import Overview from './overview';
 import Shortcuts from './shortcuts';
@@ -31,20 +29,17 @@ export default function View({ data }: Props) {
 
   return (
     <Article className={styles.article(isOnGrandChild)}>
-      <Header title={data.title} />
-      <Info date={data.date} location={data.location} type={data.type} />
+      <Header date={data.date} location={data.location} title={data.title} />
       <Shortcuts />
-      {data.category === 'destinations' ? (
-        <Gallery stages={data.stages} />
-      ) : (
+      <div className="flex flex-col-reverse base:flex-col">
         <Timeline
           label={data.label}
           slug={data.slug}
           stages={data.stages}
           title={data.title}
         />
-      )}
-      <Overview description={data.description} />
+        <Overview description={data.description} />
+      </div>
       <Footer />
     </Article>
   );

@@ -7,12 +7,15 @@ const styles = tw({
     mx-2
     opacity-0
     animate-in-fade
+
+    base:ml-0
   `,
   logo: `
     block
     pt-1.5 pr-4
 
     base:pr-0
+    base:pt-0
     deka:pt-0
   `,
   image: `

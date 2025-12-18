@@ -7,17 +7,21 @@ import styles from './stylesheet';
 type Props = {
   align?: 'end' | 'start';
   children: React.ReactNode;
+  label: string;
 };
 
 export default function DirectoryContainer({
   align = 'start',
   children,
+  label,
 }: Props) {
   const { isOnChild } = useHierarchy();
 
   return (
     <aside className={styles.container(isOnChild, align)}>
-      {children}
+      <nav aria-label={`${label} navigation`}>
+        {children}
+      </nav>
     </aside>
   );
 }

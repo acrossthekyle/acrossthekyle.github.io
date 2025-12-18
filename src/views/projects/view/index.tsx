@@ -18,7 +18,7 @@ type Props = {
 
 export default function View({ data }: Props) {
   return (
-    <Directory align="end">
+    <Directory align="end" label="wanderings">
       <DirectoryItems>
         {data.map(({ date, location, slug, title }, index) => (
           <DirectoryItem index={index} key={index}>

@@ -11,7 +11,6 @@ import {
   ImageCaptionText,
   ImageFigure,
   ImageLink,
-  ImageMaximize,
 } from '@/ui/image';
 
 import styles from './stylesheet';
@@ -58,9 +57,7 @@ export default function Timeline({ label, slug, stages, title }: Props) {
               sizes="(max-width: 768px) 100vw, 50vw"
               src={stage.image}
               width={1920}
-            >
-              <ImageMaximize />
-            </Image>
+            />
             <ImageCaption>
               <ImageLink
                 title={`View details about ${label} ${stage.index} of ${title.join(' ')}`.toUpperCase()}
