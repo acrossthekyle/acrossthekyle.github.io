@@ -12,6 +12,7 @@ import {
   Polyline,
   TileLayer,
   Tooltip,
+  ZoomControl,
   useMap,
 } from 'react-leaflet';
 
@@ -22,14 +23,12 @@ import styles from './stylesheet';
 type Props = {
   gpx: Gpx;
   hoverIndex: number | null;
-  resize: boolean;
   termini: Termini;
 };
 
 export default function Leaflet({
   gpx,
   hoverIndex,
-  resize,
   termini,
 }: Props) {
   const [data, setData] = useState<Gpx>([]);
@@ -51,11 +50,6 @@ export default function Leaflet({
 
   function Center({ positions }: { positions: Gpx }) {
     const map = useMap();
-
-    useEffect(() => {
-      map.invalidateSize();
-      // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [resize]);
 
     useEffect(() => {
       if (positions.length > 0) {
@@ -105,6 +99,7 @@ export default function Leaflet({
       // @ts-expect-error prop is necessary
       gestureHandling={true}
       zoom={1}
+      zoomControl={false}
     >
       <TileLayer
         attribution="Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ"
@@ -184,6 +179,7 @@ export default function Leaflet({
         />
       )}
       <Center positions={data} />
+      <ZoomControl position="bottomright" />
     </MapContainer>
   );
 }

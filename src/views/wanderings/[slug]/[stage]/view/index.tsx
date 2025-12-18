@@ -36,7 +36,7 @@ export default function View({ data }: Props) {
         role="dialog"
         tabIndex={-1}
       >
-        <FocusLock className="h-full">
+        <FocusLock className={styles.lock}>
           <Toggle />
           <Article className={styles.article}>
             <Header
@@ -57,7 +57,7 @@ export default function View({ data }: Props) {
       role="dialog"
       tabIndex={-1}
     >
-      <FocusLock className="h-full">
+      <FocusLock className={styles.lock}>
         <Toggle />
         <Article className={styles.article}>
           <Header

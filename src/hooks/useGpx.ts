@@ -7,7 +7,6 @@ import type { Gpx, Stats, Termini } from '@/types';
 import { useEvent } from './useEvent';
 
 type State = {
-  canRenderElevation: boolean;
   gpx: Gpx;
   isOpen: boolean;
   stats: Stats;
@@ -20,13 +19,11 @@ type Actions = {
     stats: Stats,
     termini: Termini,
   ) => void;
-  toggleCanRenderElevation: () => void;
   unset: () => void;
 };
 
 const store = create<State & Actions>()(
-  (set, get) => ({
-    canRenderElevation: false,
+  (set) => ({
     gpx: [],
     isOpen: false,
     stats: {
@@ -58,9 +55,6 @@ const store = create<State & Actions>()(
         stats,
         termini,
       });
-    },
-    toggleCanRenderElevation: () => {
-      set({ canRenderElevation: !get().canRenderElevation });
     },
     unset: () => {
       set({ isOpen: false });
@@ -94,13 +88,11 @@ const store = create<State & Actions>()(
 
 export function useGpx() {
   const {
-    canRenderElevation,
     gpx,
     isOpen,
     setGpx,
     stats,
     termini,
-    toggleCanRenderElevation,
     unset,
   } = store();
 
@@ -116,22 +108,16 @@ export function useGpx() {
     document.documentElement.classList.add('overflow-hidden');
   };
 
-  const toggleElevation = () => {
-    toggleCanRenderElevation();
-  };
-
   useEvent('onEscape', () => {
     closeGpx();
   });
 
   return {
-    canRenderElevation,
     closeGpx,
     gpx,
     isOpen,
     openGpx,
     stats,
     termini,
-    toggleElevation,
   };
 }

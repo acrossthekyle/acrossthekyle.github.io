@@ -4,6 +4,8 @@ const styles = tw({
   section: `
     h-full w-full
     overflow-hidden
+
+    base:flex-2
   `,
   map: `
     relative

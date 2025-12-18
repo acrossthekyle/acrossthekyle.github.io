@@ -1,6 +1,6 @@
 'use client';
 
-import { TrendingUp, X } from 'lucide-react';
+import { X } from 'lucide-react';
 import FocusLock from 'react-focus-lock';
 
 import { useGpx } from '@/hooks/useGpx';
@@ -8,16 +8,16 @@ import { useGpx } from '@/hooks/useGpx';
 import Context from './context';
 import Elevation from './elevation';
 import Route from './route';
+import Stats from './stats';
 import styles from './stylesheet';
 
 export default function Gpx() {
   const {
-    canRenderElevation,
     closeGpx,
     gpx,
     isOpen,
+    stats,
     termini,
-    toggleElevation,
   } = useGpx();
 
   return (
@@ -32,7 +32,7 @@ export default function Gpx() {
         role="dialog"
         tabIndex={-1}
       >
-        <FocusLock className="relative h-full w-full" disabled={!isOpen}>
+        <FocusLock className={styles.container} disabled={!isOpen}>
           <button
             aria-controls="gpx"
             aria-label="close gpx"
@@ -43,22 +43,12 @@ export default function Gpx() {
           >
             <X className={styles.icon} />
           </button>
-          <button
-            className={styles.view}
-            onClick={toggleElevation}
-            tabIndex={isOpen ? 1 : -1}
-            title="View elevation chart"
-            type="button"
-          >
-            <TrendingUp className={styles.icon} />
-          </button>
           <Context>
-            <Route
-              gpx={gpx}
-              shouldShrink={canRenderElevation}
-              termini={termini}
-            />
-            <Elevation gpx={gpx} shouldGrow={canRenderElevation} />
+            <div className={styles.content}>
+              <Stats gpx={gpx} stats={stats} termini={termini} />
+              <Elevation gpx={gpx} />
+            </div>
+            <Route gpx={gpx} termini={termini} />
           </Context>
         </FocusLock>
       </div>

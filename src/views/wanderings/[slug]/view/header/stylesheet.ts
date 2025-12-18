@@ -20,6 +20,13 @@ const styles = tw({
   line: `
     block
   `,
+  subheader: `
+    block
+    mt-1
+    text-xs
+    font-normal font-stretch-semi-condensed
+    tracking-normal
+  `,
 });
 
 export default styles;

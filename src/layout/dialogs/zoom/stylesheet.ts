@@ -61,6 +61,9 @@ const styles = {
     w-6.5 h-6.5
     stroke-1 stroke-white/90
   `,
+  lock: `
+    h-full
+  `,
 };
 
 export default styles;

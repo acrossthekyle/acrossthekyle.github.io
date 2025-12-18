@@ -23,16 +23,7 @@ export default function Stats({ gpx, stats, termini }: Props) {
     openGpx(gpx, stats, termini);
   };
 
-  const sections: Section[] = [
-    {
-      heading: 'Start',
-      value: termini.start.words.join(' '),
-    },
-    {
-      heading: 'End',
-      value: termini.end.words.join(' '),
-    },
-  ];
+  const sections: Section[] = [];
 
   if (stats.time) {
     sections.push({
@@ -55,20 +46,6 @@ export default function Stats({ gpx, stats, termini }: Props) {
     });
   }
 
-  if (stats.gain) {
-    sections.push({
-      heading: 'Elevation Gain',
-      value: `${stats.gain.value.imperial} ${stats.gain.units.imperial.abbreviated}`,
-    });
-  }
-
-  if (stats.loss) {
-    sections.push({
-      heading: 'Elevation Loss',
-      value: `${stats.loss.value.imperial} ${stats.loss.units.imperial.abbreviated}`,
-    });
-  }
-
   return (
     <ul className={styles.list}>
       {sections.map((section: Section) => (
@@ -81,9 +58,10 @@ export default function Stats({ gpx, stats, termini }: Props) {
         <button
           className={styles.view}
           onClick={handleOnViewGpxPress}
+          title="View all stats + route and elevation"
           type="button"
         >
-          View GPX
+          View Stats
         </button>
       </li>
     </ul>

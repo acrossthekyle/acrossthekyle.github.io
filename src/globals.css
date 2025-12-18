@@ -12,12 +12,12 @@
 
 html[data-theme="dark"] {
   --tooltip-text-color: rgba(255, 255, 255, .9);
-  --elevation-text-color: rgba(0, 0, 0, .9);
+  --elevation-text-color: rgba(255, 255, 255, .9);
 }
 
 html[data-theme="light"] {
   --tooltip-text-color: rgba(0, 0, 0, .9);
-  --elevation-text-color: rgba(255, 255, 255, .9);
+  --elevation-text-color: rgba(0, 0, 0, .9);
 }
 
 @theme inline {
@@ -101,14 +101,14 @@ body {
 
   .leaflet-control {
     margin: 0 !important;
-    padding-top: 0.3rem;
-    padding-left: 1rem;
+    padding-top: 0;
+    padding-right: 0.3rem;
   }
 
   @media (width >= 60.3125rem) {
     .leaflet-control {
-      padding-top: 2.4rem;
-      padding-left: 2.25rem;
+      padding-bottom: 0.75rem;
+      padding-right: 2.75rem;
     }
   }
 
@@ -170,17 +170,7 @@ body {
     border: none !important;
     color: var(--elevation-text-color);
     font-weight: 400;
-    padding-left: 0.6rem !important;
-    padding-top: 0.25rem !important;
-  }
-
-  .apexcharts-series {
-    clip-path: inset(0% 0% 0% 0% round 12px);
-  }
-
-  @media (width >= 60.3125rem) {
-    .apexcharts-series {
-      clip-path: inset(0% 0% 0% 0% round 6px) !important;
-    }
+    padding-right: 0.75rem !important;
+    padding-top: 0.5rem !important;
   }
 }

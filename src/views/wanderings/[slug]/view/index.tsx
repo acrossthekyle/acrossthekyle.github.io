@@ -31,7 +31,7 @@ export default function View({ data }: Props) {
     <Article className={styles.article(isOnGrandChild)}>
       <Header date={data.date} location={data.location} title={data.title} />
       <Shortcuts />
-      <div className="flex flex-col-reverse base:flex-col">
+      <div className={styles.content}>
         <Timeline
           label={data.label}
           slug={data.slug}

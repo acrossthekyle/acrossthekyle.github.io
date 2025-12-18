@@ -15,11 +15,10 @@ const Plugin = dynamic(() => import('./leaflet'), {
 
 type Props = {
   gpx: Gpx;
-  shouldShrink: boolean;
   termini: Termini;
 };
 
-export default function Route({ gpx, shouldShrink, termini }: Props) {
+export default function Route({ gpx, termini }: Props) {
   const { hoverIndex } = useContext(GpxContext);
 
   if (gpx.length === 0) {
@@ -31,7 +30,6 @@ export default function Route({ gpx, shouldShrink, termini }: Props) {
       <Plugin
         gpx={gpx}
         hoverIndex={hoverIndex}
-        resize={shouldShrink}
         termini={termini}
       />
     </div>

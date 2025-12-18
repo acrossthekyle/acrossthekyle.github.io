@@ -1,6 +1,5 @@
 'use client';
 
-import { ChevronDown, ChevronUp } from 'lucide-react';
 import dynamic from 'next/dynamic';
 import { useContext, useEffect, useState } from 'react';
 
@@ -17,15 +16,14 @@ const Chart = dynamic(() => import('react-apexcharts'), {
 
 type Props = {
   gpx: Gpx;
-  shouldGrow: boolean;
 };
 
-export default function Elevation({ gpx, shouldGrow }: Props) {
+export default function Elevation({ gpx }: Props) {
   const [isDarkMode, setIsDarkMode] = useState(true);
 
   const { onHover } = useContext(GpxContext);
 
-  const { stats, toggleElevation } = useGpx();
+  const { stats } = useGpx();
 
   useEffect(() => {
     let theme = 'light';
@@ -46,35 +44,10 @@ export default function Elevation({ gpx, shouldGrow }: Props) {
   }
 
   return (
-    <div className={styles.section(shouldGrow)} onMouseLeave={handleMouseLeave}>
-      <div className={styles.close}>
-        <button
-          className={styles.handle}
-          onClick={toggleElevation}
-          tabIndex={-1}
-          title="Minimize elevation"
-          type="button"
-        >
-          <span className={styles.bar} />
-        </button>
-      </div>
-      <span className={styles.title}>
+    <div className={styles.section} onMouseLeave={handleMouseLeave}>
+      <h3 className={styles.title}>
         Elevation
-        <span className={styles.change}>
-          {stats.gain && (
-            <span className={styles.inline}>
-              <ChevronUp className={styles.arrow} />
-              {stats.gain.value.imperial} {stats.gain.units.imperial.abbreviated}
-            </span>
-          )}
-          {stats.loss && (
-            <span className={styles.inline}>
-              <ChevronDown className={styles.arrow} />
-              {stats.loss.value.imperial} {stats.loss.units.imperial.abbreviated}
-            </span>
-          )}
-        </span>
-      </span>
+      </h3>
       {stats.distance && (
         <div className={styles.ticks}>
           {Array.from({ length: Number(stats.distance.value.imperial) + 1 }, (_, index) => (
@@ -109,10 +82,10 @@ export default function Elevation({ gpx, shouldGrow }: Props) {
           },
           fill: {
             type: 'solid',
-            colors: [isDarkMode ? '#000000' : '#ffffff'],
+            colors: [isDarkMode ? '#ffffff' : '#000000'],
           },
           stroke: {
-            colors: [isDarkMode ? '#000000aa' : '#ffffffaa'],
+            colors: [isDarkMode ? '#ffffff' : '#000000'],
             curve: 'smooth',
             width: 1,
           },
@@ -121,9 +94,9 @@ export default function Elevation({ gpx, shouldGrow }: Props) {
             borderColor: 'transparent',
             padding: {
               top: 0,
-              bottom: -22,
-              right: 10,
-              left: 0,
+              bottom: -32,
+              right: 0,
+              left: -10,
             },
           },
           xaxis: {
@@ -173,7 +146,7 @@ export default function Elevation({ gpx, shouldGrow }: Props) {
             },
             fixed: {
               enabled: true,
-              position: 'topLeft',
+              position: 'topRight',
             },
             y: {
               formatter: (value: number, { dataPointIndex }) => {

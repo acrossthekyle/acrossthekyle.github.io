@@ -35,6 +35,9 @@ const styles = tw({
     font-black
     mb-2
   `,
+  lock: `
+    h-full
+  `,
 });
 
 export default styles;

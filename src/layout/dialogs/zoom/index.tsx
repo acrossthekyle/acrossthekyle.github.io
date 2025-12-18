@@ -34,7 +34,7 @@ export default function Zoom() {
         role="dialog"
         tabIndex={-1}
       >
-        <FocusLock className="h-full" disabled={!isReady}>
+        <FocusLock className={styles.lock} disabled={!isReady}>
           <button
             aria-controls="zoom"
             aria-label="exit fullscreen"

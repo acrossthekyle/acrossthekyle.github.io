@@ -6,6 +6,11 @@ const styles = tw({
       hidden
     `}
   `),
+  content: `
+    flex flex-col-reverse
+
+    base:flex-col
+  `,
 });
 
 export default styles;

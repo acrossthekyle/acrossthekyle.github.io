@@ -1,11 +1,9 @@
 import tw from '@/styles';
 
 const styles = tw({
-  footer: `
-    flex justify-center
-    mb-4
-
-    base:hidden
+  html: `
+    h-full
+    overflow-x-hidden
   `,
 });
 

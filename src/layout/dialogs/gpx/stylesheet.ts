@@ -25,7 +25,7 @@ const styles = tw({
     flex flex-col
     fixed inset-0
     w-full h-full
-    bg-black
+    bg-white dark:bg-black
     duration-250
     overflow-contain
 
@@ -44,7 +44,7 @@ const styles = tw({
     `)}
   `),
   close: `
-    fixed top-2 right-2 z-9999
+    fixed top-1 right-0.5 z-9999
     p-2
     text-current/90
 
@@ -58,15 +58,20 @@ const styles = tw({
 
     base:stroke-1
   `,
-  view: `
-    absolute bottom-5 left-5 z-999
-    text-current/90
-    uppercase
-    text-xs text-center
-    font-bold
+  container: `
+    relative
+    flex flex-col-reverse
+    h-full w-full
 
-    deka:bottom-12
-    deka:left-12
+    base:flex-row
+  `,
+  content: `
+    flex flex-col-reverse justify-between
+
+    base:flex-col
+    base:flex-1
+    base:border-r-1
+    base:border-r-current/20
   `,
 });
 

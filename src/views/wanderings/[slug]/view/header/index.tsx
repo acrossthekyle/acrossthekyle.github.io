@@ -15,7 +15,7 @@ export default function Header({ date, location, title }: Props) {
         </span>
       ))}
       {location && date && (
-        <span className="block mt-1 text-xs font-normal font-stretch-semi-condensed tracking-normal">
+        <span className={styles.subheader}>
           {location} &ndash; {date}
         </span>
       )}

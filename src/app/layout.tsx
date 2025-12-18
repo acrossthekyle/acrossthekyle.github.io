@@ -8,6 +8,8 @@ import Load from '@/contexts/load';
 import Layout from '@/layout';
 import { KeyboardListener } from '@/listeners';
 
+import styles from './stylesheet';
+
 export const metadata: Metadata = {
   title: {
     template: '%s | Kyle',
@@ -53,7 +55,7 @@ type Props = {
 
 export default function RootLayout({ children }: Props) {
   return (
-    <html className="h-full overflow-x-hidden" data-theme="dark" lang="en">
+    <html className={styles.html} data-theme="dark" lang="en">
       <Hierarchy>
         <Load>
           <KeyboardListener />
