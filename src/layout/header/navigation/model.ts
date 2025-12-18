@@ -25,7 +25,7 @@ export const useModel = (onToggle: () => void, shouldPush: boolean) => {
     event: React.MouseEvent<HTMLAnchorElement>,
     base: string,
   ) => {
-    if (path.includes(base) && isMobile) {
+    if (path === base && isMobile) {
       event.preventDefault();
 
       onToggle();
