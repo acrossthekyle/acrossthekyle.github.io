@@ -14,7 +14,15 @@ const data = [
     "stages": [
       {
         "date": "October 18th, 2025",
-        "description": [],
+        "description": [
+          "After breaking camp our group drove to the start of the trail. I stepped onto the backpacking trail from Brown's Hollow Trailhead in the crisp morning air, eager to explore this corner of Iowa and get back into local overnight backpacking. The trail started out gently enough. A wide, packed earth path winding through towering hardwood forests with leaves ablaze in fiery reds and golds.",
+          "Our destination for the night was Browns Hollow, a backpacking campsite about three quarters of a mile off of the main trail.",
+          "A few moments later after crossing the road (we were going counter-clockwise instead of clockwise), the views really opened up and we got a glimpse of the hills in the distance, with a river forking in front of it and flowing beneath our feet. Sunlight dappled through the canopy, highlighting ferns and mosses clinging to rocks.",
+          "The path abruptly ended at earthen stairs indicating the base of the first of three hills. Muddy and steep, the path narrowed and snaked its way up the hill, becoming a more defined singletrack, dipping and climbing. Once at the top we had commanding views of the surrounding area, and could even spot our campground from the previous night below.",
+          "This was how the rest of the trail went, up and down up and down. We summited two more big hills, each as steep as the first. After coming down from the last hill we were assaulted by clouds of lady bugs, and we didn't waste any time in moving on. The trail leveled out, following the snaking river.",
+          "Reaching the campsite at Brown's Hollow felt like a reward. A peaceful clearing with well-maintained grounds. Water was not as abundant as we thought it would be, and we had to make due with a small muddy pool (which our water filters were able to handle without issue).",
+          "We enjoyed a campfire from dried bark and branches both big and small. Luckily the fire ring was massive and could accomodate branches of various sizes. With temps dropping we retired to our tents.\n"
+        ],
         "gpx": [
           [
             43.171763,
@@ -1011,7 +1019,7 @@ const data = [
         "hasStats": true,
         "image": "2025/10/18/efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg",
         "location": null,
-        "readingTime": null,
+        "readingTime": "2",
         "stats": {
           "distance": {
             "label": "distance",
@@ -1107,7 +1115,13 @@ const data = [
       },
       {
         "date": "October 19th, 2025",
-        "description": [],
+        "description": [
+          "I would have enjoyed a warm and restful night of sleep, if it hadn't been for whatever creature attempted to push its way underneath my sleeping pad from the outside of the tent. Not sure if it was a snake, or some sort of burrowing animal, but it was pushing hard. So much so that I could feel it through the air mattress. I pushed down through the air pad and whatever it was retreated. Needless to say, I didn't sleep much after that.",
+          "Once others had woken up I asked one of them to help me kick out whatever might be under there, but when we lifted up my tent whatever it was had left long ago.",
+          "After a warm filling breakfast (double serving of a backpacking meal), we set out for the final two hours of trail. A common phrase in backpacking is 'be bold, start cold', and I did just that: with only my baselayers on we started hiking.",
+          "More rolling hills filled with golden leaves surrounded us as we marched on over slightly hilly terrain with one medium-sized hill on our way that required a mere 300 feet of elevation gain. A short detour to a fire tower/observation platform was a bust: it was locked up tight.",
+          "2 miles later and we were done! This was a nice overnight backpacking trial, if you ignore my late night visitor.\n"
+        ],
         "gpx": [
           [
             43.154865,
@@ -2104,7 +2118,7 @@ const data = [
         "hasStats": true,
         "image": "2025/10/18/db8b9939-7fe0-43b3-b5ef-d0baea038ef1.jpeg",
         "location": null,
-        "readingTime": null,
+        "readingTime": "2",
         "stats": {
           "distance": {
             "label": "distance",
@@ -14953,13 +14967,15 @@ const data = [
     "stages": [
       {
         "date": "July 24th, 2024",
-        "description": [],
+        "description": [
+          "Located right where the lake meets the Rhône River, and originally built as a safety valve for a local hydraulic plant, the Jet d'Eau is a massive plume of water that shoots 450 feet into the air, visible from nearly anywhere in the city, making it a majestic centerpiece. It's even more incredible looking in person than the picture. I captured this shot of it from the spires of the Saint-Pierre cathedral.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2024/07/24/f6f7470b-5e4e-42f7-aa59-ccabe81778bf.jpeg",
         "location": "Geneva",
-        "readingTime": null,
+        "readingTime": "1",
         "stats": {
           "distance": null,
           "gain": null,
@@ -14987,13 +15003,17 @@ const data = [
       },
       {
         "date": "July 24th, 2024",
-        "description": [],
+        "description": [
+          "From the outside the cathedral looks like a collection of different eras with massive columns seemingly glued onto a much older rugged-looking body. On the inside the interior was strikingly stark-looking with no ornate altars, just rows of plain wooden benches. However, there is one exception and that's the Chapel near the exit. It’s a 'riot of color' with vibrant Gothic paintings and intricate carvings that felt like a secret treasure hidden in the grey stone.",
+          "The highlight of this cathedral though was the ability to go up into the twin spires and walk through the attic and old school room near the top, including being able to get up close to the massive old church bells. For a small fee you get to see the entire city. The climb up was through narrow spiraling stone stairs, and we were even able to walk along expored exterior walkways.",
+          "When we were there the archaeological site underground was sadly closed due to construction and renovations. It would have been really awesome.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2024/07/24/e19b87b3-ff48-499f-a225-3d4d608e9311.jpeg",
         "location": "Geneva",
-        "readingTime": null,
+        "readingTime": "1",
         "stats": {
           "distance": null,
           "gain": null,
@@ -15021,13 +15041,18 @@ const data = [
       },
       {
         "date": "July 25th, 2024",
-        "description": [],
+        "description": [
+          "Geneva has a great, free, botanic garden a short bus ride away from the bustling downtown area. We spent a couple of hours wandering its paths as they wove their way through differently themed areas, seeing all of the different types of flora they were cultivating.",
+          "The greenhouses were a real treat. They offered a tour of different climates, from lush tropical rainforests with high banana trees to stark desert landscapes filled with massive cacti. There were also little ponds inside with koi fish.",
+          "There was a little animal park at the northern end, but we didn't get see much wildlife.",
+          "This was a genuine green oasis away from the urban hustle and bustle.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2024/07/24/e38ad9d4-d8b7-433c-bdec-55294d442928.jpeg",
         "location": "Geneva",
-        "readingTime": null,
+        "readingTime": "1",
         "stats": {
           "distance": null,
           "gain": null,
@@ -31190,7 +31215,13 @@ const data = [
     "stages": [
       {
         "date": "July 15th, 2022",
-        "description": [],
+        "description": [
+          "The air was crisp as we adjusted our packs at the Blue Spring Lake trailhead this morning. This 5.5 mile stretch of the Ice Age Trail is exactly what I wanted: a gentle introduction to overnight backpacking for me and my partner.",
+          "The Blue Spring Lake Segment didn't waste any time showing off. Almost immediately we were climbing. The trail here twists through dense oak forests with a ruggedness that caught my calves by surprise, with near constant up and down portions as we went over several kettles and morraines left behind by the glaciars from long ago.",
+          "The highlight was definitely Bald Bluff. Standing at 1,050 feet, we had a panoramic view of the Southern Kettle Moraine that made the steep ascent worth every breath. As I transitioned into the Stony Ridge Segment, the terrain leveled out into a more 'Midwest Nice' rhythm.",
+          "Finally we arrived at Stony Ridge Shelter #2. It's a classic Adirondack-style lean-to perched on a ridge with a solid view of the surrounding kettle depressions. We pitched our tent inside of the shelter. After a day of climbing one hill after another and navigating over tangled tree roots, the quiet of the woods here is the perfect end to the trek.",
+          "The next day we repeated the path to the shelter which didn't seem to take as long as the intial hike out to it.\n"
+        ],
         "gpx": [
           [
             42.87523431703448,
@@ -32187,7 +32218,7 @@ const data = [
         "hasStats": true,
         "image": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",
         "location": "Eagle",
-        "readingTime": null,
+        "readingTime": "2",
         "stats": {
           "distance": {
             "label": "distance",
@@ -32283,7 +32314,13 @@ const data = [
       },
       {
         "date": "May 3rd, 2025",
-        "description": [],
+        "description": [
+          "The hike from Butler Lake today was a reminder of why they call the Northern Kettle Moraine 'hummocky.'",
+          "We (me and some backpackers from a local meetup group) started the morning at the Butler Lake trailhead. The first mile or so felt like a geography lesson come to life. I spent most of it walking along the spine of the Parnell Esker; a narrow, winding ridge of sand and gravel left behind by an ancient subglacial river. Looking down through the bare trees at the 158-acre Butler Lake State Natural Area, you can really see how the glaciers sculpted this place into a messy masterpiece of kames and kettles.",
+          "The trail between Butler Lake and the Parnell Tower area is only about 4.5 to 5 miles, but it's a leg-burner. The Parnell Segment is notorious for its constant ups and downs. The elevation changes had me working harder than I expected for a five-mile stretch.",
+          "Before reaching the shelter, I took the mandatory detour up to the Parnell Tower. Climbing those 60 steps to the top gave me a bird's-eye view of the entire forest canopy. Low clouds hung in the sky, but we could still see for miles, and it's the highest point in the Kettle Moraine State Forest.",
+          "Parnell Shelter is a rustic Adirondack-style wood structure, tucked away from the main Parnell Tower loop to give backpackers some peace. There was a stone fire ring and plenty of space for us all to gather around it for tales and ghost stories. It's quiet out here. I slept well at night, despite temperatures dipping below freezing.\n"
+        ],
         "gpx": [
           [
             43.66362724453211,
@@ -33280,7 +33317,7 @@ const data = [
         "hasStats": true,
         "image": "2025/05/03/e402c0b1-e827-4123-b7b5-74947b240687.jpeg",
         "location": "Mauthe Lake",
-        "readingTime": null,
+        "readingTime": "2",
         "stats": {
           "distance": {
             "label": "distance",
@@ -33375,7 +33412,11 @@ const data = [
       },
       {
         "date": "May 4th, 2025",
-        "description": [],
+        "description": [
+          "The trek from Parnell Shelter to the trailhead was a solid 8 mile push through green pinewoods. The morning started easy as we descended from the high ridges around Parnell. The trail quickly transitions from the Parnell Segment into the Greenbush Segment at Highway 67.",
+          "The middle of the hike was a leg-burner. The trail here doesn't just go around the kettles; it dips into deep, damp valleys and then climbs right back out onto narrow moraine ridges. I passed through dense stands of oak, maple, and pine, navigating a narrow footpath that was often tangled with rocks and roots.",
+          "The final stretch took me toward the Greenbush Recreation Area and finishing at the Greenbush Trailhead. I'm wiped but satisfied. This segment really makes you earn every mile with its constant elevation changes, but the views of those ancient glacial depressions are worth the sweat.\n"
+        ],
         "gpx": [
           [
             43.73677519150078,
@@ -34372,7 +34413,7 @@ const data = [
         "hasStats": true,
         "image": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
         "location": "Glenbeulah",
-        "readingTime": null,
+        "readingTime": "1",
         "stats": {
           "distance": {
             "label": "distance",
@@ -70014,7 +70055,21 @@ const data = [
     "stages": [
       {
         "date": "August 31st, 2019",
-        "description": [],
+        "description": [
+          "I had first learned about 14'ers (mountain peaks above 14,000 feet) from\nsomeone that I had met on the Tour du Mont Blanc thru-hike in 2018 who told me\nthat if I liked hiking in the mountains on the TMB (which I did) then I would\nalso like Colorado, a place I had never even thought of vacationing to. It would\ntake almost a year before I worked up the courage to go on a solo vacation in\nthe States and attempt to summit one.",
+          "After doing a good amount of research on what to bring with me while on the\ntrail to the summit, where to stay, and transportation logistics I booked my\nflights, reserved an AirBnb in Denver, and set out with mixed feelings. I was\nexcited to be going, but nervous since I didn't know what to expect from the\ntrail itself. This trip was also a test of my physical endurance to see how well\nmy body handled being above 10,000 feet, which is when Acute Mountain Sickness\n(or AMS) sets in, and it can definitely be a mood-killer, literally. If I\ncouldn't do this, then I would have to cancel my Annapurna trip that I had booked\nfor a couple of months from now, since those elevations go above 18,000 feet.",
+          "Of all the mountain peaks available, of which there are more than 50 above\n14,000 feet, I chose Mt. Elbert as my first. It was the tallest in the state of\nColorado, because I figured go big or go home right? If you're going to do it,\nmight as well do the biggest one first. I was too excited the night before doing\nit and I didn't get my sleep.",
+          "I left Denver around 2:00 am for the two and a half hour drive out to Mt. Elbert.\nThe roads were empty as I tuned into the only radio station that worked all the\nway there: an 80's retro station. I hadn't given much thought to the car that I\nhad rented, but it made it up and down and up the mountain highways. The road\nleading to the trailhead was full of potholes, some pretty deep, and it was a\nrough ride but the car made it.",
+          "It was about 4:30 am when I arrived at the trailhead. Thankfully I wasn't the\nonly one here, and several other people were gettign ready and heading out\nahead of me. The parking sure was filling up fast. Must be a popular trail.",
+          "I suited up, locked the car, and set out from the trailhead. Right away I could\ntell that I was going to be hurting by the end of this. The trail up through\nthe woods lasted about two hours before leaving the trees behind. It was rough,\nnot because of technicality, but because of the elevation. I had to stop often\nto catch my breath, and I was breathing very heavily. But no signs of AMS, so\nI kept going.",
+          "Worried about bears I kept checking left and right, and behind me,\na lot. I was alone in the dark for a good portion of it, and anytime I saw a\nheadlamp light in the distance I felt better knowing there were others nearby.",
+          "Luckily I made it above the treeline just in time to catch the sunrise. This\nwasn't my first time seeing a sunrise in the mountains, but it's still magical\nevery time. I enjoyed this peaceful moment for as long as I could, and snacked\non some protein bars.",
+          "The ascent ahead of me was going to be rough, and going to take a while. I knew\nthis peak had multiple false summits, but that didn't stop me from getting my\nhopes up everytime I thought I saw the top. As I went I had to stop every 30-60\nseconds in order to let my heartrate go down, and to catch my breath.",
+          "Even when I could see the true summit I had to pause before reaching it. I made\nit to the top around 10:00 am. This was my first time truly being very high up,\n and the 360˚ views did not dissapoint. I was overjoyed with having conquered\n this obstacle, and it was a great feeling to know that I could do it!",
+          " Sadly I didn't feel any kinship with anyone at the top as they were in their\n own groups, so I hung out for about 30 minutes as I ate my lunch I had put\n together the night before. By 10:30 am it was time to start heading down in\n order to avoid afternoon thunderstorms that people in online forums had\n warned about.",
+          " I could see the trail laid out ahead of me and it made me feel so small. Going\n through the trees once more wasn't the best part because I was so tired and\n hungry, and the trees seemed to last forever. It didn't seem this bad on the\n way up in the dark... Plus with the rising temperatures it was starting to feel\n much more stuffy and claustrophic while powering down the trail through these\n trees.",
+          " It would take about 4 hours before I got back to the car at the trailhead.\n Exhausted, I got in and prepared for the 2.5 hour drive back to Denver. I made\n pasta for dinner and then collapsed into bed.\n"
+        ],
         "gpx": [
           [
             39.151636,
@@ -71011,7 +71066,7 @@ const data = [
         "hasStats": true,
         "image": "2019/08/31/52f1514b-91a4-494d-93df-6ae9c81df01c.jpeg",
         "location": "Sawatch Range",
-        "readingTime": null,
+        "readingTime": "5",
         "stats": {
           "distance": {
             "label": "distance",
@@ -71107,7 +71162,19 @@ const data = [
       },
       {
         "date": "September 1st, 2019",
-        "description": [],
+        "description": [
+          "One day after completing my very first 14'er, and I was waking up once again\nduring the pre-dawn hours to set out to conquer another mountain peak. This\none was advertised as being not as long or as rough as Mt. Elbert, but knowing that\nI could do the biggest and baddest of the easier 14'ers made me feel more\nconfident about this one, but we shall see...",
+          "I parked on the road after driving for two and half hours and listening to that\n80's retro station. The trailhead started right from the edge of the road, so\nthere was no official parking lot for this one. It was 4:30 am in the morning.",
+          "Most of the trail in the woods was switchbacks, and a lot of the portions had\nstairs carved out of the rock. This made it somewhat easy to manage but that\nstill meant doing a lot of stair climbing, especially after being sore and tired\nfrom yesterdays hike.",
+          "There was a good amount of people on the trail this morning, and evenly spaced\nso that I was still hiking solo but could still the light from their headlamps.",
+          "By 6:00 am I was above the trees, and just in time. There was a beautiful\nsunrise and I am glad I got started as early as I did in order to be able to\nwitness it.",
+          "Tons of large cairns marked the trail and I always love a good cairn; it makes\nfor a good element in a photo. Most of the trail from the trailhead to just\nbelow the summit was rock-cut stairs, with the same amount of rise between steps\nas a staircase in a home would be, which actually ended up being pretty nice\nand made the ascent predictable in terms of pace.",
+          "I saw a lot of cute little critters that looked like tiny squirrels called\nPikas. They were chirping to eachother as they scurried over and under\nrocks looking for food.",
+          "At long last I could see the summit, and the singular flase summit in front of it.\nOnce on the ridge ot the summit the trail transitioned from stairs to scree-filled\npaths. There were still some snow patches here and there on the sides of the\ntrail. I made the summit by 8:00 am! Such a faster time than Mt. Elbert by nearly\ntwo hours.",
+          "As I stood there taking in the view and snapping photos of the surrounding area\npeople asked if I could take their picture for them, which was a good icebreaker!\nI ended up chatting with a bunch of people, and was even offered a free beer. I\nspent a good 30-45 minutes up there, and even had cell reception. Soon it would\nbe time to start heading back down though.",
+          "Me and one other person left at the same time, and they helped set a good pace\nwhile going down. At one point they were practically flying over the rocks, and\nI matched their style. It ended up being surprisingly easy given how well the\ntrail itself was maintained. I was worried about my knees, but the braces did\ntheir job. By 1:00 pm I was back down at the car.",
+          "This was such an amazing experience with an easy hike up, a great group of fun\nand social people, and of course a free beer. It really helped to salvage the\nwhole trip and turn it into a really positive experience. I would most\ndefinitely be coming back for more next year.\n"
+        ],
         "gpx": [
           [
             39.385351,
@@ -71609,7 +71676,7 @@ const data = [
         "hasStats": true,
         "image": "2019/09/01/08d28c7e-387b-418f-8226-b2a87485f1d8.jpeg",
         "location": "Tenmile Range",
-        "readingTime": null,
+        "readingTime": "3",
         "stats": {
           "distance": {
             "label": "distance",
@@ -71705,7 +71772,20 @@ const data = [
       },
       {
         "date": "September 4th, 2020",
-        "description": [],
+        "description": [
+          "y second year coming to Colorado to hike mountain peaks above 14,000 feet, and\nthis time I opted to camp at or near the trailheads of all of the hikes that I\nplanned on doing, so that I wouldn't have to wake up at 1:00 am to drive 3 hours\nto the starting point. Instead I could wake up at 4:00 am to drive 10 minutes.",
+          "For my first 14'er of the year I chose La Plata Peak, named after the numerous\nsilver mines in the area. It wasn't a very long out-and-back trail, but it was\na more technically difficult trail than the two I had done last year. For those\nwho may not know, the different trails that go up to the peaks of mountains\nare given classifications, with 1 being the eastiest, and 5 the hardest. The\ntwo peaks I did last year in Colorado were 1's, while La Plata was more of a 2.",
+          "I wild camped about 1.5 miles from the trailhead, down a country road off of the\ncounty highway. I was alone in this area, and the next closest human was\nprobably further down the country road at another wild camping site. But for me,\nwhere I was, it was dead silent. This would be my first time doing something\nlike this, and I was definitely nervous.",
+          "After a restless night of sleeping (I was on a slight incline but was too tired\nto re-setup the tent) I woke around 3:30 am in order to pack up camp, and\ndrive to the trail head. It was quiet last night, only the sound of the rushing\nwater from the nearby river provided any sort of ambient background noise. I had\ndinner while looking out of the mountain I was now going to attempt to summit.",
+          "I prepared some oatmeal at the trailhead in the trunk of the SUV that I had\nrented for this trip. There were about 10 other cars in the parking lot, but\nI didn't see many people on the trail, at least not until the summit.",
+          "Yet another long trek through a thick forest to start the day. It took about 2\nhours to get through the trees, and when the terrain finally opened up I was\ngreeted with a wall of rock in front of me that was criss-crosed by a ton of\nswitchbacks. I knew I wasn't going to make it up high enough to watch the\nsunrise, so I didn't push myself too hard as I went up.",
+          "As I got higher the pink light from the sunrise lit up the mountain tops and it\nlooked like they were covered in snow, but it was early September so this was\nonly an illusion. I may have missed the sunrise but I was able to watch it pour\nover the mountain peaks nearby.",
+          "The view from the top of the switchbacks was very nice, I could start to make\nout different peaks around me instead of being blinded by thick forests. Now\nI began hiking up a saddle ridge towards the col at the base of the summit. I\nsaw lots of new plants that looked strange to me, but I'm sure were plentiful\nat these alpine altitudes.",
+          "Earlier I said that there couldn't be any snow at the peaks, but there definitely\nwas some on the ridge I was hiking, albeit hidden in permanent shadow. Far below,\nand in the distance, I spotted a lovely little mountain lake. I don't know why,\nbut I just love how they contrast for rocky world around them.",
+          "I made it to the summit by noon, which meant about 6 hours on trail so far. Here\nwere all of the people whos cars were in the parking lot, meaning it was a\ncrowded summit. I lingered for a little bit, eating some food, and taking\npictures, but much like Mt. Elbert I was feeling any sort of socialness from\nthe other people up here so I packed up my things are started my journey down,\nplanning on it taking close to 4 hours to complete.",
+          "Unfortunately on the way down I ran out of water, and had to hike without a\nrefill for nearly 2 hours before I came to a river back in the forest. I refilled\nmy water bottles, but couldn't drink it because I thought I had left the filter\nin the car. Turns out, I was wrong, and I had the filter the entire time. Believe\nme I chugged a ton of water when I got back to the car.",
+          "I snacked, changed into fresh clothes, and on my way out of the area I found\na much larger river where I could stop and fill up again. I booked a last-minute\ncampground spot on the way, and got a good nights sleep.\n"
+        ],
         "gpx": [
           [
             39.067535,
@@ -72702,7 +72782,7 @@ const data = [
         "hasStats": true,
         "image": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
         "location": "Sawatch Range",
-        "readingTime": null,
+        "readingTime": "5",
         "stats": {
           "distance": {
             "label": "distance",
@@ -72798,7 +72878,14 @@ const data = [
       },
       {
         "date": "September 5th, 2020",
-        "description": [],
+        "description": [
+          "For my second hike of this trip out to Colorado I chose an easier summit, Mt.\nBierstadt, and a later starting time of 6:00 am (partly because I had to drive\nan hour from the campground to it). This was another class 1 route, with a\nlot of scrambling over boulders near the summit, but nothing too crazy. The most\nunique thing about this 14'er was the massive and paved parking lot, which was\nalready overflowing by the time I showed up at 6am.",
+          "The trail was very crowded already, but that's what you get for choosing a peak\nthat is really close to a major city and has a paved road all the way to the\nparking lot. Makes it an easy day-hike for the locals.",
+          "It was a nice flat trail for the first hour or so, through prairies filled\nwith bushes, along small lakes and streams. There was even a board walk for\nthe first little bit so that you wouldn't disturb the local vegetation, and\nto make it easier to cross the many streams. I really enjoyed the start to this\ntrail, it was very idyllic and I took lots of photos of it.",
+          "Once the trail reached the base of the mountain, it turned into switchbacks all\nthe way to the boulders near the top. The total elevation gain was somewhere in\nthe 2,000's, and by 10:30 am I was already at the top. Wow, such an easy climb!",
+          "I made some friends at the top, but the peak started to get crowded fast as more\nand more people showed up, so I didn't stay long. There was some minor scrambling\non the way down, and wayfinding was a little rough but I generally follow other\npeople in this situation. It was an easy and fast descent back to the car, and\na good thing too because it was starting to get really hot out.",
+          "I really enjoyed this hike, and the area. The Colorado plains and skies, the colors\nare just amazing.\n"
+        ],
         "gpx": [
           [
             39.596411,
@@ -73795,7 +73882,7 @@ const data = [
         "hasStats": true,
         "image": "2020/09/05/54a89ed8-86d4-4918-b7b3-b883ecea72c8.jpeg",
         "location": "Front Range",
-        "readingTime": null,
+        "readingTime": "2",
         "stats": {
           "distance": {
             "label": "distance",
@@ -73891,7 +73978,17 @@ const data = [
       },
       {
         "date": "September 6th, 2020",
-        "description": [],
+        "description": [
+          "Today would be my last 14'er of the trip to Colorado this year, and I chose\nanother popular one in the hopes that I would strike up some friendly conversations\nwhile camping at the trailhead, or whilst at the top. Another reason I chose\nthis particular peak was because the trail started above the treeline! That means\nnot spending two hours hiking through forests, a dream!",
+          "And sure enough I befriended two women who were camping nearby, in hammocks\nnonetheless. We ate dinner together and hung out for a bit. I would see them\nthe next day near the peak, but this ws the only interaction we would have.",
+          "This was the third peak in as many days, and I was tired. Grays is part of a\ncommon combination route called Grays and Torreys, where you go down a saddle\nridge from the summit of Grays, and then head up to the summit of Torreys, and\nthen come back the way you came. I ended up only doing Grays due to how tired\nI was.",
+          "I started the trail around 4:30 am, and the initial path across the river near\nthe trailhead went through a valley shaped like an elongated bowl, although\nI would be able to see this until on the way back down give that it was still\nthe pre-dawn hours.",
+          "Given the gently ascending trail and starting at a high altitude to begin with,\nI was already pretty high up after a short amount of time. I paused just in time\nto see a red sun rise over the mountain ridges in the distance, one of my\nall-time favorite things. The trail was starting to get crowded as I continued on.",
+          "About 2 and half hours into the trail and I began the ascent to the summit. It\nwas starting to get more steep here, which meant having to take more breaks due\nto my poor beating heart. I'm based in Chicago, so going from sea-level to\n14,000 feet does a number on my body.",
+          "Lovely pink skies illuminated the world around me as I ascended up and up.",
+          "I arrived at the summit by 8:30 am, not bad. Great 360˚ views all around, as\nusual! I made some friends at the top as we huddled behind a rock wall due to the\nextremely high winds that had picked up within the last half hour. I took a look\nout over the trail I had just hiked. What a view, I just love hiking above\nthe trees!",
+          "Everything is so much more green on the way down now that hte sun is up. By\n12:00 pm I get back to the car I left parked at the trailhead, and am ready to\ngo back to another proper campground and reflect on this long weekend of hikes.\n"
+        ],
         "gpx": [
           [
             39.660608,
@@ -74888,7 +74985,7 @@ const data = [
         "hasStats": true,
         "image": "2020/09/06/80307849-8964-4e0d-a70f-f6371ca7fcad.jpeg",
         "location": "Front Range",
-        "readingTime": null,
+        "readingTime": "3",
         "stats": {
           "distance": {
             "label": "distance",
@@ -74983,7 +75080,18 @@ const data = [
       },
       {
         "date": "September 7th, 2021",
-        "description": [],
+        "description": [
+          "My partner wanted to join me on my (new) yearly tradition of going to Colorado\nin September and make a big trip out of it since she had family in the state.\nAfter spending a week with them it was time for us to head into the mountains\nand hike some mountain peaks! We (read I) chose Mt. Shavano as our first peak\nto do together. It was another easy Class 2 trail, but it had a lot of elevation\ngain, somewhere in the area of 4,500 feet.",
+          "We camped at the trailhead in my small Duplex Zpacks backpacking tent. It is\ntechnically meant for two people, but our air mattresses were pushing the sides\nout and it was a cramped fit. It might be time to upgrade to a tent that is\nactually meant for two people. As a result though we didn't get much sleep, and\nwere eager to get and get going as soon as possible. By 5:00 am we were on the\ntrail.",
+          "After a short, flat, part of the trail that shared some trail with the\nColorado Trail, we started to ascend over rocks and big tree roots. We passed by\nsome small water sources on the way up, and probably should have stopped and\nchugged some water and then refilled our water bottles, but we didn't.",
+          "About two and a half hours later and we were above the trees, and taking in the\nviews of the area. Since this was my partners first time being above 9,000 feet,\nwe took it slow, watching for signs of AMS. As a result we took lots of small\nbreaks, each of us huffing and puffing though given that this was the first one\nin over a year for me, and thanks to COVID-19 I wasn't able to go on a thru-hike\nover the summer. Two hours later and we're past the tree line, usually it\ndoesn't take this long.",
+          "We saw maybe three people on the entire trail all day, but that makes sense\nsince we were out here on a Tuesday, a week after a holiday weekend. There was\nlittle to no vegetation, not even weird looking plants, as we ascended up the\nmostly rocky mountain sides.",
+          "At this point we were starting to run low on water, given that the ascent so far\nhad taken longer than it normally does. We reached the col between two mountains\nand the summit trail after another hour. Time to begin the march to the summit.",
+          "About halfway up the summit we took a break. While we were snacking someone\nwas coming down from the summit and they told us that the view wasn't worth the\nrisk and trickyness of the summit, so after they left we decided to turn back\nearly, partly due to that warning but also the fact that we had mere drops of\nwater remaining in our bottles.",
+          "Our spirits started to drop rapidly as we went down the trail. The lack of\nwater made it doubly rough thanks to the rising heat from the sun blasting\ndown on us. After struggling for nearly three hours, and having practically\nzero energy thanks to the heavy amounts of dehyrdation we were experiencing, we\nfinally made it down into the trees, and were maybe an hour from the car. Here\nwe came upon the smallest of water trickles coming out from between two rocks,\nand nearly sunk to our knees in joy. We busted out our water filters, and drank\nso much water.",
+          "Bodies rehydrated, we continued making our way to the car. The rest of the way\ndown wasn't too bad, and was only a little tricky when we got back to the rocks\nand roots section at the beginning.",
+          "We were happy to be alive and back at the car finally. This was the roughest and\nlongest 14'er to date. The lack of water resources on the trail really made it\ndoubly rough.\n"
+        ],
         "gpx": [
           [
             38.596969,
@@ -75980,7 +76088,7 @@ const data = [
         "hasStats": true,
         "image": "2021/09/07/fbe767d5-63c6-4af7-8643-ceef9b4cce92.jpeg",
         "location": "Sawatch Range",
-        "readingTime": null,
+        "readingTime": "4",
         "stats": {
           "distance": {
             "label": "distance",
@@ -76076,7 +76184,17 @@ const data = [
       },
       {
         "date": "September 9th, 2021",
-        "description": [],
+        "description": [
+          "After our experience on Mt. Shavano, we made sure to carry as much water as\nhumanly possible for our attempt of the DeCaLiBro-n combination route two\ndays later. The name comes from the four peaks above 14,000 feet that are all\nconnected via ridges, and thus do-able in a single day. The names are [De]mocrat,\n[Ca]meron, [Li]ncoln, and [Bro]ss. That last one is technically off-limits to\nthe public and is private land, so we didn't attempt to do it.",
+          "One good thing about this trail is that there's only about 2,000 feet of\nelevation gain from the trailhead at Kite Lake to the first peak, since we're\nstarting at 12,000 feet. We spent the night at the trailhead parking lot,\nsleeping in the car, in order to get somewhat acclimated to the elevation. It's\nnot easy starting at 12,000 feet unless you are acclimated.",
+          "A lovely pink sunrise greeted us as we set out at around 7:00 am. No need for\na pre-dawn start since we didn't have much gain to make. The trail started off\nnice and gentle, and then started to climb via switchbacks as we got closer\nto the col at the base of the first peak.",
+          "There were lots of old mining building materials lying around, mostly rusting\npieces of metal that had stained the rocks around them, and some old mine\nentrances that were now caved in.",
+          "And did I mention that it was another hike without trees! You can see anything\nyou want at any given time, and see as far as the mountains will let you. And\nyou can see how far you have to go on the trail, which is always nice. Case-in-\npoint the views of Kite Lake did not dissapoint (it definitely looks like a\nkite).",
+          "We stopped and rested here and there. It wasn't too bad of a trail, and the\nconditions weren't as bad as Mt. Shavano from a couple of days ago. Especially\nsince we were each carrying an extra liter of water this time. And by 9am we\nwere at the col below the first summit: Democrat. Less than an hour later and\nwe made the summit. After some pictures it was time to head back down to the col,\nand start the next summit: Cameron.",
+          "There was a lot of loose rock on the way over to Cameron, but we made it about\n1.5 hours later. We looked out and back on the trail, and out at the summit of\nDemocrat. Our spirits were definitely very high at this point! Two down, one to\ngo. Cameron was sort of shaped like a dome, which meant the trail down towards\nour next one, Lincoln, was a gentle slope.",
+          "Lincoln wasn't all that bad either, just some minor scrambling just below the\ntippity-top, with a long flat section in the middle between the two peaks. We\nmade the last summit by 12:30 pm. From here we could nearly see the entire trail\nfrom start to finish. Looking back at Cameron from Lincoln makes Cameron look\nlike a floating rocky island in the sky.",
+          "Time to head back down, back the way we came, up and over Cameron, and then back\ndown the col below Democrat, and then the switchbacks back down to Kite Lake. We\npractically raced down the trail, eager to get back to the car and call this a\nvery big win!\n"
+        ],
         "gpx": [
           [
             39.329882729798555,
@@ -77073,7 +77191,7 @@ const data = [
         "hasStats": true,
         "image": "2021/09/09/8e1e0c1f-c391-4bc0-807c-7bdd8d20815b.jpeg",
         "location": "Mosquito Range",
-        "readingTime": null,
+        "readingTime": "3",
         "stats": {
           "distance": {
             "label": "distance",
@@ -77168,7 +77286,19 @@ const data = [
       },
       {
         "date": "September 9th, 2022",
-        "description": [],
+        "description": [
+          "Back in Colorado for my fourth year in a row! This time I decided to start the\ntrip off with a hike up Mt. Belford, a peak with 4,500 feet of gain over a\ndistance of four miles. Quite a bit of gain over a relatively short distance,\nand it would end up kicking my butt. I think I struggled the most on this peak,\nout of all the peaks I've done solo, including my first one of Mt. Elbert.",
+          "There was plenty of space in the parking lot when I arrived at 6am, and there\nwould maybe be three other people on the trail in the morning, but more would\nstart to arrive later on, and I would run into them on the way down.",
+          "The trail started off very steep, but that makes sense due to the short distance\nand large gain: roughly 1,000 feet per mile. I had to stop a lot early on in\norder to catch my breath. It continued like this for maybe an hour or so as I\nmade my way through the thick forests.",
+          "A few random stream crossings here and there, each with a bridge made up of\nfallen tree trunks laid across them. There were some grassy clearings mixed in\namongst the trees, allowing for some breathing room and the chance to actually\nget a look ahead on the trail. Eventually the thick forests gave way to small\nconifer trees, and more open spaces. On the way there are the ruins of an old\ncabin, and I love exploring old abandoned things.",
+          "After two and a half hours I was above the treeline, but still in the shade of\nthe mountains around me while walking through the valley between them due to\ntheir steep sides. By now though I can see far ahead on the trail, with some\nlovely views all around me. And by now the path wasn't that bad actually: it was\nmostly flat for a good long while.",
+          "Maybe an hour later and it was time to start ascending the sides of the valley\nand begin gaining on the mountain itself. The sun was slowly approaching over\nthe top of the mountains. An hour later, and now four hours into the hike, and\nI am finlly high enough up to see other peaks around me. The skies are a nice\ndeep blue with small white clouds.",
+          "Five hours in and I am now up on the ridge between mountain peaks, with the\ntrail to the summit in sight! 45 minutes later and I am at the summit. There's\na couple of other people there who were coming/going and continuing along the\ntrail since it's part of a combo route. I opted for just the single peak this\ntime.",
+          "It was windy and chilly at the top, as it usually is in this area. I\nfound the elevation marker left by the USGS, and snapped some photos of my\naccomplishment. Boy was I tired, but I knew I had a long way to go on my way\nback down, and there were dark clouds starting to form in the distance.",
+          "Speaking of being tired, I slipped on some lose scree right as I started to\nmake my way down, and had some nice cuts and scrapes, but nothing a bandaid and\nhand sanitizer couldn't handle. I brushed myself off and pushed on.",
+          "I didn't take any photos on the way down. I was too eager to get back to the car,\nand away from any possible afternoon storms. There were some other people coming\nup as I went down, but for the most part I was alone, which is nice sometimes.\nI finally made it back to the car three and a half hours later.",
+          "What a rough peak to do on day one!\n"
+        ],
         "gpx": [
           [
             38.996571907773614,
@@ -78165,7 +78295,7 @@ const data = [
         "hasStats": true,
         "image": "2022/09/09/f722df6c-2869-4ff0-80f7-37014241e135.jpeg",
         "location": "Sawatch Range",
-        "readingTime": null,
+        "readingTime": "4",
         "stats": {
           "distance": {
             "label": "distance",
@@ -78261,7 +78391,15 @@ const data = [
       },
       {
         "date": "September 11th, 2022",
-        "description": [],
+        "description": [
+          "Mount Massive (Arapaho: Hiwoxuu hookuhu'ee) is the second-highest summit of the Rocky Mountains in Colorado. It is located in the San Isabel National Forest, near the city of Leadville. Mount Massive edges out the next highest summit by a mere 2 feet, and falls short of Mount Elbert (the tallest in Colorado) by 14 feet. It ranks as the third-highest peak in the contiguous United States after Mount Whitney and Mount Elbert.",
+          "The initial ascent on this trail is easy, and it was tempting to take it at a fast pace, but summitting mountain peaks is more of a marathon than a sprint. The beginning of the trail had a misleading directional marker, and I had to bushwhack my way back onto the trail.",
+          "I made great time and got above the treeline after roughly two hours.",
+          "After crossing over grassy slopes the trail starts to ascend up several switchbacks, getting higher and higher. The switchbacks level out and transition into a gradually sloping, but ever increasing, path towards the upper elevations made up of larger and then smaller rocks.",
+          "Four hours into the trail and now it is starting to climb up to the summit. It's a bit tricky at this point: there are lots of parts to climb and maneuver around, some of them with big drop offs to either side, and frequent breaks are needed.",
+          "Mt. Elbert is visible in the distance. The final stretch to the peak is along a cold and windy mile-long ridge.",
+          "The descent on this mountain is much easier than the ascent, the way down much more clear than on the way up. It doesn't take long to get back to the treeline, but it felt like it took forever to get through those trees and back to the parking lot.\n"
+        ],
         "gpx": [
           [
             39.151329,
@@ -79258,7 +79396,7 @@ const data = [
         "hasStats": true,
         "image": "2022/09/11/b74f68ae-d627-4a89-9122-fbc75562e59d.jpeg",
         "location": "Sawatch Range",
-        "readingTime": null,
+        "readingTime": "2",
         "stats": {
           "distance": {
             "label": "distance",
@@ -91108,13 +91246,17 @@ const data = [
     "stages": [
       {
         "date": "November 6th, 2019",
-        "description": [],
+        "description": [
+          "I had a few days to kill in Nepal after I conquered my thru-hike of the Annapurna Circuit, and I spent them in Pokhara (the outdoor activity capital of Nepal). First thing the next day after arriving in town I headed towards the lake that most of the touristy area of the city lies along.",
+          "The highlight was hiring a brightly painted wooden boat, or doonga, to row out onto the water and head towards the far shore where I made a stop at the 'World Peace Pagoda' (Shanti Stupa).",
+          "The lake itself is a lovely and tranquil place to walk along in the morning before the city wakes up and the roadway in front of it becomes choked with mopeds and motorcycles.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2019/11/06/0a6730d7-113b-4bca-b9d1-71ecf8e69713.jpeg",
         "location": "Pokhara",
-        "readingTime": null,
+        "readingTime": "1",
         "stats": {
           "distance": null,
           "gain": null,
@@ -91126,27 +91268,32 @@ const data = [
           "end": {
             "position": null,
             "words": [
-              "Lake Fewa"
+              "Lake Phewa"
             ]
           },
           "isSame": true,
           "start": {
             "position": null,
             "words": [
-              "Lake Fewa"
+              "Lake Phewa"
             ]
           }
         }
       },
       {
         "date": "November 7th, 2019",
-        "description": [],
+        "description": [
+          "The World Peace Pagoda (Shanti Stupa) is perched on a hill called Anadu Hill at an altitude of 3,600 feet. The massive white dome stands as a literal beacon of peace overlooking the entire valley.",
+          "Getting there was was half the adventure. I chose the 'classic' route: a serene boat ride across Lake Phewa followed by a steep, hour-long hike through the lush Rani Ban forest. The trail is mostly stone stairs that wind through pines and wildflowers, providing just enough of a workout to make reaching the top feel earned.",
+          "Once I reached the top, the views were staggering. The skies weren't as clear as they could have been, but I could just barely make out the Annapurna massif and the distinct 'Fishtail' peak of Machhapuchhre in the distance. The pagoda itself is brilliant white with golden accents, featuring four statues of Buddha gifted from Japan, Sri Lanka, Thailand, and Nepal, each representing a different stage of his life.",
+          "Walking clockwise around the upper tier in silence (the whole area is intentionally kept quiet to allow for medication), I felt the 'spiritual calm' that visitors often talk about.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2019/11/06/4286cd26-eaad-47b1-96f7-2dff5ea38352.jpeg",
         "location": "Pokhara",
-        "readingTime": null,
+        "readingTime": "1",
         "stats": {
           "distance": null,
           "gain": null,
@@ -91174,13 +91321,19 @@ const data = [
       },
       {
         "date": "November 8th, 2019",
-        "description": [],
+        "description": [
+          "I've been on roller coasters, big drops at amusement parks, and have even jumped out of a perfectly good airplane to go skydiving just outside of Chicago, but I had never been paragliding, until today. Paragliding here in Pokhara is apparently a common thing tourists do, and it was easily one of the most surreal things I’ve ever experienced.",
+          "The morning started with a bumpy, 20-minute jeep ride up to the takeoff spot at 5,800 feet. Looking down from the ridge at the colorful gliders already in the air was a bit nerve-wracking, but my pilot was incredibly chilld and professional, and walked me through a quick safety briefing.",
+          "When it was time to go, there was no 'jumping' off a cliff. Instead we just had to run together down a grassy slope until the wind caught the wing and suddenly, my feet were dangling in the air.",
+          "The silence up there is what surprised me the most: just the whistling of the wind and the occasional flap of the wing. We spiraled up into the thermals, and the view opened up into a patchwork of terraced fields and green valleys.",
+          "For the finale, my pilot asked if I wanted to do some 'tricks', or a series of exhilarating high-speed spirals and wingovers. I said sure but right away motion sickness hit me hard and we had to cut the 'fun' part short before a surprisingly gentle landing right on the shores of the lake at Khapaudi.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2019/11/06/9bbcf55a-54e8-4a7e-8c6f-12d718bc0da0.jpeg",
         "location": "Pokhara",
-        "readingTime": null,
+        "readingTime": "2",
         "stats": {
           "distance": null,
           "gain": null,

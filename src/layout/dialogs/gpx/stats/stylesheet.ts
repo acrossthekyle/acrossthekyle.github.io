@@ -18,6 +18,7 @@ const styles = tw({
     base:relative
     base:block
     base:before:hidden
+    base:border-t-0
   `),
   title: `
     text-sm dark:text-white/90 light:text-black/90
