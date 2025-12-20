@@ -9,17 +9,25 @@ import {
 import styles from './stylesheet';
 
 type Props = {
-  date: string;
-  image?: string;
+  eyebrow: string;
+  hasStats?: boolean;
+  hero?: string;
+  onStatsClick?: () => void;
   title: string[];
 };
 
-export default function Header({ date, image, title }: Props) {
+export default function Header({
+  eyebrow,
+  hasStats,
+  hero,
+  onStatsClick,
+  title,
+}: Props) {
   return (
     <header className={styles.header}>
       <h1 className={styles.title}>
         <span className={styles.eyebrow}>
-          {date}
+          {eyebrow}
         </span>
         {title.map((word, index) => (
           <span className={styles.line} key={index}>
@@ -27,14 +35,23 @@ export default function Header({ date, image, title }: Props) {
           </span>
         ))}
       </h1>
-      {image && (
+      {hasStats && (
+        <button
+          className={styles.stats}
+          onClick={onStatsClick}
+          type="button"
+        >
+          View Route + Stats
+        </button>
+      )}
+      {hero && (
         <ImageFigure>
           <Image
             alt=""
             color
             height={1080}
             sizes="(max-width: 768px) 100vw, 50vw"
-            src={image}
+            src={hero}
             width={1920}
           >
             <ImageCaption>

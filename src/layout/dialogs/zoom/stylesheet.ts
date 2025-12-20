@@ -5,7 +5,7 @@ const styles = {
     fixed inset-0
     flex items-center justify-center
     backdrop-blur-xs
-    bg-black/20
+    bg-black/80
     cursor-default
     uppercase
     text-tiny
@@ -41,13 +41,12 @@ const styles = {
       [transition:opacity_.5s_var(--ease-in-out),translate_0s_linear_.5s]
     `)}
   `),
-  image: `
+  image: (isLandscapeOrientation: boolean) => tw(`
     brightness-80
-
     object-cover
-    w-full
-    h-full
-  `,
+
+    ${isLandscapeOrientation ? 'w-full h-auto' : 'h-full w-auto'}
+  `),
   close: `
     absolute top-1 right-1 z-1
     p-2
@@ -62,6 +61,7 @@ const styles = {
     stroke-1 stroke-white/90
   `,
   lock: `
+    flex items-center justify-center
     h-full
   `,
 };

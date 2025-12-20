@@ -9,8 +9,6 @@ import Description from './description';
 import Footer from './footer';
 import Header from './header';
 import { useModel } from './model';
-import Section from './section';
-import Statistics from './stats';
 import styles from './stylesheet';
 import Toggle from './toggle';
 import type { Data } from './types';
@@ -22,7 +20,13 @@ type Props = {
 export default function View({ data }: Props) {
   useModel();
 
-  const { isOpen } = useGpx();
+  const { isOpen, openGpx } = useGpx();
+
+  const handleOnStatsClick = () => {
+    if (data !== null) {
+      openGpx(data.gpx, data.stats, data.termini);
+    }
+  };
 
   if (isOpen) {
     return null;
@@ -40,7 +44,7 @@ export default function View({ data }: Props) {
           <Toggle />
           <Article className={styles.article}>
             <Header
-              date="404"
+              eyebrow="404"
               title={['Not Found']}
             />
           </Article>
@@ -61,26 +65,17 @@ export default function View({ data }: Props) {
         <Toggle />
         <Article className={styles.article}>
           <Header
-            date={data.date}
-            image={data.image}
+            eyebrow={data.date}
+            hasStats={data.hasStats}
+            hero={data.image}
+            onStatsClick={handleOnStatsClick}
             title={data.title}
           />
-          {data.hasStats && (
-            <Section>
-              <Statistics
-                gpx={data.gpx}
-                stats={data.stats}
-                termini={data.termini}
-              />
-            </Section>
-          )}
           {data.description.length > 0 && (
-            <Section heading="Overview">
+            <>
               <Description description={data.description} />
-            </Section>
-          )}
-          {data.description.length > 0 && (
-            <Footer />
+              <Footer />
+            </>
           )}
         </Article>
       </FocusLock>

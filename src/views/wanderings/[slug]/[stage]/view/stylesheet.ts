@@ -28,13 +28,6 @@ const styles = tw({
   article: `
     flex flex-col gap-6
   `,
-  section: `
-    flex flex-col
-  `,
-  heading: `
-    font-black
-    mb-2
-  `,
   lock: `
     h-full
   `,

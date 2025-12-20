@@ -43,7 +43,7 @@ const styles = tw({
     text-xs text-center
     font-bold
     py-0.75
-    w-24
+    w-28
     border-1 border-current/90
     rounded-full
 

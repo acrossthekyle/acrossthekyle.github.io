@@ -10,7 +10,7 @@ const styles = tw({
     font-extrablack font-stretch-semi-condensed
     tracking-tighter
     uppercase
-    mb-6
+    mb-2
 
     nano:text-3xl/6
     base:font-stretch-semi-expanded
@@ -33,14 +33,20 @@ const styles = tw({
     deka:text-tiny
     kilo:text-xs
   `,
-  index: `
-    inline-block
-    ml-0.5
-    font-light
-    text-xs
-    tracking-normal
+  stats: `
+    uppercase
+    text-xs text-center
+    font-bold
+    py-0.75
+    w-38
+    border-1
+    rounded-full
+    mb-6
+    duration-300
 
-    base:ml-1.5
+    hover:bg-current/10
+
+    base:py-1
   `,
 });
 

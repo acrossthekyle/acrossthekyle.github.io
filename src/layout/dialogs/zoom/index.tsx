@@ -47,7 +47,7 @@ export default function Zoom() {
           {src && (
             <Image
               alt=""
-              className={styles.image}
+              className={styles.image(isLandscapeOrientation)}
               height={isLandscapeOrientation ? 1080 : 1920}
               onLoad={handleOnLoad}
               sizes="100vw"
