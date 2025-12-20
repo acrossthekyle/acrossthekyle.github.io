@@ -41867,7 +41867,7 @@ const data = [
         "hasStats": false,
         "image": "2022/03/23/11a03e4e-ed4e-47c2-822e-f720a9628638.jpeg",
         "location": "Ceiba",
-        "readingTime": null,
+        "readingTime": "1",
         "stats": {
           "distance": null,
           "gain": null,
@@ -141567,13 +141567,16 @@ const data = [
     "stages": [
       {
         "date": "March 25th, 2016",
-        "description": [],
+        "description": [
+          "If I had to pinpoint the exact moment that sparked my passion for backpacking (a journey that would ultimately lead me to the Camino de Santiago in Spain two years later), this place was it! I joined another guided day-hike that took us to the legendary Refuge Chileno and onward to see the iconic Towers up close. The experience ignited a fire within me for mountain adventures.",
+          "I was entranced by the backpackers trekking through the region, staying at the Refuge, leading me to dream of a lifestyle that revolved around exploration and nature. This trip changed my life forever, and its influence still resonates with me to this day.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2016/03/18/fb45dc07-e4fe-4d90-b39a-f54e50142d5a.jpeg",
         "location": "Patagonia",
-        "readingTime": null,
+        "readingTime": "1",
         "stats": {
           "distance": null,
           "gain": null,
@@ -141601,13 +141604,18 @@ const data = [
       },
       {
         "date": "March 26th, 2016",
-        "description": [],
+        "description": [
+          "Today felt like stepping back into the Ice Age. We had rented a car upon arrival in Patagonia, and drove from Puerto Natales to the Cueva del Milodón Natural Monument (Cave fo the Mylodons, giant ground sloths). I was not prepared for just how massive the cave was, and how far back it went.",
+          "The main attraction, the Cueva Grande, is simply enormous. A gaping mouth in the hillside over 650 feet deep and 260 feet wide. You can feel the sheer weight of history here. This was once a shelter for both ancient humans (dating back to 6000 B.C.E.) and massive prehistoric beasts. There's also ongoing excavations and archeological digs in the cave.",
+          "The highlight was definitely the life-size replica of the Mylodon near the entrance. This giant ground sloth was a herbivore that looked like a huge, shaggy bear, and it became extinct thousands of years ago at the end of the Pleistocene epoch.",
+          "The views of the surrounding Patagonian steppe and distant mountains from the viewpoint trail were incredible.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2016/03/18/9e9e78a3-a2ad-4a09-962c-fc1866ccfbd4.jpeg",
         "location": "Patagonia",
-        "readingTime": null,
+        "readingTime": "1",
         "stats": {
           "distance": null,
           "gain": null,
@@ -141635,13 +141643,20 @@ const data = [
       },
       {
         "date": "March 27th, 2016",
-        "description": [],
+        "description": [
+          "I left the hotel in Puerto Natales this morning before the sun was up, bundled in every layer I had brought with me, to board the catamaran for a full-day glacier sightseeing cruise through the Ultima Esperanza Fjord. It was a long day on the water (nearly 10 hours round trip), but absolutely worth it.",
+          "The fjord itself is a stunning deep blue ribbon of water cutting through rugged, untouched Patagonian wilderness. We passed sea lion colonies barking on rocky outcrops and countless waterfalls tumbling down near-vertical cliffsides. The air was frigid and smelled of salt and ice.",
+          "The first major stop was the Mount Balmaceda area, where we disembarked for a short walk through a quiet, ancient forest to the viewpoint of the Serrano Glacier. This glacier has been retreating steadily for decades, which makes seeing its remaining blue ice even more poignant. There were icebergs floating in the lagoon that were so blue they looked fake.",
+          "The real showstopper, though, was the Balmaceda Glacier. Our boat got surprisingly close, but it was a perfect distance for photos, and the sheer scale of the ice face was mind-numbing. We sat on the deck, sipping hot chocolate spiked with local pisco (a local tradition), watching the ice shimmer in the fleeting sun.",
+          "The captain made sure we were there at a quiet moment, so we experienced that profound Patagonian silence.",
+          "Before heading back, we stopped at a remote ranch for a traditional Patagonian meal. It was a hearty and perfect end to a day surrounded by pristine nature.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2016/03/18/9742d413-6fdd-4474-a4a2-59ada5ddab14.jpeg",
         "location": "Patagonia",
-        "readingTime": null,
+        "readingTime": "2",
         "stats": {
           "distance": null,
           "gain": null,
@@ -141718,13 +141733,18 @@ const data = [
     "stages": [
       {
         "date": "March 19th, 2016",
-        "description": [],
+        "description": [
+          "After days of looking up at the towering white statue from the city streets, we decided to ditch the funicular today and climb Cerro San Cristóbal on foot.",
+          "The morning started in the bohemian Barrio Bellavista. We walked past the colorful murals and headed for the Pio Nono entrance of Parque Metropolitano. Instead of joining the long queue for the funicular, we found the start of the Sendero Zorro Vidal trail.",
+          "The walk up was a workout in my flat-bottomed trainers, but a beautiful one. The trail is well-marked and exclusively for pedestrians, which made for a peaceful hour-long ascent through trees and cacti. We paused occasionally to watch the city of Santiago start to shrink below us.",
+          "About halfway up, we passed near the National Zoo and caught glimpses of the city's sprawl through the foliage. The final stretch was the steepest, but as I rounded the last bend and reached the Terraza Bellavista, the view opened up completely. Seeing the high-rises framed by the massive peaks of the Andes is something no photo can quite capture.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2016/03/18/a3205d70-0fc8-416a-b383-eb08e9e612a5.jpeg",
         "location": "Parque Metropolitano de Santiago",
-        "readingTime": null,
+        "readingTime": "1",
         "stats": {
           "distance": null,
           "gain": null,
@@ -141750,13 +141770,18 @@ const data = [
       },
       {
         "date": "March 20th, 2016",
-        "description": [],
+        "description": [
+          "We spent nearly an entire day exploring Valparaiso with a local guide. The city could best be described as a chaotic vertical wall-art gallery.",
+          "The morning started in the flat part of town, but the really neat stuff was in the hills. Instead of trekking up the endless staircases we took this elevators (called funiculars) that traveled on a smooth rail up the sides of the hills. Most were made of wood, and had been in service for over a centruy. They were rickety, but slowly they got us to the top as they passed through the colorful houses dotting the hills.",
+          "The afternoon was a blur of street art and history. We spent an hour at La Sebastiana, Pablo Neruda’s former home. It’s a whimsical, five-story tower perched high above the port, filled with his eccentric collections of ship figureheads and maps.",
+          "Valparaíso is gritty, loud, and steep. But also vibrant and charming.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2016/03/18/dd0b9008-fbc2-4916-a33c-303a406e8fa5.jpeg",
         "location": "Valparaiso Region",
-        "readingTime": null,
+        "readingTime": "1",
         "stats": {
           "distance": null,
           "gain": null,
@@ -141782,13 +141807,19 @@ const data = [
       },
       {
         "date": "March 21st, 2016",
-        "description": [],
+        "description": [
+          "After soaking in the city sights for a couple of days, I geared up for a guided day hike into the Andes mountains just outside of Santiago. The group ended up being a smaller one, resulting in a laid-back excursion with just me and my friend, an adventurous elderly couple from the Netherlands, and two enthusiastic guides.",
+          "This was my first time hiking in the mountains, like, actual mountains. Coming from flat Chicago where the landscape is more pancake than peak, and being at the highest elevation I had ever been at, I wasn't fully prepared (physically) for this.",
+          "As we gained elevation I found myself needing more and more breaks in order to catch my breath. Along the way we came to a massive rock that had been split open, and on the inside were prehistoric fossils from the pre-cambrian era. This was my first time seeing fossils outside of a musem.",
+          "We quenched our thirst with ice-cold glacier melt water from a nearby mountain stream, and it was the most refreshing thing ever. Finally, after navigating past a small false summit, our lead guide extended his hand and said 'Congrats, you made it.' And there it was, a stunning glacier, melting into a muddy-brown mountain lake. It was so quite up there, so serene.",
+          "I had never laid eyes on a glacier outside of books and films. The silence up there was almost magical; the only sound was the occasional cracking sound coming from the glacier itself. We settled onto rocks and gazed in wonder at the glacier while enjoying our food with a view. Our lead guide even surprised us by playing their flute.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2016/03/18/1f5577cc-e0c2-4c66-987e-903a9b6be02c.jpeg",
         "location": "Santiago",
-        "readingTime": null,
+        "readingTime": "2",
         "stats": {
           "distance": null,
           "gain": null,
@@ -141816,13 +141847,18 @@ const data = [
       },
       {
         "date": "March 23rd, 2016",
-        "description": [],
+        "description": [
+          "I visited not one, but two of Chile's most iconic wineries: Cousiño Macul and Concha y Toro. Getting out of central Santiago and into the Maipo Valley was surprisingly easy with little traffic, but we also cheated by using another local guide who merely provided the transportation for us. But it did feel a little less touristy.",
+          "We started at Cousiño Macul, one of the oldest family-owned vineyards in the country, located right on the edge of the city. The grounds are stunning. It felt like stepping back in time. We joined in with a winery tour and learned a lot about the history of the place, and the history of wine in Chile. We walked through the beautiful vineyards with the Andes in the background, visited the old cellars, and learned how the winemaking process has evolved. The premium tasting was well worth the extra cost.",
+          "After a quick lunch, I made my way further out to Pirque for the legendary Concha y Toro. This place is huge and definitely a 'big name' experience, but still fascinating.",
+          "The tour here felt more like a show, but in a good way. We walked through the beautiful grounds of the former family mansion and the varietal garden. The highlight, of course, was the famous 'Casillero del Diablo' (Devil's Cellar) legend. The tour guides put on a great little show, and the atmosphere in the spooky, dimly lit cellar was really fun.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2016/03/18/b941c594-5218-449f-b79d-cb9936f56ad5.jpeg",
         "location": "Santiago",
-        "readingTime": null,
+        "readingTime": "2",
         "stats": {
           "distance": null,
           "gain": null,
@@ -141900,13 +141936,18 @@ const data = [
     "stages": [
       {
         "date": "March 23rd, 2015",
-        "description": [],
+        "description": [
+          "I spent the day exploring the heart of Montevideo's old city, starting from Ciudad Vieja, walking through the old Gateway of the Citadel, and right onto the Peatonal Sarandí (pedestrian street).",
+          "This pedestrian street is the main artery of the historic center, and it absolutely pulses with life during the day. Flanked by beautiful, varied architecture from different eras, the street is a visual journey through time. As I strolled, I passed bookstores, leather shops, cafes spilling onto the sidewalks, and a number of street vendors selling everything from artisan crafts to local mate gourds. The atmosphere was vibrant and relaxed.",
+          "The real highlight was the large outdoor market that takes over the street on Saturdays. It stretches for several blocks, creating a colorful and bustling scene of local life. I had to remind myself to slow down, to actually stop and browse the endless array of items on offer: vintage clothes, antique silverware, fresh fruits, vegetables, and countless unique trinkets. I could have spent hours just people-watching.",
+          "I followed the pedestrian way all the way to the end, near the port, where I found the iconic Mercado del Puerto. While this is an indoor market known for its incredible parrillas (meat grills), the area outside also has plenty of souvenir shops and places to grab a quick bite.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2015/03/19/9650d680-3809-45e9-a9df-0e108f3e1498.jpeg",
         "location": "Montevideo",
-        "readingTime": null,
+        "readingTime": "2",
         "stats": {
           "distance": null,
           "gain": null,
@@ -141928,40 +141969,6 @@ const data = [
             "words": [
               "Exploring",
               "the city"
-            ]
-          }
-        }
-      },
-      {
-        "date": "March 23rd, 2015",
-        "description": [],
-        "gpx": [],
-        "hasGpx": false,
-        "hasStats": false,
-        "image": "2015/03/19/2894ebbc-a07d-40c9-91e7-68db3eeed340.jpeg",
-        "location": "Montevideo",
-        "readingTime": null,
-        "stats": {
-          "distance": null,
-          "gain": null,
-          "loss": null,
-          "max": null,
-          "time": null
-        },
-        "termini": {
-          "end": {
-            "position": null,
-            "words": [
-              "Plaza de",
-              "Independence"
-            ]
-          },
-          "isSame": true,
-          "start": {
-            "position": null,
-            "words": [
-              "Plaza de",
-              "Independence"
             ]
           }
         }
@@ -141993,7 +142000,7 @@ const data = [
       "distance": null,
       "length": {
         "label": "length",
-        "value": 2,
+        "value": 1,
         "units": null
       }
     },
@@ -142016,14 +142023,21 @@ const data = [
     "slug": "buenos-aires",
     "stages": [
       {
-        "date": "March 21st, 2015",
-        "description": [],
+        "date": "March 19th - 22nd, 2015",
+        "description": [
+          "We decided that the best way to tackle the vastness of Buenos Aires was the classic tourist route: the Hop-On Hop-Off bus. It seemed the most efficient way to link up all of the neighborhoods. we settled onto the top deck, ready for a day of exploration.",
+          "The bus route is brilliant, hitting all the major spots. We started near the port and moved into the colorful, Italian-influenced La Boca neighborhood. From my vantage point on the bus, the corrugated tin houses painted in bright blues, reds, and yellows looked like a cartoon. It's incredibly atmospheric, even if it is a bit of a tourist trap.",
+          "Next up was the upscale Parisian Recoleta neighborhood to visit the famous cemetery. It sounds morbid, but it's more like a city of mausoleums. The tree-lined avenues there felt incredibly grand and European.",
+          "Back on the bus, we zoomed through the greener areas and toward the city center. This is where the markets came into play. On a Saturday like today, the area around the Plaza de Mayo and the Microcentro is buzzing. I strolled through some smaller artisan stalls.",
+          "A key stop was near the heart of the city, the Catedral Metropolitana. I hopped off and went inside this architectural gem, which is both the principal Catholic church and the final resting place of General José de San Martín, Argentina's national hero. The neo-classical facade is impressive, and the interior is stunningly ornate, with beautiful mosaics and chapels.",
+          "By late afternoon, I was back on the bus, looping through the modern area of Puerto Madero with its sleek skyscrapers and the famous Puente de la Mujer (Woman's Bridge), which contrasted sharply with the historic areas I'd seen earlier.\nThe hop-on hop-off bus proved to be a fantastic way to grasp the geography and the diverse personality of Buenos Aires.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2015/03/19/1ddbd381-ac73-4dc2-9fa9-7398e0438098.jpeg",
         "location": "Buenos Aires",
-        "readingTime": null,
+        "readingTime": "2",
         "stats": {
           "distance": null,
           "gain": null,
@@ -142035,95 +142049,35 @@ const data = [
           "end": {
             "position": null,
             "words": [
-              "Hop on hop",
-              "off tour"
+              "Touring the",
+              "City"
             ]
           },
           "isSame": true,
           "start": {
             "position": null,
             "words": [
-              "Hop on hop",
-              "off tour"
+              "Touring the",
+              "City"
             ]
           }
         }
       },
       {
         "date": "March 22nd, 2015",
-        "description": [],
-        "gpx": [],
-        "hasGpx": false,
-        "hasStats": false,
-        "image": "2015/03/19/7e447ab0-dea1-4f58-b3fa-2155c23f6176.jpeg",
-        "location": "Buenos Aires",
-        "readingTime": null,
-        "stats": {
-          "distance": null,
-          "gain": null,
-          "loss": null,
-          "max": null,
-          "time": null
-        },
-        "termini": {
-          "end": {
-            "position": null,
-            "words": [
-              "La Catedral"
-            ]
-          },
-          "isSame": true,
-          "start": {
-            "position": null,
-            "words": [
-              "La Catedral"
-            ]
-          }
-        }
-      },
-      {
-        "date": "March 22nd, 2015",
-        "description": [],
-        "gpx": [],
-        "hasGpx": false,
-        "hasStats": false,
-        "image": "2015/03/19/36c1fead-d537-4c38-abb9-b09edeb17b94.jpeg",
-        "location": "Buenos Aires",
-        "readingTime": null,
-        "stats": {
-          "distance": null,
-          "gain": null,
-          "loss": null,
-          "max": null,
-          "time": null
-        },
-        "termini": {
-          "end": {
-            "position": null,
-            "words": [
-              "Marionette",
-              "Performer"
-            ]
-          },
-          "isSame": true,
-          "start": {
-            "position": null,
-            "words": [
-              "Marionette",
-              "Performer"
-            ]
-          }
-        }
-      },
-      {
-        "date": "March 22nd, 2015",
-        "description": [],
+        "description": [
+          "Experiencing Lollapalooza was the absolute highlight of my trip to Buenos Aires.",
+          "Since the venue is actually at a racetrack in San Isidro (a neighborhood north of the city center), getting there required a bit of planning. We stuck to the common mode of transportation: the train. It was packed. We got off at San Isidro Station, which is just a 15 minute walk to the racetrack entrance.",
+          "As a tourist I couldn't have my wristband mailed abroad, so we had to go to Will Call. Luckily there were a lot of tourists there as well, some even from the states.",
+          "This was my first time being at a music festival, but luckily it wasn't as chaotic as it seems to be in Chicago. The majority of the artists/bands were ones we were both familiar with and the headliners were common names such as Eminem, Robert Plant from Led Zeppelin, Fitz and the Tantrums, Smashing Pumpkins, etc.",
+          "Overall it was a great experience!\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2015/03/19/aaa356af-6a08-4305-8fe2-80819bd00f16.jpeg",
         "location": "Buenos Aires",
-        "readingTime": null,
+        "readingTime": "1",
         "stats": {
           "distance": null,
           "gain": null,
@@ -142176,7 +142130,7 @@ const data = [
       "distance": null,
       "length": {
         "label": "length",
-        "value": 4,
+        "value": 2,
         "units": null
       }
     },

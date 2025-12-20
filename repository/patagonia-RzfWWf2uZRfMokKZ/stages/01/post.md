@@ -1,0 +1,3 @@
+If I had to pinpoint the exact moment that sparked my passion for backpacking (a journey that would ultimately lead me to the Camino de Santiago in Spain two years later), this place was it! I joined another guided day-hike that took us to the legendary Refuge Chileno and onward to see the iconic Towers up close. The experience ignited a fire within me for mountain adventures.
+
+I was entranced by the backpackers trekking through the region, staying at the Refuge, leading me to dream of a lifestyle that revolved around exploration and nature. This trip changed my life forever, and its influence still resonates with me to this day.
