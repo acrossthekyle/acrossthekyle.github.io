@@ -1,1 +1,3 @@
-I had never been to a rainforest before.
+This is the only tropical rainforest in the US National Forest system! Our tour guide picked us up in a comfortable van, providing a fascinating overview of Puerto Rican history and the forest's unique ecosystem during the 40-minute drive.
+
+The core of the trip was an invigorating hike along a beautiful, albeit sometimes muddy, trail. The guide pointed out giant ferns, bamboo trees, and even the tiny coquí frogs making their iconic sounds. The reward at the end of the trail was a crystal-clear natural swimming hole where we swung from a rope swing into the cool river water, as well as slid down a natural slide-way.

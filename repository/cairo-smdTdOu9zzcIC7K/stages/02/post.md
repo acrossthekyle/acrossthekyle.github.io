@@ -1,0 +1,1 @@
+While the pyramids have their own wow-factor, the Sphinx is also pretty cool on its own. We couldn't get up close to it like we could with the pyramids, so we had to shuffle along with the other tourists, trying to get to a good vantage point. Totally worth it though.

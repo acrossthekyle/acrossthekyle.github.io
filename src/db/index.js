@@ -2888,7 +2888,15 @@ const data = [
     "stages": [
       {
         "date": "July 27th, 2024",
-        "description": [],
+        "description": [
+          "We woke from a less-than-stellar night of sleep, ready to take on the day after a breakfast of cereal with warm milk, scrambled eggs, bread with Nutella, and coffee (which somehow still didn't feel like enough).",
+          "The hike began with a brutal three miles of steep uphill. We were panting with every step until a brief rest where a kind Frenchman checked on us: \"Se va? You ok?\". After that initial ascent, the trail flattened a bit through the woods, leading down to a picturesque suspension bridge before climbing up again. The scenery was lovely, definitely channeling the spirit of \"Climb every mountain\".",
+          "Then came the main event: the Col de Tricot. Hours of relentless uphill with zero shade had us working overtime all over again. The wind at the top was a relief though, perfect for a much-needed lunch. The packed sandwich from the gite was brie, tomato, and lettuce on a baguette. It was lifesaving, even if the accompanying orange was a messy affair.",
+          "The descent was another challenge: 1 hour and 10 minutes of switchbacks that tormented our toes. We hit Miage at the bottom and we wished we were staying there. A short rest and water break, then another 35 minutes up to our night's lodging, Auberge le Truc.",
+          "Auberge le Truc is rustic. Limited water, no showers, and a very interesting (broken) conveyor belt pit toilet. The simple pleasure of the constant, rhythmic sound of cowbells made up for the lack of amenities.",
+          "Dinner was an experience: three Brits (who support Trump, so probably not our new best friends) joined our table. The meal itself started strong with great vegetable soup, followed by a funky but good combination of pasta with red sauce, a cheese omelette, cheese, and crème brûlée. Seriously loving the salt in everything over here!",
+          "Tonight's accomodation is a 28-person bunk bed room. We've snagged the top bunks by the door and are all packed and ready for an early departure tomorrow morning. Another day, another adventure down!\n"
+        ],
         "gpx": [
           [
             45.89030119590461,
@@ -3885,7 +3893,7 @@ const data = [
         "hasStats": true,
         "image": "2024/07/27/ac7799bd-b2a8-4f77-8a8d-6d42a8740390.jpeg",
         "location": null,
-        "readingTime": null,
+        "readingTime": "2",
         "stats": {
           "distance": {
             "label": "distance",
@@ -3980,7 +3988,16 @@ const data = [
       },
       {
         "date": "July 28th, 2024",
-        "description": [],
+        "description": [
+          "The day began early with a 6:30 AM wake-up. Thanks to last night's strategic packing, we managed a silent, lightning-fast exit from the 28-person bunk room. Fuel was simple but essential: coffee and bread with butter and jam.",
+          "The first hour was a lovely descent through the woods towards Les Contamines-Montjoie. Our smooth exit was briefly interrupted by a worker from the place we had stayed at. Turns out we'd forgotten to pay! Debt settled, we arrived in town just as a 'Fête Village' farmers market was coming to life. It was absolutely adorable. We stocked up on protein bars at the market, though we had to skip the pharmacy for extra sunscreen as it wasn't opening until 10:00 AM.",
+          "Leaving town, the trail followed a flat, pleasant stretch along the river, passing 'family fun' zones for golf, tennis, and soccer. Then, the real work began.",
+          "The climb was steep, though thankfully not quite as brutal as day one, winding through more beautiful woods. Eventually, we reached the long, shadeless ascent to the Col du Bonhomme. The lack of cover was tough, but the gorgeous wildflowers and a quick chat with an older couple from Buffalo kept our spirits up.",
+          "We finally reached the Refuge de la Croix du Bonhomme. This massive stone structure can house over 100 people, but we're tucked into a cozy room for six.",
+          "The post-hike routine was a whirlwind: all of it is currently hanging out to dry. A single coin buys four minutes of warm water. We let the mountain breeze dry our hair while enjoying some cold blonde beers and reading.",
+          "Dinner was a lively, international affair. We sat with six Israelis, enjoying a vegetable dinner of pepper pizza, carrot and beet salad, and soup. Half the table was vegetarian for Kosher reasons, and the sun blazed on our backs and necks as we ate, still sweating from the day's effort.",
+          "The evening ended with a long political and travel chat outside until the mountain air turned too cold. We headed to bed, surrounded by the damp smell of laundry drying on the bunks. Ready to do it all again tomorrow!\n"
+        ],
         "gpx": [
           [
             45.829960042610765,
@@ -4977,7 +4994,7 @@ const data = [
         "hasStats": true,
         "image": "2024/07/27/10146a42-b18d-4318-bc5b-c32279532e4d.jpeg",
         "location": null,
-        "readingTime": null,
+        "readingTime": "2",
         "stats": {
           "distance": {
             "label": "distance",
@@ -5073,7 +5090,16 @@ const data = [
       },
       {
         "date": "July 29th, 2024",
-        "description": [],
+        "description": [
+          "Today was arguably the toughest day yet. It started with an awful breakfast: corn flakes in hot milk and bread with jam.",
+          "The trail didn't make it easy as we began our ascent toward the peak. We had to navigate snow bridges, and at one point, my foot actually fell through the crust. With a mule trailing behind us and the surreal sound of someone singing \"Edelweiss\" in the distance, we kept moving.",
+          "We finally hit the valley floor, stopped for a quick bathroom break at the Glacier Villa, and made the 30-minute trek to Refuge des Mottets for lunch. I treated myself to a nutella crepe while my partner stuck to bread, cheese, an apple, and banana chips.",
+          "The afternoon was a long, lonely slog. The road started as a soft slope where we were the only people in sight, but it ended in a brutal, steep scramble over loose rocks and slippery snow. The trail became nearly impossible to find, and by the time we reached our refuge, we were exhausted.",
+          "We were the first to arrive at our stop (an 11-person refuge). Our room has eight people, and the beds are so close we're basically sharing with strangers. Almost everyone here speaks exclusively French, which made the difficult day feel even more isolating.",
+          "After helping a fellow American named Andrew (who was awkwardly stuck without cash) and discussing the snowy shortcut for tomorrow, we made a tough call. Because of the conditions, we're waking up early to go back down the way we came. It adds three hours to the journey, but safety comes first.",
+          "Dinner was a lesson in local custom: a thin vegetable soup with bread and cheese (the French hikers insisted the cheese goes in the soup), followed by rice, lentils, and poppyseed cake.",
+          "Today was a reminder that the mountain always has the final say.\n"
+        ],
         "gpx": [
           [
             45.72250496596098,
@@ -6070,7 +6096,7 @@ const data = [
         "hasStats": true,
         "image": "2024/07/27/be9a961c-fc7d-43dc-b466-29a359d1cd12.jpeg",
         "location": null,
-        "readingTime": null,
+        "readingTime": "2",
         "stats": {
           "distance": {
             "label": "distance",
@@ -6166,7 +6192,22 @@ const data = [
       },
       {
         "date": "July 30th, 2024",
-        "description": [],
+        "description": [
+          "Today was the definitive 'hardest day' of the trek so far: 15+ miles and two massive ascents. It started early, with a 5:45 AM wake-up in our cramped quarters. We carried our baskets of gear (couldn't bring our backpacks inside the refuge) to the dining tables to get dressed. Breakfast was minimal, just a little coffee, so we grabbed some bread for the road, left a note for Andrew, and set off.",
+          "Descent #1: The Video Game Levels",
+          "The first descent felt like navigating levels in a video game. We even named the sections: Find the Trail / Snow Bridges, The Balance Beam, Vertical Descent, Sloping Descent, Mini Switchbacks, Wide Switchbacks (Where we had to take a massive detour around some stubborn cows), The Road, and finally The Wide(r) Road.",
+          "We moved fast, though the first three 'levels' were genuinely scary. We made it to Refuge des Mottets by 8:30 AM for a second 'breakfast' of hard-boiled eggs and bread just as the other hikers were heading out for their day.",
+          "Ascent #1: Crossing into Italy",
+          "Next was the climb up to the Col de la Seigne. It started with steep switchbacks before turning into a long, slow, almost monotonous straight ascent. But the reward at the top was worth it: a stunning view of Mont Blanc and the realization that we were officially in Italy!",
+          "Descent #2: The Valley and the 'Desert'",
+          "The descent into the Italian side led us through a low valley filled with puddles and mountain bikers. We stopped for lunch at Rifugio Elisabetta, where we had a surprisingly good burrito packed with carrots, apples, and nuts from the refuge last night. The trek continued down a dead-straight road that felt like walking through a desert, despite the lush plants, and the heat was relentless.",
+          "Ascent #2: The Longest Walk",
+          "The final push to Rifugio Maison Vieille was a test of will. The sign said 2 hours and 15 minutes, but it felt like the longest walk ever.",
+          "Maison Vieille is super cute, perched right on a ski slope. The highlights? A shower with no time limit. It felt like heaven.",
+          "As a storm rolled in, we did a massive amount of laundry, leaving it out until the very first raindrop fell. We then transformed our bunk room into a drying rack, using an ingenious system of string and trekking poles to hang everything.",
+          "Dinner was a social and culinary mix. We sat with a non-English speaking couple and John, a New Yorker living in Vienna. The menu was delicious: pasta with red sauce and Parmesan, followed by peas, carrots, and cheese, and almond cake for dessert. The food was excellent.",
+          "Tucked under a canopy of drying laundry, drifting off to sleep. We made it to Italy, and we survived the hardest day.\n"
+        ],
         "gpx": [
           [
             45.76514236629009,
@@ -7163,7 +7204,7 @@ const data = [
         "hasStats": true,
         "image": "2024/07/27/a45073e7-ef67-4e31-a5e7-3ba9b4b97b4e.jpeg",
         "location": null,
-        "readingTime": null,
+        "readingTime": "3",
         "stats": {
           "distance": {
             "label": "distance",
@@ -7259,7 +7300,17 @@ const data = [
       },
       {
         "date": "July 31st, 2024",
-        "description": [],
+        "description": [
+          "After the grueling mileage of yesterday, we allowed ourselves a 'late' start. We spent the morning wrestling with our mountain of laundry and enjoying a breakfast of bread with berry jam, fruit cocktail, individual yogurt jars, and much-needed coffee.",
+          "The journey began with a descent into the town of Courmayeur. While the three Brits we'd met earlier opted for the chairlift, we committed to the trail. It was a forest trek filled with endless switchbacks.",
+          "Courmayeur is absolutely stunning; all stone sidewalks and narrow, charming streets (though I've learned that Italians do not move out of the way for hikers!). We ran errands like pros: hit the pharmacy for sunscreen, the grocery store for protein bars, and a local panetteria for lunch. We grabbed mushroom focaccia and a classic cheese pizza; it was easily the best food of the trip so far.",
+          "The ascent out of town was a series of forest switchbacks where we played a high-stakes game of 'cat and mouse' with several other couples. Proud to say: we won.",
+          "We reached the Rifugio Bertone just as the clouds broke. We huddled under an awning for the heavy stuff and deployed our rainflies for the first time as we hiked out in the drizzle. We found a spot on a cliff just above the refuge to enjoy a simple lunch of bread and cheese.",
+          "What followed was the absolute best walk of the trip. A long, flat stretch of trail with views that made every uphill battle worth it.",
+          "We eventually rolled into Rifugio Bonatti. The rooms here are giant; there are 10 of us in ours, with five beds lined up in a row. We're crossing our fingers no one ends up in the gap between us and the couple next door! The showers were ice cold even though they promised two minutes of warmth that never materialized, and we set up another ingenious laundry stringing system across a wooden wardrobe.",
+          "Before dinner, we decompressed with some reading, beer, and spicy cheese balls. Dinner was a lively table of nine: us, three Swiss school friends, and a French family of four. We feasted on bread, salad, farfalle in red sauce, steamed veggies with a veggie burger, and chocolate pudding. The entertainment of the night was watching the adjacent table rinse their meat in their water glasses before eating. We couldn't tell if it was too salty or a cultural habit, but it certainly gave us something to talk about!",
+          "Now, it's time for podcasts in bed as we rest up for whatever tomorrow brings. Moving through Italy is proving to be a beautiful, blistered, and delicious adventure.\n"
+        ],
         "gpx": [
           [
             45.791053511202335,
@@ -8256,7 +8307,7 @@ const data = [
         "hasStats": true,
         "image": "2024/07/27/f1310350-3cb1-4f1b-b591-e08d0971f23b.jpeg",
         "location": null,
-        "readingTime": null,
+        "readingTime": "3",
         "stats": {
           "distance": {
             "label": "distance",
@@ -8351,7 +8402,17 @@ const data = [
       },
       {
         "date": "August 1st, 2024",
-        "description": [],
+        "description": [
+          "We woke up with the sun this morning and headed down to a buffet-style breakfast, a welcome change! We fueled up on yogurt with granola, fruit cocktail, and the classic trail staple of bread and butter.",
+          "Today was easily the best hike of the trip so far. It felt almost like a rest day compared to the previous climbs. We started with a gorgeous flat stretch along a ridge before descending toward a river.",
+          "The climb up to Grand Col Ferret was a long, slow incline. It was a bit drizzly, but we felt strong and actually clocked our best ascent time yet! Reaching the top meant crossing the border into Switzerland. It was absolutely freezing at the summit, so we had a very quick lunch by a giant wooden cross before starting the descent.",
+          "The way down was gentle, passing through flocks of sheep. Halfway down, we stopped at a charming refuge with woodchip floors, where we had a wonderful surprise: we ran into Angel and Milene from our very first night in Les Houches! It was so good to see familiar faces. We shared some apple and chocolate before continuing the trek along a pretty river road.",
+          "We finally arrived in the town of La Fouly and checked into the Hotel Edelweiss. It's a fancy hotel, but we're tucked away in the attic dorms. The perks? A hot shower with amazing water pressure. We've officially mastered the 'plastic bag laundry system' and hung our clothes outside under the protection of the balconies.",
+          "We're sharing a room with Mackenzie from Albany and Kaitlyn from Virginia. We spent the afternoon running to the grocery store for a power adapter (no luck), but we did score cheese crackers and jalapeño chips. We retreated to the hotel to watch a massive downpour from the window, sipping rosé and reading.",
+          "Dinner was a social rollercoaster. We sat with some new folks named Faith, Rob, and Antoine. Some of them were a lot with nonstop talking. On the other hand, Antoine was fascinating: a Brazilian MMA fighter and boat captain!",
+          "The food was fantastic: vegetable soup, tofu with veggies and rice, and ice cream pie (hands down the best dessert of the trip).",
+          "The night ended with us moving our damp laundry to the cubby strings in the room and sharing a few laughs with our roommates before bed. Switzerland is off to a great start!\n"
+        ],
         "gpx": [
           [
             45.84672074764967,
@@ -9348,7 +9409,7 @@ const data = [
         "hasStats": true,
         "image": "2024/07/27/b70777d8-b89d-4d60-b422-2d2af80483e4.jpeg",
         "location": null,
-        "readingTime": null,
+        "readingTime": "3",
         "stats": {
           "distance": {
             "label": "distance",
@@ -9443,7 +9504,18 @@ const data = [
       },
       {
         "date": "August 2nd, 2024",
-        "description": [],
+        "description": [
+          "We started the morning with another great Swiss buffet: cappuccinos, strawberry yogurt with fruit, and fresh bread buns with butter and jam.",
+          "Today was billed as a 'rest day', but the trail had other ideas. The morning began with a beautiful, flat stretch along a river and through dense woods. With the mossy rocks and towering pines, it felt exactly like the Pacific Northwest. We passed through a charming old Swiss village (possibly L’A Neuve or Issert) filled with traditional wooden houses that looked like they belonged in a storybook.",
+          "While our roommates Mackenzie and Caitlyn decided to take the bus because they heard this section was 'boring', we stuck to the path. After the flat start, the trail began to climb. Honestly, it was exhausting.",
+          "We stopped for lunch at a wooden table in the forest and enjoyed a total feast: two sandwiches each made with fresh bread, cheese, lettuce, and thin carrot slices. They were incredible!",
+          "The final push was tough. Our legs felt it, likely because we ate a bit too much at lunch! We took a brief wrong turn but quickly corrected course while chatting with a British family who had made the same mistake.",
+          "We finally reached Champex-Lac, a stunning lakeside town. We had planned to soak our feet in the lake, but as the clouds began to roll in, we ducked into a restaurant just in time to beat the downpour. We spent the afternoon sipping rosé and watching Olympic fencing on the TV.",
+          "Once the sky cleared, we walked to Gîte Bon Abri. We arrived at 2:30 PM, but since it didn't open until 4:00 PM, we spent the afternoon sitting in the sun trying to 'fix' our hiker tan lines. My phone automatically remembered the Wi-Fi password from when I stayed here six years ago, saving most of the people waiting from boredom.",
+          "By a stroke of luck, we ended up with a private room. Since the rain returned, we immediately turned it into a drying room, stringing laundry everywhere. After showering we settled in to read until dinner.",
+          "Dinner was a cozy affair at a circular table with a group of French speakers. The menu was quintessential Switzerland: thin vegetable soup, lettuce and carrot salad, cheese fondue with plenty of bread and potatoes, and cake for dessert.",
+          "Despite the 'rest day' lies the trail told us, ending it with fondue and a private room made it all worth it.\n"
+        ],
         "gpx": [
           [
             45.93533908948302,
@@ -10440,7 +10512,7 @@ const data = [
         "hasStats": true,
         "image": "2024/07/27/22400157-4853-4974-856b-86b1bc986ef9.jpeg",
         "location": null,
-        "readingTime": null,
+        "readingTime": "3",
         "stats": {
           "distance": {
             "label": "distance",
@@ -10535,7 +10607,16 @@ const data = [
       },
       {
         "date": "August 3rd, 2024",
-        "description": [],
+        "description": [
+          "Today started on a bit of a low note. Breakfast was yogurt with granola, toast, and coffee, and it didn't hit the spot. We took the Bovine trail, and while the climb through the woods was gradual, our legs soon felt the climb.",
+          "It was one of those 'cat and mouse' days on the trail, constantly passing and being passed by Mackenzie, Kaitlyn, Angel, and the three British ladies. At one point, the fatigue really hit, but then, the trail provided.",
+          "Just before reaching the summit, we hit a refuge famous for its cakes. We staged a long, glorious intervention for our spirits, chatting with the British women over apple crumble, apple quiche, and chocolate. That sugar boost was exactly what we needed for the final push and the subsequent descent. Along the way, we spotted a helicopter hovering nearby; we couldn't tell if it was a rescue mission or just a supply drop, but it's always a sobering reminder of how remote these mountains are.",
+          "We rolled into Trient around 1:30 PM, but with check-in not until 3:00 PM, we made ourselves at home in the grass at the camping area. We knocked out the daily chores of bathroom, laundry, and a blissfully hot shower, and spent the afternoon listening to podcasts while our clothes dried in the sun.",
+          "Our accommodation tonight is a 12-person dorm, and we were the first ones to claim our spots. After a little more socializing with Angel and Milene at the restaurant, we retreated to our beds for a pre-dinner recharge.",
+          "Dinner was a bit of a quiet affair. We were at a table for eight, but only six of us showed up. Our companions included two Germans who didn't say much beyond 'hello', an older Frenchman with zero English, and a younger French runner who was tackling the trail in the opposite direction. He was friendly and chatted as best he could!",
+          "The meal was solid: a very good, thick squash soup, a cheese omelette with veggies and fries, and lemon vanilla ice cream for dessert.",
+          "Now, it's back to the dorm to rest up. Tomorrow, we keep moving!\n"
+        ],
         "gpx": [
           [
             46.0346853453666,
@@ -11532,7 +11613,7 @@ const data = [
         "hasStats": true,
         "image": "2024/07/27/99d87d66-9534-4aca-9489-eb2fbbdc152b.jpeg",
         "location": null,
-        "readingTime": null,
+        "readingTime": "2",
         "stats": {
           "distance": {
             "label": "distance",
@@ -11627,7 +11708,15 @@ const data = [
       },
       {
         "date": "August 4th, 2024",
-        "description": [],
+        "description": [
+          "We learned a hard lesson today: skipping breakfast is a massive mistake. Even though the initial ascent wasn't incredibly steep or long, we felt it. We managed to choke down some protein bars on the way up, and by the time we reached the top to eat with Angel, we finally started to feel human again.",
+          "Lunch was a classic trail smorgasbord: hard-boiled eggs, crackers with Babybel cheese, and a much-needed chocolate bar.",
+          "From there, we headed up toward the Aiguilles. This was easily one of the most beautiful sections yet: wildflowers were everywhere, and the trail involved some really fun rock scrambles. At one point, we found a perfect little rock nook to sit in; Mackenzie and Kaitlyn were there to capture the moment!",
+          "The descent was long but manageable, featuring more scrambling before dropping into forest switchbacks. We eventually arrived at Refuge de la Boerne, which is officially the weirdest place we've stayed yet. It feels exactly like the inside of an 18th-century sailing ship. Our room features a 'four-stack' of bunk beds. We're sharing the space with three older American men and Moris and Olga from the Netherlands.",
+          "Before dinner, we enjoyed a delightful 'happy hour' with Moris, Olga, and James and Adriana (Americans living in England). It is so wonderful to have made actual friends on this journey! We may have enjoyed one too many Aperol Spritzes (the classic Italian drink), but it was the perfect way to toast to the day.",
+          "Dinner was a lovely, social affair. We sat with the three British ladies along with three Belgian campers. The conversation was fantastic. We feasted on: lettuce and corn salad with balsamic, unlimited fresh baguettes, rice and lentils, brie and applesauce for dessert (a surprisingly great combo!).",
+          "The night wound down with a funny group chat about the wonders of Neosporin with the Brits and Jess's family. It's surprisingly quiet in our rooms, and we're ready for some rest before the final legs of this adventure!\n"
+        ],
         "gpx": [
           [
             46.05608367361128,
@@ -12624,7 +12713,7 @@ const data = [
         "hasStats": true,
         "image": "2024/07/27/91e2be29-62d0-4be0-a00a-9ebd9d9dc395.jpeg",
         "location": null,
-        "readingTime": null,
+        "readingTime": "2",
         "stats": {
           "distance": {
             "label": "distance",
@@ -12719,7 +12808,18 @@ const data = [
       },
       {
         "date": "August 5th, 2024",
-        "description": [],
+        "description": [
+          "We fueled up early today at 6:30 AM with a surprisingly solid breakfast: corn flakes, a fresh baguette with butter and jam, and even fresh bananas! We sat with Moris and Olga, enjoying the calm before what we knew would be a vertical day.",
+          "The Ladders: Not for the Faint of Heart",
+          "The ascent began with a brutal challenge: gaining massive elevation over just 4 km. Then, we hit the famous TMB ladders. Poor Adriana had to turn back; the height was just too much for her.",
+          "We tucked our trekking poles into our water bottle holders, making us look like we had giant antennae, to keep our hands free for climbing. The wooden slat 'ladders' were definitely the sketchiest part, while the metal ones felt rock-solid. Honestly? It was a blast. We celebrated reaching the top of the ladder section with lunch #1: a well-earned bowl of pasta.",
+          "The climb continued toward Lac Blanc. The first lake we passed was beautiful but swarming with gnats. We pushed on to the second lake, which was a stunning, crystal-clear blue. This is clearly a popular spot, it was the most crowded we've seen on the trail yet.",
+          "We found the perfect rock to sit on and took the plunge, well, a 10-second toe dip into the glacial water. It was freezing and perfect. For lunch #2 we headed up to the refuge for a coke, a cheese omelette, a salted tomato, and a chocolate crepe. Absolute chef's kiss.",
+          "The hike down was a bit of a headache. The trail was packed with day-trippers and kids walking three across. We ended up 'off-roading' to get around the crowds, speed-hiking down with a fast-moving couple from DC.",
+          "We finally reached Refuge de la Flégère. It's a great spot with a massive dining area and a dorm that sleeps about 24. After the usual routine of shower and laundry, and some reading, we grabbed beers on the patio.",
+          "The highlight of the evening was a rowdy game of 'Asshole' (a card game) with the English family. There was plenty of wine and non-stop laughter; they are just the sweetest people.",
+          "Dinner was equally great: carrot and cabbage salad, a delicious cheesy potato dish, and chocolate mousse for dessert. My partner was teased by the whole table for hoarding the extra bread, but hey, a hiker's gotta fuel up! Another incredible day in the books. One step closer to the finish!\n"
+        ],
         "gpx": [
           [
             45.996275106444955,
@@ -13716,7 +13816,7 @@ const data = [
         "hasStats": true,
         "image": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg",
         "location": null,
-        "readingTime": null,
+        "readingTime": "3",
         "stats": {
           "distance": {
             "label": "distance",
@@ -13810,7 +13910,17 @@ const data = [
       },
       {
         "date": "August 6th, 2024",
-        "description": [],
+        "description": [
+          "We had breakfast at 7 AM with our trail friends, enjoying great croissants with butter and jam, cereal, and coffee. A perfect start to what was our last 'up' of the entire trip!",
+          "The morning's climb was relatively easy, leading us over two peaks to the Col de Brévent. We got stuck behind a slow-moving Spanish family with zero trail awareness, but once we passed them, they were hot on our heels! The final push involved a few ladders and rock scrambles.",
+          "The peak was swarmed with tourists who had taken the gondola up, a stark contrast to the quiet trails we're used to.",
+          "We began the long descent toward our lunch spot, a refuge about 45 minutes away. We indulged in a delicious lunch: a cheese omelette with diced tomato, bread with butter to make open-faced sandwiches, a final scoop of Nutella (using the last of that extra bread we had hoarded), and a coke.",
+          "The descent felt like it went on forever. We realized that 'running' down the mountain was better for our knees than taking heavy, deliberate steps, even if our toes weren't happy about it. We burst out of the woods into Les Houches, completing the circle!",
+          "We checked back into the Gîte Michel Fagot, where this all began. We snagged a room for six, immediately utilized the showers and laundry, and finally unpacked our clean clothes from our luggage, a true luxury.",
+          "We celebrated with a victory blonde beer at the bar around the corner and even played a game of foosball with a couple from Portland.",
+          "Dinner was great. We sat with Mackenzie, Kaitlyn, two Dutch hikers, and one French hiker. The menu included: greek salad with fresh bread, pasta with zucchini and red sauce, and gingerbread milkiness for dessert (very tasty, if a bit runny).",
+          "Now, it's time for podcasts and some final rest. We did it. We completed the Tour du Mont Blanc!\n"
+        ],
         "gpx": [
           [
             45.95939800143242,
@@ -14807,7 +14917,7 @@ const data = [
         "hasStats": true,
         "image": "2024/07/27/480c5394-dfa7-4760-8f62-5a39cb66cb98.jpeg",
         "location": null,
-        "readingTime": null,
+        "readingTime": "2",
         "stats": {
           "distance": {
             "label": "distance",
@@ -30071,13 +30181,16 @@ const data = [
     "stages": [
       {
         "date": "January 3rd, 2023",
-        "description": [],
+        "description": [
+          "Two massive stone titans rising out of the green farmland like ghosts. The Colossi of Memnon are genuinely staggering to stand next to; at 18 meters tall, they make the surrounding tour buses look like toys.",
+          "Even though their faces have been worn away by three millennia of wind and sand, you can still see the outlines of the Pharaoh seated on his throne, his hands resting calmly on his knees as he gazes east toward the Nile. If you look closely at his legs, you can spot smaller carved figures.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/12/28/5e393275-ee80-475d-83cf-26192cd55738.jpeg",
         "location": "West Bank of Luxor",
-        "readingTime": null,
+        "readingTime": "1",
         "stats": {
           "distance": null,
           "gain": null,
@@ -30105,13 +30218,16 @@ const data = [
       },
       {
         "date": "January 3rd, 2023",
-        "description": [],
+        "description": [
+          "Although commonly known as the Tomb of Ramesses VI, it was actually started by his nephew, Ramesses V, who was likely the first one buried here before his uncle expanded it for himself. The descent was a staggering 117-meter corridor that plunged deep into the limestone. What immediately hit me wasn't just the scale, but the colors. After over 3,000 years, the reds, golds, and deep blues of the hieroglyphs look as though the painters just finished their work this morning.",
+          "The walls are a literal library of the underworld. On the left, the Book of Gates guides the way; on the right, the Book of Caverns. The highlight, though, is the burial chamber. I spent most of my time looking up at the astronomical ceiling. It features a magnificent, double-elongated image of the sky goddess Nut arching across the cosmos, swallowing the sun at dusk and giving birth to it at dawn. Below her, the reconstructed green conglomerate sarcophagus sits as a haunting centerpiece.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/12/28/5f93fbaf-0c30-4f70-959d-a5e4384eff83.jpeg",
         "location": "Valley of the Kings, Kurna, Luxor",
-        "readingTime": null,
+        "readingTime": "1",
         "stats": {
           "distance": null,
           "gain": null,
@@ -30139,13 +30255,16 @@ const data = [
       },
       {
         "date": "January 3rd, 2023",
-        "description": [],
+        "description": [
+          "Entering the Tomb of Tutankhamun feels different from the others: it is remarkably small compared to the vast corridors of the other kings in the valley. You can really sense the haste in which it was prepared. Unlike the other pharaohs who were moved to museums long ago, Tutankhamun himself remains here. I stood inches away from his actual mummy, which is now preserved in a glass case at one end of the burial chamber. Seeing his linen-wrapped form in the very place he was laid 3,000 years ago is amazing.",
+          "This was the only room in the tomb with decorated walls. The yellow-background murals are vibrant, showing the boy-king being welcomed into the afterlife by Osiris and Anubis. His massive quartzite sarcophagus still dominates the room, though it is now empty of its famous nesting golden coffins.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/12/28/12a42c7a-6b58-4356-a873-35d8cb66314a.jpeg",
         "location": "Valley of the Kings, Kurna, Luxor",
-        "readingTime": null,
+        "readingTime": "1",
         "stats": {
           "distance": null,
           "gain": null,
@@ -30173,13 +30292,15 @@ const data = [
       },
       {
         "date": "January 3rd, 2023",
-        "description": [],
+        "description": [
+          "The preservation here is incredible. The Litany of Ra and the Book of Gates cover the walls in high-contrast reds and golds that look almost fresh, leading all the way to the eight-pillared burial chamber. It is easily one of the most fascinating stops in the Valley of the Kings. This tomb is massive, stretching about 188 meters deep.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/12/28/d8ebe864-7209-44ae-b426-a05337965b8d.jpeg",
         "location": "Valley of the Kings, Kurna, Luxor",
-        "readingTime": null,
+        "readingTime": "1",
         "stats": {
           "distance": null,
           "gain": null,
@@ -30207,13 +30328,15 @@ const data = [
       },
       {
         "date": "January 3rd, 2023",
-        "description": [],
+        "description": [
+          "The Valley of the Queens was less crowded which means we had more time to walk around and view things at our own pace. There was only one tomb where you had to pay to enter, and we skipped it, but the rest were still equally as amazing. Having them to ourselves was the real treat.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/12/28/9fb7c062-5816-4154-b8cd-525a81f82be0.jpeg",
         "location": "Kurna, Luxor",
-        "readingTime": null,
+        "readingTime": "1",
         "stats": {
           "distance": null,
           "gain": null,
@@ -30241,13 +30364,16 @@ const data = [
       },
       {
         "date": "January 3rd, 2023",
-        "description": [],
+        "description": [
+          "Habu Temple was the most amazing temple we had seen thus far. It was in amazing condition: the paintings were pristine-looking. Our guide gave us amazing behind-the-scenes tour, and told us some not-so-commonly known facts about the place, and its historical purpose.",
+          "It didn't have the crushing crowds of Karnak, but was every bit as massive and powerful. I've never seen carvings like these. To prevent future pharaohs from hacking off his name and replacing it with their own, Ramesses III had the hieroglyphs carved incredibly deep; some are nearly six inches into the stone.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/12/28/44f2c787-1209-4e11-a2fe-64030e0c472c.jpeg",
         "location": "West Bank of Luxor",
-        "readingTime": null,
+        "readingTime": "1",
         "stats": {
           "distance": null,
           "gain": null,
@@ -30275,13 +30401,16 @@ const data = [
       },
       {
         "date": "January 3rd, 2023",
-        "description": [],
+        "description": [
+          "Unlike the other temples we visited, this one seemed to literally grow out of the landscape instead of resting on top of it. Its three massive limestone terraces are carved directly into the face of the cliffs, creating a symmetrical silhouette.",
+          "This was also probably the busiest temple that we visited. Loads of tour buses were lined up in front of it, ruining an otherwise great view of the temple. We didn't spend much time at this one. While it was cool to visit it wasn't as impressive as the other temples.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/12/28/b7e2eeb1-90d3-49cb-bdb8-41acf2162f78.jpeg",
         "location": "West Bank of Luxor",
-        "readingTime": null,
+        "readingTime": "1",
         "stats": {
           "distance": null,
           "gain": null,
@@ -30309,13 +30438,17 @@ const data = [
       },
       {
         "date": "January 4th, 2023",
-        "description": [],
+        "description": [
+          "This was the highlight of our time in Luxor. We were picked up from our hotel at 4am, along with a bunch of others, and shuttled to a balloon ride launching area. We waited in the cold, dark, pre-dawn morning as teams of workers got the balloons ready for us. It was an amazing sight watching these huge things go from the flames burning within them.",
+          "Our time came and we were shuffled into the basket of our balloon with the most charistmatic captain one could hope for. After a quick run-through of the rules we were off and ascending into the air.",
+          "The captain had a little jingle he kept singing: \"Everything I do, I do for you.\" It made us smile and laugh, and kept things cheery. The ride over the Valley of the Kings and Queens below us was amazing. The sunrise, the views, it was the\nperfect ending to this vacation.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/12/28/b13b3a23-187a-4dc4-912d-e225b21af78a.jpeg",
         "location": "West Bank of Luxor",
-        "readingTime": null,
+        "readingTime": "1",
         "stats": {
           "distance": null,
           "gain": null,
@@ -30343,13 +30476,15 @@ const data = [
       },
       {
         "date": "January 4th, 2023",
-        "description": [],
+        "description": [
+          "This was our first temple complex that we visited in Luxor, and it was astounding to be standing at the base of these humungous columns and statues. We spotted Greek writing mixed in with ancient Egyptian, which aligned with what the guide in Cairo told us about Alexandar the Greats conquering of Egypt and introduction of the helenistic cultures.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/12/28/9799718c-81f7-460d-9f0a-7ddd2dffb060.jpeg",
         "location": "Luxor",
-        "readingTime": null,
+        "readingTime": "1",
         "stats": {
           "distance": null,
           "gain": null,
@@ -30377,13 +30512,16 @@ const data = [
       },
       {
         "date": "January 4th, 2023",
-        "description": [],
+        "description": [
+          "We walked down the Avenue of Sphinxes in order to reach the Karnak temple complex, and no one else was on the avenue, so we had it all to ourselves. It beat walking alogn the busy narrow streets.",
+          "Luxor was amazing, but Karnak was huge! This temple complex was expansive, tall, and the paintings on the walls were still in great condition. There were so many things to see here. We spent a long time walking around and checking\neverything out.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/12/28/7f2020f6-ccd2-4f4a-98a1-44abd2df6911.jpeg",
         "location": "Luxor",
-        "readingTime": null,
+        "readingTime": "1",
         "stats": {
           "distance": null,
           "gain": null,
@@ -30458,13 +30596,17 @@ const data = [
     "stages": [
       {
         "date": "December 29th, 2022",
-        "description": [],
+        "description": [
+          "We walked to the Giza plateau since it was within a mile of where we were staying. The route was sketchy: we walked under highways, and through construction zones. The entrance to the plateau was hectic with lots of line-cutting, but we finally made it.",
+          "And there they were, the infamous wonders of the ancient world: the Great Pyramids of Giza. Pictures don't do it justice, these things were huge! Not only that, but we were able to walk through the ruins of other structures around\nthe pyramids as well. We were able to freely walk through other ruins nearby and see all of the pyramids up close and personal. But the best part was coming up: going into the Great Pyramid itself.",
+          "Once we got through the tunnels dug into the side of the pyramid, we entered the corridors built by the ancient Egyptians. These corridors were very tight and cramped. The Kings Chamber was our destination, and it was just like the pictures from our history books: plain and empty. But that doesn't matter, because we were standing inside the great pyramid!\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/12/28/c0f9c079-8942-4390-bb9e-dae4e0a65034.jpeg",
         "location": "Giza Plateau, Giza",
-        "readingTime": null,
+        "readingTime": "1",
         "stats": {
           "distance": null,
           "gain": null,
@@ -30492,13 +30634,15 @@ const data = [
       },
       {
         "date": "December 29th, 2022",
-        "description": [],
+        "description": [
+          "While the pyramids have their own wow-factor, the Sphinx is also pretty cool on its own. We couldn't get up close to it like we could with the pyramids, so we had to shuffle along with the other tourists, trying to get to a good vantage point. Totally worth it though.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/12/28/b3275967-68fd-4c69-ad40-df15b2a697b5.jpeg",
         "location": "Giza Plateau, Giza",
-        "readingTime": null,
+        "readingTime": "1",
         "stats": {
           "distance": null,
           "gain": null,
@@ -30524,13 +30668,15 @@ const data = [
       },
       {
         "date": "December 30th, 2022",
-        "description": [],
+        "description": [
+          "We booked a guided tour to Saqqarra where we visited the Bent Pyramid. In the distance we could see the ruins of other pyramid types that didn't make the final cut. Our guide provided us with a good amount of background knowledge about the history and evolution of the pyramids, and of ancient Egypt. We wish we had this kind of experience at the Great Pyramids yesterday.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/12/28/d9a7b01b-5915-493c-8c25-5a8ebd77ac58.jpeg",
         "location": "Saqqarah",
-        "readingTime": null,
+        "readingTime": "1",
         "stats": {
           "distance": null,
           "gain": null,
@@ -30558,13 +30704,16 @@ const data = [
       },
       {
         "date": "December 30th, 2022",
-        "description": [],
+        "description": [
+          "We booked a guided tour to Saqqarra where we visited the Step Pyramid. At the complex surrounding the pyramid our guide got us free access to a tour of the tombs and we saw our first heiroglyphics in person. It was a short tour, but amazing nonetheless.",
+          "While our guide was informative about lots of things, we felt like we missed out on seeing more, like going underneath the Stepped pyramid and exploring the tunnels within. They said it wasn't that great and told us to skip it.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/12/28/2fbb089e-8a80-4c3b-b071-709cc9702a84.jpeg",
         "location": "Dahshur",
-        "readingTime": null,
+        "readingTime": "1",
         "stats": {
           "distance": null,
           "gain": null,
@@ -41793,13 +41942,15 @@ const data = [
     "stages": [
       {
         "date": "March 23rd, 2022",
-        "description": [],
+        "description": [
+          "Early in the morning the beach belongs to the joggers, dog walkers, and a few dedicated kitesurfers preparing for the afternoon winds. The sand is wide and golden, stretching between the turquoise Atlantic and the low-rise guest houses of the local neighborhood. It was our favorite thing to do each morning. We walked from one end of the beach to the other, sometimes crossing over private condominium grounds to get to the other section of beach.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/03/23/9f212336-298d-4c7d-874f-a3be34c95d7d.jpeg",
         "location": "San Juan",
-        "readingTime": null,
+        "readingTime": "1",
         "stats": {
           "distance": null,
           "gain": null,
@@ -41827,13 +41978,19 @@ const data = [
       },
       {
         "date": "March 24th, 2022",
-        "description": [],
+        "description": [
+          "We decided to walk from our hotel to Castillo San Felipe del Morro. It was a long trek, taking well over an hour, but it provided an incredible transition from the casual beach scene to the deep history of Old San Juan.",
+          "The walk into Old San Juan proper can be a bit tricky in some sections, but once we entered the old city walls and made our way to the fort's grounds, the ambiance shifted entirely. The sprawling green lawn leading up to the fortress entrance was alive with families flying colorful kites in the strong Atlantic breeze.",
+          "The fort was massive, a true architectural marvel built by the Spanish over 250 years, starting in 1539. It sits 140 feet above the sea, designed to unleash devastating crossfire on enemy ships trying to enter San Juan Bay.",
+          "Everywhere the views were breathtaking. From the upper levels, you get sweeping panoramas of the Atlantic Ocean, the colorful La Perla neighborhood below, and the nearby cemetery. The iconic garitas, or sentry boxes, are everywhere, making for the perfect selfie spot.",
+          "We explored all six levels of the fort, navigating ramps, spiral stairs, and dark tunnels. Inside, we saw replicated military barracks, a chapel, and storerooms that really helped us imagine what life was like for the soldiers stationed here centuries ago.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/03/23/1ba3d3f7-9462-4375-9770-4efedf15f582.jpeg",
         "location": "San Juan",
-        "readingTime": null,
+        "readingTime": "2",
         "stats": {
           "distance": null,
           "gain": null,
@@ -41861,7 +42018,10 @@ const data = [
       },
       {
         "date": "March 25th, 2022",
-        "description": [],
+        "description": [
+          "This is the only tropical rainforest in the US National Forest system! Our tour guide picked us up in a comfortable van, providing a fascinating overview of Puerto Rican history and the forest's unique ecosystem during the 40-minute drive.",
+          "The core of the trip was an invigorating hike along a beautiful, albeit sometimes muddy, trail. The guide pointed out giant ferns, bamboo trees, and even the tiny coquí frogs making their iconic sounds. The reward at the end of the trail was a crystal-clear natural swimming hole where we swung from a rope swing into the cool river water, as well as slid down a natural slide-way.\n"
+        ],
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,

@@ -1,0 +1,1 @@
+We booked a guided tour to Saqqarra where we visited the Bent Pyramid. In the distance we could see the ruins of other pyramid types that didn't make the final cut. Our guide provided us with a good amount of background knowledge about the history and evolution of the pyramids, and of ancient Egypt. We wish we had this kind of experience at the Great Pyramids yesterday.

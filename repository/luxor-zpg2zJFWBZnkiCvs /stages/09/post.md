@@ -1,0 +1,1 @@
+This was our first temple complex that we visited in Luxor, and it was astounding to be standing at the base of these humungous columns and statues. We spotted Greek writing mixed in with ancient Egyptian, which aligned with what the guide in Cairo told us about Alexandar the Greats conquering of Egypt and introduction of the helenistic cultures.

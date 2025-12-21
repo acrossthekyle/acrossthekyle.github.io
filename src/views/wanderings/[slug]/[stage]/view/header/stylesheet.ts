@@ -10,7 +10,6 @@ const styles = tw({
     font-extrablack font-stretch-semi-condensed
     tracking-tighter
     uppercase
-    mb-2
 
     nano:text-3xl/6
     base:font-stretch-semi-expanded
@@ -41,12 +40,15 @@ const styles = tw({
     w-38
     border-1
     rounded-full
-    mb-6
+    mt-2
     duration-300
 
     hover:bg-current/10
 
     base:py-1
+  `,
+  image: `
+    mt-6
   `,
 });
 

@@ -1,0 +1,1 @@
+The preservation here is incredible. The Litany of Ra and the Book of Gates cover the walls in high-contrast reds and golds that look almost fresh, leading all the way to the eight-pillared burial chamber. It is easily one of the most fascinating stops in the Valley of the Kings. This tomb is massive, stretching about 188 meters deep.

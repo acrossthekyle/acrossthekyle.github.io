@@ -1,0 +1,1 @@
+The Valley of the Queens was less crowded which means we had more time to walk around and view things at our own pace. There was only one tomb where you had to pay to enter, and we skipped it, but the rest were still equally as amazing. Having them to ourselves was the real treat.

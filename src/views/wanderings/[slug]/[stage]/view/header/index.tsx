@@ -45,7 +45,7 @@ export default function Header({
         </button>
       )}
       {hero && (
-        <ImageFigure>
+        <ImageFigure className={styles.image}>
           <Image
             alt=""
             color
