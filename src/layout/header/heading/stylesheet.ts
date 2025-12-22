@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    flex items-center
+    flex items-start
     w-full
     mx-2
     opacity-0
@@ -36,12 +36,15 @@ const styles = tw({
     line-clamp-1
   `,
   label: `
-    block
+    flex items-center gap-1
     text-tiny/3
     uppercase
 
     plank:text-xs/3.5
     base:hidden
+  `,
+  icon: `
+    h-3.25 w-3.25
   `,
 });
 

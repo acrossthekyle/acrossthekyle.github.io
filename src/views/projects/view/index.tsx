@@ -3,7 +3,6 @@ import {
   DirectoryItem,
   DirectoryLink,
   DirectoryText,
-  DirectoryTextInfo,
   DirectoryItems,
 } from '@/ui/directory';
 
@@ -20,15 +19,10 @@ export default function View({ data }: Props) {
   return (
     <Directory align="end" label="wanderings">
       <DirectoryItems>
-        {data.map(({ date, location, slug, title }, index) => (
+        {data.map(({ slug, title }, index) => (
           <DirectoryItem index={index} key={index}>
             <DirectoryLink href={`/projects/${slug}`}>
               <DirectoryText index={index} words={title} />
-              <DirectoryTextInfo
-                first="Work"
-                second={date.join(' - ')}
-                third={location}
-              />
             </DirectoryLink>
           </DirectoryItem>
         ))}

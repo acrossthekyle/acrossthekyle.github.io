@@ -2,24 +2,25 @@ import tw from '@/styles';
 
 const styles = tw({
   container: (isOnChild: boolean) => tw(`
-    hidden
     relative z-1
-    mt-1 mb-2 mr-4
-    text-xs/4
-    font-light font-stretch-normal
-    tracking-wide
+    block
+    mt-1 mr-4
+    text-tiny/3
+    font-normal font-stretch-semi-condensed
+    tracking-tight
     duration-200
 
     group-hover/link:base:opacity-100
+    group-hover/link:base:visible
 
-    base:block
-    base:text-xs/4
+    base:invisible
     base:absolute
-    base:mb-0
     base:mt-0
     base:opacity-0
     base:w-52
     base:my-0
+    base:mr-2
+    deka:mr-0
 
     ${isOnChild ? `
       text-left
@@ -29,28 +30,21 @@ const styles = tw({
       deka:bottom-42
       deka:left-12
       mega:bottom-44
-      mega:text-xs/4
+      mega:text-xs/3.5
       tera:bottom-58
       peta:bottom-92
     ` : `
-      base:bottom-40
-      base:left-2.5
-      deka:left-12
-      deka:bottom-50
-      mega:bottom-70
-      giga:bottom-0
-      giga:right-0
-      giga:left-auto
-      giga:text-right
+      base:bottom-0
+      base:right-0
+      base:text-right
+      mega:tracking-normal
+      mega:text-xs/3.5
       tera:text-sm/4
     `}
   `),
   first: `
-    inline-block
-    mr-0.75
-    after:content-['_/']
+    hidden
 
-    base:after:hidden
     base:block
     base:mr-0
   `,
@@ -62,7 +56,9 @@ const styles = tw({
     base:mr-0
   `,
   third: `
-    block
+    inline-block
+
+    base:block
   `,
 });
 

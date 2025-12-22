@@ -12,13 +12,13 @@ const styles = {
 
     ${isActive ? (`
       opacity-100
-      translate-x-0
+      translate-y-0
       z-9998
 
       [transition:opacity_.5s_var(--ease-in-out),translate_0s]
     `) : (`
       opacity-0
-      translate-x-full
+      -translate-y-full
       z-0
 
       [transition:opacity_.5s_var(--ease-in-out),translate_0s_linear_.5s]
@@ -29,13 +29,13 @@ const styles = {
 
     ${isActive ? (`
       opacity-100
-      translate-x-0
+      translate-y-0
       z-9998
 
       [transition:opacity_.5s_var(--ease-in-out),translate_0s]
     `) : (`
       opacity-0
-      translate-x-full
+      -translate-y-full
       z-0
 
       [transition:opacity_.5s_var(--ease-in-out),translate_0s_linear_.5s]

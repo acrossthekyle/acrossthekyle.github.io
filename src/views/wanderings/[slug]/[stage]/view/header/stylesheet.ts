@@ -50,6 +50,11 @@ const styles = tw({
   image: `
     mt-6
   `,
+  caption: `
+    hidden
+
+    base:flex
+  `,
 });
 
 export default styles;

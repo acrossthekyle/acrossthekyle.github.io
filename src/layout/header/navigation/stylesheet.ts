@@ -3,9 +3,12 @@ import tw from '@/styles';
 const styles = tw({
   container: (isOnRoot: boolean, shouldPush: boolean) => {
     const common = `
-      absolute ${shouldPush ? 'top-0' : '-top-full'} left-0 z-10
-      w-full h-full
-      duration-300 ${shouldPush && 'delay-300'}
+      absolute ${shouldPush ? 'top-0' : '-top-[calc(110vh)]'} left-0 z-10
+      w-full h-[calc(110vh)]
+      duration-300
+      backdrop-blur-md
+
+      dark:bg-black/80 light:bg-white/80
 
       base:left-auto
       base:top-auto
@@ -34,8 +37,9 @@ const styles = tw({
   },
   wrapper: `
     flex flex-col justify-end
-    h-full
+    h-dvh
 
+    base:h-full
     base:block
   `,
   close: `
@@ -48,14 +52,14 @@ const styles = tw({
     w-7 h-7
     stroke-2 stroke-current/90
   `,
-  list: `
+  list: (shouldPush: boolean) => tw(`
     flex flex-col
     w-full
-    pl-4 pb-4
+    pl-4 ${!shouldPush && 'pb-0'}
 
     base:pl-0
     base:pb-0
-  `,
+  `),
   item: (isFirstLoad: boolean, isOnRoot: boolean) => tw(`
     ${isFirstLoad && 'opacity-0'}
     ${isFirstLoad && 'animate-elastic-in-from-right'}

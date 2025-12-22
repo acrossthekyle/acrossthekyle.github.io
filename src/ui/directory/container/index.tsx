@@ -5,7 +5,7 @@ import { useHierarchy } from '@/hooks/useHierarchy';
 import styles from './stylesheet';
 
 type Props = {
-  align?: 'end' | 'start';
+  align?: string;
   children: React.ReactNode;
   label: string;
 };

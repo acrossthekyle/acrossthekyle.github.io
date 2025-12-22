@@ -5,15 +5,17 @@ const styles = tw({
     const common = `
       flex-1
       ${align === 'end' && 'flex flex-col'}
-      px-4 py-2 pb-2.5
+      relative
+      px-4 pb-3
       scroll-smooth
       overflow-y-scroll
       duration-300
 
       ${align === 'end' && 'justify-end'}
 
-      deka:pb-12
       base:flex-none
+      base:pt-1.5
+      deka:pb-12
     `;
 
     if (isOnChild) {

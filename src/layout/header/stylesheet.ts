@@ -45,11 +45,10 @@ const styles = tw({
       base:justify-between
     `);
   },
-  upper: (shouldPush: boolean) => tw(`
-    ${shouldPush && '-translate-x-[100vw]'}
+  upper: `
+    relative z-0
     flex items-start w-full
-    duration-300 ${!shouldPush && 'delay-300'}
-  `),
+  `,
   toggle: `
     p-1
     opacity-0

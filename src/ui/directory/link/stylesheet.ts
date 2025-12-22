@@ -60,8 +60,8 @@ const styles = tw({
       base:font-stretch-normal
       base:tracking-tight
       base:text-7xl/13.75
+      base:relative
       kilo:text-8xl/18.5
-      giga:relative
       tera:text-9xl/24.75
       peta:text-10xl/31
 

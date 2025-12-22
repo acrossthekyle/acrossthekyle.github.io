@@ -94,7 +94,7 @@ export default function Stats({ gpx, stats, termini }: Props) {
         onClick={handleOnView}
         type="button"
       >
-        {canRenderStats ? 'Hide' : 'View'} Metrics
+        {canRenderStats ? 'Hide' : 'View'} Stats
       </button>
       <section
         aria-labelledby="stats"

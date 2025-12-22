@@ -1,5 +1,6 @@
 'use client';
 
+import { ArrowLeft } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -9,7 +10,7 @@ import { useHierarchy } from '@/hooks/useHierarchy';
 import styles from './stylesheet';
 
 export default function Heading() {
-  const { path } = useHierarchy();
+  const { isOnChild, path } = useHierarchy();
 
   const match = routes.find((route) => path.includes(route.base));
 
@@ -33,7 +34,15 @@ export default function Heading() {
               {match.text}
             </h1>
           </div>
-          <p className={styles.label}>{match.label}</p>
+          {!!match.label && (
+            <p className={styles.label}>
+              {isOnChild ? (
+                <>
+                  <ArrowLeft className={styles.icon}/> Back
+                </>
+              ) : <>{match.label}</>}
+            </p>
+          )}
         </Link>
       )}
     </div>

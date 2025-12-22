@@ -54,9 +54,9 @@ export default function Header({
             src={hero}
             width={1920}
           >
-            <ImageCaption>
+            <ImageCaption className={styles.caption}>
               <ImageInfo>
-                Shot on iPhone
+                Click for Fullscreen
               </ImageInfo>
             </ImageCaption>
             <ImageMaximize />

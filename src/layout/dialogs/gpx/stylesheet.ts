@@ -9,13 +9,13 @@ const styles = tw({
 
     ${isOpen ? (`
       opacity-100
-      translate-x-0
+      translate-y-0
       z-9998
 
       [transition:opacity_.5s_var(--ease-in-out),translate_0s]
     `) : (`
       opacity-0
-      -translate-x-full
+      -translate-y-full
       z-0
 
       [transition:opacity_.5s_var(--ease-in-out),translate_0s_linear_.5s]
@@ -23,7 +23,7 @@ const styles = tw({
   `),
   gpx: (isOpen: boolean) => tw(`
     flex flex-col
-    fixed inset-0
+    absolute inset-0
     w-full h-full
     bg-white dark:bg-black
     duration-250
@@ -31,13 +31,13 @@ const styles = tw({
 
     ${isOpen ? (`
       opacity-100
-      translate-x-0
+      translate-y-0
       z-9999
 
       [transition:opacity_.5s_var(--ease-in-out),translate_0s]
     `) : (`
       opacity-0
-      translate-x-full
+      -translate-y-full
       z-0
 
       [transition:opacity_.5s_var(--ease-in-out),translate_0s_linear_.5s]

@@ -6,9 +6,10 @@ const styles = tw({
     block
   `,
   index: `
+    hidden
     absolute bottom-0
     ml-1
-    text-tiny/2
+    text-xs/3
     font-light font-stretch-extra-condensed
     tracking-normal
 

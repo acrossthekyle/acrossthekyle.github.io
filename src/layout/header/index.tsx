@@ -1,6 +1,6 @@
 'use client';
 
-import { ChartNoAxesGantt } from 'lucide-react';
+import { TextAlignEnd } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 import { useHierarchy } from '@/hooks/useHierarchy';
@@ -15,25 +15,10 @@ export default function Header() {
   const [shouldPush, setShouldPush] = useState(false);
 
   useEffect(() => {
-    const main = document.querySelector('main');
-
     if (shouldPush) {
       document.documentElement.classList.add('overflow-hidden');
-
-      if (main) {
-        main.classList.add('translate-y-[100vh]');
-        main.classList.add('overflow-hidden');
-      }
     } else {
       document.documentElement.classList.remove('overflow-hidden');
-
-      if (main) {
-        main.classList.remove('overflow-hidden');
-
-        setTimeout(() => {
-          main.classList.remove('translate-y-[100vh]');
-        }, 300);
-      }
     }
   }, [shouldPush]);
 
@@ -52,7 +37,7 @@ export default function Header() {
 
   return (
     <header className={styles.container(isOnRoot, isOnGrandChild)}>
-      <div className={styles.upper(shouldPush)}>
+      <div className={styles.upper}>
         <Heading />
         {!isOnRoot && (
           <button
@@ -63,7 +48,7 @@ export default function Header() {
             onClick={handleOnToggle}
             type="button"
           >
-            <ChartNoAxesGantt className={styles.icon} />
+            <TextAlignEnd className={styles.icon} />
           </button>
         )}
       </div>

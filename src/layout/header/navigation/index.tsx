@@ -48,7 +48,7 @@ export default function Navigation({ onToggle, shouldPush }: Props) {
         )}
         <Theme isMenuActive={shouldPush} />
         <nav aria-label="main navigation">
-          <ul className={styles.list}>
+          <ul className={styles.list(shouldPush)}>
             {links.map((link, index: number) => (
               <li
                 className={styles.item(isFirstLoad, isOnRoot)}

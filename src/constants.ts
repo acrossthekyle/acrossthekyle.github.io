@@ -4,7 +4,7 @@ export const routes: Route[] = [
   {
     base: '/about',
     isActive: false,
-    label: `So, Who Am I? I'm...`,
+    label: `Me`,
     path: '',
     text: `About`,
   },
