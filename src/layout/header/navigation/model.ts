@@ -1,17 +1,14 @@
 'use client';
 
-import { useState, useEffect } from 'react';
-
 import { routes } from '@/constants';
 import { useHierarchy } from '@/hooks/useHierarchy';
 import { useLoad } from '@/hooks/useLoad';
+import { useMobile } from '@/hooks/useMobile';
 
 import { getRoutePath } from './utils';
 
-const DEFAULT_MOBILE_BREAKPOINT = 768;
-
 export const useModel = (onToggle: () => void, shouldPush: boolean) => {
-  const [isMobile, setIsMobile] = useState(false);
+  const { isMobile } = useMobile();
 
   const { isFirstLoad } = useLoad();
 
@@ -41,18 +38,6 @@ export const useModel = (onToggle: () => void, shouldPush: boolean) => {
       path,
     ),
   }));
-
-  useEffect(() => {
-    const handleOnResize = () => {
-      setIsMobile(window.innerWidth < DEFAULT_MOBILE_BREAKPOINT);
-    };
-
-    handleOnResize();
-
-    window.addEventListener('resize', handleOnResize);
-
-    return () => window.removeEventListener('resize', handleOnResize);
-  }, []);
 
   return {
     handleOnClick,

@@ -8,11 +8,12 @@ const styles = tw({
 
     base:bg-transparent
     base:fixed
-    base:top-0
+    base:bottom-0
     base:left-auto
     base:right-0
+    base:top-auto
     base:p-2
-    deka:top-10
+    deka:bottom-10
     deka:right-10
     deka:pl-4
     base:opacity-0
@@ -39,7 +40,8 @@ const styles = tw({
     duration-200
     py-2
 
-    hover:font-black
+    hover:dark:text-white
+    hover:light:text-black
 
     base:py-0
   `,

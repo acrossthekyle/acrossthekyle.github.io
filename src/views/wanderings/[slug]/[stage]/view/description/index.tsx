@@ -6,7 +6,7 @@ type Props = {
 
 export default function Description({ description }: Props) {
   return (
-    <div className={styles.content}>
+    <div className={styles.content} tabIndex={-1}>
       {description.map((paragraph, index) => (
         <p className={styles.paragraph} key={index}>{paragraph}</p>
       ))}

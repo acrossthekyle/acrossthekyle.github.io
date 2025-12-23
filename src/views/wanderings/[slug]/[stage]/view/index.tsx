@@ -20,7 +20,7 @@ type Props = {
 export default function View({ data }: Props) {
   useModel();
 
-  const { isOpen, openGpx } = useGpx();
+  const { openGpx } = useGpx();
 
   const handleOnStatsClick = () => {
     if (data !== null) {
@@ -28,13 +28,10 @@ export default function View({ data }: Props) {
     }
   };
 
-  if (isOpen) {
-    return null;
-  }
-
   if (data === null) {
     return (
       <div
+        aria-label="not found"
         aria-modal="true"
         className={styles.container}
         role="dialog"
@@ -55,6 +52,7 @@ export default function View({ data }: Props) {
 
   return (
     <div
+      aria-label={`${data.title.join(' ')} details`}
       aria-modal="true"
       className={styles.container}
       id="dialog"

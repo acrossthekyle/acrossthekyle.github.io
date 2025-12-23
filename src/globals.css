@@ -56,6 +56,7 @@ html[data-theme="light"] {
   --animate-loader-three: .3s fadeIn 11s ease-in forwards;
   --animate-in-fade: fadeIn .25s ease-in forwards;
   --animate-in-fade-delayed: .25s fadeIn .2s ease-in forwards;
+  --animate-in-fade-up: fadeInUp .25s ease-in forwards;
 
   @keyframes elasticInFromRight {
     0% { opacity: 0; transform: translateX(50%); }
@@ -80,6 +81,11 @@ html[data-theme="light"] {
   @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
+  }
+
+  @keyframes fadeInUp {
+    0% { opacity: 0; scale: 0.95; }
+    100% { opacity: 1; scale: 1; }
   }
 }
 

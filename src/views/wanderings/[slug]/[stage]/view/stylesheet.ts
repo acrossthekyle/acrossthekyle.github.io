@@ -8,7 +8,7 @@ const styles = tw({
     overflow-y-scroll
     overscroll-contain
     opacity-0
-    animate-in-fade
+    animate-in-fade-up
 
     base:pt-0
   `,

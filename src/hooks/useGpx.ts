@@ -98,14 +98,10 @@ export function useGpx() {
 
   const closeGpx = () => {
     unset();
-
-    document.documentElement.classList.remove('overflow-hidden');
   };
 
   const openGpx = (gpx: Gpx, stats: Stats, termini: Termini) => {
     setGpx(gpx, stats, termini);
-
-    document.documentElement.classList.add('overflow-hidden');
   };
 
   useEvent('onEscape', () => {
