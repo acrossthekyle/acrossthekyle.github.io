@@ -20,13 +20,17 @@ type Props = {
 export default function View({ data }: Props) {
   useModel();
 
-  const { openGpx } = useGpx();
+  const { isOpen, openGpx } = useGpx();
 
   const handleOnStatsClick = () => {
     if (data !== null) {
       openGpx(data.gpx, data.stats, data.termini);
     }
   };
+
+  if (isOpen) {
+    return null;
+  }
 
   if (data === null) {
     return (
