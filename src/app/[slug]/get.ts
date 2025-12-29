@@ -1,8 +1,7 @@
 import db from '@/db';
-import type { Post } from '@/types';
 import { padIndex } from '@/utils';
 
-export default function get(slug: string): Post | null {
+export default function get(slug: string) {
   const data = db.find((item) => item.slug.toLowerCase() === slug.toLowerCase());
 
   if (data === undefined) {

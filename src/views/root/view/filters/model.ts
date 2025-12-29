@@ -7,20 +7,26 @@ import { useEvent } from '@/hooks/useEvent';
 
 type State = {
   filterBy: string;
+  orderBy: string;
   sortBy: string;
 };
 
 type Actions = {
   setFilterBy: (value: string) => void
+  toggleOrderBy: () => void;
   toggleSortBy: () => void;
 };
 
 const store = create<State & Actions>()(
   (set, get) => ({
     filterBy: 'everything',
+    orderBy: 'descending',
     sortBy: 'date',
     setFilterBy: (value: string) => {
       set({ filterBy: value });
+    },
+    toggleOrderBy: () => {
+      set({ orderBy: get().orderBy === 'descending' ? 'ascending' : 'descending' });
     },
     toggleSortBy: () => {
       set({ sortBy: get().sortBy === 'date' ? 'title' : 'date' });
@@ -28,20 +34,22 @@ const store = create<State & Actions>()(
   }),
 );
 
-export function useModel(onChange: (filter?: string, sort?: string) => void) {
+export function useModel(onChange: (filter?: string, sort?: string, order?: string) => void) {
   const [isDialogActive, setIsDialogActive] = useState(false);
 
   const {
     filterBy,
+    orderBy,
     setFilterBy,
     sortBy,
+    toggleOrderBy,
     toggleSortBy,
   } = store();
 
   useEffect(() => {
-    onChange(filterBy, sortBy);
+    onChange(filterBy, sortBy, orderBy);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [filterBy, sortBy]);
+  }, [filterBy, orderBy, sortBy]);
 
   const handleOnFilter = () => {
     setIsDialogActive(previous => !previous);
@@ -61,6 +69,10 @@ export function useModel(onChange: (filter?: string, sort?: string) => void) {
     handleOnClose();
   };
 
+  const handleOnOrder = () => {
+    toggleOrderBy();
+  };
+
   const handleOnSort = () => {
     toggleSortBy();
   };
@@ -76,8 +88,10 @@ export function useModel(onChange: (filter?: string, sort?: string) => void) {
     handleOnChoose,
     handleOnClose,
     handleOnFilter,
+    handleOnOrder,
     handleOnSort,
     isDialogActive,
+    orderBy,
     sortBy,
   };
 };

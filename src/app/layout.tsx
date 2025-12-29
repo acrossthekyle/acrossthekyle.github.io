@@ -2,17 +2,17 @@ import '../globals.css';
 
 import type { Metadata, Viewport } from 'next';
 
-import { introduction } from '@/constants';
 import Hierarchy from '@/contexts/hierarchy';
 import Layout from '@/layout';
 import { KeyboardListener } from '@/listeners';
 
+import { introduction } from './constants';
 import styles from './stylesheet';
 
 export const metadata: Metadata = {
   title: {
     template: `%s → Kyle → A backpacker and UI developer always seeking new ways to move forward intentfully.`,
-    default: 'Kyle → A backpacker and UI developer always seeking new ways to move forward intentfully.',
+    default: 'Home → Kyle → A backpacker and UI developer always seeking new ways to move forward intentfully.',
   },
   keywords: ['across', 'the', 'kyle', 'Kyle', 'Gilbert', 'Thru-hiker', 'UI Developer'],
   description: introduction,

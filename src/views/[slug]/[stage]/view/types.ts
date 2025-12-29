@@ -7,6 +7,7 @@ export type Data = {
   hasGpx: boolean;
   hasStats: boolean;
   image: string;
+  index: string;
   label: string;
   next?: Navigation;
   previous?: Navigation;
@@ -14,6 +15,7 @@ export type Data = {
   stage: string;
   stats: Stats;
   termini: Termini;
+  total: number;
   title: string[];
   travel: string;
 };

@@ -1,25 +1,22 @@
 import tw from '@/styles';
 
 const styles = tw({
-  container: (isOnRoot: boolean, isExpanded: boolean) => tw(`
-    flex flex-col justify-between
-    ${isOnRoot ? `
-      h-[calc(100dvh-6.6rem)]
-    ` : `
-      ${isExpanded ? `h-dvh` : `delay-200 h-[calc(22.25dvh-6.6rem)]`}
-    `}
+  container: (isExpanded: boolean) => tw(`
+    flex flex-col justify-end
+    ${isExpanded ? `h-dvh` : `delay-300 h-22`}
     p-8
-    border-r-1 border-b-1
-    overflow-y-scroll
     duration-300
+    border-b-1
 
     dark:border-b-white/15 light:border-b-black/15
     dark:border-r-white/15 light:border-r-black/15
     dark:text-white light:text-black
     dark:bg-black light:bg-white
 
+    base:duration-0
     base:h-full
     base:border-b-0
+    base:border-r-1
     base:fixed
     base:left-0
     base:top-0
@@ -31,33 +28,35 @@ const styles = tw({
     mega:p-16
   `),
   anchor: `
+    absolute top-8
     w-6.25
+
+    hecto:top-12
+    mega:top-16
   `,
   logo: `
     stroke-2
   `,
   toggle: `
-    absolute top-8 right-8
+    absolute top-9 right-8
     uppercase
-    text-sm
+    text-base
     font-extrablack font-stretch-condensed
 
     base:hidden
   `,
-  group: (isOnRoot: boolean, isExpanded: boolean) => tw(`
-    my-6
+  group: (isExpanded: boolean) => tw(`
+    mb-6
+    duration-300
 
-    ${!isOnRoot ? `
-      duration-300
-      ${isExpanded ? 'delay-300 opacity-100' : 'opacity-0'}
+    ${isExpanded ? 'delay-300 opacity-100' : 'opacity-0'}
 
-      base:opacity-100
-    ` : ''}
+    base:opacity-100
   `),
   tagline: `
     font-extrablack font-stretch-condensed
     uppercase
-    text-3xl/6
+    text-4xl/7
     mb-8
 
     base:text-4xl/7
@@ -73,13 +72,12 @@ const styles = tw({
   emphasis: `
     font-serif italic
   `,
-  footer: (isOnRoot: boolean, isExpanded: boolean) => tw(`
-    ${!isOnRoot ? `
-      duration-300
-      ${isExpanded ? 'delay-300 opacity-100' : 'opacity-0'}
+  footer: (isExpanded: boolean) => tw(`
+    duration-300
 
-      base:opacity-100
-    ` : ''}
+    ${isExpanded ? 'delay-300 opacity-100' : 'opacity-0 -z-1'}
+
+    base:opacity-100
   `),
   list: `
     flex flex-row gap-4

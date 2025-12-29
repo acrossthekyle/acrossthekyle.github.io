@@ -2,13 +2,12 @@ import styles from './stylesheet';
 
 type Props = {
   children: React.ReactNode | React.ReactNode[];
-  id?: string;
 };
 
-export default function Text({ children, id }: Props) {
+export default function Subtitle({ children }: Props) {
   return (
-    <h3 className={styles.text} id={id}>
+    <span className={styles.container}>
       {children}
-    </h3>
+    </span>
   );
 }

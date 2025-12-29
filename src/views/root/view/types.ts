@@ -6,6 +6,7 @@ export type Data = {
   index: number;
   location: string;
   slug: string;
+  timestamp: string;
   title: string[];
   type: string;
 };

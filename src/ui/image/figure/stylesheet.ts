@@ -5,6 +5,9 @@ const styles = tw({
     group/figure
     relative
     overflow-hidden
+    rounded-lg
+
+    base:rounded-sm
   `,
 });
 

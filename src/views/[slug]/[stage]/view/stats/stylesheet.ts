@@ -1,26 +1,21 @@
 import tw from '@/styles';
 
 const styles = tw({
-  container: `
-    px-8 pb-8
-
-    hecto:px-12
-    mega:px-16
-  `,
   list: `
-    flex flex-col gap-4
-
-    baseplus:flex-row
-    baseplus:gap-12
+    absolute top-4 right-4
+    flex flex-col gap-4 items-end
   `,
   item: `
     flex flex-col gap-0
   `,
   heading: `
-    capitalize
+    uppercase
+    font-bold
+    text-right text-tiny text-current/90
   `,
   value: `
     font-black
+    text-right text-sm
   `,
 });
 

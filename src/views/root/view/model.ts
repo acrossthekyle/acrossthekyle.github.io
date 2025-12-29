@@ -7,23 +7,19 @@ import { type Data } from './types';
 export function useModel(data: Data[]) {
   const [items, setItems] = useState(data);
   const [filterBy, setFilterBy] = useState<string | undefined>(undefined);
+  const [orderBy, setOrderBy] = useState<string | undefined>(undefined);
   const [sortBy, setSortBy] = useState<string | undefined>(undefined);
 
-  const handleOnFilter = (filter?: string, sort?: string) => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-
+  const handleOnFilter = (filter?: string, sort?: string, order?: string) => {
     setFilterBy(filter ?? undefined);
     setSortBy(sort ?? undefined);
+    setOrderBy(order ?? undefined);
   };
 
   useEffect(() => {
     let result = [...data];
 
-    if (filterBy === '2010s') {
-      result = result.filter(item => item.date.includes('201'));
-    } else if (filterBy === '2020s') {
-      result = result.filter(item => item.date.includes('202'));
-    } else if (filterBy === 'destinations') {
+    if (filterBy === 'vacations') {
       result = result.filter(item => item.type === 'vacation');
     } else if (filterBy === 'overnight hikes') {
       result = result.filter(item => item.type === 'overnight trek');
@@ -36,11 +32,21 @@ export function useModel(data: Data[]) {
     }
 
     if (sortBy === 'title') {
-      result = result.sort((a, b) => a.title.join(' ').localeCompare(b.title.join(' ')));
+      if (orderBy === 'descending') {
+        result = result.sort((a, b) => b.title.join(' ').localeCompare(a.title.join(' ')));
+      } else {
+        result = result.sort((a, b) => a.title.join(' ').localeCompare(b.title.join(' ')));
+      }
+    } else {
+      if (orderBy === 'descending') {
+        result = result.sort((a, b) => Number(b.timestamp) - Number(a.timestamp));
+      } else {
+        result = result.sort((a, b) => Number(a.timestamp) - Number(b.timestamp));
+      }
     }
 
     setItems(result);
-  }, [data, filterBy, sortBy]);
+  }, [data, filterBy, orderBy, sortBy]);
 
   return {
     handleOnFilter,

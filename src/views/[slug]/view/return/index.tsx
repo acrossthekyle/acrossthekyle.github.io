@@ -6,11 +6,7 @@ import { useModel } from './model';
 import styles from './stylesheet';
 
 export default function Return() {
-  const { canRender, handleOnReturn } = useModel();
-
-  if (!canRender) {
-    return null;
-  }
+  const { handleOnReturn } = useModel();
 
   return (
     <nav aria-label="return home navigation" className={styles.container}>

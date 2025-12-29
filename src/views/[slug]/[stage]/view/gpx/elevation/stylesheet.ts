@@ -7,8 +7,6 @@ const styles = tw({
     border-t-1 border-t-current/20
     select-none
     touch-none
-
-    base:h-60
   `,
 });
 

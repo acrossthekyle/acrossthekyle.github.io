@@ -652,12 +652,12 @@ async function getTripDate(trip, stages) {
     range = [
       [
         monthA,
-        ` ${formatDate(start, 'd')}`,
+        ` ${formatDate(start, 'do')}`,
         doYearsMatch ? false : `, ${yearA}`,
       ].filter(Boolean).join(''),
       [
         doMonthsMatch ? false : monthB,
-        ` ${formatDate(end, 'd')}`,
+        ` ${formatDate(end, 'do')}`,
         doYearsMatch ? `, ${yearA}` : `, ${yearB}`,
       ].filter(Boolean).join(''),
     ];
@@ -799,10 +799,10 @@ async function go() {
   if (data.length) {
     const sorted = data.sort((a, b) => b.timestamp - a.timestamp);
 
-    const result = sorted.map(({ timestamp, ...rest }, index) => {
+    const result = sorted.map((item, index) => {
       return {
         index,
-        ...rest,
+        ...item,
       };
     });
 

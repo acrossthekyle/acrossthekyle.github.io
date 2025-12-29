@@ -1,5 +1,5 @@
 import db from '@/db';
-import { type Gpx } from '@/types';
+import type { Gpx } from '@/types';
 import { padIndex } from '@/utils';
 
 export default function get(slug: string, stage: string) {
@@ -27,6 +27,7 @@ export default function get(slug: string, stage: string) {
     hasGpx: result.hasGpx,
     hasStats: result.hasStats,
     image: result.image,
+    index: stage,
     label: found.label,
     next: next ? {
       date: found.stages[next - 1].date,
@@ -42,6 +43,7 @@ export default function get(slug: string, stage: string) {
     stage,
     stats: result.stats,
     termini: result.termini,
+    total: found.stages.length,
     title: result.termini.end.words,
     travel: found.title.join(' '),
   };

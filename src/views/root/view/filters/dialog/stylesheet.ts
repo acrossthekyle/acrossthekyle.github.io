@@ -3,10 +3,17 @@ import tw from '@/styles';
 const styles = {
   dialog: (isActive: boolean) => tw(`
     fixed inset-0
+    bg-transparent
+    w-full
+
+    dark:text-white light:text-black
 
     base:left-86
+    base:w-[calc(100%-21.5rem)]
     hecto:left-106
+    hecto:w-[calc(100%-26.5rem)]
     mega:left-150
+    mega:w-[calc(100%-37.5rem)]
 
     ${isActive ? (`
       opacity-100
@@ -23,16 +30,19 @@ const styles = {
     `)}
   `),
   lock: `
-    h-full w-full
+    h-screen w-full
     flex flex-col items-start
     overflow-y-auto
 
-    dark:bg-black/80 light:bg-white/80
+    dark:bg-black/90 light:bg-white/90
   `,
   header: `
     w-full
     flex justify-between items-center
-    p-12
+    p-8
+
+    hecto:p-12
+    mega:p-16
   `,
   heading: `
     font-extrablack
@@ -40,22 +50,27 @@ const styles = {
   `,
   icon: `
     w-6.5 h-6.5
-    stroke-1 stroke-current/90
+    stroke-1
+    dark:stroke-white light:stroke-black
   `,
   list: `
     h-screen w-full
     flex flex-col items-start
-    p-12
+    p-8
+
+    hecto:p-12
+    mega:p-16
   `,
   item: `
     mb-4
 
-    mega:mb-12
+    mega:mb-8
 
     last:mb-0
   `,
   cta: `
     relative
+    flex flex-row justify-end items-start
     uppercase
     text-xl
     font-extralight
@@ -63,20 +78,15 @@ const styles = {
 
     hover:font-medium
 
-    plank:text-3xl
-    deka:text-4xl
-    kilo:text-5xl
+    plank:text-2xl
+    deka:text-3xl
+    kilo:text-4xl
   `,
   count: `
-    absolute top-0.25
-    ml-2
+    ml-1
     text-xs
-    duration-300
 
     plank:text-sm
-    plank:top-1
-    deka:top-1
-    kilo:top-2
   `,
   active: `
     absolute top-1.5 -right-12

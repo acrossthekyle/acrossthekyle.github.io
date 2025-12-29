@@ -28,23 +28,21 @@ export default function Stats({ stats }: Props) {
     });
   }
 
-  if (stats.gain && stats.loss) {
+  if (stats.max) {
     sections.push({
-      heading: 'Elevation Change',
-      value: `+ ${stats.gain.value.imperial} ${stats.gain.units.imperial.abbreviated} / - ${stats.loss.value.imperial} ${stats.loss.units.imperial.abbreviated}`,
+      heading: 'Max Elevation',
+      value: `${stats.max.value.imperial} ${stats.max.units.imperial.abbreviated}`,
     });
   }
 
   return (
-    <section aria-label="stats" className={styles.container}>
-      <ul className={styles.list} tabIndex={-1}>
-        {sections.map((section: Section) => (
-          <li className={styles.item} key={section.heading}>
-            <p className={styles.value}>{section.value}</p>
-            <h3 className={styles.heading}>{section.heading}</h3>
-          </li>
-        ))}
-      </ul>
-    </section>
+    <ul aria-label="stats" className={styles.list}>
+      {sections.map((section: Section) => (
+        <li className={styles.item} key={section.heading}>
+          <h3 className={styles.heading}>{section.heading}</h3>
+          <p className={styles.value}>{section.value}</p>
+        </li>
+      ))}
+    </ul>
   );
 }

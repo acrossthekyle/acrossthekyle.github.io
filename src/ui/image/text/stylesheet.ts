@@ -3,7 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   text: `
     inline-block
-    mt-1
+    my-1
     duration-300
     text-xl/4
     font-extrablack font-stretch-semi-condensed

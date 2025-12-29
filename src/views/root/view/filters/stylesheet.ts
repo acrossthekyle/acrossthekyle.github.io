@@ -3,15 +3,17 @@ import tw from '@/styles';
 const styles = tw({
   filters: `
     flex justify-center
-    sticky top-0 z-3
     py-8 px-8
     border-b-1 border-b-white/15
-    text-center text-sm
+    text-center text-sm/6
     tracking-wide
     min-h-26
 
     dark:bg-black light:bg-white
 
+    base:sticky
+    base:top-0
+    base:z-3
     base:min-h-auto
     base:py-8
     hecto:py-12

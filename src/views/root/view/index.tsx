@@ -1,11 +1,11 @@
 'use client';
 
-import Link from 'next/link';
-
 import {
   Image,
   ImageCaption,
   ImageCaptionCount,
+  ImageCaptionEyebrow,
+  ImageCaptionText,
   ImageFigure,
   ImageLink,
 } from '@/ui/image';
@@ -25,19 +25,9 @@ export default function View({ data }: Props) {
 
   return (
     <section aria-label="timeline" className={styles.container}>
-      <Filters onChange={handleOnFilter} />
+      <Filters onChange={handleOnFilter} total={items.length} />
       {items.map((item, index: number) => (
         <article className={styles.article} key={index}>
-          <header className={styles.header}>
-            <h2 className={styles.title}>
-              <a className={styles.link} href={`/${item.slug}`}>#</a>
-              {item.title.join(' ')}
-            </h2>
-            <h3 className={styles.date}>
-              <span className={styles.prefix}>{item.type} from</span>
-              <span className={styles.suffix}>{item.date}</span>
-            </h3>
-          </header>
           <ImageFigure>
             <Image
               alt=""
@@ -52,6 +42,14 @@ export default function View({ data }: Props) {
                 <ImageCaptionCount>
                   {padIndex(item.index + 1)}
                 </ImageCaptionCount>
+                <ImageCaptionEyebrow>
+                  {item.location}
+                </ImageCaptionEyebrow>
+                <ImageCaptionText>
+                  {item.title.map((words) => (
+                    <span className="block" key={words}>{words}</span>
+                  ))}
+                </ImageCaptionText>
               </ImageLink>
             </ImageCaption>
           </ImageFigure>
@@ -63,12 +61,12 @@ export default function View({ data }: Props) {
             </section>
           )}
           <footer className={styles.footer}>
-            <p className={styles.count}>
-              Located in <strong>{item.location}</strong>
+            <p className={styles.type}>
+              #{item.type}
             </p>
-            <Link className={styles.view} href={`/${item.slug}`}>
-              Browse {item.count} Posts
-            </Link>
+            <p className={styles.date}>
+              {item.date}
+            </p>
           </footer>
         </article>
       ))}
