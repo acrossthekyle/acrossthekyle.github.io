@@ -1,11 +1,10 @@
 import Body from './body';
-import Dialogs from './dialogs';
+import Footer from './footer';
 import Header from './header';
-import Loader from './loader';
 import Main from './main';
 
 type Props = {
-  children: React.ReactNode | React.ReactNode[];
+  children: React.ReactNode;
 };
 
 export default function Layout({ children }: Props) {
@@ -15,8 +14,7 @@ export default function Layout({ children }: Props) {
       <Main>
         {children}
       </Main>
-      <Dialogs />
-      <Loader />
+      <Footer />
     </Body>
   );
 }

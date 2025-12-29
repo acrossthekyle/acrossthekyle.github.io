@@ -1,7 +1,7 @@
 import { Orientation } from '@/types';
 
-export function padIndex(index: number) {
-  return String(index).padStart(2, '0');
+export function padIndex(index: number, padding: number = 2) {
+  return String(index).padStart(padding, '0');
 }
 
 export function getOrientation(

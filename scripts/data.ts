@@ -1,3 +1,4 @@
+/* eslint-disable */
 // @ts-nocheck
 
 import { gpx as gpxParser } from '@tmcw/togeojson';
@@ -755,6 +756,7 @@ async function go() {
         gear: gear === null ? {} : gear,
         hasGear: gear !== null,
         hasStats,
+        image: trip.image,
         label: getLabel(trip.type),
         location: trip.location,
         slug: trip.id,
@@ -799,6 +801,7 @@ async function go() {
 
     const result = sorted.map(({ timestamp, ...rest }, index) => {
       return {
+        index,
         ...rest,
       };
     });

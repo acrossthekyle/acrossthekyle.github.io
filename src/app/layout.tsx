@@ -4,7 +4,6 @@ import type { Metadata, Viewport } from 'next';
 
 import { introduction } from '@/constants';
 import Hierarchy from '@/contexts/hierarchy';
-import Load from '@/contexts/load';
 import Layout from '@/layout';
 import { KeyboardListener } from '@/listeners';
 
@@ -12,8 +11,8 @@ import styles from './stylesheet';
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | Kyle',
-    default: 'Kyle',
+    template: `%s → Kyle → A backpacker and UI developer always seeking new ways to move forward intentfully.`,
+    default: 'Kyle → A backpacker and UI developer always seeking new ways to move forward intentfully.',
   },
   keywords: ['across', 'the', 'kyle', 'Kyle', 'Gilbert', 'Thru-hiker', 'UI Developer'],
   description: introduction,
@@ -57,12 +56,10 @@ export default function RootLayout({ children }: Props) {
   return (
     <html className={styles.html} data-theme="dark" lang="en">
       <Hierarchy>
-        <Load>
-          <KeyboardListener />
-          <Layout>
-            {children}
-          </Layout>
-        </Load>
+        <KeyboardListener />
+        <Layout>
+          {children}
+        </Layout>
       </Hierarchy>
     </html>
   );

@@ -1,18 +1,12 @@
-'use client';
-
-import { useHierarchy } from '@/hooks/useHierarchy';
-
 import styles from './stylesheet';
 
 type Props = {
-  children: React.ReactNode | React.ReactNode[];
+  children: React.ReactNode;
 };
 
 export default function Main({ children }: Props) {
-  const { isOnRoot } = useHierarchy();
-
   return (
-    <main className={styles.main(isOnRoot)}>
+    <main className={styles.container}>
       {children}
     </main>
   );

@@ -3,7 +3,8 @@ import tw from '@/styles';
 const styles = tw({
   html: `
     h-full
-    overflow-x-hidden
+
+    bg-black
   `,
 });
 

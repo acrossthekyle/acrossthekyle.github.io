@@ -22,7 +22,7 @@ export default function Hierarchy({ children }: Props) {
 
   const segments = current.split('').filter(character => character === '/');
 
-  const isOnRoot = current === '/' || current === '/search';
+  const isOnRoot = current === '/';
   const isOnParent = current !== '/' && segments.length === 1;
   const isOnChild = segments.length >= 2;
   const isOnGrandChild = segments.length > 2;

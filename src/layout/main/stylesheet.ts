@@ -1,12 +1,13 @@
 import tw from '@/styles';
 
-const styles = {
-  main: (isOnRoot: boolean) => tw(`
-    ${!isOnRoot && 'flex-1'}
+const styles = tw({
+  container: `
+    dark:bg-black light:bg-white
 
-    flex flex-col
-    base:flex-row
-  `)
-};
+    base:pl-86
+    hecto:pl-106
+    mega:pl-150
+  `
+});
 
 export default styles;

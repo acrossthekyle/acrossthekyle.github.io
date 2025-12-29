@@ -61,10 +61,11 @@ export type Stats = {
 
 export type Stage = {
   date: string;
-  hasPost: boolean;
+  description: string[];
   hasStats: boolean;
   image: string;
   index: string;
+  readingTime: string;
   termini: Termini;
 };
 
@@ -89,12 +90,4 @@ export type Navigation = {
   date: string;
   index: string;
   title: string[];
-};
-
-export type Route = {
-  base: string;
-  isActive: boolean;
-  label: string;
-  path: string;
-  text: string;
 };

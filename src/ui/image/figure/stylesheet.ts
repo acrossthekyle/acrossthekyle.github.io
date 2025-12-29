@@ -4,7 +4,6 @@ const styles = tw({
   figure: `
     group/figure
     relative
-    rounded-sm
     overflow-hidden
   `,
 });

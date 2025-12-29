@@ -2,14 +2,12 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    w-full h-full
+    h-dvh
     flex items-center justify-center
-    scale-500
-    pointer-events-none
   `,
   svg: `
-    size-5
-    text-black/90 dark:text-white/90
+    size-6
+    dark:text-white/90 light:text-black/90
     animate-spin
   `,
   circle: `

@@ -1,5 +1,6 @@
 const data = [
   {
+    "index": 0,
     "category": "trekking",
     "date": "Oct 18 -  19, 2025",
     "description": [
@@ -8,6 +9,7 @@ const data = [
     "gear": {},
     "hasGear": false,
     "hasStats": true,
+    "image": "2025/10/18/efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg",
     "label": "day",
     "location": "Harpers Ferry, Iowa",
     "slug": "yellow-river-trail-backpack-loop",
@@ -2266,6 +2268,7 @@ const data = [
     "type": "overnight trek"
   },
   {
+    "index": 1,
     "category": "trekking",
     "date": "Jul 27 - Aug 6, 2024",
     "description": [
@@ -2882,6 +2885,7 @@ const data = [
     },
     "hasGear": true,
     "hasStats": true,
+    "image": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg",
     "label": "day",
     "location": "The Alps",
     "slug": "tour-du-mont-blanc-repeat",
@@ -15063,6 +15067,7 @@ const data = [
     "type": "thru-hike"
   },
   {
+    "index": 2,
     "category": "destinations",
     "date": "Jul 24 -  25, 2024",
     "description": [
@@ -15071,6 +15076,7 @@ const data = [
     "gear": {},
     "hasGear": false,
     "hasStats": true,
+    "image": "2024/07/24/e19b87b3-ff48-499f-a225-3d4d608e9311.jpeg",
     "label": "destination",
     "location": "Switzerland",
     "slug": "geneva",
@@ -15225,6 +15231,7 @@ const data = [
     "type": "vacation"
   },
   {
+    "index": 3,
     "category": "trekking",
     "date": "Jun 21 - Jul 3, 2023",
     "description": [
@@ -15790,6 +15797,7 @@ const data = [
     },
     "hasGear": true,
     "hasStats": true,
+    "image": "2023/06/21/2cc8532b-6441-49fb-927e-ebdb001b78cf.jpeg",
     "label": "day",
     "location": "Corsica, France",
     "slug": "fra-li-monti",
@@ -30167,6 +30175,7 @@ const data = [
     "type": "thru-hike"
   },
   {
+    "index": 4,
     "category": "destinations",
     "date": "Jan 3 -  6, 2023",
     "description": [
@@ -30175,6 +30184,7 @@ const data = [
     "gear": {},
     "hasGear": false,
     "hasStats": true,
+    "image": "2022/12/28/7f2020f6-ccd2-4f4a-98a1-44abd2df6911.jpeg",
     "label": "destination",
     "location": "Egypt",
     "slug": "luxor",
@@ -30582,6 +30592,7 @@ const data = [
     "type": "vacation"
   },
   {
+    "index": 5,
     "category": "destinations",
     "date": "Dec 29, 2022 - Jan 2, 2023",
     "description": [
@@ -30590,6 +30601,7 @@ const data = [
     "gear": {},
     "hasGear": false,
     "hasStats": true,
+    "image": "2022/12/28/b3275967-68fd-4c69-ad40-df15b2a697b5.jpeg",
     "label": "destination",
     "location": "Egypt",
     "slug": "cairo",
@@ -30776,6 +30788,7 @@ const data = [
     "type": "vacation"
   },
   {
+    "index": 6,
     "category": "trekking",
     "date": "2022 - 2024",
     "description": [
@@ -31358,6 +31371,7 @@ const data = [
     },
     "hasGear": true,
     "hasStats": true,
+    "image": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
     "label": "section",
     "location": "Wisconsin",
     "slug": "ice-age-trail-section-hike",
@@ -34710,6 +34724,7 @@ const data = [
     "type": "section hike"
   },
   {
+    "index": 7,
     "category": "trekking",
     "date": "May 7 -  12, 2022",
     "description": [
@@ -35236,6 +35251,7 @@ const data = [
     },
     "hasGear": true,
     "hasStats": true,
+    "image": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
     "label": "day",
     "location": "Scotland, UK",
     "slug": "west-highland-way",
@@ -41928,6 +41944,7 @@ const data = [
     "type": "thru-hike"
   },
   {
+    "index": 8,
     "category": "destinations",
     "date": "Mar 22 -  25, 2022",
     "description": [
@@ -41936,6 +41953,7 @@ const data = [
     "gear": {},
     "hasGear": false,
     "hasStats": true,
+    "image": "2022/03/23/9f212336-298d-4c7d-874f-a3be34c95d7d.jpeg",
     "label": "destination",
     "location": "Puerto Rico",
     "slug": "san-juan",
@@ -42090,6 +42108,7 @@ const data = [
     "type": "vacation"
   },
   {
+    "index": 9,
     "category": "trekking",
     "date": "Feb 18 -  25, 2020",
     "description": [
@@ -42751,6 +42770,7 @@ const data = [
     },
     "hasGear": true,
     "hasStats": true,
+    "image": "2020/02/18/630411a8-f5ce-47fe-8261-f94e00654447.jpeg",
     "label": "day",
     "location": "Patagonia, Chile",
     "slug": "torres-del-paine-o-circuit",
@@ -49419,6 +49439,7 @@ const data = [
     "type": "thru-hike"
   },
   {
+    "index": 10,
     "category": "trekking",
     "date": "Oct 19 - Nov 6, 2019",
     "description": [
@@ -50075,6 +50096,7 @@ const data = [
     },
     "hasGear": true,
     "hasStats": true,
+    "image": "2019/10/19/b9b20eb0-e569-4778-99c6-de3a3c2eb15e.jpeg",
     "label": "day",
     "location": "Nepal",
     "slug": "annapurna-circuit-basecamp",
@@ -69889,6 +69911,7 @@ const data = [
     "type": "thru-hike"
   },
   {
+    "index": 11,
     "category": "trekking",
     "date": "2019 - 2021",
     "description": [
@@ -70209,6 +70232,7 @@ const data = [
     },
     "hasGear": true,
     "hasStats": true,
+    "image": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
     "label": "summit",
     "location": "Colorado",
     "slug": "southern-rockies-peak-bagging",
@@ -79703,6 +79727,7 @@ const data = [
     "type": "peak-bagging"
   },
   {
+    "index": 12,
     "category": "trekking",
     "date": "Jul 16 -  25, 2019",
     "description": [
@@ -80329,6 +80354,7 @@ const data = [
     },
     "hasGear": true,
     "hasStats": true,
+    "image": "2019/07/16/735a0783-62ba-4f8e-97d8-c9b9f5327cfe.jpeg",
     "label": "day",
     "location": "The Dolomites",
     "slug": "alta-via-1",
@@ -91392,6 +91418,7 @@ const data = [
     "type": "thru-hike"
   },
   {
+    "index": 13,
     "category": "destinations",
     "date": "Nov 6 -  8, 2019",
     "description": [
@@ -91400,6 +91427,7 @@ const data = [
     "gear": {},
     "hasGear": false,
     "hasStats": true,
+    "image": "2019/11/06/0a6730d7-113b-4bca-b9d1-71ecf8e69713.jpeg",
     "label": "destination",
     "location": "Nepal",
     "slug": "pokhara",
@@ -91554,6 +91582,7 @@ const data = [
     "type": "vacation"
   },
   {
+    "index": 14,
     "category": "trekking",
     "date": "Sep 2 -  13, 2018",
     "description": [
@@ -92157,6 +92186,7 @@ const data = [
     },
     "hasGear": true,
     "hasStats": true,
+    "image": "2018/09/02/135eea74-e1bc-4cab-bfd7-28d17405a744.jpeg",
     "label": "day",
     "location": "The Alps",
     "slug": "tour-du-mont-blanc",
@@ -105545,6 +105575,7 @@ const data = [
     "type": "thru-hike"
   },
   {
+    "index": 15,
     "category": "trekking",
     "date": "Jun 2 - Jul 4, 2018",
     "description": [
@@ -106156,6 +106187,7 @@ const data = [
     },
     "hasGear": true,
     "hasStats": true,
+    "image": "2018/06/02/50570d33-285a-4561-bc7f-b7e500363359.jpeg",
     "label": "day",
     "location": "Northern Spain",
     "slug": "camino-frances",
@@ -141713,6 +141745,7 @@ const data = [
     "type": "thru-hike"
   },
   {
+    "index": 16,
     "category": "destinations",
     "date": "Mar 25 -  27, 2016",
     "description": [
@@ -141721,6 +141754,7 @@ const data = [
     "gear": {},
     "hasGear": false,
     "hasStats": true,
+    "image": "2016/03/18/fb45dc07-e4fe-4d90-b39a-f54e50142d5a.jpeg",
     "label": "destination",
     "location": "Chile",
     "slug": "patagonia",
@@ -141879,6 +141913,7 @@ const data = [
     "type": "vacation"
   },
   {
+    "index": 17,
     "category": "destinations",
     "date": "Mar 18 -  24, 2016",
     "description": [
@@ -141887,6 +141922,7 @@ const data = [
     "gear": {},
     "hasGear": false,
     "hasStats": true,
+    "image": "2016/03/18/a3205d70-0fc8-416a-b383-eb08e9e612a5.jpeg",
     "label": "destination",
     "location": "Chile",
     "slug": "santiago-and-valparaiso",
@@ -142082,6 +142118,7 @@ const data = [
     "type": "vacation"
   },
   {
+    "index": 18,
     "category": "destinations",
     "date": "Mar 23 -  25, 2015",
     "description": [
@@ -142090,6 +142127,7 @@ const data = [
     "gear": {},
     "hasGear": false,
     "hasStats": true,
+    "image": "2015/03/19/9650d680-3809-45e9-a9df-0e108f3e1498.jpeg",
     "label": "destination",
     "location": "Uruguay",
     "slug": "montevideo",
@@ -142170,6 +142208,7 @@ const data = [
     "type": "vacation"
   },
   {
+    "index": 19,
     "category": "destinations",
     "date": "Mar 19 -  22, 2015",
     "description": [
@@ -142178,6 +142217,7 @@ const data = [
     "gear": {},
     "hasGear": false,
     "hasStats": true,
+    "image": "2015/03/19/1ddbd381-ac73-4dc2-9fa9-7398e0438098.jpeg",
     "label": "destination",
     "location": "Argentina",
     "slug": "buenos-aires",

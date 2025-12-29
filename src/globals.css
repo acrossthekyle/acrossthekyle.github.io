@@ -37,7 +37,7 @@ html[data-theme="light"] {
   --breakpoint-deka: 60.3125rem; /* 965px */
   --breakpoint-hecto: 64rem; /* 1024px: */
   --breakpoint-kilo: 67.5rem; /* 1080px */
-  --breakpoint-mega: 73.75rem; /* 1180px */
+  --breakpoint-mega: 75rem; /* 1200px */
   --breakpoint-giga: 80rem; /* 1280px */
   --breakpoint-gigaplus: 84.125rem; /* 1346px */
   --breakpoint-tera: 120rem; /* 1920px */
@@ -108,7 +108,7 @@ body {
   .leaflet-control {
     margin: 0 !important;
     padding-top: 0;
-    padding-right: 0.3rem;
+    padding-right: 1.25rem;
   }
 
   @media (width >= 60.3125rem) {
@@ -176,7 +176,7 @@ body {
     border: none !important;
     color: var(--elevation-text-color);
     font-weight: 400;
-    padding-right: 0.75rem !important;
-    padding-top: 0.5rem !important;
+    padding-right: 1.75rem !important;
+    padding-top: 1.5rem !important;
   }
 }
