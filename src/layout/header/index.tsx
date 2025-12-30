@@ -1,6 +1,6 @@
 'use client';
 
-import { Glasses } from 'lucide-react';
+import { Glasses, TextAlignEnd, X } from 'lucide-react';
 import Link from 'next/link';
 
 import { useModel } from './model';
@@ -16,14 +16,19 @@ export default function Header() {
         className={styles.anchor}
         href="/"
       >
-        <Glasses aria-hidden="true" className={styles.logo} />
+        <Glasses aria-hidden="true" className={styles.icon} />
       </Link>
       <button
+        aria-label="toggle about me information"
         className={styles.toggle}
         onClick={handleOnToggle}
         type="button"
       >
-        {isExpanded ? 'Close' : 'About'}
+        {isExpanded ? (
+          <X aria-hidden="true" className={styles.icon} />
+        ) : (
+          <TextAlignEnd aria-hidden="true" className={styles.icon} />
+        )}
       </button>
       <hgroup className={styles.group(isExpanded)}>
         <h1 className={styles.tagline}>

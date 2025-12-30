@@ -6,20 +6,26 @@ import styles from './stylesheet';
 
 type Props = {
   data: Data[];
+  filterBy: string;
   isActive: boolean;
   onClose: () => void;
   onFilterBy: (value: string) => void;
   onOrderBy: (value: string) => void;
   onSortBy: (value: string) => void;
+  orderBy: string;
+  sortBy: string;
 };
 
 export default function Dialog({
   data,
+  filterBy,
   isActive,
   onClose,
   onFilterBy,
   onOrderBy,
   onSortBy,
+  orderBy,
+  sortBy,
 }: Props) {
   const reduced = data.reduce((initialObject: { [key: string]: number }, { type }) => {
     initialObject[type] = (initialObject[type] || 0) + 1;
@@ -58,25 +64,35 @@ export default function Dialog({
         </div>
         <ul className={styles.list}>
           <li className={styles.item}>
-            <button
-              className={styles.cta}
-              onClick={() => onFilterBy('everything')}
-              type="button"
-            >
-              everything
-              <span className={styles.count}>{data.length}</span>
-            </button>
+            <label className={styles.label}>
+                <input
+                  type="radio"
+                  checked={filterBy === 'everything'}
+                  onChange={() => onFilterBy('everything')}
+                  className={styles.radio}
+                />
+                <span className={styles.dot} />
+                <span className={styles.text}>
+                  Everything
+                  <span className={styles.count}>{data.length}</span>
+                </span>
+            </label>
           </li>
           {types.map(({ count, value }) => (
             <li className={styles.item} key={value}>
-              <button
-                className={styles.cta}
-                onClick={() => onFilterBy(value)}
-                type="button"
-              >
-                {value}{count > 1 ? 's' : ''}
-                <span className={styles.count}>{count}</span>
-              </button>
+              <label className={styles.label}>
+                <input
+                  type="radio"
+                  checked={filterBy === value}
+                  onChange={() => onFilterBy(value)}
+                  className={styles.radio}
+                />
+                <span className={styles.dot} />
+                <span className={styles.text}>
+                  {value}{count > 1 ? 's' : ''}
+                  <span className={styles.count}>{count}</span>
+                </span>
+              </label>
             </li>
           ))}
         </ul>
@@ -85,22 +101,32 @@ export default function Dialog({
         </div>
         <ul className={styles.list}>
           <li className={styles.item}>
-            <button
-              className={styles.cta}
-              onClick={() => onSortBy('date')}
-              type="button"
-            >
-              date
-            </button>
+            <label className={styles.label}>
+              <input
+                type="radio"
+                checked={sortBy === 'date'}
+                onChange={() => onSortBy('date')}
+                className={styles.radio}
+              />
+              <span className={styles.dot} />
+              <span className={styles.text}>
+                Date
+              </span>
+            </label>
           </li>
           <li className={styles.item}>
-            <button
-              className={styles.cta}
-              onClick={() => onSortBy('title')}
-              type="button"
-            >
-              title
-            </button>
+            <label className={styles.label}>
+              <input
+                type="radio"
+                checked={sortBy === 'title'}
+                onChange={() => onSortBy('title')}
+                className={styles.radio}
+              />
+              <span className={styles.dot} />
+              <span className={styles.text}>
+                Title
+              </span>
+            </label>
           </li>
         </ul>
         <div className={styles.header}>
@@ -108,22 +134,32 @@ export default function Dialog({
         </div>
         <ul className={styles.list}>
           <li className={styles.item}>
-            <button
-              className={styles.cta}
-              onClick={() => onOrderBy('descending')}
-              type="button"
-            >
-              descending
-            </button>
+            <label className={styles.label}>
+              <input
+                type="radio"
+                checked={orderBy === 'descending'}
+                onChange={() => onOrderBy('descending')}
+                className={styles.radio}
+              />
+              <span className={styles.dot} />
+              <span className={styles.text}>
+                Descending
+              </span>
+            </label>
           </li>
           <li className={styles.item}>
-            <button
-              className={styles.cta}
-              onClick={() => onOrderBy('ascending')}
-              type="button"
-            >
-              ascending
-            </button>
+            <label className={styles.label}>
+              <input
+                type="radio"
+                checked={orderBy === 'ascending'}
+                onChange={() => onOrderBy('ascending')}
+                className={styles.radio}
+              />
+              <span className={styles.dot} />
+              <span className={styles.text}>
+                Ascending
+              </span>
+            </label>
           </li>
         </ul>
       </FocusLock>

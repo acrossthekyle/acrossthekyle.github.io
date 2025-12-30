@@ -33,10 +33,14 @@ const styles = {
     h-screen w-full
     flex flex-col items-start
     overflow-y-auto
-    p-8
+    px-8 pt-7 pb-8
 
-    hecto:p-12
-    mega:p-16
+    hecto:px-12
+    hecto:pt-11
+    hecto:pb-12
+    mega:px-16
+    mega:pt-15
+    mega:pb-16
 
     dark:bg-black/90 light:bg-white/90
   `,
@@ -53,16 +57,55 @@ const styles = {
   icon: `
     w-6.5 h-6.5
     stroke-1
+
     dark:stroke-white light:stroke-black
   `,
   list: `
     flex flex-col items-start
-    mb-16
+    mb-8
   `,
   item: `
     mb-4
 
     last:mb-0
+  `,
+  label: `
+    flex items-center gap-3
+    cursor-pointer
+  `,
+  radio: `
+    hidden
+    peer
+  `,
+  dot: `
+    relative
+    flex items-center justify-center
+    w-3.5 h-3.5
+    rounded-full
+    border
+
+    dark:border-white light:border-black
+
+    peer-checked:after:content-['']
+    peer-checked:after:w-1.5
+    peer-checked:after:h-1.5
+    peer-checked:after:rounded-full
+    peer-checked:after:absolute
+
+    peer-checked:dark:after:bg-white
+    peer-checked:light:after:bg-black
+    peer-checked:dark:border-white
+    peer-checked:light:border-black
+  `,
+  text: `
+    relative
+    flex flex-row justify-end items-start
+    uppercase
+    text-base
+    font-extralight
+    select-none
+
+    dark:text-white light:text-black
   `,
   cta: `
     relative
@@ -70,30 +113,12 @@ const styles = {
     uppercase
     text-xl
     font-extralight
-    duration-300
-
-    hover:font-medium
   `,
   count: `
     ml-1
     text-tiny
 
     plank:text-xs
-  `,
-  active: `
-    absolute top-1.5 -right-12
-    w-4 h-4
-    stroke-1
-    duration-300
-
-    plank:top-2.5
-    deka:-right-16
-    deka:top-3
-    deka:w-5
-    deka:h-5
-    kilo:w-6
-    kilo:h-6
-    kilo:top-4
   `,
 };
 

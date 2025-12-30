@@ -43,7 +43,7 @@ export default function View({ data }: Props) {
         )}
         <section aria-label="type and date" className={styles.meta}>
           <span>#{data.type}</span>
-          <span>{data.date}</span>
+          <span className={styles.date}>{data.date}</span>
         </section>
       </header>
       {data.stages.map((stage, index) => (

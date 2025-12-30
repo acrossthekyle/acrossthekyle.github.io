@@ -3,7 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   section: `
     relative z-0
-    h-[calc(100dvh-22rem)] w-full
+    h-[calc(100vh-22rem)] w-full
     border-t-1
 
     dark:border-t-white/15 light:border-t-black/15

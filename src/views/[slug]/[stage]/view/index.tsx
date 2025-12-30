@@ -24,7 +24,7 @@ export default function View({ data }: Props) {
 
   return (
     <section aria-labelledby="heading" className={styles.container}>
-      <Return label={data.travel} slug={data.slug} />
+      <Return label={data.travel} />
       <article className={styles.article}>
         <figure className={styles.figure}>
           <Image

@@ -7,11 +7,10 @@ import styles from './stylesheet';
 
 type Props = {
   label: string;
-  slug: string;
 };
 
-export default function Return({ label, slug }: Props) {
-  const { handleOnReturn } = useModel(slug);
+export default function Return({ label }: Props) {
+  const { handleOnReturn } = useModel();
 
   return (
     <nav aria-label={`return back to ${label} navigation`} className={styles.container}>

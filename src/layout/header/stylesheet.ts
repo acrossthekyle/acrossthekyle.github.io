@@ -3,9 +3,16 @@ import tw from '@/styles';
 const styles = tw({
   container: (isExpanded: boolean) => tw(`
     flex flex-col justify-end
-    ${isExpanded ? `h-dvh` : `delay-300 h-22`}
+    ${isExpanded ? `
+      h-dvh
+
+      [transition:height_.3s_var(--ease-in-out)]
+    ` : `
+      h-22
+
+      [transition:height_.3s_var(--ease-in-out)_.3s]
+    `}
     p-8
-    duration-300
     border-b-1
 
     dark:border-b-white/15 light:border-b-black/15
@@ -13,6 +20,7 @@ const styles = tw({
     dark:text-white light:text-black
     dark:bg-black light:bg-white
 
+    base:delay-0
     base:duration-0
     base:h-full
     base:border-b-0
@@ -34,7 +42,7 @@ const styles = tw({
     hecto:top-12
     mega:top-16
   `,
-  logo: `
+  icon: `
     stroke-2
   `,
   toggle: `
@@ -47,10 +55,19 @@ const styles = tw({
   `,
   group: (isExpanded: boolean) => tw(`
     mb-6
-    duration-300
 
-    ${isExpanded ? 'delay-300 opacity-100' : 'opacity-0'}
+    ${isExpanded ? `
+      opacity-100
 
+      [transition:opacity_.3s_var(--ease-in-out)_.3s]
+    ` : `
+      opacity-0
+
+      [transition:opacity_.3s_var(--ease-in-out)]
+    `}
+
+    base:delay-0
+    base:duration-0
     base:opacity-100
   `),
   tagline: `
@@ -73,10 +90,18 @@ const styles = tw({
     font-serif italic
   `,
   footer: (isExpanded: boolean) => tw(`
-    duration-300
+    ${isExpanded ? `
+      opacity-100
 
-    ${isExpanded ? 'delay-300 opacity-100' : 'opacity-0 -z-1'}
+      [transition:opacity_.3s_var(--ease-in-out)_.3s]
+    ` : `
+      opacity-0 -z-1
 
+      [transition:opacity_.3s_var(--ease-in-out)]
+    `}
+
+    base:delay-0
+    base:duration-0
     base:opacity-100
   `),
   list: `

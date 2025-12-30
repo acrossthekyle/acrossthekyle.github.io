@@ -25,13 +25,16 @@ const styles = tw({
     line-clamp-3
   `,
   footer: `
-    flex justify-between items-end
+    flex flex-col items-start gap-1
     mt-8
     text-tiny
     font-bold
     uppercase
     tracking-wide
 
+    pico:flex-row
+    pico:items-end
+    pico:justify-between
     base:text-xs
     mega:mt-14
   `,

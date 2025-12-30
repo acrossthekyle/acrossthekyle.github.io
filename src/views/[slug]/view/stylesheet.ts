@@ -58,13 +58,16 @@ const styles = tw({
     kilo:text-xs
   `,
   meta: `
-    flex justify-between items-end
+    flex flex-col items-start gap-1
     mt-8
     text-tiny
     font-bold
     uppercase
     tracking-wide
 
+    pico:flex-row
+    pico:items-end
+    pico:justify-between
     base:text-xs
   `,
   description: `

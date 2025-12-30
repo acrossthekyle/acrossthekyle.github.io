@@ -12,6 +12,7 @@ type Props = {
 
 export default function Filters({ data, onChange }: Props) {
   const {
+    filterBy,
     handleOnClose,
     handleOnFilter,
     handleOnOpen,
@@ -19,6 +20,9 @@ export default function Filters({ data, onChange }: Props) {
     handleOnSort,
     handleOnSwitchTheme,
     isDialogActive,
+    orderBy,
+    sortBy,
+    theme,
   } = useModel(onChange);
 
   return (
@@ -28,22 +32,25 @@ export default function Filters({ data, onChange }: Props) {
         onClick={handleOnSwitchTheme}
         type="button"
       >
-        Switch Theme
+        Switch to {theme === 'dark' ? 'light' : 'dark'} Mode
       </button>
       <button
         className={styles.cta}
         onClick={handleOnOpen}
         type="button"
       >
-        Filter
+        Filter List
       </button>
       <Dialog
         data={data}
+        filterBy={filterBy}
         isActive={isDialogActive}
         onClose={handleOnClose}
         onFilterBy={handleOnFilter}
         onSortBy={handleOnSort}
         onOrderBy={handleOnOrder}
+        orderBy={orderBy}
+        sortBy={sortBy}
       />
     </nav>
   );

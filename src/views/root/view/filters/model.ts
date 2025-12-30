@@ -47,7 +47,7 @@ export function useModel(onChange: (filter?: string, sort?: string, order?: stri
     sortBy,
   } = store();
 
-  const { onToggleTheme } = useTheme();
+  const { onToggleTheme, theme } = useTheme();
 
   useEffect(() => {
     onChange(filterBy, sortBy, orderBy);
@@ -99,5 +99,6 @@ export function useModel(onChange: (filter?: string, sort?: string, order?: stri
     isDialogActive,
     orderBy,
     sortBy,
+    theme,
   };
 };
