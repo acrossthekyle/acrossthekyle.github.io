@@ -58,12 +58,14 @@ const styles = tw({
     kilo:text-xs
   `,
   meta: `
-    flex justify-between
+    flex justify-between items-end
     mt-8
-    text-xs
+    text-tiny
     font-bold
     uppercase
     tracking-wide
+
+    base:text-xs
   `,
   description: `
     mb-4

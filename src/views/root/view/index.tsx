@@ -14,7 +14,7 @@ import { padIndex } from '@/utils';
 import Filters from './filters';
 import { useModel } from './model';
 import styles from './stylesheet';
-import { type Data } from './types';
+import type { Data } from './types';
 
 type Props = {
   data: Data[];
@@ -25,7 +25,7 @@ export default function View({ data }: Props) {
 
   return (
     <section aria-label="timeline" className={styles.container}>
-      <Filters onChange={handleOnFilter} total={items.length} />
+      <Filters data={data} onChange={handleOnFilter} />
       {items.map((item, index: number) => (
         <article className={styles.article} key={index}>
           <ImageFigure>
@@ -61,12 +61,12 @@ export default function View({ data }: Props) {
             </section>
           )}
           <footer className={styles.footer}>
-            <p className={styles.type}>
+            <span>
               #{item.type}
-            </p>
-            <p className={styles.date}>
+            </span>
+            <span>
               {item.date}
-            </p>
+            </span>
           </footer>
         </article>
       ))}

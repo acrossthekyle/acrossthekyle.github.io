@@ -1,22 +1,42 @@
 import { X } from 'lucide-react';
 import FocusLock from 'react-focus-lock';
 
+import type { Data } from '../../types';
 import styles from './stylesheet';
 
 type Props = {
+  data: Data[];
   isActive: boolean;
-  onChoose: (value: string) => void;
   onClose: () => void;
+  onFilterBy: (value: string) => void;
+  onOrderBy: (value: string) => void;
+  onSortBy: (value: string) => void;
 };
 
 export default function Dialog({
+  data,
   isActive,
-  onChoose,
   onClose,
+  onFilterBy,
+  onOrderBy,
+  onSortBy,
 }: Props) {
+  const reduced = data.reduce((initialObject: { [key: string]: number }, { type }) => {
+    initialObject[type] = (initialObject[type] || 0) + 1;
+
+    return initialObject;
+  }, {});
+
+  const types = Object.entries(reduced).map(([ value, count ]) => {
+    return {
+      value,
+      count,
+    };
+  });
+
   return (
     <dialog
-      aria-label="filter wanderings"
+      aria-label="search and filter"
       aria-modal="true"
       className={styles.dialog(isActive)}
       id="filtering"
@@ -25,7 +45,7 @@ export default function Dialog({
       tabIndex={-1}
     >
       <FocusLock className={styles.lock} disabled={!isActive}>
-        <header className={styles.header}>
+        <div className={styles.header}>
           <h2 className={styles.heading}>Filter By</h2>
           <button
             aria-controls="filtering"
@@ -35,46 +55,74 @@ export default function Dialog({
           >
             <X className={styles.icon} />
           </button>
-        </header>
+        </div>
         <ul className={styles.list}>
           <li className={styles.item}>
             <button
               className={styles.cta}
-              onClick={() => onChoose('everything')}
+              onClick={() => onFilterBy('everything')}
               type="button"
             >
               everything
-              <span className={styles.count}>20</span>
+              <span className={styles.count}>{data.length}</span>
+            </button>
+          </li>
+          {types.map(({ count, value }) => (
+            <li className={styles.item} key={value}>
+              <button
+                className={styles.cta}
+                onClick={() => onFilterBy(value)}
+                type="button"
+              >
+                {value}{count > 1 ? 's' : ''}
+                <span className={styles.count}>{count}</span>
+              </button>
+            </li>
+          ))}
+        </ul>
+        <div className={styles.header}>
+          <h2 className={styles.heading}>Sort By</h2>
+        </div>
+        <ul className={styles.list}>
+          <li className={styles.item}>
+            <button
+              className={styles.cta}
+              onClick={() => onSortBy('date')}
+              type="button"
+            >
+              date
             </button>
           </li>
           <li className={styles.item}>
-            <button className={styles.cta} onClick={() => onChoose('vacations')} type="button">
-              vacations
-              <span className={styles.count}>9</span>
+            <button
+              className={styles.cta}
+              onClick={() => onSortBy('title')}
+              type="button"
+            >
+              title
+            </button>
+          </li>
+        </ul>
+        <div className={styles.header}>
+          <h2 className={styles.heading}>Direction</h2>
+        </div>
+        <ul className={styles.list}>
+          <li className={styles.item}>
+            <button
+              className={styles.cta}
+              onClick={() => onOrderBy('descending')}
+              type="button"
+            >
+              descending
             </button>
           </li>
           <li className={styles.item}>
-            <button className={styles.cta} onClick={() => onChoose('overnight hikes')} type="button">
-              overnight hikes
-              <span className={styles.count}>1</span>
-            </button>
-          </li>
-          <li className={styles.item}>
-            <button className={styles.cta} onClick={() => onChoose('peak bagging')} type="button">
-              peak bagging
-              <span className={styles.count}>1</span>
-            </button>
-          </li>
-          <li className={styles.item}>
-            <button className={styles.cta} onClick={() => onChoose('section hikes')} type="button">
-              section hikes
-              <span className={styles.count}>1</span>
-            </button>
-          </li>
-          <li className={styles.item}>
-            <button className={styles.cta} onClick={() => onChoose('thru-hikes')} type="button">
-              thru-hikes
-              <span className={styles.count}>8</span>
+            <button
+              className={styles.cta}
+              onClick={() => onOrderBy('ascending')}
+              type="button"
+            >
+              ascending
             </button>
           </li>
         </ul>

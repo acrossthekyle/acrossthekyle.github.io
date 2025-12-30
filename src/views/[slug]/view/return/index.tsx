@@ -11,7 +11,7 @@ export default function Return() {
   return (
     <nav aria-label="return home navigation" className={styles.container}>
       <button
-        className={styles.return}
+        className={styles.cta}
         onClick={handleOnReturn}
         type="button"
       >

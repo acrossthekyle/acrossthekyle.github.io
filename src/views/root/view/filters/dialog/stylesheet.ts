@@ -18,7 +18,7 @@ const styles = {
     ${isActive ? (`
       opacity-100
       translate-x-0
-      z-99
+      z-99999
 
       [transition:opacity_.3s_var(--ease-in-out),translate_0s]
     `) : (`
@@ -33,20 +33,22 @@ const styles = {
     h-screen w-full
     flex flex-col items-start
     overflow-y-auto
+    p-8
+
+    hecto:p-12
+    mega:p-16
 
     dark:bg-black/90 light:bg-white/90
   `,
   header: `
     w-full
     flex justify-between items-center
-    p-8
-
-    hecto:p-12
-    mega:p-16
+    mb-4
   `,
   heading: `
-    font-extrablack
+    text-xs
     uppercase
+    font-bold
   `,
   icon: `
     w-6.5 h-6.5
@@ -54,17 +56,11 @@ const styles = {
     dark:stroke-white light:stroke-black
   `,
   list: `
-    h-screen w-full
     flex flex-col items-start
-    p-8
-
-    hecto:p-12
-    mega:p-16
+    mb-16
   `,
   item: `
     mb-4
-
-    mega:mb-8
 
     last:mb-0
   `,
@@ -77,16 +73,12 @@ const styles = {
     duration-300
 
     hover:font-medium
-
-    plank:text-2xl
-    deka:text-3xl
-    kilo:text-4xl
   `,
   count: `
     ml-1
-    text-xs
+    text-tiny
 
-    plank:text-sm
+    plank:text-xs
   `,
   active: `
     absolute top-1.5 -right-12

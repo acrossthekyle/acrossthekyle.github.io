@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { create } from 'zustand';
 
 import { useEvent } from '@/hooks/useEvent';
+import { useTheme } from '@/hooks/useTheme';
 
 type State = {
   filterBy: string;
@@ -13,23 +14,23 @@ type State = {
 
 type Actions = {
   setFilterBy: (value: string) => void
-  toggleOrderBy: () => void;
-  toggleSortBy: () => void;
+  setOrderBy: (value: string) => void;
+  setSortBy: (value: string) => void;
 };
 
 const store = create<State & Actions>()(
-  (set, get) => ({
+  (set) => ({
     filterBy: 'everything',
     orderBy: 'descending',
     sortBy: 'date',
     setFilterBy: (value: string) => {
       set({ filterBy: value });
     },
-    toggleOrderBy: () => {
-      set({ orderBy: get().orderBy === 'descending' ? 'ascending' : 'descending' });
+    setOrderBy: (value: string) => {
+      set({ orderBy: value });
     },
-    toggleSortBy: () => {
-      set({ sortBy: get().sortBy === 'date' ? 'title' : 'date' });
+    setSortBy: (value: string) => {
+      set({ sortBy: value });
     },
   }),
 );
@@ -41,18 +42,20 @@ export function useModel(onChange: (filter?: string, sort?: string, order?: stri
     filterBy,
     orderBy,
     setFilterBy,
+    setOrderBy,
+    setSortBy,
     sortBy,
-    toggleOrderBy,
-    toggleSortBy,
   } = store();
+
+  const { onToggleTheme } = useTheme();
 
   useEffect(() => {
     onChange(filterBy, sortBy, orderBy);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [filterBy, orderBy, sortBy]);
 
-  const handleOnFilter = () => {
-    setIsDialogActive(previous => !previous);
+  const handleOnOpen = () => {
+    setIsDialogActive(true);
 
     document.documentElement.classList.add('overflow-hidden');
   };
@@ -63,18 +66,20 @@ export function useModel(onChange: (filter?: string, sort?: string, order?: stri
     document.documentElement.classList.remove('overflow-hidden');
   };
 
-  const handleOnChoose = (value: string) => {
+  const handleOnFilter = (value: string) => {
     setFilterBy(value);
-
-    handleOnClose();
   };
 
-  const handleOnOrder = () => {
-    toggleOrderBy();
+  const handleOnOrder = (value: string) => {
+    setOrderBy(value);
   };
 
-  const handleOnSort = () => {
-    toggleSortBy();
+  const handleOnSort = (value: string) => {
+    setSortBy(value);
+  };
+
+  const handleOnSwitchTheme = () => {
+    onToggleTheme();
   };
 
   useEvent('onEscape', () => {
@@ -85,11 +90,12 @@ export function useModel(onChange: (filter?: string, sort?: string, order?: stri
 
   return {
     filterBy,
-    handleOnChoose,
     handleOnClose,
     handleOnFilter,
+    handleOnOpen,
     handleOnOrder,
     handleOnSort,
+    handleOnSwitchTheme,
     isDialogActive,
     orderBy,
     sortBy,

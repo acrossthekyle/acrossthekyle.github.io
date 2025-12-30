@@ -40,8 +40,8 @@ const styles = tw({
   toggle: `
     absolute top-9 right-8
     uppercase
-    text-base
-    font-extrablack font-stretch-condensed
+    text-sm
+    font-extrablack
 
     base:hidden
   `,

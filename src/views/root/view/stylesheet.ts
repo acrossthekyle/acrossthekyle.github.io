@@ -27,25 +27,13 @@ const styles = tw({
   footer: `
     flex justify-between items-end
     mt-8
-    text-sm
-    font-normal
+    text-tiny
+    font-bold
+    uppercase
+    tracking-wide
 
+    base:text-xs
     mega:mt-14
-  `,
-  type: `
-    text-xs/3
-    font-bold
-    uppercase
-    tracking-wide
-  `,
-  date: `
-    text-xs/3
-    font-bold
-    uppercase
-    tracking-wide
-
-    mega:flex-1
-    mega:text-right
   `,
 });
 

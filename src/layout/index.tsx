@@ -1,6 +1,7 @@
 import Body from './body';
 import Footer from './footer';
 import Header from './header';
+import Loader from './loader';
 import Main from './main';
 
 type Props = {
@@ -15,6 +16,7 @@ export default function Layout({ children }: Props) {
         {children}
       </Main>
       <Footer />
+      <Loader />
     </Body>
   );
 }

@@ -14,9 +14,9 @@ export default function Return({ label, slug }: Props) {
   const { handleOnReturn } = useModel(slug);
 
   return (
-    <nav aria-label="return home navigation" className={styles.container}>
+    <nav aria-label={`return back to ${label} navigation`} className={styles.container}>
       <button
-        className={styles.return}
+        className={styles.cta}
         onClick={handleOnReturn}
         type="button"
       >

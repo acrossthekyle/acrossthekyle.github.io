@@ -19,15 +19,15 @@ export function useModel(data: Data[]) {
   useEffect(() => {
     let result = [...data];
 
-    if (filterBy === 'vacations') {
+    if (filterBy === 'vacation') {
       result = result.filter(item => item.type === 'vacation');
-    } else if (filterBy === 'overnight hikes') {
+    } else if (filterBy === 'overnight trek') {
       result = result.filter(item => item.type === 'overnight trek');
-    } else if (filterBy === 'peak bagging') {
+    } else if (filterBy === 'peak-bagging') {
       result = result.filter(item => item.type === 'peak-bagging');
-    } else if (filterBy === 'section hikes') {
+    } else if (filterBy === 'section hike') {
       result = result.filter(item => item.type === 'section hike');
-    } else if (filterBy === 'thru-hikes') {
+    } else if (filterBy === 'thru-hike') {
       result = result.filter(item => item.type === 'thru-hike');
     }
 
