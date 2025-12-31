@@ -12,6 +12,7 @@ export default function get(slug: string) {
     category: data.category,
     date: data.date,
     description: data.description,
+    image: data.image,
     label: data.label,
     location: data.location,
     slug,

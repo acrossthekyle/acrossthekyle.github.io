@@ -3,6 +3,7 @@ import '../globals.css';
 import type { Metadata, Viewport } from 'next';
 
 import Hierarchy from '@/contexts/hierarchy';
+import History from '@/contexts/history';
 import Layout from '@/layout';
 import { KeyboardListener } from '@/listeners';
 
@@ -55,12 +56,14 @@ type Props = {
 export default function RootLayout({ children }: Props) {
   return (
     <html className={styles.html} data-theme="dark" lang="en">
-      <Hierarchy>
-        <KeyboardListener />
-        <Layout>
-          {children}
-        </Layout>
-      </Hierarchy>
+      <History>
+        <Hierarchy>
+          <KeyboardListener />
+          <Layout>
+            {children}
+          </Layout>
+        </Hierarchy>
+      </History>
     </html>
   );
 }

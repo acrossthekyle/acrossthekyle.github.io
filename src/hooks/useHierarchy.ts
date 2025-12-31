@@ -4,7 +4,7 @@ import { useContext } from 'react';
 
 import { HierarchyContext } from '@/contexts/hierarchy';
 
-type Model = {
+type Hook = {
   base: string;
   isOnChild: boolean;
   isOnGrandChild: boolean;
@@ -14,7 +14,7 @@ type Model = {
   previous: string;
 };
 
-export function useHierarchy(): Model {
+export function useHierarchy(): Hook {
   const context = useContext(HierarchyContext);
 
   return context;

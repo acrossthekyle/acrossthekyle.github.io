@@ -4,7 +4,7 @@ const styles = tw({
   html: `
     h-full
 
-    bg-black
+    dark:bg-black light:bg-white
   `,
 });
 

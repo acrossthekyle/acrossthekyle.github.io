@@ -9,34 +9,23 @@ const styles = tw({
     dark:text-white light: text-black
   `,
   article: `
-    p-8
+    p-4
     border-b-1
 
     dark:border-b-white/15 light:border-b-black/15
 
     last:border-b-0
 
+    base:p-8
     hecto:p-12
     mega:p-16
   `,
   description: `
-    mt-10
+    mt-6
     text-base
     line-clamp-3
-  `,
-  footer: `
-    flex flex-col items-start gap-1
-    mt-8
-    text-tiny
-    font-bold
-    uppercase
-    tracking-wide
 
-    pico:flex-row
-    pico:items-end
-    pico:justify-between
-    base:text-xs
-    mega:mt-14
+    base:mt-10
   `,
 });
 

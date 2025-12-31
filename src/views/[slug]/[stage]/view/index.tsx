@@ -1,11 +1,4 @@
-import {
-  Image,
-  ImageCaption,
-  ImageCaptionCount,
-  ImageCaptionEyebrow,
-  ImageCaptionText,
-} from '@/ui/image';
-import { padIndex } from '@/utils';
+import { Image, ImageCaption } from '@/ui/image';
 
 import Gpx from './gpx';
 import Return from './return';
@@ -24,8 +17,19 @@ export default function View({ data }: Props) {
 
   return (
     <section aria-labelledby="heading" className={styles.container}>
-      <Return label={data.travel} />
+      <Return label={data.travel} slug={data.slug} />
       <article className={styles.article}>
+        <h2 className={styles.heading}>
+          <span className={styles.eyebrow}>
+            {data.date}
+          </span>
+          {data.title.map((words) => (
+            <span className="block" key={words}>{words}</span>
+          ))}
+        </h2>
+        <section className={styles.meta}>
+          {data.label} #{data.index}
+        </section>
         <figure className={styles.figure}>
           <Image
             alt=""
@@ -35,23 +39,11 @@ export default function View({ data }: Props) {
             src={data.image}
             width={1920}
           />
-          <ImageCaption className={styles.caption}>
-            <ImageCaptionCount
-              label={data.label}
-              superscript={`/${padIndex(data.total)}`}
-            >
-              {data.index}
-            </ImageCaptionCount>
-            <ImageCaptionEyebrow>
-              {data.date}
-            </ImageCaptionEyebrow>
-            <ImageCaptionText>
-              {data.title.join(' ')}
-            </ImageCaptionText>
-            {data.hasStats && (
+          {data.hasStats && (
+            <ImageCaption className={styles.caption}>
               <Stats stats={data.stats} />
-            )}
-          </ImageCaption>
+            </ImageCaption>
+          )}
         </figure>
         {data.description.length > 0 && (
           <section aria-label="description" className={styles.section}>

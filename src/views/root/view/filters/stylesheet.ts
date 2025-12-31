@@ -3,7 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     flex flex-col justify-start gap-4
-    p-8
+    p-4
     border-b-1
 
     dark:border-b-white/15 light:border-b-black/15
@@ -15,11 +15,11 @@ const styles = tw({
     base:sticky
     base:top-0
     base:z-3
+    base:p-8
     hecto:p-12
     mega:p-16
   `,
   cta: `
-    flex items-center gap-1
     text-xs
     uppercase
     font-bold

@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   list: `
-    absolute top-4 right-4
+    absolute bottom-4 right-4
     flex flex-col gap-4 items-end
   `,
   item: `
@@ -10,11 +10,11 @@ const styles = tw({
   `,
   heading: `
     uppercase
-    font-medium
+    font-extrablack
     text-right text-tiny text-current/90
   `,
   value: `
-    font-black
+    font-light
     text-right text-xs
     uppercase
   `,

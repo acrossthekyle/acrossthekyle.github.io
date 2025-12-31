@@ -1,4 +1,4 @@
-import tw from '@/styles';
+  import tw from '@/styles';
 
 const styles = tw({
   container: `
@@ -7,50 +7,40 @@ const styles = tw({
   `,
   overview: `
     flex flex-col
-    p-8
-    mb-8
+    p-4
+    mb-4
     border-b-1
 
     dark:border-b-white/15 light:border-b-black/15
 
     dark:text-white light:text-black
 
+    base:p-8
+    base:mb-8
     hecto:p-12
     hecto:mb-12
     mega:p-16
     mega:mb-16
   `,
   heading: `
-    text-7xl/13.5
+    text-4xl/7
     font-extrablack font-stretch-ultra-condensed
     uppercase
-    mb-1
+    mb-1.5
 
+    plank:text-5xl/9.25
+    nano:text-6xl/11.25
     base:text-4xl/7
-    mega:text-5xl/9.25
+    hecto:text-5xl/9.25
+    mega:text-6xl/11.25
   `,
-  location: `
+  eyebrow: `
     block
     uppercase
     text-tiny
     font-semibold font-stretch-semi-condensed
-    tracking-widest
+    tracking-wide
     mb-1
-
-    nano:text-xs
-    base:font-bold
-    base:mb-0
-    deka:text-tiny
-    kilo:text-xs
-  `,
-  date: `
-    block
-    mt-1
-    uppercase
-    text-tiny
-    font-semibold
-    tracking-widest
-    font-stretch-semi-condensed
 
     nano:text-xs
     base:font-bold
@@ -58,17 +48,21 @@ const styles = tw({
     kilo:text-xs
   `,
   meta: `
-    flex flex-col items-start gap-1
-    mt-8
+    mb-4
     text-tiny
-    font-bold
+    font-semibold font-stretch-semi-condensed
     uppercase
     tracking-wide
 
-    pico:flex-row
-    pico:items-end
-    pico:justify-between
-    base:text-xs
+    nano:text-xs
+    base:font-bold
+    deka:text-tiny
+    kilo:text-xs
+  `,
+  figure: `
+    relative
+
+    base:mb-2
   `,
   description: `
     mb-4
@@ -80,8 +74,8 @@ const styles = tw({
     base:first:mt-4
   `,
   article: `
-    px-8 mb-8
-    pb-8
+    px-4 pb-4
+    mb-4
     border-b-1
 
     dark:border-b-white/15 light:border-b-black/15
@@ -101,9 +95,11 @@ const styles = tw({
     mega:pb-16
   `,
   preview: `
-    mt-8
+    mt-4
     line-clamp-3
     text-base
+
+    base:mt-8
   `,
 });
 

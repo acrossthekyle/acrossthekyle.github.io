@@ -27,11 +27,26 @@ export default function View({ data }: Props) {
       <Return />
       <header className={styles.overview}>
         <h2 className={styles.heading}>
-          <span className={styles.location}>
+          <span className={styles.eyebrow}>
             {data.location}
           </span>
-          {data.title.join(' ')}
+          {data.title.map((words) => (
+            <span className="block" key={words}>{words}</span>
+          ))}
         </h2>
+        <span className={styles.meta}>
+          {data.date}
+        </span>
+        <figure className={styles.figure}>
+          <Image
+            alt=""
+            color
+            height={1080}
+            sizes="(max-width: 768px) 100vw, 50vw"
+            src={data.image}
+            width={1920}
+          />
+        </figure>
         {data.description.length > 0 && (
           <section aria-label="overview">
             {data.description.map((paragraph) => (
@@ -41,10 +56,6 @@ export default function View({ data }: Props) {
             ))}
           </section>
         )}
-        <section aria-label="type and date" className={styles.meta}>
-          <span>#{data.type}</span>
-          <span className={styles.date}>{data.date}</span>
-        </section>
       </header>
       {data.stages.map((stage, index) => (
         <article

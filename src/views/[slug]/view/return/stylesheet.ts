@@ -3,7 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     flex justify-between
-    p-8
+    p-4
     border-b-1
 
     dark:border-b-white/15 light:border-b-black/15
@@ -13,6 +13,7 @@ const styles = tw({
     base:sticky
     base:top-0
     base:z-3
+    base:p-8
     hecto:p-12
     mega:p-16
   `,

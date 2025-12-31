@@ -2,9 +2,9 @@ import tw from '@/styles';
 
 const styles = {
   dialog: (isActive: boolean) => tw(`
-    fixed inset-0
+    fixed top-0 left-0
     bg-transparent
-    w-full
+    w-full h-full
 
     dark:text-white light:text-black
 
@@ -33,14 +33,11 @@ const styles = {
     h-screen w-full
     flex flex-col items-start
     overflow-y-auto
-    px-8 pt-7 pb-8
+    p-4
 
-    hecto:px-12
-    hecto:pt-11
-    hecto:pb-12
-    mega:px-16
-    mega:pt-15
-    mega:pb-16
+    base:p-8
+    hecto:p-12
+    mega:p-16
 
     dark:bg-black/90 light:bg-white/90
   `,
@@ -55,8 +52,7 @@ const styles = {
     font-bold
   `,
   icon: `
-    w-6.5 h-6.5
-    stroke-1
+    stroke-2
 
     dark:stroke-white light:stroke-black
   `,
@@ -101,11 +97,13 @@ const styles = {
     relative
     flex flex-row justify-end items-start
     capitalize
-    text-base
+    text-lg
     font-extralight
     select-none
 
     dark:text-white light:text-black
+
+    base:text-base
   `,
   count: `
     ml-1

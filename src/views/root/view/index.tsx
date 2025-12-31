@@ -5,6 +5,7 @@ import {
   ImageCaption,
   ImageCaptionCount,
   ImageCaptionEyebrow,
+  ImageCaptionMeta,
   ImageCaptionText,
   ImageFigure,
   ImageLink,
@@ -50,6 +51,9 @@ export default function View({ data }: Props) {
                     <span className="block" key={words}>{words}</span>
                   ))}
                 </ImageCaptionText>
+                <ImageCaptionMeta>
+                  {item.type}
+                </ImageCaptionMeta>
               </ImageLink>
             </ImageCaption>
           </ImageFigure>
@@ -60,14 +64,6 @@ export default function View({ data }: Props) {
               </p>
             </section>
           )}
-          <footer className={styles.footer}>
-            <span>
-              #{item.type}
-            </span>
-            <span>
-              {item.date}
-            </span>
-          </footer>
         </article>
       ))}
     </section>
