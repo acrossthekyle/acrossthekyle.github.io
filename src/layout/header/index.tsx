@@ -44,23 +44,45 @@ export default function Header() {
       >
         <ul className={styles.list}>
           <li>
-            <a
+            <Link
               aria-label="view resume"
               className={styles.link}
               href="/acrossthekyle-resume.pdf"
               target="_blank"
             >
               Resume
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               aria-label="send email"
               className={styles.link}
               href="mailto:hello@acrossthekyle.com"
             >
               Contact
-            </a>
+            </Link>
+          </li>
+          <li>
+            <Link
+              aria-label="view linkedin profile"
+              className={styles.link}
+              href="https://linkedin.com/in/acrossthekyle"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </Link>
+          </li>
+          <li>
+            <Link
+              aria-label="view instagram profile"
+              className={styles.link}
+              href="https://instagram.com/acrossthekyle"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Instagram
+            </Link>
           </li>
         </ul>
       </nav>

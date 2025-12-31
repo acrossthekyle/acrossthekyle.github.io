@@ -10,12 +10,13 @@ const styles = tw({
   `,
   heading: `
     uppercase
-    font-bold
+    font-medium
     text-right text-tiny text-current/90
   `,
   value: `
     font-black
-    text-right text-sm
+    text-right text-xs
+    uppercase
   `,
 });
 

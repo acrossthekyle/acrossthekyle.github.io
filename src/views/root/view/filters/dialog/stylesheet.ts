@@ -65,7 +65,7 @@ const styles = {
     mb-8
   `,
   item: `
-    mb-4
+    mb-2
 
     last:mb-0
   `,
@@ -100,25 +100,16 @@ const styles = {
   text: `
     relative
     flex flex-row justify-end items-start
-    uppercase
+    capitalize
     text-base
     font-extralight
     select-none
 
     dark:text-white light:text-black
   `,
-  cta: `
-    relative
-    flex flex-row justify-end items-start
-    uppercase
-    text-xl
-    font-extralight
-  `,
   count: `
     ml-1
     text-tiny
-
-    plank:text-xs
   `,
 };
 

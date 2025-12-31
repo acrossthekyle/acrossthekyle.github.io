@@ -105,7 +105,11 @@ const styles = tw({
     base:opacity-100
   `),
   list: `
-    flex flex-row gap-4
+    grid grid-cols-2 gap-4
+
+    pico:flex
+    pico:flex-row
+    pico:gap-4
   `,
   link: `
     text-sm

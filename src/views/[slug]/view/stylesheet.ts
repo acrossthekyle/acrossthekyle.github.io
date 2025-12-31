@@ -11,7 +11,7 @@ const styles = tw({
     mb-8
     border-b-1
 
-    dark:border-b-white/25 light:border-b-black/25
+    dark:border-b-white/15 light:border-b-black/15
 
     dark:text-white light:text-black
 
@@ -84,7 +84,7 @@ const styles = tw({
     pb-8
     border-b-1
 
-    dark:border-b-white/25 light:border-b-black/25
+    dark:border-b-white/15 light:border-b-black/15
     dark:text-white light:text-black
 
     last:border-b-0

@@ -5,7 +5,7 @@ const styles = tw({
     absolute top-4 left-4
     flex items-start justify-center
     py-2 px-3
-    text-sm
+    text-xs
     font-mono font-bold
     uppercase
     rounded-lg
@@ -16,9 +16,7 @@ const styles = tw({
     base:rounded-sm
   `,
   superscript: `
-    mt-3.75
-
-    base:mt-4
+    mt-2.75
   `,
 });
 
