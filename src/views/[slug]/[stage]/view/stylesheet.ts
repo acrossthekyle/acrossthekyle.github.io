@@ -12,7 +12,7 @@ const styles = tw({
     text-4xl/7
     font-extrablack font-stretch-ultra-condensed
     uppercase
-    mt-4 mx-4 mb-2
+    mt-6 mx-6 mb-2
 
     plank:text-5xl/9.25
     nano:text-6xl/11.25
@@ -40,7 +40,7 @@ const styles = tw({
     kilo:text-xs
   `,
   meta: `
-    mx-4 mb-2
+    mx-6 mb-2
     text-tiny
     font-semibold font-stretch-semi-condensed
     uppercase
@@ -57,7 +57,7 @@ const styles = tw({
   figure: `
     relative
 
-    mx-4 mb-4 mt-4
+    mx-6 mb-6 mt-4
 
     base:mx-8
     base:mb-8
@@ -70,7 +70,7 @@ const styles = tw({
     p-4
   `,
   section: `
-    px-4 pb-4
+    px-6 pb-6
 
     base:px-8
     base:pb-8

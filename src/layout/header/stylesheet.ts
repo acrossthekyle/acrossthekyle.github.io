@@ -12,7 +12,7 @@ const styles = tw({
 
       [transition:height_.3s_var(--ease-in-out)_.3s]
     `}
-    p-4
+    p-6
     border-b-1
 
     dark:border-b-white/15 light:border-b-black/15
@@ -47,7 +47,7 @@ const styles = tw({
     stroke-2
   `,
   toggle: `
-    absolute top-8 right-4
+    absolute top-8 right-6
     uppercase
     text-sm
     font-extrablack

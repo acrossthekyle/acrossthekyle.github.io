@@ -9,7 +9,7 @@ const styles = tw({
     dark:text-white light: text-black
   `,
   article: `
-    p-4
+    p-6
     border-b-1
 
     dark:border-b-white/15 light:border-b-black/15
@@ -23,9 +23,8 @@ const styles = tw({
   description: `
     mt-4
     text-base
-    line-clamp-2
+    line-clamp-3
 
-    base:line-clamp-3
     base:mt-10
   `,
 });

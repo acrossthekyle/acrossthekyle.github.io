@@ -1,13 +1,6 @@
-import {
-  Image,
-  ImageCaption,
-  ImageCaptionCount,
-  ImageCaptionEyebrow,
-  ImageCaptionText,
-  ImageFigure,
-  ImageLink,
-} from '@/ui/image';
-import { padIndex } from '@/utils';
+import Link from 'next/link';
+
+import { Image } from '@/ui/image';
 
 import Return from './return';
 import styles from './stylesheet';
@@ -23,20 +16,20 @@ export default function View({ data }: Props) {
   }
 
   return (
-    <section className={styles.container}>
+    <>
       <Return />
-      <header className={styles.overview}>
-        <h2 className={styles.heading}>
+      <article className={styles.container}>
+        <h2 className={styles.title}>
           <span className={styles.eyebrow}>
             {data.location}
           </span>
           {data.title.map((words) => (
-            <span className="block" key={words}>{words}</span>
+            <span className={styles.line} key={words}>{words}</span>
           ))}
+          <span className={styles.meta}>
+            {data.date}
+          </span>
         </h2>
-        <span className={styles.meta}>
-          {data.date}
-        </span>
         <figure className={styles.figure}>
           <Image
             alt=""
@@ -56,45 +49,31 @@ export default function View({ data }: Props) {
             ))}
           </section>
         )}
-      </header>
-      {data.stages.map((stage, index) => (
-        <article
-          aria-labelledby={`caption-${stage.index}`}
-          className={styles.article}
-          key={stage.index}
-        >
-          <ImageFigure>
-            <Image
-              alt=""
-              height={1080}
-              index={index}
-              sizes="(max-width: 768px) 100vw, 50vw"
-              src={stage.image}
-              width={1920}
-            />
-            <ImageCaption>
-              <ImageLink href={`/${data.slug}/${stage.index}`}>
-                <ImageCaptionCount
-                  superscript={`/${padIndex(data.stages.length)}`}
-                >
-                  {padIndex(index + 1)}
-                </ImageCaptionCount>
-                <ImageCaptionEyebrow>
-                  {stage.date}
-                </ImageCaptionEyebrow>
-                <ImageCaptionText id={`caption-${stage.index}`}>
-                  {stage.termini.end.words.map((words) => (
-                    <span className="block" key={words}>{words}</span>
-                  ))}
-                </ImageCaptionText>
-              </ImageLink>
-            </ImageCaption>
-          </ImageFigure>
-          <p className={styles.preview}>
-            {stage.description[0]}
-          </p>
-        </article>
-      ))}
-    </section>
+        <nav aria-label="supplementary navigation" className={styles.nav}>
+          <ul className={styles.list}>
+            {data.stages.map((stage, index) => (
+              <li className={styles.item} key={index}>
+                <Link className={styles.link} href={`/${data.slug}/${stage.index}`}>
+                  <span className={styles.eyelid}>
+                    {data.label} #{stage.index}
+                  </span>
+                  <h3>
+                    {stage.termini.end.words.map((words) => (
+                      <span className={styles.line} key={words}>{words}</span>
+                    ))}
+                  </h3>
+                  <span className={styles.eyelid}>
+                    {stage.date}
+                  </span>
+                </Link>
+                <p className={styles.preview}>
+                  {stage.description[0]}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </article>
+    </>
   );
 }

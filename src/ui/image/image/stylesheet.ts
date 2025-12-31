@@ -9,17 +9,17 @@ const styles = {
     transform-gpu duration-700
     rounded-lg
     ${!color && 'grayscale-100'}
-    ${!color ? 'brightness-60' : 'brightness-80'}
+    ${!color ? 'brightness-60' : 'brightness-100'}
 
     ${getAspectClassNames(index)}
 
     base:rounded-sm
 
     ${!color && isInView && `
-      brightness-80
+      brightness-100
       !grayscale-0
 
-      base:brightness-80
+      base:brightness-100
       base:!grayscale-100
     `}
 

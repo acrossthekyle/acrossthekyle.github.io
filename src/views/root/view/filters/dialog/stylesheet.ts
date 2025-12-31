@@ -33,7 +33,7 @@ const styles = {
     h-screen w-full
     flex flex-col items-start
     overflow-y-auto
-    p-4
+    p-6
 
     base:p-8
     hecto:p-12

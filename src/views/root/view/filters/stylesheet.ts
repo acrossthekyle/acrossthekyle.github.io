@@ -3,7 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     flex flex-col justify-start gap-4
-    p-4
+    p-6
     border-b-1
 
     dark:border-b-white/15 light:border-b-black/15
