@@ -96,9 +96,10 @@ const styles = tw({
   `,
   preview: `
     mt-4
-    line-clamp-3
+    line-clamp-2
     text-base
 
+    base:line-clamp-3
     base:mt-8
   `,
 });

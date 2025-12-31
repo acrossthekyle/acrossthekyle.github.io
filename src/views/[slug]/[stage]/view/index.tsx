@@ -27,9 +27,6 @@ export default function View({ data }: Props) {
             <span className="block" key={words}>{words}</span>
           ))}
         </h2>
-        <section className={styles.meta}>
-          {data.label} #{data.index}
-        </section>
         <figure className={styles.figure}>
           <Image
             alt=""

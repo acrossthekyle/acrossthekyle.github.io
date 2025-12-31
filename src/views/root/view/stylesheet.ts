@@ -21,10 +21,11 @@ const styles = tw({
     mega:p-16
   `,
   description: `
-    mt-6
+    mt-4
     text-base
-    line-clamp-3
+    line-clamp-2
 
+    base:line-clamp-3
     base:mt-10
   `,
 });

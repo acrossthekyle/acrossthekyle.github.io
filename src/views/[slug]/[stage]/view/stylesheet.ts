@@ -12,7 +12,7 @@ const styles = tw({
     text-4xl/7
     font-extrablack font-stretch-ultra-condensed
     uppercase
-    mt-4 mx-4 mb-1.5
+    mt-4 mx-4 mb-2
 
     plank:text-5xl/9.25
     nano:text-6xl/11.25

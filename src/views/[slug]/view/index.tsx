@@ -75,7 +75,6 @@ export default function View({ data }: Props) {
             <ImageCaption>
               <ImageLink href={`/${data.slug}/${stage.index}`}>
                 <ImageCaptionCount
-                  label={data.label}
                   superscript={`/${padIndex(data.stages.length)}`}
                 >
                   {padIndex(index + 1)}
