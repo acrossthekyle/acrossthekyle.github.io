@@ -303,7 +303,7 @@ function formatNumber(value) {
 
 async function getStages(folder) {
   if (!fs.existsSync(`${trips}/${folder}/stages`)) {
-    return null;
+    return [];
   }
 
   const folders = fs.readdirSync(`${trips}/${folder}/stages`)

@@ -1,4 +1,5 @@
 export type Data = {
+  category: string;
   count: number;
   date: string;
   description: string[];

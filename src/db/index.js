@@ -15070,7 +15070,7 @@ const data = [
   },
   {
     "index": 2,
-    "category": "destinations",
+    "category": "destination",
     "date": "Jul 24th -  25th, 2024",
     "description": [
       "Before heading into the Alps for the Tour du Mont Blanc we took some time to explore the city of Geneva, from breakfast along the Rhone river to exploring Old Town and the botanical gardens."
@@ -30180,7 +30180,7 @@ const data = [
   },
   {
     "index": 4,
-    "category": "destinations",
+    "category": "destination",
     "date": "Jan 3rd -  6th, 2023",
     "description": [
       "Spending New Years Eve in a land of ancient wonders. Egypt is a place full of history and bustling cities, awe-inspiring pyramids, tombs, and amazing temples. Seeing them up close, and being able to touch them, is how history is meant to be experienced. We visited 10 destinations over 4 days."
@@ -30598,7 +30598,7 @@ const data = [
   },
   {
     "index": 5,
-    "category": "destinations",
+    "category": "destination",
     "date": "Dec 29th, 2022 - Jan 2nd, 2023",
     "description": [
       "Spending New Years Eve in a land of ancient wonders. Egypt is a place full of history and bustling cities, awe-inspiring pyramids, tombs, and amazing temples. Seeing them up close, and being able to touch them, is how history is meant to be experienced. We visited 4 destinations over 5 days."
@@ -41953,7 +41953,7 @@ const data = [
   },
   {
     "index": 8,
-    "category": "destinations",
+    "category": "destination",
     "date": "Mar 22nd -  25th, 2022",
     "description": [
       "Escaping the trailing remnants of winter in Chicago by absconding last-minute down to Puerto Rico, walking its beaches, exploring the forts, and cliff jumping in the rain forests."
@@ -91432,7 +91432,7 @@ const data = [
   },
   {
     "index": 13,
-    "category": "destinations",
+    "category": "destination",
     "date": "Nov 6th -  8th, 2019",
     "description": [
       "After completing the Annapurna Circuit and Basecamp treks I returned to the outdoor adventurist capital of Nepal: Pokhara. Here I explord the city for a few days, including going paragliding for the first time."
@@ -141762,7 +141762,7 @@ const data = [
   },
   {
     "index": 16,
-    "category": "destinations",
+    "category": "destination",
     "date": "Mar 25th -  27th, 2016",
     "description": [
       "I first learned about backpacking/trekking while in Patagonia, walking underneath the granite spires called Torres del Paine."
@@ -141931,7 +141931,7 @@ const data = [
   },
   {
     "index": 17,
-    "category": "destinations",
+    "category": "destination",
     "date": "Mar 18th -  24th, 2016",
     "description": [
       "I returned to South America for another international adventure, this time including Lollapalooza, discovering a passion for the wilderness by hiking into the Andes mountains in search of glaciers, and heading down to Patagonia."
@@ -142137,77 +142137,25 @@ const data = [
   },
   {
     "index": 18,
-    "category": "destinations",
+    "category": "destination",
     "date": "Mar 23rd -  25th, 2015",
     "description": [
-      "My first vacation abroad in South America continued with a quick plane ride over to Montevideo."
+      "My first vacation abroad in South America continued with a quick plane ride over to Montevideo.",
+      "I spent my time exploring the heart of Montevideo's old city, starting from Ciudad Vieja, walking through the old Gateway of the Citadel, and right onto the Peatonal Sarandí (pedestrian street).",
+      "This pedestrian street is the main artery of the historic center, and it absolutely pulses with life during the day. Flanked by beautiful, varied architecture from different eras, the street is a visual journey through time. As I strolled, I passed bookstores, leather shops, cafes spilling onto the sidewalks, and a number of street vendors selling everything from artisan crafts to local mate gourds. The atmosphere was vibrant and relaxed.",
+      "The real highlight was the large outdoor market that takes over the street on Saturdays. It stretches for several blocks, creating a colorful and bustling scene of local life. I had to remind myself to slow down, to actually stop and browse the endless array of items on offer: vintage clothes, antique silverware, fresh fruits, vegetables, and countless unique trinkets. I could have spent hours just people-watching.",
+      "I followed the pedestrian way all the way to the end, near the port, where I found the iconic Mercado del Puerto. While this is an indoor market known for its incredible parrillas (meat grills), the area outside also has plenty of souvenir shops and places to grab a quick bite."
     ],
     "gear": {},
     "hasGear": false,
-    "hasStats": true,
+    "hasStats": false,
     "image": "2015/03/19/9650d680-3809-45e9-a9df-0e108f3e1498.jpeg",
     "label": "destination",
     "location": "Uruguay",
     "slug": "montevideo",
-    "stages": [
-      {
-        "date": "March 23rd, 2015",
-        "description": [
-          "I spent the day exploring the heart of Montevideo's old city, starting from Ciudad Vieja, walking through the old Gateway of the Citadel, and right onto the Peatonal Sarandí (pedestrian street).",
-          "This pedestrian street is the main artery of the historic center, and it absolutely pulses with life during the day. Flanked by beautiful, varied architecture from different eras, the street is a visual journey through time. As I strolled, I passed bookstores, leather shops, cafes spilling onto the sidewalks, and a number of street vendors selling everything from artisan crafts to local mate gourds. The atmosphere was vibrant and relaxed.",
-          "The real highlight was the large outdoor market that takes over the street on Saturdays. It stretches for several blocks, creating a colorful and bustling scene of local life. I had to remind myself to slow down, to actually stop and browse the endless array of items on offer: vintage clothes, antique silverware, fresh fruits, vegetables, and countless unique trinkets. I could have spent hours just people-watching.",
-          "I followed the pedestrian way all the way to the end, near the port, where I found the iconic Mercado del Puerto. While this is an indoor market known for its incredible parrillas (meat grills), the area outside also has plenty of souvenir shops and places to grab a quick bite.\n"
-        ],
-        "gpx": [],
-        "hasGpx": false,
-        "hasStats": false,
-        "image": "2015/03/19/9650d680-3809-45e9-a9df-0e108f3e1498.jpeg",
-        "location": "Montevideo",
-        "readingTime": "2",
-        "stats": {
-          "distance": null,
-          "gain": null,
-          "loss": null,
-          "max": null,
-          "time": null
-        },
-        "termini": {
-          "end": {
-            "position": null,
-            "words": [
-              "Exploring",
-              "the city"
-            ]
-          },
-          "isSame": true,
-          "start": {
-            "position": null,
-            "words": [
-              "Exploring",
-              "the city"
-            ]
-          }
-        }
-      }
-    ],
+    "stages": [],
     "stats": {
-      "altitude": {
-        "label": "altitude",
-        "value": {
-          "imperial": "-∞",
-          "metric": "-∞"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
-        }
-      },
+      "altitude": null,
       "days": {
         "label": "days",
         "value": "3",
@@ -142216,7 +142164,7 @@ const data = [
       "distance": null,
       "length": {
         "label": "length",
-        "value": 1,
+        "value": 0,
         "units": null
       }
     },
@@ -142228,7 +142176,7 @@ const data = [
   },
   {
     "index": 19,
-    "category": "destinations",
+    "category": "destination",
     "date": "Mar 19th -  22nd, 2015",
     "description": [
       "I embarked on my first vacation abroad to South America, experiencing the sights and sounds of Buenos Aires and my first music festival at Lollapalooza."

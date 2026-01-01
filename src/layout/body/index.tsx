@@ -1,4 +1,5 @@
 import { Geist } from 'next/font/google';
+import Link from 'next/link';
 import Script from 'next/script';
 
 import styles from './stylesheet';
@@ -37,6 +38,12 @@ export default function Body({ children }: Props) {
           })();
         `}
       </Script>
+      <Link
+        className={styles.skip}
+        href="#first-article"
+      >
+        Skip to Main Content
+      </Link>
       {children}
     </body>
   );

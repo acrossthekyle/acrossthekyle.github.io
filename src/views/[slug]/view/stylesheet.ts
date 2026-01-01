@@ -112,6 +112,7 @@ const styles = tw({
   `,
   eyelid: `
     block
+    my-0.75
     uppercase
     text-tiny
     font-semibold font-stretch-semi-condensed
@@ -128,10 +129,18 @@ const styles = tw({
     text-base/5.5
   `,
   more: `
-    block
-    mt-2
-    text-sm
-    underline underline-offset-4
+    flex items-center gap-1
+    mt-4
+    font-bold
+    text-xs
+    uppercase
+    duration-300
+
+    hover:gap-2
+  `,
+  icon: `
+    h-3.25 w-3.25
+    stroke-3
   `,
 });
 

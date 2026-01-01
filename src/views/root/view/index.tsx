@@ -1,5 +1,8 @@
 'use client';
 
+import { ArrowRight } from 'lucide-react';
+import Link from 'next/link';
+
 import {
   Image,
   ImageCaption,
@@ -39,7 +42,10 @@ export default function View({ data }: Props) {
               width={1920}
             />
             <ImageCaption>
-              <ImageLink href={`/${item.slug}`}>
+              <ImageLink
+                href={`/${item.slug}`}
+                id={index === 0 ? 'first-article' : undefined}
+              >
                 <ImageCaptionCount>
                   {padIndex(item.index + 1)}
                 </ImageCaptionCount>
@@ -58,12 +64,23 @@ export default function View({ data }: Props) {
             </ImageCaption>
           </ImageFigure>
           {item.description.length > 0 && (
-            <section aria-label="preview">
-              <p className={styles.description}>
-                {item.description[0]}
-              </p>
-            </section>
+            <>
+              <section aria-label="category and date" className={styles.meta}>
+                <span>{item.category}</span> / <span>{item.date}</span>
+              </section>
+              <section aria-label="preview">
+                <p className={styles.description}>
+                  {item.description[0]}
+                </p>
+              </section>
+            </>
           )}
+          <footer className={styles.footer}>
+            <Link className={styles.link} href={`/${item.slug}`}>
+              Learn More
+              <ArrowRight className={styles.icon} />
+            </Link>
+          </footer>
         </article>
       ))}
     </section>

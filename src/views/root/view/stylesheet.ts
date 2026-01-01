@@ -20,12 +20,36 @@ const styles = tw({
     hecto:p-12
     mega:p-16
   `,
-  description: `
-    mt-4
-    text-base
-    line-clamp-3
+  meta: `
+    flex flex-row gap-3
+    mt-6 mb-2
+    uppercase
+    font-bold
+    text-xs text-current/75
 
-    base:mt-10
+    base:mt-8
+  `,
+  description: `
+    line-clamp-3
+  `,
+  footer: `
+    flex items-end
+    mt-4
+    uppercase
+    text-xs
+
+    base:mt-8
+  `,
+  link: `
+    flex items-center gap-1
+    font-bold
+    duration-300
+
+    hover:gap-2
+  `,
+  icon: `
+    w-3.25 h-3.25
+    stroke-3
   `,
 });
 
