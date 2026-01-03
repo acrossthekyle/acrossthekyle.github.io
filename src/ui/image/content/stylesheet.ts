@@ -3,18 +3,20 @@ import tw from '@/styles';
 const styles = tw({
   text: `
     inline-block
-    my-1
-    duration-300
+    p-2
     text-xl/4
-    font-extrablack font-stretch-semi-condensed
+    font-extrablack font-stretch-semi-expanded
     tracking-tighter
     uppercase
+    duration-300
 
-    micro:text-3xl/6
-    base:font-stretch-semi-expanded
-    base:text-2xl/5
-    mega:text-3xl/6
-    giga:text-4xl/7
+    plank:text-2xl/4.5
+    nano:text-3xl/5.75
+    centi:text-4xl/7
+    base:p-3
+    base:text-3xl/6
+    hecto:text-4xl/7
+    mega:text-5xl/9.25
 
     group-hover/figure:font-bold
     group-hover/figure:font-stretch-normal

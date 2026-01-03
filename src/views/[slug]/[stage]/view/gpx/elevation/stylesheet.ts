@@ -10,6 +10,11 @@ const styles = tw({
 
     base:h-46
   `,
+  title: `
+    absolute top-4 left-4
+    text-xs
+    uppercase
+  `,
 });
 
 export default styles;

@@ -6,12 +6,12 @@ import Link from 'next/link';
 import {
   Image,
   ImageCaption,
+  ImageCaptionContent,
   ImageCaptionCount,
   ImageCaptionEyebrow,
+  ImageCaptionLink,
   ImageCaptionMeta,
-  ImageCaptionText,
   ImageFigure,
-  ImageLink,
 } from '@/ui/image';
 import { padIndex } from '@/utils';
 
@@ -32,7 +32,7 @@ export default function View({ data }: Props) {
       <Filters data={data} onChange={handleOnFilter} />
       {items.map((item, index: number) => (
         <article className={styles.article} key={index}>
-          <ImageFigure>
+          <ImageFigure scale>
             <Image
               alt=""
               height={1080}
@@ -42,38 +42,33 @@ export default function View({ data }: Props) {
               width={1920}
             />
             <ImageCaption>
-              <ImageLink
+              <ImageCaptionLink
                 href={`/${item.slug}`}
                 id={index === 0 ? 'first-article' : undefined}
               >
                 <ImageCaptionCount>
                   {padIndex(item.index + 1)}
                 </ImageCaptionCount>
-                <ImageCaptionEyebrow>
-                  {item.location}
-                </ImageCaptionEyebrow>
-                <ImageCaptionText>
+                <ImageCaptionContent>
+                  <ImageCaptionEyebrow>
+                    {item.location}
+                  </ImageCaptionEyebrow>
                   {item.title.map((words) => (
                     <span className="block" key={words}>{words}</span>
                   ))}
-                </ImageCaptionText>
+                </ImageCaptionContent>
                 <ImageCaptionMeta>
                   {item.type}
                 </ImageCaptionMeta>
-              </ImageLink>
+              </ImageCaptionLink>
             </ImageCaption>
           </ImageFigure>
           {item.description.length > 0 && (
-            <>
-              <section aria-label="category and date" className={styles.meta}>
-                <span>{item.category}</span> / <span>{item.date}</span>
-              </section>
-              <section aria-label="preview">
-                <p className={styles.description}>
-                  {item.description[0]}
-                </p>
-              </section>
-            </>
+            <section aria-label="preview">
+              <p className={styles.description}>
+                {item.description[0]}
+              </p>
+            </section>
           )}
           <footer className={styles.footer}>
             <Link className={styles.link} href={`/${item.slug}`}>

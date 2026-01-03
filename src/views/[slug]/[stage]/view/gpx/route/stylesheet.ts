@@ -4,9 +4,11 @@ const styles = tw({
   section: `
     relative z-0
     h-[calc(100vh-22rem)] w-full
-    border-t-1
-
-    dark:border-t-white/15 light:border-t-black/15
+  `,
+  title: `
+    absolute top-4 left-4 z-9999
+    text-xs
+    uppercase
   `,
   map: `
     relative

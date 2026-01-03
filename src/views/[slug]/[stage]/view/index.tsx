@@ -1,4 +1,11 @@
-import { Image, ImageCaption } from '@/ui/image';
+import {
+  Image,
+  ImageCaption,
+  ImageCaptionContent,
+  ImageCaptionCount,
+  ImageCaptionEyebrow,
+  ImageFigure,
+} from '@/ui/image';
 
 import Gpx from './gpx';
 import Return from './return';
@@ -19,15 +26,7 @@ export default function View({ data }: Props) {
     <section aria-labelledby="heading" className={styles.container}>
       <Return label={data.travel} slug={data.slug} />
       <article className={styles.article}>
-        <h2 className={styles.heading}>
-          <span className={styles.eyebrow}>
-            {data.date}
-          </span>
-          {data.title.map((words) => (
-            <span className="block" key={words}>{words}</span>
-          ))}
-        </h2>
-        <figure className={styles.figure}>
+        <ImageFigure>
           <Image
             alt=""
             color
@@ -36,12 +35,23 @@ export default function View({ data }: Props) {
             src={data.image}
             width={1920}
           />
-          {data.hasStats && (
-            <ImageCaption className={styles.caption}>
+          <ImageCaption>
+            <ImageCaptionCount>
+              {data.index}
+            </ImageCaptionCount>
+            <ImageCaptionContent id="heading">
+              <ImageCaptionEyebrow>
+                {data.date}
+              </ImageCaptionEyebrow>
+              {data.title.map((words) => (
+                <span className={styles.line} key={words}>{words}</span>
+              ))}
+            </ImageCaptionContent>
+            {data.hasStats && (
               <Stats stats={data.stats} />
-            </ImageCaption>
-          )}
-        </figure>
+            )}
+          </ImageCaption>
+        </ImageFigure>
         {data.description.length > 0 && (
           <section aria-label="description" className={styles.section}>
             {data.description.map((paragraph) => (

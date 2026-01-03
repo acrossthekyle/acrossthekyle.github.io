@@ -47,7 +47,7 @@ const styles = {
     mb-4
   `,
   heading: `
-    text-xs
+    text-sm
     uppercase
     font-bold
   `,
@@ -97,13 +97,13 @@ const styles = {
     relative
     flex flex-row justify-end items-start
     capitalize
-    text-lg
+    text-xl
     font-extralight
     select-none
 
     dark:text-white light:text-black
 
-    base:text-base
+    base:text-lg
   `,
   count: `
     ml-1

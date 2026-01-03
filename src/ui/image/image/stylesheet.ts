@@ -7,13 +7,11 @@ const styles = {
     object-cover
     w-full h-full
     transform-gpu duration-700
-    rounded-lg
+    rounded-sm
     ${!color && 'grayscale-100'}
     ${!color ? 'brightness-60' : 'brightness-100'}
 
     ${getAspectClassNames(index)}
-
-    base:rounded-sm
 
     ${!color && isInView && `
       brightness-100

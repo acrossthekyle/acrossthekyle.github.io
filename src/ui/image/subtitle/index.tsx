@@ -4,7 +4,7 @@ type Props = {
   children: React.ReactNode | React.ReactNode[];
 };
 
-export default function Eyebrow({ children }: Props) {
+export default function Subtitle({ children }: Props) {
   return (
     <span className={styles.container}>
       {children}

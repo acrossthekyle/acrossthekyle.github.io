@@ -1,14 +1,13 @@
 import tw from '@/styles';
 
-const styles = tw({
-  figure: `
-    group/figure
+const styles = {
+  figure: (hoverable?: boolean) => tw(`
+    ${hoverable && 'group/figure'}
+
     relative
     overflow-hidden
-    rounded-lg
-
-    base:rounded-sm
-  `,
-});
+    rounded-sm
+  `),
+};
 
 export default styles;

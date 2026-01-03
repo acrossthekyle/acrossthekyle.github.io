@@ -1,7 +1,15 @@
 import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 
-import { Image } from '@/ui/image';
+import {
+  Image,
+  ImageCaption,
+  ImageCaptionContent,
+  ImageCaptionCount,
+  ImageCaptionEyebrow,
+  ImageCaptionMeta,
+  ImageFigure,
+} from '@/ui/image';
 
 import Return from './return';
 import styles from './stylesheet';
@@ -20,18 +28,7 @@ export default function View({ data }: Props) {
     <>
       <Return />
       <article className={styles.container}>
-        <h2 className={styles.title}>
-          <span className={styles.eyebrow}>
-            {data.location}
-          </span>
-          {data.title.map((words) => (
-            <span className={styles.line} key={words}>{words}</span>
-          ))}
-          <span className={styles.meta}>
-            {data.date}
-          </span>
-        </h2>
-        <figure className={styles.figure}>
+        <ImageFigure>
           <Image
             alt=""
             color
@@ -40,7 +37,23 @@ export default function View({ data }: Props) {
             src={data.image}
             width={1920}
           />
-        </figure>
+          <ImageCaption>
+            <ImageCaptionCount>
+              {data.index}
+            </ImageCaptionCount>
+            <ImageCaptionContent>
+              <ImageCaptionEyebrow>
+                {data.location}
+              </ImageCaptionEyebrow>
+              {data.title.map((words) => (
+                <span className={styles.line} key={words}>{words}</span>
+              ))}
+            </ImageCaptionContent>
+            <ImageCaptionMeta>
+              {data.type}
+            </ImageCaptionMeta>
+          </ImageCaption>
+        </ImageFigure>
         {data.description.length > 0 && (
           <section aria-label="overview">
             {data.description.map((paragraph) => (
@@ -59,7 +72,7 @@ export default function View({ data }: Props) {
                     <span className={styles.eyelid}>
                       {data.label} #{stage.index}
                     </span>
-                    <h3>
+                    <h3 className={styles.heading}>
                       {stage.termini.end.words.map((words) => (
                         <span className={styles.line} key={words}>{words}</span>
                       ))}
@@ -72,7 +85,7 @@ export default function View({ data }: Props) {
                     {stage.description[0]}
                   </p>
                   <Link className={styles.more} href={`/${data.slug}/${stage.index}`}>
-                    View Post <ArrowRight className={styles.icon} />
+                    View Details <ArrowRight className={styles.icon} />
                   </Link>
                 </li>
               ))}

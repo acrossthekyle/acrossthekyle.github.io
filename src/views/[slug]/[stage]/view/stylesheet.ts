@@ -6,78 +6,19 @@ const styles = tw({
     animate-in-fade
   `,
   article: `
+    p-6
+
     dark:text-white light:text-black
-  `,
-  heading: `
-    text-4xl/7
-    font-extrablack font-stretch-ultra-condensed
-    uppercase
-    mt-6 mx-6 mb-2
 
-    plank:text-5xl/9.25
-    nano:text-6xl/11.25
-    base:mt-8
-    base:mx-8
-    base:text-4xl/7
-    hecto:mt-12
-    hecto:mx-12
-    hecto:text-5xl/9.25
-    mega:mt-16
-    mega:mx-16
-    mega:text-6xl/11.25
+    base:p-8
+    hecto:p-12
+    mega:p-16
   `,
-  eyebrow: `
+  line: `
     block
-    uppercase
-    text-tiny
-    font-semibold font-stretch-semi-condensed
-    tracking-wide
-    mb-1
-
-    nano:text-xs
-    base:font-bold
-    deka:text-tiny
-    kilo:text-xs
-  `,
-  meta: `
-    mx-6 mb-2
-    text-tiny
-    font-semibold font-stretch-semi-condensed
-    uppercase
-    tracking-wide
-
-    nano:text-xs
-    base:font-bold
-    base:mx-8
-    deka:text-tiny
-    hecto:mx-12
-    mega:mx-16
-    kilo:text-xs
-  `,
-  figure: `
-    relative
-
-    mx-6 mb-6 mt-4
-
-    base:mx-8
-    base:mb-8
-    hecto:mx-12
-    hecto:mb-6
-    mega:mx-16
-    mega:mb-8
-  `,
-  caption: `
-    p-4
   `,
   section: `
-    px-6 pb-6
-
-    base:px-8
-    base:pb-8
-    hecto:px-12
-    hecto:pb-12
-    mega:px-16
-    mega:pb-16
+    mt-8
   `,
   paragraph: `
     text-base

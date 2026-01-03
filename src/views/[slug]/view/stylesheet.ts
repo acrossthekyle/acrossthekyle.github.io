@@ -12,67 +12,23 @@ const styles = tw({
     hecto:p-12
     mega:p-16
   `,
-  title: `
-    text-4xl/7
-    font-extrablack font-stretch-ultra-condensed
-    uppercase
-
-    plank:text-5xl/9.25
-    nano:text-6xl/11.25
-    base:text-4xl/7
-    hecto:text-5xl/9.25
-    mega:text-6xl/11.25
-  `,
-  eyebrow: `
-    block
-    uppercase
-    text-tiny
-    font-semibold font-stretch-semi-condensed
-    tracking-wide
-    mb-1
-
-    nano:text-xs
-    base:font-bold
-    deka:text-tiny
-    kilo:text-xs
-  `,
   line: `
     block
-  `,
-  meta: `
-    block
-    mt-1.5 mb-4
-    text-tiny
-    font-semibold font-stretch-semi-condensed
-    uppercase
-    tracking-wide
-
-    nano:text-xs
-    base:font-bold
-    deka:text-tiny
-    kilo:text-xs
-  `,
-  figure: `
-    relative
-
-    base:mb-2
   `,
   description: `
     mb-4
     text-base
 
-    first:mt-4
+    first:mt-5
     last:mb-0
+
+    base:first:mt-8
   `,
   nav: `
-    mt-6
+    mt-8
     border-t-1
 
     dark:border-t-white/15 light:border-t-black/15
-
-    base:mt-8
-    hecto:mt-12
-    mega:mt-16
   `,
   list: `
     flex flex-col
@@ -94,39 +50,40 @@ const styles = tw({
     group/link
     flex flex-col gap-0.5
     mb-2
-    text-xl/4
-    font-extrablack font-stretch-semi-condensed
-    tracking-tighter
-    uppercase
-    duration-300
-
-    micro:text-4xl/7
-    base:gap-1
-    base:font-stretch-semi-expanded
-    base:text-2xl/5
-    mega:text-3xl/6
-    giga:text-4xl/7
-
-    hover:font-bold
-    hover:font-stretch-normal
   `,
   eyelid: `
     block
     my-0.75
     uppercase
     text-tiny
-    font-semibold font-stretch-semi-condensed
+    font-bold font-stretch-semi-condensed
     tracking-widest
     duration-300
 
     nano:text-xs
-    base:font-bold
-    deka:text-tiny
-    kilo:text-xs
+    base:text-tiny
+    mega:text-xs
+  `,
+  heading: `
+    text-xl/4
+    font-extrablack font-stretch-semi-expanded
+    tracking-tighter
+    uppercase
+    duration-300
+
+    plank:text-2xl/4.5
+    nano:text-3xl/5.75
+    centi:text-4xl/7
+    base:text-3xl/6
+    hecto:text-4xl/7
+    mega:text-5xl/9.25
+
+    group-hover/link:font-bold
+    group-hover/link:font-stretch-normal
   `,
   preview: `
     line-clamp-2
-    text-base/5.5
+    text-base
   `,
   more: `
     flex items-center gap-1

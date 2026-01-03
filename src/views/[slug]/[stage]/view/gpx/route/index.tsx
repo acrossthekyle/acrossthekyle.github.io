@@ -27,6 +27,7 @@ export default function Route({ gpx, termini }: Props) {
 
   return (
     <div className={styles.section}>
+      <h4 className={styles.title}>Route</h4>
       <Plugin
         gpx={gpx}
         hoverIndex={hoverIndex}

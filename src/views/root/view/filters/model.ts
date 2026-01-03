@@ -4,7 +4,6 @@ import { useEffect, useState } from 'react';
 import { create } from 'zustand';
 
 import { useEvent } from '@/hooks/useEvent';
-import { useTheme } from '@/hooks/useTheme';
 
 type State = {
   filterBy: string;
@@ -47,8 +46,6 @@ export function useModel(onChange: (filter?: string, sort?: string, order?: stri
     sortBy,
   } = store();
 
-  const { onToggleTheme, theme } = useTheme();
-
   useEffect(() => {
     onChange(filterBy, sortBy, orderBy);
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -78,10 +75,6 @@ export function useModel(onChange: (filter?: string, sort?: string, order?: stri
     setSortBy(value);
   };
 
-  const handleOnSwitchTheme = () => {
-    onToggleTheme();
-  };
-
   useEvent('onEscape', () => {
     if (isDialogActive) {
       handleOnClose();
@@ -95,10 +88,8 @@ export function useModel(onChange: (filter?: string, sort?: string, order?: stri
     handleOnOpen,
     handleOnOrder,
     handleOnSort,
-    handleOnSwitchTheme,
     isDialogActive,
     orderBy,
     sortBy,
-    theme,
   };
 };

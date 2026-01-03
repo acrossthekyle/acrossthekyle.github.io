@@ -18,29 +18,22 @@ export default function Filters({ data, onChange }: Props) {
     handleOnOpen,
     handleOnOrder,
     handleOnSort,
-    handleOnSwitchTheme,
     isDialogActive,
     orderBy,
     sortBy,
-    theme,
   } = useModel(onChange);
 
   return (
-    <nav aria-label="timeline search and filter navigation" className={styles.container}>
-      <button
-        className={styles.cta}
-        onClick={handleOnSwitchTheme}
-        type="button"
-      >
-        Switch to {theme === 'dark' ? 'light' : 'dark'} Mode
-      </button>
-      <button
-        className={styles.cta}
-        onClick={handleOnOpen}
-        type="button"
-      >
-        Filter List
-      </button>
+    <>
+      <nav aria-label="timeline search and filter navigation" className={styles.container}>
+        <button
+          className={styles.cta}
+          onClick={handleOnOpen}
+          type="button"
+        >
+          Currently viewing <span className={styles.underline}>{filterBy}</span>, sorted by <span className={styles.underline}>{sortBy}</span> in <span className={styles.underline}>{orderBy}</span> order.
+        </button>
+      </nav>
       <Dialog
         data={data}
         filterBy={filterBy}
@@ -52,6 +45,6 @@ export default function Filters({ data, onChange }: Props) {
         orderBy={orderBy}
         sortBy={sortBy}
       />
-    </nav>
+    </>
   );
 }

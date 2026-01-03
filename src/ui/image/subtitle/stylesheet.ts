@@ -3,7 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     block
-    mb-1
+    mt-1
     uppercase
     text-tiny
     font-bold font-stretch-semi-condensed

@@ -20,17 +20,11 @@ const styles = tw({
     hecto:p-12
     mega:p-16
   `,
-  meta: `
-    flex flex-row gap-3
-    mt-6 mb-2
-    uppercase
-    font-bold
-    text-xs text-current/75
+  description: `
+    mt-6
+    line-clamp-3
 
     base:mt-8
-  `,
-  description: `
-    line-clamp-3
   `,
   footer: `
     flex items-end

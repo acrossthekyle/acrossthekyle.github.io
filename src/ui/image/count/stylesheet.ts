@@ -2,18 +2,20 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    absolute top-4 left-4
+    absolute top-2 left-2
     flex items-start justify-center
-    py-2 px-3
+    py-1.5 px-2
     text-xs
     font-mono font-bold
     uppercase
-    rounded-lg
+    rounded-sm
+    shadow-md
 
-    dark:bg-black/90 light:bg-white/90
-    dark:text-white light:text-black
+    dark:bg-white/90 light:bg-black/90
+    dark:text-black light:text-white
 
-    base:rounded-sm
+    base:top-4
+    base:left-4
   `,
   superscript: `
     mt-2.75

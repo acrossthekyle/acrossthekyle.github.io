@@ -4,7 +4,7 @@ const styles = tw({
   container: (isExpanded: boolean) => tw(`
     flex flex-col justify-end
     ${isExpanded ? `
-      h-dvh
+      h-166
 
       [transition:height_.3s_var(--ease-in-out)]
     ` : `
@@ -54,6 +54,12 @@ const styles = tw({
 
     base:hidden
   `,
+  x: (isExpanded: boolean) => tw(`
+    duration-250
+    ${isExpanded ? 'rotate-0' : 'rotate-45'}
+
+    stroke-2
+  `),
   group: (isExpanded: boolean) => tw(`
     mb-6
 
@@ -74,7 +80,7 @@ const styles = tw({
   tagline: `
     font-extrablack font-stretch-condensed
     uppercase
-    text-4xl/7
+    text-5xl/9.25
     mb-8
 
     base:text-4xl/7
@@ -110,7 +116,9 @@ const styles = tw({
 
     pico:flex
     pico:flex-row
+    pico:justify-center
     pico:gap-4
+    base:justify-start
   `,
   link: `
     text-sm

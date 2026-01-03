@@ -5,10 +5,10 @@ type Props = {
   id?: string;
 };
 
-export default function Text({ children, id }: Props) {
+export default function Content({ children, id }: Props) {
   return (
-    <h3 className={styles.text} id={id}>
+    <h2 className={styles.text} id={id}>
       {children}
-    </h3>
+    </h2>
   );
 }

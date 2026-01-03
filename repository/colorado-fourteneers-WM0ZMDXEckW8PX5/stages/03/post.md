@@ -1,4 +1,4 @@
-y second year coming to Colorado to hike mountain peaks above 14,000 feet, and
+My second year coming to Colorado to hike mountain peaks above 14,000 feet, and
 this time I opted to camp at or near the trailheads of all of the hikes that I
 planned on doing, so that I wouldn't have to wake up at 1:00 am to drive 3 hours
 to the starting point. Instead I could wake up at 4:00 am to drive 10 minutes.

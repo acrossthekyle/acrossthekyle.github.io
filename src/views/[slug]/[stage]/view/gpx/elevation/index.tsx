@@ -42,6 +42,7 @@ export default function Elevation({ gpx }: Props) {
 
   return (
     <div className={styles.section} onMouseLeave={handleMouseLeave}>
+      <h4 className={styles.title}>Elevation</h4>
       <Chart
         options={{
           chart: {

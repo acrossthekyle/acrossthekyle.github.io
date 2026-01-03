@@ -13,6 +13,7 @@ export default function get(slug: string) {
     date: data.date,
     description: data.description,
     image: data.image,
+    index: padIndex(db.findIndex((item) => item.slug.toLowerCase() === slug.toLowerCase()) + 1),
     label: data.label,
     location: data.location,
     slug,

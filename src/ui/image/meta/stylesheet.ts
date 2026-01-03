@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    absolute top-4 right-4
+    absolute top-1.5 right-2
     block
     uppercase
     text-xs
@@ -10,6 +10,8 @@ const styles = tw({
     tracking-wide
 
     base:font-bold
+    base:top-4
+    base:right-4
   `,
 });
 

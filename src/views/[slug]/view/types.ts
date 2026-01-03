@@ -5,6 +5,7 @@ export type Post = {
   date: string;
   description: string[];
   image: string;
+  index: string;
   label: string;
   location: string;
   slug: string;
