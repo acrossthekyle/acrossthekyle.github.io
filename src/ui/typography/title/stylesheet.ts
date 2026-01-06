@@ -14,8 +14,7 @@ const styles = tw({
     base:text-3xl/6
     hecto:text-4xl/7
     kilo:text-5xl/9.25
-    giga:text-6xl/11.5
-    tera:text-7xl/14
+    peta:text-6xl/11.5
   `,
 });
 
