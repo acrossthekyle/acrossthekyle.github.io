@@ -1,22 +1,10 @@
-'use client';
-
 import Link from 'next/link';
 
-import { useModel } from './model';
 import styles from './stylesheet';
 
 export default function Footer() {
-  const { handleOnSwitchTheme, theme } = useModel();
-
   return (
     <footer className={styles.container}>
-      <button
-        className={styles.theme}
-        onClick={handleOnSwitchTheme}
-        type="button"
-      >
-        Switch to {theme === 'dark' ? 'light' : 'dark'} Mode
-      </button>
       <nav
         aria-label="supplementary navigation"
         className={styles.links}
@@ -24,21 +12,13 @@ export default function Footer() {
         <ul className={styles.list}>
           <li>
             <Link
-              aria-label="view resume"
+              aria-label="view instagram profile"
               className={styles.link}
-              href="/acrossthekyle-resume.pdf"
+              href="https://instagram.com/acrossthekyle"
               target="_blank"
+              rel="noreferrer"
             >
-              Resume
-            </Link>
-          </li>
-          <li>
-            <Link
-              aria-label="send email"
-              className={styles.link}
-              href="mailto:hello@acrossthekyle.com"
-            >
-              Contact
+              Instagram
             </Link>
           </li>
           <li>
@@ -54,13 +34,21 @@ export default function Footer() {
           </li>
           <li>
             <Link
-              aria-label="view instagram profile"
+              aria-label="send email"
               className={styles.link}
-              href="https://instagram.com/acrossthekyle"
-              target="_blank"
-              rel="noreferrer"
+              href="mailto:hello@acrossthekyle.com"
             >
-              Instagram
+              Contact
+            </Link>
+          </li>
+          <li>
+            <Link
+              aria-label="view resume"
+              className={styles.link}
+              href="/acrossthekyle-resume.pdf"
+              target="_blank"
+            >
+              Resume
             </Link>
           </li>
         </ul>

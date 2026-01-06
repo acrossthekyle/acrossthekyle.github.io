@@ -27,6 +27,7 @@ export default function get(slug: string) {
       termini,
     })),
     title: data.title,
+    travel: data.location,
     type: data.type,
   };
 };

@@ -3,7 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   body: `
     antialiased
-    flex flex-col
+    h-full
     overflow-x-hidden
   `,
   skip: `

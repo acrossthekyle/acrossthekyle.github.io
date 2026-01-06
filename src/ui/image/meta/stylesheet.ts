@@ -12,6 +12,11 @@ const styles = tw({
     base:font-bold
     base:top-4
     base:right-4
+    mega:text-sm
+    mega:top-6
+    mega:right-6
+    tera:text-base
+    peta:text-xl
   `,
 });
 

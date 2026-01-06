@@ -1,17 +1,17 @@
-import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 
+import { LayoutFooter, LayoutHeader, LayoutMain } from '@/layout';
+import { HeaderBack, HeaderHeading, HeaderSection } from '@/ui/header';
 import {
   Image,
   ImageCaption,
   ImageCaptionContent,
   ImageCaptionCount,
   ImageCaptionEyebrow,
-  ImageCaptionMeta,
   ImageFigure,
 } from '@/ui/image';
+import { Eyebrow, Paragraph } from '@/ui/typography';
 
-import Return from './return';
 import styles from './stylesheet';
 import type { Post } from './types';
 
@@ -26,73 +26,69 @@ export default function View({ data }: Props) {
 
   return (
     <>
-      <Return />
-      <article className={styles.container}>
-        <ImageFigure>
-          <Image
-            alt=""
-            color
-            height={1080}
-            sizes="(max-width: 768px) 100vw, 50vw"
-            src={data.image}
-            width={1920}
-          />
-          <ImageCaption>
-            <ImageCaptionCount>
-              {data.index}
-            </ImageCaptionCount>
-            <ImageCaptionContent>
-              <ImageCaptionEyebrow>
-                {data.location}
-              </ImageCaptionEyebrow>
-              {data.title.map((words) => (
-                <span className={styles.line} key={words}>{words}</span>
-              ))}
-            </ImageCaptionContent>
-            <ImageCaptionMeta>
-              {data.type}
-            </ImageCaptionMeta>
-          </ImageCaption>
-        </ImageFigure>
-        {data.description.length > 0 && (
-          <section aria-label="overview">
-            {data.description.map((paragraph) => (
-              <p className={styles.description} key={paragraph}>
-                {paragraph}
-              </p>
-            ))}
-          </section>
-        )}
+      <LayoutHeader>
+        <HeaderBack fallback="/" />
+        <HeaderHeading>
+          <Eyebrow>
+            {data.location}
+          </Eyebrow>
+          {data.title.map((words, index: number) => (
+            <span className={styles.line} key={index}>{words}</span>
+          ))}
+        </HeaderHeading>
+        <HeaderSection>
+          {data.description.map((paragraph) => (
+            <Paragraph key={paragraph}>
+              {paragraph}
+            </Paragraph>
+          ))}
+        </HeaderSection>
+      </LayoutHeader>
+      <LayoutMain>
         {data.stages.length > 0 && (
-          <nav aria-label="supplementary navigation" className={styles.nav}>
-            <ul className={styles.list}>
-              {data.stages.map((stage, index) => (
-                <li className={styles.item} key={index}>
-                  <Link className={styles.link} href={`/${data.slug}/${stage.index}`}>
-                    <span className={styles.eyelid}>
-                      {data.label} #{stage.index}
-                    </span>
-                    <h3 className={styles.heading}>
-                      {stage.termini.end.words.map((words) => (
-                        <span className={styles.line} key={words}>{words}</span>
-                      ))}
-                    </h3>
-                    <span className={styles.eyelid}>
-                      {stage.date}
-                    </span>
-                  </Link>
-                  <p className={styles.preview}>
-                    {stage.description[0]}
-                  </p>
-                  <Link className={styles.more} href={`/${data.slug}/${stage.index}`}>
-                    View Details <ArrowRight className={styles.icon} />
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </nav>
+          <>
+            {data.stages.map((stage, index) => (
+              <article
+                aria-labelledby={`stage-${stage.index}`}
+                className={styles.container}
+                key={stage.index}
+              >
+                <Link href={`/${data.slug}/${stage.index}`}>
+                  <ImageFigure scale>
+                    <Image
+                      alt=""
+                      height={1080}
+                      index={index}
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                      src={stage.image}
+                      width={1920}
+                    />
+                    <ImageCaption>
+                      <ImageCaptionCount>
+                        {stage.index}
+                      </ImageCaptionCount>
+                      <ImageCaptionContent id={`stage-${stage.index}`}>
+                        <ImageCaptionEyebrow>
+                          {stage.date}
+                        </ImageCaptionEyebrow>
+                        {stage.termini.end.words.map((words) => (
+                          <span className="block" key={words}>{words}</span>
+                        ))}
+                      </ImageCaptionContent>
+                    </ImageCaption>
+                  </ImageFigure>
+                </Link>
+                <section aria-label="preview" className={styles.preview}>
+                  <Paragraph>
+                    {stage.description[0]}..
+                  </Paragraph>
+                </section>
+              </article>
+            ))}
+          </>
         )}
-      </article>
+      </LayoutMain>
+      <LayoutFooter />
     </>
   );
 }

@@ -1,30 +1,32 @@
 import tw from '@/styles';
 
 const styles = tw({
-  container: `
-    opacity-0
-    animate-in-fade
-  `,
   article: `
     p-6
+    opacity-0
+    animate-in-fade
 
     dark:text-white light:text-black
 
     base:p-8
     hecto:p-12
-    mega:p-16
+    kilo:p-16
   `,
   line: `
     block
   `,
   section: `
-    mt-8
-  `,
-  paragraph: `
-    text-base
-    mb-4
+    mt-6
 
-    last:mb-0
+    base:mt-8
+    hecto:mt-12
+    kilo:mt-16
+  `,
+  meta: `
+    block
+    mb-6
+    text-sm
+    font-bold
   `,
 });
 

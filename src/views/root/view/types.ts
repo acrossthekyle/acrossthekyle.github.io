@@ -4,7 +4,7 @@ export type Data = {
   date: string;
   description: string[];
   image: string;
-  index: number;
+  index: string;
   location: string;
   slug: string;
   timestamp: string;

@@ -1,49 +1,36 @@
 import tw from '@/styles';
 
 const styles = tw({
-  container: `
-    flex flex-col
-    opacity-0
-    animate-in-fade
-
-    dark:text-white light: text-black
-  `,
   article: `
     p-6
     border-b-1
+    opacity-0
+    animate-in-fade
 
+    dark:text-white light:text-black
     dark:border-b-white/15 light:border-b-black/15
 
     last:border-b-0
 
     base:p-8
     hecto:p-12
-    mega:p-16
+    kilo:p-16
   `,
-  description: `
+  preview: `
     mt-6
-    line-clamp-3
 
     base:mt-8
   `,
-  footer: `
-    flex items-end
-    mt-4
-    uppercase
-    text-xs
-
-    base:mt-8
+  emphasis: `
+    font-serif
+    italic
   `,
-  link: `
-    flex items-center gap-1
-    font-bold
-    duration-300
-
-    hover:gap-2
+  filter: `
+    absolute top-0 right-0
+    p-4
   `,
   icon: `
-    w-3.25 h-3.25
-    stroke-3
+    w-4.5 h-4.5
   `,
 });
 

@@ -1,23 +1,23 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
-import { useCallback } from 'react';
 
 import { useHistory } from '@/hooks/useHistory';
 
-export function useModel(slug: string) {
+export const useModel = (fallback: string) => {
   const router = useRouter();
+
   const { previousRoute } = useHistory();
 
-  const handleOnReturn = useCallback(() => {
+  const handleOnBack = () => {
     if (previousRoute !== null) {
       router.back();
     } else {
-      router.push(`/${slug}`);
+      router.push(fallback);
     }
-  }, [previousRoute, router, slug]);
+  };
 
   return {
-    handleOnReturn,
+    handleOnBack,
   };
 };

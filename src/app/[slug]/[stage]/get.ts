@@ -29,6 +29,7 @@ export default function get(slug: string, stage: string) {
     image: result.image,
     index: stage,
     label: found.label,
+    location: found.location,
     next: next ? {
       date: found.stages[next - 1].date,
       index: padIndex(next),

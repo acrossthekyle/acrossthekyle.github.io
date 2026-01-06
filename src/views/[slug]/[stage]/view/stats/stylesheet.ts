@@ -2,24 +2,28 @@ import tw from '@/styles';
 
 const styles = tw({
   list: `
-    absolute top-2 right-2
-    flex flex-col gap-4 items-end
+    flex gap-4
 
-    base:top-4
-    base:right-4
+    base:gap-6
+    hecto:gap-8
+    kilo:gap-12
   `,
   item: `
-    flex flex-col gap-0
+    flex flex-col gap-1
   `,
   heading: `
     uppercase
     font-extrablack
-    text-right text-tiny text-current/90 text-shadow-sm
+    text-tiny
+
+    peta:text-base
   `,
   value: `
     font-medium
-    text-right text-xs text-shadow-sm
+    text-xs
     uppercase
+
+    peta:text-xl
   `,
 });
 

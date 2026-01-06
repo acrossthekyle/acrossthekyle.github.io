@@ -4,7 +4,7 @@ import type { Metadata, Viewport } from 'next';
 
 import Hierarchy from '@/contexts/hierarchy';
 import History from '@/contexts/history';
-import Layout from '@/layout';
+import { LayoutBody, LayoutLoader } from '@/layout';
 import { KeyboardListener } from '@/listeners';
 
 import { introduction } from './constants';
@@ -46,6 +46,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
+  maximumScale: 1,
   themeColor: '#000000',
 }
 
@@ -59,9 +60,10 @@ export default function RootLayout({ children }: Props) {
       <History>
         <Hierarchy>
           <KeyboardListener />
-          <Layout>
+          <LayoutBody>
             {children}
-          </Layout>
+            <LayoutLoader />
+          </LayoutBody>
         </Hierarchy>
       </History>
     </html>

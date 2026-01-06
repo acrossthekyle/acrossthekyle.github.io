@@ -142140,22 +142140,74 @@ const data = [
     "category": "destination",
     "date": "Mar 23rd -  25th, 2015",
     "description": [
-      "My first vacation abroad in South America continued with a quick plane ride over to Montevideo.",
-      "I spent my time exploring the heart of Montevideo's old city, starting from Ciudad Vieja, walking through the old Gateway of the Citadel, and right onto the Peatonal Sarandí (pedestrian street).",
-      "This pedestrian street is the main artery of the historic center, and it absolutely pulses with life during the day. Flanked by beautiful, varied architecture from different eras, the street is a visual journey through time. As I strolled, I passed bookstores, leather shops, cafes spilling onto the sidewalks, and a number of street vendors selling everything from artisan crafts to local mate gourds. The atmosphere was vibrant and relaxed.",
-      "The real highlight was the large outdoor market that takes over the street on Saturdays. It stretches for several blocks, creating a colorful and bustling scene of local life. I had to remind myself to slow down, to actually stop and browse the endless array of items on offer: vintage clothes, antique silverware, fresh fruits, vegetables, and countless unique trinkets. I could have spent hours just people-watching.",
-      "I followed the pedestrian way all the way to the end, near the port, where I found the iconic Mercado del Puerto. While this is an indoor market known for its incredible parrillas (meat grills), the area outside also has plenty of souvenir shops and places to grab a quick bite."
+      "My first vacation abroad in South America continued with a quick plane ride over to Montevideo."
     ],
     "gear": {},
     "hasGear": false,
-    "hasStats": false,
+    "hasStats": true,
     "image": "2015/03/19/9650d680-3809-45e9-a9df-0e108f3e1498.jpeg",
     "label": "destination",
     "location": "Uruguay",
     "slug": "montevideo",
-    "stages": [],
+    "stages": [
+      {
+        "date": "March 23rd, 2015",
+        "description": [
+          "I spent the day exploring the heart of Montevideo's old city, starting from Ciudad Vieja, walking through the old Gateway of the Citadel, and right onto the Peatonal Sarandí (pedestrian street).",
+          "This pedestrian street is the main artery of the historic center, and it absolutely pulses with life during the day. Flanked by beautiful, varied architecture from different eras, the street is a visual journey through time. As I strolled, I passed bookstores, leather shops, cafes spilling onto the sidewalks, and a number of street vendors selling everything from artisan crafts to local mate gourds. The atmosphere was vibrant and relaxed.",
+          "The real highlight was the large outdoor market that takes over the street on Saturdays. It stretches for several blocks, creating a colorful and bustling scene of local life. I had to remind myself to slow down, to actually stop and browse the endless array of items on offer: vintage clothes, antique silverware, fresh fruits, vegetables, and countless unique trinkets. I could have spent hours just people-watching.",
+          "I followed the pedestrian way all the way to the end, near the port, where I found the iconic Mercado del Puerto. While this is an indoor market known for its incredible parrillas (meat grills), the area outside also has plenty of souvenir shops and places to grab a quick bite.\n"
+        ],
+        "gpx": [],
+        "hasGpx": false,
+        "hasStats": false,
+        "image": "2015/03/19/9650d680-3809-45e9-a9df-0e108f3e1498.jpeg",
+        "location": "Montevideo",
+        "readingTime": "2",
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": {
+            "position": null,
+            "words": [
+              "Exploring",
+              "the city"
+            ]
+          },
+          "isSame": true,
+          "start": {
+            "position": null,
+            "words": [
+              "Exploring",
+              "the city"
+            ]
+          }
+        }
+      }
+    ],
     "stats": {
-      "altitude": null,
+      "altitude": {
+        "label": "altitude",
+        "value": {
+          "imperial": "-∞",
+          "metric": "-∞"
+        },
+        "units": {
+          "imperial": {
+            "full": "feet",
+            "abbreviated": "ft"
+          },
+          "metric": {
+            "full": "meters",
+            "abbreviated": "m"
+          }
+        }
+      },
       "days": {
         "label": "days",
         "value": "3",
@@ -142164,7 +142216,7 @@ const data = [
       "distance": null,
       "length": {
         "label": "length",
-        "value": 0,
+        "value": 1,
         "units": null
       }
     },

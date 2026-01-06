@@ -9,6 +9,7 @@ export type Data = {
   image: string;
   index: string;
   label: string;
+  location: string;
   next?: Navigation;
   previous?: Navigation;
   slug: string;

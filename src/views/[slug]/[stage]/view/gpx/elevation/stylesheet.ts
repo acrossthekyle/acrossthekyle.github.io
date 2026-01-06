@@ -4,16 +4,16 @@ const styles = tw({
   section: `
     relative
     h-40 w-full
-    border-t-1 border-t-current/15
     select-none
     touch-none
 
     base:h-46
   `,
   title: `
-    absolute top-4 left-4
-    text-xs
-    uppercase
+    block
+    my-6
+    text-sm
+    font-bold
   `,
 });
 

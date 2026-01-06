@@ -2,11 +2,11 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    dark:bg-black light:bg-white
-
-    base:pl-86
-    hecto:pl-106
-    mega:pl-150
+    base:ml-86
+    hecto:ml-106
+    kilo:ml-150
+    tera:ml-160
+    peta:ml-210
   `
 });
 

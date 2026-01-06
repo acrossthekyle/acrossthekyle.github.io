@@ -1,21 +1,21 @@
 'use client';
 
-import { ArrowRight } from 'lucide-react';
+import { Filter } from 'lucide-react';
 import Link from 'next/link';
 
+import { LayoutFooter, LayoutHeader, LayoutMain } from '@/layout';
+import { HeaderHeading, HeaderSection, HeaderSearch } from '@/ui/header';
 import {
   Image,
   ImageCaption,
   ImageCaptionContent,
   ImageCaptionCount,
   ImageCaptionEyebrow,
-  ImageCaptionLink,
-  ImageCaptionMeta,
   ImageFigure,
 } from '@/ui/image';
-import { padIndex } from '@/utils';
+import { Paragraph } from '@/ui/typography';
 
-import Filters from './filters';
+import Dialog from './filter';
 import { useModel } from './model';
 import styles from './stylesheet';
 import type { Data } from './types';
@@ -25,59 +25,88 @@ type Props = {
 };
 
 export default function View({ data }: Props) {
-  const { handleOnFilter, items } = useModel(data);
+  const {
+    handleOnFilter,
+    handleOnToggle,
+    handleOnSearch,
+    isActive,
+    items,
+    searchBy,
+  } = useModel(data);
 
   return (
-    <section aria-label="timeline" className={styles.container}>
-      <Filters data={data} onChange={handleOnFilter} />
-      {items.map((item, index: number) => (
-        <article className={styles.article} key={index}>
-          <ImageFigure scale>
-            <Image
-              alt=""
-              height={1080}
-              index={index}
-              sizes="(max-width: 768px) 100vw, 50vw"
-              src={item.image}
-              width={1920}
-            />
-            <ImageCaption>
-              <ImageCaptionLink
-                href={`/${item.slug}`}
-                id={index === 0 ? 'first-article' : undefined}
-              >
-                <ImageCaptionCount>
-                  {padIndex(item.index + 1)}
-                </ImageCaptionCount>
-                <ImageCaptionContent>
-                  <ImageCaptionEyebrow>
-                    {item.location}
-                  </ImageCaptionEyebrow>
-                  {item.title.map((words) => (
-                    <span className="block" key={words}>{words}</span>
-                  ))}
-                </ImageCaptionContent>
-                <ImageCaptionMeta>
-                  {item.type}
-                </ImageCaptionMeta>
-              </ImageCaptionLink>
-            </ImageCaption>
-          </ImageFigure>
-          {item.description.length > 0 && (
-            <section aria-label="preview">
-              <p className={styles.description}>
-                {item.description[0]}
-              </p>
-            </section>
-          )}
-          <footer className={styles.footer}>
-            <Link className={styles.link} href={`/${item.slug}`}>
-              Learn More
-              <ArrowRight className={styles.icon} />
+    <>
+      <LayoutHeader>
+        <HeaderHeading>
+          A backpacker and software engineer always seeking new ways to move forward.
+        </HeaderHeading>
+        <HeaderSection>
+          <Paragraph>
+            Hey, I'm Kyle.
+          </Paragraph>
+          <Paragraph>
+            I live on the lands belonging to the <span className={styles.emphasis}>Potawatomi</span>, <span className={styles.emphasis}>Ojibwe</span>, and <span className={styles.emphasis}>Odawa</span> &mdash; otherwise known as the city of <span className={styles.emphasis}>Chicago</span>, and I've spent the past {new Date().getFullYear() - 2012} years building parts of the web that you probably use today, and the last {new Date().getFullYear() - 2018} years exploring the world.
+          </Paragraph>
+        </HeaderSection>
+        <HeaderSection>
+          <HeaderSearch onChange={handleOnSearch} searchBy={searchBy}>
+            <button
+              aria-label="filter and sort"
+              className={styles.filter}
+              onClick={handleOnToggle}
+              type="button"
+            >
+              <Filter className={styles.icon} />
+            </button>
+          </HeaderSearch>
+          <Dialog
+            data={data}
+            isActive={isActive}
+            onChange={handleOnFilter}
+            onClose={handleOnToggle}
+          />
+        </HeaderSection>
+      </LayoutHeader>
+      <LayoutMain>
+        {items.map((item, index: number) => (
+          <article className={styles.article} key={index}>
+            <Link
+              href={`/${item.slug}${item.count === 1 ? '/01' : ''}`}
+              id={index === 0 ? 'first-article' : undefined}
+            >
+              <ImageFigure scale>
+                <Image
+                  alt=""
+                  height={1080}
+                  index={index}
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  src={item.image}
+                  width={1920}
+                />
+                <ImageCaption>
+                  <ImageCaptionCount>
+                    {item.index}
+                  </ImageCaptionCount>
+                  <ImageCaptionContent>
+                    <ImageCaptionEyebrow>
+                      {item.location}
+                    </ImageCaptionEyebrow>
+                    {item.title.map((words) => (
+                      <span className="block" key={words}>{words}</span>
+                    ))}
+                  </ImageCaptionContent>
+                </ImageCaption>
+              </ImageFigure>
             </Link>
-          </footer>
-        </article>
-      ))}
-    </section>
+            <section aria-label="preview" className={styles.preview}>
+              <Paragraph>
+                {item.description[0]}..
+              </Paragraph>
+            </section>
+          </article>
+        ))}
+      </LayoutMain>
+      <LayoutFooter />
+    </>
   );
 }

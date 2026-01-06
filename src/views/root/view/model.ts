@@ -1,23 +1,35 @@
 'use client';
 
+import Fuse from 'fuse.js';
 import { useEffect, useState } from 'react';
+
+import { useEvent } from '@/hooks/useEvent';
 
 import { type Data } from './types';
 
 export function useModel(data: Data[]) {
+  const [fuse, setFuse] = useState<Fuse<Data> | null>(null);
+  const [isActive, setIsActive] = useState(false);
   const [items, setItems] = useState(data);
-  const [filterBy, setFilterBy] = useState<string | undefined>(undefined);
-  const [orderBy, setOrderBy] = useState<string | undefined>(undefined);
-  const [sortBy, setSortBy] = useState<string | undefined>(undefined);
+  const [filterBy, setFilterBy] = useState('everything');
+  const [orderBy, setOrderBy] = useState('descending');
+  const [searchBy, setSearchBy] = useState('');
+  const [sortBy, setSortBy] = useState('date');
 
-  const handleOnFilter = (filter?: string, sort?: string, order?: string) => {
-    setFilterBy(filter ?? undefined);
-    setSortBy(sort ?? undefined);
-    setOrderBy(order ?? undefined);
-  };
+  useEffect(() => {
+    if (fuse === null) {
+      setFuse(new Fuse(data, {
+        keys: ['date', 'location', 'title'],
+      }));
+    }
+  }, [fuse, data]);
 
   useEffect(() => {
     let result = [...data];
+
+    if (fuse !== null && searchBy.length > 0) {
+      result = fuse.search(searchBy).map((result) => result.item);
+    }
 
     if (filterBy === 'vacation') {
       result = result.filter(item => item.type === 'vacation');
@@ -46,10 +58,35 @@ export function useModel(data: Data[]) {
     }
 
     setItems(result);
-  }, [data, filterBy, orderBy, sortBy]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [data, filterBy, orderBy, searchBy, sortBy]);
+
+  const handleOnFilter = (filter: string, sort: string, order: string) => {
+    setFilterBy(filter);
+    setSortBy(sort);
+    setOrderBy(order);
+  };
+
+  const handleOnToggle = () => {
+    setIsActive(previous => !previous);
+  };
+
+  const handleOnSearch = (value: string) => {
+    setSearchBy(value);
+  };
+
+  useEvent('onEscape', () => {
+    if (isActive) {
+      handleOnToggle();
+    }
+  });
 
   return {
     handleOnFilter,
+    handleOnToggle,
+    handleOnSearch,
+    isActive,
     items,
+    searchBy,
   };
 };

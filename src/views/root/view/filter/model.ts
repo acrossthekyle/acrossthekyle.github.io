@@ -1,9 +1,9 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { create } from 'zustand';
 
-import { useEvent } from '@/hooks/useEvent';
+import type { Data } from '../types';
 
 type State = {
   filterBy: string;
@@ -12,7 +12,7 @@ type State = {
 };
 
 type Actions = {
-  setFilterBy: (value: string) => void
+  setFilterBy: (value: string) => void;
   setOrderBy: (value: string) => void;
   setSortBy: (value: string) => void;
 };
@@ -34,9 +34,10 @@ const store = create<State & Actions>()(
   }),
 );
 
-export function useModel(onChange: (filter?: string, sort?: string, order?: string) => void) {
-  const [isDialogActive, setIsDialogActive] = useState(false);
-
+export function useModel(
+  data: Data[],
+  onChange: (filter: string, sort: string, order: string) => void,
+) {
   const {
     filterBy,
     orderBy,
@@ -51,18 +52,6 @@ export function useModel(onChange: (filter?: string, sort?: string, order?: stri
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [filterBy, orderBy, sortBy]);
 
-  const handleOnOpen = () => {
-    setIsDialogActive(true);
-
-    document.documentElement.classList.add('overflow-hidden');
-  };
-
-  const handleOnClose = () => {
-    setIsDialogActive(false);
-
-    document.documentElement.classList.remove('overflow-hidden');
-  };
-
   const handleOnFilter = (value: string) => {
     setFilterBy(value);
   };
@@ -75,21 +64,26 @@ export function useModel(onChange: (filter?: string, sort?: string, order?: stri
     setSortBy(value);
   };
 
-  useEvent('onEscape', () => {
-    if (isDialogActive) {
-      handleOnClose();
-    }
+  const reduced = data.reduce((initialObject: { [key: string]: number }, { type }) => {
+    initialObject[type] = (initialObject[type] || 0) + 1;
+
+    return initialObject;
+  }, {});
+
+  const types = Object.entries(reduced).map(([ value, count ]) => {
+    return {
+      value,
+      count,
+    };
   });
 
   return {
     filterBy,
-    handleOnClose,
     handleOnFilter,
-    handleOnOpen,
     handleOnOrder,
     handleOnSort,
-    isDialogActive,
     orderBy,
     sortBy,
+    types,
   };
 };

@@ -1,13 +1,15 @@
+import { Eyebrow } from '../../typography';
+
 import styles from './stylesheet';
 
 type Props = {
   children: React.ReactNode | React.ReactNode[];
 };
 
-export default function Eyebrow({ children }: Props) {
+export default function ImageEyebrow({ children }: Props) {
   return (
-    <span className={styles.container}>
+    <Eyebrow className={styles.container}>
       {children}
-    </span>
+    </Eyebrow>
   );
 }

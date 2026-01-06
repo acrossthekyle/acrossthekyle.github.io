@@ -6,9 +6,10 @@ const styles = tw({
     h-[calc(100vh-22rem)] w-full
   `,
   title: `
-    absolute top-4 left-4 z-9999
-    text-xs
-    uppercase
+    block
+    mb-6
+    text-sm
+    font-bold
   `,
   map: `
     relative

@@ -7,21 +7,15 @@ const styles = tw({
     text-xs text-center
 
     dark:border-t-white/15 light:border-t-black/15
-    dark:bg-black light:bg-white
     dark:text-white light:text-black
 
     base:py-12
-    base:pl-86
-    hecto:pl-106
-    mega:pl-150
-  `,
-  content: `
-  `,
-  theme: `
-    mb-4
-    text-xs
-    uppercase
-    font-bold
+    base:ml-86
+    hecto:ml-106
+    kilo:ml-150
+    tera:ml-160
+    peta:ml-210
+    peta:text-xl
   `,
   links: `
     flex justify-center
@@ -32,12 +26,11 @@ const styles = tw({
   list: `
     grid grid-cols-2 gap-4
 
-    pico:flex
-    pico:flex-row
-    pico:gap-4
+    micro:flex
+    micro:flex-row
+    micro:gap-4
   `,
   link: `
-    text-sm
     underline underline-offset-4
   `,
 });

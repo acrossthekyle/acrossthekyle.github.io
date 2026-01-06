@@ -1,87 +1,69 @@
-'use client';
-
-import { Glasses, X } from 'lucide-react';
+import { CirclePile, Instagram, Linkedin, Mail, FileTypeCorner } from 'lucide-react';
 import Link from 'next/link';
 
-import { useModel } from './model';
 import styles from './stylesheet';
+import Theme from './theme';
 
-export default function Header() {
-  const { handleOnToggle, isExpanded } = useModel();
+type Props = {
+  children: React.ReactNode | React.ReactNode[];
+};
 
+export default function Header({ children }: Props) {
   return (
-    <header className={styles.container(isExpanded)}>
+    <header className={styles.container}>
       <Link
         aria-label="acrossthekyle.com home"
         className={styles.anchor}
         href="/"
       >
-        <Glasses aria-hidden="true" className={styles.icon} />
+        <CirclePile aria-hidden="true" className={styles.icon} />
       </Link>
-      <button
-        aria-label="toggle about me information"
-        className={styles.toggle}
-        onClick={handleOnToggle}
-        type="button"
-      >
-        <X aria-hidden="true" className={styles.x(isExpanded)} />
-      </button>
-      <hgroup className={styles.group(isExpanded)}>
-        <h1 className={styles.tagline}>
-          A backpacker and UI developer always seeking new ways to move forward.
-        </h1>
-        <p className={styles.about}>
-          Hey, I'm Kyle; a backpacker and code tinkerer who lives on the lands belonging to the <span className={styles.emphasis}>Potawatomi</span>, <span className={styles.emphasis}>Ojibwe</span>, and <span className={styles.emphasis}>Odawa</span> &mdash; otherwise known as the city of <span className={styles.emphasis}>Chicago</span>. I've spent the past {new Date().getFullYear() - 2012} years building parts of the web that you probably use today, and the last {new Date().getFullYear() - 2018} years exploring the world. This website is a collection of those experiences.
-        </p>
-      </hgroup>
-      <nav
-        aria-label="supplementary navigation"
-        className={styles.footer(isExpanded)}
-      >
+      <nav aria-label="social media navigation" className={styles.socials}>
         <ul className={styles.list}>
           <li>
             <Link
-              aria-label="view resume"
-              className={styles.link}
-              href="/acrossthekyle-resume.pdf"
+              ria-label="view instagram profile"
+              href="https://instagram.com/acrossthekyle"
               target="_blank"
+              rel="noreferrer"
             >
-              Resume
-            </Link>
-          </li>
-          <li>
-            <Link
-              aria-label="send email"
-              className={styles.link}
-              href="mailto:hello@acrossthekyle.com"
-            >
-              Contact
+              <Instagram className={styles.icon} />
             </Link>
           </li>
           <li>
             <Link
               aria-label="view linkedin profile"
-              className={styles.link}
               href="https://linkedin.com/in/acrossthekyle"
               target="_blank"
               rel="noreferrer"
             >
-              LinkedIn
+              <Linkedin className={styles.icon} />
             </Link>
           </li>
           <li>
             <Link
-              aria-label="view instagram profile"
-              className={styles.link}
-              href="https://instagram.com/acrossthekyle"
-              target="_blank"
-              rel="noreferrer"
+              aria-label="send email"
+              href="mailto:hello@acrossthekyle.com"
             >
-              Instagram
+              <Mail className={styles.icon} />
             </Link>
+          </li>
+          <li>
+            <Link
+              aria-label="view resume"
+              href="/acrossthekyle-resume.pdf"
+              target="_blank"
+            >
+              <FileTypeCorner className={styles.icon} />
+            </Link>
+          </li>
+          <li>
+            <Theme />
           </li>
         </ul>
       </nav>
+      <div className={styles.scrollable} />
+      {children}
     </header>
   );
 }

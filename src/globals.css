@@ -25,25 +25,20 @@ html[data-theme="light"] {
 }
 
 @theme {
-  --breakpoint-plank: 19.375rem; /* 310px */
-  --breakpoint-pico: 20.9375rem; /* 335px */
-  --breakpoint-nano: 22.5rem; /* 360px */
-  --breakpoint-micro: 24.375rem; /* 390px */
-  --breakpoint-milli: 30rem; /* 480px */
-  --breakpoint-centi: 33.125rem; /* 530px */
-  --breakpoint-deci: 40rem; /* 640px */
+  --breakpoint-nano: 19.375rem; /* 310px */
+  --breakpoint-micro: 20.9375rem; /* 335px */
+  --breakpoint-milli: 24.375rem; /* 390px */
+  --breakpoint-centi: 27.5rem; /* 440px */
+  --breakpoint-deci: 35rem; /* 560px */
   --breakpoint-base: 48rem; /* 768px */
-  --breakpoint-baseplus: 52.5rem; /* 840px */
-  --breakpoint-deka: 60.3125rem; /* 965px */
   --breakpoint-hecto: 64rem; /* 1024px: */
-  --breakpoint-kilo: 67.5rem; /* 1080px */
-  --breakpoint-mega: 75rem; /* 1200px */
-  --breakpoint-giga: 80rem; /* 1280px */
-  --breakpoint-gigaplus: 84.125rem; /* 1346px */
+  --breakpoint-kilo: 80rem; /* 1280px */
+  --breakpoint-mega: 91.875rem; /* 1470px */
+  --breakpoint-giga: 96rem; /* 1536px */
   --breakpoint-tera: 120rem; /* 1920px */
   --breakpoint-peta: 160rem; /* 2560px */
 
-  --text-tiny: 0.625rem; /* 10px */
+  --text-tiny: 0.6875rem; /* 11px */
   --text-10xl: 10rem; /* 160px */
 
   --font-weight-extrablack: 1000; /**/
