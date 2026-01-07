@@ -6,17 +6,17 @@
 :root {
   --background: #000000;
   --foreground: rgba(255, 255, 255, .9);
-  --tooltip-text-color: rgba(255, 255, 255, .9);
+  --tooltip-text-color: rgba(0, 0, 0, .9);
   --elevation-text-color: rgba(255, 255, 255, .9);
 }
 
 html[data-theme="dark"] {
-  --tooltip-text-color: rgba(255, 255, 255, .9);
+  --tooltip-text-color: rgba(0, 0, 0, .9);
   --elevation-text-color: rgba(255, 255, 255, .9);
 }
 
 html[data-theme="light"] {
-  --tooltip-text-color: rgba(0, 0, 0, .9);
+  --tooltip-text-color: rgba(255, 255, 255, .9);
   --elevation-text-color: rgba(0, 0, 0, .9);
 }
 
@@ -70,13 +70,13 @@ body {
   .leaflet-control {
     margin: 0 !important;
     padding-top: 0;
-    padding-right: 1.25rem;
+    padding-right: 1rem;
   }
 
   @media (width >= 60.3125rem) {
     .leaflet-control {
-      padding-bottom: 0.75rem;
-      padding-right: 2.75rem;
+      padding-bottom: 0rem;
+      padding-right: 1rem;
     }
   }
 

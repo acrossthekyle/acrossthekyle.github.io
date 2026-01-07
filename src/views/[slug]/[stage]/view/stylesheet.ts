@@ -12,21 +12,21 @@ const styles = tw({
     hecto:p-12
     kilo:p-16
   `,
+  date: `
+    mt-6
+    capitalize
+    italic
+  `,
   line: `
     block
-  `,
-  section: `
-    mt-6
-
-    base:mt-8
-    hecto:mt-12
-    kilo:mt-16
   `,
   meta: `
     block
     mb-6
     text-sm
-    font-bold
+    font-light
+
+    base:text-center
   `,
 });
 

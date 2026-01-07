@@ -65,7 +65,7 @@ export type Stage = {
   hasStats: boolean;
   image: string;
   index: string;
-  readingTime: string;
+  location: string;
   termini: Termini;
 };
 

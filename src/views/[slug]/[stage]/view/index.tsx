@@ -23,15 +23,18 @@ export default function View({ data }: Props) {
         <HeaderBack fallback={`/${data.total === 1 ? '/' : data.slug}`} />
         <HeaderHeading>
           <Eyebrow>
-            {data.travel}
+            {data.location} &mdash; {data.travel}
           </Eyebrow>
           {data.title.map((words, index: number) => (
             <span className={styles.line} key={index}>{words}</span>
           ))}
         </HeaderHeading>
         {data.hasStats && (
+          <Stats stats={data.stats} />
+        )}
+        {data.hasGpx && (
           <HeaderSection>
-            <Stats stats={data.stats} />
+            <Gpx gpx={data.gpx} termini={data.termini} />
           </HeaderSection>
         )}
       </LayoutHeader>
@@ -47,21 +50,14 @@ export default function View({ data }: Props) {
               width={1920}
             />
           </ImageFigure>
-          <section aria-label="description" className={styles.section}>
-            <Paragraph>
-              <span className={styles.meta}>
-                {data.date}
-              </span>
+          <Paragraph className={styles.date}>
+            {data.label} {data.index} &mdash; {data.date}
+          </Paragraph>
+          {data.description.map((paragraph) => (
+            <Paragraph key={paragraph}>
+              {paragraph}
             </Paragraph>
-            {data.description.map((paragraph) => (
-              <Paragraph key={paragraph}>
-                {paragraph}
-              </Paragraph>
-            ))}
-          </section>
-          {data.hasGpx && (
-            <Gpx gpx={data.gpx} termini={data.termini} />
-          )}
+          ))}
         </article>
       </LayoutMain>
       <LayoutFooter />

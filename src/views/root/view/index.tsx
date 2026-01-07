@@ -99,6 +99,9 @@ export default function View({ data }: Props) {
               </ImageFigure>
             </Link>
             <section aria-label="preview" className={styles.preview}>
+              <span className={styles.date}>
+                {item.date} &mdash; {item.type}
+              </span>
               <Paragraph>
                 {item.description[0]}..
               </Paragraph>

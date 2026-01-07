@@ -22,6 +22,12 @@ const styles = tw({
     mega:text-xl
     peta:text-3xl
   `,
+  date: `
+    block
+    mb-2
+    text-sm text-current/85
+    italic capitalize
+  `,
 });
 
 export default styles;

@@ -69,7 +69,7 @@ export default function View({ data }: Props) {
                       </ImageCaptionCount>
                       <ImageCaptionContent id={`stage-${stage.index}`}>
                         <ImageCaptionEyebrow>
-                          {stage.date}
+                          {stage.location}
                         </ImageCaptionEyebrow>
                         {stage.termini.end.words.map((words) => (
                           <span className="block" key={words}>{words}</span>
@@ -79,6 +79,9 @@ export default function View({ data }: Props) {
                   </ImageFigure>
                 </Link>
                 <section aria-label="preview" className={styles.preview}>
+                  <span className={styles.date}>
+                    {stage.date}
+                  </span>
                   <Paragraph>
                     {stage.description[0]}..
                   </Paragraph>

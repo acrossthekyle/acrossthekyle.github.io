@@ -26,15 +26,12 @@ export default function Route({ gpx, termini }: Props) {
   }
 
   return (
-    <>
-      <h4 className={styles.title}>Route</h4>
-      <div className={styles.section}>
-        <Plugin
-          gpx={gpx}
-          hoverIndex={hoverIndex}
-          termini={termini}
-        />
-      </div>
-    </>
+    <div className={styles.section}>
+      <Plugin
+        gpx={gpx}
+        hoverIndex={hoverIndex}
+        termini={termini}
+      />
+    </div>
   );
 }

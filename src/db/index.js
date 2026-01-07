@@ -1020,7 +1020,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2025/10/18/efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg",
-        "location": null,
+        "location": "Big Paint Loop",
         "readingTime": "2",
         "stats": {
           "distance": {
@@ -2119,7 +2119,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2025/10/18/db8b9939-7fe0-43b3-b5ef-d0baea038ef1.jpeg",
-        "location": null,
+        "location": "Big Paint Loop",
         "readingTime": "2",
         "stats": {
           "distance": {
@@ -2888,7 +2888,7 @@ const data = [
     "hasStats": true,
     "image": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg",
     "label": "day",
-    "location": "France, Italy, Switzerland",
+    "location": "European Alps",
     "slug": "tour-du-mont-blanc-repeat",
     "stages": [
       {
@@ -3897,7 +3897,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2024/07/27/ac7799bd-b2a8-4f77-8a8d-6d42a8740390.jpeg",
-        "location": null,
+        "location": "France",
         "readingTime": "2",
         "stats": {
           "distance": {
@@ -4998,7 +4998,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2024/07/27/10146a42-b18d-4318-bc5b-c32279532e4d.jpeg",
-        "location": null,
+        "location": "France",
         "readingTime": "2",
         "stats": {
           "distance": {
@@ -6100,7 +6100,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2024/07/27/be9a961c-fc7d-43dc-b466-29a359d1cd12.jpeg",
-        "location": null,
+        "location": "France",
         "readingTime": "2",
         "stats": {
           "distance": {
@@ -7208,7 +7208,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2024/07/27/a45073e7-ef67-4e31-a5e7-3ba9b4b97b4e.jpeg",
-        "location": null,
+        "location": "Italy",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -8311,7 +8311,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2024/07/27/f1310350-3cb1-4f1b-b591-e08d0971f23b.jpeg",
-        "location": null,
+        "location": "Italy",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -9413,7 +9413,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2024/07/27/b70777d8-b89d-4d60-b422-2d2af80483e4.jpeg",
-        "location": null,
+        "location": "Switzerland",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -10516,7 +10516,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2024/07/27/22400157-4853-4974-856b-86b1bc986ef9.jpeg",
-        "location": null,
+        "location": "Switzerland",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -11617,7 +11617,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2024/07/27/99d87d66-9534-4aca-9489-eb2fbbdc152b.jpeg",
-        "location": null,
+        "location": "Switzerland",
         "readingTime": "2",
         "stats": {
           "distance": {
@@ -12717,7 +12717,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2024/07/27/91e2be29-62d0-4be0-a00a-9ebd9d9dc395.jpeg",
-        "location": null,
+        "location": "France",
         "readingTime": "2",
         "stats": {
           "distance": {
@@ -13820,7 +13820,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg",
-        "location": null,
+        "location": "France",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -14921,7 +14921,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2024/07/27/480c5394-dfa7-4760-8f62-5a39cb66cb98.jpeg",
-        "location": null,
+        "location": "France",
         "readingTime": "2",
         "stats": {
           "distance": {
@@ -16813,7 +16813,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2023/06/21/f1d1c83f-941d-4351-aa5e-08d698b78775.jpeg",
-        "location": null,
+        "location": "Calenzana",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -17914,7 +17914,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2023/06/21/e2d0721f-2c3f-4367-8f7b-1176c94b3e2c.jpeg",
-        "location": null,
+        "location": "Calenzana",
         "readingTime": "2",
         "stats": {
           "distance": {
@@ -19014,7 +19014,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2023/06/21/4b13a3d8-a55c-4bed-b887-ad3490ab964f.jpeg",
-        "location": null,
+        "location": "Asco",
         "readingTime": "2",
         "stats": {
           "distance": {
@@ -20117,7 +20117,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2023/06/21/8f85de22-b937-4ea5-9dfa-e45eb357e7b8.jpeg",
-        "location": null,
+        "location": "Albertacce",
         "readingTime": "4",
         "stats": {
           "distance": {
@@ -21221,7 +21221,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2023/06/21/f0dc6ac2-b0e5-4e2a-b874-0d40f47c454b.jpeg",
-        "location": null,
+        "location": "Vergio",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -22321,7 +22321,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2023/06/21/95b4adaa-bbbe-4de3-b9f8-96365390f142.jpeg",
-        "location": null,
+        "location": "Orto",
         "readingTime": "2",
         "stats": {
           "distance": {
@@ -23423,7 +23423,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2023/06/21/05769f04-5b00-4fd5-a233-55c00c9871c5.jpeg",
-        "location": null,
+        "location": "Venaco",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -24524,7 +24524,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2023/06/21/4e7bda74-809e-48a9-a904-5645bf2e7dde.jpeg",
-        "location": null,
+        "location": "Vivario",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -25621,7 +25621,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2023/06/21/2cc8532b-6441-49fb-927e-ebdb001b78cf.jpeg",
-        "location": null,
+        "location": "Vivario",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -26722,7 +26722,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2023/06/21/54334c14-8bae-4478-97f7-179f79cd2ca6.jpeg",
-        "location": null,
+        "location": "Palneca",
         "readingTime": "4",
         "stats": {
           "distance": {
@@ -27827,7 +27827,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2023/06/21/73a5df9e-fefd-43d0-ad5a-7f71dcb003cc.jpeg",
-        "location": null,
+        "location": "Cozzano",
         "readingTime": "4",
         "stats": {
           "distance": {
@@ -28929,7 +28929,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2023/06/21/d36a683f-4d95-4b0c-987d-d190336c49ee.jpeg",
-        "location": null,
+        "location": "Quenza",
         "readingTime": "4",
         "stats": {
           "distance": {
@@ -30031,7 +30031,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2023/06/21/f0cd0897-3fc9-47a2-808e-e1627dfb45bc.jpeg",
-        "location": null,
+        "location": "Corse-du-Sud",
         "readingTime": "4",
         "stats": {
           "distance": {
@@ -36277,7 +36277,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2022/05/07/75a8c027-07cd-4184-9157-d48dd5d1a32e.jpeg",
-        "location": null,
+        "location": "Glasgow",
         "readingTime": "6",
         "stats": {
           "distance": {
@@ -37381,7 +37381,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2022/05/07/e8dd9fed-56e4-45bf-aee4-d1bc44a5363c.jpeg",
-        "location": null,
+        "location": "Glasgow",
         "readingTime": "5",
         "stats": {
           "distance": {
@@ -38488,7 +38488,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2022/05/07/e610c340-2b8c-481c-8442-dc4543db3f2c.jpeg",
-        "location": null,
+        "location": "Inverarnan",
         "readingTime": "6",
         "stats": {
           "distance": {
@@ -39592,7 +39592,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2022/05/07/b7df127a-0f69-4b29-843f-e1a7c6f858bf.jpeg",
-        "location": null,
+        "location": "Glen Orchy",
         "readingTime": "4",
         "stats": {
           "distance": {
@@ -40698,7 +40698,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
-        "location": null,
+        "location": "Lochaber",
         "readingTime": "5",
         "stats": {
           "distance": {
@@ -41801,7 +41801,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2022/05/07/07741eea-d85e-42cf-a2d4-d0f87102bffc.jpeg",
-        "location": null,
+        "location": "Scottish Highlands",
         "readingTime": "4",
         "stats": {
           "distance": {
@@ -43103,7 +43103,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2020/02/18/619eec82-6980-4f31-a11f-7c5581d02989.jpeg",
-        "location": null,
+        "location": "Torres del Paine",
         "readingTime": "4",
         "stats": {
           "distance": {
@@ -43742,7 +43742,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2020/02/18/98e3190e-5480-4eb9-8883-c8d9fbb3f485.jpeg",
-        "location": null,
+        "location": "Torres del Paine",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -44324,7 +44324,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2020/02/18/f477b7bb-7f38-42ff-a855-f90668a73f28.jpeg",
-        "location": null,
+        "location": "Torres del Paine",
         "readingTime": "2",
         "stats": {
           "distance": {
@@ -45421,7 +45421,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2020/02/18/38a1b675-74c7-45b5-9e37-8020d298a0b3.jpeg",
-        "location": null,
+        "location": "Torres del Paine",
         "readingTime": "2",
         "stats": {
           "distance": {
@@ -46004,7 +46004,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2020/02/18/dd6e739e-b793-4c64-8e7c-c6a631b467c7.jpeg",
-        "location": null,
+        "location": "Torres del Paine",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -47103,7 +47103,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2020/02/18/380820b8-520a-49fa-8f01-651ca63fd84f.jpeg",
-        "location": null,
+        "location": "Torres del Paine",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -48201,7 +48201,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2020/02/18/790032e0-6483-4631-9cbe-d912510a1a48.jpeg",
-        "location": null,
+        "location": "Torres del Paine",
         "readingTime": "2",
         "stats": {
           "distance": {
@@ -49299,7 +49299,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2020/02/18/630411a8-f5ce-47fe-8261-f94e00654447.jpeg",
-        "location": null,
+        "location": "Torres del Paine",
         "readingTime": "2",
         "stats": {
           "distance": {
@@ -51120,7 +51120,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2019/10/19/672dcde8-57ae-4bf9-885f-ae039d3a824d.jpeg",
-        "location": null,
+        "location": "Lamjung District",
         "readingTime": "5",
         "stats": {
           "distance": {
@@ -52220,7 +52220,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2019/10/19/cde86c7c-f794-4a99-8286-9af3de9425fc.jpeg",
-        "location": null,
+        "location": "Lamjung District",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -53317,7 +53317,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2019/10/19/69d8dc52-42d4-4295-9b25-1f7542c1da8b.jpeg",
-        "location": null,
+        "location": "Manang District",
         "readingTime": "2",
         "stats": {
           "distance": {
@@ -54414,7 +54414,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2019/10/19/de48b8b7-ef5d-4c21-93a8-d6e4d7628e7f.jpeg",
-        "location": null,
+        "location": "Manang District",
         "readingTime": "1",
         "stats": {
           "distance": {
@@ -55511,7 +55511,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2019/10/19/91fcb255-9894-434c-9c39-41ea5070e819.jpeg",
-        "location": null,
+        "location": "Manang District",
         "readingTime": "2",
         "stats": {
           "distance": {
@@ -56612,7 +56612,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2019/10/19/b9b20eb0-e569-4778-99c6-de3a3c2eb15e.jpeg",
-        "location": null,
+        "location": "Manang District",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -57711,7 +57711,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2019/10/19/ed197052-01d7-4739-807c-39340385c0fc.jpeg",
-        "location": null,
+        "location": "Manang District",
         "readingTime": "2",
         "stats": {
           "distance": {
@@ -58810,7 +58810,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2019/10/19/d7837a44-81d2-4fa0-9912-bb15508be721.jpeg",
-        "location": null,
+        "location": "Manang District",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -58891,8 +58891,7 @@ const data = [
           "end": {
             "position": "right",
             "words": [
-              "Shree",
-              "Kharka"
+              "Khangsar"
             ]
           },
           "isSame": false,
@@ -59909,7 +59908,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2019/10/19/40b7a029-2f0c-4807-94fa-86a07ee9ffa9.jpeg",
-        "location": null,
+        "location": "Khotang District",
         "readingTime": "2",
         "stats": {
           "distance": {
@@ -59997,8 +59996,7 @@ const data = [
           "start": {
             "position": "left",
             "words": [
-              "Shree",
-              "Kharka"
+              "Khangsar"
             ]
           }
         }
@@ -61006,7 +61004,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2019/10/19/f76cbaab-0139-44b4-bc5c-6c816731d927.jpeg",
-        "location": null,
+        "location": "Mustang District",
         "readingTime": "2",
         "stats": {
           "distance": {
@@ -61087,7 +61085,7 @@ const data = [
           "end": {
             "position": "top",
             "words": [
-              "Muktinath"
+              "Ranipauwa"
             ]
           },
           "isSame": false,
@@ -62103,7 +62101,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2019/10/19/93b7286f-a87a-4d8e-8d85-6a3f50dcd82c.jpeg",
-        "location": null,
+        "location": "Mustang District",
         "readingTime": "2",
         "stats": {
           "distance": {
@@ -62191,7 +62189,7 @@ const data = [
           "start": {
             "position": "top",
             "words": [
-              "Muktinath"
+              "Ranipauwa"
             ]
           }
         }
@@ -63199,7 +63197,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2019/10/19/9f9bca6e-e30a-4ca0-b005-5a0bda57f649.jpeg",
-        "location": null,
+        "location": "Mustang District",
         "readingTime": "1",
         "stats": {
           "distance": {
@@ -64303,7 +64301,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2019/10/19/5cf22091-8d99-4cdd-870c-f91db81c1049.jpeg",
-        "location": null,
+        "location": "Myagdi District",
         "readingTime": "6",
         "stats": {
           "distance": {
@@ -65403,7 +65401,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2019/10/19/b2ef8848-2e35-43dd-9f06-98434903f810.jpeg",
-        "location": null,
+        "location": "Kaski District",
         "readingTime": "2",
         "stats": {
           "distance": {
@@ -66501,7 +66499,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2019/10/19/a052d193-0be9-4288-b017-65d459c3eca1.jpeg",
-        "location": null,
+        "location": "Kaski District",
         "readingTime": "2",
         "stats": {
           "distance": {
@@ -67601,7 +67599,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2019/10/19/3773c3c4-265f-4e7e-8f0a-d6e1a7d9b85c.jpeg",
-        "location": null,
+        "location": "Kaski District",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -68705,7 +68703,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2019/10/19/490d1db6-aaad-4ed3-9181-081ca318cd16.jpeg",
-        "location": null,
+        "location": "Kaski District",
         "readingTime": "4",
         "stats": {
           "distance": {
@@ -69773,7 +69771,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2019/10/19/8fef1e6f-d483-445c-b19c-d47bb7f1fc68.jpeg",
-        "location": null,
+        "location": "Kaski District",
         "readingTime": "2",
         "stats": {
           "distance": {
@@ -69854,7 +69852,7 @@ const data = [
           "end": {
             "position": "left",
             "words": [
-              "Jhinudanda"
+              "Jhinu Danda"
             ]
           },
           "isSame": false,
@@ -81380,7 +81378,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2019/07/16/eba70b28-4c7d-45f3-aa93-46b24011cb80.jpeg",
-        "location": null,
+        "location": "Province of Belluno",
         "readingTime": "4",
         "stats": {
           "distance": {
@@ -82480,7 +82478,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2019/07/16/69890344-e575-484e-86ae-5ddeb000c4f9.jpeg",
-        "location": null,
+        "location": "Province of Bolzano",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -83583,7 +83581,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2019/07/16/081c1b83-7036-4c3c-aa2f-0534f4250ab8.jpeg",
-        "location": null,
+        "location": "Province of Bolzano",
         "readingTime": "4",
         "stats": {
           "distance": {
@@ -84684,7 +84682,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2019/07/16/eb243b48-8084-4c7e-94c0-5a163983d407.jpeg",
-        "location": null,
+        "location": "Province of Belluno",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -85781,7 +85779,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2019/07/16/a3f65b8c-4b57-4194-a3a1-5769f1d63373.jpeg",
-        "location": null,
+        "location": "Province of Belluno",
         "readingTime": "2",
         "stats": {
           "distance": {
@@ -86883,7 +86881,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2019/07/16/b1128805-54bb-4b7b-adcb-f2b6ae3fada6.jpeg",
-        "location": null,
+        "location": "Province of Belluno",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -87983,7 +87981,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2019/07/16/a46e829f-147b-40d1-b7ae-2f743923feca.jpeg",
-        "location": null,
+        "location": "Province of Belluno",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -89081,7 +89079,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2019/07/16/21806386-052d-4a82-941e-6728771acd63.jpeg",
-        "location": null,
+        "location": "Province of Belluno",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -90181,7 +90179,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2019/07/16/2982a2fe-75f6-473a-8d98-2c664c5cd38e.jpeg",
-        "location": null,
+        "location": "Province of Belluno",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -91283,7 +91281,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2019/07/16/735a0783-62ba-4f8e-97d8-c9b9f5327cfe.jpeg",
-        "location": null,
+        "location": "Province of Belluno",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -92202,7 +92200,7 @@ const data = [
     "hasStats": true,
     "image": "2018/09/02/135eea74-e1bc-4cab-bfd7-28d17405a744.jpeg",
     "label": "day",
-    "location": "France, Italy, Switzerland",
+    "location": "European Alps",
     "slug": "tour-du-mont-blanc",
     "stages": [
       {
@@ -93228,7 +93226,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/09/02/135eea74-e1bc-4cab-bfd7-28d17405a744.jpeg",
-        "location": null,
+        "location": "France",
         "readingTime": "5",
         "stats": {
           "distance": {
@@ -94338,7 +94336,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/09/02/56d3cc07-47c1-40c8-b7ee-483aa01d777c.jpeg",
-        "location": null,
+        "location": "France",
         "readingTime": "4",
         "stats": {
           "distance": {
@@ -95449,7 +95447,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/09/02/0420d236-d12a-40e8-8d6c-90558e26d304.jpeg",
-        "location": null,
+        "location": "France",
         "readingTime": "4",
         "stats": {
           "distance": {
@@ -96564,7 +96562,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/09/02/488a5815-e763-406d-94e1-5e51ff25cafe.jpeg",
-        "location": null,
+        "location": "Italy",
         "readingTime": "5",
         "stats": {
           "distance": {
@@ -97677,7 +97675,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/09/02/9cefaedf-2e6b-439a-9512-f1f37d2374eb.jpeg",
-        "location": null,
+        "location": "Italy",
         "readingTime": "5",
         "stats": {
           "distance": {
@@ -98793,7 +98791,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/09/02/891cd8a7-97d2-4251-ac34-6c816c0ec570.jpeg",
-        "location": null,
+        "location": "Switzerland",
         "readingTime": "6",
         "stats": {
           "distance": {
@@ -99904,7 +99902,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/09/02/8d209b3b-8d40-49b3-b754-fd91466c9708.jpeg",
-        "location": null,
+        "location": "Switzerland",
         "readingTime": "5",
         "stats": {
           "distance": {
@@ -101015,7 +101013,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/09/02/21248df2-d0b9-41d2-9662-b6215c24c298.jpeg",
-        "location": null,
+        "location": "Switzerland",
         "readingTime": "4",
         "stats": {
           "distance": {
@@ -102118,7 +102116,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/09/02/ec37f4a8-6310-4bf6-b1a7-cddb1f91bf3b.jpeg",
-        "location": null,
+        "location": "France",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -103230,7 +103228,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/09/02/0ea4750a-307a-44be-a466-bb081d137d3c.jpeg",
-        "location": null,
+        "location": "France",
         "readingTime": "5",
         "stats": {
           "distance": {
@@ -104337,7 +104335,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/09/02/3faeb9f8-d262-4c12-869f-4470b0dc0574.jpeg",
-        "location": null,
+        "location": "France",
         "readingTime": "4",
         "stats": {
           "distance": {
@@ -105442,7 +105440,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/09/02/8a0d6d12-a40d-47ba-9d09-6b8d5572bb32.jpeg",
-        "location": null,
+        "location": "France",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -107224,7 +107222,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/36c8ce31-ccce-4133-9528-338124462edf.jpeg",
-        "location": null,
+        "location": "Navarre",
         "readingTime": "4",
         "stats": {
           "distance": {
@@ -108336,7 +108334,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/259d7373-6f3d-4274-8ff8-440cb2724702.jpeg",
-        "location": null,
+        "location": "Navarre",
         "readingTime": "5",
         "stats": {
           "distance": {
@@ -109445,7 +109443,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/94c5e141-580c-483b-91aa-13a88bf0f8fd.jpeg",
-        "location": null,
+        "location": "Navarre",
         "readingTime": "4",
         "stats": {
           "distance": {
@@ -110557,7 +110555,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/88b734d7-ee6f-437f-a44b-6233d7f86158.jpeg",
-        "location": null,
+        "location": "Navarre",
         "readingTime": "4",
         "stats": {
           "distance": {
@@ -111665,7 +111663,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/6de64c25-13b3-441f-96b8-1f80cd4d6bd6.jpeg",
-        "location": null,
+        "location": "Navarre",
         "readingTime": "4",
         "stats": {
           "distance": {
@@ -112781,7 +112779,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/f3c24aa0-ec3f-4319-9585-e178b9fd7bca.jpeg",
-        "location": null,
+        "location": "Navarre",
         "readingTime": "6",
         "stats": {
           "distance": {
@@ -113892,7 +113890,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/71b4d4f4-b9d4-40b9-8902-cef791391428.jpeg",
-        "location": null,
+        "location": "La Rioja",
         "readingTime": "5",
         "stats": {
           "distance": {
@@ -115010,7 +115008,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/e5a310be-0e12-45d8-9121-dbac375a4234.jpeg",
-        "location": null,
+        "location": "La Rioja",
         "readingTime": "6",
         "stats": {
           "distance": {
@@ -116122,7 +116120,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/50570d33-285a-4561-bc7f-b7e500363359.jpeg",
-        "location": null,
+        "location": "La Rioja",
         "readingTime": "5",
         "stats": {
           "distance": {
@@ -117235,7 +117233,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/009b868c-38ee-43e7-bc1c-90b259306d86.jpeg",
-        "location": null,
+        "location": "Castile and León",
         "readingTime": "6",
         "stats": {
           "distance": {
@@ -118347,7 +118345,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/678b2b3a-6724-4bca-99b7-f7ed9a4683e7.jpeg",
-        "location": null,
+        "location": "Castile and León",
         "readingTime": "6",
         "stats": {
           "distance": {
@@ -119461,7 +119459,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/28740c31-9cb0-4952-af50-9f1bab6c1edb.jpeg",
-        "location": null,
+        "location": "Castile and León",
         "readingTime": "6",
         "stats": {
           "distance": {
@@ -120580,7 +120578,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/3ecd42d0-421e-4e3d-a770-830e68e2652c.jpeg",
-        "location": null,
+        "location": "Castile and León",
         "readingTime": "7",
         "stats": {
           "distance": {
@@ -121694,7 +121692,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/98a7eed4-299d-40e6-a537-779a5bab6c77.jpeg",
-        "location": null,
+        "location": "Castile and León",
         "readingTime": "6",
         "stats": {
           "distance": {
@@ -122799,7 +122797,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/2e08d5fe-1711-4768-8ded-f3714e186923.jpeg",
-        "location": null,
+        "location": "Castile and León",
         "readingTime": "4",
         "stats": {
           "distance": {
@@ -122880,7 +122878,8 @@ const data = [
           "end": {
             "position": "left",
             "words": [
-              "Carrion"
+              "Carrión de",
+              "los Condes"
             ]
           },
           "isSame": false,
@@ -123909,7 +123908,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/bcdc06e3-4c95-4138-9779-bc46670a4e1b.jpeg",
-        "location": null,
+        "location": "Castile and León",
         "readingTime": "5",
         "stats": {
           "distance": {
@@ -123997,7 +123996,8 @@ const data = [
           "start": {
             "position": "bottom",
             "words": [
-              "Carrion"
+              "Carrión de",
+              "los Condes"
             ]
           }
         }
@@ -125022,7 +125022,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/2b268d15-bea2-42ae-a15c-1ab6fd5fe4f7.jpeg",
-        "location": null,
+        "location": "Castile and León",
         "readingTime": "6",
         "stats": {
           "distance": {
@@ -126130,7 +126130,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/845acb7b-86f3-4768-8ce3-c8be727c50af.jpeg",
-        "location": null,
+        "location": "Castile and León",
         "readingTime": "5",
         "stats": {
           "distance": {
@@ -126211,7 +126211,7 @@ const data = [
           "end": {
             "position": "left",
             "words": [
-              "Leon"
+              "León"
             ]
           },
           "isSame": false,
@@ -127248,7 +127248,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/f5741d7d-6a86-47ae-a5b1-f1bced05bb00.jpeg",
-        "location": null,
+        "location": "Castile and León",
         "readingTime": "6",
         "stats": {
           "distance": {
@@ -127329,6 +127329,7 @@ const data = [
           "end": {
             "position": "left",
             "words": [
+              "Villar de",
               "Mazarife"
             ]
           },
@@ -127336,7 +127337,7 @@ const data = [
           "start": {
             "position": "right",
             "words": [
-              "Leon"
+              "León"
             ]
           }
         }
@@ -128369,7 +128370,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/0cf7b647-1681-4b88-be6a-cbba1163f38a.jpeg",
-        "location": null,
+        "location": "Castile and León",
         "readingTime": "8",
         "stats": {
           "distance": {
@@ -128457,6 +128458,7 @@ const data = [
           "start": {
             "position": "right",
             "words": [
+              "Villar de",
               "Mazarife"
             ]
           }
@@ -129479,7 +129481,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/bf4e84fe-e4ca-4834-ab65-393f965bbdb8.jpeg",
-        "location": null,
+        "location": "Castile and León",
         "readingTime": "5",
         "stats": {
           "distance": {
@@ -130581,7 +130583,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/2901af55-b7bf-41ec-9471-6ec3699b1f12.jpeg",
-        "location": null,
+        "location": "Castile and León",
         "readingTime": "4",
         "stats": {
           "distance": {
@@ -131685,7 +131687,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/7fa41365-3d33-461b-9be5-5a946064923c.jpeg",
-        "location": null,
+        "location": "Castile and León",
         "readingTime": "5",
         "stats": {
           "distance": {
@@ -131766,7 +131768,8 @@ const data = [
           "end": {
             "position": "top",
             "words": [
-              "Villafranca"
+              "Villafranca",
+              "del Bierzo"
             ]
           },
           "isSame": false,
@@ -132787,7 +132790,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/6349679e-acbf-4f74-ad4a-0d9032c3b293.jpeg",
-        "location": null,
+        "location": "Galicia",
         "readingTime": "4",
         "stats": {
           "distance": {
@@ -132875,7 +132878,8 @@ const data = [
           "start": {
             "position": "bottom",
             "words": [
-              "Villafranca"
+              "Villafranca",
+              "del Bierzo"
             ]
           }
         }
@@ -133888,7 +133892,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/4e1b42f2-3994-4d1c-ad29-620eab9c80c7.jpeg",
-        "location": null,
+        "location": "Galicia",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -134990,7 +134994,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/3d738e26-0747-447a-98fb-0bb35e1736c3.jpeg",
-        "location": null,
+        "location": "Galicia",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -136093,7 +136097,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/4e8fd9a9-ed5f-429f-9230-efa731461a5f.jpeg",
-        "location": null,
+        "location": "Galicia",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -137192,7 +137196,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/2dcb1878-efe7-47d7-b7b5-b031ab143cb6.jpeg",
-        "location": null,
+        "location": "Galicia",
         "readingTime": "2",
         "stats": {
           "distance": {
@@ -138295,7 +138299,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/1921986b-9cf8-4bf8-b531-3bfe2f098f93.jpeg",
-        "location": null,
+        "location": "Galicia",
         "readingTime": "3",
         "stats": {
           "distance": {
@@ -139398,7 +139402,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/7f51e3c4-518e-4147-8e73-c19d6c87ce11.jpeg",
-        "location": null,
+        "location": "Galicia",
         "readingTime": "4",
         "stats": {
           "distance": {
@@ -140498,7 +140502,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/32011e1d-8075-4b90-9a91-db88c3d66989.jpeg",
-        "location": null,
+        "location": "Galicia",
         "readingTime": "4",
         "stats": {
           "distance": {
@@ -141613,7 +141617,7 @@ const data = [
         "hasGpx": true,
         "hasStats": true,
         "image": "2018/06/02/aa8b0404-f4d1-44ed-bc96-ce65eae03848.jpeg",
-        "location": null,
+        "location": "Galicia",
         "readingTime": "7",
         "stats": {
           "distance": {

@@ -11,7 +11,6 @@ import {
   MapContainer,
   Polyline,
   TileLayer,
-  Tooltip,
   ZoomControl,
   useMap,
 } from 'react-leaflet';
@@ -42,7 +41,7 @@ export default function Leaflet({
         theme = localStorage.getItem('theme') || 'light';
       }
 
-      setIsDarkMode(theme !== 'light');
+      setIsDarkMode(theme === 'light');
 
       setData(gpx);
     }
@@ -55,30 +54,10 @@ export default function Leaflet({
       if (positions.length > 0) {
         map.addHandler('gestureHandling', GestureHandling);
 
-        let start = 0;
-        let end = 0;
-
-        termini.start.words.map((line) => {
-          if (line.length > start) {
-            start = line.length;
-          }
-        });
-
-        termini.end.words.map((line) => {
-          if (line.length > end) {
-            end = line.length;
-          }
-        });
-
-        const longest = start > end ? start : end;
-
         const bounds = new L.LatLngBounds(positions);
 
         map.fitBounds(bounds, {
-          padding: [
-            longest >= 12 ? 150 : 100,
-            longest >= 12 ? 150 : 100,
-          ],
+          padding: [10, 10],
         });
       }
       // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -113,32 +92,11 @@ export default function Leaflet({
         <>
           <CircleMarker
             center={data[0]}
-            className={styles.outer}
-            fill={false}
-            opacity={1}
-            radius={6}
-          />
-          <CircleMarker
-            center={data[0]}
-            className={styles.inner}
+            className={styles.start}
             fillOpacity={1}
             opacity={1}
             radius={5}
-          >
-            <Tooltip
-              permanent
-              // @ts-expect-error string is fine
-              direction={termini.start.position !== null ? termini.start.position : undefined}
-            >
-              <span className={styles.eyebrow}>Start</span>
-              {termini.start.words.map((line, index) => (
-                <span className={styles.line} key={index}>{line}</span>
-              ))}
-              <span className={styles.elevation}>
-                {new Intl.NumberFormat().format(gpx[0][2])} ft
-              </span>
-            </Tooltip>
-          </CircleMarker>
+          />
           <CircleMarker
             center={data[data.length - 1]}
             className={styles.outer}
@@ -148,25 +106,11 @@ export default function Leaflet({
           />
           <CircleMarker
             center={data[data.length - 1]}
-            className={styles.inner}
+            className={styles.end}
             fillOpacity={1}
             opacity={1}
             radius={5}
-          >
-            <Tooltip
-              permanent
-              // @ts-expect-error string is fine
-              direction={termini.end.position !== null ? termini.end.position : undefined}
-            >
-              <span className={styles.eyebrow}>End</span>
-              {termini.end.words.map((line, index) => (
-                <span className={styles.line} key={index}>{line}</span>
-              ))}
-              <span className={styles.elevation}>
-                {new Intl.NumberFormat().format(gpx[gpx.length - 1][2])} ft
-              </span>
-            </Tooltip>
-          </CircleMarker>
+          />
         </>
       )}
       {hoverIndex !== null && (

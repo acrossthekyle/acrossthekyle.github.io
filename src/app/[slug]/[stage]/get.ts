@@ -29,7 +29,7 @@ export default function get(slug: string, stage: string) {
     image: result.image,
     index: stage,
     label: found.label,
-    location: found.location,
+    location: result.location,
     next: next ? {
       date: found.stages[next - 1].date,
       index: padIndex(next),
@@ -46,6 +46,6 @@ export default function get(slug: string, stage: string) {
     termini: result.termini,
     total: found.stages.length,
     title: result.termini.end.words,
-    travel: found.title.join(' '),
+    travel: found.location,
   };
 };

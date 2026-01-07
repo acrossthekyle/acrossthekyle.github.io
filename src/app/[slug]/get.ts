@@ -17,13 +17,13 @@ export default function get(slug: string) {
     label: data.label,
     location: data.location,
     slug,
-    stages: data.stages.map(({ date, description, hasStats, image, readingTime, termini }, index) => ({
+    stages: data.stages.map(({ date, description, hasStats, image, location, termini }, index) => ({
       date,
       description,
       hasStats,
       image,
       index: padIndex(index + 1),
-      readingTime,
+      location,
       termini,
     })),
     title: data.title,

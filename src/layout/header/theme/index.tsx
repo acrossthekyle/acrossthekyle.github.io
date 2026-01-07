@@ -12,6 +12,8 @@ export default function Theme() {
       onClick={handleOnSwitchTheme}
       title="Toggle theme"
       type="button"
-    />
+    >
+      <span aria-hidden="true" className={styles.dot} />
+    </button>
   );
 }

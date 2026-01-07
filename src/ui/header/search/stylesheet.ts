@@ -8,7 +8,7 @@ const styles = tw({
   search: `
     flex items-center gap-2
     h-12 w-full
-    pl-3
+    pl-4
     border
     rounded-sm
 
@@ -21,6 +21,7 @@ const styles = tw({
   input: `
     w-full h-full
     mr-12
+    pl-2
     text-white text-sm
     placeholder-gray-500
   `,

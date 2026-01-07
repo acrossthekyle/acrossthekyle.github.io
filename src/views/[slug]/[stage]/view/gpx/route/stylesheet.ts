@@ -3,13 +3,12 @@ import tw from '@/styles';
 const styles = tw({
   section: `
     relative z-0
-    h-[calc(100vh-22rem)] w-full
-  `,
-  title: `
-    block
-    mb-6
-    text-sm
-    font-bold
+    aspect-square
+    rounded-sm
+    overflow-hidden
+
+    base:h-54
+    base:w-full
   `,
   map: `
     relative
@@ -20,40 +19,28 @@ const styles = tw({
     stroke-4
     !pointer-events-none
 
-    dark:stroke-white light:stroke-black
+    light:stroke-white dark:stroke-black
   `,
   outer: `
     relative
-    stroke-10
+    stroke-8
     !pointer-events-none
 
-    dark:stroke-white light:stroke-black
+    light:stroke-white dark:stroke-black
   `,
-  inner: `
+  start: `
     relative z-2
     !pointer-events-none
 
-    dark:fill-black light:fill-white
-    dark:stroke-black light:stroke-white
+    light:fill-white dark:fill-black
+    light:stroke-white dark:stroke-black
   `,
-  eyebrow: `
-    block
-    font-normal
-    text-tiny
-    uppercase
-    tracking-widest
-  `,
-  line: `
-    block
-    text-base/3.5
-    font-extrablack
-    uppercase
-  `,
-  elevation: `
-    block
-    font-normal
-    text-xs
-    tracking-normal
+  end: `
+    relative z-2
+    !pointer-events-none
+
+    light:fill-white dark:fill-black
+    light:stroke-black dark:stroke-white
   `,
 });
 
