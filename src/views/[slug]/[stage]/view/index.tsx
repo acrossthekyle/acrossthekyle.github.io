@@ -60,14 +60,12 @@ export default function View({ data }: Props) {
               )}
             </Fragment>
           ))}
-          <footer className={styles.footer}>
-            <Navigation
-              next={data.next}
-              previous={data.previous}
-              slug={data.slug}
-            />
-          </footer>
         </Article>
+        <Navigation
+          next={data.next}
+          previous={data.previous}
+          slug={data.slug}
+        />
       </LayoutMain>
       <LayoutFooter />
     </>

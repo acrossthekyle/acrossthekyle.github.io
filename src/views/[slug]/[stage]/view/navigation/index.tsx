@@ -16,7 +16,10 @@ export default function Navigation({ next, previous, slug }: Props) {
   const { handleOnNavigate } = useModel();
 
   return (
-    <nav className={styles.nav(previous !== undefined)}>
+    <nav
+      aria-label="next previous supplementary navigation"
+      className={styles.nav(previous !== undefined)}
+    >
       {previous !== undefined && (
         <button
           className={styles.first}
