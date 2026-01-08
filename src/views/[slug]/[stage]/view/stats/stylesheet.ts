@@ -2,8 +2,10 @@ import tw from '@/styles';
 
 const styles = tw({
   list: `
-    flex flex-col gap-5
-    mt-6
+    flex flex-col gap-4
+    mt-4
+
+    base:mt-6
   `,
   item: `
     flex flex-col gap-1

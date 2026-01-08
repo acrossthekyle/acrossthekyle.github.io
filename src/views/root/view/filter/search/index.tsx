@@ -1,25 +1,25 @@
 'use client';
 
 import { Search as Icon } from 'lucide-react';
+import { ChangeEvent } from 'react';
 
-import { useModel } from './model';
 import styles from './stylesheet';
 
 type Props = {
-  children?: React.ReactNode | React.ReactNode[];
-  onChange: (searchBy: string) => void;
-  placeholder?: string;
+  onChange: (event: ChangeEvent<HTMLInputElement>) => void;
+  placeholder: string;
   searchBy: string;
 };
 
-export default function Search({
-  children,
-  onChange,
-  placeholder,
-  searchBy,
-}: Props) {
-  const { handleOnSearch } = useModel(onChange);
+function formatPlaceholder(initial: string) {
+  if (['everything', 'peak-bagging'].includes(initial)) {
+    return initial;
+  }
 
+  return `${initial}s`;
+};
+
+export default function Search({ onChange, placeholder, searchBy }: Props) {
   return (
     <form
       className={styles.container}
@@ -29,13 +29,12 @@ export default function Search({
         <Icon aria-hidden="true" className={styles.icon} />
         <input
           className={styles.input}
-          onChange={handleOnSearch}
-          placeholder={`Search ${placeholder || ''}`.trim()}
+          onChange={onChange}
+          placeholder={`Search ${formatPlaceholder(placeholder)}`}
           type="text"
           value={searchBy}
         />
       </fieldset>
-      {children}
     </form>
   );
 }

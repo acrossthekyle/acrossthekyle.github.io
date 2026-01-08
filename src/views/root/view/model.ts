@@ -3,18 +3,11 @@
 import Fuse from 'fuse.js';
 import { useEffect, useState } from 'react';
 
-import { useEvent } from '@/hooks/useEvent';
-
 import { type Data } from './types';
 
 export function useModel(data: Data[]) {
   const [fuse, setFuse] = useState<Fuse<Data> | null>(null);
-  const [isActive, setIsActive] = useState(false);
   const [items, setItems] = useState(data);
-  const [filterBy, setFilterBy] = useState('everything');
-  const [orderBy, setOrderBy] = useState('descending');
-  const [searchBy, setSearchBy] = useState('');
-  const [sortBy, setSortBy] = useState('date');
 
   useEffect(() => {
     if (fuse === null) {
@@ -24,33 +17,38 @@ export function useModel(data: Data[]) {
     }
   }, [fuse, data]);
 
-  useEffect(() => {
+  const handleOnFilter = (
+    search: string,
+    filter: string,
+    sort: string,
+    order: string,
+  ) => {
     let result = [...data];
 
-    if (fuse !== null && searchBy.length > 0) {
-      result = fuse.search(searchBy).map((result) => result.item);
+    if (fuse !== null && search.length > 0) {
+      result = fuse.search(search).map((result) => result.item);
     }
 
-    if (filterBy === 'vacation') {
+    if (filter === 'vacation') {
       result = result.filter(item => item.type === 'vacation');
-    } else if (filterBy === 'overnight trek') {
+    } else if (filter === 'overnight trek') {
       result = result.filter(item => item.type === 'overnight trek');
-    } else if (filterBy === 'peak-bagging') {
+    } else if (filter === 'peak-bagging') {
       result = result.filter(item => item.type === 'peak-bagging');
-    } else if (filterBy === 'section hike') {
+    } else if (filter === 'section hike') {
       result = result.filter(item => item.type === 'section hike');
-    } else if (filterBy === 'thru-hike') {
+    } else if (filter === 'thru-hike') {
       result = result.filter(item => item.type === 'thru-hike');
     }
 
-    if (sortBy === 'title') {
-      if (orderBy === 'descending') {
+    if (sort === 'title') {
+      if (order === 'descending') {
         result = result.sort((a, b) => b.title.join(' ').localeCompare(a.title.join(' ')));
       } else {
         result = result.sort((a, b) => a.title.join(' ').localeCompare(b.title.join(' ')));
       }
     } else {
-      if (orderBy === 'descending') {
+      if (order === 'descending') {
         result = result.sort((a, b) => Number(b.timestamp) - Number(a.timestamp));
       } else {
         result = result.sort((a, b) => Number(a.timestamp) - Number(b.timestamp));
@@ -58,35 +56,10 @@ export function useModel(data: Data[]) {
     }
 
     setItems(result);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [data, filterBy, orderBy, searchBy, sortBy]);
-
-  const handleOnFilter = (filter: string, sort: string, order: string) => {
-    setFilterBy(filter);
-    setSortBy(sort);
-    setOrderBy(order);
   };
-
-  const handleOnToggle = () => {
-    setIsActive(previous => !previous);
-  };
-
-  const handleOnSearch = (value: string) => {
-    setSearchBy(value);
-  };
-
-  useEvent('onEscape', () => {
-    if (isActive) {
-      handleOnToggle();
-    }
-  });
 
   return {
     handleOnFilter,
-    handleOnToggle,
-    handleOnSearch,
-    isActive,
     items,
-    searchBy,
   };
 };

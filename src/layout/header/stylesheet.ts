@@ -3,8 +3,8 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     flex flex-col
-    h-auto
-    p-6 pt-32
+    h-auto min-h-full
+    p-6 pt-20
     border-b-1
 
     dark:border-b-white/15 light:border-b-black/15
@@ -30,11 +30,9 @@ const styles = tw({
     peta:w-210
   `,
   scrollable: `
-    hidden
+    flex-1
 
-    base:block
-    base:flex-1
-    base:pt-10
+    base:pt-24
   `,
   anchor: `
     absolute top-6
@@ -45,7 +43,7 @@ const styles = tw({
     kilo:top-16
   `,
   icon: `
-    w-5 h-5
+    w-4 h-4
     stroke-2
   `,
   socials: `

@@ -24,7 +24,7 @@ export default function Radio({ count, current, expected, onChange, text }: Prop
         {text}
         {count !== undefined && (
           <>
-            {count > 1 ? 's' : ''}
+            {count > 1 && expected !== 'everything' ? 's' : ''}
             <span className={styles.count}>[{count}]</span>
           </>
         )}

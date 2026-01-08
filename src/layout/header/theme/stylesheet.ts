@@ -8,7 +8,7 @@ const styles = tw({
   dot: `
     block
     rounded-full
-    w-5 h-5
+    w-4 h-4
 
     dark:bg-yellow-400 light:bg-slate-800
   `,

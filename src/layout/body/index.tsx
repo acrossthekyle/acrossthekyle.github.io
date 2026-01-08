@@ -1,7 +1,7 @@
 import { Geist } from 'next/font/google';
-import Link from 'next/link';
 import Script from 'next/script';
 
+import Skip from './skip';
 import styles from './stylesheet';
 
 const geistSans = Geist({
@@ -38,12 +38,7 @@ export default function Body({ children }: Props) {
           })();
         `}
       </Script>
-      <Link
-        className={styles.skip}
-        href="#first-article"
-      >
-        Skip to Main Content
-      </Link>
+      <Skip />
       {children}
     </body>
   );

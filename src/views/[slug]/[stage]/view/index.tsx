@@ -1,9 +1,10 @@
 import { Fragment } from 'react';
 
 import { LayoutFooter, LayoutHeader, LayoutMain } from '@/layout';
+import { Article } from '@/ui/article';
 import { HeaderBack, HeaderHeading } from '@/ui/header';
 import { Image, ImageFigure } from '@/ui/image';
-import { Eyebrow, Paragraph, Subtitle } from '@/ui/typography';
+import { Eyebrow, Line, Paragraph, Subtitle } from '@/ui/typography';
 
 import Stats from './stats';
 import styles from './stylesheet';
@@ -27,7 +28,7 @@ export default function View({ data }: Props) {
             {data.location[0]} &mdash; {data.location[1]}
           </Eyebrow>
           {data.title.map((words, index: number) => (
-            <span className={styles.line} key={index}>{words}</span>
+            <Line key={index}>{words}</Line>
           ))}
           <Subtitle>
             {data.date}
@@ -38,14 +39,14 @@ export default function View({ data }: Props) {
         )}
       </LayoutHeader>
       <LayoutMain>
-        <article aria-labelledby="main-heading" className={styles.article}>
+        <Article ariaLabelledBy="main-heading">
           {data.description.map((paragraph, index: number) => (
             <Fragment key={paragraph}>
               <Paragraph>
                 {paragraph}
               </Paragraph>
               {index === 0 && (
-                <ImageFigure className="my-6">
+                <ImageFigure className={styles.figure}>
                   <Image
                     alt=""
                     color
@@ -58,7 +59,7 @@ export default function View({ data }: Props) {
               )}
             </Fragment>
           ))}
-        </article>
+        </Article>
       </LayoutMain>
       <LayoutFooter />
     </>

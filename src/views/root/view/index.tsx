@@ -3,18 +3,20 @@
 import Link from 'next/link';
 
 import { LayoutFooter, LayoutHeader, LayoutMain } from '@/layout';
-import { HeaderHeading, HeaderSection, HeaderSearch } from '@/ui/header';
+import { Article, ArticlePreview, ArticlePreviewMore } from '@/ui/article';
+import { HeaderHeading, HeaderSection } from '@/ui/header';
 import {
   Image,
   ImageCaption,
-  ImageCaptionContent,
   ImageCaptionCount,
   ImageCaptionEyebrow,
+  ImageCaptionSubtitle,
+  ImageCaptionTitle,
   ImageFigure,
 } from '@/ui/image';
-import { Paragraph } from '@/ui/typography';
+import { Line, Paragraph } from '@/ui/typography';
 
-import Dialog from './filter';
+import Filter from './filter';
 import { useModel } from './model';
 import styles from './stylesheet';
 import type { Data } from './types';
@@ -24,20 +26,13 @@ type Props = {
 };
 
 export default function View({ data }: Props) {
-  const {
-    handleOnFilter,
-    handleOnToggle,
-    handleOnSearch,
-    isActive,
-    items,
-    searchBy,
-  } = useModel(data);
+  const { handleOnFilter, items } = useModel(data);
 
   return (
     <>
       <LayoutHeader>
         <HeaderHeading>
-          Backpacker and engineer seeking new paths.
+          A backpacker and engineer making moves.
         </HeaderHeading>
         <HeaderSection>
           <Paragraph>
@@ -47,31 +42,14 @@ export default function View({ data }: Props) {
             I live on the lands belonging to the <span className={styles.emphasis}>Potawatomi</span>, <span className={styles.emphasis}>Ojibwe</span>, and <span className={styles.emphasis}>Odawa</span> &mdash; otherwise known as the city of <span className={styles.emphasis}>Chicago</span>, and I've spent the past {new Date().getFullYear() - 2012} years building parts of the web that you probably use today, and the last {new Date().getFullYear() - 2018} years exploring the world.
           </Paragraph>
         </HeaderSection>
-        <HeaderSection>
-          <HeaderSearch onChange={handleOnSearch} searchBy={searchBy}>
-            <button
-              aria-label="filter and sort"
-              className={styles.filter}
-              onClick={handleOnToggle}
-              type="button"
-            >
-              Filter
-            </button>
-          </HeaderSearch>
-          <Dialog
-            data={data}
-            isActive={isActive}
-            onChange={handleOnFilter}
-            onClose={handleOnToggle}
-          />
-        </HeaderSection>
       </LayoutHeader>
       <LayoutMain>
+        <Filter data={data} onChange={handleOnFilter} />
         {items.map((item, index: number) => (
-          <article className={styles.article} key={index}>
+          <Article hasBorder key={index}>
             <Link
               href={`/${item.slug}${item.count === 1 ? '/01' : ''}`}
-              id={index === 0 ? 'first-article' : undefined}
+              id={index === 0 ? 'skip-to' : undefined}
             >
               <ImageFigure scale>
                 <Image
@@ -86,26 +64,30 @@ export default function View({ data }: Props) {
                   <ImageCaptionCount>
                     {item.index}
                   </ImageCaptionCount>
-                  <ImageCaptionContent>
+                  <ImageCaptionTitle>
                     <ImageCaptionEyebrow>
                       {item.location}
                     </ImageCaptionEyebrow>
                     {item.title.map((words) => (
-                      <span className="block" key={words}>{words}</span>
+                      <Line key={words}>{words}</Line>
                     ))}
-                  </ImageCaptionContent>
+                    <ImageCaptionSubtitle>
+                      {item.date}
+                    </ImageCaptionSubtitle>
+                  </ImageCaptionTitle>
                 </ImageCaption>
               </ImageFigure>
             </Link>
-            <section aria-label="preview" className={styles.preview}>
-              <span className={styles.date}>
-                {item.date} &mdash; {item.type}
-              </span>
+            <ArticlePreview>
               <Paragraph>
                 {item.description[0]}..
+                <ArticlePreviewMore
+                  href={`/${item.slug}${item.count === 1 ? '/01' : ''}`}
+                  text="learn more"
+                />
               </Paragraph>
-            </section>
-          </article>
+            </ArticlePreview>
+          </Article>
         ))}
       </LayoutMain>
       <LayoutFooter />

@@ -1,6 +1,6 @@
 export function getAspectClassNames(index?: number) {
   const base = 'base:portrait:aspect-16/9 base:landscape:aspect-16/9';
-  const standard = `portrait:aspect-6/7 landscape:aspect-16/9 ${base}`;
+  const standard = `portrait:aspect-12/9 landscape:aspect-16/9 ${base}`;
 
   if (index === undefined) {
     return standard;

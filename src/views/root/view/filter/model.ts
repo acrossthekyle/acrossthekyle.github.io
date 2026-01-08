@@ -1,19 +1,23 @@
 'use client';
 
-import { useEffect } from 'react';
+import { ChangeEvent, useEffect, useState } from 'react';
 import { create } from 'zustand';
+
+import { useEvent } from '@/hooks/useEvent';
 
 import type { Data } from '../types';
 
 type State = {
   filterBy: string;
   orderBy: string;
+  searchBy: string;
   sortBy: string;
 };
 
 type Actions = {
   setFilterBy: (value: string) => void;
   setOrderBy: (value: string) => void;
+  setSearchBy: (value: string) => void;
   setSortBy: (value: string) => void;
 };
 
@@ -21,12 +25,16 @@ const store = create<State & Actions>()(
   (set) => ({
     filterBy: 'everything',
     orderBy: 'descending',
+    searchBy: '',
     sortBy: 'date',
     setFilterBy: (value: string) => {
       set({ filterBy: value });
     },
     setOrderBy: (value: string) => {
       set({ orderBy: value });
+    },
+    setSearchBy: (value: string) => {
+      set({ searchBy: value });
     },
     setSortBy: (value: string) => {
       set({ sortBy: value });
@@ -36,21 +44,30 @@ const store = create<State & Actions>()(
 
 export function useModel(
   data: Data[],
-  onChange: (filter: string, sort: string, order: string) => void,
+  onChange: (
+    searchBy: string,
+    filter: string,
+    sort: string,
+    order: string,
+  ) => void,
 ) {
   const {
     filterBy,
     orderBy,
+    searchBy,
     setFilterBy,
     setOrderBy,
+    setSearchBy,
     setSortBy,
     sortBy,
   } = store();
 
+  const [isActive, setIsActive] = useState(false);
+
   useEffect(() => {
-    onChange(filterBy, sortBy, orderBy);
+    onChange(searchBy, filterBy, sortBy, orderBy);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [filterBy, orderBy, sortBy]);
+  }, [filterBy, orderBy, searchBy, sortBy]);
 
   const handleOnFilter = (value: string) => {
     setFilterBy(value);
@@ -60,9 +77,25 @@ export function useModel(
     setOrderBy(value);
   };
 
+  const handleOnSearch = (event: ChangeEvent<HTMLInputElement>) => {
+    const term = (event.target as HTMLInputElement).value.toLowerCase();
+
+    setSearchBy(term);
+  };
+
   const handleOnSort = (value: string) => {
     setSortBy(value);
   };
+
+  const handleOnToggle = () => {
+    setIsActive(previous => !previous);
+  };
+
+  useEvent('onEscape', () => {
+    if (isActive) {
+      handleOnToggle();
+    }
+  });
 
   const reduced = data.reduce((initialObject: { [key: string]: number }, { type }) => {
     initialObject[type] = (initialObject[type] || 0) + 1;
@@ -81,8 +114,12 @@ export function useModel(
     filterBy,
     handleOnFilter,
     handleOnOrder,
+    handleOnSearch,
     handleOnSort,
+    handleOnToggle,
+    isActive,
     orderBy,
+    searchBy,
     sortBy,
     types,
   };

@@ -1,18 +1,19 @@
 import Link from 'next/link';
 
 import { LayoutFooter, LayoutHeader, LayoutMain } from '@/layout';
+import { Article, ArticlePreview, ArticlePreviewMore } from '@/ui/article';
 import { HeaderBack, HeaderHeading, HeaderSection } from '@/ui/header';
 import {
   Image,
   ImageCaption,
-  ImageCaptionContent,
   ImageCaptionCount,
   ImageCaptionEyebrow,
+  ImageCaptionSubtitle,
+  ImageCaptionTitle,
   ImageFigure,
 } from '@/ui/image';
-import { Eyebrow, Paragraph, Subtitle } from '@/ui/typography';
+import { Eyebrow, Line, Paragraph, Subtitle } from '@/ui/typography';
 
-import styles from './stylesheet';
 import type { Post } from './types';
 
 type Props = {
@@ -33,7 +34,7 @@ export default function View({ data }: Props) {
             {data.location}
           </Eyebrow>
           {data.title.map((words, index: number) => (
-            <span className={styles.line} key={index}>{words}</span>
+            <Line key={index}>{words}</Line>
           ))}
           <Subtitle>{data.date}</Subtitle>
         </HeaderHeading>
@@ -48,13 +49,16 @@ export default function View({ data }: Props) {
       <LayoutMain>
         {data.stages.length > 0 && (
           <>
-            {data.stages.map((stage, index) => (
-              <article
-                aria-labelledby={`stage-${stage.index}`}
-                className={styles.container}
+            {data.stages.map((stage, index: number) => (
+              <Article
+                ariaLabelledBy={`stage-${stage.index}`}
+                hasBorder
                 key={stage.index}
               >
-                <Link href={`/${data.slug}/${stage.index}`}>
+                <Link
+                  href={`/${data.slug}/${stage.index}`}
+                  id={index === 0 ? 'skip-to' : undefined}
+                >
                   <ImageFigure scale>
                     <Image
                       alt=""
@@ -68,18 +72,35 @@ export default function View({ data }: Props) {
                       <ImageCaptionCount>
                         {stage.index}
                       </ImageCaptionCount>
-                      <ImageCaptionContent id={`stage-${stage.index}`}>
+                      <ImageCaptionTitle id={`stage-${stage.index}`}>
                         <ImageCaptionEyebrow>
                           {stage.location}
                         </ImageCaptionEyebrow>
                         {stage.termini.end.words.map((words) => (
-                          <span className="block" key={words}>{words}</span>
+                          <Line key={words}>{words}</Line>
                         ))}
-                      </ImageCaptionContent>
+                        <ImageCaptionSubtitle>
+                          {stage.date}
+                        </ImageCaptionSubtitle>
+                      </ImageCaptionTitle>
                     </ImageCaption>
                   </ImageFigure>
                 </Link>
-              </article>
+                <ArticlePreview>
+                  <Paragraph>
+                    {stage.description[0]}
+                    {stage.description.length > 1 && (
+                      <>
+                        ..
+                        <ArticlePreviewMore
+                          href={`/${data.slug}/${stage.index}`}
+                          text="read more"
+                        />
+                      </>
+                    )}
+                  </Paragraph>
+                </ArticlePreview>
+              </Article>
             ))}
           </>
         )}
