@@ -45,7 +45,7 @@ export default function Dialog({ data, onChange }: Props) {
         onClick={handleOnToggle}
         type="button"
       >
-        Filter / Sort
+        Options
       </button>
       <dialog
         aria-label="search and filter"

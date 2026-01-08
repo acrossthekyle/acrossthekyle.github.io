@@ -17,6 +17,7 @@ const styles = {
     absolute top-7.5 right-7.5 bottom-7.5
     p-2
     text-tiny uppercase text-current/50
+    font-bold
     border-1
     rounded-sm
     duration-300

@@ -6,6 +6,7 @@ import { HeaderBack, HeaderHeading } from '@/ui/header';
 import { Image, ImageFigure } from '@/ui/image';
 import { Eyebrow, Line, Paragraph, Subtitle } from '@/ui/typography';
 
+import Navigation from './navigation';
 import Stats from './stats';
 import styles from './stylesheet';
 import { type Data } from './types';
@@ -59,6 +60,13 @@ export default function View({ data }: Props) {
               )}
             </Fragment>
           ))}
+          <footer className={styles.footer}>
+            <Navigation
+              next={data.next}
+              previous={data.previous}
+              slug={data.slug}
+            />
+          </footer>
         </Article>
       </LayoutMain>
       <LayoutFooter />
