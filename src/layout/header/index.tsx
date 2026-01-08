@@ -1,4 +1,4 @@
-import { CirclePile, Instagram, Linkedin, Mail, FileTypeCorner } from 'lucide-react';
+import { Instagram, Linkedin, Mail, FileTypeCorner } from 'lucide-react';
 import Link from 'next/link';
 
 import styles from './stylesheet';
@@ -11,13 +11,6 @@ type Props = {
 export default function Header({ children }: Props) {
   return (
     <header className={styles.container}>
-      <Link
-        aria-label="acrossthekyle.com home"
-        className={styles.anchor}
-        href="/"
-      >
-        <CirclePile aria-hidden="true" className={styles.icon} />
-      </Link>
       <nav aria-label="social media navigation" className={styles.socials}>
         <ul className={styles.list}>
           <li>

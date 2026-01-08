@@ -10,7 +10,7 @@ import {
   ImageCaptionEyebrow,
   ImageFigure,
 } from '@/ui/image';
-import { Eyebrow, Paragraph } from '@/ui/typography';
+import { Eyebrow, Paragraph, Subtitle } from '@/ui/typography';
 
 import styles from './stylesheet';
 import type { Post } from './types';
@@ -35,6 +35,7 @@ export default function View({ data }: Props) {
           {data.title.map((words, index: number) => (
             <span className={styles.line} key={index}>{words}</span>
           ))}
+          <Subtitle>{data.date}</Subtitle>
         </HeaderHeading>
         <HeaderSection>
           {data.description.map((paragraph) => (
@@ -78,14 +79,6 @@ export default function View({ data }: Props) {
                     </ImageCaption>
                   </ImageFigure>
                 </Link>
-                <section aria-label="preview" className={styles.preview}>
-                  <span className={styles.date}>
-                    {stage.date}
-                  </span>
-                  <Paragraph>
-                    {stage.description[0]}..
-                  </Paragraph>
-                </section>
               </article>
             ))}
           </>

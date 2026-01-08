@@ -32,8 +32,9 @@ const styles = tw({
     italic
   `,
   filter: `
-    absolute top-1.5 right-1.25
+    absolute top-1.5 right-1.5 bottom-1.5
     p-2
+    text-sm
     border-1
     rounded-sm
     duration-300

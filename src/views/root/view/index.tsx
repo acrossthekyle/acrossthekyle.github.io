@@ -1,6 +1,5 @@
 'use client';
 
-import { Filter } from 'lucide-react';
 import Link from 'next/link';
 
 import { LayoutFooter, LayoutHeader, LayoutMain } from '@/layout';
@@ -38,11 +37,11 @@ export default function View({ data }: Props) {
     <>
       <LayoutHeader>
         <HeaderHeading>
-          A backpacker and software engineer always seeking new ways to move forward.
+          Backpacker and engineer seeking new paths.
         </HeaderHeading>
         <HeaderSection>
           <Paragraph>
-            Hey, I'm Kyle.
+            Hey all, I'm Kyle.
           </Paragraph>
           <Paragraph>
             I live on the lands belonging to the <span className={styles.emphasis}>Potawatomi</span>, <span className={styles.emphasis}>Ojibwe</span>, and <span className={styles.emphasis}>Odawa</span> &mdash; otherwise known as the city of <span className={styles.emphasis}>Chicago</span>, and I've spent the past {new Date().getFullYear() - 2012} years building parts of the web that you probably use today, and the last {new Date().getFullYear() - 2018} years exploring the world.
@@ -56,7 +55,7 @@ export default function View({ data }: Props) {
               onClick={handleOnToggle}
               type="button"
             >
-              <Filter className={styles.icon} />
+              Filter
             </button>
           </HeaderSearch>
           <Dialog

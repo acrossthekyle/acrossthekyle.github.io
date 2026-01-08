@@ -2,13 +2,8 @@ import tw from '@/styles';
 
 const styles = tw({
   list: `
-    flex gap-4
-    mt-2
-
-    base:mt-6
-    base:gap-6
-    hecto:gap-8
-    kilo:gap-12
+    flex flex-col gap-5
+    mt-6
   `,
   item: `
     flex flex-col gap-1

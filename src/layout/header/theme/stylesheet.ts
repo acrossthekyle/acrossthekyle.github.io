@@ -10,7 +10,7 @@ const styles = tw({
     rounded-full
     w-5 h-5
 
-    dark:bg-yellow-700 light:bg-slate-800
+    dark:bg-yellow-400 light:bg-slate-800
   `,
 });
 

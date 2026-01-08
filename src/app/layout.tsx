@@ -12,8 +12,8 @@ import styles from './stylesheet';
 
 export const metadata: Metadata = {
   title: {
-    template: `%s → Kyle → A backpacker and UI developer always seeking new ways to move forward intentfully.`,
-    default: 'Home → Kyle → A backpacker and UI developer always seeking new ways to move forward intentfully.',
+    template: `%s → Kyle → Backpacker and engineer seeking new paths.`,
+    default: 'Home → Kyle → Backpacker and engineer seeking new paths.',
   },
   keywords: ['across', 'the', 'kyle', 'Kyle', 'Gilbert', 'Thru-hiker', 'UI Developer'],
   description: introduction,

@@ -9,8 +9,9 @@ export type Data = {
   image: string;
   index: string;
   label: string;
-  location: string;
+  location: string[];
   next?: Navigation;
+  parent: string[];
   previous?: Navigation;
   slug: string;
   stage: string;
@@ -18,5 +19,4 @@ export type Data = {
   termini: Termini;
   total: number;
   title: string[];
-  travel: string;
 };

@@ -4,7 +4,7 @@ const styles = tw({
   container: `
     flex flex-col
     h-auto
-    p-6 pt-20
+    p-6 pt-32
     border-b-1
 
     dark:border-b-white/15 light:border-b-black/15
