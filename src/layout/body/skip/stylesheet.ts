@@ -11,7 +11,6 @@ const styles = tw({
     font-bold
 
     dark:bg-black light:bg-white
-    dark:text-white light:text-black
 
     focus:w-auto
     focus:h-auto

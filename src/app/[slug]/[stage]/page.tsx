@@ -41,6 +41,10 @@ export default async function Page({
 
   const data = get(slug.toLowerCase(), stage);
 
+  if (data === null) {
+    return <Fallback />;
+  }
+
   return (
     <Suspense fallback={<Fallback />}>
       <View data={data} />

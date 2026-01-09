@@ -6,8 +6,460 @@ const data = [
     "description": [
       "Known for its unglaciated, hilly landscape, this remote counterclockwise backpacking loop in the Driftless Area of Iowa showcases the state's most rugged terrain with a route that crosses ravines, climbs sandstone bluffs, and provides views of the surrounding hardwood forests and wildlife."
     ],
-    "gear": {},
-    "hasGear": false,
+    "gear": {
+      "categories": [
+        {
+          "title": "Pack",
+          "items": [
+            {
+              "link": "https://evolvedsupplyco.com/supplies/p/the-ranger",
+              "name": [
+                "ESC Ranger"
+              ],
+              "weight": 19.25
+            },
+            {
+              "link": "https://evolvedsupplyco.com/supplies/p/nylofume-pack-liner",
+              "name": [
+                "Nylofume",
+                "Pack Liner"
+              ],
+              "weight": 1.02
+            }
+          ],
+          "weight": "1.27"
+        },
+        {
+          "title": "Shelter",
+          "items": [
+            {
+              "link": "https://durstongear.com/products/x-dome-1-plus-ultralight-backpacking-tent",
+              "name": [
+                "Durston",
+                "Gear X-Dome",
+                "1+ tent"
+              ],
+              "weight": 35
+            },
+            {
+              "link": "https://www.rei.com/product/829838/msr-mini-ground-hog-stake",
+              "name": [
+                "MSR Ground",
+                "Hog Mini",
+                "stakes"
+              ],
+              "weight": 2.1
+            }
+          ],
+          "weight": "2.32"
+        },
+        {
+          "title": "Sleeping",
+          "items": [
+            {
+              "link": "https://enlightenedequipment.com/revelation-stock",
+              "name": [
+                "EE",
+                "Revelation",
+                "10ºF Quilt"
+              ],
+              "weight": 27
+            },
+            {
+              "link": "https://zenbivy.com/products/pillow-air-bladder",
+              "name": [
+                "Zenbivy",
+                "Modular",
+                "Large",
+                "Pillow"
+              ],
+              "weight": 1.7
+            },
+            {
+              "link": "https://www.pillowstrap.com/products/medium-in-green",
+              "name": [
+                "Pillow",
+                "Strap",
+                "Pillow Case"
+              ],
+              "weight": 2.19
+            },
+            {
+              "link": "https://www.rei.com/product/228436/nemo-tensor-all-season-ultralight-insulated-sleeping-pad",
+              "name": [
+                "NEMO Tensor",
+                "All Season",
+                "R 5.4 Pad"
+              ],
+              "weight": 19.12
+            },
+            {
+              "link": "https://www.garagegrowngear.com/products/alpenblow-micro-inflator-by-alpenglow-gear",
+              "name": [
+                "Alpenblow",
+                "Air Pump"
+              ],
+              "weight": 0.3
+            }
+          ],
+          "weight": "3.14"
+        },
+        {
+          "title": "Clothing",
+          "items": [
+            {
+              "link": "https://www.fjallraven.com/us/en-us/men/trousers/trekking-trousers/vidda-pro-lite-trousers-m",
+              "name": [
+                "Fjallraven",
+                "Vidda Pro",
+                "Lite Pants"
+              ],
+              "weight": 16
+            },
+            {
+              "link": "https://www.topoathletic.com/mens-pursuit",
+              "name": [
+                "Topo",
+                "Athletic",
+                "Pursuit",
+                "Shoes"
+              ],
+              "weight": 22
+            },
+            {
+              "link": "https://arcteryx.com/us/en/shop/bird-curved-brim-trucker-hat",
+              "name": [
+                "Arc’teryx",
+                "Trucker Hat"
+              ],
+              "weight": 2.15
+            },
+            {
+              "link": "https://goodr.com/collections/the-ogs/products/a-gingers-soul",
+              "name": [
+                "Goodr",
+                "Sunglasses"
+              ],
+              "weight": 0.78
+            },
+            {
+              "link": "https://www.outdoorresearch.com/collections/sun-protection/products/mens-echo-hoodie-287625",
+              "name": [
+                "Outdoor",
+                "Research",
+                "Echo sun",
+                "hoody x 2"
+              ],
+              "weight": 9
+            },
+            {
+              "link": "https://www.farpointeog.com/stock/p/yakona-hoodie-available-314",
+              "name": [
+                "Farpointe",
+                "Yakona",
+                "Cruiser",
+                "Pullover"
+              ],
+              "weight": 4.02
+            },
+            {
+              "link": "https://unboundmerino.com/products/black-boxer-brief",
+              "name": [
+                "Unbound",
+                "Merino Wool",
+                "Boxer Brief",
+                "Underwear x",
+                "2"
+              ],
+              "weight": 5.72
+            },
+            {
+              "link": "https://www.amazon.com/dp/B074ZGXRYL",
+              "name": [
+                "Darn Tough",
+                "Quarter",
+                "Socks x 2"
+              ],
+              "weight": 3.8
+            },
+            {
+              "link": "https://www.amazon.com/gp/product/B07W5XC3DD",
+              "name": [
+                "Mountain",
+                "Hardwear",
+                "down jacket"
+              ],
+              "weight": 7.97
+            },
+            {
+              "link": "https://enlightenedequipment.com/visp-rain-jacket",
+              "name": [
+                "Enlightened",
+                "Equipment",
+                "Visp Rain",
+                "Jacket"
+              ],
+              "weight": 5.22
+            }
+          ],
+          "weight": "4.79"
+        },
+        {
+          "title": "Kitchen",
+          "items": [
+            {
+              "link": "https://www.garagegrowngear.com/products/titanium-650ml-pot-by-toaks",
+              "name": [
+                "TOAKS",
+                "titanium",
+                "650ml pot"
+              ],
+              "weight": 2.8
+            },
+            {
+              "link": "https://www.garagegrowngear.com/products/brs-3000-t-stove-by-brs-outdoor?_pos=1&_sid=693b477d2&_ss=r",
+              "name": [
+                "BRS 3000T",
+                "stove"
+              ],
+              "weight": 0.9
+            },
+            {
+              "link": "https://www.garagegrowngear.com/products/titanium-long-handle-spoon-by-toaks",
+              "name": [
+                "TOAKS",
+                "titanium",
+                "long",
+                "utensil"
+              ],
+              "weight": 0.53
+            },
+            {
+              "link": "https://zpacks.com/products/nylopro-odor-barrier-bags",
+              "name": [
+                "NyloPro",
+                "Odor Proof",
+                "Bag odor",
+                "barrier"
+              ],
+              "weight": 0.63
+            },
+            {
+              "link": "https://www.rei.com/product/849634/msr-isopro-fuel-canister-39-oz-110g",
+              "name": [
+                "MSR IsoPro",
+                "4oz fuel"
+              ],
+              "weight": 7.4
+            },
+            {
+              "link": "https://adotecgear.com/product/ultralight-food-locker-grizzly-bear/",
+              "name": [
+                "Adotec",
+                "Ultralight",
+                "Food Locker",
+                "14L food",
+                "bag"
+              ],
+              "weight": 6.75
+            }
+          ],
+          "weight": "1.19"
+        },
+        {
+          "title": "Water",
+          "items": [
+            {
+              "link": "https://www.rei.com/product/188475",
+              "name": [
+                "Platypus",
+                "Quickdraw",
+                "water",
+                "Filter"
+              ],
+              "weight": 2.4
+            },
+            {
+              "link": "https://www.rei.com/product/188475",
+              "name": [
+                "Platypus 1L",
+                "water pouch"
+              ],
+              "weight": 1.4
+            },
+            {
+              "link": "https://minimalgear.com/products/cnocoutdoors-thrubottle",
+              "name": [
+                "CNOC",
+                "ThruBottle",
+                "x 2 Water",
+                "Bottles"
+              ],
+              "weight": 6.36
+            }
+          ],
+          "weight": "0.64"
+        },
+        {
+          "title": "Hygiene",
+          "items": [
+            {
+              "link": "https://www.garagegrowngear.com/products/tooth-tabs-by-unpaste",
+              "name": [
+                "Toothpaste",
+                "tablets"
+              ],
+              "weight": 0.53
+            },
+            {
+              "link": "https://www.target.com/p/foldable-travel-toothbrush-up-38-up-8482/-/A-89947685",
+              "name": [
+                "Foldable",
+                "Toothbrush"
+              ],
+              "weight": 0.74
+            },
+            {
+              "link": "",
+              "name": [
+                "Hand",
+                "Sanitizer"
+              ],
+              "weight": 1.62
+            },
+            {
+              "link": "",
+              "name": [
+                "Toilet",
+                "paper"
+              ],
+              "weight": 1.69
+            },
+            {
+              "link": "",
+              "name": [
+                "Toilet bag"
+              ],
+              "weight": 0.44
+            },
+            {
+              "link": "https://www.target.com/p/wet-ones-antibacterial-hand-wipes-travel-pack-fresh-20ct/-/A-15045578",
+              "name": [
+                "Body Wipes"
+              ],
+              "weight": 2
+            },
+            {
+              "link": "",
+              "name": [
+                "Hair Ties"
+              ],
+              "weight": 0.32
+            },
+            {
+              "link": "",
+              "name": [
+                "SPF 15",
+                "Chapstick"
+              ],
+              "weight": 0.32
+            },
+            {
+              "link": "https://www.garagegrowngear.com/products/ultralight-trowel-by-boglerco",
+              "name": [
+                "BoglerCo",
+                "Ultralight",
+                "trowel"
+              ],
+              "weight": 0.48
+            }
+          ],
+          "weight": "0.51"
+        },
+        {
+          "title": "Aid Kit",
+          "items": [
+            {
+              "link": "",
+              "name": [
+                "Med +",
+                "Repair Kit"
+              ],
+              "weight": 1.73
+            }
+          ],
+          "weight": "0.11"
+        },
+        {
+          "title": "Electronics",
+          "items": [
+            {
+              "link": "",
+              "name": [
+                "Apple Ultra",
+                "3 Watch"
+              ],
+              "weight": 2.25
+            },
+            {
+              "link": "https://www.apple.com/iphone-16-pro/",
+              "name": [
+                "iPhone 16",
+                "Pro Phone"
+              ],
+              "weight": 7.8
+            },
+            {
+              "link": "https://www.nitecorestore.com/NITECORE-NU25-UL-Headlamp-p/fl-nite-nu25-400ul-bk.htm",
+              "name": [
+                "Nitecore",
+                "NU25 UL",
+                "headlamp"
+              ],
+              "weight": 1.59
+            }
+          ],
+          "weight": "0.73"
+        },
+        {
+          "title": "Miscellaneous",
+          "items": [
+            {
+              "link": "https://durstongear.com/products/iceline-trekking-poles",
+              "name": [
+                "Durston",
+                "Gear",
+                "Iceline",
+                "Trekking",
+                "Pole"
+              ],
+              "weight": 4.7
+            },
+            {
+              "link": "https://www.amazon.com/dp/B001ARBSTO",
+              "name": [
+                "Picaridin",
+                "insect",
+                "repellent",
+                "Bug Wipes"
+              ],
+              "weight": 1.13
+            },
+            {
+              "link": "https://www.amazon.com/dp/B0D3V61JC8",
+              "name": [
+                "Loop Quiet",
+                "2 Earplugs"
+              ],
+              "weight": 0.5
+            }
+          ],
+          "weight": "0.40"
+        }
+      ],
+      "weightBase": "10.13"
+    },
+    "hasGear": true,
     "hasStats": true,
     "image": "2025/10/18/efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg",
     "label": "day",
@@ -2283,8 +2735,7 @@ const data = [
             {
               "link": "https://evolvedsupplyco.com/supplies/p/the-ranger",
               "name": [
-                "ESC Ranger",
-                "Pack"
+                "ESC Ranger"
               ],
               "weight": 19.25
             },
@@ -2304,7 +2755,8 @@ const data = [
               ],
               "weight": 3
             }
-          ]
+          ],
+          "weight": "1.45"
         },
         {
           "title": "Sleeping",
@@ -2312,7 +2764,8 @@ const data = [
             {
               "link": "https://seatosummit.com/products/adaptor-coolmax-liner-insect-shield",
               "name": [
-                "Sea-to-Summit"
+                "Sleeping",
+                "Bag Liner"
               ],
               "weight": 12.8
             },
@@ -2324,7 +2777,8 @@ const data = [
               ],
               "weight": 6
             }
-          ]
+          ],
+          "weight": "1.18"
         },
         {
           "title": "Clothing",
@@ -2333,9 +2787,9 @@ const data = [
               "link": "https://vuoriclothing.com/products/kore-short-charcoal",
               "name": [
                 "Vuori Kore",
-                "Shorts"
+                "Shorts x 2"
               ],
-              "weight": 5.33
+              "weight": 10.66
             },
             {
               "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
@@ -2343,9 +2797,10 @@ const data = [
                 "Smartwool",
                 "boxer",
                 "briefs",
-                "Underwear"
+                "Underwear x",
+                "2"
               ],
-              "weight": 3.25
+              "weight": 6.5
             },
             {
               "link": "https://www.amazon.com/gp/product/B07BHX9PN8",
@@ -2353,7 +2808,7 @@ const data = [
                 "Darn Tough",
                 "Ankle Socks"
               ],
-              "weight": 1.55
+              "weight": 3.1
             },
             {
               "link": "https://goodr.com/collections/the-ogs/products/a-gingers-soul",
@@ -2401,32 +2856,6 @@ const data = [
               "weight": 7.97
             },
             {
-              "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
-              "name": [
-                "Smartwool",
-                "boxer",
-                "briefs",
-                "Underwear"
-              ],
-              "weight": 3.25
-            },
-            {
-              "link": "https://vuoriclothing.com/products/elevate-kore-short-black",
-              "name": [
-                "Vuori Kore",
-                "Shorts"
-              ],
-              "weight": 5.33
-            },
-            {
-              "link": "https://www.amazon.com/gp/product/B07BHX9PN8",
-              "name": [
-                "Darn Tough",
-                "Ankle Socks"
-              ],
-              "weight": 1.55
-            },
-            {
               "link": "https://senchidesigns.com/collections/shop/products/wren-hoodie",
               "name": [
                 "Senchi",
@@ -2453,27 +2882,9 @@ const data = [
                 "Outdoor",
                 "Research",
                 "Echo sun",
-                "hoody"
+                "hoody x 2"
               ],
-              "weight": 4.5
-            },
-            {
-              "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
-              "name": [
-                "Smartwool",
-                "boxer",
-                "briefs",
-                "Underwear"
-              ],
-              "weight": 3.25
-            },
-            {
-              "link": "https://www.amazon.com/gp/product/B07BHX9PN8",
-              "name": [
-                "Darn Tough",
-                "Ankle Socks"
-              ],
-              "weight": 1.55
+              "weight": 9
             },
             {
               "link": "https://www.smartwool.com/shop/mens-classic-all-season-merino-base-layer-long-sleeve-sw016952",
@@ -2502,7 +2913,8 @@ const data = [
               ],
               "weight": 13.12
             }
-          ]
+          ],
+          "weight": "6.40"
         },
         {
           "title": "Water",
@@ -2511,8 +2923,7 @@ const data = [
               "link": "",
               "name": [
                 "Nalgene",
-                "32oz narrow",
-                "mouth Water",
+                "Water",
                 "Bottles"
               ],
               "weight": 11.7
@@ -2521,13 +2932,14 @@ const data = [
               "link": "https://www.rei.com/product/116364/katadyn-befree-collapsible-water-filter-bottle-338-fl-oz",
               "name": [
                 "Katadyn",
-                "BeFree 1L",
+                "BeFree",
                 "water",
                 "Filter"
               ],
               "weight": 2.29
             }
-          ]
+          ],
+          "weight": "0.87"
         },
         {
           "title": "Hygiene",
@@ -2567,13 +2979,6 @@ const data = [
               "weight": 2.89
             },
             {
-              "link": "https://www.target.com/p/vanicream-daily-facial-moisturizer-for-sensitive-skin-3-fl-oz/-/A-80038093",
-              "name": [
-                "Face Lotion"
-              ],
-              "weight": 1.38
-            },
-            {
               "link": "https://www.amazon.com/gp/product/B01N2HMAV1",
               "name": [
                 "PackTowl",
@@ -2584,8 +2989,7 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B00E3B47ZQ",
               "name": [
-                "",
-                "Travel-sized"
+                "Deodorant"
               ],
               "weight": 0.95
             },
@@ -2603,15 +3007,9 @@ const data = [
                 "Body Wipes"
               ],
               "weight": 2
-            },
-            {
-              "link": "",
-              "name": [
-                "Q-tips"
-              ],
-              "weight": 0.21
             }
-          ]
+          ],
+          "weight": "1.05"
         },
         {
           "title": "Aid Kit",
@@ -2619,16 +3017,13 @@ const data = [
             {
               "link": "https://www.rei.com/product/800721/adventure-medical-kits-ultralightwatertight-3-medical-kit",
               "name": [
-                "Ibuprofen +",
-                "allergy",
-                "medicine +",
-                "repair tape",
                 "Med +",
                 "Repair Kit"
               ],
               "weight": 3.35
             }
-          ]
+          ],
+          "weight": "0.21"
         },
         {
           "title": "Electronics",
@@ -2636,7 +3031,7 @@ const data = [
             {
               "link": "",
               "name": [
-                "Apple Wired",
+                "Wired",
                 "Headphones"
               ],
               "weight": 0.46
@@ -2655,8 +3050,7 @@ const data = [
               "name": [
                 "Garmin",
                 "Enduro 2",
-                "GPS",
-                "Smartwatch"
+                "GPS Watch"
               ],
               "weight": 1.8
             },
@@ -2678,7 +3072,6 @@ const data = [
             {
               "link": "https://www.amazon.com/gp/product/B071GC3G9G",
               "name": [
-                "Type CEF",
                 "Outlet",
                 "Adapter"
               ],
@@ -2687,10 +3080,8 @@ const data = [
             {
               "link": "",
               "name": [
-                "Anker",
-                "USB-A/USB-C",
-                "30W charger",
-                "dual port"
+                "Anker Wall",
+                "Charger"
               ],
               "weight": 2.19
             },
@@ -2698,34 +3089,12 @@ const data = [
               "link": "https://www.garmin.com/en-US/p/793265",
               "name": [
                 "Garmin",
-                "inReach",
-                "Messenger",
-                "SOS"
+                "inReach SOS"
               ],
               "weight": 4.2
             }
-          ]
-        },
-        {
-          "title": "Packed Food + Water",
-          "items": [
-            {
-              "link": "",
-              "name": [
-                "2 liters",
-                "Water"
-              ],
-              "weight": 74.4
-            },
-            {
-              "link": "",
-              "name": [
-                "Packed",
-                "Lunch"
-              ],
-              "weight": 4
-            }
-          ]
+          ],
+          "weight": "1.55"
         },
         {
           "title": "Miscellaneous",
@@ -2746,29 +3115,6 @@ const data = [
                 "Pole"
               ],
               "weight": 9.66
-            },
-            {
-              "link": "",
-              "name": [
-                "Hair Ties"
-              ],
-              "weight": 0.32
-            },
-            {
-              "link": "",
-              "name": [
-                "Clothing",
-                "wire and",
-                "pins"
-              ],
-              "weight": 2.82
-            },
-            {
-              "link": "",
-              "name": [
-                "Comb"
-              ],
-              "weight": 0.53
             },
             {
               "link": "https://www.amazon.com/dp/B001ARBSTO",
@@ -2816,73 +3162,15 @@ const data = [
             {
               "link": "",
               "name": [
-                "Wallet"
-              ],
-              "weight": 2
-            },
-            {
-              "link": "",
-              "name": [
-                "Building +",
-                "unit Keys"
-              ],
-              "weight": 1.2
-            },
-            {
-              "link": "",
-              "name": [
-                "Nail",
-                "clippers"
-              ],
-              "weight": 0.46
-            },
-            {
-              "link": "",
-              "name": [
                 "Passport"
               ],
               "weight": 2.57
-            },
-            {
-              "link": "",
-              "name": [
-                "Carabiners"
-              ],
-              "weight": 0.81
-            },
-            {
-              "link": "",
-              "name": [
-                "Tums"
-              ],
-              "weight": 1.21
-            },
-            {
-              "link": "",
-              "name": [
-                "Nuun"
-              ],
-              "weight": 2.29
-            },
-            {
-              "link": "",
-              "name": [
-                "Small",
-                "dyneema bag"
-              ],
-              "weight": 0.49
-            },
-            {
-              "link": "",
-              "name": [
-                "Small",
-                "ziplock bag"
-              ],
-              "weight": 0.18
             }
-          ]
+          ],
+          "weight": "1.28"
         }
-      ]
+      ],
+      "weightBase": "9.58"
     },
     "hasGear": true,
     "hasStats": true,
@@ -15263,7 +15551,8 @@ const data = [
               ],
               "weight": 1.02
             }
-          ]
+          ],
+          "weight": "1.27"
         },
         {
           "title": "Shelter",
@@ -15286,7 +15575,8 @@ const data = [
               ],
               "weight": 6
             }
-          ]
+          ],
+          "weight": "1.38"
         },
         {
           "title": "Sleeping",
@@ -15318,7 +15608,8 @@ const data = [
               ],
               "weight": 6
             }
-          ]
+          ],
+          "weight": "2.46"
         },
         {
           "title": "Clothing",
@@ -15466,7 +15757,8 @@ const data = [
               ],
               "weight": 6
             }
-          ]
+          ],
+          "weight": "5.08"
         },
         {
           "title": "Water",
@@ -15498,7 +15790,8 @@ const data = [
               ],
               "weight": 3
             }
-          ]
+          ],
+          "weight": "0.42"
         },
         {
           "title": "Hygiene",
@@ -15600,7 +15893,8 @@ const data = [
               ],
               "weight": 0.95
             }
-          ]
+          ],
+          "weight": "0.93"
         },
         {
           "title": "Aid Kit",
@@ -15617,7 +15911,8 @@ const data = [
               ],
               "weight": 3.35
             }
-          ]
+          ],
+          "weight": "0.21"
         },
         {
           "title": "Electronics",
@@ -15674,7 +15969,8 @@ const data = [
               ],
               "weight": 1.9
             }
-          ]
+          ],
+          "weight": "1.34"
         },
         {
           "title": "Packed Food + Water",
@@ -15694,7 +15990,8 @@ const data = [
               ],
               "weight": 4
             }
-          ]
+          ],
+          "weight": "4.90"
         },
         {
           "title": "Luxury Items",
@@ -15735,7 +16032,8 @@ const data = [
               ],
               "weight": 0.92
             }
-          ]
+          ],
+          "weight": "0.66"
         },
         {
           "title": "Miscellaneous",
@@ -15794,9 +16092,11 @@ const data = [
               ],
               "weight": 2.57
             }
-          ]
+          ],
+          "weight": "1.32"
         }
-      ]
+      ],
+      "weightBase": "10.35"
     },
     "hasGear": true,
     "hasStats": true,
@@ -30822,7 +31122,8 @@ const data = [
               ],
               "weight": 1.02
             }
-          ]
+          ],
+          "weight": "1.93"
         },
         {
           "title": "Shelter",
@@ -30852,7 +31153,8 @@ const data = [
               ],
               "weight": 0.39
             }
-          ]
+          ],
+          "weight": "2.34"
         },
         {
           "title": "Sleeping",
@@ -30882,7 +31184,8 @@ const data = [
               ],
               "weight": 32
             }
-          ]
+          ],
+          "weight": "4.06"
         },
         {
           "title": "Clothing",
@@ -31000,7 +31303,8 @@ const data = [
               ],
               "weight": 1.9
             }
-          ]
+          ],
+          "weight": "4.04"
         },
         {
           "title": "Kitchen",
@@ -31068,7 +31372,8 @@ const data = [
               ],
               "weight": 1
             }
-          ]
+          ],
+          "weight": "1.44"
         },
         {
           "title": "Water",
@@ -31100,7 +31405,8 @@ const data = [
               ],
               "weight": 9.3
             }
-          ]
+          ],
+          "weight": "0.82"
         },
         {
           "title": "Hygiene",
@@ -31183,7 +31489,8 @@ const data = [
               ],
               "weight": 0.48
             }
-          ]
+          ],
+          "weight": "0.57"
         },
         {
           "title": "Aid Kit",
@@ -31200,7 +31507,8 @@ const data = [
               ],
               "weight": 3.35
             }
-          ]
+          ],
+          "weight": "0.21"
         },
         {
           "title": "Electronics",
@@ -31232,7 +31540,8 @@ const data = [
               ],
               "weight": 1.59
             }
-          ]
+          ],
+          "weight": "0.70"
         },
         {
           "title": "Miscellaneous",
@@ -31289,7 +31598,8 @@ const data = [
               ],
               "weight": 0.5
             }
-          ]
+          ],
+          "weight": "0.75"
         },
         {
           "title": "Packed Food + Water",
@@ -31311,7 +31621,8 @@ const data = [
               ],
               "weight": 16
             }
-          ]
+          ],
+          "weight": "5.65"
         },
         {
           "title": "Luxury Items",
@@ -31371,9 +31682,11 @@ const data = [
               ],
               "weight": 1
             }
-          ]
+          ],
+          "weight": "1.50"
         }
-      ]
+      ],
+      "weightBase": "14.57"
     },
     "hasGear": true,
     "hasStats": true,
@@ -34753,7 +35066,8 @@ const data = [
               ],
               "weight": 24.7
             }
-          ]
+          ],
+          "weight": "1.54"
         },
         {
           "title": "Shelter",
@@ -34767,7 +35081,8 @@ const data = [
               ],
               "weight": 42
             }
-          ]
+          ],
+          "weight": "2.63"
         },
         {
           "title": "Sleeping",
@@ -34797,7 +35112,8 @@ const data = [
               ],
               "weight": 16.33
             }
-          ]
+          ],
+          "weight": "1.90"
         },
         {
           "title": "Clothing",
@@ -34939,7 +35255,8 @@ const data = [
               ],
               "weight": 8.29
             }
-          ]
+          ],
+          "weight": "4.71"
         },
         {
           "title": "Water",
@@ -34973,7 +35290,8 @@ const data = [
               ],
               "weight": 11
             }
-          ]
+          ],
+          "weight": "0.93"
         },
         {
           "title": "Hygiene",
@@ -35068,7 +35386,8 @@ const data = [
               ],
               "weight": 0.95
             }
-          ]
+          ],
+          "weight": "1.15"
         },
         {
           "title": "Aid Kit",
@@ -35085,7 +35404,8 @@ const data = [
               ],
               "weight": 3.35
             }
-          ]
+          ],
+          "weight": "0.21"
         },
         {
           "title": "Electronics",
@@ -35142,7 +35462,8 @@ const data = [
               ],
               "weight": 1.9
             }
-          ]
+          ],
+          "weight": "1.34"
         },
         {
           "title": "Packed Food + Water",
@@ -35162,7 +35483,8 @@ const data = [
               ],
               "weight": 4
             }
-          ]
+          ],
+          "weight": "4.90"
         },
         {
           "title": "Luxury Items",
@@ -35193,7 +35515,8 @@ const data = [
               ],
               "weight": 0.92
             }
-          ]
+          ],
+          "weight": "0.21"
         },
         {
           "title": "Miscellaneous",
@@ -35252,9 +35575,11 @@ const data = [
               ],
               "weight": 3
             }
-          ]
+          ],
+          "weight": "1.31"
         }
-      ]
+      ],
+      "weightBase": "11.20"
     },
     "hasGear": true,
     "hasStats": true,
@@ -42137,7 +42462,8 @@ const data = [
               ],
               "weight": 20.9
             }
-          ]
+          ],
+          "weight": "1.31"
         },
         {
           "title": "Sleeping",
@@ -42168,7 +42494,8 @@ const data = [
               ],
               "weight": 12
             }
-          ]
+          ],
+          "weight": "1.88"
         },
         {
           "title": "Shelter",
@@ -42207,7 +42534,8 @@ const data = [
               ],
               "weight": 1.25
             }
-          ]
+          ],
+          "weight": "2.45"
         },
         {
           "title": "Clothing",
@@ -42360,7 +42688,8 @@ const data = [
               ],
               "weight": 7.6
             }
-          ]
+          ],
+          "weight": "8.06"
         },
         {
           "title": "Water",
@@ -42384,7 +42713,8 @@ const data = [
               ],
               "weight": 3.7
             }
-          ]
+          ],
+          "weight": "0.97"
         },
         {
           "title": "Cooking",
@@ -42422,7 +42752,8 @@ const data = [
               ],
               "weight": 8
             }
-          ]
+          ],
+          "weight": "0.95"
         },
         {
           "title": "Hygiene",
@@ -42475,7 +42806,8 @@ const data = [
               ],
               "weight": 0.32
             }
-          ]
+          ],
+          "weight": "0.84"
         },
         {
           "title": "Aid Kit",
@@ -42518,7 +42850,8 @@ const data = [
               ],
               "weight": 2
             }
-          ]
+          ],
+          "weight": "0.62"
         },
         {
           "title": "Electronics",
@@ -42596,7 +42929,8 @@ const data = [
               ],
               "weight": 0.46
             }
-          ]
+          ],
+          "weight": "1.82"
         },
         {
           "title": "Packed Food + Water",
@@ -42617,7 +42951,8 @@ const data = [
               ],
               "weight": 74.4
             }
-          ]
+          ],
+          "weight": "12.65"
         },
         {
           "title": "Miscellaneous",
@@ -42773,9 +43108,11 @@ const data = [
               ],
               "weight": 1
             }
-          ]
+          ],
+          "weight": "3.20"
         }
-      ]
+      ],
+      "weightBase": "13.52"
     },
     "hasGear": true,
     "hasStats": true,
@@ -49470,7 +49807,8 @@ const data = [
               ],
               "weight": 65.12
             }
-          ]
+          ],
+          "weight": "4.07"
         },
         {
           "title": "Sleeping",
@@ -49500,7 +49838,8 @@ const data = [
               ],
               "weight": 15.9
             }
-          ]
+          ],
+          "weight": "1.93"
         },
         {
           "title": "Clothing",
@@ -49670,7 +50009,8 @@ const data = [
               ],
               "weight": 10.5
             }
-          ]
+          ],
+          "weight": "8.60"
         },
         {
           "title": "Water",
@@ -49703,7 +50043,8 @@ const data = [
               ],
               "weight": 3.7
             }
-          ]
+          ],
+          "weight": "1.09"
         },
         {
           "title": "Hygiene",
@@ -49762,7 +50103,8 @@ const data = [
               ],
               "weight": 0.32
             }
-          ]
+          ],
+          "weight": "1.17"
         },
         {
           "title": "Aid Kit",
@@ -49805,7 +50147,8 @@ const data = [
               ],
               "weight": 3
             }
-          ]
+          ],
+          "weight": "0.71"
         },
         {
           "title": "Electronics",
@@ -49883,7 +50226,8 @@ const data = [
               ],
               "weight": 0.46
             }
-          ]
+          ],
+          "weight": "1.82"
         },
         {
           "title": "Packed Food + Water",
@@ -49903,7 +50247,8 @@ const data = [
               ],
               "weight": 111.6
             }
-          ]
+          ],
+          "weight": "7.47"
         },
         {
           "title": "Miscellaneous",
@@ -50100,9 +50445,11 @@ const data = [
               ],
               "weight": 1
             }
-          ]
+          ],
+          "weight": "4.08"
         }
-      ]
+      ],
+      "weightBase": "12.27"
     },
     "hasGear": true,
     "hasStats": true,
@@ -69947,7 +70294,8 @@ const data = [
               ],
               "weight": 1.02
             }
-          ]
+          ],
+          "weight": "1.27"
         },
         {
           "title": "Clothing",
@@ -70052,7 +70400,8 @@ const data = [
               ],
               "weight": 4.02
             }
-          ]
+          ],
+          "weight": "3.74"
         },
         {
           "title": "Water",
@@ -70084,7 +70433,8 @@ const data = [
               ],
               "weight": 3
             }
-          ]
+          ],
+          "weight": "0.42"
         },
         {
           "title": "Hygiene",
@@ -70123,7 +70473,8 @@ const data = [
               ],
               "weight": 0.95
             }
-          ]
+          ],
+          "weight": "0.29"
         },
         {
           "title": "Aid Kit",
@@ -70140,7 +70491,8 @@ const data = [
               ],
               "weight": 3.35
             }
-          ]
+          ],
+          "weight": "0.21"
         },
         {
           "title": "Electronics",
@@ -70172,7 +70524,8 @@ const data = [
               ],
               "weight": 7.8
             }
-          ]
+          ],
+          "weight": "0.70"
         },
         {
           "title": "Packed Food + Water",
@@ -70192,7 +70545,8 @@ const data = [
               ],
               "weight": 4
             }
-          ]
+          ],
+          "weight": "4.90"
         },
         {
           "title": "Luxury Items",
@@ -70206,7 +70560,8 @@ const data = [
               ],
               "weight": 1.9
             }
-          ]
+          ],
+          "weight": "0.12"
         },
         {
           "title": "Miscellaneous",
@@ -70235,9 +70590,11 @@ const data = [
               ],
               "weight": 2
             }
-          ]
+          ],
+          "weight": "0.80"
         }
-      ]
+      ],
+      "weightBase": "3.06"
     },
     "hasGear": true,
     "hasStats": true,
@@ -79757,7 +80114,8 @@ const data = [
               ],
               "weight": 65.12
             }
-          ]
+          ],
+          "weight": "4.07"
         },
         {
           "title": "Sleeping",
@@ -79778,7 +80136,8 @@ const data = [
               ],
               "weight": 12.8
             }
-          ]
+          ],
+          "weight": "1.01"
         },
         {
           "title": "Clothing",
@@ -79972,7 +80331,8 @@ const data = [
               ],
               "weight": 5
             }
-          ]
+          ],
+          "weight": "9.33"
         },
         {
           "title": "Water",
@@ -80005,7 +80365,8 @@ const data = [
               ],
               "weight": 3.7
             }
-          ]
+          ],
+          "weight": "1.01"
         },
         {
           "title": "Hygiene",
@@ -80063,7 +80424,8 @@ const data = [
               ],
               "weight": 0.32
             }
-          ]
+          ],
+          "weight": "1.17"
         },
         {
           "title": "Aid Kit",
@@ -80106,7 +80468,8 @@ const data = [
               ],
               "weight": 3
             }
-          ]
+          ],
+          "weight": "0.71"
         },
         {
           "title": "Electronics",
@@ -80184,7 +80547,8 @@ const data = [
               ],
               "weight": 0.46
             }
-          ]
+          ],
+          "weight": "1.82"
         },
         {
           "title": "Packed Food + Water",
@@ -80204,7 +80568,8 @@ const data = [
               ],
               "weight": 111.6
             }
-          ]
+          ],
+          "weight": "7.47"
         },
         {
           "title": "Miscellaneous",
@@ -80358,9 +80723,11 @@ const data = [
               ],
               "weight": 0.92
             }
-          ]
+          ],
+          "weight": "3.88"
         }
-      ]
+      ],
+      "weightBase": "12.57"
     },
     "hasGear": true,
     "hasStats": true,
@@ -91615,7 +91982,8 @@ const data = [
               ],
               "weight": 65.12
             }
-          ]
+          ],
+          "weight": "4.07"
         },
         {
           "title": "Sleeping",
@@ -91636,7 +92004,8 @@ const data = [
               ],
               "weight": 12.8
             }
-          ]
+          ],
+          "weight": "1.01"
         },
         {
           "title": "Clothing",
@@ -91819,7 +92188,8 @@ const data = [
               ],
               "weight": 10
             }
-          ]
+          ],
+          "weight": "9.55"
         },
         {
           "title": "Water",
@@ -91842,7 +92212,8 @@ const data = [
               ],
               "weight": 7
             }
-          ]
+          ],
+          "weight": "0.78"
         },
         {
           "title": "Hygiene",
@@ -91900,7 +92271,8 @@ const data = [
               ],
               "weight": 0.32
             }
-          ]
+          ],
+          "weight": "1.17"
         },
         {
           "title": "Aid Kit",
@@ -91943,7 +92315,8 @@ const data = [
               ],
               "weight": 3
             }
-          ]
+          ],
+          "weight": "0.71"
         },
         {
           "title": "Electronics",
@@ -92019,7 +92392,8 @@ const data = [
               ],
               "weight": 0.46
             }
-          ]
+          ],
+          "weight": "1.59"
         },
         {
           "title": "Packed Food + Water",
@@ -92039,7 +92413,8 @@ const data = [
               ],
               "weight": 111.6
             }
-          ]
+          ],
+          "weight": "7.47"
         },
         {
           "title": "Miscellaneous",
@@ -92192,9 +92567,11 @@ const data = [
               ],
               "weight": 0.92
             }
-          ]
+          ],
+          "weight": "3.88"
         }
-      ]
+      ],
+      "weightBase": "12.34"
     },
     "hasGear": true,
     "hasStats": true,
@@ -105609,7 +105986,8 @@ const data = [
               ],
               "weight": 65.12
             }
-          ]
+          ],
+          "weight": "4.07"
         },
         {
           "title": "Sleeping",
@@ -105630,7 +106008,8 @@ const data = [
               ],
               "weight": 12.8
             }
-          ]
+          ],
+          "weight": "1.01"
         },
         {
           "title": "Clothing",
@@ -105813,7 +106192,8 @@ const data = [
               ],
               "weight": 5
             }
-          ]
+          ],
+          "weight": "9.00"
         },
         {
           "title": "Water",
@@ -105836,7 +106216,8 @@ const data = [
               ],
               "weight": 7
             }
-          ]
+          ],
+          "weight": "0.78"
         },
         {
           "title": "Hygiene",
@@ -105894,7 +106275,8 @@ const data = [
               ],
               "weight": 0.32
             }
-          ]
+          ],
+          "weight": "1.17"
         },
         {
           "title": "Aid Kit",
@@ -105937,7 +106319,8 @@ const data = [
               ],
               "weight": 1.1
             }
-          ]
+          ],
+          "weight": "0.71"
         },
         {
           "title": "Electronics",
@@ -106022,7 +106405,8 @@ const data = [
               ],
               "weight": 0.46
             }
-          ]
+          ],
+          "weight": "1.91"
         },
         {
           "title": "Packed Food + Water",
@@ -106042,7 +106426,8 @@ const data = [
               ],
               "weight": 111.6
             }
-          ]
+          ],
+          "weight": "7.47"
         },
         {
           "title": "Miscellaneous",
@@ -106194,9 +106579,11 @@ const data = [
               ],
               "weight": 0.92
             }
-          ]
+          ],
+          "weight": "3.49"
         }
-      ]
+      ],
+      "weightBase": "12.61"
     },
     "hasGear": true,
     "hasStats": true,

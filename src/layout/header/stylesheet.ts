@@ -1,15 +1,14 @@
-import tw from '@/styles';
+import tw, { padding } from '@/styles';
 
 const styles = tw({
   container: `
     flex flex-col
     h-auto min-h-full
-    p-6 pt-20
+    pt-20
     border-b-1
 
     dark:border-b-white/15 light:border-b-black/15
     dark:border-r-white/15 light:border-r-black/15
-    dark:text-white light:text-black
 
     base:h-full
     base:overflow-y-scroll
@@ -21,13 +20,12 @@ const styles = tw({
     base:bottom-0
     base:z-2
     base:w-86
-    base:p-8
     hecto:w-106
-    hecto:p-12
     kilo:w-150
-    kilo:p-16
     tera:w-160
     peta:w-210
+
+    ${padding.full}
   `,
   scrollable: `
     flex-1

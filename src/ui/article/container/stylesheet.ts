@@ -1,8 +1,7 @@
-import tw from '@/styles';
+import tw, { padding } from '@/styles';
 
 const styles = tw({
   container: (hasBorder: boolean) => tw(`
-    p-6
     opacity-0
     animate-in-fade
 
@@ -14,11 +13,7 @@ const styles = tw({
       last:border-b-0
     `}
 
-    dark:text-white light:text-black
-
-    base:p-8
-    hecto:p-12
-    kilo:p-16
+    ${padding.full}
   `),
 });
 

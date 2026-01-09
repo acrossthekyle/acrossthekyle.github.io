@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Suspense } from 'react';
 
-import { Fallback, View } from '@/views/[slug]';
+import { Fallback, View } from '@/views/[slug]/gear';
 
 import get from './get';
 
@@ -26,8 +26,8 @@ export async function generateMetadata({ params }: GenerateMetadata): Promise<Me
   }
 
   return {
-    title: data.title.join(' '),
-    description: data.description[0],
+    title: `Gear → ${data.title.join(' ')}`,
+    description: `${data.title.join(' ')} Gear`,
   };
 };
 

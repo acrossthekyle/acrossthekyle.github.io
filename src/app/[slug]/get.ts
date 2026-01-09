@@ -9,25 +9,21 @@ export default function get(slug: string) {
   }
 
   return {
-    category: data.category,
     date: data.date,
     description: data.description,
-    image: data.image,
-    index: padIndex(db.findIndex((item) => item.slug.toLowerCase() === slug.toLowerCase()) + 1),
+    gearWeight: data.gear?.weightBase || '0',
+    hasGear: data.hasGear,
     label: data.label,
     location: data.location,
     slug,
-    stages: data.stages.map(({ date, description, hasStats, image, location, termini }, index) => ({
+    stages: data.stages.map(({ date, description, image, location, termini }, index: number) => ({
       date,
       description,
-      hasStats,
       image,
       index: padIndex(index + 1),
       location,
       termini,
     })),
     title: data.title,
-    travel: data.location,
-    type: data.type,
   };
 };

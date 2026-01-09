@@ -1,22 +1,18 @@
-import type { Gpx, Navigation, Stats, Termini } from '@/types';
+import type { Navigation, Stats } from '@/types';
 
 export type Data = {
   date: string;
   description: string[];
-  gpx: Gpx;
   hasGpx: boolean;
+  hasNavigation: boolean;
   hasStats: boolean;
   image: string;
   index: string;
-  label: string;
   location: string[];
   next?: Navigation;
-  parent: string[];
   previous?: Navigation;
   slug: string;
-  stage: string;
   stats: Stats;
-  termini: Termini;
   total: number;
   title: string[];
 };

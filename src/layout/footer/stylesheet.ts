@@ -7,7 +7,6 @@ const styles = tw({
     text-xs text-center
 
     dark:border-t-white/15 light:border-t-black/15
-    dark:text-white light:text-black
 
     base:py-12
     base:ml-86

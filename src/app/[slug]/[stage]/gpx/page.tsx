@@ -1,12 +1,13 @@
 import type { Metadata } from 'next';
 import { Suspense } from 'react';
 
-import { Fallback, View } from '@/views/[slug]';
+import { Fallback, View } from '@/views/[slug]/[stage]/gpx';
 
 import get from './get';
 
 type Params = Promise<{
   slug: string;
+  stage: string;
 }>;
 
 type GenerateMetadata = {
@@ -14,9 +15,9 @@ type GenerateMetadata = {
 };
 
 export async function generateMetadata({ params }: GenerateMetadata): Promise<Metadata> {
-  const { slug } = await params;
+  const { slug, stage } = await params;
 
-  const data = get(slug.toLowerCase());
+  const data = get(slug.toLowerCase(), stage);
 
   if (data === null) {
     return {
@@ -26,19 +27,19 @@ export async function generateMetadata({ params }: GenerateMetadata): Promise<Me
   }
 
   return {
-    title: data.title.join(' '),
-    description: data.description[0],
+    title: `Gpx → ${data.title.join(' ')} → ${data.parent.join(' ')}`,
+    description: `Gpx Route / Elevation for ${data.title.join(' ')}`,
   };
 };
 
 export default async function Page({
   params,
 }: {
-  params: Promise<{ slug: string }>
+  params: Promise<{ slug: string; stage: string; }>
 }) {
-  const { slug } = await params;
+  const { slug, stage } = await params;
 
-  const data = get(slug.toLowerCase());
+  const data = get(slug.toLowerCase(), stage);
 
   if (data === null) {
     return <Fallback />;

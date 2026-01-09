@@ -9,10 +9,12 @@ export type GearItem = {
 export type GearCategory = {
   title: string;
   items: GearItem[];
+  weight: string;
 };
 
 export type Gear = {
   categories: GearCategory[];
+  weightBase: string;
 };
 
 export type StatFull = {
@@ -62,7 +64,7 @@ export type Stats = {
 export type Stage = {
   date: string;
   description: string[];
-  hasStats: boolean;
+  hasStats?: boolean;
   image: string;
   index: string;
   location: string;
@@ -75,7 +77,6 @@ export enum Orientation {
 };
 
 export type Navigation = {
-  date: string;
   index: string;
   title: string[];
 };

@@ -117,7 +117,7 @@ function calculateWeightPerCategory(categories) {
         name,
         weight,
       })),
-      // weight: calculateWeight(categories[category]),
+      weight: calculateWeight(categories[category]),
     });
   }
 
@@ -151,6 +151,7 @@ function groupByCategory(items) {
     results.push({
       title: category,
       items: grouped[category],
+      weight: calculateWeight(grouped[category]),
     });
   }
 
@@ -181,15 +182,15 @@ async function getGear(folder) {
         category: item.category,
         link: item.link,
         name: turnStringIntoArrayForLists(`${item.name} ${item.type}`.trim()),
-        // consumable: item.consumable === 'yes',
+        consumable: item.consumable === 'yes',
         weight: Number(item.weight),
-        // worn: item.worn === 'yes',
+        worn: item.worn === 'yes',
       });
     }
 
     return {
       categories: groupByCategory(items),
-      // weightBase: calculateBaseWeight(items),
+      weightBase: calculateBaseWeight(items),
       // weightConsumable: calculateConsumableWeight(items),
       // weightTotal: calculateWeight(items),
       // weightWorn: calculateWornWeight(items),

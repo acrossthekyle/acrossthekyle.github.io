@@ -3,7 +3,7 @@
 import dynamic from 'next/dynamic';
 import { useContext } from 'react';
 
-import type { Gpx, Termini } from '@/types';
+import type { Gpx } from '@/types';
 
 import { GpxContext } from '../context';
 
@@ -15,10 +15,10 @@ const Plugin = dynamic(() => import('./leaflet'), {
 
 type Props = {
   gpx: Gpx;
-  termini: Termini;
+  isSame: boolean;
 };
 
-export default function Route({ gpx, termini }: Props) {
+export default function Route({ gpx, isSame }: Props) {
   const { hoverIndex } = useContext(GpxContext);
 
   if (gpx.length === 0) {
@@ -30,7 +30,7 @@ export default function Route({ gpx, termini }: Props) {
       <Plugin
         gpx={gpx}
         hoverIndex={hoverIndex}
-        termini={termini}
+        isSame={isSame}
       />
     </div>
   );

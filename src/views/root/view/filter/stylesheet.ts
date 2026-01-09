@@ -1,17 +1,13 @@
-import tw from '@/styles';
+import tw, { padding } from '@/styles';
 
-const styles = {
+const styles = tw({
   container: `
     relative
-    p-6
     border-b-1
 
-    dark:text-white light:text-black
     dark:border-b-white/15 light:border-b-black/15
 
-    base:p-8
-    hecto:p-12
-    kilo:p-16
+    ${padding.full}
   `,
   toggle: `
     absolute top-7.5 right-7.5 bottom-7.5
@@ -78,13 +74,10 @@ const styles = {
     h-screen w-full
     flex flex-col items-start
     overflow-y-auto
-    p-6
-
-    base:p-8
-    hecto:p-12
-    kilo:p-16
 
     dark:bg-black/90 light:bg-white/90
+
+    ${padding.full}
   `,
   heading: `
     mt-6 mb-4
@@ -92,6 +85,6 @@ const styles = {
     uppercase
     font-bold
   `,
-};
+});
 
 export default styles;

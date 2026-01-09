@@ -1,3 +1,4 @@
+export { default as LayoutAside } from './aside';
 export { default as LayoutBody } from './body';
 export { default as LayoutFooter } from './footer';
 export { default as LayoutHeader } from './header';

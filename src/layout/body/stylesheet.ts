@@ -5,6 +5,8 @@ const styles = tw({
     antialiased
     h-full
 
+    dark:text-white light:text-black
+
     base:flex
     base:flex-col
   `,

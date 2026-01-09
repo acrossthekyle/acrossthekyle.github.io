@@ -1,23 +1,29 @@
-import tw from '@/styles';
+import tw, { padding } from '@/styles';
 
 const styles = tw({
   nav: (hasPrevious: boolean) => tw(`
     flex ${hasPrevious ? 'justify-between' : 'justify-end'} items-end
-    p-6
     border-t-1
 
-    dark:text-white light:text-black
     dark:border-t-white/15 light:border-t-black/15
 
-    base:p-8
-    hecto:p-12
-    kilo:p-16
+    ${padding.full}
   `),
   first: `
+    flex flex-col
     text-left
   `,
   last: `
     text-right
+  `,
+  left: `
+    flex items-center justify-start gap-1
+  `,
+  right: `
+    flex items-center justify-end gap-1
+  `,
+  icon: `
+    w-3.5 h-3.5
   `,
 });
 

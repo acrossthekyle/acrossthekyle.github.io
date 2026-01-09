@@ -1,10 +1,12 @@
+import { ArrowRight } from 'lucide-react';
+import Link from 'next/link';
 import { Fragment } from 'react';
 
-import { LayoutFooter, LayoutHeader, LayoutMain } from '@/layout';
-import { Article } from '@/ui/article';
+import { LayoutAside, LayoutFooter, LayoutHeader, LayoutMain } from '@/layout';
+import { Article, ArticleFooter } from '@/ui/article';
 import { HeaderBack, HeaderHeading } from '@/ui/header';
 import { Image, ImageFigure } from '@/ui/image';
-import { Eyebrow, Line, Paragraph, Subtitle } from '@/ui/typography';
+import { Eyebrow, Line, Paragraph, Subtitle, Title } from '@/ui/typography';
 
 import Navigation from './navigation';
 import Stats from './stats';
@@ -12,14 +14,10 @@ import styles from './stylesheet';
 import { type Data } from './types';
 
 type Props = {
-  data: Data | null;
+  data: Data;
 };
 
 export default function View({ data }: Props) {
-  if (data === null) {
-    return null;
-  }
-
   return (
     <>
       <LayoutHeader>
@@ -40,6 +38,22 @@ export default function View({ data }: Props) {
         )}
       </LayoutHeader>
       <LayoutMain>
+        {data.hasGpx && (
+          <LayoutAside top>
+            <Link
+              className={styles.link}
+              href={`/${data.slug}/${data.index}/gpx`}
+            >
+              <Title shrink>
+                Route / Elevation
+                <Subtitle>
+                  Gpx Data + All Stats
+                </Subtitle>
+              </Title>
+              <ArrowRight className={styles.icon} />
+            </Link>
+          </LayoutAside>
+        )}
         <Article ariaLabelledBy="main-heading">
           {data.description.map((paragraph, index: number) => (
             <Fragment key={paragraph}>
@@ -60,12 +74,16 @@ export default function View({ data }: Props) {
               )}
             </Fragment>
           ))}
+          {data.hasNavigation && (
+            <ArticleFooter>
+              <Navigation
+                next={data.next}
+                previous={data.previous}
+                slug={data.slug}
+              />
+            </ArticleFooter>
+          )}
         </Article>
-        <Navigation
-          next={data.next}
-          previous={data.previous}
-          slug={data.slug}
-        />
       </LayoutMain>
       <LayoutFooter />
     </>

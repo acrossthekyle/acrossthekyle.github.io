@@ -1,3 +1,4 @@
+import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 
 import { LayoutFooter, LayoutHeader, LayoutMain } from '@/layout';
@@ -12,19 +13,16 @@ import {
   ImageCaptionTitle,
   ImageFigure,
 } from '@/ui/image';
-import { Eyebrow, Line, Paragraph, Subtitle } from '@/ui/typography';
+import { Eyebrow, Line, Paragraph, Subtitle, Title } from '@/ui/typography';
 
-import type { Post } from './types';
+import styles from './stylesheet';
+import type { Data } from './types';
 
 type Props = {
-  data: Post | null;
+  data: Data;
 };
 
 export default function View({ data }: Props) {
-  if (data === null) {
-    return null;
-  }
-
   return (
     <>
       <LayoutHeader>
@@ -47,62 +45,73 @@ export default function View({ data }: Props) {
         </HeaderSection>
       </LayoutHeader>
       <LayoutMain>
-        {data.stages.length > 0 && (
-          <>
-            {data.stages.map((stage, index: number) => (
-              <Article
-                ariaLabelledBy={`stage-${stage.index}`}
-                hasBorder
-                key={stage.index}
+        <section aria-label={`${data.label}s`}>
+          {data.stages.map((stage, index: number) => (
+            <Article
+              ariaLabelledBy={`stage-${stage.index}`}
+              hasBorder
+              key={stage.index}
+            >
+              <Link
+                href={`/${data.slug}/${stage.index}`}
+                id={index === 0 ? 'skip-to' : undefined}
               >
-                <Link
-                  href={`/${data.slug}/${stage.index}`}
-                  id={index === 0 ? 'skip-to' : undefined}
-                >
-                  <ImageFigure scale>
-                    <Image
-                      alt=""
-                      height={1080}
-                      index={index}
-                      sizes="(max-width: 768px) 100vw, 50vw"
-                      src={stage.image}
-                      width={1920}
-                    />
-                    <ImageCaption>
-                      <ImageCaptionCount>
-                        {stage.index}
-                      </ImageCaptionCount>
-                      <ImageCaptionTitle id={`stage-${stage.index}`}>
-                        <ImageCaptionEyebrow>
-                          {stage.location}
-                        </ImageCaptionEyebrow>
-                        {stage.termini.end.words.map((words) => (
-                          <Line key={words}>{words}</Line>
-                        ))}
-                        <ImageCaptionSubtitle>
-                          {stage.date}
-                        </ImageCaptionSubtitle>
-                      </ImageCaptionTitle>
-                    </ImageCaption>
-                  </ImageFigure>
-                </Link>
-                <ArticlePreview>
-                  <Paragraph>
-                    {stage.description[0]}
-                    {stage.description.length > 1 && (
-                      <>
-                        ..
-                        <ArticlePreviewMore
-                          href={`/${data.slug}/${stage.index}`}
-                          text="read more"
-                        />
-                      </>
-                    )}
-                  </Paragraph>
-                </ArticlePreview>
-              </Article>
-            ))}
-          </>
+                <ImageFigure scale>
+                  <Image
+                    alt=""
+                    height={1080}
+                    index={index}
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    src={stage.image}
+                    width={1920}
+                  />
+                  <ImageCaption>
+                    <ImageCaptionCount>
+                      {stage.index}
+                    </ImageCaptionCount>
+                    <ImageCaptionTitle id={`stage-${stage.index}`}>
+                      <ImageCaptionEyebrow>
+                        {stage.location}
+                      </ImageCaptionEyebrow>
+                      {stage.termini.end.words.map((words) => (
+                        <Line key={words}>{words}</Line>
+                      ))}
+                      <ImageCaptionSubtitle>
+                        {stage.date}
+                      </ImageCaptionSubtitle>
+                    </ImageCaptionTitle>
+                  </ImageCaption>
+                </ImageFigure>
+              </Link>
+              <ArticlePreview>
+                <Paragraph>
+                  {stage.description[0]}
+                  {stage.description.length > 1 && (
+                    <>
+                      ..
+                      <ArticlePreviewMore
+                        href={`/${data.slug}/${stage.index}`}
+                        text="read more"
+                      />
+                    </>
+                  )}
+                </Paragraph>
+              </ArticlePreview>
+            </Article>
+          ))}
+        </section>
+        {data.hasGear && (
+          <aside>
+            <Link className={styles.gear} href={`/${data.slug}/gear`}>
+              <Title shrink>
+                Gear
+                <Subtitle>
+                  Base Weight: {data.gearWeight} lbs
+                </Subtitle>
+              </Title>
+              <ArrowRight className={styles.icon} />
+            </Link>
+          </aside>
         )}
       </LayoutMain>
       <LayoutFooter />

@@ -15,20 +15,20 @@ import {
   useMap,
 } from 'react-leaflet';
 
-import type { Gpx, Termini } from '@/types';
+import type { Gpx } from '@/types';
 
 import styles from './stylesheet';
 
 type Props = {
   gpx: Gpx;
   hoverIndex: number | null;
-  termini: Termini;
+  isSame: boolean;
 };
 
 export default function Leaflet({
   gpx,
   hoverIndex,
-  termini,
+  isSame,
 }: Props) {
   const [data, setData] = useState<Gpx>([]);
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -41,7 +41,7 @@ export default function Leaflet({
         theme = localStorage.getItem('theme') || 'light';
       }
 
-      setIsDarkMode(theme === 'light');
+      setIsDarkMode(theme !== 'light');
 
       setData(gpx);
     }
@@ -88,7 +88,7 @@ export default function Leaflet({
         className={styles.route}
         positions={data}
       />
-      {!termini.isSame && (
+      {!isSame && (
         <>
           <CircleMarker
             center={data[0]}

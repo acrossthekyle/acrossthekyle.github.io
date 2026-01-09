@@ -1,4 +1,4 @@
-import { Instagram, Linkedin, Mail, FileTypeCorner } from 'lucide-react';
+import { Home, Instagram, Linkedin, Mail, FileTypeCorner } from 'lucide-react';
 import Link from 'next/link';
 
 import styles from './stylesheet';
@@ -15,7 +15,15 @@ export default function Header({ children }: Props) {
         <ul className={styles.list}>
           <li>
             <Link
-              ria-label="view instagram profile"
+              aria-label="acrossthekyle.com home"
+              href="/"
+            >
+              <Home className={styles.icon} />
+            </Link>
+          </li>
+          <li>
+            <Link
+              aria-label="view instagram profile"
               href="https://instagram.com/acrossthekyle"
               target="_blank"
               rel="noreferrer"

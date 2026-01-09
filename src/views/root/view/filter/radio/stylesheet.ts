@@ -38,8 +38,6 @@ const styles = tw({
     font-normal
     select-none
 
-    dark:text-white light:text-black
-
     tera:text-xl
     peta:text-2xl
   `,
