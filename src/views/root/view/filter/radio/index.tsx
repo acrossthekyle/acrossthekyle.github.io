@@ -10,16 +10,20 @@ type Props = {
   text: string;
 };
 
-export default function Radio({ count, current, expected, onChange, text }: Props) {
+export default function Radio({
+  count,
+  current,
+  expected,
+  onChange,
+  text,
+}: Props) {
   return (
-    <label className={styles.container}>
-      <input
-        type="radio"
-        checked={current === expected}
-        onChange={() => onChange(expected)}
-        className={styles.radio}
-      />
-      <span className={styles.dot} />
+    <button
+      className={styles.container}
+      onClick={() => onChange(expected)}
+      type="button"
+    >
+      <span aria-hidden="true" className={styles.dot(current === expected)} />
       <span className={styles.text}>
         {text}
         {count !== undefined && (
@@ -29,6 +33,6 @@ export default function Radio({ count, current, expected, onChange, text }: Prop
           </>
         )}
       </span>
-    </label>
+    </button>
   );
 }

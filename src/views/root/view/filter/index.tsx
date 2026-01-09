@@ -3,6 +3,8 @@
 import { X } from 'lucide-react';
 import FocusLock from 'react-focus-lock';
 
+import { Title } from '@/ui/typography';
+
 import type { Data } from '../types';
 
 import { useModel } from './model';
@@ -20,15 +22,15 @@ type Props = {
   ) => void;
 };
 
-export default function Dialog({ data, onChange }: Props) {
+export default function Filter({ data, onChange }: Props) {
   const {
     filterBy,
+    handleOnCloseDialog,
     handleOnFilter,
+    handleOnOpenDialog,
     handleOnOrder,
     handleOnSearch,
     handleOnSort,
-    handleOnToggle,
-    isActive,
     orderBy,
     searchBy,
     sortBy,
@@ -41,74 +43,81 @@ export default function Dialog({ data, onChange }: Props) {
       <button
         aria-controls="filtering"
         aria-label="toggle filter and sort dialog"
-        className={styles.toggle}
-        onClick={handleOnToggle}
+        className={styles.options}
+        onClick={handleOnOpenDialog}
         type="button"
       >
         Options
       </button>
       <dialog
         aria-label="search and filter"
-        aria-modal="true"
-        className={styles.dialog(isActive)}
+        className={styles.dialog}
         id="filtering"
-        open={isActive}
-        role="dialog"
-        tabIndex={-1}
       >
-        <FocusLock className={styles.lock} disabled={!isActive}>
+        <FocusLock className={styles.lock}>
           <button
             aria-controls="filtering"
-            aria-label="exit filters"
-            onClick={handleOnToggle}
+            aria-label="exit options"
+            autoFocus
+            className={styles.close}
+            onClick={handleOnCloseDialog}
             type="button"
           >
             <X />
           </button>
-          <h2 className={styles.heading}>Filter By</h2>
-          <Radio
-            count={20}
-            current={filterBy}
-            expected="everything"
-            onChange={handleOnFilter}
-            text="Everything"
-          />
-          {types.map(({ count, value }) => (
+          <section aria-label="filter by category">
+            <Title className={styles.heading} shrink>View</Title>
             <Radio
-              count={count}
+              count={20}
               current={filterBy}
-              expected={value}
-              key={value}
+              expected="everything"
               onChange={handleOnFilter}
-              text={value}
+              text="Everything"
             />
-          ))}
-          <h2 className={styles.heading}>Sort By</h2>
-          <Radio
-            current={sortBy}
-            expected="date"
-            onChange={handleOnSort}
-            text="Date"
-          />
-          <Radio
-            current={sortBy}
-            expected="title"
-            onChange={handleOnSort}
-            text="Title"
-          />
-          <h2 className={styles.heading}>Direction</h2>
-          <Radio
-            current={orderBy}
-            expected="descending"
-            onChange={handleOnOrder}
-            text="Descending"
-          />
-          <Radio
-            current={orderBy}
-            expected="ascending"
-            onChange={handleOnOrder}
-            text="Ascending"
-          />
+            {types.map(({ count, value }) => (
+              <Radio
+                count={count}
+                current={filterBy}
+                expected={value}
+                key={value}
+                onChange={handleOnFilter}
+                text={value}
+              />
+            ))}
+          </section>
+          <section aria-label="sort by date or title">
+            <Title className={styles.heading} shrink>By</Title>
+            <Radio
+              current={sortBy}
+              expected="date"
+              onChange={handleOnSort}
+              text="Date"
+            />
+            <Radio
+              current={sortBy}
+              expected="title"
+              onChange={handleOnSort}
+              text="Title"
+            />
+          </section>
+          <section aria-label="sort direction">
+            <Title className={styles.heading} shrink>From</Title>
+            <Radio
+              current={orderBy}
+              expected="descending"
+              onChange={handleOnOrder}
+              text={sortBy === 'date' ? 'Newest to Oldest' : 'Z - A'}
+            />
+            <Radio
+              current={orderBy}
+              expected="ascending"
+              onChange={handleOnOrder}
+              text={sortBy === 'date' ? 'Oldest to Newest' : 'A - Z'}
+            />
+          </section>
+          <footer className={styles.footer}>
+            <kbd className={styles.kbd}>Esc</kbd> Close
+          </footer>
         </FocusLock>
       </dialog>
     </section>

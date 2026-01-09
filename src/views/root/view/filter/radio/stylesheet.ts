@@ -3,14 +3,14 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     flex items-center gap-3
-    mb-1
+    mb-2
     cursor-pointer
   `,
   radio: `
     hidden
     peer
   `,
-  dot: `
+  dot: (isChecked: boolean) => tw(`
     relative
     flex items-center justify-center
     w-3.5 h-3.5
@@ -19,17 +19,17 @@ const styles = tw({
 
     dark:border-white light:border-black
 
-    peer-checked:after:content-['']
-    peer-checked:after:w-1.5
-    peer-checked:after:h-1.5
-    peer-checked:after:rounded-full
-    peer-checked:after:absolute
+    ${isChecked && `
+      after:content-['']
+      after:w-1.5
+      after:h-1.5
+      after:rounded-full
+      after:absolute
 
-    peer-checked:dark:after:bg-white
-    peer-checked:light:after:bg-black
-    peer-checked:dark:border-white
-    peer-checked:light:border-black
-  `,
+      dark:after:bg-white light:after:bg-black
+      dark:border-white light:border-black
+    `}
+  `),
   text: `
     relative
     flex flex-row justify-end items-center

@@ -1,6 +1,6 @@
 'use client';
 
-import { ChangeEvent, useEffect, useState } from 'react';
+import { ChangeEvent, useEffect } from 'react';
 import { create } from 'zustand';
 
 import { useEvent } from '@/hooks/useEvent';
@@ -62,8 +62,6 @@ export function useModel(
     sortBy,
   } = store();
 
-  const [isActive, setIsActive] = useState(false);
-
   useEffect(() => {
     onChange(searchBy, filterBy, sortBy, orderBy);
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -87,14 +85,28 @@ export function useModel(
     setSortBy(value);
   };
 
-  const handleOnToggle = () => {
-    setIsActive(previous => !previous);
+  const handleOnOpenDialog = () => {
+    const dialog = document.getElementById('filtering');
+
+    if (dialog) {
+      (dialog as HTMLDialogElement).showModal();
+
+      document.documentElement.classList.add('overflow-hidden');
+    }
+  };
+
+  const handleOnCloseDialog = () => {
+    const dialog = document.getElementById('filtering');
+
+    if (dialog) {
+      (dialog as HTMLDialogElement).close();
+
+      document.documentElement.classList.remove('overflow-hidden');
+    }
   };
 
   useEvent('onEscape', () => {
-    if (isActive) {
-      handleOnToggle();
-    }
+    handleOnCloseDialog();
   });
 
   const reduced = data.reduce((initialObject: { [key: string]: number }, { type }) => {
@@ -112,12 +124,12 @@ export function useModel(
 
   return {
     filterBy,
+    handleOnCloseDialog,
     handleOnFilter,
+    handleOnOpenDialog,
     handleOnOrder,
     handleOnSearch,
     handleOnSort,
-    handleOnToggle,
-    isActive,
     orderBy,
     searchBy,
     sortBy,
