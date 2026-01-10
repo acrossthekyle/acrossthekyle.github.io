@@ -30,11 +30,12 @@ const styles = tw({
     kilo:bottom-17.5
   `,
   dialog: `
-    fixed inset-0 z-999
-
+    dark:bg-black light:bg-white
     dark:text-white light:text-black
 
     ${padding.full}
+
+    base:bg-transparent
   `,
   form: `
     flex flex-col gap-8
