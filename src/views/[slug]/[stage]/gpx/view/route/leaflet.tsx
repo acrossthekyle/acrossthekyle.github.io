@@ -74,9 +74,9 @@ export default function Leaflet({
     <MapContainer
       center={data[0]}
       className={styles.map}
-      scrollWheelZoom={false}
       // @ts-expect-error prop is necessary
       gestureHandling={true}
+      scrollWheelZoom={false}
       zoom={1}
       zoomControl={false}
     >

@@ -1,7 +1,6 @@
 'use client';
 
 import { X } from 'lucide-react';
-import FocusLock from 'react-focus-lock';
 
 import { Title } from '@/ui/typography';
 
@@ -24,13 +23,16 @@ type Props = {
 
 export default function Filter({ data, onChange }: Props) {
   const {
+    dialogRef,
     filterBy,
-    handleOnCloseDialog,
+    handleOnDialogCancel,
+    handleOnDialogOpen,
+    handleOnDialogSubmit,
     handleOnFilter,
-    handleOnOpenDialog,
     handleOnOrder,
     handleOnSearch,
     handleOnSort,
+    isDialogActive,
     orderBy,
     searchBy,
     sortBy,
@@ -41,30 +43,27 @@ export default function Filter({ data, onChange }: Props) {
     <section aria-label="search and filter" className={styles.container}>
       <Search onChange={handleOnSearch} placeholder={filterBy} searchBy={searchBy} />
       <button
-        aria-controls="filtering"
+        aria-controls="options"
         aria-label="toggle filter and sort dialog"
         className={styles.options}
-        onClick={handleOnOpenDialog}
+        onClick={handleOnDialogOpen}
         type="button"
       >
         Options
       </button>
       <dialog
-        aria-label="search and filter"
-        className={styles.dialog}
-        id="filtering"
+        aria-labelledby="options-title"
+        className={`${styles.dialog} ${isDialogActive ? 'is-active' : ''}`.trim()}
+        id="options"
+        ref={dialogRef}
+        onCancel={handleOnDialogCancel}
       >
-        <FocusLock className={styles.lock}>
-          <button
-            aria-controls="filtering"
-            aria-label="exit options"
-            autoFocus
-            className={styles.close}
-            onClick={handleOnCloseDialog}
-            type="button"
-          >
-            <X />
-          </button>
+        <Title id="options-title">Options</Title>
+        <form
+          className={styles.form}
+          method="dialog"
+          onSubmit={handleOnDialogSubmit}
+        >
           <section aria-label="filter by category">
             <Title className={styles.heading} shrink>View</Title>
             <Radio
@@ -115,10 +114,18 @@ export default function Filter({ data, onChange }: Props) {
               text={sortBy === 'date' ? 'Oldest to Newest' : 'A - Z'}
             />
           </section>
-          <footer className={styles.footer}>
-            <kbd className={styles.kbd}>Esc</kbd> Close
-          </footer>
-        </FocusLock>
+          <button
+            aria-label="exit options"
+            autoFocus
+            className={styles.close}
+            type="submit"
+          >
+            <X />
+          </button>
+        </form>
+        <footer className={styles.footer}>
+          <kbd className={styles.kbd}>Esc</kbd> Close
+        </footer>
       </dialog>
     </section>
   );

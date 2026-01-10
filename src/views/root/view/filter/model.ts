@@ -1,9 +1,14 @@
 'use client';
 
-import { ChangeEvent, useEffect } from 'react';
+import {
+  ChangeEvent,
+  FormEvent,
+  SyntheticEvent,
+  useEffect,
+  useRef,
+  useState,
+} from 'react';
 import { create } from 'zustand';
-
-import { useEvent } from '@/hooks/useEvent';
 
 import type { Data } from '../types';
 
@@ -62,6 +67,10 @@ export function useModel(
     sortBy,
   } = store();
 
+  const dialogRef = useRef<HTMLDialogElement | null>(null);
+
+  const [isDialogActive, setIsDialogActive] = useState(false);
+
   useEffect(() => {
     onChange(searchBy, filterBy, sortBy, orderBy);
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -85,29 +94,35 @@ export function useModel(
     setSortBy(value);
   };
 
-  const handleOnOpenDialog = () => {
-    const dialog = document.getElementById('filtering');
+  const handleOnDialogOpen = () => {
+    dialogRef.current?.showModal();
 
-    if (dialog) {
-      (dialog as HTMLDialogElement).showModal();
-
-      document.documentElement.classList.add('overflow-hidden');
-    }
+    requestAnimationFrame(() => setIsDialogActive(true));
   };
 
-  const handleOnCloseDialog = () => {
-    const dialog = document.getElementById('filtering');
+  const handleOnDialogClose = () => {
+    setIsDialogActive(false);
 
-    if (dialog) {
-      (dialog as HTMLDialogElement).close();
+    const handleTransitionEnd = () => {
+      dialogRef.current?.close();
 
-      document.documentElement.classList.remove('overflow-hidden');
-    }
+      dialogRef.current?.removeEventListener('transitionend', handleTransitionEnd);
+    };
+
+    dialogRef.current?.addEventListener('transitionend', handleTransitionEnd);
   };
 
-  useEvent('onEscape', () => {
-    handleOnCloseDialog();
-  });
+  const handleOnDialogSubmit = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+
+    handleOnDialogClose();
+  };
+
+  const handleOnDialogCancel = (event: SyntheticEvent<HTMLDialogElement>) => {
+    event.preventDefault();
+
+    handleOnDialogClose();
+  };
 
   const reduced = data.reduce((initialObject: { [key: string]: number }, { type }) => {
     initialObject[type] = (initialObject[type] || 0) + 1;
@@ -123,13 +138,16 @@ export function useModel(
   });
 
   return {
+    dialogRef,
     filterBy,
-    handleOnCloseDialog,
+    handleOnDialogCancel,
+    handleOnDialogOpen,
+    handleOnDialogSubmit,
     handleOnFilter,
-    handleOnOpenDialog,
     handleOnOrder,
     handleOnSearch,
     handleOnSort,
+    isDialogActive,
     orderBy,
     searchBy,
     sortBy,

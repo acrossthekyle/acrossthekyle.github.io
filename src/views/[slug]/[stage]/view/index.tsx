@@ -42,6 +42,7 @@ export default function View({ data }: Props) {
           <LayoutAside top>
             <Link
               className={styles.link}
+              id="skip-to"
               href={`/${data.slug}/${data.index}/gpx`}
             >
               <Title shrink>

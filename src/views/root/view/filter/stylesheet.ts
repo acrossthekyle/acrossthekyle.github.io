@@ -31,14 +31,14 @@ const styles = tw({
   `,
   dialog: `
     fixed inset-0 z-999
-    w-full h-full max-w-full max-h-full
 
     dark:text-white light:text-black
-  `,
-  lock: `
-    flex flex-col gap-8
 
     ${padding.full}
+  `,
+  form: `
+    flex flex-col gap-8
+    mt-8
   `,
   close: `
     absolute top-5 right-5

@@ -2,10 +2,8 @@ import '../globals.css';
 
 import type { Metadata, Viewport } from 'next';
 
-import Hierarchy from '@/contexts/hierarchy';
 import History from '@/contexts/history';
 import { LayoutBody, LayoutLoader } from '@/layout';
-import { KeyboardListener } from '@/listeners';
 
 import { introduction } from './constants';
 import styles from './stylesheet';
@@ -58,13 +56,10 @@ export default function RootLayout({ children }: Props) {
   return (
     <html className={styles.html} data-theme="dark" lang="en">
       <History>
-        <Hierarchy>
-          <KeyboardListener />
-          <LayoutBody>
-            {children}
-            <LayoutLoader />
-          </LayoutBody>
-        </Hierarchy>
+        <LayoutBody>
+          {children}
+          <LayoutLoader />
+        </LayoutBody>
       </History>
     </html>
   );
