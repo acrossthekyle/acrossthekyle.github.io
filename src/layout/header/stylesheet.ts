@@ -6,6 +6,8 @@ const styles = tw({
     h-auto min-h-full
     pt-20
     border-b-1
+    opacity-0
+    animate-in-fade
 
     dark:border-b-white/15 light:border-b-black/15
     dark:border-r-white/15 light:border-r-black/15

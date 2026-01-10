@@ -2,9 +2,6 @@ import tw, { padding } from '@/styles';
 
 const styles = tw({
   container: (hasBorder: boolean) => tw(`
-    opacity-0
-    animate-in-fade
-
     ${hasBorder && `
       border-b-1
 

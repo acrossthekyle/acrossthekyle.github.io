@@ -2,8 +2,19 @@ import db from '@/db';
 import { padIndex } from '@/utils';
 
 export default function get() {
-  return db.map(({ category, date, description, image, index, label, location, slug, stages, timestamp, title, type }) => ({
-    category,
+  return db.map(({
+    date,
+    description,
+    image,
+    index,
+    label,
+    location,
+    slug,
+    stages,
+    timestamp,
+    title,
+    type,
+  }) => ({
     count: stages.length,
     date,
     description,

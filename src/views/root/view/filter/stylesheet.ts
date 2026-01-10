@@ -35,7 +35,8 @@ const styles = tw({
 
     ${padding.full}
 
-    base:bg-transparent
+    base:dark:bg-transparent
+    base:light:bg-transparent
   `,
   form: `
     flex flex-col gap-8

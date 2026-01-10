@@ -13,7 +13,17 @@ export const metadata: Metadata = {
     template: `%s → Kyle → A backpacker and engineer making moves.`,
     default: 'Home → Kyle → A backpacker and engineer making moves.',
   },
-  keywords: ['across', 'the', 'kyle', 'Kyle', 'Gilbert', 'Thru-hiker', 'UI Developer'],
+  keywords: [
+    'across',
+    'the',
+    'kyle',
+    'Kyle',
+    'Gilbert',
+    'Thru-hiker',
+    'Backpacker',
+    'UI Developer',
+    'Software Engineer',
+  ],
   description: introduction,
   authors: [{ name: 'Kyle Gilbert' }],
   referrer: 'origin-when-cross-origin',
@@ -33,7 +43,7 @@ export const metadata: Metadata = {
     siteName: 'acrossthekyle',
     images: [
       {
-        url: 'https://ik.imagekit.io/acrossthekyle/uploads/2023/06/21/05769f04-5b00-4fd5-a233-55c00c9871c5.jpeg?q=50',
+        url: 'https://ik.imagekit.io/acrossthekyle/uploads/8ed54501-bdcb-40b7-9387-f2fc306db83d.png?q=50',
         width: 800,
         height: 600,
       },

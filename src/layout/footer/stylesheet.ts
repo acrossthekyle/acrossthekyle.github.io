@@ -5,6 +5,8 @@ const styles = tw({
     border-t-1
     py-8 px-8
     text-xs text-center
+    opacity-0
+    animate-in-fade
 
     dark:border-t-white/15 light:border-t-black/15
 

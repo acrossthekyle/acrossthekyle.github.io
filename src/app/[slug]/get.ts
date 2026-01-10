@@ -16,14 +16,20 @@ export default function get(slug: string) {
     label: data.label,
     location: data.location,
     slug,
-    stages: data.stages.map(({ date, description, image, location, termini }, index: number) => ({
-      date,
-      description,
-      image,
-      index: padIndex(index + 1),
-      location,
-      termini,
-    })),
+    stages: data.stages.map(({
+        date,
+        description,
+        image,
+        location,
+        termini,
+      }, index: number) => ({
+        date,
+        description,
+        image,
+        index: padIndex(index + 1),
+        location,
+        termini,
+      })),
     title: data.title,
   };
 };
