@@ -3,7 +3,7 @@ import tw from '@/styles';
 const styles = {
   container: (shrink?: boolean) => tw(`
     inline-block
-    ${shrink ? 'text-lg/3' : 'nano:text-xl/4'}
+    ${shrink ? 'text-lg/3' : 'text-lg/3.5'}
     font-extrablack font-stretch-semi-expanded
     tracking-tighter
     uppercase

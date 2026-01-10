@@ -2,14 +2,9 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    absolute top-6 left-6
+    mb-6
 
-    base:top-8
-    base:left-8
-    hecto:top-12
-    hecto:left-12
-    kilo:top-16
-    kilo:left-16
+    base:mb-8
   `,
   icon: `
     w-5 h-5

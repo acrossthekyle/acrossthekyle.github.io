@@ -48,7 +48,7 @@ export default function Footer() {
               href="/acrossthekyle-resume.pdf"
               target="_blank"
             >
-              Resume
+              CV
             </Link>
           </li>
         </ul>

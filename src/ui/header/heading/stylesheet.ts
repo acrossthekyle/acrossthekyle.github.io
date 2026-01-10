@@ -5,8 +5,9 @@ const styles = tw({
     relative
     font-extrablack font-stretch-condensed
     uppercase
-    text-5xl/9.25
+    text-4xl/7
 
+    micro:text-5xl/9.25
     base:text-4xl/7
     hecto:text-5xl/9.25
     kilo:text-6xl/11.5

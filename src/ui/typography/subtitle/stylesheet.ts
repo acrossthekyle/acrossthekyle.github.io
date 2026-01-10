@@ -3,13 +3,13 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     block
-    mt-2
     uppercase
     text-tiny
     font-bold font-stretch-semi-condensed
     tracking-widest
     duration-300
 
+    milli:mt-1.5
     milli:text-xs
     base:text-tiny
     kilo:text-xs

@@ -2,8 +2,17 @@ import tw from '@/styles';
 
 const styles = tw({
   toggle: `
-    relative top-0.5
-    p-0.5
+    absolute top-4 right-6
+
+    flex items-center justify-center
+    w-8 h-8
+
+    base:top-6
+    base:right-8
+    hecto:top-10
+    hecto:right-12
+    kilo:top-14
+    kilo:right-16
   `,
   dot: `
     block

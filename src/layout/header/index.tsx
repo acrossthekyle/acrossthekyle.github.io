@@ -1,4 +1,3 @@
-import { Home, Instagram, Linkedin, Mail, FileTypeCorner } from 'lucide-react';
 import Link from 'next/link';
 
 import styles from './stylesheet';
@@ -11,58 +10,61 @@ type Props = {
 export default function Header({ children }: Props) {
   return (
     <header className={styles.container}>
-      <nav aria-label="social media navigation" className={styles.socials}>
+      <nav aria-label="main navigation" className={styles.navigation}>
         <ul className={styles.list}>
           <li>
             <Link
               aria-label="acrossthekyle.com home"
+              className={styles.link}
               href="/"
             >
-              <Home className={styles.icon} />
-            </Link>
-          </li>
-          <li>
-            <Link
-              aria-label="view instagram profile"
-              href="https://instagram.com/acrossthekyle"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Instagram className={styles.icon} />
-            </Link>
-          </li>
-          <li>
-            <Link
-              aria-label="view linkedin profile"
-              href="https://linkedin.com/in/acrossthekyle"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Linkedin className={styles.icon} />
-            </Link>
-          </li>
-          <li>
-            <Link
-              aria-label="send email"
-              href="mailto:hello@acrossthekyle.com"
-            >
-              <Mail className={styles.icon} />
+              Home
             </Link>
           </li>
           <li>
             <Link
               aria-label="view resume"
+              className={styles.link}
               href="/acrossthekyle-resume.pdf"
               target="_blank"
             >
-              <FileTypeCorner className={styles.icon} />
+              CV
             </Link>
           </li>
           <li>
-            <Theme />
+            <Link
+              aria-label="view instagram profile"
+              className={styles.link}
+              href="https://instagram.com/acrossthekyle"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Insta
+            </Link>
+          </li>
+          <li>
+            <Link
+              aria-label="view linkedin profile"
+              className={styles.link}
+              href="https://linkedin.com/in/acrossthekyle"
+              target="_blank"
+              rel="noreferrer"
+            >
+              In
+            </Link>
+          </li>
+          <li>
+            <Link
+              aria-label="send email"
+              className={styles.link}
+              href="mailto:hello@acrossthekyle.com"
+            >
+              E-mail
+            </Link>
           </li>
         </ul>
       </nav>
+      <Theme />
       <div className={styles.scrollable} />
       {children}
     </header>
