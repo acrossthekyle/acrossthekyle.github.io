@@ -16,17 +16,17 @@ export default function Header({ children }: Props) {
             <Link
               aria-label="acrossthekyle.com home"
               className={styles.link}
+              data-emphasis="true"
               href="/"
             >
               Home
             </Link>
           </li>
-          <li>
+          <li className={styles.divide}>
             <Link
-              aria-label="view resume"
+              aria-label="view cv/resume"
               className={styles.link}
-              href="/acrossthekyle-resume.pdf"
-              target="_blank"
+              href="/cv"
             >
               CV
             </Link>

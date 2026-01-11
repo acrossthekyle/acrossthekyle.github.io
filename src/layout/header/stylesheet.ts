@@ -36,14 +36,6 @@ const styles = tw({
     nano:pt-16
     base:pt-24
   `,
-  anchor: `
-    absolute top-6
-    w-5
-
-    base:top-8
-    hecto:top-12
-    kilo:top-16
-  `,
   navigation: `
     absolute top-4 left-6
 
@@ -58,15 +50,29 @@ const styles = tw({
     flex flex-col gap-1
     h-8
 
-    nano:gap-4
-    nano:items-center
-    nano:flex-row
+    micro:gap-4
+    micro:items-center
+    micro:flex-row
+  `,
+  divide: `
+    border-b-1
+    pb-1
+
+    dark:border-white/50 light:border-black/50
+
+    micro:border-r-1
+    micro:border-b-0
+    micro:pr-4
+    micro:pb-0
   `,
   link: `
     flex items-center
     text-sm
     font-medium
     uppercase
+
+    data-emphasis:italic
+    data-emphasis:font-serif
 
     base:text-xs
   `,

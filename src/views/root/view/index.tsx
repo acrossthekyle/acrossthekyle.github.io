@@ -14,7 +14,7 @@ import {
   ImageCaptionTitle,
   ImageFigure,
 } from '@/ui/image';
-import { Line, Paragraph } from '@/ui/typography';
+import { Line, Paragraph, Subtitle } from '@/ui/typography';
 
 import Filter from './filter';
 import { useModel } from './model';
@@ -33,6 +33,7 @@ export default function View({ data }: Props) {
       <LayoutHeader>
         <HeaderHeading>
           A backpacker and engineer making moves.
+          <Subtitle>Hiking is life, Coding is living</Subtitle>
         </HeaderHeading>
         <HeaderSection>
           <Paragraph>

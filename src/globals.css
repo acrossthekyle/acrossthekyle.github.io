@@ -5,9 +5,10 @@
 
 :root {
   --background: #000000;
-  --foreground: rgba(255, 255, 255, .9);
-  --tooltip-text-color: rgba(0, 0, 0, .9);
-  --elevation-text-color: rgba(0, 0, 0, .9);
+  --foreground: rgba(255, 255, 255, 1);
+  --tooltip-text-color: rgba(0, 0, 0, 1);
+  --elevation-text-color: rgba(0, 0, 0, 1);
+  --progress-bar-fill-color: rgba(0, 0, 0, .75);
 }
 
 @theme inline {
@@ -41,13 +42,15 @@
 }
 
 html[data-theme="dark"] {
-  --tooltip-text-color: rgba(255, 255, 255, .9);
-  --elevation-text-color: rgba(255, 255, 255, .9);
+  --tooltip-text-color: rgba(255, 255, 255, 1);
+  --elevation-text-color: rgba(255, 255, 255, 1);
+  --progress-bar-fill-color: rgba(255, 255, 255, .75);
 }
 
 html[data-theme="light"] {
-  --tooltip-text-color: rgba(0, 0, 0, .9);
-  --elevation-text-color: rgba(0, 0, 0, .9);
+  --tooltip-text-color: rgba(0, 0, 0, 1);
+  --elevation-text-color: rgba(0, 0, 0, 1);
+  --progress-bar-fill-color: rgba(0, 0, 0, .75);
 }
 
 html:has(dialog[open]) {
@@ -90,6 +93,23 @@ body {
   dialog#options.is-active::backdrop {
     backdrop-filter: blur(2.5rem);
     opacity: 1;
+  }
+
+  progress {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border-radius: 0.5rem;
+  }
+
+  progress::-webkit-progress-bar {
+    background-color: transparent;
+  }
+
+  progress::-webkit-progress-value,
+  progress::-moz-progress-bar {
+    background-color: var(--progress-bar-fill-color);
+    border-radius: 0.5rem;
   }
 
   .leaflet-bar {

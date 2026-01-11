@@ -42,9 +42,9 @@ const styles = tw({
     peta:text-2xl
   `,
   count: `
-    ml-1
-    text-xs
-    font-mono
+    ml-2
+    italic
+    font-serif
   `,
 });
 

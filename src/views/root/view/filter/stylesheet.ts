@@ -60,7 +60,7 @@ const styles = tw({
     absolute bottom-6 right-6
     w-full
     items-center justify-end
-    text-tiny text-current/80
+    text-tiny text-current/50
     font-bold
     uppercase
 
@@ -75,13 +75,12 @@ const styles = tw({
   kbd: `
     mr-2
     px-1.5 py-1
-    text-tiny text-current/80
-    font-semibold
+    text-current/80
     border
-    rounded-lg
+    rounded-md
 
-    dark:border-white/15 light:border-black/15
-    dark:bg-white/15 light:bg-black/15
+    dark:border-white/10 light:border-black/10
+    dark:bg-white/10 light:bg-black/10
   `,
 });
 
