@@ -3,6 +3,7 @@ import type { Navigation, Stats } from '@/types';
 export type Data = {
   date: string;
   description: string[];
+  excerpt: string;
   hasGpx: boolean;
   hasNavigation: boolean;
   hasStats: boolean;

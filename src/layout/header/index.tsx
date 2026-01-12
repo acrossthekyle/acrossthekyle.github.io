@@ -5,27 +5,31 @@ import Theme from './theme';
 
 type Props = {
   children: React.ReactNode | React.ReactNode[];
+  route?: string;
 };
 
-export default function Header({ children }: Props) {
+export default function Header({ children, route }: Props) {
   return (
     <header className={styles.container}>
       <nav aria-label="main navigation" className={styles.navigation}>
         <ul className={styles.list}>
           <li>
             <Link
+              aria-current={route === '/' ? 'page' : undefined}
               aria-label="acrossthekyle.com home"
               className={styles.link}
-              data-emphasis="true"
+              data-active={route !== 'cv'}
               href="/"
             >
-              Home
+              Wanderings
             </Link>
           </li>
-          <li className={styles.divide}>
+          <li>
             <Link
+              aria-current={route === 'cv' ? 'page' : undefined}
               aria-label="view cv/resume"
               className={styles.link}
+              data-active={route === 'cv'}
               href="/cv"
             >
               CV
@@ -33,33 +37,12 @@ export default function Header({ children }: Props) {
           </li>
           <li>
             <Link
-              aria-label="view instagram profile"
-              className={styles.link}
-              href="https://instagram.com/acrossthekyle"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Insta
-            </Link>
-          </li>
-          <li>
-            <Link
-              aria-label="view linkedin profile"
-              className={styles.link}
-              href="https://linkedin.com/in/acrossthekyle"
-              target="_blank"
-              rel="noreferrer"
-            >
-              In
-            </Link>
-          </li>
-          <li>
-            <Link
               aria-label="send email"
               className={styles.link}
+              data-mono="true"
               href="mailto:hello@acrossthekyle.com"
             >
-              E-mail
+              Say Hi
             </Link>
           </li>
         </ul>

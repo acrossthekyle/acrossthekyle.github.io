@@ -30,17 +30,28 @@ export default function View({ data }: Props) {
 
   return (
     <>
-      <LayoutHeader>
+      <LayoutHeader route="/">
         <HeaderHeading>
-          A backpacker and engineer making moves.
-          <Subtitle>Hiking is life, Coding is living</Subtitle>
+          A backpacker and software engineer making moves.
+          <Subtitle>Wandering is life, Coding is living</Subtitle>
         </HeaderHeading>
         <HeaderSection>
           <Paragraph>
             Hey all, I'm Kyle.
           </Paragraph>
           <Paragraph>
-            I live on the lands belonging to the <span className={styles.emphasis}>Potawatomi</span>, <span className={styles.emphasis}>Ojibwe</span>, and <span className={styles.emphasis}>Odawa</span> &mdash; otherwise known as the city of <span className={styles.emphasis}>Chicago</span>, and I've spent the past {new Date().getFullYear() - 2012} years building parts of the web that you probably use today, and the last {new Date().getFullYear() - 2018} years exploring the world.
+            I live on the lands belonging to the <span className={styles.emphasis}>Potawatomi</span>, <span className={styles.emphasis}>Ojibwe</span>, and <span className={styles.emphasis}>Odawa</span> &mdash; otherwise known as the city of <span className={styles.emphasis}>Chicago</span>, and I've spent the past {new Date().getFullYear() - 2012} years building parts of the web that you probably use today, and the last {new Date().getFullYear() - 2018} years exploring the world. These are my wanderings.
+          </Paragraph>
+          <Paragraph>
+            Follow me on <Link
+              aria-label="view instagram profile"
+              className={styles.link}
+              href="https://instagram.com/acrossthekyle"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Instagram
+            </Link>
           </Paragraph>
         </HeaderSection>
       </LayoutHeader>

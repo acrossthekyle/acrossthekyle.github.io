@@ -10,8 +10,8 @@ import styles from './stylesheet';
 
 export const metadata: Metadata = {
   title: {
-    template: `%s → Kyle → A backpacker and engineer making moves.`,
-    default: 'Home → Kyle → A backpacker and engineer making moves.',
+    template: `%s → Kyle → A backpacker and software engineer making moves.`,
+    default: 'Home → Kyle → A backpacker and software engineer making moves.',
   },
   keywords: [
     'across',

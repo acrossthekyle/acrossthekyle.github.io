@@ -68,6 +68,11 @@ const styles = tw({
 
     after:content-['_↗']
   `,
+  icon: `
+    inline
+    w-3.5 h-3.5
+    stroke-3
+  `,
 });
 
 export default styles;

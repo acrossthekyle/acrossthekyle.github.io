@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 import { LayoutFooter, LayoutHeader, LayoutMain } from '@/layout';
-import { HeaderBack, HeaderHeading, HeaderSection } from '@/ui/header';
+import { HeaderHeading, HeaderSection } from '@/ui/header';
 import { Eyebrow, Paragraph, Title } from '@/ui/typography';
 
 import styles from './stylesheet';
@@ -14,21 +14,32 @@ type Props = {
 export default function View({ data }: Props) {
   return (
     <>
-      <LayoutHeader>
-        <HeaderBack fallback="/" />
+      <LayoutHeader route="cv">
         <HeaderHeading>
           <Eyebrow>CV / Resume</Eyebrow>
           Creating things from scratch motivates me to do what I do
         </HeaderHeading>
         <HeaderSection>
           <Paragraph>
-            Making things with code thrills me to no end.
+            I'm a self-taught web developer/software engineer and making things with code thrills me to no end. With a strong background in JavaScript/TypeScript, and HTML/CSS, I have hands-on experience working with high-traffic, customer-facing products built with an attention to detail.
           </Paragraph>
           <Paragraph>
-            I'm a self-taught web developer/software engineer/UI developer/programmer with a strong background in JavaScript/TypeScript, and HTML/CSS. I have hands-on experience working with high-traffic, customer-facing products built with an attention to detail.
+            Connect with me on <Link
+              aria-label="view linkedin profile"
+              className={styles.link}
+              data-work="true"
+              href="https://linkedin.com/in/acrossthekyle"
+              target="_blank"
+              rel="noreferrer"
+            >LinkedIn</Link>
           </Paragraph>
           <Paragraph>
-            Building a clean and maintainable codebase that enables continuous improvement and scalability is my priority.
+            If you're interested in working together please <Link
+              aria-label="send email"
+              className={styles.link}
+              data-mono="true"
+              href="mailto:hello@acrossthekyle.com"
+            >drop me a line</Link>
           </Paragraph>
         </HeaderSection>
       </LayoutHeader>

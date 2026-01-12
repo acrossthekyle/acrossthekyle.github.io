@@ -477,6 +477,7 @@ const data = [
           "Reaching the campsite at Brown's Hollow felt like a reward. A peaceful clearing with well-maintained grounds. Water was not as abundant as we thought it would be, and we had to make due with a small muddy pool (which our water filters were able to handle without issue).",
           "We enjoyed a campfire from dried bark and branches both big and small. Luckily the fire ring was massive and could accomodate branches of various sizes. With temps dropping we retired to our tents.\n"
         ],
+        "excerpt": "Our group wound its way through hardwood forests and tackled steep, muddy climbs for views of the Iowa landscape. After navigating varied terrain, including several hills and areas with ladybug swarms, we reached our campsite for the night.",
         "gpx": [
           [
             43.171763,
@@ -1576,6 +1577,7 @@ const data = [
           "More rolling hills filled with golden leaves surrounded us as we marched on over slightly hilly terrain with one medium-sized hill on our way that required a mere 300 feet of elevation gain. A short detour to a fire tower/observation platform was a bust: it was locked up tight.",
           "2 miles later and we were done! This was a nice overnight backpacking trial, if you ignore my late night visitor.\n"
         ],
+        "excerpt": "What should have been a restful night was cut short when an unknown creature tried to force its way underneath my sleeping pad. By morning it was gone, leaving behind a restless night and a somewhat memorable start to an otherwise beautiful final stretch of trail.",
         "gpx": [
           [
             43.154865,
@@ -3190,6 +3192,7 @@ const data = [
           "Dinner was an experience: three Brits (who support Trump, so probably not our new best friends) joined our table. The meal itself started strong with great vegetable soup, followed by a funky but good combination of pasta with red sauce, a cheese omelette, cheese, and crème brûlée. Seriously loving the salt in everything over here!",
           "Tonight's accomodation is a 28-person bunk bed room. We've snagged the top bunks by the door and are all packed and ready for an early departure tomorrow morning. Another day, another adventure down!\n"
         ],
+        "excerpt": "",
         "gpx": [
           [
             45.89030119590461,
@@ -4291,6 +4294,7 @@ const data = [
           "Dinner was a lively, international affair. We sat with six Israelis, enjoying a vegetable dinner of pepper pizza, carrot and beet salad, and soup. Half the table was vegetarian for Kosher reasons, and the sun blazed on our backs and necks as we ate, still sweating from the day's effort.",
           "The evening ended with a long political and travel chat outside until the mountain air turned too cold. We headed to bed, surrounded by the damp smell of laundry drying on the bunks. Ready to do it all again tomorrow!\n"
         ],
+        "excerpt": "",
         "gpx": [
           [
             45.829960042610765,
@@ -5393,6 +5397,7 @@ const data = [
           "Dinner was a lesson in local custom: a thin vegetable soup with bread and cheese (the French hikers insisted the cheese goes in the soup), followed by rice, lentils, and poppyseed cake.",
           "Today was a reminder that the mountain always has the final say.\n"
         ],
+        "excerpt": "",
         "gpx": [
           [
             45.72250496596098,
@@ -6501,6 +6506,7 @@ const data = [
           "Dinner was a social and culinary mix. We sat with a non-English speaking couple and John, a New Yorker living in Vienna. The menu was delicious: pasta with red sauce and Parmesan, followed by peas, carrots, and cheese, and almond cake for dessert. The food was excellent.",
           "Tucked under a canopy of drying laundry, drifting off to sleep. We made it to Italy, and we survived the hardest day.\n"
         ],
+        "excerpt": "",
         "gpx": [
           [
             45.76514236629009,
@@ -7604,6 +7610,7 @@ const data = [
           "Before dinner, we decompressed with some reading, beer, and spicy cheese balls. Dinner was a lively table of nine: us, three Swiss school friends, and a French family of four. We feasted on bread, salad, farfalle in red sauce, steamed veggies with a veggie burger, and chocolate pudding. The entertainment of the night was watching the adjacent table rinse their meat in their water glasses before eating. We couldn't tell if it was too salty or a cultural habit, but it certainly gave us something to talk about!",
           "Now, it's time for podcasts in bed as we rest up for whatever tomorrow brings. Moving through Italy is proving to be a beautiful, blistered, and delicious adventure.\n"
         ],
+        "excerpt": "",
         "gpx": [
           [
             45.791053511202335,
@@ -8706,6 +8713,7 @@ const data = [
           "The food was fantastic: vegetable soup, tofu with veggies and rice, and ice cream pie (hands down the best dessert of the trip).",
           "The night ended with us moving our damp laundry to the cubby strings in the room and sharing a few laughs with our roommates before bed. Switzerland is off to a great start!\n"
         ],
+        "excerpt": "",
         "gpx": [
           [
             45.84672074764967,
@@ -9809,6 +9817,7 @@ const data = [
           "Dinner was a cozy affair at a circular table with a group of French speakers. The menu was quintessential Switzerland: thin vegetable soup, lettuce and carrot salad, cheese fondue with plenty of bread and potatoes, and cake for dessert.",
           "Despite the 'rest day' lies the trail told us, ending it with fondue and a private room made it all worth it.\n"
         ],
+        "excerpt": "",
         "gpx": [
           [
             45.93533908948302,
@@ -10910,6 +10919,7 @@ const data = [
           "The meal was solid: a very good, thick squash soup, a cheese omelette with veggies and fries, and lemon vanilla ice cream for dessert.",
           "Now, it's back to the dorm to rest up. Tomorrow, we keep moving!\n"
         ],
+        "excerpt": "",
         "gpx": [
           [
             46.0346853453666,
@@ -12010,6 +12020,7 @@ const data = [
           "Dinner was a lovely, social affair. We sat with the three British ladies along with three Belgian campers. The conversation was fantastic. We feasted on: lettuce and corn salad with balsamic, unlimited fresh baguettes, rice and lentils, brie and applesauce for dessert (a surprisingly great combo!).",
           "The night wound down with a funny group chat about the wonders of Neosporin with the Brits and Jess's family. It's surprisingly quiet in our rooms, and we're ready for some rest before the final legs of this adventure!\n"
         ],
+        "excerpt": "",
         "gpx": [
           [
             46.05608367361128,
@@ -13113,6 +13124,7 @@ const data = [
           "The highlight of the evening was a rowdy game of 'Asshole' (a card game) with the English family. There was plenty of wine and non-stop laughter; they are just the sweetest people.",
           "Dinner was equally great: carrot and cabbage salad, a delicious cheesy potato dish, and chocolate mousse for dessert. My partner was teased by the whole table for hoarding the extra bread, but hey, a hiker's gotta fuel up! Another incredible day in the books. One step closer to the finish!\n"
         ],
+        "excerpt": "",
         "gpx": [
           [
             45.996275106444955,
@@ -14214,6 +14226,7 @@ const data = [
           "Dinner was great. We sat with Mackenzie, Kaitlyn, two Dutch hikers, and one French hiker. The menu included: greek salad with fresh bread, pasta with zucchini and red sauce, and gingerbread milkiness for dessert (very tasty, if a bit runny).",
           "Now, it's time for podcasts and some final rest. We did it. We completed the Tour du Mont Blanc!\n"
         ],
+        "excerpt": "",
         "gpx": [
           [
             45.95939800143242,
@@ -15376,6 +15389,7 @@ const data = [
         "description": [
           "Located where the lake meets the Rhône River, and originally built as a safety valve for a local hydraulic plant, the Jet d'Eau is a massive plume of water that shoots 450 feet into the air, visible from nearly anywhere in the city, making it a majestic centerpiece. It's even more incredible looking in person than the picture. I captured this shot of it from the spires of the Saint-Pierre cathedral.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -15414,6 +15428,7 @@ const data = [
           "The highlight of this cathedral though was the ability to go up into the twin spires and walk through the attic and old school room near the top, including being able to get up close to the massive old church bells. For a small fee you get to see the entire city. The climb up was through narrow spiraling stone stairs, and we were even able to walk along expored exterior walkways.",
           "When we were there the archaeological site underground was sadly closed due to construction and renovations. It would have been really awesome.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -15453,6 +15468,7 @@ const data = [
           "There was a little animal park at the northern end, but we didn't get see much wildlife.",
           "This was a genuine green oasis away from the urban hustle and bustle.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -16118,6 +16134,7 @@ const data = [
           "There's a lot of people here, it's going to be busy on the trail, and at the refuges, but that's good: more opportunities to make friends. Oh, and there's tons of little lizards running around, plus three cows who keep tramping through the area with the tents. I hope they steer clear of mine.",
           "I had a really fulfilling dinner with people from Germany (Denis), Netherlands (Peter and Tyezet), and Belgium (Charlie and Sophie). We would end up walking and camping together for the next 9 days.\n"
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.50560604967177,
@@ -17219,6 +17236,7 @@ const data = [
           "I had a hard time finding a level tent spot, and ended up using some wood pallets as a base which meant using rocks to hold everything down. It worked, but we'll see how it holds up in the wind tonight.",
           "I hung out with the gang before going to bed early. I can smell the toilets from here. Not a pleasant thing at all."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.46380105614662,
@@ -18319,6 +18337,7 @@ const data = [
           "I'm a vegetarian, mostly, but when someone told me they had fries and a burger, I rushed over to the restaurant at the hotel. It was so good, hit the spot. Afterwards I took a nice much needed nap in the cool summer breeze.",
           "I ordered a fancy buffet breakfast at the hotel next to the camping area because the breakfasts at the refuges aren't that fulfilling. It's supposed to be a long day tomorrow, so I'm going to try and wake up early, around 5:00 am."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.426046784967184,
@@ -19422,6 +19441,7 @@ const data = [
           "I had veal for the first time for dinner that night. It's amazing how fast I've become non-vegetarian on this hike, and with Corsican cuisine. It tasted good though, and I didn't feel ill afterwards or anything like that.",
           "I'm starting to get some blisters on both of my feet. I wrapped them with the gauze I had brought as best I could. These toe socks I chose to wear for this hike are not so good, and I'm going to stick with Darn Tough from now on. And some stronger hiking shoes. I don't know what happened to the quality of Altra shoes but these trail runners are already falling apart."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.40279236808419,
@@ -20526,6 +20546,7 @@ const data = [
           "This was the biggest and most delicious dinner of the trip so far. Steak with fries and egg salad, and dessert!",
           "Tomorrow promises to be the easiest day so far, but we'll see..."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.35237848944962,
@@ -21626,6 +21647,7 @@ const data = [
           "There was a river flowing next the refuge, with some wide flat areas that were ideal for chilling in the water, and we took advantage of it.",
           "The refuge dinner was simple but filling. They're all mostly pasta and red sauce with bread, a meat, and a dessert. The setting sun blanketed the eating area making it a very toasty dinner."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.28611359372735,
@@ -22728,6 +22750,7 @@ const data = [
           "Dinner was pre-assigned seating, which meant our group wouldn't be sitting together. Everyone is amazed that I came all the way from Chicago just to do this trek. I still haven't met any other Americans though.",
           "After dinner our gang played some more card games. Supposedly the refuge tomorrow has amazing lasagna, so I'm definitely looking forward to that!"
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.21971182152629,
@@ -23829,6 +23852,7 @@ const data = [
           "After dinner our group said their goodbyes since we're all splitting up after today. It was very sad. These people were awesome, and tons of fun. Some are doing a double tomorrow, while others are taking a rest day in the town of Vizzavona. I had a hotel room booked there though, and I was eager to make use of their laundry services.",
           "It's gonna be a chilly night tonight."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.19756247475743,
@@ -24926,6 +24950,7 @@ const data = [
           "This was the easiest walk so far. After the descent was done the forested part was so easy, and everntually the trail merged with a forest preserve, which had nice wide and luxurious gravel trails. It was so easy in fact that I arrived at 10:45 am, and I had to wait three hours before the room would be ready. I went to a local bar in town (which was really just a grouping of 5 or so buildings and a train station) for drinks and snacks. Everything is very expensive in this tiny town, even more expensive than when at a mountain refuge.",
           "Finally, time to do some real laundry. I laid out my gear in the hotel room so that it could air out. I took a nice long shower, and then napped. It rained while I was falling asleep, loved it! Dinner was soon, which was good because I was starving. The dinner itself was alright, nothing too fancy, but I was honestlyexpecting more from this hotel. And they have breakfast at 7:00 am so it'll be a late start to the trail for me, but that's ok because it's only 5 hours tomorrow."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.152911741286516,
@@ -26027,6 +26052,7 @@ const data = [
           "Dinner had a lot of food! And chocolate mousse again for dessert!",
           "The sun keeps trying to peak out from behind the clouds. I hope the weather over the next few days is more pleasant. It's going to be windy tonight, hopefully the tent walls won't attack me. Oh and one pair of the socks now has a heel hole. Definitely going to toss them as soon as the trek is done."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.12724442593753,
@@ -27132,6 +27158,7 @@ const data = [
           "I chilled inside the bomb-proof tent while the rain raged outside. After getting all of my gear situated I read and then fell asleep. This wasn't the best refuge on the trip, but I made the most of it.",
           "This trek has been great, with amazing views and varied terrain, and has been a great experience overall."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.02729366719723,
@@ -28234,6 +28261,7 @@ const data = [
           "I didn't think the southern portion had any elevation points as high as the north, but here was one of them. It was nearly 6,500 feet above sea-level, and was up in the clouds. The ascent up to the top wasn't too bad though, and I couldn't see the refuge from way up here, but I'm sure it was down there somewhere. The descent was one of the worst, especially after doing a double-stage day. My knees were killing me. I made it to the refuge 1 hour earlier than the official time the signs along the way said it would take, not bad.",
           "Dinner here was delicious, and my stuff stayed dry overnight even though some clouds had decided to move in during dinner. There wasn't much to do up here, or many communal places to sit, and the temps were dropping fast, so I spent most of the night reading in my tent."
         ],
+        "excerpt": "",
         "gpx": [
           [
             41.93516297265887,
@@ -29336,6 +29364,7 @@ const data = [
           "This trek was the hardest I had ever done, and the most amazing. I met a lot of great people, and while there were struggles (both physically and mentally) along the way, overall this thru-hike was a great experience.",
           "I have finally completed the list of treks I first created back in 2018. What an amazing feeling!"
         ],
+        "excerpt": "",
         "gpx": [
           [
             41.8409729283303,
@@ -30499,6 +30528,7 @@ const data = [
           "Two massive stone titans rising out of the green farmland like ghosts. The Colossi of Memnon are genuinely staggering to stand next to; at 18 meters tall, they make the surrounding tour buses look like toys.",
           "Even though their faces have been worn away by three millennia of wind and sand, you can still see the outlines of the Pharaoh seated on his throne, his hands resting calmly on his knees as he gazes east toward the Nile. If you look closely at his legs, you can spot smaller carved figures.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -30536,6 +30566,7 @@ const data = [
           "Although commonly known as the Tomb of Ramesses VI, it was actually started by his nephew, Ramesses V, who was likely the first one buried here before his uncle expanded it for himself. The descent was a staggering 117-meter corridor that plunged deep into the limestone. What immediately hit me wasn't just the scale, but the colors. After over 3,000 years, the reds, golds, and deep blues of the hieroglyphs look as though the painters just finished their work this morning.",
           "The walls are a literal library of the underworld. On the left, the Book of Gates guides the way; on the right, the Book of Caverns. The highlight, though, is the burial chamber. I spent most of my time looking up at the astronomical ceiling. It features a magnificent, double-elongated image of the sky goddess Nut arching across the cosmos, swallowing the sun at dusk and giving birth to it at dawn. Below her, the reconstructed green conglomerate sarcophagus sits as a haunting centerpiece.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -30573,6 +30604,7 @@ const data = [
           "Entering the Tomb of Tutankhamun feels different from the others: it is remarkably small compared to the vast corridors of the other kings in the valley. You can really sense the haste in which it was prepared. Unlike the other pharaohs who were moved to museums long ago, Tutankhamun himself remains here. I stood inches away from his actual mummy, which is now preserved in a glass case at one end of the burial chamber. Seeing his linen-wrapped form in the very place he was laid 3,000 years ago is amazing.",
           "This was the only room in the tomb with decorated walls. The yellow-background murals are vibrant, showing the boy-king being welcomed into the afterlife by Osiris and Anubis. His massive quartzite sarcophagus still dominates the room, though it is now empty of its famous nesting golden coffins.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -30609,6 +30641,7 @@ const data = [
         "description": [
           "The preservation here is incredible. The Litany of Ra and the Book of Gates cover the walls in high-contrast reds and golds that look almost fresh, leading all the way to the eight-pillared burial chamber. It is easily one of the most fascinating stops in the Valley of the Kings. This tomb is massive, stretching about 188 meters deep.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -30645,6 +30678,7 @@ const data = [
         "description": [
           "The Valley of the Queens was less crowded which means we had more time to walk around and view things at our own pace. There was only one tomb where you had to pay to enter, and we skipped it, but the rest were still equally as amazing. Having them to ourselves was the real treat.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -30682,6 +30716,7 @@ const data = [
           "Habu Temple was the most amazing temple we had seen thus far. It was in amazing condition: the paintings were pristine-looking. Our guide gave us amazing behind-the-scenes tour, and told us some not-so-commonly known facts about the place, and its historical purpose.",
           "It didn't have the crushing crowds of Karnak, but was every bit as massive and powerful. I've never seen carvings like these. To prevent future pharaohs from hacking off his name and replacing it with their own, Ramesses III had the hieroglyphs carved incredibly deep; some are nearly six inches into the stone.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -30719,6 +30754,7 @@ const data = [
           "Unlike the other temples we visited, this one seemed to literally grow out of the landscape instead of resting on top of it. Its three massive limestone terraces are carved directly into the face of the cliffs, creating a symmetrical silhouette.",
           "This was also probably the busiest temple that we visited. Loads of tour buses were lined up in front of it, ruining an otherwise great view of the temple. We didn't spend much time at this one. While it was cool to visit it wasn't as impressive as the other temples.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -30757,6 +30793,7 @@ const data = [
           "Our time came and we were shuffled into the basket of our balloon with the most charistmatic captain one could hope for. After a quick run-through of the rules we were off and ascending into the air.",
           "The captain had a little jingle he kept singing: \"Everything I do, I do for you.\" It made us smile and laugh, and kept things cheery. The ride over the Valley of the Kings and Queens below us was amazing. The sunrise, the views, it was the\nperfect ending to this vacation.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -30793,6 +30830,7 @@ const data = [
         "description": [
           "This was our first temple complex that we visited in Luxor, and it was astounding to be standing at the base of these humungous columns and statues. We spotted Greek writing mixed in with ancient Egyptian, which aligned with what the guide in Cairo told us about Alexandar the Greats conquering of Egypt and introduction of the helenistic cultures.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -30830,6 +30868,7 @@ const data = [
           "We walked down the Avenue of Sphinxes in order to reach the Karnak temple complex, and no one else was on the avenue, so we had it all to ourselves. It beat walking alogn the busy narrow streets.",
           "Luxor was amazing, but Karnak was huge! This temple complex was expansive, tall, and the paintings on the walls were still in great condition. There were so many things to see here. We spent a long time walking around and checking\neverything out.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -30918,6 +30957,7 @@ const data = [
           "And there they were, the infamous wonders of the ancient world: the Great Pyramids of Giza. Pictures don't do it justice, these things were huge! Not only that, but we were able to walk through the ruins of other structures around\nthe pyramids as well. We were able to freely walk through other ruins nearby and see all of the pyramids up close and personal. But the best part was coming up: going into the Great Pyramid itself.",
           "Once we got through the tunnels dug into the side of the pyramid, we entered the corridors built by the ancient Egyptians. These corridors were very tight and cramped. The Kings Chamber was our destination, and it was just like the pictures from our history books: plain and empty. But that doesn't matter, because we were standing inside the great pyramid!\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -30954,6 +30994,7 @@ const data = [
         "description": [
           "While the pyramids have their own wow-factor, the Sphinx is also pretty cool on its own. We couldn't get up close to it like we could with the pyramids, so we had to shuffle along with the other tourists, trying to get to a good vantage point. Totally worth it though.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -30988,6 +31029,7 @@ const data = [
         "description": [
           "We booked a guided tour to Saqqarra where we visited the Bent Pyramid. In the distance we could see the ruins of other pyramid types that didn't make the final cut. Our guide provided us with a good amount of background knowledge about the history and evolution of the pyramids, and of ancient Egypt. We wish we had this kind of experience at the Great Pyramids yesterday.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -31025,6 +31067,7 @@ const data = [
           "We booked a guided tour to Saqqarra where we visited the Step Pyramid. At the complex surrounding the pyramid our guide got us free access to a tour of the tombs and we saw our first heiroglyphics in person. It was a short tour, but amazing nonetheless.",
           "While our guide was informative about lots of things, we felt like we missed out on seeing more, like going underneath the Stepped pyramid and exploring the tunnels within. They said it wasn't that great and told us to skip it.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -31704,6 +31747,7 @@ const data = [
           "Finally we arrived at Stony Ridge Shelter #2. It's a classic Adirondack-style lean-to perched on a ridge with a solid view of the surrounding kettle depressions. We pitched our tent inside of the shelter. After a day of climbing one hill after another and navigating over tangled tree roots, the quiet of the woods here is the perfect end to the trek.",
           "The next day we repeated the path to the shelter which didn't seem to take as long as the intial hike out to it.\n"
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.87523431703448,
@@ -32803,6 +32847,7 @@ const data = [
           "Before reaching the shelter, I took the mandatory detour up to the Parnell Tower. Climbing those 60 steps to the top gave me a bird's-eye view of the entire forest canopy. Low clouds hung in the sky, but we could still see for miles, and it's the highest point in the Kettle Moraine State Forest.",
           "Parnell Shelter is a rustic Adirondack-style wood structure, tucked away from the main Parnell Tower loop to give backpackers some peace. There was a stone fire ring and plenty of space for us all to gather around it for tales and ghost stories. It's quiet out here. I slept well at night, despite temperatures dipping below freezing.\n"
         ],
+        "excerpt": "",
         "gpx": [
           [
             43.66362724453211,
@@ -33899,6 +33944,7 @@ const data = [
           "The middle of the hike was a leg-burner. The trail here doesn't just go around the kettles; it dips into deep, damp valleys and then climbs right back out onto narrow moraine ridges. I passed through dense stands of oak, maple, and pine, navigating a narrow footpath that was often tangled with rocks and roots.",
           "The final stretch took me toward the Greenbush Recreation Area and finishing at the Greenbush Trailhead. I'm wiped but satisfied. This segment really makes you earn every mile with its constant elevation changes, but the views of those ancient glacial depressions are worth the sweat.\n"
         ],
+        "excerpt": "",
         "gpx": [
           [
             43.73677519150078,
@@ -35607,6 +35653,7 @@ const data = [
           "After eating the person who I had walked with today asked if I wanted to go into the nearby town and grab a drink. Sure, why not. What else have I got to do here in a field on a farm? It took about 20 minutes to get to there, but there wasn't much...there. A small hotel with a restaurant and a bar/cafe that looked just a little too fancy for us. We opted for a pint at the hotel bar. It wasn't very glamorous, but at least it was something to do.",
           "We headed back to the farm after only one drink each, and settled in for the night. Tomorrow I would be heading to a campsite on the beaches of Loc Lomond, and if the sunny weather held it would promise to be an awesome experience."
         ],
+        "excerpt": "Every thru-hike begins with nerves, a full pack, and that first step into the unknown. From an early-morning train out of Glasgow to green lowlands, stone walls, and misty fields, my journey on the West Highland Way started with good food, new trail friends, and the quiet excitement of finally being on trail again.",
         "gpx": [
           [
             55.945100309327245,
@@ -36711,6 +36758,7 @@ const data = [
           "My reserved spot was right on the beach, with a great view of the waters and surrounding hills/mountains. It was 4pm at this point, which meant a lot of time to just sit and chill. I strung up my dirty clothes to dry and air out, set up the tent (which was no easy feat in the winds that were blowing off of the lake), and sat in my backpacking chair. I read, took a nap, made some dinner, strolled along the waters edge, and didn't do much of anything else before it was time to go to bed.",
           "Today was a good day on trail: amazing views, variety of terrain, and good meals."
         ],
+        "excerpt": "A bright, cloud-filled morning gave way to green fields, forest paths, and a steady climb that finally revealed Loch Lomond in all its scale and beauty. From misty hills to a quiet lakeside campsite, the day unfolded with big views, good food, and the kind of trail miles that remind me why I'm out here.",
         "gpx": [
           [
             56.05512276291847,
@@ -37818,6 +37866,7 @@ const data = [
           "Given all that had happened today with being soaked from the rain, I had decided to book a hotel for the next day. I usually don't give up this quickly, but something about the weather and the loneliness of the trail made me want some modern creature-comforts.",
           "I turned in around 9pm, looking forward to the dry big warm bed of a hotel the next day."
         ],
+        "excerpt": "Dark clouds and steady rain set the tone as the trail clung to the loch, turning paths into streams and rocks into hazards. Soaked through and worn down, I pressed on until hot showers, warm food, and fellow hikers offered a much-needed refuge from the downpour.",
         "gpx": [
           [
             56.12700923345983,
@@ -38922,6 +38971,7 @@ const data = [
           "I walked into Bridge of Orchy around 4:30 pm, tired and exhausted after such a long day of walking. The spot for camping in this town was along the river that ran alongside it, next to the bridge the town is named after. The only buildings in this town were a church and an inn that you could stay at, but I opted for camping. It took a little while to find a level spot to set up, but eventually I found something. There were also a good amount of other people camping here as well. And there was a proper bathroom since a lot of people were also parking their RV's here. I snapped some photos of the bridge, and the surrounding countryside, made some dinner, and let my feet recover while sitting at a park table in the small camping area with some other hikers.",
           "Rain started to fall around 7pm, which meant it was time to retreat and get inside of the tent. Only two more days left now, and today was a great day."
         ],
+        "excerpt": "After days of rain, a brighter morning brought dry clothes, open fields, and renewed energy. As clouds lifted and sunshine returned, the trail stretched wide through hills and valleys, carrying me all the way to Bridge of Orchy where I was reminded how a hard hike can still be a great one.",
         "gpx": [
           [
             56.33237239904702,
@@ -40028,6 +40078,7 @@ const data = [
           "There were also no waymarks as I got into town telling me which way the trail would go tomorrow, so I had to pop open Google Maps and figure out how to actually get into the town. After a wrong turn I made it to the town center. Finding the cabin took a bit more effort, and figuring out where to go in was also tricky, I even had to call the host in order to figure out where to go.",
           "I settled in and began laying out my cold wet gear in order for it to try out. The place had a TV, which was nice, and the bed was big and comfy. I made the last of my backpacking meals for dinner, and discarded the rest. I was looking forward to a good nights sleep."
         ],
+        "excerpt": "Rain, mountains, and long empty miles defined the day as I crossed deep into the Scottish Highlands. After hours of solitude and steady climbs, the clouds finally parted to reveal dramatic peaks, blue skies, and a hard-earned descent into Kinlochleven.",
         "gpx": [
           [
             56.51915808208287,
@@ -41131,6 +41182,7 @@ const data = [
           "I spent the next day and a half warming up as best I could: the hotel heater wasn't working in the building so they gave me a small portable space-heater. Needless to say I didn't do much exploring on the day that I arrived. The next morning I went out to breakfast (the hotel didn't offer much), and shopped around for a souvenior. I had to find a pin of the hike though, as I had done on all previous hikes, in order to add to the collection on my backpack. I finally found one at the last place I visited, just before having to leave to catch the evening train back to Glasgow.",
           "The West Highland Way had been on my bucket list of hikes for a long time, and I gotta say that I was mostly dissapointed by it. It wasn't what I had thought it would be, and it would make me doubt if I would ever want go on another thru-hike ever again."
         ],
+        "excerpt": "The final miles to Fort William were soaking wet, quiet, and more about endurance than celebration. With rain falling and the trail ending not with fanfare but a simple bench, the West Highland Way closed on a subdued note leaving me tired, and reflective.",
         "gpx": [
           [
             56.71519604511559,
@@ -42296,6 +42348,7 @@ const data = [
         "description": [
           "Early in the morning the beach belongs to the joggers, dog walkers, and a few dedicated kitesurfers preparing for the afternoon winds. The sand is wide and golden, stretching between the turquoise Atlantic and the low-rise guest houses of the local neighborhood. It was our favorite thing to do each morning. We walked from one end of the beach to the other, sometimes crossing over private condominium grounds to get to the other section of beach.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -42336,6 +42389,7 @@ const data = [
           "Everywhere the views were breathtaking. From the upper levels, you get sweeping panoramas of the Atlantic Ocean, the colorful La Perla neighborhood below, and the nearby cemetery. The iconic garitas, or sentry boxes, are everywhere, making for the perfect selfie spot.",
           "We explored all six levels of the fort, navigating ramps, spiral stairs, and dark tunnels. Inside, we saw replicated military barracks, a chapel, and storerooms that really helped us imagine what life was like for the soldiers stationed here centuries ago.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -42373,6 +42427,7 @@ const data = [
           "This is the only tropical rainforest in the US National Forest system! Our tour guide picked us up in a comfortable van, providing a fascinating overview of Puerto Rican history and the forest's unique ecosystem during the 40-minute drive.",
           "The core of the trip was an invigorating hike along a beautiful, albeit sometimes muddy, trail. The guide pointed out giant ferns, bamboo trees, and even the tiny coquí frogs making their iconic sounds. The reward at the end of the trail was a crystal-clear natural swimming hole where we swung from a rope swing into the cool river water, as well as slid down a natural slide-way.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -43135,6 +43190,7 @@ const data = [
           "The campground had a large tent for campers to cook in, and some heavy-duty tents on raised wooden platforms in a small field that was bordered in by large bushes. There were also hot water showers (yes!) and full-service bathrooms. But the main camping area was \"out front\" and it was a field full of tall yellowed grass. It was a picture-perfect setting. But as luck would have it, some rain started to fall as we started picking spots for our tents and setting up camp.",
           "For this trip I chose a pyramid-style tent that was made out of a lightweight and waterproof proof material called Dyneema. It was supposed to be great at deflecting winds, and it most definitely was. We had some wild winds overnight, possibly approaching hurricane-force at one point. But I felt safe and secure in my tent, and I slept pretty dang well, even if the ultralight sleeping pad I had bought for this trip made the sound of a chip bag crinkling whenever I moved."
         ],
+        "excerpt": "",
         "gpx": [
           [
             -50.96519,
@@ -43544,6 +43600,7 @@ const data = [
           "After about 30 minutes we left the marshes behind and we greeted with our first sights of Dickson, our refugio for the night. It sat on the shores of a large lake, encircled by trees and had a large field where we could pitch our tents if we wanted to, however; nature is a fast teacher. Given the experience we all had last night from the wind, we all choose spots near the treeline, or behind tall bushes, so that we would be protected from any future gale-force winds.",
           "The refugio had a full indoor kitchen within which to cook our meals, as well as hot showers and full bathrooms. The best feature about this place though, was the shoreline and rocky beach behind it. I walked up and down it, snapping photos of the monsterous mountains that lined the shores on the other side from us, and some of them were actually in Argentina, that's how close to the border we were!"
         ],
+        "excerpt": "",
         "gpx": [
           [
             -50.865846,
@@ -44181,6 +44238,7 @@ const data = [
           "Los Perros campground was mostly in the woods, with all of the sites being in muddy areas. We chose the dryest, and safest (always check for window-makers in the trees above you), looking spots and set up our tents. More modern convenicnes at this place as well: hot showers, bathrooms, kitchen to cook in. But it was slightly more buggy than the last two places (probably all of the trees). There was a river nearby where we could fill up our water, after filtering it of course.",
           "I grabbed my book and headed out to a grassy area outside of the campground and laid out under the sun and read for a bit. Self-entertainment during the period of downtime between setting up camp and waiting to make dinner was a requirement. Some read, others took naps, and others chatted. So far not a bad three days of hiking!"
         ],
+        "excerpt": "",
         "gpx": [
           [
             -50.878971,
@@ -44763,6 +44821,7 @@ const data = [
           "The climb down was harder. The glacier remained in view for the rest of the day as we zig-zagged down switchbacks, and skirted along narrow paths cut into the rock. After crossing a long suspension bridge it was time to start taking several dozen switchbacks down through the forest on the other side of the ridge we had just summitted. The thickness of the trees created a stuffy feeling that motivated me to practically run down the trail in order to get out of them as quickly as possible. Once down and back on flat ground, I power-walked towards Refugio Grey, thinking I had fallen behind the others who had headed down off of the ridge before me. Along the way I passed by some scat which only helped to quicken my pace, given that Pumas and other wild cats lived in the area.",
           "Grey had a nice field for setting up tents, and an even nicer refuge for hanging out at: they had adirondack-style lounging chairs out front, which is where I ate my dinner, while watching the sun go down upon the mountains."
         ],
+        "excerpt": "",
         "gpx": [
           [
             -50.932354,
@@ -45861,6 +45920,7 @@ const data = [
           "We passed through a cut in the rock and descended down a small valley as we came upon Paine Grande. There was a lovely lake nearby, and a small side-trek that we decided to check out after setting our tents up. I choose a flat grassy spot for mine, while others chose to pitch along the edges of the field near rocky outcropings or bushes. There were even fences set up at right angles throughout the field for tents, which should have given me a clue about how much wind this place receves. Sadly, I didn't pick up on it.",
           "The side-trek took us out onto part of the \"O\" Circuit called The \"Q\", and from here we sat in the grass and gazed out of the lake and the pointy mountain next to the campsite. The waters were nice and cold, and shallow as well, and we spent some time going far out into them. We were there for maybe a couple of hours before we decided to head back. By this time the winds had picked up, and our tents at the campsite were holding their own against it, but you could tell that it was going to be a windy night."
         ],
+        "excerpt": "",
         "gpx": [
           [
             -51.006187,
@@ -46445,6 +46505,7 @@ const data = [
           "About two hours after leaving the valley, and retrieving our packs that we had left at the entrance to the trail, we arrived at Frances. It was a campsite perched upon a tree-covered steep sloping hill, which meant everyone got a platform to pitch their tent on. My tent barely fit (it's got a wide base), but I felt good about being within the trees: they would keep the winds away and we could all sleep peacefully. The place to shower and cook was at the bottom of a trail that went down towards the waters edge. I wasn't in the mood to go up and down this trail very often while staying here, so I only went down there to shower, and then later to make dinner. I'm sure there was lots to see down there, I just wasn't in the mood.",
           "I read for a while in my tent after dinner, but the forest gets darker faster and before long it was time to go to sleep. Tomorrow we would be going to Chileno, our last Refuge, and then the day after that the Towers themselves!"
         ],
+        "excerpt": "",
         "gpx": [
           [
             -51.071835,
@@ -47543,6 +47604,7 @@ const data = [
           "For this refuge I had booked a bunk bed because I was finishing the trek a day earlier than I had previously planned. It was a welcomed treat after having camped for the past six days. I did not purchase the dinner though, and made my own backpacking meal (my last). I was not alone though as others had also not purchased the meal, but I wish I had (it looked so delicious).",
           "We went to bed early tonight because we were waking up at around 3 am in order to hike up to the towers in the dark in order to watch the sun rise over them."
         ],
+        "excerpt": "",
         "gpx": [
           [
             -51.025883,
@@ -48641,6 +48703,7 @@ const data = [
           "It was a truly magical experience. We all took turns taking photos staring at the towers. But sadly it was time to leave, and head back to civilization, and reality. The hike down was fast, it was all downhill afterall! We didn't have to wait long the for the bus, and since we were all staying in the same town we met up for dinner that night (our group was quite large now) for pizza.",
           "This is how you end a hike, surrounding by friends you've made along the way."
         ],
+        "excerpt": "",
         "gpx": [
           [
             -50.956677,
@@ -50472,6 +50535,7 @@ const data = [
           "Rested, and fed, it was time to begin the task of finding a place to sleep. The Annapurna Circuit relies on a system of teahouses for housing the hikers who attempt the hike, and these teahouses are run by local families. We found one that had a nice eating area, showers, and clean-looking rooms, and we began the negotiating process. In the end the owner gave us a room for three, with a fourth mattress that they put on the floor, so that we could get a discounted rate for staying there, and since we agreed to have dinner at their place we were locked in.",
           "What a series of events today: making three new friends right out of the gate, a long and bumpy bus ride, getting lost in the jungle, and nearly collapsing from hunger. The place we were staying at had nice hot showers though, and great food! Here's to a less eventful day tomorrow."
         ],
+        "excerpt": "",
         "gpx": [
           [
             28.239371,
@@ -51572,6 +51636,7 @@ const data = [
           "On and on we marched over rock and dirt trails carved into the mountainside, each blind bend in the trail revealing amazing views as we made our way around. Before too long and we were at our place for the night: Jagat. A fun attraction for this place is a steam bath fed by natural hotsprings. It was a bit of a side hike to go down to it at the rivers edge, and the hike back up wasn't fun ( thankfully we weren't that high up in elevation yet or else it would have been a lot harder). Lots of the locals also used the waters to bath it seems.",
           "There was a suspension bridge that connected one side of the gorge to the other up near the village, and our group posed for a photo on the bridge. It was swaying so much with the slightest movement, we all hurried off of the bridge once the photo was taken. Why push our luck?"
         ],
+        "excerpt": "",
         "gpx": [
           [
             28.290428,
@@ -52669,6 +52734,7 @@ const data = [
           "Once we left our long restful lunch, where one of the kids who lived there spent most of the time chancing their pet rabbit around, it was time to start getting back into the mountains once more. About two hours later and we arrived in Dharapani. We struggled to find an affordable place to stay, but eventually found one. The power also went in-and-out tonight at this village (apparently this is common in the mountains of Nepal).",
           "I can't remember much of today, partly because I didn't take many photos nor a journal."
         ],
+        "excerpt": "",
         "gpx": [
           [
             28.414367,
@@ -53766,6 +53832,7 @@ const data = [
           "Another big waterfall crossing today, luckily only one hat was lost in this one. Most of the day after that was spent walking through woods with leaves of various colors, with long suspension bridge crossings scattered here and there.",
           "In the distance we could start to see snow-capped peaks. Six hours later and we came to Chame."
         ],
+        "excerpt": "",
         "gpx": [
           [
             28.519098,
@@ -54863,6 +54930,7 @@ const data = [
           "The views though, they are starting to get pretty awesome-looking. The trees are becoming fewer, and the mountains greater. From here we can actually see the Annapurna Massif.",
           "Our destination today was Upper Pisang, as opposed to Lower Pisang. We made it in due time, and found a lovely place with a view to stay at. In Upper Pisang there is also a buddhist temple that we could go to, and we didn't pass up the opportunity. We're also high enough now that we need our puffy jackets to go walking around in the afternoon. I have never seen so many colors in one building before. This buddhist temple was a joy for the eyes."
         ],
+        "excerpt": "",
         "gpx": [
           [
             28.55098,
@@ -55964,6 +56032,7 @@ const data = [
           "In the morning we grabbed our jackets, and water bottles, and set out going back the way we had come the previous day in order to make it to the beginning of the lake trail. The way up was hard, and took nearly 5 hours to get up there. But once we got up there the views were jaw-dropping. It was the highest I had ever been in my life. It was soo cold up there that we weren't able to stay long before our fingers inside of our gloves started to freeze. The way down wasn't as bad, but half of our group got separated and we ended up getting lost on the way down. Luckily we found our way back to the road, and to our home for the night.",
           "Later that evening we went a movie theatre that was really just a small room behind a local bar and watched the movie \"Everest\". We had hoped it would be \"Seven Years in Tibet\" but this was just as good. What an eerie thing to watch though as we're about to go much higher in elevation over the next few days."
         ],
+        "excerpt": "",
         "gpx": [
           [
             28.616228,
@@ -57063,6 +57132,7 @@ const data = [
           "Eventually, after a long day of hiking, we arrived at Tilicho Lake Basecamp, and found what appeared to be the last places to sleep. There was a catch though: this room for all of us to share was in a small hut behind the main building. This meant thin walls, windows with holes in them, and rough mattresses to sleep on. It was better than nothing.",
           "The dinner here was really good though. My body is finally getting used to eating nothing but cheap Dal Bhat, and the free refills! We went to bed early tonight after spending all evening hanging out in the dining hall reading and playing cards. Tomorrow we would be getting up early to do the hike up to the lake."
         ],
+        "excerpt": "",
         "gpx": [
           [
             28.665895,
@@ -58162,6 +58232,7 @@ const data = [
           "The way down went much faster, as it always dows, and we were moving at a fast pace in order to warm back up. We debated stopping at Basecamp on our way back for breakfast but decided to keep moving and stay at Shree Kharka instead because there was one particular place that had a dining hall with an amazing view of the mountains and valley below us.",
           "The way back over the landslide-ridden trail went by much easier than it did yesterday, and again luckily there were no incidents. We chilled for the rest of the day at Shree Kharka, playing card games, listening to podcasts, and eating. We made our plans to go to Thorong Phedi tomorrow, and then onto Thorong La Pass (the highest point on the trek at 18,500 feet) and then to Muktinath.\n"
         ],
+        "excerpt": "",
         "gpx": [
           [
             28.679971,
@@ -59260,6 +59331,7 @@ const data = [
           "It was still going to take us another 3-4 hours before we would be able to see the refuge for the night. Up and down the rocks we went, over rivers, through small thinly wooded forests, climbing ever higher. Today we would technically be losing more elevation than we would be gaining, but it was still a challenge to gain any altitude.",
           "At long last we arrived, nearly 7 hours after starting the days hike. These were some of the hardest mattresses I have ever slept on, but this place had __*the best*__ veggie burger that I have ever had. Tomorrow wouldn't be as early of a day as yesterday was, so we had a chance to catch up on some sleep before making the pass."
         ],
+        "excerpt": "",
         "gpx": [
           [
             28.680485,
@@ -60356,6 +60428,7 @@ const data = [
           "We were filled with joy at accomplishing such a tremendous effort. We dropped our heavy packs and reveled in what we had done. Our group of three crouched and posed for a photo at the sign marking the high point of the circuit. As we stood up we all became extremely light-headed and dizzy. It was no joke moving around at these altitudes. Even the slightest amount of steps caused us to become winded. Eventually though it was time to start our long descent down towards Muktinath.",
           "After three hours of racing down the mountain, and stopping for a refreshment break at a refuge on the way down, we made it to Muktinath. This was a fairly good-sized city with plenty of places to stay and stores to window-shop at. We chose a place called Bob Marleys and it was a pretty nice place. They had nice showers with rain showerheads, comfy beds, and one of the best restaurants on the trek. Seriously, I had some pasta Carbonara here (my first time having it) and it was amazing! They also had a nice lounge below the restaurant for hanging out."
         ],
+        "excerpt": "",
         "gpx": [
           [
             28.776874,
@@ -61453,6 +61526,7 @@ const data = [
           "A few hours later and we were in the town just before Marpha. Katie and I grabbed some lunch together before saying goodbye. As we ate we saw Veronique walking by. After saying goodbye to Katie I did my best to try and catch up to Veronique. I was nervous about being alone again on the trail after 11 days of walking with the same group of people.",
           "In the town of Marpha I found a place to stay by myself. It wasn't the best place, and there was no one else there. I got settled in and went out to walk the little village. There wasn't much to see, but as luck would have it I ran into Veronique and she said she had found a great place to stay. We went back and packed up my stuff and set off for this other place. It had a friendly host, and comfy beds, but I was most excited for not having to hike along tomorrow."
         ],
+        "excerpt": "",
         "gpx": [
           [
             28.816048,
@@ -62549,6 +62623,7 @@ const data = [
           "Most of the trail was along the road, and there were some places to stop along the way, but most of them were empty and/or run-down. Not much food offerings either.",
           "More walking along riverbeds as well today. We didn't see any other hikers until we entered the village of Ghasa, and even then it was few and far between. It was feeling very lonely on trail. We found a place to stay and the rooms weren't that bad. We each had our own which was nice though, usually not a common thing on the Annapurna Circuit."
         ],
+        "excerpt": "",
         "gpx": [
           [
             28.751911,
@@ -63653,6 +63728,7 @@ const data = [
           "A couple of hours later I awoke, in a bit of a daze but doing much better. The hiker checked in on me and asked if I was ok. I thanked them immensly, and headed upstairs to go to sleep. While laying in bed I used my phone and the teahouses wifi and googled my condition. I found out that I had minor hypothermia, and if it wasn't for the intervention of those hikers, I would have died.",
           "Words can't describe how I feel about that situation, and what happened. It was a series of bad decisions, one after the other. I was lucky to be alive."
         ],
+        "excerpt": "",
         "gpx": [
           [
             28.598869,
@@ -64753,6 +64829,7 @@ const data = [
           "After leaving the jungle the trail went down the side of a steep valley, and then back up the other side. A couple of hours later and I arrived in Chomrong. I must have gained more elevation (in total) today than I did yesterday, but for some reason today didn't feel as hard.",
           "I found a great place to stay that had awesome views of the valley and hills, and had some of the best food, including pizza, on this trip so far."
         ],
+        "excerpt": "",
         "gpx": [
           [
             28.402512,
@@ -65851,6 +65928,7 @@ const data = [
           "In the dining hall I hung out and read, and later ended up joining a group of british people who were playing card games while eating dinner.",
           "The next day would be Annapurna Basecamp."
         ],
+        "excerpt": "",
         "gpx": [
           [
             28.425346,
@@ -66951,6 +67029,7 @@ const data = [
           "I made a lot of progress on my book today, seeing as how I had arrived by late morning. A couple of dogs that lived around the refuges (not sure if they had owners) kept trying to sneak into the dining hall to get out of the cold and to beg for food, but the hosts kept shooing them out.",
           "During lunch and dinner I made some friends with a couple of Americans from Colorado and Washington. They seemed like decent people. After the sun set there wasn't much more reading I could do in the dim lights of the dining hall. Didn't matter though, I wanted to go to bed early in order to wake up to see the sunrise."
         ],
+        "excerpt": "",
         "gpx": [
           [
             28.497636,
@@ -68055,6 +68134,7 @@ const data = [
           "Turns out some of the people I had met at the dining hall in Basecamp yesterday were staying here as well, and I also befriended a father-daughter pair from England. We all ate dinner together (this place had pizza, but it sadly wasn't as good as the other place.), and talked about life in our different countries. The people from England had a non-London accent and it was really hard to understand them.",
           "Tonight would be my last night on trail, and I was sad to be leaving the mountains behind and having to go back to Pokhara and the bustle of a crowded city."
         ],
+        "excerpt": "",
         "gpx": [
           [
             28.530578,
@@ -69153,6 +69233,7 @@ const data = [
           "The jeep station was a simple place that offered cold drinks and a shaded area with benches to wait at while a car arrived. I didn't have to wait long though. The journey back to Pokhara was split up into two parts: the first was the jeep ride down the rough mountain dirt road (the car was bouncing all over the place). We had to wait for a little bit at one point as crews worked to clear a fresh landslide. The second part of the journey came after the jeep went about halfway down the mountain, and was on paved roads. Here they pulled into a parking lot and I was transferred to a pre-paid taxi that took me the rest of the way down to Pokhara.",
           "My adventure in the Himalayas was done. This was an amazing experience. I met some amazing friends that I keep in touch with, and had saw some amazing things. The world and culture of the Himalayas is very pleasant and relaxing. I wish I could keep doing this forever. And not to mention the near-death experience a few nights ago. This will go down as one of my favorite experiences and places, and maybe someday I'll work up the courage to come back and attempt the Everest Basecamp trek that is also very popular."
         ],
+        "excerpt": "",
         "gpx": [
           [
             28.418035,
@@ -70620,6 +70701,7 @@ const data = [
           " I could see the trail laid out ahead of me and it made me feel so small. Going\n through the trees once more wasn't the best part because I was so tired and\n hungry, and the trees seemed to last forever. It didn't seem this bad on the\n way up in the dark... Plus with the rising temperatures it was starting to feel\n much more stuffy and claustrophic while powering down the trail through these\n trees.",
           " It would take about 4 hours before I got back to the car at the trailhead.\n Exhausted, I got in and prepared for the 2.5 hour drive back to Denver. I made\n pasta for dinner and then collapsed into bed.\n"
         ],
+        "excerpt": "",
         "gpx": [
           [
             39.151636,
@@ -71725,6 +71807,7 @@ const data = [
           "Me and one other person left at the same time, and they helped set a good pace\nwhile going down. At one point they were practically flying over the rocks, and\nI matched their style. It ended up being surprisingly easy given how well the\ntrail itself was maintained. I was worried about my knees, but the braces did\ntheir job. By 1:00 pm I was back down at the car.",
           "This was such an amazing experience with an easy hike up, a great group of fun\nand social people, and of course a free beer. It really helped to salvage the\nwhole trip and turn it into a really positive experience. I would most\ndefinitely be coming back for more next year.\n"
         ],
+        "excerpt": "",
         "gpx": [
           [
             39.385351,
@@ -72336,6 +72419,7 @@ const data = [
           "Unfortunately on the way down I ran out of water, and had to hike without a\nrefill for nearly 2 hours before I came to a river back in the forest. I refilled\nmy water bottles, but couldn't drink it because I thought I had left the filter\nin the car. Turns out, I was wrong, and I had the filter the entire time. Believe\nme I chugged a ton of water when I got back to the car.",
           "I snacked, changed into fresh clothes, and on my way out of the area I found\na much larger river where I could stop and fill up again. I booked a last-minute\ncampground spot on the way, and got a good nights sleep.\n"
         ],
+        "excerpt": "",
         "gpx": [
           [
             39.067535,
@@ -73436,6 +73520,7 @@ const data = [
           "I made some friends at the top, but the peak started to get crowded fast as more\nand more people showed up, so I didn't stay long. There was some minor scrambling\non the way down, and wayfinding was a little rough but I generally follow other\npeople in this situation. It was an easy and fast descent back to the car, and\na good thing too because it was starting to get really hot out.",
           "I really enjoyed this hike, and the area. The Colorado plains and skies, the colors\nare just amazing.\n"
         ],
+        "excerpt": "",
         "gpx": [
           [
             39.596411,
@@ -74539,6 +74624,7 @@ const data = [
           "I arrived at the summit by 8:30 am, not bad. Great 360˚ views all around, as\nusual! I made some friends at the top as we huddled behind a rock wall due to the\nextremely high winds that had picked up within the last half hour. I took a look\nout over the trail I had just hiked. What a view, I just love hiking above\nthe trees!",
           "Everything is so much more green on the way down now that hte sun is up. By\n12:00 pm I get back to the car I left parked at the trailhead, and am ready to\ngo back to another proper campground and reflect on this long weekend of hikes.\n"
         ],
+        "excerpt": "",
         "gpx": [
           [
             39.660608,
@@ -75642,6 +75728,7 @@ const data = [
           "Bodies rehydrated, we continued making our way to the car. The rest of the way\ndown wasn't too bad, and was only a little tricky when we got back to the rocks\nand roots section at the beginning.",
           "We were happy to be alive and back at the car finally. This was the roughest and\nlongest 14'er to date. The lack of water resources on the trail really made it\ndoubly rough.\n"
         ],
+        "excerpt": "",
         "gpx": [
           [
             38.596969,
@@ -76745,6 +76832,7 @@ const data = [
           "Lincoln wasn't all that bad either, just some minor scrambling just below the\ntippity-top, with a long flat section in the middle between the two peaks. We\nmade the last summit by 12:30 pm. From here we could nearly see the entire trail\nfrom start to finish. Looking back at Cameron from Lincoln makes Cameron look\nlike a floating rocky island in the sky.",
           "Time to head back down, back the way we came, up and over Cameron, and then back\ndown the col below Democrat, and then the switchbacks back down to Kite Lake. We\npractically raced down the trail, eager to get back to the car and call this a\nvery big win!\n"
         ],
+        "excerpt": "",
         "gpx": [
           [
             39.329882729798555,
@@ -77849,6 +77937,7 @@ const data = [
           "I didn't take any photos on the way down. I was too eager to get back to the car,\nand away from any possible afternoon storms. There were some other people coming\nup as I went down, but for the most part I was alone, which is nice sometimes.\nI finally made it back to the car three and a half hours later.",
           "What a rough peak to do on day one!\n"
         ],
+        "excerpt": "",
         "gpx": [
           [
             38.996571907773614,
@@ -78950,6 +79039,7 @@ const data = [
           "Mt. Elbert is visible in the distance. The final stretch to the peak is along a cold and windy mile-long ridge.",
           "The descent on this mountain is much easier than the ascent, the way down much more clear than on the way up. It doesn't take long to get back to the treeline, but it felt like it took forever to get through those trees and back to the parking lot.\n"
         ],
+        "excerpt": "",
         "gpx": [
           [
             39.151329,
@@ -80750,6 +80840,7 @@ const data = [
           "As the sun was setting, I stepped out of the mountain rifugio. I stood there as the sun set, watching the skies turned a deep purple. As the temperature slowly dropped, I stared at the silhoutes of the mountains surrounding me. This is where I belonged, being in the mountains. As I stood there a little fox went scampering by, bringing food back to its den.",
           "What a great start to this trek!"
         ],
+        "excerpt": "",
         "gpx": [
           [
             46.698822,
@@ -81850,6 +81941,7 @@ const data = [
           "Shortly thereafter we arrived at our place for the night: Rifugio Lavarella. It was situated on a little lake/pond, with watery features all over the property, and some cows grazing around it.",
           "Another fabulous dinner in a fabulous place-of-stay. This Alta Via 1 trek has the best food so far out of all the treks I've done to date. We chilled on the patio under umbrellas watching the clouds flow by and some took naps. It was a very relaxing locale."
         ],
+        "excerpt": "",
         "gpx": [
           [
             46.665853,
@@ -82953,6 +83045,7 @@ const data = [
           "Some ruined World War II barracks and ammunition depots met us at the bottom of our descent as we made our approach to Rifugio Scotoni. This was a nice little place with comfortable rooms with a view, and a nice patio where we would have dinner later on. Clouds and rain moved in during the late afternoon, which gave us all a good excuse to chill and nap.",
           "Amazing views of the stars at night from here! We had some beers on the patio at night and watched them go by for a bit."
         ],
+        "excerpt": "",
         "gpx": [
           [
             46.611055,
@@ -84054,6 +84147,7 @@ const data = [
           "The next two hours, after leaving the restaurant, were filled with walking through forests, with some fleeting glimpses every now and then of the many mountains that were surrounding us, and a couple of road crossings. Finally we began to ascend out of the forests towards more familiar rocky terrain, and our destination for the night: Rifugio Averu.",
           "Averu stood at the top of a rocky mountain slope with a steep drop-off on the other side that provided some great views from the dining hall windows. This place also had the fanciest meals on this trek, complete with hardboiled eggs for breakfast! We definitely stuffed our bellies full at this place. I think I actually gained weight on this trek."
         ],
+        "excerpt": "",
         "gpx": [
           [
             46.552437,
@@ -85151,6 +85245,7 @@ const data = [
           "The trail today took us down and up and down and up. We passed some larger groups (20+ people) going in the opposite direction as us. It was a weekend day, I think, so maybe they were just out for a group hike. It meant a lot of stop- and-go though, waiting for them to pass. There were also some busy roads that we had to cross today.",
           "Once we passed the roads and left the larger groups behind, it was down to just the backpackers on the trail. This is where I saw some of the aforementioned amazing geological features. They definitely make this a unique hike. There was even a set of ruins hovering, seemingly, on the edge of thin air. Curved mountains pushed on their sides, mountains with the tops cut off by clouds, and endless green in all directions. What a beautiful day of hiking!"
         ],
+        "excerpt": "",
         "gpx": [
           [
             46.501022,
@@ -86253,6 +86348,7 @@ const data = [
           "Eventually the trail turned to the right and we started to ascent once more up to our place of rest of the night: Rifugio Tissi. It was perched on the edge of a cliff overlooking a good-sized town around a lake below. These were some epic views from up here: the tall wall of mountains on one side, and this perilous dropoff to the other overlooking the tops of other mountains and the town.",
           "After dinner we watched the sun set from this cliff overhang, it was a truly beaufitul sight. We stayed up there for hours, until the stars came out. We even spotted Jupiter, which was especially bright around this time of the year."
         ],
+        "excerpt": "",
         "gpx": [
           [
             46.436767,
@@ -87353,6 +87449,7 @@ const data = [
           "After this bend in the trail it was finally time to start descending, and it was a beautiful descent through a decidious forest that had plenty of stumps and rocks strewn about, plus some wooden benches for sitting on. I took a break here (I had pulled ahead of everyone else during the descent), and as a sat there a butterfly came and rested on my backpack.",
           "The others eventually caught up and we all chilled for a bit. It wasn't much further now until our next resting point: Rifugio Carestiato. It was perched on a rocky outcrop that provided a very nice view of a valley below us, and the clouds flowing past the mountains in the distance. The presence of the forest meant there weren't many areas for exploring around the rifugio, so it was a pretty calm evening full of drinking and playing cards and eating."
         ],
+        "excerpt": "",
         "gpx": [
           [
             46.38779,
@@ -88451,6 +88548,7 @@ const data = [
           "Afterwards the trail took us to a crest with some nice views, and then narrowed as it turned down into a pine tree and bush forest. I remember racing through this area because of the heat and the smell of pine was overwhelming. Rifugio Pramperet was also visible in the distance, and I was craving a shower, and some lunch. The dormitories were set along one wall with a courtyard in the middle, a nice spot for eating outside.",
           "The front balcony had lots of tables with umbrellas, and the inner dining hall was a good size as well. A special after-dinner treat (which the dinner itself was amazing, as they all have been on this trek) involved a Moose coming to visit us! It didn't get very close, but close enough for us to see pretty well. We also watched the sun set behind the mountains."
         ],
+        "excerpt": "",
         "gpx": [
           [
             46.321643,
@@ -89551,6 +89649,7 @@ const data = [
           "The rifugio we were staying at had a herd of sheep surrounding it for most of the afternoon, but they departed just before dinner-time. We enjoyed a lot of wine at dinner due to it being our last night on trail, and we shared lots of laughs and stories with our travelling companions.",
           "Night fell and the sky turned all sorts of brilliant pinks and purples. Tomorrow we would be doing a lot of descent and trying to make it to a bus stop in time to catch our ride into town, and meet up with another friend from the Camino who lived nearby: Mauro!"
         ],
+        "excerpt": "",
         "gpx": [
           [
             46.288864,
@@ -90653,6 +90752,7 @@ const data = [
           "Eventually it was time to regroup, re-shoe, pack up, and head back up to the road as the bus was due to arrive soon. By that time more people had arrived, and it was a full bus ride back into civilization.",
           "I really liked this one. It had great food, amazing views, an easy trail, and great people with which to enjoy it all. Maybe in the future I'll return and try the Alta Via 2!"
         ],
+        "excerpt": "",
         "gpx": [
           [
             46.261432,
@@ -91817,6 +91917,7 @@ const data = [
           "The highlight was hiring a brightly painted wooden boat, or doonga, to row out onto the water and head towards the far shore where I made a stop at the 'World Peace Pagoda' (Shanti Stupa).",
           "The lake itself is a lovely and tranquil place to walk along in the morning before the city wakes up and the roadway in front of it becomes choked with mopeds and motorcycles.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -91854,6 +91955,7 @@ const data = [
           "Once I reached the top, the views were staggering. The skies weren't as clear as they could have been, but I could just barely make out the Annapurna massif and the distinct 'Fishtail' peak of Machhapuchhre in the distance. The pagoda itself is brilliant white with golden accents, featuring four statues of Buddha gifted from Japan, Sri Lanka, Thailand, and Nepal, each representing a different stage of his life.",
           "Walking clockwise around the upper tier in silence (the whole area is intentionally kept quiet to allow for medication), I felt the 'spiritual calm' that visitors often talk about.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -91894,6 +91996,7 @@ const data = [
           "The silence up there is what surprised me the most: just the whistling of the wind and the occasional flap of the wing. We spiraled up into the thermals, and the view opened up into a patchwork of terraced fields and green valleys.",
           "For the finale, my pilot asked if I wanted to do some 'tricks', or a series of exhilarating high-speed spirals and wingovers. I said sure but right away motion sickness hit me hard and we had to cut the 'fun' part short before a surprisingly gentle landing right on the shores of the lake at Khapaudi.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -92608,6 +92711,7 @@ const data = [
           "The setting sun called us outside after dinner. It was striking the top of Dome de Miage and covering it in the brightest pink and orange colors that I’ve ever seen on a mountain.",
           "Life in the mountains is so peaceful and quiet. The sound of the cowbells didn’t even bother me, and helped to play a soothing role in putting me to sleep later that night."
         ],
+        "excerpt": "",
         "gpx": [
           [
             45.889928,
@@ -93718,6 +93822,7 @@ const data = [
           "The setting sun lit up a mountain in the distance in soft purples, and the sky behind the hills opposite it in bright oranges.",
           "Tomorrow would be the highest hike yet for me, and the most meters gained and lost so far, which could have been avoided had I known about a shortcut across the mountain top..."
         ],
+        "excerpt": "",
         "gpx": [
           [
             45.83571,
@@ -94829,6 +94934,7 @@ const data = [
           "During dinner I found out about shortcut that went across the top of the mountains. It was the optional trail that went up to Tête Nord de Fours. It continued up and over and was a straight shot to the refuge. Oops.",
           "I love being up this high, removed from everything below. But, I had no idea just how hard tomorrows hike was going to be."
         ],
+        "excerpt": "",
         "gpx": [
           [
             45.722553,
@@ -95944,6 +96050,7 @@ const data = [
           "The place had beautiful views of the valley that would bring us to Courmayeur. Ponies and horses lived at this refuge, and they came out to say hello. The horses also tried to get inside in order to get at the food.",
           "Dinner was delicious, the evening sky was relaxing, and the beds were comfortable. I can feel a congestion in my sinuses coming on…"
         ],
+        "excerpt": "",
         "gpx": [
           [
             45.765051,
@@ -97057,6 +97164,7 @@ const data = [
           "Tonight would also be my second cold shower. It started off hot, but not even 30 seconds in and it turned ice cold. They had warned me that this would happen, because arriving later in the day means there is less hot water to go around. I should have soaped up first before starting the flow of water. You live and learn.",
           "Some of the folks who I had met back in Les Houches were staying here, and we were able to reconnect over dinner, along with some new faces. The clouds hung around tonight, covering the mountains. No stars this evening."
         ],
+        "excerpt": "",
         "gpx": [
           [
             45.791012,
@@ -98173,6 +98281,7 @@ const data = [
           "Dinner was a traditional Swiss dinner made from a gigantic melting block of cheese and served with potatoes called Raclette. My god was it delicious! In total I had three servings, and enough cheese for a good long while. After dinner we played scrabble.",
           "Tomorrow promises to be the easiest day so far with only 500m of total gain."
         ],
+        "excerpt": "",
         "gpx": [
           [
             45.846637,
@@ -99284,6 +99393,7 @@ const data = [
           "Thankfully the Gite was a delight, and I ended up having dinner with my new South Korean friend. He tried his best to teach me basic Korean. Sadly, the only thing I remember is Annyeonghaseyo (roughly pronounced on-yo-his-ay-o).",
           "It was a delightful evening to erase the scariness of getting lost, and to learn a little bit in the process about another culture, and my fortitude in the face of adversity."
         ],
+        "excerpt": "",
         "gpx": [
           [
             45.934986,
@@ -100395,6 +100505,7 @@ const data = [
           "Finally, by 3:30pm we were on our way to our rest spot for the night: Refuge du Peuty. I cannot recommend this place enough.",
           "The two women who run this place make dinner for you in an old washing machine (not kidding), and play the best music during dinner which is made from ingredients grown on their property. I’m not kidding when I say that our dinner had actual flowers cooked into it."
         ],
+        "excerpt": "",
         "gpx": [
           [
             46.035249,
@@ -101498,6 +101609,7 @@ const data = [
           "I learned to play Taki (the Israel version of Uno), and had a good dinner with some Dutch people. Learned that tafle is Dutch for table.",
           "The setting sun lit up the sky in a bright purple, and the mountains glowed a beautiful pink."
         ],
+        "excerpt": "",
         "gpx": [
           [
             46.05546,
@@ -102610,6 +102722,7 @@ const data = [
           "We continued to relax in the chairs, and then play some card games while we waited for dinner. Barak and Neta wanted me to sit with them at dinner time so the hostesses put me at their table. They also put all of the other Israeli’s at this table. What are you gonna do, right?",
           "I went outside to look at the stars after dinner. I swear that I could see the band of the Milky Way above me. If there had just been a little less light pollution… But Chamonix in the valley floor below us was sparkling like a tiny jewel in the night."
         ],
+        "excerpt": "",
         "gpx": [
           [
             45.996093,
@@ -103717,6 +103830,7 @@ const data = [
           "It was very quiet up here once all of the hikers for the day had moved on, and the dinner was very delicious. After dinner they took turns telling stories about their families during World War 2.",
           "I turned in early tonight, not looking forward to actually finishing tomorrow."
         ],
+        "excerpt": "",
         "gpx": [
           [
             45.96004,
@@ -104822,6 +104936,7 @@ const data = [
           "While this trek wasn’t as intense as the Camino, it was still special in its own way, along with its own challenges. I accomplished so many feats of strength that I had never had to worry about before, and it left me as a stronger person.",
           "I love Europe, and can’t wait to come back!"
         ],
+        "excerpt": "",
         "gpx": [
           [
             45.92215,
@@ -106614,6 +106729,7 @@ const data = [
           "With our belly's full from a three course meal we said our goodbyes and retreated back to the monastery dorms. We found the others sitting at the entrance to our floor and spent the next hour talking, laughing, and getting to know each other.",
           "Tomorrow meant more downhill hiking as we would begin descending the Pyrenees and make our way for Zubiri. Hopefully the rains will stay away and keep the path dry for us."
         ],
+        "excerpt": "",
         "gpx": [
           [
             43.162804,
@@ -107726,6 +107842,7 @@ const data = [
           "The local cafe was called Estrella Galicia and we headed there to wait for the others to arrive. The clouds had begun to roll in, and shortly after it began to rain. Luckily our friends arrived just before the heavy rain started to fall. While we sheltered from the rain in the cafe we met some new friends.",
           "This night would be the first real night on the Camino: no longer would we be sheltered by modern conveniences. The walled fort-city that is famous for running with the bulls at Pamplona was waiting for us, and I was eager to begin the next days hike through more green hills."
         ],
+        "excerpt": "",
         "gpx": [
           [
             43.007279,
@@ -108835,6 +108952,7 @@ const data = [
           "I left the bar to check out the church, and ran into Tania from Roncesvalles taking a tour of the city with one of her Camino friends: Alex (USA). We headed to the ramparts which look out over the new construction beyond the walls. The church was empty and dark; not ready for tourists just yet, but eventually I would return later on and check it out. The main square was full of activity with people dining and kids running about.",
           "The hills, while beautiful, were starting to get to me with all of the descending and I was ready for some flat ground. The day after tomorrow promised that: we would be leaving for the monument to the pilgrims at Alto de Perdon, and the city of Puente la Reina."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.929865,
@@ -109947,6 +110065,7 @@ const data = [
           "An attractive looking Albergue at the edge of town as we got off of the Camino beckoned to us. It took some debating, but we ended up staying at Albergue Reparadores further in to town. It is one of the oldest Albergues on the Camino (hundreds of years). Some of us from our group cooked a dinner, and the others shared what they had to give.",
           "Overall this wasn’t a bad day in terms of terrain or distance, but this was the first time that I had done any sort of back-to-back, day-in-day-out, walking and my feet were feeling it. Hopefully tomorrow will be flat ground on the way to Estella."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.818572,
@@ -111055,6 +111174,7 @@ const data = [
           "Once we had settled in, we went to the bar across the street to snack and drink. Because today was a mostly easy one, we had arrived quite early in the afternoon, and retreated to our beds shortly afterwards. Down in the streets below someone was playing the Spanish guitar as we fell asleep for an afternoon nap.",
           "The bar across the street was still open when we woke up. We played card games (Shelby taught us Yanev), drank some calimochos, and relaxed by the waters edge. Afterwards we found a pizza place for a quick meal. Today was a mostly uneventful day, and I can't wait for walks through rolling fields and clear blue skies. Hopefully we get to experience these things tomorrow as we make for Los Arcos."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.672569,
@@ -112171,6 +112291,7 @@ const data = [
           "They had an ice cold pool of water in the courtyard, and we stuck our feet in as soon as we got settled. After the initial shock wore off, it was pure bliss.",
           "Finally, blue skies and rolling fields, exactly what I had been hoping for since day one! Logrono is tomorrow and I'm beginning to not look forward to staying in large cities. Hopefully it's another flat day of walking."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.66983,
@@ -113282,6 +113403,7 @@ const data = [
           "Logrono is a beautiful city with its streets artfully decorated, and the massive church at its center commanding attention with each ring of the bells. We found Martha, Amy, and Tracey relaxing with everyone we had met so far on the Camino in the main square watching the townspeople set up for a festival this evening (please let it not be loud).",
           "Ok, so Logrono wasn't that bad of a big city, but honestly I'm looking forward to Najera tomorrow and the smaller city scene. My small Lolla hat was beginning to show its limits with sun protection. I might need to look into buying a real sun hat."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.55376,
@@ -114400,6 +114522,7 @@ const data = [
           "I’m going to meet all kinds of people on the Camino, and they are going to make me thankful for having friends to laugh with at the end of the day after walking each stage.",
           "Santo Domingo is our goal for tomorrow, and apparently we'll be walking through a ghost town in order to get there."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.466773,
@@ -115512,6 +115635,7 @@ const data = [
           "For dinner I found a bar that sold real eggs. You have no idea how amazing the simplest of foods can taste when you’re forced to forgo them because of weight and your hierarchy of needs while backpacking.",
           "I’m amazed that today was only 20km, but that it felt easy, and I only stopped for 10-15 minutes in total today. Tomorrow should be another short day, but the rain did not look like it was going to stay away for long."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.417566,
@@ -116625,6 +116749,7 @@ const data = [
           "We ended up ordering dinner at the Albergue (the food was delicious), and met a lot of great people. Two of them were from Texas: Lauren and Hailey. They quickly became known as \"The Texans\".",
           "This day started out with my head focused on the ground, alone, and soaking wet, but ended with new friends and great conversation. And I was looking forward to walking with them the next day. The destination is 30 kilometers away called Ages (pronounced ah-guess, kind of like August), and tomorrows forecast had zero rain in the afternoon."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.440985,
@@ -117737,6 +117862,7 @@ const data = [
           "I will say this though: as fun as that was, it felt weird riding on a bus on the way back as we passed fellow pilgrims walking on the road. As if being in a motorized vehicle was wrong.",
           "All-in-all it was a great day filled with good walking, good weather, picture perfect scenery, and enjoying a home-cooked meal from the hospitalarios. Some of us even got a little (ok a lot) drunk on the wine, and they were hilarious at dinner. Tomorrow was the next big city on our trek: Burgos. It was also possibly the last time that I would be seeing all of the people that I had met so far."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.420959,
@@ -118851,6 +118977,7 @@ const data = [
           "I've walked nearly 300 kilometers for two weeks with most of them, and it was hard. You make such a profound impact on each other and it becomes too much when you start to think about not seeing them again, especially after all that you've been through on this pilgrimage. Each one of them left a mark on me, and helped make an impact on the Camino.",
           "I pushed the thought of not seeing these people again out of my head in order to get some sleep. Tomorrow was going to be brand new, but at the same time familiar. Hontanas is 30 kilometers, and a world of unknown, away from here."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.370189,
@@ -119970,6 +120097,7 @@ const data = [
           "The setting sun basked the rear deck in hot light as we enjoyed the fruits of our collective labor. It was one of the most delicious dinners I had ever had. Ciro joined us halfway through as we were finishing up the bottle of wine.",
           "It was decided that we would leave early in the morning to try and beat this intense heat that was laying on top of the world like a heavy wool blanket. The Meseta, the rest of the Camino, and Boadilla del Camino was waiting for us. Let's do this."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.34289,
@@ -121084,6 +121212,7 @@ const data = [
           "It was officially decided that we shouldn’t have pushed so hard today. But hey, second longest day! Crissi and Bianca did indeed make it to the previous town at Boadilla after we had left, and decided to camp there for the night. But we'll see them tomorrow in Carrion, the town just before what I would later learn is called The Wasteland.",
           "With a name like that, I'm not looking forward to it."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.313249,
@@ -122189,6 +122318,7 @@ const data = [
           "Ciro from Hontanas cooked us dinner and oh my God it was freaking delicious, and filling. I probably won't have to eat for another three days. It's a shame we couldn't save the leftovers and take them with us. Crissi and I did the dishes while singing along to 1985 and Wannabe by the Spice Girls. It was quite the performance.",
           "Tomorrow we are crossing The Wasteland with 18 kilometers of nothing, literally. The Meseta would be unbearable if it weren’t for the beautiful cities dotting its landscape, and the people you meet."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.26591,
@@ -123300,6 +123430,7 @@ const data = [
           "Crissi and I grabbed a late dinner at a large restaurant across the street, and watched part of the world cup game. As we were leaving the restaurant Luis found us and practically dropped to his knees. He had forgotten the passcode for the church door and was panicking thinking that he would have to sleep outside tonight.",
           "Today’s walking total was 39 kilometers, the longest stretch yet. It felt as bad as the walk into Hontanas three days earlier. I guess after a certain point the pain is the same. For me, it usually kicks in around 20 kilometers, which in an odd way helps me know how much ground has been covered for the day. Tomorrow is hopefully an easier day, seeing as how we did 1.5 stages today. Our planned destination is Mansilla, but we'll see if that actually happens."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.337354,
@@ -124414,6 +124545,7 @@ const data = [
           "After a successful stop at a local grocery store we grabbed dinner with two people from Holland: Walter and Yo-yo. Luis also found us, or maybe we found him, but either way we were happy to see a familiar face.",
           "Needless to say, we went to bed early tonight. Our room only had six beds in it, and the bathroom was really nice. But the room was filled with snorers, and my earplugs kept popping out. After a walk like today, I needed all the sleep that I could get. We decided to try and sleep in tomorrow. Leon was our destination, and the end of this flat land."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.370742,
@@ -125522,6 +125654,7 @@ const data = [
           "There's now only two weeks left before reaching Santiago! Nights spent in places like Logroño, or Nájera, feel like they were ages ago, and yet also felt like they were only yesterday.",
           "I am thankful that today was a relatively easy walk, with plenty of places to stop and eat, or to get water. I have no idea what tomorrow holds, partly because we don't know which way to go (there are two routes), and we don't know how far we're going to make it."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.47429,
@@ -126640,6 +126773,7 @@ const data = [
           "The gray clouds in the distance were slowly growing in size, pushing their way higher and higher into the sky, as a busload of children arrived. They stayed in another part of the Albergue and would be doing two days of the Camino, starting tomorrow.",
           "We watched the clouds as they moved closer. Tomorrow was going to be another 30+ kilometer day, and hopefully the rain would pass us by."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.599117,
@@ -127762,6 +127896,7 @@ const data = [
           "Cerstin invited me to dinner with her, another German pilgrim, and a mother-daughter duo from Europe. They were making pancakes for dinner, and we had “real” German beer called Kriek with it. The food and the beer were both really good. I felt ashamed for having not helped prepare any of it.",
           "The weather is gearing up for another storm, and the rain blew through without much warning. All of the clothes hanging outside got soaked. It's still hot and stuffy in our room, even after that torrent of wind and rain. Looks like it'll be another night of no clothes. But I'm excited, because tomorrow we are officially returning to the mountains."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.483487,
@@ -128873,6 +129008,7 @@ const data = [
           "It was very humbling to be able to stand on the grassy hill behind our Albergue after the sun had begun to set, and see all of the towns we passed through today lite up. The sunrise from up here is going to be epic. I can’t wait. I’m also looking forward to tomorrow and the Cruz de Ferro, which is where you leave the stone, and any stress, that you’ve been carrying with you since the beginning of the Camino.",
           "Or so they say..."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.453748,
@@ -129975,6 +130111,7 @@ const data = [
           "We checked in, picked our beds, did the laundry, and went to the super market to get stuff for making dinner. Once all of the chores were done, we decided to take a tour of a restored Templar Castle, which was pretty freaking cool! There wasn’t much to see inside of the castle beyond some props set up with plaques describing life inside the castle, but it was neat being able to freely walk around every nook and cranny.",
           "There was a small cafe just outside the castle where we had a snack. It was too hot to do anything else, so we retreated back to the Albergue for some reading, chatting, and dinner."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.492064,
@@ -131079,6 +131216,7 @@ const data = [
           "On the way back to the Albergue we ran into the girls from Texas who we had met several days earlier in Belorado, and who we have seen here and there on the way. They were going back to the river, so we followed them and hung out while doing some swimming, skipping stones, and talking. It was a really good way to spend the afternoon in the heat. I think it got up to 100F today.",
           "We tried to beat the heat and came back to the Albergue to play some cards in order to pass the time. We hit the hay early since we were preparing for our earliest day yet: leaving before 5am."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.546067,
@@ -132182,6 +132320,7 @@ const data = [
           "The views are amazing up here at O'Cerbreia: mountains and rolling hills as far as the eye can see. I simply can't take enough pictures of it. This Albergue, I think the only one up here, was very primitive. The showers lacked curtains, and t he beds were practically stacked on top of each other. And the \"town\" feels like a tourist trap.: two full-blown gift shops, and a museum church.",
           "We grabbed some drinks with everyone after they all arrived. Luis had the hardest journey today: he went up and down three major hills and had to bushwhack the whole way because he took a wrong turn. Dinner was alright, nothing amazing. Hopefully it isn't too stuffy in this Municipal tonight."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.604203,
@@ -133284,6 +133423,7 @@ const data = [
           "We found a cute Alburgue a stretch of the main road around 5pm, and felt relieved to have a nice place to spend the night. The showers even had privacy! We made another family dinner while watching the Nigeria and Argentina soccer game.",
           "Sarria is the starting point for those who can only take a week of vacation off to do the Camino, which means it's not much farther now."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.708199,
@@ -134386,6 +134526,7 @@ const data = [
           "During dinner Crissi and I thought about trying to take a two day trip to Porto, Portugal in order to use up the extra days we'd have since we have been crushing these stages with a passion and figured everyone would be too far ahead or behind us to see them again.",
           "Either way, we will be celebrating the Fourth of July from Fisterra, Spain."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.777385,
@@ -135489,6 +135630,7 @@ const data = [
           "Melide is well known for its Pulpo a la Gallega, which is boiled octopus served with olive oil, paprika, bread, and white wine in a bowl. We didn't shy away from having some.",
           "So much unexpected joy today. Random surprises from familiar faces can ease the soul in so many ways."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.806235,
@@ -136588,6 +136730,7 @@ const data = [
           "Apparently there is a concert going on this weekend in Santiago, so based on the advice by Eileen we started looking into making a reservation anywhere we could in order to ensure that we had a place to stay. But all of the Hostels and Albergues were filling up quickly. We'll just have to wing it.",
           "I can't believe that this month long journey is coming to an end tomorrow."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.914066,
@@ -137691,6 +137834,7 @@ const data = [
           "I gave the biggest hug that I could to Crissi, and thanked her. Nothing dramatic, no fancy words, no glorious speech, simply \"Thank you\". Thanks for befriending me in Belorado. Thanks for saving me in Hontanas. Thanks for walking through the Meseta with me. Thanks for listening to me complain about work. Thanks for being a companion. And thanks for doing this incredible journey. I couldn't have completed this without you Crissi, thank you!",
           "Tomorrow we set out for Finesterre, and the zero mile marker."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.90407,
@@ -138794,6 +138938,7 @@ const data = [
           "I saw my friends sitting on a bench after turning around at the end of a street, and convinced them to get a 3-pack of ice cream bars with me. Best decision ever. We found a cute spot for dinner and drinks. It felt very chic, like an American cafe, and the dinner was superb. We watched the soccer game, partly because we had nothing else to do. So far these towns after Santiago felt less Camino-ish.",
           "It would be an early night today. It felt good to get back to walking after taking a day off. I'm eager to get to the end, but I also want it to take forever so that this never ends."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.880868,
@@ -139894,6 +140039,7 @@ const data = [
           "Beers were ordered, and we hung out for a short break. The Texans passed us again, said they were heading to Olveiroa. The three of us decided to follow them after our break and knock out the full stage today. We got in to town around 3pm. With money on our minds, we checked out the cheaper Albergue but it wasn’t that great, so we ended up going to the more expensive one.",
           "I met up with Lauren and Hailey (the Texans) at the restaurant next to the Albergue later in the evening. We played some card games while watching football. Dinner was so-so, and we didn’t really do much other than hang out at the bar watching sports. We're all planning on heading for the ocean towns of Cee and Corcubòn tomorrow."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.908053,
@@ -141009,6 +141155,7 @@ const data = [
           "I probably wouldn't be seeing my closest Camino friend/family again, at least not for a long time, and I was very sad. On the morning of July 7th, 2018 I packed up my bag for the last time, left the Albergue alone and in the dark, boarded a bus, and headed for the airport for my return back to America.",
           "I'll see you again someday St. James."
         ],
+        "excerpt": "",
         "gpx": [
           [
             42.966762,
@@ -142172,6 +142319,7 @@ const data = [
           "If I had to pinpoint the exact moment that sparked my passion for backpacking (a journey that would ultimately lead me to the Camino de Santiago in Spain two years later), this place was it! I joined another guided day-hike that took us to the legendary Refuge Chileno and onward to see the iconic Towers up close. The experience ignited a fire within me for mountain adventures.",
           "I was entranced by the backpackers trekking through the region, staying at the Refuge, leading me to dream of a lifestyle that revolved around exploration and nature. This trip changed my life forever, and its influence still resonates with me to this day.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -142211,6 +142359,7 @@ const data = [
           "The highlight was definitely the life-size replica of the Mylodon near the entrance. This giant ground sloth was a herbivore that looked like a huge, shaggy bear, and it became extinct thousands of years ago at the end of the Pleistocene epoch.",
           "The views of the surrounding Patagonian steppe and distant mountains from the viewpoint trail were incredible.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -142252,6 +142401,7 @@ const data = [
           "The captain made sure we were there at a quiet moment, so we experienced that profound Patagonian silence.",
           "Before heading back, we stopped at a remote ranch for a traditional Patagonian meal. It was a hearty and perfect end to a day surrounded by pristine nature.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -142343,6 +142493,7 @@ const data = [
           "The walk up was a workout in my flat-bottomed trainers, but a beautiful one. The trail is well-marked and exclusively for pedestrians, which made for a peaceful hour-long ascent through trees and cacti. We paused occasionally to watch the city of Santiago start to shrink below us.",
           "About halfway up, we passed near the National Zoo and caught glimpses of the city's sprawl through the foliage. The final stretch was the steepest, but as I rounded the last bend and reached the Terraza Bellavista, the view opened up completely. Seeing the high-rises framed by the massive peaks of the Andes is something no photo can quite capture.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -142380,6 +142531,7 @@ const data = [
           "The afternoon was a blur of street art and history. We spent an hour at La Sebastiana, Pablo Neruda’s former home. It’s a whimsical, five-story tower perched high above the port, filled with his eccentric collections of ship figureheads and maps.",
           "Valparaíso is gritty, loud, and steep. But also vibrant and charming.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -142418,6 +142570,7 @@ const data = [
           "We quenched our thirst with ice-cold glacier melt water from a nearby mountain stream, and it was the most refreshing thing ever. Finally, after navigating past a small false summit, our lead guide extended his hand and said 'Congrats, you made it.' And there it was, a stunning glacier, melting into a muddy-brown mountain lake. It was so quite up there, so serene.",
           "I had never laid eyes on a glacier outside of books and films. The silence up there was almost magical; the only sound was the occasional cracking sound coming from the glacier itself. We settled onto rocks and gazed in wonder at the glacier while enjoying our food with a view. Our lead guide even surprised us by playing their flute.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -142457,6 +142610,7 @@ const data = [
           "After a quick lunch, I made my way further out to Pirque for the legendary Concha y Toro. This place is huge and definitely a 'big name' experience, but still fascinating.",
           "The tour here felt more like a show, but in a good way. We walked through the beautiful grounds of the former family mansion and the varietal garden. The highlight, of course, was the famous 'Casillero del Diablo' (Devil's Cellar) legend. The tour guides put on a great little show, and the atmosphere in the spooky, dimly lit cellar was really fun.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -142549,6 +142703,7 @@ const data = [
           "The real highlight was the large outdoor market that takes over the street on Saturdays. It stretches for several blocks, creating a colorful and bustling scene of local life. I had to remind myself to slow down, to actually stop and browse the endless array of items on offer: vintage clothes, antique silverware, fresh fruits, vegetables, and countless unique trinkets. I could have spent hours just people-watching.",
           "I followed the pedestrian way all the way to the end, near the port, where I found the iconic Mercado del Puerto. While this is an indoor market known for its incredible parrillas (meat grills), the area outside also has plenty of souvenir shops and places to grab a quick bite.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -142642,6 +142797,7 @@ const data = [
           "A key stop was near the heart of the city, the Catedral Metropolitana. I hopped off and went inside this architectural gem, which is both the principal Catholic church and the final resting place of General José de San Martín, Argentina's national hero. The neo-classical facade is impressive, and the interior is stunningly ornate, with beautiful mosaics and chapels.",
           "By late afternoon, I was back on the bus, looping through the modern area of Puerto Madero with its sleek skyscrapers and the famous Puente de la Mujer (Woman's Bridge), which contrasted sharply with the historic areas I'd seen earlier.\nThe hop-on hop-off bus proved to be a fantastic way to grasp the geography and the diverse personality of Buenos Aires.\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
@@ -142682,6 +142838,7 @@ const data = [
           "This was my first time being at a music festival, but luckily it wasn't as chaotic as it seems to be in Chicago. The majority of the artists/bands were ones we were both familiar with and the headliners were common names such as Eminem, Robert Plant from Led Zeppelin, Fitz and the Tantrums, Smashing Pumpkins, etc.",
           "Overall it was a great experience!\n"
         ],
+        "excerpt": "",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,

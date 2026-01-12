@@ -50,9 +50,9 @@ const styles = tw({
     flex flex-col gap-1
     h-8
 
-    micro:gap-4
-    micro:items-center
-    micro:flex-row
+    nano:gap-6
+    nano:items-center
+    nano:flex-row
   `,
   divide: `
     border-b-1
@@ -62,7 +62,7 @@ const styles = tw({
 
     micro:border-r-1
     micro:border-b-0
-    micro:pr-4
+    micro:pr-6
     micro:pb-0
   `,
   link: `
@@ -71,8 +71,8 @@ const styles = tw({
     font-medium
     uppercase
 
-    data-emphasis:italic
-    data-emphasis:font-serif
+    data-[active=true]:italic
+    data-[active=true]:font-serif
 
     base:text-xs
   `,

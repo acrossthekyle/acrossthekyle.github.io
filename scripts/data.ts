@@ -431,6 +431,7 @@ async function getStages(folder) {
       stages.push({
         date: data.date,
         description: description || [],
+        excerpt: data.excerpt || '',
         gpx: gpx || [],
         hasGpx: gpx !== undefined,
         hasStats: !Object.values(stats).every(value => value === null),
@@ -764,6 +765,7 @@ async function go() {
         stages: stages.map(({
           date,
           description,
+          excerpt,
           gpx,
           hasGpx,
           hasStats,
@@ -775,6 +777,7 @@ async function go() {
         }) => ({
           date,
           description,
+          excerpt,
           gpx,
           hasGpx,
           hasStats,

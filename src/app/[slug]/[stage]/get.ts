@@ -22,6 +22,7 @@ export default function get(slug: string, stage: string) {
   return {
     date: result.date,
     description: result.description,
+    excerpt: result.excerpt,
     hasGpx: result.hasGpx,
     hasNavigation: next !== undefined || previous !== undefined,
     hasStats: result.hasStats,

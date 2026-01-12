@@ -4,7 +4,7 @@ import { Fragment } from 'react';
 
 import { LayoutAside, LayoutFooter, LayoutHeader, LayoutMain } from '@/layout';
 import { Article, ArticleFooter } from '@/ui/article';
-import { HeaderBack, HeaderHeading } from '@/ui/header';
+import { HeaderBack, HeaderHeading, HeaderSection } from '@/ui/header';
 import { Image, ImageFigure } from '@/ui/image';
 import { Eyebrow, Line, Paragraph, Subtitle, Title } from '@/ui/typography';
 
@@ -33,6 +33,13 @@ export default function View({ data }: Props) {
             {data.date}
           </Subtitle>
         </HeaderHeading>
+        {!!data.excerpt && (
+          <HeaderSection>
+            <Paragraph>
+              {data.excerpt}
+            </Paragraph>
+          </HeaderSection>
+        )}
         {data.hasStats && (
           <Stats stats={data.stats} />
         )}
