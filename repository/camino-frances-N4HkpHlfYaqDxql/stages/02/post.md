@@ -1,33 +1,9 @@
-The chirping of birds filled the dormitory room as I rolled onto my side and pushed myself up from the bottom of the bunk bed. After randomly shoving things into my bag I did one last check before heading downstairs.
+The chirping of birds filled the dormitory as I rolled onto my side and pushed myself up from the bottom bunk. After a hasty packing session, I made one last check of my bag before heading downstairs. The morning felt crisp and calm, a quiet contrast to the strenuous hike from the day before. Outside, the rolling hills and mountains we had conquered yesterday stretched before me, serene and inviting.
 
-After grabbing what looked like edible (and hopefully healthy) food from the vending machine I retrieved my boots from the smelly storage room, placed my backpack on a bench in the inner courtyard, and took a step out the front door.
+After grabbing some snacks from the vending machine, I retrieved my boots from the musty storage room and slung my backpack over my shoulders. The others had already gathered downstairs, ready to set off. Amy and I found ourselves walking in the street at first, the trail too muddy to traverse safely. Soon we passed through a small town, descending a slope before returning to the trail. Trees lined our left side while cows grazed on our right, and we joked with the horses, though they offered little response.
 
-Chilly morning air greeted me as I stood there in front of the rolling hills and mountains that we conquered yesterday. The world here was calm, and relaxed.
+We paused to admire the sunrise cresting over the hills behind us. Later, we stopped in a quiet town at the only open café, enjoying a brief respite before the trail took us back into the trees and up more hills. Music accompanied us through dense woods, opening up to prairies of tall grass bathed in sunlight. The day was full of ups and downs, each step demanding effort, yet each view was breathtaking. I wished I had stopped more often to take it all in.
 
-The others had arrived downstairs when I returned to fetch my bag. With food in bags, shoes tied, and light jackets on, we set out.
+A small stream followed alongside a concrete path as we descended, swelling into a river that we crossed by stepping along concrete pillars acting as a makeshift dam. On the other side, a roadside bar tempted us with beer and wine at 9:30 am, a treat for early days on the Camino. The terrain alternated between bare rock and dense trees, and eventually a fork in the path opened up a perfect view of the tree-covered hills beyond. From here, our route led downward toward Zubiri.
 
-We (Amy and I) were forced to walk in the street due to the mud-filled paths leading away from the Monastery. The road took us through a small town a few kilometers away from Roncesvalles. We found our way down a small slope at the end of the village, and returned to the trail with trees on our left, and cows on our right. We tried talking to the horses but they weren't being very responsive.
-
-I stopped for a brief moment to turn around and take in the sunrise as it crested over the hills behind us. 30 minutes later we were heading into another quiet town. We took a short break at the only cafe that was open. The path took us back in to the trees, and up more hills. Our conversation returned to where it had left ended from the previous day. Music kept us company as we spent the next hour hiking through dense woods with open grass prairies appearing through breaks in the trees.
-
-This day was full of ups and downs and all of it was beautiful and breathtaking. Sometimes it is hard to enjoy the amazing world around you when you have to fight for every step. I wish I had taken it all in with more frequent stops.
-
-A small stream followed us along the concrete path as we descended. The stream eventually got louder and bigger until finally we were upon a river with its water rushing over the concrete. In order to cross this water we had to step along the tops of short concrete pillars that acted somewhat like a dam.
-
-On the other side of this river the path led up to a bar on the side of the road, and we didn't hesitate. 9:30 am on a Sunday was the perfect time for beer and wine when you're on the early days of the Camino.
-
-The terrain around us alternated between bare rock and dense trees. Eventually we came to a fork in the path, and the break in the trees gave us a perfect view of the tree-covered hills in the distance. Nothing but hills and trees as far as we could see with blue skies, and white clouds hovering near the horizon.
-
-At this point we had started on our way down towards Zubiri.
-
-The ground became unrelenting with the bedrock turned up at a 45 degree angle, and each edge of each protruding rock looking like a razor sharp knife. These parts were also covered with slippery mud.
-
-Up ahead on the other side of a curve in the highway was a small snack stand. It had a basket for women to donate their underwear, and the reward for your donation was a wish being granted to you that you would meet your future husband on this Camino. No underwear was donated, but we grabbed some food and relaxed. Familiar faces started to arrive at the rest stop as we grabbed a table in the shade.
-
-Our time here was short since we were eager to finish today's route. After another two hours of hiking, and nearly rolling my ankle a dozen times, we arrived in Zubiri.
-
-Upon entering the town over the bridged river, we got lost trying to find the place that we would hopefully be staying at. Eventually we found our way and grabbed some beds at the small and cozy municipal Albergue.
-
-The local cafe was called Estrella Galicia and we headed there to wait for the others to arrive. The clouds had begun to roll in, and shortly after it began to rain. Luckily our friends arrived just before the heavy rain started to fall. While we sheltered from the rain in the cafe we met some new friends.
-
-This night would be the first real night on the Camino: no longer would we be sheltered by modern conveniences. The walled fort-city that is famous for running with the bulls at Pamplona was waiting for us, and I was eager to begin the next days hike through more green hills.
+The trail became unrelenting, bedrock jutting at sharp angles and slippery mud making every step precarious. A small snack stand offered a curious custom: donate underwear and your wish to meet a future husband would be granted. While we passed on the donation, we enjoyed food and shade as familiar faces arrived. After two more hours of hiking, nearly rolling my ankle a dozen times, we finally reached Zubiri. Finding the cozy municipal Albergue took some time, but soon we settled in. Clouds rolled in and rain began just as our friends arrived, giving us the chance to meet new companions while sheltering in a local café. This night marked the first true immersion into the Camino, a night no longer buffered by modern comforts. Ahead, the walled city famous for the running of the bulls in Pamplona awaited, along with more green hills to explore.

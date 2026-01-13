@@ -1,25 +1,9 @@
-I tried to capture all of the sunrise pictures possible on the way down since the sun was looking especially orange this morning. Several Ibex also kept me company as I hiked down. On the way, I stopped by the Le Christ Roi. It was a humungous statue that came out of nowhere.
+The last morning of the trek was bathed in a stunning orange sunrise, which I tried to capture in every photo as I descended the mountains. Ibexes kept me company along the way, adding a touch of Alpine magic. On my path, I passed the imposing Le Christ Roi statue, a sudden and awe-inspiring sight rising from the valley floor. Crossing the final river and passing the train station, I felt a sense of completion: the journey that had begun days ago now behind me. My hiking boots and backpack were no longer black, but coated with the dust and dirt of countless mountainsides.
 
-I finished the last few hundred meters pretty effortlessly as I crossed over the river, and passed the train station. I was now back where I started, and it felt like a lifetime ago. My hiking boots and backpack were no longer black, but instead were covered with the dirt of several different mountainsides.
+With the gîte not opening until later in the afternoon, I wandered around town, exploring souvenir shops and collecting maps. By chance, I ran into four fellow hikers I had met along the route. We shared lunch, drinks, and stories, laughing over mishaps and memories from the trek. A sudden rainstorm forced us inside, reminding me just how unpredictable mountain weather can be.
 
-The gîte that I would be staying at wasn’t open until 4pm or so, so I had some time to kill. I walked around the town, grabbed some souvenir maps, and visit all of the gift shops.
+Once checked in, I was reunited with more friends from day one. One kind hiker even lent me a bus pass to visit Chamonix in search of a pin for my backpack, part of a growing collection from my travels. Chamonix was bustling, filled with shops, restaurants, and tourists. Speed-walking up and down its streets, I finally found the perfect pin and met Barak and Neta one last time, sharing a few laughs before returning for dinner.
 
-On my second or third pass through the town center I ran into four other hikers that I had met along the way! We grabbed some drinks and lunch at the only open hotel bar and shared numerous stories with each other.
+Dinner that evening was lively, with tipsy friends spilling wine and telling stories. We lingered in the common room afterward, savoring the camaraderie that had grown over the past days. As night fell, I reflected on the journey, the challenges, the beauty, and the friendships forged along the way.
 
-A wicked rain storm came out of nowhere and forced us inside. But, it was time to say goodbye and go check in.
-
-After checking in I ran into people whom I had met on day 1! This was crazy! One of them lent me their free bus pass to go over to Chamonix in order to search for a pin for my backpack. I wanted to build up a collection of pins from hikes that I have done or will do, and wanted them to be adorned on my backpack.
-
-Chamonix is a massive tourist town, and I hurried up and down the long stretch of shops and restaurants. I must have seen all that they had to offer, which is a lot.
-
-Two of the coolest people I met on the trip found me as I was speed walking around: Barak and Neta from Israel. It was great to see them one last time now that we were back in civilization.
-
-Finally I found my pin at a random shop at the end of the street. Satisfied with my purchase I returned to the bus stop in order to get back in time for dinner.
-
-The group that was staying there (from day one) had been at a bar the entire time and came to dinner very tipsy. It made for a very interesting meal: a carafe of wine was spilled during the course of it. We hung out in the common room after dinner, and then said goodnight.
-
-I left for the airport early in the morning, and looked out longingly at the mountains as the shuttle sped past them on the expressway.
-
-While this trek wasn’t as intense as the Camino, it was still special in its own way, along with its own challenges. I accomplished so many feats of strength that I had never had to worry about before, and it left me as a stronger person.
-
-I love Europe, and can’t wait to come back!
+The next morning, the shuttle sped past the mountains as I headed to the airport. I looked back longingly at the peaks, knowing this trek had changed me. While it wasn't as grueling as the Camino, it had its own trials and triumphs, leaving me stronger and more in awe of Europe than ever before. I cannot wait to return.

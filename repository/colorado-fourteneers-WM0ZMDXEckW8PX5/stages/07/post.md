@@ -1,51 +1,9 @@
-After our experience on Mt. Shavano, we made sure to carry as much water as
-humanly possible for our attempt of the DeCaLiBro-n combination route two
-days later. The name comes from the four peaks above 14,000 feet that are all
-connected via ridges, and thus do-able in a single day. The names are [De]mocrat,
-[Ca]meron, [Li]ncoln, and [Bro]ss. That last one is technically off-limits to
-the public and is private land, so we didn't attempt to do it.
+After our challenging experience on Mt. Shavano, we made sure to carry as much water as possible for our attempt at the DeCaLiBro-n combination route two days later. This route connects four 14,000-foot peaks: Democrat, Cameron, Lincoln, and Bross via ridges, making it theoretically doable in a single day. We skipped Bross since it's on private land, sticking with the first three summits instead.
 
-One good thing about this trail is that there's only about 2,000 feet of
-elevation gain from the trailhead at Kite Lake to the first peak, since we're
-starting at 12,000 feet. We spent the night at the trailhead parking lot,
-sleeping in the car, in order to get somewhat acclimated to the elevation. It's
-not easy starting at 12,000 feet unless you are acclimated.
+The trailhead at Kite Lake starts at 12,000 feet, which made the 2,000 feet of elevation gain to the first peak feel easier. We spent the night in the car to acclimate, knowing that starting at high altitude without preparation can be tough. A pink sunrise greeted us as we set out at 7:00 am. The trail began gently, then climbed via switchbacks toward the col at the base of the first peak.
 
-A lovely pink sunrise greeted us as we set out at around 7:00 am. No need for
-a pre-dawn start since we didn't have much gain to make. The trail started off
-nice and gentle, and then started to climb via switchbacks as we got closer
-to the col at the base of the first peak.
+Old mining remnants dotted the landscape, including rusted metal and collapsed mine entrances, adding a touch of history to the hike. The absence of trees allowed panoramic views at every turn. Kite Lake below looked exactly like a kite, a reminder of just how far we could see and how far we still had to go.
 
-There were lots of old mining building materials lying around, mostly rusting
-pieces of metal that had stained the rocks around them, and some old mine
-entrances that were now caved in.
+We reached Democrat first, summiting in under an hour from the col. After a brief rest and photos, we crossed loose rock to reach Cameron about 1.5 hours later. Its dome shape made the next stretch toward Lincoln a gentle slope. Lincoln required minor scrambling near the top, with a long flat section in the middle between peaks. By 12:30 pm, we had completed all three summits, able to see nearly the entire trail from Lincoln. Looking back, Cameron appeared as a floating rocky island in the sky, a surreal perspective.
 
-And did I mention that it was another hike without trees! You can see anything
-you want at any given time, and see as far as the mountains will let you. And
-you can see how far you have to go on the trail, which is always nice. Case-in-
-point the views of Kite Lake did not dissapoint (it definitely looks like a
-kite).
-
-We stopped and rested here and there. It wasn't too bad of a trail, and the
-conditions weren't as bad as Mt. Shavano from a couple of days ago. Especially
-since we were each carrying an extra liter of water this time. And by 9am we
-were at the col below the first summit: Democrat. Less than an hour later and
-we made the summit. After some pictures it was time to head back down to the col,
-and start the next summit: Cameron.
-
-There was a lot of loose rock on the way over to Cameron, but we made it about
-1.5 hours later. We looked out and back on the trail, and out at the summit of
-Democrat. Our spirits were definitely very high at this point! Two down, one to
-go. Cameron was sort of shaped like a dome, which meant the trail down towards
-our next one, Lincoln, was a gentle slope.
-
-Lincoln wasn't all that bad either, just some minor scrambling just below the
-tippity-top, with a long flat section in the middle between the two peaks. We
-made the last summit by 12:30 pm. From here we could nearly see the entire trail
-from start to finish. Looking back at Cameron from Lincoln makes Cameron look
-like a floating rocky island in the sky.
-
-Time to head back down, back the way we came, up and over Cameron, and then back
-down the col below Democrat, and then the switchbacks back down to Kite Lake. We
-practically raced down the trail, eager to get back to the car and call this a
-very big win!
+The descent followed the same route, back over Cameron and Democrat to Kite Lake. We practically raced down, exhilarated and exhausted from completing such an epic route. Compared to Mt. Shavano, this hike felt smoother and more rewarding. Finishing the DeCaLiBro-n combination left us with a huge sense of accomplishment and memories of a truly spectacular alpine day.

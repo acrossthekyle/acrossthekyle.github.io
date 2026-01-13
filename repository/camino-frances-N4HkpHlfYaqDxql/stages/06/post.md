@@ -1,45 +1,9 @@
-Another calm and peaceful morning on the Camino. We retraced our steps from the previous day as we took an early leave out of town. Another cloudy morning kept us company.
+Another calm morning greeted us on the Camino, cloudy skies overhead as we retraced our steps from the previous day. With the Ega River at our backs, we walked along dirt paths lined with vine-covered stone walls. A fork in the road presented a choice: left for a shorter hike, or right for a longer one. We went right, drawn by the promise of the wine fountain in Irache and find it we did. Free red wine flowed from a spout at the winery, an indulgence at 7:30 in the morning that left our lips stained purple. Refreshed and slightly tipsy, we returned to the path and pressed on toward Monjardin.
 
-With the Ega river at our backs we marched along dirt paths hugging vine-covered stone walls. A fork in the road forced a decision upon us: go left for a shorter hike, or go right for a longer hike. "To the right," we said. The wine fountain was to be found that way in Irache, and find it we did.
+The trail led us through forests, up and down hills, humidity rising as the pyramid-shaped Monjardin mountain grew larger with each step. From hilltops, we glimpsed an endless patchwork of green fields, red rooftops, and a sky trying to pierce the gray clouds above. A light drizzle fell as we paused in Azqueta, refreshing and cool, before reaching Villamayor de Monjardin. There, a medieval fountain provided shelter and water as we prepared for a 12-kilometer stretch with no shade or water.
 
-Free red wine flowed from a spout in the side of a winery and we indulged ourselves. Odd thing: the winery was on the other side of the road from a monastery. But who could ask for more at 7:30 in the morning? With the edges of our lips stained purple we returned to the dirt path and continued our march towards Monjardin.
+After an hour of rough, muddy paths, the hills opened into fields of green and yellow, and the gray clouds began to disperse. Sunlight brightened the landscape, revealing a dirt path that split the fields down the middle. In the distance, a small food stand played Mexican music, offering a momentary distraction before the long, uninterrupted march toward Los Arcos. To keep my mind engaged, I popped in headphones, and music carried me forward. A few songs, like "Maps" by Handsome Ghost and "Full Release" by Little Monarch, grabbed me completely, pulling me into the moment as the fields, sky, and fellow pilgrims blurred around me.
 
-In and out of forests we went, up and down, with the humidity rising along with us. The pyramid-shaped mountain growing larger with each step we took.
+The dirt paths eventually led us to Los Arcos, a charming village lined with farms. We skipped the smelly farm-adjacent albergue and continued on toward Torres del Rio. Early Camino life meant we hadn't yet learned the rhythm of small Spanish towns, but the clean stone streets and beautiful church in Los Arcos made the pause worthwhile. Though Torres del Rio lay just a half kilometer further, the group collectively decided to stop at Sansol, a small village with a Moroccan-themed albergue and breathtaking views. That evening, we enjoyed a delicious tajine dinner and cooled our feet in the courtyard's icy pool, a small but perfect slice of bliss.
 
-From the tops of the hills we glanced out over the countryside to our right, seeing nothing but an ocean of various greens on the ground, spotted with red roofs, and the blue sky trying to find its way through the blanket of gray above us.
-
-The rain finally started to fall as a light drizzle, sprinkling us with a refreshing cool shower after our short break in Azqueta.
-
-The only shelter from the steadily increasing rainfall was a medieval water fountain at the base of Villamayor de Monjardin, and we arrived just in time. Its stone steps led down from the street above towards the water pool below. We filled up on water in the town square and headed for the next section which had no water or shade for 12 kilometers.
-
-After an hour of rough and muddy paths we broke free from the hill's hold on the ground beneath our feet, and suddenly burst forth into green and yellow fields. The ever present blanket of gray clouds soon began to disperse, and the blue sun-filled sky brightened the beautiful landscape around us.
-
-The drying dirt path split the land down the middle with the green world to the left, and the yellow one to our right. A relaxing food stand playing Mexican music appeared in the distance. It was time to begin the long stretch of no breaks.
-
-With the modern world behind us we headed for Los Arcos.
-
-It was here that I decided to listen to some music while I walked in order to avoid going crazy from the steady march of one foot in the front of the other.
-
-Songs that I had downloaded a week ago were waiting for me as I popped in the headphones. I zoned out for the first half of the playlist and not really paying attention. But then, in the middle of the set, a song came on that grabbed me: "Maps" by Handsome Ghost. I can't say why this one song, out of all the others, grabbed my attention. I focused more on the music and less on my feet doing their steady drumbeat upon the Earth.
-
-The next song in the queue really did me in: "Full Release" by Little Monarch. These lyrics spoke to me while I walked in that world of rolling green fields, blue and white sky, and the string of marching pilgrims. I started doing a little dance as I passed one irrigation canal after another, not caring how much further we had to go, but instead caring more about being in this moment.
-
-Here is the list of songs that I saved and nearly immediately started listening to on repeat: "Maps" by Handsome Ghost, "Full Release" by Little Monarch, "Love Teach Me (Orchestral Version)" by Benjamin James, "Kings & Queens(Acoustic)" by Mat Kearney, "Dancing in the Street" by Stephen Day, "Horses" by Yes Nice.
-
-But we were marching relentlessly forward, and this moment was coming to an end.
-
-Dusty dirt paths, spared from the rain earlier in the morning, wound their way towards the edge of the forest, and down towards low-lying pools of water.
-
-We arrived in Los Arcos at the edge of the village, next to a bunch of farms. We decided to not stay at the Albergue next to a smelly farm, and kept going towards Torres del Rio.
-
-Keep in mind that these are the early days of the camino, and we haven't fully figured out the traditional layout of old Spanish cities.
-
-The farms, and the talkative animals, gave way to the more civilized portion of the city with clean stone streets and its beautiful church taking up the town square. Hordes of pilgrims were here enjoying lunch at the numerous shaded tables. Were we wrong, yes, but did that change our mind, no. It was early in the day, and we felt like we could handle another 8 kilometers to Torres del Rio.
-
-We never made it to Torres, and only 75% of us made it to the next town at Sansol. Torres del Rio was only a half kilometer further down the hill we had just hiked up to get here, and even though it was close by, we collectively agreed to push no further. That final stretch along featureless gravel paths gave our minds, and our feet, the final knockout blow.
-
-But it turned out to be a small cute village with a Moroccan themed Albergue with fantastic views of the countryside, and a delicious dinner of Tajine.
-
-They had an ice cold pool of water in the courtyard, and we stuck our feet in as soon as we got settled. After the initial shock wore off, it was pure bliss.
-
-Finally, blue skies and rolling fields, exactly what I had been hoping for since day one! Logrono is tomorrow and I'm beginning to not look forward to staying in large cities. Hopefully it's another flat day of walking.
+Blue skies and rolling fields stretched before us, finally the scenery I had been hoping for since day one. Tomorrow promised Logroño, and with it, the challenge of walking into a larger city. For now, the Camino rewarded us with flat paths, warm sun, and a sense of quiet contentment that only comes from moving steadily through beautiful landscapes.

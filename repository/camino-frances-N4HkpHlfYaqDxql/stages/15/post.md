@@ -1,25 +1,15 @@
-The sun was still sleeping as we packed up, and started heading for Carrión de los Condes. After yesterdays blazingly fast speed it will be a relief to walk at a more calm and steady pace. But soon after passing through Poblacion de Campos Maddy had to stop and take it easy for a while. She urged me to keep going, and promised to catch up.
+The sun was still asleep as we packed up and set out for Carrión de los Condes. After yesterday's lightning-fast pace, today promised a calmer, steadier walk, but Maddy soon had to pause and take it easy. She urged me to keep going, promising she'd catch up later.
 
-The trail markers stood like guardians on the path at each road crossing, and it felt like entering a gate when passing through them. Todays trail hugged the newly built road between the cities of Fromista and Carrion.
+The trail markers guided me like sentinels, each one marking a small gate along the path between Fromista and Carrión. With the sun rising behind me, I marched along the gravel, noting each kilometer, though their constant reminders of distance only tested my patience.
 
-With the sun was rising behind me I marched along the gravel path, passing each kilometer marker at a steady pace. With each passing marker I was getting more and more annoyed. It wasn't fun being constantly reminded of how far I had to go. I liked not knowing the incremental distance and just pushing on to the end of the stage for the day.
+Villarmentero de Campos offered the first chance for food. A bar decorated with scarecrows and mannequins looked a little eerie, but I grabbed a croissant and banana, used the bathroom, and pressed on. This would be the only pitstop before reaching Carrion.
 
-Villarmentero de Campos offered the first chance for food. The only place that looked like it had food was at a bar with scarecrows and mannequins arranged in the yard. The hostess also seemed a bit off, so I inhaled the croissant and banana, used the bathroom, and quickly returned to the road and the ever present kilometer markers.
+In Villalcazar de Sirga, I detoured through the town center to admire the church, said to be the last built by the Templars. I paused along the way, hoping to spot Maddy, but no familiar dots appeared on the horizon. The final stretch to Carrion seemed endless, but at 10 a.m., I finally reached the town square. Bar Carmen became my temporary home as I waited for the others, enjoying breakfast and practicing my Spanish with a patient bartender.
 
-This would be the only pitstop before arriving at Carrion.
+Afterward, I explored the side streets and did some necessary shopping: a new money belt and a pair of sunglasses to replace the ones ruined earlier. Two hours later, Crissi and Bianca texted me: they'd secured beds at the Monasterio de Santa Clara. It was time to leave the bar, and I was more than ready to settle in.
 
-In Villalcazar de Sirga I took the detour through the town center, and passed by the church. Supposedly it was the last one built by the Templars? After Villalcazar I would pause every so often and turn around, hoping to spot Maddy behind me, but no dots appeared on the horizon.
+Without Wi-Fi but with the promise of cooking, we shopped for dinner supplies and gathered in the monastery courtyard. A little wine, meats, cheeses, and grapes made for a relaxed afternoon. I even bought my first Camino souvenir: a small yellow arrow pin, a symbol of the trail.
 
-The final walk in to Carrion seemed to take forever thanks to the unchanging scenery, but at 10am I walked into the town square. Bar Carmen was the first place I spotted that looked halfway decent, and grabbed some breakfast while waiting for the others to arrive. My Spanish definitely needs some practice: the bartender had a hard time understanding me, but we got through it together.
+Crissi and I wandered the parks near the river under the high sun, exploring as temperatures approached the upper 90s. Before dinner, we enjoyed a local Spanish guitar performance at the church. That evening, Ciro from Hontanas cooked a feast that left me fully satisfied. Crissi and I washed the dishes while belting out 1985 and Wannabe.
 
-After eating I took a tour of the side streets and did some shopping. I needed to get a new money belt, and sun glasses, as both had been destroyed earlier in the day. Luckily there was a hiking gear shop that had a good money belt. The sunglasses were bought in some bazaar style shop that sold one of everything, but you can't go wrong for six euros.
-
-Two hours later Crissi and Bianca texted me to say that they found some beds at an old monastery called Monestario de Santa Clara. It was finally time to abandon my post at the bar, and I'm sure the owner was happy to see me go. The place we're staying at doesn't have any Wi-Fi, but we’re cooking dinner again! We did some shopping and then headed back to the monastery and hung out in the courtyard. We got pretty tipsy from the wine we bought, and snacked on some meats, cheeses, and grapes.
-
-I also bought my first souvenir of the trip: a small pin in the shape of a yellow arrow, which is one of the main symbols on the Camino.
-
-While the sun was high in the sky, and the temps were approaching the upper 90’s, Crissi and I did some exploring of the parks near the river. Before dinner we all checked out a lovely Spanish guitar performance at the local church.
-
-Ciro from Hontanas cooked us dinner and oh my God it was freaking delicious, and filling. I probably won't have to eat for another three days. It's a shame we couldn't save the leftovers and take them with us. Crissi and I did the dishes while singing along to 1985 and Wannabe by the Spice Girls. It was quite the performance.
-
-Tomorrow we are crossing The Wasteland with 18 kilometers of nothing, literally. The Meseta would be unbearable if it weren’t for the beautiful cities dotting its landscape, and the people you meet.
+Tomorrow we'd cross The Wasteland: 18 kilometers of nothing but the Meseta. If it weren't for the towns and the people we meet along the way, this stretch would be unbearable. The Camino proves, once again, that it's the small joys and connections that make each step worthwhile.

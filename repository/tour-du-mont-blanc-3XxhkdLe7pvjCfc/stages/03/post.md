@@ -1,33 +1,9 @@
-When we reached the top nothing but mountains surrounded us. The pedestal marking the highest point on the TMB, and the various peaks in the distance, was covered in ice. But that didn't matter to us while we removed our outer layers. The valley below seemed like another world, so very far away. Today would be a marathon of hiking.
+Reaching the top of the Tour du Mont Blanc highpoints is a surreal experience. At the Col des Fours, 2,665 meters above sea level, nothing but mountains surrounded us. The pedestal marking the highest point gleamed with ice, and the valley below seemed like another world entirely. Today promised a marathon of hiking, but first we soaked in the views and shed our outer layers to enjoy the crisp alpine air.
 
-The Germans and I left Bonhomme around 7:30 in the morning. Our collective goal was an Official highpoint of the TMB on the Col des Fours, and then back down. We accomplished this goal an hour later: Col de Fours at 2,665m.
+We left Bonhomme early in the morning, trekking as a small group of three Germans and myself, gradually picking up more hikers along the descent. The trail down was a mix of steep, slanted rocks and slippery patches from water, turning the hike into a constant balance challenge. Rivers cascaded alongside us, and eventually the green valley floor appeared, dotted with cows whose cowbells created a constant jingling soundtrack. Herded by a vigilant farmer and her dog, the cows gave us a memorable encounter in the alpine fields.
 
-An optional trail offered to take us to the summit of Tête Nord de Fours in the distance, but we declined and decided to save the energy for the descent, and my own energy for the climb I would be doing later this afternoon.
+The path wasn't always straightforward. We missed a turn and ended up bushwhacking across fields, past abandoned farmhouses, before reconnecting with a paved road that led to Ville des Glaciers. From there, I diverged from the group to tackle the ascent to my next stop: Refuge Robert Blanc. The refuge appeared as a tiny brown dot on a distant mountainside nearly 1,000 meters above me. The climb tested every ounce of energy, with waterfalls crossing my path and cairns guiding me over rocks and switchbacks.
 
-Steep, slanted, rock carried us down from the pedestal and back into the crevices of the mountains. Throw in a little water, and it became a slipping challenge. You can try and look graceful, but it isn’t going to happen. Fall on your butt and welcome the chance to try again.
+Arriving at the refuge was a relief. The downtime at these mountain shelters can feel long, but the view, fresh alpine air, and camaraderie make it worthwhile. Clouds rolled in before dinner, cloaking the mountainside in mist, while we enjoyed a hearty meal and met fellow hikers. I later discovered I had missed a shortcut across the top of the mountains: the optional trail to Tête Nord de Fours, which would have saved some serious elevation gain. Live and learn.
 
-The green ground rushed up to meet us as we descended, with rivers rushing next to us falling over edges in little waterfalls. Splinters of rock began to make up most of the path floor.
-
-Cows dotted the valley below us. It was an entire field full of cowbells. They ignored us, until their owner arrived and started shouting. She was herding them towards our small group. By now our numbers had swelled from 3 to 9 as we picked up more hikers on the way down.
-
-The cows still didn’t care about us, and would have rightfully ran right through our ranks if we didn’t move out of the way. They had a place to be, and the herding dog wasn’t letting any of them get out of line, or take a break.
-
-Eventually they were above us as we continued down the narrow dirt path cut into the side of the earth.
-
-We must have missed an official turn on the path, because we ended up bushwhacking over fields, and passed by abandoned farm houses. Our trusty navigators who held The Map kept telling us to just follow this path, and we trusted them. After a few shortcuts (the path kept looping back on itself so we cut down the sides on some of the declines) we came back to a paved road which took us all the way down to Ville des Glaciers.
-
-After a short break I was forced to say goodbye to some as I needed to take a different route than they were. Most of us had the same schedules, so I knew I was going to see them again.
-
-The walk up and out of Refuge des Mottets wasn’t that bad, but I knew the worse was still to come. My home for the night was a tiny brown dot on a gray mountainside nearly 1,000 meters above me.
-
-I had to stop and breath many times as I made the ascent. Several waterfalls crossed my path, and after making good time initially I started to slow down. But, I pushed on up and over the rocks, letting cairns and rocks on the ground guide my way.
-
-See if you can spot the brown dot in the distance in the first picture Slowly but surely that tiny brown dot on side of mountain became a building. I made it to Refuge Robert Blanc. Now it was time to relax.
-
-I really wish I had brought a book with me for when I was relaxing at these refuges. The downtime at these places can feel very long and slow. There are no towns to explore, and you don’t really want to do anymore hiking or walking for the day.
-
-The clouds rolled in shortly before dinner, and covered the whole mountainside for the remainder of the night. We ate a hearty meal, and made some new friends.
-
-During dinner I found out about shortcut that went across the top of the mountains. It was the optional trail that went up to Tête Nord de Fours. It continued up and over and was a straight shot to the refuge. Oops.
-
-I love being up this high, removed from everything below. But, I had no idea just how hard tomorrows hike was going to be.
+Being this high, removed from everything below, is intoxicating. But with tomorrow's hike looming, I knew the mountains were not done testing me. Every step, every climb, and every breath reminds me why I keep returning to trails like these.

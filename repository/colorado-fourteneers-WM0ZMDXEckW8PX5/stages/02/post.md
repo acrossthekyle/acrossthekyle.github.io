@@ -1,54 +1,11 @@
-One day after completing my very first 14'er, and I was waking up once again
-during the pre-dawn hours to set out to conquer another mountain peak. This
-one was advertised as being not as long or as rough as Mt. Elbert, but knowing that
-I could do the biggest and baddest of the easier 14'ers made me feel more
-confident about this one, but we shall see...
+The morning after completing my first 14'er, I found myself waking up before dawn once again to tackle another peak. This one was known to be less strenuous than Mt. Elbert, but having conquered the tallest and most challenging of the "easier" 14'ers gave me confidence. I was still curious to see how my body would handle this fresh ascent.
 
-I parked on the road after driving for two and half hours and listening to that
-80's retro station. The trailhead started right from the edge of the road, so
-there was no official parking lot for this one. It was 4:30 am in the morning.
+After a two-and-a-half-hour drive listening to my trusty 80's retro station, I parked along the roadside near the trailhead. There was no official parking lot, just a small space where a few other early hikers had already gathered. The trail began immediately at the edge of the road, and by 4:30 am I was setting out under the dim light of my headlamp.
 
-Most of the trail in the woods was switchbacks, and a lot of the portions had
-stairs carved out of the rock. This made it somewhat easy to manage but that
-still meant doing a lot of stair climbing, especially after being sore and tired
-from yesterdays hike.
+The trail wound through the woods in a series of switchbacks, many with stairs carved out of the rock. It made the climb more manageable, though my legs were still sore from the previous day's hike. Hikers were spaced evenly along the trail, allowing me to hike mostly solo while still feeling reassured by the distant glimmers of their headlamps.
 
-There was a good amount of people on the trail this morning, and evenly spaced
-so that I was still hiking solo but could still the light from their headlamps.
+By 6:00 am, I emerged above the treeline just in time for a stunning sunrise. The trail from the trees to the summit was marked with large cairns, which added a fun element for photographs. Most of the path consisted of rock-cut stairs, spaced like regular steps, which made the pace predictable. Along the way, I spotted small chirping Pikas scurrying among the rocks, a delightful reminder of the wildlife thriving at these elevations.
 
-By 6:00 am I was above the trees, and just in time. There was a beautiful
-sunrise and I am glad I got started as early as I did in order to be able to
-witness it.
+The ridge leading to the summit shifted from stairs to a scree-filled path, with occasional snow patches along the sides. Despite this, I reached the summit by 8:00 am, nearly two hours faster than my Mt. Elbert climb. At the top, I enjoyed the views, snapped photos, and even chatted with fellow hikers, who offered a free beer and good company. Descending with another hiker helped me maintain a steady pace over the well-maintained trail. My knees held up thanks to my braces, and by 1:00 pm I was back at the car, tired but elated.
 
-Tons of large cairns marked the trail and I always love a good cairn; it makes
-for a good element in a photo. Most of the trail from the trailhead to just
-below the summit was rock-cut stairs, with the same amount of rise between steps
-as a staircase in a home would be, which actually ended up being pretty nice
-and made the ascent predictable in terms of pace.
-
-I saw a lot of cute little critters that looked like tiny squirrels called
-Pikas. They were chirping to eachother as they scurried over and under
-rocks looking for food.
-
-At long last I could see the summit, and the singular flase summit in front of it.
-Once on the ridge ot the summit the trail transitioned from stairs to scree-filled
-paths. There were still some snow patches here and there on the sides of the
-trail. I made the summit by 8:00 am! Such a faster time than Mt. Elbert by nearly
-two hours.
-
-As I stood there taking in the view and snapping photos of the surrounding area
-people asked if I could take their picture for them, which was a good icebreaker!
-I ended up chatting with a bunch of people, and was even offered a free beer. I
-spent a good 30-45 minutes up there, and even had cell reception. Soon it would
-be time to start heading back down though.
-
-Me and one other person left at the same time, and they helped set a good pace
-while going down. At one point they were practically flying over the rocks, and
-I matched their style. It ended up being surprisingly easy given how well the
-trail itself was maintained. I was worried about my knees, but the braces did
-their job. By 1:00 pm I was back down at the car.
-
-This was such an amazing experience with an easy hike up, a great group of fun
-and social people, and of course a free beer. It really helped to salvage the
-whole trip and turn it into a really positive experience. I would most
-definitely be coming back for more next year.
+This hike was a perfect contrast to my first 14'er: easier, social, and immensely rewarding. The combination of a manageable trail, friendly fellow hikers, and even a free beer made it one of the most positive experiences of the trip. I left knowing I would be returning next year to explore even more of Colorado's majestic peaks.

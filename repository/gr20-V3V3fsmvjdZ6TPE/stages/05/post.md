@@ -1,23 +1,9 @@
-Today would be easier than yesterday, as I filled myself up with a breakfast of hot chocolate, and bread-n-butter. I was able to move quite fast today as we left the Auberge. The trail went along a rocky trail as it curved its way through the trees around us, and provided lots of lookout points for us to enjoy the large expansive forested valley below. Several trees littered the ground, as we crossed over small rivers fed by waterfalls.
+Today promised to be an easier day than yesterday, and I started it with a breakfast of hot chocolate and bread with butter. I felt energized and ready to move quickly as we left the Auberge and headed onto the trail. The path wound through the trees and along rocky sections, offering plenty of lookout points to admire the expansive forested valley below. Small rivers fed by waterfalls crossed our path, and several fallen trees added some natural obstacles along the way.
 
-About 30 minutes later the trail turned from dirt to rock and began ascending up the steep mountainside as I took more frequent breaks on the way up. Luckily my knees were still doing great, but one of the knee pads' velcro was starting to fail.
+After about 30 minutes, the trail shifted from dirt to rock and began a steep ascent up the mountainside. I took frequent breaks to catch my breath, but my knees were holding up well, though one of my knee pad straps was starting to fail. Halfway up, we stopped at a large waterfall to refill our bottles and soaked our hats in the ice-cold water, which was as refreshing as it sounds.
 
-About halfway up we stopped at a large waterfall and filled up our bottles, and soaked our hats in the ice-cold water. Such a refreshing feeling!
+By 9:00 am, we reached the top of the col and finished the most challenging section of the day. The Mediterranean Sea was still visible from these high vantage points, a stunning reminder of how far we had come. We paused at Refuge Miori for a short break, where I tried my first Orangina, a sweet, fizzy drink similar to an over-the-top Fanta. The sugary boost was exactly what I needed for the remainder of the hike.
 
-We made it to the top of the col, and finished the hardest part of the trail today by 9:00 am. Amazingly the Mediterranean Sea is still visible from these high-up points. There is a refuge up here called Refuge Miori and we stopped there to take a break. I had my first Orangina sugary drink, like a Fanta they say, but on steroids. Regardless, it was delicious and gave me a nice boost of energy.
+The descent from Refuge Miori was much easier, mostly dirt with a gentle slope. We passed a pair of cows resting in the bushes and paused to take in the view behind us, amazed at how far we had climbed in just an hour. Along the way, we came across cascading waterfalls and even stripped down to our underwear to take a quick, ice-cold swim on a flat rocky platform. It was invigorating and perfectly refreshing.
 
-The trail coming down from Refuge Miori was relatively easy. It was mostly dirt, and had a nice easing slope to it. We passed a pair of cows chilling in the bushes as we made our way down. Near the bottom I paused and looked back, wow, such an amazing sight seeing how far we'd come in just 60 minutes.
-
-Up ahead were a series of cascading waterfalls, and one of these cascading areas had a large flat rocky entrance, which we decided to take full advantage of and stripped down to our underwear and went swimming in. Oh man was it cold, but such a refreshing feeling!
-
-As we continued on our way a herd of goats led by their owners started coming down a steep mountainside and onto the trail. We were delayed for a short while and had to move slowly as the goats made their way, and their owners tried to herd them away.
-
-After passing the goats we crossed a bridge and about 10 minutes later came to a small food stand that was selling cheese-filled pancakes and lasagna. We grabbed a table in the shade and treated ourselves to some of those cheese-filled pancakes, and they were delicious!
-
-We continued on through lush green forests and I ended up speeding through parts of the trail. Once at the hotel we settled in and busted out a deck of cards to pass the time.
-
-I bought some flip flops at the hiker shop for wearing around camp. The ones I had brought with me weighed nothing and were super thin, which was great for keeping my pack weight down, but they were too thin for walking around on this rough terrain at the campsites.
-
-This was the biggest and most delicious dinner of the trip so far. Steak with fries and egg salad, and dessert!
-
-Tomorrow promises to be the easiest day so far, but we'll see...
+Later in the day, a herd of goats and their owners crossed the trail, slowing us for a short while before we reached a small food stand selling cheese-filled pancakes and lasagna. The pancakes were delicious and provided a much-needed snack. We continued through lush forests, occasionally speeding up to enjoy the trail, and finally arrived at our hotel. There, we relaxed with a deck of cards, bought some sturdier flip flops for around camp, and enjoyed the biggest dinner of the trip so far: steak with fries, egg salad, and dessert. Tomorrow promises to be the easiest day yet, but I'm already looking forward to every step.

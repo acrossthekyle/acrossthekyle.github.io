@@ -1,9 +1,10 @@
 {
   "date": "July 27th, 2024",
-  "title": "Les Houches to Auberge Truc",
+  "title": "Up, Down, and Over the Col de Tricot: A Grueling First Day in the Alps",
+  "termini": "Les Houches to Auberge Truc",
   "image": "2024/07/27/ac7799bd-b2a8-4f77-8a8d-6d42a8740390.jpeg",
   "location": "France",
-  "excerpt": "", // Generate a brief excerpt from this in order to show underneath a blog photo:
+  "excerpt": "From punishing uphill miles to a rustic auberge filled with cowbells and camaraderie, this was a day that tested, and rewarded, us in equal measure.",
   "gain": "4781",
   "loss": "2440",
   "miles": "10.09",

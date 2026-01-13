@@ -1,15 +1,9 @@
-My near-death experience last night was a humbling experience, and it also energized me in a way I didn't see coming. I awoke from a very restful night of sleep, and headed downstairs to an empty dining hall. Nearly all of the guests had left in the early morning hours to do a sunrise trek to the top of the nearby Poon Hill.
+The near-death experience from the night before was deeply humbling, but it also sparked an unexpected sense of energy. I woke up after a long, restorative sleep and walked downstairs to an empty dining hall. Nearly everyone had already left in the early hours to hike up Poon Hill for sunrise.
 
-As I sat in the dining room alone, waiting for breakfast, one of the hikers from last night came down. I thanked them again for what they did, knowing I could never repay these strangers kindness.
+While waiting for breakfast, one of the hikers who had helped me the night before came in. I thanked them again, knowing there was no real way to repay that kind of selfless kindness. When it came time to order, I made sure to get as much warm food as possible, determined not to repeat the mistakes of the previous day.
 
-I ordered as much warm food as I could for breakfast.
+With a full stomach and a renewed appreciation for simply being there, I set off toward Chomrong and the beginning of the Annapurna Base Camp trek. Thick fog hung over the village as I left, and the trail felt unusually quiet since many people do not take this route. The stillness suited the reflective mood I was in.
 
-With a full belly, and renewed lease on life, I set out for Chomrong, and the start of the Annapurna Basecamp trek. It was a fog-filled morning as I left the village behind. The trail today would also be a bit empty as many people don't take this particular way to get to Chomrong.
+For several hours I walked through rolling hills wrapped in fog before emerging into a forest filled with leaves of every color. It felt like autumn back home. The area turned out to be a protected forest, and families were out hiking together, bringing a gentle, joyful energy to the trail.
 
-I must have walked through fog-covered hills for a good three hours before leaving it behind and entering a forest with leaves of all different colors. It felt like Fall back home. Turns out it was a forest preserve, and there were lots of families hiking through it.
-
-A little while later I came to a small set of teahouses and took a lunch break here. No repeating the mistakes from yesterday; eat when food is available I've learned. I had a big plate of pasta (nothing special) and a couple of colas before heading off into the jungle once more. After a short while I heard some noises in the trees, and looked up to see monkeys swinging from the branches! It was an awesome sight, but for some reason I was nervous about them being aggressive and I quickened my pace.
-
-After leaving the jungle the trail went down the side of a steep valley, and then back up the other side. A couple of hours later and I arrived in Chomrong. I must have gained more elevation (in total) today than I did yesterday, but for some reason today didn't feel as hard.
-
-I found a great place to stay that had awesome views of the valley and hills, and had some of the best food, including pizza, on this trip so far.
+After stopping at a small group of teahouses for lunch and fueling up properly, I continued on, this time into dense jungle. Monkeys suddenly appeared overhead, swinging through the trees, an incredible sight that also made me pick up the pace just in case. The trail eventually dropped steeply into a valley and climbed back up the other side, delivering me to Chomrong a few hours later. Despite gaining a surprising amount of elevation, the day felt lighter. I found a welcoming place to stay with sweeping views and some of the best food of the trip so far, including pizza that tasted especially earned.

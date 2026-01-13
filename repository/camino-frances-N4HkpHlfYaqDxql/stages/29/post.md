@@ -1,21 +1,11 @@
-I could not believe that this was it. Our destination which always seemed so far away, after traveling for so many days and so many miles, was finally upon us. It was raining so hard this morning that I thought someone had turned a fan on next to my head. Torrents and torrents of rain battered the roof as we got ready in the dark.  Maybe it was fitting that the start of the day would be filled with rain.
+I could hardly believe that we had finally reached Santiago. Our destination, which had always seemed so far away, was now in front of us after so many days and miles of walking. The morning began with a torrential downpour that felt like a fan blasting on my face. Maybe it was fitting that the start of our final day would be accompanied by such heavy rain.
 
-Luckily we did not get rained on while walking. Most of the morning was spent going through wet fields, through forests, and passed longhorn oxen. We took a quick stop in Monte de Gozo to see the monument there, and to get our first look at the towers of the Cathedral of Santiago.
+Fortunately, the rain eased as we walked. Most of the morning was spent moving through wet fields, shaded forests, and past longhorn oxen. We stopped briefly at Monte de Gozo to see the monument and catch our first glimpse of the cathedral towers in the distance. With each step into the city, the crowd of fellow pilgrims grew, all following the yellow arrows in silent determination toward the plaza. Bagpipes welcomed us through the old city tunnel, a Celtic tradition that added a mystical quality to our entrance.
 
-As we entered the city, the masses of pilgrims that we walked with continued to grow. It felt like we were all on autopilot: follow the arrows, one foot in front of the other, keep going until you see a big church. Before entering the plaza of the cathedral, we passed through the old part of the city. As is tradition, since Galicia is very Celtic in its roots and culture, we were played into the plaza by bagpipes in the tunnel before entering.
+Arriving in the plaza, I stood before the cathedral in disbelief. After so many days and miles, this was it. We took photos, shared hugs, and then collected our Compostelas, the official certificates marking the completion of the Camino. The reality sank in: the journey was over. There would be no walking tomorrow, just rest and time to explore the city.
 
-Upon arriving in the plaza and looking at the cathedral all I could say was “This is it?”. I could not believe that this was the destination after traveling for so many days and so many miles.
+We attended the Pilgrim Mass, which was entirely in Spanish, and watched the enormous incense burner swing dramatically over the congregation. Later, we celebrated at a local tapas restaurant with Crissi, Cerstin, Mauro, and Bianca, the original group from Hontanas. It felt strange not to worry about waking up early for another day on the trail.
 
-After several photos and hugs in front of the cathedral we headed off to get our Compostelas (certificates for completing the Camino). This is it. It's real. The journey is over.
+As night fell, Crissi, Mauro, and I returned to the cathedral. Its grandeur in the quiet of evening was overwhelming. Standing there, reflecting on the journey, I nearly felt tears welling up. I hugged Crissi tightly and thanked her simply: for the companionship, support, laughter, and shared experiences. Without her, this incredible journey would not have been possible.
 
-We would not be walking the way tomorrow, but instead would be taking a much deserved day to rest and explore the city.
-
-We had breakfast and headed for the Pilgrim mass. It was a nice ceremony (it was all in Spanish so I couldn't understand much), but they swung the giant incense burner, and man could that thing swing.
-
-We celebrated this momentous occasion at a local tapas restaurant in the center of the old city with our original group that set out from Hontanas nearly three weeks ago: Crissi, Cerstin, Mauro and Bianca. It felt weird not having to worry about getting up early to walk on the way tomorrow.
-
-After our goodbyes I decided to go to the front of the church.  I had intended on going alone, but Crissi and Mauro joined me. The church at night was even more impressive. I stood there staring in awe at the cathedral, reflecting on the journey. It nearly brought me to tears. I cannot fathom that this is over.
-
-I gave the biggest hug that I could to Crissi, and thanked her. Nothing dramatic, no fancy words, no glorious speech, simply "Thank you". Thanks for befriending me in Belorado. Thanks for saving me in Hontanas. Thanks for walking through the Meseta with me. Thanks for listening to me complain about work. Thanks for being a companion. And thanks for doing this incredible journey. I couldn't have completed this without you Crissi, thank you!
-
-Tomorrow we set out for Finesterre, and the zero mile marker.
+Tomorrow we will head to Finisterre, to see the zero mile marker and continue our small postscript to the Camino. But tonight, I allowed myself to simply stand in awe, grateful for every step that led me here.

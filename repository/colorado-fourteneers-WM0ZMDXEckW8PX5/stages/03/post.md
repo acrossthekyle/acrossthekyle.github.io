@@ -1,66 +1,11 @@
-My second year coming to Colorado to hike mountain peaks above 14,000 feet, and
-this time I opted to camp at or near the trailheads of all of the hikes that I
-planned on doing, so that I wouldn't have to wake up at 1:00 am to drive 3 hours
-to the starting point. Instead I could wake up at 4:00 am to drive 10 minutes.
+For my second year hiking Colorado's 14'ers, I decided to camp near the trailheads. This way, I could wake up at 4:00 am instead of 1:00 am and drive three hours. Just ten minutes to the start felt like a luxury after last year's early mornings.
 
-For my first 14'er of the year I chose La Plata Peak, named after the numerous
-silver mines in the area. It wasn't a very long out-and-back trail, but it was
-a more technically difficult trail than the two I had done last year. For those
-who may not know, the different trails that go up to the peaks of mountains
-are given classifications, with 1 being the eastiest, and 5 the hardest. The
-two peaks I did last year in Colorado were 1's, while La Plata was more of a 2.
+My first peak of the trip was La Plata Peak, named after the area's numerous silver mines. The trail wasn't particularly long, but it was technically more challenging than the hikes I completed the previous year. The trails are classified from 1 to 5, with 1 being the easiest. Mt. Elbert and the second 14'er I climbed last year were 1's, while La Plata rated as a 2.
 
-I wild camped about 1.5 miles from the trailhead, down a country road off of the
-county highway. I was alone in this area, and the next closest human was
-probably further down the country road at another wild camping site. But for me,
-where I was, it was dead silent. This would be my first time doing something
-like this, and I was definitely nervous.
+I set up a wild camp about a mile and a half from the trailhead. I was completely alone, surrounded by silence except for the sound of a nearby river. Sleeping on a slight incline made the night restless, but I woke around 3:30 am, packed up, and drove the short distance to the trailhead. I cooked a quick breakfast in the trunk of my rental SUV, noticing about ten other cars but few hikers on the trail.
 
-After a restless night of sleeping (I was on a slight incline but was too tired
-to re-setup the tent) I woke around 3:30 am in order to pack up camp, and
-drive to the trail head. It was quiet last night, only the sound of the rushing
-water from the nearby river provided any sort of ambient background noise. I had
-dinner while looking out of the mountain I was now going to attempt to summit.
+The climb started with two hours through thick forest before opening to a rocky wall crisscrossed with switchbacks. I didn't try to reach the sunrise point, but the morning light painted the surrounding peaks pink, making them look snow-covered even in early September. Emerging above the trees, I could see neighboring peaks and began hiking a saddle ridge toward the summit, spotting strange alpine plants and hidden patches of snow. Far below, a small mountain lake shimmered, a beautiful contrast against the rocky landscape.
 
-I prepared some oatmeal at the trailhead in the trunk of the SUV that I had
-rented for this trip. There were about 10 other cars in the parking lot, but
-I didn't see many people on the trail, at least not until the summit.
+I reached the summit around noon after about six hours on the trail. It was more crowded than I expected, with hikers whose cars I had seen in the parking lot. I lingered briefly to eat and take photos, but like on Mt. Elbert, social interaction was limited, so I headed back down. The descent took longer than planned when I ran out of water for nearly two hours before reaching a river. Luckily, I realized I had my filter the whole time and could safely drink. I ended the day with a fresh change of clothes, a quick stop at a larger river to refill, and a restful night at a last-minute campground.
 
-Yet another long trek through a thick forest to start the day. It took about 2
-hours to get through the trees, and when the terrain finally opened up I was
-greeted with a wall of rock in front of me that was criss-crosed by a ton of
-switchbacks. I knew I wasn't going to make it up high enough to watch the
-sunrise, so I didn't push myself too hard as I went up.
-
-As I got higher the pink light from the sunrise lit up the mountain tops and it
-looked like they were covered in snow, but it was early September so this was
-only an illusion. I may have missed the sunrise but I was able to watch it pour
-over the mountain peaks nearby.
-
-The view from the top of the switchbacks was very nice, I could start to make
-out different peaks around me instead of being blinded by thick forests. Now
-I began hiking up a saddle ridge towards the col at the base of the summit. I
-saw lots of new plants that looked strange to me, but I'm sure were plentiful
-at these alpine altitudes.
-
-Earlier I said that there couldn't be any snow at the peaks, but there definitely
-was some on the ridge I was hiking, albeit hidden in permanent shadow. Far below,
-and in the distance, I spotted a lovely little mountain lake. I don't know why,
-but I just love how they contrast for rocky world around them.
-
-I made it to the summit by noon, which meant about 6 hours on trail so far. Here
-were all of the people whos cars were in the parking lot, meaning it was a
-crowded summit. I lingered for a little bit, eating some food, and taking
-pictures, but much like Mt. Elbert I was feeling any sort of socialness from
-the other people up here so I packed up my things are started my journey down,
-planning on it taking close to 4 hours to complete.
-
-Unfortunately on the way down I ran out of water, and had to hike without a
-refill for nearly 2 hours before I came to a river back in the forest. I refilled
-my water bottles, but couldn't drink it because I thought I had left the filter
-in the car. Turns out, I was wrong, and I had the filter the entire time. Believe
-me I chugged a ton of water when I got back to the car.
-
-I snacked, changed into fresh clothes, and on my way out of the area I found
-a much larger river where I could stop and fill up again. I booked a last-minute
-campground spot on the way, and got a good nights sleep.
+Camping close to the trailhead made this experience feel more relaxed than my previous Colorado hikes. Despite the technical challenges of La Plata Peak, the combination of solitude, alpine scenery, and personal accomplishment made it a memorable adventure. I left the mountains feeling energized and ready for the next peak.

@@ -39,6 +39,7 @@ export default function get(slug: string, stage: string) {
       title: found.stages[previous - 1].termini.end.words,
     } : undefined,
     slug,
+    snippet: result.snippet,
     stats: result.stats,
     total: found.stages.length,
     title: result.termini.end.words,

@@ -1,9 +1,7 @@
-Today was a sun filled day, and we had some of the best mo-mo on trail today. It was a day filled with varied terrain as well. We're always gaining elevation every single day, but there's still plenty of long stretches where we're walking on flat terrain for a while.
+Today was filled with sun and some of the best mo-mo we've had on the trail so far. The terrain was varied, alternating between long flat stretches and constant elevation gains. We left Jagat and steadily climbed, following the side of a deep valley that offered a mix of lush scenery and small waterfalls along the way.
 
-We made our way out of Jagat and started gaining lots of elevation. Today would be mostly spent walking along the side of a deep valley. Plenty of little waterfalls dotted the trail today.
+After about four hours of steady climbing, the trail brought us to the riverbed we had been hiking alongside for the past two days. Walking along stony beaches toward a village perched on the water's edge, we stopped for a long lunch. The mo-mo here was hands down the best of the trip, a true highlight for half of us who are vegetarian. One of the local children spent much of the meal chasing their pet rabbit around, adding charm to the experience.
 
-After about four hours of going up and up and up, the trail too us along the river bed of the river that we had been hiking alongside for the past two days. Here we walked along stony beaches towards a village perched along the waters edge. This is where we had the best mo-mo so far of the trip, and we've been sure to have mo-mo everywhere we go since half of us were vegetarians. And it was so darn good!
+After lunch, it was back into the mountains as the trail began to climb again. Two hours later, we arrived in Dharapani. Finding an affordable place to stay took some effort, and the village experienced intermittent power outages throughout the evening, a common occurrence in Nepal's mountains.
 
-Once we left our long restful lunch, where one of the kids who lived there spent most of the time chancing their pet rabbit around, it was time to start getting back into the mountains once more. About two hours later and we arrived in Dharapani. We struggled to find an affordable place to stay, but eventually found one. The power also went in-and-out tonight at this village (apparently this is common in the mountains of Nepal).
-
-I can't remember much of today, partly because I didn't take many photos nor a journal.
+Although the day's details blur a bit in memory, the combination of sun, scenic valleys, riverbeds, and memorable mo-mo made it another unforgettable day on the circuit. It reminded us that some days are best experienced rather than documented.

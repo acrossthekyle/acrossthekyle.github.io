@@ -1,76 +1,11 @@
-I had first learned about 14'ers (mountain peaks above 14,000 feet) from
-someone that I had met on the Tour du Mont Blanc thru-hike in 2018 who told me
-that if I liked hiking in the mountains on the TMB (which I did) then I would
-also like Colorado, a place I had never even thought of vacationing to. It would
-take almost a year before I worked up the courage to go on a solo vacation in
-the States and attempt to summit one.
+I first learned about 14'ers, the mountain peaks that rise above 14,000 feet, from someone I met while hiking the Tour du Mont Blanc in 2018. They mentioned that if I enjoyed hiking the high trails of the TMB, I would love Colorado, a place I had never considered visiting. It took nearly a year before I finally worked up the courage to take a solo trip to the United States and attempt to summit one of these towering peaks.
 
-After doing a good amount of research on what to bring with me while on the
-trail to the summit, where to stay, and transportation logistics I booked my
-flights, reserved an AirBnb in Denver, and set out with mixed feelings. I was
-excited to be going, but nervous since I didn't know what to expect from the
-trail itself. This trip was also a test of my physical endurance to see how well
-my body handled being above 10,000 feet, which is when Acute Mountain Sickness
-(or AMS) sets in, and it can definitely be a mood-killer, literally. If I
-couldn't do this, then I would have to cancel my Annapurna trip that I had booked
-for a couple of months from now, since those elevations go above 18,000 feet.
+After researching what to pack for the trail, where to stay, and how to manage transportation, I booked flights and reserved an Airbnb in Denver. Excitement mixed with nerves filled me as I prepared for the unknown. This trip was also a test of my body's endurance at high altitudes. I wanted to see how I would handle elevations above 10,000 feet, where Acute Mountain Sickness can make every step feel heavier than the last. Success on this hike was critical, as I had a planned trek in the Annapurna region just months away, where elevations rise above 18,000 feet.
 
-Of all the mountain peaks available, of which there are more than 50 above
-14,000 feet, I chose Mt. Elbert as my first. It was the tallest in the state of
-Colorado, because I figured go big or go home right? If you're going to do it,
-might as well do the biggest one first. I was too excited the night before doing
-it and I didn't get my sleep.
+I chose Mt. Elbert as my first summit. Being the tallest peak in Colorado, I figured I might as well start big. The night before the hike, my anticipation kept me awake, and I barely got any sleep. I left Denver at 2:00 am, driving the empty highways to the trailhead while listening to an 80's retro station. The road was rough with potholes, but the rental car managed it without trouble.
 
-I left Denver around 2:00 am for the two and a half hour drive out to Mt. Elbert.
-The roads were empty as I tuned into the only radio station that worked all the
-way there: an 80's retro station. I hadn't given much thought to the car that I
-had rented, but it made it up and down and up the mountain highways. The road
-leading to the trailhead was full of potholes, some pretty deep, and it was a
-rough ride but the car made it.
+Arriving at the trailhead around 4:30 am, I was relieved to see other hikers preparing as well. The parking lot quickly filled, a testament to the trail's popularity. Once suited up, I started the ascent, immediately feeling the strain of the altitude. The forested trail lasted about two hours, and I had to stop frequently to catch my breath, though thankfully there were no signs of altitude sickness. I remained alert for bears, especially when I was alone in the dark, finding comfort whenever a distant headlamp appeared.
 
-It was about 4:30 am when I arrived at the trailhead. Thankfully I wasn't the
-only one here, and several other people were gettign ready and heading out
-ahead of me. The parking sure was filling up fast. Must be a popular trail.
+Breaking above the treeline in time for sunrise was a magical reward. I paused to savor the moment and eat a protein bar before continuing. The climb ahead included multiple false summits, and each glimpse of the peak forced me to stop repeatedly to regulate my breathing. Finally, around 10:00 am, I reached the true summit. The 360-degree views were breathtaking, and the sense of accomplishment was overwhelming. I lingered for thirty minutes to eat lunch and soak in the scenery before starting my descent to avoid the predicted afternoon thunderstorms.
 
-I suited up, locked the car, and set out from the trailhead. Right away I could
-tell that I was going to be hurting by the end of this. The trail up through
-the woods lasted about two hours before leaving the trees behind. It was rough,
-not because of technicality, but because of the elevation. I had to stop often
-to catch my breath, and I was breathing very heavily. But no signs of AMS, so
-I kept going.
-
-Worried about bears I kept checking left and right, and behind me,
-a lot. I was alone in the dark for a good portion of it, and anytime I saw a
-headlamp light in the distance I felt better knowing there were others nearby.
-
-Luckily I made it above the treeline just in time to catch the sunrise. This
-wasn't my first time seeing a sunrise in the mountains, but it's still magical
-every time. I enjoyed this peaceful moment for as long as I could, and snacked
-on some protein bars.
-
-The ascent ahead of me was going to be rough, and going to take a while. I knew
-this peak had multiple false summits, but that didn't stop me from getting my
-hopes up everytime I thought I saw the top. As I went I had to stop every 30-60
-seconds in order to let my heartrate go down, and to catch my breath.
-
-Even when I could see the true summit I had to pause before reaching it. I made
-it to the top around 10:00 am. This was my first time truly being very high up,
- and the 360˚ views did not dissapoint. I was overjoyed with having conquered
- this obstacle, and it was a great feeling to know that I could do it!
-
- Sadly I didn't feel any kinship with anyone at the top as they were in their
- own groups, so I hung out for about 30 minutes as I ate my lunch I had put
- together the night before. By 10:30 am it was time to start heading down in
- order to avoid afternoon thunderstorms that people in online forums had
- warned about.
-
- I could see the trail laid out ahead of me and it made me feel so small. Going
- through the trees once more wasn't the best part because I was so tired and
- hungry, and the trees seemed to last forever. It didn't seem this bad on the
- way up in the dark... Plus with the rising temperatures it was starting to feel
- much more stuffy and claustrophic while powering down the trail through these
- trees.
-
- It would take about 4 hours before I got back to the car at the trailhead.
- Exhausted, I got in and prepared for the 2.5 hour drive back to Denver. I made
- pasta for dinner and then collapsed into bed.
+The trail back through the trees felt longer and more exhausting than the ascent, with the rising heat making the forest feel stifling. After about four hours, I finally returned to the car. The drive back to Denver gave me a chance to reflect on the day, and a simple pasta dinner followed by collapsing into bed was the perfect ending to an unforgettable adventure.

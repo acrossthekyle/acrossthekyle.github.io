@@ -1,21 +1,9 @@
-We wished our hostesses a fond farewell, thanked them for the best dinner music, and began the hike up to our last Col of the trip.I didn’t wait around for the others as I marched up the trail. Most of the ascent was done from within the cover of trees, so I didn’t get a good look at the receding village or valley floor as I went up.
+We bid farewell to our hostesses at Refuge du Peuty, thanked them for the unforgettable dinner and music, and set off for the final Col of our trek. I surged ahead of the group, hiking through the tree-covered trail, where the receding village and valley floor were hidden from view. Once I broke above the treeline, the vistas returned in full force: mountains plunging dramatically toward the valleys below, dotted with pink wildflowers and abandoned houses.
 
-Once above the trees the views returned to me. Oh how I missed them. I don’t think I’ll ever get used to seeing the sides of mountains as they shoot towards the ground below them.
+Our destination for the morning was Refuge du Col de Balme, a remote building perched where Switzerland meets France. Here, the border felt purely symbolic; nature knows no lines. From this vantage point, Mont Blanc came into sight again after nearly nine days, a majestic reminder of the journey we had undertaken.
 
-Several pink flowers dotted the landscape, as well as an abandoned house, as I continued on up to the loneliest looking of buildings at the Col de Balme.
+We continued across rolling hills toward Aig des Posettes, today's high point. The climb was mostly easy, with only minor scrambling, and the skies were alive with hang gliders drifting gracefully above. We paused on the rocky terrain to enjoy snacks composed of chocolate, banana chips, and nuts, soaking in the incredible panorama of mountains stretching in all directions.
 
-It was here at Refuge du Col de Balme that the Swiss world blended in with the French world. Switzerland on one side, and France on another. Borders exist only on paper. In nature, they are invisible and there is no distinction from one side of a field to another. Except for this one, because dead ahead was the massif of Mont Blanc. It had taken nearly 9 days, but we were finally in sight of it once more.
+The descent back under the tree cover was gentle yet physically demanding. The trail shifted from rocks to sandy dirt to leafy paths, each surface cushioning the impact on weary legs and knees. Switchbacks wound down toward the Auberge where we would spend the night, marking the close of another incredible day on the TMB.
 
-We worked our way down and across the tops of rolling hills towards the Aig des Posettes, the high point of todays hike. It was a mostly easy hike up to the top, with only minor scrambling at some points.
-
-Above us hang gliders had taken to the skies as we sat down on the rocky ground and broke out our snacks: chocolate, banana chips, more chocolate, and some nuts.
-
-I can’t believe that this trek is almost over. There’s only a few more days on the TMB. It has been an amazing experience and journey so far.
-
-The hike down wasn’t that bad, but it was just as tough as some of the others. It wasn’t long before we were safely under the cover of the trees again. The sun was high in the sky by this point and it was shaping up to be a warm day. More switchbacks as we made our way down. I was glad that the ground changed from rock to sandy dirt to leaves. It made the impact of the foot with the ground a lot easier to handle.
-
-We found our way easily enough to the Auberge for the night. I said goodbye to Laura (USA) since she was continuing on to another town and ending her hike a day early.
-
-I learned to play Taki (the Israel version of Uno), and had a good dinner with some Dutch people. Learned that tafle is Dutch for table.
-
-The setting sun lit up the sky in a bright purple, and the mountains glowed a beautiful pink.
+Evening brought rest, games, and connections with fellow hikers. I learned to play Taki (the Israeli version of Uno) and shared dinner with Dutch companions, picking up a few words in the process. As the sun set, the sky erupted in bright purple and the mountains glowed pink, a perfect ending to a day filled with awe-inspiring views and the quiet satisfaction of being deep in the heart of the Alps.

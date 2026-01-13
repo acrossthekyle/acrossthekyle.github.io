@@ -1,29 +1,9 @@
-For my second hike of this trip out to Colorado I chose an easier summit, Mt.
-Bierstadt, and a later starting time of 6:00 am (partly because I had to drive
-an hour from the campground to it). This was another class 1 route, with a
-lot of scrambling over boulders near the summit, but nothing too crazy. The most
-unique thing about this 14'er was the massive and paved parking lot, which was
-already overflowing by the time I showed up at 6am.
+For the second hike of my Colorado trip, I chose an easier summit, Mt. Bierstadt, and planned a later start at 6:00 am since I had to drive about an hour from my campground. This class 1 route involved some scrambling over boulders near the summit, but nothing too challenging. One of the most striking features of this 14'er was the massive paved parking lot, which was already overflowing by the time I arrived.
 
-The trail was very crowded already, but that's what you get for choosing a peak
-that is really close to a major city and has a paved road all the way to the
-parking lot. Makes it an easy day-hike for the locals.
+The trail was crowded, but that's to be expected for a peak so close to a major city with easy access. The first hour of the hike was pleasantly flat, winding through prairies dotted with bushes, small lakes, and streams. A boardwalk at the start made crossing streams simple while protecting the local vegetation. I loved this section and paused often to take photos of the idyllic landscape.
 
-It was a nice flat trail for the first hour or so, through prairies filled
-with bushes, along small lakes and streams. There was even a board walk for
-the first little bit so that you wouldn't disturb the local vegetation, and
-to make it easier to cross the many streams. I really enjoyed the start to this
-trail, it was very idyllic and I took lots of photos of it.
+Once I reached the base of the mountain, the trail turned into switchbacks leading to the boulder-strewn top. With total elevation gain in the 2,000-foot range, I reached the summit by 10:30 am. It was a surprisingly quick and easy climb compared to some of the other peaks I had tackled.
 
-Once the trail reached the base of the mountain, it turned into switchbacks all
-the way to the boulders near the top. The total elevation gain was somewhere in
-the 2,000's, and by 10:30 am I was already at the top. Wow, such an easy climb!
+At the top, I met a few fellow hikers and enjoyed the views, though the summit quickly filled with more people arriving. The descent required minor scrambling and some wayfinding, but following other hikers made it straightforward. The trail was fast and easy, a relief as the temperature started rising.
 
-I made some friends at the top, but the peak started to get crowded fast as more
-and more people showed up, so I didn't stay long. There was some minor scrambling
-on the way down, and wayfinding was a little rough but I generally follow other
-people in this situation. It was an easy and fast descent back to the car, and
-a good thing too because it was starting to get really hot out.
-
-I really enjoyed this hike, and the area. The Colorado plains and skies, the colors
-are just amazing.
+Mt. Bierstadt offered a very different experience from my other hikes. The combination of open prairie, alpine lakes, boulder scrambling, and wide-open skies made it a beautiful and accessible day hike. I left feeling refreshed and grateful for the simpler side of Colorado's 14'er adventures.

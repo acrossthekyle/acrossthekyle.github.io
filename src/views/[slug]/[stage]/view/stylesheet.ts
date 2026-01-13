@@ -1,6 +1,10 @@
 import tw from '@/styles';
 
 const styles = tw({
+  heading: `
+    font-bold
+    mb-4
+  `,
   figure: `
     mt-8 mb-6
   `,

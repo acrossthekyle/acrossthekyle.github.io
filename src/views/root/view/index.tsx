@@ -37,13 +37,13 @@ export default function View({ data }: Props) {
         </HeaderHeading>
         <HeaderSection>
           <Paragraph>
-            Hey all, I'm Kyle.
+            Hey, I'm Kyle.
           </Paragraph>
           <Paragraph>
-            I live on the lands belonging to the <span className={styles.emphasis}>Potawatomi</span>, <span className={styles.emphasis}>Ojibwe</span>, and <span className={styles.emphasis}>Odawa</span> &mdash; otherwise known as the city of <span className={styles.emphasis}>Chicago</span>, and I've spent the past {new Date().getFullYear() - 2012} years building parts of the web that you probably use today, and the last {new Date().getFullYear() - 2018} years exploring the world. These are my wanderings.
+            I live on the lands belonging to the <span className={styles.emphasis}>Potawatomi</span>, <span className={styles.emphasis}>Ojibwe</span>, and <span className={styles.emphasis}>Odawa</span> &mdash; otherwise known as the city of <span className={styles.emphasis}>Chicago</span>, and I've spent the past {new Date().getFullYear() - 2012} years building parts of the web that you probably use today, and the last {new Date().getFullYear() - 2018} years exploring the world.
           </Paragraph>
           <Paragraph>
-            Follow me on <Link
+            Follow my wanderings on <Link
               aria-label="view instagram profile"
               className={styles.link}
               href="https://instagram.com/acrossthekyle"

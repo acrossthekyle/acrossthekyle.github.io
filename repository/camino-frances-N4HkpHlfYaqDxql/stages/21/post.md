@@ -1,35 +1,9 @@
-Sleep escaped my grasp in the hot, stale, attic that they called a dormitory. Echos from the bathrooms below forced us to close the door, cutting off the only circulation that kept the temperature in the room bearable. There were two gables at either end of the room each with one small window, but they were not up to the task of providing enough fresh air.
+Sleep was elusive in the hot, stale attic dormitory. The faint echoes from the bathrooms below forced us to close the door, cutting off the only airflow that kept the room tolerable. Two small gable windows barely helped, and by 6 a.m., vibrations from a nearby pillow pulled me out of what little rest I had managed. Gear packed and ready, I joined the others in the landing outside our room and we quietly roused the rest of the building as we prepared to leave.
 
-The gentle vibrations underneath my pillow at 6am pulled me away from what little sleep I was able to achieve. It was still dark out as I set my glasses down on the ledge beneath the open window in the bathroom, and got myself ready for the day.
+Without breakfast available at the albergue, we headed out into the early morning streets, making a quick stop at an ATM before walking past the cathedral and out of the city. A tree-lined road led us over a highway toward Murias de Rechivaldo, before farm fields stretched ahead toward Santa Catalina de Somoza and our breakfast at Albergue El Caminante. White gravel paths ran alongside black roads, bordered by green trees and patches of rock, forming the landscape for most of our morning.
 
-Some of the people were still sleeping as I carried my gear out of the room and dropped it in the small landing area outside the door. Others followed suit, and before long we were making so much noise that the rest of them woke up.
+A surprising encounter awaited at a small turn into the woods. A man dressed as a knight in chainmail offered donations for Asociación Gaudisse, complete with a tame hawk perched nearby. Each of us took a turn meeting the bird, marveling at its calm demeanor. After this playful detour, the path led uphill through uneven earthen trails and the trees, eventually bringing us into Rabanal del Camino. Here, persistence paid off as we discovered The Green Garden, a shaded oasis with chaise lounges, friendly dogs and cats, and cheap ice cream. While tempting to camp here under the stars, the outdoor bathroom convinced us otherwise.
 
-No breakfast was available at this place, so we saddled up and headed out to the street below. Our first stop  on the way towards the cathedral was the ATM in order to load up on cash. We met up with Maddy and her sister was we walked past the cathedral and headed out of town.
+The next leg of the walk was a steep scramble over rocks and rough terrain, which Cerstin aptly dubbed "Auf Stein," meaning up stone. The sounds of the nearby road were a reminder that nature's serenity was fleeting, yet the small shelter with a natural fountain offered refreshing relief. Hours later, we reached Foncebadón, a town of crumbling ruins alongside new construction, a reminder of the Camino's enduring revival. The Druid-themed albergue welcomed us, reuniting us with friends we had lost along the way.
 
-A small road lined with trees took us out of the city, and over a highway to Murias de Rechivaldo. It was too early to stop for breakfast, and without pause the march continued through farm fields towards Santa Catalina de Somoza, and breakfast at Albergue El Caminante.
-
-White gravel paths, just a few feet from a road that was as black as night, consumed the view during todays walk. The surface of the ground surrounding this path and road was mostly scraggly rock. Green trees on our right, white ground beneath our feet, and black roads to our left. This was the landscape for most of the morning.
-
-After a while The Way detoured to the right, over a small bridge, and into the trees. Here, at this turn of the path just before it entered the woods, stood a multi-colored tent with a box for donations. I thought it was a small snack stand, but I failed to notice that there was a hawk sitting on a perch five feet away. I also failed to notice the man dressed as a knight in chainmail, and all of his replica medieval weapons.
-
-Turns out he helps collect donations for Asociación Gaudisse. His shtick is to dress as a knight, and allow passing pilgrims to pet the hawk. We each took turns with the hawk, even those of us who were too scared to touch it. The bird was very well behaved.
-
-The next leg of our journey that morning took us uphill through trees and over uneven terrain. An earthen path followed the road at a distance through the trees. Finally we left the road behind, and entered Rabanal del Camino.
-
-I convinced my camino friends to keep walking further into town instead of stopping at the first spot we saw, and we were rewarded for this persistence with a wonderful oasis at The Green Garden. It had comfortable woven chairs and cushioned chaise lounges under the trees, free tents for camping, cheap ice cream and Coca Cola, and plenty of dogs and cats to pet and treat with left overs from our bocadillos.
-
-We honestly thought about camping here under the stars, since it was free, but we took one look at the outdoor bathroom and collectively said “Nope”.
-
-Some of our group decided to relax for a little while longer, and the rest of us continued on and began the hike up, up and up. Somewhere along the way, as we were scrambling over some rocks, Cerstin decided to invent a new word for this called Auf Stein (Up Stone).
-
-The road was never far away, and the sounds of cars going by slightly ruined the ambience of nature.
-
-Further up there was a small shelter with the words “Walking Proud” written on the roof, and it had a small natural water fountain in front of it. I washed my head in those cold refreshing waters; a much needed reprieve from the sun and heat.
-
-Up and up we went through the woods over streams, rocks, and fallen trees. A couple of hours later we arrived at Foncebadón. There are so many ruined buildings, and outlines of structures that once stood here. This used to be a large town in the past, and it had all but been forgotten about until the revival of the camino several years ago. Now there is new construction every which way you turn.
-
-We checked in to a Druid themed Albergue, and found some of our other friends whom we had become separated with earlier in the day. Dinner was a burger across the street at a bar while we watched some of the World Cup. We tried to watch the sunset from up here, but the clouds did not cooperate.
-
-It was very humbling to be able to stand on the grassy hill behind our Albergue after the sun had begun to set, and see all of the towns we passed through today lite up. The sunrise from up here is going to be epic. I can’t wait. I’m also looking forward to tomorrow and the Cruz de Ferro, which is where you leave the stone, and any stress, that you’ve been carrying with you since the beginning of the Camino.
-
-Or so they say...
+Dinner was a simple burger across the street, while the World Cup played on and clouds obscured the sunset. Standing on the grassy hill behind the albergue, watching the towns we had passed through light up, was humbling. Thoughts turned to tomorrow and the Cruz de Ferro, where pilgrims leave stones symbolizing burdens carried since the start of the Camino. The anticipation of sunrise and the ritual of release made the climb worth every exhausting step.

@@ -1,17 +1,9 @@
-A chilly morning started the day. It's day seven, and that means there's roughly seven more days to go. The trail has been hard but I am enjoying it. We had a slow start to the day once we got going. The way out of the refuge led towards a mountain ridge in the far distance, but first we had to navigate some more more bog-like ground.
+Day seven started with a chilly morning that hinted at the long day ahead. The trail out of the refuge led us through boggy ground before beginning the climb toward a distant mountain ridge. The sun was still rising, leaving the trail in shadow as we carefully navigated shrubs and rocks. At one point we took a wrong turn and had to backtrack, but eventually we reached the top after about two hours. The stony summit offered a well-earned break, with a dizzying drop stretching out below us.
 
-The trail went along shrubs and rocks as it wound its way up towards the ridge. We took a wrong turn at one point and had to double back, losing some time. The sun was rising behind this ridge, and thus the whole trail was in dark shadow. It took us about two hours to get to the top, where we took a well-deserved break on the stony ground, with a huge dropoff danging below us.
+The descent to the next ridge was more manageable, though some sections required scooting down on our butts, and chains helped us navigate the trickier spots. We chose the lower route over the upper section, avoiding sharp, jagged rocks. From there, the trail ran along the mountainside, windy and cold, as we followed the contours of the ridge.
 
-The way down to the next ridge wasn't that bad. There were some drops were we had to scoot down on our butts, and rely on some chains for the other parts. There were two parts here: a lower and an upper, and we decided to take the lower route instead of scrambling over sharp-looking rocks on the upper portion.
+After about an hour and a half, the flat trail ended and it was time for another ascent, this time to a snow-patched area with icy waters. I dunked my feet into the freezing water to refresh them, careful not to go in fully as the water was a bit murky. Refreshed, I continued toward the next refuge for the night, descending steep switchbacks and slippery rocks along the way.
 
-We continued along the trail that ran along the mountainside. It was windy and very chilly in this area. About an hour and a half later the flat section of the trail was done and it was time to start the ascent to a snow-patch covered area with ice-cold waters, perfect for dipping your feet in. The waters were too dirty to fully get into, but they were just right for feet.
+The campsite promised another challenging night for tents, as the ground was hard-packed and required rocks to hold down stakes. Despite that, the refuge itself offered some much-needed comforts, including sundaes, eggs, and fries for lunch. I enjoyed a plate piled high, along with a soda and a sundae, without a hint of guilt.
 
-With cold refreshed feet I continued on towards the descent into the next refuge for the night. The way down was a lot steeper than it looked from high above, and it was filled with switchbacks (very steep switchbacks), and waterfalls, making the rocks extra slippery. But I made it down faster than I thought I would.
-
-I could tell that it was going to be a windy night for those in tents. I still haven't figured out how to properly pitch the tent, and that's also probably due to having to use rocks at every campsite because of the hard-packed ground. I hope they hold.
-
-This refuge has Sundaes, and eggs! I ordered a plate of fries on top of fried eggs, a coke, and a sundae for lunch. Super healthy, right? I didn't care, it was amazing and it hit the spot.
-
-Dinner was pre-assigned seating, which meant our group wouldn't be sitting together. Everyone is amazed that I came all the way from Chicago just to do this trek. I still haven't met any other Americans though.
-
-After dinner our gang played some more card games. Supposedly the refuge tomorrow has amazing lasagna, so I'm definitely looking forward to that!
+Dinner was served with pre-assigned seating, so our group was split up, but the conversation was lively nonetheless. Fellow hikers were amazed that I had come all the way from Chicago just to take on this trek. Afterward, we played cards together, and everyone is looking forward to tomorrow's refuge, which reportedly serves amazing lasagna. It was another day filled with adventure, breathtaking views, and moments of camaraderie on the trail.

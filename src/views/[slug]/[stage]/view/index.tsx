@@ -62,7 +62,10 @@ export default function View({ data }: Props) {
             </Link>
           </LayoutAside>
         )}
-        <Article ariaLabelledBy="main-heading">
+        <Article>
+          <h2 className={styles.heading}>
+            {data.snippet}
+          </h2>
           {data.description.map((paragraph, index: number) => (
             <Fragment key={paragraph}>
               <Paragraph>

@@ -1,29 +1,9 @@
-The storks nesting in the bell tower of the church next to the albergue were still sleeping when the sun rose and covered the city in a warm glow. I set out earlier than the others to take a short meandering walk through the narrow stone streets of the old city. They took me to the east end of the queen's bridge that led out of town.
+The storks in the bell tower of the church next to the albergue were still asleep as the sun rose, casting a warm glow over the city. I set out ahead of the others for a quiet walk through the narrow stone streets of the old city, eventually reaching the east end of the queen's bridge that led out of town. On the far side, green-covered hills stretched into the distance, contrasting sharply with the stone streets behind me. I paused to take it all in, but familiar voices called my name. Tania, Shelby, and Alex were crossing the bridge, and I asked to join them for the day. They would become my Camino companions for the next several days.
 
-The green-covered hills on the far side stood in contrast to the stone-made world behind me. I turned around after crossing the bridge and took in its beauty.
+Autumn-colored fields greeted us as soon as we left the bridge, and the terrain remained relatively flat after crossing the highway that separated the last hills from the next village. A short detour through the village brought us to gently rolling fields of grain, small hills, and patchworks of farms. Low stone walls bordered the trail as it snaked past groves of trees, guiding us toward breakfast in Cirauqui. The medieval hilltop city rose above the fields with walls at its base and roads that wound in every direction.
 
-Some familiar faces called out my name and pulled me back from the trance that the bridge was holding over me. Tania, Shelby, and Alex were just coming across the bridge and heading out. I asked if I could join them on todays walk. They would become my new Camino companions for the next several days.
+After breakfast, we continued alongside a highway, passing under bridges, through valleys, and even a cat perched precariously on a fence. An hour later, we entered Villatuerta and paused at the Plaza Mayor to rest. Once the others arrived and our bellies were full, we left for the evening's destination. Beyond the town, a lone mountain seemed to watch over us as we walked through empty fields, taking the long route around a small church standing in the middle of the landscape. The dirt path gradually resolved into the road leading into Estella.
 
-Autumn-colored fields and hills greeted us as soon as we left the bridge behind. However relatively flat ground was once again laid out as far as the eye could see after crossing the highway that separated the last of the colorful hills from the village beyond.
+On the outskirts of the city, a massive half-ruined church caught my eye. I photographed its smoothly rounded pillars through the gate before rejoining the group near a town map. We debated whether to keep walking or stay in Estella. Though we had arrived early, the albergue we initially found was unwelcoming, so we turned back into the old city, tucked behind stone walls and tightly packed houses. Our beds overlooked the street from a second-floor balcony, offering a peaceful view.
 
-After a short detour through this village the landscape was full of mostly gently rolling fields of grain, small hills, and patchworks of small farms. A low stone wall bordered the trail on the right as it snaked its way past groves of trees.
-
-Breakfast was in a city called Cirauqui on a hill that rose up from the ground in the distance. It felt medieval with walls at the base, and roads that went in all different directions as they worked their way up from the flat ground to the top.
-
-Poppy fields and a rest spot with a reading area welcomed us as we left the hilltop city behind.
-
-We continued alongside a highway for most of the morning while going under bridges, down into small valleys, and passing a cat on a fence trying to find its way down. An hour later we passed under a stone bridge crossing and made our way into Villatuerta.
-
-At the Plaza Mayor we let our feet rest, and waited for those who were behind us. Once the others arrived, and our bellies had some food in them, we left for our destination and place of rest for the night.
-
-A mountain in the distance kept its watchful eye on us as we left town and walked out into empty fields. We took the long way around a lonely small church standing in the middle of these fields as the dirt path slowly resolved into the road to Estella.
-
-On the outskirts of the city was a massive half-ruined church. I stuck my phone through the metal gate on the side in order to photograph the smoothly rounded pillars as they stood in the tall grasses that now covered what was once the interior of this old building.
-
-I rejoined the others near a map of the town on the other side of the road. It was here that we needed to make a choice since we had arrived so early: either keep going until we got tired and found a town to stop at, or stay here in Estella. We decided to keep going, but the Albergue looked less than welcoming so we turned back.
-
-We went to the old city, which was hidden behind a stone wall and tightly packed houses. It was much quieter here, away from the hustle and bustle of the fast moving world several hundred feet away. Our beds were on the second floor looking out over the street through balcony doors.
-
-Once we had settled in, we went to the bar across the street to snack and drink. Because today was a mostly easy one, we had arrived quite early in the afternoon, and retreated to our beds shortly afterwards. Down in the streets below someone was playing the Spanish guitar as we fell asleep for an afternoon nap.
-
-The bar across the street was still open when we woke up. We played card games (Shelby taught us Yanev), drank some calimochos, and relaxed by the waters edge. Afterwards we found a pizza place for a quick meal. Today was a mostly uneventful day, and I can't wait for walks through rolling fields and clear blue skies. Hopefully we get to experience these things tomorrow as we make for Los Arcos.
+With the day mostly done, we headed across the street to a bar for snacks and drinks. An afternoon nap followed, with the sound of a Spanish guitar drifting up from the streets below. Later, we played card games, enjoyed calimochos, and had a quick pizza dinner. It had been a relatively uneventful day, but full of calm and charm. Tomorrow promised walking through rolling fields under clear blue skies as we made our way to Los Arcos.

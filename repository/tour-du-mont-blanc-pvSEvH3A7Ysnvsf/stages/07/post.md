@@ -1,6 +1,6 @@
 We started the morning with another great Swiss buffet: cappuccinos, strawberry yogurt with fruit, and fresh bread buns with butter and jam.
 
-Today was billed as a 'rest day', but the trail had other ideas. The morning began with a beautiful, flat stretch along a river and through dense woods. With the mossy rocks and towering pines, it felt exactly like the Pacific Northwest. We passed through a charming old Swiss village (possibly L’A Neuve or Issert) filled with traditional wooden houses that looked like they belonged in a storybook.
+Today was billed as a 'rest day', but the trail had other ideas. The morning began with a beautiful, flat stretch along a river and through dense woods. With the mossy rocks and towering pines, it felt exactly like the Pacific Northwest. We passed through a charming old Swiss village (possibly L'A Neuve or Issert) filled with traditional wooden houses that looked like they belonged in a storybook.
 
 While our roommates Mackenzie and Caitlyn decided to take the bus because they heard this section was 'boring', we stuck to the path. After the flat start, the trail began to climb. Honestly, it was exhausting.
 

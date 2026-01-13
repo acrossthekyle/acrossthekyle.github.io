@@ -1,53 +1,9 @@
-Everyone was still sleeping when I woke up. After one last check in the locker I rolled up my sleeping liner and headed to the cafeteria to see what they had for breakfast. All they had was cold food consisting of cereal and toast, which was fitting for my current mood. I sat alone at a long table with my bag next to me, trying to eat as much as I could.
+I woke early to a quiet Albergue and headed to the cafeteria for a cold breakfast of cereal and toast. A quick check of my locker revealed that I'd forgotten my towel, but Tania was awake to hand it to me, and I gave her one last hug before saying goodbye. Stepping out into the crisp morning air, I realized that I had no idea how to leave the city. Without a guidebook or anyone ahead to follow, I found the river and followed it blindly, my panic slowly subsiding as markers reappeared and I spotted other pilgrims in the distance.
 
-Shit! I realized I had forgotten my towel. It was probably hanging off the end of the bed back in the room. Luckily Tania was awake and answered the door after a few soft taps. I gave her another firm hug before saying goodbye for good. This was getting real now.
+The walk out of the city brought me to the green fields and gravel paths I had grown to love, but also a stark reminder of solitude. A cracked pink heart etched into a stone marker perfectly captured my feelings as I left everyone behind. I pushed on, stopping briefly in Tarjados for breakfast and water, then continued through Rabé de las Calzadas, unaware that the Meseta heatwave and swarms of flies awaited me. Yet there were silver linings: hundreds of white butterflies surrounded me on a hill, keeping the flies at bay and turning the long, grueling day into something almost magical.
 
-I took the stairs down to the street below, and stepped out into the cold air. The city was slowly waking up.
+Hornillos del Camino offered a welcome break. I rested on a bench, enjoyed a sandwich by the church fountain, and sipped a cold beer while soaking up the sun. Beyond the town, the flat Meseta stretched endlessly, barren and filled with flies. False promises of rest stops and shelter buildings wore me down until, finally, Hontanas appeared like a mirage. Nestled below the surrounding terrain, the town rose gradually from the horizon, offering sanctuary after one of the hardest days I'd faced so far.
 
-At this moment I realized that I had no idea how to get out of the city. Everyone that I had been walking with so far had the guidebook, or knew enough Spanish to ask for help. It also didn't help that we stayed at a place off of the main path, far from any markers. Then I remembered someone told me last night to follow the river, going in the opposite direction.
+The joy of seeing familiar faces was overwhelming. Crissi, who had left Belorado days earlier without saying goodbye, stood waiting, and I nearly collapsed into a hug. Bianca and Mauro from Italy joined us, and together we booked beds and relaxed in the afternoon sun, a wave of relief and happiness washing over me. Later, another experienced pilgrim, Ciro, joined our group, sharing stories of his five Caminos and adding to the camaraderie.
 
-I've never felt so helpless and nervous. The river was easy enough to find, and I followed it blindly as it flowed beneath me. For a long time there weren't any other pilgrims ahead, or behind, and I started to have a minor panic attack. Finally I saw some ahead of me, and at the same moment the markers on the ground returned. Crisis averted.
-
-The first mistake of the morning was slowly becoming apparent to me. I had not filled up my Camelbak before leaving because I assumed that public fountains would be on and running. Apparently they turn them off at night, and don't turn them on again until later in the day. I felt another panic attack coming.
-
-As I left the city behind and entered the familiar world of the gravel path and green fields, I came across a stone marker that made me want to cry.
-
-Standing in front of me is a pink heart with a crack going down the middle of it, and that perfectly summed up how I was feeling. I was now an hour away from everyone that I had grown so close to over the last several days, with no hopes of ever seeing them again.
-
-I pushed my feelings aside, and decided that they wouldn’t bring me down today.
-
-Quick work was made of the walk to Tarjados where I grabbed another, more filling, breakfast, filled up on water and then headed through Rabé de las Calzadas a short distance later.
-
-Once I left Rabé the heat, and flies, began to rise. Little did I know but I was entering the Meseta on June 14th, and a heatwave was beginning to sweep across Spain at the same time.
-
-The flies were my unwanted traveling companions on this 30+ kilometer day, and they did not want to leave me alone. But, there was silver lining to this swarm of annoying flies, and that was a swarm of white butterflies.
-
-I crested a hill and was surrounded by hundreds of them. They kept the flies away, and it was like walking through a dream. Sadly I have no pictures of this amazing world, I was too focused on pushing through this day.
-
-Besides the flies, and the heat, the world around me was once again composed of blue sky, green fields, and white clouds. This is my element. This is where I feel at home.
-
-Some benches stood in front of a bar at the edge of Hornillos del Camino. As I sat there eating my sandwich some Brits were staring at me, and I tried my best to ignore there eyes. Further up the road was the town square so I headed towards it and the Church. I grabbed a table by a fountain in front of the church, and enjoyed the rest of my sandwich along with a beer from the bar.
-
-As much as I was enjoying myself in the sun, there was still plenty of walking left to do. The ground after Hornillos was flat as far as the eye could see. Here and there piles of rocks in the distance gave the illusion of buildings and salvation from the flies and the heat (oh yes, the flies immediately returned once I left the village behind).
-
-According to the map they had given me back in St Jean there was supposed to be a rest stop after 26 kilometers called San Bol. Only one ruined building remained in the fields of grass. Disheartened, I cracked on.
-
-Next came a sign promising a place to sleep in 500 meters. Then another sign promising the same in 250 meters. Then another at 50 meters. 50 meters is exactly 164.042 feet. You can see 164 feet in front of you, right? 164 feet in front me was nothing, just more flat grasslands filled with flies.
-
-I started cursing out loud because I was running low on water, very hot, and my feet were killing me. Then, out of nowhere, Hontanas rose from the ground like the cave filled with gold in Aladdin. First the top of the church, then the tops of buildings, and finally a street that led down and into sanctuary. The entire city was built below the level of the surrounding terrain.
-
-Words alone cannot describe how I felt.
-
-At the top of the gravel road leading into town were some other pilgrims. Hopefully they were American. My greeting started as a simple "hey" to the person closest to me, but quickly turned into a cry of excitement as I saw who it was, and I nearly collapsed on them as I gave them a hug.
-
-Disbelief overcame me as I stepped back and turned to look further down the road. There was Bianca who I had seen during the earlier days of the Camino at Najera, and a new pilgrim named Mauro from Italy. And of course there was the person whom I had just assaulted with a hug. This was the person who had left so early in the morning nearly three days ago in Belorado without saying goodbye. But there she was, standing two feet away from me. I was so happy to be able to say hello, once again, to Crissi.
-
-Relief, joy, and a multitude of other feelings overcame me, and I could not wipe the look of happiness off of my face as we went into town, booked beds, and relaxed in the sun. The universe had given me new and old friends to help pull me up and get me through one of the hardest days of my life after leaving so many people behind.
-
-Another pilgrim that Crissi recognized named Ciro stopped by our table that afternoon. He told us that he had done five Caminos so far! That's crazy, but I can see why someone would want to come back and do this again.
-
-Bianca, Crissi, Mauro, and I scrapped together what we could from the small tienda, and cooked dinner for each other. This was my first time on the Camino cooking dinner, and it couldn't have been under better circumstances. We even blew out the circuit breakers because we were using the electric stove so much.
-
-The setting sun basked the rear deck in hot light as we enjoyed the fruits of our collective labor. It was one of the most delicious dinners I had ever had. Ciro joined us halfway through as we were finishing up the bottle of wine.
-
-It was decided that we would leave early in the morning to try and beat this intense heat that was laying on top of the world like a heavy wool blanket. The Meseta, the rest of the Camino, and Boadilla del Camino was waiting for us. Let's do this.
+For the first time on the Camino, we cooked our own dinner. Bianca, Crissi, Mauro, and I pooled our resources in the small tienda kitchen, preparing a meal that felt both communal and celebratory. The setting sun bathed the rear deck in warm light as we ate, sipped wine, and reveled in the simple joy of food, friendship, and survival. Plans were made to leave early the next morning to beat the heat, ready to face the next stretch of the Meseta, including Boadilla del Camino, with renewed energy.

@@ -1,37 +1,9 @@
-This day was filled with rain, but it started out bright and sunny. Most of the descent down into the skiing town of Courmayeur was a gradual transition from sandy-dirt to solid dirt, and then finally paved roads.The surrounding hills, when they were visible through the dense forest, were covered in ski lifts and ski paths.
+The day began bright and sunny as I descended toward the skiing town of Courmayeur, transitioning from sandy trails to paved streets. Most of the hike took place under the forest canopy, offering glimpses of ski lifts and paths on the surrounding hills. Along the way, I passed an abandoned house tucked deep in the trees, its crumbling floors and holes in the roof telling silent stories of a life long gone. I couldn't resist exploring, marveling at the eerie beauty of forgotten spaces before continuing down the trail.
 
-Most of the trail was in the woods, so it was very beautiful. Along the way there were small rock outcroppings that offered a humbling view of the valley below and beyond.
+Navigating the unstable terrain with sore knees made progress slow, and a sudden realization hit me: I desperately needed a bathroom. Fortunately, the bus station in the city center came to the rescue. With a sense of relief, I stocked up on cash and snacks before heading uphill to the town square. From there, I gazed over the valley, marveling at the village houses and mountains beyond. Courmayeur's streets were lined with luxury shops, wine tasting rooms, and high-end restaurants, a stark contrast to the rugged mountain trails just behind them.
 
-I passed an abandoned house on the hillside, deep within the trees and right below a ski lift. I love exploring and walking around ruins, so I took a peak inside. It looked like no one had lived here for quite some time. The stairs were falling apart, and several holes were in the roof of the second floor whose own floor had long since fallen apart.
+I reunited with Barak and Neta, whom I had met three days earlier, and we walked together until the first mountain ascent outside Villair. Rain began to fall, alternating between cooling drizzle and steady sheets, making the trail slippery and the rivers along the path challenging to cross. I didn't mind, the sound of rain on leaves has always been one of my favorite hiking companions. At Rifugio Bertone, 650 meters above Courmayeur, I took a break and snacked while waiting for Barak and Neta, enjoying the panoramic views of the Aosta Valley.
 
-Taking my time going down the trail due to the unstable nature of the material on the ground, and my poor knees, I suddenly realized that I never used the bathroom at the last place. My goal became immediately clear to me: find a public bathroom, or at the very least, a spot in the woods to squat.
+The high passes of the day, Col Sapin and Pas Entre-Deux-Sauts, were deemed too dangerous under the worsening weather, so we took a flatter, safer route to our final Italian refuge. Even on mostly level ground, the trail was muddy and slick, forcing us to scramble over waterfalls, rivers, and ruins along the way. I paused at the ruins, imagining the people who had once called them home, before making a final push over a short, steep incline to our destination.
 
-Luckily, I wasn’t able to find a spot in the woods so I was forced to hurry into the city center and find a toilet. The bus station had one, and I was so relieved (both literally and figuratively).
-
-The next order of business was to find snacks and an ATM because I needed to stock up on cash for the next few refuges.
-
-Having acquired cash, and food, I went up the steep road to the town square that overlooked the mountains and the old village houses below. It was a most amazing sight. These folks sure do have it good here. I grabbed a slice of pizza (or something that looked like pizza) and did some window shopping.
-
-All of the streets were filled with fancy and expensive restaurants, wine tasting rooms, and the most expensive outdoor clothing brands available. A lot of people later told me that there were some really great spas in town, but I wasn’t in the mood. I had places to be, things to do.
-
-On the way up and out of town I ran into Barak and Neta from Israel (whom I had met in Bonhomme three days earlier). We walked together up until the first mountain ascent outside of Villair. This is when the rain started to move in. Up we went and down the rain came. But I did not mind, because I absolutely love hiking in the rain. It cools you off and provides a nice sound to walk in. I mean, who doesn’t like the sound of rain falling on leaves?
-
-As usual, I had pulled ahead of everyone. When I get a destination in my mind, I push myself to reach it. At the top of the Aosta Valley I took a break at Rifugio Bertone and consumed my snacks that I had purchased 650 meters below. I waited for Barak and Neta to arrive (they had taken a break on a grassy area overlooking the city below and made coffee).
-
-The rain had started to fall more aggressively now, and we decided that it wouldn’t be safe to try for the high pass today across the Col Sapin and Pas Entre-Deux-Sauts (2436m and 2524m, respectively).
-
-We posed for pictures at the distance pedestal up here, and then started our mostly level and flat walk towards our last residence in Italy for the trip.
-
-I was thankful for the flat ground, because the rain was turning everything into mud, and I had a hard enough time staying upright, even with the sticks. We had to cross rivers, and scramble up slippery waterfall sides in order to continue on the trail.
-
-Some of them required intense negotiating skills on my part. Eventually all of the obstacles would let me cross over and continue.
-
-Along the way we passed by some ruins, and, of course, I had to stop and check them out. I wonder about who might have lived in them, and how old they could be.
-
-We also passed by an old cattle house that still smelled of fresh poop. Lovely. After going around it, I realized that the trail actually went above it and I had taken a self-created detour.
-
-One final river to cross (on a bridge this time at least), a short bend around the side of hill, and a brief 50 meter steep hike and we had arrived at our destination.
-
-Tonight would also be my second cold shower. It started off hot, but not even 30 seconds in and it turned ice cold. They had warned me that this would happen, because arriving later in the day means there is less hot water to go around. I should have soaped up first before starting the flow of water. You live and learn.
-
-Some of the folks who I had met back in Les Houches were staying here, and we were able to reconnect over dinner, along with some new faces. The clouds hung around tonight, covering the mountains. No stars this evening.
+The evening was a mix of exhaustion and comfort. I endured my second cold shower, learning the hard way that late arrivals mean less hot water. Dinner was a chance to reconnect with familiar faces from Les Houches and meet new hikers along the way. Outside, the clouds blanketed the mountains, obscuring the stars, but the day's sense of accomplishment and camaraderie made it a perfect alpine evening.

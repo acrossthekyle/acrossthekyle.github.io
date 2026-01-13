@@ -1,31 +1,9 @@
-A misty rain, and gray clouds, kept pace with us as we grabbed breakfast at the cafe from the previous night, took our final steps over the bridge that had brought us in to town, and headed for the hills.
+A misty rain and low gray clouds accompanied us as we grabbed breakfast at the café from the previous night. We crossed the bridge that had brought us into town and headed toward the hills, the damp chill in the air a quiet reminder of the Camino's unpredictability. For a brief stretch, industrial sites broke the green landscape, but soon we traded paved roads for gravel paths, leaving the town shrinking behind us into a multicolored dot on a hillside.
 
-We briefly hiked passed industrial sites that invaded the green world around us.
+Nature quickly enveloped us as we left the gravel road for a narrow stone-paved trail climbing toward the light rain. Poppies lined the path, barbed wire fences marked off pastures, and donkeys stared curiously as we passed. The rushing Arga River appeared on our right just as the sun began to break through the clouds, and we stopped for a brief respite at a café on the outskirts of Zuriáin. The scenery was mesmerizing, each step alternating between rolling hills and tree-lined paths, and each glance back revealing more of the quiet towns behind us.
 
-Fog, mist, and heavy gray clouds hugged the hills in the distance as we traded paved roads for gravel ones. Each stolen glance behind showed a town of white and red houses shrinking into the distance, become a multi-colored dot on the side of a hill.
+I soon reached a fork in the trail where the main path led to Pamplona, and a smaller detour climbed to Zabaldica. I chose the detour, finding a 12th-century church, Iglesia de San Esteban, perched at the top. I lit a candle, explored the bell tower, and took photos of the surrounding hills. On the dusty descent, I came across a small snack stand under an old farmhouse where I grabbed an apple and left a donation before continuing along quiet hillside paths, tunnels under highways, and tree-lined roads toward Trinidad de Arre.
 
-Nature quickly surrounded us as we left the gravel road, and took the narrow stone-paved path higher towards the light falling rain. Shortly soon-after we were made aware that we were in the Basque Country. Poppies lined the trail as we walked past barbed wire fences with donkeys staring in wonder at us, and a few of them posed for pictures.
+Realizing I had lost sight of my Camino companions, I quickened my pace through empty streets and soon found them resting at a small town square café. The final approach to Pamplona took us through some of the busiest and shadiest urban streets I had ever walked, eventually opening up to a small park and the massive stone walls of the walled city. Crossing the drawbridge, we entered a world of color: each building painted in bright shades of pink, blue, green, or yellow, fountains scattered throughout, and young people filling the streets.
 
-The large and fast moving Arga River was on our right as the sun came out. We approached our first stop at a cafe on the outskirts of Zuriáin, along the rivers edge.
-
-Over the next hour we walked along highways, passed abandoned buildings, and through tall grasses. Here we came to a fork in the path: off to the left led to Pamplona, and to the right was a small detour which led to Zabaldica at the top of a hill. I chose the detour, while the others chose the main route.
-
-The small hamlet at the top on this detour contained a 12-century church: Iglesia de San Esteban, which has one of the oldest church bells in Spain. I lit a candle, grabbed some photos from the bell tower, and continued on.
-
-While hiking down the dusty path from the church I happened upon a small snack stand sitting in the shade of an old farmhouse. I grabbed an apple and left a small donation.
-
-There were no other pilgrims walking ahead of, or behind, me as I headed over random hillside paths, through dark tunnels under highways, and down sloping tree-lined roads towards a bridge that led to Trinidad de Arre.
-
-I quickened my pace after realizing that I had not seen my new Camino friends, and hoping that I would find them up ahead of me. After walking through the empty city streets I spotted them resting at a cafe in a small town square.
-
-The final route to Pamplona took us through some of the busiest, and shadiest, parts of the city. I can't imagine what it must be like to live here and to see so many pilgrims backpacking along your streets.
-
-Empty urban streets gave way to a small park which led to the Magdalena Bridge, and the walled city. Ahead of me stood some of the most massive stone walls that I have ever seen. It took us 10 minutes to make our way around the base of these walls and arrive at the drawbridge entrance.
-
-After crossing the drawbridge we turned the corner and were met with some of the most colorful buildings. Every single building was a different color alternating between pink, blue, green, or yellow. There were town fountains everywhere, and the young people hung out in the streets drinking.
-
-We dropped our stuff off at a nice Albergue because the previous night at Zubiri was too much of a shock, and it was the first one we came across. There was a bar down the street called Meson de la Navarreria, and we saddled up there for food and drinks.
-
-I left the bar to check out the church, and ran into Tania from Roncesvalles taking a tour of the city with one of her Camino friends: Alex (USA). We headed to the ramparts which look out over the new construction beyond the walls. The church was empty and dark; not ready for tourists just yet, but eventually I would return later on and check it out. The main square was full of activity with people dining and kids running about.
-
-The hills, while beautiful, were starting to get to me with all of the descending and I was ready for some flat ground. The day after tomorrow promised that: we would be leaving for the monument to the pilgrims at Alto de Perdon, and the city of Puente la Reina.
+We settled into a comfortable albergue, a welcome change after the shock of Zubiri. Nearby, Meson de la Navarreria offered food and drinks, and I took the chance to explore the city. I ran into Tania from Roncesvalles with her Camino friend Alex, and together we walked the ramparts overlooking the city and its outskirts. The church was still dark and quiet, not yet ready for visitors, but the main square buzzed with life. While the hills were beautiful, I was ready for some flat ground. Tomorrow promised a new adventure, with a visit to the monument at Alto de Perdon and the city of Puente la Reina awaiting us.

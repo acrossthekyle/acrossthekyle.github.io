@@ -1,37 +1,9 @@
-Morning's gentle breeze fluttered through the open windows, tossing the thin laced drapes about in its wake allowing the light in without any resistance. And what a sunrise it was. Bright burning reds, soft glowing pinks, and warm expanding yellows filled the sky outside our windows and rested upon the fields beneath it. I can't recall ever seeing such a beautiful sight of nature so early in the morning.
+Morning arrived gently in Torres del Rio, with a soft breeze drifting through open windows and tossing the thin lace curtains in its wake. The sunrise was spectacular, with burning reds, glowing pinks, and warm yellows spreading across the fields. I had never seen nature so alive and radiant at this early hour. As we left the town and began the climb, I stole a look back at Monjardin across the fields. For the first time, I could truly measure the distance we had already traveled, and it was humbling.
 
-I stole a look back at Monjardin from across the fields as we headed up the hill and out of Torres del Rio. For the first time on this trip I had the ability to measure the distance travelled from the previous day, and it was humbling.
+Our path led past decorative cairns stacked in intricate formations and trees adorned with colorful ribbons, tokens of respect and remembrance from past pilgrims. Old stone benches and abandoned farmhouses occasionally appeared, some damaged by those seeking quick relief during the journey. Steep ascents and descents emerged unexpectedly, and a French companion showed us how to walk downhill "like a monkey" to reduce strain on our knees. It looked awkward but worked surprisingly well.
 
-Decorative cairns stacked in the most unbelievable formations lay on either side of our path through the hills. Several trees also had decorations hanging from them, mostly colorful ribbons. Each one a donation, or a sign of respect, for someone or something.
+Viana appeared in the distance as we returned to the highway, with passing cars offering either encouragement or disdain. We stopped briefly for some window shopping and I replaced my Lollapalooza hat with a full-brimmed one, a necessity after suffering another sunburn. The small church in town was beautiful despite its modest exterior and open-air courtyard, the result of a fire in the 13th century. Soon we left Viana behind and returned to the familiar dirt paths, fields, and countryside that have begun to feel like home.
 
-As we left the cairns behind and entered the farmland old stone benches and abandoned farm houses appeared every so often. Most of the buildings that were built into the hill side (which still had roofs) had been destroyed by other pilgrims using them for a quick relief.
+Arrows and messages made of pebbles dotted the sides of the trail, remnants from past pilgrims, guiding us toward Logroño. Wooden steps carried us over the highway, and I turned back to see Viana shrinking in the distance, a reminder of both how far we had come and how far we still had to go. Rain returned as a companion, and the path became paved again. Careful steps were required to avoid caterpillars crossing the trail. Soon, signs marked our entry into La Rioja, the region celebrated for its red wine.
 
-Several steep ascents and descents crept up out of no where as we left one farming area for another. One of our French traveling companions showed us how to walk downhill "like a monkey" in order to keep the strain off of our knees. It looked funny and felt awkward, but worked!
-
-Viana stood in the distance as we returned to the highway shoulder. Some cars honked in encouragement, and others gave us cold stares.
-
-We did some window shopping as we walked toward the church for our break. I bought a new full-brimmed hat because my Lollapalooza one just wasn't cutting it: one burned neck too many.
-
-The church, what was left of it, was beautiful on the inside despite the unassuming wooden door at its entrance. Adjacent to the church stood what is now an open-air courtyard, but in historic times was another interior section of the church. A fire had ripped through in the 13th century, nearly destroying the lot of it.
-
-Our time here was brief, and we took what appeared to be the back alleys out from the city and once more into the countryside. I am beginning to feel at home walking on these dirt paths through fields and grasses and trees. The times we spend in large cities feel foreign.
-
-Arrows and messages made of pebbles to friends from pilgrimages long ago dot the sides of the trail as we walk towards Logrono.
-
-Wooden steps take us over the highway. I stare back at Viana, now so small, in the distance. Another reminder of how far I've gone, and how far I have to go.
-
-Rain, our friend for so many of these days, decided to pay us another visit. Here the path turned back to pavement made of concrete and asphalt. Several caterpillars are racing from one side of the path to another, desparate to get somewhere, and to avoid being trampled. I took my steps with care in order to avoid them.
-
-Signs told us we had left the Navarre region and were now in La Rioja, an area known for their red wine.
-
-We walked along the Ebro river, through the various city parks, the ground shining from the freshly fallen rain.
-
-Up ahead is the Puente de Piedra our way into the city, and one final set of stairs, before we can find a place to rest.
-
-The city streets leading us through the old town are nearly empty, most people inside back at work. We walked all the way to the tourist center at the other end of the town to get a map. The Camino was not well marked inside the city, and we did not have a guidebook with us. We found a few places to try near the Municipal Albergue, and started with that one.
-
-They had beds, but for whatever reason they demanded to keep our passports while we stayed there. None of us felt comfortable with that, so we headed back down the street towards a place near the edge of the old town and, being satisfied with the price for a bed and dinner, decided to call it home for the night. It was a good choice.
-
-Logrono is a beautiful city with its streets artfully decorated, and the massive church at its center commanding attention with each ring of the bells. We found Martha, Amy, and Tracey relaxing with everyone we had met so far on the Camino in the main square watching the townspeople set up for a festival this evening (please let it not be loud).
-
-Ok, so Logrono wasn't that bad of a big city, but honestly I'm looking forward to Najera tomorrow and the smaller city scene. My small Lolla hat was beginning to show its limits with sun protection. I might need to look into buying a real sun hat.
+The final stretch led us along the Ebro River and through city parks, streets glistening from fresh rain. The Puente de Piedra carried us into the old town, where quiet streets and nearly empty sidewalks made navigation tricky. After consulting the tourist center for a map, we settled on an albergue near the edge of the old city that offered beds and dinner at a fair price. Logroño is a beautiful city, its streets decorated with charm, and the massive church at the center commanding attention with each chime of the bells. We found some familiar faces (Martha, Amy, and Tracey) relaxing in the main square. Despite the city's size, the Camino's magic persisted. Tomorrow promised smaller towns and calmer streets, and I hoped my new hat would finally be enough to protect me from the sun.

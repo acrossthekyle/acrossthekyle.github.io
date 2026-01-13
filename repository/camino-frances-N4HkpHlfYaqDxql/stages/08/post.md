@@ -1,51 +1,15 @@
-Today started with empty stomachs. Our expectation that a cafe would always be open early in the morning for food was slowly becoming unreliable. Logrono left us high and hungry as we took our leave of the city.
+he day began with empty stomachs. Our assumption that a café would always be open early proved unreliable, and Logroño left us high and hungry as we departed the city. We trudged along city parks and bike paths, every closed store and silent café a reminder that the next opportunity for food lay 13 kilometers ahead.
 
-On unsteady legs we walked through the city parks along the bike path. Every store or cafe in the distance was a chance for food, but none were open. Not even the supermarket at the end of the trail seemed alive. The underpass and open country ahead signaled a goodbye to any hope of finding food before the next city 13 kilometers away.
+The sky was a deep, perfect blue, punctuated by soft gray and white clouds. Tall trees and poppy fields drew our attention, but hunger quickly returned. Then, around a bend, the sight stopped us in our tracks: a shimmering lake, still hidden from the morning sun, surrounded by dark hills. Its calm surface reflected the deep blue sky and instantly cleared our minds.
 
-The sky was a deep blue, and the clouds were a mixture of soft gray and white. Tall trees and poppy fields stole the attention away from food, but not for long. A large park was fast approaching, and scouts were sent in each direction to find food but they came back empty handed each time.
+Relief, and joy, came shortly after at a café on the water's edge. Plastic tables and freshly brewed coffee felt like heaven. As we ate, a family of swans emerged from the lake, their elegance a perfect complement to our surroundings. Full stomachs and caffeinated blood restored our energy for the journey ahead.
 
-Uphill, around a bend, and then a sight that will make you stop in your tracks: a shimmering lake surrounded by dark hills, still hidden from the sun, with that deep blue sky above it. Seeing such a beautiful thing so early in the morning clears your mind.
+Later, we encountered Marcelo Lobato, a walking legend who has traveled nearly 5,000 miles across Europe. With a stamp from him in our pilgrim passports, we continued past the highway and into the rolling farmlands. Eight kilometers later, we arrived in Navarrete, a circular hilltop town. We wandered its streets to reach the church, marveling at the centuries-old altars and gold-covered saints.
 
-Just up ahead, at the corner of the lake, stood another seemingly empty park and we had to steal our eyes away from the lake as we returned to the trees.
+The longest stretch of walking yet lay ahead. Nearly 16 kilometers through farmland, dotted with occasional trees and distant white mounds growing into buildings. In Ventosa, we decided to push all the way to Nájera, avoiding intermediate stops. The terrain was unforgiving, and by the last hill, my hips and feet were screaming.
 
-But ahead there were signs for food. A cafe on the waters edge? An open cafe? A place with bathrooms, water, and food! We dropped our packs and got in line as the owner was opening up.
+Music helped me cope, and as I reached the summit, "Believer" by American Authors began playing: 'I'm a believer that things will get better.'
 
-As we sat at the plastic tables staring at the lake, savoring the food we had been so fortunate to discover, a family of Swans came up from the waters edge. We had to work hard to pull ourselves up from these seats, and this view.
+The lyrics hit me like a ton of bricks. All the pain, all the stress, the struggle of walking, and the hardships of life, they will get better. It was overwhelming. Nearly in tears, Tania and I descended into Nájera, finally finding beds at Las Pena on the city's edge.
 
-Full stomachs, warmed hearts, and blood caffeinated. We're ready for the day now.
-
-An hour later we came across an old man selling his wares, and handing out stamps. His name was Marcelo Lobato, and we found out that he is a walking legend. This man has walked nearly 5,000 miles across Europe.
-
-The highway kept us company for another few kilometers, and then we were able to turn away from it and head back into farmland. After another 8 km of hard walking and climbing we came to Navarette: another circular city built on a hill.
-
-An old pilgrim hospital lay in ruins as we took the road towards the hill. We weaved our way through the streets, heading for the church and our next break. These people spared no expense when they built these churches several hundred years ago. The alter was covered in gold with several dozen saints and idols in it. I don't think I'll ever tire of these amazing structures built so long ago.
-
-We left for what would become the longest chunk of walking yet at nearly 16 km. Most of the landscape was farms, with the usual ups and downs, and nothing to stare at but the land in the distance and watching those white downs on the horizon grow into white mounds, and those white mounds to grow into buildings.
-
-In Ventosa we decided as a group to not stop, and instead to push for Nájera in order to knock it out all at once.
-
-More unending farmland with the occasional pocket of trees. After Ventosa all we could see in the distance were two white mounds that were slowly growing, but yet were still so far away. It's hard to gauge how far away an object is sometimes.
-
-The brown dirt path took us next to highways, through small towns, and passed industrial sites.
-
-And that was when it happened, on the last hill before heading down into Nájera. Everything from my hips to my feet were in pain. I was struggling to take each step, and my feet just wanted to quit.
-
-I had been listening to music for a while now to help me get through these long kilometers. Upon arrival at the summit overlooking the last leg of the journey today, the song Believer by American Authors started playing.
-
-“I’m a believer that things will get better”.
-
-These lyrics started to play as soon as I hit the summit and saw our destination in the distance. It hit me like a ton of bricks.
-
-The pain will get better, the stress will get better, the hardship of walking will get better, the beauty of this land will get better, and the struggles in life will get better.
-
-All of this hit me at once, and it was an overwhelming feeling. I winced with pain, nearly crying at points, as Tania and I entered the city of Nájera. We had become separated from the others during the last stretch.
-
-We walked for what seemed like ages to find a place to stay. After following a group of Spaniards we eventually arrived at Las Pena near the edge of the city. I could give two shits about the place, it was a bed and a shower.
-
-The rivers edge and the bright sun called to us. We headed there for lunch and drinks. After basking in the sun, and spilling wine on my pants, we returned to our beds for a much needed nap. I spotted Leon and the others coming up the river walk and heading to the grocery store across the bridge when I went back to town a short while later. I followed them and finally got smart about getting some snacks for the next days walk.
-
-They bought a bottle of wine and some chocolates. We returned to the rivers edge and sat in the grass sharing the bottle.
-
-I’m going to meet all kinds of people on the Camino, and they are going to make me thankful for having friends to laugh with at the end of the day after walking each stage.
-
-Santo Domingo is our goal for tomorrow, and apparently we'll be walking through a ghost town in order to get there.
+After a lunch and drinks along the river, and a much-needed nap, we regrouped with friends, sharing wine and chocolates in the sun. The Camino continues to introduce me to people who make the days richer and the miles more meaningful. Tomorrow, Santo Domingo awaits, with a ghost town along the way.

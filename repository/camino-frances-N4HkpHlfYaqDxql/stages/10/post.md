@@ -1,39 +1,11 @@
-A wall of water was coming. I left Santo Domingo de la Calzada at seven in the morning, alone. And honestly, I can't remember why. Maybe I was anxious to begin, maybe the others were sleeping in, or maybe I looked at the weather forecast and saw the heavy rain in the afternoon.
+I left Santo Domingo de la Calzada at seven in the morning, walking alone. I can't remember exactly why. Perhaps I was eager to start, maybe the others were sleeping in, or the forecast of heavy afternoon rain pushed me forward. The stage was meant to be short, and I could have slept longer, but the sun was already up, hidden behind clouds, as I stepped out into the fields.
 
-Today's stage was meant to be a short one, and I could have easily slept in. The sun was already up and hiding behind the clouds as I walked out of the city and into the fields.
+Green farm fields stretched on either side, familiar from yesterday's walk. I kept my head down and focused on each step, quietly hoping that my knee would improve on its own. Granon passed without pause, then Redecilla del Camino, and before I knew it, I had left Basque territory and entered Castilla y Leon, the widest region on the Camino.
 
-Green farm fields, similar to the scenery from the first half of yesterdays walk, surrounded me so I kept my head down and focused on the steps, trying to ignore the pain in my feet. I'm still secretly hoping that the problem with my knee will get better on its own.
+After a quick break in Redecilla, I passed through Castildelgato, noticing an old gate guarding a field. I wondered what it had protected long ago. Viloria de Rioja came next, where I chatted briefly with a fellow pilgrim I had seen in Santo. They were carrying a MacBook, using a porter service, which explained how they managed the extra weight. I stopped briefly at the open Albergue but decided not to linger, choosing instead to keep moving.
 
-I passed through Granon without stopping, and continued on to Redecilla del Camino. Without even realizing it, I had passed out of Basque territory and into the Castilla y Leon region. This would end up being the widest region on the Camino.
+As soon as I left Viloria, the blue sky returned and rolling green hills appeared in every direction. The cultivated slopes stretched to the top, almost making me miss a step. I arrived in Villamayor del Rio shortly after, pulled out some peanuts, and readied my rain jacket. I avoided the poncho, a choice I would soon regret. Not long after leaving, the first raindrops fell, and then it poured. My lower half was soaked through, though thankfully the supplies in my bag stayed dry.
 
-After filling up on water, and taking a quick break, I went back out on to trail. The next town was Castildelgato, and the only thing that caught my eye there was an old gate, standing guard over a field of grass. I wonder what used to be there, oh so long ago, and what that gate protected.
+An hour later, I reached Belorado, carrying enough water in my shoes to fill a small bottle. The Municipal Albergue wasn't open yet, so I waited with other soaked pilgrims. After the rain let up, I explored the village before grabbing lunch at a small, dimly lit restaurant. The paella and wine were excellent, and the World Cup played on the TV. Back at the Albergue, I met my bunk mate, Crissi, who immediately appreciated my outlet extension cord.
 
-Viloria de Rioja was the next town after Castildelgato. A pilgrim whom I had seen in Santo carrying a MacBook (of all things) with them was just up ahead, and we chatted for a little bit as we arrived at Viloria. They were using a porter service so they only had to walk with a backpack during the day, hence why they were able to carry something weighing a few pounds.
-
-We stopped at the open Albergue in town, and they were serving breakfast. I was tempted to buy an omelette, but the place gave me a weird vibe, so I used the facilities and kept going. The other pilgrim stayed behind and hung out for a little bit, but I was in one of my "gotta get there gotta get going" moods.
-
-But I was happy with my decision because as soon as I took the paved road out of town, the blue sky returned along with green hills and fields in the distance. They cultivated the entire surface of these hills, going all the way to the top. It made me nearly miss a step: another view of nothing but green fields and blue skies. I am loving this Camino, even with all of the pain that it brings.
-
-I stole myself away from the surrounding landscape, and thirty minutes later I was arriving in Villamayor del Rio. I pulled out some peanuts that I had picked up in Santo that morning and, having spotted the darkening clouds ahead of me, took out the rain jacket and bag cover. I decided to forego the poncho, and I would come to regret that decision. I stuffed the peanuts in my pocket, threw on the backpack, and hit the road.
-
-Not a minute had gone by before the first raindrop fell on me. I was so proud of my decision to put on the rain gear. This weather wasn't going to catch me off guard. I snapped some pictures of the trail before putting my phone away and getting ready to go into heads down mode. That was the last picture I would take on todays walk.
-
-I smelled the rain before I saw it. I could hear the whooshing sound as it raced over the ground, disturbing the air ahead of it. Those first few raindrops were an early warning, and I did not listen to them.
-
-It had begun to rain, and I mean really rain. Straight up downpour. It rained a whole heck of a lot harder than I thought it would, and my entire lower half got soaked. The rain even started to penetrate my rain coat! Luckily the stuff in my bag stayed dry.
-
-With heavy wet shoes I entered Belorado an hour later, probably carrying enough rain water to fill a small bottle.
-
-The Municipal Albergue wasn't open yet when I arrived (after all, it was only 11:30 am), so I hung out with the other rain soaked Pilgrims as we waited for them to finish cleaning.
-
-Now that the rain was done, I set out to explore the village in order to kill some time before dinner. My exploring was short lived because I was starving. I grabbed lunch at a small restaurant above a bar in the town square that apparently hated natural light (there weren't any windows). The Paella and wine were really good though, and they had the world cup on the TV.
-
-I headed back to the Albergue after getting some supplies to take a nap, and saw that I had a bunk mate, and that they were using my outlet extension cord! Her name was Crissi (USA). I was so happy that someone was actually able to use it, and she commended me on the genius of bringing it.
-
-After waking up I still had more time to kill before dinner. Damn these early arrival times! I went back out to do more exploring, and ran into Crissi near a ruined church. We checked out the church, walked around, and hiked up to the castle ruins at the top of a hill next to town.
-
-I loved the view of the city from up here, and took out my phone to take a picture. As I took a step forward to get the shot, I nearly slipped off the side of the hill! That would have been a bad way to end the Camino.
-
-We ended up ordering dinner at the Albergue (the food was delicious), and met a lot of great people. Two of them were from Texas: Lauren and Hailey. They quickly became known as "The Texans".
-
-This day started out with my head focused on the ground, alone, and soaking wet, but ended with new friends and great conversation. And I was looking forward to walking with them the next day. The destination is 30 kilometers away called Ages (pronounced ah-guess, kind of like August), and tomorrows forecast had zero rain in the afternoon.
+After a nap, Crissi and I wandered through the ruins of a church and up to the castle ruins on the hill, where the view of Belorado was incredible. Dinner at the Albergue introduced me to more pilgrims, including two Texans who quickly became friends. What began as a damp, solitary walk ended with new companions, good conversation, and a sense of anticipation for tomorrow's 30-kilometer trek to Ages, with a forecast promising no rain in the afternoon.

@@ -1,13 +1,9 @@
-Today is the last official day of fully walking on the Camino Frances. Tomorrow we will be arriving in the city that has been at the edges of our minds for nearly 30 days. We all took a late start today. Doing nearly 45 kilometers of total walking in one day will make you want to do that.
+Today was the last official day of walking the Camino Frances in full, and anticipation hung in the air. After nearly 45 kilometers of walking in a single day, we all took a late start. Our first stop was Boente for breakfast, where we hoped for a priestly blessing but settled for the required stamp instead. These stamps are essential for earning the certificate at the end of the journey, and getting two per day has become routine.
 
-Boente was our first stop, for breakfast of course. According to the guide book there was a priest here who would give blessings to pilgrims. No priest, but we settled for the stamp since you have to get two per day now in order to get your certificate at the end.
+The trail passed through several small towns, each blending together as the sun climbed higher. The heat was intense, and the beginnings of sunburn were inevitable. We arrived in Arzúa after a couple of hours, and then continued on to Arca, also known as O Pedrouzo, around 5 p.m. It was a slow day compared to other stages, but over 30 kilometers still left us physically spent. A light rain threatened as we tried to reconnect with Eileen and Mauro via free WiFi at a local bar.
 
-Several small towns came and went as we walked today. The sun was high in the sky, and I could already feel the sunburn setting in. We were taking our time today, and Arzúa was our next stop after a couple hours of walking.
+Finding accommodations proved to be a challenge. After trying four different places, we finally secured beds at a hotel/albergue called Porta de Santiago. Eileen and Mauro joined us there, and it felt good to be reunited after a long day on the trail. The place was comfortable and reasonably priced, which was a relief after the day's long trek.
 
-There wasn't much activity on the trail today, mostly just heads-down walking. We arrived in Arca / O Pedrouzo around 5pm. Such a slow day, but then again it was still more than 30 kilometers of walking and we had a late start. The rain was threatening to arrive at any moment as we tried to reconnect with Eileen and Mauro via free WiFi at a local bar.
+With a concert happening in Santiago this weekend, we quickly realized that hostels and albergues were filling up fast. Following Eileen's advice, we started looking into reservations but ended up deciding to wing it, trusting that things would work out.
 
-We tried four different places before finding beds in a hotel/Albergue called Porta de Santiago. Not too bad of a place considering it wasn't that expensive. Eileen and Mauro met up with us there and got some beds as well.
-
-Apparently there is a concert going on this weekend in Santiago, so based on the advice by Eileen we started looking into making a reservation anywhere we could in order to ensure that we had a place to stay. But all of the Hostels and Albergues were filling up quickly. We'll just have to wing it.
-
-I can't believe that this month long journey is coming to an end tomorrow.
+As we settled in for the night, I couldn't help but feel the weight of the month-long journey coming to a close. Tomorrow we would reach Santiago, the city that had been on our minds for nearly thirty days, and the sense of accomplishment was already beginning to sink in.

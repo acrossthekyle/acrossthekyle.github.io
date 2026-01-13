@@ -1,39 +1,19 @@
-Not a cloud in the big blue sky as I retrieved the hanging laundry, packed up my bag, and headed outside. Pilgrims passed by our Albergue one at a time as they headed up the hill and out of sight. Food was on my mind after yesterdays debacle, and I made for the cafes in the opposite direction.
+Not a cloud in the big blue sky greeted me as I retrieved the hanging laundry, packed my bag, and stepped outside. Pilgrims passed by the Albergue one by one, heading up the hill and out of sight. Food was on my mind after yesterday's debacle, so I made for the cafés in the opposite direction.
 
-Mostly everyone was there or slowly arriving, getting breakfast or making sure their gear was packed and ready. I dropped my bag at a table and ordered the first thing I saw: a Spanish Tortilla.
+Most people were already there or slowly arriving, securing breakfast or double-checking gear. I dropped my bag at a table and ordered the first thing I saw: a Spanish tortilla. Full and eager to start, I told everyone I'd see them in Santo Domingo, hoisted my pack, and climbed the densely packed cobblestone road toward the trail.
 
-An eager-to-get-started feeling started to set in after I finished eating. Told everyone that I'd see them in Santo, grabbed my backpack, and headed back up the densely packed cobblestone road towards our Albergue.
+Tania was nowhere to be seen, but her trekking poles were gone, so she was probably already ahead. I emptied my pockets of trash, extended my poles, and fell into a steady rhythm. The morning's uphill walk forced me to shed my jacket as soon as I crested the hill, revealing irrigated farmland and distant mountains flanking the horizon. I didn't know it then, but it would be a long while before The Way took us through mountains again.
 
-Tania was nowhere to be found when I got back but her trekking poles were gone. She was probably already out on the trail. I threw out some trash from my pockets, extended my trekking poles, and hit the road with a steady beat.
+Water ran through pipes and canals alongside the trail, as the farmland transformed from small green plants to bushes, and back. Poppies erupted in vivid reds along one side, while the other fields were meticulously maintained to keep intruders at bay. The sun was relentless, and by the time I reached Azofra, the first town for a break, I was moving well and didn't stop. Perhaps a mistake.
 
-The morning's walk uphill forced me to shed my jacket as soon as I crested the top of the hill and stared out at irrigated farmland. Off in the distance were mountains flanking either side of the visible world. I didn't know it then, but it was going to be a long time until The Way would take us through them again.
+After Azofra, the trail turned sharply toward the highway, then veered left into pure countryside. For the next 13 kilometers to Cirueña, there were no detours or rest stops. Still, I couldn't focus on the heat or the long stretch; my eyes were locked on the endless green fields in front of me. The gravel path of The Way sliced through the landscape like a bullet, splitting the verdant world in two. Islands of trees dotted distant hills, tractor lines stretched straight toward them, and wisps of white clouds traced shadows across the fields.
 
-Water running through pipes and canals kept the trail company as the farmed vegetation continuously changed from small green plants to larger bushes, and back. The beautifully evil poppies exploded in abundance on one side, while the other was carefully maintained to keep those pesky invaders away.
+Finally, a rest stop appeared atop a steep hill, with benches, reclining chairs, and tiny statues. A perfect place to snack and rest. Soon after came the ghost town of Cirueña. A nearby golf course offered bathrooms (essential at this point) and on my way out, I ran into Tania. We walked together for a while, weaving through empty developments back to the open fields.
 
-The sun was relentless today, and before long my shirt was nearly soaked through. Azofra was the first town for a rest that morning, but I was in such a good mood and had a good speed going so I kept going. Might have been a mistake.
+Santo Domingo slowly rose in the distance, dark gray clouds marching over southern hills. A herd of sheep accompanied us as we approached town. The Albergue was massive, with excellent amenities, and just as I checked in, the rain began to fall. With bars and restaurants closed for Sunday, we followed the usual routine: shower, laundry, nap.
 
-Shortly after Azofra the farms faded away as the trail took a sharp turn towards the highway, and then a left turn as it returned to pure countryside. After that there were no detours off of the path, and no rest stops, for the next 13 kilometers to Cirueña.
+Back in Logroño, I realized my flip-flops were inadequate for walking in town. A nearby store offered hiking sandals, and my investment felt like walking on air, saving my feet from the thin straps that had been tearing at them. I tested them on a stroll around town to get cash and visit the church, returning to find the others soaked from the rain.
 
-My attention, however, was not on the hot sun, or the stretch ahead that had no places to take a break. Instead, it was fixed on the endless green fields in front of me. The gravel path that marked The Way shot like a bullet across its surface, splitting the green world in two.
+Later, Leon and I explored Santo Domingo for nearly two hours, talking about work, philosophy, and our futures. Dinner consisted of the simplest pleasure: real eggs, which tasted incredible after days of limited options on the Camino.
 
-Islands of trees dotted the tops of hills on the horizon with lines made from tractor tires heading straight for them. Wisps of white clouds stretched themselves thin across the dark blue sky. Small clumps of puffy clouds swept their shadows across the perfectly bright green fields.
-
-Luckily there was a rest stop ahead at the top of a steep hill. It had benches, reclining sun chairs, and little statues. A perfect place to enjoy my snacks in the shade and to let my back take a breather.
-
-The ghost town of Cirueña wasn't that much further.
-
-A golf course on the left greeted the Pilgrims, along with some odd looking statues and sculptures of the pilgrimage. But this golf course had bathrooms, and I was in dire need of one. On my way out I ran into Tania. We chilled for a few minutes before picking up where we both left off and got back on the marked sidewalk taking us through empty housing developments and back out to the green pastures.
-
-Santo Domingo slowly rose from the ground in the distance as the dark gray clouds marched over the hills to the South. Our focus was now getting there before it rained. A herd of sheep followed along side us as we walked into town. The Albergue here, the only one really, was massive but had good amenities.
-
-The rain started to fall as I checked in to my home for the night. It was Sunday, and many of the bars/restaurants were closed for the afternoon. We did our usual routine of shower + laundry + nap.
-
-I noticed back in Logrono that my flip-flops which I used for showering were not up to the additional task of walking around town at the end of the day. I found a hiking gear store next door and popped in. They were selling hiking sandals, and I didn't waste much time in deciding to invest in a pair. My feet felt like they were walking on air, and the sides of my feet were no longer being torn into by thin straps.
-
-Happy with my purchase I put them to use by walking around town to get some cash, and to check out the church. As I got back to the Albergue the others were beginning to arrive, soaked from the rain.
-
-After sitting around for a while at the Albergue (again, nothing open because Sunday), Leon and I decided to take a walk and explore the city. We ended up talking and walking for nearly two hours about work, philosophy (his current major in college), and where we wanted to take our futures. Our journey took us to the edge of town, and down along their main street and past fancy restaurants.
-
-For dinner I found a bar that sold real eggs. You have no idea how amazing the simplest of foods can taste when you’re forced to forgo them because of weight and your hierarchy of needs while backpacking.
-
-I’m amazed that today was only 20km, but that it felt easy, and I only stopped for 10-15 minutes in total today. Tomorrow should be another short day, but the rain did not look like it was going to stay away for long.
+Twenty kilometers felt easy today, with only brief stops, but the rain promised that tomorrow would bring a new challenge.

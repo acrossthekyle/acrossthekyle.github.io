@@ -81,7 +81,7 @@ export default function Stats({ gpx, stats, termini }: Props) {
       {sections.map((section: Section) => (
         <li className={styles.item} key={section.heading}>
           <h3 className={styles.heading}>{section.heading}</h3>
-          <p className={styles.value}>{section.value}</p>
+          <p>{section.value}</p>
         </li>
       ))}
     </ul>

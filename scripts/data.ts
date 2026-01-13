@@ -425,8 +425,8 @@ async function getStages(folder) {
         };
       }
 
-      const end = getTermini(data.title, 1);
-      const start = getTermini(data.title, 0);
+      const end = getTermini(data.termini, 1);
+      const start = getTermini(data.termini, 0);
 
       stages.push({
         date: data.date,
@@ -439,6 +439,7 @@ async function getStages(folder) {
         index: null,
         location: data.location || null,
         readingTime: readingTime || null,
+        snippet: data.title,
         stats,
         termini: {
           end: {
@@ -451,7 +452,7 @@ async function getStages(folder) {
             words: turnStringIntoArrayForLists(start),
           },
         },
-        title: turnStringIntoArrayForLists(data.title),
+        title: turnStringIntoArrayForLists(data.termini),
       });
     }),
   );
@@ -772,6 +773,7 @@ async function go() {
           image,
           location,
           readingTime,
+          snippet,
           stats,
           termini,
         }) => ({
@@ -784,6 +786,7 @@ async function go() {
           image,
           location,
           readingTime,
+          snippet,
           stats,
           termini,
         })),

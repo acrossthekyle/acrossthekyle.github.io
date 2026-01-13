@@ -1,43 +1,9 @@
-I think a rooster woke me up. The wind had free rein as it whipped and wrapped itself around us on the exposed country road. It's a good thing they served us breakfast at our Albergue, or else the hunger would have helped the wind cut even deeper. Speaking of breakfasts, this was my first homemade breakfast on the Camino. It was a simple serving of eggs and toast, but it was filling. I miss having eggs for breakfast.
+I woke to the sound of a rooster and the wind whipping across the exposed country road. Breakfast at the Albergue was a simple but filling serving of eggs and toast, my first homemade meal on the Camino, and a comforting start to the day. Once fueled, we set off on foot for Atapuerca, making a quick stop at a café for a small second breakfast before tackling a hill near the excavation site. At the top, a tall wooden cross overlooked the rolling fields, and a stone arrow pointed the way toward Burgos. Ahead, a silent spiral maze drew our attention, and we each took turns walking toward its center, a small wooden cross marking the goal. The calm simplicity of it was almost meditative.
 
-Once again we were arriving in the town of Atapuerca, but this time it was by foot.
+Reality called soon enough, as Burgos waited 17 kilometers down a steep descent. The walk was long and intense, with nearly 14 kilometers without a proper stop, yet the countryside scenery kept spirits high. Passing through villages and wide, cultivated fields, we finally approached the outskirts of the city. The route took us past a small airport and factory zones, and we navigated a tricky underpass under the highway before finally reaching the river, where a shaded bench became our lunch spot. Bread, chocolate, and cheese restored energy while familiar pilgrims passed by, sharing friendly nods and smiles.
 
-At the first cafe we shamelessly helped ourselves to a small second breakfast. A "small" hill greeted us as soon as we left the town. This was the same hill that they were doing their excavations on, and part of it was fenced off. So much for exploring.
+The riverwalk carried us into historic Burgos, a longer stretch than expected. We decided to upgrade for the night, booking a private room at Hostel Burgos for four of us. My first night without earplugs. After the usual laundry and shower routine, I headed to the cathedral. Its exterior was stunning, though the interior felt more like a museum, and I soon rushed to the Museum of Human Evolution to meet Steve and Shelby. The exhibits were fascinating, and the hands-on learning from Atapuerca the previous day made it even more vivid.
 
-We made it up the hill in no time at all.
+Evening brought the rest of our Camino friends together. We found a tapas bar in the town square where each drink came with small bites, and shared laughs over several rounds of beer. Conversations drifted to taking a rest day, but I had to keep moving in order to finish on schedule. Saying goodbye was harder than I expected. After two weeks and nearly 300 kilometers of walking together, the impact of these companions had grown deeper than I anticipated. Each left a mark, and the thought of not seeing them again tugged at me.
 
-A tall wooden cross stood at the top, staring out at the rolling land from which we had come. On the ground behind it lay a large stone arrow pointing us in the direction of Burgos off in the distance. But the structures and decorations didn't stop there.
-
-Laid out on the ground ahead of us sat a weird series of concentric circles with a single way in and out. As we watched people walking along the spiraling rings, Shelby recognized what it was: a silent spiral maze.
-
-Each of us took turns walking (sometimes jogging) towards the center where a small wooden cross stood. It probably took 20 minutes to do the whole thing, and it was such a calming experience. It’s the simples things sometimes.
-
-However, it was time to return to reality. Burgos was waiting for us down the steep descent, and 17 kilometers away.
-
-It was an intense walk. There was a very long stretch (nearly 14 km) without any stops. But, that doesn't mean it wasn’t pretty.
-
-Through various villages we marched, finding rest stops along the way. As we began to enter the outer edges of the city, we took the route less traveled towards the river entrance. It took us pass a small airport and towards the factories on the cities limits.
-
-As we came to the highway leading in, we couldn’t find a way across. After trying to follow an ever-diminishing gravel path, we decided to bushwhack the shit out of it. We found what could barely be described as an “underpass”. It was a small gap under the highway with a clearance of 3 feet and went over a dry riverbed. The thorns and prickly grasses on the other side wanted us to stay out, but we pushed through it.
-
-It’s a good thing that we crossed when we did, because shortly thereafter all of the disgusting factory smells began to invade our space. Luckily we didn’t have to walk through the noxious fumes for very long, for we had arrived at the river, and we needed a break.
-
-Bread, chocolate, and cheeses were placed in front of each other as we made a little spot for ourselves next to a bench under the trees. We saw familiar faces pass by as we gorged on our delicious buffet.
-
-The riverwalk ahead took us straight into the historic part of Burgos (it was longer than we thought), and it took us nearly 30 minutes to walk the length of it before entering the city proper. But we did stray a bit away from the marked path because we decided to class it up and stay at an actual hostel (Hostel Burgos) with a private room for the four of us (Shelby, Tania, Philip, and myself). It was the first night that I didn’t have to wear earplugs. Thank you friends for not snoring!
-
-After the usual requirements of laundry and showering, my first stop was the cathedral. To be honest, it’s a beautiful building on the outside, and the interior is nice, but it’s set up like a museum which ruins the effect, for me at least. I had to speed through the tour anyways (at a cost of five euros) because Steve told me about the MEH (Museum of Human Evolution). I love learning about this stuff, and the experience from the dig tour from yesterday was still fresh in my mind.
-
-I ran over to the MEH (Museum of Human Evolution) to meet up with Steve and Shelby. They had a lot of information in there. I had seen most of it before, but the nerd in me always likes to geek out on this kind of stuff. Plus, it was free!
-
-Tania and Philip were waiting for us back at the hostel, and we all headed out to find a bar for the evening. As we entered the town square Amy, Martha, Luigi, Dom, and Leon showed up! They said they would find us later after walking around for a bit.
-
-We found a place that served tapas which each drink you ordered, it was great. Amy and the others showed up as we grabbed some tables and commenced indulging ourselves. Several rounds of beer were purchased throughout the night.
-
-They all got to chatting, and the idea of taking a relaxing day off tomorrow gained steam. I would have joined them, but I couldn’t afford to take any days off in order to finish in time. None of them had booked return flights, so they had some flexibility.
-
-But eventually the time came to say goodbye...
-
-I've walked nearly 300 kilometers for two weeks with most of them, and it was hard. You make such a profound impact on each other and it becomes too much when you start to think about not seeing them again, especially after all that you've been through on this pilgrimage. Each one of them left a mark on me, and helped make an impact on the Camino.
-
-I pushed the thought of not seeing these people again out of my head in order to get some sleep. Tomorrow was going to be brand new, but at the same time familiar. Hontanas is 30 kilometers, and a world of unknown, away from here.
+As night fell, I pushed those thoughts aside and focused on the road ahead. Tomorrow promised a 30-kilometer journey to Hontanas, a new day filled with familiar trails, unknown landscapes, and fresh experiences waiting just beyond the horizon.

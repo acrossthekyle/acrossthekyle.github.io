@@ -1,39 +1,9 @@
-I could get used to mornings like the ones in Pamplona. Not a soul in sight with the air calm and peaceful in the old city I set out before the others to explore parts that I wasn't able to see yesterday. The only people in the streets were other pilgrims walking in the opposite direction as they left the city for the next stage.
+Mornings in Pamplona had a calm, peaceful rhythm that I could get used to. With the streets empty, I set out ahead of the others to explore parts of the city I hadn't seen yesterday. Only a few pilgrims passed in the opposite direction, heading toward the next stage of the Camino. The city square was quiet, but as I ventured outward, I found bustling streets filled with early activity. I admired the architecture and strolled through several parks, though the arena where the bulls run was off-limits, leaving me slightly disappointed. Soon I returned to the Albergue to meet up with the group.
 
-It didn't take me long to find a route leading way away from the square, and towards the other areas of the city. While the square in the morning was calm and peaceful, the area outside of the urban center were bustling with activity.
+Leaving Pamplona was quicker than entering it, and before long, the city was behind us. We zigzagged through small and large parks before returning to the open countryside, where green fields stretched endlessly beneath clouds that seemed to reach for the hills. Rainbows appeared at the edges of the clouds, a magical backdrop to the gravel paths snaking through forests, rivers, and open fields. The terrain gradually rose toward Zariquiegui, the last stop before crossing the windy Alto de Perdon.
 
-There wasn't much to see beyond the architecture of the buildings, and the various parks. You couldn't even get inside the arena where the release the bulls. Slightly disappointed, I hurried back to the Albergue.
+I caught up with Tania, Shelby, and Alex in Zariquiegui, and after a short break, we slowly made our way up the mountain. Along the ascent, we leapfrogged each other, pausing to take photos or waiting for others to catch up. The summit rewarded us with expansive views of the countryside in all directions, though the wind made it feel even more remote. The descent was slow and challenging, and once we reached flat ground, I found myself entirely alone.
 
-Leaving the city took less time than entering it. The residents were starting to stir, and the street cleaners were mopping up the mess from the previous night.
+Alone on the trail, I began talking to myself, processing thoughts I had never spoken aloud. I reflected on why I was walking the Camino, my career dissatisfaction, sources of joy, and the emptiness I often carried. It was liberating to give voice to these hidden thoughts and to confront things I hadn't fully acknowledged. The walk became meditative, a conversation with myself, with the Camino as the silent witness.
 
-After zigzagging through a series of small and large parks we found ourselves once again walking through the countryside of Spain with the city growing smaller and smaller with each glance backwards.
-
-Nothing but green fields were laid out in front of us, with clouds sticking to the ground, their fingers clawing at the hills in the distance trying to pull themselves closer to the earth.
-
-Rainbows appeared at every edge of a leading cloud formation. Luckily the rain stayed away from us, and their dark gray color was merely for show.
-
-Large and narrow gravel paths filled with potholes of water snaked their way across the fields, through small forests, and over small rivers. Gradually The Way began to rise higher and higher leading towards Zariquiegui: the last stop before crossing over Alto de Perdon, and the windy mountain crossing.
-
-I caught up with Tania's group (Shelby, Alex, and Tania) in Zariquiegui. They were getting ready to head out as I arrived. Jokingly I said that I'd see them at the next rest stop since that was where we kept running into each other. The other friends from my group slowly trickled in and dropped their bags at the cafe.
-
-After recharging we slowly left for the top of the mountain. On the way up we kept leap frogging each other when those in front slowed down, or took pictures, and the others from behind kept going.
-
-The views from the top did not disappoint, and it was the windiest spot so far on the Camino with views of the countryside extending away in all directions.
-
-The way down though was hard, and slow going.
-
-After reaching flat ground again, I suddenly found myself very much alone. I don’t know how it started, but I was talking to myself. To be perfectly honest with you, I have never done anything like this before. All sorts of random things started popping into my brain, and coming out of my mouth.
-
-I stopped paying attention to the ground I was walking on, or to the world around me. I just walked and talked, walked and talked.
-
-Everything from the real reason why I’m here doing the Camino, why I do the things I do, realizing that I hated my job, what brought me happiness, and what left me empty and wanting more.
-
-It was an amazing feeling to shine light onto things that were hiding in the shadows, and things that I didn’t even know I was thinking. I felt so great about airing out my thoughts and feelings.
-
-At some point I met up with the others in the outskirts of Urtega. We grabbed lunch at a small Albergue in town for about an hour, and relaxed in the sun.
-
-After leaving Urtega we spread out again as we walked through Obanos on our way to Puente la Reina.
-
-An attractive looking Albergue at the edge of town as we got off of the Camino beckoned to us. It took some debating, but we ended up staying at Albergue Reparadores further in to town. It is one of the oldest Albergues on the Camino (hundreds of years). Some of us from our group cooked a dinner, and the others shared what they had to give.
-
-Overall this wasn’t a bad day in terms of terrain or distance, but this was the first time that I had done any sort of back-to-back, day-in-day-out, walking and my feet were feeling it. Hopefully tomorrow will be flat ground on the way to Estella.
+Eventually I met up with the group again near Urtega, enjoying lunch at a small Albergue in the sun. We spread out again through Obanos before arriving in Puente la Reina. At the edge of town, a historic Albergue caught our attention, and after some debate, we settled at Albergue Reparadores, one of the oldest on the Camino. Some of us cooked dinner, while others shared what they had. Though the day's terrain and distance were manageable, the back-to-back walking left my feet feeling it. Tomorrow promised flatter paths toward Estella, a welcome change.

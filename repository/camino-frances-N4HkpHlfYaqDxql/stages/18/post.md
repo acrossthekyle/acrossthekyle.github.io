@@ -1,31 +1,15 @@
-Goodbye flat land, hello hills. It felt great sleeping in today. We didn't roll out of bed until well after the sun was up and the other pilgrims had left. I was eager to start walking, despite the lingering effects from yesterday. We departed for León with the goal of leaving the Meseta far, far, behind. The rising sun looked like an atom bomb had been detonated in the distance.
+After days of relentless flat terrain, it felt glorious to sleep in. The sun was already up, and the other pilgrims had departed, but I was eager to get moving despite yesterday's lingering soreness. Our goal was León, and with it, to finally leave the endless Meseta behind.
 
-Cows kept us company on the walk towards the old castle-fort city of Mansilla de las Mulas. As per usual nothing was open and our pace didn't falter as we walked through the city. Several groups of students spilled out of the Albergue and onto the streets, laughing, dressed in relaxing clothes. At first we were impressed that they would agree to do something like this at such an early age, but then we saw them loading their bags into a van.
+Cows kept us company on the approach to the old castle-fort city of Mansilla de las Mulas. As usual, nothing was open, but our pace didn't falter. The sun was not cooperating for photos, and then a bird decided to poop on my shirt. Chocolate, for anyone who asked. A badge of shame I wore the rest of the day.
 
-The sun was not cooperating as I tried to take a picture of the castle walls on the way out. Around that time a bird decided to poop on my shirt, and I was forced to wear it as a badge of shame for the rest of the day. It was chocolate for anyone who asked.
+Finally, the hills returned! Small at first, but they broke up the endless horizon. Larger ones waited in the distance, teasing us with their challenge. Over the first hill: nothing, just more towns.
 
-Finally, the hills have returned to us. Small ones, sure, but at least I could no longer see for miles on end. The bigger ones were still further ahead.
+Breakfast came at a quirky little bar in Villarmoros, hidden away in a town square patterned with white and yellow polka dots. They served fresh Spanish tortilla and bocadillos, and I indulged in both. From there, Villarente and Arcahuega fell quickly as we powered through 12 kilometers of highway, downtown streets, and occasional riverside paths.
 
-What could possibly be over this hill? Nothing, just more towns.
+Construction diverted us into a more challenging route into León. The uphill stretch on pavement felt endless, but eventually led into the woods, and what a sight it was after the trees cleared. We raced down a dirt path onto a county road, following markers into the city. I always love the transition from modern to old towns, especially when you enter a walled city.
 
-We took breakfast at a random bar in the city before Villarente at Villarmoros. It was tucked away from the highway in the towns’ square, and the plaza was covered in white and yellow polka-dots. Probably one of the stranger towns I've seen so far, but they had fresh Spanish tortilla and bocadillos! I splurged and bought both.
+Finding the Benedictine church Albergue proved tricky. We asked directions from at least three locals and added two extra kilometers before finally locating it. Crissi and I ventured out for food and found a bar serving 'rustic bread', thick slices topped with whatever they could dream up. It was so good we brought Bianca there too.
 
-Villarente and Arcahuega stood no chance as we powered through them, covering the 12 kilometers in a few hours. Most of the path took us along highways, and through the busy downtown areas. Sometimes it would switch it up and take us under bridges, or down along a river.
+Exploring León felt like a true tourist day. First, the cathedral: gothic, massive, and awe-inspiring. We convinced two other pilgrims to join us for the group ticket discount. Then a basilica, a Gaudí-designed house, and the city park. We ended the day with beers at a bar, people-watching, and a reunion with Ciro, who was limping badly after losing most of his toenails to his shoes. A stark reminder that the Camino leaves its mark in more ways than one.
 
-They were doing construction on part of the path, so we had to take a different route for entering León. The uphill battle was worse than I expected. It was on paved road for the most part, but finally as we got near the top it diverted into the woods, and oh what a sight it was after we cleared the trees.
-
-We raced down the dirt path that took us onto a county road. Here we followed the markers as they led us through the rugged and increasingly modern areas of the city. I like the transition from modern to old, especially when the old town your entering has a wall around it.
-
-The Benedictine church where we wanted to spend the night was hard to find. We must have asked at least three different people where it was, and walked an extra two kilometers around the city, but finally we found it. Crissi and I walked around looking for food, and found a bar that served "rustic bread". Basically it was large slices of various breads with toppings on them, but they were super delicious. We returned to the Albergue to meet up with Bianca, and then took her to the same bar, just because we liked it so much.
-
-After drinking and eating we explored the city, with me playing the tour guide. First stop was the cathedral, of course. Two pilgrims where walking in at the same time, and we convinced them to join us in order to get the ticket discount deal for a group. This was a true gothic cathedral: it was large and grand on the inside with the columns drawing your eyes up, up, and up.
-
-Next we went to a basilica, then a house designed by Gaudi, and finally the city park.
-
-On the way back we found a bar to grab some beers and people watched for a while. Ciro, limping, found us on the way back to the church. He had to buy some new shoes because his current pair had taken off most of his toenails! Yeah, that's a real thing that can happen if you walk for extended periods of time.
-
-Dinner was a pilgrims menu at the restaurant next to the the church, which gives discounts for those staying there.
-
-There's now only two weeks left before reaching Santiago! Nights spent in places like Logroño, or Nájera, feel like they were ages ago, and yet also felt like they were only yesterday.
-
-I am thankful that today was a relatively easy walk, with plenty of places to stop and eat, or to get water. I have no idea what tomorrow holds, partly because we don't know which way to go (there are two routes), and we don't know how far we're going to make it.
+Dinner was a pilgrims menu at the restaurant next to the church, with a discount for staying at the Albergue. The walk today had been relatively easy, with plenty of stops for food, water, and rest. A welcomed reprieve before whatever tomorrow holds. Only two weeks remain until Santiago, and yet nights in places like Logroño and Nájera feel both centuries ago and just yesterday.

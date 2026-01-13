@@ -129,7 +129,7 @@ const data = [
             {
               "link": "https://arcteryx.com/us/en/shop/bird-curved-brim-trucker-hat",
               "name": [
-                "Arc’teryx",
+                "Arc'teryx",
                 "Trucker Hat"
               ],
               "weight": 2.15
@@ -1475,6 +1475,7 @@ const data = [
         "image": "2025/10/18/efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg",
         "location": "Big Paint Loop",
         "readingTime": "2",
+        "snippet": "Adventures at Brown's Hollow: Hills, Rivers, and a Cozy Campsite",
         "stats": {
           "distance": {
             "label": "distance",
@@ -2575,6 +2576,7 @@ const data = [
         "image": "2025/10/18/db8b9939-7fe0-43b3-b5ef-d0baea038ef1.jpeg",
         "location": "Big Paint Loop",
         "readingTime": "2",
+        "snippet": "A Nighttime Visitor and Golden Hills: Concluding Our Overnight Backpacking Trip",
         "stats": {
           "distance": {
             "label": "distance",
@@ -2823,7 +2825,7 @@ const data = [
             {
               "link": "https://arcteryx.com/us/en/shop/bird-curved-brim-trucker-hat",
               "name": [
-                "Arc’teryx",
+                "Arc'teryx",
                 "Trucker Hat"
               ],
               "weight": 2.15
@@ -3189,10 +3191,10 @@ const data = [
           "Then came the main event: the Col de Tricot. Hours of relentless uphill with zero shade had us working overtime all over again. The wind at the top was a relief though, perfect for a much-needed lunch. The packed sandwich from the gite was brie, tomato, and lettuce on a baguette. It was lifesaving, even if the accompanying orange was a messy affair.",
           "The descent was another challenge: 1 hour and 10 minutes of switchbacks that tormented our toes. We hit Miage at the bottom and we wished we were staying there. A short rest and water break, then another 35 minutes up to our night's lodging, Auberge le Truc.",
           "Auberge le Truc is rustic. Limited water, no showers, and a very interesting (broken) conveyor belt pit toilet. The simple pleasure of the constant, rhythmic sound of cowbells made up for the lack of amenities.",
-          "Dinner was an experience: three Brits (who support Trump, so probably not our new best friends) joined our table. The meal itself started strong with great vegetable soup, followed by a funky but good combination of pasta with red sauce, a cheese omelette, cheese, and crème brûlée. Seriously loving the salt in everything over here!",
+          "Dinner with three Brits was an experience. The meal started strong with a great vegetable soup, followed by a funky but good combination of pasta with red sauce, a cheese omelette, cheese slices, and crème brûlée.",
           "Tonight's accomodation is a 28-person bunk bed room. We've snagged the top bunks by the door and are all packed and ready for an early departure tomorrow morning. Another day, another adventure down!\n"
         ],
-        "excerpt": "",
+        "excerpt": "From punishing uphill miles to a rustic auberge filled with cowbells and camaraderie, this was a day that tested, and rewarded, us in equal measure.",
         "gpx": [
           [
             45.89030119590461,
@@ -4190,6 +4192,7 @@ const data = [
         "image": "2024/07/27/ac7799bd-b2a8-4f77-8a8d-6d42a8740390.jpeg",
         "location": "France",
         "readingTime": "2",
+        "snippet": "Up, Down, and Over the Col de Tricot: A Grueling First Day in the Alps",
         "stats": {
           "distance": {
             "label": "distance",
@@ -4294,7 +4297,7 @@ const data = [
           "Dinner was a lively, international affair. We sat with six Israelis, enjoying a vegetable dinner of pepper pizza, carrot and beet salad, and soup. Half the table was vegetarian for Kosher reasons, and the sun blazed on our backs and necks as we ate, still sweating from the day's effort.",
           "The evening ended with a long political and travel chat outside until the mountain air turned too cold. We headed to bed, surrounded by the damp smell of laundry drying on the bunks. Ready to do it all again tomorrow!\n"
         ],
-        "excerpt": "",
+        "excerpt": "From a peaceful descent into Les Contamines-Montjoie to a challenging climb up to the Col du Bonhomme, the day was a mix of wildflowers and sun.",
         "gpx": [
           [
             45.829960042610765,
@@ -5292,6 +5295,7 @@ const data = [
         "image": "2024/07/27/10146a42-b18d-4318-bc5b-c32279532e4d.jpeg",
         "location": "France",
         "readingTime": "2",
+        "snippet": "Col du Bonhomme and Mountain Breezes: A Second Day of Climbing, Community, and Alpine Life",
         "stats": {
           "distance": {
             "label": "distance",
@@ -5397,7 +5401,7 @@ const data = [
           "Dinner was a lesson in local custom: a thin vegetable soup with bread and cheese (the French hikers insisted the cheese goes in the soup), followed by rice, lentils, and poppyseed cake.",
           "Today was a reminder that the mountain always has the final say.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Today was a rough one, with slippery snow bridges, and loose rocks. By the time we reached Refuge des Mottets, exhaustion set in, and we still had to go back up the mountain-side.",
         "gpx": [
           [
             45.72250496596098,
@@ -6395,6 +6399,7 @@ const data = [
         "image": "2024/07/27/be9a961c-fc7d-43dc-b466-29a359d1cd12.jpeg",
         "location": "France",
         "readingTime": "2",
+        "snippet": "Snow, Scrambles, and Lessons from the Mountain: Surviving a Grueling Alpine Day Three",
         "stats": {
           "distance": {
             "label": "distance",
@@ -6506,7 +6511,7 @@ const data = [
           "Dinner was a social and culinary mix. We sat with a non-English speaking couple and John, a New Yorker living in Vienna. The menu was delicious: pasta with red sauce and Parmesan, followed by peas, carrots, and cheese, and almond cake for dessert. The food was excellent.",
           "Tucked under a canopy of drying laundry, drifting off to sleep. We made it to Italy, and we survived the hardest day.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Today was the hardest day of the trek, with over 15 miles, two massive ascents, and long, exhausting descents through snow, valleys, and relentless heat. By the time we reached Rifugio Maison Vieille in Italy, we were completely spent but relieved, refreshed by a proper shower, warm food, and the satisfaction of surviving the day.",
         "gpx": [
           [
             45.76514236629009,
@@ -7504,6 +7509,7 @@ const data = [
         "image": "2024/07/27/a45073e7-ef67-4e31-a5e7-3ba9b4b97b4e.jpeg",
         "location": "Italy",
         "readingTime": "3",
+        "snippet": "Day Four: From Snow Bridges to Italy, Conquering the Hardest Day of the Trek",
         "stats": {
           "distance": {
             "label": "distance",
@@ -7610,7 +7616,7 @@ const data = [
           "Before dinner, we decompressed with some reading, beer, and spicy cheese balls. Dinner was a lively table of nine: us, three Swiss school friends, and a French family of four. We feasted on bread, salad, farfalle in red sauce, steamed veggies with a veggie burger, and chocolate pudding. The entertainment of the night was watching the adjacent table rinse their meat in their water glasses before eating. We couldn't tell if it was too salty or a cultural habit, but it certainly gave us something to talk about!",
           "Now, it's time for podcasts in bed as we rest up for whatever tomorrow brings. Moving through Italy is proving to be a beautiful, blistered, and delicious adventure.\n"
         ],
-        "excerpt": "",
+        "excerpt": "After a relaxed morning with a decent breakfast, we hiked through stunning Courmayeur, enjoying forest switchbacks, charming streets, and a long, flat stretch of trail with breathtaking views. The day ended at Rifugio Bonatti with cold showers, and lively dinner conversations.",
         "gpx": [
           [
             45.791053511202335,
@@ -8608,6 +8614,7 @@ const data = [
         "image": "2024/07/27/f1310350-3cb1-4f1b-b591-e08d0971f23b.jpeg",
         "location": "Italy",
         "readingTime": "3",
+        "snippet": "Courmayeur to Rifugio Bonatti: Day Five of Scenic Trails, and Switchbacks",
         "stats": {
           "distance": {
             "label": "distance",
@@ -8713,7 +8720,7 @@ const data = [
           "The food was fantastic: vegetable soup, tofu with veggies and rice, and ice cream pie (hands down the best dessert of the trip).",
           "The night ended with us moving our damp laundry to the cubby strings in the room and sharing a few laughs with our roommates before bed. Switzerland is off to a great start!\n"
         ],
-        "excerpt": "",
+        "excerpt": "After a scenic ridge hike and a brisk climb to Grand Col Ferret, we crossed into Switzerland, enjoying gentle descents, flocks of sheep, and a with friends from Les Houches. The day ended in La Fouly at Hotel Edelweiss with hot showers, and a delicious dinner.",
         "gpx": [
           [
             45.84672074764967,
@@ -9711,6 +9718,7 @@ const data = [
         "image": "2024/07/27/b70777d8-b89d-4d60-b422-2d2af80483e4.jpeg",
         "location": "Switzerland",
         "readingTime": "3",
+        "snippet": "Day Six: Crossing into Switzerland.",
         "stats": {
           "distance": {
             "label": "distance",
@@ -9807,7 +9815,7 @@ const data = [
         "date": "August 2nd, 2024",
         "description": [
           "We started the morning with another great Swiss buffet: cappuccinos, strawberry yogurt with fruit, and fresh bread buns with butter and jam.",
-          "Today was billed as a 'rest day', but the trail had other ideas. The morning began with a beautiful, flat stretch along a river and through dense woods. With the mossy rocks and towering pines, it felt exactly like the Pacific Northwest. We passed through a charming old Swiss village (possibly L’A Neuve or Issert) filled with traditional wooden houses that looked like they belonged in a storybook.",
+          "Today was billed as a 'rest day', but the trail had other ideas. The morning began with a beautiful, flat stretch along a river and through dense woods. With the mossy rocks and towering pines, it felt exactly like the Pacific Northwest. We passed through a charming old Swiss village (possibly L'A Neuve or Issert) filled with traditional wooden houses that looked like they belonged in a storybook.",
           "While our roommates Mackenzie and Caitlyn decided to take the bus because they heard this section was 'boring', we stuck to the path. After the flat start, the trail began to climb. Honestly, it was exhausting.",
           "We stopped for lunch at a wooden table in the forest and enjoyed a total feast: two sandwiches each made with fresh bread, cheese, lettuce, and thin carrot slices. They were incredible!",
           "The final push was tough. Our legs felt it, likely because we ate a bit too much at lunch! We took a brief wrong turn but quickly corrected course while chatting with a British family who had made the same mistake.",
@@ -9817,7 +9825,7 @@ const data = [
           "Dinner was a cozy affair at a circular table with a group of French speakers. The menu was quintessential Switzerland: thin vegetable soup, lettuce and carrot salad, cheese fondue with plenty of bread and potatoes, and cake for dessert.",
           "Despite the 'rest day' lies the trail told us, ending it with fondue and a private room made it all worth it.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The trail turned into a scenic hike through mossy woods, charming Swiss villages, and a final push up to Champex-Lac where we waited out the rain at a lakeside cafe. The day ended perfectly with a private room, and a cozy dinner of cheese fondue and dessert.",
         "gpx": [
           [
             45.93533908948302,
@@ -10815,6 +10823,7 @@ const data = [
         "image": "2024/07/27/22400157-4853-4974-856b-86b1bc986ef9.jpeg",
         "location": "Switzerland",
         "readingTime": "3",
+        "snippet": "A Swiss 'Rest Day' Adventure: Lakeside Views, Forest Trails, and Fondue Rewards on Day Seven",
         "stats": {
           "distance": {
             "label": "distance",
@@ -10919,7 +10928,7 @@ const data = [
           "The meal was solid: a very good, thick squash soup, a cheese omelette with veggies and fries, and lemon vanilla ice cream for dessert.",
           "Now, it's back to the dorm to rest up. Tomorrow, we keep moving!\n"
         ],
-        "excerpt": "",
+        "excerpt": "A gradual climb along the Bovine trail turned into a day of ups and downs, boosted by a much-needed sugar stop with apple crumble and chocolate near a summit. We ended in Trient with a quiet dinner, resting up for the next day on the trail.",
         "gpx": [
           [
             46.0346853453666,
@@ -11917,6 +11926,7 @@ const data = [
         "image": "2024/07/27/99d87d66-9534-4aca-9489-eb2fbbdc152b.jpeg",
         "location": "Switzerland",
         "readingTime": "2",
+        "snippet": "Sugar, Summit, and Solitude: A Sweet Day Eight Push to Trient",
         "stats": {
           "distance": {
             "label": "distance",
@@ -12020,7 +12030,7 @@ const data = [
           "Dinner was a lovely, social affair. We sat with the three British ladies along with three Belgian campers. The conversation was fantastic. We feasted on: lettuce and corn salad with balsamic, unlimited fresh baguettes, rice and lentils, brie and applesauce for dessert (a surprisingly great combo!).",
           "The night wound down with a funny group chat about the wonders of Neosporin with the Brits and Jess's family. It's surprisingly quiet in our rooms, and we're ready for some rest before the final legs of this adventure!\n"
         ],
-        "excerpt": "",
+        "excerpt": "Skipping breakfast made us feel the climb, but the trail soon rewarded us with wildflowers, and a perfect spot to pause and take in the views. The day ended at Refuge de la Boerne with happy hour, shared laughs, and a lively dinner, making it one of the most social and memorable stops yet.",
         "gpx": [
           [
             46.05608367361128,
@@ -13018,6 +13028,7 @@ const data = [
         "image": "2024/07/27/91e2be29-62d0-4be0-a00a-9ebd9d9dc395.jpeg",
         "location": "France",
         "readingTime": "2",
+        "snippet": "Scrambles, Sunshine, and Spritz: Day Nine of the TMB",
         "stats": {
           "distance": {
             "label": "distance",
@@ -13124,7 +13135,7 @@ const data = [
           "The highlight of the evening was a rowdy game of 'Asshole' (a card game) with the English family. There was plenty of wine and non-stop laughter; they are just the sweetest people.",
           "Dinner was equally great: carrot and cabbage salad, a delicious cheesy potato dish, and chocolate mousse for dessert. My partner was teased by the whole table for hoarding the extra bread, but hey, a hiker's gotta fuel up! Another incredible day in the books. One step closer to the finish!\n"
         ],
-        "excerpt": "",
+        "excerpt": "Today tested us early with steep climbs right out of the gate, the infamous TMB ladders, and breathtaking lakes, including a quick, freezing toe dip in crystal-clear glacial water. We ended at Refuge de la Flégère with beers on the patio, and laughter-filled card games followed by another hearty dinner.",
         "gpx": [
           [
             45.996275106444955,
@@ -14122,6 +14133,7 @@ const data = [
         "image": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg",
         "location": "France",
         "readingTime": "3",
+        "snippet": "Day Ten: Ladders, Lakes, and Laughter. A High-Altitude Adventure",
         "stats": {
           "distance": {
             "label": "distance",
@@ -14226,7 +14238,7 @@ const data = [
           "Dinner was great. We sat with Mackenzie, Kaitlyn, two Dutch hikers, and one French hiker. The menu included: greek salad with fresh bread, pasta with zucchini and red sauce, and gingerbread milkiness for dessert (very tasty, if a bit runny).",
           "Now, it's time for podcasts and some final rest. We did it. We completed the Tour du Mont Blanc!\n"
         ],
-        "excerpt": "",
+        "excerpt": "The climb over the Col de Brévent and the long descent back to Les Houches marked the last day of our Tour du Mont Blanc, complete with more ladders, rock scrambles, and a well-earned lunch. Back at Gîte Michel Fagot, we celebrated with beers at a nearby bar, foosball at the gîte, and a final dinner after triumphantly completing the entire circuit!",
         "gpx": [
           [
             45.95939800143242,
@@ -15224,6 +15236,7 @@ const data = [
         "image": "2024/07/27/480c5394-dfa7-4760-8f62-5a39cb66cb98.jpeg",
         "location": "France",
         "readingTime": "2",
+        "snippet": "Completing the Tour du Mont Blanc",
         "stats": {
           "distance": {
             "label": "distance",
@@ -15389,13 +15402,14 @@ const data = [
         "description": [
           "Located where the lake meets the Rhône River, and originally built as a safety valve for a local hydraulic plant, the Jet d'Eau is a massive plume of water that shoots 450 feet into the air, visible from nearly anywhere in the city, making it a majestic centerpiece. It's even more incredible looking in person than the picture. I captured this shot of it from the spires of the Saint-Pierre cathedral.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The Jet d'Eau in Geneva shoots 450 feet into the air and is even more impressive in person than in pictures.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2024/07/24/f6f7470b-5e4e-42f7-aa59-ccabe81778bf.jpeg",
         "location": "Geneva",
         "readingTime": "1",
+        "snippet": "Geneva's Iconic Fountain",
         "stats": {
           "distance": null,
           "gain": null,
@@ -15424,17 +15438,18 @@ const data = [
       {
         "date": "July 24th, 2024",
         "description": [
-          "From the outside the cathedral looks like a collection of different eras with massive columns seemingly glued onto a much older rugged-looking body. On the inside the interior was strikingly stark-looking with no ornate altars, just rows of plain wooden benches. However, there is one exception and that's the Chapel near the exit. It’s a 'riot of color' with vibrant Gothic paintings and intricate carvings that felt like a secret treasure hidden in the grey stone.",
+          "From the outside the cathedral looks like a collection of different eras with massive columns seemingly glued onto a much older rugged-looking body. On the inside the interior was strikingly stark-looking with no ornate altars, just rows of plain wooden benches. However, there is one exception and that's the Chapel near the exit. It's a 'riot of color' with vibrant Gothic paintings and intricate carvings that felt like a secret treasure hidden in the grey stone.",
           "The highlight of this cathedral though was the ability to go up into the twin spires and walk through the attic and old school room near the top, including being able to get up close to the massive old church bells. For a small fee you get to see the entire city. The climb up was through narrow spiraling stone stairs, and we were even able to walk along expored exterior walkways.",
           "When we were there the archaeological site underground was sadly closed due to construction and renovations. It would have been really awesome.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Climbing the twin spires of the cathedral offers stunning city views and a close-up look at its massive bells.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2024/07/24/e19b87b3-ff48-499f-a225-3d4d608e9311.jpeg",
         "location": "Geneva",
         "readingTime": "1",
+        "snippet": "Cathedral Views and Hidden Treasures",
         "stats": {
           "distance": null,
           "gain": null,
@@ -15468,13 +15483,14 @@ const data = [
           "There was a little animal park at the northern end, but we didn't get see much wildlife.",
           "This was a genuine green oasis away from the urban hustle and bustle.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Geneva's botanical garden is a peaceful oasis where you can explore lush greenhouses and themed gardens just a short ride from downtown.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2024/07/24/e38ad9d4-d8b7-433c-bdec-55294d442928.jpeg",
         "location": "Geneva",
         "readingTime": "1",
+        "snippet": "Geneva's Botanical Oasis",
         "stats": {
           "distance": null,
           "gain": null,
@@ -15694,7 +15710,7 @@ const data = [
             {
               "link": "https://arcteryx.com/us/en/shop/bird-curved-brim-trucker-hat",
               "name": [
-                "Arc’teryx",
+                "Arc'teryx",
                 "Trucker Hat"
               ],
               "weight": 2.15
@@ -16124,17 +16140,13 @@ const data = [
       {
         "date": "June 21st, 2023",
         "description": [
-          "I arrived on the island of Corsica yesterday. My starting point for this trek was Calenzana where I grabbed a quick dinner with some other hikers who were staying at the same Gîte, and then settled in for a restless night of sleep in anticipation of starting the trek early tomorrow morning. I can't wait to be back in the mountains.",
-          "I nearly quit on the first day.",
-          "The windows had been left open all night to keep a breeze going due to the mid-summer heat, and it was comfortable but still warm in the room. So, with little sleep, I began packing up. I ate a simple breakfast of yogurt with cereal, a banana, and some bread and butter that I had purchased yesterday at the local grocery store. I started the thru-hike at 6:30am.",
-          "The trail started going up right away, and it didn’t hold back. While this wasn't a high elevation I was having trouble catching my breath due to all of the steps up on the various switchbacks. Admittedly, I had not done any training other than taking my dog Dax for walks along the lake, and maybe the occasional treadmill workout. Big mistake. My Garmin watch told me all I needed to know: my heart rate was staying steadily in the \"endurance\" zone, 5 of 5. I took a break at every turn or corner in the trail in order to catch my breath.",
-          "But all this didn't stop me from taking as many pictures as I could.",
-          "After two and a half hours of marching upwards I reached a Col and saw that the trail was starting to go down, and staying level. This didn't last long though, and upon ending the initial descent through the trees the trail started to go back up again, but only this time it decided to throw in something new: scrambling. Did I stretch this morning? Of course not.",
-          "More scrambling and climbing up rocks. Eventually the trail came to a bald on a mountain and I could see my destination for the night in the distance. There were more ups and downs in order to reach the Refuge but they weren't bad, and didn't last long. I made it to the refuge and found a spot to pitch my tent for the night. It was exposed to the elements (no shade or vegetation) but that was the way this particular Refuge was set up.",
-          "There's a lot of people here, it's going to be busy on the trail, and at the refuges, but that's good: more opportunities to make friends. Oh, and there's tons of little lizards running around, plus three cows who keep tramping through the area with the tents. I hope they steer clear of mine.",
-          "I had a really fulfilling dinner with people from Germany (Denis), Netherlands (Peter and Tyezet), and Belgium (Charlie and Sophie). We would end up walking and camping together for the next 9 days.\n"
+          "I arrived on the island of Corsica yesterday, ready to start a long-awaited trek. My starting point was Calenzana, where I grabbed a quick dinner with a few other hikers staying at the same gîte. The night that followed was restless, filled with anticipation for the early morning start. I could hardly wait to return to the mountains and immerse myself in the rugged beauty that Corsica promised.",
+          "The first day almost had me quitting. The windows had been left open all night to let in a breeze, which helped with the mid-summer heat, but I still didn't sleep well. With little rest, I packed up my gear and had a simple breakfast of yogurt with cereal, a banana, and some bread and butter I had bought the day before. By 6:30 a.m., I was on the trail.",
+          "The ascent began immediately, and the trail wasted no time testing me. Although the elevation wasn't extreme, I struggled to catch my breath on the switchbacks. My lack of training beyond walking my dog Dax and an occasional treadmill workout became painfully obvious. My Garmin watch confirmed it: my heart rate stayed firmly in the endurance zone, and I took breaks at every corner just to recover. Despite the challenge, I paused constantly to take photos of the incredible surroundings.",
+          "After two and a half hours, I reached a col and enjoyed a stretch of downhill and level trail. The respite was brief, however, as the path soon rose again, this time introducing scrambling and climbing over rocks. I hadn't stretched that morning, and my muscles certainly let me know it. Eventually, the trail opened to a bald section of the mountain, offering a first glimpse of the refuge where I would spend the night. The remaining ups and downs were manageable, and soon I arrived at the refuge and pitched my tent. The site was exposed with no shade or vegetation, a typical setup for this part of the trail.",
+          "The refuge was busy, which was exciting because it meant more opportunities to meet fellow hikers. Little lizards scurried about everywhere, and three cows wandered through the camping area, hopefully avoiding my tent. Dinner was a highlight, shared with hikers from Germany, the Netherlands, and Belgium. By the end of the evening, we had formed a small group that would walk and camp together for the next nine days, marking the beginning of an unforgettable adventure.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The first day in Corsica was tougher than expected, with steep switchbacks and scrambling over rocks testing every muscle. Despite the challenge, I met fellow hikers from across Europe and pitched my tent at a busy but lively refuge.",
         "gpx": [
           [
             42.50560604967177,
@@ -17132,6 +17144,7 @@ const data = [
         "image": "2023/06/21/f1d1c83f-941d-4351-aa5e-08d698b78775.jpeg",
         "location": "Calenzana",
         "readingTime": "3",
+        "snippet": "Corsica Begins: Day One on the Trail",
         "stats": {
           "distance": {
             "label": "distance",
@@ -17227,16 +17240,13 @@ const data = [
       {
         "date": "June 22nd, 2023",
         "description": [
-          "It was supposed to be easier on the second day, or at least so I had thought. Last night was a quiet one as far as backpacking campgrounds go. On this trip I had brought a mini thermometer with me so that I could keep track of how well my sleep system would perform based on the various temperatures throughout the trip.",
-          "I woke early to comfortable temperatures in order to catch the sunrise but there wasn't much to see: it was hidden behind a ridge of mountains. I set about packing up my gear, and getting ready for the day. Breakfast was a standard European breakfast: yogurt, bread, and jam/nutella.",
-          "The trail started by going uphill, but I was doing a much better job at pacing myself today than yesterday, and was making good progress. It quickly turned into more scrambling and climbing, but compared to yesterday it was much easier.",
-          "While it started off as easy today, it was still harder than yesterday with lots of hiking up and down, plus the bits of climbing mixed in, the unrelenting sun (it gets hot in the valleys), and the wind was starting to pick up. There were some sketchy areas were you had to boulder across severe drops with no chains.",
-          "The trail heading down from todays peak was mostly loose rocks which was kind of dangerous given how steep some sections were. The descent seemed to last forever. Finally I could see the refuge as a tiny blue dot in the distance.",
-          "I eventaully made it to the refuge, even though the trail seemed to be deliberatly taking the long way around.",
-          "I had a hard time finding a level tent spot, and ended up using some wood pallets as a base which meant using rocks to hold everything down. It worked, but we'll see how it holds up in the wind tonight.",
-          "I hung out with the gang before going to bed early. I can smell the toilets from here. Not a pleasant thing at all."
+          "I had thought the second day on the trail would be easier, but Corsica had other plans. Last night was surprisingly quiet for a backpacking campground, and I woke early to take advantage of the comfortable temperatures. I had brought a mini thermometer along to track how well my sleep system performed, and it seemed to be doing its job. I had hoped to catch the sunrise, but it was hidden behind a ridge of mountains, so I quickly packed my gear and prepared for the day with a simple European breakfast of yogurt, bread, and jam.",
+          "The trail started with an uphill climb, but I paced myself much better than on the first day and was making steady progress. Soon, the path required more scrambling and climbing, though it felt easier than yesterday's challenges. Despite this, the day remained difficult, with constant ups and downs, the relentless sun beating down in the valleys, and wind beginning to pick up. Certain sections demanded careful boulder-hopping across steep drops, where no chains offered assistance.",
+          "The descent from the day's peak proved tricky, with loose rocks making some steep sections feel dangerous. It seemed to last forever, until finally I spotted the refuge as a tiny blue dot in the distance. The trail seemed determined to take its time getting me there, winding around in ways that tested patience as much as stamina.",
+          "Once at the refuge, finding a level spot for my tent was a challenge. I ended up using some wooden pallets as a base, weighing things down with rocks to hold the tent in place. It wasn't perfect, but it would have to do, especially with the wind that Corsica seemed ready to unleash later that night.",
+          "I spent the evening hanging out with the small group of hikers I had met the previous day. The wind carried the less pleasant smells from the nearby toilets, a small reminder that rustic camping comes with compromises. Despite that, I went to bed early, hoping to recharge for whatever the trail had in store tomorrow.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Day two on the Corsica trail proved harder than expected, with loose rocks, scrambling, and unrelenting sun testing my endurance. After a long descent, I finally reached the refuge and set up my tent on makeshift pallets, ready for another night in the mountains.",
         "gpx": [
           [
             42.46380105614662,
@@ -18234,6 +18244,7 @@ const data = [
         "image": "2023/06/21/e2d0721f-2c3f-4367-8f7b-1176c94b3e2c.jpeg",
         "location": "Calenzana",
         "readingTime": "2",
+        "snippet": "Corsica Day Two: Uphill, Downhill, and Everything In Between",
         "stats": {
           "distance": {
             "label": "distance",
@@ -18329,15 +18340,12 @@ const data = [
       {
         "date": "June 23rd, 2023",
         "description": [
-          "It rained overnight, and the first rain drops signaled a mad scramble to bring hanging laundry and backpacks into their tents. There were a lot of early risers today, and I was on the trail by 7am after packing up and eating breakfast.",
-          "Just like yesterday, and the day before, it was straight up with most of the trail requiring bouldering.",
-          "I did a better job today with water breaks, even without any water sources on trail, and actually ate most of the packed lunch. The main entree was couscous, mixed with other things.",
-          "Once at the top it was time to go down over steep drops, and over rough rock. From up here though we can still see the coast, and Calenzana. We ate lunch on an exposed rocky platform where we could see the place we were staying at tonight far, far, down below.",
-          "The journey down from the top took about one and a half hours, but it was a lot more pleasant today than it was yesterday; it was mostly through forests but the trees were large, very large, and spaced out so that a nice breeze could make its way in. After several switchbacks and multiple choose-your-own- adventure trail sections we made it to the bottom. Some of our group had booked rooms in the hotel, and the rest of us were camping. I found a good flat tent spot with a nice amount of shade.",
-          "I'm a vegetarian, mostly, but when someone told me they had fries and a burger, I rushed over to the restaurant at the hotel. It was so good, hit the spot. Afterwards I took a nice much needed nap in the cool summer breeze.",
-          "I ordered a fancy buffet breakfast at the hotel next to the camping area because the breakfasts at the refuges aren't that fulfilling. It's supposed to be a long day tomorrow, so I'm going to try and wake up early, around 5:00 am."
+          "Rain greeted us overnight, sending campers scrambling to pull hanging laundry and backpacks inside their tents. I was up early, packed, and on the trail by 7 a.m., ready to face another challenging day. Just like the previous days, the trail started steep and required plenty of bouldering, testing both balance and stamina.",
+          "I paced myself better with water breaks today, even without any water sources along the trail, and I actually managed to eat most of my packed lunch, a couscous-based mix that kept me fueled for the climb ahead. Once at the summit, it was time to descend over steep drops and rough rock. From this vantage point, the coast and Calenzana were visible far below, and we enjoyed our lunch on an exposed rocky platform while taking in the view of where we would be staying that night.",
+          "The journey down took about an hour and a half and felt far more pleasant than the previous day. Most of the descent was through large, well-spaced forest trees, allowing a cool breeze to flow through. After several switchbacks and sections where we had to choose our own route, we finally reached the bottom. Some in our group had booked rooms at the nearby hotel, while others, including me, pitched tents in a shaded, flat spot ideal for camping.",
+          "Despite being mostly vegetarian, I couldn't resist the call of fries and a burger at the hotel restaurant. It was satisfying, and I followed it with a long, much-needed nap in the cool summer breeze. To prepare for tomorrow, I treated myself to a fancy buffet breakfast at the hotel instead of the lighter fare offered at the refuges. With a long day ahead, I plan to wake around 5:00 a.m. to get an early start.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Rain kicked off the morning, sending everyone scrambling to secure their gear before hitting the trail by 7 a.m. After a long climb and a thrilling descent through sun-dappled forests, I ended the day camping in shade with a satisfying burger in hand.",
         "gpx": [
           [
             42.426046784967184,
@@ -19335,6 +19343,7 @@ const data = [
         "image": "2023/06/21/4b13a3d8-a55c-4bed-b887-ad3490ab964f.jpeg",
         "location": "Asco",
         "readingTime": "2",
+        "snippet": "Corsica Day Three: Rain, Rocks, and Rewards",
         "stats": {
           "distance": {
             "label": "distance",
@@ -19429,19 +19438,13 @@ const data = [
       {
         "date": "June 24th, 2023",
         "description": [
-          "Today was the longest day so far on trail in terms of mileage and time. The breakfast buffet at the hotel was amazing, and definitely needed. I filled up on eggs, sausage, and so much bread. With a full belly I packed up my stuff and hit the trail.",
-          "Since we had dropped a fair amount of elevation yesterday when arriving at Ascu Stagnu, it meant we had to go up right away after leaving the campsite, but it was through a lovely forest with clear views of the world around, and the trail was very well maintained. There was one big river crossing, but I hopped between the rocks with ease as I crossed it. Once I was out of the trees it was time to start the hard part of todays hike: going up to the highest point on the whole thru-hike. This meant lots of climbing up rocks, and using chains to assist when they were provided.",
-          "Lots of people were struggling to get up the areas that had chains, and weren't using them to their full advantage. As I got higher and higher I had to start moving slower and slower. I was hiking through mountains now and loving it. The areas that needed chains started to become less frequent, and the trail transitioned to part rocky path part climbing over rocky obstacles. About 90 minutes later and I was at the first of two cols today, the latter of which would be the highest point on the thru-hike.",
-          "I stopped to explore the plateau and found a waterfall within a short walking distance and filled up on water. It was really buggy there, so I didn't stay long.",
-          "Once back on trail it would take about another 90 minutes to reach the high point for today. On the way there the trail did a bunch of switchbacking on loose scree, and we had to walk over snow patches here and there. The part just below the top had fresh snowmelt flowing down it which made it super slippery, and there were no chains in this area. Combine that with a bunch of scrambling and climbing in this area and it was a tough job getting to the top.",
-          "Amazing views from up there! I'm as high as the clouds are right now. I could see the rest of the trail on this high portion in the distance, and it didn't seem that far, but the way down was tricky. There were some areas that were nice and wide and flat, and other areas that you could only get a single toe on as you had to walk across this near-vertical wall of rock. It was nerve-racking.",
-          "After making it through the tricky part, the trail now began going down loose scree and sandy dirt-like materials. The ground underfoot was slippery, and it would take about two hours to make it down.",
-          "I made it to Auberge U Vallone by mid-afternoon. This was a nice little place that had good views on their front dining area. I checked in, ordered dinner/breakfast, and then went to find a spot to set up my tent. I found a good spot, with trees for hanging my clothing line so that I could air and dry my stuff out. The showers were nice and hot as well.",
-          "There was a small waterfall with a tidal pool right next to the Auberge, and lots of people were taking advantage of its ice cold waters to go swimming or dip their feet in.",
-          "I had veal for the first time for dinner that night. It's amazing how fast I've become non-vegetarian on this hike, and with Corsican cuisine. It tasted good though, and I didn't feel ill afterwards or anything like that.",
-          "I'm starting to get some blisters on both of my feet. I wrapped them with the gauze I had brought as best I could. These toe socks I chose to wear for this hike are not so good, and I'm going to stick with Darn Tough from now on. And some stronger hiking shoes. I don't know what happened to the quality of Altra shoes but these trail runners are already falling apart."
+          "Today was the longest day on trail so far, both in mileage and time. The hotel breakfast buffet was incredible and exactly what I needed to fuel up: eggs, sausage, and plenty of bread set me up for the climb ahead. With a full belly, I packed my gear and hit the trail, ready to face the biggest challenge yet.",
+          "Since we had descended yesterday to reach Ascu Stagnu, it meant an immediate uphill start this morning. The climb began through a beautiful forest with clear views of the surrounding mountains and a well-maintained trail. There was a tricky river crossing where I hopped across the rocks, and soon after the terrain became steep and rocky, requiring scrambling and chains in some sections. Many hikers were struggling on these spots, but the views kept me motivated.",
+          "After about 90 minutes, I reached the first of two cols for the day and explored the plateau, discovering a small waterfall where I refilled my water. It was buggy, so I didn't linger long before heading toward the high point of the day. The final climb involved switchbacks on loose scree, walking over snow patches, and scrambling through slippery snowmelt with no chains to assist. It was challenging, but the moment I reached the summit, the view was worth every step. Clouds floated below me, and I could see the trail stretching ahead across the mountains, teasing the tricky descent that awaited.",
+          "The descent was just as demanding as the climb, with loose scree and sandy dirt making footing precarious. Some sections were narrow and exposed, requiring careful focus, and it took about two hours to safely reach lower ground. By mid-afternoon, I arrived at Auberge U Vallone, a charming spot with excellent dining views. I set up my tent near some trees to dry my gear, enjoyed a hot shower, and watched hikers take dips in a nearby icy waterfall pool.",
+          "Dinner was veal, a first for me on this trek. Corsican cuisine has been tempting my vegetarian habits, and I didn't regret the indulgence. My feet were starting to develop blisters, so I wrapped them as best I could, and I resolved to switch to more durable socks and hiking shoes moving forward. Despite the challenges, today was an incredible day of climbing, scrambling, and breathtaking scenery.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Today was the longest and most challenging day on trail, with steep climbs, loose scree, and snow patches to navigate. Reaching Auberge U Vallone by mid-afternoon, I rewarded myself with a hot shower, a dip in a nearby waterfall, and a delicious dinner.",
         "gpx": [
           [
             42.40279236808419,
@@ -20438,7 +20441,8 @@ const data = [
         "hasStats": true,
         "image": "2023/06/21/8f85de22-b937-4ea5-9dfa-e45eb357e7b8.jpeg",
         "location": "Albertacce",
-        "readingTime": "4",
+        "readingTime": "2",
+        "snippet": "Corsica Day Four: Climbing to the Clouds",
         "stats": {
           "distance": {
             "label": "distance",
@@ -20533,20 +20537,13 @@ const data = [
       {
         "date": "June 25th, 2023",
         "description": [
-          "Today would be easier than yesterday, as I filled myself up with a breakfast of hot chocolate, and bread-n-butter. I was able to move quite fast today as we left the Auberge. The trail went along a rocky trail as it curved its way through the trees around us, and provided lots of lookout points for us to enjoy the large expansive forested valley below. Several trees littered the ground, as we crossed over small rivers fed by waterfalls.",
-          "About 30 minutes later the trail turned from dirt to rock and began ascending up the steep mountainside as I took more frequent breaks on the way up. Luckily my knees were still doing great, but one of the knee pads' velcro was starting to fail.",
-          "About halfway up we stopped at a large waterfall and filled up our bottles, and soaked our hats in the ice-cold water. Such a refreshing feeling!",
-          "We made it to the top of the col, and finished the hardest part of the trail today by 9:00 am. Amazingly the Mediterranean Sea is still visible from these high-up points. There is a refuge up here called Refuge Miori and we stopped there to take a break. I had my first Orangina sugary drink, like a Fanta they say, but on steroids. Regardless, it was delicious and gave me a nice boost of energy.",
-          "The trail coming down from Refuge Miori was relatively easy. It was mostly dirt, and had a nice easing slope to it. We passed a pair of cows chilling in the bushes as we made our way down. Near the bottom I paused and looked back, wow, such an amazing sight seeing how far we'd come in just 60 minutes.",
-          "Up ahead were a series of cascading waterfalls, and one of these cascading areas had a large flat rocky entrance, which we decided to take full advantage of and stripped down to our underwear and went swimming in. Oh man was it cold, but such a refreshing feeling!",
-          "As we continued on our way a herd of goats led by their owners started coming down a steep mountainside and onto the trail. We were delayed for a short while and had to move slowly as the goats made their way, and their owners tried to herd them away.",
-          "After passing the goats we crossed a bridge and about 10 minutes later came to a small food stand that was selling cheese-filled pancakes and lasagna. We grabbed a table in the shade and treated ourselves to some of those cheese-filled pancakes, and they were delicious!",
-          "We continued on through lush green forests and I ended up speeding through parts of the trail. Once at the hotel we settled in and busted out a deck of cards to pass the time.",
-          "I bought some flip flops at the hiker shop for wearing around camp. The ones I had brought with me weighed nothing and were super thin, which was great for keeping my pack weight down, but they were too thin for walking around on this rough terrain at the campsites.",
-          "This was the biggest and most delicious dinner of the trip so far. Steak with fries and egg salad, and dessert!",
-          "Tomorrow promises to be the easiest day so far, but we'll see..."
+          "Today promised to be an easier day than yesterday, and I started it with a breakfast of hot chocolate and bread with butter. I felt energized and ready to move quickly as we left the Auberge and headed onto the trail. The path wound through the trees and along rocky sections, offering plenty of lookout points to admire the expansive forested valley below. Small rivers fed by waterfalls crossed our path, and several fallen trees added some natural obstacles along the way.",
+          "After about 30 minutes, the trail shifted from dirt to rock and began a steep ascent up the mountainside. I took frequent breaks to catch my breath, but my knees were holding up well, though one of my knee pad straps was starting to fail. Halfway up, we stopped at a large waterfall to refill our bottles and soaked our hats in the ice-cold water, which was as refreshing as it sounds.",
+          "By 9:00 am, we reached the top of the col and finished the most challenging section of the day. The Mediterranean Sea was still visible from these high vantage points, a stunning reminder of how far we had come. We paused at Refuge Miori for a short break, where I tried my first Orangina, a sweet, fizzy drink similar to an over-the-top Fanta. The sugary boost was exactly what I needed for the remainder of the hike.",
+          "The descent from Refuge Miori was much easier, mostly dirt with a gentle slope. We passed a pair of cows resting in the bushes and paused to take in the view behind us, amazed at how far we had climbed in just an hour. Along the way, we came across cascading waterfalls and even stripped down to our underwear to take a quick, ice-cold swim on a flat rocky platform. It was invigorating and perfectly refreshing.",
+          "Later in the day, a herd of goats and their owners crossed the trail, slowing us for a short while before we reached a small food stand selling cheese-filled pancakes and lasagna. The pancakes were delicious and provided a much-needed snack. We continued through lush forests, occasionally speeding up to enjoy the trail, and finally arrived at our hotel. There, we relaxed with a deck of cards, bought some sturdier flip flops for around camp, and enjoyed the biggest dinner of the trip so far: steak with fries, egg salad, and dessert. Tomorrow promises to be the easiest day yet, but I'm already looking forward to every step.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Today's trail was a mix of rocky climbs, waterfalls, and lush forests, with plenty of opportunities to stop and soak in the views. A refreshing swim in a cold waterfall and a delicious meal at a food stand made the day unforgettable.",
         "gpx": [
           [
             42.35237848944962,
@@ -21544,6 +21541,7 @@ const data = [
         "image": "2023/06/21/f0dc6ac2-b0e5-4e2a-b874-0d40f47c454b.jpeg",
         "location": "Vergio",
         "readingTime": "3",
+        "snippet": "Corsica Day Five: Waterfalls and Wild Trails",
         "stats": {
           "distance": {
             "label": "distance",
@@ -21639,15 +21637,13 @@ const data = [
       {
         "date": "June 26th, 2023",
         "description": [
-          "I ate my breakfast while watching the sun rise over the mountains before getting going around 7:00 am. Right away the trail started going through some nice woods, and this was a nice easy way to start the day. The path was flat for nearly 3 miles! The woods also had plenty of open areas that provided pretty views of the mountains around us. Even when we had to start ascending, that portion wasn't that bad either.",
-          "After reaching the upper portion of the trail, it now started going over exposed rocky hills, and zig-zagged through rocky columns. The rocky hillsides gave way to lush green hills and as we came over the summits we saw a pristine-looking mountain lake called Lac de Nino.",
-          "As we descended down the trail from the tops of the hills we discovered that the lake was actually surrounded by a bog, and it was tricky walking across it and making sure we didn't step on a soft spot and fall in. There were already some large holes in the surface that gave us a peek into the watery depths below.",
-          "We didn't swim in this lake though, it wasn't as pristine as it had looked from way up high. We took a short break on some boulders along the waters edge before setting off again. Thankfully the trail was flat for a few more miles as its stone-white path cut through the bright green grasses around it.",
-          "We made it to the next establishment, another Bergerie, and ate some really, really, hard bread and tried to wash it down with more Orangina drinks. We set off across the open plains ahead of us and made our way to Refuge de Manganu. We arrived mid-afternoon and noticed that some cows kept walking through the camping area, nicking tents along the way with their horns, so we rigged up a make-shift fence out of some spare rope and rocks in order to try and keep them out of our area.",
-          "There was a river flowing next the refuge, with some wide flat areas that were ideal for chilling in the water, and we took advantage of it.",
-          "The refuge dinner was simple but filling. They're all mostly pasta and red sauce with bread, a meat, and a dessert. The setting sun blanketed the eating area making it a very toasty dinner."
+          "I started the day with breakfast while watching the sun rise over the mountains, and by 7:00 am we were on the trail. The first part of the hike was a gentle introduction, winding through open woods with plenty of clearings that offered beautiful views of the surrounding peaks. The path was mostly flat for nearly three miles, and even the sections that required some ascending were easy enough to enjoy without feeling strained.",
+          "Once we reached the upper portion of the trail, the terrain became more exposed and rocky. The path zig-zagged across rugged hills and through rocky columns, eventually giving way to lush green hills. From the summits, we caught our first glimpse of Lac de Nino, a mountain lake that looked pristine from above.",
+          "As we descended toward the lake, we realized it was surrounded by a bog. Walking across required caution to avoid stepping on soft spots, and some areas already had large holes exposing the water beneath. We didn't swim in the lake, but we paused on some boulders at its edge for a quick break before continuing on the trail, which thankfully remained flat for several miles. The white stone path cut a clear line through the bright green grasses of the surrounding plains, making the walk both easy and scenic.",
+          "We stopped at the next Bergerie for a short break, tackling some incredibly hard bread and washing it down with Orangina. From there, we crossed open plains toward Refuge de Manganu, arriving mid-afternoon. The campsite was lively, and we noticed cows wandering through the area and nudging tents with their horns. We rigged up a makeshift fence with rope and rocks to keep them at bay.",
+          "Next to the refuge, a river flowed with wide, flat areas perfect for cooling off, so we spent some time relaxing in the water. Dinner at the refuge was simple but satisfying: pasta with red sauce, bread, a small portion of meat, and dessert. As the sun set, it cast a warm, golden glow over the eating area, creating a cozy atmosphere that made for a perfect end to another day on the trail.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The trail today took us from easy wooded paths to exposed rocky hills with breathtaking views of Lac de Nino. After a relaxing river break and a simple but hearty dinner at Refuge de Manganu, the day ended perfectly under the setting sun.",
         "gpx": [
           [
             42.28611359372735,
@@ -22645,6 +22641,7 @@ const data = [
         "image": "2023/06/21/95b4adaa-bbbe-4de3-b9f8-96365390f142.jpeg",
         "location": "Orto",
         "readingTime": "2",
+        "snippet": "Corsica Day Six: Lakes, Plains, and Rocky Trails",
         "stats": {
           "distance": {
             "label": "distance",
@@ -22740,17 +22737,13 @@ const data = [
       {
         "date": "June 27th, 2023",
         "description": [
-          "A chilly morning started the day. It's day seven, and that means there's roughly seven more days to go. The trail has been hard but I am enjoying it. We had a slow start to the day once we got going. The way out of the refuge led towards a mountain ridge in the far distance, but first we had to navigate some more more bog-like ground.",
-          "The trail went along shrubs and rocks as it wound its way up towards the ridge. We took a wrong turn at one point and had to double back, losing some time. The sun was rising behind this ridge, and thus the whole trail was in dark shadow. It took us about two hours to get to the top, where we took a well-deserved break on the stony ground, with a huge dropoff danging below us.",
-          "The way down to the next ridge wasn't that bad. There were some drops were we had to scoot down on our butts, and rely on some chains for the other parts. There were two parts here: a lower and an upper, and we decided to take the lower route instead of scrambling over sharp-looking rocks on the upper portion.",
-          "We continued along the trail that ran along the mountainside. It was windy and very chilly in this area. About an hour and a half later the flat section of the trail was done and it was time to start the ascent to a snow-patch covered area with ice-cold waters, perfect for dipping your feet in. The waters were too dirty to fully get into, but they were just right for feet.",
-          "With cold refreshed feet I continued on towards the descent into the next refuge for the night. The way down was a lot steeper than it looked from high above, and it was filled with switchbacks (very steep switchbacks), and waterfalls, making the rocks extra slippery. But I made it down faster than I thought I would.",
-          "I could tell that it was going to be a windy night for those in tents. I still haven't figured out how to properly pitch the tent, and that's also probably due to having to use rocks at every campsite because of the hard-packed ground. I hope they hold.",
-          "This refuge has Sundaes, and eggs! I ordered a plate of fries on top of fried eggs, a coke, and a sundae for lunch. Super healthy, right? I didn't care, it was amazing and it hit the spot.",
-          "Dinner was pre-assigned seating, which meant our group wouldn't be sitting together. Everyone is amazed that I came all the way from Chicago just to do this trek. I still haven't met any other Americans though.",
-          "After dinner our gang played some more card games. Supposedly the refuge tomorrow has amazing lasagna, so I'm definitely looking forward to that!"
+          "Day seven started with a chilly morning that hinted at the long day ahead. The trail out of the refuge led us through boggy ground before beginning the climb toward a distant mountain ridge. The sun was still rising, leaving the trail in shadow as we carefully navigated shrubs and rocks. At one point we took a wrong turn and had to backtrack, but eventually we reached the top after about two hours. The stony summit offered a well-earned break, with a dizzying drop stretching out below us.",
+          "The descent to the next ridge was more manageable, though some sections required scooting down on our butts, and chains helped us navigate the trickier spots. We chose the lower route over the upper section, avoiding sharp, jagged rocks. From there, the trail ran along the mountainside, windy and cold, as we followed the contours of the ridge.",
+          "After about an hour and a half, the flat trail ended and it was time for another ascent, this time to a snow-patched area with icy waters. I dunked my feet into the freezing water to refresh them, careful not to go in fully as the water was a bit murky. Refreshed, I continued toward the next refuge for the night, descending steep switchbacks and slippery rocks along the way.",
+          "The campsite promised another challenging night for tents, as the ground was hard-packed and required rocks to hold down stakes. Despite that, the refuge itself offered some much-needed comforts, including sundaes, eggs, and fries for lunch. I enjoyed a plate piled high, along with a soda and a sundae, without a hint of guilt.",
+          "Dinner was served with pre-assigned seating, so our group was split up, but the conversation was lively nonetheless. Fellow hikers were amazed that I had come all the way from Chicago just to take on this trek. Afterward, we played cards together, and everyone is looking forward to tomorrow's refuge, which reportedly serves amazing lasagna. It was another day filled with adventure, breathtaking views, and moments of camaraderie on the trail.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Today the trail led through boggy terrain, windy ridges, and icy snow-patched waters, challenging both balance and endurance. By the time I reached the refuge, I was ready for a hearty meal of fries, eggs, and a sundae to celebrate the day.",
         "gpx": [
           [
             42.21971182152629,
@@ -23747,7 +23740,8 @@ const data = [
         "hasStats": true,
         "image": "2023/06/21/05769f04-5b00-4fd5-a233-55c00c9871c5.jpeg",
         "location": "Venaco",
-        "readingTime": "3",
+        "readingTime": "2",
+        "snippet": "Corsica Day Seven: Ridges, Snow, and Sundaes",
         "stats": {
           "distance": {
             "label": "distance",
@@ -23842,17 +23836,13 @@ const data = [
       {
         "date": "June 28th, 2023",
         "description": [
-          "I slept alright. The wind was a pain, and I had to put on my pants over my shorts, and put on a pullover, but overall I was alright. The temperature got as low as 53˚F, and the wind chill was probably 15+ degrees colder. Good news though: the sleep system worked well, and the tent also held up.",
-          "During our breakfast of jam on toast and chocolate milk (oh so healthy) I was able to see some cloud inversion. Always a treat.",
-          "The descent was initially very steep and we had to use our trekking poles as braces while hoping down from ledge to ledge, and down the various switchbacks. But eventually it became a more gradual and pleasant descent. We passed by many waterfalls as we went, and lots of cows were in the area keeping us company.",
-          "Just before the halfway point we took a break at a Bergerie that sold quiche! But, to be honest, their cheese was awful. I couldn't stomach it and had to give it away. Their bread was decent though.",
-          "The trail just before and after the Bergerie was amazing because it was flat, and went through forests filled with tall trees spaced far apart. A large river ran beside us over smooth boulders as we worked our way down. At the bottom of the trail there was a bridge over the river and below this bridge was another makeshift swimming area. We did some swimming in the waterfall/river, and it was much colder than the other swimming hole. Some of us even jumped off of the bridge into the river below.",
-          "It would take about another hour to get up to the refuge through some gradual and then steep hiking, mostly over a wide trail just after the swimming hole and then over more narrower and rockier paths that slowly gained up the green hills around us. The camping at the refuge was in a grassy field, so it's easier to get a better tent pitch, but it's still not perfect.",
-          "Finally, the first cold shower of the trip! I was wondering when this would happen. The number of hot showers on this trek was too good to be true! We played some more card games to pass the time before dinner, with some naps mixed in. Dinner was delayed for nearly an hour after we were seated, and the lasagna was just ok, in my opinion. Luckily we got seconds though. And dessert was chocolate mouse!",
-          "After dinner our group said their goodbyes since we're all splitting up after today. It was very sad. These people were awesome, and tons of fun. Some are doing a double tomorrow, while others are taking a rest day in the town of Vizzavona. I had a hotel room booked there though, and I was eager to make use of their laundry services.",
-          "It's gonna be a chilly night tonight."
+          "I slept reasonably well despite the persistent wind, bundling up with pants over my shorts and a pullover to stay warm. The temperature dropped to 53˚F, and the wind made it feel at least 15 degrees colder, but my sleep system and tent held up perfectly. Breakfast was jam on toast with chocolate milk, and I was treated to a beautiful cloud inversion: a rare and stunning sight in the early morning.",
+          "The descent started off steep, requiring careful navigation from ledge to ledge using trekking poles for support. Eventually, the trail eased into a more gradual downhill, passing countless waterfalls and grazing cows along the way. Before reaching the halfway point, we stopped at a Bergerie to try their quiche. The cheese was disappointing, but the bread was solid, and the break gave us a chance to rest before continuing.",
+          "After the Bergerie, the trail became a dream for walking. The flat path cut through a forest of tall, widely spaced trees, with a wide river running beside us over smooth boulders. At the bottom, a bridge spanned the river and beneath it lay a swimming spot where we braved the icy water. Some even jumped from the bridge into the river, embracing the chill before beginning the next climb.",
+          "The final push to the refuge involved a gradual ascent over wide trails and then narrower, rockier paths as we worked our way up green hills. Camping was set in a grassy field, which made pitching a tent much easier, though not perfect. I finally took my first cold shower of the trip, definitely a refreshing change from the many hot showers we'd enjoyed so far.",
+          "Dinner was slightly delayed, and while the lasagna was just okay, seconds were available, and dessert was chocolate mousse. Afterward, our group said goodbye as everyone split up for the next day. Some planned a double hike while others rested in Vizzavona. I had a hotel room waiting there, eager to take advantage of their laundry services. The night promised to be chilly, but it felt good to reflect on a day full of waterfalls, swimming, and shared memories with friends I'd made along the trail.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The day took us down steep trails, past waterfalls, and through forests with rivers running alongside. We capped it off with a cold river swim, a challenging climb to the refuge, and a final evening with friends before everyone split up.",
         "gpx": [
           [
             42.19756247475743,
@@ -24849,7 +24839,8 @@ const data = [
         "hasStats": true,
         "image": "2023/06/21/4e7bda74-809e-48a9-a904-5645bf2e7dde.jpeg",
         "location": "Vivario",
-        "readingTime": "3",
+        "readingTime": "2",
+        "snippet": "Waterfalls, Swimming, and Farewells",
         "stats": {
           "distance": {
             "label": "distance",
@@ -24944,13 +24935,12 @@ const data = [
       {
         "date": "June 29th, 2023",
         "description": [
-          "It was still dark out when I awoke. Last night the clouds had started to creep in towards the camping area, and as we slept they left condensation on everything. Good thing I'm going to a hotel today. The way up and out of the refuge was rough as we headed for the top of the nearby mountain. It was very steep, with a fog slowly rolling in and obscuring the trail but it was worth it for the views at the top.",
-          "The clouds were in abundance, and from this high vantage point I watched as they rolled over the ridge I had just come from, and the sun shone behind them, creating the best cloud inversion I had ever seen. I lingered for a good amount of time, staring, and watching.",
-          "The rest of the way up the trail to todays high point wasn't too bad, but the descent on the other side was another story. The descent was really steep, and it felt like my ankles were being twisted this way and that. I had to traverse extremely smooth rock for a while, before then jumping from large boulder to large boulder when the trail reached a point where it turned downwards. It went on like this for quite a while, but luckily the descent eventually flattened out and the rest of the way was through forests.",
-          "This was the easiest walk so far. After the descent was done the forested part was so easy, and everntually the trail merged with a forest preserve, which had nice wide and luxurious gravel trails. It was so easy in fact that I arrived at 10:45 am, and I had to wait three hours before the room would be ready. I went to a local bar in town (which was really just a grouping of 5 or so buildings and a train station) for drinks and snacks. Everything is very expensive in this tiny town, even more expensive than when at a mountain refuge.",
-          "Finally, time to do some real laundry. I laid out my gear in the hotel room so that it could air out. I took a nice long shower, and then napped. It rained while I was falling asleep, loved it! Dinner was soon, which was good because I was starving. The dinner itself was alright, nothing too fancy, but I was honestlyexpecting more from this hotel. And they have breakfast at 7:00 am so it'll be a late start to the trail for me, but that's ok because it's only 5 hours tomorrow."
+          "I woke up while it was still dark, and the campsite was damp with condensation from clouds that had rolled in overnight. Packing up was quick since today ended at a hotel, and I was looking forward to a warm shower and dry clothes. The ascent out of the refuge was steep, and a fog slowly crept in, obscuring the trail, but the views from the top made it worth every step. From that high vantage point, I watched clouds roll over the ridge below while the sun shone behind them, creating the most stunning cloud inversion I have ever seen. I lingered there for a long time, completely captivated.",
+          "The remainder of the climb to the day's high point was manageable, but the descent on the other side was treacherous. My ankles twisted as I navigated smooth rocks and leapt from boulder to boulder along the steep path. It felt relentless at times, yet eventually the trail flattened out, and the final stretch wound through peaceful forest. The transition into a forest preserve with wide gravel paths made the walk almost effortless.",
+          "Arriving at the hotel at 10:45 am was a little early, so I waited for the room to be ready. I passed the time at a local bar in town, a tiny cluster of buildings with a train station, enjoying drinks and snacks. Prices were surprisingly high for such a small place, even higher than at the mountain refuges. Once the room was ready, I laid out my gear to air, took a long shower, and indulged in a nap as rain gently fell outside.",
+          "Dinner followed soon after, and though it was nothing extravagant, it hit the spot after a long morning on the trail. I had time to relax and appreciate the comforts of a proper hotel, from laundry to a soft bed. Breakfast is set for 7:00 am tomorrow, giving me a later start, which works fine since the day is only a five-hour hike. It's a nice chance to catch my breath and recharge before continuing the trek.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The steep ascent out of the refuge was rewarded with a stunning cloud inversion that left me lingering at the summit. The rest of the day was easy, ending at a hotel where I enjoyed a long shower, a nap, and a much-needed break from the trail.",
         "gpx": [
           [
             42.152911741286516,
@@ -25947,7 +25937,8 @@ const data = [
         "hasStats": true,
         "image": "2023/06/21/2cc8532b-6441-49fb-927e-ebdb001b78cf.jpeg",
         "location": "Vivario",
-        "readingTime": "3",
+        "readingTime": "2",
+        "snippet": "Day Nine: Clouds and Comforts",
         "stats": {
           "distance": {
             "label": "distance",
@@ -26042,17 +26033,13 @@ const data = [
       {
         "date": "June 30th, 2023",
         "description": [
-          "It felt really good to sleep in. Breakfast at the hotel was as plain as the refuges, what a shame. It started raining while eating, which delayed my start by about an hour. As soon as the rain stopped I was out the door and back on trail. The trails in the south are so much easier. It was a leisurely walk along wide, well maintained paths. All of the rivers and waterfalls were overflowing though thanks to the heavy rains yesterday afternoon and this morning, which made some crossings tricky.",
-          "I was up and over the Col just above the town of Vizzavona and on my way to the first refuge after only one and a half hours! It was really windy up there though, and I nearly lost my hat so I didn't stay long. On the trail up from Vizzavona I ran into orange and black lizards know as Fire Lizards. They were decently sized, maybe as big as a soccerball.",
-          "I chugged right along though until I reached Capenelle, my original destination for the day. It was a ski lift area, and the camping was directly underneath the lifts, not the most ideal. It was also to early to stay here: I think I would have been bored. But this place was known for having good pizza, so I took a break and had a long lunch. The pizza itself was huge! I had to fold the pieces in half in order to eat them, and it was really delicious!",
-          "I took my leave of the refuge and started on the way to the next one. The trails were so flat and easy to walk, even with the occasional ascents and descents. I passed many abandoned refuges, who knows how long they've been this way. The route meandered through fields, zig-zagged up and down pine-wood filled mountainsides, and switchbacked down towards deep, dark, forests. I had nice sweeping views of the valley from many places on trail today. Part of the trail required walking on a road for a bit, but not for to long. Eventually I realized that I was alone on trail, and hadn't seen another person in a while.",
-          "It rained off and on throughout the day, but I didn't need a rain coat because I was under trees for most of it. It was a very dreary day overall. I was doing good on energy, and was powering through todays portion: it was definitely going to be a double. After a while I started to wonder how far it was to the next place to stay, it seemed like I had been walking through these trees for ages and ages, not knowing if I was even on the correct trail anymore.",
-          "For nearly an hour I wandered on, until finally coming across an official place to stay called Bocca di Verdi. It was reachable by road, and I debated going on simply because I wanted to be somewhere more rustic. I asked the guardian how much further to the next refuge, and he said about 2 hours. It was already 4:00 pm by this point and I had just done 17 miles of straight hiking today. Needless to say, I stayed at this place.",
-          "Luckily I had also arrived just in time to order dinner. This place has log cabins, and a fireplace in the main building! I could have rented a cabin for myself, but the ground was flat here with tree coverage so I decided to camp it. After getting camp set up I went to the main building and read infront of the fireplace.",
-          "Dinner had a lot of food! And chocolate mousse again for dessert!",
-          "The sun keeps trying to peak out from behind the clouds. I hope the weather over the next few days is more pleasant. It's going to be windy tonight, hopefully the tent walls won't attack me. Oh and one pair of the socks now has a heel hole. Definitely going to toss them as soon as the trek is done."
+          "Sleeping in felt amazing this morning, though breakfast at the hotel was as plain as the refuges. It started raining while I ate, which delayed my departure by about an hour, but as soon as the rain stopped I was back on the trail. The southern sections of the trek are noticeably easier, with wide, well-maintained paths and gentle terrain. Rivers and waterfalls were overflowing from the recent rains, which made some crossings tricky, but it didn't slow me down too much.",
+          "I reached the Col above Vizzavona in just one and a half hours. The wind was fierce up there, nearly blowing my hat away, and I spotted several bright orange-and-black Fire Lizards sunning themselves along the trail. My energy was high, and I pressed on until I arrived at Capenelle, the original destination for the day. This ski lift area wasn't the most scenic place to camp, but it is known for its pizza, and I took a long lunch to enjoy a massive, delicious slice.",
+          "After Capenelle, the trail remained flat and easy, with occasional gentle ascents and descents. I passed several abandoned refuges, wandered through pine-wooded mountainsides, and caught sweeping views of the valley. The route even included a short stretch along a road, though most of the day was spent surrounded by forest. At one point, I realized I hadn't seen anyone else on the trail for quite a while.",
+          "The rain returned off and on, but the canopy of trees kept me mostly dry. Despite the dreary weather, I had plenty of energy and was making excellent progress. Eventually, after about an hour of uncertainty, I came across Bocca di Verdi, an official refuge reachable by road. I considered pushing on toward a more rustic campsite, but after 17 miles of hiking and with the next refuge two hours away, I decided to stay.",
+          "Bocca di Verdi was cozy and inviting. I pitched my tent under the tree cover, giving me a flat, sheltered spot, and then headed to the main building to read in front of the fireplace. Dinner was hearty, and dessert was chocolate mousse once again. The sun kept trying to peek out from behind the clouds, and the wind promised a lively night in the tent. One of my socks now has a heel hole, but it is a small concern compared to the joy of finishing a full day on this trail.\n"
         ],
-        "excerpt": "",
+        "excerpt": "After a long day of 17 miles, I finally arrived at Bocca di Verdi, a cozy refuge with tree-covered camping and a warm fireplace. The southern trails were easier, but overflowing rivers and wind made the journey memorable.",
         "gpx": [
           [
             42.12724442593753,
@@ -27049,7 +27036,8 @@ const data = [
         "hasStats": true,
         "image": "2023/06/21/54334c14-8bae-4478-97f7-179f79cd2ca6.jpeg",
         "location": "Palneca",
-        "readingTime": "4",
+        "readingTime": "3",
+        "snippet": "Seventeen Miles and Mousse",
         "stats": {
           "distance": {
             "label": "distance",
@@ -27145,20 +27133,13 @@ const data = [
       {
         "date": "July 1st, 2023",
         "description": [
-          "Up and down, up and down, this was the way today. Things were very wet this morning. I packed up early in order to try and make today a leisurely day given it would be another long one at nearly 8 hours. I stuffed the wet things into my bag and rushed through breakfast. The day started off with a steep rise through woods but leveled out for a bit and turned into bright green fields with a lovely river trickling through it before switchbacking to a Col.",
-          "It was very windy as the clouds rolled in, and I had to throw on my windbreaker, first time this trip! I made it to the top of the Col and was presented with amazing views of the Mediterranean Sea. The winds up here nearly knocked me over, and for some reason it was freezing cold as well.",
-          "There's a refuge up here called Refuge Prati, and as I passed by it just looked very \"sad\", I'm glad I didn't stay here, and I found out later that it was terrible. Apparently it was so windy that lots of people had to go into the refuge eating area to sleep because their tents were no match.",
-          "The views from up here were amazing. I had really great views of the clouds rolling by as I got higher and higher. I could see for miles in every direction, but the clouds kept coming and before to long the whole area was covered in fog. There were a lot of ridges to walk along. The trail also had a lot of narrow areas that had steep drops off to the right of me.",
-          "The elevation profile for the day ended up being up and down, up and down, all while clouds made it hard to see anything more than 30 feet ahead. I had to climb over a field of steep boulders that seemed like they would give way at any moment, and doing this in the thick fog made it even more scary.",
-          "Eventually the clouds lifted and I could see the trail stretch out in front of me. It was an amazing sight! It went along the ridge of a mountain for a while, and then through some trees, before starting to go in circles, or so it felt. At one point it felt like the trail was doubling back on itself around the top of a mountain. Col after Col, and still no descent towards the refuge.",
-          "Finally a descent! And finally a view of the refuge. It's much higher up than I thought it would be, which probably means an exposed camping area and rough winds. On the way into the refuge area I had to walk past some angry looking horses.",
-          "After finding a spot to pitch my tent I pre-paid for dinner, and bought some snacks from their general store because they didn't a have an a-la-carte kitchen, so I just picked up a bunch of small random foods and retreated to a nearby picnic table to scarf them down.",
-          "While I hung out in my tent waiting for dinner the tent collapsed on me from the strong winds. I reinforced all stakes with more rocks, and even tied out four additional guy-lines. It held together for now. This tent, while very being lightweight and roomy, was not the best at shedding winds without the ability to properly stake it down. Around this time it also started to drizzle.",
-          "This place, when I was there, didn't have a covered eating area, and the space to eat inside - which was actually the kitchen for hikers to cook their meals - was cramped and not many people could fit in there, so I had to eat dinner outside in the rain. While eating I made the decision to see if they had a tent available for purchase. Luckily, they did, and good timing to: my tent couldn't handle the increasingly strong wind, even with all of the extra stakes. I had to undo one of the extra stake-out points to be able to roll the door out of the way in order to pack things up, and as soon as I did the tent collapsed.",
-          "I chilled inside the bomb-proof tent while the rain raged outside. After getting all of my gear situated I read and then fell asleep. This wasn't the best refuge on the trip, but I made the most of it.",
-          "This trek has been great, with amazing views and varied terrain, and has been a great experience overall."
+          "Today was a relentless up-and-down kind of day, with nearly eight hours on the trail. The morning started wet, and I hurried through breakfast to get moving. The first stretch climbed steeply through the woods before leveling out into bright green fields crossed by a gentle river. The trail switchbacked to a Col, and by the time I reached the top, the wind was fierce and icy, forcing me to pull on my windbreaker for the first time this trip.",
+          "From the Col, the Mediterranean Sea stretched out in the distance, and the clouds rolled past in dramatic waves. I passed Refuge Prati, which looked incredibly uninviting, and later learned it was miserable inside, with many hikers forced into the eating area to sleep because the tents could not withstand the wind. The trail ahead twisted along ridges and narrow paths, often with steep drops on one side, and the fog reduced visibility to about thirty feet, making even familiar terrain feel treacherous.",
+          "Climbing over fields of loose boulders in thick fog was particularly nerve-wracking, but eventually the clouds lifted and revealed the trail stretching out ahead. The route wound along a mountain ridge and through trees, looping through Col after Col before finally beginning the descent to the refuge. The camping area was exposed, and I had to navigate past some territorial horses before finding a spot to pitch my tent.",
+          "The wind made things challenging. While waiting for dinner, the tent collapsed under gusts, forcing me to reinforce the stakes with rocks and add extra guy-lines. Dinner itself was outdoors in a drizzle, as the refuge lacked a covered eating area. Fortunately, I was able to purchase a sturdier tent on-site, which made the rest of the night much more comfortable.",
+          "Despite the difficult conditions, the views and terrain made the day worthwhile. From foggy ridges to sunlit clearings, the trek continues to be a spectacular mix of challenge and beauty. Even the frustrating moments, like battling the wind and navigating slippery boulders, became part of the adventure. Each Col conquered reminds me why I came here, and I fell asleep feeling accomplished and ready for the next day.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The day was full of fog, wind, and endless ridges, but the views of the Mediterranean and rolling clouds made every step worthwhile. Battling collapsing tents and slippery boulders became just another part of this unforgettable adventure.",
         "gpx": [
           [
             42.02729366719723,
@@ -28155,7 +28136,8 @@ const data = [
         "hasStats": true,
         "image": "2023/06/21/73a5df9e-fefd-43d0-ad5a-7f71dcb003cc.jpeg",
         "location": "Cozzano",
-        "readingTime": "4",
+        "readingTime": "2",
+        "snippet": "Day Eleven: Fog, Wind, and Endless Ridges",
         "stats": {
           "distance": {
             "label": "distance",
@@ -28251,17 +28233,13 @@ const data = [
       {
         "date": "July 2nd, 2023",
         "description": [
-          "The wind howled all night, and the rain didn't let up. I couldn't stretch out fully in the tent, so I had to lay at an angle and/or curl up for most of the night. These tents are apparently daylight-proof though; I opened the flap to a nice sun-filled morning, nothing like last night.",
-          "The trail started off by going up some mountain ridges with minor scrambling here and there. These ridges and their highs and lows looked deceptively small from far away, and seemed like they would be easy to do, but not so once I got to them. I got lost a couple of times, simply becaues the markers were difficult to find in certain areas.",
-          "Once the ridge portion was done it was time to go down a muddy series of switchbacks towards the woods below. I was in good spirits as I raced down. After that the trail started to level out, and go through a small strand of trees. These trees gave way to gently rolling green hills dotted with large boulders, and I could see far into the distance: this would be the trail for a good long while today, which was nice. I was making great time as well. They weren't kidding when they said the southern portion was easier.",
-          "Here and there large rivers and streams cut across the path, with some watery crossings along the way. These were some of the greenest areas of the trail that I had seen so far on this trip. After the river portion was done it was time to head through local farmers fields and past some other non-refuge places that people could stay at. I could have stopped for breakfast, but it didn't look like they were open for non-guest visitors just yet, so I kept going.",
-          "The trail went up and around a series of twists and turns through lush vegetation and I came to an abandoned house with plant-life of all colors around it. And not a trail marker in sight. It took me and one other stranger a few random attempts of searching in multiple directions before we found the markers. Shortly after resuming the trail I came upon a refuge that I had orinally planned on staying at, and I'm glad I didn't. It was so bare and plain looking. I did stop though to rest and snack on the food I bought the previous night.",
-          "The trail turned into a dirt and gravel road for a while. Eventually it branched off from the road and went through some very green land with a small river running through it. After a short while I came upon another place to eat at, and I decided to try and get some lunch here. Unfortunately I struck out: the kitchen wasn't open yet and wouldn't be for another hour or so. Disheartened I picked up my backpack and got back on trail.",
-          "For the remainder of the afternoon the trail would go up at a steady rate, mostly along a road again before branching off and going back into nature. The landscape was very hilly and dotted with small boulders. It was a lovely sight. I was making amazing time doing two stages again.",
-          "I didn't think the southern portion had any elevation points as high as the north, but here was one of them. It was nearly 6,500 feet above sea-level, and was up in the clouds. The ascent up to the top wasn't too bad though, and I couldn't see the refuge from way up here, but I'm sure it was down there somewhere. The descent was one of the worst, especially after doing a double-stage day. My knees were killing me. I made it to the refuge 1 hour earlier than the official time the signs along the way said it would take, not bad.",
-          "Dinner here was delicious, and my stuff stayed dry overnight even though some clouds had decided to move in during dinner. There wasn't much to do up here, or many communal places to sit, and the temps were dropping fast, so I spent most of the night reading in my tent."
+          "The night was long and uncomfortable, with howling wind and persistent rain. I couldn't fully stretch out in the tent, so I curled up at odd angles just to get some rest. Thankfully, by morning the sun was shining, and the tents kept out all signs of the previous night's storm. It felt good to start the day in sunlight rather than the damp gloom I'd slept through.",
+          "The trail began with some moderate scrambling along mountain ridges. From a distance, these ridges looked easy, but once I reached them, the ups and downs were deceptively challenging. I even lost the trail a couple of times, as markers were difficult to spot in the dense vegetation. Once past the ridges, I raced down muddy switchbacks and entered a stretch of rolling green hills dotted with boulders. The southern portion of the trail lived up to its reputation for being easier, and I made great time.",
+          "Rivers and streams cut across the path, creating some fun watery crossings. The greenest landscapes of the trip appeared here, and I was grateful for the gentle pace. The trail then meandered through local farmland and past small non-refuge accommodations. I considered stopping for breakfast but the places weren't open to non-guests yet, so I pressed on. Later, I wandered through lush vegetation and stumbled across an abandoned house before finally finding the trail markers again, which took some effort.",
+          "After this, the trail turned to dirt and gravel roads and led me through verdant landscapes with rivers running alongside. I attempted to stop for lunch at a local spot, but the kitchen wasn't open yet, so I kept moving. The afternoon brought a steady ascent along hilly terrain, dotted with boulders and picturesque views. I was surprised to find one of the highest points in the southern section, nearly 6,500 feet above sea level, shrouded in clouds. The descent was brutal after a long double-stage day, and my knees were feeling every step, but I still made it to the refuge an hour ahead of schedule.",
+          "Dinner was satisfying, and my gear stayed dry despite the clouds moving in. The refuge offered little in communal spaces, and temperatures dropped quickly, so I spent most of the evening reading in my tent. Even with the challenges, the day had a satisfying rhythm of climbing, descending, and soaking in the quiet beauty of the southern mountains.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The southern portion of the trail offered rolling green hills, rivers, and clouds drifting over high peaks, making for a stunning day despite challenging descents. After racing through two stages, I arrived at the refuge early and spent a quiet evening reading in my tent.",
         "gpx": [
           [
             41.93516297265887,
@@ -29258,7 +29236,8 @@ const data = [
         "hasStats": true,
         "image": "2023/06/21/d36a683f-4d95-4b0c-987d-d190336c49ee.jpeg",
         "location": "Quenza",
-        "readingTime": "4",
+        "readingTime": "2",
+        "snippet": "Day Twelve: Green Hills and Cloudy Peaks",
         "stats": {
           "distance": {
             "label": "distance",
@@ -29353,18 +29332,13 @@ const data = [
       {
         "date": "July 3rd, 2023",
         "description": [
-          "Last night was a terrifying one. Horses decided to wander into the camping area after everyone had gone to sleep, and literally walked right past my head. It's a good thing it was a full moon and that they could see the tents, or else I worry what might have happened. But then dogs started barking at them, spooking the horses and causing them to start galloping through the tents in order to get away. I laid awake in fright for a while.",
-          "Today was the last day on trail, although I didn't quite know it yet. After doing multiple days of double-stages I wasn't sure if I had it in me to do nearly 20 miles today and finish, so my goal for the day was to make it to the last refuge on trail and spend the night there. With that in mind I packed up my stuff, and hit the trail.",
-          "The trail started off by heading straight down into a valley from the refuge for a while and then crossing over to the other side of the valley, and then back up for a bit before leveling out for a good long while. Here and there were waterfalls and some tiny rivers that required crossing, but overall the early morning portion was mostly even ground with very little ups and downs.",
-          "First it was through a forest, and then up towards a more desert-looking terrain with the trail being exposed to the sun for nearly the entire time. And, sure enough, I got lost again. I must have not been paying attention to the trail markers and probably missed a crucial one, but I ended up following a different trail that took me in the completely wrong direction. I bushwhacked, scrambed, and climbed my way back to the main trail.",
-          "Once back on the trail I followed it closely and kept a vigilant eye out for markers. It now started to go up and up towards a forested area and a large public park that had a large amount of hotels and places to stay just down the road from it. I chose not to stop and take a break and to keep pushing through. The trail from this point was a very wide, and flat, dirt path.",
-          "The flat portion ended eventually, and now there was a steep ascent up towards a mountain top. It took maybe an hour to get up there. From there it was another series of ups and downs before arriving at the last refuge on trail. I debated spending the night here, and after scoping it out and seeing that they too had cows and horses wandering through the campsite I decided that I had had enough of that and pushed on. I was going to finish today.",
-          "It was such a long day, with so many ups and downs in elevation. My feet were killing me. About three hours after leaving the last refuge behind, and after many tiring ascents/descents, I came to a pass in the rocks that signaled the beginning of the end of the trail for me. It was like a gate you had to pass through.",
-          "From here it would take about 30 minutes of racing downhill as fast as I could go before I reached the end of the trail, and emerged from the woods onto a paved road that led into the town of Conca, and the official end of the trek. I collapsed as I reached the bar that signaled the end, and I ran into my first American there! We shared a celebratory beer and then headed off into town to find the local campground (the cheapest of the options). From there, in the morning, I took a shuttle into Porto Vecchio where I had a hotel room waiting for me.",
-          "This trek was the hardest I had ever done, and the most amazing. I met a lot of great people, and while there were struggles (both physically and mentally) along the way, overall this thru-hike was a great experience.",
-          "I have finally completed the list of treks I first created back in 2018. What an amazing feeling!"
+          "Last night was one of the scariest I've had on the trail. Horses wandered into the campsite after everyone had gone to sleep, passing dangerously close to my tent. The full moon lit the area just enough to keep them from running into anything, but when dogs started barking, the horses bolted and galloped through the camp. I spent much of the night wide awake, heart racing.",
+          "The morning brought the final day on trail, though I didn't fully realize it yet. After several days of double-stage hikes, I wasn't sure I could handle nearly 20 miles, so I initially planned to stop at the last refuge. The early morning trail dropped into a valley, then crossed to the other side before leveling out. Waterfalls and tiny rivers punctuated the hike, but for the most part, the terrain was even and easy to navigate.",
+          "The path then led into a sun-exposed, desert-like section, and sure enough, I got lost again. Missing a trail marker sent me scrambling, bushwhacking, and climbing my way back to the correct route. From that point, I kept a sharp eye on markers as the trail climbed through a forested section and a large public park. The dirt path was wide and flat for a stretch, but eventually it gave way to another steep ascent toward a mountain top.",
+          "After countless ups and downs, I finally reached the last refuge on trail. The campsite was chaotic, with cows and horses wandering freely, so I decided not to stop. I pushed onward, even as my feet screamed in protest. Three hours of relentless climbing and descending later, I reached a rocky pass signaling the trail's end. A final 30-minute sprint downhill brought me to the paved road of Conca, and the official finish of the trek. I collapsed at a bar, celebrating with my first American hiker I'd met along the way.",
+          "Reflecting on this journey, I can say it was the hardest trek I have ever done, but also the most rewarding. I met incredible people, faced intense physical and mental challenges, and experienced some of the most beautiful terrain in the world. Completing this thru-hike also marked the culmination of a personal list of treks I set back in 2018, and finishing it brought an unmatched sense of accomplishment.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The final day of the trek was long and grueling, with countless ups and downs, challenging terrain, and wandering livestock to contend with. Crossing the finish line in Conca brought relief, celebration, and the realization that this was the hardest but most rewarding hike I've ever completed.",
         "gpx": [
           [
             41.8409729283303,
@@ -30361,7 +30335,8 @@ const data = [
         "hasStats": true,
         "image": "2023/06/21/f0cd0897-3fc9-47a2-808e-e1627dfb45bc.jpeg",
         "location": "Corse-du-Sud",
-        "readingTime": "4",
+        "readingTime": "2",
+        "snippet": "The Final Push to Conca",
         "stats": {
           "distance": {
             "label": "distance",
@@ -30512,7 +30487,7 @@ const data = [
     "category": "destination",
     "date": "Jan 3rd -  6th, 2023",
     "description": [
-      "Spending New Years Eve in a land of ancient wonders. Egypt is a place full of history and bustling cities, awe-inspiring pyramids, tombs, and amazing temples. Seeing them up close, and being able to touch them, is how history is meant to be experienced. We visited 10 destinations over 4 days."
+      "Luxor is a city where history comes alive, from its towering temples to the ancient tombs of the Valley of the Kings. Walking among these wonders, you can feel the weight of thousands of years of civilization."
     ],
     "gear": {},
     "hasGear": false,
@@ -30528,13 +30503,14 @@ const data = [
           "Two massive stone titans rising out of the green farmland like ghosts. The Colossi of Memnon are genuinely staggering to stand next to; at 18 meters tall, they make the surrounding tour buses look like toys.",
           "Even though their faces have been worn away by three millennia of wind and sand, you can still see the outlines of the Pharaoh seated on his throne, his hands resting calmly on his knees as he gazes east toward the Nile. If you look closely at his legs, you can spot smaller carved figures.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The Colossi of Memnon tower over the landscape, making even tour buses look tiny next to their 18-meter height.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/12/28/5e393275-ee80-475d-83cf-26192cd55738.jpeg",
         "location": "West Bank of Luxor",
         "readingTime": "1",
+        "snippet": "Giants of the Nile",
         "stats": {
           "distance": null,
           "gain": null,
@@ -30566,13 +30542,14 @@ const data = [
           "Although commonly known as the Tomb of Ramesses VI, it was actually started by his nephew, Ramesses V, who was likely the first one buried here before his uncle expanded it for himself. The descent was a staggering 117-meter corridor that plunged deep into the limestone. What immediately hit me wasn't just the scale, but the colors. After over 3,000 years, the reds, golds, and deep blues of the hieroglyphs look as though the painters just finished their work this morning.",
           "The walls are a literal library of the underworld. On the left, the Book of Gates guides the way; on the right, the Book of Caverns. The highlight, though, is the burial chamber. I spent most of my time looking up at the astronomical ceiling. It features a magnificent, double-elongated image of the sky goddess Nut arching across the cosmos, swallowing the sun at dusk and giving birth to it at dawn. Below her, the reconstructed green conglomerate sarcophagus sits as a haunting centerpiece.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Descending into the Tomb of Ramesses VI reveals a 3,000-year-old world of vibrant hieroglyphs and a breathtaking ceiling depicting the sky goddess Nut.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/12/28/5f93fbaf-0c30-4f70-959d-a5e4384eff83.jpeg",
         "location": "Valley of the Kings, Kurna, Luxor",
         "readingTime": "1",
+        "snippet": "Wonders of the Tomb",
         "stats": {
           "distance": null,
           "gain": null,
@@ -30604,13 +30581,14 @@ const data = [
           "Entering the Tomb of Tutankhamun feels different from the others: it is remarkably small compared to the vast corridors of the other kings in the valley. You can really sense the haste in which it was prepared. Unlike the other pharaohs who were moved to museums long ago, Tutankhamun himself remains here. I stood inches away from his actual mummy, which is now preserved in a glass case at one end of the burial chamber. Seeing his linen-wrapped form in the very place he was laid 3,000 years ago is amazing.",
           "This was the only room in the tomb with decorated walls. The yellow-background murals are vibrant, showing the boy-king being welcomed into the afterlife by Osiris and Anubis. His massive quartzite sarcophagus still dominates the room, though it is now empty of its famous nesting golden coffins.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Visiting the Tomb of Tutankhamun reveals the boy-king's actual mummy and vibrant murals showing his journey into the afterlife.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/12/28/12a42c7a-6b58-4356-a873-35d8cb66314a.jpeg",
         "location": "Valley of the Kings, Kurna, Luxor",
         "readingTime": "1",
+        "snippet": "Inside Tutankhamun's Tomb",
         "stats": {
           "distance": null,
           "gain": null,
@@ -30641,13 +30619,14 @@ const data = [
         "description": [
           "The preservation here is incredible. The Litany of Ra and the Book of Gates cover the walls in high-contrast reds and golds that look almost fresh, leading all the way to the eight-pillared burial chamber. It is easily one of the most fascinating stops in the Valley of the Kings. This tomb is massive, stretching about 188 meters deep.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The tomb's walls are covered in vivid reds and golds from the Litany of Ra and the Book of Gates, leading to an eight-pillared burial chamber.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/12/28/d8ebe864-7209-44ae-b426-a05337965b8d.jpeg",
         "location": "Valley of the Kings, Kurna, Luxor",
         "readingTime": "1",
+        "snippet": "A Stunning Tomb in the Valley of the Kings",
         "stats": {
           "distance": null,
           "gain": null,
@@ -30678,13 +30657,14 @@ const data = [
         "description": [
           "The Valley of the Queens was less crowded which means we had more time to walk around and view things at our own pace. There was only one tomb where you had to pay to enter, and we skipped it, but the rest were still equally as amazing. Having them to ourselves was the real treat.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The Valley of the Queens was peaceful and uncrowded, letting us explore the tombs at our own pace.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/12/28/9fb7c062-5816-4154-b8cd-525a81f82be0.jpeg",
         "location": "Kurna, Luxor",
         "readingTime": "1",
+        "snippet": "Quiet Wonders in the Valley of the Queens",
         "stats": {
           "distance": null,
           "gain": null,
@@ -30716,13 +30696,14 @@ const data = [
           "Habu Temple was the most amazing temple we had seen thus far. It was in amazing condition: the paintings were pristine-looking. Our guide gave us amazing behind-the-scenes tour, and told us some not-so-commonly known facts about the place, and its historical purpose.",
           "It didn't have the crushing crowds of Karnak, but was every bit as massive and powerful. I've never seen carvings like these. To prevent future pharaohs from hacking off his name and replacing it with their own, Ramesses III had the hieroglyphs carved incredibly deep; some are nearly six inches into the stone.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Habu Temple impressed with its pristine paintings and deeply carved hieroglyphs, offering a powerful experience without the crowds.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/12/28/44f2c787-1209-4e11-a2fe-64030e0c472c.jpeg",
         "location": "West Bank of Luxor",
         "readingTime": "1",
+        "snippet": "Awe at Habu Temple",
         "stats": {
           "distance": null,
           "gain": null,
@@ -30754,13 +30735,14 @@ const data = [
           "Unlike the other temples we visited, this one seemed to literally grow out of the landscape instead of resting on top of it. Its three massive limestone terraces are carved directly into the face of the cliffs, creating a symmetrical silhouette.",
           "This was also probably the busiest temple that we visited. Loads of tour buses were lined up in front of it, ruining an otherwise great view of the temple. We didn't spend much time at this one. While it was cool to visit it wasn't as impressive as the other temples.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The temple's terraces carved directly into the cliffs create a striking silhouette, even if the crowds made the visit less enjoyable.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/12/28/b7e2eeb1-90d3-49cb-bdb8-41acf2162f78.jpeg",
         "location": "West Bank of Luxor",
         "readingTime": "1",
+        "snippet": "Terraces in the Cliff",
         "stats": {
           "distance": null,
           "gain": null,
@@ -30793,13 +30775,14 @@ const data = [
           "Our time came and we were shuffled into the basket of our balloon with the most charistmatic captain one could hope for. After a quick run-through of the rules we were off and ascending into the air.",
           "The captain had a little jingle he kept singing: \"Everything I do, I do for you.\" It made us smile and laugh, and kept things cheery. The ride over the Valley of the Kings and Queens below us was amazing. The sunrise, the views, it was the\nperfect ending to this vacation.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Watching the sunrise over the Valley of the Kings from a hot air balloon was the unforgettable highlight of our time in Luxor.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/12/28/b13b3a23-187a-4dc4-912d-e225b21af78a.jpeg",
         "location": "West Bank of Luxor",
         "readingTime": "1",
+        "snippet": "Sunrise Over Luxor",
         "stats": {
           "distance": null,
           "gain": null,
@@ -30830,13 +30813,14 @@ const data = [
         "description": [
           "This was our first temple complex that we visited in Luxor, and it was astounding to be standing at the base of these humungous columns and statues. We spotted Greek writing mixed in with ancient Egyptian, which aligned with what the guide in Cairo told us about Alexandar the Greats conquering of Egypt and introduction of the helenistic cultures.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Standing among the massive columns and statues of Luxor Temple, we were amazed to see Greek inscriptions alongside ancient Egyptian ones.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/12/28/9799718c-81f7-460d-9f0a-7ddd2dffb060.jpeg",
         "location": "Luxor",
         "readingTime": "1",
+        "snippet": "Discovering Luxor Temple",
         "stats": {
           "distance": null,
           "gain": null,
@@ -30868,13 +30852,14 @@ const data = [
           "We walked down the Avenue of Sphinxes in order to reach the Karnak temple complex, and no one else was on the avenue, so we had it all to ourselves. It beat walking alogn the busy narrow streets.",
           "Luxor was amazing, but Karnak was huge! This temple complex was expansive, tall, and the paintings on the walls were still in great condition. There were so many things to see here. We spent a long time walking around and checking\neverything out.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Walking alone down the Avenue of Sphinxes, we had the grand Karnak Temple complex all to ourselves and were amazed by its size and well-preserved paintings.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/12/28/7f2020f6-ccd2-4f4a-98a1-44abd2df6911.jpeg",
         "location": "Luxor",
         "readingTime": "1",
+        "snippet": "Exploring Karnak Temple",
         "stats": {
           "distance": null,
           "gain": null,
@@ -30957,13 +30942,14 @@ const data = [
           "And there they were, the infamous wonders of the ancient world: the Great Pyramids of Giza. Pictures don't do it justice, these things were huge! Not only that, but we were able to walk through the ruins of other structures around\nthe pyramids as well. We were able to freely walk through other ruins nearby and see all of the pyramids up close and personal. But the best part was coming up: going into the Great Pyramid itself.",
           "Once we got through the tunnels dug into the side of the pyramid, we entered the corridors built by the ancient Egyptians. These corridors were very tight and cramped. The Kings Chamber was our destination, and it was just like the pictures from our history books: plain and empty. But that doesn't matter, because we were standing inside the great pyramid!\n"
         ],
-        "excerpt": "",
+        "excerpt": "Visiting the Giza Plateau was an unforgettable experience, culminating in a walk inside the Great Pyramid itself. The tight corridors and Kings Chamber were just like the history books, but far more awe-inspiring in person.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/12/28/c0f9c079-8942-4390-bb9e-dae4e0a65034.jpeg",
         "location": "Giza Plateau, Giza",
         "readingTime": "1",
+        "snippet": "Standing Inside the Great Pyramid",
         "stats": {
           "distance": null,
           "gain": null,
@@ -30994,13 +30980,14 @@ const data = [
         "description": [
           "While the pyramids have their own wow-factor, the Sphinx is also pretty cool on its own. We couldn't get up close to it like we could with the pyramids, so we had to shuffle along with the other tourists, trying to get to a good vantage point. Totally worth it though.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The Sphinx is impressive in its own right, even from a distance among the crowds of tourists. Finding the perfect vantage point made the experience completely worth it.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/12/28/b3275967-68fd-4c69-ad40-df15b2a697b5.jpeg",
         "location": "Giza Plateau, Giza",
         "readingTime": "1",
+        "snippet": "The Mighty Sphinx",
         "stats": {
           "distance": null,
           "gain": null,
@@ -31029,13 +31016,14 @@ const data = [
         "description": [
           "We booked a guided tour to Saqqarra where we visited the Bent Pyramid. In the distance we could see the ruins of other pyramid types that didn't make the final cut. Our guide provided us with a good amount of background knowledge about the history and evolution of the pyramids, and of ancient Egypt. We wish we had this kind of experience at the Great Pyramids yesterday.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Our guided tour of Saqqara brought us to the Bent Pyramid, surrounded by the ruins of other experimental pyramids. The guide's insights into ancient Egyptian history and architecture made the visit truly enriching.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/12/28/d9a7b01b-5915-493c-8c25-5a8ebd77ac58.jpeg",
         "location": "Saqqarah",
         "readingTime": "1",
+        "snippet": "Discovering Saqqara",
         "stats": {
           "distance": null,
           "gain": null,
@@ -31067,13 +31055,14 @@ const data = [
           "We booked a guided tour to Saqqarra where we visited the Step Pyramid. At the complex surrounding the pyramid our guide got us free access to a tour of the tombs and we saw our first heiroglyphics in person. It was a short tour, but amazing nonetheless.",
           "While our guide was informative about lots of things, we felt like we missed out on seeing more, like going underneath the Stepped pyramid and exploring the tunnels within. They said it wasn't that great and told us to skip it.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Our guided tour of Saqqara included the Step Pyramid and a chance to see ancient hieroglyphics up close in the surrounding tombs. While we skipped the tunnels beneath the pyramid, the experience was still unforgettable.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/12/28/2fbb089e-8a80-4c3b-b071-709cc9702a84.jpeg",
         "location": "Dahshur",
         "readingTime": "1",
+        "snippet": "Exploring the Step Pyramid",
         "stats": {
           "distance": null,
           "gain": null,
@@ -31246,7 +31235,7 @@ const data = [
             {
               "link": "https://arcteryx.com/us/en/shop/bird-curved-brim-trucker-hat",
               "name": [
-                "Arc’teryx",
+                "Arc'teryx",
                 "Trucker Hat"
               ],
               "weight": 2.15
@@ -31747,7 +31736,7 @@ const data = [
           "Finally we arrived at Stony Ridge Shelter #2. It's a classic Adirondack-style lean-to perched on a ridge with a solid view of the surrounding kettle depressions. We pitched our tent inside of the shelter. After a day of climbing one hill after another and navigating over tangled tree roots, the quiet of the woods here is the perfect end to the trek.",
           "The next day we repeated the path to the shelter which didn't seem to take as long as the intial hike out to it.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The Blue Spring Lake segment of the Ice Age Trail offered a perfect introduction to overnight backpacking with its rolling oak forests and challenging climbs. Bald Bluff rewarded us with panoramic views, and Stony Ridge Shelter provided a peaceful spot to rest for the night.",
         "gpx": [
           [
             42.87523431703448,
@@ -32745,6 +32734,7 @@ const data = [
         "image": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",
         "location": "Eagle",
         "readingTime": "2",
+        "snippet": "Blue Spring Lake Adventure",
         "stats": {
           "distance": {
             "label": "distance",
@@ -32847,7 +32837,7 @@ const data = [
           "Before reaching the shelter, I took the mandatory detour up to the Parnell Tower. Climbing those 60 steps to the top gave me a bird's-eye view of the entire forest canopy. Low clouds hung in the sky, but we could still see for miles, and it's the highest point in the Kettle Moraine State Forest.",
           "Parnell Shelter is a rustic Adirondack-style wood structure, tucked away from the main Parnell Tower loop to give backpackers some peace. There was a stone fire ring and plenty of space for us all to gather around it for tales and ghost stories. It's quiet out here. I slept well at night, despite temperatures dipping below freezing.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The Butler Lake to Parnell Tower hike showcased the Northern Kettle Moraine's rugged, hummocky terrain with constant ups and downs. Parnell Tower offered sweeping views, and the rustic Parnell Shelter provided a cozy spot to end the day.",
         "gpx": [
           [
             43.66362724453211,
@@ -33845,6 +33835,7 @@ const data = [
         "image": "2025/05/03/e402c0b1-e827-4123-b7b5-74947b240687.jpeg",
         "location": "Mauthe Lake",
         "readingTime": "2",
+        "snippet": "Butler Lake to Parnell Tower",
         "stats": {
           "distance": {
             "label": "distance",
@@ -33944,7 +33935,7 @@ const data = [
           "The middle of the hike was a leg-burner. The trail here doesn't just go around the kettles; it dips into deep, damp valleys and then climbs right back out onto narrow moraine ridges. I passed through dense stands of oak, maple, and pine, navigating a narrow footpath that was often tangled with rocks and roots.",
           "The final stretch took me toward the Greenbush Recreation Area and finishing at the Greenbush Trailhead. I'm wiped but satisfied. This segment really makes you earn every mile with its constant elevation changes, but the views of those ancient glacial depressions are worth the sweat.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The Parnell Shelter to Greenbush hike pushed us through dense forests and rugged ridges, making every mile a challenge. The payoff was sweeping views of ancient glacial kettles that made the effort worthwhile.",
         "gpx": [
           [
             43.73677519150078,
@@ -34942,6 +34933,7 @@ const data = [
         "image": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
         "location": "Glenbeulah",
         "readingTime": "1",
+        "snippet": "Parnell to Greenbush",
         "stats": {
           "distance": {
             "label": "distance",
@@ -35230,7 +35222,7 @@ const data = [
             {
               "link": "https://arcteryx.com/us/en/shop/bird-curved-brim-trucker-hat",
               "name": [
-                "Arc’teryx",
+                "Arc'teryx",
                 "Trucker Hat"
               ],
               "weight": 2.15
@@ -35637,21 +35629,11 @@ const data = [
       {
         "date": "May 7th, 2022",
         "description": [
-          "A good thru-hike should start like any other with a full backpack, wearing an unspoiled set of clothes, and a nervous walk to the starting point. And this thru-hike had all of those. I left my hotel at 7am on an empty stomach, unsure of what to expect from this adventure.",
-          "First things first, I had to get breakfast before I caught a train from Glasgow to the starting point: Drymen. Luckily there was a familiar place to get some food: McDonalds. I ordered a basic breakfast menu item, and snarfed it down as I quickly walked to the station. You don't want to be late on your first day!",
-          "The station was easy enough to find, however the exact gate was a bit harder to sus out. Good thing I was in a country that used my native tongue (or at least as close to it as Scottish is to American English). The platform wasn't on the main level, but a sub-level seeing as it was a more local train and not one bound for, example, London. Good thing I wasn't the only one heading that way.",
-          "I didn't have to wait long for the train to arrive. Right on schedule. I felt uneasy stowing my backpack in one of the luggage shelves, so I kept it on my lap. There were some people on the train that I had seen yesterday as I toured the city, and others that I had spotted in the station this morning. One of those people sat across from me. I couldn't think of a non-awkward way of striking up a conversation, and considering I was pretty confident about what they would say seeing as they had a very large backpack with them, I said \"I hope this is the right train to Drymen for the West Highland Way.\" And that's all it took: we became instant trail-friends on the train, and hiked that first day together. By the second day though, I was on my own for the rest of the hike.",
-          "A short train ride later and we were in Drymen. Our first priority was finding food for breakfast since I only had a small sandwhich from McDonalds, and they had nothing. We stood out as we went in the opposite direction of the trail starting point and went to a local grocery store. With food in hand we returned to the start point.",
-          "You can judge how much a place cares about a trail by it's starting point. Is it ceremonious, or is it just a sign on a dirt trail? The West Highland Way (WHW) had a proper marker for the start of the trail in the form of a small obelisk, and an archway with the name of the trail in big bold letters on a metal banner across it. We posed for selfies before strapping in, grabbing our poles, and heading through the arch and onto the trail.",
-          "For the first hour or so we walked through the outskirts of the town by going through a lands set aside as a city park or walking path area. By 10 am we were well out of the city and into open farm fields and pastures.",
-          "Lots of short stone walls and wooden fences surrounded us as we walked along a gravel path. The trail was bisected by a road for a short while, and walking along a road is never a fun time. Luckily it didn't take long and we were back onto grassy terrain in no time. We passed through a metal gate, and were in the lowlands. There were green hills as far as the eye could see.",
-          "Here and there trail markers dotted the path, emblazened with the WHW symbol. Clouds threatened to drop rain on us all day, but thankfully they never did. We marched through green fields, across rivers, and through thickets of trees.",
-          "Around noon we came to our first resting spot of the day, a trail-side cafe called \"Turnip the Beet\". Clever. I ordered one of the most delicious trail sandwiches I had had in a long time. I gobbled the whole thing down in no time at all. Thirty minutes later and we were back on the trail, just before a light misting of rain began. We donned our rain coats and kept going.",
-          "More green pastures and fields as the afternoon got on. The misty rain went away shortly after we continued walking, and sunny skies were with us for the rest of the day. Cows and sheep and ducks kept us company on both sides of the trail behind small wooden fences. We even passed a \"Trolls Bridge\" at one point. It was fenced off, but who knows if it was real or not.",
-          "The dirt trail gradually turned into walking on a road once more, albiet a much more local and farm-type road (no lane markers, only wide enough for one car), so there wasn't much traffic. This road walking would continue until we made it to the first place for the night: a field on a farm in the town of Drymen, Scotland.",
-          "By 3pm we had arrived. I set up my tent and got my home-on-the-go situated. This place had hot showers, a welcomed relief at the end of a long day of walking. I had a CLIF protein bar for a snack, and then sat there for a bit in front of my tent. Dinner time roled around, and it was time to fire up the trekking stove. I can't recall what the meal was, but it was a pre-made backpacking meal.",
-          "After eating the person who I had walked with today asked if I wanted to go into the nearby town and grab a drink. Sure, why not. What else have I got to do here in a field on a farm? It took about 20 minutes to get to there, but there wasn't much...there. A small hotel with a restaurant and a bar/cafe that looked just a little too fancy for us. We opted for a pint at the hotel bar. It wasn't very glamorous, but at least it was something to do.",
-          "We headed back to the farm after only one drink each, and settled in for the night. Tomorrow I would be heading to a campsite on the beaches of Loc Lomond, and if the sunny weather held it would promise to be an awesome experience."
+          "A good thru-hike always begins with the familiar mix of anticipation and nerves, full backpack, fresh clothes, and the uneasy excitement of walking toward the starting point. I left my hotel in Glasgow at 7 a.m., stomach empty and mind buzzing with questions about what the day would bring. First priority: breakfast. Luckily, a familiar fast-food spot came to the rescue. I grabbed a quick meal and hurried to the train station, determined not to be late on day one.",
+          "Navigating the station was straightforward, though the local platform required a bit of detective work. The train arrived on time, and I found a seat across from another hiker carrying a large pack. A simple question about the West Highland Way sparked an instant connection. We would hike together for the first day before parting ways on the second. A short ride later, we arrived in Drymen, and the first order of business was securing a proper breakfast at a local grocery store before heading to the trailhead.",
+          "The start of the West Highland Way did not disappoint. A small obelisk and an archway with the trail's name marked the beginning in a way that felt celebratory. After some quick photos, we set off, walking first through the town's outskirts before entering open farm fields and pastures. Stone walls, wooden fences, and green hills stretched out in all directions, while trail markers guided our path. Clouds hung heavy overhead, threatening rain, but thankfully the weather held as we passed rivers, trees, and fields teeming with wildlife.",
+          "By noon, we stopped at a charming trail-side café, \"Turnip the Beet,\" for a well-earned lunch. The sandwich was easily one of the best I'd had on the trail. Soon after, a light mist fell, prompting rain coats for a short stretch before the sun returned. Afternoon walking brought more pastoral scenery, with cows, sheep, and ducks keeping us company. Even a fenced-off \"Trolls Bridge\" added a touch of whimsy to the hike. Eventually, the dirt trail gave way to a quiet farm road, leading us to our first campsite just outside Drymen.",
+          "We arrived around 3 p.m., set up camp, and enjoyed the relief of hot showers. After a snack and some rest, we cooked a simple pre-made dinner on the stove. Later, my hiking companion suggested a short trip into town for a pint, which provided a small taste of local life before returning to the farm. As the sun set, I settled into my tent, ready for an early start the next day, eager to continue the adventure along Loch Lomond's scenic shores. Day one had set the tone: challenging yet rewarding, with spectacular views and a sense of camaraderie that only the trail can provide.\n"
         ],
         "excerpt": "Every thru-hike begins with nerves, a full pack, and that first step into the unknown. From an early-morning train out of Glasgow to green lowlands, stone walls, and misty fields, my journey on the West Highland Way started with good food, new trail friends, and the quiet excitement of finally being on trail again.",
         "gpx": [
@@ -36650,7 +36632,8 @@ const data = [
         "hasStats": true,
         "image": "2022/05/07/75a8c027-07cd-4184-9157-d48dd5d1a32e.jpeg",
         "location": "Glasgow",
-        "readingTime": "6",
+        "readingTime": "3",
+        "snippet": "Day One on the West Highland Way: Farm Fields, Loch Views, and Trailside Surprises",
         "stats": {
           "distance": {
             "label": "distance",
@@ -36745,18 +36728,11 @@ const data = [
       {
         "date": "May 8th, 2022",
         "description": [
-          "No rain overnight, so that's a good sign for the day. My earplugs kept falling out as I slept, making true deep sleep ellusive for the most part. I dressed in my tent, packed up most of the gear, and exited to find a bright and cloudy sky awaiting me.",
-          "Oatmeal with dehydrated banana slices is usually my go-to meal for backpacking trips that I need to bring my own food, and this hike was no different. I set about the task of boiling water on my tiny stove that was balanced on a piece of rock so as to keep the flames away from the, albiet wet, grass. My companion from yesterday emerged from their tent and started cooking breakfast as well. They mentioned that they would be taking it slow today, and that yesterday was rough on them, so I wished them a good hike and packed up my cooking gear after finishing breakfast, and set out on the route.",
-          "We visited the town of Drymen last night, and today's route followed that same way. Once past the town the route detoured from the road and onto a more familiar dirt path that went between two farms. Green grass and yellow flowers filled the space around me as the trail gradually merged with a local forest preserve.",
-          "Luxurious wide gravel paths took me through pine woods, and sections of wood that were bleached and/or regrowing from a previous disaster. Not more than an hour later and the trail left the forest preserve behind, and once more became a thin rock-strewn dirt path. The first views of the Loc were also attainable from here, but the path did not go directly to them and instead it curved to the right and towards hills and wide open lands.",
-          "Multiple stone walls separated the terrain into varoius misshapen grid chunks. Gray clouds still hung overhead, threatening to start raining at any moment but thankfully they never did. The mid-morning destination was becoming clearer though as the trail was decidely heading in one direction: towards a massive hill/mountain.",
-          "After a short bridge crossing over a meandering stream, the dirt path turned into stone steps, which meant it was time to climb. Luckily the steps didn't last for long before a dirt trail appeared and started to circle around and zig-zag up the side of this monsterous hill. All around me were fields and rolling hills patched up by strands of trees here and there.",
-          "Finally, after a turn in the trail, the Loc was in full view. Another 20 minutes of walking and scrambling up some loose dirt/hillside terrain and I was at the top. What a sight to behold! The gray clouds even gave way to white pillowy clouds as I reached the top. This Loc was absolutely massive, and no wonder it would take the rest of the day today, and most of the day tomorrow, before finally getting around it. It must have been a weekend, or holiday, because the trail was filled with a bunch of weekend hikers out for a stroll.",
-          "I knew I still had a ways to go today, so I spent just enough time up at the top to get some photos, have a snack, and relax before beginning the descent straight down to the local town below.",
-          "Going down wasn't that bad, it was the amount of people on the trail that made it a not-fully-enjoyable time. But 30 minutes later and I was walking through bright green confifer woods. It was nearly noon and time for lunch. I had only brought enough meals for dinner and breakfast because I had read that there were plenty of stops along the way to get lunch and/or snacks. I found a restaurant on the edge of the water, and sat outside as I ate a burger and frees and sipped on a nice cold beer.",
-          "Anxious to keep going I suited back up, refilled my water bottles, and set off into the woods once more. The trail started ascending once more to get back into the hills that surrounded that town. I passed by a few more WHW hikers as the trail meandered through the trees before settling into a route that ran parallel with the waters. The beaches that I passed were all very stony, and no sand was present. After about 1.5 hours of walking at a brisk pace through the hot and stuffy trees I was excited to finally come across the campground where I would be spending the night.",
-          "My reserved spot was right on the beach, with a great view of the waters and surrounding hills/mountains. It was 4pm at this point, which meant a lot of time to just sit and chill. I strung up my dirty clothes to dry and air out, set up the tent (which was no easy feat in the winds that were blowing off of the lake), and sat in my backpacking chair. I read, took a nap, made some dinner, strolled along the waters edge, and didn't do much of anything else before it was time to go to bed.",
-          "Today was a good day on trail: amazing views, variety of terrain, and good meals."
+          "The day began under a bright, cloudy sky. A promising start after a night of restless sleep. I packed up my tent and gear, then cooked a quick breakfast of oatmeal with dehydrated bananas on my compact stove, carefully balancing it on a rock to avoid the damp grass. My hiking companion from yesterday decided to take it slow, so I set off alone, ready to tackle the day's route with energy and anticipation.",
+          "The trail led out of Drymen and quickly veered from the road onto a dirt path winding between two farms. Green fields dotted with yellow flowers gave way to rolling hills and forested preserves, where wide gravel paths cut through pine woods and areas of regrowth from past disturbances. The path gradually narrowed again into rocky dirt trails, offering glimpses of the Loch in the distance, though the route circled around before turning toward the massive hills ahead.",
+          "Crossing a small stream, the trail soon transitioned to stone steps, signaling the start of a climb up the hillside. The path zig-zagged and looped, with fields and sporadic tree clusters surrounding me. After about twenty minutes of scrambling over loose dirt, I finally reached the top, greeted by expansive views of the Loch below and a sky that had cleared into soft, pillowy clouds. I paused briefly for photos and a quick snack before descending toward the town below.",
+          "The descent was straightforward, though the trail was busy with weekend hikers. By noon, I reached a restaurant at the edge of the water for a well-earned lunch: a burger, fries, and a cold beer. After refueling I continued on the afternoon section of the hike. The trail climbed again, weaving through dense, warm woodland and eventually following the shoreline of the Loch, where the stony beaches stretched alongside the water.",
+          "By late afternoon, I arrived at my reserved campsite on the beach, with sweeping views of the surrounding hills and mountains. I spent the evening setting up my tent against the gusty winds, hanging clothes to dry, reading, and taking a nap. A peaceful stroll along the water completed the day, which had offered a perfect mix of varied terrain, spectacular scenery, and satisfying meals. It was a thoroughly rewarding day on the trail, one that reminded me why I love long-distance hiking.\n"
         ],
         "excerpt": "A bright, cloud-filled morning gave way to green fields, forest paths, and a steady climb that finally revealed Loch Lomond in all its scale and beauty. From misty hills to a quiet lakeside campsite, the day unfolded with big views, good food, and the kind of trail miles that remind me why I'm out here.",
         "gpx": [
@@ -37755,7 +37731,8 @@ const data = [
         "hasStats": true,
         "image": "2022/05/07/e8dd9fed-56e4-45bf-aee4-d1bc44a5363c.jpeg",
         "location": "Glasgow",
-        "readingTime": "5",
+        "readingTime": "2",
+        "snippet": "Loch Views and Rolling Hills: A Solo Second Day on the West Highland Way",
         "stats": {
           "distance": {
             "label": "distance",
@@ -37850,21 +37827,11 @@ const data = [
       {
         "date": "May 9th, 2022",
         "description": [
-          "Thick gray clouds greeted me as I exited my tent in the morning. With a couple of bars of cell signal, I opened up the weather app to see if any rain was due in the near future. Sure enough, there it was: rain due in 30 minutes. I opted to skip cooking breakfast, and just chowed down on some protein bars as I packed up and hit the trail with my rain jacket on.",
-          "Sure enough, about 30-40 minutes later the first rain drops started to fall. That's ok though, I thought, I've got a waterproof backpack and a good rain jacket to keep me dry. Just as a precuation I had also put on my polyester joggers (which were not waterproof) in order to provide some sort of rain protection as I hiked. The shoes were another story, sure they would get wet but they would also dry out quickly, if given the opportunity to do so.",
-          "The trail hugged the coastline of the Loc for the most part, mixed with multiple detours into the surrounding green woods, but the waters were always somewhat visible. The rain was really starting to come down now, and it was only 8am. I passed an iconic red telephone booth in front of a bed and breakfast place. It smelled like they were serving but I wasn't hungry and wasn't defeated by the rain just yet.",
-          "Clouds started to cling to the sides of the hills surrounding the waters. While most of the trail today was a dirt path, there were plenty of rocks strewn about it. Some small, some large, but all of them in within my way of walking, and all of them slippery from the rain. Good thing these Altra trail runners had good grip!",
-          "I ran into a pair of mountain goats just chilling by the water under some trees, waiting out the rain, unbothered. I dared not get too close because you never know how a wild animal is going to react, and as soon as they caught sight of me I decided that it was time to move on.",
-          "Small wooden bridges with railings crossed the more rugged areas of the trail, especially over freshly flowing rivers and waterfalls. The area surrounding the trail was full of bright green foliage, and colorful wildflowers. The trail meandered through open clearings towards mornings end, removing what little protection there was from the trees.",
-          "Moss-covered stones of old ruins popped up here and there along the way, but there were no signs to indicate if they were of importance or not. Doesn't matter to me, all historical/old things are cool-looking. I'd guess these particular ones had been here for a while, given how much dirt and whatnot had accumulated within.",
-          "About an hour later I came upon a massive waterfall that ran next to a hotel, and luckily it was open for business. A welcomed respite from the ran, with somewhere warm and dry where my things could dry off, hopefully. While they were open for business, the kitchen was not, and all they had to offer was water, juice, and coffee, plus some small pastries from the previous day. What a let-down. My feet were thankful though for the rest and fresh pair of socks though. I wasn't prepared for this much rain, and apparently (according to the locals at the hotel) that this is the norm in Scotland. I should have done better research. I rested for maybe an hour before continuing on.",
-          "The trail led away from the hotel road and back along the lake, through a rocky and slippery mess. The designers of the trail must have thought people would enjoy sliding, crouching, and hopping from rock to rock. Not much fun in the rain though. I nearly slipped a handful of times, and had to go slow in order to avoid slipping in more dangerous areas. Luckily these section didn't last for too long before the trail was back to a flat path. However the flat trail was now a river.",
-          "On and on I marched through the steady downpour of rain, wading through wet and muddy trail conditions. At one point the water flowing over the trail crested over the tops of my shoes, thoroughly soaking them through and through. About an hour later I came to a free place to spend the night: a hut with beds, fireplace, and lines to hang wet clothing. It was awfully cold in there, and I seriously thought about staying since I was so wet and just wanted to dry out. But as I sat there and contemplated going, the rain waters started to overflow the threshold at the door, and were slowly flooding the floor of the place. Needless to say, I opted to keep going, especially since there was no one else there and I would have been cold and alone all night.",
-          "I pushed onwards towards Bienglas Farm, my original destination for the day. By about 4 pm, or two hours since I left the hut, I arrived. I'm so glad I didn't stay at that hut a while back. It's not really a farm, persay. Or at l east, not today it isn't, but might have been at one point. This place had hot showers, a restaurant serving hot meals, and a washing/drying machine for clothes!",
-          "Picking a spot for my tent was tricky, since most of the grounds were flooded, or on a slope, but I found a spot under a broad tree with thick leaves. I asked the person who had also set their tent up there if it was ok that I joined them, and they said yes of course. I set up my tent, grabbed dry clothes, and set off for the showers.",
-          "After a much need hot shower (of which I probably stayed in longer than I should have and used up way to much hot water), I went to the restaurant to get some hot food, and then off to the washing/drying machines for my laundry. With nothing left to do, and a non-existent desire to hang out in my tent in the cold wet air, I found a table in the restaruant and set up shop. A few other hikers joined me, as space as limited, and we conversed for most of the evening, and even split the laundry fee between us.",
-          "Given all that had happened today with being soaked from the rain, I had decided to book a hotel for the next day. I usually don't give up this quickly, but something about the weather and the loneliness of the trail made me want some modern creature-comforts.",
-          "I turned in around 9pm, looking forward to the dry big warm bed of a hotel the next day."
+          "Gray clouds greeted me as I emerged from my tent, and a quick check on my phone confirmed what I suspected: rain was on the way. Breakfast was skipped in favor of a few protein bars, and I packed up quickly, donning my rain jacket and polyester joggers for what promised to be a wet day. By 8 a.m., the first raindrops began to fall, soaking the trail but doing little to dampen my spirits. My waterproof backpack and Altra trail runners gave me confidence as I set off along the coastline of Loch Lomond, weaving through green woods and open vistas with the water always in sight.",
+          "The morning brought all the charm and challenges of Scotland's trails. Clouds clung to the surrounding hills, and rain slicked rocks demanded careful footing. I passed under the gaze of a pair of mountain goats calmly sheltering by the water and crossed several small wooden bridges spanning flowing streams and waterfalls. Moss-covered ruins dotted the landscape, hinting at forgotten history, while colorful wildflowers and lush foliage brightened the gray day.",
+          "After an hour, I arrived at a hotel beside a massive waterfall. A perfect place to rest and dry off. While the kitchen wasn't open, a warm drink and fresh socks were a welcome relief from the cold and wet. An hour later, the rain had slowed, and I continued along the lakeshore, navigating a rocky, slippery path that tested my balance at every step. Flat sections of trail had turned into streams, forcing careful wading through muddy conditions. The persistent downpour and flooded paths made progress slow, but the scenery was stunning, even in the rain.",
+          "Eventually, I reached a small hut with beds and a fireplace, tempting as a place to dry off and rest. But as the rainwater began creeping over the threshold, I opted to push onward toward my original destination: Bienglas Farm. Arriving around 4 p.m., I was relieved to find hot showers, a restaurant serving warm meals, and laundry facilities: a hiker's dream after a soaking day. Setting up my tent under a large leafy tree, I quickly changed into dry clothes, showered, did laundry, and settled in at the restaurant with other hikers, sharing stories and passing the time until nightfall.",
+          "The relentless rain and cold left me craving comfort, so I decided to book a hotel for the next night. By 9 p.m., I was tucked in, looking forward to a warm bed, dry sheets, and the chance to rest before the trail continued. Despite the day's challenges, the combination of rugged Scottish scenery, wild encounters, and the camaraderie of fellow hikers made it a memorable chapter in the journey.\n"
         ],
         "excerpt": "Dark clouds and steady rain set the tone as the trail clung to the loch, turning paths into streams and rocks into hazards. Soaked through and worn down, I pressed on until hot showers, warm food, and fellow hikers offered a much-needed refuge from the downpour.",
         "gpx": [
@@ -38863,7 +38830,8 @@ const data = [
         "hasStats": true,
         "image": "2022/05/07/e610c340-2b8c-481c-8442-dc4543db3f2c.jpeg",
         "location": "Inverarnan",
-        "readingTime": "6",
+        "readingTime": "3",
+        "snippet": "Rain, Rocks, and Rugged Beauty: A Wet Third Day on the West Highland Way",
         "stats": {
           "distance": {
             "label": "distance",
@@ -38959,17 +38927,11 @@ const data = [
       {
         "date": "May 10th, 2022",
         "description": [
-          "The morning brought a dryer outlook to the day than yesterdays did. While dark gray clouds still hung around in the sky, there were more patches of blue this morning than the day before. After a nice big traditional english breakfast I grabbed my backpack and set off at a later-than-usual start time of 8:30 am.",
-          "Puddles littered the trail and made it quite the zig-zagging-game of avoiding them. Once or twice I skimmed the tops of puddles while trying to hop between them but I wasn't going to let that get me down. A slightly wet shoe toebox is better than a fully soaked shoe.",
-          "Waterfalls and rivers were in full rage this morning after the deluge of rain. It made some crossings a little sketchy by having to balance on top of large rocks in the rivers waters, but overall it wasn't too bad. I soon left these raging watery challenges behind as the trail ascended into dryer pastures.",
-          "Most of the morning was spent hiking through yellow grass fields and hills, with the occasional ruins of a building popping up on either side of the trail. Eager to put my good fortune with the weather to use, and being in happier spirits thanks to fully dry/clean clothing and a full belly, I started to walk at a brisk pace.",
-          "By 11 am I was up above the fields I had been walking through for the past 2.5 hours, and had wide views of the mountains and hills around me. The clouds on the other hand were not being so cooperative and had thickened throughout the morning and were now threatening rain once more. Luckily no rain was falling yet, and instead of a fog was beginning to descend.",
-          "After walking above the fields for a short amount of time the trail took a turn down and into some thinly-needled pine woods that slowly transitioned to some confifer trees. There were lovely little streams running through it, and the colors were really popping in here. It was a very pleasant walk through fog and trees and whatnot. But this lovely experience ended about an hour after entering the woods, because the exit from here was a massive section of deforestation. What a terrible thing to have on a national scenic trail.",
-          "Over and under stone bridges, through more short stretches of woods, until I was once again walking through wide-open fields of green flanked by mountains on either side. Truly a beautiful site, even with the heavy clouds.",
-          "By 12:30 pm I had reached the place I was originally planning to stay at, but becuase I was in such good spirits and the clouds were slowly going away, I decided to keep going and head for a popular spot, and the place I was going to go to the following day: the town called Bridge of Orchy. At 1:30 pm I came to a large town and grabbed some lunch at a restaurant. An hour later and I was off.",
-          "Bright sunshine was now in abundance as I took the trail out of town and back into the mountains. Massive and impressive formations of mountains and hills dominated the views around me. The trail after the town was really wide, and practically level for the entire rest of the day. Needless to say, at my brisk pace I was making great time and covering a lot of distance.",
-          "I walked into Bridge of Orchy around 4:30 pm, tired and exhausted after such a long day of walking. The spot for camping in this town was along the river that ran alongside it, next to the bridge the town is named after. The only buildings in this town were a church and an inn that you could stay at, but I opted for camping. It took a little while to find a level spot to set up, but eventually I found something. There were also a good amount of other people camping here as well. And there was a proper bathroom since a lot of people were also parking their RV's here. I snapped some photos of the bridge, and the surrounding countryside, made some dinner, and let my feet recover while sitting at a park table in the small camping area with some other hikers.",
-          "Rain started to fall around 7pm, which meant it was time to retreat and get inside of the tent. Only two more days left now, and today was a great day."
+          "The morning greeted me with a much drier outlook than the previous day. While dark gray clouds still lingered, patches of blue were beginning to peek through the sky. After a hearty traditional English breakfast, I shouldered my backpack and set off a bit later than usual at 8:30 a.m., ready to take advantage of the improving weather.",
+          "The trail was still dotted with puddles from yesterday's downpour, making navigation a bit of a zig-zagging game. I occasionally skimmed the tops of puddles, but a slightly damp toe was far preferable to a fully soaked shoe. Waterfalls and rivers were raging from the recent rain, creating some tricky rock-hopping crossings, though nothing too hazardous. Soon enough, the trail climbed into dryer pastures, leaving the watery challenges behind.",
+          "Much of the morning was spent walking briskly through yellow-grass fields and rolling hills, occasionally passing the ruins of old buildings. By 11 a.m., I had gained elevation above the fields and enjoyed wide, sweeping views of the surrounding mountains and valleys. Thickening clouds hinted that rain might return, and a gentle fog began to descend, adding a mysterious quality to the landscape. A short stretch through pine and conifer woods, with streams and vibrant greenery, offered a peaceful contrast to the open hills, though the serenity ended abruptly when I emerged into a deforested area, a stark reminder of human impact on even the most scenic trails.",
+          "After navigating a series of stone bridges and small wooded patches, I returned to open green fields flanked by mountains, truly a spectacular sight even under heavy clouds. By 12:30 p.m., I reached my initially planned stopping point but, feeling energized and seeing the sky clearing, decided to push on toward Bridge of Orchy, a town I had planned to reach the following day. A lunch stop in a larger town at 1:30 p.m. refueled me before the trail carried me back into the mountains under bright sunshine. Wide, level paths made for fast progress, allowing me to cover impressive distance through dramatic hills and peaks.",
+          "I arrived in Bridge of Orchy around 4:30 p.m., exhausted but exhilarated after a long day of walking. The campground was set along the river beside the town's namesake bridge, offering level spots for tents and access to proper bathroom facilities. I set up my tent, captured a few photos of the bridge and surrounding countryside, cooked dinner, and let my feet recover at a park table alongside fellow hikers. Rain returned around 7 p.m., a signal to retreat into the tent, but it was a satisfying end to a day full of wide vistas, varied terrain, and excellent progress. Only two days left on the trail now, and today had been a great one.\n"
         ],
         "excerpt": "After days of rain, a brighter morning brought dry clothes, open fields, and renewed energy. As clouds lifted and sunshine returned, the trail stretched wide through hills and valleys, carrying me all the way to Bridge of Orchy where I was reminded how a hard hike can still be a great one.",
         "gpx": [
@@ -39968,7 +39930,8 @@ const data = [
         "hasStats": true,
         "image": "2022/05/07/b7df127a-0f69-4b29-843f-e1a7c6f858bf.jpeg",
         "location": "Glen Orchy",
-        "readingTime": "4",
+        "readingTime": "3",
+        "snippet": "Day Four: Chasing Sun Between Showers to Bridge of Orchy",
         "stats": {
           "distance": {
             "label": "distance",
@@ -40065,18 +40028,11 @@ const data = [
       {
         "date": "May 11th, 2022",
         "description": [
-          "Today would be filled with a mixture of sun and rain, and mountains, while traveling through the true highlands of Scotland. I had a cabin reserved for the night in the town of Kinlochleven, and would desperately need it after another rain-soaked day.",
-          "A rivers rushing waters, a kind of whitenoise, always help me sleep. Breakfast today would be two packets of granola and two packets of dried banana slices. I had a surplus of backpacking food at this point, and would be able to leave the rest of it behind at the cabin tonight since tomorrow would be my last day on trail. The clock struck 8am, and I was on my way.",
-          "Forests lined the riverbank where I slept last night, and it was nice to be walking within them right out of the gate. Rains last night created fresh wet conditions on the trail though, which meant more tiptoeing on any rocks that stuck their tops above water. My shoes did stay dry for long sadly.",
-          "Not 30 minutes later and forests were already behind me, and scraggly grasslands lay before me, with a large lake in the distance. Up and over hills, dry patches of trail few and far between. Discontinous forests in oddly arranged groups were in the distance all around me, perhaps a reforesting process? Up ahead there was a bed and breakfast, but the restaurant services were only for guests and the store for buying snacks wasn't open yet. I waited a little bit to see if someone would come and open up shop, but they never did. Given how far I would have to go today I decided to simply bust out a protein bar and keep going.",
-          "The terrain today varied between forests, and grasslands, and the trail seemed to stretch on forever into the distant mountains. By this point, around 10am, the clouds started to drop their rain on me. It started as a fine mist, but slowly turned into a steady downpour of rain. I did not see many people on today's segment, maybe the rain kept them away.",
-          "Besides the rain, the views on this part of the trail today were amazing! I love hiking in the mountains, and today I was surrounded by all sorts of them. I truly felt like I was alone in the world today, walking through this remote land, with the unrelenting rain beating down on me, and not another soul in sight.",
-          "For nearly two hours I marched on through the rain, up and over small passes between mountains, trying to stay in good spirits. Eventually the trail left the remote world behind and joined up with a paved road that led to a hotel called The Kingshouse. It's one of the stops along the way, and I hoped they would have hot food, and sure enough, they did.",
-          "I spent a good long hour there, eating hot food, and trying to let my stuff dry out as much as possible. I used one of the bathroom stales to change out of my wet clothing, and into some fresh dry things. There's nothing like a dry pair of socks and underwear to immediately brighten ones spirits. At 1pm I left The Kingshouse behind and continued on me way, through more mountains.",
-          "The rain was done for the day, thank god, and the sunshine brought the most amazing views I had seen so far. A bright blue sky, and dark stone mountains, dominated my view, and the world around me. These pictures don't do it justice.",
-          "After walking through these amazing mountains for another 90 minutes, it was time to start descending down into the town of Kinlochleven. It was a long way down, took nearly an hour but felt like forever what with all of the twist and turns in the trail. Eventually I reached the towns outer limits, and it wasn't a pleasant way to enter the town: the trail exits right next to a factory.",
-          "There were also no waymarks as I got into town telling me which way the trail would go tomorrow, so I had to pop open Google Maps and figure out how to actually get into the town. After a wrong turn I made it to the town center. Finding the cabin took a bit more effort, and figuring out where to go in was also tricky, I even had to call the host in order to figure out where to go.",
-          "I settled in and began laying out my cold wet gear in order for it to try out. The place had a TV, which was nice, and the bed was big and comfy. I made the last of my backpacking meals for dinner, and discarded the rest. I was looking forward to a good nights sleep."
+          "Today promised a mix of sun and rain as I ventured deeper into the Scottish Highlands. I had a cabin reserved in Kinlochleven for the night; a welcome prospect after anticipating another rain-soaked day on the trail. After a simple breakfast of granola and dried banana slices, I packed up and set off at 8 a.m., ready for whatever the Highlands would throw at me.",
+          "The trail began alongside the riverbank where I had camped, with forests providing a pleasant canopy to start the day. Wet conditions from last night made navigating rocks and roots a careful exercise, and before long, the forests gave way to scraggly grasslands with a large lake visible in the distance. Attempts at stopping for a proper breakfast at a nearby bed and breakfast were fruitless, so a quick protein bar kept me moving.",
+          "By mid-morning, clouds had thickened, and rain began to fall, gradually intensifying into a steady downpour. I saw very few people along this stretch, and the isolation made the experience feel raw and wild. The mountains surrounding me were magnificent, and walking through this remote landscape with rain lashing down and not another soul in sight was exhilarating in its solitude.",
+          "After nearly two hours navigating small passes and remote trails, the path led me to a paved road and The Kingshouse, a trail-side hotel. I spent a restorative hour there, enjoying hot food, changing into dry clothing, and letting my gear begin to dry. A fresh pair of socks and dry clothes instantly lifted my spirits, and by 1 p.m., I was back on the trail, this time under bright sunshine.",
+          "The afternoon brought some of the most stunning mountain views yet, with deep blue skies contrasting sharply against dark stone peaks. After 90 minutes of awe-inspiring hiking, the trail began a long descent into Kinlochleven. The entrance to town was less picturesque than the Highlands I had just traversed, exiting near a factory, and I had to rely on Google Maps to navigate to the cabin. Once settled, I laid out my wet gear to dry, enjoyed a hot dinner from my remaining backpacking meals, and looked forward to a well-earned night of rest in a comfortable bed.\n"
         ],
         "excerpt": "Rain, mountains, and long empty miles defined the day as I crossed deep into the Scottish Highlands. After hours of solitude and steady climbs, the clouds finally parted to reveal dramatic peaks, blue skies, and a hard-earned descent into Kinlochleven.",
         "gpx": [
@@ -41075,7 +41031,8 @@ const data = [
         "hasStats": true,
         "image": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
         "location": "Lochaber",
-        "readingTime": "5",
+        "readingTime": "2",
+        "snippet": "Rain, Solitude, and Spectacular Highlands During Day Five on the Way to Kinlochleven",
         "stats": {
           "distance": {
             "label": "distance",
@@ -41172,15 +41129,11 @@ const data = [
       {
         "date": "May 12th, 2022",
         "description": [
-          "Here it is, the last day on this rainy and lonely trail. Can't say that I'm sad that this trek is coming to an end. It wasn't my most favorite, even though it had its fair share of amazing sights and challenging experiences. Today I would be making for Fort William, and my hotel at the end of the West Highland Way.",
-          "I didn't take many photos today, I was too focused on finishing and making it through the rain that hounded me all throughout the day. At least the day started with partly sunny skies. It took some searching, but I eventually found where the trail continued, and made my way up and out of the town. While trail started with a steep ascent to get back up into the hills and mountains, it was mostly flat the rest of the way, until the descent into Fort William.",
-          "Fjords were visible in the distance, signaling the incursion of the Atlantic ocean. For a good while the trail went down the middle of a long and narrow valley, flanked by scraggly grass-covered mountains. The trail hung to the right-most side of the valley, and weaved its way through the hills.",
-          "After exiting the valley area I went up and down over several small hills, and in and out of forests. I didn't take many breaks on the trail today, I was, again, too focused on finishing. The trail merged with a forest preserve trail which meant it would be a nice wide manicured path. The rain had also started to fall by this point. But my rain jacket had been on all day. In fact, I can't remember I time in the past three days when I wasn't wearing it.",
-          "Up ahead I could see the tallest mountain in the UK: Ben Nevis. I had hoped to summit it the following day, but the weather would not cooperate. After about an hour of descending I was on mostly flat ground again, and close to the end. It was a full downpour of rain by now, and I don't think I had any dry clothing left on me, except for the outfit I would be wearing while I was in Fort William and while traveling back to my hotel in Glasgow.",
-          "Here the trail left nature behind and met up with a sidewalk along a busy section of road. For an hour I walked through the heavy rain, as cars sped by me. At least this part of the trail was waymarked. I entered the outskirts of the town, and had to pull up Google Maps in order to figure out where my hotel and the end of the trail was.",
-          "While the beginning of the trail had a ceremonious marker and beginning, the end did not. It was simply a bench with a statue of some old man on it, and a sign that said \"The end of the West Highland Way\". There streets around me were empty, due to the rain, and there were no other hikers finishing at the same time as me, so this was a rather sad and lonely ending to a not-so-fun trek. Defeated, I headed for my hotel and a warm bed.",
-          "I spent the next day and a half warming up as best I could: the hotel heater wasn't working in the building so they gave me a small portable space-heater. Needless to say I didn't do much exploring on the day that I arrived. The next morning I went out to breakfast (the hotel didn't offer much), and shopped around for a souvenior. I had to find a pin of the hike though, as I had done on all previous hikes, in order to add to the collection on my backpack. I finally found one at the last place I visited, just before having to leave to catch the evening train back to Glasgow.",
-          "The West Highland Way had been on my bucket list of hikes for a long time, and I gotta say that I was mostly dissapointed by it. It wasn't what I had thought it would be, and it would make me doubt if I would ever want go on another thru-hike ever again."
+          "The last day on the West Highland Way brought a mix of rain, gray skies, and the lonely solitude that had marked much of this trek. I was heading for Fort William, my final destination, and though I couldn't say I was sad the hike was ending, I knew today would be a test of endurance. After some searching, I finally found the trail leaving town, beginning with a steep ascent into the hills and mountains before settling into a mostly flat route toward Fort William.",
+          "The morning offered glimpses of partly sunny skies, and fjords appeared in the distance, hinting at the Atlantic's presence. The trail wound through a long, narrow valley flanked by scraggly, grass-covered mountains, weaving along the hillside. Exiting the valley, I climbed over small hills and through forests, my pace steady and unbroken, focused entirely on reaching the end. By now, the rain had begun, and my trusty rain jacket stayed on for most of the day.",
+          "As I approached the final stretch, Ben Nevis, the tallest mountain in the UK, loomed in the distance. A summit attempt would have to wait for another day. The trail gradually descended to mostly flat ground, where I was fully exposed to a downpour, every step soaking my gear. The trail eventually met a sidewalk along a busy road, leaving the hills behind and entering the outskirts of Fort William. The waymarks helped, but I had to pull up Google Maps to locate my hotel and the trail's official endpoint.",
+          "Unlike the ceremonious obelisk that marked the start, the West Highland Way concluded quietly: a simple bench, a statue, and a small sign declaring 'The end of the West Highland Way.' The streets were empty, the rain relentless, and no other hikers were around to share the moment. It was a muted, lonely ending to a trek that had been more challenging, and less rewarding, than I had imagined. I headed to my hotel, eager for a warm bed and a chance to dry out.",
+          "The following day and a half were spent recuperating. With a small portable heater provided by the hotel, I slowly thawed, grabbed breakfast, and hunted down a souvenir pin for my collection. Reflecting on the experience, the West Highland Way had fulfilled a long-standing bucket-list goal, but it left me mostly disappointed. The journey was far from the idyllic adventure I had imagined, and it forced me to question whether I would ever attempt another thru-hike.\n"
         ],
         "excerpt": "The final miles to Fort William were soaking wet, quiet, and more about endurance than celebration. With rain falling and the trail ending not with fanfare but a simple bench, the West Highland Way closed on a subdued note leaving me tired, and reflective.",
         "gpx": [
@@ -42179,7 +42132,8 @@ const data = [
         "hasStats": true,
         "image": "2022/05/07/07741eea-d85e-42cf-a2d4-d0f87102bffc.jpeg",
         "location": "Scottish Highlands",
-        "readingTime": "4",
+        "readingTime": "3",
+        "snippet": "The Lonely End of the West Highland Way: Rain, Reflection, and a Bittersweet Finish",
         "stats": {
           "distance": {
             "label": "distance",
@@ -42348,13 +42302,14 @@ const data = [
         "description": [
           "Early in the morning the beach belongs to the joggers, dog walkers, and a few dedicated kitesurfers preparing for the afternoon winds. The sand is wide and golden, stretching between the turquoise Atlantic and the low-rise guest houses of the local neighborhood. It was our favorite thing to do each morning. We walked from one end of the beach to the other, sometimes crossing over private condominium grounds to get to the other section of beach.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Mornings on the beach were peaceful, with golden sand, turquoise waters, and only joggers, dog walkers, and kitesurfers around.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/03/23/9f212336-298d-4c7d-874f-a3be34c95d7d.jpeg",
         "location": "San Juan",
         "readingTime": "1",
+        "snippet": "Morning Walks on the Beach",
         "stats": {
           "distance": null,
           "gain": null,
@@ -42389,13 +42344,14 @@ const data = [
           "Everywhere the views were breathtaking. From the upper levels, you get sweeping panoramas of the Atlantic Ocean, the colorful La Perla neighborhood below, and the nearby cemetery. The iconic garitas, or sentry boxes, are everywhere, making for the perfect selfie spot.",
           "We explored all six levels of the fort, navigating ramps, spiral stairs, and dark tunnels. Inside, we saw replicated military barracks, a chapel, and storerooms that really helped us imagine what life was like for the soldiers stationed here centuries ago.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Walking to Castillo San Felipe del Morro takes you from the lively beach to a sprawling fortress with breathtaking ocean views and historic Spanish architecture.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/03/23/1ba3d3f7-9462-4375-9770-4efedf15f582.jpeg",
         "location": "San Juan",
         "readingTime": "2",
+        "snippet": "Exploring El Morro",
         "stats": {
           "distance": null,
           "gain": null,
@@ -42427,13 +42383,14 @@ const data = [
           "This is the only tropical rainforest in the US National Forest system! Our tour guide picked us up in a comfortable van, providing a fascinating overview of Puerto Rican history and the forest's unique ecosystem during the 40-minute drive.",
           "The core of the trip was an invigorating hike along a beautiful, albeit sometimes muddy, trail. The guide pointed out giant ferns, bamboo trees, and even the tiny coquí frogs making their iconic sounds. The reward at the end of the trail was a crystal-clear natural swimming hole where we swung from a rope swing into the cool river water, as well as slid down a natural slide-way.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Hiking through El Yunque, the only tropical rainforest in the US National Forest system, rewards you with giant ferns, coquí frogs, and a crystal-clear natural swimming hole.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2022/03/23/11a03e4e-ed4e-47c2-822e-f720a9628638.jpeg",
         "location": "Ceiba",
         "readingTime": "1",
+        "snippet": "Adventure in El Yunque",
         "stats": {
           "distance": null,
           "gain": null,
@@ -43179,18 +43136,13 @@ const data = [
       {
         "date": "February 18th, 2020",
         "description": [
-          "Finally, I have come back to South America, and come back to Patagonia. I'm actually here, and actually doing the \"O\" Circuit. But not yet, first I need to take a bus from Puerto Natales (my base of operations for the next 11 days) to the Torres del Paine National Park. This was going to be my first time thru- hiking a trail while camping every night, and carrying all of my own food. My backpack must have weighed close to 30 pounds at the start. I had done some research and bought a lot of ultralight gear for this trip, including the backpack, as well as my tent. Fingers crossed!",
-          "The bus dropped me and over a dozen other hikers off at the welcome center to the park, where we watched a mandatory video on what not to do in the park, paid an entrance fee for the hiking permit, and set off onto the trail.",
-          "And I took a wrong turn. Instead of going straight at a fork, I went right and ended up heading towards a maintenance shed at the entrance. Luckily I wasn't the only one who got turned around: a pair of canadians were ahead of me and I had been following them hoping they would guide me onto the main trail. As we all turned around one of them (Charles) said \"never follow Canadians\". From that point forward we walked together for the rest of the day, getting to know eachother along the way. Adèle (studying high-level math) and Charles (working in corporation-land) were from Quebec and had done lots of hikes to the Adirondack mountains in upstate New York. Little did I know but we, and a handful of others, would end up walking the entire circuit together.",
-          "This landscape is amazing: rivers snaking through yellow-green fields of grass with snowcapped mountains encircling us, with patches of forest along the way. Not a hard trail either, in terms of ascent/descent and difficulty walking. We were making great time, and it would only take us about 3 hours to get to our first campground on this circuit: Seron.",
-          "After walking through the yellow-green fields for about 30 minutes, we entered a sparsley wooded forest. We chatted the whole way through, asking all sorts of questions about where we're each from, what we do for a living, culture norms, etc. The forest did not last long and we were back under the sun once more.",
-          "It was so quiet down here, at the bottom of the world. It's a remote area to begin with, along with a really low population density, it felt like we were in another world.",
-          "We snaked our way through the grassy fields, taking in the sights around us. A couple of river crossings blocked our path, some of the rivers overflowing from the downpour of rain that hit the area last night. Luckily the trail was not waterlogged, and our socks n' shoes stayed dry.",
-          "Maybe three quarters of the way in we stopped for a snack on some tree logs next to one of the river crossings. We didn't stay long though thanks to all of the mosquitos that werwe buzzing around us. Didn't matter though, we were practically done with today's segment. 30 minutes later and a wooden sign on a tree informed us that we had reached Campamento Seron.",
-          "The campground had a large tent for campers to cook in, and some heavy-duty tents on raised wooden platforms in a small field that was bordered in by large bushes. There were also hot water showers (yes!) and full-service bathrooms. But the main camping area was \"out front\" and it was a field full of tall yellowed grass. It was a picture-perfect setting. But as luck would have it, some rain started to fall as we started picking spots for our tents and setting up camp.",
-          "For this trip I chose a pyramid-style tent that was made out of a lightweight and waterproof proof material called Dyneema. It was supposed to be great at deflecting winds, and it most definitely was. We had some wild winds overnight, possibly approaching hurricane-force at one point. But I felt safe and secure in my tent, and I slept pretty dang well, even if the ultralight sleeping pad I had bought for this trip made the sound of a chip bag crinkling whenever I moved."
+          "Finally, I'm back in South America, back in Patagonia, and ready to tackle the legendary 'O' Circuit. My base for the next 11 days is Puerto Natales, and from there I took a bus to Torres del Paine National Park. This would be my first time thru-hiking a trail while camping every night and carrying all of my own food. My backpack, packed with ultralight gear and tent, probably weighed close to 30 pounds. A hefty load, but worth it for the adventure ahead.",
+          "The trail started with a small hiccup: I took a wrong turn and almost ended up at a maintenance shed. Luckily, I wasn't alone: Charles and Adèle, two Canadian hikers, had also veered off. From that point on, we stuck together, sharing stories and laughs as we explored the park's incredible scenery. Rivers snaked through yellow-green grasslands, snowcapped mountains loomed in the distance, and patches of forest offered welcome shade. The trail itself was gentle, and it took only about three hours to reach our first campground, Serón.",
+          "The quiet of the park was otherworldly. Low population density and remote landscapes made every step feel like a step into another world. Along the way, we crossed rivers swollen from last night's rain and paused briefly for a snack on a tree log, swatting mosquitoes while taking in the scenery. Soon enough, a wooden sign announced we had arrived at Campamento Serón.",
+          "The campground was impressive: a large communal tent for cooking, raised tents on platforms, hot showers, and full-service bathrooms. Most of us camped in the open field, surrounded by tall yellowed grass, a picture-perfect setting framed by the surrounding wilderness. Rain started as we picked our spots and set up, but my pyramid-style Dyneema tent, lightweight yet windproof, held up brilliantly through an overnight storm that reached near-hurricane strength.",
+          "Despite the wild winds, I slept soundly, listening to the occasional crinkle of my ultralight sleeping pad and feeling secure in my little shelter. Day one of the 'O' Circuit was a gentle introduction to the park's beauty, a perfect mix of adventure, camaraderie, and awe-inspiring landscapes. A promising start to what would become an unforgettable journey.\n"
         ],
-        "excerpt": "",
+        "excerpt": "First day on the 'O' Circuit: rivers, yellow-green fields, windy nights, and my first taste of Patagonia's wild beauty.",
         "gpx": [
           [
             -50.96519,
@@ -43497,7 +43449,8 @@ const data = [
         "hasStats": true,
         "image": "2020/02/18/619eec82-6980-4f31-a11f-7c5581d02989.jpeg",
         "location": "Torres del Paine",
-        "readingTime": "4",
+        "readingTime": "2",
+        "snippet": "Patagonia Bound: Day One on the 'O' Circuit",
         "stats": {
           "distance": {
             "label": "distance",
@@ -43593,14 +43546,13 @@ const data = [
       {
         "date": "February 19th, 2020",
         "description": [
-          "What a place to wake up in. The sun was shining bright, the sky was full of pink-white clouds, and the tall grasses around me were bright and golden as I exited from my tent. The others were already awake and/or slowly rising as well, which meant it was time to make some oatmeal for breakfast, and start packing up.",
-          "It felt like we walked through those golden-bright fields of grain forever this morning. It sure was a sight to behold. But all good things must come to an end, and we started to hike up and up until we were overlooking a large lake below. The wind had also picked up at the top of the hill we had just climbed and was blowing everyones hair all over the place. Ugh, but who could complain; these views!",
-          "On the other side of the hill the wind was less intense as we walked through woods made of short round pine trees, and some others that had been through a forest fire in years passed. A large tourquise river flowed nearby, but luckily we didn't have to worry about crossing it, or walking alongside it. There was a checkpoint in the woods that the trail went by where we had to get our permits checked, in order to ensure we were authorized to be there. No issues, and on we went.",
-          "Pine trees gave way to yellow grains which gave way to dark green flora. We could also see snow-capped mountains in the distance, as we steadily walked in their direction. We came upon some marshy lands, and thankfully there was a well- maintained boardwalk going through them. If that wasn't there, this would have been a very different kind of day.",
-          "After about 30 minutes we left the marshes behind and we greeted with our first sights of Dickson, our refugio for the night. It sat on the shores of a large lake, encircled by trees and had a large field where we could pitch our tents if we wanted to, however; nature is a fast teacher. Given the experience we all had last night from the wind, we all choose spots near the treeline, or behind tall bushes, so that we would be protected from any future gale-force winds.",
-          "The refugio had a full indoor kitchen within which to cook our meals, as well as hot showers and full bathrooms. The best feature about this place though, was the shoreline and rocky beach behind it. I walked up and down it, snapping photos of the monsterous mountains that lined the shores on the other side from us, and some of them were actually in Argentina, that's how close to the border we were!"
+          "What a way to wake up! The sun was bright, the sky scattered with pink-white clouds, and the tall grasses around my tent glowed golden in the morning light. Everyone else was slowly emerging as well, so it was time to make oatmeal, pack up, and prepare for another day on the trail.",
+          "This morning, we walked through fields of golden grass that seemed endless. The scenery was breathtaking, but soon enough we began the steady climb up a hill, where the wind picked up and tousled everyone's hair. At the top, we paused to admire the view of a large lake below: a perfect reward for our effort. Descending the hill, the wind eased, and we found ourselves walking through forests of short, round pines and patches of trees recovering from past fires. A turquoise river ran nearby, and we even passed a checkpoint to have our permits checked without any issues.",
+          "The trail transitioned through rolling fields of yellow grains and dark green flora, with snow-capped mountains steadily drawing closer. We navigated through marshy lands thanks to a well-maintained boardwalk, a small but essential feature that kept the hike manageable. The mix of landscapes made each step a new discovery, and the ever-present mountains reminded us why we were here.",
+          "Eventually, we reached our refugio for the night: Dickson. Nestled on the shores of a large lake and encircled by trees, it offered a large field for tents. Learning from the previous night's winds, we all chose sheltered spots near trees or tall bushes to protect ourselves. Inside, the refugio offered a full kitchen, hot showers, and full bathrooms; luxuries that made the day's hike even sweeter.",
+          "The real highlight, however, was the shoreline behind the refugio. I wandered along the rocky beach, snapping photos of the massive mountains that lined the far shore, some of which were actually across the border in Argentina! Standing there, taking in the scenery, I felt the full majesty of Patagonia, and knew that every step to get here was worth it.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Golden fields, turquoise rivers, and lakeside views: our first full day hiking the 'O' Circuit revealed Patagonia's stunning diversity.",
         "gpx": [
           [
             -50.865846,
@@ -44137,7 +44089,8 @@ const data = [
         "hasStats": true,
         "image": "2020/02/18/98e3190e-5480-4eb9-8883-c8d9fbb3f485.jpeg",
         "location": "Torres del Paine",
-        "readingTime": "3",
+        "readingTime": "2",
+        "snippet": "Fields, Lakes, and Mountains on Day Two",
         "stats": {
           "distance": {
             "label": "distance",
@@ -44232,13 +44185,13 @@ const data = [
       {
         "date": "February 20th, 2020",
         "description": [
-          "A successful night of sleeping once again, and even more so given the protection from the wind by the trees and bushes around us. The ground was a little muddy, but that's alright. I had brought a thin, cheap, groundsheet with me and after using it last night it was already a mess and had to be tossed, but it turns out I wouldn't need it for the rest of the trip.",
-          "Most of the morning would be spent walking up and down hilly land through forests with the occasional lookout point here and there. There were a few river rossings aided by wooden bridges, nothing too crazy. I thought the trail was going towards the mountains in the distance, but instead it took a right turn after exiting the woods and we started to hike up a rocky trail.",
-          "The real treat today would be the morraine and glaciar along the way, just before reaching Los Perros (our place for the night). It was a detour from the main route, so not many people chose to go there, which means we had it mostly to ourselves. It reminded me of the glacier that I hiked to when I first visited Santiago, Chile in 2016. We waded in as far as we dared in the ice-cold waters, and lay out on the rocks for a little while, soaking up some sun. Eventually we had to leave and check-in at the campground in order to secure some good sites.",
-          "Los Perros campground was mostly in the woods, with all of the sites being in muddy areas. We chose the dryest, and safest (always check for window-makers in the trees above you), looking spots and set up our tents. More modern convenicnes at this place as well: hot showers, bathrooms, kitchen to cook in. But it was slightly more buggy than the last two places (probably all of the trees). There was a river nearby where we could fill up our water, after filtering it of course.",
-          "I grabbed my book and headed out to a grassy area outside of the campground and laid out under the sun and read for a bit. Self-entertainment during the period of downtime between setting up camp and waiting to make dinner was a requirement. Some read, others took naps, and others chatted. So far not a bad three days of hiking!"
+          "After another successful night of sleep, sheltered from the wind by trees and bushes, we woke to a muddy but manageable morning. My thin groundsheet from the previous night had already seen better days and was tossed, but it turned out we wouldn't need it for the rest of the trip.",
+          "Most of the morning was spent hiking through hilly forested terrain, with occasional lookout points breaking up the walk. Wooden bridges helped us cross a few rivers, nothing too challenging, and the trail took a surprising right turn away from the distant mountains. The hike became rocky, signaling that the day's real highlight was approaching: a detour to a moraine and glacier just before reaching Los Perros, our campground for the night. Because fewer hikers took this route, we had the glacier mostly to ourselves: a peaceful, icy retreat. We waded into the freezing waters and soaked up the sun on the rocks, savoring the quiet and the view.",
+          "Eventually, we continued to Los Perros campground. Nestled mostly in the woods, the sites were muddy but manageable. We chose the driest, safest spots, keeping an eye out for any potential tree hazards. The campground offered modern conveniences: hot showers, bathrooms, and a kitchen, though the dense woods meant there were more bugs than the previous sites. A nearby river provided water, which we filtered for safety.",
+          "With camp set up, I took some time to relax in a sunny clearing, reading my book and enjoying the quiet. Other hikers used the downtime differently. Some napped, others chatted, but it was a welcome break after several days of hiking.",
+          "Overall, the day was a perfect balance of effort and reward: forest trails, icy water, stunning glacier views, and a peaceful campsite to recharge. Patagonia was already proving itself to be unforgettable.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Glacier detours, forested trails, and sunny downtime. Day 3 of the 'O' Circuit brought quiet beauty and icy rewards.",
         "gpx": [
           [
             -50.878971,
@@ -44721,6 +44674,7 @@ const data = [
         "image": "2020/02/18/f477b7bb-7f38-42ff-a855-f90668a73f28.jpeg",
         "location": "Torres del Paine",
         "readingTime": "2",
+        "snippet": "Day Three: Forests, a Glacier, and Camp Life",
         "stats": {
           "distance": {
             "label": "distance",
@@ -44815,13 +44769,13 @@ const data = [
       {
         "date": "February 21st, 2020",
         "description": [
-          "My tent's bottom was covered in mud, but thankfully the portion that laid on the ground only took up half of the total floorspace of the tent, so not much to worry about. Today's goal was reaching Grey's Glacier, and crossing over the highest point of the trail. This meant a lot of ascending today, nearly non-stop climbing as soon as we left Los Perros behind.",
-          "I had gotten soft over the last few days of walking on nearly-level ground. This climb was rough, and I had to stop often in order to catch my breath. But we were getting really high up, and I love being high up in the mountains. The green vegetation of the forest gave way to rocky barren mountainsides, and snow patches were all around us.",
-          "Oddly enough, even though I had to stop quite often to catch my breath, it only took about 90 minutes from when we left Los Perros to get to the top of the pass. Laid out before us was a white majesty of a glaciar. It was massive! This was my first time seeing one from up high, and up close. We spent over an hour up top, just gazing out over this majestic creation of nature.",
-          "The climb down was harder. The glacier remained in view for the rest of the day as we zig-zagged down switchbacks, and skirted along narrow paths cut into the rock. After crossing a long suspension bridge it was time to start taking several dozen switchbacks down through the forest on the other side of the ridge we had just summitted. The thickness of the trees created a stuffy feeling that motivated me to practically run down the trail in order to get out of them as quickly as possible. Once down and back on flat ground, I power-walked towards Refugio Grey, thinking I had fallen behind the others who had headed down off of the ridge before me. Along the way I passed by some scat which only helped to quicken my pace, given that Pumas and other wild cats lived in the area.",
-          "Grey had a nice field for setting up tents, and an even nicer refuge for hanging out at: they had adirondack-style lounging chairs out front, which is where I ate my dinner, while watching the sun go down upon the mountains."
+          "My tent's bottom was covered in mud, but luckily only half of it had been affected, so it wasn't too much to worry about. Today's goal was ambitious: reaching Grey's Glacier and crossing the highest point of the trail. As soon as we left Los Perros behind, the climbing began in earnest.",
+          "The ascent was grueling, especially after a few days of easier, near-level walking. I found myself stopping often to catch my breath, but the effort was worth it. The lush green forest gradually gave way to rocky, barren mountainsides dotted with snow patches. The higher we climbed, the more breathtaking the view became.",
+          "After roughly 90 minutes, we reached the top of the pass. Spread out before us was the massive, white expanse of Grey's Glacier. I had never seen a glacier up close and from such a vantage point, and we spent over an hour just marveling at its scale and majesty. The sheer immensity of it was humbling, a reminder of nature's grandeur.",
+          "The descent proved even trickier. We zig-zagged down narrow rock paths, crossed a long suspension bridge, and navigated dozens of forested switchbacks. The dense trees created a stifling atmosphere, pushing me to pick up my pace as I hurried down. Once on flat ground, I power-walked toward Refugio Grey, passing signs of wildlife along the trail: scat from pumas and other wild cats that kept me alert and motivated.",
+          "Refugio Grey was a welcome sight. Its large field made for perfect tent setup, and the refuge itself was ideal for relaxing. I spent the evening in one of the adirondack-style chairs outside, enjoying dinner while watching the sun set over the mountains. A peaceful and satisfying end to a challenging day.\n"
         ],
-        "excerpt": "",
+        "excerpt": "High passes, glaciers, and forested switchbacks: the fourth day of the 'O' Circuit challenged our legs but rewarded our eyes.",
         "gpx": [
           [
             -50.932354,
@@ -45819,6 +45773,7 @@ const data = [
         "image": "2020/02/18/38a1b675-74c7-45b5-9e37-8020d298a0b3.jpeg",
         "location": "Torres del Paine",
         "readingTime": "2",
+        "snippet": "Day Four: Climbing High to Grey's Glacier",
         "stats": {
           "distance": {
             "label": "distance",
@@ -45913,14 +45868,13 @@ const data = [
       {
         "date": "February 22nd, 2020",
         "description": [
-          "Last night was a sleepless one. There was a particularly loud snorer, and my earplugs kept falling out. Not a good combination. Today would be a short day in terms of hiking, but would give us extra time to do a little side-hike over to a place that had some amazing views of the mountain that dominated the place we were staying at tonight.",
-          "This mornings trek took us through some old bleached trees that were the victims of a forest fire some years ago (the reason we had to watch that mandatory video before getting our thru-hike permits). Purple flowers were growing all around them, which gave a nice contrast of colors.",
-          "The trail went along the lake created by the melting of Greys Glacier, and little icebergs could be seen floating in the waters. The glacier itself was still visible in the distance for a while, until we took a turn and it was lost to sight for the rest of the day.",
-          "All along the trail today were trees permanently bent into the winds, having grown that way over the years. What an interesting sight, indeed. Todays trail was mostly rocky, with little cover from the sun. If only there hadn't been that forest fire...",
-          "We passed through a cut in the rock and descended down a small valley as we came upon Paine Grande. There was a lovely lake nearby, and a small side-trek that we decided to check out after setting our tents up. I choose a flat grassy spot for mine, while others chose to pitch along the edges of the field near rocky outcropings or bushes. There were even fences set up at right angles throughout the field for tents, which should have given me a clue about how much wind this place receves. Sadly, I didn't pick up on it.",
-          "The side-trek took us out onto part of the \"O\" Circuit called The \"Q\", and from here we sat in the grass and gazed out of the lake and the pointy mountain next to the campsite. The waters were nice and cold, and shallow as well, and we spent some time going far out into them. We were there for maybe a couple of hours before we decided to head back. By this time the winds had picked up, and our tents at the campsite were holding their own against it, but you could tell that it was going to be a windy night."
+          "Last night was a rough one. A particularly loud snorer kept me from sleeping, and my earplugs kept falling out. Today promised to be an easier day of hiking, with extra time to explore a side trail that offered incredible views of the mountain near our campsite.",
+          "The morning trek took us through a forest of bleached trees, remnants of a fire from years ago. Purple flowers grew among the charred trunks, creating a striking contrast of colors. The trail followed the lake formed by the melting of Grey's Glacier, where small icebergs floated gently in the water. For a while, the glacier remained visible in the distance before the trail turned and it disappeared from view.",
+          "All along the route, the trees had been permanently bent by the wind over the years, making for a fascinating sight. The trail itself was mostly rocky, with little shade from the sun. Signs of the old forest fire were everywhere, and the harsh environment was a reminder of nature's power and resilience.",
+          "Eventually, we descended into a small valley and reached Paine Grande. A beautiful lake lay nearby, and after setting up our tents, we took a side hike along part of the 'O' Circuit known as The 'Q'. I chose a flat grassy spot for my tent, while others pitched theirs near rocky outcrops or bushes. Fences in the field hinted at how windy the area could get, though I didn't pay much attention at the time.",
+          "The side trail provided stunning views of the lake and the sharp, jagged mountain next to our campsite. The waters were cold and shallow, and we spent a couple of hours venturing out into them. By the time we returned to camp, the wind had picked up. Our tents were holding strong, but it was clear that the night ahead would be a blustery one.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Bleached trees, icy lakes, and jagged peaks. Day 5 of the 'O' Circuit gave us stunning views and a taste of Patagonia's raw power.",
         "gpx": [
           [
             -51.006187,
@@ -46402,7 +46356,8 @@ const data = [
         "hasStats": true,
         "image": "2020/02/18/dd6e739e-b793-4c64-8e7c-c6a631b467c7.jpeg",
         "location": "Torres del Paine",
-        "readingTime": "3",
+        "readingTime": "2",
+        "snippet": "Day Five: Paine Grande and the Winds of the 'O' Circuit",
         "stats": {
           "distance": {
             "label": "distance",
@@ -46498,14 +46453,13 @@ const data = [
       {
         "date": "February 23rd, 2020",
         "description": [
-          "What a windy night it was. Nobody got any sleep, except maybe for those who had paid for a bunkbed inside of the refuge. Several tents had pieces bent, including my own: one of the trekking poles bent in a strong suddent burst that sounded like a gun going off in the distance. I had to tie some extra guywire string around the center pole in order to secure it against any future bursts, which worked and I was able to get another hour or two of sleep.",
-          "Such a beautiful morning though, as we came out of our tents the sun was casting a bright pink light upon the clouds that hung out near the top of our nearby mountain peak.",
-          "Today we would be hiking through ghost forests, and along a large lake that may or may not be connected to the ocean currents in the distance. Los Cuernos (the horns) were a pair of mountain peaks that dominated the area and were within constant sight. While the mileage might be higher than yesterday, the trail is so flat and easy to walk that we made great time. So great in fact that we were able to do another side-trek on our way to Refugio Frances.",
-          "Valley Frances was the side trek, and it took us up behind Los Torres into a wide circular valley that was chocked full of green forests, and interesting rock formations on the perimeter. The trail to get there was easy to walk and navigate. It went along a quickly flowing river, up and down over sandy and muddy terrain, in and out of the trees. After about an hour of hiking we came to the valley center, and did a bunch of 360's, taking it all in.",
-          "About two hours after leaving the valley, and retrieving our packs that we had left at the entrance to the trail, we arrived at Frances. It was a campsite perched upon a tree-covered steep sloping hill, which meant everyone got a platform to pitch their tent on. My tent barely fit (it's got a wide base), but I felt good about being within the trees: they would keep the winds away and we could all sleep peacefully. The place to shower and cook was at the bottom of a trail that went down towards the waters edge. I wasn't in the mood to go up and down this trail very often while staying here, so I only went down there to shower, and then later to make dinner. I'm sure there was lots to see down there, I just wasn't in the mood.",
-          "I read for a while in my tent after dinner, but the forest gets darker faster and before long it was time to go to sleep. Tomorrow we would be going to Chileno, our last Refuge, and then the day after that the Towers themselves!"
+          "What a windy night it was. Almost nobody slept, except perhaps those who had paid for a bunk in the refuge. Several tents, including my own, were battered by sudden gusts. One of my trekking poles bent with a loud crack that sounded like a distant gunshot. I tied some extra guyline around the center pole to secure it, and it held, allowing me a couple more hours of sleep.",
+          "The morning made up for the night. The sun cast a bright pink light across the clouds near the top of the nearby peak, and the scene was breathtaking. Today's hike would take us through ghost forests and along a large lake, possibly connected to distant ocean currents. The peaks of Los Cuernos, \"the Horns,\" dominated the landscape and were in view the entire day. The trail was flatter and easier than yesterday, allowing us to make excellent time.",
+          "Along the way, we took a side trek into Valley Frances, a wide circular valley nestled behind Los Torres. The valley was filled with vibrant green forests and unique rock formations along its edges. The trail was easy to navigate, winding along a fast-flowing river and through sandy and muddy terrain. After about an hour, we reached the valley center and took in the full 360-degree panorama, snapping plenty of photos.",
+          "Two hours later, after returning to collect our packs, we arrived at Refugio Frances. The campsite was perched on a steep, tree-covered hill, giving everyone a raised platform to pitch their tent. My tent fit snugly, but I felt secure among the trees, shielded from the wind. The showers and cooking area were at the bottom of the hill, near the water. I only went down to shower and make dinner, preferring the quiet of my tent for the rest of the day.",
+          "After dinner, I read for a while in my tent as the forest grew dark quickly. Sleep came early, with the knowledge that tomorrow we would hike to Chileno, our final refuge, and the day after that we would finally reach the Towers themselves.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Ghost forests, calm lakes, and towering peaks. Stunning vistas and a taste of Patagonia's wild side.",
         "gpx": [
           [
             -51.071835,
@@ -47502,7 +47456,8 @@ const data = [
         "hasStats": true,
         "image": "2020/02/18/380820b8-520a-49fa-8f01-651ca63fd84f.jpeg",
         "location": "Torres del Paine",
-        "readingTime": "3",
+        "readingTime": "2",
+        "snippet": "Refugio Frances and the Ghost Forests on Day Six",
         "stats": {
           "distance": {
             "label": "distance",
@@ -47598,13 +47553,12 @@ const data = [
       {
         "date": "February 24th, 2020",
         "description": [
-          "Today would be an amazing day of walking along sandy and stony beaches (not something I had expected to run into down here), and through grassy fields. We would be making for Refuge Chileno, which is part of the \"W\" portion of the \"O\" Circuit, and the base of operations for anyone who wanted to hike to the Towers.",
-          "I saw some water spouts as we hiked along the beaches. This whole trek has been nothing but amazing views! After about 90 minutes of walking it was time to leave the water behind and head back into familiar looking territory, seeing as we walked through this same area about a week ago when we set out from the welcome center.",
-          "There were a lot of day hikers on the trail today, which threw us off for a moment because we had gotten used to wide open trails and low traffic over the past several days. Nonetheless, I was very nostalgic as this was the same route I had day-hiked 4 years ago, nearly to the day. It brought back so many memories, and things felt so familiar to me.",
-          "For this refuge I had booked a bunk bed because I was finishing the trek a day earlier than I had previously planned. It was a welcomed treat after having camped for the past six days. I did not purchase the dinner though, and made my own backpacking meal (my last). I was not alone though as others had also not purchased the meal, but I wish I had (it looked so delicious).",
-          "We went to bed early tonight because we were waking up at around 3 am in order to hike up to the towers in the dark in order to watch the sun rise over them."
+          "Today promised an incredible mix of terrain: sandy and stony beaches I hadn't expected to encounter in Patagonia, and rolling grassy fields. Our goal was Refuge Chileno, part of the 'W' section of the 'O' Circuit, and the base for anyone aiming to hike to the Towers.",
+          "As we walked along the beaches, I spotted some water spouts in the distance. Another reminder that this trek has been nothing but spectacular views. After about ninety minutes, we left the water behind and returned to more familiar terrain. It was the same area we had passed through about a week ago when we first set out from the welcome center.",
+          "The trail today was busier than usual, with day hikers crossing our path, which threw us off at first. Despite the increased traffic, I felt a strong sense of nostalgia. This was the same route I had day-hiked four years ago, nearly to the day. It brought back vivid memories, and everything felt oddly familiar.",
+          "For this stop, I had booked a bunk bed, a welcome treat after six nights of camping. I didn't purchase the refuge dinner, opting to make my own backpacking meal instead. Others had also skipped the meal, though I couldn't help but notice it looked delicious. We went to bed early tonight, knowing we'd wake at 3 a.m. to hike in the dark to the Towers and catch the sunrise.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Sandy beaches, familiar trails, and a night at Refugio Chileno prepping for the early-morning ascent to the Towers.",
         "gpx": [
           [
             -51.025883,
@@ -48602,6 +48556,7 @@ const data = [
         "image": "2020/02/18/790032e0-6483-4631-9cbe-d912510a1a48.jpeg",
         "location": "Torres del Paine",
         "readingTime": "2",
+        "snippet": "The Towers Await: Spending Day Seven Getting to Refugio Chileno",
         "stats": {
           "distance": {
             "label": "distance",
@@ -48696,14 +48651,12 @@ const data = [
       {
         "date": "February 25th, 2020",
         "description": [
-          "The last day on trail, and the day of The Towers! I was so excited to hike up to them for the second time in 4 years. I slept really well last night, thank you bunk bed. Everyone was getting up at 3am, so there was no worries about waking anyone up unintentionally.",
-          "Today was going to be a long day though: we would first hike up to the towers, hang out for a while while the sun rose, and then hike down, grab breakfast and our gear, and then head the rest of the way down back to the welcome center, and our bus ride out of here.",
-          "We packed up our phone cameras, left our bags behind, turned on our headlamps, and headed out. When I had first day-hiked to the towers it was, well, during the day. Doing this in the darkness of the pre-dawn hours was a totally different experience. The trail was well marked though, which made it easy to find our way.",
-          "Finding a good spot at the top wasn't easy, but eventually we found one with shelter from the wind, and enough space for us all to set up our phone cameras in order to record (in timelapse) the rising sun. While we waited, someone started singing \"The Final Countdown\" which was very fitting since we kept checking the time and staring intently at the rocks as they slowly appeared.",
-          "It was a truly magical experience. We all took turns taking photos staring at the towers. But sadly it was time to leave, and head back to civilization, and reality. The hike down was fast, it was all downhill afterall! We didn't have to wait long the for the bus, and since we were all staying in the same town we met up for dinner that night (our group was quite large now) for pizza.",
-          "This is how you end a hike, surrounding by friends you've made along the way."
+          "The last day on the trail had arrived, the day of the Towers! I was thrilled to hike up to them for the second time in four years. Sleeping in a bunk bed last night was a real treat, and with everyone getting up at 3 a.m., there were no worries about disturbing anyone.",
+          "It was going to be a long day: hike up to the Towers, watch the sunrise, hike back down, grab breakfast and our gear, and then continue all the way to the welcome center for our bus ride out. We packed our phone cameras, left our bags behind, turned on our headlamps, and set out into the pre-dawn darkness. Experiencing this trail in the dark was completely different from my previous day hike, but the clearly marked path made it easy to follow.",
+          "Finding a good spot at the top took some effort, but eventually we settled in a sheltered area with enough space to set up our cameras for timelapse shots of the sunrise. Someone started singing \"The Final Countdown,\" which felt fitting as we stared intently at the towers slowly emerging from the shadows. It was a truly magical experience, and we all took turns capturing photos of the awe-inspiring peaks.",
+          "Eventually it was time to leave and return to reality. The hike down was quick, all downhill, and the bus arrived shortly after we reached the bottom. That evening, our now-large group reunited for a pizza dinner, a perfect way to end the trek, surrounded by friends we had made along the way.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Sunrise at the Towers, timelapse cameras, and the final downhill to civilization, ending the trek with friends.",
         "gpx": [
           [
             -50.956677,
@@ -49701,6 +49654,7 @@ const data = [
         "image": "2020/02/18/630411a8-f5ce-47fe-8261-f94e00654447.jpeg",
         "location": "Torres del Paine",
         "readingTime": "2",
+        "snippet": "The Last Day: Sunrise at the Towers and the Final Descent",
         "stats": {
           "distance": {
             "label": "distance",
@@ -50524,18 +50478,13 @@ const data = [
       {
         "date": "October 19th, 2019",
         "description": [
-          "Last night, sleep wasn't easy. I was staying at a hostel in Pokhara and the other guests in my room had a late night, and also snored very loudly. Groggy, and hungry, I gathered any loose things of mine, grabbed my backpack, and packed everything up outside where I wouldn't disturb anyone.",
-          "The previous day I had taken a taxi from the airport to the hostel I stayed at, but it was too early in the morning today for a ride, so that meant walking to the bus station. The walk wasn't that bad, maybe 10 minutes? I felt like a fool for taking a taxi yesterday. The bus station itself was little more than a dirt parking lot behind some buildings. There was a food stand selling coffee and pastries, and boy was I starving. I bought a couple of pastries, and a banana.",
-          "Other hikers were alredy there at the bus station, and more continued to arrive as I waited. There were people of all ages doing this hike, or various others in the area. The bus driver announced which bus was for Besishar, and I walked over to it and waited. While I waited some folks joined me, and we introduced ourselves: Katie from New Zealand, Nathan from England, and Véronique from Canada. We hit it off right away, and this would be our group, more or less, for the entire circuit.",
-          "The bus ride to Besishar (the starting point of the circuit/thru-hike) was a long and bumpy one. It picked up several locals as well on the way there, some even brought furniture on the bus with them. Space got tight for a little while. It was late morning by the time we arrived. Nathan, at the behest of the rest of us, had to purchase a down jacket and some other gear that he had not originally brought with him. Luckily theres were \"cheap\" here in Nepal.",
-          "Finally we set off on the trail and began the circuit. The trail went up from the city and into the jungles, and crossed a very long and narrow suspension bridge over a gorge with a fast-flowing river below. As we got further along and into the jungle bright green fields of crops started to pop up all around us. The homes where the farmers lived were all vibrantly colored in reds, pinks, greens, and yellows, and most of them had bright blue roofs.",
-          "As we hiked we got lost in conversation, and ended up getting lost about halfway in. Time to bust out the Maps app. We thought we found the trail on the app, but after a short while of walking we realized it wasn't the right way. A small family of farmers were working in their field and we went up to them to see if they could help us. The parents knew English very well, and were able to point out the way. They were also excited to show their kids our smartphones.",
-          "Now that we were back on track we started walking at a slightly brisker pace. I was starting to get really hungry at this point, seeing as I had only had a couple of pastries and a banana for breakfast some 6 hours ago, but I kept going. We stopped for some water at a small waterfall, but the water filter pouch I had sprung a leak, and therefore I wasn't able to use the water filter system anymore. Thankfully Katie had a ton of extra chlorine tablets and I ended up using those for the rest of the trip.",
-          "We walked for about another hour, crossing more suspension bridges (the last of which looked like it would fall apart at any moment), and finally made it to the outskirts of Bhulbule, the village we would be spending the night in. But as we entered the village, my body decided that it had had enough and I instantly felt super weak and tired. I busted out some protein bars that I had brought with me for this first day of hiking, and we took a break on some stone steps leading into the village.",
-          "Rested, and fed, it was time to begin the task of finding a place to sleep. The Annapurna Circuit relies on a system of teahouses for housing the hikers who attempt the hike, and these teahouses are run by local families. We found one that had a nice eating area, showers, and clean-looking rooms, and we began the negotiating process. In the end the owner gave us a room for three, with a fourth mattress that they put on the floor, so that we could get a discounted rate for staying there, and since we agreed to have dinner at their place we were locked in.",
-          "What a series of events today: making three new friends right out of the gate, a long and bumpy bus ride, getting lost in the jungle, and nearly collapsing from hunger. The place we were staying at had nice hot showers though, and great food! Here's to a less eventful day tomorrow."
+          "Sleep did not come easy last night. The hostel in Pokhara was full, and the other guests stayed up late and snored loudly. Groggy and hungry, I gathered my things and packed outside to avoid disturbing anyone. The early morning meant no taxis were running, so I walked the ten minutes to the bus station, regretting taking a taxi the day before. A small food stand offered coffee, pastries, and a banana, which I devoured while waiting for the bus to Besishar.",
+          "The bus ride to Besishar was long, bumpy, and crowded. Locals boarded with all sorts of items, including furniture, and space grew tight at times. I met the people who would soon become my hiking companions: Katie from New Zealand, Nathan from England, and Véronique from Canada. Nathan realized he had forgotten some essential gear, and we helped him purchase a down jacket and other items for the trek at very reasonable prices.",
+          "Finally on the trail, we left the city behind and hiked into the jungle. The path led over a long, narrow suspension bridge spanning a rushing river and opened into bright green fields surrounded by vibrantly colored homes. We became so caught up in conversation that we got lost, relying on a friendly local family to guide us back to the trail. Once back on track, we pressed on, stopping briefly at a small waterfall where my water filter had sprung a leak. Katie's chlorine tablets saved the day.",
+          "Crossing more suspension bridges, including one that looked ready to collapse, we finally reached Bhulbule, the village where we would spend the night. Exhausted and hungry, I ate some protein bars and took a much-needed rest on stone steps at the village entrance. Once rested, we began searching for accommodations. The teahouse system relies on local families, and we were lucky to find one with showers, clean rooms, and a dining area. The owner gave us a room for three, adding a fourth mattress to the floor for a discounted rate, provided we ate dinner there.",
+          "The day was full of firsts: new friends, a long bus ride, getting lost in the jungle, and nearly collapsing from hunger. Despite the challenges, the warm showers and delicious food made everything worthwhile. It was an eventful start to the Annapurna Circuit, and I was eager to see what tomorrow would bring.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The first day on the Annapurna Circuit was full of surprises, from meeting new friends to getting lost in the jungle. Exhausted but grateful, we ended the day in a welcoming teahouse with hot showers and good food.",
         "gpx": [
           [
             28.239371,
@@ -51532,7 +51481,8 @@ const data = [
         "hasStats": true,
         "image": "2019/10/19/672dcde8-57ae-4bf9-885f-ae039d3a824d.jpeg",
         "location": "Lamjung District",
-        "readingTime": "5",
+        "readingTime": "2",
+        "snippet": "First Steps on the Annapurna Circuit",
         "stats": {
           "distance": {
             "label": "distance",
@@ -51627,16 +51577,13 @@ const data = [
       {
         "date": "October 20th, 2019",
         "description": [
-          "Day two on trail, and time for a proper breakfast! Eggs, sausage, bread, the works, so much better than my palsly breakfast of pastries yesterday. We all slept pretty well last night, and no one snored! No rush to get going today, so we took our time leaving.",
-          "We passed by some pretty tall waterfalls on our way out of the village, and it felt good to get misted on by the falling waters. We walked along the river created by the waterfall for a while, even as we got higher and higher up. More suspension bridges greeted us as we had to cross back-n-forth over the river during the course of today's trail.",
-          "The trail was a mixture of gravel, dirt, grass, and mud today. Luckily it was mostly footpaths, and only a small section was shared with the occasional passing jeep.",
-          "A few hours in and we stopped for lunch at a teahouse perched on the edge of a cliff. They had beds here, but it didn't look very inviting. The food though, can't go wrong with veggie mo-mo and orange soda. The place had a great view of the valley below though, and of all the tiered fields and homes hugging the side of the mountains. We stayed here for more than hour relaxing.",
-          "As we left the lunch spot we entered the area of Gandaki, and were greeted by a large archway over the trail welcoming us. We were getting high enough now that we can look out over the valley, and trail we had covered so far, below us.",
-          "A beautiful waterfall broke up the trail a little further in, and we had a fun time waiting for the hikers in front of us to find their way across the slippery stones. A few trekking poles and hats were lost to the fast flowing waters.",
-          "On and on we marched over rock and dirt trails carved into the mountainside, each blind bend in the trail revealing amazing views as we made our way around. Before too long and we were at our place for the night: Jagat. A fun attraction for this place is a steam bath fed by natural hotsprings. It was a bit of a side hike to go down to it at the rivers edge, and the hike back up wasn't fun ( thankfully we weren't that high up in elevation yet or else it would have been a lot harder). Lots of the locals also used the waters to bath it seems.",
-          "There was a suspension bridge that connected one side of the gorge to the other up near the village, and our group posed for a photo on the bridge. It was swaying so much with the slightest movement, we all hurried off of the bridge once the photo was taken. Why push our luck?"
+          "Day two on the trail started with a proper breakfast, a welcome change from yesterday's pastries. Eggs, sausage, and fresh bread fueled us for the day ahead, and everyone had slept well the night before. Without the pressure to get moving early, we took our time leaving the village and soaking in the morning air.",
+          "Our path soon led past towering waterfalls, and the fine mist from the falling water felt refreshing as we began to climb higher along the river. Several suspension bridges required careful crossing, moving us back and forth over the rushing waters. The trail itself varied between gravel, dirt, grass, and occasional mud, with only brief stretches shared with passing jeeps.",
+          "Lunch came at a teahouse perched on the cliffside, offering a spectacular view of the valley and terraced fields below. The veggie mo-mo and orange soda hit the spot, and we lingered over an hour, watching the sun move across the mountains. As we continued, an archway marked our entry into the Gandaki region, and higher elevations allowed us to look down on the trail we had traversed so far.",
+          "A waterfall further along gave us a playful challenge, as hikers in front of us carefully navigated slippery stones, losing a few trekking poles and hats to the fast-flowing water. The trail wound along rock and dirt paths carved into the mountainside, with each bend revealing new vistas. Eventually, we arrived in Jagat, where a natural hot spring offered a steam bath at the river's edge. The hike down and back up was a little grueling, but the experience was worth it, as locals also used the waters for bathing.",
+          "Near the village, a swaying suspension bridge provided the perfect photo opportunity. Our group posed quickly and moved along, wary of the precarious sway. Day two reminded us that the Annapurna Circuit is as much about patience and persistence as it is about awe-inspiring scenery.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Day two on the Annapurna Circuit offered towering waterfalls, swaying suspension bridges, and breathtaking views of terraced valleys. A cliffside teahouse and natural hot springs made the challenges of the trail more than worth it.",
         "gpx": [
           [
             28.290428,
@@ -52633,7 +52580,8 @@ const data = [
         "hasStats": true,
         "image": "2019/10/19/cde86c7c-f794-4a99-8286-9af3de9425fc.jpeg",
         "location": "Lamjung District",
-        "readingTime": "3",
+        "readingTime": "2",
+        "snippet": "Climbing Higher on the Annapurna Circuit",
         "stats": {
           "distance": {
             "label": "distance",
@@ -52728,13 +52676,12 @@ const data = [
       {
         "date": "October 21st, 2019",
         "description": [
-          "Today was a sun filled day, and we had some of the best mo-mo on trail today. It was a day filled with varied terrain as well. We're always gaining elevation every single day, but there's still plenty of long stretches where we're walking on flat terrain for a while.",
-          "We made our way out of Jagat and started gaining lots of elevation. Today would be mostly spent walking along the side of a deep valley. Plenty of little waterfalls dotted the trail today.",
-          "After about four hours of going up and up and up, the trail too us along the river bed of the river that we had been hiking alongside for the past two days. Here we walked along stony beaches towards a village perched along the waters edge. This is where we had the best mo-mo so far of the trip, and we've been sure to have mo-mo everywhere we go since half of us were vegetarians. And it was so darn good!",
-          "Once we left our long restful lunch, where one of the kids who lived there spent most of the time chancing their pet rabbit around, it was time to start getting back into the mountains once more. About two hours later and we arrived in Dharapani. We struggled to find an affordable place to stay, but eventually found one. The power also went in-and-out tonight at this village (apparently this is common in the mountains of Nepal).",
-          "I can't remember much of today, partly because I didn't take many photos nor a journal."
+          "Today was filled with sun and some of the best mo-mo we've had on the trail so far. The terrain was varied, alternating between long flat stretches and constant elevation gains. We left Jagat and steadily climbed, following the side of a deep valley that offered a mix of lush scenery and small waterfalls along the way.",
+          "After about four hours of steady climbing, the trail brought us to the riverbed we had been hiking alongside for the past two days. Walking along stony beaches toward a village perched on the water's edge, we stopped for a long lunch. The mo-mo here was hands down the best of the trip, a true highlight for half of us who are vegetarian. One of the local children spent much of the meal chasing their pet rabbit around, adding charm to the experience.",
+          "After lunch, it was back into the mountains as the trail began to climb again. Two hours later, we arrived in Dharapani. Finding an affordable place to stay took some effort, and the village experienced intermittent power outages throughout the evening, a common occurrence in Nepal's mountains.",
+          "Although the day's details blur a bit in memory, the combination of sun, scenic valleys, riverbeds, and memorable mo-mo made it another unforgettable day on the circuit. It reminded us that some days are best experienced rather than documented.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Day three of the Annapurna Circuit offered sun, valleys, and the best mo-mo yet. Hiking along riverbeds and climbing into the mountains, every step revealed a new view.",
         "gpx": [
           [
             28.414367,
@@ -53732,6 +53679,7 @@ const data = [
         "image": "2019/10/19/69d8dc52-42d4-4295-9b25-1f7542c1da8b.jpeg",
         "location": "Manang District",
         "readingTime": "2",
+        "snippet": "Sun, Valleys, and the Best Mo-Mo",
         "stats": {
           "distance": {
             "label": "distance",
@@ -53826,13 +53774,12 @@ const data = [
       {
         "date": "October 22nd, 2019",
         "description": [
-          "We're starting to get our first looks at snow-covered mountains! Another suspension bridge took us out of town and into thick forests made up of a mix of conifer and deciduous trees. An arch over the trail thanked us for visiting.",
-          "The trail was also becoming more congested with hikers, seeing as some choose to take a jeep past the first few places and skip ahead. We feel like we're true hikers who are doing the whole thing from beginning to end.",
-          "At the next village we came across prayer drums that spin in a row and you're meant to spin them clockwise in order to get good luck for trekking in the mountains. We're going to make sure we do this every chance we get!",
-          "Another big waterfall crossing today, luckily only one hat was lost in this one. Most of the day after that was spent walking through woods with leaves of various colors, with long suspension bridge crossings scattered here and there.",
-          "In the distance we could start to see snow-capped peaks. Six hours later and we came to Chame."
+          "Today, the mountains finally started to reveal their snow-covered peaks, giving us a glimpse of what was ahead. We crossed another suspension bridge out of town and entered thick forests, a mix of conifer and deciduous trees. A welcoming arch over the trail reminded us we were on a journey meant to be savored.",
+          "The trail felt busier today, with hikers arriving from jeeps that bypassed the first sections of the route. It made us feel proud to be doing the full trek from start to finish, taking in every part of the Annapurna Circuit on foot. At the next village, we discovered rows of prayer drums. Spinning them clockwise is said to bring good luck, and we made sure to do it every chance we got.",
+          "Another waterfall crossing marked the day, and this time we were fortunate to only lose a single hat. The rest of the hike was spent winding through colorful forests and crossing long suspension bridges. With each step, the peaks in the distance grew larger, snow glinting in the sunlight and promising the challenges to come.",
+          "After six hours of hiking, we arrived in Chame, tired but exhilarated. Today reminded us that the circuit is not just about the villages or the paths, but about the small rituals, the bridges, and the ever-changing landscapes that make the journey unforgettable.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Today, we finally got our first views of snow-capped peaks and crossed long suspension bridges through vibrant forests. Every step reminded us why we chose to hike the entire Annapurna Circuit from start to finish.",
         "gpx": [
           [
             28.519098,
@@ -54829,7 +54776,8 @@ const data = [
         "hasStats": true,
         "image": "2019/10/19/de48b8b7-ef5d-4c21-93a8-d6e4d7628e7f.jpeg",
         "location": "Manang District",
-        "readingTime": "1",
+        "readingTime": "2",
+        "snippet": "First Glimpse of Snow",
         "stats": {
           "distance": {
             "label": "distance",
@@ -54924,13 +54872,12 @@ const data = [
       {
         "date": "October 23rd, 2019",
         "description": [
-          "Left Chame after a fulfilling breakfast. The sun was already high in the sky as we walked high above the same fast-flowing river that has been with us since the beginning. As we left we passed a monumen to Buddha saying \"Buddha was born in Nepal\".",
-          "Starting to see a lot of porters on trail today, probably from those who chose to take a jeep up to the village last night. These poor folks are carrying multiple large bags on their backs while walking in sandals. They're not getting paid enough to do this.",
-          "Passed another Buddha monument around a bend in the mountain trail saying the same thing: born in Nepal. This part of the trail was most definitely blasted out of the vertical wall of rock that we were walking alongside. We also had to share the trail today with lots of jeeps and motorbikes. Even though we had to share the trail, at least it was nice and wide.",
-          "The views though, they are starting to get pretty awesome-looking. The trees are becoming fewer, and the mountains greater. From here we can actually see the Annapurna Massif.",
-          "Our destination today was Upper Pisang, as opposed to Lower Pisang. We made it in due time, and found a lovely place with a view to stay at. In Upper Pisang there is also a buddhist temple that we could go to, and we didn't pass up the opportunity. We're also high enough now that we need our puffy jackets to go walking around in the afternoon. I have never seen so many colors in one building before. This buddhist temple was a joy for the eyes."
+          "We left Chame after a hearty breakfast, the sun already high above us as we followed the fast-flowing river that has accompanied us since the beginning of the trek. Shortly after setting off, we passed a monument declaring \"Buddha was born in Nepal,\" a reminder of the deep cultural history surrounding the trail.",
+          "The path was busier than usual, with many porters passing by carrying enormous loads on their backs while walking in sandals. It was humbling to witness the sheer strength and endurance required for this work, and a stark reminder that these mountains demand respect. Another Buddha monument appeared around a bend, and we marveled at the way the trail had been blasted directly out of the vertical rock face. Despite sharing the path with jeeps and motorbikes, the trail was wide enough to navigate safely.",
+          "As we gained elevation, the scenery transformed. Trees became sparse, revealing massive mountain faces and the stunning peaks of the Annapurna Massif. Every turn offered new perspectives, and the scale of the mountains made us feel small in the most awe-inspiring way.",
+          "Our destination was Upper Pisang, and we arrived in time to settle into a beautiful teahouse with a view that took our breath away. The village is home to a Buddhist temple, and we didn't miss the opportunity to explore it. The temple's colors were unlike anything we had seen, a vivid feast for the eyes that made wandering its grounds a true delight. At this altitude, our puffy jackets were necessary for afternoon walks, a reminder that we were steadily moving into the high Himalayas.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The trail out of Chame led us high above the river with stunning views of the Annapurna Massif. Upper Pisang welcomed us with a vivid Buddhist temple and a teahouse offering breathtaking scenery.",
         "gpx": [
           [
             28.55098,
@@ -55928,6 +55875,7 @@ const data = [
         "image": "2019/10/19/91fcb255-9894-434c-9c39-41ea5070e819.jpeg",
         "location": "Manang District",
         "readingTime": "2",
+        "snippet": "Colors of Upper Pisang",
         "stats": {
           "distance": {
             "label": "distance",
@@ -56023,16 +55971,13 @@ const data = [
       {
         "date": "October 24th, 2019",
         "description": [
-          "Sunrise in Upper Pisang, and it's time to get packed up and hit the trail again. On our way out of town we passed a group of older villagers lugging large bundles of sticks and hay up from the Lower Pisang region where the Annapurna mountain in the distance dominiates the landscape.",
-          "A short walk across a suspension bridge took us out of the village and to a series of switchbacks going up a very tall hill. Given that we're up near an altitude of about 9,000 feet, this was no easy feat. It took nearly an hour to seemingly not go far far horizontally, but a lot of distance vertically. Pisang looked so tiny now from up here.",
-          "The trail from here hugged the side of a sandy-colored mountain, dotted with old temples and homes built out of large flat stones, and covered with banners that had tiny little flags attached to them in all sorts of colors. We're told they're prayer flags.",
-          "At the next small sparsely populated village we took a break. The whole world around us is colored like sand, with white snowcapped mountain peaks surrounding it. It's hard to tell how many of these buildings in this small villages are still lived in, and how many are just ruins. We also pass by a bunch of small temples dedicated to Buddha.",
-          "The trail is long today, but at long last we came back to the river that has been our constant companion since the beginning, and follow it along a dusty road past herds of yaks grazing along its sides. Lots of jeeps coming through here today, which meant hurrying off of the road and covering our faces to avoid the dust storms they kick up. I wish I had my neck buff for this.",
-          "We finally reached Manang at 11,500 feet just a few hours before nightfall. It took a bit of searching, but we finally found a place to stay that \"felt right\" to everyone in our group, and booked rooms for two nights here since we would be doing a day-hike tomorrow up to a lake at 15,000 feet as part of a conditioning routine that would get us ready for the highest point of the trek in a few days.",
-          "In the morning we grabbed our jackets, and water bottles, and set out going back the way we had come the previous day in order to make it to the beginning of the lake trail. The way up was hard, and took nearly 5 hours to get up there. But once we got up there the views were jaw-dropping. It was the highest I had ever been in my life. It was soo cold up there that we weren't able to stay long before our fingers inside of our gloves started to freeze. The way down wasn't as bad, but half of our group got separated and we ended up getting lost on the way down. Luckily we found our way back to the road, and to our home for the night.",
-          "Later that evening we went a movie theatre that was really just a small room behind a local bar and watched the movie \"Everest\". We had hoped it would be \"Seven Years in Tibet\" but this was just as good. What an eerie thing to watch though as we're about to go much higher in elevation over the next few days."
+          "Sunrise in Upper Pisang greeted us with crisp air and breathtaking views of the Annapurna massif. As we packed up, we passed villagers carrying large bundles of sticks and hay up from Lower Pisang, a reminder of how hard life is in these mountains. Crossing a short suspension bridge brought us to a steep series of switchbacks that climbed nearly a vertical mile. At roughly 9,000 feet, the ascent was grueling, but the tiny village of Pisang shrinking below us made the effort feel worth it.",
+          "The trail hugged the side of a sandy-colored mountain dotted with stone homes, ancient temples, and colorful prayer flags fluttering in the wind. At a small sparsely populated village, we took a break, surrounded by snow-capped peaks and the muted earth tones of the highlands. Some structures seemed abandoned, while others were still lived in, and we passed small temples dedicated to Buddha along the way.",
+          "After hours of hiking, we rejoined the river that has accompanied us nearly the entire trek, walking along a dusty road past grazing yaks. Jeeps kicked up clouds of dust, forcing us to step aside and cover our faces, wishing for neck buffs we hadn't brought. At last, we reached Manang at 11,500 feet just before nightfall. We found a teahouse that felt right, and booked rooms for two nights, preparing for the day-hike to a glacial lake at 15,000 feet that would help us acclimatize before the highest point of the trek.",
+          "The next morning, we set off early, water bottles and jackets in hand, retracing our steps from the previous day to reach the trailhead. The hike up was exhausting and cold, taking nearly five hours to reach the lake. The views from that elevation were jaw-dropping, a mix of glaciers, towering peaks, and glinting rivers. The cold was intense, and we couldn't stay long before our fingers began to freeze despite gloves. The hike down separated our group for a time, but we eventually reunited and returned safely to our rooms.",
+          "That evening, we visited a small local movie theater hidden behind a bar and watched Everest. It was eerie and humbling to see the mountain on screen as we prepared to go higher than any of us had ever been. The film reminded us of both the awe and danger that lie ahead, making the upcoming days feel all the more real and intense.\n"
         ],
-        "excerpt": "",
+        "excerpt": "From Upper Pisang we climbed nearly a vertical mile, surrounded by snow-capped peaks and fluttering prayer flags. The day ended in Manang with a high-altitude hike to a glacial lake and a local screening of Everest.",
         "gpx": [
           [
             28.616228,
@@ -57029,7 +56974,8 @@ const data = [
         "hasStats": true,
         "image": "2019/10/19/b9b20eb0-e569-4778-99c6-de3a3c2eb15e.jpeg",
         "location": "Manang District",
-        "readingTime": "3",
+        "readingTime": "2",
+        "snippet": "High Above Pisang",
         "stats": {
           "distance": {
             "label": "distance",
@@ -57125,14 +57071,13 @@ const data = [
       {
         "date": "October 25th, 2019",
         "description": [
-          "We had to say goodbye to Nathan yesterday. He had to continue on in order to finish the trek by a certain date, and couldn't take the variant route to Tilicho Lake with us, which is where we would be spending the night before heading up to the worlds highest freshwater lake at 15,500 feet. The three of us left Manang, and crossed a suspension bridge out of town in the early morning hours.",
-          "Most of the trail today would be going alongside mountain slopes that looked like they had either just had a landslide, or were about to. A couple of times a supply train of donkeys would cross our path and I got nervous that they would send the stony trail tumbling down. Luckily that never happened.",
-          "This terrain though looked like something from an alien world.",
-          "For nearly 5 hours we marched up and down these slopping hills, gaining altitude with each step. We took a mid-day break at small set of teahouses in a place called Shree Kharka, and decided to stay here on the way back from Tilicho Lake the following day, instead of pushing all the way for Thorong Phedi. The teahouses here are so colorful!",
-          "Eventually, after a long day of hiking, we arrived at Tilicho Lake Basecamp, and found what appeared to be the last places to sleep. There was a catch though: this room for all of us to share was in a small hut behind the main building. This meant thin walls, windows with holes in them, and rough mattresses to sleep on. It was better than nothing.",
-          "The dinner here was really good though. My body is finally getting used to eating nothing but cheap Dal Bhat, and the free refills! We went to bed early tonight after spending all evening hanging out in the dining hall reading and playing cards. Tomorrow we would be getting up early to do the hike up to the lake."
+          "Saying goodbye to Nathan was harder than expected. He needed to press on to meet his timeline, which meant skipping the variant route to Tilicho Lake where we planned to spend the night before climbing to the world's highest freshwater lake at 15,500 feet. In the early morning hours, the three of us left Manang and crossed a suspension bridge at the edge of town, the day still quiet and cool.",
+          "The trail quickly turned dramatic. We moved along steep mountain slopes that looked as if they had either just shed a landslide or were thinking about it. A few times, supply trains of donkeys clattered past us, and I held my breath, half convinced the loose stone beneath their hooves might give way. It never did, but the tension stayed with me.",
+          "The landscape felt otherworldly, almost unreal. For nearly five hours we climbed and descended these sloping hills, gaining altitude with every step. By midday we reached a small cluster of teahouses in Shree Kharka and stopped to rest. We decided this would be our stopping point on the return from Tilicho Lake instead of pushing all the way to Thorong Phedi. The teahouses here were impossibly colorful, bright against the stark terrain.",
+          "By the end of the afternoon, we finally reached Tilicho Lake Basecamp and were relieved to find what looked like the last available place to sleep. The catch was that it sat behind the main building in a small hut we would all share. Thin walls, windows with holes, and rough mattresses greeted us, but it was shelter, and that was enough.",
+          "Dinner turned out to be excellent, which felt like a small miracle. My body is finally adjusting to a steady diet of cheap dal bhat and its endless refills. We spent the evening in the dining hall reading and playing cards before turning in early. Tomorrow would be an early start for the hike up to the lake.\n"
         ],
-        "excerpt": "",
+        "excerpt": "We said goodbye to a friend and stepped into an alien landscape on the way to Tilicho Lake Basecamp. It was a long, demanding day marked by loose trails, bright teahouses, and a simple but welcome place to rest before the climb.",
         "gpx": [
           [
             28.665895,
@@ -58130,6 +58075,7 @@ const data = [
         "image": "2019/10/19/ed197052-01d7-4739-807c-39340385c0fc.jpeg",
         "location": "Manang District",
         "readingTime": "2",
+        "snippet": "Toward Tilicho",
         "stats": {
           "distance": {
             "label": "distance",
@@ -58225,14 +58171,13 @@ const data = [
       {
         "date": "October 26th, 2019",
         "description": [
-          "Stars filled the cloudless pre-dawn sky as we started packing up for our hike to Tilicho Lake at 16,435 feet. It was cold and hard to move so early in the morning, but we managed to make our way onto the trail with our headlamps lighting the way.",
-          "Sunrise came about an hour and a half into our hike, slowly revealing the snowy-white world around us. The first half of the trail wasn't too bad, but the second half, as we got higher and higher, forced us to stop and take more breaks. Once we got to the more flat part of the trail our speed increased and we made it to the lake about 2-3 hours after starting.",
-          "While the lake itself wasn't unique in any obvious way, other than being at such a high elevation, it was the snow-covered mountains around us that really set the mood. As we stood there staring out of the lake a rumbling sound in the distance caught our attention and up near one of the peaks we could see an avalanche starting to careen down towards the lake. It was on the far side, so we were in no immediate danger, but it was an amazing sight to see.",
-          "We couldn't stay long at the lake for it was far too cold and our fingers were going numb inside of our gloves (I even had to layers of gloves on). As we were leaving another, much larger, avalanche occurred that filled the space above the lake with powdery snow, but we were too far below the ridgeline to see it fully sadly.",
-          "The way down went much faster, as it always dows, and we were moving at a fast pace in order to warm back up. We debated stopping at Basecamp on our way back for breakfast but decided to keep moving and stay at Shree Kharka instead because there was one particular place that had a dining hall with an amazing view of the mountains and valley below us.",
-          "The way back over the landslide-ridden trail went by much easier than it did yesterday, and again luckily there were no incidents. We chilled for the rest of the day at Shree Kharka, playing card games, listening to podcasts, and eating. We made our plans to go to Thorong Phedi tomorrow, and then onto Thorong La Pass (the highest point on the trek at 18,500 feet) and then to Muktinath.\n"
+          "Stars crowded the cloudless pre-dawn sky as we packed up for our hike to Tilicho Lake at 16,435 feet. The cold made every movement feel heavier than it should have, and starting the day so early took real effort. With headlamps on and breath visible in the dark, we eventually found our way onto the trail.",
+          "About an hour and a half in, sunrise began to spill over the mountains, slowly revealing a snowy white world around us. The first half of the climb felt manageable, but as we gained more altitude, our pace slowed and breaks became more frequent. Once the trail flattened out near the top, we found a second wind and reached the lake roughly two to three hours after starting.",
+          "The lake itself was not striking in any obvious way beyond its extreme elevation. What truly defined the moment were the snow-covered peaks encircling us, towering and silent. As we stood there taking it all in, a low rumble echoed through the valley. High on one of the distant peaks, an avalanche broke loose and rushed downward toward the far side of the lake. We were not in danger, but watching it unfold was unforgettable.",
+          "The cold quickly forced us to leave. Our fingers were going numb inside our gloves, even with layers on, and it was impossible to linger. As we started down, a second and much larger avalanche thundered down another slope, filling the air above the lake with clouds of powdery snow. We were too low to see it fully, but the sound alone was enough to leave us in awe.",
+          "The descent was fast, as it usually is, and we moved quickly to warm ourselves back up. We skipped breakfast at Basecamp and pushed on to Shree Kharka, drawn by one teahouse with a dining hall overlooking the valley. The landslide-prone trail felt easier this time, and the day ended quietly with cards, podcasts, food, and plans for the next push toward Thorong Phedi, Thorong La Pass, and eventually Muktinath.\n"
         ],
-        "excerpt": "",
+        "excerpt": "An early start led us through a frozen sunrise to Tilicho Lake, surrounded by towering snow-covered peaks. Avalanches thundered in the distance before we hurried back down to warmth, food, and plans for the next high pass.",
         "gpx": [
           [
             28.679971,
@@ -59229,7 +59174,8 @@ const data = [
         "hasStats": true,
         "image": "2019/10/19/d7837a44-81d2-4fa0-9912-bb15508be721.jpeg",
         "location": "Manang District",
-        "readingTime": "3",
+        "readingTime": "2",
+        "snippet": "Morning at Tilicho Lake",
         "stats": {
           "distance": {
             "label": "distance",
@@ -59325,13 +59271,13 @@ const data = [
       {
         "date": "October 27th, 2019",
         "description": [
-          "Today we would be heading back towards Manang, and then taking a sharp left away from the valley that Manang resided in as we would be turning torwards Thorong La Pass, and the climax of our trek together.",
-          "We left Shree Kharka and bid farewell to the sand-colored valley walls. Small scraggly bushes now dominated the landscape around us as we retraced our steps. At an outlook point overlooking Manang we stopped and posed for pictures, saying goodbye to the first half of this circuit, and then turned to the left and continued our hike upwards and onto another valley.",
-          "Upon entering this new valley we could see the entire trail laid out before us, twisting and bending and winding its way over the terrain. On we marched, heads down, focused on closing the distance between us and our place for the night at Thoron Phedi. We stopped for lunch at a place that had teepees available for sleeping in, and enjoyed some food and sodas.",
-          "It was still going to take us another 3-4 hours before we would be able to see the refuge for the night. Up and down the rocks we went, over rivers, through small thinly wooded forests, climbing ever higher. Today we would technically be losing more elevation than we would be gaining, but it was still a challenge to gain any altitude.",
-          "At long last we arrived, nearly 7 hours after starting the days hike. These were some of the hardest mattresses I have ever slept on, but this place had __*the best*__ veggie burger that I have ever had. Tomorrow wouldn't be as early of a day as yesterday was, so we had a chance to catch up on some sleep before making the pass."
+          "Today marked our turn back toward Manang and then sharply away from the familiar valley as we aimed ourselves toward Thorong La Pass, the climax of our trek together. There was a quiet sense of transition in the air, the feeling that we were leaving one chapter behind and stepping into something more demanding.",
+          "We left Shree Kharka and said goodbye to the sand-colored valley walls that had framed the past few days. As we retraced our steps, the landscape shifted to sparse, scraggly bushes clinging to the terrain. At an overlook above Manang, we stopped for photos and took a moment to acknowledge the completion of the first half of the circuit. Then we turned left, climbed steadily, and entered an entirely new valley.",
+          "From there, the trail revealed itself all at once, winding and twisting across the landscape ahead of us. We marched on with our heads down, focused on closing the distance to Thorong Phedi. Lunch came at a stop offering teepees for sleeping, where we gladly rested, ate, and drank sodas before continuing on.",
+          "The afternoon stretched on, with another three to four hours still ahead of us. We moved up and down rocky sections, crossed rivers, and passed through thin patches of forest, climbing higher even on a day where we technically lost more elevation than we gained. Every bit of uphill still demanded effort at this altitude.",
+          "Nearly seven hours after starting, we finally arrived at Thorong Phedi. The mattresses were some of the hardest I have ever encountered, but the veggie burger more than made up for it, easily the best I have ever had. Tomorrow would be a slightly later start, giving us a chance to catch up on sleep before making our push over the pass.\n"
         ],
-        "excerpt": "",
+        "excerpt": "We turned away from Manang and began our final approach toward Thorong La Pass. A long, demanding day ended at Thorong Phedi with sore legs, hard beds, and a surprisingly unforgettable veggie burger.",
         "gpx": [
           [
             28.680485,
@@ -60329,6 +60275,7 @@ const data = [
         "image": "2019/10/19/40b7a029-2f0c-4807-94fa-86a07ee9ffa9.jpeg",
         "location": "Khotang District",
         "readingTime": "2",
+        "snippet": "Turning Toward the Pass",
         "stats": {
           "distance": {
             "label": "distance",
@@ -60423,12 +60370,13 @@ const data = [
       {
         "date": "October 28th, 2019",
         "description": [
-          "The big day had finally arrived: crossing over Thorong La Pass and entering the second half of the circuit. Today would be another day of less altitude gain when compared to how much we would lose. We ate our breakfast in a hurry as we were eager to begin.",
-          "It was a slow march up from Thorong Phedi to the pass. The trail was crowded, and thanks to the extreme elevations we were at (we started at 15,000 feet) we had to stop and take many breaks. One foot in front of the other, that's all ya gotta do. But after 3.5 hours we made it to the pass!",
-          "We were filled with joy at accomplishing such a tremendous effort. We dropped our heavy packs and reveled in what we had done. Our group of three crouched and posed for a photo at the sign marking the high point of the circuit. As we stood up we all became extremely light-headed and dizzy. It was no joke moving around at these altitudes. Even the slightest amount of steps caused us to become winded. Eventually though it was time to start our long descent down towards Muktinath.",
-          "After three hours of racing down the mountain, and stopping for a refreshment break at a refuge on the way down, we made it to Muktinath. This was a fairly good-sized city with plenty of places to stay and stores to window-shop at. We chose a place called Bob Marleys and it was a pretty nice place. They had nice showers with rain showerheads, comfy beds, and one of the best restaurants on the trek. Seriously, I had some pasta Carbonara here (my first time having it) and it was amazing! They also had a nice lounge below the restaurant for hanging out."
+          "The big day had finally arrived: crossing Thorong La Pass and stepping into the second half of the circuit. While we would lose more elevation than we gained, the challenge of the day was unmistakable. We ate breakfast quickly, eager and a little anxious to get moving.",
+          "The climb from Thorong Phedi to the pass was slow and deliberate. The trail was crowded, and starting at nearly 15,000 feet meant frequent stops just to catch our breath. It became a simple rhythm of putting one foot in front of the other. After three and a half hours of steady effort, we finally reached the pass.",
+          "The sense of accomplishment was overwhelming. We dropped our packs and soaked in the moment, crouching together for photos beside the sign marking the highest point of the trek. Standing back up brought instant dizziness and light-headedness, a sharp reminder of how thin the air was. Even small movements left us winded, and it was clear this was not a place to linger too long.",
+          "Eventually, we began the long descent toward Muktinath. The trail down felt fast and almost freeing after the slow climb, and we moved quickly, stopping once at a refuge for refreshments. After about three hours, the landscape opened up and we arrived in Muktinath.",
+          "Muktinath felt like a small city compared to where we had been, full of shops, places to stay, and life. We checked into a spot called Bob Marleys, which felt luxurious after days on the trail. Hot showers, comfortable beds, and one of the best meals of the trek awaited us. My first-ever pasta carbonara sealed the day as one I will never forget.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Crossing Thorong La Pass was slow, exhausting, and deeply rewarding. After the long descent, Muktinath greeted us with hot showers, comfortable beds, and delicious food.",
         "gpx": [
           [
             28.776874,
@@ -61426,6 +61374,7 @@ const data = [
         "image": "2019/10/19/f76cbaab-0139-44b4-bc5c-6c816731d927.jpeg",
         "location": "Mustang District",
         "readingTime": "2",
+        "snippet": "Over the High Point",
         "stats": {
           "distance": {
             "label": "distance",
@@ -61520,13 +61469,13 @@ const data = [
       {
         "date": "October 29th, 2019",
         "description": [
-          "Our destination today was Marpha, for some of us at least. Katie from New Zealand would be saying goodbye and taking a bus from the town just before Marpha and heading back to Pokhara in order to continue their backpacking adventures around the world. Veronique hung back in order to call her boyfriend back home, so Katie and I said goodbye and then hit the trail.",
-          "Todays trail would take us up and over light-brown mountains and hills, and along dried river beds that at some point in the year must hold massive flowing rivers. It was nice to have an alternative to walking on the road though. We also crossed over several suspension bridges as we descended out of the mountains.",
-          "It felt like a long day of ups and downs, with not much variation in the landscape around us. This part of the trail was also much much emptier as people usually take a jeep from Muktinath instead of walking the rest of the circuit, and it shows. There were decidedly fewer places to stay on this second half.",
-          "A few hours later and we were in the town just before Marpha. Katie and I grabbed some lunch together before saying goodbye. As we ate we saw Veronique walking by. After saying goodbye to Katie I did my best to try and catch up to Veronique. I was nervous about being alone again on the trail after 11 days of walking with the same group of people.",
-          "In the town of Marpha I found a place to stay by myself. It wasn't the best place, and there was no one else there. I got settled in and went out to walk the little village. There wasn't much to see, but as luck would have it I ran into Veronique and she said she had found a great place to stay. We went back and packed up my stuff and set off for this other place. It had a friendly host, and comfy beds, but I was most excited for not having to hike along tomorrow."
+          "Our destination today was Marpha, at least for some of us. Katie, a friend from New Zealand, would be leaving the trail early to catch a bus from the town just before Marpha and head back to Pokhara to continue her travels. Veronique stayed behind briefly to call her boyfriend back home, so Katie and I said our goodbyes and started down the trail together.",
+          "The path for the day led us over light-brown hills and mountains and along wide, dried riverbeds that must roar with water during other seasons. It was a welcome change from road walking, and the route felt quieter and more remote. As we descended out of the mountains, we crossed several suspension bridges that gently swayed beneath our steps.",
+          "The day felt long, filled with constant ups and downs and very little change in the scenery. This stretch of the circuit was noticeably emptier, since many trekkers opt to take a jeep from Muktinath instead of walking on. That choice was obvious in the lack of people and the fewer options for places to stay along the way.",
+          "A few hours later, we reached the town just before Marpha and stopped for lunch together. Over food, we said goodbye, knowing it would likely be the last time our paths crossed on this trek. As we finished eating, we spotted Veronique walking by, and after parting with Katie, I hurried to catch up with her. The thought of being alone again after eleven days with the same group made me uneasy.",
+          "In Marpha, I initially found a place to stay on my own, but it was empty and uninspiring. After settling in, I wandered the quiet village and, by chance, ran into Veronique again. She had found a much better place to stay, so we went back, grabbed my things, and moved over. The new spot had a friendly host and comfortable beds, and best of all, the promise that tomorrow would not involve any hiking at all.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The trail to Marpha brought quiet paths, long miles, and difficult goodbyes. After briefly facing the idea of being alone again, a chance reunion turned the day around.",
         "gpx": [
           [
             28.816048,
@@ -62524,6 +62473,7 @@ const data = [
         "image": "2019/10/19/93b7286f-a87a-4d8e-8d85-6a3f50dcd82c.jpeg",
         "location": "Mustang District",
         "readingTime": "2",
+        "snippet": "Parting Ways in Marpha",
         "stats": {
           "distance": {
             "label": "distance",
@@ -62618,12 +62568,13 @@ const data = [
       {
         "date": "October 30th, 2019",
         "description": [
-          "The two remaining members of our group, Veronique and myself, set out from Marpha bound for Ghasa. It would be a mostly dusty trail today, and on part of the way we had a dog follow us for some time, hoping for food most likely.",
-          "We walked over bridges, through bright green grassy fields and forests, and over many river crossings. Lots of jeeps on todays trail as well. Sadly I lost one of my flipflops on the way today, not sure where. We also passed through some apple orchards.",
-          "Most of the trail was along the road, and there were some places to stop along the way, but most of them were empty and/or run-down. Not much food offerings either.",
-          "More walking along riverbeds as well today. We didn't see any other hikers until we entered the village of Ghasa, and even then it was few and far between. It was feeling very lonely on trail. We found a place to stay and the rooms weren't that bad. We each had our own which was nice though, usually not a common thing on the Annapurna Circuit."
+          "With the group now reduced to just two, Veronique and I left Marpha and headed toward Ghasa. The day promised a mostly dusty trail, and before long a hopeful dog joined us, trailing behind for a while as if waiting for a handout or some attention.",
+          "The landscape shifted constantly as we walked. We crossed bridges, passed through bright green fields, and moved in and out of forests broken up by frequent river crossings. Jeeps rumbled past us throughout the day, a reminder that much of this stretch followed the road. Somewhere along the way, I lost one of my flip-flops, though I never did figure out exactly where it happened.",
+          "We also passed through apple orchards, a small but welcome contrast to the dust and traffic. Despite the variety in scenery, most of the trail stayed close to the road, with only a handful of places to stop. Many of them were empty or run-down, and food options were limited.",
+          "Long stretches followed dried riverbeds, and the sense of isolation grew stronger as the day went on. We did not see any other hikers until we reached Ghasa, and even there they were few and far between. The trail felt quiet in a way that was both peaceful and lonely.",
+          "In Ghasa, we found a place to stay with surprisingly decent rooms. Having our own rooms felt like a luxury, especially on the Annapurna Circuit where sharing is usually the norm. After a long and solitary day, the simple comfort was more than enough.\n"
         ],
-        "excerpt": "",
+        "excerpt": "A dusty, quiet day took us from Marpha to Ghasa with few hikers and long stretches of road. Small comforts at the end of the day made the solitude easier to carry.",
         "gpx": [
           [
             28.751911,
@@ -63620,7 +63571,8 @@ const data = [
         "hasStats": true,
         "image": "2019/10/19/9f9bca6e-e30a-4ca0-b005-5a0bda57f649.jpeg",
         "location": "Mustang District",
-        "readingTime": "1",
+        "readingTime": "2",
+        "snippet": "Down to Ghasa",
         "stats": {
           "distance": {
             "label": "distance",
@@ -63715,20 +63667,14 @@ const data = [
       {
         "date": "October 31st, 2019",
         "description": [
-          "Probably the most memorial day on trail for me. My original destination for today was going to be Tatopani, but when we got there it was mostly locals, no other hikers, and I would finally be alone since the last member of my group would be catching the bus back to Pokhara. So I decided to follow an Australian couple who were doing the circuit to Ghorepani.",
-          "The way down from Ghasa was fast. We were now within the jungle biome once more, and it was getting warm fast. A large river was flowing next to us as we descended down the trail and crossed over suspension bridges. It only took about 2.5-3 hours to get down to Tatopani, the traditional endpoing point of the trek. I debated staying here, and continueing on tomorrow and starting the Annapurna Basecamp trek since I had tons of extra time due to it not taking as long as I had thought to do the circuit. But the Australian couple we had met last night at the place we stayed in Ghasa were continuing on today, and since it was so early in the day I figured why not keep going?",
-          "Initially we were all hiking together, but they were much faster at going up and so after a while I told them to go on ahead and that I would meet up with them at the place we had decided upon at lunch in Tatopani.",
-          "I was walking alone now, but the trail was well-marked. There were a lot of elevation gains happening today, nearly 4,000 feet of it, all since Tatopani. I had stopped seeing other hikers on the trail for a while now, and it wasn't until the sun started to go down that I started to catch up to some who had started off from other places along this trail.",
-          "I hadn't had anything to eat since lunch time, and even then it wasn't much, and I was also out of bars to snack on. I had plenty of water though. As the sun went down the temperatures started to drop, but I didn't notice. I was too tired and too full of andrenaline to care. I was wheezing by this point though, and every step was a struggle. Eventually I came to the archway that marked the entrance to Ghorepani, but the universe was feeling extra cruel that day because even though I was \"here\" I still had to ascend several flights of stone stairs in order to get to the places to stay.",
-          "As I walking on and up, I came to the place that the Australians and I had earlier agreed upon. It was empty. It had been shutdown and shuttered for some time, and by the looks of it was not going to open any time soon. This was not good. I could see other places to stay in the distance, more close the center of the village. I pushed on and entered the first place that I came to. It was busy, in fact this whole village was bustling with activity from other hikers. Makes sense since there is a day-hike here you can do called Poon Hill.",
-          "I stumbled into the building and asked for a room at the front desk. I must have been in bad shape, or maybe it was because I had arrived so late in the evening, but I got a lot of stares when I entered. The host of the place showed me to a room with a single bed in a building that had some thin walls. I asked them for some snacks to eat (I was starving) and a blanket since I was cold, and then they left. I sat down on the bed and that was when things really started to go bad.",
-          "Nearly instantaneously my arms from my elbows to my hands, and my legs from my knees to my feet, started to tingle and go numb. I didn't know what this could mean (I thought I was just really tired), and I sat there hoping it would wear off and stop on its own. It did not. Nervous, I struggled down the stairs and headed to the front desk asking for a blanket and some snickers bars. They said they would bring one up, so I headed back upstairs with my snickers and sat on the bed and snacked and waited.",
-          "About five minutes later they arrived with the blanket. I must have been in shock because I told them I couldn't feel my arms and legs and they said that's because you are cold and need to warm up. I followed them back downstairs and they cleared a spot for me on a bench next to the open fireplace. I wrapped the blanket around me and sat their shivering, waiting for the fires to heat me up. If it wasn't for what happened next I probably would have died.",
-          "A group of hikers were sitting at a table next to the windows, and one of them kept glancing over at me. After a few moments they came over and asked what was wrong. I said I was cold and shivering and they asked if I had changed out of my hiking clothes that had been soaked in sweat all day. I said no and they asked if I had a change of outfit, to which I said yes. They immediately picked me up by the arms and brought me to my room where they helped me change into dry clothing. They then grabbed my sleeping bag and brought me back down to the fireplace. He orderd some hot salty soup for me to drink/eat, along with more snickers bars. After eating I laid down on the bench and fell asleep next to the warm fire in my sleeping bad.",
-          "A couple of hours later I awoke, in a bit of a daze but doing much better. The hiker checked in on me and asked if I was ok. I thanked them immensly, and headed upstairs to go to sleep. While laying in bed I used my phone and the teahouses wifi and googled my condition. I found out that I had minor hypothermia, and if it wasn't for the intervention of those hikers, I would have died.",
-          "Words can't describe how I feel about that situation, and what happened. It was a series of bad decisions, one after the other. I was lucky to be alive."
+          "This was probably the most memorable day of the entire trail, and not for the reasons I would have hoped. My original plan was to stop in Tatopani, but when I arrived it was mostly locals and no other hikers. With the last member of my group heading back to Pokhara, I was about to be completely alone. Instead, I made a last-minute decision to follow an Australian couple who were continuing on toward Ghorepani.",
+          "The descent from Ghasa was quick and almost effortless. We dropped into jungle terrain again, the air growing warmer with every step, a wide river rushing alongside the trail as we crossed suspension bridges. In just under three hours we reached Tatopani, the traditional endpoint of the circuit. I debated staying there and possibly starting the Annapurna Base Camp trek since I had far more time than expected, but it was still early and the Australians were moving on, so I went with them.",
+          "They were much faster on the climbs, and before long I told them to continue ahead while I caught up later. From that point on, I was hiking alone. The trail was well marked, but the elevation gain was relentless, nearly 4,000 feet after Tatopani. I stopped seeing other hikers entirely for a while, only spotting a few as the sun began to dip lower in the sky.",
+          "I had not eaten much since lunch and had run out of snacks, though I still had plenty of water. As temperatures dropped, I barely noticed. Adrenaline carried me forward even as my breathing grew labored and every step felt heavier than the last. When I finally reached the archway marking Ghorepani, relief washed over me, only to be replaced by dread when I realized I still had several long flights of stone stairs to climb.",
+          "When I reached the teahouse where I had planned to meet the Australians, it was shuttered and abandoned. With no choice, I pushed on toward the center of the village, which was surprisingly busy due to hikers preparing for the Poon Hill sunrise. I stumbled into the first open lodge and asked for a room, drawing more than a few concerned looks. After being shown to a small room, I asked for snacks and a blanket and sat down, which is when things took a turn. My arms and legs began to tingle and go numb, and the sensation only worsened. I made my way back downstairs, and the hosts sat me by the fire, assuming I was simply cold.",
+          "What happened next likely saved my life. A group of hikers nearby noticed me and quickly realized I was still wearing sweat-soaked clothes. They immediately helped me change into dry layers, wrapped me in my sleeping bag, and brought me back to the fire. One of them ordered hot, salty soup and more food, and after eating I finally fell asleep next to the warmth. Hours later I woke feeling clearer and far more stable. That night, after looking up my symptoms, I learned I had experienced mild hypothermia. If not for the kindness and quick thinking of strangers, I would not have made it. It was a hard lesson in how quickly small decisions can compound, and how lucky I was to walk away from it at all.\n"
         ],
-        "excerpt": "",
+        "excerpt": "A last-minute decision to keep hiking turned into the most dangerous day of the trek. Thanks to the awareness and kindness of strangers, I survived a close call that could have ended very differently.",
         "gpx": [
           [
             28.598869,
@@ -64725,7 +64671,8 @@ const data = [
         "hasStats": true,
         "image": "2019/10/19/5cf22091-8d99-4cdd-870c-f91db81c1049.jpeg",
         "location": "Myagdi District",
-        "readingTime": "6",
+        "readingTime": "3",
+        "snippet": "The Day That Almost Ended the Trek",
         "stats": {
           "distance": {
             "label": "distance",
@@ -64820,16 +64767,13 @@ const data = [
       {
         "date": "November 1st, 2019",
         "description": [
-          "My near-death experience last night was a humbling experience, and it also energized me in a way I didn't see coming. I awoke from a very restful night of sleep, and headed downstairs to an empty dining hall. Nearly all of the guests had left in the early morning hours to do a sunrise trek to the top of the nearby Poon Hill.",
-          "As I sat in the dining room alone, waiting for breakfast, one of the hikers from last night came down. I thanked them again for what they did, knowing I could never repay these strangers kindness.",
-          "I ordered as much warm food as I could for breakfast.",
-          "With a full belly, and renewed lease on life, I set out for Chomrong, and the start of the Annapurna Basecamp trek. It was a fog-filled morning as I left the village behind. The trail today would also be a bit empty as many people don't take this particular way to get to Chomrong.",
-          "I must have walked through fog-covered hills for a good three hours before leaving it behind and entering a forest with leaves of all different colors. It felt like Fall back home. Turns out it was a forest preserve, and there were lots of families hiking through it.",
-          "A little while later I came to a small set of teahouses and took a lunch break here. No repeating the mistakes from yesterday; eat when food is available I've learned. I had a big plate of pasta (nothing special) and a couple of colas before heading off into the jungle once more. After a short while I heard some noises in the trees, and looked up to see monkeys swinging from the branches! It was an awesome sight, but for some reason I was nervous about them being aggressive and I quickened my pace.",
-          "After leaving the jungle the trail went down the side of a steep valley, and then back up the other side. A couple of hours later and I arrived in Chomrong. I must have gained more elevation (in total) today than I did yesterday, but for some reason today didn't feel as hard.",
-          "I found a great place to stay that had awesome views of the valley and hills, and had some of the best food, including pizza, on this trip so far."
+          "The near-death experience from the night before was deeply humbling, but it also sparked an unexpected sense of energy. I woke up after a long, restorative sleep and walked downstairs to an empty dining hall. Nearly everyone had already left in the early hours to hike up Poon Hill for sunrise.",
+          "While waiting for breakfast, one of the hikers who had helped me the night before came in. I thanked them again, knowing there was no real way to repay that kind of selfless kindness. When it came time to order, I made sure to get as much warm food as possible, determined not to repeat the mistakes of the previous day.",
+          "With a full stomach and a renewed appreciation for simply being there, I set off toward Chomrong and the beginning of the Annapurna Base Camp trek. Thick fog hung over the village as I left, and the trail felt unusually quiet since many people do not take this route. The stillness suited the reflective mood I was in.",
+          "For several hours I walked through rolling hills wrapped in fog before emerging into a forest filled with leaves of every color. It felt like autumn back home. The area turned out to be a protected forest, and families were out hiking together, bringing a gentle, joyful energy to the trail.",
+          "After stopping at a small group of teahouses for lunch and fueling up properly, I continued on, this time into dense jungle. Monkeys suddenly appeared overhead, swinging through the trees, an incredible sight that also made me pick up the pace just in case. The trail eventually dropped steeply into a valley and climbed back up the other side, delivering me to Chomrong a few hours later. Despite gaining a surprising amount of elevation, the day felt lighter. I found a welcoming place to stay with sweeping views and some of the best food of the trip so far, including pizza that tasted especially earned.\n"
         ],
-        "excerpt": "",
+        "excerpt": "After a frightening night, the trail offered a sense of renewal and perspective. Foggy hills, autumn forests, and unexpected kindness carried me safely to Chomrong.",
         "gpx": [
           [
             28.402512,
@@ -65827,6 +65771,7 @@ const data = [
         "image": "2019/10/19/b2ef8848-2e35-43dd-9f06-98434903f810.jpeg",
         "location": "Kaski District",
         "readingTime": "2",
+        "snippet": "A Second Wind",
         "stats": {
           "distance": {
             "label": "distance",
@@ -65921,14 +65866,13 @@ const data = [
       {
         "date": "November 2nd, 2019",
         "description": [
-          "Well rest, and well fed, I departed Chromwrong the next morning for the ABC trek. I wouldn't make it all the way, but I got pretty far on the first day, and ended up in a place called Deurali.",
-          "It was all up today. Leaving Chomrong meant descending down to the valley floor and then heading up the other side, which meant a lot of stress on my knees and lungs from all this gain.",
-          "Most of the day was spent walking through jungles. About halfway in I found a place for lunch, and ate some more pasta and had more cokes. I continued on without much of a delay. There was a cool series of caves along the way, with ice/snow bridges hanging over them.",
-          "At the next village it was starting to rain, and would continue to rain all the rest of the day. I arrived at Deurali about six hours after starting the trail today. I got a room shared with two other strangers, and set about hanging up my wet stuff to try and get it to dry out. The showers were nice and hot though!",
-          "In the dining hall I hung out and read, and later ended up joining a group of british people who were playing card games while eating dinner.",
-          "The next day would be Annapurna Basecamp."
+          "Well rested and well fed, I left Chomrong the next morning to begin the Annapurna Base Camp trek. I would not make it all the way that day, but I covered a good amount of ground and eventually stopped in a place called Deurali. It felt good to be moving forward again with a clear goal ahead.",
+          "The day was almost entirely uphill. Leaving Chomrong meant descending all the way to the valley floor before climbing straight back up the other side. The constant elevation gain put real strain on my knees and lungs, and the effort was impossible to ignore.",
+          "Most of the trail wound through dense jungle, cool and green despite the effort it demanded. About halfway through the day I stopped for lunch, once again relying on pasta and a couple of cokes to keep my energy up. Not long after, I passed a fascinating stretch of caves with ice and snow forming natural bridges overhead, a reminder of how varied and surprising this trek could be.",
+          "By the time I reached the next village, rain had started to fall and it stayed with me for the rest of the afternoon. I arrived in Deurali roughly six hours after setting out and was shown to a room shared with two other trekkers. I hung up my soaked clothes and hoped for the best, grateful at least for the hot showers waiting downstairs.",
+          "That evening was quiet and comforting. I spent time reading in the dining hall before joining a group of British hikers who were playing cards over dinner. Tomorrow would be a big day, as the trail would finally lead to Annapurna Base Camp itself.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The climb toward Annapurna Base Camp began with long jungle ascents and steady rain. Deurali offered warm showers, shared company, and a calm pause before the final push.",
         "gpx": [
           [
             28.425346,
@@ -66926,6 +66870,7 @@ const data = [
         "image": "2019/10/19/a052d193-0be9-4288-b017-65d459c3eca1.jpeg",
         "location": "Kaski District",
         "readingTime": "2",
+        "snippet": "Into the ABC Trail",
         "stats": {
           "distance": {
             "label": "distance",
@@ -67020,16 +66965,14 @@ const data = [
       {
         "date": "November 3rd, 2019",
         "description": [
-          "The terrain and biome started to change almost immediately as I left Deurali and headed for Annapurna Basecamp. Green bushes and grasses gave way to mostly bare rock faces covered in thing yellow grasses as I headed deeper and higher into the valley between the mountainsides.",
-          "I felt like a tiny nothing while hiking through these massive rock formations. After an hour or so the first patches of snow started to appear. The world around me had been jungle not 60 minutes earlier, and now here I was suddenly transported to a new world.",
-          "There was a refuge on the way to Basecamp, but I wanted to be surrounded by snow, and kept going. A helicopter kept droning overhead as it went up and down the valley. My guess was resupply, but I later found out it was bringing tourists up to Basecamp, allowing them to bypass the hike altogether.",
-          "Clouds started to build as I continued on, now walking through inches of snow and over icy surfaces. Fresh snow must have fallen last night, because the trail was hard to find, and I ended up doing a little bit of bushwacking as I made my way. Up ahead though I could see the Basecamp refuge as clouds started to fill the world around me. More snow was coming, but I had made it just in time.",
-          "It didn't take long to get to Basecamp from Deurali, maybe 3 hours max? I could have probably made it yesterday, if it weren't for the rain which was most likely snow up at these elevations. My cash was running out, and I ended up having to sharing a room with a French couple I had met down in Chomrong. After getting settled in and taking a nice hot shower, I went to the good-sized dining hall to hang out, eat, read, and enjoy this winter wonderland around me.",
-          "The snow storm lasted for a few hours, and after it passed the skies were a crystal-clear blue with some remaining clouds scooting along the surface in a weird fog/cloud-inversion mix. I took this opportunity to walk around a bit and checkout a dropoff nearby that had some great cloud-inversion going on.",
-          "I made a lot of progress on my book today, seeing as how I had arrived by late morning. A couple of dogs that lived around the refuges (not sure if they had owners) kept trying to sneak into the dining hall to get out of the cold and to beg for food, but the hosts kept shooing them out.",
-          "During lunch and dinner I made some friends with a couple of Americans from Colorado and Washington. They seemed like decent people. After the sun set there wasn't much more reading I could do in the dim lights of the dining hall. Didn't matter though, I wanted to go to bed early in order to wake up to see the sunrise."
+          "The terrain began to change almost immediately after leaving Deurali on the way to Annapurna Base Camp. Green bushes and grasses slowly disappeared, replaced by bare rock faces dusted with thin yellow grasses as the valley narrowed and the mountains closed in around me. With every step higher, the landscape felt more stark and more dramatic.",
+          "Walking through these massive rock formations made me feel incredibly small. After about an hour, the first patches of snow appeared underfoot. Less than sixty minutes earlier I had been moving through jungle, and suddenly I was surrounded by an entirely different world, cold and exposed.",
+          "There was a refuge along the way where I could have stopped, but I wanted to reach the snow-covered heart of the valley, so I kept going. A helicopter droned overhead, repeatedly moving up and down the valley. I assumed it was resupplying the lodges, but later learned it was carrying tourists directly to Base Camp, skipping the hike entirely.",
+          "As I continued, clouds began to build and the snow deepened. Fresh snowfall from the night before made the trail difficult to follow, and I had to carefully pick my way forward, occasionally stepping off the path entirely. Ahead, the outline of the Base Camp refuge slowly emerged as clouds thickened around me. Snow was clearly on the way again, but I arrived just in time.",
+          "The hike from Deurali took no more than three hours, and I realized I could have made it the previous day if the rain lower down had not likely been snow at this elevation. With my cash running low, I shared a room with a French couple I had met earlier in Chomrong. After settling in and enjoying a hot shower, I spent the afternoon in the dining hall reading, eating, and watching the winter landscape outside the windows.",
+          "The snowstorm passed after a few hours, leaving behind crystal-clear blue skies and drifting clouds that hovered low in the valley. I wandered outside to take in a nearby drop-off filled with a surreal cloud inversion before returning indoors to read more. A couple of resident dogs kept trying to sneak into the dining hall for warmth and food, much to the hosts' annoyance. Over meals, I made friends with a few Americans from Colorado and Washington. As night fell and the lights dimmed, I turned in early, hoping to wake up in time for sunrise at Base Camp.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The trail to Annapurna Base Camp shifted quickly from jungle to snow-covered rock and cloud-filled skies. Arriving just ahead of a storm, I spent the day soaking in the silence and scale of this winter world.",
         "gpx": [
           [
             28.497636,
@@ -68027,6 +67970,7 @@ const data = [
         "image": "2019/10/19/3773c3c4-265f-4e7e-8f0a-d6e1a7d9b85c.jpeg",
         "location": "Kaski District",
         "readingTime": "3",
+        "snippet": "A Wintery Arrival at Base Camp",
         "stats": {
           "distance": {
             "label": "distance",
@@ -68122,19 +68066,14 @@ const data = [
       {
         "date": "November 4th, 2019",
         "description": [
-          "We awoke in the dark pre-dawn hours, stiff from sleeping on hard mattresses and in this cold world. After bundling up in all my layers I headed outside and started following the others as they headed towards the Annapurna mountain and to a large flat area above the refuges for optimal viewing.",
-          "I love seeing the sunrise in the mountains, and this one did not dissapoint. Not a cloud in the sky as it turned from dark blues to bright pinks. The mountains around us started to glow golden before we could see the sun rise. Their tips looked like they were on fire as the sun struck them and stirred up the snow at their peaks.",
-          "After being out there for over an hour we all headed back to the dining hall for a nice hot egg breakfast with hot cocoa. I had decided to go all the way back down to Chomrong today given that I had nearly gone all the way up to Basecamp in almost a single day. Folks that I had dinner with two days prior in Chomrong had said it only took them a day as well to come down from Basecamp.",
-          "The first part of the trail was slow going due to the snow that had fallen yesterday, and all of the compacted snow underneath that was now as slick as ice. Probably an hour later and I was out of the snow regions and heading through bushes and scraggly grasses, passing all of the things I had gone by yesterday.",
-          "I didn't take many pictures today as I raced down the trail. I was motivated partly by thinking of getting a nice room to myself again at the place I had stayed at previously in Chomrong, and their awesome pizza, but I was also partly motivated by the fact that there weren't many people coming down or up the trail today, and I had a slight semi-unrational fear of tigers that lived in the area.",
-          "Towards the end of the trail, before the big descent and ascent back up to Chromong, more people started to appear. I must have gotten a really early start, or was just way ahead of the others.",
-          "The descent wasn't so bad, a bit slow going given that I was starting to get low on energy, and my knees could use the break. I took a brief rest at the bottom before having to walk up the hundreds/thousands of stairs going up to the upper area of Chomrong.",
-          "As I went up there were some horses blocking the path that I went around, and then later on some scary looking bulls with big horns that didn't seem to give a second thought to me being on the trail, and kept marching down at full speed. I had a flashback to my scary cow encounter in Switzerland, and quickly jumped up on top of some large boulders as the bulls came walking through where I had been standing a moment ago.",
-          "Freshly full of andrenaline I continued up the stairs towards the places to stay. The place I had in mind didn't have any rooms available as it was now early afternoon, and so I continued on seeing what places looked welcoming. I found one a little higher up the stairs which wasn't fun to keep going up, but nevertheless I made it and got a room to myself on the second floor with a view of the valley below.",
-          "Turns out some of the people I had met at the dining hall in Basecamp yesterday were staying here as well, and I also befriended a father-daughter pair from England. We all ate dinner together (this place had pizza, but it sadly wasn't as good as the other place.), and talked about life in our different countries. The people from England had a non-London accent and it was really hard to understand them.",
-          "Tonight would be my last night on trail, and I was sad to be leaving the mountains behind and having to go back to Pokhara and the bustle of a crowded city."
+          "We woke in the pre-dawn hours, stiff from sleeping on hard mattresses in the cold, and quickly bundled up in all our layers. I joined the others as they headed toward a flat area above the refuges, perfect for watching the sunrise over Annapurna. The early morning stillness, paired with the crisp air, made the anticipation even more exciting.",
+          "Watching the sun rise was nothing short of magical. The sky shifted from deep blues to soft pinks, and the mountain peaks began to glow golden. The snow at the summits stirred in the light, creating the illusion that the mountaintops were on fire. I stayed for over an hour, completely captivated by the view.",
+          "After the sunrise, we headed back to the dining hall for a hot breakfast of eggs and cocoa. I planned to return all the way to Chomrong today, partly because I had already pushed almost to Basecamp in one long hike, and partly because I wanted the comfort of a good room. Others had told me it was possible to make the journey in a single day, so I felt confident in my plan.",
+          "The initial part of the trail was slow-going thanks to fresh snow and compacted ice. After about an hour, I was past the snow and moving through the bushes and sparse grasses I had passed the day before. I didn't take many pictures, focused on making good time and motivated by thoughts of a room to myself and some well-earned pizza. I also had a small, irrational fear of encountering tigers, which kept me alert as I moved.",
+          "Closer to Chomrong, more people began appearing on the trail, a sign that my early start had put me well ahead of others. The descent was manageable but tiring on my knees, and the final climb up hundreds of stairs to reach the village tested my legs. Along the way, horses blocked my path, and a pair of bulls with large horns rushed down the trail, prompting a quick leap onto a boulder. Heart racing, I continued to the top and finally found a welcoming place to stay with a view of the valley.",
+          "I enjoyed my final night on the trail in that room, reconnecting with some people I had met at Basecamp and befriending a father-daughter pair from England. We shared dinner and stories, laughing over cultural differences and accents. Despite the comfort and company, there was a tinge of sadness knowing tomorrow I would leave the mountains behind and return to the busy streets of Pokhara.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The final sunrise over Annapurna filled me with awe and a sense of closure. After a long day descending and climbing to Chomrong, I savored my last night in the mountains with new friends and a quiet view of the valley.",
         "gpx": [
           [
             28.530578,
@@ -69131,7 +69070,8 @@ const data = [
         "hasStats": true,
         "image": "2019/10/19/490d1db6-aaad-4ed3-9181-081ca318cd16.jpeg",
         "location": "Kaski District",
-        "readingTime": "4",
+        "readingTime": "3",
+        "snippet": "Last Sunrise on the Trail",
         "stats": {
           "distance": {
             "label": "distance",
@@ -69227,13 +69167,13 @@ const data = [
       {
         "date": "November 5th, 2019",
         "description": [
-          "Today would be a really short day. I set off early in the morning just after breakfast and began the mostly downward trail towards a jeep station where I would hitch a ride back to Pokhara. I did however enjoy a nice sunrise on my little private balcony.",
-          "Not many people were on this part of the trail today as I passed through several small groupings of teahouses and through bright green scenery. There were a few areas where I had to walk on a road, but luckily no vehicles came through. Lots of lovely trees in this area though.",
-          "I was making good time, now eager to get back to my stuff at the Hostel, and a hot shower. I had decided, last night, to book a different hostel that looked much nicer and that offered excursions such as paragliding.",
-          "The jeep station was a simple place that offered cold drinks and a shaded area with benches to wait at while a car arrived. I didn't have to wait long though. The journey back to Pokhara was split up into two parts: the first was the jeep ride down the rough mountain dirt road (the car was bouncing all over the place). We had to wait for a little bit at one point as crews worked to clear a fresh landslide. The second part of the journey came after the jeep went about halfway down the mountain, and was on paved roads. Here they pulled into a parking lot and I was transferred to a pre-paid taxi that took me the rest of the way down to Pokhara.",
-          "My adventure in the Himalayas was done. This was an amazing experience. I met some amazing friends that I keep in touch with, and had saw some amazing things. The world and culture of the Himalayas is very pleasant and relaxing. I wish I could keep doing this forever. And not to mention the near-death experience a few nights ago. This will go down as one of my favorite experiences and places, and maybe someday I'll work up the courage to come back and attempt the Everest Basecamp trek that is also very popular."
+          "The last day of my Himalayan adventure was short but peaceful. I set off just after breakfast, following a mostly downhill trail toward a jeep station that would take me back to Pokhara. Before leaving, I took a moment to enjoy the sunrise from my small private balcony, a quiet farewell to the mountains.",
+          "The trail was nearly empty today, passing through small clusters of teahouses and bright green scenery. A few sections required walking on the road, but thankfully no vehicles appeared. The area was dotted with beautiful trees, making the final stretch feel calm and serene.",
+          "I moved quickly, eager to reach my hostel and enjoy a long-awaited hot shower. The night before, I had booked a nicer hostel in Pokhara that also offered excursions such as paragliding, adding a touch of excitement to the end of the trip.",
+          "The jeep station was simple, with shaded benches and cold drinks while waiting. My ride down the mountain was in two parts: the first on a bumpy dirt road where we paused briefly for a landslide to be cleared, and the second on smoother, paved roads after a transfer to a pre-paid taxi. The journey reminded me how rugged yet beautiful the Himalayas can be.",
+          "As I settled back in Pokhara, I reflected on the journey. I met incredible people, witnessed breathtaking landscapes, and experienced moments of both challenge and awe, including a near-death scare. This trek will always remain one of my favorite adventures, and I hope someday to return for another unforgettable Himalayan experience, perhaps even the Everest Basecamp trek.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The final day of my trek brought a quiet descent through lush greenery and the thrill of a bumpy jeep ride back to Pokhara. Reflecting on the journey, I realized it had been one of the most unforgettable experiences of my life.",
         "gpx": [
           [
             28.418035,
@@ -70201,6 +70141,7 @@ const data = [
         "image": "2019/10/19/8fef1e6f-d483-445c-b19c-d47bb7f1fc68.jpeg",
         "location": "Kaski District",
         "readingTime": "2",
+        "snippet": "The Final Descent",
         "stats": {
           "distance": {
             "label": "distance",
@@ -70446,7 +70387,7 @@ const data = [
             {
               "link": "https://arcteryx.com/us/en/shop/bird-curved-brim-trucker-hat",
               "name": [
-                "Arc’teryx",
+                "Arc'teryx",
                 "Trucker Hat"
               ],
               "weight": 2.15
@@ -70687,21 +70628,14 @@ const data = [
       {
         "date": "August 31st, 2019",
         "description": [
-          "I had first learned about 14'ers (mountain peaks above 14,000 feet) from\nsomeone that I had met on the Tour du Mont Blanc thru-hike in 2018 who told me\nthat if I liked hiking in the mountains on the TMB (which I did) then I would\nalso like Colorado, a place I had never even thought of vacationing to. It would\ntake almost a year before I worked up the courage to go on a solo vacation in\nthe States and attempt to summit one.",
-          "After doing a good amount of research on what to bring with me while on the\ntrail to the summit, where to stay, and transportation logistics I booked my\nflights, reserved an AirBnb in Denver, and set out with mixed feelings. I was\nexcited to be going, but nervous since I didn't know what to expect from the\ntrail itself. This trip was also a test of my physical endurance to see how well\nmy body handled being above 10,000 feet, which is when Acute Mountain Sickness\n(or AMS) sets in, and it can definitely be a mood-killer, literally. If I\ncouldn't do this, then I would have to cancel my Annapurna trip that I had booked\nfor a couple of months from now, since those elevations go above 18,000 feet.",
-          "Of all the mountain peaks available, of which there are more than 50 above\n14,000 feet, I chose Mt. Elbert as my first. It was the tallest in the state of\nColorado, because I figured go big or go home right? If you're going to do it,\nmight as well do the biggest one first. I was too excited the night before doing\nit and I didn't get my sleep.",
-          "I left Denver around 2:00 am for the two and a half hour drive out to Mt. Elbert.\nThe roads were empty as I tuned into the only radio station that worked all the\nway there: an 80's retro station. I hadn't given much thought to the car that I\nhad rented, but it made it up and down and up the mountain highways. The road\nleading to the trailhead was full of potholes, some pretty deep, and it was a\nrough ride but the car made it.",
-          "It was about 4:30 am when I arrived at the trailhead. Thankfully I wasn't the\nonly one here, and several other people were gettign ready and heading out\nahead of me. The parking sure was filling up fast. Must be a popular trail.",
-          "I suited up, locked the car, and set out from the trailhead. Right away I could\ntell that I was going to be hurting by the end of this. The trail up through\nthe woods lasted about two hours before leaving the trees behind. It was rough,\nnot because of technicality, but because of the elevation. I had to stop often\nto catch my breath, and I was breathing very heavily. But no signs of AMS, so\nI kept going.",
-          "Worried about bears I kept checking left and right, and behind me,\na lot. I was alone in the dark for a good portion of it, and anytime I saw a\nheadlamp light in the distance I felt better knowing there were others nearby.",
-          "Luckily I made it above the treeline just in time to catch the sunrise. This\nwasn't my first time seeing a sunrise in the mountains, but it's still magical\nevery time. I enjoyed this peaceful moment for as long as I could, and snacked\non some protein bars.",
-          "The ascent ahead of me was going to be rough, and going to take a while. I knew\nthis peak had multiple false summits, but that didn't stop me from getting my\nhopes up everytime I thought I saw the top. As I went I had to stop every 30-60\nseconds in order to let my heartrate go down, and to catch my breath.",
-          "Even when I could see the true summit I had to pause before reaching it. I made\nit to the top around 10:00 am. This was my first time truly being very high up,\n and the 360˚ views did not dissapoint. I was overjoyed with having conquered\n this obstacle, and it was a great feeling to know that I could do it!",
-          " Sadly I didn't feel any kinship with anyone at the top as they were in their\n own groups, so I hung out for about 30 minutes as I ate my lunch I had put\n together the night before. By 10:30 am it was time to start heading down in\n order to avoid afternoon thunderstorms that people in online forums had\n warned about.",
-          " I could see the trail laid out ahead of me and it made me feel so small. Going\n through the trees once more wasn't the best part because I was so tired and\n hungry, and the trees seemed to last forever. It didn't seem this bad on the\n way up in the dark... Plus with the rising temperatures it was starting to feel\n much more stuffy and claustrophic while powering down the trail through these\n trees.",
-          " It would take about 4 hours before I got back to the car at the trailhead.\n Exhausted, I got in and prepared for the 2.5 hour drive back to Denver. I made\n pasta for dinner and then collapsed into bed.\n"
+          "I first learned about 14'ers, the mountain peaks that rise above 14,000 feet, from someone I met while hiking the Tour du Mont Blanc in 2018. They mentioned that if I enjoyed hiking the high trails of the TMB, I would love Colorado, a place I had never considered visiting. It took nearly a year before I finally worked up the courage to take a solo trip to the United States and attempt to summit one of these towering peaks.",
+          "After researching what to pack for the trail, where to stay, and how to manage transportation, I booked flights and reserved an Airbnb in Denver. Excitement mixed with nerves filled me as I prepared for the unknown. This trip was also a test of my body's endurance at high altitudes. I wanted to see how I would handle elevations above 10,000 feet, where Acute Mountain Sickness can make every step feel heavier than the last. Success on this hike was critical, as I had a planned trek in the Annapurna region just months away, where elevations rise above 18,000 feet.",
+          "I chose Mt. Elbert as my first summit. Being the tallest peak in Colorado, I figured I might as well start big. The night before the hike, my anticipation kept me awake, and I barely got any sleep. I left Denver at 2:00 am, driving the empty highways to the trailhead while listening to an 80's retro station. The road was rough with potholes, but the rental car managed it without trouble.",
+          "Arriving at the trailhead around 4:30 am, I was relieved to see other hikers preparing as well. The parking lot quickly filled, a testament to the trail's popularity. Once suited up, I started the ascent, immediately feeling the strain of the altitude. The forested trail lasted about two hours, and I had to stop frequently to catch my breath, though thankfully there were no signs of altitude sickness. I remained alert for bears, especially when I was alone in the dark, finding comfort whenever a distant headlamp appeared.",
+          "Breaking above the treeline in time for sunrise was a magical reward. I paused to savor the moment and eat a protein bar before continuing. The climb ahead included multiple false summits, and each glimpse of the peak forced me to stop repeatedly to regulate my breathing. Finally, around 10:00 am, I reached the true summit. The 360-degree views were breathtaking, and the sense of accomplishment was overwhelming. I lingered for thirty minutes to eat lunch and soak in the scenery before starting my descent to avoid the predicted afternoon thunderstorms.",
+          "The trail back through the trees felt longer and more exhausting than the ascent, with the rising heat making the forest feel stifling. After about four hours, I finally returned to the car. The drive back to Denver gave me a chance to reflect on the day, and a simple pasta dinner followed by collapsing into bed was the perfect ending to an unforgettable adventure.\n"
         ],
-        "excerpt": "",
+        "excerpt": "I tackled my first 14'er in Colorado with a mix of excitement and nerves, testing both my body and my courage at high altitude. Reaching the summit of Mt. Elbert rewarded me with stunning 360-degree views and a sense of achievement I will never forget.",
         "gpx": [
           [
             39.151636,
@@ -71698,7 +71632,8 @@ const data = [
         "hasStats": true,
         "image": "2019/08/31/52f1514b-91a4-494d-93df-6ae9c81df01c.jpeg",
         "location": "Sawatch Range",
-        "readingTime": "5",
+        "readingTime": "3",
+        "snippet": "Conquering My First 14'er",
         "stats": {
           "distance": {
             "label": "distance",
@@ -71795,19 +71730,14 @@ const data = [
       {
         "date": "September 1st, 2019",
         "description": [
-          "One day after completing my very first 14'er, and I was waking up once again\nduring the pre-dawn hours to set out to conquer another mountain peak. This\none was advertised as being not as long or as rough as Mt. Elbert, but knowing that\nI could do the biggest and baddest of the easier 14'ers made me feel more\nconfident about this one, but we shall see...",
-          "I parked on the road after driving for two and half hours and listening to that\n80's retro station. The trailhead started right from the edge of the road, so\nthere was no official parking lot for this one. It was 4:30 am in the morning.",
-          "Most of the trail in the woods was switchbacks, and a lot of the portions had\nstairs carved out of the rock. This made it somewhat easy to manage but that\nstill meant doing a lot of stair climbing, especially after being sore and tired\nfrom yesterdays hike.",
-          "There was a good amount of people on the trail this morning, and evenly spaced\nso that I was still hiking solo but could still the light from their headlamps.",
-          "By 6:00 am I was above the trees, and just in time. There was a beautiful\nsunrise and I am glad I got started as early as I did in order to be able to\nwitness it.",
-          "Tons of large cairns marked the trail and I always love a good cairn; it makes\nfor a good element in a photo. Most of the trail from the trailhead to just\nbelow the summit was rock-cut stairs, with the same amount of rise between steps\nas a staircase in a home would be, which actually ended up being pretty nice\nand made the ascent predictable in terms of pace.",
-          "I saw a lot of cute little critters that looked like tiny squirrels called\nPikas. They were chirping to eachother as they scurried over and under\nrocks looking for food.",
-          "At long last I could see the summit, and the singular flase summit in front of it.\nOnce on the ridge ot the summit the trail transitioned from stairs to scree-filled\npaths. There were still some snow patches here and there on the sides of the\ntrail. I made the summit by 8:00 am! Such a faster time than Mt. Elbert by nearly\ntwo hours.",
-          "As I stood there taking in the view and snapping photos of the surrounding area\npeople asked if I could take their picture for them, which was a good icebreaker!\nI ended up chatting with a bunch of people, and was even offered a free beer. I\nspent a good 30-45 minutes up there, and even had cell reception. Soon it would\nbe time to start heading back down though.",
-          "Me and one other person left at the same time, and they helped set a good pace\nwhile going down. At one point they were practically flying over the rocks, and\nI matched their style. It ended up being surprisingly easy given how well the\ntrail itself was maintained. I was worried about my knees, but the braces did\ntheir job. By 1:00 pm I was back down at the car.",
-          "This was such an amazing experience with an easy hike up, a great group of fun\nand social people, and of course a free beer. It really helped to salvage the\nwhole trip and turn it into a really positive experience. I would most\ndefinitely be coming back for more next year.\n"
+          "The morning after completing my first 14'er, I found myself waking up before dawn once again to tackle another peak. This one was known to be less strenuous than Mt. Elbert, but having conquered the tallest and most challenging of the \"easier\" 14'ers gave me confidence. I was still curious to see how my body would handle this fresh ascent.",
+          "After a two-and-a-half-hour drive listening to my trusty 80's retro station, I parked along the roadside near the trailhead. There was no official parking lot, just a small space where a few other early hikers had already gathered. The trail began immediately at the edge of the road, and by 4:30 am I was setting out under the dim light of my headlamp.",
+          "The trail wound through the woods in a series of switchbacks, many with stairs carved out of the rock. It made the climb more manageable, though my legs were still sore from the previous day's hike. Hikers were spaced evenly along the trail, allowing me to hike mostly solo while still feeling reassured by the distant glimmers of their headlamps.",
+          "By 6:00 am, I emerged above the treeline just in time for a stunning sunrise. The trail from the trees to the summit was marked with large cairns, which added a fun element for photographs. Most of the path consisted of rock-cut stairs, spaced like regular steps, which made the pace predictable. Along the way, I spotted small chirping Pikas scurrying among the rocks, a delightful reminder of the wildlife thriving at these elevations.",
+          "The ridge leading to the summit shifted from stairs to a scree-filled path, with occasional snow patches along the sides. Despite this, I reached the summit by 8:00 am, nearly two hours faster than my Mt. Elbert climb. At the top, I enjoyed the views, snapped photos, and even chatted with fellow hikers, who offered a free beer and good company. Descending with another hiker helped me maintain a steady pace over the well-maintained trail. My knees held up thanks to my braces, and by 1:00 pm I was back at the car, tired but elated.",
+          "This hike was a perfect contrast to my first 14'er: easier, social, and immensely rewarding. The combination of a manageable trail, friendly fellow hikers, and even a free beer made it one of the most positive experiences of the trip. I left knowing I would be returning next year to explore even more of Colorado's majestic peaks.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The second 14'er of my Colorado trip was easier but just as rewarding, with a stunning sunrise and playful Pikas along the trail. Reaching the summit quickly allowed me to enjoy new friendships, breathtaking views, and even a free beer at the top.",
         "gpx": [
           [
             39.385351,
@@ -72310,6 +72240,7 @@ const data = [
         "image": "2019/09/01/08d28c7e-387b-418f-8226-b2a87485f1d8.jpeg",
         "location": "Tenmile Range",
         "readingTime": "3",
+        "snippet": "A Smooth Summit",
         "stats": {
           "distance": {
             "label": "distance",
@@ -72406,20 +72337,14 @@ const data = [
       {
         "date": "September 4th, 2020",
         "description": [
-          "My second year coming to Colorado to hike mountain peaks above 14,000 feet, and\nthis time I opted to camp at or near the trailheads of all of the hikes that I\nplanned on doing, so that I wouldn't have to wake up at 1:00 am to drive 3 hours\nto the starting point. Instead I could wake up at 4:00 am to drive 10 minutes.",
-          "For my first 14'er of the year I chose La Plata Peak, named after the numerous\nsilver mines in the area. It wasn't a very long out-and-back trail, but it was\na more technically difficult trail than the two I had done last year. For those\nwho may not know, the different trails that go up to the peaks of mountains\nare given classifications, with 1 being the eastiest, and 5 the hardest. The\ntwo peaks I did last year in Colorado were 1's, while La Plata was more of a 2.",
-          "I wild camped about 1.5 miles from the trailhead, down a country road off of the\ncounty highway. I was alone in this area, and the next closest human was\nprobably further down the country road at another wild camping site. But for me,\nwhere I was, it was dead silent. This would be my first time doing something\nlike this, and I was definitely nervous.",
-          "After a restless night of sleeping (I was on a slight incline but was too tired\nto re-setup the tent) I woke around 3:30 am in order to pack up camp, and\ndrive to the trail head. It was quiet last night, only the sound of the rushing\nwater from the nearby river provided any sort of ambient background noise. I had\ndinner while looking out of the mountain I was now going to attempt to summit.",
-          "I prepared some oatmeal at the trailhead in the trunk of the SUV that I had\nrented for this trip. There were about 10 other cars in the parking lot, but\nI didn't see many people on the trail, at least not until the summit.",
-          "Yet another long trek through a thick forest to start the day. It took about 2\nhours to get through the trees, and when the terrain finally opened up I was\ngreeted with a wall of rock in front of me that was criss-crosed by a ton of\nswitchbacks. I knew I wasn't going to make it up high enough to watch the\nsunrise, so I didn't push myself too hard as I went up.",
-          "As I got higher the pink light from the sunrise lit up the mountain tops and it\nlooked like they were covered in snow, but it was early September so this was\nonly an illusion. I may have missed the sunrise but I was able to watch it pour\nover the mountain peaks nearby.",
-          "The view from the top of the switchbacks was very nice, I could start to make\nout different peaks around me instead of being blinded by thick forests. Now\nI began hiking up a saddle ridge towards the col at the base of the summit. I\nsaw lots of new plants that looked strange to me, but I'm sure were plentiful\nat these alpine altitudes.",
-          "Earlier I said that there couldn't be any snow at the peaks, but there definitely\nwas some on the ridge I was hiking, albeit hidden in permanent shadow. Far below,\nand in the distance, I spotted a lovely little mountain lake. I don't know why,\nbut I just love how they contrast for rocky world around them.",
-          "I made it to the summit by noon, which meant about 6 hours on trail so far. Here\nwere all of the people whos cars were in the parking lot, meaning it was a\ncrowded summit. I lingered for a little bit, eating some food, and taking\npictures, but much like Mt. Elbert I was feeling any sort of socialness from\nthe other people up here so I packed up my things are started my journey down,\nplanning on it taking close to 4 hours to complete.",
-          "Unfortunately on the way down I ran out of water, and had to hike without a\nrefill for nearly 2 hours before I came to a river back in the forest. I refilled\nmy water bottles, but couldn't drink it because I thought I had left the filter\nin the car. Turns out, I was wrong, and I had the filter the entire time. Believe\nme I chugged a ton of water when I got back to the car.",
-          "I snacked, changed into fresh clothes, and on my way out of the area I found\na much larger river where I could stop and fill up again. I booked a last-minute\ncampground spot on the way, and got a good nights sleep.\n"
+          "For my second year hiking Colorado's 14'ers, I decided to camp near the trailheads. This way, I could wake up at 4:00 am instead of 1:00 am and drive three hours. Just ten minutes to the start felt like a luxury after last year's early mornings.",
+          "My first peak of the trip was La Plata Peak, named after the area's numerous silver mines. The trail wasn't particularly long, but it was technically more challenging than the hikes I completed the previous year. The trails are classified from 1 to 5, with 1 being the easiest. Mt. Elbert and the second 14'er I climbed last year were 1's, while La Plata rated as a 2.",
+          "I set up a wild camp about a mile and a half from the trailhead. I was completely alone, surrounded by silence except for the sound of a nearby river. Sleeping on a slight incline made the night restless, but I woke around 3:30 am, packed up, and drove the short distance to the trailhead. I cooked a quick breakfast in the trunk of my rental SUV, noticing about ten other cars but few hikers on the trail.",
+          "The climb started with two hours through thick forest before opening to a rocky wall crisscrossed with switchbacks. I didn't try to reach the sunrise point, but the morning light painted the surrounding peaks pink, making them look snow-covered even in early September. Emerging above the trees, I could see neighboring peaks and began hiking a saddle ridge toward the summit, spotting strange alpine plants and hidden patches of snow. Far below, a small mountain lake shimmered, a beautiful contrast against the rocky landscape.",
+          "I reached the summit around noon after about six hours on the trail. It was more crowded than I expected, with hikers whose cars I had seen in the parking lot. I lingered briefly to eat and take photos, but like on Mt. Elbert, social interaction was limited, so I headed back down. The descent took longer than planned when I ran out of water for nearly two hours before reaching a river. Luckily, I realized I had my filter the whole time and could safely drink. I ended the day with a fresh change of clothes, a quick stop at a larger river to refill, and a restful night at a last-minute campground.",
+          "Camping close to the trailhead made this experience feel more relaxed than my previous Colorado hikes. Despite the technical challenges of La Plata Peak, the combination of solitude, alpine scenery, and personal accomplishment made it a memorable adventure. I left the mountains feeling energized and ready for the next peak.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Camping near the trailhead made La Plata Peak feel more approachable despite its technical challenges. Hiking six hours to the summit rewarded me with alpine scenery, hidden snow patches, and a peaceful sense of solitude.",
         "gpx": [
           [
             39.067535,
@@ -73416,7 +73341,8 @@ const data = [
         "hasStats": true,
         "image": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
         "location": "Sawatch Range",
-        "readingTime": "5",
+        "readingTime": "3",
+        "snippet": "Wild Camping and La Plata Peak",
         "stats": {
           "distance": {
             "label": "distance",
@@ -73513,14 +73439,13 @@ const data = [
       {
         "date": "September 5th, 2020",
         "description": [
-          "For my second hike of this trip out to Colorado I chose an easier summit, Mt.\nBierstadt, and a later starting time of 6:00 am (partly because I had to drive\nan hour from the campground to it). This was another class 1 route, with a\nlot of scrambling over boulders near the summit, but nothing too crazy. The most\nunique thing about this 14'er was the massive and paved parking lot, which was\nalready overflowing by the time I showed up at 6am.",
-          "The trail was very crowded already, but that's what you get for choosing a peak\nthat is really close to a major city and has a paved road all the way to the\nparking lot. Makes it an easy day-hike for the locals.",
-          "It was a nice flat trail for the first hour or so, through prairies filled\nwith bushes, along small lakes and streams. There was even a board walk for\nthe first little bit so that you wouldn't disturb the local vegetation, and\nto make it easier to cross the many streams. I really enjoyed the start to this\ntrail, it was very idyllic and I took lots of photos of it.",
-          "Once the trail reached the base of the mountain, it turned into switchbacks all\nthe way to the boulders near the top. The total elevation gain was somewhere in\nthe 2,000's, and by 10:30 am I was already at the top. Wow, such an easy climb!",
-          "I made some friends at the top, but the peak started to get crowded fast as more\nand more people showed up, so I didn't stay long. There was some minor scrambling\non the way down, and wayfinding was a little rough but I generally follow other\npeople in this situation. It was an easy and fast descent back to the car, and\na good thing too because it was starting to get really hot out.",
-          "I really enjoyed this hike, and the area. The Colorado plains and skies, the colors\nare just amazing.\n"
+          "For the second hike of my Colorado trip, I chose an easier summit, Mt. Bierstadt, and planned a later start at 6:00 am since I had to drive about an hour from my campground. This class 1 route involved some scrambling over boulders near the summit, but nothing too challenging. One of the most striking features of this 14'er was the massive paved parking lot, which was already overflowing by the time I arrived.",
+          "The trail was crowded, but that's to be expected for a peak so close to a major city with easy access. The first hour of the hike was pleasantly flat, winding through prairies dotted with bushes, small lakes, and streams. A boardwalk at the start made crossing streams simple while protecting the local vegetation. I loved this section and paused often to take photos of the idyllic landscape.",
+          "Once I reached the base of the mountain, the trail turned into switchbacks leading to the boulder-strewn top. With total elevation gain in the 2,000-foot range, I reached the summit by 10:30 am. It was a surprisingly quick and easy climb compared to some of the other peaks I had tackled.",
+          "At the top, I met a few fellow hikers and enjoyed the views, though the summit quickly filled with more people arriving. The descent required minor scrambling and some wayfinding, but following other hikers made it straightforward. The trail was fast and easy, a relief as the temperature started rising.",
+          "Mt. Bierstadt offered a very different experience from my other hikes. The combination of open prairie, alpine lakes, boulder scrambling, and wide-open skies made it a beautiful and accessible day hike. I left feeling refreshed and grateful for the simpler side of Colorado's 14'er adventures.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Mt. Bierstadt was an easier 14'er with beautiful prairies, alpine lakes, and boulder scrambling near the summit. The quick climb and wide-open Colorado skies made it an unforgettable and relaxing day hike.",
         "gpx": [
           [
             39.596411,
@@ -74518,6 +74443,7 @@ const data = [
         "image": "2020/09/05/54a89ed8-86d4-4918-b7b3-b883ecea72c8.jpeg",
         "location": "Front Range",
         "readingTime": "2",
+        "snippet": "Bierstadt Made Easy",
         "stats": {
           "distance": {
             "label": "distance",
@@ -74614,17 +74540,13 @@ const data = [
       {
         "date": "September 6th, 2020",
         "description": [
-          "Today would be my last 14'er of the trip to Colorado this year, and I chose\nanother popular one in the hopes that I would strike up some friendly conversations\nwhile camping at the trailhead, or whilst at the top. Another reason I chose\nthis particular peak was because the trail started above the treeline! That means\nnot spending two hours hiking through forests, a dream!",
-          "And sure enough I befriended two women who were camping nearby, in hammocks\nnonetheless. We ate dinner together and hung out for a bit. I would see them\nthe next day near the peak, but this ws the only interaction we would have.",
-          "This was the third peak in as many days, and I was tired. Grays is part of a\ncommon combination route called Grays and Torreys, where you go down a saddle\nridge from the summit of Grays, and then head up to the summit of Torreys, and\nthen come back the way you came. I ended up only doing Grays due to how tired\nI was.",
-          "I started the trail around 4:30 am, and the initial path across the river near\nthe trailhead went through a valley shaped like an elongated bowl, although\nI would be able to see this until on the way back down give that it was still\nthe pre-dawn hours.",
-          "Given the gently ascending trail and starting at a high altitude to begin with,\nI was already pretty high up after a short amount of time. I paused just in time\nto see a red sun rise over the mountain ridges in the distance, one of my\nall-time favorite things. The trail was starting to get crowded as I continued on.",
-          "About 2 and half hours into the trail and I began the ascent to the summit. It\nwas starting to get more steep here, which meant having to take more breaks due\nto my poor beating heart. I'm based in Chicago, so going from sea-level to\n14,000 feet does a number on my body.",
-          "Lovely pink skies illuminated the world around me as I ascended up and up.",
-          "I arrived at the summit by 8:30 am, not bad. Great 360˚ views all around, as\nusual! I made some friends at the top as we huddled behind a rock wall due to the\nextremely high winds that had picked up within the last half hour. I took a look\nout over the trail I had just hiked. What a view, I just love hiking above\nthe trees!",
-          "Everything is so much more green on the way down now that hte sun is up. By\n12:00 pm I get back to the car I left parked at the trailhead, and am ready to\ngo back to another proper campground and reflect on this long weekend of hikes.\n"
+          "For my final 14'er of this Colorado trip, I chose Grays Peak, a popular summit that begins above the treeline. This meant skipping the two-hour forest slog I had endured on previous hikes, which was a welcome change. I also hoped this peak would provide an opportunity to meet fellow hikers and campers along the way.",
+          "The night before, I met two women camping nearby in hammocks. We shared dinner and conversation, and although our paths would briefly cross again near the summit, this was the only time we connected. After three consecutive days of hiking, I was exhausted, so I opted to climb only Grays instead of combining it with Torreys as part of the common saddle route.",
+          "I started the trail around 4:30 am. The initial section followed a gently ascending valley along a river, which I could fully appreciate only on the way back down. The high starting altitude meant I was already quite elevated after a short hike. Pausing at just the right moment, I watched a red sun rise over the distant ridges, a sight that remains one of my favorite memories. The trail gradually became busier as more hikers began their climbs.",
+          "About two and a half hours in, the trail steepened toward the summit, forcing frequent breaks as my heart adjusted to the high altitude. The pink light of the sunrise bathed the landscape in a magical glow, making every pause worthwhile. By 8:30 am, I reached the summit and was rewarded with breathtaking 360-degree views. High winds prompted me to huddle behind a rock wall with some new friends, giving us a chance to admire the trail I had just conquered from above.",
+          "The descent was a joy as the sunlight brought out the greens of the alpine vegetation. By noon, I returned to my car and headed to a nearby campground, reflecting on an unforgettable long weekend of hikes. Grays Peak offered the perfect combination of challenging altitude, scenic views, and the unique pleasure of hiking entirely above the trees.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Grays Peak was a stunning finale to my Colorado 14'er trip, with the entire hike starting above the treeline. The sunrise, 360-degree summit views, and alpine landscapes made it a magical way to end the weekend.",
         "gpx": [
           [
             39.660608,
@@ -75621,7 +75543,8 @@ const data = [
         "hasStats": true,
         "image": "2020/09/06/80307849-8964-4e0d-a70f-f6371ca7fcad.jpeg",
         "location": "Front Range",
-        "readingTime": "3",
+        "readingTime": "2",
+        "snippet": "Summit Finale: Grays Peak",
         "stats": {
           "distance": {
             "label": "distance",
@@ -75717,18 +75640,13 @@ const data = [
       {
         "date": "September 7th, 2021",
         "description": [
-          "My partner wanted to join me on my (new) yearly tradition of going to Colorado\nin September and make a big trip out of it since she had family in the state.\nAfter spending a week with them it was time for us to head into the mountains\nand hike some mountain peaks! We (read I) chose Mt. Shavano as our first peak\nto do together. It was another easy Class 2 trail, but it had a lot of elevation\ngain, somewhere in the area of 4,500 feet.",
-          "We camped at the trailhead in my small Duplex Zpacks backpacking tent. It is\ntechnically meant for two people, but our air mattresses were pushing the sides\nout and it was a cramped fit. It might be time to upgrade to a tent that is\nactually meant for two people. As a result though we didn't get much sleep, and\nwere eager to get and get going as soon as possible. By 5:00 am we were on the\ntrail.",
-          "After a short, flat, part of the trail that shared some trail with the\nColorado Trail, we started to ascend over rocks and big tree roots. We passed by\nsome small water sources on the way up, and probably should have stopped and\nchugged some water and then refilled our water bottles, but we didn't.",
-          "About two and a half hours later and we were above the trees, and taking in the\nviews of the area. Since this was my partners first time being above 9,000 feet,\nwe took it slow, watching for signs of AMS. As a result we took lots of small\nbreaks, each of us huffing and puffing though given that this was the first one\nin over a year for me, and thanks to COVID-19 I wasn't able to go on a thru-hike\nover the summer. Two hours later and we're past the tree line, usually it\ndoesn't take this long.",
-          "We saw maybe three people on the entire trail all day, but that makes sense\nsince we were out here on a Tuesday, a week after a holiday weekend. There was\nlittle to no vegetation, not even weird looking plants, as we ascended up the\nmostly rocky mountain sides.",
-          "At this point we were starting to run low on water, given that the ascent so far\nhad taken longer than it normally does. We reached the col between two mountains\nand the summit trail after another hour. Time to begin the march to the summit.",
-          "About halfway up the summit we took a break. While we were snacking someone\nwas coming down from the summit and they told us that the view wasn't worth the\nrisk and trickyness of the summit, so after they left we decided to turn back\nearly, partly due to that warning but also the fact that we had mere drops of\nwater remaining in our bottles.",
-          "Our spirits started to drop rapidly as we went down the trail. The lack of\nwater made it doubly rough thanks to the rising heat from the sun blasting\ndown on us. After struggling for nearly three hours, and having practically\nzero energy thanks to the heavy amounts of dehyrdation we were experiencing, we\nfinally made it down into the trees, and were maybe an hour from the car. Here\nwe came upon the smallest of water trickles coming out from between two rocks,\nand nearly sunk to our knees in joy. We busted out our water filters, and drank\nso much water.",
-          "Bodies rehydrated, we continued making our way to the car. The rest of the way\ndown wasn't too bad, and was only a little tricky when we got back to the rocks\nand roots section at the beginning.",
-          "We were happy to be alive and back at the car finally. This was the roughest and\nlongest 14'er to date. The lack of water resources on the trail really made it\ndoubly rough.\n"
+          "This year, my partner joined me for my new September tradition of hiking Colorado 14'ers, turning it into a bigger adventure since she had family in the state. After spending a week visiting them, we headed into the mountains to tackle our first peak together: Mt. Shavano. It was a Class 2 trail with significant elevation gain of around 4,500 feet, making it challenging but manageable.",
+          "We camped at the trailhead in my small Duplex Zpacks tent. Technically designed for two, it felt cramped with our air mattresses, which meant a restless night and little sleep. Despite that, we were eager to get going and hit the trail by 5:00 am. The early stretch was flat, sharing some trail with the Colorado Trail, before ascending over rocks and tree roots. Small water sources dotted the way, though we didn't stop to refill, which would later prove a mistake.",
+          "After two and a half hours, we emerged above the trees and paused to take in the stunning views. Since this was my partner's first time above 9,000 feet, we proceeded slowly, watching for any signs of altitude sickness and taking frequent breaks. The ascent beyond the treeline took longer than usual, partly due to COVID-related fitness setbacks and the need to acclimatize. We saw maybe three other hikers all day, which made the experience feel very solitary.",
+          "As we approached the col between peaks, we began the final push toward the summit. About halfway up, we stopped to snack and catch our breath. A hiker descending warned us that the summit views weren't worth the tricky conditions, and with our water nearly gone, we decided to turn back. The descent was exhausting. The sun beat down, and our dehydration made each step feel heavier than the last. Nearly three hours later, we stumbled across the smallest trickle of water between rocks. The relief of rehydrating after hours without water was indescribable.",
+          "Once back at the car, we reflected on the day. Mt. Shavano had been the toughest and longest 14'er we'd done to date. The lack of water on the trail and the tricky summit conditions turned it into a serious challenge, but it was also a memorable adventure. We left grateful for our safety, our perseverance, and the experience of tackling the mountain together.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Mt. Shavano Challenge",
         "gpx": [
           [
             38.596969,
@@ -76725,7 +76643,8 @@ const data = [
         "hasStats": true,
         "image": "2021/09/07/fbe767d5-63c6-4af7-8643-ceef9b4cce92.jpeg",
         "location": "Sawatch Range",
-        "readingTime": "4",
+        "readingTime": "2",
+        "snippet": "Mt. Shavano tested our limits with a long, hot ascent and scarce water sources, making it the toughest 14'er yet. Despite turning back before the summit, the experience was unforgettable and full of lessons about preparation and perseverance.",
         "stats": {
           "distance": {
             "label": "distance",
@@ -76822,17 +76741,13 @@ const data = [
       {
         "date": "September 9th, 2021",
         "description": [
-          "After our experience on Mt. Shavano, we made sure to carry as much water as\nhumanly possible for our attempt of the DeCaLiBro-n combination route two\ndays later. The name comes from the four peaks above 14,000 feet that are all\nconnected via ridges, and thus do-able in a single day. The names are [De]mocrat,\n[Ca]meron, [Li]ncoln, and [Bro]ss. That last one is technically off-limits to\nthe public and is private land, so we didn't attempt to do it.",
-          "One good thing about this trail is that there's only about 2,000 feet of\nelevation gain from the trailhead at Kite Lake to the first peak, since we're\nstarting at 12,000 feet. We spent the night at the trailhead parking lot,\nsleeping in the car, in order to get somewhat acclimated to the elevation. It's\nnot easy starting at 12,000 feet unless you are acclimated.",
-          "A lovely pink sunrise greeted us as we set out at around 7:00 am. No need for\na pre-dawn start since we didn't have much gain to make. The trail started off\nnice and gentle, and then started to climb via switchbacks as we got closer\nto the col at the base of the first peak.",
-          "There were lots of old mining building materials lying around, mostly rusting\npieces of metal that had stained the rocks around them, and some old mine\nentrances that were now caved in.",
-          "And did I mention that it was another hike without trees! You can see anything\nyou want at any given time, and see as far as the mountains will let you. And\nyou can see how far you have to go on the trail, which is always nice. Case-in-\npoint the views of Kite Lake did not dissapoint (it definitely looks like a\nkite).",
-          "We stopped and rested here and there. It wasn't too bad of a trail, and the\nconditions weren't as bad as Mt. Shavano from a couple of days ago. Especially\nsince we were each carrying an extra liter of water this time. And by 9am we\nwere at the col below the first summit: Democrat. Less than an hour later and\nwe made the summit. After some pictures it was time to head back down to the col,\nand start the next summit: Cameron.",
-          "There was a lot of loose rock on the way over to Cameron, but we made it about\n1.5 hours later. We looked out and back on the trail, and out at the summit of\nDemocrat. Our spirits were definitely very high at this point! Two down, one to\ngo. Cameron was sort of shaped like a dome, which meant the trail down towards\nour next one, Lincoln, was a gentle slope.",
-          "Lincoln wasn't all that bad either, just some minor scrambling just below the\ntippity-top, with a long flat section in the middle between the two peaks. We\nmade the last summit by 12:30 pm. From here we could nearly see the entire trail\nfrom start to finish. Looking back at Cameron from Lincoln makes Cameron look\nlike a floating rocky island in the sky.",
-          "Time to head back down, back the way we came, up and over Cameron, and then back\ndown the col below Democrat, and then the switchbacks back down to Kite Lake. We\npractically raced down the trail, eager to get back to the car and call this a\nvery big win!\n"
+          "After our challenging experience on Mt. Shavano, we made sure to carry as much water as possible for our attempt at the DeCaLiBro-n combination route two days later. This route connects four 14,000-foot peaks: Democrat, Cameron, Lincoln, and Bross via ridges, making it theoretically doable in a single day. We skipped Bross since it's on private land, sticking with the first three summits instead.",
+          "The trailhead at Kite Lake starts at 12,000 feet, which made the 2,000 feet of elevation gain to the first peak feel easier. We spent the night in the car to acclimate, knowing that starting at high altitude without preparation can be tough. A pink sunrise greeted us as we set out at 7:00 am. The trail began gently, then climbed via switchbacks toward the col at the base of the first peak.",
+          "Old mining remnants dotted the landscape, including rusted metal and collapsed mine entrances, adding a touch of history to the hike. The absence of trees allowed panoramic views at every turn. Kite Lake below looked exactly like a kite, a reminder of just how far we could see and how far we still had to go.",
+          "We reached Democrat first, summiting in under an hour from the col. After a brief rest and photos, we crossed loose rock to reach Cameron about 1.5 hours later. Its dome shape made the next stretch toward Lincoln a gentle slope. Lincoln required minor scrambling near the top, with a long flat section in the middle between peaks. By 12:30 pm, we had completed all three summits, able to see nearly the entire trail from Lincoln. Looking back, Cameron appeared as a floating rocky island in the sky, a surreal perspective.",
+          "The descent followed the same route, back over Cameron and Democrat to Kite Lake. We practically raced down, exhilarated and exhausted from completing such an epic route. Compared to Mt. Shavano, this hike felt smoother and more rewarding. Finishing the DeCaLiBro-n combination left us with a huge sense of accomplishment and memories of a truly spectacular alpine day.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The DeCaLiBro-n route connected three 14,000-foot peaks in a single day, offering sweeping views and thrilling ridges. Completing Democrat, Cameron, and Lincoln left us exhausted but exhilarated, a true alpine adventure.",
         "gpx": [
           [
             39.329882729798555,
@@ -77829,7 +77744,8 @@ const data = [
         "hasStats": true,
         "image": "2021/09/09/8e1e0c1f-c391-4bc0-807c-7bdd8d20815b.jpeg",
         "location": "Mosquito Range",
-        "readingTime": "3",
+        "readingTime": "2",
+        "snippet": "DeCaLiBro-n Adventure",
         "stats": {
           "distance": {
             "label": "distance",
@@ -77925,19 +77841,13 @@ const data = [
       {
         "date": "September 9th, 2022",
         "description": [
-          "Back in Colorado for my fourth year in a row! This time I decided to start the\ntrip off with a hike up Mt. Belford, a peak with 4,500 feet of gain over a\ndistance of four miles. Quite a bit of gain over a relatively short distance,\nand it would end up kicking my butt. I think I struggled the most on this peak,\nout of all the peaks I've done solo, including my first one of Mt. Elbert.",
-          "There was plenty of space in the parking lot when I arrived at 6am, and there\nwould maybe be three other people on the trail in the morning, but more would\nstart to arrive later on, and I would run into them on the way down.",
-          "The trail started off very steep, but that makes sense due to the short distance\nand large gain: roughly 1,000 feet per mile. I had to stop a lot early on in\norder to catch my breath. It continued like this for maybe an hour or so as I\nmade my way through the thick forests.",
-          "A few random stream crossings here and there, each with a bridge made up of\nfallen tree trunks laid across them. There were some grassy clearings mixed in\namongst the trees, allowing for some breathing room and the chance to actually\nget a look ahead on the trail. Eventually the thick forests gave way to small\nconifer trees, and more open spaces. On the way there are the ruins of an old\ncabin, and I love exploring old abandoned things.",
-          "After two and a half hours I was above the treeline, but still in the shade of\nthe mountains around me while walking through the valley between them due to\ntheir steep sides. By now though I can see far ahead on the trail, with some\nlovely views all around me. And by now the path wasn't that bad actually: it was\nmostly flat for a good long while.",
-          "Maybe an hour later and it was time to start ascending the sides of the valley\nand begin gaining on the mountain itself. The sun was slowly approaching over\nthe top of the mountains. An hour later, and now four hours into the hike, and\nI am finlly high enough up to see other peaks around me. The skies are a nice\ndeep blue with small white clouds.",
-          "Five hours in and I am now up on the ridge between mountain peaks, with the\ntrail to the summit in sight! 45 minutes later and I am at the summit. There's\na couple of other people there who were coming/going and continuing along the\ntrail since it's part of a combo route. I opted for just the single peak this\ntime.",
-          "It was windy and chilly at the top, as it usually is in this area. I\nfound the elevation marker left by the USGS, and snapped some photos of my\naccomplishment. Boy was I tired, but I knew I had a long way to go on my way\nback down, and there were dark clouds starting to form in the distance.",
-          "Speaking of being tired, I slipped on some lose scree right as I started to\nmake my way down, and had some nice cuts and scrapes, but nothing a bandaid and\nhand sanitizer couldn't handle. I brushed myself off and pushed on.",
-          "I didn't take any photos on the way down. I was too eager to get back to the car,\nand away from any possible afternoon storms. There were some other people coming\nup as I went down, but for the most part I was alone, which is nice sometimes.\nI finally made it back to the car three and a half hours later.",
-          "What a rough peak to do on day one!\n"
+          "Returning to Colorado for my fourth year in a row, I decided to start the trip with Mt. Belford, a peak with 4,500 feet of elevation gain over just four miles. The steepness promised a tough day, and it quickly became clear this would be one of the most physically demanding peaks I'd tackled solo, even compared to my first summit on Mt. Elbert.",
+          "I arrived at the parking lot around 6:00 am and was greeted by empty spaces, with only a few other hikers beginning their day. The trail started immediately steep, climbing roughly 1,000 feet per mile. I stopped often in the early stretch to catch my breath, winding through thick forests punctuated by stream crossings with bridges made from fallen logs. Grassy clearings appeared here and there, providing a chance to pause and look ahead at the trail. The ruins of an old cabin added a little intrigue to the route.",
+          "After two and a half hours, I emerged above the treeline, walking through a valley shaded by the surrounding mountains. The trail eased for a while, allowing me to regain my stamina and enjoy the views of the peaks around me. Eventually, it was time to start ascending the valley's sides, and four hours in, I finally gained a vantage point over other mountains in the distance. The deep blue sky and scattered white clouds made the long effort feel worth it.",
+          "Five hours into the hike, I reached the ridge with the summit in sight. Forty-five minutes later, I arrived at the top. A few other hikers passed by, continuing along a combination route, but I focused on just the single peak. The wind and chill at the summit were sharp, yet the exhilaration of reaching the USGS elevation marker made all the effort worthwhile.",
+          "The descent was just as challenging. I slipped on loose scree early on, earning a few cuts and scrapes, but nothing serious. Dark clouds loomed in the distance, so I kept moving steadily, avoiding photos and distractions. After three and a half hours, I returned to the car exhausted but relieved. Mt. Belford was a brutal day-one peak, but it set the tone for the rest of the trip and reminded me why Colorado's 14'ers are so unforgettable.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Mt. Belford was a tough introduction to this year's Colorado 14'ers, with steep climbs and long stretches above the treeline. Despite scrapes and exhaustion, reaching the summit left me exhilarated and ready for the adventures ahead.",
         "gpx": [
           [
             38.996571907773614,
@@ -78934,7 +78844,8 @@ const data = [
         "hasStats": true,
         "image": "2022/09/09/f722df6c-2869-4ff0-80f7-37014241e135.jpeg",
         "location": "Sawatch Range",
-        "readingTime": "4",
+        "readingTime": "2",
+        "snippet": "Braving Mt. Belford",
         "stats": {
           "distance": {
             "label": "distance",
@@ -79031,15 +78942,13 @@ const data = [
       {
         "date": "September 11th, 2022",
         "description": [
-          "Mount Massive (Arapaho: Hiwoxuu hookuhu'ee) is the second-highest summit of the Rocky Mountains in Colorado. It is located in the San Isabel National Forest, near the city of Leadville. Mount Massive edges out the next highest summit by a mere 2 feet, and falls short of Mount Elbert (the tallest in Colorado) by 14 feet. It ranks as the third-highest peak in the contiguous United States after Mount Whitney and Mount Elbert.",
-          "The initial ascent on this trail is easy, and it was tempting to take it at a fast pace, but summitting mountain peaks is more of a marathon than a sprint. The beginning of the trail had a misleading directional marker, and I had to bushwhack my way back onto the trail.",
-          "I made great time and got above the treeline after roughly two hours.",
-          "After crossing over grassy slopes the trail starts to ascend up several switchbacks, getting higher and higher. The switchbacks level out and transition into a gradually sloping, but ever increasing, path towards the upper elevations made up of larger and then smaller rocks.",
-          "Four hours into the trail and now it is starting to climb up to the summit. It's a bit tricky at this point: there are lots of parts to climb and maneuver around, some of them with big drop offs to either side, and frequent breaks are needed.",
-          "Mt. Elbert is visible in the distance. The final stretch to the peak is along a cold and windy mile-long ridge.",
-          "The descent on this mountain is much easier than the ascent, the way down much more clear than on the way up. It doesn't take long to get back to the treeline, but it felt like it took forever to get through those trees and back to the parking lot.\n"
+          "Mount Massive, the second-highest summit in Colorado, is just a few feet shy of Mount Elbert and ranks as the third-highest peak in the contiguous United States. Located in the San Isabel National Forest near Leadville, it offers a mix of grassy slopes, rocky ridges, and sweeping views of the surrounding Rockies. I had been anticipating this hike for a while, knowing the trail would challenge both endurance and focus.",
+          "The beginning of the trail is deceptively easy, tempting hikers to move quickly, but summiting a 14'er is more like running a marathon than a sprint. I had a small navigational hiccup early on, with a misleading marker forcing me to bushwhack briefly before rejoining the correct path. Once back on track, I moved steadily, reaching the treeline after roughly two hours.",
+          "Crossing over grassy slopes, the trail gradually climbed into switchbacks that gained elevation quickly. Eventually, the path transitioned into a rocky approach, requiring careful footing as the rocks grew larger and more frequent. By the four-hour mark, I reached the steeper section leading to the summit. Some parts were tricky, with steep drop-offs and the need for frequent breaks to catch my breath.",
+          "From this vantage point, Mount Elbert was visible in the distance, a reminder of the peaks that define Colorado. The final stretch to the summit followed a cold, windy, mile-long ridge. Reaching the top brought a mix of exhilaration and relief, a reward for the hours of steady ascent.",
+          "Descending was much easier than climbing. The way back felt clearer, especially across the rocky sections, though the treeline seemed to stretch forever on the way down. Eventually, I returned to the parking lot, tired but satisfied, with another incredible 14'er checked off the list.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Mount Massive challenged me with rocky ridges, windy summits, and steep switchbacks, but the views made every step worth it. Reaching the top and looking out toward Mount Elbert was an unforgettable Colorado moment.",
         "gpx": [
           [
             39.151329,
@@ -80037,6 +79946,7 @@ const data = [
         "image": "2022/09/11/b74f68ae-d627-4a89-9122-fbc75562e59d.jpeg",
         "location": "Sawatch Range",
         "readingTime": "2",
+        "snippet": "Conquering Mount Massive",
         "stats": {
           "distance": {
             "label": "distance",
@@ -80829,18 +80739,14 @@ const data = [
       {
         "date": "July 16th, 2019",
         "description": [
-          "My friend Cerstin and I caught an early morning shuttle bus from town we were staying in to Lago Brais, the official starting point of the Alta Via 1. The bus was filled with the backpacks of other hikers, and we had to stand as we made our way along the road. The shuttle dropped us off in front of a hotel on the lake, an idyllic starting point.",
-          "Lago Brais is an Instagram-worthy location, with a beautiful turqouise mountain lake laying at the feet of majestic white-gray mountains. There was a little dock with a small shack at the end of it, and a line of old wood canoes all tied up. We explored as much of the lake as we could, but it was too big to go all the way around, and we had some hiking to do.",
-          "The trail follows along the lake for some time, staying on mostly level ground and not gaining any real elevation. The real trail, and ascent into the mountains, awaited us when we got to the other end. Loose fallen rocks awaited us underfoot as we turned away from the lake and began our trek south.",
-          "Once we started heading up, the incline steadily increaseed, and before long we were already taking breaks to catch our breath. Up and up we went along well-marked trails, stealing glances back at the lake as a way of judging how far we had gone, and how high up we were getting. About an hour later the lake was out of sight, and we were surrounded by mountains.",
-          "There were some pretty sweet views at the top of the initial ascent. Rolling hills made of pushed up rock from tectonic forces filled our fields of view. I had never seen such interesting rock formations. Some looked like regular mountains, while others looked as if someone pushed a mountain onto its side and then smoothed it out. They were extending into the sky at all sorts of odd angles. Some even looked like they had their tops cut off.",
-          "Maybe an hour and a half went by of going up and down these interesting rock formations before we got our first glimpse below of the place that we would be spending the night at: Rifugio Bella. It looked so small when set against the backdrop of these mountains.",
-          "But before we turned to head for the rifugio, we decided to do a side trek up the nearby mountain. About 90 minutes later and we were at the top, and it was worth it. It seemed like we covered a lot of distance today, however this was not the case, it was all mostly vertical, because far below us was the Lago Brais, the place we had started at, although it was very small from up here.",
-          "We maybe spent close to an hour at the top before the cold wind finally got to us, and we started our descent down to the rifugio. An hour later and we were all checked in. The beds were spacious and comfortable, and the dinner was superb! After dinner we hung out drinking and talking with our new friends! Time flew by and before we knew it it was already 9:30 pm. The sun was already beginning to set",
-          "As the sun was setting, I stepped out of the mountain rifugio. I stood there as the sun set, watching the skies turned a deep purple. As the temperature slowly dropped, I stared at the silhoutes of the mountains surrounding me. This is where I belonged, being in the mountains. As I stood there a little fox went scampering by, bringing food back to its den.",
-          "What a great start to this trek!"
+          "My friend Cerstin and I caught an early morning shuttle bus from the town where we were staying to Lago Brais, the official starting point of the Alta Via 1. The bus was packed with hikers and their backpacks, so we stood for the ride, eagerly watching the landscape pass by. We were dropped off in front of a hotel at the lake, and it felt like the perfect place to begin our adventure.",
+          "Lago Brais is stunning, a turquoise mountain lake nestled at the foot of white-gray peaks. A small dock jutted into the water, lined with old wooden canoes tied up neatly, and a tiny shack sat at the end. We explored the edges of the lake, but it was too vast to circle entirely, and the mountains called us onward.",
+          "The trail followed the lake for a while on mostly level ground, giving us a gentle start before the real ascent began. Soon we turned away from the lake and started climbing, stepping carefully over loose rocks. The incline steadily increased, and before long we were stopping frequently to catch our breath. Each glance back offered a shrinking view of the lake, a reminder of how far we had already climbed.",
+          "As we gained elevation, the views opened up dramatically. Rolling hills of jagged rock formations stretched into the distance, shaped by tectonic forces into strange and striking angles. Some peaks appeared as if someone had sliced the tops off, while others jutted sharply into the sky. Hiking through this surreal landscape was mesmerizing, and it felt like walking among giant sculptures made by nature itself.",
+          "After an hour and a half of traversing the ridges, we caught our first glimpse of Rifugio Bella, the tiny mountain refuge where we would spend the night. Before heading down, we decided to take a side trek up a nearby peak. Ninety minutes later, we reached the summit, and the view was incredible. From up there, Lago Brais was far below, a small jewel in the mountains, and the vertical distance we had climbed felt truly impressive.",
+          "We eventually descended to Rifugio Bella, where spacious beds and a hearty dinner awaited us. After eating, we spent the evening talking and drinking with new friends, watching the sun set over the peaks. The sky turned a deep purple as the temperature dropped, and a little fox scampered by, adding to the magic of the mountains. It was the perfect start to our trek, and I couldn't imagine being anywhere else.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Our first day on the Alta Via 1 took us from the turquoise waters of Lago Brais into a surreal landscape of jagged peaks and sculpted rock formations. We ended the day at Rifugio Bella, watching the sunset and sharing stories with new friends.",
         "gpx": [
           [
             46.698822,
@@ -81837,7 +81743,8 @@ const data = [
         "hasStats": true,
         "image": "2019/07/16/eba70b28-4c7d-45f3-aa93-46b24011cb80.jpeg",
         "location": "Province of Belluno",
-        "readingTime": "4",
+        "readingTime": "3",
+        "snippet": "First Steps on the Alta Via 1",
         "stats": {
           "distance": {
             "label": "distance",
@@ -81932,16 +81839,13 @@ const data = [
       {
         "date": "July 17th, 2019",
         "description": [
-          "Breakfast on these kinds of treks is usually nothing to write home about. It basically consists of bread and jam, maybe some milk or yogurt with granola, and some juice or coffee. And even then the servings are small and unsatisfying. But on the Alta Via 1 the breakfasts have more to them, such as eggs!",
-          "I thought the views from the first day were great, but on the second day they got even better. As soon as we left the rifugio we were immersed once more in open rolling land surrounded by all sorts of geologic formations. Truly, I have never seen so much variety before.",
-          "We walked and hiked over grassy hills as the trail took us towards mountains in the far distance. About an 70 minutes later we transitioned from open, rocky, fields to forests thick with pine trees and various other conifers. While the trail has been mostly small ascents and descents up until this point, it now turned towards a massive descent that had wooden railings protecting us from the dropoffs on our right. We were descending down the side of a mountain and into a valley.",
-          "Upon reaching the valley floor we were greeted with the sight of a rifugio in the distance that offered a sunny peaceful place to rest and drink and eat a second breakfast. But an hour later we decided that it was time to move on, and leave this idyllic valley behind, and regain the elevation we had just lost by heading into a different portion of the mountains.",
-          "Here the ground was a bit sandier, maybe due to the variety of composition of the rocks around us. It almost felt like someone had dropped a beach right into the middle of the path. Could have been an old lake bed as well for all we knew. Lots of switchbacks in this area, which on a full belly wasn't the most fun.",
-          "With blue partly cloudy skies, and towers of mountains around us, we pressed on and happened upon a river flowing just beyond a small family farm house. No livestock around so we felt safe taking off our shoes and dipping our feet into the ice-cold waters. What a feeling that was.",
-          "Shortly thereafter we arrived at our place for the night: Rifugio Lavarella. It was situated on a little lake/pond, with watery features all over the property, and some cows grazing around it.",
-          "Another fabulous dinner in a fabulous place-of-stay. This Alta Via 1 trek has the best food so far out of all the treks I've done to date. We chilled on the patio under umbrellas watching the clouds flow by and some took naps. It was a very relaxing locale."
+          "Breakfast on the Alta Via 1 was a treat compared to most trekking mornings. Instead of the usual sparse bread and jam, there were eggs and hearty options to fuel the day ahead. Refreshed and well-fed, we left Rifugio Bella and stepped back into the rolling, open terrain of the Dolomites, surrounded by a variety of striking geologic formations. The views felt even more dramatic than the first day, with every turn revealing a new ridge, peak, or rocky outcrop.",
+          "The trail took us over grassy hills toward distant mountains, and about seventy minutes in we entered dense pine forests. The smooth rolling terrain gave way to a steep descent, with wooden railings guarding the cliff edges. We carefully made our way down the side of the mountain, following switchbacks into a valley below, where the landscape opened into a peaceful, sunlit refuge.",
+          "At the valley floor, a small rifugio appeared, inviting us to rest, eat, and enjoy a second breakfast. After a short break, we pushed on, climbing back up into a new section of the mountains. The trail here was sandy underfoot, possibly an old lakebed or a natural deposit, with switchbacks that made the ascent feel longer, especially after the large meal we had enjoyed.",
+          "As we pressed onward, the trail led us past a river running beside a small farmhouse. With no livestock around, we kicked off our shoes and let the icy water wash over our feet, a refreshing and exhilarating pause in the hike. The surrounding mountains, partly cloudy skies, and flowing water made the stop feel like a hidden gem tucked away in the Dolomites.",
+          "By evening, we arrived at Rifugio Lavarella, nestled beside a serene lake with cows grazing nearby. The rifugio had an inviting atmosphere with watery features scattered across the property, and the dinner was another highlight of the trek. We relaxed on the patio, watching clouds drift across the sky, chatting with fellow hikers, and even sneaking in some naps. It was a perfect mix of activity and tranquility, showcasing the Alta Via 1 at its best.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Day two of the Alta Via 1 treated us to dense pine forests, dramatic descents, and a hidden valley with a peaceful rifugio. The evening ended at Rifugio Lavarella, where cows grazed by a serene lake and the dinner was unforgettable.",
         "gpx": [
           [
             46.665853,
@@ -82938,7 +82842,8 @@ const data = [
         "hasStats": true,
         "image": "2019/07/16/69890344-e575-484e-86ae-5ddeb000c4f9.jpeg",
         "location": "Province of Bolzano",
-        "readingTime": "3",
+        "readingTime": "2",
+        "snippet": "Day Two on the Alta Via 1",
         "stats": {
           "distance": {
             "label": "distance",
@@ -83033,19 +82938,13 @@ const data = [
       {
         "date": "July 18th, 2019",
         "description": [
-          "Another great breakfast this morning at the rifugio. I took one last stroll around the grounds of the place before heading back in and packing up. Today was a bit overcast but the sun was still shining brightly through it.",
-          "The trail took us away from the lake/pond and into the woods. It gained elevation quickly, and before long we were up and above trees. Good timing as well since a little bit of cloud inversion was beginning to move in. The path left the trees behind and we were once again walking through rolling green hills littered with rocks of all shapes and sizes.",
-          "Our group was 6 strong today: Myself and my friend Cerstin, along with two mother-daughter pairs from the States. We kept the same pace mostly, but eventually one of the mother-daughter duos had some extra gas in the tank on an ascent later on and took off.",
-          "We passed lakes, empty cattle pens, crossed rivers, and skirted around massive boulders strewn about the land. At some point we happened upon a cave in the middle of the rock face, but upon further investigation it appeard to be nothing spectacular. Onwards we marched towards what seemed like the edge of the world in the distance.",
-          "Before us, on either side, rose great walls of rock divided in the middle by a forested valley. At the edge of this forested valley there appeared to be a massive drop off, which usually meant steep decline (not so great for the knees). However, we first had to climb up the left side of this valley before we could make our descent. It took us about an hour of huffing and puffing to make it up to the top. There was still snow up there!",
-          "Once at the top we were able to see the path drop off and head down some steep-looking switchbacks towards a lake below. From our point of view it looked as if it was a straight drop down, which didn't seem fun. Thankfully, it wasn't that bad. The visibility up there was amazing though: we could see the trail for tomorrow stretch out in front of us.",
-          "On the way down, as we approached the lake from above, a true wall of rock rose up to our left, and it dominated the local landscape. At the end of this wall it seemed that the world once again just dropped off.",
-          "We took a break at the lake in order to dip our feet in and pose for some photos. We weren't alone at this lake though, because a field trip full of kids was everywhere. That's one thing I've noticed about this trek so far: it's very accessible, you can practically drive to any point on it if you wanted. It wasn't a very \"remote\" hike, not like the Tour du Mont Blanc at least.",
-          "There were some stone ruins just beyond the lake, which I always love checking out. And our place for the night was visible in the distance, even if we had to go down a big chunk. There was a nice wide river/waterfall that paralleled the trail as we descended, which meant a great chance to get some fresh (filtered of course) water.",
-          "Some ruined World War II barracks and ammunition depots met us at the bottom of our descent as we made our approach to Rifugio Scotoni. This was a nice little place with comfortable rooms with a view, and a nice patio where we would have dinner later on. Clouds and rain moved in during the late afternoon, which gave us all a good excuse to chill and nap.",
-          "Amazing views of the stars at night from here! We had some beers on the patio at night and watched them go by for a bit."
+          "Breakfast at the rifugio set the tone for another beautiful day on the Alta Via 1. I took a final stroll around the grounds before packing up, enjoying the overcast sky that still allowed bright sunlight to filter through. The trail led us away from the lake and into the woods, quickly gaining elevation until we emerged above the trees. From there, rolling green hills dotted with rocks stretched as far as the eye could see, and the beginnings of a cloud inversion added a magical touch to the landscape.",
+          "Our group of six kept a steady pace through the morning. Alongside my friend Cerstin were two mother-daughter pairs from the States. While most of us moved together, one of the mother-daughter duos picked up the pace during a steep ascent, leaving the rest of us to enjoy the scenery at a slightly slower tempo. The trail passed lakes, empty cattle pens, and rivers while winding around massive boulders. We even discovered a cave in the rock face, though it proved unremarkable.",
+          "As the day progressed, we reached the edge of a forested valley flanked by massive walls of rock. Before descending, we had to climb up the left side of the valley, huffing and puffing for about an hour until snow patches came into view. At the top, the trail stretched out below us in steep switchbacks that led toward a lake. From our vantage point, the view was spectacular, revealing the path we would follow the next day.",
+          "The descent brought us closer to the lake, where a true wall of rock dominated the landscape. We took a well-deserved break to dip our feet in the water and snap photos, sharing the space with a lively group of schoolchildren on a field trip. Nearby stone ruins added a touch of history, and the trail led past a wide river that offered fresh water before we finally approached Rifugio Scotoni. World War II barracks and old ammunition depots stood as silent reminders of the past, contrasting with the natural beauty around us.",
+          "Rifugio Scotoni proved to be a cozy and welcoming stop, with comfortable rooms, a view of the surrounding valley, and a patio perfect for dinner. Clouds and rain rolled in during the late afternoon, giving everyone a reason to relax and nap. As night fell, we enjoyed beers on the patio while watching the stars emerge above the mountains, a perfect end to a day filled with breathtaking scenery and memorable experiences.\n"
         ],
-        "excerpt": "",
+        "excerpt": "We hiked above forests and rolling hills before descending through a forested valley to a serene lake, pausing to explore stone ruins along the way. The day ended at Rifugio Scotoni, where we enjoyed dinner on the patio and watched stars fill the night sky.",
         "gpx": [
           [
             46.611055,
@@ -84042,7 +83941,8 @@ const data = [
         "hasStats": true,
         "image": "2019/07/16/081c1b83-7036-4c3c-aa2f-0534f4250ab8.jpeg",
         "location": "Province of Bolzano",
-        "readingTime": "4",
+        "readingTime": "3",
+        "snippet": "Along the Valleys and Lakes",
         "stats": {
           "distance": {
             "label": "distance",
@@ -84137,17 +84037,13 @@ const data = [
       {
         "date": "July 19th, 2019",
         "description": [
-          "Since we descended so much yesterday in order to get to the rifugio, we had to ascend right out of the gate this morning as we passed by the WWII ruins from yesterdays trail. I want to say that it took about an hour and a half in order to complete the initial ascent. However long it took, we were so high up that we were walking on snow.",
-          "Today had a little bit of everything in terms of landscapes and environments. After crossing the snowy portions at the beginning there was a bend in the trail and we went around a mountainside that was the most red-brown rock/dirt that I have ever seen. It was also littered with anti-avalanche fencing meant to hold the snow back, or at least I think that's what they were for.",
-          "Once we finished going around the bend in the trail, the red-brown rock/dirt gave way to white stone and green grasses growing along the mountainside. We took in the views as we continued following the trail markers. Then came a junction in the trail, and no one seemed to know which way to go. Even the paper maps weren't much of a help. Needless to say, we took a wrong turn.",
-          "But it was a pretty cool wrong turn, simply because we got to walk next to this massive boulder that was just sitting there, almost like it was guarding the way. We were also treated to some pretty cool sights of a valley in the distance. We turned around and went back to the junction, and this time took the correct route that took us along a very thin strip of land around the base of a dome-like mountain.",
-          "More interesting looking ruins and caves along the way today as well. In the distance we could see Citta de Fume, and another mountain that looked like it had it's head chopped off.",
-          "White/gray rock transitioned to green fields as we finished the route along the base of the dome-like mountain and began a series of moderate switchbacks. It's a good thing I had the knee braces on or else I would have been far worse off. We were met with thick conifer forests at the end of the switchbacks, and the trail took us to a restaurant in the woods with a patio overlooking the tree- tops.",
-          "If I haven't already mentioned it, the food on this trek is the best so far, and that's most likely due to the fact that these places are accessible by motor vehicles. I know that ruins the remoteness of it, but it does mean each place has a full kitchen and delicious foods to choose from. Case-in-point, I had a beer, salad, and burger with fries topped with an egg at this restaurant. Yum!",
-          "The next two hours, after leaving the restaurant, were filled with walking through forests, with some fleeting glimpses every now and then of the many mountains that were surrounding us, and a couple of road crossings. Finally we began to ascend out of the forests towards more familiar rocky terrain, and our destination for the night: Rifugio Averu.",
-          "Averu stood at the top of a rocky mountain slope with a steep drop-off on the other side that provided some great views from the dining hall windows. This place also had the fanciest meals on this trek, complete with hardboiled eggs for breakfast! We definitely stuffed our bellies full at this place. I think I actually gained weight on this trek."
+          "Our day began with an immediate climb out of the valley, right past the World War II ruins we had passed yesterday. The ascent took about an hour and a half, and by the time we reached the top, we were walking on patches of snow. The trail offered a little bit of everything, from snowy slopes to colorful mountainsides, and the views only improved as we gained elevation.",
+          "After leaving the snow behind, we rounded a bend along a mountainside covered in red-brown rock and dirt, with anti-avalanche fencing scattered along the slope. Beyond the bend, the landscape transitioned to white stone and green grasses, creating a striking contrast against the mountains. At a junction, our group initially took a wrong turn, but it turned into a memorable detour past a massive boulder and a distant valley, before we returned to the correct path along a narrow strip around a dome-shaped mountain.",
+          "Along the way, we encountered more ruins and caves, while the distant mountains presented curious shapes, including one that looked as if its top had been chopped off. White and gray rocks slowly gave way to green fields as we tackled a series of moderate switchbacks. Thick conifer forests marked the end of the ascent, and the trail eventually led us to a restaurant nestled among the trees, with a patio overlooking the forest canopy.",
+          "The food stops on this trek continue to impress, thanks to the accessibility of the rifugios. At the restaurant, I enjoyed a beer, a salad, and a burger with fries topped with a fried egg. While it may compromise the feeling of remoteness, having access to full kitchens means hearty meals that energize hikers for the next leg of the journey.",
+          "The final portion of the day led us through more forests with occasional glimpses of surrounding mountains and a few road crossings. We ended the day ascending to Rifugio Averu, perched atop a rocky slope with a steep drop-off. The views from the dining hall were incredible, and the meals were some of the best on the trek, complete with hardboiled eggs for breakfast. By the end of the day, it was clear that the trek was not only visually stunning but also wonderfully satisfying for the appetite.\n"
         ],
-        "excerpt": "",
+        "excerpt": "We climbed out of the valley, passing snowy slopes and colorful mountainsides before navigating narrow trails and switchbacks through forests. Our day ended at Rifugio Averu, where spectacular views and delicious meals made the effort more than worth it.",
         "gpx": [
           [
             46.552437,
@@ -85144,7 +85040,8 @@ const data = [
         "hasStats": true,
         "image": "2019/07/16/eb243b48-8084-4c7e-94c0-5a163983d407.jpeg",
         "location": "Province of Belluno",
-        "readingTime": "3",
+        "readingTime": "2",
+        "snippet": "Snow, Rock, and Rifugios",
         "stats": {
           "distance": {
             "label": "distance",
@@ -85239,13 +85136,13 @@ const data = [
       {
         "date": "July 20th, 2019",
         "description": [
-          "Today's hike would be filled with so many amazing views and visuals, from mountain silhouettes and cliffs that looked like something out of Pandora from Avatar, to crazy earthly formations of green. And it all got started with a full moon during breakfast in the lovely dining room of Rifugio Averu.",
-          "A bit of backtracking was required today in order to continue our trek. If we didn't, then we would have had to have gone down some via ferreta's-like ladders which require a solid stomach when it comes to the dropoffs, and a helmet to protect against falling rocks. Needless to say, this wasn't in our plan, nor did we have any helmets.",
-          "We made our way down back onto the trail and headed off into the greenness. I usually steal looks behind me as I hike just in case I spot something that I would have otherwise missed since I was going in a different direction. Today was one of those days, and I'm sure glad I did. This particular part of the Dolomites had so much unique looks to it: massive boulders, floating in the clouds, and a rock formation that seemed to be a throne fit for the gods.",
-          "The trail today took us down and up and down and up. We passed some larger groups (20+ people) going in the opposite direction as us. It was a weekend day, I think, so maybe they were just out for a group hike. It meant a lot of stop- and-go though, waiting for them to pass. There were also some busy roads that we had to cross today.",
-          "Once we passed the roads and left the larger groups behind, it was down to just the backpackers on the trail. This is where I saw some of the aforementioned amazing geological features. They definitely make this a unique hike. There was even a set of ruins hovering, seemingly, on the edge of thin air. Curved mountains pushed on their sides, mountains with the tops cut off by clouds, and endless green in all directions. What a beautiful day of hiking!"
+          "Today's hike was a feast for the eyes, with landscapes that felt almost otherworldly. We started the morning under a full moon, enjoying breakfast in the cozy dining room of Rifugio Averu before setting out. The trail required a bit of backtracking, which allowed us to avoid via ferrata ladders that would have demanded helmets and nerves of steel due to the sheer drop-offs.",
+          "Once back on the main trail, the Dolomites revealed their extraordinary beauty. I kept stealing glances behind me, knowing I might otherwise miss something spectacular. Massive boulders seemed to float in the clouds, and one rock formation looked like a throne fit for the gods, perched dramatically on a cliffside.",
+          "The trail itself was a constant rhythm of ups and downs. Along the way, we passed larger groups of hikers heading in the opposite direction, which made for a lot of stop-and-go. A few busy roads also interrupted the flow of the trail, but they were a minor inconvenience compared with the incredible scenery surrounding us.",
+          "After leaving the larger groups behind, it was just backpackers and the mountains. The geological formations were unlike anything I had ever seen: curved mountains pushed onto their sides, jagged peaks cut off by clouds, and ruins seemingly hovering on the edge of cliffs. Endless stretches of green filled the valleys and hillsides, making every step feel like a journey through another world.",
+          "By the end of the day, the trail had left a lasting impression. The combination of unique rock formations, verdant valleys, and cloud-kissed peaks made this section of the Dolomites feel completely magical. It was the kind of hike that reminds you why you come to the mountains: to be inspired, awed, and completely immersed in the natural world.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The Dolomites revealed some of their most extraordinary sights today, from massive cloud-topped boulders to ruins perched on cliff edges. Endless green valleys and uniquely shaped mountains made every step feel like a journey through another world.",
         "gpx": [
           [
             46.501022,
@@ -86243,6 +86140,7 @@ const data = [
         "image": "2019/07/16/a3f65b8c-4b57-4194-a3a1-5769f1d63373.jpeg",
         "location": "Province of Belluno",
         "readingTime": "2",
+        "snippet": "Thrones and Clouds",
         "stats": {
           "distance": {
             "label": "distance",
@@ -86338,17 +86236,13 @@ const data = [
       {
         "date": "July 21st, 2019",
         "description": [
-          "Today's portion of the trek started off with a stretch through a very green pine wood, with a bit of walking on a shoulder of a road. There was also lots of leaping between large rocks that were strewn over portions of the trail. We all played a bit of leap frog this morning with eachother due to us moving at different speeds and getting a different start time this morning.",
-          "While the forest was a very lush looking green, it wasn't all that eventful. There weren't many lookout points, and we weren't doing much in terms of elevation. After we finished walking along the shoulder of the road, and got out of the woods, that's when the views started to roll in. The trail also took us up to a ridge where there some old WWII anti-aircraft guns left around as a monument.",
-          "We didn't know it but there was an ultra marathon race in the area we were hiking.",
-          "The land around us was covered in lush green fields and forests, and criss- crossed by a handful of trails in white, standing out in stark contrast to the green around us. It was time though to start switchbacking up a mountain while staying out of the way of the marathoners who were cascading down its sides. It's amazing none of them twisted an ankle as they leaped from rock to rock.",
-          "At the top of the mountain there was a full-service hut with a rudimentary cable car-like thing for sending supplies up and down. Pretty cool looking. We hung out for a short amount of time to get a drink, and then started down the other side as the slower marathoners were making their way up towards us. Such a crowded day on trail.",
-          "There was a lake at the bottom that we explored momentarily, but there weren't any good places to sit and dip your feet in given that it was a mostly sandy shore, so we continued on around the lake through the throngs of marathon walkers and runners. Another magnificent sheer wall of mountain and stone greeted us around the other side of the lake as we crested over a small hill.",
-          "Rain clouds were starting to move in, so we quicked our pace as we went up and down over small hills and rocky embankments as the trail weaved its way through the mountainside terrain. Luckily it didn't not rain much, only a fine misting here and there.",
-          "Eventually the trail turned to the right and we started to ascent once more up to our place of rest of the night: Rifugio Tissi. It was perched on the edge of a cliff overlooking a good-sized town around a lake below. These were some epic views from up here: the tall wall of mountains on one side, and this perilous dropoff to the other overlooking the tops of other mountains and the town.",
-          "After dinner we watched the sun set from this cliff overhang, it was a truly beaufitul sight. We stayed up there for hours, until the stars came out. We even spotted Jupiter, which was especially bright around this time of the year."
+          "Today's hike began in a lush pine forest, with sections of the trail strewn with large rocks that made for some fun leap-frogging along the way. The forest was quiet and green, but not particularly dramatic in terms of views or elevation. Once we left the trees and the road behind, the scenery opened up, revealing rolling landscapes and our first real look at the ridge ahead, where old World War II anti-aircraft guns stood as silent monuments.",
+          "As we continued, we realized an ultra marathon was taking place in the area. Trails crisscrossed the green hills, and we had to carefully navigate switchbacks while runners and walkers sped past or made their way up the mountain. It was remarkable to watch so many participants leap from rock to rock without a single misstep.",
+          "At the top of the mountain, we came across a small hut with a cable system for transporting supplies where we stopped briefly for a drink before beginning the descent, encountering marathoners making their way up the other side. The trail led to a lake at the bottom, but the sandy shore offered little comfort, so we moved on around the lake, greeted by a sheer wall of stone that rose dramatically as we crested a small hill.",
+          "Rain clouds were beginning to gather, so we quickened our pace along the rocky terrain, though the drizzle was light and never slowed us down. Eventually, we began our final ascent to Rifugio Tissi, perched on the edge of a cliff. From this vantage point, we could see a town nestled beside a lake below, with towering mountains rising on one side and a sheer drop-off on the other.",
+          "After settling in, we watched the sun set from the cliff overhang, the sky painting the mountains in brilliant hues. We lingered as darkness fell, stargazing until the heavens revealed Jupiter shining brightly above. It was a magical end to a day of hiking, offering both breathtaking vistas and peaceful moments under the stars.\n"
         ],
-        "excerpt": "",
+        "excerpt": "We spent the day navigating lush forests, rocky trails, and marathon runners, all while ascending to a ridge with epic views. The evening ended at Rifugio Tissi, perched on a cliff, where we watched the sun set and Jupiter rise above the mountains.",
         "gpx": [
           [
             46.436767,
@@ -87345,7 +87239,8 @@ const data = [
         "hasStats": true,
         "image": "2019/07/16/b1128805-54bb-4b7b-adcb-f2b6ae3fada6.jpeg",
         "location": "Province of Belluno",
-        "readingTime": "3",
+        "readingTime": "2",
+        "snippet": "Ridge and Stars",
         "stats": {
           "distance": {
             "label": "distance",
@@ -87441,15 +87336,13 @@ const data = [
       {
         "date": "July 22nd, 2019",
         "description": [
-          "Our way out of Rifugio Tissi took us back down towards the place we entered from yesterday afternoon, and off in the opposite direction. We walked along \"The Wall\", as I've come to call it, for a brief period of time before entering a gathering of small pine trees. Soon after we exited into a cleared valley and up ahead we sawa big ole herd of cows.",
-          "These cows could care less about us, which was good considering my last cow encounter resulted in me nearly having a heart attack and probably scaring that cow half to death. We walked with them, or rather they walked with us, passed some stone ruins (probably an old herders home) up until a small wire fence blocked them from going any further, and we were on our own again.",
-          "Another pine forest awaited us, tucked within spires of mountains that looked like chimney stacks. Ahead I saw a waterfall turning into a river that went off into the distance, but we ended up crossing over the top of the waterfall, instead of below it. Shame, that would have made for some good photo-ops.",
-          "It took us maybe an hour to get through the main forest part, and then the trail started to ascent towards the face of the mountains that were surrounding this area. Within the nooks and crannys of them I could see huge piles of snow hiding in the shadows and trying to hold out for as long as it could.",
-          "Eventually the trail came to a bend around the mountain side, and we passed through a little gap that reminded me of the Lord of the Rings. We met a new travelling companion here who was also German, and was doing a much longer trek through the Alpes and Dolomites which shared part of its trail with the Alta Via 1.",
-          "After this bend in the trail it was finally time to start descending, and it was a beautiful descent through a decidious forest that had plenty of stumps and rocks strewn about, plus some wooden benches for sitting on. I took a break here (I had pulled ahead of everyone else during the descent), and as a sat there a butterfly came and rested on my backpack.",
-          "The others eventually caught up and we all chilled for a bit. It wasn't much further now until our next resting point: Rifugio Carestiato. It was perched on a rocky outcrop that provided a very nice view of a valley below us, and the clouds flowing past the mountains in the distance. The presence of the forest meant there weren't many areas for exploring around the rifugio, so it was a pretty calm evening full of drinking and playing cards and eating."
+          "Our day began with a descent from Rifugio Tissi, retracing part of yesterday's path before heading off in a new direction. We walked briefly along a ridge I've dubbed \"The Wall,\" then entered a small cluster of pine trees before emerging into a cleared valley. Up ahead, a herd of cows ambled lazily through the landscape. Unlike my last encounter with cattle, these cows were completely indifferent to our presence, and we shared the trail with them for a short while before a wire fence marked their boundary.",
+          "The trail led us into another pine forest tucked between dramatic mountain spires that resembled chimney stacks. A waterfall turned into a river in the distance, though we crossed over the top rather than below it, missing a few photo opportunities. It took about an hour to navigate the forested section, after which the trail began a steady ascent toward the rocky mountain faces. Snow lingered in the shadows, clinging stubbornly to hidden nooks.",
+          "As the trail curved around the mountainside, we passed through a narrow gap that felt straight out of a fantasy film. Here, we met a fellow hiker from Germany tackling a much longer trek through the Alps and Dolomites, whose path overlapped with the Alta Via 1. This brief encounter added a sense of camaraderie to our journey and highlighted the shared experiences of those drawn to these mountains.",
+          "After the bend, it was time to begin the descent. The path wound through a deciduous forest scattered with stumps, rocks, and wooden benches for resting. I paused for a break, and a butterfly settled on my backpack, offering a peaceful moment before the rest of the group caught up. The forested descent felt calming and rejuvenating after the climbs and narrow passes of the morning.",
+          "Finally, we arrived at Rifugio Carestiato, perched atop a rocky outcrop overlooking a lush valley. Clouds drifted past the distant mountains, and the presence of the forest around the rifugio made for a serene atmosphere. The evening was spent relaxing, playing cards, and enjoying dinner together, a quiet and well-earned conclusion to a day filled with dramatic landscapes and shared moments in the mountains.\n"
         ],
-        "excerpt": "",
+        "excerpt": "We spent the day navigating ridges, pine forests, and hidden snow patches while sharing the trail with indifferent cows. The evening ended at Rifugio Carestiato, perched on a rocky outcrop with sweeping valley views and a calm, relaxing atmosphere.",
         "gpx": [
           [
             46.38779,
@@ -88446,7 +88339,8 @@ const data = [
         "hasStats": true,
         "image": "2019/07/16/a46e829f-147b-40d1-b7ae-2f743923feca.jpeg",
         "location": "Province of Belluno",
-        "readingTime": "3",
+        "readingTime": "2",
+        "snippet": "Along The Wall",
         "stats": {
           "distance": {
             "label": "distance",
@@ -88541,14 +88435,13 @@ const data = [
       {
         "date": "July 23rd, 2019",
         "description": [
-          "Todays sunrise through the trees was a special treat; normally I haven't been up early enough to see it, but today I just couldn't sleep. The trail today was a nice mixture of forests, ascending and cross cols between mountain tops, and passing what I can only presume are old military barracks built of stone.",
-          "We started off through the trees after leaving the rifugio and walking across grassy fields which offered some amazing views, but shortly there-after we had to walk on a road as we descended. Luckily the trail didn't hang out on the road for long and we were back in the trees. Saw some cool looking ruins in there as well.",
-          "The woods left us behind as the trail took a turn and the vegetation gradually thinned out as we headed onto some exposed scree fields. More great views though! But it sure was hot today without the trees or clouds to block the sun. After a while of going across the scree field, and through more small pine trees, we came to a grassy clearing that had an old hut with a water trough that was still working. We filled up our bottles and kept moving.",
-          "Our views today mostly consisted of mountains in the distance, and small pine tree forests. But as we came around a bend in the trail after going through some bushes and other vegetation we came across some pretty neat looking stone ruines. They looked too big to be someones old home, so my guess is that they were left overs from World War II. I tried to explore them as much as possible but the vegetation within had grown too thick.",
-          "Afterwards the trail took us to a crest with some nice views, and then narrowed as it turned down into a pine tree and bush forest. I remember racing through this area because of the heat and the smell of pine was overwhelming. Rifugio Pramperet was also visible in the distance, and I was craving a shower, and some lunch. The dormitories were set along one wall with a courtyard in the middle, a nice spot for eating outside.",
-          "The front balcony had lots of tables with umbrellas, and the inner dining hall was a good size as well. A special after-dinner treat (which the dinner itself was amazing, as they all have been on this trek) involved a Moose coming to visit us! It didn't get very close, but close enough for us to see pretty well. We also watched the sun set behind the mountains."
+          "Waking up early this morning was a rare treat, as I was able to catch the sunrise filtering through the trees. The soft morning light made the trail feel almost magical, and it set the tone for the day ahead. The route offered a mix of forests, mountain passes, and what appeared to be old stone military barracks scattered along the landscape.",
+          "We began our hike through grassy fields before entering the trees once again. There were brief stretches on a road during a descent, but we quickly returned to the forest. Hidden among the pines were some fascinating ruins, hinting at a long history that added an extra layer of intrigue to the trek.",
+          "Eventually, the trail emerged onto exposed scree fields, where the sun beat down with little relief from clouds or shade. The views from this open section were spectacular, offering distant mountain panoramas in every direction. After navigating across the scree and small groves of pine, we came upon a grassy clearing with an old hut and a still-functioning water trough. We refilled our bottles and pressed on, eager to continue exploring.",
+          "Later in the day, we came across large stone ruins tucked among thick vegetation. They were too substantial to have been ordinary homes, so I suspect they were remnants of World War II. The trail then led us to a crest with sweeping views before narrowing into a dense forest of pine and bushes. The heat and strong scent of the pines made me push forward quickly, motivated by the sight of Rifugio Pramperet in the distance.",
+          "Rifugio Pramperet provided a welcome respite with a courtyard, dormitories along one wall, and tables with umbrellas for outdoor meals. Dinner was, as always on this trek, fantastic. Afterwards a moose arrived! It stayed at a respectful distance, but watching it as the sun set behind the mountains was a perfect end to a day filled with striking scenery and hidden history.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The trail took us through forests, scree fields, and World War II ruins, with distant mountains framing every turn. Rifugio Pramperet offered a relaxing stop, capped off by a sunset and a moose sighting.",
         "gpx": [
           [
             46.321643,
@@ -89545,7 +89438,8 @@ const data = [
         "hasStats": true,
         "image": "2019/07/16/21806386-052d-4a82-941e-6728771acd63.jpeg",
         "location": "Province of Belluno",
-        "readingTime": "3",
+        "readingTime": "2",
+        "snippet": "Sunrise and Stone",
         "stats": {
           "distance": {
             "label": "distance",
@@ -89640,16 +89534,13 @@ const data = [
       {
         "date": "July 24th, 2019",
         "description": [
-          "The theme for today's hike was up-and-up-and-up. Today was an early start, but it would also be a short day as well. The trail was coming to an end, but it was too far to go all the way today, so we had booked some beds at a place called Rifugio Pian de Fontana, our last rifugio of the trip!",
-          "We desended for a short while, but then quickly started ascending towards some cols between peaks. The stone was very white in this area, punctuated by dark green bushes and vegetation. This wasn't an easy climb, lots of stopping to catch my breath. But it felt good to be high up once more, instead of going through thick forests.",
-          "Lots of ice fields up top as well, with views for days of the surrounding mountains that were wreathed in white clouds. It felt like standing on the edge of the world at some points. After about an hour and a half of straight ascent, we came to the top and took a much deserved break.",
-          "Our route now took us down between two mountain peaks that looked like they had been split down the middle by lightening, and then pushed open in order to make a way for us to get through. Another wall of rock though greeted us in the distance and flanked us on our left as we walked. We thought we also spotted some deer, or moose, at the top of the wall but they were too far away for us to see, or even be sure. But we did have a lot of marmots to keep us company as we walked through a grassy field full of dandelions.",
-          "Another drop-off loomed in the distance, and clouds were starting to roll into our area and obscure the path, but they pushed themselves off and into the distance as we approached. The trail at this drop-off was full of switchbacks, and it was a long way to go through them all, but eventually we came to the bottom and to our place for the night.",
-          "Someone said they spotted Edelweiss on the trail today at the switchbacks, but I didn't see any, nor did my friend Cerstin. She was very dissapointed as it's rare to spot it in the wild.",
-          "The rifugio we were staying at had a herd of sheep surrounding it for most of the afternoon, but they departed just before dinner-time. We enjoyed a lot of wine at dinner due to it being our last night on trail, and we shared lots of laughs and stories with our travelling companions.",
-          "Night fell and the sky turned all sorts of brilliant pinks and purples. Tomorrow we would be doing a lot of descent and trying to make it to a bus stop in time to catch our ride into town, and meet up with another friend from the Camino who lived nearby: Mauro!"
+          "Today's hike was all about climbing. We started early, knowing it would be a short day, since our destination was Rifugio Pian de Fontana, the last stop on our trek. After a brief descent, we immediately began ascending toward the cols between mountain peaks. The stone here was a striking white, dotted with dark green vegetation, and the climb demanded frequent breaks to catch our breath. Despite the effort, it was refreshing to be above the forest once again, surrounded by wide-open vistas.",
+          "As we gained altitude, we passed patches of ice and were treated to endless views of the surrounding mountains, some wreathed in clouds. At times, it truly felt like standing on the edge of the world. After about an hour and a half of steady climbing, we reached the top and paused to take it all in. The mountains seemed endless in every direction, and the solitude was invigorating.",
+          "The trail then led us down between two peaks that appeared split by lightning, opening a natural corridor for our path. A massive wall of rock rose on our left, and distant wildlife, possibly deer or moose, added to the scene. Marmots scurried across grassy fields dotted with dandelions, keeping us company as we made our way through the alpine terrain. Clouds rolled in briefly, only to clear again and reveal the trail ahead.",
+          "A challenging set of switchbacks guided us down to our final destination for the night. Rumors of Edelweiss along the switchbacks sparked some excitement, though neither I nor my friend Cerstin spotted any, which was a minor disappointment. Once at Rifugio Pian de Fontana, we were greeted by a herd of sheep that lingered for much of the afternoon before wandering off just before dinner.",
+          "The evening was a perfect celebration of the trek's end. We shared a plentiful dinner, plenty of wine, and laughter with our fellow hikers. As night fell, the sky turned brilliant shades of pink and purple, marking the close of an incredible journey. Tomorrow would be all downhill as we aimed to reach the bus stop and reconnect with a friend waiting in town, but tonight was about savoring the final moments on the trail.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The final day of the trek was full of climbing, sweeping alpine views, and marmots for company. Rifugio Pian de Fontana welcomed us with sheep, wine, and a brilliant sunset to mark the end of the journey.",
         "gpx": [
           [
             46.288864,
@@ -90646,7 +90537,8 @@ const data = [
         "hasStats": true,
         "image": "2019/07/16/2982a2fe-75f6-473a-8d98-2c664c5cd38e.jpeg",
         "location": "Province of Belluno",
-        "readingTime": "3",
+        "readingTime": "2",
+        "snippet": "Final Ascent",
         "stats": {
           "distance": {
             "label": "distance",
@@ -90742,17 +90634,13 @@ const data = [
       {
         "date": "July 25th, 2019",
         "description": [
-          "Last day on trail. It would be a lot of going downhill today. We got an early start in order to make sure we had plenty of time to catch that bus, otherwise we would have to figure out another way of getting into town. There was another cable car for re-supply at this rifugio, and I thought about taking it down instead of walking.",
-          "Most of the first part of the morning was spent going laterally instead of vertically. There was an initial descent from the rifugio but then it became a straight shot acoss the mountains before we started going down. I turned back for one last look and the whole area looked like something out of an idyllic dream.",
-          "I was on the hunt for the Edelweiss flower as someone last night had told us this was a good area to spot some. Alas, I did not spot any today. We travelled over trails cut into the side of moss and grass-covered mountains. Clouds started to roll in shortly thereafter. It further increased the dream-like quality of the day.",
-          "Forests started to dominate our view as we left the scraggly tree-less upper elevations behind and descended down steep zig-zagging switchbacks. We were going different speeds so we all spread out and got separated. But about halfway down there was a rifugio that had an open kitchen and, most importantly, bathrooms. We ate last nights pie leftovers as a snack. Beforelong we were ready to keep going.",
-          "As we went down the sides of the mountains, and the valley we were going down, steepened which allowed for views up and down it's entire width. It was cool to be able to see where we had come from all the way up yonder.",
-          "On the way I spoke with some other hikers who had the GR20 (Grande Randonnee 20) in Corsica, France and I asked if I was someone who could do it, given that I had read it was the hardest hike in Europe. They said \"Yes, of course! If you can do this hike then you can do that one, it's no different.\" This made me feel more confident about doing it, but sadly it would still be nearly 5 years before I decided to conquer it.",
-          "We finished the thru-hike around 11 am. It was an unceremonious ending, it was just a bus stop on a road somewhere after all. But behind the bus stop area was a very wide river with a rocky beach, and we took the opportunity to ditch our backpacks and stick our feet in the cold water. Each one of us nearly slipped into the cold water as we tried to venture our into the flowing waters.",
-          "Eventually it was time to regroup, re-shoe, pack up, and head back up to the road as the bus was due to arrive soon. By that time more people had arrived, and it was a full bus ride back into civilization.",
-          "I really liked this one. It had great food, amazing views, an easy trail, and great people with which to enjoy it all. Maybe in the future I'll return and try the Alta Via 2!"
+          "The final day on trail was mostly downhill, and we started early to ensure we had plenty of time to catch the bus back into town. From the rifugio, the path initially stretched laterally across the mountains before beginning a steady descent. I paused to take one last look back at the area, and the scenery felt like something out of a dream, with mossy slopes, rolling peaks, and clouds drifting lazily over the valleys.",
+          "I kept an eye out for Edelweiss, a flower I had hoped to spot along this part of the trail, but it remained elusive. The terrain transitioned from open, grassy mountainsides to dense forests as we began zig-zagging down steep switchbacks. Along the way, we stopped at a small rifugio with an open kitchen and bathrooms, snacking on leftover pie before continuing downward.",
+          "The valley below widened as we descended, giving us breathtaking views both up the mountains we had traversed and down to the river below. It was a chance to reflect on the journey, and the scale of the surrounding landscape made all the effort feel worth it. On the trail, I spoke with other hikers who had experience on the GR20 in Corsica. Their encouragement gave me confidence that if I could complete the Alta Via 1, I could handle other challenging European trails as well.",
+          "We reached the end of the hike around 11 a.m. The finish was unceremonious, just a bus stop along a road. Behind it, though, a wide rocky river offered a perfect moment to celebrate. We kicked off our shoes, dipped our feet in the icy water, and laughed as we nearly slipped into the flowing current. It was a simple, joyful way to mark the end of the journey.",
+          "Eventually, it was time to regroup, repack, and board the bus back to civilization. The ride was full, giving us time to reflect on an incredible trek. Between the amazing views, fantastic food, well-maintained trails, and great company, this adventure exceeded all expectations. I left thinking about the Alta Via 2, knowing it might be a future journey worth taking.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The final day of the Alta Via 1 was filled with steep switchbacks, wide valleys, and dream-like views across the mountains. We ended at a riverside bus stop, dipping our feet in the cold water before heading back to civilization.",
         "gpx": [
           [
             46.261432,
@@ -91749,7 +91637,8 @@ const data = [
         "hasStats": true,
         "image": "2019/07/16/735a0783-62ba-4f8e-97d8-c9b9f5327cfe.jpeg",
         "location": "Province of Belluno",
-        "readingTime": "3",
+        "readingTime": "2",
+        "snippet": "Last Steps on the Alta Via",
         "stats": {
           "distance": {
             "label": "distance",
@@ -91917,13 +91806,14 @@ const data = [
           "The highlight was hiring a brightly painted wooden boat, or doonga, to row out onto the water and head towards the far shore where I made a stop at the 'World Peace Pagoda' (Shanti Stupa).",
           "The lake itself is a lovely and tranquil place to walk along in the morning before the city wakes up and the roadway in front of it becomes choked with mopeds and motorcycles.\n"
         ],
-        "excerpt": "",
+        "excerpt": "I spent a peaceful morning in Pokhara rowing a colorful boat across the lake to visit the serene World Peace Pagoda.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2019/11/06/0a6730d7-113b-4bca-b9d1-71ecf8e69713.jpeg",
         "location": "Pokhara",
         "readingTime": "1",
+        "snippet": "Morning on Phewa Lake",
         "stats": {
           "distance": null,
           "gain": null,
@@ -91955,13 +91845,14 @@ const data = [
           "Once I reached the top, the views were staggering. The skies weren't as clear as they could have been, but I could just barely make out the Annapurna massif and the distinct 'Fishtail' peak of Machhapuchhre in the distance. The pagoda itself is brilliant white with golden accents, featuring four statues of Buddha gifted from Japan, Sri Lanka, Thailand, and Nepal, each representing a different stage of his life.",
           "Walking clockwise around the upper tier in silence (the whole area is intentionally kept quiet to allow for medication), I felt the 'spiritual calm' that visitors often talk about.\n"
         ],
-        "excerpt": "",
+        "excerpt": "After a scenic boat ride and a steep hike through forest, I reached the World Peace Pagoda and was rewarded with stunning valley views and a serene, spiritual calm.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2019/11/06/4286cd26-eaad-47b1-96f7-2dff5ea38352.jpeg",
         "location": "Pokhara",
         "readingTime": "1",
+        "snippet": "Peace at the Pagoda",
         "stats": {
           "distance": null,
           "gain": null,
@@ -91990,19 +91881,20 @@ const data = [
       {
         "date": "November 8th, 2019",
         "description": [
-          "I've been on roller coasters, big drops at amusement parks, and have even jumped out of a perfectly good airplane to go skydiving just outside of Chicago, but I had never been paragliding, until today. Paragliding here in Pokhara is apparently a common thing tourists do, and it was easily one of the most surreal things I’ve ever experienced.",
+          "I've been on roller coasters, big drops at amusement parks, and have even jumped out of a perfectly good airplane to go skydiving just outside of Chicago, but I had never been paragliding, until today. Paragliding here in Pokhara is apparently a common thing tourists do, and it was easily one of the most surreal things I've ever experienced.",
           "The morning started with a bumpy, 20-minute jeep ride up to the takeoff spot at 5,800 feet. Looking down from the ridge at the colorful gliders already in the air was a bit nerve-wracking, but my pilot was incredibly chilld and professional, and walked me through a quick safety briefing.",
           "When it was time to go, there was no 'jumping' off a cliff. Instead we just had to run together down a grassy slope until the wind caught the wing and suddenly, my feet were dangling in the air.",
           "The silence up there is what surprised me the most: just the whistling of the wind and the occasional flap of the wing. We spiraled up into the thermals, and the view opened up into a patchwork of terraced fields and green valleys.",
           "For the finale, my pilot asked if I wanted to do some 'tricks', or a series of exhilarating high-speed spirals and wingovers. I said sure but right away motion sickness hit me hard and we had to cut the 'fun' part short before a surprisingly gentle landing right on the shores of the lake at Khapaudi.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Paragliding in Pokhara was a surreal experience, soaring silently over terraced fields and green valleys with just the wind around me.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2019/11/06/9bbcf55a-54e8-4a7e-8c6f-12d718bc0da0.jpeg",
         "location": "Pokhara",
         "readingTime": "2",
+        "snippet": "Flying Over Pokhara",
         "stats": {
           "distance": null,
           "gain": null,
@@ -92686,32 +92578,13 @@ const data = [
       {
         "date": "September 2nd, 2018",
         "description": [
-          "I’ve done a few day hikes before in the Andes mountains of South America. These included Torres del Paine in Patagonia, and San Jose de Maipo outside of Santiago, Chile. Each had around 600 meters of gain. But this was my first time actually hiking into, up, and over mountains.",
-          "This would be my second time in France, and Europe. My arrival into Les Houches, France on the previous day was delayed until the late evening hours. But being back in backpacking mode made me feel at home.",
-          "Dinner was in full swing when I showed up.",
-          "The host seated me at a table with a group of French speaking folks. They knew very little English, but tried their best to make me feel welcomed. All of us were here for the same reason: to hike the Tour du Mont Blanc.",
-          "Tour du Mont Blanc is a 170 kilometer (105 mile) circuit around the Mont Blanc massif with an approximate height gain and loss of 10,000 meters (32,800 feet). It takes you through France, Italy, and Switzerland while you spend the nights at various mountain huts and refuges.",
-          "A chilly morning treated me to cloud covered views of Les Houches which sits above a valley. The views distracted me so much, that I realized I was going the wrong way. Embarrassed, I returned to the proper route up and out of the town. Barely 10 minutes had gone by before I was ascending earthen steps up and into the surrounding hillside.",
-          "The clouds hung around for about an hour, and made my first experience of this place absolutely magical feeling.",
-          "Gravel paths, wood steps, and paved roads led me higher and higher. Col de Voza was the first stop along the trail. It provided a great view back down into the valley from which I had climbed.",
-          "The alternate route that I had chosen before embarking on this trek took me up through forests with amazing views of the valley beyond.",
-          "Here I would get my first taste of having to scramble over rocks that covered what you could loosely call a trail while using a steel cable bolted into the rock. The drop off was so steep, that I quickly realized that this tour does not mess around.",
-          "Several signs warned us along the way that this was the “dangerous” route. Hell yeah, I thought. Bring it on. I would get what I asked for a short while later.",
-          "More narrow paths, steel cables, and rocks kept me moving towards a rushing river that flowed down from the snow covered top of the mountain. The entrance to the bridge that crossed this river was precipitated by water covered rocks, and I slipped on them while trying to find my way down.",
-          "After crossing the river I was climbing once more up and over rocks and steep switch-back trails.",
-          "The elevation and thin air were starting to take its toll on me: each breath I took became shorter and harder. I found myself taking huge gasping breaths and had to stop to catch myself every 15 minutes.",
-          "I started feeling nauseous as I hiked up the side of the Col de Tricot. I pulled out my last energy bar to give my stomach something to chew on while I pushed up and up.",
-          "The top did not let me down. Here I was at 2120 meters above sea level, and could see a whole world set out before me.",
-          "The climb down was a long series of very steep zigzags. Most of the other backpackers were going down quickly, but I had to go slowly due to my knees. They never fully healed since the Camino nearly three months ago.",
-          "In the valley below me stood the small Chalets de Miage. I arrived nearly two hours later, and grabbed lunch. It was already 2pm and my destination was further ahead.",
-          "Even though I was happy to have gone up to the top of the stage, and come back down again, I still had to put another 300 meters of gain under my belt before I could call the day done.",
-          "At 3:30 pm I found myself at my place of residence for the night at Auberge de Truc. It was a true mountain refuge. Their milk came from the cows they owned, there were no lights in the dormitory, outhouse bathroom, or at the sinks, and there were no showers.",
-          "But none of that mattered. I did this, I accomplished all of this, and that was the best feeling in the world.",
-          "One of the things that I loved most about the Camino was the people you met. This trip had the same aspect to it. Dinner was around 7pm in the evening, and I got to meet a couple from Germany, a man from South Korea, and a lady from Spain.",
-          "The setting sun called us outside after dinner. It was striking the top of Dome de Miage and covering it in the brightest pink and orange colors that I’ve ever seen on a mountain.",
-          "Life in the mountains is so peaceful and quiet. The sound of the cowbells didn’t even bother me, and helped to play a soothing role in putting me to sleep later that night."
+          "I've hiked before in the Andes while doing the Torres del Paine in Patagonia and San Jose de Maipo outside Santiago, Chile, both climbs of around 600 meters. But nothing prepared me for hiking into, up, and over mountains. My second trip to France brought me to Les Houches, a quaint village perched above a valley. Arriving late the night before, I was immediately thrust back into backpacking mode, and dinner at a local auberge set the tone for what lay ahead. Seated with a table of mostly French-speaking hikers, I felt an instant camaraderie; we were all here for the same reason: the Tour du Mont Blanc.",
+          "The Tour du Mont Blanc is no small feat: 170 kilometers circling the Mont Blanc massif, with roughly 10,000 meters of elevation gain and loss, weaving through France, Italy, and Switzerland, and nights spent in mountain huts and refuges. A chilly morning greeted me with cloud-covered views of Les Houches, and I quickly realized I was headed the wrong way. Momentarily embarrassed I started ascending earthen steps into the hillside. Clouds lingered for an hour, casting a magical veil over my first encounter with this legendary trail. Gravel paths, wooden steps, and paved roads carried me higher until Col de Voza offered the first sweeping view back down into the valley.",
+          "The alternate route I had chosen led through dense forests and rocky scrambles, complete with steel cables bolted into sheer rock faces. Signs warned of \"dangerous\" paths, and I welcomed the challenge. Waterfalls and rushing rivers punctuated the trail, with slick rocks forcing cautious crossings. The ascent to Col de Tricot tested my limits: thin air made each breath labored, my stomach protested, and nausea set in. But reaching 2,120 meters above sea level rewarded every struggle with a panorama that stretched farther than I could take in at once.",
+          "The descent was grueling on my knees, lingering reminders of the Camino three months prior. By the time I reached Chalets de Miage, it was already 2 p.m., and I still had more climbing ahead before reaching my refuge for the night, Auberge de Truc. The auberge was a true mountain hideaway: no lights in the dorm, outhouse bathrooms, and milk straight from their cows. And yet, none of it mattered. I had done it. I had climbed, scrambled, and crossed rivers. I had made it through my first day in the high mountains.",
+          "Dinner brought new friendships: a couple from Germany, a man from South Korea, and a woman from Spain. Afterward, we watched the sun paint Dome de Miage in brilliant pinks and oranges. Life in the mountains is quiet, almost sacred. Even the cowbells, which might annoy elsewhere, were soothing here, lulling me to sleep as I dreamt of the next stage of the Tour du Mont Blanc.\n"
         ],
-        "excerpt": "",
+        "excerpt": "My first day on the Tour du Mont Blanc pushed me to the limits of endurance: rocky scrambles, river crossings, and thin mountain air. But standing at 2,120 meters above sea level, the sweeping views, mountain peace, and new friendships made every step unforgettable.",
         "gpx": [
           [
             45.889928,
@@ -93708,7 +93581,8 @@ const data = [
         "hasStats": true,
         "image": "2018/09/02/135eea74-e1bc-4cab-bfd7-28d17405a744.jpeg",
         "location": "France",
-        "readingTime": "5",
+        "readingTime": "3",
+        "snippet": "Stepping into the High Alps: My First Day on the Tour du Mont Blanc",
         "stats": {
           "distance": {
             "label": "distance",
@@ -93803,26 +93677,13 @@ const data = [
       {
         "date": "September 3rd, 2018",
         "description": [
-          "This was only the second day, and the second highest elevation point I’ve ever been to, so it was a rough hike up to the Col de la Croix. The pictures do not capture the steepness of the trail. I would be walking, hiking, and pulling myself up through all different types of things today.",
-          "Mountain sleeping is some of the best sleeping that I’ll ever have. My bunk was next to the door, so I had to contend with people going in and out to use the bathroom in the middle of the night, but the cold air helped me sleep. I also had an empty bunk next to me, so I didn’t have to worry about someone snoring in my face.",
-          "Since I stayed up high last night, I had to start the day by descending down 750 meters to the city of Les Contamines below. It only took about an hour and half to descend through the winding roads and twisting trails. I got lost twice as I tried to find my way into the city center.",
-          "The way out of town went through a forest that followed a river for most of the way. It was a shallow trail, not much gain in elevation. Saw one of the cutest houses that I’ve ever seen next to the chapel of Notre-Dame de la Gorge.",
-          "Here the trail started to go up, passing by various little waterfalls along the way. One of these watery distractions was a river of a deep blue that cut right down the middle of the forest through a canyon of its own design.",
-          "Several old buildings dotted the land around the trail as I continued on. I took a short breather at Refuge Nant Borrant since I had just climbed about 500 meters. From here on out the trail would become much steeper, and the elevation gain much more rapid.",
-          "Over the next hour I would hike along a gravel path, passing cows, red-roofed houses, rivers, and spotting what looked like the Torres del Paine in the distance (somehow I must have walked to Patagonia).",
-          "I met up with some folks from the night before at Refuge de la Balme (1760 meters) and we all started the next steep part together. It’s always a good idea to stop and turn around every so often though, because the views behind are almost just as amazing as the views ahead. I did this many times during the steep hike, simply because I wanted to see where I had come from. This helped put todays struggle into perspective.",
-          "We moved closer and closer to the clouds as we made the hike up to Col du Bonhomme. I got separated from the people I had been walking with (I can’t remember if I pulled ahead or fell behind), so I did the last couple of hours on my own.",
-          "I didn’t spend much time here at this Col. It took 600 meters to get here, so I definitely took a bit of a break. I took a walk around the col, snapping pictures and admiring the view, but I knew that there was more in store for me and I would have to wait just a little bit longer on the “job well done”.",
-          "The next and final Col for the day was Col de la Croix.",
-          "Now came the boulders, steep drop-offs, and narrow paths. It took every last ounce of power that I had left to navigate these parts. I was in a no-fucking-around mood and did just that: powered through them.",
-          "The refuge for the night was a sight for sore (literally) eyes as I started the 40 meter descent towards it. I arrived just in time before the clouds rolled in and visibility dropped to zero.",
-          "Took my first cold shower tonight. What an experience that was. I’d rather go stinky than do a cold shower again.",
-          "This place also ran on solar power, and since it had been cloudy all day, that meant no lights which meant using your head torch to find your way around. But it also meant eating dinner by candlelight, not too bad. I hung out with some Israelis (Barak and Neta) before dinner, and some folks from the UK, Canada, Brazil, and Ireland during dinner.",
-          "Why is French bread so dry??",
-          "The setting sun lit up a mountain in the distance in soft purples, and the sky behind the hills opposite it in bright oranges.",
-          "Tomorrow would be the highest hike yet for me, and the most meters gained and lost so far, which could have been avoided had I known about a shortcut across the mountain top..."
+          "Day two of the Tour du Mont Blanc pushed me to heights I'd never reached before. The hike up to Col de la Croix was brutal, and the pictures I'd taken didn't even capture the steepness of the trail. Today was a mix of walking, scrambling, and pulling myself over rocks and boulders, testing every bit of strength and endurance I had. The day began with a descent of 750 meters into Les Contamines, winding through twisting roads and trails. I even got lost twice trying to find the town center, but the charming streets and quaint architecture made the detours worth it.",
+          "Leaving the city, the trail followed a shallow path along a river through a forest, dotted with waterfalls and one strikingly deep blue river cutting through its own canyon. The hike steadily became steeper, passing cows, red-roofed chalets, and old stone buildings that reminded me of Torres del Paine in Patagonia. Refuge Nant Borrant provided a short breather before the next push, while Refuge de la Balme marked the beginning of the steep climb to Col du Bonhomme. Pausing to turn back and admire the trail behind me helped put the day's struggle into perspective, as every step revealed breathtaking views.",
+          "The final leg to Col de la Croix was intense: narrow paths, boulders, and sheer drop-offs demanded every ounce of energy I had left. By the time I reached the refuge, the clouds were rolling in, reducing visibility to almost zero. The mountain refuge was a true high-altitude hideaway: solar-powered, with limited lighting, cold showers, and dorm-style sleeping. Candlelight and headlamps lit the evening as I joined fellow hikers from Israel, the UK, Canada, Brazil, and Ireland for dinner. Conversation and shared stories softened the hardships of the day.",
+          "The sunset was a magical reward, painting a distant mountain in soft purples and the sky in vivid oranges. Despite the physical toll, the serenity of the high mountains was intoxicating. French bread may have been dry, the showers cold, and my legs sore beyond belief but every challenge was part of the adventure. Tomorrow promised even greater elevation gains, and I knew I would need all my energy for what was ahead.",
+          "Mountain sleeping, cold showers, and long climbs are hard, but moments like this, where the world spreads out beneath you in clouds and ligh, —make it all absolutely worth it.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Day two of the Tour du Mont Blanc was a test of strength and will: boulder-strewn trails, steep switchbacks, and stunning high-mountain vistas. By the time I reached Col de la Croix, clouds and candlelight at the refuge made every exhausting step feel unforgettable.",
         "gpx": [
           [
             45.83571,
@@ -94819,7 +94680,8 @@ const data = [
         "hasStats": true,
         "image": "2018/09/02/56d3cc07-47c1-40c8-b7ee-483aa01d777c.jpeg",
         "location": "France",
-        "readingTime": "4",
+        "readingTime": "2",
+        "snippet": "Boulders, Clouds, and Candlelight: Conquering Col de la Croix on Day Two",
         "stats": {
           "distance": {
             "label": "distance",
@@ -94916,25 +94778,13 @@ const data = [
       {
         "date": "September 4th, 2018",
         "description": [
-          "When we reached the top nothing but mountains surrounded us. The pedestal marking the highest point on the TMB, and the various peaks in the distance, was covered in ice. But that didn't matter to us while we removed our outer layers. The valley below seemed like another world, so very far away. Today would be a marathon of hiking.",
-          "The Germans and I left Bonhomme around 7:30 in the morning. Our collective goal was an Official highpoint of the TMB on the Col des Fours, and then back down. We accomplished this goal an hour later: Col de Fours at 2,665m.",
-          "An optional trail offered to take us to the summit of Tête Nord de Fours in the distance, but we declined and decided to save the energy for the descent, and my own energy for the climb I would be doing later this afternoon.",
-          "Steep, slanted, rock carried us down from the pedestal and back into the crevices of the mountains. Throw in a little water, and it became a slipping challenge. You can try and look graceful, but it isn’t going to happen. Fall on your butt and welcome the chance to try again.",
-          "The green ground rushed up to meet us as we descended, with rivers rushing next to us falling over edges in little waterfalls. Splinters of rock began to make up most of the path floor.",
-          "Cows dotted the valley below us. It was an entire field full of cowbells. They ignored us, until their owner arrived and started shouting. She was herding them towards our small group. By now our numbers had swelled from 3 to 9 as we picked up more hikers on the way down.",
-          "The cows still didn’t care about us, and would have rightfully ran right through our ranks if we didn’t move out of the way. They had a place to be, and the herding dog wasn’t letting any of them get out of line, or take a break.",
-          "Eventually they were above us as we continued down the narrow dirt path cut into the side of the earth.",
-          "We must have missed an official turn on the path, because we ended up bushwhacking over fields, and passed by abandoned farm houses. Our trusty navigators who held The Map kept telling us to just follow this path, and we trusted them. After a few shortcuts (the path kept looping back on itself so we cut down the sides on some of the declines) we came back to a paved road which took us all the way down to Ville des Glaciers.",
-          "After a short break I was forced to say goodbye to some as I needed to take a different route than they were. Most of us had the same schedules, so I knew I was going to see them again.",
-          "The walk up and out of Refuge des Mottets wasn’t that bad, but I knew the worse was still to come. My home for the night was a tiny brown dot on a gray mountainside nearly 1,000 meters above me.",
-          "I had to stop and breath many times as I made the ascent. Several waterfalls crossed my path, and after making good time initially I started to slow down. But, I pushed on up and over the rocks, letting cairns and rocks on the ground guide my way.",
-          "See if you can spot the brown dot in the distance in the first picture Slowly but surely that tiny brown dot on side of mountain became a building. I made it to Refuge Robert Blanc. Now it was time to relax.",
-          "I really wish I had brought a book with me for when I was relaxing at these refuges. The downtime at these places can feel very long and slow. There are no towns to explore, and you don’t really want to do anymore hiking or walking for the day.",
-          "The clouds rolled in shortly before dinner, and covered the whole mountainside for the remainder of the night. We ate a hearty meal, and made some new friends.",
-          "During dinner I found out about shortcut that went across the top of the mountains. It was the optional trail that went up to Tête Nord de Fours. It continued up and over and was a straight shot to the refuge. Oops.",
-          "I love being up this high, removed from everything below. But, I had no idea just how hard tomorrows hike was going to be."
+          "Reaching the top of the Tour du Mont Blanc highpoints is a surreal experience. At the Col des Fours, 2,665 meters above sea level, nothing but mountains surrounded us. The pedestal marking the highest point gleamed with ice, and the valley below seemed like another world entirely. Today promised a marathon of hiking, but first we soaked in the views and shed our outer layers to enjoy the crisp alpine air.",
+          "We left Bonhomme early in the morning, trekking as a small group of three Germans and myself, gradually picking up more hikers along the descent. The trail down was a mix of steep, slanted rocks and slippery patches from water, turning the hike into a constant balance challenge. Rivers cascaded alongside us, and eventually the green valley floor appeared, dotted with cows whose cowbells created a constant jingling soundtrack. Herded by a vigilant farmer and her dog, the cows gave us a memorable encounter in the alpine fields.",
+          "The path wasn't always straightforward. We missed a turn and ended up bushwhacking across fields, past abandoned farmhouses, before reconnecting with a paved road that led to Ville des Glaciers. From there, I diverged from the group to tackle the ascent to my next stop: Refuge Robert Blanc. The refuge appeared as a tiny brown dot on a distant mountainside nearly 1,000 meters above me. The climb tested every ounce of energy, with waterfalls crossing my path and cairns guiding me over rocks and switchbacks.",
+          "Arriving at the refuge was a relief. The downtime at these mountain shelters can feel long, but the view, fresh alpine air, and camaraderie make it worthwhile. Clouds rolled in before dinner, cloaking the mountainside in mist, while we enjoyed a hearty meal and met fellow hikers. I later discovered I had missed a shortcut across the top of the mountains: the optional trail to Tête Nord de Fours, which would have saved some serious elevation gain. Live and learn.",
+          "Being this high, removed from everything below, is intoxicating. But with tomorrow's hike looming, I knew the mountains were not done testing me. Every step, every climb, and every breath reminds me why I keep returning to trails like these.\n"
         ],
-        "excerpt": "",
+        "excerpt": "At 2,665 meters, the Col des Fours is breathtaking but the hike down into valleys, cow-filled fields, and the long ascent to Refuge Robert Blanc proved that beauty comes with a serious challenge.",
         "gpx": [
           [
             45.722553,
@@ -95931,7 +95781,8 @@ const data = [
         "hasStats": true,
         "image": "2018/09/02/0420d236-d12a-40e8-8d6c-90558e26d304.jpeg",
         "location": "France",
-        "readingTime": "4",
+        "readingTime": "2",
+        "snippet": "Ice, Cowbells, and Long Ascents: Day Three to Col des Fours and Refuge Robert Blanc",
         "stats": {
           "distance": {
             "label": "distance",
@@ -96028,29 +95879,13 @@ const data = [
       {
         "date": "September 5th, 2018",
         "description": [
-          "As eager as I was to begin hiking down and over to the Col de la Seigne, I failed to research the trail. It did not go down. Instead, it went straight across the face of Mont Tondu. Uh, ok sure, no problem, how hard can it be?Very hard is the answer.",
-          "Italy was waiting for me as I strapped on the shoes and backpack.",
-          "Almost immediately the path turned from rocks into dirt, but not really dirt. More like a slippery solid clay mixture that had flaked into a million pieces. Each step forced the ground out of the way as it tried to resist the force being applied to it. The feet would slip a few inches down each time I tried to stop level.",
-          "Several descents did take place, but they brought me towards ever increasing obstacles.",
-          "First was the 2x4 wooden beam laid across a gully that had a stream of water running underneath it with two steel ropes to hold on to as you crossed.",
-          "The ground, which was solid stone now, turned from flat into slanted and bulging, making the footing tricky. The trekking poles came in handy, giving me a solid planting to push up and off from.",
-          "Next came the chains that you had to climb and pull yourself up. Good thing I started doing pull-ups back at home before leaving for the trip. The third and final type of obstacle was fields of boulders with gaps in-between them. Each boulder moved just enough when you stepped on it to make you panic. The dark gaps between the rocks made you realize that they were piled high.",
-          "Most of the two hour traverse of this mountainside was filled with a variation of these types of obstacles. Time and again I would get turned around, and have to search for the double yellow line marks, or a cairn, which would tell me that I was back on the right path.",
-          "Finally the end of this mountainside trek was here, and it was a nearly vertical climb using steel cables the entire way. With a threshold of only a few inches, the climb zig zagged up the side of the cliff that would bring us to the Col de la Seigne.",
-          "After reaching the top and pulling myself up and over onto flat, grassy, ground once more, a strange feeling washed over me. I wasn’t relieved that I had survived, no, it wasn’t that kind of feeling. It was a feeling of “I did that, I pushed myself and did that”. It was a feeling of triumph and personal best.",
-          "During the morning trek, I had become separated from a pair of Golden Teapot toting Swiss-germans. They were more experienced than I was, and had sped ahead. I quickly set off on foot for the Col and to rejoin them.",
-          "The col offered beautiful views back into France, and forwards into Italy. I did not stay here long since I did not see my new hiking companions. I raced down from the top. I had learned how to do fast descents on gradually sloping dirt paths in Spain (walk like a monkey, trust me), and made quick work of this part.",
-          "Rifugio Elisabetta was the next resting place, but again after not seeing them, I kept going.",
-          "Glaciers and mountains surrounded me as the vegetation transitioned from grass to bushes to trees. A few cow herders decided that now was a good time to let their creatures cross the path. I took an alternate route to get down to the valley floor because of this.",
-          "Once I got to the valley floor I turned on the after burners. Speed walking was my jam, and I made quick work towards Lac Combal.",
-          "There was no sight of them along this part though, and I decided to stop speed talking and save the speed, because more ascents were on the way.",
-          "It would take another three hours of up’s and downs (mostly ups) while Mont Blanc smiled down at me. Before I realized it I was already high above the valley floor again, and the views took me by surprise. It’s hard to put these types of things in perspective until you’re either very high up or very low down.",
-          "Mont Blanc decided to hide behind clouds for the entire afternoon, and I was focused the lake dotted path in front of me, especially since the cow herds had returned and were taking up most of the path. I always felt nervous when I tried to pass them.",
-          "I ran out of water an hour from my destination, not good! But, I arrived safe and sound, with my reservation waiting for me. Some familiar faces gradually arrived, along with someone from Barcelona who I had met at Auberge le Truc. I also had a chance to say so-long to the Swiss-germans who were there relaxing before they would be continuing on that afternoon.",
-          "The place had beautiful views of the valley that would bring us to Courmayeur. Ponies and horses lived at this refuge, and they came out to say hello. The horses also tried to get inside in order to get at the food.",
-          "Dinner was delicious, the evening sky was relaxing, and the beds were comfortable. I can feel a congestion in my sinuses coming on…"
+          "I started the day eager to hike toward the Col de la Seigne, but a lack of research quickly reminded me that mountains don't always follow your expectations. Instead of a simple descent, the trail cut straight across the face of Mont Tondu, a technical traverse filled with slippery clay, boulders, steel cables, and chains. Every step was a challenge, forcing me to balance, scramble, and trust my trekking poles, while constantly scanning for cairns and double yellow trail markers to stay on course. By the time I reached the final vertical climb to the col, the feeling was not just relief, it was pure triumph. I had pushed myself and emerged stronger for it.",
+          "The Col de la Seigne itself offered breathtaking views back into France and forward into Italy. I pressed on quickly, descending with a newfound confidence I'd developed from past speed-hiking techniques, weaving past cow herders and their grazing flocks while keeping my eyes on the next ascent. Rifugio Elisabetta flashed by, and then I was racing toward the valley floor and Lac Combal, the mountains around me shifting from grasses to bushes and trees, with Mont Blanc looming silently in the clouds above.",
+          "The afternoon was a mix of ups and downs, the terrain constantly reminding me of the magnitude of the Alps. By the time I reached my destination, I was high above the valley floor again, awed by the perspective that only comes from being this far up. Mont Blanc hid behind clouds for the day, leaving me focused on the lake-studded paths and the returning herds of cows that made the trail an obstacle course of its own. Running low on water added another element of tension, but the thought of the refuge kept me moving.",
+          "Arriving at the evening's refuge was a relief in every sense. Ponies and horses greeted me at the door, curious and insistent on joining the dining room. Familiar faces from earlier in the trip trickled in, along with a hiker from Barcelona I had met days prior. The views of the valley below were spectacular, the beds welcoming, and the dinner a well-earned reward after a day of relentless hiking and scrambling.",
+          "As the sky softened in the evening, I reflected on the day's challenges. The mix of technical climbs, slippery traverses, and cow-filled paths had tested every skill I had acquired on the trail. Yet despite the physical exhaustion, there was a deep satisfaction in knowing I had met the mountains head-on. Tomorrow promised new climbs, but tonight, the mountains were quiet, and so was I.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Mont Tondu tested me with slippery clay, boulders, and steel cables but reaching Col de la Seigne and racing toward Lac Combal rewarded every ounce of effort with triumph and breathtaking alpine views.",
         "gpx": [
           [
             45.765051,
@@ -97047,7 +96882,8 @@ const data = [
         "hasStats": true,
         "image": "2018/09/02/488a5815-e763-406d-94e1-5e51ff25cafe.jpeg",
         "location": "Italy",
-        "readingTime": "5",
+        "readingTime": "3",
+        "snippet": "Day Four: Triumph, Cowbells, and Alpine Adventure on the TMB",
         "stats": {
           "distance": {
             "label": "distance",
@@ -97144,27 +96980,13 @@ const data = [
       {
         "date": "September 6th, 2018",
         "description": [
-          "This day was filled with rain, but it started out bright and sunny. Most of the descent down into the skiing town of Courmayeur was a gradual transition from sandy-dirt to solid dirt, and then finally paved roads.The surrounding hills, when they were visible through the dense forest, were covered in ski lifts and ski paths.",
-          "Most of the trail was in the woods, so it was very beautiful. Along the way there were small rock outcroppings that offered a humbling view of the valley below and beyond.",
-          "I passed an abandoned house on the hillside, deep within the trees and right below a ski lift. I love exploring and walking around ruins, so I took a peak inside. It looked like no one had lived here for quite some time. The stairs were falling apart, and several holes were in the roof of the second floor whose own floor had long since fallen apart.",
-          "Taking my time going down the trail due to the unstable nature of the material on the ground, and my poor knees, I suddenly realized that I never used the bathroom at the last place. My goal became immediately clear to me: find a public bathroom, or at the very least, a spot in the woods to squat.",
-          "Luckily, I wasn’t able to find a spot in the woods so I was forced to hurry into the city center and find a toilet. The bus station had one, and I was so relieved (both literally and figuratively).",
-          "The next order of business was to find snacks and an ATM because I needed to stock up on cash for the next few refuges.",
-          "Having acquired cash, and food, I went up the steep road to the town square that overlooked the mountains and the old village houses below. It was a most amazing sight. These folks sure do have it good here. I grabbed a slice of pizza (or something that looked like pizza) and did some window shopping.",
-          "All of the streets were filled with fancy and expensive restaurants, wine tasting rooms, and the most expensive outdoor clothing brands available. A lot of people later told me that there were some really great spas in town, but I wasn’t in the mood. I had places to be, things to do.",
-          "On the way up and out of town I ran into Barak and Neta from Israel (whom I had met in Bonhomme three days earlier). We walked together up until the first mountain ascent outside of Villair. This is when the rain started to move in. Up we went and down the rain came. But I did not mind, because I absolutely love hiking in the rain. It cools you off and provides a nice sound to walk in. I mean, who doesn’t like the sound of rain falling on leaves?",
-          "As usual, I had pulled ahead of everyone. When I get a destination in my mind, I push myself to reach it. At the top of the Aosta Valley I took a break at Rifugio Bertone and consumed my snacks that I had purchased 650 meters below. I waited for Barak and Neta to arrive (they had taken a break on a grassy area overlooking the city below and made coffee).",
-          "The rain had started to fall more aggressively now, and we decided that it wouldn’t be safe to try for the high pass today across the Col Sapin and Pas Entre-Deux-Sauts (2436m and 2524m, respectively).",
-          "We posed for pictures at the distance pedestal up here, and then started our mostly level and flat walk towards our last residence in Italy for the trip.",
-          "I was thankful for the flat ground, because the rain was turning everything into mud, and I had a hard enough time staying upright, even with the sticks. We had to cross rivers, and scramble up slippery waterfall sides in order to continue on the trail.",
-          "Some of them required intense negotiating skills on my part. Eventually all of the obstacles would let me cross over and continue.",
-          "Along the way we passed by some ruins, and, of course, I had to stop and check them out. I wonder about who might have lived in them, and how old they could be.",
-          "We also passed by an old cattle house that still smelled of fresh poop. Lovely. After going around it, I realized that the trail actually went above it and I had taken a self-created detour.",
-          "One final river to cross (on a bridge this time at least), a short bend around the side of hill, and a brief 50 meter steep hike and we had arrived at our destination.",
-          "Tonight would also be my second cold shower. It started off hot, but not even 30 seconds in and it turned ice cold. They had warned me that this would happen, because arriving later in the day means there is less hot water to go around. I should have soaped up first before starting the flow of water. You live and learn.",
-          "Some of the folks who I had met back in Les Houches were staying here, and we were able to reconnect over dinner, along with some new faces. The clouds hung around tonight, covering the mountains. No stars this evening."
+          "The day began bright and sunny as I descended toward the skiing town of Courmayeur, transitioning from sandy trails to paved streets. Most of the hike took place under the forest canopy, offering glimpses of ski lifts and paths on the surrounding hills. Along the way, I passed an abandoned house tucked deep in the trees, its crumbling floors and holes in the roof telling silent stories of a life long gone. I couldn't resist exploring, marveling at the eerie beauty of forgotten spaces before continuing down the trail.",
+          "Navigating the unstable terrain with sore knees made progress slow, and a sudden realization hit me: I desperately needed a bathroom. Fortunately, the bus station in the city center came to the rescue. With a sense of relief, I stocked up on cash and snacks before heading uphill to the town square. From there, I gazed over the valley, marveling at the village houses and mountains beyond. Courmayeur's streets were lined with luxury shops, wine tasting rooms, and high-end restaurants, a stark contrast to the rugged mountain trails just behind them.",
+          "I reunited with Barak and Neta, whom I had met three days earlier, and we walked together until the first mountain ascent outside Villair. Rain began to fall, alternating between cooling drizzle and steady sheets, making the trail slippery and the rivers along the path challenging to cross. I didn't mind, the sound of rain on leaves has always been one of my favorite hiking companions. At Rifugio Bertone, 650 meters above Courmayeur, I took a break and snacked while waiting for Barak and Neta, enjoying the panoramic views of the Aosta Valley.",
+          "The high passes of the day, Col Sapin and Pas Entre-Deux-Sauts, were deemed too dangerous under the worsening weather, so we took a flatter, safer route to our final Italian refuge. Even on mostly level ground, the trail was muddy and slick, forcing us to scramble over waterfalls, rivers, and ruins along the way. I paused at the ruins, imagining the people who had once called them home, before making a final push over a short, steep incline to our destination.",
+          "The evening was a mix of exhaustion and comfort. I endured my second cold shower, learning the hard way that late arrivals mean less hot water. Dinner was a chance to reconnect with familiar faces from Les Houches and meet new hikers along the way. Outside, the clouds blanketed the mountains, obscuring the stars, but the day's sense of accomplishment and camaraderie made it a perfect alpine evening.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Rain, rivers, and ruins marked the journey to Courmayeur, but the reward was stunning views, shared stories with fellow hikers, and the satisfaction of navigating Italy's alpine trails.",
         "gpx": [
           [
             45.791012,
@@ -98161,7 +97983,8 @@ const data = [
         "hasStats": true,
         "image": "2018/09/02/9cefaedf-2e6b-439a-9512-f1f37d2374eb.jpeg",
         "location": "Italy",
-        "readingTime": "5",
+        "readingTime": "3",
+        "snippet": "Rain, Ruins, and Alpine Trails: Hiking Into Courmayeur on Day Five",
         "stats": {
           "distance": {
             "label": "distance",
@@ -98257,31 +98080,13 @@ const data = [
       {
         "date": "September 7th, 2018",
         "description": [
-          "The clouds hung over the valley as I left the Rifugio in the morning. Across the valley floor stood Mont Blanc, but it refused to reveal itself that day. I would have to wait three more days before seeing it.Several abandoned buildings greeted me on todays hike, and I took every opportunity to walk amongst them.",
-          "Within an hour the Rifugio had disappeared behind the trees as I worked my across the hillside, and descended down.",
-          "Most of the morning was filled with zig-zags in the trail. The walls of the valley were dotted with clumps of evergreens on one side, and the gray wall of rockslides and mountains on the other. I took every chance that I could to turn around and snap some pictures.",
-          "The clouds kept a dark mood over the world around me, and I was alone for most of the first hours of the day. The river below me looked like as good a place as any to take a break. I broke out my snacks and sat there for a few moments enjoying the sounds of the water rushing by. There was a Chalet nearby that most people stopped by for breakfast.",
-          "After taking in my fill of the river and the quite, I packed up and headed out for the ascent to Rifugio Elena, which was on the way up to the crest known as the Grand Col Ferret (not to be confused with the Petit Col Ferret just below it).",
-          "When I arrived at the Rifugio I was forced to step inside and warm up. The wind up here were intense, and howled around every rock and wall corner. It was time to put on the extra layers for the next hike but first, a hot sandwich.",
-          "I bought a toasty Bocadillo (just a sandwich really, with meat and cheese), and joined Barak and Neta at a table in the back. We tried to take some group pictures outside but the wind and cold made us look miserable in the pictures.",
-          "The winds did not let up as we climbed to the top of the Col. The clouds seemed to be getting lower and lower, but it was actually us who were getting higher and higher. Here the trails seemed to go off into nothingness.",
-          "At the top of the Grand Col (2537m) the clouds were racing over the ground, running into Italy behind us. If it wasn’t tied down, it would be sent running with the clouds. My first views of Switzerland (from the Alps at least) were of dirt paths and yellow grass covered hills. Once we were several dozen feet into our next country, the wind died down.",
-          "Here it was quiet. Probably the quietest that I’ve ever heard in nature. No birds, no wind, no animals. Just clouds, with the sun poking through, and the views of fresh mountains. I literally didn’t hear anything for several minutes as I stood there staring in awe at the towering clouds moving across the face of a mountain to the East of me.",
-          "Further along a grassy hillside appeared and provided a great spot to sit down and rest. Several other people were already here, and I tried to find a spot that wasn’t covered in dried cow poop. In the valley below us cows were being herded from one end to the other, and we watched their herd move in slow motion while listening to their bells.",
-          "Finally the clouds were going away, and the bright sun was shining down on us. On the way down I had what could possibly be considered the worst fright of the trip:",
-          "As I came up to a pass on the trail that went down to a farm that sold cheeses from the cows that it owned, I had to walk through a herd of gray furry looking cows. Some of them ignored you, but others were also moving down the trail at the same time.",
-          "I decided to step over the wire that marked the path for the cows to take in order to stay away from them since they didn’t cross the wires. This worked until I crossed back on to the dirt path, certain that no more cows were around me. From above came the sound of a cow bell as a couple of cows had begun to make their way down the trail.",
-          "One cow in particular was moving at a fast pace, and I quickened my own pace in order to stay ahead of it. I stuck to the dirt path, but the cow decided to take a shortcut over the grassy part. Our two paths crossed at the bottom of the trail.",
-          "I froze in my place. The cow did not. It kept coming, at a good trot as well. At the last moment I jumped back and out of its way.",
-          "Now, earlier I had said that I considered this to be the worst fright of the trip, but I think I scared the cow more than it scared me.",
-          "As I jumped back it also jumped, but straight into the air. I must have startled it, and the thing must have flown at least 5 feet into the air. It continued trotting down the path after landing back on the ground. I quickly gathered myself (luckily no bodily fluids had been released), and kept going.",
-          "The rest of the day, in comparison, was uneventful.",
-          "Beautiful green hills and valleys, along with deep blue skies and white clouds, filled the world around me. I met some Irish girls on the way into town after crossing the river, and we helped each other get lost and found.",
-          "Tonight I would be staying at Maya Joie just outside of the small town of La Fouly. Went shopping at the food market and bought stuff to make sandwiches for tomorrow. We then grabbed a beer at the bar above the food market.",
-          "Dinner was a traditional Swiss dinner made from a gigantic melting block of cheese and served with potatoes called Raclette. My god was it delicious! In total I had three servings, and enough cheese for a good long while. After dinner we played scrabble.",
-          "Tomorrow promises to be the easiest day so far with only 500m of total gain."
+          "The morning began under a blanket of clouds as I left the Rifugio, with Mont Blanc teasingly hidden from view. The trail took me past several abandoned buildings, and I couldn't resist exploring each one before descending along the zig-zagging path through the valley. Clumps of evergreens lined one side of the trail, while the stark gray cliffs of rockslides towered on the other. At a quiet river, I paused to snack and enjoy the gentle sound of rushing water, a rare moment of solitude before the ascent to Rifugio Elena.",
+          "The wind greeted me fiercely at the Rifugio, howling around every rock and corner, forcing me to layer up before continuing to the Grand Col Ferret. I grabbed a warm sandwich and met up with Barak and Neta for a quick regroup. Outside, the wind made taking photos a challenge, but the anticipation of crossing into Switzerland kept us moving. The climb to the col was relentless, with clouds racing around our feet as we ascended to 2,537 meters, the trails seeming to vanish into nothingness at times.",
+          "Crossing into Switzerland brought an unexpected stillness. The wind died, leaving only quiet. Probably the quietest I've ever experienced in nature. The sun began to peek through the clouds, illuminating fresh green mountains and grassy hills. I paused to rest, observing cows slowly herded below and the peaceful rhythm of alpine life. It was a moment to breathe and simply appreciate the world around me.",
+          "Descending into the valley brought a surprise fright: a fast-moving cow trotting straight toward me. I jumped out of the way, and in a comedic twist, the cow leapt into the air before continuing down the trail. Thankfully, both of us survived unscathed, and I continued on my way, navigating rivers and lush green hills before reaching the small town of La Fouly. Along the way, I met a group of Irish hikers, and we helped each other find the path after a few minor misadventures.",
+          "The evening offered a well-earned respite at Maya Joie, where I stocked up on supplies for the next day. Dinner was an unforgettable Swiss feast of Raclette, the melted cheese served with potatoes, devoured in three hearty servings. We ended the night with a game of Scrabble, full and satisfied, as the sun set behind the mountains. Tomorrow promised a gentler hike with only 500 meters of gain, a welcome reprieve after the challenges of the day.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Crossing into Switzerland under racing clouds and fierce winds, I discovered quiet alpine beauty, a heart-stopping encounter with a cow, and the joy of Raclette at the end of a long day.",
         "gpx": [
           [
             45.846637,
@@ -99278,7 +99083,8 @@ const data = [
         "hasStats": true,
         "image": "2018/09/02/891cd8a7-97d2-4251-ac34-6c816c0ec570.jpeg",
         "location": "Switzerland",
-        "readingTime": "6",
+        "readingTime": "3",
+        "snippet": "Day Six: Clouds, Cows, and Swiss Raclette",
         "stats": {
           "distance": {
             "label": "distance",
@@ -99373,27 +99179,13 @@ const data = [
       {
         "date": "September 8th, 2018",
         "description": [
-          "A backpacker that we shared dinner with yesterday at Maya Joie was going in the opposite direction, and told us about a massive waterfall after La Fouly. I was eager to check it out, and to make today just a little harder because, you know, gotta get the steps in!",
-          "The way out of town was a little unsure to us, but thanks to my new Catalonian friend we found our way out. After leaving the town center, and paved road, we were immediately walking through the forest and down towards a river crossing.",
-          "After the river crossing, which was surrounded by concrete walls and served as a mini dam, we were back in the woods. The sun had not fully cleared the tops of the mountains to our right as we continued Northbound and came to the path leading to the waterfall.",
-          "What looked like a mostly flat path ended up being very steep and slippery, thanks to the morning dew. But the journey was well worth the reward. I had to scramble a bit near the top, just below where the water was striking the ground. I was terrified that the slightest misstep would land me in the pool of rocks and water below me. But I was able to get close enough to feel the water spraying on my face.",
-          "I was tempted to stick my head into the waterfall, but scared at the last moment. It wasn’t easy moving around up there, and I had already slipped way to many times on the wet rocks trying to get close. I wasn’t going to push my luck knowing my history of clumsiness.",
-          "Several of the people we knew had arrived at the bottom of the path as I was beginning to make my way down. We all walked together for the rest of the day.",
-          "Most of the path went along a massive dried up river, twisting and winding it’s way through the forest. Several times the trail would leave no room for error as we crossed narrow paths which sometimes had a chain to hold on to, and a nice 100 foot drop below you.",
-          "After taking a right angle turn away from the valley wall, and walking down a gently rolling path, we found ourselves entering the town of Praz-de-Fort. We were now officially in Swiss valley villages. Small village after small village greeted us as we walked a mostly paved path through the valley floor.",
-          "Each house was a perfect little wooden masterpiece that evoked rest and relaxation. There was a good mix of new/modern houses, and old barn style houses that looked like they might fall over at the slightest touch.",
-          "After the third village we decided to rest at a cute little bar/cafe in Issert. I gave in and bought an ice cream sandwich while we sat on the porch and stared at the greenery around us.",
-          "Now it was time to begin the steepest part of the “climb”. Really it was only 1.5 hours of going up, and probably less than 500 m in total gain. We passed a cave along the way and ventured inside to explore.",
-          "There were also many wood carvings in the forest on this ascent. Mushrooms (lots of mushrooms), antelope, beaver sculptures greeted us from time to time. We even passed a spot where some locals were scaling the rocky side of a mini mountain outcropping.",
-          "But the arrival into Campex and its lake was easy, and before long we were all sitting down at a bar eating pizza and drinking beers. After a couple of hours it was time to make the way to our separate places of residence for the night.",
-          "The day took a turn for the worse after leaving the lake behind and going our separate ways for our accommodations. I got lost, four times! Well, technically you can only get lost once, but I took four different routes to try and find the Gite that I was going to be staying at.",
-          "My first attempt was to head up an alternate path that everyone swore would take me to where I needed to be, but it was an alternate path that led up to the wrong Refuge (this one was were two of the people I knew were staying).",
-          "On the way down I asked an old Swiss lady whose only advice was to wave her hands in circles. I then tried to follow a river, because, you know, they lead to civilization. That didn’t work, and I ended up doubling back to the place where I had met the old Swiss lady.",
-          "Finally I ran in to a group of young adults (probably in high school) and asked them where to go. Luckily one of them spoke enough English to point me in the proper direction. Thank you random group of people, where ever you are!",
-          "Thankfully the Gite was a delight, and I ended up having dinner with my new South Korean friend. He tried his best to teach me basic Korean. Sadly, the only thing I remember is Annyeonghaseyo (roughly pronounced on-yo-his-ay-o).",
-          "It was a delightful evening to erase the scariness of getting lost, and to learn a little bit in the process about another culture, and my fortitude in the face of adversity."
+          "Today began with a bit of adventure before the hiking even started. A backpacker we'd met at Maya Joie had told us about a massive waterfall just past La Fouly, and I was determined to check it out. Leaving town, we quickly found ourselves in the forest, descending toward a river crossing before continuing north toward the waterfall. What seemed like a gentle path revealed itself as steep and slippery with morning dew, but the payoff was breathtaking. I scrambled carefully near the base of the falls, feeling the spray on my face, and paused to savor the raw power and beauty of the cascading water.",
+          "Once back on safer ground, we reunited with other hikers and continued together through the forest. Much of the trail followed a dried-up river, winding through narrow paths with occasional chains to keep us from tumbling over steep drops. Soon, we emerged into the valley villages of Switzerland, with Praz-de-Fort and its neighboring towns greeting us with charming wooden houses, blending new construction with centuries-old barns that looked ready to collapse at the slightest touch. We rested at a cozy café in Issert, indulging in ice cream sandwiches while taking in the surrounding greenery.",
+          "The day's climb was deceptively short, about 1.5 hours and under 500 meters of gain, but full of delightful surprises along the way. A cave tempted exploration, and the forest was alive with whimsical wooden carvings of mushrooms, beavers, and antelope. We even spotted locals scaling a small rocky outcrop, a reminder that mountains invite adventure at every turn. The final stretch brought us to the lake at Campex, where we enjoyed pizza and beers before heading to our separate accommodations for the night.",
+          "Navigating to my Gîte turned into an unintended adventure of its own. I got lost. Four times. Testing both my patience and problem-solving skills. From following the wrong paths to asking directions from an elderly Swiss lady whose advice involved circular hand gestures, I eventually found my way thanks to a group of helpful teenagers. The misadventures faded as quickly as they came; my Gîte was warm and welcoming, and dinner with a new South Korean friend brought laughter and cultural exchange. I even learned to say \"Annyeonghaseyo,\" though it may take a few more tries to remember it.",
+          "By the end of the day, I felt a mix of exhilaration and gratitude, exhilaration from the waterfall and winding trails, and gratitude for the kindness of strangers, the beauty of the Swiss villages, and the resilience built with each step. It was a day that reminded me why I love hiking: the perfect blend of challenge, discovery, and the simple joys of connecting with people along the way.\n"
         ],
-        "excerpt": "",
+        "excerpt": "From slippery waterfalls to winding Swiss villages, today was a mix of adventure, getting lost, and cultural exchange ending with pizza, ice cream, and a new friend.",
         "gpx": [
           [
             45.934986,
@@ -100390,7 +100182,8 @@ const data = [
         "hasStats": true,
         "image": "2018/09/02/8d209b3b-8d40-49b3-b754-fd91466c9708.jpeg",
         "location": "Switzerland",
-        "readingTime": "5",
+        "readingTime": "3",
+        "snippet": "Waterfalls, Villages, and Getting Lost in Switzerland, all on Day Seven",
         "stats": {
           "distance": {
             "label": "distance",
@@ -100485,27 +100278,13 @@ const data = [
       {
         "date": "September 9th, 2018",
         "description": [
-          "The sun and blue skies were out in full force today. Hiking through the woods in the early morning hours with the sun streaming through the trees is one of the most magical things that you can hope to see in nature.I took my time walking today, and made sure to see everything.",
-          "The first 30 minutes were easy because I had already gone this way at least three times last night! I knew where to go, and which routes to take.",
-          "Once I reached the flat ground that entered the mountains I took a break to remove my jacket and get ready. I figured it would take me a couple of hours to get to the top, but it ended up taking three.",
-          "I was making for the Fenetre d’Arpette at 2,665m. This is also the other highest point on the TMB (but not an official one since it’s optional and not recommended).",
-          "The first half of the trek was through woods before quickly turning into shrubs and low sparse trees. Colors of all kinds accompanied me as I crossed over rivers, pulled myself up over boulders, and went up into the mountains. I turned around once at least every 10 minutes to snap a picture of the ever increasing field of view behind me.",
-          "Soon enough all forms of large vegetation where gone, and we were left with crab grass and rocks. And even then that was gone within 30 minutes and all that was left were bare rocks.",
-          "The scariest part of todays hike and climb came upon me just below the summit. A field of boulders, some the size of camper vans, lay between me and my goal.",
-          "I had walked/hiked over fields of small boulders a few days earlier when I had left Robert Blanc for Italy. These were different. The average size was much greater, and these guys moved a lot more than those did.",
-          "I avoided all distractions (hence no pictures of this) as I went up. I kept a watchful eye out for the white and red strips that told you which way to go. Several cairns that were placed along the way also helped.",
-          "At one point I had to hug a boulder the size of my bedroom as I inched my way around it.",
-          "Several of these rocks also required you to climb up them, only to realize you went the wrong way, and then you had to find a scary alternate way around them.",
-          "Once I got passed the field of rocks, I turned around to stay back in wonder and amazement. Second scariest obstacle had been overcome!",
-          "On the way up the steep zig-zag path to the top I came upon Barak and Neta. We shared lunch and picture taking at the top, and sat there for nearly an hour, taking it all in.",
-          "They say that they way down is harder than the way up sometimes, and this time they were correct. While the fight up meant dealing with shifting boulders the size of cars, the fight down meant fighting one of the steepest and sloppiest descents to date.",
-          "A massive glacier (Glacier du Trient) occupied our view to the left, along with the massive smooth rock that it had created during its life.",
-          "I quickly lost patience after we got through the scariest part of the descent, and started to hurry down to the river below. I started jumping down at certain parts (which is not a good idea when you have bad knees). For some reason I just wanted to be done with the descent. In total it took three hours to get down.",
-          "I waited for the others to catch up at a bar near the river just outside of town. It was filled with locals, but they were used to seeing backpackers come down from the mountains.",
-          "Finally, by 3:30pm we were on our way to our rest spot for the night: Refuge du Peuty. I cannot recommend this place enough.",
-          "The two women who run this place make dinner for you in an old washing machine (not kidding), and play the best music during dinner which is made from ingredients grown on their property. I’m not kidding when I say that our dinner had actual flowers cooked into it."
+          "The day started under perfect blue skies, with sunlight streaming through the trees as I hiked through the woods in the early morning. There's something magical about walking through a forest with light filtering down in golden beams, it makes every step feel deliberate and slow. Since I had explored parts of the trail the night before, the first 30 minutes were easy, giving me time to enjoy the scenery and prepare for the bigger climb ahead.",
+          "My destination was the Fenetre d'Arpette at 2,665 meters, the second-highest point I'd reach on the TMB. The initial ascent led through woods, then shrubs, low trees, and finally into sparse crabgrass and rocks. Every few minutes I turned around to take in the ever-expanding view, the mountains and valleys stretching farther than I could capture in a single photo. As the vegetation disappeared entirely, the landscape became a raw, rocky terrain, signaling the approach to the day's biggest challenge.",
+          "Just below the summit, I faced a massive field of boulders, some the size of camper vans. Unlike previous boulder fields, these moved slightly underfoot, demanding complete focus and careful navigation. I hugged enormous rocks, climbed over others, and constantly searched for the white-and-red trail markers or cairns that would guide me safely upward. Once past this obstacle, I paused in awe at the accomplishment, knowing the scariest part of the climb was behind me.",
+          "The final zig-zag path to the summit brought me to Barak and Neta, and together we shared lunch and photos while soaking in the views. But the descent proved even more challenging. The steep, slippery slope required constant attention, with Glacier du Trient stretching to the left and a smooth rock face carved by its life below. I moved quickly, jumping down sections despite bad knees, eager to reach the river below.",
+          "By mid-afternoon, we regrouped at a local riverside bar, enjoying the presence of other hikers and locals alike. Our final destination for the day was Refuge du Peuty, an absolute gem. Run by two women who cook with ingredients from their own garden (and even include flowers in dinner!), the refuge offered warmth, good music, and an unforgettable dining experience. It was the perfect ending to a day filled with breathtaking climbs, nerve-testing boulders, and the quiet triumph of reaching the summit.\n"
         ],
-        "excerpt": "",
+        "excerpt": "From towering boulders to Glacier du Trient views, today's hike tested my nerves and knees but Refuge du Peuty made every step worth it.",
         "gpx": [
           [
             46.035249,
@@ -101502,7 +101281,8 @@ const data = [
         "hasStats": true,
         "image": "2018/09/02/21248df2-d0b9-41d2-9662-b6215c24c298.jpeg",
         "location": "Switzerland",
-        "readingTime": "4",
+        "readingTime": "2",
+        "snippet": "Day Eight: Conquering Fenetre d'Arpette and Dinner with Flowers",
         "stats": {
           "distance": {
             "label": "distance",
@@ -101597,19 +101377,13 @@ const data = [
       {
         "date": "September 10th, 2018",
         "description": [
-          "We wished our hostesses a fond farewell, thanked them for the best dinner music, and began the hike up to our last Col of the trip.I didn’t wait around for the others as I marched up the trail. Most of the ascent was done from within the cover of trees, so I didn’t get a good look at the receding village or valley floor as I went up.",
-          "Once above the trees the views returned to me. Oh how I missed them. I don’t think I’ll ever get used to seeing the sides of mountains as they shoot towards the ground below them.",
-          "Several pink flowers dotted the landscape, as well as an abandoned house, as I continued on up to the loneliest looking of buildings at the Col de Balme.",
-          "It was here at Refuge du Col de Balme that the Swiss world blended in with the French world. Switzerland on one side, and France on another. Borders exist only on paper. In nature, they are invisible and there is no distinction from one side of a field to another. Except for this one, because dead ahead was the massif of Mont Blanc. It had taken nearly 9 days, but we were finally in sight of it once more.",
-          "We worked our way down and across the tops of rolling hills towards the Aig des Posettes, the high point of todays hike. It was a mostly easy hike up to the top, with only minor scrambling at some points.",
-          "Above us hang gliders had taken to the skies as we sat down on the rocky ground and broke out our snacks: chocolate, banana chips, more chocolate, and some nuts.",
-          "I can’t believe that this trek is almost over. There’s only a few more days on the TMB. It has been an amazing experience and journey so far.",
-          "The hike down wasn’t that bad, but it was just as tough as some of the others. It wasn’t long before we were safely under the cover of the trees again. The sun was high in the sky by this point and it was shaping up to be a warm day. More switchbacks as we made our way down. I was glad that the ground changed from rock to sandy dirt to leaves. It made the impact of the foot with the ground a lot easier to handle.",
-          "We found our way easily enough to the Auberge for the night. I said goodbye to Laura (USA) since she was continuing on to another town and ending her hike a day early.",
-          "I learned to play Taki (the Israel version of Uno), and had a good dinner with some Dutch people. Learned that tafle is Dutch for table.",
-          "The setting sun lit up the sky in a bright purple, and the mountains glowed a beautiful pink."
+          "We bid farewell to our hostesses at Refuge du Peuty, thanked them for the unforgettable dinner and music, and set off for the final Col of our trek. I surged ahead of the group, hiking through the tree-covered trail, where the receding village and valley floor were hidden from view. Once I broke above the treeline, the vistas returned in full force: mountains plunging dramatically toward the valleys below, dotted with pink wildflowers and abandoned houses.",
+          "Our destination for the morning was Refuge du Col de Balme, a remote building perched where Switzerland meets France. Here, the border felt purely symbolic; nature knows no lines. From this vantage point, Mont Blanc came into sight again after nearly nine days, a majestic reminder of the journey we had undertaken.",
+          "We continued across rolling hills toward Aig des Posettes, today's high point. The climb was mostly easy, with only minor scrambling, and the skies were alive with hang gliders drifting gracefully above. We paused on the rocky terrain to enjoy snacks composed of chocolate, banana chips, and nuts, soaking in the incredible panorama of mountains stretching in all directions.",
+          "The descent back under the tree cover was gentle yet physically demanding. The trail shifted from rocks to sandy dirt to leafy paths, each surface cushioning the impact on weary legs and knees. Switchbacks wound down toward the Auberge where we would spend the night, marking the close of another incredible day on the TMB.",
+          "Evening brought rest, games, and connections with fellow hikers. I learned to play Taki (the Israeli version of Uno) and shared dinner with Dutch companions, picking up a few words in the process. As the sun set, the sky erupted in bright purple and the mountains glowed pink, a perfect ending to a day filled with awe-inspiring views and the quiet satisfaction of being deep in the heart of the Alps.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Crossing borders, snacking on a rocky ridge, and watching Mont Blanc glow at sunset our final Col hike captured the best of the TMB.",
         "gpx": [
           [
             46.05546,
@@ -102606,7 +102380,8 @@ const data = [
         "hasStats": true,
         "image": "2018/09/02/ec37f4a8-6310-4bf6-b1a7-cddb1f91bf3b.jpeg",
         "location": "France",
-        "readingTime": "3",
+        "readingTime": "2",
+        "snippet": "Day Nine: Sunset over Mont Blanc",
         "stats": {
           "distance": {
             "label": "distance",
@@ -102701,28 +102476,13 @@ const data = [
       {
         "date": "September 11th, 2018",
         "description": [
-          "Everyone told me to be weary of the ladders, that they were going to be the scariest part of the trip, and that people usually took great pains to go around them. Unfortunately for those people the alternate route that went around the ladders was closed due to a landslide last week.",
-          "The sun’s rays of light were shooting out from behind the mountains as we left Tré-le-Champ and disappeared into the woods once more. This was a mostly steady gain in elevation as we navigated tree roots, and various rocky outcroppings.",
-          "One of the more massive rocky obstacles was the Aiguillete d’Argentière monolith which had fallen down from the top of the mountain a long, long, time ago. It was the size of a two-story house, and the path went right around its base.",
-          "After rising several more meters above the monolith’s top we came to another rocky outcropping. This one had a perfect window between the trees facing back towards the Mont Blanc range. We stood here for a few minutes watching the sun come up behind the tallest point between the trees, and watching the rays of light first point up, and then down as the sun rose higher.",
-          "It would take another hour of hiking through the gradually thinning trees before coming to the first of the ladders. Along the way we spotted an Ibex in the distance hoping from rock to rock.",
-          "The ladders themselves were simply just that: a series of metal ladder rungs and rods bolted into the rock in order to help hikers get up and over the terrain. They weren’t the least bit scary, but I could understand that it might be a different story if it had been cloudy. Of course everyone wanted photos of them going up them, so a line started to develop at some of them. Everyone’s butt is probably in everyones pictures.",
-          "We took a break where the ladders ended, and the regular rocky path resumed. But the lakes were calling, and we wanted to get there.",
-          "The first little puddle of a lake wasn’t that impressive, but the next one’s waters were so still you could see Mont Blanc reflected in its surface. We took the trail going around the back in order to take as many picture-perfect photos as possible.",
-          "But it’s not just the pictures; it’s also standing there in awe of the beauty before you.",
-          "Lac Blanc was another hour in front of us.",
-          "These were the most turquoise green waters that I have ever seen. As soon as we found a spot to drop our gear, I disrobed down to my underwear and went for a swim. Oh my God was the water cold! It had that feeling of a thousand needles pricking your skin at once. The only way to get over it is to dive in, and that’s exactly what I did.",
-          "I ended up going in twice, but only for a few moments each time. And, of course, I made someone take a picture from behind me as I looked out at Mont Blanc because yeah.",
-          "Some folks made coffee while we laid out our cloths and towels to dry in the sunlight. After resting peacefully for 30 minutes we decided that it was time to get going.",
-          "We arrived at Refuge de lo Flegere a couple of hours later, and straight into the middle of a spectacle.",
-          "On the other side of the valley there was a little bit of smoke rising up from a structure of some sorts. Some of the people who worked for the ski lifts were watching it with binoculars.",
-          "I didn’t make anything of it and we went to check in. After getting situated and showered I headed outside to sit in the sun. This is when I noticed that the little bit of smoke had turned into a full blown fire.",
-          "An emergency helicopter with a basket for water was making runs back and forth between the small water reservoir just below our Refuge and the fire. It was an impressive site to see that thing cover the distance in a few seconds, drop its basket down, fill it up with water, and not 10 seconds later be heading back to drop it on the fire.",
-          "It took them a couple of hours, but they finally got it under control. I had never seen anything like that before.",
-          "We continued to relax in the chairs, and then play some card games while we waited for dinner. Barak and Neta wanted me to sit with them at dinner time so the hostesses put me at their table. They also put all of the other Israeli’s at this table. What are you gonna do, right?",
-          "I went outside to look at the stars after dinner. I swear that I could see the band of the Milky Way above me. If there had just been a little less light pollution… But Chamonix in the valley floor below us was sparkling like a tiny jewel in the night."
+          "Everyone warned me about the ladders, claiming they were the scariest part of the trip, but with the alternate route closed due to a landslide, there was no avoiding them. The morning sun peeked over the mountains as we left Tré-le-Champ and entered the woods. We steadily climbed, navigating tree roots and rocky outcroppings, including the massive Aiguillete d'Argentière monolith, a rock the size of a two-story house that had long ago fallen from the mountain's peak.",
+          "Along the trail, we paused at a perfect window in the rocks, framed by trees, to watch the sun's rays play over Mont Blanc in the distance. Even wildlife joined the spectacle as an Ibex leapt gracefully from rock to rock, seemingly unconcerned by our presence. Soon, we reached the ladders. Contrary to the stories, they weren't frightening, just metal rungs helping us navigate the steeper terrain, though the line of hikers waiting for photos turned it into a social affair.",
+          "After the ladders, the mountains opened up to a series of lakes, each more stunning than the last. Lac Blanc, with its turquoise waters reflecting Mont Blanc itself, was breathtaking. I braved a frigid swim, the icy water like a thousand needles on my skin, and couldn't resist a second dip. Coffee brewed nearby while we soaked in the sun and let our gear dry, a perfect Alpine pause before continuing.",
+          "By late afternoon, we arrived at Refuge de l'Flegère, only to witness an unexpected spectacle: a fire across the valley. Emergency crews in helicopters tirelessly ferried water from a nearby reservoir to douse the blaze. Watching the precise, almost choreographed effort left me in awe of both the firefighters and the machinery.",
+          "The evening brought a sense of calm and camaraderie. We played card games, shared dinner with fellow Israeli hikers, and stepped outside later to gaze at the night sky. The Milky Way stretched overhead, only slightly dimmed by the sparkling lights of Chamonix in the valley below. A perfect end to a day of adventure, awe, and Alpine beauty.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Ladders, icy lake swims, and a helicopter battle with fire. This Alpine day combined thrills, beauty, and awe in equal measure.",
         "gpx": [
           [
             45.996093,
@@ -103719,7 +103479,8 @@ const data = [
         "hasStats": true,
         "image": "2018/09/02/0ea4750a-307a-44be-a466-bb081d137d3c.jpeg",
         "location": "France",
-        "readingTime": "5",
+        "readingTime": "2",
+        "snippet": "Day Ten: Ladders, Lakes, and Fire",
         "stats": {
           "distance": {
             "label": "distance",
@@ -103814,23 +103575,13 @@ const data = [
       {
         "date": "September 12th, 2018",
         "description": [
-          "I thought today was going to be an easy three hour hike across the valley wall to the last mountain refuge for the trip. Boy, was I wrong. I took my time leaving in the morning, and I think I was the last one to leave.I took a leisurely pace as I get on the trail walking under ski lifts, and over gently sloping forest paths.",
-          "There were a couple of boulder patches blocking the path, and these ones had a much, much, steeper drop below them than the ones I had previously walked across. The pictures don’t do it justice.",
-          "On the other side of the field of rocks lay a massive stone wall. It had no name, and the guidebook didn’t mention it, but it was impressive. Just after this wall we came to a red plastic pole that was in the middle of the path ahead of us.",
-          "Some of the other hikers thought that it meant we couldn’t go that way, and would have to take a higher alternative route. I nearly shit my pants when the thought of having to do strenuous work today entered my mind. I thought I was passed it all.",
-          "I started up the alternate path, walking more quickly than the others, and was soon far ahead of them. I was nearly at the top when I looked back and saw everyone else turning around to go along the normal path! Apparently it was open for business. I was a little upset that I had come all this way only to turn back, but in the end I was glad that I noticed them turning around.",
-          "As a result of this, I was now far behind everyone. But, I would quickly catch up.",
-          "The path curved around the hillside and at certain points it looked like the path went off into nothing. Beautiful rays of light and clouds illuminated the trail ahead of me. At one point it looked like an asteroid was about to strike the mountain due to the clouds and sun playing tricks on my eyes.",
-          "A short while later I came to a ski lift landing area, and saw where they had been launching all of the hang gliders! It was quite a sight to see them get their running start and jump off of the edge without hesitation.",
-          "But now the hardest part of today would begin: climbing up to the top of Le Brevént at 2,526m. I was not prepared for this, but took it in stride (literally). Two hours and several more shaky rocks and ladders later I was at the top.",
-          "It had an impressive view of Mont Blanc across the valley, and there was even a ski lift that came all of the way up here! Even though Mont Blanc itself was still 2,000m taller than this spot, it felt like we were even with its top.",
-          "The hike down was rough, and felt never-ending. I raced down as fast as I could go, especially since there were lots of people talking and I wanted to enjoy the peace and quiet.",
-          "I arrived at Bellechat two hours later, and was the first to check in. It was such a little refuge that I thought I had made a mistake in booking it, and not continuing down to Les Houches like everyone else. Luckily my fears were abated when several more people started to check in over the next couple of hours.",
-          "A group of people from Holland kept my company throughout most of the evening, telling me their life story and teaching me some more Dutch words. I never knew so many European countries made English a required subject for all of their years of pre-university schooling. We played card some Dutch and English games waiting for dinner.",
-          "It was very quiet up here once all of the hikers for the day had moved on, and the dinner was very delicious. After dinner they took turns telling stories about their families during World War 2.",
-          "I turned in early tonight, not looking forward to actually finishing tomorrow."
+          "I thought today would be a leisurely three-hour hike to the last mountain refuge of the trip, but I was quickly proven wrong. I started out slowly, strolling under ski lifts and along gently sloping forest paths, enjoying the crisp morning air. The trail soon challenged me with steep boulder fields, each with dizzying drops below, far more intimidating than anything I had encountered so far. The pictures hardly do the scale justice.",
+          "Shortly after the boulder field, a massive stone wall appeared, silent and imposing. Ahead, a mysterious red plastic pole led some hikers to believe the main path was closed, prompting me to take a higher alternate route. I pushed myself up the hill, only to discover the original path was open after all. Turning back cost me time, but the trail rewarded me with ethereal light and cloud formations that made it feel like the mountain itself was alive. At one point, the sun and clouds conjured the illusion of an asteroid about to strike the valley.",
+          "The climb to the top of Le Brévent at 2,526 meters was the day's true test. Two hours of scrambling over shaky rocks and negotiating ladders later, I reached the summit. Mont Blanc towered across the valley, still 2,000 meters higher, but the view and the exhilaration made it feel like I was nearly on par. Hang gliders launched fearlessly from the edge nearby, adding a sense of vertiginous thrill to the scene.",
+          "The descent was equally challenging, and I raced down as quickly as my knees allowed, eager for quiet after the bustling trails. By the time I reached the Bellechat refuge, I was the first to check in. The tiny mountain refuge quickly filled with fellow hikers, including a lively Dutch group who shared stories, taught me new words, and kept the evening entertaining.",
+          "Dinner was a warm, communal affair, punctuated by tales of family history during World War II. The quiet of the high mountains settled in afterward, and I went to bed early, both reflecting on the day's trials and bracing myself for the final leg of the trek tomorrow.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Steep boulders, ladders, and a breathtaking summit. Today's trek tested my legs, my nerves, and my awe for the Alps.",
         "gpx": [
           [
             45.96004,
@@ -104827,7 +104578,8 @@ const data = [
         "hasStats": true,
         "image": "2018/09/02/3faeb9f8-d262-4c12-869f-4470b0dc0574.jpeg",
         "location": "France",
-        "readingTime": "4",
+        "readingTime": "2",
+        "snippet": "Boulders, Ladders, and Mont Blanc: The Summit of Le Brévent",
         "stats": {
           "distance": {
             "label": "distance",
@@ -104922,21 +104674,13 @@ const data = [
       {
         "date": "September 13th, 2018",
         "description": [
-          "I tried to capture all of the sunrise pictures possible on the way down since the sun was looking especially orange this morning. Several Ibex also kept me company as I hiked down. On the way, I stopped by the Le Christ Roi. It was a humungous statue that came out of nowhere.",
-          "I finished the last few hundred meters pretty effortlessly as I crossed over the river, and passed the train station. I was now back where I started, and it felt like a lifetime ago. My hiking boots and backpack were no longer black, but instead were covered with the dirt of several different mountainsides.",
-          "The gîte that I would be staying at wasn’t open until 4pm or so, so I had some time to kill. I walked around the town, grabbed some souvenir maps, and visit all of the gift shops.",
-          "On my second or third pass through the town center I ran into four other hikers that I had met along the way! We grabbed some drinks and lunch at the only open hotel bar and shared numerous stories with each other.",
-          "A wicked rain storm came out of nowhere and forced us inside. But, it was time to say goodbye and go check in.",
-          "After checking in I ran into people whom I had met on day 1! This was crazy! One of them lent me their free bus pass to go over to Chamonix in order to search for a pin for my backpack. I wanted to build up a collection of pins from hikes that I have done or will do, and wanted them to be adorned on my backpack.",
-          "Chamonix is a massive tourist town, and I hurried up and down the long stretch of shops and restaurants. I must have seen all that they had to offer, which is a lot.",
-          "Two of the coolest people I met on the trip found me as I was speed walking around: Barak and Neta from Israel. It was great to see them one last time now that we were back in civilization.",
-          "Finally I found my pin at a random shop at the end of the street. Satisfied with my purchase I returned to the bus stop in order to get back in time for dinner.",
-          "The group that was staying there (from day one) had been at a bar the entire time and came to dinner very tipsy. It made for a very interesting meal: a carafe of wine was spilled during the course of it. We hung out in the common room after dinner, and then said goodnight.",
-          "I left for the airport early in the morning, and looked out longingly at the mountains as the shuttle sped past them on the expressway.",
-          "While this trek wasn’t as intense as the Camino, it was still special in its own way, along with its own challenges. I accomplished so many feats of strength that I had never had to worry about before, and it left me as a stronger person.",
-          "I love Europe, and can’t wait to come back!"
+          "The last morning of the trek was bathed in a stunning orange sunrise, which I tried to capture in every photo as I descended the mountains. Ibexes kept me company along the way, adding a touch of Alpine magic. On my path, I passed the imposing Le Christ Roi statue, a sudden and awe-inspiring sight rising from the valley floor. Crossing the final river and passing the train station, I felt a sense of completion: the journey that had begun days ago now behind me. My hiking boots and backpack were no longer black, but coated with the dust and dirt of countless mountainsides.",
+          "With the gîte not opening until later in the afternoon, I wandered around town, exploring souvenir shops and collecting maps. By chance, I ran into four fellow hikers I had met along the route. We shared lunch, drinks, and stories, laughing over mishaps and memories from the trek. A sudden rainstorm forced us inside, reminding me just how unpredictable mountain weather can be.",
+          "Once checked in, I was reunited with more friends from day one. One kind hiker even lent me a bus pass to visit Chamonix in search of a pin for my backpack, part of a growing collection from my travels. Chamonix was bustling, filled with shops, restaurants, and tourists. Speed-walking up and down its streets, I finally found the perfect pin and met Barak and Neta one last time, sharing a few laughs before returning for dinner.",
+          "Dinner that evening was lively, with tipsy friends spilling wine and telling stories. We lingered in the common room afterward, savoring the camaraderie that had grown over the past days. As night fell, I reflected on the journey, the challenges, the beauty, and the friendships forged along the way.",
+          "The next morning, the shuttle sped past the mountains as I headed to the airport. I looked back longingly at the peaks, knowing this trek had changed me. While it wasn't as grueling as the Camino, it had its own trials and triumphs, leaving me stronger and more in awe of Europe than ever before. I cannot wait to return.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Sunrise, Ibex, and Chamonix: my final day on the TMB was a bittersweet mix of adventure, friends, and reflection.",
         "gpx": [
           [
             45.92215,
@@ -105933,7 +105677,8 @@ const data = [
         "hasStats": true,
         "image": "2018/09/02/8a0d6d12-a40d-47ba-9d09-6b8d5572bb32.jpeg",
         "location": "France",
-        "readingTime": "3",
+        "readingTime": "2",
+        "snippet": "Final Steps on the TMB: Sunrise, Ibex, and Chamonix",
         "stats": {
           "distance": {
             "label": "distance",
@@ -106710,26 +106455,13 @@ const data = [
       {
         "date": "June 2nd, 2018",
         "description": [
-          "The air was crisp and fresh, as all early summer mornings should be, as I tied my shoes, stood up, slung my backpack over my shoulders, and stepped out the front door.",
-          "I'm standing on the Rue de la Citadelle in St-Jean-Pied-de-Port in shoes that aren't broken in, and a hat from Lollapalooza. It’s a cold brisk morning on June 2nd, 2018 and I’m about to start the Camino de Santiago.",
-          "As I stood there in the early morning light on the street I tried to take stock of what I had come here to do, and what was about to happen. I stared down the road, watching other pilgrims march up the stone-paved road and off into the distance, before finally muttering to myself \"alright, let's go.\"",
-          "To be honest, I really didn't know which way to go, so I blindly followed three pilgrims who were walking side-by-side further ahead of me. The sun was shining, and the clouds were few and far between, as we left the village behind and entered the countryside.",
-          "Shortly after I cleared the final threshold of buildings that separated the man-made world from natural world, the three ladies whom I had been following suddenly stopped. As I was walking past them, now confident in the way to go, and I overheard one of them ask out loud \"Is this the right way?\" I offered the best advice that I could give: \"Yeah, I think so.\"",
-          "And that's all it took. I came to France alone but this pilgrimage, which started barely 30 minutes ago, was no longer a solo trip, and I had made new friends. They were: Amy (USA), Martha (UK), and Tracey (AUS).",
-          "We left the stone-paved village roads behind, gradually rising above the clouds with each step. Every time I turned around to stare in awe at the view in front of my eyes it seemed like I was becoming further separated from the world.",
-          "Gradually our group splintered while we were walking and talking.",
-          "After a while the topic of conversation turned to \"Why are you walking across Spain?\". I suddenly realized that I didn't know and my mind started to cloud with answers as I tried to formulate something. Hopefully I'll find an answer to that question as this adventure continues.",
-          "Around mid-morning we arrived at Orisson. We were in desperate need of a break since none of us were prepared for how much constant uphill walking was involved. After resting and refueling on water we returned to the trail. The clouds had followed us, and we were treated to cool temperatures and fog-filled paths.",
-          "Shortly thereafter the fog left us and we were back to staring at the curving paved road as we continued up the mountainside. Each time I saw a curve ahead of us, and the road disappeared behind it, I hoped that this must be the top.",
-          "The marked way left the paved road behind shortly before reaching the border of Spain, near the top.",
-          "Here the fog returned to us and clung to the trees, covering the path in the far distance. It would still be another hour of following the road up and around the mountain forest before we would come to a marker signifying that the way down had begun. After more than five hours of ascending, we were finally on the descent and in Spain.",
-          "It took all of my concentration to stay vertical, and to keep my feet from getting stuck in the mud. The trees were dense here, and the air heavy. We nearly bushwhacked our way through the forest, loosing the trail and then finding it a few moments later each time.",
-          "Shortly before exiting the woods, and entering Roncesvalles, I managed to slip and fall on my ass.",
-          "I have never been happier to see a destination. It meant clean clothes, hot showers, and companionship with the people that you struggled all day with. The air was filled only with the sounds of birds chirping, pilgrims arriving and cleaning off their shoes, and the energy of conversation filling the dormitory halls.",
-          "With our belly's full from a three course meal we said our goodbyes and retreated back to the monastery dorms. We found the others sitting at the entrance to our floor and spent the next hour talking, laughing, and getting to know each other.",
-          "Tomorrow meant more downhill hiking as we would begin descending the Pyrenees and make our way for Zubiri. Hopefully the rains will stay away and keep the path dry for us."
+          "The morning air was crisp and fresh, exactly as early summer mornings should be. I tied my shoes, slung my backpack over my shoulders, and stepped outside, feeling a mixture of excitement and nervous anticipation. Standing on Rue de la Citadelle in St-Jean-Pied-de-Port, I felt slightly out of place in shoes that weren't broken in and a hat from Lollapalooza. It was June 2nd, 2018, and I was about to begin the Camino de Santiago.",
+          "As I paused to take in the early morning light, I tried to make sense of what I was doing and what lay ahead. Pilgrims passed me on the stone-paved road, moving steadily toward the horizon. After a moment of hesitation, I muttered to myself, \"alright, let's go,\" and started following three women walking ahead. The sun shone bright, the clouds were few, and soon we left the village behind, stepping into the quiet beauty of the countryside.",
+          "Before long, the three women stopped, unsure of the path. Passing them confidently, I offered the best advice I could: \"Yeah, I think so.\" That small interaction changed everything. What started as a solo journey quickly became a shared experience with new friends: Amy from the USA, Martha from the UK, and Tracey from Australia. Together we walked, talked, and climbed, gradually rising above the clouds with each step, the man-made world shrinking behind us.",
+          "Mid-morning brought us to Orisson, exhausted from the relentless uphill walk. We rested, refueled with water, and then continued, enveloped in fog and cool air that softened the climb. As the path curved and twisted through the mountains, I kept hoping each bend would reveal the summit. The trail left the paved road near the border of Spain, and after hours of ascending, we finally began our descent. The forest was dense and muddy, demanding full concentration, and I even slipped before exiting into Roncesvalles.",
+          "Arriving at our destination felt like a reward. Clean clothes, hot showers, and the warmth of shared meals with fellow pilgrims made the day's struggles feel worthwhile. The monastery dorms buzzed with laughter and conversation, and for the first time, I felt the Camino's sense of community. Tomorrow we would descend the Pyrenees toward Zubiri, hoping for dry trails and steady steps, ready for the next chapter of this unforgettable journey.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The Camino de Santiago began with a crisp summer morning and a mix of excitement and uncertainty. Within an hour, a brief interaction turned a solo journey into shared adventure with new friends.",
         "gpx": [
           [
             43.162804,
@@ -107726,7 +107458,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/36c8ce31-ccce-4133-9528-338124462edf.jpeg",
         "location": "Navarre",
-        "readingTime": "4",
+        "readingTime": "2",
+        "snippet": "Stepping Onto the Camino",
         "stats": {
           "distance": {
             "label": "distance",
@@ -107824,25 +107557,13 @@ const data = [
       {
         "date": "June 3rd, 2018",
         "description": [
-          "The chirping of birds filled the dormitory room as I rolled onto my side and pushed myself up from the bottom of the bunk bed. After randomly shoving things into my bag I did one last check before heading downstairs.",
-          "After grabbing what looked like edible (and hopefully healthy) food from the vending machine I retrieved my boots from the smelly storage room, placed my backpack on a bench in the inner courtyard, and took a step out the front door.",
-          "Chilly morning air greeted me as I stood there in front of the rolling hills and mountains that we conquered yesterday. The world here was calm, and relaxed.",
-          "The others had arrived downstairs when I returned to fetch my bag. With food in bags, shoes tied, and light jackets on, we set out.",
-          "We (Amy and I) were forced to walk in the street due to the mud-filled paths leading away from the Monastery. The road took us through a small town a few kilometers away from Roncesvalles. We found our way down a small slope at the end of the village, and returned to the trail with trees on our left, and cows on our right. We tried talking to the horses but they weren't being very responsive.",
-          "I stopped for a brief moment to turn around and take in the sunrise as it crested over the hills behind us. 30 minutes later we were heading into another quiet town. We took a short break at the only cafe that was open. The path took us back in to the trees, and up more hills. Our conversation returned to where it had left ended from the previous day. Music kept us company as we spent the next hour hiking through dense woods with open grass prairies appearing through breaks in the trees.",
-          "This day was full of ups and downs and all of it was beautiful and breathtaking. Sometimes it is hard to enjoy the amazing world around you when you have to fight for every step. I wish I had taken it all in with more frequent stops.",
-          "A small stream followed us along the concrete path as we descended. The stream eventually got louder and bigger until finally we were upon a river with its water rushing over the concrete. In order to cross this water we had to step along the tops of short concrete pillars that acted somewhat like a dam.",
-          "On the other side of this river the path led up to a bar on the side of the road, and we didn't hesitate. 9:30 am on a Sunday was the perfect time for beer and wine when you're on the early days of the Camino.",
-          "The terrain around us alternated between bare rock and dense trees. Eventually we came to a fork in the path, and the break in the trees gave us a perfect view of the tree-covered hills in the distance. Nothing but hills and trees as far as we could see with blue skies, and white clouds hovering near the horizon.",
-          "At this point we had started on our way down towards Zubiri.",
-          "The ground became unrelenting with the bedrock turned up at a 45 degree angle, and each edge of each protruding rock looking like a razor sharp knife. These parts were also covered with slippery mud.",
-          "Up ahead on the other side of a curve in the highway was a small snack stand. It had a basket for women to donate their underwear, and the reward for your donation was a wish being granted to you that you would meet your future husband on this Camino. No underwear was donated, but we grabbed some food and relaxed. Familiar faces started to arrive at the rest stop as we grabbed a table in the shade.",
-          "Our time here was short since we were eager to finish today's route. After another two hours of hiking, and nearly rolling my ankle a dozen times, we arrived in Zubiri.",
-          "Upon entering the town over the bridged river, we got lost trying to find the place that we would hopefully be staying at. Eventually we found our way and grabbed some beds at the small and cozy municipal Albergue.",
-          "The local cafe was called Estrella Galicia and we headed there to wait for the others to arrive. The clouds had begun to roll in, and shortly after it began to rain. Luckily our friends arrived just before the heavy rain started to fall. While we sheltered from the rain in the cafe we met some new friends.",
-          "This night would be the first real night on the Camino: no longer would we be sheltered by modern conveniences. The walled fort-city that is famous for running with the bulls at Pamplona was waiting for us, and I was eager to begin the next days hike through more green hills."
+          "The chirping of birds filled the dormitory as I rolled onto my side and pushed myself up from the bottom bunk. After a hasty packing session, I made one last check of my bag before heading downstairs. The morning felt crisp and calm, a quiet contrast to the strenuous hike from the day before. Outside, the rolling hills and mountains we had conquered yesterday stretched before me, serene and inviting.",
+          "After grabbing some snacks from the vending machine, I retrieved my boots from the musty storage room and slung my backpack over my shoulders. The others had already gathered downstairs, ready to set off. Amy and I found ourselves walking in the street at first, the trail too muddy to traverse safely. Soon we passed through a small town, descending a slope before returning to the trail. Trees lined our left side while cows grazed on our right, and we joked with the horses, though they offered little response.",
+          "We paused to admire the sunrise cresting over the hills behind us. Later, we stopped in a quiet town at the only open café, enjoying a brief respite before the trail took us back into the trees and up more hills. Music accompanied us through dense woods, opening up to prairies of tall grass bathed in sunlight. The day was full of ups and downs, each step demanding effort, yet each view was breathtaking. I wished I had stopped more often to take it all in.",
+          "A small stream followed alongside a concrete path as we descended, swelling into a river that we crossed by stepping along concrete pillars acting as a makeshift dam. On the other side, a roadside bar tempted us with beer and wine at 9:30 am, a treat for early days on the Camino. The terrain alternated between bare rock and dense trees, and eventually a fork in the path opened up a perfect view of the tree-covered hills beyond. From here, our route led downward toward Zubiri.",
+          "The trail became unrelenting, bedrock jutting at sharp angles and slippery mud making every step precarious. A small snack stand offered a curious custom: donate underwear and your wish to meet a future husband would be granted. While we passed on the donation, we enjoyed food and shade as familiar faces arrived. After two more hours of hiking, nearly rolling my ankle a dozen times, we finally reached Zubiri. Finding the cozy municipal Albergue took some time, but soon we settled in. Clouds rolled in and rain began just as our friends arrived, giving us the chance to meet new companions while sheltering in a local café. This night marked the first true immersion into the Camino, a night no longer buffered by modern comforts. Ahead, the walled city famous for the running of the bulls in Pamplona awaited, along with more green hills to explore.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The second day on the Camino led us through rolling hills, dense woods, and rivers crossed on concrete pillars. Rain and new friends marked our arrival in Zubiri, where the adventure truly felt real.",
         "gpx": [
           [
             43.007279,
@@ -108839,7 +108560,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/259d7373-6f3d-4274-8ff8-440cb2724702.jpeg",
         "location": "Navarre",
-        "readingTime": "5",
+        "readingTime": "3",
+        "snippet": "Hills, Streams, and Camino Dreams",
         "stats": {
           "distance": {
             "label": "distance",
@@ -108935,24 +108657,13 @@ const data = [
       {
         "date": "June 4th, 2018",
         "description": [
-          "A misty rain, and gray clouds, kept pace with us as we grabbed breakfast at the cafe from the previous night, took our final steps over the bridge that had brought us in to town, and headed for the hills.",
-          "We briefly hiked passed industrial sites that invaded the green world around us.",
-          "Fog, mist, and heavy gray clouds hugged the hills in the distance as we traded paved roads for gravel ones. Each stolen glance behind showed a town of white and red houses shrinking into the distance, become a multi-colored dot on the side of a hill.",
-          "Nature quickly surrounded us as we left the gravel road, and took the narrow stone-paved path higher towards the light falling rain. Shortly soon-after we were made aware that we were in the Basque Country. Poppies lined the trail as we walked past barbed wire fences with donkeys staring in wonder at us, and a few of them posed for pictures.",
-          "The large and fast moving Arga River was on our right as the sun came out. We approached our first stop at a cafe on the outskirts of Zuriáin, along the rivers edge.",
-          "Over the next hour we walked along highways, passed abandoned buildings, and through tall grasses. Here we came to a fork in the path: off to the left led to Pamplona, and to the right was a small detour which led to Zabaldica at the top of a hill. I chose the detour, while the others chose the main route.",
-          "The small hamlet at the top on this detour contained a 12-century church: Iglesia de San Esteban, which has one of the oldest church bells in Spain. I lit a candle, grabbed some photos from the bell tower, and continued on.",
-          "While hiking down the dusty path from the church I happened upon a small snack stand sitting in the shade of an old farmhouse. I grabbed an apple and left a small donation.",
-          "There were no other pilgrims walking ahead of, or behind, me as I headed over random hillside paths, through dark tunnels under highways, and down sloping tree-lined roads towards a bridge that led to Trinidad de Arre.",
-          "I quickened my pace after realizing that I had not seen my new Camino friends, and hoping that I would find them up ahead of me. After walking through the empty city streets I spotted them resting at a cafe in a small town square.",
-          "The final route to Pamplona took us through some of the busiest, and shadiest, parts of the city. I can't imagine what it must be like to live here and to see so many pilgrims backpacking along your streets.",
-          "Empty urban streets gave way to a small park which led to the Magdalena Bridge, and the walled city. Ahead of me stood some of the most massive stone walls that I have ever seen. It took us 10 minutes to make our way around the base of these walls and arrive at the drawbridge entrance.",
-          "After crossing the drawbridge we turned the corner and were met with some of the most colorful buildings. Every single building was a different color alternating between pink, blue, green, or yellow. There were town fountains everywhere, and the young people hung out in the streets drinking.",
-          "We dropped our stuff off at a nice Albergue because the previous night at Zubiri was too much of a shock, and it was the first one we came across. There was a bar down the street called Meson de la Navarreria, and we saddled up there for food and drinks.",
-          "I left the bar to check out the church, and ran into Tania from Roncesvalles taking a tour of the city with one of her Camino friends: Alex (USA). We headed to the ramparts which look out over the new construction beyond the walls. The church was empty and dark; not ready for tourists just yet, but eventually I would return later on and check it out. The main square was full of activity with people dining and kids running about.",
-          "The hills, while beautiful, were starting to get to me with all of the descending and I was ready for some flat ground. The day after tomorrow promised that: we would be leaving for the monument to the pilgrims at Alto de Perdon, and the city of Puente la Reina."
+          "A misty rain and low gray clouds accompanied us as we grabbed breakfast at the café from the previous night. We crossed the bridge that had brought us into town and headed toward the hills, the damp chill in the air a quiet reminder of the Camino's unpredictability. For a brief stretch, industrial sites broke the green landscape, but soon we traded paved roads for gravel paths, leaving the town shrinking behind us into a multicolored dot on a hillside.",
+          "Nature quickly enveloped us as we left the gravel road for a narrow stone-paved trail climbing toward the light rain. Poppies lined the path, barbed wire fences marked off pastures, and donkeys stared curiously as we passed. The rushing Arga River appeared on our right just as the sun began to break through the clouds, and we stopped for a brief respite at a café on the outskirts of Zuriáin. The scenery was mesmerizing, each step alternating between rolling hills and tree-lined paths, and each glance back revealing more of the quiet towns behind us.",
+          "I soon reached a fork in the trail where the main path led to Pamplona, and a smaller detour climbed to Zabaldica. I chose the detour, finding a 12th-century church, Iglesia de San Esteban, perched at the top. I lit a candle, explored the bell tower, and took photos of the surrounding hills. On the dusty descent, I came across a small snack stand under an old farmhouse where I grabbed an apple and left a donation before continuing along quiet hillside paths, tunnels under highways, and tree-lined roads toward Trinidad de Arre.",
+          "Realizing I had lost sight of my Camino companions, I quickened my pace through empty streets and soon found them resting at a small town square café. The final approach to Pamplona took us through some of the busiest and shadiest urban streets I had ever walked, eventually opening up to a small park and the massive stone walls of the walled city. Crossing the drawbridge, we entered a world of color: each building painted in bright shades of pink, blue, green, or yellow, fountains scattered throughout, and young people filling the streets.",
+          "We settled into a comfortable albergue, a welcome change after the shock of Zubiri. Nearby, Meson de la Navarreria offered food and drinks, and I took the chance to explore the city. I ran into Tania from Roncesvalles with her Camino friend Alex, and together we walked the ramparts overlooking the city and its outskirts. The church was still dark and quiet, not yet ready for visitors, but the main square buzzed with life. While the hills were beautiful, I was ready for some flat ground. Tomorrow promised a new adventure, with a visit to the monument at Alto de Perdon and the city of Puente la Reina awaiting us.\n"
         ],
-        "excerpt": "",
+        "excerpt": "A misty morning led us through the hills and rivers of the Basque Country, with poppies and curious donkeys along the way. By the afternoon, Pamplona's colorful walled city welcomed us, a vibrant contrast to the quiet trails we had left behind.",
         "gpx": [
           [
             42.929865,
@@ -109949,7 +109660,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/94c5e141-580c-483b-91aa-13a88bf0f8fd.jpeg",
         "location": "Navarre",
-        "readingTime": "4",
+        "readingTime": "3",
+        "snippet": "From Hills to A Walled City",
         "stats": {
           "distance": {
             "label": "distance",
@@ -110044,28 +109756,13 @@ const data = [
       {
         "date": "June 5th, 2018",
         "description": [
-          "I could get used to mornings like the ones in Pamplona. Not a soul in sight with the air calm and peaceful in the old city I set out before the others to explore parts that I wasn't able to see yesterday. The only people in the streets were other pilgrims walking in the opposite direction as they left the city for the next stage.",
-          "It didn't take me long to find a route leading way away from the square, and towards the other areas of the city. While the square in the morning was calm and peaceful, the area outside of the urban center were bustling with activity.",
-          "There wasn't much to see beyond the architecture of the buildings, and the various parks. You couldn't even get inside the arena where the release the bulls. Slightly disappointed, I hurried back to the Albergue.",
-          "Leaving the city took less time than entering it. The residents were starting to stir, and the street cleaners were mopping up the mess from the previous night.",
-          "After zigzagging through a series of small and large parks we found ourselves once again walking through the countryside of Spain with the city growing smaller and smaller with each glance backwards.",
-          "Nothing but green fields were laid out in front of us, with clouds sticking to the ground, their fingers clawing at the hills in the distance trying to pull themselves closer to the earth.",
-          "Rainbows appeared at every edge of a leading cloud formation. Luckily the rain stayed away from us, and their dark gray color was merely for show.",
-          "Large and narrow gravel paths filled with potholes of water snaked their way across the fields, through small forests, and over small rivers. Gradually The Way began to rise higher and higher leading towards Zariquiegui: the last stop before crossing over Alto de Perdon, and the windy mountain crossing.",
-          "I caught up with Tania's group (Shelby, Alex, and Tania) in Zariquiegui. They were getting ready to head out as I arrived. Jokingly I said that I'd see them at the next rest stop since that was where we kept running into each other. The other friends from my group slowly trickled in and dropped their bags at the cafe.",
-          "After recharging we slowly left for the top of the mountain. On the way up we kept leap frogging each other when those in front slowed down, or took pictures, and the others from behind kept going.",
-          "The views from the top did not disappoint, and it was the windiest spot so far on the Camino with views of the countryside extending away in all directions.",
-          "The way down though was hard, and slow going.",
-          "After reaching flat ground again, I suddenly found myself very much alone. I don’t know how it started, but I was talking to myself. To be perfectly honest with you, I have never done anything like this before. All sorts of random things started popping into my brain, and coming out of my mouth.",
-          "I stopped paying attention to the ground I was walking on, or to the world around me. I just walked and talked, walked and talked.",
-          "Everything from the real reason why I’m here doing the Camino, why I do the things I do, realizing that I hated my job, what brought me happiness, and what left me empty and wanting more.",
-          "It was an amazing feeling to shine light onto things that were hiding in the shadows, and things that I didn’t even know I was thinking. I felt so great about airing out my thoughts and feelings.",
-          "At some point I met up with the others in the outskirts of Urtega. We grabbed lunch at a small Albergue in town for about an hour, and relaxed in the sun.",
-          "After leaving Urtega we spread out again as we walked through Obanos on our way to Puente la Reina.",
-          "An attractive looking Albergue at the edge of town as we got off of the Camino beckoned to us. It took some debating, but we ended up staying at Albergue Reparadores further in to town. It is one of the oldest Albergues on the Camino (hundreds of years). Some of us from our group cooked a dinner, and the others shared what they had to give.",
-          "Overall this wasn’t a bad day in terms of terrain or distance, but this was the first time that I had done any sort of back-to-back, day-in-day-out, walking and my feet were feeling it. Hopefully tomorrow will be flat ground on the way to Estella."
+          "Mornings in Pamplona had a calm, peaceful rhythm that I could get used to. With the streets empty, I set out ahead of the others to explore parts of the city I hadn't seen yesterday. Only a few pilgrims passed in the opposite direction, heading toward the next stage of the Camino. The city square was quiet, but as I ventured outward, I found bustling streets filled with early activity. I admired the architecture and strolled through several parks, though the arena where the bulls run was off-limits, leaving me slightly disappointed. Soon I returned to the Albergue to meet up with the group.",
+          "Leaving Pamplona was quicker than entering it, and before long, the city was behind us. We zigzagged through small and large parks before returning to the open countryside, where green fields stretched endlessly beneath clouds that seemed to reach for the hills. Rainbows appeared at the edges of the clouds, a magical backdrop to the gravel paths snaking through forests, rivers, and open fields. The terrain gradually rose toward Zariquiegui, the last stop before crossing the windy Alto de Perdon.",
+          "I caught up with Tania, Shelby, and Alex in Zariquiegui, and after a short break, we slowly made our way up the mountain. Along the ascent, we leapfrogged each other, pausing to take photos or waiting for others to catch up. The summit rewarded us with expansive views of the countryside in all directions, though the wind made it feel even more remote. The descent was slow and challenging, and once we reached flat ground, I found myself entirely alone.",
+          "Alone on the trail, I began talking to myself, processing thoughts I had never spoken aloud. I reflected on why I was walking the Camino, my career dissatisfaction, sources of joy, and the emptiness I often carried. It was liberating to give voice to these hidden thoughts and to confront things I hadn't fully acknowledged. The walk became meditative, a conversation with myself, with the Camino as the silent witness.",
+          "Eventually I met up with the group again near Urtega, enjoying lunch at a small Albergue in the sun. We spread out again through Obanos before arriving in Puente la Reina. At the edge of town, a historic Albergue caught our attention, and after some debate, we settled at Albergue Reparadores, one of the oldest on the Camino. Some of us cooked dinner, while others shared what they had. Though the day's terrain and distance were manageable, the back-to-back walking left my feet feeling it. Tomorrow promised flatter paths toward Estella, a welcome change.\n"
         ],
-        "excerpt": "",
+        "excerpt": "From quiet mornings in Pamplona to windy climbs over Alto de Perdon, the Camino forced both reflection and endurance. Talking to myself on the trail revealed thoughts I had never voiced, making the journey as much internal as external.",
         "gpx": [
           [
             42.818572,
@@ -111062,7 +110759,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/88b734d7-ee6f-437f-a44b-6233d7f86158.jpeg",
         "location": "Navarre",
-        "readingTime": "4",
+        "readingTime": "3",
+        "snippet": "Reflections on the Camino",
         "stats": {
           "distance": {
             "label": "distance",
@@ -111158,23 +110856,13 @@ const data = [
       {
         "date": "June 6th, 2018",
         "description": [
-          "The storks nesting in the bell tower of the church next to the albergue were still sleeping when the sun rose and covered the city in a warm glow. I set out earlier than the others to take a short meandering walk through the narrow stone streets of the old city. They took me to the east end of the queen's bridge that led out of town.",
-          "The green-covered hills on the far side stood in contrast to the stone-made world behind me. I turned around after crossing the bridge and took in its beauty.",
-          "Some familiar faces called out my name and pulled me back from the trance that the bridge was holding over me. Tania, Shelby, and Alex were just coming across the bridge and heading out. I asked if I could join them on todays walk. They would become my new Camino companions for the next several days.",
-          "Autumn-colored fields and hills greeted us as soon as we left the bridge behind. However relatively flat ground was once again laid out as far as the eye could see after crossing the highway that separated the last of the colorful hills from the village beyond.",
-          "After a short detour through this village the landscape was full of mostly gently rolling fields of grain, small hills, and patchworks of small farms. A low stone wall bordered the trail on the right as it snaked its way past groves of trees.",
-          "Breakfast was in a city called Cirauqui on a hill that rose up from the ground in the distance. It felt medieval with walls at the base, and roads that went in all different directions as they worked their way up from the flat ground to the top.",
-          "Poppy fields and a rest spot with a reading area welcomed us as we left the hilltop city behind.",
-          "We continued alongside a highway for most of the morning while going under bridges, down into small valleys, and passing a cat on a fence trying to find its way down. An hour later we passed under a stone bridge crossing and made our way into Villatuerta.",
-          "At the Plaza Mayor we let our feet rest, and waited for those who were behind us. Once the others arrived, and our bellies had some food in them, we left for our destination and place of rest for the night.",
-          "A mountain in the distance kept its watchful eye on us as we left town and walked out into empty fields. We took the long way around a lonely small church standing in the middle of these fields as the dirt path slowly resolved into the road to Estella.",
-          "On the outskirts of the city was a massive half-ruined church. I stuck my phone through the metal gate on the side in order to photograph the smoothly rounded pillars as they stood in the tall grasses that now covered what was once the interior of this old building.",
-          "I rejoined the others near a map of the town on the other side of the road. It was here that we needed to make a choice since we had arrived so early: either keep going until we got tired and found a town to stop at, or stay here in Estella. We decided to keep going, but the Albergue looked less than welcoming so we turned back.",
-          "We went to the old city, which was hidden behind a stone wall and tightly packed houses. It was much quieter here, away from the hustle and bustle of the fast moving world several hundred feet away. Our beds were on the second floor looking out over the street through balcony doors.",
-          "Once we had settled in, we went to the bar across the street to snack and drink. Because today was a mostly easy one, we had arrived quite early in the afternoon, and retreated to our beds shortly afterwards. Down in the streets below someone was playing the Spanish guitar as we fell asleep for an afternoon nap.",
-          "The bar across the street was still open when we woke up. We played card games (Shelby taught us Yanev), drank some calimochos, and relaxed by the waters edge. Afterwards we found a pizza place for a quick meal. Today was a mostly uneventful day, and I can't wait for walks through rolling fields and clear blue skies. Hopefully we get to experience these things tomorrow as we make for Los Arcos."
+          "The storks in the bell tower of the church next to the albergue were still asleep as the sun rose, casting a warm glow over the city. I set out ahead of the others for a quiet walk through the narrow stone streets of the old city, eventually reaching the east end of the queen's bridge that led out of town. On the far side, green-covered hills stretched into the distance, contrasting sharply with the stone streets behind me. I paused to take it all in, but familiar voices called my name. Tania, Shelby, and Alex were crossing the bridge, and I asked to join them for the day. They would become my Camino companions for the next several days.",
+          "Autumn-colored fields greeted us as soon as we left the bridge, and the terrain remained relatively flat after crossing the highway that separated the last hills from the next village. A short detour through the village brought us to gently rolling fields of grain, small hills, and patchworks of farms. Low stone walls bordered the trail as it snaked past groves of trees, guiding us toward breakfast in Cirauqui. The medieval hilltop city rose above the fields with walls at its base and roads that wound in every direction.",
+          "After breakfast, we continued alongside a highway, passing under bridges, through valleys, and even a cat perched precariously on a fence. An hour later, we entered Villatuerta and paused at the Plaza Mayor to rest. Once the others arrived and our bellies were full, we left for the evening's destination. Beyond the town, a lone mountain seemed to watch over us as we walked through empty fields, taking the long route around a small church standing in the middle of the landscape. The dirt path gradually resolved into the road leading into Estella.",
+          "On the outskirts of the city, a massive half-ruined church caught my eye. I photographed its smoothly rounded pillars through the gate before rejoining the group near a town map. We debated whether to keep walking or stay in Estella. Though we had arrived early, the albergue we initially found was unwelcoming, so we turned back into the old city, tucked behind stone walls and tightly packed houses. Our beds overlooked the street from a second-floor balcony, offering a peaceful view.",
+          "With the day mostly done, we headed across the street to a bar for snacks and drinks. An afternoon nap followed, with the sound of a Spanish guitar drifting up from the streets below. Later, we played card games, enjoyed calimochos, and had a quick pizza dinner. It had been a relatively uneventful day, but full of calm and charm. Tomorrow promised walking through rolling fields under clear blue skies as we made our way to Los Arcos.\n"
         ],
-        "excerpt": "",
+        "excerpt": "A calm morning in Estella gave way to gentle fields, medieval towns, and quiet streets. By afternoon, we settled into the old city, enjoying a relaxed pace, music, and shared moments before the next day's journey.",
         "gpx": [
           [
             42.672569,
@@ -112171,7 +111859,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/6de64c25-13b3-441f-96b8-1f80cd4d6bd6.jpeg",
         "location": "Navarre",
-        "readingTime": "4",
+        "readingTime": "3",
+        "snippet": "Fields and Quiet Streets",
         "stats": {
           "distance": {
             "label": "distance",
@@ -112267,31 +111956,13 @@ const data = [
       {
         "date": "June 7th, 2018",
         "description": [
-          "Another calm and peaceful morning on the Camino. We retraced our steps from the previous day as we took an early leave out of town. Another cloudy morning kept us company.",
-          "With the Ega river at our backs we marched along dirt paths hugging vine-covered stone walls. A fork in the road forced a decision upon us: go left for a shorter hike, or go right for a longer hike. \"To the right,\" we said. The wine fountain was to be found that way in Irache, and find it we did.",
-          "Free red wine flowed from a spout in the side of a winery and we indulged ourselves. Odd thing: the winery was on the other side of the road from a monastery. But who could ask for more at 7:30 in the morning? With the edges of our lips stained purple we returned to the dirt path and continued our march towards Monjardin.",
-          "In and out of forests we went, up and down, with the humidity rising along with us. The pyramid-shaped mountain growing larger with each step we took.",
-          "From the tops of the hills we glanced out over the countryside to our right, seeing nothing but an ocean of various greens on the ground, spotted with red roofs, and the blue sky trying to find its way through the blanket of gray above us.",
-          "The rain finally started to fall as a light drizzle, sprinkling us with a refreshing cool shower after our short break in Azqueta.",
-          "The only shelter from the steadily increasing rainfall was a medieval water fountain at the base of Villamayor de Monjardin, and we arrived just in time. Its stone steps led down from the street above towards the water pool below. We filled up on water in the town square and headed for the next section which had no water or shade for 12 kilometers.",
-          "After an hour of rough and muddy paths we broke free from the hill's hold on the ground beneath our feet, and suddenly burst forth into green and yellow fields. The ever present blanket of gray clouds soon began to disperse, and the blue sun-filled sky brightened the beautiful landscape around us.",
-          "The drying dirt path split the land down the middle with the green world to the left, and the yellow one to our right. A relaxing food stand playing Mexican music appeared in the distance. It was time to begin the long stretch of no breaks.",
-          "With the modern world behind us we headed for Los Arcos.",
-          "It was here that I decided to listen to some music while I walked in order to avoid going crazy from the steady march of one foot in the front of the other.",
-          "Songs that I had downloaded a week ago were waiting for me as I popped in the headphones. I zoned out for the first half of the playlist and not really paying attention. But then, in the middle of the set, a song came on that grabbed me: \"Maps\" by Handsome Ghost. I can't say why this one song, out of all the others, grabbed my attention. I focused more on the music and less on my feet doing their steady drumbeat upon the Earth.",
-          "The next song in the queue really did me in: \"Full Release\" by Little Monarch. These lyrics spoke to me while I walked in that world of rolling green fields, blue and white sky, and the string of marching pilgrims. I started doing a little dance as I passed one irrigation canal after another, not caring how much further we had to go, but instead caring more about being in this moment.",
-          "Here is the list of songs that I saved and nearly immediately started listening to on repeat: \"Maps\" by Handsome Ghost, \"Full Release\" by Little Monarch, \"Love Teach Me (Orchestral Version)\" by Benjamin James, \"Kings & Queens(Acoustic)\" by Mat Kearney, \"Dancing in the Street\" by Stephen Day, \"Horses\" by Yes Nice.",
-          "But we were marching relentlessly forward, and this moment was coming to an end.",
-          "Dusty dirt paths, spared from the rain earlier in the morning, wound their way towards the edge of the forest, and down towards low-lying pools of water.",
-          "We arrived in Los Arcos at the edge of the village, next to a bunch of farms. We decided to not stay at the Albergue next to a smelly farm, and kept going towards Torres del Rio.",
-          "Keep in mind that these are the early days of the camino, and we haven't fully figured out the traditional layout of old Spanish cities.",
-          "The farms, and the talkative animals, gave way to the more civilized portion of the city with clean stone streets and its beautiful church taking up the town square. Hordes of pilgrims were here enjoying lunch at the numerous shaded tables. Were we wrong, yes, but did that change our mind, no. It was early in the day, and we felt like we could handle another 8 kilometers to Torres del Rio.",
-          "We never made it to Torres, and only 75% of us made it to the next town at Sansol. Torres del Rio was only a half kilometer further down the hill we had just hiked up to get here, and even though it was close by, we collectively agreed to push no further. That final stretch along featureless gravel paths gave our minds, and our feet, the final knockout blow.",
-          "But it turned out to be a small cute village with a Moroccan themed Albergue with fantastic views of the countryside, and a delicious dinner of Tajine.",
-          "They had an ice cold pool of water in the courtyard, and we stuck our feet in as soon as we got settled. After the initial shock wore off, it was pure bliss.",
-          "Finally, blue skies and rolling fields, exactly what I had been hoping for since day one! Logrono is tomorrow and I'm beginning to not look forward to staying in large cities. Hopefully it's another flat day of walking."
+          "Another calm morning greeted us on the Camino, cloudy skies overhead as we retraced our steps from the previous day. With the Ega River at our backs, we walked along dirt paths lined with vine-covered stone walls. A fork in the road presented a choice: left for a shorter hike, or right for a longer one. We went right, drawn by the promise of the wine fountain in Irache and find it we did. Free red wine flowed from a spout at the winery, an indulgence at 7:30 in the morning that left our lips stained purple. Refreshed and slightly tipsy, we returned to the path and pressed on toward Monjardin.",
+          "The trail led us through forests, up and down hills, humidity rising as the pyramid-shaped Monjardin mountain grew larger with each step. From hilltops, we glimpsed an endless patchwork of green fields, red rooftops, and a sky trying to pierce the gray clouds above. A light drizzle fell as we paused in Azqueta, refreshing and cool, before reaching Villamayor de Monjardin. There, a medieval fountain provided shelter and water as we prepared for a 12-kilometer stretch with no shade or water.",
+          "After an hour of rough, muddy paths, the hills opened into fields of green and yellow, and the gray clouds began to disperse. Sunlight brightened the landscape, revealing a dirt path that split the fields down the middle. In the distance, a small food stand played Mexican music, offering a momentary distraction before the long, uninterrupted march toward Los Arcos. To keep my mind engaged, I popped in headphones, and music carried me forward. A few songs, like \"Maps\" by Handsome Ghost and \"Full Release\" by Little Monarch, grabbed me completely, pulling me into the moment as the fields, sky, and fellow pilgrims blurred around me.",
+          "The dirt paths eventually led us to Los Arcos, a charming village lined with farms. We skipped the smelly farm-adjacent albergue and continued on toward Torres del Rio. Early Camino life meant we hadn't yet learned the rhythm of small Spanish towns, but the clean stone streets and beautiful church in Los Arcos made the pause worthwhile. Though Torres del Rio lay just a half kilometer further, the group collectively decided to stop at Sansol, a small village with a Moroccan-themed albergue and breathtaking views. That evening, we enjoyed a delicious tajine dinner and cooled our feet in the courtyard's icy pool, a small but perfect slice of bliss.",
+          "Blue skies and rolling fields stretched before us, finally the scenery I had been hoping for since day one. Tomorrow promised Logroño, and with it, the challenge of walking into a larger city. For now, the Camino rewarded us with flat paths, warm sun, and a sense of quiet contentment that only comes from moving steadily through beautiful landscapes.\n"
         ],
-        "excerpt": "",
+        "excerpt": "A morning wine fountain, rolling green fields, and music on the trail made this day unforgettable. We ended in Sansol with a Moroccan-themed albergue, icy pool, and a sunset to remember.",
         "gpx": [
           [
             42.66983,
@@ -113288,7 +112959,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/f3c24aa0-ec3f-4319-9585-e178b9fd7bca.jpeg",
         "location": "Navarre",
-        "readingTime": "6",
+        "readingTime": "3",
+        "snippet": "Fields, Wine, and Music",
         "stats": {
           "distance": {
             "label": "distance",
@@ -113383,27 +113055,13 @@ const data = [
       {
         "date": "June 8th, 2018",
         "description": [
-          "Morning's gentle breeze fluttered through the open windows, tossing the thin laced drapes about in its wake allowing the light in without any resistance. And what a sunrise it was. Bright burning reds, soft glowing pinks, and warm expanding yellows filled the sky outside our windows and rested upon the fields beneath it. I can't recall ever seeing such a beautiful sight of nature so early in the morning.",
-          "I stole a look back at Monjardin from across the fields as we headed up the hill and out of Torres del Rio. For the first time on this trip I had the ability to measure the distance travelled from the previous day, and it was humbling.",
-          "Decorative cairns stacked in the most unbelievable formations lay on either side of our path through the hills. Several trees also had decorations hanging from them, mostly colorful ribbons. Each one a donation, or a sign of respect, for someone or something.",
-          "As we left the cairns behind and entered the farmland old stone benches and abandoned farm houses appeared every so often. Most of the buildings that were built into the hill side (which still had roofs) had been destroyed by other pilgrims using them for a quick relief.",
-          "Several steep ascents and descents crept up out of no where as we left one farming area for another. One of our French traveling companions showed us how to walk downhill \"like a monkey\" in order to keep the strain off of our knees. It looked funny and felt awkward, but worked!",
-          "Viana stood in the distance as we returned to the highway shoulder. Some cars honked in encouragement, and others gave us cold stares.",
-          "We did some window shopping as we walked toward the church for our break. I bought a new full-brimmed hat because my Lollapalooza one just wasn't cutting it: one burned neck too many.",
-          "The church, what was left of it, was beautiful on the inside despite the unassuming wooden door at its entrance. Adjacent to the church stood what is now an open-air courtyard, but in historic times was another interior section of the church. A fire had ripped through in the 13th century, nearly destroying the lot of it.",
-          "Our time here was brief, and we took what appeared to be the back alleys out from the city and once more into the countryside. I am beginning to feel at home walking on these dirt paths through fields and grasses and trees. The times we spend in large cities feel foreign.",
-          "Arrows and messages made of pebbles to friends from pilgrimages long ago dot the sides of the trail as we walk towards Logrono.",
-          "Wooden steps take us over the highway. I stare back at Viana, now so small, in the distance. Another reminder of how far I've gone, and how far I have to go.",
-          "Rain, our friend for so many of these days, decided to pay us another visit. Here the path turned back to pavement made of concrete and asphalt. Several caterpillars are racing from one side of the path to another, desparate to get somewhere, and to avoid being trampled. I took my steps with care in order to avoid them.",
-          "Signs told us we had left the Navarre region and were now in La Rioja, an area known for their red wine.",
-          "We walked along the Ebro river, through the various city parks, the ground shining from the freshly fallen rain.",
-          "Up ahead is the Puente de Piedra our way into the city, and one final set of stairs, before we can find a place to rest.",
-          "The city streets leading us through the old town are nearly empty, most people inside back at work. We walked all the way to the tourist center at the other end of the town to get a map. The Camino was not well marked inside the city, and we did not have a guidebook with us. We found a few places to try near the Municipal Albergue, and started with that one.",
-          "They had beds, but for whatever reason they demanded to keep our passports while we stayed there. None of us felt comfortable with that, so we headed back down the street towards a place near the edge of the old town and, being satisfied with the price for a bed and dinner, decided to call it home for the night. It was a good choice.",
-          "Logrono is a beautiful city with its streets artfully decorated, and the massive church at its center commanding attention with each ring of the bells. We found Martha, Amy, and Tracey relaxing with everyone we had met so far on the Camino in the main square watching the townspeople set up for a festival this evening (please let it not be loud).",
-          "Ok, so Logrono wasn't that bad of a big city, but honestly I'm looking forward to Najera tomorrow and the smaller city scene. My small Lolla hat was beginning to show its limits with sun protection. I might need to look into buying a real sun hat."
+          "Morning arrived gently in Torres del Rio, with a soft breeze drifting through open windows and tossing the thin lace curtains in its wake. The sunrise was spectacular, with burning reds, glowing pinks, and warm yellows spreading across the fields. I had never seen nature so alive and radiant at this early hour. As we left the town and began the climb, I stole a look back at Monjardin across the fields. For the first time, I could truly measure the distance we had already traveled, and it was humbling.",
+          "Our path led past decorative cairns stacked in intricate formations and trees adorned with colorful ribbons, tokens of respect and remembrance from past pilgrims. Old stone benches and abandoned farmhouses occasionally appeared, some damaged by those seeking quick relief during the journey. Steep ascents and descents emerged unexpectedly, and a French companion showed us how to walk downhill \"like a monkey\" to reduce strain on our knees. It looked awkward but worked surprisingly well.",
+          "Viana appeared in the distance as we returned to the highway, with passing cars offering either encouragement or disdain. We stopped briefly for some window shopping and I replaced my Lollapalooza hat with a full-brimmed one, a necessity after suffering another sunburn. The small church in town was beautiful despite its modest exterior and open-air courtyard, the result of a fire in the 13th century. Soon we left Viana behind and returned to the familiar dirt paths, fields, and countryside that have begun to feel like home.",
+          "Arrows and messages made of pebbles dotted the sides of the trail, remnants from past pilgrims, guiding us toward Logroño. Wooden steps carried us over the highway, and I turned back to see Viana shrinking in the distance, a reminder of both how far we had come and how far we still had to go. Rain returned as a companion, and the path became paved again. Careful steps were required to avoid caterpillars crossing the trail. Soon, signs marked our entry into La Rioja, the region celebrated for its red wine.",
+          "The final stretch led us along the Ebro River and through city parks, streets glistening from fresh rain. The Puente de Piedra carried us into the old town, where quiet streets and nearly empty sidewalks made navigation tricky. After consulting the tourist center for a map, we settled on an albergue near the edge of the old city that offered beds and dinner at a fair price. Logroño is a beautiful city, its streets decorated with charm, and the massive church at the center commanding attention with each chime of the bells. We found some familiar faces (Martha, Amy, and Tracey) relaxing in the main square. Despite the city's size, the Camino's magic persisted. Tomorrow promised smaller towns and calmer streets, and I hoped my new hat would finally be enough to protect me from the sun.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Sunrise over Torres del Rio painted the fields in gold and pink as we climbed toward Logroño. By evening, the old town welcomed us with quiet streets, a massive church, and familiar Camino friends.",
         "gpx": [
           [
             42.55376,
@@ -114400,7 +114058,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/71b4d4f4-b9d4-40b9-8902-cef791391428.jpeg",
         "location": "La Rioja",
-        "readingTime": "5",
+        "readingTime": "3",
+        "snippet": "Sunrise Walking to Logroño",
         "stats": {
           "distance": {
             "label": "distance",
@@ -114495,34 +114154,16 @@ const data = [
       {
         "date": "June 9th, 2018",
         "description": [
-          "Today started with empty stomachs. Our expectation that a cafe would always be open early in the morning for food was slowly becoming unreliable. Logrono left us high and hungry as we took our leave of the city.",
-          "On unsteady legs we walked through the city parks along the bike path. Every store or cafe in the distance was a chance for food, but none were open. Not even the supermarket at the end of the trail seemed alive. The underpass and open country ahead signaled a goodbye to any hope of finding food before the next city 13 kilometers away.",
-          "The sky was a deep blue, and the clouds were a mixture of soft gray and white. Tall trees and poppy fields stole the attention away from food, but not for long. A large park was fast approaching, and scouts were sent in each direction to find food but they came back empty handed each time.",
-          "Uphill, around a bend, and then a sight that will make you stop in your tracks: a shimmering lake surrounded by dark hills, still hidden from the sun, with that deep blue sky above it. Seeing such a beautiful thing so early in the morning clears your mind.",
-          "Just up ahead, at the corner of the lake, stood another seemingly empty park and we had to steal our eyes away from the lake as we returned to the trees.",
-          "But ahead there were signs for food. A cafe on the waters edge? An open cafe? A place with bathrooms, water, and food! We dropped our packs and got in line as the owner was opening up.",
-          "As we sat at the plastic tables staring at the lake, savoring the food we had been so fortunate to discover, a family of Swans came up from the waters edge. We had to work hard to pull ourselves up from these seats, and this view.",
-          "Full stomachs, warmed hearts, and blood caffeinated. We're ready for the day now.",
-          "An hour later we came across an old man selling his wares, and handing out stamps. His name was Marcelo Lobato, and we found out that he is a walking legend. This man has walked nearly 5,000 miles across Europe.",
-          "The highway kept us company for another few kilometers, and then we were able to turn away from it and head back into farmland. After another 8 km of hard walking and climbing we came to Navarette: another circular city built on a hill.",
-          "An old pilgrim hospital lay in ruins as we took the road towards the hill. We weaved our way through the streets, heading for the church and our next break. These people spared no expense when they built these churches several hundred years ago. The alter was covered in gold with several dozen saints and idols in it. I don't think I'll ever tire of these amazing structures built so long ago.",
-          "We left for what would become the longest chunk of walking yet at nearly 16 km. Most of the landscape was farms, with the usual ups and downs, and nothing to stare at but the land in the distance and watching those white downs on the horizon grow into white mounds, and those white mounds to grow into buildings.",
-          "In Ventosa we decided as a group to not stop, and instead to push for Nájera in order to knock it out all at once.",
-          "More unending farmland with the occasional pocket of trees. After Ventosa all we could see in the distance were two white mounds that were slowly growing, but yet were still so far away. It's hard to gauge how far away an object is sometimes.",
-          "The brown dirt path took us next to highways, through small towns, and passed industrial sites.",
-          "And that was when it happened, on the last hill before heading down into Nájera. Everything from my hips to my feet were in pain. I was struggling to take each step, and my feet just wanted to quit.",
-          "I had been listening to music for a while now to help me get through these long kilometers. Upon arrival at the summit overlooking the last leg of the journey today, the song Believer by American Authors started playing.",
-          "“I’m a believer that things will get better”.",
-          "These lyrics started to play as soon as I hit the summit and saw our destination in the distance. It hit me like a ton of bricks.",
-          "The pain will get better, the stress will get better, the hardship of walking will get better, the beauty of this land will get better, and the struggles in life will get better.",
-          "All of this hit me at once, and it was an overwhelming feeling. I winced with pain, nearly crying at points, as Tania and I entered the city of Nájera. We had become separated from the others during the last stretch.",
-          "We walked for what seemed like ages to find a place to stay. After following a group of Spaniards we eventually arrived at Las Pena near the edge of the city. I could give two shits about the place, it was a bed and a shower.",
-          "The rivers edge and the bright sun called to us. We headed there for lunch and drinks. After basking in the sun, and spilling wine on my pants, we returned to our beds for a much needed nap. I spotted Leon and the others coming up the river walk and heading to the grocery store across the bridge when I went back to town a short while later. I followed them and finally got smart about getting some snacks for the next days walk.",
-          "They bought a bottle of wine and some chocolates. We returned to the rivers edge and sat in the grass sharing the bottle.",
-          "I’m going to meet all kinds of people on the Camino, and they are going to make me thankful for having friends to laugh with at the end of the day after walking each stage.",
-          "Santo Domingo is our goal for tomorrow, and apparently we'll be walking through a ghost town in order to get there."
+          "he day began with empty stomachs. Our assumption that a café would always be open early proved unreliable, and Logroño left us high and hungry as we departed the city. We trudged along city parks and bike paths, every closed store and silent café a reminder that the next opportunity for food lay 13 kilometers ahead.",
+          "The sky was a deep, perfect blue, punctuated by soft gray and white clouds. Tall trees and poppy fields drew our attention, but hunger quickly returned. Then, around a bend, the sight stopped us in our tracks: a shimmering lake, still hidden from the morning sun, surrounded by dark hills. Its calm surface reflected the deep blue sky and instantly cleared our minds.",
+          "Relief, and joy, came shortly after at a café on the water's edge. Plastic tables and freshly brewed coffee felt like heaven. As we ate, a family of swans emerged from the lake, their elegance a perfect complement to our surroundings. Full stomachs and caffeinated blood restored our energy for the journey ahead.",
+          "Later, we encountered Marcelo Lobato, a walking legend who has traveled nearly 5,000 miles across Europe. With a stamp from him in our pilgrim passports, we continued past the highway and into the rolling farmlands. Eight kilometers later, we arrived in Navarrete, a circular hilltop town. We wandered its streets to reach the church, marveling at the centuries-old altars and gold-covered saints.",
+          "The longest stretch of walking yet lay ahead. Nearly 16 kilometers through farmland, dotted with occasional trees and distant white mounds growing into buildings. In Ventosa, we decided to push all the way to Nájera, avoiding intermediate stops. The terrain was unforgiving, and by the last hill, my hips and feet were screaming.",
+          "Music helped me cope, and as I reached the summit, \"Believer\" by American Authors began playing: 'I'm a believer that things will get better.'",
+          "The lyrics hit me like a ton of bricks. All the pain, all the stress, the struggle of walking, and the hardships of life, they will get better. It was overwhelming. Nearly in tears, Tania and I descended into Nájera, finally finding beds at Las Pena on the city's edge.",
+          "After a lunch and drinks along the river, and a much-needed nap, we regrouped with friends, sharing wine and chocolates in the sun. The Camino continues to introduce me to people who make the days richer and the miles more meaningful. Tomorrow, Santo Domingo awaits, with a ghost town along the way.\n"
         ],
-        "excerpt": "",
+        "excerpt": "A shimmering lake stopped us in our tracks, but a café on its edge saved the morning. Painful kilometers through farmland ended in Nájera, where music, friendship, and sunlit wine reminded us why we walk the Camino.",
         "gpx": [
           [
             42.466773,
@@ -115519,7 +115160,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/e5a310be-0e12-45d8-9121-dbac375a4234.jpeg",
         "location": "La Rioja",
-        "readingTime": "6",
+        "readingTime": "3",
+        "snippet": "Believing on the Way to Nájera",
         "stats": {
           "distance": {
             "label": "distance",
@@ -115614,28 +115256,18 @@ const data = [
       {
         "date": "June 10th, 2018",
         "description": [
-          "Not a cloud in the big blue sky as I retrieved the hanging laundry, packed up my bag, and headed outside. Pilgrims passed by our Albergue one at a time as they headed up the hill and out of sight. Food was on my mind after yesterdays debacle, and I made for the cafes in the opposite direction.",
-          "Mostly everyone was there or slowly arriving, getting breakfast or making sure their gear was packed and ready. I dropped my bag at a table and ordered the first thing I saw: a Spanish Tortilla.",
-          "An eager-to-get-started feeling started to set in after I finished eating. Told everyone that I'd see them in Santo, grabbed my backpack, and headed back up the densely packed cobblestone road towards our Albergue.",
-          "Tania was nowhere to be found when I got back but her trekking poles were gone. She was probably already out on the trail. I threw out some trash from my pockets, extended my trekking poles, and hit the road with a steady beat.",
-          "The morning's walk uphill forced me to shed my jacket as soon as I crested the top of the hill and stared out at irrigated farmland. Off in the distance were mountains flanking either side of the visible world. I didn't know it then, but it was going to be a long time until The Way would take us through them again.",
-          "Water running through pipes and canals kept the trail company as the farmed vegetation continuously changed from small green plants to larger bushes, and back. The beautifully evil poppies exploded in abundance on one side, while the other was carefully maintained to keep those pesky invaders away.",
-          "The sun was relentless today, and before long my shirt was nearly soaked through. Azofra was the first town for a rest that morning, but I was in such a good mood and had a good speed going so I kept going. Might have been a mistake.",
-          "Shortly after Azofra the farms faded away as the trail took a sharp turn towards the highway, and then a left turn as it returned to pure countryside. After that there were no detours off of the path, and no rest stops, for the next 13 kilometers to Cirueña.",
-          "My attention, however, was not on the hot sun, or the stretch ahead that had no places to take a break. Instead, it was fixed on the endless green fields in front of me. The gravel path that marked The Way shot like a bullet across its surface, splitting the green world in two.",
-          "Islands of trees dotted the tops of hills on the horizon with lines made from tractor tires heading straight for them. Wisps of white clouds stretched themselves thin across the dark blue sky. Small clumps of puffy clouds swept their shadows across the perfectly bright green fields.",
-          "Luckily there was a rest stop ahead at the top of a steep hill. It had benches, reclining sun chairs, and little statues. A perfect place to enjoy my snacks in the shade and to let my back take a breather.",
-          "The ghost town of Cirueña wasn't that much further.",
-          "A golf course on the left greeted the Pilgrims, along with some odd looking statues and sculptures of the pilgrimage. But this golf course had bathrooms, and I was in dire need of one. On my way out I ran into Tania. We chilled for a few minutes before picking up where we both left off and got back on the marked sidewalk taking us through empty housing developments and back out to the green pastures.",
-          "Santo Domingo slowly rose from the ground in the distance as the dark gray clouds marched over the hills to the South. Our focus was now getting there before it rained. A herd of sheep followed along side us as we walked into town. The Albergue here, the only one really, was massive but had good amenities.",
-          "The rain started to fall as I checked in to my home for the night. It was Sunday, and many of the bars/restaurants were closed for the afternoon. We did our usual routine of shower + laundry + nap.",
-          "I noticed back in Logrono that my flip-flops which I used for showering were not up to the additional task of walking around town at the end of the day. I found a hiking gear store next door and popped in. They were selling hiking sandals, and I didn't waste much time in deciding to invest in a pair. My feet felt like they were walking on air, and the sides of my feet were no longer being torn into by thin straps.",
-          "Happy with my purchase I put them to use by walking around town to get some cash, and to check out the church. As I got back to the Albergue the others were beginning to arrive, soaked from the rain.",
-          "After sitting around for a while at the Albergue (again, nothing open because Sunday), Leon and I decided to take a walk and explore the city. We ended up talking and walking for nearly two hours about work, philosophy (his current major in college), and where we wanted to take our futures. Our journey took us to the edge of town, and down along their main street and past fancy restaurants.",
-          "For dinner I found a bar that sold real eggs. You have no idea how amazing the simplest of foods can taste when you’re forced to forgo them because of weight and your hierarchy of needs while backpacking.",
-          "I’m amazed that today was only 20km, but that it felt easy, and I only stopped for 10-15 minutes in total today. Tomorrow should be another short day, but the rain did not look like it was going to stay away for long."
+          "Not a cloud in the big blue sky greeted me as I retrieved the hanging laundry, packed my bag, and stepped outside. Pilgrims passed by the Albergue one by one, heading up the hill and out of sight. Food was on my mind after yesterday's debacle, so I made for the cafés in the opposite direction.",
+          "Most people were already there or slowly arriving, securing breakfast or double-checking gear. I dropped my bag at a table and ordered the first thing I saw: a Spanish tortilla. Full and eager to start, I told everyone I'd see them in Santo Domingo, hoisted my pack, and climbed the densely packed cobblestone road toward the trail.",
+          "Tania was nowhere to be seen, but her trekking poles were gone, so she was probably already ahead. I emptied my pockets of trash, extended my poles, and fell into a steady rhythm. The morning's uphill walk forced me to shed my jacket as soon as I crested the hill, revealing irrigated farmland and distant mountains flanking the horizon. I didn't know it then, but it would be a long while before The Way took us through mountains again.",
+          "Water ran through pipes and canals alongside the trail, as the farmland transformed from small green plants to bushes, and back. Poppies erupted in vivid reds along one side, while the other fields were meticulously maintained to keep intruders at bay. The sun was relentless, and by the time I reached Azofra, the first town for a break, I was moving well and didn't stop. Perhaps a mistake.",
+          "After Azofra, the trail turned sharply toward the highway, then veered left into pure countryside. For the next 13 kilometers to Cirueña, there were no detours or rest stops. Still, I couldn't focus on the heat or the long stretch; my eyes were locked on the endless green fields in front of me. The gravel path of The Way sliced through the landscape like a bullet, splitting the verdant world in two. Islands of trees dotted distant hills, tractor lines stretched straight toward them, and wisps of white clouds traced shadows across the fields.",
+          "Finally, a rest stop appeared atop a steep hill, with benches, reclining chairs, and tiny statues. A perfect place to snack and rest. Soon after came the ghost town of Cirueña. A nearby golf course offered bathrooms (essential at this point) and on my way out, I ran into Tania. We walked together for a while, weaving through empty developments back to the open fields.",
+          "Santo Domingo slowly rose in the distance, dark gray clouds marching over southern hills. A herd of sheep accompanied us as we approached town. The Albergue was massive, with excellent amenities, and just as I checked in, the rain began to fall. With bars and restaurants closed for Sunday, we followed the usual routine: shower, laundry, nap.",
+          "Back in Logroño, I realized my flip-flops were inadequate for walking in town. A nearby store offered hiking sandals, and my investment felt like walking on air, saving my feet from the thin straps that had been tearing at them. I tested them on a stroll around town to get cash and visit the church, returning to find the others soaked from the rain.",
+          "Later, Leon and I explored Santo Domingo for nearly two hours, talking about work, philosophy, and our futures. Dinner consisted of the simplest pleasure: real eggs, which tasted incredible after days of limited options on the Camino.",
+          "Twenty kilometers felt easy today, with only brief stops, but the rain promised that tomorrow would bring a new challenge.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Sun, endless green fields, and poppies in full bloom carried me through 20 kilometers to Santo Domingo. Rain, sandals, and simple eggs reminded me why the Camino is as much about the small joys as the long miles.",
         "gpx": [
           [
             42.417566,
@@ -116632,7 +116264,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/50570d33-285a-4561-bc7f-b7e500363359.jpeg",
         "location": "La Rioja",
-        "readingTime": "5",
+        "readingTime": "3",
+        "snippet": "Green Fields and Poppies to Santo Domingo",
         "stats": {
           "distance": {
             "label": "distance",
@@ -116728,28 +116361,14 @@ const data = [
       {
         "date": "June 11th, 2018",
         "description": [
-          "A wall of water was coming. I left Santo Domingo de la Calzada at seven in the morning, alone. And honestly, I can't remember why. Maybe I was anxious to begin, maybe the others were sleeping in, or maybe I looked at the weather forecast and saw the heavy rain in the afternoon.",
-          "Today's stage was meant to be a short one, and I could have easily slept in. The sun was already up and hiding behind the clouds as I walked out of the city and into the fields.",
-          "Green farm fields, similar to the scenery from the first half of yesterdays walk, surrounded me so I kept my head down and focused on the steps, trying to ignore the pain in my feet. I'm still secretly hoping that the problem with my knee will get better on its own.",
-          "I passed through Granon without stopping, and continued on to Redecilla del Camino. Without even realizing it, I had passed out of Basque territory and into the Castilla y Leon region. This would end up being the widest region on the Camino.",
-          "After filling up on water, and taking a quick break, I went back out on to trail. The next town was Castildelgato, and the only thing that caught my eye there was an old gate, standing guard over a field of grass. I wonder what used to be there, oh so long ago, and what that gate protected.",
-          "Viloria de Rioja was the next town after Castildelgato. A pilgrim whom I had seen in Santo carrying a MacBook (of all things) with them was just up ahead, and we chatted for a little bit as we arrived at Viloria. They were using a porter service so they only had to walk with a backpack during the day, hence why they were able to carry something weighing a few pounds.",
-          "We stopped at the open Albergue in town, and they were serving breakfast. I was tempted to buy an omelette, but the place gave me a weird vibe, so I used the facilities and kept going. The other pilgrim stayed behind and hung out for a little bit, but I was in one of my \"gotta get there gotta get going\" moods.",
-          "But I was happy with my decision because as soon as I took the paved road out of town, the blue sky returned along with green hills and fields in the distance. They cultivated the entire surface of these hills, going all the way to the top. It made me nearly miss a step: another view of nothing but green fields and blue skies. I am loving this Camino, even with all of the pain that it brings.",
-          "I stole myself away from the surrounding landscape, and thirty minutes later I was arriving in Villamayor del Rio. I pulled out some peanuts that I had picked up in Santo that morning and, having spotted the darkening clouds ahead of me, took out the rain jacket and bag cover. I decided to forego the poncho, and I would come to regret that decision. I stuffed the peanuts in my pocket, threw on the backpack, and hit the road.",
-          "Not a minute had gone by before the first raindrop fell on me. I was so proud of my decision to put on the rain gear. This weather wasn't going to catch me off guard. I snapped some pictures of the trail before putting my phone away and getting ready to go into heads down mode. That was the last picture I would take on todays walk.",
-          "I smelled the rain before I saw it. I could hear the whooshing sound as it raced over the ground, disturbing the air ahead of it. Those first few raindrops were an early warning, and I did not listen to them.",
-          "It had begun to rain, and I mean really rain. Straight up downpour. It rained a whole heck of a lot harder than I thought it would, and my entire lower half got soaked. The rain even started to penetrate my rain coat! Luckily the stuff in my bag stayed dry.",
-          "With heavy wet shoes I entered Belorado an hour later, probably carrying enough rain water to fill a small bottle.",
-          "The Municipal Albergue wasn't open yet when I arrived (after all, it was only 11:30 am), so I hung out with the other rain soaked Pilgrims as we waited for them to finish cleaning.",
-          "Now that the rain was done, I set out to explore the village in order to kill some time before dinner. My exploring was short lived because I was starving. I grabbed lunch at a small restaurant above a bar in the town square that apparently hated natural light (there weren't any windows). The Paella and wine were really good though, and they had the world cup on the TV.",
-          "I headed back to the Albergue after getting some supplies to take a nap, and saw that I had a bunk mate, and that they were using my outlet extension cord! Her name was Crissi (USA). I was so happy that someone was actually able to use it, and she commended me on the genius of bringing it.",
-          "After waking up I still had more time to kill before dinner. Damn these early arrival times! I went back out to do more exploring, and ran into Crissi near a ruined church. We checked out the church, walked around, and hiked up to the castle ruins at the top of a hill next to town.",
-          "I loved the view of the city from up here, and took out my phone to take a picture. As I took a step forward to get the shot, I nearly slipped off the side of the hill! That would have been a bad way to end the Camino.",
-          "We ended up ordering dinner at the Albergue (the food was delicious), and met a lot of great people. Two of them were from Texas: Lauren and Hailey. They quickly became known as \"The Texans\".",
-          "This day started out with my head focused on the ground, alone, and soaking wet, but ended with new friends and great conversation. And I was looking forward to walking with them the next day. The destination is 30 kilometers away called Ages (pronounced ah-guess, kind of like August), and tomorrows forecast had zero rain in the afternoon."
+          "I left Santo Domingo de la Calzada at seven in the morning, walking alone. I can't remember exactly why. Perhaps I was eager to start, maybe the others were sleeping in, or the forecast of heavy afternoon rain pushed me forward. The stage was meant to be short, and I could have slept longer, but the sun was already up, hidden behind clouds, as I stepped out into the fields.",
+          "Green farm fields stretched on either side, familiar from yesterday's walk. I kept my head down and focused on each step, quietly hoping that my knee would improve on its own. Granon passed without pause, then Redecilla del Camino, and before I knew it, I had left Basque territory and entered Castilla y Leon, the widest region on the Camino.",
+          "After a quick break in Redecilla, I passed through Castildelgato, noticing an old gate guarding a field. I wondered what it had protected long ago. Viloria de Rioja came next, where I chatted briefly with a fellow pilgrim I had seen in Santo. They were carrying a MacBook, using a porter service, which explained how they managed the extra weight. I stopped briefly at the open Albergue but decided not to linger, choosing instead to keep moving.",
+          "As soon as I left Viloria, the blue sky returned and rolling green hills appeared in every direction. The cultivated slopes stretched to the top, almost making me miss a step. I arrived in Villamayor del Rio shortly after, pulled out some peanuts, and readied my rain jacket. I avoided the poncho, a choice I would soon regret. Not long after leaving, the first raindrops fell, and then it poured. My lower half was soaked through, though thankfully the supplies in my bag stayed dry.",
+          "An hour later, I reached Belorado, carrying enough water in my shoes to fill a small bottle. The Municipal Albergue wasn't open yet, so I waited with other soaked pilgrims. After the rain let up, I explored the village before grabbing lunch at a small, dimly lit restaurant. The paella and wine were excellent, and the World Cup played on the TV. Back at the Albergue, I met my bunk mate, Crissi, who immediately appreciated my outlet extension cord.",
+          "After a nap, Crissi and I wandered through the ruins of a church and up to the castle ruins on the hill, where the view of Belorado was incredible. Dinner at the Albergue introduced me to more pilgrims, including two Texans who quickly became friends. What began as a damp, solitary walk ended with new companions, good conversation, and a sense of anticipation for tomorrow's 30-kilometer trek to Ages, with a forecast promising no rain in the afternoon.\n"
         ],
-        "excerpt": "",
+        "excerpt": "A morning of solo walking through green fields turned into a soaking downpour on the Camino, but the day ended with new friends, castle ruins, and unforgettable views. Even in the rain, the Camino rewards patience and perseverance.",
         "gpx": [
           [
             42.440985,
@@ -117746,7 +117365,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/009b868c-38ee-43e7-bc1c-90b259306d86.jpeg",
         "location": "Castile and León",
-        "readingTime": "6",
+        "readingTime": "3",
+        "snippet": "Rain, Ruins, and New Friends",
         "stats": {
           "distance": {
             "label": "distance",
@@ -117842,27 +117462,14 @@ const data = [
       {
         "date": "June 12th, 2018",
         "description": [
-          "The stirring of other pilgrims kept me awake for most of the night, and woke me early in the morning. Both of the neighboring bunk beds were already empty when I finally got up at 6am. I hopped down from the bed, and saw that Crissi had also left for the day. She must left very early in the morning with the first wave of pilgrims. I was bummed out that I didn't get a chance to say goodbye.",
-          "My shoes were still soaked with water as I took out all of the newspaper that I had stuffed in there yesterday. I had made plans last night to meet up with Tania and Shelby in the morning so, with no one to wait on nor to wait on me, I saddled up the bag, put on my shoes, and headed their way. The other half of the group (Amy, Martha, Dom, Luigi, and Leon) had stayed at the first Albergue outside of town.",
-          "I met up with Tania, Shelby, and a new pilgrim named Steve (USA) just as they were finishing up breakfast, and by 7am we were on the way to Agés.",
-          "A constant light drizzle of rain decided to hang out with us as we headed towards Tosantos. Steve didn't have a rain coat, so they improvised one from some gas station garbage bags for him. Nothing quite like being warm and dry in the rain!",
-          "After Tosantos the others needed to rest. I decided to pull ahead of everyone else in order to keep going, and told them I'd see them at the stage ender.",
-          "The rains from yesterday had left numerous water-filled landmines, and the clouds threatened to unload more rain upon me as I passed through Villambistia and Espinosa del Camino. There were tons of fountains, but no places for food. Luckily I had the rain-soaked peanuts still in my coat pocket from yesterday. But as soon as I took them out and had a few, I threw them away. They tasted nasty.",
-          "The views were very similar to yesterday, and the constant drizzle made it an unpleasant and boring walk. I arrived in Villafranca Montes de Oca (which was once a Roman city named Auca) and saw a truck-stop style diner. Food! I threw down my gear outside, and rushed in before the other pilgrims behind me could arrive. Needless to say, I was starving. The sandwiches here were massive! I could only finish half of mine, but now had lunch for later. I really need to get better at this thing called \"planning ahead\".",
-          "With a full stomach I returned to the trail. The way out of town took me up above the church and through a steep and muddy mess. It was a lonely uphill walk through the mud-soaked woods. Few pilgrims were ahead or behind me.",
-          "Up and down it went. Through forests, across rivers, past momuments, and onto super wide mud paths. It was here that a local trail angle had carved out a nice spot for herself and her dogs just before San Juan de Ortega. The puppers were chasing each other through the woods, and watching them warmed me up as I ate my snacks on a tree stump.",
-          "The monastery at San Juan in the next town offered some amazing damp wood smells that you can only find in old buildings. This place had a barebones Albergue for pilgrims without any amenities, and while the thought tickled my brain for a brief moment, I wanted to push further.",
-          "One beer later, and after eating the rest of my breakfast sandwich at a bar next to the monastery, I was back to slugging it through the woods towards Agés. I was grateful that most of the trail today was on soft earthen ground and not that nasty hard pavement.",
-          "I emerged from the woods and saw a tree standing like a solitary guard, protecting the town behind it, with a yellow arrow painted across its trunk. It was like something out of a fairytale, and as soon as I took a picture of it a fast wind picked up and the clouds began to break apart.",
-          "What I saw stretched out ahead of me made my jaw drop, literally. I had never seen such a wonderful view. Sure, Los Arcos was a beautiful walk, but I had no idea that it was just one of many amazing places on The Way.",
-          "Remember how I said I could see myself living in Pamplona, well…if nearly every Spanish village was going to be surrounded by fields like this, it was going to be hard to choose one.",
-          "I sat outside in the warm sun, letting the breeze dry my laundry, snacking on my chocolate as Tania, Shelby, and Steve arrived.",
-          "In the hills behind the village there was an excavation site for pre-historic animals, and humans, at Atapuerca. For five euros a local bus picked us up from the town fountain and took us to the museum built near the site. From there another one took us up to the actual dig.",
-          "They apparently found this cave by accident on the Matagrande Plain, so it’s not hard to imagine how many hidden gems are beneath your feet at this very moment. Steve (who is a Spanish teacher back in the states) translated everything that the guide told us about the areas history and how ancient humans had used the cave, how they had found it, and the things that they excavated.",
-          "I will say this though: as fun as that was, it felt weird riding on a bus on the way back as we passed fellow pilgrims walking on the road. As if being in a motorized vehicle was wrong.",
-          "All-in-all it was a great day filled with good walking, good weather, picture perfect scenery, and enjoying a home-cooked meal from the hospitalarios. Some of us even got a little (ok a lot) drunk on the wine, and they were hilarious at dinner. Tomorrow was the next big city on our trek: Burgos. It was also possibly the last time that I would be seeing all of the people that I had met so far."
+          "I woke early to the stirring of fellow pilgrims, finding both neighboring bunk beds already empty. Crissi had left too, likely with the first wave of walkers, and I missed the chance to say goodbye. My shoes were still soaked from yesterday, but after clearing out the newspaper I had stuffed inside, I packed up and headed toward Tania and Shelby. The rest of the group had stayed at the first Albergue outside of town.",
+          "By seven, Tania, Shelby, and a new pilgrim named Steve had finished breakfast and we were on the road toward Agés. A constant drizzle accompanied us, and Steve, without a raincoat, improvised one from garbage bags. After Tosantos, the others needed a break, so I pulled ahead, navigating mud-soaked paths and rain-filled landmines through Villambistia and Espinosa del Camino. Peanuts from yesterday's hike provided a brief snack, though they were quickly discarded.",
+          "Villafranca Montes de Oca, once a Roman city named Auca, offered a welcome reprieve with a truck-stop style diner. I devoured half a massive sandwich and saved the rest for later. The way out of town led through steep, muddy woods, where the uphill slog was mostly lonely but softened by earthen trails. The monastery at San Juan de Ortega offered old-world charm and the faint smell of damp wood, and I briefly considered staying there before pushing onward.",
+          "Emerging from the forest, I encountered a solitary tree marked with a yellow arrow. Beyond it stretched one of the most breathtaking views I had ever seen on the Camino. Fields rolled out in every direction, making me wonder how anyone could ever choose just one village to call home. Tania, Shelby, and Steve arrived, and we sat together, enjoying the sun and letting our laundry dry while snacking on chocolate.",
+          "The day's adventure included a detour to Atapuerca, where pre-historic excavations revealed hidden treasures of ancient humans. Steve, a Spanish teacher, translated the guide's stories and shared fascinating details about the site. Returning by bus felt strange, watching pilgrims walk past us on the road, yet the experience was well worth it.",
+          "The evening ended with a home-cooked meal from the hospitalarios, wine, laughter, and stories. After a day of rain, mud, and picture-perfect scenery, it felt incredible to share the trail with friends. Tomorrow promised a walk to the city of Burgos, and perhaps the last time I would see many of the companions I had met along the Camino.\n"
         ],
-        "excerpt": "",
+        "excerpt": "A morning of rain-soaked walking led to breathtaking views and a visit to the ancient site of Atapuerca. The day ended with friends, wine, and stories shared over a home-cooked meal.",
         "gpx": [
           [
             42.420959,
@@ -118859,7 +118466,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/678b2b3a-6724-4bca-99b7-f7ed9a4683e7.jpeg",
         "location": "Castile and León",
-        "readingTime": "6",
+        "readingTime": "3",
+        "snippet": "Rain, Ruins, and Rolling Fields",
         "stats": {
           "distance": {
             "label": "distance",
@@ -118954,30 +118562,13 @@ const data = [
       {
         "date": "June 13th, 2018",
         "description": [
-          "I think a rooster woke me up. The wind had free rein as it whipped and wrapped itself around us on the exposed country road. It's a good thing they served us breakfast at our Albergue, or else the hunger would have helped the wind cut even deeper. Speaking of breakfasts, this was my first homemade breakfast on the Camino. It was a simple serving of eggs and toast, but it was filling. I miss having eggs for breakfast.",
-          "Once again we were arriving in the town of Atapuerca, but this time it was by foot.",
-          "At the first cafe we shamelessly helped ourselves to a small second breakfast. A \"small\" hill greeted us as soon as we left the town. This was the same hill that they were doing their excavations on, and part of it was fenced off. So much for exploring.",
-          "We made it up the hill in no time at all.",
-          "A tall wooden cross stood at the top, staring out at the rolling land from which we had come. On the ground behind it lay a large stone arrow pointing us in the direction of Burgos off in the distance. But the structures and decorations didn't stop there.",
-          "Laid out on the ground ahead of us sat a weird series of concentric circles with a single way in and out. As we watched people walking along the spiraling rings, Shelby recognized what it was: a silent spiral maze.",
-          "Each of us took turns walking (sometimes jogging) towards the center where a small wooden cross stood. It probably took 20 minutes to do the whole thing, and it was such a calming experience. It’s the simples things sometimes.",
-          "However, it was time to return to reality. Burgos was waiting for us down the steep descent, and 17 kilometers away.",
-          "It was an intense walk. There was a very long stretch (nearly 14 km) without any stops. But, that doesn't mean it wasn’t pretty.",
-          "Through various villages we marched, finding rest stops along the way. As we began to enter the outer edges of the city, we took the route less traveled towards the river entrance. It took us pass a small airport and towards the factories on the cities limits.",
-          "As we came to the highway leading in, we couldn’t find a way across. After trying to follow an ever-diminishing gravel path, we decided to bushwhack the shit out of it. We found what could barely be described as an “underpass”. It was a small gap under the highway with a clearance of 3 feet and went over a dry riverbed. The thorns and prickly grasses on the other side wanted us to stay out, but we pushed through it.",
-          "It’s a good thing that we crossed when we did, because shortly thereafter all of the disgusting factory smells began to invade our space. Luckily we didn’t have to walk through the noxious fumes for very long, for we had arrived at the river, and we needed a break.",
-          "Bread, chocolate, and cheeses were placed in front of each other as we made a little spot for ourselves next to a bench under the trees. We saw familiar faces pass by as we gorged on our delicious buffet.",
-          "The riverwalk ahead took us straight into the historic part of Burgos (it was longer than we thought), and it took us nearly 30 minutes to walk the length of it before entering the city proper. But we did stray a bit away from the marked path because we decided to class it up and stay at an actual hostel (Hostel Burgos) with a private room for the four of us (Shelby, Tania, Philip, and myself). It was the first night that I didn’t have to wear earplugs. Thank you friends for not snoring!",
-          "After the usual requirements of laundry and showering, my first stop was the cathedral. To be honest, it’s a beautiful building on the outside, and the interior is nice, but it’s set up like a museum which ruins the effect, for me at least. I had to speed through the tour anyways (at a cost of five euros) because Steve told me about the MEH (Museum of Human Evolution). I love learning about this stuff, and the experience from the dig tour from yesterday was still fresh in my mind.",
-          "I ran over to the MEH (Museum of Human Evolution) to meet up with Steve and Shelby. They had a lot of information in there. I had seen most of it before, but the nerd in me always likes to geek out on this kind of stuff. Plus, it was free!",
-          "Tania and Philip were waiting for us back at the hostel, and we all headed out to find a bar for the evening. As we entered the town square Amy, Martha, Luigi, Dom, and Leon showed up! They said they would find us later after walking around for a bit.",
-          "We found a place that served tapas which each drink you ordered, it was great. Amy and the others showed up as we grabbed some tables and commenced indulging ourselves. Several rounds of beer were purchased throughout the night.",
-          "They all got to chatting, and the idea of taking a relaxing day off tomorrow gained steam. I would have joined them, but I couldn’t afford to take any days off in order to finish in time. None of them had booked return flights, so they had some flexibility.",
-          "But eventually the time came to say goodbye...",
-          "I've walked nearly 300 kilometers for two weeks with most of them, and it was hard. You make such a profound impact on each other and it becomes too much when you start to think about not seeing them again, especially after all that you've been through on this pilgrimage. Each one of them left a mark on me, and helped make an impact on the Camino.",
-          "I pushed the thought of not seeing these people again out of my head in order to get some sleep. Tomorrow was going to be brand new, but at the same time familiar. Hontanas is 30 kilometers, and a world of unknown, away from here."
+          "I woke to the sound of a rooster and the wind whipping across the exposed country road. Breakfast at the Albergue was a simple but filling serving of eggs and toast, my first homemade meal on the Camino, and a comforting start to the day. Once fueled, we set off on foot for Atapuerca, making a quick stop at a café for a small second breakfast before tackling a hill near the excavation site. At the top, a tall wooden cross overlooked the rolling fields, and a stone arrow pointed the way toward Burgos. Ahead, a silent spiral maze drew our attention, and we each took turns walking toward its center, a small wooden cross marking the goal. The calm simplicity of it was almost meditative.",
+          "Reality called soon enough, as Burgos waited 17 kilometers down a steep descent. The walk was long and intense, with nearly 14 kilometers without a proper stop, yet the countryside scenery kept spirits high. Passing through villages and wide, cultivated fields, we finally approached the outskirts of the city. The route took us past a small airport and factory zones, and we navigated a tricky underpass under the highway before finally reaching the river, where a shaded bench became our lunch spot. Bread, chocolate, and cheese restored energy while familiar pilgrims passed by, sharing friendly nods and smiles.",
+          "The riverwalk carried us into historic Burgos, a longer stretch than expected. We decided to upgrade for the night, booking a private room at Hostel Burgos for four of us. My first night without earplugs. After the usual laundry and shower routine, I headed to the cathedral. Its exterior was stunning, though the interior felt more like a museum, and I soon rushed to the Museum of Human Evolution to meet Steve and Shelby. The exhibits were fascinating, and the hands-on learning from Atapuerca the previous day made it even more vivid.",
+          "Evening brought the rest of our Camino friends together. We found a tapas bar in the town square where each drink came with small bites, and shared laughs over several rounds of beer. Conversations drifted to taking a rest day, but I had to keep moving in order to finish on schedule. Saying goodbye was harder than I expected. After two weeks and nearly 300 kilometers of walking together, the impact of these companions had grown deeper than I anticipated. Each left a mark, and the thought of not seeing them again tugged at me.",
+          "As night fell, I pushed those thoughts aside and focused on the road ahead. Tomorrow promised a 30-kilometer journey to Hontanas, a new day filled with familiar trails, unknown landscapes, and fresh experiences waiting just beyond the horizon.\n"
         ],
-        "excerpt": "",
+        "excerpt": "After a morning at Atapuerca and a long walk into Burgos, we explored the city, enjoyed tapas with friends, and reflected on the bonds formed over nearly 300 kilometers. Saying goodbye was hard, but tomorrow held a 30-kilometer trek to Hontanas and new adventures.",
         "gpx": [
           [
             42.370189,
@@ -119974,7 +119565,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/28740c31-9cb0-4952-af50-9f1bab6c1edb.jpeg",
         "location": "Castile and León",
-        "readingTime": "6",
+        "readingTime": "3",
+        "snippet": "Crossroads and Goodbyes",
         "stats": {
           "distance": {
             "label": "distance",
@@ -120069,35 +119661,13 @@ const data = [
       {
         "date": "June 14th, 2018",
         "description": [
-          "Everyone was still sleeping when I woke up. After one last check in the locker I rolled up my sleeping liner and headed to the cafeteria to see what they had for breakfast. All they had was cold food consisting of cereal and toast, which was fitting for my current mood. I sat alone at a long table with my bag next to me, trying to eat as much as I could.",
-          "Shit! I realized I had forgotten my towel. It was probably hanging off the end of the bed back in the room. Luckily Tania was awake and answered the door after a few soft taps. I gave her another firm hug before saying goodbye for good. This was getting real now.",
-          "I took the stairs down to the street below, and stepped out into the cold air. The city was slowly waking up.",
-          "At this moment I realized that I had no idea how to get out of the city. Everyone that I had been walking with so far had the guidebook, or knew enough Spanish to ask for help. It also didn't help that we stayed at a place off of the main path, far from any markers. Then I remembered someone told me last night to follow the river, going in the opposite direction.",
-          "I've never felt so helpless and nervous. The river was easy enough to find, and I followed it blindly as it flowed beneath me. For a long time there weren't any other pilgrims ahead, or behind, and I started to have a minor panic attack. Finally I saw some ahead of me, and at the same moment the markers on the ground returned. Crisis averted.",
-          "The first mistake of the morning was slowly becoming apparent to me. I had not filled up my Camelbak before leaving because I assumed that public fountains would be on and running. Apparently they turn them off at night, and don't turn them on again until later in the day. I felt another panic attack coming.",
-          "As I left the city behind and entered the familiar world of the gravel path and green fields, I came across a stone marker that made me want to cry.",
-          "Standing in front of me is a pink heart with a crack going down the middle of it, and that perfectly summed up how I was feeling. I was now an hour away from everyone that I had grown so close to over the last several days, with no hopes of ever seeing them again.",
-          "I pushed my feelings aside, and decided that they wouldn’t bring me down today.",
-          "Quick work was made of the walk to Tarjados where I grabbed another, more filling, breakfast, filled up on water and then headed through Rabé de las Calzadas a short distance later.",
-          "Once I left Rabé the heat, and flies, began to rise. Little did I know but I was entering the Meseta on June 14th, and a heatwave was beginning to sweep across Spain at the same time.",
-          "The flies were my unwanted traveling companions on this 30+ kilometer day, and they did not want to leave me alone. But, there was silver lining to this swarm of annoying flies, and that was a swarm of white butterflies.",
-          "I crested a hill and was surrounded by hundreds of them. They kept the flies away, and it was like walking through a dream. Sadly I have no pictures of this amazing world, I was too focused on pushing through this day.",
-          "Besides the flies, and the heat, the world around me was once again composed of blue sky, green fields, and white clouds. This is my element. This is where I feel at home.",
-          "Some benches stood in front of a bar at the edge of Hornillos del Camino. As I sat there eating my sandwich some Brits were staring at me, and I tried my best to ignore there eyes. Further up the road was the town square so I headed towards it and the Church. I grabbed a table by a fountain in front of the church, and enjoyed the rest of my sandwich along with a beer from the bar.",
-          "As much as I was enjoying myself in the sun, there was still plenty of walking left to do. The ground after Hornillos was flat as far as the eye could see. Here and there piles of rocks in the distance gave the illusion of buildings and salvation from the flies and the heat (oh yes, the flies immediately returned once I left the village behind).",
-          "According to the map they had given me back in St Jean there was supposed to be a rest stop after 26 kilometers called San Bol. Only one ruined building remained in the fields of grass. Disheartened, I cracked on.",
-          "Next came a sign promising a place to sleep in 500 meters. Then another sign promising the same in 250 meters. Then another at 50 meters. 50 meters is exactly 164.042 feet. You can see 164 feet in front of you, right? 164 feet in front me was nothing, just more flat grasslands filled with flies.",
-          "I started cursing out loud because I was running low on water, very hot, and my feet were killing me. Then, out of nowhere, Hontanas rose from the ground like the cave filled with gold in Aladdin. First the top of the church, then the tops of buildings, and finally a street that led down and into sanctuary. The entire city was built below the level of the surrounding terrain.",
-          "Words alone cannot describe how I felt.",
-          "At the top of the gravel road leading into town were some other pilgrims. Hopefully they were American. My greeting started as a simple \"hey\" to the person closest to me, but quickly turned into a cry of excitement as I saw who it was, and I nearly collapsed on them as I gave them a hug.",
-          "Disbelief overcame me as I stepped back and turned to look further down the road. There was Bianca who I had seen during the earlier days of the Camino at Najera, and a new pilgrim named Mauro from Italy. And of course there was the person whom I had just assaulted with a hug. This was the person who had left so early in the morning nearly three days ago in Belorado without saying goodbye. But there she was, standing two feet away from me. I was so happy to be able to say hello, once again, to Crissi.",
-          "Relief, joy, and a multitude of other feelings overcame me, and I could not wipe the look of happiness off of my face as we went into town, booked beds, and relaxed in the sun. The universe had given me new and old friends to help pull me up and get me through one of the hardest days of my life after leaving so many people behind.",
-          "Another pilgrim that Crissi recognized named Ciro stopped by our table that afternoon. He told us that he had done five Caminos so far! That's crazy, but I can see why someone would want to come back and do this again.",
-          "Bianca, Crissi, Mauro, and I scrapped together what we could from the small tienda, and cooked dinner for each other. This was my first time on the Camino cooking dinner, and it couldn't have been under better circumstances. We even blew out the circuit breakers because we were using the electric stove so much.",
-          "The setting sun basked the rear deck in hot light as we enjoyed the fruits of our collective labor. It was one of the most delicious dinners I had ever had. Ciro joined us halfway through as we were finishing up the bottle of wine.",
-          "It was decided that we would leave early in the morning to try and beat this intense heat that was laying on top of the world like a heavy wool blanket. The Meseta, the rest of the Camino, and Boadilla del Camino was waiting for us. Let's do this."
+          "I woke early to a quiet Albergue and headed to the cafeteria for a cold breakfast of cereal and toast. A quick check of my locker revealed that I'd forgotten my towel, but Tania was awake to hand it to me, and I gave her one last hug before saying goodbye. Stepping out into the crisp morning air, I realized that I had no idea how to leave the city. Without a guidebook or anyone ahead to follow, I found the river and followed it blindly, my panic slowly subsiding as markers reappeared and I spotted other pilgrims in the distance.",
+          "The walk out of the city brought me to the green fields and gravel paths I had grown to love, but also a stark reminder of solitude. A cracked pink heart etched into a stone marker perfectly captured my feelings as I left everyone behind. I pushed on, stopping briefly in Tarjados for breakfast and water, then continued through Rabé de las Calzadas, unaware that the Meseta heatwave and swarms of flies awaited me. Yet there were silver linings: hundreds of white butterflies surrounded me on a hill, keeping the flies at bay and turning the long, grueling day into something almost magical.",
+          "Hornillos del Camino offered a welcome break. I rested on a bench, enjoyed a sandwich by the church fountain, and sipped a cold beer while soaking up the sun. Beyond the town, the flat Meseta stretched endlessly, barren and filled with flies. False promises of rest stops and shelter buildings wore me down until, finally, Hontanas appeared like a mirage. Nestled below the surrounding terrain, the town rose gradually from the horizon, offering sanctuary after one of the hardest days I'd faced so far.",
+          "The joy of seeing familiar faces was overwhelming. Crissi, who had left Belorado days earlier without saying goodbye, stood waiting, and I nearly collapsed into a hug. Bianca and Mauro from Italy joined us, and together we booked beds and relaxed in the afternoon sun, a wave of relief and happiness washing over me. Later, another experienced pilgrim, Ciro, joined our group, sharing stories of his five Caminos and adding to the camaraderie.",
+          "For the first time on the Camino, we cooked our own dinner. Bianca, Crissi, Mauro, and I pooled our resources in the small tienda kitchen, preparing a meal that felt both communal and celebratory. The setting sun bathed the rear deck in warm light as we ate, sipped wine, and reveled in the simple joy of food, friendship, and survival. Plans were made to leave early the next morning to beat the heat, ready to face the next stretch of the Meseta, including Boadilla del Camino, with renewed energy.\n"
         ],
-        "excerpt": "",
+        "excerpt": "After a punishing 30-kilometer trek across the Meseta, Hontanas appeared like a mirage, and seeing familiar faces, including Crissi, lifted my spirits. Together with new friends, we cooked, laughed, and savored one of the most memorable evenings on the Camino.",
         "gpx": [
           [
             42.34289,
@@ -121094,7 +120664,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/3ecd42d0-421e-4e3d-a770-830e68e2652c.jpeg",
         "location": "Castile and León",
-        "readingTime": "7",
+        "readingTime": "3",
+        "snippet": "Stumbling into Hontanas",
         "stats": {
           "distance": {
             "label": "distance",
@@ -121189,30 +120760,14 @@ const data = [
       {
         "date": "June 15th, 2018",
         "description": [
-          "The sun would not rise for another two hours as we packed our bags in the hallway. Someone else from the other dormitory had the same idea, and added their stuff to the mess. We finished our morning routines and headed down the stairs.",
-          "There's really only one thing that can stop you from getting an early start, and that would be a locked door. Thirteen days of walking to, and sleeping in, various places. You'd think that we would have learned to ask what time the doors open. After some exploring we found our escape through the kitchen door, and around the back of the building.",
-          "With head torches aglow we headed up into the hills and out of town. There’s not much to see when it’s dark out, and you walk so much faster without the heat pressing down on you. Our small group for the day consisted of Bianca, Crissi, and Maddy (the pilgrim who joined us in the hallway) from the UK.",
-          "The rising sun filled the sky with a beautiful pink as headed towards Castrojeriz. Up ahead a massive structure begin to take shape. It was the Convento de San Antón: an old pilgrim hospital which was started by the Order of St. Anthony in the 11th century. All that's left now are the ruins of it, but the road cut right through the middle of it.",
-          "Arches toward above us as we walked through the ruins. The pink stone arches of this once massively tall structure framed the road perfectly as we continued towards the castle on the hill in the distance.",
-          "The road took us through groves of trees before crossing a small river. Castrojeriz was in full view as we took the exit off of the small country highway and towards the town. The church seemed so large when compared to the houses around it.",
-          "Oh, and did I mention that there wasn't a single cloud in the sky today? Talk about beautiful.",
-          "Bianca showed us her coffee skills as we rested at the cafe across from the church. She competes in the Olympics of coffee making, and gets to work with it all day long, for a living.",
-          "Up the stone road we went, taking a detour around the southern side of the castle on the hill, and in doing so nearly stepped on a praying mantis! The little guy was standing as stiff as a statue in the middle of the street. But he was kind enough to let us take some pictures of him.",
-          "Ahead of us lay an old Roman road which led to the big elevation gain for the day: Alto de Mostelares. Maddy and I were in the power walking groove with our trekking poles, and we didn’t flinch as we hit the incline. It took us about 10 minutes to get to the top, and holy shit were we out of breath when we reached it. I don’t think I was this out of breath when we crossed the Pyrenees.",
-          "The walk down was hard. My poor knees…",
-          "Flat ground awaited us on our way to the next oasis. The power walking didn’t ease up either. Maddy and I arrived at the Fuente al Pioja about 40 minutes later and chucked our gear aside. We probably spent close to an hour resting here. The sun was shining bright, the clouds were absent from the sky, and the shade felt damn good. Plus, there was a snack stand set up with food. Fruit please!",
-          "We came to the San Nicolás Chapel. It was a barebones place with no electricity which means, gasp, no wifi. But the thought of staying there was tempting, just to disconnect from it all for once. Once over the bridge which crossed the Rio Pisuerga we entered Palencia, and the Tierra de Campos region.",
-          "The headphones went in, the music was turned on, and I beat the shit out of that gravel path with my trekking poles. The heat had turned up, and I wanted to get to some shade, which was still 6 kilometers away. Maddy had the same idea, and she kept in time with her music, each of us using the beat to power walk. We matched tempos and were soon making great time.",
-          "Itero de la Vega was the next town, and it was calling out to us for lunch. The sandwiches were served hot, the beer cold, and I fell backwards into my chair as I tried to stand up. Maybe I need to slow down a bit. Gently rolling hills outside of Itero de la Vega greeted us for the longest stretch of today. No water, no shade, good music, rolling hills, what more could you ask for?",
-          "With beast mode turned on it took Maddy and I about an hour to get to the shade and stop for the day at Boadilla del Camino.",
-          "During our speed walking, we realized that Crissi and Bianca had fallen far, far behind. We waited with the most friendly of cats at the park on the edge of the village for an hour, but they never showed up. It was too early in the day to call it quits and, oddly enough, we were aching for more walking.",
-          "Bad idea.",
-          "The walk from Boadilla to Fromista was nearly just as long as the previous stretch, and along an old river canal (Canal de Castilla) that looked like it was no longer used. We were very relieved when we entered town at three in the afternoon. Today came close to 10 hours of pure walking. Not bad. But we both knew that it was going to start hurting soon.",
-          "Happy to be at another large town, we checked in at the closest place to stay and settled in. The World Cup was going on while we were in Spain, and Maddy’s Camino friend Luis was staying at the same Albergue, so we joined him at night for the game.",
-          "It was officially decided that we shouldn’t have pushed so hard today. But hey, second longest day! Crissi and Bianca did indeed make it to the previous town at Boadilla after we had left, and decided to camp there for the night. But we'll see them tomorrow in Carrion, the town just before what I would later learn is called The Wasteland.",
-          "With a name like that, I'm not looking forward to it."
+          "Before the sun had risen, we packed our bags in the hallway, navigating the clutter left by other early risers. Locked doors threatened to slow us down, but after some creative exploring through the kitchen, we were finally free to hit the trail with our head torches on. Darkness shrouded the early miles, making the walk strangely faster, and our small group, Bianca, Crissi, and Maddy, marched steadily into the hills.",
+          "As dawn broke, the sky turned a soft pink, revealing the ruins of the Convento de San Antón. The massive arches of this once grand pilgrim hospital framed the road perfectly as we approached Castrojeriz. Crossing groves of trees and a small river, the town appeared ahead, its church towering over the surrounding houses. Bianca showed off her barista skills at a café by the church, giving us the perfect caffeinated boost before we tackled the day's major climb.",
+          "The Roman road led us to Alto de Mostelares, a steep incline that left us breathless but exhilarated. The descent was rough on my knees, yet the flat paths afterward allowed us to find a rhythm once more. We stopped at Fuente al Pioja to rest, enjoy snacks, and soak in the sun. The San Nicolás Chapel tempted us with the idea of disconnecting completely, but the pull of the trail was too strong to linger. Crossing the Rio Pisuerga marked our entry into the Tierra de Campos region and Palencia province.",
+          "With music in our ears, Maddy and I power-walked the sunbaked gravel paths, finding cadence in the rolling hills. Itero de la Vega offered a refreshing lunch with hot sandwiches and cold beer, giving us energy for the long stretch ahead. Shade was scarce on the path, but the rhythm of our poles and the scenery kept us moving, mile after mile, until we reached Boadilla del Camino, the perfect stop to rest our legs.",
+          "The push to Fromista tested us even further, nearly matching the distance of our previous stretch. Walking along the abandoned Canal de Castilla, we finally arrived in town around three in the afternoon after nearly ten hours of continuous movement. We checked in, found a comfortable place to stay, and celebrated with the World Cup on TV alongside Camino friends. Though we knew our legs would protest tomorrow, we felt accomplished. Crissi and Bianca had taken a gentler pace, camping at Boadilla, and we would reunite in Carrión, the gateway to what I had heard was called \"The Wasteland.\"",
+          "The day was long, exhausting, and beautiful. Every mile carried its own challenges, from steep climbs and relentless sun to the joy of rolling hills, historic ruins, and the shared rhythm of a perfect walking companion. Even as fatigue set in, the Camino reminded me why I kept moving forward: the journey, the scenery, and the small moments of connection made every step worthwhile.\n"
         ],
-        "excerpt": "",
+        "excerpt": "We tackled ten hours of walking from Castrojeriz to Fromista, climbing steep hills, navigating sunbaked paths, and relishing every small reward along the way. By the time we arrived, exhaustion turned into satisfaction, and the Camino's beauty made every step worth it.",
         "gpx": [
           [
             42.313249,
@@ -122209,7 +121764,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/98a7eed4-299d-40e6-a537-779a5bab6c77.jpeg",
         "location": "Castile and León",
-        "readingTime": "6",
+        "readingTime": "3",
+        "snippet": "Long Miles, Big Rewards",
         "stats": {
           "distance": {
             "label": "distance",
@@ -122304,21 +121860,16 @@ const data = [
       {
         "date": "June 16th, 2018",
         "description": [
-          "The sun was still sleeping as we packed up, and started heading for Carrión de los Condes. After yesterdays blazingly fast speed it will be a relief to walk at a more calm and steady pace. But soon after passing through Poblacion de Campos Maddy had to stop and take it easy for a while. She urged me to keep going, and promised to catch up.",
-          "The trail markers stood like guardians on the path at each road crossing, and it felt like entering a gate when passing through them. Todays trail hugged the newly built road between the cities of Fromista and Carrion.",
-          "With the sun was rising behind me I marched along the gravel path, passing each kilometer marker at a steady pace. With each passing marker I was getting more and more annoyed. It wasn't fun being constantly reminded of how far I had to go. I liked not knowing the incremental distance and just pushing on to the end of the stage for the day.",
-          "Villarmentero de Campos offered the first chance for food. The only place that looked like it had food was at a bar with scarecrows and mannequins arranged in the yard. The hostess also seemed a bit off, so I inhaled the croissant and banana, used the bathroom, and quickly returned to the road and the ever present kilometer markers.",
-          "This would be the only pitstop before arriving at Carrion.",
-          "In Villalcazar de Sirga I took the detour through the town center, and passed by the church. Supposedly it was the last one built by the Templars? After Villalcazar I would pause every so often and turn around, hoping to spot Maddy behind me, but no dots appeared on the horizon.",
-          "The final walk in to Carrion seemed to take forever thanks to the unchanging scenery, but at 10am I walked into the town square. Bar Carmen was the first place I spotted that looked halfway decent, and grabbed some breakfast while waiting for the others to arrive. My Spanish definitely needs some practice: the bartender had a hard time understanding me, but we got through it together.",
-          "After eating I took a tour of the side streets and did some shopping. I needed to get a new money belt, and sun glasses, as both had been destroyed earlier in the day. Luckily there was a hiking gear shop that had a good money belt. The sunglasses were bought in some bazaar style shop that sold one of everything, but you can't go wrong for six euros.",
-          "Two hours later Crissi and Bianca texted me to say that they found some beds at an old monastery called Monestario de Santa Clara. It was finally time to abandon my post at the bar, and I'm sure the owner was happy to see me go. The place we're staying at doesn't have any Wi-Fi, but we’re cooking dinner again! We did some shopping and then headed back to the monastery and hung out in the courtyard. We got pretty tipsy from the wine we bought, and snacked on some meats, cheeses, and grapes.",
-          "I also bought my first souvenir of the trip: a small pin in the shape of a yellow arrow, which is one of the main symbols on the Camino.",
-          "While the sun was high in the sky, and the temps were approaching the upper 90’s, Crissi and I did some exploring of the parks near the river. Before dinner we all checked out a lovely Spanish guitar performance at the local church.",
-          "Ciro from Hontanas cooked us dinner and oh my God it was freaking delicious, and filling. I probably won't have to eat for another three days. It's a shame we couldn't save the leftovers and take them with us. Crissi and I did the dishes while singing along to 1985 and Wannabe by the Spice Girls. It was quite the performance.",
-          "Tomorrow we are crossing The Wasteland with 18 kilometers of nothing, literally. The Meseta would be unbearable if it weren’t for the beautiful cities dotting its landscape, and the people you meet."
+          "The sun was still asleep as we packed up and set out for Carrión de los Condes. After yesterday's lightning-fast pace, today promised a calmer, steadier walk, but Maddy soon had to pause and take it easy. She urged me to keep going, promising she'd catch up later.",
+          "The trail markers guided me like sentinels, each one marking a small gate along the path between Fromista and Carrión. With the sun rising behind me, I marched along the gravel, noting each kilometer, though their constant reminders of distance only tested my patience.",
+          "Villarmentero de Campos offered the first chance for food. A bar decorated with scarecrows and mannequins looked a little eerie, but I grabbed a croissant and banana, used the bathroom, and pressed on. This would be the only pitstop before reaching Carrion.",
+          "In Villalcazar de Sirga, I detoured through the town center to admire the church, said to be the last built by the Templars. I paused along the way, hoping to spot Maddy, but no familiar dots appeared on the horizon. The final stretch to Carrion seemed endless, but at 10 a.m., I finally reached the town square. Bar Carmen became my temporary home as I waited for the others, enjoying breakfast and practicing my Spanish with a patient bartender.",
+          "Afterward, I explored the side streets and did some necessary shopping: a new money belt and a pair of sunglasses to replace the ones ruined earlier. Two hours later, Crissi and Bianca texted me: they'd secured beds at the Monasterio de Santa Clara. It was time to leave the bar, and I was more than ready to settle in.",
+          "Without Wi-Fi but with the promise of cooking, we shopped for dinner supplies and gathered in the monastery courtyard. A little wine, meats, cheeses, and grapes made for a relaxed afternoon. I even bought my first Camino souvenir: a small yellow arrow pin, a symbol of the trail.",
+          "Crissi and I wandered the parks near the river under the high sun, exploring as temperatures approached the upper 90s. Before dinner, we enjoyed a local Spanish guitar performance at the church. That evening, Ciro from Hontanas cooked a feast that left me fully satisfied. Crissi and I washed the dishes while belting out 1985 and Wannabe.",
+          "Tomorrow we'd cross The Wasteland: 18 kilometers of nothing but the Meseta. If it weren't for the towns and the people we meet along the way, this stretch would be unbearable. The Camino proves, once again, that it's the small joys and connections that make each step worthwhile.\n"
         ],
-        "excerpt": "",
+        "excerpt": "A calmer day brought sun-soaked miles to Carrión de los Condes, where we reunited, shopped for essentials, and cooked a feast together in a monastery courtyard. Tomorrow, we face The Wasteland: 18 kilometers of Meseta with nothing but the horizon to guide us.",
         "gpx": [
           [
             42.26591,
@@ -123315,7 +122866,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/2e08d5fe-1711-4768-8ded-f3714e186923.jpeg",
         "location": "Castile and León",
-        "readingTime": "4",
+        "readingTime": "3",
+        "snippet": "Courtyards, Croissants, and the Coming Wasteland",
         "stats": {
           "distance": {
             "label": "distance",
@@ -123411,26 +122963,14 @@ const data = [
       {
         "date": "June 17th, 2018",
         "description": [
-          "Want to know a great way to start your day? First, buy some liquid deodorant when you get into town at night, and in the morning when you're about leave take it out and shake it vigorously. Keep shaking it until a stray drop finds its way into your eye. Now that you're half-blind, and possibly puffy-eyed, reluctantly put on your glasses. Not the best way to start what would become one of the longest days on the camino.",
-          "At 5:30am, bound for the stretch of the Camino that some called The Wasteland, we left Carrion and in no time at all we were walking the ancient Roman route known as the Via Aquitana.",
-          "The green trees in the distance separated the gray world above us from the yellow world around us, with the white gravel path never faltering as it shot across the land.",
-          "With very little to see, or do, we kept our heads down and focused on the walking. Luckily the clouds hung around all morning and kept the temperature down. Some folks played their music, but mostly everyone was focused on the destination.",
-          "And it wasn't all that bad. It only took us 3.5 hours of walking, and one stop at a small area with benches, to reach the end of this 17 kilometer stretch in Calzadilla de la Cueza. Believe it or not, I'm halfway to Santiago!",
-          "The clouds disappeared after breakfast in Calzadilla as we continued towards Ledigos, and Terradillos de los Templarios. As the sun shined down upon us, the temperatures rose.",
-          "Crissi and I were walking so fast that as we entered Ledigos we realized that we had left Bianca behind. We waited around for her to show up, but she never did. She most likely took a break earlier on without us noticing.",
-          "We arrived at Terradillos de los Templarios just after noon. There was a little picnic area amongst what appeared to be the ruins of an old well, and we found a few other pilgrims there. This was the first spot of shade since leaving Calzadilla, so we joined them at the stone table with some cold cokes.",
-          "Terradillos was technically a stage ender, but Crissi and I were feeling adventurous (or crazy) and decided to push on. We said our goodbyes and hit the road once more, deciding to make it as far as Sahagún before calling it quits for the day. If only we had known how much it was going to hurt.",
-          "We spent the next hour making bets on how much further we had to go before we would see the next town (I lost them all), and talking about why we disliked our jobs and what we were going to do about it. It was here that I think I officially decided to start looking for something new.",
-          "Finally, after losing the second bet, we reached the top of a hill and spied Moratinos sitting a kilometer away. Several stone messages, and arrows, dotted the path as we hiked downhill into town.",
-          "They had their own little Hobbitville here which were actually Bodegas (a sign literally said \"No, Hobbits do NOT live here\"). Trees wrapped in blankets dominated the small town square in front of the church as we headed out. A few kilometers later we came upon San Nicolás del Real Camino. A local Albergue had an attached restaurant, which meant more sugar-filled Coca Cola, and making sure we were ready to do the final push to Sahagún.",
-          "We arrived in the city at 4pm after taking an odd, twisting, path that took us out of our way just so we could see an old church, and some stone statues. Thanks Camino.",
-          "The Municipal Albergue in this city was an old church, and the beds + kitchen + bathrooms were in the upper level/attic of the church. We got to choose our beds before checking in and paying. This place, oddly, had the best Wi-Fi so far on the Camino. I updated my music library later that night because listening to the same songs for 16 days gets old, fast.",
-          "Not much was in our little area of town, and after walking 40 kilometers we were not in the mood for exploring the city by foot. There was a small hostel cafe across the street from the church, and Bianca walked by as we were checking it out. We were so happy to see her, and to see that she made it safe 'n sound. By now it was getting close to 6pm and we were overdue for our afternoon naps.",
-          "It was Sunday, and nothing was open, which meant no cooking tonight. We retired to our beds, but ended up napping for too long. We awoke in the evening, around 8pm or so.",
-          "Crissi and I grabbed a late dinner at a large restaurant across the street, and watched part of the world cup game. As we were leaving the restaurant Luis found us and practically dropped to his knees. He had forgotten the passcode for the church door and was panicking thinking that he would have to sleep outside tonight.",
-          "Today’s walking total was 39 kilometers, the longest stretch yet. It felt as bad as the walk into Hontanas three days earlier. I guess after a certain point the pain is the same. For me, it usually kicks in around 20 kilometers, which in an odd way helps me know how much ground has been covered for the day. Tomorrow is hopefully an easier day, seeing as how we did 1.5 stages today. Our planned destination is Mansilla, but we'll see if that actually happens."
+          "Want to know a great way to start your day? First, buy some liquid deodorant when you get into town the night before, then shake it vigorously the next morning, preferably not in the direction of your eyes. Half-blind and puffy-eyed, I reluctantly put on my glasses and prepared for what would become one of the longest days on the Camino.",
+          "At 5:30 a.m., Crissi and I left Carrion de los Condes, bound for the stretch some call The Wasteland. We followed the ancient Roman route, the Via Aquitana, across fields where yellow plains met distant green trees, the white gravel path stretching endlessly ahead. With little to see or do, we kept our heads down and focused on walking, grateful for the clouds that kept the temperature bearable.",
+          "After 3.5 hours and a single stop at a small bench area, we reached Calzadilla de la Cueza. Halfway to Santiago already! But once breakfast was finished, the clouds disappeared, the sun beat down, and the heat rose as we continued toward Ledigos and Terradillos de los Templarios. Crissi and I were moving so fast that we realized we had left Bianca behind. We waited, but she must have taken a break earlier.",
+          "Terradillos offered the first real shade since Calzadilla, and we joined a few other pilgrims at a stone picnic table for cold Cokes. Though it was technically a stage end, Crissi and I felt adventurous (or crazy) and decided to push on to Sahagún. We spent the next hour making bets on how far we had left, complaining about our jobs, and secretly plotting for something new in our lives.",
+          "Finally, after a grueling downhill, we spotted Moratinos, then San Nicolás del Real Camino, and eventually reached Sahagún by 4 p.m. The Municipal Albergue, an old church, provided surprisingly good Wi-Fi, beds, and kitchen access. Exhausted from walking 39 kilometers, the longest stretch yet, we opted for a short exploration of the town, napped, and later grabbed a late dinner while catching part of the World Cup.",
+          "Pain and exhaustion had set in, but the rhythm of the Camino was undeniable. Beyond a certain point, around 20 kilometers or so, the aches blend into a steady reminder of the distance traveled. Tomorrow promised a shorter stage toward Mansilla...hopefully.\n"
         ],
-        "excerpt": "",
+        "excerpt": "39 kilometers later, we arrived in Sahagún: exhausted, sunburned, and exhilarated. From Roman roads to stone picnic tables, the Wasteland tested us but the Camino's rhythm, shared jokes, and small victories kept us moving forward.",
         "gpx": [
           [
             42.337354,
@@ -124427,7 +123967,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/bcdc06e3-4c95-4138-9779-bc46670a4e1b.jpeg",
         "location": "Castile and León",
-        "readingTime": "5",
+        "readingTime": "2",
+        "snippet": "The Wasteland: 39 Kilometers of Gravel, Sun, and Sweat",
         "stats": {
           "distance": {
             "label": "distance",
@@ -124523,29 +124064,16 @@ const data = [
       {
         "date": "June 18th, 2018",
         "description": [
-          "Today started like the others: rise early, and beat the heat. Our exit from Sahagún in the pre-dawn hours was a quiet one. Most of the other pilgrims at the church were still sleeping, including Bianca. The streets were empty as we got our first look at the churches. We passed through the arch of San Benito, followed the yellow arrows on the ground, and before we knew it we were out of the city.",
-          "We took in the sun rising behind us as we walked silently, and quickly, to Calzada de Coto five kilometers away. Nothing was open this early in the morning, and Mondays in Spain are treated somewhat like Sundays (another day of rest). Luckily we found breakfast at an Albergue in Calzadilla de los Hermanillos approximately nine kilometers further on. And it's a good thing to, because it was 9:30 am and the heat was returning.",
-          "In the distance I could see the mountains that would be welcoming us in about a week, and couldn't wait to be done with all of the flatness!",
-          "After breakfast we headed for the second longest Wasteland stretch of the Meseta, the one that no one told us about. And from what we could see, we were the only pilgrims who chose this route. The others must have chosen the route that goes along the highway.",
-          "A short while later we came to the end of the paved road at a T-junction, but The Way continued forward into the endlessly flat world on a trail covered in brown-red dirt. The first Camino marker after leaving the paved road had a single beat-up shoe resting on it. Not a good sign. I half expected to see vultures circling overhead.",
-          "We were now on another ancient Roman road. Those guys really knew how to pick 'em. This one was called Via Trajana. And despite the fact that we were in a hot dry place, I still thought it was cool that we were walking on history. Can't always say that back in the States.",
-          "With nothing but dried up fields in the visible distance, and the dirt path forever going forward through it, we put our headphones in and cracked on. There was zero shade as the sun relentlessly shined down on our backs.",
-          "After about two hours in to the hellish walk another pilgrim caught up, overcame us, and left us behind in her dust. And once again, we were alone in this dry world.",
-          "At one point, probably about 2/3 of the way through, I lost track of Crissi walking behind me. I quickly doubled back, fearing that she had fallen or tripped. Thankfully she was simply resting in some hard to find shade on the side of the trail. She had also run out of water so I gave her my water bottle reserves.",
-          "An old train depot up ahead had long ago been abandoned, and no town was in sight. There was a train moving in the distance in the direction of our travel, so hopefully we were getting close...",
-          "Slowly a line of trees in the distance began to materialize, and I prayed that this would mean the end of the wasteland. We were now three hours into this stretch, which is how much time it took us to finish yesterdays wasteland. But alas, no end was near.",
-          "To our surprise, we came across an old French man who was returning to St Jean after reaching Santiago. I was in awe that anyone would want to walk this part of The Way again. What a mad man, I said. At last we reached the trees which stood as a physical, and symbolic, end to the longest hottest dryest stretch of walking I've ever done in life. Through the trees we saw bulls feasting on piles of potatoes.",
-          "After exiting the small patch of trees and not seeing any town, or any sign of a town, I started cursing the earth, my shoes, and the distance. The pain was incredible. My supply of water was gone, and the water bottle that I had given to Crissi was nearly empty. If we didn't make it to a town within the next hour or so, we were going to have issues.",
-          "We crossed over a modern bridge that had some sort of importance (I can't remember what exactly), all I remember is that the hand railing was too hot to touch. There were some informational signs before and after the bridge that described the land around us and its history. I ignored them and, going against all logic, I decided to walk even faster!",
-          "In the distance I could see what looked like a lighthouse at the top of a hill. It was a metallic pyramid shaped structure at the top of what looked like a radio tower. It was a shining beacon that told us we were about to arrive in a town, and arrive at sanctuary. With every curve in the path (which was now a white gravel), I turned around in order to make sure Crissi was still behind me.",
-          "Reliegos was another town that appeared out of nowhere. At the edge of the hill I spotted the town below. I started walking faster and faster, eager to get out of this dirt and onto paved road. Bad idea. The paved road felt so much worse than the gravel path. I had to sit down on the curb. I couldn't go any further now that I was within the town limits.",
-          "Crissi arrived a few minutes later, and we decided to stay at an Albergue behind a bar.",
-          "This stretch should really be the one known as The Wasteland since it’s 10x worse than the first one. It took us nearly four hours to cross it and there were literally no places to stop or find shade. Water was not available, and the unrelenting heat plus sun are a deadly combo. But, it was pretty at some points.",
-          "I passed out immediately after eating. My dreams, when I do dream on the Camino, have been crystal clear and very vivid. Maybe it’s because I lack the level of external stimuli that I normally receive at home, since all I’m doing is walking, and being in incredible amounts of pain. Or maybe it's just the opposite, and it's this activity that is putting my brain into overdrive at night.",
-          "After a successful stop at a local grocery store we grabbed dinner with two people from Holland: Walter and Yo-yo. Luis also found us, or maybe we found him, but either way we were happy to see a familiar face.",
-          "Needless to say, we went to bed early tonight. Our room only had six beds in it, and the bathroom was really nice. But the room was filled with snorers, and my earplugs kept popping out. After a walk like today, I needed all the sleep that I could get. We decided to try and sleep in tomorrow. Leon was our destination, and the end of this flat land."
+          "Today started like all the others: rise early, beat the heat, and get walking. Our exit from Sahagún in the pre-dawn hours was quiet. Most pilgrims were still asleep, including Bianca, and the streets were empty as we passed through the arch of San Benito, following the familiar yellow arrows out of the city.",
+          "The sun rose behind us as we quickly covered the first five kilometers to Calzada de Coto. Everything was closed, Mondays in Spain are treated like Sundays, but breakfast awaited at an Albergue in Calzadilla de los Hermanillos, about nine kilometers further. Fuel in our stomachs, we braced ourselves for the second longest Wasteland stretch of the Meseta, one no one had warned us about. Apparently, we were the only pilgrims who chose this route.",
+          "Soon the paved road ended, and the Camino continued across endless flatlands on a dirt path. A single beat-up shoe marked the first trail sign. Ominous, but somehow fitting. We were walking on history now: Via Trajana, an ancient Roman road, stretching into the horizon. No shade, no water, nothing but sun, dirt, and the sound of our footsteps.",
+          "Two hours in, a lone pilgrim overtook us, leaving us in her dust. Alone again, we pressed on. About two-thirds through the stretch, I lost sight of Crissi and panicked, but she was safely resting in a hidden patch of shade, water bottle empty. I gave her mine, knowing we had at least a few more kilometers to go.",
+          "The landscape barely changed, dry fields and brown-red dirt, but finally, after nearly four hours, a line of trees appeared like a mirage. Salvation! Through the shade, we saw bulls feasting on potatoes, a surreal reward for enduring this barren stretch. Yet no town emerged immediately, and my water reserves dwindled. I pushed harder, ignoring signage and blazing sun.",
+          "At last, a metallic pyramid atop a distant hill appeared like a lighthouse, guiding us to Reliegos. Relief and exhaustion collided. The paved road into town felt punishing after the dirt trail, and I collapsed on the curb. Crissi arrived shortly after, and we checked into an Albergue behind a bar.",
+          "This stretch deserves the name The Wasteland. It was hotter, drier, and lonelier than the first. Nearly four hours of relentless sun, dirt, and zero shade tested every ounce of endurance. After a quiet dinner with fellow pilgrims Walter and Yo-yo from Holland, and a brief reunion with Luis, we collapsed into our bunks. Six beds, one bathroom, and a chorus of snorers couldn't compete with the deep, needed sleep after today's ordeal.",
+          "Tomorrow, we hope to rest a bit, recharge, and finally leave the flatlands behind as we head for León.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Four hours. No shade. No water. Relentless sun. The Wasteland tested us like nothing before. Relief came in the form of trees, a distant town, and the sight of familiar faces. Exhausted, sunburned, and alive, we collapsed into our Albergue ready to try again tomorrow.",
         "gpx": [
           [
             42.370742,
@@ -125542,7 +125070,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/2b268d15-bea2-42ae-a15c-1ab6fd5fe4f7.jpeg",
         "location": "Castile and León",
-        "readingTime": "6",
+        "readingTime": "3",
+        "snippet": "The Real Wasteland: Four Hours of Sun, Dirt, and Survival",
         "stats": {
           "distance": {
             "label": "distance",
@@ -125637,24 +125166,16 @@ const data = [
       {
         "date": "June 19th, 2018",
         "description": [
-          "Goodbye flat land, hello hills. It felt great sleeping in today. We didn't roll out of bed until well after the sun was up and the other pilgrims had left. I was eager to start walking, despite the lingering effects from yesterday. We departed for León with the goal of leaving the Meseta far, far, behind. The rising sun looked like an atom bomb had been detonated in the distance.",
-          "Cows kept us company on the walk towards the old castle-fort city of Mansilla de las Mulas. As per usual nothing was open and our pace didn't falter as we walked through the city. Several groups of students spilled out of the Albergue and onto the streets, laughing, dressed in relaxing clothes. At first we were impressed that they would agree to do something like this at such an early age, but then we saw them loading their bags into a van.",
-          "The sun was not cooperating as I tried to take a picture of the castle walls on the way out. Around that time a bird decided to poop on my shirt, and I was forced to wear it as a badge of shame for the rest of the day. It was chocolate for anyone who asked.",
-          "Finally, the hills have returned to us. Small ones, sure, but at least I could no longer see for miles on end. The bigger ones were still further ahead.",
-          "What could possibly be over this hill? Nothing, just more towns.",
-          "We took breakfast at a random bar in the city before Villarente at Villarmoros. It was tucked away from the highway in the towns’ square, and the plaza was covered in white and yellow polka-dots. Probably one of the stranger towns I've seen so far, but they had fresh Spanish tortilla and bocadillos! I splurged and bought both.",
-          "Villarente and Arcahuega stood no chance as we powered through them, covering the 12 kilometers in a few hours. Most of the path took us along highways, and through the busy downtown areas. Sometimes it would switch it up and take us under bridges, or down along a river.",
-          "They were doing construction on part of the path, so we had to take a different route for entering León. The uphill battle was worse than I expected. It was on paved road for the most part, but finally as we got near the top it diverted into the woods, and oh what a sight it was after we cleared the trees.",
-          "We raced down the dirt path that took us onto a county road. Here we followed the markers as they led us through the rugged and increasingly modern areas of the city. I like the transition from modern to old, especially when the old town your entering has a wall around it.",
-          "The Benedictine church where we wanted to spend the night was hard to find. We must have asked at least three different people where it was, and walked an extra two kilometers around the city, but finally we found it. Crissi and I walked around looking for food, and found a bar that served \"rustic bread\". Basically it was large slices of various breads with toppings on them, but they were super delicious. We returned to the Albergue to meet up with Bianca, and then took her to the same bar, just because we liked it so much.",
-          "After drinking and eating we explored the city, with me playing the tour guide. First stop was the cathedral, of course. Two pilgrims where walking in at the same time, and we convinced them to join us in order to get the ticket discount deal for a group. This was a true gothic cathedral: it was large and grand on the inside with the columns drawing your eyes up, up, and up.",
-          "Next we went to a basilica, then a house designed by Gaudi, and finally the city park.",
-          "On the way back we found a bar to grab some beers and people watched for a while. Ciro, limping, found us on the way back to the church. He had to buy some new shoes because his current pair had taken off most of his toenails! Yeah, that's a real thing that can happen if you walk for extended periods of time.",
-          "Dinner was a pilgrims menu at the restaurant next to the the church, which gives discounts for those staying there.",
-          "There's now only two weeks left before reaching Santiago! Nights spent in places like Logroño, or Nájera, feel like they were ages ago, and yet also felt like they were only yesterday.",
-          "I am thankful that today was a relatively easy walk, with plenty of places to stop and eat, or to get water. I have no idea what tomorrow holds, partly because we don't know which way to go (there are two routes), and we don't know how far we're going to make it."
+          "After days of relentless flat terrain, it felt glorious to sleep in. The sun was already up, and the other pilgrims had departed, but I was eager to get moving despite yesterday's lingering soreness. Our goal was León, and with it, to finally leave the endless Meseta behind.",
+          "Cows kept us company on the approach to the old castle-fort city of Mansilla de las Mulas. As usual, nothing was open, but our pace didn't falter. The sun was not cooperating for photos, and then a bird decided to poop on my shirt. Chocolate, for anyone who asked. A badge of shame I wore the rest of the day.",
+          "Finally, the hills returned! Small at first, but they broke up the endless horizon. Larger ones waited in the distance, teasing us with their challenge. Over the first hill: nothing, just more towns.",
+          "Breakfast came at a quirky little bar in Villarmoros, hidden away in a town square patterned with white and yellow polka dots. They served fresh Spanish tortilla and bocadillos, and I indulged in both. From there, Villarente and Arcahuega fell quickly as we powered through 12 kilometers of highway, downtown streets, and occasional riverside paths.",
+          "Construction diverted us into a more challenging route into León. The uphill stretch on pavement felt endless, but eventually led into the woods, and what a sight it was after the trees cleared. We raced down a dirt path onto a county road, following markers into the city. I always love the transition from modern to old towns, especially when you enter a walled city.",
+          "Finding the Benedictine church Albergue proved tricky. We asked directions from at least three locals and added two extra kilometers before finally locating it. Crissi and I ventured out for food and found a bar serving 'rustic bread', thick slices topped with whatever they could dream up. It was so good we brought Bianca there too.",
+          "Exploring León felt like a true tourist day. First, the cathedral: gothic, massive, and awe-inspiring. We convinced two other pilgrims to join us for the group ticket discount. Then a basilica, a Gaudí-designed house, and the city park. We ended the day with beers at a bar, people-watching, and a reunion with Ciro, who was limping badly after losing most of his toenails to his shoes. A stark reminder that the Camino leaves its mark in more ways than one.",
+          "Dinner was a pilgrims menu at the restaurant next to the church, with a discount for staying at the Albergue. The walk today had been relatively easy, with plenty of stops for food, water, and rest. A welcomed reprieve before whatever tomorrow holds. Only two weeks remain until Santiago, and yet nights in places like Logroño and Nájera feel both centuries ago and just yesterday.\n"
         ],
-        "excerpt": "",
+        "excerpt": "After days of flat Meseta, the hills returned small, teasing, and glorious. Mansilla de las Mulas, Villarmoros, and finally León brought a mix of surprises: chocolate-bird shirts, rustic bread, Gothic cathedrals, and aching feet. Today was easier, but tomorrow? Who knows. Only two weeks remain until Santiago.",
         "gpx": [
           [
             42.47429,
@@ -126651,7 +126172,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/845acb7b-86f3-4768-8ce3-c8be727c50af.jpeg",
         "location": "Castile and León",
-        "readingTime": "5",
+        "readingTime": "3",
+        "snippet": "Goodbye Flatlands, Hello León: Hills, Gothic Cathedrals, and Rustic Bread",
         "stats": {
           "distance": {
             "label": "distance",
@@ -126746,34 +126268,14 @@ const data = [
       {
         "date": "June 20th, 2018",
         "description": [
-          "Creaking beds and rustling backpacks acted like an alarm clock, except this one didn't have a snooze button. Once the lights came on it was nearly impossible to try and ignore the fact that another day had begun. We've been lazy lately by allowing ourselves to sleep in, but we're not complaining. Business as usual: pack your bag, grab toast and jam (which no longer suffices as breakfast), brush your teeth, and head out. Crissi was the last to join us in the courtyard, and we started walking.",
-          "Stone streets glistened in the light of the rising sun as it shown down middle of the avenue as we passed by the cathedral. After a quick stop for some coffee we said goodbye to the old city center and started to head out of town.",
-          "It took most of the morning for us to even make it out of the city.",
-          "The Way went past the scenic landmarks towards the Plaza de San Marcos which had several monuments to the pilgrims. We crossed the Rio Bernesga and walked through more metropolitan areas, some of them industrial with fields of weeds opposite their gray buildings.",
-          "Finally after a short uphill gain, walking along a busy highway, and two hours later, we arrived in Virgen del camino. Starving, we stopped at a small bar on the side of the road. Crissi and Bianca were amazed that we had been walking through León this whole time, and only now finally left the city behind.",
-          "We picked up a new companion to walk with us for the day: Kim from Australia.",
-          "The time had come for a decision: stay on the highway and go down the alternate route, or follow the traditional scenic route. Crissi and I remembered how badly we had been burned (literally) the last time we chose the scenic route. Chiro had also told us that the scenic route was terrible but we decided to ignore his advice because no one wanted to spend three hours walking along a busy noisy highway.",
-          "Our scenic route had to cross through a scraggly patch of earth in order to cross one more highway. Luckily it was an underpass which took us to Fresno del Camino, but we left the town almost as fast as we had entered it for there wasn't much to see.",
-          "Oncina was the next town after Fresno. We stopped at a small church after crossing the bridge into town. Disappointed that the snack shop next to the church wasn't open we stocked up on water at the fountain and took the small paved road as it transitioned into a pleasant dirt path through the fields.",
-          "At last, the scenic route had arrived.",
-          "Sure, it was still mostly flat. But it still possessed enough of a change to keep it interesting. And, we were surrounded by vegetation on all sides. One thing we won't be escaping any time soon though is the red dirt. Looks like this shit will be following us for quite a while.",
-          "I walked fast today, and quickly pulled ahead of the others. Nothing but gently rolling fields dotted with islands of ground green trees kept me company as I pushed myself past shady rest areas. The dirt path gradually shifted back into a paved road, which sucks. But the sun was out, the sky empty, and thankfully the heat was late to the party.",
-          "A spare pair of shoes stood on a marker as an offering to any pilgrim who might need them. Besides the plants growing inside of them, and the absence of shoelaces, they were in pretty good shape. And to be honest, the thought of grabbing them briefly crossed my mind, but then I thought of the extra weight and quickly discarded the idea.",
-          "Chozas de Abajo, and a much needed break, appeared in the distance as I topped the next hill. I waited at the entrance of the town for the others to catch up and see me. I slowly headed into the center whilst making sure that they were still behind me. We found the only open establishment and took a break on its front porch.",
-          "When we walked up and dropped our bags I recognized Drew whom I had briefly met in Pamplona while walking around with Tania. And a few moments later another Pilgrim arrived and joined us at our table. Her name was Cerstin from Germany, and she had started her camino in Burgos.",
-          "I'm not sure who suggested it, but there was an albergue up ahead that had a swimming pool. It was a no brainer, given the high temps over the past few days. So, our home for the night would hopefully be Casa de Jesus.",
-          "On the walk to Mazarife I grilled Cerstin on the political systems of Germany. It was a nice way to pass the next hour.",
-          "We arrived at Casa de Jesus, and sure enough, there it was: the swimming pool. We were eager to strip down to our skivvies and go for a dip, especially in this hot sun, but first we needed to do some shopping for dinner.",
-          "Afterwards we sat chatting with Louis, Crissi, Kim, Cerstin, Hannah (Germany), and Drew. We went over all of the things that are different between British, German, Aussie, and American culture. It was hilarious, especially the animal noises.",
-          "Once the sun finally moved out of high position in the sky Cerstin and I swam in the pool for a bit before cooking dinner.",
-          "Our meal cost a total of 14 euros, which isn't bad for 8 people. The kitchen was tiny, and everyone needed to use it, so we made sure to not use all of the electric stove burners again and trip another circuit breaker.",
-          "As we all sat down to eat it was nice to see the table fill up with friends who were slowly becoming like family. Dinner consisted of another lovely course of salad, pasta with capers, and bread.",
-          "I sat outside for a while afterwards chatting with Cerstin and Drew. Drew, it turns out, got his entire camino trip sponsored by entering a contest of sorts in which he would promise to write about the Camino and promote the websites brand. Not a bad idea!",
-          "Maddy, who has a younger sister, found out that her sister will be arriving later tonight and will join us on the Camino starting tomorrow.",
-          "The gray clouds in the distance were slowly growing in size, pushing their way higher and higher into the sky, as a busload of children arrived. They stayed in another part of the Albergue and would be doing two days of the Camino, starting tomorrow.",
-          "We watched the clouds as they moved closer. Tomorrow was going to be another 30+ kilometer day, and hopefully the rain would pass us by."
+          "Creaking beds and rustling backpacks served as an early morning alarm, and there was no snooze button in sight. We had been letting ourselves sleep in lately, but there was no complaint as we went through the usual routine: pack bags, grab toast and jam, brush teeth, and head out. Crissi was the last to join us in the courtyard, and soon we were walking.",
+          "Stone streets glistened in the rising sun as we passed the cathedral, stopping quickly for coffee before leaving the old city center behind. It took most of the morning to make it out of León. The Way led us past scenic landmarks toward the Plaza de San Marcos and across the Rio Bernesga, before transitioning through industrial areas with fields of weeds opposite gray buildings. After a short uphill stretch along a busy highway, we finally reached Virgen del Camino, hungry and ready for a small roadside bar.",
+          "For the day, we picked up a new companion, Kim from Australia, and faced a choice: stick to the highway or take the traditional scenic route. Memories of sunburns and warnings from other pilgrims made us hesitate, but the scenic route won out. It led us across scraggly patches of earth, under a highway underpass, through Fresno del Camino, and eventually into Oncina. There, a small church and a fountain offered a welcome break before the dirt path opened into fields surrounded by vegetation.",
+          "The flat fields of the scenic route still had plenty to offer. Gently rolling terrain and clusters of green trees kept the walk interesting. The red dirt that had accompanied us for days was ever-present, but the sky was empty and the heat had yet to peak. Along the way, a spare pair of shoes on a trail marker caught my attention, but practicality won over curiosity. Chozas de Abajo appeared in the distance, providing a much-needed break at its only open establishment.",
+          "While in town, I ran into Drew, whom I had met briefly in Pamplona, and soon after, Cerstin from Germany joined us. The conversation flowed as we discussed politics, culture, and Camino experiences. When it was time to pick an albergue, Casa de Jesus stood out with its swimming pool, a perfect respite from the relentless sun. After shopping for dinner, we sat together with other pilgrims, laughing over differences in culture, animal noises, and Camino stories.",
+          "The day ended with a refreshing swim, followed by a shared dinner of salad, pasta with capers, and bread. Watching the gray clouds build in the distance, we prepared ourselves for another 30+ kilometer day. Despite the challenges and the heat, it felt comforting to see a table of friends slowly turning into family on this journey.\n"
         ],
-        "excerpt": "",
+        "excerpt": "We left León behind, choosing the scenic route through fields and small towns. The day ended with a refreshing swim at Casa de Jesus and a dinner shared with friends, preparing for another long day ahead.",
         "gpx": [
           [
             42.599117,
@@ -127770,7 +127272,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/f5741d7d-6a86-47ae-a5b1-f1bced05bb00.jpeg",
         "location": "Castile and León",
-        "readingTime": "6",
+        "readingTime": "3",
+        "snippet": "From León to Casa de Jesus: Fields, Friends, and a Swimming Pool",
         "stats": {
           "distance": {
             "label": "distance",
@@ -127866,37 +127369,13 @@ const data = [
       {
         "date": "June 21st, 2018",
         "description": [
-          "I woke in the middle of the night, and felt the energy in the air. The breeze coming through the open windows shifted from warm to cold, and rumblings in the distance confirmed it: the rain had arrived. With much reluctance I shut the window closest to my bed, I knew it was going to get stuffy in here really quickly with it closed.",
-          "The rain helped to mute the sound of those in the room who were snoring, and I fell back to sleep. We agreed to wake early again today because of the ever present heat, and a few hours later I was up.",
-          "The floor in the inner part of the building was exposed to the sky, and it was covered in a minefield of water puddles. I got my stuff ready in the dining room where we shared dinner the previous night. Crissi was eager to get going, and she departed before the rest of us.",
-          "With darkness enveloping the small village, and the street lights carving out orange cones of light, I turned on my head torch and headed out of town. The way out was easy to find thanks to it being a straight paved road shooting off into the distance.",
-          "More heads down walking along the road while avoiding the occasional car.",
-          "The sun started to ignite the sky as it struggled to break out from the thick clouds that concealed it near the horizon. Forty minutes later it broke free, and illuminated the world around me.",
-          "I walked through endless farmlands as the road approached a T-junction in the distance. Flies and snails were out in force this morning, taking up the entire path both on the ground and in the air.",
-          "Here the path veered off to the left after crossing the junction, and then took a sharp right, as it turned into a wide mud-filled dirt trail. More farmlands surrounded me as I zig-zagged my way along, avoiding the puddles of water.",
-          "On a few occasions I spotted Crissi's shoe print in the mud, and knew that I mustn't be too far behind her. After a while the path veered off to the right through stacks of earth and hay, as the first town on todays trek, Villabente, appeared. I saw nothing of interest in the town, and kept going via a winding route that went through the city's center, and passed some lumber warehouses before arriving on the dirt path once more. Train tracks ahead forced a 90 degree turn to the right.",
-          "As I followed alongside the tracks, I quickened my pace in hopes of reaching Crissi in the next, larger, town called Hospital de Orbigo. But a faster pace meant that I couldn't be as nimble as I would have preferred when it came to avoiding the massive legions of white-shelled snails that were occupying the white gravel path. I tried my best, but I know I probably stepped on several of them. A large stone arrow in the middle of the path told me that I was still going in the proper direction.",
-          "Hospital de Orbigo's entrance deliberately went around all sides of an industrial site before having to run across a busy street in order to continue on the path on other side of a roundabout.",
-          "The yellow arrows, and curvy road art, led me to Bar El Puente. It had a garden full of colorful small birds. With no breakfast to be had, I bought a banana and an apple before heading for the bridge.",
-          "The bridge was the site of a legendary medieval jousting competition. There’s a huge backstory to it, and you should read about it, but the bridge itself is called El Paso Honroso (The Honorable Pass).",
-          "I decided to skip breakfast here since the only offerings were at expensive restaurants, and it ended up being a good decision because on my way out of town I ran in to Crissi. She was debating taking the road route along the highway (nay), or the scenic route through the hills and trees (yay). I \"made\" her choose the scenic route.",
-          "The next town at Villares de Orbigo had an open cafe, and the food was so cheap that both Crissi and I got some food. A minor uphill gravel path took us to the widest red dirt path that I've ever seen. We took this down, around, and over another highway.",
-          "A few more kilometers and we were entering Santibanez de Valdeiglesias. Bianca randomly spotted us at the top of the road as we were leaving and called us over. As we waited for her to pack up, we randomly ran into Mauro at an Albergue! He was just getting started on this day, so he promised to catch up.",
-          "We marched along the red dirt paths through various forests, up and over hills, and over large rocks, and I spotted several large and odd looking bugs. The pictures above don't do the scenery justice though. Even though it was very red, it was very beautiful.",
-          "A couple hours later and we arrived at a trail angel stop known as Casa de Los Dioses. It was a free food and drink place, with plenty of cushioned seats in the shade. We even got to sign our names onto the side of the house. And the host was quite a character himself.",
-          "Another thirty minutes would pass before getting our first views of Astorga at the cross on the hill overlooking the city. We passed through San Justo de la Vega and continued to follow the road for a while until we came to bright white gravel path. It rain alongside the backs of several warehouse buildings.",
-          "The only shade was a thin sliver next to the buildings. After a turn in the path we came to giant green ramp structure that would take us up and over some train tracks. Initially this made me mad because we had just done all of that walking, and then to have to go up and down several ramps just to get over some train tracks. We followed the road again, sticking to the narrow sidewalks where we could, pass a roundabout and up a steep ramp towards the old part of the city.",
-          "There was an Albergue at the top of this ramp, right inside the city, but we initially ignored it because I thought it looked like a hospital. After a few more moments we decided to turn around and head to the place. It ended up being a good place, especially at five euros. It had great views of the surrounding countryside thanks to our rooms being on the top floor.",
-          "The nicety of the amenities stopped there.",
-          "There were zero outlets near the beds, the showers were so hot they nearly scalded my skin, they made us stay on the top floor because “we are young”, the bathroom toilet stalls were super tiny and I could barely move in them, and finally there is no air circulation.",
-          "But it was only five euros, so I took it in stride.",
-          "We grabbed much needed beers and food at a local bar. I did some more gear repacking, got rid of stuff that I just didn’t need, and was able to get rid of my first aid kit plastic bag! But somehow my bag still feels way to full.",
-          "After repacking, I suddenly became very aware of the pain in my knee (especially after going up and down five flights of stairs several times). I went to the pharmacy and got a brace for my knee, along with some cream for my finger (which somehow got an infection near the finger nail). The knee brace feels great when going downhill, and down stairs. I should have gotten this earlier.",
-          "I met up with Cerstin near the cathedral and we took a quick walk around town. We decided to not go inside the cathedral, or do the touristy tours. It looked like every other church after we stuck our heads inside for a quick peek.",
-          "Cerstin invited me to dinner with her, another German pilgrim, and a mother-daughter duo from Europe. They were making pancakes for dinner, and we had “real” German beer called Kriek with it. The food and the beer were both really good. I felt ashamed for having not helped prepare any of it.",
-          "The weather is gearing up for another storm, and the rain blew through without much warning. All of the clothes hanging outside got soaked. It's still hot and stuffy in our room, even after that torrent of wind and rain. Looks like it'll be another night of no clothes. But I'm excited, because tomorrow we are officially returning to the mountains."
+          "I woke in the middle of the night to the sound of rain hitting the open windows, a sudden chill in the breeze reminding me it had arrived. Reluctantly, I shut the window closest to my bed, knowing the room would soon feel stuffy. The rain helped mask the snoring around me, and I fell back asleep. We had agreed to wake early to beat the heat, and a few hours later, I was up and getting ready.",
+          "Walking out of the village in darkness, my head torch illuminated the straight, paved road ahead. The sun eventually broke free from thick clouds, casting light on endless farmlands as I zig-zagged along mud-filled dirt paths. Crissi's footprints guided me at times, but I pushed forward toward Villabente, passing lumber warehouses and train tracks along the way. The goal was Hospital de Orbigo, where I finally caught up with Crissi and convinced her to take the scenic route through hills and trees rather than the highway.",
+          "The scenic route offered relief from the monotony of pavement. Red dirt paths stretched endlessly through forests and fields, dotted with strange insects and rolling hills. We stopped at Casa de Los Dioses, a trail angel's home offering free food, drinks, and shaded seating. Signatures from pilgrims lined the house walls, and the host's humor added a memorable touch to the stop. Soon after, we caught glimpses of Astorga from a hilltop cross and passed through San Justo de la Vega on our way into the city.",
+          "Navigating the train track ramps into Astorga tested patience, but we finally arrived at a five-euro albergue with amazing views from the top floor. The amenities were basic at best. No outlets near the beds, scalding hot showers, tiny toilet stalls, and poor air circulation. But the price and location made it worthwhile. After a quick gear repack, I felt the first real pangs in my knee and picked up a brace along with some cream for an infected finger, both of which were lifesavers for the rest of the Camino.",
+          "In the evening, Cerstin invited me to dinner with other pilgrims. We shared pancakes and \"real\" German Kriek beer, laughing and bonding over food and stories. Outside, another storm rolled through, soaking clothes hung to dry and reminding us how unpredictable the weather can be. Despite the heat and humidity in our room, spirits were high because tomorrow marked a return to the mountains, and the terrain ahead promised a change from flat roads and red dirt.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Rain greeted me in the night, and by morning, the Camino led through red dirt paths, forests, and rolling hills toward Astorga. A trail angel's home, a scenic route, and a lively dinner with fellow pilgrims made the day both challenging and unforgettable.",
         "gpx": [
           [
             42.483487,
@@ -128893,7 +128372,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/0cf7b647-1681-4b88-be6a-cbba1163f38a.jpeg",
         "location": "Castile and León",
-        "readingTime": "8",
+        "readingTime": "3",
+        "snippet": "Rain, Red Dirt, and a Scenic Route to Astorga",
         "stats": {
           "distance": {
             "label": "distance",
@@ -128989,26 +128469,13 @@ const data = [
       {
         "date": "June 22nd, 2018",
         "description": [
-          "Sleep escaped my grasp in the hot, stale, attic that they called a dormitory. Echos from the bathrooms below forced us to close the door, cutting off the only circulation that kept the temperature in the room bearable. There were two gables at either end of the room each with one small window, but they were not up to the task of providing enough fresh air.",
-          "The gentle vibrations underneath my pillow at 6am pulled me away from what little sleep I was able to achieve. It was still dark out as I set my glasses down on the ledge beneath the open window in the bathroom, and got myself ready for the day.",
-          "Some of the people were still sleeping as I carried my gear out of the room and dropped it in the small landing area outside the door. Others followed suit, and before long we were making so much noise that the rest of them woke up.",
-          "No breakfast was available at this place, so we saddled up and headed out to the street below. Our first stop  on the way towards the cathedral was the ATM in order to load up on cash. We met up with Maddy and her sister was we walked past the cathedral and headed out of town.",
-          "A small road lined with trees took us out of the city, and over a highway to Murias de Rechivaldo. It was too early to stop for breakfast, and without pause the march continued through farm fields towards Santa Catalina de Somoza, and breakfast at Albergue El Caminante.",
-          "White gravel paths, just a few feet from a road that was as black as night, consumed the view during todays walk. The surface of the ground surrounding this path and road was mostly scraggly rock. Green trees on our right, white ground beneath our feet, and black roads to our left. This was the landscape for most of the morning.",
-          "After a while The Way detoured to the right, over a small bridge, and into the trees. Here, at this turn of the path just before it entered the woods, stood a multi-colored tent with a box for donations. I thought it was a small snack stand, but I failed to notice that there was a hawk sitting on a perch five feet away. I also failed to notice the man dressed as a knight in chainmail, and all of his replica medieval weapons.",
-          "Turns out he helps collect donations for Asociación Gaudisse. His shtick is to dress as a knight, and allow passing pilgrims to pet the hawk. We each took turns with the hawk, even those of us who were too scared to touch it. The bird was very well behaved.",
-          "The next leg of our journey that morning took us uphill through trees and over uneven terrain. An earthen path followed the road at a distance through the trees. Finally we left the road behind, and entered Rabanal del Camino.",
-          "I convinced my camino friends to keep walking further into town instead of stopping at the first spot we saw, and we were rewarded for this persistence with a wonderful oasis at The Green Garden. It had comfortable woven chairs and cushioned chaise lounges under the trees, free tents for camping, cheap ice cream and Coca Cola, and plenty of dogs and cats to pet and treat with left overs from our bocadillos.",
-          "We honestly thought about camping here under the stars, since it was free, but we took one look at the outdoor bathroom and collectively said “Nope”.",
-          "Some of our group decided to relax for a little while longer, and the rest of us continued on and began the hike up, up and up. Somewhere along the way, as we were scrambling over some rocks, Cerstin decided to invent a new word for this called Auf Stein (Up Stone).",
-          "The road was never far away, and the sounds of cars going by slightly ruined the ambience of nature.",
-          "Further up there was a small shelter with the words “Walking Proud” written on the roof, and it had a small natural water fountain in front of it. I washed my head in those cold refreshing waters; a much needed reprieve from the sun and heat.",
-          "Up and up we went through the woods over streams, rocks, and fallen trees. A couple of hours later we arrived at Foncebadón. There are so many ruined buildings, and outlines of structures that once stood here. This used to be a large town in the past, and it had all but been forgotten about until the revival of the camino several years ago. Now there is new construction every which way you turn.",
-          "We checked in to a Druid themed Albergue, and found some of our other friends whom we had become separated with earlier in the day. Dinner was a burger across the street at a bar while we watched some of the World Cup. We tried to watch the sunset from up here, but the clouds did not cooperate.",
-          "It was very humbling to be able to stand on the grassy hill behind our Albergue after the sun had begun to set, and see all of the towns we passed through today lite up. The sunrise from up here is going to be epic. I can’t wait. I’m also looking forward to tomorrow and the Cruz de Ferro, which is where you leave the stone, and any stress, that you’ve been carrying with you since the beginning of the Camino.",
-          "Or so they say..."
+          "Sleep was elusive in the hot, stale attic dormitory. The faint echoes from the bathrooms below forced us to close the door, cutting off the only airflow that kept the room tolerable. Two small gable windows barely helped, and by 6 a.m., vibrations from a nearby pillow pulled me out of what little rest I had managed. Gear packed and ready, I joined the others in the landing outside our room and we quietly roused the rest of the building as we prepared to leave.",
+          "Without breakfast available at the albergue, we headed out into the early morning streets, making a quick stop at an ATM before walking past the cathedral and out of the city. A tree-lined road led us over a highway toward Murias de Rechivaldo, before farm fields stretched ahead toward Santa Catalina de Somoza and our breakfast at Albergue El Caminante. White gravel paths ran alongside black roads, bordered by green trees and patches of rock, forming the landscape for most of our morning.",
+          "A surprising encounter awaited at a small turn into the woods. A man dressed as a knight in chainmail offered donations for Asociación Gaudisse, complete with a tame hawk perched nearby. Each of us took a turn meeting the bird, marveling at its calm demeanor. After this playful detour, the path led uphill through uneven earthen trails and the trees, eventually bringing us into Rabanal del Camino. Here, persistence paid off as we discovered The Green Garden, a shaded oasis with chaise lounges, friendly dogs and cats, and cheap ice cream. While tempting to camp here under the stars, the outdoor bathroom convinced us otherwise.",
+          "The next leg of the walk was a steep scramble over rocks and rough terrain, which Cerstin aptly dubbed \"Auf Stein,\" meaning up stone. The sounds of the nearby road were a reminder that nature's serenity was fleeting, yet the small shelter with a natural fountain offered refreshing relief. Hours later, we reached Foncebadón, a town of crumbling ruins alongside new construction, a reminder of the Camino's enduring revival. The Druid-themed albergue welcomed us, reuniting us with friends we had lost along the way.",
+          "Dinner was a simple burger across the street, while the World Cup played on and clouds obscured the sunset. Standing on the grassy hill behind the albergue, watching the towns we had passed through light up, was humbling. Thoughts turned to tomorrow and the Cruz de Ferro, where pilgrims leave stones symbolizing burdens carried since the start of the Camino. The anticipation of sunrise and the ritual of release made the climb worth every exhausting step.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The Camino led us through gravel paths, farm fields, and uphill rock scrambles to the village of Foncebadón, where ruins and new construction coexist. The day ended with a Druid-themed albergue, reflective hills, and anticipation for the Cruz de Ferro.",
         "gpx": [
           [
             42.453748,
@@ -130005,7 +129472,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/bf4e84fe-e4ca-4834-ab65-393f965bbdb8.jpeg",
         "location": "Castile and León",
-        "readingTime": "5",
+        "readingTime": "3",
+        "snippet": "Up Stone to Foncebadón",
         "stats": {
           "distance": {
             "label": "distance",
@@ -130100,18 +129568,13 @@ const data = [
       {
         "date": "June 23rd, 2018",
         "description": [
-          "Watching the sun rise is such an effortlessly beautiful experience. It only takes a matter of minutes, but sometimes it can feel like an eternity. Waking up early took little convincing from everyone the night before. We had gotten used to rising before dawn. It started out as an excuse for doing most of our walking during the hottest parts of the day, but it soon became the natural way of the Camino, at least for our group.",
-          "Today we were going to make our way past Cruz de Ferro and the ever growing pile of rocks at its base. Why do some consider this pile more important than any other pile of rocks along The Way? It’s meant to be a place of casting off your burdens. It’s tradition for a person walking the Camino to carry a small rock in their pack, and this rock is meant to symbolize any mental or emotional burdens you might have.",
-          "Cruz de Ferro was the first stop of the day at the top of a hill and we arrived just as the sun was striking the cross. The others didn’t know about the tradition with this cross, so I quickly tossed my stone onto the pile and we kept going. I thought I would have felt something, but it didn’t feel as emotional as I was expecting, nor did it feel symbolic. It just felt like tossing a rock onto a pile of other rocks.",
-          "We had taken the paved road up to the cross but the trail crossed over the top and down the backside of the hill, and now we started our slow and awkward descent. The terrain was similar to that of the way from Roncesvalles to Zubiri back on day two. I’m glad that I have the knee brace on!",
-          "On the way down we came to the town of Manjarín, where an old man lived who claimed to be the last of the Templars. Whether or not his claim is true, he had some neat looking artifacts hanging from the walls, and his home was rather humble in appearance. Well, it had to be since it was built out of stones and partly carved out of the rock.",
-          "We marched under a sunny cloudless sky through rolling green hills that slowly transformed into rocky mountains. Breakfast was in a town called El Acebo. We bought breakfast at one place, but decided to eat at the tables in the shade of another. The owner of that second place did not like that since we didn’t buy from them, and promptly kicked us out. So we sat at the tables in the sun of the place that we had purchased the food from.",
-          "After another hour and a half of nearly all downhill walking through hills, under bridges, and along streams, we stopped at a town that had a river that you could swim in. The water was ice cold, so I only put my feet in. It was a relaxing break before walking to Ponferrada. Some in our group grabbed beer and ice cream.",
-          "The walk into Ponderrada took another hour and a half.  Today was the hottest it’s been so far I think. We were all dying from the heat, even when we were inside buildings. And the Albergue wasn’t much cooler, especially after 5pm. This was going to be a clothes-less night while sleeping, I can feel it already.",
-          "We checked in, picked our beds, did the laundry, and went to the super market to get stuff for making dinner. Once all of the chores were done, we decided to take a tour of a restored Templar Castle, which was pretty freaking cool! There wasn’t much to see inside of the castle beyond some props set up with plaques describing life inside the castle, but it was neat being able to freely walk around every nook and cranny.",
-          "There was a small cafe just outside the castle where we had a snack. It was too hot to do anything else, so we retreated back to the Albergue for some reading, chatting, and dinner."
+          "Watching the sunrise is an effortlessly beautiful experience. It only takes a few minutes, but it can feel like an eternity. Waking up early has become second nature for our group, originally a strategy to avoid the hottest parts of the day, but now simply the rhythm of the Camino. Today's journey would take us past Cruz de Ferro, home to a growing pile of rocks that carries deep symbolic meaning for pilgrims.",
+          "Cruz de Ferro sits atop a hill, and pilgrims traditionally leave a small stone there to symbolize mental or emotional burdens. I quickly added my own rock to the pile, though it didn't feel as momentous as I had expected. The paved road led us to the cross, but the trail continued over the hill and down the backside, a slow and awkward descent reminiscent of early days on the Camino. The knee brace I was wearing proved its worth immediately.",
+          "Our path took us through rolling green hills that gradually transformed into rocky mountains. We stopped in Manjarín, a small town where an old man claimed to be the last of the Templars. His humble stone home, partly carved into the rock, was adorned with fascinating artifacts, offering a glimpse into a storied past. Breakfast followed in El Acebo, though a minor seating dispute taught us quickly that shade isn't always free.",
+          "After nearly all downhill walking for another hour and a half, we reached a town with a cold river, perfect for resting our feet. A short walk later brought us to Ponferrada, where the heat was relentless and the albergue offered little relief. Despite the stifling conditions, we managed to get laundry done, buy ingredients for dinner, and take a tour of the restored Templar Castle. Walking through its rooms and passages gave a sense of history and scale, even if the interiors were mostly props.",
+          "A small café outside the castle offered a brief respite before we retreated to the albergue for reading, chatting, and a homemade meal. The combination of sun, hills, history, and camaraderie made the day exhausting yet deeply rewarding. Even in the heat, the Camino continues to surprise and challenge, one step at a time.\n"
         ],
-        "excerpt": "",
+        "excerpt": "We passed Cruz de Ferro and left our stones, a symbolic gesture for burdens carried along the Camino. The day ended in Ponferrada with a tour of a restored Templar Castle and a relaxing evening at the albergue.",
         "gpx": [
           [
             42.492064,
@@ -131108,7 +130571,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/2901af55-b7bf-41ec-9471-6ec3699b1f12.jpeg",
         "location": "Castile and León",
-        "readingTime": "4",
+        "readingTime": "2",
+        "snippet": "Stones, Hills, and Templar Tales",
         "stats": {
           "distance": {
             "label": "distance",
@@ -131203,20 +130667,12 @@ const data = [
       {
         "date": "June 24th, 2018",
         "description": [
-          "Another hot day of walking alone, but it ended with a reunion of nearly everyone in our new group, and a swim in the Rio Burbia. I attempted to get an early start with everyone else, but that wasn't going to happen. We made it as far as the castle before I realized I had forgotten my food for the day in the fridge of the Albergue, so I had to turn around and go back.",
-          "Luckily, we had only made it as far as the castle before I remembered, but this also meant that I would be walking alone today.",
-          "The walk out of the city didn't take too long, and it was mostly along the river. After a steep uphill climb, and a walk through an old park and past a church, I was out in the countryside. But this was short live as the next town over came into view. I powered through it simply because it was too early for breakfast, and I knew I had to try and make up for lost time to catch up with my friends.",
-          "As I left the first town behind I snacked on a banana that I had bought the previous day. As I walked along the Calle del Peregrino through the farmlands between the first town and the next I listened to some music while I ate. Shortly thereafter I came upon the next town of Fuentesnuevas. There was nothing of note for me to stop and see here.",
-          "Once more unto the rural space of land between towns. Camponaraya, my next port of call on todays journey, had a small juice and cafe stand along the route and I stopped for some orange juice, just so I could use the bathroom. I didn't need to buy any food from here as I still had breakfast items from the grocery store yesterday. I sat for about 30 minutes as I enjoyed my orange juice, ate another banana (living the pilgrim life on the cheap isn't very exciting when it comes to food), and researched places to stay in the last town of the day.",
-          "With still no sign of any familiar faces, I set off once more. About an hour later I came upon a town called Cacabellos. It had some very interesting Egyptian-looking wall art on some of the buildings as I passed. Upon arriving I tried to find another \"Green Garden\" spot for some lunch. No such luck. This meant going until the next town of Piero before finding another bathroom, and rest.",
-          "In Piero I found a Donativo place to eat my lunch just outside of the city. It was a cute little place that had places to read both inside and out. I got a KAS \"energy\" drink. I chose a spot near the window so that I could watch the road and wait for Crissi and Maddy while I ate my sandwhich that I had rushed back to the Albergue this morning for, but I never saw them. At least the sandwich was good!",
-          "Villafranca del Bierzo was the next town, and the stage ender for today. I made it there in about 90 minutes after leaving Piero. I initially started to take the route that went along the road but then I came across a more scenic route which diverted a little bit, but was a lot nicer than worrying about cars.",
-          "After a short descent into the outskirts of the city, I checked out the Municipal Albergue, but it was closed when it should have been open. Instead of waiting around for it to open, and risk losing a bed elsewhere, I decided to skip it and go to the next place that I had researched which was Albergue Leo. I fell in love with it as soon as I walked in the front door.",
-          "I quickly texted those whose phone numbers I had, and they all met up at my place. I was happy to see everyones lovely face again. After getting stuff for lunch we went to meet up with Louis at a bar, and hopped to a few different places before finding a spot for food.",
-          "On the way back to the Albergue we ran into the girls from Texas who we had met several days earlier in Belorado, and who we have seen here and there on the way. They were going back to the river, so we followed them and hung out while doing some swimming, skipping stones, and talking. It was a really good way to spend the afternoon in the heat. I think it got up to 100F today.",
-          "We tried to beat the heat and came back to the Albergue to play some cards in order to pass the time. We hit the hay early since we were preparing for our earliest day yet: leaving before 5am."
+          "Another hot day on the Camino started with a mishap: I realized I had left my food back at the albergue and had to double back, meaning I would be walking alone for most of the day. Once I finally left the city, the route followed the river and soon led into the countryside. The first town I passed was too early for breakfast, so I pushed through, snacking on a banana I had brought along while listening to music as the farmlands rolled by.",
+          "Fuentesnuevas passed without incident, and Camponaraya offered a small cafe and juice stand where I stopped for orange juice and a short break. I spent some time planning accommodations for the day's final town, catching my breath before pressing on. Cacabellos featured interesting Egyptian-style wall art, but I found no place to rest or eat. Lunch only came in Piero, where a quiet Donativo spot allowed me to eat my sandwich while watching the road, hoping to catch up with friends, but they never appeared.",
+          "Villafranca del Bierzo marked the stage end for the day. I took a scenic detour off the road, which made the journey far more pleasant than worrying about traffic. The municipal albergue was closed, so I headed to Albergue Leo, instantly falling in love with the cozy space. Soon after, I reconnected with my friends, and together we explored the town, grabbed food, and later reunited with the girls from Texas for an afternoon of swimming in the Rio Burbia, skipping stones, and enjoying the summer heat.",
+          "The day ended quietly back at the albergue with some card games to pass the time. The heat had been relentless, reaching nearly 100°F, so we took refuge indoors and prepared for the next day: our earliest departure yet, leaving before 5 a.m. Despite the solo start, the day ended with laughter, friendship, and a perfect afternoon by the river, a reminder of the small joys the Camino offers.\n"
         ],
-        "excerpt": "",
+        "excerpt": "A forgotten sandwich meant a solo start to the day, but Villafranca del Bierzo brought a reunion with friends and an afternoon swimming in the Rio Burbia. The heat was intense, but the river, laughter, and a cozy albergue made it unforgettable.",
         "gpx": [
           [
             42.546067,
@@ -132213,7 +131669,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/7fa41365-3d33-461b-9be5-5a946064923c.jpeg",
         "location": "Castile and León",
-        "readingTime": "5",
+        "readingTime": "2",
+        "snippet": "Solo Steps to River Reunions",
         "stats": {
           "distance": {
             "label": "distance",
@@ -132309,18 +131766,13 @@ const data = [
       {
         "date": "June 25th, 2018",
         "description": [
-          "Crissi and I left this town by the river before the sun even thought about rising, and walked the fastest that we've ever walked towards a mountain top. Walking through the dark, in the mountains, early in the morning is amazing. The air is coming alive, the sounds of people aren't yet there, the temperature is cold, and the walking is nearly silent. The only thing illuminated is the small stretch of ground directly in front of you.",
-          "Our pace was brisk as we crept through the darkness. On the way through Pereje we passed a pilgrim who was returning to Villafranca at the same pace that we were moving away from it. She must have forgotten something. I can relate.",
-          "We continued on, under and over highways, through wooded paths next to rivers, and in front of rock faces that were being held back by cages of wire. Our pre-determined group meeting point was at Trabadelo, and we arrived early, around 7am. Everything was closed, it being Monday morning and all, so we continued on through a series of small cute towns until arriving at Ambasmestas, and had breakfast at a hotel cafe.",
-          "On the way to Herrerias, the next stop, we came across a very talkative duck in someones yard. I tried talking to him but he just wasn't having it. Herrerias was the last town before beginning our ascent up the mountain. We decided to continue along once we got there instead of waiting for the others behind us to catch up. The way was via the verys steep road initially, and eventually we came to a dirt path, but this was the steepest portion yet.",
-          "Because our friend Maddy was far behind us, we left her a message written in small stones at one of the Camino markers. We found out later on that she never saw it, and instead heard of it from others, which made her happy all the same.",
-          "The hike up the mountain was through thick forest which meant we didn't have to worry about the sun beating down on us as we climbed this steep path. We crushed the first part (i.e. walked very fast, and passed many others) and took a brief rest in the town of La Faba. While we were resting near the towns fountain a local farm family decided to let their bulls and donkey out for a stroll through the streets. This isn’t something that you see every day.",
-          "Laguna (a town, not the beach) was the next milestone to reach upon this mountain. We also raced up this portion, and I can't remember why, maybe I was in a hurry to be done with the ascent, who knows. We grabbed some cokes and relaxed as we watched others come to the top. After that we went to our destination at O'Cerbreia, which was via a gradually rising trail up from Laguna.",
-          "Along the way we crossed over into the next autonmous region: Galicia. We are now officially in the region of Santiago de Compostela.",
-          "The views are amazing up here at O'Cerbreia: mountains and rolling hills as far as the eye can see. I simply can't take enough pictures of it. This Albergue, I think the only one up here, was very primitive. The showers lacked curtains, and t he beds were practically stacked on top of each other. And the \"town\" feels like a tourist trap.: two full-blown gift shops, and a museum church.",
-          "We grabbed some drinks with everyone after they all arrived. Luis had the hardest journey today: he went up and down three major hills and had to bushwhack the whole way because he took a wrong turn. Dinner was alright, nothing amazing. Hopefully it isn't too stuffy in this Municipal tonight."
+          "Crissi and I left Villafranca before the sun even considered rising, walking faster than we ever had towards the mountains. Moving through the dark at that hour is magical: the air feels alive, the streets are silent, and the only visible stretch is the path illuminated by our footsteps. We passed through Pereje, where a fellow pilgrim was heading back to Villafranca, clearly having forgotten something. I could relate.",
+          "Our route took us under and over highways, along wooded river paths, and past rock faces held in place by cages of wire. We reached Trabadelo early, but everything was closed for the Monday morning, so we pressed on, passing small towns until breakfast at a hotel cafe in Ambasmestas. On the way to Herrerias, we encountered a surprisingly talkative duck, though it wasn't much for conversation. Herrerias marked the last town before the mountain ascent, and we decided to continue without waiting for those behind us.",
+          "The climb started on a steep road and transitioned to a dirt path, the steepest portion yet. We left a small stone message for our friend Maddy at a Camino marker, though she never saw it directly, learning about it later through others. The ascent through thick forest protected us from the sun, and we passed many pilgrims before taking a brief rest in La Faba. A local farm family released their bulls and donkey into the streets during our pause, a sight that felt entirely unexpected.",
+          "Laguna was our next milestone, and we sped up again, grabbing cokes and watching others arrive at the top. From there, a gradually rising trail led to O'Cebreiro. Along the way, we crossed into Galicia, entering the autonomous region of Santiago de Compostela. The views at O'Cebreiro are breathtaking: rolling hills and mountains stretch as far as the eye can see.",
+          "The albergue at O'Cebreiro is basic. Showers lacked curtains, beds were stacked close together, and the town itself felt touristy with gift shops and a small museum church. Once everyone arrived, we grabbed drinks together and shared stories. Luis had the toughest journey, navigating three major hills and bushwhacking his way after a wrong turn. Dinner was simple, and we hoped the municipal albergue wouldn't be too stuffy overnight.\n"
         ],
-        "excerpt": "",
+        "excerpt": "We left Villafranca before sunrise, racing up steep mountain paths and through forested trails into Galicia. O'Cebreiro greeted us with breathtaking views, a basic albergue, and the first real taste of the region of Santiago de Compostela.",
         "gpx": [
           [
             42.604203,
@@ -133317,7 +132769,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/6349679e-acbf-4f74-ad4a-0d9032c3b293.jpeg",
         "location": "Galicia",
-        "readingTime": "4",
+        "readingTime": "2",
+        "snippet": "Dawn to the Galician Hills",
         "stats": {
           "distance": {
             "label": "distance",
@@ -133413,17 +132866,13 @@ const data = [
       {
         "date": "June 26th, 2018",
         "description": [
-          "Galicia is paradise, and we ended up doing nearly two stages in one day just because we wanted to beat the threat of another hot day. Myself and a couple others from our group left together in the darkness. The fog was so dense and thick that our headlamps could barely illuminate the way directly in front of us.",
-          "It was a little creepy hiking through the forest with the fog and trees. We stopped by a statue dedicated to the pilgrims at the top of another mountain, it was an eerie sight seeing it rise out of the darkness. Two more towns came and went in the darkness: Hospital de la Condesa and Padornelo. No lights were on, too early for them. Passing cars reminded us where the road was.",
-          "As the sun rose the clouds ahead of us became light gray at first, then bright white, and finally pinks followed. The clouds behind us burned as if they were on fire. We made it to Alto do Poio for rest and food. They had a super huge dog that begged us for attention, which I obliged. It laid its massive paw on my arm until I fed it some table scraps, or at least I would have if the owner hadn't called it away.",
-          "Crissi and Mauro fell into deep conversation and I fell behind as I stopped to take pictures of the cloud subversion. I saw some of the most beautiful trees, stones, moss and fog landscapes as I descended alone down the mountain.",
-          "Amazingly we arrived at Triacastela before noon! Sadly, the three castles here are no more. While we ate breakfast we collectively decided to keep going since there wasn't really anything of interest in this town, and we would have gone crazy staying here having arrived so early in the day. Luckily the others in our group behind us felt the same seeing as they ended up in Sarria as well.",
-          "During our breakfast we befriended Eileen from New Zealand, whom spoke near perfect Spansih (even Crissi was impressed), and she walked the rest of the way with us down the mountain. Crissi and Mauro were flying down the second mountain, I couldn't believe how fast they were going. I tried my best to keep up. But halfway down I pulled something, and ended up inflaming a tendon in my ankle.",
-          "Luis met up with us at some point as we began the walk in to Sarria. I used my trekking poles as makeshift crutches and hobbled the rest of the way. Before we ascended the stairs into the city, we stopped for a compression sock and pain cream at the pharmacy for my tendon. Big thanks to Crissi for translating and helping to explain what was wrong.",
-          "We found a cute Alburgue a stretch of the main road around 5pm, and felt relieved to have a nice place to spend the night. The showers even had privacy! We made another family dinner while watching the Nigeria and Argentina soccer game.",
-          "Sarria is the starting point for those who can only take a week of vacation off to do the Camino, which means it's not much farther now."
+          "Galicia feels like paradise, and we ended up covering nearly two stages in one day to avoid another scorching afternoon. A few of us left together in darkness, the fog so thick that our headlamps barely lit the path immediately in front of us. Hiking through the forest with fog curling around the trees was a little eerie, but also mesmerizing. Along the way, we stopped at a statue dedicated to pilgrims atop another mountain, its silhouette rising from the shadows like something out of a dream. Two towns passed quietly: Hospital de la Condesa and Padornelo, completely dark and silent, with only passing cars reminding us of the nearby road.",
+          "As the sun rose, the sky transformed. Clouds ahead shifted from pale gray to brilliant whites and soft pinks, while the clouds behind us glowed as if set on fire. We reached Alto do Poio for a much-needed break and food. A huge dog demanded attention, resting its massive paw on my arm, and I would have fed it table scraps if the owner hadn't called it away. Meanwhile, Crissi and Mauro drifted into a deep conversation as I lagged behind, stopping to capture the breathtaking mix of moss, stones, trees, and fog during my descent alone.",
+          "By noon, we had arrived in Triacastela, although the three castles that gave the town its name are long gone. Breakfast was quick, and we collectively decided to press on, grateful that the towns ahead would provide new scenery rather than sitting idle in an empty town so early in the day. Along the way, we met Eileen from New Zealand, whose near-perfect Spanish impressed everyone, and she joined us for the rest of the mountain descent. Crissi and Mauro seemed to fly down the trail, while I struggled to keep pace. Midway, I pulled something in my ankle, inflaming a tendon, and had to slow my pace considerably.",
+          "Luis caught up with us as we entered Sarria, and I relied on my trekking poles as makeshift crutches. Before ascending the stairs into the city, we stopped at a pharmacy for a compression sock and tendon cream, with Crissi kindly helping translate. Finally, we arrived at a charming albergue along the main road around 5 p.m., relieved to find showers with privacy and a welcoming space to rest. That evening, we shared another family-style dinner while watching the Nigeria vs. Argentina soccer game.",
+          "Sarria marks the beginning point for pilgrims who only have a week to walk the Camino. Reaching it makes the finish feel tantalizingly close, yet also makes every step we've taken so far feel deeply rewarding.\n"
         ],
-        "excerpt": "",
+        "excerpt": "We raced through dense fog and stunning mountain landscapes, descending into Galicia faster than expected. By afternoon, we reached Sarria, the gateway for week-long pilgrims, relieved to find a cozy albergue and time to rest.",
         "gpx": [
           [
             42.708199,
@@ -134421,6 +133870,7 @@ const data = [
         "image": "2018/06/02/4e1b42f2-3994-4d1c-ad29-620eab9c80c7.jpeg",
         "location": "Galicia",
         "readingTime": "3",
+        "snippet": "Fog, Mountains, and Sarria",
         "stats": {
           "distance": {
             "label": "distance",
@@ -134515,18 +133965,14 @@ const data = [
       {
         "date": "June 27th, 2018",
         "description": [
-          "This is the second time that I've had to deal with leaving behind people with which I had grown close to. I can't believe that it's almost over: three more days and we're in Santiago. Today we had to say goodbye to our group.",
-          "Louis marched on and did two stages in one day, Maddy Cerstin and Isabelle took it easy and stayed at the end of the previous stage, Mauro and Eileen continued on to Gonzar, and Crissi and I stayed in Pontemarion.",
-          "I knew to expect this from my research of the Camino, but after experiencing it first-hand I couldn't handle the feelings. To become so intimate with people whom you swear with, suffer with, laugh with, and make memories with. It's something that I've never truly experienced before. I want to go back in time and do the whole thing over again...",
-          "I can actually see myself doing this again.",
-          "As far as today is concerned, it wasn't too hard of a walk. I took it easy today due to my right ankle tendon issues. It didn't cause any major problems though thanks to the compression sock, which Crissi says is really just a stocking.",
-          "We crossed another small mountain on our way out of Sarria. The various forests and small towns that we went through today seemed to pass by in a blur. We stopped for breakfast at a cafe in a small town outside of Morgade. Shortly thereafter it was upon us: the 100 kilometer marker.",
-          "Pontemarion was there, ahead of us, a short distance away. We decided to take the not-so-dangerous approach in to the city. The more dangerous approach went down old dirt and brick steps, and the sign warned against doing it only if you were in absolute great shape, which of course I was not.",
-          "While eating lunch on the main street Crissi and I ended up deciding to stay in Pontemarion, while Eileen and Mauro would continue on. As soon as they were gone, we convinced ourselves that this was a good decision. As soon as we were settled in though, and relaxing at a bar, we realized that we had made a mistake. We missed them already.",
-          "During dinner Crissi and I thought about trying to take a two day trip to Porto, Portugal in order to use up the extra days we'd have since we have been crushing these stages with a passion and figured everyone would be too far ahead or behind us to see them again.",
-          "Either way, we will be celebrating the Fourth of July from Fisterra, Spain."
+          "This is the second time I've had to say goodbye to people I had grown close to. It feels surreal to think that we are almost at the end: only three more days until Santiago. Today we parted ways with our group. Louis pushed on, completing two stages in a single day, while Maddy, Cerstin, and Isabelle took it easy and stayed at the previous stage. Mauro and Eileen continued on to Gonzar, and Crissi and I chose to remain in Pontemarion.",
+          "I knew these moments were part of the Camino, but experiencing them first-hand was something else entirely. To become so connected to people you share laughter, pain, and memories with is a unique experience. The bonds formed along the trail are something I have never truly felt before. As strange as it sounds, I can already see myself doing this all over again.",
+          "Today's walk was relatively easy. I took it slow because of my right ankle tendon issues, but the compression sock kept things manageable. Crossing another small mountain on the way out of Sarria, the forests and tiny villages passed by almost in a blur. We stopped for breakfast at a small cafe outside Morgade, and shortly after, we reached the 100-kilometer marker.",
+          "Pontemarion appeared ahead, and we chose the safer approach into town. The alternative route went down old dirt and brick steps and was recommended only for those in excellent shape. Once in town, Crissi and I decided to stay while Eileen and Mauro continued onward. Settling into a bar, we quickly realized how much we already missed their company.",
+          "During dinner, we entertained the idea of taking a two-day trip to Porto, Portugal, just to make use of the extra time we had. We had been pushing through stages with energy and focus, and figured everyone else would be too far ahead or behind to meet again.",
+          "Regardless of our plans, we are excited to celebrate the Fourth of July from Fisterra, Spain, knowing that the last days of this journey are fast approaching. The memories of these friendships and the trail itself will stay with me long after we reach Santiago.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Saying goodbye to friends on the Camino is harder than I expected, even after months of walking together. Crissi and I stayed in Pontemarion while others pushed on, and we already missed their company.",
         "gpx": [
           [
             42.777385,
@@ -135523,7 +134969,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/3d738e26-0747-447a-98fb-0bb35e1736c3.jpeg",
         "location": "Galicia",
-        "readingTime": "3",
+        "readingTime": "2",
+        "snippet": "100 Kilometers and Goodbyes",
         "stats": {
           "distance": {
             "label": "distance",
@@ -135618,19 +135065,14 @@ const data = [
       {
         "date": "June 28th, 2018",
         "description": [
-          "When you get the opportunity to walk through Roman ruins after the universe reunites you with a traveling companion, you don't pass it up. It was 6 am when our hosts decided to turn on the lights. Talk about a rude awakening. Everyone was forced to get up and out of bed at the same time, which led to minor amounts of chaos in the dormitory.",
-          "The way out of town and back to the Camino was through the same way that we entered it: over the bridge. This town technically wasn't on the original Camino path anymore because they had to move it to higher ground after they flooded the valley a long time ago.",
-          "We hiked uphill, passed corn storage houses, and through the charred remains of a forest. 90 minutes later we came to Castromaior after passing through Gonzar. They have a restaurant at this Albergue, which means food, and we were starving!",
-          "As we're walking in, a pilgrim is on their way out. It was Eileen! Such pure fate. Crissi and I are happy to be reunited with a travel companion after saying goodbye only just yesterday. We ate our breakfast and hit the trail again.",
-          "I noticed that Eileen was walking without her sticks, and I commented on how impressed I was that she was going uphill without them. \"F\\*\\*K!\", she said. Her poles were resting comfortably back at the Albergue we had breakfast at. She was forced to turn around, while Crissi and I marched on. Why we didn't turn back with her, I do not know. A few moments later and we were walking uphill again.",
-          "Just outside of Castromaior were the ruins of a Roman encampment. I couldn't pass up this opportunity to actually walk through history, to be able to reach out and touch it. You can see where the fires were, the kitchens, and even the bathrooms. You just don't get a chance like this back home in the States with historical landmarks: they're usually roped off.",
-          "Afterwards we waited for Eileen at a restaurant outside of Hospital Alta da Cruz. After she arrived we got back on the trail. Palas de Red was the next big city, and the chance for a good solid lunch, during which we unanimously decided to \"turn on Beast Mode\" and push for Melide, about 14 kilometers away.",
-          "It was a hard walk, but we had a great time and did plenty of talking. We were nearly dead when we arrived in the outskirts of Melide though. Upon reaching the bridge into town, we ran into Mauro placing a hand written note on the bridge telling us to meet him in town. It was so darn cute.",
-          "Now we're all together again! We found a great place to stay with a nice green backyard. When we were heading out to dinner I ran in to Sam! I'm glad to see that he is finishing the Camino, 40 pound backpack and all.",
-          "Melide is well known for its Pulpo a la Gallega, which is boiled octopus served with olive oil, paprika, bread, and white wine in a bowl. We didn't shy away from having some.",
-          "So much unexpected joy today. Random surprises from familiar faces can ease the soul in so many ways."
+          "Walking through Roman ruins after being reunited with a traveling companion is an experience you don't pass up. Our hosts decided to turn on the lights at 6 a.m., giving everyone a rude awakening and causing minor chaos in the dormitory. We packed up quickly and retraced our steps over the bridge to get back on the Camino. This town wasn't even on the original route anymore, having been relocated to higher ground after a historic flood.",
+          "The morning hike took us uphill past corn storage houses and through the charred remains of a forest. Ninety minutes later, we arrived in Castromaior after passing through Gonzar. The albergue there had a restaurant, which was a lifesaver since we were starving. Walking in, we were greeted by Eileen, a fellow pilgrim we had said goodbye to only the day before. It felt like pure fate to be reunited so quickly, and we enjoyed breakfast together before continuing our trek.",
+          "Shortly after leaving Castromaior, we came across the ruins of a Roman encampment. Walking among the ancient structures and seeing remnants of kitchens and bathrooms was incredible. Being able to reach out and touch history in a way you rarely can back home was humbling. We paused again to wait for Eileen outside Hospital Alta da Cruz before heading to Palas de Rei, where a solid lunch fueled our decision to \"turn on Beast Mode\" and push for Melide, about 14 kilometers away.",
+          "The walk to Melide was challenging, but full of laughter and conversation. Just as we reached the outskirts of town, we spotted Mauro leaving a handwritten note on the bridge, telling us to meet him in town. Seeing his note felt like a perfect, whimsical moment after such a long day of walking.",
+          "Once in Melide, we found a great place to stay with a green backyard, and later ran into Sam, who is finishing the Camino with a hefty 40-pound backpack. Dinner was a highlight: Pulpo a la Gallega, a local specialty of boiled octopus with olive oil, paprika, bread, and white wine. Every bite felt like a reward.",
+          "The day was full of unexpected joy. Being reunited with familiar faces, discovering historical sites, and savoring local food reminded me of why the Camino continues to be such a meaningful journey.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Reunited with a traveling companion and walking through Roman ruins made today unforgettable. Unexpected encounters and local delicacies made the journey even more special.",
         "gpx": [
           [
             42.806235,
@@ -136627,7 +136069,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/4e8fd9a9-ed5f-429f-9230-efa731461a5f.jpeg",
         "location": "Galicia",
-        "readingTime": "3",
+        "readingTime": "2",
+        "snippet": "Reunions and Roman Ruins",
         "stats": {
           "distance": {
             "label": "distance",
@@ -136722,15 +136165,13 @@ const data = [
       {
         "date": "June 29th, 2018",
         "description": [
-          "Today is the last official day of fully walking on the Camino Frances. Tomorrow we will be arriving in the city that has been at the edges of our minds for nearly 30 days. We all took a late start today. Doing nearly 45 kilometers of total walking in one day will make you want to do that.",
-          "Boente was our first stop, for breakfast of course. According to the guide book there was a priest here who would give blessings to pilgrims. No priest, but we settled for the stamp since you have to get two per day now in order to get your certificate at the end.",
-          "Several small towns came and went as we walked today. The sun was high in the sky, and I could already feel the sunburn setting in. We were taking our time today, and Arzúa was our next stop after a couple hours of walking.",
-          "There wasn't much activity on the trail today, mostly just heads-down walking. We arrived in Arca / O Pedrouzo around 5pm. Such a slow day, but then again it was still more than 30 kilometers of walking and we had a late start. The rain was threatening to arrive at any moment as we tried to reconnect with Eileen and Mauro via free WiFi at a local bar.",
-          "We tried four different places before finding beds in a hotel/Albergue called Porta de Santiago. Not too bad of a place considering it wasn't that expensive. Eileen and Mauro met up with us there and got some beds as well.",
-          "Apparently there is a concert going on this weekend in Santiago, so based on the advice by Eileen we started looking into making a reservation anywhere we could in order to ensure that we had a place to stay. But all of the Hostels and Albergues were filling up quickly. We'll just have to wing it.",
-          "I can't believe that this month long journey is coming to an end tomorrow."
+          "Today was the last official day of walking the Camino Frances in full, and anticipation hung in the air. After nearly 45 kilometers of walking in a single day, we all took a late start. Our first stop was Boente for breakfast, where we hoped for a priestly blessing but settled for the required stamp instead. These stamps are essential for earning the certificate at the end of the journey, and getting two per day has become routine.",
+          "The trail passed through several small towns, each blending together as the sun climbed higher. The heat was intense, and the beginnings of sunburn were inevitable. We arrived in Arzúa after a couple of hours, and then continued on to Arca, also known as O Pedrouzo, around 5 p.m. It was a slow day compared to other stages, but over 30 kilometers still left us physically spent. A light rain threatened as we tried to reconnect with Eileen and Mauro via free WiFi at a local bar.",
+          "Finding accommodations proved to be a challenge. After trying four different places, we finally secured beds at a hotel/albergue called Porta de Santiago. Eileen and Mauro joined us there, and it felt good to be reunited after a long day on the trail. The place was comfortable and reasonably priced, which was a relief after the day's long trek.",
+          "With a concert happening in Santiago this weekend, we quickly realized that hostels and albergues were filling up fast. Following Eileen's advice, we started looking into reservations but ended up deciding to wing it, trusting that things would work out.",
+          "As we settled in for the night, I couldn't help but feel the weight of the month-long journey coming to a close. Tomorrow we would reach Santiago, the city that had been on our minds for nearly thirty days, and the sense of accomplishment was already beginning to sink in.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The last full day on the Camino Frances was long, slow, and filled with small towns and scenic trails. With Santiago just a day away, excitement and anticipation were impossible to ignore.",
         "gpx": [
           [
             42.914066,
@@ -137728,6 +137169,7 @@ const data = [
         "image": "2018/06/02/2dcb1878-efe7-47d7-b7b5-b031ab143cb6.jpeg",
         "location": "Galicia",
         "readingTime": "2",
+        "snippet": "The Final Stretch",
         "stats": {
           "distance": {
             "label": "distance",
@@ -137822,19 +137264,14 @@ const data = [
       {
         "date": "June 30th, 2018",
         "description": [
-          "I could not believe that this was it. Our destination which always seemed so far away, after traveling for so many days and so many miles, was finally upon us. It was raining so hard this morning that I thought someone had turned a fan on next to my head. Torrents and torrents of rain battered the roof as we got ready in the dark.  Maybe it was fitting that the start of the day would be filled with rain.",
-          "Luckily we did not get rained on while walking. Most of the morning was spent going through wet fields, through forests, and passed longhorn oxen. We took a quick stop in Monte de Gozo to see the monument there, and to get our first look at the towers of the Cathedral of Santiago.",
-          "As we entered the city, the masses of pilgrims that we walked with continued to grow. It felt like we were all on autopilot: follow the arrows, one foot in front of the other, keep going until you see a big church. Before entering the plaza of the cathedral, we passed through the old part of the city. As is tradition, since Galicia is very Celtic in its roots and culture, we were played into the plaza by bagpipes in the tunnel before entering.",
-          "Upon arriving in the plaza and looking at the cathedral all I could say was “This is it?”. I could not believe that this was the destination after traveling for so many days and so many miles.",
-          "After several photos and hugs in front of the cathedral we headed off to get our Compostelas (certificates for completing the Camino). This is it. It's real. The journey is over.",
-          "We would not be walking the way tomorrow, but instead would be taking a much deserved day to rest and explore the city.",
-          "We had breakfast and headed for the Pilgrim mass. It was a nice ceremony (it was all in Spanish so I couldn't understand much), but they swung the giant incense burner, and man could that thing swing.",
-          "We celebrated this momentous occasion at a local tapas restaurant in the center of the old city with our original group that set out from Hontanas nearly three weeks ago: Crissi, Cerstin, Mauro and Bianca. It felt weird not having to worry about getting up early to walk on the way tomorrow.",
-          "After our goodbyes I decided to go to the front of the church.  I had intended on going alone, but Crissi and Mauro joined me. The church at night was even more impressive. I stood there staring in awe at the cathedral, reflecting on the journey. It nearly brought me to tears. I cannot fathom that this is over.",
-          "I gave the biggest hug that I could to Crissi, and thanked her. Nothing dramatic, no fancy words, no glorious speech, simply \"Thank you\". Thanks for befriending me in Belorado. Thanks for saving me in Hontanas. Thanks for walking through the Meseta with me. Thanks for listening to me complain about work. Thanks for being a companion. And thanks for doing this incredible journey. I couldn't have completed this without you Crissi, thank you!",
-          "Tomorrow we set out for Finesterre, and the zero mile marker."
+          "I could hardly believe that we had finally reached Santiago. Our destination, which had always seemed so far away, was now in front of us after so many days and miles of walking. The morning began with a torrential downpour that felt like a fan blasting on my face. Maybe it was fitting that the start of our final day would be accompanied by such heavy rain.",
+          "Fortunately, the rain eased as we walked. Most of the morning was spent moving through wet fields, shaded forests, and past longhorn oxen. We stopped briefly at Monte de Gozo to see the monument and catch our first glimpse of the cathedral towers in the distance. With each step into the city, the crowd of fellow pilgrims grew, all following the yellow arrows in silent determination toward the plaza. Bagpipes welcomed us through the old city tunnel, a Celtic tradition that added a mystical quality to our entrance.",
+          "Arriving in the plaza, I stood before the cathedral in disbelief. After so many days and miles, this was it. We took photos, shared hugs, and then collected our Compostelas, the official certificates marking the completion of the Camino. The reality sank in: the journey was over. There would be no walking tomorrow, just rest and time to explore the city.",
+          "We attended the Pilgrim Mass, which was entirely in Spanish, and watched the enormous incense burner swing dramatically over the congregation. Later, we celebrated at a local tapas restaurant with Crissi, Cerstin, Mauro, and Bianca, the original group from Hontanas. It felt strange not to worry about waking up early for another day on the trail.",
+          "As night fell, Crissi, Mauro, and I returned to the cathedral. Its grandeur in the quiet of evening was overwhelming. Standing there, reflecting on the journey, I nearly felt tears welling up. I hugged Crissi tightly and thanked her simply: for the companionship, support, laughter, and shared experiences. Without her, this incredible journey would not have been possible.",
+          "Tomorrow we will head to Finisterre, to see the zero mile marker and continue our small postscript to the Camino. But tonight, I allowed myself to simply stand in awe, grateful for every step that led me here.\n"
         ],
-        "excerpt": "",
+        "excerpt": "After weeks on the Camino, Santiago finally appeared on the horizon. The cathedral plaza, bagpipes, and hugs made the completion feel surreal and unforgettable.",
         "gpx": [
           [
             42.90407,
@@ -138831,7 +138268,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/1921986b-9cf8-4bf8-b531-3bfe2f098f93.jpeg",
         "location": "Galicia",
-        "readingTime": "3",
+        "readingTime": "2",
+        "snippet": "Arrival in Santiago",
         "stats": {
           "distance": {
             "label": "distance",
@@ -138927,18 +138365,13 @@ const data = [
       {
         "date": "July 2nd, 2018",
         "description": [
-          "A full month has passed since starting this journey back in France, which feels like a world away from here, and a different time. We walked out of Santiago de Compostela in the early morning rain. I paused, turned around, and stole a final glimpse of the cathedral over the hills.",
-          "Another morning full of rain. But, it's been fitting these last couple of days. After a emotional day in Santiago, we were ready to get back on The Way, and head to Finisterre and the end of the world. The streets were mostly empty this morning. As we walked through the plaza to head out of the city we saw several pilgrims beginning to arrive.",
-          "It was Monday, July 2nd, and we were back in our element. I stole one last look at the cathedral of Santiago before we headed into the wilderness. We were surrounded by forests as we began our ascent up the hills surrounding the city. It would be a mostly uphill hike today. And there was no shortage of small hamlets and villages to walk through.",
-          "In fact, the entire day was filled with forests! I can't think of a time when we weren't walking next to a river, or uphill through a thicket of trees who helped keep the rain off of us.",
-          "We mostly marched straight through to Ponte Maceira which sat on top of a river called Río Tambre. There was a medieval bridge here which was pretty cool to walk around. In Finesterre you can get another certificate for completing the walk from Santiago to there, but this meant getting more stamps again, and the place where we would be getting our first stamp was a random restaurant on the river. The restaurant wouldn't open for another 45 minutes, and it was the only authorized place in town who could give the stamp, so we explored the bridge and riverbed.",
-          "When they finally opened, we felt guilty for making them hurry while we waited outside, so we ordered some food. Bad idea. It was a fish empanada from the night before. Yuck. We didn't waste much time setting out as soon as we had one bite.",
-          "Negreira was our stop for today, and it was all uphill. But it was filled with beautiful scenery and views as we ascended. Arrival in town was fast, and we quickly decided upon an Albergue above a bar. We had a very, very, cheap lunch: a full burger, fries, and beer for less than 5 euros in a bar down the street.",
-          "There wasn't much to do in this town at first glance. We played some cards back at the Alburgue before deciding to sleep off the walking from today before dinner. I woke up to find Crissi and Mauro were gone, so I took a solo walk around town to see what it had to offer. Tons of clothing shops, and grocery stores, which surprised me because we've seen towns of the same size with less.",
-          "I saw my friends sitting on a bench after turning around at the end of a street, and convinced them to get a 3-pack of ice cream bars with me. Best decision ever. We found a cute spot for dinner and drinks. It felt very chic, like an American cafe, and the dinner was superb. We watched the soccer game, partly because we had nothing else to do. So far these towns after Santiago felt less Camino-ish.",
-          "It would be an early night today. It felt good to get back to walking after taking a day off. I'm eager to get to the end, but I also want it to take forever so that this never ends."
+          "A full month had passed since we started this journey back in France, a month that now felt like a different world. We left Santiago de Compostela in the early morning rain, pausing just long enough to steal one final glance at the cathedral over the hills. The streets were mostly empty, and a few early pilgrims were beginning to arrive as we made our way through the plaza and out of the city. It was fitting that the start of this next chapter would be accompanied by rain, quiet, and reflection.",
+          "Our path quickly led us into forests and rolling hills surrounding the city. The ascent was steady but never harsh, winding through small villages and hamlets tucked into the greenery. Rivers traced our steps, and the canopy of trees provided shelter from the drizzle. It was a day full of natural beauty, with each bend in the trail revealing another peaceful view of northern Galicia.",
+          "We arrived at Ponte Maceira, a town perched above the Río Tambre. The medieval bridge here was fascinating to explore, and we waited patiently for the small riverside restaurant that would provide our first stamp toward the Finisterre certificate. While our choice of a leftover fish empanada was less than ideal, the scenery and fresh air quickly erased any lingering regrets, and we pressed on along the trail.",
+          "Negreira was our destination for the day, an uphill journey that rewarded us with beautiful vistas and a lively town. We quickly settled into an Albergue perched above a bar and enjoyed a surprisingly cheap lunch of burgers, fries, and beer. In the quiet hours before dinner, I wandered the streets alone, discovering clothing shops and grocery stores in a town that felt busier than its size might suggest. Eventually, we regrouped to enjoy ice cream, dinner, and a soccer game, blending casual indulgence with Camino camaraderie.",
+          "Despite the rain and the long hours, it felt good to be back on the trail. Walking after a day off gave me a renewed sense of purpose, and while I was eager to reach the end at Finisterre, I also wished the journey could last forever. Every hill, forest, and village made it clear that the Camino's magic is as much in the steps as it is in the destination.\n"
         ],
-        "excerpt": "",
+        "excerpt": "We left Santiago in the early morning rain, ready to continue toward Finisterre. The forests, rivers, and small villages made the day feel both peaceful and alive, a perfect start to the final leg of the Camino.",
         "gpx": [
           [
             42.880868,
@@ -139935,7 +139368,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/7f51e3c4-518e-4147-8e73-c19d6c87ce11.jpeg",
         "location": "Galicia",
-        "readingTime": "4",
+        "readingTime": "2",
+        "snippet": "From Santiago to Finisterre",
         "stats": {
           "distance": {
             "label": "distance",
@@ -140031,15 +139465,13 @@ const data = [
       {
         "date": "July 3rd, 2018",
         "description": [
-          "I walked alone in the rain for most of the day, which didn't bother me at all. It was very calming, and put me in a great mood. Day four of rain in the morning, and probably the third day on the entire Camino with a full day of rain. As long as my shoes stay dry, I'm a happy camper. The goal for today was Santa Mariña, with was about 25 kilometers away. This was because Crissi and I were in no rush to finish since we now knew that we would have time at the end.",
-          "Old houses surrounded us as we left, and the low hanging clouds, and misting rain, put me in the finest of moods as I walked. The others sped up while talking, and I fell behind once more. I took as many opportunities as possible to wander onto peoples property, trying to take good pictures, and talk to the dogs. The dogs were unresponsive, and couldn't give two shits about me, but the pictures, I think, turned out well.",
-          "Sheep greeted me (really they just ignored me and kept eating that grass) as I came to A Peña two hours later. There was a cafe up the stairs, and I found Mauro and Crissi waiting for me at the bottom of them. Another Pilgrim was inside finishing up and about to head back out on the path. I stole (more like asked if I could have) his leftover Spanish Tortilla. Nearly half of it was left, waiting to be eaten. Suddenly I realized that I would have never done something like this back home, but it felt like a no-brainer since it would go to waste. We have become scavengers.",
-          "We continued on through the rain for another two and a half hours until arriving in Santa Mariña. After scoping out the places to stay, and getting some cokes, we (more like I) decided that we should keep going. This town felt as boring as the last, was a fraction of the size, and the air contained the constant smell of cow feces. This is a smell I will be happy to get away from once we leave the farmlands of Galicia, and will be happy to never have to smell again.",
-          "I put in the headphones, turned on shuffle mode, and cranked up the music for the next two hours of rainy walking towards Olveiroa. This time it was me who pulled ahead and the others fell behind. I don't know when this exactly happened but I realized that they were far behind me when I came to Mallón and decided to pause and let them catch up. I Grabbed some organce juice at the bar, and sat outside waiting. They showed up, separately, 15 minutes later, so they weren't too far behind me.",
-          "Beers were ordered, and we hung out for a short break. The Texans passed us again, said they were heading to Olveiroa. The three of us decided to follow them after our break and knock out the full stage today. We got in to town around 3pm. With money on our minds, we checked out the cheaper Albergue but it wasn’t that great, so we ended up going to the more expensive one.",
-          "I met up with Lauren and Hailey (the Texans) at the restaurant next to the Albergue later in the evening. We played some card games while watching football. Dinner was so-so, and we didn’t really do much other than hang out at the bar watching sports. We're all planning on heading for the ocean towns of Cee and Corcubòn tomorrow."
+          "Rain followed me for most of the day, but it didn't bother me at all. In fact, the mist and low-hanging clouds put me in an almost meditative mood. Day four of rain in the mornings and probably only the third day of the Camino with a full day of precipitation didn't dampen my spirits. As long as my shoes stayed dry, I was happy. The goal today was Santa Mariña, about 25 kilometers away, but we weren't in a rush now that we knew we had time to spare.",
+          "Walking alone gave me the chance to take my time and wander off the trail for photos. Old stone houses, grazing sheep, and quiet roads surrounded me. I even chatted, or tried to, with the local dogs, though they were indifferent at best. At A Peña, I reunited with Mauro and Crissi after a brief stop at a café. A fellow pilgrim offered me some of his leftover Spanish tortilla, which I gratefully accepted. It felt like an obvious choice; wasting food here would be a crime, and we had fully embraced our inner scavengers.",
+          "The trek continued through the rain for several hours. Santa Mariña itself was small and uninspiring, with the constant smell of cow pastures lingering in the air. After a short break, I decided to press on, music cranked in my headphones, leaving Crissi and Mauro to fall behind as I walked toward Olveiroa. I eventually paused in Mallón to let them catch up, grabbing some orange juice at a local bar while waiting.",
+          "Once reunited, we continued following a group of Texans we had seen along the way, determined to finish the stage in one go. By mid-afternoon we arrived in Olveiroa. After checking out a cheaper Albergue and finding it lacking, we opted for a slightly more expensive option that promised more comfort.",
+          "Evening brought some welcome relaxation. We met the Texans at a nearby restaurant, played card games, and watched football. Dinner was simple, and the mood was mellow, but it felt good to pause after a long day of wet walking. Tomorrow, we were planning to head for the ocean towns of Cee and Corcubón, ready for the next chapter of this final stretch.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Rain, mist, and quiet roads set the tone as we walked to Santa Mariña and beyond. Music, wandering, and unexpected tortilla made the day peaceful and surprisingly joyful.",
         "gpx": [
           [
             42.908053,
@@ -141036,7 +140468,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/32011e1d-8075-4b90-9a91-db88c3d66989.jpeg",
         "location": "Galicia",
-        "readingTime": "4",
+        "readingTime": "2",
+        "snippet": "Rain and Roads to Olveiroa",
         "stats": {
           "distance": {
             "label": "distance",
@@ -141131,31 +140564,14 @@ const data = [
       {
         "date": "July 4th, 2018",
         "description": [
-          "Spoiler alert: we decided to combine multiple stages today and finish the Camino all together. It was a truly magical experience arriving at the 0 km marker with the sun coming out from behind the clouds. I sat and reflected for nearly an hour on the rocks staring out at the ocean.",
-          "Oh my God, the sunrise this morning was so epic. In fact, the whole morning hike out of Olveiroa to Hospital (so many towns on the Camino with this name) was amazing. Breakfast today was served up at a cute cafe in Hospital.  We took a good long break here.",
-          "Shortly after leaving, we came to a decision. To the left: Fisterra, and to the right: Muxia. I know where I was going, so it was a no brainer. Mauro had to decide which way he wanted to go since he had less time than us to finish. He ended up deciding to come with us.",
-          "No more towns for a while, back to hiking through the wilderness. As we gained ground, and made our way up the hill, we were able to grab our first views of the ocean, and our destination at Cee / Corcubión. A couple of hours later the mist returned to us. We also picked up a new walking companion halfway through: Anna from Hungary.",
-          "There it is, our first glimpse of the ocean! We walked through Cee and headed for Corcubión. The walk around the bay was pleasant, even if we did get lost halfway through and had to make our own alternative Camino to get back on track. Lunch was served via sandwiches from yesterday on the waters edge. We were not looking forward to this next part. It was time to say goodbye, for the last time, again. We had reached our stage ender for the day, but the others needed to keep going.",
-          "We walked with them to the towns edge before the path turned away from a low stone wall and up into the hills once more. We said goodbye, and watched them disappear into the trees. As Crissi and I walked back into town to find a place to stay something came over us, something clicked in our minds. Crissi and I looked at eachother at the exact same moment , and we said it at the same time: we should keep going and catch up with them. We returned to the spot where we had said our goodbyes and continued walking.",
-          "It only took us about an hour of walking before we came to the town of Estorde and wanted to explore this amazing beach off to our left. It looked like private property, and was set behind a fancy hotel. As soon as we got onto the sand, we saw a figure walking in the distance along the waters edge. I recognized the uniquely brown sweater that they were wearing, but I didn't want to get my hopes up. Sure enough, it was Anna!",
-          "We rested here for no good reason, other than to get coffee, pop, and enjoy the beach at the hotels restaruant. An hour later we would have our first views of Fisterra. Seeing it from The Way for the first time was amazing. We didn't waste any time walking along this stretch of water-front trail in order to get to town and to the end.",
-          "As we arrived in to town, and began to the walk to The Lighthouse, the sun came out of hiding and brightened the world around us. It was perfect timing. It was a truly magical experience arriving at the 0 km marker. Here it was, the official end of the Camino. I was overcome with emotion, and the locals/visitors let us take our time taking pictures at it.",
-          "We walked up to and around The Lighthouse. Behind it a cliff dropped away to the ocean far, far, below. Along the way down were several rocks and places to sit. We all claimed a spot, and just sat there in the silence, staring at the ocean. I must have sat there for nearly an hour on the rocks. I reflected upon everything that had brought me to this point. I also let my mind go blank and just stare in awe and wonder.",
-          "This was it. The end. The true end. The end of the world.",
-          "Mauro had found us while we were on the rocks, and needless to say he was happy to see us again. We left the ocean around 5:30 pm and started to walk back in to town. Places would be filling up fast. The municipal Albergue was already full, so we kept checking out other places. Each and every one was full.",
-          "Before we parted ways after re-entering town, Anna had told us about this Hungarian Albergue that she booked a room at. Out of options, we went there. They had beds available, and ended up putting us in the same room as her.",
-          "At some point we found Cerstin, I can't remember when or how, but she was there!",
-          "We grabbed dinner with the Texans around 7pm at a fish restaurant, and then headed for the “hippy” beach that our Albergue host had told us about. It was a great time hanging out in the water and walking along the beach with everyone. We saw dolphins in the ocean!",
-          "Words cannot express what this journey has meant to me. I can tell you about the friends, places, and pain, but you can never truly fully know it unless you go and experience it for yourself.",
-          "We said our real, truthful, final goodbyes to everyone on the morning of July 5th at the bus stop in Fisterra. They took the earlier buses back to Santiago, then on to the airport, and their flights back to their homes. I'm thankful to have been able to meet so many amazing human beings.",
-          "Crissi and I checked out of the Hungarian Albergue. We walked along the beach for a couple of hours, collecting numerous sea shells, and then headed for the bus back to Santiago.",
-          "We spent our final day together walking around the city, seeing the pilgrim museum, going back to the same place for dinner that we had been to when we previously came here, and seeing some other landmarks that we had missed the first time. We also went clothes/gift shopping for ourselves.",
-          "At night we returned to the plaza, and sat there for nearly an hour staring at the place as the sun set. This was the place we had dreamt of reaching, and had finally arrived at. This was our last chance to say goodbye to the Cathedral. We returned to our place to finish packing up, and to go to bed.",
-          "Back in Belorado, Crissi had left early in the morning before I woke up without saying goodbye. Now, as fate would have it, it's the same again. She had to leave earlier than me in order to catch a train to Madrid, before I would be waking to walk to the bus for the airport. We said goodbye at night, one final hug, an expression of thanks, and promised to see each other back in the states.",
-          "I probably wouldn't be seeing my closest Camino friend/family again, at least not for a long time, and I was very sad. On the morning of July 7th, 2018 I packed up my bag for the last time, left the Albergue alone and in the dark, boarded a bus, and headed for the airport for my return back to America.",
-          "I'll see you again someday St. James."
+          "We decided to combine multiple stages and finish the Camino together. The morning began with an epic sunrise as we left Olveiroa, walking through the mist toward Hospital. Breakfast at a small café gave us time to rest, but shortly after, the choice became clear: Fisterra or Muxía. Mauro joined us, and soon we were hiking through forests and hills, catching our first glimpses of the ocean and the towns of Cee and Corcubión. Along the way, we picked up Anna from Hungary, a new walking companion who would share in our final stretch.",
+          "The walk along the bay was stunning, even if we got briefly lost and had to make our own path to reconnect with the Camino. Lunch was simple: sandwiches from yesterday enjoyed at the water's edge, but the moment was unforgettable. Saying goodbye to friends along the way was bittersweet, yet Crissi and I felt a sudden spark of determination: we would keep going and reunite with them. Within an hour, we found ourselves at the beach near Estorde, spotting Anna in the distance. The small detour to rest and have coffee turned into a magical moment of reunion.",
+          "Finally, Fisterra appeared on the horizon. Walking into town, the sun emerged, illuminating the path to the 0 km marker, the official end of the Camino. Arriving there was overwhelming. We walked up to the lighthouse, claimed our spots on the rocks, and sat in silence for nearly an hour, staring out at the vast ocean. I reflected on everything that had brought me here, letting awe and gratitude wash over me. It was the true end of the journey, a final punctuation mark to a month-long adventure.",
+          "Reunions continued as Mauro joined us on the rocks, and we headed back into town to find accommodation. After several full Albergues, we ended up at a Hungarian-owned hostel, sharing a room with Anna and later spotting Cerstin. Dinner with friends, a walk along the \"hippy\" beach, and even glimpses of dolphins made the evening feel surreal. Words cannot fully capture the magic of this day or the friendships formed along the Camino.",
+          "The next morning, July 5th, brought final goodbyes to everyone as they caught buses back to Santiago and onward home. Crissi and I spent the day walking along the beach, collecting shells, exploring Fisterra, visiting the pilgrim museum, and returning to our favorite restaurant. At night, we sat in the plaza, watching the sun set over the place we had dreamed of reaching.",
+          "July 7th, 2018, marked my final departure. Crissi left early to catch her train, and we exchanged one last hug and words of thanks. Alone, I boarded the bus for the airport, reflecting on the Camino's lessons, the people I met, and the journey that will stay with me forever. I left Spain with a full heart and the promise to return someday.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The final stretch to Fisterra was magical, with the sunrise, ocean views, and unexpected reunions along the way. Sitting on the rocks at the 0 km marker, I reflected on the journey, friendships, and the Camino's unforgettable moments.",
         "gpx": [
           [
             42.966762,
@@ -142152,7 +141568,8 @@ const data = [
         "hasStats": true,
         "image": "2018/06/02/aa8b0404-f4d1-44ed-bc96-ce65eae03848.jpeg",
         "location": "Galicia",
-        "readingTime": "7",
+        "readingTime": "3",
+        "snippet": "Sunrise at the End of the World",
         "stats": {
           "distance": {
             "label": "distance",
@@ -142319,13 +141736,14 @@ const data = [
           "If I had to pinpoint the exact moment that sparked my passion for backpacking (a journey that would ultimately lead me to the Camino de Santiago in Spain two years later), this place was it! I joined another guided day-hike that took us to the legendary Refuge Chileno and onward to see the iconic Towers up close. The experience ignited a fire within me for mountain adventures.",
           "I was entranced by the backpackers trekking through the region, staying at the Refuge, leading me to dream of a lifestyle that revolved around exploration and nature. This trip changed my life forever, and its influence still resonates with me to this day.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Visiting the Refuge Chileno and seeing the Towers up close ignited my lifelong passion for backpacking and mountain adventures.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2016/03/18/fb45dc07-e4fe-4d90-b39a-f54e50142d5a.jpeg",
         "location": "Patagonia",
         "readingTime": "1",
+        "snippet": "The Place That Sparked a Passion",
         "stats": {
           "distance": null,
           "gain": null,
@@ -142359,13 +141777,14 @@ const data = [
           "The highlight was definitely the life-size replica of the Mylodon near the entrance. This giant ground sloth was a herbivore that looked like a huge, shaggy bear, and it became extinct thousands of years ago at the end of the Pleistocene epoch.",
           "The views of the surrounding Patagonian steppe and distant mountains from the viewpoint trail were incredible.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Exploring the massive Cueva del Milodón in Patagonia felt like stepping back into the Ice Age, with its enormous caves and life-size replica of the extinct giant ground sloth.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2016/03/18/9e9e78a3-a2ad-4a09-962c-fc1866ccfbd4.jpeg",
         "location": "Patagonia",
         "readingTime": "1",
+        "snippet": "Stepping Into the Ice Age",
         "stats": {
           "distance": null,
           "gain": null,
@@ -142401,13 +141820,14 @@ const data = [
           "The captain made sure we were there at a quiet moment, so we experienced that profound Patagonian silence.",
           "Before heading back, we stopped at a remote ranch for a traditional Patagonian meal. It was a hearty and perfect end to a day surrounded by pristine nature.\n"
         ],
-        "excerpt": "",
+        "excerpt": "I spent a full day cruising the Ultima Esperanza Fjord in Patagonia, passing waterfalls, sea lion colonies, and glaciers that left me in awe. The highlight was getting close to the massive Balmaceda Glacier while sipping hot chocolate and taking in the serene wilderness.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2016/03/18/9742d413-6fdd-4474-a4a2-59ada5ddab14.jpeg",
         "location": "Patagonia",
         "readingTime": "2",
+        "snippet": "Glacier Cruise in Patagonia",
         "stats": {
           "distance": null,
           "gain": null,
@@ -142493,13 +141913,14 @@ const data = [
           "The walk up was a workout in my flat-bottomed trainers, but a beautiful one. The trail is well-marked and exclusively for pedestrians, which made for a peaceful hour-long ascent through trees and cacti. We paused occasionally to watch the city of Santiago start to shrink below us.",
           "About halfway up, we passed near the National Zoo and caught glimpses of the city's sprawl through the foliage. The final stretch was the steepest, but as I rounded the last bend and reached the Terraza Bellavista, the view opened up completely. Seeing the high-rises framed by the massive peaks of the Andes is something no photo can quite capture.\n"
         ],
-        "excerpt": "",
+        "excerpt": "We hiked up Cerro San Cristóbal from Barrio Bellavista, enjoying a peaceful trail through trees and cacti while Santiago slowly shrank below us. The final terrace revealed stunning views of the city framed by the towering Andes.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2016/03/18/a3205d70-0fc8-416a-b383-eb08e9e612a5.jpeg",
         "location": "Parque Metropolitano de Santiago",
         "readingTime": "1",
+        "snippet": "Hiking Cerro San Cristóbal",
         "stats": {
           "distance": null,
           "gain": null,
@@ -142528,16 +141949,17 @@ const data = [
         "description": [
           "We spent nearly an entire day exploring Valparaiso with a local guide. The city could best be described as a chaotic vertical wall-art gallery.",
           "The morning started in the flat part of town, but the really neat stuff was in the hills. Instead of trekking up the endless staircases we took this elevators (called funiculars) that traveled on a smooth rail up the sides of the hills. Most were made of wood, and had been in service for over a centruy. They were rickety, but slowly they got us to the top as they passed through the colorful houses dotting the hills.",
-          "The afternoon was a blur of street art and history. We spent an hour at La Sebastiana, Pablo Neruda’s former home. It’s a whimsical, five-story tower perched high above the port, filled with his eccentric collections of ship figureheads and maps.",
+          "The afternoon was a blur of street art and history. We spent an hour at La Sebastiana, Pablo Neruda's former home. It's a whimsical, five-story tower perched high above the port, filled with his eccentric collections of ship figureheads and maps.",
           "Valparaíso is gritty, loud, and steep. But also vibrant and charming.\n"
         ],
-        "excerpt": "",
+        "excerpt": "We spent a day exploring Valparaíso's colorful hills, riding century-old funiculars and wandering through a maze of street art. Pablo Neruda's whimsical La Sebastiana offered a peek into the city's rich history and charm.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2016/03/18/dd0b9008-fbc2-4916-a33c-303a406e8fa5.jpeg",
         "location": "Valparaiso Region",
         "readingTime": "1",
+        "snippet": "Exploring Valparaíso",
         "stats": {
           "distance": null,
           "gain": null,
@@ -142570,13 +141992,14 @@ const data = [
           "We quenched our thirst with ice-cold glacier melt water from a nearby mountain stream, and it was the most refreshing thing ever. Finally, after navigating past a small false summit, our lead guide extended his hand and said 'Congrats, you made it.' And there it was, a stunning glacier, melting into a muddy-brown mountain lake. It was so quite up there, so serene.",
           "I had never laid eyes on a glacier outside of books and films. The silence up there was almost magical; the only sound was the occasional cracking sound coming from the glacier itself. We settled onto rocks and gazed in wonder at the glacier while enjoying our food with a view. Our lead guide even surprised us by playing their flute.\n"
         ],
-        "excerpt": "",
+        "excerpt": "I did my first hike in the Andes just outside Santiago, and after a challenging climb, we were rewarded with the serene sight of a glacier and a peaceful mountain lake. Ice-cold glacier melt water and a flute playing in the silence made the experience unforgettable.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2016/03/18/1f5577cc-e0c2-4c66-987e-903a9b6be02c.jpeg",
         "location": "Santiago",
         "readingTime": "2",
+        "snippet": "Glacier Hike in the Andes",
         "stats": {
           "distance": null,
           "gain": null,
@@ -142610,13 +142033,14 @@ const data = [
           "After a quick lunch, I made my way further out to Pirque for the legendary Concha y Toro. This place is huge and definitely a 'big name' experience, but still fascinating.",
           "The tour here felt more like a show, but in a good way. We walked through the beautiful grounds of the former family mansion and the varietal garden. The highlight, of course, was the famous 'Casillero del Diablo' (Devil's Cellar) legend. The tour guides put on a great little show, and the atmosphere in the spooky, dimly lit cellar was really fun.\n"
         ],
-        "excerpt": "",
+        "excerpt": "Exploring two of Chile's most iconic wineries Cousiño Macul and Concha y Toro, enjoying vineyard tours, historic cellars, and the stunning backdrop of the Andes. The highlight was the theatrical visit to Concha y Toro's legendary Casillero del Diablo cellar.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2016/03/18/b941c594-5218-449f-b79d-cb9936f56ad5.jpeg",
         "location": "Santiago",
         "readingTime": "2",
+        "snippet": "Wine Tasting in Chile",
         "stats": {
           "distance": null,
           "gain": null,
@@ -142703,13 +142127,14 @@ const data = [
           "The real highlight was the large outdoor market that takes over the street on Saturdays. It stretches for several blocks, creating a colorful and bustling scene of local life. I had to remind myself to slow down, to actually stop and browse the endless array of items on offer: vintage clothes, antique silverware, fresh fruits, vegetables, and countless unique trinkets. I could have spent hours just people-watching.",
           "I followed the pedestrian way all the way to the end, near the port, where I found the iconic Mercado del Puerto. While this is an indoor market known for its incredible parrillas (meat grills), the area outside also has plenty of souvenir shops and places to grab a quick bite.\n"
         ],
-        "excerpt": "",
+        "excerpt": "I spent the day wandering Montevideo's historic Ciudad Vieja, strolling along the lively Peatonal Sarandí filled with shops, cafes, and street vendors. The highlight was the bustling Saturday market and the iconic Mercado del Puerto near the port.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2015/03/19/9650d680-3809-45e9-a9df-0e108f3e1498.jpeg",
         "location": "Montevideo",
         "readingTime": "2",
+        "snippet": "Exploring Montevideo's Old City",
         "stats": {
           "distance": null,
           "gain": null,
@@ -142797,13 +142222,14 @@ const data = [
           "A key stop was near the heart of the city, the Catedral Metropolitana. I hopped off and went inside this architectural gem, which is both the principal Catholic church and the final resting place of General José de San Martín, Argentina's national hero. The neo-classical facade is impressive, and the interior is stunningly ornate, with beautiful mosaics and chapels.",
           "By late afternoon, I was back on the bus, looping through the modern area of Puerto Madero with its sleek skyscrapers and the famous Puente de la Mujer (Woman's Bridge), which contrasted sharply with the historic areas I'd seen earlier.\nThe hop-on hop-off bus proved to be a fantastic way to grasp the geography and the diverse personality of Buenos Aires.\n"
         ],
-        "excerpt": "",
+        "excerpt": "The Hop-On Hop-Off bus was the perfect way to see Buenos Aires, from colorful La Boca to the grand streets of Recoleta. Highlights included the stunning Catedral Metropolitana and the modern skyline of Puerto Madero.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2015/03/19/1ddbd381-ac73-4dc2-9fa9-7398e0438098.jpeg",
         "location": "Buenos Aires",
         "readingTime": "2",
+        "snippet": "Exploring Buenos Aires",
         "stats": {
           "distance": null,
           "gain": null,
@@ -142838,13 +142264,14 @@ const data = [
           "This was my first time being at a music festival, but luckily it wasn't as chaotic as it seems to be in Chicago. The majority of the artists/bands were ones we were both familiar with and the headliners were common names such as Eminem, Robert Plant from Led Zeppelin, Fitz and the Tantrums, Smashing Pumpkins, etc.",
           "Overall it was a great experience!\n"
         ],
-        "excerpt": "",
+        "excerpt": "Experiencing Lollapalooza was the highlight of my Buenos Aires trip, with headliners like Eminem and Robert Plant. Getting there was an adventure in itself, taking the train to San Isidro and picking up our wristbands at Will Call.",
         "gpx": [],
         "hasGpx": false,
         "hasStats": false,
         "image": "2015/03/19/aaa356af-6a08-4305-8fe2-80819bd00f16.jpeg",
         "location": "Buenos Aires",
         "readingTime": "1",
+        "snippet": "Lollapalooza in Buenos Aires",
         "stats": {
           "distance": null,
           "gain": null,

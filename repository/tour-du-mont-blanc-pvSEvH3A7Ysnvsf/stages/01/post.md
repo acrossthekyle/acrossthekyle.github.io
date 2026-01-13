@@ -8,6 +8,6 @@ The descent was another challenge: 1 hour and 10 minutes of switchbacks that tor
 
 Auberge le Truc is rustic. Limited water, no showers, and a very interesting (broken) conveyor belt pit toilet. The simple pleasure of the constant, rhythmic sound of cowbells made up for the lack of amenities.
 
-Dinner was an experience: three Brits (who support Trump, so probably not our new best friends) joined our table. The meal itself started strong with great vegetable soup, followed by a funky but good combination of pasta with red sauce, a cheese omelette, cheese, and crème brûlée. Seriously loving the salt in everything over here!
+Dinner with three Brits was an experience. The meal started strong with a great vegetable soup, followed by a funky but good combination of pasta with red sauce, a cheese omelette, cheese slices, and crème brûlée.
 
 Tonight's accomodation is a 28-person bunk bed room. We've snagged the top bunks by the door and are all packed and ready for an early departure tomorrow morning. Another day, another adventure down!

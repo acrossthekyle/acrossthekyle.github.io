@@ -1,42 +1,9 @@
-Today would be my last 14'er of the trip to Colorado this year, and I chose
-another popular one in the hopes that I would strike up some friendly conversations
-while camping at the trailhead, or whilst at the top. Another reason I chose
-this particular peak was because the trail started above the treeline! That means
-not spending two hours hiking through forests, a dream!
+For my final 14'er of this Colorado trip, I chose Grays Peak, a popular summit that begins above the treeline. This meant skipping the two-hour forest slog I had endured on previous hikes, which was a welcome change. I also hoped this peak would provide an opportunity to meet fellow hikers and campers along the way.
 
-And sure enough I befriended two women who were camping nearby, in hammocks
-nonetheless. We ate dinner together and hung out for a bit. I would see them
-the next day near the peak, but this ws the only interaction we would have.
+The night before, I met two women camping nearby in hammocks. We shared dinner and conversation, and although our paths would briefly cross again near the summit, this was the only time we connected. After three consecutive days of hiking, I was exhausted, so I opted to climb only Grays instead of combining it with Torreys as part of the common saddle route.
 
-This was the third peak in as many days, and I was tired. Grays is part of a
-common combination route called Grays and Torreys, where you go down a saddle
-ridge from the summit of Grays, and then head up to the summit of Torreys, and
-then come back the way you came. I ended up only doing Grays due to how tired
-I was.
+I started the trail around 4:30 am. The initial section followed a gently ascending valley along a river, which I could fully appreciate only on the way back down. The high starting altitude meant I was already quite elevated after a short hike. Pausing at just the right moment, I watched a red sun rise over the distant ridges, a sight that remains one of my favorite memories. The trail gradually became busier as more hikers began their climbs.
 
-I started the trail around 4:30 am, and the initial path across the river near
-the trailhead went through a valley shaped like an elongated bowl, although
-I would be able to see this until on the way back down give that it was still
-the pre-dawn hours.
+About two and a half hours in, the trail steepened toward the summit, forcing frequent breaks as my heart adjusted to the high altitude. The pink light of the sunrise bathed the landscape in a magical glow, making every pause worthwhile. By 8:30 am, I reached the summit and was rewarded with breathtaking 360-degree views. High winds prompted me to huddle behind a rock wall with some new friends, giving us a chance to admire the trail I had just conquered from above.
 
-Given the gently ascending trail and starting at a high altitude to begin with,
-I was already pretty high up after a short amount of time. I paused just in time
-to see a red sun rise over the mountain ridges in the distance, one of my
-all-time favorite things. The trail was starting to get crowded as I continued on.
-
-About 2 and half hours into the trail and I began the ascent to the summit. It
-was starting to get more steep here, which meant having to take more breaks due
-to my poor beating heart. I'm based in Chicago, so going from sea-level to
-14,000 feet does a number on my body.
-
-Lovely pink skies illuminated the world around me as I ascended up and up.
-
-I arrived at the summit by 8:30 am, not bad. Great 360˚ views all around, as
-usual! I made some friends at the top as we huddled behind a rock wall due to the
-extremely high winds that had picked up within the last half hour. I took a look
-out over the trail I had just hiked. What a view, I just love hiking above
-the trees!
-
-Everything is so much more green on the way down now that hte sun is up. By
-12:00 pm I get back to the car I left parked at the trailhead, and am ready to
-go back to another proper campground and reflect on this long weekend of hikes.
+The descent was a joy as the sunlight brought out the greens of the alpine vegetation. By noon, I returned to my car and headed to a nearby campground, reflecting on an unforgettable long weekend of hikes. Grays Peak offered the perfect combination of challenging altitude, scenic views, and the unique pleasure of hiking entirely above the trees.

@@ -13,6 +13,7 @@ export type Data = {
   next?: Navigation;
   previous?: Navigation;
   slug: string;
+  snippet: string;
   stats: Stats;
   total: number;
   title: string[];

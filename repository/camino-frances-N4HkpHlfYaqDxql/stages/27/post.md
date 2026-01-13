@@ -1,21 +1,11 @@
-When you get the opportunity to walk through Roman ruins after the universe reunites you with a traveling companion, you don't pass it up. It was 6 am when our hosts decided to turn on the lights. Talk about a rude awakening. Everyone was forced to get up and out of bed at the same time, which led to minor amounts of chaos in the dormitory.
+Walking through Roman ruins after being reunited with a traveling companion is an experience you don't pass up. Our hosts decided to turn on the lights at 6 a.m., giving everyone a rude awakening and causing minor chaos in the dormitory. We packed up quickly and retraced our steps over the bridge to get back on the Camino. This town wasn't even on the original route anymore, having been relocated to higher ground after a historic flood.
 
-The way out of town and back to the Camino was through the same way that we entered it: over the bridge. This town technically wasn't on the original Camino path anymore because they had to move it to higher ground after they flooded the valley a long time ago.
+The morning hike took us uphill past corn storage houses and through the charred remains of a forest. Ninety minutes later, we arrived in Castromaior after passing through Gonzar. The albergue there had a restaurant, which was a lifesaver since we were starving. Walking in, we were greeted by Eileen, a fellow pilgrim we had said goodbye to only the day before. It felt like pure fate to be reunited so quickly, and we enjoyed breakfast together before continuing our trek.
 
-We hiked uphill, passed corn storage houses, and through the charred remains of a forest. 90 minutes later we came to Castromaior after passing through Gonzar. They have a restaurant at this Albergue, which means food, and we were starving!
+Shortly after leaving Castromaior, we came across the ruins of a Roman encampment. Walking among the ancient structures and seeing remnants of kitchens and bathrooms was incredible. Being able to reach out and touch history in a way you rarely can back home was humbling. We paused again to wait for Eileen outside Hospital Alta da Cruz before heading to Palas de Rei, where a solid lunch fueled our decision to "turn on Beast Mode" and push for Melide, about 14 kilometers away.
 
-As we're walking in, a pilgrim is on their way out. It was Eileen! Such pure fate. Crissi and I are happy to be reunited with a travel companion after saying goodbye only just yesterday. We ate our breakfast and hit the trail again.
+The walk to Melide was challenging, but full of laughter and conversation. Just as we reached the outskirts of town, we spotted Mauro leaving a handwritten note on the bridge, telling us to meet him in town. Seeing his note felt like a perfect, whimsical moment after such a long day of walking.
 
-I noticed that Eileen was walking without her sticks, and I commented on how impressed I was that she was going uphill without them. "F\*\*K!", she said. Her poles were resting comfortably back at the Albergue we had breakfast at. She was forced to turn around, while Crissi and I marched on. Why we didn't turn back with her, I do not know. A few moments later and we were walking uphill again.
+Once in Melide, we found a great place to stay with a green backyard, and later ran into Sam, who is finishing the Camino with a hefty 40-pound backpack. Dinner was a highlight: Pulpo a la Gallega, a local specialty of boiled octopus with olive oil, paprika, bread, and white wine. Every bite felt like a reward.
 
-Just outside of Castromaior were the ruins of a Roman encampment. I couldn't pass up this opportunity to actually walk through history, to be able to reach out and touch it. You can see where the fires were, the kitchens, and even the bathrooms. You just don't get a chance like this back home in the States with historical landmarks: they're usually roped off.
-
-Afterwards we waited for Eileen at a restaurant outside of Hospital Alta da Cruz. After she arrived we got back on the trail. Palas de Red was the next big city, and the chance for a good solid lunch, during which we unanimously decided to "turn on Beast Mode" and push for Melide, about 14 kilometers away.
-
-It was a hard walk, but we had a great time and did plenty of talking. We were nearly dead when we arrived in the outskirts of Melide though. Upon reaching the bridge into town, we ran into Mauro placing a hand written note on the bridge telling us to meet him in town. It was so darn cute.
-
-Now we're all together again! We found a great place to stay with a nice green backyard. When we were heading out to dinner I ran in to Sam! I'm glad to see that he is finishing the Camino, 40 pound backpack and all.
-
-Melide is well known for its Pulpo a la Gallega, which is boiled octopus served with olive oil, paprika, bread, and white wine in a bowl. We didn't shy away from having some.
-
-So much unexpected joy today. Random surprises from familiar faces can ease the soul in so many ways.
+The day was full of unexpected joy. Being reunited with familiar faces, discovering historical sites, and savoring local food reminded me of why the Camino continues to be such a meaningful journey.

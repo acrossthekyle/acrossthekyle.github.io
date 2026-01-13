@@ -1,29 +1,9 @@
-I thought today was going to be an easy three hour hike across the valley wall to the last mountain refuge for the trip. Boy, was I wrong. I took my time leaving in the morning, and I think I was the last one to leave.I took a leisurely pace as I get on the trail walking under ski lifts, and over gently sloping forest paths.
+I thought today would be a leisurely three-hour hike to the last mountain refuge of the trip, but I was quickly proven wrong. I started out slowly, strolling under ski lifts and along gently sloping forest paths, enjoying the crisp morning air. The trail soon challenged me with steep boulder fields, each with dizzying drops below, far more intimidating than anything I had encountered so far. The pictures hardly do the scale justice.
 
-There were a couple of boulder patches blocking the path, and these ones had a much, much, steeper drop below them than the ones I had previously walked across. The pictures don’t do it justice.
+Shortly after the boulder field, a massive stone wall appeared, silent and imposing. Ahead, a mysterious red plastic pole led some hikers to believe the main path was closed, prompting me to take a higher alternate route. I pushed myself up the hill, only to discover the original path was open after all. Turning back cost me time, but the trail rewarded me with ethereal light and cloud formations that made it feel like the mountain itself was alive. At one point, the sun and clouds conjured the illusion of an asteroid about to strike the valley.
 
-On the other side of the field of rocks lay a massive stone wall. It had no name, and the guidebook didn’t mention it, but it was impressive. Just after this wall we came to a red plastic pole that was in the middle of the path ahead of us.
+The climb to the top of Le Brévent at 2,526 meters was the day's true test. Two hours of scrambling over shaky rocks and negotiating ladders later, I reached the summit. Mont Blanc towered across the valley, still 2,000 meters higher, but the view and the exhilaration made it feel like I was nearly on par. Hang gliders launched fearlessly from the edge nearby, adding a sense of vertiginous thrill to the scene.
 
-Some of the other hikers thought that it meant we couldn’t go that way, and would have to take a higher alternative route. I nearly shit my pants when the thought of having to do strenuous work today entered my mind. I thought I was passed it all.
+The descent was equally challenging, and I raced down as quickly as my knees allowed, eager for quiet after the bustling trails. By the time I reached the Bellechat refuge, I was the first to check in. The tiny mountain refuge quickly filled with fellow hikers, including a lively Dutch group who shared stories, taught me new words, and kept the evening entertaining.
 
-I started up the alternate path, walking more quickly than the others, and was soon far ahead of them. I was nearly at the top when I looked back and saw everyone else turning around to go along the normal path! Apparently it was open for business. I was a little upset that I had come all this way only to turn back, but in the end I was glad that I noticed them turning around.
-
-As a result of this, I was now far behind everyone. But, I would quickly catch up.
-
-The path curved around the hillside and at certain points it looked like the path went off into nothing. Beautiful rays of light and clouds illuminated the trail ahead of me. At one point it looked like an asteroid was about to strike the mountain due to the clouds and sun playing tricks on my eyes.
-
-A short while later I came to a ski lift landing area, and saw where they had been launching all of the hang gliders! It was quite a sight to see them get their running start and jump off of the edge without hesitation.
-
-But now the hardest part of today would begin: climbing up to the top of Le Brevént at 2,526m. I was not prepared for this, but took it in stride (literally). Two hours and several more shaky rocks and ladders later I was at the top.
-
-It had an impressive view of Mont Blanc across the valley, and there was even a ski lift that came all of the way up here! Even though Mont Blanc itself was still 2,000m taller than this spot, it felt like we were even with its top.
-
-The hike down was rough, and felt never-ending. I raced down as fast as I could go, especially since there were lots of people talking and I wanted to enjoy the peace and quiet.
-
-I arrived at Bellechat two hours later, and was the first to check in. It was such a little refuge that I thought I had made a mistake in booking it, and not continuing down to Les Houches like everyone else. Luckily my fears were abated when several more people started to check in over the next couple of hours.
-
-A group of people from Holland kept my company throughout most of the evening, telling me their life story and teaching me some more Dutch words. I never knew so many European countries made English a required subject for all of their years of pre-university schooling. We played card some Dutch and English games waiting for dinner.
-
-It was very quiet up here once all of the hikers for the day had moved on, and the dinner was very delicious. After dinner they took turns telling stories about their families during World War 2.
-
-I turned in early tonight, not looking forward to actually finishing tomorrow.
+Dinner was a warm, communal affair, punctuated by tales of family history during World War II. The quiet of the high mountains settled in afterward, and I went to bed early, both reflecting on the day's trials and bracing myself for the final leg of the trek tomorrow.

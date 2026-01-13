@@ -1,11 +1,7 @@
-The last day on trail, and the day of The Towers! I was so excited to hike up to them for the second time in 4 years. I slept really well last night, thank you bunk bed. Everyone was getting up at 3am, so there was no worries about waking anyone up unintentionally.
+The last day on the trail had arrived, the day of the Towers! I was thrilled to hike up to them for the second time in four years. Sleeping in a bunk bed last night was a real treat, and with everyone getting up at 3 a.m., there were no worries about disturbing anyone.
 
-Today was going to be a long day though: we would first hike up to the towers, hang out for a while while the sun rose, and then hike down, grab breakfast and our gear, and then head the rest of the way down back to the welcome center, and our bus ride out of here.
+It was going to be a long day: hike up to the Towers, watch the sunrise, hike back down, grab breakfast and our gear, and then continue all the way to the welcome center for our bus ride out. We packed our phone cameras, left our bags behind, turned on our headlamps, and set out into the pre-dawn darkness. Experiencing this trail in the dark was completely different from my previous day hike, but the clearly marked path made it easy to follow.
 
-We packed up our phone cameras, left our bags behind, turned on our headlamps, and headed out. When I had first day-hiked to the towers it was, well, during the day. Doing this in the darkness of the pre-dawn hours was a totally different experience. The trail was well marked though, which made it easy to find our way.
+Finding a good spot at the top took some effort, but eventually we settled in a sheltered area with enough space to set up our cameras for timelapse shots of the sunrise. Someone started singing "The Final Countdown," which felt fitting as we stared intently at the towers slowly emerging from the shadows. It was a truly magical experience, and we all took turns capturing photos of the awe-inspiring peaks.
 
-Finding a good spot at the top wasn't easy, but eventually we found one with shelter from the wind, and enough space for us all to set up our phone cameras in order to record (in timelapse) the rising sun. While we waited, someone started singing "The Final Countdown" which was very fitting since we kept checking the time and staring intently at the rocks as they slowly appeared.
-
-It was a truly magical experience. We all took turns taking photos staring at the towers. But sadly it was time to leave, and head back to civilization, and reality. The hike down was fast, it was all downhill afterall! We didn't have to wait long the for the bus, and since we were all staying in the same town we met up for dinner that night (our group was quite large now) for pizza.
-
-This is how you end a hike, surrounding by friends you've made along the way.
+Eventually it was time to leave and return to reality. The hike down was quick, all downhill, and the bus arrived shortly after we reached the bottom. That evening, our now-large group reunited for a pizza dinner, a perfect way to end the trek, surrounded by friends we had made along the way.

@@ -1,37 +1,9 @@
-A backpacker that we shared dinner with yesterday at Maya Joie was going in the opposite direction, and told us about a massive waterfall after La Fouly. I was eager to check it out, and to make today just a little harder because, you know, gotta get the steps in!
+Today began with a bit of adventure before the hiking even started. A backpacker we'd met at Maya Joie had told us about a massive waterfall just past La Fouly, and I was determined to check it out. Leaving town, we quickly found ourselves in the forest, descending toward a river crossing before continuing north toward the waterfall. What seemed like a gentle path revealed itself as steep and slippery with morning dew, but the payoff was breathtaking. I scrambled carefully near the base of the falls, feeling the spray on my face, and paused to savor the raw power and beauty of the cascading water.
 
-The way out of town was a little unsure to us, but thanks to my new Catalonian friend we found our way out. After leaving the town center, and paved road, we were immediately walking through the forest and down towards a river crossing.
+Once back on safer ground, we reunited with other hikers and continued together through the forest. Much of the trail followed a dried-up river, winding through narrow paths with occasional chains to keep us from tumbling over steep drops. Soon, we emerged into the valley villages of Switzerland, with Praz-de-Fort and its neighboring towns greeting us with charming wooden houses, blending new construction with centuries-old barns that looked ready to collapse at the slightest touch. We rested at a cozy café in Issert, indulging in ice cream sandwiches while taking in the surrounding greenery.
 
-After the river crossing, which was surrounded by concrete walls and served as a mini dam, we were back in the woods. The sun had not fully cleared the tops of the mountains to our right as we continued Northbound and came to the path leading to the waterfall.
+The day's climb was deceptively short, about 1.5 hours and under 500 meters of gain, but full of delightful surprises along the way. A cave tempted exploration, and the forest was alive with whimsical wooden carvings of mushrooms, beavers, and antelope. We even spotted locals scaling a small rocky outcrop, a reminder that mountains invite adventure at every turn. The final stretch brought us to the lake at Campex, where we enjoyed pizza and beers before heading to our separate accommodations for the night.
 
-What looked like a mostly flat path ended up being very steep and slippery, thanks to the morning dew. But the journey was well worth the reward. I had to scramble a bit near the top, just below where the water was striking the ground. I was terrified that the slightest misstep would land me in the pool of rocks and water below me. But I was able to get close enough to feel the water spraying on my face.
+Navigating to my Gîte turned into an unintended adventure of its own. I got lost. Four times. Testing both my patience and problem-solving skills. From following the wrong paths to asking directions from an elderly Swiss lady whose advice involved circular hand gestures, I eventually found my way thanks to a group of helpful teenagers. The misadventures faded as quickly as they came; my Gîte was warm and welcoming, and dinner with a new South Korean friend brought laughter and cultural exchange. I even learned to say "Annyeonghaseyo," though it may take a few more tries to remember it.
 
-I was tempted to stick my head into the waterfall, but scared at the last moment. It wasn’t easy moving around up there, and I had already slipped way to many times on the wet rocks trying to get close. I wasn’t going to push my luck knowing my history of clumsiness.
-
-Several of the people we knew had arrived at the bottom of the path as I was beginning to make my way down. We all walked together for the rest of the day.
-
-Most of the path went along a massive dried up river, twisting and winding it’s way through the forest. Several times the trail would leave no room for error as we crossed narrow paths which sometimes had a chain to hold on to, and a nice 100 foot drop below you.
-
-After taking a right angle turn away from the valley wall, and walking down a gently rolling path, we found ourselves entering the town of Praz-de-Fort. We were now officially in Swiss valley villages. Small village after small village greeted us as we walked a mostly paved path through the valley floor.
-
-Each house was a perfect little wooden masterpiece that evoked rest and relaxation. There was a good mix of new/modern houses, and old barn style houses that looked like they might fall over at the slightest touch.
-
-After the third village we decided to rest at a cute little bar/cafe in Issert. I gave in and bought an ice cream sandwich while we sat on the porch and stared at the greenery around us.
-
-Now it was time to begin the steepest part of the “climb”. Really it was only 1.5 hours of going up, and probably less than 500 m in total gain. We passed a cave along the way and ventured inside to explore.
-
-There were also many wood carvings in the forest on this ascent. Mushrooms (lots of mushrooms), antelope, beaver sculptures greeted us from time to time. We even passed a spot where some locals were scaling the rocky side of a mini mountain outcropping.
-
-But the arrival into Campex and its lake was easy, and before long we were all sitting down at a bar eating pizza and drinking beers. After a couple of hours it was time to make the way to our separate places of residence for the night.
-
-The day took a turn for the worse after leaving the lake behind and going our separate ways for our accommodations. I got lost, four times! Well, technically you can only get lost once, but I took four different routes to try and find the Gite that I was going to be staying at.
-
-My first attempt was to head up an alternate path that everyone swore would take me to where I needed to be, but it was an alternate path that led up to the wrong Refuge (this one was were two of the people I knew were staying).
-
-On the way down I asked an old Swiss lady whose only advice was to wave her hands in circles. I then tried to follow a river, because, you know, they lead to civilization. That didn’t work, and I ended up doubling back to the place where I had met the old Swiss lady.
-
-Finally I ran in to a group of young adults (probably in high school) and asked them where to go. Luckily one of them spoke enough English to point me in the proper direction. Thank you random group of people, where ever you are!
-
-Thankfully the Gite was a delight, and I ended up having dinner with my new South Korean friend. He tried his best to teach me basic Korean. Sadly, the only thing I remember is Annyeonghaseyo (roughly pronounced on-yo-his-ay-o).
-
-It was a delightful evening to erase the scariness of getting lost, and to learn a little bit in the process about another culture, and my fortitude in the face of adversity.
+By the end of the day, I felt a mix of exhilaration and gratitude, exhilaration from the waterfall and winding trails, and gratitude for the kindness of strangers, the beauty of the Swiss villages, and the resilience built with each step. It was a day that reminded me why I love hiking: the perfect blend of challenge, discovery, and the simple joys of connecting with people along the way.

@@ -1,47 +1,9 @@
-I’ve done a few day hikes before in the Andes mountains of South America. These included Torres del Paine in Patagonia, and San Jose de Maipo outside of Santiago, Chile. Each had around 600 meters of gain. But this was my first time actually hiking into, up, and over mountains.
+I've hiked before in the Andes while doing the Torres del Paine in Patagonia and San Jose de Maipo outside Santiago, Chile, both climbs of around 600 meters. But nothing prepared me for hiking into, up, and over mountains. My second trip to France brought me to Les Houches, a quaint village perched above a valley. Arriving late the night before, I was immediately thrust back into backpacking mode, and dinner at a local auberge set the tone for what lay ahead. Seated with a table of mostly French-speaking hikers, I felt an instant camaraderie; we were all here for the same reason: the Tour du Mont Blanc.
 
-This would be my second time in France, and Europe. My arrival into Les Houches, France on the previous day was delayed until the late evening hours. But being back in backpacking mode made me feel at home.
+The Tour du Mont Blanc is no small feat: 170 kilometers circling the Mont Blanc massif, with roughly 10,000 meters of elevation gain and loss, weaving through France, Italy, and Switzerland, and nights spent in mountain huts and refuges. A chilly morning greeted me with cloud-covered views of Les Houches, and I quickly realized I was headed the wrong way. Momentarily embarrassed I started ascending earthen steps into the hillside. Clouds lingered for an hour, casting a magical veil over my first encounter with this legendary trail. Gravel paths, wooden steps, and paved roads carried me higher until Col de Voza offered the first sweeping view back down into the valley.
 
-Dinner was in full swing when I showed up.
+The alternate route I had chosen led through dense forests and rocky scrambles, complete with steel cables bolted into sheer rock faces. Signs warned of "dangerous" paths, and I welcomed the challenge. Waterfalls and rushing rivers punctuated the trail, with slick rocks forcing cautious crossings. The ascent to Col de Tricot tested my limits: thin air made each breath labored, my stomach protested, and nausea set in. But reaching 2,120 meters above sea level rewarded every struggle with a panorama that stretched farther than I could take in at once.
 
-The host seated me at a table with a group of French speaking folks. They knew very little English, but tried their best to make me feel welcomed. All of us were here for the same reason: to hike the Tour du Mont Blanc.
+The descent was grueling on my knees, lingering reminders of the Camino three months prior. By the time I reached Chalets de Miage, it was already 2 p.m., and I still had more climbing ahead before reaching my refuge for the night, Auberge de Truc. The auberge was a true mountain hideaway: no lights in the dorm, outhouse bathrooms, and milk straight from their cows. And yet, none of it mattered. I had done it. I had climbed, scrambled, and crossed rivers. I had made it through my first day in the high mountains.
 
-Tour du Mont Blanc is a 170 kilometer (105 mile) circuit around the Mont Blanc massif with an approximate height gain and loss of 10,000 meters (32,800 feet). It takes you through France, Italy, and Switzerland while you spend the nights at various mountain huts and refuges.
-
-A chilly morning treated me to cloud covered views of Les Houches which sits above a valley. The views distracted me so much, that I realized I was going the wrong way. Embarrassed, I returned to the proper route up and out of the town. Barely 10 minutes had gone by before I was ascending earthen steps up and into the surrounding hillside.
-
-The clouds hung around for about an hour, and made my first experience of this place absolutely magical feeling.
-
-Gravel paths, wood steps, and paved roads led me higher and higher. Col de Voza was the first stop along the trail. It provided a great view back down into the valley from which I had climbed.
-
-The alternate route that I had chosen before embarking on this trek took me up through forests with amazing views of the valley beyond.
-
-Here I would get my first taste of having to scramble over rocks that covered what you could loosely call a trail while using a steel cable bolted into the rock. The drop off was so steep, that I quickly realized that this tour does not mess around.
-
-Several signs warned us along the way that this was the “dangerous” route. Hell yeah, I thought. Bring it on. I would get what I asked for a short while later.
-
-More narrow paths, steel cables, and rocks kept me moving towards a rushing river that flowed down from the snow covered top of the mountain. The entrance to the bridge that crossed this river was precipitated by water covered rocks, and I slipped on them while trying to find my way down.
-
-After crossing the river I was climbing once more up and over rocks and steep switch-back trails.
-
-The elevation and thin air were starting to take its toll on me: each breath I took became shorter and harder. I found myself taking huge gasping breaths and had to stop to catch myself every 15 minutes.
-
-I started feeling nauseous as I hiked up the side of the Col de Tricot. I pulled out my last energy bar to give my stomach something to chew on while I pushed up and up.
-
-The top did not let me down. Here I was at 2120 meters above sea level, and could see a whole world set out before me.
-
-The climb down was a long series of very steep zigzags. Most of the other backpackers were going down quickly, but I had to go slowly due to my knees. They never fully healed since the Camino nearly three months ago.
-
-In the valley below me stood the small Chalets de Miage. I arrived nearly two hours later, and grabbed lunch. It was already 2pm and my destination was further ahead.
-
-Even though I was happy to have gone up to the top of the stage, and come back down again, I still had to put another 300 meters of gain under my belt before I could call the day done.
-
-At 3:30 pm I found myself at my place of residence for the night at Auberge de Truc. It was a true mountain refuge. Their milk came from the cows they owned, there were no lights in the dormitory, outhouse bathroom, or at the sinks, and there were no showers.
-
-But none of that mattered. I did this, I accomplished all of this, and that was the best feeling in the world.
-
-One of the things that I loved most about the Camino was the people you met. This trip had the same aspect to it. Dinner was around 7pm in the evening, and I got to meet a couple from Germany, a man from South Korea, and a lady from Spain.
-
-The setting sun called us outside after dinner. It was striking the top of Dome de Miage and covering it in the brightest pink and orange colors that I’ve ever seen on a mountain.
-
-Life in the mountains is so peaceful and quiet. The sound of the cowbells didn’t even bother me, and helped to play a soothing role in putting me to sleep later that night.
+Dinner brought new friendships: a couple from Germany, a man from South Korea, and a woman from Spain. Afterward, we watched the sun paint Dome de Miage in brilliant pinks and oranges. Life in the mountains is quiet, almost sacred. Even the cowbells, which might annoy elsewhere, were soothing here, lulling me to sleep as I dreamt of the next stage of the Tour du Mont Blanc.

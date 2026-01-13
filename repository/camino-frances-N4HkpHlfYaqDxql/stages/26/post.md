@@ -1,19 +1,11 @@
-This is the second time that I've had to deal with leaving behind people with which I had grown close to. I can't believe that it's almost over: three more days and we're in Santiago. Today we had to say goodbye to our group.
+This is the second time I've had to say goodbye to people I had grown close to. It feels surreal to think that we are almost at the end: only three more days until Santiago. Today we parted ways with our group. Louis pushed on, completing two stages in a single day, while Maddy, Cerstin, and Isabelle took it easy and stayed at the previous stage. Mauro and Eileen continued on to Gonzar, and Crissi and I chose to remain in Pontemarion.
 
-Louis marched on and did two stages in one day, Maddy Cerstin and Isabelle took it easy and stayed at the end of the previous stage, Mauro and Eileen continued on to Gonzar, and Crissi and I stayed in Pontemarion.
+I knew these moments were part of the Camino, but experiencing them first-hand was something else entirely. To become so connected to people you share laughter, pain, and memories with is a unique experience. The bonds formed along the trail are something I have never truly felt before. As strange as it sounds, I can already see myself doing this all over again.
 
-I knew to expect this from my research of the Camino, but after experiencing it first-hand I couldn't handle the feelings. To become so intimate with people whom you swear with, suffer with, laugh with, and make memories with. It's something that I've never truly experienced before. I want to go back in time and do the whole thing over again...
+Today's walk was relatively easy. I took it slow because of my right ankle tendon issues, but the compression sock kept things manageable. Crossing another small mountain on the way out of Sarria, the forests and tiny villages passed by almost in a blur. We stopped for breakfast at a small cafe outside Morgade, and shortly after, we reached the 100-kilometer marker.
 
-I can actually see myself doing this again.
+Pontemarion appeared ahead, and we chose the safer approach into town. The alternative route went down old dirt and brick steps and was recommended only for those in excellent shape. Once in town, Crissi and I decided to stay while Eileen and Mauro continued onward. Settling into a bar, we quickly realized how much we already missed their company.
 
-As far as today is concerned, it wasn't too hard of a walk. I took it easy today due to my right ankle tendon issues. It didn't cause any major problems though thanks to the compression sock, which Crissi says is really just a stocking.
+During dinner, we entertained the idea of taking a two-day trip to Porto, Portugal, just to make use of the extra time we had. We had been pushing through stages with energy and focus, and figured everyone else would be too far ahead or behind to meet again.
 
-We crossed another small mountain on our way out of Sarria. The various forests and small towns that we went through today seemed to pass by in a blur. We stopped for breakfast at a cafe in a small town outside of Morgade. Shortly thereafter it was upon us: the 100 kilometer marker.
-
-Pontemarion was there, ahead of us, a short distance away. We decided to take the not-so-dangerous approach in to the city. The more dangerous approach went down old dirt and brick steps, and the sign warned against doing it only if you were in absolute great shape, which of course I was not.
-
-While eating lunch on the main street Crissi and I ended up deciding to stay in Pontemarion, while Eileen and Mauro would continue on. As soon as they were gone, we convinced ourselves that this was a good decision. As soon as we were settled in though, and relaxing at a bar, we realized that we had made a mistake. We missed them already.
-
-During dinner Crissi and I thought about trying to take a two day trip to Porto, Portugal in order to use up the extra days we'd have since we have been crushing these stages with a passion and figured everyone would be too far ahead or behind us to see them again.
-
-Either way, we will be celebrating the Fourth of July from Fisterra, Spain.
+Regardless of our plans, we are excited to celebrate the Fourth of July from Fisterra, Spain, knowing that the last days of this journey are fast approaching. The memories of these friendships and the trail itself will stay with me long after we reach Santiago.

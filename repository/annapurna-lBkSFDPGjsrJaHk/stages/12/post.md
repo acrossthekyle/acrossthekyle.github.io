@@ -1,7 +1,9 @@
-The two remaining members of our group, Veronique and myself, set out from Marpha bound for Ghasa. It would be a mostly dusty trail today, and on part of the way we had a dog follow us for some time, hoping for food most likely.
+With the group now reduced to just two, Veronique and I left Marpha and headed toward Ghasa. The day promised a mostly dusty trail, and before long a hopeful dog joined us, trailing behind for a while as if waiting for a handout or some attention.
 
-We walked over bridges, through bright green grassy fields and forests, and over many river crossings. Lots of jeeps on todays trail as well. Sadly I lost one of my flipflops on the way today, not sure where. We also passed through some apple orchards.
+The landscape shifted constantly as we walked. We crossed bridges, passed through bright green fields, and moved in and out of forests broken up by frequent river crossings. Jeeps rumbled past us throughout the day, a reminder that much of this stretch followed the road. Somewhere along the way, I lost one of my flip-flops, though I never did figure out exactly where it happened.
 
-Most of the trail was along the road, and there were some places to stop along the way, but most of them were empty and/or run-down. Not much food offerings either.
+We also passed through apple orchards, a small but welcome contrast to the dust and traffic. Despite the variety in scenery, most of the trail stayed close to the road, with only a handful of places to stop. Many of them were empty or run-down, and food options were limited.
 
-More walking along riverbeds as well today. We didn't see any other hikers until we entered the village of Ghasa, and even then it was few and far between. It was feeling very lonely on trail. We found a place to stay and the rooms weren't that bad. We each had our own which was nice though, usually not a common thing on the Annapurna Circuit.
+Long stretches followed dried riverbeds, and the sense of isolation grew stronger as the day went on. We did not see any other hikers until we reached Ghasa, and even there they were few and far between. The trail felt quiet in a way that was both peaceful and lonely.
+
+In Ghasa, we found a place to stay with surprisingly decent rooms. Having our own rooms felt like a luxury, especially on the Annapurna Circuit where sharing is usually the norm. After a long and solitary day, the simple comfort was more than enough.

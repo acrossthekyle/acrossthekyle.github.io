@@ -1,35 +1,9 @@
-This was only the second day, and the second highest elevation point I’ve ever been to, so it was a rough hike up to the Col de la Croix. The pictures do not capture the steepness of the trail. I would be walking, hiking, and pulling myself up through all different types of things today.
+Day two of the Tour du Mont Blanc pushed me to heights I'd never reached before. The hike up to Col de la Croix was brutal, and the pictures I'd taken didn't even capture the steepness of the trail. Today was a mix of walking, scrambling, and pulling myself over rocks and boulders, testing every bit of strength and endurance I had. The day began with a descent of 750 meters into Les Contamines, winding through twisting roads and trails. I even got lost twice trying to find the town center, but the charming streets and quaint architecture made the detours worth it.
 
-Mountain sleeping is some of the best sleeping that I’ll ever have. My bunk was next to the door, so I had to contend with people going in and out to use the bathroom in the middle of the night, but the cold air helped me sleep. I also had an empty bunk next to me, so I didn’t have to worry about someone snoring in my face.
+Leaving the city, the trail followed a shallow path along a river through a forest, dotted with waterfalls and one strikingly deep blue river cutting through its own canyon. The hike steadily became steeper, passing cows, red-roofed chalets, and old stone buildings that reminded me of Torres del Paine in Patagonia. Refuge Nant Borrant provided a short breather before the next push, while Refuge de la Balme marked the beginning of the steep climb to Col du Bonhomme. Pausing to turn back and admire the trail behind me helped put the day's struggle into perspective, as every step revealed breathtaking views.
 
-Since I stayed up high last night, I had to start the day by descending down 750 meters to the city of Les Contamines below. It only took about an hour and half to descend through the winding roads and twisting trails. I got lost twice as I tried to find my way into the city center.
+The final leg to Col de la Croix was intense: narrow paths, boulders, and sheer drop-offs demanded every ounce of energy I had left. By the time I reached the refuge, the clouds were rolling in, reducing visibility to almost zero. The mountain refuge was a true high-altitude hideaway: solar-powered, with limited lighting, cold showers, and dorm-style sleeping. Candlelight and headlamps lit the evening as I joined fellow hikers from Israel, the UK, Canada, Brazil, and Ireland for dinner. Conversation and shared stories softened the hardships of the day.
 
-The way out of town went through a forest that followed a river for most of the way. It was a shallow trail, not much gain in elevation. Saw one of the cutest houses that I’ve ever seen next to the chapel of Notre-Dame de la Gorge.
+The sunset was a magical reward, painting a distant mountain in soft purples and the sky in vivid oranges. Despite the physical toll, the serenity of the high mountains was intoxicating. French bread may have been dry, the showers cold, and my legs sore beyond belief but every challenge was part of the adventure. Tomorrow promised even greater elevation gains, and I knew I would need all my energy for what was ahead.
 
-Here the trail started to go up, passing by various little waterfalls along the way. One of these watery distractions was a river of a deep blue that cut right down the middle of the forest through a canyon of its own design.
-
-Several old buildings dotted the land around the trail as I continued on. I took a short breather at Refuge Nant Borrant since I had just climbed about 500 meters. From here on out the trail would become much steeper, and the elevation gain much more rapid.
-
-Over the next hour I would hike along a gravel path, passing cows, red-roofed houses, rivers, and spotting what looked like the Torres del Paine in the distance (somehow I must have walked to Patagonia).
-
-I met up with some folks from the night before at Refuge de la Balme (1760 meters) and we all started the next steep part together. It’s always a good idea to stop and turn around every so often though, because the views behind are almost just as amazing as the views ahead. I did this many times during the steep hike, simply because I wanted to see where I had come from. This helped put todays struggle into perspective.
-
-We moved closer and closer to the clouds as we made the hike up to Col du Bonhomme. I got separated from the people I had been walking with (I can’t remember if I pulled ahead or fell behind), so I did the last couple of hours on my own.
-
-I didn’t spend much time here at this Col. It took 600 meters to get here, so I definitely took a bit of a break. I took a walk around the col, snapping pictures and admiring the view, but I knew that there was more in store for me and I would have to wait just a little bit longer on the “job well done”.
-
-The next and final Col for the day was Col de la Croix.
-
-Now came the boulders, steep drop-offs, and narrow paths. It took every last ounce of power that I had left to navigate these parts. I was in a no-fucking-around mood and did just that: powered through them.
-
-The refuge for the night was a sight for sore (literally) eyes as I started the 40 meter descent towards it. I arrived just in time before the clouds rolled in and visibility dropped to zero.
-
-Took my first cold shower tonight. What an experience that was. I’d rather go stinky than do a cold shower again.
-
-This place also ran on solar power, and since it had been cloudy all day, that meant no lights which meant using your head torch to find your way around. But it also meant eating dinner by candlelight, not too bad. I hung out with some Israelis (Barak and Neta) before dinner, and some folks from the UK, Canada, Brazil, and Ireland during dinner.
-
-Why is French bread so dry??
-
-The setting sun lit up a mountain in the distance in soft purples, and the sky behind the hills opposite it in bright oranges.
-
-Tomorrow would be the highest hike yet for me, and the most meters gained and lost so far, which could have been avoided had I known about a shortcut across the mountain top...
+Mountain sleeping, cold showers, and long climbs are hard, but moments like this, where the world spreads out beneath you in clouds and ligh, —make it all absolutely worth it.
