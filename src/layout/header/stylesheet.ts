@@ -63,6 +63,8 @@ const styles = tw({
 
     data-[active=true]:italic
     data-[active=true]:font-serif
+    data-[active=true]:underline
+    data-[active=true]:underline-offset-4
 
     base:text-xs
   `,

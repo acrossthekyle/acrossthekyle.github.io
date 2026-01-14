@@ -25,7 +25,7 @@ export default function Navigation({ next, previous, slug }: Props) {
       {previous !== undefined && (
         <button
           className={styles.first}
-          onClick={() => handleOnNavigate(`/${slug}/${previous.index}`)}
+          onClick={() => handleOnNavigate(`/wanderings/${slug}/${previous.index}`)}
           type="button"
         >
           <Title shrink>
@@ -41,7 +41,7 @@ export default function Navigation({ next, previous, slug }: Props) {
       {next !== undefined && (
         <button
           className={styles.last}
-          onClick={() => handleOnNavigate(`/${slug}/${next.index}`)}
+          onClick={() => handleOnNavigate(`/wanderings/${slug}/${next.index}`)}
           type="button"
         >
           <Title shrink>

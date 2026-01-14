@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 import { LayoutFooter, LayoutHeader, LayoutMain } from '@/layout';
 import { HeaderHeading, HeaderSection } from '@/ui/header';
-import { Paragraph, Subtitle, Title } from '@/ui/typography';
+import { Eyebrow, Paragraph, Title } from '@/ui/typography';
 
 import styles from './stylesheet';
 import type { Data } from './types';
@@ -16,8 +16,8 @@ export default function View({ data }: Props) {
     <>
       <LayoutHeader route="cv">
         <HeaderHeading>
+          <Eyebrow>CV/Resume</Eyebrow>
           Creating things from scratch motivates me to do what I do
-          <Subtitle>Coding is living</Subtitle>
         </HeaderHeading>
         <HeaderSection>
           <Paragraph>

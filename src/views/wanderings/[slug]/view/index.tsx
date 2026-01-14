@@ -26,7 +26,7 @@ export default function View({ data }: Props) {
   return (
     <>
       <LayoutHeader>
-        <HeaderBack fallback="/" />
+        <HeaderBack fallback="/wanderings" />
         <HeaderHeading>
           <Eyebrow>
             {data.location}
@@ -53,7 +53,7 @@ export default function View({ data }: Props) {
               key={stage.index}
             >
               <Link
-                href={`/${data.slug}/${stage.index}`}
+                href={`/wanderings/${data.slug}/${stage.index}`}
                 id={index === 0 ? 'skip-to' : undefined}
               >
                 <ImageFigure scale>
@@ -90,7 +90,7 @@ export default function View({ data }: Props) {
                     <>
                       ..
                       <ArticlePreviewMore
-                        href={`/${data.slug}/${stage.index}`}
+                        href={`/wanderings/${data.slug}/${stage.index}`}
                         text="read more"
                       />
                     </>
@@ -102,7 +102,10 @@ export default function View({ data }: Props) {
         </section>
         {data.hasGear && (
           <aside>
-            <Link className={styles.gear} href={`/${data.slug}/gear`}>
+            <Link
+              className={styles.gear}
+              href={`/wanderings/${data.slug}/gear`}
+            >
               <Title shrink>
                 Gear
                 <Subtitle>

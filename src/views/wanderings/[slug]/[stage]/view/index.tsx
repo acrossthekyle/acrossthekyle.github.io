@@ -21,7 +21,9 @@ export default function View({ data }: Props) {
   return (
     <>
       <LayoutHeader>
-        <HeaderBack fallback={`/${data.total === 1 ? '/' : data.slug}`} />
+        <HeaderBack
+          fallback={`/wanderings/${data.total === 1 ? '/' : data.slug}`}
+        />
         <HeaderHeading>
           <Eyebrow>
             {data.location[0]} &mdash; {data.location[1]}
@@ -50,7 +52,7 @@ export default function View({ data }: Props) {
             <Link
               className={styles.link}
               id="skip-to"
-              href={`/${data.slug}/${data.index}/gpx`}
+              href={`/wanderings/${data.slug}/${data.index}/gpx`}
             >
               <Title shrink>
                 Route + Elevation

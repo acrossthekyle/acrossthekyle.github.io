@@ -15,7 +15,7 @@ export default function View({ data }: Props) {
   return (
     <>
       <LayoutHeader>
-        <HeaderBack fallback={`/${data.slug}`} />
+        <HeaderBack fallback={`/wanderings/${data.slug}`} />
         <HeaderHeading>
           <Eyebrow>
             {data.title.join(' ')}

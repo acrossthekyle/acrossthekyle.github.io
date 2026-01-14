@@ -1,7 +1,8 @@
 import Link from 'next/link';
 
+import Theme from '@/ui/theme';
+
 import styles from './stylesheet';
-import Theme from './theme';
 
 type Props = {
   children: React.ReactNode | React.ReactNode[];
@@ -15,11 +16,10 @@ export default function Header({ children, route }: Props) {
         <ul className={styles.list}>
           <li>
             <Link
-              aria-current={route === '/' ? 'page' : undefined}
-              aria-label="acrossthekyle.com home"
+              aria-current={route !== 'cv' ? 'page' : undefined}
               className={styles.link}
               data-active={route !== 'cv'}
-              href="/"
+              href="/wanderings"
             >
               Wanderings
             </Link>
@@ -27,7 +27,6 @@ export default function Header({ children, route }: Props) {
           <li>
             <Link
               aria-current={route === 'cv' ? 'page' : undefined}
-              aria-label="view cv/resume"
               className={styles.link}
               data-active={route === 'cv'}
               href="/cv"

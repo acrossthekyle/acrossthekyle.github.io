@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Suspense } from 'react';
 
-import { Fallback, View } from '@/views/[slug]/[stage]';
+import { Fallback, View } from '@/views/wanderings/[slug]/[stage]/gpx';
 
 import get from './get';
 
@@ -27,8 +27,8 @@ export async function generateMetadata({ params }: GenerateMetadata): Promise<Me
   }
 
   return {
-    title: `${data.title.join(' ')} → ${data.parent.join(' ')}`,
-    description: data.description[0],
+    title: `Gpx → ${data.title.join(' ')} → ${data.parent.join(' ')}`,
+    description: `Gpx Route / Elevation for ${data.title.join(' ')}`,
   };
 };
 

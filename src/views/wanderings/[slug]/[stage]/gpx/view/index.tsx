@@ -16,7 +16,7 @@ export default function View({ data }: Props) {
   return (
     <>
       <LayoutHeader>
-        <HeaderBack canSkipTo fallback={`/${data.slug}/${data.index}`} />
+        <HeaderBack canSkipTo fallback={`/wanderings/${data.slug}/${data.index}`} />
         <HeaderHeading>
           <Eyebrow>
             {data.title.join(' ')}
