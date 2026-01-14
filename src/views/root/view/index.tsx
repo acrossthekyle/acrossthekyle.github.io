@@ -32,15 +32,15 @@ export default function View({ data }: Props) {
     <>
       <LayoutHeader route="/">
         <HeaderHeading>
-          A backpacker and software engineer making moves.
-          <Subtitle>Wandering is life, Coding is living</Subtitle>
+          Experiencing new sights and sounds keeps me moving.
+          <Subtitle>Wandering is life</Subtitle>
         </HeaderHeading>
         <HeaderSection>
           <Paragraph>
-            Hey, I'm Kyle.
+            I've spent the last {new Date().getFullYear() - 2018} years exploring the world.
           </Paragraph>
           <Paragraph>
-            I live on the lands belonging to the <span className={styles.emphasis}>Potawatomi</span>, <span className={styles.emphasis}>Ojibwe</span>, and <span className={styles.emphasis}>Odawa</span> &mdash; otherwise known as the city of <span className={styles.emphasis}>Chicago</span>, and I've spent the past {new Date().getFullYear() - 2012} years building parts of the web that you probably use today, and the last {new Date().getFullYear() - 2018} years exploring the world.
+            The mountains are my church, and after hiking thousands of miles nothing inspires me more than leaving the crowded city behind and heading into nature carrying everything I need on my back. If I can walk dozens of miles every day for a weeks on end, I can do anything.
           </Paragraph>
           <Paragraph>
             Follow my wanderings on <Link

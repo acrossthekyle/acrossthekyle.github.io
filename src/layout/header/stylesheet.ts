@@ -47,23 +47,13 @@ const styles = tw({
     kilo:left-16
   `,
   list: `
-    flex flex-col gap-1
+    flex flex-col gap-2
     h-8
 
-    nano:gap-6
-    nano:items-center
-    nano:flex-row
-  `,
-  divide: `
-    border-b-1
-    pb-1
-
-    dark:border-white/50 light:border-black/50
-
-    micro:border-r-1
-    micro:border-b-0
-    micro:pr-6
-    micro:pb-0
+    micro:gap-3
+    micro:items-center
+    micro:flex-row
+    milli:gap-6
   `,
   link: `
     flex items-center

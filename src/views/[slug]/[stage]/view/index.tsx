@@ -53,7 +53,7 @@ export default function View({ data }: Props) {
               href={`/${data.slug}/${data.index}/gpx`}
             >
               <Title shrink>
-                Route / Elevation
+                Route + Elevation
                 <Subtitle>
                   Gpx Data + All Stats
                 </Subtitle>

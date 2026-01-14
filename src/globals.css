@@ -118,15 +118,7 @@ body {
 
   .leaflet-control {
     margin: 0 !important;
-    padding-top: 0;
     padding-right: 1rem;
-  }
-
-  @media (width >= 48rem) {
-    .leaflet-control {
-      padding-bottom: 0rem;
-      padding-right: 1rem;
-    }
   }
 
   .leaflet-control-zoom-in,
@@ -134,7 +126,6 @@ body {
     background: transparent !important;
     border: 0 !important;
     color: var(--tooltip-text-color) !important;
-    font: lighter 1.75rem Lucida Console, Monaco, monospace !important;
   }
 
   .leaflet-control-attribution {
@@ -143,36 +134,6 @@ body {
 
   .leaflet-container {
     background: transparent;
-  }
-
-  .leaflet-tooltip {
-    background: transparent;
-    box-shadow: none;
-    border: none !important;
-    color: var(--tooltip-text-color);
-  }
-
-  .leaflet-tooltip-top {
-    margin-top: -1rem;
-  }
-
-  .leaflet-tooltip-bottom {
-    margin-top: 1rem;
-  }
-
-  .leaflet-tooltip-left {
-    margin-left: -1rem;
-  }
-
-  .leaflet-tooltip-right {
-    margin-left: 1rem;
-  }
-
-  .leaflet-tooltip-top:before,
-  .leaflet-tooltip-right:before,
-  .leaflet-tooltip-bottom:before,
-  .leaflet-tooltip-left:before {
-    display: none !important;
   }
 
   .leaflet-gesture-handling-scroll-warning:after,

@@ -1,8 +1,9 @@
 'use client';
 
 import dynamic from 'next/dynamic';
-import { useContext, useEffect, useState } from 'react';
+import { useContext } from 'react';
 
+import { useTheme } from '@/hooks/useTheme';
 import type { Gpx } from '@/types';
 
 import { GpxContext } from '../context';
@@ -18,19 +19,9 @@ type Props = {
 };
 
 export default function Elevation({ gpx }: Props) {
-  const [isDarkMode, setIsDarkMode] = useState(true);
+  const { theme } = useTheme();
 
   const { onHover } = useContext(GpxContext);
-
-  useEffect(() => {
-    let theme = 'light';
-
-    if (localStorage.getItem('theme')) {
-      theme = localStorage.getItem('theme') || 'light';
-    }
-
-    setIsDarkMode(theme !== 'light');
-  }, [gpx]);
 
   const handleMouseLeave = () => {
     onHover(null);
@@ -69,10 +60,10 @@ export default function Elevation({ gpx }: Props) {
           },
           fill: {
             type: 'solid',
-            colors: [isDarkMode ? '#ffffff' : '#000000'],
+            colors: [theme === 'light' ? '#000000' : '#ffffff'],
           },
           stroke: {
-            colors: [isDarkMode ? '#ffffff' : '#000000'],
+            colors: [theme === 'light' ? '#000000' : '#ffffff'],
             curve: 'smooth',
             width: 1,
           },

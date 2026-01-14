@@ -32,7 +32,7 @@ export default function Header({ children, route }: Props) {
               data-active={route === 'cv'}
               href="/cv"
             >
-              CV
+              CV/Resume
             </Link>
           </li>
           <li>

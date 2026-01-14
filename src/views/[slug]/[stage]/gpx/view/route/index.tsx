@@ -3,6 +3,7 @@
 import dynamic from 'next/dynamic';
 import { useContext } from 'react';
 
+import { useTheme } from '@/hooks/useTheme';
 import type { Gpx } from '@/types';
 
 import { GpxContext } from '../context';
@@ -21,6 +22,8 @@ type Props = {
 export default function Route({ gpx, isSame }: Props) {
   const { hoverIndex } = useContext(GpxContext);
 
+  const { theme } = useTheme();
+
   if (gpx.length === 0) {
     return null;
   }
@@ -31,6 +34,7 @@ export default function Route({ gpx, isSame }: Props) {
         gpx={gpx}
         hoverIndex={hoverIndex}
         isSame={isSame}
+        theme={theme}
       />
     </div>
   );

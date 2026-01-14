@@ -9,6 +9,7 @@ import { useEffect, useState } from 'react';
 import {
   CircleMarker,
   MapContainer,
+  Marker,
   Polyline,
   TileLayer,
   ZoomControl,
@@ -23,26 +24,27 @@ type Props = {
   gpx: Gpx;
   hoverIndex: number | null;
   isSame: boolean;
+  theme: string;
 };
+
+const finish = L.divIcon({
+  html: `
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-goal-icon lucide-goal"><path d="M12 13V2l8 4-8 4"/><path d="M20.561 10.222a9 9 0 1 1-12.55-5.29"/><path d="M8.002 9.997a5 5 0 1 0 8.9 2.02"/></svg>
+  `,
+  className: '',
+  iconAnchor: [12, 16],
+})
 
 export default function Leaflet({
   gpx,
   hoverIndex,
   isSame,
+  theme,
 }: Props) {
   const [data, setData] = useState<Gpx>([]);
-  const [isDarkMode, setIsDarkMode] = useState(true);
 
   useEffect(() => {
     if (gpx) {
-      let theme = 'light';
-
-      if (localStorage.getItem('theme')) {
-        theme = localStorage.getItem('theme') || 'light';
-      }
-
-      setIsDarkMode(theme !== 'light');
-
       setData(gpx);
     }
   }, [gpx]);
@@ -56,9 +58,7 @@ export default function Leaflet({
 
         const bounds = new L.LatLngBounds(positions);
 
-        map.fitBounds(bounds, {
-          padding: [10, 10],
-        });
+        map.fitBounds(bounds);
       }
       // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [positions]);
@@ -82,7 +82,7 @@ export default function Leaflet({
     >
       <TileLayer
         attribution="Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ"
-        url={`https://{s}.basemaps.cartocdn.com/${isDarkMode ? 'dark' : 'light'}_nolabels/{z}/{x}/{y}{r}.png`}
+        url={`https://{s}.basemaps.cartocdn.com/${theme === 'dark' ? 'dark' : 'light'}_nolabels/{z}/{x}/{y}{r}.png`}
       />
       <Polyline
         className={styles.route}
@@ -97,20 +97,7 @@ export default function Leaflet({
             opacity={1}
             radius={5}
           />
-          <CircleMarker
-            center={data[data.length - 1]}
-            className={styles.outer}
-            fill={false}
-            opacity={1}
-            radius={6}
-          />
-          <CircleMarker
-            center={data[data.length - 1]}
-            className={styles.end}
-            fillOpacity={1}
-            opacity={1}
-            radius={5}
-          />
+          <Marker position={data[data.length - 1]} icon={finish} />
         </>
       )}
       {hoverIndex !== null && (

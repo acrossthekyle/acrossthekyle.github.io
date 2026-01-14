@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 import { LayoutFooter, LayoutHeader, LayoutMain } from '@/layout';
 import { HeaderHeading, HeaderSection } from '@/ui/header';
-import { Eyebrow, Paragraph, Title } from '@/ui/typography';
+import { Paragraph, Subtitle, Title } from '@/ui/typography';
 
 import styles from './stylesheet';
 import type { Data } from './types';
@@ -16,12 +16,15 @@ export default function View({ data }: Props) {
     <>
       <LayoutHeader route="cv">
         <HeaderHeading>
-          <Eyebrow>CV / Resume</Eyebrow>
           Creating things from scratch motivates me to do what I do
+          <Subtitle>Coding is living</Subtitle>
         </HeaderHeading>
         <HeaderSection>
           <Paragraph>
-            I'm a self-taught web developer/software engineer and making things with code thrills me to no end. With a strong background in JavaScript/TypeScript, and HTML/CSS, I have hands-on experience working with high-traffic, customer-facing products built with an attention to detail.
+            I'm a self-taught web developer/software engineer and making things with code thrills me to no end.
+          </Paragraph>
+          <Paragraph>
+            With a strong background in <span className={styles.emphasis}>JavaScript/TypeScript</span>, and <span className={styles.emphasis}>HTML/CSS</span>, I have hands-on experience working with high-traffic, customer-facing products built with an attention to detail.
           </Paragraph>
           <Paragraph>
             Connect with me on <Link
@@ -32,14 +35,6 @@ export default function View({ data }: Props) {
               target="_blank"
               rel="noreferrer"
             >LinkedIn</Link>
-          </Paragraph>
-          <Paragraph>
-            If you're interested in working together please <Link
-              aria-label="send email"
-              className={styles.link}
-              data-mono="true"
-              href="mailto:hello@acrossthekyle.com"
-            >drop me a line</Link>
           </Paragraph>
         </HeaderSection>
       </LayoutHeader>

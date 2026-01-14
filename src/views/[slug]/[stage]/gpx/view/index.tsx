@@ -21,8 +21,8 @@ export default function View({ data }: Props) {
           <Eyebrow>
             {data.title.join(' ')}
           </Eyebrow>
-          Gpx
-          <Subtitle>Route / Elevation</Subtitle>
+          Route + Elevation
+          <Subtitle>GPX Data + All Stats</Subtitle>
         </HeaderHeading>
         <Stats gpx={data.gpx} stats={data.stats} termini={data.termini} />
       </LayoutHeader>

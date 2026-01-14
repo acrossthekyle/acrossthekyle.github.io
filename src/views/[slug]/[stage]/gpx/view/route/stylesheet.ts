@@ -32,13 +32,6 @@ const styles = tw({
     dark:fill-white light:fill-black
     dark:stroke-white light:stroke-black
   `,
-  end: `
-    relative z-2
-    !pointer-events-none
-
-    dark:fill-white light:fill-black
-    dark:stroke-black light:stroke-white
-  `,
 });
 
 export default styles;
