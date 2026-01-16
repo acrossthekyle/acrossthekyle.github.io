@@ -1,7 +1,5 @@
 import type { Gpx, Stats, Termini } from '@/types';
 
-import styles from './stylesheet';
-
 type Props = {
   gpx: Gpx;
   stats: Stats;
@@ -42,14 +40,14 @@ export default function Stats({ gpx, stats, termini }: Props) {
   if (gpx !== undefined) {
     if (gpx.length > 0) {
       sections.push({
-        heading: 'Elevation Start',
+        heading: 'Altitude Start',
         value: `${new Intl.NumberFormat().format(gpx[0][2])} ft`,
       });
     }
 
     if (gpx.length > 0) {
       sections.push({
-        heading: 'Elevation End',
+        heading: 'Altitude End',
         value: `${new Intl.NumberFormat().format(gpx[gpx.length - 1][2])} ft`,
       });
     }
@@ -57,7 +55,7 @@ export default function Stats({ gpx, stats, termini }: Props) {
 
   if (stats.max) {
     sections.push({
-      heading: 'Max Elevation',
+      heading: 'Max Altitude',
       value: `${stats.max.value.imperial} ${stats.max.units.imperial.abbreviated}`,
     });
   }
@@ -77,11 +75,15 @@ export default function Stats({ gpx, stats, termini }: Props) {
   }
 
   return (
-    <ul aria-label="stats" className={styles.list}>
-      {sections.map((section: Section) => (
-        <li className={styles.item} key={section.heading}>
-          <h3 className={styles.heading}>{section.heading}</h3>
-          <p>{section.value}</p>
+    <ul aria-label="stats" className="grid grid-cols-2 gap-2 mt-16">
+      {sections.map((section: Section, index: number) => (
+        <li key={index}>
+          <p>
+            <small>
+              <strong>{section.heading}</strong>
+              {section.value}
+            </small>
+          </p>
         </li>
       ))}
     </ul>

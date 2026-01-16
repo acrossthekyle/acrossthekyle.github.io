@@ -60,15 +60,15 @@ export default function Elevation({ gpx }: Props) {
           },
           fill: {
             type: 'solid',
-            colors: [theme === 'light' ? '#000000' : '#ffffff'],
+            colors: [theme === 'light' ? '#1b1b1b' : '#faf9f5'],
           },
           stroke: {
-            colors: [theme === 'light' ? '#000000' : '#ffffff'],
+            colors: [theme === 'light' ? '#1b1b1b' : '#faf9f5'],
             curve: 'smooth',
             width: 1,
           },
           grid: {
-            show: true,
+            show: false,
             borderColor: 'transparent',
             padding: {
               top: 0,

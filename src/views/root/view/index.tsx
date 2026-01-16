@@ -1,55 +1,24 @@
-import Link from 'next/link';
+// import Image from 'next/image';
 
-import Theme from '@/ui/theme';
-
-import styles from './stylesheet';
+import { Layout } from '@/layout';
 
 export default function View() {
   return (
-    <>
-      <header className={styles.header}>
-        <h1 className={styles.title}>
-          A Backpacker and Software Engineer making moves.
-        </h1>
-        <h2 className={styles.tagline}>
-          Wandering is life, Coding is living.
-        </h2>
-        <Theme />
-      </header>
-      <main className={styles.main}>
-        <article>
-          <header>
-            <h3 className={styles.paragraph}>
-              Hey, I'm Kyle.
-            </h3>
-          </header>
-          <section>
-            <p className={styles.paragraph}>
-              I live on the lands belonging to the <span className={styles.emphasis}>Potawatomi</span>, <span className={styles.emphasis}>Ojibwe</span>, and <span className={styles.emphasis}>Odawa</span> &mdash; otherwise known as the city of <span className={styles.emphasis}>Chicago</span> &mdash; and I've spent the past {new Date().getFullYear() - 2012} years building parts of the web that you probably use today, and the last {new Date().getFullYear() - 2018} years exploring the world.
-            </p>
-          </section>
-          <footer>
-            <Link
-              className={styles.link}
-              href="/wanderings"
-              id="skip-to"
-            >
-              Wanderings
-            </Link>
-            <Link
-              className={styles.link}
-              href="/cv"
-            >
-              CV/Resume
-            </Link>
-          </footer>
-        </article>
-      </main>
-      <footer className={styles.footer}>
+    <Layout group="about">
+      <header>
+        <h1>Wandering is life.</h1>
         <p>
-          See you out there.
+          Hey, I'm Kyle and I live on the lands belonging to the <em>Potawatomi</em>, <em>Ojibwe</em>, and <em>Odawa</em> &mdash; otherwise known as the city of <em>Chicago</em>. I've spent the past {new Date().getFullYear() - 2012} years building web apps, and the last {new Date().getFullYear() - 2018} years exploring the world.
         </p>
-      </footer>
-    </>
+      </header>
+      {/*<Image
+        alt="Picture of Kyle Gilbert"
+        className="mt-12 base:mt-18 base:w-2/3"
+        height={540}
+        sizes="50vw"
+        src="8ed54501-bdcb-40b7-9387-f2fc306db83d.png"
+        width={960}
+      />*/}
+    </Layout>
   );
 }

@@ -68,6 +68,7 @@ export type Stage = {
   image: string;
   index: string;
   location: string;
+  snippet: string;
   termini: Termini;
 };
 
@@ -78,5 +79,6 @@ export enum Orientation {
 
 export type Navigation = {
   index: string;
+  label: string;
   title: string[];
 };

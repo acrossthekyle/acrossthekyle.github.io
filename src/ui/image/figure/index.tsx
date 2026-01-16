@@ -3,12 +3,11 @@ import styles from './stylesheet';
 type Props = {
   children: React.ReactNode | React.ReactNode[];
   className?: string;
-  scale?: boolean;
 };
 
-export default function Figure({ children, className = '', scale }: Props) {
+export default function Figure({ children, className = '' }: Props) {
   return (
-    <figure className={`${styles.figure(scale)} ${className}`.trim()}>
+    <figure className={`${styles.figure} ${className}`.trim()}>
       {children}
     </figure>
   );

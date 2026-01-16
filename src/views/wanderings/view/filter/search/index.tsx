@@ -7,19 +7,10 @@ import styles from './stylesheet';
 
 type Props = {
   onChange: (event: ChangeEvent<HTMLInputElement>) => void;
-  placeholder: string;
   searchBy: string;
 };
 
-function formatPlaceholder(initial: string) {
-  if (['everything', 'peak-bagging'].includes(initial)) {
-    return initial;
-  }
-
-  return `${initial}s`;
-};
-
-export default function Search({ onChange, placeholder, searchBy }: Props) {
+export default function Search({ onChange, searchBy }: Props) {
   return (
     <form
       className={styles.container}
@@ -30,7 +21,7 @@ export default function Search({ onChange, placeholder, searchBy }: Props) {
         <input
           className={styles.input}
           onChange={onChange}
-          placeholder={`Search ${formatPlaceholder(placeholder)}`}
+          placeholder={`Search Wanderings`}
           type="text"
           value={searchBy}
         />

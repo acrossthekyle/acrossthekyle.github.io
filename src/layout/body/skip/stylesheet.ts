@@ -10,8 +10,6 @@ const styles = tw({
     text-xs
     font-bold
 
-    dark:bg-black light:bg-white
-
     focus:w-auto
     focus:h-auto
     focus:overflow-auto

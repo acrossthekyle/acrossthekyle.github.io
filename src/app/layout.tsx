@@ -3,15 +3,14 @@ import '../globals.css';
 import type { Metadata, Viewport } from 'next';
 
 import History from '@/contexts/history';
-import { LayoutBody, LayoutLoader } from '@/layout';
+import { Body, Loader } from '@/layout';
 
 import { introduction } from './constants';
-import styles from './stylesheet';
 
 export const metadata: Metadata = {
   title: {
-    template: `%s → Kyle → A backpacker and software engineer making moves.`,
-    default: 'Home → Kyle → A backpacker and software engineer making moves.',
+    template: `%s → Kyle → Wandering is Life.`,
+    default: 'Home → Kyle → Wandering is Life.',
   },
   keywords: [
     'across',
@@ -64,12 +63,12 @@ type Props = {
 
 export default function RootLayout({ children }: Props) {
   return (
-    <html className={styles.html} data-theme="dark" lang="en">
+    <html data-theme="dark" lang="en">
       <History>
-        <LayoutBody>
+        <Body>
           {children}
-          <LayoutLoader />
-        </LayoutBody>
+          <Loader />
+        </Body>
       </History>
     </html>
   );

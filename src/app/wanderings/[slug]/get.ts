@@ -21,6 +21,7 @@ export default function get(slug: string) {
         description,
         image,
         location,
+        snippet,
         termini,
       }, index: number) => ({
         date,
@@ -28,6 +29,7 @@ export default function get(slug: string) {
         image,
         index: padIndex(index + 1),
         location,
+        snippet,
         termini,
       })),
     title: data.title,

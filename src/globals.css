@@ -4,8 +4,8 @@
 @custom-variant light (&:where([data-theme=light], [data-theme=light] *));
 
 :root {
-  --background: #000000;
-  --foreground: rgba(255, 255, 255, 1);
+  --background: #1b1b1b;
+  --foreground: #faf9f5;
   --tooltip-text-color: rgba(0, 0, 0, 1);
   --elevation-text-color: rgba(0, 0, 0, 1);
   --progress-bar-fill-color: rgba(0, 0, 0, .75);
@@ -33,7 +33,7 @@
 
   --font-weight-extrablack: 1000;
 
-  --animate-in-fade: fadeIn .25s ease-in forwards;
+  --animate-in-fade: fadeIn .4s ease-in forwards;
 
   @keyframes fadeIn {
     0% { opacity: 0; }
@@ -41,16 +41,18 @@
   }
 }
 
+html {
+  height: 100%;
+}
+
 html[data-theme="dark"] {
-  --tooltip-text-color: rgba(255, 255, 255, 1);
-  --elevation-text-color: rgba(255, 255, 255, 1);
-  --progress-bar-fill-color: rgba(255, 255, 255, .75);
+  --background: #1b1b1b;
+  --foreground: #faf9f5;
 }
 
 html[data-theme="light"] {
-  --tooltip-text-color: rgba(0, 0, 0, 1);
-  --elevation-text-color: rgba(0, 0, 0, 1);
-  --progress-bar-fill-color: rgba(0, 0, 0, .75);
+  --background: #faf9f5;
+  --foreground: #1b1b1b;
 }
 
 html:has(dialog[open]) {
@@ -60,9 +62,54 @@ html:has(dialog[open]) {
 body {
   -ms-overflow-style: none;
   scrollbar-width: none;
+  background: var(--background);
+  color: var(--foreground);
 
   ::-webkit-scrollbar {
     display: none;
+  }
+
+  header {
+    position: relative;
+    margin-bottom: 4rem;
+  }
+
+  footer {
+    font-size: 0.75rem;
+    margin-top: 4rem;
+  }
+
+  h1 {
+    margin-bottom: 1.5rem;
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    font-weight: 700;
+    margin-bottom: 0.125rem;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  a[target="_blank"]:after {
+    content: "↗";
+    font-size: 0.75rem;
+    padding-left: 4px;
+  }
+
+  small {
+    font-size: 0.9rem;
+  }
+
+  strong {
+    display: block;
+    font-weight: 1000;
+    padding-bottom: 0.125rem;
   }
 
   button[type="button"],
@@ -100,6 +147,8 @@ body {
     appearance: none;
     background-color: transparent;
     border-radius: 0.5rem;
+    height: 0.25rem;
+    width: 50%;
   }
 
   progress::-webkit-progress-bar {
@@ -108,9 +157,41 @@ body {
 
   progress::-webkit-progress-value,
   progress::-moz-progress-bar {
-    background-color: var(--progress-bar-fill-color);
+    background-color: var(--foreground);
     border-radius: 0.5rem;
   }
+
+  em {
+    font-style: italic;
+    font-family: var(--font-serif);
+  }
+
+  .stacked-link {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 3rem;
+    margin-top: 4rem;
+    padding-left: 0.75rem;
+  }
+
+  .stacked-link::before {
+    background: var(--foreground);
+    bottom: 0.3rem;
+    content: '';
+    left: 0rem;
+    opacity: 1;
+    position: absolute;
+    top: 0.4rem;
+    transition: all 0.3s ease-in-out;
+    width: 4px;
+  }
+
+  .stacked-link:hover::before {
+    left: -0.25rem;
+  }
+
+  /* third-party package styling  */
 
   .leaflet-bar {
     border: 0 !important;
@@ -125,7 +206,7 @@ body {
   .leaflet-control-zoom-out {
     background: transparent !important;
     border: 0 !important;
-    color: var(--tooltip-text-color) !important;
+    color: #1b1b1b !important;
   }
 
   .leaflet-control-attribution {
@@ -146,9 +227,9 @@ body {
     background: transparent !important;
     box-shadow: none !important;
     border: none !important;
-    color: var(--elevation-text-color);
+    color: var(--foreground);
     font-weight: 400;
-    padding-right: 1.25rem !important;
-    padding-top: 0.9rem !important;
+    padding-right: 0rem !important;
+    padding-top: 0rem !important;
   }
 }

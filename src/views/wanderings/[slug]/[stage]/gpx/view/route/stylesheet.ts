@@ -3,9 +3,9 @@ import tw from '@/styles';
 const styles = tw({
   section: `
     relative z-0
-    h-[calc(100vh-10rem)]
-
-    base:w-full
+    h-100 w-full
+    rounded-lg
+    overflow-hidden
   `,
   map: `
     relative
@@ -16,21 +16,15 @@ const styles = tw({
     stroke-4
     !pointer-events-none
 
-    dark:stroke-white light:stroke-black
+    stroke-[#1b1b1b]
   `,
   outer: `
     relative
     stroke-8
     !pointer-events-none
 
-    dark:stroke-white light:stroke-black
-  `,
-  start: `
-    relative z-2
-    !pointer-events-none
-
-    dark:fill-white light:fill-black
-    dark:stroke-white light:stroke-black
+    fill-[#1b1b1b]
+    stroke-[#1b1b1b]
   `,
 });
 

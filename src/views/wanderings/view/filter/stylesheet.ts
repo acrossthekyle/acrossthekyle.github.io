@@ -3,11 +3,6 @@ import tw, { padding } from '@/styles';
 const styles = tw({
   container: `
     relative
-    border-b-1
-
-    dark:border-b-white/15 light:border-b-black/15
-
-    ${padding.full}
   `,
   options: `
     absolute top-7.5 right-7.5 bottom-7.5
@@ -30,7 +25,6 @@ const styles = tw({
     kilo:bottom-17.5
   `,
   dialog: `
-    dark:bg-black light:bg-white
     dark:text-white light:text-black
 
     ${padding.full}

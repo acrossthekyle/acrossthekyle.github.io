@@ -1,10 +1,15 @@
 import Link from 'next/link';
 
-import { LayoutFooter, LayoutHeader, LayoutMain } from '@/layout';
-import { HeaderBack, HeaderHeading } from '@/ui/header';
-import { Eyebrow, Subtitle, Title } from '@/ui/typography';
+import { Layout } from '@/layout';
+import {
+  Breadcrumb,
+  BreadcrumbList,
+  BreadcrumbItem,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+  BreadcrumbTruncate,
+} from '@/ui/breadcrumbs';
 
-import styles from './stylesheet';
 import type { Data } from './types';
 
 type Props = {
@@ -13,45 +18,63 @@ type Props = {
 
 export default function View({ data }: Props) {
   return (
-    <>
-      <LayoutHeader>
-        <HeaderBack fallback={`/wanderings/${data.slug}`} />
-        <HeaderHeading>
-          <Eyebrow>
-            {data.title.join(' ')}
-          </Eyebrow>
-          Gear
-          <Subtitle>Base Weight: {data.weights.base} lbs</Subtitle>
-        </HeaderHeading>
-      </LayoutHeader>
-      <LayoutMain>
-        {data.categories.map((category) => (
-          <section className={styles.section} key={category.title}>
-            <Title shrink>
-              <Eyebrow>Weight: {category.weight} lbs</Eyebrow>
-              {category.title}
-            </Title>
-            <ul className={styles.list}>
-              {category.items.map((item, index: number) => (
-                <li className={styles.item} key={index}>
-                  {!!item.link ? (
-                    <Link
-                      className={styles.link}
-                      href={item.link}
-                      target="_blank"
-                    >
-                      {item.name.join(' ')}
-                    </Link>
-                  ) : (
-                    <>{item.name.join(' ')}</>
-                  )}
-                </li>
-              ))}
-            </ul>
-          </section>
-        ))}
-      </LayoutMain>
-      <LayoutFooter />
-    </>
+    <Layout group="wanderings">
+      <header>
+        <Breadcrumb>
+          <BreadcrumbList>
+            <BreadcrumbItem>
+              <Link href="/">
+                Home
+              </Link>
+            </BreadcrumbItem>
+            <BreadcrumbSeparator />
+            <BreadcrumbItem>
+              <Link href="/wanderings">
+                Wanderings
+              </Link>
+            </BreadcrumbItem>
+            <BreadcrumbSeparator />
+            <BreadcrumbItem>
+              <Link href={`/wanderings/${data.slug}`}>
+                <BreadcrumbTruncate text={data.title.join(' ')} />
+              </Link>
+            </BreadcrumbItem>
+            <BreadcrumbSeparator />
+            <BreadcrumbItem>
+              <BreadcrumbPage>
+                Gear
+              </BreadcrumbPage>
+            </BreadcrumbItem>
+          </BreadcrumbList>
+        </Breadcrumb>
+        <h1>
+          <strong>Gear</strong>
+          <small>Pack, shelter, clothing</small>
+        </h1>
+      </header>
+      {data.categories.map((category) => (
+        <section className="mt-8 first:mt-0" key={category.title}>
+          <h2>
+            <small><strong>{category.title}</strong></small>
+          </h2>
+          <ul className="">
+            {category.items.map((item, index: number) => (
+              <li className="inline capitalize mr-4 last:mr-0" key={index}>
+                {!!item.link ? (
+                  <Link
+                    href={item.link}
+                    target="_blank"
+                  >
+                    <small>{item.name.join(' ')}</small>
+                  </Link>
+                ) : (
+                  <small>{item.name.join(' ')}</small>
+                )}
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </Layout>
   );
 }

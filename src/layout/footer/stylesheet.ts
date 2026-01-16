@@ -2,39 +2,25 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    border-t-1
-    py-6 px-6
-    text-xs text-center
-    opacity-0
-    animate-in-fade
+    w-full max-w-lg
+    my-0 mx-auto
 
-    dark:border-t-white/15 light:border-t-black/15
-
-    base:py-8
-    base:ml-86
-    hecto:py-12
-    hecto:ml-106
-    kilo:py-16
-    kilo:ml-150
-    tera:ml-160
-    peta:ml-210
-    peta:text-xl
+    lg:flex
+    lg:justify-between
   `,
   links: `
-    flex justify-center
-    mb-4
+    flex flex-row gap-6
+    mb-2
 
-    base:hidden
+    lg:mb-0
   `,
-  list: `
-    grid grid-cols-2 gap-4
+  copyright: `
+    !mb-0
+    mr-8
+    font-mono
+    text-tiny
 
-    nano:flex
-    nano:flex-row
-    nano:gap-4
-  `,
-  link: `
-    underline underline-offset-4
+    lg:mr-0
   `,
 });
 

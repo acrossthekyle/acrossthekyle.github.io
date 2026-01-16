@@ -3,7 +3,6 @@
 import dynamic from 'next/dynamic';
 import { useContext } from 'react';
 
-import { useTheme } from '@/hooks/useTheme';
 import type { Gpx } from '@/types';
 
 import { GpxContext } from '../context';
@@ -16,13 +15,10 @@ const Plugin = dynamic(() => import('./leaflet'), {
 
 type Props = {
   gpx: Gpx;
-  isSame: boolean;
 };
 
-export default function Route({ gpx, isSame }: Props) {
+export default function Route({ gpx }: Props) {
   const { hoverIndex } = useContext(GpxContext);
-
-  const { theme } = useTheme();
 
   if (gpx.length === 0) {
     return null;
@@ -30,12 +26,7 @@ export default function Route({ gpx, isSame }: Props) {
 
   return (
     <div className={styles.section}>
-      <Plugin
-        gpx={gpx}
-        hoverIndex={hoverIndex}
-        isSame={isSame}
-        theme={theme}
-      />
+      <Plugin gpx={gpx} hoverIndex={hoverIndex} />
     </div>
   );
 }

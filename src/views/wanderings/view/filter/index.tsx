@@ -2,8 +2,6 @@
 
 import { X } from 'lucide-react';
 
-import { Title } from '@/ui/typography';
-
 import type { Data } from '../types';
 
 import { useModel } from './model';
@@ -41,7 +39,7 @@ export default function Filter({ data, onChange }: Props) {
 
   return (
     <section aria-label="search and filter" className={styles.container}>
-      <Search onChange={handleOnSearch} placeholder={filterBy} searchBy={searchBy} />
+      <Search onChange={handleOnSearch} searchBy={searchBy} />
       <button
         aria-controls="options"
         aria-label="toggle filter and sort dialog"
@@ -58,14 +56,14 @@ export default function Filter({ data, onChange }: Props) {
         ref={dialogRef}
         onCancel={handleOnDialogCancel}
       >
-        <Title id="options-title">Options</Title>
+        <h2 id="options-title">Options</h2>
         <form
           className={styles.form}
           method="dialog"
           onSubmit={handleOnDialogSubmit}
         >
           <section aria-label="filter by category">
-            <Title className={styles.heading} shrink>View</Title>
+            <h2 className={styles.heading}>View</h2>
             <Radio
               count={20}
               current={filterBy}
@@ -85,7 +83,7 @@ export default function Filter({ data, onChange }: Props) {
             ))}
           </section>
           <section aria-label="sort by date or title">
-            <Title className={styles.heading} shrink>By</Title>
+            <h2 className={styles.heading}>By</h2>
             <Radio
               current={sortBy}
               expected="date"
@@ -100,7 +98,7 @@ export default function Filter({ data, onChange }: Props) {
             />
           </section>
           <section aria-label="sort direction">
-            <Title className={styles.heading} shrink>From</Title>
+            <h2 className={styles.heading}>From</h2>
             <Radio
               current={orderBy}
               expected="descending"

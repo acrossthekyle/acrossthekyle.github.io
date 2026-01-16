@@ -4,25 +4,25 @@ const styles = tw({
   container: `
     relative
     block
+    -mt-4 mb-8
   `,
   search: `
+    relative
     flex items-center gap-2
     h-12 w-full
-    border
     rounded-sm
-
-    dark:bg-black light:bg-white
-    dark:border-white/15 light:border-black/15
   `,
   icon: `
-    absolute top-3 left-3
+    absolute top-4.25 left-0
+    w-4 h-4
     stroke-2 stroke-current/50
   `,
   input: `
     w-full h-full
-    pl-12
+    pl-6
     text-white text-sm
-    placeholder-gray-500
+    placeholder-gray-500 placeholder:uppercase placeholder:text-xs
+    bg-transparent
   `,
 });
 

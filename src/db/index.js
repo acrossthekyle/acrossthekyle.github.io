@@ -2,7 +2,7 @@ const data = [
   {
     "index": 0,
     "category": "trekking",
-    "date": "Oct 18th -  19th, 2025",
+    "date": "October 18th -  19th, 2025",
     "description": [
       "Known for its unglaciated, hilly landscape, this remote counterclockwise backpacking loop in the Driftless Area of Iowa showcases the state's most rugged terrain with a route that crosses ravines, climbs sandstone bluffs, and provides views of the surrounding hardwood forests and wildlife."
     ],
@@ -2727,7 +2727,7 @@ const data = [
   {
     "index": 1,
     "category": "trekking",
-    "date": "Jul 27th - Aug 6th, 2024",
+    "date": "July 27th - August 6th, 2024",
     "description": [
       "I decided to thru-hike the Tour du Mont Blanc once again, but this time accompanied by my partner. The trek was much as I remembered, with abundant trips down memory lane. These pictures showcase our daily amazing views from the trail while hiked 117 miles over 11 days, reaching a maximum altitude of 8,972 feet."
     ],
@@ -15385,7 +15385,7 @@ const data = [
   {
     "index": 2,
     "category": "destination",
-    "date": "Jul 24th -  25th, 2024",
+    "date": "July 24th -  25th, 2024",
     "description": [
       "Before heading into the Alps for the Tour du Mont Blanc we took some time to explore the city of Geneva, from breakfast along the Rhone river to exploring Old Town and the botanical gardens."
     ],
@@ -15556,11 +15556,10 @@ const data = [
   {
     "index": 3,
     "category": "trekking",
-    "date": "Jun 21st - Jul 3rd, 2023",
+    "date": "June 21st - July 3rd, 2023",
     "description": [
-      "Considered to be the most difficult of all trails in Europe, the Fra Li Monti (Corsican for 'across the mountains', and also more commonly known as the GR 20) is a footpath that traverses the Mediterranean island of Corsica from north to south along its spiny mountainous backbone, reaching a maximum altitude of 8,551 feet.",
-      "It demanded thousands of feet of elevation change every day, totaling 44,475 ft of gain and 44,549 ft of loss. Between the northern starting point at Calenzana to the finish at Conca in the south, there were hidden mountain lakes, expansive sea views, rugged and rocky cliffs, and remarkable panoramas.",
-      "Even though I had survived hiking in the Himalayas, this was definitely the hardest thru-hike I have ever done. It took me 13 days to complete it, over a distance of 131 miles."
+      "Considered to be the most difficult of all trails in Europe, the GR 20 is a footpath that traverses the Mediterranean island of Corsica from north to south along its spiny mountainous backbone.",
+      "Known locally as Fra Li Monti (Corsican for 'across the mountains'), it covers a distance of 131 miles and between the northern starting point at Calenzana to the finish at Conca in the south, there are hidden mountain lakes, expansive sea views, rugged and rocky cliffs, and remarkable panoramas."
     ],
     "gear": {
       "categories": [
@@ -16135,7 +16134,7 @@ const data = [
     "image": "2023/06/21/2cc8532b-6441-49fb-927e-ebdb001b78cf.jpeg",
     "label": "day",
     "location": "Corsica, France",
-    "slug": "fra-li-monti",
+    "slug": "gr-20",
     "stages": [
       {
         "date": "June 21st, 2023",
@@ -17224,6 +17223,7 @@ const data = [
           "end": {
             "position": "left",
             "words": [
+              "Refuge",
               "D'Ortu Di U",
               "Piobbu"
             ]
@@ -18324,6 +18324,7 @@ const data = [
           "end": {
             "position": "left",
             "words": [
+              "Refuge",
               "Carozzu"
             ]
           },
@@ -18331,6 +18332,7 @@ const data = [
           "start": {
             "position": "right",
             "words": [
+              "Refuge",
               "D'Ortu Di U",
               "Piobbu"
             ]
@@ -19423,13 +19425,15 @@ const data = [
           "end": {
             "position": "bottom",
             "words": [
-              "Ascu Stagnu"
+              "Refuge Ascu",
+              "Stagnu"
             ]
           },
           "isSame": false,
           "start": {
             "position": "right",
             "words": [
+              "Refuge",
               "Carozzu"
             ]
           }
@@ -20522,14 +20526,16 @@ const data = [
           "end": {
             "position": "right",
             "words": [
-              "U Vallone"
+              "Auberge U",
+              "Vallone"
             ]
           },
           "isSame": false,
           "start": {
             "position": "right",
             "words": [
-              "Ascu Stagnu"
+              "Refuge Ascu",
+              "Stagnu"
             ]
           }
         }
@@ -21621,6 +21627,7 @@ const data = [
           "end": {
             "position": "right",
             "words": [
+              "Hotel",
               "Castel di",
               "Vergio"
             ]
@@ -21629,7 +21636,8 @@ const data = [
           "start": {
             "position": "left",
             "words": [
-              "U Vallone"
+              "Auberge U",
+              "Vallone"
             ]
           }
         }
@@ -22721,6 +22729,7 @@ const data = [
           "end": {
             "position": "left",
             "words": [
+              "Refuge",
               "Manganu"
             ]
           },
@@ -22728,6 +22737,7 @@ const data = [
           "start": {
             "position": "right",
             "words": [
+              "Hotel",
               "Castel di",
               "Vergio"
             ]
@@ -23821,6 +23831,7 @@ const data = [
           "end": {
             "position": "bottom",
             "words": [
+              "Refuge",
               "Petra Piana"
             ]
           },
@@ -23828,6 +23839,7 @@ const data = [
           "start": {
             "position": "top",
             "words": [
+              "Refuge",
               "Manganu"
             ]
           }
@@ -24920,6 +24932,7 @@ const data = [
           "end": {
             "position": "bottom",
             "words": [
+              "Refuge",
               "l'Onda"
             ]
           },
@@ -24927,6 +24940,7 @@ const data = [
           "start": {
             "position": "top",
             "words": [
+              "Refuge",
               "Petra Piana"
             ]
           }
@@ -26025,6 +26039,7 @@ const data = [
           "start": {
             "position": "top",
             "words": [
+              "Refuge",
               "l'Onda"
             ]
           }
@@ -28217,6 +28232,7 @@ const data = [
           "end": {
             "position": "left",
             "words": [
+              "Refuge",
               "d'Usciolu"
             ]
           },
@@ -29317,6 +29333,7 @@ const data = [
           "end": {
             "position": "right",
             "words": [
+              "Refuge",
               "d'Asinau"
             ]
           },
@@ -29324,6 +29341,7 @@ const data = [
           "start": {
             "position": "right",
             "words": [
+              "Refuge",
               "d'Usciolu"
             ]
           }
@@ -30423,6 +30441,7 @@ const data = [
           "start": {
             "position": "right",
             "words": [
+              "Refuge",
               "d'Asinau"
             ]
           }
@@ -30477,15 +30496,14 @@ const data = [
     },
     "timestamp": "1687332000",
     "title": [
-      "Fra Li",
-      "Monti"
+      "The GR 20"
     ],
     "type": "thru-hike"
   },
   {
     "index": 4,
     "category": "destination",
-    "date": "Jan 3rd -  6th, 2023",
+    "date": "January 3rd -  6th, 2023",
     "description": [
       "Luxor is a city where history comes alive, from its towering temples to the ancient tombs of the Valley of the Kings. Walking among these wonders, you can feel the weight of thousands of years of civilization."
     ],
@@ -30923,7 +30941,7 @@ const data = [
   {
     "index": 5,
     "category": "destination",
-    "date": "Dec 29th, 2022 - Jan 2nd, 2023",
+    "date": "December 29th, 2022 - January 2nd, 2023",
     "description": [
       "Spending New Years Eve in a land of ancient wonders. Egypt is a place full of history and bustling cities, awe-inspiring pyramids, tombs, and amazing temples. Seeing them up close, and being able to touch them, is how history is meant to be experienced. We visited 4 destinations over 5 days."
     ],
@@ -42285,7 +42303,7 @@ const data = [
   {
     "index": 8,
     "category": "destination",
-    "date": "Mar 22nd -  25th, 2022",
+    "date": "March 22nd -  25th, 2022",
     "description": [
       "Escaping the trailing remnants of winter in Chicago by absconding last-minute down to Puerto Rico, walking its beaches, exploring the forts, and cliff jumping in the rain forests."
     ],
@@ -42456,7 +42474,7 @@ const data = [
   {
     "index": 9,
     "category": "trekking",
-    "date": "Feb 18th -  25th, 2020",
+    "date": "February 18th -  25th, 2020",
     "description": [
       "A tapestry of landscapes surrounded spires of granite, sprawling glaciers, pristine lakes, and windswept plains providing an idyllic background for thru-hiking 8 days and 73 miles in Chile.",
       "Here at the bottom of the world in Patagonia, with equal parts rustic and modern, the trail known as the 'O' Circuit circumnavigates the prominent Torres del Paine granite towers that the park is known for. But the real highlight of the circuit took place after summitting the ridge at John Gardner Pass at 3,874 feet and seeing the massive Grays Glacier layed out below, filling the horizon from end to end."
@@ -49805,7 +49823,7 @@ const data = [
   {
     "index": 10,
     "category": "trekking",
-    "date": "Oct 19th - Nov 6th, 2019",
+    "date": "October 19th - November 6th, 2019",
     "description": [
       "Ranging from tropical forests and waterfalls along paddy fields to the frozen arctic region of the Tibetan plateau at 17,763 feet, the Annapurna Circuit + Basecamp thru-hike spanned 18 days while winding its way around one of the eight tallest peaks in the world in the Himalayas of Nepal for 193 miles.",
       "The sheer amount of total elevation gain and loss (54,267 ft and 51,090 ft, respectfully), changing biomes, and nearly succumbing to hypothermia, led to this being one of my toughest treks."
@@ -80096,7 +80114,7 @@ const data = [
   {
     "index": 12,
     "category": "trekking",
-    "date": "Jul 16th -  25th, 2019",
+    "date": "July 16th -  25th, 2019",
     "description": [
       "In Northern Italy there is a mountain range known as the Dolomites, and they contain a series of seven trails collectively known as the Alta Via. This is a thru-hike of one of those trails: the Alta Via 1. Winding its way over 65 miles from North to South, this high route reached a maximum altitude of 9,129 feet and took 10 days to complete, while passing through a panorama of jagged ridges, vertical walls, and majestic towers, culminating in some of the most beautiful landscapes in the world."
     ],
@@ -91787,7 +91805,7 @@ const data = [
   {
     "index": 13,
     "category": "destination",
-    "date": "Nov 6th -  8th, 2019",
+    "date": "November 6th -  8th, 2019",
     "description": [
       "After completing the Annapurna Circuit and Basecamp treks I returned to the outdoor adventurist capital of Nepal: Pokhara. Here I explord the city for a few days, including going paragliding for the first time."
     ],
@@ -91958,7 +91976,7 @@ const data = [
   {
     "index": 14,
     "category": "trekking",
-    "date": "Sep 2nd -  13th, 2018",
+    "date": "September 2nd -  13th, 2018",
     "description": [
       "Encircling the Mont Blanc mountain in the Alps, the tour of this peak is a classic long-distance hike covering a distance of 106 miles while passing through France, Italy, and Switzerland. It offered a challenging experience filled with diverse landscapes, a unique blend of cultures, and stunning alpine charm across 12 days of hiking, all while sleeping in comfy mountain huts and eating warm home-cooked meals each night. The unofficially highest point on the trek, via an alternate route, was 9,010 feet.",
       "The sights from the trail, and at the mountain huts, are beautiful and well worth the 36,877 ft of total elevation gain and 36,701 ft of total elevation loss."
@@ -105827,7 +105845,7 @@ const data = [
   {
     "index": 15,
     "category": "trekking",
-    "date": "Jun 2nd - Jul 4th, 2018",
+    "date": "June 2nd - July 4th, 2018",
     "description": [
       "Starting high in the Pyrenees mountains between France and Spain, and leading to the Atlantic ocean, the Camino Frances is part of a series of ancient routes that unfold across Europe called the Camino de Santiago: a network of pilgrimages leading to the city of Santiago de Compostela in northwestern Spain. I spent 32 days walking 534 miles over hills and mountains, across deserts, through rivers, and in thick forests.",
       "It's hard to capture 32 days worth of experiences in these snapshots, but hopefully they offer a picture of my journey on this adventure, and a glimpse into the time spent on this thru-hike."
@@ -141718,7 +141736,7 @@ const data = [
   {
     "index": 16,
     "category": "destination",
-    "date": "Mar 25th -  27th, 2016",
+    "date": "March 25th -  27th, 2016",
     "description": [
       "I first learned about backpacking/trekking while in Patagonia, walking underneath the granite spires called Torres del Paine."
     ],
@@ -141893,7 +141911,7 @@ const data = [
   {
     "index": 17,
     "category": "destination",
-    "date": "Mar 18th -  24th, 2016",
+    "date": "March 18th -  24th, 2016",
     "description": [
       "I returned to South America for another international adventure, this time including Lollapalooza, discovering a passion for the wilderness by hiking into the Andes mountains in search of glaciers, and heading down to Patagonia."
     ],
@@ -142107,7 +142125,7 @@ const data = [
   {
     "index": 18,
     "category": "destination",
-    "date": "Mar 23rd -  25th, 2015",
+    "date": "March 23rd -  25th, 2015",
     "description": [
       "My first vacation abroad in South America continued with a quick plane ride over to Montevideo."
     ],
@@ -142200,7 +142218,7 @@ const data = [
   {
     "index": 19,
     "category": "destination",
-    "date": "Mar 19th -  22nd, 2015",
+    "date": "March 19th -  22nd, 2015",
     "description": [
       "I embarked on my first vacation abroad to South America, experiencing the sights and sounds of Buenos Aires and my first music festival at Lollapalooza."
     ],

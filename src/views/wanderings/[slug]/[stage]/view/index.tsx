@@ -1,16 +1,19 @@
-import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 import { Fragment } from 'react';
 
-import { LayoutAside, LayoutFooter, LayoutHeader, LayoutMain } from '@/layout';
-import { Article, ArticleFooter } from '@/ui/article';
-import { HeaderBack, HeaderHeading, HeaderSection } from '@/ui/header';
+import { Layout } from '@/layout';
+import {
+  Breadcrumb,
+  BreadcrumbEllipsis,
+  BreadcrumbList,
+  BreadcrumbItem,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+  BreadcrumbTruncate,
+} from '@/ui/breadcrumbs';
 import { Image, ImageFigure } from '@/ui/image';
-import { Eyebrow, Line, Paragraph, Subtitle, Title } from '@/ui/typography';
 
 import Navigation from './navigation';
-import Stats from './stats';
-import styles from './stylesheet';
 import { type Data } from './types';
 
 type Props = {
@@ -19,86 +22,74 @@ type Props = {
 
 export default function View({ data }: Props) {
   return (
-    <>
-      <LayoutHeader>
-        <HeaderBack
-          fallback={`/wanderings/${data.total === 1 ? '/' : data.slug}`}
-        />
-        <HeaderHeading>
-          <Eyebrow>
-            {data.location[0]} &mdash; {data.location[1]}
-          </Eyebrow>
-          {data.title.map((words, index: number) => (
-            <Line key={index}>{words}</Line>
-          ))}
-          <Subtitle>
-            {data.date}
-          </Subtitle>
-        </HeaderHeading>
-        {!!data.excerpt && (
-          <HeaderSection>
-            <Paragraph>
-              {data.excerpt}
-            </Paragraph>
-          </HeaderSection>
-        )}
-        {data.hasStats && (
-          <Stats stats={data.stats} />
-        )}
-      </LayoutHeader>
-      <LayoutMain>
+    <Layout group="wanderings">
+      <header>
+        <Breadcrumb>
+          <BreadcrumbList>
+            <BreadcrumbItem>
+              <Link href="/">
+                Home
+              </Link>
+            </BreadcrumbItem>
+            <BreadcrumbSeparator />
+            <BreadcrumbEllipsis />
+            <BreadcrumbSeparator />
+            <BreadcrumbItem>
+              <Link href={`/wanderings/${data.slug}`}>
+                <BreadcrumbTruncate text={data.parent.join(' ')} />
+              </Link>
+            </BreadcrumbItem>
+            <BreadcrumbSeparator />
+            <BreadcrumbItem>
+              <BreadcrumbPage>
+                <BreadcrumbTruncate text={data.title.join(' ')} />
+              </BreadcrumbPage>
+            </BreadcrumbItem>
+          </BreadcrumbList>
+        </Breadcrumb>
+        <h1 id="title">
+          <strong>{data.title.join(' ')}</strong>
+          <small>
+            {data.location.join(', ')} &mdash; {data.date}
+          </small>
+        </h1>
+      </header>
+      <article aria-labelledby="title">
+        {data.description.map((paragraph, index: number) => (
+          <Fragment key={paragraph}>
+            <p>
+              {paragraph}
+            </p>
+            {index === 0 && (
+              <ImageFigure className="my-6">
+                <Image
+                  alt=""
+                  height={1080}
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  src={data.image}
+                  width={1920}
+                />
+              </ImageFigure>
+            )}
+          </Fragment>
+        ))}
         {data.hasGpx && (
-          <LayoutAside top>
-            <Link
-              className={styles.link}
-              id="skip-to"
-              href={`/wanderings/${data.slug}/${data.index}/gpx`}
-            >
-              <Title shrink>
-                Route + Elevation
-                <Subtitle>
-                  Gpx Data + All Stats
-                </Subtitle>
-              </Title>
-              <ArrowRight className={styles.icon} />
-            </Link>
-          </LayoutAside>
+          <Link
+            className="stacked-link"
+            href={`/wanderings/${data.slug}/${data.index}/gpx`}
+          >
+            <strong>GPX Data</strong>
+            <small>Route, elevation, stats</small>
+          </Link>
         )}
-        <Article>
-          <h2 className={styles.heading}>
-            {data.snippet}
-          </h2>
-          {data.description.map((paragraph, index: number) => (
-            <Fragment key={paragraph}>
-              <Paragraph>
-                {paragraph}
-              </Paragraph>
-              {index === 0 && (
-                <ImageFigure className={styles.figure}>
-                  <Image
-                    alt=""
-                    color
-                    height={1080}
-                    sizes="(max-width: 768px) 100vw, 50vw"
-                    src={data.image}
-                    width={1920}
-                  />
-                </ImageFigure>
-              )}
-            </Fragment>
-          ))}
-          {data.hasNavigation && (
-            <ArticleFooter>
-              <Navigation
-                next={data.next}
-                previous={data.previous}
-                slug={data.slug}
-              />
-            </ArticleFooter>
-          )}
-        </Article>
-      </LayoutMain>
-      <LayoutFooter />
-    </>
+        {data.hasNavigation && (
+          <Navigation
+            next={data.next}
+            previous={data.previous}
+            slug={data.slug}
+          />
+        )}
+      </article>
+    </Layout>
   );
 }

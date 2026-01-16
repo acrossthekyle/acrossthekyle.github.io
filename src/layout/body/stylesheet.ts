@@ -3,12 +3,12 @@ import tw from '@/styles';
 const styles = tw({
   body: `
     antialiased
-    h-full
+    flex flex-col
+    h-auto min-h-full
+    p-6
 
-    dark:text-white light:text-black
-
-    base:flex
-    base:flex-col
+    sm:px-0
+    sm:py-8
   `,
 });
 

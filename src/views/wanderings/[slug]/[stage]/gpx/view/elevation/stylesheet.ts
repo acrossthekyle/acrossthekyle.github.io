@@ -3,14 +3,10 @@ import tw from '@/styles';
 const styles = tw({
   section: `
     relative
-    h-40 w-full
+    h-34 w-full
+    mt-4
     select-none
     touch-none
-    rounded-sm
-    overflow-hidden
-    border-t-1
-
-    dark:border-t-white/15 light:border-t-black/15
   `,
 });
 

@@ -1,9 +1,6 @@
 'use client';
 
-import { ArrowLeft, ArrowRight } from 'lucide-react';
-
 import type { Navigation } from '@/types';
-import { Eyebrow, Line, Title } from '@/ui/typography';
 
 import { useModel } from './model';
 import styles from './stylesheet';
@@ -28,14 +25,8 @@ export default function Navigation({ next, previous, slug }: Props) {
           onClick={() => handleOnNavigate(`/wanderings/${slug}/${previous.index}`)}
           type="button"
         >
-          <Title shrink>
-            <Eyebrow className={styles.left}>
-              <ArrowLeft className={styles.icon} /> Previous
-            </Eyebrow>
-            {previous.title.map((words) => (
-              <Line key={words}>{words}</Line>
-            ))}
-          </Title>
+          <small>Previous</small>
+          <strong>{previous.title.join(' ')}</strong>
         </button>
       )}
       {next !== undefined && (
@@ -44,14 +35,8 @@ export default function Navigation({ next, previous, slug }: Props) {
           onClick={() => handleOnNavigate(`/wanderings/${slug}/${next.index}`)}
           type="button"
         >
-          <Title shrink>
-            <Eyebrow className={styles.right}>
-              Next <ArrowRight className={styles.icon} />
-            </Eyebrow>
-            {next.title.map((words) => (
-              <Line key={words}>{words}</Line>
-            ))}
-          </Title>
+          <small>Next</small>
+          <small><strong>{next.title.join(' ')}</strong></small>
         </button>
       )}
     </nav>

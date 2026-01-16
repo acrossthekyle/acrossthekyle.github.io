@@ -11,6 +11,7 @@ export type Data = {
   index: string;
   location: string[];
   next?: Navigation;
+  parent: string[];
   previous?: Navigation;
   slug: string;
   snippet: string;

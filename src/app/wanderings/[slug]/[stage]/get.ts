@@ -31,11 +31,13 @@ export default function get(slug: string, stage: string) {
     location: [result.location, found.location],
     next: next ? {
       index: padIndex(next),
+      label: found.label,
       title: found.stages[next - 1].termini.end.words,
     } : undefined,
     parent: found.title,
     previous: previous ? {
       index: padIndex(previous),
+      label: found.label,
       title: found.stages[previous - 1].termini.end.words,
     } : undefined,
     slug,

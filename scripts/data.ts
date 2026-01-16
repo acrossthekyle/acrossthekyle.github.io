@@ -643,8 +643,8 @@ async function getTripDate(trip, stages) {
   if (trip.dates.length > 1) {
     const end = parseDate(trip.dates[1], 'M/dd/yyyy', new Date());
 
-    const monthA = formatDate(start, 'LLL');
-    const monthB = formatDate(end, 'LLL');
+    const monthA = formatDate(start, 'LLLL');
+    const monthB = formatDate(end, 'LLLL');
 
     const yearA = formatDate(start, 'yyyy').trim();
     const yearB = formatDate(end, 'yyyy').trim();

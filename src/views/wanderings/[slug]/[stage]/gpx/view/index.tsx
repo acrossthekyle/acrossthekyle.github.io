@@ -1,6 +1,15 @@
-import { LayoutFooter, LayoutHeader, LayoutMain } from '@/layout';
-import { HeaderBack, HeaderHeading } from '@/ui/header';
-import { Eyebrow, Subtitle } from '@/ui/typography';
+import Link from 'next/link';
+
+import { Layout } from '@/layout';
+import {
+  Breadcrumb,
+  BreadcrumbEllipsis,
+  BreadcrumbList,
+  BreadcrumbItem,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+  BreadcrumbTruncate,
+} from '@/ui/breadcrumbs';
 
 import Context from './context';
 import Elevation from './elevation';
@@ -14,25 +23,47 @@ type Props = {
 
 export default function View({ data }: Props) {
   return (
-    <>
-      <LayoutHeader>
-        <HeaderBack canSkipTo fallback={`/wanderings/${data.slug}/${data.index}`} />
-        <HeaderHeading>
-          <Eyebrow>
-            {data.title.join(' ')}
-          </Eyebrow>
-          Route + Elevation
-          <Subtitle>GPX Data + All Stats</Subtitle>
-        </HeaderHeading>
-        <Stats gpx={data.gpx} stats={data.stats} termini={data.termini} />
-      </LayoutHeader>
-      <LayoutMain>
+    <Layout group="wanderings">
+      <header>
+        <Breadcrumb>
+          <BreadcrumbList>
+            <BreadcrumbItem>
+              <Link href="/">
+                Home
+              </Link>
+            </BreadcrumbItem>
+            <BreadcrumbSeparator />
+            <BreadcrumbEllipsis />
+            <BreadcrumbSeparator />
+            <BreadcrumbEllipsis />
+            <BreadcrumbSeparator />
+            <BreadcrumbItem>
+              <Link href={`/wanderings/${data.slug}/${data.index}`}>
+                <BreadcrumbTruncate text={data.title.join(' ')} />
+              </Link>
+            </BreadcrumbItem>
+            <BreadcrumbSeparator />
+            <BreadcrumbItem>
+              <BreadcrumbPage>
+                GPX
+              </BreadcrumbPage>
+            </BreadcrumbItem>
+          </BreadcrumbList>
+        </Breadcrumb>
+        <h1>
+          <strong>GPX Data</strong>
+          <small>
+            Route, elevation, and stats
+          </small>
+        </h1>
+      </header>
+      <section aria-label="route and elevation profile">
         <Context>
-          <Route gpx={data.gpx} isSame={data.termini.isSame} />
+          <Route gpx={data.gpx} />
           <Elevation gpx={data.gpx} />
         </Context>
-      </LayoutMain>
-      <LayoutFooter />
-    </>
+      </section>
+      <Stats gpx={data.gpx} stats={data.stats} termini={data.termini} />
+    </Layout>
   );
 }
