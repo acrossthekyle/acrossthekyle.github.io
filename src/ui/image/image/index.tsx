@@ -10,7 +10,6 @@ type Props = {
   alt: string;
   className?: string;
   height: number;
-  index?: number;
   sizes: string;
   width: number;
 };
@@ -19,19 +18,15 @@ export default function Image({
   alt,
   className = '',
   height,
-  index,
   sizes,
   width,
 }: Props) {
-  const {
-    onLoad,
-    src,
-  } = useContext(ImageContext);
+  const { onLoad, src } = useContext(ImageContext);
 
   return (
     <NextJsImage
       alt={alt}
-      className={`${styles.image(index)} ${className}`.trim()}
+      className={`${styles.image} ${className}`.trim()}
       height={height}
       onLoad={onLoad}
       sizes={sizes}

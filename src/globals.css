@@ -80,7 +80,7 @@ body {
   }
 
   h1 {
-    margin-bottom: 1.5rem;
+    margin-bottom: 4rem;
   }
 
   h2 {
@@ -228,8 +228,9 @@ body {
     box-shadow: none !important;
     border: none !important;
     color: var(--foreground);
+    font-size: 0.8rem;
     font-weight: 400;
-    padding-right: 0rem !important;
-    padding-top: 0rem !important;
+    padding-right: 0.6rem !important;
+    padding-top: 0.4rem !important;
   }
 }

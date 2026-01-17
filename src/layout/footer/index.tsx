@@ -10,7 +10,7 @@ export default function Footer() {
           <li>
             <Link
               aria-label="send email"
-              className="font-mono text-tiny"
+              className={styles.link}
               href="mailto:hello@acrossthekyle.com"
             >
               Email
@@ -19,7 +19,7 @@ export default function Footer() {
           <li>
             <Link
               aria-label="view instagram profile"
-              className="font-mono text-tiny"
+              className={styles.link}
               href="https://instagram.com/acrossthekyle"
               target="_blank"
               rel="noreferrer"
@@ -30,7 +30,7 @@ export default function Footer() {
           <li>
             <Link
               aria-label="view linkedin profile"
-              className="font-mono text-tiny"
+              className={styles.link}
               href="https://linkedin.com/in/acrossthekyle"
               target="_blank"
               rel="noreferrer"

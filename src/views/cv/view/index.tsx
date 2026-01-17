@@ -37,7 +37,7 @@ export default function View({ data }: Props) {
         </Breadcrumb>
         <h1>
           <strong>Driven to create</strong>
-          <small>It's what motivates me</small>
+          <small>It's what motivates me to code.</small>
         </h1>
         <p>
           I'm a self-taught web developer/software engineer and making things with code thrills me to no end. With a strong background in <em>JavaScript/TypeScript</em>, and <em>HTML/CSS</em>, I have hands-on experience working with high-traffic, customer-facing products built with an attention to detail.
@@ -59,7 +59,6 @@ export default function View({ data }: Props) {
           Senior Fullstack Engineer &ndash; Earlybird Co
         </small>
       </p>
-
       <section className="mt-16">
         <h2>
           <strong>

@@ -17,32 +17,43 @@ export default function Header({ route }: Props) {
           className={styles.anchor}
           href="/"
         >
-          Kyle
+          K.
         </Link>
         <nav aria-label="main navigation" className={styles.nav}>
-          <ul>
-            <li className="inline mr-4">
+          <ul className="flex gap-4">
+            <li>
               <Link
-                aria-current={route === 'wanderings' ? 'page' : undefined}
-                data-active={route === 'wanderings'}
-                href="/wanderings"
+                aria-current={route === 'experiences' ? 'page' : undefined}
+                data-active={route === 'experiences'}
+                href="/experiences"
               >
-                Wanderings
+                Experiences
               </Link>
             </li>
-            <li className="inline">
+            {/*<li>
+              <Link
+                aria-current={route === 'writing' ? 'page' : undefined}
+                data-active={route === 'writing'}
+                href="/writing"
+              >
+                Writing
+              </Link>
+            </li>*/}
+            <li>
               <Link
                 aria-current={route === 'cv' ? 'page' : undefined}
                 data-active={route === 'cv'}
                 href="/cv"
               >
-                CV / Resume
+                Resume
               </Link>
+            </li>
+            <li>
+              <Theme />
             </li>
           </ul>
         </nav>
       </header>
-      <Theme />
     </>
   );
 }

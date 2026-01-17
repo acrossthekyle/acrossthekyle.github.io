@@ -7,8 +7,8 @@ const styles = tw({
     h-auto min-h-full
     p-6
 
-    sm:px-0
-    sm:py-8
+    md:px-0
+    md:py-8
   `,
 });
 

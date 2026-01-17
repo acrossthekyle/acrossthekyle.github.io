@@ -6,25 +6,26 @@ const styles = tw({
     w-full max-w-lg
     my-0 mx-auto
 
-    lg:block
+    md:block
   `,
   anchor: `
     text-xs
     uppercase
+    font-mono
 
-    lg:fixed
-    lg:top-8
-    lg:left-8
-    lg:z-9
+    md:fixed
+    md:top-8
+    md:left-8
+    md:z-9
   `,
   nav: `
     text-xs
     uppercase
 
-    lg:fixed
-    lg:top-8
-    lg:right-8
-    lg:z-9
+    md:fixed
+    md:top-8
+    md:right-8
+    md:z-9
   `,
 });
 
