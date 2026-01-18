@@ -19,7 +19,7 @@ export default function View() {
           width={960}
         />
         <p>
-          For the past {new Date().getFullYear() - 2012} years I've built numerous web apps because making things with code thrills me to no end, and it drives me to be creative. In my free time I like to explore the world. Over the last {new Date().getFullYear() - 2018} years I've been nearly everywhere, from the frozen peaks of the Himalays in Nepal, to the untamed windswept beauty of Patagonia in Southern Chile.
+          For the past {new Date().getFullYear() - 2012} years I've built numerous web apps because making things with code thrills me to no end, and it drives me to be creative. In my free time I like to explore the world. Over the last {new Date().getFullYear() - 2018} years I've been nearly everywhere, from the frozen peaks of the Himalayas in Nepal, to the untamed windswept beauty of Patagonia in Southern Chile.
         </p>
       </header>
       <p>
