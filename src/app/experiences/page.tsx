@@ -6,8 +6,8 @@ import { Fallback, View } from '@/views/experiences';
 import get from './get';
 
 export const metadata: Metadata = {
-  title: 'Wanderings',
-  description: `I've spent the last ${new Date().getFullYear() - 2018} years exploring the world. The mountains are my church, and after hiking thousands of miles nothing inspires me more than leaving the crowded city behind and heading into nature carrying everything I need on my back. If I can walk dozens of miles every day for a weeks on end, I can do anything.`,
+  title: 'Experiences',
+  description: `I love leaving the crowded city behind and heading into nature with everything I need on my back, letting the trail remind me how little it actually takes to feel whole. I've thru-hiked a lot of miles, and one thing's always been true: if I can see it, I can make it.`,
 };
 
 export default function Page() {

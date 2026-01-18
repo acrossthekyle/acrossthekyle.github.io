@@ -1,0 +1,18 @@
+{
+  "timestamp": "1538370000",
+  "date": {
+    "start": "2018",
+    "end": "2020"
+  },
+  "industry": "Healthcare",
+  "location": "Chicago, IL",
+  "overview": "Personalized data-driven health care",
+  "position": "Senior Frontend Engineer",
+  "responsibilities": [
+    "Built and launched a robust RX and pharmacy web application platform",
+    "Partnered with UX/UI to deliver responsive, user-friendly interfaces",
+    "Collaborated with backend and product teams to ensure seamless integration and support project execution"
+  ],
+  "title": ["Rally", "Health"],
+  "website": "www.rallyhealth.com"
+}

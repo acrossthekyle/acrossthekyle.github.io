@@ -1,4 +1,4 @@
-import db from '@/db';
+import db from '@/db/experiences';
 import { padIndex } from '@/utils';
 
 export default function get(slug: string, stage: string) {

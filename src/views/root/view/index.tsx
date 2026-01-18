@@ -8,10 +8,10 @@ export default function View() {
       <header>
         <h1>
           <strong>Hey, I'm Kyle</strong>
-          <small>A backpacker and software engineer.</small>
+          <small>A backpacker and software engineer living on the lands belonging to the <em>Potawatomi</em>, <em>Ojibwe</em>, and <em>Odawa</em> &mdash; otherwise known as the city of <em>Chicago</em>.</small>
         </h1>
         <p>
-          I live on the lands belonging to the <em>Potawatomi</em>, <em>Ojibwe</em>, and <em>Odawa</em> &mdash; otherwise known as the city of <em>Chicago</em>. I've spent the past {new Date().getFullYear() - 2012} years building web apps, and the last {new Date().getFullYear() - 2018} years exploring the world.
+          For the past {new Date().getFullYear() - 2012} years I've built numerous web apps because making things with code thrills me to no end, and it drives me to be creative. In my free time I like to explore the world. Over the last {new Date().getFullYear() - 2018} years I've been nearly everywhere, from the frozen peaks of the Himalays in Nepal, to the untamed windswept beauty of Patagonia in Southern Chile.
         </p>
         <Image
           alt="Picture of Kyle Gilbert"

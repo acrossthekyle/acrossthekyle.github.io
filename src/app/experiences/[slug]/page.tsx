@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 import { Suspense } from 'react';
 
 import { Fallback, View } from '@/views/experiences/[slug]';
@@ -41,7 +42,7 @@ export default async function Page({
   const data = get(slug.toLowerCase());
 
   if (data === null) {
-    return <Fallback />;
+    return notFound();
   }
 
   return (

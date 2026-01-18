@@ -2,8 +2,6 @@ import tw from '@/styles';
 
 const styles = tw({
   toggle: `
-    flex items-center justify-center
-
     md:top-8
     md:right-8
     md:right-8

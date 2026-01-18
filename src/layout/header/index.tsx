@@ -1,8 +1,7 @@
 import Link from 'next/link';
 
-import Theme from '@/ui/theme';
-
 import styles from './stylesheet';
+import Theme from './theme';
 
 type Props = {
   route?: string;
@@ -48,10 +47,8 @@ export default function Header({ route }: Props) {
                 Resume
               </Link>
             </li>
-            <li>
-              <Theme />
-            </li>
           </ul>
+          <Theme />
         </nav>
       </header>
     </>

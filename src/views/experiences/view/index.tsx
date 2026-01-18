@@ -65,10 +65,8 @@ export default function View({ data }: Props) {
               <strong>{item.title.join(' ')}</strong>
               <small>
                 <span className="capitalize">{item.type}</span> • {item.location}
-              </small>
-              <br />
-              <small className="!text-xs text-current/50">
-                {item.date}
+              </small> <small className="block text-current/50 md:inline">
+                <span className="hidden md:inline">&mdash;</span> {item.date}
               </small>
             </Link>
           </li>

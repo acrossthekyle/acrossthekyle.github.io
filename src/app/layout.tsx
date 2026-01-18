@@ -8,8 +8,8 @@ import { introduction } from './constants';
 
 export const metadata: Metadata = {
   title: {
-    template: `%s → Kyle → Wandering is Life.`,
-    default: 'Home → Kyle → Wandering is Life.',
+    template: `%s → Kyle → A backpacker and software engineer.`,
+    default: 'Home → Kyle → A backpacker and software engineer.',
   },
   keywords: [
     'across',

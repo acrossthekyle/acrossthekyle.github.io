@@ -1,4 +1,4 @@
-import db from '@/db';
+import db from '@/db/experiences';
 
 export default function get(slug: string) {
   const data = db.find((item) => item.slug.toLowerCase() === slug.toLowerCase());

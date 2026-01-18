@@ -83,6 +83,11 @@ body {
     margin-bottom: 1rem;
   }
 
+  a[data-active="true"] {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+
   a[target="_blank"]:after {
     content: "↗";
     font-size: 0.75rem;

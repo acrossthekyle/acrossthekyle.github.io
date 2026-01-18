@@ -1,0 +1,50 @@
+[
+  {
+    "name": "JavaScript",
+    "percent": 80
+  },
+  {
+    "name": "TypeScript",
+    "percent": 80
+  },
+  {
+    "name": "HTML",
+    "percent": 100
+  },
+  {
+    "name": "CSS",
+    "percent": 100
+  },
+  {
+    "name": "React",
+    "percent": 90
+  },
+  {
+    "name": "React Native",
+    "percent": 70
+  },
+  {
+    "name": "MySQL",
+    "percent": 60
+  },
+  {
+    "name": "Leadership",
+    "percent": 70
+  },
+  {
+    "name": "Planning",
+    "percent": 90
+  },
+  {
+    "name": "Scripting",
+    "percent": 50
+  },
+  {
+    "name": "Accessibility",
+    "percent": 80
+  },
+  {
+    "name": "Agile/Scrum",
+    "percent": 60
+  }
+]

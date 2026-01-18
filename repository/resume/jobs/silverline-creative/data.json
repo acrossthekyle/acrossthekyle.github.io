@@ -1,0 +1,17 @@
+{
+  "timestamp": "1330581600",
+  "date": {
+    "start": "2012",
+    "end": "2013"
+  },
+  "industry": "Tech",
+  "location": "Chicago, IL",
+  "overview": "Custom web design and development",
+  "position": "Junior Web Developer",
+  "responsibilities": [
+    "Maintained the RegistratioNATION website (CodeIgniter) for Red Frog Events",
+    "Supported and maintained multiple custom-built event websites"
+  ],
+  "title": ["Silverline", "Creative"],
+  "website": null
+}

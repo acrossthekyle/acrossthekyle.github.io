@@ -1,4 +1,4 @@
-import db from '@/db';
+import db from '@/db/experiences';
 import type { Gpx } from '@/types';
 
 export default function get(slug: string, stage: string) {

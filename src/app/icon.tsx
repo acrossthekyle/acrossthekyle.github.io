@@ -22,7 +22,7 @@ export default function Icon() {
           color: 'white',
         }}
       >
-        K
+        K.
       </div>
     ),
     {

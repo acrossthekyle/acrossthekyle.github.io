@@ -1,4 +1,6 @@
-// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 export type Data = {
-  //
+  author: string;
+  content: string;
+  date: string;
+  title: string;
 };

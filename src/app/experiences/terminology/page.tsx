@@ -4,8 +4,8 @@ import { Suspense } from 'react';
 import { Fallback, View } from '@/views/experiences/terminology';
 
 export const metadata: Metadata = {
-  title: 'Experiences Terminology',
-  description: `TBD.`,
+  title: 'Terminology → Experiences',
+  description: 'Hiking terminology explaind.',
 };
 
 export default function Page() {

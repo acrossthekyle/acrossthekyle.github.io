@@ -7,7 +7,7 @@ import get from './get';
 
 export const metadata: Metadata = {
   title: 'Writing',
-  description: `TBD.`,
+  description: 'All about words, a sort of mini-blog where I share my thoughts and opinions on things.',
 };
 
 export default function Page() {

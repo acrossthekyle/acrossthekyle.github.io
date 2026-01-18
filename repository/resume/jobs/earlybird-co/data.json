@@ -1,0 +1,19 @@
+{
+  "timestamp": "1430456400",
+  "date": {
+    "start": "2015",
+    "end": "2018"
+  },
+  "industry": "Tech",
+  "location": "Chicago, IL",
+  "overview": "Custom web design and development",
+  "position": "Fullstack Engineer",
+  "responsibilities": [
+    "Managed AWS services for client websites, including EC2, RDS, S3, and SMS",
+    "Built web applications from the ground up using Vue.js and AngularJS, following modern web standards",
+    "Designed and maintained APIs on Linux servers using PHP Laravel",
+    "Automated CI/CD deployments with custom Ansible scripts to ensure consistent releases"
+  ],
+  "title": ["Earlybird", "Co"],
+  "website": null
+}
