@@ -2,7 +2,6 @@ import '../globals.css';
 
 import type { Metadata, Viewport } from 'next';
 
-import History from '@/contexts/history';
 import { Body, Loader } from '@/layout';
 
 import { introduction } from './constants';
@@ -64,12 +63,10 @@ type Props = {
 export default function RootLayout({ children }: Props) {
   return (
     <html data-theme="dark" lang="en">
-      <History>
-        <Body>
-          {children}
-          <Loader />
-        </Body>
-      </History>
+      <Body>
+        {children}
+        <Loader />
+      </Body>
     </html>
   );
 }

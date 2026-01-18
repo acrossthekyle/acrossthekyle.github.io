@@ -275,7 +275,7 @@ async function parseGpx(folder: string) {
   }
 }
 
-async function parseMd(folder) {
+function parseMd(folder) {
   if (!fs.existsSync(path.join(trips, `${folder}/post.md`))) {
     return {
       description: undefined,
@@ -525,7 +525,7 @@ function calculateLoss(stages) {
   return loss > 0 ? loss : null;
 }
 
-async function getTripStats(trip, stages) {
+function getTripStats(trip, stages) {
   const altitude = calculateAltitude(stages);
   const distance = calculateDistance(stages);
   const gain = calculateGain(stages);
@@ -634,7 +634,7 @@ async function getTripStats(trip, stages) {
   };
 }
 
-async function getTripDate(trip, stages) {
+function getTripDate(trip, stages) {
   const start = parseDate(trip.dates[0], 'M/dd/yyyy', new Date());
   const year = formatDate(start, 'yyyy').trim();
 

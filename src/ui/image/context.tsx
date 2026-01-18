@@ -19,6 +19,8 @@ export default function Context({ children, src }: Props) {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
+    // necessary for nextjs image loading handling when src changes
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setIsLoading(true);
   }, [src]);
 

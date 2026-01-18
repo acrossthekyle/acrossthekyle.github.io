@@ -5,10 +5,16 @@ const styles = tw({
     relative
   `,
   options: `
-    absolute top-2.25 right-2
-    p-2
+    absolute top-0 right-0
+    h-full
+    p-2 px-4
     text-tiny uppercase
     font-bold
+    rounded-sm
+    border-1 border-(--foreground)/25
+    duration-300
+
+    hover:border-(--foreground)/50
   `,
   dialog: `
     p-6
@@ -41,7 +47,7 @@ const styles = tw({
     p-1.5
     text-tiny text-current/75
     border border-(--foreground)/50
-    rounded-lg
+    rounded-md
   `,
 });
 

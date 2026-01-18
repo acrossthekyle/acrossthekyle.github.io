@@ -6,6 +6,8 @@ export function useTheme() {
   const [current, setCurrent] = useState('light');
 
   useEffect(() => {
+    // necessary for next.js applications
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setCurrent(localStorage.getItem('theme') || 'light');
   }, []);
 

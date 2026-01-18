@@ -7,13 +7,21 @@ import Loading from '@/ui/loading';
 import styles from './stylesheet';
 
 export default function Loader() {
-  const [isLoaded, setIsLoaded] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    setIsLoaded(true);
+    if (document.readyState === 'complete') {
+      // necessary for next.js applications
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setIsLoading(false);
+    } else {
+      window.addEventListener('load', () => setIsLoading(false));
+
+      return () => window.removeEventListener('load', () => setIsLoading(false));
+    }
   }, []);
 
-  if (isLoaded) {
+  if (!isLoading) {
     return null;
   }
 

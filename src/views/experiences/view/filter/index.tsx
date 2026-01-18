@@ -48,7 +48,7 @@ export default function Filter({ data, onChange }: Props) {
         onClick={handleOnDialogOpen}
         type="button"
       >
-        Options
+        Filter
       </button>
       <dialog
         className={`${styles.dialog} ${isDialogActive ? 'is-active' : ''}`.trim()}

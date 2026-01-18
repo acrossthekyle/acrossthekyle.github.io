@@ -36,19 +36,14 @@ export default function View({ data }: Props) {
           </BreadcrumbList>
         </Breadcrumb>
         <h1>
-          <strong>All about writing</strong>
-          <small>My thoughts and opinions.</small>
+          <strong>All about words</strong>
+          <small>A sort of mini-blog.</small>
         </h1>
-        <p>
-          From time to time I'll share my thoughts about things. Could be
-          about what I'm currently watching, or why I personally feel that car
-          horns are a nuissance.
-        </p>
       </header>
       <article>
         <h2>
-          <strong>The nth site redesign</strong>
-          <small>Jan 17th, 2026</small>
+          <strong>From more to less</strong>
+          <small>January 17th, 2026</small>
         </h2>
         <p>
           I've redesigned this website more times than I can count, with each

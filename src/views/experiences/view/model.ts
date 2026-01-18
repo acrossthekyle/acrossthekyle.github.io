@@ -1,21 +1,16 @@
 'use client';
 
 import Fuse from 'fuse.js';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 import { type Data } from './types';
 
 export function useModel(data: Data[]) {
-  const [fuse, setFuse] = useState<Fuse<Data> | null>(null);
-  const [items, setItems] = useState(data);
+  const fuse: Fuse<Data> = new Fuse(data, {
+    keys: ['date', 'location', 'title'],
+  });
 
-  useEffect(() => {
-    if (fuse === null) {
-      setFuse(new Fuse(data, {
-        keys: ['date', 'location', 'title'],
-      }));
-    }
-  }, [fuse, data]);
+  const [items, setItems] = useState(data);
 
   const handleOnFilter = (
     search: string,

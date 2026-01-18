@@ -4,20 +4,20 @@ const styles = tw({
   container: `
     relative
     block
-    mb-8
+    mb-8 mr-23
   `,
   search: `
     relative
     flex items-center gap-2
-    h-12 w-full
+    h-10 w-full
     rounded-sm
-    duration-300
     outline-1 outline-(--foreground)/25
+    duration-300
 
     hover:outline-(--foreground)/50
   `,
   icon: `
-    absolute top-4.25 left-3
+    absolute top-3.25 left-3
     w-4 h-4
     stroke-2 stroke-current/50
   `,
