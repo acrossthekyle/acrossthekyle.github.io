@@ -1,80 +1,47 @@
-import tw, { padding } from '@/styles';
+import tw from '@/styles';
 
 const styles = tw({
   container: `
     relative
   `,
   options: `
-    absolute top-7.5 right-7.5 bottom-7.5
+    absolute top-2.25 right-2
     p-2
-    text-tiny uppercase text-current/50
+    text-tiny uppercase
     font-bold
-    rounded-sm
-    duration-300
-
-    hover:text-current/100
-
-    base:top-9.5
-    base:right-9.5
-    base:bottom-9.5
-    hecto:top-13.5
-    hecto:right-13.5
-    hecto:bottom-13.5
-    kilo:top-17.5
-    kilo:right-17.5
-    kilo:bottom-17.5
   `,
   dialog: `
-    dark:text-white light:text-black
+    p-6
 
-    ${padding.full}
-
-    base:dark:bg-transparent
-    base:light:bg-transparent
+    md:p-8
+    md:pt-23
   `,
   form: `
-    flex flex-col gap-8
-    mt-8
-  `,
-  close: `
-    absolute top-5 right-5
-
-    base:top-7
-    base:right-8
-    hecto:top-11
-    hecto:right-12
-    kilo:top-15
-    kilo:right-16
+    relative
+    flex flex-col gap-4
+    w-full max-w-lg
+    my-0 mx-auto
   `,
   heading: `
-    mb-6
+    !mb-2
+  `,
+  close: `
+    absolute top-0 right-0
+
+    md:top-0
+    md:right-0
   `,
   footer: `
     hidden
-    absolute bottom-6 right-6
-    w-full
-    items-center justify-end
-    text-tiny text-current/50
-    font-bold
-    uppercase
+    absolute bottom-8 right-8
 
-    base:flex
-    base:bottom-8
-    base:right-8
-    hecto:bottom-12
-    hecto:right-12
-    kilo:bottom-16
-    kilo:right-16
+    md:block
   `,
   kbd: `
-    mr-2
-    px-1.5 py-1
-    text-current/80
-    border
-    rounded-md
-
-    dark:border-white/10 light:border-black/10
-    dark:bg-white/10 light:bg-black/10
+    p-1.5
+    text-tiny text-current/75
+    border border-(--foreground)/50
+    rounded-lg
   `,
 });
 

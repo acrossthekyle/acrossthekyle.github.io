@@ -29,7 +29,6 @@ export default function Radio({
         {count !== undefined && (
           <>
             {count > 1 && expected !== 'everything' ? 's' : ''}
-            <span className={styles.count}>({count})</span>
           </>
         )}
       </span>

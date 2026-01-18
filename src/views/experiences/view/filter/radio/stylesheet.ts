@@ -2,8 +2,8 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    flex items-center gap-3
-    mb-2
+    flex items-center gap-2.5
+    mb-0.5
     cursor-pointer
   `,
   radio: `
@@ -13,38 +13,24 @@ const styles = tw({
   dot: (isChecked: boolean) => tw(`
     relative
     flex items-center justify-center
-    w-3.5 h-3.5
+    w-3 h-3
     rounded-full
-    border
-
-    dark:border-white light:border-black
+    border border-(--foreground)
 
     ${isChecked && `
       after:content-['']
-      after:w-1.5
-      after:h-1.5
+      after:w-1
+      after:h-1
       after:rounded-full
       after:absolute
-
-      dark:after:bg-white light:after:bg-black
-      dark:border-white light:border-black
+      after:bg-(--foreground)
     `}
   `),
   text: `
     relative
     flex flex-row justify-end items-center
     capitalize
-    text-base
-    font-normal
     select-none
-
-    tera:text-xl
-    peta:text-2xl
-  `,
-  count: `
-    ml-2
-    italic
-    font-serif
   `,
 });
 

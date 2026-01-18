@@ -24,6 +24,7 @@ export default function Filter({ data, onChange }: Props) {
     dialogRef,
     filterBy,
     handleOnDialogCancel,
+    handleOnDialogClose,
     handleOnDialogOpen,
     handleOnDialogSubmit,
     handleOnFilter,
@@ -50,20 +51,31 @@ export default function Filter({ data, onChange }: Props) {
         Options
       </button>
       <dialog
-        aria-labelledby="options-title"
         className={`${styles.dialog} ${isDialogActive ? 'is-active' : ''}`.trim()}
         id="options"
         ref={dialogRef}
         onCancel={handleOnDialogCancel}
       >
-        <h2 id="options-title">Options</h2>
+        <h2 className="relative w-full max-w-lg my-0 mx-auto">
+          <strong>Filters</strong>
+          <small>Focus on a category, or change the order.</small>
+          <button
+            aria-label="exit options"
+            autoFocus
+            className={styles.close}
+            onClick={handleOnDialogClose}
+            type="button"
+          >
+            <X />
+          </button>
+        </h2>
         <form
           className={styles.form}
           method="dialog"
           onSubmit={handleOnDialogSubmit}
         >
           <section aria-label="filter by category">
-            <h2 className={styles.heading}>View</h2>
+            <h3 className={styles.heading}>Category</h3>
             <Radio
               count={20}
               current={filterBy}
@@ -83,7 +95,7 @@ export default function Filter({ data, onChange }: Props) {
             ))}
           </section>
           <section aria-label="sort by date or title">
-            <h2 className={styles.heading}>By</h2>
+            <h3 className={styles.heading}>Sort by</h3>
             <Radio
               current={sortBy}
               expected="date"
@@ -98,7 +110,7 @@ export default function Filter({ data, onChange }: Props) {
             />
           </section>
           <section aria-label="sort direction">
-            <h2 className={styles.heading}>From</h2>
+            <h3 className={styles.heading}>Order from</h3>
             <Radio
               current={orderBy}
               expected="descending"
@@ -112,17 +124,9 @@ export default function Filter({ data, onChange }: Props) {
               text={sortBy === 'date' ? 'Oldest to Newest' : 'A - Z'}
             />
           </section>
-          <button
-            aria-label="exit options"
-            autoFocus
-            className={styles.close}
-            type="submit"
-          >
-            <X />
-          </button>
         </form>
         <footer className={styles.footer}>
-          <kbd className={styles.kbd}>Esc</kbd> Close
+          <kbd className={styles.kbd}>Esc</kbd>
         </footer>
       </dialog>
     </section>

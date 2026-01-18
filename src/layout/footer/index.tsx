@@ -7,6 +7,15 @@ export default function Footer() {
     <footer className={styles.container}>
       <nav aria-label="supplementary navigation">
         <ul className={styles.links}>
+          {/*<li>
+            <button
+              className={styles.link}
+              onClick={() => {}}
+              type="button"
+            >
+              Colophon
+            </button>
+          </li>*/}
           <li>
             <Link
               aria-label="send email"

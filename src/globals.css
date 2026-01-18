@@ -16,19 +16,6 @@
 }
 
 @theme {
-  --breakpoint-nano: 19.375rem; /* 310px */
-  --breakpoint-micro: 20.9375rem; /* 335px */
-  --breakpoint-milli: 24.375rem; /* 390px */
-  --breakpoint-centi: 27.5rem; /* 440px */
-  --breakpoint-deci: 35rem; /* 560px */
-  --breakpoint-base: 48rem; /* 768px */
-  --breakpoint-hecto: 64rem; /* 1024px: */
-  --breakpoint-kilo: 80rem; /* 1280px */
-  --breakpoint-mega: 91.875rem; /* 1470px */
-  --breakpoint-giga: 96rem; /* 1536px */
-  --breakpoint-tera: 120rem; /* 1920px */
-  --breakpoint-peta: 160rem; /* 2560px */
-
   --text-tiny: 0.6875rem; /* 11px */
 
   --font-weight-extrablack: 1000;
@@ -118,6 +105,8 @@ body {
   }
 
   dialog {
+    background: transparent;
+    color: var(--foreground);
     height: 100%;
     max-height: 100%;
     max-width: 100%;

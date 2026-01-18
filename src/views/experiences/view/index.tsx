@@ -1,3 +1,5 @@
+'use client';
+
 import Link from 'next/link';
 
 import { Layout } from '@/layout';
@@ -9,6 +11,8 @@ import {
   BreadcrumbSeparator,
 } from '@/ui/breadcrumbs';
 
+import Filter from './filter';
+import { useModel } from './model';
 import type { Data } from './types';
 
 type Props = {
@@ -16,6 +20,8 @@ type Props = {
 };
 
 export default function View({ data }: Props) {
+  const { handleOnFilter, items } = useModel(data);
+
   return (
     <Layout group="experiences">
       <header>
@@ -47,8 +53,9 @@ export default function View({ data }: Props) {
           one thing's always been true: <em>if I can see it, I can make it</em>.
         </p>
       </header>
+      <Filter data={data} onChange={handleOnFilter} />
       <ul aria-label="experiences navigation" className="flex flex-col gap-6">
-        {data.map((item, index: number) => (
+        {items.map((item, index: number) => (
           <li key={index}>
             <Link
               className="block relative"

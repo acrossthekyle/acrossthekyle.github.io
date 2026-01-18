@@ -24,7 +24,7 @@ const styles = tw({
 
     md:fixed
     md:top-8
-    md:right-8
+    md:right-4
     md:z-9
   `,
 });

@@ -21,7 +21,7 @@ export default function Search({ onChange, searchBy }: Props) {
         <input
           className={styles.input}
           onChange={onChange}
-          placeholder={`Search Wanderings`}
+          placeholder="Search"
           type="text"
           value={searchBy}
         />

@@ -30,7 +30,7 @@ export default function Header({ route }: Props) {
                 Experiences
               </Link>
             </li>
-            {/*<li>
+            <li>
               <Link
                 aria-current={route === 'writing' ? 'page' : undefined}
                 data-active={route === 'writing'}
@@ -38,7 +38,7 @@ export default function Header({ route }: Props) {
               >
                 Writing
               </Link>
-            </li>*/}
+            </li>
             <li>
               <Link
                 aria-current={route === 'cv' ? 'page' : undefined}

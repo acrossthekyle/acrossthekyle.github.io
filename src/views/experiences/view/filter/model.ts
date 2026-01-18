@@ -141,6 +141,7 @@ export function useModel(
     dialogRef,
     filterBy,
     handleOnDialogCancel,
+    handleOnDialogClose,
     handleOnDialogOpen,
     handleOnDialogSubmit,
     handleOnFilter,
