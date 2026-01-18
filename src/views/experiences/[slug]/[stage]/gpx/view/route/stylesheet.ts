@@ -4,8 +4,7 @@ const styles = tw({
   section: `
     relative z-0
     h-100 w-full
-    border-1 border-(--foreground)/15
-    border-t-0
+    border-1 border-(--foreground)/15 border-t-0
     rounded-b-lg
     overflow-hidden
   `,
@@ -15,18 +14,14 @@ const styles = tw({
   `,
   route: `
     relative z-0
-    stroke-4
+    stroke-4 stroke-[#1b1b1b]
     !pointer-events-none
-
-    stroke-[#1b1b1b]
   `,
   outer: `
     relative
-    stroke-8
-    !pointer-events-none
-
+    stroke-8 stroke-[#1b1b1b]
     fill-[#1b1b1b]
-    stroke-[#1b1b1b]
+    !pointer-events-none
   `,
 });
 

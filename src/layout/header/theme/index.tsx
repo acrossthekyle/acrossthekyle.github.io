@@ -1,15 +1,16 @@
 'use client';
 
-import { useModel } from './model';
+import { useTheme } from '@/hooks/useTheme';
+
 import styles from './stylesheet';
 
 export default function Theme() {
-  const { handleOnSwitchTheme } = useModel();
+  const { onToggleTheme } = useTheme();
 
   return (
     <button
       className={styles.toggle}
-      onClick={handleOnSwitchTheme}
+      onClick={onToggleTheme}
       title="Toggle theme"
       type="button"
     >

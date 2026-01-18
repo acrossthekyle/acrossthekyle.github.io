@@ -10,6 +10,7 @@ import {
   BreadcrumbTruncate,
 } from '@/ui/breadcrumbs';
 
+import styles from './stylesheet';
 import type { Data } from './types';
 
 type Props = {
@@ -53,13 +54,15 @@ export default function View({ data }: Props) {
         </h1>
       </header>
       {data.categories.map((category) => (
-        <section className="mt-8 first:mt-0" key={category.title}>
+        <section className={styles.section} key={category.title}>
           <h2>
-            <small><strong>{category.title}</strong></small>
+            <strong>
+              <small>{category.title}</small>
+            </strong>
           </h2>
-          <ul className="">
+          <ul>
             {category.items.map((item, index: number) => (
-              <li className="inline capitalize mr-4 last:mr-0" key={index}>
+              <li className={styles.item} key={index}>
                 {!!item.link ? (
                   <Link
                     href={item.link}

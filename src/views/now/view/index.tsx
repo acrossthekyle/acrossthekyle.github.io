@@ -9,6 +9,8 @@ import {
   BreadcrumbSeparator,
 } from '@/ui/breadcrumbs';
 
+import styles from './stylesheet';
+
 export default function View() {
   return (
     <Layout group="now">
@@ -40,9 +42,9 @@ export default function View() {
         <h2>
           What I'm doing:
         </h2>
-        <ul className="list-disc ml-4 mb-16">
+        <ul className={styles.list}>
           <li>
-            Reading "The Dark Forest" by Liu Cixin
+            Reading "The Dark Forest" by Liu Cixin, and "A Clash of Kings" by George R.R. Martin
           </li>
           <li>
             Wrapped up a re-watch of Star Trek: Voyager

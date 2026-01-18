@@ -64,17 +64,11 @@ export type Stats = {
 export type Stage = {
   date: string;
   description: string[];
-  hasStats?: boolean;
   image: string;
   index: string;
   location: string;
   snippet: string;
   termini: Termini;
-};
-
-export enum Orientation {
-  Landscape = 'landscape',
-  Portrait = 'portrait',
 };
 
 export type Navigation = {

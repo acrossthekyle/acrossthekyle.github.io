@@ -1,4 +1,4 @@
-import type { Navigation, Stats } from '@/types';
+import type { Navigation } from '@/types';
 
 export type Data = {
   date: string;
@@ -6,7 +6,6 @@ export type Data = {
   excerpt: string;
   hasGpx: boolean;
   hasNavigation: boolean;
-  hasStats: boolean;
   image: string;
   index: string;
   location: string[];
@@ -15,7 +14,6 @@ export type Data = {
   previous?: Navigation;
   slug: string;
   snippet: string;
-  stats: Stats;
   total: number;
   title: string[];
 };

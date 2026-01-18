@@ -4,7 +4,6 @@ import NextJsImage from 'next/image';
 import { useContext } from 'react';
 
 import { ImageContext } from '../context';
-import styles from './stylesheet';
 
 type Props = {
   alt: string;
@@ -26,7 +25,7 @@ export default function Image({
   return (
     <NextJsImage
       alt={alt}
-      className={`${styles.image} ${className}`.trim()}
+      className={className}
       height={height}
       onLoad={onLoad}
       sizes={sizes}

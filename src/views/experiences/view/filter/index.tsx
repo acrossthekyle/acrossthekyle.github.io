@@ -56,9 +56,11 @@ export default function Filter({ data, onChange }: Props) {
         ref={dialogRef}
         onCancel={handleOnDialogCancel}
       >
-        <h2 className="relative w-full max-w-lg my-0 mx-auto">
-          <strong>Filters</strong>
-          <small>Focus on a category, or change the order.</small>
+        <header className={styles.header}>
+          <h2>
+            <strong>Filters</strong>
+            <small>Focus on a category, or change the order.</small>
+          </h2>
           <button
             aria-label="exit options"
             autoFocus
@@ -68,7 +70,7 @@ export default function Filter({ data, onChange }: Props) {
           >
             <X />
           </button>
-        </h2>
+        </header>
         <form
           className={styles.form}
           method="dialog"

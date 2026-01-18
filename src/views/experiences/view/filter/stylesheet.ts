@@ -22,6 +22,9 @@ const styles = tw({
     md:p-8
     md:pt-23
   `,
+  header: `
+    max-w-lg
+  `,
   form: `
     relative
     flex flex-col gap-4

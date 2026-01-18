@@ -7,8 +7,8 @@ const styles = tw({
     p-0
     overflow-hidden
     uppercase
-    text-xs
-    font-bold
+    text-tiny
+    font-extrablack
 
     focus:w-auto
     focus:h-auto

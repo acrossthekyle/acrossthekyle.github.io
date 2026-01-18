@@ -19,7 +19,7 @@ export default function Header({ route }: Props) {
           K.
         </Link>
         <nav aria-label="main navigation" className={styles.nav}>
-          <ul className="flex gap-4">
+          <ul className={styles.list}>
             <li>
               <Link
                 aria-current={route === 'experiences' ? 'page' : undefined}

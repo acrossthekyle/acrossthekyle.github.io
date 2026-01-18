@@ -16,9 +16,7 @@ type Props = {
 export default function Body({ children }: Props) {
   return (
     <body className={`${geistSans.variable} ${styles.body}`}>
-      <Script
-        id="theme-script"
-      >
+      <Script id="theme-script">
         {`
           (function () {
             let currentTheme = 'light';

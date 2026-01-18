@@ -11,6 +11,7 @@ import {
 } from '@/ui/breadcrumbs';
 import { Image } from '@/ui/image';
 
+import styles from './stylesheet';
 import type { Data } from './types';
 
 type Props = {
@@ -44,9 +45,9 @@ export default function View({ data }: Props) {
         </Breadcrumb>
         <h1>
           <strong>{data.title.join(' ')}</strong>
-          <small className="capitalize">{data.type} • {data.location}</small>
+          <small className={styles.capitalize}>{data.type} • {data.location}</small>
           <br />
-          <small className="text-current/50">{data.date}</small>
+          <small className={styles.date}>{data.date}</small>
         </h1>
         {data.description.map((paragraph) => (
           <p key={paragraph}>
@@ -55,20 +56,20 @@ export default function View({ data }: Props) {
         ))}
       </header>
       <h2>
-        <strong className="capitalize">Travelogue</strong>
+        <strong className={styles.meta}>Travelogue</strong>
         <small>A catalog of this {data.type}</small>
       </h2>
-      <ul className="grid grid-cols-3 sm:grid-cols-4 gap-4">
+      <ul className={styles.list}>
         {data.stages.map((stage, index: number) => (
           <li key={stage.index}>
             <Link
-              className="relative"
+              className={styles.link}
               href={`/experiences/${data.slug}/${stage.index}`}
               id={index === 0 ? 'skip-to' : undefined}
             >
               <Image
                 alt={stage.termini.end.words.join(' ')}
-                className="aspect-square duration-300 hover:scale-110"
+                className={styles.image}
                 height={1080}
                 sizes="(max-width: 768px) 100vw, 50vw"
                 src={stage.image}

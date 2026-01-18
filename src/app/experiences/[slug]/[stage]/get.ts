@@ -25,7 +25,6 @@ export default function get(slug: string, stage: string) {
     excerpt: result.excerpt,
     hasGpx: result.hasGpx,
     hasNavigation: next !== undefined || previous !== undefined,
-    hasStats: result.hasStats,
     image: result.image,
     index: stage,
     location: [result.location, found.location],

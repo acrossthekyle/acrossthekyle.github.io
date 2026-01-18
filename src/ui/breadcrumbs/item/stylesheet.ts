@@ -4,9 +4,8 @@ const styles = tw({
   container: `
     inline-block
     text-xs text-current/50
-    uppercase
+    uppercase truncate
     duration-300
-    truncate
 
     hover:text-current/100
   `,

@@ -1,10 +1,9 @@
 import tw from '@/styles';
 
 const styles = tw({
-  image: `
-    object-cover
-    w-full h-full
-    rounded-lg
+  list: `
+    list-disc
+    ml-4 mb-16
   `,
 });
 

@@ -59,7 +59,7 @@ export default function View({ data }: Props) {
           Senior Fullstack Engineer &ndash; Earlybird Co
         </small>
       </p>
-      <section className="mt-16">
+      <section className={styles.section}>
         <h2>
           <strong>
             Skills
@@ -82,15 +82,14 @@ export default function View({ data }: Props) {
           ))}
         </ul>
       </section>
-
-      <section className="mt-16">
+      <section className={styles.section}>
         <h2>
           <strong>
             Work Experience
           </strong>
         </h2>
         {data.history.map((item, index: number) => (
-          <article className="mt-2 mb-8" key={index}>
+          <article className={styles.article} key={index}>
             <h3 className={styles.spread}>
               {item.position}
               <small>
@@ -118,8 +117,7 @@ export default function View({ data }: Props) {
           </article>
         ))}
       </section>
-
-      <section className="mt-16">
+      <section className={styles.section}>
         <h2>
           <strong>
             Education

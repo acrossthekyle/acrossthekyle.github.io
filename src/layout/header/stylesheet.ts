@@ -3,8 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     flex justify-between
-    w-full max-w-lg
-    my-0 mx-auto
+    max-w-lg
     text-xs
     uppercase
     font-mono
@@ -17,10 +16,14 @@ const styles = tw({
   `,
   nav: `
     flex items-center gap-4
+
     md:fixed
     md:top-8
     md:right-8
     md:z-9
+  `,
+  list: `
+    flex gap-4
   `,
 });
 

@@ -1,6 +1,12 @@
 import tw from '@/styles';
 
 const styles = tw({
+  section: `
+    mt-16
+  `,
+  article: `
+    mt-2 mb-8
+  `,
   spread: `
     flex items-end justify-between
   `,

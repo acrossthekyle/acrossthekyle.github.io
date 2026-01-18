@@ -13,6 +13,7 @@ import {
 
 import Filter from './filter';
 import { useModel } from './model';
+import styles from './stylesheet';
 import type { Data } from './types';
 
 type Props = {
@@ -54,19 +55,20 @@ export default function View({ data }: Props) {
         </p>
       </header>
       <Filter data={data} onChange={handleOnFilter} />
-      <ul aria-label="experiences navigation" className="flex flex-col gap-6">
+      <ul aria-label="experiences navigation" className={styles.list}>
         {items.map((item, index: number) => (
           <li key={index}>
             <Link
-              className="block relative"
+              className={styles.link}
               href={`/experiences/${item.slug}`}
               id={index === 0 ? 'skip-to' : undefined}
             >
               <strong>{item.title.join(' ')}</strong>
               <small>
-                <span className="capitalize">{item.type}</span> • {item.location}
-              </small> <small className="block text-current/50 md:inline">
-                <span className="hidden md:inline">&mdash;</span> {item.date}
+                <span className={styles.type}>{item.type}</span> • {item.location}
+              </small>
+              <small className={styles.date}>
+                <span className={styles.dash}>&mdash;</span> {item.date}
               </small>
             </Link>
           </li>
