@@ -25,7 +25,7 @@ const styles = tw({
     w-full h-full
     pl-10
     text-white text-sm
-    placeholder-gray-500 placeholder:uppercase placeholder:text-xs
+    placeholder-gray-500 placeholder:uppercase placeholder:font-mono placeholder:text-xs
     bg-transparent
   `,
 });

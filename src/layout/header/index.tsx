@@ -1,10 +1,12 @@
 import Link from 'next/link';
 
+import Dialog from './dialog';
+import Navigation from './navigation';
 import styles from './stylesheet';
 import Theme from './theme';
 
 type Props = {
-  route?: string;
+  route: string;
 };
 
 export default function Header({ route }: Props) {
@@ -19,44 +21,8 @@ export default function Header({ route }: Props) {
           K.
         </Link>
         <nav aria-label="main navigation" className={styles.nav}>
-          <ul className={styles.list}>
-            <li>
-              <Link
-                aria-current={route === 'experiences' ? 'page' : undefined}
-                data-active={route === 'experiences'}
-                href="/experiences"
-              >
-                Experiences
-              </Link>
-            </li>
-            <li>
-              <Link
-                aria-current={route === 'writing' ? 'page' : undefined}
-                data-active={route === 'writing'}
-                href="/writing"
-              >
-                Writing
-              </Link>
-            </li>
-            <li>
-              <Link
-                aria-current={route === 'art' ? 'page' : undefined}
-                data-active={route === 'art'}
-                href="/art"
-              >
-                Art
-              </Link>
-            </li>
-            <li>
-              <Link
-                aria-current={route === 'resume' ? 'page' : undefined}
-                data-active={route === 'resume'}
-                href="/resume"
-              >
-                Resume
-              </Link>
-            </li>
-          </ul>
+          <Navigation className={styles.list} route={route} />
+          <Dialog route={route} />
           <Theme />
         </nav>
       </header>

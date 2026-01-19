@@ -43,7 +43,7 @@ export default function Filter({ data, onChange }: Props) {
       <Search onChange={handleOnSearch} searchBy={searchBy} />
       <button
         aria-controls="options"
-        aria-label="toggle filter and sort dialog"
+        aria-label="open filter and sort dialog"
         className={styles.options}
         onClick={handleOnDialogOpen}
         type="button"
@@ -58,8 +58,7 @@ export default function Filter({ data, onChange }: Props) {
       >
         <header className={styles.header}>
           <h2>
-            <strong>Filters</strong>
-            <small>Focus on a category, or change the order.</small>
+            <strong>Filter</strong>
           </h2>
           <button
             aria-label="exit options"

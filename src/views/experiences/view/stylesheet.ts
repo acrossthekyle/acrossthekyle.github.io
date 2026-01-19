@@ -8,17 +8,9 @@ const styles = tw({
     block
     relative
   `,
-  type: `
-    capitalize
-  `,
   date: `
     block
-    text-current/50
-  `,
-  dash: `
-    hidden
-
-    md:inline
+    !text-xs text-current/50
   `,
 });
 

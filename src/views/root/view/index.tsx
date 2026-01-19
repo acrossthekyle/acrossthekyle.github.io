@@ -1,6 +1,10 @@
+import { ArrowRight } from 'lucide-react';
+import Link from 'next/link';
 import Image from 'next/image';
 
 import { Layout } from '@/layout';
+
+import styles from './stylesheet';
 
 export default function View() {
   return (
@@ -12,7 +16,7 @@ export default function View() {
         </h1>
         <Image
           alt="Picture of Kyle"
-          className="w-full max-w-3xs mt-0 mb-16 mx-auto"
+          className={styles.image}
           height={540}
           sizes="50vw"
           src="8ed54501-bdcb-40b7-9387-f2fc306db83d.png"
@@ -25,12 +29,18 @@ export default function View() {
       <p>
         <small>
           <strong>
-            Next Adventure
+            Recent Hike
           </strong>
-          Salkantay Trek, Peru &mdash; July 2026
+          Yellow River Trail, Iowa &mdash; October 2025
         </small>
       </p>
       <p>
+        <Link className={styles.more} href="/experiences">
+          <strong><small>View Experiences</small></strong>
+          <ArrowRight className={styles.icon} />
+        </Link>
+      </p>
+      <p className="mt-16">
         <small>
           <strong>
             Current Role
@@ -39,12 +49,10 @@ export default function View() {
         </small>
       </p>
       <p>
-        <small>
-          <strong>
-            Recent Trip
-          </strong>
-          Yellow River Trail, Iowa &mdash; October 2025
-        </small>
+        <Link className={styles.more} href="/resume">
+          <strong><small>View Resume</small></strong>
+          <ArrowRight className={styles.icon} />
+        </Link>
       </p>
     </Layout>
   );

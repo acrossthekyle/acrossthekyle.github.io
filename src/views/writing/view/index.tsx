@@ -10,6 +10,7 @@ import {
   BreadcrumbSeparator,
 } from '@/ui/breadcrumbs';
 
+import styles from './stylesheet';
 import type { Data } from './types';
 
 type Props = {
@@ -44,7 +45,7 @@ export default function View({ data }: Props) {
         <article key={item.title}>
           <h2>
             <strong>{item.title}</strong>
-            <small>{item.date}</small>
+            <small className={styles.date}>{item.date}</small>
           </h2>
           <Markdown>{item.content}</Markdown>
         </article>

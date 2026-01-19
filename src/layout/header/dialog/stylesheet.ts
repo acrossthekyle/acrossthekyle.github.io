@@ -1,27 +1,19 @@
 import tw from '@/styles';
 
 const styles = tw({
-  container: `
-    relative
-  `,
-  options: `
-    absolute top-0 right-0
-    h-full
-    p-2 px-4
+  open: `
+    mr-2
+    text-sm
     font-mono
     uppercase
-    text-xs
-    rounded-sm
-    border-1 border-(--foreground)/25
-    duration-300
 
-    hover:border-(--foreground)/50
+    md:hidden
   `,
   dialog: `
     p-6
-
-    md:p-8
-    md:pt-23
+    text-base
+    font-normal font-sans
+    normal-case
   `,
   header: `
     max-w-lg
@@ -29,14 +21,13 @@ const styles = tw({
     uppercase
     text-sm
   `,
-  form: `
-    relative
-    flex flex-col gap-4
+  list: `
     w-full max-w-lg
     my-0 mx-auto
-  `,
-  heading: `
-    !mb-2
+    flex flex-col gap-6
+    font-mono
+    uppercase
+    text-sm
   `,
   close: `
     absolute top-0 right-0

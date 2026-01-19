@@ -133,16 +133,23 @@ body {
   }
 
   dialog::backdrop {
-    backdrop-filter: blur(0);
+    background: var(--background);
     opacity: 0;
     transition: all 0.3s ease-in-out;
   }
 
-  dialog#options.is-active {
+  @media (width >= 48rem) {
+    dialog::backdrop {
+      background: transparent;
+      backdrop-filter: blur(0);
+    }
+  }
+
+  dialog.is-active {
     opacity: 1;
   }
 
-  dialog#options.is-active::backdrop {
+  dialog.is-active::backdrop {
     backdrop-filter: blur(2.5rem);
     opacity: 1;
   }

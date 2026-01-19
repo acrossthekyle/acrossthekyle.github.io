@@ -9,25 +9,29 @@ const styles = tw({
     font-mono
   `,
   anchor: `
+    text-sm
+
     md:fixed
     md:top-8
     md:left-8
     md:z-9
   `,
   nav: `
-    flex flex-col-reverse items-end gap-4
+    flex items-center gap-4
 
-    xs:flex-row
+    md:items-end
     md:fixed
     md:top-8
     md:right-8
     md:z-9
   `,
   list: `
-    flex flex-col items-end gap-3
+    hidden
+    flex-col items-end gap-3
 
     xs:flex-row
     xs:gap-4
+    md:flex
   `,
 });
 

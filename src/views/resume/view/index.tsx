@@ -141,7 +141,7 @@ export default function View({ data }: Props) {
           <article key={item.degree}>
             <h3 className={styles.spread}>
               {item.school}
-              <small>
+              <small className={styles.date}>
                 {item.graduation}
               </small>
             </h3>
