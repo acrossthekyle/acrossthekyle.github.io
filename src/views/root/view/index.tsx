@@ -27,12 +27,10 @@ export default function View() {
         </p>
       </header>
       <p>
-        <small>
-          <strong>
-            Recent Hike
-          </strong>
-          Yellow River Trail, Iowa &mdash; October 2025
-        </small>
+        <strong>
+          Recent Hike
+        </strong>
+        <small>Yellow River Trail, Iowa &mdash; October 2025</small>
       </p>
       <p>
         <Link className={styles.more} href="/experiences">
@@ -41,12 +39,10 @@ export default function View() {
         </Link>
       </p>
       <p className="mt-16">
-        <small>
-          <strong>
-            Current Role
-          </strong>
-          Senior Engineer II, Optum Digital &mdash; Since 2020
-        </small>
+        <strong>
+          Current Role
+        </strong>
+        <small>Senior Engineer II, Optum Digital &mdash; Since 2020</small>
       </p>
       <p>
         <Link className={styles.more} href="/resume">

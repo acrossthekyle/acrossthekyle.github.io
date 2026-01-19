@@ -1,28 +1,14 @@
 'use client';
 
-import Fuse from 'fuse.js';
 import { useState } from 'react';
 
-import { type Data } from './types';
+import type { Data } from './types';
 
 export function useModel(data: Data[]) {
-  const fuse: Fuse<Data> = new Fuse(data, {
-    keys: ['date', 'location', 'title'],
-  });
-
   const [items, setItems] = useState(data);
 
-  const handleOnFilter = (
-    search: string,
-    filter: string,
-    sort: string,
-    order: string,
-  ) => {
+  const handleOnFilter = (filter: string, sort: string, order: string) => {
     let result = [...data];
-
-    if (fuse !== null && search.length > 0) {
-      result = fuse.search(search).map((result) => result.item);
-    }
 
     if (filter === 'vacation') {
       result = result.filter(item => item.type === 'vacation');

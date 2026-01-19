@@ -2,9 +2,10 @@
 
 import { X } from 'lucide-react';
 
+import { useDialog } from '@/hooks/useDialog';
+
 import Navigation from '../navigation';
 
-import { useModel } from './model';
 import styles from './stylesheet';
 
 type Props = {
@@ -13,12 +14,12 @@ type Props = {
 
 export default function Dialog({ route }: Props) {
   const {
-    dialogRef,
-    handleOnDialogCancel,
-    handleOnDialogClose,
-    handleOnDialogOpen,
-    isDialogActive,
-  } = useModel();
+    dialog,
+    handleOnCancel,
+    handleOnClose,
+    handleOnOpen,
+    isOpen,
+  } = useDialog();
 
   return (
     <>
@@ -26,16 +27,16 @@ export default function Dialog({ route }: Props) {
         aria-controls="nav"
         aria-label="open menu dialog"
         className={styles.open}
-        onClick={handleOnDialogOpen}
+        onClick={handleOnOpen}
         type="button"
       >
         Menu
       </button>
       <dialog
-        className={`${styles.dialog} ${isDialogActive ? 'is-active' : ''}`.trim()}
+        className={`${styles.dialog} ${isOpen ? 'is-active' : ''}`.trim()}
         id="nav"
-        ref={dialogRef}
-        onCancel={handleOnDialogCancel}
+        ref={dialog}
+        onCancel={handleOnCancel}
       >
         <header className={styles.header}>
           <h2>
@@ -46,7 +47,7 @@ export default function Dialog({ route }: Props) {
             aria-label="exit menu"
             autoFocus
             className={styles.close}
-            onClick={handleOnDialogClose}
+            onClick={handleOnClose}
             type="button"
           >
             <X />

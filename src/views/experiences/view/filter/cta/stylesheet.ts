@@ -1,13 +1,12 @@
 import tw from '@/styles';
 
 const styles = tw({
-  list: `
-    list-disc
-    ml-4 mb-16
+  button: `
+    text-left
+    mb-4
   `,
-  footer: `
-    mt-16
-    text-current/50
+  value: `
+    capitalize
   `,
 });
 

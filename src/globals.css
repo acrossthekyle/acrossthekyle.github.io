@@ -94,7 +94,8 @@ body {
     margin-bottom: 1rem;
   }
 
-  a[data-active="true"] {
+  a[data-active="true"],
+  u {
     text-decoration: underline;
     text-underline-offset: 4px;
   }

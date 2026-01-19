@@ -32,31 +32,28 @@ export default function View() {
         </Breadcrumb>
         <h1>
           <strong>Now</strong>
-          <small>As per the recommendation of the internet, here is my very own now page.</small><br />
-          <small>
-            <Link href="https://nownownow.com/about" target="_blank">nownownow.com</Link>
-          </small>
+          <small>What I'm doing.</small>
         </h1>
       </header>
-      <article>
-        <h2>
-          What I'm doing:
-        </h2>
-        <ul className={styles.list}>
-          <li>
-            Reading "The Dark Forest" by Liu Cixin, and "A Clash of Kings" by George R.R. Martin
-          </li>
-          <li>
-            Wrapped up a re-watch of Star Trek: Voyager
-          </li>
-          <li>
-            Planning a trip to Peru
-          </li>
-        </ul>
-        <p>
-          <small>Last updated:<br /><em>January 18, 2026</em></small>
-        </p>
-      </article>
+      <ul className={styles.list}>
+        <li>
+          Reading "The Dark Forest" by Liu Cixin, and "A Clash of Kings" by George R.R. Martin
+        </li>
+        <li>
+          Wrapped up a re-watch of Star Trek: Voyager
+        </li>
+        <li>
+          Planning a trip to Peru
+        </li>
+      </ul>
+      <p>
+        <small>Last updated:<br /><em>January 18, 2026</em></small>
+      </p>
+      <p className={styles.footer}>
+        <small>
+          Visit <Link href="https://nownownow.com/about" target="_blank"><u>nownownow.com</u></Link> to learn more about "now" pages.
+        </small>
+      </p>
     </Layout>
   );
 }

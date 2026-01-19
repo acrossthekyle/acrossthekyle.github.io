@@ -45,18 +45,14 @@ export default function View({ data }: Props) {
         </p>
       </header>
       <p>
+        <strong>Currently</strong>
         <small>
-          <strong>
-            Currently
-          </strong>
           Senior Engineer &ndash; Optum Digital <em>(Formerly Rally Health)</em>
         </small>
       </p>
       <p>
+        <strong>Previously</strong>
         <small>
-          <strong>
-            Previously
-          </strong>
           Senior Fullstack Engineer &ndash; Earlybird Co
         </small>
       </p>
