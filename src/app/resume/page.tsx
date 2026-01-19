@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Suspense } from 'react';
 
-import { Fallback, View } from '@/views/cv';
+import { Fallback, View } from '@/views/resume';
 
 import get from './get';
 

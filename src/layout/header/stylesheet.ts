@@ -15,15 +15,19 @@ const styles = tw({
     md:z-9
   `,
   nav: `
-    flex items-center gap-4
+    flex flex-col-reverse items-end gap-4
 
+    xs:flex-row
     md:fixed
     md:top-8
     md:right-8
     md:z-9
   `,
   list: `
-    flex gap-4
+    flex flex-col items-end gap-3
+
+    xs:flex-row
+    xs:gap-4
   `,
 });
 

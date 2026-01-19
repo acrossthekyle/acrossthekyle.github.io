@@ -14,6 +14,7 @@ import {
 import { Image } from '@/ui/image';
 
 import Navigation from './navigation';
+import styles from './stylesheet';
 import { type Data } from './types';
 
 type Props = {
@@ -61,7 +62,7 @@ export default function View({ data }: Props) {
               {paragraph}
             </p>
             {index === 0 && (
-              <figure className="relative my-6">
+              <figure className={styles.figure}>
                 <Image
                   alt=""
                   height={1080}
@@ -69,7 +70,7 @@ export default function View({ data }: Props) {
                   src={data.image}
                   width={1920}
                 />
-                <figcaption className="mt-1 text-tiny text-current/50">
+                <figcaption className={styles.caption}>
                   {data.location.join(', ')}
                 </figcaption>
               </figure>

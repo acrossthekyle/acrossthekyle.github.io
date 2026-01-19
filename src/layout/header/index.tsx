@@ -40,9 +40,18 @@ export default function Header({ route }: Props) {
             </li>
             <li>
               <Link
-                aria-current={route === 'cv' ? 'page' : undefined}
-                data-active={route === 'cv'}
-                href="/cv"
+                aria-current={route === 'art' ? 'page' : undefined}
+                data-active={route === 'art'}
+                href="/art"
+              >
+                Art
+              </Link>
+            </li>
+            <li>
+              <Link
+                aria-current={route === 'resume' ? 'page' : undefined}
+                data-active={route === 'resume'}
+                href="/resume"
               >
                 Resume
               </Link>

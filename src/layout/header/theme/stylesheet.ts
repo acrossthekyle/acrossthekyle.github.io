@@ -2,8 +2,6 @@ import tw from '@/styles';
 
 const styles = tw({
   toggle: `
-    md:top-8
-    md:right-8
     md:right-8
     md:bottom-8
     md:top-auto

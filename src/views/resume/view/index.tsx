@@ -18,7 +18,7 @@ type Props = {
 
 export default function View({ data }: Props) {
   return (
-    <Layout group="cv">
+    <Layout group="resume">
       <header>
         <Breadcrumb>
           <BreadcrumbList>
