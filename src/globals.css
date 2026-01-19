@@ -6,9 +6,6 @@
 :root {
   --background: #1b1b1b;
   --foreground: #faf9f5;
-  --tooltip-text-color: rgba(0, 0, 0, 1);
-  --elevation-text-color: rgba(0, 0, 0, 1);
-  --progress-bar-fill-color: rgba(0, 0, 0, .75);
 }
 
 @theme inline {
@@ -230,6 +227,10 @@ body {
 
   .leaflet-container {
     background: transparent;
+  }
+
+  .leaflet-tile-container .leaflet-tile {
+    border-radius: 0;
   }
 
   .leaflet-gesture-handling-scroll-warning:after,
