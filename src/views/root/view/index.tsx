@@ -6,7 +6,7 @@ export default function View() {
   return (
     <Layout group="about">
       <header>
-        <h1>
+        <h1 id="skip-to">
           <strong>Hey, I'm Kyle</strong>
           <small>A backpacker and software engineer living on the lands belonging to the <em>Potawatomi</em>, <em>Ojibwe</em>, and <em>Odawa</em> &mdash; otherwise known as the city of <em>Chicago</em>.</small>
         </h1>

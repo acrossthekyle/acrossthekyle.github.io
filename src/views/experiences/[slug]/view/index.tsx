@@ -25,7 +25,7 @@ export default function View({ data }: Props) {
         <Breadcrumb>
           <BreadcrumbList>
             <BreadcrumbItem>
-              <Link href="/">
+              <Link href="/" id="skip-to">
                 Home
               </Link>
             </BreadcrumbItem>
@@ -60,12 +60,11 @@ export default function View({ data }: Props) {
         <small>A catalog of this {data.type}</small>
       </h2>
       <ul className={styles.list}>
-        {data.stages.map((stage, index: number) => (
+        {data.stages.map((stage) => (
           <li key={stage.index}>
             <Link
               className={styles.link}
               href={`/experiences/${data.slug}/${stage.index}`}
-              id={index === 0 ? 'skip-to' : undefined}
             >
               <Image
                 alt={stage.termini.end.words.join(' ')}

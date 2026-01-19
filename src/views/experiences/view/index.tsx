@@ -29,7 +29,7 @@ export default function View({ data }: Props) {
         <Breadcrumb>
           <BreadcrumbList>
             <BreadcrumbItem>
-              <Link href="/">
+              <Link href="/" id="skip-to">
                 Home
               </Link>
             </BreadcrumbItem>
@@ -56,12 +56,11 @@ export default function View({ data }: Props) {
       </header>
       <Filter data={data} onChange={handleOnFilter} />
       <ul aria-label="experiences navigation" className={styles.list}>
-        {items.map((item, index: number) => (
-          <li key={index}>
+        {items.map((item) => (
+          <li key={item.index}>
             <Link
               className={styles.link}
               href={`/experiences/${item.slug}`}
-              id={index === 0 ? 'skip-to' : undefined}
             >
               <strong>{item.title.join(' ')}</strong>
               <small>

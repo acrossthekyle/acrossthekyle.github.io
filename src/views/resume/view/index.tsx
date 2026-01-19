@@ -23,7 +23,7 @@ export default function View({ data }: Props) {
         <Breadcrumb>
           <BreadcrumbList>
             <BreadcrumbItem>
-              <Link href="/">
+              <Link href="/" id="skip-to">
                 Home
               </Link>
             </BreadcrumbItem>
@@ -88,8 +88,8 @@ export default function View({ data }: Props) {
             Work Experience
           </strong>
         </h2>
-        {data.history.map((item, index: number) => (
-          <article className={styles.article} key={index}>
+        {data.history.map((item) => (
+          <article className={styles.article} key={item.title.join('')}>
             <h3 className={styles.spread}>
               {item.position}
               <small>
@@ -123,8 +123,8 @@ export default function View({ data }: Props) {
             Education
           </strong>
         </h2>
-        {data.education.map((item, index: number) => (
-          <article key={index}>
+        {data.education.map((item) => (
+          <article key={item.degree}>
             <h3 className={styles.spread}>
               {item.school}
               <small>

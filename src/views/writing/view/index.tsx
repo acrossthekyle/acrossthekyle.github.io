@@ -23,7 +23,7 @@ export default function View({ data }: Props) {
         <Breadcrumb>
           <BreadcrumbList>
             <BreadcrumbItem>
-              <Link href="/">
+              <Link href="/" id="skip-to">
                 Home
               </Link>
             </BreadcrumbItem>
@@ -40,8 +40,8 @@ export default function View({ data }: Props) {
           <small>A sort of mini-blog.</small>
         </h1>
       </header>
-      {data.map((item, index: number) => (
-        <article key={index}>
+      {data.map((item) => (
+        <article key={item.title}>
           <h2>
             <strong>{item.title}</strong>
             <small>{item.date}</small>

@@ -24,7 +24,7 @@ export default function View({ data }: Props) {
         <Breadcrumb>
           <BreadcrumbList>
             <BreadcrumbItem>
-              <Link href="/">
+              <Link href="/" id="skip-to">
                 Home
               </Link>
             </BreadcrumbItem>
