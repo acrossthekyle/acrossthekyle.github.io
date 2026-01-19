@@ -11,7 +11,7 @@ export default function View() {
           <small>A backpacker and software engineer living on the lands belonging to the <em>Potawatomi</em>, <em>Ojibwe</em>, and <em>Odawa</em> &mdash; otherwise known as the city of <em>Chicago</em>.</small>
         </h1>
         <Image
-          alt="Picture of Kyle Gilbert"
+          alt="Picture of Kyle"
           className="w-full max-w-3xs mt-0 mb-16 mx-auto"
           height={540}
           sizes="50vw"
@@ -36,6 +36,14 @@ export default function View() {
             Current Role
           </strong>
           Senior Engineer II, Optum Digital &mdash; Since 2020
+        </small>
+      </p>
+      <p>
+        <small>
+          <strong>
+            Recent Trip
+          </strong>
+          Yellow River Trail, Iowa &mdash; October 2025
         </small>
       </p>
     </Layout>

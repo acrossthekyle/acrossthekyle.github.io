@@ -14,5 +14,9 @@
     "Collaborated with backend and product teams to ensure seamless integration and support project execution"
   ],
   "title": ["Rally", "Health"],
-  "website": "www.rallyhealth.com"
+  "website": "https://www.rallyhealth.com",
+  "image": {
+    "fill": "light",
+    "src": "resume/67eeaa3e-809a-4178-93c2-1e4b17bfcd24.png"
+  }
 }

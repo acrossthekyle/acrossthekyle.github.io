@@ -17,5 +17,9 @@
     "Established and enforced coding standards to ensure a consistent, maintainable codebase"
   ],
   "title": ["Optum", "Digital"],
-  "website": "www.optum.com"
+  "website": "https://www.optum.com",
+  "image": {
+    "fill": "light",
+    "src": "resume/973d8c9c-cd93-4f06-95d2-24f3e6996442.svg"
+  }
 }

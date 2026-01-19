@@ -9,6 +9,10 @@ export type Data = {
       start: string;
       end: string;
     };
+    image: {
+      fill: string;
+      src: string;
+    };
     industry: string;
     location: string;
     overview: string;

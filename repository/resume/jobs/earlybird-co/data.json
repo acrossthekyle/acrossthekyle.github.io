@@ -15,5 +15,9 @@
     "Automated CI/CD deployments with custom Ansible scripts to ensure consistent releases"
   ],
   "title": ["Earlybird", "Co"],
-  "website": null
+  "website": "https://web.archive.org/web/20180629014443/http://www.earlybird.co/",
+  "image": {
+    "fill": "light",
+    "src": "resume/dfd0607a-6c7b-4784-bf2a-f5d63c5b5c53.svg"
+  }
 }

@@ -8,6 +8,7 @@ export type Data = {
   hasNavigation: boolean;
   image: string;
   index: string;
+  label: string;
   location: string[];
   next?: Navigation;
   parent: string[];

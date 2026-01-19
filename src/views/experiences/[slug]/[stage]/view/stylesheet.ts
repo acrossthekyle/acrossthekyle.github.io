@@ -1,6 +1,14 @@
 import tw from '@/styles';
 
 const styles = tw({
+  label: `
+    block
+    truncate
+  `,
+  date: `
+    block
+    text-current/50
+  `,
   figure: `
     relative
     my-6

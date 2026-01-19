@@ -8,6 +8,7 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from '@/ui/breadcrumbs';
+import { Image } from '@/ui/image';
 
 import styles from './stylesheet';
 import type { Data } from './types';
@@ -90,16 +91,29 @@ export default function View({ data }: Props) {
         </h2>
         {data.history.map((item) => (
           <article className={styles.article} key={item.title.join('')}>
+            <figure className={styles.figure}>
+              <Image
+                alt=""
+                className={styles.image}
+                height={540}
+                sizes="50vw"
+                src={item.image.src}
+                width={960}
+              />
+              <figcaption className={styles.caption}>
+                {item.title.join(' ')}, {item.overview}
+              </figcaption>
+            </figure>
             <h3 className={styles.spread}>
               {item.position}
-              <small>
+              <small className={styles.date}>
                 {item.date.start} {!!item.date.end && <>&ndash; {item.date.end}</>}
               </small>
             </h3>
             <p>
               {item.website ? (
                 <Link href={item.website} target="_blank" rel="noreferrer">
-                  {item.title.join(' ')}
+                  {item.title.join(' ')} {item.website.includes('archive.org') ? '[archived]' : ''}
                 </Link>
               ) : (
                 <>

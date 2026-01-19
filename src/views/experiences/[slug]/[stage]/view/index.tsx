@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { Fragment } from 'react';
 
 import { Layout } from '@/layout';
+import { Badge } from '@/ui/badge';
 import {
   Breadcrumb,
   BreadcrumbEllipsis,
@@ -50,17 +51,17 @@ export default function View({ data }: Props) {
         </Breadcrumb>
         <h1 id="title">
           <strong>{data.title.join(' ')}</strong>
-          <small>
-            {data.location.join(', ')} &mdash; {data.date}
+          <small className={styles.label}>
+            <Badge>{data.label} - {data.index}</Badge>
+            {data.location.join(' - ')}
           </small>
+          <small className={styles.date}>{data.date}</small>
         </h1>
       </header>
       <article aria-labelledby="title">
         {data.description.map((paragraph, index: number) => (
           <Fragment key={paragraph}>
-            <p>
-              {paragraph}
-            </p>
+            <p>{paragraph}</p>
             {index === 0 && (
               <figure className={styles.figure}>
                 <Image

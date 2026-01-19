@@ -5,6 +5,7 @@ const styles = tw({
     capitalize
   `,
   date: `
+    block
     text-current/50
   `,
   list: `

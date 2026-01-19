@@ -1,6 +1,7 @@
 import Link from 'next/link';
 
 import { Layout } from '@/layout';
+import { Badge } from '@/ui/badge';
 import {
   Breadcrumb,
   BreadcrumbList,
@@ -44,9 +45,18 @@ export default function View({ data }: Props) {
           </BreadcrumbList>
         </Breadcrumb>
         <h1>
-          <strong>{data.title.join(' ')}</strong>
-          <small className={styles.capitalize}>{data.type} • {data.location}</small>
-          <br />
+          <strong>
+            {data.title.join(' ')}
+          </strong>
+          <Badge>
+            <Link
+              href="/experiences/terminology"
+              title={`Learn more about ${data.type}s`}
+            >
+              {data.type}
+            </Link>
+          </Badge>
+          <small>{data.location}</small>
           <small className={styles.date}>{data.date}</small>
         </h1>
         {data.description.map((paragraph) => (

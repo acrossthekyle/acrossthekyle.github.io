@@ -29,7 +29,11 @@ const data = {
         "Optum",
         "Digital"
       ],
-      "website": "www.optum.com"
+      "website": "https://www.optum.com",
+      "image": {
+        "fill": "light",
+        "src": "resume/973d8c9c-cd93-4f06-95d2-24f3e6996442.svg"
+      }
     },
     {
       "timestamp": "1538370000",
@@ -50,7 +54,11 @@ const data = {
         "Rally",
         "Health"
       ],
-      "website": "www.rallyhealth.com"
+      "website": "https://www.rallyhealth.com",
+      "image": {
+        "fill": "light",
+        "src": "resume/67eeaa3e-809a-4178-93c2-1e4b17bfcd24.png"
+      }
     },
     {
       "timestamp": "1430456400",
@@ -72,7 +80,11 @@ const data = {
         "Earlybird",
         "Co"
       ],
-      "website": null
+      "website": "https://web.archive.org/web/20180629014443/http://www.earlybird.co/",
+      "image": {
+        "fill": "light",
+        "src": "resume/dfd0607a-6c7b-4784-bf2a-f5d63c5b5c53.svg"
+      }
     },
     {
       "timestamp": "1367384400",
@@ -93,7 +105,11 @@ const data = {
         "Red Frog",
         "Events"
       ],
-      "website": null
+      "website": "https://web.archive.org/web/20150304100314/http://redfrogevents.com/",
+      "image": {
+        "fill": "light",
+        "src": "resume/53f3e857-0b7d-4ae4-ba3d-f808a5641faa.png"
+      }
     },
     {
       "timestamp": "1330581600",
@@ -113,7 +129,11 @@ const data = {
         "Silverline",
         "Creative"
       ],
-      "website": null
+      "website": "https://web.archive.org/web/20120208093834/http://www.silverlinecreative.com/",
+      "image": {
+        "fill": "dark",
+        "src": "resume/c9c7f6e4-a43b-4643-a118-a79eda84986b.png"
+      }
     }
   ],
   "skills": [

@@ -3,6 +3,7 @@
 import Link from 'next/link';
 
 import { Layout } from '@/layout';
+import { Badge } from '@/ui/badge';
 import {
   Breadcrumb,
   BreadcrumbList,
@@ -63,23 +64,12 @@ export default function View({ data }: Props) {
               href={`/experiences/${item.slug}`}
             >
               <strong>{item.title.join(' ')}</strong>
-              <small>
-                <span className={styles.type}>{item.type}</span> • {item.location}
-              </small>
-              <small className={styles.date}>
-                <span className={styles.dash}>&mdash;</span> {item.date}
-              </small>
+              <Badge>{item.type}</Badge><small>{item.location}</small>
+              <small className={styles.date}>{item.date}</small>
             </Link>
           </li>
         ))}
       </ul>
-      <Link
-        className="stacked-link"
-        href="/experiences/terminology"
-      >
-        <strong>Terminology</strong>
-        <small>Thru-hikes, peak-bagging, etc.</small>
-      </Link>
     </Layout>
   );
 }

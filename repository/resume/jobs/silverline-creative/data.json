@@ -13,5 +13,9 @@
     "Supported and maintained multiple custom-built event websites"
   ],
   "title": ["Silverline", "Creative"],
-  "website": null
+  "website": "https://web.archive.org/web/20120208093834/http://www.silverlinecreative.com/",
+  "image": {
+    "fill": "dark",
+    "src": "resume/c9c7f6e4-a43b-4643-a118-a79eda84986b.png"
+  }
 }

@@ -14,9 +14,6 @@ const styles = tw({
   date: `
     block
     text-current/50
-
-    md:mr-2
-    md:inline
   `,
   dash: `
     hidden

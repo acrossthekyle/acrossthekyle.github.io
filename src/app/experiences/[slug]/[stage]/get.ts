@@ -27,6 +27,7 @@ export default function get(slug: string, stage: string) {
     hasNavigation: next !== undefined || previous !== undefined,
     image: result.image,
     index: stage,
+    label: found.label,
     location: [result.location, found.location],
     next: next ? {
       index: padIndex(next),

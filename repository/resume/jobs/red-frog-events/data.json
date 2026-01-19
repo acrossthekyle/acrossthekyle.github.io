@@ -14,5 +14,9 @@
     "Managed and maintained the RegistratioNATION platform using CodeIgniter"
   ],
   "title": ["Red Frog", "Events"],
-  "website": null
+  "website": "https://web.archive.org/web/20150304100314/http://redfrogevents.com/",
+  "image": {
+    "fill": "light",
+    "src": "resume/53f3e857-0b7d-4ae4-ba3d-f808a5641faa.png"
+  }
 }

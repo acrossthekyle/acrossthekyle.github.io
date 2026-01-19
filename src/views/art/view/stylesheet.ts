@@ -3,7 +3,9 @@ import tw from '@/styles';
 const styles = tw({
   figure: `
     relative
-    mb-4
+    mb-6
+
+    last:mb-0
   `,
   caption: `
     mt-1

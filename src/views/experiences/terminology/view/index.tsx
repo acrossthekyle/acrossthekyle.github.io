@@ -60,6 +60,12 @@ export default function View() {
       <p>
         Over time, those sections add up. You might hike one piece this year, another next year, and slowly stitch the whole thing together. It's all about balance: figuring out how to keep a foot in normal life while still chasing that long-distance hike feeling.
       </p>
+      <h2 className={styles.heading} id="section-hike">
+        <strong>Overnight Trek</strong>
+      </h2>
+      <p>
+        Like section-hiking, but on a much larger timescale, by doing each section a weekend at a time.
+      </p>
       <h2 className={styles.heading} id="peak-bagging">
         <strong>Peak-Bagging</strong>
       </h2>
