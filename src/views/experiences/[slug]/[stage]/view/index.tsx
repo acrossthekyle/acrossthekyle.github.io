@@ -12,7 +12,7 @@ import {
   BreadcrumbSeparator,
   BreadcrumbTruncate,
 } from '@/ui/breadcrumbs';
-import { Image } from '@/ui/image';
+import { Image, ImageCaption, ImageFigure } from '@/ui/image';
 
 import Navigation from './navigation';
 import styles from './stylesheet';
@@ -63,7 +63,7 @@ export default function View({ data }: Props) {
           <Fragment key={paragraph}>
             <p>{paragraph}</p>
             {index === 0 && (
-              <figure className={styles.figure}>
+              <ImageFigure className={styles.figure}>
                 <Image
                   alt=""
                   height={1080}
@@ -71,10 +71,10 @@ export default function View({ data }: Props) {
                   src={data.image}
                   width={1920}
                 />
-                <figcaption className={styles.caption}>
+                <ImageCaption>
                   {data.location.join(', ')}
-                </figcaption>
-              </figure>
+                </ImageCaption>
+              </ImageFigure>
             )}
           </Fragment>
         ))}

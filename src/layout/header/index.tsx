@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import Dialog from './dialog';
+import Menu from './menu';
 import Navigation from './navigation';
 import styles from './stylesheet';
 import Theme from './theme';
@@ -22,7 +22,7 @@ export default function Header({ route }: Props) {
         </Link>
         <nav aria-label="main navigation" className={styles.nav}>
           <Navigation className={styles.list} route={route} />
-          <Dialog route={route} />
+          <Menu route={route} />
           <Theme />
         </nav>
       </header>

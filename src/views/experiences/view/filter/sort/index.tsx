@@ -1,8 +1,12 @@
 'use client';
 
-import { X } from 'lucide-react';
-
 import { useDialog } from '@/hooks/useDialog';
+import {
+  Dialog,
+  DialogClose,
+  DialogFooter,
+  DialogHeader,
+} from '@/ui/dialog';
 
 import Cta from '../cta';
 
@@ -28,28 +32,19 @@ export default function Sort({ current, onClick, orderBy}: Props) {
       <button onClick={handleOnOpen} type="button">
         <u><em>{current}</em></u>
       </button>
-      <dialog
-        className={`${styles.dialog} ${isOpen ? 'is-active' : ''}`.trim()}
+      <Dialog
         id="sort"
+        isOpen={isOpen}
         ref={dialog}
         onCancel={handleOnCancel}
       >
-        <header>
+        <DialogHeader>
           <h2>
             <strong>Sort by</strong>
             <small>Date or title</small>
           </h2>
-          <button
-            aria-controls="sort"
-            aria-label="exit sort"
-            autoFocus
-            className={styles.close}
-            onClick={handleOnClose}
-            type="button"
-          >
-            <X />
-          </button>
-        </header>
+          <DialogClose id="sort" onClose={handleOnClose} />
+        </DialogHeader>
         <ul>
           <li>
             <Cta
@@ -68,10 +63,8 @@ export default function Sort({ current, onClick, orderBy}: Props) {
             />
           </li>
         </ul>
-        <footer className={styles.footer}>
-          <kbd className={styles.kbd}>Esc</kbd>
-        </footer>
-      </dialog>
+        <DialogFooter />
+      </Dialog>
     </div>
   );
 }

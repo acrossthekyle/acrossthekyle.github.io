@@ -2,7 +2,8 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    inline
+    mt-2
+    text-tiny text-current/50
   `,
 });
 

@@ -1,8 +1,10 @@
 import tw from '@/styles';
 
 const styles = tw({
-  container: `
-    inline
+  close: `
+    absolute top-0 right-0
+
+    md:right-1
   `,
 });
 

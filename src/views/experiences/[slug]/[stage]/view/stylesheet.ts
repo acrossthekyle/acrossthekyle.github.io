@@ -10,12 +10,7 @@ const styles = tw({
     !text-xs text-current/50
   `,
   figure: `
-    relative
     my-6
-  `,
-  caption: `
-    mt-1
-    text-tiny text-current/50
   `,
 });
 

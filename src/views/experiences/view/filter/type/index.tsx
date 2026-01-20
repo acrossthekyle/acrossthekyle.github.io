@@ -1,8 +1,12 @@
 'use client';
 
-import { X } from 'lucide-react';
-
 import { useDialog } from '@/hooks/useDialog';
+import {
+  Dialog,
+  DialogClose,
+  DialogFooter,
+  DialogHeader,
+} from '@/ui/dialog';
 
 import Cta from '../cta';
 
@@ -28,28 +32,19 @@ export default function Type({ current, options, onClick }: Props) {
       <button onClick={handleOnOpen} type="button">
         <u><em>{current}{current === 'everything' ? '' : 's'}</em></u>
       </button>
-      <dialog
-        className={`${styles.dialog} ${isOpen ? 'is-active' : ''}`.trim()}
-        id="types"
+      <Dialog
+        id="filter"
+        isOpen={isOpen}
         ref={dialog}
         onCancel={handleOnCancel}
       >
-        <header>
+        <DialogHeader>
           <h2>
             <strong>Filter by</strong>
             <small>Type of experience</small>
           </h2>
-          <button
-            aria-controls="types"
-            aria-label="exit types"
-            autoFocus
-            className={styles.close}
-            onClick={handleOnClose}
-            type="button"
-          >
-            <X />
-          </button>
-        </header>
+          <DialogClose id="filter" onClose={handleOnClose} />
+        </DialogHeader>
         <ul>
           <li>
             <Cta
@@ -70,10 +65,8 @@ export default function Type({ current, options, onClick }: Props) {
             </li>
           ))}
         </ul>
-        <footer className={styles.footer}>
-          <kbd className={styles.kbd}>Esc</kbd>
-        </footer>
-      </dialog>
+        <DialogFooter />
+      </Dialog>
     </div>
   );
 }

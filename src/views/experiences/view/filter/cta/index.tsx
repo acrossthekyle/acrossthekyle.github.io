@@ -28,7 +28,7 @@ export default function Cta({
       <strong className={styles.value}>
         {expected}{count && (
           <>
-            {count > 1 ? 's' : ''}
+            {expected !== 'everything' && count > 1 ? 's' : ''}
           </>
         )}
       </strong>
@@ -40,7 +40,7 @@ export default function Cta({
       )}
       {expected === current && (
         <>
-          {' '}<Badge>current</Badge>
+          {' '}<Badge>selected</Badge>
         </>
       )}
     </button>

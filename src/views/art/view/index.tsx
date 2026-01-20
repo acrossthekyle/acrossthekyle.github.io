@@ -8,7 +8,7 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from '@/ui/breadcrumbs';
-import { Image } from '@/ui/image';
+import { Image, ImageCaption, ImageFigure } from '@/ui/image';
 
 import { IMAGES } from './constants';
 import styles from './stylesheet';
@@ -40,7 +40,7 @@ export default function View() {
         </h1>
       </header>
       {IMAGES.map(({ caption, src }) => (
-        <figure className={styles.figure} key={src}>
+        <ImageFigure className={styles.figure} key={src}>
           <Image
             alt=""
             height={1080}
@@ -48,8 +48,8 @@ export default function View() {
             src={src}
             width={1920}
           />
-          <figcaption className={styles.caption}>{caption}</figcaption>
-        </figure>
+          <ImageCaption>{caption}</ImageCaption>
+        </ImageFigure>
       ))}
     </Layout>
   );

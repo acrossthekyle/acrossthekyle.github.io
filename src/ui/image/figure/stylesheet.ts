@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    inline
+    relative
   `,
 });
 
