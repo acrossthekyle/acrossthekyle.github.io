@@ -6,12 +6,12 @@ const styles = tw({
     max-w-lg
     text-sm
     uppercase
-    font-mono
 
     md:text-xs
   `,
   anchor: `
     text-base
+    font-mono
 
     md:fixed
     md:top-8
@@ -34,6 +34,12 @@ const styles = tw({
     items-end gap-3
 
     md:flex
+  `,
+  link: `
+    duration-300
+    border-b-1 border-b-transparent
+
+    hover:border-b-white
   `,
 });
 

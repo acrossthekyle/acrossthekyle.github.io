@@ -13,7 +13,6 @@ const styles = tw({
     w-full max-w-lg
     my-0 mx-auto
     flex flex-col gap-4
-    font-mono
     uppercase
     text-base
 

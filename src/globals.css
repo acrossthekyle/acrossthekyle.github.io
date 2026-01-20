@@ -91,8 +91,13 @@ body {
 
   a[data-active="true"],
   u {
-    text-decoration: underline;
-    text-underline-offset: 0.25rem;
+    border-bottom-color: var(--foreground);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+  }
+
+  u {
+    text-decoration: none;
   }
 
   a[target="_blank"]:after {
