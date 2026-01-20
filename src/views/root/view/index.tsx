@@ -3,10 +3,16 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import { Layout } from '@/layout';
+import { Badge } from '@/ui/badge';
 
 import styles from './stylesheet';
+import type { Data } from './types';
 
-export default function View() {
+type Props = {
+  data: Data;
+};
+
+export default function View({ data }: Props) {
   return (
     <Layout group="about">
       <header>
@@ -28,25 +34,31 @@ export default function View() {
       </header>
       <p>
         <strong>
-          Recent Hike
-        </strong>
-        <small>Yellow River Trail, Iowa &mdash; October 2025</small>
+          Recent experience
+        </strong><br />
+        <Link className={styles.link} href={`/experiences/${data.experience.slug}`}>
+          <strong>{data.experience.title.join(' ')}</strong>
+          <small><Badge>{data.experience.type}</Badge>{data.experience.location}</small>
+          <small className={styles.date}>{data.experience.date}</small>
+        </Link>
       </p>
       <p>
         <Link className={styles.more} href="/experiences">
-          <strong><small>View Experiences</small></strong>
+          <strong><small>More</small></strong>
           <ArrowRight className={styles.icon} />
         </Link>
       </p>
       <p className="mt-16">
         <strong>
-          Current Role
-        </strong>
-        <small>Senior Engineer II, Optum Digital &mdash; Since 2020</small>
+          Current role
+        </strong><br />
+        <small>{data.role.position}</small><br />
+        <small>{data.role.title.join(' ')}</small>
+        <small className={styles.date}>{data.role.date}</small>
       </p>
       <p>
         <Link className={styles.more} href="/resume">
-          <strong><small>View Resume</small></strong>
+          <strong><small>Resume</small></strong>
           <ArrowRight className={styles.icon} />
         </Link>
       </p>

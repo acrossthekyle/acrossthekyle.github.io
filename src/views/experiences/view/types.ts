@@ -1,8 +1,5 @@
 export type Data = {
-  count: number;
   date: string;
-  description: string[];
-  image: string;
   index: string;
   location: string;
   slug: string;

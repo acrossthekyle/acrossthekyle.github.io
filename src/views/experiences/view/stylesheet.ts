@@ -8,6 +8,17 @@ const styles = tw({
   link: `
     block
     relative
+
+    before:block
+    before:absolute
+    before:-inset-2
+    before:z-0
+    before:opacity-0
+    before:duration-300
+    before:rounded-sm
+    dark:before:bg-white/5
+
+    hover:before:opacity-100
   `,
   date: `
     block

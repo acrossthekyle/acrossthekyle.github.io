@@ -33,9 +33,9 @@ export default function View() {
           </BreadcrumbList>
         </Breadcrumb>
         <h1>
-          <strong>Art & Photography</strong>
+          <strong>Snapshots of things</strong>
           <small>
-            Snapshots of life
+            Photography and art
           </small>
         </h1>
       </header>

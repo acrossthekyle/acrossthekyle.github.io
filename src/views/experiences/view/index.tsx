@@ -43,7 +43,7 @@ export default function View({ data }: Props) {
           </BreadcrumbList>
         </Breadcrumb>
         <h1>
-          <strong>Wandering is Life</strong>
+          <strong>Wandering is life</strong>
           <small>
             Experiencing new sights and sounds keeps me moving forward.
           </small>
