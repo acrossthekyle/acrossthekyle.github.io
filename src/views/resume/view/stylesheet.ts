@@ -13,6 +13,7 @@ const styles = tw({
   image: `
     !w-1/4
     mb-6
+    !rounded-none
   `,
   caption: `
     invisible
