@@ -50,7 +50,7 @@ export default function View({ data }: Props) {
         </Breadcrumb>
         <h1>
           <strong>Gear</strong>
-          <small>Pack, shelter, clothing</small>
+          <small>Base weight: {data.weights.base} lbs</small>
         </h1>
       </header>
       {data.categories.map((category) => (

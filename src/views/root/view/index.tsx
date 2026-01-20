@@ -4,6 +4,7 @@ import Image from 'next/image';
 
 import { Layout } from '@/layout';
 import { Badge } from '@/ui/badge';
+import { LinkStacked } from '@/ui/link';
 
 import styles from './stylesheet';
 import type { Data } from './types';
@@ -36,11 +37,11 @@ export default function View({ data }: Props) {
         <strong>
           Recent experience
         </strong><br />
-        <Link className={styles.link} href={`/experiences/${data.experience.slug}`}>
+        <LinkStacked href={`/experiences/${data.experience.slug}`} noMargin>
           <strong>{data.experience.title.join(' ')}</strong>
           <small><Badge>{data.experience.type}</Badge>{data.experience.location}</small>
-          <small className={styles.date}>{data.experience.date}</small>
-        </Link>
+          <small className={styles.subtitle}>{data.experience.date}</small>
+        </LinkStacked>
       </p>
       <p>
         <Link className={styles.more} href="/experiences">
@@ -52,9 +53,11 @@ export default function View({ data }: Props) {
         <strong>
           Current role
         </strong><br />
-        <small>{data.role.position}</small><br />
-        <small>{data.role.title.join(' ')}</small>
-        <small className={styles.date}>{data.role.date}</small>
+        <LinkStacked href="/resume" noMargin>
+          <strong>{data.role.position}</strong>
+          <small>{data.role.title.join(' ')}</small>
+          <small className={styles.subtitle}>{data.role.date}</small>
+        </LinkStacked>
       </p>
       <p>
         <Link className={styles.more} href="/resume">

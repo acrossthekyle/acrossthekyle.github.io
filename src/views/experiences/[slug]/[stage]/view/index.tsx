@@ -13,6 +13,7 @@ import {
   BreadcrumbTruncate,
 } from '@/ui/breadcrumbs';
 import { Image, ImageCaption, ImageFigure } from '@/ui/image';
+import { LinkStacked } from '@/ui/link';
 
 import Navigation from './navigation';
 import styles from './stylesheet';
@@ -55,7 +56,7 @@ export default function View({ data }: Props) {
             <Badge>{data.label} #{data.index}</Badge>
             {data.location.join(' - ')}
           </small>
-          <small className={styles.date}>{data.date}</small>
+          <small className={styles.subtitle}>{data.date}</small>
         </h1>
       </header>
       <article aria-labelledby="title">
@@ -79,13 +80,12 @@ export default function View({ data }: Props) {
           </Fragment>
         ))}
         {data.hasGpx && (
-          <Link
-            className="stacked-link"
+          <LinkStacked
             href={`/experiences/${data.slug}/${data.index}/gpx`}
           >
             <strong>GPX Data</strong>
-            <small>Route, elevation, stats</small>
-          </Link>
+            <small>View the route and elevation profile</small>
+          </LinkStacked>
         )}
         {data.hasNavigation && (
           <Navigation

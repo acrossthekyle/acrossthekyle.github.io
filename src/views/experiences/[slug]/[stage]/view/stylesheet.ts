@@ -5,7 +5,7 @@ const styles = tw({
     block
     truncate
   `,
-  date: `
+  subtitle: `
     block
     !text-sm text-current/50
 

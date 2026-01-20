@@ -11,6 +11,7 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from '@/ui/breadcrumbs';
+import { LinkStacked } from '@/ui/link';
 
 import Filter from './filter';
 import { useModel } from './model';
@@ -59,14 +60,11 @@ export default function View({ data }: Props) {
       <ul aria-label="experiences navigation" className={styles.list}>
         {items.map((item) => (
           <li key={item.index}>
-            <Link
-              className={styles.link}
-              href={`/experiences/${item.slug}`}
-            >
+            <LinkStacked href={`/experiences/${item.slug}`} noMargin>
               <strong>{item.title.join(' ')}</strong>
               <Badge>{item.type}</Badge><small>{item.location}</small>
-              <small className={styles.date}>{item.date}</small>
-            </Link>
+              <small className={styles.subtitle}>{item.date}</small>
+            </LinkStacked>
           </li>
         ))}
       </ul>

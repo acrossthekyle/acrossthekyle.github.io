@@ -52,7 +52,7 @@ export default function View({ data }: Props) {
         <h1>
           <strong>GPX Data</strong>
           <small>
-            Route, elevation, and stats
+            Route and elevation profile
           </small>
         </h1>
       </header>

@@ -11,7 +11,8 @@ import {
   BreadcrumbSeparator,
   BreadcrumbTruncate,
 } from '@/ui/breadcrumbs';
-import { Image } from '@/ui/image';
+import { Image, ImageFigure } from '@/ui/image';
+import { LinkStacked } from '@/ui/link';
 
 import styles from './stylesheet';
 import type { Data } from './types';
@@ -59,7 +60,7 @@ export default function View({ data }: Props) {
             </Link>
           </Badge>
           <small>{data.location}</small>
-          <small className={styles.date}>{data.date}</small>
+          <small className={styles.subtitle}>{data.date}</small>
         </h1>
         {data.description.map((paragraph) => (
           <p key={paragraph}>
@@ -74,30 +75,29 @@ export default function View({ data }: Props) {
       <ul className={styles.list}>
         {data.stages.map((stage) => (
           <li key={stage.index}>
-            <Link
-              className={styles.link}
-              href={`/experiences/${data.slug}/${stage.index}`}
-            >
-              <Image
-                alt={stage.termini.end.words.join(' ')}
-                className={styles.image}
-                height={1080}
-                sizes="(max-width: 768px) 100vw, 50vw"
-                src={stage.image}
-                width={1920}
-              />
-            </Link>
+            <ImageFigure>
+              <Link href={`/experiences/${data.slug}/${stage.index}`}>
+                <Image
+                  alt={stage.termini.end.words.join(' ')}
+                  className={styles.image}
+                  height={1080}
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  src={stage.image}
+                  width={1920}
+                />
+              </Link>
+            </ImageFigure>
           </li>
         ))}
       </ul>
       {data.hasGear && (
-        <Link
-          className="stacked-link"
-          href={`${data.slug}/gear`}
-        >
-          <strong>Gear</strong>
-          <small>Pack, shelter, clothing</small>
-        </Link>
+        <LinkStacked href={`${data.slug}/gear`}>
+          <strong>Gear list</strong>
+          <small>View the gear used on this {data.type}</small>
+          <small className={styles.subtitle}>
+            Base weight: {data.gearWeight} lbs
+          </small>
+        </LinkStacked>
       )}
     </Layout>
   );

@@ -11,7 +11,7 @@ const styles = tw({
   meta: `
     capitalize
   `,
-  date: `
+  subtitle: `
     block
     !text-sm text-current/50
 
@@ -20,10 +20,7 @@ const styles = tw({
   list: `
     grid grid-cols-3 gap-4
 
-    sm:grid-cols-4
-  `,
-  link: `
-    relative
+    md:grid-cols-4
   `,
   image: `
     aspect-square
