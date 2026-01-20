@@ -7,7 +7,9 @@ const styles = tw({
   `,
   date: `
     block
-    !text-xs text-current/50
+    !text-sm text-current/50
+
+    md:!text-xs
   `,
   figure: `
     my-6

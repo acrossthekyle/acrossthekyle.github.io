@@ -1,5 +1,7 @@
 'use client';
 
+import { Menu as Icon } from 'lucide-react';
+
 import { useDialog } from '@/hooks/useDialog';
 import {
   Dialog,
@@ -34,13 +36,13 @@ export default function Menu({ route }: Props) {
         onClick={handleOnOpen}
         type="button"
       >
-        Menu
+        <Icon />
       </button>
       <Dialog
-        id="nav"
+        id="menu"
         isOpen={isOpen}
-        ref={dialog}
         onCancel={handleOnCancel}
+        ref={dialog}
       >
         <DialogHeader>
           <h2 className={styles.header}>

@@ -33,10 +33,14 @@ export default function Cta({
         )}
       </strong>
       {count && (
-        <Badge>{count} items</Badge>
+        <small className={styles.label}>
+          {count} item{count > 1 ? 's' : ''}
+        </small>
       )}
       {label && (
-        <Badge>{label}</Badge>
+        <small className={styles.label}>
+          {label}
+        </small>
       )}
       {expected === current && (
         <>

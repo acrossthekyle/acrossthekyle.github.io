@@ -14,7 +14,9 @@ const styles = tw({
   change: `
     absolute top-2 left-2 z-9
     flex items-center gap-2
-    text-xs
+    text-sm
+
+    md:text-xs
   `,
   chevron: `
     inline
@@ -39,7 +41,7 @@ const styles = tw({
   distance: `
     relative
     flex items-start justify-between
-    text-xs text-center
+    text-sm text-center
     dark:bg-[#313131] light:bg-[#aaaaaa]
     dark:text-[#faf9f5] light:text-(--foreground)
 
@@ -50,6 +52,8 @@ const styles = tw({
     before:z-0
     before:h-[1px]
     before:bg-(--foreground)/25
+
+    md:text-xs
   `,
   block: `
     relative z-1
@@ -62,7 +66,9 @@ const styles = tw({
     block
     mt-1
     font-mono font-normal
-    text-tiny
+    text-xs
+
+    md:text-tiny
   `,
   start: `
     relative z-1
@@ -82,7 +88,9 @@ const styles = tw({
     block
     mt-1
     font-mono
-    text-tiny
+    text-xs
+
+    md:text-tiny
   `,
 });
 

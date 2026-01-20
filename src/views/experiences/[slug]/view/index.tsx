@@ -1,3 +1,4 @@
+import { CircleQuestionMark } from 'lucide-react';
 import Link from 'next/link';
 
 import { Layout } from '@/layout';
@@ -48,12 +49,13 @@ export default function View({ data }: Props) {
           <strong>
             {data.title.join(' ')}
           </strong>
-          <Badge>
+          <Badge canHover>
             <Link
-              href="/experiences/terminology"
+              className={styles.badge}
+              href={`/experiences/terminology#${data.type.replace(' ', '-')}`}
               title={`Learn more about ${data.type}s`}
             >
-              {data.type}
+              {data.type} <CircleQuestionMark className={styles.icon} />
             </Link>
           </Badge>
           <small>{data.location}</small>

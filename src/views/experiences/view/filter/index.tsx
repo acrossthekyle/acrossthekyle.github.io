@@ -37,7 +37,8 @@ export default function Filter({ data, onChange }: Props) {
           current={sortBy}
           onClick={handleOnSort}
           orderBy={orderBy}
-        />, in{' '}
+        />{' '}
+        in{' '}
         <Order
           current={orderBy}
           onClick={handleOnOrder}

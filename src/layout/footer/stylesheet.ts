@@ -12,11 +12,17 @@ const styles = tw({
   `,
   links: `
     flex flex-row gap-4
-    text-tiny
+    text-sm
+    mb-2
+
+    md:mb-0
+    md:text-xs
   `,
   copyright: `
     !mb-0
-    text-tiny
+    text-sm
+
+    md:text-xs
   `,
 });
 

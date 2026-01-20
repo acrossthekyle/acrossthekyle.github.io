@@ -52,7 +52,7 @@ export default function View({ data }: Props) {
         <h1 id="title">
           <strong>{data.title.join(' ')}</strong>
           <small className={styles.label}>
-            <Badge>{data.label} - {data.index}</Badge>
+            <Badge>{data.label} #{data.index}</Badge>
             {data.location.join(' - ')}
           </small>
           <small className={styles.date}>{data.date}</small>

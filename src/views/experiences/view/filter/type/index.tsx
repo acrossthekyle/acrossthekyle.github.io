@@ -8,6 +8,7 @@ import {
   DialogHeader,
 } from '@/ui/dialog';
 
+import Button from '../button';
 import Cta from '../cta';
 
 import styles from './stylesheet';
@@ -29,9 +30,9 @@ export default function Type({ current, options, onClick }: Props) {
 
   return (
     <div className={styles.container}>
-      <button onClick={handleOnOpen} type="button">
-        <u><em>{current}{current === 'everything' ? '' : 's'}</em></u>
-      </button>
+      <Button aria-label="open list filter dialog" onClick={handleOnOpen}>
+        {current}{current === 'everything' ? '' : 's'}
+      </Button>
       <Dialog
         id="filter"
         isOpen={isOpen}

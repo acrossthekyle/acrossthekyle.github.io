@@ -4,21 +4,25 @@ const styles = tw({
   container: `
     flex justify-between
     max-w-lg
-    text-xs
+    text-sm
     uppercase
     font-mono
+
+    md:text-xs
   `,
   anchor: `
-    text-sm
+    text-base
 
     md:fixed
     md:top-8
     md:left-8
     md:z-9
+    md:text-sm
   `,
   nav: `
-    flex items-center gap-4
+    flex flex-row-reverse items-center gap-4
 
+    md:flex-row
     md:items-end
     md:fixed
     md:top-8
@@ -27,10 +31,8 @@ const styles = tw({
   `,
   list: `
     hidden
-    flex-col items-end gap-3
+    items-end gap-3
 
-    xs:flex-row
-    xs:gap-4
     md:flex
   `,
 });

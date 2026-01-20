@@ -8,6 +8,7 @@ import {
   DialogHeader,
 } from '@/ui/dialog';
 
+import Button from '../button';
 import Cta from '../cta';
 
 import styles from './stylesheet';
@@ -29,9 +30,9 @@ export default function Order({ current, onClick, sortBy }: Props) {
 
   return (
     <div className={styles.container}>
-      <button aria-label="open list order dialog" onClick={handleOnOpen} type="button">
-        <u><em>{current}</em></u>
-      </button>
+      <Button aria-label="open list order dialog" onClick={handleOnOpen}>
+        {current}
+      </Button>
       <Dialog
         id="order"
         isOpen={isOpen}
@@ -50,7 +51,7 @@ export default function Order({ current, onClick, sortBy }: Props) {
             <Cta
               current={current}
               expected="descending"
-              label={sortBy === 'date' ? 'oldest to newest' : 'z to a'}
+              label={sortBy === 'date' ? 'Newest to oldest' : 'Z to A'}
               onClick={onClick}
             />
           </li>
@@ -58,7 +59,7 @@ export default function Order({ current, onClick, sortBy }: Props) {
             <Cta
               current={current}
               expected="ascending"
-              label={sortBy === 'date' ? 'newest to oldest' : 'a to z'}
+              label={sortBy === 'date' ? 'Oldest to newest' : 'A to Z'}
               onClick={onClick}
             />
           </li>

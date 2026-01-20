@@ -1,11 +1,12 @@
 import styles from './stylesheet';
 
 type Props = {
+  canHover?: boolean;
   children: React.ReactNode | React.ReactNode[];
 };
 
-export default function Badge({ children }: Props) {
+export default function Badge({ canHover, children }: Props) {
   return (
-    <span className={styles.container}>{children}</span>
+    <span className={styles.container(canHover)}>{children}</span>
   );
 }

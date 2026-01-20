@@ -7,13 +7,15 @@ const styles = tw({
     p-0
     overflow-hidden
     uppercase
-    text-tiny
-    font-extrablack
+    text-xs
+    font-black
 
     focus:w-auto
     focus:h-auto
     focus:overflow-auto
     focus:p-2
+
+    md:text-tiny
   `,
 });
 
