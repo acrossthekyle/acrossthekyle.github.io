@@ -1,17 +1,27 @@
 import tw from '@/styles';
 
 const styles = tw({
-  nav: (hasPrevious: boolean) => tw(`
-    flex ${hasPrevious ? 'justify-between' : 'justify-end'} items-end
+  nav: `
+    absolute top-22 right-0
+    flex items-center gap-4
+    text-xs
 
-    mt-16
-  `),
-  first: `
-    flex flex-col
-    text-left
+    md:top-21
   `,
-  last: `
-    text-right
+  item: `
+    flex items-center gap-1
+    uppercase
+    text-current/50
+    font-bold
+    duration-300
+
+    hover:text-current/100
+  `,
+  icon: `
+    w-3 h-3
+    stroke-4
+
+    md:stroke-3
   `,
 });
 

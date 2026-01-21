@@ -427,8 +427,10 @@ async function getStages(folder) {
       const end = getTermini(data.termini, 1);
       const start = getTermini(data.termini, 0);
 
+      const date = parseDate(data.date, 'MMMM do, yyyy', new Date());
+
       stages.push({
-        date: data.date,
+        date: formatDate(date, 'LLL do, yyyy'),
         description: description || [],
         excerpt: data.excerpt || '',
         gpx: gpx || [],
@@ -638,6 +640,7 @@ function getTripDate(trip, stages) {
   const year = formatDate(start, 'yyyy').trim();
 
   let range = null;
+  let isYears = false;
 
   if (trip.dates.length > 1) {
     const end = parseDate(trip.dates[1], 'M/dd/yyyy', new Date());
@@ -666,13 +669,18 @@ function getTripDate(trip, stages) {
   } else {
     const end = stages[stages.length - 1].date.split(',')[1].trim();
 
+    isYears = true;
+
     range = [
       formatDate(start, 'yyyy').trim(),
       formatDate(end, 'yyyy').trim(),
     ];
   }
 
-  return range.join(' → ');
+  return {
+    isYears,
+    range,
+  };
 }
 
 function getLabel(type) {

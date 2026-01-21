@@ -1,6 +1,8 @@
+import type { Date } from '@/types';
+
 export type Data = {
   experience: {
-    date: string;
+    date: Date;
     location: string;
     slug: string;
     title: string[];

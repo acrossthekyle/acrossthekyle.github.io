@@ -71,6 +71,11 @@ export type Stage = {
   termini: Termini;
 };
 
+export type Date = {
+  isYears: boolean;
+  range: string[];
+};
+
 export type Navigation = {
   index: string;
   label: string;

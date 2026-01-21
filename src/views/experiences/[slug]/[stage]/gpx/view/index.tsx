@@ -32,9 +32,17 @@ export default function View({ data }: Props) {
               </Link>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
-            <BreadcrumbEllipsis />
+            <BreadcrumbItem>
+              <Link href="/experiences">
+                <BreadcrumbEllipsis />
+              </Link>
+            </BreadcrumbItem>
             <BreadcrumbSeparator />
-            <BreadcrumbEllipsis />
+            <BreadcrumbItem>
+              <Link href={`/experiences/${data.slug}`}>
+                <BreadcrumbEllipsis />
+              </Link>
+            </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
               <Link href={`/experiences/${data.slug}/${data.index}`}>

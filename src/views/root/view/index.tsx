@@ -4,6 +4,7 @@ import Image from 'next/image';
 
 import { Layout } from '@/layout';
 import { Badge } from '@/ui/badge';
+import { DateRange } from '@/ui/date';
 import { LinkStacked } from '@/ui/link';
 
 import styles from './stylesheet';
@@ -41,7 +42,7 @@ export default function View({ data }: Props) {
           <Badge>{data.experience.type}</Badge>
           <strong>{data.experience.title.join(' ')}</strong>
           <small className={styles.subtitle}>
-            {data.experience.location} &mdash; {data.experience.date}
+            {data.experience.location} &mdash; <DateRange date={data.experience.date} isPreview />
           </small>
         </LinkStacked>
       </p>
@@ -55,7 +56,10 @@ export default function View({ data }: Props) {
         <strong>
           Current role
         </strong><br />
-        <LinkStacked href="/resume" noMargin>
+        <LinkStacked
+          href={`/resume#${data.role.title.join('-').toLowerCase()}`}
+          noMargin
+        >
           <strong>{data.role.position}</strong>
           <small>{data.role.title.join(' ')}</small>
           <small className={styles.subtitle}>{data.role.date}</small>

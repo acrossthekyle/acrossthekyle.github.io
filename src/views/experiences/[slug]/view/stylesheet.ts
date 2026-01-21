@@ -15,8 +15,10 @@ const styles = tw({
     text-current/50
   `,
   list: `
-    grid grid-cols-3 gap-6
+    grid grid-cols-7 gap-6
     pt-2
+
+    md:grid-cols-3
   `,
   item: (index: number, total: number) => tw(`
     h-44

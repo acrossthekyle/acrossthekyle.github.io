@@ -1,7 +1,7 @@
-import type { Stage } from '@/types';
+import type { Date, Stage } from '@/types';
 
 export type Data = {
-  date: string;
+  date: Date;
   description: string[];
   gearWeight: string;
   hasGear: boolean;

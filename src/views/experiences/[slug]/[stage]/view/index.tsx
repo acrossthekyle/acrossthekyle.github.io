@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { Fragment } from 'react';
 
 import { Layout } from '@/layout';
 import { Badge } from '@/ui/badge';
@@ -26,57 +25,65 @@ type Props = {
 export default function View({ data }: Props) {
   return (
     <Layout group="experiences">
-      <header>
-        <Breadcrumb>
-          <BreadcrumbList>
-            <BreadcrumbItem>
-              <Link href="/" id="skip-to">
-                Home
-              </Link>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbEllipsis />
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <Link href={`/experiences/${data.slug}`}>
-                <BreadcrumbTruncate text={data.parent.join(' ')} />
-              </Link>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <BreadcrumbPage>
-                <BreadcrumbTruncate text={data.title.join(' ')} />
-              </BreadcrumbPage>
-            </BreadcrumbItem>
-          </BreadcrumbList>
-        </Breadcrumb>
-        <h1 id="title">
-          <Badge>{data.label} #{data.index}</Badge>
-          <strong>{data.title.join(' ')}</strong>
-          <small className={styles.subtitle}>
-            {data.location[0]} &mdash; {data.date}
-          </small>
-        </h1>
-      </header>
-      <article aria-labelledby="title">
-        {data.description.map((paragraph, index: number) => (
-          <Fragment key={paragraph}>
-            <p>{paragraph}</p>
-            {index === 0 && (
-              <ImageFigure className={styles.figure}>
-                <Image
-                  alt=""
-                  height={1080}
-                  sizes="(max-width: 768px) 50vw, 33vw"
-                  src={data.image}
-                  width={1920}
-                />
-                <ImageCaption>
-                  {data.location.join(', ')}
-                </ImageCaption>
-              </ImageFigure>
-            )}
-          </Fragment>
+      <article>
+        <header>
+          <Breadcrumb>
+            <BreadcrumbList>
+              <BreadcrumbItem>
+                <Link href="/" id="skip-to">
+                  Home
+                </Link>
+              </BreadcrumbItem>
+              <BreadcrumbSeparator />
+              <BreadcrumbItem>
+                <Link href="/experiences">
+                  <BreadcrumbEllipsis />
+                </Link>
+              </BreadcrumbItem>
+              <BreadcrumbSeparator />
+              <BreadcrumbItem>
+                <Link href={`/experiences/${data.slug}`}>
+                  <BreadcrumbTruncate text={data.parent.join(' ')} />
+                </Link>
+              </BreadcrumbItem>
+              <BreadcrumbSeparator />
+              <BreadcrumbItem>
+                <BreadcrumbPage>
+                  <BreadcrumbTruncate text={data.title.join(' ')} />
+                </BreadcrumbPage>
+              </BreadcrumbItem>
+            </BreadcrumbList>
+          </Breadcrumb>
+          <h1>
+            <Badge>{data.label} #{data.index}</Badge>
+            <strong>{data.title.join(' ')}</strong>
+            <small className={styles.subtitle}>
+              {data.location[0]} &mdash; {data.date}
+            </small>
+          </h1>
+          {data.hasNavigation && (
+            <Navigation
+              next={data.next}
+              previous={data.previous}
+              slug={data.slug}
+            />
+          )}
+        </header>
+        <ImageFigure className={styles.figure}>
+          <Image
+            alt=""
+            className={styles.image}
+            height={1080}
+            sizes="(max-width: 768px) 100vw, 33vw"
+            src={data.image}
+            width={1920}
+          />
+          <ImageCaption>
+            {data.location.join(', ')}
+          </ImageCaption>
+        </ImageFigure>
+        {data.description.map((paragraph) => (
+          <p key={paragraph}>{paragraph}</p>
         ))}
         {data.hasGpx && (
           <LinkStacked
@@ -86,13 +93,6 @@ export default function View({ data }: Props) {
             <small>View the route and elevation profile</small>
             <small className={styles.subtitle}>Includes other stats</small>
           </LinkStacked>
-        )}
-        {data.hasNavigation && (
-          <Navigation
-            next={data.next}
-            previous={data.previous}
-            slug={data.slug}
-          />
         )}
       </article>
     </Layout>

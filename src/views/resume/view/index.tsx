@@ -86,7 +86,7 @@ export default function View({ data }: Props) {
           </strong>
         </h2>
         {data.history.map((item) => (
-          <article className={styles.article} key={item.title.join('')}>
+          <article className={styles.article} key={item.title.join('')} id={item.title.join('-').toLowerCase()}>
             <figure className={styles.figure}>
               <Image
                 alt=""

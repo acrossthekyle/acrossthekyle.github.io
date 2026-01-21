@@ -9,12 +9,16 @@ const styles = tw({
 
     md:text-base
   `,
+  section: `
+    flex flex-col justify-end
+    h-[calc(100%-6rem)]
+  `,
   list: `
     w-full max-w-lg
     my-0 mx-auto
     flex flex-col gap-4
-    uppercase
-    text-base
+    capitalize
+    text-lg
 
     md:text-sm
   `,

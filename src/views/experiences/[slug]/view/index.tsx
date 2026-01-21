@@ -10,6 +10,7 @@ import {
   BreadcrumbSeparator,
   BreadcrumbTruncate,
 } from '@/ui/breadcrumbs';
+import { DateRange } from '@/ui/date';
 import { Image, ImageFigure } from '@/ui/image';
 import { LinkStacked } from '@/ui/link';
 
@@ -59,7 +60,7 @@ export default function View({ data }: Props) {
             {data.title.join(' ')}
           </strong>
           <small className={styles.subtitle}>
-            {data.location} &mdash; {data.date}
+            {data.location} &mdash; <DateRange date={data.date} />
           </small>
         </h1>
         {data.description.map((paragraph) => (
