@@ -55,7 +55,7 @@ export default function View({ data }: Props) {
             </BreadcrumbList>
           </Breadcrumb>
           <h1>
-            <Badge>{data.label} #{data.index}</Badge>
+            <Badge>{data.label} {data.index}</Badge>
             <strong>{data.title.join(' ')}</strong>
             <small className={styles.subtitle}>
               {data.date}

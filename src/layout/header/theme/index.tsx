@@ -9,7 +9,6 @@ export default function Theme() {
 
   return (
     <button
-      className={styles.toggle}
       onClick={onToggleTheme}
       title="Toggle theme"
       type="button"

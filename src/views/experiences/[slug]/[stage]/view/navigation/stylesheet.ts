@@ -4,7 +4,7 @@ const styles = tw({
   nav: `
     absolute top-22 right-0
     flex items-center gap-4
-    text-xs
+    text-tiny
 
     md:top-21
   `,

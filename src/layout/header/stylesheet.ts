@@ -11,23 +11,13 @@ const styles = tw({
   `,
   anchor: `
     text-base
-    font-mono
 
-    md:fixed
-    md:top-8
-    md:left-8
-    md:z-9
     md:text-sm
   `,
   nav: `
     flex flex-row-reverse items-center gap-4
 
     md:flex-row
-    md:items-end
-    md:fixed
-    md:top-8
-    md:right-8
-    md:z-9
   `,
   list: `
     hidden
