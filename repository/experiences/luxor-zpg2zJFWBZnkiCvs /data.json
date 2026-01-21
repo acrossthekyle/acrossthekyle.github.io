@@ -9,6 +9,6 @@
   "location": "Egypt",
   "title": "Luxor",
   "description": [
-    "Luxor is a city where history comes alive, from its towering temples to the ancient tombs of the Valley of the Kings. Walking among these wonders, you can feel the weight of thousands of years of civilization."
+    "Luxor, %location% is a city where history comes alive, from its towering temples to the ancient tombs of the Valley of the Kings. Walking among these wonders, you can feel the weight of thousands of years of civilization."
   ]
 }

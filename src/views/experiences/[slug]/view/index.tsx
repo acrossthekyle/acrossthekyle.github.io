@@ -60,7 +60,7 @@ export default function View({ data }: Props) {
             {data.title.join(' ')}
           </strong>
           <small className={styles.subtitle}>
-            {data.location} &mdash; <DateRange date={data.date} />
+            <DateRange date={data.date} />
           </small>
         </h1>
         {data.description.map((paragraph) => (

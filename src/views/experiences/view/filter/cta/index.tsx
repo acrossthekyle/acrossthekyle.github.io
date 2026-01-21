@@ -1,6 +1,6 @@
 'use client';
 
-import { Badge } from '@/ui/badge';
+import { Check } from 'lucide-react';
 
 import styles from './stylesheet';
 
@@ -31,6 +31,9 @@ export default function Cta({
             {expected !== 'everything' && count > 1 ? 's' : ''}
           </>
         )}
+        {expected === current && (
+          <Check className={styles.icon} />
+        )}
       </strong>
       {count && (
         <small className={styles.label}>
@@ -41,11 +44,6 @@ export default function Cta({
         <small className={styles.label}>
           {label}
         </small>
-      )}
-      {expected === current && (
-        <>
-          {' '}<Badge>selected</Badge>
-        </>
       )}
     </button>
   );

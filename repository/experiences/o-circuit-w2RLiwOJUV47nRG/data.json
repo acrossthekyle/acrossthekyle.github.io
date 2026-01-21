@@ -9,7 +9,7 @@
   "location": "Patagonia, Chile",
   "title": "Torres del Paine O Circuit",
   "description": [
-    "A tapestry of landscapes surrounded spires of granite, sprawling glaciers, pristine lakes, and windswept plains providing an idyllic background for thru-hiking %days% and %distance% in Chile.",
-    "Here at the bottom of the world in Patagonia, with equal parts rustic and modern, the trail known as the 'O' Circuit circumnavigates the prominent Torres del Paine granite towers that the park is known for. But the real highlight of the circuit took place after summitting the ridge at John Gardner Pass at %max% and seeing the massive Grays Glacier layed out below, filling the horizon from end to end."
+    "A tapestry of landscapes surrounded spires of granite, sprawling glaciers, pristine lakes, and windswept plains providing an idyllic background for thru-hiking %days% and %distance% in %location%.",
+    "Here at the bottom of the world in Patagonia, with equal parts rustic and modern, the trail known as the 'O' Circuit circumnavigates the prominent Torres del Paine granite towers that the park is known for. But the real highlight of the circuit took place after summitting the ridge at John Gardner Pass and seeing the massive Grays Glacier layed out below, filling the horizon from end to end."
   ]
 }

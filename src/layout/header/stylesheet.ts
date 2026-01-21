@@ -36,10 +36,20 @@ const styles = tw({
     md:flex
   `,
   link: `
-    duration-300
-    border-b-1 border-b-transparent
+    relative
 
-    hover:border-b-white
+    before:absolute
+    before:z-0
+    before:-top-1.25
+    before:-bottom-1.25
+    before:-left-1.5
+    before:-right-1.5
+    before:rounded-sm
+    before:opacity-0
+    before:duration-300
+    before:bg-(--foreground)/10
+
+    hover:before:opacity-100
   `,
 });
 

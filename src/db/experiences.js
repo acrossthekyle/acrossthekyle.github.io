@@ -10,7 +10,7 @@ const data = [
       ]
     },
     "description": [
-      "Known for its unglaciated, hilly landscape, this remote counterclockwise backpacking loop in the Driftless Area of Iowa showcases the state's most rugged terrain with a route that crosses ravines, climbs sandstone bluffs, and provides views of the surrounding hardwood forests and wildlife."
+      "Known for its unglaciated, hilly landscape, this remote counterclockwise backpacking loop in the Driftless Area of Harpers Ferry, Iowa showcases the state's most rugged terrain with a route that crosses ravines, climbs sandstone bluffs, and provides views of the surrounding hardwood forests and wildlife."
     ],
     "gear": {
       "categories": [
@@ -2741,7 +2741,7 @@ const data = [
       ]
     },
     "description": [
-      "I decided to thru-hike the Tour du Mont Blanc once again, but this time accompanied by my partner. The trek was much as I remembered, with abundant trips down memory lane. These pictures showcase our daily amazing views from the trail while hiked 117 miles over 11 days, reaching a maximum altitude of 8,972 feet."
+      "I returned to the European Alps to thru-hike a familiar trail: the Tour du Mont Blanc. However, this time I shared the experience with my partner. The trek was much as I remembered, with abundant trips down memory lane. These pictures showcase our daily, amazing, views from the trail while hiking 117 miles over 11 days."
     ],
     "gear": {
       "categories": [
@@ -15405,7 +15405,7 @@ const data = [
       ]
     },
     "description": [
-      "Before heading into the Alps for the Tour du Mont Blanc we took some time to explore the city of Geneva, from breakfast along the Rhone river to exploring Old Town and the botanical gardens."
+      "Before heading into the Alps for the Tour du Mont Blanc we took some time to explore the city of Geneva, Switzerland, from breakfast along the Rhone river to exploring Old Town and the botanical gardens."
     ],
     "gear": {},
     "hasGear": false,
@@ -15582,8 +15582,8 @@ const data = [
       ]
     },
     "description": [
-      "Considered to be the most difficult of all trails in Europe, the GR 20 is a footpath that traverses the Mediterranean island of Corsica from north to south along its spiny mountainous backbone.",
-      "Known locally as Fra Li Monti (Corsican for 'across the mountains'), it covers a distance of 131 miles and between the northern starting point at Calenzana to the finish at Conca in the south, there are hidden mountain lakes, expansive sea views, rugged and rocky cliffs, and remarkable panoramas."
+      "Considered to be the most difficult of all trails in Europe, the GR 20 is a footpath that traverses the Mediterranean island of Corsica, France from north to south along its spiny mountainous backbone, and it took 13 days to complete it.",
+      "Known locally as Fra Li Monti (Corsican for 'across the mountains'), it covers a distance of 131 miles. Between the northern starting point at Calenzana and the end at Conca in the south, there are hidden mountain lakes, expansive sea views, rugged and rocky cliffs, and remarkable panoramas."
     ],
     "gear": {
       "categories": [
@@ -30535,7 +30535,7 @@ const data = [
       ]
     },
     "description": [
-      "Luxor is a city where history comes alive, from its towering temples to the ancient tombs of the Valley of the Kings. Walking among these wonders, you can feel the weight of thousands of years of civilization."
+      "Luxor, Egypt is a city where history comes alive, from its towering temples to the ancient tombs of the Valley of the Kings. Walking among these wonders, you can feel the weight of thousands of years of civilization."
     ],
     "gear": {},
     "hasGear": false,
@@ -31190,7 +31190,7 @@ const data = [
       ]
     },
     "description": [
-      "A place of kettles and moraines from mile-thick glaciers long ago, completing this 1,200 mile long-distance national scenic trail in sections takes time. To date I've completed 3 sections over 4 days and 27 miles. It's not the distance on this trail that gets you; it's the constant up and down over rolling hills."
+      "A place of kettles and moraines from mile-thick glaciers long ago in Wisconsin, completing this 1,200 mile long-distance national scenic trail in sections takes time. To date I've completed 3 sections over 4 days and 27 miles. It's not the distance on this trail that gets you; it's the constant up and down over rolling hills."
     ],
     "gear": {
       "categories": [
@@ -35152,8 +35152,8 @@ const data = [
       ]
     },
     "description": [
-      "Filled with misty glens, deep lochs, and endless rain while hiking from Milngavie to Fort William, the West Highland Way is a long-distance trail in the highlands of Scotland spanning 97 miles. The trail travels down many ancient roads and old coaching routes, journeying from the lowlands to the highlands, while camping overnight in fields, along a lakeside beach, and under a bridge.",
-      "I was not prepared for the amount of rain nearly every day of this trek that took 6 days to complete, and by the end of it I was chilled to the bone. But I witnessed some amazing mountains once I got into the Highlands at altitudes around 1,799 feet, with a total elevation gain of 14,342 ft and loss of 14,431 ft."
+      "Filled with misty glens, deep lochs, and endless rain while hiking from Milngavie to Fort William, the West Highland Way is a long-distance trail in the highlands of Scotland, UK spanning 97 miles. The trail travels down many ancient roads and old coaching routes, journeying from the lowlands to the highlands, while camping overnight in fields, along lakeside beachs, and under bridges.",
+      "I was not prepared for the amount of rain nearly every day of this trek that took 6 days to complete, and by the end of it I was chilled to the bone. But I witnessed some amazing mountains once I got into the Highlands."
     ],
     "gear": {
       "categories": [
@@ -42536,8 +42536,8 @@ const data = [
       ]
     },
     "description": [
-      "A tapestry of landscapes surrounded spires of granite, sprawling glaciers, pristine lakes, and windswept plains providing an idyllic background for thru-hiking 8 days and 73 miles in Chile.",
-      "Here at the bottom of the world in Patagonia, with equal parts rustic and modern, the trail known as the 'O' Circuit circumnavigates the prominent Torres del Paine granite towers that the park is known for. But the real highlight of the circuit took place after summitting the ridge at John Gardner Pass at 3,874 feet and seeing the massive Grays Glacier layed out below, filling the horizon from end to end."
+      "A tapestry of landscapes surrounded spires of granite, sprawling glaciers, pristine lakes, and windswept plains providing an idyllic background for thru-hiking 8 days and 73 miles in Patagonia, Chile.",
+      "Here at the bottom of the world in Patagonia, with equal parts rustic and modern, the trail known as the 'O' Circuit circumnavigates the prominent Torres del Paine granite towers that the park is known for. But the real highlight of the circuit took place after summitting the ridge at John Gardner Pass and seeing the massive Grays Glacier layed out below, filling the horizon from end to end."
     ],
     "gear": {
       "categories": [
@@ -49891,8 +49891,8 @@ const data = [
       ]
     },
     "description": [
-      "Ranging from tropical forests and waterfalls along paddy fields to the frozen arctic region of the Tibetan plateau at 17,763 feet, the Annapurna Circuit + Basecamp thru-hike spanned 18 days while winding its way around one of the eight tallest peaks in the world in the Himalayas of Nepal for 193 miles.",
-      "The sheer amount of total elevation gain and loss (54,267 ft and 51,090 ft, respectfully), changing biomes, and nearly succumbing to hypothermia, led to this being one of my toughest treks."
+      "Ranging from tropical forests and waterfalls along paddy fields to the frozen arctic region of the Tibetan plateau at 17,763 feet, the Annapurna Circuit + Basecamp thru-hike spanned 18 days while winding its way around one of the eight tallest peaks in the world in the Himalayas of Nepal over 193 miles.",
+      "The sheer amount of total elevation gain and loss, changing biomes, and nearly succumbing to hypothermia, led to this being one of my toughest treks."
     ],
     "gear": {
       "categories": [
@@ -70374,6 +70374,183 @@ const data = [
   },
   {
     "index": 11,
+    "category": "destination",
+    "date": {
+      "isYears": false,
+      "range": [
+        "Nov 6th",
+        " 8th, 2019"
+      ]
+    },
+    "description": [
+      "After completing the Annapurna Circuit and Basecamp treks in Nepal I returned to the outdoor adventurist capital of %location%. Here I explord the city for a few days, including going paragliding for the first time."
+    ],
+    "gear": {},
+    "hasGear": false,
+    "hasStats": true,
+    "image": "2019/11/06/0a6730d7-113b-4bca-b9d1-71ecf8e69713.jpeg",
+    "label": "destination",
+    "location": "Nepal",
+    "slug": "pokhara",
+    "stages": [
+      {
+        "date": "Nov 6th, 2019",
+        "description": [
+          "I had a few days to kill in Nepal after I conquered my thru-hike of the Annapurna Circuit, and I spent them in Pokhara (the outdoor activity capital of Nepal). First thing the next day after arriving in town I headed towards the lake that most of the touristy area of the city lies along.",
+          "The highlight was hiring a brightly painted wooden boat, or doonga, to row out onto the water and head towards the far shore where I made a stop at the 'World Peace Pagoda' (Shanti Stupa).",
+          "The lake itself is a lovely and tranquil place to walk along in the morning before the city wakes up and the roadway in front of it becomes choked with mopeds and motorcycles.\n"
+        ],
+        "excerpt": "I spent a peaceful morning in Pokhara rowing a colorful boat across the lake to visit the serene World Peace Pagoda.",
+        "gpx": [],
+        "hasGpx": false,
+        "hasStats": false,
+        "image": "2019/11/06/0a6730d7-113b-4bca-b9d1-71ecf8e69713.jpeg",
+        "location": "Pokhara",
+        "readingTime": "1",
+        "snippet": "Morning on Phewa Lake",
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": {
+            "position": null,
+            "words": [
+              "Lake Phewa"
+            ]
+          },
+          "isSame": true,
+          "start": {
+            "position": null,
+            "words": [
+              "Lake Phewa"
+            ]
+          }
+        }
+      },
+      {
+        "date": "Nov 7th, 2019",
+        "description": [
+          "The World Peace Pagoda (Shanti Stupa) is perched on a hill called Anadu Hill at an altitude of 3,600 feet. The massive white dome stands as a literal beacon of peace overlooking the entire valley.",
+          "Getting there was was half the adventure. I chose the 'classic' route: a serene boat ride across Lake Phewa followed by a steep, hour-long hike through the lush Rani Ban forest. The trail is mostly stone stairs that wind through pines and wildflowers, providing just enough of a workout to make reaching the top feel earned.",
+          "Once I reached the top, the views were staggering. The skies weren't as clear as they could have been, but I could just barely make out the Annapurna massif and the distinct 'Fishtail' peak of Machhapuchhre in the distance. The pagoda itself is brilliant white with golden accents, featuring four statues of Buddha gifted from Japan, Sri Lanka, Thailand, and Nepal, each representing a different stage of his life.",
+          "Walking clockwise around the upper tier in silence (the whole area is intentionally kept quiet to allow for medication), I felt the 'spiritual calm' that visitors often talk about.\n"
+        ],
+        "excerpt": "After a scenic boat ride and a steep hike through forest, I reached the World Peace Pagoda and was rewarded with stunning valley views and a serene, spiritual calm.",
+        "gpx": [],
+        "hasGpx": false,
+        "hasStats": false,
+        "image": "2019/11/06/4286cd26-eaad-47b1-96f7-2dff5ea38352.jpeg",
+        "location": "Pokhara",
+        "readingTime": "1",
+        "snippet": "Peace at the Pagoda",
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": {
+            "position": null,
+            "words": [
+              "Peace",
+              "Pagoda"
+            ]
+          },
+          "isSame": true,
+          "start": {
+            "position": null,
+            "words": [
+              "Peace",
+              "Pagoda"
+            ]
+          }
+        }
+      },
+      {
+        "date": "Nov 8th, 2019",
+        "description": [
+          "I've been on roller coasters, big drops at amusement parks, and have even jumped out of a perfectly good airplane to go skydiving just outside of Chicago, but I had never been paragliding, until today. Paragliding here in Pokhara is apparently a common thing tourists do, and it was easily one of the most surreal things I've ever experienced.",
+          "The morning started with a bumpy, 20-minute jeep ride up to the takeoff spot at 5,800 feet. Looking down from the ridge at the colorful gliders already in the air was a bit nerve-wracking, but my pilot was incredibly chilld and professional, and walked me through a quick safety briefing.",
+          "When it was time to go, there was no 'jumping' off a cliff. Instead we just had to run together down a grassy slope until the wind caught the wing and suddenly, my feet were dangling in the air.",
+          "The silence up there is what surprised me the most: just the whistling of the wind and the occasional flap of the wing. We spiraled up into the thermals, and the view opened up into a patchwork of terraced fields and green valleys.",
+          "For the finale, my pilot asked if I wanted to do some 'tricks', or a series of exhilarating high-speed spirals and wingovers. I said sure but right away motion sickness hit me hard and we had to cut the 'fun' part short before a surprisingly gentle landing right on the shores of the lake at Khapaudi.\n"
+        ],
+        "excerpt": "Paragliding in Pokhara was a surreal experience, soaring silently over terraced fields and green valleys with just the wind around me.",
+        "gpx": [],
+        "hasGpx": false,
+        "hasStats": false,
+        "image": "2019/11/06/9bbcf55a-54e8-4a7e-8c6f-12d718bc0da0.jpeg",
+        "location": "Pokhara",
+        "readingTime": "2",
+        "snippet": "Flying Over Pokhara",
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": {
+            "position": null,
+            "words": [
+              "Paragliding"
+            ]
+          },
+          "isSame": true,
+          "start": {
+            "position": null,
+            "words": [
+              "Paragliding"
+            ]
+          }
+        }
+      }
+    ],
+    "stats": {
+      "altitude": {
+        "label": "altitude",
+        "value": {
+          "imperial": "-∞",
+          "metric": "-∞"
+        },
+        "units": {
+          "imperial": {
+            "full": "feet",
+            "abbreviated": "ft"
+          },
+          "metric": {
+            "full": "meters",
+            "abbreviated": "m"
+          }
+        }
+      },
+      "days": {
+        "label": "days",
+        "value": "3",
+        "units": null
+      },
+      "distance": null,
+      "length": {
+        "label": "length",
+        "value": 3,
+        "units": null
+      }
+    },
+    "timestamp": "1571465000",
+    "title": [
+      "Pokhara"
+    ],
+    "type": "vacation"
+  },
+  {
+    "index": 12,
     "category": "trekking",
     "date": {
       "isYears": true,
@@ -80184,7 +80361,7 @@ const data = [
     "type": "peak-bagging"
   },
   {
-    "index": 12,
+    "index": 13,
     "category": "trekking",
     "date": {
       "isYears": false,
@@ -91881,183 +92058,6 @@ const data = [
     "type": "thru-hike"
   },
   {
-    "index": 13,
-    "category": "destination",
-    "date": {
-      "isYears": false,
-      "range": [
-        "Nov 6th",
-        " 8th, 2019"
-      ]
-    },
-    "description": [
-      "After completing the Annapurna Circuit and Basecamp treks I returned to the outdoor adventurist capital of Nepal: Pokhara. Here I explord the city for a few days, including going paragliding for the first time."
-    ],
-    "gear": {},
-    "hasGear": false,
-    "hasStats": true,
-    "image": "2019/11/06/0a6730d7-113b-4bca-b9d1-71ecf8e69713.jpeg",
-    "label": "destination",
-    "location": "Nepal",
-    "slug": "pokhara",
-    "stages": [
-      {
-        "date": "Nov 6th, 2019",
-        "description": [
-          "I had a few days to kill in Nepal after I conquered my thru-hike of the Annapurna Circuit, and I spent them in Pokhara (the outdoor activity capital of Nepal). First thing the next day after arriving in town I headed towards the lake that most of the touristy area of the city lies along.",
-          "The highlight was hiring a brightly painted wooden boat, or doonga, to row out onto the water and head towards the far shore where I made a stop at the 'World Peace Pagoda' (Shanti Stupa).",
-          "The lake itself is a lovely and tranquil place to walk along in the morning before the city wakes up and the roadway in front of it becomes choked with mopeds and motorcycles.\n"
-        ],
-        "excerpt": "I spent a peaceful morning in Pokhara rowing a colorful boat across the lake to visit the serene World Peace Pagoda.",
-        "gpx": [],
-        "hasGpx": false,
-        "hasStats": false,
-        "image": "2019/11/06/0a6730d7-113b-4bca-b9d1-71ecf8e69713.jpeg",
-        "location": "Pokhara",
-        "readingTime": "1",
-        "snippet": "Morning on Phewa Lake",
-        "stats": {
-          "distance": null,
-          "gain": null,
-          "loss": null,
-          "max": null,
-          "time": null
-        },
-        "termini": {
-          "end": {
-            "position": null,
-            "words": [
-              "Lake Phewa"
-            ]
-          },
-          "isSame": true,
-          "start": {
-            "position": null,
-            "words": [
-              "Lake Phewa"
-            ]
-          }
-        }
-      },
-      {
-        "date": "Nov 7th, 2019",
-        "description": [
-          "The World Peace Pagoda (Shanti Stupa) is perched on a hill called Anadu Hill at an altitude of 3,600 feet. The massive white dome stands as a literal beacon of peace overlooking the entire valley.",
-          "Getting there was was half the adventure. I chose the 'classic' route: a serene boat ride across Lake Phewa followed by a steep, hour-long hike through the lush Rani Ban forest. The trail is mostly stone stairs that wind through pines and wildflowers, providing just enough of a workout to make reaching the top feel earned.",
-          "Once I reached the top, the views were staggering. The skies weren't as clear as they could have been, but I could just barely make out the Annapurna massif and the distinct 'Fishtail' peak of Machhapuchhre in the distance. The pagoda itself is brilliant white with golden accents, featuring four statues of Buddha gifted from Japan, Sri Lanka, Thailand, and Nepal, each representing a different stage of his life.",
-          "Walking clockwise around the upper tier in silence (the whole area is intentionally kept quiet to allow for medication), I felt the 'spiritual calm' that visitors often talk about.\n"
-        ],
-        "excerpt": "After a scenic boat ride and a steep hike through forest, I reached the World Peace Pagoda and was rewarded with stunning valley views and a serene, spiritual calm.",
-        "gpx": [],
-        "hasGpx": false,
-        "hasStats": false,
-        "image": "2019/11/06/4286cd26-eaad-47b1-96f7-2dff5ea38352.jpeg",
-        "location": "Pokhara",
-        "readingTime": "1",
-        "snippet": "Peace at the Pagoda",
-        "stats": {
-          "distance": null,
-          "gain": null,
-          "loss": null,
-          "max": null,
-          "time": null
-        },
-        "termini": {
-          "end": {
-            "position": null,
-            "words": [
-              "Peace",
-              "Pagoda"
-            ]
-          },
-          "isSame": true,
-          "start": {
-            "position": null,
-            "words": [
-              "Peace",
-              "Pagoda"
-            ]
-          }
-        }
-      },
-      {
-        "date": "Nov 8th, 2019",
-        "description": [
-          "I've been on roller coasters, big drops at amusement parks, and have even jumped out of a perfectly good airplane to go skydiving just outside of Chicago, but I had never been paragliding, until today. Paragliding here in Pokhara is apparently a common thing tourists do, and it was easily one of the most surreal things I've ever experienced.",
-          "The morning started with a bumpy, 20-minute jeep ride up to the takeoff spot at 5,800 feet. Looking down from the ridge at the colorful gliders already in the air was a bit nerve-wracking, but my pilot was incredibly chilld and professional, and walked me through a quick safety briefing.",
-          "When it was time to go, there was no 'jumping' off a cliff. Instead we just had to run together down a grassy slope until the wind caught the wing and suddenly, my feet were dangling in the air.",
-          "The silence up there is what surprised me the most: just the whistling of the wind and the occasional flap of the wing. We spiraled up into the thermals, and the view opened up into a patchwork of terraced fields and green valleys.",
-          "For the finale, my pilot asked if I wanted to do some 'tricks', or a series of exhilarating high-speed spirals and wingovers. I said sure but right away motion sickness hit me hard and we had to cut the 'fun' part short before a surprisingly gentle landing right on the shores of the lake at Khapaudi.\n"
-        ],
-        "excerpt": "Paragliding in Pokhara was a surreal experience, soaring silently over terraced fields and green valleys with just the wind around me.",
-        "gpx": [],
-        "hasGpx": false,
-        "hasStats": false,
-        "image": "2019/11/06/9bbcf55a-54e8-4a7e-8c6f-12d718bc0da0.jpeg",
-        "location": "Pokhara",
-        "readingTime": "2",
-        "snippet": "Flying Over Pokhara",
-        "stats": {
-          "distance": null,
-          "gain": null,
-          "loss": null,
-          "max": null,
-          "time": null
-        },
-        "termini": {
-          "end": {
-            "position": null,
-            "words": [
-              "Paragliding"
-            ]
-          },
-          "isSame": true,
-          "start": {
-            "position": null,
-            "words": [
-              "Paragliding"
-            ]
-          }
-        }
-      }
-    ],
-    "stats": {
-      "altitude": {
-        "label": "altitude",
-        "value": {
-          "imperial": "-∞",
-          "metric": "-∞"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
-        }
-      },
-      "days": {
-        "label": "days",
-        "value": "3",
-        "units": null
-      },
-      "distance": null,
-      "length": {
-        "label": "length",
-        "value": 3,
-        "units": null
-      }
-    },
-    "timestamp": "1560190500",
-    "title": [
-      "Pokhara"
-    ],
-    "type": "vacation"
-  },
-  {
     "index": 14,
     "category": "trekking",
     "date": {
@@ -92068,8 +92068,7 @@ const data = [
       ]
     },
     "description": [
-      "Encircling the Mont Blanc mountain in the Alps, the tour of this peak is a classic long-distance hike covering a distance of 106 miles while passing through France, Italy, and Switzerland. It offered a challenging experience filled with diverse landscapes, a unique blend of cultures, and stunning alpine charm across 12 days of hiking, all while sleeping in comfy mountain huts and eating warm home-cooked meals each night. The unofficially highest point on the trek, via an alternate route, was 9,010 feet.",
-      "The sights from the trail, and at the mountain huts, are beautiful and well worth the 36,877 ft of total elevation gain and 36,701 ft of total elevation loss."
+      "Encircling the Mont Blanc mountain in the European Alps, the tour of this peak is a classic long-distance hike covering a distance of 106 miles while passing through France, Italy, and Switzerland. It offered a challenging experience filled with diverse landscapes, a unique blend of cultures, and stunning alpine charm across 12 days of hiking, all while sleeping in comfy mountain huts and eating warm home-cooked meals each night. The unofficially highest point on the trek, via an alternate route, was 9,010 feet."
     ],
     "gear": {
       "categories": [
@@ -141840,7 +141839,7 @@ const data = [
       ]
     },
     "description": [
-      "I first learned about backpacking/trekking while in Patagonia, walking underneath the granite spires called Torres del Paine."
+      "I first learned about backpacking/trekking while in Patagonia, Chile, walking underneath the granite spires called Torres del Paine."
     ],
     "gear": {},
     "hasGear": false,
@@ -142021,7 +142020,7 @@ const data = [
       ]
     },
     "description": [
-      "I returned to South America for another international adventure, this time including Lollapalooza, discovering a passion for the wilderness by hiking into the Andes mountains in search of glaciers, and heading down to Patagonia."
+      "I returned to South America for another international adventure, this time including Lollapalooza, discovering a passion for the wilderness by hiking into the Andes mountains in search of glaciers, and heading down to Patagonia in Chile."
     ],
     "gear": {},
     "hasGear": false,
@@ -142241,7 +142240,7 @@ const data = [
       ]
     },
     "description": [
-      "My first vacation abroad in South America continued with a quick plane ride over to Montevideo."
+      "My first vacation abroad in South America continued with a quick plane ride over to Montevideo, Uruguay."
     ],
     "gear": {},
     "hasGear": false,
@@ -142340,7 +142339,7 @@ const data = [
       ]
     },
     "description": [
-      "I embarked on my first vacation abroad to South America, experiencing the sights and sounds of Buenos Aires and my first music festival at Lollapalooza."
+      "I embarked on my first vacation abroad to Argentina, South America, experiencing the sights and sounds of Buenos Aires and my first music festival at Lollapalooza."
     ],
     "gear": {},
     "hasGear": false,

@@ -58,7 +58,7 @@ export default function View({ data }: Props) {
             <Badge>{data.label} #{data.index}</Badge>
             <strong>{data.title.join(' ')}</strong>
             <small className={styles.subtitle}>
-              {data.location[0]} &mdash; {data.date}
+              {data.date}
             </small>
           </h1>
           {data.hasNavigation && (

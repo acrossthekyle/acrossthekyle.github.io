@@ -9,6 +9,6 @@
   "location": "Chile",
   "title": "Patagonia",
   "description": [
-    "I first learned about backpacking/trekking while in Patagonia, walking underneath the granite spires called Torres del Paine."
+    "I first learned about backpacking/trekking while in Patagonia, %location%, walking underneath the granite spires called Torres del Paine."
   ]
 }

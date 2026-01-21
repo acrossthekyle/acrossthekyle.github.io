@@ -9,20 +9,12 @@ export default function Footer() {
         <ul className={styles.links}>
           <li>
             <Link
-              aria-label="my now page"
-              href="/now"
-            >
-              Now
-            </Link>
-          </li>
-          <li>
-            <Link
               aria-label="view instagram profile"
               href="https://instagram.com/acrossthekyle"
               target="_blank"
               rel="noreferrer"
             >
-              Insta
+              Instagram
             </Link>
           </li>
           <li>
@@ -32,7 +24,7 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              In
+              LinkedIn
             </Link>
           </li>
         </ul>

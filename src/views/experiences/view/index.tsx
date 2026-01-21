@@ -11,7 +11,6 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from '@/ui/breadcrumbs';
-import { DateRange } from '@/ui/date';
 import { LinkStacked } from '@/ui/link';
 
 import Filter from './filter';
@@ -65,7 +64,7 @@ export default function View({ data }: Props) {
               <Badge>{item.type}</Badge>
               <strong>{item.title.join(' ')}</strong>
               <small className={styles.subtitle}>
-                {item.location} &mdash; <DateRange date={item.date} />
+                {item.location}
               </small>
             </LinkStacked>
           </li>

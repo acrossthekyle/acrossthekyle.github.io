@@ -9,6 +9,6 @@
   "location": "Argentina",
   "title": "Buenos Aires",
   "description": [
-    "I embarked on my first vacation abroad to South America, experiencing the sights and sounds of Buenos Aires and my first music festival at Lollapalooza."
+    "I embarked on my first vacation abroad to %location%, South America, experiencing the sights and sounds of Buenos Aires and my first music festival at Lollapalooza."
   ]
 }

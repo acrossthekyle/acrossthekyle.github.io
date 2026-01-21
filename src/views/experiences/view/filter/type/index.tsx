@@ -46,7 +46,7 @@ export default function Type({ current, options, onClick }: Props) {
           </h2>
           <DialogClose id="filter" onClose={handleOnClose} />
         </DialogHeader>
-        <ul>
+        <ul className={styles.list}>
           <li>
             <Cta
               count={20}

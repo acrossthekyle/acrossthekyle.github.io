@@ -2,17 +2,16 @@ import experiences from '@/db/experiences';
 import resume from '@/db/resume';
 
 export default function get() {
-  const experience = experiences[0];
   const role = resume.history[0];
 
   return {
-    experience: {
-      date: experience.date,
-      location: experience.location,
-      slug: experience.slug,
-      title: experience.title,
-      type: experience.type,
-    },
+    experiences: experiences.slice(0, 2).map(({ date, location, slug, title, type }) => ({
+      date,
+      location,
+      slug,
+      title,
+      type,
+    })),
     role: {
       date: role.date.start,
       position: role.position,

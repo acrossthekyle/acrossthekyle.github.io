@@ -46,7 +46,7 @@ export default function Order({ current, onClick, sortBy }: Props) {
           </h2>
           <DialogClose id="order" onClose={handleOnClose} />
         </DialogHeader>
-        <ul>
+        <ul className={styles.list}>
           <li>
             <Cta
               current={current}

@@ -96,10 +96,8 @@ body {
   }
 
   @media (width >= 48rem) {
-    a[data-active="true"] {
-      border-bottom-color: var(--foreground);
-      border-bottom-style: solid;
-      border-bottom-width: 1px;
+    a[data-active="true"]::before {
+      opacity: 1;
     }
   }
 

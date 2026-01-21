@@ -9,6 +9,6 @@
   "location": "Uruguay",
   "title": "Montevideo",
   "description": [
-    "My first vacation abroad in South America continued with a quick plane ride over to Montevideo."
+    "My first vacation abroad in South America continued with a quick plane ride over to Montevideo, %location%."
   ]
 }

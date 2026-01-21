@@ -4,7 +4,6 @@ import Image from 'next/image';
 
 import { Layout } from '@/layout';
 import { Badge } from '@/ui/badge';
-import { DateRange } from '@/ui/date';
 import { LinkStacked } from '@/ui/link';
 
 import styles from './stylesheet';
@@ -35,17 +34,19 @@ export default function View({ data }: Props) {
         </p>
       </header>
       <p>
-        <strong>
-          Recent experience
-        </strong><br />
-        <LinkStacked href={`/experiences/${data.experience.slug}`} noMargin>
-          <Badge>{data.experience.type}</Badge>
-          <strong>{data.experience.title.join(' ')}</strong>
-          <small className={styles.subtitle}>
-            {data.experience.location} &mdash; <DateRange date={data.experience.date} isPreview />
-          </small>
-        </LinkStacked>
+        <strong>Recently</strong>
       </p>
+      <ul className={styles.list}>
+        {data.experiences.map((experience) => (
+          <li key={experience.slug}>
+            <LinkStacked href={`/experiences/${experience.slug}`} noMargin>
+              <Badge>{experience.type}</Badge>
+              <strong>{experience.title.join(' ')}</strong>
+              <small className={styles.subtitle}>{experience.location}</small>
+            </LinkStacked>
+          </li>
+        ))}
+      </ul>
       <p>
         <Link className={styles.more} href="/experiences">
           <strong><small>More</small></strong>
@@ -53,16 +54,13 @@ export default function View({ data }: Props) {
         </Link>
       </p>
       <p className="mt-16">
-        <strong>
-          Current role
-        </strong><br />
+        <strong>Currently</strong><br />
         <LinkStacked
           href={`/resume#${data.role.title.join('-').toLowerCase()}`}
           noMargin
         >
           <strong>{data.role.position}</strong>
-          <small>{data.role.title.join(' ')}</small>
-          <small className={styles.subtitle}>{data.role.date}</small>
+          <small className={styles.subtitle}>{data.role.title.join(' ')}</small>
         </LinkStacked>
       </p>
       <p>

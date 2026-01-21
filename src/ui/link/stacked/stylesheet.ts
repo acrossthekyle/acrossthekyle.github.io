@@ -16,7 +16,7 @@ const styles = {
     before:opacity-0
     before:duration-300
     before:rounded-sm
-    dark:before:bg-white/5
+    before:bg-(--foreground)/5
 
     hover:before:opacity-100
   `),

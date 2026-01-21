@@ -9,7 +9,6 @@
   "location": "European Alps",
   "title": "Tour du Mont Blanc",
   "description": [
-    "Encircling the Mont Blanc mountain in the Alps, the tour of this peak is a classic long-distance hike covering a distance of %distance% while passing through France, Italy, and Switzerland. It offered a challenging experience filled with diverse landscapes, a unique blend of cultures, and stunning alpine charm across %days% of hiking, all while sleeping in comfy mountain huts and eating warm home-cooked meals each night. The unofficially highest point on the trek, via an alternate route, was %max%.",
-    "The sights from the trail, and at the mountain huts, are beautiful and well worth the %gain% of total elevation gain and %loss% of total elevation loss."
+    "Encircling the Mont Blanc mountain in the %location%, the tour of this peak is a classic long-distance hike covering a distance of %distance% while passing through France, Italy, and Switzerland. It offered a challenging experience filled with diverse landscapes, a unique blend of cultures, and stunning alpine charm across %days% of hiking, all while sleeping in comfy mountain huts and eating warm home-cooked meals each night. The unofficially highest point on the trek, via an alternate route, was %max%."
   ]
 }

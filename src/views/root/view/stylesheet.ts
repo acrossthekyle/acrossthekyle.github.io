@@ -9,6 +9,10 @@ const styles = tw({
     block
     text-current/50
   `,
+  list: `
+    flex flex-col gap-6
+    mb-4
+  `,
   more: `
     flex items-center gap-1
     duration-300
