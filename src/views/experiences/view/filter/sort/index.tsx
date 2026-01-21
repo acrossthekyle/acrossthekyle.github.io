@@ -41,25 +41,27 @@ export default function Sort({ current, onClick, orderBy}: Props) {
       >
         <DialogHeader>
           <h2>
-            <strong>Sort by</strong>
-            <small>Date or title</small>
+            <strong>Sort</strong>
+            <small>Date or alphabetically</small>
           </h2>
           <DialogClose id="sort" onClose={handleOnClose} />
         </DialogHeader>
         <ul className={styles.list}>
           <li>
             <Cta
+              count={orderBy === 'descending' ? 'Newest to oldest' : 'Oldest to newest'}
               current={current}
               expected="date"
-              label={orderBy === 'descending' ? 'Newest to oldest' : 'Oldest to newest'}
+              label="Date"
               onClick={onClick}
             />
           </li>
           <li>
             <Cta
+              count={orderBy === 'descending' ? 'Z to A' : 'A to Z'}
               current={current}
               expected="title"
-              label={orderBy === 'descending' ? 'Z to A' : 'A to Z'}
+              label="Alphabetically"
               onClick={onClick}
             />
           </li>

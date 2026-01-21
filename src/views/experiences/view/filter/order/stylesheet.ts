@@ -5,7 +5,7 @@ const styles = tw({
     inline
   `,
   list: `
-    flex flex-col gap-4
+    flex flex-col gap-3
   `,
 });
 

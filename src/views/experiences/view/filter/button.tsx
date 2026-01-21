@@ -12,7 +12,7 @@ export default function Button({ children, onClick, ...rest }: Props) {
       type="button"
       {...rest}
     >
-      <u><em>{children}</em></u>
+      <u>{children}</u>
     </button>
   );
 }

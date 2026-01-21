@@ -5,7 +5,7 @@ import { Check } from 'lucide-react';
 import styles from './stylesheet';
 
 type Props = {
-  count?: number;
+  count?: string | number;
   current: string;
   expected: string;
   label?: string;
@@ -19,31 +19,32 @@ export default function Cta({
   label,
   onClick,
 }: Props) {
+  const isSelected = expected === current;
+
   return (
     <button
-      className={styles.button}
+      className={styles.button(isSelected)}
       onClick={() => onClick(expected)}
       type="button"
     >
-      <strong className={styles.value}>
-        {expected}{count && (
+      <span>
+        {!!label ? <>{label}</> : (
           <>
-            {expected !== 'everything' && count > 1 ? 's' : ''}
+            {expected}{typeof count === 'number' && (
+              <>
+                {expected !== 'everything' && count > 1 ? 's' : ''}
+              </>
+            )}
           </>
         )}
         {expected === current && (
           <Check className={styles.icon} />
         )}
-      </strong>
+      </span>
       {count && (
-        <small className={styles.label}>
-          {count} item{count > 1 ? 's' : ''}
-        </small>
-      )}
-      {label && (
-        <small className={styles.label}>
-          {label}
-        </small>
+        <span className={styles.count}>
+          {count}
+        </span>
       )}
     </button>
   );

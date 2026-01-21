@@ -6,7 +6,7 @@ const styles = tw({
     flex items-center gap-4
     text-tiny
 
-    md:top-21
+    md:top-26.25
   `,
   item: `
     flex items-center gap-1

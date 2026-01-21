@@ -41,8 +41,8 @@ export default function Type({ current, options, onClick }: Props) {
       >
         <DialogHeader>
           <h2>
-            <strong>Filter by</strong>
-            <small>Type of experience</small>
+            <strong>Filter</strong>
+            <small>Category</small>
           </h2>
           <DialogClose id="filter" onClose={handleOnClose} />
         </DialogHeader>

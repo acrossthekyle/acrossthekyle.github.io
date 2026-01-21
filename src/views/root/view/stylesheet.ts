@@ -23,6 +23,9 @@ const styles = tw({
     w-3 h-3
     stroke-3
   `,
+  spacer: `
+    mt-16
+  `,
 });
 
 export default styles;

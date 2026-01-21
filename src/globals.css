@@ -95,10 +95,8 @@ body {
     border-bottom-width: 1px;
   }
 
-  @media (width >= 48rem) {
-    a[data-active="true"]::before {
-      opacity: 1;
-    }
+  a[data-active="true"]::before {
+    opacity: 1;
   }
 
   u {

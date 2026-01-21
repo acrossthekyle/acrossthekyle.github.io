@@ -27,6 +27,7 @@ const styles = tw({
   `,
   link: `
     relative
+    font-medium
 
     before:absolute
     before:z-0
@@ -40,6 +41,8 @@ const styles = tw({
     before:bg-(--foreground)/10
 
     hover:before:opacity-100
+
+    md:font-normal
   `,
 });
 

@@ -52,7 +52,9 @@ export default function Navigation({ className, route }: Props) {
       </li>
       <li>
         <Link
+          aria-current={route === 'now' ? 'page' : undefined}
           className={styles.link}
+          data-active={route === 'now'}
           href="/now"
         >
           Now
@@ -62,7 +64,6 @@ export default function Navigation({ className, route }: Props) {
         <Link
           className={styles.link}
           href="mailto:hello@acrossthekyle.com"
-          target="_blank"
         >
           Contact
         </Link>

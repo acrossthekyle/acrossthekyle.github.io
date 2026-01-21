@@ -53,7 +53,7 @@ export default function View({ data }: Props) {
           <ArrowRight className={styles.icon} />
         </Link>
       </p>
-      <p className="mt-16">
+      <p className={styles.spacer}>
         <strong>Currently</strong><br />
         <LinkStacked
           href={`/resume#${data.role.title.join('-').toLowerCase()}`}

@@ -32,7 +32,7 @@ export default function Filter({ data, onChange }: Props) {
           options={types}
           onClick={handleOnFilter}
         />{' '}
-        sorted by{' '}
+        by{' '}
         <Sort
           current={sortBy}
           onClick={handleOnSort}

@@ -2,8 +2,8 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
+    flex-1
     flex items-center justify-center
-    h-full
   `,
   svg: `
     size-6
