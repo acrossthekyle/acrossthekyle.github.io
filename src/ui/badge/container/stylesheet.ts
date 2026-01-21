@@ -3,8 +3,8 @@ import tw from '@/styles';
 const styles = {
   container: (canHover?: boolean) => tw(`
     inline-block
-    -ml-1 mb-1
-    px-1.5 py-0.25
+    -ml-1.25 mb-1
+    px-1.25 py-0.25
     rounded-sm
     text-xs/5
     font-bold

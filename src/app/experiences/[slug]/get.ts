@@ -33,6 +33,7 @@ export default function get(slug: string) {
         termini,
       })),
     title: data.title,
+    total: data.stages.length,
     type: data.type,
   };
 };

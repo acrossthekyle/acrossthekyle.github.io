@@ -10,5 +10,6 @@ export type Data = {
   slug: string;
   stages: Stage[];
   title: string[];
+  total: number;
   type: string;
 };

@@ -1,6 +1,6 @@
 'use client';
 
-import { Menu as Icon } from 'lucide-react';
+import { TextAlignEnd as Icon } from 'lucide-react';
 
 import { useDialog } from '@/hooks/useDialog';
 import {
@@ -45,13 +45,9 @@ export default function Menu({ route }: Props) {
         ref={dialog}
       >
         <DialogHeader>
-          <h2 className={styles.header}>
-            <strong>Menu</strong>
-            <small>Main navigation</small>
-          </h2>
+          <Navigation className={styles.list} route={route} />
           <DialogClose id="menu" onClose={handleOnClose} />
         </DialogHeader>
-        <Navigation className={styles.list} route={route} />
         <DialogFooter />
       </Dialog>
     </>

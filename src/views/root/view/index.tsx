@@ -38,9 +38,11 @@ export default function View({ data }: Props) {
           Recent experience
         </strong><br />
         <LinkStacked href={`/experiences/${data.experience.slug}`} noMargin>
+          <Badge>{data.experience.type}</Badge>
           <strong>{data.experience.title.join(' ')}</strong>
-          <small><Badge>{data.experience.type}</Badge>{data.experience.location}</small>
-          <small className={styles.subtitle}>{data.experience.date}</small>
+          <small className={styles.subtitle}>
+            {data.experience.location} &mdash; {data.experience.date}
+          </small>
         </LinkStacked>
       </p>
       <p>

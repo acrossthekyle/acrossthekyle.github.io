@@ -1,5 +1,7 @@
 import tw from '@/styles';
 
+import { getColSpan } from './utils';
+
 const styles = tw({
   badge: `
     flex items-center gap-1
@@ -8,25 +10,29 @@ const styles = tw({
     w-3 h-3
     stroke-3
   `,
-  meta: `
-    capitalize
-  `,
   subtitle: `
     block
-    !text-sm text-current/50
-
-    md:!text-xs
+    text-current/50
   `,
   list: `
-    grid grid-cols-3 gap-4
-
-    md:grid-cols-4
+    grid grid-cols-3 gap-6
+    pt-2
+  `,
+  item: (index: number, total: number) => tw(`
+    h-44
+    ${getColSpan(total, index)}
+  `),
+  figure: `
+    h-full
+    overflow-hidden
+    rounded-lg
   `,
   image: `
-    aspect-square
-    duration-300
+    grayscale-100
+    duration-800
 
-    hover:scale-110
+    hover:grayscale-0
+    hover:scale-103
   `,
 });
 

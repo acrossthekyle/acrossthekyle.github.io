@@ -31,7 +31,7 @@ const styles = tw({
   `,
   list: `
     hidden
-    items-end gap-3
+    items-end gap-4
 
     md:flex
   `,

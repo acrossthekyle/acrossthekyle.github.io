@@ -5,7 +5,7 @@ import styles from './stylesheet';
 export default function Footer() {
   return (
     <footer className={styles.container}>
-      <nav aria-label="supplementary navigation">
+      <nav aria-label="supplementary navigation" className={styles.nav}>
         <ul className={styles.links}>
           <li>
             <Link
@@ -13,14 +13,6 @@ export default function Footer() {
               href="/now"
             >
               Now
-            </Link>
-          </li>
-          <li>
-            <Link
-              aria-label="send email"
-              href="mailto:hello@acrossthekyle.com"
-            >
-              Email
             </Link>
           </li>
           <li>
@@ -46,7 +38,7 @@ export default function Footer() {
         </ul>
       </nav>
       <p className={styles.copyright}>
-         © 2011 &mdash; {new Date().getFullYear()} All rights reserved.
+         © 2011 - {new Date().getFullYear()}. All rights reserved.
       </p>
     </footer>
   );

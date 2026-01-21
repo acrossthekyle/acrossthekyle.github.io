@@ -50,6 +50,14 @@ export default function Navigation({ className, route }: Props) {
           Resume
         </Link>
       </li>
+      <li>
+        <Link
+          className={styles.link}
+          href="mailto:hello@acrossthekyle.com"
+        >
+          Email
+        </Link>
+      </li>
     </ul>
   );
 }

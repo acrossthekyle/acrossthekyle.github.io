@@ -51,12 +51,11 @@ export default function View({ data }: Props) {
           </BreadcrumbList>
         </Breadcrumb>
         <h1 id="title">
+          <Badge>{data.label} #{data.index}</Badge>
           <strong>{data.title.join(' ')}</strong>
-          <small className={styles.label}>
-            <Badge>{data.label} #{data.index}</Badge>
-            {data.location.join(' - ')}
+          <small className={styles.subtitle}>
+            {data.location[0]} &mdash; {data.date}
           </small>
-          <small className={styles.subtitle}>{data.date}</small>
         </h1>
       </header>
       <article aria-labelledby="title">
@@ -68,7 +67,7 @@ export default function View({ data }: Props) {
                 <Image
                   alt=""
                   height={1080}
-                  sizes="(max-width: 768px) 100vw, 50vw"
+                  sizes="(max-width: 768px) 50vw, 33vw"
                   src={data.image}
                   width={1920}
                 />
@@ -85,6 +84,7 @@ export default function View({ data }: Props) {
           >
             <strong>GPX Data</strong>
             <small>View the route and elevation profile</small>
+            <small className={styles.subtitle}>Includes other stats</small>
           </LinkStacked>
         )}
         {data.hasNavigation && (

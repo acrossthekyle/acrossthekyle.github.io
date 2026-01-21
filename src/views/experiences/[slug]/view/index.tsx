@@ -1,4 +1,3 @@
-import { CircleQuestionMark } from 'lucide-react';
 import Link from 'next/link';
 
 import { Layout } from '@/layout';
@@ -47,20 +46,21 @@ export default function View({ data }: Props) {
           </BreadcrumbList>
         </Breadcrumb>
         <h1>
-          <strong>
-            {data.title.join(' ')}
-          </strong>
           <Badge canHover>
             <Link
               className={styles.badge}
               href={`/experiences/terminology#${data.type.replace(' ', '-')}`}
               title={`Learn more about ${data.type}s`}
             >
-              {data.type} <CircleQuestionMark className={styles.icon} />
+              {data.type}
             </Link>
           </Badge>
-          <small>{data.location}</small>
-          <small className={styles.subtitle}>{data.date}</small>
+          <strong>
+            {data.title.join(' ')}
+          </strong>
+          <small className={styles.subtitle}>
+            {data.location} &mdash; {data.date}
+          </small>
         </h1>
         {data.description.map((paragraph) => (
           <p key={paragraph}>
@@ -68,20 +68,19 @@ export default function View({ data }: Props) {
           </p>
         ))}
       </header>
-      <h2>
-        <strong className={styles.meta}>Travelogue</strong>
-        <small>A catalog of this {data.type}</small>
-      </h2>
+      <p>
+        Photos and journal entries for each {data.label}:
+      </p>
       <ul className={styles.list}>
-        {data.stages.map((stage) => (
-          <li key={stage.index}>
-            <ImageFigure>
+        {data.stages.map((stage, index: number) => (
+          <li className={styles.item(index, data.total)} key={stage.index}>
+            <ImageFigure className={styles.figure}>
               <Link href={`/experiences/${data.slug}/${stage.index}`}>
                 <Image
-                  alt={stage.termini.end.words.join(' ')}
+                  alt=""
                   className={styles.image}
                   height={1080}
-                  sizes="(max-width: 768px) 100vw, 50vw"
+                  sizes="(max-width: 768px) 50vw, 33vw"
                   src={stage.image}
                   width={1920}
                 />

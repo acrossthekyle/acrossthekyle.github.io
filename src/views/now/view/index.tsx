@@ -40,6 +40,9 @@ export default function View() {
           Reading "The Dark Forest" by Liu Cixin, and "A Clash of Kings" by George R.R. Martin
         </li>
         <li>
+          Daily 30-minute yoga videos with my partner
+        </li>
+        <li>
           Wrapped up a re-watch of Star Trek: Voyager
         </li>
         <li>

@@ -4,7 +4,7 @@ const styles = tw({
   nav: (hasPrevious: boolean) => tw(`
     flex ${hasPrevious ? 'justify-between' : 'justify-end'} items-end
 
-    pt-16
+    mt-16
   `),
   first: `
     flex flex-col

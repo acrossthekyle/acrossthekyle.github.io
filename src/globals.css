@@ -89,11 +89,18 @@ body {
     margin-bottom: 1rem;
   }
 
-  a[data-active="true"],
   u {
     border-bottom-color: var(--foreground);
     border-bottom-style: solid;
     border-bottom-width: 1px;
+  }
+
+  @media (width >= 48rem) {
+    a[data-active="true"] {
+      border-bottom-color: var(--foreground);
+      border-bottom-style: solid;
+      border-bottom-width: 1px;
+    }
   }
 
   u {

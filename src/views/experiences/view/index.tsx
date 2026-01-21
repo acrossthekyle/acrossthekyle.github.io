@@ -61,9 +61,11 @@ export default function View({ data }: Props) {
         {items.map((item) => (
           <li key={item.index}>
             <LinkStacked href={`/experiences/${item.slug}`} noMargin>
+              <Badge>{item.type}</Badge>
               <strong>{item.title.join(' ')}</strong>
-              <Badge>{item.type}</Badge><small>{item.location}</small>
-              <small className={styles.subtitle}>{item.date}</small>
+              <small className={styles.subtitle}>
+                {item.location} &mdash; {item.date}
+              </small>
             </LinkStacked>
           </li>
         ))}
