@@ -3,7 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   footer: `
     hidden
-    absolute bottom-8 right-0
+    absolute bottom-8 left-0
 
     md:block
   `,

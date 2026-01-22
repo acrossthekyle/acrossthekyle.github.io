@@ -11,7 +11,7 @@ const styles = tw({
   `,
   section: `
     flex flex-col justify-end
-    h-[calc(100%-6rem)]
+    h-[calc(100%-7.75rem)]
   `,
   list: `
     w-full max-w-lg

@@ -45,7 +45,10 @@ export default function Menu({ route }: Props) {
         ref={dialog}
       >
         <DialogHeader>
-          <h2 className={styles.header}><strong>Menu</strong></h2>
+          <h2 className={styles.header}>
+            <strong>Menu</strong>
+            <small>Main navigation</small>
+          </h2>
           <DialogClose id="menu" onClose={handleOnClose} />
         </DialogHeader>
         <section aria-label="main navigation" className={styles.section}>

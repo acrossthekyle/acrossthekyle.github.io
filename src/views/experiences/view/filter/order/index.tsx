@@ -15,7 +15,7 @@ export default function Order({ current, onClick, sortBy }: Props) {
     <ul className={styles.container}>
       <li>
         <Cta
-          count={sortBy === 'date' ? 'Oldest to newest' : 'A to Z'}
+          count={sortBy === 'date' ? 'Old to new' : 'A to Z'}
           current={current}
           expected="ascending"
           label="Ascending"
@@ -24,7 +24,7 @@ export default function Order({ current, onClick, sortBy }: Props) {
       </li>
       <li>
         <Cta
-          count={sortBy === 'date' ? 'Newest to oldest' : 'Z to A'}
+          count={sortBy === 'date' ? 'New to old' : 'Z to A'}
           current={current}
           expected="descending"
           label="Descending"

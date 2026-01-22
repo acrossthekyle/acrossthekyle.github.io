@@ -16,8 +16,10 @@ const styles = tw({
     before:z-0
     before:duration-300
     before:rounded-sm
+    before:border
+    before:border-(--foreground)/7
 
-    ${isSelected ? 'before:bg-(--foreground)/25' : 'before:bg-(--foreground)/5'}
+    ${isSelected ? 'before:bg-(--foreground)/22.5' : 'before:bg-(--foreground)/10'}
 
     hover:before:bg-(--foreground)/25
   `),
@@ -30,6 +32,12 @@ const styles = tw({
     rounded-sm
     uppercase
     px-1
+  `,
+  icon: `
+    inline-block
+    w-3 h-3
+    ml-1
+    stroke-3
   `,
 });
 

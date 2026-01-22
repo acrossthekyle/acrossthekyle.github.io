@@ -47,7 +47,7 @@ export default function Filter({ data, onChange }: Props) {
         <button onClick={handleOnOpen} type="button">
           <u>{filterBy}</u>
         </button>{' '}
-        by {sortBy} in {orderBy} order:
+        by {sortBy} in {orderBy} order.
         <Dialog
           id="filter"
           isOpen={isOpen}
@@ -56,8 +56,8 @@ export default function Filter({ data, onChange }: Props) {
         >
           <DialogHeader>
             <h2>
-              <strong>Currently viewing</strong>
-              <small>Filter experiences</small>
+              <strong>Filter</strong>
+              <small>Currently viewing {filterBy} by {sortBy} in {orderBy} order.</small>
             </h2>
             <DialogClose id="filter" onClose={handleOnClose} />
           </DialogHeader>
@@ -73,12 +73,11 @@ export default function Filter({ data, onChange }: Props) {
           </section>
           <section className={styles.section}>
             <h3>
-              <strong>Sort</strong>
+              <strong>Sort by</strong>
             </h3>
             <Sort
               current={sortBy}
               onClick={handleOnSort}
-              orderBy={orderBy}
             />
           </section>
           <section className={styles.section}>

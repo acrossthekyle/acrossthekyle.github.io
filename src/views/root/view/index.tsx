@@ -33,7 +33,8 @@ export default function View({ data }: Props) {
           For the past {new Date().getFullYear() - 2012} years I've built numerous web apps because making things with code thrills me to no end, and it drives me to be creative. In my free time I like to explore the world. Over the last {new Date().getFullYear() - 2018} years I've been nearly everywhere, from the frozen peaks of the Himalayas in Nepal, to the untamed windswept beauty of Patagonia in Southern Chile.
         </p>
       </header>
-      <p>
+      <hr className={styles.hr} />
+      <p className={styles.spacer}>
         <strong>Recently</strong>
       </p>
       <ul className={styles.list}>
@@ -53,6 +54,7 @@ export default function View({ data }: Props) {
           <ArrowRight className={styles.icon} />
         </Link>
       </p>
+      <hr className={`${styles.spacer} ${styles.hr}`} />
       <p className={styles.spacer}>
         <strong>Currently</strong><br />
         <LinkStacked

@@ -26,6 +26,9 @@ const styles = tw({
   spacer: `
     mt-16
   `,
+  hr: `
+    border-(--foreground)/12.5
+  `,
 });
 
 export default styles;

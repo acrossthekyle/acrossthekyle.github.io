@@ -1,5 +1,7 @@
 'use client';
 
+import { Check } from 'lucide-react';
+
 import styles from './stylesheet';
 
 type Props = {
@@ -28,6 +30,9 @@ export default function Cta({
       <span>
         {!!label ? <>{label}</> : (
           <>{expected}</>
+        )}
+        {expected === current && (
+          <Check className={styles.icon} />
         )}
       </span>
       {count && (
