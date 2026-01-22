@@ -21,6 +21,7 @@ const styles = tw({
   `,
   spread: `
     flex items-end justify-between
+    font-black
   `,
   date: `
     font-normal

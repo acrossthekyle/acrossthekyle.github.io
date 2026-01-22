@@ -1,8 +1,11 @@
 import tw from '@/styles';
 
 const styles = tw({
-  container: `
-    md:px-2
+  section: `
+    flex flex-col gap-4
+    mb-8
+
+    last:mb-0
   `,
 });
 
