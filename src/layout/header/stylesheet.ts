@@ -2,12 +2,13 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    flex justify-between
+    flex justify-between items-start
     max-w-lg
     text-sm
     uppercase
 
     md:text-xs
+    md:items-center
   `,
   anchor: `
     text-base
@@ -27,7 +28,7 @@ const styles = tw({
   `,
   link: `
     relative
-    font-medium
+    font-light
 
     before:absolute
     before:z-0
@@ -43,6 +44,14 @@ const styles = tw({
     hover:before:opacity-100
 
     md:font-normal
+  `,
+  theme: `
+    hidden
+
+    md:block
+    md:fixed
+    md:bottom-8
+    md:right-8
   `,
 });
 

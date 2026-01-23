@@ -4,23 +4,25 @@ const styles = tw({
   open: `
     md:hidden
   `,
+  close: `
+    top-6 right-5
+  `,
   header: `
     text-lg
 
     md:text-base
   `,
   section: `
-    flex flex-col justify-end
-    h-[calc(100%-7.75rem)]
+    flex items-end justify-start
+    h-full
   `,
   list: `
-    w-full max-w-lg
-    my-0 mx-auto
-    flex flex-col gap-3
-    capitalize
-    text-lg
-
-    md:text-sm
+    flex flex-col gap-2
+    capitalize uppercase
+    text-left text-xl
+  `,
+  theme: `
+    fixed right-6 bottom-6
   `,
 });
 

@@ -1,14 +1,6 @@
-import Link from 'next/link';
 import Markdown from 'react-markdown';
 
 import { Layout } from '@/layout';
-import {
-  Breadcrumb,
-  BreadcrumbList,
-  BreadcrumbItem,
-  BreadcrumbPage,
-  BreadcrumbSeparator,
-} from '@/ui/breadcrumbs';
 
 import styles from './stylesheet';
 import type { Data } from './types';
@@ -21,31 +13,21 @@ export default function View({ data }: Props) {
   return (
     <Layout group="writing">
       <header>
-        <Breadcrumb>
-          <BreadcrumbList>
-            <BreadcrumbItem>
-              <Link href="/" id="skip-to">
-                Home
-              </Link>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <BreadcrumbPage>
-                Writing
-              </BreadcrumbPage>
-            </BreadcrumbItem>
-          </BreadcrumbList>
-        </Breadcrumb>
         <h1>
-          <strong>All about words</strong>
-          <small>A sort of mini-blog.</small>
+          <strong>
+            Writing
+          </strong>
+          <small>Thinking out loud</small>
         </h1>
+        <p>
+          This space is for exploring ideas, and giving a glimpse into how I see the world. A place where I share my thoughts, opinions, and reflections on the things that matter to me.
+        </p>
       </header>
       {data.map((item) => (
         <article key={item.title}>
           <h2>
             <strong>{item.title}</strong>
-            <small className={styles.date}>{item.date}</small>
+            <small className={styles.subtitle}>{item.date}</small>
           </h2>
           <Markdown>{item.content}</Markdown>
         </article>

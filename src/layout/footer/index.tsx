@@ -9,6 +9,14 @@ export default function Footer() {
         <ul className={styles.links}>
           <li>
             <Link
+              aria-label="view trails and travels terminology"
+              href="/terminology"
+            >
+              Terminology
+            </Link>
+          </li>
+          <li>
+            <Link
               aria-label="view instagram profile"
               href="https://instagram.com/acrossthekyle"
               target="_blank"

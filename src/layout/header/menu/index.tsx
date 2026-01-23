@@ -6,16 +6,16 @@ import { useDialog } from '@/hooks/useDialog';
 import {
   Dialog,
   DialogClose,
-  DialogHeader,
   DialogFooter,
 } from '@/ui/dialog';
 
 import Navigation from '../navigation';
+import Theme from '../theme';
 
 import styles from './stylesheet';
 
 type Props = {
-  route: string;
+  route?: string;
 };
 
 export default function Menu({ route }: Props) {
@@ -44,16 +44,15 @@ export default function Menu({ route }: Props) {
         onCancel={handleOnCancel}
         ref={dialog}
       >
-        <DialogHeader>
-          <h2 className={styles.header}>
-            <strong>Menu</strong>
-            <small>Main navigation</small>
-          </h2>
-          <DialogClose id="menu" onClose={handleOnClose} />
-        </DialogHeader>
+        <DialogClose
+          className={styles.close}
+          id="menu"
+          onClose={handleOnClose}
+        />
         <section aria-label="main navigation" className={styles.section}>
           <Navigation className={styles.list} route={route} />
         </section>
+        <Theme className={styles.theme} />
         <DialogFooter />
       </Dialog>
     </>

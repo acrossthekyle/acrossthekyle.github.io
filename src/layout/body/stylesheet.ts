@@ -5,9 +5,10 @@ const styles = tw({
     antialiased
     p-6
     text-lg
+    font-light
 
-    md:p-8
     md:text-base
+    md:p-8
   `,
 });
 

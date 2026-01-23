@@ -4,7 +4,7 @@ import styles from './stylesheet';
 
 type Props = {
   className: string;
-  route: string;
+  route?: string;
 };
 
 export default function Navigation({ className, route }: Props) {
@@ -12,12 +12,12 @@ export default function Navigation({ className, route }: Props) {
     <ul className={className}>
       <li>
         <Link
-          aria-current={route === 'experiences' ? 'page' : undefined}
+          aria-current={route === 'trails-and-travels' ? 'page' : undefined}
           className={styles.link}
-          data-active={route === 'experiences'}
-          href="/experiences"
+          data-active={route === 'trails-and-travels'}
+          href="/trails-and-travels"
         >
-          Experiences
+          Trails and Travels
         </Link>
       </li>
       <li>
@@ -32,12 +32,12 @@ export default function Navigation({ className, route }: Props) {
       </li>
       <li>
         <Link
-          aria-current={route === 'art' ? 'page' : undefined}
+          aria-current={route === 'photos' ? 'page' : undefined}
           className={styles.link}
-          data-active={route === 'art'}
-          href="/art"
+          data-active={route === 'photos'}
+          href="/photos"
         >
-          Art
+          Photos
         </Link>
       </li>
       <li>
@@ -64,8 +64,9 @@ export default function Navigation({ className, route }: Props) {
         <Link
           className={styles.link}
           href="mailto:hello@acrossthekyle.com"
+          target="_blank"
         >
-          Contact
+          Email
         </Link>
       </li>
     </ul>

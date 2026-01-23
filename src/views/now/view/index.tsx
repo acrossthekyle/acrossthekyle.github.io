@@ -1,13 +1,6 @@
 import Link from 'next/link';
 
 import { Layout } from '@/layout';
-import {
-  Breadcrumb,
-  BreadcrumbList,
-  BreadcrumbItem,
-  BreadcrumbPage,
-  BreadcrumbSeparator,
-} from '@/ui/breadcrumbs';
 
 import styles from './stylesheet';
 
@@ -15,25 +8,15 @@ export default function View() {
   return (
     <Layout group="now">
       <header>
-        <Breadcrumb>
-          <BreadcrumbList>
-            <BreadcrumbItem>
-              <Link href="/" id="skip-to">
-                Home
-              </Link>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <BreadcrumbPage>
-                Now
-              </BreadcrumbPage>
-            </BreadcrumbItem>
-          </BreadcrumbList>
-        </Breadcrumb>
         <h1>
-          <strong>Now</strong>
-          <small>What I'm doing.</small>
+          <strong>
+            Now
+          </strong>
+          <small>What's happening in my world</small>
         </h1>
+        <p>
+          This is my little corner to share what I'm up to and what I'm focused on right now. Just a snapshot of life as it's happening.
+        </p>
       </header>
       <ul className={styles.list}>
         <li>
@@ -53,9 +36,11 @@ export default function View() {
         <small>Last updated:<br /><em>January 18, 2026</em></small>
       </p>
       <p className={styles.footer}>
-        <small>
-          Visit <Link href="https://nownownow.com/about" target="_blank"><u>nownownow.com</u></Link> to learn more about "now" pages.
-        </small>
+        <Link href="https://nownownow.com/about" target="_blank">
+          <em>
+            Visit nownownow.com to learn more about the now movement
+          </em>
+        </Link>
       </p>
     </Layout>
   );

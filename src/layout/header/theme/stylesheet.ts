@@ -4,10 +4,13 @@ const styles = tw({
   dot: `
     block
     rounded-full
-    w-3 h-3
+    w-5 h-5
 
     dark:bg-yellow-400
     light:bg-slate-800
+
+    md:w-3.5
+    md:h-3.5
   `,
 });
 

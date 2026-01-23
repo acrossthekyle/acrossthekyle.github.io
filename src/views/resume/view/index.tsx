@@ -1,13 +1,6 @@
 import Link from 'next/link';
 
 import { Layout } from '@/layout';
-import {
-  Breadcrumb,
-  BreadcrumbList,
-  BreadcrumbItem,
-  BreadcrumbPage,
-  BreadcrumbSeparator,
-} from '@/ui/breadcrumbs';
 import { Image } from '@/ui/image';
 
 import styles from './stylesheet';
@@ -21,24 +14,11 @@ export default function View({ data }: Props) {
   return (
     <Layout group="resume">
       <header>
-        <Breadcrumb>
-          <BreadcrumbList>
-            <BreadcrumbItem>
-              <Link href="/" id="skip-to">
-                Home
-              </Link>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <BreadcrumbPage>
-                Resume
-              </BreadcrumbPage>
-            </BreadcrumbItem>
-          </BreadcrumbList>
-        </Breadcrumb>
         <h1>
-          <strong>Driven to create</strong>
-          <small>It's what motivates me to code.</small>
+          <strong>
+            Resume
+          </strong>
+          <small>Driven to create</small>
         </h1>
         <p>
           I'm a self-taught web developer/software engineer and making things with code thrills me to no end. With a strong background in <em>JavaScript/TypeScript</em>, and <em>HTML/CSS</em>, I have hands-on experience working with high-traffic, customer-facing products built with an attention to detail.

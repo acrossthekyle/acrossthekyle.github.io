@@ -32,6 +32,7 @@ const styles = tw({
   responsibilities: `
     ml-4
     list-disc
+    leading-7
   `,
   skill: `
     flex gap-4

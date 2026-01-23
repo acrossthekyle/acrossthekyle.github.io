@@ -4,6 +4,8 @@ import styles from './stylesheet';
 
 export default function Ellipsis() {
   return (
-    <Icon className={styles.icon} />
+    <span className={styles.container}>
+      <Icon className={styles.icon} />
+    </span>
   );
 }
