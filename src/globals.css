@@ -196,7 +196,7 @@ body {
 
   sub {
     align-items: center;
-    color: color-mix(in oklab, currentcolor 75%, transparent);
+    color: color-mix(in oklab, currentcolor 80%, transparent);
     display: flex;
     font-family: var(--font-mono);
     font-size: var(--text-xs);
