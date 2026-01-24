@@ -64,7 +64,6 @@ export default function Navigation({ className, route }: Props) {
         <Link
           className={styles.link}
           href="mailto:hello@acrossthekyle.com"
-          target="_blank"
         >
           Email
         </Link>

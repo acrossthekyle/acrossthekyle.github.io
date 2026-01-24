@@ -28,7 +28,8 @@ const styles = tw({
   `,
   link: `
     relative
-    font-light
+    font-light font-serif
+    italic
 
     before:absolute
     before:z-0
@@ -44,6 +45,8 @@ const styles = tw({
     hover:before:opacity-100
 
     md:font-normal
+    md:font-sans
+    md:not-italic
   `,
   theme: `
     hidden

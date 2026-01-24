@@ -1,16 +1,6 @@
 import tw from '@/styles';
 
 const styles = tw({
-  subtitle: `
-    flex justify-between gap-8
-    w-full
-    text-current/75 !text-xs
-    uppercase
-    font-mono
-  `,
-  label: `
-    text-right
-  `,
   figure: `
     my-6
   `,

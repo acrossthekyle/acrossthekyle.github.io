@@ -7,16 +7,10 @@ const styles = tw({
   `,
   item: `
     border-b-1 border-b-current/15 border-dashed
-    pb-6
+    pb-7
 
     last-of-type:border-b-0
-  `,
-  subtitle: `
-    flex justify-between gap-8
-    w-full
-    text-current/75
-    uppercase
-    font-mono !text-xs
+    last-of-type:pb-0
   `,
 });
 

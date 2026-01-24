@@ -43,12 +43,11 @@ export default function View({ data }: Props) {
           <strong>
             {data.title.join(' ')}
           </strong>
-          <small className={styles.subtitle}>
+          <sub>
             <span>
-              <DateRange date={data.date} />
+              <DateRange date={data.date} /> &mdash;&mdash; {data.type}
             </span>
-            <span>{data.type}</span>
-          </small>
+          </sub>
         </h1>
       </header>
       {data.description.map((paragraph) => (
@@ -72,7 +71,7 @@ export default function View({ data }: Props) {
                   src={stage.image}
                   width={1920}
                 />
-                <ImageCaption className={styles.caption}>
+                <ImageCaption>
                   {data.label} #{stage.index}
                 </ImageCaption>
               </Link>

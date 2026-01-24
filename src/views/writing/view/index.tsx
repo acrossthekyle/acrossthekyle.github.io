@@ -2,7 +2,6 @@ import Markdown from 'react-markdown';
 
 import { Layout } from '@/layout';
 
-import styles from './stylesheet';
 import type { Data } from './types';
 
 type Props = {
@@ -27,7 +26,9 @@ export default function View({ data }: Props) {
         <article key={item.title}>
           <h2>
             <strong>{item.title}</strong>
-            <small className={styles.subtitle}>{item.date}</small>
+            <sub>
+              <span>{item.date}</span>
+            </sub>
           </h2>
           <Markdown>{item.content}</Markdown>
         </article>

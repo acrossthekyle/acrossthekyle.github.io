@@ -5,13 +5,12 @@ import styles from './stylesheet';
 type Props = {
   children: React.ReactNode | React.ReactNode[];
   href: string;
-  noMargin?: boolean;
 };
 
-export default function Stacked({ children, href, noMargin }: Props) {
+export default function Stacked({ children, href }: Props) {
   return (
     <Link
-      className={styles.container(noMargin)}
+      className={styles.container}
       href={href}
     >
       {children}

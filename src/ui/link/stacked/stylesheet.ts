@@ -1,15 +1,14 @@
 import tw from '@/styles';
 
-const styles = {
-  container: (noMargin?: boolean) => tw(`
+const styles = tw({
+  container: `
     block
     relative
-    ${!noMargin && 'mt-16'}
 
     before:block
     before:absolute
     before:-top-2
-    before:-bottom-2
+    before:-bottom-3
     before:-left-3
     before:-right-3
     before:z-0
@@ -19,7 +18,7 @@ const styles = {
     before:bg-(--foreground)/5
 
     hover:before:opacity-100
-  `),
-};
+  `,
+});
 
 export default styles;

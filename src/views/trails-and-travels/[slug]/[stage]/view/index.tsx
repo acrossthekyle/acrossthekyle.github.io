@@ -51,10 +51,9 @@ export default function View({ data }: Props) {
             <strong>
               {data.title.join(' ')}
             </strong>
-            <small className={styles.subtitle}>
-              <span>{data.date}</span>
-              <span className={styles.label}>{data.label} {data.index}/{data.total}</span>
-            </small>
+            <sub>
+              {data.date} &mdash;&mdash; {data.label} {data.index}/{data.total}
+            </sub>
           </h1>
         </header>
         <ImageFigure className={styles.figure}>
@@ -75,7 +74,7 @@ export default function View({ data }: Props) {
         ))}
         {data.hasGpx && (
           <LinkItalic href={`/trails-and-travels/${data.slug}/${data.index}/gpx`}>
-            View route and elevation
+            The route and elevation
           </LinkItalic>
         )}
         {data.hasNavigation && (

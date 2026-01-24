@@ -53,9 +53,9 @@ export default function View({ data }: Props) {
         </Breadcrumb>
         <h1>
           <strong>GPX Data</strong>
-          <small>
-            Route and elevation profile
-          </small>
+          <sub>
+            <span>Route and elevation profile</span>
+          </sub>
         </h1>
       </header>
       <section aria-label="route and elevation profile">

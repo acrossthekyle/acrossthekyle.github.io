@@ -31,19 +31,21 @@ export default function View({ data }: Props) {
         From Nepal's Himalayas to windswept Patagonia, I've hiked a lot of miles and witnessed some amazing things. Wandering is life, and the thrill keeps me coming back for more.
       </p>
       <Filter data={data} onChange={handleOnFilter} />
-      <ul aria-label="trails and travels navigation" className={styles.list}>
-        {items.map((item) => (
-          <li className={styles.item} key={item.index}>
-            <LinkStacked href={`/trails-and-travels/${item.slug}`} noMargin>
-              <strong>{item.title.join(' ')}</strong>
-              <small className={styles.subtitle}>
-                <span>{item.location}</span>
-                <span>{item.type}</span>
-              </small>
-            </LinkStacked>
-          </li>
-        ))}
-      </ul>
+      <nav aria-label="trails and travels navigation">
+        <ul className={styles.list}>
+          {items.map((item) => (
+            <li className={styles.item} key={item.index}>
+              <LinkStacked href={`/trails-and-travels/${item.slug}`}>
+                <strong>{item.title.join(' ')}</strong>
+                <sub>
+                  <span>{item.location}</span>
+                  <span>{item.type}</span>
+                </sub>
+              </LinkStacked>
+            </li>
+          ))}
+        </ul>
+      </nav>
     </Layout>
   );
 }

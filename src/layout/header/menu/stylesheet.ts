@@ -18,8 +18,8 @@ const styles = tw({
   `,
   list: `
     flex flex-col gap-2
-    capitalize uppercase
-    text-left text-xl
+    capitalize
+    text-xl
   `,
   theme: `
     fixed right-6 bottom-6
