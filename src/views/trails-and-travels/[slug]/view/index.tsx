@@ -81,7 +81,7 @@ export default function View({ data }: Props) {
       </ul>
       {data.hasGear && (
         <LinkItalic href={`${data.slug}/gear`}>
-          View the gear
+          The gear
         </LinkItalic>
       )}
     </Layout>
