@@ -1,17 +1,17 @@
 import tw from '@/styles';
 
 const styles = tw({
-  container: `
+  container: (asButton?: boolean) => tw(`
     mt-8
-    flex gap-2
+    flex ${asButton ? 'items-end' : 'items-center'} gap-2
     font-semibold
-    text-base
+    text-base text-left
     duration-300
 
     hover:gap-3
 
     md:text-sm
-  `,
+  `),
   icon: `
     w-4
     stroke-2

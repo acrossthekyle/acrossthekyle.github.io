@@ -1,5 +1,6 @@
 'use client';
 
+import { LinkItalic } from '@/ui/link';
 import type { Navigation } from '@/types';
 
 import { useModel } from './model';
@@ -7,41 +8,38 @@ import styles from './stylesheet';
 
 type Props = {
   next?: Navigation;
-  previous?: Navigation;
   slug: string;
 };
 
-export default function Navigation({ next, previous, slug }: Props) {
+export default function Navigation({ next, slug }: Props) {
   const { handleOnNavigate } = useModel();
 
   return (
     <nav
       aria-label="next previous supplementary navigation"
-      className={styles.nav(previous !== undefined)}
+      className={styles.nav(true)}
     >
-      {previous !== undefined && (
-        <button
-          className={styles.first}
-          onClick={() => handleOnNavigate(`/trails-and-travels/${slug}/${previous.index}`)}
-          type="button"
+      {next === undefined && (
+        <LinkItalic
+          asButton
+          onClick={() => handleOnNavigate(`/trails-and-travels/${slug}`)}
         >
-          <span className={styles.eyebrow}>Previous</span>
-          <strong className={styles.title}>
-            {previous.title.join(' ')}
+          <span className={styles.eyebrow}>The end</span>
+          <strong>
+            Back to summary
           </strong>
-        </button>
+        </LinkItalic>
       )}
       {next !== undefined && (
-        <button
-          className={styles.last}
+        <LinkItalic
+          asButton
           onClick={() => handleOnNavigate(`/trails-and-travels/${slug}/${next.index}`)}
-          type="button"
         >
           <span className={styles.eyebrow}>Next</span>
-          <strong className={styles.title}>
-            {next.title.join(' ')}
+          <strong>
+            {next.label} {next.index}: {next.title.join(' ')}
           </strong>
-        </button>
+        </LinkItalic>
       )}
     </nav>
   );

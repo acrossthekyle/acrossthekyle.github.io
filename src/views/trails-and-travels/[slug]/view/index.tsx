@@ -43,11 +43,9 @@ export default function View({ data }: Props) {
           <strong>
             {data.title.join(' ')}
           </strong>
-          <sub>
-            <span>
-              <DateRange date={data.date} /> &mdash;&mdash; {data.type}
-            </span>
-          </sub>
+          <small>
+            <DateRange date={data.date} />
+          </small>
         </h1>
       </header>
       {data.description.map((paragraph) => (
@@ -56,9 +54,9 @@ export default function View({ data }: Props) {
         </p>
       ))}
       <p>
-        Photos and journal entries for each {data.label}:
+        Photos and journal entries for each {data.label.toLowerCase()}:
       </p>
-      <ul className={styles.list}>
+      <ul className={styles.list(data.hasGear)}>
         {data.stages.map((stage, index: number) => (
           <li className={styles.item(index, data.total)} key={stage.index}>
             <ImageFigure className={styles.figure}>

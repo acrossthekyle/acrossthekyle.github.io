@@ -20,11 +20,9 @@ const styles = tw({
     before:border
     before:border-(--foreground)/5
 
-    ${isSelected ? 'before:bg-(--foreground)/17.5' : 'before:bg-(--foreground)/5'}
+    ${isSelected ? 'before:bg-(--foreground)/20' : 'before:bg-(--foreground)/10'}
 
     hover:before:bg-(--foreground)/25
-
-    md:text-tiny
   `),
   count: `
     flex items-center justify-center

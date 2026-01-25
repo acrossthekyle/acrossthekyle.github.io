@@ -430,7 +430,7 @@ async function getStages(folder) {
       const date = parseDate(data.date, 'MMMM do, yyyy', new Date());
 
       stages.push({
-        date: formatDate(date, 'LLL do, yyyy'),
+        date: formatDate(date, 'LLLL do, yyyy'),
         description: description || [],
         excerpt: data.excerpt || '',
         gpx: gpx || [],
@@ -645,8 +645,8 @@ function getTripDate(trip, stages) {
   if (trip.dates.length > 1) {
     const end = parseDate(trip.dates[1], 'M/dd/yyyy', new Date());
 
-    const monthA = formatDate(start, 'LLL');
-    const monthB = formatDate(end, 'LLL');
+    const monthA = formatDate(start, 'LLLL');
+    const monthB = formatDate(end, 'LLLL');
 
     const yearA = formatDate(start, 'yyyy').trim();
     const yearB = formatDate(end, 'yyyy').trim();
@@ -685,19 +685,19 @@ function getTripDate(trip, stages) {
 
 function getLabel(type) {
   if (type === 'overnight trek' || type === 'thru-hike') {
-    return 'day';
+    return 'Day';
   }
 
   if (type === 'section hike') {
-    return 'section';
+    return 'Section';
   }
 
   if (type === 'peak-bagging') {
-    return 'summit';
+    return 'Summit';
   }
 
   if (type === 'vacation') {
-    return 'destination';
+    return 'Destination';
   }
 
   return '';

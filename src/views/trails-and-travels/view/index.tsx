@@ -1,6 +1,7 @@
 'use client';
 
 import { Layout } from '@/layout';
+import { DateRange } from '@/ui/date';
 import { LinkStacked } from '@/ui/link';
 
 import Filter from './filter';
@@ -37,10 +38,9 @@ export default function View({ data }: Props) {
             <li key={item.index}>
               <LinkStacked href={`/trails-and-travels/${item.slug}`}>
                 <strong>{item.title.join(' ')}</strong>
-                <sub>
-                  <span>{item.location}</span>
-                  <span>{item.type}</span>
-                </sub>
+                <small>
+                  <em><DateRange date={item.date} /> &mdash; {item.location}</em>
+                </small>
               </LinkStacked>
             </li>
           ))}

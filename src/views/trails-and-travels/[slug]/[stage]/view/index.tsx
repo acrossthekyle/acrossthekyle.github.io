@@ -48,12 +48,8 @@ export default function View({ data }: Props) {
             </BreadcrumbList>
           </Breadcrumb>
           <h1>
-            <strong>
-              {data.title.join(' ')}
-            </strong>
-            <sub>
-              {data.date} &mdash;&mdash; {data.label} {data.index}/{data.total}
-            </sub>
+            <strong>{data.title.join(' ')}</strong>
+            <small>{data.date}</small>
           </h1>
         </header>
         <ImageFigure className={styles.figure}>
@@ -66,23 +62,27 @@ export default function View({ data }: Props) {
             width={1920}
           />
           <ImageCaption>
-            {data.location.join(', ')}
+            {data.location[0]}
           </ImageCaption>
         </ImageFigure>
+        <p>
+          <em>
+            {data.label} {data.index}/{data.total} &mdash; {data.location.join(', ')}
+          </em>
+        </p>
         {data.description.map((paragraph) => (
           <p key={paragraph}>{paragraph}</p>
         ))}
+        {data.hasNavigation && (
+          <Navigation
+            next={data.next}
+            slug={data.slug}
+          />
+        )}
         {data.hasGpx && (
           <LinkItalic href={`/trails-and-travels/${data.slug}/${data.index}/gpx`}>
             The route and elevation
           </LinkItalic>
-        )}
-        {data.hasNavigation && (
-          <Navigation
-            next={data.next}
-            previous={data.previous}
-            slug={data.slug}
-          />
         )}
       </article>
     </Layout>

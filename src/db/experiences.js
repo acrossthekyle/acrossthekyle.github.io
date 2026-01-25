@@ -5,7 +5,7 @@ const data = [
     "date": {
       "isYears": false,
       "range": [
-        "Oct 18th",
+        "October 18th",
         " 19th, 2025"
       ]
     },
@@ -468,12 +468,12 @@ const data = [
     "hasGear": true,
     "hasStats": true,
     "image": "2025/10/18/efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg",
-    "label": "day",
+    "label": "Day",
     "location": "Harpers Ferry, Iowa",
     "slug": "yellow-river-trail-backpack-loop",
     "stages": [
       {
-        "date": "Oct 18th, 2025",
+        "date": "October 18th, 2025",
         "description": [
           "After breaking camp our group drove to the start of the trail. I stepped onto the backpacking trail from Brown's Hollow Trailhead in the crisp morning air, eager to explore this corner of Iowa and get back into local overnight backpacking. The trail started out gently enough. A wide, packed earth path winding through towering hardwood forests with leaves ablaze in fiery reds and golds.",
           "Our destination for the night was Browns Hollow, a backpacking campsite about three quarters of a mile off of the main trail.",
@@ -1576,7 +1576,7 @@ const data = [
         }
       },
       {
-        "date": "Oct 19th, 2025",
+        "date": "October 19th, 2025",
         "description": [
           "I would have enjoyed a warm and restful night of sleep, if it hadn't been for whatever creature attempted to push its way underneath my sleeping pad from the outside of the tent. Not sure if it was a snake, or some sort of burrowing animal, but it was pushing hard. So much so that I could feel it through the air mattress. I pushed down through the air pad and whatever it was retreated. Needless to say, I didn't sleep much after that.",
           "Once others had woken up I asked one of them to help me kick out whatever might be under there, but when we lifted up my tent whatever it was had left long ago.",
@@ -2736,8 +2736,8 @@ const data = [
     "date": {
       "isYears": false,
       "range": [
-        "Jul 27th",
-        "Aug 6th, 2024"
+        "July 27th",
+        "August 6th, 2024"
       ]
     },
     "description": [
@@ -3191,12 +3191,12 @@ const data = [
     "hasGear": true,
     "hasStats": true,
     "image": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg",
-    "label": "day",
+    "label": "Day",
     "location": "European Alps",
     "slug": "tour-du-mont-blanc-repeat",
     "stages": [
       {
-        "date": "Jul 27th, 2024",
+        "date": "July 27th, 2024",
         "description": [
           "We woke from a less-than-stellar night of sleep, ready to take on the day after a breakfast of cereal with warm milk, scrambled eggs, bread with Nutella, and coffee (which somehow still didn't feel like enough).",
           "The hike began with a brutal three miles of steep uphill. We were panting with every step until a brief rest where a kind Frenchman checked on us: \"Se va? You ok?\". After that initial ascent, the trail flattened a bit through the woods, leading down to a picturesque suspension bridge before climbing up again. The scenery was lovely, definitely channeling the spirit of \"Climb every mountain\".",
@@ -4298,7 +4298,7 @@ const data = [
         }
       },
       {
-        "date": "Jul 28th, 2024",
+        "date": "July 28th, 2024",
         "description": [
           "The day began early with a 6:30 AM wake-up. Thanks to last night's strategic packing, we managed a silent, lightning-fast exit from the 28-person bunk room. Fuel was simple but essential: coffee and bread with butter and jam.",
           "The first hour was a lovely descent through the woods towards Les Contamines-Montjoie. Our smooth exit was briefly interrupted by a worker from the place we had stayed at. Turns out we'd forgotten to pay! Debt settled, we arrived in town just as a 'Fête Village' farmers market was coming to life. It was absolutely adorable. We stocked up on protein bars at the market, though we had to skip the pharmacy for extra sunscreen as it wasn't opening until 10:00 AM.",
@@ -5402,7 +5402,7 @@ const data = [
         }
       },
       {
-        "date": "Jul 29th, 2024",
+        "date": "July 29th, 2024",
         "description": [
           "Today was arguably the toughest day yet. It started with an awful breakfast: corn flakes in hot milk and bread with jam.",
           "The trail didn't make it easy as we began our ascent toward the peak. We had to navigate snow bridges, and at one point, my foot actually fell through the crust. With a mule trailing behind us and the surreal sound of someone singing \"Edelweiss\" in the distance, we kept moving.",
@@ -6506,7 +6506,7 @@ const data = [
         }
       },
       {
-        "date": "Jul 30th, 2024",
+        "date": "July 30th, 2024",
         "description": [
           "Today was the definitive 'hardest day' of the trek so far: 15+ miles and two massive ascents. It started early, with a 5:45 AM wake-up in our cramped quarters. We carried our baskets of gear (couldn't bring our backpacks inside the refuge) to the dining tables to get dressed. Breakfast was minimal, just a little coffee, so we grabbed some bread for the road, left a note for Andrew, and set off.",
           "Descent #1: The Video Game Levels",
@@ -7616,7 +7616,7 @@ const data = [
         }
       },
       {
-        "date": "Jul 31st, 2024",
+        "date": "July 31st, 2024",
         "description": [
           "After the grueling mileage of yesterday, we allowed ourselves a 'late' start. We spent the morning wrestling with our mountain of laundry and enjoying a breakfast of bread with berry jam, fruit cocktail, individual yogurt jars, and much-needed coffee.",
           "The journey began with a descent into the town of Courmayeur. While the three Brits we'd met earlier opted for the chairlift, we committed to the trail. It was a forest trek filled with endless switchbacks.",
@@ -8720,7 +8720,7 @@ const data = [
         }
       },
       {
-        "date": "Aug 1st, 2024",
+        "date": "August 1st, 2024",
         "description": [
           "We woke up with the sun this morning and headed down to a buffet-style breakfast, a welcome change! We fueled up on yogurt with granola, fruit cocktail, and the classic trail staple of bread and butter.",
           "Today was easily the best hike of the trip so far. It felt almost like a rest day compared to the previous climbs. We started with a gorgeous flat stretch along a ridge before descending toward a river.",
@@ -9824,7 +9824,7 @@ const data = [
         }
       },
       {
-        "date": "Aug 2nd, 2024",
+        "date": "August 2nd, 2024",
         "description": [
           "We started the morning with another great Swiss buffet: cappuccinos, strawberry yogurt with fruit, and fresh bread buns with butter and jam.",
           "Today was billed as a 'rest day', but the trail had other ideas. The morning began with a beautiful, flat stretch along a river and through dense woods. With the mossy rocks and towering pines, it felt exactly like the Pacific Northwest. We passed through a charming old Swiss village (possibly L'A Neuve or Issert) filled with traditional wooden houses that looked like they belonged in a storybook.",
@@ -10929,7 +10929,7 @@ const data = [
         }
       },
       {
-        "date": "Aug 3rd, 2024",
+        "date": "August 3rd, 2024",
         "description": [
           "Today started on a bit of a low note. Breakfast was yogurt with granola, toast, and coffee, and it didn't hit the spot. We took the Bovine trail, and while the climb through the woods was gradual, our legs soon felt the climb.",
           "It was one of those 'cat and mouse' days on the trail, constantly passing and being passed by Mackenzie, Kaitlyn, Angel, and the three British ladies. At one point, the fatigue really hit, but then, the trail provided.",
@@ -12032,7 +12032,7 @@ const data = [
         }
       },
       {
-        "date": "Aug 4th, 2024",
+        "date": "August 4th, 2024",
         "description": [
           "We learned a hard lesson today: skipping breakfast is a massive mistake. Even though the initial ascent wasn't incredibly steep or long, we felt it. We managed to choke down some protein bars on the way up, and by the time we reached the top to eat with Angel, we finally started to feel human again.",
           "Lunch was a classic trail smorgasbord: hard-boiled eggs, crackers with Babybel cheese, and a much-needed chocolate bar.",
@@ -13134,7 +13134,7 @@ const data = [
         }
       },
       {
-        "date": "Aug 5th, 2024",
+        "date": "August 5th, 2024",
         "description": [
           "We fueled up early today at 6:30 AM with a surprisingly solid breakfast: corn flakes, a fresh baguette with butter and jam, and even fresh bananas! We sat with Moris and Olga, enjoying the calm before what we knew would be a vertical day.",
           "The Ladders: Not for the Faint of Heart",
@@ -14238,7 +14238,7 @@ const data = [
         }
       },
       {
-        "date": "Aug 6th, 2024",
+        "date": "August 6th, 2024",
         "description": [
           "We had breakfast at 7 AM with our trail friends, enjoying great croissants with butter and jam, cereal, and coffee. A perfect start to what was our last 'up' of the entire trip!",
           "The morning's climb was relatively easy, leading us over two peaks to the Col de Brévent. We got stuck behind a slow-moving Spanish family with zero trail awareness, but once we passed them, they were hot on our heels! The final push involved a few ladders and rock scrambles.",
@@ -15400,7 +15400,7 @@ const data = [
     "date": {
       "isYears": false,
       "range": [
-        "Jul 24th",
+        "July 24th",
         " 25th, 2024"
       ]
     },
@@ -15411,12 +15411,12 @@ const data = [
     "hasGear": false,
     "hasStats": true,
     "image": "2024/07/24/e19b87b3-ff48-499f-a225-3d4d608e9311.jpeg",
-    "label": "destination",
+    "label": "Destination",
     "location": "Switzerland",
     "slug": "geneva",
     "stages": [
       {
-        "date": "Jul 24th, 2024",
+        "date": "July 24th, 2024",
         "description": [
           "Located where the lake meets the Rhône River, and originally built as a safety valve for a local hydraulic plant, the Jet d'Eau is a massive plume of water that shoots 450 feet into the air, visible from nearly anywhere in the city, making it a majestic centerpiece. It's even more incredible looking in person than the picture. I captured this shot of it from the spires of the Saint-Pierre cathedral.\n"
         ],
@@ -15454,7 +15454,7 @@ const data = [
         }
       },
       {
-        "date": "Jul 24th, 2024",
+        "date": "July 24th, 2024",
         "description": [
           "From the outside the cathedral looks like a collection of different eras with massive columns seemingly glued onto a much older rugged-looking body. On the inside the interior was strikingly stark-looking with no ornate altars, just rows of plain wooden benches. However, there is one exception and that's the Chapel near the exit. It's a 'riot of color' with vibrant Gothic paintings and intricate carvings that felt like a secret treasure hidden in the grey stone.",
           "The highlight of this cathedral though was the ability to go up into the twin spires and walk through the attic and old school room near the top, including being able to get up close to the massive old church bells. For a small fee you get to see the entire city. The climb up was through narrow spiraling stone stairs, and we were even able to walk along expored exterior walkways.",
@@ -15494,7 +15494,7 @@ const data = [
         }
       },
       {
-        "date": "Jul 25th, 2024",
+        "date": "July 25th, 2024",
         "description": [
           "Geneva has a great, free, botanic garden a short bus ride away from the bustling downtown area. We spent a couple of hours wandering its paths as they wove their way through differently themed areas, seeing all of the different types of flora they were cultivating.",
           "The greenhouses were a real treat. They offered a tour of different climates, from lush tropical rainforests with high banana trees to stark desert landscapes filled with massive cacti. There were also little ponds inside with koi fish.",
@@ -15577,8 +15577,8 @@ const data = [
     "date": {
       "isYears": false,
       "range": [
-        "Jun 21st",
-        "Jul 3rd, 2023"
+        "June 21st",
+        "July 3rd, 2023"
       ]
     },
     "description": [
@@ -16156,12 +16156,12 @@ const data = [
     "hasGear": true,
     "hasStats": true,
     "image": "2023/06/21/2cc8532b-6441-49fb-927e-ebdb001b78cf.jpeg",
-    "label": "day",
+    "label": "Day",
     "location": "Corsica, France",
     "slug": "gr-20",
     "stages": [
       {
-        "date": "Jun 21st, 2023",
+        "date": "June 21st, 2023",
         "description": [
           "I arrived on the island of Corsica yesterday, ready to start a long-awaited trek. My starting point was Calenzana, where I grabbed a quick dinner with a few other hikers staying at the same gîte. The night that followed was restless, filled with anticipation for the early morning start. I could hardly wait to return to the mountains and immerse myself in the rugged beauty that Corsica promised.",
           "The first day almost had me quitting. The windows had been left open all night to let in a breeze, which helped with the mid-summer heat, but I still didn't sleep well. With little rest, I packed up my gear and had a simple breakfast of yogurt with cereal, a banana, and some bread and butter I had bought the day before. By 6:30 a.m., I was on the trail.",
@@ -17262,7 +17262,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 22nd, 2023",
+        "date": "June 22nd, 2023",
         "description": [
           "I had thought the second day on the trail would be easier, but Corsica had other plans. Last night was surprisingly quiet for a backpacking campground, and I woke early to take advantage of the comfortable temperatures. I had brought a mini thermometer along to track how well my sleep system performed, and it seemed to be doing its job. I had hoped to catch the sunrise, but it was hidden behind a ridge of mountains, so I quickly packed my gear and prepared for the day with a simple European breakfast of yogurt, bread, and jam.",
           "The trail started with an uphill climb, but I paced myself much better than on the first day and was making steady progress. Soon, the path required more scrambling and climbing, though it felt easier than yesterday's challenges. Despite this, the day remained difficult, with constant ups and downs, the relentless sun beating down in the valleys, and wind beginning to pick up. Certain sections demanded careful boulder-hopping across steep drops, where no chains offered assistance.",
@@ -18364,7 +18364,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 23rd, 2023",
+        "date": "June 23rd, 2023",
         "description": [
           "Rain greeted us overnight, sending campers scrambling to pull hanging laundry and backpacks inside their tents. I was up early, packed, and on the trail by 7 a.m., ready to face another challenging day. Just like the previous days, the trail started steep and required plenty of bouldering, testing both balance and stamina.",
           "I paced myself better with water breaks today, even without any water sources along the trail, and I actually managed to eat most of my packed lunch, a couscous-based mix that kept me fueled for the climb ahead. Once at the summit, it was time to descend over steep drops and rough rock. From this vantage point, the coast and Calenzana were visible far below, and we enjoyed our lunch on an exposed rocky platform while taking in the view of where we would be staying that night.",
@@ -19464,7 +19464,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 24th, 2023",
+        "date": "June 24th, 2023",
         "description": [
           "Today was the longest day on trail so far, both in mileage and time. The hotel breakfast buffet was incredible and exactly what I needed to fuel up: eggs, sausage, and plenty of bread set me up for the climb ahead. With a full belly, I packed my gear and hit the trail, ready to face the biggest challenge yet.",
           "Since we had descended yesterday to reach Ascu Stagnu, it meant an immediate uphill start this morning. The climb began through a beautiful forest with clear views of the surrounding mountains and a well-maintained trail. There was a tricky river crossing where I hopped across the rocks, and soon after the terrain became steep and rocky, requiring scrambling and chains in some sections. Many hikers were struggling on these spots, but the views kept me motivated.",
@@ -20565,7 +20565,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 25th, 2023",
+        "date": "June 25th, 2023",
         "description": [
           "Today promised to be an easier day than yesterday, and I started it with a breakfast of hot chocolate and bread with butter. I felt energized and ready to move quickly as we left the Auberge and headed onto the trail. The path wound through the trees and along rocky sections, offering plenty of lookout points to admire the expansive forested valley below. Small rivers fed by waterfalls crossed our path, and several fallen trees added some natural obstacles along the way.",
           "After about 30 minutes, the trail shifted from dirt to rock and began a steep ascent up the mountainside. I took frequent breaks to catch my breath, but my knees were holding up well, though one of my knee pad straps was starting to fail. Halfway up, we stopped at a large waterfall to refill our bottles and soaked our hats in the ice-cold water, which was as refreshing as it sounds.",
@@ -21667,7 +21667,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 26th, 2023",
+        "date": "June 26th, 2023",
         "description": [
           "I started the day with breakfast while watching the sun rise over the mountains, and by 7:00 am we were on the trail. The first part of the hike was a gentle introduction, winding through open woods with plenty of clearings that offered beautiful views of the surrounding peaks. The path was mostly flat for nearly three miles, and even the sections that required some ascending were easy enough to enjoy without feeling strained.",
           "Once we reached the upper portion of the trail, the terrain became more exposed and rocky. The path zig-zagged across rugged hills and through rocky columns, eventually giving way to lush green hills. From the summits, we caught our first glimpse of Lac de Nino, a mountain lake that looked pristine from above.",
@@ -22769,7 +22769,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 27th, 2023",
+        "date": "June 27th, 2023",
         "description": [
           "Day seven started with a chilly morning that hinted at the long day ahead. The trail out of the refuge led us through boggy ground before beginning the climb toward a distant mountain ridge. The sun was still rising, leaving the trail in shadow as we carefully navigated shrubs and rocks. At one point we took a wrong turn and had to backtrack, but eventually we reached the top after about two hours. The stony summit offered a well-earned break, with a dizzying drop stretching out below us.",
           "The descent to the next ridge was more manageable, though some sections required scooting down on our butts, and chains helped us navigate the trickier spots. We chose the lower route over the upper section, avoiding sharp, jagged rocks. From there, the trail ran along the mountainside, windy and cold, as we followed the contours of the ridge.",
@@ -23870,7 +23870,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 28th, 2023",
+        "date": "June 28th, 2023",
         "description": [
           "I slept reasonably well despite the persistent wind, bundling up with pants over my shorts and a pullover to stay warm. The temperature dropped to 53˚F, and the wind made it feel at least 15 degrees colder, but my sleep system and tent held up perfectly. Breakfast was jam on toast with chocolate milk, and I was treated to a beautiful cloud inversion: a rare and stunning sight in the early morning.",
           "The descent started off steep, requiring careful navigation from ledge to ledge using trekking poles for support. Eventually, the trail eased into a more gradual downhill, passing countless waterfalls and grazing cows along the way. Before reaching the halfway point, we stopped at a Bergerie to try their quiche. The cheese was disappointing, but the bread was solid, and the break gave us a chance to rest before continuing.",
@@ -24971,7 +24971,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 29th, 2023",
+        "date": "June 29th, 2023",
         "description": [
           "I woke up while it was still dark, and the campsite was damp with condensation from clouds that had rolled in overnight. Packing up was quick since today ended at a hotel, and I was looking forward to a warm shower and dry clothes. The ascent out of the refuge was steep, and a fog slowly crept in, obscuring the trail, but the views from the top made it worth every step. From that high vantage point, I watched clouds roll over the ridge below while the sun shone behind them, creating the most stunning cloud inversion I have ever seen. I lingered there for a long time, completely captivated.",
           "The remainder of the climb to the day's high point was manageable, but the descent on the other side was treacherous. My ankles twisted as I navigated smooth rocks and leapt from boulder to boulder along the steep path. It felt relentless at times, yet eventually the trail flattened out, and the final stretch wound through peaceful forest. The transition into a forest preserve with wide gravel paths made the walk almost effortless.",
@@ -26070,7 +26070,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 30th, 2023",
+        "date": "June 30th, 2023",
         "description": [
           "Sleeping in felt amazing this morning, though breakfast at the hotel was as plain as the refuges. It started raining while I ate, which delayed my departure by about an hour, but as soon as the rain stopped I was back on the trail. The southern sections of the trek are noticeably easier, with wide, well-maintained paths and gentle terrain. Rivers and waterfalls were overflowing from the recent rains, which made some crossings tricky, but it didn't slow me down too much.",
           "I reached the Col above Vizzavona in just one and a half hours. The wind was fierce up there, nearly blowing my hat away, and I spotted several bright orange-and-black Fire Lizards sunning themselves along the trail. My energy was high, and I pressed on until I arrived at Capenelle, the original destination for the day. This ski lift area wasn't the most scenic place to camp, but it is known for its pizza, and I took a long lunch to enjoy a massive, delicious slice.",
@@ -27170,7 +27170,7 @@ const data = [
         }
       },
       {
-        "date": "Jul 1st, 2023",
+        "date": "July 1st, 2023",
         "description": [
           "Today was a relentless up-and-down kind of day, with nearly eight hours on the trail. The morning started wet, and I hurried through breakfast to get moving. The first stretch climbed steeply through the woods before leveling out into bright green fields crossed by a gentle river. The trail switchbacked to a Col, and by the time I reached the top, the wind was fierce and icy, forcing me to pull on my windbreaker for the first time this trip.",
           "From the Col, the Mediterranean Sea stretched out in the distance, and the clouds rolled past in dramatic waves. I passed Refuge Prati, which looked incredibly uninviting, and later learned it was miserable inside, with many hikers forced into the eating area to sleep because the tents could not withstand the wind. The trail ahead twisted along ridges and narrow paths, often with steep drops on one side, and the fog reduced visibility to about thirty feet, making even familiar terrain feel treacherous.",
@@ -28271,7 +28271,7 @@ const data = [
         }
       },
       {
-        "date": "Jul 2nd, 2023",
+        "date": "July 2nd, 2023",
         "description": [
           "The night was long and uncomfortable, with howling wind and persistent rain. I couldn't fully stretch out in the tent, so I curled up at odd angles just to get some rest. Thankfully, by morning the sun was shining, and the tents kept out all signs of the previous night's storm. It felt good to start the day in sunlight rather than the damp gloom I'd slept through.",
           "The trail began with some moderate scrambling along mountain ridges. From a distance, these ridges looked easy, but once I reached them, the ups and downs were deceptively challenging. I even lost the trail a couple of times, as markers were difficult to spot in the dense vegetation. Once past the ridges, I raced down muddy switchbacks and entered a stretch of rolling green hills dotted with boulders. The southern portion of the trail lived up to its reputation for being easier, and I made great time.",
@@ -29372,7 +29372,7 @@ const data = [
         }
       },
       {
-        "date": "Jul 3rd, 2023",
+        "date": "July 3rd, 2023",
         "description": [
           "Last night was one of the scariest I've had on the trail. Horses wandered into the campsite after everyone had gone to sleep, passing dangerously close to my tent. The full moon lit the area just enough to keep them from running into anything, but when dogs started barking, the horses bolted and galloped through the camp. I spent much of the night wide awake, heart racing.",
           "The morning brought the final day on trail, though I didn't fully realize it yet. After several days of double-stage hikes, I wasn't sure I could handle nearly 20 miles, so I initially planned to stop at the last refuge. The early morning trail dropped into a valley, then crossed to the other side before leveling out. Waterfalls and tiny rivers punctuated the hike, but for the most part, the terrain was even and easy to navigate.",
@@ -30530,7 +30530,7 @@ const data = [
     "date": {
       "isYears": false,
       "range": [
-        "Jan 3rd",
+        "January 3rd",
         " 6th, 2023"
       ]
     },
@@ -30541,12 +30541,12 @@ const data = [
     "hasGear": false,
     "hasStats": true,
     "image": "2022/12/28/7f2020f6-ccd2-4f4a-98a1-44abd2df6911.jpeg",
-    "label": "destination",
+    "label": "Destination",
     "location": "Egypt",
     "slug": "luxor",
     "stages": [
       {
-        "date": "Jan 3rd, 2023",
+        "date": "January 3rd, 2023",
         "description": [
           "Two massive stone titans rising out of the green farmland like ghosts. The Colossi of Memnon are genuinely staggering to stand next to; at 18 meters tall, they make the surrounding tour buses look like toys.",
           "Even though their faces have been worn away by three millennia of wind and sand, you can still see the outlines of the Pharaoh seated on his throne, his hands resting calmly on his knees as he gazes east toward the Nile. If you look closely at his legs, you can spot smaller carved figures.\n"
@@ -30585,7 +30585,7 @@ const data = [
         }
       },
       {
-        "date": "Jan 3rd, 2023",
+        "date": "January 3rd, 2023",
         "description": [
           "Although commonly known as the Tomb of Ramesses VI, it was actually started by his nephew, Ramesses V, who was likely the first one buried here before his uncle expanded it for himself. The descent was a staggering 117-meter corridor that plunged deep into the limestone. What immediately hit me wasn't just the scale, but the colors. After over 3,000 years, the reds, golds, and deep blues of the hieroglyphs look as though the painters just finished their work this morning.",
           "The walls are a literal library of the underworld. On the left, the Book of Gates guides the way; on the right, the Book of Caverns. The highlight, though, is the burial chamber. I spent most of my time looking up at the astronomical ceiling. It features a magnificent, double-elongated image of the sky goddess Nut arching across the cosmos, swallowing the sun at dusk and giving birth to it at dawn. Below her, the reconstructed green conglomerate sarcophagus sits as a haunting centerpiece.\n"
@@ -30624,7 +30624,7 @@ const data = [
         }
       },
       {
-        "date": "Jan 3rd, 2023",
+        "date": "January 3rd, 2023",
         "description": [
           "Entering the Tomb of Tutankhamun feels different from the others: it is remarkably small compared to the vast corridors of the other kings in the valley. You can really sense the haste in which it was prepared. Unlike the other pharaohs who were moved to museums long ago, Tutankhamun himself remains here. I stood inches away from his actual mummy, which is now preserved in a glass case at one end of the burial chamber. Seeing his linen-wrapped form in the very place he was laid 3,000 years ago is amazing.",
           "This was the only room in the tomb with decorated walls. The yellow-background murals are vibrant, showing the boy-king being welcomed into the afterlife by Osiris and Anubis. His massive quartzite sarcophagus still dominates the room, though it is now empty of its famous nesting golden coffins.\n"
@@ -30663,7 +30663,7 @@ const data = [
         }
       },
       {
-        "date": "Jan 3rd, 2023",
+        "date": "January 3rd, 2023",
         "description": [
           "The preservation here is incredible. The Litany of Ra and the Book of Gates cover the walls in high-contrast reds and golds that look almost fresh, leading all the way to the eight-pillared burial chamber. It is easily one of the most fascinating stops in the Valley of the Kings. This tomb is massive, stretching about 188 meters deep.\n"
         ],
@@ -30701,7 +30701,7 @@ const data = [
         }
       },
       {
-        "date": "Jan 3rd, 2023",
+        "date": "January 3rd, 2023",
         "description": [
           "The Valley of the Queens was less crowded which means we had more time to walk around and view things at our own pace. There was only one tomb where you had to pay to enter, and we skipped it, but the rest were still equally as amazing. Having them to ourselves was the real treat.\n"
         ],
@@ -30739,7 +30739,7 @@ const data = [
         }
       },
       {
-        "date": "Jan 3rd, 2023",
+        "date": "January 3rd, 2023",
         "description": [
           "Habu Temple was the most amazing temple we had seen thus far. It was in amazing condition: the paintings were pristine-looking. Our guide gave us amazing behind-the-scenes tour, and told us some not-so-commonly known facts about the place, and its historical purpose.",
           "It didn't have the crushing crowds of Karnak, but was every bit as massive and powerful. I've never seen carvings like these. To prevent future pharaohs from hacking off his name and replacing it with their own, Ramesses III had the hieroglyphs carved incredibly deep; some are nearly six inches into the stone.\n"
@@ -30778,7 +30778,7 @@ const data = [
         }
       },
       {
-        "date": "Jan 3rd, 2023",
+        "date": "January 3rd, 2023",
         "description": [
           "Unlike the other temples we visited, this one seemed to literally grow out of the landscape instead of resting on top of it. Its three massive limestone terraces are carved directly into the face of the cliffs, creating a symmetrical silhouette.",
           "This was also probably the busiest temple that we visited. Loads of tour buses were lined up in front of it, ruining an otherwise great view of the temple. We didn't spend much time at this one. While it was cool to visit it wasn't as impressive as the other temples.\n"
@@ -30817,7 +30817,7 @@ const data = [
         }
       },
       {
-        "date": "Jan 4th, 2023",
+        "date": "January 4th, 2023",
         "description": [
           "This was the highlight of our time in Luxor. We were picked up from our hotel at 4am, along with a bunch of others, and shuttled to a balloon ride launching area. We waited in the cold, dark, pre-dawn morning as teams of workers got the balloons ready for us. It was an amazing sight watching these huge things go from the flames burning within them.",
           "Our time came and we were shuffled into the basket of our balloon with the most charistmatic captain one could hope for. After a quick run-through of the rules we were off and ascending into the air.",
@@ -30857,7 +30857,7 @@ const data = [
         }
       },
       {
-        "date": "Jan 4th, 2023",
+        "date": "January 4th, 2023",
         "description": [
           "This was our first temple complex that we visited in Luxor, and it was astounding to be standing at the base of these humungous columns and statues. We spotted Greek writing mixed in with ancient Egyptian, which aligned with what the guide in Cairo told us about Alexandar the Greats conquering of Egypt and introduction of the helenistic cultures.\n"
         ],
@@ -30895,7 +30895,7 @@ const data = [
         }
       },
       {
-        "date": "Jan 4th, 2023",
+        "date": "January 4th, 2023",
         "description": [
           "We walked down the Avenue of Sphinxes in order to reach the Karnak temple complex, and no one else was on the avenue, so we had it all to ourselves. It beat walking alogn the busy narrow streets.",
           "Luxor was amazing, but Karnak was huge! This temple complex was expansive, tall, and the paintings on the walls were still in great condition. There were so many things to see here. We spent a long time walking around and checking\neverything out.\n"
@@ -30974,8 +30974,8 @@ const data = [
     "date": {
       "isYears": false,
       "range": [
-        "Dec 29th, 2022",
-        "Jan 2nd, 2023"
+        "December 29th, 2022",
+        "January 2nd, 2023"
       ]
     },
     "description": [
@@ -30985,12 +30985,12 @@ const data = [
     "hasGear": false,
     "hasStats": true,
     "image": "2022/12/28/b3275967-68fd-4c69-ad40-df15b2a697b5.jpeg",
-    "label": "destination",
+    "label": "Destination",
     "location": "Egypt",
     "slug": "cairo",
     "stages": [
       {
-        "date": "Dec 29th, 2022",
+        "date": "December 29th, 2022",
         "description": [
           "We walked to the Giza plateau since it was within a mile of where we were staying. The route was sketchy: we walked under highways, and through construction zones. The entrance to the plateau was hectic with lots of line-cutting, but we finally made it.",
           "And there they were, the infamous wonders of the ancient world: the Great Pyramids of Giza. Pictures don't do it justice, these things were huge! Not only that, but we were able to walk through the ruins of other structures around\nthe pyramids as well. We were able to freely walk through other ruins nearby and see all of the pyramids up close and personal. But the best part was coming up: going into the Great Pyramid itself.",
@@ -31030,7 +31030,7 @@ const data = [
         }
       },
       {
-        "date": "Dec 29th, 2022",
+        "date": "December 29th, 2022",
         "description": [
           "While the pyramids have their own wow-factor, the Sphinx is also pretty cool on its own. We couldn't get up close to it like we could with the pyramids, so we had to shuffle along with the other tourists, trying to get to a good vantage point. Totally worth it though.\n"
         ],
@@ -31066,7 +31066,7 @@ const data = [
         }
       },
       {
-        "date": "Dec 30th, 2022",
+        "date": "December 30th, 2022",
         "description": [
           "We booked a guided tour to Saqqarra where we visited the Bent Pyramid. In the distance we could see the ruins of other pyramid types that didn't make the final cut. Our guide provided us with a good amount of background knowledge about the history and evolution of the pyramids, and of ancient Egypt. We wish we had this kind of experience at the Great Pyramids yesterday.\n"
         ],
@@ -31104,7 +31104,7 @@ const data = [
         }
       },
       {
-        "date": "Dec 30th, 2022",
+        "date": "December 30th, 2022",
         "description": [
           "We booked a guided tour to Saqqarra where we visited the Step Pyramid. At the complex surrounding the pyramid our guide got us free access to a tour of the tombs and we saw our first heiroglyphics in person. It was a short tour, but amazing nonetheless.",
           "While our guide was informative about lots of things, we felt like we missed out on seeing more, like going underneath the Stepped pyramid and exploring the tunnels within. They said it wasn't that great and told us to skip it.\n"
@@ -31783,12 +31783,12 @@ const data = [
     "hasGear": true,
     "hasStats": true,
     "image": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
-    "label": "section",
+    "label": "Section",
     "location": "Wisconsin",
     "slug": "ice-age-trail-section-hike",
     "stages": [
       {
-        "date": "Jul 15th, 2022",
+        "date": "July 15th, 2022",
         "description": [
           "The air was crisp as we adjusted our packs at the Blue Spring Lake trailhead this morning. This 5.5 mile stretch of the Ice Age Trail is exactly what I wanted: a gentle introduction to overnight backpacking for me and my partner.",
           "The Blue Spring Lake Segment didn't waste any time showing off. Almost immediately we were climbing. The trail here twists through dense oak forests with a ruggedness that caught my calves by surprise, with near constant up and down portions as we went over several kettles and morraines left behind by the glaciars from long ago.",
@@ -35688,7 +35688,7 @@ const data = [
     "hasGear": true,
     "hasStats": true,
     "image": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
-    "label": "day",
+    "label": "Day",
     "location": "Scotland, UK",
     "slug": "west-highland-way",
     "stages": [
@@ -42354,7 +42354,7 @@ const data = [
     "date": {
       "isYears": false,
       "range": [
-        "Mar 22nd",
+        "March 22nd",
         " 25th, 2022"
       ]
     },
@@ -42365,12 +42365,12 @@ const data = [
     "hasGear": false,
     "hasStats": true,
     "image": "2022/03/23/9f212336-298d-4c7d-874f-a3be34c95d7d.jpeg",
-    "label": "destination",
+    "label": "Destination",
     "location": "Puerto Rico",
     "slug": "san-juan",
     "stages": [
       {
-        "date": "Mar 23rd, 2022",
+        "date": "March 23rd, 2022",
         "description": [
           "Early in the morning the beach belongs to the joggers, dog walkers, and a few dedicated kitesurfers preparing for the afternoon winds. The sand is wide and golden, stretching between the turquoise Atlantic and the low-rise guest houses of the local neighborhood. It was our favorite thing to do each morning. We walked from one end of the beach to the other, sometimes crossing over private condominium grounds to get to the other section of beach.\n"
         ],
@@ -42408,7 +42408,7 @@ const data = [
         }
       },
       {
-        "date": "Mar 24th, 2022",
+        "date": "March 24th, 2022",
         "description": [
           "We decided to walk from our hotel to Castillo San Felipe del Morro. It was a long trek, taking well over an hour, but it provided an incredible transition from the casual beach scene to the deep history of Old San Juan.",
           "The walk into Old San Juan proper can be a bit tricky in some sections, but once we entered the old city walls and made our way to the fort's grounds, the ambiance shifted entirely. The sprawling green lawn leading up to the fortress entrance was alive with families flying colorful kites in the strong Atlantic breeze.",
@@ -42450,7 +42450,7 @@ const data = [
         }
       },
       {
-        "date": "Mar 25th, 2022",
+        "date": "March 25th, 2022",
         "description": [
           "This is the only tropical rainforest in the US National Forest system! Our tour guide picked us up in a comfortable van, providing a fascinating overview of Puerto Rican history and the forest's unique ecosystem during the 40-minute drive.",
           "The core of the trip was an invigorating hike along a beautiful, albeit sometimes muddy, trail. The guide pointed out giant ferns, bamboo trees, and even the tiny coquí frogs making their iconic sounds. The reward at the end of the trail was a crystal-clear natural swimming hole where we swung from a rope swing into the cool river water, as well as slid down a natural slide-way.\n"
@@ -42531,7 +42531,7 @@ const data = [
     "date": {
       "isYears": false,
       "range": [
-        "Feb 18th",
+        "February 18th",
         " 25th, 2020"
       ]
     },
@@ -43207,12 +43207,12 @@ const data = [
     "hasGear": true,
     "hasStats": true,
     "image": "2020/02/18/630411a8-f5ce-47fe-8261-f94e00654447.jpeg",
-    "label": "day",
+    "label": "Day",
     "location": "Patagonia, Chile",
     "slug": "torres-del-paine-o-circuit",
     "stages": [
       {
-        "date": "Feb 18th, 2020",
+        "date": "February 18th, 2020",
         "description": [
           "Finally, I'm back in South America, back in Patagonia, and ready to tackle the legendary 'O' Circuit. My base for the next 11 days is Puerto Natales, and from there I took a bus to Torres del Paine National Park. This would be my first time thru-hiking a trail while camping every night and carrying all of my own food. My backpack, packed with ultralight gear and tent, probably weighed close to 30 pounds. A hefty load, but worth it for the adventure ahead.",
           "The trail started with a small hiccup: I took a wrong turn and almost ended up at a maintenance shed. Luckily, I wasn't alone: Charles and Adèle, two Canadian hikers, had also veered off. From that point on, we stuck together, sharing stories and laughs as we explored the park's incredible scenery. Rivers snaked through yellow-green grasslands, snowcapped mountains loomed in the distance, and patches of forest offered welcome shade. The trail itself was gentle, and it took only about three hours to reach our first campground, Serón.",
@@ -43622,7 +43622,7 @@ const data = [
         }
       },
       {
-        "date": "Feb 19th, 2020",
+        "date": "February 19th, 2020",
         "description": [
           "What a way to wake up! The sun was bright, the sky scattered with pink-white clouds, and the tall grasses around my tent glowed golden in the morning light. Everyone else was slowly emerging as well, so it was time to make oatmeal, pack up, and prepare for another day on the trail.",
           "This morning, we walked through fields of golden grass that seemed endless. The scenery was breathtaking, but soon enough we began the steady climb up a hill, where the wind picked up and tousled everyone's hair. At the top, we paused to admire the view of a large lake below: a perfect reward for our effort. Descending the hill, the wind eased, and we found ourselves walking through forests of short, round pines and patches of trees recovering from past fires. A turquoise river ran nearby, and we even passed a checkpoint to have our permits checked without any issues.",
@@ -44261,7 +44261,7 @@ const data = [
         }
       },
       {
-        "date": "Feb 20th, 2020",
+        "date": "February 20th, 2020",
         "description": [
           "After another successful night of sleep, sheltered from the wind by trees and bushes, we woke to a muddy but manageable morning. My thin groundsheet from the previous night had already seen better days and was tossed, but it turned out we wouldn't need it for the rest of the trip.",
           "Most of the morning was spent hiking through hilly forested terrain, with occasional lookout points breaking up the walk. Wooden bridges helped us cross a few rivers, nothing too challenging, and the trail took a surprising right turn away from the distant mountains. The hike became rocky, signaling that the day's real highlight was approaching: a detour to a moraine and glacier just before reaching Los Perros, our campground for the night. Because fewer hikers took this route, we had the glacier mostly to ourselves: a peaceful, icy retreat. We waded into the freezing waters and soaked up the sun on the rocks, savoring the quiet and the view.",
@@ -44845,7 +44845,7 @@ const data = [
         }
       },
       {
-        "date": "Feb 21st, 2020",
+        "date": "February 21st, 2020",
         "description": [
           "My tent's bottom was covered in mud, but luckily only half of it had been affected, so it wasn't too much to worry about. Today's goal was ambitious: reaching Grey's Glacier and crossing the highest point of the trail. As soon as we left Los Perros behind, the climbing began in earnest.",
           "The ascent was grueling, especially after a few days of easier, near-level walking. I found myself stopping often to catch my breath, but the effort was worth it. The lush green forest gradually gave way to rocky, barren mountainsides dotted with snow patches. The higher we climbed, the more breathtaking the view became.",
@@ -45944,7 +45944,7 @@ const data = [
         }
       },
       {
-        "date": "Feb 22nd, 2020",
+        "date": "February 22nd, 2020",
         "description": [
           "Last night was a rough one. A particularly loud snorer kept me from sleeping, and my earplugs kept falling out. Today promised to be an easier day of hiking, with extra time to explore a side trail that offered incredible views of the mountain near our campsite.",
           "The morning trek took us through a forest of bleached trees, remnants of a fire from years ago. Purple flowers grew among the charred trunks, creating a striking contrast of colors. The trail followed the lake formed by the melting of Grey's Glacier, where small icebergs floated gently in the water. For a while, the glacier remained visible in the distance before the trail turned and it disappeared from view.",
@@ -46529,7 +46529,7 @@ const data = [
         }
       },
       {
-        "date": "Feb 23rd, 2020",
+        "date": "February 23rd, 2020",
         "description": [
           "What a windy night it was. Almost nobody slept, except perhaps those who had paid for a bunk in the refuge. Several tents, including my own, were battered by sudden gusts. One of my trekking poles bent with a loud crack that sounded like a distant gunshot. I tied some extra guyline around the center pole to secure it, and it held, allowing me a couple more hours of sleep.",
           "The morning made up for the night. The sun cast a bright pink light across the clouds near the top of the nearby peak, and the scene was breathtaking. Today's hike would take us through ghost forests and along a large lake, possibly connected to distant ocean currents. The peaks of Los Cuernos, \"the Horns,\" dominated the landscape and were in view the entire day. The trail was flatter and easier than yesterday, allowing us to make excellent time.",
@@ -47629,7 +47629,7 @@ const data = [
         }
       },
       {
-        "date": "Feb 24th, 2020",
+        "date": "February 24th, 2020",
         "description": [
           "Today promised an incredible mix of terrain: sandy and stony beaches I hadn't expected to encounter in Patagonia, and rolling grassy fields. Our goal was Refuge Chileno, part of the 'W' section of the 'O' Circuit, and the base for anyone aiming to hike to the Towers.",
           "As we walked along the beaches, I spotted some water spouts in the distance. Another reminder that this trek has been nothing but spectacular views. After about ninety minutes, we left the water behind and returned to more familiar terrain. It was the same area we had passed through about a week ago when we first set out from the welcome center.",
@@ -48727,7 +48727,7 @@ const data = [
         }
       },
       {
-        "date": "Feb 25th, 2020",
+        "date": "February 25th, 2020",
         "description": [
           "The last day on the trail had arrived, the day of the Towers! I was thrilled to hike up to them for the second time in four years. Sleeping in a bunk bed last night was a real treat, and with everyone getting up at 3 a.m., there were no worries about disturbing anyone.",
           "It was going to be a long day: hike up to the Towers, watch the sunrise, hike back down, grab breakfast and our gear, and then continue all the way to the welcome center for our bus ride out. We packed our phone cameras, left our bags behind, turned on our headlamps, and set out into the pre-dawn darkness. Experiencing this trail in the dark was completely different from my previous day hike, but the clearly marked path made it easy to follow.",
@@ -49886,8 +49886,8 @@ const data = [
     "date": {
       "isYears": false,
       "range": [
-        "Oct 19th",
-        "Nov 6th, 2019"
+        "October 19th",
+        "November 6th, 2019"
       ]
     },
     "description": [
@@ -50555,12 +50555,12 @@ const data = [
     "hasGear": true,
     "hasStats": true,
     "image": "2019/10/19/b9b20eb0-e569-4778-99c6-de3a3c2eb15e.jpeg",
-    "label": "day",
+    "label": "Day",
     "location": "Nepal",
     "slug": "annapurna-circuit-basecamp",
     "stages": [
       {
-        "date": "Oct 19th, 2019",
+        "date": "October 19th, 2019",
         "description": [
           "Sleep did not come easy last night. The hostel in Pokhara was full, and the other guests stayed up late and snored loudly. Groggy and hungry, I gathered my things and packed outside to avoid disturbing anyone. The early morning meant no taxis were running, so I walked the ten minutes to the bus station, regretting taking a taxi the day before. A small food stand offered coffee, pastries, and a banana, which I devoured while waiting for the bus to Besishar.",
           "The bus ride to Besishar was long, bumpy, and crowded. Locals boarded with all sorts of items, including furniture, and space grew tight at times. I met the people who would soon become my hiking companions: Katie from New Zealand, Nathan from England, and Véronique from Canada. Nathan realized he had forgotten some essential gear, and we helped him purchase a down jacket and other items for the trek at very reasonable prices.",
@@ -51659,7 +51659,7 @@ const data = [
         }
       },
       {
-        "date": "Oct 20th, 2019",
+        "date": "October 20th, 2019",
         "description": [
           "Day two on the trail started with a proper breakfast, a welcome change from yesterday's pastries. Eggs, sausage, and fresh bread fueled us for the day ahead, and everyone had slept well the night before. Without the pressure to get moving early, we took our time leaving the village and soaking in the morning air.",
           "Our path soon led past towering waterfalls, and the fine mist from the falling water felt refreshing as we began to climb higher along the river. Several suspension bridges required careful crossing, moving us back and forth over the rushing waters. The trail itself varied between gravel, dirt, grass, and occasional mud, with only brief stretches shared with passing jeeps.",
@@ -52758,7 +52758,7 @@ const data = [
         }
       },
       {
-        "date": "Oct 21st, 2019",
+        "date": "October 21st, 2019",
         "description": [
           "Today was filled with sun and some of the best mo-mo we've had on the trail so far. The terrain was varied, alternating between long flat stretches and constant elevation gains. We left Jagat and steadily climbed, following the side of a deep valley that offered a mix of lush scenery and small waterfalls along the way.",
           "After about four hours of steady climbing, the trail brought us to the riverbed we had been hiking alongside for the past two days. Walking along stony beaches toward a village perched on the water's edge, we stopped for a long lunch. The mo-mo here was hands down the best of the trip, a true highlight for half of us who are vegetarian. One of the local children spent much of the meal chasing their pet rabbit around, adding charm to the experience.",
@@ -53856,7 +53856,7 @@ const data = [
         }
       },
       {
-        "date": "Oct 22nd, 2019",
+        "date": "October 22nd, 2019",
         "description": [
           "Today, the mountains finally started to reveal their snow-covered peaks, giving us a glimpse of what was ahead. We crossed another suspension bridge out of town and entered thick forests, a mix of conifer and deciduous trees. A welcoming arch over the trail reminded us we were on a journey meant to be savored.",
           "The trail felt busier today, with hikers arriving from jeeps that bypassed the first sections of the route. It made us feel proud to be doing the full trek from start to finish, taking in every part of the Annapurna Circuit on foot. At the next village, we discovered rows of prayer drums. Spinning them clockwise is said to bring good luck, and we made sure to do it every chance we got.",
@@ -54954,7 +54954,7 @@ const data = [
         }
       },
       {
-        "date": "Oct 23rd, 2019",
+        "date": "October 23rd, 2019",
         "description": [
           "We left Chame after a hearty breakfast, the sun already high above us as we followed the fast-flowing river that has accompanied us since the beginning of the trek. Shortly after setting off, we passed a monument declaring \"Buddha was born in Nepal,\" a reminder of the deep cultural history surrounding the trail.",
           "The path was busier than usual, with many porters passing by carrying enormous loads on their backs while walking in sandals. It was humbling to witness the sheer strength and endurance required for this work, and a stark reminder that these mountains demand respect. Another Buddha monument appeared around a bend, and we marveled at the way the trail had been blasted directly out of the vertical rock face. Despite sharing the path with jeeps and motorbikes, the trail was wide enough to navigate safely.",
@@ -56053,7 +56053,7 @@ const data = [
         }
       },
       {
-        "date": "Oct 24th, 2019",
+        "date": "October 24th, 2019",
         "description": [
           "Sunrise in Upper Pisang greeted us with crisp air and breathtaking views of the Annapurna massif. As we packed up, we passed villagers carrying large bundles of sticks and hay up from Lower Pisang, a reminder of how hard life is in these mountains. Crossing a short suspension bridge brought us to a steep series of switchbacks that climbed nearly a vertical mile. At roughly 9,000 feet, the ascent was grueling, but the tiny village of Pisang shrinking below us made the effort feel worth it.",
           "The trail hugged the side of a sandy-colored mountain dotted with stone homes, ancient temples, and colorful prayer flags fluttering in the wind. At a small sparsely populated village, we took a break, surrounded by snow-capped peaks and the muted earth tones of the highlands. Some structures seemed abandoned, while others were still lived in, and we passed small temples dedicated to Buddha along the way.",
@@ -57153,7 +57153,7 @@ const data = [
         }
       },
       {
-        "date": "Oct 25th, 2019",
+        "date": "October 25th, 2019",
         "description": [
           "Saying goodbye to Nathan was harder than expected. He needed to press on to meet his timeline, which meant skipping the variant route to Tilicho Lake where we planned to spend the night before climbing to the world's highest freshwater lake at 15,500 feet. In the early morning hours, the three of us left Manang and crossed a suspension bridge at the edge of town, the day still quiet and cool.",
           "The trail quickly turned dramatic. We moved along steep mountain slopes that looked as if they had either just shed a landslide or were thinking about it. A few times, supply trains of donkeys clattered past us, and I held my breath, half convinced the loose stone beneath their hooves might give way. It never did, but the tension stayed with me.",
@@ -58253,7 +58253,7 @@ const data = [
         }
       },
       {
-        "date": "Oct 26th, 2019",
+        "date": "October 26th, 2019",
         "description": [
           "Stars crowded the cloudless pre-dawn sky as we packed up for our hike to Tilicho Lake at 16,435 feet. The cold made every movement feel heavier than it should have, and starting the day so early took real effort. With headlamps on and breath visible in the dark, we eventually found our way onto the trail.",
           "About an hour and a half in, sunrise began to spill over the mountains, slowly revealing a snowy white world around us. The first half of the climb felt manageable, but as we gained more altitude, our pace slowed and breaks became more frequent. Once the trail flattened out near the top, we found a second wind and reached the lake roughly two to three hours after starting.",
@@ -59353,7 +59353,7 @@ const data = [
         }
       },
       {
-        "date": "Oct 27th, 2019",
+        "date": "October 27th, 2019",
         "description": [
           "Today marked our turn back toward Manang and then sharply away from the familiar valley as we aimed ourselves toward Thorong La Pass, the climax of our trek together. There was a quiet sense of transition in the air, the feeling that we were leaving one chapter behind and stepping into something more demanding.",
           "We left Shree Kharka and said goodbye to the sand-colored valley walls that had framed the past few days. As we retraced our steps, the landscape shifted to sparse, scraggly bushes clinging to the terrain. At an overlook above Manang, we stopped for photos and took a moment to acknowledge the completion of the first half of the circuit. Then we turned left, climbed steadily, and entered an entirely new valley.",
@@ -60452,7 +60452,7 @@ const data = [
         }
       },
       {
-        "date": "Oct 28th, 2019",
+        "date": "October 28th, 2019",
         "description": [
           "The big day had finally arrived: crossing Thorong La Pass and stepping into the second half of the circuit. While we would lose more elevation than we gained, the challenge of the day was unmistakable. We ate breakfast quickly, eager and a little anxious to get moving.",
           "The climb from Thorong Phedi to the pass was slow and deliberate. The trail was crowded, and starting at nearly 15,000 feet meant frequent stops just to catch our breath. It became a simple rhythm of putting one foot in front of the other. After three and a half hours of steady effort, we finally reached the pass.",
@@ -61551,7 +61551,7 @@ const data = [
         }
       },
       {
-        "date": "Oct 29th, 2019",
+        "date": "October 29th, 2019",
         "description": [
           "Our destination today was Marpha, at least for some of us. Katie, a friend from New Zealand, would be leaving the trail early to catch a bus from the town just before Marpha and head back to Pokhara to continue her travels. Veronique stayed behind briefly to call her boyfriend back home, so Katie and I said our goodbyes and started down the trail together.",
           "The path for the day led us over light-brown hills and mountains and along wide, dried riverbeds that must roar with water during other seasons. It was a welcome change from road walking, and the route felt quieter and more remote. As we descended out of the mountains, we crossed several suspension bridges that gently swayed beneath our steps.",
@@ -62650,7 +62650,7 @@ const data = [
         }
       },
       {
-        "date": "Oct 30th, 2019",
+        "date": "October 30th, 2019",
         "description": [
           "With the group now reduced to just two, Veronique and I left Marpha and headed toward Ghasa. The day promised a mostly dusty trail, and before long a hopeful dog joined us, trailing behind for a while as if waiting for a handout or some attention.",
           "The landscape shifted constantly as we walked. We crossed bridges, passed through bright green fields, and moved in and out of forests broken up by frequent river crossings. Jeeps rumbled past us throughout the day, a reminder that much of this stretch followed the road. Somewhere along the way, I lost one of my flip-flops, though I never did figure out exactly where it happened.",
@@ -63749,7 +63749,7 @@ const data = [
         }
       },
       {
-        "date": "Oct 31st, 2019",
+        "date": "October 31st, 2019",
         "description": [
           "This was probably the most memorable day of the entire trail, and not for the reasons I would have hoped. My original plan was to stop in Tatopani, but when I arrived it was mostly locals and no other hikers. With the last member of my group heading back to Pokhara, I was about to be completely alone. Instead, I made a last-minute decision to follow an Australian couple who were continuing on toward Ghorepani.",
           "The descent from Ghasa was quick and almost effortless. We dropped into jungle terrain again, the air growing warmer with every step, a wide river rushing alongside the trail as we crossed suspension bridges. In just under three hours we reached Tatopani, the traditional endpoint of the circuit. I debated staying there and possibly starting the Annapurna Base Camp trek since I had far more time than expected, but it was still early and the Australians were moving on, so I went with them.",
@@ -64849,7 +64849,7 @@ const data = [
         }
       },
       {
-        "date": "Nov 1st, 2019",
+        "date": "November 1st, 2019",
         "description": [
           "The near-death experience from the night before was deeply humbling, but it also sparked an unexpected sense of energy. I woke up after a long, restorative sleep and walked downstairs to an empty dining hall. Nearly everyone had already left in the early hours to hike up Poon Hill for sunrise.",
           "While waiting for breakfast, one of the hikers who had helped me the night before came in. I thanked them again, knowing there was no real way to repay that kind of selfless kindness. When it came time to order, I made sure to get as much warm food as possible, determined not to repeat the mistakes of the previous day.",
@@ -65948,7 +65948,7 @@ const data = [
         }
       },
       {
-        "date": "Nov 2nd, 2019",
+        "date": "November 2nd, 2019",
         "description": [
           "Well rested and well fed, I left Chomrong the next morning to begin the Annapurna Base Camp trek. I would not make it all the way that day, but I covered a good amount of ground and eventually stopped in a place called Deurali. It felt good to be moving forward again with a clear goal ahead.",
           "The day was almost entirely uphill. Leaving Chomrong meant descending all the way to the valley floor before climbing straight back up the other side. The constant elevation gain put real strain on my knees and lungs, and the effort was impossible to ignore.",
@@ -67047,7 +67047,7 @@ const data = [
         }
       },
       {
-        "date": "Nov 3rd, 2019",
+        "date": "November 3rd, 2019",
         "description": [
           "The terrain began to change almost immediately after leaving Deurali on the way to Annapurna Base Camp. Green bushes and grasses slowly disappeared, replaced by bare rock faces dusted with thin yellow grasses as the valley narrowed and the mountains closed in around me. With every step higher, the landscape felt more stark and more dramatic.",
           "Walking through these massive rock formations made me feel incredibly small. After about an hour, the first patches of snow appeared underfoot. Less than sixty minutes earlier I had been moving through jungle, and suddenly I was surrounded by an entirely different world, cold and exposed.",
@@ -68148,7 +68148,7 @@ const data = [
         }
       },
       {
-        "date": "Nov 4th, 2019",
+        "date": "November 4th, 2019",
         "description": [
           "We woke in the pre-dawn hours, stiff from sleeping on hard mattresses in the cold, and quickly bundled up in all our layers. I joined the others as they headed toward a flat area above the refuges, perfect for watching the sunrise over Annapurna. The early morning stillness, paired with the crisp air, made the anticipation even more exciting.",
           "Watching the sun rise was nothing short of magical. The sky shifted from deep blues to soft pinks, and the mountain peaks began to glow golden. The snow at the summits stirred in the light, creating the illusion that the mountaintops were on fire. I stayed for over an hour, completely captivated by the view.",
@@ -69249,7 +69249,7 @@ const data = [
         }
       },
       {
-        "date": "Nov 5th, 2019",
+        "date": "November 5th, 2019",
         "description": [
           "The last day of my Himalayan adventure was short but peaceful. I set off just after breakfast, following a mostly downhill trail toward a jeep station that would take me back to Pokhara. Before leaving, I took a moment to enjoy the sunrise from my small private balcony, a quiet farewell to the mountains.",
           "The trail was nearly empty today, passing through small clusters of teahouses and bright green scenery. A few sections required walking on the road, but thankfully no vehicles appeared. The area was dotted with beautiful trees, making the final stretch feel calm and serene.",
@@ -70378,7 +70378,7 @@ const data = [
     "date": {
       "isYears": false,
       "range": [
-        "Nov 6th",
+        "November 6th",
         " 8th, 2019"
       ]
     },
@@ -70389,12 +70389,12 @@ const data = [
     "hasGear": false,
     "hasStats": true,
     "image": "2019/11/06/0a6730d7-113b-4bca-b9d1-71ecf8e69713.jpeg",
-    "label": "destination",
+    "label": "Destination",
     "location": "Nepal",
     "slug": "pokhara",
     "stages": [
       {
-        "date": "Nov 6th, 2019",
+        "date": "November 6th, 2019",
         "description": [
           "I had a few days to kill in Nepal after I conquered my thru-hike of the Annapurna Circuit, and I spent them in Pokhara (the outdoor activity capital of Nepal). First thing the next day after arriving in town I headed towards the lake that most of the touristy area of the city lies along.",
           "The highlight was hiring a brightly painted wooden boat, or doonga, to row out onto the water and head towards the far shore where I made a stop at the 'World Peace Pagoda' (Shanti Stupa).",
@@ -70432,7 +70432,7 @@ const data = [
         }
       },
       {
-        "date": "Nov 7th, 2019",
+        "date": "November 7th, 2019",
         "description": [
           "The World Peace Pagoda (Shanti Stupa) is perched on a hill called Anadu Hill at an altitude of 3,600 feet. The massive white dome stands as a literal beacon of peace overlooking the entire valley.",
           "Getting there was was half the adventure. I chose the 'classic' route: a serene boat ride across Lake Phewa followed by a steep, hour-long hike through the lush Rani Ban forest. The trail is mostly stone stairs that wind through pines and wildflowers, providing just enough of a workout to make reaching the top feel earned.",
@@ -70473,7 +70473,7 @@ const data = [
         }
       },
       {
-        "date": "Nov 8th, 2019",
+        "date": "November 8th, 2019",
         "description": [
           "I've been on roller coasters, big drops at amusement parks, and have even jumped out of a perfectly good airplane to go skydiving just outside of Chicago, but I had never been paragliding, until today. Paragliding here in Pokhara is apparently a common thing tourists do, and it was easily one of the most surreal things I've ever experienced.",
           "The morning started with a bumpy, 20-minute jeep ride up to the takeoff spot at 5,800 feet. Looking down from the ridge at the colorful gliders already in the air was a bit nerve-wracking, but my pilot was incredibly chilld and professional, and walked me through a quick safety briefing.",
@@ -70888,12 +70888,12 @@ const data = [
     "hasGear": true,
     "hasStats": true,
     "image": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
-    "label": "summit",
+    "label": "Summit",
     "location": "Colorado",
     "slug": "southern-rockies-peak-bagging",
     "stages": [
       {
-        "date": "Aug 31st, 2019",
+        "date": "August 31st, 2019",
         "description": [
           "I first learned about 14'ers, the mountain peaks that rise above 14,000 feet, from someone I met while hiking the Tour du Mont Blanc in 2018. They mentioned that if I enjoyed hiking the high trails of the TMB, I would love Colorado, a place I had never considered visiting. It took nearly a year before I finally worked up the courage to take a solo trip to the United States and attempt to summit one of these towering peaks.",
           "After researching what to pack for the trail, where to stay, and how to manage transportation, I booked flights and reserved an Airbnb in Denver. Excitement mixed with nerves filled me as I prepared for the unknown. This trip was also a test of my body's endurance at high altitudes. I wanted to see how I would handle elevations above 10,000 feet, where Acute Mountain Sickness can make every step feel heavier than the last. Success on this hike was critical, as I had a planned trek in the Annapurna region just months away, where elevations rise above 18,000 feet.",
@@ -71995,7 +71995,7 @@ const data = [
         }
       },
       {
-        "date": "Sep 1st, 2019",
+        "date": "September 1st, 2019",
         "description": [
           "The morning after completing my first 14'er, I found myself waking up before dawn once again to tackle another peak. This one was known to be less strenuous than Mt. Elbert, but having conquered the tallest and most challenging of the \"easier\" 14'ers gave me confidence. I was still curious to see how my body would handle this fresh ascent.",
           "After a two-and-a-half-hour drive listening to my trusty 80's retro station, I parked along the roadside near the trailhead. There was no official parking lot, just a small space where a few other early hikers had already gathered. The trail began immediately at the edge of the road, and by 4:30 am I was setting out under the dim light of my headlamp.",
@@ -72602,7 +72602,7 @@ const data = [
         }
       },
       {
-        "date": "Sep 4th, 2020",
+        "date": "September 4th, 2020",
         "description": [
           "For my second year hiking Colorado's 14'ers, I decided to camp near the trailheads. This way, I could wake up at 4:00 am instead of 1:00 am and drive three hours. Just ten minutes to the start felt like a luxury after last year's early mornings.",
           "My first peak of the trip was La Plata Peak, named after the area's numerous silver mines. The trail wasn't particularly long, but it was technically more challenging than the hikes I completed the previous year. The trails are classified from 1 to 5, with 1 being the easiest. Mt. Elbert and the second 14'er I climbed last year were 1's, while La Plata rated as a 2.",
@@ -73704,7 +73704,7 @@ const data = [
         }
       },
       {
-        "date": "Sep 5th, 2020",
+        "date": "September 5th, 2020",
         "description": [
           "For the second hike of my Colorado trip, I chose an easier summit, Mt. Bierstadt, and planned a later start at 6:00 am since I had to drive about an hour from my campground. This class 1 route involved some scrambling over boulders near the summit, but nothing too challenging. One of the most striking features of this 14'er was the massive paved parking lot, which was already overflowing by the time I arrived.",
           "The trail was crowded, but that's to be expected for a peak so close to a major city with easy access. The first hour of the hike was pleasantly flat, winding through prairies dotted with bushes, small lakes, and streams. A boardwalk at the start made crossing streams simple while protecting the local vegetation. I loved this section and paused often to take photos of the idyllic landscape.",
@@ -74805,7 +74805,7 @@ const data = [
         }
       },
       {
-        "date": "Sep 6th, 2020",
+        "date": "September 6th, 2020",
         "description": [
           "For my final 14'er of this Colorado trip, I chose Grays Peak, a popular summit that begins above the treeline. This meant skipping the two-hour forest slog I had endured on previous hikes, which was a welcome change. I also hoped this peak would provide an opportunity to meet fellow hikers and campers along the way.",
           "The night before, I met two women camping nearby in hammocks. We shared dinner and conversation, and although our paths would briefly cross again near the summit, this was the only time we connected. After three consecutive days of hiking, I was exhausted, so I opted to climb only Grays instead of combining it with Torreys as part of the common saddle route.",
@@ -75905,7 +75905,7 @@ const data = [
         }
       },
       {
-        "date": "Sep 7th, 2021",
+        "date": "September 7th, 2021",
         "description": [
           "This year, my partner joined me for my new September tradition of hiking Colorado 14'ers, turning it into a bigger adventure since she had family in the state. After spending a week visiting them, we headed into the mountains to tackle our first peak together: Mt. Shavano. It was a Class 2 trail with significant elevation gain of around 4,500 feet, making it challenging but manageable.",
           "We camped at the trailhead in my small Duplex Zpacks tent. Technically designed for two, it felt cramped with our air mattresses, which meant a restless night and little sleep. Despite that, we were eager to get going and hit the trail by 5:00 am. The early stretch was flat, sharing some trail with the Colorado Trail, before ascending over rocks and tree roots. Small water sources dotted the way, though we didn't stop to refill, which would later prove a mistake.",
@@ -77006,7 +77006,7 @@ const data = [
         }
       },
       {
-        "date": "Sep 9th, 2021",
+        "date": "September 9th, 2021",
         "description": [
           "After our challenging experience on Mt. Shavano, we made sure to carry as much water as possible for our attempt at the DeCaLiBro-n combination route two days later. This route connects four 14,000-foot peaks: Democrat, Cameron, Lincoln, and Bross via ridges, making it theoretically doable in a single day. We skipped Bross since it's on private land, sticking with the first three summits instead.",
           "The trailhead at Kite Lake starts at 12,000 feet, which made the 2,000 feet of elevation gain to the first peak feel easier. We spent the night in the car to acclimate, knowing that starting at high altitude without preparation can be tough. A pink sunrise greeted us as we set out at 7:00 am. The trail began gently, then climbed via switchbacks toward the col at the base of the first peak.",
@@ -78106,7 +78106,7 @@ const data = [
         }
       },
       {
-        "date": "Sep 9th, 2022",
+        "date": "September 9th, 2022",
         "description": [
           "Returning to Colorado for my fourth year in a row, I decided to start the trip with Mt. Belford, a peak with 4,500 feet of elevation gain over just four miles. The steepness promised a tough day, and it quickly became clear this would be one of the most physically demanding peaks I'd tackled solo, even compared to my first summit on Mt. Elbert.",
           "I arrived at the parking lot around 6:00 am and was greeted by empty spaces, with only a few other hikers beginning their day. The trail started immediately steep, climbing roughly 1,000 feet per mile. I stopped often in the early stretch to catch my breath, winding through thick forests punctuated by stream crossings with bridges made from fallen logs. Grassy clearings appeared here and there, providing a chance to pause and look ahead at the trail. The ruins of an old cabin added a little intrigue to the route.",
@@ -79207,7 +79207,7 @@ const data = [
         }
       },
       {
-        "date": "Sep 11th, 2022",
+        "date": "September 11th, 2022",
         "description": [
           "Mount Massive, the second-highest summit in Colorado, is just a few feet shy of Mount Elbert and ranks as the third-highest peak in the contiguous United States. Located in the San Isabel National Forest near Leadville, it offers a mix of grassy slopes, rocky ridges, and sweeping views of the surrounding Rockies. I had been anticipating this hike for a while, knowing the trail would challenge both endurance and focus.",
           "The beginning of the trail is deceptively easy, tempting hikers to move quickly, but summiting a 14'er is more like running a marathon than a sprint. I had a small navigational hiccup early on, with a misleading marker forcing me to bushwhack briefly before rejoining the correct path. Once back on track, I moved steadily, reaching the treeline after roughly two hours.",
@@ -80366,7 +80366,7 @@ const data = [
     "date": {
       "isYears": false,
       "range": [
-        "Jul 16th",
+        "July 16th",
         " 25th, 2019"
       ]
     },
@@ -81005,12 +81005,12 @@ const data = [
     "hasGear": true,
     "hasStats": true,
     "image": "2019/07/16/735a0783-62ba-4f8e-97d8-c9b9f5327cfe.jpeg",
-    "label": "day",
+    "label": "Day",
     "location": "Northern Italy",
     "slug": "alta-via-1",
     "stages": [
       {
-        "date": "Jul 16th, 2019",
+        "date": "July 16th, 2019",
         "description": [
           "My friend Cerstin and I caught an early morning shuttle bus from the town where we were staying to Lago Brais, the official starting point of the Alta Via 1. The bus was packed with hikers and their backpacks, so we stood for the ride, eagerly watching the landscape pass by. We were dropped off in front of a hotel at the lake, and it felt like the perfect place to begin our adventure.",
           "Lago Brais is stunning, a turquoise mountain lake nestled at the foot of white-gray peaks. A small dock jutted into the water, lined with old wooden canoes tied up neatly, and a tiny shack sat at the end. We explored the edges of the lake, but it was too vast to circle entirely, and the mountains called us onward.",
@@ -82110,7 +82110,7 @@ const data = [
         }
       },
       {
-        "date": "Jul 17th, 2019",
+        "date": "July 17th, 2019",
         "description": [
           "Breakfast on the Alta Via 1 was a treat compared to most trekking mornings. Instead of the usual sparse bread and jam, there were eggs and hearty options to fuel the day ahead. Refreshed and well-fed, we left Rifugio Bella and stepped back into the rolling, open terrain of the Dolomites, surrounded by a variety of striking geologic formations. The views felt even more dramatic than the first day, with every turn revealing a new ridge, peak, or rocky outcrop.",
           "The trail took us over grassy hills toward distant mountains, and about seventy minutes in we entered dense pine forests. The smooth rolling terrain gave way to a steep descent, with wooden railings guarding the cliff edges. We carefully made our way down the side of the mountain, following switchbacks into a valley below, where the landscape opened into a peaceful, sunlit refuge.",
@@ -83209,7 +83209,7 @@ const data = [
         }
       },
       {
-        "date": "Jul 18th, 2019",
+        "date": "July 18th, 2019",
         "description": [
           "Breakfast at the rifugio set the tone for another beautiful day on the Alta Via 1. I took a final stroll around the grounds before packing up, enjoying the overcast sky that still allowed bright sunlight to filter through. The trail led us away from the lake and into the woods, quickly gaining elevation until we emerged above the trees. From there, rolling green hills dotted with rocks stretched as far as the eye could see, and the beginnings of a cloud inversion added a magical touch to the landscape.",
           "Our group of six kept a steady pace through the morning. Alongside my friend Cerstin were two mother-daughter pairs from the States. While most of us moved together, one of the mother-daughter duos picked up the pace during a steep ascent, leaving the rest of us to enjoy the scenery at a slightly slower tempo. The trail passed lakes, empty cattle pens, and rivers while winding around massive boulders. We even discovered a cave in the rock face, though it proved unremarkable.",
@@ -84308,7 +84308,7 @@ const data = [
         }
       },
       {
-        "date": "Jul 19th, 2019",
+        "date": "July 19th, 2019",
         "description": [
           "Our day began with an immediate climb out of the valley, right past the World War II ruins we had passed yesterday. The ascent took about an hour and a half, and by the time we reached the top, we were walking on patches of snow. The trail offered a little bit of everything, from snowy slopes to colorful mountainsides, and the views only improved as we gained elevation.",
           "After leaving the snow behind, we rounded a bend along a mountainside covered in red-brown rock and dirt, with anti-avalanche fencing scattered along the slope. Beyond the bend, the landscape transitioned to white stone and green grasses, creating a striking contrast against the mountains. At a junction, our group initially took a wrong turn, but it turned into a memorable detour past a massive boulder and a distant valley, before we returned to the correct path along a narrow strip around a dome-shaped mountain.",
@@ -85407,7 +85407,7 @@ const data = [
         }
       },
       {
-        "date": "Jul 20th, 2019",
+        "date": "July 20th, 2019",
         "description": [
           "Today's hike was a feast for the eyes, with landscapes that felt almost otherworldly. We started the morning under a full moon, enjoying breakfast in the cozy dining room of Rifugio Averu before setting out. The trail required a bit of backtracking, which allowed us to avoid via ferrata ladders that would have demanded helmets and nerves of steel due to the sheer drop-offs.",
           "Once back on the main trail, the Dolomites revealed their extraordinary beauty. I kept stealing glances behind me, knowing I might otherwise miss something spectacular. Massive boulders seemed to float in the clouds, and one rock formation looked like a throne fit for the gods, perched dramatically on a cliffside.",
@@ -86507,7 +86507,7 @@ const data = [
         }
       },
       {
-        "date": "Jul 21st, 2019",
+        "date": "July 21st, 2019",
         "description": [
           "Today's hike began in a lush pine forest, with sections of the trail strewn with large rocks that made for some fun leap-frogging along the way. The forest was quiet and green, but not particularly dramatic in terms of views or elevation. Once we left the trees and the road behind, the scenery opened up, revealing rolling landscapes and our first real look at the ridge ahead, where old World War II anti-aircraft guns stood as silent monuments.",
           "As we continued, we realized an ultra marathon was taking place in the area. Trails crisscrossed the green hills, and we had to carefully navigate switchbacks while runners and walkers sped past or made their way up the mountain. It was remarkable to watch so many participants leap from rock to rock without a single misstep.",
@@ -87607,7 +87607,7 @@ const data = [
         }
       },
       {
-        "date": "Jul 22nd, 2019",
+        "date": "July 22nd, 2019",
         "description": [
           "Our day began with a descent from Rifugio Tissi, retracing part of yesterday's path before heading off in a new direction. We walked briefly along a ridge I've dubbed \"The Wall,\" then entered a small cluster of pine trees before emerging into a cleared valley. Up ahead, a herd of cows ambled lazily through the landscape. Unlike my last encounter with cattle, these cows were completely indifferent to our presence, and we shared the trail with them for a short while before a wire fence marked their boundary.",
           "The trail led us into another pine forest tucked between dramatic mountain spires that resembled chimney stacks. A waterfall turned into a river in the distance, though we crossed over the top rather than below it, missing a few photo opportunities. It took about an hour to navigate the forested section, after which the trail began a steady ascent toward the rocky mountain faces. Snow lingered in the shadows, clinging stubbornly to hidden nooks.",
@@ -88706,7 +88706,7 @@ const data = [
         }
       },
       {
-        "date": "Jul 23rd, 2019",
+        "date": "July 23rd, 2019",
         "description": [
           "Waking up early this morning was a rare treat, as I was able to catch the sunrise filtering through the trees. The soft morning light made the trail feel almost magical, and it set the tone for the day ahead. The route offered a mix of forests, mountain passes, and what appeared to be old stone military barracks scattered along the landscape.",
           "We began our hike through grassy fields before entering the trees once again. There were brief stretches on a road during a descent, but we quickly returned to the forest. Hidden among the pines were some fascinating ruins, hinting at a long history that added an extra layer of intrigue to the trek.",
@@ -89805,7 +89805,7 @@ const data = [
         }
       },
       {
-        "date": "Jul 24th, 2019",
+        "date": "July 24th, 2019",
         "description": [
           "Today's hike was all about climbing. We started early, knowing it would be a short day, since our destination was Rifugio Pian de Fontana, the last stop on our trek. After a brief descent, we immediately began ascending toward the cols between mountain peaks. The stone here was a striking white, dotted with dark green vegetation, and the climb demanded frequent breaks to catch our breath. Despite the effort, it was refreshing to be above the forest once again, surrounded by wide-open vistas.",
           "As we gained altitude, we passed patches of ice and were treated to endless views of the surrounding mountains, some wreathed in clouds. At times, it truly felt like standing on the edge of the world. After about an hour and a half of steady climbing, we reached the top and paused to take it all in. The mountains seemed endless in every direction, and the solitude was invigorating.",
@@ -90905,7 +90905,7 @@ const data = [
         }
       },
       {
-        "date": "Jul 25th, 2019",
+        "date": "July 25th, 2019",
         "description": [
           "The final day on trail was mostly downhill, and we started early to ensure we had plenty of time to catch the bus back into town. From the rifugio, the path initially stretched laterally across the mountains before beginning a steady descent. I paused to take one last look back at the area, and the scenery felt like something out of a dream, with mossy slopes, rolling peaks, and clouds drifting lazily over the valleys.",
           "I kept an eye out for Edelweiss, a flower I had hoped to spot along this part of the trail, but it remained elusive. The terrain transitioned from open, grassy mountainsides to dense forests as we began zig-zagging down steep switchbacks. Along the way, we stopped at a small rifugio with an open kitchen and bathrooms, snacking on leftover pie before continuing downward.",
@@ -92063,7 +92063,7 @@ const data = [
     "date": {
       "isYears": false,
       "range": [
-        "Sep 2nd",
+        "September 2nd",
         " 13th, 2018"
       ]
     },
@@ -92678,12 +92678,12 @@ const data = [
     "hasGear": true,
     "hasStats": true,
     "image": "2018/09/02/135eea74-e1bc-4cab-bfd7-28d17405a744.jpeg",
-    "label": "day",
+    "label": "Day",
     "location": "European Alps",
     "slug": "tour-du-mont-blanc",
     "stages": [
       {
-        "date": "Sep 2nd, 2018",
+        "date": "September 2nd, 2018",
         "description": [
           "I've hiked before in the Andes while doing the Torres del Paine in Patagonia and San Jose de Maipo outside Santiago, Chile, both climbs of around 600 meters. But nothing prepared me for hiking into, up, and over mountains. My second trip to France brought me to Les Houches, a quaint village perched above a valley. Arriving late the night before, I was immediately thrust back into backpacking mode, and dinner at a local auberge set the tone for what lay ahead. Seated with a table of mostly French-speaking hikers, I felt an instant camaraderie; we were all here for the same reason: the Tour du Mont Blanc.",
           "The Tour du Mont Blanc is no small feat: 170 kilometers circling the Mont Blanc massif, with roughly 10,000 meters of elevation gain and loss, weaving through France, Italy, and Switzerland, and nights spent in mountain huts and refuges. A chilly morning greeted me with cloud-covered views of Les Houches, and I quickly realized I was headed the wrong way. Momentarily embarrassed I started ascending earthen steps into the hillside. Clouds lingered for an hour, casting a magical veil over my first encounter with this legendary trail. Gravel paths, wooden steps, and paved roads carried me higher until Col de Voza offered the first sweeping view back down into the valley.",
@@ -93782,7 +93782,7 @@ const data = [
         }
       },
       {
-        "date": "Sep 3rd, 2018",
+        "date": "September 3rd, 2018",
         "description": [
           "Day two of the Tour du Mont Blanc pushed me to heights I'd never reached before. The hike up to Col de la Croix was brutal, and the pictures I'd taken didn't even capture the steepness of the trail. Today was a mix of walking, scrambling, and pulling myself over rocks and boulders, testing every bit of strength and endurance I had. The day began with a descent of 750 meters into Les Contamines, winding through twisting roads and trails. I even got lost twice trying to find the town center, but the charming streets and quaint architecture made the detours worth it.",
           "Leaving the city, the trail followed a shallow path along a river through a forest, dotted with waterfalls and one strikingly deep blue river cutting through its own canyon. The hike steadily became steeper, passing cows, red-roofed chalets, and old stone buildings that reminded me of Torres del Paine in Patagonia. Refuge Nant Borrant provided a short breather before the next push, while Refuge de la Balme marked the beginning of the steep climb to Col du Bonhomme. Pausing to turn back and admire the trail behind me helped put the day's struggle into perspective, as every step revealed breathtaking views.",
@@ -94883,7 +94883,7 @@ const data = [
         }
       },
       {
-        "date": "Sep 4th, 2018",
+        "date": "September 4th, 2018",
         "description": [
           "Reaching the top of the Tour du Mont Blanc highpoints is a surreal experience. At the Col des Fours, 2,665 meters above sea level, nothing but mountains surrounded us. The pedestal marking the highest point gleamed with ice, and the valley below seemed like another world entirely. Today promised a marathon of hiking, but first we soaked in the views and shed our outer layers to enjoy the crisp alpine air.",
           "We left Bonhomme early in the morning, trekking as a small group of three Germans and myself, gradually picking up more hikers along the descent. The trail down was a mix of steep, slanted rocks and slippery patches from water, turning the hike into a constant balance challenge. Rivers cascaded alongside us, and eventually the green valley floor appeared, dotted with cows whose cowbells created a constant jingling soundtrack. Herded by a vigilant farmer and her dog, the cows gave us a memorable encounter in the alpine fields.",
@@ -95984,7 +95984,7 @@ const data = [
         }
       },
       {
-        "date": "Sep 5th, 2018",
+        "date": "September 5th, 2018",
         "description": [
           "I started the day eager to hike toward the Col de la Seigne, but a lack of research quickly reminded me that mountains don't always follow your expectations. Instead of a simple descent, the trail cut straight across the face of Mont Tondu, a technical traverse filled with slippery clay, boulders, steel cables, and chains. Every step was a challenge, forcing me to balance, scramble, and trust my trekking poles, while constantly scanning for cairns and double yellow trail markers to stay on course. By the time I reached the final vertical climb to the col, the feeling was not just relief, it was pure triumph. I had pushed myself and emerged stronger for it.",
           "The Col de la Seigne itself offered breathtaking views back into France and forward into Italy. I pressed on quickly, descending with a newfound confidence I'd developed from past speed-hiking techniques, weaving past cow herders and their grazing flocks while keeping my eyes on the next ascent. Rifugio Elisabetta flashed by, and then I was racing toward the valley floor and Lac Combal, the mountains around me shifting from grasses to bushes and trees, with Mont Blanc looming silently in the clouds above.",
@@ -97085,7 +97085,7 @@ const data = [
         }
       },
       {
-        "date": "Sep 6th, 2018",
+        "date": "September 6th, 2018",
         "description": [
           "The day began bright and sunny as I descended toward the skiing town of Courmayeur, transitioning from sandy trails to paved streets. Most of the hike took place under the forest canopy, offering glimpses of ski lifts and paths on the surrounding hills. Along the way, I passed an abandoned house tucked deep in the trees, its crumbling floors and holes in the roof telling silent stories of a life long gone. I couldn't resist exploring, marveling at the eerie beauty of forgotten spaces before continuing down the trail.",
           "Navigating the unstable terrain with sore knees made progress slow, and a sudden realization hit me: I desperately needed a bathroom. Fortunately, the bus station in the city center came to the rescue. With a sense of relief, I stocked up on cash and snacks before heading uphill to the town square. From there, I gazed over the valley, marveling at the village houses and mountains beyond. Courmayeur's streets were lined with luxury shops, wine tasting rooms, and high-end restaurants, a stark contrast to the rugged mountain trails just behind them.",
@@ -98185,7 +98185,7 @@ const data = [
         }
       },
       {
-        "date": "Sep 7th, 2018",
+        "date": "September 7th, 2018",
         "description": [
           "The morning began under a blanket of clouds as I left the Rifugio, with Mont Blanc teasingly hidden from view. The trail took me past several abandoned buildings, and I couldn't resist exploring each one before descending along the zig-zagging path through the valley. Clumps of evergreens lined one side of the trail, while the stark gray cliffs of rockslides towered on the other. At a quiet river, I paused to snack and enjoy the gentle sound of rushing water, a rare moment of solitude before the ascent to Rifugio Elena.",
           "The wind greeted me fiercely at the Rifugio, howling around every rock and corner, forcing me to layer up before continuing to the Grand Col Ferret. I grabbed a warm sandwich and met up with Barak and Neta for a quick regroup. Outside, the wind made taking photos a challenge, but the anticipation of crossing into Switzerland kept us moving. The climb to the col was relentless, with clouds racing around our feet as we ascended to 2,537 meters, the trails seeming to vanish into nothingness at times.",
@@ -99284,7 +99284,7 @@ const data = [
         }
       },
       {
-        "date": "Sep 8th, 2018",
+        "date": "September 8th, 2018",
         "description": [
           "Today began with a bit of adventure before the hiking even started. A backpacker we'd met at Maya Joie had told us about a massive waterfall just past La Fouly, and I was determined to check it out. Leaving town, we quickly found ourselves in the forest, descending toward a river crossing before continuing north toward the waterfall. What seemed like a gentle path revealed itself as steep and slippery with morning dew, but the payoff was breathtaking. I scrambled carefully near the base of the falls, feeling the spray on my face, and paused to savor the raw power and beauty of the cascading water.",
           "Once back on safer ground, we reunited with other hikers and continued together through the forest. Much of the trail followed a dried-up river, winding through narrow paths with occasional chains to keep us from tumbling over steep drops. Soon, we emerged into the valley villages of Switzerland, with Praz-de-Fort and its neighboring towns greeting us with charming wooden houses, blending new construction with centuries-old barns that looked ready to collapse at the slightest touch. We rested at a cozy café in Issert, indulging in ice cream sandwiches while taking in the surrounding greenery.",
@@ -100383,7 +100383,7 @@ const data = [
         }
       },
       {
-        "date": "Sep 9th, 2018",
+        "date": "September 9th, 2018",
         "description": [
           "The day started under perfect blue skies, with sunlight streaming through the trees as I hiked through the woods in the early morning. There's something magical about walking through a forest with light filtering down in golden beams, it makes every step feel deliberate and slow. Since I had explored parts of the trail the night before, the first 30 minutes were easy, giving me time to enjoy the scenery and prepare for the bigger climb ahead.",
           "My destination was the Fenetre d'Arpette at 2,665 meters, the second-highest point I'd reach on the TMB. The initial ascent led through woods, then shrubs, low trees, and finally into sparse crabgrass and rocks. Every few minutes I turned around to take in the ever-expanding view, the mountains and valleys stretching farther than I could capture in a single photo. As the vegetation disappeared entirely, the landscape became a raw, rocky terrain, signaling the approach to the day's biggest challenge.",
@@ -101482,7 +101482,7 @@ const data = [
         }
       },
       {
-        "date": "Sep 10th, 2018",
+        "date": "September 10th, 2018",
         "description": [
           "We bid farewell to our hostesses at Refuge du Peuty, thanked them for the unforgettable dinner and music, and set off for the final Col of our trek. I surged ahead of the group, hiking through the tree-covered trail, where the receding village and valley floor were hidden from view. Once I broke above the treeline, the vistas returned in full force: mountains plunging dramatically toward the valleys below, dotted with pink wildflowers and abandoned houses.",
           "Our destination for the morning was Refuge du Col de Balme, a remote building perched where Switzerland meets France. Here, the border felt purely symbolic; nature knows no lines. From this vantage point, Mont Blanc came into sight again after nearly nine days, a majestic reminder of the journey we had undertaken.",
@@ -102581,7 +102581,7 @@ const data = [
         }
       },
       {
-        "date": "Sep 11th, 2018",
+        "date": "September 11th, 2018",
         "description": [
           "Everyone warned me about the ladders, claiming they were the scariest part of the trip, but with the alternate route closed due to a landslide, there was no avoiding them. The morning sun peeked over the mountains as we left Tré-le-Champ and entered the woods. We steadily climbed, navigating tree roots and rocky outcroppings, including the massive Aiguillete d'Argentière monolith, a rock the size of a two-story house that had long ago fallen from the mountain's peak.",
           "Along the trail, we paused at a perfect window in the rocks, framed by trees, to watch the sun's rays play over Mont Blanc in the distance. Even wildlife joined the spectacle as an Ibex leapt gracefully from rock to rock, seemingly unconcerned by our presence. Soon, we reached the ladders. Contrary to the stories, they weren't frightening, just metal rungs helping us navigate the steeper terrain, though the line of hikers waiting for photos turned it into a social affair.",
@@ -103680,7 +103680,7 @@ const data = [
         }
       },
       {
-        "date": "Sep 12th, 2018",
+        "date": "September 12th, 2018",
         "description": [
           "I thought today would be a leisurely three-hour hike to the last mountain refuge of the trip, but I was quickly proven wrong. I started out slowly, strolling under ski lifts and along gently sloping forest paths, enjoying the crisp morning air. The trail soon challenged me with steep boulder fields, each with dizzying drops below, far more intimidating than anything I had encountered so far. The pictures hardly do the scale justice.",
           "Shortly after the boulder field, a massive stone wall appeared, silent and imposing. Ahead, a mysterious red plastic pole led some hikers to believe the main path was closed, prompting me to take a higher alternate route. I pushed myself up the hill, only to discover the original path was open after all. Turning back cost me time, but the trail rewarded me with ethereal light and cloud formations that made it feel like the mountain itself was alive. At one point, the sun and clouds conjured the illusion of an asteroid about to strike the valley.",
@@ -104779,7 +104779,7 @@ const data = [
         }
       },
       {
-        "date": "Sep 13th, 2018",
+        "date": "September 13th, 2018",
         "description": [
           "The last morning of the trek was bathed in a stunning orange sunrise, which I tried to capture in every photo as I descended the mountains. Ibexes kept me company along the way, adding a touch of Alpine magic. On my path, I passed the imposing Le Christ Roi statue, a sudden and awe-inspiring sight rising from the valley floor. Crossing the final river and passing the train station, I felt a sense of completion: the journey that had begun days ago now behind me. My hiking boots and backpack were no longer black, but coated with the dust and dirt of countless mountainsides.",
           "With the gîte not opening until later in the afternoon, I wandered around town, exploring souvenir shops and collecting maps. By chance, I ran into four fellow hikers I had met along the route. We shared lunch, drinks, and stories, laughing over mishaps and memories from the trek. A sudden rainstorm forced us inside, reminding me just how unpredictable mountain weather can be.",
@@ -105937,8 +105937,8 @@ const data = [
     "date": {
       "isYears": false,
       "range": [
-        "Jun 2nd",
-        "Jul 4th, 2018"
+        "June 2nd",
+        "July 4th, 2018"
       ]
     },
     "description": [
@@ -106561,12 +106561,12 @@ const data = [
     "hasGear": true,
     "hasStats": true,
     "image": "2018/06/02/50570d33-285a-4561-bc7f-b7e500363359.jpeg",
-    "label": "day",
+    "label": "Day",
     "location": "Northern Spain",
     "slug": "camino-frances",
     "stages": [
       {
-        "date": "Jun 2nd, 2018",
+        "date": "June 2nd, 2018",
         "description": [
           "The morning air was crisp and fresh, exactly as early summer mornings should be. I tied my shoes, slung my backpack over my shoulders, and stepped outside, feeling a mixture of excitement and nervous anticipation. Standing on Rue de la Citadelle in St-Jean-Pied-de-Port, I felt slightly out of place in shoes that weren't broken in and a hat from Lollapalooza. It was June 2nd, 2018, and I was about to begin the Camino de Santiago.",
           "As I paused to take in the early morning light, I tried to make sense of what I was doing and what lay ahead. Pilgrims passed me on the stone-paved road, moving steadily toward the horizon. After a moment of hesitation, I muttered to myself, \"alright, let's go,\" and started following three women walking ahead. The sun shone bright, the clouds were few, and soon we left the village behind, stepping into the quiet beauty of the countryside.",
@@ -107668,7 +107668,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 3rd, 2018",
+        "date": "June 3rd, 2018",
         "description": [
           "The chirping of birds filled the dormitory as I rolled onto my side and pushed myself up from the bottom bunk. After a hasty packing session, I made one last check of my bag before heading downstairs. The morning felt crisp and calm, a quiet contrast to the strenuous hike from the day before. Outside, the rolling hills and mountains we had conquered yesterday stretched before me, serene and inviting.",
           "After grabbing some snacks from the vending machine, I retrieved my boots from the musty storage room and slung my backpack over my shoulders. The others had already gathered downstairs, ready to set off. Amy and I found ourselves walking in the street at first, the trail too muddy to traverse safely. Soon we passed through a small town, descending a slope before returning to the trail. Trees lined our left side while cows grazed on our right, and we joked with the horses, though they offered little response.",
@@ -108768,7 +108768,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 4th, 2018",
+        "date": "June 4th, 2018",
         "description": [
           "A misty rain and low gray clouds accompanied us as we grabbed breakfast at the café from the previous night. We crossed the bridge that had brought us into town and headed toward the hills, the damp chill in the air a quiet reminder of the Camino's unpredictability. For a brief stretch, industrial sites broke the green landscape, but soon we traded paved roads for gravel paths, leaving the town shrinking behind us into a multicolored dot on a hillside.",
           "Nature quickly enveloped us as we left the gravel road for a narrow stone-paved trail climbing toward the light rain. Poppies lined the path, barbed wire fences marked off pastures, and donkeys stared curiously as we passed. The rushing Arga River appeared on our right just as the sun began to break through the clouds, and we stopped for a brief respite at a café on the outskirts of Zuriáin. The scenery was mesmerizing, each step alternating between rolling hills and tree-lined paths, and each glance back revealing more of the quiet towns behind us.",
@@ -109867,7 +109867,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 5th, 2018",
+        "date": "June 5th, 2018",
         "description": [
           "Mornings in Pamplona had a calm, peaceful rhythm that I could get used to. With the streets empty, I set out ahead of the others to explore parts of the city I hadn't seen yesterday. Only a few pilgrims passed in the opposite direction, heading toward the next stage of the Camino. The city square was quiet, but as I ventured outward, I found bustling streets filled with early activity. I admired the architecture and strolled through several parks, though the arena where the bulls run was off-limits, leaving me slightly disappointed. Soon I returned to the Albergue to meet up with the group.",
           "Leaving Pamplona was quicker than entering it, and before long, the city was behind us. We zigzagged through small and large parks before returning to the open countryside, where green fields stretched endlessly beneath clouds that seemed to reach for the hills. Rainbows appeared at the edges of the clouds, a magical backdrop to the gravel paths snaking through forests, rivers, and open fields. The terrain gradually rose toward Zariquiegui, the last stop before crossing the windy Alto de Perdon.",
@@ -110967,7 +110967,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 6th, 2018",
+        "date": "June 6th, 2018",
         "description": [
           "The storks in the bell tower of the church next to the albergue were still asleep as the sun rose, casting a warm glow over the city. I set out ahead of the others for a quiet walk through the narrow stone streets of the old city, eventually reaching the east end of the queen's bridge that led out of town. On the far side, green-covered hills stretched into the distance, contrasting sharply with the stone streets behind me. I paused to take it all in, but familiar voices called my name. Tania, Shelby, and Alex were crossing the bridge, and I asked to join them for the day. They would become my Camino companions for the next several days.",
           "Autumn-colored fields greeted us as soon as we left the bridge, and the terrain remained relatively flat after crossing the highway that separated the last hills from the next village. A short detour through the village brought us to gently rolling fields of grain, small hills, and patchworks of farms. Low stone walls bordered the trail as it snaked past groves of trees, guiding us toward breakfast in Cirauqui. The medieval hilltop city rose above the fields with walls at its base and roads that wound in every direction.",
@@ -112067,7 +112067,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 7th, 2018",
+        "date": "June 7th, 2018",
         "description": [
           "Another calm morning greeted us on the Camino, cloudy skies overhead as we retraced our steps from the previous day. With the Ega River at our backs, we walked along dirt paths lined with vine-covered stone walls. A fork in the road presented a choice: left for a shorter hike, or right for a longer one. We went right, drawn by the promise of the wine fountain in Irache and find it we did. Free red wine flowed from a spout at the winery, an indulgence at 7:30 in the morning that left our lips stained purple. Refreshed and slightly tipsy, we returned to the path and pressed on toward Monjardin.",
           "The trail led us through forests, up and down hills, humidity rising as the pyramid-shaped Monjardin mountain grew larger with each step. From hilltops, we glimpsed an endless patchwork of green fields, red rooftops, and a sky trying to pierce the gray clouds above. A light drizzle fell as we paused in Azqueta, refreshing and cool, before reaching Villamayor de Monjardin. There, a medieval fountain provided shelter and water as we prepared for a 12-kilometer stretch with no shade or water.",
@@ -113166,7 +113166,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 8th, 2018",
+        "date": "June 8th, 2018",
         "description": [
           "Morning arrived gently in Torres del Rio, with a soft breeze drifting through open windows and tossing the thin lace curtains in its wake. The sunrise was spectacular, with burning reds, glowing pinks, and warm yellows spreading across the fields. I had never seen nature so alive and radiant at this early hour. As we left the town and began the climb, I stole a look back at Monjardin across the fields. For the first time, I could truly measure the distance we had already traveled, and it was humbling.",
           "Our path led past decorative cairns stacked in intricate formations and trees adorned with colorful ribbons, tokens of respect and remembrance from past pilgrims. Old stone benches and abandoned farmhouses occasionally appeared, some damaged by those seeking quick relief during the journey. Steep ascents and descents emerged unexpectedly, and a French companion showed us how to walk downhill \"like a monkey\" to reduce strain on our knees. It looked awkward but worked surprisingly well.",
@@ -114265,7 +114265,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 9th, 2018",
+        "date": "June 9th, 2018",
         "description": [
           "he day began with empty stomachs. Our assumption that a café would always be open early proved unreliable, and Logroño left us high and hungry as we departed the city. We trudged along city parks and bike paths, every closed store and silent café a reminder that the next opportunity for food lay 13 kilometers ahead.",
           "The sky was a deep, perfect blue, punctuated by soft gray and white clouds. Tall trees and poppy fields drew our attention, but hunger quickly returned. Then, around a bend, the sight stopped us in our tracks: a shimmering lake, still hidden from the morning sun, surrounded by dark hills. Its calm surface reflected the deep blue sky and instantly cleared our minds.",
@@ -115367,7 +115367,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 10th, 2018",
+        "date": "June 10th, 2018",
         "description": [
           "Not a cloud in the big blue sky greeted me as I retrieved the hanging laundry, packed my bag, and stepped outside. Pilgrims passed by the Albergue one by one, heading up the hill and out of sight. Food was on my mind after yesterday's debacle, so I made for the cafés in the opposite direction.",
           "Most people were already there or slowly arriving, securing breakfast or double-checking gear. I dropped my bag at a table and ordered the first thing I saw: a Spanish tortilla. Full and eager to start, I told everyone I'd see them in Santo Domingo, hoisted my pack, and climbed the densely packed cobblestone road toward the trail.",
@@ -116472,7 +116472,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 11th, 2018",
+        "date": "June 11th, 2018",
         "description": [
           "I left Santo Domingo de la Calzada at seven in the morning, walking alone. I can't remember exactly why. Perhaps I was eager to start, maybe the others were sleeping in, or the forecast of heavy afternoon rain pushed me forward. The stage was meant to be short, and I could have slept longer, but the sun was already up, hidden behind clouds, as I stepped out into the fields.",
           "Green farm fields stretched on either side, familiar from yesterday's walk. I kept my head down and focused on each step, quietly hoping that my knee would improve on its own. Granon passed without pause, then Redecilla del Camino, and before I knew it, I had left Basque territory and entered Castilla y Leon, the widest region on the Camino.",
@@ -117573,7 +117573,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 12th, 2018",
+        "date": "June 12th, 2018",
         "description": [
           "I woke early to the stirring of fellow pilgrims, finding both neighboring bunk beds already empty. Crissi had left too, likely with the first wave of walkers, and I missed the chance to say goodbye. My shoes were still soaked from yesterday, but after clearing out the newspaper I had stuffed inside, I packed up and headed toward Tania and Shelby. The rest of the group had stayed at the first Albergue outside of town.",
           "By seven, Tania, Shelby, and a new pilgrim named Steve had finished breakfast and we were on the road toward Agés. A constant drizzle accompanied us, and Steve, without a raincoat, improvised one from garbage bags. After Tosantos, the others needed a break, so I pulled ahead, navigating mud-soaked paths and rain-filled landmines through Villambistia and Espinosa del Camino. Peanuts from yesterday's hike provided a brief snack, though they were quickly discarded.",
@@ -118673,7 +118673,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 13th, 2018",
+        "date": "June 13th, 2018",
         "description": [
           "I woke to the sound of a rooster and the wind whipping across the exposed country road. Breakfast at the Albergue was a simple but filling serving of eggs and toast, my first homemade meal on the Camino, and a comforting start to the day. Once fueled, we set off on foot for Atapuerca, making a quick stop at a café for a small second breakfast before tackling a hill near the excavation site. At the top, a tall wooden cross overlooked the rolling fields, and a stone arrow pointed the way toward Burgos. Ahead, a silent spiral maze drew our attention, and we each took turns walking toward its center, a small wooden cross marking the goal. The calm simplicity of it was almost meditative.",
           "Reality called soon enough, as Burgos waited 17 kilometers down a steep descent. The walk was long and intense, with nearly 14 kilometers without a proper stop, yet the countryside scenery kept spirits high. Passing through villages and wide, cultivated fields, we finally approached the outskirts of the city. The route took us past a small airport and factory zones, and we navigated a tricky underpass under the highway before finally reaching the river, where a shaded bench became our lunch spot. Bread, chocolate, and cheese restored energy while familiar pilgrims passed by, sharing friendly nods and smiles.",
@@ -119772,7 +119772,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 14th, 2018",
+        "date": "June 14th, 2018",
         "description": [
           "I woke early to a quiet Albergue and headed to the cafeteria for a cold breakfast of cereal and toast. A quick check of my locker revealed that I'd forgotten my towel, but Tania was awake to hand it to me, and I gave her one last hug before saying goodbye. Stepping out into the crisp morning air, I realized that I had no idea how to leave the city. Without a guidebook or anyone ahead to follow, I found the river and followed it blindly, my panic slowly subsiding as markers reappeared and I spotted other pilgrims in the distance.",
           "The walk out of the city brought me to the green fields and gravel paths I had grown to love, but also a stark reminder of solitude. A cracked pink heart etched into a stone marker perfectly captured my feelings as I left everyone behind. I pushed on, stopping briefly in Tarjados for breakfast and water, then continued through Rabé de las Calzadas, unaware that the Meseta heatwave and swarms of flies awaited me. Yet there were silver linings: hundreds of white butterflies surrounded me on a hill, keeping the flies at bay and turning the long, grueling day into something almost magical.",
@@ -120871,7 +120871,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 15th, 2018",
+        "date": "June 15th, 2018",
         "description": [
           "Before the sun had risen, we packed our bags in the hallway, navigating the clutter left by other early risers. Locked doors threatened to slow us down, but after some creative exploring through the kitchen, we were finally free to hit the trail with our head torches on. Darkness shrouded the early miles, making the walk strangely faster, and our small group, Bianca, Crissi, and Maddy, marched steadily into the hills.",
           "As dawn broke, the sky turned a soft pink, revealing the ruins of the Convento de San Antón. The massive arches of this once grand pilgrim hospital framed the road perfectly as we approached Castrojeriz. Crossing groves of trees and a small river, the town appeared ahead, its church towering over the surrounding houses. Bianca showed off her barista skills at a café by the church, giving us the perfect caffeinated boost before we tackled the day's major climb.",
@@ -121971,7 +121971,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 16th, 2018",
+        "date": "June 16th, 2018",
         "description": [
           "The sun was still asleep as we packed up and set out for Carrión de los Condes. After yesterday's lightning-fast pace, today promised a calmer, steadier walk, but Maddy soon had to pause and take it easy. She urged me to keep going, promising she'd catch up later.",
           "The trail markers guided me like sentinels, each one marking a small gate along the path between Fromista and Carrión. With the sun rising behind me, I marched along the gravel, noting each kilometer, though their constant reminders of distance only tested my patience.",
@@ -123074,7 +123074,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 17th, 2018",
+        "date": "June 17th, 2018",
         "description": [
           "Want to know a great way to start your day? First, buy some liquid deodorant when you get into town the night before, then shake it vigorously the next morning, preferably not in the direction of your eyes. Half-blind and puffy-eyed, I reluctantly put on my glasses and prepared for what would become one of the longest days on the Camino.",
           "At 5:30 a.m., Crissi and I left Carrion de los Condes, bound for the stretch some call The Wasteland. We followed the ancient Roman route, the Via Aquitana, across fields where yellow plains met distant green trees, the white gravel path stretching endlessly ahead. With little to see or do, we kept our heads down and focused on walking, grateful for the clouds that kept the temperature bearable.",
@@ -124175,7 +124175,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 18th, 2018",
+        "date": "June 18th, 2018",
         "description": [
           "Today started like all the others: rise early, beat the heat, and get walking. Our exit from Sahagún in the pre-dawn hours was quiet. Most pilgrims were still asleep, including Bianca, and the streets were empty as we passed through the arch of San Benito, following the familiar yellow arrows out of the city.",
           "The sun rose behind us as we quickly covered the first five kilometers to Calzada de Coto. Everything was closed, Mondays in Spain are treated like Sundays, but breakfast awaited at an Albergue in Calzadilla de los Hermanillos, about nine kilometers further. Fuel in our stomachs, we braced ourselves for the second longest Wasteland stretch of the Meseta, one no one had warned us about. Apparently, we were the only pilgrims who chose this route.",
@@ -125277,7 +125277,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 19th, 2018",
+        "date": "June 19th, 2018",
         "description": [
           "After days of relentless flat terrain, it felt glorious to sleep in. The sun was already up, and the other pilgrims had departed, but I was eager to get moving despite yesterday's lingering soreness. Our goal was León, and with it, to finally leave the endless Meseta behind.",
           "Cows kept us company on the approach to the old castle-fort city of Mansilla de las Mulas. As usual, nothing was open, but our pace didn't falter. The sun was not cooperating for photos, and then a bird decided to poop on my shirt. Chocolate, for anyone who asked. A badge of shame I wore the rest of the day.",
@@ -126379,7 +126379,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 20th, 2018",
+        "date": "June 20th, 2018",
         "description": [
           "Creaking beds and rustling backpacks served as an early morning alarm, and there was no snooze button in sight. We had been letting ourselves sleep in lately, but there was no complaint as we went through the usual routine: pack bags, grab toast and jam, brush teeth, and head out. Crissi was the last to join us in the courtyard, and soon we were walking.",
           "Stone streets glistened in the rising sun as we passed the cathedral, stopping quickly for coffee before leaving the old city center behind. It took most of the morning to make it out of León. The Way led us past scenic landmarks toward the Plaza de San Marcos and across the Rio Bernesga, before transitioning through industrial areas with fields of weeds opposite gray buildings. After a short uphill stretch along a busy highway, we finally reached Virgen del Camino, hungry and ready for a small roadside bar.",
@@ -127480,7 +127480,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 21st, 2018",
+        "date": "June 21st, 2018",
         "description": [
           "I woke in the middle of the night to the sound of rain hitting the open windows, a sudden chill in the breeze reminding me it had arrived. Reluctantly, I shut the window closest to my bed, knowing the room would soon feel stuffy. The rain helped mask the snoring around me, and I fell back asleep. We had agreed to wake early to beat the heat, and a few hours later, I was up and getting ready.",
           "Walking out of the village in darkness, my head torch illuminated the straight, paved road ahead. The sun eventually broke free from thick clouds, casting light on endless farmlands as I zig-zagged along mud-filled dirt paths. Crissi's footprints guided me at times, but I pushed forward toward Villabente, passing lumber warehouses and train tracks along the way. The goal was Hospital de Orbigo, where I finally caught up with Crissi and convinced her to take the scenic route through hills and trees rather than the highway.",
@@ -128580,7 +128580,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 22nd, 2018",
+        "date": "June 22nd, 2018",
         "description": [
           "Sleep was elusive in the hot, stale attic dormitory. The faint echoes from the bathrooms below forced us to close the door, cutting off the only airflow that kept the room tolerable. Two small gable windows barely helped, and by 6 a.m., vibrations from a nearby pillow pulled me out of what little rest I had managed. Gear packed and ready, I joined the others in the landing outside our room and we quietly roused the rest of the building as we prepared to leave.",
           "Without breakfast available at the albergue, we headed out into the early morning streets, making a quick stop at an ATM before walking past the cathedral and out of the city. A tree-lined road led us over a highway toward Murias de Rechivaldo, before farm fields stretched ahead toward Santa Catalina de Somoza and our breakfast at Albergue El Caminante. White gravel paths ran alongside black roads, bordered by green trees and patches of rock, forming the landscape for most of our morning.",
@@ -129679,7 +129679,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 23rd, 2018",
+        "date": "June 23rd, 2018",
         "description": [
           "Watching the sunrise is an effortlessly beautiful experience. It only takes a few minutes, but it can feel like an eternity. Waking up early has become second nature for our group, originally a strategy to avoid the hottest parts of the day, but now simply the rhythm of the Camino. Today's journey would take us past Cruz de Ferro, home to a growing pile of rocks that carries deep symbolic meaning for pilgrims.",
           "Cruz de Ferro sits atop a hill, and pilgrims traditionally leave a small stone there to symbolize mental or emotional burdens. I quickly added my own rock to the pile, though it didn't feel as momentous as I had expected. The paved road led us to the cross, but the trail continued over the hill and down the backside, a slow and awkward descent reminiscent of early days on the Camino. The knee brace I was wearing proved its worth immediately.",
@@ -130778,7 +130778,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 24th, 2018",
+        "date": "June 24th, 2018",
         "description": [
           "Another hot day on the Camino started with a mishap: I realized I had left my food back at the albergue and had to double back, meaning I would be walking alone for most of the day. Once I finally left the city, the route followed the river and soon led into the countryside. The first town I passed was too early for breakfast, so I pushed through, snacking on a banana I had brought along while listening to music as the farmlands rolled by.",
           "Fuentesnuevas passed without incident, and Camponaraya offered a small cafe and juice stand where I stopped for orange juice and a short break. I spent some time planning accommodations for the day's final town, catching my breath before pressing on. Cacabellos featured interesting Egyptian-style wall art, but I found no place to rest or eat. Lunch only came in Piero, where a quiet Donativo spot allowed me to eat my sandwich while watching the road, hoping to catch up with friends, but they never appeared.",
@@ -131877,7 +131877,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 25th, 2018",
+        "date": "June 25th, 2018",
         "description": [
           "Crissi and I left Villafranca before the sun even considered rising, walking faster than we ever had towards the mountains. Moving through the dark at that hour is magical: the air feels alive, the streets are silent, and the only visible stretch is the path illuminated by our footsteps. We passed through Pereje, where a fellow pilgrim was heading back to Villafranca, clearly having forgotten something. I could relate.",
           "Our route took us under and over highways, along wooded river paths, and past rock faces held in place by cages of wire. We reached Trabadelo early, but everything was closed for the Monday morning, so we pressed on, passing small towns until breakfast at a hotel cafe in Ambasmestas. On the way to Herrerias, we encountered a surprisingly talkative duck, though it wasn't much for conversation. Herrerias marked the last town before the mountain ascent, and we decided to continue without waiting for those behind us.",
@@ -132977,7 +132977,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 26th, 2018",
+        "date": "June 26th, 2018",
         "description": [
           "Galicia feels like paradise, and we ended up covering nearly two stages in one day to avoid another scorching afternoon. A few of us left together in darkness, the fog so thick that our headlamps barely lit the path immediately in front of us. Hiking through the forest with fog curling around the trees was a little eerie, but also mesmerizing. Along the way, we stopped at a statue dedicated to pilgrims atop another mountain, its silhouette rising from the shadows like something out of a dream. Two towns passed quietly: Hospital de la Condesa and Padornelo, completely dark and silent, with only passing cars reminding us of the nearby road.",
           "As the sun rose, the sky transformed. Clouds ahead shifted from pale gray to brilliant whites and soft pinks, while the clouds behind us glowed as if set on fire. We reached Alto do Poio for a much-needed break and food. A huge dog demanded attention, resting its massive paw on my arm, and I would have fed it table scraps if the owner hadn't called it away. Meanwhile, Crissi and Mauro drifted into a deep conversation as I lagged behind, stopping to capture the breathtaking mix of moss, stones, trees, and fog during my descent alone.",
@@ -134076,7 +134076,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 27th, 2018",
+        "date": "June 27th, 2018",
         "description": [
           "This is the second time I've had to say goodbye to people I had grown close to. It feels surreal to think that we are almost at the end: only three more days until Santiago. Today we parted ways with our group. Louis pushed on, completing two stages in a single day, while Maddy, Cerstin, and Isabelle took it easy and stayed at the previous stage. Mauro and Eileen continued on to Gonzar, and Crissi and I chose to remain in Pontemarion.",
           "I knew these moments were part of the Camino, but experiencing them first-hand was something else entirely. To become so connected to people you share laughter, pain, and memories with is a unique experience. The bonds formed along the trail are something I have never truly felt before. As strange as it sounds, I can already see myself doing this all over again.",
@@ -135176,7 +135176,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 28th, 2018",
+        "date": "June 28th, 2018",
         "description": [
           "Walking through Roman ruins after being reunited with a traveling companion is an experience you don't pass up. Our hosts decided to turn on the lights at 6 a.m., giving everyone a rude awakening and causing minor chaos in the dormitory. We packed up quickly and retraced our steps over the bridge to get back on the Camino. This town wasn't even on the original route anymore, having been relocated to higher ground after a historic flood.",
           "The morning hike took us uphill past corn storage houses and through the charred remains of a forest. Ninety minutes later, we arrived in Castromaior after passing through Gonzar. The albergue there had a restaurant, which was a lifesaver since we were starving. Walking in, we were greeted by Eileen, a fellow pilgrim we had said goodbye to only the day before. It felt like pure fate to be reunited so quickly, and we enjoyed breakfast together before continuing our trek.",
@@ -136276,7 +136276,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 29th, 2018",
+        "date": "June 29th, 2018",
         "description": [
           "Today was the last official day of walking the Camino Frances in full, and anticipation hung in the air. After nearly 45 kilometers of walking in a single day, we all took a late start. Our first stop was Boente for breakfast, where we hoped for a priestly blessing but settled for the required stamp instead. These stamps are essential for earning the certificate at the end of the journey, and getting two per day has become routine.",
           "The trail passed through several small towns, each blending together as the sun climbed higher. The heat was intense, and the beginnings of sunburn were inevitable. We arrived in Arzúa after a couple of hours, and then continued on to Arca, also known as O Pedrouzo, around 5 p.m. It was a slow day compared to other stages, but over 30 kilometers still left us physically spent. A light rain threatened as we tried to reconnect with Eileen and Mauro via free WiFi at a local bar.",
@@ -137375,7 +137375,7 @@ const data = [
         }
       },
       {
-        "date": "Jun 30th, 2018",
+        "date": "June 30th, 2018",
         "description": [
           "I could hardly believe that we had finally reached Santiago. Our destination, which had always seemed so far away, was now in front of us after so many days and miles of walking. The morning began with a torrential downpour that felt like a fan blasting on my face. Maybe it was fitting that the start of our final day would be accompanied by such heavy rain.",
           "Fortunately, the rain eased as we walked. Most of the morning was spent moving through wet fields, shaded forests, and past longhorn oxen. We stopped briefly at Monte de Gozo to see the monument and catch our first glimpse of the cathedral towers in the distance. With each step into the city, the crowd of fellow pilgrims grew, all following the yellow arrows in silent determination toward the plaza. Bagpipes welcomed us through the old city tunnel, a Celtic tradition that added a mystical quality to our entrance.",
@@ -138476,7 +138476,7 @@ const data = [
         }
       },
       {
-        "date": "Jul 2nd, 2018",
+        "date": "July 2nd, 2018",
         "description": [
           "A full month had passed since we started this journey back in France, a month that now felt like a different world. We left Santiago de Compostela in the early morning rain, pausing just long enough to steal one final glance at the cathedral over the hills. The streets were mostly empty, and a few early pilgrims were beginning to arrive as we made our way through the plaza and out of the city. It was fitting that the start of this next chapter would be accompanied by rain, quiet, and reflection.",
           "Our path quickly led us into forests and rolling hills surrounding the city. The ascent was steady but never harsh, winding through small villages and hamlets tucked into the greenery. Rivers traced our steps, and the canopy of trees provided shelter from the drizzle. It was a day full of natural beauty, with each bend in the trail revealing another peaceful view of northern Galicia.",
@@ -139576,7 +139576,7 @@ const data = [
         }
       },
       {
-        "date": "Jul 3rd, 2018",
+        "date": "July 3rd, 2018",
         "description": [
           "Rain followed me for most of the day, but it didn't bother me at all. In fact, the mist and low-hanging clouds put me in an almost meditative mood. Day four of rain in the mornings and probably only the third day of the Camino with a full day of precipitation didn't dampen my spirits. As long as my shoes stayed dry, I was happy. The goal today was Santa Mariña, about 25 kilometers away, but we weren't in a rush now that we knew we had time to spare.",
           "Walking alone gave me the chance to take my time and wander off the trail for photos. Old stone houses, grazing sheep, and quiet roads surrounded me. I even chatted, or tried to, with the local dogs, though they were indifferent at best. At A Peña, I reunited with Mauro and Crissi after a brief stop at a café. A fellow pilgrim offered me some of his leftover Spanish tortilla, which I gratefully accepted. It felt like an obvious choice; wasting food here would be a crime, and we had fully embraced our inner scavengers.",
@@ -140675,7 +140675,7 @@ const data = [
         }
       },
       {
-        "date": "Jul 4th, 2018",
+        "date": "July 4th, 2018",
         "description": [
           "We decided to combine multiple stages and finish the Camino together. The morning began with an epic sunrise as we left Olveiroa, walking through the mist toward Hospital. Breakfast at a small café gave us time to rest, but shortly after, the choice became clear: Fisterra or Muxía. Mauro joined us, and soon we were hiking through forests and hills, catching our first glimpses of the ocean and the towns of Cee and Corcubión. Along the way, we picked up Anna from Hungary, a new walking companion who would share in our final stretch.",
           "The walk along the bay was stunning, even if we got briefly lost and had to make our own path to reconnect with the Camino. Lunch was simple: sandwiches from yesterday enjoyed at the water's edge, but the moment was unforgettable. Saying goodbye to friends along the way was bittersweet, yet Crissi and I felt a sudden spark of determination: we would keep going and reunite with them. Within an hour, we found ourselves at the beach near Estorde, spotting Anna in the distance. The small detour to rest and have coffee turned into a magical moment of reunion.",
@@ -141834,7 +141834,7 @@ const data = [
     "date": {
       "isYears": false,
       "range": [
-        "Mar 25th",
+        "March 25th",
         " 27th, 2016"
       ]
     },
@@ -141845,12 +141845,12 @@ const data = [
     "hasGear": false,
     "hasStats": true,
     "image": "2016/03/18/fb45dc07-e4fe-4d90-b39a-f54e50142d5a.jpeg",
-    "label": "destination",
+    "label": "Destination",
     "location": "Chile",
     "slug": "patagonia",
     "stages": [
       {
-        "date": "Mar 25th, 2016",
+        "date": "March 25th, 2016",
         "description": [
           "If I had to pinpoint the exact moment that sparked my passion for backpacking (a journey that would ultimately lead me to the Camino de Santiago in Spain two years later), this place was it! I joined another guided day-hike that took us to the legendary Refuge Chileno and onward to see the iconic Towers up close. The experience ignited a fire within me for mountain adventures.",
           "I was entranced by the backpackers trekking through the region, staying at the Refuge, leading me to dream of a lifestyle that revolved around exploration and nature. This trip changed my life forever, and its influence still resonates with me to this day.\n"
@@ -141889,7 +141889,7 @@ const data = [
         }
       },
       {
-        "date": "Mar 26th, 2016",
+        "date": "March 26th, 2016",
         "description": [
           "Today felt like stepping back into the Ice Age. We had rented a car upon arrival in Patagonia, and drove from Puerto Natales to the Cueva del Milodón Natural Monument (Cave fo the Mylodons, giant ground sloths). I was not prepared for just how massive the cave was, and how far back it went.",
           "The main attraction, the Cueva Grande, is simply enormous. A gaping mouth in the hillside over 650 feet deep and 260 feet wide. You can feel the sheer weight of history here. This was once a shelter for both ancient humans (dating back to 6000 B.C.E.) and massive prehistoric beasts. There's also ongoing excavations and archeological digs in the cave.",
@@ -141930,7 +141930,7 @@ const data = [
         }
       },
       {
-        "date": "Mar 27th, 2016",
+        "date": "March 27th, 2016",
         "description": [
           "I left the hotel in Puerto Natales this morning before the sun was up, bundled in every layer I had brought with me, to board the catamaran for a full-day glacier sightseeing cruise through the Ultima Esperanza Fjord. It was a long day on the water (nearly 10 hours round trip), but absolutely worth it.",
           "The fjord itself is a stunning deep blue ribbon of water cutting through rugged, untouched Patagonian wilderness. We passed sea lion colonies barking on rocky outcrops and countless waterfalls tumbling down near-vertical cliffsides. The air was frigid and smelled of salt and ice.",
@@ -142015,7 +142015,7 @@ const data = [
     "date": {
       "isYears": false,
       "range": [
-        "Mar 18th",
+        "March 18th",
         " 24th, 2016"
       ]
     },
@@ -142026,12 +142026,12 @@ const data = [
     "hasGear": false,
     "hasStats": true,
     "image": "2016/03/18/a3205d70-0fc8-416a-b383-eb08e9e612a5.jpeg",
-    "label": "destination",
+    "label": "Destination",
     "location": "Chile",
     "slug": "santiago-and-valparaiso",
     "stages": [
       {
-        "date": "Mar 19th, 2016",
+        "date": "March 19th, 2016",
         "description": [
           "After days of looking up at the towering white statue from the city streets, we decided to ditch the funicular today and climb Cerro San Cristóbal on foot.",
           "The morning started in the bohemian Barrio Bellavista. We walked past the colorful murals and headed for the Pio Nono entrance of Parque Metropolitano. Instead of joining the long queue for the funicular, we found the start of the Sendero Zorro Vidal trail.",
@@ -142070,7 +142070,7 @@ const data = [
         }
       },
       {
-        "date": "Mar 20th, 2016",
+        "date": "March 20th, 2016",
         "description": [
           "We spent nearly an entire day exploring Valparaiso with a local guide. The city could best be described as a chaotic vertical wall-art gallery.",
           "The morning started in the flat part of town, but the really neat stuff was in the hills. Instead of trekking up the endless staircases we took this elevators (called funiculars) that traveled on a smooth rail up the sides of the hills. Most were made of wood, and had been in service for over a centruy. They were rickety, but slowly they got us to the top as they passed through the colorful houses dotting the hills.",
@@ -142109,7 +142109,7 @@ const data = [
         }
       },
       {
-        "date": "Mar 21st, 2016",
+        "date": "March 21st, 2016",
         "description": [
           "After soaking in the city sights for a couple of days, I geared up for a guided day hike into the Andes mountains just outside of Santiago. The group ended up being a smaller one, resulting in a laid-back excursion with just me and my friend, an adventurous elderly couple from the Netherlands, and two enthusiastic guides.",
           "This was my first time hiking in the mountains, like, actual mountains. Coming from flat Chicago where the landscape is more pancake than peak, and being at the highest elevation I had ever been at, I wasn't fully prepared (physically) for this.",
@@ -142151,7 +142151,7 @@ const data = [
         }
       },
       {
-        "date": "Mar 23rd, 2016",
+        "date": "March 23rd, 2016",
         "description": [
           "I visited not one, but two of Chile's most iconic wineries: Cousiño Macul and Concha y Toro. Getting out of central Santiago and into the Maipo Valley was surprisingly easy with little traffic, but we also cheated by using another local guide who merely provided the transportation for us. But it did feel a little less touristy.",
           "We started at Cousiño Macul, one of the oldest family-owned vineyards in the country, located right on the edge of the city. The grounds are stunning. It felt like stepping back in time. We joined in with a winery tour and learned a lot about the history of the place, and the history of wine in Chile. We walked through the beautiful vineyards with the Andes in the background, visited the old cellars, and learned how the winemaking process has evolved. The premium tasting was well worth the extra cost.",
@@ -142235,7 +142235,7 @@ const data = [
     "date": {
       "isYears": false,
       "range": [
-        "Mar 23rd",
+        "March 23rd",
         " 25th, 2015"
       ]
     },
@@ -142246,12 +142246,12 @@ const data = [
     "hasGear": false,
     "hasStats": true,
     "image": "2015/03/19/9650d680-3809-45e9-a9df-0e108f3e1498.jpeg",
-    "label": "destination",
+    "label": "Destination",
     "location": "Uruguay",
     "slug": "montevideo",
     "stages": [
       {
-        "date": "Mar 23rd, 2015",
+        "date": "March 23rd, 2015",
         "description": [
           "I spent the day exploring the heart of Montevideo's old city, starting from Ciudad Vieja, walking through the old Gateway of the Citadel, and right onto the Peatonal Sarandí (pedestrian street).",
           "This pedestrian street is the main artery of the historic center, and it absolutely pulses with life during the day. Flanked by beautiful, varied architecture from different eras, the street is a visual journey through time. As I strolled, I passed bookstores, leather shops, cafes spilling onto the sidewalks, and a number of street vendors selling everything from artisan crafts to local mate gourds. The atmosphere was vibrant and relaxed.",
@@ -142334,7 +142334,7 @@ const data = [
     "date": {
       "isYears": false,
       "range": [
-        "Mar 19th",
+        "March 19th",
         " 22nd, 2015"
       ]
     },
@@ -142345,12 +142345,12 @@ const data = [
     "hasGear": false,
     "hasStats": true,
     "image": "2015/03/19/1ddbd381-ac73-4dc2-9fa9-7398e0438098.jpeg",
-    "label": "destination",
+    "label": "Destination",
     "location": "Argentina",
     "slug": "buenos-aires",
     "stages": [
       {
-        "date": "Mar 19th, 2015",
+        "date": "March 19th, 2015",
         "description": [
           "We decided that the best way to tackle the vastness of Buenos Aires was the classic tourist route: the Hop-On Hop-Off bus. It seemed the most efficient way to link up all of the neighborhoods. we settled onto the top deck, ready for a day of exploration.",
           "The bus route is brilliant, hitting all the major spots. We started near the port and moved into the colorful, Italian-influenced La Boca neighborhood. From my vantage point on the bus, the corrugated tin houses painted in bright blues, reds, and yellows looked like a cartoon. It's incredibly atmospheric, even if it is a bit of a tourist trap.",
@@ -142393,7 +142393,7 @@ const data = [
         }
       },
       {
-        "date": "Mar 22nd, 2015",
+        "date": "March 22nd, 2015",
         "description": [
           "Experiencing Lollapalooza was the absolute highlight of my trip to Buenos Aires.",
           "Since the venue is actually at a racetrack in San Isidro (a neighborhood north of the city center), getting there required a bit of planning. We stuck to the common mode of transportation: the train. It was packed. We got off at San Isidro Station, which is just a 15 minute walk to the racetrack entrance.",

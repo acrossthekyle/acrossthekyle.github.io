@@ -72,8 +72,43 @@ body {
     margin-top: 4rem;
   }
 
+  small {
+    font-size: 1rem;
+  }
+
+  @media (width >= 48rem) {
+    small {
+      font-size: 0.95rem;
+    }
+  }
+
+  strong {
+    display: block;
+    font-weight: 1000;
+    padding-bottom: 0.125rem;
+  }
+
   h1 {
+    font-size: 2rem;
+    font-weight: 1000;
+    line-height: 90%;
     margin-bottom: 4rem;
+    text-transform: uppercase;
+
+    small {
+      font-weight: 300;
+      text-transform: none;
+    }
+  }
+
+  @media (width >= 48rem) {
+    h1 {
+      line-height: 70%;
+
+      small {
+        font-weight: 400;
+      }
+    }
   }
 
   h2 {
@@ -106,22 +141,6 @@ body {
     content: "↗";
     font-size: 0.75rem;
     padding-left: 0.25rem;
-  }
-
-  small {
-    font-size: 1rem;
-  }
-
-  @media (width >= 48rem) {
-    small {
-      font-size: 0.95rem;
-    }
-  }
-
-  strong {
-    display: block;
-    font-weight: 1000;
-    padding-bottom: 0.125rem;
   }
 
   button {
@@ -192,25 +211,6 @@ body {
     height: 100%;
     object-fit: cover;
     width: 100%;
-  }
-
-  sub {
-    align-items: center;
-    color: color-mix(in oklab, currentcolor 80%, transparent);
-    display: flex;
-    font-family: var(--font-mono);
-    font-size: var(--text-sm);
-    gap: 0.5rem;
-    justify-content: space-between;
-    line-height: 100%;
-    text-transform: uppercase;
-    width: 100%;
-  }
-
-  @media (width >= 48rem) {
-    sub {
-      font-size: var(--text-xs);
-    }
   }
 
   section {

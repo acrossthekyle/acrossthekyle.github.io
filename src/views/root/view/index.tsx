@@ -10,7 +10,7 @@ export default function View() {
       <header>
         <h1>
           <strong>
-            Hi, I'm Kyle
+            Kyle Gilbert
           </strong>
           <small>A backpacker and software engineer</small>
         </h1>
@@ -18,14 +18,11 @@ export default function View() {
       <p>
         I'm based in <em>Chicago</em> with my partner and our dog Dax, on the lands of the <em>Potawatomi</em>, <em>Ojibwe</em>, and <em>Odawa</em>. By day, I build web apps as a self-taught software engineer. By trail, I explore the world &ndash; from Nepal's Himalayas to windswept Patagonia &ndash; carrying everything I need on my back. <em>Wandering is life</em>, and the thrill keeps me coming back for more.
       </p>
-      <LinkItalic href="/trails-and-travels">
-        My trails and travels
-      </LinkItalic>
       <section>
         <h2>
-          <strong>Timeline</strong>
-          <sub>A brief history of me</sub>
+          <strong>THE BACKSTORY</strong>
         </h2>
+        <p>A brief history of my life so far, and how I ended up where I am.</p>
         <ul className={styles.list}>
           {TIMELINE.map(({ paragraph, title, year }) => (
             <li className={styles.item} key={year}>
@@ -47,6 +44,9 @@ export default function View() {
           ))}
         </ul>
       </section>
+      <LinkItalic href="/trails-and-travels">
+        My trails and travels
+      </LinkItalic>
     </Layout>
   );
 }

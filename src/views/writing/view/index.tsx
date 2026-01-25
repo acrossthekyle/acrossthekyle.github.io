@@ -25,10 +25,8 @@ export default function View({ data }: Props) {
       {data.map((item) => (
         <article key={item.title}>
           <h2>
-            <strong>{item.title}</strong>
-            <sub>
-              <span>{item.date}</span>
-            </sub>
+            <strong>{item.title.toUpperCase()}</strong>
+            <small><em>{item.date}</em></small>
           </h2>
           <Markdown>{item.content}</Markdown>
         </article>

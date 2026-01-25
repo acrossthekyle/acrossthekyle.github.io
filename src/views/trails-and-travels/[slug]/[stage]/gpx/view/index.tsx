@@ -53,9 +53,7 @@ export default function View({ data }: Props) {
         </Breadcrumb>
         <h1>
           <strong>GPX Data</strong>
-          <sub>
-            <span>Route and elevation profile</span>
-          </sub>
+          <small>Route and elevation profile</small>
         </h1>
       </header>
       <Context>

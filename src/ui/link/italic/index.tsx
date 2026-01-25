@@ -13,7 +13,7 @@ type Props = {
 export default function Italic({ asButton, children, href = '', onClick, ...rest }: Props) {
   if (asButton) {
     return (
-      <button className={styles.container} onClick={onClick} type="button" {...rest}>
+      <button className={styles.container(asButton)} onClick={onClick} type="button" {...rest}>
         <em>{children}</em>
         <MoveRight className={styles.icon} />
       </button>
@@ -22,7 +22,7 @@ export default function Italic({ asButton, children, href = '', onClick, ...rest
 
   return (
     <Link
-      className={styles.container}
+      className={styles.container(false)}
       href={href}
       {...rest}
     >

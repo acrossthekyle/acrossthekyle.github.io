@@ -3,13 +3,15 @@ import tw from '@/styles';
 import { getColSpan } from './utils';
 
 const styles = tw({
-  list: `
+  list: (hasGear: boolean) => tw(`
     grid grid-cols-7 gap-6
-    pt-2
-    mb-16
+    ${hasGear && `
+      pb-10 mb-8
+      border-b-1 border-b-current/15
+    `}
 
     md:grid-cols-3
-  `,
+  `),
   item: (index: number, total: number) => tw(`
     h-44
     ${getColSpan(total, index)}
