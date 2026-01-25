@@ -1,11 +1,11 @@
 import type { Metadata } from 'next';
 import { Suspense } from 'react';
 
-import { Fallback, View } from '@/views/terminology';
+import { Fallback, View } from '@/views/wiki';
 
 export const metadata: Metadata = {
-  title: 'Terminology',
-  description: 'Trails and travels explained.',
+  title: 'Wiki',
+  description: 'Helpful information about hiking terminology, and other things.',
 };
 
 export default function Page() {

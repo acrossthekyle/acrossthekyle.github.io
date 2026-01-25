@@ -2,9 +2,8 @@
 
 import type { Data } from '../types';
 
-import { useModel } from './model';
-
 import Cta from './cta';
+import { useModel } from './model';
 import styles from './stylesheet';
 
 type Props = {
@@ -15,21 +14,22 @@ type Props = {
 export default function Filter({ data, onChange }: Props) {
   const {
     filterBy,
-    handleOnFilter,
+    handleOnSelect,
+    handleOnTag,
     total,
     types,
   } = useModel(data, onChange);
 
   return (
-    <section aria-label="filter trails and travels list">
-      <ul className={styles.container}>
+    <section aria-label="filter trails and travels">
+      <ul className={styles.list}>
         <li>
           <Cta
             count={total}
             current={filterBy}
             expected="everything"
             label="Everything"
-            onClick={handleOnFilter}
+            onClick={handleOnTag}
           />
         </li>
         {types.map(({ count, value }) => (
@@ -39,11 +39,22 @@ export default function Filter({ data, onChange }: Props) {
               current={filterBy}
               expected={value}
               label={`${value}s`}
-              onClick={handleOnFilter}
+              onClick={handleOnTag}
             />
           </li>
         ))}
       </ul>
+      <select
+        className={styles.select}
+        name="filter options"
+        onChange={handleOnSelect}
+        value={filterBy}
+      >
+        <option value="everything">EVERYTHING ({total})</option>
+        {types.map(({ count, value }) => (
+          <option key={value} value={value}>{value.toUpperCase()}S ({count})</option>
+        ))}
+      </select>
     </section>
   );
 }

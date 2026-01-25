@@ -7,9 +7,9 @@ export default function View() {
     <Layout>
       <header>
         <h1>
-          <strong>Terminology</strong>
+          <strong>Wiki</strong>
           <small>
-            Trails and travels explained
+            Helpful information about travelling and trails
           </small>
         </h1>
       </header>
