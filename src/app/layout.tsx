@@ -4,7 +4,7 @@ import type { Metadata, Viewport } from 'next';
 
 import { Body, Loader } from '@/layout';
 
-import { introduction } from './constants';
+const description = `Hi, I'm Kyle. I'm based in Chicago with my partner and our dog Dax, on the lands of the Potawatomi, Ojibwe, and Odawa. By day, I build web apps as a self-taught software engineer. By trail, I explore the world - from Nepal's Himalayas to windswept Patagonia - carrying everything I need on my back. Wandering is life, and the thrill keeps me coming back for more.`;
 
 export const metadata: Metadata = {
   title: {
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     'UI Developer',
     'Software Engineer',
   ],
-  description: introduction,
+  description,
   authors: [{ name: 'Kyle Gilbert' }],
   referrer: 'origin-when-cross-origin',
   formatDetection: {
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Kyle',
-    description: introduction,
+    description,
     url: 'https://acrossthekyle.com',
     siteName: 'acrossthekyle',
     images: [

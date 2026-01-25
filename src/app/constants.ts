@@ -1,1 +1,0 @@
-export const introduction = `Hey all, I'm Kyle. I live on the lands belonging to the Potawatomi, Ojibwe, and Odawa - otherwise known as the city of Chicago, and I've spent the past ${new Date().getFullYear() - 2012} years building parts of the web that you probably use today, and the last ${new Date().getFullYear() - 2018} years exploring the world.`;

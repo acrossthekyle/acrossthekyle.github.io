@@ -51,7 +51,7 @@ export default function View({ data }: Props) {
         </h1>
       </header>
       {data.categories.map((category) => (
-        <section className={styles.section} key={category.title}>
+        <section key={category.title}>
           <h2>
             <strong>
               <small>{category.title}</small>

@@ -25,7 +25,7 @@ export default function Route({ gpx }: Props) {
   }
 
   return (
-    <div className={styles.section}>
+    <div className={styles.container}>
       <Plugin gpx={gpx} hoverIndex={hoverIndex} />
     </div>
   );

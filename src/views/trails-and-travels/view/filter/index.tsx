@@ -21,7 +21,7 @@ export default function Filter({ data, onChange }: Props) {
   } = useModel(data, onChange);
 
   return (
-    <section aria-label="filter">
+    <section aria-label="filter trails and travels list">
       <ul className={styles.container}>
         <li>
           <Cta

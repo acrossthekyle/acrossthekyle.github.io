@@ -1,9 +1,6 @@
 import tw from '@/styles';
 
 const styles = tw({
-  section: `
-    mt-16
-  `,
   article: `
     mt-12 mb-8
   `,

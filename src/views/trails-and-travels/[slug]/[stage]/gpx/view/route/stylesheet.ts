@@ -1,7 +1,7 @@
 import tw from '@/styles';
 
 const styles = tw({
-  section: `
+  container: `
     relative z-0
     h-100 w-full
     border-1 border-(--foreground)/15 border-t-0

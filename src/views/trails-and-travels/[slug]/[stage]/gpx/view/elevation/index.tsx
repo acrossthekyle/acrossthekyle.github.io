@@ -35,7 +35,7 @@ export default function Elevation({ gpx, stats, termini }: Props) {
   }
 
   return (
-    <section
+    <div
       aria-label="gpx elevation profile"
       className={styles.container}
       onMouseLeave={handleMouseLeave}
@@ -194,6 +194,6 @@ export default function Elevation({ gpx, stats, termini }: Props) {
           </li>
         )}
       </ul>
-    </section>
+    </div>
   );
 }

@@ -207,6 +207,10 @@ body {
     width: 100%;
   }
 
+  section {
+    margin-top: 4rem;
+  }
+
   /* third-party package styling  */
 
   .leaflet-bar {

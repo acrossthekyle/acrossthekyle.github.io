@@ -70560,7 +70560,7 @@ const data = [
       ]
     },
     "description": [
-      "Reaching the summits of the Colorado Rocky Mountains and breathing in the cold alpine air at 14,000 feet is an awe-inspiring experience offering unparalleled views and moments of profound triumph, a feeling of being on top of the world. I have completed 9/58 summits, with the highest peak reaching 14,421 feet."
+      "Reaching the summits of the Colorado Rocky Mountains and breathing in the cold alpine air at 14,000 feet is an awe-inspiring experience offering unparalleled views and moments of profound triumph, a feeling of being on top of the world. I have completed 9/58 summits above 14,000 feet, with the highest peak reaching 14,421 feet."
     ],
     "gear": {
       "categories": [

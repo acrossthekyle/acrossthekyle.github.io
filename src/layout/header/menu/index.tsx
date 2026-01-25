@@ -49,9 +49,9 @@ export default function Menu({ route }: Props) {
           id="menu"
           onClose={handleOnClose}
         />
-        <section aria-label="main navigation" className={styles.section}>
+        <nav aria-label="main navigation" className={styles.section}>
           <Navigation className={styles.list} route={route} />
-        </section>
+        </nav>
         <Theme className={styles.theme} />
         <DialogFooter />
       </Dialog>

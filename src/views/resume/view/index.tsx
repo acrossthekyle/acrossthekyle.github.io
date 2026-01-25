@@ -36,7 +36,7 @@ export default function View({ data }: Props) {
           Senior Fullstack Engineer &ndash; Earlybird Co
         </small>
       </p>
-      <section className={styles.section}>
+      <section>
         <h2>
           <strong>
             Skills

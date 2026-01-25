@@ -58,12 +58,10 @@ export default function View({ data }: Props) {
           </sub>
         </h1>
       </header>
-      <section aria-label="route and elevation profile">
-        <Context>
-          <Elevation gpx={data.gpx} stats={data.stats} termini={data.termini} />
-          <Route gpx={data.gpx} />
-        </Context>
-      </section>
+      <Context>
+        <Elevation gpx={data.gpx} stats={data.stats} termini={data.termini} />
+        <Route gpx={data.gpx} />
+      </Context>
     </Layout>
   );
 }
