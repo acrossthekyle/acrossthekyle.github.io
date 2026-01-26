@@ -97,6 +97,11 @@ body {
 
     strong {
       padding-bottom: 0;
+
+      small {
+        font-size: 1.25rem;
+        font-weight: 1000;
+      }
     }
 
     small {
@@ -109,6 +114,12 @@ body {
   @media (width >= 48rem) {
     h1 {
       line-height: 90%;
+
+      strong {
+        small {
+          font-size: 1.125rem;
+        }
+      }
 
       small {
         font-weight: 400;

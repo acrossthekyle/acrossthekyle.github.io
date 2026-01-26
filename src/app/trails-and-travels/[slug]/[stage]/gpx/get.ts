@@ -19,6 +19,7 @@ export default function get(slug: string, stage: string) {
   return {
     gpx: result.gpx as Gpx,
     index: stage,
+    label: parent.label,
     parent: parent.title,
     slug,
     stats: result.stats,

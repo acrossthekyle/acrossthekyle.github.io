@@ -3,10 +3,9 @@ import Link from 'next/link';
 import { Layout } from '@/layout';
 import {
   Breadcrumb,
-  BreadcrumbEllipsis,
+  BreadcrumbBack,
   BreadcrumbList,
   BreadcrumbItem,
-  BreadcrumbPage,
   BreadcrumbSeparator,
   BreadcrumbTruncate,
 } from '@/ui/breadcrumbs';
@@ -30,7 +29,9 @@ export default function View({ data }: Props) {
             <BreadcrumbList>
               <BreadcrumbItem>
                 <Link href="/trails-and-travels">
-                  <BreadcrumbEllipsis />
+                  <BreadcrumbBack>
+                    <BreadcrumbTruncate text="Trails and Travels" />
+                  </BreadcrumbBack>
                 </Link>
               </BreadcrumbItem>
               <BreadcrumbSeparator />
@@ -39,23 +40,31 @@ export default function View({ data }: Props) {
                   <BreadcrumbTruncate text={data.parent.join(' ')} />
                 </Link>
               </BreadcrumbItem>
-              <BreadcrumbSeparator />
-              <BreadcrumbItem>
-                <BreadcrumbPage>
-                  <BreadcrumbTruncate text={data.title.join(' ')} />
-                </BreadcrumbPage>
-              </BreadcrumbItem>
             </BreadcrumbList>
           </Breadcrumb>
           <h1>
-            <strong>{data.title.join(' ')}</strong>
-            <small>{data.date}</small>
+            <strong>
+              <small>
+                {data.snippet}
+              </small>
+            </strong>
+            <small>
+              <em>
+                {data.label} {data.index}:{' '}
+                {data.termini.isSame ? (
+                  <>{data.termini.end.words.join(' ')}</>
+                ) : (
+                  <>
+                    {data.termini.start.words.join(' ')} → {data.termini.end.words.join(' ')}
+                  </>
+                )}
+              </em>
+            </small>
           </h1>
         </header>
         <ImageFigure className={styles.figure}>
           <Image
             alt=""
-            className={styles.image}
             height={1080}
             sizes="(max-width: 768px) 100vw, 33vw"
             src={data.image}
@@ -67,15 +76,10 @@ export default function View({ data }: Props) {
         </ImageFigure>
         <p>
           <em>
-            {data.label} {data.index}/{data.total}
             <strong>
-              {data.termini.isSame ? (
-                <>{data.termini.end.words.join(' ')}</>
-              ) : (
-                <>
-                  {data.termini.start.words.join(' ')} to {data.termini.end.words.join(' ')}
-                </>
-              )}
+              <small>
+                {data.location.join(', ')}
+              </small>
             </strong>
           </em>
         </p>

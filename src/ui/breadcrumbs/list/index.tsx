@@ -1,7 +1,7 @@
 import styles from './stylesheet';
 
 type Props = {
-  children: React.ReactNode[];
+  children: React.ReactNode | React.ReactNode[];
 };
 
 export default function List({ children }: Props) {

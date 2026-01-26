@@ -3,10 +3,9 @@ import Link from 'next/link';
 import { Layout } from '@/layout';
 import {
   Breadcrumb,
-  BreadcrumbEllipsis,
+  BreadcrumbBack,
   BreadcrumbList,
   BreadcrumbItem,
-  BreadcrumbPage,
   BreadcrumbSeparator,
   BreadcrumbTruncate,
 } from '@/ui/breadcrumbs';
@@ -28,32 +27,32 @@ export default function View({ data }: Props) {
           <BreadcrumbList>
             <BreadcrumbItem>
               <Link href="/trails-and-travels">
-                <BreadcrumbEllipsis />
+                <BreadcrumbBack>
+                  <BreadcrumbTruncate text="Trails and Travels" />
+                </BreadcrumbBack>
               </Link>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
               <Link href={`/trails-and-travels/${data.slug}`}>
-                <BreadcrumbEllipsis />
+                <BreadcrumbTruncate text={data.parent.join(' ')} />
               </Link>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
             <BreadcrumbItem>
               <Link href={`/trails-and-travels/${data.slug}/${data.index}`}>
-                <BreadcrumbTruncate text={data.title.join(' ')} />
+                <BreadcrumbTruncate text={`${data.label} ${data.index}`} />
               </Link>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <BreadcrumbPage>
-                GPX
-              </BreadcrumbPage>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>
         <h1>
-          <strong>GPX Data</strong>
-          <small>Route and elevation profile</small>
+          <strong>
+            <small>GPX Data</small>
+          </strong>
+          <small>
+            <em>Route and elevation profile</em>
+          </small>
         </h1>
       </header>
       <Context>

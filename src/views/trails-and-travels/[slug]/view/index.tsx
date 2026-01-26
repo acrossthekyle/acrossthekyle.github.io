@@ -3,10 +3,9 @@ import Link from 'next/link';
 import { Layout } from '@/layout';
 import {
   Breadcrumb,
+  BreadcrumbBack,
   BreadcrumbList,
   BreadcrumbItem,
-  BreadcrumbPage,
-  BreadcrumbSeparator,
   BreadcrumbTruncate,
 } from '@/ui/breadcrumbs';
 import { DateRange } from '@/ui/date';
@@ -28,21 +27,19 @@ export default function View({ data }: Props) {
           <BreadcrumbList>
             <BreadcrumbItem>
               <Link href="/trails-and-travels">
-                Trails and Travels
+                <BreadcrumbBack>
+                  <BreadcrumbTruncate text="Trails and Travels" />
+                </BreadcrumbBack>
               </Link>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <BreadcrumbPage>
-                <BreadcrumbTruncate text={data.title.join(' ')} />
-              </BreadcrumbPage>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>
         <h1>
-          <strong>{data.title.join(' ')}</strong>
+          <strong>
+            <small>{data.title.join(' ')}</small>
+          </strong>
           <small>
-            <DateRange date={data.date} />
+            <em><DateRange date={data.date} /></em>
           </small>
         </h1>
       </header>

@@ -1,3 +1,4 @@
+export { default as BreadcrumbBack } from './back';
 export { default as BreadcrumbEllipsis } from './ellipsis';
 export { default as BreadcrumbList } from './list';
 export { default as BreadcrumbItem } from './item';

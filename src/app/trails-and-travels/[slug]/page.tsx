@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: GenerateMetadata): Promise<Me
   }
 
   return {
-    title: data.title.join(' '),
+    title: `${data.title.join(' ')} → Trails and Travels`,
     description: data.description[0],
   };
 };
