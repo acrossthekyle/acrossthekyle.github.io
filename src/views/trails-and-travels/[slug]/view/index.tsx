@@ -40,9 +40,7 @@ export default function View({ data }: Props) {
           </BreadcrumbList>
         </Breadcrumb>
         <h1>
-          <strong>
-            {data.title.join(' ')}
-          </strong>
+          <strong>{data.title.join(' ')}</strong>
           <small>
             <DateRange date={data.date} />
           </small>

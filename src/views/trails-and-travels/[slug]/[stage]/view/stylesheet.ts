@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   figure: `
-    my-6
+    mb-16
   `,
   image: `
     aspect-square

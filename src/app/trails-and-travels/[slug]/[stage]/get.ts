@@ -43,6 +43,7 @@ export default function get(slug: string, stage: string) {
     slug,
     snippet: result.snippet,
     stats: result.stats,
+    termini: result.termini,
     total: padIndex(found.stages.length),
     title: result.termini.end.words,
   };

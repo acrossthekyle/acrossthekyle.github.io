@@ -61,13 +61,22 @@ export default function View({ data }: Props) {
             src={data.image}
             width={1920}
           />
-          <ImageCaption>
-            {data.location[0]}
+          <ImageCaption invisible>
+            {data.location.join(', ')}
           </ImageCaption>
         </ImageFigure>
         <p>
           <em>
-            {data.label} {data.index}/{data.total} &mdash; {data.location.join(', ')}
+            {data.label} {data.index}/{data.total}
+            <strong>
+              {data.termini.isSame ? (
+                <>{data.termini.end.words.join(' ')}</>
+              ) : (
+                <>
+                  {data.termini.start.words.join(' ')} to {data.termini.end.words.join(' ')}
+                </>
+              )}
+            </strong>
           </em>
         </p>
         {data.description.map((paragraph) => (

@@ -1,4 +1,4 @@
-import type { Navigation } from '@/types';
+import type { Navigation, Termini } from '@/types';
 
 export type Data = {
   date: string;
@@ -15,6 +15,7 @@ export type Data = {
   previous?: Navigation;
   slug: string;
   snippet: string;
+  termini: Termini;
   total: string;
   title: string[];
 };
