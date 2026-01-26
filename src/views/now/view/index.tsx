@@ -26,14 +26,14 @@ export default function View() {
           Daily 30-minute yoga videos with my partner
         </li>
         <li>
-          Wrapped up a re-watch of Star Trek: Voyager
+          Started rewatching of <em>Star Trek: Enterprise</em>
         </li>
         <li>
           Planning a trip to Peru
         </li>
       </ul>
       <p>
-        <small>Last updated:<br /><em>January 18, 2026</em></small>
+        <small>Last updated:<br /><em>January 26th, 2026</em></small>
       </p>
       <p className={styles.footer}>
         <Link href="https://nownownow.com/about" target="_blank">

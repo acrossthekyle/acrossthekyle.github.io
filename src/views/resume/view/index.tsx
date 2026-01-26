@@ -25,13 +25,13 @@ export default function View({ data }: Props) {
         </p>
       </header>
       <p>
-        <strong>Currently</strong>
+        <strong>CURRENTLY</strong>
         <small>
           Senior Engineer &ndash; Optum Digital <em>(Formerly Rally Health)</em>
         </small>
       </p>
       <p>
-        <strong>Previously</strong>
+        <strong>PREVIOUSLY</strong>
         <small>
           Senior Fullstack Engineer &ndash; Earlybird Co
         </small>
@@ -39,7 +39,7 @@ export default function View({ data }: Props) {
       <section>
         <h2>
           <strong>
-            Skills
+            SKILLS
           </strong>
         </h2>
         <ul className={styles.list}>
@@ -62,7 +62,7 @@ export default function View({ data }: Props) {
       <section className={styles.section}>
         <h2>
           <strong>
-            Work Experience
+            CAREER EXPERIENCE
           </strong>
         </h2>
         {data.history.map((item) => (
@@ -110,7 +110,7 @@ export default function View({ data }: Props) {
       <section className={styles.section}>
         <h2>
           <strong>
-            Education
+            EDUCATION
           </strong>
         </h2>
         {data.education.map((item) => (

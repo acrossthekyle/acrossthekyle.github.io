@@ -3,7 +3,7 @@ type Props = {
   text: string;
 };
 
-export default function Truncate({ maxLength = 25, text }: Props) {
+export default function Truncate({ maxLength = 30, text }: Props) {
   const suffix = '...';
 
   let result = text;

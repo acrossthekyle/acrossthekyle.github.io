@@ -8,7 +8,8 @@ const styles = tw({
     relative
   `,
   image: `
-    !w-1/4
+    !h-6
+    !w-auto
     mb-6
     !rounded-none
   `,

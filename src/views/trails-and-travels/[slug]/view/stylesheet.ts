@@ -6,8 +6,7 @@ const styles = tw({
   list: (hasGear: boolean) => tw(`
     grid grid-cols-7 gap-6
     ${hasGear && `
-      pb-10 mb-8
-      border-b-1 border-b-current/15
+      mb-16
     `}
 
     md:grid-cols-3

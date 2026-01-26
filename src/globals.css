@@ -95,7 +95,12 @@ body {
     margin-bottom: 4rem;
     text-transform: uppercase;
 
+    strong {
+      padding-bottom: 0;
+    }
+
     small {
+      display: block;
       font-weight: 300;
       text-transform: none;
     }
@@ -103,7 +108,7 @@ body {
 
   @media (width >= 48rem) {
     h1 {
-      line-height: 70%;
+      line-height: 90%;
 
       small {
         font-weight: 400;

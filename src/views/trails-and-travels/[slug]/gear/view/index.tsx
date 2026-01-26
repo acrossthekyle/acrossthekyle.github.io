@@ -52,7 +52,7 @@ export default function View({ data }: Props) {
         <section key={category.title}>
           <h2>
             <strong>
-              <small>{category.title}</small>
+              {category.title}
             </strong>
           </h2>
           <ul>
