@@ -237,6 +237,12 @@ body {
     print-color-adjust: exact;
   }
 
+  .list {
+    line-height: 1.75rem;
+    list-style-type: disc;
+    margin-left: 1rem;
+  }
+
   /* third-party package styling  */
 
   .leaflet-bar {

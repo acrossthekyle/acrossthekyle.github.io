@@ -1,7 +1,5 @@
 import { Layout } from '@/layout';
 
-import styles from './stylesheet';
-
 export default function View() {
   return (
     <Layout>
@@ -13,7 +11,7 @@ export default function View() {
           </small>
         </h1>
       </header>
-      <article className={styles.article}>
+      <section>
         <h2>
           <strong>Thru-Hike</strong>
         </h2>
@@ -22,8 +20,8 @@ export default function View() {
         </p>
         <p>You live out of a backpack with everything you need, and each day is mostly just waking up, walking, eating, walking some more, and sleeping. Some days feel incredible with big views and quiet moments where everything clicks; other days are miserable, wet, painful, and full of "why am I doing this" thoughts.
         </p>
-      </article>
-      <article className={styles.article}>
+      </section>
+      <section>
         <h2>
           <strong>Section Hike</strong>
         </h2>
@@ -33,16 +31,16 @@ export default function View() {
         <p>
           Over time, those sections add up. You might hike one piece this year, another next year, and slowly stitch the whole thing together. It's all about balance: figuring out how to keep a foot in normal life while still chasing that long-distance hike feeling.
         </p>
-      </article>
-      <article className={styles.article}>
+      </section>
+      <section>
         <h2>
           <strong>Overnight Trek</strong>
         </h2>
         <p>
           Like section-hiking, but on a much larger timescale, by doing each section a weekend at a time.
         </p>
-      </article>
-      <article className={styles.article}>
+      </section>
+      <section>
         <h2>
           <strong>Peak-Bagging</strong>
         </h2>
@@ -52,15 +50,15 @@ export default function View() {
         <p>
           Each peak feels like checking something off a list, which is way more satisfying than it probably should be.
         </p>
-      </article>
-      <article className={styles.article}>
+      </section>
+      <section>
         <h2>
           <strong>Vacation</strong>
         </h2>
         <p>
           The opposite of every other experience I do. No backpack filled with camping gear, no wearing the same two outfits over multiple days. Instead I play the role of tourist and experience the sights and sounds of the city.
         </p>
-      </article>
+      </section>
     </Layout>
   );
 }

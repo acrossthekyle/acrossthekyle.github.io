@@ -1,7 +1,4 @@
-import Link from 'next/link';
-
 import { Layout } from '@/layout';
-import { Image } from '@/ui/image';
 
 import styles from './stylesheet';
 import type { Data } from './types';
@@ -42,7 +39,7 @@ export default function View({ data }: Props) {
             SKILLS
           </strong>
         </h2>
-        <ul className={styles.list}>
+        <ul>
           {data.skills.map((skill) => (
             <li className={styles.skill} key={skill.name}>
               <label htmlFor={skill.name.toLowerCase().replace(' ', '-')}>
@@ -59,45 +56,28 @@ export default function View({ data }: Props) {
           ))}
         </ul>
       </section>
-      <section className={styles.section}>
+      <section>
         <h2>
           <strong>
             CAREER EXPERIENCE
           </strong>
         </h2>
         {data.history.map((item) => (
-          <article className={styles.article} key={item.title.join('')} id={item.title.join('-').toLowerCase()}>
-            <figure className={styles.figure}>
-              <Image
-                alt=""
-                className={styles.image}
-                height={540}
-                sizes="50vw"
-                src={item.image.src}
-                width={960}
-              />
-              <figcaption className={styles.caption}>
-                {item.title.join(' ')}, {item.overview}
-              </figcaption>
-            </figure>
-            <h3 className={styles.spread}>
-              {item.position}
-              <small className={styles.date}>
-                {item.date.start} {!!item.date.end && <>&ndash; {item.date.end}</>}
-              </small>
+          <article
+            className={styles.article}
+            key={item.title.join('')}
+          >
+            <h3>
+              <strong>{item.position}</strong>
             </h3>
             <p>
-              {item.website ? (
-                <Link href={item.website} target="_blank" rel="noreferrer">
-                  {item.title.join(' ')} {item.website.includes('archive.org') ? '[archived]' : ''}
-                </Link>
-              ) : (
-                <>
-                  {item.title.join(' ')} &ndash; {item.overview}
-                </>
-              )}
+              <small>
+                <em>
+                  {item.title.join(' ')} &mdash; {item.date.start} {!!item.date.end && <>- {item.date.end}</>}
+                </em>
+              </small>
             </p>
-            <ul className={`${styles.list} ${styles.responsibilities}`}>
+            <ul className="list">
               {item.responsibilities.map((responsibility) => (
                 <li key={responsibility}>
                   {responsibility}
@@ -107,7 +87,7 @@ export default function View({ data }: Props) {
           </article>
         ))}
       </section>
-      <section className={styles.section}>
+      <section>
         <h2>
           <strong>
             EDUCATION
@@ -115,14 +95,13 @@ export default function View({ data }: Props) {
         </h2>
         {data.education.map((item) => (
           <article key={item.degree}>
-            <h3 className={styles.spread}>
-              {item.school}
-              <small className={styles.date}>
-                {item.graduation}
-              </small>
+            <h3>
+              <strong>{item.school}</strong>
             </h3>
             <p>
-              {item.degree}
+              <em>
+                {item.degree} &mdash; {item.graduation}
+              </em>
             </p>
           </article>
         ))}
