@@ -6,7 +6,7 @@ const data = [
       "isYears": false,
       "range": [
         "October 18th",
-        " 19th, 2025"
+        "19th, 2025"
       ]
     },
     "description": [
@@ -27,8 +27,8 @@ const data = [
             {
               "link": "https://evolvedsupplyco.com/supplies/p/nylofume-pack-liner",
               "name": [
-                "Nylofume",
-                "Pack Liner"
+                "Nylofume Pack",
+                "Liner"
               ],
               "weight": 1.02
             }
@@ -41,9 +41,9 @@ const data = [
             {
               "link": "https://durstongear.com/products/x-dome-1-plus-ultralight-backpacking-tent",
               "name": [
-                "Durston",
-                "Gear X-Dome",
-                "1+ tent"
+                "Durston Gear",
+                "X-Dome 1+",
+                "tent"
               ],
               "weight": 35
             },
@@ -65,8 +65,7 @@ const data = [
             {
               "link": "https://enlightenedequipment.com/revelation-stock",
               "name": [
-                "EE",
-                "Revelation",
+                "EE Revelation",
                 "10ºF Quilt"
               ],
               "weight": 27
@@ -75,8 +74,7 @@ const data = [
               "link": "https://zenbivy.com/products/pillow-air-bladder",
               "name": [
                 "Zenbivy",
-                "Modular",
-                "Large",
+                "Modular Large",
                 "Pillow"
               ],
               "weight": 1.7
@@ -84,8 +82,7 @@ const data = [
             {
               "link": "https://www.pillowstrap.com/products/medium-in-green",
               "name": [
-                "Pillow",
-                "Strap",
+                "Pillow Strap",
                 "Pillow Case"
               ],
               "weight": 2.19
@@ -94,16 +91,16 @@ const data = [
               "link": "https://www.rei.com/product/228436/nemo-tensor-all-season-ultralight-insulated-sleeping-pad",
               "name": [
                 "NEMO Tensor",
-                "All Season",
-                "R 5.4 Pad"
+                "All Season R",
+                "5.4 Pad"
               ],
               "weight": 19.12
             },
             {
               "link": "https://www.garagegrowngear.com/products/alpenblow-micro-inflator-by-alpenglow-gear",
               "name": [
-                "Alpenblow",
-                "Air Pump"
+                "Alpenblow Air",
+                "Pump"
               ],
               "weight": 0.3
             }
@@ -125,10 +122,8 @@ const data = [
             {
               "link": "https://www.topoathletic.com/mens-pursuit",
               "name": [
-                "Topo",
-                "Athletic",
-                "Pursuit",
-                "Shoes"
+                "Topo Athletic",
+                "Pursuit Shoes"
               ],
               "weight": 22
             },
@@ -152,9 +147,8 @@ const data = [
               "link": "https://www.outdoorresearch.com/collections/sun-protection/products/mens-echo-hoodie-287625",
               "name": [
                 "Outdoor",
-                "Research",
-                "Echo sun",
-                "hoody x 2"
+                "Research Echo",
+                "sun hoody x 2"
               ],
               "weight": 9
             },
@@ -174,8 +168,7 @@ const data = [
                 "Unbound",
                 "Merino Wool",
                 "Boxer Brief",
-                "Underwear x",
-                "2"
+                "Underwear x 2"
               ],
               "weight": 5.72
             },
@@ -183,8 +176,8 @@ const data = [
               "link": "https://www.amazon.com/dp/B074ZGXRYL",
               "name": [
                 "Darn Tough",
-                "Quarter",
-                "Socks x 2"
+                "Quarter Socks",
+                "x 2"
               ],
               "weight": 3.8
             },
@@ -192,8 +185,8 @@ const data = [
               "link": "https://www.amazon.com/gp/product/B07W5XC3DD",
               "name": [
                 "Mountain",
-                "Hardwear",
-                "down jacket"
+                "Hardwear down",
+                "jacket"
               ],
               "weight": 7.97
             },
@@ -234,8 +227,7 @@ const data = [
               "link": "https://www.garagegrowngear.com/products/titanium-long-handle-spoon-by-toaks",
               "name": [
                 "TOAKS",
-                "titanium",
-                "long",
+                "titanium long",
                 "utensil"
               ],
               "weight": 0.53
@@ -243,10 +235,9 @@ const data = [
             {
               "link": "https://zpacks.com/products/nylopro-odor-barrier-bags",
               "name": [
-                "NyloPro",
-                "Odor Proof",
-                "Bag odor",
-                "barrier"
+                "NyloPro Odor",
+                "Proof Bag",
+                "odor barrier"
               ],
               "weight": 0.63
             },
@@ -264,8 +255,7 @@ const data = [
                 "Adotec",
                 "Ultralight",
                 "Food Locker",
-                "14L food",
-                "bag"
+                "14L food bag"
               ],
               "weight": 6.75
             }
@@ -280,8 +270,7 @@ const data = [
               "name": [
                 "Platypus",
                 "Quickdraw",
-                "water",
-                "Filter"
+                "water Filter"
               ],
               "weight": 2.4
             },
@@ -297,8 +286,8 @@ const data = [
               "link": "https://minimalgear.com/products/cnocoutdoors-thrubottle",
               "name": [
                 "CNOC",
-                "ThruBottle",
-                "x 2 Water",
+                "ThruBottle x",
+                "2 Water",
                 "Bottles"
               ],
               "weight": 6.36
@@ -336,8 +325,7 @@ const data = [
             {
               "link": "",
               "name": [
-                "Toilet",
-                "paper"
+                "Toilet paper"
               ],
               "weight": 1.69
             },
@@ -388,8 +376,8 @@ const data = [
             {
               "link": "",
               "name": [
-                "Med +",
-                "Repair Kit"
+                "Med + Repair",
+                "Kit"
               ],
               "weight": 1.73
             }
@@ -402,25 +390,24 @@ const data = [
             {
               "link": "",
               "name": [
-                "Apple Ultra",
-                "3 Watch"
+                "Apple Ultra 3",
+                "Watch"
               ],
               "weight": 2.25
             },
             {
               "link": "https://www.apple.com/iphone-16-pro/",
               "name": [
-                "iPhone 16",
-                "Pro Phone"
+                "iPhone 16 Pro",
+                "Phone"
               ],
               "weight": 7.8
             },
             {
               "link": "https://www.nitecorestore.com/NITECORE-NU25-UL-Headlamp-p/fl-nite-nu25-400ul-bk.htm",
               "name": [
-                "Nitecore",
-                "NU25 UL",
-                "headlamp"
+                "Nitecore NU25",
+                "UL headlamp"
               ],
               "weight": 1.59
             }
@@ -433,11 +420,9 @@ const data = [
             {
               "link": "https://durstongear.com/products/iceline-trekking-poles",
               "name": [
-                "Durston",
-                "Gear",
+                "Durston Gear",
                 "Iceline",
-                "Trekking",
-                "Pole"
+                "Trekking Pole"
               ],
               "weight": 4.7
             },
@@ -446,16 +431,16 @@ const data = [
               "name": [
                 "Picaridin",
                 "insect",
-                "repellent",
-                "Bug Wipes"
+                "repellent Bug",
+                "Wipes"
               ],
               "weight": 1.13
             },
             {
               "link": "https://www.amazon.com/dp/B0D3V61JC8",
               "name": [
-                "Loop Quiet",
-                "2 Earplugs"
+                "Loop Quiet 2",
+                "Earplugs"
               ],
               "weight": 0.5
             }
@@ -1561,8 +1546,7 @@ const data = [
           "end": {
             "position": "left",
             "words": [
-              "Browns",
-              "Hollow"
+              "Browns Hollow"
             ]
           },
           "isSame": false,
@@ -2670,8 +2654,7 @@ const data = [
           "start": {
             "position": "right",
             "words": [
-              "Browns",
-              "Hollow"
+              "Browns Hollow"
             ]
           }
         }
@@ -2725,8 +2708,8 @@ const data = [
     },
     "timestamp": "1760859600",
     "title": [
-      "Yellow",
-      "River Trail"
+      "Yellow River",
+      "Trail"
     ],
     "type": "overnight trek"
   },
@@ -2758,8 +2741,8 @@ const data = [
             {
               "link": "https://evolvedsupplyco.com/supplies/p/nylofume-pack-liner",
               "name": [
-                "Nylofume",
-                "Pack Liner"
+                "Nylofume Pack",
+                "Liner"
               ],
               "weight": 1.02
             },
@@ -2780,8 +2763,8 @@ const data = [
             {
               "link": "https://seatosummit.com/products/adaptor-coolmax-liner-insect-shield",
               "name": [
-                "Sleeping",
-                "Bag Liner"
+                "Sleeping Bag",
+                "Liner"
               ],
               "weight": 12.8
             },
@@ -2811,10 +2794,8 @@ const data = [
               "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
               "name": [
                 "Smartwool",
-                "boxer",
-                "briefs",
-                "Underwear x",
-                "2"
+                "boxer briefs",
+                "Underwear x 2"
               ],
               "weight": 6.5
             },
@@ -2845,18 +2826,15 @@ const data = [
             {
               "link": "https://www.topoathletic.com/mens-pursuit",
               "name": [
-                "Topo",
-                "Athletic",
-                "Pursuit",
-                "Shoes"
+                "Topo Athletic",
+                "Pursuit Shoes"
               ],
               "weight": 22
             },
             {
               "link": "https://www.amazon.com/gp/product/B00267SFL6",
               "name": [
-                "Mueller",
-                "Knee",
+                "Mueller Knee",
                 "Stabilizer",
                 "Knee Braces"
               ],
@@ -2866,8 +2844,8 @@ const data = [
               "link": "https://www.amazon.com/gp/product/B07W5XC3DD",
               "name": [
                 "Mountain",
-                "Hardwear",
-                "down jacket"
+                "Hardwear down",
+                "jacket"
               ],
               "weight": 7.97
             },
@@ -2875,9 +2853,8 @@ const data = [
               "link": "https://senchidesigns.com/collections/shop/products/wren-hoodie",
               "name": [
                 "Senchi",
-                "Designs",
-                "Wren Alpha",
-                "Hoodie",
+                "Designs Wren",
+                "Alpha Hoodie",
                 "Pullover"
               ],
               "weight": 4.02
@@ -2896,9 +2873,8 @@ const data = [
               "link": "https://www.outdoorresearch.com/collections/sun-protection/products/mens-echo-hoodie-287625",
               "name": [
                 "Outdoor",
-                "Research",
-                "Echo sun",
-                "hoody x 2"
+                "Research Echo",
+                "sun hoody x 2"
               ],
               "weight": 9
             },
@@ -2922,10 +2898,8 @@ const data = [
             {
               "link": "https://www.amazon.com/Crocs-Unisex-Classic-Clogs-Latte/dp/B0014C5S7S",
               "name": [
-                "Crocs",
-                "Classic",
-                "Clogs",
-                "Sandals"
+                "Crocs Classic",
+                "Clogs Sandals"
               ],
               "weight": 13.12
             }
@@ -2938,8 +2912,7 @@ const data = [
             {
               "link": "",
               "name": [
-                "Nalgene",
-                "Water",
+                "Nalgene Water",
                 "Bottles"
               ],
               "weight": 11.7
@@ -2948,8 +2921,7 @@ const data = [
               "link": "https://www.rei.com/product/116364/katadyn-befree-collapsible-water-filter-bottle-338-fl-oz",
               "name": [
                 "Katadyn",
-                "BeFree",
-                "water",
+                "BeFree water",
                 "Filter"
               ],
               "weight": 2.29
@@ -2987,8 +2959,7 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B000HJXQ9G",
               "name": [
-                "Dr.",
-                "Bronners",
+                "Dr. Bronners",
                 "Body/Hair",
                 "Wash"
               ],
@@ -3012,8 +2983,7 @@ const data = [
             {
               "link": "",
               "name": [
-                "Toilet",
-                "paper"
+                "Toilet paper"
               ],
               "weight": 1.69
             },
@@ -3033,8 +3003,8 @@ const data = [
             {
               "link": "https://www.rei.com/product/800721/adventure-medical-kits-ultralightwatertight-3-medical-kit",
               "name": [
-                "Med +",
-                "Repair Kit"
+                "Med + Repair",
+                "Kit"
               ],
               "weight": 3.35
             }
@@ -3064,17 +3034,16 @@ const data = [
             {
               "link": "https://www.garmin.com/en-US/p/854515",
               "name": [
-                "Garmin",
-                "Enduro 2",
-                "GPS Watch"
+                "Garmin Enduro",
+                "2 GPS Watch"
               ],
               "weight": 1.8
             },
             {
               "link": "https://www.apple.com/iphone-16-pro/",
               "name": [
-                "iPhone 16",
-                "Pro Phone"
+                "iPhone 16 Pro",
+                "Phone"
               ],
               "weight": 7.8
             },
@@ -3118,8 +3087,7 @@ const data = [
             {
               "link": "",
               "name": [
-                "Playing",
-                "cards"
+                "Playing cards"
               ],
               "weight": 3.28
             },
@@ -3127,8 +3095,7 @@ const data = [
               "link": "https://cnocoutdoors.com/collections/trekking-poles/products/cnoc-telescopic-trekking-poles-cork-grip-single-pole",
               "name": [
                 "CNOC Cork",
-                "Trekking",
-                "Pole"
+                "Trekking Pole"
               ],
               "weight": 9.66
             },
@@ -3137,8 +3104,8 @@ const data = [
               "name": [
                 "Picaridin",
                 "insect",
-                "repellent",
-                "Bug Wipes"
+                "repellent Bug",
+                "Wipes"
               ],
               "weight": 1.13
             },
@@ -3153,9 +3120,9 @@ const data = [
             {
               "link": "https://www.amazon.com/gp/product/B004Y6K8XA",
               "name": [
-                "33 SPF",
-                "Joshua Tree",
-                "sun stick",
+                "33 SPF Joshua",
+                "Tree sun",
+                "stick",
                 "Sunblock"
               ],
               "weight": 0.95
@@ -4284,8 +4251,7 @@ const data = [
           "end": {
             "position": "left",
             "words": [
-              "Auberge",
-              "Truc"
+              "Auberge Truc"
             ]
           },
           "isSame": false,
@@ -5395,8 +5361,7 @@ const data = [
           "start": {
             "position": "right",
             "words": [
-              "Auberge",
-              "Truc"
+              "Auberge Truc"
             ]
           }
         }
@@ -6491,8 +6456,7 @@ const data = [
           "end": {
             "position": "left",
             "words": [
-              "Robert",
-              "Blanc"
+              "Robert Blanc"
             ]
           },
           "isSame": false,
@@ -7601,16 +7565,14 @@ const data = [
           "end": {
             "position": "right",
             "words": [
-              "Maison",
-              "Veille"
+              "Maison Veille"
             ]
           },
           "isSame": false,
           "start": {
             "position": "left",
             "words": [
-              "Robert",
-              "Blanc"
+              "Robert Blanc"
             ]
           }
         }
@@ -8713,8 +8675,7 @@ const data = [
           "start": {
             "position": "left",
             "words": [
-              "Maison",
-              "Veille"
+              "Maison Veille"
             ]
           }
         }
@@ -12018,8 +11979,7 @@ const data = [
           "end": {
             "position": "left",
             "words": [
-              "Hotel",
-              "Forclaz"
+              "Hotel Forclaz"
             ]
           },
           "isSame": false,
@@ -13127,8 +13087,7 @@ const data = [
           "start": {
             "position": "left",
             "words": [
-              "Hotel",
-              "Forclaz"
+              "Hotel Forclaz"
             ]
           }
         }
@@ -15389,8 +15348,8 @@ const data = [
     },
     "timestamp": "1753228805",
     "title": [
-      "Tour du",
-      "Mont Blanc"
+      "Tour du Mont",
+      "Blanc"
     ],
     "type": "thru-hike"
   },
@@ -15401,7 +15360,7 @@ const data = [
       "isYears": false,
       "range": [
         "July 24th",
-        " 25th, 2024"
+        "25th, 2024"
       ]
     },
     "description": [
@@ -15439,16 +15398,16 @@ const data = [
           "end": {
             "position": null,
             "words": [
-              "Jet d'Eau",
-              "de Geneve"
+              "Jet d'Eau de",
+              "Geneve"
             ]
           },
           "isSame": true,
           "start": {
             "position": null,
             "words": [
-              "Jet d'Eau",
-              "de Geneve"
+              "Jet d'Eau de",
+              "Geneve"
             ]
           }
         }
@@ -15520,16 +15479,18 @@ const data = [
           "end": {
             "position": null,
             "words": [
-              "",
-              "Conservatory"
+              "Conservatory",
+              "and Botanical",
+              "Garden"
             ]
           },
           "isSame": true,
           "start": {
             "position": null,
             "words": [
-              "",
-              "Conservatory"
+              "Conservatory",
+              "and Botanical",
+              "Garden"
             ]
           }
         }
@@ -15573,6 +15534,181 @@ const data = [
   },
   {
     "index": 3,
+    "category": "destination",
+    "date": {
+      "isYears": false,
+      "range": [
+        "July 5th",
+        "7th, 2023"
+      ]
+    },
+    "description": [
+      "After completing a thru-hike of the GR 20 in Corsica, France, I spent some time exploring the cities of Porto-Vecchio and Ajaccio, taking in their citadels, historic districts, and nearby beaches."
+    ],
+    "gear": {},
+    "hasGear": false,
+    "hasStats": true,
+    "image": "2023/07/05/a7519e17-dc25-46cc-b8c7-8b293684b8ef.jpeg",
+    "label": "Destination",
+    "location": "Corsica, France",
+    "slug": "porto-vecchio-ajaccio",
+    "stages": [
+      {
+        "date": "July 5th, 2023",
+        "description": [
+          "Visiting the Citadelle de Porto-Vecchio feels like stepping into the layered history of the town while enjoying some of its best views. Set high above the marina, the old stone walls and narrow streets invited me in to wander at an unhurried pace, passing cafes, small shops, and quiet corners that hint at centuries of life within the fortress. From the ramparts, the contrast between the pale stone, the red rooftops below, and the deep blue of the Mediterranean makes it easy to linger and take it all in.\n"
+        ],
+        "excerpt": "Perched above the harbor, the Citadelle de Porto-Vecchio offers a glimpse into Corsica’s past, with stone ramparts, narrow streets, and sweeping views over the town and sea.",
+        "gpx": [],
+        "hasGpx": false,
+        "hasStats": false,
+        "image": "2023/07/05/a7519e17-dc25-46cc-b8c7-8b293684b8ef.jpeg",
+        "location": "Porto-Vecchio",
+        "readingTime": "1",
+        "snippet": "Stone Walls and Sea Views at the Citadelle de Porto-Vecchio",
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": {
+            "position": null,
+            "words": [
+              "Citadelle de",
+              "Porto-Vecchio"
+            ]
+          },
+          "isSame": true,
+          "start": {
+            "position": null,
+            "words": [
+              "Citadelle de",
+              "Porto-Vecchio"
+            ]
+          }
+        }
+      },
+      {
+        "date": "July 7th, 2023",
+        "description": [
+          "Visiting the Citadelle d'Ajaccio is a subtle but rewarding experience, especially as it sits right along the city's waterfront. The fortress doesn't dominate the city in the way some citadels do, but its sturdy walls and coastal setting quietly reflect Ajaccio's strategic past. Walking nearby, I felt the contrast between the historic stonework and the rhythm of modern life unfolding just beyond its gates.",
+          "From the outside, the citadel frames beautiful views of the harbor and the open sea, making it a pleasant stop during my strolls along the coast. Even without venturing inside, standing near the walls and imagining the centuries of history they've witnessed adds depth to my time in Ajaccio, blending the city's past with its relaxed, seaside atmosphere.\n"
+        ],
+        "excerpt": "Standing along Ajaccio's waterfront, the Citadelle d'Ajaccio offers a quiet glimpse into the city's military past, where thick stone walls meet sweeping views of the sea.",
+        "gpx": [],
+        "hasGpx": false,
+        "hasStats": false,
+        "image": "2023/07/05/4901532f-a283-4e4c-a93e-1b9cc3f9b13e.jpeg",
+        "location": "Ajaccio",
+        "readingTime": "1",
+        "snippet": "Ajaccio's Coastal Fortress: The Citadelle",
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": {
+            "position": null,
+            "words": [
+              "Citadelle",
+              "d'Ajaccio"
+            ]
+          },
+          "isSame": true,
+          "start": {
+            "position": null,
+            "words": [
+              "Citadelle",
+              "d'Ajaccio"
+            ]
+          }
+        }
+      },
+      {
+        "date": "July 7th, 2023",
+        "description": [
+          "Visiting Plage Saint-François felt like a perfect balance between city life and the sea. Located right along Ajaccio's waterfront, it was incredibly easy to reach from my hotel. The clear water, rocky shoreline, and views back toward the city created a setting that felt both refreshing and uniquely Corsican.",
+          "From the beach, I could see the citadel nearby and watch boats pass in the distance while locals and visitors alike enjoyed the water. Whether I was swimming, relaxing by the shore, or simply taking in the coastal views, Plage Saint-François offered a simple but memorable way to experience Ajaccio from the water's edge. I even took home a souvenior: a nice but gentle sun burn.\n"
+        ],
+        "excerpt": "Plage Saint-François was one of my favorite stops in Ajaccio, offering an easy escape to open sea just steps from my hotel.",
+        "gpx": [],
+        "hasGpx": false,
+        "hasStats": false,
+        "image": "2023/07/05/7cace07e-0974-40d4-8356-019ef68594a9.jpeg",
+        "location": "Ajaccio",
+        "readingTime": "1",
+        "snippet": "An Urban Beach Escape in Ajaccio",
+        "stats": {
+          "distance": null,
+          "gain": null,
+          "loss": null,
+          "max": null,
+          "time": null
+        },
+        "termini": {
+          "end": {
+            "position": null,
+            "words": [
+              "Plage",
+              "Saint-Francois"
+            ]
+          },
+          "isSame": true,
+          "start": {
+            "position": null,
+            "words": [
+              "Plage",
+              "Saint-Francois"
+            ]
+          }
+        }
+      }
+    ],
+    "stats": {
+      "altitude": {
+        "label": "altitude",
+        "value": {
+          "imperial": "-∞",
+          "metric": "-∞"
+        },
+        "units": {
+          "imperial": {
+            "full": "feet",
+            "abbreviated": "ft"
+          },
+          "metric": {
+            "full": "meters",
+            "abbreviated": "m"
+          }
+        }
+      },
+      "days": {
+        "label": "days",
+        "value": "2",
+        "units": null
+      },
+      "distance": null,
+      "length": {
+        "label": "length",
+        "value": 3,
+        "units": null
+      }
+    },
+    "timestamp": "1688508000",
+    "title": [
+      "Porto-Vecchio",
+      "+ Ajaccio"
+    ],
+    "type": "vacation"
+  },
+  {
+    "index": 4,
     "category": "trekking",
     "date": {
       "isYears": false,
@@ -15601,8 +15737,8 @@ const data = [
             {
               "link": "https://evolvedsupplyco.com/supplies/p/nylofume-pack-liner",
               "name": [
-                "Nylofume",
-                "Pack Liner"
+                "Nylofume Pack",
+                "Liner"
               ],
               "weight": 1.02
             }
@@ -15615,9 +15751,8 @@ const data = [
             {
               "link": "https://durstongear.com/products/x-mid-pro-1-tent-ultralight-thruhiking",
               "name": [
-                "Durston",
-                "X-Mid Pro 1",
-                "tent"
+                "Durston X-Mid",
+                "Pro 1 tent"
               ],
               "weight": 16
             },
@@ -15625,8 +15760,8 @@ const data = [
               "link": "https://www.rei.com/product/829838/msr-mini-ground-hog-stake",
               "name": [
                 "MSR Ground",
-                "Hog Minis x",
-                "8 stakes"
+                "Hog Minis x 8",
+                "stakes"
               ],
               "weight": 6
             }
@@ -15641,7 +15776,8 @@ const data = [
               "name": [
                 "Big Agnes",
                 "Zoom UL",
-                "Regular/Wide"
+                "Regular/Wide",
+                "4.3R Pad"
               ],
               "weight": 17
             },
@@ -15650,16 +15786,14 @@ const data = [
               "name": [
                 "EE Engima",
                 "30ºF/-1ºC",
-                "Regular",
-                "Quilt"
+                "Regular Quilt"
               ],
               "weight": 16.33
             },
             {
               "link": "https://www.rei.com/product/239220/exped-mega-pillow",
               "name": [
-                "Exped",
-                "Pillow"
+                "Exped Pillow"
               ],
               "weight": 6
             }
@@ -15681,9 +15815,8 @@ const data = [
               "link": "https://www.outdoorresearch.com/collections/sun-protection/products/mens-echo-hoodie-287625",
               "name": [
                 "Outdoor",
-                "Research",
-                "Echo sun",
-                "hoody"
+                "Research Echo",
+                "sun hoody"
               ],
               "weight": 4.5
             },
@@ -15691,8 +15824,7 @@ const data = [
               "link": "",
               "name": [
                 "Altra Lone",
-                "Peak 6",
-                "Shoes"
+                "Peak 6 Shoes"
               ],
               "weight": 20
             },
@@ -15700,8 +15832,7 @@ const data = [
               "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
               "name": [
                 "Smartwool",
-                "boxer",
-                "briefs",
+                "boxer briefs",
                 "Underwear"
               ],
               "weight": 3.25
@@ -15709,8 +15840,8 @@ const data = [
             {
               "link": "https://www.amazon.com/gp/product/B00267SFL6",
               "name": [
-                "Mueller",
-                "Knee Brace"
+                "Mueller Knee",
+                "Brace"
               ],
               "weight": 3
             },
@@ -15742,8 +15873,8 @@ const data = [
               "link": "https://www.amazon.com/gp/product/B07W5XC3DD",
               "name": [
                 "Mountain",
-                "Hardwear",
-                "down jacket"
+                "Hardwear down",
+                "jacket"
               ],
               "weight": 7.97
             },
@@ -15761,9 +15892,8 @@ const data = [
               "link": "https://www.outdoorresearch.com/collections/sun-protection/products/mens-echo-hoodie-287625",
               "name": [
                 "Outdoor",
-                "Research",
-                "Echo sun",
-                "hoody"
+                "Research Echo",
+                "sun hoody"
               ],
               "weight": 4.5
             },
@@ -15771,8 +15901,7 @@ const data = [
               "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
               "name": [
                 "Smartwool",
-                "boxer",
-                "briefs",
+                "boxer briefs",
                 "Underwear"
               ],
               "weight": 3.25
@@ -15789,9 +15918,8 @@ const data = [
               "link": "https://senchidesigns.com/collections/shop/products/wren-hoodie",
               "name": [
                 "Senchi",
-                "Designs",
-                "Wren Alpha",
-                "Hoodie",
+                "Designs Wren",
+                "Alpha Hoodie",
                 "Pullover"
               ],
               "weight": 4.02
@@ -15807,8 +15935,8 @@ const data = [
             {
               "link": "",
               "name": [
-                "",
-                "Store-bought"
+                "Store-bought",
+                "Sandals"
               ],
               "weight": 6
             }
@@ -15831,8 +15959,7 @@ const data = [
               "link": "https://www.rei.com/product/188475",
               "name": [
                 "Platypus 1L",
-                "Filter",
-                "Pouch"
+                "Filter Pouch"
               ],
               "weight": 1.4
             },
@@ -15840,8 +15967,7 @@ const data = [
               "link": "",
               "name": [
                 "Smartwater",
-                "Water",
-                "Bottles"
+                "Water Bottles"
               ],
               "weight": 3
             }
@@ -15878,16 +16004,14 @@ const data = [
             {
               "link": "",
               "name": [
-                "Toilet",
-                "paper"
+                "Toilet paper"
               ],
               "weight": 1.69
             },
             {
               "link": "https://www.amazon.com/dp/B000HJXQ9G",
               "name": [
-                "Dr.",
-                "Bronners",
+                "Dr. Bronners",
                 "Body/Hair",
                 "Wash"
               ],
@@ -15903,8 +16027,8 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B00E3B47ZQ",
               "name": [
-                "",
-                "Travel-sized"
+                "Travel-sized",
+                "Deodorant"
               ],
               "weight": 0.95
             },
@@ -15941,9 +16065,9 @@ const data = [
             {
               "link": "https://www.amazon.com/gp/product/B004Y6K8XA",
               "name": [
-                "33 SPF",
-                "Joshua Tree",
-                "sun stick",
+                "33 SPF Joshua",
+                "Tree sun",
+                "stick",
                 "Sunblock"
               ],
               "weight": 0.95
@@ -15961,8 +16085,8 @@ const data = [
                 "allergy",
                 "medicine +",
                 "repair tape",
-                "Med +",
-                "Repair Kit"
+                "Med + Repair",
+                "Kit"
               ],
               "weight": 3.35
             }
@@ -15975,9 +16099,8 @@ const data = [
             {
               "link": "https://www.nitecorestore.com/NITECORE-NU25-UL-Headlamp-p/fl-nite-nu25-400ul-bk.htm",
               "name": [
-                "Nitecore",
-                "NU25 UL",
-                "Headlamp"
+                "Nitecore NU25",
+                "UL Headlamp"
               ],
               "weight": 1.59
             },
@@ -16002,9 +16125,8 @@ const data = [
             {
               "link": "https://www.garmin.com/en-US/p/854515",
               "name": [
-                "Garmin",
-                "Enduro 2",
-                "GPS",
+                "Garmin Enduro",
+                "2 GPS",
                 "Smartwatch"
               ],
               "weight": 1.8
@@ -16012,8 +16134,8 @@ const data = [
             {
               "link": "https://www.apple.com/iphone-16-pro/",
               "name": [
-                "iPhone 16",
-                "Pro Phone"
+                "iPhone 16 Pro",
+                "Phone"
               ],
               "weight": 7.8
             },
@@ -16054,8 +16176,7 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B08KTZ8249",
               "name": [
-                "Amazon",
-                "Kindle",
+                "Amazon Kindle",
                 "Paperwhite",
                 "E-Reader"
               ],
@@ -16064,8 +16185,7 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B0BDHWDR12",
               "name": [
-                "Airpods Pro",
-                "2",
+                "Airpods Pro 2",
                 "Headphones"
               ],
               "weight": 1.9
@@ -16082,8 +16202,8 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B01I98YQA4",
               "name": [
-                "Trekking",
-                "Pole bag"
+                "Trekking Pole",
+                "bag"
               ],
               "weight": 0.92
             }
@@ -16097,8 +16217,7 @@ const data = [
               "link": "https://cnocoutdoors.com/collections/trekking-poles/products/cnoc-telescopic-trekking-poles-cork-grip-single-pole",
               "name": [
                 "CNOC Cork",
-                "Trekking",
-                "Pole"
+                "Trekking Pole"
               ],
               "weight": 9.66
             },
@@ -17247,9 +17366,8 @@ const data = [
           "end": {
             "position": "left",
             "words": [
-              "Refuge",
-              "D'Ortu Di U",
-              "Piobbu"
+              "Refuge D'Ortu",
+              "Di U Piobbu"
             ]
           },
           "isSame": false,
@@ -18356,9 +18474,8 @@ const data = [
           "start": {
             "position": "right",
             "words": [
-              "Refuge",
-              "D'Ortu Di U",
-              "Piobbu"
+              "Refuge D'Ortu",
+              "Di U Piobbu"
             ]
           }
         }
@@ -21651,9 +21768,8 @@ const data = [
           "end": {
             "position": "right",
             "words": [
-              "Hotel",
-              "Castel di",
-              "Vergio"
+              "Hotel Castel",
+              "di Vergio"
             ]
           },
           "isSame": false,
@@ -22761,9 +22877,8 @@ const data = [
           "start": {
             "position": "right",
             "words": [
-              "Hotel",
-              "Castel di",
-              "Vergio"
+              "Hotel Castel",
+              "di Vergio"
             ]
           }
         }
@@ -23855,8 +23970,8 @@ const data = [
           "end": {
             "position": "bottom",
             "words": [
-              "Refuge",
-              "Petra Piana"
+              "Refuge Petra",
+              "Piana"
             ]
           },
           "isSame": false,
@@ -24956,16 +25071,15 @@ const data = [
           "end": {
             "position": "bottom",
             "words": [
-              "Refuge",
-              "l'Onda"
+              "Refuge l'Onda"
             ]
           },
           "isSame": false,
           "start": {
             "position": "top",
             "words": [
-              "Refuge",
-              "Petra Piana"
+              "Refuge Petra",
+              "Piana"
             ]
           }
         }
@@ -26063,8 +26177,7 @@ const data = [
           "start": {
             "position": "top",
             "words": [
-              "Refuge",
-              "l'Onda"
+              "Refuge l'Onda"
             ]
           }
         }
@@ -30525,13 +30638,13 @@ const data = [
     "type": "thru-hike"
   },
   {
-    "index": 4,
+    "index": 5,
     "category": "destination",
     "date": {
       "isYears": false,
       "range": [
         "January 3rd",
-        " 6th, 2023"
+        "6th, 2023"
       ]
     },
     "description": [
@@ -30724,16 +30837,16 @@ const data = [
           "end": {
             "position": null,
             "words": [
-              "Valley of",
-              "the Queens"
+              "Valley of the",
+              "Queens"
             ]
           },
           "isSame": true,
           "start": {
             "position": null,
             "words": [
-              "Valley of",
-              "the Queens"
+              "Valley of the",
+              "Queens"
             ]
           }
         }
@@ -30763,16 +30876,16 @@ const data = [
           "end": {
             "position": null,
             "words": [
-              "Medinet",
-              "Habu Temple"
+              "Medinet Habu",
+              "Temple"
             ]
           },
           "isSame": true,
           "start": {
             "position": null,
             "words": [
-              "Medinet",
-              "Habu Temple"
+              "Medinet Habu",
+              "Temple"
             ]
           }
         }
@@ -30842,16 +30955,14 @@ const data = [
           "end": {
             "position": null,
             "words": [
-              "Balloon",
-              "Ride"
+              "Balloon Ride"
             ]
           },
           "isSame": true,
           "start": {
             "position": null,
             "words": [
-              "Balloon",
-              "Ride"
+              "Balloon Ride"
             ]
           }
         }
@@ -30880,16 +30991,14 @@ const data = [
           "end": {
             "position": null,
             "words": [
-              "Luxor",
-              "Temple"
+              "Luxor Temple"
             ]
           },
           "isSame": true,
           "start": {
             "position": null,
             "words": [
-              "Luxor",
-              "Temple"
+              "Luxor Temple"
             ]
           }
         }
@@ -30969,7 +31078,7 @@ const data = [
     "type": "vacation"
   },
   {
-    "index": 5,
+    "index": 6,
     "category": "destination",
     "date": {
       "isYears": false,
@@ -31089,16 +31198,14 @@ const data = [
           "end": {
             "position": null,
             "words": [
-              "Bent",
-              "Pyramid"
+              "Bent Pyramid"
             ]
           },
           "isSame": true,
           "start": {
             "position": null,
             "words": [
-              "Bent",
-              "Pyramid"
+              "Bent Pyramid"
             ]
           }
         }
@@ -31128,16 +31235,14 @@ const data = [
           "end": {
             "position": null,
             "words": [
-              "Step",
-              "Pyramid"
+              "Step Pyramid"
             ]
           },
           "isSame": true,
           "start": {
             "position": null,
             "words": [
-              "Step",
-              "Pyramid"
+              "Step Pyramid"
             ]
           }
         }
@@ -31180,7 +31285,7 @@ const data = [
     "type": "vacation"
   },
   {
-    "index": 6,
+    "index": 7,
     "category": "trekking",
     "date": {
       "isYears": true,
@@ -31200,17 +31305,16 @@ const data = [
             {
               "link": "https://durstongear.com/products/kakwa-55",
               "name": [
-                "Durston",
-                "Gear Kakwa",
-                "55 Pack"
+                "Durston Gear",
+                "Kakwa 55 Pack"
               ],
               "weight": 29.8
             },
             {
               "link": "https://evolvedsupplyco.com/supplies/p/nylofume-pack-liner",
               "name": [
-                "Nylofume",
-                "Pack Liner"
+                "Nylofume Pack",
+                "Liner"
               ],
               "weight": 1.02
             }
@@ -31223,9 +31327,9 @@ const data = [
             {
               "link": "https://durstongear.com/products/x-dome-1-plus-ultralight-backpacking-tent",
               "name": [
-                "Durston",
-                "Gear X-Dome",
-                "1+ tent"
+                "Durston Gear",
+                "X-Dome 1+",
+                "tent"
               ],
               "weight": 35
             },
@@ -31254,8 +31358,7 @@ const data = [
             {
               "link": "https://enlightenedequipment.com/revelation-stock",
               "name": [
-                "EE",
-                "Revelation",
+                "EE Revelation",
                 "10ºF Quilt"
               ],
               "weight": 27
@@ -31271,8 +31374,10 @@ const data = [
             {
               "link": "https://www.rei.com/product/241039/therm-a-rest-neoloft-sleeping-pad",
               "name": [
-                "",
-                "Therm-a-rest"
+                "Therm-a-rest",
+                "NeoLoft",
+                "Large/Wide",
+                "Pad"
               ],
               "weight": 32
             }
@@ -31285,10 +31390,9 @@ const data = [
             {
               "link": "",
               "name": [
-                "Salomon",
-                "Trail",
-                "Running",
-                "shoes Shoes"
+                "Salomon Trail",
+                "Running shoes",
+                "Shoes"
               ],
               "weight": 26
             },
@@ -31312,9 +31416,8 @@ const data = [
               "link": "https://www.outdoorresearch.com/collections/sun-protection/products/mens-echo-hoodie-287625",
               "name": [
                 "Outdoor",
-                "Research",
-                "Echo sun",
-                "hoody"
+                "Research Echo",
+                "sun hoody"
               ],
               "weight": 4.5
             },
@@ -31342,8 +31445,7 @@ const data = [
               "link": "https://www.amazon.com/dp/B074ZGXRYL",
               "name": [
                 "Darn Tough",
-                "Quarter",
-                "Socks"
+                "Quarter Socks"
               ],
               "weight": 1.9
             },
@@ -31351,8 +31453,8 @@ const data = [
               "link": "https://www.amazon.com/gp/product/B07W5XC3DD",
               "name": [
                 "Mountain",
-                "Hardwear",
-                "down jacket"
+                "Hardwear down",
+                "jacket"
               ],
               "weight": 7.97
             },
@@ -31370,9 +31472,8 @@ const data = [
               "link": "https://www.outdoorresearch.com/collections/sun-protection/products/mens-echo-hoodie-287625",
               "name": [
                 "Outdoor",
-                "Research",
-                "Echo sun",
-                "hoody"
+                "Research Echo",
+                "sun hoody"
               ],
               "weight": 4.5
             },
@@ -31390,8 +31491,7 @@ const data = [
               "link": "https://www.amazon.com/dp/B074ZGXRYL",
               "name": [
                 "Darn Tough",
-                "Quarter",
-                "Socks"
+                "Quarter Socks"
               ],
               "weight": 1.9
             }
@@ -31414,7 +31514,8 @@ const data = [
               "link": "https://www.rei.com/product/148209/msr-pocketrocket-deluxe-stove",
               "name": [
                 "MSR",
-                "PocketRocket"
+                "PocketRocket",
+                "Deluxe stove"
               ],
               "weight": 2.9
             },
@@ -31422,8 +31523,7 @@ const data = [
               "link": "https://www.garagegrowngear.com/products/titanium-long-handle-spoon-by-toaks",
               "name": [
                 "TOAKS",
-                "titanium",
-                "long",
+                "titanium long",
                 "utensil"
               ],
               "weight": 0.53
@@ -31431,10 +31531,9 @@ const data = [
             {
               "link": "https://zpacks.com/products/nylopro-odor-barrier-bags",
               "name": [
-                "NyloPro",
-                "Odor Proof",
-                "Bag odor",
-                "barrier"
+                "NyloPro Odor",
+                "Proof Bag",
+                "odor barrier"
               ],
               "weight": 0.63
             },
@@ -31452,8 +31551,7 @@ const data = [
                 "Adotec",
                 "Ultralight",
                 "Food Locker",
-                "14L food",
-                "bag"
+                "14L food bag"
               ],
               "weight": 6.75
             },
@@ -31475,8 +31573,7 @@ const data = [
               "name": [
                 "Platypus",
                 "Quickdraw",
-                "water",
-                "Filter"
+                "water Filter"
               ],
               "weight": 2.4
             },
@@ -31492,8 +31589,7 @@ const data = [
               "link": "https://mazamadesigns.com/products/m-go-bottle",
               "name": [
                 "M!Go 32oz",
-                "Water",
-                "Bottles"
+                "Water Bottles"
               ],
               "weight": 9.3
             }
@@ -31530,16 +31626,15 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B00E3B47ZQ",
               "name": [
-                "",
-                "Travel-sized"
+                "Travel-sized",
+                "Deodorant"
               ],
               "weight": 0.95
             },
             {
               "link": "",
               "name": [
-                "Toilet",
-                "paper"
+                "Toilet paper"
               ],
               "weight": 1.69
             },
@@ -31594,8 +31689,8 @@ const data = [
                 "allergy",
                 "medicine +",
                 "repair tape",
-                "Med +",
-                "Repair Kit"
+                "Med + Repair",
+                "Kit"
               ],
               "weight": 3.35
             }
@@ -31608,9 +31703,8 @@ const data = [
             {
               "link": "https://www.garmin.com/en-US/p/854515",
               "name": [
-                "Garmin",
-                "Enduro 2",
-                "GPS",
+                "Garmin Enduro",
+                "2 GPS",
                 "Smartwatch"
               ],
               "weight": 1.8
@@ -31618,17 +31712,15 @@ const data = [
             {
               "link": "https://www.apple.com/iphone-16-pro/",
               "name": [
-                "iPhone 16",
-                "Pro"
+                "iPhone 16 Pro"
               ],
               "weight": 7.8
             },
             {
               "link": "https://www.nitecorestore.com/NITECORE-NU25-UL-Headlamp-p/fl-nite-nu25-400ul-bk.htm",
               "name": [
-                "Nitecore",
-                "NU25 UL",
-                "headlamp"
+                "Nitecore NU25",
+                "UL headlamp"
               ],
               "weight": 1.59
             }
@@ -31641,11 +31733,9 @@ const data = [
             {
               "link": "https://durstongear.com/products/iceline-trekking-poles",
               "name": [
-                "Durston",
-                "Gear",
+                "Durston Gear",
                 "Iceline",
-                "Trekking",
-                "Pole"
+                "Trekking Pole"
               ],
               "weight": 4.7
             },
@@ -31654,8 +31744,8 @@ const data = [
               "name": [
                 "Picaridin",
                 "insect",
-                "repellent",
-                "Bug Wipes"
+                "repellent Bug",
+                "Wipes"
               ],
               "weight": 1.13
             },
@@ -31685,8 +31775,8 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B0D3V61JC8",
               "name": [
-                "Loop Quiet",
-                "2 Earplugs"
+                "Loop Quiet 2",
+                "Earplugs"
               ],
               "weight": 0.5
             }
@@ -31722,8 +31812,7 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B08KTZ8249",
               "name": [
-                "Amazon",
-                "Kindle",
+                "Amazon Kindle",
                 "Paperwhite",
                 "e-reader"
               ],
@@ -31752,9 +31841,8 @@ const data = [
               "link": "https://www.amazon.com/dp/B00004YVB2",
               "name": [
                 "Victorinox",
-                "Classic",
-                "swiss army",
-                "knife"
+                "Classic swiss",
+                "army knife"
               ],
               "weight": 0.74
             },
@@ -31769,8 +31857,7 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B000LBS6LS",
               "name": [
-                "fire",
-                "starter"
+                "fire starter"
               ],
               "weight": 1
             }
@@ -35136,19 +35223,18 @@ const data = [
     },
     "timestamp": "1657904400",
     "title": [
-      "Ice Age",
-      "Trail"
+      "Ice Age Trail"
     ],
     "type": "section hike"
   },
   {
-    "index": 7,
+    "index": 8,
     "category": "trekking",
     "date": {
       "isYears": false,
       "range": [
         "May 7th",
-        " 12th, 2022"
+        "12th, 2022"
       ]
     },
     "description": [
@@ -35163,9 +35249,8 @@ const data = [
             {
               "link": "",
               "name": [
-                "Waymark",
-                "Gear Co",
-                "Thru 40L",
+                "Waymark Gear",
+                "Co Thru 40L",
                 "Pack"
               ],
               "weight": 24.7
@@ -35180,8 +35265,8 @@ const data = [
               "link": "https://www.rei.com/product/188354/big-agnes-tiger-wall-ul2-solution-dyed-tent",
               "name": [
                 "Big Agnes",
-                "Tigerwall",
-                "UL2 Tent"
+                "Tigerwall UL2",
+                "Tent"
               ],
               "weight": 42
             }
@@ -35194,8 +35279,9 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B00PZL14EK",
               "name": [
-                "",
-                "Therm-a-Rest"
+                "Therm-a-Rest",
+                "NeoAir XLite",
+                "Pad"
               ],
               "weight": 12
             },
@@ -35211,8 +35297,8 @@ const data = [
               "link": "https://enlightenedequipment.com/enigma",
               "name": [
                 "EE Engima",
-                "Regular",
-                "10ºF Quilt"
+                "Regular 10ºF",
+                "Quilt"
               ],
               "weight": 16.33
             }
@@ -35226,9 +35312,8 @@ const data = [
               "link": "https://www.outdoorresearch.com/collections/sun-protection/products/mens-echo-hoodie-287625",
               "name": [
                 "Outdoor",
-                "Research",
-                "Echo sun",
-                "hoody"
+                "Research Echo",
+                "sun hoody"
               ],
               "weight": 4.5
             },
@@ -35244,8 +35329,7 @@ const data = [
               "link": "",
               "name": [
                 "Altra Lone",
-                "Peak 6",
-                "Shoes"
+                "Peak 6 Shoes"
               ],
               "weight": 20
             },
@@ -35253,8 +35337,7 @@ const data = [
               "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
               "name": [
                 "Smartwool",
-                "boxer",
-                "briefs",
+                "boxer briefs",
                 "Underwear"
               ],
               "weight": 3.25
@@ -35262,8 +35345,7 @@ const data = [
             {
               "link": "https://www.amazon.com/gp/product/B00267SFL6",
               "name": [
-                "Mueller",
-                "Knee",
+                "Mueller Knee",
                 "Stabilizer",
                 "Knee Braces"
               ],
@@ -35297,8 +35379,8 @@ const data = [
               "link": "https://www.amazon.com/gp/product/B07W5XC3DD",
               "name": [
                 "Mountain",
-                "Hardwear",
-                "down jacket"
+                "Hardwear down",
+                "jacket"
               ],
               "weight": 7.97
             },
@@ -35316,9 +35398,8 @@ const data = [
               "link": "https://www.outdoorresearch.com/collections/sun-protection/products/mens-echo-hoodie-287625",
               "name": [
                 "Outdoor",
-                "Research",
-                "Echo sun",
-                "hoody"
+                "Research Echo",
+                "sun hoody"
               ],
               "weight": 4.5
             },
@@ -35326,8 +35407,7 @@ const data = [
               "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
               "name": [
                 "Smartwool",
-                "boxer",
-                "briefs",
+                "boxer briefs",
                 "Underwear"
               ],
               "weight": 3.25
@@ -35344,9 +35424,8 @@ const data = [
               "link": "https://senchidesigns.com/collections/shop/products/wren-hoodie",
               "name": [
                 "Senchi",
-                "Designs",
-                "Wren Alpha",
-                "Hoodie",
+                "Designs Wren",
+                "Alpha Hoodie",
                 "Pullover"
               ],
               "weight": 4.02
@@ -35370,8 +35449,7 @@ const data = [
               "name": [
                 "Platypus",
                 "Quickdraw",
-                "water",
-                "Filter"
+                "water Filter"
               ],
               "weight": 2.4
             },
@@ -35379,8 +35457,7 @@ const data = [
               "link": "https://www.rei.com/product/188475",
               "name": [
                 "Platypus 1L",
-                "water",
-                "Filter",
+                "water Filter",
                 "Pouch"
               ],
               "weight": 1.4
@@ -35389,8 +35466,7 @@ const data = [
               "link": "",
               "name": [
                 "Nalgene 1L",
-                "Water",
-                "Bottles"
+                "Water Bottles"
               ],
               "weight": 11
             }
@@ -35427,16 +35503,14 @@ const data = [
             {
               "link": "",
               "name": [
-                "Toilet",
-                "paper"
+                "Toilet paper"
               ],
               "weight": 1.69
             },
             {
               "link": "https://www.amazon.com/dp/B000HJXQ9G",
               "name": [
-                "Dr.",
-                "Bronners",
+                "Dr. Bronners",
                 "Body/Hair",
                 "Wash"
               ],
@@ -35445,8 +35519,8 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B00E3B47ZQ",
               "name": [
-                "",
-                "Travel-sized"
+                "Travel-sized",
+                "Deodorant"
               ],
               "weight": 0.95
             },
@@ -35483,9 +35557,9 @@ const data = [
             {
               "link": "https://www.amazon.com/gp/product/B004Y6K8XA",
               "name": [
-                "33 SPF",
-                "Joshua Tree",
-                "sun stick",
+                "33 SPF Joshua",
+                "Tree sun",
+                "stick",
                 "Sunblock"
               ],
               "weight": 0.95
@@ -35503,8 +35577,8 @@ const data = [
                 "allergy",
                 "medicine +",
                 "repair tape",
-                "Med +",
-                "Repair Kit"
+                "Med + Repair",
+                "Kit"
               ],
               "weight": 3.35
             }
@@ -35517,9 +35591,8 @@ const data = [
             {
               "link": "https://www.nitecorestore.com/NITECORE-NU25-UL-Headlamp-p/fl-nite-nu25-400ul-bk.htm",
               "name": [
-                "Nitecore",
-                "NU25 UL",
-                "Headlamp"
+                "Nitecore NU25",
+                "UL Headlamp"
               ],
               "weight": 1.59
             },
@@ -35544,9 +35617,8 @@ const data = [
             {
               "link": "https://www.garmin.com/en-US/p/854515",
               "name": [
-                "Garmin",
-                "Enduro 2",
-                "GPS",
+                "Garmin Enduro",
+                "2 GPS",
                 "Smartwatch"
               ],
               "weight": 1.8
@@ -35554,8 +35626,8 @@ const data = [
             {
               "link": "https://www.apple.com/iphone-16-pro/",
               "name": [
-                "iPhone 16",
-                "Pro Phone"
+                "iPhone 16 Pro",
+                "Phone"
               ],
               "weight": 7.8
             },
@@ -35596,8 +35668,7 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B0BDHWDR12",
               "name": [
-                "Airpods Pro",
-                "2",
+                "Airpods Pro 2",
                 "Headphones"
               ],
               "weight": 1.9
@@ -35614,8 +35685,8 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B01I98YQA4",
               "name": [
-                "Trekking",
-                "Pole bag"
+                "Trekking Pole",
+                "bag"
               ],
               "weight": 0.92
             }
@@ -35629,8 +35700,7 @@ const data = [
               "link": "https://cnocoutdoors.com/collections/trekking-poles/products/cnoc-telescopic-trekking-poles-cork-grip-single-pole",
               "name": [
                 "CNOC Cork",
-                "Trekking",
-                "Pole"
+                "Trekking Pole"
               ],
               "weight": 9.66
             },
@@ -38977,8 +39047,7 @@ const data = [
           "end": {
             "position": "right",
             "words": [
-              "Bienglas",
-              "Farm"
+              "Bienglas Farm"
             ]
           },
           "isSame": false,
@@ -40085,8 +40154,7 @@ const data = [
           "start": {
             "position": "bottom",
             "words": [
-              "Bienglas",
-              "Farm"
+              "Bienglas Farm"
             ]
           }
         }
@@ -41178,7 +41246,6 @@ const data = [
           "end": {
             "position": "top",
             "words": [
-              "",
               "Kinlochleven"
             ]
           },
@@ -42279,15 +42346,13 @@ const data = [
           "end": {
             "position": "left",
             "words": [
-              "Fort",
-              "William"
+              "Fort William"
             ]
           },
           "isSame": false,
           "start": {
             "position": "bottom",
             "words": [
-              "",
               "Kinlochleven"
             ]
           }
@@ -42342,20 +42407,19 @@ const data = [
     },
     "timestamp": "1651911600",
     "title": [
-      "West",
-      "Highland",
+      "West Highland",
       "Way"
     ],
     "type": "thru-hike"
   },
   {
-    "index": 8,
+    "index": 9,
     "category": "destination",
     "date": {
       "isYears": false,
       "range": [
         "March 22nd",
-        " 25th, 2022"
+        "25th, 2022"
       ]
     },
     "description": [
@@ -42435,16 +42499,16 @@ const data = [
           "end": {
             "position": null,
             "words": [
-              "Castillo",
-              "San Felipe"
+              "Castillo San",
+              "Felipe"
             ]
           },
           "isSame": true,
           "start": {
             "position": null,
             "words": [
-              "Castillo",
-              "San Felipe"
+              "Castillo San",
+              "Felipe"
             ]
           }
         }
@@ -42526,13 +42590,13 @@ const data = [
     "type": "vacation"
   },
   {
-    "index": 9,
+    "index": 10,
     "category": "trekking",
     "date": {
       "isYears": false,
       "range": [
         "February 18th",
-        " 25th, 2020"
+        "25th, 2020"
       ]
     },
     "description": [
@@ -42571,16 +42635,16 @@ const data = [
               "name": [
                 "REI Co-op",
                 "Magma 15",
-                "sleeping",
-                "bag"
+                "sleeping bag"
               ],
               "weight": 15.9
             },
             {
               "link": "https://www.amazon.com/dp/B00PZL14EK",
               "name": [
-                "",
-                "Therm-a-Rest"
+                "Therm-a-Rest",
+                "NeoAir XLite",
+                "pad"
               ],
               "weight": 12
             }
@@ -42610,9 +42674,8 @@ const data = [
             {
               "link": "https://www.rei.com/product/682543/msr-ground-hog-stake",
               "name": [
-                "MSR",
-                "Groundhog x",
-                "8 stakes"
+                "MSR Groundhog",
+                "x 8 stakes"
               ],
               "weight": 4
             },
@@ -42620,7 +42683,8 @@ const data = [
               "link": "https://www.amazon.com/dp/B078C8SJ5L",
               "name": [
                 "bandana",
-                "condensation"
+                "condensation",
+                "wipe"
               ],
               "weight": 1.25
             }
@@ -42633,9 +42697,8 @@ const data = [
             {
               "link": "https://www.rei.com/product/122169/salomon-x-ultra-3-low-gtx-hiking-shoes-mens",
               "name": [
-                "X Ultra 3",
-                "Low GTX",
-                "shoes"
+                "X Ultra 3 Low",
+                "GTX shoes"
               ],
               "weight": 26.8
             },
@@ -42643,8 +42706,7 @@ const data = [
               "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
               "name": [
                 "Smartwool",
-                "boxer",
-                "briefs",
+                "boxer briefs",
                 "underwear"
               ],
               "weight": 3.25
@@ -42653,7 +42715,8 @@ const data = [
               "link": "https://www.rei.com/product/105720/wrightsock-escape-crew-socks",
               "name": [
                 "Wrightsock",
-                "Double-Layer"
+                "Double-Layer",
+                "socks"
               ],
               "weight": 2.5
             },
@@ -42669,8 +42732,7 @@ const data = [
               "link": "https://www.rei.com/product/121041/tilley-wanderer-hat",
               "name": [
                 "Tilley",
-                "Wanderer",
-                "hat"
+                "Wanderer hat"
               ],
               "weight": 5.4
             },
@@ -42694,9 +42756,8 @@ const data = [
             {
               "link": "",
               "name": [
-                "Patagonia",
-                "3L rain",
-                "jacket"
+                "Patagonia 3L",
+                "rain jacket"
               ],
               "weight": 14.1
             },
@@ -42722,8 +42783,7 @@ const data = [
               "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
               "name": [
                 "Smartwool",
-                "boxer",
-                "briefs",
+                "boxer briefs",
                 "underwear"
               ],
               "weight": 3.25
@@ -42732,7 +42792,8 @@ const data = [
               "link": "https://www.rei.com/product/105720/wrightsock-escape-crew-socks",
               "name": [
                 "Wrightsock",
-                "Double-Layer"
+                "Double-Layer",
+                "socks"
               ],
               "weight": 2.5
             },
@@ -42788,8 +42849,7 @@ const data = [
               "link": "https://www.amazon.com/dp/B001NCDE4S",
               "name": [
                 "Nalgene 1L",
-                "water",
-                "bottles"
+                "water bottles"
               ],
               "weight": 11.8
             },
@@ -42797,8 +42857,7 @@ const data = [
               "link": "https://www.rei.com/product/103071/sawyer-squeeze-water-filter-plus",
               "name": [
                 "Sawyer",
-                "Squeeze",
-                "water",
+                "Squeeze water",
                 "filter"
               ],
               "weight": 3.7
@@ -42822,8 +42881,8 @@ const data = [
               "link": "https://www.amazon.com/dp/B00EZHML88",
               "name": [
                 "TOAKS",
-                "Titanium",
-                "Long spoon"
+                "Titanium Long",
+                "spoon"
               ],
               "weight": 0.65
             },
@@ -42831,7 +42890,8 @@ const data = [
               "link": "https://www.rei.com/product/114890/msr-pocketrocket-2-stove",
               "name": [
                 "MSR",
-                "PocketRocket"
+                "PocketRocket",
+                "2 stove"
               ],
               "weight": 2.6
             },
@@ -42859,16 +42919,16 @@ const data = [
             {
               "link": "",
               "name": [
-                "",
-                "Travel-sized"
+                "Travel-sized",
+                "toothpaste"
               ],
               "weight": 1.5
             },
             {
               "link": "",
               "name": [
-                "",
-                "Travel-sized"
+                "Travel-sized",
+                "deodorant"
               ],
               "weight": 1.5
             },
@@ -42919,8 +42979,7 @@ const data = [
             {
               "link": "",
               "name": [
-                "toilet",
-                "paper"
+                "toilet paper"
               ],
               "weight": 3
             },
@@ -42957,8 +43016,7 @@ const data = [
             {
               "link": "",
               "name": [
-                "AAA",
-                "batteries"
+                "AAA batteries"
               ],
               "weight": 3
             },
@@ -42975,9 +43033,9 @@ const data = [
             {
               "link": "",
               "name": [
-                "iPhone",
-                "Power Brick",
-                "5W charger"
+                "iPhone Power",
+                "Brick 5W",
+                "charger"
               ],
               "weight": 1.44
             },
@@ -43060,16 +43118,15 @@ const data = [
               "link": "https://www.amazon.com/dp/B0054IH4N4",
               "name": [
                 "Eagle Creek",
-                "Travel",
-                "money belt"
+                "Travel money",
+                "belt"
               ],
               "weight": 1
             },
             {
               "link": "https://www.rei.com/product/881622/leki-corklite-trekking-poles-pair",
               "name": [
-                "Leki",
-                "Corklite",
+                "Leki Corklite",
                 "trekking",
                 "poles"
               ],
@@ -43141,8 +43198,7 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B00AT9RTAG",
               "name": [
-                "laundry",
-                "clips"
+                "laundry clips"
               ],
               "weight": 1.32
             },
@@ -43157,16 +43213,15 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B01I98YQA4",
               "name": [
-                "trekking",
-                "pole bag"
+                "trekking pole",
+                "bag"
               ],
               "weight": 0.92
             },
             {
               "link": "https://www.amazon.com/dp/B0754NKQ69",
               "name": [
-                "S2S",
-                "Ultra-sil",
+                "S2S Ultra-sil",
                 "stuff sack"
               ],
               "weight": 1
@@ -43174,8 +43229,7 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B0754NKQ69",
               "name": [
-                "S2S",
-                "Ultra-sil",
+                "S2S Ultra-sil",
                 "stuff sack"
               ],
               "weight": 1
@@ -43183,8 +43237,7 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B0754NKQ69",
               "name": [
-                "S2S",
-                "Ultra-sil",
+                "S2S Ultra-sil",
                 "stuff sack"
               ],
               "weight": 1
@@ -43192,8 +43245,7 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B0754NKQ69",
               "name": [
-                "S2S",
-                "Ultra-sil",
+                "S2S Ultra-sil",
                 "stuff sack"
               ],
               "weight": 1
@@ -43615,8 +43667,7 @@ const data = [
           "start": {
             "position": "right",
             "words": [
-              "Laguna",
-              "Amarga"
+              "Laguna Amarga"
             ]
           }
         }
@@ -46515,8 +46566,7 @@ const data = [
           "end": {
             "position": "left",
             "words": [
-              "Paine",
-              "Grande"
+              "Paine Grande"
             ]
           },
           "isSame": false,
@@ -47622,8 +47672,7 @@ const data = [
           "start": {
             "position": "left",
             "words": [
-              "Paine",
-              "Grande"
+              "Paine Grande"
             ]
           }
         }
@@ -49812,8 +49861,7 @@ const data = [
           "end": {
             "position": "right",
             "words": [
-              "Laguna",
-              "Amarga"
+              "Laguna Amarga"
             ]
           },
           "isSame": false,
@@ -49881,7 +49929,7 @@ const data = [
     "type": "thru-hike"
   },
   {
-    "index": 10,
+    "index": 11,
     "category": "trekking",
     "date": {
       "isYears": false,
@@ -49925,7 +49973,9 @@ const data = [
             {
               "link": "https://seatosummit.com/products/adaptor-coolmax-liner-insect-shield",
               "name": [
-                "Sea-to-Summit"
+                "Sea-to-Summit",
+                "Sleeping Bag",
+                "liner"
               ],
               "weight": 12.8
             },
@@ -49934,8 +49984,7 @@ const data = [
               "name": [
                 "REI Co-op",
                 "Magma 15",
-                "sleeping",
-                "bag"
+                "sleeping bag"
               ],
               "weight": 15.9
             }
@@ -49948,9 +49997,8 @@ const data = [
             {
               "link": "https://www.rei.com/product/122169/salomon-x-ultra-3-low-gtx-hiking-shoes-mens",
               "name": [
-                "X Ultra 3",
-                "Low GTX",
-                "shoes"
+                "X Ultra 3 Low",
+                "GTX shoes"
               ],
               "weight": 26.8
             },
@@ -49958,8 +50006,7 @@ const data = [
               "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
               "name": [
                 "Smartwool",
-                "boxer",
-                "briefs",
+                "boxer briefs",
                 "underwear"
               ],
               "weight": 3.25
@@ -49968,7 +50015,8 @@ const data = [
               "link": "https://www.rei.com/product/105720/wrightsock-escape-crew-socks",
               "name": [
                 "Wrightsock",
-                "Double-Layer"
+                "Double-Layer",
+                "socks"
               ],
               "weight": 2.5
             },
@@ -49984,8 +50032,7 @@ const data = [
               "link": "https://www.rei.com/product/121041/tilley-wanderer-hat",
               "name": [
                 "Tilley",
-                "Wanderer",
-                "hat"
+                "Wanderer hat"
               ],
               "weight": 5.4
             },
@@ -50009,9 +50056,8 @@ const data = [
             {
               "link": "",
               "name": [
-                "Patagonia",
-                "3L rain",
-                "jacket"
+                "Patagonia 3L",
+                "rain jacket"
               ],
               "weight": 14.1
             },
@@ -50037,8 +50083,7 @@ const data = [
               "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
               "name": [
                 "Smartwool",
-                "boxer",
-                "briefs",
+                "boxer briefs",
                 "underwear"
               ],
               "weight": 3.25
@@ -50047,8 +50092,7 @@ const data = [
               "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
               "name": [
                 "Smartwool",
-                "boxer",
-                "briefs",
+                "boxer briefs",
                 "underwear"
               ],
               "weight": 3.25
@@ -50057,7 +50101,8 @@ const data = [
               "link": "https://www.rei.com/product/105720/wrightsock-escape-crew-socks",
               "name": [
                 "Wrightsock",
-                "Double-Layer"
+                "Double-Layer",
+                "socks"
               ],
               "weight": 2.5
             },
@@ -50065,7 +50110,8 @@ const data = [
               "link": "https://www.amazon.com/Wrightsock-Unisex-Escape-Black-Camino/dp/B01IVU06GI",
               "name": [
                 "Wrightsock",
-                "Double-Layer"
+                "Double-Layer",
+                "socks"
               ],
               "weight": 2.5
             },
@@ -50120,8 +50166,7 @@ const data = [
               "link": "https://www.amazon.com/dp/B001NCDE4S",
               "name": [
                 "Nalgene 1L",
-                "water",
-                "bottle"
+                "water bottle"
               ],
               "weight": 5.9
             },
@@ -50129,8 +50174,7 @@ const data = [
               "link": "https://www.rei.com/product/101366",
               "name": [
                 "Osprey 3L",
-                "water",
-                "bladder"
+                "water bladder"
               ],
               "weight": 7.8
             },
@@ -50138,8 +50182,7 @@ const data = [
               "link": "https://www.rei.com/product/103071/sawyer-squeeze-water-filter-plus",
               "name": [
                 "Sawyer",
-                "Squeeze",
-                "water",
+                "Squeeze water",
                 "filter"
               ],
               "weight": 3.7
@@ -50227,8 +50270,7 @@ const data = [
             {
               "link": "https://www.amazon.com/gp/product/B014G8XSLY",
               "name": [
-                "toilet",
-                "paper"
+                "toilet paper"
               ],
               "weight": 3.37
             },
@@ -50244,7 +50286,8 @@ const data = [
               "link": "https://www.rei.com/product/866996/aquamira-water-treatment-1-oz",
               "name": [
                 "water",
-                "purification"
+                "purification",
+                "aquamira"
               ],
               "weight": 3
             }
@@ -50265,8 +50308,7 @@ const data = [
             {
               "link": "",
               "name": [
-                "AAA",
-                "batteries"
+                "AAA batteries"
               ],
               "weight": 3
             },
@@ -50283,9 +50325,9 @@ const data = [
             {
               "link": "",
               "name": [
-                "iPhone",
-                "Power Brick",
-                "5W charger"
+                "iPhone Power",
+                "Brick 5W",
+                "charger"
               ],
               "weight": 1.44
             },
@@ -50366,8 +50408,7 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B01N68XF0O",
               "name": [
-                "Scrubba",
-                "Wash",
+                "Scrubba Wash",
                 "laundry bag"
               ],
               "weight": 5.3
@@ -50391,16 +50432,15 @@ const data = [
               "link": "https://www.amazon.com/dp/B0054IH4N4",
               "name": [
                 "Eagle Creek",
-                "Travel",
-                "money belt"
+                "Travel money",
+                "belt"
               ],
               "weight": 1
             },
             {
               "link": "https://www.rei.com/product/881622/leki-corklite-trekking-poles-pair",
               "name": [
-                "Leki",
-                "Corklite",
+                "Leki Corklite",
                 "trekking",
                 "poles"
               ],
@@ -50448,8 +50488,7 @@ const data = [
               "link": "https://www.amazon.com/dp/B017X2WJME",
               "name": [
                 "NeatPack",
-                "toiletry",
-                "bag"
+                "toiletry bag"
               ],
               "weight": 3.2
             },
@@ -50481,8 +50520,7 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B00AT9RTAG",
               "name": [
-                "laundry",
-                "clips"
+                "laundry clips"
               ],
               "weight": 1.32
             },
@@ -50497,8 +50535,8 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B01I98YQA4",
               "name": [
-                "trekking",
-                "pole bag"
+                "trekking pole",
+                "bag"
               ],
               "weight": 0.92
             },
@@ -50513,8 +50551,7 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B0754NKQ69",
               "name": [
-                "S2S",
-                "Ultra-sil",
+                "S2S Ultra-sil",
                 "stuff sack"
               ],
               "weight": 1
@@ -50522,8 +50559,7 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B0754NKQ69",
               "name": [
-                "S2S",
-                "Ultra-sil",
+                "S2S Ultra-sil",
                 "stuff sack"
               ],
               "weight": 1
@@ -50531,8 +50567,7 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B0754NKQ69",
               "name": [
-                "S2S",
-                "Ultra-sil",
+                "S2S Ultra-sil",
                 "stuff sack"
               ],
               "weight": 1
@@ -50540,8 +50575,7 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B0754NKQ69",
               "name": [
-                "S2S",
-                "Ultra-sil",
+                "S2S Ultra-sil",
                 "stuff sack"
               ],
               "weight": 1
@@ -56039,8 +56073,7 @@ const data = [
           "end": {
             "position": "left",
             "words": [
-              "Upper",
-              "Pisang"
+              "Upper Pisang"
             ]
           },
           "isSame": false,
@@ -57146,8 +57179,7 @@ const data = [
           "start": {
             "position": "right",
             "words": [
-              "Upper",
-              "Pisang"
+              "Upper Pisang"
             ]
           }
         }
@@ -58239,8 +58271,7 @@ const data = [
           "end": {
             "position": "left",
             "words": [
-              "Tilicho",
-              "Lake"
+              "Tilicho Lake"
             ]
           },
           "isSame": false,
@@ -59346,8 +59377,7 @@ const data = [
           "start": {
             "position": "top",
             "words": [
-              "Tilicho",
-              "Lake"
+              "Tilicho Lake"
             ]
           }
         }
@@ -70373,13 +70403,13 @@ const data = [
     "type": "thru-hike"
   },
   {
-    "index": 11,
+    "index": 12,
     "category": "destination",
     "date": {
       "isYears": false,
       "range": [
         "November 6th",
-        " 8th, 2019"
+        "8th, 2019"
       ]
     },
     "description": [
@@ -70458,16 +70488,14 @@ const data = [
           "end": {
             "position": null,
             "words": [
-              "Peace",
-              "Pagoda"
+              "Peace Pagoda"
             ]
           },
           "isSame": true,
           "start": {
             "position": null,
             "words": [
-              "Peace",
-              "Pagoda"
+              "Peace Pagoda"
             ]
           }
         }
@@ -70550,7 +70578,7 @@ const data = [
     "type": "vacation"
   },
   {
-    "index": 12,
+    "index": 13,
     "category": "trekking",
     "date": {
       "isYears": true,
@@ -70578,8 +70606,8 @@ const data = [
             {
               "link": "https://evolvedsupplyco.com/supplies/p/nylofume-pack-liner",
               "name": [
-                "Nylofume",
-                "Pack Liner"
+                "Nylofume Pack",
+                "Liner"
               ],
               "weight": 1.02
             }
@@ -70601,19 +70629,16 @@ const data = [
               "link": "https://www.outdoorresearch.com/collections/sun-protection/products/mens-echo-hoodie-287625",
               "name": [
                 "Outdoor",
-                "Research",
-                "Echo sun",
-                "hoody"
+                "Research Echo",
+                "sun hoody"
               ],
               "weight": 4.5
             },
             {
               "link": "https://www.topoathletic.com/mens-pursuit",
               "name": [
-                "Topo",
-                "Athletic",
-                "Pursuit",
-                "Shoes"
+                "Topo Athletic",
+                "Pursuit Shoes"
               ],
               "weight": 22
             },
@@ -70621,8 +70646,7 @@ const data = [
               "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
               "name": [
                 "Smartwool",
-                "boxer",
-                "briefs",
+                "boxer briefs",
                 "Underwear"
               ],
               "weight": 3.25
@@ -70630,8 +70654,8 @@ const data = [
             {
               "link": "https://www.amazon.com/gp/product/B00267SFL6",
               "name": [
-                "Mueller",
-                "Knee Brace"
+                "Mueller Knee",
+                "Brace"
               ],
               "weight": 3
             },
@@ -70663,8 +70687,8 @@ const data = [
               "link": "https://www.amazon.com/gp/product/B07W5XC3DD",
               "name": [
                 "Mountain",
-                "Hardwear",
-                "down jacket"
+                "Hardwear down",
+                "jacket"
               ],
               "weight": 7.97
             },
@@ -70682,9 +70706,8 @@ const data = [
               "link": "https://senchidesigns.com/collections/shop/products/wren-hoodie",
               "name": [
                 "Senchi",
-                "Designs",
-                "Wren Alpha",
-                "Hoodie",
+                "Designs Wren",
+                "Alpha Hoodie",
                 "Pullover"
               ],
               "weight": 4.02
@@ -70708,8 +70731,7 @@ const data = [
               "link": "https://www.rei.com/product/188475",
               "name": [
                 "Platypus 1L",
-                "Filter",
-                "Pouch"
+                "Filter Pouch"
               ],
               "weight": 1.4
             },
@@ -70717,8 +70739,7 @@ const data = [
               "link": "",
               "name": [
                 "Smartwater",
-                "Water",
-                "Bottles"
+                "Water Bottles"
               ],
               "weight": 3
             }
@@ -70739,8 +70760,7 @@ const data = [
             {
               "link": "",
               "name": [
-                "Toilet",
-                "paper"
+                "Toilet paper"
               ],
               "weight": 1.69
             },
@@ -70755,9 +70775,9 @@ const data = [
             {
               "link": "https://www.amazon.com/gp/product/B004Y6K8XA",
               "name": [
-                "33 SPF",
-                "Joshua Tree",
-                "sun stick",
+                "33 SPF Joshua",
+                "Tree sun",
+                "stick",
                 "Sunblock"
               ],
               "weight": 0.95
@@ -70775,8 +70795,8 @@ const data = [
                 "allergy",
                 "medicine +",
                 "repair tape",
-                "Med +",
-                "Repair Kit"
+                "Med + Repair",
+                "Kit"
               ],
               "weight": 3.35
             }
@@ -70789,18 +70809,16 @@ const data = [
             {
               "link": "https://www.nitecorestore.com/NITECORE-NU25-UL-Headlamp-p/fl-nite-nu25-400ul-bk.htm",
               "name": [
-                "Nitecore",
-                "NU25 UL",
-                "Headlamp"
+                "Nitecore NU25",
+                "UL Headlamp"
               ],
               "weight": 1.59
             },
             {
               "link": "https://www.garmin.com/en-US/p/854515",
               "name": [
-                "Garmin",
-                "Enduro 2",
-                "GPS",
+                "Garmin Enduro",
+                "2 GPS",
                 "Smartwatch"
               ],
               "weight": 1.8
@@ -70808,8 +70826,8 @@ const data = [
             {
               "link": "https://www.apple.com/iphone-16-pro/",
               "name": [
-                "iPhone 16",
-                "Pro Phone"
+                "iPhone 16 Pro",
+                "Phone"
               ],
               "weight": 7.8
             }
@@ -70843,8 +70861,7 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B0BDHWDR12",
               "name": [
-                "Airpods Pro",
-                "2",
+                "Airpods Pro 2",
                 "Headphones"
               ],
               "weight": 1.9
@@ -70859,8 +70876,7 @@ const data = [
               "link": "https://cnocoutdoors.com/collections/trekking-poles/products/cnoc-telescopic-trekking-poles-cork-grip-single-pole",
               "name": [
                 "CNOC Cork",
-                "Trekking",
-                "Pole"
+                "Trekking Pole"
               ],
               "weight": 9.66
             },
@@ -71980,8 +71996,7 @@ const data = [
           "end": {
             "position": "left",
             "words": [
-              "Mount",
-              "Elbert"
+              "Mount Elbert"
             ]
           },
           "isSame": false,
@@ -72587,8 +72602,7 @@ const data = [
           "end": {
             "position": "top",
             "words": [
-              "Quandary",
-              "Peak"
+              "Quandary Peak"
             ]
           },
           "isSame": false,
@@ -73689,8 +73703,7 @@ const data = [
           "end": {
             "position": "bottom",
             "words": [
-              "La Plata",
-              "Peak"
+              "La Plata Peak"
             ]
           },
           "isSame": false,
@@ -74798,8 +74811,7 @@ const data = [
           "start": {
             "position": "left",
             "words": [
-              "Guanella",
-              "Pass"
+              "Guanella Pass"
             ]
           }
         }
@@ -76991,8 +77003,7 @@ const data = [
           "end": {
             "position": "top",
             "words": [
-              "Mount",
-              "Shavano"
+              "Mount Shavano"
             ]
           },
           "isSame": false,
@@ -79192,8 +79203,7 @@ const data = [
           "end": {
             "position": "right",
             "words": [
-              "Mount",
-              "Belford"
+              "Mount Belford"
             ]
           },
           "isSame": false,
@@ -80293,8 +80303,7 @@ const data = [
           "end": {
             "position": "top",
             "words": [
-              "Mount",
-              "Massive"
+              "Mount Massive"
             ]
           },
           "isSame": false,
@@ -80361,13 +80370,13 @@ const data = [
     "type": "peak-bagging"
   },
   {
-    "index": 13,
+    "index": 14,
     "category": "trekking",
     "date": {
       "isYears": false,
       "range": [
         "July 16th",
-        " 25th, 2019"
+        "25th, 2019"
       ]
     },
     "description": [
@@ -80405,7 +80414,9 @@ const data = [
             {
               "link": "https://seatosummit.com/products/adaptor-coolmax-liner-insect-shield",
               "name": [
-                "Sea-to-Summit"
+                "Sea-to-Summit",
+                "Sleeping Bag",
+                "liner"
               ],
               "weight": 12.8
             }
@@ -80420,8 +80431,7 @@ const data = [
               "name": [
                 "Trayl",
                 "Mountain",
-                "Biking",
-                "shorts"
+                "Biking shorts"
               ],
               "weight": 9
             },
@@ -80429,8 +80439,7 @@ const data = [
               "link": "",
               "name": [
                 "Salomon XA",
-                "Pro 3D",
-                "shoes"
+                "Pro 3D shoes"
               ],
               "weight": 22
             },
@@ -80438,8 +80447,7 @@ const data = [
               "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
               "name": [
                 "Smartwool",
-                "boxer",
-                "briefs",
+                "boxer briefs",
                 "underwear"
               ],
               "weight": 3.25
@@ -80448,7 +80456,8 @@ const data = [
               "link": "https://www.rei.com/product/105720/wrightsock-escape-crew-socks",
               "name": [
                 "Wrightsock",
-                "Double-Layer"
+                "Double-Layer",
+                "socks"
               ],
               "weight": 2.5
             },
@@ -80480,10 +80489,8 @@ const data = [
             {
               "link": "https://www.rei.com/product/134025/prana-stretch-zion-straight-pants-mens",
               "name": [
-                "Prana",
-                "Stretch",
-                "Zion",
-                "Straight",
+                "Prana Stretch",
+                "Zion Straight",
                 "pants"
               ],
               "weight": 13
@@ -80491,9 +80498,8 @@ const data = [
             {
               "link": "",
               "name": [
-                "Patagonia",
-                "3L rain",
-                "jacket"
+                "Patagonia 3L",
+                "rain jacket"
               ],
               "weight": 14.1
             },
@@ -80501,10 +80507,8 @@ const data = [
               "link": "",
               "name": [
                 "The North",
-                "Face",
-                "Momentum",
-                "Jacket",
-                "fleece"
+                "Face Momentum",
+                "Jacket fleece"
               ],
               "weight": 14
             },
@@ -80530,8 +80534,7 @@ const data = [
               "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
               "name": [
                 "Smartwool",
-                "boxer",
-                "briefs",
+                "boxer briefs",
                 "underwear"
               ],
               "weight": 3.25
@@ -80540,8 +80543,7 @@ const data = [
               "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
               "name": [
                 "Smartwool",
-                "boxer",
-                "briefs",
+                "boxer briefs",
                 "underwear"
               ],
               "weight": 3.25
@@ -80550,7 +80552,8 @@ const data = [
               "link": "https://www.rei.com/product/105720/wrightsock-escape-crew-socks",
               "name": [
                 "Wrightsock",
-                "Double-Layer"
+                "Double-Layer",
+                "socks"
               ],
               "weight": 2.5
             },
@@ -80558,7 +80561,8 @@ const data = [
               "link": "https://www.amazon.com/Wrightsock-Unisex-Escape-Black-Camino/dp/B01IVU06GI",
               "name": [
                 "Wrightsock",
-                "Double-Layer"
+                "Double-Layer",
+                "socks"
               ],
               "weight": 2.5
             },
@@ -80591,8 +80595,7 @@ const data = [
               "link": "https://www.rei.com/product/894802/rei-co-op-teton-fleece-pants-mens-32-inseam",
               "name": [
                 "REI Co-op",
-                "Fleece",
-                "pants"
+                "Fleece pants"
               ],
               "weight": 10
             },
@@ -80614,8 +80617,7 @@ const data = [
               "link": "",
               "name": [
                 "CamelBak",
-                "water",
-                "bottle"
+                "water bottle"
               ],
               "weight": 5.47
             },
@@ -80623,8 +80625,7 @@ const data = [
               "link": "https://www.rei.com/product/108367/camelbak-crux-2l-reservoir-2-liters",
               "name": [
                 "CamelBak 2L",
-                "water",
-                "bladder"
+                "water bladder"
               ],
               "weight": 7
             },
@@ -80632,8 +80633,7 @@ const data = [
               "link": "https://www.rei.com/product/103071/sawyer-squeeze-water-filter-plus",
               "name": [
                 "Sawyer",
-                "Squeeze",
-                "water",
+                "Squeeze water",
                 "filter"
               ],
               "weight": 3.7
@@ -80720,8 +80720,7 @@ const data = [
             {
               "link": "https://www.amazon.com/gp/product/B014G8XSLY",
               "name": [
-                "toilet",
-                "paper"
+                "toilet paper"
               ],
               "weight": 3.37
             },
@@ -80737,7 +80736,8 @@ const data = [
               "link": "https://www.rei.com/product/407071/potable-aqua-iodine-tablets",
               "name": [
                 "water",
-                "purification"
+                "purification",
+                "iodine"
               ],
               "weight": 3
             }
@@ -80758,8 +80758,7 @@ const data = [
             {
               "link": "",
               "name": [
-                "AAA",
-                "batteries"
+                "AAA batteries"
               ],
               "weight": 3
             },
@@ -80776,9 +80775,9 @@ const data = [
             {
               "link": "",
               "name": [
-                "iPhone",
-                "Power Brick",
-                "5W charger"
+                "iPhone Power",
+                "Brick 5W",
+                "charger"
               ],
               "weight": 1.44
             },
@@ -80859,8 +80858,7 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B01N68XF0O",
               "name": [
-                "Scrubba",
-                "Wash",
+                "Scrubba Wash",
                 "laundry bag"
               ],
               "weight": 5.3
@@ -80884,16 +80882,15 @@ const data = [
               "link": "https://www.amazon.com/dp/B0054IH4N4",
               "name": [
                 "Eagle Creek",
-                "Travel",
-                "money belt"
+                "Travel money",
+                "belt"
               ],
               "weight": 1
             },
             {
               "link": "https://www.rei.com/product/881622/leki-corklite-trekking-poles-pair",
               "name": [
-                "Leki",
-                "Corklite",
+                "Leki Corklite",
                 "trekking",
                 "poles"
               ],
@@ -80941,8 +80938,7 @@ const data = [
               "link": "https://www.amazon.com/dp/B017X2WJME",
               "name": [
                 "NeatPack",
-                "toiletry",
-                "bag"
+                "toiletry bag"
               ],
               "weight": 3.2
             },
@@ -80974,8 +80970,7 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B00AT9RTAG",
               "name": [
-                "laundry",
-                "clips"
+                "laundry clips"
               ],
               "weight": 1.32
             },
@@ -80991,8 +80986,8 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B01I98YQA4",
               "name": [
-                "trekking",
-                "pole bag"
+                "trekking pole",
+                "bag"
               ],
               "weight": 0.92
             }
@@ -86493,8 +86488,7 @@ const data = [
           "end": {
             "position": "left",
             "words": [
-              "Citta de",
-              "Fume"
+              "Citta de Fume"
             ]
           },
           "isSame": false,
@@ -87600,8 +87594,7 @@ const data = [
           "start": {
             "position": "left",
             "words": [
-              "Citta de",
-              "Fume"
+              "Citta de Fume"
             ]
           }
         }
@@ -92058,13 +92051,13 @@ const data = [
     "type": "thru-hike"
   },
   {
-    "index": 14,
+    "index": 15,
     "category": "trekking",
     "date": {
       "isYears": false,
       "range": [
         "September 2nd",
-        " 13th, 2018"
+        "13th, 2018"
       ]
     },
     "description": [
@@ -92102,7 +92095,9 @@ const data = [
             {
               "link": "https://seatosummit.com/products/adaptor-coolmax-liner-insect-shield",
               "name": [
-                "Sea-to-Summit"
+                "Sea-to-Summit",
+                "Sleeping Bag",
+                "liner"
               ],
               "weight": 12.8
             }
@@ -92117,8 +92112,7 @@ const data = [
               "name": [
                 "Trayl",
                 "Mountain",
-                "Biking",
-                "shorts"
+                "Biking shorts"
               ],
               "weight": 9
             },
@@ -92126,8 +92120,7 @@ const data = [
               "link": "",
               "name": [
                 "Salomon XA",
-                "Pro 3D",
-                "shoes"
+                "Pro 3D shoes"
               ],
               "weight": 22
             },
@@ -92135,8 +92128,7 @@ const data = [
               "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
               "name": [
                 "Smartwool",
-                "boxer",
-                "briefs",
+                "boxer briefs",
                 "underwear"
               ],
               "weight": 3.25
@@ -92145,7 +92137,8 @@ const data = [
               "link": "https://www.rei.com/product/105720/wrightsock-escape-crew-socks",
               "name": [
                 "Wrightsock",
-                "Double-Layer"
+                "Double-Layer",
+                "socks"
               ],
               "weight": 2.5
             },
@@ -92177,8 +92170,7 @@ const data = [
             {
               "link": "https://www.rei.com/product/894351",
               "name": [
-                "Prana",
-                "Stretch",
+                "Prana Stretch",
                 "Zion pants"
               ],
               "weight": 18.4
@@ -92186,9 +92178,8 @@ const data = [
             {
               "link": "",
               "name": [
-                "Patagonia",
-                "3L rain",
-                "jacket"
+                "Patagonia 3L",
+                "rain jacket"
               ],
               "weight": 14.1
             },
@@ -92196,8 +92187,7 @@ const data = [
               "link": "",
               "name": [
                 "The North",
-                "Face",
-                "Momentum",
+                "Face Momentum",
                 "fleece"
               ],
               "weight": 14
@@ -92224,8 +92214,7 @@ const data = [
               "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
               "name": [
                 "Smartwool",
-                "boxer",
-                "briefs",
+                "boxer briefs",
                 "underwear"
               ],
               "weight": 3.25
@@ -92234,8 +92223,7 @@ const data = [
               "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
               "name": [
                 "Smartwool",
-                "boxer",
-                "briefs",
+                "boxer briefs",
                 "underwear"
               ],
               "weight": 3.25
@@ -92244,7 +92232,8 @@ const data = [
               "link": "https://www.rei.com/product/105720/wrightsock-escape-crew-socks",
               "name": [
                 "Wrightsock",
-                "Double-Layer"
+                "Double-Layer",
+                "socks"
               ],
               "weight": 2.5
             },
@@ -92252,7 +92241,8 @@ const data = [
               "link": "https://www.amazon.com/Wrightsock-Unisex-Escape-Black-Camino/dp/B01IVU06GI",
               "name": [
                 "Wrightsock",
-                "Double-Layer"
+                "Double-Layer",
+                "socks"
               ],
               "weight": 2.5
             },
@@ -92285,8 +92275,7 @@ const data = [
               "link": "https://www.rei.com/product/894802/rei-co-op-teton-fleece-pants-mens-32-inseam",
               "name": [
                 "REI Co-op",
-                "Fleece",
-                "pants"
+                "Fleece pants"
               ],
               "weight": 10
             }
@@ -92300,8 +92289,7 @@ const data = [
               "link": "",
               "name": [
                 "CamelBak",
-                "water",
-                "bottle"
+                "water bottle"
               ],
               "weight": 5.47
             },
@@ -92309,8 +92297,7 @@ const data = [
               "link": "https://www.rei.com/product/108367/camelbak-crux-2l-reservoir-2-liters",
               "name": [
                 "CamelBak 2L",
-                "water",
-                "bladder"
+                "water bladder"
               ],
               "weight": 7
             }
@@ -92396,8 +92383,7 @@ const data = [
             {
               "link": "https://www.amazon.com/gp/product/B014G8XSLY",
               "name": [
-                "toilet",
-                "paper"
+                "toilet paper"
               ],
               "weight": 3.37
             },
@@ -92413,7 +92399,8 @@ const data = [
               "link": "https://www.rei.com/product/407071/potable-aqua-iodine-tablets",
               "name": [
                 "water",
-                "purification"
+                "purification",
+                "iodine"
               ],
               "weight": 3
             }
@@ -92434,24 +92421,25 @@ const data = [
             {
               "link": "",
               "name": [
-                "AAA",
-                "batteries"
+                "AAA batteries"
               ],
               "weight": 3
             },
             {
               "link": "",
               "name": [
-                "Ultra-compact"
+                "5000mAh",
+                "Ultra-compact",
+                "powerbank"
               ],
               "weight": 5.36
             },
             {
               "link": "",
               "name": [
-                "iPhone",
-                "Power Brick",
-                "5W charger"
+                "iPhone Power",
+                "Brick 5W",
+                "charger"
               ],
               "weight": 1.44
             },
@@ -92533,8 +92521,7 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B01N68XF0O",
               "name": [
-                "Scrubba",
-                "Wash",
+                "Scrubba Wash",
                 "laundry bag"
               ],
               "weight": 5.3
@@ -92558,16 +92545,15 @@ const data = [
               "link": "https://www.amazon.com/dp/B0054IH4N4",
               "name": [
                 "Eagle Creek",
-                "Travel",
-                "money belt"
+                "Travel money",
+                "belt"
               ],
               "weight": 1
             },
             {
               "link": "https://www.rei.com/product/881622/leki-corklite-trekking-poles-pair",
               "name": [
-                "Leki",
-                "Corklite",
+                "Leki Corklite",
                 "trekking",
                 "poles"
               ],
@@ -92615,8 +92601,7 @@ const data = [
               "link": "https://www.amazon.com/dp/B017X2WJME",
               "name": [
                 "NeatPack",
-                "toiletry",
-                "bag"
+                "toiletry bag"
               ],
               "weight": 3.2
             },
@@ -92648,8 +92633,7 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B00AT9RTAG",
               "name": [
-                "laundry",
-                "clips"
+                "laundry clips"
               ],
               "weight": 1.32
             },
@@ -92664,8 +92648,8 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B01I98YQA4",
               "name": [
-                "trekking",
-                "pole bag"
+                "trekking pole",
+                "bag"
               ],
               "weight": 0.92
             }
@@ -94876,8 +94860,7 @@ const data = [
           "start": {
             "position": "right",
             "words": [
-              "Auberge",
-              "Truc"
+              "Auberge Truc"
             ]
           }
         }
@@ -95969,8 +95952,7 @@ const data = [
           "end": {
             "position": "left",
             "words": [
-              "Robert",
-              "Blanc"
+              "Robert Blanc"
             ]
           },
           "isSame": false,
@@ -97070,16 +97052,14 @@ const data = [
           "end": {
             "position": "right",
             "words": [
-              "Maison",
-              "Veille"
+              "Maison Veille"
             ]
           },
           "isSame": false,
           "start": {
             "position": "left",
             "words": [
-              "Robert",
-              "Blanc"
+              "Robert Blanc"
             ]
           }
         }
@@ -98178,8 +98158,7 @@ const data = [
           "start": {
             "position": "left",
             "words": [
-              "Maison",
-              "Veille"
+              "Maison Veille"
             ]
           }
         }
@@ -105926,13 +105905,13 @@ const data = [
     },
     "timestamp": "1535872800",
     "title": [
-      "Tour du",
-      "Mont Blanc"
+      "Tour du Mont",
+      "Blanc"
     ],
     "type": "thru-hike"
   },
   {
-    "index": 15,
+    "index": 16,
     "category": "trekking",
     "date": {
       "isYears": false,
@@ -105977,7 +105956,9 @@ const data = [
             {
               "link": "https://seatosummit.com/products/adaptor-coolmax-liner-insect-shield",
               "name": [
-                "Sea-to-Summit"
+                "Sea-to-Summit",
+                "Sleeping Bag",
+                "liner"
               ],
               "weight": 12.8
             }
@@ -105992,8 +105973,7 @@ const data = [
               "name": [
                 "Trayl",
                 "Mountain",
-                "Biking",
-                "shorts"
+                "Biking shorts"
               ],
               "weight": 9
             },
@@ -106001,8 +105981,7 @@ const data = [
               "link": "",
               "name": [
                 "Salomon XA",
-                "Pro 3D",
-                "shoes"
+                "Pro 3D shoes"
               ],
               "weight": 22
             },
@@ -106010,8 +105989,7 @@ const data = [
               "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
               "name": [
                 "Smartwool",
-                "boxer",
-                "briefs",
+                "boxer briefs",
                 "underwear"
               ],
               "weight": 3.25
@@ -106020,7 +105998,8 @@ const data = [
               "link": "https://www.amazon.com/Wrightsock-Unisex-Escape-Black-Camino/dp/B01IVU06GI",
               "name": [
                 "Wrightsock",
-                "Double-Layer"
+                "Double-Layer",
+                "socks"
               ],
               "weight": 2.5
             },
@@ -106044,17 +106023,15 @@ const data = [
               "link": "https://www.rei.com/product/112497/outdoor-research-echo-duo-t-shirt-mens",
               "name": [
                 "Outdoor",
-                "Research",
-                "Echo Duo",
-                "t-shirt"
+                "Research Echo",
+                "Duo t-shirt"
               ],
               "weight": 3.1
             },
             {
               "link": "https://www.rei.com/product/894351",
               "name": [
-                "Prana",
-                "Stretch",
+                "Prana Stretch",
                 "Zion pants"
               ],
               "weight": 18.4
@@ -106062,9 +106039,8 @@ const data = [
             {
               "link": "",
               "name": [
-                "Patagonia",
-                "3L rain",
-                "jacket"
+                "Patagonia 3L",
+                "rain jacket"
               ],
               "weight": 14.1
             },
@@ -106072,8 +106048,7 @@ const data = [
               "link": "",
               "name": [
                 "The North",
-                "Face",
-                "Momentum",
+                "Face Momentum",
                 "fleece"
               ],
               "weight": 14
@@ -106100,8 +106075,7 @@ const data = [
               "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
               "name": [
                 "Smartwool",
-                "boxer",
-                "briefs",
+                "boxer briefs",
                 "underwear"
               ],
               "weight": 3.25
@@ -106110,8 +106084,7 @@ const data = [
               "link": "https://www.rei.com/product/113056/smartwool-merino-150-pattern-boxer-briefs-mens",
               "name": [
                 "Smartwool",
-                "boxer",
-                "briefs",
+                "boxer briefs",
                 "underwear"
               ],
               "weight": 3.25
@@ -106120,7 +106093,8 @@ const data = [
               "link": "https://www.rei.com/product/105720/wrightsock-escape-crew-socks",
               "name": [
                 "Wrightsock",
-                "Double-Layer"
+                "Double-Layer",
+                "socks"
               ],
               "weight": 2.5
             },
@@ -106128,7 +106102,8 @@ const data = [
               "link": "https://www.rei.com/product/105720/wrightsock-escape-crew-socks",
               "name": [
                 "Wrightsock",
-                "Double-Layer"
+                "Double-Layer",
+                "socks"
               ],
               "weight": 2.5
             },
@@ -106175,8 +106150,7 @@ const data = [
               "link": "",
               "name": [
                 "CamelBak",
-                "water",
-                "bottle"
+                "water bottle"
               ],
               "weight": 5.47
             },
@@ -106184,8 +106158,7 @@ const data = [
               "link": "https://www.rei.com/product/108367/camelbak-crux-2l-reservoir-2-liters",
               "name": [
                 "CamelBak 2L",
-                "water",
-                "bladder"
+                "water bladder"
               ],
               "weight": 7
             }
@@ -106271,8 +106244,7 @@ const data = [
             {
               "link": "https://www.amazon.com/gp/product/B014G8XSLY",
               "name": [
-                "toilet",
-                "paper"
+                "toilet paper"
               ],
               "weight": 3.37
             },
@@ -106280,7 +106252,8 @@ const data = [
               "link": "https://www.rei.com/product/407071/potable-aqua-iodine-tablets",
               "name": [
                 "Water",
-                "purification"
+                "purification",
+                "iodine"
               ],
               "weight": 3
             },
@@ -106309,24 +106282,25 @@ const data = [
             {
               "link": "",
               "name": [
-                "AAA",
-                "batteries"
+                "AAA batteries"
               ],
               "weight": 3
             },
             {
               "link": "",
               "name": [
-                "Ultra-compact"
+                "5000mAh",
+                "Ultra-compact",
+                "powerbank"
               ],
               "weight": 5.36
             },
             {
               "link": "",
               "name": [
-                "iPhone",
-                "Power Brick",
-                "5W charger"
+                "iPhone Power",
+                "Brick 5W",
+                "charger"
               ],
               "weight": 1.44
             },
@@ -106417,16 +106391,15 @@ const data = [
               "link": "https://www.amazon.com/dp/B0054IH4N4",
               "name": [
                 "Eagle Creek",
-                "Travel",
-                "money belt"
+                "Travel money",
+                "belt"
               ],
               "weight": 1
             },
             {
               "link": "https://www.rei.com/product/881622/leki-corklite-trekking-poles-pair",
               "name": [
-                "Leki",
-                "Corklite",
+                "Leki Corklite",
                 "trekking",
                 "poles"
               ],
@@ -106459,8 +106432,8 @@ const data = [
             {
               "link": "",
               "name": [
-                "contact",
-                "lense wash"
+                "contact lense",
+                "wash"
               ],
               "weight": 8
             },
@@ -106498,8 +106471,7 @@ const data = [
               "link": "https://www.amazon.com/dp/B017X2WJME",
               "name": [
                 "NeatPack",
-                "toiletry",
-                "bag"
+                "toiletry bag"
               ],
               "weight": 3.2
             },
@@ -106531,8 +106503,7 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B00AT9RTAG",
               "name": [
-                "laundry",
-                "clips"
+                "laundry clips"
               ],
               "weight": 1.32
             },
@@ -106547,8 +106518,8 @@ const data = [
             {
               "link": "https://www.amazon.com/dp/B01I98YQA4",
               "name": [
-                "trekking",
-                "pole bag"
+                "trekking pole",
+                "bag"
               ],
               "weight": 0.92
             }
@@ -107652,7 +107623,6 @@ const data = [
           "end": {
             "position": "left",
             "words": [
-              "",
               "Roncesvalles"
             ]
           },
@@ -107661,8 +107631,7 @@ const data = [
             "position": "right",
             "words": [
               "Saint Jean",
-              "Pied de",
-              "Port"
+              "Pied de Port"
             ]
           }
         }
@@ -108761,7 +108730,6 @@ const data = [
           "start": {
             "position": "top",
             "words": [
-              "",
               "Roncesvalles"
             ]
           }
@@ -116458,8 +116426,7 @@ const data = [
           "end": {
             "position": "top",
             "words": [
-              "Santo",
-              "Domingo"
+              "Santo Domingo"
             ]
           },
           "isSame": false,
@@ -117566,8 +117533,7 @@ const data = [
           "start": {
             "position": "right",
             "words": [
-              "Santo",
-              "Domingo"
+              "Santo Domingo"
             ]
           }
         }
@@ -141829,13 +141795,13 @@ const data = [
     "type": "thru-hike"
   },
   {
-    "index": 16,
+    "index": 17,
     "category": "destination",
     "date": {
       "isYears": false,
       "range": [
         "March 25th",
-        " 27th, 2016"
+        "27th, 2016"
       ]
     },
     "description": [
@@ -142010,13 +141976,13 @@ const data = [
     "type": "vacation"
   },
   {
-    "index": 17,
+    "index": 18,
     "category": "destination",
     "date": {
       "isYears": false,
       "range": [
         "March 18th",
-        " 24th, 2016"
+        "24th, 2016"
       ]
     },
     "description": [
@@ -142230,13 +142196,13 @@ const data = [
     "type": "vacation"
   },
   {
-    "index": 18,
+    "index": 19,
     "category": "destination",
     "date": {
       "isYears": false,
       "range": [
         "March 23rd",
-        " 25th, 2015"
+        "25th, 2015"
       ]
     },
     "description": [
@@ -142277,16 +142243,16 @@ const data = [
           "end": {
             "position": null,
             "words": [
-              "Exploring",
-              "the city"
+              "Exploring the",
+              "city"
             ]
           },
           "isSame": true,
           "start": {
             "position": null,
             "words": [
-              "Exploring",
-              "the city"
+              "Exploring the",
+              "city"
             ]
           }
         }
@@ -142329,13 +142295,13 @@ const data = [
     "type": "vacation"
   },
   {
-    "index": 19,
+    "index": 20,
     "category": "destination",
     "date": {
       "isYears": false,
       "range": [
         "March 19th",
-        " 22nd, 2015"
+        "22nd, 2015"
       ]
     },
     "description": [
@@ -142420,7 +142386,6 @@ const data = [
           "end": {
             "position": null,
             "words": [
-              "",
               "Lollapalooza"
             ]
           },
@@ -142428,7 +142393,6 @@ const data = [
           "start": {
             "position": null,
             "words": [
-              "",
               "Lollapalooza"
             ]
           }
@@ -142467,8 +142431,7 @@ const data = [
     },
     "timestamp": "1426762800",
     "title": [
-      "Buenos",
-      "Aires"
+      "Buenos Aires"
     ],
     "type": "vacation"
   }

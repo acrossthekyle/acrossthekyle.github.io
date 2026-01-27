@@ -6,8 +6,8 @@ const styles = tw({
     w-full max-w-lg
     my-0 mx-auto
 
-    sm:flex-row
-    sm:justify-between
+    md:flex-row
+    md:justify-between
   `,
   nav: `
     w-full
@@ -28,6 +28,7 @@ const styles = tw({
 
     md:text-right
     md:text-xs
+    md:!-mb-0.75
   `,
 });
 

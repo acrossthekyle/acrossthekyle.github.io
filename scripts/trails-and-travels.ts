@@ -11,7 +11,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import readingTime from 'reading-time';
 
-const trips = path.join(process.cwd(), './repository/experiences');
+const trips = path.join(process.cwd(), './repository/trails-and-travels');
 const output = path.join(process.cwd(), './src/db');
 
 /* UTILITY METHODS */
@@ -59,7 +59,7 @@ async function writeData(destination, data) {
   await writeFile(output, destination, json);
 }
 
-function turnStringIntoArrayForLists(value: string, limit = 12) {
+function turnStringIntoArrayForLists(value: string, limit = 14) {
   const parts = value.split(' ');
   let result = [''];
   let index = 0;
@@ -662,7 +662,7 @@ function getTripDate(trip, stages) {
       ].filter(Boolean).join(''),
       [
         doMonthsMatch ? false : monthB,
-        ` ${formatDate(end, 'do')}`,
+        `${doMonthsMatch ? '' : ' '}${formatDate(end, 'do')}`,
         doYearsMatch ? `, ${yearA}` : `, ${yearB}`,
       ].filter(Boolean).join(''),
     ];
@@ -820,6 +820,6 @@ export async function go() {
       };
     });
 
-    writeData('experiences.js', result);
+    writeData('trails-and-travels.js', result);
   }
 }

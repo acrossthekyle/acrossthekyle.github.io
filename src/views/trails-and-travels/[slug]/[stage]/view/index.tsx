@@ -75,27 +75,30 @@ export default function View({ data }: Props) {
           </ImageCaption>
         </ImageFigure>
         <p>
+          <strong>
+            <small>
+              {data.location.join(', ')}
+            </small>
+          </strong>
           <em>
-            <strong>
-              <small>
-                {data.location.join(', ')}
-              </small>
-            </strong>
+            <small>
+              {data.date}
+            </small>
           </em>
         </p>
         {data.description.map((paragraph) => (
           <p key={paragraph}>{paragraph}</p>
         ))}
+        {data.hasGpx && (
+          <LinkItalic href={`/trails-and-travels/${data.slug}/${data.index}/gpx`}>
+            View route and elevation
+          </LinkItalic>
+        )}
         {data.hasNavigation && (
           <Navigation
             next={data.next}
             slug={data.slug}
           />
-        )}
-        {data.hasGpx && (
-          <LinkItalic href={`/trails-and-travels/${data.slug}/${data.index}/gpx`}>
-            The route and elevation
-          </LinkItalic>
         )}
       </article>
     </Layout>

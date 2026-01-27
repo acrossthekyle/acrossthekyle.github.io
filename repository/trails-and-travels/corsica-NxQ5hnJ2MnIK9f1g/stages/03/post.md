@@ -1,0 +1,3 @@
+Visiting Plage Saint-François felt like a perfect balance between city life and the sea. Located right along Ajaccio's waterfront, it was incredibly easy to reach from my hotel. The clear water, rocky shoreline, and views back toward the city created a setting that felt both refreshing and uniquely Corsican.
+
+From the beach, I could see the citadel nearby and watch boats pass in the distance while locals and visitors alike enjoyed the water. Whether I was swimming, relaxing by the shore, or simply taking in the coastal views, Plage Saint-François offered a simple but memorable way to experience Ajaccio from the water's edge. I even took home a souvenior: a nice but gentle sun burn.

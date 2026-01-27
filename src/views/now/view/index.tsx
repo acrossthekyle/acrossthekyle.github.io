@@ -24,7 +24,7 @@ export default function View() {
           Daily 30-minute yoga videos with my partner
         </li>
         <li>
-          Started rewatching of <em>Star Trek: Enterprise</em>
+          Started rewatching <em>Star Trek: Enterprise</em>
         </li>
         <li>
           Planning a trip to Peru

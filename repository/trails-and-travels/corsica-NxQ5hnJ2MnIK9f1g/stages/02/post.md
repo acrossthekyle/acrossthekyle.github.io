@@ -1,0 +1,3 @@
+Visiting the Citadelle d'Ajaccio is a subtle but rewarding experience, especially as it sits right along the city's waterfront. The fortress doesn't dominate the city in the way some citadels do, but its sturdy walls and coastal setting quietly reflect Ajaccio's strategic past. Walking nearby, I felt the contrast between the historic stonework and the rhythm of modern life unfolding just beyond its gates.
+
+From the outside, the citadel frames beautiful views of the harbor and the open sea, making it a pleasant stop during my strolls along the coast. Even without venturing inside, standing near the walls and imagining the centuries of history they've witnessed adds depth to my time in Ajaccio, blending the city's past with its relaxed, seaside atmosphere.

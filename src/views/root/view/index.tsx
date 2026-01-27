@@ -18,34 +18,29 @@ export default function View() {
       <p>
         I'm based in <em>Chicago</em> with my partner and our dog Dax, on the lands of the <em>Potawatomi</em>, <em>Ojibwe</em>, and <em>Odawa</em>. By day, I build web apps as a self-taught software engineer. By trail, I explore the world &ndash; from Nepal's Himalayas to windswept Patagonia &ndash; carrying everything I need on my back. <em>Wandering is life</em>, and the thrill keeps me coming back for more.
       </p>
-      <section>
-        <h2>
-          <strong>THE BACKSTORY</strong>
-        </h2>
-        <p>A brief history of my life so far, and how I ended up where I am.</p>
-        <ul className={styles.list}>
-          {TIMELINE.map(({ paragraph, title, year }) => (
-            <li className={styles.item} key={year}>
-              <span className={styles.year}>{year}</span>
-              <div className={styles.line}>
-                <div className={styles.dot} />
-              </div>
-              <p className={styles.description}>
-                <strong className={styles.title}>
-                  {title}
-                </strong>
-                {!!paragraph && (
-                  <span className={styles.text}>
-                    {paragraph}
-                  </span>
-                )}
-              </p>
-            </li>
-          ))}
-        </ul>
-      </section>
+      <p>Here's a brief history of my life so far, and how I ended up where I am:</p>
+      <ul className={styles.list}>
+        {TIMELINE.map(({ paragraph, title, year }) => (
+          <li className={styles.item} key={year}>
+            <span className={styles.year}>{year}</span>
+            <div className={styles.line}>
+              <div className={styles.dot} />
+            </div>
+            <p className={styles.description}>
+              <strong className={styles.title}>
+                {title}
+              </strong>
+              {!!paragraph && (
+                <span className={styles.text}>
+                  {paragraph}
+                </span>
+              )}
+            </p>
+          </li>
+        ))}
+      </ul>
       <LinkItalic href="/trails-and-travels">
-        My trails and travels
+        View trails and travels
       </LinkItalic>
     </Layout>
   );
