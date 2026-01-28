@@ -15530,7 +15530,7 @@ const data = [
     "title": [
       "Geneva"
     ],
-    "type": "vacation"
+    "type": "destination"
   },
   {
     "index": 3,
@@ -15705,7 +15705,7 @@ const data = [
       "Porto-Vecchio",
       "+ Ajaccio"
     ],
-    "type": "vacation"
+    "type": "destination"
   },
   {
     "index": 4,
@@ -31075,7 +31075,7 @@ const data = [
     "title": [
       "Luxor"
     ],
-    "type": "vacation"
+    "type": "destination"
   },
   {
     "index": 6,
@@ -31282,7 +31282,7 @@ const data = [
     "title": [
       "Cairo"
     ],
-    "type": "vacation"
+    "type": "destination"
   },
   {
     "index": 7,
@@ -42587,7 +42587,7 @@ const data = [
     "title": [
       "San Juan"
     ],
-    "type": "vacation"
+    "type": "destination"
   },
   {
     "index": 10,
@@ -70575,7 +70575,7 @@ const data = [
     "title": [
       "Pokhara"
     ],
-    "type": "vacation"
+    "type": "destination"
   },
   {
     "index": 13,
@@ -141973,7 +141973,7 @@ const data = [
     "title": [
       "Patagonia"
     ],
-    "type": "vacation"
+    "type": "destination"
   },
   {
     "index": 18,
@@ -142193,7 +142193,7 @@ const data = [
       "Santiago +",
       "Valparaiso"
     ],
-    "type": "vacation"
+    "type": "destination"
   },
   {
     "index": 19,
@@ -142292,7 +142292,7 @@ const data = [
     "title": [
       "Montevideo"
     ],
-    "type": "vacation"
+    "type": "destination"
   },
   {
     "index": 20,
@@ -142433,7 +142433,7 @@ const data = [
     "title": [
       "Buenos Aires"
     ],
-    "type": "vacation"
+    "type": "destination"
   }
 ];
 

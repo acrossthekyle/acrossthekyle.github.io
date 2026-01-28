@@ -43,23 +43,22 @@ export default function View({ data }: Props) {
             </BreadcrumbList>
           </Breadcrumb>
           <h1>
-            <strong>
-              <small>
-                {data.snippet}
-              </small>
-            </strong>
+            <strong>{data.snippet}</strong>
             <small>
-              <em>
-                {data.label} {data.index}:{' '}
-                {data.termini.isSame ? (
-                  <>{data.termini.end.words.join(' ')}</>
-                ) : (
-                  <>
-                    {data.termini.start.words.join(' ')} → {data.termini.end.words.join(' ')}
-                  </>
-                )}
-              </em>
+              <em>{data.label} {data.index}:</em>{' '}
+              {data.termini.isSame ? (
+                <>{data.termini.end.words.join(' ')}</>
+              ) : (
+                <>
+                  {data.termini.start.words.join(' ')} <em>→</em> {data.termini.end.words.join(' ')}
+                </>
+              )}
             </small>
+            <br />
+            <em>
+              <small>{data.location.join(', ')}</small>
+              <small>{data.date}</small>
+            </em>
           </h1>
         </header>
         <ImageFigure className={styles.figure}>
@@ -74,18 +73,6 @@ export default function View({ data }: Props) {
             {data.location.join(', ')}
           </ImageCaption>
         </ImageFigure>
-        <p>
-          <strong>
-            <small>
-              {data.location.join(', ')}
-            </small>
-          </strong>
-          <em>
-            <small>
-              {data.date}
-            </small>
-          </em>
-        </p>
         {data.description.map((paragraph) => (
           <p key={paragraph}>{paragraph}</p>
         ))}

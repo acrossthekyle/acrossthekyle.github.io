@@ -22,14 +22,8 @@ const store = create<State & Actions>()(
   }),
 );
 
-export function useModel(
-  data: Data[],
-  onChange: (filter: string) => void,
-) {
-  const {
-    filterBy,
-    setFilterBy,
-  } = store();
+export function useModel(data: Data[], onChange: (filter: string) => void) {
+  const { filterBy, setFilterBy } = store();
 
   useEffect(() => {
     onChange(filterBy);
@@ -44,26 +38,22 @@ export function useModel(
     setFilterBy(event.target.value);
   }
 
-  const reduced = data.reduce((initialObject: { [key: string]: number }, { type }) => {
-    initialObject[type] = (initialObject[type] || 0) + 1;
+  const reduced = data.reduce((items: { [key: string]: number }, { type }) => {
+    items[type] = (items[type] || 0) + 1;
 
-    return initialObject;
+    return items;
   }, {});
 
-  const types = Object.entries(reduced).map(([ value, count ]) => {
-    return {
-      value,
-      count,
-    };
-  });
+  const types = Object.entries(reduced).map(([ value, count ]) => ({
+    value,
+    count,
+  }));
 
   return {
     filterBy,
     handleOnSelect,
     handleOnTag,
-    total: types.reduce((total: number, { count }) => {
-      return total + count;
-    }, 0),
+    total: types.reduce((total: number, { count }) => total + count, 0),
     types,
   };
 };

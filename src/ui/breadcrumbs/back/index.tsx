@@ -1,4 +1,4 @@
-import { MoveLeft as Icon } from 'lucide-react';
+import { ArrowLeft as Icon } from 'lucide-react';
 
 import styles from './stylesheet';
 

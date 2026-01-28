@@ -8,7 +8,6 @@ const styles = tw({
     px-0.5
     uppercase
     text-xs
-    font-mono
     tracking-wide
 
     before:block

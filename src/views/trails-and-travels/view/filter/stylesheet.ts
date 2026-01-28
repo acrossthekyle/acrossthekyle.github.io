@@ -12,9 +12,8 @@ const styles = tw({
     block
     w-full
     mb-10
-    py-3 pl-2
-    font-mono
-    text-sm text-current/75
+    py-2 pl-2
+    text-sm
     uppercase
     rounded-sm
     duration-800

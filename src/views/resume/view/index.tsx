@@ -1,4 +1,5 @@
 import { Layout } from '@/layout';
+import { LinkItalic } from '@/ui/link';
 
 import styles from './stylesheet';
 import type { Data } from './types';
@@ -105,6 +106,11 @@ export default function View({ data }: Props) {
             </p>
           </article>
         ))}
+      </section>
+      <section>
+        <LinkItalic href="/kyle-gilbert-resume.pdf" target="_blank">
+          View resume as PDF
+        </LinkItalic>
       </section>
     </Layout>
   );

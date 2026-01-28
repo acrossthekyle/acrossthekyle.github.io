@@ -696,7 +696,7 @@ function getLabel(type) {
     return 'Summit';
   }
 
-  if (type === 'vacation') {
+  if (type === 'destination') {
     return 'Destination';
   }
 

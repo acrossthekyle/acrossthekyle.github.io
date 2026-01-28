@@ -8,9 +8,10 @@ type Props = {
   children: React.ReactNode | React.ReactNode[];
   href?: string;
   onClick?: () => void;
+  target?: string;
 };
 
-export default function Italic({ asButton, children, href = '', onClick, ...rest }: Props) {
+export default function Italic({ asButton, children, href = '', onClick, target, ...rest }: Props) {
   if (asButton) {
     return (
       <button className={styles.container(asButton)} onClick={onClick} type="button" {...rest}>
@@ -24,10 +25,11 @@ export default function Italic({ asButton, children, href = '', onClick, ...rest
     <Link
       className={styles.container(false)}
       href={href}
+      target={target}
       {...rest}
     >
       <em>{children}</em>
-      <MoveRight className={styles.icon} />
+      {target !== '_blank' && <MoveRight className={styles.icon} />}
     </Link>
   );
 }

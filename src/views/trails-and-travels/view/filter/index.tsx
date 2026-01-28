@@ -46,7 +46,7 @@ export default function Filter({ data, onChange }: Props) {
       </ul>
       <select
         className={styles.select}
-        name="filter options"
+        name="filter"
         onChange={handleOnSelect}
         value={filterBy}
       >

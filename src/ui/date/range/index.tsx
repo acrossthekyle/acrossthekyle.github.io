@@ -1,8 +1,4 @@
-import { MoveRight } from 'lucide-react';
-
 import type { Date } from '@/types';
-
-import styles from './stylesheet';
 
 type Props = {
   date: Date;
@@ -14,7 +10,7 @@ export default function Range({ date, isPreview }: Props) {
     <>
       {date.isYears && (
         <>
-          {date.range[0]} <MoveRight className={styles.icon} /> {date.range[1]}
+          {date.range[0]} <em>→</em> {date.range[1]}
         </>
       )}
       {!date.isYears && (
@@ -25,7 +21,7 @@ export default function Range({ date, isPreview }: Props) {
             </>
           ) : (
             <>
-              {date.range[0]} <MoveRight className={styles.icon} /> {date.range[1]}
+              {date.range[0]} <em>→</em> {date.range[1]}
             </>
           )}
         </>
