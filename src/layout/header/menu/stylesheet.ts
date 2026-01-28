@@ -4,6 +4,9 @@ const styles = tw({
   open: `
     md:hidden
   `,
+  icon: `
+    w-7.5 h-7.5
+  `,
   close: `
     top-6 right-5
   `,

@@ -20,7 +20,7 @@ export default function Close({ className = '', id, onClose }: Props) {
       onClick={onClose}
       type="button"
     >
-      <X />
+      <X className={styles.icon} />
     </button>
   );
 }

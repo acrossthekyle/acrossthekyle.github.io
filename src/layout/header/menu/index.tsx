@@ -36,7 +36,7 @@ export default function Menu({ route }: Props) {
         onClick={handleOnOpen}
         type="button"
       >
-        <Icon />
+        <Icon className={styles.icon} />
       </button>
       <Dialog
         id="menu"

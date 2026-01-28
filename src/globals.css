@@ -89,9 +89,9 @@ body {
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: 1000;
-    line-height: 90%;
+    line-height: 100%;
     margin-bottom: 4rem;
     text-transform: uppercase;
 
@@ -113,8 +113,6 @@ body {
 
   @media (width >= 48rem) {
     h1 {
-      line-height: 90%;
-
       strong {
         small {
           font-size: 1.125rem;
