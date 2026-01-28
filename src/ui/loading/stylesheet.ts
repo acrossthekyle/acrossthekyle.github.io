@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    flex-1
+    fixed inset-0 z-999
     flex items-center justify-center
   `,
   svg: `
