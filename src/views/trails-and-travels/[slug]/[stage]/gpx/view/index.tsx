@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { Layout } from '@/layout';
 import {
   Breadcrumb,
-  BreadcrumbBack,
   BreadcrumbList,
   BreadcrumbItem,
   BreadcrumbSeparator,
@@ -27,9 +26,7 @@ export default function View({ data }: Props) {
           <BreadcrumbList>
             <BreadcrumbItem>
               <Link href="/trails-and-travels">
-                <BreadcrumbBack>
-                  <BreadcrumbTruncate text="Trails and Travels" />
-                </BreadcrumbBack>
+                <BreadcrumbTruncate text="Trails and Travels" />
               </Link>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
@@ -48,10 +45,10 @@ export default function View({ data }: Props) {
         </Breadcrumb>
         <h1>
           <strong>
-            <small>GPX Data</small>
+            Route and Elevation
           </strong>
           <small>
-            <em>Route and elevation profile</em>
+            <em>GPX data &mdash; Apple Watch Ultra 3</em>
           </small>
         </h1>
       </header>

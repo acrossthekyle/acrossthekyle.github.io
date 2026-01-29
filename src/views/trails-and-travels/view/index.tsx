@@ -21,10 +21,10 @@ export default function View({ data }: Props) {
       <header>
         <h1>
           <strong>
-            Trails and travels
+            Trails and Travels
           </strong>
           <small>
-            A travelogue of my journeys
+            <em>A travelogue of my journeys</em>
           </small>
         </h1>
       </header>

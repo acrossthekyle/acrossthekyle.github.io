@@ -5,7 +5,8 @@ const styles = tw({
     md:hidden
   `,
   icon: `
-    w-7.5 h-7.5
+    w-7 h-7
+    stroke-1
   `,
   close: `
     top-6 right-5

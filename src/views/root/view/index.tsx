@@ -12,7 +12,9 @@ export default function View() {
           <strong>
             Kyle Gilbert
           </strong>
-          <small>A backpacker and software engineer</small>
+          <small>
+            <em>A backpacker and software engineer</em>
+          </small>
         </h1>
       </header>
       <p>

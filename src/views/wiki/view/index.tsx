@@ -7,7 +7,7 @@ export default function View() {
         <h1>
           <strong>Wiki</strong>
           <small>
-            Helpful information about travelling and trails
+            <em>Helpful information about travelling and trails</em>
           </small>
         </h1>
       </header>

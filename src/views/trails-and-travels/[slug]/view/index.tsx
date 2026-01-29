@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { Layout } from '@/layout';
 import {
   Breadcrumb,
-  BreadcrumbBack,
   BreadcrumbList,
   BreadcrumbItem,
   BreadcrumbTruncate,
@@ -27,19 +26,17 @@ export default function View({ data }: Props) {
           <BreadcrumbList>
             <BreadcrumbItem>
               <Link href="/trails-and-travels">
-                <BreadcrumbBack>
-                  <BreadcrumbTruncate text="Trails and Travels" />
-                </BreadcrumbBack>
+                <BreadcrumbTruncate text="Trails and Travels" />
               </Link>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>
         <h1>
           <strong>{data.title.join(' ')}</strong>
-          <small>{data.location}</small>
-          <br />
           <small>
-            <em><DateRange date={data.date} /></em>
+            <em>
+              {data.location}, <DateRange date={data.date} />
+            </em>
           </small>
         </h1>
       </header>
@@ -74,7 +71,7 @@ export default function View({ data }: Props) {
       </ul>
       {data.hasGear && (
         <LinkItalic href={`${data.slug}/gear`}>
-          The gear
+          View the gear list
         </LinkItalic>
       )}
     </Layout>

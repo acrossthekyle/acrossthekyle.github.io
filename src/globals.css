@@ -4,7 +4,7 @@
 @custom-variant light (&:where([data-theme=light], [data-theme=light] *));
 
 :root {
-  --background: #1b1b1b;
+  --background: #1a1a22;
   --foreground: #faf9f5;
 }
 
@@ -28,13 +28,13 @@ html {
 }
 
 html[data-theme="dark"] {
-  --background: #1b1b1b;
+  --background: #1a1a22;
   --foreground: #faf9f5;
 }
 
 html[data-theme="light"] {
   --background: #faf9f5;
-  --foreground: #1b1b1b;
+  --foreground: #1a1a22;
 }
 
 html:has(dialog[open]) {
@@ -89,38 +89,28 @@ body {
   }
 
   h1 {
-    font-size: 1.75rem;
+    font-size: 2.25rem;
     font-weight: 1000;
-    line-height: 100%;
     margin-bottom: 4rem;
-    text-transform: uppercase;
 
     strong {
+      line-height: 115%;
       padding-bottom: 0;
-
-      small {
-        font-size: 1.25rem;
-        font-weight: 1000;
-      }
     }
 
     small {
       display: block;
       font-weight: 300;
+      margin-top: 0.3rem;
       text-transform: none;
     }
   }
 
   @media (width >= 48rem) {
     h1 {
-      strong {
-        small {
-          font-size: 1.125rem;
-        }
-      }
-
       small {
         font-weight: 400;
+        margin-top: 0.5rem;
       }
     }
   }

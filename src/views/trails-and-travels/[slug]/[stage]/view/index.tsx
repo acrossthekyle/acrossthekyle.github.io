@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { Layout } from '@/layout';
 import {
   Breadcrumb,
-  BreadcrumbBack,
   BreadcrumbList,
   BreadcrumbItem,
   BreadcrumbSeparator,
@@ -29,9 +28,7 @@ export default function View({ data }: Props) {
             <BreadcrumbList>
               <BreadcrumbItem>
                 <Link href="/trails-and-travels">
-                  <BreadcrumbBack>
-                    <BreadcrumbTruncate text="Trails and Travels" />
-                  </BreadcrumbBack>
+                  <BreadcrumbTruncate text="Trails and Travels" />
                 </Link>
               </BreadcrumbItem>
               <BreadcrumbSeparator />
@@ -45,20 +42,18 @@ export default function View({ data }: Props) {
           <h1>
             <strong>{data.snippet}</strong>
             <small>
-              <em>{data.label} {data.index}:</em>{' '}
-              {data.termini.isSame ? (
-                <>{data.termini.end.words.join(' ')}</>
-              ) : (
-                <>
-                  {data.termini.start.words.join(' ')} <em>→</em> {data.termini.end.words.join(' ')}
-                </>
-              )}
+              <em>
+                {data.label} {data.index}:{' '}
+                {data.termini.isSame ? (
+                  <>{data.termini.end.words.join(' ')}</>
+                ) : (
+                  <>
+                    {data.termini.start.words.join(' ')} to {data.termini.end.words.join(' ')}
+                  </>
+                )}
+                {' '} &mdash; {data.date}
+              </em>
             </small>
-            <br />
-            <em>
-              <small>{data.location.join(', ')}</small>
-              <small>{data.date}</small>
-            </em>
           </h1>
         </header>
         <ImageFigure className={styles.figure}>

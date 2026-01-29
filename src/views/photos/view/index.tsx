@@ -13,7 +13,7 @@ export default function View() {
             Photos
           </strong>
           <small>
-            Frames from everywhere
+            <em>Frames from everywhere</em>
           </small>
         </h1>
         <p>

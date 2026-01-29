@@ -30,7 +30,9 @@ export default function View() {
         </Breadcrumb>
         <h1>
           <strong>404</strong>
-          <small>This page doesn't exist.</small>
+          <small>
+            <em>This page doesn't exist.</em>
+          </small>
         </h1>
       </header>
       <article>

@@ -16,7 +16,9 @@ export default function View({ data }: Props) {
           <strong>
             Writing
           </strong>
-          <small>Thinking out loud</small>
+          <small>
+            <em>Thinking out loud</em>
+          </small>
         </h1>
         <p>
           This space is for exploring ideas, and giving a glimpse into how I see the world. A place where I share my thoughts, opinions, and reflections on the things that matter to me.

@@ -10,7 +10,9 @@ export default function View() {
           <strong>
             Now
           </strong>
-          <small>What's happening in my world</small>
+          <small>
+            <em>What's happening in my world</em>
+          </small>
         </h1>
         <p>
           This is my little corner to share what I'm up to and what I'm focused on right now. Just a snapshot of life as it's happening.

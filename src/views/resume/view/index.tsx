@@ -16,23 +16,21 @@ export default function View({ data }: Props) {
           <strong>
             Resume
           </strong>
-          <small>Driven to create</small>
+          <small>
+            <em>Driven to create</em>
+          </small>
         </h1>
         <p>
           I'm a self-taught web developer/software engineer and making things with code thrills me to no end. With a strong background in <em>JavaScript/TypeScript</em>, and <em>HTML/CSS</em>, I have hands-on experience working with high-traffic, customer-facing products built with an attention to detail.
         </p>
       </header>
       <p>
-        <strong>CURRENTLY</strong>
-        <small>
-          Senior Engineer &ndash; Optum Digital <em>(Formerly Rally Health)</em>
-        </small>
+        <strong>Currently</strong>
+        <em>Senior Engineer &ndash; Optum Digital (Formerly Rally Health)</em>
       </p>
       <p>
-        <strong>PREVIOUSLY</strong>
-        <small>
-          Senior Fullstack Engineer &ndash; Earlybird Co
-        </small>
+        <strong>Previously</strong>
+        <em>Senior Fullstack Engineer &ndash; Earlybird Co</em>
       </p>
       <section>
         <h2>

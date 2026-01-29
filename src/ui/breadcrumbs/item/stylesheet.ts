@@ -3,13 +3,11 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     inline-block
-    text-sm text-current/50
+    text-xs text-current/75
     uppercase truncate
     duration-300
 
     hover:text-current/100
-
-    md:text-xs
   `,
 });
 
