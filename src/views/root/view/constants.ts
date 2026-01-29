@@ -44,7 +44,7 @@ export const TIMELINE: Timeline[] = [
   },
   {
     year: 2018,
-    title: `Completed long-distance backpacking trek`,
+    title: `Completed first long-distance backpacking trek`,
   },
   {
     year: 2020,

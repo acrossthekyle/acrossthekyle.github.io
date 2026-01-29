@@ -9,7 +9,7 @@ import {
 } from '@/ui/breadcrumbs';
 import { DateRange } from '@/ui/date';
 import { Image, ImageCaption, ImageFigure } from '@/ui/image';
-import { LinkItalic } from '@/ui/link';
+import { LinkButton } from '@/ui/link';
 
 import styles from './stylesheet';
 import type { Data } from './types';
@@ -39,6 +39,11 @@ export default function View({ data }: Props) {
             </em>
           </small>
         </h1>
+        {data.hasGear && (
+          <LinkButton className={styles.gear} href={`${data.slug}/gear`}>
+            View gear list
+          </LinkButton>
+        )}
       </header>
       {data.description.map((paragraph) => (
         <p key={paragraph}>
@@ -48,7 +53,7 @@ export default function View({ data }: Props) {
       <p>
         Photos and journal entries for each {data.label.toLowerCase()}:
       </p>
-      <ul className={styles.list(data.hasGear)}>
+      <ul className={styles.list}>
         {data.stages.map((stage, index: number) => (
           <li className={styles.item(index, data.total)} key={stage.index}>
             <ImageFigure className={styles.figure}>
@@ -69,11 +74,6 @@ export default function View({ data }: Props) {
           </li>
         ))}
       </ul>
-      {data.hasGear && (
-        <LinkItalic href={`${data.slug}/gear`}>
-          View the gear list
-        </LinkItalic>
-      )}
     </Layout>
   );
 }

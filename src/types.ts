@@ -79,5 +79,5 @@ export type Date = {
 export type Navigation = {
   index: string;
   label: string;
-  title: string[];
+  termini: Termini;
 };

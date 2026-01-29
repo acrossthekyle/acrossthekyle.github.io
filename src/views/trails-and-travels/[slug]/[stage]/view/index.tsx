@@ -9,7 +9,8 @@ import {
   BreadcrumbTruncate,
 } from '@/ui/breadcrumbs';
 import { Image, ImageCaption, ImageFigure } from '@/ui/image';
-import { LinkItalic } from '@/ui/link';
+import { LinkButton } from '@/ui/link';
+import { TerminiRange } from '@/ui/termini';
 
 import Navigation from './navigation';
 import styles from './stylesheet';
@@ -43,18 +44,20 @@ export default function View({ data }: Props) {
             <strong>{data.snippet}</strong>
             <small>
               <em>
-                {data.label} {data.index}:{' '}
-                {data.termini.isSame ? (
-                  <>{data.termini.end.words.join(' ')}</>
-                ) : (
-                  <>
-                    {data.termini.start.words.join(' ')} to {data.termini.end.words.join(' ')}
-                  </>
-                )}
-                {' '} &mdash; {data.date}
+                {data.label}{' '}
+                {data.index}:{' '}
+                <TerminiRange termini={data.termini} /> &mdash; {data.date}
               </em>
             </small>
           </h1>
+          {data.hasGpx && (
+            <LinkButton
+              className={styles.gpx}
+              href={`/trails-and-travels/${data.slug}/${data.index}/gpx`}
+            >
+              View elevation & route
+            </LinkButton>
+          )}
         </header>
         <ImageFigure className={styles.figure}>
           <Image
@@ -71,11 +74,6 @@ export default function View({ data }: Props) {
         {data.description.map((paragraph) => (
           <p key={paragraph}>{paragraph}</p>
         ))}
-        {data.hasGpx && (
-          <LinkItalic href={`/trails-and-travels/${data.slug}/${data.index}/gpx`}>
-            View route and elevation
-          </LinkItalic>
-        )}
         {data.hasNavigation && (
           <Navigation
             next={data.next}

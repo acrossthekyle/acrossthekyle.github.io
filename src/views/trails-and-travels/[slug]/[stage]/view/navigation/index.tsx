@@ -1,7 +1,6 @@
 import { LinkItalic } from '@/ui/link';
+import { TerminiRange } from '@/ui/termini';
 import type { Navigation } from '@/types';
-
-import styles from './stylesheet';
 
 type Props = {
   next?: Navigation;
@@ -10,18 +9,14 @@ type Props = {
 
 export default function Navigation({ next, slug }: Props) {
   return (
-    <section
-      aria-label="supplementary navigation"
-      className={styles.container}
-    >
-      {next === undefined && (
+    <section aria-label="supplementary navigation">
+      {next !== undefined ? (
+        <LinkItalic href={`/trails-and-travels/${slug}/${next.index}`}>
+          Next {next.label}:{' '}<TerminiRange termini={next.termini} />
+        </LinkItalic>
+      ) : (
         <LinkItalic href={`/trails-and-travels/${slug}`}>
           The End: Back to summary
-        </LinkItalic>
-      )}
-      {next !== undefined && (
-        <LinkItalic href={`/trails-and-travels/${slug}/${next.index}`}>
-          Next: {next.label} {next.index}, {next.title.join(' ')}
         </LinkItalic>
       )}
     </section>

@@ -21,10 +21,10 @@ export default function View() {
         Hello!
       </p>
       <p>
-        My name's Kyle and I'm based in <em>Chicago</em> with my partner and our dog Dax, on the lands of the <em>Potawatomi</em>, <em>Ojibwe</em>, and <em>Odawa</em>.
+        My name's Kyle and I'm based in <em>Chicago</em> with my partner, and our dog Dax, on the lands of the <em>Potawatomi</em>, <em>Ojibwe</em>, and <em>Odawa</em>.
       </p>
       <p>
-        By day, I build web apps as a self-taught software engineer. By trail, I explore the world &ndash; from Nepal's Himalayas to windswept Patagonia &ndash; carrying everything I need on my back. Wandering is life, and the thrill keeps me coming back for more.
+        By day, I build web apps as a self-taught software engineer because making things with code thrills me to no end. By trail, I explore the world &ndash; from Nepal's Himalayas to windswept Patagonia &ndash; carrying everything I need on my back.
       </p>
       <p>Here's a brief history of my life so far, and how I ended up where I am:</p>
       <ul className={styles.list}>
@@ -56,7 +56,7 @@ export default function View() {
       <br />
       <br />
       <p>
-        Wandering is only part of who I am though, and the other half lives in the digital world. Browse my resume to know more about the day job, and my career path.
+        Hiking and travelling is only part of who I am though, and the other half lives in the digital world. Browse my resume to know more about my day job.
       </p>
       <LinkItalic href="/resume">
         Resume

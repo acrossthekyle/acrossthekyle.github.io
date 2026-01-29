@@ -37,7 +37,7 @@ export default function View({ data }: Props) {
         </Breadcrumb>
         <h1>
           <strong>
-            The Gear List
+            Gear List
           </strong>
           <small>
             <em>Base weight: {data.weights.base} lbs</em>

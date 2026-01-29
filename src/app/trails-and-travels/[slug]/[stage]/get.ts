@@ -32,13 +32,13 @@ export default function get(slug: string, stage: string) {
     next: next ? {
       index: padIndex(next),
       label: found.label,
-      title: found.stages[next - 1].termini.end.words,
+      termini: found.stages[next - 1].termini,
     } : undefined,
     parent: found.title,
     previous: previous ? {
       index: padIndex(previous),
       label: found.label,
-      title: found.stages[previous - 1].termini.end.words,
+      termini: found.stages[previous - 1].termini,
     } : undefined,
     slug,
     snippet: result.snippet,

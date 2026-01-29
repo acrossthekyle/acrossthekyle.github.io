@@ -48,7 +48,7 @@ export default function View({ data }: Props) {
             Route and Elevation
           </strong>
           <small>
-            <em>GPX data &mdash; Apple Watch Ultra 3</em>
+            <em>GPX data via GPS Smart Watch</em>
           </small>
         </h1>
       </header>
