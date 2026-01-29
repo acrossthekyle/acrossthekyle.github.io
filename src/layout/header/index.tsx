@@ -28,7 +28,7 @@ export default function Header({ route }: Props) {
             width={960}
           />
         </Link>
-        <nav aria-label="main navigation" className={styles.nav}>
+        <nav aria-label="main navigation">
           <Navigation className={styles.list} route={route} />
           <Menu route={route} />
           <Theme className={styles.theme} />

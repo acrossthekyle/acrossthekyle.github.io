@@ -4,10 +4,10 @@ type Props = {
   children: React.ReactNode | React.ReactNode[];
 };
 
-export default function Header({ children }: Props) {
+export default function Body({ children }: Props) {
   return (
-    <header className={styles.container}>
+    <div className={styles.container}>
       {children}
-    </header>
+    </div>
   );
 }

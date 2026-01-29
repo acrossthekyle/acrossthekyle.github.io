@@ -17,9 +17,9 @@ const styles = tw({
     before:duration-300
     before:rounded-sm
     before:border
-    before:border-(--foreground)/5
+    before:border-(--foreground)/7.5
 
-    ${isSelected ? 'before:bg-(--foreground)/20' : 'before:bg-(--foreground)/10'}
+    ${isSelected ? 'before:bg-(--foreground)/20' : 'before:bg-(--foreground)/7.5'}
 
     hover:before:bg-(--foreground)/25
   `),

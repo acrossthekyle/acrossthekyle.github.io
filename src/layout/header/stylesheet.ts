@@ -2,36 +2,25 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    flex justify-between items-start
+    flex justify-between
     max-w-lg
-    text-sm
-    uppercase
-
-    md:text-xs
-    md:items-center
   `,
   anchor: `
     relative
     w-8 h-8
-    text-base
-
-    md:text-sm
-  `,
-  nav: `
-    flex flex-row-reverse items-center gap-4
-
-    md:flex-row
   `,
   list: `
     hidden
-    items-end gap-5
+    gap-5
+    mt-2
 
     md:flex
   `,
   link: `
+    block
     relative
-    font-light font-serif
-    italic
+    font-extrablack
+    text-2xl
 
     before:absolute
     before:z-0
@@ -42,13 +31,22 @@ const styles = tw({
     before:rounded-sm
     before:opacity-0
     before:duration-300
-    before:bg-(--foreground)/10
+    before:bg-(--foreground)/5
 
     hover:before:opacity-100
 
+    md:before:bg-(--foreground)/10
+    md:uppercase
     md:font-normal
-    md:font-sans
-    md:not-italic
+    md:text-xs
+  `,
+  tagline: `
+    block
+    text-sm
+    font-normal font-serif
+    italic
+
+    md:hidden
   `,
   theme: `
     hidden

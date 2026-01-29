@@ -18,6 +18,7 @@ export default function Navigation({ className, route }: Props) {
           href="/trails-and-travels"
         >
           Trails and Travels
+          <span className={styles.tagline}>A travelogue of my journeys</span>
         </Link>
       </li>
       <li>
@@ -28,6 +29,7 @@ export default function Navigation({ className, route }: Props) {
           href="/writing"
         >
           Writing
+          <span className={styles.tagline}>Thinking out loud</span>
         </Link>
       </li>
       <li>
@@ -38,6 +40,7 @@ export default function Navigation({ className, route }: Props) {
           href="/photos"
         >
           Photos
+          <span className={styles.tagline}>Frames from everywhere</span>
         </Link>
       </li>
       <li>
@@ -48,6 +51,7 @@ export default function Navigation({ className, route }: Props) {
           href="/resume"
         >
           Resume
+          <span className={styles.tagline}>Driven to create</span>
         </Link>
       </li>
       <li>
@@ -58,14 +62,18 @@ export default function Navigation({ className, route }: Props) {
           href="/now"
         >
           Now
+          <span className={styles.tagline}>What's happening in my world</span>
         </Link>
       </li>
       <li>
         <Link
+          aria-current={route === 'email' ? 'page' : undefined}
           className={styles.link}
-          href="mailto:hello@acrossthekyle.com"
+          data-active={route === 'email'}
+          href="/email"
         >
           Email
+          <span className={styles.tagline}>Reach out and say hello</span>
         </Link>
       </li>
     </ul>

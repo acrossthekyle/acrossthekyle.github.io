@@ -24,10 +24,10 @@ const styles = tw({
   copyright: `
     w-full
     !mb-0
-    text-sm text-left
+    text-xs text-left
 
     md:text-right
-    md:text-xs
+    md:text-tiny
     md:!-mb-0.75
   `,
 });

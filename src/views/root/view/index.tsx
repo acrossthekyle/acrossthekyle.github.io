@@ -18,7 +18,13 @@ export default function View() {
         </h1>
       </header>
       <p>
-        I'm based in <em>Chicago</em> with my partner and our dog Dax, on the lands of the <em>Potawatomi</em>, <em>Ojibwe</em>, and <em>Odawa</em>. By day, I build web apps as a self-taught software engineer. By trail, I explore the world &ndash; from Nepal's Himalayas to windswept Patagonia &ndash; carrying everything I need on my back. <em>Wandering is life</em>, and the thrill keeps me coming back for more.
+        Hello!
+      </p>
+      <p>
+        My name's Kyle and I'm based in <em>Chicago</em> with my partner and our dog Dax, on the lands of the <em>Potawatomi</em>, <em>Ojibwe</em>, and <em>Odawa</em>.
+      </p>
+      <p>
+        By day, I build web apps as a self-taught software engineer. By trail, I explore the world &ndash; from Nepal's Himalayas to windswept Patagonia &ndash; carrying everything I need on my back. Wandering is life, and the thrill keeps me coming back for more.
       </p>
       <p>Here's a brief history of my life so far, and how I ended up where I am:</p>
       <ul className={styles.list}>
@@ -41,8 +47,19 @@ export default function View() {
           </li>
         ))}
       </ul>
+      <p>
+        I've thru-hiked a lot of miles and witnessed some amazing things. View the trails, and travels, that I've experienced over the years.
+      </p>
       <LinkItalic href="/trails-and-travels">
-        View trails and travels
+        Trails and travels
+      </LinkItalic>
+      <br />
+      <br />
+      <p>
+        Wandering is only part of who I am though, and the other half lives in the digital world. Browse my resume to know more about the day job, and my career path.
+      </p>
+      <LinkItalic href="/resume">
+        Resume
       </LinkItalic>
     </Layout>
   );

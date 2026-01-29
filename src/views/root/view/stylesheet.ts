@@ -2,7 +2,9 @@ import tw from '@/styles';
 
 const styles = tw({
   list: `
-    mt-8
+    mt-8 mb-8
+
+    md:mb-16
   `,
   item: `
     flex gap-x-2

@@ -1,14 +1,9 @@
 import tw from '@/styles';
 
 const styles = tw({
-  dialog: `
-    w-full
+  container: `
+    w-full max-w-lg
     my-0 mx-auto
-    p-6
-    font-sans
-    normal-case
-
-    md:p-8
   `,
 });
 

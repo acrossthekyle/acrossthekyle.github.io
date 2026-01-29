@@ -13,6 +13,8 @@
 }
 
 @theme {
+  --font-weight-extrablack: 1000;
+
   --text-tiny: 0.6875rem; /* 11px */
 
   --animate-in-fade: fadeIn .4s ease-in forwards;
@@ -135,10 +137,8 @@ body {
     text-decoration: none;
   }
 
-  @media (width >= 48rem) {
-    a[data-active="true"]::before {
-      opacity: 1;
-    }
+  a[data-active="true"]::before {
+    opacity: 1;
   }
 
   a[target="_blank"]:after {
