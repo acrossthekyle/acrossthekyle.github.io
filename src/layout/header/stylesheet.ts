@@ -11,6 +11,8 @@ const styles = tw({
     md:items-center
   `,
   anchor: `
+    relative
+    w-8 h-8
     text-base
 
     md:text-sm

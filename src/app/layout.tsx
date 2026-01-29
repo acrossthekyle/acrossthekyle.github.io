@@ -35,13 +35,13 @@ export const metadata: Metadata = {
     follow: true,
   },
   openGraph: {
-    title: 'Kyle',
+    title: 'Kyle → A backpacker and software engineer',
     description,
     url: 'https://acrossthekyle.com',
     siteName: 'acrossthekyle',
     images: [
       {
-        url: 'https://ik.imagekit.io/acrossthekyle/uploads/8ed54501-bdcb-40b7-9387-f2fc306db83d.png?q=50',
+        url: 'https://ik.imagekit.io/acrossthekyle/uploads/8ed54501-bdcb-40b7-9387-f2fc306db83d.png?q=80',
         width: 800,
         height: 600,
       },

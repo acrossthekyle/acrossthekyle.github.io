@@ -1,5 +1,6 @@
-import Image from 'next/image';
 import Link from 'next/link';
+
+import { Image } from '@/ui/image';
 
 import Menu from './menu';
 import Navigation from './navigation';
@@ -21,7 +22,6 @@ export default function Header({ route }: Props) {
         >
           <Image
             alt=""
-            className="!w-8"
             height={540}
             sizes="100vw"
             src="8ed54501-bdcb-40b7-9387-f2fc306db83d.png"
