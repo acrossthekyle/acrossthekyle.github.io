@@ -24,7 +24,7 @@ export default function View({ data }: Props) {
       <header>
         <Breadcrumb>
           <BreadcrumbList>
-            <BreadcrumbItem>
+            <BreadcrumbItem highlight>
               <Link href="/trails-and-travels">
                 <BreadcrumbTruncate text="Trails and Travels" />
               </Link>
@@ -41,7 +41,7 @@ export default function View({ data }: Props) {
         </h1>
         {data.hasGear && (
           <LinkButton className={styles.gear} href={`${data.slug}/gear`}>
-            View gear list
+            View gear
           </LinkButton>
         )}
       </header>

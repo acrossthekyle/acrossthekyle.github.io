@@ -4,7 +4,7 @@ import { getColSpan } from './utils';
 
 const styles = tw({
   gear: `
-    w-26
+    w-19
     -mt-13
 
     md:-mt-12

@@ -1,13 +1,7 @@
 import Link from 'next/link';
 
 import { Layout } from '@/layout';
-import {
-  Breadcrumb,
-  BreadcrumbList,
-  BreadcrumbItem,
-  BreadcrumbSeparator,
-  BreadcrumbTruncate,
-} from '@/ui/breadcrumbs';
+import { LinkBack } from '@/ui/link';
 
 import styles from './stylesheet';
 import type { Data } from './types';
@@ -20,21 +14,7 @@ export default function View({ data }: Props) {
   return (
     <Layout group="trails-and-travels">
       <header>
-        <Breadcrumb>
-          <BreadcrumbList>
-            <BreadcrumbItem>
-              <Link href="/trails-and-travels">
-                <BreadcrumbTruncate text="Trails and Travels" />
-              </Link>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <Link href={`/trails-and-travels/${data.slug}`}>
-                <BreadcrumbTruncate text={data.title.join(' ')} />
-              </Link>
-            </BreadcrumbItem>
-          </BreadcrumbList>
-        </Breadcrumb>
+        <LinkBack href={`/trails-and-travels/${data.slug}`} />
         <h1>
           <strong>
             Gear List
@@ -50,6 +30,9 @@ export default function View({ data }: Props) {
             <strong>
               {category.title}
             </strong>
+            <small>
+              <em>{category.weight} lbs</em>
+            </small>
           </h2>
           <ul>
             {category.items.map((item, index: number) => (

@@ -1,13 +1,5 @@
-import Link from 'next/link';
-
 import { Layout } from '@/layout';
-import {
-  Breadcrumb,
-  BreadcrumbList,
-  BreadcrumbItem,
-  BreadcrumbSeparator,
-  BreadcrumbTruncate,
-} from '@/ui/breadcrumbs';
+import { LinkBack } from '@/ui/link';
 
 import Context from './context';
 import Elevation from './elevation';
@@ -22,27 +14,7 @@ export default function View({ data }: Props) {
   return (
     <Layout group="trails-and-travels">
       <header>
-        <Breadcrumb>
-          <BreadcrumbList>
-            <BreadcrumbItem>
-              <Link href="/trails-and-travels">
-                <BreadcrumbTruncate text="Trails and Travels" />
-              </Link>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <Link href={`/trails-and-travels/${data.slug}`}>
-                <BreadcrumbTruncate text={data.parent.join(' ')} />
-              </Link>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <Link href={`/trails-and-travels/${data.slug}/${data.index}`}>
-                <BreadcrumbTruncate text={`${data.label} ${data.index}`} />
-              </Link>
-            </BreadcrumbItem>
-          </BreadcrumbList>
-        </Breadcrumb>
+        <LinkBack href={`/trails-and-travels/${data.slug}/${data.index}`} />
         <h1>
           <strong>
             Route and Elevation

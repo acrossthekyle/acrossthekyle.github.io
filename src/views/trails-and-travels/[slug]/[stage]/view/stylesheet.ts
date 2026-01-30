@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   gpx: `
-    w-40
+    w-18
     -mt-13
 
     md:-mt-12

@@ -33,7 +33,7 @@ export default function View({ data }: Props) {
                 </Link>
               </BreadcrumbItem>
               <BreadcrumbSeparator />
-              <BreadcrumbItem>
+              <BreadcrumbItem highlight>
                 <Link href={`/trails-and-travels/${data.slug}`}>
                   <BreadcrumbTruncate text={data.parent.join(' ')} />
                 </Link>
@@ -55,7 +55,7 @@ export default function View({ data }: Props) {
               className={styles.gpx}
               href={`/trails-and-travels/${data.slug}/${data.index}/gpx`}
             >
-              View elevation & route
+              View GPX
             </LinkButton>
           )}
         </header>
