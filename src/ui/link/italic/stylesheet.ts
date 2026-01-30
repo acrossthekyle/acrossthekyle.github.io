@@ -2,7 +2,6 @@ import tw from '@/styles';
 
 const styles = tw({
   container: (asButton?: boolean) => tw(`
-    mt-8
     flex ${asButton ? 'items-end' : 'items-center'} gap-2
     font-semibold
     text-base text-left

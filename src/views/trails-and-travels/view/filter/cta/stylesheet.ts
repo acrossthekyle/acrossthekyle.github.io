@@ -19,9 +19,9 @@ const styles = tw({
     before:border
     before:border-(--foreground)/7.5
 
-    ${isSelected ? 'before:bg-(--foreground)/20' : 'before:bg-(--foreground)/7.5'}
+    ${isSelected ? 'before:bg-(--foreground)/25' : 'before:bg-(--foreground)/7.5'}
 
-    hover:before:bg-(--foreground)/25
+    hover:before:bg-(--foreground)/30
   `),
   count: `
     flex items-center justify-center

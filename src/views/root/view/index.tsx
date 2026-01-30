@@ -1,5 +1,5 @@
 import { Layout } from '@/layout';
-import { LinkItalic } from '@/ui/link';
+import { LinkButton } from '@/ui/link';
 
 import { TIMELINE } from './constants';
 import styles from './stylesheet';
@@ -48,19 +48,16 @@ export default function View() {
         ))}
       </ul>
       <p>
-        I've thru-hiked a lot of miles and witnessed some amazing things. View the trails, and travels, that I've experienced over the years.
+        I've thru-hiked a lot of miles and witnessed some amazing things. My favorite long-distance trails are the Camino de Santiago in Spain, and the Annapurna Circuit in Nepal. But hiking, and travelling, is only part of who I am.
       </p>
-      <LinkItalic href="/trails-and-travels">
-        Trails and travels
-      </LinkItalic>
-      <br />
-      <br />
-      <p>
-        Hiking and travelling is only part of who I am though, and the other half lives in the digital world. Browse my resume to know more about my day job.
-      </p>
-      <LinkItalic href="/resume">
-        Resume
-      </LinkItalic>
+      <section aria-label="calls to action" className={styles.footer}>
+        <LinkButton className={styles.trails} href="/trails-and-travels">
+          Browse trails and travels
+        </LinkButton>
+        <LinkButton className={styles.resume} href="/resume">
+          View resume
+        </LinkButton>
+      </section>
     </Layout>
   );
 }

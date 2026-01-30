@@ -29,7 +29,7 @@ export default function View({ data }: Props) {
         </h1>
       </header>
       <p>
-        From Nepal's Himalayas to windswept Patagonia, I've thru-hiked a lot of miles and witnessed some amazing things. Wandering is life, and the thrill keeps me coming back for more. These are just some of the trails, and travels, that I've experienced over the years.
+        From Nepal's Himalayas to windswept Patagonia, I've thru-hiked a lot of miles and witnessed some amazing things. Wandering is life, and the trail keeps pulling me coming back for more. These are just some of the trails and travels I've experienced over the years.
       </p>
       <Filter data={data} onChange={handleOnFilter} />
       <nav aria-label="trails and travels navigation">

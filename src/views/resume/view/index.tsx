@@ -1,5 +1,5 @@
 import { Layout } from '@/layout';
-import { LinkItalic } from '@/ui/link';
+import { LinkButton } from '@/ui/link';
 
 import styles from './stylesheet';
 import type { Data } from './types';
@@ -20,10 +20,13 @@ export default function View({ data }: Props) {
             <em>Driven to create</em>
           </small>
         </h1>
-        <p>
-          I'm a self-taught web developer/software engineer and making things with code thrills me to no end. With a strong background in <em>JavaScript/TypeScript</em>, and <em>HTML/CSS</em>, I have hands-on experience working with high-traffic, customer-facing products built with an attention to detail.
-        </p>
+        <LinkButton className={styles.pdf} href="/kyle-gilbert-resume.pdf" target="_blank">
+          Download PDF
+        </LinkButton>
       </header>
+      <p>
+        I'm a self-taught web developer/software engineer because making things with code thrills me to no end. With a strong background in <em>JavaScript/TypeScript</em>, and <em>HTML/CSS</em>, I have hands-on experience working with high-traffic, customer-facing products built with an attention to detail.
+      </p>
       <p>
         <strong>Currently</strong>
         <em>Senior Engineer &ndash; Optum Digital (Formerly Rally Health)</em>
@@ -104,11 +107,6 @@ export default function View({ data }: Props) {
             </p>
           </article>
         ))}
-      </section>
-      <section>
-        <LinkItalic href="/kyle-gilbert-resume.pdf" target="_blank">
-          View resume as PDF
-        </LinkItalic>
       </section>
     </Layout>
   );

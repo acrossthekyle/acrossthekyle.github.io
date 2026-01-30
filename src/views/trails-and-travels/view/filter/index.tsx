@@ -21,8 +21,8 @@ export default function Filter({ data, onChange }: Props) {
   } = useModel(data, onChange);
 
   return (
-    <section aria-label="filter trails and travels">
-      <ul className={styles.list}>
+    <>
+      <ul aria-label="filter trails and travels" className={styles.list}>
         <li>
           <Cta
             count={total}
@@ -45,6 +45,7 @@ export default function Filter({ data, onChange }: Props) {
         ))}
       </ul>
       <select
+        aria-label="filter trails and travels"
         className={styles.select}
         name="filter"
         onChange={handleOnSelect}
@@ -55,6 +56,6 @@ export default function Filter({ data, onChange }: Props) {
           <option key={value} value={value}>{value.toUpperCase()}S ({count})</option>
         ))}
       </select>
-    </section>
+    </>
   );
 }

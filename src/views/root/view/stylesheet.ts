@@ -2,9 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   list: `
-    mt-8 mb-8
-
-    md:mb-16
+    my-8
   `,
   item: `
     flex gap-x-2
@@ -43,8 +41,9 @@ const styles = tw({
     !mb-0
   `,
   title: `
-    !font-semibold
+    !font-medium
     leading-6
+    -mt-0.75
 
     md:leading-7
   `,
@@ -54,6 +53,33 @@ const styles = tw({
     text-sm text-current/60
 
     md:mt-0.5
+  `,
+  footer: `
+    flex flex-col items-center gap-5
+    !mt-8
+
+    md:flex-row
+    md:gap-4
+  `,
+  trails: `
+    flex-1
+    flex items-center justify-center
+    w-full h-8
+    !text-sm
+    py-2
+
+    md:w-auto
+    md:!text-xs
+  `,
+  resume: `
+    flex-1
+    flex items-center justify-center
+    w-full h-8
+    !text-sm
+    py-2
+
+    md:w-auto
+    md:!text-xs
   `,
 });
 
