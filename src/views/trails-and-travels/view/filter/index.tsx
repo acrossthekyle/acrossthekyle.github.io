@@ -22,7 +22,12 @@ export default function Filter({ data, onChange }: Props) {
 
   return (
     <>
-      <ul aria-label="filter trails and travels" className={styles.list}>
+      <ul
+        aria-label="filter trails and travels"
+        aria-orientation="horizontal"
+        className={styles.list}
+        role="region"
+      >
         <li>
           <Cta
             count={total}

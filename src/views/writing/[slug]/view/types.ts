@@ -1,6 +1,6 @@
 export type Data = {
   date: string;
-  index: string;
+  content: string;
   slug: string;
   title: string;
 };

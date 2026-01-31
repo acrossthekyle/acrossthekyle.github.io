@@ -4,10 +4,10 @@ const styles = tw({
   button: (isSelected: boolean) => tw(`
     relative
     flex items-center justify-between gap-2
-    w-full min-h-4
+    w-full h-4.5
     px-0.5
     uppercase
-    text-xs
+    text-sm
     tracking-wide
 
     before:block
@@ -22,6 +22,9 @@ const styles = tw({
     ${isSelected ? 'before:bg-(--foreground)/25' : 'before:bg-(--foreground)/7.5'}
 
     hover:before:bg-(--foreground)/30
+
+    md:h-4
+    md:text-xs
   `),
   count: `
     flex items-center justify-center

@@ -2,9 +2,8 @@ import tw from '@/styles';
 
 const styles = tw({
   pdf: `
-    w-30
+    w-26
     -mt-13
-    pt-0
 
     md:-mt-12
   `,

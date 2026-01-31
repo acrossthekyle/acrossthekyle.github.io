@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 import { Layout } from '@/layout';
 
 export default function View() {
@@ -11,7 +9,7 @@ export default function View() {
             Now
           </strong>
           <small>
-            <em>What's happening in my world</em>
+            <em>Presently</em>
           </small>
         </h1>
         <p>
@@ -36,11 +34,6 @@ export default function View() {
         <p>
           <small>Last updated:<br /><em>January 26th, 2026</em></small>
         </p>
-        <Link href="https://nownownow.com/about" target="_blank">
-          <em>
-            Visit nownownow.com to learn more about the now movement
-          </em>
-        </Link>
       </section>
     </Layout>
   );

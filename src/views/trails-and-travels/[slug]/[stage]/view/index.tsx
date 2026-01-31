@@ -42,13 +42,7 @@ export default function View({ data }: Props) {
           </Breadcrumb>
           <h1>
             <strong>{data.snippet}</strong>
-            <small>
-              <em>
-                {data.label}{' '}
-                {data.index}:{' '}
-                <TerminiRange termini={data.termini} /> &mdash; {data.date}
-              </em>
-            </small>
+            <small><em>{data.date}</em></small>
           </h1>
           {data.hasGpx && (
             <LinkButton
@@ -71,6 +65,16 @@ export default function View({ data }: Props) {
             {data.location.join(', ')}
           </ImageCaption>
         </ImageFigure>
+        <small>
+          <em>
+            <strong>
+              {data.label}{' '}
+              {data.index}:{' '}
+              <TerminiRange termini={data.termini} />
+            </strong>
+          </em>
+        </small>
+        <br />
         {data.description.map((paragraph) => (
           <p key={paragraph}>{paragraph}</p>
         ))}

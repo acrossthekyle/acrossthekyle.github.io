@@ -105,6 +105,10 @@ body {
       font-weight: 300;
       margin-top: 0.3rem;
       text-transform: none;
+
+      strong {
+        line-height: 150%;
+      }
     }
   }
 
@@ -139,12 +143,6 @@ body {
 
   a[data-active="true"]::before {
     opacity: 1;
-  }
-
-  a[target="_blank"]:after {
-    content: "↗";
-    font-size: 0.75rem;
-    padding-left: 0.25rem;
   }
 
   button {

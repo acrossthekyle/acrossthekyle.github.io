@@ -1,7 +1,7 @@
 import tw from '@/styles';
 
 const styles = tw({
-  list: `
+  timeline: `
     my-8
   `,
   item: `
@@ -41,45 +41,34 @@ const styles = tw({
     !mb-0
   `,
   title: `
+    -mt-0.75
+    text-base
     !font-medium
     leading-6
-    -mt-0.75
 
     md:leading-7
   `,
   text: `
     block
     mt-1
-    text-sm text-current/60
+    text-xs text-current/60
+    font-mono
 
     md:mt-0.5
   `,
-  footer: `
-    flex flex-col items-center gap-5
-    !mt-8
+  list: `
+    flex flex-col gap-8
+    mt-6
 
-    md:flex-row
-    md:gap-4
+    md:gap-6
   `,
-  trails: `
-    flex-1
-    flex items-center justify-center
-    w-full h-8
-    !text-sm
-    py-2
-
-    md:w-auto
-    md:!text-xs
-  `,
-  resume: `
-    flex-1
-    flex items-center justify-center
-    w-full h-8
-    !text-sm
-    py-2
-
-    md:w-auto
-    md:!text-xs
+  index: `
+    absolute right-0 top-1
+    px-1
+    text-tiny text-(--background)
+    font-bold font-mono
+    bg-(--foreground)/45
+    rounded-sm
   `,
 });
 

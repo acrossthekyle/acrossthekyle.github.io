@@ -57,6 +57,11 @@ export default function Footer() {
             </Link>
           </li>
           <li>
+            <Link href="/email">
+              Email
+            </Link>
+          </li>
+          <li>
             <Link
               aria-label="view codebase on github.com"
               href="https://github.com/acrossthekyle/acrossthekyle.github.io"

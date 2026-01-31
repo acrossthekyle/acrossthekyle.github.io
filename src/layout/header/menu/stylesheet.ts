@@ -16,9 +16,6 @@ const styles = tw({
     w-8 h-8
     text-base
   `,
-  list: `
-    flex flex-col gap-5
-  `,
   theme: `
     fixed right-6 bottom-6
   `,

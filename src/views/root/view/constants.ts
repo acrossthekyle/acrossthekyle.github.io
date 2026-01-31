@@ -3,8 +3,8 @@ import type { Timeline } from './types';
 export const TIMELINE: Timeline[] = [
   {
     year: 1987,
-    title: `Birth`,
-    paragraph: `Chicago born`,
+    title: `Born`,
+    paragraph: `Chicago`,
   },
   {
     year: 1990,

@@ -17,11 +17,11 @@ export default function View() {
             Email
           </strong>
           <small>
-            <em>Reach out and say hello</em>
+            <em>hello@acrossthekyle.com</em>
           </small>
         </h1>
         <p>
-          I'm always open to new opportunities. If you're interested in working together, or have questions about the trails and travels that I've done, you can reach me directly via hello [at] acrossthekyle.com, or fill out the short form below.
+          I'm always open to new opportunities. If you're interested in working together, or have questions about any of the trails or travels I've done, fill out the short form below.
         </p>
       </header>
       {state.succeeded && (

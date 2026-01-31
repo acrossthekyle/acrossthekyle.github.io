@@ -17,13 +17,16 @@ export default function View({ data }: Props) {
             Resume
           </strong>
           <small>
-            <em>Driven to create</em>
+            <em>Work</em>
           </small>
         </h1>
         <LinkButton className={styles.pdf} href="/kyle-gilbert-resume.pdf" target="_blank">
           Download PDF
         </LinkButton>
       </header>
+      <p>
+        Driven to create
+      </p>
       <p>
         I'm a self-taught web developer/software engineer because making things with code thrills me to no end. With a strong background in <em>JavaScript/TypeScript</em>, and <em>HTML/CSS</em>, I have hands-on experience working with high-traffic, customer-facing products built with an attention to detail.
       </p>

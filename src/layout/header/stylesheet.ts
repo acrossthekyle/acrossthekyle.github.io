@@ -40,14 +40,6 @@ const styles = tw({
     md:font-normal
     md:text-xs
   `,
-  tagline: `
-    block
-    text-sm
-    font-normal font-serif
-    italic
-
-    md:hidden
-  `,
   theme: `
     hidden
 

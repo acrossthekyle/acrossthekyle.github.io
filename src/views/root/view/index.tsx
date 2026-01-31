@@ -1,10 +1,16 @@
 import { Layout } from '@/layout';
-import { LinkButton } from '@/ui/link';
+import { DateRange } from '@/ui/date';
+import { LinkItalic, LinkStacked } from '@/ui/link';
 
 import { TIMELINE } from './constants';
 import styles from './stylesheet';
+import type { Data } from './types';
 
-export default function View() {
+type Props = {
+  data: Data[];
+};
+
+export default function View({ data }: Props) {
   return (
     <Layout group="home">
       <header>
@@ -13,50 +19,75 @@ export default function View() {
             Kyle Gilbert
           </strong>
           <small>
-            <em>A backpacker and software engineer</em>
+            <em>Codewanderer</em>
           </small>
         </h1>
       </header>
-      <p>
-        Hello!
-      </p>
-      <p>
-        My name's Kyle and I'm based in <em>Chicago</em> with my partner, and our dog Dax, on the lands of the <em>Potawatomi</em>, <em>Ojibwe</em>, and <em>Odawa</em>.
-      </p>
-      <p>
-        By day, I build web apps as a self-taught software engineer because making things with code thrills me to no end. By trail, I explore the world &ndash; from Nepal's Himalayas to windswept Patagonia &ndash; carrying everything I need on my back.
-      </p>
-      <p>Here's a brief history of my life so far, and how I ended up where I am:</p>
-      <ul className={styles.list}>
-        {TIMELINE.map(({ paragraph, title, year }) => (
-          <li className={styles.item} key={year}>
-            <span className={styles.year}>{year}</span>
-            <div className={styles.line}>
-              <div className={styles.dot} />
-            </div>
-            <p className={styles.description}>
-              <strong className={styles.title}>
-                {title}
-              </strong>
-              {!!paragraph && (
-                <span className={styles.text}>
-                  {paragraph}
-                </span>
-              )}
-            </p>
-          </li>
-        ))}
-      </ul>
-      <p>
-        I've thru-hiked a lot of miles and witnessed some amazing things. My favorite long-distance trails are the Camino de Santiago in Spain, and the Annapurna Circuit in Nepal. But hiking, and travelling, is only part of who I am.
-      </p>
-      <section aria-label="calls to action" className={styles.footer}>
-        <LinkButton className={styles.trails} href="/trails-and-travels">
-          Browse trails and travels
-        </LinkButton>
-        <LinkButton className={styles.resume} href="/resume">
-          View resume
-        </LinkButton>
+      <section>
+        <p>
+          Hey, my name's Kyle.
+        </p>
+        <p>
+          I'm based in <em>Chicago</em> with my partner, and our dog Dax, on the lands of the <em>Potawatomi</em>, <em>Ojibwe</em>, and <em>Odawa</em>.
+        </p>
+        <p>
+          By day, I build web apps as a self-taught software engineer because making things with code thrills me to no end. By trail, I explore the world &ndash; from Nepal's Himalayas to windswept Patagonia &ndash; carrying everything I need on my back.
+        </p>
+        <p>
+          Experiencing new sights and sounds keeps me moving, and nothing inspires me more than leaving the crowded city behind and heading into nature.
+        </p>
+        <p>
+          I thru-hiked my first trail in 2018 called the Camino, in Spain. It took me 32 days to walk from the Pyrenees mountains in the east to the Atlantic ocean in the west, and it was unforgetable.
+        </p>
+        <p>
+          Here's a brief history of my life so far:
+        </p>
+        <ul className={styles.timeline}>
+          {TIMELINE.map(({ paragraph, title, year }) => (
+            <li className={styles.item} key={year}>
+              <span className={styles.year}>{year}</span>
+              <div className={styles.line}>
+                <div className={styles.dot} />
+              </div>
+              <p className={styles.description}>
+                <strong className={styles.title}>
+                  {title}
+                </strong>
+                {!!paragraph && (
+                  <span className={styles.text}>
+                    {paragraph}
+                  </span>
+                )}
+              </p>
+            </li>
+          ))}
+        </ul>
+      </section>
+      <section>
+        <h2>
+          <strong>Recent experiences</strong>
+        </h2>
+        <nav aria-label="trails and travels navigation">
+          <ul className={styles.list}>
+            {data.map((item) => (
+              <li key={item.index}>
+                <LinkStacked href={`/trails-and-travels/${item.slug}`}>
+                  <strong>
+                    <span className={styles.index}>
+                      #{item.index}
+                    </span>
+                    {item.title.join(' ')}
+                  </strong>
+                  <small>
+                    <em>{item.location}, <DateRange date={item.date} /></em>
+                  </small>
+                </LinkStacked>
+              </li>
+            ))}
+          </ul>
+        </nav>
+        <br />
+        <LinkItalic href="/trails-and-travels">View more</LinkItalic>
       </section>
     </Layout>
   );

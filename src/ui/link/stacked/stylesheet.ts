@@ -8,7 +8,7 @@ const styles = tw({
     before:block
     before:absolute
     before:-top-2
-    before:-bottom-3
+    before:-bottom-2
     before:-left-3
     before:-right-3
     before:z-0
@@ -17,7 +17,14 @@ const styles = tw({
     before:rounded-sm
     before:bg-(--foreground)/5
 
+    dark:visited:text-gray-400
+    light:visited:text-gray-500
+
+    focus:before:opacity-100
+    focus:!text-(--foreground)
+
     hover:before:opacity-100
+    hover:!text-(--foreground)
   `,
 });
 

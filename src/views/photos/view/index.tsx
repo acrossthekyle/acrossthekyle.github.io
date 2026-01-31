@@ -13,11 +13,11 @@ export default function View() {
             Photos
           </strong>
           <small>
-            <em>Frames from everywhere</em>
+            <em>Snapshots</em>
           </small>
         </h1>
         <p>
-          I use my phone to capture moments from everyday life and the vibrant city around me. Sharing these images here lets me showcase the world I encounter.
+          I use my phone to capture moments from everyday life, the vibrant city around me, and the sights from the trail.
         </p>
       </header>
       {IMAGES.map(({ caption, src }) => (

@@ -12,16 +12,12 @@ import {
 } from '@/ui/dialog';
 import { Image } from '@/ui/image';
 
-import Navigation from '../navigation';
 import Theme from '../theme';
 
+import Navigation from './navigation';
 import styles from './stylesheet';
 
-type Props = {
-  route?: string;
-};
-
-export default function Menu({ route }: Props) {
+export default function Menu() {
   const {
     dialog,
     handleOnCancel,
@@ -69,9 +65,7 @@ export default function Menu({ route }: Props) {
           </button>
         </DialogHeader>
         <DialogBody>
-          <nav aria-label="main navigation">
-            <Navigation className={styles.list} route={route} />
-          </nav>
+          <Navigation />
           <Theme className={styles.theme} />
         </DialogBody>
         <DialogFooter />

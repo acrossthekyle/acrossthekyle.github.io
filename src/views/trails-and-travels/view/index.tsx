@@ -24,7 +24,7 @@ export default function View({ data }: Props) {
             Trails and Travels
           </strong>
           <small>
-            <em>A travelogue of my journeys</em>
+            <em>Travelogue</em>
           </small>
         </h1>
       </header>
@@ -37,9 +37,14 @@ export default function View({ data }: Props) {
           {items.map((item) => (
             <li key={item.index}>
               <LinkStacked href={`/trails-and-travels/${item.slug}`}>
-                <strong>{item.title.join(' ')}</strong>
+                <strong>
+                  <span className={styles.index}>
+                    #{item.index}
+                  </span>
+                  {item.title.join(' ')}
+                </strong>
                 <small>
-                  <em><DateRange date={item.date} /> &mdash; {item.location}</em>
+                  <em>{item.location}, <DateRange date={item.date} /></em>
                 </small>
               </LinkStacked>
             </li>

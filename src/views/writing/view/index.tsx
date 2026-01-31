@@ -1,7 +1,7 @@
-import Markdown from 'react-markdown';
-
 import { Layout } from '@/layout';
+import { LinkStacked } from '@/ui/link';
 
+import styles from './stylesheet';
 import type { Data } from './types';
 
 type Props = {
@@ -17,22 +17,30 @@ export default function View({ data }: Props) {
             Writing
           </strong>
           <small>
-            <em>Thinking out loud</em>
+            <em>Thoughts</em>
           </small>
         </h1>
         <p>
           This space is for exploring ideas, and giving a glimpse into how I see the world. A place where I share my thoughts, opinions, and reflections on the things that matter to me.
         </p>
       </header>
-      {data.map((item) => (
-        <article key={item.title}>
-          <h2>
-            <strong>{item.title}</strong>
-            <small><em>{item.date}</em></small>
-          </h2>
-          <Markdown>{item.content}</Markdown>
-        </article>
-      ))}
+      <nav aria-label="writing navigation">
+        <ul className={styles.list}>
+          {data.map((item) => (
+            <li key={item.slug}>
+              <LinkStacked href={`/writing/${item.slug}`}>
+                <strong>
+                  <span className={styles.index}>#{item.index}</span>
+                  {item.title}
+                  </strong>
+                <small>
+                  <em>{item.date}</em>
+                </small>
+              </LinkStacked>
+            </li>
+          ))}
+        </ul>
+      </nav>
     </Layout>
   );
 }

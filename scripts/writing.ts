@@ -46,7 +46,7 @@ export async function go() {
   const data = [];
 
   await Promise.all(
-    writings.map((year) => {
+    writings.map((year, index) => {
       const months = fs.readdirSync(path.join(repository, year)).filter((item) => {
         if (item !== '.DS_Store') {
           return item;
@@ -77,6 +77,7 @@ export async function go() {
             ...meta,
             content,
             date: formatDate(date, 'LLLL do, yyyy'),
+            index,
             timestamp: getUnixTime(date),
           });
         });
