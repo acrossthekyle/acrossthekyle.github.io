@@ -3,9 +3,6 @@ import tw from '@/styles';
 const styles = tw({
   pdf: `
     w-26
-    -mt-13
-
-    md:-mt-12
   `,
   article: `
     mb-8

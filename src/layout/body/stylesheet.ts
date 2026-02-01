@@ -4,10 +4,10 @@ const styles = tw({
   body: `
     antialiased
     p-6
-    text-lg
-    font-light
+    text-base
+    font-mono
 
-    md:text-base
+    md:text-sm
     md:p-8
   `,
 });

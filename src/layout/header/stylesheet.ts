@@ -2,52 +2,24 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    flex justify-between
+    flex justify-between items-start
     max-w-lg
   `,
-  anchor: `
-    relative
-    w-8 h-8
-  `,
-  list: `
-    hidden
-    gap-5
-    mt-2
+  heading: `
+    text-sm
+    uppercase
 
-    md:flex
-  `,
-  link: `
-    block
-    relative
-    font-extrablack
-    text-2xl
-
-    before:absolute
-    before:z-0
-    before:-top-1.25
-    before:-bottom-1.25
-    before:-left-1.5
-    before:-right-1.5
-    before:rounded-sm
-    before:opacity-0
-    before:duration-300
-    before:bg-(--foreground)/5
-
-    hover:before:opacity-100
-
-    md:before:bg-(--foreground)/10
-    md:uppercase
-    md:font-normal
     md:text-xs
   `,
-  theme: `
-    hidden
+  theme: (isOnRoot: boolean) => tw(`
+    ${isOnRoot ? 'block' : 'hidden'}
+    fixed top-6 right-6
 
     md:block
-    md:fixed
     md:bottom-8
+    md:top-auto
     md:right-8
-  `,
+  `),
 });
 
 export default styles;

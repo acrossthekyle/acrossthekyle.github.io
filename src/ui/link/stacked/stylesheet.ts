@@ -17,14 +17,8 @@ const styles = tw({
     before:rounded-sm
     before:bg-(--foreground)/5
 
-    dark:visited:text-gray-400
-    light:visited:text-gray-500
-
     focus:before:opacity-100
-    focus:!text-(--foreground)
-
     hover:before:opacity-100
-    hover:!text-(--foreground)
   `,
 });
 

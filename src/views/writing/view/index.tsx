@@ -1,7 +1,6 @@
 import { Layout } from '@/layout';
-import { LinkStacked } from '@/ui/link';
+import { LinkCount, LinkList, LinkStacked } from '@/ui/link';
 
-import styles from './stylesheet';
 import type { Data } from './types';
 
 type Props = {
@@ -11,36 +10,30 @@ type Props = {
 export default function View({ data }: Props) {
   return (
     <Layout group="writing">
-      <header>
-        <h1>
-          <strong>
-            Writing
-          </strong>
-          <small>
-            <em>Thoughts</em>
-          </small>
-        </h1>
+      <article>
+        <h2>
+          <strong>Writing</strong>
+          <small>Quick thoughts</small>
+        </h2>
         <p>
-          This space is for exploring ideas, and giving a glimpse into how I see the world. A place where I share my thoughts, opinions, and reflections on the things that matter to me.
+          A place where I share my thoughts, opinions, and reflections on the things I notice.
         </p>
-      </header>
-      <nav aria-label="writing navigation">
-        <ul className={styles.list}>
+      </article>
+      <section aria-label="writing navigation">
+        <LinkList>
           {data.map((item) => (
             <li key={item.slug}>
               <LinkStacked href={`/writing/${item.slug}`}>
                 <strong>
-                  <span className={styles.index}>#{item.index}</span>
+                  <LinkCount>{item.index}</LinkCount>
                   {item.title}
-                  </strong>
-                <small>
-                  <em>{item.date}</em>
-                </small>
+                </strong>
+                <small>{item.date}</small>
               </LinkStacked>
             </li>
           ))}
-        </ul>
-      </nav>
+        </LinkList>
+      </section>
     </Layout>
   );
 }

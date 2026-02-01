@@ -11,61 +11,59 @@ export default function View() {
 
   return (
     <Layout group="email">
-      <header>
-        <h1>
-          <strong>
-            Email
-          </strong>
-          <small>
-            <em>hello@acrossthekyle.com</em>
-          </small>
-        </h1>
+      <article>
+        <h2>
+          <strong>Email</strong>
+          <small>hello@acrossthekyle.com</small>
+        </h2>
         <p>
-          I'm always open to new opportunities. If you're interested in working together, or have questions about any of the trails or travels I've done, fill out the short form below.
+          Interested in working together or curious about my travels? Reach out below.
         </p>
-      </header>
-      {state.succeeded && (
-        <div className={styles.alert} role="alert">
-          Thanks for reaching out!
-        </div>
-      )}
-      {!state.succeeded && (
-        <form className={styles.container} onSubmit={handleSubmit}>
-          <label className={styles.label} htmlFor="email">
-            Your email
-          </label>
-          <input
-            className={styles.input}
-            id="email"
-            name="email"
-            required
-            type="email"
-          />
-          <ValidationError errors={state.errors} field="email" prefix="Email" />
-          <label className={styles.label} htmlFor="message">
-            A brief message
-          </label>
-          <textarea
-            className={styles.textarea}
-            id="message"
-            maxLength={255}
-            name="message"
-            required
-            rows={4}
-          />
-          <ValidationError
-            errors={state.errors}
-            field="message"
-            prefix="Message"
-          />
-          <button
-            className={styles.submit}
-            type="submit"
-          >
-            Send
-          </button>
-        </form>
-      )}
+      </article>
+      <section aria-label="contact form">
+        {state.succeeded && (
+          <div className={styles.alert} role="alert">
+            Thanks for reaching out!
+          </div>
+        )}
+        {!state.succeeded && (
+          <form className={styles.container} onSubmit={handleSubmit}>
+            <label className={styles.label} htmlFor="email">
+              Your email
+            </label>
+            <input
+              className={styles.input}
+              id="email"
+              name="email"
+              required
+              type="email"
+            />
+            <ValidationError errors={state.errors} field="email" prefix="Email" />
+            <label className={styles.label} htmlFor="message">
+              A brief message
+            </label>
+            <textarea
+              className={styles.textarea}
+              id="message"
+              maxLength={255}
+              name="message"
+              required
+              rows={4}
+            />
+            <ValidationError
+              errors={state.errors}
+              field="message"
+              prefix="Message"
+            />
+            <button
+              className={styles.submit}
+              type="submit"
+            >
+              Send
+            </button>
+          </form>
+        )}
+      </section>
     </Layout>
   );
 }

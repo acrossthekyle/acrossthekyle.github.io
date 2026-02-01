@@ -2,7 +2,7 @@ import { Layout } from '@/layout';
 
 export default function View() {
   return (
-    <Layout>
+    <Layout group="wiki">
       <header>
         <h1>
           <strong>Wiki</strong>

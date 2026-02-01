@@ -13,7 +13,6 @@ const styles = tw({
   `,
   label: `
     mt-6 mb-2
-    font-medium
 
     first-of-type:mt-0
   `,

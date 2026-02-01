@@ -3,16 +3,18 @@ import tw from '@/styles';
 const styles = tw({
   footer: `
     hidden
+    fixed right-8 bottom-8
     !mt-0
+    text-tiny
 
     md:block
   `,
   kbd: `
-    fixed right-8 bottom-8
-    p-1.5
+    px-0.75 py-0.5
     text-tiny text-current/75
-    border border-(--foreground)/50
-    rounded-md
+    bg-(--foreground)/5
+    border border-(--foreground)/20
+    rounded-sm
   `,
 });
 

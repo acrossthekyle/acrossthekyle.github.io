@@ -1,7 +1,5 @@
 'use client';
 
-import { TextAlignEnd as Icon } from 'lucide-react';
-
 import { useDialog } from '@/hooks/useDialog';
 import {
   Dialog,
@@ -10,11 +8,10 @@ import {
   DialogFooter,
   DialogHeader,
 } from '@/ui/dialog';
-import { Image } from '@/ui/image';
 
+import Navigation from '../../navigation';
 import Theme from '../theme';
 
-import Navigation from './navigation';
 import styles from './stylesheet';
 
 export default function Menu() {
@@ -33,9 +30,10 @@ export default function Menu() {
         aria-label="open menu dialog"
         className={styles.open}
         onClick={handleOnOpen}
+        title="Menu"
         type="button"
       >
-        <Icon className={styles.icon} />
+        Site Directory
       </button>
       <Dialog
         id="menu"
@@ -44,25 +42,14 @@ export default function Menu() {
         ref={dialog}
       >
         <DialogHeader>
+          <h2 className={styles.header}>
+            Kyle Gilbert
+            <small>Backpacker + Engineer</small>
+          </h2>
           <DialogClose
             id="menu"
             onClose={handleOnClose}
           />
-          <button
-            aria-controls="menu"
-            aria-label="exit menu"
-            className={styles.anchor}
-            onClick={handleOnClose}
-            type="button"
-          >
-            <Image
-              alt=""
-              height={540}
-              sizes="100vw"
-              src="8ed54501-bdcb-40b7-9387-f2fc306db83d.png"
-              width={960}
-            />
-          </button>
         </DialogHeader>
         <DialogBody>
           <Navigation />

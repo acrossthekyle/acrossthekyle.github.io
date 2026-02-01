@@ -18,26 +18,23 @@ type Props = {
 export default function View({ data }: Props) {
   return (
     <Layout group="writing">
-      <header>
+      <article>
         <Breadcrumb>
           <BreadcrumbList>
-            <BreadcrumbItem highlight>
+            <BreadcrumbItem>
               <Link href="/writing">
                 <BreadcrumbTruncate text="Writing" />
               </Link>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>
-        <h1>
+        <h2>
           <strong>{data.title}</strong>
-          <small>
-            <em>
-              {data.date}
-            </em>
-          </small>
-        </h1>
-      </header>
-      <Markdown>{data.content}</Markdown>
+          <small>{data.date}</small>
+        </h2>
+        <br />
+        <Markdown>{data.content}</Markdown>
+      </article>
     </Layout>
   );
 }

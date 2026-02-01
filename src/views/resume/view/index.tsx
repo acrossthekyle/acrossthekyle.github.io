@@ -11,38 +11,30 @@ type Props = {
 export default function View({ data }: Props) {
   return (
     <Layout group="resume">
-      <header>
-        <h1>
-          <strong>
-            Resume
-          </strong>
-          <small>
-            <em>Work</em>
-          </small>
-        </h1>
+      <article>
+        <h2>
+          <strong>Resume</strong>
+          <small>Work and career</small>
+        </h2>
+        <p>
+          I'm a self-taught web developer/software engineer who is driven to create because making things with code thrills me to no end. With a strong background in <em>JavaScript/TypeScript</em>, and <em>HTML/CSS</em>, I have hands-on experience working with high-traffic, customer-facing products built with an attention to detail.
+        </p>
+        <p>
+          <strong>Currently</strong>
+          <small>Senior Software Engineer II &ndash; Optum Digital</small>
+        </p>
+        <p>
+          <strong>Previously</strong>
+          <small>Senior Frontend Engineer &ndash; Rally Health</small>
+        </p>
+        <br />
         <LinkButton className={styles.pdf} href="/kyle-gilbert-resume.pdf" target="_blank">
           Download PDF
         </LinkButton>
-      </header>
-      <p>
-        Driven to create
-      </p>
-      <p>
-        I'm a self-taught web developer/software engineer because making things with code thrills me to no end. With a strong background in <em>JavaScript/TypeScript</em>, and <em>HTML/CSS</em>, I have hands-on experience working with high-traffic, customer-facing products built with an attention to detail.
-      </p>
-      <p>
-        <strong>Currently</strong>
-        <em>Senior Engineer &ndash; Optum Digital (Formerly Rally Health)</em>
-      </p>
-      <p>
-        <strong>Previously</strong>
-        <em>Senior Fullstack Engineer &ndash; Earlybird Co</em>
-      </p>
+      </article>
       <section>
         <h2>
-          <strong>
-            SKILLS
-          </strong>
+          <strong>SKILLS</strong>
         </h2>
         <ul>
           {data.skills.map((skill) => (
@@ -67,49 +59,45 @@ export default function View({ data }: Props) {
             CAREER EXPERIENCE
           </strong>
         </h2>
-        {data.history.map((item) => (
-          <article
-            className={styles.article}
-            key={item.title.join('')}
-          >
-            <h3>
-              <strong>{item.position}</strong>
-            </h3>
-            <p>
-              <small>
-                <em>
+        <ul>
+          {data.history.map((item) => (
+            <li
+              className={styles.article}
+              key={item.title.join('')}
+            >
+              <h3>
+                <strong>{item.position}</strong>
+                <small>
                   {item.title.join(' ')} &mdash; {item.date.start} {!!item.date.end && <>- {item.date.end}</>}
-                </em>
-              </small>
-            </p>
-            <ul className="list">
-              {item.responsibilities.map((responsibility) => (
-                <li key={responsibility}>
-                  {responsibility}
-                </li>
-              ))}
-            </ul>
-          </article>
-        ))}
+                </small>
+              </h3>
+              <ul className="list">
+                {item.responsibilities.map((responsibility) => (
+                  <li key={responsibility}>
+                    {responsibility}
+                  </li>
+                ))}
+              </ul>
+            </li>
+          ))}
+        </ul>
       </section>
       <section>
         <h2>
-          <strong>
-            EDUCATION
-          </strong>
+          <strong>EDUCATION</strong>
         </h2>
-        {data.education.map((item) => (
-          <article key={item.degree}>
-            <h3>
-              <strong>{item.school}</strong>
-            </h3>
-            <p>
-              <em>
-                {item.degree} &mdash; {item.graduation}
-              </em>
-            </p>
-          </article>
-        ))}
+        <ul>
+          {data.education.map((item) => (
+            <li key={item.degree}>
+              <h3>
+                <strong>{item.school}</strong>
+                <small>
+                  {item.degree} &mdash; {item.graduation}
+                </small>
+              </h3>
+            </li>
+          ))}
+        </ul>
       </section>
     </Layout>
   );

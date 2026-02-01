@@ -4,7 +4,6 @@ const styles = tw({
   close: `
     absolute -top-1.5 -right-1.5
 
-    md:right-1
     md:-top-1
   `,
   icon: `
