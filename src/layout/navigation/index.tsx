@@ -116,7 +116,7 @@ export default function Menu() {
           <li>
             <LinkStacked
               aria-label="view codebase on github.com"
-              href="https://github.com/acrossthekyle/acrossthekyle.github.io"
+              href="https://github.com/acrossthekyle"
               target="_blank"
             >
               Github
