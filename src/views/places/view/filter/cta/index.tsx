@@ -19,7 +19,7 @@ export default function Cta({
 }: Props) {
   return (
     <button
-      className={styles.button(expected === current)}
+      className={styles.container(expected === current)}
       onClick={() => onClick(expected)}
       type="button"
     >
@@ -29,8 +29,8 @@ export default function Cta({
         )}
       </span>
       {count && (
-        <span className={styles.count}>
-          {count}
+        <span>
+          [{count}]
         </span>
       )}
     </button>

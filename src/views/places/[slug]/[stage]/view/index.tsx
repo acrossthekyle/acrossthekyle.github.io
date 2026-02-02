@@ -9,7 +9,7 @@ import {
   BreadcrumbTruncate,
 } from '@/ui/breadcrumbs';
 import { Image, ImageCaption, ImageFigure } from '@/ui/image';
-import { LinkButton } from '@/ui/link';
+import { LinkInternal } from '@/ui/link';
 import { TerminiRange } from '@/ui/termini';
 
 import Navigation from './navigation';
@@ -28,11 +28,11 @@ export default function View({ data }: Props) {
           <BreadcrumbList>
             <BreadcrumbItem>
               <Link href="/places">
-                <BreadcrumbTruncate text="Trails and Travels" />
+                ../Places
               </Link>
             </BreadcrumbItem>
             <BreadcrumbSeparator />
-            <BreadcrumbItem highlight>
+            <BreadcrumbItem>
               <Link href={`/places/${data.slug}`}>
                 <BreadcrumbTruncate text={data.parent.join(' ')} />
               </Link>
@@ -44,12 +44,11 @@ export default function View({ data }: Props) {
           <small>{data.date}</small>
         </h2>
         {data.hasGpx && (
-          <LinkButton
-            className={styles.gpx}
+          <LinkInternal
             href={`/places/${data.slug}/${data.index}/gpx`}
           >
             View GPX
-          </LinkButton>
+          </LinkInternal>
         )}
         <ImageFigure className={styles.figure}>
           <Image

@@ -20,10 +20,9 @@ export default function View({ data }: Props) {
       <article>
         <h2>
           <strong>Places</strong>
-          <small>Trails and travels</small>
         </h2>
         <p>
-          I've spent years thru-hiking trails and jetsetting off to unique destinations. Below are some of the routes and travels I've experienced.
+          From Nepal's Himalayas to windswept Patagonia, I've thru-hiked a lot of miles and witnessed some amazing things. Wandering is life, and the trail keeps pulling me coming back for more. These are the trails and travels I've experienced over the years.
         </p>
         <Filter data={data} onChange={handleOnFilter} />
         <LinkList>
@@ -31,9 +30,9 @@ export default function View({ data }: Props) {
             <li key={item.index}>
               <LinkStacked href={`/places/${item.slug}`}>
                 <LinkCount>{item.index}</LinkCount>
-                {item.title.join(' ')}
+                <strong>{item.title.join(' ')}</strong>
                 <small>
-                  {item.location} &mdash; <DateRange date={item.date} />
+                  {item.location} &mdash; <DateRange date={item.date} preview />
                 </small>
               </LinkStacked>
             </li>

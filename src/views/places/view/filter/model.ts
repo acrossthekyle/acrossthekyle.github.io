@@ -1,6 +1,6 @@
 'use client';
 
-import { ChangeEvent, useEffect } from 'react';
+import { useEffect } from 'react';
 import { create } from 'zustand';
 
 import type { Data } from '../types';
@@ -34,10 +34,6 @@ export function useModel(data: Data[], onChange: (filter: string) => void) {
     setFilterBy(value);
   };
 
-  const handleOnSelect = (event: ChangeEvent<HTMLSelectElement>) => {
-    setFilterBy(event.target.value);
-  }
-
   const reduced = data.reduce((items: { [key: string]: number }, { type }) => {
     items[type] = (items[type] || 0) + 1;
 
@@ -51,7 +47,6 @@ export function useModel(data: Data[], onChange: (filter: string) => void) {
 
   return {
     filterBy,
-    handleOnSelect,
     handleOnTag,
     total: types.reduce((total: number, { count }) => total + count, 0),
     types,

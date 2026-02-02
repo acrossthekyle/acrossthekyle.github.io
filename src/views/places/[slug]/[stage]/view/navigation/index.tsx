@@ -1,6 +1,4 @@
-import Link from 'next/link';
-
-import { TerminiRange } from '@/ui/termini';
+import { LinkInternal } from '@/ui/link';
 import type { Navigation } from '@/types';
 
 type Props = {
@@ -12,13 +10,13 @@ export default function Navigation({ next, slug }: Props) {
   return (
     <section aria-label="supplementary navigation">
       {next !== undefined ? (
-        <Link href={`/places/${slug}/${next.index}`}>
-          Next {next.label}:{' '}<TerminiRange termini={next.termini} />
-        </Link>
+        <LinkInternal href={`/places/${slug}/${next.index}`}>
+          Next {next.label}
+        </LinkInternal>
       ) : (
-        <Link href={`/places/${slug}`}>
+        <LinkInternal href={`/places/${slug}`}>
           The End: Back to summary
-        </Link>
+        </LinkInternal>
       )}
     </section>
   );

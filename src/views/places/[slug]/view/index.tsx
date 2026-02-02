@@ -5,11 +5,10 @@ import {
   Breadcrumb,
   BreadcrumbList,
   BreadcrumbItem,
-  BreadcrumbTruncate,
 } from '@/ui/breadcrumbs';
 import { DateRange } from '@/ui/date';
 import { Image, ImageCaption, ImageFigure } from '@/ui/image';
-import { LinkButton } from '@/ui/link';
+import { LinkInternal } from '@/ui/link';
 
 import styles from './stylesheet';
 import type { Data } from './types';
@@ -26,20 +25,19 @@ export default function View({ data }: Props) {
           <BreadcrumbList>
             <BreadcrumbItem>
               <Link href="/places">
-                <BreadcrumbTruncate text="Trails and Travels" />
+                ../Places
               </Link>
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>
         <h2>
-          <strong>{data.title.join(' ')}</strong>
-          <small>{data.location}, <DateRange date={data.date} /></small>
+          <strong>
+            {data.title.join(' ')}
+          </strong>
+          <small>
+            {data.location} &mdash; <DateRange date={data.date} preview/>
+          </small>
         </h2>
-        {data.hasGear && (
-          <LinkButton className={styles.gear} href={`${data.slug}/gear`}>
-            View gear
-          </LinkButton>
-        )}
         <section aria-label="details">
           {data.description.map((paragraph) => (
             <p key={paragraph}>
@@ -72,6 +70,13 @@ export default function View({ data }: Props) {
               </li>
             ))}
           </ul>
+        </section>
+        <section>
+          {data.hasGear && (
+            <LinkInternal href={`${data.slug}/gear`}>
+              View gear
+            </LinkInternal>
+          )}
         </section>
       </article>
     </Layout>

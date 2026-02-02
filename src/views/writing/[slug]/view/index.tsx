@@ -6,7 +6,6 @@ import {
   Breadcrumb,
   BreadcrumbList,
   BreadcrumbItem,
-  BreadcrumbTruncate,
 } from '@/ui/breadcrumbs';
 
 import type { Data } from './types';
@@ -23,7 +22,7 @@ export default function View({ data }: Props) {
           <BreadcrumbList>
             <BreadcrumbItem>
               <Link href="/writing">
-                <BreadcrumbTruncate text="Writing" />
+                ../Writing
               </Link>
             </BreadcrumbItem>
           </BreadcrumbList>

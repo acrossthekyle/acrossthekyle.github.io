@@ -1,5 +1,13 @@
+import Link from 'next/link';
+
 import { Layout } from '@/layout';
-import { LinkBack } from '@/ui/link';
+import {
+  Breadcrumb,
+  BreadcrumbList,
+  BreadcrumbItem,
+  BreadcrumbSeparator,
+  BreadcrumbTruncate,
+} from '@/ui/breadcrumbs';
 
 import Context from './context';
 import Elevation from './elevation';
@@ -14,7 +22,27 @@ export default function View({ data }: Props) {
   return (
     <Layout group="places">
       <article>
-        <LinkBack href={`/places/${data.slug}/${data.index}`} />
+        <Breadcrumb>
+          <BreadcrumbList>
+            <BreadcrumbItem>
+              <Link href="/places">
+                ../Places
+              </Link>
+            </BreadcrumbItem>
+            <BreadcrumbSeparator />
+            <BreadcrumbItem>
+              <Link href={`/places/${data.slug}`}>
+                <BreadcrumbTruncate text={data.parent.join(' ')} />
+              </Link>
+            </BreadcrumbItem>
+            <BreadcrumbSeparator />
+            <BreadcrumbItem>
+              <Link href={`/places/${data.slug}/${data.index}`}>
+                {data.index}
+              </Link>
+            </BreadcrumbItem>
+          </BreadcrumbList>
+        </Breadcrumb>
         <h2>
           <strong>Route and Elevation</strong>
           <small>GPX data via GPS Smart Watch</small>

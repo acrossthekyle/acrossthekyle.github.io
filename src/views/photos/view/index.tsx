@@ -10,7 +10,6 @@ export default function View() {
       <section>
         <h2>
           <strong>Photos</strong>
-          <small>Snapshots from life</small>
         </h2>
         <p>
           I use my phone to capture moments from everyday life, the vibrant city around me, and sights from the trails.

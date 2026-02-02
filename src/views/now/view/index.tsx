@@ -5,10 +5,7 @@ export default function View() {
     <Layout group="now">
       <article>
         <h2>
-          Now
-          <small>
-            Presently doing
-          </small>
+          <strong>Now</strong>
         </h2>
         <p>
           This is my little corner to share what I'm up to and what I'm focused on right now.

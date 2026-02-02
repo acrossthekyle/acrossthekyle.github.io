@@ -14,8 +14,10 @@ export default function View() {
       <article>
         <h2>
           <strong>Email</strong>
-          <small>hello@acrossthekyle.com</small>
         </h2>
+        <p>
+          hello@acrossthekyle.com
+        </p>
         <p>
           Interested in working together or curious about my travels? Reach out below.
         </p>

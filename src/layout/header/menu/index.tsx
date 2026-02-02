@@ -33,7 +33,7 @@ export default function Menu() {
         title="Menu"
         type="button"
       >
-        Site Directory
+        Index
       </button>
       <Dialog
         id="menu"

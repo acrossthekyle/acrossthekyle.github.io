@@ -1,41 +1,29 @@
 import tw from '@/styles';
 
-const styles = tw({
-  button: (isSelected: boolean) => tw(`
+const styles = {
+  container: (isSelected: boolean) => tw(`
     relative
-    flex items-center justify-between gap-2
-    w-full h-4.5
-    px-0.5
+    flex items-center gap-1
+    pb-px
     uppercase
-    text-sm
-    tracking-wide
+    text-sm text-left
+
+    md:text-xs
 
     before:block
     before:absolute
-    before:-inset-1
+    before:left-0
+    before:right-0
+    before:bottom-0
     before:z-0
+    before:h-px
     before:duration-300
     before:rounded-sm
-    before:border
-    before:border-(--foreground)/7.5
 
-    ${isSelected ? 'before:bg-(--foreground)/25' : 'before:bg-(--foreground)/7.5'}
+    ${isSelected ? 'before:bg-(--foreground)/85' : 'before:bg-transparent'}
 
-    hover:before:bg-(--foreground)/30
-
-    md:h-4
-    md:text-xs
+    hover:before:bg-(--foreground)/85
   `),
-  count: `
-    flex items-center justify-center
-    h-4 min-w-4
-    px-1
-    text-tiny text-(--background)
-    font-bold font-mono
-    uppercase
-    bg-(--foreground)/60
-    rounded-sm
-  `,
-});
+};
 
 export default styles;

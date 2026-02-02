@@ -14,7 +14,6 @@ export default function View({ data }: Props) {
       <article>
         <h2>
           <strong>Resume</strong>
-          <small>Work and career</small>
         </h2>
         <p>
           I'm a self-taught web developer/software engineer who is driven to create because making things with code thrills me to no end. With a strong background in <em>JavaScript/TypeScript</em>, and <em>HTML/CSS</em>, I have hands-on experience working with high-traffic, customer-facing products built with an attention to detail.
@@ -33,9 +32,9 @@ export default function View({ data }: Props) {
         </LinkButton>
       </article>
       <section>
-        <h2>
+        <h3>
           <strong>SKILLS</strong>
-        </h2>
+        </h3>
         <ul>
           {data.skills.map((skill) => (
             <li className={styles.skill} key={skill.name}>
@@ -54,11 +53,11 @@ export default function View({ data }: Props) {
         </ul>
       </section>
       <section>
-        <h2>
+        <h3>
           <strong>
             CAREER EXPERIENCE
           </strong>
-        </h2>
+        </h3>
         <ul>
           {data.history.map((item) => (
             <li
@@ -83,9 +82,9 @@ export default function View({ data }: Props) {
         </ul>
       </section>
       <section>
-        <h2>
+        <h3>
           <strong>EDUCATION</strong>
-        </h2>
+        </h3>
         <ul>
           {data.education.map((item) => (
             <li key={item.degree}>

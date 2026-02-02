@@ -2,10 +2,10 @@ import type { Date } from '@/types';
 
 type Props = {
   date: Date;
-  isPreview?: boolean;
+  preview?: boolean;
 };
 
-export default function Range({ date, isPreview }: Props) {
+export default function Range({ date, preview }: Props) {
   return (
     <>
       {date.isYears && (
@@ -15,9 +15,9 @@ export default function Range({ date, isPreview }: Props) {
       )}
       {!date.isYears && (
         <>
-          {isPreview ? (
+          {preview ? (
             <>
-              {date.range[0]}
+              {date.range[1].split(', ')[1]}
             </>
           ) : (
             <>

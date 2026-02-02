@@ -13,7 +13,6 @@ export default function View({ data }: Props) {
       <article>
         <h2>
           <strong>Writing</strong>
-          <small>Quick thoughts</small>
         </h2>
         <p>
           A place where I share my thoughts, opinions, and reflections on the things I notice.

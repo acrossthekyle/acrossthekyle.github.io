@@ -1,7 +1,14 @@
 import Link from 'next/link';
 
 import { Layout } from '@/layout';
-import { LinkArrow, LinkBack } from '@/ui/link';
+import {
+  Breadcrumb,
+  BreadcrumbList,
+  BreadcrumbItem,
+  BreadcrumbSeparator,
+  BreadcrumbTruncate,
+} from '@/ui/breadcrumbs';
+import { LinkArrow } from '@/ui/link';
 
 import styles from './stylesheet';
 import type { Data } from './types';
@@ -14,7 +21,21 @@ export default function View({ data }: Props) {
   return (
     <Layout group="places">
       <article>
-        <LinkBack href={`/places/${data.slug}`} />
+        <Breadcrumb>
+          <BreadcrumbList>
+            <BreadcrumbItem>
+              <Link href="/places">
+                ../Places
+              </Link>
+            </BreadcrumbItem>
+            <BreadcrumbSeparator />
+            <BreadcrumbItem>
+              <Link href={`/places/${data.slug}`}>
+                <BreadcrumbTruncate text={data.title.join(' ')} />
+              </Link>
+            </BreadcrumbItem>
+          </BreadcrumbList>
+        </Breadcrumb>
         <h2>
           <strong>Gear List</strong>
           <small>Base weight: {data.weights.base} lbs</small>
