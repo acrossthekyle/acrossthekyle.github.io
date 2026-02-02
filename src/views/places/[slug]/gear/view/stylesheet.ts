@@ -5,10 +5,9 @@ const styles = tw({
     !mt-8
   `,
   item: `
-    inline
-    mr-4
+    inline-block
+    mr-4 mb-2
     capitalize
-    text-current/75
 
     last:mr-0
   `,

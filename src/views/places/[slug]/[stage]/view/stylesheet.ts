@@ -1,11 +1,14 @@
 import tw from '@/styles';
 
 const styles = tw({
-  gpx: `
-    w-18
-  `,
   figure: `
     mt-16
+  `,
+  extras: `
+    flex items-center justify-between gap-16
+  `,
+  navigation: `
+    flex gap-8
   `,
 });
 

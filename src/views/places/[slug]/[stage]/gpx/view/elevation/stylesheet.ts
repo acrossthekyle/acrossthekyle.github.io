@@ -4,7 +4,7 @@ const styles = tw({
   container: `
     relative
     border-1 border-(--foreground)/15
-    rounded-t-lg
+    rounded-t-md
   `,
   chart: `
     h-48 w-full

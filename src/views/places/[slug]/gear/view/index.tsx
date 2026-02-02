@@ -5,7 +5,6 @@ import {
   Breadcrumb,
   BreadcrumbList,
   BreadcrumbItem,
-  BreadcrumbTruncate,
 } from '@/ui/breadcrumbs';
 import { LinkArrow } from '@/ui/link';
 
@@ -50,18 +49,8 @@ export default function View({ data }: Props) {
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>
-            <Link href="/">
-              ../
-            </Link>
-          </BreadcrumbItem>
-          <BreadcrumbItem>
-            <Link href="/places">
-              places/
-            </Link>
-          </BreadcrumbItem>
-          <BreadcrumbItem>
             <Link href={`/places/${data.slug}`}>
-              <BreadcrumbTruncate text={data.title.join(' ')} />
+              ../
             </Link>
           </BreadcrumbItem>
         </BreadcrumbList>

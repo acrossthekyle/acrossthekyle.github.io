@@ -17,12 +17,10 @@ const styles = tw({
   `),
   figure: `
     h-full
-    overflow-hidden
     rounded-lg
   `,
   image: `
     md:hover:grayscale-0
-    md:hover:scale-103
     md:grayscale-100
     md:duration-800
   `,

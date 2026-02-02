@@ -32,10 +32,7 @@ export default function View({ data }: Props) {
           </p>
         ))}
       </section>
-      <section>
-        <h2>
-          Photos and journal entries for each {data.label.toLowerCase()}:
-        </h2>
+      <section aria-label={`photo journal entries for each ${data.label.toLowerCase()}`}>
         <ul className={styles.list}>
           {data.stages.map((stage, index: number) => (
             <li className={styles.item(index, data.total)} key={stage.index}>
@@ -58,6 +55,13 @@ export default function View({ data }: Props) {
           ))}
         </ul>
       </section>
+      {data.hasGear && (
+        <section>
+          <Link href={`${data.slug}/gear`}>
+            Gear ↗
+          </Link>
+        </section>
+      )}
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>

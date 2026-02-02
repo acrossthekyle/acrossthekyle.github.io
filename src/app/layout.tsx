@@ -4,12 +4,12 @@ import type { Metadata, Viewport } from 'next';
 
 import { Body, Loader } from '@/layout';
 
-const description = `Hi, I'm Kyle. I'm based in Chicago with my partner and our dog Dax, on the lands of the Potawatomi, Ojibwe, and Odawa. By day, I build web apps as a self-taught software engineer. By trail, I explore the world - from Nepal's Himalayas to windswept Patagonia - carrying everything I need on my back. Wandering is life, and the thrill keeps me coming back for more.`;
+const description = `Hi, I'm Kyle: backpacker and engineer. I'm drawn to long trails and wild places, from the Himalayas to Patagonia. Between adventures, I build web apps in Chicago.`;
 
 export const metadata: Metadata = {
   title: {
-    template: `%s → Kyle → A backpacker and software engineer.`,
-    default: 'Home → Kyle → A backpacker and software engineer.',
+    template: `%s → Kyle → Backpacker and engineer.`,
+    default: 'Home → Kyle → Backpacker and engineer.',
   },
   keywords: [
     'across',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   openGraph: {
-    title: 'Kyle → A backpacker and software engineer',
+    title: 'Kyle → Backpacker and engineer',
     description,
     url: 'https://acrossthekyle.com',
     siteName: 'acrossthekyle',

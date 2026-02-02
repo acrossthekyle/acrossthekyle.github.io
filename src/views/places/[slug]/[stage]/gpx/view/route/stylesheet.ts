@@ -5,7 +5,7 @@ const styles = tw({
     relative z-0
     h-100 w-full
     border-1 border-(--foreground)/15 border-t-0
-    rounded-b-lg
+    rounded-b-md
     overflow-hidden
   `,
   map: `

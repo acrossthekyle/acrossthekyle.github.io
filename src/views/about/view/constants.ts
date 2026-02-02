@@ -58,6 +58,5 @@ export const TIMELINE: Timeline[] = [
   {
     year: new Date().getFullYear(),
     title: `Hiking, travelling, and always learning`,
-    paragraph: `See you out there...`,
   },
 ];

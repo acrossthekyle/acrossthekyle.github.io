@@ -43,13 +43,27 @@ export default function View({ data }: Props) {
           <p key={paragraph}>{paragraph}</p>
         ))}
       </section>
-      {data.hasGpx && (
-        <section>
-          <Link
-            href={`/places/${data.slug}/${data.index}/gpx`}
-          >
-            ./GPX
-          </Link>
+      {(data.hasNavigation || data.hasGpx) && (
+        <section className={styles.extras}>
+          {data.hasGpx && (
+            <Link href={`/places/${data.slug}/${data.index}/gpx`}>
+              Route ↗
+            </Link>
+          )}
+          {data.hasNavigation && (
+            <div className={styles.navigation}>
+              {data.previous !== undefined && (
+                <Link href={`/places/${data.slug}/${data.previous.index}`}>
+                  ← Previous
+                </Link>
+              )}
+              {data.next !== undefined && (
+                <Link href={`/places/${data.slug}/${data.next.index}`}>
+                  Next →
+                </Link>
+              )}
+            </div>
+          )}
         </section>
       )}
       <Breadcrumb>

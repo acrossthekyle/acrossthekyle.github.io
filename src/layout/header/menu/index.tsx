@@ -33,7 +33,7 @@ export default function Menu() {
         title="Menu"
         type="button"
       >
-        ||
+        Menu
       </button>
       <Dialog
         id="menu"

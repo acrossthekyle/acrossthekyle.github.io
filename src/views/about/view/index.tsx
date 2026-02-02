@@ -19,7 +19,7 @@ export default function View() {
       </h1>
       <section aria-label="introduction">
         <p>
-          Hello there, I'm Kyle, a {new Date().getFullYear() - 1987} year old from Chicago.
+          Hello there. I'm Kyle: a millenial living in Chicago. Let's take a stroll down memory lane...
         </p>
       </section>
       <section aria-label="timeline">
@@ -46,7 +46,7 @@ export default function View() {
       </section>
       <section aria-label="about">
         <p>
-          I like to explore the world &mdash; and I've been to many <Link href="/places"><u>places</u></Link>, from Nepal's Himalayas to windswept Patagonia. My first adventure was a 32-day thru-hike of the Camino de Santiago; a long-distance trail across Northern Spain.
+          I like to explore the world &mdash; and I've been to many <Link href="/places"><u>places</u></Link>, from Nepal's Himalayas to windswept Patagonia. My first adventure was a 32-day thru-hike of the Camino de Santiago: a long-distance trail across Northern Spain.
         </p>
         <p>
           Between adventures, I build web and mobile apps as a self-taught software engineer because making things with code thrills me to no end. Feel free to browse my <Link href="/resume"><u>resume</u></Link>.

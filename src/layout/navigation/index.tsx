@@ -13,7 +13,7 @@ export default function Menu() {
         <hr className={styles.hr} />
         <ul className={styles.list}>
           <li>
-            <LinkStacked href="/places">
+            <LinkStacked href="/places" id="skip-to">
               Places
               <small>Trails and travels</small>
             </LinkStacked>
