@@ -4,13 +4,12 @@ import Main from './main';
 
 type Props = {
   children: React.ReactNode | React.ReactNode[];
-  group: string;
 };
 
-export default function Layout({ children, group }: Props) {
+export default function Layout({ children }: Props) {
   return (
     <>
-      <Header route={group} />
+      <Header />
       <Main>
         {children}
       </Main>

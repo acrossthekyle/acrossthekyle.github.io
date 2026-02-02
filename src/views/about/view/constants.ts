@@ -4,7 +4,7 @@ export const TIMELINE: Timeline[] = [
   {
     year: 1987,
     title: `Born`,
-    paragraph: `Chicago`,
+    paragraph: `Chicago (Potawatomi, Ojibwe, and Odawa lands)`,
   },
   {
     year: 1990,

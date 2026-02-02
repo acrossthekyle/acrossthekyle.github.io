@@ -5,12 +5,9 @@ const styles = tw({
     uppercase
   `,
   list: `
-    grid grid-cols-2 gap-6
+    grid grid-cols-2 gap-8
 
     md:grid-cols-3
-  `,
-  link: `
-    block
   `,
   hr: `
     w-3

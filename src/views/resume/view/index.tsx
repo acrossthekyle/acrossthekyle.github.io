@@ -1,4 +1,11 @@
+import Link from 'next/link';
+
 import { Layout } from '@/layout';
+import {
+  Breadcrumb,
+  BreadcrumbList,
+  BreadcrumbItem,
+} from '@/ui/breadcrumbs';
 import { LinkButton } from '@/ui/link';
 
 import styles from './stylesheet';
@@ -10,31 +17,23 @@ type Props = {
 
 export default function View({ data }: Props) {
   return (
-    <Layout group="resume">
-      <article>
-        <h2>
-          <strong>Resume</strong>
-        </h2>
+    <Layout>
+      <h1>
+        <strong>Resume</strong>
+        <small>Skills and career</small>
+      </h1>
+      <section aria-label="introduction">
         <p>
           I'm a self-taught web developer/software engineer who is driven to create because making things with code thrills me to no end. With a strong background in <em>JavaScript/TypeScript</em>, and <em>HTML/CSS</em>, I have hands-on experience working with high-traffic, customer-facing products built with an attention to detail.
         </p>
-        <p>
-          <strong>Currently</strong>
-          <small>Senior Software Engineer II &ndash; Optum Digital</small>
-        </p>
-        <p>
-          <strong>Previously</strong>
-          <small>Senior Frontend Engineer &ndash; Rally Health</small>
-        </p>
-        <br />
         <LinkButton className={styles.pdf} href="/kyle-gilbert-resume.pdf" target="_blank">
           Download PDF
         </LinkButton>
-      </article>
+      </section>
       <section>
-        <h3>
+        <h2>
           <strong>SKILLS</strong>
-        </h3>
+        </h2>
         <ul>
           {data.skills.map((skill) => (
             <li className={styles.skill} key={skill.name}>
@@ -53,11 +52,11 @@ export default function View({ data }: Props) {
         </ul>
       </section>
       <section>
-        <h3>
+        <h2>
           <strong>
             CAREER EXPERIENCE
           </strong>
-        </h3>
+        </h2>
         <ul>
           {data.history.map((item) => (
             <li
@@ -82,9 +81,9 @@ export default function View({ data }: Props) {
         </ul>
       </section>
       <section>
-        <h3>
+        <h2>
           <strong>EDUCATION</strong>
-        </h3>
+        </h2>
         <ul>
           {data.education.map((item) => (
             <li key={item.degree}>
@@ -98,6 +97,15 @@ export default function View({ data }: Props) {
           ))}
         </ul>
       </section>
+      <Breadcrumb>
+        <BreadcrumbList>
+          <BreadcrumbItem>
+            <Link href="/">
+              ../
+            </Link>
+          </BreadcrumbItem>
+        </BreadcrumbList>
+      </Breadcrumb>
     </Layout>
   );
 }

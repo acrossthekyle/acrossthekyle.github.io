@@ -1,19 +1,28 @@
+import Link from 'next/link';
+
 import { Layout } from '@/layout';
+import {
+  Breadcrumb,
+  BreadcrumbList,
+  BreadcrumbItem,
+} from '@/ui/breadcrumbs';
 
 import { TIMELINE } from './constants';
 import styles from './stylesheet';
 
 export default function View() {
   return (
-    <Layout group="about">
-      <article>
-        <h2>
-          <strong>About</strong>
-        </h2>
+    <Layout>
+      <h1>
+        <strong>About</strong>
+        <small>My backstory</small>
+      </h1>
+      <section aria-label="introduction">
         <p>
-          Hi, I'm Kyle. I explore the world &mdash; from Nepal's Himalayas to windswept Patagonia. Between adventures, I build web apps in <em>Chicago</em>, on the lands of the <em>Potawatomi</em>, <em>Ojibwe</em>, and <em>Odawa</em>, as a self-taught software engineer.
+          Hello there, I'm Kyle, a {new Date().getFullYear() - 1987} year old from Chicago.
         </p>
-        <p>Here's a brief history of my life, so far:</p>
+      </section>
+      <section aria-label="timeline">
         <ul className={styles.timeline}>
           {TIMELINE.map(({ paragraph, title, year }) => (
             <li className={styles.item} key={year}>
@@ -34,7 +43,27 @@ export default function View() {
             </li>
           ))}
         </ul>
-      </article>
+      </section>
+      <section aria-label="about">
+        <p>
+          I like to explore the world &mdash; and I've been to many <Link href="/places"><u>places</u></Link>, from Nepal's Himalayas to windswept Patagonia. My first adventure was a 32-day thru-hike of the Camino de Santiago; a long-distance trail across Northern Spain.
+        </p>
+        <p>
+          Between adventures, I build web and mobile apps as a self-taught software engineer because making things with code thrills me to no end. Feel free to browse my <Link href="/resume"><u>resume</u></Link>.
+        </p>
+        <p>
+          Occasionally I'll write <Link href="/words"><u>words</u></Link> about thoughts, opinions, or reflections on this website, and share <Link href="/photos"><u>photos</u></Link> from daily life.
+        </p>
+      </section>
+      <Breadcrumb>
+        <BreadcrumbList>
+          <BreadcrumbItem>
+            <Link href="/">
+              ../
+            </Link>
+          </BreadcrumbItem>
+        </BreadcrumbList>
+      </Breadcrumb>
     </Layout>
   );
 }

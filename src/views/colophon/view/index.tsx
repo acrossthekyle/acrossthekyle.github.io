@@ -1,13 +1,21 @@
 import Link from 'next/link';
 
 import { Layout } from '@/layout';
+import {
+  Breadcrumb,
+  BreadcrumbList,
+  BreadcrumbItem,
+} from '@/ui/breadcrumbs';
 import { LinkArrow } from '@/ui/link';
 
 export default function View() {
   return (
-    <Layout group="colophon">
-      <section>
-        <h2><strong>What is a "Colophon"?</strong></h2>
+    <Layout>
+      <h1>
+        <strong>Colophon</strong>
+        <small>Website philosophy</small>
+      </h1>
+      <section aria-label="introduction">
         <p>
           A colophon (<em>KOL-uh-fuhn</em>) is where creators tell the world how they made something; a practice dating back to ancient times.
         </p>
@@ -16,7 +24,9 @@ export default function View() {
         </p>
       </section>
       <section>
-        <h2><strong>Technicals</strong></h2>
+        <h2>
+          <strong>TECHNICALS</strong>
+        </h2>
         <p>
           This site is built with <Link href="https://nextjs.org" target="_blank"><strong><u><LinkArrow>NextJs</LinkArrow></u></strong></Link>, and styled with a combination of pure css and <Link href="https://tailwindcss.com" target="_blank"><strong><u><LinkArrow>TailwindCSS</LinkArrow></u></strong></Link>. It's deployed via <Link href="https://vercel.com" target="_blank"><strong><u><LinkArrow>Vercel</LinkArrow></u></strong></Link> with both static, and dynamically driven, content.
         </p>
@@ -28,25 +38,28 @@ export default function View() {
         </p>
       </section>
       <section>
-        <h2><strong>Typography</strong></h2>
+        <h2>
+          <strong>TYPOGRAPHY</strong>
+        </h2>
         <p>
-          The font used on this website is Geist provided by Google Fonts, with both sans serif, serif, and monospace versions employed.
+          The font used on this website is Geist provided by Google Fonts, with the monospace version employed.
         </p>
         <p>
-          I tried to balance the use of the serif version of the font family with the non-serif version, utilizing the italic style where it felt "artsy" or just felt right.
-        </p>
-        <p>
-          Section headings are bold, with page headers being a larger font size, and subheaders (or subtitles) ranging from sans-serif to serif styling.
+          I tried to balance the use of the serif version of the font family with the monospace version, utilizing the italic style where it felt "artsy" or just felt right.
         </p>
       </section>
       <section>
-        <h2><strong>Writing</strong></h2>
+        <h2>
+          <strong>WORDS</strong>
+        </h2>
         <p>
           I'm not a writer, at all. So, most of the content on this site is perfected by machines based off of outlines and rough-draft content provided by me, the human.
         </p>
       </section>
       <section>
-        <h2><strong>Design</strong></h2>
+        <h2>
+          <strong>DESIGN</strong>
+        </h2>
         <p>
           Nor am I a designer, and I took heavy inspiration from websites found in the <Link href="https://deadsimplesites.com" target="_blank"><strong><u><LinkArrow>DeadSimpleSites</LinkArrow></u></strong></Link> collection.
         </p>
@@ -54,6 +67,15 @@ export default function View() {
           But, as an informally trained architect from primary schooling, I do believe in the philosophy of "less is more", and try to keep the design elements of my personal site minimalistic.
         </p>
       </section>
+      <Breadcrumb>
+        <BreadcrumbList>
+          <BreadcrumbItem>
+            <Link href="/">
+              ../
+            </Link>
+          </BreadcrumbItem>
+        </BreadcrumbList>
+      </Breadcrumb>
     </Layout>
   );
 }

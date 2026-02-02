@@ -3,7 +3,9 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     w-full max-w-lg
-    my-0 mx-auto
+    mt-0 mx-auto mb-6
+
+    md:mb-16
   `,
 });
 

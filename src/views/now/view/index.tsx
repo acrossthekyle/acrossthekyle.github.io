@@ -1,17 +1,25 @@
+import Link from 'next/link';
+
 import { Layout } from '@/layout';
+import {
+  Breadcrumb,
+  BreadcrumbList,
+  BreadcrumbItem,
+} from '@/ui/breadcrumbs';
 
 export default function View() {
   return (
-    <Layout group="now">
-      <article>
-        <h2>
-          <strong>Now</strong>
-        </h2>
+    <Layout>
+      <h1>
+        <strong>Now</strong>
+        <small>Presntly doing</small>
+      </h1>
+      <section aria-label="introduction">
         <p>
           This is my little corner to share what I'm up to and what I'm focused on right now.
         </p>
-      </article>
-      <section aria-label="what i'm currently doing">
+      </section>
+      <section aria-label="updates">
         <ul className="list">
           <li>
             Reading "The Dark Forest" by Liu Cixin, and "A Clash of Kings" by George R.R. Martin
@@ -27,12 +35,21 @@ export default function View() {
           </li>
         </ul>
       </section>
-      <section>
-        <h2>
+      <section aria-label="status">
+        <p>
           Last updated
           <small>January 26th, 2026</small>
-        </h2>
+        </p>
       </section>
+      <Breadcrumb>
+        <BreadcrumbList>
+          <BreadcrumbItem>
+            <Link href="/">
+              ../
+            </Link>
+          </BreadcrumbItem>
+        </BreadcrumbList>
+      </Breadcrumb>
     </Layout>
   );
 }

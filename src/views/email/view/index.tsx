@@ -1,8 +1,14 @@
 'use client';
 
+import Link from 'next/link';
 import { useForm, ValidationError } from '@formspree/react';
 
 import { Layout } from '@/layout';
+import {
+  Breadcrumb,
+  BreadcrumbList,
+  BreadcrumbItem,
+} from '@/ui/breadcrumbs';
 
 import styles from './stylesheet';
 
@@ -10,19 +16,17 @@ export default function View() {
   const [state, handleSubmit] = useForm('mgvwwylj');
 
   return (
-    <Layout group="email">
-      <article>
-        <h2>
-          <strong>Email</strong>
-        </h2>
+    <Layout>
+      <h1>
+        <strong>Email</strong>
+        <small>hello@acrossthekyle.com</small>
+      </h1>
+      <section aria-label="introduction">
         <p>
-          hello@acrossthekyle.com
+          Interested in working together or curious about my travels?
         </p>
-        <p>
-          Interested in working together or curious about my travels? Reach out below.
-        </p>
-      </article>
-      <section aria-label="contact form">
+      </section>
+      <section aria-label="contact">
         {state.succeeded && (
           <div className={styles.alert} role="alert">
             Thanks for reaching out!
@@ -66,6 +70,15 @@ export default function View() {
           </form>
         )}
       </section>
+      <Breadcrumb>
+        <BreadcrumbList>
+          <BreadcrumbItem>
+            <Link href="/">
+              ../
+            </Link>
+          </BreadcrumbItem>
+        </BreadcrumbList>
+      </Breadcrumb>
     </Layout>
   );
 }

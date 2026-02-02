@@ -5,36 +5,15 @@ import {
   Breadcrumb,
   BreadcrumbList,
   BreadcrumbItem,
-  BreadcrumbPage,
-  BreadcrumbSeparator,
 } from '@/ui/breadcrumbs';
 
 export default function View() {
   return (
-    <Layout group="404">
-      <header>
-        <Breadcrumb>
-          <BreadcrumbList>
-            <BreadcrumbItem>
-              <Link href="/" id="skip-to">
-                Home
-              </Link>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <BreadcrumbPage>
-                404 Not Found
-              </BreadcrumbPage>
-            </BreadcrumbItem>
-          </BreadcrumbList>
-        </Breadcrumb>
-        <h1>
-          <strong>404</strong>
-          <small>
-            <em>This page doesn't exist.</em>
-          </small>
-        </h1>
-      </header>
+    <Layout>
+      <h1>
+        <strong>404</strong>
+        <small>Page not found</small>
+      </h1>
       <article>
         <h2>
           <strong>Once upon a midnight dreary,</strong>
@@ -51,6 +30,15 @@ export default function View() {
           Quoth the server, 404.
         </p>
       </article>
+      <Breadcrumb>
+        <BreadcrumbList>
+          <BreadcrumbItem>
+            <Link href="/" id="skip-to">
+              ../
+            </Link>
+          </BreadcrumbItem>
+        </BreadcrumbList>
+      </Breadcrumb>
     </Layout>
   );
 }

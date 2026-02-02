@@ -33,7 +33,7 @@ export default function Menu() {
         title="Menu"
         type="button"
       >
-        Index
+        ||
       </button>
       <Dialog
         id="menu"
@@ -42,9 +42,9 @@ export default function Menu() {
         ref={dialog}
       >
         <DialogHeader>
-          <h2 className={styles.header}>
-            Kyle Gilbert
-            <small>Backpacker + Engineer</small>
+          <h2>
+            Menu
+            <small>Site directory</small>
           </h2>
           <DialogClose
             id="menu"

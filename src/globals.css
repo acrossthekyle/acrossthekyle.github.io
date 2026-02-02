@@ -59,30 +59,33 @@ body {
 
   header {
     position: relative;
-    width: 100%;
     margin: 0 auto;
+    max-width: var(--container-lg);
+    padding-top: 5rem;
+    width: 100%;
   }
 
   main {
     flex-grow: 1;
     margin: 0 auto;
+    max-width: var(--container-lg);
     opacity: 0;
     width: 100%;
   }
 
   footer {
-    margin-top: 4rem;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    max-width: var(--container-lg);
+    position: fixed;
+    width: 100%;
+    z-index: 0;
   }
 
   h2,
   h3 {
     margin-bottom: 1rem;
-  }
-
-  h2 {
-    strong {
-      font-size: 1.25rem;
-    }
   }
 
   p {
@@ -184,6 +187,7 @@ body {
   }
 
   article,
+  nav,
   section {
     margin-top: 4rem;
   }

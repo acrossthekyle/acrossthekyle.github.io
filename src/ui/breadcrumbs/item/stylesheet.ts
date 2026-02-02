@@ -3,11 +3,17 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     inline-block
-    text-sm
-    font-mono
-    uppercase truncate
+    pl-0.25
+    text-base
+    lowercase truncate
+    border-b-1
+    duration-300
 
-    md:text-xs
+    first:pl-0
+
+    md:text-sm
+
+    hover:border-b-current/75
   `,
 });
 

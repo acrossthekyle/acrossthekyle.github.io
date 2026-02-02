@@ -5,7 +5,6 @@ import {
   Breadcrumb,
   BreadcrumbList,
   BreadcrumbItem,
-  BreadcrumbSeparator,
   BreadcrumbTruncate,
 } from '@/ui/breadcrumbs';
 import { LinkArrow } from '@/ui/link';
@@ -19,52 +18,54 @@ type Props = {
 
 export default function View({ data }: Props) {
   return (
-    <Layout group="places">
-      <article>
-        <Breadcrumb>
-          <BreadcrumbList>
-            <BreadcrumbItem>
-              <Link href="/places">
-                ../Places
-              </Link>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <Link href={`/places/${data.slug}`}>
-                <BreadcrumbTruncate text={data.title.join(' ')} />
-              </Link>
-            </BreadcrumbItem>
-          </BreadcrumbList>
-        </Breadcrumb>
-        <h2>
-          <strong>Gear List</strong>
-          <small>Base weight: {data.weights.base} lbs</small>
-        </h2>
-        {data.categories.map((category) => (
-          <section className={styles.section} key={category.title}>
-            <h3>
-              <strong>{category.title}</strong>
-              <small>{category.weight} lbs</small>
-            </h3>
-            <ul>
-              {category.items.map((item, index: number) => (
-                <li className={styles.item} key={index}>
-                  {!!item.link ? (
-                    <Link
-                      href={item.link}
-                      target="_blank"
-                    >
-                      <LinkArrow>{item.name.join(' ')}</LinkArrow>
-                    </Link>
-                  ) : (
-                    <>{item.name.join(' ')}</>
-                  )}
-                </li>
-              ))}
-            </ul>
-          </section>
-        ))}
-      </article>
+    <Layout>
+      <h1>
+        <strong>Gear List</strong>
+        <small>Base weight: {data.weights.base} lbs</small>
+      </h1>
+      {data.categories.map((category) => (
+        <section className={styles.section} key={category.title}>
+          <h2>
+            <strong>{category.title}</strong>
+            <small>{category.weight} lbs</small>
+          </h2>
+          <ul>
+            {category.items.map((item, index: number) => (
+              <li className={styles.item} key={index}>
+                {!!item.link ? (
+                  <Link
+                    href={item.link}
+                    target="_blank"
+                  >
+                    <LinkArrow>{item.name.join(' ')}</LinkArrow>
+                  </Link>
+                ) : (
+                  <>{item.name.join(' ')}</>
+                )}
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+      <Breadcrumb>
+        <BreadcrumbList>
+          <BreadcrumbItem>
+            <Link href="/">
+              ../
+            </Link>
+          </BreadcrumbItem>
+          <BreadcrumbItem>
+            <Link href="/places">
+              places/
+            </Link>
+          </BreadcrumbItem>
+          <BreadcrumbItem>
+            <Link href={`/places/${data.slug}`}>
+              <BreadcrumbTruncate text={data.title.join(' ')} />
+            </Link>
+          </BreadcrumbItem>
+        </BreadcrumbList>
+      </Breadcrumb>
     </Layout>
   );
 }

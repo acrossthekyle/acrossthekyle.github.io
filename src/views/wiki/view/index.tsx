@@ -1,19 +1,24 @@
+import Link from 'next/link';
+
 import { Layout } from '@/layout';
+import {
+  Breadcrumb,
+  BreadcrumbList,
+  BreadcrumbItem,
+} from '@/ui/breadcrumbs';
 
 export default function View() {
   return (
-    <Layout group="wiki">
-      <header>
-        <h1>
-          <strong>Wiki</strong>
-          <small>
-            <em>Helpful information about travelling and trails</em>
-          </small>
-        </h1>
-      </header>
+    <Layout>
+      <h1>
+        <strong>Wiki</strong>
+        <small>
+          <em>Helpful information about travelling and trails</em>
+        </small>
+      </h1>
       <section>
         <h2>
-          <strong>Thru-Hike</strong>
+          <strong>THRU-HIKE</strong>
         </h2>
         <p>
           Thru-hiking is basically deciding to go for a walk...and not stopping. It means hiking an entire long-distance trail from one end to the other, covering hundreds or even thousands of miles in one continuous stretch.
@@ -23,7 +28,7 @@ export default function View() {
       </section>
       <section>
         <h2>
-          <strong>Section Hike</strong>
+          <strong>SECTION HIKE</strong>
         </h2>
         <p>
           Section-hiking is thru-hiking's more reasonable counterpart. Instead of doing the whole trail in one giant push, you break it into smaller chunks and hike a section at a time. Maybe doing a few days, a week, or whatever fits into your life. You still carry your pack, sleep outside, and deal with sore feet and weather mood swings, but you know there's a clear end point coming up.
@@ -34,7 +39,7 @@ export default function View() {
       </section>
       <section>
         <h2>
-          <strong>Overnight Trek</strong>
+          <strong>OVERNIGHT TREK</strong>
         </h2>
         <p>
           Like section-hiking, but on a much larger timescale, by doing each section a weekend at a time.
@@ -42,7 +47,7 @@ export default function View() {
       </section>
       <section>
         <h2>
-          <strong>Peak-Bagging</strong>
+          <strong>PEAK-BAGGING</strong>
         </h2>
         <p>
           Peak-bagging is when hiking turns into a very specific kind of scavenger hunt. Instead of following one long trail, you're trying to stand on the tops of a bunch of different mountains, usually all the peaks in a certain list or area. The hikes might be short or long, easy or brutal, but the goal is the same every time: get to the summit, take a breath, maybe a photo, and then head back down.
@@ -53,12 +58,21 @@ export default function View() {
       </section>
       <section>
         <h2>
-          <strong>Vacation</strong>
+          <strong>DESTINATION</strong>
         </h2>
         <p>
           The opposite of every other experience I do. No backpack filled with camping gear, no wearing the same two outfits over multiple days. Instead I play the role of tourist and experience the sights and sounds of the city.
         </p>
       </section>
+      <Breadcrumb>
+        <BreadcrumbList>
+          <BreadcrumbItem>
+            <Link href="/">
+              ../
+            </Link>
+          </BreadcrumbItem>
+        </BreadcrumbList>
+      </Breadcrumb>
     </Layout>
   );
 }

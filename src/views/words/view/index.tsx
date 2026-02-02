@@ -6,10 +6,8 @@ import {
   BreadcrumbList,
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
-import { DateRange } from '@/ui/date';
 import { LinkCount, LinkList, LinkStacked } from '@/ui/link';
 
-import styles from './stylesheet';
 import type { Data } from './types';
 
 type Props = {
@@ -20,29 +18,27 @@ export default function View({ data }: Props) {
   return (
     <Layout>
       <h1>
-        <strong>Places</strong>
-        <small>Trails and travels</small>
+        <strong>Words</strong>
+        <small>Quick thoughts</small>
       </h1>
       <section aria-label="introduction">
         <p>
-          From Nepal's Himalayas to windswept Patagonia, I've thru-hiked a lot of miles, explored numerous destinations, and witnessed some amazing things.
+          A place where I share my thoughts, opinions, and reflections on the things I notice.
         </p>
       </section>
-      <nav>
+      <section aria-label="words navigation">
         <LinkList>
           {data.map((item) => (
-            <li key={item.index}>
-              <LinkStacked href={`/places/${item.slug}`}>
-                <LinkCount>{item.type.replace(' ', '-')}</LinkCount>
-                <span className={styles.title}>{item.title.join(' ')}</span>
-                <small>
-                  {item.location} &mdash; <DateRange date={item.date} preview />
-                </small>
+            <li key={item.slug}>
+              <LinkStacked href={`/words/${item.slug}`}>
+                <LinkCount>{item.index}</LinkCount>
+                {item.title}
+                <small>{item.date}</small>
               </LinkStacked>
             </li>
           ))}
         </LinkList>
-      </nav>
+      </section>
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>

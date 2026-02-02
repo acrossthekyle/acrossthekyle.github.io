@@ -4,11 +4,11 @@ const styles = tw({
   dialog: `
     w-full
     my-0 mx-auto
-    p-6
+    px-6
     font-sans
     normal-case
 
-    md:p-8
+    md:px-8
   `,
 });
 

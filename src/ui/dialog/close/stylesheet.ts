@@ -2,9 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   close: `
-    absolute -top-1.5 -right-1.5
-
-    md:-top-1
+    absolute -top-0.25 -right-1
   `,
   icon: `
     w-7.5 h-7.5

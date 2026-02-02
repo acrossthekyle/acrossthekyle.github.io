@@ -1,6 +1,4 @@
-import Link from 'next/link';
-
-import { LinkArrow } from '@/ui/link';
+import { LinkArrow, LinkStacked } from '@/ui/link';
 
 import styles from './stylesheet';
 
@@ -15,22 +13,22 @@ export default function Menu() {
         <hr className={styles.hr} />
         <ul className={styles.list}>
           <li>
-            <Link className={styles.link} href="/places">
+            <LinkStacked href="/places">
               Places
               <small>Trails and travels</small>
-            </Link>
+            </LinkStacked>
           </li>
           <li>
-            <Link className={styles.link} href="/writing">
-              Writing
+            <LinkStacked href="/words">
+              Words
               <small>Quick thoughts</small>
-            </Link>
+            </LinkStacked>
           </li>
           <li>
-            <Link className={styles.link} href="/photos">
+            <LinkStacked href="/photos">
               Photos
               <small>Snapshots from life</small>
-            </Link>
+            </LinkStacked>
           </li>
         </ul>
       </section>
@@ -44,22 +42,22 @@ export default function Menu() {
         <hr className={styles.hr} />
         <ul className={styles.list}>
           <li>
-            <Link className={styles.link} href="/about">
+            <LinkStacked href="/about">
               About
               <small>My backstory</small>
-            </Link>
+            </LinkStacked>
           </li>
           <li>
-            <Link className={styles.link} href="/now">
+            <LinkStacked href="/now">
               Now
               <small>Presently doing</small>
-            </Link>
+            </LinkStacked>
           </li>
           <li>
-            <Link className={styles.link} href="/resume">
+            <LinkStacked href="/resume">
               Resume
-              <small>Work and career</small>
-            </Link>
+              <small>Skills and career</small>
+            </LinkStacked>
           </li>
         </ul>
       </section>
@@ -71,38 +69,34 @@ export default function Menu() {
         <hr className={styles.hr} />
         <ul className={styles.list}>
           <li>
-            <Link
+            <LinkStacked
               aria-label="view instagram profile"
-              className={styles.link}
               href="https://instagram.com/acrossthekyle"
               target="_blank"
-              rel="noreferrer"
             >
               Instagram
               <small>
                 <LinkArrow>@acrossthekyle</LinkArrow>
               </small>
-            </Link>
+            </LinkStacked>
           </li>
           <li>
-            <Link
+            <LinkStacked
               aria-label="view linkedin profile"
-              className={styles.link}
               href="https://linkedin.com/in/acrossthekyle"
               target="_blank"
-              rel="noreferrer"
             >
               LinkedIn
               <small>
                 <LinkArrow>in/acrossthekyle</LinkArrow>
               </small>
-            </Link>
+            </LinkStacked>
           </li>
           <li>
-            <Link className={styles.link} href="/email">
+            <LinkStacked href="/email">
               Email
               <small>hello@acrossthekyle.com</small>
-            </Link>
+            </LinkStacked>
           </li>
         </ul>
       </section>
@@ -114,24 +108,22 @@ export default function Menu() {
         <hr className={styles.hr} />
         <ul className={styles.list}>
           <li>
-            <Link className={styles.link} href="/colophon">
+            <LinkStacked href="/colophon">
               Colophon
               <small>Website philosophy</small>
-            </Link>
+            </LinkStacked>
           </li>
           <li>
-            <Link
+            <LinkStacked
               aria-label="view codebase on github.com"
-              className={styles.link}
               href="https://github.com/acrossthekyle/acrossthekyle.github.io"
               target="_blank"
-              rel="noreferrer"
             >
               Github
               <small>
                 <LinkArrow>Code projects</LinkArrow>
               </small>
-            </Link>
+            </LinkStacked>
           </li>
         </ul>
       </section>

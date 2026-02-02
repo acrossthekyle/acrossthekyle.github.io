@@ -5,7 +5,6 @@ import {
   Breadcrumb,
   BreadcrumbList,
   BreadcrumbItem,
-  BreadcrumbSeparator,
   BreadcrumbTruncate,
 } from '@/ui/breadcrumbs';
 
@@ -20,40 +19,41 @@ type Props = {
 
 export default function View({ data }: Props) {
   return (
-    <Layout group="places">
-      <article>
-        <Breadcrumb>
-          <BreadcrumbList>
-            <BreadcrumbItem>
-              <Link href="/places">
-                ../Places
-              </Link>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <Link href={`/places/${data.slug}`}>
-                <BreadcrumbTruncate text={data.parent.join(' ')} />
-              </Link>
-            </BreadcrumbItem>
-            <BreadcrumbSeparator />
-            <BreadcrumbItem>
-              <Link href={`/places/${data.slug}/${data.index}`}>
-                {data.index}
-              </Link>
-            </BreadcrumbItem>
-          </BreadcrumbList>
-        </Breadcrumb>
-        <h2>
-          <strong>Route and Elevation</strong>
-          <small>GPX data via GPS Smart Watch</small>
-        </h2>
-        <section aria-label="gpx data">
-          <Context>
-            <Elevation gpx={data.gpx} stats={data.stats} termini={data.termini} />
-            <Route gpx={data.gpx} />
-          </Context>
-        </section>
-      </article>
+    <Layout>
+      <h1>
+        <strong>Route and Elevation</strong>
+        <small>GPX data via GPS Smart Watch</small>
+      </h1>
+      <section aria-label="gpx data">
+        <Context>
+          <Elevation gpx={data.gpx} stats={data.stats} termini={data.termini} />
+          <Route gpx={data.gpx} />
+        </Context>
+      </section>
+      <Breadcrumb>
+        <BreadcrumbList>
+          <BreadcrumbItem>
+            <Link href="/">
+              ../
+            </Link>
+          </BreadcrumbItem>
+          <BreadcrumbItem>
+            <Link href={`/places`}>
+              places/
+            </Link>
+          </BreadcrumbItem>
+          <BreadcrumbItem>
+            <Link href={`/places/${data.slug}`}>
+              <BreadcrumbTruncate text={`${data.parent.join(' ')}/`} />
+            </Link>
+          </BreadcrumbItem>
+          <BreadcrumbItem>
+            <Link href={`/places/${data.slug}/${data.index}`}>
+              {data.index}
+            </Link>
+          </BreadcrumbItem>
+        </BreadcrumbList>
+      </Breadcrumb>
     </Layout>
   );
 }

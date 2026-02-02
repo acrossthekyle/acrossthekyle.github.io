@@ -2,16 +2,8 @@ import tw from '@/styles';
 
 const styles = tw({
   open: `
-    text-sm text-right
-    uppercase
-
-    md:text-xs
-  `,
-  header: `
-    text-sm
-    uppercase
-
-    md:text-xs
+    absolute top-0 right-0
+    text-right
   `,
   theme: `
     fixed right-6 bottom-6

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Suspense } from 'react';
 
-import { Fallback, View } from '@/views/writing/[slug]';
+import { Fallback, View } from '@/views/words/[slug]';
 
 import get from './get';
 
@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: GenerateMetadata): Promise<Me
   }
 
   return {
-    title: `${data.title} → Writing`,
+    title: `${data.title} → Words`,
     description: data.content,
   };
 };

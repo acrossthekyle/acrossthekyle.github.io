@@ -5,13 +5,15 @@ import styles from './stylesheet';
 type Props = {
   children: React.ReactNode | React.ReactNode[];
   href: string;
+  target?: string;
 };
 
-export default function Stacked({ children, href }: Props) {
+export default function Stacked({ children, href, target }: Props) {
   return (
     <Link
       className={styles.container}
       href={href}
+      target={target}
     >
       {children}
     </Link>

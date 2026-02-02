@@ -7,7 +7,7 @@ const styles = tw({
     w-19
   `,
   list: `
-    grid grid-cols-7 gap-6
+    grid grid-cols-7 gap-4
 
     md:grid-cols-3
   `,

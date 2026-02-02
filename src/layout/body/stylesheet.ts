@@ -3,12 +3,13 @@ import tw from '@/styles';
 const styles = tw({
   body: `
     antialiased
-    p-6
+    px-6 py-6
     text-base
     font-mono
 
     md:text-sm
-    md:p-8
+    md:px-8
+    md:py-16
   `,
 });
 

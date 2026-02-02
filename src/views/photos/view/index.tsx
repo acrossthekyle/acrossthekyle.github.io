@@ -1,4 +1,11 @@
+import Link from 'next/link';
+
 import { Layout } from '@/layout';
+import {
+  Breadcrumb,
+  BreadcrumbList,
+  BreadcrumbItem,
+} from '@/ui/breadcrumbs';
 import { Image, ImageCaption, ImageFigure } from '@/ui/image';
 
 import { IMAGES } from './constants';
@@ -6,11 +13,12 @@ import styles from './stylesheet';
 
 export default function View() {
   return (
-    <Layout group="photos">
-      <section>
-        <h2>
-          <strong>Photos</strong>
-        </h2>
+    <Layout>
+      <h1>
+        Photos
+        <small>Snapshots from life</small>
+      </h1>
+      <section aria-label="introduction">
         <p>
           I use my phone to capture moments from everyday life, the vibrant city around me, and sights from the trails.
         </p>
@@ -29,6 +37,15 @@ export default function View() {
           </ImageFigure>
         ))}
       </section>
+      <Breadcrumb>
+        <BreadcrumbList>
+          <BreadcrumbItem>
+            <Link href="/">
+              ../
+            </Link>
+          </BreadcrumbItem>
+        </BreadcrumbList>
+      </Breadcrumb>
     </Layout>
   );
 }

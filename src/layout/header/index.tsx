@@ -4,26 +4,18 @@ import Menu from './menu';
 import styles from './stylesheet';
 import Theme from './theme';
 
-type Props = {
-  route: string;
-};
-
-export default function Header({ route }: Props) {
+export default function Header() {
   return (
-    <header className={styles.container}>
+    <header>
       <Link
         aria-label="acrossthekyle.com home"
+        className={styles.anchor}
         href="/"
       >
-        <h1 className={styles.heading}>
-          Kyle Gilbert
-          <small>Backpacker + Engineer</small>
-        </h1>
+        K.
       </Link>
-      {route !== 'home' && (
-        <Menu />
-      )}
-      <Theme className={styles.theme(route === 'home')} />
+      <Menu />
+      <Theme className={styles.theme} />
     </header>
   );
 }
