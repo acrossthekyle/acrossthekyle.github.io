@@ -1,0 +1,15 @@
+{
+  "dates": ["12/29/2022", "1/2/2023"],
+  "days": "5",
+  "timestamp": "1672304400",
+  "id": "cairo",
+  "category": "destination",
+  "image": "2022/12/28/b3275967-68fd-4c69-ad40-df15b2a697b5.jpeg",
+  "type": "destination",
+  "location": "Egypt",
+  "position": ["54%", "54%"],
+  "title": "Cairo",
+  "description": [
+    "Spending New Years Eve in a land of ancient wonders. %location% is a place full of history and bustling cities, awe-inspiring pyramids, tombs, and amazing temples. Seeing them up close, and being able to touch them, is how history is meant to be experienced. We visited %length% destinations over %days%."
+  ]
+}

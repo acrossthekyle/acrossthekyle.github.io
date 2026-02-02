@@ -1,0 +1,16 @@
+{
+  "dates": ["6/21/2023", "7/3/2023"],
+  "days": "13",
+  "timestamp": "1687332000",
+  "id": "gr-20",
+  "category": "trekking",
+  "image": "2023/06/21/2cc8532b-6441-49fb-927e-ebdb001b78cf.jpeg",
+  "type": "thru-hike",
+  "location": "Corsica, France",
+  "position": ["49%", "48.25%"],
+  "title": "The GR 20",
+  "description": [
+    "Considered to be the most difficult of all trails in Europe, the GR 20 is a footpath that traverses the Mediterranean island of %location% from north to south along its spiny mountainous backbone, and it took %days% to complete it.",
+    "Known locally as Fra Li Monti (Corsican for 'across the mountains'), it covers a distance of %distance%. Between the northern starting point at Calenzana and the end at Conca in the south, there are hidden mountain lakes, expansive sea views, rugged and rocky cliffs, and remarkable panoramas."
+  ]
+}

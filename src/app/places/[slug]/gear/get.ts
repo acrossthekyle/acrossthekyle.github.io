@@ -1,4 +1,4 @@
-import db from '@/db/trails-and-travels';
+import db from '@/db/places';
 
 export default function get(slug: string) {
   const data = db.find((item) => item.slug.toLowerCase() === slug.toLowerCase());

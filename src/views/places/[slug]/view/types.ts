@@ -7,6 +7,10 @@ export type Data = {
   hasGear: boolean;
   label: string;
   location: string;
+  position: {
+    left: string;
+    top: string;
+  };
   slug: string;
   stages: Stage[];
   title: string[];

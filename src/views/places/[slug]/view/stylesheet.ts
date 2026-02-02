@@ -3,8 +3,8 @@ import tw from '@/styles';
 import { getColSpan } from './utils';
 
 const styles = tw({
-  gear: `
-    w-19
+  marker: `
+    absolute z-2
   `,
   list: `
     grid grid-cols-7 gap-4

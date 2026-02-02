@@ -1,10 +1,10 @@
 /* eslint-disable */
 // @ts-nocheck
 
-import { go as trailsAndTravels } from './trails-and-travels';
+import { go as places } from './places';
 import { go as resume } from './resume';
-import { go as writing } from './writing';
+import { go as words } from './words';
 
-trailsAndTravels();
+places();
 resume();
-writing();
+words();

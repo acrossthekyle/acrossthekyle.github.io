@@ -1,0 +1,15 @@
+{
+  "dates": ["7/15/2022"],
+  "days": "4",
+  "id": "ice-age-trail-section-hike",
+  "timestamp": "1657904400",
+  "category": "trekking",
+  "image": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
+  "type": "section hike",
+  "location": "Wisconsin",
+  "position": ["48%", "20%"],
+  "title": "Ice Age Trail",
+  "description": [
+    "A place of kettles and moraines from mile-thick glaciers long ago in %location%, completing this 1,200 mile long-distance national scenic trail in sections takes time. To date I've completed %length% sections over %days% and %distance%. It's not the distance on this trail that gets you; it's the constant up and down over rolling hills."
+  ]
+}

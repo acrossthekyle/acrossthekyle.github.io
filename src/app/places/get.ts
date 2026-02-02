@@ -1,4 +1,4 @@
-import db from '@/db/trails-and-travels';
+import db from '@/db/places';
 import { padIndex } from '@/utils';
 
 export default function get() {

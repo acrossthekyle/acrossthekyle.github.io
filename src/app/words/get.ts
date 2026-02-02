@@ -1,4 +1,4 @@
-import data from '@/db/writing';
+import data from '@/db/words';
 import { padIndex } from '@/utils';
 
 export default function get() {

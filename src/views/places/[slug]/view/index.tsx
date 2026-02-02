@@ -1,4 +1,6 @@
+import { Locate } from 'lucide-react';
 import Link from 'next/link';
+import NextJsImage from 'next/image';
 
 import { Layout } from '@/layout';
 import {
@@ -25,6 +27,23 @@ export default function View({ data }: Props) {
           {data.location} &mdash; <DateRange date={data.date} preview/>
         </small>
       </h1>
+      <section aria-label="map">
+        <ImageFigure>
+          <NextJsImage
+            alt=""
+            height={1080}
+            sizes="(max-width: 768px) 50vw, 33vw"
+            src="8e89c52b-87a9-4dca-b6a4-ce67c0ebd197.png"
+            width={1920}
+          />
+          <figcaption
+            className={styles.marker}
+            style={{ top: data.position.top, left: data.position.left }}
+          >
+            <Locate />
+          </figcaption>
+        </ImageFigure>
+      </section>
       <section aria-label="information">
         {data.description.map((paragraph) => (
           <p key={paragraph}>

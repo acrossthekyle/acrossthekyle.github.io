@@ -1,4 +1,4 @@
-import db from '@/db/trails-and-travels';
+import db from '@/db/places';
 import { padIndex } from '@/utils';
 
 export default function get(slug: string) {
@@ -15,6 +15,10 @@ export default function get(slug: string) {
     hasGear: data.hasGear,
     label: data.label,
     location: data.location,
+    position: {
+      top: data.position[0],
+      left: data.position[1],
+    },
     slug,
     stages: data.stages.map(({
         date,

@@ -1,0 +1,15 @@
+{
+  "dates": ["3/22/2022", "3/25/2022"],
+  "days": "4",
+  "timestamp": "1647907200",
+  "id": "san-juan",
+  "category": "destination",
+  "image": "2022/03/23/9f212336-298d-4c7d-874f-a3be34c95d7d.jpeg",
+  "type": "destination",
+  "location": "Puerto Rico",
+  "position": ["58%", "25.5%"],
+  "title": "San Juan",
+  "description": [
+    "Escaping the trailing remnants of winter in Chicago by absconding last-minute down to %location%, walking its beaches, exploring the forts, and cliff jumping in the rain forests."
+  ]
+}

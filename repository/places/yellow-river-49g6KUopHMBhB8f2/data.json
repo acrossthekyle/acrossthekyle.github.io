@@ -1,0 +1,15 @@
+{
+  "dates": ["10/18/2025", "10/19/2025"],
+  "days": "2",
+  "timestamp": "1760859600",
+  "id": "yellow-river-trail-backpack-loop",
+  "category": "trekking",
+  "image": "2025/10/18/efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg",
+  "type": "overnight trek",
+  "location": "Harpers Ferry, Iowa",
+  "position": ["47%", "18.5%"],
+  "title": "Yellow River Trail",
+  "description": [
+    "Known for its unglaciated, hilly landscape, this remote counterclockwise backpacking loop in the Driftless Area of %location% showcases the state's most rugged terrain with a route that crosses ravines, climbs sandstone bluffs, and provides views of the surrounding hardwood forests and wildlife."
+  ]
+}

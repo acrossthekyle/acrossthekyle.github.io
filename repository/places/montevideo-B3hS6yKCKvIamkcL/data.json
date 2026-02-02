@@ -1,0 +1,15 @@
+{
+  "dates": ["3/23/2015", "3/25/2015"],
+  "days": "3",
+  "timestamp": "1427095973",
+  "id": "montevideo",
+  "category": "destination",
+  "image": "2015/03/19/9650d680-3809-45e9-a9df-0e108f3e1498.jpeg",
+  "type": "destination",
+  "location": "Uruguay",
+  "position": ["83%", "29.25%"],
+  "title": "Montevideo",
+  "description": [
+    "My first vacation abroad in South America continued with a quick plane ride over to Montevideo, %location%."
+  ]
+}
