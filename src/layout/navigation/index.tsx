@@ -74,9 +74,9 @@ export default function Menu() {
               href="https://instagram.com/acrossthekyle"
               target="_blank"
             >
-              Instagram
+              <LinkArrow>Instagram</LinkArrow>
               <small>
-                <LinkArrow>@acrossthekyle</LinkArrow>
+                @acrossthekyle
               </small>
             </LinkStacked>
           </li>
@@ -86,9 +86,9 @@ export default function Menu() {
               href="https://linkedin.com/in/acrossthekyle"
               target="_blank"
             >
-              LinkedIn
+              <LinkArrow>LinkedIn</LinkArrow>
               <small>
-                <LinkArrow>in/acrossthekyle</LinkArrow>
+                in/acrossthekyle
               </small>
             </LinkStacked>
           </li>
@@ -119,9 +119,21 @@ export default function Menu() {
               href="https://github.com/acrossthekyle"
               target="_blank"
             >
-              Github
+              <LinkArrow>Github</LinkArrow>
               <small>
-                <LinkArrow>Code projects</LinkArrow>
+                Code projects
+              </small>
+            </LinkStacked>
+          </li>
+          <li>
+            <LinkStacked
+              aria-label="view websitecarbon.com rating"
+              href="https://www.websitecarbon.com/website/acrossthekyle-com/"
+              target="_blank"
+            >
+              <LinkArrow>Carbon</LinkArrow>
+              <small>
+                A+ rating
               </small>
             </LinkStacked>
           </li>

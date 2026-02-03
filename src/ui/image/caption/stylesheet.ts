@@ -1,8 +1,7 @@
 import tw from '@/styles';
 
-const styles = {
-  container: (invisible?: boolean) => tw(`
-    ${invisible && `invisible`}
+const styles = tw({
+  container: `
     absolute bottom-1.5 right-2.75 z-2
     text-xs text-white text-shadow-lg
     font-bold font-mono
@@ -10,7 +9,7 @@ const styles = {
 
     md:text-right
     md:text-tiny
-  `),
-};
+  `,
+});
 
 export default styles;

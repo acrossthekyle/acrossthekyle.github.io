@@ -7,7 +7,8 @@ import {
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
 import { DateRange } from '@/ui/date';
-import { LinkCount, LinkList, LinkStacked } from '@/ui/link';
+import { LinkList, LinkStacked, LinkTag } from '@/ui/link';
+import { Map, MapMarker } from '@/ui/map';
 
 import styles from './stylesheet';
 import type { Data } from './types';
@@ -17,12 +18,19 @@ type Props = {
 };
 
 export default function View({ data }: Props) {
+  const positions = data.map(({ position }) => position);
+
   return (
     <Layout>
       <h1>
         <strong>Places</strong>
         <small>Trails and travels</small>
       </h1>
+      <Map>
+        {positions.map((position, index) => (
+          <MapMarker key={index} position={position} />
+        ))}
+      </Map>
       <section aria-label="introduction">
         <p>
           From Nepal's Himalayas to windswept Patagonia, I've thru-hiked a lot of miles, explored numerous destinations, and witnessed some amazing things.
@@ -31,14 +39,18 @@ export default function View({ data }: Props) {
       <nav>
         <LinkList>
           {data.map((item) => (
-            <li key={item.index}>
+            <li className={styles.item} key={item.index}>
               <LinkStacked href={`/places/${item.slug}`}>
-                <LinkCount>{item.type.replace(' ', '-')}</LinkCount>
                 <span className={styles.title}>{item.title.join(' ')}</span>
                 <small>
                   {item.location} &mdash; <DateRange date={item.date} preview />
                 </small>
               </LinkStacked>
+              <LinkTag>
+                <Link href="/wiki">
+                  {item.type.replace(' ', '-')}
+                </Link>
+              </LinkTag>
             </li>
           ))}
         </LinkList>

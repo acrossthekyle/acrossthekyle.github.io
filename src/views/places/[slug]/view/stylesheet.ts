@@ -3,9 +3,6 @@ import tw from '@/styles';
 import { getColSpan } from './utils';
 
 const styles = tw({
-  marker: `
-    absolute z-2
-  `,
   list: `
     grid grid-cols-7 gap-4
 
@@ -17,7 +14,11 @@ const styles = tw({
   `),
   figure: `
     h-full
+    !mt-0
     rounded-lg
+    duration-500
+
+    md:hover:scale-104
   `,
   image: `
     md:hover:grayscale-0

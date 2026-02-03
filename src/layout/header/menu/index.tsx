@@ -26,7 +26,7 @@ export default function Menu() {
   return (
     <>
       <button
-        aria-controls="nav"
+        aria-controls="menu"
         aria-label="open menu dialog"
         className={styles.open}
         onClick={handleOnOpen}

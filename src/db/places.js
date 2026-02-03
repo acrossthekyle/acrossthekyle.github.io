@@ -15382,7 +15382,7 @@ const data = [
     "location": "Switzerland",
     "position": [
       "44%",
-      "49.5"
+      "49.5%"
     ],
     "slug": "geneva",
     "stages": [

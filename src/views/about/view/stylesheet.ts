@@ -1,6 +1,9 @@
 import tw from '@/styles';
 
 const styles = tw({
+  figure: `
+    mt-16
+  `,
   timeline: `
     my-8
   `,

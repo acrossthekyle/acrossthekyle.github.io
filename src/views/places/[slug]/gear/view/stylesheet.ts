@@ -6,7 +6,7 @@ const styles = tw({
   `,
   item: `
     inline-block
-    mr-4 mb-2
+    mr-6 mb-2
     capitalize
 
     last:mr-0

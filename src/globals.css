@@ -188,6 +188,7 @@ body {
   }
 
   article,
+  figure,
   nav,
   section {
     margin-top: 4rem;

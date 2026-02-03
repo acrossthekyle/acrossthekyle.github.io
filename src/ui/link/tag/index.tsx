@@ -4,10 +4,10 @@ type Props = {
   children: React.ReactNode | React.ReactNode[];
 };
 
-export default function Count({ children }: Props) {
+export default function Tag({ children }: Props) {
   return (
     <span className={styles.container}>
-      #{children}
+      {children}
     </span>
   );
 }

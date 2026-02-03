@@ -28,13 +28,13 @@ export default function View() {
           <strong>TECHNICALS</strong>
         </h2>
         <p>
-          This site is built with <Link href="https://nextjs.org" target="_blank"><strong><u><LinkArrow>NextJs</LinkArrow></u></strong></Link>, and styled with a combination of pure css and <Link href="https://tailwindcss.com" target="_blank"><strong><u><LinkArrow>TailwindCSS</LinkArrow></u></strong></Link>. It's deployed via <Link href="https://vercel.com" target="_blank"><strong><u><LinkArrow>Vercel</LinkArrow></u></strong></Link> with both static, and dynamically driven, content.
+          This site is built with <Link href="https://nextjs.org" target="_blank"><strong><LinkArrow>NextJs</LinkArrow></strong></Link>, and styled with a combination of pure css and <Link href="https://tailwindcss.com" target="_blank"><strong><LinkArrow>TailwindCSS</LinkArrow></strong></Link>. It's deployed via <Link href="https://vercel.com" target="_blank"><strong><LinkArrow>Vercel</LinkArrow></strong></Link> with both static, and dynamically driven, content.
         </p>
         <p>
-          The pages are server-side rendered where image and content optimization occur, with some client-side javascript rendering. The raw data behind these pages is maintained via <Link href="https://www.json.org/json-en.html" target="_blank"><strong><u><LinkArrow>JSON</LinkArrow></u></strong></Link> and <Link href="https://www.markdownguide.org" target="_blank"><strong><u><LinkArrow>Markdown</LinkArrow></u></strong></Link> files, and a bash script combiles them into a cached database file.
+          The pages are server-side rendered where image and content optimization occur, with some client-side javascript rendering. The raw data behind these pages is maintained via <Link href="https://www.json.org/json-en.html" target="_blank"><strong><LinkArrow>JSON</LinkArrow></strong></Link> and <Link href="https://www.markdownguide.org" target="_blank"><strong><LinkArrow>Markdown</LinkArrow></strong></Link> files, and a bash script combiles them into a cached database file.
         </p>
         <p>
-          Icons are provided by the <Link href="https://lucide.dev" target="_blank"><strong><u><LinkArrow>Lucide</LinkArrow></u></strong></Link> icon library.
+          Icons are provided by the <Link href="https://lucide.dev" target="_blank"><strong><LinkArrow>Lucide</LinkArrow></strong></Link> icon library.
         </p>
       </section>
       <section>
@@ -61,7 +61,7 @@ export default function View() {
           <strong>DESIGN</strong>
         </h2>
         <p>
-          Nor am I a designer, and I took heavy inspiration from websites found in the <Link href="https://deadsimplesites.com" target="_blank"><strong><u><LinkArrow>DeadSimpleSites</LinkArrow></u></strong></Link> collection.
+          Nor am I a designer, and I took heavy inspiration from websites found in the <Link href="https://deadsimplesites.com" target="_blank"><strong><LinkArrow>DeadSimpleSites</LinkArrow></strong></Link> collection.
         </p>
         <p>
           But, as an informally trained architect from primary schooling, I do believe in the philosophy of "less is more", and try to keep the design elements of my personal site minimalistic.

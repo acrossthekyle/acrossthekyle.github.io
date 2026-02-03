@@ -1,5 +1,3 @@
-import styles from './stylesheet';
-
 type Props = {
   children: React.ReactNode | React.ReactNode[];
 };
@@ -7,7 +5,7 @@ type Props = {
 export default function Arrow({ children }: Props) {
   return (
     <>
-      {children}<span className={styles.icon}> ↗</span>
+      {children} ↗
     </>
   );
 }

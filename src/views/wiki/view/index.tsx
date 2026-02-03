@@ -12,9 +12,7 @@ export default function View() {
     <Layout>
       <h1>
         <strong>Wiki</strong>
-        <small>
-          <em>Helpful information about travelling and trails</em>
-        </small>
+        <small>Hiking lingo, explained</small>
       </h1>
       <section>
         <h2>
@@ -28,7 +26,7 @@ export default function View() {
       </section>
       <section>
         <h2>
-          <strong>SECTION HIKE</strong>
+          <strong>SECTION-HIKE</strong>
         </h2>
         <p>
           Section-hiking is thru-hiking's more reasonable counterpart. Instead of doing the whole trail in one giant push, you break it into smaller chunks and hike a section at a time. Maybe doing a few days, a week, or whatever fits into your life. You still carry your pack, sleep outside, and deal with sore feet and weather mood swings, but you know there's a clear end point coming up.
@@ -39,7 +37,7 @@ export default function View() {
       </section>
       <section>
         <h2>
-          <strong>OVERNIGHT TREK</strong>
+          <strong>OVERNIGHT-TREK</strong>
         </h2>
         <p>
           Like section-hiking, but on a much larger timescale, by doing each section a weekend at a time.
@@ -67,7 +65,7 @@ export default function View() {
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>
-            <Link href="/">
+            <Link href="/places">
               ../
             </Link>
           </BreadcrumbItem>

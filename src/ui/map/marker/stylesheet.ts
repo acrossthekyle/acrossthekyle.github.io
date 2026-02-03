@@ -1,10 +1,10 @@
 import tw from '@/styles';
 
 const styles = tw({
-  icon: `
-    inline-block
-    ml-0.5
-    w-3 h-3
+  container: `
+    absolute z-2
+    ml-1 mt-1
+    w-4 h-4
     stroke-2
   `,
 });

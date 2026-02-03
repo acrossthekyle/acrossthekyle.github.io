@@ -1,6 +1,4 @@
-import { Locate } from 'lucide-react';
 import Link from 'next/link';
-import NextJsImage from 'next/image';
 
 import { Layout } from '@/layout';
 import {
@@ -10,6 +8,7 @@ import {
 } from '@/ui/breadcrumbs';
 import { DateRange } from '@/ui/date';
 import { Image, ImageCaption, ImageFigure } from '@/ui/image';
+import { Map, MapMarker } from '@/ui/map';
 
 import styles from './stylesheet';
 import type { Data } from './types';
@@ -27,29 +26,24 @@ export default function View({ data }: Props) {
           {data.location} &mdash; <DateRange date={data.date} preview/>
         </small>
       </h1>
-      <section aria-label="map">
-        <ImageFigure>
-          <NextJsImage
-            alt=""
-            height={1080}
-            sizes="(max-width: 768px) 50vw, 33vw"
-            src="8e89c52b-87a9-4dca-b6a4-ce67c0ebd197.png"
-            width={1920}
-          />
-          <figcaption
-            className={styles.marker}
-            style={{ top: data.position.top, left: data.position.left }}
-          >
-            <Locate />
-          </figcaption>
-        </ImageFigure>
-      </section>
+      <Map>
+        <MapMarker position={data.position} />
+      </Map>
       <section aria-label="information">
         {data.description.map((paragraph) => (
           <p key={paragraph}>
             {paragraph}
           </p>
         ))}
+        {data.hasGear && (
+          <p>
+            View the{' '}
+            <Link href={`${data.slug}/gear`}>
+              <u>gear</u>
+            </Link>{' '}
+            for this {data.type}.
+          </p>
+        )}
       </section>
       <section aria-label={`photo journal entries for each ${data.label.toLowerCase()}`}>
         <ul className={styles.list}>
@@ -74,13 +68,6 @@ export default function View({ data }: Props) {
           ))}
         </ul>
       </section>
-      {data.hasGear && (
-        <section>
-          <Link href={`${data.slug}/gear`}>
-            Gear ↗
-          </Link>
-        </section>
-      )}
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>

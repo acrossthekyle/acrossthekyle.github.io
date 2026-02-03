@@ -26,7 +26,7 @@ export default function View({ data }: Props) {
         </strong>
         <small>{data.date}</small>
       </h1>
-      <ImageFigure className={styles.figure}>
+      <ImageFigure>
         <Image
           alt=""
           height={1080}
@@ -34,35 +34,31 @@ export default function View({ data }: Props) {
           src={data.image}
           width={1920}
         />
-        <ImageCaption invisible>
+        <ImageCaption>
           {data.location.join(', ')}
         </ImageCaption>
       </ImageFigure>
-      <section aria-label="report">
+      <section aria-label="description">
+        {data.hasGpx && (
+          <p>
+            View the <Link href={`/places/${data.slug}/${data.index}/gpx`}><u>route and elevation</u></Link>.
+          </p>
+        )}
         {data.description.map((paragraph) => (
           <p key={paragraph}>{paragraph}</p>
         ))}
       </section>
-      {(data.hasNavigation || data.hasGpx) && (
-        <section className={styles.extras}>
-          {data.hasGpx && (
-            <Link href={`/places/${data.slug}/${data.index}/gpx`}>
-              Route ↗
+      {data.hasNavigation && (
+        <section className={styles.footer}>
+          {data.previous !== undefined && (
+            <Link href={`/places/${data.slug}/${data.previous.index}`}>
+              ← Previous
             </Link>
           )}
-          {data.hasNavigation && (
-            <div className={styles.navigation}>
-              {data.previous !== undefined && (
-                <Link href={`/places/${data.slug}/${data.previous.index}`}>
-                  ← Previous
-                </Link>
-              )}
-              {data.next !== undefined && (
-                <Link href={`/places/${data.slug}/${data.next.index}`}>
-                  Next →
-                </Link>
-              )}
-            </div>
+          {data.next !== undefined && (
+            <Link href={`/places/${data.slug}/${data.next.index}`}>
+              Next →
+            </Link>
           )}
         </section>
       )}

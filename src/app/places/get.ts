@@ -6,6 +6,7 @@ export default function get() {
     date,
     index,
     location,
+    position,
     slug,
     title,
     type,
@@ -13,6 +14,10 @@ export default function get() {
     date,
     index: padIndex(index + 1),
     location,
+    position: {
+      top: position[0],
+      left: position[1],
+    },
     slug,
     title,
     type,
