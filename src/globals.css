@@ -5,7 +5,7 @@
 
 :root {
   --background: #1a1a22;
-  --foreground: #faf9f5;
+  --foreground: #ffffff;
 }
 
 @theme inline {
@@ -31,11 +31,11 @@ html {
 
 html[data-theme="dark"] {
   --background: #1a1a22;
-  --foreground: #faf9f5;
+  --foreground: #ffffff;
 }
 
 html[data-theme="light"] {
-  --background: #faf9f5;
+  --background: #ffffff;
   --foreground: #1a1a22;
 }
 
@@ -102,7 +102,7 @@ body {
   }
 
   small {
-    color: color-mix(in oklab, currentcolor 50%, transparent);
+    color: color-mix(in oklab, currentcolor 70%, transparent);
     display: block;
     font-size: var(--text-sm);
     line-height: var(--tw-leading, var(--text-sm--line-height));
