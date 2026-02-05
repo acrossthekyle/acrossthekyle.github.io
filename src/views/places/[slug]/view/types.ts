@@ -1,9 +1,8 @@
-import type { Date, Stage } from '@/types';
+import type { Date } from '@/types';
 
 export type Data = {
   date: Date;
   description: string[];
-  gearWeight: string;
   hasGear: boolean;
   label: string;
   location: string;
@@ -12,8 +11,10 @@ export type Data = {
     top: string;
   };
   slug: string;
-  stages: Stage[];
+  stages: Array<{
+    image: string;
+    index: string;
+  }>;
   title: string[];
   total: number;
-  type: string;
 };

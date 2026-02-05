@@ -1,3 +1,6 @@
+- **Trailhead:** Halfmoon Trailhead
+- **Peak:** 14,421 ft
+
 I first learned about 14'ers, the mountain peaks that rise above 14,000 feet, from someone I met while hiking the Tour du Mont Blanc in 2018. They mentioned that if I enjoyed hiking the high trails of the TMB, I would love Colorado, a place I had never considered visiting. It took nearly a year before I finally worked up the courage to take a solo trip to the United States and attempt to summit one of these towering peaks.
 
 After researching what to pack for the trail, where to stay, and how to manage transportation, I booked flights and reserved an Airbnb in Denver. Excitement mixed with nerves filled me as I prepared for the unknown. This trip was also a test of my body's endurance at high altitudes. I wanted to see how I would handle elevations above 10,000 feet, where Acute Mountain Sickness can make every step feel heavier than the last. Success on this hike was critical, as I had a planned trek in the Annapurna region just months away, where elevations rise above 18,000 feet.

@@ -6,7 +6,7 @@ import {
   BreadcrumbList,
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
-import { LinkList, LinkStacked, LinkTag } from '@/ui/link';
+import { LinkCount, LinkList, LinkStacked } from '@/ui/link';
 
 import type { Data } from './types';
 
@@ -31,9 +31,9 @@ export default function View({ data }: Props) {
           {data.map((item) => (
             <li key={item.slug}>
               <LinkStacked href={`/words/${item.slug}`}>
-                <LinkTag>#{item.index}</LinkTag>
+                <LinkCount>{item.index}</LinkCount>
                 {item.title}
-                <small>{item.date}</small>
+                <small>{item.date} &mdash; {item.readingTime} min read</small>
               </LinkStacked>
             </li>
           ))}

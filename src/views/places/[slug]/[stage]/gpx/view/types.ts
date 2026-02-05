@@ -1,4 +1,4 @@
-import type { Gpx, Stats, Termini } from '@/types';
+import type { Gpx, Stats } from '@/types';
 
 export type Data = {
   gpx: Gpx;
@@ -7,6 +7,5 @@ export type Data = {
   parent: string[];
   slug: string;
   stats: Stats;
-  termini: Termini;
   title: string[];
 };

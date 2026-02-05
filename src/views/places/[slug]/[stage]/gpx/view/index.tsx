@@ -25,7 +25,7 @@ export default function View({ data }: Props) {
       </h1>
       <section aria-label="gpx data">
         <Context>
-          <Elevation gpx={data.gpx} stats={data.stats} termini={data.termini} />
+          <Elevation gpx={data.gpx} stats={data.stats} />
           <Route gpx={data.gpx} />
         </Context>
       </section>

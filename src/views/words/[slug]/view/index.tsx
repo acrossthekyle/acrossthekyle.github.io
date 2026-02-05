@@ -19,7 +19,7 @@ export default function View({ data }: Props) {
     <Layout>
       <h1>
         <strong>{data.title}</strong>
-        <small>{data.date}</small>
+        <small>{data.date} • {data.readingTime} min read</small>
       </h1>
       <section aria-label="content">
         <Markdown>{data.content}</Markdown>

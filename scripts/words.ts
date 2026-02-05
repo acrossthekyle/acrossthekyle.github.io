@@ -3,7 +3,9 @@
 
 import { format as formatDate, getUnixTime, parse as parseDate } from 'date-fns';
 import fs from 'fs';
+import matter from 'gray-matter';
 import path from 'path';
+import readingTime from 'reading-time';
 
 const repository = path.join(process.cwd(), './repository/words');
 const output = path.join(process.cwd(), './src/db');
@@ -46,7 +48,7 @@ export async function go() {
   const data = [];
 
   await Promise.all(
-    writings.map((year, index) => {
+    writings.map((year) => {
       const months = fs.readdirSync(path.join(repository, year)).filter((item) => {
         if (item !== '.DS_Store') {
           return item;
@@ -61,15 +63,12 @@ export async function go() {
         });
 
         days.map((day) => {
-          const meta = JSON.parse(fs.readFileSync(
-            path.join(repository, `${year}/${month}/${day}/meta.json`),
-            'utf8',
-          ));
-
-          const content = fs.readFileSync(
-            path.join(repository, `${year}/${month}/${day}/content.md`),
+          const file = fs.readFileSync(
+            path.join(repository, `${year}/${month}/${day}/index.md`),
             'utf8',
           );
+
+          const { content, data: meta } = matter(file);
 
           const date = parseDate(`${year}/${month}/${day}`, 'yyyy/MM/dd', new Date());
 
@@ -77,7 +76,7 @@ export async function go() {
             ...meta,
             content,
             date: formatDate(date, 'LLLL do, yyyy'),
-            index,
+            readingTime: Math.ceil(readingTime(content).minutes).toFixed(0),
             timestamp: getUnixTime(date),
           });
         });
@@ -86,7 +85,10 @@ export async function go() {
   );
 
   if (data.length) {
-    const sorted = data.sort((a, b) => b.timestamp - a.timestamp);
+    const sorted = data.map((item, index) => ({
+      ...item,
+      index,
+    })).sort((a, b) => b.timestamp - a.timestamp);
 
     writeData('words.js', sorted);
   }

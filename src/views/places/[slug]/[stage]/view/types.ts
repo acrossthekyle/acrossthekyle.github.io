@@ -1,8 +1,8 @@
 import type { Navigation, Termini } from '@/types';
 
 export type Data = {
+  content: string;
   date: string;
-  description: string[];
   excerpt: string;
   hasGpx: boolean;
   hasNavigation: boolean;
@@ -13,6 +13,7 @@ export type Data = {
   next?: Navigation;
   parent: string[];
   previous?: Navigation;
+  readingTime: string;
   slug: string;
   snippet: string;
   termini: Termini;

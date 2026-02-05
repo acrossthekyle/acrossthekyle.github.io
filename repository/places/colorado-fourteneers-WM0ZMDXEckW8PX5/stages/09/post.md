@@ -1,3 +1,6 @@
+- **Trailhead:** Halfmoon Trailhead
+- **Peak:** 14,366 ft
+
 Mount Massive, the second-highest summit in Colorado, is just a few feet shy of Mount Elbert and ranks as the third-highest peak in the contiguous United States. Located in the San Isabel National Forest near Leadville, it offers a mix of grassy slopes, rocky ridges, and sweeping views of the surrounding Rockies. I had been anticipating this hike for a while, knowing the trail would challenge both endurance and focus.
 
 The beginning of the trail is deceptively easy, tempting hikers to move quickly, but summiting a 14'er is more like running a marathon than a sprint. I had a small navigational hiccup early on, with a misleading marker forcing me to bushwhack briefly before rejoining the correct path. Once back on track, I moved steadily, reaching the treeline after roughly two hours.

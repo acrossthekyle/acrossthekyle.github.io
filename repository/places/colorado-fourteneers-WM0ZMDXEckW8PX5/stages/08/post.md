@@ -1,3 +1,6 @@
+- **Trailhead:** Missouri Gulch
+- **Peak:** 14,150 ft
+
 Returning to Colorado for my fourth year in a row, I decided to start the trip with Mt. Belford, a peak with 4,500 feet of elevation gain over just four miles. The steepness promised a tough day, and it quickly became clear this would be one of the most physically demanding peaks I'd tackled solo, even compared to my first summit on Mt. Elbert.
 
 I arrived at the parking lot around 6:00 am and was greeted by empty spaces, with only a few other hikers beginning their day. The trail started immediately steep, climbing roughly 1,000 feet per mile. I stopped often in the early stretch to catch my breath, winding through thick forests punctuated by stream crossings with bridges made from fallen logs. Grassy clearings appeared here and there, providing a chance to pause and look ahead at the trail. The ruins of an old cabin added a little intrigue to the route.

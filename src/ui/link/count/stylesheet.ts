@@ -15,16 +15,6 @@ const styles = tw({
     md:text-tiny
     md:py-0.25
   `,
-  chain: `
-    block
-    -mt-0.25
-    w-2 h-2
-    stroke-3
-  `,
-  square: `
-    w-2.25 h-2.25
-    stroke-3
-  `,
 });
 
 export default styles;

@@ -1,3 +1,6 @@
+- **Trailhead:** Kite Lake
+- **Peak:** 14,282 ft
+
 After our challenging experience on Mt. Shavano, we made sure to carry as much water as possible for our attempt at the DeCaLiBro-n combination route two days later. This route connects four 14,000-foot peaks: Democrat, Cameron, Lincoln, and Bross via ridges, making it theoretically doable in a single day. We skipped Bross since it's on private land, sticking with the first three summits instead.
 
 The trailhead at Kite Lake starts at 12,000 feet, which made the 2,000 feet of elevation gain to the first peak feel easier. We spent the night in the car to acclimate, knowing that starting at high altitude without preparation can be tough. A pink sunrise greeted us as we set out at 7:00 am. The trail began gently, then climbed via switchbacks toward the col at the base of the first peak.

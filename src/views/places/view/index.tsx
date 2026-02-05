@@ -33,10 +33,10 @@ export default function View({ data }: Props) {
       </Map>
       <section aria-label="introduction">
         <p>
-          From Nepal's Himalayas to windswept Patagonia, I've thru-hiked a lot of miles, explored numerous destinations, and witnessed some amazing things.
+          From Nepal's Himalayas to windswept Patagonia, I've thru-hiked a lot of miles, explored numerous destinations, and seen some amazing things.
         </p>
       </section>
-      <nav>
+      <nav aria-label="places supplementary navigation">
         <LinkList>
           {data.map((item) => (
             <li className={styles.item} key={item.index}>
@@ -46,10 +46,11 @@ export default function View({ data }: Props) {
                   {item.location} &mdash; <DateRange date={item.date} preview />
                 </small>
               </LinkStacked>
-              <LinkTag>
-                <Link href="/wiki">
-                  {item.type.replace(' ', '-')}
-                </Link>
+              <LinkTag
+                href={`/wiki?type=${item.type.replace(' ', '-')}`}
+                isModal
+              >
+                {item.type}
               </LinkTag>
             </li>
           ))}

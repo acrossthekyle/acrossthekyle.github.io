@@ -1,13 +1,24 @@
+import { Link as Chain, SquareArrowOutUpRight } from 'lucide-react';
+import Link from 'next/link';
+
 import styles from './stylesheet';
 
 type Props = {
   children: React.ReactNode | React.ReactNode[];
+  href: string;
+  isModal?: boolean;
 };
 
-export default function Tag({ children }: Props) {
+export default function Tag({ children, href, isModal }: Props) {
   return (
-    <span className={styles.container}>
+    <Link className={styles.container} href={href}>
+      {!isModal && (
+        <Chain className={styles.chain} />
+      )}
       {children}
-    </span>
+      {isModal && (
+        <SquareArrowOutUpRight className={styles.square} />
+      )}
+    </Link>
   );
 }

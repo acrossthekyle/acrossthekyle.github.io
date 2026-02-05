@@ -23,7 +23,6 @@ export default function get(slug: string, stage: string) {
     parent: parent.title,
     slug,
     stats: result.stats,
-    termini: result.termini,
     title: result.termini.end.words,
   };
 };

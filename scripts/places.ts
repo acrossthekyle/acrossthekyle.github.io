@@ -290,7 +290,7 @@ function parseMd(folder) {
   const { content } = matter(md);
 
   return {
-    description: content.split(/\n\n/),
+    content,
     readingTime: Math.ceil(readingTime(content).minutes).toFixed(0),
   };
 }
@@ -324,7 +324,7 @@ async function getStages(folder) {
 
       const gpx = await parseGpx(`${folder}/stages/${stageFolder}`);
 
-      const { description, readingTime } = await parseMd(`${folder}/stages/${stageFolder}`);
+      const { content, readingTime } = await parseMd(`${folder}/stages/${stageFolder}`);
 
       let stats = {
         distance: null,
@@ -430,8 +430,8 @@ async function getStages(folder) {
       const date = parseDate(data.date, 'MMMM do, yyyy', new Date());
 
       stages.push({
+        content,
         date: formatDate(date, 'LLLL do, yyyy'),
-        description: description || [],
         excerpt: data.excerpt || '',
         gpx: gpx || [],
         hasGpx: gpx !== undefined,
@@ -439,7 +439,7 @@ async function getStages(folder) {
         image: data.image,
         index: null,
         location: data.location || null,
-        readingTime: readingTime || null,
+        readingTime: readingTime || '0',
         snippet: data.title,
         stats,
         termini: {
@@ -772,8 +772,8 @@ export async function go() {
         position: trip.position,
         slug: trip.id,
         stages: stages.map(({
+          content,
           date,
-          description,
           excerpt,
           gpx,
           hasGpx,
@@ -785,8 +785,8 @@ export async function go() {
           stats,
           termini,
         }) => ({
+          content,
           date,
-          description,
           excerpt,
           gpx,
           hasGpx,

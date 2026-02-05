@@ -1,3 +1,6 @@
+- **Trailhead:** Grays Peak Trailhead
+- **Peak:** 14,253 ft
+
 For my final 14'er of this Colorado trip, I chose Grays Peak, a popular summit that begins above the treeline. This meant skipping the two-hour forest slog I had endured on previous hikes, which was a welcome change. I also hoped this peak would provide an opportunity to meet fellow hikers and campers along the way.
 
 The night before, I met two women camping nearby in hammocks. We shared dinner and conversation, and although our paths would briefly cross again near the summit, this was the only time we connected. After three consecutive days of hiking, I was exhausted, so I opted to climb only Grays instead of combining it with Torreys as part of the common saddle route.

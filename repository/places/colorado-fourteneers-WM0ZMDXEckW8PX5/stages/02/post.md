@@ -1,3 +1,6 @@
+- **Trailhead:** McCullough Gulch
+- **Peak:** 14,230 ft
+
 The morning after completing my first 14'er, I found myself waking up before dawn once again to tackle another peak. This one was known to be less strenuous than Mt. Elbert, but having conquered the tallest and most challenging of the "easier" 14'ers gave me confidence. I was still curious to see how my body would handle this fresh ascent.
 
 After a two-and-a-half-hour drive listening to my trusty 80's retro station, I parked along the roadside near the trailhead. There was no official parking lot, just a small space where a few other early hikers had already gathered. The trail began immediately at the edge of the road, and by 4:30 am I was setting out under the dim light of my headlamp.

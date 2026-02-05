@@ -1,3 +1,6 @@
+- **Trailhead:** Guanella Pass
+- **Peak:** 14,070 ft
+
 For the second hike of my Colorado trip, I chose an easier summit, Mt. Bierstadt, and planned a later start at 6:00 am since I had to drive about an hour from my campground. This class 1 route involved some scrambling over boulders near the summit, but nothing too challenging. One of the most striking features of this 14'er was the massive paved parking lot, which was already overflowing by the time I arrived.
 
 The trail was crowded, but that's to be expected for a peak so close to a major city with easy access. The first hour of the hike was pleasantly flat, winding through prairies dotted with bushes, small lakes, and streams. A boardwalk at the start made crossing streams simple while protecting the local vegetation. I loved this section and paused often to take photos of the idyllic landscape.

@@ -15,6 +15,7 @@ const styles = tw({
     absolute top-2 left-2 z-9
     flex items-center gap-2
     text-sm
+    !mb-0
 
     md:text-xs
   `,
@@ -42,6 +43,8 @@ const styles = tw({
     relative
     flex items-start justify-between
     text-sm text-center
+    !mb-0
+
     dark:bg-[#313131] light:bg-[#aaaaaa]
     dark:text-[#faf9f5] light:text-(--foreground)
 

@@ -3,15 +3,25 @@ import { Suspense } from 'react';
 
 import { Fallback, View } from '@/views/wiki';
 
+type SearchParams = {
+  [key: string]: string | string[] | undefined;
+};
+
 export const metadata: Metadata = {
   title: 'Wiki',
   description: 'Helpful information about hiking terminology, and other things.',
 };
 
-export default function Page() {
+export default async function Page({
+  searchParams,
+}: {
+  searchParams: Promise<SearchParams>;
+}) {
+  const type = (await searchParams).type;
+
   return (
     <Suspense fallback={<Fallback />}>
-      <View />
+      <View type={type as string} />
     </Suspense>
   );
 }

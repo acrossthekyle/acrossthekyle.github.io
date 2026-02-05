@@ -8,6 +8,7 @@ import {
 } from '@/ui/breadcrumbs';
 import { DateRange } from '@/ui/date';
 import { Image, ImageCaption, ImageFigure } from '@/ui/image';
+import { LinkTag } from '@/ui/link';
 import { Map, MapMarker } from '@/ui/map';
 
 import styles from './stylesheet';
@@ -20,12 +21,17 @@ type Props = {
 export default function View({ data }: Props) {
   return (
     <Layout>
-      <h1>
+      <h1 className={styles.header}>
         <strong>{data.title.join(' ')}</strong>
         <small>
           {data.location} &mdash; <DateRange date={data.date} preview/>
         </small>
       </h1>
+      {data.hasGear && (
+        <LinkTag href={`${data.slug}/gear`}>
+          GEAR
+        </LinkTag>
+      )}
       <Map>
         <MapMarker position={data.position} />
       </Map>
@@ -35,15 +41,6 @@ export default function View({ data }: Props) {
             {paragraph}
           </p>
         ))}
-        {data.hasGear && (
-          <p>
-            View the{' '}
-            <Link href={`${data.slug}/gear`}>
-              <u>gear</u>
-            </Link>{' '}
-            for this {data.type}.
-          </p>
-        )}
       </section>
       <section aria-label={`photo journal entries for each ${data.label.toLowerCase()}`}>
         <ul className={styles.list}>

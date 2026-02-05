@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Markdown from 'react-markdown';
 
 import { Layout } from '@/layout';
 import {
@@ -8,6 +9,7 @@ import {
   BreadcrumbTruncate,
 } from '@/ui/breadcrumbs';
 import { Image, ImageCaption, ImageFigure } from '@/ui/image';
+import { LinkTag } from '@/ui/link';
 import { TerminiRange } from '@/ui/termini';
 
 import styles from './stylesheet';
@@ -20,12 +22,17 @@ type Props = {
 export default function View({ data }: Props) {
   return (
     <Layout>
-      <h1>
+      <h1 className={styles.header}>
         <strong>
           {data.label} {data.index}: <TerminiRange termini={data.termini} />
         </strong>
-        <small>{data.date}</small>
+        <small>{data.date} • {data.readingTime} min read</small>
       </h1>
+      {data.hasGpx && (
+        <LinkTag href={`/places/${data.slug}/${data.index}/gpx`}>
+          GPX
+        </LinkTag>
+      )}
       <ImageFigure>
         <Image
           alt=""
@@ -39,14 +46,7 @@ export default function View({ data }: Props) {
         </ImageCaption>
       </ImageFigure>
       <section aria-label="description">
-        {data.hasGpx && (
-          <p>
-            View the <Link href={`/places/${data.slug}/${data.index}/gpx`}><u>route and elevation</u></Link>.
-          </p>
-        )}
-        {data.description.map((paragraph) => (
-          <p key={paragraph}>{paragraph}</p>
-        ))}
+        <Markdown>{data.content}</Markdown>
       </section>
       {data.hasNavigation && (
         <section className={styles.footer}>

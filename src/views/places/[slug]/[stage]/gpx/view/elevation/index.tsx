@@ -5,7 +5,7 @@ import dynamic from 'next/dynamic';
 import { useContext } from 'react';
 
 import { useTheme } from '@/hooks/useTheme';
-import type { Gpx, Stats, Termini } from '@/types';
+import type { Gpx, Stats } from '@/types';
 
 import { GpxContext } from '../context';
 
@@ -18,10 +18,9 @@ const Chart = dynamic(() => import('react-apexcharts'), {
 type Props = {
   gpx: Gpx;
   stats: Stats;
-  termini: Termini;
 };
 
-export default function Elevation({ gpx, stats, termini }: Props) {
+export default function Elevation({ gpx, stats }: Props) {
   const { theme } = useTheme();
 
   const { onHover } = useContext(GpxContext);
@@ -169,14 +168,12 @@ export default function Elevation({ gpx, stats, termini }: Props) {
       <div className={styles.grid2} />
       <div className={styles.grid3} />
       <ul className={styles.distance}>
-        {!termini.isSame && (
-          <li className={styles.start}>
-            Start
-            <span className={styles.altitude}>
-              {new Intl.NumberFormat().format(gpx[0][2])} ft
-            </span>
-          </li>
-        )}
+        <li className={styles.start}>
+          Start
+          <span className={styles.altitude}>
+            {new Intl.NumberFormat().format(gpx[0][2])} ft
+          </span>
+        </li>
         {stats.distance && stats.time && (
           <li className={styles.block}>
             {stats.distance.value.imperial} {stats.distance.units.imperial.full}
@@ -185,14 +182,12 @@ export default function Elevation({ gpx, stats, termini }: Props) {
             </span>
           </li>
         )}
-        {!termini.isSame && (
-          <li className={styles.end}>
-            End
-            <span className={styles.altitude}>
-              {new Intl.NumberFormat().format(gpx[gpx.length - 1][2])} ft
-            </span>
-          </li>
-        )}
+        <li className={styles.end}>
+          End
+          <span className={styles.altitude}>
+            {new Intl.NumberFormat().format(gpx[gpx.length - 1][2])} ft
+          </span>
+        </li>
       </ul>
     </div>
   );

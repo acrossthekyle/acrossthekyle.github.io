@@ -1,3 +1,6 @@
+- **Trailhead:** Colorado 82 Trailhead
+- **Peak:** 14,351 ft
+
 For my second year hiking Colorado's 14'ers, I decided to camp near the trailheads. This way, I could wake up at 4:00 am instead of 1:00 am and drive three hours. Just ten minutes to the start felt like a luxury after last year's early mornings.
 
 My first peak of the trip was La Plata Peak, named after the area's numerous silver mines. The trail wasn't particularly long, but it was technically more challenging than the hikes I completed the previous year. The trails are classified from 1 to 5, with 1 being the easiest. Mt. Elbert and the second 14'er I climbed last year were 1's, while La Plata rated as a 2.

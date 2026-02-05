@@ -20,8 +20,8 @@ export default function get(slug: string, stage: string) {
   const result = found.stages[index];
 
   return {
+    content: result.content,
     date: result.date,
-    description: result.description,
     excerpt: result.excerpt,
     hasGpx: result.hasGpx,
     hasNavigation: next !== undefined || previous !== undefined,
@@ -40,6 +40,7 @@ export default function get(slug: string, stage: string) {
       label: found.label,
       termini: found.stages[previous - 1].termini,
     } : undefined,
+    readingTime: result.readingTime,
     slug,
     snippet: result.snippet,
     stats: result.stats,
