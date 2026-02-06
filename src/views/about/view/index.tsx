@@ -21,10 +21,10 @@ export default function View() {
       <ImageFigure className={styles.figure}>
         <Image
           alt=""
-          height={540}
-          sizes="100vw"
+          height={432}
+          sizes="(max-width: 768px) 33vw, 50vw"
           src="7e8b11cd-c9b4-497d-82fe-dbd4f4dc3114.jpeg"
-          width={960}
+          width={768}
         />
         <ImageCaption>
           Annapurna Circuit, Nepal &mdash; 2019

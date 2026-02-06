@@ -49,10 +49,10 @@ export default function View({ data }: Props) {
                   <Image
                     alt=""
                     className={styles.image}
-                    height={1080}
-                    sizes="(max-width: 768px) 50vw, 33vw"
+                    height={432}
+                    sizes="(max-width: 768px) 32vw, 40vw"
                     src={stage.image}
-                    width={1920}
+                    width={768}
                   />
                   <ImageCaption>
                     {data.label} #{stage.index}

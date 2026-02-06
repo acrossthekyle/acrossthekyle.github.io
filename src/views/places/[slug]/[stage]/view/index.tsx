@@ -35,7 +35,7 @@ export default function View({ data }: Props) {
         <Image
           alt=""
           height={1080}
-          sizes="(max-width: 768px) 100vw, 33vw"
+          sizes="50vw"
           src={data.image}
           width={1920}
         />

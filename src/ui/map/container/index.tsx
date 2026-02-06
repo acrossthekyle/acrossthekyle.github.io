@@ -12,10 +12,11 @@ export default function Container({ children }: Props) {
       <figure className={styles.container}>
         <Image
           alt=""
-          height={1080}
-          sizes="(max-width: 768px) 50vw, 33vw"
+          height={432}
+          quality={10}
+          sizes="30vw"
           src="8e89c52b-87a9-4dca-b6a4-ce67c0ebd197.png"
-          width={1920}
+          width={768}
         />
         <figcaption>
           <span className={styles.caption}>Map of places I've visited</span>
