@@ -1,4 +1,14 @@
-import type { GearCategory } from '@/types';
+type GearItem = {
+  name: string[];
+  weight: number;
+  link: string;
+};
+
+type GearCategory = {
+  title: string;
+  items: GearItem[];
+  weight: string;
+};
 
 export type Data = {
   categories: GearCategory[];

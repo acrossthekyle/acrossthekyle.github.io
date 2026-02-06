@@ -1,22 +1,5 @@
 export type Gpx = [number, number, number][];
 
-export type GearItem = {
-  name: string[];
-  weight: number;
-  link: string;
-};
-
-export type GearCategory = {
-  title: string;
-  items: GearItem[];
-  weight: string;
-};
-
-export type Gear = {
-  categories: GearCategory[];
-  weightBase: string;
-};
-
 export type StatFull = {
   label: string;
   value: {

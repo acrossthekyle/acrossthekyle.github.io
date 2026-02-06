@@ -81,6 +81,7 @@ body {
     margin: 0 auto;
     max-width: var(--container-lg);
     position: fixed;
+    visibility: hidden;
     width: 100%;
     z-index: 0;
   }
