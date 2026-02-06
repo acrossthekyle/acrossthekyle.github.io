@@ -1,3 +1,7 @@
+import { ArrowUpRight } from 'lucide-react';
+
+import styles from './stylesheet';
+
 type Props = {
   children: React.ReactNode | React.ReactNode[];
 };
@@ -5,7 +9,7 @@ type Props = {
 export default function Arrow({ children }: Props) {
   return (
     <>
-      {children} ↗
+      {children}<ArrowUpRight className={styles.icon} />
     </>
   );
 }

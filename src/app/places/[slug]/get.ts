@@ -8,8 +8,12 @@ export default function get(slug: string) {
     return null;
   }
 
+  const date = data.date.isYears
+    ? `${data.date.range[0]} - ${data.date.range[1]}`
+    : data.date.range[1].split(', ')[1];
+
   return {
-    date: data.date,
+    date,
     description: data.description,
     hasGear: data.hasGear,
     label: data.label,
@@ -23,7 +27,7 @@ export default function get(slug: string) {
       image,
       index: padIndex(index + 1),
     })),
-    title: data.title,
+    title: data.title.join(' '),
     total: data.stages.length,
   };
 };

@@ -28,7 +28,7 @@ export default function Menu() {
       <button
         aria-controls="menu"
         aria-label="open menu dialog"
-        className={styles.open}
+        className="backdrop"
         onClick={handleOnOpen}
         title="Menu"
         type="button"

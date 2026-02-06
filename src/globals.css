@@ -36,7 +36,7 @@ html[data-theme="dark"] {
 
 html[data-theme="light"] {
   --background: #ffffff;
-  --foreground: #1a1a22;
+  --foreground: #000000;
 }
 
 html:has(dialog[open]) {
@@ -58,10 +58,12 @@ body {
   }
 
   header {
-    position: relative;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto 4rem;
     max-width: var(--container-lg);
-    padding-top: 5rem;
+    position: relative;
     width: 100%;
   }
 
@@ -81,6 +83,13 @@ body {
     position: fixed;
     width: 100%;
     z-index: 0;
+  }
+
+  article,
+  figure,
+  nav,
+  section {
+    margin-top: 4rem;
   }
 
   h2,
@@ -176,11 +185,6 @@ body {
     border-radius: 0.5rem;
   }
 
-  em {
-    font-style: italic;
-    font-family: var(--font-serif);
-  }
-
   img {
     border-radius: .5rem;
     height: 100%;
@@ -188,32 +192,110 @@ body {
     width: 100%;
   }
 
-  article,
-  figure,
-  nav,
-  section {
-    margin-top: 4rem;
-  }
-
-  select {
-    appearance: none;
-    background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8.35355 4.06066C8.15829 3.8654 7.84171 3.8654 7.64645 4.06066L5.35355 6.35355C5.15829 6.54882 4.84171 6.54882 4.64645 6.35355C4.45118 6.15829 4.45118 5.84171 4.64645 5.64645L6.93934 3.35356C7.52513 2.76777 8.47487 2.76777 9.06066 3.35355L11.3536 5.64645C11.5488 5.84171 11.5488 6.15829 11.3536 6.35355C11.1583 6.54882 10.8417 6.54882 10.6464 6.35355L8.35355 4.06066Z' fill='%236b7280'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8.35355 11.9393C8.15829 12.1346 7.84171 12.1346 7.64645 11.9393L5.35355 9.64645C5.15829 9.45119 4.84171 9.45119 4.64645 9.64645C4.45118 9.84171 4.45118 10.1583 4.64645 10.3536L6.93934 12.6464C7.52513 13.2322 8.47487 13.2322 9.06066 12.6464L11.3536 10.3536C11.5488 10.1583 11.5488 9.84171 11.3536 9.64645C11.1583 9.45119 10.8417 9.45119 10.6464 9.64645L8.35355 11.9393Z' fill='%236b7280'/%3E%3C/svg%3E%0A");
-    background-position: right 0rem center;
-    background-repeat: no-repeat;
-    background-size: 1.5em 1.5em;
-    cursor: pointer;
-    font-feature-settings: inherit;
-    font-variation-settings: inherit;
-    letter-spacing: inherit;
-    opacity: 1;
-    padding-right: 2.5rem;
-    print-color-adjust: exact;
-  }
-
   .list {
     line-height: 1.75rem;
     list-style-type: disc;
     margin-left: 1rem;
+  }
+
+  .index {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--spacing) * 8);
+    margin-top: calc(var(--spacing) * 6);
+  }
+
+  @media (min-width: 48rem) {
+    .index {
+      gap: calc(var(--spacing) * 6);
+    }
+  }
+
+  a.backdrop,
+  button.backdrop {
+    display: block;
+    position: relative;
+  }
+
+  a.backdrop:before,
+  button.backdrop:before {
+    background-color: var(--foreground);
+    border-radius: var(--radius-sm);
+    bottom: calc(var(--spacing) * -2);
+    content: '';
+    display: block;
+    left: calc(var(--spacing) * -3);
+    opacity: 0;
+    position: absolute;
+    right: calc(var(--spacing) * -3);
+    top: calc(var(--spacing) * -2);
+    transition-duration: 0.3s;
+    z-index: 0;
+  }
+
+  a.backdrop:focus:before,
+  button.backdrop:focus:before {
+    opacity: 1;
+  }
+
+  @media (hover: hover) {
+    a.backdrop:hover:before,
+    button.backdrop:hover:before {
+      opacity: 1;
+    }
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    a.backdrop:before,
+    button.backdrop:before {
+      background-color: color-mix(in oklab, var(--foreground) 5%, transparent);
+    }
+  }
+
+  a.cta,
+  .tag {
+    align-items: center;
+    background-color: var(--foreground);
+    border-radius: var(--radius-sm);
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+    border-color: var(--foreground);
+    display: inline-flex;
+    font-size: var(--text-tiny);
+    gap: calc(var(--spacing) * 1);
+    height: calc(var(--spacing) * 5.25);
+    letter-spacing: var(--tracking-wide);
+    padding-inline: calc(var(--spacing) * 1.25);
+    text-align: center;
+    transition-duration: 0.3s;
+  }
+
+  .tag {
+    position: absolute;
+    right: 0;
+    top: calc(var(--spacing) * 1);
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    a.cta,
+    .tag  {
+      background-color: color-mix(in oklab, var(--foreground) 7.5%, transparent);
+      border-color: color-mix(in oklab, var(--foreground) 7.5%, transparent);
+    }
+  }
+
+  @media (hover: hover) {
+    a.cta:hover {
+      background-color: var(--foreground);
+    }
+  }
+
+  @media (hover: hover) {
+    @supports (color: color-mix(in lab, red, red)) {
+      a.cta:hover {
+        background-color: color-mix(in oklab, var(--foreground) 12.5%, transparent);
+      }
+    }
   }
 
   /* third-party package styling  */

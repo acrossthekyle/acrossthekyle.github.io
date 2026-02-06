@@ -41,43 +41,10 @@ export type StatShort = {
   units: string;
 };
 
-export type Termini = {
-  end: {
-    position: string | null;
-    words: string[];
-  };
-  isSame: boolean;
-  start: {
-    position: string | null;
-    words: string[];
-  };
-};
-
 export type Stats = {
   distance: StatFull | null;
   gain: StatFull | null;
   loss: StatFull | null;
   max: StatFull | null;
   time: StatShort | null;
-};
-
-export type Stage = {
-  date: string;
-  description: string[];
-  image: string;
-  index: string;
-  location: string;
-  snippet: string;
-  termini: Termini;
-};
-
-export type Date = {
-  isYears: boolean;
-  range: string[];
-};
-
-export type Navigation = {
-  index: string;
-  label: string;
-  termini: Termini;
 };

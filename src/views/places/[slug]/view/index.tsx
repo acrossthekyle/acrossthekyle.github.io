@@ -6,9 +6,7 @@ import {
   BreadcrumbList,
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
-import { DateRange } from '@/ui/date';
 import { Image, ImageCaption, ImageFigure } from '@/ui/image';
-import { LinkTag } from '@/ui/link';
 import { Map, MapMarker } from '@/ui/map';
 
 import styles from './stylesheet';
@@ -22,15 +20,15 @@ export default function View({ data }: Props) {
   return (
     <Layout>
       <h1 className={styles.header}>
-        <strong>{data.title.join(' ')}</strong>
+        <strong>{data.title}</strong>
         <small>
-          {data.location} &mdash; <DateRange date={data.date} preview/>
+          {data.location} &mdash; {data.date}
         </small>
       </h1>
       {data.hasGear && (
-        <LinkTag href={`${data.slug}/gear`}>
+        <Link className="cta" href={`${data.slug}/gear`}>
           GEAR
-        </LinkTag>
+        </Link>
       )}
       <Map>
         <MapMarker position={data.position} />

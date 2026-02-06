@@ -1,7 +1,5 @@
-import type { Date } from '@/types';
-
 export type Data = {
-  date: Date;
+  date: string;
   index: string;
   location: string;
   position: {
@@ -9,6 +7,6 @@ export type Data = {
     top: string;
   };
   slug: string;
-  title: string[];
+  title: string;
   type: string;
 };

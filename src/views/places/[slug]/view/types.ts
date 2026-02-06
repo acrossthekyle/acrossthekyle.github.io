@@ -1,7 +1,5 @@
-import type { Date } from '@/types';
-
 export type Data = {
-  date: Date;
+  date: string;
   description: string[];
   hasGear: boolean;
   label: string;
@@ -15,6 +13,6 @@ export type Data = {
     image: string;
     index: string;
   }>;
-  title: string[];
+  title: string;
   total: number;
 };

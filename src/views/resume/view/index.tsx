@@ -6,7 +6,6 @@ import {
   BreadcrumbList,
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
-import { LinkButton } from '@/ui/link';
 
 import styles from './stylesheet';
 import type { Data } from './types';
@@ -24,11 +23,11 @@ export default function View({ data }: Props) {
       </h1>
       <section aria-label="introduction">
         <p>
-          I'm a self-taught web developer/software engineer who is driven to create because making things with code thrills me to no end. With a strong background in <em>JavaScript/TypeScript</em>, and <em>HTML/CSS</em>, I have hands-on experience working with high-traffic, customer-facing products built with an attention to detail.
+          I'm a self-taught web developer/software engineer who is driven to create because making things with code thrills me to no end. With a strong background in JavaScript/TypeScript, and HTML/CSS, I have hands-on experience working with high-traffic, customer-facing products built with an attention to detail.
         </p>
-        <LinkButton className={styles.pdf} href="/kyle-gilbert-resume.pdf" target="_blank">
+        <Link className="cta" href="/kyle-gilbert-resume.pdf" target="_blank">
           Download PDF
-        </LinkButton>
+        </Link>
       </section>
       <section>
         <h2>

@@ -1,22 +1,16 @@
-import type { Navigation, Termini } from '@/types';
-
 export type Data = {
   content: string;
   date: string;
-  excerpt: string;
   hasGpx: boolean;
   hasNavigation: boolean;
   image: string;
   index: string;
   label: string;
-  location: string[];
-  next?: Navigation;
-  parent: string[];
-  previous?: Navigation;
+  location: string;
+  next: string | null;
+  parent: string;
+  previous: string | null;
   readingTime: string;
   slug: string;
-  snippet: string;
-  termini: Termini;
-  total: string;
-  title: string[];
+  title: string;
 };

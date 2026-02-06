@@ -6,7 +6,6 @@ import {
   BreadcrumbList,
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
-import { LinkCount, LinkList, LinkStacked } from '@/ui/link';
 
 import type { Data } from './types';
 
@@ -27,17 +26,17 @@ export default function View({ data }: Props) {
         </p>
       </section>
       <section aria-label="words navigation">
-        <LinkList>
+        <ul className="index">
           {data.map((item) => (
             <li key={item.slug}>
-              <LinkStacked href={`/words/${item.slug}`}>
-                <LinkCount>{item.index}</LinkCount>
+              <Link className="backdrop" href={`/words/${item.slug}`}>
+                <span className="tag">#{item.index}</span>
                 {item.title}
                 <small>{item.date} &mdash; {item.readingTime} min read</small>
-              </LinkStacked>
+              </Link>
             </li>
           ))}
-        </LinkList>
+        </ul>
       </section>
       <Breadcrumb>
         <BreadcrumbList>

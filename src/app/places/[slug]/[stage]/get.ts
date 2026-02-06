@@ -14,38 +14,29 @@ export default function get(slug: string, stage: string) {
     return null;
   }
 
-  const next = index === found.stages.length - 1 ? undefined : index + 2;
-  const previous = index === 0 ? undefined : index;
+  const next = index === found.stages.length - 1 ? null : padIndex(index + 2);
+  const previous = index === 0 ? null : padIndex(index);
 
   const result = found.stages[index];
+
+  const title = result.termini.isSame
+    ? result.termini.end.words.join(' ')
+    : `${result.termini.start.words.join(' ')} to ${result.termini.end.words.join(' ')}`;
 
   return {
     content: result.content,
     date: result.date,
-    excerpt: result.excerpt,
     hasGpx: result.hasGpx,
-    hasNavigation: next !== undefined || previous !== undefined,
+    hasNavigation: next !== null || previous !== null,
     image: result.image,
     index: stage,
     label: found.label,
-    location: [result.location, found.location],
-    next: next ? {
-      index: padIndex(next),
-      label: found.label,
-      termini: found.stages[next - 1].termini,
-    } : undefined,
-    parent: found.title,
-    previous: previous ? {
-      index: padIndex(previous),
-      label: found.label,
-      termini: found.stages[previous - 1].termini,
-    } : undefined,
+    location: [result.location, found.location].join(', '),
+    next,
+    parent: found.title.join(' '),
+    previous,
     readingTime: result.readingTime,
     slug,
-    snippet: result.snippet,
-    stats: result.stats,
-    termini: result.termini,
-    total: padIndex(found.stages.length),
-    title: result.termini.end.words,
+    title,
   };
 };

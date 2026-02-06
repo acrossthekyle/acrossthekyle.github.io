@@ -1,4 +1,6 @@
-import { LinkArrow, LinkStacked } from '@/ui/link';
+import Link from 'next/link';
+
+import { LinkArrow } from '@/ui/link';
 
 import styles from './stylesheet';
 
@@ -13,22 +15,22 @@ export default function Menu() {
         <hr className={styles.hr} />
         <ul className={styles.list}>
           <li>
-            <LinkStacked href="/places" id="skip-to">
+            <Link className="backdrop" href="/places" id="skip-to">
               Places
               <small>Trails and travels</small>
-            </LinkStacked>
+            </Link>
           </li>
           <li>
-            <LinkStacked href="/words">
+            <Link className="backdrop" href="/words">
               Words
               <small>Quick thoughts</small>
-            </LinkStacked>
+            </Link>
           </li>
           <li>
-            <LinkStacked href="/photos">
+            <Link className="backdrop" href="/photos">
               Photos
               <small>Snapshots from life</small>
-            </LinkStacked>
+            </Link>
           </li>
         </ul>
       </section>
@@ -42,22 +44,22 @@ export default function Menu() {
         <hr className={styles.hr} />
         <ul className={styles.list}>
           <li>
-            <LinkStacked href="/about">
+            <Link className="backdrop" href="/about">
               About
               <small>My backstory</small>
-            </LinkStacked>
+            </Link>
           </li>
           <li>
-            <LinkStacked href="/now">
+            <Link className="backdrop" href="/now">
               Now
               <small>Presently doing</small>
-            </LinkStacked>
+            </Link>
           </li>
           <li>
-            <LinkStacked href="/resume">
+            <Link className="backdrop" href="/resume">
               Resume
               <small>Skills and career</small>
-            </LinkStacked>
+            </Link>
           </li>
         </ul>
       </section>
@@ -69,8 +71,9 @@ export default function Menu() {
         <hr className={styles.hr} />
         <ul className={styles.list}>
           <li>
-            <LinkStacked
+            <Link
               aria-label="view instagram profile"
+              className="backdrop"
               href="https://instagram.com/acrossthekyle"
               target="_blank"
             >
@@ -78,11 +81,12 @@ export default function Menu() {
               <small>
                 @acrossthekyle
               </small>
-            </LinkStacked>
+            </Link>
           </li>
           <li>
-            <LinkStacked
+            <Link
               aria-label="view linkedin profile"
+              className="backdrop"
               href="https://linkedin.com/in/acrossthekyle"
               target="_blank"
             >
@@ -90,13 +94,13 @@ export default function Menu() {
               <small>
                 in/acrossthekyle
               </small>
-            </LinkStacked>
+            </Link>
           </li>
           <li>
-            <LinkStacked href="/email">
+            <Link className="backdrop" href="/email">
               Email
-              <small>hello@acrossthekyle.com</small>
-            </LinkStacked>
+              <small>Say hello</small>
+            </Link>
           </li>
         </ul>
       </section>
@@ -108,14 +112,15 @@ export default function Menu() {
         <hr className={styles.hr} />
         <ul className={styles.list}>
           <li>
-            <LinkStacked href="/colophon">
+            <Link className="backdrop" href="/colophon">
               Colophon
               <small>Website philosophy</small>
-            </LinkStacked>
+            </Link>
           </li>
           <li>
-            <LinkStacked
+            <Link
               aria-label="view codebase on github.com"
+              className="backdrop"
               href="https://github.com/acrossthekyle"
               target="_blank"
             >
@@ -123,11 +128,12 @@ export default function Menu() {
               <small>
                 Code projects
               </small>
-            </LinkStacked>
+            </Link>
           </li>
           <li>
-            <LinkStacked
+            <Link
               aria-label="view websitecarbon.com rating"
+              className="backdrop"
               href="https://www.websitecarbon.com/website/acrossthekyle-com/"
               target="_blank"
             >
@@ -135,7 +141,7 @@ export default function Menu() {
               <small>
                 A+ rating
               </small>
-            </LinkStacked>
+            </Link>
           </li>
         </ul>
       </section>

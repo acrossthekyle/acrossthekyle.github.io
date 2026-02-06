@@ -6,8 +6,6 @@ import {
   BreadcrumbList,
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
-import { DateRange } from '@/ui/date';
-import { LinkList, LinkStacked, LinkTag } from '@/ui/link';
 import { Map, MapMarker } from '@/ui/map';
 
 import styles from './stylesheet';
@@ -37,24 +35,24 @@ export default function View({ data }: Props) {
         </p>
       </section>
       <nav aria-label="places supplementary navigation">
-        <LinkList>
+        <ul className="index">
           {data.map((item) => (
             <li className={styles.item} key={item.index}>
-              <LinkStacked href={`/places/${item.slug}`}>
-                <span className={styles.title}>{item.title.join(' ')}</span>
+              <Link className="backdrop" href={`/places/${item.slug}`}>
+                <span className={styles.title}>{item.title}</span>
                 <small>
-                  {item.location} &mdash; <DateRange date={item.date} preview />
+                  {item.location} &mdash; {item.date}
                 </small>
-              </LinkStacked>
-              <LinkTag
+              </Link>
+              <Link
+                className={styles.type}
                 href={`/wiki?type=${item.type.replace(' ', '-')}`}
-                isModal
               >
                 {item.type}
-              </LinkTag>
+              </Link>
             </li>
           ))}
-        </LinkList>
+        </ul>
       </nav>
       <Breadcrumb>
         <BreadcrumbList>

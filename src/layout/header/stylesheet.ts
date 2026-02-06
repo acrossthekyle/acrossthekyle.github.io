@@ -1,9 +1,6 @@
 import tw from '@/styles';
 
 const styles = tw({
-  anchor: `
-    absolute top-0 left-0
-  `,
   theme: `
     hidden
     fixed top-6 right-6

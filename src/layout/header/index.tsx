@@ -7,11 +7,7 @@ import Theme from './theme';
 export default function Header() {
   return (
     <header>
-      <Link
-        aria-label="acrossthekyle.com home"
-        className={styles.anchor}
-        href="/"
-      >
+      <Link aria-label="acrossthekyle.com home" href="/">
         K.
       </Link>
       <Menu />

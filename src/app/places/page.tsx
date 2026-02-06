@@ -6,8 +6,8 @@ import { Fallback, View } from '@/views/places';
 import get from './get';
 
 export const metadata: Metadata = {
-  title: 'Trails and Travels',
-  description: `From Nepal's Himalayas to windswept Patagonia, I've hiked a lot of miles and witnessed some amazing things. Wandering is life, and the thrill keeps me coming back for more.`,
+  title: 'Places',
+  description: `From Nepal's Himalayas to windswept Patagonia, I've thru-hiked a lot of miles, explored numerous destinations, and seen some amazing things.`,
 };
 
 export default function Page() {

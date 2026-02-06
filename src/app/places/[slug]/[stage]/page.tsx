@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: GenerateMetadata): Promise<Me
   }
 
   return {
-    title: `${data.title.join(' ')} → ${data.parent.join(' ')} → Trails and Travels`,
+    title: `${data.label} ${data.index} → ${data.parent} → Places`,
     description: data.content,
   };
 };

@@ -11,7 +11,9 @@ export default function get() {
     title,
     type,
   }) => ({
-    date,
+    date: date.isYears
+      ? `${date.range[0]}:${date.range[1]}`
+      : date.range[1].split(', ')[1],
     index: padIndex(index + 1),
     location,
     position: {
@@ -19,7 +21,7 @@ export default function get() {
       left: position[1],
     },
     slug,
-    title,
+    title: title.join(' '),
     type,
   }));
 };

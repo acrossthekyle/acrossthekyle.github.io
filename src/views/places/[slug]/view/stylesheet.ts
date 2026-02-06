@@ -5,6 +5,7 @@ import { getColSpan } from './utils';
 const styles = tw({
   header: `
     pr-14
+    mb-4
   `,
   list: `
     grid grid-cols-7 gap-4
