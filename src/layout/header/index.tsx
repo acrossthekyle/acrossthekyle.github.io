@@ -4,13 +4,19 @@ import Menu from './menu';
 import styles from './stylesheet';
 import Theme from './theme';
 
-export default function Header() {
+type Props = {
+  isRoot?: boolean;
+}
+
+export default function Header({ isRoot }: Props) {
   return (
     <header>
       <Link aria-label="acrossthekyle.com home" href="/">
         K.
       </Link>
-      <Menu />
+      {!isRoot && (
+        <Menu />
+      )}
       <Theme className={styles.theme} />
     </header>
   );

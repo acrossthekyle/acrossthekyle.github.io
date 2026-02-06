@@ -4,12 +4,13 @@ import Main from './main';
 
 type Props = {
   children: React.ReactNode | React.ReactNode[];
+  isRoot?: boolean;
 };
 
-export default function Layout({ children }: Props) {
+export default function Layout({ children, isRoot }: Props) {
   return (
     <>
-      <Header />
+      <Header isRoot={isRoot} />
       <Main>
         {children}
       </Main>

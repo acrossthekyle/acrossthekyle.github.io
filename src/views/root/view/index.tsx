@@ -2,7 +2,7 @@ import { Layout, Navigation } from '@/layout';
 
 export default function View() {
   return (
-    <Layout>
+    <Layout isRoot>
       <h2>
         <strong>Hi, I'm Kyle</strong>
         <small>Backpacker and engineer</small>
