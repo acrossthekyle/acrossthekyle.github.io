@@ -10,6 +10,7 @@ type Props = {
   className?: string;
   height: number;
   sizes: string;
+  src: string;
   width: number;
 };
 
@@ -18,9 +19,10 @@ export default function Image({
   className = '',
   height,
   sizes,
+  src,
   width,
 }: Props) {
-  const { onLoad, src } = useContext(ImageContext);
+  const { onLoad } = useContext(ImageContext);
 
   return (
     <NextJsImage

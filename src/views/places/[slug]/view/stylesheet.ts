@@ -17,6 +17,7 @@ const styles = tw({
     ${getColSpan(total, index)}
   `),
   figure: `
+    group
     h-full
     !mt-0
     rounded-lg
@@ -25,9 +26,9 @@ const styles = tw({
     md:hover:scale-104
   `,
   image: `
-    md:hover:grayscale-0
     md:grayscale-100
     md:duration-800
+    md:group-hover:grayscale-0
   `,
 });
 

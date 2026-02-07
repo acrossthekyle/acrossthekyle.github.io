@@ -4,6 +4,8 @@ import Context from '../context';
 import Image from '../image';
 import Skeleton from '../skeleton';
 
+import styles from './stylesheet';
+
 type Props = {
   alt: string;
   children?: React.ReactNode | React.ReactNode[];
@@ -30,9 +32,11 @@ export default function Container({
         className={className}
         height={height}
         sizes={sizes}
+        src={src}
         width={width}
       />
       <Skeleton />
+      <div className={styles.overlay} />
       {children}
     </Context>
   );

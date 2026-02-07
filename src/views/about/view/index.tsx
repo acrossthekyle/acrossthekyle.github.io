@@ -22,7 +22,7 @@ export default function View() {
         <Image
           alt=""
           height={432}
-          sizes="(max-width: 768px) 33vw, 50vw"
+          sizes="(max-width: 768px) 32vw, 40vw"
           src="7e8b11cd-c9b4-497d-82fe-dbd4f4dc3114.jpeg"
           width={768}
         />
