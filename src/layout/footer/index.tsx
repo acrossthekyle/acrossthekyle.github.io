@@ -1,7 +1,10 @@
+import Theme from './theme';
+
 export default function Footer() {
   return (
     <footer>
-      © 2011 - {new Date().getFullYear()}. All rights reserved.
+      <p>© 2011 - {new Date().getFullYear()}. All rights reserved.</p>
+      <Theme />
     </footer>
   );
 }

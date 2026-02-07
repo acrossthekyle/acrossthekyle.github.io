@@ -10,9 +10,6 @@ import {
 } from '@/ui/dialog';
 
 import Navigation from '../../navigation';
-import Theme from '../theme';
-
-import styles from './stylesheet';
 
 export default function Menu() {
   const {
@@ -53,7 +50,6 @@ export default function Menu() {
         </DialogHeader>
         <DialogBody>
           <Navigation />
-          <Theme className={styles.theme} />
         </DialogBody>
         <DialogFooter />
       </Dialog>

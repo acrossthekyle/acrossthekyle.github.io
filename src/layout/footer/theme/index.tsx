@@ -4,16 +4,12 @@ import { useTheme } from '@/hooks/useTheme';
 
 import styles from './stylesheet';
 
-type Props = {
-  className: string;
-};
-
-export default function Theme({ className }: Props) {
+export default function Theme() {
   const { onToggleTheme } = useTheme();
 
   return (
     <button
-      className={className}
+      className={styles.container}
       onClick={onToggleTheme}
       title="Toggle theme"
       type="button"

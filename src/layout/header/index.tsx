@@ -1,11 +1,9 @@
 import Link from 'next/link';
 
 import Menu from './menu';
-import styles from './stylesheet';
-import Theme from './theme';
 
 type Props = {
-  isRoot?: boolean;
+  isRoot: boolean;
 }
 
 export default function Header({ isRoot }: Props) {
@@ -17,7 +15,6 @@ export default function Header({ isRoot }: Props) {
       {!isRoot && (
         <Menu />
       )}
-      <Theme className={styles.theme} />
     </header>
   );
 }

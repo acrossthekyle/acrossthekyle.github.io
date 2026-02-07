@@ -10,7 +10,7 @@ type Props = {
 export default function Layout({ children, isRoot }: Props) {
   return (
     <>
-      <Header isRoot={isRoot} />
+      <Header isRoot={isRoot || false} />
       <Main>
         {children}
       </Main>
