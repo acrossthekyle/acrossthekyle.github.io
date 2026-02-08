@@ -1,15 +1,12 @@
 import tw from '@/styles';
 
 const styles = tw({
-  heading: `
-    uppercase
-  `,
-  list: `
+  list: (isMenu?: boolean) => tw(`
     grid grid-cols-2 gap-8
-    !mb-0
+    ${isMenu && '!mb-16 last-of-type:!mb-0'}
 
     md:grid-cols-3
-  `,
+  `),
   hr: `
     w-3
     my-7

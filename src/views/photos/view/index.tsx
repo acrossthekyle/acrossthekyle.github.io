@@ -15,14 +15,12 @@ export default function View() {
   return (
     <Layout>
       <h1>
-        Photos
-        <small>Snapshots from life</small>
+        <strong>Photos</strong>
+        <small>Life snapshots</small>
       </h1>
-      <section aria-label="introduction">
-        <p>
-          I use my phone to capture moments from everyday life, the vibrant city around me, and sights from the trails.
-        </p>
-      </section>
+      <p>
+        I use my phone to capture moments from everyday life, the vibrant city around me, and sights from the trails.
+      </p>
       <section aria-label="gallery">
         {IMAGES.map(({ caption, src }) => (
           <ImageFigure className={styles.figure} key={src}>

@@ -4,10 +4,10 @@ type Props = {
   children: React.ReactNode | React.ReactNode[];
 };
 
-export default function Header({ children }: Props) {
+export default function Item({ children }: Props) {
   return (
-    <h2 className={styles.container} id="dialog-header">
+    <li className={styles.container}>
       {children}
-    </h2>
+    </li>
   );
 }

@@ -21,9 +21,7 @@ export default function View({ data }: Props) {
     <Layout>
       <h1 className={styles.header}>
         <strong>{data.title}</strong>
-        <small>
-          {data.location} &mdash; {data.date}
-        </small>
+        <small>{data.location} &mdash; {data.date}</small>
       </h1>
       {data.hasGear && (
         <Link className="cta" href={`${data.slug}/gear`}>
@@ -33,15 +31,13 @@ export default function View({ data }: Props) {
       <Map>
         <MapMarker position={data.position} />
       </Map>
-      <section aria-label="information">
-        {data.description.map((paragraph) => (
-          <p key={paragraph}>
-            {paragraph}
-          </p>
-        ))}
-      </section>
-      <section aria-label={`photo journal entries for each ${data.label.toLowerCase()}`}>
-        <ul className={styles.list}>
+      {data.description.map((paragraph) => (
+        <p key={paragraph}>
+          {paragraph}
+        </p>
+      ))}
+      <section aria-label={`journal entries for each ${data.label.toLowerCase()}`}>
+        <ol className={styles.list}>
           {data.stages.map((stage, index: number) => (
             <li className={styles.item(index, data.total)} key={stage.index}>
               <ImageFigure className={styles.figure}>
@@ -61,7 +57,7 @@ export default function View({ data }: Props) {
               </ImageFigure>
             </li>
           ))}
-        </ul>
+        </ol>
       </section>
       <Breadcrumb>
         <BreadcrumbList>

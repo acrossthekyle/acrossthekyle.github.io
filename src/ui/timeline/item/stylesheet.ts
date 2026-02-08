@@ -2,10 +2,10 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    w-full max-w-lg
-    mt-0 mx-auto mb-6
+    relative
+    flex gap-x-2
 
-    md:mb-16
+    md:gap-x-3
   `,
 });
 

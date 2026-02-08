@@ -43,11 +43,12 @@ export default function View({ data }: Props) {
           {data.location}
         </ImageCaption>
       </ImageFigure>
-      <section aria-label="description">
-        <Markdown>{data.content}</Markdown>
-      </section>
+      <Markdown>{data.content}</Markdown>
       {data.hasNavigation && (
-        <section className={styles.footer}>
+        <section
+          aria-label="next previous navigation"
+          className={styles.footer}
+        >
           {data.previous && (
             <Link href={`/places/${data.slug}/${data.previous}`}>
               ← Previous

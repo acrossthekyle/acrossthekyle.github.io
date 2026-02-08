@@ -1,13 +1,14 @@
 {
   "timestamp": "1588309200",
   "date": {
-    "start": "Since 2020",
-    "end": ""
+    "start": "2020",
+    "end": "Today"
   },
   "industry": "Healthcare",
   "location": "Chicago, IL",
   "overview": "Health solution and care delivery",
   "position": "Senior Software Engineer II",
+  "description": "Leading the development of UHC's mobile app built in React Native and used by millions via partnerships between backend, product, and UX teams to deliver seamless, user-friendly experiences. Long-term maintainability, reliability, and performance is achieved through code reviews, enforcing coding standards, mentoring junior developers, and maintaining strong test coverage.",
   "responsibilities": [
     "Led development and maintenance of scalable, high-performance React and React Native applications used by millions of people",
     "Collaborated with backend and product teams to deliver seamless integrations and support project planning",

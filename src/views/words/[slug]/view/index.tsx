@@ -21,9 +21,7 @@ export default function View({ data }: Props) {
         <strong>{data.title}</strong>
         <small>{data.date} • {data.readingTime} min read</small>
       </h1>
-      <section aria-label="content">
-        <Markdown>{data.content}</Markdown>
-      </section>
+      <Markdown>{data.content}</Markdown>
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>

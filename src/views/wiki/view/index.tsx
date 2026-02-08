@@ -18,8 +18,11 @@ export default function View({ type }: Props) {
         <strong>Wiki</strong>
         <small>Definitions</small>
       </h1>
+      <p>
+        A helper for the types related to the places I've been to.
+      </p>
       {(type === 'thru-hike' || type === undefined) && (
-        <section>
+        <>
           <h2>
             <strong>THRU-HIKE</strong>
           </h2>
@@ -28,10 +31,10 @@ export default function View({ type }: Props) {
           </p>
           <p>You live out of a backpack with everything you need, and each day is mostly just waking up, walking, eating, walking some more, and sleeping. Some days feel incredible with big views and quiet moments where everything clicks; other days are miserable, wet, painful, and full of "why am I doing this" thoughts.
           </p>
-        </section>
+        </>
       )}
       {(type === 'section-hike' || type === undefined) && (
-        <section>
+        <>
           <h2>
             <strong>SECTION-HIKE</strong>
           </h2>
@@ -41,20 +44,20 @@ export default function View({ type }: Props) {
           <p>
             Over time, those sections add up. You might hike one piece this year, another next year, and slowly stitch the whole thing together. It's all about balance: figuring out how to keep a foot in normal life while still chasing that long-distance hike feeling.
           </p>
-        </section>
+        </>
       )}
       {(type === 'overnight-trek' || type === undefined) && (
-        <section>
+        <>
           <h2>
             <strong>OVERNIGHT TREK</strong>
           </h2>
           <p>
             Getting out on a short backpacking loop or out-n-back trail and spending the night camping somewhere along it.
           </p>
-        </section>
+        </>
       )}
       {(type === 'peak-bagging' || type === undefined) && (
-        <section>
+        <>
           <h2>
             <strong>PEAK-BAGGING</strong>
           </h2>
@@ -64,17 +67,17 @@ export default function View({ type }: Props) {
           <p>
             Each peak feels like checking something off a list, which is way more satisfying than it probably should be.
           </p>
-        </section>
+        </>
       )}
       {(type === 'destination' || type === undefined) && (
-        <section>
+        <>
           <h2>
             <strong>DESTINATION</strong>
           </h2>
           <p>
             The opposite of every other experience I do. No backpack filled with camping gear, no wearing the same two outfits over multiple days. Instead I play the role of tourist and experience the sights and sounds of the city.
           </p>
-        </section>
+        </>
       )}
       <Breadcrumb>
         <BreadcrumbList>

@@ -13,7 +13,7 @@ type GearCategory = {
 export type Data = {
   categories: GearCategory[];
   slug: string;
-  title: string[];
+  title: string;
   weights: {
     base: string;
   };

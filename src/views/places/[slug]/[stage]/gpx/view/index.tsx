@@ -20,10 +20,10 @@ export default function View({ data }: Props) {
   return (
     <Layout>
       <h1>
-        <strong>Route and Elevation</strong>
-        <small>GPX data via GPS Smart Watch</small>
+        <strong>Route and elevation</strong>
+        <small>GPX data via smart watch</small>
       </h1>
-      <section aria-label="gpx data">
+      <section aria-label="elevation and route data">
         <Context>
           <Elevation gpx={data.gpx} stats={data.stats} />
           <Route gpx={data.gpx} />

@@ -40,7 +40,7 @@ const styles = tw({
   description: `
     grow
     pt-0.5 pb-8
-    !mb-0
+    !mb-0 !mt-0
   `,
   title: `
     -mt-0.75

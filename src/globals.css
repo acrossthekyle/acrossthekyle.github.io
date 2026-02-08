@@ -61,7 +61,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 auto 4rem;
+    margin: 0 auto;
     max-width: var(--container-lg);
     position: relative;
     width: 100%;
@@ -94,8 +94,12 @@ body {
 
   article,
   figure,
+  form,
   nav,
-  section {
+  section,
+  p:first-of-type,
+  h1,
+  h2 {
     margin-top: 4rem;
   }
 
@@ -142,13 +146,25 @@ body {
     background: transparent;
     color: var(--foreground);
     height: 100%;
-    font-family: var(--font-sans) !important;
+    font-family: var(--font-mono) !important;
+    margin-block: calc(var(--spacing) * 0);
+    margin-inline: auto;
+    padding-bottom: 1.5rem;
+    padding-inline: 1.5rem;
     max-height: 100%;
-    max-width: 100%;
+    max-width: calc(var(--container-lg) + 3rem);
     opacity: 0;
+    overflow-x: visible !important;
+    overflow-y: scroll;
     transition: all 0.3s ease-in-out;
     width: 100%;
     z-index: 9;
+  }
+
+  @media (width >= 48rem) {
+    dialog {
+      padding-bottom: 4rem;
+    }
   }
 
   dialog::backdrop {
@@ -179,7 +195,7 @@ body {
     background-color: transparent;
     border-radius: 0.5rem;
     height: 0.25rem;
-    width: 50%;
+    width: 100%;
   }
 
   progress::-webkit-progress-bar {
@@ -199,10 +215,15 @@ body {
     width: 100%;
   }
 
-  .list {
+  .list,
+  .list-dash {
     line-height: 1.75rem;
     list-style-type: disc;
     margin-left: 1rem;
+  }
+
+  .list-dash {
+    list-style-type: circle;
   }
 
   .index {

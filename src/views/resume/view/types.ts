@@ -9,17 +9,9 @@ export type Data = {
       start: string;
       end: string;
     };
-    image: {
-      fill: string;
-      src: string;
-    };
-    industry: string;
-    location: string;
-    overview: string;
     position: string;
-    responsibilities: string[];
+    description: string;
     title: string[];
-    website: string | null;
   }>;
   skills: Array<{
     name: string;

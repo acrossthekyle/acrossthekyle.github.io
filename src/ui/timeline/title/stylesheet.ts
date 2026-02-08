@@ -1,8 +1,8 @@
 import tw from '@/styles';
 
 const styles = tw({
-  skills: `
-    grid grid-cols-2 gap-3 gap-x-6
+  container: `
+    !mb-0 mt-0.5
   `,
 });
 

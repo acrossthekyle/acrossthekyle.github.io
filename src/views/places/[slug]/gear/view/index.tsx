@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Fragment } from 'react';
 
 import { Layout } from '@/layout';
 import {
@@ -19,16 +20,19 @@ export default function View({ data }: Props) {
   return (
     <Layout>
       <h1>
-        <strong>Gear List</strong>
+        <strong>Gear list</strong>
         <small>Base weight: {data.weights.base} lbs</small>
       </h1>
+      <p>
+        This is a list of the gear used for the {data.title} broken down by category.
+      </p>
       {data.categories.map((category) => (
-        <section className={styles.section} key={category.title}>
-          <h2>
+        <Fragment key={category.title}>
+          <h2 id={category.title.replace(' ', '-')}>
             <strong>{category.title}</strong>
             <small>{category.weight} lbs</small>
           </h2>
-          <ul>
+          <ul aria-labelledby={category.title.replace(' ', '-')}>
             {category.items.map((item, index: number) => (
               <li className={styles.item} key={index}>
                 {!!item.link ? (
@@ -44,7 +48,7 @@ export default function View({ data }: Props) {
               </li>
             ))}
           </ul>
-        </section>
+        </Fragment>
       ))}
       <Breadcrumb>
         <BreadcrumbList>

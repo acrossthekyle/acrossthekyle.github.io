@@ -4,10 +4,10 @@ type Props = {
   children: React.ReactNode | React.ReactNode[];
 };
 
-export default function Body({ children }: Props) {
+export default function Container({ children }: Props) {
   return (
-    <div className={styles.container}>
+    <ol aria-label="timeline" className={styles.container}>
       {children}
-    </div>
+    </ol>
   );
 }

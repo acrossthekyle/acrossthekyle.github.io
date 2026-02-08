@@ -1,13 +1,7 @@
 'use client';
 
 import { useDialog } from '@/hooks/useDialog';
-import {
-  Dialog,
-  DialogBody,
-  DialogClose,
-  DialogFooter,
-  DialogHeader,
-} from '@/ui/dialog';
+import { Dialog, DialogHeader } from '@/ui/dialog';
 
 import Navigation from '../../navigation';
 
@@ -36,22 +30,14 @@ export default function Menu() {
         id="menu"
         isOpen={isOpen}
         onCancel={handleOnCancel}
+        onClose={handleOnClose}
         ref={dialog}
       >
         <DialogHeader>
-          <h2>
-            Menu
-            <small>Site directory</small>
-          </h2>
-          <DialogClose
-            id="menu"
-            onClose={handleOnClose}
-          />
+          Menu
+          <small>Site directory</small>
         </DialogHeader>
-        <DialogBody>
-          <Navigation />
-        </DialogBody>
-        <DialogFooter />
+        <Navigation isMenu />
       </Dialog>
     </>
   );

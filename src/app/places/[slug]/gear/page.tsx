@@ -27,8 +27,8 @@ export async function generateMetadata({ params }: GenerateMetadata): Promise<Me
   }
 
   return {
-    title: `Gear → ${data.title.join(' ')}`,
-    description: `${data.title.join(' ')} Gear`,
+    title: `Gear → ${data.title}`,
+    description: `List of gear used for the ${data.title}`,
   };
 };
 

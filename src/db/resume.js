@@ -10,13 +10,14 @@ const data = {
     {
       "timestamp": "1588309200",
       "date": {
-        "start": "Since 2020",
-        "end": ""
+        "start": "2020",
+        "end": "Today"
       },
       "industry": "Healthcare",
       "location": "Chicago, IL",
       "overview": "Health solution and care delivery",
       "position": "Senior Software Engineer II",
+      "description": "Leading the development of UHC's mobile app built in React Native and used by millions via partnerships between backend, product, and UX teams to deliver seamless, user-friendly experiences. Long-term maintainability, reliability, and performance is achieved through code reviews, enforcing coding standards, mentoring junior developers, and maintaining strong test coverage.",
       "responsibilities": [
         "Led development and maintenance of scalable, high-performance React and React Native applications used by millions of people",
         "Collaborated with backend and product teams to deliver seamless integrations and support project planning",
@@ -45,6 +46,7 @@ const data = {
       "location": "Chicago, IL",
       "overview": "Personalized data-driven health care",
       "position": "Senior Frontend Engineer",
+      "description": "Created a robust RX and pharmacy web application platform through collaborations with UX, backend, and product teams to deliver a responsive and user-friendly interface powered by seamless integrations, and reliable support.",
       "responsibilities": [
         "Built and launched a robust RX and pharmacy web application platform",
         "Partnered with UX/UI to deliver responsive, user-friendly interfaces",
@@ -70,6 +72,7 @@ const data = {
       "location": "Chicago, IL",
       "overview": "Custom web design and development",
       "position": "Fullstack Engineer",
+      "description": "Built multiple concurrent web applications based on client requests that were managed by the AWS infrastructure (EC2, RDS, S3, and SMS). Frontend frameworks included Vue.js and AngularJS, while backend frameworks were designed and maintained via Laravel APIs on Linux servers, complete with automated CI/CD deployments relying on Ansible scripts to ensure reliable, consistent releases.",
       "responsibilities": [
         "Managed AWS services for client websites, including EC2, RDS, S3, and SMS",
         "Built web applications from the ground up using Vue.js and AngularJS, following modern web standards",
@@ -96,6 +99,7 @@ const data = {
       "location": "Chicago, IL",
       "overview": "Experiential entertainment events",
       "position": "Web Developer",
+      "description": "Supported multiple event website projects while maintaining and evolving the EventSprout ticketing and registration platform through a CodeIgniter to Laravel migration, and managing the RegistratioNATION platform built on CodeIgniter.",
       "responsibilities": [
         "Supported multiple concurrent event website projects",
         "Maintained and evolved the EventSprout ticketing and registration platform (CodeIgniter → Laravel)",
@@ -121,6 +125,7 @@ const data = {
       "location": "Chicago, IL",
       "overview": "Custom web design and development",
       "position": "Junior Web Developer",
+      "description": "Maintained the RegistratioNATION website (built in CodeIgniter) for Red Frog Events and supported multiple custom-built event websites to ensure smooth operation and reliability.",
       "responsibilities": [
         "Maintained the RegistratioNATION website (CodeIgniter) for Red Frog Events",
         "Supported and maintained multiple custom-built event websites"

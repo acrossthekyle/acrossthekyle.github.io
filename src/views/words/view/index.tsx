@@ -20,13 +20,11 @@ export default function View({ data }: Props) {
         <strong>Words</strong>
         <small>Quick thoughts</small>
       </h1>
-      <section aria-label="introduction">
-        <p>
-          A place where I share my thoughts, opinions, and reflections on the things I notice.
-        </p>
-      </section>
-      <section aria-label="words navigation">
-        <ul className="index">
+      <p>
+        A place where I share my thoughts, opinions, and reflections on the things I notice.
+      </p>
+      <nav aria-label="supplementary navigation">
+        <ol className="index">
           {data.map((item) => (
             <li key={item.slug}>
               <Link className="backdrop" href={`/words/${item.slug}`}>
@@ -36,8 +34,8 @@ export default function View({ data }: Props) {
               </Link>
             </li>
           ))}
-        </ul>
-      </section>
+        </ol>
+      </nav>
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>

@@ -8,6 +8,7 @@
   "location": "Chicago, IL",
   "overview": "Custom web design and development",
   "position": "Fullstack Engineer",
+  "description": "Built multiple concurrent web applications based on client requests that were managed by the AWS infrastructure (EC2, RDS, S3, and SMS). Frontend frameworks included Vue.js and AngularJS, while backend frameworks were designed and maintained via Laravel APIs on Linux servers, complete with automated CI/CD deployments relying on Ansible scripts to ensure reliable, consistent releases.",
   "responsibilities": [
     "Managed AWS services for client websites, including EC2, RDS, S3, and SMS",
     "Built web applications from the ground up using Vue.js and AngularJS, following modern web standards",

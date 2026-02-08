@@ -14,7 +14,7 @@ export default function get(slug: string) {
   return {
     categories: data.gear?.categories || [],
     slug,
-    title: data.title,
+    title: data.title.join(' '),
     weights: {
       base: data.gear?.weightBase || '',
     },

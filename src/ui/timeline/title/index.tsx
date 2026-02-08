@@ -2,12 +2,13 @@ import styles from './stylesheet';
 
 type Props = {
   children: React.ReactNode | React.ReactNode[];
+  id?: string;
 };
 
-export default function Header({ children }: Props) {
+export default function Title({ children, id }: Props) {
   return (
-    <h2 className={styles.container} id="dialog-header">
+    <h3 className={styles.container} id={id}>
       {children}
-    </h2>
+    </h3>
   );
 }

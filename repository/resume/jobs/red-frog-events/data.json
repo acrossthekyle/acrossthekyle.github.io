@@ -8,6 +8,7 @@
   "location": "Chicago, IL",
   "overview": "Experiential entertainment events",
   "position": "Web Developer",
+  "description": "Supported multiple event website projects while maintaining and evolving the EventSprout ticketing and registration platform through a CodeIgniter to Laravel migration, and managing the RegistratioNATION platform built on CodeIgniter.",
   "responsibilities": [
     "Supported multiple concurrent event website projects",
     "Maintained and evolved the EventSprout ticketing and registration platform (CodeIgniter → Laravel)",

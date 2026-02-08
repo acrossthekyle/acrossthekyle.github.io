@@ -29,13 +29,11 @@ export default function View({ data }: Props) {
           <MapMarker key={index} position={position} />
         ))}
       </Map>
-      <section aria-label="introduction">
-        <p>
-          From Nepal's Himalayas to windswept Patagonia, I've thru-hiked a lot of miles, explored numerous destinations, and seen some amazing things.
-        </p>
-      </section>
-      <nav aria-label="places supplementary navigation">
-        <ul className="index">
+      <p>
+        From Nepal's Himalayas to windswept Patagonia, I've thru-hiked a lot of miles, explored numerous destinations, and seen some amazing things.
+      </p>
+      <nav aria-label="supplementary navigation">
+        <ol className="index">
           {data.map((item) => (
             <li className={styles.item} key={item.index}>
               <Link className="backdrop" href={`/places/${item.slug}`}>
@@ -52,7 +50,7 @@ export default function View({ data }: Props) {
               </Link>
             </li>
           ))}
-        </ul>
+        </ol>
       </nav>
       <Breadcrumb>
         <BreadcrumbList>
