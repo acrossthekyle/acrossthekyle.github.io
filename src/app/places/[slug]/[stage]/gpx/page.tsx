@@ -2,7 +2,8 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Suspense } from 'react';
 
-import { Fallback, View } from '@/views/places/[slug]/[stage]/gpx';
+import Loading from '@/ui/loading';
+import View from '@/views/places-[slug]-[stage]-gpx';
 
 import get from './get';
 
@@ -28,8 +29,8 @@ export async function generateMetadata({ params }: GenerateMetadata): Promise<Me
   }
 
   return {
-    title: `GPX → ${data.title.join(' ')} → ${data.parent.join(' ')}`,
-    description: `GPX Route / Elevation for ${data.title.join(' ')}`,
+    title: `GPX → ${data.title} → ${data.parent}`,
+    description: `GPX Route / Elevation for ${data.title}`,
   };
 };
 
@@ -47,7 +48,7 @@ export default async function Page({
   }
 
   return (
-    <Suspense fallback={<Fallback />}>
+    <Suspense fallback={<Loading />}>
       <View data={data} />
     </Suspense>
   );

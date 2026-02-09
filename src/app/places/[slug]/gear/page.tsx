@@ -2,7 +2,8 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Suspense } from 'react';
 
-import { Fallback, View } from '@/views/places/[slug]/gear';
+import Loading from '@/ui/loading';
+import View from '@/views/places-[slug]-gear';
 
 import get from './get';
 
@@ -46,7 +47,7 @@ export default async function Page({
   }
 
   return (
-    <Suspense fallback={<Fallback />}>
+    <Suspense fallback={<Loading />}>
       <View data={data} />
     </Suspense>
   );

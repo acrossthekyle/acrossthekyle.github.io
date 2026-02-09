@@ -9,8 +9,8 @@ export type Data = {
       start: string;
       end: string;
     };
-    position: string;
     description: string;
+    position: string;
     title: string[];
   }>;
   skills: Array<{

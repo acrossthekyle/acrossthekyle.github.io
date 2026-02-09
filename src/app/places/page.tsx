@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 import { Suspense } from 'react';
 
-import { Fallback, View } from '@/views/places';
+import Loading from '@/ui/loading';
+import View from '@/views/places';
 
 import get from './get';
 
@@ -14,7 +15,7 @@ export default function Page() {
   const data = get();
 
   return (
-    <Suspense fallback={<Fallback />}>
+    <Suspense fallback={<Loading />}>
       <View data={data} />
     </Suspense>
   );

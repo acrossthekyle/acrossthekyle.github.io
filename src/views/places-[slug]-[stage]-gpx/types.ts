@@ -4,8 +4,8 @@ export type Data = {
   gpx: Gpx;
   index: string;
   label: string;
-  parent: string[];
+  parent: string;
   slug: string;
   stats: Stats;
-  title: string[];
+  title: string;
 };

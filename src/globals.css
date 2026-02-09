@@ -1,15 +1,12 @@
 @import "tailwindcss";
 
-@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
-@custom-variant light (&:where([data-theme=light], [data-theme=light] *));
-
 :root {
   --background: #1a1a22;
   --foreground: #ffffff;
 }
 
 @theme {
-  --text-tiny: 0.6875rem; /* 11px */
+  --text-tiny: 0.6875rem;
 }
 
 html {
@@ -31,19 +28,18 @@ html:has(dialog[open]) {
 }
 
 body {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   background: var(--background);
   color: var(--foreground);
   display: flex;
   flex-direction: column;
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: var(--text-base);
   height: auto;
+  line-height: var(--tw-leading, var(--text-base--line-height));
   min-height: 100%;
-
-  ::-webkit-scrollbar {
-    display: none;
-  }
+  padding: calc(var(--spacing) * 6);
 
   header {
     display: flex;
@@ -129,13 +125,6 @@ body {
     text-transform: none;
   }
 
-  @media (min-width: 48rem) {
-    small {
-      font-size: var(--text-xs);
-      line-height: var(--tw-leading, var(--text-xs--line-height));
-    }
-  }
-
   button {
     cursor: pointer;
   }
@@ -158,23 +147,10 @@ body {
     z-index: 9;
   }
 
-  @media (width >= 48rem) {
-    dialog {
-      padding-bottom: 4rem;
-    }
-  }
-
   dialog::backdrop {
     background: var(--background);
     opacity: 0;
     transition: all 0.3s ease-in-out;
-  }
-
-  @media (width >= 48rem) {
-    dialog::backdrop {
-      background: transparent;
-      backdrop-filter: blur(0);
-    }
   }
 
   dialog.is-active {
@@ -212,6 +188,13 @@ body {
     width: 100%;
   }
 
+  dl {
+    column-gap: calc(var(--spacing) * 6);
+    display: grid;
+    gap: calc(var(--spacing) * 3);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .list,
   .list-dash {
     line-height: 1.75rem;
@@ -228,12 +211,6 @@ body {
     flex-direction: column;
     gap: calc(var(--spacing) * 8);
     margin-top: calc(var(--spacing) * 6);
-  }
-
-  @media (min-width: 48rem) {
-    .index {
-      gap: calc(var(--spacing) * 6);
-    }
   }
 
   a.backdrop,
@@ -263,20 +240,6 @@ body {
     opacity: 1;
   }
 
-  @media (hover: hover) {
-    a.backdrop:hover:before,
-    button.backdrop:hover:before {
-      opacity: 1;
-    }
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    a.backdrop:before,
-    button.backdrop:before {
-      background-color: color-mix(in oklab, var(--foreground) 5%, transparent);
-    }
-  }
-
   a.cta,
   .tag {
     align-items: center;
@@ -299,28 +262,6 @@ body {
     position: absolute;
     right: 0;
     top: calc(var(--spacing) * 1);
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    a.cta,
-    .tag  {
-      background-color: color-mix(in oklab, var(--foreground) 7.5%, transparent);
-      border-color: color-mix(in oklab, var(--foreground) 7.5%, transparent);
-    }
-  }
-
-  @media (hover: hover) {
-    a.cta:hover {
-      background-color: var(--foreground);
-    }
-  }
-
-  @media (hover: hover) {
-    @supports (color: color-mix(in lab, red, red)) {
-      a.cta:hover {
-        background-color: color-mix(in oklab, var(--foreground) 12.5%, transparent);
-      }
-    }
   }
 
   /* third-party package styling  */
@@ -368,6 +309,67 @@ body {
     font-weight: 400;
     padding-right: 0.6rem !important;
     padding-top: 0.4rem !important;
+  }
+}
+
+@media (min-width: 48rem) {
+  body {
+    font-size: var(--text-sm);
+    line-height: var(--tw-leading, var(--text-sm--line-height));
+    padding-block: calc(var(--spacing) * 16);
+    padding-inline: calc(var(--spacing) * 8);
+
+    small {
+      font-size: var(--text-xs);
+      line-height: var(--tw-leading, var(--text-xs--line-height));
+    }
+
+    dialog {
+      padding-bottom: 4rem;
+    }
+
+    dialog::backdrop {
+      background: transparent;
+      backdrop-filter: blur(0);
+    }
+
+    .index {
+      gap: calc(var(--spacing) * 6);
+    }
+  }
+}
+
+@media (hover: hover) {
+  body {
+    a.backdrop:hover:before,
+    button.backdrop:hover:before {
+      opacity: 1;
+    }
+
+    a.cta:hover {
+      background-color: var(--foreground);
+    }
+
+    @supports (color: color-mix(in lab, red, red)) {
+      a.cta:hover {
+        background-color: color-mix(in oklab, var(--foreground) 12.5%, transparent);
+      }
+    }
+  }
+}
+
+@supports (color: color-mix(in lab, red, red)) {
+  body {
+    a.backdrop:before,
+    button.backdrop:before {
+      background-color: color-mix(in oklab, var(--foreground) 5%, transparent);
+    }
+
+    a.cta,
+    .tag  {
+      background-color: color-mix(in oklab, var(--foreground) 7.5%, transparent);
+      border-color: color-mix(in oklab, var(--foreground) 7.5%, transparent);
+    }
   }
 }
 

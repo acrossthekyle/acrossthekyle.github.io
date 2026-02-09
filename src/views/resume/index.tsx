@@ -17,7 +17,6 @@ import {
   TimelineTitle,
 } from '@/ui/timeline';
 
-import styles from './stylesheet';
 import type { Data } from './types';
 
 type Props = {
@@ -40,7 +39,7 @@ export default function View({ data }: Props) {
       <h2 id="skills">
         <strong>SKILLS</strong>
       </h2>
-      <dl aria-labelledby="skills" className={styles.skills}>
+      <dl aria-labelledby="skills">
         {data.skills.map((skill) => (
           <Fragment key={skill.name}>
             <dt>{skill.name}</dt>

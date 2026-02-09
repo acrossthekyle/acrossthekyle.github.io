@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 import { Suspense } from 'react';
 
-import { Fallback, View } from '@/views/now';
+import Loading from '@/ui/loading';
+import View from '@/views/now';
 
 export const metadata: Metadata = {
   title: 'Now',
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <Suspense fallback={<Fallback />}>
+    <Suspense fallback={<Loading />}>
       <View />
     </Suspense>
   );

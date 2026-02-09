@@ -1,7 +1,6 @@
 import Script from 'next/script';
 
 import Skip from './skip';
-import styles from './stylesheet';
 
 type Props = {
   children: React.ReactNode;
@@ -9,7 +8,7 @@ type Props = {
 
 export default function Body({ children }: Props) {
   return (
-    <body className={styles.body}>
+    <body>
       <Script id="theme-script">
         {`
           (function () {

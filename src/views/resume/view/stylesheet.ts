@@ -1,9 +1,0 @@
-import tw from '@/styles';
-
-const styles = tw({
-  skills: `
-    grid grid-cols-2 gap-3 gap-x-6
-  `,
-});
-
-export default styles;

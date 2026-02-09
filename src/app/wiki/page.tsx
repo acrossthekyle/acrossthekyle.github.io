@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 import { Suspense } from 'react';
 
-import { Fallback, View } from '@/views/wiki';
+import Loading from '@/ui/loading';
+import View from '@/views/wiki';
 
 type SearchParams = {
   [key: string]: string | string[] | undefined;
@@ -20,7 +21,7 @@ export default async function Page({
   const type = (await searchParams).type;
 
   return (
-    <Suspense fallback={<Fallback />}>
+    <Suspense fallback={<Loading />}>
       <View type={type as string} />
     </Suspense>
   );

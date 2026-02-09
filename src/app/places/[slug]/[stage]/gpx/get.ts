@@ -20,9 +20,9 @@ export default function get(slug: string, stage: string) {
     gpx: result.gpx as Gpx,
     index: stage,
     label: parent.label,
-    parent: parent.title,
+    parent: parent.title.join(' '),
     slug,
     stats: result.stats,
-    title: result.termini.end.words,
+    title: result.termini.end.words.join(' '),
   };
 };

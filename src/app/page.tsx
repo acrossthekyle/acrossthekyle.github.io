@@ -1,10 +1,11 @@
 import { Suspense } from 'react';
 
-import { Fallback, View } from '@/views/root';
+import Loading from '@/ui/loading';
+import View from '@/views';
 
 export default function Page() {
   return (
-    <Suspense fallback={<Fallback />}>
+    <Suspense fallback={<Loading />}>
       <View />
     </Suspense>
   );
