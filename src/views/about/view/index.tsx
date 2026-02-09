@@ -18,7 +18,6 @@ import {
 } from '@/ui/timeline';
 
 import { TIMELINE } from './constants';
-import styles from './stylesheet';
 
 export default function View() {
   return (
@@ -27,7 +26,7 @@ export default function View() {
         <strong>About</strong>
         <small>My backstory</small>
       </h1>
-      <ImageFigure className={styles.figure}>
+      <ImageFigure>
         <Image
           alt=""
           height={432}

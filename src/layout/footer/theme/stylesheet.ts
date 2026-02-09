@@ -12,9 +12,7 @@ const styles = tw({
     block
     rounded-full
     w-5 h-5
-
-    dark:bg-white/75
-    light:bg-slate-800
+    bg-(--foreground)/75
 
     md:w-3.5
     md:h-3.5

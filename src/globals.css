@@ -9,16 +9,7 @@
 }
 
 @theme {
-  --font-weight-extrablack: 1000;
-
   --text-tiny: 0.6875rem; /* 11px */
-
-  --animate-in-fade: fadeIn .4s ease-in forwards;
-
-  @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
 }
 
 html {
@@ -65,10 +56,12 @@ body {
   }
 
   main {
+    animation: fadeIn .4s ease-in forwards;
     flex-grow: 1;
     margin: 0 auto;
     max-width: var(--container-lg);
     opacity: 0;
+    position: relative;
     width: 100%;
   }
 
@@ -90,7 +83,7 @@ body {
   }
 
   article,
-  figure,
+  figure:first-of-type,
   form,
   nav,
   section,
@@ -98,6 +91,11 @@ body {
   h1,
   h2 {
     margin-top: 4rem;
+  }
+
+  figure {
+    margin-top: 1.5rem;
+    position: relative;
   }
 
   h2,
@@ -108,6 +106,9 @@ body {
   ul,
   p {
     line-height: 175%;
+  }
+
+  p {
     margin-bottom: 1rem;
   }
 
@@ -368,4 +369,9 @@ body {
     padding-right: 0.6rem !important;
     padding-top: 0.4rem !important;
   }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }

@@ -1,5 +1,3 @@
-import styles from './stylesheet';
-
 type Props = {
   children: React.ReactNode | React.ReactNode[];
   className?: string;
@@ -7,7 +5,7 @@ type Props = {
 
 export default function Figure({ children, className = '' }: Props) {
   return (
-    <figure className={`${styles.container} ${className}`.trim()}>
+    <figure className={className}>
       {children}
     </figure>
   );

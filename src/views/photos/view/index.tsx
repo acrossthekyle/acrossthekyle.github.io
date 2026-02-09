@@ -9,7 +9,6 @@ import {
 import { Image, ImageCaption, ImageFigure } from '@/ui/image';
 
 import { IMAGES } from './constants';
-import styles from './stylesheet';
 
 export default function View() {
   return (
@@ -23,7 +22,7 @@ export default function View() {
       </p>
       <section aria-label="gallery">
         {IMAGES.map(({ caption, src }) => (
-          <ImageFigure className={styles.figure} key={src}>
+          <ImageFigure key={src}>
             <Image
               alt=""
               height={1080}

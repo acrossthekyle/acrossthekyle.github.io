@@ -15,7 +15,6 @@ const styles = tw({
     absolute top-2 left-2 z-9
     flex items-center gap-2
     text-sm
-    !mb-0
 
     md:text-xs
   `,
@@ -42,28 +41,35 @@ const styles = tw({
   distance: `
     relative
     flex items-start justify-between
-    text-sm text-center
-    !mb-0
-
-    dark:bg-[#313131] light:bg-[#aaaaaa]
-    dark:text-[#faf9f5] light:text-(--foreground)
+    text-sm text-center text-(--foreground)
+    bg-(--foreground)/25
 
     before:absolute
-    before:left-0
-    before:right-0
-    before:top-5.5
+    before:left-18
+    before:right-[calc(50%+2.75rem)]
+    before:top-6.5
     before:z-0
     before:h-[1px]
     before:bg-(--foreground)/25
+    after:absolute
+    after:right-14
+    after:left-[calc(50%+2.75rem)]
+    after:top-6.5
+    after:z-0
+    after:h-[1px]
+    after:bg-(--foreground)/25
 
     md:text-xs
+    md:before:left-16
+    md:before:top-6
+    md:after:right-13
+    md:after:top-6
   `,
   block: `
     relative z-1
     inline-block
     px-4 py-3.5
     font-bold
-    dark:bg-[#313131] light:bg-[#aaaaaa]
   `,
   time: `
     block
@@ -77,15 +83,11 @@ const styles = tw({
     relative z-1
     px-4 py-3.5
     text-left
-
-    dark:bg-[#313131] light:bg-[#aaaaaa]
   `,
   end: `
     relative z-1
     px-4 py-3.5
     text-right
-
-    dark:bg-[#313131] light:bg-[#aaaaaa]
   `,
   altitude: `
     block
