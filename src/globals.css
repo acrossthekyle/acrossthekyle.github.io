@@ -8,10 +8,6 @@
   --foreground: #ffffff;
 }
 
-@theme inline {
-  --font-sans: var(--font-geist-sans);
-}
-
 @theme {
   --font-weight-extrablack: 1000;
 
@@ -50,6 +46,7 @@ body {
   color: var(--foreground);
   display: flex;
   flex-direction: column;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   height: auto;
   min-height: 100%;
 

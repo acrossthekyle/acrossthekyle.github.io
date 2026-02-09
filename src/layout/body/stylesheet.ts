@@ -5,7 +5,6 @@ const styles = tw({
     antialiased
     px-6 py-6
     text-base
-    font-mono
 
     md:text-sm
     md:px-8
