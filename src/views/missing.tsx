@@ -33,7 +33,7 @@ export default function View() {
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>
-            <Link href="/" id="skip-to">
+            <Link href="/">
               ../
             </Link>
           </BreadcrumbItem>

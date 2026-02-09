@@ -1,7 +1,5 @@
 import Script from 'next/script';
 
-import Skip from './skip';
-
 type Props = {
   children: React.ReactNode;
 };
@@ -29,7 +27,6 @@ export default function Body({ children }: Props) {
           })();
         `}
       </Script>
-      <Skip />
       {children}
     </body>
   );

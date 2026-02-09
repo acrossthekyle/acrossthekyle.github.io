@@ -40,7 +40,7 @@ export default function Menu({ isMenu }: Props) {
       <hr className={styles.hr} />
       <ul aria-labelledby="blogging" className={styles.list(isMenu)}>
         <li>
-          <Link className="backdrop" href="/places" id="skip-to">
+          <Link className="backdrop" href="/places">
             Places
             <small>Trails and travels</small>
           </Link>

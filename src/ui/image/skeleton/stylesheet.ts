@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   skeleton: `
-    absolute inset-0 z-2
+    absolute inset-0 z-3
     bg-black
     rounded-lg
   `,
