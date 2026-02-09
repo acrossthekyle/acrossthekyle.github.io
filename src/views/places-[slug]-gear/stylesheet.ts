@@ -1,9 +1,6 @@
 import tw from '@/styles';
 
 const styles = tw({
-  section: `
-    !mt-8
-  `,
   item: `
     inline-block
     mr-6 mb-2
