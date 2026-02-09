@@ -1,13 +1,7 @@
-import { Geist } from 'next/font/google';
 import Script from 'next/script';
 
 import Skip from './skip';
 import styles from './stylesheet';
-
-const geistSans = Geist({
-  variable: '--font-geist-sans',
-  subsets: ['latin'],
-});
 
 type Props = {
   children: React.ReactNode;
@@ -15,7 +9,7 @@ type Props = {
 
 export default function Body({ children }: Props) {
   return (
-    <body className={`${geistSans.variable} ${styles.body}`}>
+    <body className={styles.body}>
       <Script id="theme-script">
         {`
           (function () {

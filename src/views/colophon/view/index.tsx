@@ -37,10 +37,7 @@ export default function View() {
         <strong>TYPOGRAPHY</strong>
       </h2>
       <p>
-        The font used on this website is Geist provided by Google Fonts, with the monospace version employed.
-      </p>
-      <p>
-        I tried to balance the use of the serif version of the font family with the monospace version, utilizing the italic style where it felt "artsy" or just felt right.
+        The font used on this website is monospace.
       </p>
       <h2>
         <strong>WORDS</strong>

@@ -4,7 +4,7 @@ const styles = tw({
   container: `
     absolute bottom-1.5 right-2.75 z-2
     text-xs text-white text-shadow-lg
-    font-bold font-mono
+    font-bold
     uppercase
 
     md:text-right
