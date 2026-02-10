@@ -82,6 +82,12 @@ export default function Menu({ isMenu }: Props) {
             <small>Skills and career</small>
           </Link>
         </li>
+        <li>
+          <Link className="backdrop" href="/books">
+            Books
+            <small>Printed reads</small>
+          </Link>
+        </li>
       </ul>
       <Heading id="connect" isMenu={isMenu}>
         CONNECT

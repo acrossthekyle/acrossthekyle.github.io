@@ -22,7 +22,7 @@ export default function View() {
       </h2>
       <ul aria-labelledby="reading" className="list">
         <li>
-          "The Dark Forest" by Liu Cixin
+          "Death's End" by Liu Cixin
         </li>
         <li>
           "A Clash of Kings" by George R.R. Martin
@@ -36,7 +36,7 @@ export default function View() {
           Daily yoga practices
         </li>
         <li>
-          Aiming for 10,000 steps each day
+          Morning walks along the lakefront
         </li>
       </ul>
       <h2 id="entertainment">
@@ -44,13 +44,16 @@ export default function View() {
       </h2>
       <ul aria-labelledby="entertainment" className="list">
         <li>
-          Rewatching "Star Trek: Enterprise"
+          "A Knight of the Seven Kingdoms" on HBO Max
+        </li>
+        <li>
+          Rewatching "Star Trek: Enterprise" on Paramount+
         </li>
         <li>
           "Dark Matter" on Apple TV+
         </li>
         <li>
-          Binging "How I Met Your Mother"
+          Binging "How I Met Your Mother" on Hulu
         </li>
       </ul>
       <Breadcrumb>
