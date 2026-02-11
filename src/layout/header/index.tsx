@@ -1,6 +1,7 @@
 import Link from 'next/link';
 
 import Menu from './menu';
+import styles from './stylesheet';
 
 type Props = {
   isRoot: boolean;
@@ -8,7 +9,7 @@ type Props = {
 
 export default function Header({ isRoot }: Props) {
   return (
-    <header>
+    <header className={styles.container}>
       <Link aria-label="acrossthekyle.com home" href="/">
         K.
       </Link>

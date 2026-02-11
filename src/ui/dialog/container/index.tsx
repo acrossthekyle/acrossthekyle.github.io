@@ -3,6 +3,8 @@
 import { X } from 'lucide-react';
 import { Ref, SyntheticEvent } from 'react';
 
+import Kbd from '../../keyboard';
+
 import styles from './stylesheet';
 
 type Props = {
@@ -26,7 +28,7 @@ export default function Dialog({
     <dialog
       aria-describedby="hint"
       aria-labelledby="dialog-header"
-      className={`${styles.dialog} ${isOpen ? 'is-active' : ''}`.trim()}
+      className={`${styles.container} ${isOpen ? 'is-active' : ''}`.trim()}
       id={id}
       ref={ref}
       onCancel={onCancel}
@@ -43,7 +45,7 @@ export default function Dialog({
       </button>
       {children}
       <p id="hint" className={styles.hint}>
-        Press <kbd className={styles.kbd}>Esc</kbd> to close
+        Press <Kbd>ESC</Kbd> to close
       </p>
     </dialog>
   );

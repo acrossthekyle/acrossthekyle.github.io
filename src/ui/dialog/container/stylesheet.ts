@@ -1,7 +1,7 @@
 import tw from '@/styles';
 
 const styles = tw({
-  dialog: `
+  container: `
     px-0
   `,
   close: `
@@ -18,18 +18,12 @@ const styles = tw({
     md:h-6
   `,
   hint: `
-    !hidden
-    fixed right-8 bottom-2
     text-tiny
+    !mb-0
 
-    md:!block
-  `,
-  kbd: `
-    px-0.75 py-0.5
-    text-tiny text-current/75
-    bg-(--foreground)/5
-    border border-(--foreground)/20
-    rounded-sm
+    md:fixed
+    md:right-8
+    md:bottom-6
   `,
 });
 

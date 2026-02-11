@@ -1,10 +1,12 @@
+import styles from './stylesheet';
+
 type Props = {
   children: React.ReactNode;
 };
 
 export default function Main({ children }: Props) {
   return (
-    <main>
+    <main className={styles.container}>
       {children}
     </main>
   );

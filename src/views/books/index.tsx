@@ -15,7 +15,7 @@ export default function View() {
         <small>Printed reads</small>
       </h1>
       <p>
-        The printed words that I've read and loved over the years, in no particular order.
+        The printed words that I've read over the years, in no particular order.
       </p>
       <br /><br />
       <ul aria-labelledby="books">

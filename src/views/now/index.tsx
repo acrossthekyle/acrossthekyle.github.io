@@ -20,7 +20,7 @@ export default function View() {
       <h2 id="reading">
         <strong>Reading</strong>
       </h2>
-      <ul aria-labelledby="reading" className="list">
+      <ul aria-labelledby="reading">
         <li>
           "Death's End" by Liu Cixin
         </li>
@@ -31,7 +31,7 @@ export default function View() {
       <h2 id="health">
         <strong>Health</strong>
       </h2>
-      <ul aria-labelledby="health" className="list">
+      <ul aria-labelledby="health">
         <li>
           Daily yoga practices
         </li>
@@ -42,7 +42,7 @@ export default function View() {
       <h2 id="entertainment">
         <strong>Entertainment</strong>
       </h2>
-      <ul aria-labelledby="entertainment" className="list">
+      <ul aria-labelledby="entertainment">
         <li>
           "A Knight of the Seven Kingdoms" on HBO Max
         </li>

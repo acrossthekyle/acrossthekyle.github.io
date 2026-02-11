@@ -19,10 +19,10 @@ export default function View() {
     <Layout>
       <h1>
         <strong>Email</strong>
-        <small>hello@acrossthekyle.com</small>
+        <small>Say hello</small>
       </h1>
       <p>
-        Interested in working together or curious about my travels?
+        If you're interested in working together, or curious about my travels, drop me a line in the form below or email me directly at <Link href="mailto:hello@acrossthekyle.com"><em>hello@acrossthekyle.com</em></Link>.
       </p>
       {state.succeeded && (
         <div className={styles.alert} role="alert">

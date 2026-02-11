@@ -3,9 +3,9 @@
 import { useDialog } from '@/hooks/useDialog';
 import { Dialog, DialogHeader } from '@/ui/dialog';
 
-import Navigation from '../../navigation';
+import Trigger from './trigger';
 
-export default function Menu() {
+export default function Search() {
   const {
     dialog,
     handleOnCancel,
@@ -16,27 +16,18 @@ export default function Menu() {
 
   return (
     <>
-      <button
-        aria-controls="menu"
-        aria-label="open menu dialog"
-        className="backdrop"
-        onClick={handleOnOpen}
-        type="button"
-      >
-        Menu
-      </button>
+      <Trigger onOpen={handleOnOpen} />
       <Dialog
-        id="menu"
+        id="search"
         isOpen={isOpen}
         onCancel={handleOnCancel}
         onClose={handleOnClose}
         ref={dialog}
       >
         <DialogHeader>
-          Menu
-          <small>Site directory</small>
+          Search
+          <small>Find nearly anything</small>
         </DialogHeader>
-        <Navigation isMenu />
       </Dialog>
     </>
   );
