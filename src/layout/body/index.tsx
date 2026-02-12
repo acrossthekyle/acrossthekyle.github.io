@@ -1,12 +1,14 @@
 import Script from 'next/script';
 
+import styles from './stylesheet';
+
 type Props = {
   children: React.ReactNode;
 };
 
 export default function Body({ children }: Props) {
   return (
-    <body>
+    <body className={styles.container}>
       <Script id="theme-script">
         {`
           (function () {

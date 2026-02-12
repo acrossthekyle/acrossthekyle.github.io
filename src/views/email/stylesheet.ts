@@ -17,14 +17,14 @@ const styles = tw({
     first-of-type:mt-0
   `,
   input: `
-    bg-(--foreground)/5
+    bg-(--foreground)/7.5
     border border-(--foreground)/7.5
     text-(--foreground)
     p-2
     rounded-sm
   `,
   textarea: `
-    bg-(--foreground)/5
+    bg-(--foreground)/7.5
     border border-(--foreground)/7.5
     text-(--foreground)
     p-2

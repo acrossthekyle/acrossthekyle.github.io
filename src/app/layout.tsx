@@ -2,7 +2,7 @@ import '../globals.css';
 
 import type { Metadata, Viewport } from 'next';
 
-import { Body } from '@/layout';
+import { Body, Footer } from '@/layout';
 
 const description = `Hi, I'm Kyle: backpacker and engineer. I'm drawn to long trails and wild places, from the Himalayas to Patagonia. Between adventures, I build web apps in Chicago.`;
 
@@ -64,6 +64,7 @@ export default function RootLayout({ children }: Props) {
     <html data-theme="dark" lang="en">
       <Body>
         {children}
+        <Footer />
       </Body>
     </html>
   );

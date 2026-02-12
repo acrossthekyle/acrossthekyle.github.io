@@ -15,7 +15,7 @@ export default function View() {
         <small>Presntly doing</small>
       </h1>
       <p>
-        This is my little corner to share what I'm up to and what I'm focused on right now.
+        What I'm up to and what I'm focused on right now.
       </p>
       <h2 id="reading">
         <strong>Reading</strong>

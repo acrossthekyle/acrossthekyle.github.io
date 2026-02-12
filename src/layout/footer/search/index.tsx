@@ -1,8 +1,10 @@
 'use client';
 
 import { useDialog } from '@/hooks/useDialog';
-import { Dialog, DialogHeader } from '@/ui/dialog';
+import { Dialog, DialogContent, DialogHeader } from '@/ui/dialog';
 
+import Content from './content';
+import styles from './stylesheet';
 import Trigger from './trigger';
 
 export default function Search() {
@@ -25,9 +27,12 @@ export default function Search() {
         ref={dialog}
       >
         <DialogHeader>
-          Search
-          <small>Find nearly anything</small>
+          <strong>Search</strong>
+          <small>Command/Ctrl + K</small>
         </DialogHeader>
+        <DialogContent className={styles.content}>
+          <Content />
+        </DialogContent>
       </Dialog>
     </>
   );

@@ -1,8 +1,10 @@
 'use client';
 
+import { Search } from 'lucide-react';
 import { useEffect } from 'react';
 
-import Kbd from '@/ui/keyboard';
+import { useDialog } from '@/hooks/useDialog';
+import { Kbd } from '@/ui/keyboard';
 
 import styles from './stylesheet';
 
@@ -11,31 +13,40 @@ type Props = {
 };
 
 export default function Trigger({ onOpen }: Props) {
+  const { isOpen } = useDialog();
+
   useEffect(() => {
-    const handleKeyDown = (event: KeyboardEvent) => {
-      if (event.key === 'k' && (event.metaKey || event.ctrlKey)) {
-        event.preventDefault();
+    document.addEventListener('keydown', handleOnKeyDown);
 
-        onOpen();
-      }
-    };
-
-    document.addEventListener('keydown', handleKeyDown);
-
-    return () => document.removeEventListener('keydown', handleKeyDown);
+    return () => document.removeEventListener('keydown', handleOnKeyDown);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [isOpen]);
+
+  const handleOnKeyDown = (event: KeyboardEvent) => {
+    if (isOpen) {
+      return;
+    }
+
+    if (event.key === 'k' && (event.metaKey || event.ctrlKey)) {
+      event.preventDefault();
+
+      onOpen();
+    }
+  };
 
   return (
     <button
       aria-controls="search"
-      aria-label="open search dialog"
       className={styles.container}
       onClick={onOpen}
+      title="Open search"
       type="button"
     >
-      <Kbd isSymbol>⌘</Kbd>
-      <Kbd>K</Kbd>
+      <Search className={styles.icon} />
+      <kbd className={styles.kbd}>
+        <Kbd symbol="cmdCtrl" />
+        <Kbd letters="K" />
+      </kbd>
     </button>
   );
 }

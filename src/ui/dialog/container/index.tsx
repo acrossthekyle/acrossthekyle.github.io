@@ -1,23 +1,25 @@
 'use client';
 
 import { X } from 'lucide-react';
-import { Ref, SyntheticEvent } from 'react';
+import { KeyboardEvent, Ref } from 'react';
 
-import Kbd from '../../keyboard';
+import { Kbd } from '../../keyboard';
 
 import styles from './stylesheet';
 
 type Props = {
   children: React.ReactNode | React.ReactNode[];
+  className?: string;
   id: string;
   isOpen: boolean;
-  onCancel: (event: SyntheticEvent<HTMLDialogElement>) => void;
+  onCancel: (event: KeyboardEvent<HTMLDialogElement>) => void;
   onClose: () => void;
   ref: Ref<HTMLDialogElement | null>;
 };
 
 export default function Dialog({
   children,
+  className = '',
   id,
   isOpen,
   onCancel,
@@ -28,10 +30,11 @@ export default function Dialog({
     <dialog
       aria-describedby="hint"
       aria-labelledby="dialog-header"
-      className={`${styles.container} ${isOpen ? 'is-active' : ''}`.trim()}
+      className={`${styles.container} ${className} ${isOpen ? 'is-active' : ''}`.trim()}
+      closedby="none"
       id={id}
       ref={ref}
-      onCancel={onCancel}
+      onKeyDown={onCancel}
     >
       <button
         aria-controls={id}
@@ -44,9 +47,9 @@ export default function Dialog({
         <X className={styles.icon} />
       </button>
       {children}
-      <p id="hint" className={styles.hint}>
-        Press <Kbd>ESC</Kbd> to close
-      </p>
+      <button id="hint" className={styles.hint} onClick={onClose} type="button">
+        Close <Kbd letters="ESC" />
+      </button>
     </dialog>
   );
 }

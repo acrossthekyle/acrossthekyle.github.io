@@ -1,4 +1,3 @@
-import Footer from './footer';
 import Header from './header';
 import Main from './main';
 
@@ -14,7 +13,6 @@ export default function Layout({ children, isRoot }: Props) {
       <Main>
         {children}
       </Main>
-      <Footer />
     </>
   );
 }

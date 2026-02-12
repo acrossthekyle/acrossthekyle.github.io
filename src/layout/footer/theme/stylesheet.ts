@@ -2,18 +2,21 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    absolute -bottom-2 -right-2 z-2
+    absolute -bottom-2 -right-2 z-0
     p-2
 
     md:fixed
-    md:bottom-6
-    md:right-6
+    md:bottom-12
+    md:right-12
   `,
   dot: `
     block
     rounded-full
-    w-3.5 h-3.5
+    w-5 h-5
     bg-(--foreground)/75
+
+    md:w-3.5
+    md:h-3.5
   `,
 });
 

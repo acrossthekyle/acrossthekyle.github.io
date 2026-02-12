@@ -2,11 +2,8 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    inline-block
-    pl-0.25
-    lowercase truncate
-
-    first:pl-0
+    w-full max-w-lg
+    my-0 mx-auto !mt-0
   `,
 });
 

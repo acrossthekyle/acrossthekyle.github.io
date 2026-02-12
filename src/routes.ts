@@ -1,0 +1,86 @@
+export const ROUTES = [
+  {
+    group: null,
+    path: '/',
+    subtitle: 'Home',
+    text: 'Home',
+  },
+  {
+    group: 'blogging',
+    path: '/places',
+    subtitle: 'Trails and travels',
+    text: 'Places',
+  },
+  {
+    group: 'blogging',
+    path: '/words',
+    subtitle: 'Quick thoughts',
+    text: 'Words',
+  },
+  {
+    group: 'blogging',
+    path: '/photos',
+    subtitle: 'Life snapshots',
+    text: 'Photos',
+  },
+  {
+    group: 'info',
+    path: '/about',
+    subtitle: 'My backstory',
+    text: 'About',
+  },
+  {
+    group: 'info',
+    path: '/now',
+    subtitle: 'Presently doing',
+    text: 'Now',
+  },
+  {
+    group: 'info',
+    path: '/resume',
+    subtitle: 'Skills and career',
+    text: 'Resume',
+  },
+  {
+    group: 'info',
+    path: '/books',
+    subtitle: 'Printed reads',
+    text: 'Books',
+  },
+  {
+    group: 'connect',
+    path: 'https://instagram.com/acrossthekyle',
+    subtitle: '@acrossthekyle',
+    text: 'Instagram',
+  },
+  {
+    group: 'connect',
+    path: 'https://linkedin.com/in/acrossthekyle',
+    subtitle: 'in/acrossthekyle',
+    text: 'LinkedIn',
+  },
+  {
+    group: 'connect',
+    path: '/email',
+    subtitle: 'Say hello',
+    text: 'Email',
+  },
+  {
+    group: 'code',
+    path: '/colophon',
+    subtitle: 'Website philosophy',
+    text: 'Colophon',
+  },
+  {
+    group: 'code',
+    path: 'https://github.com/acrossthekyle',
+    subtitle: 'Code projects',
+    text: 'Github',
+  },
+  {
+    group: 'code',
+    path: 'https://www.websitecarbon.com/website/acrossthekyle-com/',
+    subtitle: 'A+ rating',
+    text: 'Carbon',
+  },
+];
