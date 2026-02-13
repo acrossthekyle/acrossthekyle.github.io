@@ -7,10 +7,11 @@ const styles = tw({
     h-auto min-h-full
     p-6
     font-mono
-    text-sm text-(--foreground)
+    text-base text-(--foreground)
     bg-(--background)
 
     md:p-14
+    md:text-sm
   `,
 });
 

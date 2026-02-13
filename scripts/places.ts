@@ -817,7 +817,7 @@ export async function go() {
 
     const result = sorted.map((item, index) => {
       return {
-        index,
+        index: (data.length - 1) - index,
         ...item,
       };
     });

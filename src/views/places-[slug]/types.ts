@@ -12,6 +12,7 @@ export type Data = {
   stages: Array<{
     image: string;
     index: string;
+    title: string;
   }>;
   title: string;
   type: string;

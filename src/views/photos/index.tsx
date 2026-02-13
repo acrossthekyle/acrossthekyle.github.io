@@ -15,7 +15,7 @@ export default function View() {
     <Layout>
       <h1>
         <strong>Photos</strong>
-        <small>Life snapshots</small>
+        <small>Amateur snapshots</small>
       </h1>
       <p>
         I use my phone to capture moments from everyday life, the vibrant city around me, and sights from the trails.

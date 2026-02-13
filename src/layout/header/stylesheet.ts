@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    flex justify-between
+    flex items-start justify-between
     w-full max-w-lg
     my-0 mx-auto
     mb-16

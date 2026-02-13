@@ -1,6 +1,6 @@
 const data = [
   {
-    "index": 0,
+    "index": 20,
     "category": "trekking",
     "date": {
       "isYears": false,
@@ -2709,7 +2709,7 @@ const data = [
     "type": "overnight trek"
   },
   {
-    "index": 1,
+    "index": 19,
     "category": "trekking",
     "date": {
       "isYears": false,
@@ -15251,7 +15251,7 @@ const data = [
     "type": "thru-hike"
   },
   {
-    "index": 2,
+    "index": 18,
     "category": "destination",
     "date": {
       "isYears": false,
@@ -15423,7 +15423,7 @@ const data = [
     "type": "destination"
   },
   {
-    "index": 3,
+    "index": 17,
     "category": "destination",
     "date": {
       "isYears": false,
@@ -15594,7 +15594,7 @@ const data = [
     "type": "destination"
   },
   {
-    "index": 4,
+    "index": 16,
     "category": "trekking",
     "date": {
       "isYears": false,
@@ -30460,7 +30460,7 @@ const data = [
     "type": "thru-hike"
   },
   {
-    "index": 5,
+    "index": 15,
     "category": "destination",
     "date": {
       "isYears": false,
@@ -30883,7 +30883,7 @@ const data = [
     "type": "destination"
   },
   {
-    "index": 6,
+    "index": 14,
     "category": "destination",
     "date": {
       "isYears": false,
@@ -31089,7 +31089,7 @@ const data = [
     "type": "destination"
   },
   {
-    "index": 7,
+    "index": 13,
     "category": "trekking",
     "date": {
       "isYears": true,
@@ -35026,7 +35026,7 @@ const data = [
     "type": "section hike"
   },
   {
-    "index": 8,
+    "index": 12,
     "category": "trekking",
     "date": {
       "isYears": false,
@@ -42185,7 +42185,7 @@ const data = [
     "type": "thru-hike"
   },
   {
-    "index": 9,
+    "index": 11,
     "category": "destination",
     "date": {
       "isYears": false,
@@ -49659,7 +49659,7 @@ const data = [
     "type": "thru-hike"
   },
   {
-    "index": 11,
+    "index": 9,
     "category": "trekking",
     "date": {
       "isYears": false,
@@ -70037,7 +70037,7 @@ const data = [
     "type": "thru-hike"
   },
   {
-    "index": 12,
+    "index": 8,
     "category": "destination",
     "date": {
       "isYears": false,
@@ -70201,7 +70201,7 @@ const data = [
     "type": "destination"
   },
   {
-    "index": 13,
+    "index": 7,
     "category": "trekking",
     "date": {
       "isYears": true,
@@ -79935,7 +79935,7 @@ const data = [
     "type": "peak-bagging"
   },
   {
-    "index": 14,
+    "index": 6,
     "category": "trekking",
     "date": {
       "isYears": false,
@@ -91567,7 +91567,7 @@ const data = [
     "type": "thru-hike"
   },
   {
-    "index": 15,
+    "index": 5,
     "category": "trekking",
     "date": {
       "isYears": false,
@@ -105367,7 +105367,7 @@ const data = [
     "type": "thru-hike"
   },
   {
-    "index": 16,
+    "index": 4,
     "category": "trekking",
     "date": {
       "isYears": false,
@@ -141044,7 +141044,7 @@ const data = [
     "type": "thru-hike"
   },
   {
-    "index": 17,
+    "index": 3,
     "category": "destination",
     "date": {
       "isYears": false,
@@ -141214,7 +141214,7 @@ const data = [
     "type": "destination"
   },
   {
-    "index": 18,
+    "index": 2,
     "category": "destination",
     "date": {
       "isYears": false,
@@ -141417,7 +141417,7 @@ const data = [
     "type": "destination"
   },
   {
-    "index": 19,
+    "index": 1,
     "category": "destination",
     "date": {
       "isYears": false,
@@ -141515,7 +141515,7 @@ const data = [
     "type": "destination"
   },
   {
-    "index": 20,
+    "index": 0,
     "category": "destination",
     "date": {
       "isYears": false,

@@ -41,14 +41,14 @@ export default function View({ data }: Props) {
                 <Link href={`/places/${data.slug}/${stage.index}`}>
                   <Image
                     alt=""
-                    className={styles.image}
                     height={432}
                     sizes="(max-width: 768px) 32vw, 40vw"
                     src={stage.image}
                     width={768}
                   />
-                  <ImageCaption>
-                    {data.label} #{stage.index}
+                  <ImageCaption className={styles.caption}>
+                    {data.label} #{stage.index}.<br />
+                    {stage.title}
                   </ImageCaption>
                 </Link>
               </ImageFigure>

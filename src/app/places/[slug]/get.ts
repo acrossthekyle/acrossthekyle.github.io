@@ -23,9 +23,12 @@ export default function get(slug: string) {
       left: data.position[1],
     },
     slug,
-    stages: data.stages.map(({ image }, index: number) => ({
+    stages: data.stages.map(({ image, termini }, index: number) => ({
       image,
       index: padIndex(index + 1),
+      title: termini.isSame
+        ? termini.end.words.join(' ')
+        : `${termini.start.words.join(' ')} to ${termini.end.words.join(' ')}`,
     })),
     title: data.title.join(' '),
     type: data.type,

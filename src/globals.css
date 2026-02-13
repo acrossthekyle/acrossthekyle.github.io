@@ -165,7 +165,7 @@ body {
   button.backdrop:before {
     background-color: var(--foreground);
     border-radius: var(--radius-sm);
-    bottom: calc(var(--spacing) * -2);
+    bottom: calc(var(--spacing) * -1);
     content: '';
     display: block;
     left: calc(var(--spacing) * -3);

@@ -18,17 +18,26 @@ const styles = tw({
   `),
   figure: `
     group
+    relative
     h-full
     !mt-0
     rounded-lg
-    duration-500
 
-    md:hover:scale-98
+    before:absolute
+    before:inset-0
+    before:rounded-lg
+    before:bg-black
+    before:opacity-0
+    before:duration-500
+
+    hover:before:opacity-25
   `,
-  image: `
-    md:grayscale-100
-    md:duration-800
-    md:group-hover:grayscale-0
+  caption: `
+    left-2.75
+    whitespace-nowrap
+    truncate
+
+    md:!text-left
   `,
 });
 
