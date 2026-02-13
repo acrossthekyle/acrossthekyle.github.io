@@ -2696,6 +2696,11 @@ const data = [
         "units": null
       }
     },
+    "tags": [
+      "short",
+      "distance",
+      "midwest"
+    ],
     "timestamp": "1760859600",
     "title": [
       "Yellow River",
@@ -15230,6 +15235,14 @@ const data = [
         "units": null
       }
     },
+    "tags": [
+      "tmb",
+      "switzerland",
+      "italy",
+      "france",
+      "long",
+      "distance"
+    ],
     "timestamp": "1753228805",
     "title": [
       "Tour du Mont",
@@ -30432,6 +30445,14 @@ const data = [
         "units": null
       }
     },
+    "tags": [
+      "gr",
+      "gr20",
+      "long",
+      "distance",
+      "europe",
+      "mediterranean"
+    ],
     "timestamp": "1687332000",
     "title": [
       "The GR 20"
@@ -30848,6 +30869,13 @@ const data = [
         "units": null
       }
     },
+    "tags": [
+      "tomb",
+      "valley",
+      "balloon",
+      "temple",
+      "karnak"
+    ],
     "timestamp": "1672734773",
     "title": [
       "Luxor"
@@ -31048,6 +31076,12 @@ const data = [
         "units": null
       }
     },
+    "tags": [
+      "pyramid",
+      "museum",
+      "sphinx",
+      "market"
+    ],
     "timestamp": "1672304400",
     "title": [
       "Cairo"
@@ -34979,6 +35013,12 @@ const data = [
         "units": null
       }
     },
+    "tags": [
+      "short",
+      "distance",
+      "midwest",
+      "overnight"
+    ],
     "timestamp": "1657904400",
     "title": [
       "Ice Age Trail"
@@ -42131,6 +42171,12 @@ const data = [
         "units": null
       }
     },
+    "tags": [
+      "whw",
+      "long",
+      "distance",
+      "europe"
+    ],
     "timestamp": "1651911600",
     "title": [
       "West Highland",
@@ -49597,6 +49643,13 @@ const data = [
         "units": null
       }
     },
+    "tags": [
+      "south",
+      "america",
+      "long",
+      "distance",
+      "the o"
+    ],
     "timestamp": "1582041600",
     "title": [
       "Torres del",
@@ -69967,6 +70020,14 @@ const data = [
         "units": null
       }
     },
+    "tags": [
+      "abc",
+      "apc",
+      "himalaya",
+      "asia",
+      "long",
+      "distance"
+    ],
     "timestamp": "1571465700",
     "title": [
       "Annapurna",
@@ -91491,6 +91552,14 @@ const data = [
         "units": null
       }
     },
+    "tags": [
+      "av",
+      "av1",
+      "dolomite",
+      "long",
+      "distance",
+      "europe"
+    ],
     "timestamp": "1563261600",
     "title": [
       "Alta Via 1"
@@ -105282,6 +105351,14 @@ const data = [
         "units": null
       }
     },
+    "tags": [
+      "tmb",
+      "switzerland",
+      "italy",
+      "france",
+      "long",
+      "distance"
+    ],
     "timestamp": "1535872800",
     "title": [
       "Tour du Mont",
@@ -140953,6 +141030,12 @@ const data = [
         "units": null
       }
     },
+    "tags": [
+      "first",
+      "long",
+      "distance",
+      "europe"
+    ],
     "timestamp": "1527933600",
     "title": [
       "Camino",

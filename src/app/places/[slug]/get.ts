@@ -9,7 +9,7 @@ export default function get(slug: string) {
   }
 
   const date = data.date.isYears
-    ? `${data.date.range[0]} - ${data.date.range[1]}`
+    ? `${data.date.range[0]}:${data.date.range[1]}`
     : data.date.range[1].split(', ')[1];
 
   return {

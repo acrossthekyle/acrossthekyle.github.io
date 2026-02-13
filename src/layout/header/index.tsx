@@ -10,7 +10,11 @@ type Props = {
 export default function Header({ isRoot }: Props) {
   return (
     <header className={styles.container}>
-      <Link aria-label="acrossthekyle.com home" href="/">
+      <Link
+        aria-label="acrossthekyle.com home"
+        className={styles.anchor}
+        href="/"
+      >
         K.
       </Link>
       {!isRoot && (

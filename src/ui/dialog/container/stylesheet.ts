@@ -27,12 +27,12 @@ const styles = tw({
   hint: `
     hidden
     text-tiny
-    !mb-0
+    p-2
 
     md:block
     md:fixed
-    md:right-14
-    md:bottom-13
+    md:right-12
+    md:bottom-11
     md:top-auto
   `,
 });

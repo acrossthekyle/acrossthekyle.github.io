@@ -24,27 +24,19 @@ export default function Results({ data }: Props) {
 
   return (
     <section aria-label="results" className={styles.container}>
-      {pages.length > 0 && (
+      {shortcuts.length > 0 && (
         <>
-          <h3 id="pages">
-            # Pages
+          <h3 id="settings">
+            # Settings
           </h3>
-          <ul aria-labelledby="pages" className={styles.list}>
-            {pages.map((page) => (
-              <li key={page.path}>
-                <Link
-                  className={styles.item}
-                  href={page.path}
-                  onClick={handleOnNavigate}
-                  target={page.path.includes('http') ? '_blank' : undefined}
-                >
-                  {page.path.includes('http') ? (
-                    <LinkArrow>{page.text}</LinkArrow>
-                  ) : (
-                    <>{page.text}</>
-                  )}
-                  <small>{page.subtitle}</small>
-                </Link>
+          <ul aria-labelledby="settings" className={styles.list}>
+            {shortcuts.map((shortcut) => (
+              <li key={shortcut.command}>
+                <Command
+                  command={shortcut.command}
+                  subtitle={shortcut.subtitle}
+                  text={shortcut.text}
+                />
               </li>
             ))}
           </ul>
@@ -92,19 +84,27 @@ export default function Results({ data }: Props) {
           </ul>
         </>
       )}
-      {shortcuts.length > 0 && (
+      {pages.length > 0 && (
         <>
-          <h3 id="settings">
-            # Settings
+          <h3 id="pages">
+            # Pages
           </h3>
-          <ul aria-labelledby="settings" className={styles.list}>
-            {shortcuts.map((shortcut) => (
-              <li key={shortcut.command}>
-                <Command
-                  command={shortcut.command}
-                  subtitle={shortcut.subtitle}
-                  text={shortcut.text}
-                />
+          <ul aria-labelledby="pages" className={styles.list}>
+            {pages.map((page) => (
+              <li key={page.path}>
+                <Link
+                  className={styles.item}
+                  href={page.path}
+                  onClick={handleOnNavigate}
+                  target={page.path.includes('http') ? '_blank' : undefined}
+                >
+                  {page.path.includes('http') ? (
+                    <LinkArrow>{page.text}</LinkArrow>
+                  ) : (
+                    <>{page.text}</>
+                  )}
+                  <small>{page.subtitle}</small>
+                </Link>
               </li>
             ))}
           </ul>

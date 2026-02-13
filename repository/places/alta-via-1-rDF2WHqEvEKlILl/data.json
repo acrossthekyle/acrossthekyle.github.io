@@ -11,5 +11,6 @@
   "title": "Alta Via 1",
   "description": [
     "In %location% there is a mountain range known as the Dolomites, and they contain a series of seven trails collectively known as the Alta Via. This is a thru-hike of one of those trails: the Alta Via 1. Winding its way over %distance% from North to South, this high route reached a maximum altitude of %max% and took %days% to complete, while passing through a panorama of jagged ridges, vertical walls, and majestic towers, culminating in some of the most beautiful landscapes in the world."
-  ]
+  ],
+  "tags": ["av", "av1", "dolomite", "long", "distance", "europe"]
 }

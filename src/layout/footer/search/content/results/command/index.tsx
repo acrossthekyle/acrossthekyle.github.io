@@ -1,7 +1,6 @@
 'use client';
 
 import { useTheme } from '@/hooks/useTheme';
-import { useUnits } from '@/hooks/useUnits';
 import { Kbd } from '@/ui/keyboard';
 
 import styles from './stylesheet';
@@ -15,15 +14,7 @@ type Props = {
 export default function Command({ command, subtitle, text }: Props) {
   const { onToggleTheme, theme } = useTheme();
 
-  const { onToggleUnits, units } = useUnits();
-
   const handleOnCommand = () => {
-    if (command === 'U') {
-      onToggleUnits();
-
-      return;
-    }
-
     if (command === '.') {
       onToggleTheme();
 
@@ -32,9 +23,7 @@ export default function Command({ command, subtitle, text }: Props) {
   };
 
   const interpolate = (value: string) => {
-    return value
-      .replace('{{theme}}', theme)
-      .replace('{{unit}}', units);
+    return value.replace('{{theme}}', theme);
   };
 
   return (

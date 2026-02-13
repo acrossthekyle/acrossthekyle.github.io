@@ -17,6 +17,10 @@ const styles = tw({
     md:my-auto
     md:mb-0
   `,
+  anchor: `
+    relative -top-2 -left-2
+    p-2
+  `,
 });
 
 export default styles;

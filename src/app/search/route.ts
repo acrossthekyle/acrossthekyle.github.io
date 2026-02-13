@@ -6,32 +6,33 @@ import WORDS from '@/db/words';
 import { ROUTES } from '@/routes';
 
 const COMMANDS = [
-  // {
-  //   command: 'U',
-  //   subtitle: '{{unit}}',
-  //   text: 'Change unit-of-measurement',
-  // },
   {
     command: '.',
     subtitle: 'Current: {{theme}}',
+    tags: ['theme', 'command', 'setting', 'shortcut', 'keyboard'],
     text: 'Switch theme',
   },
 ];
 
 const fusedPlaces = new Fuse(PLACES, {
-  keys: ['title', 'location', 'category', 'type'],
+  keys: ['title', 'tags', 'location', 'category', 'type'],
 });
 
 const fusedWords = new Fuse(WORDS, {
-  keys: ['title', 'date'],
+  keys: ['title', 'date', 'content'],
 });
 
-const fusedPages = new Fuse(ROUTES, {
-  keys: ['group', 'subtitle', 'text'],
+const fusedPages = new Fuse([...ROUTES, {
+  group: '',
+  path: '/wiki',
+  subtitle: `A helper for the types related to the places I've been to.`,
+  text: 'Wiki',
+}], {
+  keys: ['path', 'group', 'subtitle', 'text'],
 });
 
 const fusedCommands = new Fuse(COMMANDS, {
-  keys: ['text'],
+  keys: ['tags'],
 });
 
 export async function GET(request: NextRequest) {

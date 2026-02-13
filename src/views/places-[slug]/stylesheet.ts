@@ -23,7 +23,7 @@ const styles = tw({
     rounded-lg
     duration-500
 
-    md:hover:scale-104
+    md:hover:scale-98
   `,
   image: `
     md:grayscale-100

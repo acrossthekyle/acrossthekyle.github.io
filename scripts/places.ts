@@ -804,6 +804,7 @@ export async function go() {
           distance: stats.distance,
           length: stats.length,
         },
+        tags: trip.tags,
         timestamp: trip.timestamp,
         title: turnStringIntoArrayForLists(trip.title),
         type: trip.type,
