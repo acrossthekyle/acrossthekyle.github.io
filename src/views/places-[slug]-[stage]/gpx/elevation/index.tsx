@@ -37,6 +37,7 @@ export default function Elevation({ gpx, stats }: Props) {
     <div
       aria-label="gpx elevation profile"
       className={styles.container}
+      id="gpx"
       onMouseLeave={handleMouseLeave}
     >
       <div className={styles.chart}>

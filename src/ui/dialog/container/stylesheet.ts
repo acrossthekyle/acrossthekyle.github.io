@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    relative
+    fixed
     max-w-full
     h-full max-h-full
     bg-transparent

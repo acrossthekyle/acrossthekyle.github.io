@@ -5,12 +5,17 @@ const styles = tw({
     relative
   `,
   type: `
-    cta
-    absolute top-1 right-0
+    capitalize
+  `,
+  wiki: `
+    tag
+    !-top-0
+
+    md:top-inherit
   `,
   title: `
     block
-    pr-24
+    pr-12
     whitespace-nowrap truncate
   `,
 });

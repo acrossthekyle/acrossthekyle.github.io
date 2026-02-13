@@ -12,11 +12,11 @@ export default function get(slug: string) {
   }
 
   return {
+    base: data.gear?.weightBase || '',
     categories: data.gear?.categories || [],
-    slug,
+    date: data.date.isYears
+      ? `${data.date.range[0]}..${data.date.range[1]}`
+      : data.date.range[1].split(', ')[1],
     title: data.title.join(' '),
-    weights: {
-      base: data.gear?.weightBase || '',
-    },
   };
 };

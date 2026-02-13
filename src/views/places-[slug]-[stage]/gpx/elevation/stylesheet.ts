@@ -5,6 +5,7 @@ const styles = tw({
     relative
     border-1 border-(--foreground)/15
     rounded-t-md
+    mt-16
   `,
   chart: `
     h-48 w-full
@@ -83,16 +84,19 @@ const styles = tw({
     relative z-1
     px-4 py-3.5
     text-left
+    font-bold
   `,
   end: `
     relative z-1
     px-4 py-3.5
     text-right
+    font-bold
   `,
   altitude: `
     block
     mt-1
     text-xs
+    font-normal
 
     md:text-tiny
   `,

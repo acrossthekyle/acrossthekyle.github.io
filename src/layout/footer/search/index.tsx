@@ -4,7 +4,6 @@ import { useDialog } from '@/hooks/useDialog';
 import { Dialog, DialogContent, DialogHeader } from '@/ui/dialog';
 
 import Content from './content';
-import styles from './stylesheet';
 import Trigger from './trigger';
 
 export default function Search() {
@@ -28,9 +27,9 @@ export default function Search() {
       >
         <DialogHeader>
           <strong>Search</strong>
-          <small>Command/Ctrl + K</small>
+          <small>Shortcut: Command/Ctrl + K</small>
         </DialogHeader>
-        <DialogContent className={styles.content}>
+        <DialogContent>
           <Content />
         </DialogContent>
       </Dialog>

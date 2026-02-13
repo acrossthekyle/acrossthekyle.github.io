@@ -14,5 +14,6 @@ export type Data = {
     index: string;
   }>;
   title: string;
+  type: string;
   total: number;
 };

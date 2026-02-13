@@ -12,7 +12,7 @@ export default function get() {
     type,
   }) => ({
     date: date.isYears
-      ? `${date.range[0]}:${date.range[1]}`
+      ? `${date.range[0]}..${date.range[1]}`
       : date.range[1].split(', ')[1],
     index: padIndex(index + 1),
     location,

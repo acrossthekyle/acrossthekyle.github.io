@@ -20,12 +20,9 @@ export default function View({ data }: Props) {
   return (
     <Layout>
       <h1>
-        <strong>Gear list</strong>
-        <small>Base weight: {data.weights.base} lbs</small>
+        <strong>Gear for {data.title} {data.date}</strong>
+        <small>Base weight: {data.base} lbs</small>
       </h1>
-      <p>
-        This is a list of the gear used for the {data.title} broken down by category.
-      </p>
       {data.categories.map((category) => (
         <Fragment key={category.title}>
           <h2 id={category.title.replace(' ', '-')}>
@@ -53,8 +50,13 @@ export default function View({ data }: Props) {
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>
-            <Link href={`/places/${data.slug}`}>
+            <Link href="/">
               ../
+            </Link>
+          </BreadcrumbItem>
+          <BreadcrumbItem>
+            <Link href="/gear">
+              gear
             </Link>
           </BreadcrumbItem>
         </BreadcrumbList>

@@ -1,6 +1,9 @@
+import type { Gpx, Stats } from '@/types';
+
 export type Data = {
   content: string;
   date: string;
+  gpx: Gpx;
   hasGpx: boolean;
   hasNavigation: boolean;
   image: string;
@@ -12,5 +15,6 @@ export type Data = {
   previous: string | null;
   readingTime: string;
   slug: string;
+  stats: Stats;
   title: string;
 };

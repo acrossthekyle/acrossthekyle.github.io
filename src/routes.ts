@@ -24,6 +24,12 @@ export const ROUTES = [
     text: 'Photos',
   },
   {
+    group: 'blogging',
+    path: '/gear',
+    subtitle: 'What I carry',
+    text: 'Gear',
+  },
+  {
     group: 'info',
     path: '/about',
     subtitle: 'My backstory',

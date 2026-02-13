@@ -26,8 +26,6 @@ export function useDialog() {
   const dialog = useRef<HTMLDialogElement | null>(null);
 
   const handleOnOpen = () => {
-    window.scrollTo({ top: 0 });
-
     dialog.current?.showModal();
 
     requestAnimationFrame(() => setIsOpen(true));
@@ -65,9 +63,13 @@ export function useDialog() {
 
   const handleOnCancel = (event: KeyboardEvent<HTMLDialogElement>) => {
     if (event.key === 'Escape') {
-      const isInputFocused = document.activeElement?.tagName.toUpperCase() === 'INPUT';
+      const activeElement = document.activeElement;
 
-      if (isInputFocused) {
+      const isInputFocused = activeElement?.tagName.toUpperCase() === 'INPUT';
+      // @ts-expect-error - this is ok
+      const isEmpty = activeElement?.value?.trim() === '';
+
+      if (isInputFocused && !isEmpty) {
         event.preventDefault();
       } else {
         handleOnClose();

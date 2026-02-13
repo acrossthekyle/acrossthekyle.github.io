@@ -3,7 +3,7 @@
 import { X } from 'lucide-react';
 import { KeyboardEvent, Ref } from 'react';
 
-import { Kbd } from '../../keyboard';
+import { Keyboard } from '../../keyboard';
 
 import styles from './stylesheet';
 
@@ -48,7 +48,7 @@ export default function Dialog({
       </button>
       {children}
       <button id="hint" className={styles.hint} onClick={onClose} type="button">
-        Close <Kbd letters="ESC" />
+        Close <Keyboard>ESC</Keyboard>
       </button>
     </dialog>
   );

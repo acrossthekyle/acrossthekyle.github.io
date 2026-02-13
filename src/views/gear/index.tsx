@@ -7,6 +7,7 @@ import {
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
 
+import styles from './stylesheet';
 import type { Data } from './types';
 
 type Props = {
@@ -17,20 +18,24 @@ export default function View({ data }: Props) {
   return (
     <Layout>
       <h1>
-        <strong>Words</strong>
-        <small>Quick thoughts</small>
+        <strong>Gear</strong>
+        <small>What I carry</small>
       </h1>
       <p>
-        A place where I share my thoughts, opinions, and reflections on the things I notice.
+        From Spain to the TMB, and from Nepal to Patagonia, this is a list of the various gear that I've carried with me on my backpacking trips.
       </p>
       <nav aria-label="supplementary navigation">
         <ol className="index">
           {data.map((item) => (
-            <li key={item.slug}>
-              <Link className="backdrop" href={`/words/${item.slug}`}>
+            <li className={styles.item} key={item.index}>
+              <Link className="backdrop" href={`/gear/${item.slug}`}>
                 <span className="tag">#{item.index}</span>
-                {item.title}
-                <small>{item.date} • {item.readingTime} min read</small>
+                <span className={styles.title}>
+                  {item.title} {item.date}
+                </span>
+                <small>
+                  Base weight: {item.base} lbs
+                </small>
               </Link>
             </li>
           ))}

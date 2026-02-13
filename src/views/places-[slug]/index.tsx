@@ -20,14 +20,11 @@ export default function View({ data }: Props) {
   return (
     <Layout>
       <h1 className={styles.header}>
-        <strong>{data.title}</strong>
-        <small>{data.location} &mdash; {data.date}</small>
+        <strong>{data.title} {data.date}</strong>
+        <small className="!capitalize">
+          {data.location} • {data.type}
+        </small>
       </h1>
-      {data.hasGear && (
-        <Link className="cta" href={`${data.slug}/gear`}>
-          GEAR
-        </Link>
-      )}
       <Map>
         <MapMarker position={data.position} />
       </Map>

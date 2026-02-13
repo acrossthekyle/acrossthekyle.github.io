@@ -3,13 +3,12 @@ import { notFound } from 'next/navigation';
 import { Suspense } from 'react';
 
 import Loading from '@/ui/loading';
-import View from '@/views/places-[slug]-[stage]-gpx';
+import View from '@/views/gear-[slug]';
 
 import get from './get';
 
 type Params = Promise<{
   slug: string;
-  stage: string;
 }>;
 
 type GenerateMetadata = {
@@ -17,9 +16,9 @@ type GenerateMetadata = {
 };
 
 export async function generateMetadata({ params }: GenerateMetadata): Promise<Metadata> {
-  const { slug, stage } = await params;
+  const { slug } = await params;
 
-  const data = get(slug.toLowerCase(), stage);
+  const data = get(slug.toLowerCase());
 
   if (data === null) {
     return {
@@ -29,19 +28,19 @@ export async function generateMetadata({ params }: GenerateMetadata): Promise<Me
   }
 
   return {
-    title: `GPX → ${data.title} → ${data.parent}`,
-    description: `GPX Route / Elevation for ${data.title}`,
+    title: `Gear → ${data.title}`,
+    description: `List of gear used for the ${data.title}`,
   };
 };
 
 export default async function Page({
   params,
 }: {
-  params: Promise<{ slug: string; stage: string; }>
+  params: Promise<{ slug: string }>
 }) {
-  const { slug, stage } = await params;
+  const { slug } = await params;
 
-  const data = get(slug.toLowerCase(), stage);
+  const data = get(slug.toLowerCase());
 
   if (data === null) {
     return notFound();

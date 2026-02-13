@@ -1,6 +1,16 @@
 const data = [
   {
     "author": "Kyle Gilbert",
+    "slug": "the-tv-show-see",
+    "title": "The TV show \"See\"",
+    "content": "\nPremise: a genetic defect has caused the entire human population to go blind for generations, but sight is slowly returning to the world.\n\nAn interesting concept, and it started out strong, but like most stories that are stretched across 8+ episodes in a single season, and even across multiple seasons, it lost it's strength. I finally finished watching it the other day after forcing myself to do so, just for the sake of being a completionist.\n\nLike I said, it started strong with an interesting concept, but it lost me along the way. I did appreciate the close-quarters fighting style though, and the way they made a world without sight work for the masses.\n",
+    "date": "February 12th, 2026",
+    "readingTime": "1",
+    "timestamp": 1770876000,
+    "index": 2
+  },
+  {
+    "author": "Kyle Gilbert",
     "slug": "accessibility-stress-is-real",
     "title": "Accessibility stress is real",
     "content": "\nBuilding a website has a lot of moving parts: design, planning, choosing a tech stack, implementing everything, and then fixing the things that inevitably break when implementing said design.\n\nWhat often gets overlooked is accessibility. It’s frequently treated as a final checklist item instead of something that should be baked in from the start. And that’s a mistake; it’s way harder to retrofit accessibility than it is to design with it in mind from day one.\n\nIt’s its own challenge entirely, and one that deserves way more attention earlier in the process.\n",

@@ -1,7 +1,7 @@
 'use client';
 
 import { useTheme } from '@/hooks/useTheme';
-import { Kbd } from '@/ui/keyboard';
+import { KeyboardShortcut } from '@/ui/keyboard';
 
 import styles from './stylesheet';
 
@@ -36,10 +36,9 @@ export default function Command({ command, subtitle, text }: Props) {
         {text}
         <small className={styles.subtitle}>{interpolate(subtitle)}</small>
       </span>
-      <kbd className={styles.group}>
-        <Kbd symbol="cmdCtrl" />
-        <Kbd letters={command} />
-      </kbd>
+      <KeyboardShortcut>
+        {command}
+      </KeyboardShortcut>
     </button>
   );
 }

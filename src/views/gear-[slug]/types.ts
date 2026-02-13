@@ -11,10 +11,8 @@ type GearCategory = {
 };
 
 export type Data = {
+  base: string;
   categories: GearCategory[];
-  slug: string;
+  date: string;
   title: string;
-  weights: {
-    base: string;
-  };
 };

@@ -22,12 +22,7 @@ const fusedWords = new Fuse(WORDS, {
   keys: ['title', 'date', 'content'],
 });
 
-const fusedPages = new Fuse([...ROUTES, {
-  group: '',
-  path: '/wiki',
-  subtitle: `A helper for the types related to the places I've been to.`,
-  text: 'Wiki',
-}], {
+const fusedPages = new Fuse(ROUTES, {
   keys: ['path', 'group', 'subtitle', 'text'],
 });
 

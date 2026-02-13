@@ -1,4 +1,5 @@
 import db from '@/db/places';
+import type { Gpx } from '@/types';
 import { padIndex } from '@/utils';
 
 export default function get(slug: string, stage: string) {
@@ -26,6 +27,7 @@ export default function get(slug: string, stage: string) {
   return {
     content: result.content,
     date: result.date,
+    gpx: result.gpx as Gpx,
     hasGpx: result.hasGpx,
     hasNavigation: next !== null || previous !== null,
     image: result.image,
@@ -37,6 +39,7 @@ export default function get(slug: string, stage: string) {
     previous,
     readingTime: result.readingTime,
     slug,
+    stats: result.stats,
     title,
   };
 };

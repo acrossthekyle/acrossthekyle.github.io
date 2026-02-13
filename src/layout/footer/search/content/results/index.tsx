@@ -27,7 +27,7 @@ export default function Results({ data }: Props) {
       {shortcuts.length > 0 && (
         <>
           <h3 id="settings">
-            # Settings
+            Settings
           </h3>
           <ul aria-labelledby="settings" className={styles.list}>
             {shortcuts.map((shortcut) => (
@@ -45,7 +45,7 @@ export default function Results({ data }: Props) {
       {places.length > 0 && (
         <>
           <h3 id="places">
-            # Places
+            Places
           </h3>
           <ul aria-labelledby="places" className={styles.list}>
             {places.map((place) => (
@@ -66,7 +66,7 @@ export default function Results({ data }: Props) {
       {words.length > 0 && (
         <>
           <h3 id="words">
-            # Words
+            Words
           </h3>
           <ul aria-labelledby="words" className={styles.list}>
             {words.map((word) => (
@@ -87,7 +87,7 @@ export default function Results({ data }: Props) {
       {pages.length > 0 && (
         <>
           <h3 id="pages">
-            # Pages
+            Pages
           </h3>
           <ul aria-labelledby="pages" className={styles.list}>
             {pages.map((page) => (

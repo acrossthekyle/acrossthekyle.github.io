@@ -28,6 +28,7 @@ export default function get(slug: string) {
       index: padIndex(index + 1),
     })),
     title: data.title.join(' '),
+    type: data.type,
     total: data.stages.length,
   };
 };

@@ -1,17 +1,20 @@
 import tw from '@/styles';
 
-const styles = {
-  container: (isSymbol?: boolean) => tw(`
-    inline-flex items-center justify-center
-    h-5 w-fit min-w-5
+const styles = tw({
+  container: `
+    hidden
+    items-center justify-center gap-1
+    h-5
     px-1
-    ${isSymbol ? 'text-base' : 'text-tiny'} text-current/75
+    text-current/75
     bg-(--foreground)/5
-    border border-(--foreground)/20
+    border border-(--foreground)/12.5
     rounded-sm
     select-none
     pointer-events-none
-  `),
-};
+
+    md:inline-flex
+  `,
+});
 
 export default styles;

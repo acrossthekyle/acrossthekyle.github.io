@@ -36,17 +36,17 @@ export default function View({ data }: Props) {
         <ol className="index">
           {data.map((item) => (
             <li className={styles.item} key={item.index}>
-              <Link className="backdrop" href={`/places/${item.slug}`}>
-                <span className={styles.title}>{item.title}</span>
-                <small>
-                  {item.location} &mdash; {item.date}
-                </small>
-              </Link>
               <Link
-                className={styles.type}
-                href={`/wiki?type=${item.type.replace(' ', '-')}`}
+                className="backdrop"
+                href={`/places/${item.slug}`}
               >
-                {item.type}
+                <span className="tag">#{item.index}</span>
+                <span className={styles.title}>
+                  {item.title} {item.date}
+                </span>
+                <small className="!capitalize">
+                  {item.location} • {item.type}
+                </small>
               </Link>
             </li>
           ))}

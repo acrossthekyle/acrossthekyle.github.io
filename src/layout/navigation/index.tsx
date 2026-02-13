@@ -58,7 +58,7 @@ export default function Menu({ isMenu }: Props) {
   return (
     <>
       <Heading id="blogging" isMenu={isMenu}>
-        BLOGGING
+        <strong>BLOGGING</strong>
         <small>My experiences</small>
       </Heading>
       <hr className={styles.hr} />
@@ -70,7 +70,7 @@ export default function Menu({ isMenu }: Props) {
         ))}
       </ul>
       <Heading id="info" isMenu={isMenu}>
-        INFO
+        <strong>INFO</strong>
         <small>More about me</small>
       </Heading>
       <hr className={styles.hr} />
@@ -82,7 +82,7 @@ export default function Menu({ isMenu }: Props) {
         ))}
       </ul>
       <Heading id="connect" isMenu={isMenu}>
-        CONNECT
+        <strong>CONNECT</strong>
         <small>Reach out</small>
       </Heading>
       <hr className={styles.hr} />
@@ -94,7 +94,7 @@ export default function Menu({ isMenu }: Props) {
         ))}
       </ul>
       <Heading id="code" isMenu={isMenu}>
-        CODE
+        <strong>CODE</strong>
         <small>What and why</small>
       </Heading>
       <hr className={styles.hr} />

@@ -68,7 +68,7 @@ body {
     display: block;
     font-size: var(--text-sm);
     line-height: var(--tw-leading, var(--text-sm--line-height));
-    padding-top: 0.25rem;
+    padding-block: 0.25rem;
     text-transform: none;
   }
 
@@ -138,6 +138,16 @@ body {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  h1 strong {
+    font-size: 1.25rem;
+    line-height: 150%;
+  }
+
+  dialog > h2 {
+    font-size: 1.25rem;
+    line-height: 100%;
+  }
+
   .index {
     display: flex;
     flex-direction: column;
@@ -193,7 +203,7 @@ body {
   .tag {
     position: absolute;
     right: 0;
-    top: calc(var(--spacing) * 1);
+    top: calc(var(--spacing) * -0.5);
   }
 
   /* third-party package styling  */
@@ -261,8 +271,16 @@ body {
       backdrop-filter: blur(0);
     }
 
+    h1 strong {
+      line-height: 100%;
+    }
+
     .index {
       gap: calc(var(--spacing) * 6);
+    }
+
+    .tag {
+      top: calc(var(--spacing) * 1);
     }
   }
 }

@@ -4,7 +4,7 @@ import { Search } from 'lucide-react';
 import { useEffect } from 'react';
 
 import { useDialog } from '@/hooks/useDialog';
-import { Kbd } from '@/ui/keyboard';
+import { KeyboardShortcut } from '@/ui/keyboard';
 
 import styles from './stylesheet';
 
@@ -39,14 +39,11 @@ export default function Trigger({ onOpen }: Props) {
       aria-controls="search"
       className={styles.container}
       onClick={onOpen}
-      title="Open search"
+      title="Search"
       type="button"
     >
       <Search className={styles.icon} />
-      <kbd className={styles.kbd}>
-        <Kbd symbol="cmdCtrl" />
-        <Kbd letters="K" />
-      </kbd>
+      <KeyboardShortcut>K</KeyboardShortcut>
     </button>
   );
 }

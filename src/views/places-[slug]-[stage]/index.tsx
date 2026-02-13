@@ -10,6 +10,7 @@ import {
 } from '@/ui/breadcrumbs';
 import { Image, ImageCaption, ImageFigure } from '@/ui/image';
 
+import Gpx from './gpx';
 import styles from './stylesheet';
 import { type Data } from './types';
 
@@ -22,16 +23,14 @@ export default function View({ data }: Props) {
     <Layout>
       <h1 className={styles.header}>
         <strong>
-          {data.label} {data.index}: {data.title}
+          {data.title}
         </strong>
-        <small>{data.date} • {data.readingTime} min read</small>
+        <small>
+          {data.date} &mdash; {data.label} #{data.index} • {data.readingTime} min read
+          {data.hasGpx && <> / <Link href="#gpx">GPX</Link></>}
+        </small>
       </h1>
-      {data.hasGpx && (
-        <Link className="cta" href={`/places/${data.slug}/${data.index}/gpx`}>
-          GPX
-        </Link>
-      )}
-      <ImageFigure>
+      <ImageFigure className={styles.figure}>
         <Image
           alt=""
           height={1080}
@@ -44,6 +43,9 @@ export default function View({ data }: Props) {
         </ImageCaption>
       </ImageFigure>
       <Markdown>{data.content}</Markdown>
+      {data.hasGpx && (
+        <Gpx gpx={data.gpx} stats={data.stats} />
+      )}
       {data.hasNavigation && (
         <section
           aria-label="next previous navigation"
