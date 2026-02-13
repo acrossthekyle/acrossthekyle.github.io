@@ -24,8 +24,8 @@ export default function View({ data }: Props) {
       <h1>
         <strong>Places</strong>
         <small>Trails and travels</small>
-        <Wiki />
       </h1>
+      <Wiki />
       <Map>
         {positions.map((position, index) => (
           <MapMarker key={index} position={position} />
