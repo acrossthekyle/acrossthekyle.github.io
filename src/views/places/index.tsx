@@ -10,6 +10,7 @@ import { Map, MapMarker } from '@/ui/map';
 
 import styles from './stylesheet';
 import type { Data } from './types';
+import Wiki from './wiki';
 
 type Props = {
   data: Data[];
@@ -23,6 +24,7 @@ export default function View({ data }: Props) {
       <h1>
         <strong>Places</strong>
         <small>Trails and travels</small>
+        <Wiki />
       </h1>
       <Map>
         {positions.map((position, index) => (

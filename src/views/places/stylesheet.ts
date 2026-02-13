@@ -4,14 +4,11 @@ const styles = tw({
   item: `
     relative
   `,
-  type: `
-    capitalize
-  `,
   wiki: `
-    tag
-    !-top-0
+    absolute top-0 right-0
+    text-sm
 
-    md:top-inherit
+    md:text-xs
   `,
   title: `
     block
