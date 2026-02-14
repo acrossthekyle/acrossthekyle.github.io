@@ -35,12 +35,15 @@ export async function generateMetadata({ params }: GenerateMetadata): Promise<Me
 
 export default async function Page({
   params,
+  searchParams,
 }: {
-  params: Promise<{ slug: string }>
+  params: Promise<{ slug: string }>;
+  searchParams: { [key: string]: string | undefined };
 }) {
   const { slug } = await params;
+  const { type } = await searchParams;
 
-  const data = get(slug.toLowerCase());
+  const data = get(slug.toLowerCase(), type);
 
   if (data === null) {
     return notFound();

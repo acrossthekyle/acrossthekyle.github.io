@@ -105,24 +105,6 @@ function calculateConsumableWeight(items) {
   return calculateWeight([...items].filter((item) => item.consumable));
 }
 
-function calculateWeightPerCategory(categories) {
-  let results = [];
-
-  for (let category in categories) {
-    results.push({
-      title: category,
-      items: categories[category].map(({ link, name, weight }) => ({
-        link,
-        name,
-        weight,
-      })),
-      weight: calculateWeight(categories[category]),
-    });
-  }
-
-  return results;
-}
-
 function groupByCategory(items) {
   const grouped = [...items].reduce((accumulator, current) => {
     let key = current.category
@@ -139,6 +121,8 @@ function groupByCategory(items) {
       link: current.link,
       name: current.name,
       weight: current.weight,
+      consumable: current.consumable,
+      worn: current.worn,
     });
 
     return accumulator;
@@ -190,9 +174,9 @@ async function getGear(folder) {
     return {
       categories: groupByCategory(items),
       weightBase: calculateBaseWeight(items),
-      // weightConsumable: calculateConsumableWeight(items),
-      // weightTotal: calculateWeight(items),
-      // weightWorn: calculateWornWeight(items),
+      weightConsumable: calculateConsumableWeight(items),
+      weightTotal: calculateWeight(items),
+      weightWorn: calculateWornWeight(items),
     };
   } catch (e) {
     return null;

@@ -24,28 +24,30 @@ type Props = {
 export default function View({ data }: Props) {
   return (
     <Layout>
-      <h1>
+      <h1 id="gear">
         <strong>Gear</strong>
         <small>What I carry</small>
       </h1>
       <p>
         From Spain to the TMB, and from Nepal to Patagonia, this is a list of the various gear that I've carried with me on my backpacking trips.
       </p>
-      <OrderedList>
-        {data.map((item) => (
-          <OrderedListItem key={item.index}>
-            <OrderedListLink href={`/gear/${item.slug}`}>
-              <OrderedListTag>#{item.index}</OrderedListTag>
-              <OrderedListTitle>
-                {item.title} {item.date}
-              </OrderedListTitle>
-              <OrderedListSubtitle>
-                Base weight: {item.base} lbs
-              </OrderedListSubtitle>
-            </OrderedListLink>
-          </OrderedListItem>
-        ))}
-      </OrderedList>
+      <nav aria-label="supplementary navigation">
+        <OrderedList labelledBy="gear">
+          {data.map((item) => (
+            <OrderedListItem key={item.index}>
+              <OrderedListLink href={`/gear/${item.slug}`}>
+                <OrderedListTag>#{item.index}</OrderedListTag>
+                <OrderedListTitle>
+                  {item.title} {item.date}
+                </OrderedListTitle>
+                <OrderedListSubtitle>
+                  Total weight &mdash; {item.base} lbs
+                </OrderedListSubtitle>
+              </OrderedListLink>
+            </OrderedListItem>
+          ))}
+        </OrderedList>
+      </nav>
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>

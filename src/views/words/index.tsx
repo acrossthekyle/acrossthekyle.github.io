@@ -24,28 +24,30 @@ type Props = {
 export default function View({ data }: Props) {
   return (
     <Layout>
-      <h1>
+      <h1 id="words">
         <strong>Words</strong>
         <small>Quick thoughts</small>
       </h1>
       <p>
         A place where I share my thoughts, opinions, and reflections on the things I notice.
       </p>
-      <OrderedList>
-        {data.map((item) => (
-          <OrderedListItem key={item.slug}>
-            <OrderedListLink href={`/words/${item.slug}`}>
-              <OrderedListTag>#{item.index}</OrderedListTag>
-              <OrderedListTitle>
-                {item.title}
-              </OrderedListTitle>
-              <OrderedListSubtitle>
-                {item.date} • {item.readingTime} min read
-              </OrderedListSubtitle>
-            </OrderedListLink>
-          </OrderedListItem>
-        ))}
-      </OrderedList>
+      <nav aria-label="supplementary navigation">
+        <OrderedList labelledBy="words">
+          {data.map((item) => (
+            <OrderedListItem key={item.slug}>
+              <OrderedListLink href={`/words/${item.slug}`}>
+                <OrderedListTag>#{item.index}</OrderedListTag>
+                <OrderedListTitle>
+                  {item.title}
+                </OrderedListTitle>
+                <OrderedListSubtitle>
+                  {item.date} • {item.readingTime} min read
+                </OrderedListSubtitle>
+              </OrderedListLink>
+            </OrderedListItem>
+          ))}
+        </OrderedList>
+      </nav>
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>

@@ -8,6 +8,7 @@ import {
 } from '@/ui/breadcrumbs';
 
 import { BOOKS } from './constants';
+import styles from './stylesheet';
 
 export default function View() {
   return (
@@ -22,7 +23,7 @@ export default function View() {
       <br /><br />
       <ul aria-labelledby="books">
         {BOOKS.map(({ author, title }) => (
-          <li key={`${author}-${title}`}>
+          <li className={styles.item} key={`${author}-${title}`}>
             "{title}" by {author}
           </li>
         ))}

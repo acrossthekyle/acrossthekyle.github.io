@@ -18,6 +18,7 @@ import {
 } from '@/ui/timeline';
 
 import { TIMELINE } from './constants';
+import styles from './stylesheet';
 
 export default function View() {
   return (
@@ -26,7 +27,13 @@ export default function View() {
         <strong>About</strong>
         <small>My backstory</small>
       </h1>
-      <ImageFigure>
+      <p>
+        I'm Kyle: a millenial living in Chicago on the lands belonging to the Potawatomi, Ojibwe, and Odawa.
+      </p>
+      <p>
+        From my homebase I explore the world &mdash; and I've been to many <Link href="/places"><u>places</u></Link>, from Nepal's Himalayas to the Towers of Patagonia. My first adventure was a 32-day thru-hike of the Camino de Santiago: a long-distance trail across Northern Spain.
+      </p>
+      <ImageFigure className={styles.figure}>
         <Image
           alt=""
           height={432}
@@ -38,12 +45,6 @@ export default function View() {
           Annapurna Circuit, Nepal &mdash; 2019
         </ImageCaption>
       </ImageFigure>
-      <p>
-        I'm Kyle: a millenial living in Chicago (Potawatomi, Ojibwe, and Odawa lands).
-      </p>
-      <p>
-        From my homebase I explore the world &mdash; and I've been to many <Link href="/places"><u>places</u></Link>, from Nepal's Himalayas to the Towers of Patagonia. My first adventure was a 32-day thru-hike of the Camino de Santiago: a long-distance trail across Northern Spain.
-      </p>
       <p>
         Between adventures, I build web and mobile apps as a self-taught software engineer because making things with code thrills me to no end. Feel free to browse my <Link href="/resume"><u>resume</u></Link>.
       </p>

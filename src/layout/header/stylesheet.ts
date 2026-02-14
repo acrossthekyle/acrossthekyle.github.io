@@ -5,7 +5,7 @@ const styles = tw({
     flex items-start justify-between
     w-full max-w-lg
     my-0 mx-auto
-    mb-16
+    mb-10
 
     md:max-w-none
     md:fixed
