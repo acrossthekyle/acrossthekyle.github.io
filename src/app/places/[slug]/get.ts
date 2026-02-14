@@ -1,5 +1,11 @@
 import db from '@/db/places';
-import { padIndex } from '@/utils';
+
+import {
+  combineTermini,
+  formatDateRange,
+  padIndex,
+  uppercaseFirst,
+} from '../../utils';
 
 export default function get(slug: string) {
   const data = db.find((item) => item.slug.toLowerCase() === slug.toLowerCase());
@@ -8,12 +14,8 @@ export default function get(slug: string) {
     return null;
   }
 
-  const date = data.date.isYears
-    ? `${data.date.range[0]}:${data.date.range[1]}`
-    : data.date.range[1].split(', ')[1];
-
   return {
-    date,
+    date: formatDateRange(data.date),
     description: data.description,
     hasGear: data.hasGear,
     label: data.label,
@@ -26,12 +28,10 @@ export default function get(slug: string) {
     stages: data.stages.map(({ image, termini }, index: number) => ({
       image,
       index: padIndex(index + 1),
-      title: termini.isSame
-        ? termini.end.words.join(' ')
-        : `${termini.start.words.join(' ')} to ${termini.end.words.join(' ')}`,
+      title: combineTermini(termini),
     })),
     title: data.title.join(' '),
-    type: data.type,
+    type: uppercaseFirst(data.type),
     total: data.stages.length,
   };
 };

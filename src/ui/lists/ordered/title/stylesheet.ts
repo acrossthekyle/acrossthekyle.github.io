@@ -1,11 +1,10 @@
 import tw from '@/styles';
 
 const styles = tw({
-  wiki: `
-    absolute top-0 right-0
-    text-sm
-
-    md:text-xs
+  container: `
+    block
+    pr-12
+    whitespace-nowrap truncate
   `,
 });
 

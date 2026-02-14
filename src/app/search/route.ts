@@ -5,6 +5,8 @@ import PLACES from '@/db/places';
 import WORDS from '@/db/words';
 import { ROUTES } from '@/routes';
 
+import { formatDateRange } from '../utils';
+
 const COMMANDS = [
   {
     command: '.',
@@ -57,9 +59,7 @@ export async function GET(request: NextRequest) {
         command: '',
         group: 'places',
         path: `/places/${slug}`,
-        subtitle: `${location} — ${date.isYears
-          ? `${date.range[0]}:${date.range[1]}`
-          : date.range[1].split(', ')[1]}`,
+        subtitle: `${location} — ${formatDateRange(date)}`,
         text: title.join(' '),
       })),
     ...fusedCommands

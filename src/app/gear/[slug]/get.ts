@@ -1,5 +1,7 @@
 import db from '@/db/places';
 
+import { formatDateRange } from '../../utils';
+
 export default function get(slug: string) {
   const data = db.find((item) => item.slug.toLowerCase() === slug.toLowerCase());
 
@@ -14,9 +16,7 @@ export default function get(slug: string) {
   return {
     base: data.gear?.weightBase || '',
     categories: data.gear?.categories || [],
-    date: data.date.isYears
-      ? `${data.date.range[0]}..${data.date.range[1]}`
-      : data.date.range[1].split(', ')[1],
+    date: formatDateRange(data.date),
     title: data.title.join(' '),
   };
 };

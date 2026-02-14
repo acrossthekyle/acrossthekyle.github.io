@@ -1,11 +1,11 @@
 import tw from '@/styles';
 
 const styles = tw({
-  wiki: `
-    absolute top-0 right-0
-    text-sm
+  container: `
+    flex flex-col gap-8
+    mt-6
 
-    md:text-xs
+    md:gap-6
   `,
 });
 

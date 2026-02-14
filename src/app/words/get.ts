@@ -1,5 +1,6 @@
 import data from '@/db/words';
-import { padIndex } from '@/utils';
+
+import { padIndex } from '../utils';
 
 export default function get() {
   return data.map(({ date, index, readingTime, slug, title }) => ({

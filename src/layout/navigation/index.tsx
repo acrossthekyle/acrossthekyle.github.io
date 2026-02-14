@@ -1,7 +1,5 @@
-import Link from 'next/link';
-
 import { ROUTES } from '@/routes';
-import { LinkArrow } from '@/ui/link';
+import { LinkArrow, LinkBackdrop } from '@/ui/link';
 
 import styles from './stylesheet';
 
@@ -15,7 +13,7 @@ type HeadingProps = {
   isMenu?: boolean;
 };
 
-type AnchorProps = {
+type LinkProps = {
   path: string;
   subtitle: string;
   text: string;
@@ -37,10 +35,9 @@ function Heading({ children, id, isMenu }: HeadingProps) {
   );
 }
 
-function Anchor({ path, subtitle, text }: AnchorProps) {
+function Link({ path, subtitle, text }: LinkProps) {
   return (
-    <Link
-      className="backdrop"
+    <LinkBackdrop
       href={path}
       target={path.includes('http') ? '_blank' : undefined}
     >
@@ -50,7 +47,7 @@ function Anchor({ path, subtitle, text }: AnchorProps) {
         <>{text}</>
       )}
       <small>{subtitle}</small>
-    </Link>
+    </LinkBackdrop>
   );
 }
 
@@ -65,7 +62,7 @@ export default function Menu({ isMenu }: Props) {
       <ul aria-labelledby="blogging" className={styles.list(isMenu)}>
         {ROUTES.filter(({ group }) => group === 'blogging').map((item) => (
           <li key={item.path}>
-            <Anchor {...item} />
+            <Link {...item} />
           </li>
         ))}
       </ul>
@@ -77,7 +74,7 @@ export default function Menu({ isMenu }: Props) {
       <ul aria-labelledby="info" className={styles.list(isMenu)}>
         {ROUTES.filter(({ group }) => group === 'info').map((item) => (
           <li key={item.path}>
-            <Anchor {...item} />
+            <Link {...item} />
           </li>
         ))}
       </ul>
@@ -89,7 +86,7 @@ export default function Menu({ isMenu }: Props) {
       <ul aria-labelledby="connect" className={styles.list(isMenu)}>
         {ROUTES.filter(({ group }) => group === 'connect').map((item) => (
           <li key={item.path}>
-            <Anchor {...item} />
+            <Link {...item} />
           </li>
         ))}
       </ul>
@@ -101,7 +98,7 @@ export default function Menu({ isMenu }: Props) {
       <ul aria-labelledby="code" className={styles.list(isMenu)}>
         {ROUTES.filter(({ group }) => group === 'code').map((item) => (
           <li key={item.path}>
-            <Anchor {...item} />
+            <Link {...item} />
           </li>
         ))}
       </ul>

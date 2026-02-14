@@ -1,5 +1,6 @@
 import db from '@/db/places';
-import { padIndex } from '@/utils';
+
+import { formatDateRange, padIndex, uppercaseFirst } from '../utils';
 
 export default function get() {
   return db.map(({
@@ -11,9 +12,7 @@ export default function get() {
     title,
     type,
   }) => ({
-    date: date.isYears
-      ? `${date.range[0]}..${date.range[1]}`
-      : date.range[1].split(', ')[1],
+    date: formatDateRange(date),
     index: padIndex(index + 1),
     location,
     position: {
@@ -22,6 +21,6 @@ export default function get() {
     },
     slug,
     title: title.join(' '),
-    type,
+    type: uppercaseFirst(type),
   }));
 };

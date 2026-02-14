@@ -1,7 +1,7 @@
 import tw from '@/styles';
 
 const styles = tw({
-  wiki: `
+  download: `
     absolute top-0 right-0
     text-sm
 

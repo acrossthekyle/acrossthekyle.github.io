@@ -6,9 +6,16 @@ import {
   BreadcrumbList,
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
+import {
+  OrderedList,
+  OrderedListItem,
+  OrderedListLink,
+  OrderedListSubtitle,
+  OrderedListTag,
+  OrderedListTitle,
+} from '@/ui/lists/ordered';
 import { Map, MapMarker } from '@/ui/map';
 
-import styles from './stylesheet';
 import type { Data } from './types';
 import Wiki from './wiki';
 
@@ -17,8 +24,6 @@ type Props = {
 };
 
 export default function View({ data }: Props) {
-  const positions = data.map(({ position }) => position);
-
   return (
     <Layout>
       <h1>
@@ -27,33 +32,28 @@ export default function View({ data }: Props) {
       </h1>
       <Wiki />
       <Map>
-        {positions.map((position, index) => (
+        {data.map(({ position }) => position).map((position, index) => (
           <MapMarker key={index} position={position} />
         ))}
       </Map>
       <p>
         From Nepal's Himalayas to windswept Patagonia, I've thru-hiked a lot of miles, explored numerous destinations, and seen some amazing things.
       </p>
-      <nav aria-label="supplementary navigation">
-        <ol className="index">
-          {data.map((item) => (
-            <li className={styles.item} key={item.index}>
-              <Link
-                className="backdrop"
-                href={`/places/${item.slug}`}
-              >
-                <span className="tag">#{item.index}</span>
-                <span className={styles.title}>
-                  {item.title} {item.date}
-                </span>
-                <small className="!capitalize">
-                  {item.location} • {item.type}
-                </small>
-              </Link>
-            </li>
-          ))}
-        </ol>
-      </nav>
+      <OrderedList>
+        {data.map((item) => (
+          <OrderedListItem key={item.index}>
+            <OrderedListLink href={`/places/${item.slug}`}>
+              <OrderedListTag>#{item.index}</OrderedListTag>
+              <OrderedListTitle>
+                {item.title} {item.date}
+              </OrderedListTitle>
+              <OrderedListSubtitle>
+                {item.location} • {item.type}
+              </OrderedListSubtitle>
+            </OrderedListLink>
+          </OrderedListItem>
+        ))}
+      </OrderedList>
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>

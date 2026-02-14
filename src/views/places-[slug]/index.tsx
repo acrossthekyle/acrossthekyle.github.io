@@ -21,7 +21,7 @@ export default function View({ data }: Props) {
     <Layout>
       <h1 className={styles.header}>
         <strong>{data.title} {data.date}</strong>
-        <small className="!capitalize">
+        <small>
           {data.location} • {data.type}
         </small>
       </h1>
@@ -33,7 +33,9 @@ export default function View({ data }: Props) {
           {paragraph}
         </p>
       ))}
-      <section aria-label={`journal entries for each ${data.label.toLowerCase()}`}>
+      <section
+        aria-label={`journal entries for each ${data.label.toLowerCase()}`}
+      >
         <ol className={styles.list}>
           {data.stages.map((stage, index: number) => (
             <li className={styles.item(index, data.total)} key={stage.index}>
@@ -47,7 +49,7 @@ export default function View({ data }: Props) {
                     width={768}
                   />
                   <ImageCaption className={styles.caption}>
-                    {data.label} #{stage.index}.<br />
+                    {data.label} #{stage.index}<br />
                     {stage.title}
                   </ImageCaption>
                 </Link>

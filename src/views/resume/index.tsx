@@ -7,6 +7,7 @@ import {
   BreadcrumbList,
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
+import { LinkArrow } from '@/ui/link';
 import {
   Timeline,
   TimelineDate,
@@ -17,6 +18,7 @@ import {
   TimelineTitle,
 } from '@/ui/timeline';
 
+import styles from './stylesheet';
 import type { Data } from './types';
 
 type Props = {
@@ -30,12 +32,16 @@ export default function View({ data }: Props) {
         <strong>Resume</strong>
         <small>Skills and career</small>
       </h1>
+      <Link
+        className={styles.download}
+        href="/kyle-gilbert-resume.pdf"
+        target="_blank"
+      >
+        <LinkArrow>PDF</LinkArrow>
+      </Link>
       <p>
         I'm a self-taught web developer/software engineer who is driven to create because making things with code thrills me to no end. With a strong background in JavaScript/TypeScript, and HTML/CSS, I have hands-on experience working with high-traffic, customer-facing products built with an attention to detail.
       </p>
-      <Link className="cta" href="/kyle-gilbert-resume.pdf" target="_blank">
-        Download PDF
-      </Link>
       <h2 id="skills">
         <strong>SKILLS</strong>
       </h2>

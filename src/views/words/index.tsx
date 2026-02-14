@@ -6,6 +6,14 @@ import {
   BreadcrumbList,
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
+import {
+  OrderedList,
+  OrderedListItem,
+  OrderedListLink,
+  OrderedListSubtitle,
+  OrderedListTag,
+  OrderedListTitle,
+} from '@/ui/lists/ordered';
 
 import type { Data } from './types';
 
@@ -23,19 +31,21 @@ export default function View({ data }: Props) {
       <p>
         A place where I share my thoughts, opinions, and reflections on the things I notice.
       </p>
-      <nav aria-label="supplementary navigation">
-        <ol className="index">
-          {data.map((item) => (
-            <li key={item.slug}>
-              <Link className="backdrop" href={`/words/${item.slug}`}>
-                <span className="tag">#{item.index}</span>
+      <OrderedList>
+        {data.map((item) => (
+          <OrderedListItem key={item.slug}>
+            <OrderedListLink href={`/words/${item.slug}`}>
+              <OrderedListTag>#{item.index}</OrderedListTag>
+              <OrderedListTitle>
                 {item.title}
-                <small>{item.date} • {item.readingTime} min read</small>
-              </Link>
-            </li>
-          ))}
-        </ol>
-      </nav>
+              </OrderedListTitle>
+              <OrderedListSubtitle>
+                {item.date} • {item.readingTime} min read
+              </OrderedListSubtitle>
+            </OrderedListLink>
+          </OrderedListItem>
+        ))}
+      </OrderedList>
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>

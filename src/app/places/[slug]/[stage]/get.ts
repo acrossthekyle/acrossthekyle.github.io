@@ -1,6 +1,7 @@
 import db from '@/db/places';
 import type { Gpx } from '@/types';
-import { padIndex } from '@/utils';
+
+import { combineTermini, padIndex } from '../../../utils';
 
 export default function get(slug: string, stage: string) {
   const found = db.find((item) => item.slug.toLowerCase() === slug.toLowerCase());
@@ -20,10 +21,6 @@ export default function get(slug: string, stage: string) {
 
   const result = found.stages[index];
 
-  const title = result.termini.isSame
-    ? result.termini.end.words.join(' ')
-    : `${result.termini.start.words.join(' ')} to ${result.termini.end.words.join(' ')}`;
-
   return {
     content: result.content,
     date: result.date,
@@ -40,6 +37,6 @@ export default function get(slug: string, stage: string) {
     readingTime: result.readingTime,
     slug,
     stats: result.stats,
-    title,
+    title: combineTermini(result.termini),
   };
 };

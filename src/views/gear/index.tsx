@@ -6,8 +6,15 @@ import {
   BreadcrumbList,
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
+import {
+  OrderedList,
+  OrderedListItem,
+  OrderedListLink,
+  OrderedListSubtitle,
+  OrderedListTag,
+  OrderedListTitle,
+} from '@/ui/lists/ordered';
 
-import styles from './stylesheet';
 import type { Data } from './types';
 
 type Props = {
@@ -24,23 +31,21 @@ export default function View({ data }: Props) {
       <p>
         From Spain to the TMB, and from Nepal to Patagonia, this is a list of the various gear that I've carried with me on my backpacking trips.
       </p>
-      <nav aria-label="supplementary navigation">
-        <ol className="index">
-          {data.map((item) => (
-            <li className={styles.item} key={item.index}>
-              <Link className="backdrop" href={`/gear/${item.slug}`}>
-                <span className="tag">#{item.index}</span>
-                <span className={styles.title}>
-                  {item.title} {item.date}
-                </span>
-                <small>
-                  Base weight: {item.base} lbs
-                </small>
-              </Link>
-            </li>
-          ))}
-        </ol>
-      </nav>
+      <OrderedList>
+        {data.map((item) => (
+          <OrderedListItem key={item.index}>
+            <OrderedListLink href={`/gear/${item.slug}`}>
+              <OrderedListTag>#{item.index}</OrderedListTag>
+              <OrderedListTitle>
+                {item.title} {item.date}
+              </OrderedListTitle>
+              <OrderedListSubtitle>
+                Base weight: {item.base} lbs
+              </OrderedListSubtitle>
+            </OrderedListLink>
+          </OrderedListItem>
+        ))}
+      </OrderedList>
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>

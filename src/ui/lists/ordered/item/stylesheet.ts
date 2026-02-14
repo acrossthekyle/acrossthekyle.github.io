@@ -1,13 +1,8 @@
 import tw from '@/styles';
 
 const styles = tw({
-  item: `
+  container: `
     relative
-  `,
-  title: `
-    block
-    pr-10
-    whitespace-nowrap truncate
   `,
 });
 
