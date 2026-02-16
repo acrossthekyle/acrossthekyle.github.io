@@ -5,7 +5,7 @@ const styles = tw({
     relative
     border-1 border-(--foreground)/15
     rounded-t-md
-    mt-16
+    mt-8
   `,
   chart: `
     h-48 w-full

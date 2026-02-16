@@ -43,9 +43,6 @@ export default function View({ data }: Props) {
         </ImageCaption>
       </ImageFigure>
       <Markdown>{data.content}</Markdown>
-      {data.hasGpx && (
-        <Gpx gpx={data.gpx} stats={data.stats} />
-      )}
       {data.hasNavigation && (
         <section
           aria-label="next previous navigation"
@@ -62,6 +59,9 @@ export default function View({ data }: Props) {
             </Link>
           )}
         </section>
+      )}
+      {data.hasGpx && (
+        <Gpx gpx={data.gpx} stats={data.stats} />
       )}
       <Breadcrumb>
         <BreadcrumbList>

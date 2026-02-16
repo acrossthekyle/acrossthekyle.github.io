@@ -63,7 +63,7 @@ export default function View({ data }: Props) {
                       {item.weight} oz
                     </OrderedListSubtitle>
                     <OrderedListTag>
-                      <LinkArrow>Buy</LinkArrow>
+                      <LinkArrow>Shop</LinkArrow>
                     </OrderedListTag>
                   </OrderedListLink>
                 ) : (

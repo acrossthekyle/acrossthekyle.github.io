@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    absolute right-0 -top-0.5
+    absolute right-0 top-0.5
     inline-flex items-center gap-1
     h-5.25
     px-1.25
@@ -12,8 +12,6 @@ const styles = tw({
     tracking-wide
     rounded-sm
     duration-300
-
-    md:top-1
   `,
 });
 
