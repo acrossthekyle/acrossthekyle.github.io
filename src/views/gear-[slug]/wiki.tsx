@@ -2,6 +2,7 @@
 
 import { useDialog } from '@/hooks/useDialog';
 import { Dialog, DialogContent, DialogHeader } from '@/ui/dialog';
+import { LinkArrow } from '@/ui/link';
 
 import styles from './stylesheet';
 
@@ -23,7 +24,7 @@ export default function Wiki() {
         title="View wiki"
         type="button"
       >
-        Wiki
+        <LinkArrow>Wiki</LinkArrow>
       </button>
       <Dialog
         id="wiki"
