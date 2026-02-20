@@ -5,10 +5,10 @@ type Props = {
   className?: string;
 };
 
-export default function Header({ children, className }: Props) {
+export default function Header({ children, className = '' }: Props) {
   return (
     <h2
-      className={className ?? styles.container}
+      className={`${styles.container} ${className}`.trim()}
       id="dialog-header"
     >
       {children}

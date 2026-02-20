@@ -49,7 +49,7 @@ export default function Graph({
 
   return (
     <>
-      <h2 className="flex justify-between">
+      <h2 className={styles.breakdown}>
         Weight breakdown {type !== undefined && `(${type})`}
         {type !== undefined && (
           <Link href={`/gear/${slug}`}>Reset</Link>
@@ -58,7 +58,7 @@ export default function Graph({
       <ul className={styles.graph}>
         {scaled.map(({ label, percent, value }) => (
           <li
-            className={styles.segment}
+            className={styles.segment(type?.toLowerCase() === label.toLowerCase())}
             key={label}
             style={{ width: `${percent * 100}%` }}
           >

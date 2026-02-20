@@ -1,5 +1,10 @@
 import { ROUTES } from '@/routes';
 import { LinkArrow, LinkBackdrop } from '@/ui/link';
+import {
+  Grid,
+  GridList,
+  GridListItem,
+} from '@/ui/navigation/grid';
 
 import styles from './stylesheet';
 
@@ -22,7 +27,7 @@ type LinkProps = {
 function Heading({ children, id, isMenu }: HeadingProps) {
   if (isMenu) {
     return (
-      <h3 id={id}>
+      <h3 className={styles.heading} id={id}>
         {children}
       </h3>
     );
@@ -36,12 +41,14 @@ function Heading({ children, id, isMenu }: HeadingProps) {
 }
 
 function Link({ path, subtitle, text }: LinkProps) {
+  const isExternal = (new RegExp(['http', 'mailto'].join('|'), 'i')).test(path);
+
   return (
     <LinkBackdrop
       href={path}
-      target={path.includes('http') ? '_blank' : undefined}
+      target={isExternal ? '_blank' : undefined}
     >
-      {path.includes('http') ? (
+      {isExternal ? (
         <LinkArrow>{text}</LinkArrow>
       ) : (
         <>{text}</>
@@ -58,50 +65,54 @@ export default function Menu({ isMenu }: Props) {
         <strong>BLOGGING</strong>
         <small>My experiences</small>
       </Heading>
-      <hr className={styles.hr} />
-      <ul aria-labelledby="blogging" className={styles.list(isMenu)}>
-        {ROUTES.filter(({ group }) => group === 'blogging').map((item) => (
-          <li key={item.path}>
-            <Link {...item} />
-          </li>
-        ))}
-      </ul>
+      <Grid>
+        <GridList columns={3} id="blogging">
+          {ROUTES.filter(({ group }) => group === 'blogging').map((item) => (
+            <GridListItem key={item.path}>
+              <Link {...item} />
+            </GridListItem>
+          ))}
+        </GridList>
+      </Grid>
       <Heading id="info" isMenu={isMenu}>
         <strong>INFO</strong>
         <small>More about me</small>
       </Heading>
-      <hr className={styles.hr} />
-      <ul aria-labelledby="info" className={styles.list(isMenu)}>
-        {ROUTES.filter(({ group }) => group === 'info').map((item) => (
-          <li key={item.path}>
-            <Link {...item} />
-          </li>
-        ))}
-      </ul>
+      <Grid>
+        <GridList columns={3} id="info">
+          {ROUTES.filter(({ group }) => group === 'info').map((item) => (
+            <GridListItem key={item.path}>
+              <Link {...item} />
+            </GridListItem>
+          ))}
+        </GridList>
+      </Grid>
       <Heading id="connect" isMenu={isMenu}>
         <strong>CONNECT</strong>
         <small>Reach out</small>
       </Heading>
-      <hr className={styles.hr} />
-      <ul aria-labelledby="connect" className={styles.list(isMenu)}>
-        {ROUTES.filter(({ group }) => group === 'connect').map((item) => (
-          <li key={item.path}>
-            <Link {...item} />
-          </li>
-        ))}
-      </ul>
+      <Grid>
+        <GridList columns={3} id="connect">
+          {ROUTES.filter(({ group }) => group === 'connect').map((item) => (
+            <GridListItem key={item.path}>
+              <Link {...item} />
+            </GridListItem>
+          ))}
+        </GridList>
+      </Grid>
       <Heading id="code" isMenu={isMenu}>
         <strong>CODE</strong>
         <small>What and why</small>
       </Heading>
-      <hr className={styles.hr} />
-      <ul aria-labelledby="code" className={styles.list(isMenu)}>
-        {ROUTES.filter(({ group }) => group === 'code').map((item) => (
-          <li key={item.path}>
-            <Link {...item} />
-          </li>
-        ))}
-      </ul>
+      <Grid>
+        <GridList columns={3} id="code">
+          {ROUTES.filter(({ group }) => group === 'code').map((item) => (
+            <GridListItem key={item.path}>
+              <Link {...item} />
+            </GridListItem>
+          ))}
+        </GridList>
+      </Grid>
     </>
   );
 }

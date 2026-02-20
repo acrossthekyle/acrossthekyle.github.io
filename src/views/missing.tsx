@@ -1,11 +1,4 @@
-import Link from 'next/link';
-
 import { Layout } from '@/layout';
-import {
-  Breadcrumb,
-  BreadcrumbList,
-  BreadcrumbItem,
-} from '@/ui/breadcrumbs';
 
 export default function View() {
   return (
@@ -30,15 +23,6 @@ export default function View() {
           Quoth the server, 404.
         </p>
       </article>
-      <Breadcrumb>
-        <BreadcrumbList>
-          <BreadcrumbItem>
-            <Link href="/">
-              ../
-            </Link>
-          </BreadcrumbItem>
-        </BreadcrumbList>
-      </Breadcrumb>
     </Layout>
   );
 }

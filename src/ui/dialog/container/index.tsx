@@ -1,7 +1,7 @@
 'use client';
 
 import { X } from 'lucide-react';
-import { KeyboardEvent, Ref } from 'react';
+import { KeyboardEvent, MouseEvent, Ref } from 'react';
 
 import { Keyboard } from '../../keyboard';
 
@@ -12,6 +12,7 @@ type Props = {
   className?: string;
   id: string;
   isOpen: boolean;
+  onBackdrop: (event: MouseEvent<HTMLDialogElement>) => void;
   onCancel: (event: KeyboardEvent<HTMLDialogElement>) => void;
   onClose: () => void;
   ref: Ref<HTMLDialogElement | null>;
@@ -22,6 +23,7 @@ export default function Dialog({
   className = '',
   id,
   isOpen,
+  onBackdrop,
   onCancel,
   onClose,
   ref,
@@ -33,6 +35,7 @@ export default function Dialog({
       className={`${styles.container} ${className} ${isOpen ? 'is-active' : ''}`.trim()}
       closedby="none"
       id={id}
+      onClick={onBackdrop}
       ref={ref}
       onKeyDown={onCancel}
     >

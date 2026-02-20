@@ -15,6 +15,9 @@ const styles = tw({
 
     md:text-xs
   `,
+  breakdown: `
+    flex justify-between
+  `,
   graph: `
     flex flex-col gap-16
     w-full
@@ -23,11 +26,11 @@ const styles = tw({
     md:flex-row
     md:gap-0
   `,
-  segment: `
+  segment: (isActive: boolean) => tw(`
     relative
     h-8
     pl-2
-    text-(--foreground)/15 text-xs
+    ${isActive ? 'text-(--foreground)/45' : 'text-(--foreground)/15'} text-xs
     bg-[size:8px_8px]
     bg-top-left
     bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]
@@ -41,7 +44,7 @@ const styles = tw({
     before:bg-(--foreground)/50
 
     hover:text-(--foreground)/45
-  `,
+  `),
   label: `
     block
     pt-2

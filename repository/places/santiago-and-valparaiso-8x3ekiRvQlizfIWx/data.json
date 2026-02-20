@@ -6,10 +6,11 @@
   "category": "destination",
   "image": "2016/03/18/a3205d70-0fc8-416a-b383-eb08e9e612a5.jpeg",
   "type": "destination",
+  "continent": "south america",
   "location": "Chile",
   "position": ["85%", "25%"],
-  "title": "Santiago + Valparaiso",
+  "title": "Santiago",
   "description": [
-    "I returned to South America for another international adventure, this time including Lollapalooza, discovering a passion for the wilderness by hiking into the Andes mountains in search of glaciers, and heading down to Patagonia in %location%."
+    "Santiago, Chile feels urban and dynamic, with the Andes as a constant backdrop, bustling plazas, cafes, and a mix of modern neighborhoods and historic wineries. And with the Andes being so close, they offer an easy escape from the city to go hiking in the colorful mountains where you can get up close to massive glaciers. Over on the coast, Valparaiso is colorful and bohemian, with steep hills, and winding alleys."
   ]
 }

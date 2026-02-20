@@ -9,13 +9,13 @@ import {
 } from '@/ui/breadcrumbs';
 import { LinkArrow } from '@/ui/link';
 import {
-  OrderedList,
-  OrderedListItem,
-  OrderedListLink,
-  OrderedListSubtitle,
-  OrderedListTag,
-  OrderedListTitle,
-} from '@/ui/lists/ordered';
+  ListItem,
+  ListLink,
+  ListSubtitle,
+  ListTag,
+  ListTitle,
+  ListUnordered,
+} from '@/ui/list';
 
 import Graph from './graph';
 import styles from './stylesheet';
@@ -30,8 +30,8 @@ export default function View({ data }: Props) {
   return (
     <Layout>
       <h1 className={styles.header}>
-        <strong>{data.title} {data.date}</strong>
-        <small>Total weight &mdash; {data.total} lbs</small>
+        <strong>{data.title}</strong>
+        <small>{data.date} • {data.total} lbs</small>
       </h1>
       <Wiki />
       <Graph
@@ -48,38 +48,38 @@ export default function View({ data }: Props) {
             <strong>{category.title}</strong>
             <small>{category.weight} lbs</small>
           </h2>
-          <OrderedList labelledBy={category.title.replace(' ', '-')}>
+          <ListUnordered labelledBy={category.title.replace(' ', '-')}>
             {category.items.map((item, index: number) => (
-              <OrderedListItem key={index}>
+              <ListItem key={index}>
                 {!!item.link ? (
-                  <OrderedListLink href={item.link} target="_blank">
-                    <OrderedListTitle>
+                  <ListLink href={item.link} target="_blank">
+                    <ListTitle>
                       {item.name.join(' ')}
-                    </OrderedListTitle>
-                    <OrderedListSubtitle>
+                    </ListTitle>
+                    <ListSubtitle>
                       {item.consumable && `Consumable • `}
                       {item.worn && `Worn • `}
                       {(!item.worn && !item.consumable) && `Base • `}
                       {item.weight} oz
-                    </OrderedListSubtitle>
-                    <OrderedListTag>
+                    </ListSubtitle>
+                    <ListTag>
                       <LinkArrow>Shop</LinkArrow>
-                    </OrderedListTag>
-                  </OrderedListLink>
+                    </ListTag>
+                  </ListLink>
                 ) : (
                   <>
-                    <OrderedListTitle>{item.name.join(' ')}</OrderedListTitle>
-                    <OrderedListSubtitle>
+                    <ListTitle>{item.name.join(' ')}</ListTitle>
+                    <ListSubtitle>
                       {item.consumable && `Consumable • `}
                       {item.worn && `Worn • `}
                       {(!item.worn && !item.consumable) && `Base • `}
                       {item.weight} oz
-                    </OrderedListSubtitle>
+                    </ListSubtitle>
                   </>
                 )}
-              </OrderedListItem>
+              </ListItem>
             ))}
-          </OrderedList>
+          </ListUnordered>
         </Fragment>
       ))}
       <Breadcrumb>

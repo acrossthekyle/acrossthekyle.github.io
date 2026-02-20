@@ -6,12 +6,12 @@
   "category": "trekking",
   "image": "2020/02/18/630411a8-f5ce-47fe-8261-f94e00654447.jpeg",
   "type": "thru-hike",
-  "location": "Patagonia, Chile",
+  "continent": "south america",
+  "location": "Chile",
   "position": ["96%", "26%"],
-  "title": "Torres del Paine O Circuit",
+  "title": "O Circuit",
   "description": [
-    "A tapestry of landscapes surrounded spires of granite, sprawling glaciers, pristine lakes, and windswept plains providing an idyllic background for thru-hiking %days% and %distance% in %location%.",
-    "Here at the bottom of the world in Patagonia, with equal parts rustic and modern, the trail known as the 'O' Circuit circumnavigates the prominent Torres del Paine granite towers that the park is known for. But the real highlight of the circuit took place after summitting the ridge at John Gardner Pass and seeing the massive Grays Glacier layed out below, filling the horizon from end to end."
+    "At the bottom of the world in Southern Chile with equal parts rustic and modern, the trail known as the 'O' Circuit circumnavigates the prominent Torres del Paine granite towers that Patagonia is partly known for. A tapestry of landscapes, sprawling glaciers, pristine lakes, and windswept plains provides an idyllic background for thru-hiking."
   ],
   "tags": ["south", "america", "long", "distance", "the o"]
 }

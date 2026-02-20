@@ -6,9 +6,16 @@ import {
   BreadcrumbList,
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
-import { Image, ImageCaption, ImageFigure } from '@/ui/image';
 import { Map, MapMarker } from '@/ui/map';
+import {
+  Timeline,
+  TimelineEntry,
+  TimelineItem,
+  TimelineLine,
+} from '@/ui/timeline';
 
+import Details from './details';
+import Snapshots from './snapshots';
 import styles from './stylesheet';
 import type { Data } from './types';
 
@@ -19,45 +26,60 @@ type Props = {
 export default function View({ data }: Props) {
   return (
     <Layout>
-      <h1 className={styles.header}>
-        <strong>{data.title} {data.date}</strong>
+      <h1>
+        <strong>{data.title}</strong>
         <small>
-          {data.location} • {data.type}
+          {data.type} • {data.location} • {data.year}
         </small>
       </h1>
       <Map>
         <MapMarker position={data.position} />
       </Map>
+      <h2>
+        <strong>Overview</strong>
+      </h2>
       {data.description.map((paragraph) => (
         <p key={paragraph}>
           {paragraph}
         </p>
       ))}
-      <section
-        aria-label={`journal entries for each ${data.label.toLowerCase()}`}
-      >
-        <ol className={styles.list}>
-          {data.stages.map((stage, index: number) => (
-            <li className={styles.item(index, data.total)} key={stage.index}>
-              <ImageFigure className={styles.figure}>
-                <Link href={`/places/${data.slug}/${stage.index}`}>
-                  <Image
-                    alt=""
-                    height={432}
-                    sizes="(max-width: 768px) 32vw, 40vw"
-                    src={stage.image}
-                    width={768}
+      <ul className={styles.stats}>
+        {data.stats.map((stat) => (
+          <li key={stat.label}>
+            <strong>{stat.label}</strong>
+            <small>{stat.value}</small>
+          </li>
+        ))}
+      </ul>
+      {data.type.toLowerCase() !== 'destination' && (
+        <>
+          <h2>
+            <strong>{data.label}s</strong>
+          </h2>
+          <Timeline isPreview={data.stages.length > 6}>
+            {data.stages.map((stage) => (
+              <TimelineItem key={stage.index}>
+                <TimelineLine />
+                <TimelineEntry>
+                  <p>
+                    {stage.index}/{data.total}: {stage.title}
+                    <small>{stage.date}</small>
+                    <small>{stage.stats.join(' • ')}</small>
+                  </p>
+                  <Details
+                    index={stage.index}
+                    label={data.label}
+                    slug={data.slug}
+                    title={stage.title}
+                    total={data.total}
                   />
-                  <ImageCaption className={styles.caption}>
-                    {data.label} #{stage.index}<br />
-                    {stage.title}
-                  </ImageCaption>
-                </Link>
-              </ImageFigure>
-            </li>
-          ))}
-        </ol>
-      </section>
+                </TimelineEntry>
+              </TimelineItem>
+            ))}
+          </Timeline>
+        </>
+      )}
+      <Snapshots images={data.images} total={data.total} />
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>

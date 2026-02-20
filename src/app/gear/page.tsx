@@ -7,7 +7,7 @@ import View from '@/views/gear';
 import get from './get';
 
 export const metadata: Metadata = {
-  title: 'Gear',
+  title: 'Packs',
   description: `Everything I've brought with me on my backpacking trips.`,
 };
 

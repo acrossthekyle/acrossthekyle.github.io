@@ -6,11 +6,12 @@
   "category": "trekking",
   "image": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg",
   "type": "thru-hike",
-  "location": "European Alps",
+  "continent": "europe",
+  "location": "Alps",
   "position": ["45%", "48.5%"],
   "title": "Tour du Mont Blanc",
   "description": [
-    "I returned to the %location% to thru-hike a familiar trail: the Tour du Mont Blanc. However, this time I shared the experience with my partner. The trek was much as I remembered, with abundant trips down memory lane. These pictures showcase our daily, amazing, views from the trail while hiking %distance% over %days%."
+    "Encircling the Mont Blanc mountain in the Alps, the tour of this peak is a classic long-distance hike covering a distance of %distance% while passing through France, Italy, and Switzerland. It's a challenging experience filled with diverse landscapes, unique cultural blends, and stunning alpine scenery, all while sleeping in mountain huts and eating home-cooked meals each night."
   ],
   "tags": ["tmb", "switzerland", "italy", "france", "long", "distance"]
 }

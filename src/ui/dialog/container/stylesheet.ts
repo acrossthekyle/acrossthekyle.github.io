@@ -7,7 +7,7 @@ const styles = tw({
     h-full max-h-full
     bg-transparent
 
-    md:pt-16
+    md:pt-14
   `,
   close: `
     absolute top-4 right-4

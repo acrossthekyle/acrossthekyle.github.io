@@ -3,7 +3,7 @@ const data = [
     "author": "Kyle Gilbert",
     "slug": "the-apple-tv-plus-show-see",
     "title": "The AppleTV+ show \"See\"",
-    "content": "\nPremise: a genetic defect has caused the entire human population to go blind for generations, but sight is slowly returning to the world.\n\nAn interesting concept, but like most shows focused on a single story across multiple episodes, and seasons, it lost its strength. I finally finished watching it the other day, just for the sake of being a completionist.\n\nIt started strong with the aforementioned unique concept, but it lost me along the way. Although it wasn't the best show ever, I did appreciate the close-quarters fighting style, and the world they created.\n",
+    "content": "\nPremise: a genetic defect has caused the entire human population to go blind for generations, but sight is slowly returning to the world.\n\nAn interesting concept that started strong, but like most shows these days focused on a single story across multiple episodes, and seasons, it lost its strength and lost me along the way. I finally finished watching it the other day though, just for the sake of being a completionist.\n",
     "date": "February 12th, 2026",
     "readingTime": "1",
     "timestamp": 1770876000,

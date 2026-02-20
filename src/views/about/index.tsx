@@ -1,6 +1,7 @@
 import Link from 'next/link';
 
 import { Layout } from '@/layout';
+import { route } from '@/routes';
 import {
   Breadcrumb,
   BreadcrumbList,
@@ -10,11 +11,9 @@ import { Image, ImageFigure, ImageCaption } from '@/ui/image';
 import {
   Timeline,
   TimelineDate,
-  TimelineDescription,
   TimelineEntry,
   TimelineItem,
   TimelineLine,
-  TimelineTitle,
 } from '@/ui/timeline';
 
 import { TIMELINE } from './constants';
@@ -24,14 +23,11 @@ export default function View() {
   return (
     <Layout>
       <h1>
-        <strong>About</strong>
-        <small>My backstory</small>
+        <strong>{route('about').text}</strong>
+        <small>{route('about').subtitle}</small>
       </h1>
       <p>
-        I'm Kyle: a millenial living in Chicago on the lands belonging to the Potawatomi, Ojibwe, and Odawa.
-      </p>
-      <p>
-        From my homebase I explore the world &mdash; and I've been to many <Link href="/places"><u>places</u></Link>, from Nepal's Himalayas to the Towers of Patagonia. My first adventure was a 32-day thru-hike of the Camino de Santiago: a long-distance trail across Northern Spain.
+        I'm Kyle &mdash; a millenial living in the city of Chicago on the lands belonging to the Potawatomi, Ojibwe, and Odawa.
       </p>
       <ImageFigure className={styles.figure}>
         <Image
@@ -42,17 +38,26 @@ export default function View() {
           width={768}
         />
         <ImageCaption>
-          Annapurna Circuit, Nepal &mdash; 2019
+          Looking over Manang Valley, Himalayas &mdash; 2019
         </ImageCaption>
       </ImageFigure>
+      <h2>
+        <strong>Background</strong>
+      </h2>
       <p>
-        Between adventures, I build web and mobile apps as a self-taught software engineer because making things with code thrills me to no end. Feel free to browse my <Link href="/resume"><u>resume</u></Link>.
+        My first "real" adventure was a month-long thru-hike of the Camino de Santiago: a long-distance trail across Northern Spain from the Pyreness in the east, to the Atlantic ocean in the west &mdash; a distance of nearly 600 miles. Since then I've been to numerous <Link href="/places"><u>places</u></Link>, both near and far, from my homebase in Chicago.
       </p>
       <p>
-        Occasionally I'll write <Link href="/words"><u>words</u></Link> about thoughts, opinions, or reflections on this website, and share <Link href="/photos"><u>photos</u></Link> from daily life.
+        Between adventures, I build web and mobile apps as a self-taught software engineer, because making things with code thrills me to no end. Feel free to browse my <Link href="/resume"><u>resume</u></Link>.
       </p>
       <p>
-        Other moments &mdash; both big and small &mdash; that have shaped my life, so far:
+        Occasionally I'll write <Link href="/words"><u>words</u></Link> about thoughts, opinions, or reflections on this website, and share <Link href="/photos"><u>photos</u></Link> of things that catch my eye.
+      </p>
+      <h2>
+        <strong>Milestones</strong>
+      </h2>
+      <p>
+        Other moments &mdash; both big and small &mdash; that have shaped my life, so far.
       </p>
       <Timeline>
         {TIMELINE.map(({ paragraph, title, year }) => (
@@ -60,27 +65,12 @@ export default function View() {
             <TimelineDate>{year}</TimelineDate>
             <TimelineLine />
             <TimelineEntry>
-              {!!paragraph ? (
-                <>
-                  <TimelineTitle>
-                    {title}
-                  </TimelineTitle>
-                  <TimelineDescription>
-                    <small>{paragraph}</small>
-                  </TimelineDescription>
-                </>
-              ) : (
-                <TimelineDescription>
-                  {title}
-                </TimelineDescription>
-              )}
+              {title}
+              {!!paragraph && <small>{paragraph}</small>}
             </TimelineEntry>
           </TimelineItem>
         ))}
       </Timeline>
-      <p>
-        See you out there.
-      </p>
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>

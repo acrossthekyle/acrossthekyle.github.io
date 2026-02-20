@@ -10,6 +10,7 @@ import styles from './stylesheet';
 export default function Menu() {
   const {
     dialog,
+    handleOnBackdrop,
     handleOnCancel,
     handleOnClose,
     handleOnOpen,
@@ -30,6 +31,7 @@ export default function Menu() {
       <Dialog
         id="menu"
         isOpen={isOpen}
+        onBackdrop={handleOnBackdrop}
         onCancel={handleOnCancel}
         onClose={handleOnClose}
         ref={dialog}

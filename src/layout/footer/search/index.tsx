@@ -9,6 +9,7 @@ import Trigger from './trigger';
 export default function Search() {
   const {
     dialog,
+    handleOnBackdrop,
     handleOnCancel,
     handleOnClose,
     handleOnOpen,
@@ -21,6 +22,7 @@ export default function Search() {
       <Dialog
         id="search"
         isOpen={isOpen}
+        onBackdrop={handleOnBackdrop}
         onCancel={handleOnCancel}
         onClose={handleOnClose}
         ref={dialog}

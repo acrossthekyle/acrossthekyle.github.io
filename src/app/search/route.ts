@@ -78,7 +78,7 @@ export async function GET(request: NextRequest) {
       .map(({ date, slug, title }) => ({
         command: '',
         group: 'words',
-        path: `/words/${slug}`,
+        path: `/words#${slug}`,
         subtitle: date,
         text: title,
       })),

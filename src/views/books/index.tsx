@@ -1,33 +1,38 @@
 import Link from 'next/link';
 
 import { Layout } from '@/layout';
+import { route } from '@/routes';
 import {
   Breadcrumb,
   BreadcrumbList,
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
+import {
+  ListItem,
+  ListTag,
+  ListTitle,
+  ListUnordered,
+} from '@/ui/list';
 
 import { BOOKS } from './constants';
-import styles from './stylesheet';
 
 export default function View() {
   return (
     <Layout>
       <h1 id="books">
-        <strong>Books</strong>
-        <small>Printed reads</small>
+        <strong>{route('books').text}</strong>
+        <small>{route('books').subtitle}</small>
       </h1>
-      <p>
-        The printed words that I've read over the years, in no particular order.
-      </p>
-      <br /><br />
-      <ul aria-labelledby="books">
-        {BOOKS.map(({ author, title }) => (
-          <li className={styles.item} key={`${author}-${title}`}>
-            "{title}" by {author}
-          </li>
+      <ListUnordered labelledBy="books">
+        {BOOKS.map((item, index: number) => (
+          <ListItem key={item.title}>
+            <ListTag>#{String(index + 1).padStart(2, '0')}</ListTag>
+            <ListTitle>
+              {item.title} - {item.author}
+            </ListTitle>
+          </ListItem>
         ))}
-      </ul>
+      </ListUnordered>
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>

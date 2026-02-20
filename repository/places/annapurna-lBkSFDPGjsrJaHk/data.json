@@ -6,12 +6,12 @@
   "category": "trekking",
   "image": "2019/10/19/b9b20eb0-e569-4778-99c6-de3a3c2eb15e.jpeg",
   "type": "thru-hike",
+  "continent": "asia",
   "location": "Nepal",
   "position": ["53%", "69%"],
-  "title": "Annapurna Circuit + Basecamp",
+  "title": "Annapurna Circuit",
   "description": [
-    "Ranging from tropical forests and waterfalls along paddy fields to the frozen arctic region of the Tibetan plateau at %max%, the Annapurna Circuit + Basecamp thru-hike spanned %days% while winding its way around one of the eight tallest peaks in the world in the Himalayas of %location% over %distance%.",
-    "The sheer amount of total elevation gain and loss, changing biomes, and nearly succumbing to hypothermia, led to this being one of my toughest treks."
+    "Ranging from tropical forests and waterfalls along paddy fields to the frozen arctic region of the Tibetan plateau at 17,000 ft, the Annapurna Circuit thru-hike combines a circuit around the mountain, and a trek up to its basecamp, while winding its way among the tallest peaks in the world."
   ],
   "tags": ["abc", "apc", "himalaya", "asia", "long", "distance"]
 }

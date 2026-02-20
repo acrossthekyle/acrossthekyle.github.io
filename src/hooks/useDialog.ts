@@ -20,13 +20,15 @@ const store = create<State & Actions>()(
   }),
 );
 
-export function useDialog() {
+export function useDialog(onReady?: () => void) {
   const { isOpen, setIsOpen } = store();
 
   const dialog = useRef<HTMLDialogElement | null>(null);
 
   const handleOnOpen = () => {
     dialog.current?.showModal();
+
+    onReady?.();
 
     requestAnimationFrame(() => setIsOpen(true));
   };
@@ -77,8 +79,15 @@ export function useDialog() {
     }
   };
 
+  const handleOnBackdrop = (event: MouseEvent<HTMLDialogElement>) => {
+    if (event.target === dialog.current) {
+      handleOnClose();
+    }
+  };
+
   return {
     dialog,
+    handleOnBackdrop,
     handleOnCancel,
     handleOnClose,
     handleOnNavigate,

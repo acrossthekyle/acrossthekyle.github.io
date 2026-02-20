@@ -1,7 +1,10 @@
 export type Data = {
-  date: string;
   description: string[];
-  hasGear: boolean;
+  images: Array<{
+    index: string;
+    location: string;
+    src: string;
+  }>;
   label: string;
   location: string;
   position: {
@@ -10,11 +13,17 @@ export type Data = {
   };
   slug: string;
   stages: Array<{
-    image: string;
+    date: string;
     index: string;
+    stats: string[];
     title: string;
+  }>;
+  stats: Array<{
+    label: string;
+    value: string;
   }>;
   title: string;
   type: string;
-  total: number;
+  total: string;
+  year: string;
 };

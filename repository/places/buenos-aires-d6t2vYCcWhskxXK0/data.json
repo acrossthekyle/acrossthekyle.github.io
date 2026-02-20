@@ -6,10 +6,11 @@
   "category": "destination",
   "image": "2015/03/19/1ddbd381-ac73-4dc2-9fa9-7398e0438098.jpeg",
   "type": "destination",
+  "continent": "south america",
   "location": "Argentina",
   "position": ["85%", "28%"],
   "title": "Buenos Aires",
   "description": [
-    "I embarked on my first vacation abroad to %location%, South America, experiencing the sights and sounds of Buenos Aires and my first music festival at Lollapalooza."
+    "With wide avenues, lively cafes, and neighborhoods full of color and character like La Boca and Palermo the city feels vibrant with much to see and do. Tango music drifts through the streets, historic plazas sit alongside modern architecture, and the yearly Lollapalooza music festival adds a fun element to city life."
   ]
 }

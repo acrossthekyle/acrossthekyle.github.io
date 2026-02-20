@@ -7,6 +7,7 @@
 
 @theme {
   --animate-in-fade: fadeIn .4s ease-in forwards;
+  --breakpoint-xs: 21.875rem; /* 350px */
   --text-tiny: 0.6875rem;
 }
 
@@ -34,7 +35,6 @@ body {
   form,
   nav,
   section,
-  p:first-of-type,
   h2 {
     margin-top: 4rem;
   }
@@ -44,15 +44,27 @@ body {
     position: relative;
   }
 
+  h1,
+  figure {
+    margin-bottom: 4rem;
+  }
+
   h2,
   h3,
-  p {
+  ul {
     margin-bottom: 1rem;
   }
 
-  ul,
   p {
+    margin-bottom: 1.5rem;
+  }
+
+  ul {
     line-height: 175%;
+  }
+
+  p {
+    line-height: 185%;
   }
 
   u {
@@ -64,11 +76,15 @@ body {
   }
 
   small {
-    color: color-mix(in oklab, currentcolor 70%, transparent);
+    color: var(--foreground);
     display: block;
     font-size: var(--text-sm);
     line-height: var(--tw-leading, var(--text-sm--line-height));
     padding-block: 0.25rem;
+
+    small {
+      padding-bottom: 0;
+    }
   }
 
   button {
@@ -138,7 +154,7 @@ body {
   }
 
   h1 strong {
-    font-size: 1.25rem;
+    font-size: 1.375rem;
     line-height: 150%;
   }
 
@@ -197,6 +213,11 @@ body {
 
 @media (min-width: 48rem) {
   body {
+    h1 strong {
+      font-size: 1.25rem;
+      line-height: 125%;
+    }
+
     small {
       font-size: var(--text-xs);
       line-height: var(--tw-leading, var(--text-xs--line-height));
@@ -211,9 +232,13 @@ body {
       background: rgba(0, 0, 0, 0.25);
       backdrop-filter: blur(0);
     }
+  }
+}
 
-    h1 strong {
-      line-height: 100%;
+@supports (color: color-mix(in lab, red, red)) {
+  body {
+    small {
+      color: color-mix(in oklab, currentcolor 70%, transparent);
     }
   }
 }

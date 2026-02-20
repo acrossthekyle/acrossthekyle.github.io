@@ -1,7 +1,11 @@
 export type Data = {
-  base: string;
-  date: string;
-  index: string;
-  slug: string;
-  title: string;
+  count: number;
+  id: string;
+  items: Array<{
+    base: string;
+    date: string;
+    slug: string;
+    title: string;
+  }>;
+  name: string;
 };

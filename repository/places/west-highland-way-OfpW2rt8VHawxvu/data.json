@@ -6,12 +6,12 @@
   "category": "trekking",
   "image": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
   "type": "thru-hike",
-  "location": "Scotland, UK",
+  "continent": "europe",
+  "location": "Scotland",
   "position": ["38.5%", "43.5%"],
   "title": "West Highland Way",
   "description": [
-    "Filled with misty glens, deep lochs, and endless rain while hiking from Milngavie to Fort William, the West Highland Way is a long-distance trail in the highlands of %location% spanning %distance%. The trail travels down many ancient roads and old coaching routes, journeying from the lowlands to the highlands, while camping overnight in fields, along lakeside beachs, and under bridges.",
-    "I was not prepared for the amount of rain nearly every day of this trek that took %days% to complete, and by the end of it I was chilled to the bone. But I witnessed some amazing mountains once I got into the Highlands."
+    "Filled with misty glens, deep lochs, and endless rain while hiking from Milngavie to Fort William, the West Highland Way is a long-distance trail in the highlands of Scotland in the UK. The trail travels down many ancient roads and old coaching routes, journeying from the lowlands to the highlands, while camping overnight in fields, along lakeside beachs, and under bridges."
   ],
   "tags": ["whw", "long", "distance", "europe"]
 }

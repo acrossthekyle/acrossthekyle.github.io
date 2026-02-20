@@ -9,6 +9,7 @@ import styles from './stylesheet';
 export default function Wiki() {
   const {
     dialog,
+    handleOnBackdrop,
     handleOnCancel,
     handleOnClose,
     handleOnOpen,
@@ -29,6 +30,7 @@ export default function Wiki() {
       <Dialog
         id="wiki"
         isOpen={isOpen}
+        onBackdrop={handleOnBackdrop}
         onCancel={handleOnCancel}
         onClose={handleOnClose}
         ref={dialog}

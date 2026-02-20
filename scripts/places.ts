@@ -285,7 +285,7 @@ function formatNumber(value) {
 
 /* DETAILS */
 
-async function getStages(folder) {
+async function getStages(folder, tripType) {
   if (!fs.existsSync(`${trips}/${folder}/stages`)) {
     return [];
   }
@@ -362,8 +362,12 @@ async function getStages(folder) {
         stats.distance = {
           label: 'distance',
           value: {
-            imperial: formatNumber(Number(data.miles)),
-            metric: formatNumber(Number(data.miles) * 1.609),
+            imperial: formatNumber(Number(
+              tripType === 'summit' ? data.miles / 2 : data.miles
+            )),
+            metric: formatNumber(Number(
+              tripType === 'summit' ? data.miles / 2 : data.miles
+            ) * 1.609),
           },
           units: {
             imperial: {
@@ -381,7 +385,9 @@ async function getStages(folder) {
       if (data.minutes) {
         stats.time = {
           label: 'time',
-          value: Math.ceil(data.minutes / 60).toFixed(0),
+          value: Math.ceil(
+            (tripType === 'summit' ? data.minutes / 2 : data.minutes) / 60
+          ).toFixed(0),
           units: 'hours',
         };
       }
@@ -415,7 +421,7 @@ async function getStages(folder) {
 
       stages.push({
         content,
-        date: formatDate(date, 'LLLL do, yyyy'),
+        date: formatDate(date, 'LLL do, yyyy'),
         excerpt: data.excerpt || '',
         gpx: gpx || [],
         hasGpx: gpx !== undefined,
@@ -629,8 +635,8 @@ function getTripDate(trip, stages) {
   if (trip.dates.length > 1) {
     const end = parseDate(trip.dates[1], 'M/dd/yyyy', new Date());
 
-    const monthA = formatDate(start, 'LLLL');
-    const monthB = formatDate(end, 'LLLL');
+    const monthA = formatDate(start, 'LLL');
+    const monthB = formatDate(end, 'LLL');
 
     const yearA = formatDate(start, 'yyyy').trim();
     const yearB = formatDate(end, 'yyyy').trim();
@@ -655,10 +661,7 @@ function getTripDate(trip, stages) {
 
     isYears = true;
 
-    range = [
-      formatDate(start, 'yyyy').trim(),
-      formatDate(end, 'yyyy').trim(),
-    ];
+    range = [year, end];
   }
 
   return {
@@ -669,14 +672,14 @@ function getTripDate(trip, stages) {
 
 function getLabel(type) {
   if (type === 'overnight trek' || type === 'thru-hike') {
-    return 'Day';
+    return 'Stage';
   }
 
   if (type === 'section hike') {
     return 'Section';
   }
 
-  if (type === 'peak-bagging') {
+  if (type === 'summit') {
     return 'Summit';
   }
 
@@ -739,12 +742,13 @@ export async function go() {
       ));
 
       const gear = await getGear(folder);
-      const stages = await getStages(folder);
+      const stages = await getStages(folder, trip.type);
       const { hasStats, stats } = await getTripStats(trip, stages);
       const date = await getTripDate(trip, stages);
 
       data.push({
         category: trip.category,
+        continent: trip.continent,
         date,
         description: formatDescription(trip, stats),
         gear: gear === null ? {} : gear,
@@ -786,7 +790,9 @@ export async function go() {
           altitude: stats.altitude,
           days: stats.days,
           distance: stats.distance,
+          gain: stats.gain,
           length: stats.length,
+          loss: stats.loss,
         },
         tags: trip.tags,
         timestamp: trip.timestamp,

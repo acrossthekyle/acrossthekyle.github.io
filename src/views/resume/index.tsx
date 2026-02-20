@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { Fragment } from 'react';
 
 import { Layout } from '@/layout';
+import { route } from '@/routes';
 import {
   Breadcrumb,
   BreadcrumbList,
@@ -11,11 +12,9 @@ import { LinkArrow } from '@/ui/link';
 import {
   Timeline,
   TimelineDate,
-  TimelineDescription,
   TimelineEntry,
   TimelineItem,
   TimelineLine,
-  TimelineTitle,
 } from '@/ui/timeline';
 
 import styles from './stylesheet';
@@ -29,8 +28,8 @@ export default function View({ data }: Props) {
   return (
     <Layout>
       <h1>
-        <strong>Resume</strong>
-        <small>Skills and career</small>
+        <strong>{route('resume').text}</strong>
+        <small>{route('resume').subtitle}</small>
       </h1>
       <Link
         className={styles.download}
@@ -43,7 +42,7 @@ export default function View({ data }: Props) {
         I'm a self-taught web developer/software engineer who is driven to create because making things with code thrills me to no end. With a strong background in JavaScript/TypeScript, and HTML/CSS, I have hands-on experience working with high-traffic, customer-facing products built with an attention to detail.
       </p>
       <h2 id="skills">
-        <strong>SKILLS</strong>
+        <strong>Skills</strong>
       </h2>
       <dl aria-labelledby="skills">
         {data.skills.map((skill) => (
@@ -58,7 +57,7 @@ export default function View({ data }: Props) {
         ))}
       </dl>
       <h2 id="career">
-        <strong>CAREER EXPERIENCE</strong>
+        <strong>Career</strong>
       </h2>
       <Timeline>
         {data.history.map((item) => (
@@ -66,20 +65,16 @@ export default function View({ data }: Props) {
             <TimelineDate>{item.date.start}</TimelineDate>
             <TimelineLine />
             <TimelineEntry>
-              <TimelineTitle id={item.title.join('')}>
-                {item.position}
-                <small>{item.title.join(' ')}</small>
-              </TimelineTitle>
-              <TimelineDescription>
-                <br />
-                {item.description}
-              </TimelineDescription>
+              {item.position}
+              <small>{item.title.join(' ')}</small>
+              <br />
+              {item.description}
             </TimelineEntry>
           </TimelineItem>
         ))}
       </Timeline>
       <h2 id="education">
-        <strong>EDUCATION</strong>
+        <strong>Education</strong>
       </h2>
       <ol aria-labelledby="education">
         {data.education.map((item) => (

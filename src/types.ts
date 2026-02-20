@@ -23,11 +23,3 @@ export type StatShort = {
   value: string;
   units: string;
 };
-
-export type Stats = {
-  distance: StatFull | null;
-  gain: StatFull | null;
-  loss: StatFull | null;
-  max: StatFull | null;
-  time: StatShort | null;
-};

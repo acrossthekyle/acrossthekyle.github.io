@@ -8,12 +8,9 @@ type Props = {
 
 export default function Container({ children }: Props) {
   return (
-    <section
-      className={styles.container}
-      aria-label="map of places visited"
-    >
+    <figure className={styles.container}>
       <Image
-        alt=""
+        alt="map of places visited"
         height={432}
         quality={10}
         sizes="30vw"
@@ -21,6 +18,6 @@ export default function Container({ children }: Props) {
         width={768}
       />
       {children}
-    </section>
+    </figure>
   );
 }

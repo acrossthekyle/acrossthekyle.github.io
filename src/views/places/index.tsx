@@ -1,66 +1,71 @@
 import Link from 'next/link';
+import { Fragment } from 'react';
 
 import { Layout } from '@/layout';
+import { route } from '@/routes';
 import {
   Breadcrumb,
   BreadcrumbList,
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
-import {
-  OrderedList,
-  OrderedListItem,
-  OrderedListLink,
-  OrderedListSubtitle,
-  OrderedListTag,
-  OrderedListTitle,
-} from '@/ui/lists/ordered';
+import { LinkBackdrop } from '@/ui/link';
 import { Map, MapMarker } from '@/ui/map';
+import {
+  Grid,
+  GridList,
+  GridListItem,
+} from '@/ui/navigation/grid';
 
 import type { Data } from './types';
 import Wiki from './wiki';
 
 type Props = {
-  data: Data[];
+  data: Data;
 };
 
 export default function View({ data }: Props) {
   return (
     <Layout>
       <h1 id="places">
-        <strong>Places</strong>
-        <small>Trails and travels</small>
+        <strong>{route('places').text}</strong>
+        <small>{route('places').subtitle}</small>
       </h1>
       <Wiki />
+      <p>
+        From Nepal's Himalayas to Patagonia, I've thru-hiked a lot of miles and explored many destinations.
+      </p>
       <Map>
-        {data.map(({ position, slug, title }, index) => (
+        {data.markers.map((marker) => (
           <MapMarker
-            href={`/places/${slug}`}
-            key={index}
-            position={position}
-            title={title}
+            href={`/places/${marker.slug}`}
+            key={marker.slug}
+            position={marker.position}
+            title={marker.title}
           />
         ))}
       </Map>
-      <p>
-        From Nepal's Himalayas to windswept Patagonia, I've thru-hiked a lot of miles, explored numerous destinations, and seen some amazing things.
-      </p>
-      <nav aria-label="supplementary navigation">
-        <OrderedList labelledBy="places">
-          {data.map((item) => (
-            <OrderedListItem key={item.index}>
-              <OrderedListLink href={`/places/${item.slug}`}>
-                <OrderedListTag>#{item.index}</OrderedListTag>
-                <OrderedListTitle>
-                  {item.title} {item.date}
-                </OrderedListTitle>
-                <OrderedListSubtitle>
-                  {item.location} • {item.type}
-                </OrderedListSubtitle>
-              </OrderedListLink>
-            </OrderedListItem>
-          ))}
-        </OrderedList>
-      </nav>
+      {data.groups.map((group) => (
+        <Fragment key={group.id}>
+          <h2 id={group.id}>
+            <strong>{group.name.toUpperCase()}</strong>
+            <small>
+              {group.types.map((type) => `${type.name} (${type.count})`).join(', ')}
+            </small>
+          </h2>
+          <Grid>
+            <GridList columns={2} id={group.id}>
+              {group.items.map((item) => (
+                <GridListItem key={item.index}>
+                  <LinkBackdrop href={`/places/${item.slug}`}>
+                    <strong>{item.title}</strong>
+                    <small>{item.type} • {item.location} • {item.date}</small>
+                  </LinkBackdrop>
+                </GridListItem>
+              ))}
+            </GridList>
+          </Grid>
+        </Fragment>
+      ))}
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>

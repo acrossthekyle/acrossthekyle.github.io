@@ -6,11 +6,12 @@
   "category": "destination",
   "image": "2022/12/28/7f2020f6-ccd2-4f4a-98a1-44abd2df6911.jpeg",
   "type": "destination",
+  "continent": "africa",
   "location": "Egypt",
   "position": ["56%", "54%"],
   "title": "Luxor",
   "description": [
-    "Luxor, %location% is a city where history comes alive, from its towering temples to the ancient tombs of the Valley of the Kings. Walking among these wonders, you can feel the weight of thousands of years of civilization."
+    "Luxor is a city where history comes alive, from its towering temples to the ancient tombs of the Valley of the Kings. Walking among these wonders, you can feel the weight of thousands of years of civilization."
   ],
   "tags": ["tomb", "valley", "balloon", "temple", "karnak"]
 }

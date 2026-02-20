@@ -1,19 +1,13 @@
 import Link from 'next/link';
+import Markdown from 'react-markdown';
 
 import { Layout } from '@/layout';
+import { route } from '@/routes';
 import {
   Breadcrumb,
   BreadcrumbList,
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
-import {
-  OrderedList,
-  OrderedListItem,
-  OrderedListLink,
-  OrderedListSubtitle,
-  OrderedListTag,
-  OrderedListTitle,
-} from '@/ui/lists/ordered';
 
 import type { Data } from './types';
 
@@ -25,29 +19,18 @@ export default function View({ data }: Props) {
   return (
     <Layout>
       <h1 id="words">
-        <strong>Words</strong>
-        <small>Quick thoughts</small>
+        <strong>{route('words').text}</strong>
+        <small>{route('words').subtitle}</small>
       </h1>
-      <p>
-        A place where I share my thoughts, opinions, and reflections on the things I notice.
-      </p>
-      <nav aria-label="supplementary navigation">
-        <OrderedList labelledBy="words">
-          {data.map((item) => (
-            <OrderedListItem key={item.slug}>
-              <OrderedListLink href={`/words/${item.slug}`}>
-                <OrderedListTag>#{item.index}</OrderedListTag>
-                <OrderedListTitle>
-                  {item.title}
-                </OrderedListTitle>
-                <OrderedListSubtitle>
-                  {item.date} • {item.readingTime} min read
-                </OrderedListSubtitle>
-              </OrderedListLink>
-            </OrderedListItem>
-          ))}
-        </OrderedList>
-      </nav>
+      {data.map((item) => (
+        <article key={item.slug}>
+          <h2 id={item.slug}>
+            <strong>{item.title}</strong>
+            <small>{item.date} • {item.readingTime} min read</small>
+          </h2>
+          <Markdown>{item.content}</Markdown>
+        </article>
+      ))}
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>

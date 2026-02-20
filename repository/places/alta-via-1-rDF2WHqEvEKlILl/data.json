@@ -6,11 +6,12 @@
   "category": "trekking",
   "image": "2019/07/16/735a0783-62ba-4f8e-97d8-c9b9f5327cfe.jpeg",
   "type": "thru-hike",
-  "location": "Northern Italy",
+  "continent": "europe",
+  "location": "Italy",
   "position": ["45.5%", "50.5%"],
   "title": "Alta Via 1",
   "description": [
-    "In %location% there is a mountain range known as the Dolomites, and they contain a series of seven trails collectively known as the Alta Via. This is a thru-hike of one of those trails: the Alta Via 1. Winding its way over %distance% from North to South, this high route reached a maximum altitude of %max% and took %days% to complete, while passing through a panorama of jagged ridges, vertical walls, and majestic towers, culminating in some of the most beautiful landscapes in the world."
+    "In Northern Italy there is a mountain range known as The Dolomites, and they contain a series of seven trails collectively known as the Alta Via. The Alta Via 1 winds its way from North to South passing through a panorama of jagged ridges, vertical walls, and uniquely-shaped mountains."
   ],
   "tags": ["av", "av1", "dolomite", "long", "distance", "europe"]
 }

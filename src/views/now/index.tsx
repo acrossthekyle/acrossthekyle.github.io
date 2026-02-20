@@ -1,6 +1,7 @@
 import Link from 'next/link';
 
 import { Layout } from '@/layout';
+import { route } from '@/routes';
 import {
   Breadcrumb,
   BreadcrumbList,
@@ -11,12 +12,9 @@ export default function View() {
   return (
     <Layout>
       <h1>
-        <strong>Now</strong>
-        <small>Presntly doing</small>
+        <strong>{route('now').text}</strong>
+        <small>{route('now').subtitle}</small>
       </h1>
-      <p>
-        What I'm up to and what I'm focused on right now.
-      </p>
       <h2 id="reading">
         <strong>Reading</strong>
       </h2>

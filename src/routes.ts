@@ -8,7 +8,7 @@ export const ROUTES = [
   {
     group: 'blogging',
     path: '/places',
-    subtitle: 'Trails and travels',
+    subtitle: 'Near and far',
     text: 'Places',
   },
   {
@@ -20,14 +20,14 @@ export const ROUTES = [
   {
     group: 'blogging',
     path: '/photos',
-    subtitle: 'Amateur snapshots',
+    subtitle: 'Captured moments',
     text: 'Photos',
   },
   {
     group: 'blogging',
     path: '/gear',
     subtitle: 'What I carry',
-    text: 'Gear',
+    text: 'Packs',
   },
   {
     group: 'info',
@@ -37,20 +37,20 @@ export const ROUTES = [
   },
   {
     group: 'info',
+    path: '/resume',
+    subtitle: 'Career overview',
+    text: 'Resume',
+  },
+  {
+    group: 'info',
     path: '/now',
     subtitle: 'Presently doing',
     text: 'Now',
   },
   {
     group: 'info',
-    path: '/resume',
-    subtitle: 'Skills and career',
-    text: 'Resume',
-  },
-  {
-    group: 'info',
     path: '/books',
-    subtitle: 'Printed reads',
+    subtitle: `What I've read`,
     text: 'Books',
   },
   {
@@ -67,20 +67,20 @@ export const ROUTES = [
   },
   {
     group: 'connect',
-    path: '/email',
-    subtitle: 'Say hello',
+    path: 'mailto:hello@acrossthekyle.com',
+    subtitle: 'hello@acrossthekyle',
     text: 'Email',
   },
   {
     group: 'code',
     path: '/colophon',
-    subtitle: 'Website philosophy',
+    subtitle: `How it's made`,
     text: 'Colophon',
   },
   {
     group: 'code',
     path: 'https://github.com/acrossthekyle',
-    subtitle: 'Code projects',
+    subtitle: 'Coding projects',
     text: 'Github',
   },
   {
@@ -90,3 +90,13 @@ export const ROUTES = [
     text: 'Carbon',
   },
 ];
+
+export function route(query: string) {
+  return ROUTES.find(route => route.text
+    .toLowerCase()
+    .includes(query.replace('/', '').toLowerCase())
+  ) || {
+    text: '',
+    subtitle: '',
+  };
+}
