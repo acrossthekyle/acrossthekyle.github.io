@@ -23,6 +23,7 @@ const styles = tw({
   figure: `
     relative
     rounded-lg
+    !pt-0
 
     md:-mx-20
     lg:-mx-32

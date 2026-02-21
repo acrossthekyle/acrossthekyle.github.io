@@ -11,8 +11,12 @@ import {
   Timeline,
   TimelineDate,
   TimelineEntry,
+  TimelineHeader,
+  TimelineHeading,
   TimelineItem,
+  TimelineItems,
   TimelineLine,
+  TimelineToggle,
 } from '@/ui/timeline';
 
 import Details from './details';
@@ -44,30 +48,39 @@ export default function View({ data }: Props) {
           {paragraph}
         </p>
       ))}
-      <ul className={styles.stats}>
+      <ul aria-label="stats" className={styles.stats}>
         {data.stats.map((stat) => (
           <li key={stat.label}>
-            <strong>{stat.label}</strong>
+            {stat.label}
             <small>{stat.value}</small>
           </li>
         ))}
       </ul>
       {data.type.toLowerCase() !== 'destination' && (
-        <>
-          <h2>
+        <Timeline total={data.stages.length}>
+          <TimelineHeader>
             <strong>{data.label}s</strong>
-          </h2>
-          <Timeline isPreview={data.stages.length > 6}>
-            {data.stages.map((stage) => (
-              <TimelineItem key={stage.index}>
+          </TimelineHeader>
+          <TimelineItems>
+            {data.stages.map((stage, index: number) => (
+              <TimelineItem index={index} key={stage.index}>
                 <TimelineLine />
-                <TimelineDate>{stage.index}/{data.total}</TimelineDate>
+                <TimelineDate>
+                  {stage.index}/{data.total}
+                </TimelineDate>
                 <TimelineEntry>
-                  <p>
+                  <TimelineHeading>
                     {stage.title}
                     <small>{stage.date}</small>
-                    <small>{stage.stats.join(' • ')}</small>
-                  </p>
+                  </TimelineHeading>
+                  <ul className={styles.list}>
+                    {stage.stats.map((stat, index: number) => (
+                      <li className={styles.item} key={index}>
+                        {stat.label}
+                        <small>{stat.value}</small>
+                      </li>
+                    ))}
+                  </ul>
                   <Details
                     index={stage.index}
                     label={data.label}
@@ -78,8 +91,11 @@ export default function View({ data }: Props) {
                 </TimelineEntry>
               </TimelineItem>
             ))}
-          </Timeline>
-        </>
+          </TimelineItems>
+          {data.stages.length > 6 && (
+            <TimelineToggle />
+          )}
+        </Timeline>
       )}
       <Snapshots images={data.images} total={data.total} />
       <Breadcrumb>

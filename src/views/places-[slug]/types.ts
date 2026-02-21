@@ -4,6 +4,7 @@ export type Data = {
     index: string;
     location: string;
     src: string;
+    title: string;
   }>;
   label: string;
   location: string;
@@ -15,7 +16,7 @@ export type Data = {
   stages: Array<{
     date: string;
     index: string;
-    stats: string[];
+    stats: Array<{ label: string; value: string; }>;
     title: string;
   }>;
   stats: Array<{

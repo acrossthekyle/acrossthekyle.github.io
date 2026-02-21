@@ -2,7 +2,10 @@ import tw from '@/styles';
 
 const styles = tw({
   figure: `
-    !mb-0
+    !pt-0
+    mb-6
+
+    last:mb-0
   `,
 });
 

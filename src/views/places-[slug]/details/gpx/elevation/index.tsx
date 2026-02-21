@@ -35,7 +35,7 @@ export default function Elevation({ gpx, stats }: Props) {
   }
 
   return (
-    <div
+    <section
       aria-label="gpx elevation profile"
       className={styles.container}
       id="gpx"
@@ -169,6 +169,8 @@ export default function Elevation({ gpx, stats }: Props) {
       <div className={styles.grid1} />
       <div className={styles.grid2} />
       <div className={styles.grid3} />
+      <div className={styles.grid4} />
+      <div className={styles.grid5} />
       <ul className={styles.distance}>
         <li className={styles.start}>
           Start
@@ -191,6 +193,6 @@ export default function Elevation({ gpx, stats }: Props) {
           </span>
         </li>
       </ul>
-    </div>
+    </section>
   );
 }

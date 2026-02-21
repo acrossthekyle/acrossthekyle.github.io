@@ -5,6 +5,7 @@ const styles = tw({
     relative
     border-1 border-(--foreground)/15
     rounded-t-md
+    !pt-0
   `,
   chart: `
     h-48 w-full
@@ -12,7 +13,7 @@ const styles = tw({
     touch-none
   `,
   change: `
-    absolute top-2 left-2 z-9
+    absolute top-1.5 left-2 z-9
     flex items-center gap-2
     text-sm
 
@@ -38,10 +39,20 @@ const styles = tw({
     w-full h-[1px]
     bg-(--foreground)/7
   `,
+  grid4: `
+    absolute top-34 left-0 z-0
+    w-full h-[1px]
+    bg-(--foreground)/7
+  `,
+  grid5: `
+    absolute top-42.5 left-0 z-0
+    w-full h-[1px]
+    bg-(--foreground)/7
+  `,
   distance: `
     relative
     flex items-start justify-between
-    !mb-0
+    !pb-0
     text-sm text-center text-(--foreground)
     bg-(--foreground)/25
 

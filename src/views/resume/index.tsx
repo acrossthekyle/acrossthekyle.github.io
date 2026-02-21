@@ -11,9 +11,13 @@ import {
 import { LinkArrow } from '@/ui/link';
 import {
   Timeline,
+  TimelineContent,
   TimelineDate,
   TimelineEntry,
+  TimelineHeading,
+  TimelineHeader,
   TimelineItem,
+  TimelineItems,
   TimelineLine,
 } from '@/ui/timeline';
 
@@ -56,22 +60,27 @@ export default function View({ data }: Props) {
           </Fragment>
         ))}
       </dl>
-      <h2 id="career">
-        <strong>Career</strong>
-      </h2>
       <Timeline>
-        {data.history.map((item) => (
-          <TimelineItem key={item.title.join('')}>
-            <TimelineDate>{item.date.start}</TimelineDate>
-            <TimelineLine />
-            <TimelineEntry>
-              {item.position}
-              <small>{item.title.join(' ')}</small>
-              <br />
-              {item.description}
-            </TimelineEntry>
-          </TimelineItem>
-        ))}
+        <TimelineHeader>
+          <strong>Career</strong>
+        </TimelineHeader>
+        <TimelineItems>
+          {data.history.map((item) => (
+            <TimelineItem key={item.title.join('')}>
+              <TimelineLine />
+              <TimelineDate>{item.date.start}</TimelineDate>
+              <TimelineEntry>
+                <TimelineHeading>
+                  {item.position}
+                  <small>{item.title.join(' ')}</small>
+                </TimelineHeading>
+                <TimelineContent>
+                  {item.description}
+                </TimelineContent>
+              </TimelineEntry>
+            </TimelineItem>
+          ))}
+        </TimelineItems>
       </Timeline>
       <h2 id="education">
         <strong>Education</strong>

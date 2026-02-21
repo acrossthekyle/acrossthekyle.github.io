@@ -4,10 +4,10 @@ type Props = {
   children: React.ReactNode | React.ReactNode[];
 };
 
-export default function Content({ children }: Props) {
+export default function Heading({ children }: Props) {
   return (
-    <div className={styles.container}>
+    <h3 className={styles.container}>
       {children}
-    </div>
+    </h3>
   );
 }

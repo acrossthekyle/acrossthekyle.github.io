@@ -1,42 +1,14 @@
-'use client';
-
-import { Minus, Plus } from 'lucide-react';
-import { useState } from 'react';
-
-import styles from './stylesheet';
+import Context from '../context';
 
 type Props = {
-  children: React.ReactNode | React.ReactNode[];
-  isPreview?: boolean;
+  children: React.ReactNode[];
+  total?: number;
 };
 
-export default function Container({ children, isPreview }: Props) {
-  const [canShowAll, setCanShowAll] = useState(isPreview ? false : true);
-
-  const handleOnViewMore = () => {
-    setCanShowAll(previous => !previous);
-  };
-
+export default function Container({ children, total }: Props) {
   return (
-    <>
-      <ol aria-label="timeline" className={styles.list(canShowAll)}>
-        {children}
-      </ol>
-      {isPreview && (
-        <button
-          className={styles.cta}
-          onClick={handleOnViewMore}
-          title={canShowAll ? 'View all' : 'Reset'}
-          type="button"
-        >
-          <span className={styles.dot}/>
-          {canShowAll ? (
-            <Minus className={styles.icon} />
-          ) : (
-            <Plus className={styles.icon} />
-          )}
-        </button>
-      )}
-    </>
+    <Context total={total}>
+      {children}
+    </Context>
   );
 }

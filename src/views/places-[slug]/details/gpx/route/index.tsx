@@ -34,7 +34,7 @@ export default function Route({ gpx }: Props) {
   return (
     <div className={styles.container(isExpanded)}>
       <button className={styles.toggle} onClick={handleOnToggle} type="button">
-        {isExpanded ? 'Collapse' : 'Expand'}
+        {isExpanded ? 'Hide route' : 'View route'}
         {isExpanded ? (
           <Minus className={styles.icon} />
         ) : (

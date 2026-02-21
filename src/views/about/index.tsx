@@ -10,9 +10,13 @@ import {
 import { Image, ImageFigure, ImageCaption } from '@/ui/image';
 import {
   Timeline,
+  TimelineContent,
   TimelineDate,
   TimelineEntry,
+  TimelineHeader,
+  TimelineHeading,
   TimelineItem,
+  TimelineItems,
   TimelineLine,
 } from '@/ui/timeline';
 
@@ -53,23 +57,29 @@ export default function View() {
       <p>
         Occasionally I'll write <Link href="/words"><u>words</u></Link> about thoughts, opinions, or reflections on this website, and share <Link href="/photos"><u>photos</u></Link> of things that catch my eye.
       </p>
-      <h2>
-        <strong>Milestones</strong>
-      </h2>
-      <p>
-        Other moments &mdash; both big and small &mdash; that have shaped my life, so far.
-      </p>
       <Timeline>
-        {TIMELINE.map(({ paragraph, title, year }) => (
-          <TimelineItem key={year}>
-            <TimelineLine />
-            <TimelineDate>{year}</TimelineDate>
-            <TimelineEntry>
-              {title}
-              {!!paragraph && <small>{paragraph}</small>}
-            </TimelineEntry>
-          </TimelineItem>
-        ))}
+        <TimelineHeader>
+          <strong>Milestones</strong>
+        </TimelineHeader>
+        <p>
+          Other moments &mdash; both big and small &mdash; that have shaped my life.
+        </p>
+        <TimelineItems>
+          {TIMELINE.map(({ paragraph, title, year }) => (
+            <TimelineItem key={year}>
+              <TimelineLine />
+              <TimelineDate>{year}</TimelineDate>
+              <TimelineEntry>
+                <TimelineHeading>{title}</TimelineHeading>
+                {!!paragraph && (
+                  <TimelineContent>
+                    <small>{paragraph}</small>
+                  </TimelineContent>
+                )}
+              </TimelineEntry>
+            </TimelineItem>
+          ))}
+        </TimelineItems>
       </Timeline>
       <Breadcrumb>
         <BreadcrumbList>

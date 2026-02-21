@@ -19,35 +19,42 @@ function buildStageStats(
     time: StatShort | null;
   },
 ) {
-  const result: string[] = [];
+  const result: Array<{ label: string; value: string; }> = [];
 
   if (['summit'].includes(type)) {
-    result.push(`${stats.max?.value.imperial} ${stats.max?.units.imperial.abbreviated} peak`);
+    result.push({
+      label: 'Peak',
+      value: `${stats.max?.value.imperial} ${stats.max?.units.imperial.abbreviated}`,
+    });
   }
 
   if (['thru-hike', 'section hike', 'overnight trek'].includes(type)) {
-    result.push(`${stats.distance?.value.imperial} ${stats.distance?.units.imperial.full}`);
+    result.push({
+      label: 'Distance',
+      value: `${stats.distance?.value.imperial} ${stats.distance?.units.imperial.full}`,
+    });
   }
 
   if (['thru-hike', 'section hike', 'overnight trek'].includes(type)) {
-    result.push(
-      `${stats.gain?.value.imperial} ${stats.gain?.units.imperial.abbreviated} gain /
-      ${stats.loss?.value.imperial} ${stats.loss?.units.imperial.abbreviated} loss`
-    );
-  }
-
-  if (['thru-hike', 'section hike', 'overnight trek', 'summit'].includes(type)) {
-    result.push(`${stats.time?.value} ${stats.time?.units}`);
+    result.push({
+      label: 'Elevation',
+      value: `▲ ${stats.gain?.value.imperial} ${stats.gain?.units.imperial.abbreviated} /
+      ${stats.loss?.value.imperial} ${stats.loss?.units.imperial.abbreviated} ▼`,
+    });
   }
 
   if (['summit'].includes(type)) {
-    result.push(
-      `${stats.gain?.value.imperial} ${stats.gain?.units.imperial.abbreviated} ascent`
-    );
+    result.push({
+      label: 'Duration',
+      value: `${stats.time?.value} ${stats.time?.units}`,
+    });
   }
 
-  if (['destination'].includes(type)) {
-    result.push(date);
+  if (['summit'].includes(type)) {
+    result.push({
+      label: 'Ascent',
+      value: `${stats.gain?.value.imperial} ${stats.gain?.units.imperial.abbreviated}`,
+    });
   }
 
   return result;
@@ -89,6 +96,13 @@ function buildStats(
     result.push({
       label: 'Experiences',
       value: `${stages} destinations`,
+    });
+  }
+
+  if (['thru-hike'].includes(type)) {
+    result.push({
+      label: 'Duration',
+      value: `${stages} days`,
     });
   }
 
@@ -135,10 +149,11 @@ export default function get(slug: string) {
 
   return {
     description: data.description,
-    images: data.stages.map(({ image, location }, index) => ({
+    images: data.stages.map(({ image, location, termini }, index) => ({
       index: padIndex(index + 1),
       location: [location, data.location].join(', '),
       src: image,
+      title: combineTermini(termini),
     })),
     label: data.label,
     location: data.location,

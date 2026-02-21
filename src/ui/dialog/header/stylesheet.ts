@@ -4,9 +4,10 @@ const styles = tw({
   container: `
     w-full max-w-lg
     my-0 mx-auto
-    !mt-6 !mb-16
+    !pt-6 pr-12 !pb-16
 
-    md:!mt-0
+    md:!pt-14
+    md:pr-0
   `,
 });
 

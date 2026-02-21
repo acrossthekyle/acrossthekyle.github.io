@@ -5,7 +5,6 @@ import { useState } from 'react';
 import { useDialog } from '@/hooks/useDialog';
 import { Dialog, DialogContent, DialogHeader } from '@/ui/dialog';
 import { Image, ImageCaption, ImageFigure } from '@/ui/image';
-import Loading from '@/ui/loading';
 
 import styles from './stylesheet';
 
@@ -13,6 +12,7 @@ type Props = {
   index: string;
   location: string;
   src: string;
+  title: string;
   total: string;
 };
 
@@ -31,7 +31,7 @@ type Data = {
   };
 };
 
-export default function Modal({ index, location, src, total }: Props) {
+export default function Modal({ index, location, src, title, total }: Props) {
   const [data, setData] = useState<Data | null>(null);
   const [isLoading, setIsLoading] = useState(false);
 
@@ -81,32 +81,29 @@ export default function Modal({ index, location, src, total }: Props) {
         ref={dialog}
       >
         <DialogHeader className={styles.header}>
-          <strong>Image {index}/{total}</strong>
+          <strong>Image {index}/{total}: {title}</strong>
           <small>{location}</small>
         </DialogHeader>
         <DialogContent>
-          {isLoading ? (
-            <Loading />
-          ) : (
-            <>
-              <ImageFigure className={styles.figure}>
-                <Image
-                  alt=""
-                  height={432}
-                  sizes="(max-width: 768px) 32vw, 50vw"
-                  src={src}
-                  width={768}
-                />
-                <ImageCaption>
-                  {data !== null && (
-                    <>
-                      {data.exif.image.Model} &mdash; ISO {data.exif.exif.ISO} {data.exif.exif.FocalLengthIn35mmFormat} mm {data.exif.exif.ExposureCompensation} ev <span className={styles.emphasis}>f</span> {data.exif.exif.FNumber.toFixed(2)} {data.exif.exif.ApertureValue.toFixed(4).replace('.', '/')} <span className={styles.emphasis}>s</span>
-                    </>
-                  )}
-                </ImageCaption>
-              </ImageFigure>
-            </>
-          )}
+          <ImageFigure className={styles.figure}>
+            <Image
+              alt=""
+              height={432}
+              sizes="(max-width: 768px) 32vw, 50vw"
+              src={src}
+              width={768}
+            />
+            <ImageCaption>
+              {isLoading && (
+                <>...</>
+              )}
+              {!isLoading && data !== null && (
+                <>
+                  {data.exif.image.Model} &mdash; ISO {data.exif.exif.ISO} {data.exif.exif.FocalLengthIn35mmFormat} mm {data.exif.exif.ExposureCompensation} ev <span className={styles.emphasis}>f</span> {data.exif.exif.FNumber.toFixed(2)} {data.exif.exif.ApertureValue.toFixed(4).replace('.', '/')} <span className={styles.emphasis}>s</span>
+                </>
+              )}
+            </ImageCaption>
+          </ImageFigure>
         </DialogContent>
       </Dialog>
     </>

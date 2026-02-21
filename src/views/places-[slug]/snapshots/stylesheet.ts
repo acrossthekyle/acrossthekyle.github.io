@@ -2,14 +2,11 @@ import tw from '@/styles';
 
 import { getColSpan } from './stylesheet.utils';
 
-const styles = tw({
-  container: `
-    relative
-  `,
+const styles = {
   images: (canShowAll: boolean) => tw(`
     grid grid-cols-7 gap-4
     overflow-hidden
-    ${!canShowAll && 'h-128'}
+    ${!canShowAll && 'h-124'}
     duration-300
 
     md:grid-cols-3
@@ -19,12 +16,15 @@ const styles = tw({
 
     ${getColSpan(total, index)}
   `),
-  view: `
-    absolute top-1 right-0
-    text-right text-sm
+  view: (canShowAll: boolean) => tw(`
+    relative ${canShowAll ? 'top-0' : '-top-14'} z-3
+    w-full h-14
+    py-2
+    text-center text-sm
+    bg-linear-to-t from-(--background) to-transparent
 
     md:text-xs
-  `,
-});
+  `),
+};
 
 export default styles;

@@ -6,8 +6,8 @@ type Props = {
 
 export default function Entry({ children }: Props) {
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       {children}
-    </div>
+    </section>
   );
 }

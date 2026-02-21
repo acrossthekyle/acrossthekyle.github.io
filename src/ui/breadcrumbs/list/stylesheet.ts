@@ -4,7 +4,7 @@ const styles = tw({
   container: `
     flex items-center flex-nowrap
     overflow-hidden
-    !mb-0
+    !pb-0
   `,
 });
 

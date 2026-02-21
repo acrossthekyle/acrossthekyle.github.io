@@ -4,7 +4,7 @@ const styles = tw({
   container: `
     h-full
     overflow-y-scroll
-    pt-6 !mt-0
+    !pt-6
   `,
   list: `
     flex flex-col gap-2

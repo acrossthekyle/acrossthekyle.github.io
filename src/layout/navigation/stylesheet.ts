@@ -2,7 +2,9 @@ import tw from '@/styles';
 
 const styles = tw({
   heading: `
-    mt-16
+    pt-16
+
+    first:pt-0
   `,
   hr: `
     w-3

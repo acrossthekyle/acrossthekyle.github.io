@@ -53,7 +53,7 @@ export default function Modal({ index, label, slug, title, total }: Props) {
         onClick={handleOnOpen}
         type="button"
       >
-        <LinkArrow>View details</LinkArrow>
+        <strong><LinkArrow>View gpx + trip report</LinkArrow></strong>
       </button>
       <Dialog
         id="details"

@@ -3,11 +3,12 @@ import tw from '@/styles';
 const styles = tw({
   hr: `
     w-4
-    my-7
+    mt-7
+    pb-7
     border-(--foreground)/50
   `,
   container: `
-    !mt-0
+    !pt-0
   `,
 });
 
