@@ -30,7 +30,7 @@ export default function View() {
         <small>{route('about').subtitle}</small>
       </h1>
       <p>
-        I'm Kyle &mdash; a millenial living in the city of Chicago on the lands belonging to the Potawatomi, Ojibwe, and Odawa.
+        <strong>Hi, I'm Kyle</strong> &mdash; a millenial living in the city of Chicago on the lands belonging to the Potawatomi, Ojibwe, and Odawa.
       </p>
       <ImageFigure>
         <Image
@@ -41,7 +41,7 @@ export default function View() {
           width={768}
         />
         <ImageCaption>
-          Looking over Manang Valley, Himalayas &mdash; 2019
+          Himalayas, Nepal &mdash; 2019
         </ImageCaption>
       </ImageFigure>
       <h2>
@@ -50,6 +50,9 @@ export default function View() {
       <p>
         My first "real" adventure was a month-long thru-hike of the Camino de Santiago: a long-distance trail across Northern Spain from the Pyreness in the east, to the Atlantic ocean in the west &mdash; a distance of nearly 600 miles. Since then I've been to numerous <Link href="/places"><u>places</u></Link>, both near and far, from my homebase in Chicago.
       </p>
+      <h2>
+        <strong>Currently</strong>
+      </h2>
       <p>
         Between adventures, I build web and mobile apps as a self-taught software engineer, because making things with code thrills me to no end. Feel free to browse my <Link href="/resume"><u>resume</u></Link>.
       </p>

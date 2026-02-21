@@ -63,7 +63,11 @@ export default function Graph({
           >
             <Link
               className={styles.filter}
-              href={type !== undefined ? `/gear/${slug}` : `/gear/${slug}?type=${label.toLowerCase()}`}
+              href={
+                type !== undefined && type === label.toLowerCase()
+                  ? `/gear/${slug}`
+                  : `/gear/${slug}?type=${label.toLowerCase()}`
+              }
             >
               <span className={styles.label}>{label}</span>
               <span className={styles.value}>{value} lbs</span>

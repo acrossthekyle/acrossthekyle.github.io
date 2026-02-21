@@ -7,18 +7,14 @@ import {
   BreadcrumbList,
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
-import { LinkArrow } from '@/ui/link';
+import { LinkArrow, LinkBackdrop } from '@/ui/link';
 import {
-  ListItem,
-  ListLink,
-  ListSubtitle,
-  ListTag,
-  ListTitle,
-  ListUnordered,
-} from '@/ui/list';
+  Grid,
+  GridList,
+  GridListItem,
+} from '@/ui/navigation/grid';
 
 import Graph from './graph';
-import styles from './stylesheet';
 import type { Data } from './types';
 
 type Props = {
@@ -42,42 +38,41 @@ export default function View({ data }: Props) {
       />
       {data.categories.map((category) => (
         <Fragment key={category.title}>
-          <h2 className={styles.heading} id={category.title.replace(' ', '-')}>
-            <strong>{category.title}</strong>
-            <small>{category.weight} lbs</small>
+          <h2 id={category.title.replace(' ', '-')}>
+            <strong>{category.title.toUpperCase()}</strong>
+            <small>{category.items.length} items • {category.weight} lbs</small>
           </h2>
-          <ListUnordered labelledBy={category.title.replace(' ', '-')}>
-            {category.items.map((item, index: number) => (
-              <ListItem key={index}>
-                {!!item.link ? (
-                  <ListLink href={item.link} target="_blank">
-                    <ListTitle>
-                      {item.name.join(' ')}
-                    </ListTitle>
-                    <ListSubtitle>
-                      {item.consumable && `Consumable • `}
-                      {item.worn && `Worn • `}
-                      {(!item.worn && !item.consumable) && `Base • `}
-                      {item.weight} oz
-                    </ListSubtitle>
-                    <ListTag>
-                      <LinkArrow>Shop</LinkArrow>
-                    </ListTag>
-                  </ListLink>
-                ) : (
-                  <>
-                    <ListTitle>{item.name.join(' ')}</ListTitle>
-                    <ListSubtitle>
-                      {item.consumable && `Consumable • `}
-                      {item.worn && `Worn • `}
-                      {(!item.worn && !item.consumable) && `Base • `}
-                      {item.weight} oz
-                    </ListSubtitle>
-                  </>
-                )}
-              </ListItem>
-            ))}
-          </ListUnordered>
+          <Grid>
+            <GridList columns={2} id={category.title.replace(' ', '-')}>
+              {category.items.map((item, index: number) => (
+                <GridListItem key={index}>
+                  {!!item.link ? (
+                    <LinkBackdrop href={item.link} target="_blank">
+                      <strong>{item.name.join(' ')}</strong>
+                      <small>
+                        <LinkArrow>
+                          {item.consumable && `Consumable • `}
+                          {item.worn && `Worn • `}
+                          {(!item.worn && !item.consumable) && `Base • `}
+                          {item.weight} oz • view
+                        </LinkArrow >
+                      </small>
+                    </LinkBackdrop>
+                  ) : (
+                    <>
+                      <strong>{item.name.join(' ')}</strong>
+                      <small>
+                        {item.consumable && `Consumable • `}
+                        {item.worn && `Worn • `}
+                        {(!item.worn && !item.consumable) && `Base • `}
+                        {item.weight} oz
+                      </small>
+                    </>
+                  )}
+                </GridListItem>
+              ))}
+            </GridList>
+          </Grid>
         </Fragment>
       ))}
       <Breadcrumb>
