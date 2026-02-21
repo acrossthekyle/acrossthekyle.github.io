@@ -20,6 +20,15 @@ const styles = tw({
 
     last:mb-0
   `,
+  cta: `
+    p-1
+    ml-1
+  `,
+  icon: `
+    relative top-0.5
+    w-3.5 h-3.5
+    stroke-2
+  `,
 });
 
 export default styles;

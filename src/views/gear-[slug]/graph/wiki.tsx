@@ -1,8 +1,9 @@
 'use client';
 
+import { CircleQuestionMark } from 'lucide-react';
+
 import { useDialog } from '@/hooks/useDialog';
 import { Dialog, DialogContent, DialogHeader } from '@/ui/dialog';
-import { LinkArrow } from '@/ui/link';
 
 import styles from './stylesheet';
 
@@ -20,12 +21,12 @@ export default function Wiki() {
     <>
       <button
         aria-controls="wiki"
-        className={styles.wiki}
+        className={styles.cta}
         onClick={handleOnOpen}
         title="View wiki"
         type="button"
       >
-        <LinkArrow>Wiki</LinkArrow>
+        <CircleQuestionMark className={styles.icon} />
       </button>
       <Dialog
         id="wiki"
@@ -36,12 +37,12 @@ export default function Wiki() {
         ref={dialog}
       >
         <DialogHeader>
-          <strong>Wiki</strong>
-          <small>Descriptions</small>
+          <strong>Categories</strong>
+          <small>What each weight means</small>
         </DialogHeader>
         <DialogContent>
           <p>
-            When backpackers talk about pack weight, things are usually split into a handful of categories. It sounds technical, but it's really just a way to understand what contributes to the pack weight. Here's the breakdown in normal, non-gear-nerd language:
+            When backpackers talk about pack weight, things are usually split into a handful of categories. Here's the breakdown in normal, non-gear-nerd language:
           </p>
           <br /><br />
           <h3>

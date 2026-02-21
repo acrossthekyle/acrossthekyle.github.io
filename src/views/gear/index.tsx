@@ -29,7 +29,10 @@ export default function View({ data }: Props) {
         <small>{route('packs').subtitle}</small>
       </h1>
       <p>
-        From Spain to the TMB, and from Nepal to Patagonia, this is a list of the various gear that I've carried with me on my backpacking trips.
+        Weight plays a critical role in the success of a backpacking trip. The most important types of weight are Base Weight, Worn Weight, and Consumable Weight. It sounds technical, but it's really just a way of understanding what contributes to the overall pack weight.
+      </p>
+      <p>
+        From Nepal to Patagonia, this is a list of the packs I've carried with me on my various backpacking trips.
       </p>
       {data.map((group) => (
         <Fragment key={group.id}>

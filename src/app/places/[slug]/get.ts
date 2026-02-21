@@ -73,6 +73,10 @@ function buildStats(
 ) {
   const result = [
     {
+      label: 'Type',
+      value: uppercaseFirst(type),
+    },
+    {
       label: 'When',
       value: formatDateRange(date),
     },

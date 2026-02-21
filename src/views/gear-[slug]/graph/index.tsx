@@ -1,6 +1,7 @@
 import Link from 'next/link';
 
 import styles from './stylesheet';
+import Wiki from './wiki';
 
 type Props = {
   base: string;
@@ -48,13 +49,11 @@ export default function Graph({
   }));
 
   return (
-    <>
-      <h2 className={styles.breakdown}>
-        Weight breakdown {type !== undefined && `(${type})`}
-        {type !== undefined && (
-          <Link href={`/gear/${slug}`}>Reset</Link>
-        )}
+    <section className={styles.container}>
+      <h2 className={styles.header}>
+        <strong>Weight breakdown</strong>
       </h2>
+      <Wiki />
       <ul className={styles.graph}>
         {scaled.map(({ label, percent, value }) => (
           <li
@@ -62,13 +61,16 @@ export default function Graph({
             key={label}
             style={{ width: `${percent * 100}%` }}
           >
-            <Link className={styles.cta} href={`/gear/${slug}?type=${label.toLowerCase()}`}>
+            <Link
+              className={styles.filter}
+              href={type !== undefined ? `/gear/${slug}` : `/gear/${slug}?type=${label.toLowerCase()}`}
+            >
               <span className={styles.label}>{label}</span>
               <span className={styles.value}>{value} lbs</span>
             </Link>
           </li>
         ))}
       </ul>
-    </>
+    </section>
   );
 }

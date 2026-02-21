@@ -17,7 +17,6 @@ import {
 } from '@/ui/navigation/grid';
 
 import type { Data } from './types';
-import Wiki from './wiki';
 
 type Props = {
   data: Data;
@@ -30,7 +29,6 @@ export default function View({ data }: Props) {
         <strong>{route('places').text}</strong>
         <small>{route('places').subtitle}</small>
       </h1>
-      <Wiki />
       <p>
         From Nepal's Himalayas to Patagonia, I've thru-hiked a lot of miles and explored many destinations.
       </p>

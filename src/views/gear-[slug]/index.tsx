@@ -20,7 +20,6 @@ import {
 import Graph from './graph';
 import styles from './stylesheet';
 import type { Data } from './types';
-import Wiki from './wiki';
 
 type Props = {
   data: Data;
@@ -29,11 +28,10 @@ type Props = {
 export default function View({ data }: Props) {
   return (
     <Layout>
-      <h1 className={styles.header}>
+      <h1>
         <strong>{data.title}</strong>
         <small>{data.date} • {data.total} lbs</small>
       </h1>
-      <Wiki />
       <Graph
         base={data.base}
         consumable={data.consumable}

@@ -23,6 +23,7 @@ import Details from './details';
 import Snapshots from './snapshots';
 import styles from './stylesheet';
 import type { Data } from './types';
+import Wiki from './wiki';
 
 type Props = {
   data: Data;
@@ -52,6 +53,9 @@ export default function View({ data }: Props) {
         {data.stats.map((stat) => (
           <li key={stat.label}>
             {stat.label}
+            {stat.label.toLowerCase() === 'type' && (
+              <Wiki type={stat.value} />
+            )}
             <small>{stat.value}</small>
           </li>
         ))}
