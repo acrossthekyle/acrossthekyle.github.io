@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Fragment } from 'react';
 
 import { Layout } from '@/layout';
 import { route } from '@/routes';
@@ -10,7 +11,6 @@ import {
 import { Image, ImageCaption, ImageFigure } from '@/ui/image';
 
 import { IMAGES } from './constants';
-import styles from './stylesheet';
 
 export default function View() {
   return (
@@ -19,17 +19,20 @@ export default function View() {
         <strong>{route('photos').text}</strong>
         <small>{route('photos').subtitle}</small>
       </h1>
-      {IMAGES.map(({ caption, src }) => (
-        <ImageFigure className={styles.figure} key={src}>
-          <Image
-            alt=""
-            height={1080}
-            sizes="(max-width: 768px) 32vw, 40vw"
-            src={src}
-            width={1920}
-          />
-          <ImageCaption>{caption}</ImageCaption>
-        </ImageFigure>
+      {IMAGES.map(({ caption, src }, index: number) => (
+        <Fragment key={src}>
+          <ImageFigure>
+            <Image
+              alt=""
+              height={1080}
+              sizes="(max-width: 768px) 32vw, 40vw"
+              src={src}
+              width={1920}
+            />
+            <ImageCaption>{caption}</ImageCaption>
+          </ImageFigure>
+          {(index < IMAGES.length - 1) && <br />}
+        </Fragment>
       ))}
       <Breadcrumb>
         <BreadcrumbList>

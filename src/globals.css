@@ -39,13 +39,17 @@ body {
     padding-top: 4rem;
   }
 
-  h1,
-  article {
+  article,
+  h1 {
     padding-bottom: 4rem;
   }
 
-  article:last-of-type {
-    padding-bottom: 0;
+  article h2 {
+    padding-top: 0;
+  }
+
+  p + h2 {
+    padding-top: 2.5rem;
   }
 
   h2,
@@ -59,12 +63,15 @@ body {
     padding-bottom: 1.5rem;
   }
 
+  p:last-of-type {
+    padding-bottom: 0;
+  }
+
   ul {
     line-height: 175%;
   }
 
   figure {
-    padding-top: 1.5rem;
     position: relative;
   }
 
@@ -82,14 +89,17 @@ body {
     font-size: var(--text-sm);
     line-height: var(--tw-leading, var(--text-sm--line-height));
     padding-block: 0.25rem;
-
-    small {
-      padding-bottom: 0;
-    }
   }
 
   button {
     cursor: pointer;
+  }
+
+  hr {
+    width: 1rem;
+    margin-top: 1.75rem;
+    padding-top: 1.75rem;
+    border-color: var(--foreground);
   }
 
   dialog {
@@ -243,6 +253,10 @@ body {
   body {
     small {
       color: color-mix(in oklab, currentcolor 70%, transparent);
+    }
+
+    hr {
+      border-color: color-mix(in oklab, var(--foreground) 50%, transparent);
     }
   }
 }

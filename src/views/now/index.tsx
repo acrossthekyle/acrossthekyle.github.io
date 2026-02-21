@@ -15,45 +15,15 @@ export default function View() {
         <strong>{route('now').text}</strong>
         <small>{route('now').subtitle}</small>
       </h1>
-      <h2 id="reading">
-        <strong>Reading</strong>
-      </h2>
-      <ul aria-labelledby="reading">
-        <li>
-          "Death's End" by Liu Cixin
-        </li>
-        <li>
-          "A Clash of Kings" by George R.R. Martin
-        </li>
-      </ul>
-      <h2 id="health">
-        <strong>Health</strong>
-      </h2>
-      <ul aria-labelledby="health">
-        <li>
-          Daily yoga practices
-        </li>
-        <li>
-          Morning walks along the lakefront
-        </li>
-      </ul>
-      <h2 id="entertainment">
-        <strong>Entertainment</strong>
-      </h2>
-      <ul aria-labelledby="entertainment">
-        <li>
-          "A Knight of the Seven Kingdoms" on HBO Max
-        </li>
-        <li>
-          Rewatching "Star Trek: Enterprise" on Paramount+
-        </li>
-        <li>
-          "Dark Matter" on Apple TV+
-        </li>
-        <li>
-          Binging "How I Met Your Mother" on Hulu
-        </li>
-      </ul>
+      <p>
+        Reading "Death's End" by Liu Cixin and "A Clash of Kings" by George R.R. Martin.
+      </p>
+      <p>
+        Doing daily yoga practices and morning walks along the lakefront
+      </p>
+      <p>
+        Watching "A Knight of the Seven Kingdoms" on HBO Max and "Dark Matter" on Apple TV+, rewatching "Star Trek: Enterprise" on Paramount+, and binging "How I Met Your Mother" + "New Girl" on Hulu
+      </p>
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>

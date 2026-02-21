@@ -9,7 +9,6 @@ import {
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
 
-import styles from './stylesheet';
 import type { Data } from './types';
 
 type Props = {
@@ -25,7 +24,7 @@ export default function View({ data }: Props) {
       </h1>
       {data.map((item) => (
         <article key={item.slug}>
-          <h2 className={styles.heading} id={item.slug}>
+          <h2 id={item.slug}>
             <strong>{item.title}</strong>
             <small>{item.date} • {item.readingTime} min read</small>
           </h2>

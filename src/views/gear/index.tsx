@@ -24,13 +24,10 @@ type Props = {
 export default function View({ data }: Props) {
   return (
     <Layout>
-      <h1 id="gear">
+      <h1>
         <strong>{route('packs').text}</strong>
         <small>{route('packs').subtitle}</small>
       </h1>
-      <p>
-        Weight plays a critical role in the success of a backpacking trip. The most important types of weight are Base Weight, Worn Weight, and Consumable Weight. It sounds technical, but it's really just a way of understanding what contributes to the overall pack weight.
-      </p>
       <p>
         From Nepal to Patagonia, this is a list of the packs I've carried with me on my various backpacking trips.
       </p>

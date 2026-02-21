@@ -21,7 +21,6 @@ import {
 } from '@/ui/timeline';
 
 import { TIMELINE } from './constants';
-import styles from './stylesheet';
 
 export default function View() {
   return (
@@ -33,7 +32,7 @@ export default function View() {
       <p>
         I'm Kyle &mdash; a millenial living in the city of Chicago on the lands belonging to the Potawatomi, Ojibwe, and Odawa.
       </p>
-      <ImageFigure className={styles.figure}>
+      <ImageFigure>
         <Image
           alt=""
           height={432}
@@ -64,6 +63,7 @@ export default function View() {
         <p>
           Other moments &mdash; both big and small &mdash; that have shaped my life.
         </p>
+        <br />
         <TimelineItems>
           {TIMELINE.map(({ paragraph, title, year }) => (
             <TimelineItem key={year}>

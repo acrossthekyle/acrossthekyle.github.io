@@ -11,7 +11,7 @@ export default function Container({ children }: Props) {
       <nav aria-label="supplementary navigation" className={styles.container}>
         {children}
       </nav>
-      <hr className={styles.hr} />
+      <hr />
     </>
   );
 }

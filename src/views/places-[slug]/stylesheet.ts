@@ -3,6 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   stats: `
     grid grid-cols-1 gap-6
+    pt-6
 
     md:grid-cols-2
   `,
@@ -27,7 +28,7 @@ const styles = tw({
   icon: `
     relative top-0.5
     w-3.5 h-3.5
-    stroke-2
+    stroke-1.5
   `,
 });
 

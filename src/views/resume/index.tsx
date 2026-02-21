@@ -8,7 +8,6 @@ import {
   BreadcrumbList,
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
-import { LinkArrow } from '@/ui/link';
 import {
   Timeline,
   TimelineContent,
@@ -37,12 +36,6 @@ export default function View({ data }: Props) {
       <p>
         I'm a self-taught web developer/software engineer who is driven to create because making things with code thrills me to no end. With a strong background in JavaScript/TypeScript, and HTML/CSS, I have hands-on experience working with high-traffic, customer-facing products built with an attention to detail.
       </p>
-      <Link
-        href="/kyle-gilbert-resume.pdf"
-        target="_blank"
-      >
-        <strong><LinkArrow>View PDF</LinkArrow></strong>
-      </Link>
       <h2 id="skills">
         <strong>Skills</strong>
       </h2>
@@ -87,7 +80,7 @@ export default function View({ data }: Props) {
         {data.education.map((item) => (
           <li key={item.degree}>
             <h3>
-              <strong>{item.school}</strong>
+              {item.school}
               <small>
                 {item.degree} &mdash; {item.graduation}
               </small>
