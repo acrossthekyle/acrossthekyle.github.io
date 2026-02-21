@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   list: (canShowAll: boolean) => tw(`
-    ${!canShowAll ? 'h-228 overflow-hidden' : 'h-auto'}
+    ${!canShowAll ? 'h-314 md:h-228 overflow-hidden' : 'h-auto'}
 
     md:pl-12
   `),
