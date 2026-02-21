@@ -2,12 +2,11 @@ import styles from './stylesheet';
 
 type Props = {
   children: React.ReactNode | React.ReactNode[];
-  shrink?: boolean;
 };
 
-export default function Date({ children, shrink }: Props) {
+export default function Date({ children }: Props) {
   return (
-    <span className={styles.container(shrink)}>
+    <span className={styles.container}>
       {children}
     </span>
   );

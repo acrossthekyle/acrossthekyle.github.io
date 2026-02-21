@@ -9,6 +9,7 @@ import {
 import { Map, MapMarker } from '@/ui/map';
 import {
   Timeline,
+  TimelineDate,
   TimelineEntry,
   TimelineItem,
   TimelineLine,
@@ -60,9 +61,10 @@ export default function View({ data }: Props) {
             {data.stages.map((stage) => (
               <TimelineItem key={stage.index}>
                 <TimelineLine />
+                <TimelineDate>{stage.index}/{data.total}</TimelineDate>
                 <TimelineEntry>
                   <p>
-                    {stage.index}/{data.total}: {stage.title}
+                    {stage.title}
                     <small>{stage.date}</small>
                     <small>{stage.stats.join(' • ')}</small>
                   </p>

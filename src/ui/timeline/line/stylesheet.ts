@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    relative
+    absolute left-0 top-0 bottom-0
 
     after:absolute
     after:top-7

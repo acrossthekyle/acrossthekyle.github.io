@@ -2,9 +2,9 @@ import tw from '@/styles';
 
 const styles = tw({
   list: (canShowAll: boolean) => tw(`
-    overflow-hidden
+    ${!canShowAll ? 'h-228 overflow-hidden' : 'h-auto'}
 
-    ${!canShowAll ? 'h-228' : 'h-auto'}
+    md:pl-12
   `),
   cta: `
     group
@@ -15,6 +15,8 @@ const styles = tw({
     duration-300
 
     hover:scale-115
+
+    md:ml-9
   `,
   icon: `
     animate-pulse

@@ -159,8 +159,8 @@ body {
   }
 
   dialog > h2 {
-    font-size: 1.25rem;
-    line-height: 100%;
+    font-size: 1.375rem;
+    line-height: 150%;
   }
 
   /* third-party package styling  */
@@ -214,6 +214,11 @@ body {
 @media (min-width: 48rem) {
   body {
     h1 strong {
+      font-size: 1.25rem;
+      line-height: 125%;
+    }
+
+    dialog > h2 {
       font-size: 1.25rem;
       line-height: 125%;
     }

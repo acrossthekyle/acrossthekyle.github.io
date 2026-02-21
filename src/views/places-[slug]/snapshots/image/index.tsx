@@ -81,7 +81,7 @@ export default function Modal({ index, location, src, total }: Props) {
         ref={dialog}
       >
         <DialogHeader className={styles.header}>
-          <strong>Image {index} / {total}</strong>
+          <strong>Image {index}/{total}</strong>
           <small>{location}</small>
         </DialogHeader>
         <DialogContent>

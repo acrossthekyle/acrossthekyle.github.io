@@ -4,7 +4,8 @@ const styles = tw({
   container: `
     group
     relative
-    flex gap-x-2
+    flex flex-col gap-x-2
+    pl-7
 
     md:gap-x-3
   `,

@@ -62,8 +62,8 @@ export default function View() {
       <Timeline>
         {TIMELINE.map(({ paragraph, title, year }) => (
           <TimelineItem key={year}>
-            <TimelineDate>{year}</TimelineDate>
             <TimelineLine />
+            <TimelineDate>{year}</TimelineDate>
             <TimelineEntry>
               {title}
               {!!paragraph && <small>{paragraph}</small>}

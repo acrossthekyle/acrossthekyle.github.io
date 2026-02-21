@@ -1,17 +1,16 @@
 import tw from '@/styles';
 
-const styles = {
-  container: (shrink?: boolean) => tw(`
-    absolute left-6.5 top-0
-    inline-block
-    ${shrink ? 'w-18' : 'min-w-7'}
-    pt-1.5 mr-2
+const styles = tw({
+  container: `
+    block
+    pt-1.5 pb-1
     text-start text-xs text-current/60
 
-    md:relative
-    md:left-auto
-    md:top-auto
-  `),
-};
+    md:absolute
+    md:-left-12
+    md:top-0
+    md:pb-0
+  `,
+});
 
 export default styles;

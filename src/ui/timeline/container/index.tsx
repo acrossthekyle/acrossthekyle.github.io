@@ -1,6 +1,6 @@
 'use client';
 
-import { Plus } from 'lucide-react';
+import { Minus, Plus } from 'lucide-react';
 import { useState } from 'react';
 
 import styles from './stylesheet';
@@ -14,7 +14,7 @@ export default function Container({ children, isPreview }: Props) {
   const [canShowAll, setCanShowAll] = useState(isPreview ? false : true);
 
   const handleOnViewMore = () => {
-    setCanShowAll(true);
+    setCanShowAll(previous => !previous);
   };
 
   return (
@@ -22,15 +22,19 @@ export default function Container({ children, isPreview }: Props) {
       <ol aria-label="timeline" className={styles.list(canShowAll)}>
         {children}
       </ol>
-      {!canShowAll && (
+      {isPreview && (
         <button
           className={styles.cta}
           onClick={handleOnViewMore}
-          title="View all"
+          title={canShowAll ? 'View all' : 'Reset'}
           type="button"
         >
           <span className={styles.dot}/>
-          <Plus className={styles.icon} />
+          {canShowAll ? (
+            <Minus className={styles.icon} />
+          ) : (
+            <Plus className={styles.icon} />
+          )}
         </button>
       )}
     </>
