@@ -102,7 +102,7 @@ export default function Menu({ isMenu }: Props) {
       </Grid>
       <Heading id="code" isMenu={isMenu}>
         <strong>CODE</strong>
-        <small>What and why</small>
+        <small>My bread-n-butter</small>
       </Heading>
       <Grid>
         <GridList columns={3} id="code">

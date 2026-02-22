@@ -5,7 +5,6 @@ import Markdown from 'react-markdown';
 
 import { useDialog } from '@/hooks/useDialog';
 import { Dialog, DialogContent, DialogHeader } from '@/ui/dialog';
-import { LinkArrow } from '@/ui/link';
 import Loading from '@/ui/loading';
 
 import Gpx from './gpx';
@@ -53,7 +52,7 @@ export default function Modal({ index, label, slug, title, total }: Props) {
         onClick={handleOnOpen}
         type="button"
       >
-        <strong><LinkArrow>View gpx + trip report</LinkArrow></strong>
+        <strong>[+]</strong>
       </button>
       <Dialog
         id="details"

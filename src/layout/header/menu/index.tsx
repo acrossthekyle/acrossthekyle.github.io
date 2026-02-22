@@ -1,5 +1,7 @@
 'use client';
 
+import { Folder } from 'lucide-react';
+
 import { useDialog } from '@/hooks/useDialog';
 import { Dialog, DialogContent, DialogHeader } from '@/ui/dialog';
 
@@ -26,7 +28,7 @@ export default function Menu() {
         onClick={handleOnOpen}
         type="button"
       >
-        Menu
+        <Folder className="w-4 h-4" />
       </button>
       <Dialog
         id="menu"

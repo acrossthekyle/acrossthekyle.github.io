@@ -1,9 +1,8 @@
 import tw from '@/styles';
 
 const styles = tw({
-  cta: `
-    p-1
-    ml-1
+  container: `
+    mb-16
   `,
 });
 

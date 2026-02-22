@@ -1,12 +1,14 @@
 import Image from 'next/image';
 
+import styles from './stylesheet';
+
 type Props = {
   children: React.ReactNode | React.ReactNode[];
 };
 
 export default function Container({ children }: Props) {
   return (
-    <figure>
+    <figure className={styles.container}>
       <Image
         alt="map of places visited"
         height={432}

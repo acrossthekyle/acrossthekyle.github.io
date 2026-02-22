@@ -29,7 +29,7 @@ export default function View({ data }: Props) {
         <small>{route('packs').subtitle}</small>
       </h1>
       <p>
-        From Nepal to Patagonia, this is a list of the packs I've carried with me on my various backpacking trips.
+        Gear loadouts from various backpacking trips.
       </p>
       {data.map((group) => (
         <Fragment key={group.id}>

@@ -81,8 +81,8 @@ export default function Modal({ index, location, src, title, total }: Props) {
         ref={dialog}
       >
         <DialogHeader className={styles.header}>
-          <strong>Image {index}/{total}: {title}</strong>
-          <small>{location}</small>
+          <strong>{title}</strong>
+          <small>{index}/{total} • {location}</small>
         </DialogHeader>
         <DialogContent>
           <ImageFigure className={styles.figure}>
@@ -99,7 +99,7 @@ export default function Modal({ index, location, src, title, total }: Props) {
               )}
               {!isLoading && data !== null && (
                 <>
-                  {data.exif.image.Model} &mdash; ISO {data.exif.exif.ISO} {data.exif.exif.FocalLengthIn35mmFormat} mm {data.exif.exif.ExposureCompensation} ev <span className={styles.emphasis}>f</span> {data.exif.exif.FNumber.toFixed(2)} {data.exif.exif.ApertureValue.toFixed(4).replace('.', '/')} <span className={styles.emphasis}>s</span>
+                  {data.exif.image.Model} &mdash; ISO {data.exif.exif.ISO} {data.exif.exif.FocalLengthIn35mmFormat} mm {Number(data.exif.exif.ExposureCompensation).toFixed(2)} ev <span className={styles.emphasis}>f</span> {data.exif.exif.FNumber.toFixed(2)} {data.exif.exif.ApertureValue.toFixed(4).replace('.', '/')} <span className={styles.emphasis}>s</span>
                 </>
               )}
             </ImageCaption>

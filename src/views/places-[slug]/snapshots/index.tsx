@@ -24,9 +24,6 @@ export default function Snapshots({ images, total }: Props) {
 
   return (
     <>
-      <h2 id="images">
-        <strong>Images</strong>
-      </h2>
       <ul aria-labelledby="images" className={styles.images(canShowAll)}>
         {images.map((image, index: number) => (
           <li className={styles.image(index, images.length)} key={image.index}>
@@ -47,7 +44,7 @@ export default function Snapshots({ images, total }: Props) {
           onClick={handleOnViewMore}
           type="button"
         >
-          <strong>{!canShowAll ? 'View all' : 'View less'}</strong>
+          <strong>{!canShowAll ? `View all ${images.length}` : 'View less'}</strong>
         </button>
       )}
     </>

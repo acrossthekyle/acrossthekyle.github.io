@@ -1,6 +1,5 @@
 'use client';
 
-import { Minus, Plus } from 'lucide-react';
 import { useContext, useEffect } from 'react';
 
 import { TimelineContext } from '../context';
@@ -23,12 +22,7 @@ export default function Toggle() {
       title={isToggled ? 'View less' : 'View all'}
       type="button"
     >
-      <span className={styles.dot}/>
-      {isToggled ? (
-        <Minus className={styles.icon} />
-      ) : (
-        <Plus className={styles.icon} />
-      )}
+      {isToggled ? '[-]' : '[+]'}
     </button>
   );
 }

@@ -12,9 +12,6 @@ const styles = tw({
   cta: `
     absolute top-1 right-0
   `,
-  icon: `
-    w-4 h-4
-  `,
   graph: `
     flex flex-col gap-16
     w-full

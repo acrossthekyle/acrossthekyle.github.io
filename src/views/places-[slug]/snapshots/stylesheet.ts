@@ -17,9 +17,9 @@ const styles = {
     ${getColSpan(total, index)}
   `),
   view: (canShowAll: boolean) => tw(`
-    relative ${canShowAll ? 'top-0' : '-top-14'} z-3
-    w-full h-14
-    py-2
+    relative z-3
+    w-full h-8
+    ${!canShowAll && '-top-6 -mt-4'}
     text-center text-sm
     bg-linear-to-t from-(--background) to-transparent
 

@@ -7,13 +7,11 @@ import {
   BreadcrumbList,
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
-import { Image, ImageFigure, ImageCaption } from '@/ui/image';
 import {
   Timeline,
   TimelineContent,
   TimelineDate,
   TimelineEntry,
-  TimelineHeader,
   TimelineHeading,
   TimelineItem,
   TimelineItems,
@@ -32,39 +30,21 @@ export default function View() {
       <p>
         <strong>Hi, I'm Kyle</strong> &mdash; a millenial living in the city of Chicago on the lands belonging to the Potawatomi, Ojibwe, and Odawa.
       </p>
-      <ImageFigure>
-        <Image
-          alt=""
-          height={432}
-          sizes="(max-width: 768px) 32vw, 40vw"
-          src="7e8b11cd-c9b4-497d-82fe-dbd4f4dc3114.jpeg"
-          width={768}
-        />
-        <ImageCaption>
-          Himalayas, Nepal &mdash; 2019
-        </ImageCaption>
-      </ImageFigure>
-      <h2>
-        <strong>Background</strong>
-      </h2>
+      <p>
+        I'm drawn to long trails and wild places, from the Himalayas to Patagonia. Between adventures, I build web apps in Chicago.
+      </p>
       <p>
         My first "real" adventure was a month-long thru-hike of the Camino de Santiago: a long-distance trail across Northern Spain from the Pyreness in the east, to the Atlantic ocean in the west &mdash; a distance of nearly 600 miles. Since then I've been to numerous <Link href="/places"><u>places</u></Link>, both near and far, from my homebase in Chicago.
       </p>
-      <h2>
-        <strong>Currently</strong>
-      </h2>
       <p>
         Between adventures, I build web and mobile apps as a self-taught software engineer, because making things with code thrills me to no end. Feel free to browse my <Link href="/resume"><u>resume</u></Link>.
       </p>
       <p>
-        Occasionally I'll write <Link href="/words"><u>words</u></Link> about thoughts, opinions, or reflections on this website, and share <Link href="/photos"><u>photos</u></Link> of things that catch my eye.
+        Occasionally I'll write <Link href="/words"><u>words</u></Link> about thoughts, opinions, or reflections, and share <Link href="/photos"><u>photos</u></Link> of things that catch my eye.
       </p>
       <Timeline>
-        <TimelineHeader>
-          <strong>Milestones</strong>
-        </TimelineHeader>
         <p>
-          Other moments &mdash; both big and small &mdash; that have shaped my life.
+          Other moments &mdash; both big and small &mdash; that have shaped my life so far:
         </p>
         <br />
         <TimelineItems>

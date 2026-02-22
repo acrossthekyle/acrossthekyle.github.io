@@ -48,10 +48,6 @@ body {
     padding-top: 0;
   }
 
-  p + h2 {
-    padding-top: 2.5rem;
-  }
-
   h2,
   h3,
   ul {

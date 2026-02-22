@@ -15,7 +15,7 @@ export default function Header({ isRoot }: Props) {
         className={styles.anchor}
         href="/"
       >
-        K.
+        /
       </Link>
       {!isRoot && (
         <Menu />
