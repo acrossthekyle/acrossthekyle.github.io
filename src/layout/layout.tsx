@@ -1,4 +1,4 @@
-import Header from './header';
+import Footer from './footer';
 import Main from './main';
 
 type Props = {
@@ -9,10 +9,10 @@ type Props = {
 export default function Layout({ children, isRoot }: Props) {
   return (
     <>
-      <Header isRoot={isRoot || false} />
       <Main>
         {children}
       </Main>
+      <Footer isRoot={isRoot || false} />
     </>
   );
 }

@@ -1,10 +1,20 @@
-import styles from './stylesheet';
-import Theme from './theme';
+import Link from 'next/link';
 
-export default function Footer() {
+import styles from './stylesheet';
+
+type Props = {
+  isRoot: boolean;
+};
+
+export default function Footer({ isRoot }: Props) {
   return (
     <footer className={styles.container}>
-      <Theme />
+      {!isRoot && (
+        <Link className={styles.anchor} href="/">
+          Back to home
+        </Link>
+      )}
+      <small>Copyright 1987 &ndash; {new Date().getFullYear()}, all rights reserved. See you out there.</small>
     </footer>
   );
 }

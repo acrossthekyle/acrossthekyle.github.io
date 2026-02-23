@@ -8,19 +8,16 @@ const styles = tw({
     bg-transparent
   `,
   close: `
-    absolute top-4.5 right-4
+    absolute top-15.75 right-3.5
     p-2
 
     md:fixed
-    md:right-10
+    md:right-10.75
     md:top-12
   `,
   icon: `
     w-6 h-6
     stroke-1
-
-    md:w-6
-    md:h-6
   `,
   hint: `
     hidden

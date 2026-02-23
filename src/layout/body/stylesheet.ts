@@ -5,7 +5,7 @@ const styles = tw({
     antialiased
     flex flex-col
     h-auto min-h-full
-    p-6
+    p-6 py-16
     font-mono
     text-base text-(--foreground)
     bg-(--background)

@@ -32,7 +32,7 @@ export const ROUTES = [
   {
     group: 'info',
     path: '/about',
-    subtitle: 'My backstory',
+    subtitle: 'A brief history',
     text: 'About',
   },
   {
@@ -88,6 +88,12 @@ export const ROUTES = [
     path: 'https://www.websitecarbon.com/website/acrossthekyle-com/',
     subtitle: 'A+ rating',
     text: 'Carbon',
+  },
+  {
+    group: 'settings',
+    path: '',
+    subtitle: '',
+    text: 'theme',
   },
 ];
 

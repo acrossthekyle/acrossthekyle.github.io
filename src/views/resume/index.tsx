@@ -37,7 +37,7 @@ export default function View({ data }: Props) {
         I'm a self-taught web developer/software engineer who is driven to create because making things with code thrills me to no end. With a strong background in JavaScript/TypeScript, and HTML/CSS, I have hands-on experience working with high-traffic, customer-facing products built with an attention to detail.
       </p>
       <h2 id="skills">
-        <strong>Skills</strong>
+        <strong>SKILLS</strong>
       </h2>
       <dl aria-labelledby="skills">
         {data.skills.map((skill) => (
@@ -53,7 +53,7 @@ export default function View({ data }: Props) {
       </dl>
       <Timeline>
         <TimelineHeader>
-          <strong>Career</strong>
+          <strong>CAREER HISTORY</strong>
         </TimelineHeader>
         <TimelineItems>
           {data.history.map((item) => (
@@ -74,7 +74,7 @@ export default function View({ data }: Props) {
         </TimelineItems>
       </Timeline>
       <h2 id="education">
-        <strong>Education</strong>
+        <strong>EDUCATION</strong>
       </h2>
       <ol aria-labelledby="education">
         {data.education.map((item) => (

@@ -7,6 +7,7 @@ import {
 } from '@/ui/navigation/grid';
 
 import styles from './stylesheet';
+import Theme from './theme';
 
 type Props = {
   isMenu?: boolean;
@@ -102,13 +103,26 @@ export default function Menu({ isMenu }: Props) {
       </Grid>
       <Heading id="code" isMenu={isMenu}>
         <strong>CODE</strong>
-        <small>My bread-n-butter</small>
+        <small>Technical stuff</small>
       </Heading>
       <Grid>
         <GridList columns={3} id="code">
           {ROUTES.filter(({ group }) => group === 'code').map((item) => (
             <GridListItem key={item.path}>
               <Link {...item} />
+            </GridListItem>
+          ))}
+        </GridList>
+      </Grid>
+      <Heading id="settings" isMenu={isMenu}>
+        <strong>SETTINGS</strong>
+        <small>Preferences</small>
+      </Heading>
+      <Grid>
+        <GridList columns={3} id="settings">
+          {ROUTES.filter(({ group }) => group === 'settings').map((item) => (
+            <GridListItem key={item.text}>
+              {item.text === 'theme' && <Theme />}
             </GridListItem>
           ))}
         </GridList>

@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #1a1a22;
+  --background: #1a1a1a;
   --foreground: #ffffff;
   --dialog: rgba(0, 0, 0, 0.25);
 }
@@ -17,7 +17,7 @@ html {
 }
 
 html[data-theme="dark"] {
-  --background: #1a1a22;
+  --background: #1a1a1a;
   --foreground: #ffffff;
   --dialog: rgba(0, 0, 0, 0.25);
 }
@@ -42,6 +42,10 @@ body {
   article,
   h1 {
     padding-bottom: 4rem;
+  }
+
+  article:last-of-type {
+    padding-bottom: 0;
   }
 
   article h2 {
@@ -75,7 +79,7 @@ body {
     border-bottom-color: var(--foreground);
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    padding-bottom: 3px;
+    padding-bottom: 0px;
     text-decoration: none;
   }
 

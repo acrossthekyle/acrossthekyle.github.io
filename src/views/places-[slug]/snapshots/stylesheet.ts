@@ -19,7 +19,7 @@ const styles = {
   view: (canShowAll: boolean) => tw(`
     relative z-3
     w-full h-8
-    ${!canShowAll && '-top-6 -mt-4'}
+    ${!canShowAll && '-top-7 md:-top-6 -mt-4'}
     text-center text-sm
     bg-linear-to-t from-(--background) to-transparent
 
