@@ -9,11 +9,9 @@ const styles = tw({
   cta: `
     relative
     h-full w-full
-    rounded-lg
 
     after:absolute
     after:inset-0
-    after:rounded-lg
     after:bg-black
     after:opacity-0
     after:duration-500
@@ -22,7 +20,6 @@ const styles = tw({
   `,
   figure: `
     relative
-    rounded-lg
     !pt-0
 
     md:-mx-20

@@ -99,7 +99,9 @@ export default function Modal({ index, location, src, title, total }: Props) {
               )}
               {!isLoading && data !== null && (
                 <>
-                  {data.exif.image.Model} &mdash; ISO {data.exif.exif.ISO} {data.exif.exif.FocalLengthIn35mmFormat} mm {Number(data.exif.exif.ExposureCompensation).toFixed(2)} ev <span className={styles.emphasis}>f</span> {data.exif.exif.FNumber.toFixed(2)} {data.exif.exif.ApertureValue.toFixed(4).replace('.', '/')} <span className={styles.emphasis}>s</span>
+                  {data.exif.image.Model}
+                  <br />
+                  ISO {data.exif.exif.ISO} {data.exif.exif.FocalLengthIn35mmFormat} mm {Number(data.exif.exif.ExposureCompensation).toFixed(1)} ev <span className={styles.emphasis}>f</span> {data.exif.exif.FNumber.toFixed(2)} {data.exif.exif.ApertureValue.toFixed(4).replace('.', '/')} <span className={styles.emphasis}>s</span>
                 </>
               )}
             </ImageCaption>

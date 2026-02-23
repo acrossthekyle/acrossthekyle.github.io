@@ -24,8 +24,8 @@ export default function Snapshots({ images, total }: Props) {
 
   return (
     <>
-      <ul aria-labelledby="images" className={styles.images(canShowAll)}>
-        {images.map((image, index: number) => (
+      <ul aria-labelledby="images" className={styles.images}>
+        {images.slice(0, canShowAll ? -1 : 6).map((image, index: number) => (
           <li className={styles.image(index, images.length)} key={image.index}>
             <Image
               location={image.location}
@@ -40,11 +40,11 @@ export default function Snapshots({ images, total }: Props) {
       {images.length > 6 && (
         <button
           aria-describedby="images"
-          className={styles.view(canShowAll)}
+          className={styles.view}
           onClick={handleOnViewMore}
           type="button"
         >
-          <strong>{!canShowAll ? `View all ${images.length}` : 'View less'}</strong>
+          <strong>[{canShowAll ? '-' : '+'}] {!canShowAll ? `View all images (${images.length})` : 'View less'}</strong>
         </button>
       )}
     </>

@@ -8,6 +8,7 @@ import {
 } from '@/ui/breadcrumbs';
 
 import Snapshots from './snapshots';
+import styles from './stylesheet';
 import type { Data } from './types';
 
 type Props = {
@@ -37,6 +38,19 @@ export default function View({ data }: Props) {
           {data.type} • {data.location} • {data.year}
         </small>
       </h1>
+      {data.description.map((paragraph) => (
+        <p key={paragraph}>
+          {paragraph}
+        </p>
+      ))}
+      <ul aria-label="stats" className={styles.stats}>
+        {data.stats.map((stat) => (
+          <li key={stat.label}>
+            {stat.label}
+            <small>{stat.value}</small>
+          </li>
+        ))}
+      </ul>
       <Snapshots images={data.images} total={data.total} />
     </Layout>
   );

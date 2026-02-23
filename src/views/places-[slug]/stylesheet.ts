@@ -5,6 +5,12 @@ const styles = tw({
     p-1
     ml-1
   `,
+  stats: `
+    grid grid-cols-1 gap-6
+    my-16
+
+    md:grid-cols-2
+  `,
 });
 
 export default styles;
