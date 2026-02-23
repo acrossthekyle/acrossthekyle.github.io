@@ -25,6 +25,15 @@ type Props = {
 export default function View({ data }: Props) {
   return (
     <Layout>
+      <Breadcrumb>
+        <BreadcrumbList>
+          <BreadcrumbItem>
+            <Link href="/">
+              ../
+            </Link>
+          </BreadcrumbItem>
+        </BreadcrumbList>
+      </Breadcrumb>
       <h1 id="places">
         <strong>{route('places').text}</strong>
         <small>{route('places').subtitle}</small>
@@ -64,15 +73,6 @@ export default function View({ data }: Props) {
           </Grid>
         </Fragment>
       ))}
-      <Breadcrumb>
-        <BreadcrumbList>
-          <BreadcrumbItem>
-            <Link href="/">
-              ../
-            </Link>
-          </BreadcrumbItem>
-        </BreadcrumbList>
-      </Breadcrumb>
     </Layout>
   );
 }

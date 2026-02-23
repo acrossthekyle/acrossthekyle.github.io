@@ -7,19 +7,29 @@ import {
   BreadcrumbList,
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
+import { LinkArrow } from '@/ui/link';
 
 export default function View() {
   return (
     <Layout>
+      <Breadcrumb>
+        <BreadcrumbList>
+          <BreadcrumbItem>
+            <Link href="/">
+              ../
+            </Link>
+          </BreadcrumbItem>
+        </BreadcrumbList>
+      </Breadcrumb>
       <h1>
         <strong>{route('about').text}</strong>
         <small>{route('about').subtitle}</small>
       </h1>
       <p>
-        During the 90's I played with legos while starting my formal education and enjoying the golden age of Star Trek (The Next Generation, Deep Space 9, and Voyager).
+        During the 90's I played with legos while starting my formal education and enjoying the golden age of Star Trek (The Next Generation, Deep Space 9, and Voyager). If you want some good breakdowns of star trek shows, check out <Link href="https://www.youtube.com/playlist?list=PLAXhpI9PdbZYF9gX4d8SHTk56eQ7w912Q" target="_blank"><u><LinkArrow>Reverse Angle</LinkArrow></u></Link> and <Link href="https://www.youtube.com/@Unlimited_Lives/playlists" target="_blank"><u><LinkArrow>Unlimited Lives</LinkArrow></u></Link>.
       </p>
       <p>
-        Circa 2001 I discovered website programming and 11 years later, after finishing my formal education, I began a career in web development.
+        Around the dawn of the new millenium I discovered website programming and 11 years later, after finishing my formal education, I began a career in web development.
       </p>
       <p>
         A few years after that I had a passport, and from 2015 to 2016 I put it to use with a handful of trips to South America where I first learned about backpacking. But it wasn't until 2018, after a two-year traveling hiatus, that I would have my first backpacking experience.
@@ -36,15 +46,6 @@ export default function View() {
       <p>
         As always, see you out there.
       </p>
-      <Breadcrumb>
-        <BreadcrumbList>
-          <BreadcrumbItem>
-            <Link href="/">
-              ../
-            </Link>
-          </BreadcrumbItem>
-        </BreadcrumbList>
-      </Breadcrumb>
     </Layout>
   );
 }

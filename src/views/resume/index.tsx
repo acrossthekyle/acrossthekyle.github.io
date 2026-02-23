@@ -29,6 +29,15 @@ type Props = {
 export default function View({ data }: Props) {
   return (
     <Layout>
+      <Breadcrumb>
+        <BreadcrumbList>
+          <BreadcrumbItem>
+            <Link href="/">
+              ../
+            </Link>
+          </BreadcrumbItem>
+        </BreadcrumbList>
+      </Breadcrumb>
       <h1>
         <strong>{route('resume').text}</strong>
         <small>{route('resume').subtitle}</small>
@@ -88,15 +97,6 @@ export default function View({ data }: Props) {
           </li>
         ))}
       </ol>
-      <Breadcrumb>
-        <BreadcrumbList>
-          <BreadcrumbItem>
-            <Link href="/">
-              ../
-            </Link>
-          </BreadcrumbItem>
-        </BreadcrumbList>
-      </Breadcrumb>
     </Layout>
   );
 }

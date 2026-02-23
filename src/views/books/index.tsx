@@ -13,6 +13,15 @@ import { BOOKS } from './constants';
 export default function View() {
   return (
     <Layout>
+      <Breadcrumb>
+        <BreadcrumbList>
+          <BreadcrumbItem>
+            <Link href="/">
+              ../
+            </Link>
+          </BreadcrumbItem>
+        </BreadcrumbList>
+      </Breadcrumb>
       <h1 id="books">
         <strong>{route('books').text}</strong>
         <small>{route('books').subtitle}</small>
@@ -26,15 +35,6 @@ export default function View() {
           </li>
         ))}
       </ul>
-      <Breadcrumb>
-        <BreadcrumbList>
-          <BreadcrumbItem>
-            <Link href="/">
-              ../
-            </Link>
-          </BreadcrumbItem>
-        </BreadcrumbList>
-      </Breadcrumb>
     </Layout>
   );
 }

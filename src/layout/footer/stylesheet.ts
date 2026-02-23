@@ -7,7 +7,7 @@ const styles = tw({
   `,
   anchor: `
     inline-block
-    mb-2
+    mb-16
   `,
   icon: `
     w-3 h-3

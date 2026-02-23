@@ -18,6 +18,15 @@ type Props = {
 export default function View({ data }: Props) {
   return (
     <Layout>
+      <Breadcrumb>
+        <BreadcrumbList>
+          <BreadcrumbItem>
+            <Link href="/">
+              ../
+            </Link>
+          </BreadcrumbItem>
+        </BreadcrumbList>
+      </Breadcrumb>
       <h1 id="words">
         <strong>{route('words').text}</strong>
         <small>{route('words').subtitle}</small>
@@ -31,15 +40,6 @@ export default function View({ data }: Props) {
           <Markdown>{item.content}</Markdown>
         </article>
       ))}
-      <Breadcrumb>
-        <BreadcrumbList>
-          <BreadcrumbItem>
-            <Link href="/">
-              ../
-            </Link>
-          </BreadcrumbItem>
-        </BreadcrumbList>
-      </Breadcrumb>
     </Layout>
   );
 }

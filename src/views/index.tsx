@@ -1,8 +1,11 @@
 import { Layout, Navigation } from '@/layout';
 
+import styles from './stylesheet';
+
 export default function View() {
   return (
     <Layout isRoot>
+      <span className={styles.slash} role="presentation">/</span>
       <h1>
         <strong>Hi, I'm Kyle</strong>
         <small>Backpacker and engineer</small>

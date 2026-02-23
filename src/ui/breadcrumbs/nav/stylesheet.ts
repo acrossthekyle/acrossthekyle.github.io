@@ -2,9 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    flex items-center flex-nowrap
-    overflow-hidden
-    mb-16 !pb-0
+    !pt-0
   `,
 });
 

@@ -17,13 +17,6 @@ type Props = {
 export default function View({ data }: Props) {
   return (
     <Layout>
-      <h1>
-        <strong>{data.title}</strong>
-        <small>
-          {data.type} • {data.location} • {data.year}
-        </small>
-      </h1>
-      <Snapshots images={data.images} total={data.total} />
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>
@@ -38,6 +31,13 @@ export default function View({ data }: Props) {
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
+      <h1>
+        <strong>{data.title}</strong>
+        <small>
+          {data.type} • {data.location} • {data.year}
+        </small>
+      </h1>
+      <Snapshots images={data.images} total={data.total} />
     </Layout>
   );
 }

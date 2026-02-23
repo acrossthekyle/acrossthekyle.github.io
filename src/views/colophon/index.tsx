@@ -12,6 +12,15 @@ import { LinkArrow } from '@/ui/link';
 export default function View() {
   return (
     <Layout>
+      <Breadcrumb>
+        <BreadcrumbList>
+          <BreadcrumbItem>
+            <Link href="/">
+              ../
+            </Link>
+          </BreadcrumbItem>
+        </BreadcrumbList>
+      </Breadcrumb>
       <h1>
         <strong>{route('colophon').text}</strong>
         <small>{route('colophon').subtitle}</small>
@@ -34,15 +43,6 @@ export default function View() {
       <p>
         I took heavy inspiration from websites found in the <Link href="https://deadsimplesites.com" target="_blank"><u><LinkArrow>DeadSimpleSites</LinkArrow></u></Link> collection.
       </p>
-      <Breadcrumb>
-        <BreadcrumbList>
-          <BreadcrumbItem>
-            <Link href="/">
-              ../
-            </Link>
-          </BreadcrumbItem>
-        </BreadcrumbList>
-      </Breadcrumb>
     </Layout>
   );
 }

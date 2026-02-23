@@ -24,6 +24,20 @@ type Props = {
 export default function View({ data }: Props) {
   return (
     <Layout>
+      <Breadcrumb>
+        <BreadcrumbList>
+          <BreadcrumbItem>
+            <Link href="/">
+              ../
+            </Link>
+          </BreadcrumbItem>
+          <BreadcrumbItem>
+            <Link href="/gear">
+              gear
+            </Link>
+          </BreadcrumbItem>
+        </BreadcrumbList>
+      </Breadcrumb>
       <h1>
         <strong>{data.title}</strong>
         <small>{data.date} • {data.total} lbs</small>
@@ -75,20 +89,6 @@ export default function View({ data }: Props) {
           </Grid>
         </Fragment>
       ))}
-      <Breadcrumb>
-        <BreadcrumbList>
-          <BreadcrumbItem>
-            <Link href="/">
-              ../
-            </Link>
-          </BreadcrumbItem>
-          <BreadcrumbItem>
-            <Link href="/gear">
-              gear
-            </Link>
-          </BreadcrumbItem>
-        </BreadcrumbList>
-      </Breadcrumb>
     </Layout>
   );
 }

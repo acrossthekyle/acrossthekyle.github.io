@@ -11,6 +11,15 @@ import {
 export default function View() {
   return (
     <Layout>
+      <Breadcrumb>
+        <BreadcrumbList>
+          <BreadcrumbItem>
+            <Link href="/">
+              ../
+            </Link>
+          </BreadcrumbItem>
+        </BreadcrumbList>
+      </Breadcrumb>
       <h1>
         <strong>{route('now').text}</strong>
         <small>{route('now').subtitle}</small>
@@ -24,15 +33,6 @@ export default function View() {
       <p>
         Watching "A Knight of the Seven Kingdoms" on HBO Max and "Dark Matter" on Apple TV+, rewatching "Star Trek: Enterprise" on Paramount+, and binging "How I Met Your Mother" + "New Girl" on Hulu
       </p>
-      <Breadcrumb>
-        <BreadcrumbList>
-          <BreadcrumbItem>
-            <Link href="/">
-              ../
-            </Link>
-          </BreadcrumbItem>
-        </BreadcrumbList>
-      </Breadcrumb>
     </Layout>
   );
 }

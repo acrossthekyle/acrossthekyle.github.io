@@ -15,6 +15,15 @@ import { IMAGES } from './constants';
 export default function View() {
   return (
     <Layout>
+      <Breadcrumb>
+        <BreadcrumbList>
+          <BreadcrumbItem>
+            <Link href="/">
+              ../
+            </Link>
+          </BreadcrumbItem>
+        </BreadcrumbList>
+      </Breadcrumb>
       <h1>
         <strong>{route('photos').text}</strong>
         <small>{route('photos').subtitle}</small>
@@ -34,15 +43,6 @@ export default function View() {
           {(index < IMAGES.length - 1) && <br />}
         </Fragment>
       ))}
-      <Breadcrumb>
-        <BreadcrumbList>
-          <BreadcrumbItem>
-            <Link href="/">
-              ../
-            </Link>
-          </BreadcrumbItem>
-        </BreadcrumbList>
-      </Breadcrumb>
     </Layout>
   );
 }
