@@ -25,17 +25,18 @@ export default function Snapshots({ images, total }: Props) {
   return (
     <>
       <ul aria-labelledby="images" className={styles.images}>
-        {images.slice(0, canShowAll ? -1 : 6).map((image, index: number) => (
-          <li className={styles.image(index, images.length)} key={image.index}>
-            <Image
-              location={image.location}
-              index={image.index}
-              src={image.src}
-              title={image.title}
-              total={total}
-            />
-          </li>
-        ))}
+        {(images.length > 6 ? images.slice(0, canShowAll ? -1 : 6) : images)
+          .map((image, index: number) => (
+            <li className={styles.image(index, images.length)} key={image.index}>
+              <Image
+                location={image.location}
+                index={image.index}
+                src={image.src}
+                title={image.title}
+                total={total}
+              />
+            </li>
+          ))}
       </ul>
       {images.length > 6 && (
         <button
