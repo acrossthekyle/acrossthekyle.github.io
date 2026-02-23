@@ -26,7 +26,7 @@ export default function View() {
         <small>{route('about').subtitle}</small>
       </h1>
       <p>
-        During the 90's I played with legos while starting my formal education and enjoying the golden age of Star Trek (The Next Generation, Deep Space 9, and Voyager). If you want some good breakdowns of star trek shows, check out <Link href="https://www.youtube.com/playlist?list=PLAXhpI9PdbZYF9gX4d8SHTk56eQ7w912Q" target="_blank"><u><LinkArrow>Reverse Angle</LinkArrow></u></Link> and <Link href="https://www.youtube.com/@Unlimited_Lives/playlists" target="_blank"><u><LinkArrow>Unlimited Lives</LinkArrow></u></Link>.
+        During the 90's I played with legos while starting my formal education and enjoying the golden age of Star Trek (The Next Generation, Deep Space 9, and Voyager). If you want some good breakdowns of star trek shows, check out <Link href="https://www.youtube.com/playlist?list=PLAXhpI9PdbZYF9gX4d8SHTk56eQ7w912Q" target="_blank"><u><LinkArrow>Reverse Angle</LinkArrow></u></Link> and <Link href="https://www.youtube.com/@Unlimited_Lives/playlists" target="_blank"><u><LinkArrow>Unlimited Lives</LinkArrow></u></Link> on youtube.
       </p>
       <p>
         Around the dawn of the new millenium I discovered website programming and 11 years later, after finishing my formal education, I began a career in web development.
