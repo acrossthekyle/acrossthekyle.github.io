@@ -17,10 +17,8 @@ export default function get(slug: string, stage: string) {
   const result = found.stages[index];
 
   return {
-    content: result.content,
-    date: result.date,
     gpx: result.gpx as Gpx,
-    readingTime: result.readingTime,
+    location: [result.location, found.location].join(', '),
     stats: result.stats,
   };
 };

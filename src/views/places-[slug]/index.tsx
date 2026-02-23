@@ -7,6 +7,7 @@ import {
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
 
+import Details from './details';
 import Snapshots from './snapshots';
 import styles from './stylesheet';
 import type { Data } from './types';
@@ -52,6 +53,27 @@ export default function View({ data }: Props) {
         ))}
       </ul>
       <Snapshots images={data.images} total={data.total} />
+      {data.type.toLowerCase() !== 'destination' && (
+        <>
+          <h2>
+            <strong>GPX</strong>
+            <small>{data.stages.length} data sets</small>
+          </h2>
+          <ul>
+            {data.stages.map((stage) => (
+              <li key={stage.index}>
+                <Details
+                  date={stage.date}
+                  index={stage.index}
+                  slug={data.slug}
+                  title={stage.title}
+                  total={data.total}
+                />
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
     </Layout>
   );
 }

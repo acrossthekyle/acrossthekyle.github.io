@@ -81,13 +81,13 @@ export default function Modal({ index, location, src, title, total }: Props) {
         ref={dialog}
       >
         <DialogHeader className={styles.header}>
-          <strong>{title}</strong>
-          <small>{index}/{total} • {location}</small>
+          <strong>{index}/{total}</strong>
+          <small>{title} / {location}</small>
         </DialogHeader>
         <DialogContent>
           <ImageFigure className={styles.figure}>
             <Image
-              alt=""
+              alt={`${title} ${index}/${total} ${location}`}
               height={432}
               sizes="(max-width: 768px) 32vw, 50vw"
               src={src}

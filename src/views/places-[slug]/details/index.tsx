@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Markdown from 'react-markdown';
 
 import { useDialog } from '@/hooks/useDialog';
 import { Dialog, DialogContent, DialogHeader } from '@/ui/dialog';
@@ -12,14 +11,14 @@ import styles from './stylesheet';
 import type { Details } from './types';
 
 type Props = {
+  date: string;
   index: string;
-  label: string;
   slug: string;
   title: string;
   total: string;
 };
 
-export default function Modal({ index, label, slug, title, total }: Props) {
+export default function Modal({ date, index, slug, title, total }: Props) {
   const [data, setData] = useState<Details | null>(null);
   const [isLoading, setIsLoading] = useState(false);
 
@@ -52,7 +51,7 @@ export default function Modal({ index, label, slug, title, total }: Props) {
         onClick={handleOnOpen}
         type="button"
       >
-        <strong>[+]</strong>
+        <strong>[+] {date}</strong>
       </button>
       <Dialog
         id="details"
@@ -63,19 +62,14 @@ export default function Modal({ index, label, slug, title, total }: Props) {
         ref={dialog}
       >
         <DialogHeader>
-          <strong>{label} {index}/{total}: {title}</strong>
+          <strong>GPX Data</strong>
           {!isLoading && data !== null && (
-            <small>{data.date} • {data.readingTime} min read</small>
+            <small>{index}/{total} • {title} / {data.location}</small>
           )}
         </DialogHeader>
         <DialogContent>
           {(isLoading || data === null) ? <Loading /> : (
-            <>
-              <Gpx gpx={data.gpx} stats={data.stats} />
-              <Markdown>
-                {data.content}
-              </Markdown>
-            </>
+            <Gpx gpx={data.gpx} stats={data.stats} />
           )}
         </DialogContent>
       </Dialog>

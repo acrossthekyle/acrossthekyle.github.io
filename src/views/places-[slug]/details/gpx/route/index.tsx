@@ -1,8 +1,7 @@
 'use client';
 
-import { Minus, Plus } from 'lucide-react';
 import dynamic from 'next/dynamic';
-import { useContext, useState } from 'react';
+import { useContext } from 'react';
 
 import type { Gpx } from '@/types';
 
@@ -21,26 +20,12 @@ type Props = {
 export default function Route({ gpx }: Props) {
   const { hoverIndex } = useContext(GpxContext);
 
-  const [isExpanded, setIsExpanded] = useState(false);
-
-  const handleOnToggle = () => {
-    setIsExpanded(previous => !previous);
-  };
-
   if (gpx.length === 0) {
     return null;
   }
 
   return (
-    <div className={styles.container(isExpanded)}>
-      <button className={styles.toggle} onClick={handleOnToggle} type="button">
-        {isExpanded ? 'Hide route' : 'View route'}
-        {isExpanded ? (
-          <Minus className={styles.icon} />
-        ) : (
-          <Plus className={styles.icon} />
-        )}
-      </button>
+    <div className={styles.container}>
       <Plugin gpx={gpx} hoverIndex={hoverIndex} />
     </div>
   );

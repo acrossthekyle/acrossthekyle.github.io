@@ -7,7 +7,7 @@ const styles = tw({
   `,
   stats: `
     grid grid-cols-1 gap-6
-    my-16
+    mt-16
 
     md:grid-cols-2
   `,

@@ -9,9 +9,7 @@ export type Stats = {
 };
 
 export type Details = {
-  content: string;
-  date: string;
   gpx: Gpx;
-  readingTime: string;
+  location: string;
   stats: Stats;
 };
