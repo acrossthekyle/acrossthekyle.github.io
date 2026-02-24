@@ -20,7 +20,7 @@ export const ROUTES = [
   {
     group: 'blogging',
     path: '/photos',
-    subtitle: 'Captured moments',
+    subtitle: 'Captured clicks',
     text: 'Photos',
   },
   {

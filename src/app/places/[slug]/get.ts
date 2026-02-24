@@ -1,64 +1,7 @@
 import db from '@/db/places';
-import type { StatFull, StatShort } from '@/types';
+import type { StatFull } from '@/types';
 
-import {
-  combineTermini,
-  formatDateRange,
-  padIndex,
-  uppercaseFirst,
-} from '../../utils';
-
-function buildStageStats(
-  type: string,
-  date: string,
-  stats: {
-    distance: StatFull | null;
-    gain: StatFull | null;
-    loss: StatFull | null;
-    max: StatFull | null;
-    time: StatShort | null;
-  },
-) {
-  const result: Array<{ label: string; value: string; }> = [];
-
-  if (['summit'].includes(type)) {
-    result.push({
-      label: 'Peak',
-      value: `${stats.max?.value.imperial} ${stats.max?.units.imperial.abbreviated}`,
-    });
-  }
-
-  if (['thru-hike', 'section hike', 'overnight trek'].includes(type)) {
-    result.push({
-      label: 'Distance',
-      value: `${stats.distance?.value.imperial} ${stats.distance?.units.imperial.full}`,
-    });
-  }
-
-  if (['thru-hike', 'section hike', 'overnight trek'].includes(type)) {
-    result.push({
-      label: 'Elevation',
-      value: `▲ ${stats.gain?.value.imperial} ${stats.gain?.units.imperial.abbreviated} /
-      ${stats.loss?.value.imperial} ${stats.loss?.units.imperial.abbreviated} ▼`,
-    });
-  }
-
-  if (['summit'].includes(type)) {
-    result.push({
-      label: 'Duration',
-      value: `${stats.time?.value} ${stats.time?.units}`,
-    });
-  }
-
-  if (['summit'].includes(type)) {
-    result.push({
-      label: 'Ascent',
-      value: `${stats.gain?.value.imperial} ${stats.gain?.units.imperial.abbreviated}`,
-    });
-  }
-
-  return result;
-}
+import { formatDateRange, padIndex } from '../../utils';
 
 function buildStats(
   type: string,
@@ -149,28 +92,19 @@ export default function get(slug: string) {
 
   return {
     description: data.description,
-    images: data.stages.map(({ image, location, termini }, index) => ({
+    images: data.stages.map(({ image }, index) => ({
       index: padIndex(index + 1),
-      location: [location, data.location].join(', '),
       src: image,
-      title: combineTermini(termini),
     })),
-    label: data.label,
     location: data.location,
-    position: {
-      top: data.position[0],
-      left: data.position[1],
-    },
     slug,
-    stages: data.stages.map(({ date, stats, termini }, index) => ({
+    stages: data.stages.map(({ date }, index) => ({
       date,
       index: padIndex(index + 1),
-      stats: buildStageStats(data.type, date, stats),
-      title: combineTermini(termini),
     })),
     stats: buildStats(data.type, data.date, data.stages.length, data.stats),
     title: data.title.join(' '),
-    type: uppercaseFirst(data.type),
+    type: data.type,
     total: padIndex(data.stages.length),
     year: formatDateRange(data.date, true),
   };

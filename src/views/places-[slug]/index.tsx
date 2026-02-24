@@ -7,7 +7,6 @@ import {
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
 
-import Details from './details';
 import Snapshots from './snapshots';
 import styles from './stylesheet';
 import type { Data } from './types';
@@ -52,23 +51,19 @@ export default function View({ data }: Props) {
           </li>
         ))}
       </ul>
-      <Snapshots images={data.images} total={data.total} />
-      {data.type.toLowerCase() !== 'destination' && (
+      <Snapshots images={data.images} slug={data.slug} total={data.total} />
+      {data.type !== 'destination' && (
         <>
-          <h2>
+          <h2 id="gpx">
             <strong>GPX</strong>
             <small>{data.stages.length} data sets</small>
           </h2>
-          <ul>
+          <ul aria-labelledby="gpx" className={styles.gpx}>
             {data.stages.map((stage) => (
               <li key={stage.index}>
-                <Details
-                  date={stage.date}
-                  index={stage.index}
-                  slug={data.slug}
-                  title={stage.title}
-                  total={data.total}
-                />
+                <Link href={`/gpx/${data.slug}/${stage.index}`}>
+                  <strong>[→]</strong> {stage.date}
+                </Link>
               </li>
             ))}
           </ul>

@@ -3,7 +3,6 @@
 :root {
   --background: #1a1a1a;
   --foreground: #ffffff;
-  --dialog: rgba(0, 0, 0, 0.25);
 }
 
 @theme {
@@ -19,17 +18,11 @@ html {
 html[data-theme="dark"] {
   --background: #1a1a1a;
   --foreground: #ffffff;
-  --dialog: rgba(0, 0, 0, 0.25);
 }
 
 html[data-theme="light"] {
   --background: #ffffff;
   --foreground: #000000;
-  --dialog: rgba(255, 255, 255, 0.25);
-}
-
-html:has(dialog[open]) {
-  overflow: hidden;
 }
 
 body {
@@ -102,34 +95,6 @@ body {
     border-color: var(--foreground);
   }
 
-  dialog {
-    color: var(--foreground);
-    padding-inline: 1.5rem;
-    opacity: 0;
-    outline: 0;
-    overflow-x: visible !important;
-    overflow-y: scroll;
-    transition: all 0.3s ease-in-out;
-    width: 100%;
-    z-index: 9999;
-  }
-
-  dialog::backdrop {
-    background: var(--background);
-    opacity: 0;
-    outline: 0;
-    transition: all 0.3s ease-in-out;
-  }
-
-  dialog.is-active {
-    opacity: 1;
-  }
-
-  dialog.is-active::backdrop {
-    backdrop-filter: blur(2.5rem);
-    opacity: 1;
-  }
-
   progress {
     -webkit-appearance: none;
     appearance: none;
@@ -165,11 +130,6 @@ body {
   h1 strong {
     font-size: 1.375rem;
     line-height: 150%;
-  }
-
-  dialog > h2 {
-    font-size: 1.375rem;
-    line-height: 140%;
   }
 
   /* third-party package styling  */
@@ -227,23 +187,9 @@ body {
       line-height: 125%;
     }
 
-    dialog > h2 {
-      font-size: 1.25rem;
-      line-height: 125%;
-    }
-
     small {
       font-size: var(--text-xs);
       line-height: var(--tw-leading, var(--text-xs--line-height));
-    }
-
-    dialog {
-      padding-inline: 0;
-    }
-
-    dialog::backdrop {
-      background: var(--dialog);
-      backdrop-filter: blur(0);
     }
   }
 }

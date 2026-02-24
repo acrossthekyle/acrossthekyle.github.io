@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { Fragment } from 'react';
 
 import { Layout } from '@/layout';
 import { route } from '@/routes';
@@ -8,11 +7,15 @@ import {
   BreadcrumbList,
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
-import { Image, ImageCaption, ImageFigure } from '@/ui/image';
+import { Image } from '@/ui/image';
 
-import { IMAGES } from './constants';
+import type { Photo } from './types';
 
-export default function View() {
+type Props = {
+  data: Photo[];
+};
+
+export default function View({ data }: Props) {
   return (
     <Layout>
       <Breadcrumb>
@@ -28,20 +31,20 @@ export default function View() {
         <strong>{route('photos').text}</strong>
         <small>{route('photos').subtitle}</small>
       </h1>
-      {IMAGES.map(({ caption, src }, index: number) => (
-        <Fragment key={src}>
-          <ImageFigure>
-            <Image
-              alt=""
-              height={1080}
-              sizes="(max-width: 768px) 32vw, 40vw"
-              src={src}
-              width={1920}
-            />
-            <ImageCaption>{caption}</ImageCaption>
-          </ImageFigure>
-          {(index < IMAGES.length - 1) && <br />}
-        </Fragment>
+      {data.map((item) => (
+        <Link
+          className="relative"
+          href={`/images/photos/${item.slug}/${item.index}/${item.src}`}
+          key={item.src}
+        >
+          <Image
+            alt=""
+            height={1080}
+            sizes="(max-width: 768px) 32vw, 40vw"
+            src={item.src}
+            width={1920}
+          />
+        </Link>
       ))}
     </Layout>
   );

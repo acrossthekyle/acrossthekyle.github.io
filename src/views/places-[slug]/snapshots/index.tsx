@@ -1,55 +1,65 @@
 'use client';
 
+import Link from 'next/link';
 import { useState } from 'react';
 
-import Image from './image';
+import { Image } from '@/ui/image';
+
 import styles from './stylesheet';
 
 type Props = {
   images: Array<{
     index: string;
-    location: string;
     src: string;
-    title: string;
   }>;
+  slug: string;
   total: string;
 };
 
-export default function Snapshots({ images, total }: Props) {
-  const [canShowAll, setCanShowAll] = useState(images.length > 6 ? false : true);
+export default function Snapshots({ images, slug, total }: Props) {
+  const [canShowAll, setCanShowAll] = useState(
+    Number(total) > 6 ? false : true,
+  );
 
   const handleOnViewMore = () => {
     setCanShowAll(previous => !previous);
   };
 
+  const items = images.length > 6
+    ? images.slice(0, canShowAll ? -1 : 6)
+    : images;
+
+  const text = `[${canShowAll ? '-' : '+'}] ${!canShowAll ? 'View all images' : 'View less'}`;
+
   return (
     <>
-      <h2>
+      <h2 id="images">
         <strong>GALLERY</strong>
-        <small>{images.length} images</small>
+        <small>{total} images</small>
       </h2>
       <ul aria-labelledby="images" className={styles.images}>
-        {(images.length > 6 ? images.slice(0, canShowAll ? -1 : 6) : images)
-          .map((image, index: number) => (
-            <li className={styles.image(index, images.length)} key={image.index}>
+        {items.map((item, index: number) => (
+          <li className={styles.image(index, Number(total))} key={item.index}>
+            <Link href={`/images/places/${slug}/${item.index}/${item.src}`}>
               <Image
-                location={image.location}
-                index={image.index}
-                src={image.src}
-                title={image.title}
-                total={total}
+                alt=""
+                height={432}
+                sizes="(max-width: 768px) 32vw, 30vw"
+                src={item.src}
+                width={768}
               />
-            </li>
-          ))}
+            </Link>
+          </li>
+        ))}
       </ul>
-      {images.length > 6 && (
+      {Number(total) > 6 && (
         <button
           aria-describedby="images"
           className={styles.view}
           onClick={handleOnViewMore}
           type="button"
         >
-          <strong>[{canShowAll ? '-' : '+'}] {!canShowAll ? `View all images` : 'View less'}</strong>
+          <strong>{text}</strong>
         </button>
       )}
     </>

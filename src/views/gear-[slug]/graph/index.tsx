@@ -1,7 +1,6 @@
 import Link from 'next/link';
 
 import styles from './stylesheet';
-import Wiki from './wiki';
 
 type Props = {
   base: string;
@@ -53,7 +52,9 @@ export default function Graph({
       <h2 className={styles.header}>
         <strong>Weight breakdown</strong>
       </h2>
-      <Wiki />
+      <Link className={styles.cta} href={`/gear/wiki?ref=${slug}`}>
+        <strong>[?]</strong>
+      </Link>
       <ul className={styles.graph}>
         {scaled.map(({ label, percent, value }) => (
           <li
