@@ -1,7 +1,7 @@
 import db from '@/db/places';
 import type { StatFull } from '@/types';
 
-import { combineTermini, formatDateRange, padIndex } from '../../utils';
+import { combineTermini, formatDateRange, padIndex, uppercaseFirst } from '../../utils';
 
 function buildStats(
   type: string,
@@ -96,6 +96,7 @@ export default function get(slug: string) {
       index: padIndex(index + 1),
       src: image,
     })),
+    isDestination: data.type === 'destination',
     label: data.label,
     location: data.location,
     slug,
@@ -105,7 +106,7 @@ export default function get(slug: string) {
     })),
     stats: buildStats(data.type, data.date, data.stages.length, data.stats),
     title: data.title.join(' '),
-    type: data.type,
+    type: uppercaseFirst(data.type),
     total: padIndex(data.stages.length),
     year: formatDateRange(data.date, true),
   };

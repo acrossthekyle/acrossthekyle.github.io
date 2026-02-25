@@ -7,4 +7,3 @@ export { default as TimelineHeading } from './heading';
 export { default as TimelineItem } from './item';
 export { default as TimelineLine } from './line';
 export { default as TimelineItems } from './list';
-export { default as TimelineToggle } from './toggle';

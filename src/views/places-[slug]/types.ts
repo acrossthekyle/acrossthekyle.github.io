@@ -4,6 +4,7 @@ export type Data = {
     index: string;
     src: string;
   }>;
+  isDestination: boolean;
   label: string;
   location: string;
   slug: string;

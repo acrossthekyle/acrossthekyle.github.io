@@ -5,13 +5,22 @@ const styles = tw({
     grid grid-cols-1 gap-6
     mt-16
 
-    md:grid-cols-2
+    sm:grid-cols-2
+  `,
+  gpx: `
+    flex flex-col gap-6
+
+    sm:gap-2
   `,
   link: `
     flex gap-2
+    leading-6
   `,
-  gpx: `
-    flex flex-col gap-4
+  title: `
+    flex-1
+    ml-2
+
+    sm:ml-0
   `,
 });
 

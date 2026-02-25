@@ -19,8 +19,18 @@ export default function View({ data }: Props) {
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>
+            <Link href="/">
+              ..
+            </Link>
+          </BreadcrumbItem>
+          <BreadcrumbItem>
+            <Link href="/gear">
+              /gear
+            </Link>
+          </BreadcrumbItem>
+          <BreadcrumbItem>
             <Link href={`/gear/${data.slug}`}>
-              Back
+              /list
             </Link>
           </BreadcrumbItem>
         </BreadcrumbList>

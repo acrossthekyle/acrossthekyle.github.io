@@ -5,7 +5,7 @@ const styles = tw({
     !pb-0
     text-sm
 
-    md:text-xs
+    sm:text-xs
   `,
 });
 

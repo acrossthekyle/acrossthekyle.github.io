@@ -2,12 +2,12 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    group
     relative
-    flex flex-col gap-x-2
-    pl-7
+    !pt-0
 
-    sm:gap-x-3
+    sm:-mx-14
+    lg:-mx-40
+    xl:-mx-72
   `,
 });
 

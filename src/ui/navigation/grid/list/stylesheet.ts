@@ -5,7 +5,8 @@ const styles = {
     grid grid-cols-1 gap-8
     !pb-0
 
-    ${numberOfColumns === 2 ? 'md:grid-cols-2' : 'xs:grid-cols-2 md:grid-cols-3'}
+    ${numberOfColumns === 2 && 'sm:grid-cols-2'}
+    ${numberOfColumns === 3 && 'xs:grid-cols-2 sm:grid-cols-3'}
   `),
 };
 

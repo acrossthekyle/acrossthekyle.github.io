@@ -5,13 +5,13 @@ const styles = tw({
     antialiased
     flex flex-col
     h-auto min-h-full
-    p-6 py-16
+    p-6 py-14
     font-mono
     text-base text-(--foreground)
     bg-(--background)
 
-    md:p-14
-    md:text-sm
+    sm:p-14
+    sm:text-sm
   `,
 });
 

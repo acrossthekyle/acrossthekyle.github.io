@@ -1,11 +1,12 @@
+import styles from './stylesheet';
+
 type Props = {
   children: React.ReactNode | React.ReactNode[];
-  className?: string;
 };
 
-export default function Figure({ children, className = '' }: Props) {
+export default function Figure({ children }: Props) {
   return (
-    <figure className={className}>
+    <figure className={styles.container}>
       {children}
     </figure>
   );

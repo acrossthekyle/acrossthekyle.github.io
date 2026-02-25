@@ -7,7 +7,6 @@ import { ImageContext } from '../context';
 
 type Props = {
   alt: string;
-  className?: string;
   height: number;
   sizes: string;
   src: string;
@@ -16,7 +15,6 @@ type Props = {
 
 export default function Image({
   alt,
-  className = '',
   height,
   sizes,
   src,
@@ -27,7 +25,6 @@ export default function Image({
   return (
     <NextJsImage
       alt={alt}
-      className={className}
       height={height}
       onLoad={onLoad}
       sizes={sizes}

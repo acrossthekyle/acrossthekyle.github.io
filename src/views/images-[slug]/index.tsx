@@ -23,30 +23,30 @@ export default function View({ data }: Props) {
         <BreadcrumbList>
           <BreadcrumbItem>
             <Link href="/">
-              ../
+              ..
             </Link>
           </BreadcrumbItem>
           {data.page === 'photos' ? (
             <BreadcrumbItem>
               <Link href="/photos">
-                photos
+                /photos
               </Link>
             </BreadcrumbItem>
           ) : (
             <>
               <BreadcrumbItem>
-                <Link href="places">
-                  places/
+                <Link href="/places">
+                  /places
                 </Link>
               </BreadcrumbItem>
               <BreadcrumbItem>
                 <Link href={`/places/${data.slug}`}>
-                  {data.place}/
+                  /{data.place}
                 </Link>
               </BreadcrumbItem>
               <BreadcrumbItem>
                 <Link href={`/places/${data.slug}#images`}>
-                  images
+                  /images
                 </Link>
               </BreadcrumbItem>
             </>
@@ -54,19 +54,13 @@ export default function View({ data }: Props) {
         </BreadcrumbList>
       </Breadcrumb>
       <h1>
-        <strong>Image {data.index}/{data.total}</strong>
+        <strong>{data.place} Image {data.index}/{data.total}</strong>
         <small>
-          {data.date} • {data.location}{!!data.title && ` • ${data.title}`}
+          {!!data.title && `${data.title} • `}{data.location}
         </small>
       </h1>
-      <ImageFigure className={styles.figure}>
-        <Image
-          alt=""
-          height={432}
-          sizes="(max-width: 768px) 32vw, 30vw"
-          src={data.src}
-          width={768}
-        />
+      <ImageFigure>
+        <Image size="large" src={data.src} />
         <Caption src={data.src} />
       </ImageFigure>
       {data.hasNavigation && (

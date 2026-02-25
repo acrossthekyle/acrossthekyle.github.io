@@ -1,14 +1,9 @@
-import Context from '../context';
-
 type Props = {
   children: React.ReactNode[];
-  total?: number;
 };
 
-export default function Container({ children, total }: Props) {
+export default function Container({ children }: Props) {
   return (
-    <Context total={total}>
-      {children}
-    </Context>
+    <>{children}</>
   );
 }

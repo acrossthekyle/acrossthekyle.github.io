@@ -7,33 +7,20 @@ import Skeleton from '../skeleton';
 import styles from './stylesheet';
 
 type Props = {
-  alt: string;
   children?: React.ReactNode | React.ReactNode[];
-  className?: string;
-  height: number;
-  sizes: string;
+  size?: string;
   src: string;
-  width: number;
 }
 
-export default function Container({
-  alt,
-  children,
-  className = '',
-  height,
-  sizes,
-  src,
-  width,
-}: Props) {
+export default function Container({ children, size, src }: Props) {
   return (
     <Context src={src}>
       <Image
-        alt={alt}
-        className={className}
-        height={height}
-        sizes={sizes}
+        alt=""
+        height={432}
+        sizes={`(max-width: 768px) 32vw, ${size === 'large' ? '80vw' : '28vw'}`}
         src={src}
-        width={width}
+        width={768}
       />
       <Skeleton />
       <div className={styles.overlay} />

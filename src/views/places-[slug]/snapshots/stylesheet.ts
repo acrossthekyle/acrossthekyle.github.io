@@ -4,10 +4,10 @@ import { getColSpan } from './stylesheet.utils';
 
 const styles = tw({
   images: `
-    grid grid-cols-7 gap-0
+    grid grid-cols-7 gap-4
     !pb-0
 
-    md:grid-cols-3
+    sm:grid-cols-3
   `,
   image: (index: number, total: number) => tw(`
     h-40
@@ -22,7 +22,7 @@ const styles = tw({
     mt-6
     text-sm
 
-    md:text-xs
+    sm:text-xs
   `,
 });
 

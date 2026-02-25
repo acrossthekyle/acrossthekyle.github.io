@@ -28,12 +28,12 @@ export default function View({ data }: Props) {
         <BreadcrumbList>
           <BreadcrumbItem>
             <Link href="/">
-              ../
+              ..
             </Link>
           </BreadcrumbItem>
           <BreadcrumbItem>
             <Link href="/gear">
-              gear
+              /gear
             </Link>
           </BreadcrumbItem>
         </BreadcrumbList>

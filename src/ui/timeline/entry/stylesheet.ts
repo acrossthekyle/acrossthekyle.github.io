@@ -5,7 +5,7 @@ const styles = tw({
     w-full
     pb-12 !pt-0
 
-    md:!pt-0.5
+    sm:!pt-0.5
 
     group-last:pb-2
   `,

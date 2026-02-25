@@ -10,15 +10,19 @@ const styles = tw({
     !pt-0
   `,
   cta: `
-    absolute top-1 right-0
+    absolute top-0 left-40.5 z-2
+
+    sm:right-0
+    sm:top-1
+    sm:left-auto
   `,
   graph: `
     flex flex-col gap-16
     w-full
     pb-16
 
-    md:flex-row
-    md:gap-0
+    sm:flex-row
+    sm:gap-0
   `,
   segment: (isActive: boolean) => tw(`
     relative
@@ -54,11 +58,6 @@ const styles = tw({
     w-full h-10.25
     pt-8
     text-left
-  `,
-  heading: `
-    flex items-center justify-between
-    border-b-1 border-b-(--foreground)/10
-    pb-4.5
   `,
 });
 

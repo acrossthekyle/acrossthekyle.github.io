@@ -6,7 +6,7 @@ const styles = tw({
     !pb-0
 
     xs:grid-cols-2
-    md:grid-cols-3
+    sm:grid-cols-3
   `,
   nav: `
     flex justify-between gap-8

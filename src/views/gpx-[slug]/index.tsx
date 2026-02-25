@@ -22,29 +22,29 @@ export default function View({ data }: Props) {
         <BreadcrumbList>
           <BreadcrumbItem>
             <Link href="/">
-              ../
+              ..
             </Link>
           </BreadcrumbItem>
           <BreadcrumbItem>
             <Link href="/places">
-              places/
+              /places
             </Link>
           </BreadcrumbItem>
           <BreadcrumbItem>
             <Link href={`/places/${data.slug}`}>
-              {data.place}/
+              /{data.place}
             </Link>
           </BreadcrumbItem>
           <BreadcrumbItem>
             <Link href={`/places/${data.slug}#gpx`}>
-              metrics
+              /metrics
             </Link>
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
       <h1>
         <strong>
-          {data.place} {data.label} #{data.index}: {data.title}
+          {data.place} {data.label} {data.index}/{data.total}: {data.title}
         </strong>
         <small>{data.date} • {data.location}</small>
       </h1>

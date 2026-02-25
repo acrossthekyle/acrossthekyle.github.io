@@ -9,6 +9,7 @@ import {
 } from '@/ui/breadcrumbs';
 import { Image } from '@/ui/image';
 
+import styles from './stylesheet';
 import type { Data } from './types';
 
 type Props = {
@@ -33,17 +34,11 @@ export default function View({ data }: Props) {
       </h1>
       {data.map((item) => (
         <Link
-          className="relative"
+          className={styles.link}
           href={`/images/photos/${item.slug}/${item.index}/${item.src}`}
           key={item.src}
         >
-          <Image
-            alt=""
-            height={1080}
-            sizes="(max-width: 768px) 32vw, 40vw"
-            src={item.src}
-            width={1920}
-          />
+          <Image src={item.src} />
         </Link>
       ))}
     </Layout>

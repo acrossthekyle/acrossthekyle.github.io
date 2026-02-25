@@ -6,11 +6,6 @@ const styles = tw({
 
     first:pt-0
   `,
-  hr: `
-    w-3
-    my-7
-    border-(--foreground)/50
-  `,
 });
 
 export default styles;

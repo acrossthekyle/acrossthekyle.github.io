@@ -1,8 +1,8 @@
 import tw from '@/styles';
 
 const styles = tw({
-  nav: `
-    flex justify-between gap-8
+  link: `
+    relative block pb-4
   `,
 });
 

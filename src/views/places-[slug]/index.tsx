@@ -22,12 +22,12 @@ export default function View({ data }: Props) {
         <BreadcrumbList>
           <BreadcrumbItem>
             <Link href="/">
-              ../
+              ..
             </Link>
           </BreadcrumbItem>
           <BreadcrumbItem>
             <Link href="/places">
-              places
+              /places
             </Link>
           </BreadcrumbItem>
         </BreadcrumbList>
@@ -52,11 +52,11 @@ export default function View({ data }: Props) {
         ))}
       </ul>
       <Snapshots images={data.images} slug={data.slug} total={data.total} />
-      {data.type !== 'destination' && (
+      {!data.isDestination && (
         <>
           <h2 id="gpx">
             <strong>METRICS</strong>
-            <small>{data.stages.length} data sets</small>
+            <small>{data.stages.length} {data.label}s</small>
           </h2>
           <ul aria-labelledby="gpx" className={styles.gpx}>
             {data.stages.map((stage) => (
@@ -65,7 +65,8 @@ export default function View({ data }: Props) {
                   className={styles.link}
                   href={`/gpx/${data.slug}/${stage.index}`}
                 >
-                  <strong>[→]</strong> {data.label} {stage.index}: {stage.title}
+                  <strong>[→] {data.label} {stage.index}:</strong>
+                  <span className={styles.title}>{stage.title}</span>
                 </Link>
               </li>
             ))}

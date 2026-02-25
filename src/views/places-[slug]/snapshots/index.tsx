@@ -41,13 +41,7 @@ export default function Snapshots({ images, slug, total }: Props) {
         {items.map((item, index: number) => (
           <li className={styles.image(index, Number(total))} key={item.index}>
             <Link href={`/images/places/${slug}/${item.index}/${item.src}`}>
-              <Image
-                alt=""
-                height={432}
-                sizes="(max-width: 768px) 32vw, 30vw"
-                src={item.src}
-                width={768}
-              />
+              <Image src={item.src} />
             </Link>
           </li>
         ))}
