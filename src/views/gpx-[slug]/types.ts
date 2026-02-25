@@ -13,12 +13,16 @@ export type Data = {
   gpx: Gpx;
   hasNavigation: boolean;
   index: string;
+  label: string;
   location: string;
+  metrics: Array<{
+    label: string;
+    value: string;
+  }>;
   next: string;
   place: string;
   previous: string;
   slug: string;
-  stats: Stats;
   title: string;
   total: string;
 };

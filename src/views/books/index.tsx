@@ -8,9 +8,13 @@ import {
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
 
-import { BOOKS } from './constants';
+import type { Data } from './types';
 
-export default function View() {
+type Props = {
+  data: Data[];
+};
+
+export default function View({ data }: Props) {
   return (
     <Layout>
       <Breadcrumb>
@@ -26,12 +30,12 @@ export default function View() {
         <strong>{route('books').text}</strong>
         <small>{route('books').subtitle}</small>
       </h1>
-      <ul>
-        {BOOKS.map((item, index: number) => (
+      <ul aria-labelledby="books">
+        {data.map((item, index: number) => (
           <li key={item.title}>
             <strong>{item.title}</strong>
             <small>{item.author}</small>
-            {(index < BOOKS.length - 1 )&& <hr />}
+            {(index < data.length - 1 ) && <hr />}
           </li>
         ))}
       </ul>

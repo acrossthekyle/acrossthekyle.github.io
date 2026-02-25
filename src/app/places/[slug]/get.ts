@@ -1,7 +1,7 @@
 import db from '@/db/places';
 import type { StatFull } from '@/types';
 
-import { formatDateRange, padIndex } from '../../utils';
+import { combineTermini, formatDateRange, padIndex } from '../../utils';
 
 function buildStats(
   type: string,
@@ -96,11 +96,12 @@ export default function get(slug: string) {
       index: padIndex(index + 1),
       src: image,
     })),
+    label: data.label,
     location: data.location,
     slug,
-    stages: data.stages.map(({ date }, index) => ({
-      date,
+    stages: data.stages.map(({ termini }, index) => ({
       index: padIndex(index + 1),
+      title: combineTermini(termini),
     })),
     stats: buildStats(data.type, data.date, data.stages.length, data.stats),
     title: data.title.join(' '),

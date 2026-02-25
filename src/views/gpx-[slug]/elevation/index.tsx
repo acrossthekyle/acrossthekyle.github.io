@@ -1,14 +1,9 @@
 'use client';
 
-import { ChevronDown, ChevronUp } from 'lucide-react';
 import dynamic from 'next/dynamic';
-import { useContext } from 'react';
 
 import { useTheme } from '@/hooks/useTheme';
 import type { Gpx } from '@/types';
-
-import type { Stats } from '../../types';
-import { GpxContext } from '../context';
 
 import styles from './stylesheet';
 
@@ -18,17 +13,10 @@ const Chart = dynamic(() => import('react-apexcharts'), {
 
 type Props = {
   gpx: Gpx;
-  stats: Stats;
 };
 
-export default function Elevation({ gpx, stats }: Props) {
+export default function Elevation({ gpx }: Props) {
   const { theme } = useTheme();
-
-  const { onHover } = useContext(GpxContext);
-
-  const handleMouseLeave = () => {
-    onHover(null);
-  };
 
   if (gpx.length === 0) {
     return null;
@@ -39,7 +27,6 @@ export default function Elevation({ gpx, stats }: Props) {
       aria-label="gpx elevation profile"
       className={styles.container}
       id="gpx"
-      onMouseLeave={handleMouseLeave}
     >
       <div className={styles.chart}>
         <Chart
@@ -72,9 +59,9 @@ export default function Elevation({ gpx, stats }: Props) {
               colors: [theme === 'light' ? '#1b1b1b' : '#faf9f5'],
             },
             stroke: {
-              colors: [theme === 'light' ? '#1b1b1b' : '#faf9f5'],
+              colors: ['transparent'],
               curve: 'smooth',
-              width: 1,
+              width: 1.5,
             },
             grid: {
               show: false,
@@ -136,9 +123,7 @@ export default function Elevation({ gpx, stats }: Props) {
                 position: 'topRight',
               },
               y: {
-                formatter: (value: number, { dataPointIndex }) => {
-                  onHover(dataPointIndex);
-
+                formatter: (value: number) => {
                   return `${new Intl.NumberFormat().format(value)} ft`;
                 },
               },
@@ -154,45 +139,11 @@ export default function Elevation({ gpx, stats }: Props) {
           height="100%"
         />
       </div>
-      {stats.gain && stats.loss && (
-        <ul className={styles.change}>
-          <li>
-            <ChevronUp className={styles.chevron} />
-            {stats.gain.value.imperial} {stats.gain.units.imperial.abbreviated}
-          </li>
-          <li>
-            <ChevronDown className={styles.chevron} />
-            {stats.loss.value.imperial} {stats.loss.units.imperial.abbreviated}
-          </li>
-        </ul>
-      )}
       <div className={styles.grid1} />
       <div className={styles.grid2} />
       <div className={styles.grid3} />
       <div className={styles.grid4} />
       <div className={styles.grid5} />
-      <ul className={styles.distance}>
-        <li className={styles.start}>
-          Start
-          <span className={styles.altitude}>
-            {new Intl.NumberFormat().format(gpx[0][2])} ft
-          </span>
-        </li>
-        {stats.distance && stats.time && (
-          <li className={styles.block}>
-            {stats.distance.value.imperial} {stats.distance.units.imperial.full}
-            <span className={styles.time}>
-              {stats.time.value} {stats.time.units}
-            </span>
-          </li>
-        )}
-        <li className={styles.end}>
-          End
-          <span className={styles.altitude}>
-            {new Intl.NumberFormat().format(gpx[gpx.length - 1][2])} ft
-          </span>
-        </li>
-      </ul>
     </section>
   );
 }

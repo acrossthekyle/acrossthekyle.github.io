@@ -49,7 +49,7 @@ export default function View({ data }: Props) {
         ))}
       </Map>
       <p>
-        A collection of hikes and destinations.
+        A collection of my hikes and destinations since 2015.
       </p>
       {data.groups.map((group) => (
         <Fragment key={group.id}>

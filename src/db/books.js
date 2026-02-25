@@ -1,4 +1,4 @@
-export const BOOKS = [
+const data = [
   {
     title: 'Station Eleven',
     author: 'Emily St. John Mandel',
@@ -184,3 +184,5 @@ export const BOOKS = [
     author: 'Stieg Larsson',
   },
 ];
+
+export default data;

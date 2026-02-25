@@ -4,11 +4,12 @@ export type Data = {
     index: string;
     src: string;
   }>;
+  label: string;
   location: string;
   slug: string;
   stages: Array<{
-    date: string;
     index: string;
+    title: string;
   }>;
   stats: Array<{
     label: string;

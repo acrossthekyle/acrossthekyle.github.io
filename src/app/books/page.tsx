@@ -4,15 +4,19 @@ import { Suspense } from 'react';
 import Loading from '@/ui/loading';
 import View from '@/views/books';
 
+import get from './get';
+
 export const metadata: Metadata = {
   title: 'Books',
-  description: `The printed words that I've read and loved over the years, in no particular order.`,
+  description: `The printed words that I've read over the years, in no particular order.`,
 };
 
 export default function Page() {
+  const data = get();
+
   return (
     <Suspense fallback={<Loading />}>
-      <View />
+      <View data={data} />
     </Suspense>
   );
 }

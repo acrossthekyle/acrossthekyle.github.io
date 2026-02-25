@@ -7,7 +7,7 @@ import {
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
 
-import Gpx from './gpx';
+import Elevation from './elevation';
 import styles from './stylesheet';
 import type { Data } from './types';
 
@@ -37,18 +37,29 @@ export default function View({ data }: Props) {
           </BreadcrumbItem>
           <BreadcrumbItem>
             <Link href={`/places/${data.slug}#gpx`}>
-              gpx
+              metrics
             </Link>
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
       <h1>
         <strong>
-          {data.place} GPX {data.index}/{data.total}
+          {data.place} {data.label} #{data.index}: {data.title}
         </strong>
-        <small>{data.date} • {data.title} • {data.location}</small>
+        <small>{data.date} • {data.location}</small>
       </h1>
-      <Gpx gpx={data.gpx} stats={data.stats} />
+      <ul aria-label="stats" className={styles.stats}>
+        {data.metrics.map((stat) => (
+          <li key={stat.label}>
+            <strong>{stat.label}</strong>
+            <small>{stat.value}</small>
+          </li>
+        ))}
+      </ul>
+      <h2>
+        <strong>ELEVATION</strong>
+      </h2>
+      <Elevation gpx={data.gpx} />
       {data.hasNavigation && (
         <nav aria-label="gpx supplementary navigation" className={styles.nav}>
           {!!data.previous && (

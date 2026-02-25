@@ -7,8 +7,11 @@ const styles = tw({
 
     md:grid-cols-2
   `,
+  link: `
+    flex gap-2
+  `,
   gpx: `
-    flex flex-col gap-1
+    flex flex-col gap-4
   `,
 });
 

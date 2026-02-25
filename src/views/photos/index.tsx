@@ -9,10 +9,10 @@ import {
 } from '@/ui/breadcrumbs';
 import { Image } from '@/ui/image';
 
-import type { Photo } from './types';
+import type { Data } from './types';
 
 type Props = {
-  data: Photo[];
+  data: Data[];
 };
 
 export default function View({ data }: Props) {

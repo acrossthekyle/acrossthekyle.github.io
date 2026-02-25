@@ -1,6 +1,16 @@
 const data = [
   {
     "author": "Kyle Gilbert",
+    "slug": "a-fresh-backpacking-season",
+    "title": "A fresh backpacking season",
+    "content": "\nA new year means a new three-season backpacking window, and I'm very ready for that.\n\nI'm hoping to squeeze in a handful of overnight trips this spring, mostly around Wisconsin and Central Illinois. Nothing too wild, just getting back out there and shaking off the rust.\n",
+    "date": "February 24th, 2026",
+    "readingTime": "1",
+    "timestamp": 1771912800,
+    "index": 3
+  },
+  {
+    "author": "Kyle Gilbert",
     "slug": "the-apple-tv-plus-show-see",
     "title": "The AppleTV+ show \"See\"",
     "content": "\nPremise: a genetic defect has caused the entire human population to go blind for generations, but sight is slowly returning to the world.\n\nAn interesting concept that started strong, but like most shows these days focused on a single story across multiple episodes, and seasons, it lost its strength and lost me along the way. I finally finished watching it the other day though, just for the sake of being a completionist.\n",

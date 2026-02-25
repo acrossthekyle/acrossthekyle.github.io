@@ -72763,11 +72763,12 @@ const data = [
               "Mount Elbert"
             ]
           },
-          "isSame": true,
+          "isSame": false,
           "start": {
             "position": "left",
             "words": [
-              "Mount Elbert"
+              "Halfmoon",
+              "Trailhead"
             ]
           }
         }
@@ -73361,11 +73362,12 @@ const data = [
               "Quandary Peak"
             ]
           },
-          "isSame": true,
+          "isSame": false,
           "start": {
             "position": "bottom",
             "words": [
-              "Quandary Peak"
+              "McCullough",
+              "Gulch"
             ]
           }
         }
@@ -74454,11 +74456,12 @@ const data = [
               "La Plata Peak"
             ]
           },
-          "isSame": true,
+          "isSame": false,
           "start": {
             "position": "top",
             "words": [
-              "La Plata Peak"
+              "Colorado 82",
+              "Trailhead"
             ]
           }
         }
@@ -75548,12 +75551,11 @@ const data = [
               "Bierstadt"
             ]
           },
-          "isSame": true,
+          "isSame": false,
           "start": {
             "position": "left",
             "words": [
-              "Mount",
-              "Bierstadt"
+              "Guanella Pass"
             ]
           }
         }
@@ -76642,11 +76644,12 @@ const data = [
               "Grays Peak"
             ]
           },
-          "isSame": true,
+          "isSame": false,
           "start": {
             "position": "left",
             "words": [
-              "Grays Peak"
+              "Grays Peak",
+              "Trailhead"
             ]
           }
         }
@@ -77735,11 +77738,12 @@ const data = [
               "Mount Shavano"
             ]
           },
-          "isSame": true,
+          "isSame": false,
           "start": {
             "position": "bottom",
             "words": [
-              "Mount Shavano"
+              "Shavano",
+              "Trailhead"
             ]
           }
         }
@@ -78829,12 +78833,11 @@ const data = [
               "DeCaLiBron"
             ]
           },
-          "isSame": true,
+          "isSame": false,
           "start": {
             "position": "right",
             "words": [
-              "Mount",
-              "DeCaLiBron"
+              "Kite Lake"
             ]
           }
         }
@@ -79923,11 +79926,12 @@ const data = [
               "Mount Belford"
             ]
           },
-          "isSame": true,
+          "isSame": false,
           "start": {
             "position": "right",
             "words": [
-              "Mount Belford"
+              "Missouri",
+              "Gulch"
             ]
           }
         }
@@ -81016,11 +81020,12 @@ const data = [
               "Mount Massive"
             ]
           },
-          "isSame": true,
+          "isSame": false,
           "start": {
             "position": "bottom",
             "words": [
-              "Mount Massive"
+              "Halfmoon",
+              "Trailhead"
             ]
           }
         }

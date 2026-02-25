@@ -1,4 +1,4 @@
-export type Photo = {
+export type Data = {
   date: string;
   index: string;
   location: string;
