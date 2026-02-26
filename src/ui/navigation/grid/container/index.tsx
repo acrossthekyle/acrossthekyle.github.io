@@ -1,5 +1,3 @@
-import styles from './stylesheet';
-
 type Props = {
   children: React.ReactNode | React.ReactNode[];
 };
@@ -7,10 +5,8 @@ type Props = {
 export default function Container({ children }: Props) {
   return (
     <>
-      <hr className={styles.hr} />
-      <nav aria-label="supplementary navigation" className={styles.container}>
-        {children}
-      </nav>
+      <hr />
+      <nav>{children}</nav>
       <hr />
     </>
   );

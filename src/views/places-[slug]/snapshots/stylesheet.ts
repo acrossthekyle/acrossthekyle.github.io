@@ -5,7 +5,6 @@ import { getColSpan } from './stylesheet.utils';
 const styles = tw({
   images: `
     grid grid-cols-7 gap-4
-    !pb-0
 
     sm:grid-cols-3
   `,

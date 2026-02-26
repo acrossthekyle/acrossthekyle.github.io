@@ -3,7 +3,6 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     relative
-    !pt-0
     pb-12
   `,
   header: `
@@ -13,13 +12,11 @@ const styles = tw({
     absolute top-0 left-40.5 z-2
 
     sm:right-0
-    sm:top-1
     sm:left-auto
   `,
   graph: `
     flex flex-col gap-16
     w-full
-    pb-16
 
     sm:flex-row
     sm:gap-0

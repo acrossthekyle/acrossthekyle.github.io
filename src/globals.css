@@ -26,29 +26,29 @@ html[data-theme="light"] {
 }
 
 body {
-  nav,
-  section,
-  h2 {
-    padding-top: 4rem;
-  }
-
-  article,
   h1 {
     padding-bottom: 4rem;
   }
 
-  article:last-of-type {
-    padding-bottom: 0;
-  }
-
-  article h2 {
-    padding-top: 0;
+  h2 {
+    padding-top: 4rem;
   }
 
   h2,
-  h3,
-  ul {
+  h3 {
     padding-bottom: 1rem;
+  }
+
+  article {
+    padding-bottom: 4rem;
+
+    h2 {
+      padding-top: 0;
+    }
+  }
+
+  article:last-of-type {
+    padding-bottom: 0;
   }
 
   p {
@@ -115,6 +115,7 @@ body {
   }
 
   img {
+    border-radius: 0.125rem;
     height: 100%;
     object-fit: cover;
     width: 100%;

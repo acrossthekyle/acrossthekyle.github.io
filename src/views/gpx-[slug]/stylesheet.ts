@@ -3,7 +3,6 @@ import tw from '@/styles';
 const styles = tw({
   stats: `
     grid grid-cols-1 gap-6
-    !pb-0
 
     xs:grid-cols-2
     sm:grid-cols-3

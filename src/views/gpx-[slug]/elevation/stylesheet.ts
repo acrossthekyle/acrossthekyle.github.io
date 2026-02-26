@@ -10,7 +10,8 @@ const styles = tw({
   container: `
     relative
     border border-(--foreground)/7 border-b-0
-    !pt-1
+    pt-1
+    mb-16
   `,
   chart: `
     h-50 w-full
