@@ -9,7 +9,6 @@ import {
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
 import { LinkBackdrop } from '@/ui/link';
-import { Map, MapMarker } from '@/ui/map';
 import {
   Grid,
   GridList,
@@ -38,16 +37,6 @@ export default function View({ data }: Props) {
         <strong>{route('places').text}</strong>
         <small>{route('places').subtitle}</small>
       </h1>
-      <Map>
-        {data.markers.map((marker) => (
-          <MapMarker
-            href={`/places/${marker.slug}`}
-            key={marker.slug}
-            position={marker.position}
-            title={marker.title}
-          />
-        ))}
-      </Map>
       <p>
         A collection of my hikes and destinations since 2015.
       </p>

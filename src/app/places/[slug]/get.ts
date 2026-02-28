@@ -99,6 +99,10 @@ export default function get(slug: string) {
     isDestination: data.type === 'destination',
     label: data.label,
     location: data.location,
+    position: {
+      top: data.position[0],
+      left: data.position[1],
+    },
     slug,
     stages: data.stages.map(({ termini }, index) => ({
       index: padIndex(index + 1),

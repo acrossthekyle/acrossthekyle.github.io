@@ -132,6 +132,10 @@ const data = [
     author: 'Blake Crouch',
   },
   {
+    title: 'Recursion',
+    author: 'Blake Crouch',
+  },
+  {
     title: 'Neverwhere',
     author: 'Neil Gaiman',
   },
@@ -182,6 +186,62 @@ const data = [
   {
     title: `The Girl Who Kicked the Hornet's Nest`,
     author: 'Stieg Larsson',
+  },
+  {
+    title: 'Death on the Nile',
+    author: 'Agatha Christie',
+  },
+  {
+    title: 'Murder on the Orient Express',
+    author: 'Agatha Christie',
+  },
+  {
+    title: 'Wicked Saints',
+    author: 'Emily A. Duncan',
+  },
+  {
+    title: 'Sky in the Deep',
+    author: 'Adrienne Young',
+  },
+  {
+    title: 'Project Hail Mary',
+    author: 'Andy Weir',
+  },
+  {
+    title: 'The Fellowship of the Ring',
+    author: 'J.R.R. Tolkien',
+  },
+  {
+    title: 'The Two Towers',
+    author: 'J.R.R. Tolkien',
+  },
+  {
+    title: 'The Return of the King',
+    author: 'J.R.R. Tolkien',
+  },
+  {
+    title: 'Medusa Uploaded',
+    author: 'Emily Devenport',
+  },
+  {
+    title: 'This Is How You Lose the Time War',
+    author: 'Amal El-Mohtar and Max Gladstone',
+  },
+  {
+    title: 'Alternative Apocalypse',
+    author: 'Various Authors',
+  },
+  {
+    title: `The Handmaid's Tale`,
+    author: 'Margaret Atwood',
+  },
+  {
+    title: 'Meet Me in the Future',
+    author: 'Kameron Hurley',
+  },
+  {
+    title: 'The Glass Hotel',
+    author: 'Emily St. John Mandel',
   },
 ];
 

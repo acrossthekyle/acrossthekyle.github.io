@@ -6,6 +6,7 @@ import {
   BreadcrumbList,
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
+import { Map, MapMarker } from '@/ui/map';
 
 import Snapshots from './snapshots';
 import styles from './stylesheet';
@@ -51,6 +52,9 @@ export default function View({ data }: Props) {
           </li>
         ))}
       </ul>
+      <Map>
+        <MapMarker position={data.position} />
+      </Map>
       <Snapshots images={data.images} slug={data.slug} total={data.total} />
       {!data.isDestination && (
         <>

@@ -7,6 +7,10 @@ export type Data = {
   isDestination: boolean;
   label: string;
   location: string;
+  position: {
+    left: string;
+    top: string;
+  };
   slug: string;
   stages: Array<{
     index: string;
