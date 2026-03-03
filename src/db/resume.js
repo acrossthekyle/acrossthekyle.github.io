@@ -171,6 +171,10 @@ const data = {
       "percent": 60
     },
     {
+      "name": "PHP",
+      "percent": 60
+    },
+    {
       "name": "Leadership",
       "percent": 70
     },
