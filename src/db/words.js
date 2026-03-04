@@ -1,6 +1,16 @@
 const data = [
   {
     "author": "Kyle Gilbert",
+    "slug": "tripling-my-computer-monitors",
+    "title": "Tripling my computer monitors",
+    "content": "\nOver the holidays I received a \"home office\" upgrade, and I'm loving it.\n\nBefore I was doing all my work on a laptop. One screen, lots of command-tabbing, and constant context switching. It technically works, but it wasn't exactly efficient.\n\nI’m now using a laptop monitor extension that adds two extra 1080p screens. Having three displays means I can keep apps such as email, chat, or docs open all the time and stay focused in my editor. Less bouncing around, more actual coding.\n",
+    "date": "March 4th, 2026",
+    "readingTime": "1",
+    "timestamp": 1772604000,
+    "index": 4
+  },
+  {
+    "author": "Kyle Gilbert",
     "slug": "a-fresh-backpacking-season",
     "title": "A fresh backpacking season",
     "content": "\nA new year means a new three-season backpacking window, and I'm very ready for that.\n\nI'm hoping to squeeze in a handful of overnight trips this spring, mostly around Wisconsin and Central Illinois. Nothing too wild, just getting back out there and shaking off the rust.\n",
