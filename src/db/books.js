@@ -243,6 +243,10 @@ const data = [
     title: 'The Glass Hotel',
     author: 'Emily St. John Mandel',
   },
+  {
+    title: 'The Age of Miracles',
+    author: 'Karen Thompson Walker',
+  },
 ];
 
 export default data;
