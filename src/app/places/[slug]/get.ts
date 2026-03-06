@@ -14,38 +14,62 @@ function buildStats(
     loss: StatFull | null;
   },
 ) {
-  const result = [
+  const result: Array<{
+    label: string;
+    value: {
+      basic: string;
+      complex: Array<{
+        imperial: string;
+        metric: string;
+      }>;
+    };
+  }> = [
     {
       label: 'When',
-      value: formatDateRange(date),
+      value: {
+        basic: formatDateRange(date),
+        complex: [],
+      },
     },
   ];
 
   if (['section hike'].includes(type)) {
     result.push({
       label: 'Total',
-      value: `${stages} sections`,
+      value: {
+        basic: `${stages} sections`,
+        complex: [],
+      },
     });
   }
 
   if (['summit'].includes(type)) {
     result.push({
       label: 'Total',
-      value: `${stages} summits`,
+      value: {
+        basic: `${stages} summits`,
+        complex: [],
+      },
     });
   }
 
   if (['destination'].includes(type)) {
     result.push({
       label: 'Experiences',
-      value: `${stages} destinations`,
+      value: {
+        basic: `${stages} destinations`,
+        complex: [],
+      },
     });
   }
 
   if (['thru-hike'].includes(type)) {
     result.push({
       label: 'Duration',
-      value: `${stages} days`,
+      value: {
+        basic: `${stages} days`,
+        complex: [],
+      },
     });
   }
 
@@ -55,7 +79,10 @@ function buildStats(
   ) {
     result.push({
       label: 'Distance',
-      value: `${stats.distance.value.imperial} ${stats.distance.units.imperial.full}`,
+      value: {
+        basic: '',
+        complex: [stats.distance.value],
+      },
     });
   }
 
@@ -65,7 +92,10 @@ function buildStats(
   ) {
     result.push({
       label: ['summit'].includes(type) ? 'Highest peak' : 'Max altitude',
-      value: `${stats.altitude.value.imperial} ${stats.altitude.units.imperial.abbreviated}`,
+      value: {
+        basic: '',
+        complex: [stats.altitude.value],
+      },
     });
   }
 
@@ -76,7 +106,10 @@ function buildStats(
   ) {
     result.push({
       label: 'Elevation',
-      value: `▲ ${stats.gain?.value.imperial} ${stats.gain?.units.imperial.abbreviated} / ${stats.loss?.value.imperial} ${stats.loss?.units.imperial.abbreviated} ▼`,
+      value: {
+        basic: '',
+        complex: [stats.gain.value, stats.loss.value],
+      },
     });
   }
 

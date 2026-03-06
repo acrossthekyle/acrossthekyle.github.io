@@ -9,6 +9,7 @@ import {
 import { Map, MapMarker } from '@/ui/map';
 
 import Snapshots from './snapshots';
+import Stats from './stats';
 import styles from './stylesheet';
 import type { Data } from './types';
 
@@ -44,14 +45,7 @@ export default function View({ data }: Props) {
           {paragraph}
         </p>
       ))}
-      <ul aria-label="stats" className={styles.stats}>
-        {data.stats.map((stat) => (
-          <li key={stat.label}>
-            <strong>{stat.label}</strong>
-            <small>{stat.value}</small>
-          </li>
-        ))}
-      </ul>
+      <Stats stats={data.stats} />
       <Map>
         <MapMarker position={data.position} />
       </Map>

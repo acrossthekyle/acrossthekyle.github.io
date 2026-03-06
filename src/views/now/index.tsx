@@ -31,7 +31,7 @@ export default function View() {
         Doing daily yoga practices and morning walks along the lakefront
       </p>
       <p>
-        Watching "A Knight of the Seven Kingdoms" on HBO Max and "Dark Matter" on Apple TV+, rewatching "Star Trek: Enterprise" on Paramount+, and binging "How I Met Your Mother" + "New Girl" on Hulu
+        Watching "Dark Matter" on Apple TV+, rewatching "Star Trek: Enterprise" on Paramount+, and binging "How I Met Your Mother" + "New Girl" on Hulu
       </p>
     </Layout>
   );

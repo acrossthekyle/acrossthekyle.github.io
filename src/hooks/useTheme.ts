@@ -29,10 +29,6 @@ export function useTheme() {
     if (element) {
       element.setAttribute('data-theme', value);
     }
-
-    if (window.location.href.includes('gpx')) {
-      window.location.reload();
-    }
   };
 
   return {

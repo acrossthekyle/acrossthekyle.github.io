@@ -7,6 +7,7 @@ import {
 } from '@/ui/navigation/grid';
 
 import styles from './stylesheet';
+import Units from './units';
 import Theme from './theme';
 
 type Props = {
@@ -123,6 +124,7 @@ export default function Menu({ isMenu }: Props) {
           {ROUTES.filter(({ group }) => group === 'settings').map((item) => (
             <GridListItem key={item.text}>
               {item.text === 'theme' && <Theme />}
+              {item.text === 'units' && <Units />}
             </GridListItem>
           ))}
         </GridList>

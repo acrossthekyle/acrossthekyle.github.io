@@ -17,7 +17,13 @@ export type Data = {
   location: string;
   metrics: Array<{
     label: string;
-    value: string;
+    value: {
+      basic: string;
+      complex: {
+        imperial: string;
+        metric: string;
+      };
+    };
   }>;
   next: string;
   place: string;

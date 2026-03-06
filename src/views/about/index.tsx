@@ -35,7 +35,7 @@ export default function View() {
         A few years after that I had a passport, and from 2015 to 2016 I put it to use with a handful of trips to South America where I first learned about backpacking. But it wasn't until 2018, after a two-year traveling hiatus, that I would have my first backpacking experience.
       </p>
       <p>
-        In May of that year I booked a one-way flight to Europe and completed a long-distance thru-hike across Northern Spain, from the Pyreness in the east to the Atlantic ocean in the west &mdash; a distance of nearly 600 miles &mdash; known as the Camino de Santiago. Since then I've been to numerous <Link href="/places"><u>places</u></Link>, both near and far, from my homebase in Chicago &mdash; lands belonging to the Potawatomi, Ojibwe, and Odawa.
+        In May of that year I booked a one-way flight to Europe and completed a long-distance thru-hike across Northern Spain, from the Pyreness in the east to the Atlantic ocean in the west &mdash; a distance of nearly 600 miles (965 kilometers) &mdash; known as the Camino de Santiago. Since then I've been to numerous <Link href="/places"><u>places</u></Link>, both near and far, from my homebase in Chicago &mdash; lands belonging to the Potawatomi, Ojibwe, and Odawa.
       </p>
       <p>
         Between adventures I continue to build web and mobile apps as a self-taught software engineer because, even after {new Date().getFullYear() - 2012} years, making things with code still thrills me to no end. Feel free to browse my <Link href="/resume"><u>resume</u></Link>.

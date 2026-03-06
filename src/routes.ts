@@ -21,7 +21,7 @@ export const ROUTES = [
     group: 'blogging',
     path: '/photos',
     subtitle: 'Captured clicks',
-    text: 'Photos',
+    text: 'Snapshots',
   },
   {
     group: 'blogging',
@@ -94,6 +94,12 @@ export const ROUTES = [
     path: '',
     subtitle: '',
     text: 'theme',
+  },
+  {
+    group: 'settings',
+    path: '',
+    subtitle: '',
+    text: 'units',
   },
 ];
 

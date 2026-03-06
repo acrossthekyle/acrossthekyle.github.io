@@ -13,6 +13,7 @@ import {
   GridList,
   GridListItem,
 } from '@/ui/navigation/grid';
+import { Weight } from '@/ui/units';
 
 import Graph from './graph';
 import type { Data } from './types';
@@ -40,7 +41,9 @@ export default function View({ data }: Props) {
       </Breadcrumb>
       <h1>
         <strong>{data.title}</strong>
-        <small>{data.date} • {data.total} lbs</small>
+        <small>
+          {data.date} • <Weight weight={data.total} />
+        </small>
       </h1>
       <Graph
         base={data.base}
@@ -54,7 +57,9 @@ export default function View({ data }: Props) {
         <Fragment key={category.title}>
           <h2 id={category.title.replace(' ', '-')}>
             <strong>{category.title.toUpperCase()}</strong>
-            <small>{category.items.length} items • {category.weight} lbs</small>
+            <small>
+              {category.items.length} items • <Weight weight={category.weight} />
+            </small>
           </h2>
           <Grid>
             <GridList columns={2} id={category.title.replace(' ', '-')}>
@@ -68,7 +73,7 @@ export default function View({ data }: Props) {
                           {item.consumable && `Consumable • `}
                           {item.worn && `Worn • `}
                           {(!item.worn && !item.consumable) && `Base • `}
-                          {item.weight} oz • view
+                          <Weight isSmall weight={item.weight} /> • view
                         </LinkArrow >
                       </small>
                     </LinkBackdrop>
@@ -79,7 +84,7 @@ export default function View({ data }: Props) {
                         {item.consumable && `Consumable • `}
                         {item.worn && `Worn • `}
                         {(!item.worn && !item.consumable) && `Base • `}
-                        {item.weight} oz
+                        <Weight isSmall weight={item.weight} />
                       </small>
                     </>
                   )}

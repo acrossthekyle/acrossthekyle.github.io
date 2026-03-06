@@ -3,6 +3,11 @@ import type { Gpx, StatFull, StatShort } from '@/types';
 
 import { padIndex } from '../../../utils';
 
+const FALLBACK = {
+  imperial: '',
+  metric: '',
+};
+
 function buildStats(
   gpx: Gpx,
   stats: {
@@ -25,39 +30,81 @@ function buildStats(
   return [
     {
       label: 'Start',
-      value: termini.start.words.join(' '),
+      value: {
+        basic: termini.start.words.join(' '),
+        complex: {
+          imperial: '',
+          metric: '',
+        },
+      },
     },
     {
       label: 'End',
-      value: termini.end.words.join(' '),
+      value: {
+        basic: termini.end.words.join(' '),
+        complex: {
+          imperial: '',
+          metric: '',
+        },
+      },
     },
     {
       label: 'Distance',
-      value: `${stats.distance?.value.imperial} ${stats.distance?.units.imperial.full}`,
+      value: {
+        basic: '',
+        complex: stats.distance?.value || FALLBACK,
+      },
     },
     {
       label: 'Time',
-      value: `${stats.time?.value} ${stats.time?.units}`,
+      value: {
+        basic: `${stats.time?.value} ${stats.time?.units}`,
+        complex: {
+          imperial: '',
+          metric: '',
+        },
+      },
     },
     {
       label: 'Max altitude',
-      value: `${stats.max?.value.imperial} ${stats.max?.units.imperial.abbreviated}`,
+      value: {
+        basic: '',
+        complex: stats.max?.value || FALLBACK,
+      },
     },
     {
       label: 'Altitude start',
-      value: `${new Intl.NumberFormat().format(gpx[0][2])} ft`,
+      value: {
+        basic: '',
+        complex: {
+          imperial: String(gpx[0][2]),
+          metric: '',
+        },
+      },
     },
     {
       label: 'Altitude end',
-      value: `${new Intl.NumberFormat().format(gpx[gpx.length - 1][2])} ft`,
+      value: {
+        basic: '',
+        complex: {
+          imperial: String(gpx[gpx.length - 1][2]),
+          metric: '',
+        },
+      },
     },
     {
       label: 'Elevation gain',
-      value: `${stats.gain?.value.imperial} ${stats.gain?.units.imperial.abbreviated}`,
+      value: {
+        basic: '',
+        complex: stats.gain?.value || FALLBACK,
+      },
     },
     {
       label: 'Elevation loss',
-      value: `${stats.loss?.value.imperial} ${stats.loss?.units.imperial.abbreviated}`,
+      value: {
+        basic: '',
+        complex: stats.loss?.value || FALLBACK,
+      },
     },
   ];
 }

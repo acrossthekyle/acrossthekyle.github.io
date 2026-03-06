@@ -3,7 +3,9 @@
 import dynamic from 'next/dynamic';
 
 import { useTheme } from '@/hooks/useTheme';
+import { useUnits } from '@/hooks/useUnits';
 import type { Gpx } from '@/types';
+import { convertFeetToMeters } from '@/utils';
 
 import styles from './stylesheet';
 
@@ -17,6 +19,7 @@ type Props = {
 
 export default function Elevation({ gpx }: Props) {
   const { theme } = useTheme();
+  const { units } = useUnits();
 
   if (gpx.length === 0) {
     return null;
@@ -111,8 +114,15 @@ export default function Elevation({ gpx }: Props) {
                 show: false,
               },
               custom: function({ series, seriesIndex, dataPointIndex }) {
+                const value = series[seriesIndex][dataPointIndex];
+
                 return '<div>' +
-                  '<span>' + new Intl.NumberFormat().format(series[seriesIndex][dataPointIndex]) + ' ft</span>' +
+                  '<span>' +
+                  new Intl.NumberFormat().format(
+                    units === 'metric' ? convertFeetToMeters(value) : value,
+                  ) +
+                  ` ${units === 'metric' ? 'm' : 'ft'}` +
+                  '</span>' +
                 '</div>';
               },
               x: {
@@ -124,7 +134,11 @@ export default function Elevation({ gpx }: Props) {
               },
               y: {
                 formatter: (value: number) => {
-                  return `${new Intl.NumberFormat().format(value)} ft`;
+                  const formatted = new Intl.NumberFormat().format(
+                    units === 'metric' ? convertFeetToMeters(value) : value,
+                  );
+
+                  return `${formatted} ${units === 'metric' ? 'm' : 'ft'}`;
                 },
               },
             },

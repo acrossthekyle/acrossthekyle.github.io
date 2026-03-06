@@ -32,7 +32,7 @@ export default function get() {
       count: items.length,
       id: key.replace(' ', '-'),
       items: items.map(({ date, gear, slug, title }) => ({
-        base: gear?.weightTotal || '',
+        base: gear?.weightTotal || {},
         date: formatDateRange(date, true),
         slug,
         title: title.join(' '),

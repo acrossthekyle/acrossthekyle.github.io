@@ -6,16 +6,6 @@ export type StatFull = {
     imperial: string;
     metric: string;
   };
-  units: {
-    imperial: {
-      full: string;
-      abbreviated: string;
-    };
-    metric: {
-      full: string;
-      abbreviated: string;
-    };
-  };
 };
 
 export type StatShort = {

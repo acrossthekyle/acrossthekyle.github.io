@@ -2,24 +2,42 @@ type GearItem = {
   consumable: boolean;
   link: string;
   name: string[];
-  weight: number;
+  weight: {
+    imperial: string | number;
+    metric: string;
+  };
   worn: boolean;
 };
 
 type GearCategory = {
   items: GearItem[];
   title: string;
-  weight: string;
+  weight: {
+    imperial: string | number;
+    metric: string;
+  };
 };
 
 export type Data = {
-  base: string;
+  base: {
+    imperial: string | number;
+    metric: string;
+  };
   categories: GearCategory[];
-  consumable: string;
+  consumable: {
+    imperial: string | number;
+    metric: string;
+  };
   date: string;
   slug: string;
   title: string;
-  total: string;
+  total: {
+    imperial: string | number;
+    metric: string;
+  };
   type?: string;
-  worn: string;
+  worn: {
+    imperial: string | number;
+    metric: string;
+  };
 };

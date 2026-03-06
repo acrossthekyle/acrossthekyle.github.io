@@ -2,6 +2,11 @@ import db from '@/db/places';
 
 import { formatDateRange } from '../../utils';
 
+const FALLBACK = {
+  imperial: 0,
+  metric: '0',
+};
+
 export default function get(slug, type) {
   const data = db.find((item) => item.slug.toLowerCase() === slug.toLowerCase());
 
@@ -10,7 +15,7 @@ export default function get(slug, type) {
   }
 
   return {
-    base: data.gear?.weightBase || '',
+    base: data.gear?.weightBase || FALLBACK,
     categories: (data.gear?.categories || []).filter((category) => {
       if (type === 'base') {
         return category.items.filter((item) => !item.consumable && !item.worn).length > 0;
@@ -43,12 +48,12 @@ export default function get(slug, type) {
         return true;
       }),
     })),
-    consumable: data.gear?.weightConsumable || '',
+    consumable: data.gear?.weightConsumable || FALLBACK,
     date: formatDateRange(data.date, true),
     slug,
     title: data.title.join(' '),
-    total: data.gear?.weightTotal || '',
+    total: data.gear?.weightTotal || FALLBACK,
     type,
-    worn: data.gear?.weightWorn || '',
+    worn: data.gear?.weightWorn || FALLBACK,
   };
 };

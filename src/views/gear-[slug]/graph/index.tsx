@@ -1,14 +1,28 @@
 import Link from 'next/link';
 
+import { Weight } from '@/ui/units';
+
 import styles from './stylesheet';
 
 type Props = {
-  base: string;
-  consumable: string;
+  base: {
+    imperial: string | number;
+    metric: string;
+  };
+  consumable: {
+    imperial: string | number;
+    metric: string;
+  };
   slug: string;
-  total: string;
+  total: {
+    imperial: string | number;
+    metric: string;
+  };
   type?: string;
-  worn: string;
+  worn: {
+    imperial: string | number;
+    metric: string;
+  };
 };
 
 export default function Graph({
@@ -22,17 +36,17 @@ export default function Graph({
   const segments = [
     {
       label: 'Base',
-      percent: (Number(base)/Number(total)),
+      percent: (Number(base.imperial)/Number(total.imperial)),
       value: base,
     },
     {
       label: 'Worn',
-      percent: (Number(worn)/Number(total)),
+      percent: (Number(worn.imperial)/Number(total.imperial)),
       value: worn,
     },
     {
       label: 'Consumable',
-      percent: (Number(consumable)/Number(total)),
+      percent: (Number(consumable.imperial)/Number(total.imperial)),
       value: consumable,
     },
   ];
@@ -71,7 +85,9 @@ export default function Graph({
               }
             >
               <span className={styles.label}>{label}</span>
-              <span className={styles.value}>{value} lbs</span>
+              <span className={styles.value}>
+                <Weight weight={value} />
+              </span>
             </Link>
           </li>
         ))}

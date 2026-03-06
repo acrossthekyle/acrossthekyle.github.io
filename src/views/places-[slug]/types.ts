@@ -18,7 +18,13 @@ export type Data = {
   }>;
   stats: Array<{
     label: string;
-    value: string;
+    value: {
+      basic: string;
+      complex: Array<{
+        imperial: string;
+        metric: string;
+      }>;
+    };
   }>;
   title: string;
   type: string;

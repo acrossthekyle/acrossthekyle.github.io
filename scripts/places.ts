@@ -86,9 +86,12 @@ function turnStringIntoArrayForLists(value: string, limit = 14) {
 /* GEAR */
 
 function calculateWeight(items) {
-  const total = [...items].reduce((sum, item) => sum + item.weight, 0);
+  const total = [...items].reduce((sum, item) => sum + item.weight.imperial, 0);
 
-  return (total / 16).toFixed(2);
+  return {
+    imperial: (total / 16).toFixed(2),
+    metric: (total / 35.274).toFixed(2),
+  };
 }
 
 function calculateBaseWeight(items) {
@@ -166,7 +169,10 @@ async function getGear(folder) {
         link: item.link,
         name: turnStringIntoArrayForLists(`${item.name} ${item.type}`.trim()),
         consumable: item.consumable === 'yes',
-        weight: Number(item.weight),
+        weight: {
+          imperial: Number(item.weight),
+          metric: (Number(item.weight) * 28.35).toFixed(0),
+        },
         worn: item.worn === 'yes',
       });
     }
@@ -325,16 +331,6 @@ async function getStages(folder, tripType) {
             imperial: formatNumber(data.gain),
             metric: formatNumber(data.gain/3.281),
           },
-          units: {
-            imperial: {
-              full: 'feet',
-              abbreviated: 'ft',
-            },
-            metric: {
-              full: 'meters',
-              abbreviated: 'm',
-            },
-          },
         };
       }
 
@@ -344,16 +340,6 @@ async function getStages(folder, tripType) {
           value: {
             imperial: formatNumber(data.loss),
             metric: formatNumber(data.loss/3.281),
-          },
-          units: {
-            imperial: {
-              full: 'feet',
-              abbreviated: 'ft',
-            },
-            metric: {
-              full: 'meters',
-              abbreviated: 'm',
-            },
           },
         };
       }
@@ -368,16 +354,6 @@ async function getStages(folder, tripType) {
             metric: formatNumber(Number(
               tripType === 'summit' ? data.miles / 2 : data.miles
             ) * 1.609),
-          },
-          units: {
-            imperial: {
-              full: 'miles',
-              abbreviated: 'mi',
-            },
-            metric: {
-              full: 'kilometers',
-              abbreviated: 'km',
-            },
           },
         };
       }
@@ -400,16 +376,6 @@ async function getStages(folder, tripType) {
           value: {
             imperial: formatNumber(Math.max(...elevation)),
             metric: formatNumber(Math.max(...elevation)/3.281),
-          },
-          units: {
-            imperial: {
-              full: 'feet',
-              abbreviated: 'ft',
-            },
-            metric: {
-              full: 'meters',
-              abbreviated: 'm',
-            },
           },
         };
       }
@@ -546,16 +512,6 @@ function getTripStats(trip, stages) {
         imperial: formatNumber(gain),
         metric: formatNumber(gain/3.281),
       },
-      units: {
-        imperial: {
-          full: 'feet',
-          abbreviated: 'ft',
-        },
-        metric: {
-          full: 'meters',
-          abbreviated: 'm',
-        },
-      },
     };
   }
 
@@ -565,16 +521,6 @@ function getTripStats(trip, stages) {
       value: {
         imperial: formatNumber(loss),
         metric: formatNumber(loss/3.281),
-      },
-      units: {
-        imperial: {
-          full: 'feet',
-          abbreviated: 'ft',
-        },
-        metric: {
-          full: 'meters',
-          abbreviated: 'm',
-        },
       },
     };
   }
@@ -586,16 +532,6 @@ function getTripStats(trip, stages) {
         imperial: formatNumber(altitude),
         metric: formatNumber(altitude/3.281),
       },
-      units: {
-        imperial: {
-          full: 'feet',
-          abbreviated: 'ft',
-        },
-        metric: {
-          full: 'meters',
-          abbreviated: 'm',
-        },
-      },
     };
   }
 
@@ -605,16 +541,6 @@ function getTripStats(trip, stages) {
       value: {
         imperial: formatNumber(distance),
         metric: formatNumber(distance * 1.609),
-      },
-      units: {
-        imperial: {
-          full: 'miles',
-          abbreviated: 'mi',
-        },
-        metric: {
-          full: 'kilometers',
-          abbreviated: 'km',
-        },
       },
     };
   }
@@ -694,35 +620,6 @@ function getTermini(string, index) {
   return string.includes(' to ') ? string.split(' to ')[index] : string;
 }
 
-function formatDescription(trip, stats) {
-  return trip.description.map((paragraph) => {
-    paragraph = paragraph.replace('%length%', stats.length.value);
-    paragraph = paragraph.replace('%location%', trip.location);
-
-    if (stats.gain !== null) {
-      paragraph = paragraph.replace('%gain%', `${stats.gain.value.imperial} ${stats.gain.units.imperial.abbreviated}`);
-    }
-
-    if (stats.loss !== null) {
-      paragraph = paragraph.replace('%loss%', `${stats.loss.value.imperial} ${stats.loss.units.imperial.abbreviated}`);
-    }
-
-    if (stats.distance !== null) {
-      paragraph = paragraph.replace('%distance%', `${stats.distance.value.imperial} ${stats.distance.units.imperial.full}`);
-    }
-
-    if (stats.altitude !== null) {
-      paragraph = paragraph.replace('%max%', `${stats.altitude.value.imperial} ${stats.altitude.units.imperial.full}`);
-    }
-
-    if (stats.days !== null) {
-      paragraph = paragraph.replace('%days%', `${stats.days.value} days`);
-    }
-
-    return paragraph;
-  });
-}
-
 /* GO */
 
 export async function go() {
@@ -750,7 +647,7 @@ export async function go() {
         category: trip.category,
         continent: trip.continent,
         date,
-        description: formatDescription(trip, stats),
+        description: trip.description,
         gear: gear === null ? {} : gear,
         hasGear: gear !== null,
         hasStats,

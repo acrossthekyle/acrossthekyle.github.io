@@ -8,6 +8,7 @@ import {
 } from '@/ui/breadcrumbs';
 
 import Elevation from './elevation';
+import Stats from './stats';
 import styles from './stylesheet';
 import type { Data } from './types';
 
@@ -48,14 +49,7 @@ export default function View({ data }: Props) {
         </strong>
         <small>{data.date} • {data.location}</small>
       </h1>
-      <ul aria-label="stats" className={styles.stats}>
-        {data.metrics.map((stat) => (
-          <li key={stat.label}>
-            <strong>{stat.label}</strong>
-            <small>{stat.value}</small>
-          </li>
-        ))}
-      </ul>
+      <Stats stats={data.metrics} />
       <h2>
         <strong>ELEVATION</strong>
       </h2>

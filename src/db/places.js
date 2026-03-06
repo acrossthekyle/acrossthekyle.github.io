@@ -23,7 +23,10 @@ const data = [
               "name": [
                 "ESC Ranger"
               ],
-              "weight": 19.25,
+              "weight": {
+                "imperial": 19.25,
+                "metric": "546"
+              },
               "consumable": false,
               "worn": false
             },
@@ -33,12 +36,18 @@ const data = [
                 "Nylofume Pack",
                 "Liner"
               ],
-              "weight": 1.02,
+              "weight": {
+                "imperial": 1.02,
+                "metric": "29"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "1.27"
+          "weight": {
+            "imperial": "1.27",
+            "metric": "0.57"
+          }
         },
         {
           "title": "Shelter",
@@ -50,7 +59,10 @@ const data = [
                 "X-Dome 1+",
                 "tent"
               ],
-              "weight": 35,
+              "weight": {
+                "imperial": 35,
+                "metric": "992"
+              },
               "consumable": false,
               "worn": false
             },
@@ -61,12 +73,18 @@ const data = [
                 "Hog Mini",
                 "stakes"
               ],
-              "weight": 2.1,
+              "weight": {
+                "imperial": 2.1,
+                "metric": "60"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "2.32"
+          "weight": {
+            "imperial": "2.32",
+            "metric": "1.05"
+          }
         },
         {
           "title": "Sleeping",
@@ -77,7 +95,10 @@ const data = [
                 "EE Revelation",
                 "10ºF Quilt"
               ],
-              "weight": 27,
+              "weight": {
+                "imperial": 27,
+                "metric": "765"
+              },
               "consumable": false,
               "worn": false
             },
@@ -88,7 +109,10 @@ const data = [
                 "Modular Large",
                 "Pillow"
               ],
-              "weight": 1.7,
+              "weight": {
+                "imperial": 1.7,
+                "metric": "48"
+              },
               "consumable": false,
               "worn": false
             },
@@ -98,7 +122,10 @@ const data = [
                 "Pillow Strap",
                 "Pillow Case"
               ],
-              "weight": 2.19,
+              "weight": {
+                "imperial": 2.19,
+                "metric": "62"
+              },
               "consumable": false,
               "worn": false
             },
@@ -109,7 +136,10 @@ const data = [
                 "All Season R",
                 "5.4 Pad"
               ],
-              "weight": 19.12,
+              "weight": {
+                "imperial": 19.12,
+                "metric": "542"
+              },
               "consumable": false,
               "worn": false
             },
@@ -119,12 +149,18 @@ const data = [
                 "Alpenblow Air",
                 "Pump"
               ],
-              "weight": 0.3,
+              "weight": {
+                "imperial": 0.3,
+                "metric": "9"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "3.14"
+          "weight": {
+            "imperial": "3.14",
+            "metric": "1.43"
+          }
         },
         {
           "title": "Clothing",
@@ -136,7 +172,10 @@ const data = [
                 "Vidda Pro",
                 "Lite Pants"
               ],
-              "weight": 16,
+              "weight": {
+                "imperial": 16,
+                "metric": "454"
+              },
               "consumable": false,
               "worn": true
             },
@@ -146,7 +185,10 @@ const data = [
                 "Topo Athletic",
                 "Pursuit Shoes"
               ],
-              "weight": 22,
+              "weight": {
+                "imperial": 22,
+                "metric": "624"
+              },
               "consumable": false,
               "worn": true
             },
@@ -156,7 +198,10 @@ const data = [
                 "Arc'teryx",
                 "Trucker Hat"
               ],
-              "weight": 2.15,
+              "weight": {
+                "imperial": 2.15,
+                "metric": "61"
+              },
               "consumable": false,
               "worn": true
             },
@@ -166,7 +211,10 @@ const data = [
                 "Goodr",
                 "Sunglasses"
               ],
-              "weight": 0.78,
+              "weight": {
+                "imperial": 0.78,
+                "metric": "22"
+              },
               "consumable": false,
               "worn": true
             },
@@ -177,7 +225,10 @@ const data = [
                 "Research Echo",
                 "sun hoody x 2"
               ],
-              "weight": 9,
+              "weight": {
+                "imperial": 9,
+                "metric": "255"
+              },
               "consumable": false,
               "worn": true
             },
@@ -189,7 +240,10 @@ const data = [
                 "Cruiser",
                 "Pullover"
               ],
-              "weight": 4.02,
+              "weight": {
+                "imperial": 4.02,
+                "metric": "114"
+              },
               "consumable": false,
               "worn": true
             },
@@ -201,7 +255,10 @@ const data = [
                 "Boxer Brief",
                 "Underwear x 2"
               ],
-              "weight": 5.72,
+              "weight": {
+                "imperial": 5.72,
+                "metric": "162"
+              },
               "consumable": false,
               "worn": true
             },
@@ -212,7 +269,10 @@ const data = [
                 "Quarter Socks",
                 "x 2"
               ],
-              "weight": 3.8,
+              "weight": {
+                "imperial": 3.8,
+                "metric": "108"
+              },
               "consumable": false,
               "worn": true
             },
@@ -223,7 +283,10 @@ const data = [
                 "Hardwear down",
                 "jacket"
               ],
-              "weight": 7.97,
+              "weight": {
+                "imperial": 7.97,
+                "metric": "226"
+              },
               "consumable": false,
               "worn": false
             },
@@ -235,12 +298,18 @@ const data = [
                 "Visp Rain",
                 "Jacket"
               ],
-              "weight": 5.22,
+              "weight": {
+                "imperial": 5.22,
+                "metric": "148"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "4.79"
+          "weight": {
+            "imperial": "4.79",
+            "metric": "2.17"
+          }
         },
         {
           "title": "Kitchen",
@@ -252,7 +321,10 @@ const data = [
                 "titanium",
                 "650ml pot"
               ],
-              "weight": 2.8,
+              "weight": {
+                "imperial": 2.8,
+                "metric": "79"
+              },
               "consumable": false,
               "worn": false
             },
@@ -262,7 +334,10 @@ const data = [
                 "BRS 3000T",
                 "stove"
               ],
-              "weight": 0.9,
+              "weight": {
+                "imperial": 0.9,
+                "metric": "26"
+              },
               "consumable": false,
               "worn": false
             },
@@ -273,7 +348,10 @@ const data = [
                 "titanium long",
                 "utensil"
               ],
-              "weight": 0.53,
+              "weight": {
+                "imperial": 0.53,
+                "metric": "15"
+              },
               "consumable": false,
               "worn": false
             },
@@ -284,7 +362,10 @@ const data = [
                 "Proof Bag",
                 "odor barrier"
               ],
-              "weight": 0.63,
+              "weight": {
+                "imperial": 0.63,
+                "metric": "18"
+              },
               "consumable": false,
               "worn": false
             },
@@ -294,7 +375,10 @@ const data = [
                 "MSR IsoPro",
                 "4oz fuel"
               ],
-              "weight": 7.4,
+              "weight": {
+                "imperial": 7.4,
+                "metric": "210"
+              },
               "consumable": true,
               "worn": false
             },
@@ -306,12 +390,18 @@ const data = [
                 "Food Locker",
                 "14L food bag"
               ],
-              "weight": 6.75,
+              "weight": {
+                "imperial": 6.75,
+                "metric": "191"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "1.19"
+          "weight": {
+            "imperial": "1.19",
+            "metric": "0.54"
+          }
         },
         {
           "title": "Water",
@@ -323,7 +413,10 @@ const data = [
                 "Quickdraw",
                 "water Filter"
               ],
-              "weight": 2.4,
+              "weight": {
+                "imperial": 2.4,
+                "metric": "68"
+              },
               "consumable": false,
               "worn": false
             },
@@ -333,7 +426,10 @@ const data = [
                 "Platypus 1L",
                 "water pouch"
               ],
-              "weight": 1.4,
+              "weight": {
+                "imperial": 1.4,
+                "metric": "40"
+              },
               "consumable": false,
               "worn": false
             },
@@ -345,12 +441,18 @@ const data = [
                 "2 Water",
                 "Bottles"
               ],
-              "weight": 6.36,
+              "weight": {
+                "imperial": 6.36,
+                "metric": "180"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "0.64"
+          "weight": {
+            "imperial": "0.64",
+            "metric": "0.29"
+          }
         },
         {
           "title": "Hygiene",
@@ -361,7 +463,10 @@ const data = [
                 "Toothpaste",
                 "tablets"
               ],
-              "weight": 0.53,
+              "weight": {
+                "imperial": 0.53,
+                "metric": "15"
+              },
               "consumable": true,
               "worn": false
             },
@@ -371,7 +476,10 @@ const data = [
                 "Foldable",
                 "Toothbrush"
               ],
-              "weight": 0.74,
+              "weight": {
+                "imperial": 0.74,
+                "metric": "21"
+              },
               "consumable": false,
               "worn": false
             },
@@ -381,7 +489,10 @@ const data = [
                 "Hand",
                 "Sanitizer"
               ],
-              "weight": 1.62,
+              "weight": {
+                "imperial": 1.62,
+                "metric": "46"
+              },
               "consumable": true,
               "worn": false
             },
@@ -390,7 +501,10 @@ const data = [
               "name": [
                 "Toilet paper"
               ],
-              "weight": 1.69,
+              "weight": {
+                "imperial": 1.69,
+                "metric": "48"
+              },
               "consumable": true,
               "worn": false
             },
@@ -399,7 +513,10 @@ const data = [
               "name": [
                 "Toilet bag"
               ],
-              "weight": 0.44,
+              "weight": {
+                "imperial": 0.44,
+                "metric": "12"
+              },
               "consumable": false,
               "worn": false
             },
@@ -408,7 +525,10 @@ const data = [
               "name": [
                 "Body Wipes"
               ],
-              "weight": 2,
+              "weight": {
+                "imperial": 2,
+                "metric": "57"
+              },
               "consumable": true,
               "worn": false
             },
@@ -417,7 +537,10 @@ const data = [
               "name": [
                 "Hair Ties"
               ],
-              "weight": 0.32,
+              "weight": {
+                "imperial": 0.32,
+                "metric": "9"
+              },
               "consumable": false,
               "worn": false
             },
@@ -427,7 +550,10 @@ const data = [
                 "SPF 15",
                 "Chapstick"
               ],
-              "weight": 0.32,
+              "weight": {
+                "imperial": 0.32,
+                "metric": "9"
+              },
               "consumable": true,
               "worn": false
             },
@@ -438,12 +564,18 @@ const data = [
                 "Ultralight",
                 "trowel"
               ],
-              "weight": 0.48,
+              "weight": {
+                "imperial": 0.48,
+                "metric": "14"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "0.51"
+          "weight": {
+            "imperial": "0.51",
+            "metric": "0.23"
+          }
         },
         {
           "title": "Aid Kit",
@@ -454,12 +586,18 @@ const data = [
                 "Med + Repair",
                 "Kit"
               ],
-              "weight": 1.73,
+              "weight": {
+                "imperial": 1.73,
+                "metric": "49"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "0.11"
+          "weight": {
+            "imperial": "0.11",
+            "metric": "0.05"
+          }
         },
         {
           "title": "Electronics",
@@ -470,7 +608,10 @@ const data = [
                 "Apple Ultra 3",
                 "Watch"
               ],
-              "weight": 2.25,
+              "weight": {
+                "imperial": 2.25,
+                "metric": "64"
+              },
               "consumable": false,
               "worn": true
             },
@@ -480,7 +621,10 @@ const data = [
                 "iPhone 16 Pro",
                 "Phone"
               ],
-              "weight": 7.8,
+              "weight": {
+                "imperial": 7.8,
+                "metric": "221"
+              },
               "consumable": false,
               "worn": false
             },
@@ -490,12 +634,18 @@ const data = [
                 "Nitecore NU25",
                 "UL headlamp"
               ],
-              "weight": 1.59,
+              "weight": {
+                "imperial": 1.59,
+                "metric": "45"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "0.73"
+          "weight": {
+            "imperial": "0.73",
+            "metric": "0.33"
+          }
         },
         {
           "title": "Miscellaneous",
@@ -507,7 +657,10 @@ const data = [
                 "Iceline",
                 "Trekking Pole"
               ],
-              "weight": 4.7,
+              "weight": {
+                "imperial": 4.7,
+                "metric": "133"
+              },
               "consumable": false,
               "worn": false
             },
@@ -519,7 +672,10 @@ const data = [
                 "repellent Bug",
                 "Wipes"
               ],
-              "weight": 1.13,
+              "weight": {
+                "imperial": 1.13,
+                "metric": "32"
+              },
               "consumable": false,
               "worn": false
             },
@@ -529,18 +685,36 @@ const data = [
                 "Loop Quiet 2",
                 "Earplugs"
               ],
-              "weight": 0.5,
+              "weight": {
+                "imperial": 0.5,
+                "metric": "14"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "0.40"
+          "weight": {
+            "imperial": "0.40",
+            "metric": "0.18"
+          }
         }
       ],
-      "weightBase": "10.13",
-      "weightConsumable": "0.85",
-      "weightTotal": "15.08",
-      "weightWorn": "4.11"
+      "weightBase": {
+        "imperial": "10.13",
+        "metric": "4.59"
+      },
+      "weightConsumable": {
+        "imperial": "0.85",
+        "metric": "0.38"
+      },
+      "weightTotal": {
+        "imperial": "15.08",
+        "metric": "6.84"
+      },
+      "weightWorn": {
+        "imperial": "4.11",
+        "metric": "1.86"
+      }
     },
     "hasGear": true,
     "hasStats": true,
@@ -1561,16 +1735,6 @@ const data = [
             "value": {
               "imperial": "10",
               "metric": "16"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -1578,16 +1742,6 @@ const data = [
             "value": {
               "imperial": "1,232",
               "metric": "375"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -1595,16 +1749,6 @@ const data = [
             "value": {
               "imperial": "1,299",
               "metric": "396"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -1612,16 +1756,6 @@ const data = [
             "value": {
               "imperial": "1,097",
               "metric": "334"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -2655,16 +2789,6 @@ const data = [
             "value": {
               "imperial": "4",
               "metric": "7"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -2672,16 +2796,6 @@ const data = [
             "value": {
               "imperial": "587",
               "metric": "179"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -2689,16 +2803,6 @@ const data = [
             "value": {
               "imperial": "497",
               "metric": "151"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -2706,16 +2810,6 @@ const data = [
             "value": {
               "imperial": "1,168",
               "metric": "356"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -2748,16 +2842,6 @@ const data = [
         "value": {
           "imperial": "1,168",
           "metric": "356"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "days": {
@@ -2770,16 +2854,6 @@ const data = [
         "value": {
           "imperial": "14",
           "metric": "23"
-        },
-        "units": {
-          "imperial": {
-            "full": "miles",
-            "abbreviated": "mi"
-          },
-          "metric": {
-            "full": "kilometers",
-            "abbreviated": "km"
-          }
         }
       },
       "gain": {
@@ -2787,16 +2861,6 @@ const data = [
         "value": {
           "imperial": "1,819",
           "metric": "554"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "length": {
@@ -2809,16 +2873,6 @@ const data = [
         "value": {
           "imperial": "1,796",
           "metric": "547"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       }
     },
@@ -2846,7 +2900,7 @@ const data = [
       ]
     },
     "description": [
-      "Encircling the Mont Blanc mountain in the Alps, the tour of this peak is a classic long-distance hike covering a distance of 117 miles while passing through France, Italy, and Switzerland. It's a challenging experience filled with diverse landscapes, unique cultural blends, and stunning alpine scenery, all while sleeping in mountain huts and eating home-cooked meals each night."
+      "Encircling the Mont Blanc mountain in the Alps, the tour of this peak is a classic long-distance hike covering a distance of 117 miles (188 kilometers) while passing through France, Italy, and Switzerland. It's a challenging experience filled with diverse landscapes, unique cultural blends, and stunning alpine scenery, all while sleeping in mountain huts and eating home-cooked meals each night."
     ],
     "gear": {
       "categories": [
@@ -2858,7 +2912,10 @@ const data = [
               "name": [
                 "ESC Ranger"
               ],
-              "weight": 19.25,
+              "weight": {
+                "imperial": 19.25,
+                "metric": "546"
+              },
               "consumable": false,
               "worn": false
             },
@@ -2868,7 +2925,10 @@ const data = [
                 "Nylofume Pack",
                 "Liner"
               ],
-              "weight": 1.02,
+              "weight": {
+                "imperial": 1.02,
+                "metric": "29"
+              },
               "consumable": false,
               "worn": false
             },
@@ -2878,12 +2938,18 @@ const data = [
                 "Drawstring",
                 "Bag"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "1.45"
+          "weight": {
+            "imperial": "1.45",
+            "metric": "0.66"
+          }
         },
         {
           "title": "Sleeping",
@@ -2894,7 +2960,10 @@ const data = [
                 "Sleeping Bag",
                 "Liner"
               ],
-              "weight": 12.8,
+              "weight": {
+                "imperial": 12.8,
+                "metric": "363"
+              },
               "consumable": false,
               "worn": false
             },
@@ -2904,12 +2973,18 @@ const data = [
                 "Exped Mega",
                 "Pillow"
               ],
-              "weight": 6,
+              "weight": {
+                "imperial": 6,
+                "metric": "170"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "1.18"
+          "weight": {
+            "imperial": "1.18",
+            "metric": "0.53"
+          }
         },
         {
           "title": "Clothing",
@@ -2920,7 +2995,10 @@ const data = [
                 "Vuori Kore",
                 "Shorts x 2"
               ],
-              "weight": 10.66,
+              "weight": {
+                "imperial": 10.66,
+                "metric": "302"
+              },
               "consumable": false,
               "worn": true
             },
@@ -2931,7 +3009,10 @@ const data = [
                 "boxer briefs",
                 "Underwear x 2"
               ],
-              "weight": 6.5,
+              "weight": {
+                "imperial": 6.5,
+                "metric": "184"
+              },
               "consumable": false,
               "worn": true
             },
@@ -2941,7 +3022,10 @@ const data = [
                 "Darn Tough",
                 "Ankle Socks"
               ],
-              "weight": 3.1,
+              "weight": {
+                "imperial": 3.1,
+                "metric": "88"
+              },
               "consumable": false,
               "worn": true
             },
@@ -2951,7 +3035,10 @@ const data = [
                 "Goodr",
                 "Sunglasses"
               ],
-              "weight": 0.78,
+              "weight": {
+                "imperial": 0.78,
+                "metric": "22"
+              },
               "consumable": false,
               "worn": true
             },
@@ -2961,7 +3048,10 @@ const data = [
                 "Arc'teryx",
                 "Trucker Hat"
               ],
-              "weight": 2.15,
+              "weight": {
+                "imperial": 2.15,
+                "metric": "61"
+              },
               "consumable": false,
               "worn": true
             },
@@ -2971,7 +3061,10 @@ const data = [
                 "Topo Athletic",
                 "Pursuit Shoes"
               ],
-              "weight": 22,
+              "weight": {
+                "imperial": 22,
+                "metric": "624"
+              },
               "consumable": false,
               "worn": true
             },
@@ -2982,7 +3075,10 @@ const data = [
                 "Stabilizer",
                 "Knee Braces"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": false,
               "worn": true
             },
@@ -2993,7 +3089,10 @@ const data = [
                 "Hardwear down",
                 "jacket"
               ],
-              "weight": 7.97,
+              "weight": {
+                "imperial": 7.97,
+                "metric": "226"
+              },
               "consumable": false,
               "worn": false
             },
@@ -3005,7 +3104,10 @@ const data = [
                 "Alpha Hoodie",
                 "Pullover"
               ],
-              "weight": 4.02,
+              "weight": {
+                "imperial": 4.02,
+                "metric": "114"
+              },
               "consumable": false,
               "worn": false
             },
@@ -3017,7 +3119,10 @@ const data = [
                 "Visp Rain",
                 "Jacket"
               ],
-              "weight": 5.22,
+              "weight": {
+                "imperial": 5.22,
+                "metric": "148"
+              },
               "consumable": false,
               "worn": false
             },
@@ -3028,7 +3133,10 @@ const data = [
                 "Research Echo",
                 "sun hoody x 2"
               ],
-              "weight": 9,
+              "weight": {
+                "imperial": 9,
+                "metric": "255"
+              },
               "consumable": false,
               "worn": false
             },
@@ -3039,7 +3147,10 @@ const data = [
                 "Long sleeve",
                 "Shirt"
               ],
-              "weight": 6.53,
+              "weight": {
+                "imperial": 6.53,
+                "metric": "185"
+              },
               "consumable": false,
               "worn": false
             },
@@ -3049,7 +3160,10 @@ const data = [
                 "Vuori Kore",
                 "joggers"
               ],
-              "weight": 8.29,
+              "weight": {
+                "imperial": 8.29,
+                "metric": "235"
+              },
               "consumable": false,
               "worn": false
             },
@@ -3059,12 +3173,18 @@ const data = [
                 "Crocs Classic",
                 "Clogs Sandals"
               ],
-              "weight": 13.12,
+              "weight": {
+                "imperial": 13.12,
+                "metric": "372"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "6.40"
+          "weight": {
+            "imperial": "6.40",
+            "metric": "2.90"
+          }
         },
         {
           "title": "Water",
@@ -3075,7 +3195,10 @@ const data = [
                 "Nalgene Water",
                 "Bottles"
               ],
-              "weight": 11.7,
+              "weight": {
+                "imperial": 11.7,
+                "metric": "332"
+              },
               "consumable": false,
               "worn": false
             },
@@ -3086,12 +3209,18 @@ const data = [
                 "BeFree water",
                 "Filter"
               ],
-              "weight": 2.29,
+              "weight": {
+                "imperial": 2.29,
+                "metric": "65"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "0.87"
+          "weight": {
+            "imperial": "0.87",
+            "metric": "0.40"
+          }
         },
         {
           "title": "Hygiene",
@@ -3102,7 +3231,10 @@ const data = [
                 "Toothpaste",
                 "tablets"
               ],
-              "weight": 0.53,
+              "weight": {
+                "imperial": 0.53,
+                "metric": "15"
+              },
               "consumable": true,
               "worn": false
             },
@@ -3112,7 +3244,10 @@ const data = [
                 "Foldable",
                 "Toothbrush"
               ],
-              "weight": 0.74,
+              "weight": {
+                "imperial": 0.74,
+                "metric": "21"
+              },
               "consumable": false,
               "worn": false
             },
@@ -3122,7 +3257,10 @@ const data = [
                 "Hand",
                 "Sanitizer"
               ],
-              "weight": 1.62,
+              "weight": {
+                "imperial": 1.62,
+                "metric": "46"
+              },
               "consumable": true,
               "worn": false
             },
@@ -3133,7 +3271,10 @@ const data = [
                 "Body/Hair",
                 "Wash"
               ],
-              "weight": 2.89,
+              "weight": {
+                "imperial": 2.89,
+                "metric": "82"
+              },
               "consumable": true,
               "worn": false
             },
@@ -3143,7 +3284,10 @@ const data = [
                 "PackTowl",
                 "Towel"
               ],
-              "weight": 6.31,
+              "weight": {
+                "imperial": 6.31,
+                "metric": "179"
+              },
               "consumable": false,
               "worn": false
             },
@@ -3152,7 +3296,10 @@ const data = [
               "name": [
                 "Deodorant"
               ],
-              "weight": 0.95,
+              "weight": {
+                "imperial": 0.95,
+                "metric": "27"
+              },
               "consumable": true,
               "worn": false
             },
@@ -3161,7 +3308,10 @@ const data = [
               "name": [
                 "Toilet paper"
               ],
-              "weight": 1.69,
+              "weight": {
+                "imperial": 1.69,
+                "metric": "48"
+              },
               "consumable": true,
               "worn": false
             },
@@ -3170,12 +3320,18 @@ const data = [
               "name": [
                 "Body Wipes"
               ],
-              "weight": 2,
+              "weight": {
+                "imperial": 2,
+                "metric": "57"
+              },
               "consumable": true,
               "worn": false
             }
           ],
-          "weight": "1.05"
+          "weight": {
+            "imperial": "1.05",
+            "metric": "0.47"
+          }
         },
         {
           "title": "Aid Kit",
@@ -3186,12 +3342,18 @@ const data = [
                 "Med + Repair",
                 "Kit"
               ],
-              "weight": 3.35,
+              "weight": {
+                "imperial": 3.35,
+                "metric": "95"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "0.21"
+          "weight": {
+            "imperial": "0.21",
+            "metric": "0.09"
+          }
         },
         {
           "title": "Electronics",
@@ -3202,7 +3364,10 @@ const data = [
                 "Wired",
                 "Headphones"
               ],
-              "weight": 0.46,
+              "weight": {
+                "imperial": 0.46,
+                "metric": "13"
+              },
               "consumable": false,
               "worn": false
             },
@@ -3213,7 +3378,10 @@ const data = [
                 "NB10000",
                 "Powerbank"
               ],
-              "weight": 5.36,
+              "weight": {
+                "imperial": 5.36,
+                "metric": "152"
+              },
               "consumable": false,
               "worn": false
             },
@@ -3223,7 +3391,10 @@ const data = [
                 "Garmin Enduro",
                 "2 GPS Watch"
               ],
-              "weight": 1.8,
+              "weight": {
+                "imperial": 1.8,
+                "metric": "51"
+              },
               "consumable": false,
               "worn": true
             },
@@ -3233,7 +3404,10 @@ const data = [
                 "iPhone 16 Pro",
                 "Phone"
               ],
-              "weight": 7.8,
+              "weight": {
+                "imperial": 7.8,
+                "metric": "221"
+              },
               "consumable": false,
               "worn": false
             },
@@ -3242,7 +3416,10 @@ const data = [
               "name": [
                 "Cables"
               ],
-              "weight": 1.9,
+              "weight": {
+                "imperial": 1.9,
+                "metric": "54"
+              },
               "consumable": false,
               "worn": false
             },
@@ -3252,7 +3429,10 @@ const data = [
                 "Outlet",
                 "Adapter"
               ],
-              "weight": 1.16,
+              "weight": {
+                "imperial": 1.16,
+                "metric": "33"
+              },
               "consumable": false,
               "worn": false
             },
@@ -3262,7 +3442,10 @@ const data = [
                 "Anker Wall",
                 "Charger"
               ],
-              "weight": 2.19,
+              "weight": {
+                "imperial": 2.19,
+                "metric": "62"
+              },
               "consumable": false,
               "worn": false
             },
@@ -3272,12 +3455,18 @@ const data = [
                 "Garmin",
                 "inReach SOS"
               ],
-              "weight": 4.2,
+              "weight": {
+                "imperial": 4.2,
+                "metric": "119"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "1.55"
+          "weight": {
+            "imperial": "1.55",
+            "metric": "0.71"
+          }
         },
         {
           "title": "Miscellaneous",
@@ -3287,7 +3476,10 @@ const data = [
               "name": [
                 "Playing cards"
               ],
-              "weight": 3.28,
+              "weight": {
+                "imperial": 3.28,
+                "metric": "93"
+              },
               "consumable": false,
               "worn": false
             },
@@ -3297,7 +3489,10 @@ const data = [
                 "CNOC Cork",
                 "Trekking Pole"
               ],
-              "weight": 9.66,
+              "weight": {
+                "imperial": 9.66,
+                "metric": "274"
+              },
               "consumable": false,
               "worn": true
             },
@@ -3309,7 +3504,10 @@ const data = [
                 "repellent Bug",
                 "Wipes"
               ],
-              "weight": 1.13,
+              "weight": {
+                "imperial": 1.13,
+                "metric": "32"
+              },
               "consumable": false,
               "worn": false
             },
@@ -3319,7 +3517,10 @@ const data = [
                 "SPF 15",
                 "Chapstick"
               ],
-              "weight": 0.32,
+              "weight": {
+                "imperial": 0.32,
+                "metric": "9"
+              },
               "consumable": true,
               "worn": false
             },
@@ -3331,7 +3532,10 @@ const data = [
                 "stick",
                 "Sunblock"
               ],
-              "weight": 0.95,
+              "weight": {
+                "imperial": 0.95,
+                "metric": "27"
+              },
               "consumable": true,
               "worn": false
             },
@@ -3340,7 +3544,10 @@ const data = [
               "name": [
                 "Earplugs"
               ],
-              "weight": 0.14,
+              "weight": {
+                "imperial": 0.14,
+                "metric": "4"
+              },
               "consumable": false,
               "worn": false
             },
@@ -3350,7 +3557,10 @@ const data = [
                 "reading",
                 "Glasses"
               ],
-              "weight": 2.47,
+              "weight": {
+                "imperial": 2.47,
+                "metric": "70"
+              },
               "consumable": false,
               "worn": false
             },
@@ -3359,18 +3569,36 @@ const data = [
               "name": [
                 "Passport"
               ],
-              "weight": 2.57,
+              "weight": {
+                "imperial": 2.57,
+                "metric": "73"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "1.28"
+          "weight": {
+            "imperial": "1.28",
+            "metric": "0.58"
+          }
         }
       ],
-      "weightBase": "9.58",
-      "weightConsumable": "0.68",
-      "weightTotal": "13.99",
-      "weightWorn": "3.73"
+      "weightBase": {
+        "imperial": "9.58",
+        "metric": "4.35"
+      },
+      "weightConsumable": {
+        "imperial": "0.68",
+        "metric": "0.31"
+      },
+      "weightTotal": {
+        "imperial": "13.99",
+        "metric": "6.35"
+      },
+      "weightWorn": {
+        "imperial": "3.73",
+        "metric": "1.69"
+      }
     },
     "hasGear": true,
     "hasStats": true,
@@ -4391,16 +4619,6 @@ const data = [
             "value": {
               "imperial": "10",
               "metric": "16"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -4408,16 +4626,6 @@ const data = [
             "value": {
               "imperial": "4,781",
               "metric": "1,457"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -4425,16 +4633,6 @@ const data = [
             "value": {
               "imperial": "2,440",
               "metric": "744"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -4442,16 +4640,6 @@ const data = [
             "value": {
               "imperial": "6,984",
               "metric": "2,129"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -5484,16 +5672,6 @@ const data = [
             "value": {
               "imperial": "11",
               "metric": "18"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -5501,16 +5679,6 @@ const data = [
             "value": {
               "imperial": "4,455",
               "metric": "1,358"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -5518,16 +5686,6 @@ const data = [
             "value": {
               "imperial": "2,015",
               "metric": "614"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -5535,16 +5693,6 @@ const data = [
             "value": {
               "imperial": "8,184",
               "metric": "2,494"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -6578,16 +6726,6 @@ const data = [
             "value": {
               "imperial": "10",
               "metric": "15"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -6595,16 +6733,6 @@ const data = [
             "value": {
               "imperial": "3,988",
               "metric": "1,215"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -6612,16 +6740,6 @@ const data = [
             "value": {
               "imperial": "3,046",
               "metric": "928"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -6629,16 +6747,6 @@ const data = [
             "value": {
               "imperial": "8,927",
               "metric": "2,721"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -7672,16 +7780,6 @@ const data = [
             "value": {
               "imperial": "16",
               "metric": "26"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -7689,16 +7787,6 @@ const data = [
             "value": {
               "imperial": "3,919",
               "metric": "1,194"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -7706,16 +7794,6 @@ const data = [
             "value": {
               "imperial": "6,461",
               "metric": "1,969"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -7723,16 +7801,6 @@ const data = [
             "value": {
               "imperial": "8,972",
               "metric": "2,735"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -8765,16 +8833,6 @@ const data = [
             "value": {
               "imperial": "11",
               "metric": "18"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -8782,16 +8840,6 @@ const data = [
             "value": {
               "imperial": "3,587",
               "metric": "1,093"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -8799,16 +8847,6 @@ const data = [
             "value": {
               "imperial": "3,446",
               "metric": "1,050"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -8816,16 +8854,6 @@ const data = [
             "value": {
               "imperial": "6,679",
               "metric": "2,036"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -9858,16 +9886,6 @@ const data = [
             "value": {
               "imperial": "13",
               "metric": "21"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -9875,16 +9893,6 @@ const data = [
             "value": {
               "imperial": "3,141",
               "metric": "957"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -9892,16 +9900,6 @@ const data = [
             "value": {
               "imperial": "4,471",
               "metric": "1,363"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -9909,16 +9907,6 @@ const data = [
             "value": {
               "imperial": "8,327",
               "metric": "2,538"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -10952,16 +10940,6 @@ const data = [
             "value": {
               "imperial": "10",
               "metric": "16"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -10969,16 +10947,6 @@ const data = [
             "value": {
               "imperial": "1,988",
               "metric": "606"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -10986,16 +10954,6 @@ const data = [
             "value": {
               "imperial": "2,364",
               "metric": "721"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -11003,16 +10961,6 @@ const data = [
             "value": {
               "imperial": "5,281",
               "metric": "1,610"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -12046,16 +11994,6 @@ const data = [
             "value": {
               "imperial": "8",
               "metric": "13"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -12063,16 +12001,6 @@ const data = [
             "value": {
               "imperial": "2,669",
               "metric": "813"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -12080,16 +12008,6 @@ const data = [
             "value": {
               "imperial": "2,405",
               "metric": "733"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -12097,16 +12015,6 @@ const data = [
             "value": {
               "imperial": "6,740",
               "metric": "2,054"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -13139,16 +13047,6 @@ const data = [
             "value": {
               "imperial": "10",
               "metric": "16"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -13156,16 +13054,6 @@ const data = [
             "value": {
               "imperial": "3,672",
               "metric": "1,119"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -13173,16 +13061,6 @@ const data = [
             "value": {
               "imperial": "4,054",
               "metric": "1,236"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -13190,16 +13068,6 @@ const data = [
             "value": {
               "imperial": "7,271",
               "metric": "2,216"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -14232,16 +14100,6 @@ const data = [
             "value": {
               "imperial": "6",
               "metric": "9"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -14249,16 +14107,6 @@ const data = [
             "value": {
               "imperial": "3,388",
               "metric": "1,033"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -14266,16 +14114,6 @@ const data = [
             "value": {
               "imperial": "1,812",
               "metric": "552"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -14283,16 +14121,6 @@ const data = [
             "value": {
               "imperial": "7,750",
               "metric": "2,362"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -15325,16 +15153,6 @@ const data = [
             "value": {
               "imperial": "12",
               "metric": "19"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -15342,16 +15160,6 @@ const data = [
             "value": {
               "imperial": "2,899",
               "metric": "884"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -15359,16 +15167,6 @@ const data = [
             "value": {
               "imperial": "5,759",
               "metric": "1,755"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -15376,16 +15174,6 @@ const data = [
             "value": {
               "imperial": "8,317",
               "metric": "2,535"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -15417,16 +15205,6 @@ const data = [
         "value": {
           "imperial": "8,972",
           "metric": "2,735"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "days": {
@@ -15439,16 +15217,6 @@ const data = [
         "value": {
           "imperial": "117",
           "metric": "188"
-        },
-        "units": {
-          "imperial": {
-            "full": "miles",
-            "abbreviated": "mi"
-          },
-          "metric": {
-            "full": "kilometers",
-            "abbreviated": "km"
-          }
         }
       },
       "gain": {
@@ -15456,16 +15224,6 @@ const data = [
         "value": {
           "imperial": "38,487",
           "metric": "11,730"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "length": {
@@ -15478,16 +15236,6 @@ const data = [
         "value": {
           "imperial": "38,273",
           "metric": "11,665"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       }
     },
@@ -15649,16 +15397,6 @@ const data = [
         "value": {
           "imperial": "-∞",
           "metric": "-∞"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "days": {
@@ -15822,16 +15560,6 @@ const data = [
         "value": {
           "imperial": "-∞",
           "metric": "-∞"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "days": {
@@ -15879,7 +15607,10 @@ const data = [
                 "ESC Ranger",
                 "Pack"
               ],
-              "weight": 19.25,
+              "weight": {
+                "imperial": 19.25,
+                "metric": "546"
+              },
               "consumable": false,
               "worn": false
             },
@@ -15889,12 +15620,18 @@ const data = [
                 "Nylofume Pack",
                 "Liner"
               ],
-              "weight": 1.02,
+              "weight": {
+                "imperial": 1.02,
+                "metric": "29"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "1.27"
+          "weight": {
+            "imperial": "1.27",
+            "metric": "0.57"
+          }
         },
         {
           "title": "Shelter",
@@ -15905,7 +15642,10 @@ const data = [
                 "Durston X-Mid",
                 "Pro 1 tent"
               ],
-              "weight": 16,
+              "weight": {
+                "imperial": 16,
+                "metric": "454"
+              },
               "consumable": false,
               "worn": false
             },
@@ -15916,12 +15656,18 @@ const data = [
                 "Hog Minis x 8",
                 "stakes"
               ],
-              "weight": 6,
+              "weight": {
+                "imperial": 6,
+                "metric": "170"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "1.38"
+          "weight": {
+            "imperial": "1.38",
+            "metric": "0.62"
+          }
         },
         {
           "title": "Sleeping",
@@ -15934,7 +15680,10 @@ const data = [
                 "Regular/Wide",
                 "4.3R Pad"
               ],
-              "weight": 17,
+              "weight": {
+                "imperial": 17,
+                "metric": "482"
+              },
               "consumable": false,
               "worn": false
             },
@@ -15945,7 +15694,10 @@ const data = [
                 "30ºF/-1ºC",
                 "Regular Quilt"
               ],
-              "weight": 16.33,
+              "weight": {
+                "imperial": 16.33,
+                "metric": "463"
+              },
               "consumable": false,
               "worn": false
             },
@@ -15954,12 +15706,18 @@ const data = [
               "name": [
                 "Exped Pillow"
               ],
-              "weight": 6,
+              "weight": {
+                "imperial": 6,
+                "metric": "170"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "2.46"
+          "weight": {
+            "imperial": "2.46",
+            "metric": "1.11"
+          }
         },
         {
           "title": "Clothing",
@@ -15970,7 +15728,10 @@ const data = [
                 "Vuori Kore",
                 "Shorts"
               ],
-              "weight": 5.33,
+              "weight": {
+                "imperial": 5.33,
+                "metric": "151"
+              },
               "consumable": false,
               "worn": true
             },
@@ -15981,7 +15742,10 @@ const data = [
                 "Research Echo",
                 "sun hoody"
               ],
-              "weight": 4.5,
+              "weight": {
+                "imperial": 4.5,
+                "metric": "128"
+              },
               "consumable": false,
               "worn": true
             },
@@ -15991,7 +15755,10 @@ const data = [
                 "Altra Lone",
                 "Peak 6 Shoes"
               ],
-              "weight": 20,
+              "weight": {
+                "imperial": 20,
+                "metric": "567"
+              },
               "consumable": false,
               "worn": true
             },
@@ -16002,7 +15769,10 @@ const data = [
                 "boxer briefs",
                 "Underwear"
               ],
-              "weight": 3.25,
+              "weight": {
+                "imperial": 3.25,
+                "metric": "92"
+              },
               "consumable": false,
               "worn": true
             },
@@ -16012,7 +15782,10 @@ const data = [
                 "Mueller Knee",
                 "Brace"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": false,
               "worn": true
             },
@@ -16022,7 +15795,10 @@ const data = [
                 "Darn Tough",
                 "Ankle Socks"
               ],
-              "weight": 1.55,
+              "weight": {
+                "imperial": 1.55,
+                "metric": "44"
+              },
               "consumable": false,
               "worn": true
             },
@@ -16032,7 +15808,10 @@ const data = [
                 "Goodr",
                 "Sunglasses"
               ],
-              "weight": 0.78,
+              "weight": {
+                "imperial": 0.78,
+                "metric": "22"
+              },
               "consumable": false,
               "worn": true
             },
@@ -16042,7 +15821,10 @@ const data = [
                 "Arc'teryx",
                 "Trucker Hat"
               ],
-              "weight": 2.15,
+              "weight": {
+                "imperial": 2.15,
+                "metric": "61"
+              },
               "consumable": false,
               "worn": true
             },
@@ -16053,7 +15835,10 @@ const data = [
                 "Hardwear down",
                 "jacket"
               ],
-              "weight": 7.97,
+              "weight": {
+                "imperial": 7.97,
+                "metric": "226"
+              },
               "consumable": false,
               "worn": false
             },
@@ -16065,7 +15850,10 @@ const data = [
                 "Visp Rain",
                 "Jacket"
               ],
-              "weight": 5.22,
+              "weight": {
+                "imperial": 5.22,
+                "metric": "148"
+              },
               "consumable": false,
               "worn": false
             },
@@ -16076,7 +15864,10 @@ const data = [
                 "Research Echo",
                 "sun hoody"
               ],
-              "weight": 4.5,
+              "weight": {
+                "imperial": 4.5,
+                "metric": "128"
+              },
               "consumable": false,
               "worn": false
             },
@@ -16087,7 +15878,10 @@ const data = [
                 "boxer briefs",
                 "Underwear"
               ],
-              "weight": 3.25,
+              "weight": {
+                "imperial": 3.25,
+                "metric": "92"
+              },
               "consumable": false,
               "worn": false
             },
@@ -16097,7 +15891,10 @@ const data = [
                 "Darn Tough",
                 "Ankle Socks"
               ],
-              "weight": 1.55,
+              "weight": {
+                "imperial": 1.55,
+                "metric": "44"
+              },
               "consumable": false,
               "worn": false
             },
@@ -16109,7 +15906,10 @@ const data = [
                 "Alpha Hoodie",
                 "Pullover"
               ],
-              "weight": 4.02,
+              "weight": {
+                "imperial": 4.02,
+                "metric": "114"
+              },
               "consumable": false,
               "worn": false
             },
@@ -16119,7 +15919,10 @@ const data = [
                 "Vuori Kore",
                 "joggers"
               ],
-              "weight": 8.29,
+              "weight": {
+                "imperial": 8.29,
+                "metric": "235"
+              },
               "consumable": false,
               "worn": false
             },
@@ -16129,12 +15932,18 @@ const data = [
                 "Store-bought",
                 "Sandals"
               ],
-              "weight": 6,
+              "weight": {
+                "imperial": 6,
+                "metric": "170"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "5.08"
+          "weight": {
+            "imperial": "5.08",
+            "metric": "2.31"
+          }
         },
         {
           "title": "Water",
@@ -16146,7 +15955,10 @@ const data = [
                 "Quickdraw",
                 "Filter"
               ],
-              "weight": 2.4,
+              "weight": {
+                "imperial": 2.4,
+                "metric": "68"
+              },
               "consumable": false,
               "worn": false
             },
@@ -16156,7 +15968,10 @@ const data = [
                 "Platypus 1L",
                 "Filter Pouch"
               ],
-              "weight": 1.4,
+              "weight": {
+                "imperial": 1.4,
+                "metric": "40"
+              },
               "consumable": false,
               "worn": false
             },
@@ -16166,12 +15981,18 @@ const data = [
                 "Smartwater",
                 "Water Bottles"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "0.42"
+          "weight": {
+            "imperial": "0.42",
+            "metric": "0.19"
+          }
         },
         {
           "title": "Hygiene",
@@ -16182,7 +16003,10 @@ const data = [
                 "Toothpaste",
                 "tablets"
               ],
-              "weight": 0.53,
+              "weight": {
+                "imperial": 0.53,
+                "metric": "15"
+              },
               "consumable": true,
               "worn": false
             },
@@ -16192,7 +16016,10 @@ const data = [
                 "Foldable",
                 "Toothbrush"
               ],
-              "weight": 0.74,
+              "weight": {
+                "imperial": 0.74,
+                "metric": "21"
+              },
               "consumable": false,
               "worn": false
             },
@@ -16202,7 +16029,10 @@ const data = [
                 "Hand",
                 "Sanitizer"
               ],
-              "weight": 1.62,
+              "weight": {
+                "imperial": 1.62,
+                "metric": "46"
+              },
               "consumable": true,
               "worn": false
             },
@@ -16211,7 +16041,10 @@ const data = [
               "name": [
                 "Toilet paper"
               ],
-              "weight": 1.69,
+              "weight": {
+                "imperial": 1.69,
+                "metric": "48"
+              },
               "consumable": true,
               "worn": false
             },
@@ -16222,7 +16055,10 @@ const data = [
                 "Body/Hair",
                 "Wash"
               ],
-              "weight": 2.89,
+              "weight": {
+                "imperial": 2.89,
+                "metric": "82"
+              },
               "consumable": true,
               "worn": false
             },
@@ -16231,7 +16067,10 @@ const data = [
               "name": [
                 "Face Lotion"
               ],
-              "weight": 1.38,
+              "weight": {
+                "imperial": 1.38,
+                "metric": "39"
+              },
               "consumable": true,
               "worn": false
             },
@@ -16241,7 +16080,10 @@ const data = [
                 "Travel-sized",
                 "Deodorant"
               ],
-              "weight": 0.95,
+              "weight": {
+                "imperial": 0.95,
+                "metric": "27"
+              },
               "consumable": true,
               "worn": false
             },
@@ -16251,7 +16093,10 @@ const data = [
                 "Ultralight",
                 "Towel"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": false,
               "worn": false
             },
@@ -16260,7 +16105,10 @@ const data = [
               "name": [
                 "Comb"
               ],
-              "weight": 0.53,
+              "weight": {
+                "imperial": 0.53,
+                "metric": "15"
+              },
               "consumable": false,
               "worn": false
             },
@@ -16269,7 +16117,10 @@ const data = [
               "name": [
                 "Hair Ties"
               ],
-              "weight": 0.32,
+              "weight": {
+                "imperial": 0.32,
+                "metric": "9"
+              },
               "consumable": false,
               "worn": false
             },
@@ -16279,7 +16130,10 @@ const data = [
                 "SPF 15",
                 "Chapstick"
               ],
-              "weight": 0.32,
+              "weight": {
+                "imperial": 0.32,
+                "metric": "9"
+              },
               "consumable": true,
               "worn": false
             },
@@ -16291,12 +16145,18 @@ const data = [
                 "stick",
                 "Sunblock"
               ],
-              "weight": 0.95,
+              "weight": {
+                "imperial": 0.95,
+                "metric": "27"
+              },
               "consumable": true,
               "worn": false
             }
           ],
-          "weight": "0.93"
+          "weight": {
+            "imperial": "0.93",
+            "metric": "0.42"
+          }
         },
         {
           "title": "Aid Kit",
@@ -16311,12 +16171,18 @@ const data = [
                 "Med + Repair",
                 "Kit"
               ],
-              "weight": 3.35,
+              "weight": {
+                "imperial": 3.35,
+                "metric": "95"
+              },
               "consumable": true,
               "worn": false
             }
           ],
-          "weight": "0.21"
+          "weight": {
+            "imperial": "0.21",
+            "metric": "0.09"
+          }
         },
         {
           "title": "Electronics",
@@ -16327,7 +16193,10 @@ const data = [
                 "Nitecore NU25",
                 "UL Headlamp"
               ],
-              "weight": 1.59,
+              "weight": {
+                "imperial": 1.59,
+                "metric": "45"
+              },
               "consumable": false,
               "worn": false
             },
@@ -16338,7 +16207,10 @@ const data = [
                 "NB10000",
                 "Powerbank"
               ],
-              "weight": 5.36,
+              "weight": {
+                "imperial": 5.36,
+                "metric": "152"
+              },
               "consumable": false,
               "worn": false
             },
@@ -16349,7 +16221,10 @@ const data = [
                 "40W charger",
                 "dual port"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": false,
               "worn": false
             },
@@ -16360,7 +16235,10 @@ const data = [
                 "2 GPS",
                 "Smartwatch"
               ],
-              "weight": 1.8,
+              "weight": {
+                "imperial": 1.8,
+                "metric": "51"
+              },
               "consumable": false,
               "worn": true
             },
@@ -16370,7 +16248,10 @@ const data = [
                 "iPhone 16 Pro",
                 "Phone"
               ],
-              "weight": 7.8,
+              "weight": {
+                "imperial": 7.8,
+                "metric": "221"
+              },
               "consumable": false,
               "worn": true
             },
@@ -16379,12 +16260,18 @@ const data = [
               "name": [
                 "Cables"
               ],
-              "weight": 1.9,
+              "weight": {
+                "imperial": 1.9,
+                "metric": "54"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "1.34"
+          "weight": {
+            "imperial": "1.34",
+            "metric": "0.61"
+          }
         },
         {
           "title": "Packed Food + Water",
@@ -16395,7 +16282,10 @@ const data = [
                 "2 liters",
                 "Water"
               ],
-              "weight": 74.4,
+              "weight": {
+                "imperial": 74.4,
+                "metric": "2109"
+              },
               "consumable": true,
               "worn": false
             },
@@ -16404,12 +16294,18 @@ const data = [
               "name": [
                 "Snacks"
               ],
-              "weight": 4,
+              "weight": {
+                "imperial": 4,
+                "metric": "113"
+              },
               "consumable": true,
               "worn": false
             }
           ],
-          "weight": "4.90"
+          "weight": {
+            "imperial": "4.90",
+            "metric": "2.22"
+          }
         },
         {
           "title": "Luxury Items",
@@ -16421,7 +16317,10 @@ const data = [
                 "Paperwhite",
                 "E-Reader"
               ],
-              "weight": 7.23,
+              "weight": {
+                "imperial": 7.23,
+                "metric": "205"
+              },
               "consumable": false,
               "worn": false
             },
@@ -16431,7 +16330,10 @@ const data = [
                 "Airpods Pro 2",
                 "Headphones"
               ],
-              "weight": 1.9,
+              "weight": {
+                "imperial": 1.9,
+                "metric": "54"
+              },
               "consumable": false,
               "worn": false
             },
@@ -16442,7 +16344,10 @@ const data = [
                 "Headphones",
                 "adapter"
               ],
-              "weight": 0.5,
+              "weight": {
+                "imperial": 0.5,
+                "metric": "14"
+              },
               "consumable": false,
               "worn": false
             },
@@ -16452,12 +16357,18 @@ const data = [
                 "Trekking Pole",
                 "bag"
               ],
-              "weight": 0.92,
+              "weight": {
+                "imperial": 0.92,
+                "metric": "26"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "0.66"
+          "weight": {
+            "imperial": "0.66",
+            "metric": "0.30"
+          }
         },
         {
           "title": "Miscellaneous",
@@ -16468,7 +16379,10 @@ const data = [
                 "CNOC Cork",
                 "Trekking Pole"
               ],
-              "weight": 9.66,
+              "weight": {
+                "imperial": 9.66,
+                "metric": "274"
+              },
               "consumable": false,
               "worn": true
             },
@@ -16477,7 +16391,10 @@ const data = [
               "name": [
                 "Earplugs"
               ],
-              "weight": 0.14,
+              "weight": {
+                "imperial": 0.14,
+                "metric": "4"
+              },
               "consumable": false,
               "worn": false
             },
@@ -16487,7 +16404,10 @@ const data = [
                 "Drawstring",
                 "Bag"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": false,
               "worn": false
             },
@@ -16497,7 +16417,10 @@ const data = [
                 "reading",
                 "Glasses"
               ],
-              "weight": 2.47,
+              "weight": {
+                "imperial": 2.47,
+                "metric": "70"
+              },
               "consumable": false,
               "worn": false
             },
@@ -16507,7 +16430,10 @@ const data = [
                 "Building +",
                 "unit Keys"
               ],
-              "weight": 1.2,
+              "weight": {
+                "imperial": 1.2,
+                "metric": "34"
+              },
               "consumable": false,
               "worn": false
             },
@@ -16516,7 +16442,10 @@ const data = [
               "name": [
                 "Wallet"
               ],
-              "weight": 2,
+              "weight": {
+                "imperial": 2,
+                "metric": "57"
+              },
               "consumable": true,
               "worn": false
             },
@@ -16525,18 +16454,36 @@ const data = [
               "name": [
                 "Passport"
               ],
-              "weight": 2.57,
+              "weight": {
+                "imperial": 2.57,
+                "metric": "73"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "1.32"
+          "weight": {
+            "imperial": "1.32",
+            "metric": "0.60"
+          }
         }
       ],
-      "weightBase": "10.35",
-      "weightConsumable": "5.88",
-      "weightTotal": "19.97",
-      "weightWorn": "3.74"
+      "weightBase": {
+        "imperial": "10.35",
+        "metric": "4.69"
+      },
+      "weightConsumable": {
+        "imperial": "5.88",
+        "metric": "2.67"
+      },
+      "weightTotal": {
+        "imperial": "19.97",
+        "metric": "9.06"
+      },
+      "weightWorn": {
+        "imperial": "3.74",
+        "metric": "1.70"
+      }
     },
     "hasGear": true,
     "hasStats": true,
@@ -17557,16 +17504,6 @@ const data = [
             "value": {
               "imperial": "8",
               "metric": "12"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -17574,16 +17511,6 @@ const data = [
             "value": {
               "imperial": "4,849",
               "metric": "1,478"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -17591,16 +17518,6 @@ const data = [
             "value": {
               "imperial": "815",
               "metric": "248"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -17608,16 +17525,6 @@ const data = [
             "value": {
               "imperial": "5,172",
               "metric": "1,576"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -18651,16 +18558,6 @@ const data = [
             "value": {
               "imperial": "6",
               "metric": "10"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -18668,16 +18565,6 @@ const data = [
             "value": {
               "imperial": "2,882",
               "metric": "878"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -18685,16 +18572,6 @@ const data = [
             "value": {
               "imperial": "3,780",
               "metric": "1,152"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -18702,16 +18579,6 @@ const data = [
             "value": {
               "imperial": "6,709",
               "metric": "2,045"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -19746,16 +19613,6 @@ const data = [
             "value": {
               "imperial": "5",
               "metric": "8"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -19763,16 +19620,6 @@ const data = [
             "value": {
               "imperial": "2,939",
               "metric": "896"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -19780,16 +19627,6 @@ const data = [
             "value": {
               "imperial": "2,419",
               "metric": "737"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -19797,16 +19634,6 @@ const data = [
             "value": {
               "imperial": "6,567",
               "metric": "2,002"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -20841,16 +20668,6 @@ const data = [
             "value": {
               "imperial": "8",
               "metric": "13"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -20858,16 +20675,6 @@ const data = [
             "value": {
               "imperial": "4,105",
               "metric": "1,251"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -20875,16 +20682,6 @@ const data = [
             "value": {
               "imperial": "4,064",
               "metric": "1,239"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -20892,16 +20689,6 @@ const data = [
             "value": {
               "imperial": "8,551",
               "metric": "2,606"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -21936,16 +21723,6 @@ const data = [
             "value": {
               "imperial": "10",
               "metric": "16"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -21953,16 +21730,6 @@ const data = [
             "value": {
               "imperial": "3,071",
               "metric": "936"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -21970,16 +21737,6 @@ const data = [
             "value": {
               "imperial": "3,098",
               "metric": "944"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -21987,16 +21744,6 @@ const data = [
             "value": {
               "imperial": "6,718",
               "metric": "2,048"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -23031,16 +22778,6 @@ const data = [
             "value": {
               "imperial": "11",
               "metric": "18"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -23048,16 +22785,6 @@ const data = [
             "value": {
               "imperial": "2,202",
               "metric": "671"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -23065,16 +22792,6 @@ const data = [
             "value": {
               "imperial": "1,547",
               "metric": "472"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -23082,16 +22799,6 @@ const data = [
             "value": {
               "imperial": "6,181",
               "metric": "1,884"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -24126,16 +23833,6 @@ const data = [
             "value": {
               "imperial": "7",
               "metric": "11"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -24143,16 +23840,6 @@ const data = [
             "value": {
               "imperial": "3,031",
               "metric": "924"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -24160,16 +23847,6 @@ const data = [
             "value": {
               "imperial": "2,147",
               "metric": "654"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -24177,16 +23854,6 @@ const data = [
             "value": {
               "imperial": "7,311",
               "metric": "2,228"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -25221,16 +24888,6 @@ const data = [
             "value": {
               "imperial": "7",
               "metric": "11"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -25238,16 +24895,6 @@ const data = [
             "value": {
               "imperial": "1,537",
               "metric": "468"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -25255,16 +24902,6 @@ const data = [
             "value": {
               "imperial": "3,022",
               "metric": "921"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -25272,16 +24909,6 @@ const data = [
             "value": {
               "imperial": "6,059",
               "metric": "1,847"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -26315,16 +25942,6 @@ const data = [
             "value": {
               "imperial": "8",
               "metric": "12"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -26332,16 +25949,6 @@ const data = [
             "value": {
               "imperial": "2,471",
               "metric": "753"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -26349,16 +25956,6 @@ const data = [
             "value": {
               "imperial": "4,008",
               "metric": "1,222"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -26366,16 +25963,6 @@ const data = [
             "value": {
               "imperial": "6,945",
               "metric": "2,117"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -27408,16 +26995,6 @@ const data = [
             "value": {
               "imperial": "17",
               "metric": "28"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -27425,16 +27002,6 @@ const data = [
             "value": {
               "imperial": "4,857",
               "metric": "1,480"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -27442,16 +27009,6 @@ const data = [
             "value": {
               "imperial": "3,690",
               "metric": "1,125"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -27459,16 +27016,6 @@ const data = [
             "value": {
               "imperial": "5,410",
               "metric": "1,649"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -28502,16 +28049,6 @@ const data = [
             "value": {
               "imperial": "11",
               "metric": "18"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -28519,16 +28056,6 @@ const data = [
             "value": {
               "imperial": "4,969",
               "metric": "1,514"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -28536,16 +28063,6 @@ const data = [
             "value": {
               "imperial": "3,545",
               "metric": "1,080"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -28553,16 +28070,6 @@ const data = [
             "value": {
               "imperial": "6,565",
               "metric": "2,001"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -29597,16 +29104,6 @@ const data = [
             "value": {
               "imperial": "14",
               "metric": "22"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -29614,16 +29111,6 @@ const data = [
             "value": {
               "imperial": "3,809",
               "metric": "1,161"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -29631,16 +29118,6 @@ const data = [
             "value": {
               "imperial": "4,453",
               "metric": "1,357"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -29648,16 +29125,6 @@ const data = [
             "value": {
               "imperial": "6,640",
               "metric": "2,024"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -30692,16 +30159,6 @@ const data = [
             "value": {
               "imperial": "19",
               "metric": "30"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -30709,16 +30166,6 @@ const data = [
             "value": {
               "imperial": "3,753",
               "metric": "1,144"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -30726,16 +30173,6 @@ const data = [
             "value": {
               "imperial": "7,961",
               "metric": "2,426"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -30743,16 +30180,6 @@ const data = [
             "value": {
               "imperial": "5,034",
               "metric": "1,534"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -30785,16 +30212,6 @@ const data = [
         "value": {
           "imperial": "8,551",
           "metric": "2,606"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "days": {
@@ -30807,16 +30224,6 @@ const data = [
         "value": {
           "imperial": "131",
           "metric": "211"
-        },
-        "units": {
-          "imperial": {
-            "full": "miles",
-            "abbreviated": "mi"
-          },
-          "metric": {
-            "full": "kilometers",
-            "abbreviated": "km"
-          }
         }
       },
       "gain": {
@@ -30824,16 +30231,6 @@ const data = [
         "value": {
           "imperial": "44,475",
           "metric": "13,555"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "length": {
@@ -30846,16 +30243,6 @@ const data = [
         "value": {
           "imperial": "44,549",
           "metric": "13,578"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       }
     },
@@ -31260,16 +30647,6 @@ const data = [
         "value": {
           "imperial": "-∞",
           "metric": "-∞"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "days": {
@@ -31470,16 +30847,6 @@ const data = [
         "value": {
           "imperial": "-∞",
           "metric": "-∞"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "days": {
@@ -31533,7 +30900,10 @@ const data = [
                 "Durston Gear",
                 "Kakwa 55 Pack"
               ],
-              "weight": 29.8,
+              "weight": {
+                "imperial": 29.8,
+                "metric": "845"
+              },
               "consumable": false,
               "worn": false
             },
@@ -31543,12 +30913,18 @@ const data = [
                 "Nylofume Pack",
                 "Liner"
               ],
-              "weight": 1.02,
+              "weight": {
+                "imperial": 1.02,
+                "metric": "29"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "1.93"
+          "weight": {
+            "imperial": "1.93",
+            "metric": "0.87"
+          }
         },
         {
           "title": "Shelter",
@@ -31560,7 +30936,10 @@ const data = [
                 "X-Dome 1+",
                 "tent"
               ],
-              "weight": 35,
+              "weight": {
+                "imperial": 35,
+                "metric": "992"
+              },
               "consumable": false,
               "worn": false
             },
@@ -31571,7 +30950,10 @@ const data = [
                 "Hog Mini",
                 "stakes"
               ],
-              "weight": 1.98,
+              "weight": {
+                "imperial": 1.98,
+                "metric": "56"
+              },
               "consumable": false,
               "worn": false
             },
@@ -31580,12 +30962,18 @@ const data = [
               "name": [
                 "PVC End Cap"
               ],
-              "weight": 0.39,
+              "weight": {
+                "imperial": 0.39,
+                "metric": "11"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "2.34"
+          "weight": {
+            "imperial": "2.34",
+            "metric": "1.06"
+          }
         },
         {
           "title": "Sleeping",
@@ -31596,7 +30984,10 @@ const data = [
                 "EE Revelation",
                 "10ºF Quilt"
               ],
-              "weight": 27,
+              "weight": {
+                "imperial": 27,
+                "metric": "765"
+              },
               "consumable": false,
               "worn": false
             },
@@ -31606,7 +30997,10 @@ const data = [
                 "Exped Mega",
                 "Pillow"
               ],
-              "weight": 6,
+              "weight": {
+                "imperial": 6,
+                "metric": "170"
+              },
               "consumable": false,
               "worn": false
             },
@@ -31618,12 +31012,18 @@ const data = [
                 "Large/Wide",
                 "Pad"
               ],
-              "weight": 32,
+              "weight": {
+                "imperial": 32,
+                "metric": "907"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "4.06"
+          "weight": {
+            "imperial": "4.06",
+            "metric": "1.84"
+          }
         },
         {
           "title": "Clothing",
@@ -31635,7 +31035,10 @@ const data = [
                 "Running shoes",
                 "Shoes"
               ],
-              "weight": 26,
+              "weight": {
+                "imperial": 26,
+                "metric": "737"
+              },
               "consumable": false,
               "worn": true
             },
@@ -31645,7 +31048,10 @@ const data = [
                 "Arc'teryx",
                 "Trucker Hat"
               ],
-              "weight": 2.15,
+              "weight": {
+                "imperial": 2.15,
+                "metric": "61"
+              },
               "consumable": false,
               "worn": true
             },
@@ -31655,7 +31061,10 @@ const data = [
                 "Goodr",
                 "Sunglasses"
               ],
-              "weight": 0.78,
+              "weight": {
+                "imperial": 0.78,
+                "metric": "22"
+              },
               "consumable": false,
               "worn": true
             },
@@ -31666,7 +31075,10 @@ const data = [
                 "Research Echo",
                 "sun hoody"
               ],
-              "weight": 4.5,
+              "weight": {
+                "imperial": 4.5,
+                "metric": "128"
+              },
               "consumable": false,
               "worn": true
             },
@@ -31678,7 +31090,10 @@ const data = [
                 "Cruiser",
                 "Pullover"
               ],
-              "weight": 4.02,
+              "weight": {
+                "imperial": 4.02,
+                "metric": "114"
+              },
               "consumable": false,
               "worn": true
             },
@@ -31690,7 +31105,10 @@ const data = [
                 "Boxer Brief",
                 "Underwear"
               ],
-              "weight": 2.86,
+              "weight": {
+                "imperial": 2.86,
+                "metric": "81"
+              },
               "consumable": false,
               "worn": true
             },
@@ -31700,7 +31118,10 @@ const data = [
                 "Darn Tough",
                 "Quarter Socks"
               ],
-              "weight": 1.9,
+              "weight": {
+                "imperial": 1.9,
+                "metric": "54"
+              },
               "consumable": false,
               "worn": true
             },
@@ -31711,7 +31132,10 @@ const data = [
                 "Hardwear down",
                 "jacket"
               ],
-              "weight": 7.97,
+              "weight": {
+                "imperial": 7.97,
+                "metric": "226"
+              },
               "consumable": false,
               "worn": false
             },
@@ -31723,7 +31147,10 @@ const data = [
                 "Visp Rain",
                 "Jacket"
               ],
-              "weight": 5.22,
+              "weight": {
+                "imperial": 5.22,
+                "metric": "148"
+              },
               "consumable": false,
               "worn": false
             },
@@ -31734,7 +31161,10 @@ const data = [
                 "Research Echo",
                 "sun hoody"
               ],
-              "weight": 4.5,
+              "weight": {
+                "imperial": 4.5,
+                "metric": "128"
+              },
               "consumable": false,
               "worn": false
             },
@@ -31746,7 +31176,10 @@ const data = [
                 "Boxer Brief",
                 "Underwear"
               ],
-              "weight": 2.86,
+              "weight": {
+                "imperial": 2.86,
+                "metric": "81"
+              },
               "consumable": false,
               "worn": false
             },
@@ -31756,12 +31189,18 @@ const data = [
                 "Darn Tough",
                 "Quarter Socks"
               ],
-              "weight": 1.9,
+              "weight": {
+                "imperial": 1.9,
+                "metric": "54"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "4.04"
+          "weight": {
+            "imperial": "4.04",
+            "metric": "1.83"
+          }
         },
         {
           "title": "Kitchen",
@@ -31773,7 +31212,10 @@ const data = [
                 "titanium",
                 "750ml pot"
               ],
-              "weight": 3.8,
+              "weight": {
+                "imperial": 3.8,
+                "metric": "108"
+              },
               "consumable": false,
               "worn": false
             },
@@ -31784,7 +31226,10 @@ const data = [
                 "PocketRocket",
                 "Deluxe stove"
               ],
-              "weight": 2.9,
+              "weight": {
+                "imperial": 2.9,
+                "metric": "82"
+              },
               "consumable": false,
               "worn": false
             },
@@ -31795,7 +31240,10 @@ const data = [
                 "titanium long",
                 "utensil"
               ],
-              "weight": 0.53,
+              "weight": {
+                "imperial": 0.53,
+                "metric": "15"
+              },
               "consumable": false,
               "worn": false
             },
@@ -31806,7 +31254,10 @@ const data = [
                 "Proof Bag",
                 "odor barrier"
               ],
-              "weight": 0.63,
+              "weight": {
+                "imperial": 0.63,
+                "metric": "18"
+              },
               "consumable": false,
               "worn": false
             },
@@ -31816,7 +31267,10 @@ const data = [
                 "MSR IsoPro",
                 "4oz fuel"
               ],
-              "weight": 7.4,
+              "weight": {
+                "imperial": 7.4,
+                "metric": "210"
+              },
               "consumable": true,
               "worn": false
             },
@@ -31828,7 +31282,10 @@ const data = [
                 "Food Locker",
                 "14L food bag"
               ],
-              "weight": 6.75,
+              "weight": {
+                "imperial": 6.75,
+                "metric": "191"
+              },
               "consumable": false,
               "worn": false
             },
@@ -31837,12 +31294,18 @@ const data = [
               "name": [
                 "Bic lighter"
               ],
-              "weight": 1,
+              "weight": {
+                "imperial": 1,
+                "metric": "28"
+              },
               "consumable": true,
               "worn": false
             }
           ],
-          "weight": "1.44"
+          "weight": {
+            "imperial": "1.44",
+            "metric": "0.65"
+          }
         },
         {
           "title": "Water",
@@ -31854,7 +31317,10 @@ const data = [
                 "Quickdraw",
                 "water Filter"
               ],
-              "weight": 2.4,
+              "weight": {
+                "imperial": 2.4,
+                "metric": "68"
+              },
               "consumable": false,
               "worn": false
             },
@@ -31864,7 +31330,10 @@ const data = [
                 "Platypus 1L",
                 "water pouch"
               ],
-              "weight": 1.4,
+              "weight": {
+                "imperial": 1.4,
+                "metric": "40"
+              },
               "consumable": false,
               "worn": false
             },
@@ -31874,12 +31343,18 @@ const data = [
                 "M!Go 32oz",
                 "Water Bottles"
               ],
-              "weight": 9.3,
+              "weight": {
+                "imperial": 9.3,
+                "metric": "264"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "0.82"
+          "weight": {
+            "imperial": "0.82",
+            "metric": "0.37"
+          }
         },
         {
           "title": "Hygiene",
@@ -31890,7 +31365,10 @@ const data = [
                 "Toothpaste",
                 "tablets"
               ],
-              "weight": 0.53,
+              "weight": {
+                "imperial": 0.53,
+                "metric": "15"
+              },
               "consumable": true,
               "worn": false
             },
@@ -31900,7 +31378,10 @@ const data = [
                 "Foldable",
                 "Toothbrush"
               ],
-              "weight": 0.74,
+              "weight": {
+                "imperial": 0.74,
+                "metric": "21"
+              },
               "consumable": false,
               "worn": false
             },
@@ -31910,7 +31391,10 @@ const data = [
                 "Hand",
                 "Sanitizer"
               ],
-              "weight": 1.62,
+              "weight": {
+                "imperial": 1.62,
+                "metric": "46"
+              },
               "consumable": true,
               "worn": false
             },
@@ -31920,7 +31404,10 @@ const data = [
                 "Travel-sized",
                 "Deodorant"
               ],
-              "weight": 0.95,
+              "weight": {
+                "imperial": 0.95,
+                "metric": "27"
+              },
               "consumable": true,
               "worn": false
             },
@@ -31929,7 +31416,10 @@ const data = [
               "name": [
                 "Toilet paper"
               ],
-              "weight": 1.69,
+              "weight": {
+                "imperial": 1.69,
+                "metric": "48"
+              },
               "consumable": true,
               "worn": false
             },
@@ -31938,7 +31428,10 @@ const data = [
               "name": [
                 "Toilet bag"
               ],
-              "weight": 0.44,
+              "weight": {
+                "imperial": 0.44,
+                "metric": "12"
+              },
               "consumable": false,
               "worn": false
             },
@@ -31947,7 +31440,10 @@ const data = [
               "name": [
                 "Body Wipes"
               ],
-              "weight": 2,
+              "weight": {
+                "imperial": 2,
+                "metric": "57"
+              },
               "consumable": true,
               "worn": false
             },
@@ -31956,7 +31452,10 @@ const data = [
               "name": [
                 "Hair Ties"
               ],
-              "weight": 0.32,
+              "weight": {
+                "imperial": 0.32,
+                "metric": "9"
+              },
               "consumable": false,
               "worn": false
             },
@@ -31966,7 +31465,10 @@ const data = [
                 "SPF 15",
                 "Chapstick"
               ],
-              "weight": 0.32,
+              "weight": {
+                "imperial": 0.32,
+                "metric": "9"
+              },
               "consumable": true,
               "worn": false
             },
@@ -31977,12 +31479,18 @@ const data = [
                 "Ultralight",
                 "trowel"
               ],
-              "weight": 0.48,
+              "weight": {
+                "imperial": 0.48,
+                "metric": "14"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "0.57"
+          "weight": {
+            "imperial": "0.57",
+            "metric": "0.26"
+          }
         },
         {
           "title": "Aid Kit",
@@ -31997,12 +31505,18 @@ const data = [
                 "Med + Repair",
                 "Kit"
               ],
-              "weight": 3.35,
+              "weight": {
+                "imperial": 3.35,
+                "metric": "95"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "0.21"
+          "weight": {
+            "imperial": "0.21",
+            "metric": "0.09"
+          }
         },
         {
           "title": "Electronics",
@@ -32014,7 +31528,10 @@ const data = [
                 "2 GPS",
                 "Smartwatch"
               ],
-              "weight": 1.8,
+              "weight": {
+                "imperial": 1.8,
+                "metric": "51"
+              },
               "consumable": false,
               "worn": true
             },
@@ -32023,7 +31540,10 @@ const data = [
               "name": [
                 "iPhone 16 Pro"
               ],
-              "weight": 7.8,
+              "weight": {
+                "imperial": 7.8,
+                "metric": "221"
+              },
               "consumable": false,
               "worn": false
             },
@@ -32033,12 +31553,18 @@ const data = [
                 "Nitecore NU25",
                 "UL headlamp"
               ],
-              "weight": 1.59,
+              "weight": {
+                "imperial": 1.59,
+                "metric": "45"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "0.70"
+          "weight": {
+            "imperial": "0.70",
+            "metric": "0.32"
+          }
         },
         {
           "title": "Miscellaneous",
@@ -32050,7 +31576,10 @@ const data = [
                 "Iceline",
                 "Trekking Pole"
               ],
-              "weight": 4.7,
+              "weight": {
+                "imperial": 4.7,
+                "metric": "133"
+              },
               "consumable": false,
               "worn": false
             },
@@ -32062,7 +31591,10 @@ const data = [
                 "repellent Bug",
                 "Wipes"
               ],
-              "weight": 1.13,
+              "weight": {
+                "imperial": 1.13,
+                "metric": "32"
+              },
               "consumable": false,
               "worn": false
             },
@@ -32072,7 +31604,10 @@ const data = [
                 "reading",
                 "Glasses"
               ],
-              "weight": 2.47,
+              "weight": {
+                "imperial": 2.47,
+                "metric": "70"
+              },
               "consumable": false,
               "worn": false
             },
@@ -32081,7 +31616,10 @@ const data = [
               "name": [
                 "Wallet"
               ],
-              "weight": 2,
+              "weight": {
+                "imperial": 2,
+                "metric": "57"
+              },
               "consumable": false,
               "worn": false
             },
@@ -32091,7 +31629,10 @@ const data = [
                 "Building +",
                 "unit Keys"
               ],
-              "weight": 1.2,
+              "weight": {
+                "imperial": 1.2,
+                "metric": "34"
+              },
               "consumable": false,
               "worn": false
             },
@@ -32101,12 +31642,18 @@ const data = [
                 "Loop Quiet 2",
                 "Earplugs"
               ],
-              "weight": 0.5,
+              "weight": {
+                "imperial": 0.5,
+                "metric": "14"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "0.75"
+          "weight": {
+            "imperial": "0.75",
+            "metric": "0.34"
+          }
         },
         {
           "title": "Packed Food + Water",
@@ -32117,7 +31664,10 @@ const data = [
                 "2 liters",
                 "Water"
               ],
-              "weight": 74.4,
+              "weight": {
+                "imperial": 74.4,
+                "metric": "2109"
+              },
               "consumable": true,
               "worn": false
             },
@@ -32128,12 +31678,18 @@ const data = [
                 "breakfast +",
                 "bars"
               ],
-              "weight": 16,
+              "weight": {
+                "imperial": 16,
+                "metric": "454"
+              },
               "consumable": true,
               "worn": false
             }
           ],
-          "weight": "5.65"
+          "weight": {
+            "imperial": "5.65",
+            "metric": "2.56"
+          }
         },
         {
           "title": "Luxury Items",
@@ -32145,7 +31701,10 @@ const data = [
                 "Paperwhite",
                 "e-reader"
               ],
-              "weight": 7.23,
+              "weight": {
+                "imperial": 7.23,
+                "metric": "205"
+              },
               "consumable": false,
               "worn": false
             },
@@ -32156,7 +31715,10 @@ const data = [
                 "Ultralight",
                 "hammock"
               ],
-              "weight": 5.82,
+              "weight": {
+                "imperial": 5.82,
+                "metric": "165"
+              },
               "consumable": false,
               "worn": false
             },
@@ -32168,7 +31730,10 @@ const data = [
                 "hammock",
                 "straps"
               ],
-              "weight": 3.88,
+              "weight": {
+                "imperial": 3.88,
+                "metric": "110"
+              },
               "consumable": false,
               "worn": false
             },
@@ -32179,7 +31744,10 @@ const data = [
                 "Classic swiss",
                 "army knife"
               ],
-              "weight": 0.74,
+              "weight": {
+                "imperial": 0.74,
+                "metric": "21"
+              },
               "consumable": false,
               "worn": false
             },
@@ -32189,7 +31757,10 @@ const data = [
                 "SILKY F180",
                 "saw"
               ],
-              "weight": 5.3,
+              "weight": {
+                "imperial": 5.3,
+                "metric": "150"
+              },
               "consumable": false,
               "worn": false
             },
@@ -32198,18 +31769,36 @@ const data = [
               "name": [
                 "fire starter"
               ],
-              "weight": 1,
+              "weight": {
+                "imperial": 1,
+                "metric": "28"
+              },
               "consumable": true,
               "worn": false
             }
           ],
-          "weight": "1.50"
+          "weight": {
+            "imperial": "1.50",
+            "metric": "0.68"
+          }
         }
       ],
-      "weightBase": "14.57",
-      "weightConsumable": "6.68",
-      "weightTotal": "24.00",
-      "weightWorn": "2.75"
+      "weightBase": {
+        "imperial": "14.57",
+        "metric": "6.61"
+      },
+      "weightConsumable": {
+        "imperial": "6.68",
+        "metric": "3.03"
+      },
+      "weightTotal": {
+        "imperial": "24.00",
+        "metric": "10.89"
+      },
+      "weightWorn": {
+        "imperial": "2.75",
+        "metric": "1.25"
+      }
     },
     "hasGear": true,
     "hasStats": true,
@@ -33230,16 +32819,6 @@ const data = [
             "value": {
               "imperial": "11",
               "metric": "18"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -33247,16 +32826,6 @@ const data = [
             "value": {
               "imperial": "905",
               "metric": "276"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -33264,16 +32833,6 @@ const data = [
             "value": {
               "imperial": "839",
               "metric": "256"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -33281,16 +32840,6 @@ const data = [
             "value": {
               "imperial": "1,051",
               "metric": "320"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -34325,16 +33874,6 @@ const data = [
             "value": {
               "imperial": "8",
               "metric": "14"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -34342,16 +33881,6 @@ const data = [
             "value": {
               "imperial": "653",
               "metric": "199"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -34359,16 +33888,6 @@ const data = [
             "value": {
               "imperial": "562",
               "metric": "171"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -34376,16 +33895,6 @@ const data = [
             "value": {
               "imperial": "1,331",
               "metric": "406"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -35419,16 +34928,6 @@ const data = [
             "value": {
               "imperial": "8",
               "metric": "12"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -35436,16 +34935,6 @@ const data = [
             "value": {
               "imperial": "461",
               "metric": "141"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -35453,16 +34942,6 @@ const data = [
             "value": {
               "imperial": "643",
               "metric": "196"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -35470,16 +34949,6 @@ const data = [
             "value": {
               "imperial": "1,213",
               "metric": "370"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -35513,16 +34982,6 @@ const data = [
         "value": {
           "imperial": "1,331",
           "metric": "406"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "days": {
@@ -35535,16 +34994,6 @@ const data = [
         "value": {
           "imperial": "27",
           "metric": "43"
-        },
-        "units": {
-          "imperial": {
-            "full": "miles",
-            "abbreviated": "mi"
-          },
-          "metric": {
-            "full": "kilometers",
-            "abbreviated": "km"
-          }
         }
       },
       "gain": {
@@ -35552,16 +35001,6 @@ const data = [
         "value": {
           "imperial": "2,019",
           "metric": "615"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "length": {
@@ -35574,16 +35013,6 @@ const data = [
         "value": {
           "imperial": "2,044",
           "metric": "623"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       }
     },
@@ -35625,12 +35054,18 @@ const data = [
                 "Co Thru 40L",
                 "Pack"
               ],
-              "weight": 24.7,
+              "weight": {
+                "imperial": 24.7,
+                "metric": "700"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "1.54"
+          "weight": {
+            "imperial": "1.54",
+            "metric": "0.70"
+          }
         },
         {
           "title": "Shelter",
@@ -35642,12 +35077,18 @@ const data = [
                 "Tigerwall UL2",
                 "Tent"
               ],
-              "weight": 42,
+              "weight": {
+                "imperial": 42,
+                "metric": "1191"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "2.63"
+          "weight": {
+            "imperial": "2.63",
+            "metric": "1.19"
+          }
         },
         {
           "title": "Sleeping",
@@ -35659,7 +35100,10 @@ const data = [
                 "NeoAir XLite",
                 "Pad"
               ],
-              "weight": 12,
+              "weight": {
+                "imperial": 12,
+                "metric": "340"
+              },
               "consumable": false,
               "worn": false
             },
@@ -35669,7 +35113,10 @@ const data = [
                 "S2S Aero",
                 "Pillow"
               ],
-              "weight": 2.1,
+              "weight": {
+                "imperial": 2.1,
+                "metric": "60"
+              },
               "consumable": false,
               "worn": false
             },
@@ -35680,12 +35127,18 @@ const data = [
                 "Regular 10ºF",
                 "Quilt"
               ],
-              "weight": 16.33,
+              "weight": {
+                "imperial": 16.33,
+                "metric": "463"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "1.90"
+          "weight": {
+            "imperial": "1.90",
+            "metric": "0.86"
+          }
         },
         {
           "title": "Clothing",
@@ -35697,7 +35150,10 @@ const data = [
                 "Research Echo",
                 "sun hoody"
               ],
-              "weight": 4.5,
+              "weight": {
+                "imperial": 4.5,
+                "metric": "128"
+              },
               "consumable": false,
               "worn": true
             },
@@ -35707,7 +35163,10 @@ const data = [
                 "Vuori Kore",
                 "Shorts"
               ],
-              "weight": 5.33,
+              "weight": {
+                "imperial": 5.33,
+                "metric": "151"
+              },
               "consumable": false,
               "worn": true
             },
@@ -35717,7 +35176,10 @@ const data = [
                 "Altra Lone",
                 "Peak 6 Shoes"
               ],
-              "weight": 20,
+              "weight": {
+                "imperial": 20,
+                "metric": "567"
+              },
               "consumable": false,
               "worn": true
             },
@@ -35728,7 +35190,10 @@ const data = [
                 "boxer briefs",
                 "Underwear"
               ],
-              "weight": 3.25,
+              "weight": {
+                "imperial": 3.25,
+                "metric": "92"
+              },
               "consumable": false,
               "worn": true
             },
@@ -35739,7 +35204,10 @@ const data = [
                 "Stabilizer",
                 "Knee Braces"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": false,
               "worn": true
             },
@@ -35749,7 +35217,10 @@ const data = [
                 "Darn Tough",
                 "Ankle Socks"
               ],
-              "weight": 1.55,
+              "weight": {
+                "imperial": 1.55,
+                "metric": "44"
+              },
               "consumable": false,
               "worn": true
             },
@@ -35759,7 +35230,10 @@ const data = [
                 "Goodr",
                 "Sunglasses"
               ],
-              "weight": 0.78,
+              "weight": {
+                "imperial": 0.78,
+                "metric": "22"
+              },
               "consumable": false,
               "worn": true
             },
@@ -35769,7 +35243,10 @@ const data = [
                 "Arc'teryx",
                 "Trucker Hat"
               ],
-              "weight": 2.15,
+              "weight": {
+                "imperial": 2.15,
+                "metric": "61"
+              },
               "consumable": false,
               "worn": true
             },
@@ -35780,7 +35257,10 @@ const data = [
                 "Hardwear down",
                 "jacket"
               ],
-              "weight": 7.97,
+              "weight": {
+                "imperial": 7.97,
+                "metric": "226"
+              },
               "consumable": false,
               "worn": false
             },
@@ -35792,7 +35272,10 @@ const data = [
                 "Visp Rain",
                 "Jacket"
               ],
-              "weight": 5.22,
+              "weight": {
+                "imperial": 5.22,
+                "metric": "148"
+              },
               "consumable": false,
               "worn": false
             },
@@ -35803,7 +35286,10 @@ const data = [
                 "Research Echo",
                 "sun hoody"
               ],
-              "weight": 4.5,
+              "weight": {
+                "imperial": 4.5,
+                "metric": "128"
+              },
               "consumable": false,
               "worn": false
             },
@@ -35814,7 +35300,10 @@ const data = [
                 "boxer briefs",
                 "Underwear"
               ],
-              "weight": 3.25,
+              "weight": {
+                "imperial": 3.25,
+                "metric": "92"
+              },
               "consumable": false,
               "worn": false
             },
@@ -35824,7 +35313,10 @@ const data = [
                 "Darn Tough",
                 "Ankle Socks"
               ],
-              "weight": 1.55,
+              "weight": {
+                "imperial": 1.55,
+                "metric": "44"
+              },
               "consumable": false,
               "worn": false
             },
@@ -35836,7 +35328,10 @@ const data = [
                 "Alpha Hoodie",
                 "Pullover"
               ],
-              "weight": 4.02,
+              "weight": {
+                "imperial": 4.02,
+                "metric": "114"
+              },
               "consumable": false,
               "worn": false
             },
@@ -35846,12 +35341,18 @@ const data = [
                 "Vuori Kore",
                 "joggers"
               ],
-              "weight": 8.29,
+              "weight": {
+                "imperial": 8.29,
+                "metric": "235"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "4.71"
+          "weight": {
+            "imperial": "4.71",
+            "metric": "2.14"
+          }
         },
         {
           "title": "Water",
@@ -35863,7 +35364,10 @@ const data = [
                 "Quickdraw",
                 "water Filter"
               ],
-              "weight": 2.4,
+              "weight": {
+                "imperial": 2.4,
+                "metric": "68"
+              },
               "consumable": false,
               "worn": false
             },
@@ -35874,7 +35378,10 @@ const data = [
                 "water Filter",
                 "Pouch"
               ],
-              "weight": 1.4,
+              "weight": {
+                "imperial": 1.4,
+                "metric": "40"
+              },
               "consumable": false,
               "worn": false
             },
@@ -35884,12 +35391,18 @@ const data = [
                 "Nalgene 1L",
                 "Water Bottles"
               ],
-              "weight": 11,
+              "weight": {
+                "imperial": 11,
+                "metric": "312"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "0.93"
+          "weight": {
+            "imperial": "0.93",
+            "metric": "0.42"
+          }
         },
         {
           "title": "Hygiene",
@@ -35900,7 +35413,10 @@ const data = [
                 "Toothpaste",
                 "tablets"
               ],
-              "weight": 2,
+              "weight": {
+                "imperial": 2,
+                "metric": "57"
+              },
               "consumable": true,
               "worn": false
             },
@@ -35910,7 +35426,10 @@ const data = [
                 "Foldable",
                 "Toothbrush"
               ],
-              "weight": 0.74,
+              "weight": {
+                "imperial": 0.74,
+                "metric": "21"
+              },
               "consumable": false,
               "worn": false
             },
@@ -35920,7 +35439,10 @@ const data = [
                 "Hand",
                 "Sanitizer"
               ],
-              "weight": 1.62,
+              "weight": {
+                "imperial": 1.62,
+                "metric": "46"
+              },
               "consumable": true,
               "worn": false
             },
@@ -35929,7 +35451,10 @@ const data = [
               "name": [
                 "Toilet paper"
               ],
-              "weight": 1.69,
+              "weight": {
+                "imperial": 1.69,
+                "metric": "48"
+              },
               "consumable": true,
               "worn": false
             },
@@ -35940,7 +35465,10 @@ const data = [
                 "Body/Hair",
                 "Wash"
               ],
-              "weight": 2.89,
+              "weight": {
+                "imperial": 2.89,
+                "metric": "82"
+              },
               "consumable": true,
               "worn": false
             },
@@ -35950,7 +35478,10 @@ const data = [
                 "Travel-sized",
                 "Deodorant"
               ],
-              "weight": 0.95,
+              "weight": {
+                "imperial": 0.95,
+                "metric": "27"
+              },
               "consumable": true,
               "worn": false
             },
@@ -35960,7 +35491,10 @@ const data = [
                 "PackTowl",
                 "Towel"
               ],
-              "weight": 6.31,
+              "weight": {
+                "imperial": 6.31,
+                "metric": "179"
+              },
               "consumable": false,
               "worn": false
             },
@@ -35969,7 +35503,10 @@ const data = [
               "name": [
                 "Comb"
               ],
-              "weight": 0.53,
+              "weight": {
+                "imperial": 0.53,
+                "metric": "15"
+              },
               "consumable": false,
               "worn": false
             },
@@ -35978,7 +35515,10 @@ const data = [
               "name": [
                 "Hair Ties"
               ],
-              "weight": 0.32,
+              "weight": {
+                "imperial": 0.32,
+                "metric": "9"
+              },
               "consumable": false,
               "worn": false
             },
@@ -35988,7 +35528,10 @@ const data = [
                 "SPF 15",
                 "Chapstick"
               ],
-              "weight": 0.32,
+              "weight": {
+                "imperial": 0.32,
+                "metric": "9"
+              },
               "consumable": true,
               "worn": false
             },
@@ -36000,12 +35543,18 @@ const data = [
                 "stick",
                 "Sunblock"
               ],
-              "weight": 0.95,
+              "weight": {
+                "imperial": 0.95,
+                "metric": "27"
+              },
               "consumable": true,
               "worn": false
             }
           ],
-          "weight": "1.15"
+          "weight": {
+            "imperial": "1.15",
+            "metric": "0.52"
+          }
         },
         {
           "title": "Aid Kit",
@@ -36020,12 +35569,18 @@ const data = [
                 "Med + Repair",
                 "Kit"
               ],
-              "weight": 3.35,
+              "weight": {
+                "imperial": 3.35,
+                "metric": "95"
+              },
               "consumable": true,
               "worn": false
             }
           ],
-          "weight": "0.21"
+          "weight": {
+            "imperial": "0.21",
+            "metric": "0.09"
+          }
         },
         {
           "title": "Electronics",
@@ -36036,7 +35591,10 @@ const data = [
                 "Nitecore NU25",
                 "UL Headlamp"
               ],
-              "weight": 1.59,
+              "weight": {
+                "imperial": 1.59,
+                "metric": "45"
+              },
               "consumable": false,
               "worn": false
             },
@@ -36047,7 +35605,10 @@ const data = [
                 "NB10000",
                 "Powerbank"
               ],
-              "weight": 5.36,
+              "weight": {
+                "imperial": 5.36,
+                "metric": "152"
+              },
               "consumable": false,
               "worn": false
             },
@@ -36058,7 +35619,10 @@ const data = [
                 "40W charger",
                 "dual port"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": false,
               "worn": false
             },
@@ -36069,7 +35633,10 @@ const data = [
                 "2 GPS",
                 "Smartwatch"
               ],
-              "weight": 1.8,
+              "weight": {
+                "imperial": 1.8,
+                "metric": "51"
+              },
               "consumable": false,
               "worn": true
             },
@@ -36079,7 +35646,10 @@ const data = [
                 "iPhone 16 Pro",
                 "Phone"
               ],
-              "weight": 7.8,
+              "weight": {
+                "imperial": 7.8,
+                "metric": "221"
+              },
               "consumable": false,
               "worn": true
             },
@@ -36088,12 +35658,18 @@ const data = [
               "name": [
                 "Cables"
               ],
-              "weight": 1.9,
+              "weight": {
+                "imperial": 1.9,
+                "metric": "54"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "1.34"
+          "weight": {
+            "imperial": "1.34",
+            "metric": "0.61"
+          }
         },
         {
           "title": "Packed Food + Water",
@@ -36104,7 +35680,10 @@ const data = [
                 "2 liters",
                 "Water"
               ],
-              "weight": 74.4,
+              "weight": {
+                "imperial": 74.4,
+                "metric": "2109"
+              },
               "consumable": true,
               "worn": false
             },
@@ -36113,12 +35692,18 @@ const data = [
               "name": [
                 "Snacks"
               ],
-              "weight": 4,
+              "weight": {
+                "imperial": 4,
+                "metric": "113"
+              },
               "consumable": true,
               "worn": false
             }
           ],
-          "weight": "4.90"
+          "weight": {
+            "imperial": "4.90",
+            "metric": "2.22"
+          }
         },
         {
           "title": "Luxury Items",
@@ -36129,7 +35714,10 @@ const data = [
                 "Airpods Pro 2",
                 "Headphones"
               ],
-              "weight": 1.9,
+              "weight": {
+                "imperial": 1.9,
+                "metric": "54"
+              },
               "consumable": false,
               "worn": false
             },
@@ -36140,7 +35728,10 @@ const data = [
                 "Headphones",
                 "adapter"
               ],
-              "weight": 0.5,
+              "weight": {
+                "imperial": 0.5,
+                "metric": "14"
+              },
               "consumable": false,
               "worn": false
             },
@@ -36150,12 +35741,18 @@ const data = [
                 "Trekking Pole",
                 "bag"
               ],
-              "weight": 0.92,
+              "weight": {
+                "imperial": 0.92,
+                "metric": "26"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "0.21"
+          "weight": {
+            "imperial": "0.21",
+            "metric": "0.09"
+          }
         },
         {
           "title": "Miscellaneous",
@@ -36166,7 +35763,10 @@ const data = [
                 "CNOC Cork",
                 "Trekking Pole"
               ],
-              "weight": 9.66,
+              "weight": {
+                "imperial": 9.66,
+                "metric": "274"
+              },
               "consumable": false,
               "worn": true
             },
@@ -36175,7 +35775,10 @@ const data = [
               "name": [
                 "Earplugs"
               ],
-              "weight": 0.14,
+              "weight": {
+                "imperial": 0.14,
+                "metric": "4"
+              },
               "consumable": false,
               "worn": false
             },
@@ -36185,7 +35788,10 @@ const data = [
                 "reading",
                 "Glasses"
               ],
-              "weight": 2.47,
+              "weight": {
+                "imperial": 2.47,
+                "metric": "70"
+              },
               "consumable": false,
               "worn": false
             },
@@ -36194,7 +35800,10 @@ const data = [
               "name": [
                 "Wallet"
               ],
-              "weight": 2,
+              "weight": {
+                "imperial": 2,
+                "metric": "57"
+              },
               "consumable": true,
               "worn": false
             },
@@ -36203,7 +35812,10 @@ const data = [
               "name": [
                 "Passport"
               ],
-              "weight": 2.57,
+              "weight": {
+                "imperial": 2.57,
+                "metric": "73"
+              },
               "consumable": false,
               "worn": false
             },
@@ -36213,7 +35825,10 @@ const data = [
                 "Building +",
                 "unit Keys"
               ],
-              "weight": 1.2,
+              "weight": {
+                "imperial": 1.2,
+                "metric": "34"
+              },
               "consumable": false,
               "worn": false
             },
@@ -36223,18 +35838,36 @@ const data = [
                 "Drawstring",
                 "Bag"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "1.31"
+          "weight": {
+            "imperial": "1.31",
+            "metric": "0.60"
+          }
         }
       ],
-      "weightBase": "11.20",
-      "weightConsumable": "5.89",
-      "weightTotal": "20.82",
-      "weightWorn": "3.74"
+      "weightBase": {
+        "imperial": "11.20",
+        "metric": "5.08"
+      },
+      "weightConsumable": {
+        "imperial": "5.89",
+        "metric": "2.67"
+      },
+      "weightTotal": {
+        "imperial": "20.82",
+        "metric": "9.45"
+      },
+      "weightWorn": {
+        "imperial": "3.74",
+        "metric": "1.70"
+      }
     },
     "hasGear": true,
     "hasStats": true,
@@ -37255,16 +36888,6 @@ const data = [
             "value": {
               "imperial": "11",
               "metric": "17"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -37272,16 +36895,6 @@ const data = [
             "value": {
               "imperial": "671",
               "metric": "205"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -37289,16 +36902,6 @@ const data = [
             "value": {
               "imperial": "723",
               "metric": "220"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -37306,16 +36909,6 @@ const data = [
             "value": {
               "imperial": "470",
               "metric": "143"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -38348,16 +37941,6 @@ const data = [
             "value": {
               "imperial": "13",
               "metric": "21"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -38365,16 +37948,6 @@ const data = [
             "value": {
               "imperial": "2,121",
               "metric": "646"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -38382,16 +37955,6 @@ const data = [
             "value": {
               "imperial": "2,199",
               "metric": "670"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -38399,16 +37962,6 @@ const data = [
             "value": {
               "imperial": "1,169",
               "metric": "356"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -39441,16 +38994,6 @@ const data = [
             "value": {
               "imperial": "17",
               "metric": "28"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -39458,16 +39001,6 @@ const data = [
             "value": {
               "imperial": "2,926",
               "metric": "892"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -39475,16 +39008,6 @@ const data = [
             "value": {
               "imperial": "2,880",
               "metric": "878"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -39492,16 +39015,6 @@ const data = [
             "value": {
               "imperial": "360",
               "metric": "110"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -40534,16 +40047,6 @@ const data = [
             "value": {
               "imperial": "19",
               "metric": "31"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -40551,16 +40054,6 @@ const data = [
             "value": {
               "imperial": "2,775",
               "metric": "846"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -40568,16 +40061,6 @@ const data = [
             "value": {
               "imperial": "2,298",
               "metric": "700"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -40585,16 +40068,6 @@ const data = [
             "value": {
               "imperial": "1,102",
               "metric": "336"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -41628,16 +41101,6 @@ const data = [
             "value": {
               "imperial": "21",
               "metric": "34"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -41645,16 +41108,6 @@ const data = [
             "value": {
               "imperial": "3,335",
               "metric": "1,016"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -41662,16 +41115,6 @@ const data = [
             "value": {
               "imperial": "3,826",
               "metric": "1,166"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -41679,16 +41122,6 @@ const data = [
             "value": {
               "imperial": "1,799",
               "metric": "548"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -42722,16 +42155,6 @@ const data = [
             "value": {
               "imperial": "16",
               "metric": "26"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -42739,16 +42162,6 @@ const data = [
             "value": {
               "imperial": "2,514",
               "metric": "766"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -42756,16 +42169,6 @@ const data = [
             "value": {
               "imperial": "2,505",
               "metric": "763"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -42773,16 +42176,6 @@ const data = [
             "value": {
               "imperial": "1,091",
               "metric": "333"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -42814,16 +42207,6 @@ const data = [
         "value": {
           "imperial": "1,799",
           "metric": "548"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "days": {
@@ -42836,16 +42219,6 @@ const data = [
         "value": {
           "imperial": "97",
           "metric": "156"
-        },
-        "units": {
-          "imperial": {
-            "full": "miles",
-            "abbreviated": "mi"
-          },
-          "metric": {
-            "full": "kilometers",
-            "abbreviated": "km"
-          }
         }
       },
       "gain": {
@@ -42853,16 +42226,6 @@ const data = [
         "value": {
           "imperial": "14,342",
           "metric": "4,371"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "length": {
@@ -42875,16 +42238,6 @@ const data = [
         "value": {
           "imperial": "14,431",
           "metric": "4,398"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       }
     },
@@ -43042,16 +42395,6 @@ const data = [
         "value": {
           "imperial": "-∞",
           "metric": "-∞"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "days": {
@@ -43099,12 +42442,18 @@ const data = [
                 "ZPacks Arc",
                 "Haul pack"
               ],
-              "weight": 20.9,
+              "weight": {
+                "imperial": 20.9,
+                "metric": "593"
+              },
               "consumable": false,
               "worn": true
             }
           ],
-          "weight": "1.31"
+          "weight": {
+            "imperial": "1.31",
+            "metric": "0.59"
+          }
         },
         {
           "title": "Sleeping",
@@ -43115,7 +42464,10 @@ const data = [
                 "S2S Aero",
                 "pillow"
               ],
-              "weight": 2.1,
+              "weight": {
+                "imperial": 2.1,
+                "metric": "60"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43126,7 +42478,10 @@ const data = [
                 "Magma 15",
                 "sleeping bag"
               ],
-              "weight": 15.9,
+              "weight": {
+                "imperial": 15.9,
+                "metric": "451"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43137,12 +42492,18 @@ const data = [
                 "NeoAir XLite",
                 "pad"
               ],
-              "weight": 12,
+              "weight": {
+                "imperial": 12,
+                "metric": "340"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "1.88"
+          "weight": {
+            "imperial": "1.88",
+            "metric": "0.85"
+          }
         },
         {
           "title": "Shelter",
@@ -43153,7 +42514,10 @@ const data = [
                 "Ultamid 2",
                 "tent"
               ],
-              "weight": 19.1,
+              "weight": {
+                "imperial": 19.1,
+                "metric": "541"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43164,7 +42528,10 @@ const data = [
                 "Half Insert",
                 "tent inner"
               ],
-              "weight": 14.8,
+              "weight": {
+                "imperial": 14.8,
+                "metric": "420"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43174,7 +42541,10 @@ const data = [
                 "MSR Groundhog",
                 "x 8 stakes"
               ],
-              "weight": 4,
+              "weight": {
+                "imperial": 4,
+                "metric": "113"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43185,12 +42555,18 @@ const data = [
                 "condensation",
                 "wipe"
               ],
-              "weight": 1.25,
+              "weight": {
+                "imperial": 1.25,
+                "metric": "35"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "2.45"
+          "weight": {
+            "imperial": "2.45",
+            "metric": "1.11"
+          }
         },
         {
           "title": "Clothing",
@@ -43201,7 +42577,10 @@ const data = [
                 "X Ultra 3 Low",
                 "GTX shoes"
               ],
-              "weight": 26.8,
+              "weight": {
+                "imperial": 26.8,
+                "metric": "760"
+              },
               "consumable": false,
               "worn": true
             },
@@ -43212,7 +42591,10 @@ const data = [
                 "boxer briefs",
                 "underwear"
               ],
-              "weight": 3.25,
+              "weight": {
+                "imperial": 3.25,
+                "metric": "92"
+              },
               "consumable": false,
               "worn": true
             },
@@ -43223,7 +42605,10 @@ const data = [
                 "Double-Layer",
                 "socks"
               ],
-              "weight": 2.5,
+              "weight": {
+                "imperial": 2.5,
+                "metric": "71"
+              },
               "consumable": false,
               "worn": true
             },
@@ -43233,7 +42618,10 @@ const data = [
                 "Aviator",
                 "sunglasses"
               ],
-              "weight": 0.78,
+              "weight": {
+                "imperial": 0.78,
+                "metric": "22"
+              },
               "consumable": false,
               "worn": true
             },
@@ -43243,7 +42631,10 @@ const data = [
                 "Tilley",
                 "Wanderer hat"
               ],
-              "weight": 5.4,
+              "weight": {
+                "imperial": 5.4,
+                "metric": "153"
+              },
               "consumable": false,
               "worn": true
             },
@@ -43254,7 +42645,10 @@ const data = [
                 "Long sleeve",
                 "shirt"
               ],
-              "weight": 6.46,
+              "weight": {
+                "imperial": 6.46,
+                "metric": "183"
+              },
               "consumable": false,
               "worn": true
             },
@@ -43264,7 +42658,10 @@ const data = [
                 "Prana Brion",
                 "pants"
               ],
-              "weight": 10.7,
+              "weight": {
+                "imperial": 10.7,
+                "metric": "303"
+              },
               "consumable": false,
               "worn": true
             },
@@ -43274,7 +42671,10 @@ const data = [
                 "Patagonia 3L",
                 "rain jacket"
               ],
-              "weight": 14.1,
+              "weight": {
+                "imperial": 14.1,
+                "metric": "400"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43285,7 +42685,10 @@ const data = [
                 "Long sleeve",
                 "shirt"
               ],
-              "weight": 6.46,
+              "weight": {
+                "imperial": 6.46,
+                "metric": "183"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43296,7 +42699,10 @@ const data = [
                 "Long sleeve",
                 "shirt"
               ],
-              "weight": 6.46,
+              "weight": {
+                "imperial": 6.46,
+                "metric": "183"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43307,7 +42713,10 @@ const data = [
                 "boxer briefs",
                 "underwear"
               ],
-              "weight": 3.25,
+              "weight": {
+                "imperial": 3.25,
+                "metric": "92"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43318,7 +42727,10 @@ const data = [
                 "Double-Layer",
                 "socks"
               ],
-              "weight": 2.5,
+              "weight": {
+                "imperial": 2.5,
+                "metric": "71"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43328,7 +42740,10 @@ const data = [
                 "Coleman",
                 "sandals"
               ],
-              "weight": 14.5,
+              "weight": {
+                "imperial": 14.5,
+                "metric": "411"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43338,7 +42753,10 @@ const data = [
                 "shower flip",
                 "flops"
               ],
-              "weight": 5.2,
+              "weight": {
+                "imperial": 5.2,
+                "metric": "147"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43349,7 +42767,10 @@ const data = [
                 "Weather",
                 "gloves"
               ],
-              "weight": 5,
+              "weight": {
+                "imperial": 5,
+                "metric": "142"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43359,7 +42780,10 @@ const data = [
                 "Vuori Ponto",
                 "pants"
               ],
-              "weight": 8,
+              "weight": {
+                "imperial": 8,
+                "metric": "227"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43370,12 +42794,18 @@ const data = [
                 "Whisperer",
                 "down jacket"
               ],
-              "weight": 7.6,
+              "weight": {
+                "imperial": 7.6,
+                "metric": "215"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "8.06"
+          "weight": {
+            "imperial": "8.06",
+            "metric": "3.66"
+          }
         },
         {
           "title": "Water",
@@ -43386,7 +42816,10 @@ const data = [
                 "Nalgene 1L",
                 "water bottles"
               ],
-              "weight": 11.8,
+              "weight": {
+                "imperial": 11.8,
+                "metric": "335"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43397,12 +42830,18 @@ const data = [
                 "Squeeze water",
                 "filter"
               ],
-              "weight": 3.7,
+              "weight": {
+                "imperial": 3.7,
+                "metric": "105"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "0.97"
+          "weight": {
+            "imperial": "0.97",
+            "metric": "0.44"
+          }
         },
         {
           "title": "Cooking",
@@ -43414,7 +42853,10 @@ const data = [
                 "Titanium",
                 "750ml pot"
               ],
-              "weight": 3.9,
+              "weight": {
+                "imperial": 3.9,
+                "metric": "111"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43425,7 +42867,10 @@ const data = [
                 "Titanium Long",
                 "spoon"
               ],
-              "weight": 0.65,
+              "weight": {
+                "imperial": 0.65,
+                "metric": "18"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43436,7 +42881,10 @@ const data = [
                 "PocketRocket",
                 "2 stove"
               ],
-              "weight": 2.6,
+              "weight": {
+                "imperial": 2.6,
+                "metric": "74"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43445,12 +42893,18 @@ const data = [
               "name": [
                 "MSR fuel"
               ],
-              "weight": 8,
+              "weight": {
+                "imperial": 8,
+                "metric": "227"
+              },
               "consumable": true,
               "worn": false
             }
           ],
-          "weight": "0.95"
+          "weight": {
+            "imperial": "0.95",
+            "metric": "0.43"
+          }
         },
         {
           "title": "Hygiene",
@@ -43461,7 +42915,10 @@ const data = [
                 "Foldable",
                 "toothbrush"
               ],
-              "weight": 0.74,
+              "weight": {
+                "imperial": 0.74,
+                "metric": "21"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43471,7 +42928,10 @@ const data = [
                 "Travel-sized",
                 "toothpaste"
               ],
-              "weight": 1.5,
+              "weight": {
+                "imperial": 1.5,
+                "metric": "43"
+              },
               "consumable": true,
               "worn": false
             },
@@ -43481,7 +42941,10 @@ const data = [
                 "Travel-sized",
                 "deodorant"
               ],
-              "weight": 1.5,
+              "weight": {
+                "imperial": 1.5,
+                "metric": "43"
+              },
               "consumable": true,
               "worn": false
             },
@@ -43491,7 +42954,10 @@ const data = [
                 "Dr Bronners",
                 "soap"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": true,
               "worn": false
             },
@@ -43501,7 +42967,10 @@ const data = [
                 "PackTowl",
                 "towel"
               ],
-              "weight": 6.4,
+              "weight": {
+                "imperial": 6.4,
+                "metric": "181"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43511,12 +42980,18 @@ const data = [
                 "SPF 15",
                 "chapstick"
               ],
-              "weight": 0.32,
+              "weight": {
+                "imperial": 0.32,
+                "metric": "9"
+              },
               "consumable": true,
               "worn": false
             }
           ],
-          "weight": "0.84"
+          "weight": {
+            "imperial": "0.84",
+            "metric": "0.38"
+          }
         },
         {
           "title": "Aid Kit",
@@ -43526,7 +43001,10 @@ const data = [
               "name": [
                 "compeed"
               ],
-              "weight": 1.45,
+              "weight": {
+                "imperial": 1.45,
+                "metric": "41"
+              },
               "consumable": true,
               "worn": false
             },
@@ -43535,7 +43013,10 @@ const data = [
               "name": [
                 "bandages"
               ],
-              "weight": 2.4,
+              "weight": {
+                "imperial": 2.4,
+                "metric": "68"
+              },
               "consumable": true,
               "worn": false
             },
@@ -43544,7 +43025,10 @@ const data = [
               "name": [
                 "toilet paper"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43554,7 +43038,10 @@ const data = [
                 "Allergy",
                 "pseudoephedrine"
               ],
-              "weight": 1.1,
+              "weight": {
+                "imperial": 1.1,
+                "metric": "31"
+              },
               "consumable": true,
               "worn": false
             },
@@ -43564,12 +43051,18 @@ const data = [
                 "Tenacious",
                 "repair tape"
               ],
-              "weight": 2,
+              "weight": {
+                "imperial": 2,
+                "metric": "57"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "0.62"
+          "weight": {
+            "imperial": "0.62",
+            "metric": "0.28"
+          }
         },
         {
           "title": "Electronics",
@@ -43580,7 +43073,10 @@ const data = [
                 "Petzl Actik",
                 "headlamp"
               ],
-              "weight": 3.17,
+              "weight": {
+                "imperial": 3.17,
+                "metric": "90"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43589,7 +43085,10 @@ const data = [
               "name": [
                 "AAA batteries"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43601,7 +43100,10 @@ const data = [
                 "13000mah",
                 "powerbank"
               ],
-              "weight": 9,
+              "weight": {
+                "imperial": 9,
+                "metric": "255"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43612,7 +43114,10 @@ const data = [
                 "Brick 5W",
                 "charger"
               ],
-              "weight": 1.44,
+              "weight": {
+                "imperial": 1.44,
+                "metric": "41"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43621,7 +43126,10 @@ const data = [
               "name": [
                 "iPhone X"
               ],
-              "weight": 6.8,
+              "weight": {
+                "imperial": 6.8,
+                "metric": "193"
+              },
               "consumable": false,
               "worn": true
             },
@@ -43631,7 +43139,10 @@ const data = [
                 "All-in-One",
                 "adapter"
               ],
-              "weight": 3.2,
+              "weight": {
+                "imperial": 3.2,
+                "metric": "91"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43641,7 +43152,10 @@ const data = [
                 "iPhone USB",
                 "cable"
               ],
-              "weight": 1,
+              "weight": {
+                "imperial": 1,
+                "metric": "28"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43650,7 +43164,10 @@ const data = [
               "name": [
                 "Anker cable"
               ],
-              "weight": 1,
+              "weight": {
+                "imperial": 1,
+                "metric": "28"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43660,12 +43177,18 @@ const data = [
                 "Apple wired",
                 "headphones"
               ],
-              "weight": 0.46,
+              "weight": {
+                "imperial": 0.46,
+                "metric": "13"
+              },
               "consumable": false,
               "worn": true
             }
           ],
-          "weight": "1.82"
+          "weight": {
+            "imperial": "1.82",
+            "metric": "0.82"
+          }
         },
         {
           "title": "Packed Food + Water",
@@ -43676,7 +43199,10 @@ const data = [
                 "8 meals +",
                 "snacks"
               ],
-              "weight": 128,
+              "weight": {
+                "imperial": 128,
+                "metric": "3629"
+              },
               "consumable": true,
               "worn": false
             },
@@ -43686,12 +43212,18 @@ const data = [
                 "2 liters",
                 "water"
               ],
-              "weight": 74.4,
+              "weight": {
+                "imperial": 74.4,
+                "metric": "2109"
+              },
               "consumable": true,
               "worn": false
             }
           ],
-          "weight": "12.65"
+          "weight": {
+            "imperial": "12.65",
+            "metric": "5.74"
+          }
         },
         {
           "title": "Miscellaneous",
@@ -43703,7 +43235,10 @@ const data = [
                 "Stabilizer",
                 "knee brace"
               ],
-              "weight": 10.56,
+              "weight": {
+                "imperial": 10.56,
+                "metric": "299"
+              },
               "consumable": false,
               "worn": true
             },
@@ -43714,7 +43249,10 @@ const data = [
                 "Travel money",
                 "belt"
               ],
-              "weight": 1,
+              "weight": {
+                "imperial": 1,
+                "metric": "28"
+              },
               "consumable": false,
               "worn": true
             },
@@ -43725,7 +43263,10 @@ const data = [
                 "trekking",
                 "poles"
               ],
-              "weight": 19.1,
+              "weight": {
+                "imperial": 19.1,
+                "metric": "541"
+              },
               "consumable": false,
               "worn": true
             },
@@ -43735,7 +43276,10 @@ const data = [
                 "AnMeng",
                 "earplugs"
               ],
-              "weight": 0.81,
+              "weight": {
+                "imperial": 0.81,
+                "metric": "23"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43745,7 +43289,10 @@ const data = [
                 "reading",
                 "glasses"
               ],
-              "weight": 2.47,
+              "weight": {
+                "imperial": 2.47,
+                "metric": "70"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43754,7 +43301,10 @@ const data = [
               "name": [
                 "wallet"
               ],
-              "weight": 2,
+              "weight": {
+                "imperial": 2,
+                "metric": "57"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43763,7 +43313,10 @@ const data = [
               "name": [
                 "passport"
               ],
-              "weight": 1.5,
+              "weight": {
+                "imperial": 1.5,
+                "metric": "43"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43773,7 +43326,10 @@ const data = [
                 "Building +",
                 "unit keys"
               ],
-              "weight": 1.2,
+              "weight": {
+                "imperial": 1.2,
+                "metric": "34"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43784,7 +43340,10 @@ const data = [
                 "Wash",
                 "detergent"
               ],
-              "weight": 3.14,
+              "weight": {
+                "imperial": 3.14,
+                "metric": "89"
+              },
               "consumable": true,
               "worn": false
             },
@@ -43794,7 +43353,10 @@ const data = [
                 "S2S Lite",
                 "clothesline"
               ],
-              "weight": 1.3,
+              "weight": {
+                "imperial": 1.3,
+                "metric": "37"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43804,7 +43366,10 @@ const data = [
                 "Gerber",
                 "multi-tool"
               ],
-              "weight": 1.41,
+              "weight": {
+                "imperial": 1.41,
+                "metric": "40"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43813,7 +43378,10 @@ const data = [
               "name": [
                 "laundry clips"
               ],
-              "weight": 1.32,
+              "weight": {
+                "imperial": 1.32,
+                "metric": "37"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43823,7 +43391,10 @@ const data = [
                 "Mylar",
                 "emergency"
               ],
-              "weight": 0.5,
+              "weight": {
+                "imperial": 0.5,
+                "metric": "14"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43833,7 +43404,10 @@ const data = [
                 "trekking pole",
                 "bag"
               ],
-              "weight": 0.92,
+              "weight": {
+                "imperial": 0.92,
+                "metric": "26"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43843,7 +43417,10 @@ const data = [
                 "S2S Ultra-sil",
                 "stuff sack"
               ],
-              "weight": 1,
+              "weight": {
+                "imperial": 1,
+                "metric": "28"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43853,7 +43430,10 @@ const data = [
                 "S2S Ultra-sil",
                 "stuff sack"
               ],
-              "weight": 1,
+              "weight": {
+                "imperial": 1,
+                "metric": "28"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43863,7 +43443,10 @@ const data = [
                 "S2S Ultra-sil",
                 "stuff sack"
               ],
-              "weight": 1,
+              "weight": {
+                "imperial": 1,
+                "metric": "28"
+              },
               "consumable": false,
               "worn": false
             },
@@ -43873,18 +43456,36 @@ const data = [
                 "S2S Ultra-sil",
                 "stuff sack"
               ],
-              "weight": 1,
+              "weight": {
+                "imperial": 1,
+                "metric": "28"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "3.20"
+          "weight": {
+            "imperial": "3.20",
+            "metric": "1.45"
+          }
         }
       ],
-      "weightBase": "13.52",
-      "weightConsumable": "14.05",
-      "weightTotal": "34.74",
-      "weightWorn": "7.17"
+      "weightBase": {
+        "imperial": "13.52",
+        "metric": "6.13"
+      },
+      "weightConsumable": {
+        "imperial": "14.05",
+        "metric": "6.37"
+      },
+      "weightTotal": {
+        "imperial": "34.74",
+        "metric": "15.76"
+      },
+      "weightWorn": {
+        "imperial": "7.17",
+        "metric": "3.25"
+      }
     },
     "hasGear": true,
     "hasStats": true,
@@ -44215,16 +43816,6 @@ const data = [
             "value": {
               "imperial": "8",
               "metric": "13"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -44232,16 +43823,6 @@ const data = [
             "value": {
               "imperial": "895",
               "metric": "273"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -44249,16 +43830,6 @@ const data = [
             "value": {
               "imperial": "779",
               "metric": "237"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -44266,16 +43837,6 @@ const data = [
             "value": {
               "imperial": "1,268",
               "metric": "386"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -44848,16 +44409,6 @@ const data = [
             "value": {
               "imperial": "11",
               "metric": "18"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -44865,16 +44416,6 @@ const data = [
             "value": {
               "imperial": "1,036",
               "metric": "316"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -44882,16 +44423,6 @@ const data = [
             "value": {
               "imperial": "920",
               "metric": "280"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -44899,16 +44430,6 @@ const data = [
             "value": {
               "imperial": "1,155",
               "metric": "352"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -45426,16 +44947,6 @@ const data = [
             "value": {
               "imperial": "7",
               "metric": "11"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -45443,16 +44954,6 @@ const data = [
             "value": {
               "imperial": "1,429",
               "metric": "436"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -45460,16 +44961,6 @@ const data = [
             "value": {
               "imperial": "268",
               "metric": "82"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -45477,16 +44968,6 @@ const data = [
             "value": {
               "imperial": "1,844",
               "metric": "562"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -46519,16 +46000,6 @@ const data = [
             "value": {
               "imperial": "9",
               "metric": "14"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -46536,16 +46007,6 @@ const data = [
             "value": {
               "imperial": "2,395",
               "metric": "730"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -46553,16 +46014,6 @@ const data = [
             "value": {
               "imperial": "3,976",
               "metric": "1,212"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -46570,16 +46021,6 @@ const data = [
             "value": {
               "imperial": "3,874",
               "metric": "1,181"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -47097,16 +46538,6 @@ const data = [
             "value": {
               "imperial": "7",
               "metric": "11"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -47114,16 +46545,6 @@ const data = [
             "value": {
               "imperial": "906",
               "metric": "276"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -47131,16 +46552,6 @@ const data = [
             "value": {
               "imperial": "1,037",
               "metric": "316"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -47148,16 +46559,6 @@ const data = [
             "value": {
               "imperial": "868",
               "metric": "265"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -48190,16 +47591,6 @@ const data = [
             "value": {
               "imperial": "12",
               "metric": "20"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -48207,16 +47598,6 @@ const data = [
             "value": {
               "imperial": "2,621",
               "metric": "799"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -48224,16 +47605,6 @@ const data = [
             "value": {
               "imperial": "2,201",
               "metric": "671"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -48241,16 +47612,6 @@ const data = [
             "value": {
               "imperial": "2,440",
               "metric": "744"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -49283,16 +48644,6 @@ const data = [
             "value": {
               "imperial": "10",
               "metric": "15"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -49300,16 +48651,6 @@ const data = [
             "value": {
               "imperial": "2,064",
               "metric": "629"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -49317,16 +48658,6 @@ const data = [
             "value": {
               "imperial": "1,225",
               "metric": "373"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -49334,16 +48665,6 @@ const data = [
             "value": {
               "imperial": "1,532",
               "metric": "467"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -50376,16 +49697,6 @@ const data = [
             "value": {
               "imperial": "9",
               "metric": "14"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -50393,16 +49704,6 @@ const data = [
             "value": {
               "imperial": "1,852",
               "metric": "564"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -50410,16 +49711,6 @@ const data = [
             "value": {
               "imperial": "2,782",
               "metric": "848"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -50427,16 +49718,6 @@ const data = [
             "value": {
               "imperial": "2,886",
               "metric": "880"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -50468,16 +49749,6 @@ const data = [
         "value": {
           "imperial": "3,874",
           "metric": "1,181"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "days": {
@@ -50490,16 +49761,6 @@ const data = [
         "value": {
           "imperial": "73",
           "metric": "117"
-        },
-        "units": {
-          "imperial": {
-            "full": "miles",
-            "abbreviated": "mi"
-          },
-          "metric": {
-            "full": "kilometers",
-            "abbreviated": "km"
-          }
         }
       },
       "gain": {
@@ -50507,16 +49768,6 @@ const data = [
         "value": {
           "imperial": "13,198",
           "metric": "4,023"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "length": {
@@ -50529,16 +49780,6 @@ const data = [
         "value": {
           "imperial": "13,188",
           "metric": "4,020"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       }
     },
@@ -50581,12 +49822,18 @@ const data = [
                 "Kestrel 38",
                 "pack"
               ],
-              "weight": 65.12,
+              "weight": {
+                "imperial": 65.12,
+                "metric": "1846"
+              },
               "consumable": false,
               "worn": true
             }
           ],
-          "weight": "4.07"
+          "weight": {
+            "imperial": "4.07",
+            "metric": "1.85"
+          }
         },
         {
           "title": "Sleeping",
@@ -50597,7 +49844,10 @@ const data = [
                 "S2S Aero",
                 "pillow"
               ],
-              "weight": 2.1,
+              "weight": {
+                "imperial": 2.1,
+                "metric": "60"
+              },
               "consumable": false,
               "worn": false
             },
@@ -50608,7 +49858,10 @@ const data = [
                 "Sleeping Bag",
                 "liner"
               ],
-              "weight": 12.8,
+              "weight": {
+                "imperial": 12.8,
+                "metric": "363"
+              },
               "consumable": false,
               "worn": false
             },
@@ -50619,12 +49872,18 @@ const data = [
                 "Magma 15",
                 "sleeping bag"
               ],
-              "weight": 15.9,
+              "weight": {
+                "imperial": 15.9,
+                "metric": "451"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "1.93"
+          "weight": {
+            "imperial": "1.93",
+            "metric": "0.87"
+          }
         },
         {
           "title": "Clothing",
@@ -50635,7 +49894,10 @@ const data = [
                 "X Ultra 3 Low",
                 "GTX shoes"
               ],
-              "weight": 26.8,
+              "weight": {
+                "imperial": 26.8,
+                "metric": "760"
+              },
               "consumable": false,
               "worn": true
             },
@@ -50646,7 +49908,10 @@ const data = [
                 "boxer briefs",
                 "underwear"
               ],
-              "weight": 3.25,
+              "weight": {
+                "imperial": 3.25,
+                "metric": "92"
+              },
               "consumable": false,
               "worn": true
             },
@@ -50657,7 +49922,10 @@ const data = [
                 "Double-Layer",
                 "socks"
               ],
-              "weight": 2.5,
+              "weight": {
+                "imperial": 2.5,
+                "metric": "71"
+              },
               "consumable": false,
               "worn": true
             },
@@ -50667,7 +49935,10 @@ const data = [
                 "Aviator",
                 "sunglasses"
               ],
-              "weight": 0.78,
+              "weight": {
+                "imperial": 0.78,
+                "metric": "22"
+              },
               "consumable": false,
               "worn": true
             },
@@ -50677,7 +49948,10 @@ const data = [
                 "Tilley",
                 "Wanderer hat"
               ],
-              "weight": 5.4,
+              "weight": {
+                "imperial": 5.4,
+                "metric": "153"
+              },
               "consumable": false,
               "worn": true
             },
@@ -50688,7 +49962,10 @@ const data = [
                 "Long sleeve",
                 "shirt"
               ],
-              "weight": 6.46,
+              "weight": {
+                "imperial": 6.46,
+                "metric": "183"
+              },
               "consumable": false,
               "worn": true
             },
@@ -50698,7 +49975,10 @@ const data = [
                 "Prana Brion",
                 "pants"
               ],
-              "weight": 10.7,
+              "weight": {
+                "imperial": 10.7,
+                "metric": "303"
+              },
               "consumable": false,
               "worn": true
             },
@@ -50708,7 +49988,10 @@ const data = [
                 "Patagonia 3L",
                 "rain jacket"
               ],
-              "weight": 14.1,
+              "weight": {
+                "imperial": 14.1,
+                "metric": "400"
+              },
               "consumable": false,
               "worn": false
             },
@@ -50719,7 +50002,10 @@ const data = [
                 "Long sleeve",
                 "shirt"
               ],
-              "weight": 6.46,
+              "weight": {
+                "imperial": 6.46,
+                "metric": "183"
+              },
               "consumable": false,
               "worn": false
             },
@@ -50730,7 +50016,10 @@ const data = [
                 "Long sleeve",
                 "shirt"
               ],
-              "weight": 6.46,
+              "weight": {
+                "imperial": 6.46,
+                "metric": "183"
+              },
               "consumable": false,
               "worn": false
             },
@@ -50741,7 +50030,10 @@ const data = [
                 "boxer briefs",
                 "underwear"
               ],
-              "weight": 3.25,
+              "weight": {
+                "imperial": 3.25,
+                "metric": "92"
+              },
               "consumable": false,
               "worn": false
             },
@@ -50752,7 +50044,10 @@ const data = [
                 "boxer briefs",
                 "underwear"
               ],
-              "weight": 3.25,
+              "weight": {
+                "imperial": 3.25,
+                "metric": "92"
+              },
               "consumable": false,
               "worn": false
             },
@@ -50763,7 +50058,10 @@ const data = [
                 "Double-Layer",
                 "socks"
               ],
-              "weight": 2.5,
+              "weight": {
+                "imperial": 2.5,
+                "metric": "71"
+              },
               "consumable": false,
               "worn": false
             },
@@ -50774,7 +50072,10 @@ const data = [
                 "Double-Layer",
                 "socks"
               ],
-              "weight": 2.5,
+              "weight": {
+                "imperial": 2.5,
+                "metric": "71"
+              },
               "consumable": false,
               "worn": false
             },
@@ -50784,7 +50085,10 @@ const data = [
                 "Coleman",
                 "sandals"
               ],
-              "weight": 14.5,
+              "weight": {
+                "imperial": 14.5,
+                "metric": "411"
+              },
               "consumable": false,
               "worn": false
             },
@@ -50794,7 +50098,10 @@ const data = [
                 "shower flip",
                 "flops"
               ],
-              "weight": 5.2,
+              "weight": {
+                "imperial": 5.2,
+                "metric": "147"
+              },
               "consumable": false,
               "worn": false
             },
@@ -50805,7 +50112,10 @@ const data = [
                 "Weather",
                 "gloves"
               ],
-              "weight": 5,
+              "weight": {
+                "imperial": 5,
+                "metric": "142"
+              },
               "consumable": false,
               "worn": false
             },
@@ -50815,7 +50125,10 @@ const data = [
                 "Vuori Ponto",
                 "pants"
               ],
-              "weight": 8,
+              "weight": {
+                "imperial": 8,
+                "metric": "227"
+              },
               "consumable": false,
               "worn": false
             },
@@ -50825,12 +50138,18 @@ const data = [
                 "REI Co-op",
                 "Down jacket"
               ],
-              "weight": 10.5,
+              "weight": {
+                "imperial": 10.5,
+                "metric": "298"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "8.60"
+          "weight": {
+            "imperial": "8.60",
+            "metric": "3.90"
+          }
         },
         {
           "title": "Water",
@@ -50841,7 +50160,10 @@ const data = [
                 "Nalgene 1L",
                 "water bottle"
               ],
-              "weight": 5.9,
+              "weight": {
+                "imperial": 5.9,
+                "metric": "167"
+              },
               "consumable": false,
               "worn": false
             },
@@ -50851,7 +50173,10 @@ const data = [
                 "Osprey 3L",
                 "water bladder"
               ],
-              "weight": 7.8,
+              "weight": {
+                "imperial": 7.8,
+                "metric": "221"
+              },
               "consumable": false,
               "worn": false
             },
@@ -50862,12 +50187,18 @@ const data = [
                 "Squeeze water",
                 "filter"
               ],
-              "weight": 3.7,
+              "weight": {
+                "imperial": 3.7,
+                "metric": "105"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "1.09"
+          "weight": {
+            "imperial": "1.09",
+            "metric": "0.49"
+          }
         },
         {
           "title": "Hygiene",
@@ -50879,7 +50210,10 @@ const data = [
                 "travel",
                 "toothbrush"
               ],
-              "weight": 0.74,
+              "weight": {
+                "imperial": 0.74,
+                "metric": "21"
+              },
               "consumable": false,
               "worn": false
             },
@@ -50888,7 +50222,10 @@ const data = [
               "name": [
                 "toothpaste"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": true,
               "worn": false
             },
@@ -50897,7 +50234,10 @@ const data = [
               "name": [
                 "deodorant"
               ],
-              "weight": 2.7,
+              "weight": {
+                "imperial": 2.7,
+                "metric": "77"
+              },
               "consumable": true,
               "worn": false
             },
@@ -50906,7 +50246,10 @@ const data = [
               "name": [
                 "soap case"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": false,
               "worn": false
             },
@@ -50915,7 +50258,10 @@ const data = [
               "name": [
                 "soap bar"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": true,
               "worn": false
             },
@@ -50926,7 +50272,10 @@ const data = [
                 "Multi Lite",
                 "towel"
               ],
-              "weight": 6,
+              "weight": {
+                "imperial": 6,
+                "metric": "170"
+              },
               "consumable": false,
               "worn": false
             },
@@ -50936,12 +50285,18 @@ const data = [
                 "SPF 15",
                 "chapstick"
               ],
-              "weight": 0.32,
+              "weight": {
+                "imperial": 0.32,
+                "metric": "9"
+              },
               "consumable": true,
               "worn": false
             }
           ],
-          "weight": "1.17"
+          "weight": {
+            "imperial": "1.17",
+            "metric": "0.53"
+          }
         },
         {
           "title": "Aid Kit",
@@ -50951,7 +50306,10 @@ const data = [
               "name": [
                 "compeed"
               ],
-              "weight": 1.45,
+              "weight": {
+                "imperial": 1.45,
+                "metric": "41"
+              },
               "consumable": true,
               "worn": false
             },
@@ -50960,7 +50318,10 @@ const data = [
               "name": [
                 "bandages"
               ],
-              "weight": 2.4,
+              "weight": {
+                "imperial": 2.4,
+                "metric": "68"
+              },
               "consumable": true,
               "worn": false
             },
@@ -50969,7 +50330,10 @@ const data = [
               "name": [
                 "toilet paper"
               ],
-              "weight": 3.37,
+              "weight": {
+                "imperial": 3.37,
+                "metric": "96"
+              },
               "consumable": false,
               "worn": false
             },
@@ -50979,7 +50343,10 @@ const data = [
                 "Allergy",
                 "pseudoephedrine"
               ],
-              "weight": 1.1,
+              "weight": {
+                "imperial": 1.1,
+                "metric": "31"
+              },
               "consumable": true,
               "worn": false
             },
@@ -50990,12 +50357,18 @@ const data = [
                 "purification",
                 "aquamira"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": true,
               "worn": false
             }
           ],
-          "weight": "0.71"
+          "weight": {
+            "imperial": "0.71",
+            "metric": "0.32"
+          }
         },
         {
           "title": "Electronics",
@@ -51006,7 +50379,10 @@ const data = [
                 "Petzl Actik",
                 "headlamp"
               ],
-              "weight": 3.17,
+              "weight": {
+                "imperial": 3.17,
+                "metric": "90"
+              },
               "consumable": false,
               "worn": false
             },
@@ -51015,7 +50391,10 @@ const data = [
               "name": [
                 "AAA batteries"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": false,
               "worn": false
             },
@@ -51027,7 +50406,10 @@ const data = [
                 "13000mah",
                 "powerbank"
               ],
-              "weight": 9,
+              "weight": {
+                "imperial": 9,
+                "metric": "255"
+              },
               "consumable": false,
               "worn": false
             },
@@ -51038,7 +50420,10 @@ const data = [
                 "Brick 5W",
                 "charger"
               ],
-              "weight": 1.44,
+              "weight": {
+                "imperial": 1.44,
+                "metric": "41"
+              },
               "consumable": false,
               "worn": false
             },
@@ -51047,7 +50432,10 @@ const data = [
               "name": [
                 "iPhone X"
               ],
-              "weight": 6.8,
+              "weight": {
+                "imperial": 6.8,
+                "metric": "193"
+              },
               "consumable": false,
               "worn": true
             },
@@ -51057,7 +50445,10 @@ const data = [
                 "All-in-One",
                 "adapter"
               ],
-              "weight": 3.2,
+              "weight": {
+                "imperial": 3.2,
+                "metric": "91"
+              },
               "consumable": false,
               "worn": false
             },
@@ -51067,7 +50458,10 @@ const data = [
                 "iPhone USB",
                 "cable"
               ],
-              "weight": 1,
+              "weight": {
+                "imperial": 1,
+                "metric": "28"
+              },
               "consumable": false,
               "worn": false
             },
@@ -51076,7 +50470,10 @@ const data = [
               "name": [
                 "Anker cable"
               ],
-              "weight": 1,
+              "weight": {
+                "imperial": 1,
+                "metric": "28"
+              },
               "consumable": false,
               "worn": false
             },
@@ -51086,12 +50483,18 @@ const data = [
                 "Apple wired",
                 "headphones"
               ],
-              "weight": 0.46,
+              "weight": {
+                "imperial": 0.46,
+                "metric": "13"
+              },
               "consumable": false,
               "worn": true
             }
           ],
-          "weight": "1.82"
+          "weight": {
+            "imperial": "1.82",
+            "metric": "0.82"
+          }
         },
         {
           "title": "Packed Food + Water",
@@ -51101,7 +50504,10 @@ const data = [
               "name": [
                 "snacks"
               ],
-              "weight": 8,
+              "weight": {
+                "imperial": 8,
+                "metric": "227"
+              },
               "consumable": true,
               "worn": false
             },
@@ -51111,12 +50517,18 @@ const data = [
                 "3 liters",
                 "water"
               ],
-              "weight": 111.6,
+              "weight": {
+                "imperial": 111.6,
+                "metric": "3164"
+              },
               "consumable": true,
               "worn": false
             }
           ],
-          "weight": "7.47"
+          "weight": {
+            "imperial": "7.47",
+            "metric": "3.39"
+          }
         },
         {
           "title": "Miscellaneous",
@@ -51128,7 +50540,10 @@ const data = [
                 "Stabilizer",
                 "knee brace"
               ],
-              "weight": 10.56,
+              "weight": {
+                "imperial": 10.56,
+                "metric": "299"
+              },
               "consumable": false,
               "worn": true
             },
@@ -51138,7 +50553,10 @@ const data = [
                 "Scrubba Wash",
                 "laundry bag"
               ],
-              "weight": 5.3,
+              "weight": {
+                "imperial": 5.3,
+                "metric": "150"
+              },
               "consumable": false,
               "worn": false
             },
@@ -51147,7 +50565,10 @@ const data = [
               "name": [
                 "whistle"
               ],
-              "weight": 0.42,
+              "weight": {
+                "imperial": 0.42,
+                "metric": "12"
+              },
               "consumable": false,
               "worn": false
             },
@@ -51157,7 +50578,10 @@ const data = [
                 "packable",
                 "backpack"
               ],
-              "weight": 4,
+              "weight": {
+                "imperial": 4,
+                "metric": "113"
+              },
               "consumable": false,
               "worn": false
             },
@@ -51168,7 +50592,10 @@ const data = [
                 "Travel money",
                 "belt"
               ],
-              "weight": 1,
+              "weight": {
+                "imperial": 1,
+                "metric": "28"
+              },
               "consumable": false,
               "worn": true
             },
@@ -51179,7 +50606,10 @@ const data = [
                 "trekking",
                 "poles"
               ],
-              "weight": 19.1,
+              "weight": {
+                "imperial": 19.1,
+                "metric": "541"
+              },
               "consumable": false,
               "worn": true
             },
@@ -51189,7 +50619,10 @@ const data = [
                 "AnMeng",
                 "earplugs"
               ],
-              "weight": 0.81,
+              "weight": {
+                "imperial": 0.81,
+                "metric": "23"
+              },
               "consumable": false,
               "worn": false
             },
@@ -51199,7 +50632,10 @@ const data = [
                 "reading",
                 "glasses"
               ],
-              "weight": 2.47,
+              "weight": {
+                "imperial": 2.47,
+                "metric": "70"
+              },
               "consumable": false,
               "worn": false
             },
@@ -51208,7 +50644,10 @@ const data = [
               "name": [
                 "wallet"
               ],
-              "weight": 2,
+              "weight": {
+                "imperial": 2,
+                "metric": "57"
+              },
               "consumable": false,
               "worn": false
             },
@@ -51217,7 +50656,10 @@ const data = [
               "name": [
                 "passport"
               ],
-              "weight": 1.5,
+              "weight": {
+                "imperial": 1.5,
+                "metric": "43"
+              },
               "consumable": false,
               "worn": false
             },
@@ -51227,7 +50669,10 @@ const data = [
                 "Building +",
                 "unit keys"
               ],
-              "weight": 1.2,
+              "weight": {
+                "imperial": 1.2,
+                "metric": "34"
+              },
               "consumable": false,
               "worn": false
             },
@@ -51237,7 +50682,10 @@ const data = [
                 "NeatPack",
                 "toiletry bag"
               ],
-              "weight": 3.2,
+              "weight": {
+                "imperial": 3.2,
+                "metric": "91"
+              },
               "consumable": false,
               "worn": false
             },
@@ -51248,7 +50696,10 @@ const data = [
                 "Wash",
                 "detergent"
               ],
-              "weight": 3.14,
+              "weight": {
+                "imperial": 3.14,
+                "metric": "89"
+              },
               "consumable": true,
               "worn": false
             },
@@ -51258,7 +50709,10 @@ const data = [
                 "S2S Lite",
                 "clothesline"
               ],
-              "weight": 1.3,
+              "weight": {
+                "imperial": 1.3,
+                "metric": "37"
+              },
               "consumable": false,
               "worn": false
             },
@@ -51268,7 +50722,10 @@ const data = [
                 "Gerber",
                 "multi-tool"
               ],
-              "weight": 1.41,
+              "weight": {
+                "imperial": 1.41,
+                "metric": "40"
+              },
               "consumable": false,
               "worn": false
             },
@@ -51277,7 +50734,10 @@ const data = [
               "name": [
                 "laundry clips"
               ],
-              "weight": 1.32,
+              "weight": {
+                "imperial": 1.32,
+                "metric": "37"
+              },
               "consumable": false,
               "worn": false
             },
@@ -51287,7 +50747,10 @@ const data = [
                 "Mylar",
                 "emergency"
               ],
-              "weight": 0.5,
+              "weight": {
+                "imperial": 0.5,
+                "metric": "14"
+              },
               "consumable": false,
               "worn": false
             },
@@ -51297,7 +50760,10 @@ const data = [
                 "trekking pole",
                 "bag"
               ],
-              "weight": 0.92,
+              "weight": {
+                "imperial": 0.92,
+                "metric": "26"
+              },
               "consumable": false,
               "worn": false
             },
@@ -51307,7 +50773,10 @@ const data = [
                 "TruArc 3",
                 "compass"
               ],
-              "weight": 1.1,
+              "weight": {
+                "imperial": 1.1,
+                "metric": "31"
+              },
               "consumable": false,
               "worn": false
             },
@@ -51317,7 +50786,10 @@ const data = [
                 "S2S Ultra-sil",
                 "stuff sack"
               ],
-              "weight": 1,
+              "weight": {
+                "imperial": 1,
+                "metric": "28"
+              },
               "consumable": false,
               "worn": false
             },
@@ -51327,7 +50799,10 @@ const data = [
                 "S2S Ultra-sil",
                 "stuff sack"
               ],
-              "weight": 1,
+              "weight": {
+                "imperial": 1,
+                "metric": "28"
+              },
               "consumable": false,
               "worn": false
             },
@@ -51337,7 +50812,10 @@ const data = [
                 "S2S Ultra-sil",
                 "stuff sack"
               ],
-              "weight": 1,
+              "weight": {
+                "imperial": 1,
+                "metric": "28"
+              },
               "consumable": false,
               "worn": false
             },
@@ -51347,18 +50825,36 @@ const data = [
                 "S2S Ultra-sil",
                 "stuff sack"
               ],
-              "weight": 1,
+              "weight": {
+                "imperial": 1,
+                "metric": "28"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "4.08"
+          "weight": {
+            "imperial": "4.08",
+            "metric": "1.85"
+          }
         }
       ],
-      "weightBase": "12.27",
-      "weightConsumable": "8.73",
-      "weightTotal": "30.93",
-      "weightWorn": "9.93"
+      "weightBase": {
+        "imperial": "12.27",
+        "metric": "5.56"
+      },
+      "weightConsumable": {
+        "imperial": "8.73",
+        "metric": "3.96"
+      },
+      "weightTotal": {
+        "imperial": "30.93",
+        "metric": "14.03"
+      },
+      "weightWorn": {
+        "imperial": "9.93",
+        "metric": "4.51"
+      }
     },
     "hasGear": true,
     "hasStats": true,
@@ -52379,16 +51875,6 @@ const data = [
             "value": {
               "imperial": "9",
               "metric": "14"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -52396,16 +51882,6 @@ const data = [
             "value": {
               "imperial": "1,679",
               "metric": "512"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -52413,16 +51889,6 @@ const data = [
             "value": {
               "imperial": "1,493",
               "metric": "455"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -52430,16 +51896,6 @@ const data = [
             "value": {
               "imperial": "3,472",
               "metric": "1,058"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -53472,16 +52928,6 @@ const data = [
             "value": {
               "imperial": "12",
               "metric": "19"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -53489,16 +52935,6 @@ const data = [
             "value": {
               "imperial": "3,437",
               "metric": "1,048"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -53506,16 +52942,6 @@ const data = [
             "value": {
               "imperial": "2,079",
               "metric": "634"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -53523,16 +52949,6 @@ const data = [
             "value": {
               "imperial": "4,591",
               "metric": "1,399"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -54565,16 +53981,6 @@ const data = [
             "value": {
               "imperial": "10",
               "metric": "15"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -54582,16 +53988,6 @@ const data = [
             "value": {
               "imperial": "3,825",
               "metric": "1,166"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -54599,16 +53995,6 @@ const data = [
             "value": {
               "imperial": "1,721",
               "metric": "525"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -54616,16 +54002,6 @@ const data = [
             "value": {
               "imperial": "6,196",
               "metric": "1,888"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -55658,16 +55034,6 @@ const data = [
             "value": {
               "imperial": "10",
               "metric": "17"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -55675,16 +55041,6 @@ const data = [
             "value": {
               "imperial": "4,315",
               "metric": "1,315"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -55692,16 +55048,6 @@ const data = [
             "value": {
               "imperial": "1,716",
               "metric": "523"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -55709,16 +55055,6 @@ const data = [
             "value": {
               "imperial": "8,984",
               "metric": "2,738"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -56751,16 +56087,6 @@ const data = [
             "value": {
               "imperial": "9",
               "metric": "14"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -56768,16 +56094,6 @@ const data = [
             "value": {
               "imperial": "2,732",
               "metric": "833"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -56785,16 +56101,6 @@ const data = [
             "value": {
               "imperial": "749",
               "metric": "228"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -56802,16 +56108,6 @@ const data = [
             "value": {
               "imperial": "10,774",
               "metric": "3,284"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -57844,16 +57140,6 @@ const data = [
             "value": {
               "imperial": "13",
               "metric": "21"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -57861,16 +57147,6 @@ const data = [
             "value": {
               "imperial": "2,848",
               "metric": "868"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -57878,16 +57154,6 @@ const data = [
             "value": {
               "imperial": "2,006",
               "metric": "611"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -57895,16 +57161,6 @@ const data = [
             "value": {
               "imperial": "15,169",
               "metric": "4,623"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -58937,16 +58193,6 @@ const data = [
             "value": {
               "imperial": "9",
               "metric": "14"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -58954,16 +58200,6 @@ const data = [
             "value": {
               "imperial": "3,090",
               "metric": "942"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -58971,16 +58207,6 @@ const data = [
             "value": {
               "imperial": "1,126",
               "metric": "343"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -58988,16 +58214,6 @@ const data = [
             "value": {
               "imperial": "13,918",
               "metric": "4,242"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -60030,16 +59246,6 @@ const data = [
             "value": {
               "imperial": "10",
               "metric": "17"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -60047,16 +59253,6 @@ const data = [
             "value": {
               "imperial": "3,619",
               "metric": "1,103"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -60064,16 +59260,6 @@ const data = [
             "value": {
               "imperial": "3,884",
               "metric": "1,184"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -60081,16 +59267,6 @@ const data = [
             "value": {
               "imperial": "16,425",
               "metric": "5,006"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -61123,16 +60299,6 @@ const data = [
             "value": {
               "imperial": "11",
               "metric": "17"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -61140,16 +60306,6 @@ const data = [
             "value": {
               "imperial": "3,169",
               "metric": "966"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -61157,16 +60313,6 @@ const data = [
             "value": {
               "imperial": "1,615",
               "metric": "492"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -61174,16 +60320,6 @@ const data = [
             "value": {
               "imperial": "14,866",
               "metric": "4,531"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -62216,16 +61352,6 @@ const data = [
             "value": {
               "imperial": "9",
               "metric": "14"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -62233,16 +61359,6 @@ const data = [
             "value": {
               "imperial": "2,889",
               "metric": "881"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -62250,16 +61366,6 @@ const data = [
             "value": {
               "imperial": "5,724",
               "metric": "1,745"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -62267,16 +61373,6 @@ const data = [
             "value": {
               "imperial": "17,763",
               "metric": "5,414"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -63309,16 +62405,6 @@ const data = [
             "value": {
               "imperial": "15",
               "metric": "24"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -63326,16 +62412,6 @@ const data = [
             "value": {
               "imperial": "1,292",
               "metric": "394"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -63343,16 +62419,6 @@ const data = [
             "value": {
               "imperial": "4,480",
               "metric": "1,365"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -63360,16 +62426,6 @@ const data = [
             "value": {
               "imperial": "12,536",
               "metric": "3,821"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -64402,16 +63458,6 @@ const data = [
             "value": {
               "imperial": "18",
               "metric": "28"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -64419,16 +63465,6 @@ const data = [
             "value": {
               "imperial": "2,053",
               "metric": "626"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -64436,16 +63472,6 @@ const data = [
             "value": {
               "imperial": "4,262",
               "metric": "1,299"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -64453,16 +63479,6 @@ const data = [
             "value": {
               "imperial": "9,147",
               "metric": "2,788"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -65495,16 +64511,6 @@ const data = [
             "value": {
               "imperial": "20",
               "metric": "32"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -65512,16 +64518,6 @@ const data = [
             "value": {
               "imperial": "6,431",
               "metric": "1,960"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -65529,16 +64525,6 @@ const data = [
             "value": {
               "imperial": "3,596",
               "metric": "1,096"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -65546,16 +64532,6 @@ const data = [
             "value": {
               "imperial": "9,316",
               "metric": "2,839"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -66588,16 +65564,6 @@ const data = [
             "value": {
               "imperial": "11",
               "metric": "17"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -66605,16 +65571,6 @@ const data = [
             "value": {
               "imperial": "3,186",
               "metric": "971"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -66622,16 +65578,6 @@ const data = [
             "value": {
               "imperial": "5,359",
               "metric": "1,633"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -66639,16 +65585,6 @@ const data = [
             "value": {
               "imperial": "10,466",
               "metric": "3,190"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -67681,16 +66617,6 @@ const data = [
             "value": {
               "imperial": "8",
               "metric": "14"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -67698,16 +66624,6 @@ const data = [
             "value": {
               "imperial": "5,001",
               "metric": "1,524"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -67715,16 +66631,6 @@ const data = [
             "value": {
               "imperial": "1,019",
               "metric": "311"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -67732,16 +66638,6 @@ const data = [
             "value": {
               "imperial": "10,409",
               "metric": "3,173"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -68774,16 +67670,6 @@ const data = [
             "value": {
               "imperial": "4",
               "metric": "7"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -68791,16 +67677,6 @@ const data = [
             "value": {
               "imperial": "3,163",
               "metric": "964"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -68808,16 +67684,6 @@ const data = [
             "value": {
               "imperial": "95",
               "metric": "29"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -68825,16 +67691,6 @@ const data = [
             "value": {
               "imperial": "13,475",
               "metric": "4,107"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -69868,16 +68724,6 @@ const data = [
             "value": {
               "imperial": "13",
               "metric": "20"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -69885,16 +68731,6 @@ const data = [
             "value": {
               "imperial": "1,263",
               "metric": "385"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -69902,16 +68738,6 @@ const data = [
             "value": {
               "imperial": "8,110",
               "metric": "2,472"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -69919,16 +68745,6 @@ const data = [
             "value": {
               "imperial": "13,475",
               "metric": "4,107"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -70932,16 +69748,6 @@ const data = [
             "value": {
               "imperial": "2",
               "metric": "3"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -70949,16 +69755,6 @@ const data = [
             "value": {
               "imperial": "275",
               "metric": "84"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -70966,16 +69762,6 @@ const data = [
             "value": {
               "imperial": "2,056",
               "metric": "627"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -70983,16 +69769,6 @@ const data = [
             "value": {
               "imperial": "7,362",
               "metric": "2,244"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -71024,16 +69800,6 @@ const data = [
         "value": {
           "imperial": "17,763",
           "metric": "5,414"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "days": {
@@ -71046,16 +69812,6 @@ const data = [
         "value": {
           "imperial": "193",
           "metric": "311"
-        },
-        "units": {
-          "imperial": {
-            "full": "miles",
-            "abbreviated": "mi"
-          },
-          "metric": {
-            "full": "kilometers",
-            "abbreviated": "km"
-          }
         }
       },
       "gain": {
@@ -71063,16 +69819,6 @@ const data = [
         "value": {
           "imperial": "54,267",
           "metric": "16,540"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "length": {
@@ -71085,16 +69831,6 @@ const data = [
         "value": {
           "imperial": "51,090",
           "metric": "15,571"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       }
     },
@@ -71248,16 +69984,6 @@ const data = [
         "value": {
           "imperial": "-∞",
           "metric": "-∞"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "days": {
@@ -71305,7 +70031,10 @@ const data = [
                 "ESC Ranger",
                 "Pack"
               ],
-              "weight": 19.25,
+              "weight": {
+                "imperial": 19.25,
+                "metric": "546"
+              },
               "consumable": false,
               "worn": false
             },
@@ -71315,12 +70044,18 @@ const data = [
                 "Nylofume Pack",
                 "Liner"
               ],
-              "weight": 1.02,
+              "weight": {
+                "imperial": 1.02,
+                "metric": "29"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "1.27"
+          "weight": {
+            "imperial": "1.27",
+            "metric": "0.57"
+          }
         },
         {
           "title": "Clothing",
@@ -71331,7 +70066,10 @@ const data = [
                 "Vuori Kore",
                 "Shorts"
               ],
-              "weight": 5.33,
+              "weight": {
+                "imperial": 5.33,
+                "metric": "151"
+              },
               "consumable": false,
               "worn": true
             },
@@ -71342,7 +70080,10 @@ const data = [
                 "Research Echo",
                 "sun hoody"
               ],
-              "weight": 4.5,
+              "weight": {
+                "imperial": 4.5,
+                "metric": "128"
+              },
               "consumable": false,
               "worn": true
             },
@@ -71352,7 +70093,10 @@ const data = [
                 "Topo Athletic",
                 "Pursuit Shoes"
               ],
-              "weight": 22,
+              "weight": {
+                "imperial": 22,
+                "metric": "624"
+              },
               "consumable": false,
               "worn": true
             },
@@ -71363,7 +70107,10 @@ const data = [
                 "boxer briefs",
                 "Underwear"
               ],
-              "weight": 3.25,
+              "weight": {
+                "imperial": 3.25,
+                "metric": "92"
+              },
               "consumable": false,
               "worn": true
             },
@@ -71373,7 +70120,10 @@ const data = [
                 "Mueller Knee",
                 "Brace"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": false,
               "worn": true
             },
@@ -71383,7 +70133,10 @@ const data = [
                 "Darn Tough",
                 "Ankle Socks"
               ],
-              "weight": 1.55,
+              "weight": {
+                "imperial": 1.55,
+                "metric": "44"
+              },
               "consumable": false,
               "worn": true
             },
@@ -71393,7 +70146,10 @@ const data = [
                 "Goodr",
                 "Sunglasses"
               ],
-              "weight": 0.78,
+              "weight": {
+                "imperial": 0.78,
+                "metric": "22"
+              },
               "consumable": false,
               "worn": true
             },
@@ -71403,7 +70159,10 @@ const data = [
                 "Arc'teryx",
                 "Trucker Hat"
               ],
-              "weight": 2.15,
+              "weight": {
+                "imperial": 2.15,
+                "metric": "61"
+              },
               "consumable": false,
               "worn": true
             },
@@ -71414,7 +70173,10 @@ const data = [
                 "Hardwear down",
                 "jacket"
               ],
-              "weight": 7.97,
+              "weight": {
+                "imperial": 7.97,
+                "metric": "226"
+              },
               "consumable": false,
               "worn": false
             },
@@ -71426,7 +70188,10 @@ const data = [
                 "Visp Rain",
                 "Jacket"
               ],
-              "weight": 5.22,
+              "weight": {
+                "imperial": 5.22,
+                "metric": "148"
+              },
               "consumable": false,
               "worn": false
             },
@@ -71438,12 +70203,18 @@ const data = [
                 "Alpha Hoodie",
                 "Pullover"
               ],
-              "weight": 4.02,
+              "weight": {
+                "imperial": 4.02,
+                "metric": "114"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "3.74"
+          "weight": {
+            "imperial": "3.74",
+            "metric": "1.69"
+          }
         },
         {
           "title": "Water",
@@ -71455,7 +70226,10 @@ const data = [
                 "Quickdraw",
                 "Filter"
               ],
-              "weight": 2.4,
+              "weight": {
+                "imperial": 2.4,
+                "metric": "68"
+              },
               "consumable": false,
               "worn": false
             },
@@ -71465,7 +70239,10 @@ const data = [
                 "Platypus 1L",
                 "Filter Pouch"
               ],
-              "weight": 1.4,
+              "weight": {
+                "imperial": 1.4,
+                "metric": "40"
+              },
               "consumable": false,
               "worn": false
             },
@@ -71475,12 +70252,18 @@ const data = [
                 "Smartwater",
                 "Water Bottles"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "0.42"
+          "weight": {
+            "imperial": "0.42",
+            "metric": "0.19"
+          }
         },
         {
           "title": "Hygiene",
@@ -71491,7 +70274,10 @@ const data = [
                 "Hand",
                 "Sanitizer"
               ],
-              "weight": 1.62,
+              "weight": {
+                "imperial": 1.62,
+                "metric": "46"
+              },
               "consumable": true,
               "worn": false
             },
@@ -71500,7 +70286,10 @@ const data = [
               "name": [
                 "Toilet paper"
               ],
-              "weight": 1.69,
+              "weight": {
+                "imperial": 1.69,
+                "metric": "48"
+              },
               "consumable": true,
               "worn": false
             },
@@ -71510,7 +70299,10 @@ const data = [
                 "SPF 15",
                 "Chapstick"
               ],
-              "weight": 0.32,
+              "weight": {
+                "imperial": 0.32,
+                "metric": "9"
+              },
               "consumable": true,
               "worn": false
             },
@@ -71522,12 +70314,18 @@ const data = [
                 "stick",
                 "Sunblock"
               ],
-              "weight": 0.95,
+              "weight": {
+                "imperial": 0.95,
+                "metric": "27"
+              },
               "consumable": true,
               "worn": false
             }
           ],
-          "weight": "0.29"
+          "weight": {
+            "imperial": "0.29",
+            "metric": "0.13"
+          }
         },
         {
           "title": "Aid Kit",
@@ -71542,12 +70340,18 @@ const data = [
                 "Med + Repair",
                 "Kit"
               ],
-              "weight": 3.35,
+              "weight": {
+                "imperial": 3.35,
+                "metric": "95"
+              },
               "consumable": true,
               "worn": false
             }
           ],
-          "weight": "0.21"
+          "weight": {
+            "imperial": "0.21",
+            "metric": "0.09"
+          }
         },
         {
           "title": "Electronics",
@@ -71558,7 +70362,10 @@ const data = [
                 "Nitecore NU25",
                 "UL Headlamp"
               ],
-              "weight": 1.59,
+              "weight": {
+                "imperial": 1.59,
+                "metric": "45"
+              },
               "consumable": false,
               "worn": false
             },
@@ -71569,7 +70376,10 @@ const data = [
                 "2 GPS",
                 "Smartwatch"
               ],
-              "weight": 1.8,
+              "weight": {
+                "imperial": 1.8,
+                "metric": "51"
+              },
               "consumable": false,
               "worn": true
             },
@@ -71579,12 +70389,18 @@ const data = [
                 "iPhone 16 Pro",
                 "Phone"
               ],
-              "weight": 7.8,
+              "weight": {
+                "imperial": 7.8,
+                "metric": "221"
+              },
               "consumable": false,
               "worn": true
             }
           ],
-          "weight": "0.70"
+          "weight": {
+            "imperial": "0.70",
+            "metric": "0.32"
+          }
         },
         {
           "title": "Packed Food + Water",
@@ -71595,7 +70411,10 @@ const data = [
                 "2 liters",
                 "Water"
               ],
-              "weight": 74.4,
+              "weight": {
+                "imperial": 74.4,
+                "metric": "2109"
+              },
               "consumable": true,
               "worn": false
             },
@@ -71604,12 +70423,18 @@ const data = [
               "name": [
                 "Snacks"
               ],
-              "weight": 4,
+              "weight": {
+                "imperial": 4,
+                "metric": "113"
+              },
               "consumable": true,
               "worn": false
             }
           ],
-          "weight": "4.90"
+          "weight": {
+            "imperial": "4.90",
+            "metric": "2.22"
+          }
         },
         {
           "title": "Luxury Items",
@@ -71620,12 +70445,18 @@ const data = [
                 "Airpods Pro 2",
                 "Headphones"
               ],
-              "weight": 1.9,
+              "weight": {
+                "imperial": 1.9,
+                "metric": "54"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "0.12"
+          "weight": {
+            "imperial": "0.12",
+            "metric": "0.05"
+          }
         },
         {
           "title": "Miscellaneous",
@@ -71636,7 +70467,10 @@ const data = [
                 "CNOC Cork",
                 "Trekking Pole"
               ],
-              "weight": 9.66,
+              "weight": {
+                "imperial": 9.66,
+                "metric": "274"
+              },
               "consumable": false,
               "worn": true
             },
@@ -71646,7 +70480,10 @@ const data = [
                 "Building +",
                 "unit Keys"
               ],
-              "weight": 1.2,
+              "weight": {
+                "imperial": 1.2,
+                "metric": "34"
+              },
               "consumable": false,
               "worn": false
             },
@@ -71655,18 +70492,36 @@ const data = [
               "name": [
                 "Wallet"
               ],
-              "weight": 2,
+              "weight": {
+                "imperial": 2,
+                "metric": "57"
+              },
               "consumable": true,
               "worn": false
             }
           ],
-          "weight": "0.80"
+          "weight": {
+            "imperial": "0.80",
+            "metric": "0.36"
+          }
         }
       ],
-      "weightBase": "3.06",
-      "weightConsumable": "5.52",
-      "weightTotal": "12.45",
-      "weightWorn": "3.86"
+      "weightBase": {
+        "imperial": "3.06",
+        "metric": "1.39"
+      },
+      "weightConsumable": {
+        "imperial": "5.52",
+        "metric": "2.50"
+      },
+      "weightTotal": {
+        "imperial": "12.45",
+        "metric": "5.64"
+      },
+      "weightWorn": {
+        "imperial": "3.86",
+        "metric": "1.75"
+      }
     },
     "hasGear": true,
     "hasStats": true,
@@ -72687,16 +71542,6 @@ const data = [
             "value": {
               "imperial": "5",
               "metric": "8"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -72704,16 +71549,6 @@ const data = [
             "value": {
               "imperial": "4,411",
               "metric": "1,344"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -72721,16 +71556,6 @@ const data = [
             "value": {
               "imperial": "44",
               "metric": "13"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -72738,16 +71563,6 @@ const data = [
             "value": {
               "imperial": "14,421",
               "metric": "4,395"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -73286,16 +72101,6 @@ const data = [
             "value": {
               "imperial": "3",
               "metric": "5"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -73303,16 +72108,6 @@ const data = [
             "value": {
               "imperial": "3,330",
               "metric": "1,015"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -73320,16 +72115,6 @@ const data = [
             "value": {
               "imperial": "0",
               "metric": "0"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -73337,16 +72122,6 @@ const data = [
             "value": {
               "imperial": "14,230",
               "metric": "4,337"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -74380,16 +73155,6 @@ const data = [
             "value": {
               "imperial": "4",
               "metric": "7"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -74397,16 +73162,6 @@ const data = [
             "value": {
               "imperial": "4,310",
               "metric": "1,314"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -74414,16 +73169,6 @@ const data = [
             "value": {
               "imperial": "148",
               "metric": "45"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -74431,16 +73176,6 @@ const data = [
             "value": {
               "imperial": "14,373",
               "metric": "4,381"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -75474,16 +74209,6 @@ const data = [
             "value": {
               "imperial": "4",
               "metric": "6"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -75491,16 +74216,6 @@ const data = [
             "value": {
               "imperial": "2,553",
               "metric": "778"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -75508,16 +74223,6 @@ const data = [
             "value": {
               "imperial": "136",
               "metric": "41"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -75525,16 +74230,6 @@ const data = [
             "value": {
               "imperial": "14,070",
               "metric": "4,288"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -76568,16 +75263,6 @@ const data = [
             "value": {
               "imperial": "4",
               "metric": "6"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -76585,16 +75270,6 @@ const data = [
             "value": {
               "imperial": "3,012",
               "metric": "918"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -76602,16 +75277,6 @@ const data = [
             "value": {
               "imperial": "0",
               "metric": "0"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -76619,16 +75284,6 @@ const data = [
             "value": {
               "imperial": "14,253",
               "metric": "4,344"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -77662,16 +76317,6 @@ const data = [
             "value": {
               "imperial": "5",
               "metric": "7"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -77679,16 +76324,6 @@ const data = [
             "value": {
               "imperial": "4,405",
               "metric": "1,343"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -77696,16 +76331,6 @@ const data = [
             "value": {
               "imperial": "2",
               "metric": "1"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -77713,16 +76338,6 @@ const data = [
             "value": {
               "imperial": "14,115",
               "metric": "4,302"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -78756,16 +77371,6 @@ const data = [
             "value": {
               "imperial": "6",
               "metric": "9"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -78773,16 +77378,6 @@ const data = [
             "value": {
               "imperial": "3,134",
               "metric": "955"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -78790,16 +77385,6 @@ const data = [
             "value": {
               "imperial": "1,741",
               "metric": "531"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -78807,16 +77392,6 @@ const data = [
             "value": {
               "imperial": "14,282",
               "metric": "4,353"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -79850,16 +78425,6 @@ const data = [
             "value": {
               "imperial": "4",
               "metric": "7"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -79867,16 +78432,6 @@ const data = [
             "value": {
               "imperial": "4,474",
               "metric": "1,364"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -79884,16 +78439,6 @@ const data = [
             "value": {
               "imperial": "0",
               "metric": "0"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -79901,16 +78446,6 @@ const data = [
             "value": {
               "imperial": "14,150",
               "metric": "4,313"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -80944,16 +79479,6 @@ const data = [
             "value": {
               "imperial": "7",
               "metric": "11"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -80961,16 +79486,6 @@ const data = [
             "value": {
               "imperial": "4,419",
               "metric": "1,347"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -80978,16 +79493,6 @@ const data = [
             "value": {
               "imperial": "123",
               "metric": "37"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -80995,16 +79500,6 @@ const data = [
             "value": {
               "imperial": "14,367",
               "metric": "4,379"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -81037,16 +79532,6 @@ const data = [
         "value": {
           "imperial": "14,421",
           "metric": "4,395"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "days": {
@@ -81058,16 +79543,6 @@ const data = [
         "value": {
           "imperial": "42",
           "metric": "68"
-        },
-        "units": {
-          "imperial": {
-            "full": "miles",
-            "abbreviated": "mi"
-          },
-          "metric": {
-            "full": "kilometers",
-            "abbreviated": "km"
-          }
         }
       },
       "gain": {
@@ -81075,16 +79550,6 @@ const data = [
         "value": {
           "imperial": "34,048",
           "metric": "10,377"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "length": {
@@ -81097,16 +79562,6 @@ const data = [
         "value": {
           "imperial": "2,194",
           "metric": "669"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       }
     },
@@ -81143,12 +79598,18 @@ const data = [
                 "Kestrel 38",
                 "pack"
               ],
-              "weight": 65.12,
+              "weight": {
+                "imperial": 65.12,
+                "metric": "1846"
+              },
               "consumable": false,
               "worn": true
             }
           ],
-          "weight": "4.07"
+          "weight": {
+            "imperial": "4.07",
+            "metric": "1.85"
+          }
         },
         {
           "title": "Sleeping",
@@ -81160,7 +79621,10 @@ const data = [
                 "Ultralight",
                 "pillow"
               ],
-              "weight": 3.35,
+              "weight": {
+                "imperial": 3.35,
+                "metric": "95"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81171,12 +79635,18 @@ const data = [
                 "Sleeping Bag",
                 "liner"
               ],
-              "weight": 12.8,
+              "weight": {
+                "imperial": 12.8,
+                "metric": "363"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "1.01"
+          "weight": {
+            "imperial": "1.01",
+            "metric": "0.46"
+          }
         },
         {
           "title": "Clothing",
@@ -81188,7 +79658,10 @@ const data = [
                 "Mountain",
                 "Biking shorts"
               ],
-              "weight": 9,
+              "weight": {
+                "imperial": 9,
+                "metric": "255"
+              },
               "consumable": false,
               "worn": true
             },
@@ -81198,7 +79671,10 @@ const data = [
                 "Salomon XA",
                 "Pro 3D shoes"
               ],
-              "weight": 22,
+              "weight": {
+                "imperial": 22,
+                "metric": "624"
+              },
               "consumable": false,
               "worn": true
             },
@@ -81209,7 +79685,10 @@ const data = [
                 "boxer briefs",
                 "underwear"
               ],
-              "weight": 3.25,
+              "weight": {
+                "imperial": 3.25,
+                "metric": "92"
+              },
               "consumable": false,
               "worn": true
             },
@@ -81220,7 +79699,10 @@ const data = [
                 "Double-Layer",
                 "socks"
               ],
-              "weight": 2.5,
+              "weight": {
+                "imperial": 2.5,
+                "metric": "71"
+              },
               "consumable": false,
               "worn": true
             },
@@ -81230,7 +79712,10 @@ const data = [
                 "Aviator",
                 "sunglasses"
               ],
-              "weight": 0.78,
+              "weight": {
+                "imperial": 0.78,
+                "metric": "22"
+              },
               "consumable": false,
               "worn": true
             },
@@ -81240,7 +79725,10 @@ const data = [
                 "Trucker Cap",
                 "hat"
               ],
-              "weight": 2.15,
+              "weight": {
+                "imperial": 2.15,
+                "metric": "61"
+              },
               "consumable": false,
               "worn": true
             },
@@ -81251,7 +79739,10 @@ const data = [
                 "Sahara",
                 "t-shirt"
               ],
-              "weight": 7,
+              "weight": {
+                "imperial": 7,
+                "metric": "198"
+              },
               "consumable": false,
               "worn": true
             },
@@ -81262,7 +79753,10 @@ const data = [
                 "Zion Straight",
                 "pants"
               ],
-              "weight": 13,
+              "weight": {
+                "imperial": 13,
+                "metric": "369"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81272,7 +79766,10 @@ const data = [
                 "Patagonia 3L",
                 "rain jacket"
               ],
-              "weight": 14.1,
+              "weight": {
+                "imperial": 14.1,
+                "metric": "400"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81283,7 +79780,10 @@ const data = [
                 "Face Momentum",
                 "Jacket fleece"
               ],
-              "weight": 14,
+              "weight": {
+                "imperial": 14,
+                "metric": "397"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81294,7 +79794,10 @@ const data = [
                 "Sahara",
                 "t-shirt"
               ],
-              "weight": 7,
+              "weight": {
+                "imperial": 7,
+                "metric": "198"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81305,7 +79808,10 @@ const data = [
                 "Capilene",
                 "shirt"
               ],
-              "weight": 3.3,
+              "weight": {
+                "imperial": 3.3,
+                "metric": "94"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81316,7 +79822,10 @@ const data = [
                 "boxer briefs",
                 "underwear"
               ],
-              "weight": 3.25,
+              "weight": {
+                "imperial": 3.25,
+                "metric": "92"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81327,7 +79836,10 @@ const data = [
                 "boxer briefs",
                 "underwear"
               ],
-              "weight": 3.25,
+              "weight": {
+                "imperial": 3.25,
+                "metric": "92"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81338,7 +79850,10 @@ const data = [
                 "Double-Layer",
                 "socks"
               ],
-              "weight": 2.5,
+              "weight": {
+                "imperial": 2.5,
+                "metric": "71"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81349,7 +79864,10 @@ const data = [
                 "Double-Layer",
                 "socks"
               ],
-              "weight": 2.5,
+              "weight": {
+                "imperial": 2.5,
+                "metric": "71"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81359,7 +79877,10 @@ const data = [
                 "Coleman",
                 "sandals"
               ],
-              "weight": 14.5,
+              "weight": {
+                "imperial": 14.5,
+                "metric": "411"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81369,7 +79890,10 @@ const data = [
                 "shower flip",
                 "flops"
               ],
-              "weight": 5.2,
+              "weight": {
+                "imperial": 5.2,
+                "metric": "147"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81380,7 +79904,10 @@ const data = [
                 "Weather",
                 "gloves"
               ],
-              "weight": 5,
+              "weight": {
+                "imperial": 5,
+                "metric": "142"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81390,7 +79917,10 @@ const data = [
                 "REI Co-op",
                 "Fleece pants"
               ],
-              "weight": 10,
+              "weight": {
+                "imperial": 10,
+                "metric": "284"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81400,12 +79930,18 @@ const data = [
                 "REI Co-op",
                 "vest"
               ],
-              "weight": 5,
+              "weight": {
+                "imperial": 5,
+                "metric": "142"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "9.33"
+          "weight": {
+            "imperial": "9.33",
+            "metric": "4.23"
+          }
         },
         {
           "title": "Water",
@@ -81416,7 +79952,10 @@ const data = [
                 "CamelBak",
                 "water bottle"
               ],
-              "weight": 5.47,
+              "weight": {
+                "imperial": 5.47,
+                "metric": "155"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81426,7 +79965,10 @@ const data = [
                 "CamelBak 2L",
                 "water bladder"
               ],
-              "weight": 7,
+              "weight": {
+                "imperial": 7,
+                "metric": "198"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81437,12 +79979,18 @@ const data = [
                 "Squeeze water",
                 "filter"
               ],
-              "weight": 3.7,
+              "weight": {
+                "imperial": 3.7,
+                "metric": "105"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "1.01"
+          "weight": {
+            "imperial": "1.01",
+            "metric": "0.46"
+          }
         },
         {
           "title": "Hygiene",
@@ -81453,7 +80001,10 @@ const data = [
                 "travel",
                 "toothbrush"
               ],
-              "weight": 0.74,
+              "weight": {
+                "imperial": 0.74,
+                "metric": "21"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81462,7 +80013,10 @@ const data = [
               "name": [
                 "toothpaste"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": true,
               "worn": false
             },
@@ -81471,7 +80025,10 @@ const data = [
               "name": [
                 "deodorant"
               ],
-              "weight": 2.7,
+              "weight": {
+                "imperial": 2.7,
+                "metric": "77"
+              },
               "consumable": true,
               "worn": false
             },
@@ -81480,7 +80037,10 @@ const data = [
               "name": [
                 "soap case"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81489,7 +80049,10 @@ const data = [
               "name": [
                 "soap bar"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": true,
               "worn": false
             },
@@ -81500,7 +80063,10 @@ const data = [
                 "Multi Lite",
                 "towel"
               ],
-              "weight": 6,
+              "weight": {
+                "imperial": 6,
+                "metric": "170"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81510,12 +80076,18 @@ const data = [
                 "SPF 15",
                 "chapstick"
               ],
-              "weight": 0.32,
+              "weight": {
+                "imperial": 0.32,
+                "metric": "9"
+              },
               "consumable": true,
               "worn": false
             }
           ],
-          "weight": "1.17"
+          "weight": {
+            "imperial": "1.17",
+            "metric": "0.53"
+          }
         },
         {
           "title": "Aid Kit",
@@ -81525,7 +80097,10 @@ const data = [
               "name": [
                 "compeed"
               ],
-              "weight": 1.45,
+              "weight": {
+                "imperial": 1.45,
+                "metric": "41"
+              },
               "consumable": true,
               "worn": false
             },
@@ -81534,7 +80109,10 @@ const data = [
               "name": [
                 "bandages"
               ],
-              "weight": 2.4,
+              "weight": {
+                "imperial": 2.4,
+                "metric": "68"
+              },
               "consumable": true,
               "worn": false
             },
@@ -81543,7 +80121,10 @@ const data = [
               "name": [
                 "toilet paper"
               ],
-              "weight": 3.37,
+              "weight": {
+                "imperial": 3.37,
+                "metric": "96"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81553,7 +80134,10 @@ const data = [
                 "Allergy",
                 "pseudoephedrine"
               ],
-              "weight": 1.1,
+              "weight": {
+                "imperial": 1.1,
+                "metric": "31"
+              },
               "consumable": true,
               "worn": false
             },
@@ -81564,12 +80148,18 @@ const data = [
                 "purification",
                 "iodine"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "0.71"
+          "weight": {
+            "imperial": "0.71",
+            "metric": "0.32"
+          }
         },
         {
           "title": "Electronics",
@@ -81580,7 +80170,10 @@ const data = [
                 "Petzl Actik",
                 "headlamp"
               ],
-              "weight": 3.17,
+              "weight": {
+                "imperial": 3.17,
+                "metric": "90"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81589,7 +80182,10 @@ const data = [
               "name": [
                 "AAA batteries"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81601,7 +80197,10 @@ const data = [
                 "13000mah",
                 "powerbank"
               ],
-              "weight": 9,
+              "weight": {
+                "imperial": 9,
+                "metric": "255"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81612,7 +80211,10 @@ const data = [
                 "Brick 5W",
                 "charger"
               ],
-              "weight": 1.44,
+              "weight": {
+                "imperial": 1.44,
+                "metric": "41"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81621,7 +80223,10 @@ const data = [
               "name": [
                 "iPhone X"
               ],
-              "weight": 6.8,
+              "weight": {
+                "imperial": 6.8,
+                "metric": "193"
+              },
               "consumable": false,
               "worn": true
             },
@@ -81631,7 +80236,10 @@ const data = [
                 "All-in-One",
                 "adapter"
               ],
-              "weight": 3.2,
+              "weight": {
+                "imperial": 3.2,
+                "metric": "91"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81641,7 +80249,10 @@ const data = [
                 "iPhone USB",
                 "cable"
               ],
-              "weight": 1,
+              "weight": {
+                "imperial": 1,
+                "metric": "28"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81650,7 +80261,10 @@ const data = [
               "name": [
                 "Anker cable"
               ],
-              "weight": 1,
+              "weight": {
+                "imperial": 1,
+                "metric": "28"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81660,12 +80274,18 @@ const data = [
                 "Apple wired",
                 "headphones"
               ],
-              "weight": 0.46,
+              "weight": {
+                "imperial": 0.46,
+                "metric": "13"
+              },
               "consumable": false,
               "worn": true
             }
           ],
-          "weight": "1.82"
+          "weight": {
+            "imperial": "1.82",
+            "metric": "0.82"
+          }
         },
         {
           "title": "Packed Food + Water",
@@ -81675,7 +80295,10 @@ const data = [
               "name": [
                 "snacks"
               ],
-              "weight": 8,
+              "weight": {
+                "imperial": 8,
+                "metric": "227"
+              },
               "consumable": true,
               "worn": false
             },
@@ -81685,12 +80308,18 @@ const data = [
                 "3 liters",
                 "water"
               ],
-              "weight": 111.6,
+              "weight": {
+                "imperial": 111.6,
+                "metric": "3164"
+              },
               "consumable": true,
               "worn": false
             }
           ],
-          "weight": "7.47"
+          "weight": {
+            "imperial": "7.47",
+            "metric": "3.39"
+          }
         },
         {
           "title": "Miscellaneous",
@@ -81702,7 +80331,10 @@ const data = [
                 "Stabilizer",
                 "knee brace"
               ],
-              "weight": 10.56,
+              "weight": {
+                "imperial": 10.56,
+                "metric": "299"
+              },
               "consumable": false,
               "worn": true
             },
@@ -81712,7 +80344,10 @@ const data = [
                 "Scrubba Wash",
                 "laundry bag"
               ],
-              "weight": 5.3,
+              "weight": {
+                "imperial": 5.3,
+                "metric": "150"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81721,7 +80356,10 @@ const data = [
               "name": [
                 "whistle"
               ],
-              "weight": 0.42,
+              "weight": {
+                "imperial": 0.42,
+                "metric": "12"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81731,7 +80369,10 @@ const data = [
                 "drawstring",
                 "bag"
               ],
-              "weight": 6,
+              "weight": {
+                "imperial": 6,
+                "metric": "170"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81742,7 +80383,10 @@ const data = [
                 "Travel money",
                 "belt"
               ],
-              "weight": 1,
+              "weight": {
+                "imperial": 1,
+                "metric": "28"
+              },
               "consumable": false,
               "worn": true
             },
@@ -81753,7 +80397,10 @@ const data = [
                 "trekking",
                 "poles"
               ],
-              "weight": 19.1,
+              "weight": {
+                "imperial": 19.1,
+                "metric": "541"
+              },
               "consumable": false,
               "worn": true
             },
@@ -81763,7 +80410,10 @@ const data = [
                 "AnMeng",
                 "earplugs"
               ],
-              "weight": 0.81,
+              "weight": {
+                "imperial": 0.81,
+                "metric": "23"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81773,7 +80423,10 @@ const data = [
                 "reading",
                 "glasses"
               ],
-              "weight": 2.47,
+              "weight": {
+                "imperial": 2.47,
+                "metric": "70"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81782,7 +80435,10 @@ const data = [
               "name": [
                 "wallet"
               ],
-              "weight": 2,
+              "weight": {
+                "imperial": 2,
+                "metric": "57"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81791,7 +80447,10 @@ const data = [
               "name": [
                 "passport"
               ],
-              "weight": 1.5,
+              "weight": {
+                "imperial": 1.5,
+                "metric": "43"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81801,7 +80460,10 @@ const data = [
                 "Building +",
                 "unit keys"
               ],
-              "weight": 1.2,
+              "weight": {
+                "imperial": 1.2,
+                "metric": "34"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81811,7 +80473,10 @@ const data = [
                 "NeatPack",
                 "toiletry bag"
               ],
-              "weight": 3.2,
+              "weight": {
+                "imperial": 3.2,
+                "metric": "91"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81822,7 +80487,10 @@ const data = [
                 "Wash",
                 "detergent"
               ],
-              "weight": 3.14,
+              "weight": {
+                "imperial": 3.14,
+                "metric": "89"
+              },
               "consumable": true,
               "worn": false
             },
@@ -81832,7 +80500,10 @@ const data = [
                 "S2S Lite",
                 "clothesline"
               ],
-              "weight": 1.3,
+              "weight": {
+                "imperial": 1.3,
+                "metric": "37"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81842,7 +80513,10 @@ const data = [
                 "Gerber",
                 "multi-tool"
               ],
-              "weight": 1.41,
+              "weight": {
+                "imperial": 1.41,
+                "metric": "40"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81851,7 +80525,10 @@ const data = [
               "name": [
                 "laundry clips"
               ],
-              "weight": 1.32,
+              "weight": {
+                "imperial": 1.32,
+                "metric": "37"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81862,7 +80539,10 @@ const data = [
                 "emergency",
                 "blanket"
               ],
-              "weight": 0.5,
+              "weight": {
+                "imperial": 0.5,
+                "metric": "14"
+              },
               "consumable": false,
               "worn": false
             },
@@ -81872,18 +80552,36 @@ const data = [
                 "trekking pole",
                 "bag"
               ],
-              "weight": 0.92,
+              "weight": {
+                "imperial": 0.92,
+                "metric": "26"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "3.88"
+          "weight": {
+            "imperial": "3.88",
+            "metric": "1.76"
+          }
         }
       ],
-      "weightBase": "12.57",
-      "weightConsumable": "8.54",
-      "weightTotal": "30.48",
-      "weightWorn": "9.36"
+      "weightBase": {
+        "imperial": "12.57",
+        "metric": "5.70"
+      },
+      "weightConsumable": {
+        "imperial": "8.54",
+        "metric": "3.88"
+      },
+      "weightTotal": {
+        "imperial": "30.48",
+        "metric": "13.82"
+      },
+      "weightWorn": {
+        "imperial": "9.36",
+        "metric": "4.24"
+      }
     },
     "hasGear": true,
     "hasStats": true,
@@ -82904,16 +81602,6 @@ const data = [
             "value": {
               "imperial": "5",
               "metric": "9"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -82921,16 +81609,6 @@ const data = [
             "value": {
               "imperial": "4,304",
               "metric": "1,312"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -82938,16 +81616,6 @@ const data = [
             "value": {
               "imperial": "1,564",
               "metric": "477"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -82955,16 +81623,6 @@ const data = [
             "value": {
               "imperial": "9,129",
               "metric": "2,782"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -83997,16 +82655,6 @@ const data = [
             "value": {
               "imperial": "8",
               "metric": "13"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -84014,16 +82662,6 @@ const data = [
             "value": {
               "imperial": "2,022",
               "metric": "616"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -84031,16 +82669,6 @@ const data = [
             "value": {
               "imperial": "2,951",
               "metric": "899"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -84048,16 +82676,6 @@ const data = [
             "value": {
               "imperial": "7,628",
               "metric": "2,325"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -85090,16 +83708,6 @@ const data = [
             "value": {
               "imperial": "6",
               "metric": "10"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -85107,16 +83715,6 @@ const data = [
             "value": {
               "imperial": "1,856",
               "metric": "566"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -85124,16 +83722,6 @@ const data = [
             "value": {
               "imperial": "2,014",
               "metric": "614"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -85141,16 +83729,6 @@ const data = [
             "value": {
               "imperial": "8,170",
               "metric": "2,490"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -86183,16 +84761,6 @@ const data = [
             "value": {
               "imperial": "10",
               "metric": "16"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -86200,16 +84768,6 @@ const data = [
             "value": {
               "imperial": "4,694",
               "metric": "1,431"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -86217,16 +84775,6 @@ const data = [
             "value": {
               "imperial": "3,336",
               "metric": "1,017"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -86234,16 +84782,6 @@ const data = [
             "value": {
               "imperial": "8,417",
               "metric": "2,565"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -87276,16 +85814,6 @@ const data = [
             "value": {
               "imperial": "0",
               "metric": "0"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -87293,16 +85821,6 @@ const data = [
             "value": {
               "imperial": "1,599",
               "metric": "487"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -87310,16 +85828,6 @@ const data = [
             "value": {
               "imperial": "3,205",
               "metric": "977"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -87327,16 +85835,6 @@ const data = [
             "value": {
               "imperial": "7,861",
               "metric": "2,396"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -88369,16 +86867,6 @@ const data = [
             "value": {
               "imperial": "8",
               "metric": "13"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -88386,16 +86874,6 @@ const data = [
             "value": {
               "imperial": "3,124",
               "metric": "952"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -88403,16 +86881,6 @@ const data = [
             "value": {
               "imperial": "2,031",
               "metric": "619"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -88420,16 +86888,6 @@ const data = [
             "value": {
               "imperial": "7,364",
               "metric": "2,244"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -89462,16 +87920,6 @@ const data = [
             "value": {
               "imperial": "9",
               "metric": "15"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -89479,16 +87927,6 @@ const data = [
             "value": {
               "imperial": "2,532",
               "metric": "772"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -89496,16 +87934,6 @@ const data = [
             "value": {
               "imperial": "3,969",
               "metric": "1,210"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -89513,16 +87941,6 @@ const data = [
             "value": {
               "imperial": "7,375",
               "metric": "2,248"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -90555,16 +88973,6 @@ const data = [
             "value": {
               "imperial": "8",
               "metric": "13"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -90572,16 +88980,6 @@ const data = [
             "value": {
               "imperial": "2,020",
               "metric": "616"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -90589,16 +88987,6 @@ const data = [
             "value": {
               "imperial": "1,955",
               "metric": "596"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -90606,16 +88994,6 @@ const data = [
             "value": {
               "imperial": "6,513",
               "metric": "1,985"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -91648,16 +90026,6 @@ const data = [
             "value": {
               "imperial": "4",
               "metric": "6"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -91665,16 +90033,6 @@ const data = [
             "value": {
               "imperial": "1,768",
               "metric": "539"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -91682,16 +90040,6 @@ const data = [
             "value": {
               "imperial": "2,470",
               "metric": "753"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -91699,16 +90047,6 @@ const data = [
             "value": {
               "imperial": "7,868",
               "metric": "2,398"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -92742,16 +91080,6 @@ const data = [
             "value": {
               "imperial": "7",
               "metric": "11"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -92759,16 +91087,6 @@ const data = [
             "value": {
               "imperial": "1,190",
               "metric": "363"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -92776,16 +91094,6 @@ const data = [
             "value": {
               "imperial": "5,095",
               "metric": "1,553"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -92793,16 +91101,6 @@ const data = [
             "value": {
               "imperial": "5,704",
               "metric": "1,738"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -92835,16 +91133,6 @@ const data = [
         "value": {
           "imperial": "9,129",
           "metric": "2,782"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "days": {
@@ -92857,16 +91145,6 @@ const data = [
         "value": {
           "imperial": "65",
           "metric": "105"
-        },
-        "units": {
-          "imperial": {
-            "full": "miles",
-            "abbreviated": "mi"
-          },
-          "metric": {
-            "full": "kilometers",
-            "abbreviated": "km"
-          }
         }
       },
       "gain": {
@@ -92874,16 +91152,6 @@ const data = [
         "value": {
           "imperial": "25,109",
           "metric": "7,653"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "length": {
@@ -92896,16 +91164,6 @@ const data = [
         "value": {
           "imperial": "28,590",
           "metric": "8,714"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       }
     },
@@ -92935,7 +91193,7 @@ const data = [
       ]
     },
     "description": [
-      "Encircling the Mont Blanc mountain in the Alps, the tour of this peak is a classic long-distance hike covering a distance of 106 miles while passing through France, Italy, and Switzerland. It's a challenging experience filled with diverse landscapes, unique cultural blends, and stunning alpine scenery, all while sleeping in mountain huts and eating home-cooked meals each night."
+      "Encircling the Mont Blanc mountain in the Alps, the tour of this peak is a classic long-distance hike covering a distance of 106 miles (170 kilometers) while passing through France, Italy, and Switzerland. It's a challenging experience filled with diverse landscapes, unique cultural blends, and stunning alpine scenery, all while sleeping in mountain huts and eating home-cooked meals each night."
     ],
     "gear": {
       "categories": [
@@ -92949,12 +91207,18 @@ const data = [
                 "Kestrel 38",
                 "pack"
               ],
-              "weight": 65.12,
+              "weight": {
+                "imperial": 65.12,
+                "metric": "1846"
+              },
               "consumable": false,
               "worn": true
             }
           ],
-          "weight": "4.07"
+          "weight": {
+            "imperial": "4.07",
+            "metric": "1.85"
+          }
         },
         {
           "title": "Sleeping",
@@ -92966,7 +91230,10 @@ const data = [
                 "Ultralight",
                 "pillow"
               ],
-              "weight": 3.35,
+              "weight": {
+                "imperial": 3.35,
+                "metric": "95"
+              },
               "consumable": false,
               "worn": false
             },
@@ -92977,12 +91244,18 @@ const data = [
                 "Sleeping Bag",
                 "liner"
               ],
-              "weight": 12.8,
+              "weight": {
+                "imperial": 12.8,
+                "metric": "363"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "1.01"
+          "weight": {
+            "imperial": "1.01",
+            "metric": "0.46"
+          }
         },
         {
           "title": "Clothing",
@@ -92994,7 +91267,10 @@ const data = [
                 "Mountain",
                 "Biking shorts"
               ],
-              "weight": 9,
+              "weight": {
+                "imperial": 9,
+                "metric": "255"
+              },
               "consumable": false,
               "worn": true
             },
@@ -93004,7 +91280,10 @@ const data = [
                 "Salomon XA",
                 "Pro 3D shoes"
               ],
-              "weight": 22,
+              "weight": {
+                "imperial": 22,
+                "metric": "624"
+              },
               "consumable": false,
               "worn": true
             },
@@ -93015,7 +91294,10 @@ const data = [
                 "boxer briefs",
                 "underwear"
               ],
-              "weight": 3.25,
+              "weight": {
+                "imperial": 3.25,
+                "metric": "92"
+              },
               "consumable": false,
               "worn": true
             },
@@ -93026,7 +91308,10 @@ const data = [
                 "Double-Layer",
                 "socks"
               ],
-              "weight": 2.5,
+              "weight": {
+                "imperial": 2.5,
+                "metric": "71"
+              },
               "consumable": false,
               "worn": true
             },
@@ -93036,7 +91321,10 @@ const data = [
                 "Aviator",
                 "sunglasses"
               ],
-              "weight": 0.78,
+              "weight": {
+                "imperial": 0.78,
+                "metric": "22"
+              },
               "consumable": false,
               "worn": true
             },
@@ -93046,7 +91334,10 @@ const data = [
                 "Trucker Cap",
                 "hat"
               ],
-              "weight": 2.15,
+              "weight": {
+                "imperial": 2.15,
+                "metric": "61"
+              },
               "consumable": false,
               "worn": true
             },
@@ -93057,7 +91348,10 @@ const data = [
                 "Sahara",
                 "t-shirt"
               ],
-              "weight": 7,
+              "weight": {
+                "imperial": 7,
+                "metric": "198"
+              },
               "consumable": false,
               "worn": true
             },
@@ -93067,7 +91361,10 @@ const data = [
                 "Prana Stretch",
                 "Zion pants"
               ],
-              "weight": 18.4,
+              "weight": {
+                "imperial": 18.4,
+                "metric": "522"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93077,7 +91374,10 @@ const data = [
                 "Patagonia 3L",
                 "rain jacket"
               ],
-              "weight": 14.1,
+              "weight": {
+                "imperial": 14.1,
+                "metric": "400"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93088,7 +91388,10 @@ const data = [
                 "Face Momentum",
                 "fleece"
               ],
-              "weight": 14,
+              "weight": {
+                "imperial": 14,
+                "metric": "397"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93099,7 +91402,10 @@ const data = [
                 "Sahara",
                 "t-shirt"
               ],
-              "weight": 7,
+              "weight": {
+                "imperial": 7,
+                "metric": "198"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93110,7 +91416,10 @@ const data = [
                 "Long sleeve",
                 "shirt"
               ],
-              "weight": 6.46,
+              "weight": {
+                "imperial": 6.46,
+                "metric": "183"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93121,7 +91430,10 @@ const data = [
                 "boxer briefs",
                 "underwear"
               ],
-              "weight": 3.25,
+              "weight": {
+                "imperial": 3.25,
+                "metric": "92"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93132,7 +91444,10 @@ const data = [
                 "boxer briefs",
                 "underwear"
               ],
-              "weight": 3.25,
+              "weight": {
+                "imperial": 3.25,
+                "metric": "92"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93143,7 +91458,10 @@ const data = [
                 "Double-Layer",
                 "socks"
               ],
-              "weight": 2.5,
+              "weight": {
+                "imperial": 2.5,
+                "metric": "71"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93154,7 +91472,10 @@ const data = [
                 "Double-Layer",
                 "socks"
               ],
-              "weight": 2.5,
+              "weight": {
+                "imperial": 2.5,
+                "metric": "71"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93164,7 +91485,10 @@ const data = [
                 "Coleman",
                 "sandals"
               ],
-              "weight": 14.5,
+              "weight": {
+                "imperial": 14.5,
+                "metric": "411"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93174,7 +91498,10 @@ const data = [
                 "Shower Flip",
                 "Flops"
               ],
-              "weight": 5.2,
+              "weight": {
+                "imperial": 5.2,
+                "metric": "147"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93185,7 +91512,10 @@ const data = [
                 "Weather",
                 "gloves"
               ],
-              "weight": 5,
+              "weight": {
+                "imperial": 5,
+                "metric": "142"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93195,12 +91525,18 @@ const data = [
                 "REI Co-op",
                 "Fleece pants"
               ],
-              "weight": 10,
+              "weight": {
+                "imperial": 10,
+                "metric": "284"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "9.55"
+          "weight": {
+            "imperial": "9.55",
+            "metric": "4.33"
+          }
         },
         {
           "title": "Water",
@@ -93211,7 +91547,10 @@ const data = [
                 "CamelBak",
                 "water bottle"
               ],
-              "weight": 5.47,
+              "weight": {
+                "imperial": 5.47,
+                "metric": "155"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93221,12 +91560,18 @@ const data = [
                 "CamelBak 2L",
                 "water bladder"
               ],
-              "weight": 7,
+              "weight": {
+                "imperial": 7,
+                "metric": "198"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "0.78"
+          "weight": {
+            "imperial": "0.78",
+            "metric": "0.35"
+          }
         },
         {
           "title": "Hygiene",
@@ -93237,7 +91582,10 @@ const data = [
                 "Foldable",
                 "toothbrush"
               ],
-              "weight": 0.74,
+              "weight": {
+                "imperial": 0.74,
+                "metric": "21"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93246,7 +91594,10 @@ const data = [
               "name": [
                 "toothpaste"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": true,
               "worn": false
             },
@@ -93255,7 +91606,10 @@ const data = [
               "name": [
                 "deodorant"
               ],
-              "weight": 2.7,
+              "weight": {
+                "imperial": 2.7,
+                "metric": "77"
+              },
               "consumable": true,
               "worn": false
             },
@@ -93264,7 +91618,10 @@ const data = [
               "name": [
                 "soap case"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93273,7 +91630,10 @@ const data = [
               "name": [
                 "soap bar"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": true,
               "worn": false
             },
@@ -93284,7 +91644,10 @@ const data = [
                 "Multi Lite",
                 "towel"
               ],
-              "weight": 6,
+              "weight": {
+                "imperial": 6,
+                "metric": "170"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93294,12 +91657,18 @@ const data = [
                 "SPF 15",
                 "chapstick"
               ],
-              "weight": 0.32,
+              "weight": {
+                "imperial": 0.32,
+                "metric": "9"
+              },
               "consumable": true,
               "worn": false
             }
           ],
-          "weight": "1.17"
+          "weight": {
+            "imperial": "1.17",
+            "metric": "0.53"
+          }
         },
         {
           "title": "Aid Kit",
@@ -93309,7 +91678,10 @@ const data = [
               "name": [
                 "compeed"
               ],
-              "weight": 1.45,
+              "weight": {
+                "imperial": 1.45,
+                "metric": "41"
+              },
               "consumable": true,
               "worn": false
             },
@@ -93318,7 +91690,10 @@ const data = [
               "name": [
                 "bandages"
               ],
-              "weight": 2.4,
+              "weight": {
+                "imperial": 2.4,
+                "metric": "68"
+              },
               "consumable": true,
               "worn": false
             },
@@ -93327,7 +91702,10 @@ const data = [
               "name": [
                 "toilet paper"
               ],
-              "weight": 3.37,
+              "weight": {
+                "imperial": 3.37,
+                "metric": "96"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93337,7 +91715,10 @@ const data = [
                 "Allergy",
                 "pseudoephedrine"
               ],
-              "weight": 1.1,
+              "weight": {
+                "imperial": 1.1,
+                "metric": "31"
+              },
               "consumable": true,
               "worn": false
             },
@@ -93348,12 +91729,18 @@ const data = [
                 "purification",
                 "iodine"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "0.71"
+          "weight": {
+            "imperial": "0.71",
+            "metric": "0.32"
+          }
         },
         {
           "title": "Electronics",
@@ -93364,7 +91751,10 @@ const data = [
                 "Petzl Actik",
                 "headlamp"
               ],
-              "weight": 3.17,
+              "weight": {
+                "imperial": 3.17,
+                "metric": "90"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93373,7 +91763,10 @@ const data = [
               "name": [
                 "AAA batteries"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93384,7 +91777,10 @@ const data = [
                 "Ultra-compact",
                 "powerbank"
               ],
-              "weight": 5.36,
+              "weight": {
+                "imperial": 5.36,
+                "metric": "152"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93395,7 +91791,10 @@ const data = [
                 "Brick 5W",
                 "charger"
               ],
-              "weight": 1.44,
+              "weight": {
+                "imperial": 1.44,
+                "metric": "41"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93404,7 +91803,10 @@ const data = [
               "name": [
                 "iPhone X"
               ],
-              "weight": 6.8,
+              "weight": {
+                "imperial": 6.8,
+                "metric": "193"
+              },
               "consumable": false,
               "worn": true
             },
@@ -93414,7 +91816,10 @@ const data = [
                 "All-in-One",
                 "adapter"
               ],
-              "weight": 3.2,
+              "weight": {
+                "imperial": 3.2,
+                "metric": "91"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93424,7 +91829,10 @@ const data = [
                 "iPhone USB",
                 "cable"
               ],
-              "weight": 1,
+              "weight": {
+                "imperial": 1,
+                "metric": "28"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93434,7 +91842,10 @@ const data = [
                 "Poweradd",
                 "cable"
               ],
-              "weight": 1,
+              "weight": {
+                "imperial": 1,
+                "metric": "28"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93444,12 +91855,18 @@ const data = [
                 "Apple wired",
                 "headphones"
               ],
-              "weight": 0.46,
+              "weight": {
+                "imperial": 0.46,
+                "metric": "13"
+              },
               "consumable": false,
               "worn": true
             }
           ],
-          "weight": "1.59"
+          "weight": {
+            "imperial": "1.59",
+            "metric": "0.72"
+          }
         },
         {
           "title": "Packed Food + Water",
@@ -93459,7 +91876,10 @@ const data = [
               "name": [
                 "snacks"
               ],
-              "weight": 8,
+              "weight": {
+                "imperial": 8,
+                "metric": "227"
+              },
               "consumable": true,
               "worn": false
             },
@@ -93469,12 +91889,18 @@ const data = [
                 "3 liters",
                 "water"
               ],
-              "weight": 111.6,
+              "weight": {
+                "imperial": 111.6,
+                "metric": "3164"
+              },
               "consumable": true,
               "worn": false
             }
           ],
-          "weight": "7.47"
+          "weight": {
+            "imperial": "7.47",
+            "metric": "3.39"
+          }
         },
         {
           "title": "Miscellaneous",
@@ -93486,7 +91912,10 @@ const data = [
                 "Stabilizer",
                 "knee brace"
               ],
-              "weight": 10.56,
+              "weight": {
+                "imperial": 10.56,
+                "metric": "299"
+              },
               "consumable": false,
               "worn": true
             },
@@ -93496,7 +91925,10 @@ const data = [
                 "Scrubba Wash",
                 "laundry bag"
               ],
-              "weight": 5.3,
+              "weight": {
+                "imperial": 5.3,
+                "metric": "150"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93505,7 +91937,10 @@ const data = [
               "name": [
                 "whistle"
               ],
-              "weight": 0.42,
+              "weight": {
+                "imperial": 0.42,
+                "metric": "12"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93515,7 +91950,10 @@ const data = [
                 "drawstring",
                 "bag"
               ],
-              "weight": 6,
+              "weight": {
+                "imperial": 6,
+                "metric": "170"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93526,7 +91964,10 @@ const data = [
                 "Travel money",
                 "belt"
               ],
-              "weight": 1,
+              "weight": {
+                "imperial": 1,
+                "metric": "28"
+              },
               "consumable": false,
               "worn": true
             },
@@ -93537,7 +91978,10 @@ const data = [
                 "trekking",
                 "poles"
               ],
-              "weight": 19.1,
+              "weight": {
+                "imperial": 19.1,
+                "metric": "541"
+              },
               "consumable": false,
               "worn": true
             },
@@ -93547,7 +91991,10 @@ const data = [
                 "AnMeng",
                 "earplugs"
               ],
-              "weight": 0.81,
+              "weight": {
+                "imperial": 0.81,
+                "metric": "23"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93557,7 +92004,10 @@ const data = [
                 "reading",
                 "glasses"
               ],
-              "weight": 2.47,
+              "weight": {
+                "imperial": 2.47,
+                "metric": "70"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93566,7 +92016,10 @@ const data = [
               "name": [
                 "wallet"
               ],
-              "weight": 2,
+              "weight": {
+                "imperial": 2,
+                "metric": "57"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93575,7 +92028,10 @@ const data = [
               "name": [
                 "passport"
               ],
-              "weight": 1.5,
+              "weight": {
+                "imperial": 1.5,
+                "metric": "43"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93585,7 +92041,10 @@ const data = [
                 "Building +",
                 "unit keys"
               ],
-              "weight": 1.2,
+              "weight": {
+                "imperial": 1.2,
+                "metric": "34"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93595,7 +92054,10 @@ const data = [
                 "NeatPack",
                 "toiletry bag"
               ],
-              "weight": 3.2,
+              "weight": {
+                "imperial": 3.2,
+                "metric": "91"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93606,7 +92068,10 @@ const data = [
                 "Wash",
                 "detergent"
               ],
-              "weight": 3.14,
+              "weight": {
+                "imperial": 3.14,
+                "metric": "89"
+              },
               "consumable": true,
               "worn": false
             },
@@ -93616,7 +92081,10 @@ const data = [
                 "S2S Lite",
                 "clothesline"
               ],
-              "weight": 1.3,
+              "weight": {
+                "imperial": 1.3,
+                "metric": "37"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93626,7 +92094,10 @@ const data = [
                 "Gerber",
                 "multi-tool"
               ],
-              "weight": 1.41,
+              "weight": {
+                "imperial": 1.41,
+                "metric": "40"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93635,7 +92106,10 @@ const data = [
               "name": [
                 "laundry clips"
               ],
-              "weight": 1.32,
+              "weight": {
+                "imperial": 1.32,
+                "metric": "37"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93645,7 +92119,10 @@ const data = [
                 "Mylar",
                 "emergency"
               ],
-              "weight": 0.5,
+              "weight": {
+                "imperial": 0.5,
+                "metric": "14"
+              },
               "consumable": false,
               "worn": false
             },
@@ -93655,18 +92132,36 @@ const data = [
                 "trekking pole",
                 "bag"
               ],
-              "weight": 0.92,
+              "weight": {
+                "imperial": 0.92,
+                "metric": "26"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "3.88"
+          "weight": {
+            "imperial": "3.88",
+            "metric": "1.76"
+          }
         }
       ],
-      "weightBase": "12.34",
-      "weightConsumable": "8.54",
-      "weightTotal": "30.24",
-      "weightWorn": "9.36"
+      "weightBase": {
+        "imperial": "12.34",
+        "metric": "5.60"
+      },
+      "weightConsumable": {
+        "imperial": "8.54",
+        "metric": "3.88"
+      },
+      "weightTotal": {
+        "imperial": "30.24",
+        "metric": "13.72"
+      },
+      "weightWorn": {
+        "imperial": "9.36",
+        "metric": "4.24"
+      }
     },
     "hasGear": true,
     "hasStats": true,
@@ -94687,16 +93182,6 @@ const data = [
             "value": {
               "imperial": "9",
               "metric": "15"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -94704,16 +93189,6 @@ const data = [
             "value": {
               "imperial": "4,669",
               "metric": "1,423"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -94721,16 +93196,6 @@ const data = [
             "value": {
               "imperial": "2,333",
               "metric": "711"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -94738,16 +93203,6 @@ const data = [
             "value": {
               "imperial": "6,924",
               "metric": "2,110"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -95780,16 +94235,6 @@ const data = [
             "value": {
               "imperial": "11",
               "metric": "17"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -95797,16 +94242,6 @@ const data = [
             "value": {
               "imperial": "4,395",
               "metric": "1,340"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -95814,16 +94249,6 @@ const data = [
             "value": {
               "imperial": "2,027",
               "metric": "618"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -95831,16 +94256,6 @@ const data = [
             "value": {
               "imperial": "8,157",
               "metric": "2,486"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -96874,16 +95289,6 @@ const data = [
             "value": {
               "imperial": "8",
               "metric": "13"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -96891,16 +95296,6 @@ const data = [
             "value": {
               "imperial": "3,916",
               "metric": "1,194"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -96908,16 +95303,6 @@ const data = [
             "value": {
               "imperial": "2,900",
               "metric": "884"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -96925,16 +95310,6 @@ const data = [
             "value": {
               "imperial": "8,978",
               "metric": "2,736"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -97968,16 +96343,6 @@ const data = [
             "value": {
               "imperial": "11",
               "metric": "18"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -97985,16 +96350,6 @@ const data = [
             "value": {
               "imperial": "2,303",
               "metric": "702"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -98002,16 +96357,6 @@ const data = [
             "value": {
               "imperial": "4,922",
               "metric": "1,500"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -98019,16 +96364,6 @@ const data = [
             "value": {
               "imperial": "9,010",
               "metric": "2,746"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -99061,16 +97396,6 @@ const data = [
             "value": {
               "imperial": "10",
               "metric": "17"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -99078,16 +97403,6 @@ const data = [
             "value": {
               "imperial": "3,523",
               "metric": "1,074"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -99095,16 +97410,6 @@ const data = [
             "value": {
               "imperial": "3,308",
               "metric": "1,008"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -99112,16 +97417,6 @@ const data = [
             "value": {
               "imperial": "6,678",
               "metric": "2,035"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -100154,16 +98449,6 @@ const data = [
             "value": {
               "imperial": "12",
               "metric": "19"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -100171,16 +98456,6 @@ const data = [
             "value": {
               "imperial": "2,907",
               "metric": "886"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -100188,16 +98463,6 @@ const data = [
             "value": {
               "imperial": "4,225",
               "metric": "1,288"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -100205,16 +98470,6 @@ const data = [
             "value": {
               "imperial": "8,310",
               "metric": "2,533"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -101247,16 +99502,6 @@ const data = [
             "value": {
               "imperial": "10",
               "metric": "16"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -101264,16 +99509,6 @@ const data = [
             "value": {
               "imperial": "1,707",
               "metric": "520"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -101281,16 +99516,6 @@ const data = [
             "value": {
               "imperial": "2,226",
               "metric": "678"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -101298,16 +99523,6 @@ const data = [
             "value": {
               "imperial": "5,249",
               "metric": "1,600"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -102340,16 +100555,6 @@ const data = [
             "value": {
               "imperial": "9",
               "metric": "14"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -102357,16 +100562,6 @@ const data = [
             "value": {
               "imperial": "4,044",
               "metric": "1,233"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -102374,16 +100569,6 @@ const data = [
             "value": {
               "imperial": "4,415",
               "metric": "1,346"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -102391,16 +100576,6 @@ const data = [
             "value": {
               "imperial": "8,687",
               "metric": "2,648"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -103433,16 +101608,6 @@ const data = [
             "value": {
               "imperial": "9",
               "metric": "14"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -103450,16 +101615,6 @@ const data = [
             "value": {
               "imperial": "3,723",
               "metric": "1,135"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -103467,16 +101622,6 @@ const data = [
             "value": {
               "imperial": "3,316",
               "metric": "1,011"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -103484,16 +101629,6 @@ const data = [
             "value": {
               "imperial": "7,240",
               "metric": "2,207"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -104526,16 +102661,6 @@ const data = [
             "value": {
               "imperial": "5",
               "metric": "8"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -104543,16 +102668,6 @@ const data = [
             "value": {
               "imperial": "3,136",
               "metric": "956"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -104560,16 +102675,6 @@ const data = [
             "value": {
               "imperial": "1,636",
               "metric": "499"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -104577,16 +102682,6 @@ const data = [
             "value": {
               "imperial": "7,724",
               "metric": "2,354"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -105619,16 +103714,6 @@ const data = [
             "value": {
               "imperial": "7",
               "metric": "11"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -105636,16 +103721,6 @@ const data = [
             "value": {
               "imperial": "2,412",
               "metric": "735"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -105653,16 +103728,6 @@ const data = [
             "value": {
               "imperial": "1,568",
               "metric": "478"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -105670,16 +103735,6 @@ const data = [
             "value": {
               "imperial": "8,224",
               "metric": "2,507"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -106712,16 +104767,6 @@ const data = [
             "value": {
               "imperial": "5",
               "metric": "7"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -106729,16 +104774,6 @@ const data = [
             "value": {
               "imperial": "142",
               "metric": "43"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -106746,16 +104781,6 @@ const data = [
             "value": {
               "imperial": "3,825",
               "metric": "1,166"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -106763,16 +104788,6 @@ const data = [
             "value": {
               "imperial": "7,059",
               "metric": "2,151"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -106804,16 +104819,6 @@ const data = [
         "value": {
           "imperial": "9,010",
           "metric": "2,746"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "days": {
@@ -106826,16 +104831,6 @@ const data = [
         "value": {
           "imperial": "106",
           "metric": "171"
-        },
-        "units": {
-          "imperial": {
-            "full": "miles",
-            "abbreviated": "mi"
-          },
-          "metric": {
-            "full": "kilometers",
-            "abbreviated": "km"
-          }
         }
       },
       "gain": {
@@ -106843,16 +104838,6 @@ const data = [
         "value": {
           "imperial": "36,877",
           "metric": "11,240"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "length": {
@@ -106865,16 +104850,6 @@ const data = [
         "value": {
           "imperial": "36,701",
           "metric": "11,186"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       }
     },
@@ -106919,12 +104894,18 @@ const data = [
                 "Kestrel 38",
                 "pack"
               ],
-              "weight": 65.12,
+              "weight": {
+                "imperial": 65.12,
+                "metric": "1846"
+              },
               "consumable": false,
               "worn": true
             }
           ],
-          "weight": "4.07"
+          "weight": {
+            "imperial": "4.07",
+            "metric": "1.85"
+          }
         },
         {
           "title": "Sleeping",
@@ -106936,7 +104917,10 @@ const data = [
                 "Ultralight",
                 "pillow"
               ],
-              "weight": 3.35,
+              "weight": {
+                "imperial": 3.35,
+                "metric": "95"
+              },
               "consumable": false,
               "worn": false
             },
@@ -106947,12 +104931,18 @@ const data = [
                 "Sleeping Bag",
                 "liner"
               ],
-              "weight": 12.8,
+              "weight": {
+                "imperial": 12.8,
+                "metric": "363"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "1.01"
+          "weight": {
+            "imperial": "1.01",
+            "metric": "0.46"
+          }
         },
         {
           "title": "Clothing",
@@ -106964,7 +104954,10 @@ const data = [
                 "Mountain",
                 "Biking shorts"
               ],
-              "weight": 9,
+              "weight": {
+                "imperial": 9,
+                "metric": "255"
+              },
               "consumable": false,
               "worn": true
             },
@@ -106974,7 +104967,10 @@ const data = [
                 "Salomon XA",
                 "Pro 3D shoes"
               ],
-              "weight": 22,
+              "weight": {
+                "imperial": 22,
+                "metric": "624"
+              },
               "consumable": false,
               "worn": true
             },
@@ -106985,7 +104981,10 @@ const data = [
                 "boxer briefs",
                 "underwear"
               ],
-              "weight": 3.25,
+              "weight": {
+                "imperial": 3.25,
+                "metric": "92"
+              },
               "consumable": false,
               "worn": true
             },
@@ -106996,7 +104995,10 @@ const data = [
                 "Double-Layer",
                 "socks"
               ],
-              "weight": 2.5,
+              "weight": {
+                "imperial": 2.5,
+                "metric": "71"
+              },
               "consumable": false,
               "worn": true
             },
@@ -107006,7 +105008,10 @@ const data = [
                 "Aviator",
                 "sunglasses"
               ],
-              "weight": 0.78,
+              "weight": {
+                "imperial": 0.78,
+                "metric": "22"
+              },
               "consumable": false,
               "worn": true
             },
@@ -107016,7 +105021,10 @@ const data = [
                 "Trucker Cap",
                 "hat"
               ],
-              "weight": 2.15,
+              "weight": {
+                "imperial": 2.15,
+                "metric": "61"
+              },
               "consumable": false,
               "worn": true
             },
@@ -107027,7 +105035,10 @@ const data = [
                 "Research Echo",
                 "Duo t-shirt"
               ],
-              "weight": 3.1,
+              "weight": {
+                "imperial": 3.1,
+                "metric": "88"
+              },
               "consumable": false,
               "worn": true
             },
@@ -107037,7 +105048,10 @@ const data = [
                 "Prana Stretch",
                 "Zion pants"
               ],
-              "weight": 18.4,
+              "weight": {
+                "imperial": 18.4,
+                "metric": "522"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107047,7 +105061,10 @@ const data = [
                 "Patagonia 3L",
                 "rain jacket"
               ],
-              "weight": 14.1,
+              "weight": {
+                "imperial": 14.1,
+                "metric": "400"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107058,7 +105075,10 @@ const data = [
                 "Face Momentum",
                 "fleece"
               ],
-              "weight": 14,
+              "weight": {
+                "imperial": 14,
+                "metric": "397"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107069,7 +105089,10 @@ const data = [
                 "Sahara",
                 "t-shirt"
               ],
-              "weight": 7,
+              "weight": {
+                "imperial": 7,
+                "metric": "198"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107080,7 +105103,10 @@ const data = [
                 "Long sleeve",
                 "shirt"
               ],
-              "weight": 6.46,
+              "weight": {
+                "imperial": 6.46,
+                "metric": "183"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107091,7 +105117,10 @@ const data = [
                 "boxer briefs",
                 "underwear"
               ],
-              "weight": 3.25,
+              "weight": {
+                "imperial": 3.25,
+                "metric": "92"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107102,7 +105131,10 @@ const data = [
                 "boxer briefs",
                 "underwear"
               ],
-              "weight": 3.25,
+              "weight": {
+                "imperial": 3.25,
+                "metric": "92"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107113,7 +105145,10 @@ const data = [
                 "Double-Layer",
                 "socks"
               ],
-              "weight": 2.5,
+              "weight": {
+                "imperial": 2.5,
+                "metric": "71"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107124,7 +105159,10 @@ const data = [
                 "Double-Layer",
                 "socks"
               ],
-              "weight": 2.5,
+              "weight": {
+                "imperial": 2.5,
+                "metric": "71"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107134,7 +105172,10 @@ const data = [
                 "Coleman",
                 "sandals"
               ],
-              "weight": 14.5,
+              "weight": {
+                "imperial": 14.5,
+                "metric": "411"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107144,7 +105185,10 @@ const data = [
                 "shower flip",
                 "flops"
               ],
-              "weight": 5.2,
+              "weight": {
+                "imperial": 5.2,
+                "metric": "147"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107155,7 +105199,10 @@ const data = [
                 "Weather",
                 "gloves"
               ],
-              "weight": 5,
+              "weight": {
+                "imperial": 5,
+                "metric": "142"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107165,12 +105212,18 @@ const data = [
                 "REI Co-op",
                 "vest"
               ],
-              "weight": 5,
+              "weight": {
+                "imperial": 5,
+                "metric": "142"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "9.00"
+          "weight": {
+            "imperial": "9.00",
+            "metric": "4.08"
+          }
         },
         {
           "title": "Water",
@@ -107181,7 +105234,10 @@ const data = [
                 "CamelBak",
                 "water bottle"
               ],
-              "weight": 5.47,
+              "weight": {
+                "imperial": 5.47,
+                "metric": "155"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107191,12 +105247,18 @@ const data = [
                 "CamelBak 2L",
                 "water bladder"
               ],
-              "weight": 7,
+              "weight": {
+                "imperial": 7,
+                "metric": "198"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "0.78"
+          "weight": {
+            "imperial": "0.78",
+            "metric": "0.35"
+          }
         },
         {
           "title": "Hygiene",
@@ -107207,7 +105269,10 @@ const data = [
                 "Foldable",
                 "toothbrush"
               ],
-              "weight": 0.74,
+              "weight": {
+                "imperial": 0.74,
+                "metric": "21"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107216,7 +105281,10 @@ const data = [
               "name": [
                 "toothpaste"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": true,
               "worn": false
             },
@@ -107225,7 +105293,10 @@ const data = [
               "name": [
                 "deodorant"
               ],
-              "weight": 2.7,
+              "weight": {
+                "imperial": 2.7,
+                "metric": "77"
+              },
               "consumable": true,
               "worn": false
             },
@@ -107234,7 +105305,10 @@ const data = [
               "name": [
                 "soap case"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107243,7 +105317,10 @@ const data = [
               "name": [
                 "soap bar"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": true,
               "worn": false
             },
@@ -107254,7 +105331,10 @@ const data = [
                 "Multi Lite",
                 "towel"
               ],
-              "weight": 6,
+              "weight": {
+                "imperial": 6,
+                "metric": "170"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107264,12 +105344,18 @@ const data = [
                 "SPF 15",
                 "chapstick"
               ],
-              "weight": 0.32,
+              "weight": {
+                "imperial": 0.32,
+                "metric": "9"
+              },
               "consumable": true,
               "worn": false
             }
           ],
-          "weight": "1.17"
+          "weight": {
+            "imperial": "1.17",
+            "metric": "0.53"
+          }
         },
         {
           "title": "Aid Kit",
@@ -107279,7 +105365,10 @@ const data = [
               "name": [
                 "compeed"
               ],
-              "weight": 1.45,
+              "weight": {
+                "imperial": 1.45,
+                "metric": "41"
+              },
               "consumable": true,
               "worn": false
             },
@@ -107288,7 +105377,10 @@ const data = [
               "name": [
                 "bandages"
               ],
-              "weight": 2.4,
+              "weight": {
+                "imperial": 2.4,
+                "metric": "68"
+              },
               "consumable": true,
               "worn": false
             },
@@ -107297,7 +105389,10 @@ const data = [
               "name": [
                 "toilet paper"
               ],
-              "weight": 3.37,
+              "weight": {
+                "imperial": 3.37,
+                "metric": "96"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107308,7 +105403,10 @@ const data = [
                 "purification",
                 "iodine"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107318,12 +105416,18 @@ const data = [
                 "Allergy",
                 "pseudoephedrine"
               ],
-              "weight": 1.1,
+              "weight": {
+                "imperial": 1.1,
+                "metric": "31"
+              },
               "consumable": true,
               "worn": false
             }
           ],
-          "weight": "0.71"
+          "weight": {
+            "imperial": "0.71",
+            "metric": "0.32"
+          }
         },
         {
           "title": "Electronics",
@@ -107334,7 +105438,10 @@ const data = [
                 "Petzl Actik",
                 "headlamp"
               ],
-              "weight": 3.1,
+              "weight": {
+                "imperial": 3.1,
+                "metric": "88"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107343,7 +105450,10 @@ const data = [
               "name": [
                 "AAA batteries"
               ],
-              "weight": 3,
+              "weight": {
+                "imperial": 3,
+                "metric": "85"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107354,7 +105464,10 @@ const data = [
                 "Ultra-compact",
                 "powerbank"
               ],
-              "weight": 5.36,
+              "weight": {
+                "imperial": 5.36,
+                "metric": "152"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107365,7 +105478,10 @@ const data = [
                 "Brick 5W",
                 "charger"
               ],
-              "weight": 1.44,
+              "weight": {
+                "imperial": 1.44,
+                "metric": "41"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107374,7 +105490,10 @@ const data = [
               "name": [
                 "iPhone X"
               ],
-              "weight": 6.8,
+              "weight": {
+                "imperial": 6.8,
+                "metric": "193"
+              },
               "consumable": false,
               "worn": true
             },
@@ -107384,7 +105503,10 @@ const data = [
                 "Type CEF",
                 "adapter"
               ],
-              "weight": 1.16,
+              "weight": {
+                "imperial": 1.16,
+                "metric": "33"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107394,7 +105516,10 @@ const data = [
                 "iPhone USB",
                 "cable"
               ],
-              "weight": 1,
+              "weight": {
+                "imperial": 1,
+                "metric": "28"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107404,7 +105529,10 @@ const data = [
                 "Poweradd",
                 "cable"
               ],
-              "weight": 1,
+              "weight": {
+                "imperial": 1,
+                "metric": "28"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107415,7 +105543,10 @@ const data = [
                 "Extension 6",
                 "Ft cord"
               ],
-              "weight": 7.2,
+              "weight": {
+                "imperial": 7.2,
+                "metric": "204"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107425,12 +105556,18 @@ const data = [
                 "Apple wired",
                 "headphones"
               ],
-              "weight": 0.46,
+              "weight": {
+                "imperial": 0.46,
+                "metric": "13"
+              },
               "consumable": false,
               "worn": true
             }
           ],
-          "weight": "1.91"
+          "weight": {
+            "imperial": "1.91",
+            "metric": "0.87"
+          }
         },
         {
           "title": "Packed Food + Water",
@@ -107440,7 +105577,10 @@ const data = [
               "name": [
                 "snacks"
               ],
-              "weight": 8,
+              "weight": {
+                "imperial": 8,
+                "metric": "227"
+              },
               "consumable": true,
               "worn": false
             },
@@ -107450,12 +105590,18 @@ const data = [
                 "3 liters",
                 "water"
               ],
-              "weight": 111.6,
+              "weight": {
+                "imperial": 111.6,
+                "metric": "3164"
+              },
               "consumable": true,
               "worn": false
             }
           ],
-          "weight": "7.47"
+          "weight": {
+            "imperial": "7.47",
+            "metric": "3.39"
+          }
         },
         {
           "title": "Miscellaneous",
@@ -107466,7 +105612,10 @@ const data = [
                 "drawstring",
                 "bag"
               ],
-              "weight": 6,
+              "weight": {
+                "imperial": 6,
+                "metric": "170"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107477,7 +105626,10 @@ const data = [
                 "Travel money",
                 "belt"
               ],
-              "weight": 1,
+              "weight": {
+                "imperial": 1,
+                "metric": "28"
+              },
               "consumable": false,
               "worn": true
             },
@@ -107488,7 +105640,10 @@ const data = [
                 "trekking",
                 "poles"
               ],
-              "weight": 19.1,
+              "weight": {
+                "imperial": 19.1,
+                "metric": "541"
+              },
               "consumable": false,
               "worn": true
             },
@@ -107498,7 +105653,10 @@ const data = [
                 "AnMeng",
                 "earplugs"
               ],
-              "weight": 0.81,
+              "weight": {
+                "imperial": 0.81,
+                "metric": "23"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107508,7 +105666,10 @@ const data = [
                 "reading",
                 "glasses"
               ],
-              "weight": 2.47,
+              "weight": {
+                "imperial": 2.47,
+                "metric": "70"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107518,7 +105679,10 @@ const data = [
                 "contact",
                 "lenses"
               ],
-              "weight": 0.47,
+              "weight": {
+                "imperial": 0.47,
+                "metric": "13"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107528,7 +105692,10 @@ const data = [
                 "contact lense",
                 "wash"
               ],
-              "weight": 8,
+              "weight": {
+                "imperial": 8,
+                "metric": "227"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107537,7 +105704,10 @@ const data = [
               "name": [
                 "wallet"
               ],
-              "weight": 2,
+              "weight": {
+                "imperial": 2,
+                "metric": "57"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107546,7 +105716,10 @@ const data = [
               "name": [
                 "US passport"
               ],
-              "weight": 1.5,
+              "weight": {
+                "imperial": 1.5,
+                "metric": "43"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107556,7 +105729,10 @@ const data = [
                 "Camino",
                 "passport"
               ],
-              "weight": 1.5,
+              "weight": {
+                "imperial": 1.5,
+                "metric": "43"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107566,7 +105742,10 @@ const data = [
                 "Building +",
                 "unit keys"
               ],
-              "weight": 1.2,
+              "weight": {
+                "imperial": 1.2,
+                "metric": "34"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107576,7 +105755,10 @@ const data = [
                 "NeatPack",
                 "toiletry bag"
               ],
-              "weight": 3.2,
+              "weight": {
+                "imperial": 3.2,
+                "metric": "91"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107587,7 +105769,10 @@ const data = [
                 "Wash",
                 "detergent"
               ],
-              "weight": 3.14,
+              "weight": {
+                "imperial": 3.14,
+                "metric": "89"
+              },
               "consumable": true,
               "worn": false
             },
@@ -107597,7 +105782,10 @@ const data = [
                 "S2S Lite",
                 "clothesline"
               ],
-              "weight": 1.3,
+              "weight": {
+                "imperial": 1.3,
+                "metric": "37"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107607,7 +105795,10 @@ const data = [
                 "Gerber",
                 "multi-tool"
               ],
-              "weight": 1.41,
+              "weight": {
+                "imperial": 1.41,
+                "metric": "40"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107616,7 +105807,10 @@ const data = [
               "name": [
                 "laundry clips"
               ],
-              "weight": 1.32,
+              "weight": {
+                "imperial": 1.32,
+                "metric": "37"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107626,7 +105820,10 @@ const data = [
                 "Mylar",
                 "emergency"
               ],
-              "weight": 0.5,
+              "weight": {
+                "imperial": 0.5,
+                "metric": "14"
+              },
               "consumable": false,
               "worn": false
             },
@@ -107636,18 +105833,36 @@ const data = [
                 "trekking pole",
                 "bag"
               ],
-              "weight": 0.92,
+              "weight": {
+                "imperial": 0.92,
+                "metric": "26"
+              },
               "consumable": false,
               "worn": false
             }
           ],
-          "weight": "3.49"
+          "weight": {
+            "imperial": "3.49",
+            "metric": "1.58"
+          }
         }
       ],
-      "weightBase": "12.61",
-      "weightConsumable": "8.54",
-      "weightTotal": "29.61",
-      "weightWorn": "8.45"
+      "weightBase": {
+        "imperial": "12.61",
+        "metric": "5.72"
+      },
+      "weightConsumable": {
+        "imperial": "8.54",
+        "metric": "3.88"
+      },
+      "weightTotal": {
+        "imperial": "29.61",
+        "metric": "13.43"
+      },
+      "weightWorn": {
+        "imperial": "8.45",
+        "metric": "3.83"
+      }
     },
     "hasGear": true,
     "hasStats": true,
@@ -108668,16 +106883,6 @@ const data = [
             "value": {
               "imperial": "15",
               "metric": "24"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -108685,16 +106890,6 @@ const data = [
             "value": {
               "imperial": "4,525",
               "metric": "1,379"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -108702,16 +106897,6 @@ const data = [
             "value": {
               "imperial": "2,005",
               "metric": "611"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -108719,16 +106904,6 @@ const data = [
             "value": {
               "imperial": "4,700",
               "metric": "1,432"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -109762,16 +107937,6 @@ const data = [
             "value": {
               "imperial": "13",
               "metric": "21"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -109779,16 +107944,6 @@ const data = [
             "value": {
               "imperial": "1,176",
               "metric": "358"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -109796,16 +107951,6 @@ const data = [
             "value": {
               "imperial": "2,551",
               "metric": "778"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -109813,16 +107958,6 @@ const data = [
             "value": {
               "imperial": "3,111",
               "metric": "948"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -110855,16 +108990,6 @@ const data = [
             "value": {
               "imperial": "13",
               "metric": "20"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -110872,16 +108997,6 @@ const data = [
             "value": {
               "imperial": "950",
               "metric": "290"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -110889,16 +109004,6 @@ const data = [
             "value": {
               "imperial": "1,223",
               "metric": "373"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -110906,16 +109011,6 @@ const data = [
             "value": {
               "imperial": "1,881",
               "metric": "573"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -111948,16 +110043,6 @@ const data = [
             "value": {
               "imperial": "15",
               "metric": "23"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -111965,16 +110050,6 @@ const data = [
             "value": {
               "imperial": "1,484",
               "metric": "452"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -111982,16 +110057,6 @@ const data = [
             "value": {
               "imperial": "1,794",
               "metric": "547"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -111999,16 +110064,6 @@ const data = [
             "value": {
               "imperial": "2,510",
               "metric": "765"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -113042,16 +111097,6 @@ const data = [
             "value": {
               "imperial": "13",
               "metric": "21"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -113059,16 +111104,6 @@ const data = [
             "value": {
               "imperial": "1,424",
               "metric": "434"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -113076,16 +111111,6 @@ const data = [
             "value": {
               "imperial": "1,189",
               "metric": "362"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -113093,16 +111118,6 @@ const data = [
             "value": {
               "imperial": "1,616",
               "metric": "493"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -114136,16 +112151,6 @@ const data = [
             "value": {
               "imperial": "17",
               "metric": "28"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -114153,16 +112158,6 @@ const data = [
             "value": {
               "imperial": "1,603",
               "metric": "489"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -114170,16 +112165,6 @@ const data = [
             "value": {
               "imperial": "1,368",
               "metric": "417"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -114187,16 +112172,6 @@ const data = [
             "value": {
               "imperial": "2,186",
               "metric": "666"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -115229,16 +113204,6 @@ const data = [
             "value": {
               "imperial": "13",
               "metric": "20"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -115246,16 +113211,6 @@ const data = [
             "value": {
               "imperial": "1,148",
               "metric": "350"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -115263,16 +113218,6 @@ const data = [
             "value": {
               "imperial": "1,520",
               "metric": "463"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -115280,16 +113225,6 @@ const data = [
             "value": {
               "imperial": "1,898",
               "metric": "578"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -116322,16 +114257,6 @@ const data = [
             "value": {
               "imperial": "18",
               "metric": "28"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -116339,16 +114264,6 @@ const data = [
             "value": {
               "imperial": "1,301",
               "metric": "397"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -116356,16 +114271,6 @@ const data = [
             "value": {
               "imperial": "952",
               "metric": "290"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -116373,16 +114278,6 @@ const data = [
             "value": {
               "imperial": "2,189",
               "metric": "667"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -117415,16 +115310,6 @@ const data = [
             "value": {
               "imperial": "13",
               "metric": "21"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -117432,16 +115317,6 @@ const data = [
             "value": {
               "imperial": "1,336",
               "metric": "407"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -117449,16 +115324,6 @@ const data = [
             "value": {
               "imperial": "829",
               "metric": "253"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -117466,16 +115331,6 @@ const data = [
             "value": {
               "imperial": "2,476",
               "metric": "755"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -118508,16 +116363,6 @@ const data = [
             "value": {
               "imperial": "14",
               "metric": "22"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -118525,16 +116370,6 @@ const data = [
             "value": {
               "imperial": "1,178",
               "metric": "359"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -118542,16 +116377,6 @@ const data = [
             "value": {
               "imperial": "747",
               "metric": "228"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -118559,16 +116384,6 @@ const data = [
             "value": {
               "imperial": "2,707",
               "metric": "825"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -119601,16 +117416,6 @@ const data = [
             "value": {
               "imperial": "17",
               "metric": "27"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -119618,16 +117423,6 @@ const data = [
             "value": {
               "imperial": "1,660",
               "metric": "506"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -119635,16 +117430,6 @@ const data = [
             "value": {
               "imperial": "1,020",
               "metric": "311"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -119652,16 +117437,6 @@ const data = [
             "value": {
               "imperial": "3,796",
               "metric": "1,157"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -120694,16 +118469,6 @@ const data = [
             "value": {
               "imperial": "14",
               "metric": "22"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -120711,16 +118476,6 @@ const data = [
             "value": {
               "imperial": "487",
               "metric": "148"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -120728,16 +118483,6 @@ const data = [
             "value": {
               "imperial": "843",
               "metric": "257"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -120745,16 +118490,6 @@ const data = [
             "value": {
               "imperial": "3,527",
               "metric": "1,075"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -121787,16 +119522,6 @@ const data = [
             "value": {
               "imperial": "20",
               "metric": "32"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -121804,16 +119529,6 @@ const data = [
             "value": {
               "imperial": "1,048",
               "metric": "319"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -121821,16 +119536,6 @@ const data = [
             "value": {
               "imperial": "998",
               "metric": "304"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -121838,16 +119543,6 @@ const data = [
             "value": {
               "imperial": "3,074",
               "metric": "937"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -122880,16 +120575,6 @@ const data = [
             "value": {
               "imperial": "21",
               "metric": "34"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -122897,16 +120582,6 @@ const data = [
             "value": {
               "imperial": "968",
               "metric": "295"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -122914,16 +120589,6 @@ const data = [
             "value": {
               "imperial": "1,265",
               "metric": "386"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -122931,16 +120596,6 @@ const data = [
             "value": {
               "imperial": "2,999",
               "metric": "914"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -123973,16 +121628,6 @@ const data = [
             "value": {
               "imperial": "12",
               "metric": "19"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -123990,16 +121635,6 @@ const data = [
             "value": {
               "imperial": "347",
               "metric": "106"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -124007,16 +121642,6 @@ const data = [
             "value": {
               "imperial": "199",
               "metric": "61"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -124024,16 +121649,6 @@ const data = [
             "value": {
               "imperial": "2,790",
               "metric": "850"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -125067,16 +122682,6 @@ const data = [
             "value": {
               "imperial": "25",
               "metric": "40"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -125084,16 +122689,6 @@ const data = [
             "value": {
               "imperial": "794",
               "metric": "242"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -125101,16 +122696,6 @@ const data = [
             "value": {
               "imperial": "785",
               "metric": "239"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -125118,16 +122703,6 @@ const data = [
             "value": {
               "imperial": "2,956",
               "metric": "901"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -126161,16 +123736,6 @@ const data = [
             "value": {
               "imperial": "19",
               "metric": "31"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -126178,16 +123743,6 @@ const data = [
             "value": {
               "imperial": "522",
               "metric": "159"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -126195,16 +123750,6 @@ const data = [
             "value": {
               "imperial": "555",
               "metric": "169"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -126212,16 +123757,6 @@ const data = [
             "value": {
               "imperial": "2,884",
               "metric": "879"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -127254,16 +124789,6 @@ const data = [
             "value": {
               "imperial": "15",
               "metric": "25"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -127271,16 +124796,6 @@ const data = [
             "value": {
               "imperial": "637",
               "metric": "194"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -127288,16 +124803,6 @@ const data = [
             "value": {
               "imperial": "580",
               "metric": "177"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -127305,16 +124810,6 @@ const data = [
             "value": {
               "imperial": "3,055",
               "metric": "931"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -128347,16 +125842,6 @@ const data = [
             "value": {
               "imperial": "13",
               "metric": "21"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -128364,16 +125849,6 @@ const data = [
             "value": {
               "imperial": "675",
               "metric": "206"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -128381,16 +125856,6 @@ const data = [
             "value": {
               "imperial": "551",
               "metric": "168"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -128398,16 +125863,6 @@ const data = [
             "value": {
               "imperial": "2,976",
               "metric": "907"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -129441,16 +126896,6 @@ const data = [
             "value": {
               "imperial": "19",
               "metric": "31"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -129458,16 +126903,6 @@ const data = [
             "value": {
               "imperial": "826",
               "metric": "252"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -129475,16 +126910,6 @@ const data = [
             "value": {
               "imperial": "847",
               "metric": "258"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -129492,16 +126917,6 @@ const data = [
             "value": {
               "imperial": "3,019",
               "metric": "920"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -130535,16 +127950,6 @@ const data = [
             "value": {
               "imperial": "16",
               "metric": "26"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -130552,16 +127957,6 @@ const data = [
             "value": {
               "imperial": "2,063",
               "metric": "629"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -130569,16 +127964,6 @@ const data = [
             "value": {
               "imperial": "203",
               "metric": "62"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -130586,16 +127971,6 @@ const data = [
             "value": {
               "imperial": "4,667",
               "metric": "1,422"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -131628,16 +129003,6 @@ const data = [
             "value": {
               "imperial": "16",
               "metric": "26"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -131645,16 +129010,6 @@ const data = [
             "value": {
               "imperial": "901",
               "metric": "275"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -131662,16 +129017,6 @@ const data = [
             "value": {
               "imperial": "3,810",
               "metric": "1,161"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -131679,16 +129024,6 @@ const data = [
             "value": {
               "imperial": "4,943",
               "metric": "1,507"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -132721,16 +130056,6 @@ const data = [
             "value": {
               "imperial": "14",
               "metric": "22"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -132738,16 +130063,6 @@ const data = [
             "value": {
               "imperial": "1,014",
               "metric": "309"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -132755,16 +130070,6 @@ const data = [
             "value": {
               "imperial": "1,038",
               "metric": "316"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -132772,16 +130077,6 @@ const data = [
             "value": {
               "imperial": "1,910",
               "metric": "582"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -133815,16 +131110,6 @@ const data = [
             "value": {
               "imperial": "18",
               "metric": "28"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -133832,16 +131117,6 @@ const data = [
             "value": {
               "imperial": "3,308",
               "metric": "1,008"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -133849,16 +131124,6 @@ const data = [
             "value": {
               "imperial": "802",
               "metric": "244"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -133866,16 +131131,6 @@ const data = [
             "value": {
               "imperial": "4,301",
               "metric": "1,311"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -134909,16 +132164,6 @@ const data = [
             "value": {
               "imperial": "24",
               "metric": "38"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -134926,16 +132171,6 @@ const data = [
             "value": {
               "imperial": "2,417",
               "metric": "737"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -134943,16 +132178,6 @@ const data = [
             "value": {
               "imperial": "5,243",
               "metric": "1,598"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -134960,16 +132185,6 @@ const data = [
             "value": {
               "imperial": "4,413",
               "metric": "1,345"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -136002,16 +133217,6 @@ const data = [
             "value": {
               "imperial": "14",
               "metric": "22"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -136019,16 +133224,6 @@ const data = [
             "value": {
               "imperial": "1,584",
               "metric": "483"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -136036,16 +133231,6 @@ const data = [
             "value": {
               "imperial": "1,765",
               "metric": "538"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -136053,16 +133238,6 @@ const data = [
             "value": {
               "imperial": "2,180",
               "metric": "664"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -137095,16 +134270,6 @@ const data = [
             "value": {
               "imperial": "24",
               "metric": "39"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -137112,16 +134277,6 @@ const data = [
             "value": {
               "imperial": "2,752",
               "metric": "839"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -137129,16 +134284,6 @@ const data = [
             "value": {
               "imperial": "2,526",
               "metric": "770"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -137146,16 +134291,6 @@ const data = [
             "value": {
               "imperial": "2,378",
               "metric": "725"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -138188,16 +135323,6 @@ const data = [
             "value": {
               "imperial": "21",
               "metric": "33"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -138205,16 +135330,6 @@ const data = [
             "value": {
               "imperial": "2,275",
               "metric": "693"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -138222,16 +135337,6 @@ const data = [
             "value": {
               "imperial": "2,858",
               "metric": "871"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -138239,16 +135344,6 @@ const data = [
             "value": {
               "imperial": "1,534",
               "metric": "468"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -139281,16 +136376,6 @@ const data = [
             "value": {
               "imperial": "12",
               "metric": "19"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -139298,16 +136383,6 @@ const data = [
             "value": {
               "imperial": "1,194",
               "metric": "364"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -139315,16 +136390,6 @@ const data = [
             "value": {
               "imperial": "1,263",
               "metric": "385"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -139332,16 +136397,6 @@ const data = [
             "value": {
               "imperial": "1,286",
               "metric": "392"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -140375,16 +137430,6 @@ const data = [
             "value": {
               "imperial": "13",
               "metric": "20"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -140392,16 +137437,6 @@ const data = [
             "value": {
               "imperial": "1,667",
               "metric": "508"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -140409,16 +137444,6 @@ const data = [
             "value": {
               "imperial": "1,969",
               "metric": "600"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -140426,16 +137451,6 @@ const data = [
             "value": {
               "imperial": "928",
               "metric": "283"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -141469,16 +138484,6 @@ const data = [
             "value": {
               "imperial": "21",
               "metric": "33"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -141486,16 +138491,6 @@ const data = [
             "value": {
               "imperial": "2,413",
               "metric": "735"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -141503,16 +138498,6 @@ const data = [
             "value": {
               "imperial": "2,052",
               "metric": "625"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -141520,16 +138505,6 @@ const data = [
             "value": {
               "imperial": "1,554",
               "metric": "474"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -142562,16 +139537,6 @@ const data = [
             "value": {
               "imperial": "22",
               "metric": "35"
-            },
-            "units": {
-              "imperial": {
-                "full": "miles",
-                "abbreviated": "mi"
-              },
-              "metric": {
-                "full": "kilometers",
-                "abbreviated": "km"
-              }
             }
           },
           "gain": {
@@ -142579,16 +139544,6 @@ const data = [
             "value": {
               "imperial": "2,194",
               "metric": "669"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "loss": {
@@ -142596,16 +139551,6 @@ const data = [
             "value": {
               "imperial": "2,738",
               "metric": "835"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "max": {
@@ -142613,16 +139558,6 @@ const data = [
             "value": {
               "imperial": "1,227",
               "metric": "374"
-            },
-            "units": {
-              "imperial": {
-                "full": "feet",
-                "abbreviated": "ft"
-              },
-              "metric": {
-                "full": "meters",
-                "abbreviated": "m"
-              }
             }
           },
           "time": {
@@ -142654,16 +139589,6 @@ const data = [
         "value": {
           "imperial": "4,943",
           "metric": "1,507"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "days": {
@@ -142676,16 +139601,6 @@ const data = [
         "value": {
           "imperial": "534",
           "metric": "859"
-        },
-        "units": {
-          "imperial": {
-            "full": "miles",
-            "abbreviated": "mi"
-          },
-          "metric": {
-            "full": "kilometers",
-            "abbreviated": "km"
-          }
         }
       },
       "gain": {
@@ -142693,16 +139608,6 @@ const data = [
         "value": {
           "imperial": "47,871",
           "metric": "14,590"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "length": {
@@ -142715,16 +139620,6 @@ const data = [
         "value": {
           "imperial": "48,088",
           "metric": "14,657"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       }
     },
@@ -142882,16 +139777,6 @@ const data = [
         "value": {
           "imperial": "-∞",
           "metric": "-∞"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "days": {
@@ -143087,16 +139972,6 @@ const data = [
         "value": {
           "imperial": "-∞",
           "metric": "-∞"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "days": {
@@ -143188,16 +140063,6 @@ const data = [
         "value": {
           "imperial": "-∞",
           "metric": "-∞"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "days": {
@@ -143323,16 +140188,6 @@ const data = [
         "value": {
           "imperial": "-∞",
           "metric": "-∞"
-        },
-        "units": {
-          "imperial": {
-            "full": "feet",
-            "abbreviated": "ft"
-          },
-          "metric": {
-            "full": "meters",
-            "abbreviated": "m"
-          }
         }
       },
       "days": {

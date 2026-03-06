@@ -14,6 +14,7 @@ import {
   GridList,
   GridListItem,
 } from '@/ui/navigation/grid';
+import { Weight } from '@/ui/units';
 
 import type { Data } from './types';
 
@@ -54,7 +55,9 @@ export default function View({ data }: Props) {
                 <GridListItem key={item.slug}>
                   <LinkBackdrop href={`/gear/${item.slug}`}>
                     <strong>{item.title}</strong>
-                    <small>{item.date} • {item.base} lbs</small>
+                    <small>
+                      {item.date} • <Weight weight={item.base} />
+                    </small>
                   </LinkBackdrop>
                 </GridListItem>
               ))}
