@@ -11,7 +11,7 @@ const styles = tw({
   image: (index: number, total: number) => tw(`
     h-40
     grayscale-100
-    duration-300
+    duration-500
 
     hover:grayscale-0
 

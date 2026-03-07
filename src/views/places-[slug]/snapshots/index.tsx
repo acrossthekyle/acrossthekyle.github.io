@@ -35,7 +35,7 @@ export default function Snapshots({ images, slug, total }: Props) {
     <>
       <h2 id="images">
         <strong>GALLERY</strong>
-        <small>{total} images</small>
+        <small>Images: {total}</small>
       </h2>
       <ul aria-labelledby="images" className={styles.images}>
         {items.map((item, index: number) => (

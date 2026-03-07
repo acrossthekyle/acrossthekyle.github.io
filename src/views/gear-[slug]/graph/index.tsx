@@ -83,6 +83,7 @@ export default function Graph({
                   ? `/gear/${slug}`
                   : `/gear/${slug}?type=${label.toLowerCase()}`
               }
+              title={`Filter list by ${label} items`}
             >
               <span className={styles.label}>{label}</span>
               <span className={styles.value}>

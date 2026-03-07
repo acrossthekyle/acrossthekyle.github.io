@@ -29,8 +29,8 @@ export default function View({ data }: Props) {
         </BreadcrumbList>
       </Breadcrumb>
       <h1>
-        <strong>{route('photos').text}</strong>
-        <small>{route('photos').subtitle}</small>
+        <strong>{route('snapshots').text}</strong>
+        <small>{route('snapshots').subtitle}</small>
       </h1>
       {data.map((item) => (
         <Link

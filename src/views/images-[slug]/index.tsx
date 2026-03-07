@@ -29,7 +29,7 @@ export default function View({ data }: Props) {
           {data.page === 'photos' ? (
             <BreadcrumbItem>
               <Link href="/photos">
-                /photos
+                /snapshots
               </Link>
             </BreadcrumbItem>
           ) : (
@@ -41,7 +41,7 @@ export default function View({ data }: Props) {
               </BreadcrumbItem>
               <BreadcrumbItem>
                 <Link href={`/places/${data.slug}`}>
-                  /{data.place}
+                  /{data.place.replace('Image', '')}
                 </Link>
               </BreadcrumbItem>
               <BreadcrumbItem>
@@ -54,7 +54,7 @@ export default function View({ data }: Props) {
         </BreadcrumbList>
       </Breadcrumb>
       <h1>
-        <strong>{data.place} Image {data.index}/{data.total}</strong>
+        <strong>{data.place} {data.index}/{data.total}</strong>
         <small>
           {!!data.title && `${data.title} • `}{data.location}
         </small>

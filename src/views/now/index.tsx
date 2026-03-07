@@ -28,10 +28,10 @@ export default function View() {
         Reading "Death's End" by Liu Cixin and "A Clash of Kings" by George R.R. Martin.
       </p>
       <p>
-        Doing daily yoga practices and morning walks along the lakefront
+        Doing daily yoga practices and morning walks along the lakefront.
       </p>
       <p>
-        Watching "Dark Matter" on Apple TV+, rewatching "Star Trek: Enterprise" on Paramount+, and binging "How I Met Your Mother" + "New Girl" on Hulu
+        Watching "Dark Matter" on Apple TV+, rewatching "Star Trek: Enterprise" on Paramount+, and binging "How I Met Your Mother" + "New Girl" on Hulu.
       </p>
     </Layout>
   );

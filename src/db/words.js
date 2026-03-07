@@ -3,7 +3,7 @@ const data = [
     "author": "Kyle Gilbert",
     "slug": "tripling-my-computer-monitors",
     "title": "Tripling my computer monitors",
-    "content": "\nOver the holidays I received a \"home office\" upgrade, and I'm loving it.\n\nBefore I was doing all my work on a laptop. One screen, lots of command-tabbing, and constant context switching. It technically works, but it wasn't exactly efficient.\n\nI’m now using a laptop monitor extension that adds two extra 1080p screens. Having three displays means I can keep apps such as email, chat, or docs open all the time and stay focused in my editor. Less bouncing around, more actual coding.\n",
+    "content": "\nOver the holidays I received a \"home office\" upgrade, and I'm loving it.\n\nBefore the \"upgrade\" I was doing all my work on a laptop: one screen, with constant window and context switching. It technically worked, but it wasn't exactly efficient.\n\nI’m now using a laptop monitor extension that adds two 1080p screens. Having three displays means I can keep apps such as email, chat, or docs open all the time and stay focused in my editor. Less bouncing around, more actual coding.\n",
     "date": "March 4th, 2026",
     "readingTime": "1",
     "timestamp": 1772604000,
