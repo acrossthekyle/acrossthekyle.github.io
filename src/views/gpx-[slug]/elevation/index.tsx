@@ -15,15 +15,29 @@ const Chart = dynamic(() => import('react-apexcharts'), {
 
 type Props = {
   gpx: Gpx;
+  stats: Array<{
+    label: string;
+    value: {
+      basic: string;
+      complex: {
+        imperial: string;
+        metric: string;
+      };
+    };
+  }>;
 };
 
-export default function Elevation({ gpx }: Props) {
+export default function Elevation({ gpx, stats }: Props) {
   const { theme } = useTheme();
   const { units } = useUnits();
 
   if (gpx.length === 0) {
     return null;
   }
+
+  const stat = stats.find((stat) => stat.label.toLowerCase() === 'distance');
+
+  const distance = stat ? Number(stat.value.complex[units as keyof typeof stat.value.complex]) : 0;
 
   return (
     <section
@@ -113,18 +127,6 @@ export default function Elevation({ gpx }: Props) {
               marker: {
                 show: false,
               },
-              custom: function({ series, seriesIndex, dataPointIndex }) {
-                const value = series[seriesIndex][dataPointIndex];
-
-                return '<div>' +
-                  '<span>' +
-                  new Intl.NumberFormat().format(
-                    units === 'metric' ? convertFeetToMeters(value) : value,
-                  ) +
-                  ` ${units === 'metric' ? 'm' : 'ft'}` +
-                  '</span>' +
-                '</div>';
-              },
               x: {
                 show: false,
               },
@@ -158,6 +160,19 @@ export default function Elevation({ gpx }: Props) {
       <div className={styles.grid3} />
       <div className={styles.grid4} />
       <div className={styles.grid5} />
+      {distance && (
+        <div
+          className={styles.ticks}
+          role="presentation"
+          style={{
+            gridTemplateColumns: `repeat(${distance}, minmax(0, 1fr))`,
+          }}
+        >
+          {Array.from({ length: distance }, (_, index) => (
+            <span className={styles.tick} key={index} />
+          ))}
+        </div>
+      )}
     </section>
   );
 }

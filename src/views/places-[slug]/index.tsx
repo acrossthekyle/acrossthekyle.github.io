@@ -54,8 +54,7 @@ export default function View({ data }: Props) {
       {!data.isDestination && (
         <>
           <Heading level={2} id="gpx">
-            <Strong uppercase>Metrics</Strong>
-            <Small>{data.stages.length} {data.label}s</Small>
+            <Strong uppercase>{data.label}s</Strong>
           </Heading>
           <ul aria-labelledby="gpx" className={styles.gpx}>
             {data.stages.map((stage) => (

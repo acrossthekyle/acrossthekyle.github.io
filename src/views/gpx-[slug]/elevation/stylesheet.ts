@@ -9,7 +9,7 @@ const grid = `
 const styles = tw({
   container: `
     relative
-    border border-(--foreground)/7 border-b-0
+    border border-(--foreground)/7
     pt-1
     mb-16
   `,
@@ -38,6 +38,15 @@ const styles = tw({
   grid5: `
     ${grid}
     top-42.5
+  `,
+  ticks: `
+    absolute bottom-0 left-0 right-0 z-9
+    grid
+  `,
+  tick: `
+    block
+    h-1.5
+    border-r-1 border-r-(--background)
   `,
 });
 

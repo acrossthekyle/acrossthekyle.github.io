@@ -54,7 +54,7 @@ export default function View({ data }: Props) {
       <Heading level={2}>
         <Strong uppercase>Elevation</Strong>
       </Heading>
-      <Elevation gpx={data.gpx} />
+      <Elevation gpx={data.gpx} stats={data.metrics} />
       {data.hasNavigation && (
         <nav aria-label="gpx supplementary navigation" className={styles.nav}>
           {!!data.previous && (
