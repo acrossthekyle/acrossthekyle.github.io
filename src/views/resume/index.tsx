@@ -19,6 +19,7 @@ import {
   TimelineItems,
   TimelineLine,
 } from '@/ui/timeline';
+import { Heading, Small, Strong } from '@/ui/typography';
 
 import type { Data } from './types';
 
@@ -38,16 +39,16 @@ export default function View({ data }: Props) {
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
-      <h1>
-        <strong>{route('resume').text}</strong>
-        <small>{route('resume').subtitle}</small>
-      </h1>
+      <Heading>
+        <Strong>{route('resume').text}</Strong>
+        <Small>{route('resume').subtitle}</Small>
+      </Heading>
       <p>
         I'm a self-taught web developer/software engineer who is driven to create because making things with code thrills me to no end. With a strong background in JavaScript/TypeScript, and HTML/CSS, I have hands-on experience working with high-traffic, customer-facing products built with an attention to detail.
       </p>
-      <h2 id="skills">
-        <strong>SKILLS</strong>
-      </h2>
+      <Heading level={2} id="skills">
+        <Strong uppercase>Skills</Strong>
+      </Heading>
       <dl aria-labelledby="skills">
         {data.skills.map((skill) => (
           <Fragment key={skill.name}>
@@ -62,7 +63,7 @@ export default function View({ data }: Props) {
       </dl>
       <Timeline>
         <TimelineHeader>
-          <strong>CAREER HISTORY</strong>
+          <Strong uppercase>Career History</Strong>
         </TimelineHeader>
         <TimelineItems>
           {data.history.map((item) => (
@@ -72,7 +73,7 @@ export default function View({ data }: Props) {
               <TimelineEntry>
                 <TimelineHeading>
                   {item.position}
-                  <small>{item.title.join(' ')}</small>
+                  <Small>{item.title.join(' ')}</Small>
                 </TimelineHeading>
                 <TimelineContent>
                   {item.description}
@@ -82,18 +83,18 @@ export default function View({ data }: Props) {
           ))}
         </TimelineItems>
       </Timeline>
-      <h2 id="education">
-        <strong>EDUCATION</strong>
-      </h2>
+      <Heading level={2} id="education">
+        <Strong uppercase>Education</Strong>
+      </Heading>
       <ol aria-labelledby="education">
         {data.education.map((item) => (
           <li key={item.degree}>
-            <h3>
+            <Heading level={3}>
               {item.school}
-              <small>
+              <Small>
                 {item.degree} &mdash; {item.graduation}
-              </small>
-            </h3>
+              </Small>
+            </Heading>
           </li>
         ))}
       </ol>

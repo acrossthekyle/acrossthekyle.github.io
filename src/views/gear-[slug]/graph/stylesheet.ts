@@ -5,9 +5,6 @@ const styles = tw({
     relative
     pb-12
   `,
-  header: `
-    !pt-0
-  `,
   cta: `
     absolute top-0 left-40.5 z-2
 
@@ -17,6 +14,7 @@ const styles = tw({
   graph: `
     flex flex-col gap-16
     w-full
+    mt-2
 
     sm:flex-row
     sm:gap-0

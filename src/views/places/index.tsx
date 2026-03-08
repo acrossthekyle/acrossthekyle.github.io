@@ -14,6 +14,7 @@ import {
   GridList,
   GridListItem,
 } from '@/ui/navigation/grid';
+import { Heading, Small, Strong } from '@/ui/typography';
 
 import type { Data } from './types';
 
@@ -33,28 +34,30 @@ export default function View({ data }: Props) {
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
-      <h1 id="places">
-        <strong>{route('places').text}</strong>
-        <small>{route('places').subtitle}</small>
-      </h1>
+      <Heading id="places">
+        <Strong>{route('places').text}</Strong>
+        <Small>{route('places').subtitle}</Small>
+      </Heading>
       <p>
         A collection of my hikes and destinations since 2015.
       </p>
       {data.groups.map((group) => (
         <Fragment key={group.id}>
-          <h2 id={group.id}>
-            <strong>{group.name.toUpperCase()}</strong>
-            <small>
+          <Heading level={2} id={group.id}>
+            <Strong uppercase>{group.name}</Strong>
+            <Small>
               {group.types.map((type) => `${type.name} (${type.count})`).join(', ')}
-            </small>
-          </h2>
+            </Small>
+          </Heading>
           <Grid>
             <GridList columns={2} id={group.id}>
               {group.items.map((item) => (
                 <GridListItem key={item.index}>
                   <LinkBackdrop href={`/places/${item.slug}`}>
-                    <strong>{item.title}</strong>
-                    <small>{item.type} • {item.location} • {item.date}</small>
+                    <Strong>{item.title}</Strong>
+                    <Small>
+                      {item.type} • {item.location} • {item.date}
+                    </Small>
                   </LinkBackdrop>
                 </GridListItem>
               ))}

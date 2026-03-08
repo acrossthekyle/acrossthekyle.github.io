@@ -1,3 +1,4 @@
+import { Small, Strong } from '@/ui/typography';
 import { Length } from '@/ui/units';
 
 type Props = {
@@ -15,8 +16,8 @@ export default function Stat({ label, value }: Props) {
   if (['when', 'total', 'experiences', 'duration'].includes(label.toLowerCase())) {
     return (
       <>
-        <strong>{label}</strong>
-        <small>{value.basic}</small>
+        <Strong>{label}</Strong>
+        <Small>{value.basic}</Small>
       </>
     );
   }
@@ -24,10 +25,10 @@ export default function Stat({ label, value }: Props) {
   if (label.toLowerCase() === 'distance') {
     return (
       <>
-        <strong>{label}</strong>
-        <small>
+        <Strong>{label}</Strong>
+        <Small>
           <Length value={value.complex[0]} />
-        </small>
+        </Small>
       </>
     );
   }
@@ -35,10 +36,10 @@ export default function Stat({ label, value }: Props) {
   if (['highest peak', 'max altitude'].includes(label.toLowerCase())) {
     return (
       <>
-        <strong>{label}</strong>
-        <small>
+        <Strong>{label}</Strong>
+        <Small>
           <Length isSmall value={value.complex[0]} />
-        </small>
+        </Small>
       </>
     );
   }
@@ -46,10 +47,10 @@ export default function Stat({ label, value }: Props) {
   if (label.toLowerCase() === 'elevation') {
     return (
       <>
-        <strong>{label}</strong>
-        <small>
+        <Strong>{label}</Strong>
+        <Small>
           ▲ <Length isSmall value={value.complex[0]} /> / <Length isSmall value={value.complex[1]} /> ▼
-        </small>
+        </Small>
       </>
     );
   }

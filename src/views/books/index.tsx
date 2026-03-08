@@ -7,6 +7,7 @@ import {
   BreadcrumbList,
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
+import { Heading, Small, Strong } from '@/ui/typography';
 
 import type { Data } from './types';
 
@@ -26,15 +27,15 @@ export default function View({ data }: Props) {
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
-      <h1 id="books">
-        <strong>{route('books').text}</strong>
-        <small>{route('books').subtitle}</small>
-      </h1>
+      <Heading id="books">
+        <Strong>{route('books').text}</Strong>
+        <Small>{route('books').subtitle}</Small>
+      </Heading>
       <ul aria-labelledby="books">
         {data.map((item, index: number) => (
           <li key={item.title}>
-            <strong>{item.title}</strong>
-            <small>{item.author}</small>
+            {item.title}
+            <Small>{item.author}</Small>
             {(index < data.length - 1 ) && <hr />}
           </li>
         ))}

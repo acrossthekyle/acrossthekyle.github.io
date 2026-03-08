@@ -6,6 +6,7 @@ import {
   BreadcrumbList,
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
+import { Heading, Small, Strong } from '@/ui/typography';
 
 import Elevation from './elevation';
 import Stats from './stats';
@@ -43,16 +44,16 @@ export default function View({ data }: Props) {
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
-      <h1>
-        <strong>
+      <Heading>
+        <Strong>
           {data.place} {data.label} {data.index}/{data.total}: {data.title}
-        </strong>
-        <small>{data.date} • {data.location}</small>
-      </h1>
+        </Strong>
+        <Small>{data.date} • {data.location}</Small>
+      </Heading>
       <Stats stats={data.metrics} />
-      <h2>
-        <strong>ELEVATION</strong>
-      </h2>
+      <Heading level={2}>
+        <Strong uppercase>Elevation</Strong>
+      </Heading>
       <Elevation gpx={data.gpx} />
       {data.hasNavigation && (
         <nav aria-label="gpx supplementary navigation" className={styles.nav}>

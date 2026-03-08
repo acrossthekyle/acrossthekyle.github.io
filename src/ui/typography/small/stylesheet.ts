@@ -2,7 +2,11 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    !pb-0.5
+    block
+    pt-1.5
+    text-sm text-(--foreground)/70
+
+    sm:text-xs
   `,
 });
 

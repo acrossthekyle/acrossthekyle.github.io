@@ -8,6 +8,7 @@ import {
   BreadcrumbList,
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
+import { Heading, Small, Strong } from '@/ui/typography';
 
 import type { Data } from './types';
 
@@ -27,16 +28,16 @@ export default function View({ data }: Props) {
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
-      <h1 id="words">
-        <strong>{route('words').text}</strong>
-        <small>{route('words').subtitle}</small>
-      </h1>
+      <Heading id="words">
+        <Strong>{route('words').text}</Strong>
+        <Small>{route('words').subtitle}</Small>
+      </Heading>
       {data.map((item) => (
         <article key={item.slug}>
-          <h2 id={item.slug}>
-            <strong>{item.title.toUpperCase()}</strong>
-            <small>{item.date} • {item.readingTime} min read</small>
-          </h2>
+          <Heading level={2} id={item.slug}>
+            <Strong uppercase>{item.title}</Strong>
+            <Small>{item.date} • {item.readingTime} min read</Small>
+          </Heading>
           <Markdown>{item.content}</Markdown>
         </article>
       ))}

@@ -1,4 +1,4 @@
-import styles from './stylesheet';
+import { Heading as TypographyHeading } from '../../typography';
 
 type Props = {
   children: React.ReactNode | React.ReactNode[];
@@ -6,8 +6,10 @@ type Props = {
 
 export default function Heading({ children }: Props) {
   return (
-    <h3 className={styles.container}>
-      {children}
-    </h3>
+    <TypographyHeading level={3}>
+      <>
+        {children}
+      </>
+    </TypographyHeading>
   );
 }

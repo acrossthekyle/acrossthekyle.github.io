@@ -8,6 +8,7 @@ import {
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
 import { LinkArrow } from '@/ui/link';
+import { Heading, Small, Strong } from '@/ui/typography';
 
 export default function View() {
   return (
@@ -21,15 +22,14 @@ export default function View() {
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
-      <h1>
-        <strong>{route('about').text}</strong>
-        <small>{route('about').subtitle}</small>
-      </h1>
+      <Heading>
+        <Strong>{route('about').text}</Strong>
+        <Small>{route('about').subtitle}</Small>
+      </Heading>
       <p>
-        Hello there! If you haven't figured it out yet, my name's Kyle. I belong
-        to the millenial generation and my favorite hobbies include creating
-        things from scratch, and heading into the realm of nature for days on
-        end.
+        Hello there! You guessed it, my name's Kyle. I belong
+        to the millennial generation and my favorite hobbies include creating
+        things from scratch, and travelling for days on end.
       </p>
       <p>
         I grew up playing with legos while starting my formal education and enjoying the golden age of Star Trek (The Next Generation, Deep Space 9, and Voyager). If you want some good breakdowns of star trek shows, check out <Link href="https://www.youtube.com/playlist?list=PLAXhpI9PdbZYF9gX4d8SHTk56eQ7w912Q" target="_blank"><u><LinkArrow>Reverse Angle</LinkArrow></u></Link> and <Link href="https://www.youtube.com/@Unlimited_Lives/playlists" target="_blank"><u><LinkArrow>Unlimited Lives</LinkArrow></u></Link> on youtube.

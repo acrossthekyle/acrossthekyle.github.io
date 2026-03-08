@@ -7,6 +7,7 @@ import {
   BreadcrumbList,
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
+import { Heading, Small, Strong } from '@/ui/typography';
 
 export default function View() {
   return (
@@ -20,10 +21,10 @@ export default function View() {
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
-      <h1>
-        <strong>{route('now').text}</strong>
-        <small>{route('now').subtitle}</small>
-      </h1>
+      <Heading>
+        <Strong>{route('now').text}</Strong>
+        <Small>{route('now').subtitle}</Small>
+      </Heading>
       <p>
         Reading "Death's End" by Liu Cixin and "A Clash of Kings" by George R.R. Martin.
       </p>

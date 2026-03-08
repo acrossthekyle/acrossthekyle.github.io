@@ -13,6 +13,7 @@ import {
   GridList,
   GridListItem,
 } from '@/ui/navigation/grid';
+import { Heading, Small, Strong } from '@/ui/typography';
 import { Weight } from '@/ui/units';
 
 import Graph from './graph';
@@ -39,12 +40,12 @@ export default function View({ data }: Props) {
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
-      <h1>
-        <strong>{data.title}</strong>
-        <small>
+      <Heading>
+        <Strong>{data.title}</Strong>
+        <Small>
           {data.date} • <Weight weight={data.total} />
-        </small>
-      </h1>
+        </Small>
+      </Heading>
       <Graph
         base={data.base}
         consumable={data.consumable}
@@ -55,37 +56,37 @@ export default function View({ data }: Props) {
       />
       {data.categories.map((category) => (
         <Fragment key={category.title}>
-          <h2 id={category.title.replace(' ', '-')}>
-            <strong>{category.title.toUpperCase()}</strong>
-            <small>
+          <Heading level={2} id={category.title.replace(' ', '-')}>
+            <Strong uppercase>{category.title}</Strong>
+            <Small>
               {category.items.length} items • <Weight weight={category.weight} />
-            </small>
-          </h2>
+            </Small>
+          </Heading>
           <Grid>
             <GridList columns={2} id={category.title.replace(' ', '-')}>
               {category.items.map((item, index: number) => (
                 <GridListItem key={index}>
                   {!!item.link ? (
                     <LinkBackdrop href={item.link} target="_blank">
-                      <strong>{item.name.join(' ')}</strong>
-                      <small>
+                      <Strong>{item.name.join(' ')}</Strong>
+                      <Small>
                         <LinkArrow>
                           {item.consumable && `Consumable • `}
                           {item.worn && `Worn • `}
                           {(!item.worn && !item.consumable) && `Base • `}
                           <Weight isSmall weight={item.weight} /> • view
                         </LinkArrow >
-                      </small>
+                      </Small>
                     </LinkBackdrop>
                   ) : (
                     <>
-                      <strong>{item.name.join(' ')}</strong>
-                      <small>
+                      <Strong>{item.name.join(' ')}</Strong>
+                      <Small>
                         {item.consumable && `Consumable • `}
                         {item.worn && `Worn • `}
                         {(!item.worn && !item.consumable) && `Base • `}
                         <Weight isSmall weight={item.weight} />
-                      </small>
+                      </Small>
                     </>
                   )}
                 </GridListItem>

@@ -7,6 +7,7 @@ import {
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
 import { Image, ImageFigure } from '@/ui/image';
+import { Heading, Small, Strong } from '@/ui/typography';
 
 import Caption from './caption';
 import styles from './stylesheet';
@@ -53,12 +54,12 @@ export default function View({ data }: Props) {
           )}
         </BreadcrumbList>
       </Breadcrumb>
-      <h1>
-        <strong>{data.place} {data.index}/{data.total}</strong>
-        <small>
+      <Heading>
+        <Strong>{data.place} {data.index}/{data.total}</Strong>
+        <Small>
           {!!data.title && `${data.title} • `}{data.location}
-        </small>
-      </h1>
+        </Small>
+      </Heading>
       <ImageFigure>
         <Image size="large" src={data.src} />
         <Caption src={data.src} />

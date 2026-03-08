@@ -5,8 +5,8 @@ import {
   GridList,
   GridListItem,
 } from '@/ui/navigation/grid';
+import { Heading, Small, Strong } from '@/ui/typography';
 
-import styles from './stylesheet';
 import Units from './units';
 import Theme from './theme';
 
@@ -14,7 +14,7 @@ type Props = {
   isMenu?: boolean;
 };
 
-type HeadingProps = {
+type HeaderProps = {
   children: React.ReactNode | React.ReactNode[];
   id: string;
   isMenu?: boolean;
@@ -26,19 +26,19 @@ type LinkProps = {
   text: string;
 };
 
-function Heading({ children, id, isMenu }: HeadingProps) {
+function Header({ children, id, isMenu }: HeaderProps) {
   if (isMenu) {
     return (
-      <h3 className={styles.heading} id={id}>
+      <Heading level={3} id={id}>
         {children}
-      </h3>
+      </Heading>
     );
   }
 
   return (
-    <h2 id={id}>
+    <Heading level={2} id={id}>
       {children}
-    </h2>
+    </Heading>
   );
 }
 
@@ -51,11 +51,11 @@ function Link({ path, subtitle, text }: LinkProps) {
       target={isExternal ? '_blank' : undefined}
     >
       {isExternal ? (
-        <LinkArrow>{text}</LinkArrow>
+        <Strong><LinkArrow>{text}</LinkArrow></Strong>
       ) : (
-        <>{text}</>
+        <Strong>{text}</Strong>
       )}
-      <small>{subtitle}</small>
+      <Small>{subtitle}</Small>
     </LinkBackdrop>
   );
 }
@@ -63,10 +63,10 @@ function Link({ path, subtitle, text }: LinkProps) {
 export default function Menu({ isMenu }: Props) {
   return (
     <>
-      <Heading id="blogging" isMenu={isMenu}>
-        <strong>BLOGGING</strong>
-        <small>My experiences</small>
-      </Heading>
+      <Header id="blogging" isMenu={isMenu}>
+        <Strong uppercase>Blogging</Strong>
+        <Small>My experiences</Small>
+      </Header>
       <Grid>
         <GridList columns={3} id="blogging">
           {ROUTES.filter(({ group }) => group === 'blogging').map((item) => (
@@ -76,10 +76,10 @@ export default function Menu({ isMenu }: Props) {
           ))}
         </GridList>
       </Grid>
-      <Heading id="info" isMenu={isMenu}>
-        <strong>INFO</strong>
-        <small>More about me</small>
-      </Heading>
+      <Header id="info" isMenu={isMenu}>
+        <Strong uppercase>Info</Strong>
+        <Small>More about me</Small>
+      </Header>
       <Grid>
         <GridList columns={3} id="info">
           {ROUTES.filter(({ group }) => group === 'info').map((item) => (
@@ -89,10 +89,10 @@ export default function Menu({ isMenu }: Props) {
           ))}
         </GridList>
       </Grid>
-      <Heading id="connect" isMenu={isMenu}>
-        <strong>CONNECT</strong>
-        <small>Reach out</small>
-      </Heading>
+      <Header id="connect" isMenu={isMenu}>
+        <Strong uppercase>Connect</Strong>
+        <Small>Reach out</Small>
+      </Header>
       <Grid>
         <GridList columns={3} id="connect">
           {ROUTES.filter(({ group }) => group === 'connect').map((item) => (
@@ -102,10 +102,10 @@ export default function Menu({ isMenu }: Props) {
           ))}
         </GridList>
       </Grid>
-      <Heading id="code" isMenu={isMenu}>
-        <strong>CODE</strong>
-        <small>Technical stuff</small>
-      </Heading>
+      <Header id="code" isMenu={isMenu}>
+        <Strong uppercase>Code</Strong>
+        <Small>Technical stuff</Small>
+      </Header>
       <Grid>
         <GridList columns={3} id="code">
           {ROUTES.filter(({ group }) => group === 'code').map((item) => (
@@ -115,10 +115,10 @@ export default function Menu({ isMenu }: Props) {
           ))}
         </GridList>
       </Grid>
-      <Heading id="settings" isMenu={isMenu}>
-        <strong>SETTINGS</strong>
-        <small>Preferences</small>
-      </Heading>
+      <Header id="settings" isMenu={isMenu}>
+        <Strong uppercase>Settings</Strong>
+        <Small>Preferences</Small>
+      </Header>
       <Grid>
         <GridList columns={3} id="settings">
           {ROUTES.filter(({ group }) => group === 'settings').map((item) => (

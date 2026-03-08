@@ -8,6 +8,7 @@ import {
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
 import { LinkArrow } from '@/ui/link';
+import { Heading, Small, Strong } from '@/ui/typography';
 
 export default function View() {
   return (
@@ -21,10 +22,10 @@ export default function View() {
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
-      <h1>
-        <strong>{route('colophon').text}</strong>
-        <small>{route('colophon').subtitle}</small>
-      </h1>
+      <Heading>
+        <Strong>{route('colophon').text}</Strong>
+        <Small>{route('colophon').subtitle}</Small>
+      </Heading>
       <p>
         This site is built with <Link href="https://nextjs.org" target="_blank"><u><LinkArrow>NextJs</LinkArrow></u></Link>, and styled with a combination of pure css and <Link href="https://tailwindcss.com" target="_blank"><u><LinkArrow>TailwindCSS</LinkArrow></u></Link>. It's deployed via <Link href="https://vercel.com" target="_blank"><u><LinkArrow>Vercel</LinkArrow></u></Link> with both static, and dynamically driven, content.
       </p>

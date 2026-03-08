@@ -4,6 +4,7 @@ const styles = tw({
   container: `
     relative
     block
+    pb-1.5
 
     before:absolute
     before:-top-2

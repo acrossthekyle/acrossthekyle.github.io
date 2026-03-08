@@ -1,3 +1,4 @@
+import { Strong, Small } from '@/ui/typography';
 import { Length } from '@/ui/units';
 import { convertFeetToMeters } from '@/utils';
 
@@ -16,8 +17,8 @@ export default function Stat({ label, value }: Props) {
   if (['start', 'end', 'time'].includes(label.toLowerCase())) {
     return (
       <>
-        <strong>{label}</strong>
-        <small>{value.basic}</small>
+        <Strong>{label}</Strong>
+        <Small>{value.basic}</Small>
       </>
     );
   }
@@ -25,10 +26,10 @@ export default function Stat({ label, value }: Props) {
   if (label.toLowerCase() === 'distance') {
     return (
       <>
-        <strong>{label}</strong>
-        <small>
+        <Strong>{label}</Strong>
+        <Small>
           <Length value={value.complex} />
-        </small>
+        </Small>
       </>
     );
   }
@@ -36,10 +37,10 @@ export default function Stat({ label, value }: Props) {
   if (['max altitude', 'elevation gain', 'elevation loss'].includes(label.toLowerCase())) {
     return (
       <>
-        <strong>{label}</strong>
-        <small>
+        <Strong>{label}</Strong>
+        <Small>
           <Length isSmall value={value.complex} />
-        </small>
+        </Small>
       </>
     );
   }
@@ -47,8 +48,8 @@ export default function Stat({ label, value }: Props) {
   if (['altitude start', 'altitude end'].includes(label.toLowerCase())) {
     return (
       <>
-        <strong>{label}</strong>
-        <small>
+        <Strong>{label}</Strong>
+        <Small>
           <Length isSmall value={{
             imperial: value.complex.imperial,
             metric: new Intl.NumberFormat().format(convertFeetToMeters(
@@ -56,7 +57,7 @@ export default function Stat({ label, value }: Props) {
             )),
           }}
         />
-        </small>
+        </Small>
       </>
     );
   }

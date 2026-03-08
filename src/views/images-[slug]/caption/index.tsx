@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from 'react';
 
+import { Small, Strong } from '@/ui/typography';
+
 import styles from './stylesheet';
 import type { Exif, Props } from './types';
 
@@ -33,32 +35,32 @@ export default function Caption({ src }: Props) {
       {!isLoading && data !== null && (
         <ul aria-label="stats" className={styles.stats}>
           <li>
-            <strong>Camera</strong>
-            <small>{data.exif.image.Model}</small>
+            <Strong>Camera</Strong>
+            <Small>{data.exif.image.Model}</Small>
           </li>
           <li>
-            <strong>ISO</strong>
-            <small>{data.exif.exif.ISO}</small>
+            <Strong>ISO</Strong>
+            <Small>{data.exif.exif.ISO}</Small>
           </li>
           <li>
-            <strong>Focal length</strong>
-            <small>{data.exif.exif.FocalLengthIn35mmFormat} mm</small>
+            <Strong>Focal length</Strong>
+            <Small>{data.exif.exif.FocalLengthIn35mmFormat} mm</Small>
           </li>
           <li>
-            <strong>Exposure</strong>
-            <small>{Number(data.exif.exif.ExposureCompensation).toFixed(1)} ev</small>
+            <Strong>Exposure</Strong>
+            <Small>{Number(data.exif.exif.ExposureCompensation).toFixed(1)} ev</Small>
           </li>
           <li>
-            <strong>F-number</strong>
-            <small>
+            <Strong>F-number</Strong>
+            <Small>
               <span className={styles.emphasis}>f</span>/{data.exif.exif.FNumber.toFixed(2)}
-            </small>
+            </Small>
           </li>
           <li>
-            <strong>Aperture</strong>
-            <small>
+            <Strong>Aperture</Strong>
+            <Small>
               {data.exif.exif.ApertureValue.toFixed(4).replace('.', '/')} <span className={styles.emphasis}>s</span>
-            </small>
+            </Small>
           </li>
         </ul>
       )}

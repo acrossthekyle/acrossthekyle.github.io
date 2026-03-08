@@ -8,6 +8,7 @@ import {
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
 import { Image } from '@/ui/image';
+import { Heading, Small, Strong } from '@/ui/typography';
 
 import styles from './stylesheet';
 import type { Data } from './types';
@@ -28,10 +29,10 @@ export default function View({ data }: Props) {
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
-      <h1>
-        <strong>{route('snapshots').text}</strong>
-        <small>{route('snapshots').subtitle}</small>
-      </h1>
+      <Heading>
+        <Strong>{route('snapshots').text}</Strong>
+        <Small>{route('snapshots').subtitle}</Small>
+      </Heading>
       {data.map((item) => (
         <Link
           className={styles.link}

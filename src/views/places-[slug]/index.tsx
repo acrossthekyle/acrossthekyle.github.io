@@ -7,6 +7,7 @@ import {
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
 import { Map, MapMarker } from '@/ui/map';
+import { Heading, Small, Strong } from '@/ui/typography';
 
 import Snapshots from './snapshots';
 import Stats from './stats';
@@ -34,12 +35,12 @@ export default function View({ data }: Props) {
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
-      <h1>
-        <strong>{data.title}</strong>
-        <small>
+      <Heading>
+        <Strong>{data.title}</Strong>
+        <Small>
           {data.type} • {data.location} • {data.year}
-        </small>
-      </h1>
+        </Small>
+      </Heading>
       {data.description.map((paragraph) => (
         <p key={paragraph}>
           {paragraph}
@@ -52,10 +53,10 @@ export default function View({ data }: Props) {
       <Snapshots images={data.images} slug={data.slug} total={data.total} />
       {!data.isDestination && (
         <>
-          <h2 id="gpx">
-            <strong>METRICS</strong>
-            <small>{data.stages.length} {data.label}s</small>
-          </h2>
+          <Heading level={2} id="gpx">
+            <Strong uppercase>Metrics</Strong>
+            <Small>{data.stages.length} {data.label}s</Small>
+          </Heading>
           <ul aria-labelledby="gpx" className={styles.gpx}>
             {data.stages.map((stage) => (
               <li key={stage.index}>
@@ -63,7 +64,7 @@ export default function View({ data }: Props) {
                   className={styles.link}
                   href={`/gpx/${data.slug}/${stage.index}`}
                 >
-                  <strong>[→] {data.label} {stage.index}:</strong>
+                  <Strong>[→] {data.label} {stage.index}:</Strong>
                   <span className={styles.title}>{stage.title}</span>
                 </Link>
               </li>

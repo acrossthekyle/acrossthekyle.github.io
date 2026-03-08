@@ -14,6 +14,7 @@ import {
   GridList,
   GridListItem,
 } from '@/ui/navigation/grid';
+import { Heading, Small, Strong } from '@/ui/typography';
 import { Weight } from '@/ui/units';
 
 import type { Data } from './types';
@@ -34,30 +35,30 @@ export default function View({ data }: Props) {
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
-      <h1>
-        <strong>{route('packs').text}</strong>
-        <small>{route('packs').subtitle}</small>
-      </h1>
+      <Heading>
+        <Strong>{route('packs').text}</Strong>
+        <Small>{route('packs').subtitle}</Small>
+      </Heading>
       <p>
         Gear loadouts from various backpacking trips.
       </p>
       {data.map((group) => (
         <Fragment key={group.id}>
-          <h2 id={group.id}>
-            <strong>{group.name.toUpperCase()}S</strong>
-            <small>
+          <Heading level={2} id={group.id}>
+            <Strong uppercase>{group.name}s</Strong>
+            <Small>
               {group.count} pack{group.count > 1 ? 's' : ''}
-            </small>
-          </h2>
+            </Small>
+          </Heading>
           <Grid>
             <GridList columns={2} id={group.id}>
               {group.items.map((item) => (
                 <GridListItem key={item.slug}>
                   <LinkBackdrop href={`/gear/${item.slug}`}>
                     <strong>{item.title}</strong>
-                    <small>
+                    <Small>
                       {item.date} • <Weight weight={item.base} />
-                    </small>
+                    </Small>
                   </LinkBackdrop>
                 </GridListItem>
               ))}

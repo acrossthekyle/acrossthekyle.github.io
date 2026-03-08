@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 import { Image } from '@/ui/image';
+import { Heading, Small, Strong } from '@/ui/typography';
 
 import styles from './stylesheet';
 
@@ -33,10 +34,10 @@ export default function Snapshots({ images, slug, total }: Props) {
 
   return (
     <>
-      <h2 id="images">
-        <strong>GALLERY</strong>
-        <small>{total} images</small>
-      </h2>
+      <Heading level={2} id="images">
+        <Strong uppercase>Gallery</Strong>
+        <Small>{total} images</Small>
+      </Heading>
       <ul aria-labelledby="images" className={styles.images}>
         {items.map((item, index: number) => (
           <li className={styles.image(index, Number(total))} key={item.index}>
@@ -53,7 +54,7 @@ export default function Snapshots({ images, slug, total }: Props) {
           onClick={handleOnViewMore}
           type="button"
         >
-          <strong>{text}</strong>
+          <Strong>{text}</Strong>
         </button>
       )}
     </>

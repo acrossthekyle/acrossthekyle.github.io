@@ -1,5 +1,6 @@
 import Link from 'next/link';
 
+import { Strong } from '@/ui/typography';
 import { Weight } from '@/ui/units';
 
 import styles from './stylesheet';
@@ -62,12 +63,10 @@ export default function Graph({
   }));
 
   return (
-    <section className={styles.container}>
-      <h2 className={styles.header}>
-        <strong>Weight breakdown</strong>
-      </h2>
+    <div className={styles.container}>
+      <Strong>Weight breakdown</Strong>
       <Link className={styles.cta} href={`/gear/wiki?ref=${slug}`}>
-        <strong>[?]</strong>
+        <Strong>[?]</Strong>
       </Link>
       <ul className={styles.graph}>
         {scaled.map(({ label, percent, value }) => (
@@ -93,6 +92,6 @@ export default function Graph({
           </li>
         ))}
       </ul>
-    </section>
+    </div>
   );
 }

@@ -11,6 +11,9 @@ const styles = tw({
     inline-block
     mb-16
   `,
+  copyright: `
+    text-xs text-(--foreground)/50
+  `,
 });
 
 export default styles;

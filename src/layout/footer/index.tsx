@@ -14,7 +14,9 @@ export default function Footer({ isRoot }: Props) {
           ./
         </Link>
       )}
-      <small>Copyright 1987 &ndash; {new Date().getFullYear()}, all rights reserved. See you out there.</small>
+      <p className={styles.copyright}>
+        Copyright 1987 &ndash; {new Date().getFullYear()}, all rights reserved. See you out there.
+      </p>
     </footer>
   );
 }
