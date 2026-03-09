@@ -6,10 +6,11 @@ import {
   BreadcrumbList,
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
+import { Stats, StatsItem } from '@/ui/stats';
 import { Heading, Small, Strong } from '@/ui/typography';
 
 import Elevation from './elevation';
-import Stats from './stats';
+import Stat from './stat';
 import styles from './stylesheet';
 import type { Data } from './types';
 
@@ -50,7 +51,13 @@ export default function View({ data }: Props) {
         </Strong>
         <Small>{data.date} • {data.location}</Small>
       </Heading>
-      <Stats stats={data.metrics} />
+      <Stats columns={3}>
+        {data.metrics.map((stat) => (
+          <StatsItem key={stat.label}>
+            <Stat label={stat.label} value={stat.value} />
+          </StatsItem>
+        ))}
+      </Stats>
       <Heading level={2}>
         <Strong uppercase>Elevation</Strong>
       </Heading>

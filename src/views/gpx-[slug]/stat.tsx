@@ -1,19 +1,9 @@
+import type { Stat } from '@/types';
 import { Strong, Small } from '@/ui/typography';
 import { Length } from '@/ui/units';
 import { convertFeetToMeters } from '@/utils';
 
-type Props = {
-  label: string;
-  value: {
-    basic: string;
-    complex: {
-      imperial: string;
-      metric: string;
-    };
-  };
-};
-
-export default function Stat({ label, value }: Props) {
+export default function Stat({ label, value }: Stat) {
   if (['start', 'end', 'time'].includes(label.toLowerCase())) {
     return (
       <>

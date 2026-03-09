@@ -13,3 +13,14 @@ export type StatShort = {
   value: string;
   units: string;
 };
+
+export type Stat = {
+  label: string;
+  value: {
+    basic: string;
+    complex: {
+      imperial: string;
+      metric: string;
+    };
+  };
+};

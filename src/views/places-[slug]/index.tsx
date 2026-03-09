@@ -7,10 +7,11 @@ import {
   BreadcrumbItem,
 } from '@/ui/breadcrumbs';
 import { Map, MapMarker } from '@/ui/map';
+import { Stats, StatsItem } from '@/ui/stats';
 import { Heading, Small, Strong } from '@/ui/typography';
 
 import Snapshots from './snapshots';
-import Stats from './stats';
+import Stat from './stat';
 import styles from './stylesheet';
 import type { Data } from './types';
 
@@ -42,11 +43,17 @@ export default function View({ data }: Props) {
         </Small>
       </Heading>
       {data.description.map((paragraph) => (
-        <p key={paragraph}>
+        <p className={styles.intro} key={paragraph}>
           {paragraph}
         </p>
       ))}
-      <Stats stats={data.stats} />
+      <Stats columns={2}>
+        {data.stats.map((stat) => (
+          <StatsItem key={stat.label}>
+            <Stat label={stat.label} value={stat.value} />
+          </StatsItem>
+        ))}
+      </Stats>
       <Map>
         <MapMarker position={data.position} />
       </Map>

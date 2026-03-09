@@ -1,6 +1,9 @@
 import tw from '@/styles';
 
 const styles = tw({
+  intro: `
+    mb-16
+  `,
   gpx: `
     flex flex-col gap-6
 

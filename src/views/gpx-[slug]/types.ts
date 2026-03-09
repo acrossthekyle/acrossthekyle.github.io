@@ -1,4 +1,4 @@
-import type { Gpx, StatFull, StatShort } from '@/types';
+import type { Gpx, Stat, StatFull, StatShort } from '@/types';
 
 export type Stats = {
   distance: StatFull | null;
@@ -15,16 +15,7 @@ export type Data = {
   index: string;
   label: string;
   location: string;
-  metrics: Array<{
-    label: string;
-    value: {
-      basic: string;
-      complex: {
-        imperial: string;
-        metric: string;
-      };
-    };
-  }>;
+  metrics: Stat[];
   next: string;
   place: string;
   previous: string;

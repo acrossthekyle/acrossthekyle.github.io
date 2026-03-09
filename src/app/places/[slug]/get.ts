@@ -1,5 +1,5 @@
 import db from '@/db/places';
-import type { StatFull } from '@/types';
+import type { Stat, StatFull } from '@/types';
 
 import { combineTermini, formatDateRange, padIndex, uppercaseFirst } from '../../utils';
 
@@ -14,21 +14,15 @@ function buildStats(
     loss: StatFull | null;
   },
 ) {
-  const result: Array<{
-    label: string;
-    value: {
-      basic: string;
-      complex: Array<{
-        imperial: string;
-        metric: string;
-      }>;
-    };
-  }> = [
+  const result: Stat[] = [
     {
       label: 'When',
       value: {
         basic: formatDateRange(date),
-        complex: [],
+        complex: {
+          imperial: '',
+          metric: '',
+        },
       },
     },
   ];
@@ -38,7 +32,10 @@ function buildStats(
       label: 'Total',
       value: {
         basic: `${stages} sections`,
-        complex: [],
+        complex: {
+          imperial: '',
+          metric: '',
+        },
       },
     });
   }
@@ -48,7 +45,10 @@ function buildStats(
       label: 'Total',
       value: {
         basic: `${stages} summits`,
-        complex: [],
+        complex: {
+          imperial: '',
+          metric: '',
+        },
       },
     });
   }
@@ -58,7 +58,10 @@ function buildStats(
       label: 'Experiences',
       value: {
         basic: `${stages} destinations`,
-        complex: [],
+        complex: {
+          imperial: '',
+          metric: '',
+        },
       },
     });
   }
@@ -68,7 +71,10 @@ function buildStats(
       label: 'Duration',
       value: {
         basic: `${stages} days`,
-        complex: [],
+        complex: {
+          imperial: '',
+          metric: '',
+        },
       },
     });
   }
@@ -81,7 +87,7 @@ function buildStats(
       label: 'Distance',
       value: {
         basic: '',
-        complex: [stats.distance.value],
+        complex: stats.distance.value,
       },
     });
   }
@@ -94,21 +100,33 @@ function buildStats(
       label: ['summit'].includes(type) ? 'Highest peak' : 'Max altitude',
       value: {
         basic: '',
-        complex: [stats.altitude.value],
+        complex: stats.altitude.value,
       },
     });
   }
 
   if (
     ['thru-hike', 'section hike', 'overnight trek'].includes(type) &&
-    stats.gain &&
+    stats.gain
+  ) {
+    result.push({
+      label: 'Elevation gain',
+      value: {
+        basic: '',
+        complex: stats.gain.value,
+      },
+    });
+  }
+
+  if (
+    ['thru-hike', 'section hike', 'overnight trek'].includes(type) &&
     stats.loss
   ) {
     result.push({
-      label: 'Elevation',
+      label: 'Elevation loss',
       value: {
         basic: '',
-        complex: [stats.gain.value, stats.loss.value],
+        complex: stats.loss.value,
       },
     });
   }

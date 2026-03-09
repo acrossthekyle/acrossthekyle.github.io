@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 
+import { Stats, StatsItem } from '@/ui/stats';
 import { Small, Strong } from '@/ui/typography';
 
 import styles from './stylesheet';
@@ -33,36 +34,40 @@ export default function Caption({ src }: Props) {
         <>...</>
       )}
       {!isLoading && data !== null && (
-        <ul aria-label="stats" className={styles.stats}>
-          <li>
+        <Stats columns={3}>
+          <StatsItem>
             <Strong>Camera</Strong>
             <Small>{data.exif.image.Model}</Small>
-          </li>
-          <li>
+          </StatsItem>
+          <StatsItem>
             <Strong>ISO</Strong>
             <Small>{data.exif.exif.ISO}</Small>
-          </li>
-          <li>
+          </StatsItem>
+          <StatsItem>
             <Strong>Focal length</Strong>
             <Small>{data.exif.exif.FocalLengthIn35mmFormat} mm</Small>
-          </li>
-          <li>
+          </StatsItem>
+          <StatsItem>
             <Strong>Exposure</Strong>
-            <Small>{Number(data.exif.exif.ExposureCompensation).toFixed(1)} ev</Small>
-          </li>
-          <li>
+            <Small>
+              {Number(data.exif.exif.ExposureCompensation).toFixed(1)} ev
+            </Small>
+          </StatsItem>
+          <StatsItem>
             <Strong>F-number</Strong>
             <Small>
-              <span className={styles.emphasis}>f</span>/{data.exif.exif.FNumber.toFixed(2)}
+              <span className={styles.emphasis}>f</span>
+              /{data.exif.exif.FNumber.toFixed(2)}
             </Small>
-          </li>
-          <li>
+          </StatsItem>
+          <StatsItem>
             <Strong>Aperture</Strong>
             <Small>
-              {data.exif.exif.ApertureValue.toFixed(4).replace('.', '/')} <span className={styles.emphasis}>s</span>
+              {data.exif.exif.ApertureValue.toFixed(4).replace('.', '/')}{' '}
+              <span className={styles.emphasis}>s</span>
             </Small>
-          </li>
-        </ul>
+          </StatsItem>
+        </Stats>
       )}
     </figcaption>
   );

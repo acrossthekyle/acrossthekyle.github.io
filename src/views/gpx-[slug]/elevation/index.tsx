@@ -4,7 +4,7 @@ import dynamic from 'next/dynamic';
 
 import { useTheme } from '@/hooks/useTheme';
 import { useUnits } from '@/hooks/useUnits';
-import type { Gpx } from '@/types';
+import type { Gpx, Stat } from '@/types';
 import { convertFeetToMeters } from '@/utils';
 
 import styles from './stylesheet';
@@ -15,16 +15,7 @@ const Chart = dynamic(() => import('react-apexcharts'), {
 
 type Props = {
   gpx: Gpx;
-  stats: Array<{
-    label: string;
-    value: {
-      basic: string;
-      complex: {
-        imperial: string;
-        metric: string;
-      };
-    };
-  }>;
+  stats: Stat[];
 };
 
 export default function Elevation({ gpx, stats }: Props) {

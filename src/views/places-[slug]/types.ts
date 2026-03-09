@@ -1,3 +1,5 @@
+import type { Stat } from '@/types';
+
 export type Data = {
   description: string[];
   images: Array<{
@@ -16,16 +18,7 @@ export type Data = {
     index: string;
     title: string;
   }>;
-  stats: Array<{
-    label: string;
-    value: {
-      basic: string;
-      complex: Array<{
-        imperial: string;
-        metric: string;
-      }>;
-    };
-  }>;
+  stats: Stat[];
   title: string;
   type: string;
   total: string;
