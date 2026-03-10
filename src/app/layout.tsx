@@ -8,8 +8,8 @@ const description = `Hi, I'm Kyle: backpacker and engineer. I'm drawn to long tr
 
 export const metadata: Metadata = {
   title: {
-    template: `%s → Kyle → Backpacker and engineer.`,
-    default: 'Home → Kyle → Backpacker and engineer.',
+    template: `Kyle Gilbert • %s`,
+    default: 'Kyle Gilbert',
   },
   keywords: [
     'across',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   openGraph: {
-    title: 'Kyle → Backpacker and engineer',
+    title: 'Kyle Gilbert',
     description,
     url: 'https://acrossthekyle.com',
     siteName: 'acrossthekyle',

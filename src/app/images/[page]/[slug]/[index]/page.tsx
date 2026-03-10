@@ -5,14 +5,13 @@ import { Suspense } from 'react';
 import Loading from '@/ui/loading';
 import View from '@/views/images-[slug]';
 
-import { uppercaseFirst } from '../../../../../utils';
+import { uppercaseFirst } from '../../../../utils';
 
 import get from './get';
 
 type Params = Promise<{
   index: string;
   page: string;
-  path: string[];
   slug: string;
 }>;
 
@@ -21,9 +20,9 @@ type GenerateMetadata = {
 };
 
 export async function generateMetadata({ params }: GenerateMetadata): Promise<Metadata> {
-  const { index, page, path, slug } = await params;
+  const { index, page, slug } = await params;
 
-  const data = get(page, path, slug.toLowerCase(), index);
+  const data = get(page, slug.toLowerCase(), index);
 
   if (data === null) {
     return {
@@ -43,7 +42,7 @@ export async function generateMetadata({ params }: GenerateMetadata): Promise<Me
   }
 
   return {
-    title: `Image ${index}/${data.total} → ${data.place === uppercaseFirst(page) ? data.place : ` → ${uppercaseFirst(page)}`} → Images`,
+    title: `${uppercaseFirst(page)} • ${data.title}`,
     description: '',
     robots: {
       index: false,
@@ -63,9 +62,9 @@ export default async function Page({
 }: {
   params: Params;
 }) {
-  const { index, page, path, slug } = await params;
+  const { index, page, slug } = await params;
 
-  const data = get(page, path, slug.toLowerCase(), index);
+  const data = get(page, slug.toLowerCase(), index);
 
   if (data === null) {
     return notFound();

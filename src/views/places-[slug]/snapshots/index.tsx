@@ -40,7 +40,7 @@ export default function Snapshots({ images, slug, total }: Props) {
       <ul aria-labelledby="images" className={styles.images}>
         {items.map((item, index: number) => (
           <li className={styles.image(index, Number(total))} key={item.index}>
-            <Link href={`/images/places/${slug}/${item.index}/${item.src}`}>
+            <Link href={`/images/places/${slug}/${item.index}`}>
               <Image src={item.src} />
             </Link>
           </li>

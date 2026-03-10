@@ -1,26 +1,17 @@
-import type { Gpx, Stat, StatFull, StatShort } from '@/types';
-
-export type Stats = {
-  distance: StatFull | null;
-  gain: StatFull | null;
-  loss: StatFull | null;
-  max: StatFull | null;
-  time: StatShort | null;
-};
+import type { Stat } from '@/types';
 
 export type Data = {
-  date: string;
-  gpx: Gpx;
+  back: Array<{
+    text: string;
+    uri: string;
+  }>;
+  elevation: number[];
   hasNavigation: boolean;
-  index: string;
-  label: string;
-  location: string;
   metrics: Stat[];
   next: string;
-  place: string;
   previous: string;
   slug: string;
+  subTitle: string;
   title: string;
-  total: string;
 };
 

@@ -1,22 +1,17 @@
-import db from '@/db/places';
+import gear from '@/db/gear';
+import places from '@/db/places';
 
-import { formatDateRange } from '../../utils';
+export default function get(id, type) {
+  const place = places.find((place) => place.id === id.toLowerCase());
+  const data = gear.find(({ placeId }) => placeId === id.toLowerCase());
 
-const FALLBACK = {
-  imperial: 0,
-  metric: '0',
-};
-
-export default function get(slug, type) {
-  const data = db.find((item) => item.slug.toLowerCase() === slug.toLowerCase());
-
-  if (data === undefined || !data?.hasGear) {
+  if (place === undefined || data === undefined) {
     return null;
   }
 
   return {
-    base: data.gear?.weightBase || FALLBACK,
-    categories: (data.gear?.categories || []).filter((category) => {
+    base: data.weightBase,
+    categories: data.categories.filter((category) => {
       if (type === 'base') {
         return category.items.filter((item) => !item.consumable && !item.worn).length > 0;
       }
@@ -48,12 +43,12 @@ export default function get(slug, type) {
         return true;
       }),
     })),
-    consumable: data.gear?.weightConsumable || FALLBACK,
-    date: formatDateRange(data.date, true),
-    slug,
-    title: data.title.join(' '),
-    total: data.gear?.weightTotal || FALLBACK,
+    consumable: data.weightConsumable,
+    date: place.year,
+    slug: id,
+    title: place.title,
+    total: data.weightTotal,
     type,
-    worn: data.gear?.weightWorn || FALLBACK,
+    worn: data.weightWorn,
   };
 };

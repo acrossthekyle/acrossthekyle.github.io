@@ -1,26 +1,16 @@
-export type Data = {
-  groups: Array<{
+export type Data = Array<{
+  id: string;
+  items: Array<{
+    date: string;
     id: string;
-    items: Array<{
-      date: string;
-      index: string;
-      location: string;
-      slug: string;
-      title: string;
-      type: string;
-    }>;
-    name: string;
-    types: Array<{
-      count: number;
-      name: string;
-    }>;
-  }>;
-  markers: Array<{
-    position: {
-      left: string;
-      top: string;
-    };
-    slug: string;
+    index: string;
+    location: string;
     title: string;
+    type: string;
   }>;
-};
+  name: string;
+  types: Array<{
+    count: number;
+    name: string;
+  }>;
+}>;

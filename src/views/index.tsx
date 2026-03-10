@@ -14,7 +14,7 @@ export default function View() {
         </Small>
       </Heading>
       <p>
-        I'm drawn to long trails and wild places, from the Himalayas to Patagonia. Between adventures, I build web apps in Chicago.
+        A millennial drawn to long trails and wild places, from the Himalayas to Patagonia. Between adventures, I build web apps in Chicago.
       </p>
       <Navigation />
     </Layout>

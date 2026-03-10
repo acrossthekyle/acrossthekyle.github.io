@@ -27,38 +27,18 @@ export default function View({ data }: Props) {
               ..
             </Link>
           </BreadcrumbItem>
-          {data.page === 'photos' ? (
-            <BreadcrumbItem>
-              <Link href="/photos">
-                /snapshots
+          {data.back.map(({ text, uri }) => (
+            <BreadcrumbItem key={uri}>
+              <Link href={uri}>
+                {text}
               </Link>
             </BreadcrumbItem>
-          ) : (
-            <>
-              <BreadcrumbItem>
-                <Link href="/places">
-                  /places
-                </Link>
-              </BreadcrumbItem>
-              <BreadcrumbItem>
-                <Link href={`/places/${data.slug}`}>
-                  /{data.place.replace('Image', '')}
-                </Link>
-              </BreadcrumbItem>
-              <BreadcrumbItem>
-                <Link href={`/places/${data.slug}#images`}>
-                  /images
-                </Link>
-              </BreadcrumbItem>
-            </>
-          )}
+          ))}
         </BreadcrumbList>
       </Breadcrumb>
       <Heading>
-        <Strong>{data.place} {data.index}/{data.total}</Strong>
-        <Small>
-          {!!data.title && `${data.title} • `}{data.location}
-        </Small>
+        <Strong>{data.title}</Strong>
+        <Small>{data.subTitle}</Small>
       </Heading>
       <ImageFigure>
         <Image size="large" src={data.src} />

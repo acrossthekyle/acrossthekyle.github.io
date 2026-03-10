@@ -4,7 +4,7 @@ import dynamic from 'next/dynamic';
 
 import { useTheme } from '@/hooks/useTheme';
 import { useUnits } from '@/hooks/useUnits';
-import type { Gpx, Stat } from '@/types';
+import type { Stat } from '@/types';
 import { convertFeetToMeters } from '@/utils';
 
 import styles from './stylesheet';
@@ -14,15 +14,15 @@ const Chart = dynamic(() => import('react-apexcharts'), {
 });
 
 type Props = {
-  gpx: Gpx;
+  elevation: number[];
   stats: Stat[];
 };
 
-export default function Elevation({ gpx, stats }: Props) {
+export default function Elevation({ elevation, stats }: Props) {
   const { theme } = useTheme();
   const { units } = useUnits();
 
-  if (gpx.length === 0) {
+  if (elevation.length === 0) {
     return null;
   }
 
@@ -32,7 +32,7 @@ export default function Elevation({ gpx, stats }: Props) {
 
   return (
     <section
-      aria-label="gpx elevation profile"
+      aria-label="elevation profile"
       className={styles.container}
       id="gpx"
     >
@@ -139,7 +139,7 @@ export default function Elevation({ gpx, stats }: Props) {
           series={[
             {
               name: '',
-              data: gpx.map(coordinate => coordinate[2]),
+              data: elevation,
             },
           ]}
           type="area"

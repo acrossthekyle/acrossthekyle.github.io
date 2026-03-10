@@ -7,39 +7,12 @@ import matter from 'gray-matter';
 import path from 'path';
 import readingTime from 'reading-time';
 
-const repository = path.join(process.cwd(), './repository/words');
-const output = path.join(process.cwd(), './src/db');
+import { write } from './utils';
 
-async function createDirectory(destination) {
-  try {
-    await fs.readdirSync(destination);
-  } catch (e) {
-    await fs.mkdirSync(destination);
-  }
-}
-
-async function writeFile(destination, filename, content, silent = false) {
-  createDirectory(destination);
-
-  await fs.writeFile(`${destination}/${filename}`, content, function (error) {
-    if (error) {
-      return console.log(error);
-    }
-
-    if (!silent) {
-      console.log(`wrote ${destination}/${filename}`);
-    }
-  });
-}
-
-async function writeData(destination, data) {
-  const json = `const data = ${JSON.stringify(data, null, 2)};\n\r\n\rexport default data;`;
-
-  await writeFile(output, destination, json);
-}
+const input = path.join(process.cwd(), './repository/words');
 
 export async function go() {
-  const writings = fs.readdirSync(repository).filter((item) => {
+  const writings = fs.readdirSync(input).filter((item) => {
     if (item !== '.DS_Store') {
       return item;
     }
@@ -49,14 +22,14 @@ export async function go() {
 
   await Promise.all(
     writings.map((year) => {
-      const months = fs.readdirSync(path.join(repository, year)).filter((item) => {
+      const months = fs.readdirSync(path.join(input, year)).filter((item) => {
         if (item !== '.DS_Store') {
           return item;
         }
       });
 
       months.map((month) => {
-        const days = fs.readdirSync(path.join(repository, `${year}/${month}`)).filter((item) => {
+        const days = fs.readdirSync(path.join(input, `${year}/${month}`)).filter((item) => {
           if (item !== '.DS_Store') {
             return item;
           }
@@ -64,7 +37,7 @@ export async function go() {
 
         days.map((day) => {
           const file = fs.readFileSync(
-            path.join(repository, `${year}/${month}/${day}/index.md`),
+            path.join(input, `${year}/${month}/${day}/index.md`),
             'utf8',
           );
 
@@ -90,6 +63,6 @@ export async function go() {
       index,
     })).sort((a, b) => b.timestamp - a.timestamp);
 
-    writeData('words.js', sorted);
+    write('words.js', sorted);
   }
 }

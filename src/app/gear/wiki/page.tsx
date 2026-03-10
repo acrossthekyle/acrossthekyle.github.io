@@ -5,7 +5,7 @@ import Loading from '@/ui/loading';
 import View from '@/views/gear-wiki';
 
 export const metadata: Metadata = {
-  title: 'Wiki → Packs',
+  title: 'Packs • Wiki',
   description: '',
   robots: {
     index: false,

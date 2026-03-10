@@ -1,5 +1,3 @@
-export type Gpx = [number, number, number][];
-
 export type StatFull = {
   label: string;
   value: {

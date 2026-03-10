@@ -1,6 +1,6 @@
 import places from '@/db/places';
 
-import { formatDateRange, padIndex, uppercaseFirst } from '../utils';
+import { padIndex, uppercaseFirst } from '../utils';
 
 export default function get() {
   const reduced = places.reduce((result, place) => {
@@ -45,38 +45,28 @@ export default function get() {
       id: key.replace(' ', '-'),
       name: key,
       items: items.map(({
-        date,
+        id,
         index,
         location,
         position,
-        slug,
         title,
         type,
+        year,
       }) => ({
-        date: formatDateRange(date, true),
+        date: year,
+        id,
         index: padIndex(index + 1),
         location,
         position: {
           top: position[0],
           left: position[1],
         },
-        slug,
-        title: title.join(' '),
+        title,
         type: uppercaseFirst(type),
       })),
       types,
     };
   });
 
-  return {
-    groups,
-    markers: places.map(({ position, slug, title }) => ({
-      position: {
-        top: position[0],
-        left: position[1],
-      },
-      slug,
-      title: title.join(' '),
-    })),
-  };
+  return groups;
 };

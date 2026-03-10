@@ -4,39 +4,12 @@
 import fs from 'fs';
 import path from 'path';
 
-const repository = path.join(process.cwd(), './repository/resume');
-const output = path.join(process.cwd(), './src/db');
+import { write } from './utils';
 
-async function createDirectory(destination) {
-  try {
-    await fs.readdirSync(destination);
-  } catch (e) {
-    await fs.mkdirSync(destination);
-  }
-}
-
-async function writeFile(destination, filename, content, silent = false) {
-  createDirectory(destination);
-
-  await fs.writeFile(`${destination}/${filename}`, content, function (error) {
-    if (error) {
-      return console.log(error);
-    }
-
-    if (!silent) {
-      console.log(`wrote ${destination}/${filename}`);
-    }
-  });
-}
-
-async function writeData(destination, data) {
-  const json = `const data = ${JSON.stringify(data, null, 2)};\n\r\n\rexport default data;`;
-
-  await writeFile(output, destination, json);
-}
+const input = path.join(process.cwd(), './repository/resume');
 
 export async function go() {
-  const jobs = fs.readdirSync(`${repository}/jobs`).filter((directory) => {
+  const jobs = fs.readdirSync(`${input}/jobs`).filter((directory) => {
     if (directory !== '.DS_Store') {
       return directory;
     }
@@ -51,7 +24,7 @@ export async function go() {
   await Promise.all(
     jobs.map(async (folder) => {
       const json = JSON.parse(fs.readFileSync(
-        path.join(repository, `jobs/${folder}/data.json`),
+        path.join(input, `jobs/${folder}/data.json`),
         'utf8',
       ));
 
@@ -60,14 +33,14 @@ export async function go() {
   );
 
   const education = JSON.parse(fs.readFileSync(
-    path.join(repository, 'education.json'),
+    path.join(input, 'education.json'),
     'utf8',
   ));
 
   data.education = education;
 
   const skills = JSON.parse(fs.readFileSync(
-    path.join(repository, 'skills.json'),
+    path.join(input, 'skills.json'),
     'utf8',
   ));
 
@@ -78,6 +51,6 @@ export async function go() {
 
     data.history = history;
 
-    writeData('resume.js', data);
+    write('resume.js', data);
   }
 }

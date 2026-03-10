@@ -1,7 +1,6 @@
 import type { Stat } from '@/types';
 import { Strong, Small } from '@/ui/typography';
 import { Length } from '@/ui/units';
-import { convertFeetToMeters } from '@/utils';
 
 export default function Stat({ label, value }: Stat) {
   if (['start', 'end', 'time'].includes(label.toLowerCase())) {
@@ -24,33 +23,12 @@ export default function Stat({ label, value }: Stat) {
     );
   }
 
-  if (['max altitude', 'elevation gain', 'elevation loss'].includes(label.toLowerCase())) {
-    return (
-      <>
-        <Strong>{label}</Strong>
-        <Small>
-          <Length isSmall value={value.complex} />
-        </Small>
-      </>
-    );
-  }
-
-  if (['altitude start', 'altitude end'].includes(label.toLowerCase())) {
-    return (
-      <>
-        <Strong>{label}</Strong>
-        <Small>
-          <Length isSmall value={{
-            imperial: value.complex.imperial,
-            metric: new Intl.NumberFormat().format(convertFeetToMeters(
-              Number(value.complex.imperial),
-            )),
-          }}
-        />
-        </Small>
-      </>
-    );
-  }
-
-  return null;
+  return (
+    <>
+      <Strong>{label}</Strong>
+      <Small>
+        <Length isSmall value={value.complex} />
+      </Small>
+    </>
+  );
 }

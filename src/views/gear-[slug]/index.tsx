@@ -68,7 +68,7 @@ export default function View({ data }: Props) {
                 <GridListItem key={index}>
                   {!!item.link ? (
                     <LinkBackdrop href={item.link} target="_blank">
-                      <Strong>{item.name.join(' ')}</Strong>
+                      <Strong>{item.name}</Strong>
                       <Small>
                         <LinkArrow>
                           {item.consumable && `Consumable • `}
@@ -80,7 +80,7 @@ export default function View({ data }: Props) {
                     </LinkBackdrop>
                   ) : (
                     <>
-                      <Strong>{item.name.join(' ')}</Strong>
+                      <Strong>{item.name}</Strong>
                       <Small>
                         {item.consumable && `Consumable • `}
                         {item.worn && `Worn • `}

@@ -33,23 +33,18 @@ export default function View({ data }: Props) {
               /places
             </Link>
           </BreadcrumbItem>
-          <BreadcrumbItem>
-            <Link href={`/places/${data.slug}`}>
-              /{data.place}
-            </Link>
-          </BreadcrumbItem>
-          <BreadcrumbItem>
-            <Link href={`/places/${data.slug}#gpx`}>
-              /metrics
-            </Link>
-          </BreadcrumbItem>
+          {data.back.map(({ text, uri }) => (
+            <BreadcrumbItem key={uri}>
+              <Link href={uri}>
+                {text}
+              </Link>
+            </BreadcrumbItem>
+          ))}
         </BreadcrumbList>
       </Breadcrumb>
       <Heading>
-        <Strong>
-          {data.place} {data.label} {data.index}/{data.total}: {data.title}
-        </Strong>
-        <Small>{data.date} • {data.location}</Small>
+        <Strong>{data.title}</Strong>
+        <Small>{data.subTitle}</Small>
       </Heading>
       <Stats columns={3}>
         {data.metrics.map((stat) => (
@@ -61,7 +56,7 @@ export default function View({ data }: Props) {
       <Heading level={2}>
         <Strong uppercase>Elevation</Strong>
       </Heading>
-      <Elevation gpx={data.gpx} stats={data.metrics} />
+      <Elevation elevation={data.elevation} stats={data.metrics} />
       {data.hasNavigation && (
         <nav aria-label="gpx supplementary navigation" className={styles.nav}>
           {!!data.previous && (

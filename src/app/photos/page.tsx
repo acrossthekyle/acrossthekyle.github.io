@@ -7,7 +7,7 @@ import View from '@/views/photos';
 import get from './get';
 
 export const metadata: Metadata = {
-  title: 'Photos',
+  title: 'Snapshots',
   description: 'I use my phone to capture moments from everyday life and the vibrant city around me. Sharing these images here lets me showcase the world I encounter.',
 };
 

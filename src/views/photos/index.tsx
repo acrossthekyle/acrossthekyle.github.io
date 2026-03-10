@@ -36,7 +36,7 @@ export default function View({ data }: Props) {
       {data.map((item) => (
         <Link
           className={styles.link}
-          href={`/images/photos/${item.slug}/${item.index}/${item.src}`}
+          href={`/images/photos/${item.slug}/${item.index}`}
           key={item.src}
         >
           <Image src={item.src} />

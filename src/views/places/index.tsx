@@ -41,7 +41,7 @@ export default function View({ data }: Props) {
       <p>
         A collection of my hikes and destinations since 2015.
       </p>
-      {data.groups.map((group) => (
+      {data.map((group) => (
         <Fragment key={group.id}>
           <Heading level={2} id={group.id}>
             <Strong uppercase>{group.name}</Strong>
@@ -53,7 +53,7 @@ export default function View({ data }: Props) {
             <GridList columns={2} id={group.id}>
               {group.items.map((item) => (
                 <GridListItem key={item.index}>
-                  <LinkBackdrop href={`/places/${item.slug}`}>
+                  <LinkBackdrop href={`/places/${item.id}`}>
                     <Strong>{item.title}</Strong>
                     <Small>
                       {item.type} • {item.location} • {item.date}

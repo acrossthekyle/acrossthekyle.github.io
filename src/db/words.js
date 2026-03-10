@@ -1,6 +1,16 @@
 const data = [
   {
     "author": "Kyle Gilbert",
+    "slug": "dark-matter-apple-tv",
+    "title": "Dark Matter on AppleTV+",
+    "content": "\nAbsolustly loved this show. I read the book several years ago, but didn't remember much from it. As far as I can tell based on breakdowns of the show on YouTube the adaptation followed the book close enough, with some minor deviations here and there.\n\nI hope they don't fall into a writing-trap for season two, and keep it interesting, with some sort of great ending planned.\n",
+    "date": "March 10th, 2026",
+    "readingTime": "1",
+    "timestamp": 1773118800,
+    "index": 5
+  },
+  {
+    "author": "Kyle Gilbert",
     "slug": "tripling-my-computer-monitors",
     "title": "Tripling my computer monitors",
     "content": "\nOver the holidays I received a \"home office\" upgrade, and I'm loving it.\n\nBefore the \"upgrade\" I was doing all my work on a laptop: one screen, with constant window and context switching. It technically worked, but it wasn't exactly efficient.\n\nI’m now using a laptop monitor extension that adds two 1080p screens. Having three displays means I can keep apps such as email, chat, or docs open all the time and stay focused in my editor. Less bouncing around, more actual coding.\n",
