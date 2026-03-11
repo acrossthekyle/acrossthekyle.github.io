@@ -9,11 +9,12 @@ const grid = `
 const styles = tw({
   container: `
     relative
+  `,
+  chart: `
+    relative
     border border-(--foreground)/7
     pt-1
     mb-16
-  `,
-  chart: `
     h-50 w-full
     px-0.25
     select-none

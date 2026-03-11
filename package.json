@@ -9,6 +9,8 @@
     "lint": "eslint src",
     "data": "npx tsx --experimental-modules scripts/data.ts",
     "reboot": "npm run data && npm run dev",
+    "e2e": "npx playwright test",
+    "e2e:start": "next build && next start",
     "test": "jest",
     "prepare": "husky"
   },
@@ -25,6 +27,7 @@
     "@date-fns/tz": "1.4.1",
     "@date-fns/utc": "2.1.1",
     "@eslint/eslintrc": "3.3.3",
+    "@playwright/test": "1.58.2",
     "@tailwindcss/postcss": "4.1.18",
     "@testing-library/dom": "10.4.1",
     "@testing-library/jest-dom": "6.9.1",

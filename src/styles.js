@@ -1,4 +1,4 @@
-function clean(string) {
+export function clean(string) {
   return string
     .replace('false', '')
     .replace('undefined', '')

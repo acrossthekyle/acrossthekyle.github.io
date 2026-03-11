@@ -27,10 +27,8 @@ export default function Snapshots({ images, slug, total }: Props) {
   };
 
   const items = images.length > 6
-    ? images.slice(0, canShowAll ? -1 : 6)
+    ? (canShowAll ? images : images.slice(0, 6))
     : images;
-
-  const text = `[${canShowAll ? '-' : '+'}] ${!canShowAll ? 'View all images' : 'View less'}`;
 
   return (
     <>
@@ -53,7 +51,9 @@ export default function Snapshots({ images, slug, total }: Props) {
           onClick={handleOnViewMore}
           type="button"
         >
-          <Strong>{text}</Strong>
+          <Strong>
+            {`[${canShowAll ? '-' : '+'}] ${!canShowAll ? 'View all images' : 'View less'}`}
+          </Strong>
         </button>
       )}
     </>

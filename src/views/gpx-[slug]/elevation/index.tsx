@@ -5,6 +5,7 @@ import dynamic from 'next/dynamic';
 import { useTheme } from '@/hooks/useTheme';
 import { useUnits } from '@/hooks/useUnits';
 import type { Stat } from '@/types';
+import { Heading, Strong } from '@/ui/typography';
 import { convertFeetToMeters } from '@/utils';
 
 import styles from './stylesheet';
@@ -32,10 +33,12 @@ export default function Elevation({ elevation, stats }: Props) {
 
   return (
     <section
-      aria-label="elevation profile"
       className={styles.container}
       id="gpx"
     >
+      <Heading level={2}>
+        <Strong uppercase>Elevation</Strong>
+      </Heading>
       <div className={styles.chart}>
         <Chart
           options={{
@@ -145,12 +148,12 @@ export default function Elevation({ elevation, stats }: Props) {
           type="area"
           height="100%"
         />
+        <div className={styles.grid1} />
+        <div className={styles.grid2} />
+        <div className={styles.grid3} />
+        <div className={styles.grid4} />
+        <div className={styles.grid5} />
       </div>
-      <div className={styles.grid1} />
-      <div className={styles.grid2} />
-      <div className={styles.grid3} />
-      <div className={styles.grid4} />
-      <div className={styles.grid5} />
       {distance && (
         <div
           className={styles.ticks}
