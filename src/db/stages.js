@@ -625,6 +625,22 @@ const data = [
   },
   {
     "id": "01",
+    "placeId": "river-ridge-backpacking-loop",
+    "date": "Mar 14th, 2026",
+    "image": "2026/03/14/8e8fd062-270f-4081-96c3-ee072a81caab.jpeg",
+    "location": "River Ridge Trail",
+    "title": "Ridge Trailhead to East Camp"
+  },
+  {
+    "id": "02",
+    "placeId": "river-ridge-backpacking-loop",
+    "date": "Mar 15th, 2026",
+    "image": "2026/03/14/0048f3c5-e902-4713-8745-5562d51566a7.jpeg",
+    "location": "River Ridge Trail",
+    "title": "East Camp to Ridge Trailhead"
+  },
+  {
+    "id": "01",
     "placeId": "geneva",
     "date": "Jul 24th, 2024",
     "image": "2024/07/24/f6f7470b-5e4e-42f7-aa59-ccabe81778bf.jpeg",

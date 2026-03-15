@@ -1,6 +1,6 @@
 const data = [
   {
-    "index": 20,
+    "index": 21,
     "continent": "europe",
     "date": "Jul 16th to 25th, 2019",
     "description": [
@@ -18,7 +18,7 @@ const data = [
     "year": "2019"
   },
   {
-    "index": 19,
+    "index": 20,
     "continent": "asia",
     "date": "Oct 19th to Nov 6th, 2019",
     "description": [
@@ -36,7 +36,7 @@ const data = [
     "year": "2019"
   },
   {
-    "index": 18,
+    "index": 19,
     "continent": "south america",
     "date": "Mar 19th to 22nd, 2015",
     "description": [
@@ -54,7 +54,7 @@ const data = [
     "year": "2015"
   },
   {
-    "index": 17,
+    "index": 18,
     "continent": "africa",
     "date": "Dec 29th to Jan 2nd, 2023",
     "description": [
@@ -72,7 +72,7 @@ const data = [
     "year": "2023"
   },
   {
-    "index": 16,
+    "index": 17,
     "continent": "europe",
     "date": "Jun 2nd to Jul 4th, 2018",
     "description": [
@@ -90,7 +90,7 @@ const data = [
     "year": "2018"
   },
   {
-    "index": 15,
+    "index": 16,
     "continent": "north america",
     "date": "2019+",
     "description": [
@@ -108,7 +108,7 @@ const data = [
     "year": "2019+"
   },
   {
-    "index": 14,
+    "index": 15,
     "continent": "europe",
     "date": "Jul 5th to 7th, 2023",
     "description": [
@@ -124,6 +124,24 @@ const data = [
     "title": "Corsica",
     "type": "destination",
     "year": "2023"
+  },
+  {
+    "index": 14,
+    "continent": "north america",
+    "date": "Mar 14th to 15th, 2026",
+    "description": [
+      "The River Ridge Backpack Trail at Forest Glen Preserve in Westville, Illinois, is a relatively moderate 10.5 mile loop designed for beginner backpackers, featuring steep ravines, creek crossings, and ridge-top hiking. It is widely considered one of the few true backpacking experiences in Illinois, often completed as an overnight trip with two dedicated primitive campsites."
+    ],
+    "id": "river-ridge-backpacking-loop",
+    "label": "Stage",
+    "location": "Illinois",
+    "position": [
+      "49.5%",
+      "19%"
+    ],
+    "title": "River Ridge Trail",
+    "type": "overnight trek",
+    "year": "2026"
   },
   {
     "index": 13,

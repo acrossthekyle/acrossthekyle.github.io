@@ -698,6 +698,60 @@ const data = [
       "value": {
         "basic": "",
         "complex": {
+          "imperial": "10",
+          "metric": "16"
+        }
+      }
+    },
+    "gain": {
+      "label": "Elevation gain",
+      "value": {
+        "basic": "",
+        "complex": {
+          "imperial": "1,194",
+          "metric": "364"
+        }
+      }
+    },
+    "loss": {
+      "label": "Elevation loss",
+      "value": {
+        "basic": "",
+        "complex": {
+          "imperial": "1,196",
+          "metric": "365"
+        }
+      }
+    },
+    "max": {
+      "label": "Max altitude",
+      "value": {
+        "basic": "",
+        "complex": {
+          "imperial": "694",
+          "metric": "212"
+        }
+      }
+    },
+    "placeId": "river-ridge-backpacking-loop",
+    "total": null,
+    "when": {
+      "label": "When",
+      "value": {
+        "basic": "Mar 14th to 15th, 2026",
+        "complex": {
+          "imperial": "",
+          "metric": ""
+        }
+      }
+    }
+  },
+  {
+    "distance": {
+      "label": "Distance",
+      "value": {
+        "basic": "",
+        "complex": {
           "imperial": "117",
           "metric": "188"
         }
