@@ -64,7 +64,6 @@ export default function get() {
         index,
         location,
         position,
-        timestamp,
         title,
         type,
         year,
@@ -72,7 +71,6 @@ export default function get() {
         date: year,
         id,
         index: padIndex(index + 1),
-        isNew: getIsNew(timestamp),
         location,
         position: {
           top: position[0],
@@ -85,5 +83,15 @@ export default function get() {
     };
   });
 
-  return groups;
+  const recent = places.find((place) => {
+    return getIsNew(place.timestamp);
+  });
+
+  return {
+    groups,
+    recent: recent ? {
+      id: recent.id,
+      title: recent.title,
+    } : null,
+  };
 };
