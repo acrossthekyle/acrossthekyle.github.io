@@ -1,3 +1,4 @@
 node husky-last-updated.js
+git add src/db/config.js
 npx lint-staged
 npm run build
