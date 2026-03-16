@@ -78,6 +78,7 @@ export async function compile(input: string) {
     label: getLabel(data.type),
     location: data.location,
     position: data.position,
+    timestamp: data.timestamp,
     title: data.title,
     type: data.type,
     year: getYear(data.dates),

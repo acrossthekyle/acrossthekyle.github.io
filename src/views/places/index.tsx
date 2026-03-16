@@ -54,7 +54,10 @@ export default function View({ data }: Props) {
               {group.items.map((item) => (
                 <GridListItem key={item.index}>
                   <LinkBackdrop href={`/places/${item.id}`}>
-                    <Strong>{item.title}</Strong>
+                    <Strong>
+                      {item.title}
+                      {item.isNew && <span> *new*</span>}
+                    </Strong>
                     <Small>
                       {item.type} • {item.location} • {item.date}
                     </Small>

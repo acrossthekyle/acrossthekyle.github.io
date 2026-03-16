@@ -1,2 +1,3 @@
+node husky-last-updated.js
 npx lint-staged
 npm run build

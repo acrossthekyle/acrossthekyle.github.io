@@ -68,9 +68,9 @@ export async function go() {
       'places.js',
       cache.places
         .sort((a, b) => b.timestamp - a.timestamp)
-        .map(({ timestamp, ...rest }, index) => ({
+        .map((data, index) => ({
+          ...data,
           index: (cache.places.length - 1) - index,
-          ...rest,
         })),
     );
 

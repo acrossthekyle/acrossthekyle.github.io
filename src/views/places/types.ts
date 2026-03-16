@@ -4,6 +4,7 @@ export type Data = Array<{
     date: string;
     id: string;
     index: string;
+    isNew: boolean;
     location: string;
     title: string;
     type: string;

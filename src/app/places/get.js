@@ -2,6 +2,21 @@ import places from '@/db/places';
 
 import { padIndex, uppercaseFirst } from '../utils';
 
+function getIsNew(timestamp) {
+  const baseline = new Date();
+        baseline.setMonth(baseline.getMonth() - 1);
+
+  if (baseline.getMonth() == baseline.getMonth()) {
+    baseline.setDate(0);
+  }
+
+  baseline.setHours(0, 0, 0, 0);
+
+  const milliseconds = timestamp * 1000;
+
+  return milliseconds >= baseline.getTime() && milliseconds <= new Date().getTime();
+}
+
 export default function get() {
   const reduced = places.reduce((result, place) => {
     const key = place.continent;
@@ -49,6 +64,7 @@ export default function get() {
         index,
         location,
         position,
+        timestamp,
         title,
         type,
         year,
@@ -56,6 +72,7 @@ export default function get() {
         date: year,
         id,
         index: padIndex(index + 1),
+        isNew: getIsNew(timestamp),
         location,
         position: {
           top: position[0],

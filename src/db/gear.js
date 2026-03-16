@@ -6198,6 +6198,557 @@ const data = [
         "title": "Pack",
         "items": [
           {
+            "link": "https://evolvedsupplyco.com/supplies/p/the-ranger",
+            "name": "ESC Ranger",
+            "weight": {
+              "imperial": "19.25",
+              "metric": "546"
+            },
+            "consumable": false,
+            "worn": false
+          },
+          {
+            "link": "https://evolvedsupplyco.com/supplies/p/nylofume-pack-liner",
+            "name": "Nylofume Pack Liner",
+            "weight": {
+              "imperial": "1.02",
+              "metric": "29"
+            },
+            "consumable": false,
+            "worn": false
+          }
+        ],
+        "weight": {
+          "imperial": "1.27",
+          "metric": "0.57"
+        }
+      },
+      {
+        "title": "Shelter",
+        "items": [
+          {
+            "link": "https://durstongear.com/products/x-dome-1-plus-ultralight-backpacking-tent",
+            "name": "Durston Gear X-Dome 1+ tent",
+            "weight": {
+              "imperial": "35",
+              "metric": "992"
+            },
+            "consumable": false,
+            "worn": false
+          },
+          {
+            "link": "https://www.rei.com/product/829838/msr-mini-ground-hog-stake",
+            "name": "MSR Ground Hog Mini stakes",
+            "weight": {
+              "imperial": "2.1",
+              "metric": "60"
+            },
+            "consumable": false,
+            "worn": false
+          }
+        ],
+        "weight": {
+          "imperial": "2.32",
+          "metric": "1.05"
+        }
+      },
+      {
+        "title": "Sleeping",
+        "items": [
+          {
+            "link": "https://enlightenedequipment.com/revelation-stock",
+            "name": "EE Revelation 10ºF Quilt",
+            "weight": {
+              "imperial": "27",
+              "metric": "765"
+            },
+            "consumable": false,
+            "worn": false
+          },
+          {
+            "link": "https://zenbivy.com/products/pillow-air-bladder",
+            "name": "Zenbivy Modular Large Pillow",
+            "weight": {
+              "imperial": "1.7",
+              "metric": "48"
+            },
+            "consumable": false,
+            "worn": false
+          },
+          {
+            "link": "https://www.pillowstrap.com/products/medium-in-green",
+            "name": "Pillow Strap Pillow Case",
+            "weight": {
+              "imperial": "2.19",
+              "metric": "62"
+            },
+            "consumable": false,
+            "worn": false
+          },
+          {
+            "link": "https://www.rei.com/product/228436/nemo-tensor-all-season-ultralight-insulated-sleeping-pad",
+            "name": "NEMO Tensor All Season R 5.4 Pad",
+            "weight": {
+              "imperial": "19.12",
+              "metric": "542"
+            },
+            "consumable": false,
+            "worn": false
+          },
+          {
+            "link": "https://www.garagegrowngear.com/products/alpenblow-micro-inflator-by-alpenglow-gear",
+            "name": "Alpenblow Air Pump",
+            "weight": {
+              "imperial": "0.3",
+              "metric": "9"
+            },
+            "consumable": false,
+            "worn": false
+          }
+        ],
+        "weight": {
+          "imperial": "3.14",
+          "metric": "1.43"
+        }
+      },
+      {
+        "title": "Clothing",
+        "items": [
+          {
+            "link": "https://www.fjallraven.com/us/en-us/men/trousers/trekking-trousers/vidda-pro-lite-trousers-m",
+            "name": "Fjallraven Vidda Pro Lite Pants",
+            "weight": {
+              "imperial": "16",
+              "metric": "454"
+            },
+            "consumable": false,
+            "worn": true
+          },
+          {
+            "link": "https://www.topoathletic.com/mens-pursuit",
+            "name": "Topo Athletic Pursuit Shoes",
+            "weight": {
+              "imperial": "22",
+              "metric": "624"
+            },
+            "consumable": false,
+            "worn": true
+          },
+          {
+            "link": "https://arcteryx.com/us/en/shop/bird-curved-brim-trucker-hat",
+            "name": "Arc'teryx Trucker Hat",
+            "weight": {
+              "imperial": "2.15",
+              "metric": "61"
+            },
+            "consumable": false,
+            "worn": true
+          },
+          {
+            "link": "https://goodr.com/collections/the-ogs/products/a-gingers-soul",
+            "name": "Goodr Sunglasses",
+            "weight": {
+              "imperial": "0.78",
+              "metric": "22"
+            },
+            "consumable": false,
+            "worn": true
+          },
+          {
+            "link": "https://www.outdoorresearch.com/collections/sun-protection/products/mens-echo-hoodie-287625",
+            "name": "Outdoor Research Echo sun hoody x 2",
+            "weight": {
+              "imperial": "9",
+              "metric": "255"
+            },
+            "consumable": false,
+            "worn": true
+          },
+          {
+            "link": "https://www.farpointeog.com/stock/p/yakona-hoodie-available-314",
+            "name": "Farpointe Yakona Cruiser Pullover",
+            "weight": {
+              "imperial": "8",
+              "metric": "227"
+            },
+            "consumable": false,
+            "worn": true
+          },
+          {
+            "link": "https://unboundmerino.com/products/black-boxer-brief",
+            "name": "Unbound Merino Wool Boxer Brief Underwear x 2",
+            "weight": {
+              "imperial": "5.72",
+              "metric": "162"
+            },
+            "consumable": false,
+            "worn": true
+          },
+          {
+            "link": "https://www.amazon.com/dp/B074ZGXRYL",
+            "name": "Darn Tough Quarter Socks x 2",
+            "weight": {
+              "imperial": "3.8",
+              "metric": "108"
+            },
+            "consumable": false,
+            "worn": true
+          },
+          {
+            "link": "https://www.amazon.com/gp/product/B07W5XC3DD",
+            "name": "Mountain Hardwear down jacket",
+            "weight": {
+              "imperial": "7.97",
+              "metric": "226"
+            },
+            "consumable": false,
+            "worn": false
+          },
+          {
+            "link": "https://enlightenedequipment.com/visp-rain-jacket",
+            "name": "Enlightened Equipment Visp Rain Jacket",
+            "weight": {
+              "imperial": "5.22",
+              "metric": "148"
+            },
+            "consumable": false,
+            "worn": false
+          }
+        ],
+        "weight": {
+          "imperial": "5.04",
+          "metric": "2.29"
+        }
+      },
+      {
+        "title": "Kitchen",
+        "items": [
+          {
+            "link": "https://www.garagegrowngear.com/products/titanium-650ml-pot-by-toaks",
+            "name": "TOAKS titanium 650ml pot",
+            "weight": {
+              "imperial": "2.8",
+              "metric": "79"
+            },
+            "consumable": false,
+            "worn": false
+          },
+          {
+            "link": "https://www.garagegrowngear.com/products/brs-3000-t-stove-by-brs-outdoor?_pos=1&_sid=693b477d2&_ss=r",
+            "name": "BRS 3000T stove",
+            "weight": {
+              "imperial": "0.9",
+              "metric": "26"
+            },
+            "consumable": false,
+            "worn": false
+          },
+          {
+            "link": "https://www.garagegrowngear.com/products/titanium-long-handle-spoon-by-toaks",
+            "name": "TOAKS titanium long utensil",
+            "weight": {
+              "imperial": "0.53",
+              "metric": "15"
+            },
+            "consumable": false,
+            "worn": false
+          },
+          {
+            "link": "https://zpacks.com/products/nylopro-odor-barrier-bags",
+            "name": "NyloPro Odor Proof Bag odor barrier",
+            "weight": {
+              "imperial": "0.63",
+              "metric": "18"
+            },
+            "consumable": false,
+            "worn": false
+          },
+          {
+            "link": "https://www.rei.com/product/849634/msr-isopro-fuel-canister-39-oz-110g",
+            "name": "MSR IsoPro 4oz fuel",
+            "weight": {
+              "imperial": "7.4",
+              "metric": "210"
+            },
+            "consumable": true,
+            "worn": false
+          },
+          {
+            "link": "https://adotecgear.com/product/ultralight-food-locker-grizzly-bear/",
+            "name": "Adotec Ultralight Food Locker 14L food bag",
+            "weight": {
+              "imperial": "6.75",
+              "metric": "191"
+            },
+            "consumable": false,
+            "worn": false
+          }
+        ],
+        "weight": {
+          "imperial": "1.19",
+          "metric": "0.54"
+        }
+      },
+      {
+        "title": "Water",
+        "items": [
+          {
+            "link": "https://www.rei.com/product/188475",
+            "name": "Platypus Quickdraw water Filter",
+            "weight": {
+              "imperial": "2.4",
+              "metric": "68"
+            },
+            "consumable": false,
+            "worn": false
+          },
+          {
+            "link": "https://www.rei.com/product/188475",
+            "name": "Platypus 1L water pouch",
+            "weight": {
+              "imperial": "1.4",
+              "metric": "40"
+            },
+            "consumable": false,
+            "worn": false
+          },
+          {
+            "link": "https://minimalgear.com/products/cnocoutdoors-thrubottle",
+            "name": "CNOC ThruBottle x 2 Water Bottles",
+            "weight": {
+              "imperial": "6.36",
+              "metric": "180"
+            },
+            "consumable": false,
+            "worn": false
+          }
+        ],
+        "weight": {
+          "imperial": "0.64",
+          "metric": "0.29"
+        }
+      },
+      {
+        "title": "Hygiene",
+        "items": [
+          {
+            "link": "https://www.garagegrowngear.com/products/tooth-tabs-by-unpaste",
+            "name": "Toothpaste tablets",
+            "weight": {
+              "imperial": "0.53",
+              "metric": "15"
+            },
+            "consumable": true,
+            "worn": false
+          },
+          {
+            "link": "https://www.target.com/p/foldable-travel-toothbrush-up-38-up-8482/-/A-89947685",
+            "name": "Foldable Toothbrush",
+            "weight": {
+              "imperial": "0.74",
+              "metric": "21"
+            },
+            "consumable": false,
+            "worn": false
+          },
+          {
+            "link": "",
+            "name": "Hand Sanitizer",
+            "weight": {
+              "imperial": "1.62",
+              "metric": "46"
+            },
+            "consumable": true,
+            "worn": false
+          },
+          {
+            "link": "",
+            "name": "Toilet paper",
+            "weight": {
+              "imperial": "1.69",
+              "metric": "48"
+            },
+            "consumable": true,
+            "worn": false
+          },
+          {
+            "link": "",
+            "name": "Toilet bag",
+            "weight": {
+              "imperial": "0.44",
+              "metric": "12"
+            },
+            "consumable": false,
+            "worn": false
+          },
+          {
+            "link": "https://www.target.com/p/wet-ones-antibacterial-hand-wipes-travel-pack-fresh-20ct/-/A-15045578",
+            "name": "Body Wipes",
+            "weight": {
+              "imperial": "2",
+              "metric": "57"
+            },
+            "consumable": true,
+            "worn": false
+          },
+          {
+            "link": "",
+            "name": "Hair Ties",
+            "weight": {
+              "imperial": "0.32",
+              "metric": "9"
+            },
+            "consumable": false,
+            "worn": false
+          },
+          {
+            "link": "",
+            "name": "SPF 15 Chapstick",
+            "weight": {
+              "imperial": "0.32",
+              "metric": "9"
+            },
+            "consumable": true,
+            "worn": false
+          },
+          {
+            "link": "https://www.garagegrowngear.com/products/ultralight-trowel-by-boglerco",
+            "name": "BoglerCo Ultralight trowel",
+            "weight": {
+              "imperial": "0.48",
+              "metric": "14"
+            },
+            "consumable": false,
+            "worn": false
+          }
+        ],
+        "weight": {
+          "imperial": "0.51",
+          "metric": "0.23"
+        }
+      },
+      {
+        "title": "Aid Kit",
+        "items": [
+          {
+            "link": "",
+            "name": "Med + Repair Kit",
+            "weight": {
+              "imperial": "1.73",
+              "metric": "49"
+            },
+            "consumable": false,
+            "worn": false
+          }
+        ],
+        "weight": {
+          "imperial": "0.11",
+          "metric": "0.05"
+        }
+      },
+      {
+        "title": "Electronics",
+        "items": [
+          {
+            "link": "",
+            "name": "Apple Ultra 3 Watch",
+            "weight": {
+              "imperial": "2.25",
+              "metric": "64"
+            },
+            "consumable": false,
+            "worn": true
+          },
+          {
+            "link": "https://www.apple.com/iphone-16-pro/",
+            "name": "iPhone 16 Pro Phone",
+            "weight": {
+              "imperial": "7.8",
+              "metric": "221"
+            },
+            "consumable": false,
+            "worn": false
+          },
+          {
+            "link": "https://www.nitecorestore.com/NITECORE-NU25-UL-Headlamp-p/fl-nite-nu25-400ul-bk.htm",
+            "name": "Nitecore NU25 UL headlamp",
+            "weight": {
+              "imperial": "1.59",
+              "metric": "45"
+            },
+            "consumable": false,
+            "worn": false
+          }
+        ],
+        "weight": {
+          "imperial": "0.73",
+          "metric": "0.33"
+        }
+      },
+      {
+        "title": "Miscellaneous",
+        "items": [
+          {
+            "link": "https://durstongear.com/products/iceline-trekking-poles",
+            "name": "Durston Gear Iceline Trekking Pole",
+            "weight": {
+              "imperial": "4.7",
+              "metric": "133"
+            },
+            "consumable": false,
+            "worn": false
+          },
+          {
+            "link": "https://www.amazon.com/dp/B001ARBSTO",
+            "name": "Picaridin insect repellent Bug Wipes",
+            "weight": {
+              "imperial": "1.13",
+              "metric": "32"
+            },
+            "consumable": false,
+            "worn": false
+          },
+          {
+            "link": "https://www.amazon.com/dp/B0D3V61JC8",
+            "name": "Loop Quiet 2 Earplugs",
+            "weight": {
+              "imperial": "0.5",
+              "metric": "14"
+            },
+            "consumable": false,
+            "worn": false
+          }
+        ],
+        "weight": {
+          "imperial": "0.40",
+          "metric": "0.18"
+        }
+      }
+    ],
+    "placeId": "yellow-river-trail-backpack-loop",
+    "weightBase": {
+      "imperial": "10.13",
+      "metric": "4.59"
+    },
+    "weightConsumable": {
+      "imperial": "0.85",
+      "metric": "0.38"
+    },
+    "weightTotal": {
+      "imperial": "15.33",
+      "metric": "6.95"
+    },
+    "weightWorn": {
+      "imperial": "4.36",
+      "metric": "1.98"
+    }
+  },
+  {
+    "categories": [
+      {
+        "title": "Pack",
+        "items": [
+          {
             "link": "",
             "name": "Waymark Gear Co Thru 40L Pack",
             "weight": {
@@ -6840,557 +7391,6 @@ const data = [
     "weightWorn": {
       "imperial": "3.74",
       "metric": "1.70"
-    }
-  },
-  {
-    "categories": [
-      {
-        "title": "Pack",
-        "items": [
-          {
-            "link": "https://evolvedsupplyco.com/supplies/p/the-ranger",
-            "name": "ESC Ranger",
-            "weight": {
-              "imperial": "19.25",
-              "metric": "546"
-            },
-            "consumable": false,
-            "worn": false
-          },
-          {
-            "link": "https://evolvedsupplyco.com/supplies/p/nylofume-pack-liner",
-            "name": "Nylofume Pack Liner",
-            "weight": {
-              "imperial": "1.02",
-              "metric": "29"
-            },
-            "consumable": false,
-            "worn": false
-          }
-        ],
-        "weight": {
-          "imperial": "1.27",
-          "metric": "0.57"
-        }
-      },
-      {
-        "title": "Shelter",
-        "items": [
-          {
-            "link": "https://durstongear.com/products/x-dome-1-plus-ultralight-backpacking-tent",
-            "name": "Durston Gear X-Dome 1+ tent",
-            "weight": {
-              "imperial": "35",
-              "metric": "992"
-            },
-            "consumable": false,
-            "worn": false
-          },
-          {
-            "link": "https://www.rei.com/product/829838/msr-mini-ground-hog-stake",
-            "name": "MSR Ground Hog Mini stakes",
-            "weight": {
-              "imperial": "2.1",
-              "metric": "60"
-            },
-            "consumable": false,
-            "worn": false
-          }
-        ],
-        "weight": {
-          "imperial": "2.32",
-          "metric": "1.05"
-        }
-      },
-      {
-        "title": "Sleeping",
-        "items": [
-          {
-            "link": "https://enlightenedequipment.com/revelation-stock",
-            "name": "EE Revelation 10ºF Quilt",
-            "weight": {
-              "imperial": "27",
-              "metric": "765"
-            },
-            "consumable": false,
-            "worn": false
-          },
-          {
-            "link": "https://zenbivy.com/products/pillow-air-bladder",
-            "name": "Zenbivy Modular Large Pillow",
-            "weight": {
-              "imperial": "1.7",
-              "metric": "48"
-            },
-            "consumable": false,
-            "worn": false
-          },
-          {
-            "link": "https://www.pillowstrap.com/products/medium-in-green",
-            "name": "Pillow Strap Pillow Case",
-            "weight": {
-              "imperial": "2.19",
-              "metric": "62"
-            },
-            "consumable": false,
-            "worn": false
-          },
-          {
-            "link": "https://www.rei.com/product/228436/nemo-tensor-all-season-ultralight-insulated-sleeping-pad",
-            "name": "NEMO Tensor All Season R 5.4 Pad",
-            "weight": {
-              "imperial": "19.12",
-              "metric": "542"
-            },
-            "consumable": false,
-            "worn": false
-          },
-          {
-            "link": "https://www.garagegrowngear.com/products/alpenblow-micro-inflator-by-alpenglow-gear",
-            "name": "Alpenblow Air Pump",
-            "weight": {
-              "imperial": "0.3",
-              "metric": "9"
-            },
-            "consumable": false,
-            "worn": false
-          }
-        ],
-        "weight": {
-          "imperial": "3.14",
-          "metric": "1.43"
-        }
-      },
-      {
-        "title": "Clothing",
-        "items": [
-          {
-            "link": "https://www.fjallraven.com/us/en-us/men/trousers/trekking-trousers/vidda-pro-lite-trousers-m",
-            "name": "Fjallraven Vidda Pro Lite Pants",
-            "weight": {
-              "imperial": "16",
-              "metric": "454"
-            },
-            "consumable": false,
-            "worn": true
-          },
-          {
-            "link": "https://www.topoathletic.com/mens-pursuit",
-            "name": "Topo Athletic Pursuit Shoes",
-            "weight": {
-              "imperial": "22",
-              "metric": "624"
-            },
-            "consumable": false,
-            "worn": true
-          },
-          {
-            "link": "https://arcteryx.com/us/en/shop/bird-curved-brim-trucker-hat",
-            "name": "Arc'teryx Trucker Hat",
-            "weight": {
-              "imperial": "2.15",
-              "metric": "61"
-            },
-            "consumable": false,
-            "worn": true
-          },
-          {
-            "link": "https://goodr.com/collections/the-ogs/products/a-gingers-soul",
-            "name": "Goodr Sunglasses",
-            "weight": {
-              "imperial": "0.78",
-              "metric": "22"
-            },
-            "consumable": false,
-            "worn": true
-          },
-          {
-            "link": "https://www.outdoorresearch.com/collections/sun-protection/products/mens-echo-hoodie-287625",
-            "name": "Outdoor Research Echo sun hoody x 2",
-            "weight": {
-              "imperial": "9",
-              "metric": "255"
-            },
-            "consumable": false,
-            "worn": true
-          },
-          {
-            "link": "https://www.farpointeog.com/stock/p/yakona-hoodie-available-314",
-            "name": "Farpointe Yakona Cruiser Pullover",
-            "weight": {
-              "imperial": "8",
-              "metric": "227"
-            },
-            "consumable": false,
-            "worn": true
-          },
-          {
-            "link": "https://unboundmerino.com/products/black-boxer-brief",
-            "name": "Unbound Merino Wool Boxer Brief Underwear x 2",
-            "weight": {
-              "imperial": "5.72",
-              "metric": "162"
-            },
-            "consumable": false,
-            "worn": true
-          },
-          {
-            "link": "https://www.amazon.com/dp/B074ZGXRYL",
-            "name": "Darn Tough Quarter Socks x 2",
-            "weight": {
-              "imperial": "3.8",
-              "metric": "108"
-            },
-            "consumable": false,
-            "worn": true
-          },
-          {
-            "link": "https://www.amazon.com/gp/product/B07W5XC3DD",
-            "name": "Mountain Hardwear down jacket",
-            "weight": {
-              "imperial": "7.97",
-              "metric": "226"
-            },
-            "consumable": false,
-            "worn": false
-          },
-          {
-            "link": "https://enlightenedequipment.com/visp-rain-jacket",
-            "name": "Enlightened Equipment Visp Rain Jacket",
-            "weight": {
-              "imperial": "5.22",
-              "metric": "148"
-            },
-            "consumable": false,
-            "worn": false
-          }
-        ],
-        "weight": {
-          "imperial": "5.04",
-          "metric": "2.29"
-        }
-      },
-      {
-        "title": "Kitchen",
-        "items": [
-          {
-            "link": "https://www.garagegrowngear.com/products/titanium-650ml-pot-by-toaks",
-            "name": "TOAKS titanium 650ml pot",
-            "weight": {
-              "imperial": "2.8",
-              "metric": "79"
-            },
-            "consumable": false,
-            "worn": false
-          },
-          {
-            "link": "https://www.garagegrowngear.com/products/brs-3000-t-stove-by-brs-outdoor?_pos=1&_sid=693b477d2&_ss=r",
-            "name": "BRS 3000T stove",
-            "weight": {
-              "imperial": "0.9",
-              "metric": "26"
-            },
-            "consumable": false,
-            "worn": false
-          },
-          {
-            "link": "https://www.garagegrowngear.com/products/titanium-long-handle-spoon-by-toaks",
-            "name": "TOAKS titanium long utensil",
-            "weight": {
-              "imperial": "0.53",
-              "metric": "15"
-            },
-            "consumable": false,
-            "worn": false
-          },
-          {
-            "link": "https://zpacks.com/products/nylopro-odor-barrier-bags",
-            "name": "NyloPro Odor Proof Bag odor barrier",
-            "weight": {
-              "imperial": "0.63",
-              "metric": "18"
-            },
-            "consumable": false,
-            "worn": false
-          },
-          {
-            "link": "https://www.rei.com/product/849634/msr-isopro-fuel-canister-39-oz-110g",
-            "name": "MSR IsoPro 4oz fuel",
-            "weight": {
-              "imperial": "7.4",
-              "metric": "210"
-            },
-            "consumable": true,
-            "worn": false
-          },
-          {
-            "link": "https://adotecgear.com/product/ultralight-food-locker-grizzly-bear/",
-            "name": "Adotec Ultralight Food Locker 14L food bag",
-            "weight": {
-              "imperial": "6.75",
-              "metric": "191"
-            },
-            "consumable": false,
-            "worn": false
-          }
-        ],
-        "weight": {
-          "imperial": "1.19",
-          "metric": "0.54"
-        }
-      },
-      {
-        "title": "Water",
-        "items": [
-          {
-            "link": "https://www.rei.com/product/188475",
-            "name": "Platypus Quickdraw water Filter",
-            "weight": {
-              "imperial": "2.4",
-              "metric": "68"
-            },
-            "consumable": false,
-            "worn": false
-          },
-          {
-            "link": "https://www.rei.com/product/188475",
-            "name": "Platypus 1L water pouch",
-            "weight": {
-              "imperial": "1.4",
-              "metric": "40"
-            },
-            "consumable": false,
-            "worn": false
-          },
-          {
-            "link": "https://minimalgear.com/products/cnocoutdoors-thrubottle",
-            "name": "CNOC ThruBottle x 2 Water Bottles",
-            "weight": {
-              "imperial": "6.36",
-              "metric": "180"
-            },
-            "consumable": false,
-            "worn": false
-          }
-        ],
-        "weight": {
-          "imperial": "0.64",
-          "metric": "0.29"
-        }
-      },
-      {
-        "title": "Hygiene",
-        "items": [
-          {
-            "link": "https://www.garagegrowngear.com/products/tooth-tabs-by-unpaste",
-            "name": "Toothpaste tablets",
-            "weight": {
-              "imperial": "0.53",
-              "metric": "15"
-            },
-            "consumable": true,
-            "worn": false
-          },
-          {
-            "link": "https://www.target.com/p/foldable-travel-toothbrush-up-38-up-8482/-/A-89947685",
-            "name": "Foldable Toothbrush",
-            "weight": {
-              "imperial": "0.74",
-              "metric": "21"
-            },
-            "consumable": false,
-            "worn": false
-          },
-          {
-            "link": "",
-            "name": "Hand Sanitizer",
-            "weight": {
-              "imperial": "1.62",
-              "metric": "46"
-            },
-            "consumable": true,
-            "worn": false
-          },
-          {
-            "link": "",
-            "name": "Toilet paper",
-            "weight": {
-              "imperial": "1.69",
-              "metric": "48"
-            },
-            "consumable": true,
-            "worn": false
-          },
-          {
-            "link": "",
-            "name": "Toilet bag",
-            "weight": {
-              "imperial": "0.44",
-              "metric": "12"
-            },
-            "consumable": false,
-            "worn": false
-          },
-          {
-            "link": "https://www.target.com/p/wet-ones-antibacterial-hand-wipes-travel-pack-fresh-20ct/-/A-15045578",
-            "name": "Body Wipes",
-            "weight": {
-              "imperial": "2",
-              "metric": "57"
-            },
-            "consumable": true,
-            "worn": false
-          },
-          {
-            "link": "",
-            "name": "Hair Ties",
-            "weight": {
-              "imperial": "0.32",
-              "metric": "9"
-            },
-            "consumable": false,
-            "worn": false
-          },
-          {
-            "link": "",
-            "name": "SPF 15 Chapstick",
-            "weight": {
-              "imperial": "0.32",
-              "metric": "9"
-            },
-            "consumable": true,
-            "worn": false
-          },
-          {
-            "link": "https://www.garagegrowngear.com/products/ultralight-trowel-by-boglerco",
-            "name": "BoglerCo Ultralight trowel",
-            "weight": {
-              "imperial": "0.48",
-              "metric": "14"
-            },
-            "consumable": false,
-            "worn": false
-          }
-        ],
-        "weight": {
-          "imperial": "0.51",
-          "metric": "0.23"
-        }
-      },
-      {
-        "title": "Aid Kit",
-        "items": [
-          {
-            "link": "",
-            "name": "Med + Repair Kit",
-            "weight": {
-              "imperial": "1.73",
-              "metric": "49"
-            },
-            "consumable": false,
-            "worn": false
-          }
-        ],
-        "weight": {
-          "imperial": "0.11",
-          "metric": "0.05"
-        }
-      },
-      {
-        "title": "Electronics",
-        "items": [
-          {
-            "link": "",
-            "name": "Apple Ultra 3 Watch",
-            "weight": {
-              "imperial": "2.25",
-              "metric": "64"
-            },
-            "consumable": false,
-            "worn": true
-          },
-          {
-            "link": "https://www.apple.com/iphone-16-pro/",
-            "name": "iPhone 16 Pro Phone",
-            "weight": {
-              "imperial": "7.8",
-              "metric": "221"
-            },
-            "consumable": false,
-            "worn": false
-          },
-          {
-            "link": "https://www.nitecorestore.com/NITECORE-NU25-UL-Headlamp-p/fl-nite-nu25-400ul-bk.htm",
-            "name": "Nitecore NU25 UL headlamp",
-            "weight": {
-              "imperial": "1.59",
-              "metric": "45"
-            },
-            "consumable": false,
-            "worn": false
-          }
-        ],
-        "weight": {
-          "imperial": "0.73",
-          "metric": "0.33"
-        }
-      },
-      {
-        "title": "Miscellaneous",
-        "items": [
-          {
-            "link": "https://durstongear.com/products/iceline-trekking-poles",
-            "name": "Durston Gear Iceline Trekking Pole",
-            "weight": {
-              "imperial": "4.7",
-              "metric": "133"
-            },
-            "consumable": false,
-            "worn": false
-          },
-          {
-            "link": "https://www.amazon.com/dp/B001ARBSTO",
-            "name": "Picaridin insect repellent Bug Wipes",
-            "weight": {
-              "imperial": "1.13",
-              "metric": "32"
-            },
-            "consumable": false,
-            "worn": false
-          },
-          {
-            "link": "https://www.amazon.com/dp/B0D3V61JC8",
-            "name": "Loop Quiet 2 Earplugs",
-            "weight": {
-              "imperial": "0.5",
-              "metric": "14"
-            },
-            "consumable": false,
-            "worn": false
-          }
-        ],
-        "weight": {
-          "imperial": "0.40",
-          "metric": "0.18"
-        }
-      }
-    ],
-    "placeId": "yellow-river-trail-backpack-loop",
-    "weightBase": {
-      "imperial": "10.13",
-      "metric": "4.59"
-    },
-    "weightConsumable": {
-      "imperial": "0.85",
-      "metric": "0.38"
-    },
-    "weightTotal": {
-      "imperial": "15.33",
-      "metric": "6.95"
-    },
-    "weightWorn": {
-      "imperial": "4.36",
-      "metric": "1.98"
     }
   },
   {
