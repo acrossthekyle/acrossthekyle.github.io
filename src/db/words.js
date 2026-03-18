@@ -1,6 +1,16 @@
 const data = [
   {
     "author": "Kyle Gilbert",
+    "slug": "closet-cleanout-and-gear-purchases",
+    "title": "Closet cleanout and gear purchases",
+    "content": "I recently did a long-overdue clean-out of the gear closet and sold stuff I'd been hanging onto for way too long. The proceeds went towards a warmer jacket (Rab Electron Pro) and sleeping quilt (Katabatic Gear Sawatch), each one aimed at better handling temps below freezing.\n",
+    "date": "March 18th, 2026",
+    "readingTime": "1",
+    "timestamp": 1773810000,
+    "index": 6
+  },
+  {
+    "author": "Kyle Gilbert",
     "slug": "dark-matter-apple-tv",
     "title": "Dark Matter on AppleTV+",
     "content": "\nAbsolutely loved this show. I read the book several years ago, but didn't remember much from it. As far as I can tell based on breakdowns of the show on YouTube the adaptation followed the book close enough, with some minor deviations here and there.\n\nI hope they don't fall into a writing-trap for season two, and keep it interesting, with some sort of great ending planned.\n",
