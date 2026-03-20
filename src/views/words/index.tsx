@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Fragment } from 'react';
 import Markdown from 'react-markdown';
 
 import { Layout } from '@/layout';
@@ -32,14 +33,17 @@ export default function View({ data }: Props) {
         <Strong>{route('words').text}</Strong>
         <Small>{route('words').subtitle}</Small>
       </Heading>
-      {data.map((item) => (
-        <article key={item.slug}>
-          <Heading level={2} id={item.slug}>
-            <Strong uppercase>{item.title}</Strong>
-            <Small>{item.date} • {item.readingTime} min read</Small>
-          </Heading>
-          <Markdown>{item.content}</Markdown>
-        </article>
+      {data.map((item, index: number) => (
+        <Fragment key={item.slug}>
+          <article>
+            <Heading level={2} id={item.slug}>
+              <Strong uppercase>{item.title}</Strong>
+              <Small>{item.date} • {item.readingTime} min read</Small>
+            </Heading>
+            <Markdown>{item.content}</Markdown>
+          </article>
+          {(index < (data.length - 1)) && <hr />}
+        </Fragment>
       ))}
     </Layout>
   );

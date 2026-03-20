@@ -15,8 +15,8 @@ test('places page loads', async ({ page }) => {
   'africa destination (2)',
   'asia thru-hike (1), destination (1)',
   'europe thru-hike (6), destination (2)',
-  'north america summit (1), section hike (1), destination (1), overnight trek (1)',
-  'south america destination (4), thru-hike (1)',
+  'north america overnight trek (2), section hike (1), destination (1), summit (1)',
+  'south america thru-hike (1), destination (4)',
 ].forEach((name) => {
   test(`places page has ${name} category`, async ({ page }) => {
     await page.goto('/places');

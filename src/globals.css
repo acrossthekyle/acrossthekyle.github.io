@@ -2,7 +2,7 @@
 
 :root {
   --background: #242423;
-  --foreground: #ffffff;
+  --foreground: #fffdf7;
 }
 
 @theme {
@@ -17,25 +17,19 @@ html {
 
 html[data-theme="dark"] {
   --background: #242423;
-  --foreground: #ffffff;
+  --foreground: #fffdf7;
 }
 
 html[data-theme="light"] {
-  --background: #ffffff;
-  --foreground: #000000;
+  --background: #fffdf7;
+  --foreground: #242423;
 }
 
 body {
   article {
-    padding-bottom: 4rem;
-
     h2 {
       padding-top: 0;
     }
-  }
-
-  article:last-of-type {
-    padding-bottom: 0;
   }
 
   p {

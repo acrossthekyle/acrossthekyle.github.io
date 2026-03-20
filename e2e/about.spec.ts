@@ -11,7 +11,7 @@ test('about page loads', async ({ page }) => {
   await expect(heading).toBeVisible();
 });
 
-['places', 'words', 'snapshots', 'resume'].forEach((name) => {
+['places', 'words', 'resume'].forEach((name) => {
   test(`about page navigates to ${name}`, async ({ page }) => {
     await page.goto('/about');
 

@@ -19,9 +19,6 @@ test('index page loads', async ({ page }) => {
     name: 'words',
   },
   {
-    name: 'snapshots',
-  },
-  {
     name: 'packs',
   },
   {
@@ -29,9 +26,6 @@ test('index page loads', async ({ page }) => {
   },
   {
     name: 'resume',
-  },
-  {
-    name: 'now',
   },
   {
     name: 'books',

@@ -1,44 +1,8 @@
 import images from '@/db/images';
-import photos from '@/db/photos';
 import places from '@/db/places';
 import stages from '@/db/stages';
 
 import { padIndex } from '../../../../utils';
-
-function getPhotosItem(page, slug, index) {
-  const found = photos.find((item) => item.slug === slug);
-
-  if (found === undefined) {
-    return null;
-  }
-
-  const key = Number(index) - 1;
-
-  if (key < 0 || key > photos.length - 1) {
-    return null;
-  }
-
-  const result = photos[key];
-
-  const next = key === photos.length - 1 ? null : key + 2;
-  const previous = key === 0 ? null : key;
-
-  return {
-    back: [
-      {
-        text: '/snapshots',
-        uri: '/photos',
-      },
-    ],
-    hasNavigation: next !== null || previous !== null,
-    next: next ? `${page}/${photos[next - 1].slug}/${padIndex(next)}` : '',
-    previous: previous ? `${page}/${photos[previous - 1].slug}/${padIndex(previous)}` : '',
-    src: result.src,
-    subTitle: result.location,
-    title: `Snapshot ${index}/${padIndex(photos.length)}`,
-    total: padIndex(photos.length),
-  };
-}
 
 function getPlacesItem(page, slug, index) {
   const place = places.find((item) => item.id === slug);
@@ -89,9 +53,7 @@ export default function get(
   slug,
   index,
 ) {
-  const data = page === 'photos'
-    ? getPhotosItem(page, slug, index)
-    : getPlacesItem(page, slug, index);
+  const data = getPlacesItem(page, slug, index);
 
   if (data === null) {
     return null;

@@ -13,21 +13,15 @@ export const ROUTES = [
   },
   {
     group: 'blogging',
-    path: '/words',
-    subtitle: 'Quick thoughts',
-    text: 'Words',
-  },
-  {
-    group: 'blogging',
-    path: '/photos',
-    subtitle: 'Captured clicks',
-    text: 'Snapshots',
-  },
-  {
-    group: 'blogging',
     path: '/gear',
     subtitle: 'What I carry',
     text: 'Packs',
+  },
+  {
+    group: 'blogging',
+    path: '/words',
+    subtitle: 'Quick thoughts',
+    text: 'Words',
   },
   {
     group: 'info',
@@ -40,12 +34,6 @@ export const ROUTES = [
     path: '/resume',
     subtitle: 'Career overview',
     text: 'Resume',
-  },
-  {
-    group: 'info',
-    path: '/now',
-    subtitle: 'Presently doing',
-    text: 'Now',
   },
   {
     group: 'info',

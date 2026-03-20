@@ -50,7 +50,7 @@ export default function View() {
         Between adventures I continue to build web and mobile apps as a self-taught software engineer because, even after {new Date().getFullYear() - 2012} years, making things with code still thrills me to no end. Feel free to browse my <Link href="/resume"><u>resume</u></Link>.
       </p>
       <p>
-        Occasionally I'll write <Link href="/words"><u>words</u></Link> about thoughts, opinions, or reflections, and share <Link href="/photos"><u>snapshots</u></Link> of things that catch my eye.
+        Occasionally I'll write <Link href="/words"><u>words</u></Link> about thoughts, opinions, or reflections.
       </p>
       <p>
         See you, out there.

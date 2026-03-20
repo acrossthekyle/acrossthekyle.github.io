@@ -11,7 +11,7 @@ test('gear page loads', async ({ page }) => {
   await expect(heading).toBeVisible();
 });
 
-['thru-hikes 8 packs', 'summits 1 pack', 'section hikes 1 pack', 'overnight treks 1 pack'].forEach((name) => {
+['thru-hikes 8 packs', 'summits 1 pack', 'section hikes 1 pack', 'overnight treks 2 packs'].forEach((name) => {
   test(`gear page has ${name} category`, async ({ page }) => {
     await page.goto('/gear');
 
