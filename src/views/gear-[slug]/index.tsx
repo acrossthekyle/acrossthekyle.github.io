@@ -35,7 +35,7 @@ export default function View({ data }: Props) {
           </BreadcrumbItem>
           <BreadcrumbItem>
             <Link href="/gear">
-              /gear
+              /packs
             </Link>
           </BreadcrumbItem>
         </BreadcrumbList>
@@ -43,7 +43,7 @@ export default function View({ data }: Props) {
       <Heading>
         <Strong>{data.title}</Strong>
         <Small>
-          {data.date} • <Weight weight={data.total} />
+          {data.date} • <Weight weight={data.base} />
         </Small>
       </Heading>
       <Graph

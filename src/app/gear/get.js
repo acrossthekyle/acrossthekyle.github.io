@@ -37,7 +37,7 @@ export default function get() {
       count: items.length,
       id: key.replace(' ', '-'),
       items: items.map(({ date, gear, id, title }) => ({
-        base: gear.weightTotal,
+        base: gear.weightBase,
         date,
         slug: id,
         title,

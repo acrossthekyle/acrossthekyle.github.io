@@ -33,7 +33,7 @@ test('gear page navigates to gear details page', async ({ page }) => {
 
   const heading = await main.getByRole('heading', {
     level: 1,
-    name: 'alta via 1 2019 • 30.48 lbs',
+    name: 'alta via 1 2019 • 12.57 lbs',
   });
 
   await expect(heading).toBeVisible();

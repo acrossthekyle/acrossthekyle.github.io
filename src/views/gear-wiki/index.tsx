@@ -26,7 +26,7 @@ export default function View({ data }: Props) {
           </BreadcrumbItem>
           <BreadcrumbItem>
             <Link href="/gear">
-              /gear
+              /packs
             </Link>
           </BreadcrumbItem>
           <BreadcrumbItem>

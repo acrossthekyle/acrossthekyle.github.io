@@ -40,7 +40,10 @@ export default function View({ data }: Props) {
         <Small>{route('packs').subtitle}</Small>
       </Heading>
       <p>
-        Gear loadouts from various backpacking trips.
+        These are the various gear loadouts from my thru-hikes, section hikes, and summits with the base weight listed under each. I'm always swapping items and trying new combinations in a never-ending effort to become as ultralight as possible in order to make the experience more enjoyable.
+      </p>
+      <p>
+        Ounces lead to pounds and pounds lead to pain.
       </p>
       {data.map((group) => (
         <Fragment key={group.id}>

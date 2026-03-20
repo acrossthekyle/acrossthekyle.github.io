@@ -27,7 +27,7 @@ export default function View() {
         <Small>{route('about').subtitle}</Small>
       </Heading>
       <p>
-        Hello there! You guessed it, my name's Kyle. I belong
+        Hello there! My name's Kyle. I belong
         to the millennial generation and my favorite hobbies include creating
         things from scratch, and travelling for days on end.
       </p>

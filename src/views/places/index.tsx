@@ -39,7 +39,7 @@ export default function View({ data }: Props) {
         <Small>{route('places').subtitle}</Small>
       </Heading>
       <p>
-        A collection of my hikes and destinations since 2015.
+        Since 2015 I've travelled to nearly every continent on our little blue ball, and completed several thru-hikes on most of them. I'm also working on bagging all of the Colorado 14er peaks. This is a collection of those experiences.
       </p>
       {data.recent && (
         <p>
