@@ -1,16 +1,19 @@
 import { Layout } from '@/layout';
+import { Heading, Small, Strong } from '@/ui/typography';
 
 export default function View() {
   return (
     <Layout>
-      <h1>
-        <strong>404</strong>
-        <small>Page not found</small>
-      </h1>
+      <Heading>
+        <Strong>404</Strong>
+        <Small>
+          Page not found
+        </Small>
+      </Heading>
       <article>
-        <h2>
-          <strong>Once upon a midnight dreary,</strong>
-        </h2>
+        <Heading level={2}>
+          <Strong>Once upon a midnight dreary</Strong>
+        </Heading>
         <p>
           While I web surfed, weak and weary,<br />
           For pages long forgotten yore.<br />
