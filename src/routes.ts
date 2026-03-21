@@ -1,15 +1,9 @@
 export const ROUTES = [
   {
-    group: null,
-    path: '/',
-    subtitle: 'Home',
-    text: 'Home',
-  },
-  {
     group: 'blogging',
     path: '/places',
-    subtitle: 'Near and far',
-    text: 'Places',
+    subtitle: 'Trails and travels',
+    text: 'Adventures',
   },
   {
     group: 'blogging',
@@ -92,7 +86,7 @@ export const ROUTES = [
 ];
 
 export function route(query: string) {
-  return ROUTES.find(route => route.text
+  return ROUTES.find(route => route.path
     .toLowerCase()
     .includes(query.replace('/', '').toLowerCase())
   ) || {

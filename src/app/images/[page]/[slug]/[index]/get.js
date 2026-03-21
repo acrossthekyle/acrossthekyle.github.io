@@ -26,7 +26,7 @@ function getPlacesItem(page, slug, index) {
   return {
     back: [
       {
-        text: '/places',
+        text: '/adventures',
         uri: '/places',
       },
       {

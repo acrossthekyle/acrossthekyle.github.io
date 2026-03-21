@@ -5,7 +5,7 @@ test('places page loads', async ({ page }) => {
 
   const heading = await page.getByRole('heading', {
     level: 1,
-    name: `places`,
+    name: `adventures`,
   });
 
   await expect(heading).toBeVisible();

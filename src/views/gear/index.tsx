@@ -36,8 +36,8 @@ export default function View({ data }: Props) {
         </BreadcrumbList>
       </Breadcrumb>
       <Heading>
-        <Strong>{route('packs').text}</Strong>
-        <Small>{route('packs').subtitle}</Small>
+        <Strong>{route('gear').text}</Strong>
+        <Small>{route('gear').subtitle}</Small>
       </Heading>
       <p>
         These are the various gear loadouts from my thru-hikes, section hikes, and summits with the base weight listed under each. I'm always swapping items and trying new combinations in a never-ending effort to become as ultralight as possible in order to make the experience more enjoyable.

@@ -5,8 +5,6 @@ import { Suspense } from 'react';
 import Loading from '@/ui/loading';
 import View from '@/views/images-[slug]';
 
-import { uppercaseFirst } from '../../../../utils';
-
 import get from './get';
 
 type Params = Promise<{
@@ -42,7 +40,7 @@ export async function generateMetadata({ params }: GenerateMetadata): Promise<Me
   }
 
   return {
-    title: `${uppercaseFirst(page)} • ${data.title}`,
+    title: `Images • ${data.title}`,
     description: '',
     robots: {
       index: false,

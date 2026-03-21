@@ -30,7 +30,7 @@ export default function View({ data }: Props) {
           </BreadcrumbItem>
           <BreadcrumbItem>
             <Link href="/places">
-              /places
+              /adventures
             </Link>
           </BreadcrumbItem>
           {data.back.map(({ text, uri }) => (

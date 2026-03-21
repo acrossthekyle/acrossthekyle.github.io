@@ -7,7 +7,7 @@ import View from '@/views/places';
 import get from './get';
 
 export const metadata: Metadata = {
-  title: 'Places',
+  title: 'Adventures',
   description: `From Nepal's Himalayas to windswept Patagonia, I've thru-hiked a lot of miles, explored numerous destinations, and seen some amazing things.`,
 };
 

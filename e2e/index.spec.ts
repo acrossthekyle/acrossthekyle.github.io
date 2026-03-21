@@ -13,7 +13,7 @@ test('index page loads', async ({ page }) => {
 
 [
   {
-    name: 'places',
+    name: 'adventures',
   },
   {
     name: 'words',

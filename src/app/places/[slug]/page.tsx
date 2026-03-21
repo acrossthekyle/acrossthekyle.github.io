@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: GenerateMetadata): Promise<Me
   }
 
   return {
-    title: `Places • ${data.title}`,
+    title: `Adventures • ${data.title}`,
     description: data.description[0],
   };
 };

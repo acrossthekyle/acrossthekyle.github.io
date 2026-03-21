@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: GenerateMetadata): Promise<Me
   }
 
   return {
-    title: `Places • ${data.title} Metrics`,
+    title: `Adventures • ${data.title} Metrics`,
     description: '',
     robots: {
       index: false,
