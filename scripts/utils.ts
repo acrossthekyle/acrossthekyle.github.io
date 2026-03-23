@@ -34,3 +34,27 @@ export async function write(destination, data) {
 
   await writeFile(output, destination, json);
 }
+
+export function turnStringIntoArrayForLists(value: string, limit = 12) {
+  const parts = value.split(' ');
+  let result = [''];
+  let index = 0;
+
+  parts.forEach((part: string) => {
+    if (result[index].length < limit) {
+      const combination = `${result[index]} ${part.trim()}`.trim();
+
+      if (combination.length < limit) {
+        result.splice(index, 1, combination);
+      } else if (part.length > limit ) {
+        result.splice(index, 1, part.trim());
+      } else {
+        ++index
+
+        result.splice(index, 1, part.trim());
+      }
+    }
+  });
+
+  return result;
+};

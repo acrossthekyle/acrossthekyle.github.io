@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #242423;
-  --foreground: #fffdf7;
+  --background: #000;
+  --foreground: #fff;
 }
 
 @theme {
@@ -11,18 +11,18 @@
   --text-tiny: 0.6875rem;
 }
 
-html {
+html, body {
   height: 100%;
 }
 
 html[data-theme="dark"] {
-  --background: #242423;
-  --foreground: #fffdf7;
+  --background: #000;
+  --foreground: #fff;
 }
 
 html[data-theme="light"] {
-  --background: #fffdf7;
-  --foreground: #242423;
+  --background: #fff;
+  --foreground: #000;
 }
 
 body {
@@ -39,10 +39,6 @@ body {
 
   p:last-of-type {
     padding-bottom: 0;
-  }
-
-  ul {
-    line-height: 1.75;
   }
 
   figure {

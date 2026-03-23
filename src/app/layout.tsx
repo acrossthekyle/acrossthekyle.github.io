@@ -2,7 +2,7 @@ import '../globals.css';
 
 import type { Metadata, Viewport } from 'next';
 
-import { Body } from '@/layout';
+import { Body, Header, Main } from '@/layout';
 
 const description = `Hi, I'm Kyle: backpacker and engineer. I'm drawn to long trails and wild places, from the Himalayas to Patagonia. Between adventures, I build web apps in Chicago.`;
 
@@ -59,11 +59,14 @@ type Props = {
   children: React.ReactNode;
 };
 
-export default function RootLayout({ children }: Props) {
+export default function Layout({ children }: Props) {
   return (
     <html data-theme="dark" lang="en">
       <Body>
-        {children}
+        <Main>
+          <Header />
+          {children}
+        </Main>
       </Body>
     </html>
   );

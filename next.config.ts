@@ -2,6 +2,7 @@ import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
   allowedDevOrigins: ['10.0.0.100'],
+  devIndicators: false,
   images: {
     loader: 'custom',
     loaderFile: './next.config.image-loader.js',
