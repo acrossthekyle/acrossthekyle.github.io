@@ -13,8 +13,11 @@ const parent = `
 
 const child = (isActive: boolean) => tw(`
   isChild
-  font-stretch-ultra-condensed
-  ${isActive ? `text-current/100 !tracking-tighter font-medium` : `text-current/50 tracking-tighter font-thin`}
+  font-stretch-condensed
+  tracking-tight
+  lg:tracking-tighter
+  lg:font-stretch-ultra-condensed
+  ${isActive ? `text-current/100 font-black lg:font-medium` : `text-current/50 font-thin`}
 
   hover:font-medium
   hover:tracking-tighter
@@ -23,11 +26,13 @@ const child = (isActive: boolean) => tw(`
 
 const styles = tw({
   container: (isParent: boolean, isChild: boolean, isActive: boolean) => tw(`
-    inline-block
-    w-full pr-4
+    w-full
     duration-275
     overflow-hidden
     uppercase
+
+    lg:inline-block
+    lg:pr-4
 
     ${isParent && parent}
     ${isChild && child(isActive)}

@@ -6,8 +6,12 @@ import fs from 'fs';
 import path from 'path';
 
 function getLabel(type: string) {
-  if (type === 'overnight trek' || type === 'thru-hike') {
+  if (type === 'overnight trek') {
     return 'Stage';
+  }
+
+  if (type === 'thru-hike') {
+    return 'Waypoint';
   }
 
   if (type === 'section hike') {

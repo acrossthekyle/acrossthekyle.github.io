@@ -10,7 +10,7 @@ export default function Container({ children }: Props) {
   return (
     <figure className={styles.container}>
       <Image
-        alt="map of places visited"
+        alt=""
         height={432}
         quality={10}
         sizes="30vw"

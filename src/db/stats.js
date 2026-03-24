@@ -815,6 +815,60 @@ const data = [
       "value": {
         "basic": "",
         "complex": {
+          "imperial": "14",
+          "metric": "23"
+        }
+      }
+    },
+    "gain": {
+      "label": "Elevation gain",
+      "value": {
+        "basic": "",
+        "complex": {
+          "imperial": "1,819",
+          "metric": "554"
+        }
+      }
+    },
+    "loss": {
+      "label": "Elevation loss",
+      "value": {
+        "basic": "",
+        "complex": {
+          "imperial": "1,796",
+          "metric": "547"
+        }
+      }
+    },
+    "max": {
+      "label": "Max altitude",
+      "value": {
+        "basic": "",
+        "complex": {
+          "imperial": "1,172",
+          "metric": "357"
+        }
+      }
+    },
+    "placeId": "yellow-river-trail-backpack-loop",
+    "total": null,
+    "when": {
+      "label": "When",
+      "value": {
+        "basic": "Oct 18th to 19th, 2025",
+        "complex": {
+          "imperial": "",
+          "metric": ""
+        }
+      }
+    }
+  },
+  {
+    "distance": {
+      "label": "Distance",
+      "value": {
+        "basic": "",
+        "complex": {
           "imperial": "97",
           "metric": "156"
         }
@@ -865,60 +919,6 @@ const data = [
       "label": "When",
       "value": {
         "basic": "May 7th to 12th, 2022",
-        "complex": {
-          "imperial": "",
-          "metric": ""
-        }
-      }
-    }
-  },
-  {
-    "distance": {
-      "label": "Distance",
-      "value": {
-        "basic": "",
-        "complex": {
-          "imperial": "14",
-          "metric": "23"
-        }
-      }
-    },
-    "gain": {
-      "label": "Elevation gain",
-      "value": {
-        "basic": "",
-        "complex": {
-          "imperial": "1,819",
-          "metric": "554"
-        }
-      }
-    },
-    "loss": {
-      "label": "Elevation loss",
-      "value": {
-        "basic": "",
-        "complex": {
-          "imperial": "1,796",
-          "metric": "547"
-        }
-      }
-    },
-    "max": {
-      "label": "Max altitude",
-      "value": {
-        "basic": "",
-        "complex": {
-          "imperial": "1,172",
-          "metric": "357"
-        }
-      }
-    },
-    "placeId": "yellow-river-trail-backpack-loop",
-    "total": null,
-    "when": {
-      "label": "When",
-      "value": {
-        "basic": "Oct 18th to 19th, 2025",
         "complex": {
           "imperial": "",
           "metric": ""

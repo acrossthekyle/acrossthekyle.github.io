@@ -7,7 +7,7 @@
 
 @theme {
   --animate-in-fade: fadeIn .4s ease-in forwards;
-  --breakpoint-xs: 22.1875rem; /* 355px */
+  --breakpoint-xs: 27.5rem; /* 440px */
   --text-tiny: 0.6875rem;
 }
 

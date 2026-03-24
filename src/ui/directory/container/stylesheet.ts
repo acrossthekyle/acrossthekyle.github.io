@@ -3,14 +3,31 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     group
-    flex-1
     flex items-start
-    py-12 pr-12
+    w-full
     leading-[0.775]
-    text-9xl
+    text-5xl
 
-    md:h-dvh
-    md:overflow-y-scroll
+    lg:h-dvh
+    lg:pl-2
+    lg:py-6
+    xl:py-12
+    lg:overflow-y-scroll
+
+    has-[.isParent]:p-6
+    has-[.isParent]:xs:text-6xl
+    has-[.isParent]:sm:text-7xl
+    has-[.isParent]:md:text-8xl
+    has-[.isParent]:lg:text-7xl
+    has-[.isParent]:xl:py-12
+    has-[.isParent]:xl:text-8xl
+
+    has-[.isChild]:p-6
+    has-[.isChild]:lg:py-12
+    has-[.isChild]:lg:text-6xl
+    has-[.isChild]:lg:w-[27%]
+    has-[.isChild]:xl:text-8xl
+    has-[.isChild]:xl:w-[30%]
   `,
 });
 

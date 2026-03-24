@@ -1,6 +1,8 @@
+import styles from './stylesheet';
+
 export default function Item({ children }: React.PropsWithChildren) {
   return (
-    <li>
+    <li className={styles.container}>
       {children}
     </li>
   );

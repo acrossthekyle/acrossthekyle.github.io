@@ -20,13 +20,8 @@ export default function Header() {
               </Anchor>
             </li>
             <li>
-              <Anchor path="/summits">
-                Summits
-              </Anchor>
-            </li>
-            <li>
-              <Anchor path="/destinations">
-                Destinations
+              <Anchor path="/connect">
+                Connect
               </Anchor>
             </li>
           </ul>

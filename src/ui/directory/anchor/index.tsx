@@ -16,15 +16,19 @@ type Props = {
 export default function Anchor({ path, text }: Props) {
   const { isChild, isParent, pathname } = useContext(Context);
 
-  const isActive = pathname.startsWith(path);
+  const isActive = pathname === path;
+
+  const chunks = turnStringIntoArrayForList(text);
 
   return (
     <Link
       className={styles.container(isParent, isChild, isActive)}
-      href={path}
+      href={isActive ? `/${path.split('/')[1]}` : path}
     >
-      {turnStringIntoArrayForList(text).map((chunk) => (
-        <span className="block" key={chunk}>{chunk}</span>
+      {chunks.map((chunk) => (
+        <span className="block" key={chunk}>
+          {chunk}
+        </span>
       ))}
     </Link>
   );

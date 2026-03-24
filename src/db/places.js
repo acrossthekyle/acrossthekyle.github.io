@@ -25,7 +25,7 @@ const data = [
       "Encircling the Mont Blanc mountain in the Alps, the tour of this peak is a classic long-distance hike covering a distance of 117 miles (188 kilometers) while passing through France, Italy, and Switzerland. It's a challenging experience filled with diverse landscapes, unique cultural blends, and stunning alpine scenery, all while sleeping in mountain huts and eating home-cooked meals each night."
     ],
     "id": "tour-du-mont-blanc-repeat",
-    "label": "Stage",
+    "label": "Waypoint",
     "location": "Alps",
     "position": [
       "45%",
@@ -101,7 +101,7 @@ const data = [
       "Known locally as Fra Li Monti (Corsican for 'across the mountains'), and considered to be the most difficult of all trails in Europe, the GR 20 is a footpath that traverses the Mediterranean island of Corsica from North to South along its spiny mountainous backbone. Between the Northern starting point at Calenzana and the end at Conca in the South, there are hidden mountain lakes, expansive sea views, rugged and rocky cliffs, and remarkable panoramas."
     ],
     "id": "gr-20",
-    "label": "Stage",
+    "label": "Waypoint",
     "location": "France",
     "position": [
       "49%",
@@ -177,7 +177,7 @@ const data = [
       "Filled with misty glens, deep lochs, and endless rain while hiking from Milngavie to Fort William, the West Highland Way is a long-distance trail in the highlands of Scotland in the UK. The trail travels down many ancient roads and old coaching routes, journeying from the lowlands to the highlands, while camping overnight in fields, along lakeside beachs, and under bridges."
     ],
     "id": "west-highland-way",
-    "label": "Stage",
+    "label": "Waypoint",
     "location": "Scotland",
     "position": [
       "38.5%",
@@ -215,7 +215,7 @@ const data = [
       "At the bottom of the world in Southern Chile with equal parts rustic and modern, the trail known as the 'O' Circuit circumnavigates the prominent Torres del Paine granite towers that Patagonia is partly known for. A tapestry of landscapes, sprawling glaciers, pristine lakes, and windswept plains provides an idyllic background for thru-hiking."
     ],
     "id": "torres-del-paine-o-circuit",
-    "label": "Stage",
+    "label": "Waypoint",
     "location": "Chile",
     "position": [
       "96%",
@@ -234,7 +234,7 @@ const data = [
       "Ranging from tropical forests and waterfalls along paddy fields to the frozen arctic region of the Tibetan plateau at 17,000 ft, the Annapurna Circuit thru-hike combines a circuit around the mountain, and a trek up to its basecamp, while winding its way among the tallest peaks in the world."
     ],
     "id": "annapurna-circuit-basecamp",
-    "label": "Stage",
+    "label": "Waypoint",
     "location": "Nepal",
     "position": [
       "53%",
@@ -291,7 +291,7 @@ const data = [
       "In Northern Italy there is a mountain range known as The Dolomites, and they contain a series of seven trails collectively known as the Alta Via. The Alta Via 1 winds its way from North to South passing through a panorama of jagged ridges, vertical walls, and uniquely-shaped mountains."
     ],
     "id": "alta-via-1",
-    "label": "Stage",
+    "label": "Waypoint",
     "location": "Italy",
     "position": [
       "45.5%",
@@ -310,7 +310,7 @@ const data = [
       "Encircling the Mont Blanc mountain in the Alps, the tour of this peak is a classic long-distance hike covering a distance of 106 miles (170 kilometers) while passing through France, Italy, and Switzerland. It's a challenging experience filled with diverse landscapes, unique cultural blends, and stunning alpine scenery, all while sleeping in mountain huts and eating home-cooked meals each night."
     ],
     "id": "tour-du-mont-blanc",
-    "label": "Stage",
+    "label": "Waypoint",
     "location": "Alps",
     "position": [
       "45%",
@@ -329,7 +329,7 @@ const data = [
       "Starting high in the Pyrenees mountains between France and Spain, and leading to the Atlantic ocean, the Camino Frances is part of a series of ancient routes collectively called the Camino de Santiago. It covers a wide array of landscapes and cultures over hills and mountains, across deserts, through rivers, and in thick forests."
     ],
     "id": "camino-frances",
-    "label": "Stage",
+    "label": "Waypoint",
     "location": "Spain",
     "position": [
       "48%",
