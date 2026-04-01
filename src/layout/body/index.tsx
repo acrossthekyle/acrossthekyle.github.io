@@ -1,15 +1,28 @@
+import { Geist, Roboto_Mono } from 'next/font/google';
 import Script from 'next/script';
 
 import styles from './stylesheet';
 
-type Props = {
-  children: React.ReactNode;
-};
+const geistSans = Geist({
+  display: 'swap',
+  subsets: ['latin'],
+  variable: '--font-geist-sans',
+});
 
-export default function Body({ children }: Props) {
+const robotoMono = Roboto_Mono({
+  display: 'swap',
+  subsets: ['latin'],
+  variable: '--font-roboto-mono',
+});
+
+export default function Body({ children }: React.PropsWithChildren) {
   return (
-    <body className={styles.container}>
-      <Script id="theme-script">
+    <body
+      className={`${geistSans.variable} ${robotoMono.variable} ${styles.container}`}
+    >
+      <Script
+        id="theme-script"
+      >
         {`
           (function () {
             let currentTheme = 'light';

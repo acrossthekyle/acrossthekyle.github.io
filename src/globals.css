@@ -1,14 +1,17 @@
 @import "tailwindcss";
 
 :root {
-  --background: #242423;
+  --background: #0c0c0c;
   --foreground: #fffdf7;
 }
 
-@theme {
+@theme inline {
   --animate-in-fade: fadeIn .4s ease-in forwards;
-  --breakpoint-xs: 22.1875rem; /* 355px */
-  --text-tiny: 0.6875rem;
+  --breakpoint-xs: 20.625rem; /* 320px */
+  --font-mono: var(--font-roboto-mono);
+  --font-sans: var(--font-geist-sans);
+  --text-tiny: 0.6875rem; /* 11px */
+  --text-xtiny: 0.5rem; /* 8px */
 }
 
 html {
@@ -16,89 +19,24 @@ html {
 }
 
 html[data-theme="dark"] {
-  --background: #242423;
+  --background: #0c0c0c;
   --foreground: #fffdf7;
 }
 
 html[data-theme="light"] {
   --background: #fffdf7;
-  --foreground: #242423;
+  --foreground: #0c0c0c;
 }
 
 body {
-  article {
-    h2 {
-      padding-top: 0;
-    }
-  }
-
-  p {
-    line-height: 1.6;
-    padding-bottom: 1.5rem;
-  }
-
-  p:last-of-type {
-    padding-bottom: 0;
-  }
-
-  ul {
-    line-height: 1.75;
-  }
-
-  figure {
-    position: relative;
-  }
-
-  u {
-    border-bottom-color: var(--foreground);
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    padding-bottom: 0px;
-    text-decoration: none;
-  }
-
   button {
     cursor: pointer;
   }
 
-  hr {
-    width: 1rem;
-    margin-top: 1.75rem;
-    padding-top: 1.75rem;
-    border-color: var(--foreground);
-  }
-
-  progress {
-    -webkit-appearance: none;
-    appearance: none;
-    background-color: transparent;
-    border-radius: 0.5rem;
-    height: 0.25rem;
-    width: 100%;
-  }
-
-  progress::-webkit-progress-bar {
-    background-color: transparent;
-  }
-
-  progress::-webkit-progress-value,
-  progress::-moz-progress-bar {
-    background-color: var(--foreground);
-    border-radius: 0.5rem;
-  }
-
   img {
-    border-radius: 0.125rem;
     height: 100%;
     object-fit: cover;
     width: 100%;
-  }
-
-  dl {
-    column-gap: calc(var(--spacing) * 6);
-    display: grid;
-    gap: calc(var(--spacing) * 3);
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   /* third-party package styling  */
@@ -120,15 +58,11 @@ body {
   }
 }
 
-@supports (color: color-mix(in lab, red, red)) {
-  body {
-    hr {
-      border-color: color-mix(in oklab, var(--foreground) 50%, transparent);
-    }
-  }
-}
-
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

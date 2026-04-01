@@ -1,10 +1,6 @@
 import styles from './stylesheet';
 
-type Props = {
-  children: React.ReactNode;
-};
-
-export default function Main({ children }: Props) {
+export default function Main({ children }: React.PropsWithChildren) {
   return (
     <main className={styles.container}>
       {children}

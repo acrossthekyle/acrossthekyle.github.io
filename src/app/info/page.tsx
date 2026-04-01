@@ -1,12 +1,16 @@
 import { Suspense } from 'react';
 
 import Loading from '@/ui/loading';
-import View from '@/views/root';
+import View from '@/views/info';
+
+import get from './get';
 
 export default function Page() {
+  const data = get();
+
   return (
     <Suspense fallback={<Loading />}>
-      <View />
+      <View data={data} />
     </Suspense>
   );
 }

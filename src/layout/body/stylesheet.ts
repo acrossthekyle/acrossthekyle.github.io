@@ -4,14 +4,12 @@ const styles = tw({
   container: `
     antialiased
     flex flex-col
-    h-auto min-h-full
-    p-6 py-14
-    font-mono
-    text-base text-(--foreground)
-    bg-(--background)
+    h-auto min-h-dvh
+    text-(--background)
+    bg-(--foreground)
+    p-1
 
-    sm:p-14
-    sm:text-sm
+    md:p-2
   `,
 });
 

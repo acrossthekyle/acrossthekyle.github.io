@@ -1,10 +1,12 @@
 import '../globals.css';
 
 import type { Metadata, Viewport } from 'next';
+import { Suspense } from 'react';
 
-import { Body } from '@/layout';
+import { HierarchyProvider } from '@/contexts/hierarchy';
+import { Body, Footer, Header, Main } from '@/layout';
 
-const description = `Hi, I'm Kyle: backpacker and engineer. I'm drawn to long trails and wild places, from the Himalayas to Patagonia. Between adventures, I build web apps in Chicago.`;
+const description = `Kyle is a Chicago-based self-taught software engineer and millennial who balances his lifelong passion for creating web apps with a love for long-distance backpacking adventures, and star trek.`;
 
 export const metadata: Metadata = {
   title: {
@@ -63,7 +65,15 @@ export default function RootLayout({ children }: Props) {
   return (
     <html data-theme="dark" lang="en">
       <Body>
-        {children}
+        <Suspense fallback={null}>
+          <HierarchyProvider>
+            <Header />
+            <Main>
+              {children}
+            </Main>
+            <Footer />
+          </HierarchyProvider>
+        </Suspense>
       </Body>
     </html>
   );

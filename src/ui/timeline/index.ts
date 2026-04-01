@@ -1,9 +1,0 @@
-export { default as Timeline } from './container';
-export { default as TimelineContent } from './content';
-export { default as TimelineDate } from './date';
-export { default as TimelineEntry } from './entry';
-export { default as TimelineHeader } from './header';
-export { default as TimelineHeading } from './heading';
-export { default as TimelineItem } from './item';
-export { default as TimelineLine } from './line';
-export { default as TimelineItems } from './list';
