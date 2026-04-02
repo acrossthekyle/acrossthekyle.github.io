@@ -1,8 +1,10 @@
 /* eslint-disable */
 // @ts-nocheck
 
+import { go as gear } from './gear';
 import { go as places } from './places';
-import { go as words } from './words';
+import { go as blog } from './blog';
 
+gear();
 places();
-words();
+blog();

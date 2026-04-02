@@ -3,6 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   divider: `
     flex flex-col gap-[1px]
+    mt-10
     h-8
     -mx-2
     bg-(--foreground)

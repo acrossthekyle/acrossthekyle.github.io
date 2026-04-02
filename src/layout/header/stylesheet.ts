@@ -41,11 +41,11 @@ const styles = tw({
   item: `
     group
   `,
-  link: `
+  link: (isActive: boolean) => tw(`
     block
     px-2 py-2
     font-sans font-black
-    text-sm text-(--foreground)
+    text-sm ${isActive ? 'text-(--foreground)' : 'text-(--foreground)/40'}
     uppercase
     duration-300
 
@@ -54,21 +54,24 @@ const styles = tw({
     md:px-5
     md:py-4
     md:hover:!text-(--foreground)/100
-  `,
-  index: `
+  `),
+  eyebrow: (isActive: boolean) => tw(`
     block
     font-mono
-    text-xtiny text-(--foreground)/70
+    text-xtiny ${isActive ? 'text-(--foreground)/70' : 'text-(--foreground)/40'}
     duration-300
 
     md:group-hover:!text-(--foreground)/70
-  `,
-  text: `
+  `),
+  lid: (isActive: boolean) => tw(`
     block
     uppercase
     font-mono
-    text-xtiny text-(--foreground)/40
-  `,
+    text-xtiny ${isActive ? 'text-(--foreground)/50' : 'text-(--foreground)/40'}
+    duration-300
+
+    md:group-hover:!text-(--foreground)/50
+  `),
 });
 
 export default styles;

@@ -6,7 +6,6 @@ const styles = tw({
     flex flex-col gap-4
     mt-10
 
-    md:mt-20
     lg:flex-row
     lg:gap-12
   `,

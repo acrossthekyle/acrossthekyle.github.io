@@ -1,0 +1,48 @@
+{
+  "date": [
+    "8/31/2019"
+  ],
+  "timestamp": "1567195200",
+  "id": "southern-rockies-2019+",
+  "title": "Southern Rockies",
+  "location": "Colorado",
+  "coordinates": "39.7392° N, 104.9903° W",
+  "images": [
+    {
+      "src": "2019/08/31/52f1514b-91a4-494d-93df-6ae9c81df01c.jpeg",
+      "title": "Mount Elbert"
+    },
+    {
+      "src": "2019/09/01/08d28c7e-387b-418f-8226-b2a87485f1d8.jpeg",
+      "title": "Quandary Peak"
+    },
+    {
+      "src": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
+      "title": "La Plata Peak"
+    },
+    {
+      "src": "2020/09/05/54a89ed8-86d4-4918-b7b3-b883ecea72c8.jpeg",
+      "title": "Mount Bierstadt"
+    },
+    {
+      "src": "2020/09/06/80307849-8964-4e0d-a70f-f6371ca7fcad.jpeg",
+      "title": "Grays Peak"
+    },
+    {
+      "src": "2021/09/07/fbe767d5-63c6-4af7-8643-ceef9b4cce92.jpeg",
+      "title": "Mount Shavano"
+    },
+    {
+      "src": "2021/09/09/8e1e0c1f-c391-4bc0-807c-7bdd8d20815b.jpeg",
+      "title": "Mount DeCaLiBron"
+    },
+    {
+      "src": "2022/09/09/f722df6c-2869-4ff0-80f7-37014241e135.jpeg",
+      "title": "Mount Belford"
+    },
+    {
+      "src": "2022/09/11/b74f68ae-d627-4a89-9122-fbc75562e59d.jpeg",
+      "title": "Mount Massive"
+    }
+  ]
+}

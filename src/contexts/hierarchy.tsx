@@ -1,6 +1,6 @@
 'use client'
 
-import { usePathname, useSearchParams } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import { createContext, useEffect, useState } from 'react';
 
 export const HierarchyContext = createContext({
@@ -10,7 +10,6 @@ export const HierarchyContext = createContext({
 
 export const HierarchyProvider = ({ children }: React.PropsWithChildren) => {
   const pathname = usePathname();
-  const searchParams = useSearchParams();
 
   const [current, setCurrent] = useState('/');
   const [previous, setPrevious] = useState('/');
@@ -23,7 +22,7 @@ export const HierarchyProvider = ({ children }: React.PropsWithChildren) => {
   useEffect(() => {
     handleOnRouteChange(pathname);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [pathname, searchParams]);
+  }, [pathname]);
 
   return (
     <HierarchyContext.Provider value={{

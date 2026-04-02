@@ -5,7 +5,7 @@ import { useUnits } from '@/hooks/useUnits';
 type Props = {
   isSmall?: boolean;
   weight: {
-    imperial: string | number;
+    imperial: string;
     metric: string;
   };
 };

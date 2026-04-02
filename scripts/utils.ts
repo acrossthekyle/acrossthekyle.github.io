@@ -7,7 +7,7 @@ import path from 'path';
 
 const output = path.join(process.cwd(), './src/db');
 
-async function createDirectory(destination) {
+export async function createDirectory(destination) {
   try {
     await fs.readdirSync(destination);
   } catch (e) {
@@ -15,7 +15,7 @@ async function createDirectory(destination) {
   }
 }
 
-async function writeFile(destination, filename, content, silent = false) {
+export async function writeFile(destination, filename, content, silent = false) {
   createDirectory(destination);
 
   await fs.writeFile(`${destination}/${filename}`, content, function (error) {
@@ -29,8 +29,8 @@ async function writeFile(destination, filename, content, silent = false) {
   });
 }
 
-export async function write(destination, data) {
+export async function write(destination, data, outputOverride = undefined) {
   const json = `const data = ${JSON.stringify(data, null, 2)};\n\r\n\rexport default data;`;
 
-  await writeFile(output, destination, json);
+  await writeFile(outputOverride ?? output, destination, json);
 }

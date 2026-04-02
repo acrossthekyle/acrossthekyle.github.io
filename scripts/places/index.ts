@@ -6,7 +6,6 @@ import path from 'path';
 
 import { write } from '../utils';
 
-import { compile as compileGear } from './gear';
 import { compile as compileGpxs } from './gpx';
 import { compile as compileImages } from './images';
 import { compile as compilePlace } from './place';
@@ -28,7 +27,6 @@ export async function go() {
     places: [],
     stats: [],
     stages: [],
-    gears: [],
     images: [],
     gpxs: [],
   };
@@ -51,12 +49,6 @@ export async function go() {
 
       cache.stats.push(stats);
 
-      const gear = await compileGear(`${input}/${folder}`, place);
-
-      if (gear) {
-        cache.gears.push(gear);
-      }
-
       const images = await compileImages(place, stages);
 
       cache.images = [ ...cache.images, ...images ];
@@ -77,11 +69,6 @@ export async function go() {
     write(
       'stages.js',
       cache.stages,
-    );
-
-    write(
-      'gear.js',
-      cache.gears,
     );
 
     write(

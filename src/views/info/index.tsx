@@ -1,4 +1,3 @@
-import Divider from '@/ui/divider';
 import {
   Header,
   HeaderEyebrow,
@@ -7,8 +6,8 @@ import {
 } from '@/ui/header';
 import Introduction from '@/ui/introduction';
 import { Highlight } from '@/ui/typography';
+import Footer from '@/ui/views/info/footer';
 
-import Footer from './footer';
 import Images from './images';
 import styles from './stylesheet';
 
@@ -93,7 +92,6 @@ export default function View({ data }: Props) {
           ))}
         </ul>
       </section>
-      <Divider />
       <Footer />
     </>
   );
