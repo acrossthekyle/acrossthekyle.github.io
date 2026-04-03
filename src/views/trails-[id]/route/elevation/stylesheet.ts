@@ -8,10 +8,15 @@ const grid = `
 
 const styles = tw({
   heading: `
+    hidden
     absolute bottom-2.75 left-3.5
     font-mono
     text-xtiny text-(--foreground)
     uppercase
+
+    sm:block
+    lg:bottom-10.5
+    xl:bottom-2.75
   `,
   eyebrow: `
     block
@@ -19,10 +24,16 @@ const styles = tw({
   `,
   container: `
     relative
+    mt-27
     pt-1
     h-[20vh] w-full
     select-none
     touch-none
+    border-t-1 border-t-(--foreground)/20
+
+    sm:mb-12
+    lg:mb-0
+    lg:mt-0
   `,
   grid1: `
     ${grid}

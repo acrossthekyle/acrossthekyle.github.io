@@ -11,7 +11,7 @@ const data = {
     }
   },
   "continent": "north america",
-  "coordinates": "43.171257° N, 91.259365° W",
+  "coordinates": "43.1713° N, 91.2594° W",
   "days": "2",
   "description": [
     "Known for its unglaciated, hilly landscape, this remote counterclockwise backpacking loop in the Driftless Area of Iowa showcases the state's most rugged terrain with a route that crosses ravines, climbs sandstone bluffs, and provides views of the surrounding hardwood forests and wildlife."
@@ -100,7 +100,7 @@ const data = {
           }
         }
       },
-      "coordinates": "43.154907° N, 91.227765° W",
+      "coordinates": "43.1549° N, 91.2278° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -1191,7 +1191,7 @@ const data = {
           }
         }
       },
-      "coordinates": "43.171046° N, 91.258706° W",
+      "coordinates": "43.1710° N, 91.2587° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -2252,7 +2252,7 @@ const data = {
       }
     }
   },
-  "timestamp": "1729227600",
+  "timestamp": "1760677200",
   "title": "Yellow River Trail",
   "type": "weekend hike",
   "when": "10 18-19 2025"

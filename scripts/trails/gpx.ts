@@ -8,6 +8,8 @@ import fs from 'fs';
 import fsPromises from 'fs/promises';
 import path from 'path';
 
+import { reduceCoordinates } from '../utils';
+
 const STAT_FALLBACK = {
   imperial: '',
   metric: '',
@@ -246,7 +248,7 @@ export async function compile(folder, trail) {
         altitudeMax: getMax(elevation),
         altitudeStart: getStart(elevation),
         beginning: getBeginning(start),
-        coordinates: data.coordinates,
+        coordinates: reduceCoordinates(data.coordinates),
         distance: getDistance(trail.type, data),
         elevation,
         elevationGain: getGain(data),

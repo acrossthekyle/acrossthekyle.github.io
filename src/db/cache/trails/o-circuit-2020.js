@@ -11,7 +11,7 @@ const data = {
     }
   },
   "continent": "south america",
-  "coordinates": "50.965190° S, 72.863461° W",
+  "coordinates": "50.9652° S, 72.8635° W",
   "days": "8",
   "description": [
     "At the bottom of the world in Southern Chile with equal parts rustic and modern, the trail known as the 'O' Circuit circumnavigates the prominent Torres del Paine granite towers that Patagonia is partly known for. A tapestry of landscapes, sprawling glaciers, pristine lakes, and windswept plains provides an idyllic background for thru-hiking."
@@ -100,7 +100,7 @@ const data = {
           }
         }
       },
-      "coordinates": "50.866066° S, 72.893010° W",
+      "coordinates": "50.8661° S, 72.8930° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -501,7 +501,7 @@ const data = {
           }
         }
       },
-      "coordinates": "50.878971° S, 73.075068° W",
+      "coordinates": "50.8790° S, 73.0751° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -1132,7 +1132,7 @@ const data = {
           }
         }
       },
-      "coordinates": "50.932259° S, 73.134516° W",
+      "coordinates": "50.9323° S, 73.1345° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -1708,7 +1708,7 @@ const data = {
           }
         }
       },
-      "coordinates": "51.006093° S, 73.176970° W",
+      "coordinates": "51.0061° S, 73.1770° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -2799,7 +2799,7 @@ const data = {
           }
         }
       },
-      "coordinates": "51.072269° S, 73.094106° W",
+      "coordinates": "51.0723° S, 73.0941° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -3375,7 +3375,7 @@ const data = {
           }
         }
       },
-      "coordinates": "51.026126° S, 73.027475° W",
+      "coordinates": "51.0261° S, 73.0275° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -4466,7 +4466,7 @@ const data = {
           }
         }
       },
-      "coordinates": "50.957293° S, 72.910759° W",
+      "coordinates": "50.9573° S, 72.9108° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -5557,7 +5557,7 @@ const data = {
           }
         }
       },
-      "coordinates": "50.965190° S, 72.863461° W",
+      "coordinates": "50.9652° S, 72.8635° W",
       "distance": {
         "label": "Distance",
         "value": {

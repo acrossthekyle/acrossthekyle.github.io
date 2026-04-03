@@ -11,7 +11,7 @@ const data = {
     }
   },
   "continent": "europe",
-  "coordinates": "42.50742° N, 8.85544° E",
+  "coordinates": "42.5074° N, 8.8554° E",
   "days": "13",
   "description": [
     "Known locally as Fra Li Monti (Corsican for 'across the mountains'), and considered to be the most difficult of all trails in Europe, the GR 20 is a footpath that traverses the Mediterranean island of Corsica from North to South along its spiny mountainous backbone. Between the Northern starting point at Calenzana and the end at Conca in the South, there are hidden mountain lakes, expansive sea views, rugged and rocky cliffs, and remarkable panoramas."
@@ -100,7 +100,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.465040° N, 8.906564° E",
+      "coordinates": "42.4650° N, 8.9066° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -1191,7 +1191,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.426075° N, 8.901129° E",
+      "coordinates": "42.4261° N, 8.9011° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -2282,7 +2282,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.403158° N, 8.921932° E",
+      "coordinates": "42.4032° N, 8.9219° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -3373,7 +3373,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.352974° N, 8.908136° E",
+      "coordinates": "42.3530° N, 8.9081° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -4464,7 +4464,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.286737° N, 8.892854° E",
+      "coordinates": "42.2867° N, 8.8929° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -5555,7 +5555,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.219632° N, 8.980736° E",
+      "coordinates": "42.2196° N, 8.9807° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -6646,7 +6646,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.197998° N, 9.051345° E",
+      "coordinates": "42.1980° N, 9.0513° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -7737,7 +7737,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.153218° N, 9.073870° E",
+      "coordinates": "42.1532° N, 9.0739° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -8828,7 +8828,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.127838° N, 9.133778° E",
+      "coordinates": "42.1278° N, 9.1338° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -9919,7 +9919,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.027983° N, 9.194208° E",
+      "coordinates": "42.0280° N, 9.1942° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -11010,7 +11010,7 @@ const data = {
           }
         }
       },
-      "coordinates": "41.934562° N, 9.205753° E",
+      "coordinates": "41.9346° N, 9.2058° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -12101,7 +12101,7 @@ const data = {
           }
         }
       },
-      "coordinates": "41.841451° N, 9.214859° E",
+      "coordinates": "41.8415° N, 9.2149° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -13192,7 +13192,7 @@ const data = {
           }
         }
       },
-      "coordinates": "41.734828° N, 9.333969° E",
+      "coordinates": "41.7348° N, 9.3340° E",
       "distance": {
         "label": "Distance",
         "value": {

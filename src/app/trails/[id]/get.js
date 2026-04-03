@@ -1,24 +1,31 @@
+import albums from '@/db/albums';
 import trails from '@/db/trails';
 
 export default async function get(id) {
   const foundIndex = trails.findIndex(trail => trail.id === id);
 
+  let more = [];
+
   if (foundIndex === 0) {
-    // get three older ones from starting index
-  } else if (foundIndex === 1) {
-    // get one newer and two older from starting index
+    more = trails.slice(foundIndex + 1, foundIndex + 4);
   } else if (foundIndex === trails.length - 1) {
-    // get three newest ones from ending index
+    more = trails.slice(foundIndex - 3, foundIndex);
   } else if (foundIndex === trails.length - 2) {
-    // get one older and two newer from ending index
+    more = [trails[trails.length - 1], ...trails.slice(foundIndex - 2, foundIndex)];
   } else {
-    // get one newer and two older from starting index
+    more = [trails[foundIndex - 1], ...trails.slice(foundIndex + 1, foundIndex + 3)];
   }
 
-  try {
-    const data = await import(`@/db/cache/trails/${id}.js`);
+  const photos = albums.find((album) => album.id === trails[foundIndex].albumId)?.images.length ?? 0;
 
-    return data;
+  try {
+    const trail = await import(`@/db/cache/trails/${id}.js`);
+
+    return {
+      more,
+      photos,
+      trail: trail.default,
+    };
   } catch {
     return null;
   }

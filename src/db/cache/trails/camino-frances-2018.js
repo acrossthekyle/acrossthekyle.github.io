@@ -11,7 +11,7 @@ const data = {
     }
   },
   "continent": "europe",
-  "coordinates": "43.163415° N, 1.235811° W",
+  "coordinates": "43.1634° N, 1.2358° W",
   "days": "32",
   "description": [
     "Starting high in the Pyrenees mountains between France and Spain, and leading to the Atlantic ocean, the Camino Frances is part of a series of ancient routes collectively called the Camino de Santiago. It covers a wide array of landscapes and cultures over hills and mountains, across deserts, through rivers, and in thick forests."
@@ -100,7 +100,7 @@ const data = {
           }
         }
       },
-      "coordinates": "43.008876° N, 1.319260° W",
+      "coordinates": "43.0089° N, 1.3193° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -1191,7 +1191,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.930438° N, 1.504572° W",
+      "coordinates": "42.9304° N, 1.5046° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -2282,7 +2282,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.818410° N, 1.643061° W",
+      "coordinates": "42.8184° N, 1.6431° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -3373,7 +3373,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.672893° N, 1.811013° W",
+      "coordinates": "42.6729° N, 1.8110° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -4464,7 +4464,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.669402° N, 2.023947° W",
+      "coordinates": "42.6694° N, 2.0239° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -5555,7 +5555,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.554763° N, 2.266501° W",
+      "coordinates": "42.5548° N, 2.2665° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -6646,7 +6646,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.468396° N, 2.444487° W",
+      "coordinates": "42.4684° N, 2.4445° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -7737,7 +7737,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.418158° N, 2.734220° W",
+      "coordinates": "42.4182° N, 2.7342° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -8828,7 +8828,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.440993° N, 2.952668° W",
+      "coordinates": "42.4410° N, 2.9527° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -9919,7 +9919,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.420634° N, 3.188555° W",
+      "coordinates": "42.4206° N, 3.1886° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -11010,7 +11010,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.369762° N, 3.478145° W",
+      "coordinates": "42.3698° N, 3.4781° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -12101,7 +12101,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.342839° N, 3.696735° W",
+      "coordinates": "42.3428° N, 3.6967° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -13192,7 +13192,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.312714° N, 4.043865° W",
+      "coordinates": "42.3127° N, 4.0439° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -14283,7 +14283,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.266812° N, 4.406383° W",
+      "coordinates": "42.2668° N, 4.4064° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -15374,7 +15374,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.336999° N, 4.598834° W",
+      "coordinates": "42.3370° N, 4.5988° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -16465,7 +16465,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.370529° N, 5.027340° W",
+      "coordinates": "42.3705° N, 5.0273° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -17556,7 +17556,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.473609° N, 5.355056° W",
+      "coordinates": "42.4736° N, 5.3551° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -18647,7 +18647,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.598802° N, 5.567345° W",
+      "coordinates": "42.5988° N, 5.5673° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -19738,7 +19738,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.484526° N, 5.725923° W",
+      "coordinates": "42.4845° N, 5.7259° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -20829,7 +20829,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.453111° N, 6.051388° W",
+      "coordinates": "42.4531° N, 6.0514° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -21920,7 +21920,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.491645° N, 6.343115° W",
+      "coordinates": "42.4916° N, 6.3431° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -23011,7 +23011,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.545238° N, 6.591707° W",
+      "coordinates": "42.5452° N, 6.5917° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -24102,7 +24102,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.604360° N, 6.806768° W",
+      "coordinates": "42.6044° N, 6.8068° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -25193,7 +25193,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.708180° N, 7.042422° W",
+      "coordinates": "42.7082° N, 7.0424° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -26284,7 +26284,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.777112° N, 7.413450° W",
+      "coordinates": "42.7771° N, 7.4135° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -27375,7 +27375,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.807571° N, 7.615600° W",
+      "coordinates": "42.8076° N, 7.6156° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -28466,7 +28466,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.915045° N, 8.016012° W",
+      "coordinates": "42.9150° N, 8.0160° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -29557,7 +29557,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.904215° N, 8.364199° W",
+      "coordinates": "42.9042° N, 8.3642° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -30648,7 +30648,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.880530° N, 8.545736° W",
+      "coordinates": "42.8805° N, 8.5457° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -31739,7 +31739,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.909494° N, 8.736317° W",
+      "coordinates": "42.9095° N, 8.7363° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -32830,7 +32830,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.966705° N, 9.039198° W",
+      "coordinates": "42.9667° N, 9.0392° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -33921,7 +33921,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.882094° N, 9.271892° W",
+      "coordinates": "42.8821° N, 9.2719° W",
       "distance": {
         "label": "Distance",
         "value": {

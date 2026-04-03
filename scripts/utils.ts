@@ -13,7 +13,7 @@ export async function createDirectory(destination) {
   } catch (e) {
     await fs.mkdirSync(destination);
   }
-}
+};
 
 export async function writeFile(destination, filename, content, silent = false) {
   createDirectory(destination);
@@ -27,10 +27,16 @@ export async function writeFile(destination, filename, content, silent = false) 
       console.log(`wrote ${destination}/${filename}`);
     }
   });
-}
+};
 
 export async function write(destination, data, outputOverride = undefined) {
   const json = `const data = ${JSON.stringify(data, null, 2)};\n\r\n\rexport default data;`;
 
   await writeFile(outputOverride ?? output, destination, json);
-}
+};
+
+export function reduceCoordinates(value, to = 4) {
+  return value.replace(/\d+\.\d+/g, (match) => {
+    return parseFloat(match).toFixed(to);
+  });
+};

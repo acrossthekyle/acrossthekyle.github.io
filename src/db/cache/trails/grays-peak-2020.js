@@ -1,5 +1,5 @@
 const data = {
-  "albumId": "southern-rockies-2019+",
+  "albumId": "southern-rockies-2019",
   "altitudeMax": {
     "label": "Max altitude",
     "value": {
@@ -11,7 +11,7 @@ const data = {
     }
   },
   "continent": "North America",
-  "coordinates": "39.63383° N, 105.81763° W",
+  "coordinates": "39.6338° N, 105.8176° W",
   "days": "1",
   "description": [
     "Grays Peak was a stunning finale to my Colorado 14'er trip, with the entire hike starting above the treeline. The sunrise, 360-degree summit views, and alpine landscapes made it a magical way to end the weekend."
@@ -100,7 +100,7 @@ const data = {
           }
         }
       },
-      "coordinates": "39.63383° N, 105.81763° W",
+      "coordinates": "39.6338° N, 105.8176° W",
       "distance": {
         "label": "Distance",
         "value": {

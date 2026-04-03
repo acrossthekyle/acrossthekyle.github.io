@@ -2,21 +2,35 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    flex gap-4
+    flex flex-col gap-4
     w-full
+
+    lg:flex-row
   `,
   sidebar: `
-    mt-1
-    bg-(--foreground)
-    text-(--background)
-    rounded-md
+    absolute left-1 bottom-66.75 right-1 z-9999
+    bg-(--background)
+    text-(--foreground)
+
+    sm:bottom-55.75
+    lg:rounded-md
+    lg:bg-(--foreground)
+    lg:text-(--background)
+    lg:relative
+    lg:left-auto
+    lg:right-auto
+    lg:bottom-auto
+    lg:mt-1
   `,
   stages: `
-    flex-2
     flex flex-col gap-1
-    p-2.5
-    h-[72vh]
-    overflow-y-scroll
+    h-[12vh]
+    overflow-hidden
+
+    lg:flex-2
+    lg:p-2.5
+    lg:h-[72vh]
+    lg:overflow-y-scroll
   `,
   stage: `
     font-mono

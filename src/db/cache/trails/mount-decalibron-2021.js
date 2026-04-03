@@ -1,5 +1,5 @@
 const data = {
-  "albumId": "southern-rockies-2019+",
+  "albumId": "southern-rockies-2019",
   "altitudeMax": {
     "label": "Max altitude",
     "value": {
@@ -11,7 +11,7 @@ const data = {
     }
   },
   "continent": "North America",
-  "coordinates": "39.34700° N, 106.1186° W",
+  "coordinates": "39.3470° N, 106.1186° W",
   "days": "1",
   "description": [
     "The DeCaLiBro-n route connected three 14,000-foot peaks in a single day, offering sweeping views and thrilling ridges. Completing Democrat, Cameron, and Lincoln left us exhausted but exhilarated, a true alpine adventure."
@@ -100,7 +100,7 @@ const data = {
           }
         }
       },
-      "coordinates": "39.34700° N, 106.1186° W",
+      "coordinates": "39.3470° N, 106.1186° W",
       "distance": {
         "label": "Distance",
         "value": {

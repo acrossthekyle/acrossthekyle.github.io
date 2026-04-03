@@ -1,5 +1,5 @@
 const data = {
-  "albumId": "southern-rockies-2019+",
+  "albumId": "southern-rockies-2019",
   "altitudeMax": {
     "label": "Max altitude",
     "value": {

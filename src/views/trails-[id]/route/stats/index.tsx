@@ -32,7 +32,7 @@ export default function Stats({ stages }: Props) {
         <span className={styles.index}>Altitude end</span>
         <Length isSmall value={stage.altitudeEnd.value.complex} />
       </li>
-      <li className={styles.item}>
+      <li className={`${styles.item} ${styles.empty}`}>
         <span className={styles.index}>Elevation gain</span>
         <Length isSmall value={stage.elevationGain.value.complex} />
       </li>

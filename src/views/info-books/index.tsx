@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import {
   Header,
   HeaderEyebrow,
@@ -34,10 +36,10 @@ export default function View({ data }: Props) {
         {data.books.map((book, index: number) => (
           <li className={styles.item} key={book.title}>
             <span className={styles.eyebrow}>[ 00-{padIndex(index + 1)} ]</span>
-            <p>
+            <Link href={`https://www.amazon.com/s?k=${book.title.replaceAll(' ', '+')}+${book.author.replaceAll(' ', '+')}&i=stripbooks`} target="_blank">
               {book.title}
               <span className={styles.lid}>{book.author}</span>
-            </p>
+            </Link>
           </li>
         ))}
       </ul>

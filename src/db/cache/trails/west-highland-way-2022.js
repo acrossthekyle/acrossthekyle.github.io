@@ -11,7 +11,7 @@ const data = {
     }
   },
   "continent": "europe",
-  "coordinates": "55.943977° N, 4.319957° W",
+  "coordinates": "55.9440° N, 4.3200° W",
   "days": "6",
   "description": [
     "Filled with misty glens, deep lochs, and endless rain while hiking from Milngavie to Fort William, the West Highland Way is a long-distance trail in the highlands of Scotland in the UK. The trail travels down many ancient roads and old coaching routes, journeying from the lowlands to the highlands, while camping overnight in fields, along lakeside beachs, and under bridges."
@@ -100,7 +100,7 @@ const data = {
           }
         }
       },
-      "coordinates": "56.053547° N, 4.431895° W",
+      "coordinates": "56.0535° N, 4.4319° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -1191,7 +1191,7 @@ const data = {
           }
         }
       },
-      "coordinates": "56.126441° N, 4.606140° W",
+      "coordinates": "56.1264° N, 4.6061° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -2282,7 +2282,7 @@ const data = {
           }
         }
       },
-      "coordinates": "56.330626° N, 4.716722° W",
+      "coordinates": "56.3306° N, 4.7167° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -3373,7 +3373,7 @@ const data = {
           }
         }
       },
-      "coordinates": "56.518142° N, 4.770913° W",
+      "coordinates": "56.5181° N, 4.7709° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -4464,7 +4464,7 @@ const data = {
           }
         }
       },
-      "coordinates": "56.713018° N, 4.966539° W",
+      "coordinates": "56.7130° N, 4.9665° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -5555,7 +5555,7 @@ const data = {
           }
         }
       },
-      "coordinates": "56.815924° N, 5.114791° W",
+      "coordinates": "56.8159° N, 5.1148° W",
       "distance": {
         "label": "Distance",
         "value": {

@@ -12,12 +12,12 @@ const styles = tw({
     w-full
     mb-2
     font-sans font-black
-    text-3xl text-(--foreground)
+    text-2xl text-(--foreground)
     uppercase
 
-    md:w-32
+    md:w-22
     lg:mb-0
-    lg:w-48
+    xl:w-48
   `,
   eyebrow: `
     block
@@ -26,18 +26,16 @@ const styles = tw({
   `,
   text: `
     block
-    mt-2
     w-30
     font-mono font-normal
-    normal-case
     text-xtiny text-(--foreground)/70
   `,
   items: `
     flex flex-col gap-6
     w-full
 
-    sm:flex-row
-    sm:gap-0
+    lg:flex-row
+    lg:gap-0
     md:has-[li:hover]:[&_a]:text-(--foreground)/40
     md:has-[li:hover]:[&_span]:text-(--foreground)/40
   `,

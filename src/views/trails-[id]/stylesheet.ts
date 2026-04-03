@@ -30,9 +30,9 @@ const styles = tw({
     uppercase
     whitespace-nowrap
 
-    md:w-32
+    md:w-22
     lg:mb-0
-    lg:w-48
+    xl:w-48
   `,
   eyebrow: `
     block
@@ -43,7 +43,14 @@ const styles = tw({
     lg:mr-3
   `,
   items: `
-    columns-4 gap-x-20
+    grid grid-cols-1
+
+    xs:grid-cols-2
+    sm:gap-x-10
+    sm:grid-cols-3
+    md:grid-cols-4
+    md:grid-rows-3
+    lg:gap-x-20
   `,
   item: `
     mb-4

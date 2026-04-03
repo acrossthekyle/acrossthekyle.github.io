@@ -1,5 +1,5 @@
 const data = {
-  "albumId": "southern-rockies-2019+",
+  "albumId": "southern-rockies-2019",
   "altitudeMax": {
     "label": "Max altitude",
     "value": {
@@ -11,7 +11,7 @@ const data = {
     }
   },
   "continent": "North America",
-  "coordinates": "39.02949° N, 106.47300° W",
+  "coordinates": "39.0295° N, 106.4730° W",
   "days": "1",
   "description": [
     "Camping near the trailhead made La Plata Peak feel more approachable despite its technical challenges. Hiking six hours to the summit rewarded me with alpine scenery, hidden snow patches, and a peaceful sense of solitude."
@@ -100,7 +100,7 @@ const data = {
           }
         }
       },
-      "coordinates": "39.02949° N, 106.47300° W",
+      "coordinates": "39.0295° N, 106.4730° W",
       "distance": {
         "label": "Distance",
         "value": {

@@ -11,7 +11,7 @@ const data = {
     }
   },
   "continent": "europe",
-  "coordinates": "45.890167° N, 6.797842° E",
+  "coordinates": "45.8902° N, 6.7978° E",
   "days": "11",
   "description": [
     "Encircling the Mont Blanc mountain in the Alps, the tour of this peak is a classic long-distance hike covering a distance of 117 miles (188 kilometers) while passing through France, Italy, and Switzerland. It's a challenging experience filled with diverse landscapes, unique cultural blends, and stunning alpine scenery, all while sleeping in mountain huts and eating home-cooked meals each night."
@@ -100,7 +100,7 @@ const data = {
           }
         }
       },
-      "coordinates": "45.836183° N, 6.749606° E",
+      "coordinates": "45.8362° N, 6.7496° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -1191,7 +1191,7 @@ const data = {
           }
         }
       },
-      "coordinates": "45.721984° N, 6.717337° E",
+      "coordinates": "45.7220° N, 6.7173° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -2282,7 +2282,7 @@ const data = {
           }
         }
       },
-      "coordinates": "45.765329° N, 6.774427° E",
+      "coordinates": "45.7653° N, 6.7744° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -3373,7 +3373,7 @@ const data = {
           }
         }
       },
-      "coordinates": "45.790910° N, 6.930901° E",
+      "coordinates": "45.7909° N, 6.9309° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -4464,7 +4464,7 @@ const data = {
           }
         }
       },
-      "coordinates": "45.846806° N, 7.033225° E",
+      "coordinates": "45.8468° N, 7.0332° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -5555,7 +5555,7 @@ const data = {
           }
         }
       },
-      "coordinates": "45.933675° N, 7.098531° E",
+      "coordinates": "45.9337° N, 7.0985° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -6646,7 +6646,7 @@ const data = {
           }
         }
       },
-      "coordinates": "46.035426° N, 7.098918° E",
+      "coordinates": "46.0354° N, 7.0989° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -7737,7 +7737,7 @@ const data = {
           }
         }
       },
-      "coordinates": "46.057814° N, 7.001387° E",
+      "coordinates": "46.0578° N, 7.0014° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -8828,7 +8828,7 @@ const data = {
           }
         }
       },
-      "coordinates": "45.995152° N, 6.927716° E",
+      "coordinates": "45.9952° N, 6.9277° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -9919,7 +9919,7 @@ const data = {
           }
         }
       },
-      "coordinates": "45.960102° N, 6.887438° E",
+      "coordinates": "45.9601° N, 6.8874° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -11010,7 +11010,7 @@ const data = {
           }
         }
       },
-      "coordinates": "45.890167° N, 6.797842° E",
+      "coordinates": "45.8902° N, 6.7978° E",
       "distance": {
         "label": "Distance",
         "value": {

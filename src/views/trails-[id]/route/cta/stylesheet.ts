@@ -3,11 +3,12 @@ import tw from '@/styles';
 const styles = tw({
   container: (isActive: boolean) => tw(`
     w-full
-    rounded-md
     p-3
     text-left
     uppercase
     duration-300
+
+    lg:rounded-md
 
     ${isActive && `bg-(--background) text-(--foreground)`}
     ${!isActive && `md:hover:bg-(--background)/12.5`}

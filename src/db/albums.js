@@ -265,7 +265,7 @@ const data = [
   },
   {
     "coordinates": "42.876001° N, 88.525661° W",
-    "id": "ice-age-trail-2022+",
+    "id": "ice-age-trail-2022",
     "images": [
       {
         "src": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",
@@ -483,7 +483,7 @@ const data = [
   },
   {
     "coordinates": "39.7392° N, 104.9903° W",
-    "id": "southern-rockies-2019+",
+    "id": "southern-rockies-2019",
     "images": [
       {
         "src": "2019/08/31/52f1514b-91a4-494d-93df-6ae9c81df01c.jpeg",

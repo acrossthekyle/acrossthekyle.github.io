@@ -5,7 +5,7 @@ import { format as formatDate, parse as parseDate } from 'date-fns';
 import fs from 'fs';
 import path from 'path';
 
-import { write } from '../utils';
+import { reduceCoordinates, write } from '../utils';
 
 import { compile as compileGpx } from './gpx';
 import { compile as compileStats } from './stats';
@@ -66,7 +66,7 @@ export async function go() {
           albumId: data.albumId,
           altitudeMax: '',
           continent: data.continent,
-          coordinates: data.coordinates,
+          coordinates: reduceCoordinates(data.coordinates),
           days: data.days,
           description: data.description,
           distance: '',
@@ -127,14 +127,17 @@ export async function go() {
   if (trails.length) {
     write(
       'trails.js',
-      trails.sort((a, b) => b.timestamp - a.timestamp).map(({ coordinates, id, location, title, type, when }) => ({
-        coordinates,
-        id,
-        location,
-        title,
-        type,
-        when,
-      })),
+      trails
+        .sort((a, b) => b.timestamp - a.timestamp)
+        .map(({ albumId, coordinates, id, location, title, type, when }) => ({
+          albumId,
+          coordinates,
+          id,
+          location,
+          title,
+          type,
+          when,
+        })),
     );
 
     trails.forEach((trail) => {

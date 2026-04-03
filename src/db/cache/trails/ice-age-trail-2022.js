@@ -1,5 +1,5 @@
 const data = {
-  "albumId": "ice-age-trail-2022+",
+  "albumId": "ice-age-trail-2022",
   "altitudeMax": {
     "label": "Max altitude",
     "value": {
@@ -11,7 +11,7 @@ const data = {
     }
   },
   "continent": "north america",
-  "coordinates": "42.876001° N, 88.525661° W",
+  "coordinates": "42.8760° N, 88.5257° W",
   "days": "4",
   "description": [
     "A place of kettles and moraines from mile-thick glaciers long ago in Wisconsin, completing this 1,200 mile long-distance national scenic trail in sections takes time. It's not the distance on this trail that gets you; it's the constant up and down over rolling hills."
@@ -56,7 +56,7 @@ const data = {
       }
     }
   },
-  "id": "ice-age-trail-2022+",
+  "id": "ice-age-trail-2022",
   "location": "Wisconsin",
   "stages": [
     {
@@ -100,7 +100,7 @@ const data = {
           }
         }
       },
-      "coordinates": "42.819096° N, 88.618999° W",
+      "coordinates": "42.8191° N, 88.6190° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -1191,7 +1191,7 @@ const data = {
           }
         }
       },
-      "coordinates": "43.736385° N, 88.101430° W",
+      "coordinates": "43.7364° N, 88.1014° W",
       "distance": {
         "label": "Distance",
         "value": {
@@ -2282,7 +2282,7 @@ const data = {
           }
         }
       },
-      "coordinates": "43.796372° N, 88.035076° W",
+      "coordinates": "43.7964° N, 88.0351° W",
       "distance": {
         "label": "Distance",
         "value": {

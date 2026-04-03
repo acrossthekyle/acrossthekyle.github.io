@@ -11,7 +11,7 @@ const data = {
     }
   },
   "continent": "asia",
-  "coordinates": "28.239145° N, 84.369334° E",
+  "coordinates": "28.2391° N, 84.3693° E",
   "days": "18",
   "description": [
     "Ranging from tropical forests and waterfalls along paddy fields to the frozen arctic region of the Tibetan plateau at 17,000 ft, the Annapurna Circuit thru-hike combines a circuit around the mountain, and a trek up to its basecamp, while winding its way among the tallest peaks in the world."
@@ -100,7 +100,7 @@ const data = {
           }
         }
       },
-      "coordinates": "28.290443° N, 84.371005° E",
+      "coordinates": "28.2904° N, 84.3710° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -1191,7 +1191,7 @@ const data = {
           }
         }
       },
-      "coordinates": "28.413492° N, 84.406804° E",
+      "coordinates": "28.4135° N, 84.4068° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -2282,7 +2282,7 @@ const data = {
           }
         }
       },
-      "coordinates": "28.518802° N, 84.358491° E",
+      "coordinates": "28.5188° N, 84.3585° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -3373,7 +3373,7 @@ const data = {
           }
         }
       },
-      "coordinates": "28.550701° N, 84.243575° E",
+      "coordinates": "28.5507° N, 84.2436° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -4464,7 +4464,7 @@ const data = {
           }
         }
       },
-      "coordinates": "28.615272° N, 84.152628° E",
+      "coordinates": "28.6153° N, 84.1526° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -5555,7 +5555,7 @@ const data = {
           }
         }
       },
-      "coordinates": "28.665637° N, 84.023393° E",
+      "coordinates": "28.6656° N, 84.0234° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -6646,7 +6646,7 @@ const data = {
           }
         }
       },
-      "coordinates": "28.680046° N, 83.906462° E",
+      "coordinates": "28.6800° N, 83.9065° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -7737,7 +7737,7 @@ const data = {
           }
         }
       },
-      "coordinates": "28.680249° N, 83.953461° E",
+      "coordinates": "28.6802° N, 83.9535° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -8828,7 +8828,7 @@ const data = {
           }
         }
       },
-      "coordinates": "28.776871° N, 83.972587° E",
+      "coordinates": "28.7769° N, 83.9726° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -9919,7 +9919,7 @@ const data = {
           }
         }
       },
-      "coordinates": "28.816285° N, 83.864780° E",
+      "coordinates": "28.8163° N, 83.8648° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -11010,7 +11010,7 @@ const data = {
           }
         }
       },
-      "coordinates": "28.752382° N, 83.686214° E",
+      "coordinates": "28.7524° N, 83.6862° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -12101,7 +12101,7 @@ const data = {
           }
         }
       },
-      "coordinates": "28.600733° N, 83.642419° E",
+      "coordinates": "28.6007° N, 83.6424° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -13192,7 +13192,7 @@ const data = {
           }
         }
       },
-      "coordinates": "28.402473° N, 83.699856° E",
+      "coordinates": "28.4025° N, 83.6999° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -14283,7 +14283,7 @@ const data = {
           }
         }
       },
-      "coordinates": "28.418032° N, 83.818317° E",
+      "coordinates": "28.4180° N, 83.8183° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -15374,7 +15374,7 @@ const data = {
           }
         }
       },
-      "coordinates": "28.497527° N, 83.898564° E",
+      "coordinates": "28.4975° N, 83.8986° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -16465,7 +16465,7 @@ const data = {
           }
         }
       },
-      "coordinates": "28.530683° N, 83.878037° E",
+      "coordinates": "28.5307° N, 83.8780° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -17556,7 +17556,7 @@ const data = {
           }
         }
       },
-      "coordinates": "28.424160° N, 83.818124° E",
+      "coordinates": "28.4242° N, 83.8181° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -18647,7 +18647,7 @@ const data = {
           }
         }
       },
-      "coordinates": "28.404032° N, 83.822919° E",
+      "coordinates": "28.4040° N, 83.8229° E",
       "distance": {
         "label": "Distance",
         "value": {

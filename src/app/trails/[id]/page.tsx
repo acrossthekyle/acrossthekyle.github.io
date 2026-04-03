@@ -1,3 +1,4 @@
+import { notFound } from 'next/navigation';
 import { Suspense } from 'react';
 
 import Loading from '@/ui/loading';
@@ -18,9 +19,13 @@ export default async function Page({
 
   const data = await get(id);
 
+  if (data === null) {
+    return notFound();
+  }
+
   return (
     <Suspense fallback={<Loading />}>
-      <View data={data.default} />
+      <View data={data} />
     </Suspense>
   );
 }

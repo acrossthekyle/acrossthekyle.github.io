@@ -11,7 +11,7 @@ const data = {
     }
   },
   "continent": "europe",
-  "coordinates": "46.699222° N, 12.085207° E",
+  "coordinates": "46.6992° N, 12.0852° E",
   "days": "10",
   "description": [
     "In Northern Italy there is a mountain range known as The Dolomites, and they contain a series of seven trails collectively known as the Alta Via. The Alta Via 1 winds its way from North to South passing through a panorama of jagged ridges, vertical walls, and uniquely-shaped mountains."
@@ -100,7 +100,7 @@ const data = {
           }
         }
       },
-      "coordinates": "46.665683° N, 12.084678° E",
+      "coordinates": "46.6657° N, 12.0847° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -1191,7 +1191,7 @@ const data = {
           }
         }
       },
-      "coordinates": "46.611184° N, 12.007224° E",
+      "coordinates": "46.6112° N, 12.0072° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -2282,7 +2282,7 @@ const data = {
           }
         }
       },
-      "coordinates": "46.552971° N, 11.998282° E",
+      "coordinates": "46.5530° N, 11.9983° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -3373,7 +3373,7 @@ const data = {
           }
         }
       },
-      "coordinates": "46.499677° N, 12.040606° E",
+      "coordinates": "46.4997° N, 12.0406° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -4464,7 +4464,7 @@ const data = {
           }
         }
       },
-      "coordinates": "46.436817° N, 12.122864° E",
+      "coordinates": "46.4368° N, 12.1229° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -5555,7 +5555,7 @@ const data = {
           }
         }
       },
-      "coordinates": "46.387987° N, 12.033094° E",
+      "coordinates": "46.3880° N, 12.0331° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -6646,7 +6646,7 @@ const data = {
           }
         }
       },
-      "coordinates": "46.321321° N, 12.070270° E",
+      "coordinates": "46.3213° N, 12.0703° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -7737,7 +7737,7 @@ const data = {
           }
         }
       },
-      "coordinates": "46.288905° N, 12.163652° E",
+      "coordinates": "46.2889° N, 12.1637° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -8828,7 +8828,7 @@ const data = {
           }
         }
       },
-      "coordinates": "46.261734° N, 12.176131° E",
+      "coordinates": "46.2617° N, 12.1761° E",
       "distance": {
         "label": "Distance",
         "value": {
@@ -9919,7 +9919,7 @@ const data = {
           }
         }
       },
-      "coordinates": "46.229553° N, 12.113386° E",
+      "coordinates": "46.2296° N, 12.1134° E",
       "distance": {
         "label": "Distance",
         "value": {

@@ -12,7 +12,7 @@ const styles = tw({
     w-full
     mb-2
     font-sans font-black
-    text-3xl text-(--foreground)
+    text-2xl text-(--foreground)
     uppercase
 
     md:w-32
@@ -26,10 +26,8 @@ const styles = tw({
   `,
   text: `
     block
-    mt-2
     w-30
     font-mono font-normal
-    normal-case
     text-xtiny text-(--foreground)/70
   `,
   items: `

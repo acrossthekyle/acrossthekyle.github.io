@@ -1,5 +1,5 @@
 const data = {
-  "albumId": "southern-rockies-2019+",
+  "albumId": "southern-rockies-2019",
   "altitudeMax": {
     "label": "Max altitude",
     "value": {
@@ -11,7 +11,7 @@ const data = {
     }
   },
   "continent": "North America",
-  "coordinates": "39.5826432° N, 105.6687551° W",
+  "coordinates": "39.5826° N, 105.6688° W",
   "days": "1",
   "description": [
     "Mt. Bierstadt was an easier 14'er with beautiful prairies, alpine lakes, and boulder scrambling near the summit. The quick climb and wide-open Colorado skies made it an unforgettable and relaxing day hike."
@@ -100,7 +100,7 @@ const data = {
           }
         }
       },
-      "coordinates": "39.5826432° N, 105.6687551° W",
+      "coordinates": "39.5826° N, 105.6688° W",
       "distance": {
         "label": "Distance",
         "value": {

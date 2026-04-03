@@ -5,10 +5,16 @@ const styles = tw({
     relative
     h-[46vh]
     overflow-hidden
+
+    lg:h-[42.5vh]
+    xl:h-[46vh]
   `,
   map: `
     relative
     h-[46vh] w-full
+
+    lg:h-[42.5vh]
+    xl:h-[46vh]
   `,
   current: `
     relative z-0
