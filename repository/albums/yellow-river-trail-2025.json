@@ -1,0 +1,21 @@
+{
+  "date": [
+    "10/18/2025",
+    "10/19/2025"
+  ],
+  "timestamp": "1729227600",
+  "id": "yellow-river-trail-2025",
+  "title": "Yellow River Trail",
+  "location": "Iowa",
+  "coordinates": "43.171257° N, 91.259365° W",
+  "images": [
+    {
+      "src": "2025/10/18/efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg",
+      "title": "Browns Hollow"
+    },
+    {
+      "src": "2025/10/18/db8b9939-7fe0-43b3-b5ef-d0baea038ef1.jpeg",
+      "title": "Browns Trailhead"
+    }
+  ]
+}

@@ -1,9 +1,0 @@
-Waking up early this morning was a rare treat, as I was able to catch the sunrise filtering through the trees. The soft morning light made the trail feel almost magical, and it set the tone for the day ahead. The route offered a mix of forests, mountain passes, and what appeared to be old stone military barracks scattered along the landscape.
-
-We began our hike through grassy fields before entering the trees once again. There were brief stretches on a road during a descent, but we quickly returned to the forest. Hidden among the pines were some fascinating ruins, hinting at a long history that added an extra layer of intrigue to the trek.
-
-Eventually, the trail emerged onto exposed scree fields, where the sun beat down with little relief from clouds or shade. The views from this open section were spectacular, offering distant mountain panoramas in every direction. After navigating across the scree and small groves of pine, we came upon a grassy clearing with an old hut and a still-functioning water trough. We refilled our bottles and pressed on, eager to continue exploring.
-
-Later in the day, we came across large stone ruins tucked among thick vegetation. They were too substantial to have been ordinary homes, so I suspect they were remnants of World War II. The trail then led us to a crest with sweeping views before narrowing into a dense forest of pine and bushes. The heat and strong scent of the pines made me push forward quickly, motivated by the sight of Rifugio Pramperet in the distance.
-
-Rifugio Pramperet provided a welcome respite with a courtyard, dormitories along one wall, and tables with umbrellas for outdoor meals. Dinner was, as always on this trek, fantastic. Afterwards a moose arrived! It stayed at a respectful distance, but watching it as the sun set behind the mountains was a perfect end to a day filled with striking scenery and hidden history.

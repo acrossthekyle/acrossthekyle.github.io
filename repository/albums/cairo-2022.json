@@ -1,0 +1,29 @@
+{
+  "date": [
+    "12/29/2022",
+    "1/2/2023"
+  ],
+  "timestamp": "1672304400",
+  "id": "cairo-2022",
+  "title": "Cairo",
+  "location": "Egypt",
+  "coordinates": "30.033333° N, 31.233334° E",
+  "images": [
+    {
+      "src": "2022/12/28/c0f9c079-8942-4390-bb9e-dae4e0a65034.jpeg",
+      "title": "Standing Inside the Great Pyramid"
+    },
+    {
+      "src": "2022/12/28/b3275967-68fd-4c69-ad40-df15b2a697b5.jpeg",
+      "title": "The Mighty Sphinx"
+    },
+    {
+      "src": "2022/12/28/d9a7b01b-5915-493c-8c25-5a8ebd77ac58.jpeg",
+      "title": "Discovering Saqqara"
+    },
+    {
+      "src": "2022/12/28/2fbb089e-8a80-4c3b-b071-709cc9702a84.jpeg",
+      "title": "Exploring the Step Pyramid"
+    }
+  ]
+}

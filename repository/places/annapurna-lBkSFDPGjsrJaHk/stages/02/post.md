@@ -1,9 +1,0 @@
-Day two on the trail started with a proper breakfast, a welcome change from yesterday's pastries. Eggs, sausage, and fresh bread fueled us for the day ahead, and everyone had slept well the night before. Without the pressure to get moving early, we took our time leaving the village and soaking in the morning air.
-
-Our path soon led past towering waterfalls, and the fine mist from the falling water felt refreshing as we began to climb higher along the river. Several suspension bridges required careful crossing, moving us back and forth over the rushing waters. The trail itself varied between gravel, dirt, grass, and occasional mud, with only brief stretches shared with passing jeeps.
-
-Lunch came at a teahouse perched on the cliffside, offering a spectacular view of the valley and terraced fields below. The veggie mo-mo and orange soda hit the spot, and we lingered over an hour, watching the sun move across the mountains. As we continued, an archway marked our entry into the Gandaki region, and higher elevations allowed us to look down on the trail we had traversed so far.
-
-A waterfall further along gave us a playful challenge, as hikers in front of us carefully navigated slippery stones, losing a few trekking poles and hats to the fast-flowing water. The trail wound along rock and dirt paths carved into the mountainside, with each bend revealing new vistas. Eventually, we arrived in Jagat, where a natural hot spring offered a steam bath at the river's edge. The hike down and back up was a little grueling, but the experience was worth it, as locals also used the waters for bathing.
-
-Near the village, a swaying suspension bridge provided the perfect photo opportunity. Our group posed quickly and moved along, wary of the precarious sway. Day two reminded us that the Annapurna Circuit is as much about patience and persistence as it is about awe-inspiring scenery.

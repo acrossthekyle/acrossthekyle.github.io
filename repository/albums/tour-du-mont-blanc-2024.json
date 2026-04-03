@@ -1,0 +1,57 @@
+{
+  "date": [
+    "7/27/2024",
+    "8/6/2024"
+  ],
+  "timestamp": "1753228805",
+  "id": "tour-du-mont-blanc-2024",
+  "title": "Tour du Mont Blanc",
+  "location": "Alps",
+  "coordinates": "45.890167° N, 6.797842° E",
+  "images": [
+    {
+      "src": "2024/07/27/ac7799bd-b2a8-4f77-8a8d-6d42a8740390.jpeg",
+      "title": "Auberge Truc"
+    },
+    {
+      "src": "2024/07/27/10146a42-b18d-4318-bc5b-c32279532e4d.jpeg",
+      "title": "La Croix du Bonhomme"
+    },
+    {
+      "src": "2024/07/27/be9a961c-fc7d-43dc-b466-29a359d1cd12.jpeg",
+      "title": "Robert Blanc"
+    },
+    {
+      "src": "2024/07/27/a45073e7-ef67-4e31-a5e7-3ba9b4b97b4e.jpeg",
+      "title": "Maison Veille"
+    },
+    {
+      "src": "2024/07/27/f1310350-3cb1-4f1b-b591-e08d0971f23b.jpeg",
+      "title": "Bonatti"
+    },
+    {
+      "src": "2024/07/27/b70777d8-b89d-4d60-b422-2d2af80483e4.jpeg",
+      "title": "Hotel Edelweiss"
+    },
+    {
+      "src": "2024/07/27/22400157-4853-4974-856b-86b1bc986ef9.jpeg",
+      "title": "Bon Abri"
+    },
+    {
+      "src": "2024/07/27/99d87d66-9534-4aca-9489-eb2fbbdc152b.jpeg",
+      "title": "Hotel Forclaz"
+    },
+    {
+      "src": "2024/07/27/91e2be29-62d0-4be0-a00a-9ebd9d9dc395.jpeg",
+      "title": "La Boerne"
+    },
+    {
+      "src": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg",
+      "title": "La Flegere"
+    },
+    {
+      "src": "2024/07/27/480c5394-dfa7-4760-8f62-5a39cb66cb98.jpeg",
+      "title": "Les Houches"
+    }
+  ]
+}

@@ -1,9 +1,0 @@
-The near-death experience from the night before was deeply humbling, but it also sparked an unexpected sense of energy. I woke up after a long, restorative sleep and walked downstairs to an empty dining hall. Nearly everyone had already left in the early hours to hike up Poon Hill for sunrise.
-
-While waiting for breakfast, one of the hikers who had helped me the night before came in. I thanked them again, knowing there was no real way to repay that kind of selfless kindness. When it came time to order, I made sure to get as much warm food as possible, determined not to repeat the mistakes of the previous day.
-
-With a full stomach and a renewed appreciation for simply being there, I set off toward Chomrong and the beginning of the Annapurna Base Camp trek. Thick fog hung over the village as I left, and the trail felt unusually quiet since many people do not take this route. The stillness suited the reflective mood I was in.
-
-For several hours I walked through rolling hills wrapped in fog before emerging into a forest filled with leaves of every color. It felt like autumn back home. The area turned out to be a protected forest, and families were out hiking together, bringing a gentle, joyful energy to the trail.
-
-After stopping at a small group of teahouses for lunch and fueling up properly, I continued on, this time into dense jungle. Monkeys suddenly appeared overhead, swinging through the trees, an incredible sight that also made me pick up the pace just in case. The trail eventually dropped steeply into a valley and climbed back up the other side, delivering me to Chomrong a few hours later. Despite gaining a surprising amount of elevation, the day felt lighter. I found a welcoming place to stay with sweeping views and some of the best food of the trip so far, including pizza that tasted especially earned.

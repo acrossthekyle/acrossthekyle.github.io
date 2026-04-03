@@ -1,0 +1,65 @@
+{
+  "date": [
+    "6/21/2023",
+    "7/3/2023"
+  ],
+  "timestamp": "1687332000",
+  "id": "gr20-2023",
+  "title": "The GR 20",
+  "location": "France",
+  "coordinates": "42.50742° N, 8.85544° E",
+  "images": [
+    {
+      "src": "2023/06/21/f1d1c83f-941d-4351-aa5e-08d698b78775.jpeg",
+      "title": "Refuge D'Ortu Di U Piobbu"
+    },
+    {
+      "src": "2023/06/21/e2d0721f-2c3f-4367-8f7b-1176c94b3e2c.jpeg",
+      "title": "Refuge Carozzu"
+    },
+    {
+      "src": "2023/06/21/4b13a3d8-a55c-4bed-b887-ad3490ab964f.jpeg",
+      "title": "Refuge Ascu Stagnu"
+    },
+    {
+      "src": "2023/06/21/8f85de22-b937-4ea5-9dfa-e45eb357e7b8.jpeg",
+      "title": "Auberge U Vallone"
+    },
+    {
+      "src": "2023/06/21/f0dc6ac2-b0e5-4e2a-b874-0d40f47c454b.jpeg",
+      "title": "Hotel Castel di Vergio"
+    },
+    {
+      "src": "2023/06/21/95b4adaa-bbbe-4de3-b9f8-96365390f142.jpeg",
+      "title": "Refuge Manganu"
+    },
+    {
+      "src": "2023/06/21/05769f04-5b00-4fd5-a233-55c00c9871c5.jpeg",
+      "title": "Refuge Petra Piana"
+    },
+    {
+      "src": "2023/06/21/4e7bda74-809e-48a9-a904-5645bf2e7dde.jpeg",
+      "title": "Refuge l'Onda"
+    },
+    {
+      "src": "2023/06/21/2cc8532b-6441-49fb-927e-ebdb001b78cf.jpeg",
+      "title": "Vizzavona"
+    },
+    {
+      "src": "2023/06/21/54334c14-8bae-4478-97f7-179f79cd2ca6.jpeg",
+      "title": "Bocca di Verdi"
+    },
+    {
+      "src": "2023/06/21/73a5df9e-fefd-43d0-ad5a-7f71dcb003cc.jpeg",
+      "title": "Refuge d'Usciolu"
+    },
+    {
+      "src": "2023/06/21/d36a683f-4d95-4b0c-987d-d190336c49ee.jpeg",
+      "title": "Refuge d'Asinau"
+    },
+    {
+      "src": "2023/06/21/f0cd0897-3fc9-47a2-808e-e1627dfb45bc.jpeg",
+      "title": "Conca"
+    }
+  ]
+}

@@ -1,9 +1,0 @@
-Saying goodbye to Nathan was harder than expected. He needed to press on to meet his timeline, which meant skipping the variant route to Tilicho Lake where we planned to spend the night before climbing to the world's highest freshwater lake at 15,500 feet. In the early morning hours, the three of us left Manang and crossed a suspension bridge at the edge of town, the day still quiet and cool.
-
-The trail quickly turned dramatic. We moved along steep mountain slopes that looked as if they had either just shed a landslide or were thinking about it. A few times, supply trains of donkeys clattered past us, and I held my breath, half convinced the loose stone beneath their hooves might give way. It never did, but the tension stayed with me.
-
-The landscape felt otherworldly, almost unreal. For nearly five hours we climbed and descended these sloping hills, gaining altitude with every step. By midday we reached a small cluster of teahouses in Shree Kharka and stopped to rest. We decided this would be our stopping point on the return from Tilicho Lake instead of pushing all the way to Thorong Phedi. The teahouses here were impossibly colorful, bright against the stark terrain.
-
-By the end of the afternoon, we finally reached Tilicho Lake Basecamp and were relieved to find what looked like the last available place to sleep. The catch was that it sat behind the main building in a small hut we would all share. Thin walls, windows with holes, and rough mattresses greeted us, but it was shelter, and that was enough.
-
-Dinner turned out to be excellent, which felt like a small miracle. My body is finally adjusting to a steady diet of cheap dal bhat and its endless refills. We spent the evening in the dining hall reading and playing cards before turning in early. Tomorrow would be an early start for the hike up to the lake.

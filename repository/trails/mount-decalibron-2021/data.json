@@ -8,7 +8,7 @@
   "albumId": "southern-rockies-2019+",
   "type": "summit",
   "continent": "North America",
-  "location": "Colorado",
+  "location": "Mosquito Range, Colorado, USA",
   "coordinates": "39.34700° N, 106.1186° W",
   "position": [
     "50.5%",
@@ -29,5 +29,10 @@
     "peak",
     "denver",
     "mount decalibron"
-  ]
+  ],
+  "termini": "Kite Lake to Mount DeCaLiBron",
+  "gain": "3134",
+  "loss": "1741",
+  "miles": "11.52",
+  "minutes": "402"
 }

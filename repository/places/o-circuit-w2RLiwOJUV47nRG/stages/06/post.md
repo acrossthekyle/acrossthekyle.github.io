@@ -1,9 +1,0 @@
-What a windy night it was. Almost nobody slept, except perhaps those who had paid for a bunk in the refuge. Several tents, including my own, were battered by sudden gusts. One of my trekking poles bent with a loud crack that sounded like a distant gunshot. I tied some extra guyline around the center pole to secure it, and it held, allowing me a couple more hours of sleep.
-
-The morning made up for the night. The sun cast a bright pink light across the clouds near the top of the nearby peak, and the scene was breathtaking. Today's hike would take us through ghost forests and along a large lake, possibly connected to distant ocean currents. The peaks of Los Cuernos, "the Horns," dominated the landscape and were in view the entire day. The trail was flatter and easier than yesterday, allowing us to make excellent time.
-
-Along the way, we took a side trek into Valley Frances, a wide circular valley nestled behind Los Torres. The valley was filled with vibrant green forests and unique rock formations along its edges. The trail was easy to navigate, winding along a fast-flowing river and through sandy and muddy terrain. After about an hour, we reached the valley center and took in the full 360-degree panorama, snapping plenty of photos.
-
-Two hours later, after returning to collect our packs, we arrived at Refugio Frances. The campsite was perched on a steep, tree-covered hill, giving everyone a raised platform to pitch their tent. My tent fit snugly, but I felt secure among the trees, shielded from the wind. The showers and cooking area were at the bottom of the hill, near the water. I only went down to shower and make dinner, preferring the quiet of my tent for the rest of the day.
-
-After dinner, I read for a while in my tent as the forest grew dark quickly. Sleep came early, with the knowledge that tomorrow we would hike to Chileno, our final refuge, and the day after that we would finally reach the Towers themselves.

@@ -1,9 +1,0 @@
-We bid farewell to our hostesses at Refuge du Peuty, thanked them for the unforgettable dinner and music, and set off for the final Col of our trek. I surged ahead of the group, hiking through the tree-covered trail, where the receding village and valley floor were hidden from view. Once I broke above the treeline, the vistas returned in full force: mountains plunging dramatically toward the valleys below, dotted with pink wildflowers and abandoned houses.
-
-Our destination for the morning was Refuge du Col de Balme, a remote building perched where Switzerland meets France. Here, the border felt purely symbolic; nature knows no lines. From this vantage point, Mont Blanc came into sight again after nearly nine days, a majestic reminder of the journey we had undertaken.
-
-We continued across rolling hills toward Aig des Posettes, today's high point. The climb was mostly easy, with only minor scrambling, and the skies were alive with hang gliders drifting gracefully above. We paused on the rocky terrain to enjoy snacks composed of chocolate, banana chips, and nuts, soaking in the incredible panorama of mountains stretching in all directions.
-
-The descent back under the tree cover was gentle yet physically demanding. The trail shifted from rocks to sandy dirt to leafy paths, each surface cushioning the impact on weary legs and knees. Switchbacks wound down toward the Auberge where we would spend the night, marking the close of another incredible day on the TMB.
-
-Evening brought rest, games, and connections with fellow hikers. I learned to play Taki (the Israeli version of Uno) and shared dinner with Dutch companions, picking up a few words in the process. As the sun set, the sky erupted in bright purple and the mountains glowed pink, a perfect ending to a day filled with awe-inspiring views and the quiet satisfaction of being deep in the heart of the Alps.

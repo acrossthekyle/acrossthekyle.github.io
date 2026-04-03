@@ -1,0 +1,21 @@
+{
+  "date": [
+    "03/14/2026",
+    "03/15/2026"
+  ],
+  "timestamp": "1773554400",
+  "id": "river-ridge-trail-2026",
+  "title": "River Ridge Trail",
+  "location": "Illinois",
+  "coordinates": "40.007973° N, 87.571681° W",
+  "images": [
+    {
+      "src": "2026/03/14/8e8fd062-270f-4081-96c3-ee072a81caab.jpeg",
+      "title": "East Camp"
+    },
+    {
+      "src": "2026/03/14/0048f3c5-e902-4713-8745-5562d51566a7.jpeg",
+      "title": "Ridge Trailhead"
+    }
+  ]
+}

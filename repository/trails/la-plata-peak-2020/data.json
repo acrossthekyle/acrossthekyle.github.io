@@ -8,7 +8,7 @@
   "albumId": "southern-rockies-2019+",
   "type": "summit",
   "continent": "North America",
-  "location": "Colorado",
+  "location": "Sawatch Range, Colorado, USA",
   "coordinates": "39.02949° N, 106.47300° W",
   "position": [
     "50.5%",
@@ -29,5 +29,10 @@
     "peak",
     "denver",
     "la plata peak"
-  ]
+  ],
+  "termini": "Colorado 82 Trailhead to La Plata Peak",
+  "gain": "4310",
+  "loss": "148",
+  "miles": "8.62",
+  "minutes": "540"
 }

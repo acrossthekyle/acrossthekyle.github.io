@@ -9,7 +9,7 @@ import readingTime from 'reading-time';
 
 import { write } from './utils';
 
-const input = path.join(process.cwd(), './repository/words');
+const input = path.join(process.cwd(), './repository/blog');
 
 export async function go() {
   const writings = fs.readdirSync(input).filter((item) => {
@@ -63,6 +63,6 @@ export async function go() {
       index,
     })).sort((a, b) => b.timestamp - a.timestamp);
 
-    write('words.js', sorted);
+    write('blog.js', sorted);
   }
 }

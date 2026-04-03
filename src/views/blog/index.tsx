@@ -14,7 +14,7 @@ import styles from './stylesheet';
 
 type Props = {
   data: {
-    words: Array<{
+    blog: Array<{
       content: string;
       date: string;
       index: number;
@@ -35,7 +35,7 @@ export default function View({ data }: Props) {
       <Introduction>
         <Highlight>Occasional</Highlight>ly sharing <Highlight>ideas and opinions</Highlight> about various topics in short 1 minute reads.
       </Introduction>
-      {data.words.map((item) => (
+      {data.blog.map((item) => (
         <article className={styles.article} key={item.index}>
           <h2 className={styles.heading}>
             <span className={styles.index}>[ 00-{padIndex(item.index + 1)} ]</span>

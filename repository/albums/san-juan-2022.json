@@ -1,0 +1,25 @@
+{
+  "date": [
+    "3/22/2022",
+    "3/25/2022"
+  ],
+  "timestamp": "1647907200",
+  "id": "san-juan-2022",
+  "title": "San Juan",
+  "location": "Puerto Rico",
+  "coordinates": "18.466333° N, 66.105722° W",
+  "images": [
+    {
+      "src": "2022/03/23/9f212336-298d-4c7d-874f-a3be34c95d7d.jpeg",
+      "title": "Morning Walks on the Beach"
+    },
+    {
+      "src": "2022/03/23/1ba3d3f7-9462-4375-9770-4efedf15f582.jpeg",
+      "title": "Exploring El Morro"
+    },
+    {
+      "src": "2022/03/23/11a03e4e-ed4e-47c2-822e-f720a9628638.jpeg",
+      "title": "Adventure in El Yunque"
+    }
+  ]
+}

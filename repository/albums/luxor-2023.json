@@ -1,0 +1,53 @@
+{
+  "date": [
+    "1/3/2023",
+    "1/6/2023"
+  ],
+  "timestamp": "1672734773",
+  "id": "luxor-2023",
+  "title": "Luxor",
+  "location": "Egypt",
+  "coordinates": "25.695700° N, 32.647400° E",
+  "images": [
+    {
+      "src": "2022/12/28/5e393275-ee80-475d-83cf-26192cd55738.jpeg",
+      "title": "Giants of the Nile"
+    },
+    {
+      "src": "2022/12/28/5f93fbaf-0c30-4f70-959d-a5e4384eff83.jpeg",
+      "title": "Wonders of the Tomb"
+    },
+    {
+      "src": "2022/12/28/12a42c7a-6b58-4356-a873-35d8cb66314a.jpeg",
+      "title": "Inside Tutankhamun's Tomb"
+    },
+    {
+      "src": "2022/12/28/d8ebe864-7209-44ae-b426-a05337965b8d.jpeg",
+      "title": "A Stunning Tomb in the Valley of the Kings"
+    },
+    {
+      "src": "2022/12/28/9fb7c062-5816-4154-b8cd-525a81f82be0.jpeg",
+      "title": "Quiet Wonders in the Valley of the Queens"
+    },
+    {
+      "src": "2022/12/28/44f2c787-1209-4e11-a2fe-64030e0c472c.jpeg",
+      "title": "Awe at Habu Temple"
+    },
+    {
+      "src": "2022/12/28/b7e2eeb1-90d3-49cb-bdb8-41acf2162f78.jpeg",
+      "title": "Terraces in the Cliff"
+    },
+    {
+      "src": "2022/12/28/b13b3a23-187a-4dc4-912d-e225b21af78a.jpeg",
+      "title": "Sunrise Over Luxor"
+    },
+    {
+      "src": "2022/12/28/9799718c-81f7-460d-9f0a-7ddd2dffb060.jpeg",
+      "title": "Discovering Luxor Temple"
+    },
+    {
+      "src": "2022/12/28/7f2020f6-ccd2-4f4a-98a1-44abd2df6911.jpeg",
+      "title": "Exploring Karnak Temple"
+    }
+  ]
+}

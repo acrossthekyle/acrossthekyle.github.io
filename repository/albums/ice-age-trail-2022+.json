@@ -1,0 +1,24 @@
+{
+  "date": [
+    "7/15/2022"
+  ],
+  "timestamp": "1657904400",
+  "id": "ice-age-trail-2022+",
+  "title": "Ice Age Trail",
+  "location": "Wisconsin",
+  "coordinates": "42.876001° N, 88.525661° W",
+  "images": [
+    {
+      "src": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",
+      "title": "Stony Ridge Shelter"
+    },
+    {
+      "src": "2025/05/03/e402c0b1-e827-4123-b7b5-74947b240687.jpeg",
+      "title": "Parnell Shelter"
+    },
+    {
+      "src": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
+      "title": "Greenbush Trailhead"
+    }
+  ]
+}

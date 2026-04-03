@@ -1,0 +1,25 @@
+{
+  "date": [
+    "11/6/2019",
+    "11/8/2019"
+  ],
+  "timestamp": "1571465000",
+  "id": "pokhara-2019",
+  "title": "Pokhara",
+  "location": "Nepal",
+  "coordinates": "28.209600° N, 83.985600° E",
+  "images": [
+    {
+      "src": "2019/11/06/0a6730d7-113b-4bca-b9d1-71ecf8e69713.jpeg",
+      "title": "Morning on Phewa Lake"
+    },
+    {
+      "src": "2019/11/06/4286cd26-eaad-47b1-96f7-2dff5ea38352.jpeg",
+      "title": "Peace at the Pagoda"
+    },
+    {
+      "src": "2019/11/06/9bbcf55a-54e8-4a7e-8c6f-12d718bc0da0.jpeg",
+      "title": "Flying Over Pokhara"
+    }
+  ]
+}

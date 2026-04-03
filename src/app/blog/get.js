@@ -1,7 +1,7 @@
-import words from '@/db/words';
+import blog from '@/db/blog';
 
 export default function get() {
   return {
-    words,
+    blog,
   };
 };

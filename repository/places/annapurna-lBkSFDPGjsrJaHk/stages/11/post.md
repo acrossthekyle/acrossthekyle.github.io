@@ -1,9 +1,0 @@
-Our destination today was Marpha, at least for some of us. Katie, a friend from New Zealand, would be leaving the trail early to catch a bus from the town just before Marpha and head back to Pokhara to continue her travels. Veronique stayed behind briefly to call her boyfriend back home, so Katie and I said our goodbyes and started down the trail together.
-
-The path for the day led us over light-brown hills and mountains and along wide, dried riverbeds that must roar with water during other seasons. It was a welcome change from road walking, and the route felt quieter and more remote. As we descended out of the mountains, we crossed several suspension bridges that gently swayed beneath our steps.
-
-The day felt long, filled with constant ups and downs and very little change in the scenery. This stretch of the circuit was noticeably emptier, since many trekkers opt to take a jeep from Muktinath instead of walking on. That choice was obvious in the lack of people and the fewer options for places to stay along the way.
-
-A few hours later, we reached the town just before Marpha and stopped for lunch together. Over food, we said goodbye, knowing it would likely be the last time our paths crossed on this trek. As we finished eating, we spotted Veronique walking by, and after parting with Katie, I hurried to catch up with her. The thought of being alone again after eleven days with the same group made me uneasy.
-
-In Marpha, I initially found a place to stay on my own, but it was empty and uninspiring. After settling in, I wandered the quiet village and, by chance, ran into Veronique again. She had found a much better place to stay, so we went back, grabbed my things, and moved over. The new spot had a friendly host and comfortable beds, and best of all, the promise that tomorrow would not involve any hiking at all.

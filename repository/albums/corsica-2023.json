@@ -1,0 +1,25 @@
+{
+  "date": [
+    "7/5/2023",
+    "7/7/2023"
+  ],
+  "timestamp": "1688508000",
+  "id": "corsica-2023",
+  "title": "Corsica",
+  "location": "France",
+  "coordinates": "41.926667° N, 8.736944° E",
+  "images": [
+    {
+      "src": "2023/07/05/a7519e17-dc25-46cc-b8c7-8b293684b8ef.jpeg",
+      "title": "Stone Walls and Sea Views at the Citadelle de Porto-Vecchio"
+    },
+    {
+      "src": "2023/07/05/4901532f-a283-4e4c-a93e-1b9cc3f9b13e.jpeg",
+      "title": "Ajaccio's Coastal Fortress: The Citadelle"
+    },
+    {
+      "src": "2023/07/05/7cace07e-0974-40d4-8356-019ef68594a9.jpeg",
+      "title": "An Urban Beach Escape in Ajaccio"
+    }
+  ]
+}

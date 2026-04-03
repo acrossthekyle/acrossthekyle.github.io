@@ -1,13 +1,10 @@
 {
   "date": "November 2nd, 2019",
-  "title": "Into the ABC Trail",
   "termini": "Chomrong to Deurali",
-  "image": "2019/10/19/a052d193-0be9-4288-b017-65d459c3eca1.jpeg",
   "location": "Kaski District",
-  "excerpt": "The climb toward Annapurna Base Camp began with long jungle ascents and steady rain. Deurali offered warm showers, shared company, and a calm pause before the final push.",
+  "coordinates": "28.497527° N, 83.898564° E",
   "gain": "5001",
   "loss": "1019",
   "miles": "8.42",
-  "minutes": "460",
-  "tooltips": ["left", "left"]
+  "minutes": "460"
 }

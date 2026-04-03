@@ -1,7 +1,0 @@
-The last day on the trail had arrived, the day of the Towers! I was thrilled to hike up to them for the second time in four years. Sleeping in a bunk bed last night was a real treat, and with everyone getting up at 3 a.m., there were no worries about disturbing anyone.
-
-It was going to be a long day: hike up to the Towers, watch the sunrise, hike back down, grab breakfast and our gear, and then continue all the way to the welcome center for our bus ride out. We packed our phone cameras, left our bags behind, turned on our headlamps, and set out into the pre-dawn darkness. Experiencing this trail in the dark was completely different from my previous day hike, but the clearly marked path made it easy to follow.
-
-Finding a good spot at the top took some effort, but eventually we settled in a sheltered area with enough space to set up our cameras for timelapse shots of the sunrise. Someone started singing "The Final Countdown," which felt fitting as we stared intently at the towers slowly emerging from the shadows. It was a truly magical experience, and we all took turns capturing photos of the awe-inspiring peaks.
-
-Eventually it was time to leave and return to reality. The hike down was quick, all downhill, and the bus arrived shortly after we reached the bottom. That evening, our now-large group reunited for a pizza dinner, a perfect way to end the trek, surrounded by friends we had made along the way.

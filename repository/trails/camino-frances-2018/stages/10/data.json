@@ -1,13 +1,10 @@
 {
   "date": "June 11th, 2018",
-  "title": "Rain, Ruins, and New Friends",
   "termini": "Santo Domingo to Belorado",
-  "image": "2018/06/02/009b868c-38ee-43e7-bc1c-90b259306d86.jpeg",
   "location": "Castile and León",
-  "excerpt": "A morning of solo walking through green fields turned into a soaking downpour on the Camino, but the day ended with new friends, castle ruins, and unforgettable views. Even in the rain, the Camino rewards patience and perseverance.",
+  "coordinates": "42.420634° N, 3.188555° W",
   "gain": "1178",
   "loss": "747",
   "miles": "13.65",
-  "minutes": "265",
-  "tooltips": ["right", "bottom"]
+  "minutes": "265"
 }

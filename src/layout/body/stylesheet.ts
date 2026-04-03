@@ -8,8 +8,6 @@ const styles = tw({
     text-(--background)
     bg-(--foreground)
     p-1
-
-    md:p-2
   `,
 });
 

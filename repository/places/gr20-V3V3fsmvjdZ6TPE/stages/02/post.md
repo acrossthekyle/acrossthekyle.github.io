@@ -1,9 +1,0 @@
-I had thought the second day on the trail would be easier, but Corsica had other plans. Last night was surprisingly quiet for a backpacking campground, and I woke early to take advantage of the comfortable temperatures. I had brought a mini thermometer along to track how well my sleep system performed, and it seemed to be doing its job. I had hoped to catch the sunrise, but it was hidden behind a ridge of mountains, so I quickly packed my gear and prepared for the day with a simple European breakfast of yogurt, bread, and jam.
-
-The trail started with an uphill climb, but I paced myself much better than on the first day and was making steady progress. Soon, the path required more scrambling and climbing, though it felt easier than yesterday's challenges. Despite this, the day remained difficult, with constant ups and downs, the relentless sun beating down in the valleys, and wind beginning to pick up. Certain sections demanded careful boulder-hopping across steep drops, where no chains offered assistance.
-
-The descent from the day's peak proved tricky, with loose rocks making some steep sections feel dangerous. It seemed to last forever, until finally I spotted the refuge as a tiny blue dot in the distance. The trail seemed determined to take its time getting me there, winding around in ways that tested patience as much as stamina.
-
-Once at the refuge, finding a level spot for my tent was a challenge. I ended up using some wooden pallets as a base, weighing things down with rocks to hold the tent in place. It wasn't perfect, but it would have to do, especially with the wind that Corsica seemed ready to unleash later that night.
-
-I spent the evening hanging out with the small group of hikers I had met the previous day. The wind carried the less pleasant smells from the nearby toilets, a small reminder that rustic camping comes with compromises. Despite that, I went to bed early, hoping to recharge for whatever the trail had in store tomorrow.

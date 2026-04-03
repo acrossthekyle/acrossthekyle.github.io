@@ -1,13 +1,10 @@
 {
   "date": "October 25th, 2019",
-  "title": "Toward Tilicho",
   "termini": "Manang to Tilicho Lake",
-  "image": "2019/10/19/ed197052-01d7-4739-807c-39340385c0fc.jpeg",
   "location": "Manang District",
-  "excerpt": "We said goodbye to a friend and stepped into an alien landscape on the way to Tilicho Lake Basecamp. It was a long, demanding day marked by loose trails, bright teahouses, and a simple but welcome place to rest before the climb.",
+  "coordinates": "28.680046° N, 83.906462° E",
   "gain": "3090",
   "loss": "1126",
   "miles": "8.91",
-  "minutes": "360",
-  "tooltips": ["right", "left"]
+  "minutes": "360"
 }

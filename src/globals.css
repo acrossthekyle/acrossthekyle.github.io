@@ -42,6 +42,44 @@ body {
 
   /* third-party package styling  */
 
+  .leaflet-bar {
+    border: 0 !important;
+  }
+
+  .leaflet-control {
+    margin: 0 !important;
+    padding-right: 1rem;
+  }
+
+  .leaflet-control-zoom-in,
+  .leaflet-control-zoom-out {
+    background: transparent !important;
+    border: 0 !important;
+    color: #1b1b1b !important;
+  }
+
+  .leaflet-control-attribution {
+    visibility: hidden;
+  }
+
+  .leaflet-container {
+    background: transparent;
+  }
+
+  .leaflet-tile-container .leaflet-tile {
+    border-radius: 0;
+  }
+
+  .leaflet-gesture-handling-scroll-warning:after,
+  .leaflet-gesture-handling-touch-warning:after {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .peer:hover + .trail-hoverable {
+    stroke: #0c0c0c !important;
+  }
+
   .apexcharts-tooltip {
     background: transparent !important;
     box-shadow: none !important;

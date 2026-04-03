@@ -1,12 +1,10 @@
 {
   "date": "March 14th, 2026",
   "termini": "Ridge Trailhead to East Camp",
-  "image": "2026/03/14/8e8fd062-270f-4081-96c3-ee072a81caab.jpeg",
   "location": "River Ridge Trail",
-  "excerpt": "n/a",
+  "coordinates": "40.006615° N, 87.535164° W",
   "gain": "865",
   "loss": "892",
   "miles": "7.26",
-  "minutes": "154",
-  "tooltips": ["left", "left"]
+  "minutes": "154"
 }

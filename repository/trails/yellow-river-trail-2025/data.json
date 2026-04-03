@@ -1,17 +1,27 @@
 {
-  "dates": ["10/18/2025", "10/19/2025"],
+  "date": [
+    "10/18/2025",
+    "10/19/2025"
+  ],
   "days": "2",
   "timestamp": "1729227600",
-  "id": "yellow-river-trail-backpack-loop",
-  "category": "trekking",
-  "image": "2025/10/18/efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg",
-  "type": "overnight trek",
+  "id": "yellow-river-trail-2025",
+  "albumId": "yellow-river-trail-2025",
+  "type": "weekend hike",
   "continent": "north america",
-  "location": "Iowa",
-  "position": ["47%", "18.5%"],
+  "location": "The Driftless Area, Iowa, USA",
+  "coordinates": "43.171257° N, 91.259365° W",
+  "position": [
+    "47%",
+    "18.5%"
+  ],
   "title": "Yellow River Trail",
   "description": [
     "Known for its unglaciated, hilly landscape, this remote counterclockwise backpacking loop in the Driftless Area of Iowa showcases the state's most rugged terrain with a route that crosses ravines, climbs sandstone bluffs, and provides views of the surrounding hardwood forests and wildlife."
   ],
-  "tags": ["short", "distance", "midwest"]
+  "tags": [
+    "short",
+    "distance",
+    "midwest"
+  ]
 }

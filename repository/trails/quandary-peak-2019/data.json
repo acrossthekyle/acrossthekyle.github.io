@@ -8,7 +8,7 @@
   "albumId": "southern-rockies-2019+",
   "type": "summit",
   "continent": "North America",
-  "location": "Colorado",
+  "location": "Tenmile Range, Colorado, USA",
   "coordinates": "39.3972° N, 106.1063° W",
   "position": [
     "50.5%",
@@ -29,5 +29,10 @@
     "peak",
     "denver",
     "quandary peak"
-  ]
+  ],
+  "termini": "McCullough Gulch to Quandary Peak",
+  "gain": "3330",
+  "loss": "0",
+  "miles": "5.96",
+  "minutes": "360"
 }

@@ -8,7 +8,7 @@
   "albumId": "southern-rockies-2019+",
   "type": "summit",
   "continent": "North America",
-  "location": "Colorado",
+  "location": "Sawatch Range, Colorado, USA",
   "coordinates": "38.9607° N, 106.3606° W",
   "position": [
     "50.5%",
@@ -29,5 +29,10 @@
     "peak",
     "denver",
     "mount belford"
-  ]
+  ],
+  "termini": "Missouri Gulch to Mount Belford",
+  "gain": "4474",
+  "loss": "0",
+  "miles": "8.52",
+  "minutes": "492"
 }

@@ -8,7 +8,7 @@
   "albumId": "southern-rockies-2019+",
   "type": "summit",
   "continent": "North America",
-  "location": "Colorado",
+  "location": "Sawatch Range, Colorado, USA",
   "coordinates": "39.1872° N, 106.4753° W",
   "position": [
     "50.5%",
@@ -29,5 +29,10 @@
     "peak",
     "denver",
     "mount massive"
-  ]
+  ],
+  "termini": "Halfmoon Trailhead to Mount Massive",
+  "gain": "4419",
+  "loss": "123",
+  "miles": "13.28",
+  "minutes": "456"
 }

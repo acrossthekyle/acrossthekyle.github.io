@@ -1,0 +1,29 @@
+{
+  "date": [
+    "3/18/2016",
+    "3/24/2016"
+  ],
+  "timestamp": "1458277200",
+  "id": "santiago-and-valparaiso-2016",
+  "title": "Santiago",
+  "location": "Chile",
+  "coordinates": "33.448890° S, 70.669265° W",
+  "images": [
+    {
+      "src": "2016/03/18/a3205d70-0fc8-416a-b383-eb08e9e612a5.jpeg",
+      "title": "Hiking Cerro San Cristóbal"
+    },
+    {
+      "src": "2016/03/18/dd0b9008-fbc2-4916-a33c-303a406e8fa5.jpeg",
+      "title": "Exploring Valparaíso"
+    },
+    {
+      "src": "2016/03/18/1f5577cc-e0c2-4c66-987e-903a9b6be02c.jpeg",
+      "title": "Glacier Hike in the Andes"
+    },
+    {
+      "src": "2016/03/18/b941c594-5218-449f-b79d-cb9936f56ad5.jpeg",
+      "title": "Wine Tasting in Chile"
+    }
+  ]
+}

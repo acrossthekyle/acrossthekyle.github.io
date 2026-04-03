@@ -8,7 +8,7 @@
   "albumId": "southern-rockies-2019+",
   "type": "summit",
   "continent": "North America",
-  "location": "Colorado",
+  "location": "Sawatch Range, Colorado, USA",
   "coordinates": "38.6190° N, 106.2392° W",
   "position": [
     "50.5%",
@@ -29,5 +29,10 @@
     "peak",
     "denver",
     "mount shavano"
-  ]
+  ],
+  "termini": "Shavano Trailhead to Mount Shavano",
+  "gain": "4405",
+  "loss": "2",
+  "miles": "9.08",
+  "minutes": "540"
 }

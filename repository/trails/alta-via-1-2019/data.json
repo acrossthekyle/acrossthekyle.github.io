@@ -1,17 +1,30 @@
 {
-  "dates": ["7/16/2019", "7/25/2019"],
+  "date": [
+    "7/16/2019",
+    "7/25/2019"
+  ],
   "days": "10",
   "timestamp": "1563261600",
-  "id": "alta-via-1",
-  "category": "trekking",
-  "image": "2019/07/16/735a0783-62ba-4f8e-97d8-c9b9f5327cfe.jpeg",
+  "id": "alta-via-1-2019",
+  "albumId": "alta-via-1-2019",
   "type": "thru-hike",
   "continent": "europe",
-  "location": "Italy",
-  "position": ["45.5%", "50.5%"],
+  "location": "The Dolomites, Italy",
+  "coordinates": "46.699222° N, 12.085207° E",
+  "position": [
+    "45.5%",
+    "50.5%"
+  ],
   "title": "Alta Via 1",
   "description": [
     "In Northern Italy there is a mountain range known as The Dolomites, and they contain a series of seven trails collectively known as the Alta Via. The Alta Via 1 winds its way from North to South passing through a panorama of jagged ridges, vertical walls, and uniquely-shaped mountains."
   ],
-  "tags": ["av", "av1", "dolomite", "long", "distance", "europe"]
+  "tags": [
+    "av",
+    "av1",
+    "dolomite",
+    "long",
+    "distance",
+    "europe"
+  ]
 }

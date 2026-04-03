@@ -1,9 +1,0 @@
-Today's hike began in a lush pine forest, with sections of the trail strewn with large rocks that made for some fun leap-frogging along the way. The forest was quiet and green, but not particularly dramatic in terms of views or elevation. Once we left the trees and the road behind, the scenery opened up, revealing rolling landscapes and our first real look at the ridge ahead, where old World War II anti-aircraft guns stood as silent monuments.
-
-As we continued, we realized an ultra marathon was taking place in the area. Trails crisscrossed the green hills, and we had to carefully navigate switchbacks while runners and walkers sped past or made their way up the mountain. It was remarkable to watch so many participants leap from rock to rock without a single misstep.
-
-At the top of the mountain, we came across a small hut with a cable system for transporting supplies where we stopped briefly for a drink before beginning the descent, encountering marathoners making their way up the other side. The trail led to a lake at the bottom, but the sandy shore offered little comfort, so we moved on around the lake, greeted by a sheer wall of stone that rose dramatically as we crested a small hill.
-
-Rain clouds were beginning to gather, so we quickened our pace along the rocky terrain, though the drizzle was light and never slowed us down. Eventually, we began our final ascent to Rifugio Tissi, perched on the edge of a cliff. From this vantage point, we could see a town nestled beside a lake below, with towering mountains rising on one side and a sheer drop-off on the other.
-
-After settling in, we watched the sun set from the cliff overhang, the sky painting the mountains in brilliant hues. We lingered as darkness fell, stargazing until the heavens revealed Jupiter shining brightly above. It was a magical end to a day of hiking, offering both breathtaking vistas and peaceful moments under the stars.

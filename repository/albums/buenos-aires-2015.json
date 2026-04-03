@@ -1,0 +1,21 @@
+{
+  "date": [
+    "3/19/2015",
+    "3/22/2015"
+  ],
+  "timestamp": "1426762800",
+  "id": "buenos-aires-2015",
+  "title": "Buenos Aires",
+  "location": "Argentina",
+  "coordinates": "34.603723° S, 58.381593° W",
+  "images": [
+    {
+      "src": "2015/03/19/1ddbd381-ac73-4dc2-9fa9-7398e0438098.jpeg",
+      "title": "Exploring Buenos Aires"
+    },
+    {
+      "src": "2015/03/19/aaa356af-6a08-4305-8fe2-80819bd00f16.jpeg",
+      "title": "Lollapalooza in Buenos Aires"
+    }
+  ]
+}

@@ -8,7 +8,7 @@
   "albumId": "southern-rockies-2019+",
   "type": "summit",
   "continent": "North America",
-  "location": "Colorado",
+  "location": "Front Range, Colorado, USA",
   "coordinates": "39.63383° N, 105.81763° W",
   "position": [
     "50.5%",
@@ -29,5 +29,10 @@
     "peak",
     "denver",
     "grays peak"
-  ]
+  ],
+  "termini": "Grays Peak Trailhead to Grays Peak",
+  "gain": "3012",
+  "loss": "0",
+  "miles": "7.18",
+  "minutes": "390"
 }

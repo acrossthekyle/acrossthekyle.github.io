@@ -1,9 +1,0 @@
-Stars crowded the cloudless pre-dawn sky as we packed up for our hike to Tilicho Lake at 16,435 feet. The cold made every movement feel heavier than it should have, and starting the day so early took real effort. With headlamps on and breath visible in the dark, we eventually found our way onto the trail.
-
-About an hour and a half in, sunrise began to spill over the mountains, slowly revealing a snowy white world around us. The first half of the climb felt manageable, but as we gained more altitude, our pace slowed and breaks became more frequent. Once the trail flattened out near the top, we found a second wind and reached the lake roughly two to three hours after starting.
-
-The lake itself was not striking in any obvious way beyond its extreme elevation. What truly defined the moment were the snow-covered peaks encircling us, towering and silent. As we stood there taking it all in, a low rumble echoed through the valley. High on one of the distant peaks, an avalanche broke loose and rushed downward toward the far side of the lake. We were not in danger, but watching it unfold was unforgettable.
-
-The cold quickly forced us to leave. Our fingers were going numb inside our gloves, even with layers on, and it was impossible to linger. As we started down, a second and much larger avalanche thundered down another slope, filling the air above the lake with clouds of powdery snow. We were too low to see it fully, but the sound alone was enough to leave us in awe.
-
-The descent was fast, as it usually is, and we moved quickly to warm ourselves back up. We skipped breakfast at Basecamp and pushed on to Shree Kharka, drawn by one teahouse with a dining hall overlooking the valley. The landslide-prone trail felt easier this time, and the day ended quietly with cards, podcasts, food, and plans for the next push toward Thorong Phedi, Thorong La Pass, and eventually Muktinath.

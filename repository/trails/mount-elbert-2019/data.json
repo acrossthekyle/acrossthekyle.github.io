@@ -8,7 +8,7 @@
   "albumId": "southern-rockies-2019+",
   "type": "summit",
   "continent": "North America",
-  "location": "Colorado",
+  "location": "Sawatch Range, Colorado, USA",
   "coordinates": "39.1177° N, 106.4453° W",
   "position": [
     "50.5%",
@@ -29,5 +29,10 @@
     "peak",
     "denver",
     "mount elbert"
-  ]
+  ],
+  "termini": "Halfmoon Trailhead to Mount Elbert",
+  "gain": "4411",
+  "loss": "44",
+  "miles": "9.4",
+  "minutes": "510"
 }
