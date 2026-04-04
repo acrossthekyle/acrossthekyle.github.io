@@ -42,8 +42,10 @@ const styles = tw({
     flex flex-col gap-10
   `,
   item: `
-    flex gap-12
-    leading-[0.775]
+    flex flex-col gap-2
+
+    md:flex-row
+    md:gap-12
   `,
   index: `
     block
@@ -53,14 +55,15 @@ const styles = tw({
   `,
   link: `
     block
-    -mt-1.25
+    mt-1.5
     font-sans font-black
     text-4xl text-(--foreground)
     uppercase
-    duration-300
+    leading-[0.775]
     overflow-hidden
 
-    hover:font-thin
+    md:duration-300
+    md:hover:font-thin
   `,
   lid: `
     block

@@ -2,42 +2,26 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    flex flex-col gap-4
+    relative
+    flex flex-row gap-1.5
     w-full
 
-    lg:flex-row
+    md:gap-4
   `,
-  sidebar: `
-    absolute left-1 bottom-66.75 right-1 z-9999
-    bg-(--background)
-    text-(--foreground)
-
-    sm:bottom-55.75
-    lg:rounded-md
-    lg:bg-(--foreground)
-    lg:text-(--background)
-    lg:relative
-    lg:left-auto
-    lg:right-auto
-    lg:bottom-auto
-    lg:mt-1
-  `,
-  stages: `
-    flex flex-col gap-1
-    h-[12vh]
-    overflow-hidden
-
-    lg:flex-2
-    lg:p-2.5
-    lg:h-[72vh]
-    lg:overflow-y-scroll
-  `,
-  stage: `
-    font-mono
+  view: `
+    absolute -top-12.5 right-0
+    font-mono font-bold
+    text-xtiny
     uppercase
+    border-1 border-(--foreground)
+    py-1 px-1.25
+    rounded-sm
+    bg-(--foreground)
+    text-(--background)
+
+    sm:hidden
   `,
   plot: `
-    relative
     flex-1
     mt-1
     h-[72vh]
@@ -45,6 +29,10 @@ const styles = tw({
     rounded-md
     border border-(--foreground)/20
     overflow-hidden
+    duration-300
+    translate-x-[100vw]
+
+    sm:translate-x-0
   `,
 });
 

@@ -4,8 +4,8 @@ import { useContext } from 'react';
 
 import { Length } from '@/ui/units';
 
-import type { Stage } from '../../types';
-import { GpxContext } from '../context';
+import type { Stage } from '../../../types';
+import { GpxContext } from '../../context';
 
 import styles from './stylesheet';
 

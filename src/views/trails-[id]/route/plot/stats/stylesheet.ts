@@ -2,28 +2,15 @@ import tw from '@/styles';
 
 const styles = tw({
   items: `
-    relative
-    p-2.75
+    grid grid-cols-1 gap-x-8 gap-y-2
+    p-1.5
 
-    xs:grid
+    xs:absolute
+    xs:bottom-0
     xs:grid-cols-3
     xs:grid-rows-2
-    xs:gap-x-8
-    xs:gap-y-2
-    sm:flex
-    sm:flex-row
-    sm:gap-8
-    sm:absolute
-    sm:bottom-2.75
-    sm:right-3.5
-    sm:p-0
-    lg:bottom-2.5
-    lg:grid
-    lg:grid-cols-3
-    lg:grid-rows-2
-    lg:gap-x-8
-    lg:gap-y-2
-    xl:bottom-2.75
+    md:right-2
+    md:bottom-1
     xl:flex
     xl:flex-row
     xl:gap-8
@@ -32,15 +19,11 @@ const styles = tw({
     font-mono
     text-xtiny text-(--foreground) text-left
     uppercase
-    pb-2
 
-    sm:pb-0
-    sm:text-right
-
-    last:pb-0
+    md:text-right
   `,
   empty: `
-    lg:col-start-2
+    md:col-start-2
     xl:col-start-auto
   `,
   index: `

@@ -7,16 +7,18 @@ const styles = tw({
     text-left
     uppercase
     duration-300
-
-    lg:rounded-md
+    rounded-md
 
     ${isActive && `bg-(--background) text-(--foreground)`}
     ${!isActive && `md:hover:bg-(--background)/12.5`}
   `),
   heading: `
-    flex gap-4
+    flex flex-col gap-1
     text-tiny
     font-bold
+
+    lg:flex-row
+    lg:gap-4
   `,
   index: `
     font-normal
@@ -24,7 +26,8 @@ const styles = tw({
   `,
   items: `
     mt-1
-    ml-23.75
+
+    lg:ml-23.75
   `,
   item: `
     text-xtiny

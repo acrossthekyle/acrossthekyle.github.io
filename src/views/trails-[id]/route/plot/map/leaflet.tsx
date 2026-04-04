@@ -16,7 +16,7 @@ import {
   useMap,
 } from 'react-leaflet';
 
-import type { Gpx } from '../../types';
+import type { Gpx } from '../../../types';
 
 import styles from './stylesheet';
 

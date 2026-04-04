@@ -4,8 +4,8 @@ const styles = tw({
   container: `
     flex flex-col gap-6
 
-    md:flex-row
-    md:gap-12
+    lg:flex-row
+    lg:gap-12
   `,
   header: `
     flex-none

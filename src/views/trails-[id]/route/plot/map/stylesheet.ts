@@ -3,17 +3,17 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     relative
-    h-[46vh]
+    h-[39.5vh]
     overflow-hidden
 
-    lg:h-[42.5vh]
+    md:h-[42.25vh]
     xl:h-[46vh]
   `,
   map: `
     relative
-    h-[46vh] w-full
+    h-[39.5vh] w-full
 
-    lg:h-[42.5vh]
+    md:h-[42.25vh]
     xl:h-[46vh]
   `,
   current: `

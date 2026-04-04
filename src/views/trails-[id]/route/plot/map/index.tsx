@@ -3,8 +3,8 @@
 import dynamic from 'next/dynamic';
 import { useContext } from 'react';
 
-import type { Stage } from '../../types';
-import { GpxContext } from '../context';
+import type { Stage } from '../../../types';
+import { GpxContext } from '../../context';
 
 import styles from './stylesheet';
 

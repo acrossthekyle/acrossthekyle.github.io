@@ -6,8 +6,8 @@ import { useContext } from 'react';
 import { useUnits } from '@/hooks/useUnits';
 import { convertFeetToMeters } from '@/utils';
 
-import type { Stage } from '../../types';
-import { GpxContext } from '../context';
+import type { Stage } from '../../../types';
+import { GpxContext } from '../../context';
 
 import styles from './stylesheet';
 
@@ -36,10 +36,6 @@ export default function Elevation({ stages }: Props) {
 
   return (
     <section>
-      <h3 className={styles.heading}>
-        <span className={styles.eyebrow}>Elevation profile</span>
-        GPX Data points
-      </h3>
       <div className={styles.container} onMouseLeave={handleMouseLeave}>
         <Chart
           options={{
@@ -157,6 +153,10 @@ export default function Elevation({ stages }: Props) {
         <div className={styles.grid4} />
         <div className={styles.grid5} />
       </div>
+      <h3 className={styles.heading}>
+        <span className={styles.eyebrow}>Elevation profile</span>
+        GPX Data points
+      </h3>
     </section>
   );
 }

@@ -9,7 +9,6 @@ const styles = tw({
     font-mono font-bold
     text-xtiny
     uppercase
-
     border-1 border-(--foreground)
     py-1 px-1.25
     rounded-md

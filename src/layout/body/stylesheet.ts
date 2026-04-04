@@ -8,6 +8,7 @@ const styles = tw({
     text-(--background)
     bg-(--foreground)
     p-1
+    overflow-x-hidden
   `,
 });
 
