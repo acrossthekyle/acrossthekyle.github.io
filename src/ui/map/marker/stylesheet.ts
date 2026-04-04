@@ -4,12 +4,10 @@ const styles = tw({
   container: `
     absolute z-2
     w-3 h-3
-    stroke-2
+    stroke-2 stroke-(--foreground)
 
     sm:w-4
     sm:h-4
-    sm:mt-1
-    sm:ml-1
   `,
 });
 

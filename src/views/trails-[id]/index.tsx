@@ -7,6 +7,7 @@ import {
   HeaderSubtitle,
 } from '@/ui/header';
 import Introduction from '@/ui/introduction';
+import { Map, MapMarker } from '@/ui/map';
 import { Highlight } from '@/ui/typography';
 import { Length } from '@/ui/units';
 import type { Stat } from '@/types';
@@ -41,6 +42,7 @@ type Props = {
       end: Stat;
       id: string;
       location: string;
+      position: string[];
       stages: Stage[];
       start: Stat;
       title: string;
@@ -75,6 +77,12 @@ export default function View({ data }: Props) {
       <Introduction>
         <Highlight>{data.trail.description}</Highlight>
       </Introduction>
+      <Map className={styles.map}>
+        <MapMarker position={{
+          left: data.trail.position[1],
+          top: data.trail.position[0],
+        }} />
+      </Map>
       <Link className={styles.album} href={`/gallery/${data.trail.albumId}`}>
         <Highlight>VIEW ALBUM</Highlight>
         <span className={styles.lid}>{data.photos} Photos</span>

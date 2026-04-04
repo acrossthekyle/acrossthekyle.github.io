@@ -1,7 +1,6 @@
 import {
   Header,
   HeaderEyebrow,
-  HeaderPrefix,
   HeaderSubtitle,
 } from '@/ui/header';
 import Introduction from '@/ui/introduction';
@@ -31,7 +30,7 @@ export default function View({ data }: Props) {
     <>
       <Header>
         <HeaderEyebrow>[ 01 ]</HeaderEyebrow>
-        <HeaderPrefix>/</HeaderPrefix>Info
+        Info
         <HeaderSubtitle>Backstory, resume, expertise, misc.</HeaderSubtitle>
       </Header>
       <Introduction>

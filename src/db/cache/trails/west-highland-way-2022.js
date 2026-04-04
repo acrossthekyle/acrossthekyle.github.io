@@ -58,6 +58,10 @@ const data = {
   },
   "id": "west-highland-way-2022",
   "location": "Highlands, Scotland",
+  "position": [
+    "38.5%",
+    "43.5%"
+  ],
   "stages": [
     {
       "altitudeEnd": {

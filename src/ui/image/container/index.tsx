@@ -15,11 +15,10 @@ type Props = {
 
 export default function Container({
   alt = '',
-  children,
   className = '',
   size,
   src,
-}: React.PropsWithChildren<Props>) {
+}: Props) {
   return (
     <Context src={src}>
       <Image
@@ -32,7 +31,6 @@ export default function Container({
       />
       <Skeleton />
       <div className={styles.overlay} />
-      {children}
     </Context>
   );
 }

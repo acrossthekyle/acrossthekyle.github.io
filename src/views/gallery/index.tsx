@@ -3,7 +3,6 @@ import Link from 'next/link';
 import {
   Header,
   HeaderEyebrow,
-  HeaderPrefix,
   HeaderSubtitle,
 } from '@/ui/header';
 import { Image } from '@/ui/image';
@@ -37,7 +36,7 @@ export default function View({ data }: Props) {
     <>
       <Header>
         <HeaderEyebrow>[ 04 ]</HeaderEyebrow>
-        <HeaderPrefix>/</HeaderPrefix>Gallery
+        Gallery
         <HeaderSubtitle>Photographic Journal</HeaderSubtitle>
       </Header>
       <Introduction>

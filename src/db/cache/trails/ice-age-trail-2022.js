@@ -58,6 +58,10 @@ const data = {
   },
   "id": "ice-age-trail-2022",
   "location": "Wisconsin",
+  "position": [
+    "48%",
+    "20%"
+  ],
   "stages": [
     {
       "altitudeEnd": {

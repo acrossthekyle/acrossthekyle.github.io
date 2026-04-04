@@ -1,6 +1,20 @@
 import tw from '@/styles';
 
 const styles = tw({
+  map: `
+    relative
+    w-full
+    mt-10
+
+    md:w-1/2
+    lg:absolute
+    lg:top-4
+    lg:right-4
+    lg:z-0
+    lg:w-56
+    lg:mt-0
+    xl:w-100
+  `,
   album: `
     mt-10
     inline-block

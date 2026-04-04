@@ -7,6 +7,7 @@ import {
   HeaderSubtitle,
 } from '@/ui/header';
 import Introduction from '@/ui/introduction';
+import { ExternalIcon } from '@/ui/link';
 import Footer from '@/ui/views/info/footer';
 import { padIndex } from '@/utils';
 
@@ -36,8 +37,11 @@ export default function View({ data }: Props) {
         {data.books.map((book, index: number) => (
           <li className={styles.item} key={book.title}>
             <span className={styles.eyebrow}>[ 00-{padIndex(index + 1)} ]</span>
-            <Link href={`https://www.amazon.com/s?k=${book.title.replaceAll(' ', '+')}+${book.author.replaceAll(' ', '+')}&i=stripbooks`} target="_blank">
-              {book.title}
+            <Link
+              href={`https://www.amazon.com/s?k=${book.title.replaceAll(' ', '+')}+${book.author.replaceAll(' ', '+')}&i=stripbooks`}
+              target="_blank"
+            >
+              <ExternalIcon>{book.title}</ExternalIcon>
               <span className={styles.lid}>{book.author}</span>
             </Link>
           </li>

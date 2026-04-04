@@ -58,6 +58,10 @@ const data = {
   },
   "id": "gr20-2023",
   "location": "Corsica, France",
+  "position": [
+    "49%",
+    "48.25%"
+  ],
   "stages": [
     {
       "altitudeEnd": {

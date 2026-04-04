@@ -28,7 +28,7 @@ export default function Hierarchy() {
           href={current}
         >
           Current
-          <span className={styles.text}>.com{current}</span>
+          <span className={`${styles.text} ${styles.hierarchy}`}>.com{current}</span>
         </Link>
       </li>
       <li className={styles.item}>
@@ -37,7 +37,7 @@ export default function Hierarchy() {
           href={previous}
         >
           Previous
-          <span className={styles.text}>.com{previous}</span>
+          <span className={`${styles.text} ${styles.hierarchy}`}>.com{previous}</span>
         </Link>
       </li>
       <li className={styles.item}>

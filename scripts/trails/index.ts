@@ -75,6 +75,7 @@ export async function go() {
           end: '',
           id: data.id,
           location: data.location,
+          position: data.position,
           stages: [],
           start: '',
           timestamp: data.timestamp,

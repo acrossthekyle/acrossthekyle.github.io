@@ -31,7 +31,7 @@ export default function Caption({ src }: Props) {
         <>...</>
       )}
       {!isLoading && data !== null && (
-        <ul className={styles.items}>
+        <ul aria-label="image exif data" className={styles.items}>
           <li className={styles.item}>
             <span className={styles.eyebrow}>Camera</span>
             {data.exif.image.Model}

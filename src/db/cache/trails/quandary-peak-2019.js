@@ -58,6 +58,10 @@ const data = {
   },
   "id": "quandary-peak-2019",
   "location": "Tenmile Range, Colorado, USA",
+  "position": [
+    "50.5%",
+    "15.5%"
+  ],
   "stages": [
     {
       "altitudeEnd": {

@@ -58,6 +58,10 @@ const data = {
   },
   "id": "mount-decalibron-2021",
   "location": "Mosquito Range, Colorado, USA",
+  "position": [
+    "50.5%",
+    "15.5%"
+  ],
   "stages": [
     {
       "altitudeEnd": {

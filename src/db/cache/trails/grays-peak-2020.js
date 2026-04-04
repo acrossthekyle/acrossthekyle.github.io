@@ -58,6 +58,10 @@ const data = {
   },
   "id": "grays-peak-2020",
   "location": "Front Range, Colorado, USA",
+  "position": [
+    "50.5%",
+    "15.5%"
+  ],
   "stages": [
     {
       "altitudeEnd": {

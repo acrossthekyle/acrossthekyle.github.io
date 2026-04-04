@@ -35,12 +35,17 @@ const styles = tw({
     uppercase
   `,
   figure: `
+    group
     relative
     flex flex-col gap-2
   `,
   image: `
     aspect-3/2
     rounded-md
+    outline-1 outline-transparent
+    duration-300
+
+    md:group-hover:outline-(--foreground)
   `,
   caption: `
     leading-[1]

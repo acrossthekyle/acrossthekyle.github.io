@@ -6,10 +6,10 @@ const styles = tw({
     mt-2 mb-2
     leading-[0.775]
     font-mono
-    text-base
+    text-xs
     uppercase
 
-    lg:text-xl
+    lg:text-base
     lg:inline-block
     lg:mt-0
     lg:mb-0

@@ -8,14 +8,14 @@ const styles = tw({
     mt-[1px]
 
     md:rounded-lg
-    lg:flex-row
+    xl:flex-row
   `,
   navigation: `
     flex flex-col
     mb-4
 
     md:mb-0
-    lg:flex-row
+    xl:flex-row
   `,
   items: `
     grid grid-cols-2 gap-3
@@ -54,6 +54,11 @@ const styles = tw({
 
     md:group-hover:!text-(--foreground)/70
   `,
+  hierarchy: `
+    truncate
+
+    xl:max-w-46
+  `,
   copyright: `
     p-2 pb-1.5
     leading-[1]
@@ -63,7 +68,7 @@ const styles = tw({
 
     md:p-4
     md:pb-3.75
-    lg:text-right
+    xl:text-right
   `,
   highlight: `
     text-(--foreground)/100

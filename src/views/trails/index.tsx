@@ -3,7 +3,6 @@ import Link from 'next/link';
 import {
   Header,
   HeaderEyebrow,
-  HeaderPrefix,
   HeaderSubtitle,
 } from '@/ui/header';
 import Introduction from '@/ui/introduction';
@@ -28,7 +27,7 @@ export default function View({ data }: Props) {
     <>
       <Header>
         <HeaderEyebrow>[ 02 ]</HeaderEyebrow>
-        <HeaderPrefix>/</HeaderPrefix>Trails
+        Trails
         <HeaderSubtitle>Hikes and summits</HeaderSubtitle>
       </Header>
       <Introduction>

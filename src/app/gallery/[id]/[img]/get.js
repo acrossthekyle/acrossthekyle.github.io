@@ -14,12 +14,17 @@ export default function get(id, img) {
     return null;
   }
 
+  const next = foundIndex === album.images.length - 1 ? null : foundIndex + 1;
+  const previous = foundIndex === 0 ? null : foundIndex - 1;
+
   return {
     album: {
       id: album.id,
       title: album.title,
     },
     image,
-    index: album.images.length - foundIndex,
+    index: foundIndex,
+    next: next !== null ? album.images[next].src.split('-').pop() : null,
+    previous: previous !== null ? album.images[previous].src.split('-').pop() : null,
   };
 };

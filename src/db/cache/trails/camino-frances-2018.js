@@ -58,6 +58,10 @@ const data = {
   },
   "id": "camino-frances-2018",
   "location": "Northern Spain",
+  "position": [
+    "48%",
+    "43%"
+  ],
   "stages": [
     {
       "altitudeEnd": {

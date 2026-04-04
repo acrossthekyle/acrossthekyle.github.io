@@ -58,6 +58,10 @@ const data = {
   },
   "id": "tour-du-mont-blanc-2018",
   "location": "The Alps, Europe",
+  "position": [
+    "45%",
+    "48.5%"
+  ],
   "stages": [
     {
       "altitudeEnd": {

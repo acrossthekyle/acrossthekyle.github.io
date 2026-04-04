@@ -58,6 +58,10 @@ const data = {
   },
   "id": "mount-shavano-2021",
   "location": "Sawatch Range, Colorado, USA",
+  "position": [
+    "50.5%",
+    "15.5%"
+  ],
   "stages": [
     {
       "altitudeEnd": {

@@ -58,6 +58,10 @@ const data = {
   },
   "id": "river-ridge-trail-2026",
   "location": "Illinois, USA",
+  "position": [
+    "49.5%",
+    "19%"
+  ],
   "stages": [
     {
       "altitudeEnd": {

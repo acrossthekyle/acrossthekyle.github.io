@@ -58,6 +58,10 @@ const data = {
   },
   "id": "o-circuit-2020",
   "location": "Patagonia, Chile",
+  "position": [
+    "96%",
+    "26%"
+  ],
   "stages": [
     {
       "altitudeEnd": {

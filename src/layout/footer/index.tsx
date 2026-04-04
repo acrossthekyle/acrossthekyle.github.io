@@ -1,6 +1,7 @@
 import Link from 'next/link';
 
 import data from '@/db/config';
+import { ExternalIcon } from '@/ui/link';
 
 import Hierarchy from './hierarchy';
 import styles from './stylesheet';
@@ -18,7 +19,7 @@ export default function Footer() {
               href="https://instagram.com/acrossthekyle"
               target="_blank"
             >
-              Instagram
+              <ExternalIcon>Instagram</ExternalIcon>
               <span className={styles.text}>@acrossthekyle</span>
             </Link>
           </li>
@@ -28,7 +29,7 @@ export default function Footer() {
               href="https://linkedin.com/in/acrossthekyle"
               target="_blank"
             >
-              LinkedIn
+              <ExternalIcon>LinkedIn</ExternalIcon>
               <span className={styles.text}>u/acrossthekyle</span>
             </Link>
           </li>
@@ -38,7 +39,7 @@ export default function Footer() {
               href="mailto:hello@acrossthekyle.com"
               target="_blank"
             >
-              Email
+              <ExternalIcon>Email</ExternalIcon>
               <span className={styles.text}>hello@acrossthekyle</span>
             </Link>
           </li>
@@ -48,7 +49,7 @@ export default function Footer() {
               href="https://github.com/acrossthekyle"
               target="_blank"
             >
-              GitHub
+              <ExternalIcon>GitHub</ExternalIcon>
               <span className={styles.text}>/acrossthekyle</span>
             </Link>
           </li>
@@ -58,7 +59,7 @@ export default function Footer() {
               href="https://www.websitecarbon.com/website/acrossthekyle-com/"
               target="_blank"
             >
-              Carbon
+              <ExternalIcon>Carbon</ExternalIcon>
               <span className={styles.text}>A+ RATING</span>
             </Link>
           </li>

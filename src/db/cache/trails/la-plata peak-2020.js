@@ -58,6 +58,10 @@ const data = {
   },
   "id": "la-plata peak-2020",
   "location": "Sawatch Range, Colorado, USA",
+  "position": [
+    "50.5%",
+    "15.5%"
+  ],
   "stages": [
     {
       "altitudeEnd": {

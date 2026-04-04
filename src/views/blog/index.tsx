@@ -3,7 +3,6 @@ import Markdown from 'react-markdown';
 import {
   Header,
   HeaderEyebrow,
-  HeaderPrefix,
   HeaderSubtitle,
 } from '@/ui/header';
 import Introduction from '@/ui/introduction';
@@ -29,7 +28,7 @@ export default function View({ data }: Props) {
     <>
       <Header>
         <HeaderEyebrow>[ 03 ]</HeaderEyebrow>
-        <HeaderPrefix>/</HeaderPrefix>Blog
+        MiniBlog
         <HeaderSubtitle>Quick thoughts</HeaderSubtitle>
       </Header>
       <Introduction>
