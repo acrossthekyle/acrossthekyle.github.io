@@ -4,13 +4,6 @@ const styles = tw({
   aside: `
     relative
     mt-10
-    text-left
-
-    sm:absolute
-    sm:top-3
-    sm:right-4
-    sm:mt-0
-    sm:text-right
   `,
   stats: `
     flex flex-col gap-0.5
@@ -20,15 +13,17 @@ const styles = tw({
     text-xtiny text-(--foreground)/70
     uppercase
   `,
-  albums: `
+  items: `
     grid grid-cols-1 gap-4
     mt-10
 
-    sm:grid-cols-2
-    md:grid-cols-3
-    lg:grid-cols-4
+    xs:grid-cols-2
+    sm:grid-cols-3
+    md:grid-cols-4
+    lg:grid-cols-5
+    xl:grid-cols-6
   `,
-  album: `
+  item: `
     mb-8
     break-inside-avoid-column
   `,
@@ -48,6 +43,7 @@ const styles = tw({
     rounded-md
   `,
   caption: `
+    leading-[1]
     font-mono font-bold
     text-tiny text-(--foreground)
     uppercase

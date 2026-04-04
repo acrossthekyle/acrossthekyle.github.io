@@ -14,7 +14,7 @@ export default function Toggle() {
       onClick={onToggle}
       type="button"
     >
-      {isToggled ? 'Hide' : 'View'} list
+      {isToggled ? 'View route' : 'View list'}
     </button>
   );
 }
