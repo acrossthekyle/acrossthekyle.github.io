@@ -1,6 +1,16 @@
 const data = [
   {
     "author": "Kyle Gilbert",
+    "slug": "about-that-daily-step-goal",
+    "title": "About that daily step goal",
+    "content": "Winter in Chicago makes it much harder to hit a daily step goal. Walking the dog helps, but it usually doesn't quite get me there.\n\nEnter the indoor portable elliptical and zoning out to TV while knocking out the last few thousand steps. It works...most days. And on the days when the motivation just isn't there? That's fine too.\n\nHere's hoping for warmer weather soon, and more early morning walks along the lakefront.\n",
+    "date": "April 4th, 2026",
+    "readingTime": "1",
+    "timestamp": 1775278800,
+    "index": 7
+  },
+  {
+    "author": "Kyle Gilbert",
     "slug": "closet-cleanout-and-gear-purchases",
     "title": "Closet cleanout and gear purchases",
     "content": "I recently did a long-overdue clean-out of the gear closet and sold stuff I'd been hanging onto for way too long. The proceeds went towards a warmer jacket (Rab Electron Pro) and sleeping quilt (Katabatic Gear Sawatch), each one aimed at better handling temps below freezing.\n",

@@ -26,24 +26,47 @@ const LINKS = [
   },
 ];
 
-export default function Header() {
+type Props = {
+  data: {
+    job: {
+      place: string;
+      title: string;
+    };
+    trail: {
+      id: string;
+      title: string;
+    };
+  };
+};
+
+export default function Header({ data }: Props) {
   return (
-    <header className={styles.container}>
-      <Link className={styles.anchor} href="/">
-        KYL
-        <span className={styles.definition}>
-          /kī(ə)l/ • Gaelic
-        </span>
-      </Link>
-      <nav aria-label="primary navigation">
-        <ul className={styles.items}>
-          {LINKS.map((link, index: number) => (
-            <li className={styles.item} key={link.href}>
-              <Anchor {...link} index={index} />
-            </li>
-          ))}
-        </ul>
-      </nav>
+    <header>
+      <div className={styles.callouts}>
+        <Link href={`/trails/${data.trail.id}`} tabIndex={2}>
+          Latest trail: <span className={styles.highlight}>{data.trail.title}</span> [→]
+        </Link>
+        <Link href="/info" tabIndex={3}>
+          Currently: <span className={styles.highlight}>{data.job.title}</span> @ <span className={styles.highlight}>{data.job.place}</span>
+        </Link>
+      </div>
+      <div className={styles.container}>
+        <Link className={styles.anchor} href="/" tabIndex={1}>
+          KYL
+          <span className={styles.definition}>
+            /kī(ə)l/ • Gaelic
+          </span>
+        </Link>
+        <nav aria-label="primary navigation">
+          <ul className={styles.items}>
+            {LINKS.map((link, index: number) => (
+              <li className={styles.item} key={link.href}>
+                <Anchor {...link} index={index} />
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </div>
     </header>
   );
 }

@@ -1,6 +1,18 @@
 import tw from '@/styles';
 
 const styles = tw({
+  callouts: `
+    flex flex-col justify-between
+    mb-1 px-2
+    font-mono
+    text-xtiny text-(--background)
+    uppercase
+
+    sm:flex-row
+  `,
+  highlight: `
+    font-bold
+  `,
   container: `
     flex flex-col justify-between
     rounded-md

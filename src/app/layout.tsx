@@ -8,6 +8,8 @@ import { HierarchyProvider } from '@/contexts/hierarchy';
 import { UnitsProvider } from '@/contexts/units';
 import { Body, Footer, Header, Main } from '@/layout';
 
+import get from './get';
+
 const description = `Kyle is a Chicago-based self-taught software engineer and millennial who balances his lifelong passion for creating web apps with a love for long-distance backpacking adventures, and star trek.`;
 
 export const metadata: Metadata = {
@@ -64,13 +66,15 @@ export default async function RootLayout({ children }: React.PropsWithChildren) 
   const theme = cookieStore.get('theme')?.value || 'auto';
   const units = cookieStore.get('units')?.value || 'imperial';
 
+  const data = get();
+
   return (
     <html data-theme={theme} lang="en" suppressHydrationWarning>
       <Body theme={theme}>
         <Suspense fallback={null}>
           <HierarchyProvider>
             <UnitsProvider current={units}>
-              <Header />
+              <Header data={data} />
               <Main>
                 {children}
               </Main>
