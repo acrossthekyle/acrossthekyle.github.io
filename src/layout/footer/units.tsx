@@ -5,12 +5,12 @@ import { useUnits } from '@/hooks/useUnits';
 import styles from './stylesheet';
 
 export default function Units() {
-  const { onToggleUnits, units } = useUnits();
+  const { current, onToggle } = useUnits();
 
   return (
-    <button className={styles.link} onClick={onToggleUnits} type="button">
+    <button className={styles.link} onClick={onToggle} type="button">
       Units
-      <span className={styles.text}>{units.toUpperCase()}</span>
+      <span className={styles.text}>{current.toUpperCase()}</span>
     </button>
   );
 }

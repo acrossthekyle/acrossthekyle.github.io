@@ -8,7 +8,11 @@ import styles from './stylesheet';
 import Theme from './theme';
 import Units from './units';
 
-export default function Footer() {
+type Props = {
+  theme: string;
+};
+
+export default function Footer({ theme }: Props) {
   return (
     <footer className={styles.container}>
       <nav aria-label="supplementary navigation" className={styles.navigation}>
@@ -64,7 +68,7 @@ export default function Footer() {
             </Link>
           </li>
           <li className={styles.item}>
-            <Theme />
+            <Theme current={theme} />
           </li>
           <li className={styles.item}>
             <Units />

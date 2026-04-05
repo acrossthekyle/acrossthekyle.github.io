@@ -1,8 +1,11 @@
+import Link from 'next/link';
+
 import {
   Header,
   HeaderEyebrow,
   HeaderPrefix,
   HeaderSubtitle,
+  HeaderText,
 } from '@/ui/header';
 import Introduction from '@/ui/introduction';
 import { Highlight } from '@/ui/typography';
@@ -15,7 +18,10 @@ export default function View() {
     <>
       <Header>
         <HeaderEyebrow>[ 01-X03 ]</HeaderEyebrow>
-        <HeaderPrefix>Info/</HeaderPrefix>Colophon
+        <HeaderPrefix>
+          <Link href="/info">Info</Link>
+        </HeaderPrefix>
+        <HeaderText>Colophon</HeaderText>
         <HeaderSubtitle>How it's made</HeaderSubtitle>
       </Header>
       <Introduction>

@@ -4,6 +4,7 @@ import {
   Header,
   HeaderEyebrow,
   HeaderSubtitle,
+  HeaderText,
 } from '@/ui/header';
 import Introduction from '@/ui/introduction';
 import { Highlight } from '@/ui/typography';
@@ -27,7 +28,7 @@ export default function View({ data }: Props) {
     <>
       <Header>
         <HeaderEyebrow>[ 02 ]</HeaderEyebrow>
-        Trails
+        <HeaderText>Trails</HeaderText>
         <HeaderSubtitle>Hikes and summits</HeaderSubtitle>
       </Header>
       <Introduction>

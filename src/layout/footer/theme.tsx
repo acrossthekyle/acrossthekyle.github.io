@@ -1,19 +1,35 @@
 'use client';
 
-import { useTheme } from '@/hooks/useTheme';
+import { setTheme } from '@/app/actions';
 
 import styles from './stylesheet';
 
-export default function Theme() {
-  const { onToggleTheme, theme } = useTheme();
+type Props = {
+  current: string;
+};
+
+export default function Theme({ current }: Props) {
+  const handleOnClick = () => {
+    let value = '';
+
+    if (current === 'auto') {
+      value = 'light';
+    } else if (current === 'light') {
+      value = 'dark';
+    } else if (current === 'dark') {
+      value = 'auto';
+    }
+
+    setTheme(value);
+  };
 
   return (
-    <button className={styles.link} onClick={onToggleTheme} type="button">
+    <button className={styles.link} onClick={handleOnClick} type="button">
       Lights
       <span className={styles.text}>
-        {theme === 'auto' && 'AUTO'}
-        {theme === 'light' && 'ON'}
-        {theme === 'dark' && 'OFF'}
+        {current === 'auto' && 'AUTO'}
+        {current === 'light' && 'ON'}
+        {current === 'dark' && 'OFF'}
       </span>
     </button>
   );

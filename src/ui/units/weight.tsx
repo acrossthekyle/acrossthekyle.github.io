@@ -11,11 +11,11 @@ type Props = {
 };
 
 export default function Weight({ isSmall, weight }: Props) {
-  const { labels, units } = useUnits();
+  const { current, labels } = useUnits();
 
   return (
     <>
-      {weight[units as keyof typeof weight]} {isSmall ? labels.weight.micro : labels.weight.macro}
+      {weight[current as keyof typeof weight]} {isSmall ? labels.weight.micro : labels.weight.macro}
     </>
   );
 }

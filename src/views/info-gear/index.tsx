@@ -5,6 +5,7 @@ import {
   HeaderEyebrow,
   HeaderPrefix,
   HeaderSubtitle,
+  HeaderText,
 } from '@/ui/header';
 import { ExternalIcon } from '@/ui/link';
 import { Weight } from '@/ui/units';
@@ -78,7 +79,10 @@ export default function View({ data, index }: Props) {
     <>
       <Header>
         <HeaderEyebrow>[ 01-X02 ]</HeaderEyebrow>
-        <HeaderPrefix>Info/</HeaderPrefix>Gear
+        <HeaderPrefix>
+          <Link href="/info">Info</Link>
+        </HeaderPrefix>
+        <HeaderText>Gear</HeaderText>
         <HeaderSubtitle>What I carry on hikes</HeaderSubtitle>
       </Header>
       <nav aria-label="gear filters navigation">

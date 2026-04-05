@@ -2,6 +2,7 @@ import {
   Header,
   HeaderEyebrow,
   HeaderSubtitle,
+  HeaderText,
 } from '@/ui/header';
 import Introduction from '@/ui/introduction';
 import { Highlight } from '@/ui/typography';
@@ -30,7 +31,7 @@ export default function View({ data }: Props) {
     <>
       <Header>
         <HeaderEyebrow>[ 01 ]</HeaderEyebrow>
-        Info
+        <HeaderText>Info</HeaderText>
         <HeaderSubtitle>Backstory, resume, expertise, misc.</HeaderSubtitle>
       </Header>
       <Introduction>

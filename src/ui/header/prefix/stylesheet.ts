@@ -3,16 +3,14 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     block
-    mt-2 mb-2
+    mt-4 mb-2
     leading-[0.775]
     font-mono
-    text-xs
+    text-tiny
     uppercase
 
-    lg:text-base
-    lg:inline-block
+    lg:text-xs
     lg:mt-0
-    lg:mb-0
   `,
 });
 

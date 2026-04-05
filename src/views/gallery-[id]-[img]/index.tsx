@@ -3,10 +3,11 @@ import Link from 'next/link';
 import {
   Header,
   HeaderEyebrow,
+  HeaderPrefix,
   HeaderSubtitle,
+  HeaderText,
 } from '@/ui/header';
 import { Image } from '@/ui/image';
-import { Highlight } from '@/ui/typography';
 import { padIndex } from '@/utils';
 
 import Keyboard from './keyboard';
@@ -41,9 +42,12 @@ export default function View({ data }: Props) {
     <>
       <Header>
         <HeaderEyebrow>[ {data.image.src.split('-').pop()} ]</HeaderEyebrow>
-        IMG {padIndex(data.index + 1)}
+        <HeaderPrefix>
+          <Link href={`/gallery/${data.album.id}`}>{data.album.title}</Link>
+        </HeaderPrefix>
+        <HeaderText>IMG {padIndex(data.index + 1)}</HeaderText>
         <HeaderSubtitle>
-          {data.album.title} &ndash; <Highlight>{data.image.title}</Highlight>
+          {data.image.title}
         </HeaderSubtitle>
       </Header>
       {data.image.exif && (
@@ -97,9 +101,6 @@ export default function View({ data }: Props) {
         aria-label="album photos supplementary navigation"
         className={styles.navigation}
       >
-        <Link className={styles.album} href={`/gallery/${data.album.id}`}>
-          Back to album
-        </Link>
         {data.previous && (
           <Link
             href={`/gallery/${data.album.id}/${data.previous}`}

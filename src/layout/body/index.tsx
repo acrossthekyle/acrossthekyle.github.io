@@ -15,27 +15,29 @@ const robotoMono = Roboto_Mono({
   variable: '--font-roboto-mono',
 });
 
-export default function Body({ children }: React.PropsWithChildren) {
+type Props = {
+  theme: string;
+};
+
+export default function Body({
+  children,
+  theme,
+}: React.PropsWithChildren<Props>) {
   return (
     <body
       className={`${geistSans.variable} ${robotoMono.variable} ${styles.container}`}
     >
-      <Script id="theme-script">
-        {`
-          (function () {
-            let savedTheme = localStorage.getItem('theme') || 'auto';
-            let currentTheme = savedTheme;
+      {theme === 'auto' && (
+        <Script id="theme-script">
+          {`
+            (function() {
+              const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
 
-            if (savedTheme === 'auto') {
-              const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-
-              currentTheme = prefersDark ? 'dark' : 'light';
-            }
-
-            document.documentElement.setAttribute('data-theme', currentTheme);
-          })();
-        `}
-      </Script>
+              document.documentElement.setAttribute('data-theme', prefersDark.matches ? 'dark' : 'light');
+            })();
+          `}
+        </Script>
+      )}
       {children}
     </body>
   );

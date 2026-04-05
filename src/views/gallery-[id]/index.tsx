@@ -4,6 +4,7 @@ import {
   Header,
   HeaderEyebrow,
   HeaderPrefix,
+  HeaderText,
 } from '@/ui/header';
 import { Image } from '@/ui/image';
 import { Highlight } from '@/ui/typography';
@@ -33,7 +34,10 @@ export default function View({ data }: Props) {
     <>
       <Header>
         <HeaderEyebrow>[ A-{padIndex(data.index)} ]</HeaderEyebrow>
-        <HeaderPrefix>Gallery/</HeaderPrefix>{data.album.title}
+        <HeaderPrefix>
+          <Link href="/gallery">Gallery</Link>
+        </HeaderPrefix>
+        <HeaderText>{data.album.title}</HeaderText>
       </Header>
       <aside className={styles.aside}>
         <ul aria-label="stats" className={styles.stats}>

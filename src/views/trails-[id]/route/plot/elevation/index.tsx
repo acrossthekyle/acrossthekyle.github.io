@@ -20,7 +20,7 @@ type Props = {
 };
 
 export default function Elevation({ stages }: Props) {
-  const { units } = useUnits();
+  const { current, labels } = useUnits();
 
   const { activeIndex, onHover } = useContext(GpxContext);
 
@@ -38,6 +38,7 @@ export default function Elevation({ stages }: Props) {
     <section>
       <div className={styles.container} onMouseLeave={handleMouseLeave}>
         <Chart
+          key={current}
           options={{
             chart: {
               animations: {
@@ -130,10 +131,10 @@ export default function Elevation({ stages }: Props) {
                   onHover(dataPointIndex);
 
                   const formatted = new Intl.NumberFormat().format(
-                    units === 'metric' ? convertFeetToMeters(value) : value,
+                    current === 'metric' ? convertFeetToMeters(value) : value,
                   );
 
-                  return `${formatted} ${units === 'metric' ? 'm' : 'ft'}`;
+                  return `${formatted} ${labels.length.micro}`;
                 },
               },
             },

@@ -5,6 +5,7 @@ import {
   HeaderEyebrow,
   HeaderPrefix,
   HeaderSubtitle,
+  HeaderText,
 } from '@/ui/header';
 import Introduction from '@/ui/introduction';
 import { ExternalIcon } from '@/ui/link';
@@ -27,7 +28,10 @@ export default function View({ data }: Props) {
     <>
       <Header>
         <HeaderEyebrow>[ 01-X01 ]</HeaderEyebrow>
-        <HeaderPrefix>Info/</HeaderPrefix>Books
+        <HeaderPrefix>
+          <Link href="/info">Info</Link>
+        </HeaderPrefix>
+        <HeaderText>Books</HeaderText>
         <HeaderSubtitle>What I've read</HeaderSubtitle>
       </Header>
       <Introduction>

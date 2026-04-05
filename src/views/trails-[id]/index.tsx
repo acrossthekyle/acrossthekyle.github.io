@@ -5,6 +5,7 @@ import {
   HeaderEyebrow,
   HeaderPrefix,
   HeaderSubtitle,
+  HeaderText,
 } from '@/ui/header';
 import Introduction from '@/ui/introduction';
 import { Map, MapMarker } from '@/ui/map';
@@ -71,7 +72,10 @@ export default function View({ data }: Props) {
     <>
       <Header>
         <HeaderEyebrow>[ 02-{getPrefix(data.trail.type)} {data.trail.id.split('-').pop()} ]</HeaderEyebrow>
-        <HeaderPrefix>trails/</HeaderPrefix>{data.trail.title}
+        <HeaderPrefix>
+          <Link href="/trails">Trails</Link>
+        </HeaderPrefix>
+        <HeaderText>{data.trail.title}</HeaderText>
         <HeaderSubtitle>{data.trail.type}</HeaderSubtitle>
       </Header>
       <Introduction>

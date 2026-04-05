@@ -1,9 +1,11 @@
 import '../globals.css';
 
 import type { Metadata, Viewport } from 'next';
+import { cookies } from 'next/headers';
 import { Suspense } from 'react';
 
 import { HierarchyProvider } from '@/contexts/hierarchy';
+import { UnitsProvider } from '@/contexts/units';
 import { Body, Footer, Header, Main } from '@/layout';
 
 const description = `Kyle is a Chicago-based self-taught software engineer and millennial who balances his lifelong passion for creating web apps with a love for long-distance backpacking adventures, and star trek.`;
@@ -57,21 +59,23 @@ export const viewport: Viewport = {
   themeColor: '#000000',
 }
 
-type Props = {
-  children: React.ReactNode;
-};
+export default async function RootLayout({ children }: React.PropsWithChildren) {
+  const cookieStore = await cookies();
+  const theme = cookieStore.get('theme')?.value || 'auto';
+  const units = cookieStore.get('units')?.value || 'imperial';
 
-export default function RootLayout({ children }: Props) {
   return (
-    <html data-theme="dark" lang="en">
-      <Body>
+    <html data-theme={theme} lang="en" suppressHydrationWarning>
+      <Body theme={theme}>
         <Suspense fallback={null}>
           <HierarchyProvider>
-            <Header />
-            <Main>
-              {children}
-            </Main>
-            <Footer />
+            <UnitsProvider current={units}>
+              <Header />
+              <Main>
+                {children}
+              </Main>
+              <Footer theme={theme} />
+            </UnitsProvider>
           </HierarchyProvider>
         </Suspense>
       </Body>

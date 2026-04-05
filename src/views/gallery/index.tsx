@@ -4,6 +4,7 @@ import {
   Header,
   HeaderEyebrow,
   HeaderSubtitle,
+  HeaderText,
 } from '@/ui/header';
 import { Image } from '@/ui/image';
 import Introduction from '@/ui/introduction';
@@ -36,7 +37,7 @@ export default function View({ data }: Props) {
     <>
       <Header>
         <HeaderEyebrow>[ 04 ]</HeaderEyebrow>
-        Gallery
+        <HeaderText>Gallery</HeaderText>
         <HeaderSubtitle>Photographic Journal</HeaderSubtitle>
       </Header>
       <Introduction>
