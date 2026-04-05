@@ -1,3 +1,4 @@
+import { Circle } from 'lucide-react';
 import Link from 'next/link';
 
 import Anchor from './anchor';
@@ -29,6 +30,7 @@ const LINKS = [
 type Props = {
   data: {
     job: {
+      isAvailable: boolean;
       place: string;
       title: string;
     };
@@ -47,7 +49,21 @@ export default function Header({ data }: Props) {
           Latest trail: <span className={styles.highlight}>{data.trail.title}</span> [→]
         </Link>
         <Link href="/info" tabIndex={3}>
-          Currently: <span className={styles.highlight}>{data.job.title}</span> @ <span className={styles.highlight}>{data.job.place}</span>
+          Currently:{' '}
+          {data.job.isAvailable && (
+            <>
+              Available for work
+              <Circle className={`${styles.icon} ${styles.filled}`} />
+            </>
+          )}
+          {!data.job.isAvailable && (
+            <>
+              <span className={styles.highlight}>{data.job.title}</span>
+              {' '}@{' '}
+              <span className={styles.highlight}>{data.job.place}</span>
+              <Circle className={styles.icon} />
+            </>
+          )}
         </Link>
       </div>
       <div className={styles.container}>

@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   callouts: `
-    flex flex-col justify-between
+    flex flex-col justify-between align-center
     mb-1 px-2
     font-mono
     text-xtiny text-(--background)
@@ -12,6 +12,17 @@ const styles = tw({
   `,
   highlight: `
     font-bold
+  `,
+  icon: `
+    inline-block
+    ml-1
+    -mt-0.5
+    w-2 h-2
+    stroke-1 stroke-(--background)
+  `,
+  filled: `
+    fill-green-300
+    !stroke-0
   `,
   container: `
     flex flex-col justify-between
