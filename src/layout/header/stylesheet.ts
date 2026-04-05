@@ -2,21 +2,23 @@ import tw from '@/styles';
 
 const styles = tw({
   callouts: `
-    flex flex-col justify-between align-center
-    mb-1 px-2
+    sticky top-0 z-2
+    flex flex-col justify-between
+    p-2
+    bg-(--foreground)
     font-mono
     text-xtiny text-(--background)
     uppercase
 
     sm:flex-row
   `,
+  callout: `
+    flex gap-1 items-center
+  `,
   highlight: `
     font-bold
   `,
   icon: `
-    inline-block
-    ml-1
-    -mt-0.5
     w-2 h-2
     stroke-1 stroke-(--background)
   `,
@@ -54,6 +56,7 @@ const styles = tw({
   items: `
     grid grid-cols-2 grid-rows-2
     text-(--foreground)
+    animate-fade-in
 
     md:flex
     md:justify-end

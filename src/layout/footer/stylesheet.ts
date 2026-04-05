@@ -21,6 +21,7 @@ const styles = tw({
     grid grid-cols-2 gap-3
     p-2
     text-(--foreground)
+    animate-fade-in
 
     xs:grid-cols-3
     md:p-0
@@ -65,6 +66,7 @@ const styles = tw({
     uppercase
     font-bold font-mono
     text-xtiny text-(--foreground)/50
+    animate-fade-in
 
     md:p-4
     md:pb-3.75

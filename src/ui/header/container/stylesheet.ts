@@ -5,6 +5,7 @@ const styles = tw({
     text-6xl text-(--foreground)
     font-sans font-black
     uppercase
+    animate-fade-in
   `,
 });
 

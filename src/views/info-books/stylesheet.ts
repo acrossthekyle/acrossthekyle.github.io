@@ -4,6 +4,7 @@ const styles = tw({
   items: `
     columns-sm gap-4
     mt-10
+    animate-fade-in
   `,
   item: `
     flex gap-4

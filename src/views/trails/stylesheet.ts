@@ -5,12 +5,14 @@ const styles = tw({
     absolute top-4 right-4
     text-xtiny text-(--foreground)/70
     uppercase
+    animate-flicker-in
   `,
   section: `
     relative
     flex flex-col gap-4
     mt-10
     mb-20
+    animate-fade-in
 
     lg:flex-row
     lg:gap-12

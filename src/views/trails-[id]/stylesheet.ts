@@ -5,6 +5,7 @@ const styles = tw({
     relative
     w-full
     mt-10
+    animate-fade-in
 
     md:w-1/2
     lg:absolute
@@ -21,6 +22,7 @@ const styles = tw({
     font-mono font-bold
     text-tiny
     uppercase
+    animate-fade-in
   `,
   lid: `
     block
@@ -31,6 +33,7 @@ const styles = tw({
     relative
     flex flex-col gap-4
     mt-10
+    animate-fade-in
 
     lg:flex-row
     lg:gap-12

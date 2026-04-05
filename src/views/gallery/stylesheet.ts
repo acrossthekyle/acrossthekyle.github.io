@@ -5,6 +5,7 @@ const styles = tw({
     relative
     mt-10
     text-left
+    animate-flicker-in
 
     sm:absolute
     sm:top-3
@@ -23,6 +24,7 @@ const styles = tw({
   albums: `
     grid grid-cols-1 gap-4
     mt-10
+    animate-fade-in
 
     sm:grid-cols-2
     md:grid-cols-3

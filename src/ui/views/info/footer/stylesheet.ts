@@ -3,6 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     flex flex-col gap-6
+    animate-fade-in
 
     md:flex-row
     md:gap-12
@@ -36,8 +37,12 @@ const styles = tw({
 
     sm:flex-row
     sm:gap-0
+    md:has-[li:hover]:[&_a]:bg-(--foreground)/0
     md:has-[li:hover]:[&_a]:text-(--foreground)/40
     md:has-[li:hover]:[&_span]:text-(--foreground)/40
+    md:-mt-2
+    md:-mb-2.5
+    md:-mx-2.5
   `,
   item: `
     group
@@ -47,12 +52,16 @@ const styles = tw({
   `,
   link: (isActive: boolean) => tw(`
     flex flex-col justify-between
+    ${isActive ? 'bg-(--foreground)/7.5' : 'bg-(--foreground)/0'}
     text-2xl ${isActive ? 'text-(--foreground)' : 'text-(--foreground)/40'}
     font-black
     uppercase
+    rounded-md
     duration-300
 
+    md:p-2
     md:hover:!text-(--foreground)/100
+    md:hover:!bg-(--foreground)/7.5
   `),
   index: (isActive: boolean) => tw(`
     block

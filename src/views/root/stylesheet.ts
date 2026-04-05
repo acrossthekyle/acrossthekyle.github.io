@@ -8,6 +8,7 @@ const styles = tw({
     text-xl text-(--foreground) text-center
     font-sans font-black
     uppercase
+    animate-fade-in
 
     before:absolute
     before:inset-0
@@ -39,6 +40,7 @@ const styles = tw({
     absolute top-4 right-4 left-4 z-2
     gap-2
     w-50
+    animate-fade-in
 
     md:gap-0
     md:w-auto
@@ -48,6 +50,7 @@ const styles = tw({
     w-auto
     gap-0.25
     text-right
+    animate-flicker-in
 
     md:gap-0
     md:text-left

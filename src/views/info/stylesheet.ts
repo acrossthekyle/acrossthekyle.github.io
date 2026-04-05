@@ -5,6 +5,7 @@ const styles = tw({
     relative
     flex flex-col gap-4
     mt-10
+    animate-fade-in
 
     lg:flex-row
     lg:gap-12

@@ -8,6 +8,7 @@ const styles = tw({
     text-tiny text-(--foreground)/50
     font-mono font-bold
     uppercase
+    animate-fade-in
 
     md:w-120
   `,

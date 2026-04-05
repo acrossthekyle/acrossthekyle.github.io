@@ -110,7 +110,7 @@ const data = [
   {
     "albumId": "southern-rockies-2019",
     "coordinates": "39.0295° N, 106.4730° W",
-    "id": "la-plata peak-2020",
+    "id": "la-plata-peak-2020",
     "location": "Sawatch Range, Colorado, USA",
     "title": "La Plata Peak",
     "type": "summit",

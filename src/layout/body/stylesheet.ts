@@ -7,7 +7,7 @@ const styles = tw({
     h-auto min-h-dvh
     text-(--background)
     bg-(--foreground)
-    p-1
+    p-1 pt-0
     overflow-x-hidden
   `,
 });

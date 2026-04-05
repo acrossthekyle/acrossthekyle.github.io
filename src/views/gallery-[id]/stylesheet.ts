@@ -4,6 +4,7 @@ const styles = tw({
   aside: `
     relative
     mt-10
+    animate-fade-in
   `,
   stats: `
     flex flex-col gap-0.5
@@ -16,6 +17,7 @@ const styles = tw({
   items: `
     grid grid-cols-1 gap-4
     mt-10
+    animate-fade-in
 
     xs:grid-cols-2
     sm:grid-cols-3

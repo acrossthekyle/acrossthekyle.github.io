@@ -46,7 +46,7 @@ export default function Footer({ current = '/info' }: Props) {
         </h2>
         <ul className={styles.items}>
           {LINKS.map((item, index: number) => {
-            const isActive = current === '/info' ? true : current === item.href;
+            const isActive = current === '/info' ? false : current === item.href;
 
             return (
               <li className={styles.item} key={item.title}>

@@ -5,6 +5,7 @@ const styles = tw({
     relative
     flex flex-row gap-1.5
     w-full
+    animate-fade-in
 
     md:gap-4
   `,

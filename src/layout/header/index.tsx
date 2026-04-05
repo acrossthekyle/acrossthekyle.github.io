@@ -45,10 +45,10 @@ export default function Header({ data }: Props) {
   return (
     <header>
       <div className={styles.callouts}>
-        <Link href={`/trails/${data.trail.id}`} tabIndex={2}>
+        <Link className={styles.callout} href={`/trails/${data.trail.id}`} tabIndex={2}>
           Latest trail: <span className={styles.highlight}>{data.trail.title}</span> [→]
         </Link>
-        <Link href="/info" tabIndex={3}>
+        <Link className={styles.callout} href="/info" tabIndex={3}>
           Currently:{' '}
           {data.job.isAvailable && (
             <>

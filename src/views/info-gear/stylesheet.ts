@@ -2,8 +2,9 @@ import tw from '@/styles';
 
 const styles = tw({
   filters: `
-    flex gap-4
+    flex gap-2
     mt-10
+    animate-fade-in
   `,
   link: (isActive: boolean) => tw(`
     font-mono font-bold
@@ -11,7 +12,7 @@ const styles = tw({
     uppercase
     border-1 border-(--foreground)
     py-1 px-1.25
-    rounded-md
+    rounded-xs
 
     ${isActive ? `bg-(--foreground) text-(--background)` : `text-(--foreground)`}
   `),
@@ -19,6 +20,7 @@ const styles = tw({
     relative
     flex flex-col gap-4
     mt-10
+    animate-fade-in
 
     lg:flex-row
     lg:gap-12
@@ -79,6 +81,7 @@ const styles = tw({
     font-mono
     text-xtiny text-(--foreground)
     uppercase
+    animate-flicker-in
 
     xs:flex
     xs:flex-row
