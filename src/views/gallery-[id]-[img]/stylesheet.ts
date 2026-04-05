@@ -1,13 +1,6 @@
 import tw from '@/styles';
 
 const styles = tw({
-  album: `
-    mt-6
-    inline-block
-    font-mono font-bold
-    text-tiny text-(--foreground)
-    uppercase
-  `,
   figure: `
     relative
     mt-6
@@ -25,6 +18,25 @@ const styles = tw({
 
     md:aspect-3/2
   `,
+  items: `
+    mt-6
+    grid grid-cols-2 gap-y-2
+    w-54
+  `,
+  item: `
+    font-mono font-bold
+    text-xtiny text-(--foreground)
+    uppercase
+    break-inside-avoid-column
+  `,
+  eyebrow: `
+    block
+    font-normal
+    text-(--foreground)/70
+  `,
+  emphasis: `
+    font-serif italic lowercase
+  `,
   navigation: `
     flex justify-between gap-4
     mt-6
@@ -36,6 +48,9 @@ const styles = tw({
     md:bottom-4
     md:left-4
     md:justify-start
+  `,
+  album: `
+    mr-6
   `,
 });
 

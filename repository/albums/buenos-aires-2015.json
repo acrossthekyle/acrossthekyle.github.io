@@ -11,11 +11,27 @@
   "images": [
     {
       "src": "2015/03/19/1ddbd381-ac73-4dc2-9fa9-7398e0438098.jpeg",
-      "title": "Exploring Buenos Aires"
+      "title": "Exploring Buenos Aires",
+      "exif": {
+        "aperture": "2/2750",
+        "camera": "iPhone 6",
+        "exposure": "0.0",
+        "fnumber": "2.20",
+        "focal": 29,
+        "iso": 32
+      }
     },
     {
       "src": "2015/03/19/aaa356af-6a08-4305-8fe2-80819bd00f16.jpeg",
-      "title": "Lollapalooza in Buenos Aires"
+      "title": "Lollapalooza in Buenos Aires",
+      "exif": {
+        "aperture": "2/2750",
+        "camera": "iPhone 6",
+        "exposure": "0.0",
+        "fnumber": "2.20",
+        "focal": 29,
+        "iso": 1000
+      }
     }
   ]
 }

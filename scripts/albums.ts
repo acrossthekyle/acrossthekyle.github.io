@@ -48,40 +48,37 @@ function getWhen(date: string[]) {
 export async function go() {
   const albums = [];
 
-  await Promise.all(
-    fs
-      .readdirSync(input)
-      .filter((directory) => {
-        if (directory !== '.DS_Store') {
-          return directory;
-        }
-      })
-      .map(async (file) => {
-        const data = JSON.parse(fs.readFileSync(`${input}/${file}`, 'utf8'));
+  const files = fs
+    .readdirSync(input)
+    .filter((directory) => directory !== '.DS_Store');
 
-        albums.push({
-          coordinates: data.coordinates,
-          id: data.id,
-          images: data.images,
-          location: data.location,
-          timestamp: data.timestamp,
-          title: data.title,
-          when: getWhen(data.date),
-        });
-      }),
-  );
+  for (const file of files) {
+    const data = JSON.parse(fs.readFileSync(`${input}/${file}`, 'utf8'));
+
+    albums.push({
+      coordinates: data.coordinates,
+      id: data.id,
+      images: data.images,
+      location: data.location,
+      timestamp: data.timestamp,
+      title: data.title,
+      when: getWhen(data.date),
+    });
+  }
 
   if (albums.length) {
     write(
       'albums.js',
-      albums.sort((a, b) => b.timestamp - a.timestamp).map(({ coordinates, id, images, location, title, when }) => ({
-        coordinates,
-        id,
-        images,
-        location,
-        title,
-        when,
-      })),
+      albums
+        .sort((a, b) => b.timestamp - a.timestamp)
+        .map(({ coordinates, id, images, location, title, when }) => ({
+          coordinates,
+          id,
+          images,
+          location,
+          title,
+          when,
+        })),
     );
   }
 }

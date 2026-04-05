@@ -24,7 +24,7 @@ const styles = tw({
     block
     mt-0.75
     leading-[1]
-    font-mono
+    font-mono font-normal
     text-xtiny text-(--foreground)/70
     normal-case
   `,

@@ -20,25 +20,19 @@ export default function Body({ children }: React.PropsWithChildren) {
     <body
       className={`${geistSans.variable} ${robotoMono.variable} ${styles.container}`}
     >
-      <Script
-        id="theme-script"
-      >
+      <Script id="theme-script">
         {`
           (function () {
-            let currentTheme = 'light';
+            let savedTheme = localStorage.getItem('theme') || 'auto';
+            let currentTheme = savedTheme;
 
-            if (localStorage.getItem('theme')) {
-              currentTheme = localStorage.getItem('theme');
-            } else if (
-              window.matchMedia &&
-              window.matchMedia('(prefers-color-scheme: dark)').matches
-            ) {
-              currentTheme = 'dark';
+            if (savedTheme === 'auto') {
+              const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+              currentTheme = prefersDark ? 'dark' : 'light';
             }
 
-            document.querySelector('html').setAttribute('data-theme', currentTheme);
-
-            localStorage.setItem('theme', currentTheme);
+            document.documentElement.setAttribute('data-theme', currentTheme);
           })();
         `}
       </Script>

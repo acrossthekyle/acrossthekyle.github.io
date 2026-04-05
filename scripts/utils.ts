@@ -40,3 +40,5 @@ export function reduceCoordinates(value, to = 4) {
     return parseFloat(match).toFixed(to);
   });
 };
+
+export const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));

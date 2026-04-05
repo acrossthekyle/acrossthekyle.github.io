@@ -11,27 +11,75 @@
   "images": [
     {
       "src": "2022/05/07/75a8c027-07cd-4184-9157-d48dd5d1a32e.jpeg",
-      "title": "Drymen"
+      "title": "Drymen",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 50
+      }
     },
     {
       "src": "2022/05/07/e8dd9fed-56e4-45bf-aee4-d1bc44a5363c.jpeg",
-      "title": "Sallochy"
+      "title": "Sallochy",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 50
+      }
     },
     {
       "src": "2022/05/07/e610c340-2b8c-481c-8442-dc4543db3f2c.jpeg",
-      "title": "Bienglas Farm"
+      "title": "Bienglas Farm",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 125
+      }
     },
     {
       "src": "2022/05/07/b7df127a-0f69-4b29-843f-e1a7c6f858bf.jpeg",
-      "title": "Bridge of Orchy"
+      "title": "Bridge of Orchy",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 50
+      }
     },
     {
       "src": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
-      "title": "Kinlochleven"
+      "title": "Kinlochleven",
+      "exif": {
+        "aperture": "2/9709",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "2.80",
+        "focal": 77,
+        "iso": 32
+      }
     },
     {
       "src": "2022/05/07/07741eea-d85e-42cf-a2d4-d0f87102bffc.jpeg",
-      "title": "Fort William"
+      "title": "Fort William",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 50
+      }
     }
   ]
 }

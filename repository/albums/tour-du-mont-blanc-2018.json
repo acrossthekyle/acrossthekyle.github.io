@@ -11,51 +11,147 @@
   "images": [
     {
       "src": "2018/09/02/135eea74-e1bc-4cab-bfd7-28d17405a744.jpeg",
-      "title": "Le Truc"
+      "title": "Le Truc",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
     },
     {
       "src": "2018/09/02/56d3cc07-47c1-40c8-b7ee-483aa01d777c.jpeg",
-      "title": "La Croix du Bonhomme"
+      "title": "La Croix du Bonhomme",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 32
+      }
     },
     {
       "src": "2018/09/02/0420d236-d12a-40e8-8d6c-90558e26d304.jpeg",
-      "title": "Robert Blanc"
+      "title": "Robert Blanc",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
     },
     {
       "src": "2018/09/02/488a5815-e763-406d-94e1-5e51ff25cafe.jpeg",
-      "title": "Maison Veille"
+      "title": "Maison Veille",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
     },
     {
       "src": "2018/09/02/9cefaedf-2e6b-439a-9512-f1f37d2374eb.jpeg",
-      "title": "Bonatti"
+      "title": "Bonatti",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
     },
     {
       "src": "2018/09/02/891cd8a7-97d2-4251-ac34-6c816c0ec570.jpeg",
-      "title": "Maya Joie"
+      "title": "Maya Joie",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
     },
     {
       "src": "2018/09/02/8d209b3b-8d40-49b3-b754-fd91466c9708.jpeg",
-      "title": "Bon Abri"
+      "title": "Bon Abri",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
     },
     {
       "src": "2018/09/02/21248df2-d0b9-41d2-9662-b6215c24c298.jpeg",
-      "title": "Le Peuty"
+      "title": "Le Peuty",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
     },
     {
       "src": "2018/09/02/ec37f4a8-6310-4bf6-b1a7-cddb1f91bf3b.jpeg",
-      "title": "La Boerne"
+      "title": "La Boerne",
+      "exif": {
+        "aperture": "1/2667",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
     },
     {
       "src": "2018/09/02/0ea4750a-307a-44be-a466-bb081d137d3c.jpeg",
-      "title": "La Flegere"
+      "title": "La Flegere",
+      "exif": {
+        "aperture": null,
+        "camera": "ILCE-6000",
+        "exposure": "0.0",
+        "fnumber": "5.00",
+        "focal": 36,
+        "iso": 100
+      }
     },
     {
       "src": "2018/09/02/3faeb9f8-d262-4c12-869f-4470b0dc0574.jpeg",
-      "title": "Bellechat"
+      "title": "Bellechat",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
     },
     {
       "src": "2018/09/02/8a0d6d12-a40d-47ba-9d09-6b8d5572bb32.jpeg",
-      "title": "Les Houches"
+      "title": "Les Houches",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
     }
   ]
 }

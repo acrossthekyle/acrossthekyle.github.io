@@ -11,15 +11,39 @@
   "images": [
     {
       "src": "2024/07/24/f6f7470b-5e4e-42f7-aa59-ccabe81778bf.jpeg",
-      "title": "Geneva's Iconic Fountain"
+      "title": "Geneva's Iconic Fountain",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 50
+      }
     },
     {
       "src": "2024/07/24/e19b87b3-ff48-499f-a225-3d4d608e9311.jpeg",
-      "title": "Cathedral Views and Hidden Treasures"
+      "title": "Cathedral Views and Hidden Treasures",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 800
+      }
     },
     {
       "src": "2024/07/24/e38ad9d4-d8b7-433c-bdec-55294d442928.jpeg",
-      "title": "Geneva's Botanical Oasis"
+      "title": "Geneva's Botanical Oasis",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 13,
+        "iso": 32
+      }
     }
   ]
 }

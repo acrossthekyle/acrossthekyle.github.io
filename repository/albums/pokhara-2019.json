@@ -11,15 +11,39 @@
   "images": [
     {
       "src": "2019/11/06/0a6730d7-113b-4bca-b9d1-71ecf8e69713.jpeg",
-      "title": "Morning on Phewa Lake"
+      "title": "Morning on Phewa Lake",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 47,
+        "iso": 20
+      }
     },
     {
       "src": "2019/11/06/4286cd26-eaad-47b1-96f7-2dff5ea38352.jpeg",
-      "title": "Peace at the Pagoda"
+      "title": "Peace at the Pagoda",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 25
+      }
     },
     {
       "src": "2019/11/06/9bbcf55a-54e8-4a7e-8c6f-12d718bc0da0.jpeg",
-      "title": "Flying Over Pokhara"
+      "title": "Flying Over Pokhara",
+      "exif": {
+        "aperture": "2/9700",
+        "camera": "HERO5 Black",
+        "exposure": "0.0",
+        "fnumber": "2.80",
+        "focal": 15,
+        "iso": 100
+      }
     }
   ]
 }

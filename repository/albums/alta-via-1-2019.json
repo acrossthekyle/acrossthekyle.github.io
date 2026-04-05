@@ -11,43 +11,123 @@
   "images": [
     {
       "src": "2019/07/16/eba70b28-4c7d-45f3-aa93-46b24011cb80.jpeg",
-      "title": "Biella"
+      "title": "Biella",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
     },
     {
       "src": "2019/07/16/69890344-e575-484e-86ae-5ddeb000c4f9.jpeg",
-      "title": "Lavarella"
+      "title": "Lavarella",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
     },
     {
       "src": "2019/07/16/081c1b83-7036-4c3c-aa2f-0534f4250ab8.jpeg",
-      "title": "Scotoni"
+      "title": "Scotoni",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 25
+      }
     },
     {
       "src": "2019/07/16/eb243b48-8084-4c7e-94c0-5a163983d407.jpeg",
-      "title": "Averau"
+      "title": "Averau",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
     },
     {
       "src": "2019/07/16/a3f65b8c-4b57-4194-a3a1-5769f1d63373.jpeg",
-      "title": "Citta de Fume"
+      "title": "Citta de Fume",
+      "exif": {
+        "aperture": "2/5261",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "2.40",
+        "focal": 52,
+        "iso": 16
+      }
     },
     {
       "src": "2019/07/16/b1128805-54bb-4b7b-adcb-f2b6ae3fada6.jpeg",
-      "title": "Tissi"
+      "title": "Tissi",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
     },
     {
       "src": "2019/07/16/a46e829f-147b-40d1-b7ae-2f743923feca.jpeg",
-      "title": "Carestiato"
+      "title": "Carestiato",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
     },
     {
       "src": "2019/07/16/21806386-052d-4a82-941e-6728771acd63.jpeg",
-      "title": "Pramperet"
+      "title": "Pramperet",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
     },
     {
       "src": "2019/07/16/2982a2fe-75f6-473a-8d98-2c664c5cd38e.jpeg",
-      "title": "Pian de Fontana"
+      "title": "Pian de Fontana",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
     },
     {
       "src": "2019/07/16/735a0783-62ba-4f8e-97d8-c9b9f5327cfe.jpeg",
-      "title": "La Pissa"
+      "title": "La Pissa",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
     }
   ]
 }

@@ -32,7 +32,7 @@ export default function Header() {
       <Link className={styles.anchor} href="/">
         KYL
         <span className={styles.definition}>
-          /kī(ə)l/ • Gaelic • Channel or strait
+          /kī(ə)l/ • Gaelic
         </span>
       </Link>
       <nav aria-label="primary navigation">

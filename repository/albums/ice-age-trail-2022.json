@@ -10,15 +10,39 @@
   "images": [
     {
       "src": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",
-      "title": "Stony Ridge Shelter"
+      "title": "Stony Ridge Shelter",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 13,
+        "iso": 32
+      }
     },
     {
       "src": "2025/05/03/e402c0b1-e827-4123-b7b5-74947b240687.jpeg",
-      "title": "Parnell Shelter"
+      "title": "Parnell Shelter",
+      "exif": {
+        "aperture": "1/6638",
+        "camera": "iPhone 16 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.78",
+        "focal": 24,
+        "iso": 100
+      }
     },
     {
       "src": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
-      "title": "Greenbush Trailhead"
+      "title": "Greenbush Trailhead",
+      "exif": {
+        "aperture": "1/6638",
+        "camera": "iPhone 16 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.78",
+        "focal": 24,
+        "iso": 80
+      }
     }
   ]
 }

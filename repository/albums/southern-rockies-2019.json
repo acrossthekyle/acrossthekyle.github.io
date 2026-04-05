@@ -10,39 +10,111 @@
   "images": [
     {
       "src": "2019/08/31/52f1514b-91a4-494d-93df-6ae9c81df01c.jpeg",
-      "title": "Mount Elbert"
+      "title": "Mount Elbert",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
     },
     {
       "src": "2019/09/01/08d28c7e-387b-418f-8226-b2a87485f1d8.jpeg",
-      "title": "Quandary Peak"
+      "title": "Quandary Peak",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
     },
     {
       "src": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
-      "title": "La Plata Peak"
+      "title": "La Plata Peak",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
     },
     {
       "src": "2020/09/05/54a89ed8-86d4-4918-b7b3-b883ecea72c8.jpeg",
-      "title": "Mount Bierstadt"
+      "title": "Mount Bierstadt",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
     },
     {
       "src": "2020/09/06/80307849-8964-4e0d-a70f-f6371ca7fcad.jpeg",
-      "title": "Grays Peak"
+      "title": "Grays Peak",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
     },
     {
       "src": "2021/09/07/fbe767d5-63c6-4af7-8643-ceef9b4cce92.jpeg",
-      "title": "Mount Shavano"
+      "title": "Mount Shavano",
+      "exif": {
+        "aperture": "1/3561",
+        "camera": "iPhone 12",
+        "exposure": "0.0",
+        "fnumber": "1.60",
+        "focal": 26,
+        "iso": 32
+      }
     },
     {
       "src": "2021/09/09/8e1e0c1f-c391-4bc0-807c-7bdd8d20815b.jpeg",
-      "title": "Mount DeCaLiBron"
+      "title": "Mount DeCaLiBron",
+      "exif": {
+        "aperture": "1/3561",
+        "camera": "iPhone 12",
+        "exposure": "0.0",
+        "fnumber": "1.60",
+        "focal": 26,
+        "iso": 32
+      }
     },
     {
       "src": "2022/09/09/f722df6c-2869-4ff0-80f7-37014241e135.jpeg",
-      "title": "Mount Belford"
+      "title": "Mount Belford",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 13,
+        "iso": 32
+      }
     },
     {
       "src": "2022/09/11/b74f68ae-d627-4a89-9122-fbc75562e59d.jpeg",
-      "title": "Mount Massive"
+      "title": "Mount Massive",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 50
+      }
     }
   ]
 }

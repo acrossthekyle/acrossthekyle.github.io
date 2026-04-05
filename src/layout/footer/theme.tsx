@@ -10,7 +10,11 @@ export default function Theme() {
   return (
     <button className={styles.link} onClick={onToggleTheme} type="button">
       Lights
-      <span className={styles.text}>{theme === 'light' ? 'ON' : 'OFF'}</span>
+      <span className={styles.text}>
+        {theme === 'auto' && 'AUTO'}
+        {theme === 'light' && 'ON'}
+        {theme === 'dark' && 'OFF'}
+      </span>
     </button>
   );
 }

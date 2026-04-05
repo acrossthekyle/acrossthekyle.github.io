@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint src",
-    "data": "npx tsx --experimental-modules scripts/data.ts",
+    "data": "npx tsx --experimental-modules --env-file=.env scripts/data.ts",
     "reboot": "npm run data && npm run dev",
     "e2e": "npx playwright test",
     "e2e:start": "next build && next start",

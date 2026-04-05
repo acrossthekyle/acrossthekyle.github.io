@@ -11,43 +11,123 @@
   "images": [
     {
       "src": "2022/12/28/5e393275-ee80-475d-83cf-26192cd55738.jpeg",
-      "title": "Giants of the Nile"
+      "title": "Giants of the Nile",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 50
+      }
     },
     {
       "src": "2022/12/28/5f93fbaf-0c30-4f70-959d-a5e4384eff83.jpeg",
-      "title": "Wonders of the Tomb"
+      "title": "Wonders of the Tomb",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 320
+      }
     },
     {
       "src": "2022/12/28/12a42c7a-6b58-4356-a873-35d8cb66314a.jpeg",
-      "title": "Inside Tutankhamun's Tomb"
+      "title": "Inside Tutankhamun's Tomb",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 13,
+        "iso": 500
+      }
     },
     {
       "src": "2022/12/28/d8ebe864-7209-44ae-b426-a05337965b8d.jpeg",
-      "title": "A Stunning Tomb in the Valley of the Kings"
+      "title": "A Stunning Tomb in the Valley of the Kings",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 400
+      }
     },
     {
       "src": "2022/12/28/9fb7c062-5816-4154-b8cd-525a81f82be0.jpeg",
-      "title": "Quiet Wonders in the Valley of the Queens"
+      "title": "Quiet Wonders in the Valley of the Queens",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 50
+      }
     },
     {
       "src": "2022/12/28/44f2c787-1209-4e11-a2fe-64030e0c472c.jpeg",
-      "title": "Awe at Habu Temple"
+      "title": "Awe at Habu Temple",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 13,
+        "iso": 32
+      }
     },
     {
       "src": "2022/12/28/b7e2eeb1-90d3-49cb-bdb8-41acf2162f78.jpeg",
-      "title": "Terraces in the Cliff"
+      "title": "Terraces in the Cliff",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 50
+      }
     },
     {
       "src": "2022/12/28/b13b3a23-187a-4dc4-912d-e225b21af78a.jpeg",
-      "title": "Sunrise Over Luxor"
+      "title": "Sunrise Over Luxor",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 32
+      }
     },
     {
       "src": "2022/12/28/9799718c-81f7-460d-9f0a-7ddd2dffb060.jpeg",
-      "title": "Discovering Luxor Temple"
+      "title": "Discovering Luxor Temple",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 50
+      }
     },
     {
       "src": "2022/12/28/7f2020f6-ccd2-4f4a-98a1-44abd2df6911.jpeg",
-      "title": "Exploring Karnak Temple"
+      "title": "Exploring Karnak Temple",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 50
+      }
     }
   ]
 }
