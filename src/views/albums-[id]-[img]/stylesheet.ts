@@ -26,14 +26,14 @@ const styles = tw({
   `,
   item: `
     font-mono font-bold
-    text-xtiny text-(--foreground)
+    text-xtiny
     uppercase
     break-inside-avoid-column
   `,
   eyebrow: `
     block
     font-normal
-    text-(--foreground)/70
+    text-current/70
   `,
   emphasis: `
     font-serif italic lowercase
@@ -42,7 +42,7 @@ const styles = tw({
     flex justify-between gap-4
     mt-6
     font-mono font-bold
-    text-tiny text-(--foreground)
+    text-tiny
     uppercase
     animate-flicker-in
 

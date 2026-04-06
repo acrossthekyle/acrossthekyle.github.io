@@ -1,6 +1,7 @@
 import Link from 'next/link';
 
 import { Main } from '@/layout';
+import Divider from '@/ui/divider';
 import {
   Header,
   HeaderEyebrow,
@@ -80,19 +81,18 @@ export default function View({ data }: Props) {
       <p className={styles.description}>
         <span className={styles.highlight}>{data.trail.description}</span>
       </p>
+      <Link className={styles.album} href={`/albums/${data.trail.albumId}`}>
+        <span className={styles.highlight}>VIEW ALBUM</span>
+        <span className={styles.lid}>{data.photos} Photos</span>
+      </Link>
       <Map className={styles.map}>
         <MapMarker position={{
           left: data.trail.position[1],
           top: data.trail.position[0],
         }} />
       </Map>
-      <Link className={styles.album} href={`/albums/${data.trail.albumId}`}>
-        <span className={styles.highlight}>VIEW ALBUM</span>
-        <span className={styles.lid}>{data.photos} Photos</span>
-      </Link>
       <section className={styles.section}>
         <h2 className={styles.heading}>
-          <span className={styles.eyebrow}>[ 00-01 ]</span>
           Info
         </h2>
         <ul className={styles.items}>
@@ -150,9 +150,9 @@ export default function View({ data }: Props) {
           </li>
         </ul>
       </section>
+      <Divider />
       <section className={styles.section}>
         <h2 className={styles.heading}>
-          <span className={styles.eyebrow}>[ 00-02 ]</span>
           Route
         </h2>
         <Route stages={data.trail.stages} />

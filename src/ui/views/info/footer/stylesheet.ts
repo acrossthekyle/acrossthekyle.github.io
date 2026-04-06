@@ -18,7 +18,7 @@ const styles = tw({
 
     md:w-32
     lg:mb-0
-    lg:w-48
+    lg:w-56
   `,
   eyebrow: `
     block

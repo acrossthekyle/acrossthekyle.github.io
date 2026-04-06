@@ -5,7 +5,6 @@ const styles = tw({
     antialiased
     flex flex-col
     h-auto min-h-dvh
-    text-(--background)
     bg-(--foreground)
     p-1 pt-0
     overflow-x-hidden

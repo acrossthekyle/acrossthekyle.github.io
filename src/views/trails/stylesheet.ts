@@ -5,18 +5,18 @@ const styles = tw({
     w-full
     mt-10
     leading-[1]
-    text-tiny text-(--foreground)/50
+    text-tiny text-current/50
     font-mono
     uppercase
 
     md:w-132
   `,
   highlight: `
-    text-(--foreground)/100
+    text-(--foreground)
   `,
   aside: `
     absolute top-4 right-4
-    text-xtiny text-(--foreground)/70
+    text-xtiny text-current/70
     uppercase
     animate-flicker-in
   `,
@@ -37,7 +37,7 @@ const styles = tw({
     w-24
     mb-2
     font-mono font-bold
-    text-tiny text-(--foreground)
+    text-tiny
     uppercase
     whitespace-nowrap
 
@@ -48,7 +48,7 @@ const styles = tw({
   eyebrow: `
     block
     font-normal
-    text-(--foreground)/50
+    text-current/50
 
     lg:inline-block
     lg:mr-3
@@ -66,13 +66,13 @@ const styles = tw({
     block
     mt-1
     font-mono
-    text-tiny text-(--foreground)/50
+    text-tiny text-current/50
   `,
   link: `
     block
     mt-1.5
     font-sans font-black
-    text-4xl text-(--foreground)
+    text-4xl
     uppercase
     leading-[0.775]
     overflow-hidden
@@ -85,7 +85,7 @@ const styles = tw({
     mb-0.75
     leading-[1]
     font-mono font-normal
-    text-xtiny text-(--foreground)/70
+    text-xtiny text-current/70
 
     first:mt-2
     last:mb-0

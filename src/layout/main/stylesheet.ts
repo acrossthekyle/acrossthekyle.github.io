@@ -6,6 +6,7 @@ const styles = tw({
     relative
     rounded-md
     bg-(--background)
+    text-(--foreground)
     p-2
 
     md:p-4

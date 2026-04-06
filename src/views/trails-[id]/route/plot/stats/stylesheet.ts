@@ -17,7 +17,7 @@ const styles = tw({
   `,
   item: `
     font-mono
-    text-xtiny text-(--foreground) text-left
+    text-xtiny text-left
     uppercase
 
     md:text-right
@@ -29,7 +29,7 @@ const styles = tw({
   index: `
     block
     font-normal
-    text-(--foreground)/50
+    text-current/50
   `,
 });
 

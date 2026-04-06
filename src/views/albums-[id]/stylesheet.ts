@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   highlight: `
-    text-(--foreground)/100
+    text-(--foreground)
   `,
   aside: `
     relative
@@ -21,7 +21,7 @@ const styles = tw({
     mt-2
     leading-[1]
     font-mono
-    text-xtiny text-(--foreground)/70
+    text-xtiny text-current/70
     uppercase
   `,
   items: `
@@ -43,7 +43,7 @@ const styles = tw({
     block
     mb-2
     font-mono
-    text-xtiny text-(--foreground)/70
+    text-xtiny text-current/70
     uppercase
   `,
   figure: `
@@ -63,7 +63,7 @@ const styles = tw({
   caption: `
     leading-[1]
     font-mono font-bold
-    text-tiny text-(--foreground)
+    text-tiny
     uppercase
   `,
 });

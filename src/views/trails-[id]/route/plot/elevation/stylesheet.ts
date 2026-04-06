@@ -9,7 +9,7 @@ const grid = `
 const styles = tw({
   heading: `
     font-mono
-    text-xtiny text-(--foreground)
+    text-xtiny
     uppercase
     pl-1.5 pt-1.5
 
@@ -18,7 +18,7 @@ const styles = tw({
   `,
   eyebrow: `
     block
-    text-(--foreground)/50
+    text-current/50
   `,
   container: `
     relative

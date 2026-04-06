@@ -1,20 +1,20 @@
+import { Main } from '@/layout';
 import {
   Header,
   HeaderEyebrow,
-  HeaderPrefix,
   HeaderSubtitle,
+  HeaderText,
 } from '@/ui/header';
-import Introduction from '@/ui/introduction';
 
 export default function View() {
   return (
-    <>
+    <Main>
       <Header>
-        <HeaderEyebrow>[ 00-m01 ]</HeaderEyebrow>
-        <HeaderPrefix>/</HeaderPrefix>Missing
+        <HeaderEyebrow>[ 404 ]</HeaderEyebrow>
+        <HeaderText>Missing</HeaderText>
         <HeaderSubtitle>Page not found</HeaderSubtitle>
       </Header>
-      <Introduction>
+      <p className="font-mono uppercase text-tiny mt-10">
         While I web surfed, weak and weary,<br />
         For pages long forgotten yore.<br />
         When I clicked my fav'rite href,<br />
@@ -24,7 +24,7 @@ export default function View() {
         "Tis not possible!", I muttered,<br />
         "Give thine pages, I emplore!"<br />
         Quoth the server, 404.
-      </Introduction>
-    </>
+      </p>
+    </Main>
   );
 }

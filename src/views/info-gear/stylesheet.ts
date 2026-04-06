@@ -29,7 +29,7 @@ const styles = tw({
     flex-none
     mb-2
     font-mono font-bold
-    text-tiny text-(--foreground)
+    text-tiny
     uppercase
     whitespace-nowrap
 
@@ -42,7 +42,7 @@ const styles = tw({
   index: `
     block
     font-normal
-    text-(--foreground)/50
+    text-current/50
 
     lg:inline-block
     lg:mr-3
@@ -58,14 +58,14 @@ const styles = tw({
     block
     mb-0.5
     font-normal
-    text-xtiny text-(--foreground)/50
+    text-xtiny text-current/50
     normal-case
   `,
   item: `
     w-80
     mb-8
     font-mono
-    text-xs text-(--foreground)
+    text-xs
     uppercase
     break-inside-avoid-column
   `,
@@ -73,13 +73,13 @@ const styles = tw({
     block
     mt-0.5
     font-normal
-    text-xtiny text-(--foreground)/70
+    text-xtiny text-current/70
   `,
   aside: `
     grid grid-cols-2 gap-4
     mt-10
     font-mono
-    text-xtiny text-(--foreground)
+    text-xtiny
     uppercase
     animate-flicker-in
 

@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 
-import { Highlight } from '@/ui/typography';
+import styles from './stylesheet';
 
 export default function Clock() {
   const [dateTimeParts, setDateTimeParts] = useState<{ [key: string]: string | number }>({});
@@ -42,10 +42,10 @@ export default function Clock() {
 
   return (
     <>
-      M<Highlight>{dateTimeParts.month}</Highlight>{' '}
-      D<Highlight>{dateTimeParts.day}</Highlight>{' '}
-      Y<Highlight>{String(dateTimeParts.year).slice(-2)}</Highlight>{' '}
-      T<Highlight>{dateTimeParts.hour}:{dateTimeParts.minute}:{dateTimeParts.second}</Highlight>
+      M<span className={styles.highlight}>{dateTimeParts.month}</span>{' '}
+      D<span className={styles.highlight}>{dateTimeParts.day}</span>{' '}
+      Y<span className={styles.highlight}>{String(dateTimeParts.year).slice(-2)}</span>{' '}
+      T<span className={styles.highlight}>{dateTimeParts.hour}:{dateTimeParts.minute}:{dateTimeParts.second}</span>
     </>
   );
 };

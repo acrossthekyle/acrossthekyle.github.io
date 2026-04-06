@@ -10,7 +10,7 @@ const styles = tw({
     md:gap-4
   `,
   view: `
-    absolute -top-12.5 right-0
+    absolute -top-9.75 right-0
     font-mono font-bold
     text-xtiny
     uppercase

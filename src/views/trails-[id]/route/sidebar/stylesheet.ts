@@ -22,7 +22,7 @@ const styles = tw({
     p-1
     overflow-y-scroll
 
-    xs:h-[72vh]
+    xs:h-[73vh]
     sm:flex-2
     md:p-2.5
   `,

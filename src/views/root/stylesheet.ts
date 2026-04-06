@@ -2,13 +2,13 @@ import tw from '@/styles';
 
 const styles = tw({
   highlight: `
-    text-(--foreground)/100
+    text-(--foreground)
   `,
   heading: `
-    absolute inset-0 z-1
     flex flex-col align-center justify-center
+    h-124
     leading-[0.9]
-    text-xl text-(--foreground) text-center
+    text-xl text-center
     font-sans font-black
     uppercase
     animate-fade-in
@@ -23,18 +23,22 @@ const styles = tw({
     xs:text-3xl
     sm:text-5xl
     md:text-6xl
+    md:absolute
+    md:inset-0
+    md:z-1
+    md:h-auto
   `,
   subheading: `
     block
     mt-3
     font-mono
-    text-xtiny text-(--foreground)/80
+    text-xtiny text-current/80
   `,
   content: `
     flex flex-col justify-between
     leading-[1.25]
     font-mono
-    text-tiny text-(--foreground)/50
+    text-tiny text-current/50
     uppercase
 
     md:flex-row

@@ -11,7 +11,7 @@ const styles = {
     overflow-hidden
     duration-300
 
-    xs:h-[72vh]
+    xs:h-[73vh]
 
     ${isToggled ? 'translate-x-[100vw]' : 'translate-x-0'}
   `),

@@ -16,7 +16,7 @@ const styles = tw({
     relative
     flex justify-end gap-2
     mb-2
-    text-tiny text-(--foreground)
+    text-tiny
 
     sm:absolute
     sm:-top-6.5

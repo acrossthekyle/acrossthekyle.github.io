@@ -5,19 +5,19 @@ const styles = tw({
     w-full
     mt-10
     leading-[1]
-    text-tiny text-(--foreground)/50
+    text-tiny text-current/50
     font-mono
     uppercase
 
     md:w-134
   `,
   highlight: `
-    text-(--foreground)/100
+    text-(--foreground)
   `,
   map: `
     relative
     w-full
-    mt-10
+    mt-10 mb-10
 
     md:w-1/2
     lg:absolute
@@ -29,7 +29,7 @@ const styles = tw({
     xl:w-100
   `,
   album: `
-    mt-10
+    my-10
     inline-block
     font-mono font-bold
     text-tiny
@@ -38,12 +38,11 @@ const styles = tw({
   lid: `
     block
     font-mono
-    text-xtiny text-(--foreground)/70
+    text-xtiny text-current/70
   `,
   section: `
     relative
     flex flex-col gap-4
-    mt-10
 
     lg:flex-row
     lg:gap-12
@@ -53,7 +52,7 @@ const styles = tw({
     w-24
     mb-2
     font-mono font-bold
-    text-tiny text-(--foreground)
+    text-tiny
     uppercase
     whitespace-nowrap
 
@@ -64,7 +63,7 @@ const styles = tw({
   eyebrow: `
     block
     font-normal
-    text-(--foreground)/50
+    text-current/50
 
     lg:inline-block
     lg:mr-3
@@ -82,7 +81,7 @@ const styles = tw({
   item: `
     mb-4
     font-mono
-    text-tiny text-(--foreground)/70
+    text-tiny text-current/70
     uppercase
     break-inside-avoid-column
   `,
@@ -90,7 +89,7 @@ const styles = tw({
     block
     mt-0.5
 
-    text-(--foreground)/100
+    text-(--foreground)
   `,
 });
 

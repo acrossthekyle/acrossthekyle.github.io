@@ -31,6 +31,7 @@ const styles = tw({
     flex flex-col justify-between
     rounded-md
     bg-(--background)
+    text-(--foreground)
     mb-[1px]
 
     md:flex-row
@@ -40,7 +41,7 @@ const styles = tw({
     py-2 px-2
     leading-[1]
     font-sans font-black
-    text-3xl text-(--foreground)
+    text-3xl
     uppercase
 
     md:py-4
@@ -51,7 +52,7 @@ const styles = tw({
     mt-0.75
     leading-[1]
     font-mono font-normal
-    text-xtiny text-(--foreground)/70
+    text-xtiny text-current/70
     normal-case
   `,
   items: `
@@ -61,8 +62,8 @@ const styles = tw({
     md:flex
     md:justify-end
     md:text-right
-    md:has-[li:hover]:[&_a]:text-(--foreground)/40
-    md:has-[li:hover]:[&_span]:text-(--foreground)/40
+    md:has-[li:hover]:[&_a]:text-current/40
+    md:has-[li:hover]:[&_span]:text-current/40
   `,
   item: `
     group
@@ -71,7 +72,7 @@ const styles = tw({
     block
     px-2 py-2
     font-sans font-black
-    text-sm ${isActive ? 'text-(--foreground)' : 'text-(--foreground)/40'}
+    text-sm ${isActive ? 'text-current' : 'text-current/40'}
     uppercase
     duration-300
 
@@ -79,24 +80,24 @@ const styles = tw({
 
     md:px-5
     md:py-4
-    md:hover:!text-(--foreground)/100
+    md:hover:!text-current/100
   `),
   eyebrow: (isActive: boolean) => tw(`
     block
     font-mono
-    text-xtiny ${isActive ? 'text-(--foreground)/70' : 'text-(--foreground)/40'}
+    text-xtiny ${isActive ? 'text-current/70' : 'text-current/40'}
     duration-300
 
-    md:group-hover:!text-(--foreground)/70
+    md:group-hover:!text-current/70
   `),
   lid: (isActive: boolean) => tw(`
     block
     uppercase
     font-mono
-    text-xtiny ${isActive ? 'text-(--foreground)/50' : 'text-(--foreground)/40'}
+    text-xtiny ${isActive ? 'text-current/50' : 'text-current/40'}
     duration-300
 
-    md:group-hover:!text-(--foreground)/50
+    md:group-hover:!text-current/50
   `),
 });
 

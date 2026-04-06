@@ -4,12 +4,12 @@ const styles = tw({
   description: `
     mt-10
     leading-[1]
-    text-tiny text-(--foreground)/50
+    text-tiny text-current/50
     font-mono
     uppercase
   `,
   highlight: `
-    text-(--foreground)/100
+    text-(--foreground)
   `,
   items: `
     group
@@ -24,13 +24,13 @@ const styles = tw({
     flex flex-col gap-4
     mt-10
     rounded-sm
-    text-tiny text-(--foreground)
+    text-tiny
     font-mono
     uppercase
     duration-300
 
-    md:group-hover:text-(--foreground)/50
-    md:hover:!text-(--foreground)/100
+    md:group-hover:text-current/50
+    md:hover:!text-current/100
   `,
   heading: `
     flex flex-col gap-1
@@ -41,7 +41,7 @@ const styles = tw({
   eyebrow: `
     block
     font-normal
-    text-xtiny text-(--foreground)/50
+    text-xtiny text-current/50
 
     lg:inline-block
     lg:mr-3
@@ -50,7 +50,7 @@ const styles = tw({
     block
     mb-4
     font-normal
-    text-xtiny text-(--foreground)/50
+    text-xtiny text-current/50
   `,
 });
 

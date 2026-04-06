@@ -5,6 +5,7 @@ const styles = tw({
     flex flex-col justify-between
     rounded-md
     bg-(--background)
+    text-(--foreground)
     mt-[1px]
 
     md:rounded-lg
@@ -20,16 +21,14 @@ const styles = tw({
   items: `
     grid grid-cols-2 gap-3
     p-2
-    text-(--foreground)
-    animate-fade-in
 
     xs:grid-cols-3
     md:p-0
     md:flex
     md:gap-0
-    md:has-[li:hover]:[&_a]:text-(--foreground)/40
-    md:has-[li:hover]:[&_button]:text-(--foreground)/40
-    md:has-[li:hover]:[&_span]:text-(--foreground)/40
+    md:has-[li:hover]:[&_a]:text-current/40
+    md:has-[li:hover]:[&_button]:text-current/40
+    md:has-[li:hover]:[&_span]:text-current/40
   `,
   item: `
     group
@@ -37,7 +36,7 @@ const styles = tw({
   link: `
     block
     font-mono font-black
-    text-xtiny text-(--foreground) text-left
+    text-xtiny text-current text-left
     uppercase
     duration-300
 
@@ -45,15 +44,15 @@ const styles = tw({
     md:px-3
     md:pt-4
     md:pb-3.75
-    md:hover:!text-(--foreground)/100
+    md:hover:!text-current/100
   `,
   text: `
     block
     normal-case
-    text-xtiny text-(--foreground)/70
+    text-xtiny text-current/70
     whitespace-nowrap
 
-    md:group-hover:!text-(--foreground)/70
+    md:group-hover:!text-current/70
   `,
   hierarchy: `
     truncate
@@ -65,7 +64,7 @@ const styles = tw({
     leading-[1]
     uppercase
     font-bold font-mono
-    text-xtiny text-(--foreground)/50
+    text-xtiny text-current/50
     animate-fade-in
 
     md:p-4
@@ -73,7 +72,7 @@ const styles = tw({
     xl:text-right
   `,
   highlight: `
-    text-(--foreground)/100
+    text-(--foreground)
   `,
 });
 

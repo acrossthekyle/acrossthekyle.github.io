@@ -2,14 +2,14 @@ import tw from '@/styles';
 
 const styles = tw({
   highlight: `
-    text-(--foreground)/100
+    text-(--foreground)
   `,
   aside: `
     relative
     mt-10
     leading-[1]
     font-mono
-    text-xtiny text-(--foreground)/70 text-left
+    text-xtiny text-current/70 text-left
     uppercase
     animate-flicker-in
 
@@ -28,7 +28,7 @@ const styles = tw({
     flex gap-4
     mb-4
     font-mono font-bold
-    text-xs text-(--foreground)
+    text-xs
     uppercase
     break-inside-avoid-column
   `,
@@ -36,14 +36,14 @@ const styles = tw({
     block
     mt-0.5
     font-normal
-    text-xtiny text-(--foreground)/50
+    text-xtiny text-current/50
     normal-case
   `,
   lid: `
     block
     mt-0.5
     font-normal
-    text-xtiny text-(--foreground)/70
+    text-xtiny text-current/70
   `,
 });
 
