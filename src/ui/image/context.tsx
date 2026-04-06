@@ -22,6 +22,12 @@ export default function Context({ children, src }: Props) {
     // necessary for nextjs image loading handling when src changes
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setIsLoading(true);
+
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 3000);
+
+    return () => clearTimeout(timer);
   }, [src]);
 
   const handleOnLoad = () => {

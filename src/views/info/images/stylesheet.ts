@@ -6,53 +6,53 @@ const styles = tw({
     w-full
     mt-2
 
-    sm:mt-0
     sm:absolute
+    sm:bottom-0
     sm:right-0
-    sm:top-15
-    sm:w-86
-    lg:relative
-    lg:right-auto
-    lg:top-auto
-    lg:flex-1
-    lg:flex
-    lg:align-end
-    lg:justify-end
-    lg:w-full
+    sm:mt-0
+    sm:w-72
   `,
   controls: `
-    absolute -bottom-6 right-0
-    flex gap-2
+    relative
+    flex justify-end gap-2
+    mb-2
     text-tiny text-(--foreground)
 
+    sm:absolute
     sm:-top-6.5
     sm:right-0
     sm:bottom-auto
+    sm:mb-0
   `,
   slides: `
     relative
     w-full
-    h-48
+    h-64
 
     sm:flex
     sm:justify-end
     sm:align-end
+    sm:h-48
   `,
   slide: `
     absolute
     w-full
-    h-48
+    h-64
 
     sm:w-auto
+    sm:h-48
     lg:right-0
   `,
   image: (isActive: boolean) => tw(`
-    rounded-lg
+    rounded-sm
     duration-300
+    aspect-square
 
     ${isActive ? 'opacity-100' : 'opacity-0'}
 
+    sm:aspect-3/2
     sm:!h-48
+    md:rounded-lg
   `),
 });
 

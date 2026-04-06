@@ -7,7 +7,7 @@ import styles from './stylesheet';
 const LINKS = [
   {
     href: '/info',
-    subtitle: 'About me',
+    subtitle: 'Bio, Resume, Etc.',
     title: 'Info',
   },
   {

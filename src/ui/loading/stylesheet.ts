@@ -2,8 +2,9 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    fixed inset-0 z-999
+    flex-1
     flex items-center justify-center
+    bg-(--background)
   `,
   svg: `
     size-6
@@ -11,9 +12,11 @@ const styles = tw({
   `,
   circle: `
     opacity-10
+    stroke-(--foreground)
   `,
   path: `
     opacity-100
+    fill-(--foreground)
   `,
 });
 

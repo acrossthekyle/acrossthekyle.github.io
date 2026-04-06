@@ -79,7 +79,7 @@ const styles = tw({
     duration-300
 
     md:group-hover:!text-(--foreground)/70
-    md:mb-12
+    lg:mb-12
   `,
   footer: `
     font-mono

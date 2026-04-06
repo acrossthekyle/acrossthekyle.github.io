@@ -22,7 +22,7 @@ const data = [
   {
     "author": "Kyle Gilbert",
     "slug": "dark-matter-apple-tv",
-    "title": "Dark Matter on AppleTV+",
+    "title": "Dark Matter on Apple TV+",
     "content": "\nAbsolutely loved this show. I read the book several years ago, but didn't remember much from it. As far as I can tell based on breakdowns of the show on YouTube the adaptation followed the book close enough, with some minor deviations here and there.\n\nI hope they don't fall into a writing-trap for season two, and keep it interesting, with some sort of great ending planned.\n",
     "date": "March 10th, 2026",
     "readingTime": "1",
@@ -52,7 +52,7 @@ const data = [
   {
     "author": "Kyle Gilbert",
     "slug": "the-apple-tv-plus-show-see",
-    "title": "The AppleTV+ show \"See\"",
+    "title": "The Apple TV+ show \"See\"",
     "content": "\nPremise: a genetic defect has caused the entire human population to go blind for generations, but sight is slowly returning to the world.\n\nAn interesting concept that started strong, but like most shows these days focused on a single story across multiple episodes, and seasons, it lost its strength and lost me along the way. I finally finished watching it the other day though, just for the sake of being a completionist.\n",
     "date": "February 12th, 2026",
     "readingTime": "1",

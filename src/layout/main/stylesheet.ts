@@ -2,15 +2,17 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    relative
     flex-1
+    relative
     rounded-md
     bg-(--background)
     p-2
-    animate-fade-in
 
     md:p-4
     md:rounded-lg
+  `,
+  inner: `
+    animate-fade-in
   `,
 });
 

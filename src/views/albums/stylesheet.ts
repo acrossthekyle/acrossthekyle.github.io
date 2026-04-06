@@ -57,12 +57,13 @@ const styles = tw({
     flex flex-col gap-2
   `,
   image: `
-    aspect-3/2
+    aspect-square
     rounded-md
     duration-300
     grayscale-50
     outline-1 outline-transparent
 
+    sm:aspect-3/2
     md:group-hover:outline-(--foreground)
     md:group-hover:grayscale-0
   `,

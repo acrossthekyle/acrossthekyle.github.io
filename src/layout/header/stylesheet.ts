@@ -5,13 +5,11 @@ const styles = tw({
     sticky top-0 z-2
     flex flex-col justify-between
     my-px
-    p-2
+    py-2 px-1
     bg-(--foreground)
     font-mono
     text-xtiny text-(--background)
     uppercase
-    rounded-md
-    border border-(--background)/40
 
     sm:flex-row
   `,
@@ -59,7 +57,6 @@ const styles = tw({
   items: `
     grid grid-cols-2 grid-rows-2
     text-(--foreground)
-    animate-fade-in
 
     md:flex
     md:justify-end

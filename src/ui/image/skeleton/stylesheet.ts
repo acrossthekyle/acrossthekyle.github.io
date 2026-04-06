@@ -5,6 +5,9 @@ const styles = tw({
     absolute inset-0 z-3
     rounded-md
     bg-black
+    aspect-square
+
+    sm:aspect-3/2
   `,
   pulse: `
     w-full h-full

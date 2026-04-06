@@ -53,7 +53,7 @@ const styles = tw({
   link: (isActive: boolean) => tw(`
     flex flex-col justify-between
     ${isActive ? 'bg-(--foreground)/7.5' : 'bg-(--foreground)/0'}
-    text-2xl ${isActive ? 'text-(--foreground)' : 'text-(--foreground)/40'}
+    text-2xl text-(--foreground)
     font-black
     uppercase
     rounded-md

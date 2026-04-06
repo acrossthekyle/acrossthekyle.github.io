@@ -1,4 +1,5 @@
 import { Main } from '@/layout';
+import Divider from '@/ui/divider';
 import {
   Header,
   HeaderEyebrow,
@@ -31,16 +32,12 @@ export default function View({ data }: Props) {
       <Header>
         <HeaderEyebrow>[ 01 ]</HeaderEyebrow>
         <HeaderText>Info</HeaderText>
-        <HeaderSubtitle>Backstory, resume, expertise, misc.</HeaderSubtitle>
+        <HeaderSubtitle>Bio, Resume, Etc.</HeaderSubtitle>
       </Header>
       <p className={styles.description}>
-        <span className={styles.highlight}>Kyle</span> is a <span className={styles.highlight}>Chicago</span>-based self-taught <span className={styles.highlight}>software engineer</span> and millennial who balances his lifelong passion for <span className={styles.highlight}>creating</span> web <span className={styles.highlight}>apps</span> with a love for long-distance <span className={styles.highlight}>backpacking</span> adventures, and <span className={styles.highlight}>Star Trek</span>.
+        A <span className={styles.highlight}>Chicago</span>-based self-taught <span className={styles.highlight}>software engineer</span> and millennial who balances my lifelong passion for <span className={styles.highlight}>creating</span> web <span className={styles.highlight}>apps</span> with a love for long-distance <span className={styles.highlight}>backpacking</span> adventures, and <span className={styles.highlight}>Star Trek</span>.
       </p>
-      <section className={styles.section}>
-        <h2 className={styles.heading}>
-          <span className={styles.index}>[ 01-01 ]</span>
-          About
-        </h2>
+      <section className={styles.intro}>
         <p className={styles.paragraph}>
           I'm Kyle: a self-taught Software Engineer and millennial creator focused on building web and mobile applications from scratch with over 14 years of experience. My approach to development is rooted in a genuine thrill for writing code, whether I'm working on complex apps or sharing my thoughts and reflections on the process.
         </p>
@@ -49,10 +46,10 @@ export default function View({ data }: Props) {
         </p>
         <Images />
       </section>
+      <Divider />
       <section className={styles.section}>
         <h2 className={styles.heading}>
-          <span className={styles.index}>[ 01-02 ]</span>
-          Resume
+          Path
         </h2>
         <ul className={styles.items}>
           {data.resume.map((item) => (
@@ -73,9 +70,9 @@ export default function View({ data }: Props) {
           ))}
         </ul>
       </section>
+      <Divider />
       <section className={styles.section}>
         <h2 className={styles.heading}>
-          <span className={styles.index}>[ 01-03 ]</span>
           Expertise
         </h2>
         <ul className={styles.grid}>
