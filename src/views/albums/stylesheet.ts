@@ -1,6 +1,16 @@
 import tw from '@/styles';
 
 const styles = tw({
+  description: `
+    mt-10
+    leading-[1]
+    text-tiny text-(--foreground)/50
+    font-mono
+    uppercase
+  `,
+  highlight: `
+    text-(--foreground)/100
+  `,
   aside: `
     relative
     mt-10

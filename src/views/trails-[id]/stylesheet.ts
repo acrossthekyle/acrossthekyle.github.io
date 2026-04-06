@@ -1,11 +1,23 @@
 import tw from '@/styles';
 
 const styles = tw({
+  description: `
+    w-full
+    mt-10
+    leading-[1]
+    text-tiny text-(--foreground)/50
+    font-mono
+    uppercase
+
+    md:w-134
+  `,
+  highlight: `
+    text-(--foreground)/100
+  `,
   map: `
     relative
     w-full
     mt-10
-    animate-fade-in
 
     md:w-1/2
     lg:absolute
@@ -22,7 +34,6 @@ const styles = tw({
     font-mono font-bold
     text-tiny
     uppercase
-    animate-fade-in
   `,
   lid: `
     block
@@ -33,7 +44,6 @@ const styles = tw({
     relative
     flex flex-col gap-4
     mt-10
-    animate-fade-in
 
     lg:flex-row
     lg:gap-12

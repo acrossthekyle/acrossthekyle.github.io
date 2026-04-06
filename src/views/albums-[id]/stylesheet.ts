@@ -1,14 +1,24 @@
 import tw from '@/styles';
 
 const styles = tw({
+  highlight: `
+    text-(--foreground)/100
+  `,
   aside: `
     relative
     mt-10
-    animate-fade-in
+    text-left
+    animate-flicker-in
+
+    sm:absolute
+    sm:top-3
+    sm:right-4
+    sm:mt-0
+    sm:text-right
   `,
   stats: `
     flex flex-col gap-0.5
-    mt-1
+    mt-2
     leading-[1]
     font-mono
     text-xtiny text-(--foreground)/70

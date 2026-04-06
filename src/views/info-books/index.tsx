@@ -1,5 +1,6 @@
 import Link from 'next/link';
 
+import { Main } from '@/layout';
 import {
   Header,
   HeaderEyebrow,
@@ -7,7 +8,6 @@ import {
   HeaderSubtitle,
   HeaderText,
 } from '@/ui/header';
-import Introduction from '@/ui/introduction';
 import { ExternalIcon } from '@/ui/link';
 import Footer from '@/ui/views/info/footer';
 import { padIndex } from '@/utils';
@@ -25,7 +25,7 @@ type Props = {
 
 export default function View({ data }: Props) {
   return (
-    <>
+    <Main>
       <Header>
         <HeaderEyebrow>[ 01-X01 ]</HeaderEyebrow>
         <HeaderPrefix>
@@ -34,9 +34,9 @@ export default function View({ data }: Props) {
         <HeaderText>Books</HeaderText>
         <HeaderSubtitle>What I've read</HeaderSubtitle>
       </Header>
-      <Introduction>
+      <aside className={styles.aside}>
         {data.books.length} items
-      </Introduction>
+      </aside>
       <ul className={styles.items}>
         {data.books.map((book, index: number) => (
           <li className={styles.item} key={book.title}>
@@ -52,6 +52,6 @@ export default function View({ data }: Props) {
         ))}
       </ul>
       <Footer current="/info/books" />
-    </>
+    </Main>
   );
 }

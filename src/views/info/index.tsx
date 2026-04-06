@@ -1,11 +1,10 @@
+import { Main } from '@/layout';
 import {
   Header,
   HeaderEyebrow,
   HeaderSubtitle,
   HeaderText,
 } from '@/ui/header';
-import Introduction from '@/ui/introduction';
-import { Highlight } from '@/ui/typography';
 import Footer from '@/ui/views/info/footer';
 
 import Images from './images';
@@ -28,15 +27,15 @@ type Props = {
 
 export default function View({ data }: Props) {
   return (
-    <>
+    <Main>
       <Header>
         <HeaderEyebrow>[ 01 ]</HeaderEyebrow>
         <HeaderText>Info</HeaderText>
         <HeaderSubtitle>Backstory, resume, expertise, misc.</HeaderSubtitle>
       </Header>
-      <Introduction>
-        <Highlight>Kyle</Highlight> is a <Highlight>Chicago</Highlight>-based self-taught <Highlight>software engineer</Highlight> and millennial who balances his lifelong passion for <Highlight>creating</Highlight> web <Highlight>apps</Highlight> with a love for long-distance <Highlight>backpacking</Highlight> adventures, and <Highlight>Star Trek</Highlight>.
-      </Introduction>
+      <p className={styles.description}>
+        <span className={styles.highlight}>Kyle</span> is a <span className={styles.highlight}>Chicago</span>-based self-taught <span className={styles.highlight}>software engineer</span> and millennial who balances his lifelong passion for <span className={styles.highlight}>creating</span> web <span className={styles.highlight}>apps</span> with a love for long-distance <span className={styles.highlight}>backpacking</span> adventures, and <span className={styles.highlight}>Star Trek</span>.
+      </p>
       <section className={styles.section}>
         <h2 className={styles.heading}>
           <span className={styles.index}>[ 01-01 ]</span>
@@ -93,6 +92,6 @@ export default function View({ data }: Props) {
         </ul>
       </section>
       <Footer />
-    </>
+    </Main>
   );
 }

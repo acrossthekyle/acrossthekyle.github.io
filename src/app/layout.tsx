@@ -6,7 +6,7 @@ import { Suspense } from 'react';
 
 import { HierarchyProvider } from '@/contexts/hierarchy';
 import { UnitsProvider } from '@/contexts/units';
-import { Body, Footer, Header, Main } from '@/layout';
+import { Body, Footer, Header } from '@/layout';
 
 import get from './get';
 
@@ -75,9 +75,7 @@ export default async function RootLayout({ children }: React.PropsWithChildren) 
           <HierarchyProvider>
             <UnitsProvider current={units}>
               <Header data={data} />
-              <Main>
-                {children}
-              </Main>
+              {children}
               <Footer theme={theme} />
             </UnitsProvider>
           </HierarchyProvider>

@@ -1,13 +1,12 @@
 import Markdown from 'react-markdown';
 
+import { Main } from '@/layout';
 import {
   Header,
   HeaderEyebrow,
   HeaderSubtitle,
   HeaderText,
 } from '@/ui/header';
-import Introduction from '@/ui/introduction';
-import { Highlight } from '@/ui/typography';
 import { padIndex } from '@/utils';
 
 import styles from './stylesheet';
@@ -26,40 +25,41 @@ type Props = {
 
 export default function View({ data }: Props) {
   return (
-    <>
+    <Main>
       <Header>
         <HeaderEyebrow>[ 03 ]</HeaderEyebrow>
         <HeaderText>MiniBlog</HeaderText>
         <HeaderSubtitle>Quick thoughts</HeaderSubtitle>
       </Header>
-      <Introduction>
-        <Highlight>Occasional</Highlight>ly sharing <Highlight>ideas and opinions</Highlight> about various topics in short 1 minute reads.
-      </Introduction>
-      {data.blog.map((item) => (
-        <article className={styles.article} key={item.index}>
-          <h2 className={styles.heading}>
-            <span className={styles.index}>[ 00-{padIndex(item.index + 1)} ]</span>
-            {item.date}
-          </h2>
-          <section className={styles.section}>
-            <h3 className={styles.title}>
-              {item.title}
-              <span className={styles.lid}>{item.readingTime} min read</span>
-            </h3>
-            <Markdown
-              components={{
-                p: ({ children }) => (
-                  <p style={{ marginBottom: '1em' }}>
-                    {children}
-                  </p>
-                ),
-              }}
-            >
-              {item.content}
-            </Markdown>
-          </section>
-        </article>
-      ))}
-    </>
+      <p className={styles.description}>
+        <span className={styles.highlight}>Occasional</span>ly sharing <span className={styles.highlight}>ideas and opinions</span> in short 1 minute reads.
+      </p>
+      <ul className={styles.items}>
+        {data.blog.map((item) => (
+          <li className={styles.item} key={item.index}>
+            <article>
+              <h2 className={styles.heading}>
+                <span className={styles.eyebrow}>
+                  [ {padIndex(item.index + 1)} &ndash; {item.date} ]
+                </span>
+                {item.title}
+                <span className={styles.lid}>{item.readingTime} min read</span>
+              </h2>
+              <Markdown
+                components={{
+                  p: ({ children }) => (
+                    <p style={{ marginBottom: '1em' }}>
+                      {children}
+                    </p>
+                  ),
+                }}
+              >
+                {item.content}
+              </Markdown>
+            </article>
+          </li>
+        ))}
+      </ul>
+    </Main>
   );
 }

@@ -1,11 +1,20 @@
 import tw from '@/styles';
 
 const styles = tw({
+  description: `
+    mt-10
+    leading-[1]
+    text-tiny text-(--foreground)/50
+    font-mono
+    uppercase
+  `,
+  highlight: `
+    text-(--foreground)/100
+  `,
   section: `
     relative
     flex flex-col gap-4
     mt-10
-    animate-fade-in
 
     lg:flex-row
     lg:gap-12

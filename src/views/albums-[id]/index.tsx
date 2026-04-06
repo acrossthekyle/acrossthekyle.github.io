@@ -1,5 +1,6 @@
 import Link from 'next/link';
 
+import { Main } from '@/layout';
 import {
   Header,
   HeaderEyebrow,
@@ -7,7 +8,6 @@ import {
   HeaderText,
 } from '@/ui/header';
 import { Image } from '@/ui/image';
-import { Highlight } from '@/ui/typography';
 import { padIndex } from '@/utils';
 
 import styles from './stylesheet';
@@ -31,21 +31,21 @@ type Props = {
 
 export default function View({ data }: Props) {
   return (
-    <>
+    <Main>
       <Header>
         <HeaderEyebrow>[ A-{padIndex(data.index)} ]</HeaderEyebrow>
         <HeaderPrefix>
-          <Link href="/gallery">Gallery</Link>
+          <Link href="/albums">Albums</Link>
         </HeaderPrefix>
         <HeaderText>{data.album.title}</HeaderText>
       </Header>
       <aside className={styles.aside}>
         <ul aria-label="stats" className={styles.stats}>
           <li>
-            <Highlight>{data.album.when}</Highlight>
+            <span className={styles.highlight}>{data.album.when}</span>
           </li>
           <li>
-            <Highlight>{data.album.images.length}</Highlight> images
+            <span className={styles.highlight}>{data.album.images.length}</span> images
           </li>
           <li>
             {data.album.coordinates}
@@ -62,7 +62,7 @@ export default function View({ data }: Props) {
                 [ IMG-{padIndex(index + 1)} ]
               </span>
               <figure className={styles.figure}>
-                <Link href={`/gallery/${data.album.id}/${img}`}>
+                <Link href={`/albums/${data.album.id}/${img}`}>
                   <Image
                     className={styles.image}
                     src={image.src}
@@ -79,6 +79,6 @@ export default function View({ data }: Props) {
           );
         })}
       </ul>
-    </>
+    </Main>
   );
 }

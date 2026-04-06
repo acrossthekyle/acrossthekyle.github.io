@@ -4,11 +4,14 @@ const styles = tw({
   callouts: `
     sticky top-0 z-2
     flex flex-col justify-between
+    my-px
     p-2
     bg-(--foreground)
     font-mono
     text-xtiny text-(--background)
     uppercase
+    rounded-md
+    border border-(--background)/40
 
     sm:flex-row
   `,

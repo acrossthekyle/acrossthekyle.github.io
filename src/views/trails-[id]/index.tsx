@@ -1,5 +1,6 @@
 import Link from 'next/link';
 
+import { Main } from '@/layout';
 import {
   Header,
   HeaderEyebrow,
@@ -7,9 +8,7 @@ import {
   HeaderSubtitle,
   HeaderText,
 } from '@/ui/header';
-import Introduction from '@/ui/introduction';
 import { Map, MapMarker } from '@/ui/map';
-import { Highlight } from '@/ui/typography';
 import { Length } from '@/ui/units';
 import type { Stat } from '@/types';
 
@@ -69,7 +68,7 @@ function getPrefix(type: string) {
 
 export default function View({ data }: Props) {
   return (
-    <>
+    <Main>
       <Header>
         <HeaderEyebrow>[ 02-{getPrefix(data.trail.type)} {data.trail.id.split('-').pop()} ]</HeaderEyebrow>
         <HeaderPrefix>
@@ -78,17 +77,17 @@ export default function View({ data }: Props) {
         <HeaderText>{data.trail.title}</HeaderText>
         <HeaderSubtitle>{data.trail.type}</HeaderSubtitle>
       </Header>
-      <Introduction>
-        <Highlight>{data.trail.description}</Highlight>
-      </Introduction>
+      <p className={styles.description}>
+        <span className={styles.highlight}>{data.trail.description}</span>
+      </p>
       <Map className={styles.map}>
         <MapMarker position={{
           left: data.trail.position[1],
           top: data.trail.position[0],
         }} />
       </Map>
-      <Link className={styles.album} href={`/gallery/${data.trail.albumId}`}>
-        <Highlight>VIEW ALBUM</Highlight>
+      <Link className={styles.album} href={`/albums/${data.trail.albumId}`}>
+        <span className={styles.highlight}>VIEW ALBUM</span>
         <span className={styles.lid}>{data.photos} Photos</span>
       </Link>
       <section className={styles.section}>
@@ -159,6 +158,6 @@ export default function View({ data }: Props) {
         <Route stages={data.trail.stages} />
       </section>
       <Footer more={data.more} />
-    </>
+    </Main>
   );
 }

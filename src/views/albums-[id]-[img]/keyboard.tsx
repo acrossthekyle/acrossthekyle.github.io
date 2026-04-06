@@ -15,9 +15,9 @@ export default function Keyboard({ albumId, next, previous }: Props) {
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === 'ArrowLeft' && previous !== null) {
-        router.push(`/gallery/${albumId}/${previous}`);
+        router.push(`/albums/${albumId}/${previous}`);
       } else if (event.key === 'ArrowRight' && next !== null) {
-        router.push(`/gallery/${albumId}/${next}`);
+        router.push(`/albums/${albumId}/${next}`);
       }
     };
 

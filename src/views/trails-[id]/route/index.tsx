@@ -14,8 +14,12 @@ export default function Route({ stages }: Props) {
   return (
     <div className={styles.container}>
       <Context>
-        <Toggle />
-        <Sidebar stages={stages} />
+        {stages.length > 1 && (
+          <>
+            <Toggle />
+            <Sidebar stages={stages} />
+          </>
+        )}
         <Plot stages={stages} />
       </Context>
     </div>

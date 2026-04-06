@@ -1,5 +1,6 @@
 import Link from 'next/link';
 
+import { Main } from '@/layout';
 import {
   Header,
   HeaderEyebrow,
@@ -7,8 +8,6 @@ import {
   HeaderText,
 } from '@/ui/header';
 import { Image } from '@/ui/image';
-import Introduction from '@/ui/introduction';
-import { Highlight } from '@/ui/typography';
 import { padIndex } from '@/utils';
 
 import styles from './stylesheet';
@@ -34,29 +33,29 @@ export default function View({ data }: Props) {
   const total = data.albums.length;
 
   return (
-    <>
+    <Main>
       <Header>
         <HeaderEyebrow>[ 04 ]</HeaderEyebrow>
-        <HeaderText>Gallery</HeaderText>
+        <HeaderText>Albums</HeaderText>
         <HeaderSubtitle>Photographic Journal</HeaderSubtitle>
       </Header>
-      <Introduction>
-        <Highlight>The world</Highlight> as seen <Highlight>through</Highlight> the lens of <Highlight>my</Highlight> various <Highlight>phone</Highlight>s.
-      </Introduction>
+      <p className={styles.description}>
+        <span className={styles.highlight}>The world</span> as seen <span className={styles.highlight}>through</span> the lens of <span className={styles.highlight}>my</span> various <span className={styles.highlight}>phone</span>s.
+      </p>
       <aside className={styles.aside}>
         <ul aria-label="stats" className={styles.stats}>
           <li>
-            <Highlight>{total}</Highlight> albums
+            <span className={styles.highlight}>{total}</span> albums
           </li>
           <li>
-            <Highlight>{data.files}</Highlight> images
+            <span className={styles.highlight}>{data.files}</span> images
           </li>
           <li>
-            <Highlight>{new Date().getFullYear() - 2015}</Highlight> years
+            <span className={styles.highlight}>{new Date().getFullYear() - 2015}</span> years
           </li>
         </ul>
       </aside>
-      <nav aria-label="album supplementary navigation">
+      <nav aria-label="album navigation">
         <ul className={styles.albums}>
           {data.albums.map((album, index: number) => (
             <li className={styles.album} key={album.id}>
@@ -64,7 +63,7 @@ export default function View({ data }: Props) {
                 [ A-{padIndex(total - index)} ]
               </span>
               <figure className={styles.figure}>
-                <Link href={`/gallery/${album.id}`}>
+                <Link href={`/albums/${album.id}`}>
                   <Image
                     alt={`${album.images[0].title} album cover image`}
                     className={styles.image}
@@ -75,10 +74,10 @@ export default function View({ data }: Props) {
                   {album.title}
                   <ul className={styles.stats}>
                     <li>
-                      <Highlight>{album.when}</Highlight>
+                      <span className={styles.highlight}>{album.when}</span>
                     </li>
                     <li>
-                      <Highlight>{album.images.length}</Highlight> images
+                      <span className={styles.highlight}>{album.images.length}</span> images
                     </li>
                     <li>{album.coordinates}</li>
                   </ul>
@@ -88,6 +87,6 @@ export default function View({ data }: Props) {
           ))}
         </ul>
       </nav>
-    </>
+    </Main>
   );
 }

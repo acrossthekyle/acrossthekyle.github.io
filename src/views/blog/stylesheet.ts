@@ -1,51 +1,56 @@
 import tw from '@/styles';
 
 const styles = tw({
-  article: `
+  description: `
+    mt-10
+    leading-[1]
+    text-tiny text-(--foreground)/50
+    font-mono
+    uppercase
+  `,
+  highlight: `
+    text-(--foreground)/100
+  `,
+  items: `
+    group
+    grid grid-cols-1 gap-x-12
+
+    sm:grid-cols-2
+    md:grid-cols-3
+    lg:grid-cols-4
+  `,
+  item: `
     relative
     flex flex-col gap-4
     mt-10
-    animate-fade-in
+    rounded-sm
+    text-tiny text-(--foreground)
+    font-mono
+    uppercase
+    duration-300
 
-    lg:flex-row
-    lg:gap-12
+    md:group-hover:text-(--foreground)/50
+    md:hover:!text-(--foreground)/100
   `,
   heading: `
-    flex-none
-    w-64
-    font-mono font-bold
-    text-tiny text-(--foreground)
-    uppercase
+    flex flex-col gap-1
+    font-bold
+    text-xs
     whitespace-nowrap
   `,
-  index: `
+  eyebrow: `
     block
     font-normal
-    text-(--foreground)/50
+    text-xtiny text-(--foreground)/50
 
     lg:inline-block
     lg:mr-3
   `,
-  section: `
-    w-full
-    leading-[1.75]
-    font-mono
-    text-tiny text-(--foreground)
-
-    sm:w-100
-  `,
-  title: `
-    block
-    font-mono font-bold
-    text-xs text-(--foreground)
-    uppercase
-  `,
   lid: `
     block
     mb-4
-    font-mono
+    font-normal
     text-xtiny text-(--foreground)/50
-    uppercase
   `,
 });
 

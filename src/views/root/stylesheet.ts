@@ -1,6 +1,9 @@
 import tw from '@/styles';
 
 const styles = tw({
+  highlight: `
+    text-(--foreground)/100
+  `,
   heading: `
     absolute inset-0 z-1
     flex flex-col align-center justify-center

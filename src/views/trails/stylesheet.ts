@@ -1,6 +1,19 @@
 import tw from '@/styles';
 
 const styles = tw({
+  description: `
+    w-full
+    mt-10
+    leading-[1]
+    text-tiny text-(--foreground)/50
+    font-mono
+    uppercase
+
+    md:w-132
+  `,
+  highlight: `
+    text-(--foreground)/100
+  `,
   aside: `
     absolute top-4 right-4
     text-xtiny text-(--foreground)/70

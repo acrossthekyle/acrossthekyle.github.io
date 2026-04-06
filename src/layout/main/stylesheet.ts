@@ -7,6 +7,7 @@ const styles = tw({
     rounded-md
     bg-(--background)
     p-2
+    animate-fade-in
 
     md:p-4
     md:rounded-lg

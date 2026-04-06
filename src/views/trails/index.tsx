@@ -1,13 +1,12 @@
 import Link from 'next/link';
 
+import { Main } from '@/layout';
 import {
   Header,
   HeaderEyebrow,
   HeaderSubtitle,
   HeaderText,
 } from '@/ui/header';
-import Introduction from '@/ui/introduction';
-import { Highlight } from '@/ui/typography';
 import { padIndex } from '@/utils';
 
 import styles from './stylesheet';
@@ -25,15 +24,15 @@ type Props = {
 
 export default function View({ data }: Props) {
   return (
-    <>
+    <Main>
       <Header>
         <HeaderEyebrow>[ 02 ]</HeaderEyebrow>
         <HeaderText>Trails</HeaderText>
         <HeaderSubtitle>Hikes and summits</HeaderSubtitle>
       </Header>
-      <Introduction>
-        Since 2015 <Highlight>I've travelled</Highlight> to nearly every continent on <Highlight>our planet</Highlight> called Earth, and completed several thru-hikes on most of them. I'm also working on bagging all of the Colorado 14er peaks. <Highlight>This is</Highlight> a collection of <Highlight>those experiences</Highlight>.
-      </Introduction>
+      <p className={styles.description}>
+        Since 2015 <span className={styles.highlight}>I've travelled</span> to nearly every continent on <span className={styles.highlight}>our planet</span> called Earth, and completed several thru-hikes on most of them. I'm also working on bagging all of the Colorado 14er peaks. <span className={styles.highlight}>This is</span> a collection of <span className={styles.highlight}>those experiences</span>.
+      </p>
       <aside className={styles.aside}>
         See you out there
       </aside>
@@ -49,11 +48,11 @@ export default function View({ data }: Props) {
               <Link className={styles.link} href={`/trails/${item.id}`}>
                 {item.title}
                 <span className={styles.lid}>
-                  <Highlight>{item.when}</Highlight>
+                  <span className={styles.highlight}>{item.when}</span>
                 </span>
                 <span className={styles.lid}>{item.coordinates}</span>
                 <span className={styles.lid}>
-                  <Highlight>{item.location}</Highlight>
+                  <span className={styles.highlight}>{item.location}</span>
                 </span>
               </Link>
             </li>
@@ -72,11 +71,11 @@ export default function View({ data }: Props) {
               <Link className={styles.link} href={`/trails/${item.id}`}>
                 {item.title}
                 <span className={styles.lid}>
-                  <Highlight>{item.when}</Highlight>
+                  <span className={styles.highlight}>{item.when}</span>
                 </span>
                 <span className={styles.lid}>{item.coordinates}</span>
                 <span className={styles.lid}>
-                  <Highlight>{item.location}</Highlight>
+                  <span className={styles.highlight}>{item.location}</span>
                 </span>
               </Link>
             </li>
@@ -95,11 +94,11 @@ export default function View({ data }: Props) {
               <Link className={styles.link} href={`/trails/${item.id}`}>
                 {item.title}
                 <span className={styles.lid}>
-                  <Highlight>{item.when}</Highlight>
+                  <span className={styles.highlight}>{item.when}</span>
                 </span>
                 <span className={styles.lid}>{item.coordinates}</span>
                 <span className={styles.lid}>
-                  <Highlight>{item.location}</Highlight>
+                  <span className={styles.highlight}>{item.location}</span>
                 </span>
               </Link>
             </li>
@@ -118,17 +117,17 @@ export default function View({ data }: Props) {
               <Link className={styles.link} href={`/trails/${item.id}`}>
                 {item.title}
                 <span className={styles.lid}>
-                  <Highlight>{item.when}</Highlight>
+                  <span className={styles.highlight}>{item.when}</span>
                 </span>
                 <span className={styles.lid}>{item.coordinates}</span>
                 <span className={styles.lid}>
-                  <Highlight>{item.location}</Highlight>
+                  <span className={styles.highlight}>{item.location}</span>
                 </span>
               </Link>
             </li>
           ))}
         </ul>
       </section>
-    </>
+    </Main>
   );
 }

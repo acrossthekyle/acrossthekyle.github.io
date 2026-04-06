@@ -1,7 +1,7 @@
 ---
 author: Kyle Gilbert
 slug: the-apple-tv-plus-show-see
-title: The AppleTV+ show "See"
+title: The Apple TV+ show "See"
 ---
 
 Premise: a genetic defect has caused the entire human population to go blind for generations, but sight is slowly returning to the world.

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 
+import { Main } from '@/layout';
 import {
   Header,
   HeaderEyebrow,
@@ -7,15 +8,13 @@ import {
   HeaderSubtitle,
   HeaderText,
 } from '@/ui/header';
-import Introduction from '@/ui/introduction';
-import { Highlight } from '@/ui/typography';
 import Footer from '@/ui/views/info/footer';
 
 import styles from './stylesheet';
 
 export default function View() {
   return (
-    <>
+    <Main>
       <Header>
         <HeaderEyebrow>[ 01-X03 ]</HeaderEyebrow>
         <HeaderPrefix>
@@ -24,9 +23,9 @@ export default function View() {
         <HeaderText>Colophon</HeaderText>
         <HeaderSubtitle>How it's made</HeaderSubtitle>
       </Header>
-      <Introduction>
-        <Highlight>Inspired by</Highlight> websites found in the <Highlight>deadsimplesites.com collection</Highlight>.
-      </Introduction>
+      <p className={styles.description}>
+        <span className={styles.highlight}>Inspired by</span> websites found in the <span className={styles.highlight}>deadsimplesites.com collection</span>.
+      </p>
       <section className={styles.section}>
         <h2 className={styles.heading}>
           <span className={styles.index}>[ 00-01 ]</span>
@@ -46,6 +45,6 @@ export default function View() {
         </p>
       </section>
       <Footer current="/info/colophon" />
-    </>
+    </Main>
   );
 }

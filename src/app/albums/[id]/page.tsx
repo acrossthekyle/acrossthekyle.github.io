@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import { Suspense } from 'react';
 
 import Loading from '@/ui/loading';
-import View from '@/views/gallery-[id]';
+import View from '@/views/albums-[id]';
 
 import get from './get';
 

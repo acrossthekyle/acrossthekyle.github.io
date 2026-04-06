@@ -1,5 +1,6 @@
 import Link from 'next/link';
 
+import { Main } from '@/layout';
 import {
   Header,
   HeaderEyebrow,
@@ -76,7 +77,7 @@ export default function View({ data, index }: Props) {
   const current = data.gear[Number(index)];
 
   return (
-    <>
+    <Main>
       <Header>
         <HeaderEyebrow>[ 01-X02 ]</HeaderEyebrow>
         <HeaderPrefix>
@@ -171,6 +172,6 @@ export default function View({ data, index }: Props) {
         </section>
       ))}
       <Footer current="/info/gear" />
-    </>
+    </Main>
   );
 }

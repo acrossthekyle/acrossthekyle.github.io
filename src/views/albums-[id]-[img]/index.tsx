@@ -1,5 +1,6 @@
 import Link from 'next/link';
 
+import { Main } from '@/layout';
 import {
   Header,
   HeaderEyebrow,
@@ -39,11 +40,11 @@ type Props = {
 
 export default function View({ data }: Props) {
   return (
-    <>
+    <Main>
       <Header>
         <HeaderEyebrow>[ {data.image.src.split('-').pop()} ]</HeaderEyebrow>
         <HeaderPrefix>
-          <Link href={`/gallery/${data.album.id}`}>{data.album.title}</Link>
+          <Link href={`/albums/${data.album.id}`}>{data.album.title}</Link>
         </HeaderPrefix>
         <HeaderText>IMG {padIndex(data.index + 1)}</HeaderText>
         <HeaderSubtitle>
@@ -103,13 +104,13 @@ export default function View({ data }: Props) {
       >
         {data.previous && (
           <Link
-            href={`/gallery/${data.album.id}/${data.previous}`}
+            href={`/albums/${data.album.id}/${data.previous}`}
           >
             Previous
           </Link>
         )}
         {data.next && (
-          <Link href={`/gallery/${data.album.id}/${data.next}`}>Next</Link>
+          <Link href={`/albums/${data.album.id}/${data.next}`}>Next</Link>
         )}
       </nav>
       <Keyboard
@@ -117,6 +118,6 @@ export default function View({ data }: Props) {
         next={data.next}
         previous={data.previous}
       />
-    </>
+    </Main>
   );
 }

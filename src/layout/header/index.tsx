@@ -21,9 +21,9 @@ const LINKS = [
     title: 'Miniblog',
   },
   {
-    href: '/gallery',
+    href: '/albums',
     subtitle: 'Photographic journal',
-    title: 'Gallery',
+    title: 'Albums',
   },
 ];
 
