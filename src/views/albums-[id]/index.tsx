@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import { Main } from '@/layout';
+import { Content } from '@/layout';
 import {
   Header,
   HeaderEyebrow,
@@ -39,7 +39,7 @@ type Props = {
 
 export default function View({ data }: Props) {
   return (
-    <Main>
+    <Content>
       <Header>
         <HeaderEyebrow>[ A-{padIndex(data.index)} ]</HeaderEyebrow>
         <HeaderPrefix>
@@ -121,6 +121,6 @@ export default function View({ data }: Props) {
           );
         })}
       </ul>
-    </Main>
+    </Content>
   );
 }

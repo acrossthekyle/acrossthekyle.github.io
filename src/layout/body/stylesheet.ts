@@ -3,11 +3,8 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     antialiased
-    flex flex-col
-    h-auto min-h-dvh
     bg-(--foreground)
-    p-1 pt-0
-    overflow-x-hidden
+    text-(--background)
   `,
 });
 

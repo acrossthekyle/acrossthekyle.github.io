@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import { Main } from '@/layout';
+import { Content } from '@/layout';
 import {
   Header,
   HeaderEyebrow,
@@ -33,7 +33,7 @@ export default function View({ data }: Props) {
   const total = data.albums.length;
 
   return (
-    <Main>
+    <Content>
       <Header>
         <HeaderEyebrow>[ 04 ]</HeaderEyebrow>
         <HeaderText>Albums</HeaderText>
@@ -87,6 +87,6 @@ export default function View({ data }: Props) {
           ))}
         </ul>
       </nav>
-    </Main>
+    </Content>
   );
 }

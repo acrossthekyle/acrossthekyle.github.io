@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import { Main } from '@/layout';
+import { Content } from '@/layout';
 import {
   Header,
   HeaderEyebrow,
@@ -25,7 +25,7 @@ type Props = {
 
 export default function View({ data }: Props) {
   return (
-    <Main>
+    <Content>
       <Header>
         <HeaderEyebrow>[ 01-X01 ]</HeaderEyebrow>
         <HeaderPrefix>
@@ -52,6 +52,6 @@ export default function View({ data }: Props) {
         ))}
       </ul>
       <Footer current="/info/books" />
-    </Main>
+    </Content>
   );
 }

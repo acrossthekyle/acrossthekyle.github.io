@@ -1,4 +1,4 @@
-import { Main } from '@/layout';
+import { Content } from '@/layout';
 import Divider from '@/ui/divider';
 import {
   Header,
@@ -28,7 +28,7 @@ type Props = {
 
 export default function View({ data }: Props) {
   return (
-    <Main>
+    <Content>
       <Header>
         <HeaderEyebrow>[ 01 ]</HeaderEyebrow>
         <HeaderText>Info</HeaderText>
@@ -89,6 +89,6 @@ export default function View({ data }: Props) {
         </ul>
       </section>
       <Footer />
-    </Main>
+    </Content>
   );
 }

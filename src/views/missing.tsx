@@ -1,4 +1,4 @@
-import { Main } from '@/layout';
+import { Content } from '@/layout';
 import {
   Header,
   HeaderEyebrow,
@@ -8,7 +8,7 @@ import {
 
 export default function View() {
   return (
-    <Main>
+    <Content>
       <Header>
         <HeaderEyebrow>[ 404 ]</HeaderEyebrow>
         <HeaderText>Missing</HeaderText>
@@ -25,6 +25,6 @@ export default function View() {
         "Give thine pages, I emplore!"<br />
         Quoth the server, 404.
       </p>
-    </Main>
+    </Content>
   );
 }

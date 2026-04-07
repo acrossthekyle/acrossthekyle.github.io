@@ -2,12 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    relative z-99
-    h-[calc(100vh-2rem)] w-full
-  `,
-  inner: `
-    h-[calc(100vh-4.5rem)]
-    mx-3.5
+    absolute top-0 right-0
   `,
   items: `
     grid grid-cols-2 gap-3
@@ -49,29 +44,6 @@ const styles = tw({
     truncate
 
     xl:max-w-46
-  `,
-  fixed: `
-    fixed bottom-0 left-0 right-0 z-100
-    flex items-center justify-between
-    h-10
-    px-3.5
-    bg-(--foreground)
-    uppercase
-    text-xtiny
-    font-mono font-bold
-    leading-[1]
-  `,
-  anchor: `
-    leading-[0.775]
-    font-sans font-black
-    text-xl
-  `,
-  copyright: `
-    font-bold font-mono
-    text-current/50
-  `,
-  highlight: `
-    text-(--background)
   `,
 });
 

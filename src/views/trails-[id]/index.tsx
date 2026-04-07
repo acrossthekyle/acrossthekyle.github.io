@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import { Main } from '@/layout';
+import { Content } from '@/layout';
 import Divider from '@/ui/divider';
 import {
   Header,
@@ -69,7 +69,7 @@ function getPrefix(type: string) {
 
 export default function View({ data }: Props) {
   return (
-    <Main>
+    <Content>
       <Header>
         <HeaderEyebrow>[ 02-{getPrefix(data.trail.type)} {data.trail.id.split('-').pop()} ]</HeaderEyebrow>
         <HeaderPrefix>
@@ -158,6 +158,6 @@ export default function View({ data }: Props) {
         <Route stages={data.trail.stages} />
       </section>
       <Footer more={data.more} />
-    </Main>
+    </Content>
   );
 }

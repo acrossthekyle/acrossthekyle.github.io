@@ -1,42 +1,6 @@
 import tw from '@/styles';
 
 const styles = tw({
-  callouts: `
-    sticky top-0 z-2
-    flex flex-col justify-between
-    my-px
-    py-2 px-1
-    bg-(--foreground)
-    font-mono
-    text-xtiny text-(--background)
-    uppercase
-
-    sm:flex-row
-  `,
-  callout: `
-    flex gap-1 items-center
-  `,
-  highlight: `
-    font-bold
-  `,
-  icon: `
-    w-2 h-2
-    stroke-1 stroke-(--background)
-  `,
-  filled: `
-    fill-green-300
-    !stroke-0
-  `,
-  container: `
-    flex flex-col justify-between
-    rounded-md
-    bg-(--background)
-    text-(--foreground)
-    mb-[1px]
-
-    md:flex-row
-    md:rounded-lg
-  `,
   anchor: `
     py-2 px-2
     leading-[1]

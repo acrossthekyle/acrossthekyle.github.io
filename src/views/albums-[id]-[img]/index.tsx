@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import { Main } from '@/layout';
+import { Content } from '@/layout';
 import {
   Header,
   HeaderEyebrow,
@@ -40,7 +40,7 @@ type Props = {
 
 export default function View({ data }: Props) {
   return (
-    <Main>
+    <Content>
       <Header>
         <HeaderEyebrow>[ {data.image.src.split('-').pop()} ]</HeaderEyebrow>
         <HeaderPrefix>
@@ -118,6 +118,6 @@ export default function View({ data }: Props) {
         next={data.next}
         previous={data.previous}
       />
-    </Main>
+    </Content>
   );
 }

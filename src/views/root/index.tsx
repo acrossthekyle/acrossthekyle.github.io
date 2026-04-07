@@ -1,11 +1,11 @@
-import { Main } from '@/layout';
+import { Content } from '@/layout';
 
 import Clock from './clock';
 import styles from './stylesheet';
 
 export default function View() {
   return (
-    <Main>
+    <Content>
       <h1 className={styles.heading}>
         Moving forward<br />intently
         <span className={styles.subheading}>An M.O.</span>
@@ -48,6 +48,6 @@ export default function View() {
           </span>
         </span>
       </p>
-    </Main>
+    </Content>
   );
 }

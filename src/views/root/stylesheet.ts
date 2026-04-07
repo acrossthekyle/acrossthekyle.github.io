@@ -2,7 +2,6 @@ import tw from '@/styles';
 
 const styles = tw({
   highlight: `
-    text-(--foreground)
   `,
   heading: `
     flex flex-col align-center justify-center
@@ -18,7 +17,6 @@ const styles = tw({
     before:z-0
     before:bg-[radial-gradient(color-mix(in_srgb,var(--foreground),transparent_90%)_1px,transparent_1px)]
     before:bg-size-[20px_20px]
-    before:mask-[radial-gradient(ellipse_50%_50%_at_50%_50%,#000_50%,transparent_100%)]
 
     xs:text-3xl
     sm:text-5xl
@@ -32,13 +30,13 @@ const styles = tw({
     block
     mt-3
     font-mono
-    text-xtiny text-current/80
+    text-xtiny
   `,
   content: `
     flex flex-col justify-between
     leading-[1.25]
     font-mono
-    text-tiny text-current/50
+    text-tiny
     uppercase
 
     md:flex-row

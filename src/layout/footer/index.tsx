@@ -14,73 +14,88 @@ type Props = {
 
 export default function Footer({ theme }: Props) {
   return (
-    <footer className={styles.container}>
-      <nav aria-label="supplementary navigation" className={styles.navigation}>
-        <ul className={styles.items}>
-          <li className={styles.item}>
-            <Link
-              className={styles.link}
-              href="https://instagram.com/acrossthekyle"
-              target="_blank"
-            >
-              <ExternalIcon>Instagram</ExternalIcon>
-              <span className={styles.text}>@acrossthekyle</span>
-            </Link>
-          </li>
-          <li className={styles.item}>
-            <Link
-              className={styles.link}
-              href="https://linkedin.com/in/acrossthekyle"
-              target="_blank"
-            >
-              <ExternalIcon>LinkedIn</ExternalIcon>
-              <span className={styles.text}>u/acrossthekyle</span>
-            </Link>
-          </li>
-          <li className={styles.item}>
-            <Link
-              className={styles.link}
-              href="mailto:hello@acrossthekyle.com"
-              target="_blank"
-            >
-              <ExternalIcon>Email</ExternalIcon>
-              <span className={styles.text}>hello@acrossthekyle</span>
-            </Link>
-          </li>
-          <li className={styles.item}>
-            <Link
-              className={styles.link}
-              href="https://github.com/acrossthekyle"
-              target="_blank"
-            >
-              <ExternalIcon>GitHub</ExternalIcon>
-              <span className={styles.text}>/acrossthekyle</span>
-            </Link>
-          </li>
-          <li className={styles.item}>
-            <Link
-              className={styles.link}
-              href="https://www.websitecarbon.com/website/acrossthekyle-com/"
-              target="_blank"
-            >
-              <ExternalIcon>Carbon</ExternalIcon>
-              <span className={styles.text}>A+ RATING</span>
-            </Link>
-          </li>
-          <li className={styles.item}>
-            <Theme current={theme} />
-          </li>
-          <li className={styles.item}>
-            <Units />
-          </li>
-        </ul>
+    <footer className={styles.container} role="contentinfo">
+      <div className={styles.inner}>
         <Hierarchy />
-      </nav>
-      <p className={styles.copyright}>
-        Continuously copyrighted <span className={styles.highlight}>since 2011</span><br />
-        Recently <span className={styles.highlight}>compiled on {data.lastUpdated}</span><br />
-        All bits reserved
-      </p>
+        <p className={styles.copyright}>
+          Recently <span className={styles.highlight}>compiled</span> on <span className={styles.highlight}>{data.lastUpdated}</span>
+        </p>
+        <nav aria-label="main navigation" className={styles.navigation}>
+          <ul className={styles.items}>
+            <li className={styles.item}>
+              <Link
+                className={styles.link}
+                href="https://instagram.com/acrossthekyle"
+                target="_blank"
+              >
+                <ExternalIcon>Instagram</ExternalIcon>
+                <span className={styles.text}>@acrossthekyle</span>
+              </Link>
+            </li>
+            <li className={styles.item}>
+              <Link
+                className={styles.link}
+                href="https://linkedin.com/in/acrossthekyle"
+                target="_blank"
+              >
+                <ExternalIcon>LinkedIn</ExternalIcon>
+                <span className={styles.text}>u/acrossthekyle</span>
+              </Link>
+            </li>
+            <li className={styles.item}>
+              <Link
+                className={styles.link}
+                href="mailto:hello@acrossthekyle.com"
+                target="_blank"
+              >
+                <ExternalIcon>Email</ExternalIcon>
+                <span className={styles.text}>hello@acrossthekyle</span>
+              </Link>
+            </li>
+            <li className={styles.item}>
+              <Link
+                className={styles.link}
+                href="https://github.com/acrossthekyle"
+                target="_blank"
+              >
+                <ExternalIcon>GitHub</ExternalIcon>
+                <span className={styles.text}>/acrossthekyle</span>
+              </Link>
+            </li>
+            <li className={styles.item}>
+              <Link
+                className={styles.link}
+                href="https://www.websitecarbon.com/website/acrossthekyle-com/"
+                target="_blank"
+              >
+                <ExternalIcon>Carbon</ExternalIcon>
+                <span className={styles.text}>A+ RATING</span>
+              </Link>
+            </li>
+            <li className={styles.item}>
+              <Theme current={theme} />
+            </li>
+            <li className={styles.item}>
+              <Units />
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <section className={styles.fixed}>
+        <Link
+          aria-label="acrossthekyle.com"
+          className={styles.anchor}
+          href="/"
+        >
+          KYL
+        </Link>
+        <p className={styles.copyright}>
+          Recently <span className={styles.highlight}>compiled</span> on <span className={styles.highlight}>{data.lastUpdated}</span>
+        </p>
+        <p>
+          See you out there
+        </p>
+      </section>
     </footer>
   );
 }

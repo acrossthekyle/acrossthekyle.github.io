@@ -1,6 +1,6 @@
 import Markdown from 'react-markdown';
 
-import { Main } from '@/layout';
+import { Content } from '@/layout';
 import {
   Header,
   HeaderEyebrow,
@@ -25,7 +25,7 @@ type Props = {
 
 export default function View({ data }: Props) {
   return (
-    <Main>
+    <Content>
       <Header>
         <HeaderEyebrow>[ 03 ]</HeaderEyebrow>
         <HeaderText>MiniBlog</HeaderText>
@@ -60,6 +60,6 @@ export default function View({ data }: Props) {
           </li>
         ))}
       </ul>
-    </Main>
+    </Content>
   );
 }

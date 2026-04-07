@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import { Main } from '@/layout';
+import { Content } from '@/layout';
 import {
   Header,
   HeaderEyebrow,
@@ -14,7 +14,7 @@ import styles from './stylesheet';
 
 export default function View() {
   return (
-    <Main>
+    <Content>
       <Header>
         <HeaderEyebrow>[ 01-X03 ]</HeaderEyebrow>
         <HeaderPrefix>
@@ -45,6 +45,6 @@ export default function View() {
         </p>
       </section>
       <Footer current="/info/colophon" />
-    </Main>
+    </Content>
   );
 }

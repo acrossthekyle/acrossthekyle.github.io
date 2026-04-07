@@ -1,7 +1,7 @@
 import resume from '@/db/resume';
 import trails from '@/db/trails';
 
-export default function get() {
+export default async function get() {
   return {
     job: {
       isAvailable: !resume[0].when.toLowerCase().includes('current'),
