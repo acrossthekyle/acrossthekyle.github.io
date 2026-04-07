@@ -38,13 +38,12 @@ export default function View({ data }: Props) {
       </aside>
       <section className={styles.section}>
         <h2 className={styles.heading}>
-          <span className={styles.eyebrow}>[ 02-01 ]</span>
           Thru-hikes
         </h2>
         <ul className={styles.items}>
           {data.filter((item) => item.type === 'thru-hike').map((item, index: number) => (
             <li className={styles.item} key={item.when}>
-              <span className={styles.index}>[ 02-01-TH{padIndex(index + 1)} ]</span>
+              <span className={styles.index}>[ TH{padIndex(index + 1)} ]</span>
               <Link className={styles.link} href={`/trails/${item.id}`}>
                 {item.title}
                 <span className={styles.lid}>
@@ -61,13 +60,12 @@ export default function View({ data }: Props) {
       </section>
       <section className={styles.section}>
         <h2 className={styles.heading}>
-          <span className={styles.eyebrow}>[ 02-02 ]</span>
           Section hikes
         </h2>
         <ul className={styles.items}>
           {data.filter((item) => item.type === 'section hike').map((item, index: number) => (
             <li className={styles.item} key={item.when}>
-              <span className={styles.index}>[ 02-02-SH{padIndex(index + 1)} ]</span>
+              <span className={styles.index}>[ SH{padIndex(index + 1)} ]</span>
               <Link className={styles.link} href={`/trails/${item.id}`}>
                 {item.title}
                 <span className={styles.lid}>
@@ -84,13 +82,12 @@ export default function View({ data }: Props) {
       </section>
       <section className={styles.section}>
         <h2 className={styles.heading}>
-          <span className={styles.eyebrow}>[ 02-03 ]</span>
           Weekend hikes
         </h2>
         <ul className={styles.items}>
           {data.filter((item) => item.type === 'weekend hike').map((item, index: number) => (
             <li className={styles.item} key={item.when}>
-              <span className={styles.index}>[ 02-03-WH{padIndex(index + 1)} ]</span>
+              <span className={styles.index}>[ WH{padIndex(index + 1)} ]</span>
               <Link className={styles.link} href={`/trails/${item.id}`}>
                 {item.title}
                 <span className={styles.lid}>
@@ -107,13 +104,12 @@ export default function View({ data }: Props) {
       </section>
       <section className={styles.section}>
         <h2 className={styles.heading}>
-          <span className={styles.eyebrow}>[ 02-04 ]</span>
           Summits
         </h2>
         <ul className={styles.items}>
           {data.filter((item) => item.type === 'summit').map((item, index: number) => (
             <li className={styles.item} key={item.when}>
-              <span className={styles.index}>[ 02-04-SU{padIndex(index + 1)} ]</span>
+              <span className={styles.index}>[ SU{padIndex(index + 1)} ]</span>
               <Link className={styles.link} href={`/trails/${item.id}`}>
                 {item.title}
                 <span className={styles.lid}>

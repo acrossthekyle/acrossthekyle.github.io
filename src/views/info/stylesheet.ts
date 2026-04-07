@@ -20,11 +20,11 @@ const styles = tw({
     mt-10
 
     lg:flex-row
-    lg:mt-64
+    lg:mt-24
   `,
   paragraph: `
     w-full
-    leading-[1.75]
+    leading-[1.25]
     font-mono
     text-tiny
     uppercase

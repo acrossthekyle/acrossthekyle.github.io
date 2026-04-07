@@ -4,6 +4,8 @@ const styles = tw({
   figure: `
     relative
     mt-6
+    overflow-hidden
+    rounded-md
 
     md:absolute
     md:top-4
@@ -44,7 +46,6 @@ const styles = tw({
     font-mono font-bold
     text-tiny
     uppercase
-    animate-flicker-in
 
     md:absolute
     md:bottom-4

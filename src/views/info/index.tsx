@@ -39,7 +39,7 @@ export default function View({ data }: Props) {
       </p>
       <section className={styles.intro}>
         <p className={styles.paragraph}>
-          I'm Kyle: a self-taught Software Engineer and millennial creator focused on building web and mobile applications from scratch with over 14 years of experience. My approach to development is rooted in a genuine thrill for writing code, whether I'm working on complex apps or sharing my thoughts and reflections on the process.
+          Hi I'm Kyle: a self-taught Software Engineer and millennial creator focused on building web and mobile applications from scratch with over 14 years of experience. My approach to development is rooted in a genuine thrill for writing code, whether I'm working on complex apps or sharing my thoughts and reflections on the process.
         </p>
         <p className={styles.paragraph}>
           Beyond the screen, I am an avid long-distance backpacker and traveler. Since discovering my passion for the trail in South America and completing a 600-mile thru-hike of the Camino de Santiago in Europe, I've continuously seeked out new adventures and new trails, both near and far, from my homebase in Chicago.
