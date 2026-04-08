@@ -49,7 +49,7 @@ const data = {
   "end": {
     "label": "End",
     "value": {
-      "basic": "La Pissa",
+      "basic": "Citta de Fume",
       "complex": {
         "imperial": "",
         "metric": ""

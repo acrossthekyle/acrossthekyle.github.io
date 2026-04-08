@@ -5,9 +5,6 @@ const styles = tw({
     absolute z-2
     w-3 h-3
     stroke-2 stroke-(--foreground)
-
-    sm:w-4
-    sm:h-4
   `,
 });
 

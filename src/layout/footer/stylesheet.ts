@@ -6,49 +6,41 @@ const styles = tw({
     h-[calc(100vh-2rem)] w-full
   `,
   inner: `
+    flex flex-col justify-between
     h-[calc(100vh-4.5rem)]
     mx-3.5
+    border-b-1 border-b-(--background)/20 border-dashed
   `,
-  items: `
-    grid grid-cols-2 gap-3
-    p-2
-
-    xs:grid-cols-3
-    md:p-0
-    md:flex
-    md:gap-0
-    md:has-[li:hover]:[&_a]:text-current/40
-    md:has-[li:hover]:[&_button]:text-current/40
-    md:has-[li:hover]:[&_span]:text-current/40
-  `,
-  item: `
-    group
-  `,
-  link: `
-    block
-    font-mono font-black
-    text-xtiny text-current text-left
+  first: `
+    flex items-start justify-between
+    pt-4
+    font-mono font-bold
     uppercase
-    duration-300
-
-    md:group-first:pl-3.5
-    md:px-3
-    md:pt-4
-    md:pb-3.75
-    md:hover:!text-current/100
+    text-xtiny text-current/50
+    tracking-wide
   `,
-  text: `
-    block
-    normal-case
-    text-xtiny text-current/70
-    whitespace-nowrap
-
-    md:group-hover:!text-current/70
+  settings: `
+    flex flex-col gap-0
   `,
-  hierarchy: `
-    truncate
-
-    xl:max-w-46
+  button: `
+    uppercase
+    text-right
+  `,
+  second: `
+    flex flex-col justify-between
+    font-bold font-mono
+    text-xtiny text-current/50
+    uppercase
+  `,
+  meta: `
+    flex justify-between
+    tracking-widest
+  `,
+  right: `
+    text-right
+  `,
+  navigation: `
+    flex flex-col gap-6
   `,
   fixed: `
     fixed bottom-0 left-0 right-0 z-100
@@ -60,14 +52,15 @@ const styles = tw({
     text-xtiny
     font-mono font-bold
     leading-[1]
+    tracking-wide
   `,
   anchor: `
     leading-[0.775]
     font-sans font-black
     text-xl
+    tracking-tighter
   `,
-  copyright: `
-    font-bold font-mono
+  compiled: `
     text-current/50
   `,
   highlight: `

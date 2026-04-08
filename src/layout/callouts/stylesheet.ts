@@ -10,6 +10,7 @@ const styles = tw({
     font-mono
     text-xtiny
     uppercase
+    tracking-wide
 
     sm:flex-row
     sm:items-center

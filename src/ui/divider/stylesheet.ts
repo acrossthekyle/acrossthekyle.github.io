@@ -3,28 +3,19 @@ import tw from '@/styles';
 const styles = tw({
   divider: `
     flex flex-col gap-[1px]
-    h-4
-    -mx-2
+    h-8
+    -mx-4
     bg-(--foreground)
-
-    md:-mx-4
-    md:h-8
   `,
   upper: `
-    h-2
-    rounded-b-md
+    h-4
+    rounded-b-lg
     bg-(--background)
-
-    md:rounded-b-lg
-    md:h-4
   `,
   lower: `
-    h-2
-    rounded-t-md
+    h-4
+    rounded-t-lg
     bg-(--background)
-
-    md:rounded-t-lg
-    md:h-4
   `,
 });
 

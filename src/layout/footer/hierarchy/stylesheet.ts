@@ -1,17 +1,9 @@
 import tw from '@/styles';
 
 const styles = tw({
-  container: `
-    absolute top-0 right-0
-  `,
   items: `
-    grid grid-cols-2 gap-3
-    p-2
+    flex flex-col gap-4
 
-    xs:grid-cols-3
-    md:p-0
-    md:flex
-    md:gap-0
     md:has-[li:hover]:[&_a]:text-current/40
     md:has-[li:hover]:[&_button]:text-current/40
     md:has-[li:hover]:[&_span]:text-current/40
@@ -22,14 +14,11 @@ const styles = tw({
   link: `
     block
     font-mono font-black
-    text-xtiny text-current text-left
+    text-xtiny text-current text-right
     uppercase
     duration-300
+    pl-3
 
-    md:group-first:pl-3.5
-    md:px-3
-    md:pt-4
-    md:pb-3.75
     md:hover:!text-current/100
   `,
   text: `

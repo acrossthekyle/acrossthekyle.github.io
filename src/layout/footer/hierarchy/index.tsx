@@ -17,7 +17,7 @@ export default function Hierarchy() {
   };
 
   return (
-    <nav className={styles.container}>
+    <nav aria-label="current, previous, and jump to top, links">
       <ul className={styles.items}>
         <li className={styles.item}>
           <Link

@@ -10,7 +10,6 @@ import {
 } from '@/ui/header';
 import { ExternalIcon } from '@/ui/link';
 import { Weight } from '@/ui/units';
-import { Footer } from '@/ui/views/info';
 import { padIndex } from '@/utils';
 
 import styles from './stylesheet';
@@ -171,7 +170,6 @@ export default function View({ data, index }: Props) {
           </ul>
         </section>
       ))}
-      <Footer current="/info/gear" />
     </Content>
   );
 }

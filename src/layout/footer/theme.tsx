@@ -24,13 +24,13 @@ export default function Theme({ current }: Props) {
   };
 
   return (
-    <button className={styles.link} onClick={handleOnClick} type="button">
-      Lights
-      <span className={styles.text}>
-        {current === 'auto' && 'AUTO'}
-        {current === 'light' && 'ON'}
-        {current === 'dark' && 'OFF'}
+    <button className={styles.button} onClick={handleOnClick} type="button">
+      <span className={styles.highlight}>
+        {current === 'auto' && 'AUTO '}
+        {current === 'light' && 'LIGHT '}
+        {current === 'dark' && 'DARK '}
       </span>
+      [Mode]
     </button>
   );
 }

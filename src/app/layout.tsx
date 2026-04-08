@@ -6,7 +6,7 @@ import { Suspense } from 'react';
 
 import { HierarchyProvider } from '@/contexts/hierarchy';
 import { UnitsProvider } from '@/contexts/units';
-import { Body, Callouts, Footer, Header, Main } from '@/layout';
+import { Body, Callouts, Footer, Main } from '@/layout';
 
 import get from './get';
 

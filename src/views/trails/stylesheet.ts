@@ -1,58 +1,82 @@
 import tw from '@/styles';
 
 const styles = tw({
-  description: `
+  definition: `
+    flex justify-between
+    mb-4
     w-full
-    mt-10
-    leading-[1]
-    text-tiny text-current/50
     font-mono
+    text-xtiny
     uppercase
+  `,
 
-    md:w-132
+
+  sticky: `
+    absolute right-4 top-20 bottom-4 z-2
+    flex items-end
   `,
-  highlight: `
-    text-(--foreground)
+  map: `
+    sticky bottom-14
+    relative
+    w-full
+
+    md:w-1/2
+    lg:w-56
+    xl:w-100
   `,
-  aside: `
-    absolute top-4 right-4
-    text-xtiny text-current/70
-    uppercase
-    animate-flicker-in
+
+
+  intro: `
+    relative
+    flex flex-col items-end gap-4
+    h-126
+
+    md:flex-row
   `,
+  paragraph: `
+    w-full
+    leading-[1.25]
+    font-sans font-light
+    text-xs
+
+    sm:w-84
+  `,
+
+
   section: `
     relative
     flex flex-col gap-4
-    mt-10
-    mb-20
-    animate-fade-in
+    mt-12 mb-12
 
     lg:flex-row
     lg:gap-12
 
-    last:mb-8
+    last:mb-0
   `,
   heading: `
     flex-none
     w-24
     mb-2
-    font-mono font-bold
-    text-tiny
+    leading-[1]
+    font-sans font-black
+    text-sm
     uppercase
-    whitespace-nowrap
 
     md:w-32
     lg:mb-0
     lg:w-48
   `,
-  eyebrow: `
+  subheading: `
     block
-    font-normal
-    text-current/50
-
-    lg:inline-block
-    lg:mr-3
+    mt-1.5
+    leading-[1]
+    normal-case
+    font-sans font-light
+    text-xs
   `,
+
+
+
   items: `
     flex flex-col gap-10
   `,
@@ -64,17 +88,15 @@ const styles = tw({
   `,
   index: `
     block
-    mt-1
     font-mono
-    text-tiny text-current/50
+    text-xtiny
   `,
   link: `
     block
-    mt-1.5
-    font-sans font-black
-    text-4xl
+    font-sans font-light
+    text-sm
     uppercase
-    leading-[0.775]
+    leading-[1]
     overflow-hidden
 
     md:duration-300
@@ -82,13 +104,10 @@ const styles = tw({
   `,
   lid: `
     block
-    mb-0.75
-    leading-[1]
+    mt-2
+    leading-[1.25]
     font-mono font-normal
     text-xtiny text-current/70
-
-    first:mt-2
-    last:mb-0
   `,
 });
 

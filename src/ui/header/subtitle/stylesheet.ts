@@ -5,7 +5,7 @@ const styles = tw({
     block
     mt-2
     font-mono
-    text-tiny text-(--foreground)/50
+    text-xtiny text-(--foreground)/50
     uppercase
   `,
 });

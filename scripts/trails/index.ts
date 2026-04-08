@@ -130,11 +130,14 @@ export async function go() {
       'trails.js',
       trails
         .sort((a, b) => b.timestamp - a.timestamp)
-        .map(({ albumId, coordinates, id, location, title, type, when }) => ({
+        .map(({ albumId, coordinates, days, distance, id, location, position, title, type, when }) => ({
           albumId,
           coordinates,
+          days,
+          distance,
           id,
           location,
+          position,
           title,
           type,
           when,

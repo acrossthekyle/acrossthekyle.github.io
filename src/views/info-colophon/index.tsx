@@ -8,7 +8,6 @@ import {
   HeaderSubtitle,
   HeaderText,
 } from '@/ui/header';
-import Footer from '@/ui/views/info/footer';
 
 import styles from './stylesheet';
 
@@ -44,7 +43,6 @@ export default function View() {
           The pages are server-side rendered using html and css where image and content optimization occur, with some client-side javascript rendering. The raw data behind these pages is maintained via json and markdown files, and a bash script compiles them into a set of cached database files. Icons are provided by the lucide icon library.
         </p>
       </section>
-      <Footer current="/info/colophon" />
     </Content>
   );
 }

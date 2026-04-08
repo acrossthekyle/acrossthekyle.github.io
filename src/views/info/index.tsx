@@ -6,8 +6,8 @@ import {
   HeaderSubtitle,
   HeaderText,
 } from '@/ui/header';
-import Footer from '@/ui/views/info/footer';
 
+import { TIMELINE } from './constants';
 import Images from './images';
 import styles from './stylesheet';
 
@@ -29,30 +29,58 @@ type Props = {
 export default function View({ data }: Props) {
   return (
     <Content>
+      <div className={styles.definition} role="presentation">
+        <span>Across</span>
+        <span>The</span>
+        <span>Kyle</span>
+      </div>
       <Header>
         <HeaderEyebrow>[ 01 ]</HeaderEyebrow>
         <HeaderText>Info</HeaderText>
         <HeaderSubtitle>Bio, Resume, Etc.</HeaderSubtitle>
       </Header>
-      <p className={styles.description}>
-        A <span className={styles.highlight}>Chicago</span>-based self-taught <span className={styles.highlight}>software engineer</span> and millennial who balances my lifelong passion for <span className={styles.highlight}>creating</span> web <span className={styles.highlight}>apps</span> with a love for long-distance <span className={styles.highlight}>backpacking</span> adventures, and <span className={styles.highlight}>Star Trek</span>.
-      </p>
-      <section className={styles.intro}>
+      <Images />
+      <section aria-label="introduction" className={styles.intro}>
+        <h2 className={`${styles.heading} ${styles.float}`}>
+          Hello
+        </h2>
         <p className={styles.paragraph}>
-          Hi I'm Kyle: a self-taught Software Engineer and millennial creator focused on building web and mobile applications from scratch with over 14 years of experience. My approach to development is rooted in a genuine thrill for writing code, whether I'm working on complex apps or sharing my thoughts and reflections on the process.
+          I'm Kyle: a self-taught Software Engineer and millennial creator focused on building web and mobile applications from scratch with over 14 years of experience. My approach to development is rooted in a genuine thrill for writing code, whether I'm working on complex apps or sharing my thoughts and reflections on the process.
         </p>
         <p className={styles.paragraph}>
           Beyond the screen, I am an avid long-distance backpacker and traveler. Since discovering my passion for the trail in South America and completing a 600-mile thru-hike of the Camino de Santiago in Europe, I've continuously seeked out new adventures and new trails, both near and far, from my homebase in Chicago.
         </p>
-        <Images />
       </section>
-      <Divider />
       <section className={styles.section}>
         <h2 className={styles.heading}>
-          Path
+          History
+          <span className={styles.subheading}>
+            Moments that shaped my life
+          </span>
         </h2>
-        <ul className={styles.items}>
-          {data.resume.map((item) => (
+        <ul className={styles.timeline}>
+          {TIMELINE.map(({ paragraph, title, year }) => (
+            <li className={styles.entry} key={year}>
+              <span className={styles.year}>[{year}]</span>
+              <div>
+                {title}
+                {!!paragraph && (
+                  <span className={styles.small}>{paragraph}</span>
+                )}
+              </div>
+            </li>
+          ))}
+        </ul>
+      </section>
+      <section className={styles.section}>
+        <h2 className={styles.heading}>
+          Career
+          <span className={styles.subheading}>
+            Path I've taken
+          </span>
+        </h2>
+        <ul className={styles.grid}>
+          {data.resume.map((item, index: number) => (
             <li className={styles.item} key={item.place}>
               <span className={styles.eyebrow}>
                 [ {item.place} ]
@@ -70,10 +98,12 @@ export default function View({ data }: Props) {
           ))}
         </ul>
       </section>
-      <Divider />
       <section className={styles.section}>
         <h2 className={styles.heading}>
           Expertise
+          <span className={styles.subheading}>
+            Areas where I excel
+          </span>
         </h2>
         <ul className={styles.grid}>
           {data.expertise.map((item) => (
@@ -88,7 +118,6 @@ export default function View({ data }: Props) {
           ))}
         </ul>
       </section>
-      <Footer />
     </Content>
   );
 }

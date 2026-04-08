@@ -30,7 +30,7 @@ const styles = tw({
   `,
   album: `
     my-10
-    inline-block
+    w-20
     font-mono font-bold
     text-tiny
     uppercase

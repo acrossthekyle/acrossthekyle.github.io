@@ -5,10 +5,8 @@ const styles = tw({
     block
     mb-2
     font-mono
-    text-xtiny text-(--foreground)/40
+    text-xtiny text-(--foreground)/70
     uppercase
-
-    lg:mb-4
   `,
 });
 

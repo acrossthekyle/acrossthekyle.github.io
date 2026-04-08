@@ -8,9 +8,8 @@ export default function Units() {
   const { current, onToggle } = useUnits();
 
   return (
-    <button className={styles.link} onClick={onToggle} type="button">
-      Units
-      <span className={styles.text}>{current.toUpperCase()}</span>
+    <button className={styles.button} onClick={onToggle} type="button">
+      <span className={styles.highlight}>{current.toUpperCase()}</span> [Units]
     </button>
   );
 }

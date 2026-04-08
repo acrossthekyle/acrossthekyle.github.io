@@ -33,41 +33,16 @@ const styles = tw({
     text-xtiny
   `,
   content: `
+    flex-1
     flex flex-col justify-between
+    w-102
     leading-[1.25]
-    font-mono
-    text-tiny
+    font-sans font-light
+    text-xs
     uppercase
-
-    md:flex-row
   `,
-  upper: `
-    absolute top-4 right-4 left-4 z-2
-    gap-2
-    w-50
-    animate-fade-in
-
-    md:gap-0
-    md:w-auto
-  `,
-  lower: `
-    absolute bottom-4 right-4 left-4 z-2
-    w-auto
-    gap-0.25
-    text-right
-    animate-flicker-in
-
-    md:gap-0
-    md:text-left
-  `,
-  location: `
-    text-xtiny
-  `,
-  code: `
-    text-xtiny text-right
-  `,
-  line: `
-    block
+  small: `
+    text-tiny
   `,
 });
 

@@ -9,19 +9,31 @@ const data = [
   },
   {
     "skills": ["Bash Scripting", "Ansible", "Testing"],
-    "area": "Automation",
+    "area": "CI/CD Automation",
   },
   {
     "skills": ["Java|Type Script", "React Native"],
-    "area": "Native Development",
+    "area": "Mobile Development",
   },
   {
     "skills": ["React", "Laravel", "NextJS", "Bootstrap", "Tailwind"],
-    "area": "Frameworks",
+    "area": "Code Frameworks",
   },
   {
     "skills": ["Accessibility"],
     "area": "Inclusivity",
+  },
+  {
+    "skills": ["Thru-hikes", "Summits", "Gear specs"],
+    "area": "Backpacking",
+  },
+  {
+    "skills": ["Conceptualizing"],
+    "area": "Imagination",
+  },
+  {
+    "skills": ["Files", "Folders", "Bigger picture", "Packing"],
+    "area": "Organization",
   },
 ];
 

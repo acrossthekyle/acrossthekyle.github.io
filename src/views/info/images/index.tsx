@@ -1,7 +1,3 @@
-'use client';
-
-import { useState } from 'react';
-
 import { Image } from '@/ui/image';
 
 import styles from './stylesheet';
@@ -13,41 +9,12 @@ const IMAGES = [
 ];
 
 export default function Images() {
-  const [active, setActive] = useState(0);
-
-  const handleOnClick = (value: number) => {
-    setActive(value);
-  };
-
   return (
-    <div aria-label="image gallery" className={styles.container} role="region">
-      <ul className={styles.controls}>
-        {IMAGES.map((_, index: number) => (
-          <li key={index}>
-            <button
-              aria-current={index === active ? 'true' : undefined}
-              onClick={() => handleOnClick(index)}
-              type="button"
-            >
-              [ {index === active ? 'o' : '_'} ]
-            </button>
-          </li>
-        ))}
-      </ul>
-      <ul className={styles.slides}>
+    <div aria-label="images of me" className={styles.container}>
+      <ul className={styles.items}>
         {IMAGES.map((src, index: number) => (
-          <li
-            aria-hidden={active === index ? 'false' : 'true'}
-            aria-roledescription="slide"
-            className={styles.slide}
-            key={src}
-            role="group"
-          >
-            <Image
-              alt="image of kyle"
-              className={styles.image(active === index)}
-              src={src}
-            />
+          <li className={styles.item(index)} key={src}>
+            <Image className={styles.image} src={src} />
           </li>
         ))}
       </ul>

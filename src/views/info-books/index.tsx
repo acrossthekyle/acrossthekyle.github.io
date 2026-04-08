@@ -9,7 +9,6 @@ import {
   HeaderText,
 } from '@/ui/header';
 import { ExternalIcon } from '@/ui/link';
-import Footer from '@/ui/views/info/footer';
 import { padIndex } from '@/utils';
 
 import styles from './stylesheet';
@@ -51,7 +50,6 @@ export default function View({ data }: Props) {
           </li>
         ))}
       </ul>
-      <Footer current="/info/books" />
     </Content>
   );
 }

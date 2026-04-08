@@ -3,6 +3,7 @@
 import Link from 'next/link';
 
 import { useHierarchy } from '@/hooks/useHierarchy';
+import { ExternalIcon } from '@/ui/link';
 import { padIndex } from '@/utils';
 
 import styles from './stylesheet';
@@ -18,13 +19,14 @@ export default function Anchor({ href, index, subtitle, title }: Props) {
   const { current } = useHierarchy();
 
   const isActive = current === '/' ? true : current.includes(href);
+  const isExternal = href.includes('http') || href.includes('mailto');
 
   return (
     <Link className={styles.link(isActive)} href={href}>
       <span className={styles.eyebrow(isActive)}>
         [ {padIndex(index + 1)} ]
       </span>
-      {title}
+      {isExternal ? <ExternalIcon>{title}</ExternalIcon> : <>{title}</>}
       <span className={styles.lid(isActive)}>{subtitle}</span>
     </Link>
   );
