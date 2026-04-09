@@ -24,7 +24,6 @@ const styles = tw({
     mt-6
     grid grid-cols-2 gap-y-2
     w-54
-    animate-fade-in
   `,
   item: `
     font-mono font-bold

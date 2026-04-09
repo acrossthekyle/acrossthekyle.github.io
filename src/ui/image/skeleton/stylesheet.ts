@@ -13,7 +13,8 @@ const styles = tw({
     w-full h-full
     rounded-md
     bg-neutral-900
-    animate-pulse
+
+    motion-safe:animate-pulse
   `,
   sr: `
     invisible

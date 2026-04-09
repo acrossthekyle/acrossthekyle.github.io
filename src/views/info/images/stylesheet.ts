@@ -11,7 +11,7 @@ const styles = tw({
   `,
   item: (index: number) => tw(`
     ${index === 0 && 'col-start-2'}
-    w-32
+    w-24
   `),
   image: `
     rounded-lg

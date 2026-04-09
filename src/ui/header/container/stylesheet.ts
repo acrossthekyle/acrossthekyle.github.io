@@ -5,7 +5,8 @@ const styles = tw({
     text-5xl text-(--foreground)
     font-sans font-black
     uppercase
-    animate-fade-in
+
+    motion-safe:animate-fade-in
   `,
 });
 

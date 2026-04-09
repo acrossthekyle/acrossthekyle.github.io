@@ -8,7 +8,6 @@ const styles = tw({
     text-xl text-center
     font-sans font-black
     uppercase
-    animate-fade-in
 
     xs:text-3xl
     sm:text-5xl
@@ -38,14 +37,14 @@ const styles = tw({
   `,
   aside: `
     absolute bottom-4 right-4
-    leading-[1]
-    font-mono font-normal
-    text-xtiny
+    leading-[1.25]
+    text-right
     uppercase
   `,
   times: `
     flex gap-4
-    text-right
+    font-mono font-normal
+    text-xtiny
   `,
   index: `
     block

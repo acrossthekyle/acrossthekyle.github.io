@@ -13,7 +13,8 @@ const styles = tw({
     relative
     mt-10
     text-left
-    animate-flicker-in
+
+    motion-safe:animate-flicker-in
 
     sm:absolute
     sm:top-9

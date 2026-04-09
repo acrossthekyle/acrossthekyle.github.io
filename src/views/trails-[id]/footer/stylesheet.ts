@@ -3,7 +3,6 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     flex flex-col gap-6
-    animate-fade-in
 
     lg:flex-row
     lg:gap-12

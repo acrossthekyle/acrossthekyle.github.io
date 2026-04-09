@@ -12,7 +12,6 @@ const styles = tw({
   filters: `
     flex gap-2
     my-10
-    animate-fade-in
   `,
   link: (isActive: boolean) => tw(`
     font-mono font-bold
@@ -30,7 +29,8 @@ const styles = tw({
     font-mono font-normal
     text-xtiny
     uppercase
-    animate-flicker-in
+
+    motion-safe:animate-flicker-in
 
     sm:mt-0
     sm:text-right

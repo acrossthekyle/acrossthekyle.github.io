@@ -23,11 +23,11 @@ export default function View() {
       <aside className={styles.aside}>
         <ul className={styles.times}>
           <li>
-            <span className={styles.index}>[Sunrise]</span>
+            <span className={styles.index}>Sunrise</span>
             {sunTimes.sunrise}
           </li>
           <li>
-            <span className={styles.index}>[Sunset]</span>
+            <span className={styles.index}>Sunset</span>
             {sunTimes.sunset}
           </li>
         </ul>

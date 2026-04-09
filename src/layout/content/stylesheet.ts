@@ -9,7 +9,8 @@ const styles = tw({
     p-4
     bg-(--background)
     text-(--foreground)
-    animate-fade-in
+
+    motion-safe:animate-fade-in
 
     before:absolute
     before:inset-0
