@@ -10,6 +10,12 @@ const styles = tw({
     bg-(--background)
     text-(--foreground)
     animate-fade-in
+
+    before:absolute
+    before:inset-0
+    before:z-0
+    before:bg-[radial-gradient(color-mix(in_srgb,var(--foreground),transparent_90%)_1px,transparent_1px)]
+    before:bg-size-[20px_20px]
   `,
 });
 

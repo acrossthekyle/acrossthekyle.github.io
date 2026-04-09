@@ -4,27 +4,21 @@ const styles = tw({
   container: (isToggled: boolean) => tw(`
     absolute
     mt-1
-    rounded-md
-    bg-(--foreground)
-    text-(--background)
     duration-300
     w-full
 
     ${isToggled ? 'translate-x-0' : '-translate-x-[100vw]'}
 
+    sm:pr-8
     sm:w-auto
     sm:relative
     sm:translate-x-0
   `),
   items: `
-    flex flex-col gap-1
-    h-[83vh]
-    p-1
+    flex flex-col gap-6
     overflow-y-scroll
 
-    xs:h-[73vh]
     sm:flex-2
-    md:p-2.5
   `,
   item: `
     font-mono

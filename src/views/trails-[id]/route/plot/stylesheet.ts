@@ -2,16 +2,17 @@ import tw from '@/styles';
 
 const styles = {
   container: (isToggled: boolean) => tw(`
+    sticky top-12
     flex-1
     mt-1
-    h-[83vh]
+    h-[calc(100vh-6.25rem)]
     w-full
     rounded-md
-    border border-(--foreground)/20
+    border border-(--foreground)/10
     overflow-hidden
     duration-300
 
-    xs:h-[73vh]
+    xs:h-[calc(100vh-6.5rem)]
 
     ${isToggled ? 'translate-x-[100vw]' : 'translate-x-0'}
   `),

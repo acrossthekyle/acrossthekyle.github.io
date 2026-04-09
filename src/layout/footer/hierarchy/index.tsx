@@ -9,41 +9,20 @@ import styles from './stylesheet';
 export default function Hierarchy() {
   const { current, previous } = useHierarchy();
 
-  const handleOnJump = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
-  };
-
   return (
-    <nav aria-label="current, previous, and jump to top, links">
-      <ul className={styles.items}>
-        <li className={styles.item}>
-          <Link
-            className={styles.link}
-            href={current}
-          >
-            Current
-            <span className={`${styles.text} ${styles.hierarchy}`}>.com{current}</span>
-          </Link>
-        </li>
-        <li className={styles.item}>
-          <Link
-            className={styles.link}
-            href={previous}
-          >
-            Previous
-            <span className={`${styles.text} ${styles.hierarchy}`}>.com{previous}</span>
-          </Link>
-        </li>
-        <li className={styles.item}>
-          <button className={styles.link} onClick={handleOnJump} type="button">
-            Jump to
-            <span className={styles.text}>TOP</span>
-          </button>
-        </li>
-      </ul>
-    </nav>
+    <span className={styles.container}>
+      <Link
+        className={styles.link}
+        href={current}
+      >
+        Current: <span className={styles.text}>.com{current}</span>
+      </Link>
+      <Link
+        className={styles.link}
+        href={previous}
+      >
+        Previous: <span className={styles.text}>.com{previous}</span>
+      </Link>
+    </span>
   );
 }

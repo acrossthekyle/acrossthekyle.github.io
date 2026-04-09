@@ -70,86 +70,101 @@ function getPrefix(type: string) {
 export default function View({ data }: Props) {
   return (
     <Content>
+      <div className={styles.definition} role="presentation">
+        {data.trail.location.replaceAll(',', '').split(' ').map((word) => (
+          <span key={word}>
+            {word}
+          </span>
+        ))}
+      </div>
       <Header>
-        <HeaderEyebrow>[ 02-{getPrefix(data.trail.type)} {data.trail.id.split('-').pop()} ]</HeaderEyebrow>
+        <HeaderEyebrow>
+          [ {getPrefix(data.trail.type)} {data.trail.id.split('-').pop()} ]
+        </HeaderEyebrow>
         <HeaderPrefix>
           <Link href="/trails">Trails</Link>
         </HeaderPrefix>
         <HeaderText>{data.trail.title}</HeaderText>
         <HeaderSubtitle>{data.trail.type}</HeaderSubtitle>
       </Header>
-      <p className={styles.description}>
-        <span className={styles.highlight}>{data.trail.description}</span>
-      </p>
-      <Link className={styles.album} href={`/albums/${data.trail.albumId}`}>
-        <span className={styles.highlight}>VIEW ALBUM</span>
-        <span className={styles.lid}>{data.photos} Photos</span>
-      </Link>
-      <Map className={styles.map}>
-        <MapMarker position={{
-          left: data.trail.position[1],
-          top: data.trail.position[0],
-        }} />
-      </Map>
-      <section className={styles.section}>
-        <h2 className={styles.heading}>
-          Info
-        </h2>
-        <ul className={styles.items}>
-          <li className={styles.item}>
-            Continent
-            <span className={styles.value}>{data.trail.continent}</span>
-          </li>
-          <li className={styles.item}>
-            Location
-            <span className={styles.value}>{data.trail.location}</span>
-          </li>
-          <li className={styles.item}>
-            Coordinates
-            <span className={styles.value}>{data.trail.coordinates}</span>
-          </li>
-          <li className={styles.item}>
-            When
-            <span className={styles.value}>{data.trail.when}</span>
-          </li>
-          <li className={styles.item}>
-            Start
-            <span className={styles.value}>{data.trail.start.value.basic}</span>
-          </li>
-          <li className={styles.item}>
-            End
-            <span className={styles.value}>{data.trail.end.value.basic}</span>
-          </li>
-          <li className={styles.item}>
-            Days
-            <span className={styles.value}>{data.trail.days}</span>
-          </li>
-          <li className={styles.item}>
-            Miles
-            <span className={styles.value}>
-              <Length value={data.trail.distance.value.complex} />
-            </span>
-          </li>
-          <li className={styles.item}>
-            Max altitude
-            <span className={styles.value}>
-              <Length isSmall value={data.trail.altitudeMax.value.complex} />
-            </span>
-          </li>
-          <li className={styles.item}>
-            Elevation gain
-            <span className={styles.value}>
-              <Length isSmall value={data.trail.elevationGain.value.complex} />
-            </span>
-          </li>
-          <li className={styles.item}>
-            Elevation loss
-            <span className={styles.value}>
-              <Length isSmall value={data.trail.elevationLoss.value.complex} />
-            </span>
-          </li>
-        </ul>
-      </section>
+      <div aria-label="description and stats" className={styles.intro}>
+        <p className={styles.description}>
+          {data.trail.description}
+        </p>
+        <Link className={styles.album} href={`/albums/${data.trail.albumId}`}>
+          VIEW ALBUM
+          <span className={styles.lid}>
+            [{data.photos} Photos]
+          </span>
+        </Link>
+        <div className={styles.sticky}>
+          <Map className={styles.map}>
+            <MapMarker position={{
+              left: data.trail.position[1],
+              top: data.trail.position[0],
+            }} />
+          </Map>
+        </div>
+        <section className={styles.section}>
+          <h2 className={styles.heading}>
+            Info
+          </h2>
+          <ul className={styles.items}>
+            <li className={styles.item}>
+              [Continent]
+              <span className={styles.value}>{data.trail.continent}</span>
+            </li>
+            <li className={styles.item}>
+              [Location]
+              <span className={styles.value}>{data.trail.location}</span>
+            </li>
+            <li className={styles.item}>
+              [Coordinates]
+              <span className={styles.value}>{data.trail.coordinates}</span>
+            </li>
+            <li className={styles.item}>
+              [When]
+              <span className={styles.value}>{data.trail.when}</span>
+            </li>
+            <li className={styles.item}>
+              [Start]
+              <span className={styles.value}>{data.trail.start.value.basic}</span>
+            </li>
+            <li className={styles.item}>
+              [End]
+              <span className={styles.value}>{data.trail.end.value.basic}</span>
+            </li>
+            <li className={styles.item}>
+              [Length]
+              <span className={styles.value}>{data.trail.days} days</span>
+            </li>
+            <li className={styles.item}>
+              [Miles]
+              <span className={styles.value}>
+                <Length value={data.trail.distance.value.complex} />
+              </span>
+            </li>
+            <li className={styles.item}>
+              [Max altitude]
+              <span className={styles.value}>
+                <Length isSmall value={data.trail.altitudeMax.value.complex} />
+              </span>
+            </li>
+            <li className={styles.item}>
+              [Elevation gain]
+              <span className={styles.value}>
+                <Length isSmall value={data.trail.elevationGain.value.complex} />
+              </span>
+            </li>
+            <li className={styles.item}>
+              [Elevation loss]
+              <span className={styles.value}>
+                <Length isSmall value={data.trail.elevationLoss.value.complex} />
+              </span>
+            </li>
+          </ul>
+        </section>
+      </div>
       <Divider />
       <section className={styles.section}>
         <h2 className={styles.heading}>

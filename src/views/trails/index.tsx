@@ -52,6 +52,11 @@ export default function View({ data }: Props) {
         <HeaderText>Trails</HeaderText>
         <HeaderSubtitle>Hikes and summits</HeaderSubtitle>
       </Header>
+      <section aria-label="introduction" className={styles.intro}>
+        <p className={styles.paragraph}>
+          Since 2015 I've travelled to nearly every continent on our planet called Earth, and completed several thru-hikes on most of them. I'm also working on bagging all of the Colorado 14er peaks. This is a collection of those experiences.
+        </p>
+      </section>
       <div className={styles.sticky}>
         <Map className={styles.map}>
           {data.trails.map(({ position }, index: number) => (
@@ -65,11 +70,6 @@ export default function View({ data }: Props) {
           ))}
         </Map>
       </div>
-      <section aria-label="introduction" className={styles.intro}>
-        <p className={styles.paragraph}>
-          Since 2015 I've travelled to nearly every continent on our planet called Earth, and completed several thru-hikes on most of them. I'm also working on bagging all of the Colorado 14er peaks. This is a collection of those experiences.
-        </p>
-      </section>
       <section className={styles.section}>
         <h2 className={styles.heading}>
           Thru-hikes

@@ -1,7 +1,7 @@
 import { Suspense } from 'react';
 
 import Loading from '@/ui/loading';
-import View from '@/views/blog';
+import View from '@/views/thoughts';
 
 import get from './get';
 

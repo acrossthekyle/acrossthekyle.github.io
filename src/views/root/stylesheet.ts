@@ -1,8 +1,6 @@
 import tw from '@/styles';
 
 const styles = tw({
-  highlight: `
-  `,
   heading: `
     flex flex-col align-center justify-center
     h-124
@@ -11,12 +9,6 @@ const styles = tw({
     font-sans font-black
     uppercase
     animate-fade-in
-
-    before:absolute
-    before:inset-0
-    before:z-0
-    before:bg-[radial-gradient(color-mix(in_srgb,var(--foreground),transparent_90%)_1px,transparent_1px)]
-    before:bg-size-[20px_20px]
 
     xs:text-3xl
     sm:text-5xl
@@ -43,6 +35,21 @@ const styles = tw({
   `,
   small: `
     text-tiny
+  `,
+  aside: `
+    absolute bottom-4 right-4
+    leading-[1]
+    font-mono font-normal
+    text-xtiny
+    uppercase
+  `,
+  times: `
+    flex gap-4
+    text-right
+  `,
+  index: `
+    block
+    mb-0.5
   `,
 });
 

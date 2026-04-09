@@ -1,33 +1,54 @@
 @import "tailwindcss";
 
-:root {
-  --background: #0c0c0c;
-  --foreground: #fffdf7;
-}
+@theme {
+  --layout-background: #0c0c0c;
+  --layout-foreground: #fffdf7;
 
-@theme inline {
+  --background: #fffdf7;
+  --foreground: #0c0c0c;
+
   --animate-fade-in: fadeIn .4s ease-in forwards;
   --animate-flicker-in: flickerIn 1.25s linear forwards;
+
   --breakpoint-xs: 20.625rem; /* 320px */
+
   --font-mono: var(--font-roboto-mono);
   --font-sans: var(--font-geist-sans);
+
   --container-8xl: 96rem; /* 1536px */
+
   --text-tiny: 0.6875rem; /* 11px */
   --text-xtiny: 0.5rem; /* 8px */
 }
 
+@custom-variant dark (
+  &:where([data-theme="dark"], [data-theme="dark"] *),
+  @media (prefers-color-scheme: dark) {
+    &:where([data-theme="auto"], [data-theme="auto"] *)
+  }
+);
+
+@layer base {
+  :root {
+    --background: #fffdf7;
+    --foreground: #0c0c0c;
+  }
+
+  [data-theme="dark"] {
+    --background: #242423;
+    --foreground: #fffdf7;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    [data-theme="auto"] {
+      --background: #242423;
+      --foreground: #fffdf7;
+    }
+  }
+}
+
 html {
   height: 100%;
-}
-
-html[data-theme="dark"] {
-  --background: #0c0c0c;
-  --foreground: #fffdf7;
-}
-
-html[data-theme="light"] {
-  --background: #fffdf7;
-  --foreground: #0c0c0c;
 }
 
 body {

@@ -6,7 +6,7 @@ const styles = tw({
     flex flex-col items-start justify-between
     h-8
     px-3
-    bg-(--foreground)
+    bg-(--layout-background)
     font-mono
     text-xtiny
     uppercase
@@ -23,7 +23,7 @@ const styles = tw({
   `,
   icon: `
     w-2 h-2
-    stroke-1 stroke-(--background)
+    stroke-1 stroke-(--layout-foreground)
   `,
   filled: `
     fill-green-300

@@ -1,7 +1,7 @@
 import { Suspense } from 'react';
 
 import Loading from '@/ui/loading';
-import View from '@/views/info-colophon';
+import View from '@/views/colophon';
 
 export default function Page() {
   return (

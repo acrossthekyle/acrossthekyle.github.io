@@ -9,7 +9,7 @@ const styles = tw({
     flex flex-col justify-between
     h-[calc(100vh-4.5rem)]
     mx-3.5
-    border-b-1 border-b-(--background)/20 border-dashed
+    border-b-1 border-b-(--layout-foreground)/20 border-dashed
   `,
   first: `
     flex items-start justify-between
@@ -19,8 +19,11 @@ const styles = tw({
     text-xtiny text-current/50
     tracking-wide
   `,
+  links: `
+    flex flex-col gap-1
+  `,
   settings: `
-    flex flex-col gap-0
+    flex flex-col gap-1
   `,
   button: `
     uppercase
@@ -47,7 +50,7 @@ const styles = tw({
     flex items-center justify-between
     h-10
     px-3.5
-    bg-(--foreground)
+    bg-(--layout-background)
     uppercase
     text-xtiny
     font-mono font-bold
@@ -61,10 +64,10 @@ const styles = tw({
     tracking-tighter
   `,
   compiled: `
-    text-current/50
+    text-current/80
   `,
   highlight: `
-    text-(--background)
+    text-(--layout-foreground)
   `,
 });
 

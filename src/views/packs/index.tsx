@@ -4,13 +4,11 @@ import { Content } from '@/layout';
 import {
   Header,
   HeaderEyebrow,
-  HeaderPrefix,
   HeaderSubtitle,
   HeaderText,
 } from '@/ui/header';
 import { ExternalIcon } from '@/ui/link';
 import { Weight } from '@/ui/units';
-import { padIndex } from '@/utils';
 
 import styles from './stylesheet';
 
@@ -77,12 +75,14 @@ export default function View({ data, index }: Props) {
 
   return (
     <Content>
+      <div className={styles.definition} role="presentation">
+        <span>My</span>
+        <span>Gear</span>
+        <span>Loadouts</span>
+      </div>
       <Header>
-        <HeaderEyebrow>[ 01-X02 ]</HeaderEyebrow>
-        <HeaderPrefix>
-          <Link href="/info">Info</Link>
-        </HeaderPrefix>
-        <HeaderText>Gear</HeaderText>
+        <HeaderEyebrow>[ 06 ]</HeaderEyebrow>
+        <HeaderText>Packs</HeaderText>
         <HeaderSubtitle>What I carry on hikes</HeaderSubtitle>
       </Header>
       <nav aria-label="gear filters navigation">
@@ -91,7 +91,7 @@ export default function View({ data, index }: Props) {
             <li key={filter.index}>
               <Link
                 className={styles.link(index === filter.index)}
-                href={`/info/gear?ref=${filter.index}`}
+                href={`/packs?ref=${filter.index}`}
               >
                 {filter.title}
               </Link>
@@ -130,41 +130,21 @@ export default function View({ data, index }: Props) {
       {current.categories.map((category, categoryIndex: number) => (
         <section className={styles.section} key={categoryIndex}>
           <h2 className={styles.heading}>
-            <span className={styles.index}>
-              [ 00-{padIndex(categoryIndex + 1)} ]
-            </span>
-            <span>
-              {category.title}
-              <span className={styles.lid}>
-                <Weight weight={category.weight} />
-              </span>
+            {category.title}
+            <span className={styles.subheading}>
+              <Weight weight={category.weight} />
             </span>
           </h2>
           <ul className={styles.grid}>
             {category.items.map((item) => (
               <li className={styles.item} key={item.name}>
-                <span className={styles.eyebrow}>[ {item.seller} ]</span>
-                {item.name}
-                <span className={styles.lid}>
-                  <Weight isSmall weight={item.weight} />
-                </span>
-                {item.worn && (
+                <Link href={item.link} target="_blank">
+                  <span className={styles.eyebrow}>[ {item.seller} ]</span>
+                  <ExternalIcon>{item.name}</ExternalIcon>
                   <span className={styles.lid}>
-                    Worn
+                    <Weight isSmall weight={item.weight} />
                   </span>
-                )}
-                {item.consumable && (
-                  <span className={styles.lid}>
-                    Consumable
-                  </span>
-                )}
-                {item.link && (
-                  <span className={styles.lid}>
-                    <Link href={item.link} target="_blank">
-                      <ExternalIcon>View</ExternalIcon>
-                    </Link>
-                  </span>
-                )}
+                </Link>
               </li>
             ))}
           </ul>

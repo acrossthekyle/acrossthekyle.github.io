@@ -40,6 +40,11 @@ type Props = {
 export default function View({ data }: Props) {
   return (
     <Content>
+      <div className={styles.definition} role="presentation">
+        <span>{data.album.when}</span>
+        <span>{data.album.images.length} images</span>
+        <span>{data.album.coordinates}</span>
+      </div>
       <Header>
         <HeaderEyebrow>[ A-{padIndex(data.index)} ]</HeaderEyebrow>
         <HeaderPrefix>
@@ -47,19 +52,6 @@ export default function View({ data }: Props) {
         </HeaderPrefix>
         <HeaderText>{data.album.title}</HeaderText>
       </Header>
-      <aside className={styles.aside}>
-        <ul aria-label="stats" className={styles.stats}>
-          <li>
-            <span className={styles.highlight}>{data.album.when}</span>
-          </li>
-          <li>
-            <span className={styles.highlight}>{data.album.images.length}</span> images
-          </li>
-          <li>
-            {data.album.coordinates}
-          </li>
-        </ul>
-      </aside>
       <ul className={styles.items}>
         {data.album.images.map((image, index: number) => {
           const img = image.src.split('-').pop();

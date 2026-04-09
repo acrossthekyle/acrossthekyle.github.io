@@ -24,33 +24,28 @@ export default function Cta({ index, stage, total }: Props) {
   return (
     <button
       aria-label="set active route segment in map"
-      className={styles.container(isActive)}
+      className={styles.container}
       onClick={() => onClick(index)}
       type="button"
     >
-      <span className={styles.heading}>
-        <span className={styles.index}>
-          [ 00-{padIndex(index + 1)}:{padIndex(total)} ]
-        </span>
-        {stage.termini}
+      <span className={styles.index}>
+        [ {padIndex(index + 1)}-{padIndex(total)} ]
       </span>
-      <ul className={styles.items}>
-        <li className={styles.item}>
-          {stage.when}
-        </li>
-        <li className={styles.item}>
-          {stage.hours.value.basic}
-        </li>
-        <li className={styles.item}>
-          <Length value={stage.distance.value.complex} />
-        </li>
-        <li className={styles.item}>
-          {stage.location}
-        </li>
-        <li className={styles.item}>
+      <span className={styles.content}>
+        {isActive && (
+          <span className={styles.current} role="presentation">
+            [→]
+          </span>
+        )}
+        {stage.termini}
+        <span className={styles.items}>
+          {stage.when}<br />
+          {stage.hours.value.basic}<br />
+          <Length value={stage.distance.value.complex} /><br />
+          {stage.location}<br />
           {stage.coordinates}
-        </li>
-      </ul>
+        </span>
+      </span>
     </button>
   );
 }

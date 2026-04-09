@@ -24,11 +24,7 @@ export default function Footer({ more }: Props) {
       <Divider />
       <section className={styles.container}>
         <h2 className={styles.header}>
-          <span className={styles.eyebrow}>[ 02-M ]</span>
           More
-          <span className={styles.text}>
-            Other trails
-          </span>
         </h2>
         <ul className={styles.items}>
           {more.map((item, index: number) => {
@@ -39,7 +35,7 @@ export default function Footer({ more }: Props) {
                   href={`/trails/${item.id}`}
                 >
                   <span className={styles.index}>
-                    [ 02-m{padIndex(index + 1)} ]
+                    [ 00-{padIndex(index + 1)} ]
                   </span>
                   {item.title}
                   <span className={styles.list}>

@@ -5,6 +5,7 @@ import { ExternalIcon } from '@/ui/link';
 
 import Clock from './clock';
 import Hierarchy from './hierarchy';
+import Jump from './jump';
 import Navigation from './nav';
 import styles from './stylesheet';
 import Theme from './theme';
@@ -19,8 +20,8 @@ export default function Footer({ theme }: Props) {
     <footer className={styles.container} role="contentinfo">
       <div className={styles.inner}>
         <section aria-label="copyright and settings items" className={styles.first}>
-          <p>
-            Continuously copyrighted <span className={styles.highlight}>since 2011</span>. All bits reserved.<br />
+          <p className={styles.links}>
+            <span>Continuously copyrighted <span className={styles.highlight}>since 2011</span>. All bits reserved.</span>
             <Link
               href="https://www.websitecarbon.com/website/acrossthekyle-com/"
               target="_blank"
@@ -29,16 +30,18 @@ export default function Footer({ theme }: Props) {
                 <span className={styles.highlight}>A+</span> Carbon <span className={styles.highlight}>rating</span>
               </ExternalIcon>
             </Link>
+            <Hierarchy />
           </p>
           <div className={styles.settings}>
             <Units />
             <Theme current={theme} />
+            <Jump />
           </div>
         </section>
         <section aria-label="meta data/easter eggs, external site links" className={styles.second}>
           <div className={styles.meta}>
             <p>
-              <span className={styles.highlight}>41.8832</span>° N, <span className={styles.highlight}>87.6324</span>° W
+              <span className={styles.highlight}>41.8781</span>° N, <span className={styles.highlight}>87.6298</span>° W
               <br />
               <span className={styles.highlight}>Sol</span>, Orion Spur, <span className={styles.highlight}>Milky Way</span>
               <br />
@@ -70,7 +73,7 @@ export default function Footer({ theme }: Props) {
           KYL
         </Link>
         <p className={styles.compiled}>
-          <span className={styles.highlight}>compiled</span> on <span className={styles.highlight}>{data.lastUpdated}</span>
+          Compiled on {data.lastUpdated}
         </p>
         <p>
           See you out there

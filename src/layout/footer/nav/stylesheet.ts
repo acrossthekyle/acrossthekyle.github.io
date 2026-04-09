@@ -4,35 +4,25 @@ const styles = tw({
   items: `
     grid grid-cols-8 gap-8
     mt-8 mb-3
-    text-(--background)
+    text-(--layout-foreground)
   `,
-  link: (isActive: boolean) => tw(`
-    group
+  link: `
     block
     font-sans font-black
-    text-sm ${isActive ? 'text-current' : 'text-current/40'}
+    text-sm
     uppercase
-    duration-300
-
-    md:hover:text-current/100
-  `),
-  eyebrow: (isActive: boolean) => tw(`
+  `,
+  eyebrow: `
     block
     font-mono
-    text-xtiny ${isActive ? 'text-current/70' : 'text-current/40'}
-    duration-300
-
-    md:group-hover:text-current/70
-  `),
-  lid: (isActive: boolean) => tw(`
+    text-xtiny text-current/60
+  `,
+  lid: `
     block
     uppercase
     font-mono
-    text-xtiny ${isActive ? 'text-current/50' : 'text-current/40'}
-    duration-300
-
-    md:group-hover:text-current/50
-  `),
+    text-xtiny text-current/50
+  `,
 });
 
 export default styles;

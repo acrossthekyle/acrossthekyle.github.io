@@ -16,8 +16,9 @@ const styles = tw({
     xl:gap-8
   `,
   item: `
-    font-mono
-    text-xtiny text-left
+    leading-[1.25]
+    font-sans font-light
+    text-tiny text-left
     uppercase
 
     md:text-right
@@ -28,8 +29,8 @@ const styles = tw({
   `,
   index: `
     block
-    font-normal
-    text-current/50
+    font-mono font-normal
+    text-xtiny
   `,
 });
 

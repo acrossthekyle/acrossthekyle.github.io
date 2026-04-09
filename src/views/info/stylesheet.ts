@@ -9,6 +9,10 @@ const styles = tw({
     text-xtiny
     uppercase
   `,
+  sticky: `
+    sticky top-12 z-10
+    self-start
+  `,
   heading: `
     flex-none
     w-24
@@ -37,8 +41,6 @@ const styles = tw({
 
     last:mb-0
   `,
-
-
   intro: `
     relative
     flex flex-col items-end gap-4
@@ -48,28 +50,26 @@ const styles = tw({
     md:flex-row
   `,
   float: `
-    absolute bottom-24
+    absolute bottom-33
   `,
   paragraph: `
     w-full
     leading-[1.25]
     font-sans font-light
-    text-xs
+    text-sm
 
     sm:w-80
     md:mr-4
 
     last:mr-0
   `,
-
-
   timeline: `
-    flex flex-col gap-6
+    flex flex-col gap-8
     font-sans font-light
   `,
   entry: `
     flex gap-16
-    text-xs
+    text-sm
     leading-[1]
   `,
   year: `
@@ -84,10 +84,6 @@ const styles = tw({
     uppercase
     text-xtiny text-current/80
   `,
-
-
-
-
   grid: `
     grid grid-cols-[14rem_14rem_14rem] gap-8
     columns-3

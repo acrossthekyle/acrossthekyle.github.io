@@ -1,44 +1,55 @@
 import tw from '@/styles';
 
 const styles = tw({
+  definition: `
+    flex justify-between
+    mb-4
+    w-full
+    font-mono
+    text-xtiny
+    uppercase
+  `,
+  intro: `
+    relative
+    flex flex-col justify-end gap-4
+    pt-104
+  `,
   description: `
     w-full
-    mt-10
-    leading-[1]
-    text-tiny text-current/50
-    font-mono
-    uppercase
+    mb-6
+    leading-[1.25]
+    text-sm
+    font-sans font-light
 
-    md:w-134
+    md:w-112
   `,
-  highlight: `
-    text-(--foreground)
+  sticky: `
+    absolute right-0 top-0 bottom-0 z-2
+    flex items-end
   `,
   map: `
+    sticky bottom-14
     relative
     w-full
-    mt-10 mb-10
 
     md:w-1/2
-    lg:absolute
-    lg:top-4
-    lg:right-4
-    lg:z-0
     lg:w-56
-    lg:mt-0
     xl:w-100
   `,
   album: `
-    my-10
+    absolute -top-20 right-0
     w-20
-    font-mono font-bold
-    text-tiny
+    mb-6
+    leading-[1]
+    font-sans font-light
+    text-tiny text-right
     uppercase
   `,
   lid: `
     block
-    font-mono
-    text-xtiny text-current/70
+    mt-1
+    font-mono font-normal
+    text-xtiny
   `,
   section: `
     relative
@@ -48,48 +59,39 @@ const styles = tw({
     lg:gap-12
   `,
   heading: `
+    sticky top-12 z-10
+    self-start
     flex-none
     w-24
     mb-2
-    font-mono font-bold
-    text-tiny
+    leading-[1]
+    font-sans font-black
+    text-sm
     uppercase
-    whitespace-nowrap
 
-    md:w-22
+    md:w-32
     lg:mb-0
-    xl:w-48
-  `,
-  eyebrow: `
-    block
-    font-normal
-    text-current/50
-
-    lg:inline-block
-    lg:mr-3
+    lg:w-48
   `,
   items: `
-    grid grid-cols-1
+    grid grid-cols-1 gap-y-4
 
     xs:grid-cols-2
-    sm:gap-x-10
+    sm:gap-x-4
     sm:grid-cols-3
-    md:grid-cols-4
     md:grid-rows-3
-    lg:gap-x-20
+    lg:gap-x-8
   `,
   item: `
-    mb-4
     font-mono
-    text-tiny text-current/70
+    text-xtiny
     uppercase
-    break-inside-avoid-column
   `,
   value: `
     block
     mt-0.5
-
-    text-(--foreground)
+    font-sans font-light
+    text-xs
   `,
 });
 

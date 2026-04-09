@@ -34,24 +34,28 @@ export default function View({ data }: Props) {
 
   return (
     <Content>
+      <div className={styles.definition} role="presentation">
+        <span>My</span>
+        <span>view</span>
+        <span>of</span>
+        <span>the</span>
+        <span>world</span>
+      </div>
       <Header>
         <HeaderEyebrow>[ 04 ]</HeaderEyebrow>
         <HeaderText>Albums</HeaderText>
         <HeaderSubtitle>Photographic Journal</HeaderSubtitle>
       </Header>
-      <p className={styles.description}>
-        <span className={styles.highlight}>The world</span> as seen <span className={styles.highlight}>through</span> the lens of <span className={styles.highlight}>my</span> various <span className={styles.highlight}>phone</span>s.
-      </p>
       <aside className={styles.aside}>
         <ul aria-label="stats" className={styles.stats}>
           <li>
-            <span className={styles.highlight}>{total}</span> albums
+            {total} albums
           </li>
           <li>
-            <span className={styles.highlight}>{data.files}</span> images
+            {data.files} images
           </li>
           <li>
-            <span className={styles.highlight}>{new Date().getFullYear() - 2015}</span> years
+            {new Date().getFullYear() - 2015} years
           </li>
         </ul>
       </aside>
@@ -73,12 +77,8 @@ export default function View({ data }: Props) {
                 <figcaption className={styles.caption}>
                   {album.title}
                   <ul className={styles.stats}>
-                    <li>
-                      <span className={styles.highlight}>{album.when}</span>
-                    </li>
-                    <li>
-                      <span className={styles.highlight}>{album.images.length}</span> images
-                    </li>
+                    <li>{album.when}</li>
+                    <li>{album.images.length} images</li>
                     <li>{album.coordinates}</li>
                   </ul>
                 </figcaption>

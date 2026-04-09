@@ -13,9 +13,9 @@ const INTERNAL = [
     title: 'Trails',
   },
   {
-    href: '/blog',
-    subtitle: 'Quick thoughts',
-    title: 'Miniblog',
+    href: '/thoughts',
+    subtitle: 'Quick reads',
+    title: 'Thoughts',
   },
   {
     href: '/albums',
@@ -23,17 +23,17 @@ const INTERNAL = [
     title: 'Albums',
   },
   {
-    href: '/info/books',
+    href: '/books',
     subtitle: `What I've read`,
     title: 'Books',
   },
   {
-    href: '/info/gear',
+    href: '/packs',
     subtitle: `What I carry`,
     title: 'Packs',
   },
   {
-    href: '/info/colophon',
+    href: '/colophon',
     subtitle: `How it's made`,
     title: 'Colophon',
   },

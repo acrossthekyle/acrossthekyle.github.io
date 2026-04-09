@@ -1,35 +1,16 @@
 import tw from '@/styles';
 
 const styles = tw({
-  items: `
-    flex flex-col gap-4
-
-    md:has-[li:hover]:[&_a]:text-current/40
-    md:has-[li:hover]:[&_button]:text-current/40
-    md:has-[li:hover]:[&_span]:text-current/40
-  `,
-  item: `
-    group
+  container: `
+    flex flex-col gap-1
+    mt-4
   `,
   link: `
-    block
-    font-mono font-black
-    text-xtiny text-current text-right
-    uppercase
-    duration-300
-    pl-3
-
-    md:hover:!text-current/100
+    text-xtiny
   `,
   text: `
-    block
-    normal-case
-    text-xtiny text-current/70
+    text-xtiny text-(--layout-foreground)
     whitespace-nowrap
-
-    md:group-hover:!text-current/70
-  `,
-  hierarchy: `
     truncate
 
     xl:max-w-46

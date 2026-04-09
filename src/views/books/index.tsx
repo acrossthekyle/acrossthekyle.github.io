@@ -4,7 +4,6 @@ import { Content } from '@/layout';
 import {
   Header,
   HeaderEyebrow,
-  HeaderPrefix,
   HeaderSubtitle,
   HeaderText,
 } from '@/ui/header';
@@ -25,21 +24,23 @@ type Props = {
 export default function View({ data }: Props) {
   return (
     <Content>
+      <div className={styles.definition} role="presentation">
+        <span>Non-fiction</span>
+        <span>Fiction</span>
+        <span>Science Fiction</span>
+      </div>
       <Header>
-        <HeaderEyebrow>[ 01-X01 ]</HeaderEyebrow>
-        <HeaderPrefix>
-          <Link href="/info">Info</Link>
-        </HeaderPrefix>
+        <HeaderEyebrow>[ 05 ]</HeaderEyebrow>
         <HeaderText>Books</HeaderText>
-        <HeaderSubtitle>What I've read</HeaderSubtitle>
+        <HeaderSubtitle>{data.books.length} reads and counting</HeaderSubtitle>
       </Header>
       <aside className={styles.aside}>
-        {data.books.length} items
+        *All amazon links are non-affiliated
       </aside>
       <ul className={styles.items}>
         {data.books.map((book, index: number) => (
           <li className={styles.item} key={book.title}>
-            <span className={styles.eyebrow}>[ 00-{padIndex(index + 1)} ]</span>
+            <span className={styles.index}>[ 00-{padIndex(index + 1)} ]</span>
             <Link
               href={`https://www.amazon.com/s?k=${book.title.replaceAll(' ', '+')}+${book.author.replaceAll(' ', '+')}&i=stripbooks`}
               target="_blank"

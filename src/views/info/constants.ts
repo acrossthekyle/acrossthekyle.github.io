@@ -24,7 +24,7 @@ export const TIMELINE = [
   },
   {
     year: 2008,
-    title: `Introduced to Halo series`,
+    title: `Introduced to Halo`,
   },
   {
     year: 2010,
@@ -51,7 +51,8 @@ export const TIMELINE = [
   },
   {
     year: 2022,
-    title: `Adopted our dog, Dax`,
+    title: `Adopted our dog`,
+    paragraph: `Dax`,
   },
   {
     year: new Date().getFullYear(),

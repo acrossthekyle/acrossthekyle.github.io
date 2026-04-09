@@ -42,7 +42,9 @@ export default function View({ data }: Props) {
   return (
     <Content>
       <Header>
-        <HeaderEyebrow>[ {data.image.src.split('-').pop()} ]</HeaderEyebrow>
+        <HeaderEyebrow>
+          [ {data.image.src.split('-').pop()} ]
+        </HeaderEyebrow>
         <HeaderPrefix>
           <Link href={`/albums/${data.album.id}`}>{data.album.title}</Link>
         </HeaderPrefix>
@@ -106,11 +108,13 @@ export default function View({ data }: Props) {
           <Link
             href={`/albums/${data.album.id}/${data.previous}`}
           >
-            Previous
+            [Previous]
           </Link>
         )}
         {data.next && (
-          <Link href={`/albums/${data.album.id}/${data.next}`}>Next</Link>
+          <Link href={`/albums/${data.album.id}/${data.next}`}>
+            [Next]
+          </Link>
         )}
       </nav>
       <Keyboard

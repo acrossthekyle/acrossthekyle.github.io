@@ -1,33 +1,16 @@
 import tw from '@/styles';
 
 const styles = tw({
-  highlight: `
-    text-(--foreground)
-  `,
-  aside: `
-    relative
-    mt-10
-    text-left
-    animate-flicker-in
-
-    sm:absolute
-    sm:top-3
-    sm:right-4
-    sm:mt-0
-    sm:text-right
-  `,
-  stats: `
-    flex flex-col gap-0.5
-    mt-2
-    leading-[1]
+  definition: `
+    flex justify-between
+    mb-4
+    w-full
     font-mono
-    text-xtiny text-current/70
+    text-xtiny
     uppercase
   `,
   items: `
     grid grid-cols-1 gap-4
-    mt-10
-    animate-fade-in
 
     xs:grid-cols-2
     sm:grid-cols-3
@@ -36,14 +19,14 @@ const styles = tw({
     xl:grid-cols-6
   `,
   item: `
-    mb-8
+    mt-8
     break-inside-avoid-column
   `,
   eyebrow: `
     block
     mb-2
-    font-mono
-    text-xtiny text-current/70
+    font-mono font-normal
+    text-xtiny
     uppercase
   `,
   figure: `
@@ -62,8 +45,16 @@ const styles = tw({
   `,
   caption: `
     leading-[1]
-    font-mono font-bold
-    text-tiny
+    font-sans font-light
+    text-sm
+    uppercase
+  `,
+  stats: `
+    flex flex-col gap-0.5
+    mt-2
+    leading-[1]
+    font-mono font-normal
+    text-xtiny
     uppercase
   `,
 });

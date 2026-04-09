@@ -24,16 +24,16 @@ const styles = tw({
     mr-2
   `,
   one: `
-    bg-[radial-gradient(8px_at_100%_100%,transparent_98%,var(--foreground))]
+    bg-[radial-gradient(8px_at_100%_100%,transparent_98%,var(--layout-background))]
   `,
   two: `
-    bg-[radial-gradient(8px_at_0%_100%,transparent_98%,var(--foreground))]
+    bg-[radial-gradient(8px_at_0%_100%,transparent_98%,var(--layout-background))]
   `,
   three: `
-    bg-[radial-gradient(8px_at_100%_0%,transparent_98%,var(--foreground))]
+    bg-[radial-gradient(8px_at_100%_0%,transparent_98%,var(--layout-background))]
   `,
   four: `
-    bg-[radial-gradient(8px_at_0%_0%,transparent_98%,var(--foreground))]
+    bg-[radial-gradient(8px_at_0%_0%,transparent_98%,var(--layout-background))]
   `,
 });
 

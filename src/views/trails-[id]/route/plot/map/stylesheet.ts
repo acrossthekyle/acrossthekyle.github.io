@@ -7,14 +7,14 @@ const styles = tw({
     overflow-hidden
 
     md:h-[42.25vh]
-    xl:h-[46vh]
+    xl:h-[58vh]
   `,
   map: `
     relative
     h-[39.5vh] w-full
 
     md:h-[42.25vh]
-    xl:h-[46vh]
+    xl:h-[58vh]
   `,
   current: `
     relative z-0

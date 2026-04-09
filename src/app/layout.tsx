@@ -58,7 +58,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: '#000000',
+  themeColor: '#0c0c0c',
 }
 
 export default async function RootLayout({ children }: React.PropsWithChildren) {
@@ -70,7 +70,7 @@ export default async function RootLayout({ children }: React.PropsWithChildren) 
 
   return (
     <html data-theme={theme} lang="en" suppressHydrationWarning>
-      <Body theme={theme}>
+      <Body>
         <Suspense fallback={null}>
           <HierarchyProvider>
             <UnitsProvider current={units}>

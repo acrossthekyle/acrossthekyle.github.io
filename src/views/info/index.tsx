@@ -1,5 +1,4 @@
 import { Content } from '@/layout';
-import Divider from '@/ui/divider';
 import {
   Header,
   HeaderEyebrow,
@@ -39,7 +38,6 @@ export default function View({ data }: Props) {
         <HeaderText>Info</HeaderText>
         <HeaderSubtitle>Bio, Resume, Etc.</HeaderSubtitle>
       </Header>
-      <Images />
       <section aria-label="introduction" className={styles.intro}>
         <h2 className={`${styles.heading} ${styles.float}`}>
           Hello
@@ -51,8 +49,9 @@ export default function View({ data }: Props) {
           Beyond the screen, I am an avid long-distance backpacker and traveler. Since discovering my passion for the trail in South America and completing a 600-mile thru-hike of the Camino de Santiago in Europe, I've continuously seeked out new adventures and new trails, both near and far, from my homebase in Chicago.
         </p>
       </section>
+      <Images />
       <section className={styles.section}>
-        <h2 className={styles.heading}>
+        <h2 className={`${styles.heading} ${styles.sticky}`}>
           History
           <span className={styles.subheading}>
             Moments that shaped my life
@@ -73,14 +72,14 @@ export default function View({ data }: Props) {
         </ul>
       </section>
       <section className={styles.section}>
-        <h2 className={styles.heading}>
+        <h2 className={`${styles.heading} ${styles.sticky}`}>
           Career
           <span className={styles.subheading}>
             Path I've taken
           </span>
         </h2>
         <ul className={styles.grid}>
-          {data.resume.map((item, index: number) => (
+          {data.resume.map((item) => (
             <li className={styles.item} key={item.place}>
               <span className={styles.eyebrow}>
                 [ {item.place} ]
@@ -99,7 +98,7 @@ export default function View({ data }: Props) {
         </ul>
       </section>
       <section className={styles.section}>
-        <h2 className={styles.heading}>
+        <h2 className={`${styles.heading} ${styles.sticky}`}>
           Expertise
           <span className={styles.subheading}>
             Areas where I excel

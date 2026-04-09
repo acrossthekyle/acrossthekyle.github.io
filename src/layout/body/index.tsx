@@ -1,5 +1,4 @@
 import { Geist, Roboto_Mono } from 'next/font/google';
-import Script from 'next/script';
 
 import styles from './stylesheet';
 
@@ -15,29 +14,9 @@ const robotoMono = Roboto_Mono({
   variable: '--font-roboto-mono',
 });
 
-type Props = {
-  theme: string;
-};
-
-export default function Body({
-  children,
-  theme,
-}: React.PropsWithChildren<Props>) {
+export default function Body({ children }: React.PropsWithChildren) {
   return (
-    <body
-      className={`${geistSans.variable} ${robotoMono.variable} ${styles.container}`}
-    >
-      {theme === 'auto' && (
-        <Script id="theme-script">
-          {`
-            (function() {
-              const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
-
-              document.documentElement.setAttribute('data-theme', prefersDark.matches ? 'dark' : 'light');
-            })();
-          `}
-        </Script>
-      )}
+    <body className={`${geistSans.variable} ${robotoMono.variable} ${styles.container}`}>
       {children}
     </body>
   );

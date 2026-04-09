@@ -1,37 +1,33 @@
 import tw from '@/styles';
 
 const styles = tw({
-  container: (isActive: boolean) => tw(`
+  container: `
+    flex gap-12
     w-full
-    p-3
     text-left
     uppercase
-    duration-300
-    rounded-md
-
-    ${isActive && `bg-(--background) text-(--foreground)`}
-    ${!isActive && `md:hover:bg-(--background)/12.5`}
-  `),
-  heading: `
-    flex flex-col gap-1
-    text-tiny
-    font-bold
-
-    lg:flex-row
-    lg:gap-4
   `,
   index: `
-    font-normal
-    opacity-70
+    font-mono font-normal
+    text-xtiny
+  `,
+  content: `
+    relative
+    flex flex-col gap-1
+    leading-[1]
+    text-xs
+    font-sans font-light
   `,
   items: `
-    mt-1
-
-    lg:ml-23.75
-  `,
-  item: `
+    font-mono font-normal
     text-xtiny
-    opacity-70
+    leading-[1.25]
+  `,
+  current: `
+    absolute top-0.5 -left-6
+    leading-[1]
+    font-mono font-bold
+    text-xtiny
   `,
 });
 

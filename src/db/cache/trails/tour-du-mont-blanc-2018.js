@@ -49,7 +49,7 @@ const data = {
   "end": {
     "label": "End",
     "value": {
-      "basic": "Bonatti",
+      "basic": "Le Peuty",
       "complex": {
         "imperial": "",
         "metric": ""

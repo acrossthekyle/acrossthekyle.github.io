@@ -1,49 +1,52 @@
 import tw from '@/styles';
 
 const styles = tw({
-  highlight: `
-    text-(--foreground)
+  definition: `
+    flex justify-between
+    mb-4
+    w-full
+    font-mono
+    text-xtiny
+    uppercase
   `,
   aside: `
     relative
     mt-10
     leading-[1]
     font-mono
-    text-xtiny text-current/70 text-left
+    text-xtiny text-left
     uppercase
-    animate-flicker-in
 
     sm:absolute
-    sm:top-3
+    sm:top-9
     sm:right-4
     sm:mt-0
     sm:text-right
   `,
   items: `
+    relative z-1
     columns-sm gap-4
     mt-10
-    animate-fade-in
   `,
   item: `
     flex gap-4
     mb-4
-    font-mono font-bold
-    text-xs
+    font-sans font-light
+    text-sm
     uppercase
     break-inside-avoid-column
   `,
-  eyebrow: `
+  index: `
     block
     mt-0.5
-    font-normal
-    text-xtiny text-current/50
-    normal-case
+    font-mono font-normal
+    text-xtiny
   `,
   lid: `
     block
     mt-0.5
-    font-normal
-    text-xtiny text-current/70
+    font-mono font-normal
+    text-xtiny
   `,
 });
 
