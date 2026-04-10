@@ -45,15 +45,16 @@ const styles = tw({
   `,
   caption: `
     leading-[1]
-    font-sans font-light
+    font-mono font-bold
     text-sm
     uppercase
+    truncate
   `,
   stats: `
     flex flex-col gap-0.5
     mt-2
     leading-[1]
-    font-mono font-normal
+    font-normal
     text-xtiny
     uppercase
   `,

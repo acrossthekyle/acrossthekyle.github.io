@@ -9,7 +9,7 @@ const grid = `
 const styles = tw({
   heading: `
     leading-[1.25]
-    font-sans font-light
+    font-mono font-normal
     text-tiny
     uppercase
     pl-1.5 pt-1.5

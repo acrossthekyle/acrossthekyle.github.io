@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 
 import styles from './stylesheet';
+import { calculateSunTimes } from './utils';
 
 export default function Clock() {
   const [dateTimeParts, setDateTimeParts] = useState<{ [key: string]: string | number }>({});
@@ -40,12 +41,18 @@ export default function Clock() {
     return () => clearInterval(interval);
   }, []);
 
+  const sunTimes = calculateSunTimes();
+
   return (
-    <>
-      M<span className={styles.highlight}>{dateTimeParts.month}</span>{' '}
-      D<span className={styles.highlight}>{dateTimeParts.day}</span>{' '}
-      Y<span className={styles.highlight}>{String(dateTimeParts.year).slice(-2)}</span>{' '}
-      T<span className={styles.highlight}>{dateTimeParts.hour}:{dateTimeParts.minute}:{dateTimeParts.second}</span>
-    </>
+    <div className={styles.times} role="presentation">
+      <span>
+        M{dateTimeParts.month}{' '}
+        D{dateTimeParts.day}{' '}
+        Y{String(dateTimeParts.year).slice(-2)}{' '}
+        T{dateTimeParts.hour}:{dateTimeParts.minute}:{dateTimeParts.second}
+      </span>
+      <span>rise: {sunTimes.sunrise} / set: {sunTimes.sunset}</span>
+      <span>Continuously copyrighted since 2011</span>
+    </div>
   );
 };

@@ -1,7 +1,6 @@
 import Link from 'next/link';
 
 import data from '@/db/config';
-import { ExternalIcon } from '@/ui/link';
 
 import Clock from './clock';
 import Hierarchy from './hierarchy';
@@ -21,17 +20,9 @@ export default function Footer({ theme }: Props) {
       <div className={styles.inner}>
         <section aria-label="copyright and settings items" className={styles.first}>
           <p className={styles.links}>
-            <span>Continuously copyrighted <span className={styles.highlight}>since 2011</span>. All bits reserved.</span>
-            <Link
-              href="https://www.websitecarbon.com/website/acrossthekyle-com/"
-              target="_blank"
-            >
-              <ExternalIcon>
-                <span className={styles.highlight}>A+</span> Carbon <span className={styles.highlight}>rating</span>
-              </ExternalIcon>
-            </Link>
             <Hierarchy />
           </p>
+          <Clock />
           <div className={styles.settings}>
             <Units />
             <Theme current={theme} />
@@ -40,23 +31,13 @@ export default function Footer({ theme }: Props) {
         </section>
         <section aria-label="meta data/easter eggs, external site links" className={styles.second}>
           <div className={styles.meta}>
-            <p>
-              <span className={styles.highlight}>41.8781</span>° N, <span className={styles.highlight}>87.6298</span>° W
-              <br />
-              <span className={styles.highlight}>Sol</span>, Orion Spur, <span className={styles.highlight}>Milky Way</span>
-              <br />
-              CT <span className={styles.highlight}>-5 GMT</span>
-              <br />
-              <Clock />
+            <p className={styles.highlight}>
+              41.8781° N, 87.6298° W<br />
+              Sol, Orion Spur, Milky Way
             </p>
             <p className={styles.right}>
-              <span className={styles.highlight}>01001011</span> 01011001 01001100 01000101
-              <br />
-              4B <span className={styles.highlight}>59</span> 4C 45
-              <br />
-              75 89 <span className={styles.highlight}>76</span> 69
-              <br />
-              -.- -.-- .-.. <span className={styles.highlight}>.</span>
+              01001110 01000011 01000011 0x6A5 13<br />
+              115 112 97 114 116 97 110 32 49 49 55
             </p>
           </div>
           <nav aria-label="main navigation" className={styles.navigation}>
@@ -73,10 +54,11 @@ export default function Footer({ theme }: Props) {
           KYL
         </Link>
         <p className={styles.compiled}>
-          Compiled on {data.lastUpdated}
+          Compiled on<br />{data.lastUpdated}
         </p>
-        <p>
-          See you out there
+        <p className={styles.tagline}>
+          See you<br />
+          out there
         </p>
       </section>
     </footer>

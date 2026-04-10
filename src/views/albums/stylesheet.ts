@@ -63,9 +63,10 @@ const styles = tw({
     md:group-hover:outline-(--foreground)
   `,
   caption: `
-    font-sans font-light
+    font-mono font-bold
     text-sm
     uppercase
+    truncate
   `,
 });
 

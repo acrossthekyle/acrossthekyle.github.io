@@ -24,7 +24,7 @@ export default function Footer({ more }: Props) {
       <Divider />
       <section className={styles.container}>
         <h2 className={styles.header}>
-          More
+          [More]
         </h2>
         <ul className={styles.items}>
           {more.map((item, index: number) => {

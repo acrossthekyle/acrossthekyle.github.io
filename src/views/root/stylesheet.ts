@@ -1,45 +1,61 @@
 import tw from '@/styles';
 
 const styles = tw({
-  heading: `
-    flex flex-col align-center justify-center
-    h-124
-    leading-[0.9]
-    text-xl text-center
-    font-sans font-black
-    uppercase
-
-    xs:text-3xl
-    sm:text-5xl
-    md:text-6xl
-    md:absolute
-    md:inset-0
-    md:z-1
-    md:h-auto
-  `,
-  subheading: `
-    block
-    mt-3
-    font-mono
+  definition: `
+    grid grid-cols-3
+    mb-4
+    w-full
+    font-mono font-normal
     text-xtiny
-  `,
-  content: `
-    flex-1
-    flex flex-col justify-between
-    w-102
-    leading-[1.25]
-    font-sans font-light
-    text-xs
     uppercase
   `,
-  small: `
+  header: `
+    flex justify-between items-start
+    w-full
+    leading-[1.75]
+    font-serif font-light
+    text-sm
+  `,
+  blurb: `
+    block
+    w-102
+  `,
+  subheader: `
+    font-mono font-normal
+    text-xtiny
+    uppercase
+    italic
+  `,
+  tagline: `
+    absolute left-4 bottom-3 right-4 z-1
+    grid grid-cols-3
+    text-xtiny
+    font-mono font-normal
+    uppercase
+  `,
+  links: `
+    flex gap-2 justify-center
     text-tiny
+    leading-[1]
+  `,
+  link: `
+    border-b-1 border-b-transparent border-dashed
+
+    hover:border-b-(--foreground)
+  `,
+  last: `
+    text-right
   `,
   aside: `
-    absolute bottom-4 right-4
+    absolute top-11.25 bottom-4 right-4
+    flex flex-col items-end justify-end
     leading-[1.25]
     text-right
     uppercase
+  `,
+  current: `
+    font-mono font-normal
+    text-xtiny
   `,
   times: `
     flex gap-4

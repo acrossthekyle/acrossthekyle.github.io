@@ -14,9 +14,10 @@ const styles = tw({
     w-full
     mb-2
     leading-[1]
-    font-sans font-black
-    text-sm
+    font-mono font-bold
+    text-xs
     uppercase
+    whitespace-nowrap
 
     md:w-22
     lg:mb-0
@@ -39,8 +40,9 @@ const styles = tw({
   `,
   link: `
     flex flex-col justify-between
-    text-2xl
-    font-sans font-light
+    leading-[1]
+    font-mono font-bold
+    text-xs
     uppercase
     rounded-md
     duration-300
@@ -50,13 +52,14 @@ const styles = tw({
   `,
   index: `
     block
+    mb-1
     font-mono font-normal
     text-xtiny
   `,
   list: `
     block
     w-36
-    mb-4
+    mt-1
     font-mono font-normal
     text-xtiny
 

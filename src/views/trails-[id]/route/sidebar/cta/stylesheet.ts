@@ -15,8 +15,9 @@ const styles = tw({
     relative
     flex flex-col gap-1
     leading-[1]
+    font-mono font-bold
     text-xs
-    font-sans font-light
+    uppercase
   `,
   items: `
     font-mono font-normal

@@ -12,31 +12,33 @@ const styles = tw({
   intro: `
     relative
     flex flex-col justify-end gap-4
-    h-123
-    mb-3
-    leading-[1.25]
-    font-sans font-light
+    h-126
+    mb-20
+    leading-[1.75]
+    font-serif font-light
     text-sm
 
-    sm:w-80
+    sm:w-110
   `,
   header: `
     leading-[1]
-    font-sans font-black
-    text-sm
+    font-mono font-bold
+    text-xs
     uppercase
+    whitespace-nowrap
   `,
   subheader: `
     block
-    mt-1
-    text-xtiny
-    font-mono font-normal
+    mt-6
+    leading-[1]
+    font-mono font-bold
+    text-sm
     uppercase
   `,
   section: `
     relative
     flex flex-col gap-4
-    mt-12 mb-12
+    mb-20
 
     lg:flex-row
     lg:gap-12
@@ -49,9 +51,10 @@ const styles = tw({
     flex-none
     w-24
     leading-[1]
-    font-sans font-black
-    text-sm
+    font-mono font-bold
+    text-xs
     uppercase
+    whitespace-nowrap
 
     md:w-32
     lg:w-48
@@ -60,12 +63,11 @@ const styles = tw({
     block
     mt-1.5
     leading-[1]
-    normal-case
-    font-light
-    text-xs
+    font-mono font-normal
+    text-xtiny
   `,
   items: `
-    flex flex-col gap-10
+    flex flex-col gap-12
   `,
   item: `
     flex flex-col gap-2
@@ -81,22 +83,17 @@ const styles = tw({
   title: `
     mb-4
     leading-[1]
-    font-sans font-bold
+    font-mono font-bold
     text-sm
-  `,
-  subtitle: `
-    block
-    mt-1
-    text-xtiny
-    font-mono font-normal
     uppercase
   `,
   content: `
     w-full
-    font-sans font-light
+    font-serif font-light
+    leading-[1.75]
     text-sm
 
-    sm:w-130
+    sm:w-110
   `,
 });
 

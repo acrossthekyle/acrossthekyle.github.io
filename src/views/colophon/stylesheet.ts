@@ -16,14 +16,15 @@ const styles = tw({
   heading: `
     absolute -top-8
     leading-[1]
-    font-sans font-black
-    text-sm
+    font-mono font-bold
+    text-xs
     uppercase
+    whitespace-nowrap
   `,
   paragraph: `
     w-full
-    leading-[1.25]
-    font-sans font-light
+    leading-[1.75]
+    font-serif font-light
     text-sm
 
     sm:w-94

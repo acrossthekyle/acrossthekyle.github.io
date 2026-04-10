@@ -1,7 +1,6 @@
 import Link from 'next/link';
 
 import { Content } from '@/layout';
-import Divider from '@/ui/divider';
 import {
   Header,
   HeaderEyebrow,
@@ -107,7 +106,7 @@ export default function View({ data }: Props) {
         </div>
         <section className={styles.section}>
           <h2 className={styles.heading}>
-            Info
+            [Info]
           </h2>
           <ul className={styles.items}>
             <li className={styles.item}>
@@ -165,10 +164,9 @@ export default function View({ data }: Props) {
           </ul>
         </section>
       </div>
-      <Divider />
       <section className={styles.section}>
         <h2 className={styles.heading}>
-          Route
+          [Route]
         </h2>
         <Route stages={data.trail.stages} />
       </section>

@@ -40,7 +40,7 @@ export default function Loading() {
             <span>[ Version: 1701.D/48632.4 ]</span>
           </div>
           <div className={styles.col}>
-            <span>[ S: 117 ]</span>
+            <span>[ S-117 ]</span>
           </div>
         </div>
         <p className={styles.location}>

@@ -11,17 +11,18 @@ const styles = tw({
   `,
   intro: `
     relative
-    flex flex-col justify-end gap-4
-    pt-104
+    mb-20
   `,
   description: `
+    flex items-end justify-end
     w-full
-    mb-6
-    leading-[1.25]
+    h-123
+    mb-20
+    leading-[1.75]
     text-sm
-    font-sans font-light
+    font-serif font-light
 
-    md:w-112
+    md:w-110
   `,
   sticky: `
     absolute right-0 top-0 bottom-0 z-2
@@ -41,7 +42,7 @@ const styles = tw({
     w-20
     mb-6
     leading-[1]
-    font-sans font-light
+    font-mono font-normal
     text-tiny text-right
     uppercase
   `,
@@ -65,9 +66,10 @@ const styles = tw({
     w-24
     mb-2
     leading-[1]
-    font-sans font-black
-    text-sm
+    font-mono font-bold
+    text-xs
     uppercase
+    whitespace-nowrap
 
     md:w-32
     lg:mb-0
@@ -90,8 +92,8 @@ const styles = tw({
   value: `
     block
     mt-0.5
-    font-sans font-light
-    text-xs
+    font-mono font-bold
+    text-tiny
   `,
 });
 

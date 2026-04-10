@@ -1,39 +1,35 @@
 const data = [
   {
-    "skills": ["Java|Type Script", "HTML", "CSS"],
-    "area": "Web Development",
+    "area": "UI/UX",
+    "skills": ["Java[Type]Script", "HTML", "CSS", "SVG"],
   },
   {
+    "area": "Server",
     "skills": ["Node", "MySQL", "PHP", "Apache|Nginx"],
-    "area": "Server Development",
   },
   {
-    "skills": ["Bash Scripting", "Ansible", "Testing"],
-    "area": "CI/CD Automation",
+    "area": "Automation",
+    "skills": ["Bash", "Ansible", "CI/CD"],
   },
   {
-    "skills": ["Java|Type Script", "React Native"],
-    "area": "Mobile Development",
+    "area": "Frameworks",
+    "skills": ["React // Native", "Laravel", "CodeIgniter", "NextJS", "Bootstrap", "Tailwind", "Maestro", "Playwright"],
   },
   {
-    "skills": ["React", "Laravel", "NextJS", "Bootstrap", "Tailwind"],
-    "area": "Code Frameworks",
-  },
-  {
-    "skills": ["Accessibility"],
     "area": "Inclusivity",
+    "skills": ["Accessibility"],
   },
   {
-    "skills": ["Thru-hikes", "Summits", "Gear specs"],
     "area": "Backpacking",
+    "skills": ["Thru-hikes", "Summits", "Gear specs"],
   },
   {
-    "skills": ["Conceptualizing"],
-    "area": "Imagination",
+    "area": "Planning",
+    "skills": ["Conceptualizing", "Scrum", "Agile", "Excel"],
   },
   {
-    "skills": ["Files", "Folders", "Bigger picture", "Packing"],
     "area": "Organization",
+    "skills": ["Files", "Folders", "Bigger picture", "Packing"],
   },
 ];
 

@@ -72,7 +72,7 @@ export default function View({ data }: Props) {
       </div>
       <section className={styles.section}>
         <h2 className={styles.heading}>
-          Thru-hikes
+          [Thru-hikes]
           <span className={styles.subheading}>
             End-to-end long-distance trails
           </span>
@@ -95,7 +95,7 @@ export default function View({ data }: Props) {
       </section>
       <section className={styles.section}>
         <h2 className={styles.heading}>
-          Section hikes
+          [Section hikes]
           <span className={styles.subheading}>
              Long-distance trail segments
           </span>
@@ -118,7 +118,7 @@ export default function View({ data }: Props) {
       </section>
       <section className={styles.section}>
         <h2 className={styles.heading}>
-          Weekend hikes
+          [Weekend hikes]
           <span className={styles.subheading}>
             Overnight loops/out-and-backs
           </span>
@@ -141,7 +141,7 @@ export default function View({ data }: Props) {
       </section>
       <section className={styles.section}>
         <h2 className={styles.heading}>
-          Summits
+          [Summits]
           <span className={styles.subheading}>
             Mountain peaks above the treeline
           </span>

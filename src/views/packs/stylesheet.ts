@@ -23,20 +23,20 @@ const styles = tw({
 
     ${isActive ? `bg-(--foreground) text-(--background)` : `text-(--foreground)`}
   `),
+  sticky: `
+    absolute right-4 top-20 bottom-4 z-2
+    flex items-start
+  `,
   aside: `
+    sticky top-14
     grid grid-cols-2 gap-4
-    mt-10
     font-mono font-normal
     text-xtiny
     uppercase
 
     motion-safe:animate-flicker-in
 
-    sm:mt-0
     sm:text-right
-    sm:absolute
-    sm:top-9
-    sm:right-4
   `,
   section: `
     relative
@@ -53,8 +53,8 @@ const styles = tw({
     flex-none
     w-24
     leading-[1]
-    font-sans font-black
-    text-sm
+    font-mono font-bold
+    text-xs
     uppercase
     whitespace-nowrap
 
@@ -63,7 +63,8 @@ const styles = tw({
   `,
   subheading: `
     block
-    mt-1
+    mt-1.5
+    leading-[1]
     font-mono font-normal
     text-xtiny
   `,
@@ -72,7 +73,8 @@ const styles = tw({
   `,
   item: `
     w-60
-    font-sans font-light
+    leading-[1]
+    font-mono font-bold
     text-xs
     uppercase
   `,
@@ -85,6 +87,7 @@ const styles = tw({
   `,
   lid: `
     block
+    pt-1
     font-mono font-normal
     text-xtiny
   `,

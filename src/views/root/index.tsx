@@ -1,37 +1,48 @@
+import Link from 'next/link';
+
 import { Content } from '@/layout';
 
 import styles from './stylesheet';
-import { calculateSunTimes } from './utils';
 
 export default function View() {
-  const sunTimes = calculateSunTimes();
-
   return (
     <Content>
-      <h1 className={styles.heading}>
-        Moving forward<br />intently
-        <span className={styles.subheading}>An M.O.</span>
+      <div className={styles.definition} role="presentation">
+        <span className="text-left">[ 1701.D/48632.4 ]</span>
+        <span className="text-center">[ 031320030422 ]</span>
+        <span className="text-right">[ Sierra-117 ]</span>
+      </div>
+      <h1 className={styles.header}>
+        <span className={styles.blurb}>
+          A self-taught software engineer and millennial who balances a lifelong passion for creating web apps with a love for long-distance backpacking adventures, and Star Trek.
+        </span>
+        <span className={styles.subheader}>
+          Currently building web apps between adventures in Chicago
+        </span>
       </h1>
-      <p className={styles.content}>
-        <span>
-          A self-taught software engineer and millennial who balances a lifelong passion for creating web apps with a love for long-distance backpacking adventures, and Star Trek
-        </span>
-        <span className={styles.small}>
-          Building web apps between adventures in Chicago
-        </span>
-      </p>
-      <aside className={styles.aside}>
-        <ul className={styles.times}>
-          <li>
-            <span className={styles.index}>Sunrise</span>
-            {sunTimes.sunrise}
-          </li>
-          <li>
-            <span className={styles.index}>Sunset</span>
-            {sunTimes.sunset}
-          </li>
-        </ul>
-      </aside>
+      <section aria-label="footer" className={styles.tagline}>
+        <p>Moving forward...</p>
+        <nav>
+          <ul className={styles.links}>
+            <li>
+              <Link className={styles.link} href="/info">Info</Link>
+            </li>
+            <span aria-hidden="true">//</span>
+            <li>
+              <Link className={styles.link} href="/trails">Trails</Link>
+            </li>
+            <span aria-hidden="true">//</span>
+            <li>
+              <Link className={styles.link} href="/thoughts">Thoughts</Link>
+            </li>
+            <span aria-hidden="true">//</span>
+            <li>
+              <Link className={styles.link} href="/albums">Albums</Link>
+            </li>
+          </ul>
+        </nav>
+        <p className={styles.last}>...with intent</p>
+      </section>
     </Content>
   );
 }

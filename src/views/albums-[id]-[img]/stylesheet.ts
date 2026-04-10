@@ -42,8 +42,8 @@ const styles = tw({
   navigation: `
     flex justify-between gap-4
     mt-6
-    font-mono font-normal
-    text-tiny
+    font-mono font-bold
+    text-xtiny
     uppercase
 
     md:absolute

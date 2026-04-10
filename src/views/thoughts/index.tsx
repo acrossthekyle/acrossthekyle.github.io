@@ -36,29 +36,29 @@ export default function View({ data }: Props) {
       </Header>
       <article className={styles.intro}>
         <h2 className={styles.header}>
-          Latest
+          [Latest]
           <span className={styles.subheader}>
-            {data[0].title} &mdash; {data[0].date}
+            {data[0].title}
+            <span className={styles.subheading}>{data[0].date}</span>
           </span>
         </h2>
-        <Markdown
-          components={{
-            p: ({ children }) => (
-              <p style={{ marginBottom: '1em' }}>
-                {children}
-              </p>
-            ),
-          }}
-        >
-          {data[0].content}
-        </Markdown>
+        <div className={styles.content}>
+          <Markdown
+            components={{
+              p: ({ children }) => (
+                <p style={{ marginBottom: '1em' }}>
+                  {children}
+                </p>
+              ),
+            }}
+          >
+            {data[0].content}
+          </Markdown>
+        </div>
       </article>
       <section className={styles.section}>
         <h2 className={styles.heading}>
-          Previous
-          <span className={styles.subheading}>
-            Older thoughts
-          </span>
+          [Archives]
         </h2>
         <ul className={styles.items}>
           {data.slice(1).map((item, index: number) => (
@@ -69,9 +69,7 @@ export default function View({ data }: Props) {
               <article className={styles.article}>
                 <h2 className={styles.title}>
                   {item.title}
-                  <span className={styles.subtitle}>
-                    {item.date} &mdash; {item.readingTime} min read
-                  </span>
+                  <span className={styles.subheading}>{item.date}</span>
                 </h2>
                 <div className={styles.content}>
                   <Markdown

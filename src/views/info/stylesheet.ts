@@ -17,25 +17,20 @@ const styles = tw({
     flex-none
     w-24
     leading-[1]
-    font-sans font-black
-    text-sm
+    font-mono font-bold
+    text-xs
     uppercase
     whitespace-nowrap
 
     md:w-32
     lg:w-64
   `,
-  subheading: `
-    block
-    mt-1.5
-    leading-[1]
-    normal-case
-    font-sans font-light
-    text-xs
+  small: `
+    text-tiny
   `,
   section: `
     flex flex-col gap-1
-    mb-24
+    mb-20
 
     md:flex-row
 
@@ -45,39 +40,43 @@ const styles = tw({
     relative
     flex flex-col items-end gap-4
     h-126
-    mb-12
+    mb-20
 
     md:flex-row
   `,
-  float: `
-    absolute bottom-33
-  `,
   paragraph: `
     w-full
-    leading-[1.25]
-    font-sans font-light
+    leading-[1.75]
+    font-serif font-light
     text-sm
 
-    sm:w-80
-    md:mr-4
+    sm:w-110
+    md:mr-8
 
     last:mr-0
   `,
-  timeline: `
+  list: `
     flex flex-col gap-8
-    font-sans font-light
-  `,
-  entry: `
-    flex gap-16
-    text-sm
     leading-[1]
+    font-mono
+    text-tiny
+    uppercase
+  `,
+  timeline: `
+    flex gap-12
+    leading-[1]
+    font-mono font-bold
+    text-tiny
+    uppercase
   `,
   year: `
+    block
+    w-16
     mt-0.5
     font-mono font-normal
     text-xtiny
   `,
-  small: `
+  details: `
     block
     mt-1
     font-mono font-normal
@@ -89,28 +88,36 @@ const styles = tw({
     columns-3
   `,
   item: `
-    font-sans font-light
+    leading-[1]
+    font-mono font-bold
     text-xs
     uppercase
     break-inside-avoid-column
   `,
   eyebrow: `
     block
-    mb-0.5
+    mb-0.75
     font-mono font-normal
     text-xtiny
   `,
   lid: `
     block
+    mt-0.75
     text-xtiny
     font-mono font-normal
   `,
   skill: `
     block
+    mt-0.5
     font-mono font-normal
     text-xtiny text-current/80
 
     first:mt-2
+  `,
+  link: `
+    border-b-1 border-b-transparent border-dashed
+
+    hover:border-b-(--foreground)
   `,
 });
 

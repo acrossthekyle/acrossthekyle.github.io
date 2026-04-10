@@ -2,7 +2,6 @@ export const TIMELINE = [
   {
     year: 1987,
     title: `First breath`,
-    paragraph: `Born in Illinois`,
   },
   {
     year: 1990,
@@ -11,12 +10,11 @@ export const TIMELINE = [
   {
     year: 1993,
     title: `Began formal education`,
-    paragraph: `Schafer Elementary`,
   },
   {
     year: 1995,
     title: `Reveled in Star Trek's golden age`,
-    paragraph: `The Next Generation, Deep Space 9, and Voyager`,
+    paragraph: `TNG // DS9 // VOY`,
   },
   {
     year: 2001,
@@ -29,7 +27,6 @@ export const TIMELINE = [
   {
     year: 2010,
     title: `Finished formal education`,
-    paragraph: `Bachelors of Science, Northern Illinois University`,
   },
   {
     year: 2012,
@@ -47,12 +44,11 @@ export const TIMELINE = [
   {
     year: 2020,
     title: `Met my partner`,
-    paragraph: `The old-fashioned way, at a wedding`,
+    paragraph: `The old-fashioned way // at a wedding`,
   },
   {
     year: 2022,
-    title: `Adopted our dog`,
-    paragraph: `Dax`,
+    title: `Adopted our dog, Dax`,
   },
   {
     year: new Date().getFullYear(),

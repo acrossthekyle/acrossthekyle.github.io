@@ -3,7 +3,6 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     flex flex-col gap-1
-    mt-4
   `,
   link: `
     text-xtiny

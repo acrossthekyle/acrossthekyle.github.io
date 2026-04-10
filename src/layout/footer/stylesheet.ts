@@ -3,27 +3,32 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     relative z-99
-    h-[calc(100vh-2rem)] w-full
+    h-[calc(100vh-1.75rem)] w-full
   `,
   inner: `
     flex flex-col justify-between
     h-[calc(100vh-4.5rem)]
     mx-3.5
-    border-b-1 border-b-(--layout-foreground)/20 border-dashed
   `,
   first: `
-    flex items-start justify-between
+    grid grid-cols-3
     pt-4
-    font-mono font-bold
+    font-mono font-normal
     uppercase
-    text-xtiny text-current/50
+    text-xtiny
     tracking-wide
   `,
   links: `
     flex flex-col gap-1
+    text-left
+  `,
+  times: `
+    flex flex-col gap-1
+    text-center
   `,
   settings: `
     flex flex-col gap-1
+    text-right
   `,
   button: `
     uppercase
@@ -31,12 +36,12 @@ const styles = tw({
   `,
   second: `
     flex flex-col justify-between
-    font-bold font-mono
-    text-xtiny text-current/50
+    font-mono font-normal
+    text-xtiny
     uppercase
   `,
   meta: `
-    flex justify-between
+    flex justify-between items-end
     tracking-widest
   `,
   right: `
@@ -47,14 +52,12 @@ const styles = tw({
   `,
   fixed: `
     fixed bottom-0 left-0 right-0 z-100
-    flex items-center justify-between
-    h-10
-    px-3.5
+    grid grid-cols-3
+    px-3.5 py-3
     bg-(--layout-background)
     uppercase
     text-xtiny
     font-mono font-bold
-    leading-[1]
     tracking-wide
   `,
   anchor: `
@@ -64,10 +67,14 @@ const styles = tw({
     tracking-tighter
   `,
   compiled: `
-    text-current/80
+    flex items-center justify-center
+    text-center text-current/80
+    leading-[1.1]
   `,
-  highlight: `
-    text-(--layout-foreground)
+  tagline: `
+    flex items-center justify-end
+    text-right
+    leading-[1.1]
   `,
 });
 

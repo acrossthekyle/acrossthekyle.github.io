@@ -29,6 +29,10 @@ export default function Callouts({ data }: Props) {
         className={styles.callout}
         href={`/trails/${data.trail.id}`}
       >
+        <Circle
+          aria-hidden="true"
+          className={`${styles.icon} ${styles.filled}`}
+        />
         Latest trail:{' '}
         <span className={styles.highlight}>{data.trail.title}</span>{' '}
         <span aria-hidden="true">[→]</span>

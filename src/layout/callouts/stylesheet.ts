@@ -16,7 +16,7 @@ const styles = tw({
     sm:items-center
   `,
   callout: `
-    flex gap-1 items-center
+    flex gap-2 items-center
   `,
   highlight: `
     font-bold

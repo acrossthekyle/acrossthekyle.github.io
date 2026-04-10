@@ -26,13 +26,14 @@ const styles = tw({
     relative
     flex flex-col items-end gap-4
     h-126
+    mb-20
 
     md:flex-row
   `,
   paragraph: `
     w-full
-    leading-[1.25]
-    font-sans font-light
+    leading-[1.75]
+    font-serif font-light
     text-sm
 
     sm:w-98
@@ -40,7 +41,7 @@ const styles = tw({
   section: `
     relative
     flex flex-col gap-4
-    mt-12 mb-12
+    mb-20
 
     lg:flex-row
     lg:gap-12
@@ -54,9 +55,10 @@ const styles = tw({
     w-24
     mb-2
     leading-[1]
-    font-sans font-black
-    text-sm
+    font-mono font-bold
+    text-xs
     uppercase
+    whitespace-nowrap
 
     md:w-32
     lg:mb-0
@@ -66,9 +68,8 @@ const styles = tw({
     block
     mt-1.5
     leading-[1]
-    normal-case
-    font-sans font-light
-    text-xs
+    font-mono font-normal
+    text-xtiny
   `,
   items: `
     flex flex-col gap-10
@@ -86,10 +87,10 @@ const styles = tw({
   `,
   link: `
     block
-    font-sans font-light
-    text-sm
-    uppercase
     leading-[1]
+    font-mono font-bold
+    text-xs
+    uppercase
     overflow-hidden
 
     md:duration-300

@@ -5,7 +5,7 @@ const styles = tw({
     flex flex-col gap-[1px]
     h-8
     -mx-4
-    bg-(--foreground)
+    bg-(--layout-background)
   `,
   upper: `
     h-4

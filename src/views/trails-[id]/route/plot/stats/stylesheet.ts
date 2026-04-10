@@ -17,7 +17,7 @@ const styles = tw({
   `,
   item: `
     leading-[1.25]
-    font-sans font-light
+    font-mono font-normal
     text-tiny text-left
     uppercase
 

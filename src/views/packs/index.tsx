@@ -99,7 +99,7 @@ export default function View({ data, index }: Props) {
           ))}
         </ul>
       </nav>
-      <aside>
+      <aside className={styles.sticky}>
         <ul className={styles.aside}>
           <li>
             Consumable Weight
@@ -130,7 +130,7 @@ export default function View({ data, index }: Props) {
       {current.categories.map((category, categoryIndex: number) => (
         <section className={styles.section} key={categoryIndex}>
           <h2 className={styles.heading}>
-            {category.title}
+            [{category.title}]
             <span className={styles.subheading}>
               <Weight weight={category.weight} />
             </span>
