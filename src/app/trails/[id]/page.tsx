@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Suspense } from 'react';
 
@@ -5,6 +6,10 @@ import Loading from '@/ui/loading';
 import View from '@/views/trails-[id]';
 
 import get from './get';
+
+export const metadata: Metadata = {
+  title: '01 Trails - Trail',
+};
 
 type Params = Promise<{
   id: string;

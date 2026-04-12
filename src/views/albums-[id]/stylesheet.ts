@@ -1,16 +1,16 @@
 import tw from '@/styles';
 
 const styles = tw({
-  definition: `
-    flex justify-between
-    mb-4
-    w-full
-    font-mono
-    text-xtiny
+  aside: `
+    absolute top-4 right-4 z-1
+    flex flex-col
+    font-mono font-normal
+    text-xtiny text-right
     uppercase
   `,
   items: `
-    grid grid-cols-1 gap-4
+    grid grid-cols-1 gap-4 gap-y-40
+    mt-10
 
     xs:grid-cols-2
     sm:grid-cols-3
@@ -19,7 +19,6 @@ const styles = tw({
     xl:grid-cols-6
   `,
   item: `
-    mt-8
     break-inside-avoid-column
   `,
   eyebrow: `
@@ -36,7 +35,7 @@ const styles = tw({
   `,
   image: `
     aspect-square
-    rounded-md
+    rounded-xs
     outline-1 outline-transparent
     duration-300
 

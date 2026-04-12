@@ -57,6 +57,7 @@ const data = {
     }
   },
   "id": "yellow-river-trail-2025",
+  "initials": "YRT",
   "location": "The Driftless Area, Iowa, USA",
   "position": [
     "47%",

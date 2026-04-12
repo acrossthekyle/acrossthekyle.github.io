@@ -39,20 +39,17 @@ type Props = {
 };
 
 export default function View({ data }: Props) {
-  const fileName = data.image.src.split('-').pop();
-
   return (
     <Content>
       <Header>
-        <HeaderEyebrow>
-          [ {(fileName || 'foo.jpeg').split('.')[1]} ]
-        </HeaderEyebrow>
-        <HeaderPrefix>
-          <Link href={`/albums/${data.album.id}`}>{data.album.title}</Link>
-        </HeaderPrefix>
+        <Link href={`/albums/${data.album.id}`}>
+          <HeaderPrefix>
+            {data.album.title}
+          </HeaderPrefix>
+        </Link>
         <HeaderText>IMG {padIndex(data.index + 1)}</HeaderText>
         <HeaderSubtitle>
-          {data.image.title}
+          [ Name: {data.image.title} ]
         </HeaderSubtitle>
       </Header>
       {data.image.exif && (

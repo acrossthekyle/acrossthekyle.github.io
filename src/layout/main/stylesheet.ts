@@ -11,7 +11,7 @@ const styles = tw({
   `,
   lower: `
     z-2
-    bottom-10
+    bottom-10.5
     -mt-2
   `,
   corner: `

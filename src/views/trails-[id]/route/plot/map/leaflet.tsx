@@ -25,6 +25,7 @@ type Props = {
   hoverIndex: number | null;
   latLongs: Gpx[];
   onClick: (index: number) => void;
+  theme: string;
 };
 
 interface GestureMap extends L.Map {
@@ -38,6 +39,7 @@ export default function Leaflet({
   hoverIndex,
   latLongs,
   onClick,
+  theme,
 }: Props) {
   const [data, setData] = useState<Gpx[]>([]);
 
@@ -98,7 +100,7 @@ export default function Leaflet({
       <TileLayer
         attribution="Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ"
         noWrap={true}
-        url={`https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png`}
+        url={`https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png`}
       />
       {data.map((segment, index: number) => {
         return (

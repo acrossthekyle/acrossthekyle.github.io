@@ -74,6 +74,7 @@ export async function go() {
           elevationLoss: '',
           end: '',
           id: data.id,
+          initials: data.initials,
           location: data.location,
           position: data.position,
           stages: [],
@@ -130,12 +131,13 @@ export async function go() {
       'trails.js',
       trails
         .sort((a, b) => b.timestamp - a.timestamp)
-        .map(({ albumId, coordinates, days, distance, id, location, position, title, type, when }) => ({
+        .map(({ albumId, coordinates, days, distance, id, initials, location, position, title, type, when }) => ({
           albumId,
           coordinates,
           days,
           distance,
           id,
+          initials,
           location,
           position,
           title,

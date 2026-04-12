@@ -18,7 +18,7 @@ const styles = tw({
     uppercase
 
     sm:absolute
-    sm:top-9
+    sm:top-11
     sm:right-4
     sm:mt-0
     sm:text-right
@@ -29,23 +29,23 @@ const styles = tw({
     mt-10
   `,
   item: `
-    flex gap-4
-    mb-4
-    font-sans font-light
-    text-sm
+    flex gap-12
+    mb-6
+    font-mono font-bold
+    text-xs
     uppercase
     break-inside-avoid-column
   `,
   index: `
     block
     mt-0.5
-    font-mono font-normal
+    font-normal
     text-xtiny
   `,
   lid: `
     block
     mt-0.5
-    font-mono font-normal
+    font-normal
     text-xtiny
   `,
 });

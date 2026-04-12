@@ -3,24 +3,19 @@ import styles from './stylesheet';
 
 const INTERNAL = [
   {
-    href: '/info',
-    subtitle: 'Bio, Resume, Etc.',
-    title: 'Info',
-  },
-  {
     href: '/trails',
     subtitle: 'Hikes and summits',
     title: 'Trails',
   },
   {
-    href: '/thoughts',
-    subtitle: 'Quick reads',
-    title: 'Thoughts',
-  },
-  {
     href: '/albums',
     subtitle: 'Photographic journal',
     title: 'Albums',
+  },
+  {
+    href: '/thoughts',
+    subtitle: 'Quick reads',
+    title: 'Thoughts',
   },
   {
     href: '/books',

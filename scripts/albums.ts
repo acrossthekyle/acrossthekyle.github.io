@@ -56,6 +56,7 @@ export async function go() {
     const data = JSON.parse(fs.readFileSync(`${input}/${file}`, 'utf8'));
 
     albums.push({
+      category: data.category,
       coordinates: data.coordinates,
       id: data.id,
       images: data.images,
@@ -71,7 +72,8 @@ export async function go() {
       'albums.js',
       albums
         .sort((a, b) => b.timestamp - a.timestamp)
-        .map(({ coordinates, id, images, location, title, when }) => ({
+        .map(({ category, coordinates, id, images, location, title, when }) => ({
+          category,
           coordinates,
           id,
           images,

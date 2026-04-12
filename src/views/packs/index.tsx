@@ -81,7 +81,7 @@ export default function View({ data, index }: Props) {
         <span>Loadouts</span>
       </div>
       <Header>
-        <HeaderEyebrow>[ 06 ]</HeaderEyebrow>
+        <HeaderEyebrow>[ 05 ]</HeaderEyebrow>
         <HeaderText>Packs</HeaderText>
         <HeaderSubtitle>What I carry on hikes</HeaderSubtitle>
       </Header>

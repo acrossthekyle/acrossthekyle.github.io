@@ -5,7 +5,7 @@ const styles = tw({
     fixed top-0 left-0 right-0 z-100
     flex flex-col items-start justify-between
     h-8
-    px-3
+    px-4
     bg-(--layout-background)
     font-mono
     text-xtiny

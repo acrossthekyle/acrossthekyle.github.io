@@ -57,6 +57,7 @@ const data = {
     }
   },
   "id": "annapurna-circuit-2019",
+  "initials": "ABC",
   "location": "The Himalayas, Nepal",
   "position": [
     "53%",

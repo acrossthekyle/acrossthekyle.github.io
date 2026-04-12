@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    block
+    flex items-start justify-between
     leading-[0.775]
     overflow-hidden
   `,

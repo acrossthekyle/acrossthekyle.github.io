@@ -30,7 +30,7 @@ export default function View({ data }: Props) {
         <span>Science Fiction</span>
       </div>
       <Header>
-        <HeaderEyebrow>[ 05 ]</HeaderEyebrow>
+        <HeaderEyebrow>[ 04 ]</HeaderEyebrow>
         <HeaderText>Books</HeaderText>
         <HeaderSubtitle>{data.books.length} reads and counting</HeaderSubtitle>
       </Header>

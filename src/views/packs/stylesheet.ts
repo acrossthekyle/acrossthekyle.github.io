@@ -24,11 +24,11 @@ const styles = tw({
     ${isActive ? `bg-(--foreground) text-(--background)` : `text-(--foreground)`}
   `),
   sticky: `
-    absolute right-4 top-20 bottom-4 z-2
+    absolute right-4 top-11 bottom-4 z-2
     flex items-start
   `,
   aside: `
-    sticky top-14
+    sticky top-12
     grid grid-cols-2 gap-4
     font-mono font-normal
     text-xtiny
@@ -74,7 +74,7 @@ const styles = tw({
   item: `
     w-60
     leading-[1]
-    font-mono font-bold
+    font-mono
     text-xs
     uppercase
   `,

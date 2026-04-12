@@ -22,14 +22,11 @@ export default function View() {
         <span>tick</span>
       </div>
       <Header>
-        <HeaderEyebrow>[ 07 ]</HeaderEyebrow>
+        <HeaderEyebrow>[ 06 ]</HeaderEyebrow>
         <HeaderText>Colophon</HeaderText>
         <HeaderSubtitle>How it's made</HeaderSubtitle>
       </Header>
       <section className={styles.section}>
-        <h2 className={styles.heading}>
-          [Inspired by others]
-        </h2>
         <p className={styles.paragraph}>
           Design ideas for this website came from multiple sources, with most found in the <Link href="https://deadsimplesites.com/" target="_blank"><ExternalIcon>deadsimplesites.com</ExternalIcon></Link> collection.
         </p>

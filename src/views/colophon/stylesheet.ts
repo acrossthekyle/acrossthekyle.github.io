@@ -24,8 +24,9 @@ const styles = tw({
   paragraph: `
     w-full
     leading-[1.75]
-    font-serif font-light
-    text-sm
+    font-sans font-light
+    text-tiny
+    uppercase
 
     sm:w-94
     md:mr-4

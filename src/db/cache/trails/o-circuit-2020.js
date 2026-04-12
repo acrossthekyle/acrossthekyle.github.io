@@ -57,6 +57,7 @@ const data = {
     }
   },
   "id": "o-circuit-2020",
+  "initials": "OC",
   "location": "Patagonia, Chile",
   "position": [
     "96%",

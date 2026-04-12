@@ -3,8 +3,8 @@ import Link from 'next/link';
 import { Content } from '@/layout';
 import {
   Header,
-  HeaderEyebrow,
   HeaderPrefix,
+  HeaderSubtitle,
   HeaderText,
 } from '@/ui/header';
 import { Image } from '@/ui/image';
@@ -40,18 +40,20 @@ type Props = {
 export default function View({ data }: Props) {
   return (
     <Content>
-      <div className={styles.definition} role="presentation">
+      <Header>
+        <Link href="/albums">
+          <HeaderPrefix>Albums</HeaderPrefix>
+        </Link>
+        <HeaderText>{data.album.title}</HeaderText>
+        <HeaderSubtitle>
+          [ A-{padIndex(data.index)} ]
+        </HeaderSubtitle>
+      </Header>
+      <aside aria-label="album stats and info" className={styles.aside}>
         <span>{data.album.when}</span>
         <span>{data.album.images.length} images</span>
         <span>{data.album.coordinates}</span>
-      </div>
-      <Header>
-        <HeaderEyebrow>[ A-{padIndex(data.index)} ]</HeaderEyebrow>
-        <HeaderPrefix>
-          <Link href="/albums">Albums</Link>
-        </HeaderPrefix>
-        <HeaderText>{data.album.title}</HeaderText>
-      </Header>
+      </aside>
       <ul className={styles.items}>
         {data.album.images.map((image, index: number) => {
           const img = image.src.split('-').pop();

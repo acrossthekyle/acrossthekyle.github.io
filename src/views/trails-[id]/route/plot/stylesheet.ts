@@ -7,7 +7,7 @@ const styles = {
     mt-1
     h-[calc(100vh-6.25rem)]
     w-full
-    rounded-md
+    rounded-xs
     border border-(--foreground)/10
     overflow-hidden
     duration-300

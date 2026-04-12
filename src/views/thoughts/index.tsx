@@ -25,9 +25,8 @@ export default function View({ data }: Props) {
   return (
     <Content>
       <div className={styles.definition} role="presentation">
-        <span>Ideas</span>
-        <span>and</span>
-        <span>opinions</span>
+        <span>{data.length} Ideas</span>
+        <span>{data.length} minutes</span>
       </div>
       <Header>
         <HeaderEyebrow>[ 03 ]</HeaderEyebrow>

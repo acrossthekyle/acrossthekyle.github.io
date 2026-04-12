@@ -1,7 +1,12 @@
+import type { Metadata } from 'next';
 import { Suspense } from 'react';
 
 import Loading from '@/ui/loading';
 import View from '@/views/colophon';
+
+export const metadata: Metadata = {
+  title: '⁰⁶ Colophon',
+};
 
 export default function Page() {
   return (

@@ -9,19 +9,6 @@ const styles = tw({
     text-xtiny
     uppercase
   `,
-  aside: `
-    relative
-    mt-10
-    text-left
-
-    motion-safe:animate-flicker-in
-
-    sm:absolute
-    sm:top-9
-    sm:right-4
-    sm:mt-0
-    sm:text-right
-  `,
   stats: `
     flex flex-col gap-0.5
     mt-1
@@ -31,14 +18,16 @@ const styles = tw({
     uppercase
   `,
   albums: `
-    grid grid-cols-1 gap-4
+    grid grid-cols-1 gap-4 gap-y-40
+    mt-10
 
-    sm:grid-cols-2
-    md:grid-cols-3
-    lg:grid-cols-4
+    xs:grid-cols-2
+    sm:grid-cols-3
+    md:grid-cols-4
+    lg:grid-cols-5
+    xl:grid-cols-6
   `,
   album: `
-    mt-8
     break-inside-avoid-column
   `,
   eyebrow: `
@@ -55,7 +44,7 @@ const styles = tw({
   `,
   image: `
     aspect-square
-    rounded-md
+    rounded-xs
     duration-300
     outline-1 outline-transparent
 

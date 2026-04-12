@@ -197,7 +197,7 @@ function getMax(elevation) {
   const value = Math.max(...elevation);
 
   return {
-    label: 'Max altitude',
+    label: 'Highest point',
     value: {
       basic: '',
       complex: {

@@ -2,12 +2,16 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    block
+    flex items-center gap-1
     mb-1
     leading-[1]
     font-mono font-bold
     text-xtiny
     uppercase
+  `,
+  icon: `
+    inline-block
+    w-3 h-3
   `,
 });
 

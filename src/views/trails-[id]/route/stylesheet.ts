@@ -15,7 +15,7 @@ const styles = tw({
     uppercase
     border-1 border-(--foreground)
     py-1 px-1.25
-    rounded-sm
+    rounded-xs
     bg-(--foreground)
     text-(--background)
 
@@ -26,7 +26,7 @@ const styles = tw({
     mt-1
     h-[72vh]
     w-full
-    rounded-md
+    rounded-xs
     border border-(--foreground)/20
     overflow-hidden
     duration-300

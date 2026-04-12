@@ -14,6 +14,7 @@ const data = [
       }
     },
     "id": "river-ridge-trail-2026",
+    "initials": "RRT",
     "location": "Illinois, USA",
     "position": [
       "49.5%",
@@ -38,6 +39,7 @@ const data = [
       }
     },
     "id": "yellow-river-trail-2025",
+    "initials": "YRT",
     "location": "The Driftless Area, Iowa, USA",
     "position": [
       "47%",
@@ -62,6 +64,7 @@ const data = [
       }
     },
     "id": "tour-du-mont-blanc-2024",
+    "initials": "TMB",
     "location": "The Alps, Europe",
     "position": [
       "45%",
@@ -86,6 +89,7 @@ const data = [
       }
     },
     "id": "gr20-2023",
+    "initials": "GR20",
     "location": "Corsica, France",
     "position": [
       "49%",
@@ -158,6 +162,7 @@ const data = [
       }
     },
     "id": "ice-age-trail-2022",
+    "initials": "IAT",
     "location": "Wisconsin",
     "position": [
       "48%",
@@ -182,6 +187,7 @@ const data = [
       }
     },
     "id": "west-highland-way-2022",
+    "initials": "WHW",
     "location": "Highlands, Scotland",
     "position": [
       "38.5%",
@@ -326,6 +332,7 @@ const data = [
       }
     },
     "id": "o-circuit-2020",
+    "initials": "OC",
     "location": "Patagonia, Chile",
     "position": [
       "96%",
@@ -350,6 +357,7 @@ const data = [
       }
     },
     "id": "annapurna-circuit-2019",
+    "initials": "ABC",
     "location": "The Himalayas, Nepal",
     "position": [
       "53%",
@@ -422,6 +430,7 @@ const data = [
       }
     },
     "id": "alta-via-1-2019",
+    "initials": "AV1",
     "location": "The Dolomites, Italy",
     "position": [
       "45.5%",
@@ -446,6 +455,7 @@ const data = [
       }
     },
     "id": "tour-du-mont-blanc-2018",
+    "initials": "TMB",
     "location": "The Alps, Europe",
     "position": [
       "45%",
@@ -470,6 +480,7 @@ const data = [
       }
     },
     "id": "camino-frances-2018",
+    "initials": "CDS",
     "location": "Northern Spain",
     "position": [
       "48%",

@@ -57,6 +57,7 @@ const data = {
     }
   },
   "id": "river-ridge-trail-2026",
+  "initials": "RRT",
   "location": "Illinois, USA",
   "position": [
     "49.5%",

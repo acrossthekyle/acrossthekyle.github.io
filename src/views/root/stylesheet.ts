@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   definition: `
-    grid grid-cols-3
+    grid grid-cols-2
     mb-4
     w-full
     font-mono font-normal
@@ -10,61 +10,106 @@ const styles = tw({
     uppercase
   `,
   header: `
-    flex justify-between items-start
-    w-full
-    leading-[1.75]
-    font-serif font-light
-    text-sm
+    w-84
+    leading-[0.85]
+    font-mono font-normal
+    text-lg
+    uppercase
+    tracking-tight
   `,
-  blurb: `
-    block
-    w-102
+  introduction: `
+    relative
+    flex justify-start items-end gap-8
+    h-[58vh]
   `,
   subheader: `
-    font-mono font-normal
-    text-xtiny
-    uppercase
-    italic
-  `,
-  tagline: `
-    absolute left-4 bottom-3 right-4 z-1
-    grid grid-cols-3
-    text-xtiny
-    font-mono font-normal
-    uppercase
-  `,
-  links: `
-    flex gap-2 justify-center
-    text-tiny
+    block
+    mt-4
     leading-[1]
-  `,
-  link: `
-    border-b-1 border-b-transparent border-dashed
-
-    hover:border-b-(--foreground)
-  `,
-  last: `
-    text-right
-  `,
-  aside: `
-    absolute top-11.25 bottom-4 right-4
-    flex flex-col items-end justify-end
-    leading-[1.25]
-    text-right
+    font-mono font-normal
+    text-tiny
     uppercase
   `,
-  current: `
-    font-mono font-normal
-    text-xtiny
+  section: `
+    relative
+    ml-[24vw] mb-20
+    font-mono
+    uppercase
+
+    last:mb-0
   `,
-  times: `
-    flex gap-4
-    font-mono font-normal
-    text-xtiny
+  arrow: `
+    w-2.25 h-2.25
+  `,
+  start: `
+    flex items-start
+  `,
+  heading: `
+    sticky top-10
+    self-start
+    flex justify-between gap-16
+    mb-2
+    leading-[1]
+    text-sm
   `,
   index: `
+    text-xtiny text-current/80
+    font-normal
+  `,
+  subheading: `
+    flex items-center gap-1
+    text-xtiny
+    font-normal
+  `,
+  categories: `
+    flex flex-col gap-12
+    ml-40
+  `,
+  category: `
+    flex flex-col
+  `,
+  summary: `
+    sticky top-15.5
+    self-start
+    flex justify-between gap-8
+    w-full
+    leading-[1]
+    text-xs
+  `,
+  label: `
     block
-    mb-0.5
+    w-34
+    ml-8
+  `,
+  subsummary: `
+    font-normal
+    text-xtiny
+  `,
+  items: `
+    flex flex-col gap-6
+    ml-54 mt-2
+  `,
+  item: `
+    flex gap-8
+  `,
+  link: `
+    w-48
+    text-xs
+    rounded-xs
+
+    md:-m-2
+    md:p-2
+    md:duration-300
+    md:hover:bg-(--foreground)/2.5
+  `,
+  title: `
+    flex items-center gap-1
+  `,
+  stats: `
+    flex flex-col gap-0.5
+    mt-1
+    font-normal
+    text-xtiny text-current/80
   `,
 });
 

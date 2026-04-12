@@ -2,20 +2,37 @@ import tw from '@/styles';
 
 const styles = tw({
   divider: `
-    flex flex-col gap-[1px]
-    h-8
+    flex flex-col
+    h-4
     -mx-4
-    bg-(--layout-background)
   `,
-  upper: `
-    h-4
-    rounded-b-lg
-    bg-(--background)
+  corners: `
+    flex justify-between
+    w-full
   `,
-  lower: `
-    h-4
-    rounded-t-lg
-    bg-(--background)
+  border: `
+    border-t-2 border-t-(--layout-background)
+  `,
+  corner: `
+    w-2 h-2
+  `,
+  left: `
+    ml-2
+  `,
+  right: `
+    mr-2
+  `,
+  one: `
+    bg-[radial-gradient(8px_at_100%_100%,transparent_98%,var(--layout-background))]
+  `,
+  two: `
+    bg-[radial-gradient(8px_at_0%_100%,transparent_98%,var(--layout-background))]
+  `,
+  three: `
+    bg-[radial-gradient(8px_at_100%_0%,transparent_98%,var(--layout-background))]
+  `,
+  four: `
+    bg-[radial-gradient(8px_at_0%_0%,transparent_98%,var(--layout-background))]
   `,
 });
 

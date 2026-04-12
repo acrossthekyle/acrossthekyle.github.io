@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Suspense } from 'react';
 
@@ -10,6 +11,18 @@ type Params = Promise<{
   id: string;
   img: string;
 }>;
+
+type GenerateMetadata = {
+  params: Params;
+};
+
+export async function generateMetadata({ params }: GenerateMetadata): Promise<Metadata> {
+  const { img } = await params;
+
+  return {
+    title: `Album / ${img.toUpperCase()}`,
+  };
+};
 
 export default async function Page({
   params,

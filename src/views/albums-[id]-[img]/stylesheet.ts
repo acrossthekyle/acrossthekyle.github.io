@@ -5,7 +5,7 @@ const styles = tw({
     relative
     mt-6
     overflow-hidden
-    rounded-md
+    rounded-xs
 
     md:absolute
     md:top-4
@@ -16,7 +16,7 @@ const styles = tw({
   `,
   image: `
     aspect-square
-    rounded-md
+    rounded-xs
 
     md:aspect-3/2
   `,

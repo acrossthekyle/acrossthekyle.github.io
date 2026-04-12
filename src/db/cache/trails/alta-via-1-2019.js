@@ -49,7 +49,7 @@ const data = {
   "end": {
     "label": "End",
     "value": {
-      "basic": "Citta de Fume",
+      "basic": "La Pissa",
       "complex": {
         "imperial": "",
         "metric": ""
@@ -57,6 +57,7 @@ const data = {
     }
   },
   "id": "alta-via-1-2019",
+  "initials": "AV1",
   "location": "The Dolomites, Italy",
   "position": [
     "45.5%",

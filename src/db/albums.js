@@ -1,5 +1,6 @@
 const data = [
   {
+    "category": "hike",
     "coordinates": "40.007973° N, 87.571681° W",
     "id": "river-ridge-trail-2026",
     "images": [
@@ -33,6 +34,7 @@ const data = [
     "when": "03 14-15 2026"
   },
   {
+    "category": "hike",
     "coordinates": "45.890167° N, 6.797842° E",
     "id": "tour-du-mont-blanc-2024",
     "images": [
@@ -174,6 +176,7 @@ const data = [
     "when": "07 27 / 08 06 2024"
   },
   {
+    "category": "hike",
     "coordinates": "43.171257° N, 91.259365° W",
     "id": "yellow-river-trail-2025",
     "images": [
@@ -207,6 +210,7 @@ const data = [
     "when": "10 18-19 2025"
   },
   {
+    "category": "destination",
     "coordinates": "46.204391° N, 6.143158° E",
     "id": "geneva-switzerland-2024",
     "images": [
@@ -252,6 +256,7 @@ const data = [
     "when": "07 24-25 2024"
   },
   {
+    "category": "destination",
     "coordinates": "41.926667° N, 8.736944° E",
     "id": "corsica-2023",
     "images": [
@@ -297,6 +302,7 @@ const data = [
     "when": "07 05-07 2023"
   },
   {
+    "category": "hike",
     "coordinates": "42.50742° N, 8.85544° E",
     "id": "gr20-2023",
     "images": [
@@ -462,6 +468,7 @@ const data = [
     "when": "06 21 / 07 03 2023"
   },
   {
+    "category": "destination",
     "coordinates": "25.695700° N, 32.647400° E",
     "id": "luxor-2023",
     "images": [
@@ -591,6 +598,7 @@ const data = [
     "when": "01 03-06 2023"
   },
   {
+    "category": "destination",
     "coordinates": "30.033333° N, 31.233334° E",
     "id": "cairo-2022",
     "images": [
@@ -648,6 +656,7 @@ const data = [
     "when": "12 29 2022 / 01 02 2023"
   },
   {
+    "category": "hike",
     "coordinates": "42.876001° N, 88.525661° W",
     "id": "ice-age-trail-2022",
     "images": [
@@ -693,6 +702,7 @@ const data = [
     "when": "07 15 2022"
   },
   {
+    "category": "hike",
     "coordinates": "55.943977° N, 4.319957° W",
     "id": "west-highland-way-2022",
     "images": [
@@ -774,6 +784,7 @@ const data = [
     "when": "05 07-12 2022"
   },
   {
+    "category": "destination",
     "coordinates": "18.466333° N, 66.105722° W",
     "id": "san-juan-2022",
     "images": [
@@ -819,6 +830,7 @@ const data = [
     "when": "03 22-25 2022"
   },
   {
+    "category": "hike",
     "coordinates": "50.965190° S, 72.863461° W",
     "id": "o-circuit-2020",
     "images": [
@@ -924,6 +936,7 @@ const data = [
     "when": "02 18-25 2020"
   },
   {
+    "category": "hike",
     "coordinates": "28.239145° N, 84.369334° E",
     "id": "annapurna-circuit-2019",
     "images": [
@@ -1149,6 +1162,7 @@ const data = [
     "when": "10 19 / 11 06 2019"
   },
   {
+    "category": "destination",
     "coordinates": "28.209600° N, 83.985600° E",
     "id": "pokhara-2019",
     "images": [
@@ -1194,6 +1208,7 @@ const data = [
     "when": "11 06-08 2019"
   },
   {
+    "category": "hike",
     "coordinates": "39.7392° N, 104.9903° W",
     "id": "southern-rockies-2019",
     "images": [
@@ -1311,6 +1326,7 @@ const data = [
     "when": "08 31 2019"
   },
   {
+    "category": "hike",
     "coordinates": "46.699222° N, 12.085207° E",
     "id": "alta-via-1-2019",
     "images": [
@@ -1440,6 +1456,7 @@ const data = [
     "when": "07 16-25 2019"
   },
   {
+    "category": "hike",
     "coordinates": "45.890196° N, 6.798325° E",
     "id": "tour-du-mont-blanc-2018",
     "images": [
@@ -1593,6 +1610,7 @@ const data = [
     "when": "09 02-13 2018"
   },
   {
+    "category": "hike",
     "coordinates": "43.163415° N, 1.235811° W",
     "id": "camino-frances-2018",
     "images": [
@@ -1986,6 +2004,7 @@ const data = [
     "when": "06 02 / 07 04 2018"
   },
   {
+    "category": "destination",
     "coordinates": "51.730894° S, 72.497741° W",
     "id": "patagonia-2016",
     "images": [
@@ -2031,6 +2050,7 @@ const data = [
     "when": "03 25-27 2016"
   },
   {
+    "category": "destination",
     "coordinates": "33.448890° S, 70.669265° W",
     "id": "santiago-and-valparaiso-2016",
     "images": [
@@ -2088,6 +2108,7 @@ const data = [
     "when": "03 18-24 2016"
   },
   {
+    "category": "destination",
     "coordinates": "34.905556° S, 56.185251° W",
     "id": "montevideo-2015",
     "images": [
@@ -2109,6 +2130,7 @@ const data = [
     "when": "03 23-25 2015"
   },
   {
+    "category": "destination",
     "coordinates": "34.603723° S, 58.381593° W",
     "id": "buenos-aires-2015",
     "images": [

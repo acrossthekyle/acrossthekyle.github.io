@@ -14,11 +14,6 @@ const styles = tw({
     flex flex-col justify-end gap-4
     h-126
     mb-20
-    leading-[1.75]
-    font-serif font-light
-    text-sm
-
-    sm:w-110
   `,
   header: `
     leading-[1]
@@ -89,9 +84,10 @@ const styles = tw({
   `,
   content: `
     w-full
-    font-serif font-light
-    leading-[1.75]
-    text-sm
+    leading-[1.25]
+    font-sans font-light
+    text-xs
+    uppercase
 
     sm:w-110
   `,

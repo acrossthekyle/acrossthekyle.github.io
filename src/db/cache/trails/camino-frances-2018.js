@@ -49,7 +49,7 @@ const data = {
   "end": {
     "label": "End",
     "value": {
-      "basic": "Olveiroa",
+      "basic": "Fisterra",
       "complex": {
         "imperial": "",
         "metric": ""
@@ -57,6 +57,7 @@ const data = {
     }
   },
   "id": "camino-frances-2018",
+  "initials": "CDS",
   "location": "Northern Spain",
   "position": [
     "48%",

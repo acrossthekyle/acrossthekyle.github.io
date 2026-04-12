@@ -65,7 +65,7 @@ export default function Elevation({ stages }: Props) {
             },
             fill: {
               type: 'solid',
-              colors: ['var(--foreground)'],
+              colors: ['var(--layout-background)'],
             },
             stroke: {
               colors: ['transparent'],

@@ -2,14 +2,12 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
+    relative z-10
     flex flex-col gap-6
 
     lg:flex-row
-    lg:gap-12
   `,
   header: `
-    sticky top-12 z-10
-    self-start
     flex-none
     w-full
     mb-2
@@ -19,9 +17,9 @@ const styles = tw({
     uppercase
     whitespace-nowrap
 
-    md:w-22
+    md:w-32
     lg:mb-0
-    xl:w-48
+    lg:w-48
   `,
   items: `
     flex flex-col gap-6
@@ -40,11 +38,12 @@ const styles = tw({
   `,
   link: `
     flex flex-col justify-between
+    w-full
     leading-[1]
     font-mono font-bold
     text-xs
     uppercase
-    rounded-md
+    rounded-xs
     duration-300
 
     md:p-2

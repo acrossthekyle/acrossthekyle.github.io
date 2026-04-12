@@ -57,6 +57,7 @@ const data = {
     }
   },
   "id": "tour-du-mont-blanc-2024",
+  "initials": "TMB",
   "location": "The Alps, Europe",
   "position": [
     "45%",

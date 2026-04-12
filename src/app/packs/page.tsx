@@ -1,9 +1,14 @@
+import type { Metadata } from 'next';
 import { Suspense } from 'react';
 
 import Loading from '@/ui/loading';
 import View from '@/views/packs';
 
 import get from './get';
+
+export const metadata: Metadata = {
+  title: '⁰⁵ Packs',
+};
 
 type Params = {
   searchParams: { [key: string]: string | undefined };

@@ -18,12 +18,12 @@ const styles = tw({
   `,
   current: `
     relative z-0
-    stroke-4 stroke-[#0c0c0c]
+    stroke-4 stroke-[#fffdf7]
   `,
   marker: `
     relative
-    stroke-8 stroke-[#0c0c0c]
-    fill-[#0c0c0c]
+    stroke-8 stroke-[#fffdf7]
+    fill-[#fffdf7]
   `,
 });
 

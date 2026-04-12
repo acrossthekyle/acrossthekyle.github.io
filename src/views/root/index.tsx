@@ -1,48 +1,63 @@
-import Link from 'next/link';
-
 import { Content } from '@/layout';
+import Divider from '@/ui/divider';
 
+import Albums from './albums';
+import Images from './images';
 import styles from './stylesheet';
+import Trails from './trails';
 
-export default function View() {
+type Props = {
+  data: {
+    albums: Array<{
+      coordinates: string;
+      id: string;
+      location: string;
+      title: string;
+      when: string;
+    }>;
+    resume: Array<{
+      place: string;
+      title: string;
+      when: string;
+    }>;
+    trails: Array<{
+      coordinates: string;
+      id: string;
+      location: string;
+      skipTrail: boolean;
+      title: string;
+      type: string;
+      when: string;
+    }>;
+  };
+};
+
+export default function View({ data }: Props) {
   return (
     <Content>
       <div className={styles.definition} role="presentation">
-        <span className="text-left">[ 1701.D/48632.4 ]</span>
-        <span className="text-center">[ 031320030422 ]</span>
-        <span className="text-right">[ Sierra-117 ]</span>
+        <span className="text-left">
+          Ver: 1701.D.48632.4 <span className="lowercase">c097d8d315b47fa992dfdeb3e6415e2dcd90e532</span>
+        </span>
+        <span className="text-right italic">Moving forward with intent</span>
       </div>
       <h1 className={styles.header}>
-        <span className={styles.blurb}>
-          A self-taught software engineer and millennial who balances a lifelong passion for creating web apps with a love for long-distance backpacking adventures, and Star Trek.
+        <span className="italic">A</span> Chicago-based millennial who balances long-distance trails & wild places with a career in software engineering.
+      </h1>
+      <section aria-label="introduction" className={styles.introduction}>
+        <span className={styles.subheader}>
+          <span className="italic">Next adventure:</span><br />
+            Salkantay Trek, Peru // Jul 26
         </span>
         <span className={styles.subheader}>
-          Currently building web apps between adventures in Chicago
+          <span className="italic">Current book:</span><br />
+            Deaths end // Cixin Liu
         </span>
-      </h1>
-      <section aria-label="footer" className={styles.tagline}>
-        <p>Moving forward...</p>
-        <nav>
-          <ul className={styles.links}>
-            <li>
-              <Link className={styles.link} href="/info">Info</Link>
-            </li>
-            <span aria-hidden="true">//</span>
-            <li>
-              <Link className={styles.link} href="/trails">Trails</Link>
-            </li>
-            <span aria-hidden="true">//</span>
-            <li>
-              <Link className={styles.link} href="/thoughts">Thoughts</Link>
-            </li>
-            <span aria-hidden="true">//</span>
-            <li>
-              <Link className={styles.link} href="/albums">Albums</Link>
-            </li>
-          </ul>
-        </nav>
-        <p className={styles.last}>...with intent</p>
+        <Images />
       </section>
+      <Divider />
+      <Trails data={data.trails} />
+      <Albums data={data.albums} />
     </Content>
   );
 }

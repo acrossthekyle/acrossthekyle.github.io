@@ -35,30 +35,15 @@ export default function View({ data }: Props) {
   return (
     <Content>
       <div className={styles.definition} role="presentation">
-        <span>My</span>
-        <span>view</span>
-        <span>of</span>
-        <span>the</span>
-        <span>world</span>
+        <span>{total} albums</span>
+        <span>{data.files} images</span>
+        <span>{new Date().getFullYear() - 2015} years</span>
       </div>
       <Header>
-        <HeaderEyebrow>[ 04 ]</HeaderEyebrow>
+        <HeaderEyebrow>[ 02 ]</HeaderEyebrow>
         <HeaderText>Albums</HeaderText>
         <HeaderSubtitle>Photographic Journal</HeaderSubtitle>
       </Header>
-      <aside className={styles.aside}>
-        <ul aria-label="stats" className={styles.stats}>
-          <li>
-            {total} albums
-          </li>
-          <li>
-            {data.files} images
-          </li>
-          <li>
-            {new Date().getFullYear() - 2015} years
-          </li>
-        </ul>
-      </aside>
       <nav aria-label="album navigation">
         <ul className={styles.albums}>
           {data.albums.map((album, index: number) => (
@@ -78,6 +63,7 @@ export default function View({ data }: Props) {
                   {album.title}
                   <ul className={styles.stats}>
                     <li>{album.when}</li>
+                    <li>{album.location}</li>
                     <li>{album.images.length} images</li>
                     <li>{album.coordinates}</li>
                   </ul>

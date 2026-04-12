@@ -57,6 +57,7 @@ const data = {
     }
   },
   "id": "gr20-2023",
+  "initials": "GR20",
   "location": "Corsica, France",
   "position": [
     "49%",

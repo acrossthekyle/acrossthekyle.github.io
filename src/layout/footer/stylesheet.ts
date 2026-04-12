@@ -53,7 +53,8 @@ const styles = tw({
   fixed: `
     fixed bottom-0 left-0 right-0 z-100
     grid grid-cols-3
-    px-3.5 py-3
+    h-10.5
+    px-3.5
     bg-(--layout-background)
     uppercase
     text-xtiny
@@ -61,6 +62,7 @@ const styles = tw({
     tracking-wide
   `,
   anchor: `
+    mt-3.25
     leading-[0.775]
     font-sans font-black
     text-xl
@@ -69,12 +71,12 @@ const styles = tw({
   compiled: `
     flex items-center justify-center
     text-center text-current/80
-    leading-[1.1]
+    leading-[1.25]
   `,
   tagline: `
     flex items-center justify-end
     text-right
-    leading-[1.1]
+    leading-[1.25]
   `,
 });
 

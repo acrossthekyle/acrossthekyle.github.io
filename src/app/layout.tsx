@@ -10,50 +10,18 @@ import { Body, Callouts, Footer, Main } from '@/layout';
 
 import get from './get';
 
-const description = `Kyle is a Chicago-based self-taught software engineer and millennial who balances his lifelong passion for creating web apps with a love for long-distance backpacking adventures, and star trek.`;
-
 export const metadata: Metadata = {
   title: {
-    template: `Kyle Gilbert • %s`,
+    template: `%s`,
     default: 'Kyle Gilbert',
-  },
-  keywords: [
-    'across',
-    'the',
-    'kyle',
-    'Kyle',
-    'Gilbert',
-    'Thru-hiker',
-    'Backpacker',
-    'UI Developer',
-    'Software Engineer',
-  ],
-  description,
-  authors: [{ name: 'Kyle Gilbert' }],
-  referrer: 'origin-when-cross-origin',
-  formatDetection: {
-    email: false,
-    address: false,
-    telephone: false,
-  },
-  robots: {
-    index: true,
-    follow: true,
   },
   openGraph: {
     title: 'Kyle Gilbert',
-    description,
-    url: 'https://acrossthekyle.com',
-    siteName: 'acrossthekyle',
     images: [
       {
-        url: 'https://ik.imagekit.io/acrossthekyle/uploads/8ed54501-bdcb-40b7-9387-f2fc306db83d.png?q=80',
-        width: 800,
-        height: 600,
+        url: 'https://ik.imagekit.io/acrossthekyle/uploads/811aea50-4482-4e4a-9813-3dbb9e80a9ab.jpg',
       },
     ],
-    locale: 'en_US',
-    type: 'website',
   },
 };
 
@@ -66,15 +34,15 @@ export default async function RootLayout({ children }: React.PropsWithChildren) 
   const theme = cookieStore.get('theme')?.value || 'auto';
   const units = cookieStore.get('units')?.value || 'imperial';
 
-  const data = await get();
+  const { job, trails } = await get();
 
   return (
-    <html data-theme={theme} lang="en" suppressHydrationWarning>
+    <html data-theme={theme} lang="en-US" suppressHydrationWarning>
       <Body>
         <Suspense fallback={null}>
           <HierarchyProvider>
             <UnitsProvider current={units}>
-              <Callouts data={data} />
+              <Callouts data={{ job, trail: trails.recent }} />
               <Main>
                 {children}
               </Main>
