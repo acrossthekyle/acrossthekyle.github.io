@@ -1,3 +1,4 @@
+import { SquareChevronLeft, SquareChevronRight } from 'lucide-react';
 import Link from 'next/link';
 
 import { Content } from '@/layout';
@@ -47,46 +48,58 @@ export default function View({ data }: Props) {
             {data.album.title}
           </HeaderPrefix>
         </Link>
-        <HeaderText>IMG {padIndex(data.index + 1)}</HeaderText>
+        <HeaderText>IMG-{padIndex(data.index + 1)}</HeaderText>
         <HeaderSubtitle>
-          [ Name: {data.image.title} ]
+          {data.image.title}
         </HeaderSubtitle>
       </Header>
       {data.image.exif && (
         <ul aria-label="image exif data" className={styles.items}>
           {data.image.exif?.camera !== null && (
             <li className={styles.item}>
-              <span className={styles.eyebrow}>Camera</span>
+              <span className={styles.eyebrow}>
+                [Camera]
+              </span>
               {data.image.exif?.camera}
             </li>
           )}
           {data.image.exif?.iso !== null && (
             <li className={styles.item}>
-              <span className={styles.eyebrow}>ISO</span>
+              <span className={styles.eyebrow}>
+                [ISO]
+              </span>
               {data.image.exif?.iso}
             </li>
           )}
           {data.image.exif?.focal !== null && (
             <li className={styles.item}>
-              <span className={styles.eyebrow}>Focal length</span>
+              <span className={styles.eyebrow}>
+                [Focal length]
+              </span>
               {data.image.exif?.focal} mm
             </li>
           )}
           {data.image.exif?.exposure !== null && (
             <li className={styles.item}>
-              <span className={styles.eyebrow}>Exposure</span>
+              <span className={styles.eyebrow}>
+                [Exposure]
+              </span>
               {data.image.exif?.exposure} ev
             </li>
           )}
           {data.image.exif?.fnumber !== null && (
             <li className={styles.item}>
-              <span className={styles.eyebrow}>F-number</span>
+              <span className={styles.eyebrow}>
+                [F-number]
+              </span>
               <span className={styles.emphasis}>f</span>/{data.image.exif?.fnumber}
             </li>
           )}
           {data.image.exif?.aperture !== null && (
             <li className={styles.item}>
-              <span className={styles.eyebrow}>Aperture</span>
+              <span className={styles.eyebrow}>
+                [Aperture]
+              </span>
               {data.image.exif?.aperture} <span className={styles.emphasis}>s</span>
             </li>
           )}
@@ -99,22 +112,29 @@ export default function View({ data }: Props) {
           src={data.image.src}
         />
       </figure>
-      <nav
-        aria-label="album photos supplementary navigation"
-        className={styles.navigation}
-      >
-        {data.previous && (
-          <Link
-            href={`/albums/${data.album.id}/${data.previous}`}
-          >
-            [Previous]
-          </Link>
-        )}
-        {data.next && (
-          <Link href={`/albums/${data.album.id}/${data.next}`}>
-            [Next]
-          </Link>
-        )}
+      <nav aria-label="album photos supplementary navigation">
+        <ul className={styles.navigation}>
+          <li>
+            {data.previous && (
+              <Link
+                className={styles.link}
+                href={`/albums/${data.album.id}/${data.previous}`}
+              >
+                <SquareChevronLeft className={styles.kbd} /> Previous
+              </Link>
+            )}
+          </li>
+          <li>
+            {data.next && (
+              <Link
+                className={`${styles.link} ${styles.end}`}
+                href={`/albums/${data.album.id}/${data.next}`}
+              >
+                Next <SquareChevronRight className={styles.kbd} />
+              </Link>
+            )}
+          </li>
+        </ul>
       </nav>
       <Keyboard
         albumId={data.album.id}

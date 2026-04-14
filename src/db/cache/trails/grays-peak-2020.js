@@ -13,6 +13,7 @@ const data = {
   "continent": "North America",
   "coordinates": "39.6338° N, 105.8176° W",
   "days": "1",
+  "duration": "4 hours",
   "description": [
     "Grays Peak was a stunning finale to my Colorado 14'er trip, with the entire hike starting above the treeline. The sunrise, 360-degree summit views, and alpine landscapes made it a magical way to end the weekend."
   ],
@@ -57,6 +58,7 @@ const data = {
     }
   },
   "id": "grays-peak-2020",
+  "initials": "GRPK",
   "location": "Front Range, Colorado, USA",
   "position": [
     "50.5%",
@@ -75,7 +77,7 @@ const data = {
         }
       },
       "altitudeMax": {
-        "label": "Max altitude",
+        "label": "Highest point",
         "value": {
           "basic": "",
           "complex": {

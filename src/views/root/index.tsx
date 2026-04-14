@@ -9,7 +9,9 @@ import Trails from './trails';
 type Props = {
   data: {
     albums: Array<{
+      category: string;
       coordinates: string;
+      count: number;
       id: string;
       location: string;
       title: string;
@@ -24,7 +26,6 @@ type Props = {
       coordinates: string;
       id: string;
       location: string;
-      skipTrail: boolean;
       title: string;
       type: string;
       when: string;
@@ -34,10 +35,10 @@ type Props = {
 
 export default function View({ data }: Props) {
   return (
-    <Content>
+    <Content className={styles.container}>
       <div className={styles.definition} role="presentation">
         <span className="text-left">
-          Ver: 1701.D.48632.4 <span className="lowercase">c097d8d315b47fa992dfdeb3e6415e2dcd90e532</span>
+          Ver: 48632.4
         </span>
         <span className="text-right italic">Moving forward with intent</span>
       </div>

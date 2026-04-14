@@ -1,27 +1,12 @@
 import tw from '@/styles';
 
 const styles = tw({
-  definition: `
-    flex justify-between
-    mb-4
+  header: `
+    grid grid-cols-2 gap-0
     w-full
     font-mono
     text-xtiny
     uppercase
-  `,
-  aside: `
-    relative
-    mt-10
-    leading-[1]
-    font-mono
-    text-xtiny text-left
-    uppercase
-
-    sm:absolute
-    sm:top-11
-    sm:right-4
-    sm:mt-0
-    sm:text-right
   `,
   items: `
     relative z-1
@@ -30,8 +15,8 @@ const styles = tw({
   `,
   item: `
     flex gap-12
-    mb-6
-    font-mono font-bold
+    mb-12
+    font-mono
     text-xs
     uppercase
     break-inside-avoid-column
@@ -47,6 +32,11 @@ const styles = tw({
     mt-0.5
     font-normal
     text-xtiny
+  `,
+  link: `
+    border-b-1 border-b-transparent border-dashed
+
+    hover:border-b-(--foreground)
   `,
 });
 

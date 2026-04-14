@@ -9,6 +9,7 @@ type Props = {
   data: Array<{
     category: string;
     coordinates: string;
+    count: number;
     id: string;
     location: string;
     title: string;
@@ -23,19 +24,23 @@ export default function Albums({ data }: Props) {
   const categories = [
     {
       description: 'Snapshots of mountains and forests',
+      id: 'from-the-trail',
       items: hikes,
       label: 'From the trail',
+      tag: 'Landscape',
     },
     {
       description: 'Pictures from travels near and far',
+      id: 'destinations',
       items: destinations,
       label: 'Destinations',
+      tag: 'Cityscape',
     },
   ];
 
   return (
     <section className={styles.section}>
-      <h2 className={styles.heading}>
+      <h2 className={styles.heading} id="albums">
         <span className={styles.start}>
           <span className={styles.index}>
             [ 00-02 ]
@@ -49,7 +54,7 @@ export default function Albums({ data }: Props) {
       <ul className={styles.categories}>
         {categories.map((category, index: number) => (
           <li className={styles.category} key={category.label}>
-            <h3 className={styles.summary}>
+            <h3 className={styles.summary} id={category.id}>
               <span className={styles.start}>
                 <span className={styles.index}>
                   [ 00-02.{padIndex(index + 1)} ]
@@ -73,8 +78,8 @@ export default function Albums({ data }: Props) {
                     </span>
                     <ul className={styles.stats}>
                       <li>{item.when}</li>
-                      <li>{item.location}</li>
-                      <li>{item.coordinates}</li>
+                      <li>{item.count} images</li>
+                      <li>{category.tag}</li>
                     </ul>
                   </Link>
                 </li>

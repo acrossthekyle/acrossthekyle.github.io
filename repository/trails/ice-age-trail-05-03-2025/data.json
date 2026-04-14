@@ -1,0 +1,33 @@
+{
+  "date": [
+    "5/03/2025"
+  ],
+  "days": "1",
+  "timestamp": "1657904400",
+  "id": "ice-age-trail-05-03-2025",
+  "albumId": "ice-age-trail-section-hike",
+  "type": "section hike",
+  "continent": "north america",
+  "location": "Ice Age Trail, Mauthe Lake, Wisconsin, USA",
+  "coordinates": "43.736385° N, 88.101430° W",
+  "position": [
+    "48%",
+    "20%"
+  ],
+  "title": "IAT: Parnell Segment",
+  "initials": "IAT",
+  "description": [
+    "A place of kettles and moraines from mile-thick glaciers long ago in Wisconsin, completing this 1,200 mile long-distance national scenic trail in sections takes time. It's not the distance on this trail that gets you; it's the constant up and down over rolling hills."
+  ],
+  "tags": [
+    "short",
+    "distance",
+    "midwest",
+    "overnight"
+  ],
+  "termini": "Butler Lake to Parnell Shelter",
+  "gain": "653",
+  "loss": "562",
+  "miles": "8.46",
+  "minutes": "288"
+}

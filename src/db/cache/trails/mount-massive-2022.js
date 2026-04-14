@@ -13,6 +13,7 @@ const data = {
   "continent": "North America",
   "coordinates": "39.1872° N, 106.4753° W",
   "days": "1",
+  "duration": "4 hours",
   "description": [
     "Mount Massive challenged me with rocky ridges, windy summits, and steep switchbacks, but the views made every step worth it. Reaching the top and looking out toward Mount Elbert was an unforgettable Colorado moment."
   ],
@@ -57,6 +58,7 @@ const data = {
     }
   },
   "id": "mount-massive-2022",
+  "initials": "MAS",
   "location": "Sawatch Range, Colorado, USA",
   "position": [
     "50.5%",
@@ -75,7 +77,7 @@ const data = {
         }
       },
       "altitudeMax": {
-        "label": "Max altitude",
+        "label": "Highest point",
         "value": {
           "basic": "",
           "complex": {

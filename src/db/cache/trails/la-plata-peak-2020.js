@@ -13,6 +13,7 @@ const data = {
   "continent": "North America",
   "coordinates": "39.0295° N, 106.4730° W",
   "days": "1",
+  "duration": "5 hours",
   "description": [
     "Camping near the trailhead made La Plata Peak feel more approachable despite its technical challenges. Hiking six hours to the summit rewarded me with alpine scenery, hidden snow patches, and a peaceful sense of solitude."
   ],
@@ -57,6 +58,7 @@ const data = {
     }
   },
   "id": "la-plata-peak-2020",
+  "initials": "LPP",
   "location": "Sawatch Range, Colorado, USA",
   "position": [
     "50.5%",
@@ -75,7 +77,7 @@ const data = {
         }
       },
       "altitudeMax": {
-        "label": "Max altitude",
+        "label": "Highest point",
         "value": {
           "basic": "",
           "complex": {

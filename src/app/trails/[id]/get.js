@@ -22,6 +22,7 @@ export default async function get(id) {
     const trail = await import(`@/db/cache/trails/${id}.js`);
 
     return {
+      index: trails.length - foundIndex,
       more,
       photos,
       trail: trail.default,

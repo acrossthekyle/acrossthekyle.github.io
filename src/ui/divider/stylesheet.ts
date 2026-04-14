@@ -4,7 +4,7 @@ const styles = tw({
   divider: `
     flex flex-col
     h-4
-    -mx-4
+    -mx-4 -mt-2
   `,
   corners: `
     flex justify-between

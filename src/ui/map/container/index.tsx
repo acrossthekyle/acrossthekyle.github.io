@@ -1,17 +1,15 @@
 import Image from 'next/image';
 
-import styles from './stylesheet';
-
 type Props = {
   className?: string;
 };
 
 export default function Container({
   children,
-  className = '',
+  className,
 }: React.PropsWithChildren<Props>) {
   return (
-    <figure className={`${styles.container} ${className}`.trim()}>
+    <figure className={className}>
       <Image
         alt=""
         height={432}

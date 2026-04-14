@@ -1,27 +1,18 @@
-import type { Stage } from '../types';
+import type { Stage, Trail } from '../types';
 
 import Context from './context';
+import Map from './map';
 import Sidebar from './sidebar';
-import Plot from './plot';
-import styles from './stylesheet';
-import Toggle from './toggle';
 
 type Props = {
-  stages: Stage[];
+  trail: Trail;
 };
 
-export default function Route({ stages }: Props) {
+export default function Route({ trail }: Props) {
   return (
-    <div className={styles.container}>
-      <Context>
-        {stages.length > 1 && (
-          <>
-            <Toggle />
-            <Sidebar stages={stages} />
-          </>
-        )}
-        <Plot stages={stages} />
-      </Context>
-    </div>
+    <Context>
+      <Map stages={trail.stages} />
+      <Sidebar trail={trail} />
+    </Context>
   );
 }

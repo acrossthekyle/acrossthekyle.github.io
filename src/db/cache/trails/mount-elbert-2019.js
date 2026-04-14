@@ -13,6 +13,7 @@ const data = {
   "continent": "North America",
   "coordinates": "39.1177° N, 106.4453° W",
   "days": "1",
+  "duration": "5 hours",
   "description": [
     "I tackled my first 14'er in Colorado with a mix of excitement and nerves, testing both my body and my courage at high altitude. Reaching the summit of Mt. Elbert rewarded me with stunning 360-degree views and a sense of achievement I will never forget."
   ],
@@ -57,6 +58,7 @@ const data = {
     }
   },
   "id": "mount-elbert-2019",
+  "initials": "ELB",
   "location": "Sawatch Range, Colorado, USA",
   "position": [
     "50.5%",
@@ -75,7 +77,7 @@ const data = {
         }
       },
       "altitudeMax": {
-        "label": "Max altitude",
+        "label": "Highest point",
         "value": {
           "basic": "",
           "complex": {

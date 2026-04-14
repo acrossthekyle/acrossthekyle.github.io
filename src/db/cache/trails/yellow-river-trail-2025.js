@@ -13,6 +13,7 @@ const data = {
   "continent": "north america",
   "coordinates": "43.1713° N, 91.2594° W",
   "days": "2",
+  "duration": "2 days",
   "description": [
     "Known for its unglaciated, hilly landscape, this remote counterclockwise backpacking loop in the Driftless Area of Iowa showcases the state's most rugged terrain with a route that crosses ravines, climbs sandstone bluffs, and provides views of the surrounding hardwood forests and wildlife."
   ],
@@ -76,7 +77,7 @@ const data = {
         }
       },
       "altitudeMax": {
-        "label": "Max altitude",
+        "label": "Highest point",
         "value": {
           "basic": "",
           "complex": {
@@ -1167,7 +1168,7 @@ const data = {
         }
       },
       "altitudeMax": {
-        "label": "Max altitude",
+        "label": "Highest point",
         "value": {
           "basic": "",
           "complex": {

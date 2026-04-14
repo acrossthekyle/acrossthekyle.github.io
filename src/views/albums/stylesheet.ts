@@ -1,9 +1,8 @@
 import tw from '@/styles';
 
 const styles = tw({
-  definition: `
-    flex justify-between
-    mb-4
+  header: `
+    grid grid-cols-2 gap-0
     w-full
     font-mono
     text-xtiny
@@ -18,7 +17,7 @@ const styles = tw({
     uppercase
   `,
   albums: `
-    grid grid-cols-1 gap-4 gap-y-40
+    grid grid-cols-1 gap-4 gap-y-0
     mt-10
 
     xs:grid-cols-2
@@ -28,6 +27,7 @@ const styles = tw({
     xl:grid-cols-6
   `,
   album: `
+    mb-56
     break-inside-avoid-column
   `,
   eyebrow: `
@@ -44,16 +44,16 @@ const styles = tw({
   `,
   image: `
     aspect-square
-    rounded-xs
+    rounded-md
+    opacity-100
     duration-300
-    outline-1 outline-transparent
 
     sm:aspect-3/2
-    md:group-hover:outline-(--foreground)
+    md:group-hover:opacity-75
   `,
   caption: `
-    font-mono font-bold
-    text-sm
+    font-mono
+    text-xs
     uppercase
     truncate
   `,

@@ -8,7 +8,7 @@ import View from '@/views/trails-[id]';
 import get from './get';
 
 export const metadata: Metadata = {
-  title: '01 Trails - Trail',
+  title: '⁽ ⁰¹ ⁾ Trails - Hikes and summits - Trail',
 };
 
 type Params = Promise<{

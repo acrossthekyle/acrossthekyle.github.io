@@ -13,6 +13,7 @@ const data = {
   "continent": "north america",
   "coordinates": "40.0080° N, 87.5717° W",
   "days": "2",
+  "duration": "2 days",
   "description": [
     "The River Ridge Backpack Trail at Forest Glen Preserve in Westville, Illinois, is a relatively moderate 10.5 mile loop designed for beginner backpackers, featuring steep ravines, creek crossings, and ridge-top hiking. It is widely considered one of the few true backpacking experiences in Illinois, often completed as an overnight trip with two dedicated primitive campsites."
   ],
@@ -76,7 +77,7 @@ const data = {
         }
       },
       "altitudeMax": {
-        "label": "Max altitude",
+        "label": "Highest point",
         "value": {
           "basic": "",
           "complex": {
@@ -1167,7 +1168,7 @@ const data = {
         }
       },
       "altitudeMax": {
-        "label": "Max altitude",
+        "label": "Highest point",
         "value": {
           "basic": "",
           "complex": {

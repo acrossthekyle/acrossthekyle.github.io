@@ -39,6 +39,8 @@
     --background: #fefff5;
     --foreground: #0c0c0c;
 
+    --map-filter: sepia(0.25);
+
     --grid-gap: 9px;
     --grid-opacity: 0.25;
     --grid-border: 6px;
@@ -52,6 +54,8 @@
     --background: #242423;
     --foreground: #fefff5;
 
+    --map-filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
+
     --grid-bg: hsl(0, 0%, 11%);
     --grid-minor: hsl(63 24% 89% / calc(var(--grid-opacity) * 0.05));
     --grid-major: hsl(63 24% 89% / calc(var(--grid-opacity) * 0.05));
@@ -62,6 +66,8 @@
     [data-theme="auto"] {
       --background: #242423;
       --foreground: #fefff5;
+
+      --map-filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
 
       --grid-bg: hsl(0, 0%, 11%);
       --grid-minor: hsl(63 24% 89% / calc(var(--grid-opacity) * 0.05));
@@ -103,7 +109,11 @@ body {
     width: 100%;
   }
 
-  #content {
+  .grid-background {
+    background-color: var(--grid-bg);
+  }
+
+  .grid-overlay {
     background-size:
         var(--grid-gap) var(--grid-gap),
         var(--grid-gap) var(--grid-gap),
@@ -128,7 +138,6 @@ body {
         calc(var(--grid-border) - var(--grid-gap) * 2.5) calc(var(--grid-border) - var(--grid-gap) * 2.5),
         var(--grid-border) var(--grid-border),
         var(--grid-border) var(--grid-border);
-    background-color: var(--grid-bg);
     background-image: var(--paper-gradient);
   }
 
@@ -136,18 +145,6 @@ body {
 
   .leaflet-bar {
     border: 0 !important;
-  }
-
-  .leaflet-control {
-    margin: 0 !important;
-    padding-right: 1rem;
-  }
-
-  .leaflet-control-zoom-in,
-  .leaflet-control-zoom-out {
-    background: transparent !important;
-    border: 0 !important;
-    color: #fefff5 !important;
   }
 
   .leaflet-control-attribution {
@@ -160,6 +157,7 @@ body {
 
   .leaflet-tile-container .leaflet-tile {
     border-radius: 0;
+    filter: var(--map-filter);
   }
 
   .leaflet-gesture-handling-scroll-warning:after,
@@ -168,24 +166,32 @@ body {
     text-align: center;
   }
 
-  .peer:hover + .trail-hoverable {
-    stroke: #fefff5 !important;
+  .apexcharts-series {
+    clip-path: inset(0% 0% 0% 0% round 0 0 5px 5px);
   }
 
   .apexcharts-tooltip {
     background: transparent !important;
     box-shadow: none !important;
     border: none !important;
-    color: var(--foreground);
-    font-size: 0.85rem;
-    font-weight: 300;
-    padding-right: 0.1rem !important;
+    color: var(--background) !important;
     padding-top: 0 !important;
-    margin-top: -0.1rem !important;
+    margin-top: 0 !important;
   }
 
   .apexcharts-tooltip-text {
     font-family: var(--font-mono) !important;
+    font-size: 0.5rem !important;
+    font-weight: 300 !important;
+    text-transform: uppercase;
+  }
+
+  .apexcharts-tooltip-series-group {
+    padding: 0 !important;
+  }
+
+  .apexcharts-tooltip-text-y-value {
+    margin-left: 0 !important;
   }
 }
 

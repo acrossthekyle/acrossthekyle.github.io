@@ -10,7 +10,6 @@ type Props = {
     coordinates: string;
     id: string;
     location: string;
-    skipTrail: boolean;
     title: string;
     type: string;
     when: string;
@@ -26,21 +25,25 @@ export default function Trails({ data }: Props) {
   const categories = [
     {
       description: 'End-to-end long-distance trails',
+      id: 'thru-hikes',
       items: thruHikes,
       label: 'Thru-hikes',
     },
     {
       description: 'Long-distance trail segments',
+      id: 'section-hikes',
       items: sectionHikes,
       label: 'Section hikes',
     },
     {
       description: 'Overnight loops/out-and-backs',
+      id: 'weekend-hikes',
       items: weekendHikes,
       label: 'Weekend hikes',
     },
     {
       description: 'Mountain peaks above the treeline',
+      id: 'summits',
       items: summits,
       label: 'Summits',
     },
@@ -48,7 +51,7 @@ export default function Trails({ data }: Props) {
 
   return (
     <section className={styles.section}>
-      <h2 className={styles.heading}>
+      <h2 className={styles.heading} id="trails">
         <span className={styles.start}>
           <span className={styles.index}>
             [ 00-01 ]
@@ -62,7 +65,7 @@ export default function Trails({ data }: Props) {
       <ul className={styles.categories}>
         {categories.map((category, index: number) => (
           <li className={styles.category} key={category.label}>
-            <h3 className={styles.summary}>
+            <h3 className={styles.summary} id={category.id}>
               <span className={styles.start}>
                 <span className={styles.index}>
                   [ 00-01.{padIndex(index + 1)} ]
@@ -79,7 +82,7 @@ export default function Trails({ data }: Props) {
                   <span className={styles.index}>
                     [ 00-01.{padIndex(index + 1)}.{padIndex(key + 1)} ]
                   </span>
-                  <Link className={styles.link} href={item.skipTrail ? `/trails/${item.id}/1` : `/trails/${item.id}`}>
+                  <Link className={styles.link} href={`/trails/${item.id}`}>
                     <span className={styles.title}>
                       {item.title} <ArrowRight className={styles.arrow} />
                     </span>

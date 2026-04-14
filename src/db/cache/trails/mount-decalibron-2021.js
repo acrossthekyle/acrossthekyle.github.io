@@ -13,6 +13,7 @@ const data = {
   "continent": "North America",
   "coordinates": "39.3470° N, 106.1186° W",
   "days": "1",
+  "duration": "4 hours",
   "description": [
     "The DeCaLiBro-n route connected three 14,000-foot peaks in a single day, offering sweeping views and thrilling ridges. Completing Democrat, Cameron, and Lincoln left us exhausted but exhilarated, a true alpine adventure."
   ],
@@ -57,6 +58,7 @@ const data = {
     }
   },
   "id": "mount-decalibron-2021",
+  "initials": "DCL",
   "location": "Mosquito Range, Colorado, USA",
   "position": [
     "50.5%",
@@ -75,7 +77,7 @@ const data = {
         }
       },
       "altitudeMax": {
-        "label": "Max altitude",
+        "label": "Highest point",
         "value": {
           "basic": "",
           "complex": {
@@ -1166,7 +1168,7 @@ const data = {
     }
   },
   "timestamp": 1631163600,
-  "title": "Mount DeCaLiBron",
+  "title": "Mount DeCaLi",
   "type": "summit",
   "when": "09 09 2021"
 };

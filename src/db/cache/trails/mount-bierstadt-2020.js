@@ -13,6 +13,7 @@ const data = {
   "continent": "North America",
   "coordinates": "39.5826° N, 105.6688° W",
   "days": "1",
+  "duration": "4 hours",
   "description": [
     "Mt. Bierstadt was an easier 14'er with beautiful prairies, alpine lakes, and boulder scrambling near the summit. The quick climb and wide-open Colorado skies made it an unforgettable and relaxing day hike."
   ],
@@ -57,6 +58,7 @@ const data = {
     }
   },
   "id": "mount-bierstadt-2020",
+  "initials": "BIER",
   "location": "Front Range, Colorado, USA",
   "position": [
     "50.5%",
@@ -75,7 +77,7 @@ const data = {
         }
       },
       "altitudeMax": {
-        "label": "Max altitude",
+        "label": "Highest point",
         "value": {
           "basic": "",
           "complex": {

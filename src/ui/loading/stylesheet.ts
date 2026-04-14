@@ -4,7 +4,6 @@ const styles = tw({
   container: `
     flex-1
     flex items-center justify-center
-    bg-(--background)
     overscroll-none
   `,
   sr: `

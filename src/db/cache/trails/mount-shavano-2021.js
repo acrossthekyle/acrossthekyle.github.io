@@ -13,6 +13,7 @@ const data = {
   "continent": "North America",
   "coordinates": "38.6190° N, 106.2392° W",
   "days": "1",
+  "duration": "5 hours",
   "description": [
     "Mt. Shavano Challenge"
   ],
@@ -57,6 +58,7 @@ const data = {
     }
   },
   "id": "mount-shavano-2021",
+  "initials": "SHA",
   "location": "Sawatch Range, Colorado, USA",
   "position": [
     "50.5%",
@@ -75,7 +77,7 @@ const data = {
         }
       },
       "altitudeMax": {
-        "label": "Max altitude",
+        "label": "Highest point",
         "value": {
           "basic": "",
           "complex": {

@@ -4,8 +4,8 @@ const styles = tw({
   container: `
     block
     mt-2
-    font-mono
-    text-xtiny text-(--foreground)/50
+    font-mono font-normal
+    text-xtiny
     uppercase
   `,
 });

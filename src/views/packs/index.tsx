@@ -75,16 +75,25 @@ export default function View({ data, index }: Props) {
 
   return (
     <Content>
-      <div className={styles.definition} role="presentation">
-        <span>My</span>
-        <span>Gear</span>
-        <span>Loadouts</span>
+      <div className={styles.header}>
+        <Header>
+          <HeaderEyebrow>./</HeaderEyebrow>
+          <HeaderText>
+            Packs
+          </HeaderText>
+          <HeaderSubtitle>
+            Trail gear loadouts
+          </HeaderSubtitle>
+        </Header>
+        <span className="text-center">
+          {data.gear.length} Packs
+        </span>
+        <span className="text-right">
+          <Weight weight={current.weightConsumable} /> Cons. / <Weight weight={current.weightWorn} /> Worn<br />
+          <Weight weight={current.weightBase} /> Base<br />
+          <Weight weight={current.weightTotal} /> Total
+        </span>
       </div>
-      <Header>
-        <HeaderEyebrow>[ 05 ]</HeaderEyebrow>
-        <HeaderText>Packs</HeaderText>
-        <HeaderSubtitle>What I carry on hikes</HeaderSubtitle>
-      </Header>
       <nav aria-label="gear filters navigation">
         <ul className={styles.filters}>
           {FILTERS.map((filter) => (
@@ -99,38 +108,10 @@ export default function View({ data, index }: Props) {
           ))}
         </ul>
       </nav>
-      <aside className={styles.sticky}>
-        <ul className={styles.aside}>
-          <li>
-            Consumable Weight
-            <span className={styles.lid}>
-              <Weight weight={current.weightConsumable} />
-            </span>
-          </li>
-          <li>
-            Worn Weight
-            <span className={styles.lid}>
-              <Weight weight={current.weightWorn} />
-            </span>
-          </li>
-          <li>
-            Base Weight
-            <span className={styles.lid}>
-              <Weight weight={current.weightBase} />
-            </span>
-          </li>
-          <li>
-            Total Weight
-            <span className={styles.lid}>
-              <Weight weight={current.weightTotal} />
-            </span>
-          </li>
-        </ul>
-      </aside>
       {current.categories.map((category, categoryIndex: number) => (
         <section className={styles.section} key={categoryIndex}>
           <h2 className={styles.heading}>
-            [{category.title}]
+            {category.title}
             <span className={styles.subheading}>
               <Weight weight={category.weight} />
             </span>

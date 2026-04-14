@@ -658,7 +658,7 @@ const data = [
   {
     "category": "hike",
     "coordinates": "42.876001° N, 88.525661° W",
-    "id": "ice-age-trail-2022",
+    "id": "ice-age-trail-section-hike",
     "images": [
       {
         "src": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",

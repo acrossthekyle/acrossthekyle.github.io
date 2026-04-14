@@ -8,15 +8,15 @@ const styles = tw({
     rounded-xs
 
     md:absolute
-    md:top-4
-    md:right-4
-    md:bottom-4
+    md:top-2
+    md:right-2
+    md:bottom-2
     md:left-80
     md:mt-0
   `,
   image: `
     aspect-square
-    rounded-xs
+    rounded-md
 
     md:aspect-3/2
   `,
@@ -26,33 +26,39 @@ const styles = tw({
     w-54
   `,
   item: `
-    font-mono font-bold
+    font-mono
     text-xtiny
     uppercase
     break-inside-avoid-column
   `,
   eyebrow: `
     block
-    font-normal
-    text-current/70
   `,
   emphasis: `
     font-serif italic lowercase
   `,
   navigation: `
-    flex justify-between gap-4
+    grid grid-cols-2 gap-16
+    w-76
     mt-6
-    font-mono font-bold
+    font-mono
     text-xtiny
     uppercase
 
     md:absolute
-    md:bottom-4
-    md:left-4
-    md:justify-start
+    md:bottom-2
+    md:left-2
   `,
-  album: `
-    mr-6
+  link: `
+    flex items-center gap-2
+  `,
+  end: `
+    justify-end
+  `,
+  kbd: `
+    w-4 h-4
+    stroke-1
+    shadow-xl
   `,
 });
 

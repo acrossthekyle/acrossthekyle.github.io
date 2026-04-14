@@ -1,20 +1,16 @@
 import tw from '@/styles';
 
 const styles = tw({
-  definition: `
-    flex justify-between
-    mb-4
+  header: `
+    grid grid-cols-2 gap-0
     w-full
     font-mono
     text-xtiny
     uppercase
   `,
-
-
-
   section: `
-    relative
-    mt-20
+    relative z-2
+    mt-16
     font-mono
     uppercase
 
@@ -29,7 +25,7 @@ const styles = tw({
   heading: `
     sticky top-10
     self-start
-    flex gap-113
+    flex gap-153
     leading-[1]
     text-xs
   `,
@@ -47,14 +43,15 @@ const styles = tw({
     font-normal
   `,
   items: `
-    flex flex-col gap-6
+    flex flex-col gap-4
     ml-57 -mt-3
   `,
   item: `
     flex gap-8
   `,
   link: `
-    w-48
+    relative z-3
+    w-80
     text-xs
     rounded-xs
 
@@ -72,90 +69,6 @@ const styles = tw({
     font-normal
     text-xtiny text-current/80
   `,
-
-
-  sticky: `
-    absolute right-4 top-20 bottom-4 z-2
-    flex items-end
-  `,
-  map: `
-    sticky bottom-14
-    relative
-    w-full
-
-    md:w-1/2
-    lg:w-56
-    xl:w-100
-  `,
-
-
-
-
-  // section: `
-  //   relative
-  //   flex flex-col gap-4
-  //   mb-20
-
-  //   lg:flex-row
-  //   lg:gap-12
-
-  //   last:mb-0
-  // `,
-  // spacer: `
-  //   mt-10
-  // `,
-  // heading: `
-  //   sticky top-12 z-10
-  //   self-start
-  //   flex-none
-  //   w-24
-  //   mb-2
-  //   leading-[1]
-  //   font-mono font-bold
-  //   text-xs
-  //   uppercase
-  //   whitespace-nowrap
-
-  //   md:w-32
-  //   lg:mb-0
-  //   lg:w-48
-  // `,
-  // subheading: `
-  //   block
-  //   mt-1.5
-  //   leading-[1]
-  //   font-mono font-normal
-  //   text-xtiny
-  // `,
-  // items: `
-  //   flex flex-col gap-10
-  // `,
-  // item: `
-  //   flex flex-col gap-2
-
-  //   md:flex-row
-  //   md:gap-12
-  // `,
-  // index: `
-  //   block
-  //   font-mono
-  //   text-xtiny
-  // `,
-  // link: `
-  //   block
-  //   leading-[1]
-  //   font-mono
-  //   text-xs
-  //   uppercase
-  //   overflow-hidden
-  // `,
-  // lid: `
-  //   block
-  //   mt-2
-  //   leading-[1.25]
-  //   font-mono font-normal
-  //   text-xtiny text-current/70
-  // `,
 });
 
 export default styles;

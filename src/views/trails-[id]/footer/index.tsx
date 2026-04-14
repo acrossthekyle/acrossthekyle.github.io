@@ -2,18 +2,12 @@ import Link from 'next/link';
 
 import { padIndex } from '@/utils';
 
+import type { More } from '../types';
+
 import styles from './stylesheet';
 
 type Props = {
-  more: Array<{
-    albumId: string;
-    coordinates: string;
-    id: string;
-    location: string;
-    title: string;
-    type: string;
-    when: string;
-  }>;
+  more: More[];
 };
 
 export default function Footer({ more }: Props) {

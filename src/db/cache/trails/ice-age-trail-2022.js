@@ -13,6 +13,7 @@ const data = {
   "continent": "north america",
   "coordinates": "42.8760° N, 88.5257° W",
   "days": "4",
+  "duration": "4 days",
   "description": [
     "A place of kettles and moraines from mile-thick glaciers long ago in Wisconsin, completing this 1,200 mile long-distance national scenic trail in sections takes time. It's not the distance on this trail that gets you; it's the constant up and down over rolling hills."
   ],
@@ -76,7 +77,7 @@ const data = {
         }
       },
       "altitudeMax": {
-        "label": "Max altitude",
+        "label": "Highest point",
         "value": {
           "basic": "",
           "complex": {
@@ -1167,7 +1168,7 @@ const data = {
         }
       },
       "altitudeMax": {
-        "label": "Max altitude",
+        "label": "Highest point",
         "value": {
           "basic": "",
           "complex": {
@@ -2258,7 +2259,7 @@ const data = {
         }
       },
       "altitudeMax": {
-        "label": "Max altitude",
+        "label": "Highest point",
         "value": {
           "basic": "",
           "complex": {

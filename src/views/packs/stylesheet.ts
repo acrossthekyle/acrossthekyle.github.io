@@ -1,17 +1,18 @@
 import tw from '@/styles';
 
 const styles = tw({
-  definition: `
-    flex justify-between
-    mb-4
+  header: `
+    grid grid-cols-3 gap-0
     w-full
     font-mono
     text-xtiny
     uppercase
   `,
+
+
   filters: `
     flex gap-2
-    my-10
+    mt-8 mb-10
   `,
   link: (isActive: boolean) => tw(`
     font-mono font-bold
@@ -53,7 +54,7 @@ const styles = tw({
     flex-none
     w-24
     leading-[1]
-    font-mono font-bold
+    font-mono
     text-xs
     uppercase
     whitespace-nowrap

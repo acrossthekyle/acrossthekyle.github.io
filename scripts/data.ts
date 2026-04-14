@@ -2,18 +2,22 @@
 // @ts-nocheck
 
 import { go as albums } from './albums';
+import { go as books } from './books';
 import { go as exif } from './exif';
+import { go as expertise } from './expertise';
 import { go as gear } from './gear';
+import { go as resume } from './resume';
 import { go as trails } from './trails';
-import { go as thoughts } from './thoughts';
 
 async function go() {
   await exif();
 
   albums();
+  books();
+  expertise();
   gear();
+  resume();
   trails();
-  thoughts();
 };
 
 go();

@@ -1,252 +1,438 @@
 const data = [
   {
-    title: 'Station Eleven',
-    author: 'Emily St. John Mandel',
+    "title": "Station Eleven",
+    "author": "Emily St. John Mandel",
+    "genre": "Post-apocalyptic fiction",
+    "pages": 336,
+    "year": 2014
   },
   {
-    title: `The Hitchhiker's Guide to the Galaxy`,
-    author: 'Douglas Adams',
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "author": "Douglas Adams",
+    "genre": "Science fiction",
+    "pages": 192,
+    "year": 1979
   },
   {
-    title: 'Friday Black',
-    author: 'Adjei Brenyah',
+    "title": "Friday Black",
+    "author": "Nana Kwame Adjei-Brenyah",
+    "genre": "Short stories",
+    "pages": 208,
+    "year": 2018
   },
   {
-    title: 'Foundation',
-    author: 'Isaac Asimov',
+    "title": "Foundation",
+    "author": "Isaac Asimov",
+    "genre": "Science fiction",
+    "pages": 255,
+    "year": 1951
   },
   {
-    title: 'Foundation and Empire',
-    author: 'Isaac Asimov',
+    "title": "Foundation and Empire",
+    "author": "Isaac Asimov",
+    "genre": "Science fiction",
+    "pages": 247,
+    "year": 1952
   },
   {
-    title: 'Second Foundation',
-    author: 'Isaac Asimov',
+    "title": "Second Foundation",
+    "author": "Isaac Asimov",
+    "genre": "Science fiction",
+    "pages": 210,
+    "year": 1953
   },
   {
-    title: 'Foundation and Earth',
-    author: 'Isaac Asimov',
+    "title": "Foundation and Earth",
+    "author": "Isaac Asimov",
+    "genre": "Science fiction",
+    "pages": 356,
+    "year": 1986
   },
   {
-    title: `Foundation's Edge`,
-    author: 'Isaac Asimov',
+    "title": "Foundation's Edge",
+    "author": "Isaac Asimov",
+    "genre": "Science fiction",
+    "pages": 367,
+    "year": 1982
   },
   {
-    title: 'American Gods',
-    author: 'Neil Gaiman',
+    "title": "American Gods",
+    "author": "Neil Gaiman",
+    "genre": "Fantasy",
+    "pages": 465,
+    "year": 2001
   },
   {
-    title: 'A Man Called Ove',
-    author: 'Fredrik Backman',
+    "title": "A Man Called Ove",
+    "author": "Fredrik Backman",
+    "genre": "Non-fiction",
+    "pages": 337,
+    "year": 2012
   },
   {
-    title: 'The Body',
-    author: 'Bill Bryson',
+    "title": "The Body",
+    "author": "Bill Bryson",
+    "genre": "Science",
+    "pages": 450,
+    "year": 2019
   },
   {
-    title: 'Sapians',
-    author: 'Yuval Noah Harari',
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "genre": "History",
+    "pages": 443,
+    "year": 2011
   },
   {
-    title: 'The Passage',
-    author: 'Justin Cronin',
+    "title": "The Passage",
+    "author": "Justin Cronin",
+    "genre": "Science fiction",
+    "pages": 766,
+    "year": 2010
   },
   {
-    title: 'The Twelve',
-    author: 'Justin Cronin',
+    "title": "The Twelve",
+    "author": "Justin Cronin",
+    "genre": "Science fiction",
+    "pages": 568,
+    "year": 2012
   },
   {
-    title: 'The City of Mirrors',
-    author: 'Justin Cronin',
+    "title": "The City of Mirrors",
+    "author": "Justin Cronin",
+    "genre": "Science fiction",
+    "pages": 602,
+    "year": 2016
   },
   {
-    title: 'Seven Eves',
-    author: 'Neal Stephenson',
+    "title": "Seveneves",
+    "author": "Neal Stephenson",
+    "genre": "Science fiction",
+    "pages": 880,
+    "year": 2015
   },
   {
-    title: 'The Starless Sea',
-    author: 'Erin Morgenstern',
+    "title": "The Starless Sea",
+    "author": "Erin Morgenstern",
+    "genre": "Fantasy",
+    "pages": 498,
+    "year": 2019
   },
   {
-    title: 'Wanderers',
-    author: 'Chuck Wendig',
+    "title": "Wanderers",
+    "author": "Chuck Wendig",
+    "genre": "Dystopian fiction",
+    "pages": 800,
+    "year": 2019
   },
   {
-    title: 'Good Omens',
-    author: 'Neil Gaiman and Terry Pratchett',
+    "title": "Good Omens",
+    "author": "Neil Gaiman and Terry Pratchett",
+    "genre": "Fantasy",
+    "pages": 412,
+    "year": 1990
   },
   {
-    title: 'One Second After',
-    author: 'William R. Forstchen',
+    "title": "One Second After",
+    "author": "William R. Forstchen",
+    "genre": "Post-apocalyptic fiction",
+    "pages": 352,
+    "year": 2009
   },
   {
-    title: 'Into the Wild',
-    author: 'Jon Krakauer',
+    "title": "Into the Wild",
+    "author": "Jon Krakauer",
+    "genre": "Biography",
+    "pages": 207,
+    "year": 1996
   },
   {
-    title: 'The Overstory',
-    author: 'Richard Powers',
+    "title": "The Overstory",
+    "author": "Richard Powers",
+    "genre": "Non-fiction",
+    "pages": 512,
+    "year": 2018
   },
   {
-    title: `Lucifer's Hammer`,
-    author: 'Larry Niven and Jerry Pournelle',
+    "title": "Lucifer's Hammer",
+    "author": "Larry Niven and Jerry Pournelle",
+    "genre": "Post-apocalyptic fiction",
+    "pages": 629,
+    "year": 1977
   },
   {
-    title: 'City of Thieves',
-    author: 'David Benioff',
+    "title": "City of Thieves",
+    "author": "David Benioff",
+    "genre": "Historical fiction",
+    "pages": 258,
+    "year": 2008
   },
   {
-    title: `Darwin's Radio`,
-    author: 'Greg Bear',
+    "title": "Darwin's Radio",
+    "author": "Greg Bear",
+    "genre": "Science fiction",
+    "pages": 529,
+    "year": 1999
   },
   {
-    title: 'All the Light We Cannot See',
-    author: 'Anthony Doerr',
+    "title": "All the Light We Cannot See",
+    "author": "Anthony Doerr",
+    "genre": "Historical fiction",
+    "pages": 531,
+    "year": 2014
   },
   {
-    title: 'The Three-Body Problem',
-    author: 'Liu Cixin',
+    "title": "The Three-Body Problem",
+    "author": "Liu Cixin",
+    "genre": "Science fiction",
+    "pages": 302,
+    "year": 2008
   },
   {
-    title: 'The Dark Forest',
-    author: 'Liu Cixin',
+    "title": "The Dark Forest",
+    "author": "Liu Cixin",
+    "genre": "Science fiction",
+    "pages": 512,
+    "year": 2008
   },
   {
-    title: 'The Lightest Object in the Universe',
-    author: 'Kimi Eisele',
+    "title": "The Lightest Object in the Universe",
+    "author": "Kimi Eisele",
+    "genre": "Dystopian fiction",
+    "pages": 336,
+    "year": 2019
   },
   {
-    title: 'The Fabric of the Cosmos',
-    author: 'Brian Greene',
+    "title": "The Fabric of the Cosmos",
+    "author": "Brian Greene",
+    "genre": "Physics",
+    "pages": 569,
+    "year": 2004
   },
   {
-    title: 'A Walk in the Woods',
-    author: 'Bill Bryson',
+    "title": "A Walk in the Woods",
+    "author": "Bill Bryson",
+    "genre": "Travel",
+    "pages": 284,
+    "year": 1998
   },
   {
-    title: 'Ready Player One',
-    author: 'Ernest Cline',
+    "title": "Ready Player One",
+    "author": "Ernest Cline",
+    "genre": "Science fiction",
+    "pages": 374,
+    "year": 2011
   },
   {
-    title: 'Dark Matter',
-    author: 'Blake Crouch',
+    "title": "Dark Matter",
+    "author": "Blake Crouch",
+    "genre": "Science fiction",
+    "pages": 342,
+    "year": 2016
   },
   {
-    title: 'Recursion',
-    author: 'Blake Crouch',
+    "title": "Recursion",
+    "author": "Blake Crouch",
+    "genre": "Science fiction",
+    "pages": 336,
+    "year": 2019
   },
   {
-    title: 'Neverwhere',
-    author: 'Neil Gaiman',
+    "title": "Neverwhere",
+    "author": "Neil Gaiman",
+    "genre": "Fantasy",
+    "pages": 352,
+    "year": 1996
   },
   {
-    title: 'Tuf Voyaging',
-    author: 'George R.R. Martin',
+    "title": "Tuf Voyaging",
+    "author": "George R.R. Martin",
+    "genre": "Science fiction",
+    "pages": 440,
+    "year": 1986
   },
   {
-    title: 'The Hobbit',
-    author: 'J.R.R. Tolkein',
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "pages": 310,
+    "year": 1937
   },
   {
-    title: 'The Left Hand of Darkness',
-    author: 'Ursula K. Le Guin',
+    "title": "The Left Hand of Darkness",
+    "author": "Ursula K. Le Guin",
+    "genre": "Science fiction",
+    "pages": 286,
+    "year": 1969
   },
   {
-    title: 'A Knight of the Seven Kingdoms',
-    author: 'George R.R. Martin',
+    "title": "A Knight of the Seven Kingdoms",
+    "author": "George R.R. Martin",
+    "genre": "Fantasy",
+    "pages": 355,
+    "year": 2015
   },
   {
-    title: 'A Game of Thrones',
-    author: 'George R.R. Martin',
+    "title": "A Game of Thrones",
+    "author": "George R.R. Martin",
+    "genre": "Fantasy",
+    "pages": 694,
+    "year": 1996
   },
   {
-    title: 'Raven Scholar',
-    author: 'Antonia Hodgson',
+    "title": "Raven Scholar",
+    "author": "Antonia Hodgson",
+    "genre": "Science fiction",
+    "pages": 400,
+    "year": 2020
   },
   {
-    title: 'The Fifth Season',
-    author: 'N.K. Jemisin',
+    "title": "The Fifth Season",
+    "author": "N.K. Jemisin",
+    "genre": "Science fiction",
+    "pages": 468,
+    "year": 2015
   },
   {
-    title: 'The Obelisk Gate',
-    author: 'N.K. Jemisin',
+    "title": "The Obelisk Gate",
+    "author": "N.K. Jemisin",
+    "genre": "Science fiction",
+    "pages": 448,
+    "year": 2016
   },
   {
-    title: 'The Stone Sky',
-    author: 'N.K. Jemisin',
+    "title": "The Stone Sky",
+    "author": "N.K. Jemisin",
+    "genre": "Science fiction",
+    "pages": 464,
+    "year": 2017
   },
   {
-    title: 'The Girl with the Dragon Tattoo',
-    author: 'Stieg Larsson',
+    "title": "The Girl with the Dragon Tattoo",
+    "author": "Stieg Larsson",
+    "genre": "Fiction",
+    "pages": 465,
+    "year": 2005
   },
   {
-    title: 'The Girl Who Played with Fire',
-    author: 'Stieg Larsson',
+    "title": "The Girl Who Played with Fire",
+    "author": "Stieg Larsson",
+    "genre": "Fiction",
+    "pages": 503,
+    "year": 2006
   },
   {
-    title: `The Girl Who Kicked the Hornet's Nest`,
-    author: 'Stieg Larsson',
+    "title": "The Girl Who Kicked the Hornet's Nest",
+    "author": "Stieg Larsson",
+    "genre": "Fiction",
+    "pages": 563,
+    "year": 2007
   },
   {
-    title: 'Death on the Nile',
-    author: 'Agatha Christie',
+    "title": "Death on the Nile",
+    "author": "Agatha Christie",
+    "genre": "Mystery",
+    "pages": 288,
+    "year": 1937
   },
   {
-    title: 'Murder on the Orient Express',
-    author: 'Agatha Christie',
+    "title": "Murder on the Orient Express",
+    "author": "Agatha Christie",
+    "genre": "Mystery",
+    "pages": 256,
+    "year": 1934
   },
   {
-    title: 'Wicked Saints',
-    author: 'Emily A. Duncan',
+    "title": "Wicked Saints",
+    "author": "Emily A. Duncan",
+    "genre": "Fantasy",
+    "pages": 385,
+    "year": 2019
   },
   {
-    title: 'Sky in the Deep',
-    author: 'Adrienne Young',
+    "title": "Sky in the Deep",
+    "author": "Adrienne Young",
+    "genre": "Fantasy",
+    "pages": 340,
+    "year": 2018
   },
   {
-    title: 'Project Hail Mary',
-    author: 'Andy Weir',
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "genre": "Science fiction",
+    "pages": 476,
+    "year": 2021
   },
   {
-    title: 'The Fellowship of the Ring',
-    author: 'J.R.R. Tolkien',
+    "title": "The Fellowship of the Ring",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "pages": 423,
+    "year": 1954
   },
   {
-    title: 'The Two Towers',
-    author: 'J.R.R. Tolkien',
+    "title": "The Two Towers",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "pages": 352,
+    "year": 1954
   },
   {
-    title: 'The Return of the King',
-    author: 'J.R.R. Tolkien',
+    "title": "The Return of the King",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "pages": 416,
+    "year": 1955
   },
   {
-    title: 'Medusa Uploaded',
-    author: 'Emily Devenport',
+    "title": "Medusa Uploaded",
+    "author": "Emily Devenport",
+    "genre": "Science fiction",
+    "pages": 288,
+    "year": 2018
   },
   {
-    title: 'This Is How You Lose the Time War',
-    author: 'Amal El-Mohtar and Max Gladstone',
+    "title": "This Is How You Lose the Time War",
+    "author": "Amal El-Mohtar and Max Gladstone",
+    "genre": "Science fiction",
+    "pages": 208,
+    "year": 2019
   },
   {
-    title: 'Alternative Apocalypse',
-    author: 'Various Authors',
+    "title": "Alternative Apocalypse",
+    "author": "Various Authors",
+    "genre": "Short stories",
+    "pages": 300,
+    "year": 2019
   },
   {
-    title: `The Handmaid's Tale`,
-    author: 'Margaret Atwood',
+    "title": "The Handmaid's Tale",
+    "author": "Margaret Atwood",
+    "genre": "Dystopian fiction",
+    "pages": 311,
+    "year": 1985
   },
   {
-    title: 'Meet Me in the Future',
-    author: 'Kameron Hurley',
+    "title": "Meet Me in the Future",
+    "author": "Kameron Hurley",
+    "genre": "Short stories",
+    "pages": 336,
+    "year": 2019
   },
   {
-    title: 'The Glass Hotel',
-    author: 'Emily St. John Mandel',
+    "title": "The Glass Hotel",
+    "author": "Emily St. John Mandel",
+    "genre": "Fiction",
+    "pages": 300,
+    "year": 2020
   },
   {
-    title: 'The Age of Miracles',
-    author: 'Karen Thompson Walker',
-  },
+    "title": "The Age of Miracles",
+    "author": "Karen Thompson Walker",
+    "genre": "Science fiction",
+    "pages": 290,
+    "year": 2012
+  }
 ];
 
-export default data;
+export default data;

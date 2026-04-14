@@ -68,6 +68,7 @@ export async function go() {
           continent: data.continent,
           coordinates: reduceCoordinates(data.coordinates),
           days: data.days,
+          duration: `${data.days} days`,
           description: data.description,
           distance: '',
           elevationGain: '',
@@ -122,6 +123,10 @@ export async function go() {
         trail.stages = gpxs.sort((a, b) => a.index - b.index);
         trail.start = gpxs.length > 0 ? gpxs[0].beginning : '';
 
+        if (trail.type === 'summit' && trail.stages.length > 0) {
+          trail.duration = trail.stages[0].hours.value.basic;
+        }
+
         trails.push(trail);
       }),
   );
@@ -131,10 +136,24 @@ export async function go() {
       'trails.js',
       trails
         .sort((a, b) => b.timestamp - a.timestamp)
-        .map(({ albumId, coordinates, days, distance, id, initials, location, position, title, type, when }) => ({
+        .map(({
           albumId,
           coordinates,
           days,
+          duration,
+          distance,
+          id,
+          initials,
+          location,
+          position,
+          title,
+          type,
+          when,
+        }) => ({
+          albumId,
+          coordinates,
+          days,
+          duration,
           distance,
           id,
           initials,

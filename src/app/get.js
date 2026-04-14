@@ -5,9 +5,10 @@ import trails from '@/db/trails';
 
 export default async function get() {
   return {
-    albums: albums.map(({ category, coordinates, id, location, title, when }) => ({
+    albums: albums.map(({ category, coordinates, id, images, location, title, when }) => ({
       category,
       coordinates,
+      count: images.length,
       id,
       location,
       title,
@@ -25,11 +26,10 @@ export default async function get() {
         id: trails[0].id,
         title: trails[0].title,
       },
-      all: trails.map(({ coordinates, days, id, location, title, type, when }) => ({
+      all: trails.map(({ coordinates, id, location, title, type, when }) => ({
         coordinates,
         id,
         location,
-        skipTrail: days === '1',
         title,
         type,
         when,

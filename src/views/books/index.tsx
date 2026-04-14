@@ -16,7 +16,10 @@ type Props = {
   data: {
     books: Array<{
       author: string;
+      genre: string;
+      pages: number;
       title: string;
+      year: number;
     }>;
   };
 };
@@ -24,30 +27,39 @@ type Props = {
 export default function View({ data }: Props) {
   return (
     <Content>
-      <div className={styles.definition} role="presentation">
-        <span>Non-fiction</span>
-        <span>Fiction</span>
-        <span>Science Fiction</span>
+      <div className={styles.header}>
+        <Header>
+          <HeaderEyebrow>./</HeaderEyebrow>
+          <HeaderText>
+            Books
+          </HeaderText>
+          <HeaderSubtitle>
+            What I've read
+          </HeaderSubtitle>
+        </Header>
+        <span className="text-right">
+          {data.books.length} books<br />
+          [Non|Sci] Fiction<br />
+          * Non-affiliated links
+        </span>
       </div>
-      <Header>
-        <HeaderEyebrow>[ 04 ]</HeaderEyebrow>
-        <HeaderText>Books</HeaderText>
-        <HeaderSubtitle>{data.books.length} reads and counting</HeaderSubtitle>
-      </Header>
-      <aside className={styles.aside}>
-        *All amazon links are non-affiliated
-      </aside>
       <ul className={styles.items}>
         {data.books.map((book, index: number) => (
           <li className={styles.item} key={book.title}>
             <span className={styles.index}>[ 00-{padIndex(index + 1)} ]</span>
-            <Link
-              href={`https://www.amazon.com/s?k=${book.title.replaceAll(' ', '+')}+${book.author.replaceAll(' ', '+')}&i=stripbooks`}
-              target="_blank"
-            >
-              <ExternalIcon>{book.title}</ExternalIcon>
+            <div>
+              <Link
+                className={styles.link}
+                href={`https://www.amazon.com/s?k=${book.title.replaceAll(' ', '+')}+${book.author.replaceAll(' ', '+')}&i=stripbooks`}
+                target="_blank"
+              >
+                <ExternalIcon>{book.title}</ExternalIcon>
+              </Link>
               <span className={styles.lid}>{book.author}</span>
-            </Link>
+              <span className={styles.lid}>{book.genre}</span>
+              <span className={styles.lid}>{book.pages} pages</span>
+              <span className={styles.lid}>{book.year}</span>
+            </div>
           </li>
         ))}
       </ul>

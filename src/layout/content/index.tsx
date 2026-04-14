@@ -1,8 +1,15 @@
 import styles from './stylesheet';
 
-export default function Content({ children }: React.PropsWithChildren) {
+type Props = {
+  className?: string;
+};
+
+export default function Content({
+  children,
+  className = '',
+}: React.PropsWithChildren<Props>) {
   return (
-    <div className={styles.container} id="content">
+    <div className={`${styles.container} ${className}`.trim()}>
       {children}
     </div>
   );

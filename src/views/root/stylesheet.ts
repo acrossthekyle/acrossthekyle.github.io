@@ -1,8 +1,12 @@
 import tw from '@/styles';
 
 const styles = tw({
+  container: `
+    pb-2
+  `,
   definition: `
     grid grid-cols-2
+    pt-2
     mb-4
     w-full
     font-mono font-normal
@@ -21,6 +25,7 @@ const styles = tw({
     relative
     flex justify-start items-end gap-8
     h-[58vh]
+    pb-2
   `,
   subheader: `
     block
@@ -93,7 +98,7 @@ const styles = tw({
     flex gap-8
   `,
   link: `
-    w-48
+    w-80
     text-xs
     rounded-xs
 

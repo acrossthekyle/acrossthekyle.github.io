@@ -1,5 +1,4 @@
 import { ArrowRight } from 'lucide-react';
-import Link from 'next/link';
 
 import { Content } from '@/layout';
 import {
@@ -13,7 +12,11 @@ import { Length } from '@/ui/units';
 import { padIndex } from '@/utils';
 import type { Stat } from '@/types';
 
+import Aside from './aside';
+import Context from './context';
+import Link from './cta';
 import styles from './stylesheet';
+import type { Trail } from './types';
 
 type Props = {
   data: {
@@ -22,17 +25,7 @@ type Props = {
       imperial: string;
       metric: string;
     };
-    trails: Array<{
-      coordinates: string;
-      distance: Stat;
-      days: string;
-      id: string;
-      location: string;
-      position: string[];
-      title: string;
-      type: string;
-      when: string;
-    }>
+    trails: Trail[];
   };
 };
 
@@ -67,62 +60,59 @@ export default function View({ data }: Props) {
 
   return (
     <Content>
-      <div className={styles.definition} role="presentation">
-        <span>
-          <Length value={data.distance} />
-        </span>
-        <span>{data.days} days</span>
-        <span>
-          {data.trails.filter((item) => item.type === 'summit').length} summits
+      <div className={styles.header}>
+        <Header>
+          <HeaderEyebrow>./</HeaderEyebrow>
+          <HeaderText>
+            Trails
+          </HeaderText>
+          <HeaderSubtitle>
+            Hikes and summits
+          </HeaderSubtitle>
+        </Header>
+        <span className="text-right">
+          {data.trails.length} trails<br />
+          <Length value={data.distance} /><br />
+          {data.days} days
         </span>
       </div>
-      <Header>
-        <HeaderEyebrow>[ 01 ]</HeaderEyebrow>
-        <HeaderText>Trails</HeaderText>
-        <HeaderSubtitle>Hikes and summits</HeaderSubtitle>
-      </Header>
-      <div className={styles.sticky}>
-        <Map className={styles.map}>
-          {data.trails.map(({ position }, index: number) => (
-            <MapMarker
-              key={index}
-              position={{
-                left: position[1],
-                top: position[0],
-              }}
-            />
-          ))}
-        </Map>
-      </div>
-      {categories.map((category, index: number) => (
-        <section className={styles.section} key={category.label}>
-          <h2 className={styles.heading}>
-            <span className={styles.label}>{category.label}</span>
-            <span className={styles.subheading}>
-              {category.description}
-            </span>
-          </h2>
-          <ul className={styles.items}>
-            {category.items.map((item, key: number) => (
-              <li className={styles.item} key={item.id}>
-                <span className={styles.index}>
-                  [ 00-{padIndex(index + 1)}.{padIndex(key + 1)} ]
-                </span>
-                <Link className={styles.link} href={`/trails/${item.id}`}>
-                  <span className={styles.title}>
-                    {item.title} <ArrowRight className={styles.arrow} />
+      <Context>
+        <Aside trails={data.trails} />
+        {categories.map((category, index: number) => (
+          <section className={styles.section} key={category.label}>
+            <h2 className={styles.heading}>
+              <span className={styles.label}>{category.label}</span>
+              <span className={styles.subheading}>
+                {category.description}
+              </span>
+            </h2>
+            <ul className={styles.items}>
+              {category.items.map((item, key: number) => (
+                <li className={styles.item} key={item.id}>
+                  <span className={styles.index}>
+                    [ 00-{padIndex(index + 1)}.{padIndex(key + 1)} ]
                   </span>
-                  <ul className={styles.stats}>
-                    <li>{item.when}</li>
-                    <li>{item.location}</li>
-                    <li>{item.coordinates}</li>
-                  </ul>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </section>
-      ))}
+                  <Link id={item.id}>
+                    <span className={styles.title}>
+                      {item.title} <ArrowRight className={styles.arrow} />
+                    </span>
+                    <ul className={styles.stats}>
+                      <li>{item.when}</li>
+                      <li>{item.location}</li>
+                      <li>
+                        <Length value={item.distance.value.complex} />
+                      </li>
+                      <li>
+                        {item.duration}
+                      </li>
+                    </ul>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
+      </Context>
     </Content>
   );
 }

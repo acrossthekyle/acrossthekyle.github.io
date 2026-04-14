@@ -40,20 +40,22 @@ type Props = {
 export default function View({ data }: Props) {
   return (
     <Content>
-      <Header>
-        <Link href="/albums">
-          <HeaderPrefix>Albums</HeaderPrefix>
-        </Link>
-        <HeaderText>{data.album.title}</HeaderText>
-        <HeaderSubtitle>
-          [ A-{padIndex(data.index)} ]
-        </HeaderSubtitle>
-      </Header>
-      <aside aria-label="album stats and info" className={styles.aside}>
-        <span>{data.album.when}</span>
-        <span>{data.album.images.length} images</span>
-        <span>{data.album.coordinates}</span>
-      </aside>
+      <div className={styles.header}>
+        <Header>
+          <Link href="/albums">
+            <HeaderPrefix>Albums</HeaderPrefix>
+          </Link>
+          <HeaderText>A-{padIndex(data.index)}</HeaderText>
+          <HeaderSubtitle>
+            {data.album.title}
+          </HeaderSubtitle>
+        </Header>
+        <aside aria-label="album stats and info" className={styles.aside}>
+          <span>{data.album.when}</span>
+          <span>{data.album.images.length} images</span>
+          <span>{data.album.coordinates}</span>
+        </aside>
+      </div>
       <ul className={styles.items}>
         {data.album.images.map((image, index: number) => {
           const img = image.src.split('-').pop();

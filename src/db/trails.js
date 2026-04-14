@@ -3,6 +3,7 @@ const data = [
     "albumId": "river-ridge-trail-2026",
     "coordinates": "40.0080° N, 87.5717° W",
     "days": "2",
+    "duration": "2 days",
     "distance": {
       "label": "Distance",
       "value": {
@@ -28,6 +29,7 @@ const data = [
     "albumId": "yellow-river-trail-2025",
     "coordinates": "43.1713° N, 91.2594° W",
     "days": "2",
+    "duration": "2 days",
     "distance": {
       "label": "Distance",
       "value": {
@@ -53,6 +55,7 @@ const data = [
     "albumId": "tour-du-mont-blanc-2024",
     "coordinates": "45.8902° N, 6.7978° E",
     "days": "11",
+    "duration": "11 days",
     "distance": {
       "label": "Distance",
       "value": {
@@ -78,6 +81,7 @@ const data = [
     "albumId": "gr20-2023",
     "coordinates": "42.5074° N, 8.8554° E",
     "days": "13",
+    "duration": "13 days",
     "distance": {
       "label": "Distance",
       "value": {
@@ -103,6 +107,7 @@ const data = [
     "albumId": "southern-rockies-2019",
     "coordinates": "39.1872° N, 106.4753° W",
     "days": "1",
+    "duration": "4 hours",
     "distance": {
       "label": "Distance",
       "value": {
@@ -114,6 +119,7 @@ const data = [
       }
     },
     "id": "mount-massive-2022",
+    "initials": "MAS",
     "location": "Sawatch Range, Colorado, USA",
     "position": [
       "50.5%",
@@ -127,6 +133,7 @@ const data = [
     "albumId": "southern-rockies-2019",
     "coordinates": "38.9607° N, 106.3606° W",
     "days": "1",
+    "duration": "5 hours",
     "distance": {
       "label": "Distance",
       "value": {
@@ -138,6 +145,7 @@ const data = [
       }
     },
     "id": "mount-belford-2022",
+    "initials": "BEL",
     "location": "Sawatch Range, Colorado, USA",
     "position": [
       "50.5%",
@@ -148,34 +156,88 @@ const data = [
     "when": "09 09 2022"
   },
   {
-    "albumId": "ice-age-trail-2022",
-    "coordinates": "42.8760° N, 88.5257° W",
-    "days": "4",
+    "albumId": "ice-age-trail-section-hike",
+    "coordinates": "43.7364° N, 88.1014° W",
+    "days": "1",
+    "duration": "1 days",
     "distance": {
       "label": "Distance",
       "value": {
         "basic": "",
         "complex": {
-          "imperial": "27",
-          "metric": "43"
+          "imperial": "8",
+          "metric": "13"
         }
       }
     },
-    "id": "ice-age-trail-2022",
+    "id": "ice-age-trail-05-03-2025",
     "initials": "IAT",
-    "location": "Wisconsin",
+    "location": "Ice Age Trail, Mauthe Lake, Wisconsin, USA",
     "position": [
       "48%",
       "20%"
     ],
-    "title": "Ice Age Trail",
+    "title": "IAT: Parnell Segment",
     "type": "section hike",
-    "when": "2022+"
+    "when": "05 03 2025"
+  },
+  {
+    "albumId": "ice-age-trail-section-hike",
+    "coordinates": "43.7964° N, 88.0351° W",
+    "days": "1",
+    "duration": "1 days",
+    "distance": {
+      "label": "Distance",
+      "value": {
+        "basic": "",
+        "complex": {
+          "imperial": "8",
+          "metric": "13"
+        }
+      }
+    },
+    "id": "ice-age-trail-05-04-2025",
+    "initials": "IAT",
+    "location": "Ice Age Trail, Glenbeulah, Wisconsin, USA",
+    "position": [
+      "48%",
+      "20%"
+    ],
+    "title": "IAT: Greenbush Segment",
+    "type": "section hike",
+    "when": "05 04 2025"
+  },
+  {
+    "albumId": "ice-age-trail-section-hike",
+    "coordinates": "42.8191° N, 88.6190° W",
+    "days": "2",
+    "duration": "2 days",
+    "distance": {
+      "label": "Distance",
+      "value": {
+        "basic": "",
+        "complex": {
+          "imperial": "11",
+          "metric": "18"
+        }
+      }
+    },
+    "id": "ice-age-trail-07-15-2022",
+    "initials": "IAT",
+    "location": "Ice Age Trail, Eagle, Wisconsin, USA",
+    "position": [
+      "48%",
+      "20%"
+    ],
+    "title": "IAT: Blue Spring + Stony Ridge Segments",
+    "type": "section hike",
+    "when": "07 15-16 2022"
   },
   {
     "albumId": "west-highland-way-2022",
     "coordinates": "55.9440° N, 4.3200° W",
     "days": "6",
+    "duration": "6 days",
     "distance": {
       "label": "Distance",
       "value": {
@@ -201,6 +263,7 @@ const data = [
     "albumId": "southern-rockies-2019",
     "coordinates": "39.3470° N, 106.1186° W",
     "days": "1",
+    "duration": "4 hours",
     "distance": {
       "label": "Distance",
       "value": {
@@ -212,12 +275,13 @@ const data = [
       }
     },
     "id": "mount-decalibron-2021",
+    "initials": "DCL",
     "location": "Mosquito Range, Colorado, USA",
     "position": [
       "50.5%",
       "15.5%"
     ],
-    "title": "Mount DeCaLiBron",
+    "title": "Mount DeCaLi",
     "type": "summit",
     "when": "09 09 2021"
   },
@@ -225,6 +289,7 @@ const data = [
     "albumId": "southern-rockies-2019",
     "coordinates": "38.6190° N, 106.2392° W",
     "days": "1",
+    "duration": "5 hours",
     "distance": {
       "label": "Distance",
       "value": {
@@ -236,6 +301,7 @@ const data = [
       }
     },
     "id": "mount-shavano-2021",
+    "initials": "SHA",
     "location": "Sawatch Range, Colorado, USA",
     "position": [
       "50.5%",
@@ -249,6 +315,7 @@ const data = [
     "albumId": "southern-rockies-2019",
     "coordinates": "39.6338° N, 105.8176° W",
     "days": "1",
+    "duration": "4 hours",
     "distance": {
       "label": "Distance",
       "value": {
@@ -260,6 +327,7 @@ const data = [
       }
     },
     "id": "grays-peak-2020",
+    "initials": "GRPK",
     "location": "Front Range, Colorado, USA",
     "position": [
       "50.5%",
@@ -273,6 +341,7 @@ const data = [
     "albumId": "southern-rockies-2019",
     "coordinates": "39.5826° N, 105.6688° W",
     "days": "1",
+    "duration": "4 hours",
     "distance": {
       "label": "Distance",
       "value": {
@@ -284,6 +353,7 @@ const data = [
       }
     },
     "id": "mount-bierstadt-2020",
+    "initials": "BIER",
     "location": "Front Range, Colorado, USA",
     "position": [
       "50.5%",
@@ -297,6 +367,7 @@ const data = [
     "albumId": "southern-rockies-2019",
     "coordinates": "39.0295° N, 106.4730° W",
     "days": "1",
+    "duration": "5 hours",
     "distance": {
       "label": "Distance",
       "value": {
@@ -308,6 +379,7 @@ const data = [
       }
     },
     "id": "la-plata-peak-2020",
+    "initials": "LPP",
     "location": "Sawatch Range, Colorado, USA",
     "position": [
       "50.5%",
@@ -321,6 +393,7 @@ const data = [
     "albumId": "o-circuit-2020",
     "coordinates": "50.9652° S, 72.8635° W",
     "days": "8",
+    "duration": "8 days",
     "distance": {
       "label": "Distance",
       "value": {
@@ -346,6 +419,7 @@ const data = [
     "albumId": "annapurna-circuit-2019",
     "coordinates": "28.2391° N, 84.3693° E",
     "days": "18",
+    "duration": "18 days",
     "distance": {
       "label": "Distance",
       "value": {
@@ -371,6 +445,7 @@ const data = [
     "albumId": "southern-rockies-2019",
     "coordinates": "39.3972° N, 106.1063° W",
     "days": "1",
+    "duration": "3 hours",
     "distance": {
       "label": "Distance",
       "value": {
@@ -382,6 +457,7 @@ const data = [
       }
     },
     "id": "quandary-peak-2019",
+    "initials": "QP",
     "location": "Tenmile Range, Colorado, USA",
     "position": [
       "50.5%",
@@ -395,6 +471,7 @@ const data = [
     "albumId": "southern-rockies-2019",
     "coordinates": "39.1177° N, 106.4453° W",
     "days": "1",
+    "duration": "5 hours",
     "distance": {
       "label": "Distance",
       "value": {
@@ -406,6 +483,7 @@ const data = [
       }
     },
     "id": "mount-elbert-2019",
+    "initials": "ELB",
     "location": "Sawatch Range, Colorado, USA",
     "position": [
       "50.5%",
@@ -419,6 +497,7 @@ const data = [
     "albumId": "alta-via-1-2019",
     "coordinates": "46.6992° N, 12.0852° E",
     "days": "10",
+    "duration": "10 days",
     "distance": {
       "label": "Distance",
       "value": {
@@ -444,6 +523,7 @@ const data = [
     "albumId": "tour-du-mont-blanc-2018",
     "coordinates": "45.8902° N, 6.7983° E",
     "days": "12",
+    "duration": "12 days",
     "distance": {
       "label": "Distance",
       "value": {
@@ -469,6 +549,7 @@ const data = [
     "albumId": "camino-frances-2018",
     "coordinates": "43.1634° N, 1.2358° W",
     "days": "32",
+    "duration": "32 days",
     "distance": {
       "label": "Distance",
       "value": {

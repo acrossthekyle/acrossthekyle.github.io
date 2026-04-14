@@ -13,6 +13,7 @@ const data = {
   "continent": "North America",
   "coordinates": "39.3972° N, 106.1063° W",
   "days": "1",
+  "duration": "3 hours",
   "description": [
     "The second 14'er of my Colorado trip was easier but just as rewarding, with a stunning sunrise and playful Pikas along the trail. Reaching the summit quickly allowed me to enjoy new friendships, breathtaking views, and even a free beer at the top."
   ],
@@ -57,6 +58,7 @@ const data = {
     }
   },
   "id": "quandary-peak-2019",
+  "initials": "QP",
   "location": "Tenmile Range, Colorado, USA",
   "position": [
     "50.5%",
@@ -75,7 +77,7 @@ const data = {
         }
       },
       "altitudeMax": {
-        "label": "Max altitude",
+        "label": "Highest point",
         "value": {
           "basic": "",
           "complex": {

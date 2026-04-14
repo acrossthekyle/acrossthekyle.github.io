@@ -3,52 +3,37 @@
 import { createContext, useState } from 'react';
 
 export const GpxContext = createContext({
-  activeIndex: 0,
-  hoverIndex: null,
-  isToggled: false,
+  elevationIndex: null,
+  stageIndex: null,
   // eslint-disable-next-line unused-imports/no-unused-vars
-  onClick: (index: number) => {
+  handleOnElevationHover: (index: number | null) => {
     // noop
   },
   // eslint-disable-next-line unused-imports/no-unused-vars
-  onHover: (index: number | null) => {
-    // noop
-  },
-  onToggle: () => {
+  handleOnStageHover: (index: number | null) => {
     // noop
   },
 });
 
 export default function Context({ children }: React.PropsWithChildren) {
-  const [activeIndex, setActiveIndex] = useState(0);
-  const [hoverIndex, setHoverIndex] = useState<number | null>(null);
-  const [isToggled, setIsToggled] = useState(false);
+  const [elevationIndex, setElevationIndex] = useState<number | null>(null);
+  const [stageIndex, setStageIndex] = useState<number | null>(null);
 
-  const handleOnClick = (index: number) => {
-    setActiveIndex(index);
-
-    if (isToggled) {
-      setIsToggled(false);
-    }
+  const handleOnElevationHover = (index: number | null) => {
+    setElevationIndex(index);
   };
 
-  const handleOnHover = (index: number | null) => {
-    setHoverIndex(index);
-  };
-
-  const handleOnToggle = () => {
-    setIsToggled(previous => !previous);
+  const handleOnStageHover = (index: number | null) => {
+    setStageIndex(index);
   };
 
   return (
     <GpxContext.Provider
       value={{
-        activeIndex,
-        hoverIndex: hoverIndex as null,
-        isToggled,
-        onClick: handleOnClick,
-        onHover: handleOnHover,
-        onToggle: handleOnToggle,
+        stageIndex: stageIndex as null,
+        elevationIndex: elevationIndex as null,
+        onStageHover: handleOnStageHover,
+        onElevationHover: handleOnElevationHover,
       }}
     >
       {children}

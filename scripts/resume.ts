@@ -1,0 +1,20 @@
+/* eslint-disable */
+// @ts-nocheck
+
+import fs from 'fs';
+import path from 'path';
+
+import { write } from './utils';
+
+const input = path.join(process.cwd(), './repository/resume.json');
+
+export async function go() {
+  const data = JSON.parse(fs.readFileSync(input, 'utf8'));
+
+  if (data.length) {
+    write(
+      'resume.js',
+      data,
+    );
+  }
+}
