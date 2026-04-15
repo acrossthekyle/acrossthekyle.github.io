@@ -14,9 +14,6 @@ const data = {
   "coordinates": "55.9440° N, 4.3200° W",
   "days": "6",
   "duration": "6 days",
-  "description": [
-    "Filled with misty glens, deep lochs, and endless rain while hiking from Milngavie to Fort William, the West Highland Way is a long-distance trail in the highlands of Scotland in the UK. The trail travels down many ancient roads and old coaching routes, journeying from the lowlands to the highlands, while camping overnight in fields, along lakeside beachs, and under bridges."
-  ],
   "distance": {
     "label": "Distance",
     "value": {
@@ -50,7 +47,7 @@ const data = {
   "end": {
     "label": "End",
     "value": {
-      "basic": "Bridge of Orchy",
+      "basic": "Kinlochleven",
       "complex": {
         "imperial": "",
         "metric": ""

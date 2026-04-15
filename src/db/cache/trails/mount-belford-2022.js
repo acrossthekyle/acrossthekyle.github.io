@@ -14,9 +14,6 @@ const data = {
   "coordinates": "38.9607° N, 106.3606° W",
   "days": "1",
   "duration": "5 hours",
-  "description": [
-    "Mt. Belford was a tough introduction to this year's Colorado 14'ers, with steep climbs and long stretches above the treeline. Despite scrapes and exhaustion, reaching the summit left me exhilarated and ready for the adventures ahead."
-  ],
   "distance": {
     "label": "Distance",
     "value": {

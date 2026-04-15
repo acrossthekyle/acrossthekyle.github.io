@@ -1,0 +1,30 @@
+{
+  "date": [
+    "11/1/2019",
+    "11/6/2019"
+  ],
+  "days": "5",
+  "timestamp": "1572544500",
+  "id": "annapurna-basecamp-2019",
+  "albumId": "annapurna-basecamp-2019",
+  "type": "basecamp",
+  "continent": "asia",
+  "location": "Annapurna I, Himalayas, Nepal",
+  "coordinates": "28.530000° N, 83.878000° E",
+  "position": [
+    "53%",
+    "69%"
+  ],
+  "title": "Annapurna",
+  "initials": "ABT",
+  "tags": [
+    "abc",
+    "apc",
+    "annapurna",
+    "basecamp",
+    "himalaya",
+    "asia",
+    "long",
+    "distance"
+  ]
+}

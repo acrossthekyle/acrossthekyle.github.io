@@ -49,6 +49,8 @@ function getWhen(date: string[]) {
 };
 
 export async function go() {
+  console.log('--- running trails script ---');
+
   const trails = [];
 
   await Promise.all(

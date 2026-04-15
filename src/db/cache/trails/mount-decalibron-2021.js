@@ -14,9 +14,6 @@ const data = {
   "coordinates": "39.3470° N, 106.1186° W",
   "days": "1",
   "duration": "4 hours",
-  "description": [
-    "The DeCaLiBro-n route connected three 14,000-foot peaks in a single day, offering sweeping views and thrilling ridges. Completing Democrat, Cameron, and Lincoln left us exhausted but exhilarated, a true alpine adventure."
-  ],
   "distance": {
     "label": "Distance",
     "value": {

@@ -9,7 +9,13 @@ import { write } from './utils';
 
 const input = path.join(process.cwd(), './repository/albums');
 
-function getWhen(date: string[]) {
+function getWhen(date: string | string[]) {
+  if (!Array.isArray(date)) {
+    const parsed = parseDate(date, 'M/dd/yyyy', new Date());
+
+    return `${formatDate(parsed, 'MM').trim()} ${formatDate(parsed, 'dd').trim()} 20${formatDate(parsed, 'yy').trim()}`;
+  }
+
   const start = parseDate(date[0], 'M/dd/yyyy', new Date());
 
   const dayA = formatDate(start, 'dd').trim();
@@ -46,6 +52,8 @@ function getWhen(date: string[]) {
 };
 
 export async function go() {
+  console.log('--- running albums script ---');
+
   const albums = [];
 
   const files = fs
@@ -59,8 +67,12 @@ export async function go() {
       category: data.category,
       coordinates: data.coordinates,
       id: data.id,
-      images: data.images,
+      images: data.images.map((image) => ({
+        ...image,
+        when: image.date ? getWhen(image.date) : null,
+      })),
       location: data.location,
+      tags: data.tags,
       timestamp: data.timestamp,
       title: data.title,
       when: getWhen(data.date),

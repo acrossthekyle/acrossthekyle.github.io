@@ -39,6 +39,8 @@ async function getExif(src) {
 }
 
 export async function go() {
+  console.log('--- running exif script ---');
+
   const albums = [];
 
   const files = fs
@@ -53,6 +55,8 @@ export async function go() {
     for (const image of data.images) {
       if (!image.exif) {
         await wait(1500);
+
+        console.log('--# getting exif data #--');
 
         const response = await getExif(image.src);
 

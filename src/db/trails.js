@@ -416,22 +416,48 @@ const data = [
     "when": "02 18-25 2020"
   },
   {
-    "albumId": "annapurna-circuit-2019",
-    "coordinates": "28.2391° N, 84.3693° E",
-    "days": "18",
-    "duration": "18 days",
+    "albumId": "annapurna-basecamp-2019",
+    "coordinates": "28.5300° N, 83.8780° E",
+    "days": "5",
+    "duration": "5 days",
     "distance": {
       "label": "Distance",
       "value": {
         "basic": "",
         "complex": {
-          "imperial": "193",
-          "metric": "311"
+          "imperial": "38",
+          "metric": "61"
+        }
+      }
+    },
+    "id": "annapurna-basecamp-2019",
+    "initials": "ABT",
+    "location": "Annapurna I, Himalayas, Nepal",
+    "position": [
+      "53%",
+      "69%"
+    ],
+    "title": "Annapurna",
+    "type": "basecamp",
+    "when": "11 01-06 2019"
+  },
+  {
+    "albumId": "annapurna-circuit-2019",
+    "coordinates": "28.2391° N, 84.3693° E",
+    "days": "13",
+    "duration": "13 days",
+    "distance": {
+      "label": "Distance",
+      "value": {
+        "basic": "",
+        "complex": {
+          "imperial": "155",
+          "metric": "249"
         }
       }
     },
     "id": "annapurna-circuit-2019",
-    "initials": "ABC",
+    "initials": "ACT",
     "location": "The Himalayas, Nepal",
     "position": [
       "53%",
@@ -439,7 +465,7 @@ const data = [
     ],
     "title": "Annapurna Circuit",
     "type": "thru-hike",
-    "when": "10 19 / 11 06 2019"
+    "when": "10 19-31 2019"
   },
   {
     "albumId": "southern-rockies-2019",
@@ -561,7 +587,7 @@ const data = [
       }
     },
     "id": "camino-frances-2018",
-    "initials": "CDS",
+    "initials": "CF",
     "location": "Northern Spain",
     "position": [
       "48%",

@@ -14,9 +14,6 @@ const data = {
   "coordinates": "50.9652° S, 72.8635° W",
   "days": "8",
   "duration": "8 days",
-  "description": [
-    "At the bottom of the world in Southern Chile with equal parts rustic and modern, the trail known as the 'O' Circuit circumnavigates the prominent Torres del Paine granite towers that Patagonia is partly known for. A tapestry of landscapes, sprawling glaciers, pristine lakes, and windswept plains provides an idyllic background for thru-hiking."
-  ],
   "distance": {
     "label": "Distance",
     "value": {

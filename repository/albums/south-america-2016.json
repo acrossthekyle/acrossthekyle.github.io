@@ -1,18 +1,18 @@
 {
   "date": [
     "3/18/2016",
-    "3/24/2016"
+    "3/27/2016"
   ],
   "timestamp": "1458277200",
-  "id": "santiago-and-valparaiso-2016",
-  "title": "Santiago",
+  "id": "south-america-2016",
+  "title": "South America 2016",
   "location": "Chile",
   "category": "destination",
   "coordinates": "33.448890° S, 70.669265° W",
   "images": [
     {
       "src": "2016/03/18/a3205d70-0fc8-416a-b383-eb08e9e612a5.jpeg",
-      "title": "Hiking Cerro San Cristóbal",
+      "title": "Cerro San Cristóbal",
       "exif": {
         "aperture": "2/2750",
         "camera": "iPhone 6s Plus",
@@ -48,7 +48,7 @@
     },
     {
       "src": "2016/03/18/b941c594-5218-449f-b79d-cb9936f56ad5.jpeg",
-      "title": "Wine Tasting in Chile",
+      "title": "Wine Tasting",
       "exif": {
         "aperture": "2/2750",
         "camera": "iPhone 6s Plus",
@@ -56,6 +56,42 @@
         "fnumber": "2.20",
         "focal": 29,
         "iso": 800
+      }
+    },
+    {
+      "src": "2016/03/18/fb45dc07-e4fe-4d90-b39a-f54e50142d5a.jpeg",
+      "title": "Torres del Paine",
+      "exif": {
+        "aperture": "2/2750",
+        "camera": "iPhone 6s Plus",
+        "exposure": "0.0",
+        "fnumber": "2.20",
+        "focal": 60,
+        "iso": 25
+      }
+    },
+    {
+      "src": "2016/03/18/9e9e78a3-a2ad-4a09-962c-fc1866ccfbd4.jpeg",
+      "title": "Cueva del Milodon",
+      "exif": {
+        "aperture": "2/2750",
+        "camera": "iPhone 6s Plus",
+        "exposure": "0.0",
+        "fnumber": "2.20",
+        "focal": 29,
+        "iso": 25
+      }
+    },
+    {
+      "src": "2016/03/18/9742d413-6fdd-4474-a4a2-59ada5ddab14.jpeg",
+      "title": "Glacier Cruise",
+      "exif": {
+        "aperture": "2/2750",
+        "camera": "iPhone 6s Plus",
+        "exposure": "0.0",
+        "fnumber": "2.20",
+        "focal": 29,
+        "iso": 25
       }
     }
   ]

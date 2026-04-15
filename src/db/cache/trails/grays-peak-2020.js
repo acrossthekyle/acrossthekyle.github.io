@@ -14,9 +14,6 @@ const data = {
   "coordinates": "39.6338° N, 105.8176° W",
   "days": "1",
   "duration": "4 hours",
-  "description": [
-    "Grays Peak was a stunning finale to my Colorado 14'er trip, with the entire hike starting above the treeline. The sunrise, 360-degree summit views, and alpine landscapes made it a magical way to end the weekend."
-  ],
   "distance": {
     "label": "Distance",
     "value": {

@@ -1,12 +1,12 @@
 {
   "date": [
     "3/19/2015",
-    "3/22/2015"
+    "3/25/2015"
   ],
   "timestamp": "1426762800",
-  "id": "buenos-aires-2015",
-  "title": "Buenos Aires",
-  "location": "Argentina",
+  "id": "south-america-2015",
+  "title": "South America 2015",
+  "location": "Buenos Aires and Montevideo",
   "category": "destination",
   "coordinates": "34.603723° S, 58.381593° W",
   "images": [
@@ -24,7 +24,7 @@
     },
     {
       "src": "2015/03/19/aaa356af-6a08-4305-8fe2-80819bd00f16.jpeg",
-      "title": "Lollapalooza in Buenos Aires",
+      "title": "Lollapalooza",
       "exif": {
         "aperture": "2/2750",
         "camera": "iPhone 6",
@@ -32,6 +32,18 @@
         "fnumber": "2.20",
         "focal": 29,
         "iso": 1000
+      }
+    },
+    {
+      "src": "2015/03/19/9650d680-3809-45e9-a9df-0e108f3e1498.jpeg",
+      "title": "Montevideo's Old City",
+      "exif": {
+        "aperture": "2/2750",
+        "camera": "iPhone 6",
+        "exposure": "0.0",
+        "fnumber": "2.20",
+        "focal": 29,
+        "iso": 32
       }
     }
   ]

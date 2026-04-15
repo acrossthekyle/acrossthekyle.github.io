@@ -70,6 +70,8 @@ function groupByCategory(items) {
 };
 
 export async function go() {
+  console.log('--- running gear script ---');
+
   const files = fs.readdirSync(input).filter((file) => {
     if (file !== '.DS_Store') {
       return file;

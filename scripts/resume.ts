@@ -9,6 +9,8 @@ import { write } from './utils';
 const input = path.join(process.cwd(), './repository/resume.json');
 
 export async function go() {
+  console.log('--- running resume script ---');
+
   const data = JSON.parse(fs.readFileSync(input, 'utf8'));
 
   if (data.length) {

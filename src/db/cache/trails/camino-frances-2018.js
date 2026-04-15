@@ -14,9 +14,6 @@ const data = {
   "coordinates": "43.1634° N, 1.2358° W",
   "days": "32",
   "duration": "32 days",
-  "description": [
-    "Starting high in the Pyrenees mountains between France and Spain, and leading to the Atlantic ocean, the Camino Frances is part of a series of ancient routes collectively called the Camino de Santiago. It covers a wide array of landscapes and cultures over hills and mountains, across deserts, through rivers, and in thick forests."
-  ],
   "distance": {
     "label": "Distance",
     "value": {
@@ -58,7 +55,7 @@ const data = {
     }
   },
   "id": "camino-frances-2018",
-  "initials": "CDS",
+  "initials": "CF",
   "location": "Northern Spain",
   "position": [
     "48%",

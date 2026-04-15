@@ -1,18 +1,43 @@
 {
   "date": [
     "10/19/2019",
-    "11/6/2019"
+    "10/31/2019"
   ],
   "timestamp": "1571465700",
   "id": "annapurna-circuit-2019",
   "title": "Annapurna Circuit",
-  "location": "Nepal",
-  "category": "hike",
+  "location": "The Himalayas, Nepal",
+  "category": "backpacking",
   "coordinates": "28.239145° N, 84.369334° E",
+  "tags": [
+    "landscape",
+    "trail",
+    "thru-hike",
+    "mountains",
+    "asia",
+    "nepal",
+    "backpacking"
+  ],
   "images": [
     {
       "src": "2019/10/19/672dcde8-57ae-4bf9-885f-ae039d3a824d.jpeg",
-      "title": "Bhulbhule",
+      "title": "Neon-green fields",
+      "location": "Lamjung District",
+      "date": "10/19/2019",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
+    },
+    {
+      "src": "2019/10/19/1f9fe719-6e29-45de-a648-46f1001f24b7.jpeg",
+      "title": "Entering a village",
+      "location": "Lamjung District",
+      "date": "10/19/2019",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -24,7 +49,9 @@
     },
     {
       "src": "2019/10/19/cde86c7c-f794-4a99-8286-9af3de9425fc.jpeg",
-      "title": "Jagat",
+      "title": "Lush jungle",
+      "location": "Lamjung District",
+      "date": "10/20/2019",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -32,11 +59,27 @@
         "fnumber": "1.80",
         "focal": 28,
         "iso": 20
+      }
+    },
+    {
+      "src": "2019/10/19/54cf98c9-411b-4fb9-98f0-6334199d7f60.jpeg",
+      "title": "Waterfall",
+      "location": "Lamjung District",
+      "date": "10/20/2019",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 25
       }
     },
     {
       "src": "2019/10/19/69d8dc52-42d4-4295-9b25-1f7542c1da8b.jpeg",
-      "title": "Dharapani",
+      "title": "Dry riverbed walking",
+      "location": "Manang District",
+      "date": "10/21/2019",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -47,8 +90,24 @@
       }
     },
     {
+      "src": "2019/10/19/3d1edec3-da4d-4c6a-8f04-f4e7dcbcaaf9.jpeg",
+      "title": "Waterfall",
+      "location": "Manang District",
+      "date": "10/21/2019",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 40
+      }
+    },
+    {
       "src": "2019/10/19/de48b8b7-ef5d-4c21-93a8-d6e4d7628e7f.jpeg",
-      "title": "Chame",
+      "title": "Mountain over trees",
+      "location": "Manang District",
+      "date": "10/22/2019",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -60,7 +119,9 @@
     },
     {
       "src": "2019/10/19/91fcb255-9894-434c-9c39-41ea5070e819.jpeg",
-      "title": "Upper Pisang",
+      "title": "Imposing mountain",
+      "location": "Manang District",
+      "date": "10/23/2019",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -68,11 +129,41 @@
         "fnumber": "1.80",
         "focal": 28,
         "iso": 20
+      }
+    },
+    {
+      "src": "2019/10/19/6999cb82-6d71-4840-b72f-879fea44c4e7.jpeg",
+      "title": "Mountain village",
+      "location": "Manang District",
+      "date": "10/23/2019",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
+    },
+    {
+      "src": "2019/10/19/98ce1f4f-fe35-4d6a-9881-1ef3260db4ed.jpeg",
+      "title": "Colorful temple ceiling",
+      "location": "Manang District",
+      "date": "10/23/2019",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 40
       }
     },
     {
       "src": "2019/10/19/b9b20eb0-e569-4778-99c6-de3a3c2eb15e.jpeg",
-      "title": "Manang",
+      "title": "Ice lake",
+      "location": "Manang District",
+      "date": "10/24/2019",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -83,8 +174,80 @@
       }
     },
     {
+      "src": "2019/10/19/a5f1d4b0-a6a8-453a-bd24-647a0bc6545f.jpeg",
+      "title": "Village on plateau",
+      "location": "Manang District",
+      "date": "10/25/2019",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
+    },
+    {
+      "src": "2019/10/19/ef85d604-a95e-4094-baae-83bfa8464980.jpeg",
+      "title": "Stuppa",
+      "location": "Manang District",
+      "date": "10/25/2019",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
+    },
+    {
+      "src": "2019/10/19/8e6f1186-0022-490e-9a78-1e010c478e7c.jpeg",
+      "title": "Mighty glacier",
+      "location": "Manang District",
+      "date": "10/25/2019",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
+    },
+    {
+      "src": "2019/10/19/4fc862a6-93fc-4196-9293-2e03e1ae9d0e.jpeg",
+      "title": "Steep mountain-side trail",
+      "location": "Manang District",
+      "date": "10/26/2019",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
+    },
+    {
+      "src": "2019/10/19/2a1bf139-680c-427a-833f-62ff563c5eca.jpeg",
+      "title": "Tilicho Lake Avalanche",
+      "location": "Manang District",
+      "date": "10/27/2019",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 25
+      }
+    },
+    {
       "src": "2019/10/19/ed197052-01d7-4739-807c-39340385c0fc.jpeg",
-      "title": "Tilicho Lake",
+      "title": "Dust storms",
+      "location": "Manang District",
+      "date": "10/27/2019",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -96,7 +259,23 @@
     },
     {
       "src": "2019/10/19/d7837a44-81d2-4fa0-9912-bb15508be721.jpeg",
-      "title": "Khangsar",
+      "title": "Lone yak",
+      "location": "Manang District",
+      "date": "10/27/2019",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
+    },
+    {
+      "src": "2019/10/19/e6d0c49e-9716-4124-a7a3-65a9d90912c2.jpeg",
+      "title": "Overlooking Manang I",
+      "location": "Khotang District",
+      "date": "10/27/2019",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -108,7 +287,9 @@
     },
     {
       "src": "2019/10/19/40b7a029-2f0c-4807-94fa-86a07ee9ffa9.jpeg",
-      "title": "Phedi",
+      "title": "Overlooking Manang II",
+      "location": "Khotang District",
+      "date": "10/27/2019",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 7",
@@ -120,7 +301,9 @@
     },
     {
       "src": "2019/10/19/f76cbaab-0139-44b4-bc5c-6c816731d927.jpeg",
-      "title": "Ranipauwa",
+      "title": "Thorong-la Pass",
+      "location": "Mustang District",
+      "date": "10/28/2019",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -128,11 +311,27 @@
         "fnumber": "1.80",
         "focal": 28,
         "iso": 20
+      }
+    },
+    {
+      "src": "2019/10/19/31cfb5dc-44b7-4ab5-b216-1ec2efa7b7b3.jpeg",
+      "title": "Muktinath",
+      "location": "Mustang District",
+      "date": "10/28/2019",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 25
       }
     },
     {
       "src": "2019/10/19/93b7286f-a87a-4d8e-8d85-6a3f50dcd82c.jpeg",
-      "title": "Marpha",
+      "title": "Dirt-brown mountain views",
+      "location": "Mustang District",
+      "date": "10/29/2019",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -143,8 +342,24 @@
       }
     },
     {
+      "src": "2019/10/19/8000cad8-11a9-4b85-afe7-748d601e1b74.jpeg",
+      "title": "Dry river-bed walking",
+      "location": "Mustang District",
+      "date": "10/29/2019",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 25
+      }
+    },
+    {
       "src": "2019/10/19/9f9bca6e-e30a-4ca0-b005-5a0bda57f649.jpeg",
-      "title": "Ghasa",
+      "title": "All the biomes",
+      "location": "Mustang District",
+      "date": "10/30/2019",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -156,7 +371,9 @@
     },
     {
       "src": "2019/10/19/5cf22091-8d99-4cdd-870c-f91db81c1049.jpeg",
-      "title": "Ghorepani",
+      "title": "Down and up to Ghorepani",
+      "location": "Myagdi District",
+      "date": "10/31/2019",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -164,66 +381,6 @@
         "fnumber": "1.80",
         "focal": 28,
         "iso": 25
-      }
-    },
-    {
-      "src": "2019/10/19/b2ef8848-2e35-43dd-9f06-98434903f810.jpeg",
-      "title": "Chomrong",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 25
-      }
-    },
-    {
-      "src": "2019/10/19/a052d193-0be9-4288-b017-65d459c3eca1.jpeg",
-      "title": "Deurali",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
-      }
-    },
-    {
-      "src": "2019/10/19/3773c3c4-265f-4e7e-8f0a-d6e1a7d9b85c.jpeg",
-      "title": "Annapurna Basecamp",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
-      }
-    },
-    {
-      "src": "2019/10/19/490d1db6-aaad-4ed3-9181-081ca318cd16.jpeg",
-      "title": "Chomrong",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
-      }
-    },
-    {
-      "src": "2019/10/19/8fef1e6f-d483-445c-b19c-d47bb7f1fc68.jpeg",
-      "title": "Jhinu Danda",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
       }
     }
   ]

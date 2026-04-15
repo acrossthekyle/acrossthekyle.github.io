@@ -14,9 +14,6 @@ const data = {
   "coordinates": "39.1872° N, 106.4753° W",
   "days": "1",
   "duration": "4 hours",
-  "description": [
-    "Mount Massive challenged me with rocky ridges, windy summits, and steep switchbacks, but the views made every step worth it. Reaching the top and looking out toward Mount Elbert was an unforgettable Colorado moment."
-  ],
   "distance": {
     "label": "Distance",
     "value": {

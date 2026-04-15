@@ -14,9 +14,6 @@ const data = {
   "coordinates": "39.5826° N, 105.6688° W",
   "days": "1",
   "duration": "4 hours",
-  "description": [
-    "Mt. Bierstadt was an easier 14'er with beautiful prairies, alpine lakes, and boulder scrambling near the summit. The quick climb and wide-open Colorado skies made it an unforgettable and relaxing day hike."
-  ],
   "distance": {
     "label": "Distance",
     "value": {

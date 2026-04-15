@@ -14,9 +14,6 @@ const data = {
   "coordinates": "39.0295° N, 106.4730° W",
   "days": "1",
   "duration": "5 hours",
-  "description": [
-    "Camping near the trailhead made La Plata Peak feel more approachable despite its technical challenges. Hiking six hours to the summit rewarded me with alpine scenery, hidden snow patches, and a peaceful sense of solitude."
-  ],
   "distance": {
     "label": "Distance",
     "value": {

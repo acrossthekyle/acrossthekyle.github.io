@@ -14,9 +14,6 @@ const data = {
   "coordinates": "38.6190° N, 106.2392° W",
   "days": "1",
   "duration": "5 hours",
-  "description": [
-    "Mt. Shavano Challenge"
-  ],
   "distance": {
     "label": "Distance",
     "value": {

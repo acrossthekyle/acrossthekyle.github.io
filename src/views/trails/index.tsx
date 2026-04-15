@@ -31,6 +31,7 @@ type Props = {
 
 export default function View({ data }: Props) {
   const thruHikes = data.trails.filter((item) => item.type === 'thru-hike');
+  const basecamps = data.trails.filter((item) => item.type === 'basecamp');
   const sectionHikes = data.trails.filter((item) => item.type === 'section hike');
   const weekendHikes = data.trails.filter((item) => item.type === 'weekend hike');
   const summits = data.trails.filter((item) => item.type === 'summit');
@@ -40,6 +41,11 @@ export default function View({ data }: Props) {
       description: 'End-to-end long-distance trails',
       items: thruHikes,
       label: 'Thru-hikes',
+    },
+    {
+      description: 'High camp trekking',
+      items: basecamps,
+      label: 'Basecamps',
     },
     {
       description: 'Long-distance trail segments',

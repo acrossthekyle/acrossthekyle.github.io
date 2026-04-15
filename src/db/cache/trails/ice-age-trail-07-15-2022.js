@@ -14,9 +14,6 @@ const data = {
   "coordinates": "42.8191° N, 88.6190° W",
   "days": "2",
   "duration": "2 days",
-  "description": [
-    "A place of kettles and moraines from mile-thick glaciers long ago in Wisconsin, completing this 1,200 mile long-distance national scenic trail in sections takes time. It's not the distance on this trail that gets you; it's the constant up and down over rolling hills."
-  ],
   "distance": {
     "label": "Distance",
     "value": {
