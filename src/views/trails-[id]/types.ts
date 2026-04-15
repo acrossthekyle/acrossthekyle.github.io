@@ -29,6 +29,7 @@ export type Trail = {
   days: string;
   description: string;
   distance: Stat;
+  duration: string;
   elevationGain: Stat;
   elevationLoss: Stat;
   end: Stat;

@@ -6,12 +6,23 @@
   "id": "ice-age-trail-section-hike",
   "title": "Ice Age Trail",
   "location": "Wisconsin",
-  "category": "hike",
+  "category": "backpacking",
   "coordinates": "42.876001° N, 88.525661° W",
+  "tags": [
+    "landscape",
+    "trail",
+    "section hike",
+    "hills",
+    "north america",
+    "wisconsin",
+    "backpacking"
+  ],
   "images": [
     {
       "src": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",
-      "title": "Stony Ridge Shelter",
+      "title": "Stony Ridge",
+      "location": "Eagle, Wisconsin",
+      "date": "07/25/2022",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",
@@ -23,7 +34,9 @@
     },
     {
       "src": "2025/05/03/e402c0b1-e827-4123-b7b5-74947b240687.jpeg",
-      "title": "Parnell Shelter",
+      "title": "Parnell Segment",
+      "location": "Mauthe Lake, Wisconsin",
+      "date": "5/03/2025",
       "exif": {
         "aperture": "1/6638",
         "camera": "iPhone 16 Pro",
@@ -36,6 +49,8 @@
     {
       "src": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
       "title": "Greenbush Trailhead",
+      "location": "Glenbeulah, Wisconsin",
+      "date": "5/04/2025",
       "exif": {
         "aperture": "1/6638",
         "camera": "iPhone 16 Pro",

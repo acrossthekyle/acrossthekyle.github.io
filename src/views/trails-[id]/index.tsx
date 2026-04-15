@@ -1,7 +1,6 @@
 import Link from 'next/link';
 
 import { Content } from '@/layout';
-import Divider from '@/ui/divider';
 import {
   Header,
   HeaderPrefix,
@@ -10,7 +9,6 @@ import {
 } from '@/ui/header';
 import { padIndex } from '@/utils';
 
-import Footer from './footer';
 import Route from './route';
 import styles from './stylesheet';
 import type { More, Trail } from './types';
@@ -45,8 +43,6 @@ export default function View({ data }: Props) {
         </aside>
       </div>
       <Route trail={data.trail} />
-      {/*<Divider />
-      <Footer more={data.more} />*/}
     </Content>
   );
 }

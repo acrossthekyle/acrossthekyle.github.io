@@ -2,14 +2,12 @@
 
 import 'leaflet/dist/leaflet.css';
 
-import L, { LeafletMouseEvent } from 'leaflet';
 import { useEffect, useState } from 'react';
 import {
   CircleMarker,
   MapContainer,
   Polyline,
   TileLayer,
-  useMap,
 } from 'react-leaflet';
 
 import type { Gpx } from '../../types';
@@ -32,6 +30,7 @@ export default function Leaflet({
 
   useEffect(() => {
     if (latLongs && latLongs.length > 0 && data.length === 0) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setData(latLongs);
     }
   }, [data, latLongs]);
@@ -42,6 +41,7 @@ export default function Leaflet({
 
   return (
     <MapContainer
+      // @ts-expect-error - allow
       bounds={data}
       boundsOptions={{ padding: [10, 10] }}
       className={styles.map}
@@ -82,7 +82,7 @@ export default function Leaflet({
           positions={data[stageIndex]}
         />
       )}
-      {elevationIndex !== null && (
+      {stageIndex !== null && elevationIndex !== null && (
         <CircleMarker
           center={data[stageIndex][elevationIndex]}
           className={styles.marker}

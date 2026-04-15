@@ -7,12 +7,21 @@
   "id": "yellow-river-trail-2025",
   "title": "Yellow River Trail",
   "location": "Iowa",
-  "category": "hike",
+  "category": "backpacking",
   "coordinates": "43.171257° N, 91.259365° W",
+  "tags": [
+    "landscape",
+    "trail",
+    "north america",
+    "weekend hike",
+    "backpacking"
+  ],
   "images": [
     {
       "src": "2025/10/18/efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg",
       "title": "Browns Hollow",
+      "location": "Big Paint Loop",
+      "date": "10/18/2025",
       "exif": {
         "aperture": "1/6638",
         "camera": "iPhone 16 Pro",
@@ -25,6 +34,8 @@
     {
       "src": "2025/10/18/db8b9939-7fe0-43b3-b5ef-d0baea038ef1.jpeg",
       "title": "Browns Trailhead",
+      "location": "Big Paint Loop",
+      "date": "10/19/2025",
       "exif": {
         "aperture": "1/6638",
         "camera": "iPhone 16 Pro",

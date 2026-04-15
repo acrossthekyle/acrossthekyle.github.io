@@ -4,7 +4,6 @@ import Link from 'next/link';
 import { Content } from '@/layout';
 import {
   Header,
-  HeaderEyebrow,
   HeaderPrefix,
   HeaderSubtitle,
   HeaderText,
@@ -22,6 +21,7 @@ type Props = {
       title: string;
     };
     image: {
+      date: string;
       exif?: {
         aperture: string | null;
         camera: string | null;
@@ -30,6 +30,7 @@ type Props = {
         focal: number | null;
         iso: number | null;
       };
+      location: string;
       src: string;
       title: string;
     };
@@ -53,54 +54,44 @@ export default function View({ data }: Props) {
           {data.image.title}
         </HeaderSubtitle>
       </Header>
+      <ul className={styles.items}>
+        <li className={styles.item}>
+          {data.image.date}
+        </li>
+        <li className={styles.item}>
+          {data.image.location}
+        </li>
+      </ul>
       {data.image.exif && (
-        <ul aria-label="image exif data" className={styles.items}>
+        <ul className={styles.items}>
           {data.image.exif?.camera !== null && (
             <li className={styles.item}>
-              <span className={styles.eyebrow}>
-                [Camera]
-              </span>
-              {data.image.exif?.camera}
+              Camera: {data.image.exif?.camera}
             </li>
           )}
           {data.image.exif?.iso !== null && (
             <li className={styles.item}>
-              <span className={styles.eyebrow}>
-                [ISO]
-              </span>
-              {data.image.exif?.iso}
+              ISO: {data.image.exif?.iso}
             </li>
           )}
           {data.image.exif?.focal !== null && (
             <li className={styles.item}>
-              <span className={styles.eyebrow}>
-                [Focal length]
-              </span>
-              {data.image.exif?.focal} mm
+              Focal length: {data.image.exif?.focal} mm
             </li>
           )}
           {data.image.exif?.exposure !== null && (
             <li className={styles.item}>
-              <span className={styles.eyebrow}>
-                [Exposure]
-              </span>
-              {data.image.exif?.exposure} ev
+              Exposure: {data.image.exif?.exposure} ev
             </li>
           )}
           {data.image.exif?.fnumber !== null && (
             <li className={styles.item}>
-              <span className={styles.eyebrow}>
-                [F-number]
-              </span>
-              <span className={styles.emphasis}>f</span>/{data.image.exif?.fnumber}
+              F-number: <span className={styles.emphasis}>f</span>/{data.image.exif?.fnumber}
             </li>
           )}
           {data.image.exif?.aperture !== null && (
             <li className={styles.item}>
-              <span className={styles.eyebrow}>
-                [Aperture]
-              </span>
-              {data.image.exif?.aperture} <span className={styles.emphasis}>s</span>
+              Aperture: {data.image.exif?.aperture} <span className={styles.emphasis}>s</span>
             </li>
           )}
         </ul>

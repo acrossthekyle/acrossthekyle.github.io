@@ -7,12 +7,22 @@
   "id": "san-juan-2022",
   "title": "San Juan",
   "location": "Puerto Rico",
-  "category": "destination",
+  "category": "destinations",
   "coordinates": "18.466333° N, 66.105722° W",
+  "tags": [
+    "cityscape",
+    "landscape",
+    "monuments",
+    "north america",
+    "caribbean",
+    "destination"
+  ],
   "images": [
     {
       "src": "2022/03/23/9f212336-298d-4c7d-874f-a3be34c95d7d.jpeg",
-      "title": "Morning Walks on the Beach",
+      "title": "Beach walks",
+      "location": "Ocean Park Beach",
+      "date": "03/22/2022",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -24,7 +34,9 @@
     },
     {
       "src": "2022/03/23/1ba3d3f7-9462-4375-9770-4efedf15f582.jpeg",
-      "title": "Exploring El Morro",
+      "title": "Castillo San Felipe del Morro",
+      "location": "Old City, San Juan",
+      "date": "03/23/2022",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -36,7 +48,9 @@
     },
     {
       "src": "2022/03/23/11a03e4e-ed4e-47c2-822e-f720a9628638.jpeg",
-      "title": "Adventure in El Yunque",
+      "title": "Rain forest",
+      "location": "El Yunque",
+      "date": "03/24/2022",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",

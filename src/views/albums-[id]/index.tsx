@@ -18,6 +18,7 @@ type Props = {
       coordinates: string;
       id: string;
       images: Array<{
+        date: string;
         exif?: {
           aperture: string | null;
           camera: string | null;
@@ -26,6 +27,7 @@ type Props = {
           focal: number | null;
           iso: number | null;
         };
+        location: string;
         src: string;
         title: string;
       }>;
@@ -74,43 +76,20 @@ export default function View({ data }: Props) {
                 </Link>
                 <figcaption className={styles.caption}>
                   {image.title}
-                  {image.exif && (
-                    <ul aria-label="image exif data" className={styles.stats}>
-                      <li>
-                        {img}
-                      </li>
-                      {image.exif?.camera !== null && (
-                        <li>
-                          Cameria: {image.exif?.camera}
-                        </li>
-                      )}
-                      {image.exif?.iso !== null && (
-                        <li>
-                          ISO: {image.exif?.iso}
-                        </li>
-                      )}
-                      {image.exif?.focal !== null && (
-                        <li>
-                          Focal: {image.exif?.focal} mm
-                        </li>
-                      )}
-                      {image.exif?.exposure !== null && (
-                        <li>
-                          Exposure: {image.exif?.exposure} ev
-                        </li>
-                      )}
-                      {image.exif?.fnumber !== null && (
-                        <li>
-                          F-Number: f/{image.exif?.fnumber}
-                        </li>
-                      )}
-                      {image.exif?.aperture !== null && (
-                        <li>
-                          Aperture: {image.exif?.aperture} s
-                        </li>
-                      )}
-                    </ul>
-                  )}
+                  <ul className={styles.stats}>
+                    <li>{image.date}</li>
+                    <li>{image.location}</li>
+                    <li>{img}</li>
+                    {image.exif && (
+                      <>
+                        {image.exif?.camera !== null && (
+                          <li>
+                            Cameria: {image.exif?.camera}
+                          </li>
+                        )}
+                      </>
+                    )}
+                  </ul>
                 </figcaption>
               </figure>
             </li>

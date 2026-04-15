@@ -11,7 +11,7 @@ const IMAGES = [
     src: 'profile/05769f04-5b00-4fd5-a233-55c00c9871c5.jpeg',
   },
   {
-    link: '/albums/cairo-2022',
+    link: '/albums/egypt-2022',
     src: 'profile/c0f9c079-8942-4390-bb9e-dae4e0a65034.jpeg',
   },
   {

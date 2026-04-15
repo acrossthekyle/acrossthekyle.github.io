@@ -1,5 +1,3 @@
-import Clock from '../clock';
-
 import styles from './stylesheet';
 
 export default function Meta() {

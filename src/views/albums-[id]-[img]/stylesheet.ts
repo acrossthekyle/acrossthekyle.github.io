@@ -22,7 +22,7 @@ const styles = tw({
   `,
   items: `
     mt-6
-    grid grid-cols-2 gap-y-2
+    flex flex-col
     w-54
   `,
   item: `

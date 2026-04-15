@@ -1,4 +1,4 @@
-import { ArrowRight } from 'lucide-react';
+  import { ArrowRight } from 'lucide-react';
 
 import { Content } from '@/layout';
 import {
@@ -7,10 +7,8 @@ import {
   HeaderSubtitle,
   HeaderText,
 } from '@/ui/header';
-import { Map, MapMarker } from '@/ui/map';
 import { Length } from '@/ui/units';
 import { padIndex } from '@/utils';
-import type { Stat } from '@/types';
 
 import Aside from './aside';
 import Context from './context';

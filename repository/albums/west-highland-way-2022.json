@@ -7,12 +7,23 @@
   "id": "west-highland-way-2022",
   "title": "West Highland Way",
   "location": "Scotland",
-  "category": "hike",
+  "category": "backpacking",
   "coordinates": "55.943977° N, 4.319957° W",
+  "tags": [
+    "landscape",
+    "trail",
+    "thru-hike",
+    "mountains",
+    "europe",
+    "highlands",
+    "backpacking"
+  ],
   "images": [
     {
       "src": "2022/05/07/75a8c027-07cd-4184-9157-d48dd5d1a32e.jpeg",
       "title": "Drymen",
+      "location": "Glasgow",
+      "date": "05/07/2022",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -25,6 +36,8 @@
     {
       "src": "2022/05/07/e8dd9fed-56e4-45bf-aee4-d1bc44a5363c.jpeg",
       "title": "Sallochy",
+      "location": "Glasgow",
+      "date": "05/08/2022",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -37,6 +50,8 @@
     {
       "src": "2022/05/07/e610c340-2b8c-481c-8442-dc4543db3f2c.jpeg",
       "title": "Bienglas Farm",
+      "location": "Inverarnan",
+      "date": "05/09/2022",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -49,6 +64,8 @@
     {
       "src": "2022/05/07/b7df127a-0f69-4b29-843f-e1a7c6f858bf.jpeg",
       "title": "Bridge of Orchy",
+      "location": "Glen Orchy",
+      "date": "05/10/2022",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -61,6 +78,8 @@
     {
       "src": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
       "title": "Kinlochleven",
+      "location": "Lochaber",
+      "date": "05/11/2022",
       "exif": {
         "aperture": "2/9709",
         "camera": "iPhone 13 Pro",
@@ -73,6 +92,8 @@
     {
       "src": "2022/05/07/07741eea-d85e-42cf-a2d4-d0f87102bffc.jpeg",
       "title": "Fort William",
+      "location": "Scotland",
+      "date": "05/12/2022",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",

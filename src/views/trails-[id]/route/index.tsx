@@ -1,4 +1,4 @@
-import type { Stage, Trail } from '../types';
+import type { Trail } from '../types';
 
 import Context from './context';
 import Map from './map';

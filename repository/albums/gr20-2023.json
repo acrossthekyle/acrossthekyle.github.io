@@ -7,12 +7,38 @@
   "id": "gr20-2023",
   "title": "The GR 20",
   "location": "France",
-  "category": "hike",
+  "category": "backpacking",
   "coordinates": "42.50742° N, 8.85544° E",
+  "tags": [
+    "landscape",
+    "trail",
+    "thru-hike",
+    "mountains",
+    "long-distance",
+    "europe",
+    "france",
+    "backpacking"
+  ],
   "images": [
     {
+      "src": "2023/06/21/74223fbe-db85-402a-ae25-00fc5e3e75b0.jpeg",
+      "title": "Leaving Calenzana",
+      "location": "Calenzana",
+      "date": "06/21/2023",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 50
+      }
+    },
+    {
       "src": "2023/06/21/f1d1c83f-941d-4351-aa5e-08d698b78775.jpeg",
-      "title": "Refuge D'Ortu Di U Piobbu",
+      "title": "Entering spiny mountains",
+      "location": "Calenzana",
+      "date": "06/21/2023",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",
@@ -20,11 +46,55 @@
         "fnumber": "1.80",
         "focal": 13,
         "iso": 32
+      }
+    },
+    {
+      "src": "2023/06/21/ca474c95-0abc-44a4-9f10-677b0e91437c.jpeg",
+      "title": "Refuge sunrise",
+      "location": "Calenzana",
+      "date": "06/22/2023",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 64
+      }
+    },
+    {
+      "src": "2023/06/21/8e532160-2e12-4810-9de3-f87fd9094e77.jpeg",
+      "title": "Little oasis",
+      "location": "Calenzana",
+      "date": "06/22/2023",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 50
+      }
+    },
+    {
+      "src": "2023/06/21/7635f0bd-2851-4916-94bf-84bf9bf1d6ae.jpeg",
+      "title": "Stepping stones",
+      "location": "Calenzana",
+      "date": "06/22/2023",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 50
       }
     },
     {
       "src": "2023/06/21/e2d0721f-2c3f-4367-8f7b-1176c94b3e2c.jpeg",
-      "title": "Refuge Carozzu",
+      "title": "Steap peaks",
+      "location": "Asco",
+      "date": "06/22/2023",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",
@@ -35,8 +105,66 @@
       }
     },
     {
+      "src": "2023/06/21/ca6423d0-daea-4b8c-8a75-7eb28a102c85.jpeg",
+      "title": "Sea views",
+      "location": "Asco",
+      "date": "06/22/2023",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 50
+      }
+    },
+    {
       "src": "2023/06/21/4b13a3d8-a55c-4bed-b887-ad3490ab964f.jpeg",
-      "title": "Refuge Ascu Stagnu",
+      "title": "Waterfall in shadow",
+      "location": "Albertacce",
+      "date": "06/23/2023",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 50
+      }
+    },
+    {
+      "src": "2023/06/21/7c9ba05f-905d-4762-9b09-989377182474.jpeg",
+      "title": "Jagged peaks",
+      "location": "Albertacce",
+      "date": "06/23/2023",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 50
+      }
+    },
+    {
+      "src": "2023/06/21/4965a37c-6e06-459e-800d-b8d728cd2ff0.jpeg",
+      "title": "Morning ascent waterfall",
+      "location": "Vergio",
+      "date": "06/24/2023",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 50
+      }
+    },
+    {
+      "src": "2023/06/21/c82d6b0c-7f2c-4821-87ed-e546f7299eba.jpeg",
+      "title": "Clouds approaching",
+      "location": "Vergio",
+      "date": "06/24/2023",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -48,7 +176,23 @@
     },
     {
       "src": "2023/06/21/8f85de22-b937-4ea5-9dfa-e45eb357e7b8.jpeg",
-      "title": "Auberge U Vallone",
+      "title": "Highest point",
+      "location": "Vergio",
+      "date": "06/24/2023",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 50
+      }
+    },
+    {
+      "src": "2023/06/21/890e4521-9658-472a-93a6-f94eff46c612.jpeg",
+      "title": "stony water oasis",
+      "location": "Vergio",
+      "date": "06/24/2023",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -60,7 +204,9 @@
     },
     {
       "src": "2023/06/21/f0dc6ac2-b0e5-4e2a-b874-0d40f47c454b.jpeg",
-      "title": "Hotel Castel di Vergio",
+      "title": "Green mountainside",
+      "location": "Orto",
+      "date": "06/25/2023",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -68,11 +214,41 @@
         "fnumber": "1.50",
         "focal": 26,
         "iso": 50
+      }
+    },
+    {
+      "src": "2023/06/21/f62bf484-3e25-41c0-8b99-24fb0ba49778.jpeg",
+      "title": "Swimming hole",
+      "location": "Orto",
+      "date": "06/25/2023",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 13,
+        "iso": 32
+      }
+    },
+    {
+      "src": "2023/06/21/ce157a1c-a855-4ba7-b906-13a1ad4cbbec.jpeg",
+      "title": "Morning forest steps",
+      "location": "Venaco",
+      "date": "06/26/2023",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 40
       }
     },
     {
       "src": "2023/06/21/95b4adaa-bbbe-4de3-b9f8-96365390f142.jpeg",
-      "title": "Refuge Manganu",
+      "title": "Bog lake",
+      "location": "Venaco",
+      "date": "06/26/2023",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -83,8 +259,38 @@
       }
     },
     {
+      "src": "2023/06/21/53aaf0ae-f946-4917-9b7c-46712fa5ee45.jpeg",
+      "title": "Refuge in the distance",
+      "location": "Venaco",
+      "date": "06/26/2023",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 50
+      }
+    },
+    {
+      "src": "2023/06/21/82a8777d-51d7-4636-9d0a-f25475516e76.jpeg",
+      "title": "Green bog maze",
+      "location": "Vivario",
+      "date": "06/27/2023",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 13,
+        "iso": 32
+      }
+    },
+    {
       "src": "2023/06/21/05769f04-5b00-4fd5-a233-55c00c9871c5.jpeg",
-      "title": "Refuge Petra Piana",
+      "title": "Mountain lake",
+      "location": "Vivario",
+      "date": "06/27/2023",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -96,7 +302,9 @@
     },
     {
       "src": "2023/06/21/4e7bda74-809e-48a9-a904-5645bf2e7dde.jpeg",
-      "title": "Refuge l'Onda",
+      "title": "Mountain-cascading clouds",
+      "location": "Vivario",
+      "date": "06/28/2023",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",
@@ -107,32 +315,10 @@
       }
     },
     {
-      "src": "2023/06/21/2cc8532b-6441-49fb-927e-ebdb001b78cf.jpeg",
-      "title": "Vizzavona",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone 13 Pro",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 13,
-        "iso": 32
-      }
-    },
-    {
-      "src": "2023/06/21/54334c14-8bae-4478-97f7-179f79cd2ca6.jpeg",
-      "title": "Bocca di Verdi",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone 13 Pro",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 13,
-        "iso": 32
-      }
-    },
-    {
-      "src": "2023/06/21/73a5df9e-fefd-43d0-ad5a-7f71dcb003cc.jpeg",
-      "title": "Refuge d'Usciolu",
+      "src": "2023/06/21/18a7a986-adc0-46d8-a712-a2dce00f7669.jpeg",
+      "title": "Steep stony descent",
+      "location": "Vivario",
+      "date": "06/28/2023",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -143,8 +329,164 @@
       }
     },
     {
+      "src": "2023/06/21/9d76c622-0c46-465a-b608-0fe3a79c8544.jpeg",
+      "title": "Wide forest paths",
+      "location": "Vivario",
+      "date": "06/28/2023",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 50
+      }
+    },
+    {
+      "src": "2023/06/21/cd41e66f-d9f7-4bdf-8421-38baf8a4711e.jpeg",
+      "title": "Another swimming hole",
+      "location": "Vivario",
+      "date": "06/28/2023",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 50
+      }
+    },
+    {
+      "src": "2023/06/21/2cc8532b-6441-49fb-927e-ebdb001b78cf.jpeg",
+      "title": "Cloud inversion",
+      "location": "Vivario",
+      "date": "06/29/2023",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 13,
+        "iso": 32
+      }
+    },
+    {
+      "src": "2023/06/21/85f2be7c-e2ab-421a-ab16-c28b671496a0.jpeg",
+      "title": "Rain evaporation",
+      "location": "Palneca",
+      "date": "06/30/2023",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 46,
+        "iso": 40
+      }
+    },
+    {
+      "src": "2023/06/21/54334c14-8bae-4478-97f7-179f79cd2ca6.jpeg",
+      "title": "Lush greenery",
+      "location": "",
+      "date": "06/30/2023",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 13,
+        "iso": 32
+      }
+    },
+    {
+      "src": "2023/06/21/79397086-87c9-454d-ac0d-55222a117a15.jpeg",
+      "title": "Felled giants",
+      "location": "Palneca",
+      "date": "06/30/2023",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 50
+      }
+    },
+    {
+      "src": "2023/06/21/37e9f8dd-05c9-498b-be6e-86d633715c24.jpeg",
+      "title": "Cloud wall",
+      "location": "Cozzano",
+      "date": "07/01/2023",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 50
+      }
+    },
+    {
+      "src": "2023/06/21/73a5df9e-fefd-43d0-ad5a-7f71dcb003cc.jpeg",
+      "title": "Clouds lifting",
+      "location": "Cozzano",
+      "date": "07/01/2023",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 50
+      }
+    },
+    {
+      "src": "2023/06/21/4e254b19-0dd2-44fb-8295-fa7992be521c.jpeg",
+      "title": "Riding out the storm",
+      "location": "Cozzano",
+      "date": "07/01/2023",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 160
+      }
+    },
+    {
+      "src": "2023/06/21/5c42ffad-bb57-49cf-b6bc-2261774b47c0.jpeg",
+      "title": "Through the trees",
+      "location": "Quenza",
+      "date": "07/02/2023",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 40
+      }
+    },
+    {
       "src": "2023/06/21/d36a683f-4d95-4b0c-987d-d190336c49ee.jpeg",
-      "title": "Refuge d'Asinau",
+      "title": "Nothing but greenery",
+      "location": "Quenza",
+      "date": "07/02/2023",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 50
+      }
+    },
+    {
+      "src": "2023/06/21/f43b7753-5052-47b9-9868-1237c0e34828.jpeg",
+      "title": "Ferns",
+      "location": "Corse-du-Sud",
+      "date": "07/03/2023",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -156,7 +498,9 @@
     },
     {
       "src": "2023/06/21/f0cd0897-3fc9-47a2-808e-e1627dfb45bc.jpeg",
-      "title": "Conca",
+      "title": "Gateway to Conca",
+      "location": "Corse-du-Sud",
+      "date": "07/03/2023",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",

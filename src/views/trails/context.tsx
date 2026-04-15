@@ -20,7 +20,7 @@ export default function Context({ children }: React.PropsWithChildren) {
   return (
     <TrailContext.Provider
       value={{
-        id,
+        id: id as null,
         onHover: handleOnHover,
       }}
     >

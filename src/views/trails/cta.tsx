@@ -10,7 +10,7 @@ type Props = {
   id: string;
 };
 
-export default function View({ children, id }: React.ChildrenWithProps<Props>) {
+export default function View({ children, id }: React.PropsWithChildren<Props>) {
   const { onHover } = useContext(TrailContext);
 
   return (

@@ -7,12 +7,22 @@
   "id": "south-america-2016",
   "title": "South America 2016",
   "location": "Chile",
-  "category": "destination",
+  "category": "destinations",
   "coordinates": "33.448890° S, 70.669265° W",
+  "tags": [
+    "cityscape",
+    "landscape",
+    "monuments",
+    "ancient wonders",
+    "africa",
+    "destination"
+  ],
   "images": [
     {
       "src": "2016/03/18/a3205d70-0fc8-416a-b383-eb08e9e612a5.jpeg",
       "title": "Cerro San Cristóbal",
+      "location": "Pedro de Valdivia Norte",
+      "date": "03/19/2016",
       "exif": {
         "aperture": "2/2750",
         "camera": "iPhone 6s Plus",
@@ -24,7 +34,9 @@
     },
     {
       "src": "2016/03/18/dd0b9008-fbc2-4916-a33c-303a406e8fa5.jpeg",
-      "title": "Exploring Valparaíso",
+      "title": "Valparaíso",
+      "location": "Cerro Mariposa",
+      "date": "03/22/2016",
       "exif": {
         "aperture": "2/2750",
         "camera": "iPhone 6s Plus",
@@ -36,7 +48,9 @@
     },
     {
       "src": "2016/03/18/1f5577cc-e0c2-4c66-987e-903a9b6be02c.jpeg",
-      "title": "Glacier Hike in the Andes",
+      "title": "Andian Glacier Hike",
+      "location": "San Jose de Maipo",
+      "date": "03/21/2016",
       "exif": {
         "aperture": "2/2750",
         "camera": "iPhone 6s Plus",
@@ -49,6 +63,8 @@
     {
       "src": "2016/03/18/b941c594-5218-449f-b79d-cb9936f56ad5.jpeg",
       "title": "Wine Tasting",
+      "location": "Hacienda Macul",
+      "date": "03/23/2016",
       "exif": {
         "aperture": "2/2750",
         "camera": "iPhone 6s Plus",
@@ -61,6 +77,8 @@
     {
       "src": "2016/03/18/fb45dc07-e4fe-4d90-b39a-f54e50142d5a.jpeg",
       "title": "Torres del Paine",
+      "location": "Sarmiento",
+      "date": "03/25/2016",
       "exif": {
         "aperture": "2/2750",
         "camera": "iPhone 6s Plus",
@@ -73,6 +91,8 @@
     {
       "src": "2016/03/18/9e9e78a3-a2ad-4a09-962c-fc1866ccfbd4.jpeg",
       "title": "Cueva del Milodon",
+      "location": "Torres del Paine",
+      "date": "03/26/2016",
       "exif": {
         "aperture": "2/2750",
         "camera": "iPhone 6s Plus",
@@ -85,6 +105,8 @@
     {
       "src": "2016/03/18/9742d413-6fdd-4474-a4a2-59ada5ddab14.jpeg",
       "title": "Glacier Cruise",
+      "location": "Magallanes and Antarica Region",
+      "date": "03/27/2016",
       "exif": {
         "aperture": "2/2750",
         "camera": "iPhone 6s Plus",

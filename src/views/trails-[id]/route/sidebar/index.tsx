@@ -23,7 +23,7 @@ export default function Sidebar({ trail }: Props) {
   const total = trail.stages.length;
 
   const handleOnExplore = () => {
-    document.getElementById('stage-01').scrollIntoView({
+    document?.getElementById('stage-01')?.scrollIntoView({
       behavior: 'smooth',
       block: 'nearest',
     });

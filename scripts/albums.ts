@@ -69,7 +69,7 @@ export async function go() {
       id: data.id,
       images: data.images.map((image) => ({
         ...image,
-        when: image.date ? getWhen(image.date) : null,
+        date: image.date ? getWhen(image.date) : null,
       })),
       location: data.location,
       tags: data.tags,

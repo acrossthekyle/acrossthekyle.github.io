@@ -18,23 +18,42 @@ type Props = {
 };
 
 export default function Albums({ data }: Props) {
-  const hikes = data.filter((item) => item.category === 'hike');
-  const destinations = data.filter((item) => item.category === 'destination');
+  const backpacking = data.filter((item) => item.category === 'backpacking');
+  const basecamps = data.filter((item) => item.category === 'basecamp');
+  const cities = data.filter((item) => item.category === 'cities');
+  const destinations = data.filter((item) => item.category === 'destinations');
+  const mountains = data.filter((item) => item.category === 'mountains');
 
   const categories = [
     {
-      description: 'Snapshots of mountains and forests',
-      id: 'from-the-trail',
-      items: hikes,
-      label: 'From the trail',
-      tag: 'Landscape',
+      description: 'From the trail',
+      id: 'backpacking',
+      items: backpacking,
+      label: 'Backpacking',
     },
     {
-      description: 'Pictures from travels near and far',
+      description: 'From mountain bases',
+      id: 'basecamps',
+      items: basecamps,
+      label: 'Basecamps',
+    },
+    {
+      description: 'Travels near and far',
       id: 'destinations',
       items: destinations,
       label: 'Destinations',
-      tag: 'Cityscape',
+    },
+    {
+      description: 'City destinations',
+      id: 'cities',
+      items: cities,
+      label: 'Cities',
+    },
+    {
+      description: 'Mountain peaks',
+      id: 'mountains',
+      items: mountains,
+      label: 'Mountains',
     },
   ];
 
@@ -79,7 +98,6 @@ export default function Albums({ data }: Props) {
                     <ul className={styles.stats}>
                       <li>{item.when}</li>
                       <li>{item.count} images</li>
-                      <li>{category.tag}</li>
                     </ul>
                   </Link>
                 </li>

@@ -6,12 +6,21 @@
   "id": "southern-rockies-2019",
   "title": "Southern Rockies",
   "location": "Colorado",
-  "category": "hike",
+  "category": "mountains",
   "coordinates": "39.7392° N, 104.9903° W",
+  "tags": [
+    "landscape",
+    "trail",
+    "mountains",
+    "north america",
+    "summits"
+  ],
   "images": [
     {
       "src": "2019/08/31/52f1514b-91a4-494d-93df-6ae9c81df01c.jpeg",
       "title": "Mount Elbert",
+      "location": "Sawatch Range, Colorado",
+      "date": "8/31/2019",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -24,6 +33,8 @@
     {
       "src": "2019/09/01/08d28c7e-387b-418f-8226-b2a87485f1d8.jpeg",
       "title": "Quandary Peak",
+      "location": "Tenmile Range, Colorado",
+      "date": "9/01/2019",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -36,6 +47,8 @@
     {
       "src": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
       "title": "La Plata Peak",
+      "location": "Sawatch Range, Colorado",
+      "date": "9/04/2020",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -48,6 +61,8 @@
     {
       "src": "2020/09/05/54a89ed8-86d4-4918-b7b3-b883ecea72c8.jpeg",
       "title": "Mount Bierstadt",
+      "location": "Front Range, Colorado",
+      "date": "9/05/2020",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -60,6 +75,8 @@
     {
       "src": "2020/09/06/80307849-8964-4e0d-a70f-f6371ca7fcad.jpeg",
       "title": "Grays Peak",
+      "location": "Front Range, Colorado",
+      "date": "9/06/2020",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -72,6 +89,8 @@
     {
       "src": "2021/09/07/fbe767d5-63c6-4af7-8643-ceef9b4cce92.jpeg",
       "title": "Mount Shavano",
+      "location": "Sawatch Range, Colorado",
+      "date": "9/07/2021",
       "exif": {
         "aperture": "1/3561",
         "camera": "iPhone 12",
@@ -84,6 +103,8 @@
     {
       "src": "2021/09/09/8e1e0c1f-c391-4bc0-807c-7bdd8d20815b.jpeg",
       "title": "Mount DeCaLiBron",
+      "location": "Mosquito Range, Colorado",
+      "date": "9/09/2021",
       "exif": {
         "aperture": "1/3561",
         "camera": "iPhone 12",
@@ -96,6 +117,8 @@
     {
       "src": "2022/09/09/f722df6c-2869-4ff0-80f7-37014241e135.jpeg",
       "title": "Mount Belford",
+      "location": "Sawatch Range, Colorado",
+      "date": "9/09/2022",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",
@@ -108,6 +131,8 @@
     {
       "src": "2022/09/11/b74f68ae-d627-4a89-9122-fbc75562e59d.jpeg",
       "title": "Mount Massive",
+      "location": "Sawatch Range, Colorado",
+      "date": "9/11/2022",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",

@@ -6,11 +6,11 @@ export const GpxContext = createContext({
   elevationIndex: null,
   stageIndex: null,
   // eslint-disable-next-line unused-imports/no-unused-vars
-  handleOnElevationHover: (index: number | null) => {
+  onElevationHover: (index: number | null) => {
     // noop
   },
   // eslint-disable-next-line unused-imports/no-unused-vars
-  handleOnStageHover: (index: number | null) => {
+  onStageHover: (index: number | null) => {
     // noop
   },
 });
