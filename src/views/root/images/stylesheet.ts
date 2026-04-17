@@ -8,12 +8,18 @@ const styles = tw({
     grid grid-cols-3 grid-rows-3 gap-1
   `,
   item: `
+    relative
     w-16
-    grayscale-100
+  `,
+  link: `
+    group
   `,
   image: `
     rounded-xs
     aspect-square
+    duration-300
+
+    group-hover:opacity-75
   `,
 });
 

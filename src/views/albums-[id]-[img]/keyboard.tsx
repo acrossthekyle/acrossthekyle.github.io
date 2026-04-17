@@ -17,9 +17,9 @@ export default function Keyboard({ albumId, next, previous }: Props) {
       if (event.key === 'Escape') {
         router.push(`/albums/${albumId}`);
       } else if (event.key === 'ArrowLeft' && previous !== null) {
-        router.push(`/albums/${albumId}/${previous}`);
+        router.replace(`/albums/${albumId}/${previous}`);
       } else if (event.key === 'ArrowRight' && next !== null) {
-        router.push(`/albums/${albumId}/${next}`);
+        router.replace(`/albums/${albumId}/${next}`);
       }
     };
 

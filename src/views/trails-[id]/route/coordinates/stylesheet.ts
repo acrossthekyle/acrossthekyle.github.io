@@ -1,6 +1,12 @@
 import tw from '@/styles';
 
 const styles = tw({
+  container: `
+    w-full h-[calc(100vh-4.75rem)]
+    overflow-hidden
+    absolute -top-2 left-0 z-2
+    pointer-events-none
+  `,
   grid: `
     absolute inset-0 z-301
     opacity-3

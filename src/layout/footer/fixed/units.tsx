@@ -9,7 +9,7 @@ export default function Units() {
 
   return (
     <button className={styles.button} onClick={onToggle} type="button">
-      <span className={styles.highlight}>{current.toUpperCase()}</span> [Units]
+      {current.toUpperCase()} [Units]
     </button>
   );
 }

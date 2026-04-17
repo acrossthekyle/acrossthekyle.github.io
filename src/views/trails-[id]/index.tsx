@@ -1,9 +1,7 @@
-import Link from 'next/link';
-
 import { Content } from '@/layout';
 import {
   Header,
-  HeaderPrefix,
+  HeaderBack,
   HeaderSubtitle,
   HeaderText,
 } from '@/ui/header';
@@ -26,9 +24,7 @@ export default function View({ data }: Props) {
     <Content className={styles.container}>
       <div className={styles.header}>
         <Header>
-          <Link href="/trails">
-            <HeaderPrefix>Trails</HeaderPrefix>
-          </Link>
+          <HeaderBack path="/trails">Trails</HeaderBack>
           <HeaderText>
             T-{padIndex(data.index)}
           </HeaderText>
@@ -36,12 +32,12 @@ export default function View({ data }: Props) {
             {data.trail.title} {data.trail.type}
           </HeaderSubtitle>
         </Header>
-        <aside aria-label="trail stats and info" className={styles.aside}>
-          <span>{data.trail.when}</span>
-          <span>{data.trail.location}, {data.trail.continent}</span>
-          <span>{data.trail.coordinates}</span>
-        </aside>
       </div>
+      <aside aria-label="trail stats and info" className={styles.aside}>
+        <span>{data.trail.when}</span>
+        <span>{data.trail.location}, {data.trail.continent}</span>
+        <span>{data.trail.coordinates}</span>
+      </aside>
       <Route trail={data.trail} />
     </Content>
   );

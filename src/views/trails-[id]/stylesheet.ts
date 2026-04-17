@@ -5,12 +5,13 @@ const styles = tw({
     !py-0
   `,
   header: `
-    flex flex-col justify-between gap-4
-    h-[calc(100vh-4.6125rem)]
+    absolute top-0 left-2 z-3
     pt-2 pb-1.5
   `,
   aside: `
-    flex flex-col gap-0
+    absolute bottom-1.5 left-2 z-3
+    flex flex-col gap-0.5
+    leading-[1]
     font-mono font-normal
     text-xtiny
     uppercase

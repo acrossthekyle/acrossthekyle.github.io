@@ -2,18 +2,11 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    fixed top-0 left-0 right-0 z-100
-    flex flex-col items-start justify-between
-    h-8
-    px-4
-    bg-(--layout-background)
-    font-mono
+    flex items-center
+    font-mono font-normal
     text-xtiny
     uppercase
     tracking-wide
-
-    sm:flex-row
-    sm:items-center
   `,
   callout: `
     flex gap-2 items-center
@@ -23,11 +16,8 @@ const styles = tw({
   `,
   icon: `
     w-2 h-2
-    stroke-1 stroke-(--layout-foreground)
-  `,
-  filled: `
+    stroke-0
     fill-green-300
-    !stroke-0
   `,
 });
 

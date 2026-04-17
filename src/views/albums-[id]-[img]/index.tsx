@@ -1,10 +1,7 @@
-import { SquareChevronLeft, SquareChevronRight } from 'lucide-react';
-import Link from 'next/link';
-
 import { Content } from '@/layout';
 import {
   Header,
-  HeaderPrefix,
+  HeaderBack,
   HeaderSubtitle,
   HeaderText,
 } from '@/ui/header';
@@ -12,6 +9,7 @@ import { Image } from '@/ui/image';
 import { padIndex } from '@/utils';
 
 import Keyboard from './keyboard';
+import Navigation from './navigation';
 import styles from './stylesheet';
 
 type Props = {
@@ -37,18 +35,16 @@ type Props = {
     index: number;
     next?: string | null;
     previous?: string | null;
-   };
+  };
 };
 
 export default function View({ data }: Props) {
   return (
     <Content>
       <Header>
-        <Link href={`/albums/${data.album.id}`}>
-          <HeaderPrefix>
-            {data.album.title}
-          </HeaderPrefix>
-        </Link>
+        <HeaderBack>
+          {data.album.title}
+        </HeaderBack>
         <HeaderText>IMG-{padIndex(data.index + 1)}</HeaderText>
         <HeaderSubtitle>
           {data.image.title}
@@ -56,10 +52,10 @@ export default function View({ data }: Props) {
       </Header>
       <ul className={styles.items}>
         <li className={styles.item}>
-          {data.image.date}
+          {data.image.location}
         </li>
         <li className={styles.item}>
-          {data.image.location}
+          {data.image.date}
         </li>
       </ul>
       {data.image.exif && (
@@ -105,24 +101,22 @@ export default function View({ data }: Props) {
       </figure>
       <nav aria-label="album photos supplementary navigation">
         <ul className={styles.navigation}>
-          <li>
+          <li className={styles.direction}>
             {data.previous && (
-              <Link
-                className={styles.link}
-                href={`/albums/${data.album.id}/${data.previous}`}
-              >
-                <SquareChevronLeft className={styles.kbd} /> Previous
-              </Link>
+              <Navigation
+                direction={-1}
+                path={`/albums/${data.album.id}/${data.previous}`}
+                text="Previous"
+              />
             )}
           </li>
-          <li>
+          <li className={styles.direction}>
             {data.next && (
-              <Link
-                className={`${styles.link} ${styles.end}`}
-                href={`/albums/${data.album.id}/${data.next}`}
-              >
-                Next <SquareChevronRight className={styles.kbd} />
-              </Link>
+              <Navigation
+                direction={1}
+                path={`/albums/${data.album.id}/${data.next}`}
+                text="Next"
+              />
             )}
           </li>
         </ul>

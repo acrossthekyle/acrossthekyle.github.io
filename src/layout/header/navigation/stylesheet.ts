@@ -2,11 +2,10 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    flex items-center justify-center gap-1
+    flex items-center justify-end gap-4
     text-(--layout-foreground)
   `,
   link: `
-    mx-2
     py-1
     font-sans font-black
     text-xtiny
@@ -16,10 +15,6 @@ const styles = tw({
     duration-300
 
     hover:border-b-(--layout-foreground)
-  `,
-  divider: `
-    inline-block
-    ml-0.5
   `,
 });
 

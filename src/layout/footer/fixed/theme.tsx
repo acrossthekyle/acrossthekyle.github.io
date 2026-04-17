@@ -25,12 +25,10 @@ export default function Theme({ current }: Props) {
 
   return (
     <button className={styles.button} onClick={handleOnClick} type="button">
-      <span className={styles.highlight}>
-        {current === 'auto' && 'AUTO '}
-        {current === 'light' && 'LIGHT '}
-        {current === 'dark' && 'DARK '}
-      </span>
-      [Mode]
+      {current === 'auto' && 'AUTO '}
+      {current === 'light' && 'LIGHT '}
+      {current === 'dark' && 'DARK '}
+      [Theme]
     </button>
   );
 }

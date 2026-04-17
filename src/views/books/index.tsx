@@ -8,6 +8,7 @@ import {
   HeaderText,
 } from '@/ui/header';
 import { ExternalIcon } from '@/ui/link';
+import Version from '@/ui/version';
 import { padIndex } from '@/utils';
 
 import styles from './stylesheet';
@@ -29,7 +30,9 @@ export default function View({ data }: Props) {
     <Content>
       <div className={styles.header}>
         <Header>
-          <HeaderEyebrow>./</HeaderEyebrow>
+          <HeaderEyebrow>
+            <Version />
+          </HeaderEyebrow>
           <HeaderText>
             Books
           </HeaderText>

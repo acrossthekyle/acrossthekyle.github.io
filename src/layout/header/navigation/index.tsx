@@ -38,14 +38,11 @@ const LINKS = [
 export default function Navigation() {
   return (
     <ul className={styles.container}>
-      {LINKS.map((link, index: number) => (
+      {LINKS.map((link) => (
         <li className={styles.item} key={link.href}>
           <Link className={styles.link} href={link.href} title={link.subtitle}>
-            {link.title}
+            [ {link.title} ]
           </Link>
-          {(index < LINKS.length - 1) && (
-            <span className={styles.divider} role="presentation">//</span>
-          )}
         </li>
       ))}
     </ul>

@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   header: `
-    grid grid-cols-3 gap-0
+    grid grid-cols-2 gap-0
     w-full
     font-mono
     text-xtiny
@@ -20,7 +20,7 @@ const styles = tw({
     uppercase
     border-1 border-(--foreground)
     py-1 px-1.25
-    rounded-xs
+    rounded-sm
 
     ${isActive ? `bg-(--foreground) text-(--background)` : `text-(--foreground)`}
   `),

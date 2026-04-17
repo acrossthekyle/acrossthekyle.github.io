@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Content } from '@/layout';
 import {
   Header,
-  HeaderPrefix,
+  HeaderBack,
   HeaderSubtitle,
   HeaderText,
 } from '@/ui/header';
@@ -19,14 +19,6 @@ type Props = {
       id: string;
       images: Array<{
         date: string;
-        exif?: {
-          aperture: string | null;
-          camera: string | null;
-          exposure: string | null;
-          fnumber: string | null;
-          focal: number | null;
-          iso: number | null;
-        };
         location: string;
         src: string;
         title: string;
@@ -44,9 +36,7 @@ export default function View({ data }: Props) {
     <Content>
       <div className={styles.header}>
         <Header>
-          <Link href="/albums">
-            <HeaderPrefix>Albums</HeaderPrefix>
-          </Link>
+          <HeaderBack path="/albums">Albums</HeaderBack>
           <HeaderText>A-{padIndex(data.index)}</HeaderText>
           <HeaderSubtitle>
             {data.album.title}
@@ -77,18 +67,8 @@ export default function View({ data }: Props) {
                 <figcaption className={styles.caption}>
                   {image.title}
                   <ul className={styles.stats}>
-                    <li>{image.date}</li>
                     <li>{image.location}</li>
-                    <li>{img}</li>
-                    {image.exif && (
-                      <>
-                        {image.exif?.camera !== null && (
-                          <li>
-                            Cameria: {image.exif?.camera}
-                          </li>
-                        )}
-                      </>
-                    )}
+                    <li>{image.date}</li>
                   </ul>
                 </figcaption>
               </figure>

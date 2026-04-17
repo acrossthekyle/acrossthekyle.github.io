@@ -15,11 +15,6 @@ export default async function get() {
       when,
     })),
     expertise,
-    job: {
-      isAvailable: !resume[0].when.toLowerCase().includes('current'),
-      place: resume[0].place,
-      title: resume[0].title,
-    },
     resume,
     trails: {
       recent: {

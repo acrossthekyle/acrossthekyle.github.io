@@ -10,7 +10,7 @@ export const GpxContext = createContext({
     // noop
   },
   // eslint-disable-next-line unused-imports/no-unused-vars
-  onStageHover: (index: number | null) => {
+  onStage: (index: number | null) => {
     // noop
   },
 });
@@ -23,7 +23,7 @@ export default function Context({ children }: React.PropsWithChildren) {
     setElevationIndex(index);
   };
 
-  const handleOnStageHover = (index: number | null) => {
+  const handleOnStage = (index: number | null) => {
     setStageIndex(index);
   };
 
@@ -32,7 +32,7 @@ export default function Context({ children }: React.PropsWithChildren) {
       value={{
         stageIndex: stageIndex as null,
         elevationIndex: elevationIndex as null,
-        onStageHover: handleOnStageHover,
+        onStage: handleOnStage,
         onElevationHover: handleOnElevationHover,
       }}
     >

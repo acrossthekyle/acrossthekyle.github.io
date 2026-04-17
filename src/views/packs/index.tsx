@@ -9,6 +9,7 @@ import {
 } from '@/ui/header';
 import { ExternalIcon } from '@/ui/link';
 import { Weight } from '@/ui/units';
+import Version from '@/ui/version';
 
 import styles from './stylesheet';
 
@@ -77,7 +78,9 @@ export default function View({ data, index }: Props) {
     <Content>
       <div className={styles.header}>
         <Header>
-          <HeaderEyebrow>./</HeaderEyebrow>
+          <HeaderEyebrow>
+            <Version />
+          </HeaderEyebrow>
           <HeaderText>
             Packs
           </HeaderText>
@@ -85,9 +88,6 @@ export default function View({ data, index }: Props) {
             Trail gear loadouts
           </HeaderSubtitle>
         </Header>
-        <span className="text-center">
-          {data.gear.length} Packs
-        </span>
         <span className="text-right">
           <Weight weight={current.weightConsumable} /> Cons. / <Weight weight={current.weightWorn} /> Worn<br />
           <Weight weight={current.weightBase} /> Base<br />

@@ -3,8 +3,9 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     relative
-    pt-1 px-1.75 pb-2
-    h-30 w-full
+    h-24 w-43
+    -mt-4
+    opacity-75
     select-none
     touch-none
   `,

@@ -42,10 +42,10 @@ export default function Images() {
       <ul className={styles.items}>
         {IMAGES.map((image, index: number) => (
           <Fragment key={image.src}>
-            {(index === 0 || index === 7) && (<li aria-hidden="true" />)}
+            {(index === 3 || index === 4) && (<li aria-hidden="true" />)}
 
             <li className={styles.item}>
-              <Link href={image.link}>
+              <Link className={styles.link} href={image.link}>
                 <Image className={styles.image} src={image.src} />
               </Link>
             </li>

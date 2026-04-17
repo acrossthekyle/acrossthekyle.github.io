@@ -6,8 +6,7 @@ const styles = tw({
   `,
   definition: `
     grid grid-cols-2
-    pt-2
-    mb-4
+    mb-2
     w-full
     font-mono font-normal
     text-xtiny
@@ -21,13 +20,7 @@ const styles = tw({
     uppercase
     tracking-tight
   `,
-  introduction: `
-    relative
-    flex justify-start items-end gap-8
-    h-[58vh]
-    pb-2
-  `,
-  subheader: `
+  updates: `
     block
     mt-4
     leading-[1]
@@ -35,6 +28,35 @@ const styles = tw({
     text-tiny
     uppercase
   `,
+  emphasis: `
+    italic
+  `,
+  line: `
+    block
+  `,
+  footer: `
+    relative
+    flex justify-start items-end gap-8
+    h-[58vh]
+    pb-2
+  `,
+  eggs: `
+    flex flex-col gap-0.5
+    leading-[1]
+    text-xtiny
+    font-mono font-normal
+    uppercase
+  `,
+  location: `
+    absolute bottom-2 right-0
+    flex flex-col gap-0.5
+    leading-[1]
+    text-xtiny text-right
+    font-mono font-normal
+    uppercase
+  `,
+
+
   section: `
     relative
     ml-[24vw] mb-20
@@ -42,9 +64,6 @@ const styles = tw({
     uppercase
 
     last:mb-0
-  `,
-  arrow: `
-    w-2.25 h-2.25
   `,
   start: `
     flex items-start
@@ -91,6 +110,7 @@ const styles = tw({
     text-xtiny
   `,
   items: `
+    relative z-100
     flex flex-col gap-6
     ml-54 mt-2
   `,
@@ -98,23 +118,28 @@ const styles = tw({
     flex gap-8
   `,
   link: `
-    w-80
+    flex-1
     text-xs
     rounded-xs
+    duration-300
+    -m-2
+    p-2
 
-    md:-m-2
-    md:p-2
-    md:duration-300
-    md:hover:bg-(--foreground)/2.5
+    hover:bg-(--foreground)/2.5
   `,
   title: `
     flex items-center gap-1
+    w-full
   `,
   stats: `
     flex flex-col gap-0.5
     mt-1
     font-normal
     text-xtiny text-current/80
+  `,
+  arrow: `
+    absolute right-0
+    w-2.25 h-2.25
   `,
 });
 

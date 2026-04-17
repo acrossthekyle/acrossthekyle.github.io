@@ -11,7 +11,7 @@ const styles = tw({
     uppercase
   `,
   items: `
-    grid grid-cols-1 gap-4 gap-y-0
+    grid grid-cols-1 gap-4 gap-y-56
     mt-10
 
     xs:grid-cols-2
@@ -21,7 +21,6 @@ const styles = tw({
     xl:grid-cols-6
   `,
   item: `
-    mb-56
     break-inside-avoid-column
   `,
   eyebrow: `

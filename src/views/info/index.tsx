@@ -8,6 +8,7 @@ import {
   HeaderText,
 } from '@/ui/header';
 import { ExternalIcon } from '@/ui/link';
+import Version from '@/ui/version';
 import { padIndex } from '@/utils';
 
 import { TIMELINE } from './constants';
@@ -31,7 +32,9 @@ export default function View({ data }: Props) {
   return (
     <Content>
       <Header>
-        <HeaderEyebrow>./</HeaderEyebrow>
+        <HeaderEyebrow>
+          <Version />
+        </HeaderEyebrow>
         <HeaderText>Info</HeaderText>
         <HeaderSubtitle>About me</HeaderSubtitle>
       </Header>

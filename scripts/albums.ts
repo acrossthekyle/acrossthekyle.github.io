@@ -83,7 +83,6 @@ export async function go() {
     write(
       'albums.js',
       albums
-        .sort((a, b) => b.timestamp - a.timestamp)
         .map(({ category, coordinates, id, images, location, title, when }) => ({
           category,
           coordinates,

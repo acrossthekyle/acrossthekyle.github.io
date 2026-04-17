@@ -61,7 +61,7 @@ export default function Elevation({ elevation }: Props) {
           },
           fill: {
             type: 'solid',
-            colors: ['var(--background)'],
+            colors: ['var(--foreground)'],
           },
           stroke: {
             colors: ['transparent'],
@@ -120,7 +120,7 @@ export default function Elevation({ elevation }: Props) {
             },
             fixed: {
               enabled: true,
-              position: 'topLeft',
+              position: 'topRight',
             },
             y: {
               formatter: (value: number, { dataPointIndex }) => {

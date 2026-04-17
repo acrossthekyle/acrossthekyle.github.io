@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   items: `
-    mt-6
+    mt-2
     grid grid-cols-4 gap-8
     text-(--layout-foreground)
   `,

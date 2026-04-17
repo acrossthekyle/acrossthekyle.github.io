@@ -12,21 +12,15 @@ const styles = tw({
     font-mono font-bold
     tracking-wide
   `,
-  anchor: `
-    mt-3.25
-    leading-[0.775]
-    font-sans font-black
-    text-xl
-    tracking-tighter
-  `,
-  compiled: `
-    flex items-center justify-end
-    text-right
+  copyright: `
+    flex items-center justify-center
+    text-center
     leading-[1.25]
   `,
   button: `
+    font-mono font-bold
+    text-xtiny text-right
     uppercase
-    text-right
   `,
 });
 

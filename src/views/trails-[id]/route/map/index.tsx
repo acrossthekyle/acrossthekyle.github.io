@@ -17,7 +17,7 @@ type Props = {
 };
 
 export default function Map({ stages }: Props) {
-  const { elevationIndex, stageIndex } = useContext(GpxContext);
+  const { elevationIndex, onStage, stageIndex } = useContext(GpxContext);
 
   if (stages.length === 0) {
     return null;
@@ -30,6 +30,7 @@ export default function Map({ stages }: Props) {
       <Plugin
         elevationIndex={elevationIndex}
         latLongs={latLongs}
+        onStage={onStage}
         stageIndex={stageIndex}
       />
     </div>

@@ -8,6 +8,7 @@ import {
   HeaderText,
 } from '@/ui/header';
 import { Length } from '@/ui/units';
+import Version from '@/ui/version';
 import { padIndex } from '@/utils';
 
 import Aside from './aside';
@@ -66,7 +67,9 @@ export default function View({ data }: Props) {
     <Content>
       <div className={styles.header}>
         <Header>
-          <HeaderEyebrow>./</HeaderEyebrow>
+          <HeaderEyebrow>
+            <Version />
+          </HeaderEyebrow>
           <HeaderText>
             Trails
           </HeaderText>

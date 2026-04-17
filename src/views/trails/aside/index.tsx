@@ -29,20 +29,18 @@ export default function Aside({ trails }: Props) {
   return (
     <div className={styles.container} role="presentation">
       <Map className={styles.map}>
-        {data === null ? (
-          <>
-            {trails.map((trail) => (
-              <MapMarker
-                key={trail.id}
-                position={{
-                  left: trail.position[1],
-                  top: trail.position[0],
-                }}
-              />
-            ))}
-          </>
-        ) : (
+        {trails.map((trail) => (
           <MapMarker
+            key={trail.id}
+            position={{
+              left: trail.position[1],
+              top: trail.position[0],
+            }}
+          />
+        ))}
+        {data !== null && (
+          <MapMarker
+            highlight
             position={{
               left: data.position[1],
               top: data.position[0],

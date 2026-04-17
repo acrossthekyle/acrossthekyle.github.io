@@ -12,31 +12,6 @@ const styles = tw({
     pt-2 pb-6
     border-b-1 border-b-current/22.5 border-dashed
   `,
-  upper: `
-    grid grid-cols-3
-  `,
-  settings: `
-    flex items-start justify-end gap-4
-    font-mono
-    text-xtiny
-    uppercase
-  `,
-  button: `
-    uppercase
-    text-left
-  `,
-  copyright: `
-    font-mono
-    text-xtiny
-    uppercase
-  `,
-  center: `
-    text-center
-  `,
-
-  grid: `
-    grid grid-cols-4
-  `,
 });
 
 export default styles;

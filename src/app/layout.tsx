@@ -6,7 +6,7 @@ import { Suspense } from 'react';
 
 import { HierarchyProvider } from '@/contexts/hierarchy';
 import { UnitsProvider } from '@/contexts/units';
-import { Body, Callouts, Footer, Main } from '@/layout';
+import { Body, Header, Footer, Main } from '@/layout';
 
 import get from './get';
 
@@ -34,7 +34,7 @@ export default async function RootLayout({ children }: React.PropsWithChildren) 
   const theme = cookieStore.get('theme')?.value || 'auto';
   const units = cookieStore.get('units')?.value || 'imperial';
 
-  const { job, trails } = await get();
+  const { trails } = await get();
 
   return (
     <html data-theme={theme} lang="en-US" suppressHydrationWarning>
@@ -42,11 +42,11 @@ export default async function RootLayout({ children }: React.PropsWithChildren) 
         <Suspense fallback={null}>
           <HierarchyProvider>
             <UnitsProvider current={units}>
-              <Callouts data={{ job, trail: trails.recent }} />
+              <Header />
               <Main>
                 {children}
               </Main>
-              <Footer theme={theme} />
+              <Footer theme={theme} trail={trails.recent} />
             </UnitsProvider>
           </HierarchyProvider>
         </Suspense>

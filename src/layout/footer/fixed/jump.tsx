@@ -12,7 +12,7 @@ export default function Jump() {
 
   return (
     <button className={styles.button} onClick={handleOnJump} type="button">
-      Scroll to [Top]
+      Jump [Up]
     </button>
   );
 }

@@ -49,8 +49,13 @@ const styles = tw({
     md:bottom-2
     md:left-2
   `,
+  direction: `
+    flex
+  `,
   link: `
+    flex-1
     flex items-center gap-2
+    uppercase
   `,
   end: `
     justify-end

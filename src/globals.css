@@ -39,7 +39,9 @@
     --background: #fefff5;
     --foreground: #0c0c0c;
 
+    --map-polyline-glow: var(--color-mist-400);
     --map-filter: sepia(0.25);
+    --map-current: var(--color-mist-100);
 
     --grid-gap: 9px;
     --grid-opacity: 0.25;
@@ -54,7 +56,9 @@
     --background: #242423;
     --foreground: #fefff5;
 
+    --map-polyline-glow: var(--color-yellow-700);
     --map-filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
+    --map-current: var(--color-yellow-500);
 
     --grid-bg: hsl(0, 0%, 11%);
     --grid-minor: hsl(63 24% 89% / calc(var(--grid-opacity) * 0.05));
@@ -67,7 +71,9 @@
       --background: #242423;
       --foreground: #fefff5;
 
+      --map-polyline-glow: var(--color-yellow-700);
       --map-filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
+      --map-current: var(--color-yellow-500);
 
       --grid-bg: hsl(0, 0%, 11%);
       --grid-minor: hsl(63 24% 89% / calc(var(--grid-opacity) * 0.05));
@@ -160,29 +166,48 @@ body {
     filter: var(--map-filter);
   }
 
-  .leaflet-gesture-handling-scroll-warning:after,
-  .leaflet-gesture-handling-touch-warning:after {
-    font-size: 1rem;
-    text-align: center;
+  .leaflet-container {
+    font-family: var(--font-mono);
   }
 
-  .apexcharts-series {
-    clip-path: inset(0% 0% 0% 0% round 0 0 5px 5px);
+  .leaflet-gesture-handling-scroll-warning:after,
+  .leaflet-gesture-handling-touch-warning:after {
+    background: transparent;
+    color: var(--foreground);
+    font-size: 0.5rem;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .leaflet-container:after {
+    font-family: var(--font-mono) !important;
+  }
+
+  .leaflet-segment-hoverable-peer:hover + .leaflet-segment-hoverable {
+    stroke: var(--map-current) !important;
+  }
+
+  .polyline-glow {
+    pointer-events: none !important;
+    stroke: var(--map-polyline-glow);
+    filter: blur(2px);
+    stroke-width: 8px;
   }
 
   .apexcharts-tooltip {
     background: transparent !important;
     box-shadow: none !important;
     border: none !important;
-    color: var(--background) !important;
+    color: var(--foreground) !important;
     padding-top: 0 !important;
-    margin-top: 0 !important;
+    margin-top: 0.9rem !important;
   }
 
   .apexcharts-tooltip-text {
     font-family: var(--font-mono) !important;
     font-size: 0.5rem !important;
-    font-weight: 300 !important;
+    font-weight: 900 !important;
     text-transform: uppercase;
   }
 
