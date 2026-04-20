@@ -28,7 +28,7 @@ const data = [
   {
     "area": "Frameworks",
     "skills": [
-      "React // Native",
+      "React",
       "Laravel",
       "CodeIgniter",
       "NextJS",
@@ -41,15 +41,8 @@ const data = [
   {
     "area": "Inclusivity",
     "skills": [
-      "Accessibility"
-    ]
-  },
-  {
-    "area": "Backpacking",
-    "skills": [
-      "Thru-hikes",
-      "Summits",
-      "Gear specs"
+      "Accessibility",
+      "testing"
     ]
   },
   {
@@ -66,8 +59,7 @@ const data = [
     "skills": [
       "Files",
       "Folders",
-      "Bigger picture",
-      "Packing"
+      "Bigger picture"
     ]
   }
 ];

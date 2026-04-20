@@ -1,19 +1,19 @@
-import Link from 'next/link';
+import { Waves } from 'lucide-react';
 
-import Navigation from './navigation';
+import View from './view';
 import styles from './stylesheet';
 
-export default function Header() {
+type Props = {
+  view: string;
+};
+
+export default function Header({ view }: Props) {
   return (
     <header className={styles.container}>
-      <Link
-        aria-label="acrossthekyle.com"
-        className={styles.anchor}
-        href="/"
-      >
-        KYL
-      </Link>
-      <Navigation />
+      <button className={styles.anchor} type="button">
+        <Waves className={styles.icon} /> Kyle
+      </button>
+      <View current={view} />
     </header>
   );
 }

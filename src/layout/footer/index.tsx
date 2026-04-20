@@ -1,24 +1,17 @@
-import Fixed from './fixed';
-import Meta from './meta';
-import Socials from './socials';
 import styles from './stylesheet';
+import Theme from './theme';
+import Units from './units';
 
 type Props = {
   theme: string;
-  trail: {
-    id: string;
-    title: string;
-  };
+  units: string;
 };
 
-export default function Footer({ theme, trail }: Props) {
+export default function Footer({ theme, units }: Props) {
   return (
-    <footer className={styles.container} role="contentinfo">
-      <div className={styles.inner}>
-        <Socials />
-        <Meta />
-      </div>
-      <Fixed theme={theme} trail={trail} />
+    <footer className={styles.container}>
+      <Theme current={theme} />
+      <Units current={units} />
     </footer>
   );
 }

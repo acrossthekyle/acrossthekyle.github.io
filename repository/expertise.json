@@ -17,11 +17,7 @@
   },
   {
     "area": "Inclusivity",
-    "skills": ["Accessibility"]
-  },
-  {
-    "area": "Backpacking",
-    "skills": ["Thru-hikes", "Summits", "Gear specs"]
+    "skills": ["Accessibility", "testing"]
   },
   {
     "area": "Planning",
@@ -29,6 +25,6 @@
   },
   {
     "area": "Organization",
-    "skills": ["Files", "Folders", "Bigger picture", "Packing"]
+    "skills": ["Files", "Folders", "Bigger picture"]
   }
 ]

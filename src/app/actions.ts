@@ -10,7 +10,7 @@ export async function setTheme(theme: string) {
     maxAge: 31536000,
     sameSite: 'lax',
   });
-}
+};
 
 export async function setUnits(units: string) {
   const cookieStore = await cookies();
@@ -20,4 +20,14 @@ export async function setUnits(units: string) {
     maxAge: 31536000,
     sameSite: 'lax',
   });
-}
+};
+
+export async function setView(view: string) {
+  const cookieStore = await cookies();
+
+  cookieStore.set('view', view, {
+    path: '/',
+    maxAge: 31536000,
+    sameSite: 'lax',
+  });
+};

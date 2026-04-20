@@ -1,9 +1,6 @@
 @import "tailwindcss";
 
 @theme inline {
-  --layout-background: #0c0c0c;
-  --layout-foreground: #fefff5;
-
   --background: #fefff5;
   --foreground: #0c0c0c;
 
@@ -19,6 +16,8 @@
 
   --text-tiny: 0.6875rem; /* 11px */
   --text-xtiny: 0.5rem; /* 8px */
+
+  --dialog-background: rgba(255, 255, 255, 0.25);
 }
 
 @custom-variant dark (
@@ -28,59 +27,33 @@
   }
 );
 
-@property --grid-gap {
-  syntax: "<length>";
-  initial-value: 12px;
-  inherits: true;
-}
-
 @layer base {
   :root {
     --background: #fefff5;
     --foreground: #0c0c0c;
 
-    --map-polyline-glow: var(--color-mist-400);
-    --map-filter: sepia(0.25);
-    --map-current: var(--color-mist-100);
-
-    --grid-gap: 9px;
-    --grid-opacity: 0.25;
-    --grid-border: 6px;
-    --grid-bg: hsl(63, 100%, 98%);
-    --grid-minor: hsl(0 0% 11% / calc(var(--grid-opacity) * 0.075));
-    --grid-major: hsl(0 0% 11% / calc(var(--grid-opacity) * 0.075));
-    --grid-cross: hsl(0 0% 11% / calc(var(--grid-opacity) * 0.25));
+    --dialog-background: rgba(255, 255, 255, 0.25);
   }
 
   [data-theme="dark"] {
-    --background: #242423;
+    --background: #0c0c0c;
     --foreground: #fefff5;
 
-    --map-polyline-glow: var(--color-yellow-700);
-    --map-filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
-    --map-current: var(--color-yellow-500);
-
-    --grid-bg: hsl(0, 0%, 11%);
-    --grid-minor: hsl(63 24% 89% / calc(var(--grid-opacity) * 0.05));
-    --grid-major: hsl(63 24% 89% / calc(var(--grid-opacity) * 0.05));
-    --grid-cross: hsl(63 24% 89% / calc(var(--grid-opacity) * 0.125));
+    --dialog-background: rgba(0, 0, 0, 0.25);
   }
 
   @media (prefers-color-scheme: dark) {
     [data-theme="auto"] {
-      --background: #242423;
+      --background: #0c0c0c;
       --foreground: #fefff5;
 
-      --map-polyline-glow: var(--color-yellow-700);
-      --map-filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
-      --map-current: var(--color-yellow-500);
-
-      --grid-bg: hsl(0, 0%, 11%);
-      --grid-minor: hsl(63 24% 89% / calc(var(--grid-opacity) * 0.05));
-      --grid-major: hsl(63 24% 89% / calc(var(--grid-opacity) * 0.05));
-      --grid-cross: hsl(63 24% 89% / calc(var(--grid-opacity) * 0.125));
+      --dialog-background: rgba(0, 0, 0, 0.25);
     }
   }
+}
+
+html:has(dialog[open]) {
+  overflow: hidden;
 }
 
 html {
@@ -88,23 +61,6 @@ html {
 }
 
 body {
-  --paper-lines-y: linear-gradient(var(--grid-minor) 0px 1px,transparent 1px var(--grid-gap));
-  --paper-lines-x: linear-gradient(to right, var(--grid-minor) 0px 1px,transparent 1px var(--grid-gap));
-  --paper-lines-y-major: linear-gradient(var(--grid-major) 0px 1px,transparent 1px calc(var(--grid-gap) * 5));
-  --paper-lines-x-major: linear-gradient(to right, var(--grid-major) 0px 1px,transparent 1px calc(var(--grid-gap) * 5));
-  --paper-cross-y: linear-gradient(var(--grid-cross) 0px 1px,transparent 1px calc(var(--grid-gap) * 5));
-  --paper-cross-x: linear-gradient(to right, var(--grid-cross) 0px 1px,transparent 1px calc(var(--grid-gap) * 5));
-  --paper-cross-mask: radial-gradient(circle at center, transparent calc(var(--grid-gap)/2), var(--grid-bg) calc(var(--grid-gap)/2) 100%);
-
-  --paper-gradient:
-      var(--paper-lines-y),
-      var(--paper-lines-x),
-      var(--paper-lines-y-major),
-      var(--paper-lines-x-major),
-      var(--paper-cross-mask),
-      var(--paper-cross-y),
-      var(--paper-cross-x);
-
   button {
     cursor: pointer;
   }
@@ -115,108 +71,12 @@ body {
     width: 100%;
   }
 
-  .grid-background {
-    background-color: var(--grid-bg);
+  dialog.is-active {
+    opacity: 1;
   }
 
-  .grid-overlay {
-    background-size:
-        var(--grid-gap) var(--grid-gap),
-        var(--grid-gap) var(--grid-gap),
-        calc(var(--grid-gap) * 5) calc(var(--grid-gap) * 5),
-        calc(var(--grid-gap) * 5) calc(var(--grid-gap) * 5),
-        calc(var(--grid-gap) * 5) calc(var(--grid-gap) * 5),
-        calc(var(--grid-gap) * 5) calc(var(--grid-gap) * 5),
-        calc(var(--grid-gap) * 5) calc(var(--grid-gap) * 5);
-    background-repeat:
-        repeat,
-        repeat,
-        repeat,
-        repeat,
-        repeat,
-        repeat,
-        repeat;
-    background-position:
-        var(--grid-border) var(--grid-border),
-        var(--grid-border) var(--grid-border),
-        var(--grid-border) var(--grid-border),
-        var(--grid-border) var(--grid-border),
-        calc(var(--grid-border) - var(--grid-gap) * 2.5) calc(var(--grid-border) - var(--grid-gap) * 2.5),
-        var(--grid-border) var(--grid-border),
-        var(--grid-border) var(--grid-border);
-    background-image: var(--paper-gradient);
-  }
-
-  /* third-party package styling  */
-
-  .leaflet-bar {
-    border: 0 !important;
-  }
-
-  .leaflet-control-attribution {
-    visibility: hidden;
-  }
-
-  .leaflet-container {
-    background: transparent;
-  }
-
-  .leaflet-tile-container .leaflet-tile {
-    border-radius: 0;
-    filter: var(--map-filter);
-  }
-
-  .leaflet-container {
-    font-family: var(--font-mono);
-  }
-
-  .leaflet-gesture-handling-scroll-warning:after,
-  .leaflet-gesture-handling-touch-warning:after {
-    background: transparent;
-    color: var(--foreground);
-    font-size: 0.5rem;
-    font-weight: 300;
-    text-align: center;
-    text-transform: uppercase;
-  }
-
-  .leaflet-container:after {
-    font-family: var(--font-mono) !important;
-  }
-
-  .leaflet-segment-hoverable-peer:hover + .leaflet-segment-hoverable {
-    stroke: var(--map-current) !important;
-  }
-
-  .polyline-glow {
-    pointer-events: none !important;
-    stroke: var(--map-polyline-glow);
-    filter: blur(2px);
-    stroke-width: 8px;
-  }
-
-  .apexcharts-tooltip {
-    background: transparent !important;
-    box-shadow: none !important;
-    border: none !important;
-    color: var(--foreground) !important;
-    padding-top: 0 !important;
-    margin-top: 0.9rem !important;
-  }
-
-  .apexcharts-tooltip-text {
-    font-family: var(--font-mono) !important;
-    font-size: 0.5rem !important;
-    font-weight: 900 !important;
-    text-transform: uppercase;
-  }
-
-  .apexcharts-tooltip-series-group {
-    padding: 0 !important;
-  }
-
-  .apexcharts-tooltip-text-y-value {
-    margin-left: 0 !important;
+  dialog.is-active::backdrop {
+    opacity: 1;
   }
 }
 

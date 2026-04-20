@@ -2602,7 +2602,7 @@ const data = [
     "images": [
       {
         "src": "2020/02/18/619eec82-6980-4f31-a11f-7c5581d02989.jpeg",
-        "title": "Seron",
+        "title": "Refugio Seron",
         "location": "Torres del Paine",
         "date": "02 18 2020",
         "exif": {
@@ -2616,7 +2616,7 @@ const data = [
       },
       {
         "src": "2020/02/18/98e3190e-5480-4eb9-8883-c8d9fbb3f485.jpeg",
-        "title": "Dickson",
+        "title": "Refugio Dickson",
         "location": "Torres del Paine",
         "date": "02 19 2020",
         "exif": {
@@ -2630,7 +2630,7 @@ const data = [
       },
       {
         "src": "2020/02/18/f477b7bb-7f38-42ff-a855-f90668a73f28.jpeg",
-        "title": "Perros",
+        "title": "Refugio Perros",
         "location": "Torres del Paine",
         "date": "02 20 2020",
         "exif": {
@@ -2644,7 +2644,7 @@ const data = [
       },
       {
         "src": "2020/02/18/38a1b675-74c7-45b5-9e37-8020d298a0b3.jpeg",
-        "title": "Grey",
+        "title": "Refugio Grey",
         "location": "Torres del Paine",
         "date": "02 21 2020",
         "exif": {
@@ -2672,7 +2672,7 @@ const data = [
       },
       {
         "src": "2020/02/18/380820b8-520a-49fa-8f01-651ca63fd84f.jpeg",
-        "title": "Frances",
+        "title": "Refugio Frances",
         "location": "Torres del Paine",
         "date": "02 23 2020",
         "exif": {
@@ -2686,7 +2686,7 @@ const data = [
       },
       {
         "src": "2020/02/18/790032e0-6483-4631-9cbe-d912510a1a48.jpeg",
-        "title": "Chileno",
+        "title": "Refugio Chileno",
         "location": "Torres del Paine",
         "date": "02 24 2020",
         "exif": {

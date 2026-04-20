@@ -5,3 +5,5 @@ export function convertFeetToMeters(value: number) {
 export function padIndex(index: number, padding: number = 2) {
   return String(index).padStart(padding, '0');
 };
+
+export const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));

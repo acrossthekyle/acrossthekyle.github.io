@@ -1,16 +1,19 @@
-import { Suspense } from 'react';
+import { cookies } from 'next/headers';
 
-import Loading from '@/ui/loading';
-import View from '@/views/root';
+import View from '@/view';
 
 import get from './get';
 
 export default async function Page() {
-  const { albums, resume, trails } = await get();
+  const cookieStore = await cookies();
+  const view = cookieStore.get('view')?.value || 'albums';
+
+  const data = await get();
 
   return (
-    <Suspense fallback={<Loading />}>
-      <View data={{ albums, resume, trails: trails.all }} />
-    </Suspense>
+    <View
+      data={data}
+      view={view}
+    />
   );
 }

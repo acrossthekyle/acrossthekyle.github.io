@@ -47,7 +47,7 @@ const data = {
   "end": {
     "label": "End",
     "value": {
-      "basic": "Jhinu Danda",
+      "basic": "Chomrong",
       "complex": {
         "imperial": "",
         "metric": ""

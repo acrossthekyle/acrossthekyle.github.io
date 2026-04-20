@@ -47,7 +47,7 @@ const data = {
   "end": {
     "label": "End",
     "value": {
-      "basic": "Kinlochleven",
+      "basic": "Bridge of Orchy",
       "complex": {
         "imperial": "",
         "metric": ""

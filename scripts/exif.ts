@@ -64,6 +64,7 @@ export async function go() {
           const aperture = response.exif?.exif?.ApertureValue;
           const exposure = response.exif?.exif?.ExposureCompensation;
           const fnumber = response.exif?.exif?.FNumber;
+          const shutter = response.exif?.exif?.ShutterSpeedValue;
 
           images.push({
             ...image,
@@ -73,7 +74,11 @@ export async function go() {
               exposure: exposure !== undefined ? Number(exposure).toFixed(1) : null,
               fnumber: fnumber !== undefined ? fnumber.toFixed(2) : null,
               focal: response.exif?.exif?.FocalLengthIn35mmFormat || null,
+              format: response.format || null,
+              height: response.height || null,
               iso: response.exif?.exif?.ISO || null,
+              shutter: shutter !== undefined ? shutter.toFixed(2) : null,
+              width: response.width || null,
             },
           });
         } else {

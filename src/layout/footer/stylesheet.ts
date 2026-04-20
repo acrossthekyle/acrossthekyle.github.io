@@ -2,15 +2,31 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    relative z-99
-    h-[calc(100vh-1.75rem)] w-full
+    fixed bottom-0 left-0 z-9999
+    flex items-center justify-between
+    w-full
+    pb-2 px-6
   `,
-  inner: `
-    flex flex-col justify-between
-    h-[calc(100vh-4.5rem)]
-    mx-3.5
-    pt-2 pb-6
-    border-b-1 border-b-current/22.5 border-dashed
+  controls: `
+    flex items-center gap-4
+    p-2 px-4
+    mx-6
+    rounded-sm
+    bg-(--background)
+  `,
+  button: (isActive: boolean) => tw(`
+    flex items-center gap-2
+    font-sans font-medium
+    text-xs
+    capitalize
+    duration-300
+
+    hover:opacity-100
+
+    ${isActive ? 'opacity-100' : 'opacity-50'}
+  `),
+  icon: `
+    w-3.5 h-3.5
   `,
 });
 
