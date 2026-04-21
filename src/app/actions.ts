@@ -21,13 +21,3 @@ export async function setUnits(units: string) {
     sameSite: 'lax',
   });
 };
-
-export async function setView(view: string) {
-  const cookieStore = await cookies();
-
-  cookieStore.set('view', view, {
-    path: '/',
-    maxAge: 31536000,
-    sameSite: 'lax',
-  });
-};

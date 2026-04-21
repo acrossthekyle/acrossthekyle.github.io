@@ -1,8 +1,13 @@
+import { Baseline } from 'lucide-react';
 import { ImageResponse } from 'next/og';
 
+export const runtime = 'edge';
+
+export const alt = 'App Icon';
+
 export const size = {
-  width: 32,
-  height: 32,
+  width: 18,
+  height: 18,
 };
 
 export const contentType = 'image/png';
@@ -12,7 +17,7 @@ export default function Icon() {
     (
       <div
         style={{
-          fontSize: 24,
+          fontSize: 18,
           background: 'transparent',
           width: '100%',
           height: '100%',
@@ -22,7 +27,7 @@ export default function Icon() {
           color: 'white',
         }}
       >
-        K
+        <Baseline size={18} />
       </div>
     ),
     {

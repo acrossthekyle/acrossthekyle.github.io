@@ -1,22 +1,19 @@
 'use client';
 
-import { PropsWithChildren } from 'react';
-
 import { useDialog } from '@/hooks/useDialog';
 
 import styles from './stylesheet';
+import { Album, Info, Library, Search } from './templates';
 
 type Props = {
   className?: string;
-  id: string;
 };
 
 export default function Dialog({
-  children,
   className = '',
-  id,
-}: PropsWithChildren<Props>) {
+}: Props) {
   const {
+    data,
     dialog,
     isOpen,
     onBackdrop,
@@ -25,16 +22,25 @@ export default function Dialog({
 
   return (
     <dialog
-      aria-describedby="hint"
       aria-labelledby="dialog-header"
       className={`${styles.container} ${className} ${isOpen ? 'is-active' : ''}`.trim()}
       closedby="none"
-      id={id}
       onClick={onBackdrop}
       ref={dialog}
       onKeyDown={onCancel}
     >
-      {children}
+      {data.template === 'album' && (
+        <Album data={data.data} />
+      )}
+      {data.template === 'info' && (
+        <Info />
+      )}
+      {data.template === 'library' && (
+        <Library data={data.data} />
+      )}
+      {data.template === 'search' && (
+        <Search data={data.data} />
+      )}
     </dialog>
   );
 }

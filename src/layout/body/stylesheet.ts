@@ -6,6 +6,11 @@ const styles = tw({
     scroll-smooth
     bg-(--background)
     text-(--foreground)
+
+    selection:bg-yellow-300
+    selection:text-black
+
+    motion-safe:duration-300
   `,
 });
 

@@ -5,7 +5,9 @@ import { cookies } from 'next/headers';
 import { Suspense } from 'react';
 
 import DialogProvider from '@/contexts/dialog';
-import { Body, Header, Footer, Main } from '@/layout';
+import UnitsProvider from '@/contexts/units';
+import ViewProvider from '@/contexts/view';
+import { Body, Footer } from '@/layout';
 
 export const metadata: Metadata = {
   title: {
@@ -30,19 +32,19 @@ export default async function RootLayout({ children }: React.PropsWithChildren) 
   const cookieStore = await cookies();
   const theme = cookieStore.get('theme')?.value || 'auto';
   const units = cookieStore.get('units')?.value || 'imperial';
-  const view = cookieStore.get('view')?.value || 'albums';
 
   return (
     <html data-theme={theme} lang="en-US" suppressHydrationWarning>
       <Suspense fallback={null}>
         <DialogProvider>
-          <Body>
-            <Header view={view} />
-            <Main>
-              {children}
-            </Main>
-            <Footer theme={theme} units={units} />
-          </Body>
+          <ViewProvider>
+            <UnitsProvider current={units}>
+              <Body>
+                {children}
+                <Footer theme={theme} units={units} />
+              </Body>
+            </UnitsProvider>
+          </ViewProvider>
         </DialogProvider>
       </Suspense>
     </html>

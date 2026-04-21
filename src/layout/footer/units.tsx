@@ -3,6 +3,7 @@
 import { Ruler, Scale } from 'lucide-react';
 
 import { setUnits } from '@/app/actions';
+import { useUnits } from '@/hooks/useUnits';
 
 import styles from './stylesheet';
 
@@ -11,18 +12,26 @@ type Props = {
 };
 
 export default function Units({ current }: Props) {
+  const { onChange } = useUnits();
+
+  const handleOnChange = (value: string) => {
+    onChange(value);
+
+    setUnits(value);
+  };
+
   return (
     <section aria-label="theme controls" className={styles.controls}>
       <button
         className={styles.button(current === 'imperial')}
-        onClick={() => setUnits('imperial')}
+        onClick={() => handleOnChange('imperial')}
         type="button"
       >
         <Ruler className={styles.icon} /> Imperial
       </button>
       <button
         className={styles.button(current === 'metric')}
-        onClick={() => setUnits('metric')}
+        onClick={() => handleOnChange('metric')}
         type="button"
       >
         <Scale className={styles.icon} /> Metric

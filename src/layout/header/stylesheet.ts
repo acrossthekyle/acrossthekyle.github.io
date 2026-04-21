@@ -1,45 +1,63 @@
 import tw from '@/styles';
 
 const styles = tw({
-  container: `
+  container: (hasFilter: boolean) => tw(`
     fixed top-0 left-0 z-9999
-    flex items-center justify-between
+    ${hasFilter ? 'grid grid-cols-3' : 'flex items-center justify-between'}
     w-full
-    pt-2 px-6
-  `,
+    px-12
+    mt-2
+  `),
   anchor: `
-    flex items-center gap-2
-    p-2 px-4
-    ml-6
-    rounded-sm
-    bg-(--background)
-    font-sans font-medium
-    text-sm
-    capitalize
+    flex items-center justify-start
+
+    motion-safe:opacity-0
+    motion-safe:animate-fade-in-delayed
   `,
   controls: `
-    flex items-center gap-4
-    p-2 px-4
-    mr-6
+    flex items-center justify-end
+
+    motion-safe:opacity-0
+    motion-safe:animate-fade-in-delayed
+  `,
+  group: `
+    flex items-center justify-end gap-0
     rounded-sm
     bg-(--background)
   `,
+  filter: (canRender: boolean) => tw(`
+    flex items-center justify-center
+    duration-300
+
+    ${canRender ? 'opacity-100' : 'opacity-0'}
+  `),
   button: (isActive: boolean) => tw(`
     flex items-center gap-2
     font-sans font-medium
-    text-sm
+    text-xs
     capitalize
-    duration-300
+    rounded-sm
+    bg-(--background)
+    p-2
 
-    hover:opacity-100
-
-    ${isActive ? 'opacity-100' : 'opacity-50'}
+    motion-safe:duration-300
+    motion-safe:hover:opacity-100
+    ${isActive ? 'motion-safe:opacity-100' : 'motion-safe:opacity-50'}
   `),
+  first: `pl-4`,
+  last: `pr-4`,
+  only: `px-4`,
   icon: `
     w-3.5 h-3.5
   `,
   rotate: `
     -rotate-90
+  `,
+  divide: `
+    h-4 w-px
+    mx-1
+    border-l-1 border-l-(--foreground) border-dashed
+    opacity-40
   `,
 });
 

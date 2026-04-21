@@ -1,19 +1,17 @@
-import { cookies } from 'next/headers';
-
 import View from '@/view';
 
 import get from './get';
 
-export default async function Page() {
-  const cookieStore = await cookies();
-  const view = cookieStore.get('view')?.value || 'albums';
+type Params = {
+  searchParams: { [key: string]: string | undefined };
+};
+
+export default async function Page({ searchParams }: Params) {
+  const { a } = await searchParams;
 
   const data = await get();
 
   return (
-    <View
-      data={data}
-      view={view}
-    />
+    <View data={data} filterBy={a} />
   );
 }

@@ -13,17 +13,19 @@ const styles = tw({
     mx-6
     rounded-sm
     bg-(--background)
+
+    motion-safe:opacity-0
+    motion-safe:animate-fade-in-delayed
   `,
   button: (isActive: boolean) => tw(`
     flex items-center gap-2
     font-sans font-medium
     text-xs
     capitalize
-    duration-300
 
-    hover:opacity-100
-
-    ${isActive ? 'opacity-100' : 'opacity-50'}
+    motion-safe:duration-300
+    motion-safe:hover:opacity-100
+    ${isActive ? 'motion-safe:opacity-100' : 'motion-safe:opacity-50'}
   `),
   icon: `
     w-3.5 h-3.5

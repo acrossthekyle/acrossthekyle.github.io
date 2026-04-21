@@ -1,19 +1,26 @@
-import { Waves } from 'lucide-react';
+import type { Album } from '@/types';
 
-import View from './view';
+import Anchor from './anchor';
+import Controls from './controls';
+import Filter from './filter';
 import styles from './stylesheet';
 
 type Props = {
-  view: string;
+  data: Album[];
+  filterBy?: string;
 };
 
-export default function Header({ view }: Props) {
+export default function Header({ data, filterBy }: Props) {
+  const isFiltering = !!filterBy;
+  const album = data.find(({ id }) => id === filterBy);
+
+  const hasFilter = album && isFiltering;
+
   return (
-    <header className={styles.container}>
-      <button className={styles.anchor} type="button">
-        <Waves className={styles.icon} /> Kyle
-      </button>
-      <View current={view} />
+    <header className={styles.container(hasFilter)}>
+      <Anchor />
+      {hasFilter && <Filter album={album} />}
+      <Controls data={data} />
     </header>
   );
 }

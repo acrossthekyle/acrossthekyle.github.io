@@ -1,14 +1,34 @@
 'use client';
 
-import { KeyboardEvent, MouseEvent, PropsWithChildren, RefObject, createContext, useRef, useState, useCallback } from 'react';
+import {
+  KeyboardEvent,
+  MouseEvent,
+  PropsWithChildren,
+  RefObject,
+  createContext,
+  useRef,
+  useState,
+  useCallback,
+} from 'react';
+
+import type { Album, Data } from '@/types';
+
+type Input = {
+  data?: {
+    album?: Album;
+    albums?: Album[];
+    image?: Data;
+  };
+  template: string;
+};
 
 type DialogContextType = {
+  data: Input;
   dialog: RefObject<HTMLDialogElement | null>;
-  handleOnOpen: (onReady?: () => void) => void;
-  handleOnClose: () => void;
-  handleOnNavigate: (event: MouseEvent<HTMLAnchorElement>) => void;
-  handleOnCancel: (event: KeyboardEvent<HTMLDialogElement>) => void;
-  handleOnBackdrop: (event: MouseEvent<HTMLDialogElement>) => void;
+  onBackdrop: (event: MouseEvent<HTMLDialogElement>) => void;
+  onCancel: (event: KeyboardEvent<HTMLDialogElement>) => void;
+  onClose: () => void;
+  onOpen: (input: Input, onReady?: () => void) => void;
   isOpen: boolean;
 };
 
@@ -16,10 +36,16 @@ export const DialogContext = createContext<DialogContextType | null>(null);
 
 export default function DialogProvider({ children }: PropsWithChildren) {
   const [isOpen, setIsOpen] = useState(false);
+  const [data, setData] = useState<Input>({
+    data: {},
+    template: '',
+  });
 
   const dialog = useRef<HTMLDialogElement | null>(null);
 
-  const handleOnOpen = useCallback((onReady?: () => void) => {
+  const handleOnOpen = useCallback((input: Input, onReady?: () => void) => {
+    setData(input);
+
     dialog.current?.showModal();
 
     onReady?.();
@@ -36,20 +62,6 @@ export default function DialogProvider({ children }: PropsWithChildren) {
       dialog.current?.removeEventListener('transitionend', handleTransitionEnd);
     };
     dialog.current?.addEventListener('transitionend', handleTransitionEnd);
-  }, []);
-
-  const handleOnNavigate = useCallback((event: MouseEvent<HTMLAnchorElement>) => {
-    event.preventDefault();
-
-    if (event.currentTarget.target === '_blank') {
-      window.open(event.currentTarget.href, '_blank')?.focus();
-    } else {
-      setIsOpen(false);
-
-      dialog.current?.close();
-
-      window.location.href = event.currentTarget.href;
-    }
   }, []);
 
   const handleOnCancel = useCallback((event: KeyboardEvent<HTMLDialogElement>) => {
@@ -74,13 +86,13 @@ export default function DialogProvider({ children }: PropsWithChildren) {
 
   return (
     <DialogContext.Provider value={{
-      isOpen,
+      data,
       dialog,
-      onOpen: handleOnOpen,
-      onClose: handleOnClose,
-      onNavigate: handleOnNavigate,
-      onCancel: handleOnCancel,
+      isOpen,
       onBackdrop: handleOnBackdrop,
+      onCancel: handleOnCancel,
+      onClose: handleOnClose,
+      onOpen: handleOnOpen,
     }}>
       {children}
     </DialogContext.Provider>

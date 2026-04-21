@@ -1,4 +1,4 @@
-import { Geist, Roboto_Mono } from 'next/font/google';
+import { Geist, Momo_Signature, Roboto_Mono } from 'next/font/google';
 
 import styles from './stylesheet';
 
@@ -14,9 +14,17 @@ const robotoMono = Roboto_Mono({
   variable: '--font-roboto-mono',
 });
 
+const momoSignature = Momo_Signature({
+  display: 'swap',
+  subsets: ['latin'],
+  weight: '400',
+  variable: '--font-momo-signature',
+});
+
 export default function Body({ children }: React.PropsWithChildren) {
   return (
-    <body className={`${geistSans.variable} ${robotoMono.variable} ${styles.container}`}>
+    <body className={`${geistSans.variable} ${robotoMono.variable} ${momoSignature.variable} ${styles.container}`}>
+      <div className="glow" />
       {children}
     </body>
   );

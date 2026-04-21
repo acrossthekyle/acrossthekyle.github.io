@@ -7,18 +7,20 @@ const styles = tw({
     h-full max-h-full
     bg-transparent
     text-(--foreground)
-    opacity-0
     outline-none
     overflow-x-visible
     overflow-y-scroll
     scroll-smooth
-    duration-300
     cursor-pointer
 
     backdrop:bg-(--background)
-    backdrop:opacity-0
+    backdrop:backdrop-blur-2xl
     backdrop:outline-none
-    backdrop:duration-300
+
+    motion-safe:duration-300
+    motion-safe:opacity-0
+    motion-safe:backdrop:opacity-0
+    motion-safe:backdrop:duration-300
   `,
 });
 

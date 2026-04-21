@@ -1,27 +1,38 @@
 'use client';
 
-import { Aperture, ArrowRight, ArrowUpFromDot, Calendar1, Camera, Flag, Fullscreen, LayoutDashboard, LensConvex, Pencil, Type, Zap } from 'lucide-react';
+import {
+  Aperture,
+  ArrowRight,
+  ArrowUpFromDot,
+  Calendar1,
+  Camera,
+  Flag,
+  Fullscreen,
+  LayoutDashboard,
+  LensConcave,
+  Pencil,
+  Type,
+  Zap,
+} from 'lucide-react';
 import Link from 'next/link';
 
 import { useDialog } from '@/hooks/useDialog';
+import type { Album, Data } from '@/types';
 
-import type { Album, Data } from '../../types';
-import { Image } from '../../ui/image';
-import Map from '../../ui/map';
-
-import styles from './stylesheet';
+import { Image } from '../../../ui/image';
+import styles from '../stylesheet';
 
 type Props = {
-  data: {
-    album: Album;
-    image: Data;
+  data?: {
+    album?: Album;
+    image?: Data;
   };
 };
 
-export default function Details({ data }: Props) {
-  const { onClose, onNavigate } = useDialog();
+export default function Template({ data }: Props) {
+  const { onClose } = useDialog();
 
-  if (!data.image.src) {
+  if (!data || !data?.album || !data?.image) {
     return null;
   }
 
@@ -35,20 +46,21 @@ export default function Details({ data }: Props) {
         />
       </div>
       <figcaption className={styles.caption}>
+        <h2 className={`${styles.item} ${styles.header}`} id="dialog-header">
+          <span aria-hidden="true" className={styles.prefix}>
+            <Type className={styles.icon} />
+          </span>
+          <span>
+            <span className={styles.faded}>Title</span>
+            {data.image.title}
+          </span>
+        </h2>
         <ul className={styles.items}>
-          <li className={styles.item}>
-            <span aria-hidden="true" className={styles.prefix}>
-              <Type className={styles.icon} />
-            </span>
-            <p>
-              <span className={styles.faded}>Title</span>
-              {data.image.title}
-            </p>
-          </li>
           <li>
             <Link
               className={styles.link}
-              href={`/?album=${data.album.id}`}
+              href={`?a=${data.album.id}`}
+              onClick={onClose}
             >
               <span aria-hidden="true" className={styles.prefix}>
                 <LayoutDashboard className={styles.icon} />
@@ -99,7 +111,7 @@ export default function Details({ data }: Props) {
               </li>
               <li className={styles.item}>
                 <span aria-hidden="true" className={styles.prefix}>
-                  <LensConvex className={styles.icon} />
+                  <LensConcave className={styles.icon} />
                 </span>
                 <p>
                   <span className={styles.faded}>Focal Length</span>

@@ -1,73 +1,82 @@
 'use client';
 
-import { Fragment, useState } from 'react';
+import { Fragment } from 'react';
+import { InView } from 'react-intersection-observer';
 
 import { useDialog } from '@/hooks/useDialog';
+import { useView } from '@/hooks/useView';
+import type { Album, Data } from '@/types';
 
-import { Dialog } from '../dialog';
-import type { Album, Data } from '../types';
 import { Image } from '../ui/image';
 
-import Details from './details';
 import styles from './stylesheet';
 
 type Props = {
   data: Album[];
-  isActive: boolean;
+  filterBy?: string;
 };
 
-export default function Library({ data, isActive }: Props) {
-  const [active, setActive] = useState({
-    album: {},
-    image: {},
-  });
-
+export default function Library({ data, filterBy }: Props) {
   const { onOpen } = useDialog();
+  const { current } = useView();
 
   const handleOnClick = (item: Album, image: Data) => {
-    onOpen();
-
-    setActive({
-      album: item,
-      image,
+    onOpen({
+      data: {
+        album: item,
+        image,
+      },
+      template: 'library',
     });
   };
 
-  if (!isActive) {
-    return null;
-  }
-
   return (
-    <>
+    <div className={styles.mountable(current === 'library')}>
       <ul className={styles.grid}>
-        {data.map((album) => (
-          <Fragment key={album.id}>
-            {album.images.map((image) => (
-              <li key={image.src}>
-                <figure>
-                  <button
-                    className={styles.cta}
-                    onClick={() => handleOnClick(album, image)}
-                    type="button"
-                  >
-                    <Image
-                      className={styles.image}
-                      src={image.src}
-                    />
-                  </button>
-                  <figcaption className={styles.caption}>
-                    <span className={styles.faded}>{image.date}</span>
-                    {image.location}, {album.location}
-                  </figcaption>
-                </figure>
-              </li>
-            ))}
-          </Fragment>
+        {data
+          .filter(({ id }) => !!filterBy ? id === filterBy : true)
+          .map((album, albumIndex: number) => (
+            <Fragment key={album.id}>
+              {album.images.map((image, imageIndex: number) => {
+                const delays = [0.25, 0.125, 0.375, 0];
+
+                const isInitialBatch = albumIndex === 0 && imageIndex < 8;
+                const currentDelay = isInitialBatch ? 0 : delays[imageIndex % 4];
+
+                return (
+                  <InView key={image.src} threshold={0} triggerOnce>
+                    {({ inView, ref }) => (
+                      <li
+                        className={styles.cell(inView, isInitialBatch)}
+                        ref={ref}
+                        style={{
+                          transitionDelay: `${currentDelay}s`,
+                        }}
+                      >
+                        <figure>
+                          <button
+                            className={styles.cta}
+                            onClick={() => handleOnClick(album, image)}
+                            type="button"
+                          >
+                            <Image
+                              className={styles.image}
+                              src={image.src}
+                            />
+                          </button>
+                          <figcaption className={styles.caption}>
+                            <span className={styles.faded}>{image.date}</span>
+                            {image.location}, {album.location}
+                          </figcaption>
+                        </figure>
+                      </li>
+                    )}
+                  </InView>
+                );
+              })}
+            </Fragment>
         ))}
       </ul>
-      <Dialog id="details">
-        <Details data={active} />
-      </Dialog>
-    </>
+    </div>
   );
 }

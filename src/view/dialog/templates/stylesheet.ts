@@ -6,9 +6,8 @@ const styles = tw({
     flex flex-row gap-0
     pointer-events-none
     h-full w-full
-    p-20
-    opacity-0
 
+    motion-safe:opacity-0
     motion-safe:animate-fade-in
   `,
   wrapper: `
@@ -18,18 +17,23 @@ const styles = tw({
     rounded-lg
     pointer-events-auto
     cursor-auto
-    grayscale contrast-125
   `,
   caption: `
     flex-none
     relative
     w-86
     pl-12
-    flex flex-col justify-between
+    flex flex-col
     font-sans font-medium
     text-xs
     pointer-events-auto
     cursor-auto
+  `,
+  between: `
+    justify-between
+  `,
+  header: `
+    mb-4
   `,
   items: `
     flex flex-col gap-4
@@ -46,11 +50,12 @@ const styles = tw({
     rounded-md
     p-2
     -m-2
-    duration-300
 
-    hover:bg-(--foreground)/2.5
+    motion-safe:duration-300
+    motion-safe:hover:bg-(--foreground)/2.5
   `,
   icon: `
+    -mt-0.5
     w-4 h-4
     opacity-20
   `,
@@ -61,7 +66,7 @@ const styles = tw({
   `,
   faded: `
     block
-    opacity-25
+    opacity-20
   `,
 });
 

@@ -12,10 +12,9 @@ type Props = {
 };
 
 export default function Container({
-  children,
   className = '',
   position,
-}: React.PropsWithChildren<Props>) {
+}: Props) {
   return (
     <figure className={`${styles.container} ${className}`.trim()}>
       <Image

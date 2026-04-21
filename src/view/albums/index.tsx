@@ -1,46 +1,37 @@
 'use client';
 
 import dynamic from 'next/dynamic';
-import { useState } from 'react';
 
 import { useDialog } from '@/hooks/useDialog';
+import { useView } from '@/hooks/useView';
+import type { Album } from '@/types';
 
-import { Dialog, DialogContent, DialogHeader } from '../dialog';
-import type { Album } from '../types';
-
-import Details from './details';
 import styles from './stylesheet';
 
 type Props = {
   data: Album[];
-  isActive: boolean;
 };
 
 const Plugin = dynamic(() => import('./swiper'), {
   ssr: false,
 });
 
-export default function Albums({ data, isActive }: Props) {
-  const [active, setActive] = useState<Data | null>(null);
-
+export default function Albums({ data }: Props) {
   const { onOpen } = useDialog();
+  const { current } = useView();
 
   const handleOnClick = (album: Album) => {
-    onOpen();
-
-    setActive(album);
+    onOpen({
+      data: {
+        album,
+      },
+      template: 'album',
+    });
   };
 
-  if (!isActive) {
-    return null;
-  }
-
   return (
-    <>
+    <div className={styles.mountable(current === 'albums')}>
       <Plugin data={data} onClick={handleOnClick} />
-      <Dialog id="details">
-        <Details data={active} />
-      </Dialog>
-    </>
+    </div>
   );
 }
