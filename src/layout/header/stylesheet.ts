@@ -53,12 +53,6 @@ const styles = tw({
   rotate: `
     -rotate-90
   `,
-  divide: `
-    h-4 w-px
-    mx-1
-    border-l-1 border-l-(--foreground) border-dashed
-    opacity-40
-  `,
 });
 
 export default styles;

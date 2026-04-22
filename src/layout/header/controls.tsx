@@ -1,6 +1,6 @@
 'use client';
 
-import { GripHorizontal, LensConcave, ALargeSmall } from 'lucide-react';
+import { GripHorizontal, LensConcave, TextCursorInput } from 'lucide-react';
 
 import { useDialog } from '@/hooks/useDialog';
 import { useView } from '@/hooks/useView';
@@ -52,14 +52,13 @@ export default function Controls({ data }: Props) {
           <GripHorizontal className={styles.icon} />
           Library
         </button>
-        <div className={styles.divide} role="presentation" />
         <button
           className={`${styles.button(false)} ${styles.last}`}
           onClick={handleOnSearch}
           type="button"
         >
-          <ALargeSmall className={styles.icon} />
-          Search
+          <TextCursorInput className={styles.icon} />
+          Find
         </button>
       </div>
     </section>

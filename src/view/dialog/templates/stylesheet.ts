@@ -3,7 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     relative
-    flex flex-row gap-0
+    flex justify-center gap-0
     pointer-events-none
     h-full w-full
 
@@ -11,12 +11,13 @@ const styles = tw({
     motion-safe:animate-fade-in
   `,
   wrapper: `
-    flex-1
+    flex-none
   `,
   image: `
     rounded-lg
     pointer-events-auto
     cursor-auto
+    aspect-14/16
   `,
   caption: `
     flex-none

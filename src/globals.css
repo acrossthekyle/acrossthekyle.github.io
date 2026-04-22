@@ -6,6 +6,7 @@
 
   --animate-fade-in: fadeIn .3s ease-in forwards;
   --animate-fade-in-delayed: .3s fadeIn 4.25s ease-in forwards;
+  --animate-fade-in-up: slide-up-fade .4s ease-in forwards;
 
   --breakpoint-xs: 20.625rem; /* 320px */
 

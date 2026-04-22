@@ -1,5 +1,5 @@
 import { Layout } from '@/layout';
-import type { Album } from '@/types';
+import type { Album, FilterBy } from '@/types';
 
 import Albums from './albums';
 import Dialog from './dialog';
@@ -8,7 +8,7 @@ import styles from './stylesheet';
 
 type Props = {
   data: Album[];
-  filterBy?: string;
+  filterBy?: FilterBy;
 };
 
 export default function View({ data, filterBy }: Props) {

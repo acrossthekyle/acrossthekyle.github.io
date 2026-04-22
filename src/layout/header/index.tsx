@@ -1,4 +1,4 @@
-import type { Album } from '@/types';
+import type { Album, FilterBy } from '@/types';
 
 import Anchor from './anchor';
 import Controls from './controls';
@@ -7,19 +7,30 @@ import styles from './stylesheet';
 
 type Props = {
   data: Album[];
-  filterBy?: string;
+  filterBy?: FilterBy;
 };
 
 export default function Header({ data, filterBy }: Props) {
-  const isFiltering = !!filterBy;
-  const album = data.find(({ id }) => id === filterBy);
+  const isFiltering = !!filterBy.id || !!filterBy.category;
+  const album = data.find(({ category, id }) => {
+    if (!!filterBy.category) {
+      return category === filterBy.category;
+    }
 
-  const hasFilter = album && isFiltering;
+    if (!!filterBy.id) {
+      return id === filterBy.id;
+    }
+
+    return false;
+  });
+
+  const hasFilter = true; // album && isFiltering;
+  const label = '384 images'; // hasFilter ? (!!filterBy.category ? album.category : album.title) : '';
 
   return (
     <header className={styles.container(hasFilter)}>
       <Anchor />
-      {hasFilter && <Filter album={album} />}
+      {hasFilter && <Filter label={label} />}
       <Controls data={data} />
     </header>
   );

@@ -12,7 +12,6 @@ const styles = tw({
     cursor-auto
     pointer-events-auto
     text-sm
-    bg-(--background)
   `,
   header: `
     text-base

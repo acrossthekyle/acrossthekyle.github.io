@@ -5,7 +5,7 @@ import { InView } from 'react-intersection-observer';
 
 import { useDialog } from '@/hooks/useDialog';
 import { useView } from '@/hooks/useView';
-import type { Album, Data } from '@/types';
+import type { Album, Data, FilterBy } from '@/types';
 
 import { Image } from '../ui/image';
 
@@ -13,7 +13,7 @@ import styles from './stylesheet';
 
 type Props = {
   data: Album[];
-  filterBy?: string;
+  filterBy?: FilterBy;
 };
 
 export default function Library({ data, filterBy }: Props) {
@@ -34,7 +34,17 @@ export default function Library({ data, filterBy }: Props) {
     <div className={styles.mountable(current === 'library')}>
       <ul className={styles.grid}>
         {data
-          .filter(({ id }) => !!filterBy ? id === filterBy : true)
+          .filter(({ category, id }) => {
+            if (!!filterBy.category) {
+              return category === filterBy.category
+            }
+
+            if (!!filterBy.id) {
+              return id === filterBy.id
+            }
+
+            return true;
+          })
           .map((album, albumIndex: number) => (
             <Fragment key={album.id}>
               {album.images.map((image, imageIndex: number) => {

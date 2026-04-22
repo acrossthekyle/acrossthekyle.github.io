@@ -542,7 +542,7 @@ const data = [
     "when": "07 16-25 2019"
   },
   {
-    "category": "basecamp",
+    "category": "basecamps",
     "coordinates": "28.530000° N, 83.878000° E",
     "id": "annapurna-basecamp-2019",
     "images": [

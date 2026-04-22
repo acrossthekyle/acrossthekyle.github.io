@@ -1,11 +1,11 @@
-import type { Album } from '@/types';
+import type { Album, FilterBy } from '@/types';
 
 import Header from './header';
 import Main from './main';
 
 type Props = {
   data: Album[];
-  filterBy?: string;
+  filterBy?: FilterBy;
 };
 
 export default function Layout({ children, data, filterBy }: React.PropsWithChildren<Props>) {

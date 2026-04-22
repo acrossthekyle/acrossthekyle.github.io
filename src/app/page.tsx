@@ -7,11 +7,11 @@ type Params = {
 };
 
 export default async function Page({ searchParams }: Params) {
-  const { a } = await searchParams;
+  const { a, c } = await searchParams;
 
   const data = await get();
 
   return (
-    <View data={data} filterBy={a} />
+    <View data={data} filterBy={{ id: a, category: c}} />
   );
 }

@@ -4,15 +4,14 @@ import { X } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 
 import { useView } from '@/hooks/useView';
-import type { Album } from '@/types';
 
 import styles from './stylesheet';
 
 type Props = {
-  album: Album;
+  label: string;
 };
 
-export default function Filter({ album }: Props) {
+export default function Filter({ label }: Props) {
   const router = useRouter();
 
   const { current } = useView();
@@ -31,8 +30,8 @@ export default function Filter({ album }: Props) {
         onClick={handleOnReset}
         type="button"
       >
-        <X className={styles.icon} />
-        {album.title}
+        {/*<X className={styles.icon} />*/}
+        {label}
       </button>
     </section>
   );

@@ -12,18 +12,60 @@ const styles = tw({
     cursor-auto
     pointer-events-auto
     text-sm
-    bg-(--background)
+  `,
+  header: `
+    text-base
+    font-medium
+  `,
+  subheader: `
+    block
+    font-normal
+    text-sm
+  `,
+  categories: `
+    flex flex-wrap gap-0
+    -mx-2
+  `,
+  category: `
+    flex items-center gap-2
+    text-tiny
+    py-1 px-2
+    rounded-md
+
+    motion-safe:duration-300
+    motion-safe:opacity-50
+    motion-safe:hover:opacity-100
+  `,
+  tag: `
+    w-3 h-3
+  `,
+  form: `
+    relative
+  `,
+  placeholder: `
+    absolute top-2.25 left-2
+    w-4 h-4
+    opacity-50
   `,
   input: `
     w-full
-    p-2
+    p-2 pl-8
     border-1
-    rounded-md
     text-xs
+    outline-0
+
+    motion-safe:duration-300
+    motion-safe:border-current/50
+    motion-safe:focus:border-current/100
   `,
   results: `
     flex flex-col gap-4
     px-2
+  `,
+  result: `
+    motion-safe:duration-300
+    motion-safe:opacity-0
+    motion-safe:animate-fade-in-up
   `,
   link: `
     flex items-start gap-4

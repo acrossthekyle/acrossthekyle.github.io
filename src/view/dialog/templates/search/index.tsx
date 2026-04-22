@@ -1,9 +1,9 @@
 'use client';
 
 import Fuse from 'fuse.js';
-import { ArrowRight, LayoutDashboard } from 'lucide-react';
+import { ArrowRight, Bookmark, LayoutDashboard, Search } from 'lucide-react';
 import Link from 'next/link';
-import { ChangeEvent, FormEvent, useState, useEffect } from 'react';
+import { ChangeEvent, FormEvent, useEffect, useMemo, useState } from 'react';
 
 import { useDialog } from '@/hooks/useDialog';
 import { useView } from '@/hooks/useView';
@@ -21,17 +21,22 @@ export default function Template({ data }: Props) {
   const { onClose } = useDialog();
   const { onChange } = useView();
 
-  const [fuse, setFuse] = useState<Fuse<Album[]> | null>(null);
   const [query, setQuery] = useState('');
-  const [results, setResults] = useState<Album[]>([]);
 
-  useEffect(() => {
-    if (fuse === null) {
-      setFuse(new Fuse(data.albums, {
-        keys: ['title'],
-      }));
+  const fuse = useMemo(() => {
+    return new Fuse(data.albums, {
+      keys: ['title', 'location'],
+      threshold: 0.3,
+    });
+  }, [data]);
+
+  const results = useMemo(() => {
+    if (!query) {
+      return data;
     }
-  }, [fuse, data]);
+
+    return fuse.search(query).map(result => result.item);
+  }, [fuse, query, data]);
 
   const handleOnSubmit = (event: FormEvent) => {
     event.preventDefault();
@@ -41,16 +46,6 @@ export default function Template({ data }: Props) {
     const term = (event.target as HTMLInputElement).value.toLowerCase();
 
     setQuery(term);
-
-    if (term.length === 0) {
-      setResults([]);
-
-      return;
-    }
-
-    if (fuse !== null) {
-      setResults(fuse.search(term).map((result) => result.item));
-    }
   };
 
   const handleOnChoose = () => {
@@ -61,13 +56,67 @@ export default function Template({ data }: Props) {
 
   return (
     <div className={styles.container}>
-      <form onSubmit={handleOnSubmit}>
+      <h2 className={styles.header}>
+        Find an album
+        <span className={styles.subheader}>
+          Search by name or location, or choose a category
+        </span>
+      </h2>
+      <ul className={styles.categories}>
+        <li>
+          <Link
+            className={styles.category}
+            href="?c=backpacking"
+            onClick={handleOnChoose}
+          >
+            <Bookmark className={styles.tag} /> Backpacking
+          </Link>
+        </li>
+        <li>
+          <Link
+            className={styles.category}
+            href="?c=basecamps"
+            onClick={handleOnChoose}
+          >
+            <Bookmark className={styles.tag} /> Basecamps
+          </Link>
+        </li>
+        <li>
+          <Link
+            className={styles.category}
+            href="?c=cities"
+            onClick={handleOnChoose}
+          >
+            <Bookmark className={styles.tag} /> Cities
+          </Link>
+        </li>
+        <li>
+          <Link
+            className={styles.category}
+            href="?c=destinations"
+            onClick={handleOnChoose}
+          >
+            <Bookmark className={styles.tag} /> Destinations
+          </Link>
+        </li>
+        <li>
+          <Link
+            className={styles.category}
+            href="?c=mountains"
+            onClick={handleOnChoose}
+          >
+            <Bookmark className={styles.tag} /> Mountains
+          </Link>
+        </li>
+      </ul>
+      <form className={styles.form} onSubmit={handleOnSubmit}>
+        <Search className={styles.placeholder} />
         <input
           autoComplete="off"
           autoFocus
           className={styles.input}
           onChange={handleOnchange}
-          placeholder="Search albums"
+          placeholder=""
           type="text"
           value={query}
         />
@@ -75,7 +124,7 @@ export default function Template({ data }: Props) {
       {results.length > 0 && (
         <ul aria-label={`${results.length} results`} className={styles.results}>
           {results.map((result) => (
-            <li key={result.id}>
+            <li className={styles.result} key={result.id}>
               <Link
                 className={styles.link}
                 href={`?a=${result.id}`}

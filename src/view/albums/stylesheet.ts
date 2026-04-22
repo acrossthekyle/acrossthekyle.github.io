@@ -52,9 +52,6 @@ const styles = tw({
     motion-safe:group-hover:contrast-100
     motion-safe:group-hover:scale-108
   `,
-  dialog: `
-    p-20
-  `,
 });
 
 export default styles;
