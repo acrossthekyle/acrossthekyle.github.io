@@ -3,7 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     relative
-    mt-4
+    mt-4 ml-8 mr-2
   `,
   marker: `
     absolute z-2

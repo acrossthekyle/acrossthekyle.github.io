@@ -8,7 +8,7 @@
   --animate-fade-in-delayed: .3s fadeIn 4.25s ease-in forwards;
   --animate-fade-in-up: slide-up-fade .4s ease-in forwards;
 
-  --breakpoint-xs: 20.625rem; /* 320px */
+  --breakpoint-xs: 24.375rem; /* 390px */
 
   --font-mono: var(--font-roboto-mono);
   --font-sans: var(--font-geist-sans);

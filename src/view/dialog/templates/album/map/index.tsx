@@ -4,19 +4,15 @@ import Marker from './marker';
 import styles from './stylesheet';
 
 type Props = {
-  className?: string;
   position: {
     left: string;
     top: string;
   };
 };
 
-export default function Container({
-  className = '',
-  position,
-}: Props) {
+export default function Container({ position }: Props) {
   return (
-    <figure className={`${styles.container} ${className}`.trim()}>
+    <div className={styles.container} role="presentation">
       <Image
         alt=""
         height={432}
@@ -26,6 +22,6 @@ export default function Container({
         width={768}
       />
       <Marker position={position} />
-    </figure>
+    </div>
   );
 }

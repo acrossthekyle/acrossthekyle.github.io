@@ -5,6 +5,7 @@ const styles = tw({
     if (isActive) {
       return tw(`
         absolute z-1
+        w-full
         translate-x-0
         translate-y-0
 
@@ -23,8 +24,15 @@ const styles = tw({
   },
   grid: `
     relative z-0
-    grid grid-cols-4 gap-6
-    mt-18 pb-14 mx-10
+    grid grid-cols-1 gap-6
+    w-full
+    mt-6 pb-14 px-6
+
+    xs:grid-cols-2
+    md:grid-cols-3
+    lg:mt-18
+    lg:px-10
+    lg:grid-cols-4
   `,
   cell: (isInView: boolean, isInitialBatch: boolean) => tw(`
     relative

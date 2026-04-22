@@ -3,32 +3,60 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     relative
-    flex justify-center gap-0
+    flex flex-col gap-0
     pointer-events-none
-    h-full w-full
+    h-auto w-full
 
     motion-safe:opacity-0
     motion-safe:animate-fade-in
+
+    lg:h-full
+    lg:flex-row
+    lg:justify-center
   `,
   wrapper: `
+    relative
     flex-none
+    p-6 !pb-6
+
+    md:h-full
+    md:flex
+    md:justify-center
+    md:p-0
+    lg:h-auto
+    lg:block
+    lg:!pb-0
   `,
   image: `
     rounded-lg
     pointer-events-auto
     cursor-auto
     aspect-14/16
+
+    md:!w-auto
   `,
   caption: `
-    flex-none
     relative
-    w-86
-    pl-12
-    flex flex-col
+    flex-none
+    px-6 pb-6
     font-sans font-medium
     text-xs
     pointer-events-auto
     cursor-auto
+
+    sm:pl-0
+    sm:px-0
+    sm:max-w-md
+    sm:my-0
+    sm:mx-auto
+    lg:pb-0
+    lg:pt-0
+    lg:pl-12
+    lg:w-86
+    lg:flex
+    lg:flex-col
+    lg:my-0
+    lg:mx-0
   `,
   between: `
     justify-between
@@ -39,9 +67,15 @@ const styles = tw({
   items: `
     flex flex-col gap-4
   `,
-  item: `
+  item: (isExpanded: boolean) => tw(`
     flex items-start gap-4
-  `,
+
+    ${isExpanded && `
+      absolute top-0 z-100
+      h-full
+      bg-(--background)
+    `}
+  `),
   prefix: `
     inline-block
     mt-2.5
@@ -49,11 +83,12 @@ const styles = tw({
   link: `
     flex items-start gap-4
     rounded-md
-    p-2
-    -m-2
 
     motion-safe:duration-300
     motion-safe:hover:bg-(--foreground)/2.5
+
+    sm:p-2
+    sm:-m-2
   `,
   icon: `
     -mt-0.5
@@ -68,6 +103,22 @@ const styles = tw({
   faded: `
     block
     opacity-20
+  `,
+  capitalize: `
+    capitalize
+  `,
+  clamp: `
+    lg:line-clamp-6
+  `,
+  more: `
+    hidden
+    mt-2
+
+    motion-safe:opacity-50
+    motion-safe:duration-300
+    motion-safe:hover:opacity-100
+
+    lg:block
   `,
 });
 

@@ -1,9 +1,9 @@
 'use client';
 
 import Fuse from 'fuse.js';
-import { ArrowRight, Bookmark, LayoutDashboard, Search } from 'lucide-react';
+import { ArrowRight, Bookmark, LayoutDashboard, Search, X } from 'lucide-react';
 import Link from 'next/link';
-import { ChangeEvent, FormEvent, useEffect, useMemo, useState } from 'react';
+import { ChangeEvent, FormEvent, useMemo, useState } from 'react';
 
 import { useDialog } from '@/hooks/useDialog';
 import { useView } from '@/hooks/useView';
@@ -24,7 +24,7 @@ export default function Template({ data }: Props) {
   const [query, setQuery] = useState('');
 
   const fuse = useMemo(() => {
-    return new Fuse(data.albums, {
+    return new Fuse((data?.albums || []), {
       keys: ['title', 'location'],
       threshold: 0.3,
     });
@@ -32,10 +32,10 @@ export default function Template({ data }: Props) {
 
   const results = useMemo(() => {
     if (!query) {
-      return data;
+      return data?.albums || [];
     }
 
-    return fuse.search(query).map(result => result.item);
+    return fuse.search(query).map(result => result.item) || [];
   }, [fuse, query, data]);
 
   const handleOnSubmit = (event: FormEvent) => {
@@ -54,74 +54,56 @@ export default function Template({ data }: Props) {
     onChange('library');
   };
 
+  const handleOnClear = () => {
+    setQuery('');
+  };
+
+  const categories = [...new Set((data?.albums || []).map(({ category }) => category))];
+
   return (
     <div className={styles.container}>
-      <h2 className={styles.header}>
+      <h2 className={styles.header} id="dialog-header">
         Find an album
         <span className={styles.subheader}>
           Search by name or location, or choose a category
         </span>
       </h2>
       <ul className={styles.categories}>
-        <li>
-          <Link
-            className={styles.category}
-            href="?c=backpacking"
-            onClick={handleOnChoose}
-          >
-            <Bookmark className={styles.tag} /> Backpacking
-          </Link>
-        </li>
-        <li>
-          <Link
-            className={styles.category}
-            href="?c=basecamps"
-            onClick={handleOnChoose}
-          >
-            <Bookmark className={styles.tag} /> Basecamps
-          </Link>
-        </li>
-        <li>
-          <Link
-            className={styles.category}
-            href="?c=cities"
-            onClick={handleOnChoose}
-          >
-            <Bookmark className={styles.tag} /> Cities
-          </Link>
-        </li>
-        <li>
-          <Link
-            className={styles.category}
-            href="?c=destinations"
-            onClick={handleOnChoose}
-          >
-            <Bookmark className={styles.tag} /> Destinations
-          </Link>
-        </li>
-        <li>
-          <Link
-            className={styles.category}
-            href="?c=mountains"
-            onClick={handleOnChoose}
-          >
-            <Bookmark className={styles.tag} /> Mountains
-          </Link>
-        </li>
+        {categories.map((category) => (
+          <li key={category}>
+            <Link
+              className={styles.category}
+              href={`?c=${category}`}
+              onClick={handleOnChoose}
+            >
+              <Bookmark className={styles.tag} /> {category}
+            </Link>
+          </li>
+        ))}
       </ul>
       <form className={styles.form} onSubmit={handleOnSubmit}>
-        <Search className={styles.placeholder} />
+        <label aria-label="search" className={styles.label} htmlFor="search">
+          <Search className={styles.placeholder} />
+        </label>
         <input
           autoComplete="off"
           autoFocus
           className={styles.input}
+          id="search"
           onChange={handleOnchange}
           placeholder=""
           type="text"
           value={query}
         />
+        <button
+          className={styles.clear}
+          onClick={handleOnClear}
+          type="button"
+        >
+          <X className={styles.x} />
+        </button>
       </form>
-      {results.length > 0 && (
+      {results?.length > 0 && (
         <ul aria-label={`${results.length} results`} className={styles.results}>
           {results.map((result) => (
             <li className={styles.result} key={result.id}>

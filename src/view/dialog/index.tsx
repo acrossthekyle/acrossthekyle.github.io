@@ -1,29 +1,26 @@
 'use client';
 
+import { X } from 'lucide-react';
+
 import { useDialog } from '@/hooks/useDialog';
 
 import styles from './stylesheet';
 import { Album, Info, Library, Search } from './templates';
 
-type Props = {
-  className?: string;
-};
-
-export default function Dialog({
-  className = '',
-}: Props) {
+export default function Dialog() {
   const {
     data,
     dialog,
     isOpen,
     onBackdrop,
     onCancel,
+    onClose,
   } = useDialog();
 
   return (
     <dialog
       aria-labelledby="dialog-header"
-      className={`${styles.container} ${className} ${isOpen ? 'is-active' : ''}`.trim()}
+      className={`${styles.container} ${isOpen ? 'is-active' : ''}`.trim()}
       closedby="none"
       onClick={onBackdrop}
       ref={dialog}
@@ -41,6 +38,16 @@ export default function Dialog({
       {data.template === 'search' && (
         <Search data={data.data} />
       )}
+      <div className={styles.close}>
+        <button
+          aria-label="close dialog"
+          className={styles.button}
+          onClick={onClose}
+          type="button"
+        >
+          <X className={styles.icon} /> Close
+        </button>
+      </div>
     </dialog>
   );
 }

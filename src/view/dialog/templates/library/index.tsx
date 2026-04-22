@@ -46,7 +46,10 @@ export default function Template({ data }: Props) {
         />
       </div>
       <figcaption className={styles.caption}>
-        <h2 className={`${styles.item} ${styles.header}`} id="dialog-header">
+        <h2
+          className={`${styles.item(false)} ${styles.header}`}
+          id="dialog-header"
+        >
           <span aria-hidden="true" className={styles.prefix}>
             <Type className={styles.icon} />
           </span>
@@ -71,7 +74,7 @@ export default function Template({ data }: Props) {
               </p>
             </Link>
           </li>
-          <li className={styles.item}>
+          <li className={styles.item(false)}>
             <span aria-hidden="true" className={styles.prefix}>
               <Flag className={styles.icon} />
             </span>
@@ -80,7 +83,7 @@ export default function Template({ data }: Props) {
               {data.image.location}, {data.album.location}
             </p>
           </li>
-          <li className={styles.item}>
+          <li className={styles.item(false)}>
             <span aria-hidden="true" className={styles.prefix}>
               <Calendar1 className={styles.icon} />
             </span>
@@ -89,7 +92,7 @@ export default function Template({ data }: Props) {
               {data.image.date}
             </p>
           </li>
-          <li className={styles.item}>
+          <li className={styles.item(false)}>
             <span aria-hidden="true" className={styles.prefix}>
               <ArrowUpFromDot className={styles.icon} />
             </span>
@@ -100,7 +103,7 @@ export default function Template({ data }: Props) {
           </li>
           {data.image.exif && (
             <>
-              <li className={styles.item}>
+              <li className={styles.item(false)}>
                 <span aria-hidden="true" className={styles.prefix}>
                   <Camera className={styles.icon} />
                 </span>
@@ -109,7 +112,7 @@ export default function Template({ data }: Props) {
                   {data.image.exif.camera}
                 </p>
               </li>
-              <li className={styles.item}>
+              <li className={styles.item(false)}>
                 <span aria-hidden="true" className={styles.prefix}>
                   <LensConcave className={styles.icon} />
                 </span>
@@ -118,7 +121,7 @@ export default function Template({ data }: Props) {
                   {data.image.exif.focal} mm
                 </p>
               </li>
-              <li className={styles.item}>
+              <li className={styles.item(false)}>
                 <span aria-hidden="true" className={styles.prefix}>
                   <Aperture className={styles.icon} />
                 </span>
@@ -127,7 +130,7 @@ export default function Template({ data }: Props) {
                   {data.image.exif.fnumber}
                 </p>
               </li>
-              <li className={styles.item}>
+              <li className={styles.item(false)}>
                 <span aria-hidden="true" className={styles.prefix}>
                   <Zap className={styles.icon} />
                 </span>
@@ -136,7 +139,7 @@ export default function Template({ data }: Props) {
                   {data.image.exif.aperture}
                 </p>
               </li>
-              <li className={styles.item}>
+              <li className={styles.item(false)}>
                 <span aria-hidden="true" className={styles.prefix}>
                   <Fullscreen className={styles.icon} />
                 </span>
@@ -147,7 +150,7 @@ export default function Template({ data }: Props) {
               </li>
             </>
           )}
-          <li className={styles.item}>
+          <li className={styles.item(false)}>
             <span aria-hidden="true" className={styles.prefix}>
               <Pencil className={styles.icon} />
             </span>

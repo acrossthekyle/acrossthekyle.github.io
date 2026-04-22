@@ -35,12 +35,12 @@ export default function Library({ data, filterBy }: Props) {
       <ul className={styles.grid}>
         {data
           .filter(({ category, id }) => {
-            if (!!filterBy.category) {
-              return category === filterBy.category
+            if (!!filterBy?.category) {
+              return category === filterBy?.category
             }
 
-            if (!!filterBy.id) {
-              return id === filterBy.id
+            if (!!filterBy?.id) {
+              return id === filterBy?.id
             }
 
             return true;

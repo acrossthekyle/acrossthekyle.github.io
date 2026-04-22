@@ -7,7 +7,7 @@ import styles from './stylesheet';
 export default function Template() {
   return (
     <div className={styles.container}>
-      <h2 className={styles.header}>
+      <h2 className={styles.header} id="dialog-header">
         Backstory
         <span className={styles.subheader}>
           A collection of trails and destinations

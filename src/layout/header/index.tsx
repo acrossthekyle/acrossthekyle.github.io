@@ -11,26 +11,10 @@ type Props = {
 };
 
 export default function Header({ data, filterBy }: Props) {
-  const isFiltering = !!filterBy.id || !!filterBy.category;
-  const album = data.find(({ category, id }) => {
-    if (!!filterBy.category) {
-      return category === filterBy.category;
-    }
-
-    if (!!filterBy.id) {
-      return id === filterBy.id;
-    }
-
-    return false;
-  });
-
-  const hasFilter = true; // album && isFiltering;
-  const label = '384 images'; // hasFilter ? (!!filterBy.category ? album.category : album.title) : '';
-
   return (
-    <header className={styles.container(hasFilter)}>
+    <header className={styles.container}>
       <Anchor />
-      {hasFilter && <Filter label={label} />}
+      <Filter data={data} filterBy={filterBy} />
       <Controls data={data} />
     </header>
   );

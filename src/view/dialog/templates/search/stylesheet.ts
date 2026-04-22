@@ -5,13 +5,16 @@ const styles = tw({
     relative z-999
     flex flex-col gap-6
     w-full max-w-lg
-    h-full
+    h-auto
     my-0 mx-auto
-    p-6
+    p-6 mb-12
     rounded-md
     cursor-auto
     pointer-events-auto
     text-sm
+
+    sm:mb-0
+    lg:h-full
   `,
   header: `
     text-base
@@ -31,6 +34,7 @@ const styles = tw({
     text-tiny
     py-1 px-2
     rounded-md
+    capitalize
 
     motion-safe:duration-300
     motion-safe:opacity-50
@@ -42,21 +46,37 @@ const styles = tw({
   form: `
     relative
   `,
+  label: `
+    cursor-pointer
+  `,
   placeholder: `
     absolute top-2.25 left-2
     w-4 h-4
     opacity-50
   `,
   input: `
+    peer
     w-full
     p-2 pl-8
-    border-1
+    border-1 border-current/25
+    rounded-sm
     text-xs
-    outline-0
+  `,
+  clear: `
+    absolute top-0.25 right-0
+    px-2 py-2
+    text-xs
+    font-medium
+    hidden
 
+    peer-focus:block
+
+    motion-safe:opacity-50
     motion-safe:duration-300
-    motion-safe:border-current/50
-    motion-safe:focus:border-current/100
+    motion-safe:hover:opacity-100
+  `,
+  x: `
+    w-4 h-4
   `,
   results: `
     flex flex-col gap-4

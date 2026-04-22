@@ -3,9 +3,12 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     fixed bottom-0 left-0 z-9999
-    flex items-center justify-between
+    flex flex-col items-center justify-between gap-2
     w-full
     pb-2 px-6
+
+    sm:flex-row
+    sm:gap-0
   `,
   controls: `
     flex items-center gap-4
