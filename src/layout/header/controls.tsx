@@ -14,10 +14,10 @@ type Props = {
 
 export default function Controls({ data }: Props) {
   const { onOpen } = useDialog();
-  const { current, onChange } = useView();
+  const { view, onView } = useView();
 
-  const handleOnChange = (view: string) => {
-    onChange(view);
+  const handleOnChange = (value: string) => {
+    onView(value);
 
     setTimeout(() => {
       window.scrollTo(0, 0);
@@ -37,7 +37,7 @@ export default function Controls({ data }: Props) {
     <section aria-label="display controls" className={styles.controls}>
       <div className={styles.group}>
         <button
-          className={`${styles.button(current === 'albums')} ${styles.first}`}
+          className={`${styles.button(view === 'albums')} ${styles.first}`}
           onClick={() => handleOnChange('albums')}
           type="button"
         >
@@ -45,7 +45,7 @@ export default function Controls({ data }: Props) {
           Albums
         </button>
         <button
-          className={styles.button(current === 'library')}
+          className={styles.button(view === 'library')}
           onClick={() => handleOnChange('library')}
           type="button"
         >

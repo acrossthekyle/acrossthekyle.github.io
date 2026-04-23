@@ -1,36 +1,18 @@
 import tw from '@/styles';
 
 const styles = tw({
-  mountable: (isActive: boolean) => {
-    if (isActive) {
-      return tw(`
-        absolute z-1
-        w-full
-        translate-x-0
-        translate-y-0
-
-        motion-safe:[animation:slide-up-fade_.5s_var(--ease-in-out)_0s_forwards]
-      `);
-    }
-
-    return tw(`
-      absolute z-0
-      -translate-x-full
-      -translate-y-full
-
-      motion-safe:opacity-0
-      motion-safe:[transition:opacity_.3s_var(--ease-in-out),translate_0s_linear_.3s]
-    `);
-  },
   grid: `
     relative z-0
-    grid grid-cols-1 gap-6
+    grid grid-cols-1 gap-3
     w-full
-    mt-6 pb-14 px-6
+    mt-6 pb-14 px-2
 
     xs:grid-cols-2
+    xs:mt-12
     md:grid-cols-3
-    lg:mt-18
+    md:gap-6
+    md:px-6
+    md:mt-18
     lg:px-10
     lg:grid-cols-4
   `,
@@ -55,16 +37,17 @@ const styles = tw({
     h-auto w-full
   `,
   image: `
-    aspect-14/16
+    aspect-12/16
     rounded-lg
     grayscale contrast-125
 
     motion-safe:duration-700
     motion-safe:opacity-0
     motion-safe:animate-fade-in
-    motion-safe:group-hover:scale-105
     motion-safe:group-hover:grayscale-0
     motion-safe:group-hover:contrast-100
+
+    md:motion-safe:group-hover:scale-105
   `,
   caption: `
     mt-3
@@ -74,9 +57,6 @@ const styles = tw({
   faded: `
     block
     opacity-40
-  `,
-  dialog: `
-    p-20
   `,
 });
 

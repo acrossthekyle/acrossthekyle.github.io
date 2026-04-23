@@ -18,8 +18,8 @@ import Link from 'next/link';
 
 import { useDialog } from '@/hooks/useDialog';
 import type { Album, Data } from '@/types';
+import { Ui } from '@/ui';
 
-import { Image } from '../../../ui/image';
 import styles from '../stylesheet';
 
 type Props = {
@@ -39,7 +39,7 @@ export default function Template({ data }: Props) {
   return (
     <figure className={styles.container}>
       <div className={styles.wrapper}>
-        <Image
+        <Ui.Images.Image
           className={styles.image}
           size="large"
           src={data.image.src}
@@ -98,7 +98,7 @@ export default function Template({ data }: Props) {
             </span>
             <p>
               <span className={styles.faded}>Elevation</span>
-              2,323 ft
+              2,323 ft {/* todo */}
             </p>
           </li>
           {data.image.exif && (
@@ -156,7 +156,7 @@ export default function Template({ data }: Props) {
             </span>
             <p>
               <span className={styles.faded}>Notes</span>
-              Summit of Croda del Becco (highest point of the AV1) with Lago de Brias seen below on first day before reaching Rifugio Biella
+              Summit of Croda del Becco (highest point of the AV1) with Lago de Brias seen below on first day before reaching Rifugio Biella {/* todo */}
             </p>
           </li>
         </ul>

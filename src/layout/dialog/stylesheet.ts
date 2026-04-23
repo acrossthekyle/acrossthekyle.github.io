@@ -12,32 +12,32 @@ const styles = tw({
     overflow-y-scroll
     scroll-smooth
     cursor-pointer
-    p-0
+    py-10 px-5
 
-    backdrop:bg-(--background)
-    backdrop:backdrop-blur-2xl
+    backdrop:bg-(--background)/97.5
     backdrop:outline-none
 
     motion-safe:duration-300
     motion-safe:opacity-0
     motion-safe:backdrop:opacity-0
     motion-safe:backdrop:duration-300
-
-    md:p-20
   `,
   close: `
+    hidden
     relative z-1
     w-full
+    mt-1
     flex justify-center
     pointer-events-none
 
     md:absolute
     md:top-5
     md:left-0
+    md:mt-0
   `,
   button: `
     flex items-center gap-2
-    w-18
+    w-12
     p-2
     rounded-md
     font-sans font-medium
@@ -45,9 +45,18 @@ const styles = tw({
     capitalize
     rounded-sm
     pointer-events-auto
+
+    md:w-18
+
+    md:motion-safe:opacity-50
+    md:motion-safe:duration-300
+    md:motion-safe:hover:opacity-100
   `,
-  x: `
+  icon: `
+    hidden
     w-3 h-3
+
+    md:block
   `,
 });
 

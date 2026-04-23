@@ -1,6 +1,6 @@
 import '../globals.css';
 
-import type { Metadata, Viewport } from 'next';
+import type { Metadata } from 'next';
 import { cookies } from 'next/headers';
 import { Suspense } from 'react';
 
@@ -23,10 +23,6 @@ export const metadata: Metadata = {
     ],
   },
 };
-
-export const viewport: Viewport = {
-  themeColor: '#0c0c0c',
-}
 
 export default async function RootLayout({ children }: React.PropsWithChildren) {
   const cookieStore = await cookies();

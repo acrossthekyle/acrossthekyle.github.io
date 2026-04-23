@@ -1,8 +1,7 @@
-import { Layout } from '@/layout';
+import { Dialog, Layout } from '@/layout';
 import type { Album, FilterBy } from '@/types';
 
 import Albums from './albums';
-import Dialog from './dialog';
 import Library from './library';
 
 type Props = {

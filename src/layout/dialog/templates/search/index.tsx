@@ -19,7 +19,7 @@ type Props = {
 
 export default function Template({ data }: Props) {
   const { onClose } = useDialog();
-  const { onChange } = useView();
+  const { onView } = useView();
 
   const [query, setQuery] = useState('');
 
@@ -51,7 +51,7 @@ export default function Template({ data }: Props) {
   const handleOnChoose = () => {
     onClose();
 
-    onChange('library');
+    onView('library');
   };
 
   const handleOnClear = () => {

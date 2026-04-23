@@ -3,23 +3,23 @@
 import { PropsWithChildren, createContext, useState, useCallback } from 'react';
 
 type ViewContextType = {
-  current: string;
-  onChange: (view: string) => void;
+  onView: (value: string) => void;
+  view: string;
 };
 
 export const ViewContext = createContext<ViewContextType | null>(null);
 
 export default function ViewProvider({ children }: PropsWithChildren) {
-  const [current, setCurrent] = useState('albums');
+  const [view, setView] = useState('albums');
 
-  const handleOnChange = useCallback((view: string) => {
-    setCurrent(view);
+  const handleOnChange = useCallback((value: string) => {
+    setView(value);
   }, []);
 
   return (
     <ViewContext.Provider value={{
-      current,
-      onChange: handleOnChange,
+      onView: handleOnChange,
+      view,
     }}>
       {children}
     </ViewContext.Provider>

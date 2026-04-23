@@ -23,7 +23,7 @@ export default function Container({
         alt={alt}
         className={className}
         height={432}
-        sizes={`(max-width: 768px) 32vw, ${size === 'large' ? '80vw' : '28vw'}`}
+        sizes={`(max-width: 768px) 80vw, ${size === 'large' ? '80vw' : '28vw'}`}
         src={src}
         width={768}
       />

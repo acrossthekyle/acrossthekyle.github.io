@@ -6,8 +6,7 @@ import { InView } from 'react-intersection-observer';
 import { useDialog } from '@/hooks/useDialog';
 import { useView } from '@/hooks/useView';
 import type { Album, Data, FilterBy } from '@/types';
-
-import { Image } from '../ui/image';
+import { Ui } from '@/ui';
 
 import styles from './stylesheet';
 
@@ -18,7 +17,7 @@ type Props = {
 
 export default function Library({ data, filterBy }: Props) {
   const { onOpen } = useDialog();
-  const { current } = useView();
+  const { view } = useView();
 
   const handleOnClick = (item: Album, image: Data) => {
     onOpen({
@@ -31,7 +30,7 @@ export default function Library({ data, filterBy }: Props) {
   };
 
   return (
-    <div className={styles.mountable(current === 'library')}>
+    <Ui.Containers.Mountable isActive={view === 'library'}>
       <ul className={styles.grid}>
         {data
           .filter(({ category, id }) => {
@@ -69,7 +68,7 @@ export default function Library({ data, filterBy }: Props) {
                             onClick={() => handleOnClick(album, image)}
                             type="button"
                           >
-                            <Image
+                            <Ui.Images.Image
                               className={styles.image}
                               src={image.src}
                             />
@@ -87,6 +86,6 @@ export default function Library({ data, filterBy }: Props) {
             </Fragment>
         ))}
       </ul>
-    </div>
+    </Ui.Containers.Mountable>
   );
 }

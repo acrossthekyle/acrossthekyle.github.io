@@ -1,6 +1,6 @@
 'use client';
 
-import { Ruler, Scale } from 'lucide-react';
+import { Footprints, Stone } from 'lucide-react';
 
 import { setUnits } from '@/app/actions';
 import { useUnits } from '@/hooks/useUnits';
@@ -12,10 +12,10 @@ type Props = {
 };
 
 export default function Units({ current }: Props) {
-  const { onChange } = useUnits();
+  const { onUnits } = useUnits();
 
   const handleOnChange = (value: string) => {
-    onChange(value);
+    onUnits(value);
 
     setUnits(value);
   };
@@ -25,16 +25,18 @@ export default function Units({ current }: Props) {
       <button
         className={styles.button(current === 'imperial')}
         onClick={() => handleOnChange('imperial')}
+        title="Imperial units"
         type="button"
       >
-        <Ruler className={styles.icon} /> Imperial
+        <Footprints className={styles.icon} />
       </button>
       <button
         className={styles.button(current === 'metric')}
         onClick={() => handleOnChange('metric')}
+        title="Metric units"
         type="button"
       >
-        <Scale className={styles.icon} /> Metric
+        <Stone className={styles.icon} />
       </button>
     </section>
   );

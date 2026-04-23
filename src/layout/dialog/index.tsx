@@ -26,6 +26,16 @@ export default function Dialog() {
       ref={dialog}
       onKeyDown={onCancel}
     >
+      <div className={styles.close}>
+        <button
+          aria-label="close dialog"
+          className={styles.button}
+          onClick={onClose}
+          type="button"
+        >
+          <X className={styles.icon} /> Close
+        </button>
+      </div>
       {data.template === 'album' && (
         <Album data={data.data} />
       )}
@@ -38,16 +48,6 @@ export default function Dialog() {
       {data.template === 'search' && (
         <Search data={data.data} />
       )}
-      <div className={styles.close}>
-        <button
-          aria-label="close dialog"
-          className={styles.button}
-          onClick={onClose}
-          type="button"
-        >
-          <X className={styles.icon} /> Close
-        </button>
-      </div>
     </dialog>
   );
 }

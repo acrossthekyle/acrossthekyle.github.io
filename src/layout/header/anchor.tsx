@@ -1,6 +1,6 @@
 'use client';
 
-import { Baseline } from 'lucide-react';
+import { SpellCheck2 } from 'lucide-react';
 
 import { useDialog } from '@/hooks/useDialog';
 
@@ -22,7 +22,7 @@ export default function Anchor() {
         onClick={handleOnClick}
         type="button"
       >
-        <Baseline className={styles.icon} /> Backstory
+        <SpellCheck2 className={styles.icon} /> Backstory
       </button>
     </section>
   );

@@ -5,8 +5,7 @@ import dynamic from 'next/dynamic';
 import { useDialog } from '@/hooks/useDialog';
 import { useView } from '@/hooks/useView';
 import type { Album } from '@/types';
-
-import styles from './stylesheet';
+import { Ui } from '@/ui';
 
 type Props = {
   data: Album[];
@@ -18,7 +17,7 @@ const Plugin = dynamic(() => import('./swiper'), {
 
 export default function Albums({ data }: Props) {
   const { onOpen } = useDialog();
-  const { current } = useView();
+  const { view } = useView();
 
   const handleOnClick = (album: Album) => {
     onOpen({
@@ -30,8 +29,8 @@ export default function Albums({ data }: Props) {
   };
 
   return (
-    <div className={styles.mountable(current === 'albums')}>
+    <Ui.Containers.Mountable isActive={view === 'albums'}>
       <Plugin data={data} onClick={handleOnClick} />
-    </div>
+    </Ui.Containers.Mountable>
   );
 }

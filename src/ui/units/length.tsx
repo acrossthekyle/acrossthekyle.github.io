@@ -11,11 +11,11 @@ type Props = {
 };
 
 export default function Length({ isSmall, value }: Props) {
-  const { current, labels } = useUnits();
+  const { labels, units } = useUnits();
 
   return (
     <>
-      {value[current as keyof typeof value]} {isSmall ? labels.length.micro : labels.length.macro}
+      {value[units as keyof typeof value]} {isSmall ? labels.length.micro : labels.length.macro}
     </>
   );
 }

@@ -2,20 +2,22 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    fixed top-0 left-0 z-9999
+    fixed top-0 left-0 z-999
     flex flex-col items-center gap-0
     w-full
-    px-12
-    mt-2
+    px-3
+    mt-1
 
-    lg:grid
-    lg:grid-cols-3
-    lg:gap-0
+    xs:grid
+    xs:grid-cols-2
+    xs:gap-0
+    md:mt-2
+    md:px-12
   `,
   anchor: `
     order-0
     flex items-center justify-start
-    mb-2
+    mb-1.25
 
     motion-safe:opacity-0
     motion-safe:animate-fade-in-delayed
@@ -25,13 +27,14 @@ const styles = tw({
   controls: `
     order-1
     flex items-center justify-center
-    mb-2
+    mb-1 -mt-0.25
 
     motion-safe:opacity-0
     motion-safe:animate-fade-in-delayed
 
+    xs:justify-end
+    md:mr-0
     lg:order-2
-    lg:justify-end
     lg:mb-0
   `,
   group: `

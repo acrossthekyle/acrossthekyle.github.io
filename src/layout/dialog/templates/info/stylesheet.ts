@@ -2,23 +2,20 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    relative z-999
-    flex flex-col gap-6
-    w-auto max-w-lg
-    h-auto
+    relative z-1
+    flex flex-col justify-center gap-6
+    w-full max-w-lg
+    h-full
     my-0 mx-auto
-    p-6 mb-12
-    rounded-md
     cursor-auto
     pointer-events-auto
     text-sm
-
-    sm:mb-0
-    lg:h-full
   `,
   header: `
-    text-base
+    text-xl
     font-medium
+
+    lg:text-base
   `,
   subheader: `
     block

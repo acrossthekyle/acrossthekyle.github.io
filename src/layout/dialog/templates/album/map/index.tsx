@@ -15,6 +15,7 @@ export default function Container({ position }: Props) {
     <div className={styles.container} role="presentation">
       <Image
         alt=""
+        className={styles.image}
         height={432}
         quality={10}
         sizes="30vw"

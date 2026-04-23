@@ -1,4 +1,4 @@
-import { Baseline } from 'lucide-react';
+import { SpellCheck2 } from 'lucide-react';
 import { ImageResponse } from 'next/og';
 
 export const runtime = 'edge';
@@ -27,7 +27,7 @@ export default function Icon() {
           color: 'white',
         }}
       >
-        <Baseline size={18} />
+        <SpellCheck2 size={18} />
       </div>
     ),
     {

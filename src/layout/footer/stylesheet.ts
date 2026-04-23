@@ -2,18 +2,18 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    fixed bottom-0 left-0 z-9999
-    flex flex-col items-center justify-between gap-2
+    fixed bottom-0 left-0 z-999
+    flex flex-row items-center justify-between gap-0
     w-full
-    pb-2 px-6
+    pb-1 px-3
 
-    sm:flex-row
-    sm:gap-0
+    xs:gap-2
+    md:px-12
+    md:pb-2
   `,
   controls: `
-    flex items-center gap-4
+    flex gap-4
     p-2 px-4
-    mx-6
     rounded-sm
     bg-(--background)
 
@@ -23,8 +23,10 @@ const styles = tw({
   button: (isActive: boolean) => tw(`
     flex items-center gap-2
     font-sans font-medium
-    text-xs
+    text-sm
     capitalize
+
+    md:text-xs
 
     motion-safe:duration-300
     motion-safe:hover:opacity-100

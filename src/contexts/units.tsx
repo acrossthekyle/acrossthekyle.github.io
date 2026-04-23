@@ -3,7 +3,7 @@
 import { PropsWithChildren, createContext, useState, useCallback } from 'react';
 
 type UnitsContextType = {
-  current: string;
+  units: string;
   labels: {
     length: {
       macro: string;
@@ -14,7 +14,7 @@ type UnitsContextType = {
       micro: string;
     };
   };
-  onChange: (data: string) => void;
+  onUnits: (data: string) => void;
 };
 
 export const UnitsContext = createContext<UnitsContextType | null>(null);
@@ -35,7 +35,6 @@ export default function UnitsProvider({
 
   return (
     <UnitsContext.Provider value={{
-      current: value,
       labels: {
         length: {
           macro: value === 'imperial' ? 'miles' : 'kilometers',
@@ -46,7 +45,8 @@ export default function UnitsProvider({
           micro: value === 'imperial' ? 'oz' : 'g',
         },
       },
-      onChange: handleOnChange,
+      onUnits: handleOnChange,
+      units: value,
     }}>
       {children}
     </UnitsContext.Provider>

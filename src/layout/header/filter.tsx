@@ -41,7 +41,7 @@ function getMetaData(data: Album[], filterBy?: FilterBy) {
 export default function Filter({ data, filterBy }: Props) {
   const router = useRouter();
 
-  const { current } = useView();
+  const { view } = useView();
 
   const handleOnReset = () => {
     router.push('/');
@@ -50,7 +50,7 @@ export default function Filter({ data, filterBy }: Props) {
   const isFiltering = !!filterBy?.id || !!filterBy?.category;
 
   if (!isFiltering) {
-    return <div />;
+    return null;
   }
 
   const meta = getMetaData(data, filterBy);
@@ -58,7 +58,7 @@ export default function Filter({ data, filterBy }: Props) {
   return (
     <section
       aria-label="reset filter controls"
-      className={styles.filter(current === 'library')}
+      className={styles.filter(view === 'library')}
     >
       <button
         className={`${styles.button(true)} ${styles.only}`}

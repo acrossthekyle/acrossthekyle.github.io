@@ -7,14 +7,11 @@ const styles = tw({
     w-full max-w-lg
     h-auto
     my-0 mx-auto
-    p-6 mb-12
+    p-6
     rounded-md
     cursor-auto
     pointer-events-auto
     text-sm
-
-    sm:mb-0
-    lg:h-full
   `,
   header: `
     text-base
@@ -31,10 +28,12 @@ const styles = tw({
   `,
   category: `
     flex items-center gap-2
-    text-tiny
+    text-sm
     py-1 px-2
     rounded-md
     capitalize
+
+    md:text-tiny
 
     motion-safe:duration-300
     motion-safe:opacity-50
@@ -50,9 +49,11 @@ const styles = tw({
     cursor-pointer
   `,
   placeholder: `
-    absolute top-2.25 left-2
+    absolute top-3.25 left-2
     w-4 h-4
     opacity-50
+
+    md:top-2.25
   `,
   input: `
     peer
@@ -60,14 +61,18 @@ const styles = tw({
     p-2 pl-8
     border-1 border-current/25
     rounded-sm
-    text-xs
+    text-base
+
+    md:text-xs
   `,
   clear: `
-    absolute top-0.25 right-0
+    absolute top-1.25 right-0
     px-2 py-2
     text-xs
     font-medium
     hidden
+
+    md:top-0.25
 
     peer-focus:block
 

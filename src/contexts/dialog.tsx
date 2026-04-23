@@ -28,7 +28,7 @@ type DialogContextType = {
   onBackdrop: (event: MouseEvent<HTMLDialogElement>) => void;
   onCancel: (event: KeyboardEvent<HTMLDialogElement>) => void;
   onClose: () => void;
-  onOpen: (input: Input, onReady?: () => void) => void;
+  onOpen: (input: Input) => void;
   isOpen: boolean;
 };
 
@@ -43,12 +43,10 @@ export default function DialogProvider({ children }: PropsWithChildren) {
 
   const dialog = useRef<HTMLDialogElement | null>(null);
 
-  const handleOnOpen = useCallback((input: Input, onReady?: () => void) => {
+  const handleOnOpen = useCallback((input: Input) => {
     setData(input);
 
     dialog.current?.showModal();
-
-    onReady?.();
 
     requestAnimationFrame(() => setIsOpen(true));
   }, []);
@@ -61,6 +59,7 @@ export default function DialogProvider({ children }: PropsWithChildren) {
 
       dialog.current?.removeEventListener('transitionend', handleTransitionEnd);
     };
+
     dialog.current?.addEventListener('transitionend', handleTransitionEnd);
   }, []);
 

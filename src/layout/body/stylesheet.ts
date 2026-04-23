@@ -12,6 +12,15 @@ const styles = tw({
 
     motion-safe:duration-300
   `,
+  background: `
+    hidden
+    glow
+    fixed inset-0 z-0
+    h-full w-full
+    pointer-events-none
+
+    lg:block
+  `,
 });
 
 export default styles;
