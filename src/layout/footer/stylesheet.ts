@@ -11,15 +11,15 @@ const styles = tw({
     md:px-12
     md:pb-2
   `,
-  controls: `
+  controls: (shouldDelay: boolean) => tw(`
     flex gap-4
     p-2 px-4
     rounded-sm
     bg-(--background)
 
     motion-safe:opacity-0
-    motion-safe:animate-fade-in-delayed
-  `,
+    ${shouldDelay ? 'motion-safe:animate-fade-in-delayed' : 'motion-safe:animate-fade-in'}
+  `),
   button: (isActive: boolean) => tw(`
     flex items-center gap-2
     font-sans font-medium

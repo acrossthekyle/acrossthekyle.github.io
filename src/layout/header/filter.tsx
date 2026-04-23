@@ -10,12 +10,13 @@ import styles from './stylesheet';
 
 type Props = {
   data: Album[];
-  filterBy?: FilterBy;
+  filterBy: FilterBy;
+  isFiltering: boolean;
 };
 
-function getMetaData(data: Album[], filterBy?: FilterBy) {
-  if (!!filterBy?.category) {
-    const filtered = data.filter(({ category }) => category.toLowerCase() === filterBy?.category?.toLowerCase());
+function getMetaData(data: Album[], filterBy: FilterBy) {
+  if (!!filterBy.category) {
+    const filtered = data.filter(({ category }) => category.toLowerCase() === filterBy.category?.toLowerCase());
 
     return {
       count: filtered.reduce((sum, album) => sum + album.images.length, 0),
@@ -23,8 +24,8 @@ function getMetaData(data: Album[], filterBy?: FilterBy) {
     };
   }
 
-  if (!!filterBy?.id) {
-    const filtered = data.find(({ id }) => id === filterBy?.id);
+  if (!!filterBy.id) {
+    const filtered = data.find(({ id }) => id === filterBy.id);
 
     return {
       count: filtered?.images.length || 0,
@@ -38,7 +39,7 @@ function getMetaData(data: Album[], filterBy?: FilterBy) {
   };
 }
 
-export default function Filter({ data, filterBy }: Props) {
+export default function Filter({ data, filterBy, isFiltering }: Props) {
   const router = useRouter();
 
   const { view } = useView();
@@ -46,8 +47,6 @@ export default function Filter({ data, filterBy }: Props) {
   const handleOnReset = () => {
     router.push('/');
   };
-
-  const isFiltering = !!filterBy?.id || !!filterBy?.category;
 
   if (!isFiltering) {
     return null;

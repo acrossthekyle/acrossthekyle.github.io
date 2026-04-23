@@ -30,7 +30,7 @@ const styles = tw({
     motion-safe:transition-all
     motion-safe:group-hover:grayscale-0
     motion-safe:group-hover:contrast-100
-    motion-safe:group-hover:scale-108
+    motion-safe:group-hover:scale-105
   `,
 });
 

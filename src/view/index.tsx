@@ -6,7 +6,7 @@ import Library from './library';
 
 type Props = {
   data: Album[];
-  filterBy?: FilterBy;
+  filterBy: FilterBy;
 };
 
 export default function View({ data, filterBy }: Props) {

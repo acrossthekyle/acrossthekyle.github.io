@@ -1,7 +1,5 @@
 'use client';
 
-import { X } from 'lucide-react';
-
 import { useDialog } from '@/hooks/useDialog';
 
 import styles from './stylesheet';
@@ -14,7 +12,6 @@ export default function Dialog() {
     isOpen,
     onBackdrop,
     onCancel,
-    onClose,
   } = useDialog();
 
   return (
@@ -26,16 +23,6 @@ export default function Dialog() {
       ref={dialog}
       onKeyDown={onCancel}
     >
-      <div className={styles.close}>
-        <button
-          aria-label="close dialog"
-          className={styles.button}
-          onClick={onClose}
-          type="button"
-        >
-          <X className={styles.icon} /> Close
-        </button>
-      </div>
       {data.template === 'album' && (
         <Album data={data.data} />
       )}

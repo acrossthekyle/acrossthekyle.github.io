@@ -7,11 +7,13 @@ const styles = tw({
     w-full max-w-lg
     h-auto
     my-0 mx-auto
-    p-6
+    p-0
     rounded-md
     cursor-auto
     pointer-events-auto
     text-sm
+
+    lg:p-6
   `,
   header: `
     text-base
@@ -117,6 +119,13 @@ const styles = tw({
   faded: `
     block
     opacity-20
+  `,
+  close: `
+    absolute -top-1.25 -right-2 z-1
+    p-2
+
+    lg:top-5
+    lg:right-3.75
   `,
 });
 

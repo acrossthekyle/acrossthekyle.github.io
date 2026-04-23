@@ -33,8 +33,6 @@ const styles = tw({
     font-sans font-medium
     rounded-lg
     text-sm
-    cursor-auto
-    pointer-events-auto
     bg-(--background)/95
 
     ${isRenderingDetails ? `
@@ -61,18 +59,23 @@ const styles = tw({
   `),
   inner: `
     relative
+    flex flex-col justify-end
     w-full max-w-133
-    px-4 pt-2
+    px-4 pt-2 pb-6
 
     lg:h-137
   `,
   header: `
-    mb-3
+    pb-3
+    cursor-auto
+    pointer-events-auto
 
-    lg:mb-4
+    lg:pb-4
   `,
   items: `
     flex flex-col gap-3
+    cursor-auto
+    pointer-events-auto
 
     lg:gap-4
   `,
@@ -83,6 +86,8 @@ const styles = tw({
       absolute inset-0 -top-2 z-100
       p-4
       bg-(--background)
+
+      lg:bg-transparent
     `}
   `),
   prefix: `
@@ -121,11 +126,13 @@ const styles = tw({
     capitalize
   `,
   clamp: `
-    line-clamp-4
+    line-clamp-3
+
+    lg:line-clamp-4
   `,
   more: `
     relative z-1
-    mt-1
+    pt-1 pb-2
 
     motion-safe:opacity-50
     motion-safe:duration-300
@@ -143,7 +150,6 @@ const styles = tw({
 
     lg:invisible
     lg:motion-safe:opacity-0
-    lg:bottom-6
   `,
   toggle: `
     flex items-center gap-2

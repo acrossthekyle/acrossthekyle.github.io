@@ -1,29 +1,42 @@
 'use client';
 
+import { X } from 'lucide-react';
+
+import { useDialog } from '@/hooks/useDialog';
 import { Ui } from '@/ui';
 
 import styles from './stylesheet';
 
 export default function Template() {
+  const { onClose } = useDialog();
+
   return (
-    <div className={styles.container}>
+    <article className={styles.container}>
       <h2 className={styles.header} id="dialog-header">
-        Backstory
+        Kyle
         <span className={styles.subheader}>
-          A collection of trails and destinations
+          A collection of hikes, summits, and experiences
         </span>
       </h2>
+      <button
+        aria-label="close"
+        className={styles.close}
+        onClick={onClose}
+        type="button"
+      >
+        <X className={styles.icon} />
+      </button>
       <p>
-        Hi, I'm Kyle. My interest in hiking dirt paths, climbing alpine peaks, and a curiosity to explore was born from a 2016 trek in the South American Andes mountains of Chile, and further cemented by a 600-mile thru-hike across Northern Spain in 2018 on a network of trails called The Camino de Santiago.
+        My interest in dirt paths, alpine peaks, and a curiosity to explore was born from a 2016 trek in the South American Andes mountains of Chile, and further cemented by a 600-mile thru-hike across Northern Spain in 2018 on a network of trails called The Camino de Santiago.
       </p>
       <p>
-        Ever since then I've thru-hiked dozens of trails, and reached altitudes I'd never thought I'd do, all by foot.
+        Ever since then I've thru-hiked dozens of trails, and been to heights I never thought I'd reach, all by foot.
       </p>
       <p>
-        Those experiences from trails, mountain tops, walking city streets, and exploring ancient monuments were captured by the camera bump on the back of my phone.
+        Those experiences from trails, mountain tops, walking city streets, and exploring ancient monuments are captured by the camera bump on the back of my phone.
       </p>
       <p>
-        Between adventures I indulge in things that fuel imagination and critical thinking, anything from books, videos, podcasts, and films with my partner, while enjoying long walks and relaxing in a hammock with our dog Dax, as we live a city-based life in Chicago on lands belonging to the Potawatomi, Ojibwe, and Odawa.
+        Between adventures my partner and I indulge in things that fuel imagination and critical thinking; from books, videos, and podcasts, to films and more, all while enjoying long walks and relaxing in a hammock with our dog Dax, as we live a city-based life in Chicago on lands belonging to the Potawatomi, Ojibwe, and Odawa.
       </p>
       <p>
         I'm also an avid software developer who loves building web applications with an approach rooted in a genuine thrill for writing code, even after a career of {new Date().getFullYear() - 2012} years.
@@ -41,6 +54,7 @@ export default function Template() {
           <span className={styles.signature}>Kyle G.</span>
         </figcaption>
       </figure>
-    </div>
+      <div className={styles.spacer} />
+    </article>
   );
 }

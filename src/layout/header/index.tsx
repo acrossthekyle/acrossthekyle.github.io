@@ -7,15 +7,16 @@ import styles from './stylesheet';
 
 type Props = {
   data: Album[];
-  filterBy?: FilterBy;
+  filterBy: FilterBy;
+  isFiltering: boolean;
 };
 
-export default function Header({ data, filterBy }: Props) {
+export default function Header({ data, filterBy, isFiltering }: Props) {
   return (
     <header className={styles.container}>
-      <Anchor />
-      <Filter data={data} filterBy={filterBy} />
-      <Controls data={data} />
+      <Anchor isFiltering={isFiltering} />
+      <Filter data={data} filterBy={filterBy} isFiltering={isFiltering} />
+      <Controls data={data} isFiltering={isFiltering} />
     </header>
   );
 }

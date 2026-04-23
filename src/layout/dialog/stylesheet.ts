@@ -12,7 +12,7 @@ const styles = tw({
     overflow-y-scroll
     scroll-smooth
     cursor-pointer
-    py-10 px-5
+    py-4 px-5
 
     backdrop:bg-(--background)/97.5
     backdrop:outline-none
@@ -21,6 +21,8 @@ const styles = tw({
     motion-safe:opacity-0
     motion-safe:backdrop:opacity-0
     motion-safe:backdrop:duration-300
+
+    sm:py-10
   `,
   close: `
     hidden

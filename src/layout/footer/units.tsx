@@ -21,7 +21,7 @@ export default function Units({ current }: Props) {
   };
 
   return (
-    <section aria-label="theme controls" className={styles.controls}>
+    <>
       <button
         className={styles.button(current === 'imperial')}
         onClick={() => handleOnChange('imperial')}
@@ -38,6 +38,6 @@ export default function Units({ current }: Props) {
       >
         <Stone className={styles.icon} />
       </button>
-    </section>
+    </>
   );
 }

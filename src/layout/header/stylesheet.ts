@@ -14,42 +14,46 @@ const styles = tw({
     md:mt-2
     md:px-12
   `,
-  anchor: `
-    order-0
+  anchor: (shouldDelay: boolean) => tw(`
     flex items-center justify-start
     mb-1.25
 
     motion-safe:opacity-0
-    motion-safe:animate-fade-in-delayed
+    ${shouldDelay ? 'motion-safe:animate-fade-in-delayed' : 'motion-safe:animate-fade-in'}
 
     lg:mb-0
-  `,
-  controls: `
-    order-1
+  `),
+  controls: (shouldDelay: boolean) => tw(`
     flex items-center justify-center
     mb-1 -mt-0.25
 
     motion-safe:opacity-0
-    motion-safe:animate-fade-in-delayed
+    ${shouldDelay ? 'motion-safe:animate-fade-in-delayed' : 'motion-safe:animate-fade-in'}
 
     xs:justify-end
     md:mr-0
-    lg:order-2
     lg:mb-0
-  `,
+  `),
   group: `
     flex items-center justify-end gap-0
     rounded-sm
     bg-(--background)
   `,
   filter: (canRender: boolean) => tw(`
-    order-2
-    flex items-center
-    duration-300
+    fixed top-19 left-0 right-0 z-9999
+    flex justify-center items-center
 
-    ${canRender ? 'opacity-100' : 'opacity-0'}
+    motion-safe:duration-300
+    ${canRender ? 'motion-safe:opacity-100' : 'motion-safe:opacity-0'}
 
-    lg:order-1
+    xs:top-10
+    xs:justify-end
+    xs:right-3
+    md:right-12
+    md:top-12
+    lg:left-80
+    lg:right-80
+    lg:top-2
     lg:justify-center
   `),
   button: (isActive: boolean) => tw(`

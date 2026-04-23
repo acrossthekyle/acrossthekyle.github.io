@@ -12,7 +12,7 @@ type Props = {
 
 export default function Theme({ current }: Props) {
   return (
-    <section aria-label="theme controls" className={styles.controls}>
+    <>
       <button
         className={styles.button(current === 'auto')}
         onClick={() => setTheme('auto')}
@@ -37,6 +37,6 @@ export default function Theme({ current }: Props) {
       >
         <Moon className={styles.icon} />
       </button>
-    </section>
+    </>
   );
 }

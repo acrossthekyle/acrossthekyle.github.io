@@ -3,13 +3,15 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     relative z-1
-    flex flex-col justify-center gap-6
+    flex flex-col gap-6
     w-full max-w-lg
     h-full
     my-0 mx-auto
     cursor-auto
     pointer-events-auto
     text-sm
+
+    lg:justify-center
   `,
   header: `
     text-xl
@@ -46,6 +48,21 @@ const styles = tw({
   signature: `
     font-signature
     text-xs
+  `,
+  spacer: `
+    block
+    pb-6 w-full
+
+    lg:pb-0
+  `,
+  close: `
+    absolute -top-1.25 right-0 z-1
+    p-2
+
+    lg:top-18
+  `,
+  icon: `
+    w-4 h-4
   `,
 });
 

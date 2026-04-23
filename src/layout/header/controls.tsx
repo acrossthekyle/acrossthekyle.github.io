@@ -1,6 +1,7 @@
 'use client';
 
 import { GripHorizontal, LensConcave, TextCursorInput } from 'lucide-react';
+import { useEffect } from 'react';
 
 import { useDialog } from '@/hooks/useDialog';
 import { useView } from '@/hooks/useView';
@@ -10,11 +11,19 @@ import styles from './stylesheet';
 
 type Props = {
   data: Album[];
+  isFiltering: boolean;
 };
 
-export default function Controls({ data }: Props) {
+export default function Controls({ data, isFiltering }: Props) {
   const { onOpen } = useDialog();
   const { view, onView } = useView();
+
+  useEffect(() => {
+    if (isFiltering) {
+      onView('library');
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   const handleOnChange = (value: string) => {
     onView(value);
@@ -34,7 +43,10 @@ export default function Controls({ data }: Props) {
   };
 
   return (
-    <section aria-label="display controls" className={styles.controls}>
+    <section
+      aria-label="display controls"
+      className={styles.controls(!isFiltering)}
+    >
       <div className={styles.group}>
         <button
           className={`${styles.button(view === 'albums')} ${styles.first}`}

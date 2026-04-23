@@ -68,6 +68,14 @@ export default function Template({ data }: Props) {
           Search by name or location, or choose a category
         </span>
       </h2>
+      <button
+        aria-label="close"
+        className={styles.close}
+        onClick={onClose}
+        type="button"
+      >
+        <X className={styles.x} />
+      </button>
       <ul className={styles.categories}>
         {categories.map((category) => (
           <li key={category}>

@@ -4,9 +4,9 @@ const styles = tw({
   container: `
     relative z-0
     !w-50
-    mt-1.5 ml-8 mr-2
+    ml-8 mr-2
 
-    lg:mt-4
+    lg:mt-2
     lg:!w-56
   `,
   marker: `

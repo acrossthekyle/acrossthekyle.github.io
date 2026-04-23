@@ -13,6 +13,7 @@ const styles = tw({
     md:gap-6
     md:px-6
     md:mt-18
+    lg:gap-4
     lg:px-10
     lg:grid-cols-4
   `,
@@ -47,12 +48,14 @@ const styles = tw({
     motion-safe:group-hover:grayscale-0
     motion-safe:group-hover:contrast-100
 
-    md:motion-safe:group-hover:scale-105
+    md:motion-safe:group-hover:scale-103
   `,
   caption: `
-    mt-3
+    mt-1
     font-sans font-medium
     text-xs
+
+    lg:mt-2
   `,
   faded: `
     block

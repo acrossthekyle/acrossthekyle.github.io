@@ -7,7 +7,7 @@ import { Suspense } from 'react';
 import DialogProvider from '@/contexts/dialog';
 import UnitsProvider from '@/contexts/units';
 import ViewProvider from '@/contexts/view';
-import { Body, Footer } from '@/layout';
+import { Body } from '@/layout';
 
 export const metadata: Metadata = {
   title: {
@@ -37,7 +37,6 @@ export default async function RootLayout({ children }: React.PropsWithChildren) 
             <UnitsProvider current={units}>
               <Body>
                 {children}
-                <Footer theme={theme} units={units} />
               </Body>
             </UnitsProvider>
           </ViewProvider>

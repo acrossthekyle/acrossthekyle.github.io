@@ -6,7 +6,11 @@ import { useDialog } from '@/hooks/useDialog';
 
 import styles from './stylesheet';
 
-export default function Anchor() {
+type Props ={
+  isFiltering: boolean;
+};
+
+export default function Anchor({ isFiltering }: Props) {
   const { onOpen } = useDialog();
 
   const handleOnClick = () => {
@@ -16,13 +20,13 @@ export default function Anchor() {
   };
 
   return (
-    <section className={styles.anchor}>
+    <section className={styles.anchor(!isFiltering)}>
       <button
         className={`${styles.button(true)} ${styles.only}`}
         onClick={handleOnClick}
         type="button"
       >
-        <SpellCheck2 className={styles.icon} /> Backstory
+        <SpellCheck2 className={styles.icon} /> Kyle
       </button>
     </section>
   );
