@@ -9,6 +9,9 @@
   "location": "Westville, Illinois, USA",
   "category": "backpacking",
   "coordinates": "40.007973° N, 87.571681° W",
+  "cover": [
+    "2026/03/14/1e1be596-c236-4cee-9eb2-fac89329e0e6.jpeg"
+  ],
   "tags": [
     "landscape",
     "trail",
@@ -16,12 +19,21 @@
     "weekend hike",
     "backpacking"
   ],
+  "position": [
+    "49.5%",
+    "19%"
+  ],
+  "notes": [
+    "The River Ridge Backpack Trail at Forest Glen Preserve in Westville, Illinois, is a relatively moderate 10 mile loop designed for beginner backpackers, featuring steep ravines, creek crossings, and ridge-top hiking. It is widely considered one of the few true backpacking experiences in Illinois. I completed it as an overnight trip spent at a primitive campsite."
+  ],
   "images": [
     {
       "src": "2026/03/14/8e8fd062-270f-4081-96c3-ee072a81caab.jpeg",
-      "title": "Blaze",
+      "title": "Over the fallen leaves",
       "location": "Forest Glen Preserve",
       "date": "03/15/2026",
+      "elevation": 629,
+      "notes": "",
       "exif": {
         "aperture": "2/2750",
         "camera": "iPhone 16 Pro",
@@ -32,24 +44,12 @@
       }
     },
     {
-      "src": "2026/03/14/0048f3c5-e902-4713-8745-5562d51566a7.jpeg",
-      "title": "Through the trees",
-      "location": "Forest Glen Preserve",
-      "date": "03/14/2026",
-      "exif": {
-        "aperture": "2/2750",
-        "camera": "iPhone 16 Pro",
-        "exposure": "0.0",
-        "fnumber": "2.20",
-        "focal": 14,
-        "iso": 32
-      }
-    },
-    {
       "src": "2026/03/14/2665b912-007f-485f-b636-07079e321e20.jpeg",
       "title": "Gravel path",
       "location": "Forest Glen Preserve",
       "date": "03/14/2026",
+      "elevation": 557,
+      "notes": "",
       "exif": {
         "aperture": "1/6638",
         "camera": "iPhone 16 Pro",
@@ -64,6 +64,8 @@
       "title": "Golden grasses",
       "location": "Forest Glen Preserve",
       "date": "03/15/2026",
+      "elevation": 675,
+      "notes": "",
       "exif": {
         "aperture": "1/6638",
         "camera": "iPhone 16 Pro",
@@ -78,6 +80,8 @@
       "title": "Fallen tree",
       "location": "Forest Glen Preserve",
       "date": "03/15/2026",
+      "elevation": 662,
+      "notes": "",
       "exif": {
         "aperture": "1/6638",
         "camera": "iPhone 16 Pro",

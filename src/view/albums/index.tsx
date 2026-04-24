@@ -24,7 +24,7 @@ export default function Albums({ data }: Props) {
       data: {
         album,
       },
-      template: 'album',
+      template: 'image',
     });
   };
 

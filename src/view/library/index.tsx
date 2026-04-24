@@ -25,7 +25,7 @@ export default function Library({ data, filterBy }: Props) {
         album: item,
         image,
       },
-      template: 'library',
+      template: 'image',
     });
   };
 
@@ -64,6 +64,7 @@ export default function Library({ data, filterBy }: Props) {
                       >
                         <figure>
                           <button
+                            aria-label="view image details"
                             className={styles.cta}
                             onClick={() => handleOnClick(album, image)}
                             type="button"
@@ -74,8 +75,10 @@ export default function Library({ data, filterBy }: Props) {
                             />
                           </button>
                           <figcaption className={styles.caption}>
-                            <span className={styles.faded}>{image.date}</span>
-                            {image.location}, {album.location}
+                            {image.date}
+                            <span className={styles.faded}>
+                              {image.location}, {album.location}
+                            </span>
                           </figcaption>
                         </figure>
                       </li>

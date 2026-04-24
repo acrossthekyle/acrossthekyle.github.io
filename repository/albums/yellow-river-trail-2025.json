@@ -3,12 +3,15 @@
     "10/18/2025",
     "10/19/2025"
   ],
-  "timestamp": "1729227600",
+  "timestamp": "1766080800",
   "id": "yellow-river-trail-2025",
   "title": "Yellow River Trail",
   "location": "Iowa",
   "category": "backpacking",
   "coordinates": "43.171257° N, 91.259365° W",
+  "cover": [
+    "2025/10/18/efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg"
+  ],
   "tags": [
     "landscape",
     "trail",
@@ -16,12 +19,21 @@
     "weekend hike",
     "backpacking"
   ],
+  "position": [
+    "47%",
+    "18.5%"
+  ],
+  "notes": [
+    "Known for its unglaciated, hilly landscape, this remote counterclockwise overnight backpacking loop covers 14 miles in the Driftless Area of Iowa and showcases the state's most rugged terrain with a route that crosses ravines, climbs sandstone bluffs, and provides views of the surrounding hardwood forests and wildlife."
+  ],
   "images": [
     {
       "src": "2025/10/18/efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg",
       "title": "Browns Hollow",
       "location": "Big Paint Loop",
       "date": "10/18/2025",
+      "elevation": 723,
+      "notes": "Lovely fall colors greeted us as we began the trail",
       "exif": {
         "aperture": "1/6638",
         "camera": "iPhone 16 Pro",
@@ -36,6 +48,8 @@
       "title": "Browns Trailhead",
       "location": "Big Paint Loop",
       "date": "10/19/2025",
+      "elevation": 839,
+      "notes": "Heading back to civlization after a restless night in the woods, thanks to a create trying to force its way underneath my tent",
       "exif": {
         "aperture": "1/6638",
         "camera": "iPhone 16 Pro",

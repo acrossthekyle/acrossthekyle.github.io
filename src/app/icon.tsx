@@ -1,4 +1,3 @@
-import { SpellCheck2 } from 'lucide-react';
 import { ImageResponse } from 'next/og';
 
 export const runtime = 'edge';
@@ -17,7 +16,7 @@ export default function Icon() {
     (
       <div
         style={{
-          fontSize: 18,
+          fontSize: 10,
           background: 'transparent',
           width: '100%',
           height: '100%',
@@ -27,7 +26,7 @@ export default function Icon() {
           color: 'white',
         }}
       >
-        <SpellCheck2 size={18} />
+        K
       </div>
     ),
     {

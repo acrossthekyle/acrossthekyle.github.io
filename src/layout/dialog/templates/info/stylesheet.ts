@@ -14,15 +14,14 @@ const styles = tw({
     lg:justify-center
   `,
   header: `
-    text-xl
+    text-sm
     font-medium
-
-    lg:text-base
   `,
   subheader: `
     block
     font-normal
-    text-sm
+    text-xs
+    opacity-60
   `,
   figure: `
     flex items-center gap-4
@@ -56,7 +55,7 @@ const styles = tw({
     lg:pb-0
   `,
   close: `
-    absolute -top-1.25 right-0 z-1
+    absolute -top-1.25 -right-2 z-1
     p-2
 
     lg:top-18

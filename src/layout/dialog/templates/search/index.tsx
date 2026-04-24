@@ -25,7 +25,7 @@ export default function Template({ data }: Props) {
 
   const fuse = useMemo(() => {
     return new Fuse((data?.albums || []), {
-      keys: ['title', 'location'],
+      keys: ['title', 'location', 'tags'],
       threshold: 0.3,
     });
   }, [data]);
@@ -69,7 +69,7 @@ export default function Template({ data }: Props) {
         </span>
       </h2>
       <button
-        aria-label="close"
+        aria-label="close search"
         className={styles.close}
         onClick={onClose}
         type="button"

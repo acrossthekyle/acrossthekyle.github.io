@@ -19,13 +19,10 @@ type Props = {
 };
 
 const BREAKPOINTS = {
-  0: {
-    slidesPerView: 2,
-  },
-  768: {
+  640: {
     slidesPerView: 3,
   },
-  1024: {
+  1098: {
     slidesPerView: 4,
   },
   1470: {
@@ -70,7 +67,7 @@ export default function Plugin({ data, onClick }: Props) {
         className={styles.container(isInView)}
         modules={[A11y, FreeMode, Keyboard, Mousewheel]}
         a11y
-        slidesPerView={BREAKPOINTS['0'].slidesPerView}
+        slidesPerView={2}
         keyboard
         grabCursor
         resistance={false}
@@ -104,7 +101,7 @@ export default function Plugin({ data, onClick }: Props) {
               key={item.id}
             >
               <button
-                aria-label="view image details"
+                aria-label="view album details"
                 className={styles.cta(isInView)}
                 onClick={() => handleOnClick(item)}
                 style={{ transitionDelay: `${delay === 0 ? '0s' : 2 + delay}s` }}
@@ -112,7 +109,7 @@ export default function Plugin({ data, onClick }: Props) {
               >
                 <Ui.Images.Image
                   className={styles.image}
-                  src={item.images[0].src}
+                  src={item.cover}
                 />
               </button>
             </SwiperSlide>

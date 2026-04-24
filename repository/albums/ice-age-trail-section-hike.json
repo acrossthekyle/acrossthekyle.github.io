@@ -8,6 +8,10 @@
   "location": "Wisconsin",
   "category": "backpacking",
   "coordinates": "42.876001° N, 88.525661° W",
+  "cover": [
+    "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",
+    "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg"
+  ],
   "tags": [
     "landscape",
     "trail",
@@ -17,12 +21,21 @@
     "wisconsin",
     "backpacking"
   ],
+  "position": [
+    "48%",
+    "20%"
+  ],
+  "notes": [
+    "A place of kettles and moraines from mile-thick glaciers long ago in Wisconsin, completing this 1,200 mile long-distance national scenic trail in sections takes time. It's not the distance on this trail that gets you; it's the constant up and down over rolling hills. This is a catalog of my sections completed on this long-distance trail."
+  ],
   "images": [
     {
       "src": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",
       "title": "Stony Ridge",
       "location": "Eagle, Wisconsin",
       "date": "07/25/2022",
+      "elevation": 965,
+      "notes": "Combination of Blue Spring + Stony Ridge segments on the southern portion of the trail: 5 hours and 11 miles",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",
@@ -37,6 +50,8 @@
       "title": "Parnell Segment",
       "location": "Mauthe Lake, Wisconsin",
       "date": "5/03/2025",
+      "elevation": 1235,
+      "notes": "8 miles and 5 hours",
       "exif": {
         "aperture": "1/6638",
         "camera": "iPhone 16 Pro",
@@ -51,6 +66,8 @@
       "title": "Greenbush Trailhead",
       "location": "Glenbeulah, Wisconsin",
       "date": "5/04/2025",
+      "elevation": 1182,
+      "notes": "8 miles and 4 hours",
       "exif": {
         "aperture": "1/6638",
         "camera": "iPhone 16 Pro",

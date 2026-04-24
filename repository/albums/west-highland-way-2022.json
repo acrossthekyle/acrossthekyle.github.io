@@ -9,6 +9,10 @@
   "location": "Scotland",
   "category": "backpacking",
   "coordinates": "55.943977° N, 4.319957° W",
+  "cover": [
+    "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
+    "2022/05/07/e8dd9fed-56e4-45bf-aee4-d1bc44a5363c.jpeg"
+  ],
   "tags": [
     "landscape",
     "trail",
@@ -18,12 +22,21 @@
     "highlands",
     "backpacking"
   ],
+  "position": [
+    "38.5%",
+    "43.5%"
+  ],
+  "notes": [
+    "Filled with misty glens, deep lochs, and endless rain while hiking from Milngavie to Fort William, the West Highland Way is a long-distance trail covering 97 miles over six days in the highlands of Scotland in the UK. The trail travels down many ancient roads and old coaching routes, journeying from the lowlands to the highlands, while camping overnight in fields, along lakeside beachs, and under bridges."
+  ],
   "images": [
     {
       "src": "2022/05/07/75a8c027-07cd-4184-9157-d48dd5d1a32e.jpeg",
       "title": "Drymen",
       "location": "Glasgow",
       "date": "05/07/2022",
+      "elevation": 472,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -38,6 +51,8 @@
       "title": "Sallochy",
       "location": "Glasgow",
       "date": "05/08/2022",
+      "elevation": 1172,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -52,6 +67,8 @@
       "title": "Bienglas Farm",
       "location": "Inverarnan",
       "date": "05/09/2022",
+      "elevation": 142,
+      "notes": "It started raining on this day and wouldn't stop until after I reached Fort William on the last day",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -66,6 +83,8 @@
       "title": "Bridge of Orchy",
       "location": "Glen Orchy",
       "date": "05/10/2022",
+      "elevation": 1096,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -80,6 +99,8 @@
       "title": "Kinlochleven",
       "location": "Lochaber",
       "date": "05/11/2022",
+      "elevation": 1808,
+      "notes": "",
       "exif": {
         "aperture": "2/9709",
         "camera": "iPhone 13 Pro",
@@ -94,6 +115,8 @@
       "title": "Fort William",
       "location": "Scotland",
       "date": "05/12/2022",
+      "elevation": 1055,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",

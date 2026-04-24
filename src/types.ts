@@ -1,26 +1,6 @@
-export type StatFull = {
-  label: string;
-  value: {
-    imperial: string;
-    metric: string;
-  };
-};
-
-export type StatShort = {
-  label: string;
-  value: string;
-  units: string;
-};
-
 export type Stat = {
-  label: string;
-  value: {
-    basic: string;
-    complex: {
-      imperial: string;
-      metric: string;
-    };
-  };
+  imperial: string;
+  metric: string;
 };
 
 export type Data = {
@@ -28,6 +8,8 @@ export type Data = {
   title: string;
   location: string;
   date: string;
+  elevation: Stat;
+  notes: string;
   exif: {
     aperture: null | string;
     camera: string;
@@ -41,9 +23,13 @@ export type Data = {
 export type Album = {
   category: string;
   coordinates: string;
+  cover: string;
   id: string;
   images: Data[];
   location: string;
+  notes: string[];
+  position: string[];
+  tags: string[];
   title: string;
   when: string;
 };

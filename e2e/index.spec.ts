@@ -1,121 +1,90 @@
 import { test, expect } from '@playwright/test';
 
-test('index page loads', async ({ page }) => {
+test('E2E test', async ({ page }) => {
   await page.goto('/');
 
-  const heading = await page.getByRole('heading', {
+  const splash = await page.getByRole('heading', {
     level: 1,
-    name: `Hi, I'm Kyle`,
+    name: `Kyle`,
   });
 
-  await expect(heading).toBeVisible();
-});
+  await expect(splash).toBeVisible();
 
-[
-  {
-    name: 'adventures',
-  },
-  {
-    name: 'words',
-  },
-  {
-    name: 'packs',
-  },
-  {
-    name: 'about',
-  },
-  {
-    name: 'resume',
-  },
-  {
-    name: 'books',
-  },
-  {
-    name: 'instagram',
-    url: 'https://www.instagram.com/acrossthekyle',
-  },
-  {
-    name: 'linkedin',
-    url: 'https://www.linkedin.com/in/acrossthekyle',
-  },
-  {
-    name: 'colophon',
-  },
-  {
-    name: 'github',
-    url: 'https://github.com/acrossthekyle',
-  },
-  {
-    name: 'carbon',
-    url: 'https://www.websitecarbon.com/website/acrossthekyle-com/',
-  },
-].forEach(({ name, url }) => {
-  test(`index page navigates to ${name}`, async ({ browser }) => {
-    const context = await browser.newContext();
-    const page = await context.newPage();
+  await page.waitForTimeout(4000);
 
-    await page.goto('/');
+  const info = page.getByRole('button', { name: 'info about kyle' });
+  const albums = page.getByRole('button', { name: 'switch to slider view' });
+  const library = page.getByRole('button', { name: 'switch to grid view' });
+  const search = page.getByRole('button', { name: 'enable search dialog' })
 
-    const main = await page.getByRole('main');
+  await expect(info).toBeVisible();
+  await expect(albums).toBeVisible();
+  await expect(library).toBeVisible();
+  await expect(search).toBeVisible();
 
-    await main.getByRole('link', { name }).click();
+  await search.click();
 
-    if (url) {
-      const [pages] = await Promise.all([page.context().waitForEvent('page')]);
-
-      const tabs = pages.context().pages();
-
-      await tabs[1].waitForLoadState('load');
-
-      await expect(tabs[1]).toHaveURL(url);
-    } else {
-      const heading = await page.getByRole('heading', {
-        level: 1,
-        name,
-      });
-
-      await expect(heading).toBeVisible();
-    }
+  const findAnAlbum = await page.getByRole('heading', {
+    level: 2,
+    name: `Find an album`,
   });
-});
 
-test('index toggles theme', async ({ page }) => {
-  await page.goto('/');
+  await expect(findAnAlbum).toBeVisible();
 
-  const html = await page.locator('[data-theme]');
-  const current = await html.getAttribute('data-theme');
-  const toggle = await page.getByRole('button', { name: 'theme' });
+  const searchClose = page.getByRole('button', { name: 'close search' });
 
-  await expect(current).toEqual('light');
-  await expect(toggle).toContainText('Current: light');
+  await expect(searchClose).toBeVisible();
 
-  await toggle.click();
+  const category = await page.getByRole('link', { name: 'Backpacking' });
 
-  const updated = await html.getAttribute('data-theme');
+  await expect(category).toBeVisible();
 
-  await expect(updated).toEqual('dark');
-  await expect(toggle).toContainText('Current: dark');
+  const album = await page.getByRole('link', { name: 'River Ridge Trail 2026' });
 
-  await toggle.click();
+  await expect(album).toBeVisible();
 
-  const reverted = await html.getAttribute('data-theme');
+  await album.click();
 
-  await expect(reverted).toEqual('light');
-  await expect(toggle).toContainText('Current: light');
-});
+  const reset = await page.getByRole('button', { name: 'remove filter' });
 
-test('index toggles units', async ({ page }) => {
-  await page.goto('/');
+  await expect(reset).toBeVisible();
 
-  const toggle = await page.getByRole('button', { name: 'units' });
+  const images = await page.getByRole('button', { name: 'view image details' });
 
-  await expect(toggle).toContainText('Current: imperial');
+  await expect(images).toHaveCount(4);
 
-  await toggle.click();
+  await reset.click();
 
-  await expect(toggle).toContainText('Current: metric');
+  const resetImages = await page.getByRole('button', { name: 'view image details' });
 
-  await toggle.click();
+  await expect(async () => {
+    const count = await resetImages.count();
 
-  await expect(toggle).toContainText('Current: imperial');
+    await expect(count).toBeGreaterThan(4);
+  }).toPass();
+
+  await albums.click();
+
+  const covers = await page.getByRole('button', { name: 'view album details' });
+
+  await expect(async () => {
+    const count = await covers.count();
+
+    await expect(count).toBeGreaterThan(0);
+  }).toPass();
+
+  await covers.nth(12).click();
+
+  const detailsToggle = await page.getByRole('button', { name: 'toggle image caption' });
+  const closeToggle = await page.getByRole('button', { name: 'close image' });
+
+  await expect(detailsToggle).not.toBeVisible();
+  await expect(closeToggle).not.toBeVisible();
+
+  const albumName = await page.getByRole('heading', {
+    level: 2,
+    name: `Ice Age Trail`,
+  });
+
+  await expect(albumName).toBeVisible();
 });

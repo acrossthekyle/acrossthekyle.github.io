@@ -17,10 +17,12 @@ const styles = tw({
     backdrop:bg-(--background)/97.5
     backdrop:outline-none
 
-    motion-safe:duration-300
+    motion-safe:duration-550
     motion-safe:opacity-0
+    motion-safe:top-20
     motion-safe:backdrop:opacity-0
-    motion-safe:backdrop:duration-300
+    motion-safe:backdrop:delay-300
+    motion-safe:backdrop:duration-500
 
     sm:py-10
   `,

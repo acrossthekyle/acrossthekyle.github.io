@@ -13,16 +13,10 @@
   --breakpoint-xs: 24.375rem; /* 390px */
   --breakpoint-lg: 68.625rem; /* 1098px */
 
-  --font-mono: var(--font-roboto-mono);
   --font-sans: var(--font-geist-sans);
   --font-signature: var(--font-momo-signature);
 
-  --container-8xl: 96rem; /* 1536px */
-
   --text-tiny: 0.6875rem; /* 11px */
-  --text-xtiny: 0.5rem; /* 8px */
-
-  --dialog-background: rgba(255, 255, 255, 0.25);
 }
 
 @custom-variant dark (
@@ -36,23 +30,17 @@
   :root {
     --background: #fefff5;
     --foreground: #0c0c0c;
-
-    --dialog-background: rgba(255, 255, 255, 0.25);
   }
 
   [data-theme="dark"] {
     --background: #0c0c0c;
     --foreground: #fefff5;
-
-    --dialog-background: rgba(0, 0, 0, 0.25);
   }
 
   @media (prefers-color-scheme: dark) {
     [data-theme="auto"] {
       --background: #0c0c0c;
       --foreground: #fefff5;
-
-      --dialog-background: rgba(0, 0, 0, 0.25);
     }
   }
 }
@@ -74,10 +62,12 @@ body {
 
   dialog.is-active {
     opacity: 1;
+    top: 0;
   }
 
   dialog.is-active::backdrop {
     opacity: 1;
+    transition-delay: 0s;
   }
 
   .glow {

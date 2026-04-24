@@ -9,6 +9,10 @@
   "location": "France",
   "category": "cities",
   "coordinates": "41.926667° N, 8.736944° E",
+  "cover": [
+    "2023/07/05/a7519e17-dc25-46cc-b8c7-8b293684b8ef.jpeg",
+    "2023/07/05/4901532f-a283-4e4c-a93e-1b9cc3f9b13e.jpeg"
+  ],
   "tags": [
     "cityscape",
     "monuments",
@@ -16,12 +20,21 @@
     "france",
     "destination"
   ],
+  "position": [
+    "49%",
+    "48.25%"
+  ],
+  "notes": [
+    "Corsica feels bright and outdoorsy, with easy pedestrian access in the historic part of Porto-Vecchio and easy access to hiking in the nearby hills. Over on the west coast, Ajaccio has a more everyday vibe, with a busy harbor, cafe-lined streets, historic citadels, relaxing beaches, and mountains rising just behind the city."
+  ],
   "images": [
     {
       "src": "2023/07/05/a7519e17-dc25-46cc-b8c7-8b293684b8ef.jpeg",
       "title": "Citadelle de Porto-Vecchio",
       "location": "Porto-Vecchio",
       "date": "07/05/2023",
+      "elevation": 202,
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",
@@ -36,6 +49,8 @@
       "title": "Citadelle de Ajaccio",
       "location": "Ajaccio",
       "date": "07/06/2023",
+      "elevation": 29,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -50,6 +65,8 @@
       "title": "Urban beach",
       "location": "Ajaccio",
       "date": "07/07/2023",
+      "elevation": 31,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",

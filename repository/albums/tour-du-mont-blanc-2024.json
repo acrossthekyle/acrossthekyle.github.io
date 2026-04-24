@@ -9,6 +9,11 @@
   "location": "Alps",
   "category": "backpacking",
   "coordinates": "45.890167° N, 6.797842° E",
+  "cover": [
+    "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg",
+    "2024/07/27/99d87d66-9534-4aca-9489-eb2fbbdc152b.jpeg",
+    "2024/07/27/b70777d8-b89d-4d60-b422-2d2af80483e4.jpeg"
+  ],
   "tags": [
     "landscape",
     "trail",
@@ -18,12 +23,21 @@
     "alps",
     "backpacking"
   ],
+  "position": [
+    "45%",
+    "48.5%"
+  ],
+  "notes": [
+    "A repeat of a 2018 thru-hike of this trail, however for this go-around my partner joined in on the adventure. It was her first experience with hut-to-hut hiking. We spent 11 days travelling 117 miles around the Mont Blanc massif."
+  ],
   "images": [
     {
       "src": "2024/07/27/ac7799bd-b2a8-4f77-8a8d-6d42a8740390.jpeg",
       "title": "Auberge Truc",
       "location": "France",
       "date": "07/27/2024",
+      "elevation": 6996,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -38,6 +52,8 @@
       "title": "La Croix du Bonhomme",
       "location": "France",
       "date": "07/28/2024",
+      "elevation": 8191,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -52,6 +68,8 @@
       "title": "Robert Blanc",
       "location": "France",
       "date": "07/29/2024",
+      "elevation": 8966,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -66,6 +84,8 @@
       "title": "Maison Veille",
       "location": "Italy",
       "date": "07/30/2024",
+      "elevation": 7055,
+      "notes": "The hardest day on this thru-hike with multiple summits and 16 miles of hiking",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -80,6 +100,8 @@
       "title": "Bonatti",
       "location": "Italy",
       "date": "07/31/2024",
+      "elevation": 6679,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -94,6 +116,8 @@
       "title": "Hotel Edelweiss",
       "location": "Switzerland",
       "date": "08/01/2024",
+      "elevation": 7426,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -108,6 +132,8 @@
       "title": "Bon Abri",
       "location": "Switzerland",
       "date": "08/02/2024",
+      "elevation": 4318,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -122,6 +148,8 @@
       "title": "Hotel Forclaz",
       "location": "Switzerland",
       "date": "08/03/2024",
+      "elevation": 6409,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -136,6 +164,8 @@
       "title": "La Boerne",
       "location": "France",
       "date": "08/04/2024",
+      "elevation": 7277,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -150,6 +180,8 @@
       "title": "La Flegere",
       "location": "France",
       "date": "08/05/2024",
+      "elevation": 7750,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -164,6 +196,8 @@
       "title": "Les Houches",
       "location": "France",
       "date": "08/06/2024",
+      "elevation": 6136,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",

@@ -29,9 +29,11 @@ export default function Splash() {
       className={styles.container(isVisible)}
     >
       <div className={styles.content}>
-        <h1 className={styles.header}>Kyle</h1>
+        <h1 className={styles.header}>
+          Kyle
+        </h1>
         <p className={styles.paragraph}>
-          A collection of hikes, summits, and experiences
+          A collection of my hikes, summits, and experiences
         </p>
       </div>
     </div>

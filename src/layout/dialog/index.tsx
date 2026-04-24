@@ -3,7 +3,7 @@
 import { useDialog } from '@/hooks/useDialog';
 
 import styles from './stylesheet';
-import { Album, Info, Library, Search } from './templates';
+import { Image, Info, Search } from './templates';
 
 export default function Dialog() {
   const {
@@ -23,14 +23,11 @@ export default function Dialog() {
       ref={dialog}
       onKeyDown={onCancel}
     >
-      {data.template === 'album' && (
-        <Album data={data.data} />
+      {data.template === 'image' && (
+        <Image data={data.data} />
       )}
       {data.template === 'info' && (
         <Info />
-      )}
-      {data.template === 'library' && (
-        <Library data={data.data} />
       )}
       {data.template === 'search' && (
         <Search data={data.data} />

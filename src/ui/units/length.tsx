@@ -1,13 +1,11 @@
 'use client';
 
 import { useUnits } from '@/hooks/useUnits';
+import type { Stat } from '@/types';
 
 type Props = {
   isSmall?: boolean;
-  value: {
-    imperial: string | number;
-    metric: string;
-  };
+  value: Stat;
 };
 
 export default function Length({ isSmall, value }: Props) {

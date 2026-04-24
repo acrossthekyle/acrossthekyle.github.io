@@ -1,6 +1,6 @@
 'use client';
 
-import { SpellCheck2 } from 'lucide-react';
+import { Equal } from 'lucide-react';
 
 import { useDialog } from '@/hooks/useDialog';
 
@@ -22,11 +22,12 @@ export default function Anchor({ isFiltering }: Props) {
   return (
     <section className={styles.anchor(!isFiltering)}>
       <button
+        aria-label="info about kyle"
         className={`${styles.button(true)} ${styles.only}`}
         onClick={handleOnClick}
         type="button"
       >
-        <SpellCheck2 className={styles.icon} /> Kyle
+        <Equal className={styles.icon} /> Info
       </button>
     </section>
   );

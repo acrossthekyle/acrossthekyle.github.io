@@ -9,6 +9,10 @@
   "location": "Switzerland",
   "category": "cities",
   "coordinates": "46.204391° N, 6.143158° E",
+  "cover": [
+    "2024/07/24/f6f7470b-5e4e-42f7-aa59-ccabe81778bf.jpeg",
+    "2024/07/24/e19b87b3-ff48-499f-a225-3d4d608e9311.jpeg"
+  ],
   "tags": [
     "cityscape",
     "monuments",
@@ -16,12 +20,21 @@
     "switzerland",
     "destination"
   ],
+  "position": [
+    "44%",
+    "49.5%"
+  ],
+  "notes": [
+    "The city feels calm, with the lakefront and the Jet d'Eau giving a bright, open feel, while cobbled streets in the Old Town offer history and charm. Parks, cafes, and waterfront paths make it easy to enjoy the outdoors without leaving the city."
+  ],
   "images": [
     {
       "src": "2024/07/24/f6f7470b-5e4e-42f7-aa59-ccabe81778bf.jpeg",
       "title": "Jet d'Eau",
       "location": "Geneva",
       "date": "07/24/2024",
+      "elevation": 1312,
+      "notes": "An iconic water fountain, visible for miles",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -36,6 +49,24 @@
       "title": "Cathedral attic",
       "location": "Geneva",
       "date": "07/24/2024",
+      "elevation": 0,
+      "notes": "Exploring an old church",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 800
+      }
+    },
+    {
+      "src": "2024/07/24/7c3b0975-04c2-4475-b7d5-f7a8e018b71f.jpeg",
+      "title": "Cathedral spire",
+      "location": "Geneva",
+      "date": "07/24/2024",
+      "elevation": 1457,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -50,6 +81,8 @@
       "title": "Botanical Oasis",
       "location": "Geneva",
       "date": "07/25/2024",
+      "elevation": 1300,
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",

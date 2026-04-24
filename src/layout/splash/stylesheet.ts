@@ -12,7 +12,7 @@ const styles = tw({
   content: `
     flex flex-col justify-center gap-1
     text-xs text-center
-    font-medium
+    font-sans font-medium
   `,
   header: `
     text-base

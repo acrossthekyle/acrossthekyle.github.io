@@ -1,14 +1,18 @@
 {
   "date": [
     "11/1/2019",
-    "11/6/2019"
+    "11/5/2019"
   ],
   "timestamp": "1572544500",
   "id": "annapurna-basecamp-2019",
-  "title": "Annapurna Basecamp",
+  "title": "Annapurna Basecamp Trek",
   "location": "Annapurna I, Himalayas, Nepal",
   "category": "basecamps",
   "coordinates": "28.530000° N, 83.878000° E",
+  "cover": [
+    "2019/10/19/3dc0234b-c92e-4a61-bce5-bd922ddaa9bf.jpeg",
+    "2019/10/19/a052d193-0be9-4288-b017-65d459c3eca1.jpeg"
+  ],
   "tags": [
     "landscape",
     "trail",
@@ -18,26 +22,21 @@
     "nepal",
     "basecamp"
   ],
+  "position": [
+    "53%",
+    "69%"
+  ],
+  "notes": [
+    "Continuing my trek of the Himalayas with a five day, 38 mile, hike to and from Annapurna Basecamp (ABC) at 13,525 ft (4,110 m), based out of a village called Chomrong, after completing the Annapurna Circuit and nearly succumbing to hypothermia the day before."
+  ],
   "images": [
     {
-      "src": "2019/10/19/b2ef8848-2e35-43dd-9f06-98434903f810.jpeg",
-      "title": "Spying Fishtail Mountain",
-      "location": "Kaski District",
-      "date": "11/01/2019",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 25
-      }
-    },
-    {
       "src": "2019/10/19/9967b893-82a1-40b2-85fd-d41b9fa55920.jpeg",
-      "title": "Morning mountain sun",
+      "title": "Snow-capped mountain",
       "location": "Kaski District",
       "date": "11/01/2019",
+      "elevation": 9344,
+      "notes": "Morning on day one of the Annapurna Basecamp trek",
       "exif": {
         "aperture": "2/5261",
         "camera": "iPhone X",
@@ -49,9 +48,11 @@
     },
     {
       "src": "2019/10/19/44725bb3-f011-4e1d-a3bb-06d8fa52e578.jpeg",
-      "title": "Foggy path",
+      "title": "Cloudy path",
       "location": "Kaski District",
       "date": "11/01/2019",
+      "elevation": 10354,
+      "notes": "Blanket of fog rolled in after leaving Ghorepani, bound for Chomrong",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -66,20 +67,8 @@
       "title": "Approaching Chomrong",
       "location": "Kaski District",
       "date": "11/01/2019",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
-      }
-    },
-    {
-      "src": "2019/10/19/a052d193-0be9-4288-b017-65d459c3eca1.jpeg",
-      "title": "Mountain valley pass",
-      "location": "Kaski District",
-      "date": "11/02/2019",
+      "elevation": 7039,
+      "notes": "Nearing the end of the first day on the ABC trek, passed through many forests and up-and-down river valley walls",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -94,6 +83,24 @@
       "title": "Morning in Chomrong",
       "location": "Kaski District",
       "date": "11/02/2019",
+      "elevation": 7190,
+      "notes": "Viewing the path through and into the mountains",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "iso": 20
+      }
+    },
+    {
+      "src": "2019/10/19/a052d193-0be9-4288-b017-65d459c3eca1.jpeg",
+      "title": "Mountain valley pass",
+      "location": "Kaski District",
+      "date": "11/02/2019",
+      "elevation": 10807,
+      "notes": "Making my way towards my stop for the night at a village called Deurali",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -107,7 +114,9 @@
       "src": "2019/10/19/3dc0234b-c92e-4a61-bce5-bd922ddaa9bf.jpeg",
       "title": "Approaching basecamp",
       "location": "Kaski District",
-      "date": "11/02/2019",
+      "date": "11/03/2019",
+      "elevation": 12231,
+      "notes": "Transitioning from trees and green to tans and schrubs with pure white in the distance",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -121,7 +130,9 @@
       "src": "2019/10/19/3773c3c4-265f-4e7e-8f0a-d6e1a7d9b85c.jpeg",
       "title": "Annapurna Basecamp",
       "location": "Kaski District",
-      "date": "11/02/2019",
+      "date": "11/03/2019",
+      "elevation": 13525,
+      "notes": "Arrival at basecamp for Annapurna I, surrounded by clouds and pure-white snow",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -133,9 +144,11 @@
     },
     {
       "src": "2019/10/19/488cfa64-0b33-4af3-a127-e0f3cae7175e.jpeg",
-      "title": "Pink sunrise",
+      "title": "Pink skies",
       "location": "Kaski District",
-      "date": "11/03/2019",
+      "date": "11/04/2019",
+      "elevation": 13468,
+      "notes": "Sunrise on the ABC at basecamp before beginning the long hike down to Chomrong, a drop of nearly 6,000 ft",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -149,7 +162,9 @@
       "src": "2019/10/19/490d1db6-aaad-4ed3-9181-081ca318cd16.jpeg",
       "title": "Returning to Chomrong",
       "location": "Kaski District",
-      "date": "11/03/2019",
+      "date": "11/04/2019",
+      "elevation": 10372,
+      "notes": "Walking through the shoulders of giants",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -163,7 +178,9 @@
       "src": "2019/10/19/6bd7587b-78d3-4488-93b5-2694227dd792.jpeg",
       "title": "Fishtail mountain sunrise",
       "location": "Kaski District",
-      "date": "11/04/2019",
+      "date": "11/05/2019",
+      "elevation": 7344,
+      "notes": "Morning on the last day of the trek, view of Fishtail mountain (Machhapuchhre) from Chomrong",
       "exif": {
         "aperture": "2/5261",
         "camera": "iPhone X",
@@ -174,10 +191,12 @@
       }
     },
     {
-      "src": "2019/10/19/8fef1e6f-d483-445c-b19c-d47bb7f1fc68.jpeg",
+      "src": "2019/10/19/842ce237-9e28-46f4-adef-33f0174706cf.jpeg",
       "title": "Returning to civilization",
       "location": "Kaski District",
-      "date": "11/04/2019",
+      "date": "11/05/2019",
+      "elevation": 5360,
+      "notes": "One last mega-suspension bridge before hitching a ride back to Pokhara",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",

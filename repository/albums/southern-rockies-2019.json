@@ -8,6 +8,10 @@
   "location": "Colorado",
   "category": "mountains",
   "coordinates": "39.7392° N, 104.9903° W",
+  "cover": [
+    "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
+    "2020/09/06/80307849-8964-4e0d-a70f-f6371ca7fcad.jpeg"
+  ],
   "tags": [
     "landscape",
     "trail",
@@ -15,12 +19,22 @@
     "north america",
     "summits"
   ],
+  "position": [
+    "50.5%",
+    "15.5%"
+  ],
+  "notes": [
+    "Reaching the summits of the Rocky Mountains and breathing in the cold alpine air above 14,000 feet is an awe-inspiring experience offering unparalleled views and moments of profound triumph, a feeling of being on top of the world.",
+    "This is a collection of my summits completed so far: 9/58 peaks and counting"
+  ],
   "images": [
     {
       "src": "2019/08/31/52f1514b-91a4-494d-93df-6ae9c81df01c.jpeg",
       "title": "Mount Elbert",
       "location": "Sawatch Range, Colorado",
       "date": "8/31/2019",
+      "elevation": 14426,
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -35,6 +49,8 @@
       "title": "Quandary Peak",
       "location": "Tenmile Range, Colorado",
       "date": "9/01/2019",
+      "elevation": 14230,
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -49,6 +65,8 @@
       "title": "La Plata Peak",
       "location": "Sawatch Range, Colorado",
       "date": "9/04/2020",
+      "elevation": 14375,
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -63,6 +81,8 @@
       "title": "Mount Bierstadt",
       "location": "Front Range, Colorado",
       "date": "9/05/2020",
+      "elevation": 14070,
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -77,6 +97,8 @@
       "title": "Grays Peak",
       "location": "Front Range, Colorado",
       "date": "9/06/2020",
+      "elevation": 14259,
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -91,6 +113,8 @@
       "title": "Mount Shavano",
       "location": "Sawatch Range, Colorado",
       "date": "9/07/2021",
+      "elevation": 14147,
+      "notes": "",
       "exif": {
         "aperture": "1/3561",
         "camera": "iPhone 12",
@@ -102,9 +126,11 @@
     },
     {
       "src": "2021/09/09/8e1e0c1f-c391-4bc0-807c-7bdd8d20815b.jpeg",
-      "title": "Mount DeCaLiBron",
+      "title": "Mount De-Ca-Li",
       "location": "Mosquito Range, Colorado",
       "date": "9/09/2021",
+      "elevation": 14289,
+      "notes": "",
       "exif": {
         "aperture": "1/3561",
         "camera": "iPhone 12",
@@ -119,6 +145,8 @@
       "title": "Mount Belford",
       "location": "Sawatch Range, Colorado",
       "date": "9/09/2022",
+      "elevation": 14160,
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",
@@ -133,6 +161,8 @@
       "title": "Mount Massive",
       "location": "Sawatch Range, Colorado",
       "date": "9/11/2022",
+      "elevation": 14367,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",

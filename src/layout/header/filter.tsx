@@ -16,7 +16,9 @@ type Props = {
 
 function getMetaData(data: Album[], filterBy: FilterBy) {
   if (!!filterBy.category) {
-    const filtered = data.filter(({ category }) => category.toLowerCase() === filterBy.category?.toLowerCase());
+    const filtered = data.filter(({ category }) =>
+      category.toLowerCase() === filterBy.category?.toLowerCase()
+    );
 
     return {
       count: filtered.reduce((sum, album) => sum + album.images.length, 0),
@@ -60,6 +62,7 @@ export default function Filter({ data, filterBy, isFiltering }: Props) {
       className={styles.filter(view === 'library')}
     >
       <button
+        aria-label="remove filter"
         className={`${styles.button(true)} ${styles.only}`}
         onClick={handleOnReset}
         type="button"

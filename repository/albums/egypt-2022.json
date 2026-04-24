@@ -6,9 +6,15 @@
   "timestamp": "1672304400",
   "id": "egypt-2022",
   "title": "Egypt",
-  "location": "Cairo and Luxor",
+  "location": "Egypt",
   "category": "destinations",
   "coordinates": "30.033333° N, 31.233334° E",
+  "cover": [
+    "2022/12/28/0826806c-c673-49a1-a9ae-79cfa77633e4.jpeg",
+    "2022/12/28/7f2020f6-ccd2-4f4a-98a1-44abd2df6911.jpeg",
+    "2022/12/28/b13b3a23-187a-4dc4-912d-e225b21af78a.jpeg",
+    "2022/12/28/b645dadb-e6b9-41ef-a797-8ea11c0de22c.jpeg"
+  ],
   "tags": [
     "cityscape",
     "landscape",
@@ -17,12 +23,37 @@
     "africa",
     "destination"
   ],
+  "position": [
+    "54%",
+    "54%"
+  ],
+  "notes": [
+    "We decided to ring in the new year by doing something special, and chose to visit Cairo, and Luxor, in Egypt. It's a place full of ancient wonder, over-crowded cities, awe-inspiring pyramids and tombs, and amazing museums. Seeing history up close, and being able to touch it, is how it's meant to be experienced."
+  ],
   "images": [
     {
-      "src": "2022/12/28/c0f9c079-8942-4390-bb9e-dae4e0a65034.jpeg",
-      "title": "The Great Pyramid",
-      "location": "Giza Plateau",
+      "src": "2022/12/28/b645dadb-e6b9-41ef-a797-8ea11c0de22c.jpeg",
+      "title": "View from hotel rooftop",
+      "location": "Giza, Cairo",
       "date": "12/29/2022",
+      "elevation": 95,
+      "notes": "Spent one night at this hotel in order to visit the Pyramids and Sphinx",
+      "exif": {
+        "aperture": "2/2750",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "2.20",
+        "focal": 23,
+        "iso": 32
+      }
+    },
+    {
+      "src": "2022/12/28/4a450c11-fa71-4501-83de-95cf248aeecc.jpeg",
+      "title": "The Pyramids",
+      "location": "Giza Plateau, Cairo",
+      "date": "12/29/2022",
+      "elevation": 215,
+      "notes": "Once on the plateau you're free to roam",
       "exif": {
         "aperture": "2/2750",
         "camera": "iPhone 13 Pro",
@@ -34,9 +65,11 @@
     },
     {
       "src": "2022/12/28/20b4a5e3-bdde-4eee-a650-46a368ab6767.jpeg",
-      "title": "Base of the Pyramid",
-      "location": "Giza Plateau",
+      "title": "Base of the Great Pyramid",
+      "location": "Giza Plateau, Cairo",
       "date": "12/29/2022",
+      "elevation": 209,
+      "notes": "Our view before entering the pyramid",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",
@@ -49,8 +82,10 @@
     {
       "src": "2022/12/28/b3275967-68fd-4c69-ad40-df15b2a697b5.jpeg",
       "title": "The Sphinx",
-      "location": "Giza Plateau",
+      "location": "Giza Plateau, Cairo",
       "date": "12/29/2022",
+      "elevation": 50,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -65,6 +100,8 @@
       "title": "Bent Pyramid",
       "location": "Saqqara",
       "date": "12/30/2022",
+      "elevation": 185,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -79,6 +116,8 @@
       "title": "Temple ruins",
       "location": "Saqqara",
       "date": "12/30/2022",
+      "elevation": 48,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -89,10 +128,28 @@
       }
     },
     {
-      "src": "2022/12/28/2fbb089e-8a80-4c3b-b071-709cc9702a84.jpeg",
+      "src": "2022/12/28/4b67e6e3-2592-4aca-9074-dc6e6c3ff668.jpeg",
+      "title": "Red Pyramid",
+      "location": "Saqqara",
+      "date": "12/30/2022",
+      "elevation": 171,
+      "notes": "",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 39,
+        "iso": 50
+      }
+    },
+    {
+      "src": "2022/12/28/2db07918-d67a-41a1-a2e1-e65e051343ca.jpeg",
       "title": "Step Pyramid",
       "location": "Dahshur",
       "date": "12/30/2022",
+      "elevation": 196,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -104,9 +161,11 @@
     },
     {
       "src": "2022/12/28/0826806c-c673-49a1-a9ae-79cfa77633e4.jpeg",
-      "title": "Hotel view",
+      "title": "Tower of Cairo",
       "location": "Cairo",
       "date": "12/30/2022",
+      "elevation": 100,
+      "notes": "After spending a night in Giza we headed to Cairo for museums and bazaars",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -121,6 +180,8 @@
       "title": "Sphinx avenue",
       "location": "Luxor",
       "date": "01/02/2023",
+      "elevation": 253,
+      "notes": "Luxor occupied the second half of our time in Egypt",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -131,10 +192,12 @@
       }
     },
     {
-      "src": "2022/12/28/5e393275-ee80-475d-83cf-26192cd55738.jpeg",
+      "src": "2022/12/28/154f7375-154e-4888-bc7b-81fbe9fffffc.jpeg",
       "title": "Colossi of Memnon",
       "location": "Luxor",
       "date": "01/03/2023",
+      "elevation": 263,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -149,6 +212,8 @@
       "title": "Tomb of Ramses V-VI",
       "location": "Valley of the Kings, Luxor",
       "date": "01/03/2023",
+      "elevation": 573,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -163,6 +228,8 @@
       "title": "Tomb of Ramses III",
       "location": "Valley of the Kings, Luxor",
       "date": "01/03/2023",
+      "elevation": 546,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -177,6 +244,8 @@
       "title": "Tutankhamun's Tomb",
       "location": "Valley of the Kings, Luxor",
       "date": "01/03/2023",
+      "elevation": 569,
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",
@@ -188,9 +257,11 @@
     },
     {
       "src": "2022/12/28/9fb7c062-5816-4154-b8cd-525a81f82be0.jpeg",
-      "title": "Valley of the Queens",
-      "location": "Luxor",
+      "title": "Unmarked tomb",
+      "location": "Valley of the Queens, Luxor",
       "date": "01/03/2023",
+      "elevation": 412,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -205,6 +276,8 @@
       "title": "Habu Temple I",
       "location": "Luxor",
       "date": "01/03/2023",
+      "elevation": 255,
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",
@@ -219,6 +292,8 @@
       "title": "Habu Temple II",
       "location": "Luxor",
       "date": "01/03/2023",
+      "elevation": 255,
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",
@@ -233,6 +308,8 @@
       "title": "Habu Temple III",
       "location": "Luxor",
       "date": "01/03/2023",
+      "elevation": 255,
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",
@@ -244,9 +321,11 @@
     },
     {
       "src": "2022/12/28/b7e2eeb1-90d3-49cb-bdb8-41acf2162f78.jpeg",
-      "title": "Hatshepsut's Temple I",
+      "title": "Hatshepsut's Temple Exterior",
       "location": "Luxor",
       "date": "01/03/2023",
+      "elevation": 464,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -258,9 +337,11 @@
     },
     {
       "src": "2022/12/28/eee38045-1d4f-4bbd-b6f3-17eb34db5191.jpeg",
-      "title": "Hatshepsut's Temple II",
+      "title": "Hatshepsut's Temple Interior",
       "location": "Luxor",
       "date": "01/03/2023",
+      "elevation": 427,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -272,9 +353,11 @@
     },
     {
       "src": "2022/12/28/0707fa9e-8d4c-475c-ab8b-1649dfcc2964.jpeg",
-      "title": "Hatshepsut's Temple III",
+      "title": "Hatshepsut's Temple Spinx",
       "location": "Luxor",
       "date": "01/03/2023",
+      "elevation": 370,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -286,9 +369,11 @@
     },
     {
       "src": "2022/12/28/9799718c-81f7-460d-9f0a-7ddd2dffb060.jpeg",
-      "title": "Luxor Temple Exterior",
-      "location": "Luxor",
+      "title": "Temple Exterior",
+      "location": "Luxor Temple",
       "date": "01/03/2023",
+      "elevation": 267,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -300,9 +385,11 @@
     },
     {
       "src": "2022/12/28/63dd5017-e9f2-4def-8aa6-2f97f2803ed4.jpeg",
-      "title": "Luxor Temple Interior",
-      "location": "Luxor",
+      "title": "Interior columns",
+      "location": "Luxor Temple",
       "date": "01/03/2023",
+      "elevation": 275,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -314,9 +401,11 @@
     },
     {
       "src": "2022/12/28/7f2020f6-ccd2-4f4a-98a1-44abd2df6911.jpeg",
-      "title": "Karnak Temple I",
-      "location": "Luxor",
+      "title": "Obelisk",
+      "location": "Karnak Temple",
       "date": "01/03/2023",
+      "elevation": 273,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -328,9 +417,11 @@
     },
     {
       "src": "2022/12/28/3499fb61-f3ca-4a3d-9f5c-e41df689c4dd.jpeg",
-      "title": "Karnak Temple II",
-      "location": "Luxor",
+      "title": "Ramses III Temple",
+      "location": "Karnak Temple",
       "date": "01/03/2023",
+      "elevation": 266,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -341,10 +432,12 @@
       }
     },
     {
-      "src": "2022/12/28/ae9f8f53-2e60-4dc3-890e-c330842d4ee1.jpeg",
-      "title": "Karnak Temple III",
-      "location": "Luxor",
+      "src": "2022/12/28/caff8a45-5173-48cd-aa9c-a8cce3489b60.jpeg",
+      "title": "Columns",
+      "location": "Karnak Temple",
       "date": "01/03/2023",
+      "elevation": 278,
+      "notes": "The scale of the scaffolding against the columns",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -355,10 +448,12 @@
       }
     },
     {
-      "src": "2022/12/28/ff814c26-a942-4652-9417-07f074424dbb.jpeg",
-      "title": "Hot air balloon ride I",
+      "src": "2022/12/28/50f9c440-f59d-47ef-95ff-c9363820d1a9.jpeg",
+      "title": "Roaring flames",
       "location": "Luxor",
       "date": "01/04/2023",
+      "elevation": 254,
+      "notes": "Anticipation builds as we begin to board our hot air balloon ride of the valley of the kings/queens",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -370,9 +465,11 @@
     },
     {
       "src": "2022/12/28/b13b3a23-187a-4dc4-912d-e225b21af78a.jpeg",
-      "title": "Hot air balloon ride II",
+      "title": "Soaring over the valley",
       "location": "Luxor",
       "date": "01/04/2023",
+      "elevation": 519,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -384,9 +481,11 @@
     },
     {
       "src": "2022/12/28/85aac278-b95e-4a50-b56c-2f8b1b4a1c13.jpeg",
-      "title": "Hot air balloon ride III",
+      "title": "The end of the ride",
       "location": "Luxor",
       "date": "01/04/2023",
+      "elevation": 310,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",

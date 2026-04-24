@@ -7,6 +7,11 @@
   "id": "alta-via-1-2019",
   "title": "Alta Via 1",
   "location": "Italy",
+  "cover": [
+    "2019/07/16/735a0783-62ba-4f8e-97d8-c9b9f5327cfe.jpeg",
+    "2019/07/16/a3f65b8c-4b57-4194-a3a1-5769f1d63373.jpeg",
+    "2019/07/16/036ba8da-a8ff-45ad-9dcf-d2fa7f1420db.jpeg"
+  ],
   "category": "backpacking",
   "coordinates": "46.699222° N, 12.085207° E",
   "tags": [
@@ -18,12 +23,23 @@
     "italy",
     "backpacking"
   ],
+  "position": [
+    "45.5%",
+    "50.5%"
+  ],
+  "notes": [
+    "Location in Northern Italy the mountain range known as The Dolomites contains a series of trails known as the Alta Via. This was a thru-hike of Alta Via 1 heading from from North to South passing over jagged ridges, across vertical mountain walls, and uniquely-shaped mountains.",
+    "Total distance covered was 65 miles, over 10 days. Elevation gain/loss totals for the entire trek were marginal at 25,109 ft (7,653 m) gained and 28,590 ft (8,714 m) lossed.",
+    "This trek had some of the best food I have ever eaten on a thru-hike."
+  ],
   "images": [
     {
       "src": "2019/07/16/eba70b28-4c7d-45f3-aa93-46b24011cb80.jpeg",
       "title": "Lago de Braies",
       "location": "Province of Belluno",
       "date": "07/16/2019",
+      "elevation": 4885,
+      "notes": "Looking out at the start of the trail on the other side of the lake",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -38,6 +54,8 @@
       "title": "Croda del Becco",
       "location": "Province of Belluno",
       "date": "07/16/2019",
+      "elevation": 9135,
+      "notes": "Summit of Croda del Becco and highest point of entire trek, Lago de Braies is below",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -52,6 +70,8 @@
       "title": "Purple mountain silhouette",
       "location": "Province of Belluno",
       "date": "07/16/2019",
+      "elevation": 7642,
+      "notes": "Sunset and onset of night in the mountains",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -66,34 +86,8 @@
       "title": "Mountain stream",
       "location": "Province of Bolzano",
       "date": "07/17/2019",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
-      }
-    },
-    {
-      "src": "2019/07/16/ad67948d-0d8b-45c5-b2d8-21b875467dfd.jpeg",
-      "title": "Distant mountains",
-      "location": "Province of Bolzano",
-      "date": "07/17/2019",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
-      }
-    },
-    {
-      "src": "2019/07/16/5c81e957-0ad2-47f8-9d02-f87fbc2c5a33.jpeg",
-      "title": "Valley hut",
-      "location": "Province of Bolzano",
-      "date": "07/17/2019",
+      "elevation": 6603,
+      "notes": "Soaking sore feet in an ice-cold mountain stream",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -108,34 +102,8 @@
       "title": "Lavarella",
       "location": "Province of Bolzano",
       "date": "07/17/2019",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
-      }
-    },
-    {
-      "src": "2019/07/16/081c1b83-7036-4c3c-aa2f-0534f4250ab8.jpeg",
-      "title": "Stone gateway",
-      "location": "Province of Bolzano",
-      "date": "07/18/2019",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 25
-      }
-    },
-    {
-      "src": "2019/07/16/9b6b9f11-694c-427a-b2b1-3fc8d24984e6.jpeg",
-      "title": "Cloud inversion",
-      "location": "Province of Bolzano",
-      "date": "07/18/2019",
+      "elevation": 6681,
+      "notes": "Exploring the grounds of Rifugio Lavarella",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -150,6 +118,8 @@
       "title": "To the pass",
       "location": "Province of Bolzano",
       "date": "07/18/2019",
+      "elevation": 7453,
+      "notes": "Halfway through third day of the trek",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -160,52 +130,28 @@
       }
     },
     {
-      "src": "2019/07/16/6de3fca2-55d7-48d4-865b-de21929731a6.jpeg",
-      "title": "The wall",
+      "src": "2019/07/16/081c1b83-7036-4c3c-aa2f-0534f4250ab8.jpeg",
+      "title": "Stone gateway",
       "location": "Province of Bolzano",
       "date": "07/18/2019",
+      "elevation": 7659,
+      "notes": "Crest of mountain pass with another far in the distance",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
         "exposure": "0.0",
         "fnumber": "1.80",
         "focal": 28,
-        "iso": 20
-      }
-    },
-    {
-      "src": "2019/07/16/0ad9ccd7-d464-4d31-812f-db0781724749.jpeg",
-      "title": "Mountain lake",
-      "location": "Province of Bolzano",
-      "date": "07/18/2019",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
-      }
-    },
-    {
-      "src": "2019/07/16/eb243b48-8084-4c7e-94c0-5a163983d407.jpeg",
-      "title": "Imposing mountain",
-      "location": "Province of Belluno",
-      "date": "07/19/2019",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
+        "iso": 25
       }
     },
     {
       "src": "2019/07/16/bc2d165d-b858-45a8-94c8-e790da8ac517.jpeg",
-      "title": "Red rocks",
+      "title": "Red and gray mountain-side",
       "location": "Province of Belluno",
       "date": "07/19/2019",
+      "elevation": 8433,
+      "notes": "Landslide/blizzard barriers",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -216,24 +162,12 @@
       }
     },
     {
-      "src": "2019/07/16/2cd7f474-ddef-498e-8348-e82903a64ba8.jpeg",
-      "title": "Mountain road",
-      "location": "Province of Belluno",
-      "date": "07/19/2019",
-      "exif": {
-        "aperture": "2/5261",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "2.40",
-        "focal": 55,
-        "iso": 16
-      }
-    },
-    {
       "src": "2019/07/16/a3f65b8c-4b57-4194-a3a1-5769f1d63373.jpeg",
-      "title": "Pandora-esque",
+      "title": "Cinque Torri",
       "location": "Province of Belluno",
       "date": "07/20/2019",
+      "elevation": 7167,
+      "notes": "Pandora-esque rock formation",
       "exif": {
         "aperture": "2/5261",
         "camera": "iPhone X",
@@ -245,9 +179,11 @@
     },
     {
       "src": "2019/07/16/036ba8da-a8ff-45ad-9dcf-d2fa7f1420db.jpeg",
-      "title": "Mountain throne",
+      "title": "Tilted ground",
       "location": "Province of Belluno",
       "date": "07/20/2019",
+      "elevation": 7642,
+      "notes": "Bright green rift between upended earth",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -262,6 +198,8 @@
       "title": "Ruins on the edge",
       "location": "Province of Belluno",
       "date": "07/20/2019",
+      "elevation": 7288,
+      "notes": "Watch your step",
       "exif": {
         "aperture": "2/5261",
         "camera": "iPhone X",
@@ -272,38 +210,12 @@
       }
     },
     {
-      "src": "2019/07/16/b1128805-54bb-4b7b-adcb-f2b6ae3fada6.jpeg",
-      "title": "Self-portrait",
-      "location": "Province of Belluno",
-      "date": "07/21/2019",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
-      }
-    },
-    {
-      "src": "2019/07/16/61135f61-828e-4119-b558-31328bfd5d16.jpeg",
-      "title": "Blazed",
-      "location": "Province of Belluno",
-      "date": "07/21/2019",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
-      }
-    },
-    {
       "src": "2019/07/16/5323f319-71fc-4fa3-afa4-f7d52abc6966.jpeg",
       "title": "Lonely mountain",
       "location": "Province of Belluno",
       "date": "07/21/2019",
+      "elevation": 6151,
+      "notes": "Surrounded on all sides by forests, beginning of day six",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -318,6 +230,8 @@
       "title": "A way down",
       "location": "Province of Belluno",
       "date": "07/21/2019",
+      "elevation": 6987,
+      "notes": "Re-supply system for Rifugio Coldai",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -325,41 +239,15 @@
         "fnumber": "1.80",
         "focal": 28,
         "iso": 25
-      }
-    },
-    {
-      "src": "2019/07/16/fd1e2c00-1b26-41b7-8dc7-5a1bee45af88.jpeg",
-      "title": "From above",
-      "location": "Province of Belluno",
-      "date": "07/21/2019",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
-      }
-    },
-    {
-      "src": "2019/07/16/f26b4134-305f-48cd-9736-48ab1de61044.jpeg",
-      "title": "The Wall I",
-      "location": "Province of Belluno",
-      "date": "07/21/2019",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
       }
     },
     {
       "src": "2019/07/16/00e52f77-3f2b-4bac-9fba-463d9ae4dff1.jpeg",
-      "title": "The Wall II",
+      "title": "The Wall",
       "location": "Province of Belluno",
       "date": "07/21/2019",
+      "elevation": 7411,
+      "notes": "Relaxing at Rifugio Tissi, gazing out towards a wall of jagged peaks",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -367,20 +255,6 @@
         "fnumber": "1.80",
         "focal": 28,
         "iso": 20
-      }
-    },
-    {
-      "src": "2019/07/16/0f9725df-1461-46fb-93f7-6b0faa457535.jpeg",
-      "title": "The Wall III",
-      "location": "Province of Belluno",
-      "date": "07/21/2019",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 25
       }
     },
     {
@@ -388,62 +262,8 @@
       "title": "Walking with cows",
       "location": "Province of Belluno",
       "date": "07/22/2019",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
-      }
-    },
-    {
-      "src": "2019/07/16/cdbf62b5-87fc-4d54-b4ca-46403bd9b61b.jpeg",
-      "title": "Forest chapel",
-      "location": "Province of Belluno",
-      "date": "07/22/2019",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
-      }
-    },
-    {
-      "src": "2019/07/16/ddd6a57b-8914-4fe7-9988-332657f39032.jpeg",
-      "title": "Snowy crevasse",
-      "location": "Province of Belluno",
-      "date": "07/22/2019",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
-      }
-    },
-    {
-      "src": "2019/07/16/21806386-052d-4a82-941e-6728771acd63.jpeg",
-      "title": "Scree-streaked mountains",
-      "location": "Province of Belluno",
-      "date": "07/23/2019",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
-      }
-    },
-    {
-      "src": "2019/07/16/0b8b7ac9-7511-4dea-9dae-19cb542916b4.jpeg",
-      "title": "Fields, trees, mountains",
-      "location": "Province of Belluno",
-      "date": "07/23/2019",
+      "elevation": 6218,
+      "notes": "Starting off day seven with stinky friends",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -458,20 +278,8 @@
       "title": "Army barrack ruins",
       "location": "Province of Belluno",
       "date": "07/23/2019",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
-      }
-    },
-    {
-      "src": "2019/07/16/2982a2fe-75f6-473a-8d98-2c664c5cd38e.jpeg",
-      "title": "Mountain peaks",
-      "location": "Province of Belluno",
-      "date": "07/24/2019",
+      "elevation": 6371,
+      "notes": "Artifacts from world wars",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -486,6 +294,8 @@
       "title": "Icy-blue",
       "location": "Province of Belluno",
       "date": "07/24/2019",
+      "elevation": 7316,
+      "notes": "Everything tinted sky blue",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -496,24 +306,12 @@
       }
     },
     {
-      "src": "2019/07/16/9f13c303-6887-4602-a9f8-fa04675e9328.jpeg",
-      "title": "This way",
+      "src": "2019/07/16/62a0ffe0-dafd-4399-a9e0-fa5f276ae90b.jpeg",
+      "title": "A flock of sheep",
       "location": "Province of Belluno",
       "date": "07/24/2019",
-      "exif": {
-        "aperture": "2/5261",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "2.40",
-        "focal": 53,
-        "iso": 16
-      }
-    },
-    {
-      "src": "2019/07/16/a8b787bf-ee4c-4b1e-86d5-96ee19f2663f.jpeg",
-      "title": "Sky on fire",
-      "location": "Province of Belluno",
-      "date": "07/24/2019",
+      "elevation": 5368,
+      "notes": "Where all the cheese and milk comes from, up here",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -528,20 +326,8 @@
       "title": "Like a painting",
       "location": "Province of Belluno",
       "date": "07/25/2019",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
-      }
-    },
-    {
-      "src": "2019/07/16/a81d7f5a-a3a5-43a0-ad73-90d2f1bbe841.jpeg",
-      "title": "Journey's end",
-      "location": "Province of Belluno",
-      "date": "07/25/2019",
+      "elevation": 5617,
+      "notes": "Beginning of the end, starting our descent back to civilization",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",

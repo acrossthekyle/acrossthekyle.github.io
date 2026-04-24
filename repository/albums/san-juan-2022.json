@@ -9,6 +9,9 @@
   "location": "Puerto Rico",
   "category": "destinations",
   "coordinates": "18.466333° N, 66.105722° W",
+  "cover": [
+    "2022/03/23/9f212336-298d-4c7d-874f-a3be34c95d7d.jpeg"
+  ],
   "tags": [
     "cityscape",
     "landscape",
@@ -17,12 +20,21 @@
     "caribbean",
     "destination"
   ],
+  "position": [
+    "58%",
+    "25.5%"
+  ],
+  "notes": [
+    "Escaping the trailing remnants of winter in Chicago by absconding last-minute down to Puerto Rico, walking its beaches, exploring the forts, and cliff jumping in the rain forests for a few days."
+  ],
   "images": [
     {
       "src": "2022/03/23/9f212336-298d-4c7d-874f-a3be34c95d7d.jpeg",
       "title": "Beach walks",
       "location": "Ocean Park Beach",
       "date": "03/22/2022",
+      "elevation": 21,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -37,6 +49,8 @@
       "title": "Castillo San Felipe del Morro",
       "location": "Old City, San Juan",
       "date": "03/23/2022",
+      "elevation": 101,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -51,6 +65,8 @@
       "title": "Rain forest",
       "location": "El Yunque",
       "date": "03/24/2022",
+      "elevation": 464,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",

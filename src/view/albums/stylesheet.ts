@@ -16,10 +16,12 @@ const styles = tw({
     group
     relative
     h-auto w-full
-    mx-3
+    mx-5
 
     motion-safe:duration-700
     ${isInView ? 'motion-safe:top-0 motion-safe:opacity-100' : 'motion-safe:top-20 motion-safe:opacity-0'}
+
+    lg:mx-3
   `),
   image: `
     aspect-12/16
@@ -30,7 +32,7 @@ const styles = tw({
     motion-safe:transition-all
     motion-safe:group-hover:grayscale-0
     motion-safe:group-hover:contrast-100
-    motion-safe:group-hover:scale-105
+    motion-safe:group-hover:scale-101
   `,
 });
 

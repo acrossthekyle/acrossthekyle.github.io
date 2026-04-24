@@ -9,6 +9,12 @@
   "location": "France",
   "category": "backpacking",
   "coordinates": "42.50742° N, 8.85544° E",
+  "cover": [
+    "2023/06/21/f0cd0897-3fc9-47a2-808e-e1627dfb45bc.jpeg",
+    "2023/06/21/85f2be7c-e2ab-421a-ab16-c28b671496a0.jpeg",
+    "2023/06/21/2cc8532b-6441-49fb-927e-ebdb001b78cf.jpeg",
+    "2023/06/21/8f85de22-b937-4ea5-9dfa-e45eb357e7b8.jpeg"
+  ],
   "tags": [
     "landscape",
     "trail",
@@ -19,12 +25,22 @@
     "france",
     "backpacking"
   ],
+  "position": [
+    "49%",
+    "48.25%"
+  ],
+  "notes": [
+    "Known locally as Fra Li Monti (Corsican for 'across the mountains'), and considered to be the most difficult of all trails in Europe, the GR 20 is a footpath that traverses the Mediterranean island of Corsica from North to South along its spiny mountainous backbone over a distance of 131 miles and taking 13 days to complete.",
+    "Between the Northern starting point at Calenzana and the end at Conca in the South, there are hidden mountain lakes, expansive sea views, rugged and rocky cliffs, and remarkable panoramas. The highest point on the trek was 8,554 ft (2,607 m)."
+  ],
   "images": [
     {
       "src": "2023/06/21/74223fbe-db85-402a-ae25-00fc5e3e75b0.jpeg",
       "title": "Leaving Calenzana",
       "location": "Calenzana",
       "date": "06/21/2023",
+      "elevation": 1238,
+      "notes": "Beginning of day one on the GR 20",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -39,6 +55,8 @@
       "title": "Entering spiny mountains",
       "location": "Calenzana",
       "date": "06/21/2023",
+      "elevation": 2682,
+      "notes": "Gaining elevation, heading towards D'Ortu Di U Piobbu",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",
@@ -53,6 +71,8 @@
       "title": "Refuge sunrise",
       "location": "Calenzana",
       "date": "06/22/2023",
+      "elevation": 5061,
+      "notes": "Morning at Refuge D'Ortu Di U Piobbu",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -63,38 +83,12 @@
       }
     },
     {
-      "src": "2023/06/21/8e532160-2e12-4810-9de3-f87fd9094e77.jpeg",
-      "title": "Little oasis",
-      "location": "Calenzana",
-      "date": "06/22/2023",
-      "exif": {
-        "aperture": "1/1699",
-        "camera": "iPhone 13 Pro",
-        "exposure": "0.0",
-        "fnumber": "1.50",
-        "focal": 26,
-        "iso": 50
-      }
-    },
-    {
-      "src": "2023/06/21/7635f0bd-2851-4916-94bf-84bf9bf1d6ae.jpeg",
-      "title": "Stepping stones",
-      "location": "Calenzana",
-      "date": "06/22/2023",
-      "exif": {
-        "aperture": "1/1699",
-        "camera": "iPhone 13 Pro",
-        "exposure": "0.0",
-        "fnumber": "1.50",
-        "focal": 26,
-        "iso": 50
-      }
-    },
-    {
       "src": "2023/06/21/e2d0721f-2c3f-4367-8f7b-1176c94b3e2c.jpeg",
       "title": "Steap peaks",
       "location": "Asco",
       "date": "06/22/2023",
+      "elevation": 6420,
+      "notes": "Heading towards Refuge de Carozzu",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",
@@ -105,10 +99,12 @@
       }
     },
     {
-      "src": "2023/06/21/ca6423d0-daea-4b8c-8a75-7eb28a102c85.jpeg",
-      "title": "Sea views",
-      "location": "Asco",
-      "date": "06/22/2023",
+      "src": "2023/06/21/4b13a3d8-a55c-4bed-b887-ad3490ab964f.jpeg",
+      "title": "Waterfall in shadow",
+      "location": "Albertacce",
+      "date": "06/23/2023",
+      "elevation": 4991,
+      "notes": "Morning ascent out of Carozzu",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -119,10 +115,12 @@
       }
     },
     {
-      "src": "2023/06/21/4b13a3d8-a55c-4bed-b887-ad3490ab964f.jpeg",
-      "title": "Waterfall in shadow",
-      "location": "Albertacce",
+      "src": "2023/06/21/ca6423d0-daea-4b8c-8a75-7eb28a102c85.jpeg",
+      "title": "Mediterranean Sea views",
+      "location": "Asco",
       "date": "06/23/2023",
+      "elevation": 6234,
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -137,6 +135,8 @@
       "title": "Jagged peaks",
       "location": "Albertacce",
       "date": "06/23/2023",
+      "elevation": 6561,
+      "notes": "Approaching Ascu Stangu, a hotel with a campground, and our stop for the day",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -151,20 +151,8 @@
       "title": "Morning ascent waterfall",
       "location": "Vergio",
       "date": "06/24/2023",
-      "exif": {
-        "aperture": "1/1699",
-        "camera": "iPhone 13 Pro",
-        "exposure": "0.0",
-        "fnumber": "1.50",
-        "focal": 26,
-        "iso": 50
-      }
-    },
-    {
-      "src": "2023/06/21/c82d6b0c-7f2c-4821-87ed-e546f7299eba.jpeg",
-      "title": "Clouds approaching",
-      "location": "Vergio",
-      "date": "06/24/2023",
+      "elevation": 4958,
+      "notes": "Gaining altitude quickly after leaving Ascu Stangu",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -179,6 +167,8 @@
       "title": "Highest point",
       "location": "Vergio",
       "date": "06/24/2023",
+      "elevation": 8530,
+      "notes": "The apex of the trek",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -190,9 +180,11 @@
     },
     {
       "src": "2023/06/21/890e4521-9658-472a-93a6-f94eff46c612.jpeg",
-      "title": "stony water oasis",
+      "title": "Stony water oasis",
       "location": "Vergio",
       "date": "06/24/2023",
+      "elevation": 4711,
+      "notes": "Soaking sore feet in ice-cold water at Auberge U Vallone",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -207,6 +199,8 @@
       "title": "Green mountainside",
       "location": "Orto",
       "date": "06/25/2023",
+      "elevation": 6075,
+      "notes": "A look back after descending from the highest point on today's stage",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -221,6 +215,8 @@
       "title": "Swimming hole",
       "location": "Orto",
       "date": "06/25/2023",
+      "elevation": 5234,
+      "notes": "Taking a dip on a hot day",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",
@@ -235,6 +231,8 @@
       "title": "Morning forest steps",
       "location": "Venaco",
       "date": "06/26/2023",
+      "elevation": 4395,
+      "notes": "Leaving Hotel Castel di Vergio after a restless night in a hotel room, no more hotels after this point",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -249,6 +247,8 @@
       "title": "Bog lake",
       "location": "Venaco",
       "date": "06/26/2023",
+      "elevation": 6005,
+      "notes": "Viewing a rest stop from above",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -263,6 +263,8 @@
       "title": "Refuge in the distance",
       "location": "Venaco",
       "date": "06/26/2023",
+      "elevation": 5218,
+      "notes": "Nearly there, Refuge de Manganu",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -277,6 +279,8 @@
       "title": "Green bog maze",
       "location": "Vivario",
       "date": "06/27/2023",
+      "elevation": 5866,
+      "notes": "Heading towards Refuge de Petra Paian",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",
@@ -287,10 +291,12 @@
       }
     },
     {
-      "src": "2023/06/21/05769f04-5b00-4fd5-a233-55c00c9871c5.jpeg",
-      "title": "Mountain lake",
+      "src": "2023/06/21/a5204ac0-6201-442d-ad2c-6d33b4254164.jpeg",
+      "title": "Mountain lakes",
       "location": "Vivario",
       "date": "06/27/2023",
+      "elevation": 7256,
+      "notes": "Highlight of the day, and the cheese fries at the refuge later that day",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -304,7 +310,9 @@
       "src": "2023/06/21/4e7bda74-809e-48a9-a904-5645bf2e7dde.jpeg",
       "title": "Mountain-cascading clouds",
       "location": "Vivario",
-      "date": "06/28/2023",
+      "date": "06/27/2023",
+      "elevation": 6059,
+      "notes": "Night at Refuge de Petra Piana",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",
@@ -319,6 +327,8 @@
       "title": "Steep stony descent",
       "location": "Vivario",
       "date": "06/28/2023",
+      "elevation": 4601,
+      "notes": "Bound for Refuge de l'Onda",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -333,6 +343,8 @@
       "title": "Wide forest paths",
       "location": "Vivario",
       "date": "06/28/2023",
+      "elevation": 3661,
+      "notes": "Such luxorious walking on wide flat paths",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -347,6 +359,8 @@
       "title": "Another swimming hole",
       "location": "Vivario",
       "date": "06/28/2023",
+      "elevation": 3058,
+      "notes": "Cooling off before making the climb up to the Refuge and lasagna for dinner",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -361,6 +375,8 @@
       "title": "Cloud inversion",
       "location": "Vivario",
       "date": "06/29/2023",
+      "elevation": 6072,
+      "notes": "An ever-amazing sight, and the division between the north and south parts of the trek",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",
@@ -375,6 +391,8 @@
       "title": "Rain evaporation",
       "location": "Palneca",
       "date": "06/30/2023",
+      "elevation": 3001,
+      "notes": "A wet delayed start on the southern portion in Vizzavona",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -385,24 +403,12 @@
       }
     },
     {
-      "src": "2023/06/21/54334c14-8bae-4478-97f7-179f79cd2ca6.jpeg",
-      "title": "Lush greenery",
-      "location": "",
-      "date": "06/30/2023",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone 13 Pro",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 13,
-        "iso": 32
-      }
-    },
-    {
       "src": "2023/06/21/79397086-87c9-454d-ac0d-55222a117a15.jpeg",
       "title": "Felled giants",
       "location": "Palneca",
       "date": "06/30/2023",
+      "elevation": 4736,
+      "notes": "One stage down, another to go, on day one of the sourthern stretch",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -413,10 +419,28 @@
       }
     },
     {
+      "src": "2023/06/21/54334c14-8bae-4478-97f7-179f79cd2ca6.jpeg",
+      "title": "Lush greenery",
+      "location": "Palneca",
+      "date": "06/30/2023",
+      "elevation": 5008,
+      "notes": "Combining stages and heading for Bocca di Verdi",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 13,
+        "iso": 32
+      }
+    },
+    {
       "src": "2023/06/21/37e9f8dd-05c9-498b-be6e-86d633715c24.jpeg",
       "title": "Cloud wall",
       "location": "Cozzano",
       "date": "07/01/2023",
+      "elevation": 6434,
+      "notes": "Obscured conditions approaching",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -431,6 +455,8 @@
       "title": "Clouds lifting",
       "location": "Cozzano",
       "date": "07/01/2023",
+      "elevation": 5518,
+      "notes": "Trail is visible in the distance once more after hiking through dense cloud fall",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -445,6 +471,8 @@
       "title": "Riding out the storm",
       "location": "Cozzano",
       "date": "07/01/2023",
+      "elevation": 5660,
+      "notes": "Bad weather rolled in at Refuge d'Usciolu, and my ultralight tent failed, had to seek refuge in a refuge-provided bomb-proof tent for the night",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -455,10 +483,12 @@
       }
     },
     {
-      "src": "2023/06/21/5c42ffad-bb57-49cf-b6bc-2261774b47c0.jpeg",
-      "title": "Through the trees",
+      "src": "2023/06/21/4f9f9b60-3bb6-47a4-8d0e-218d430742dd.jpeg",
+      "title": "Morning after the storm",
       "location": "Quenza",
       "date": "07/02/2023",
+      "elevation": 5713,
+      "notes": "Bright clear skies in the morning of the second to last day",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -470,9 +500,11 @@
     },
     {
       "src": "2023/06/21/d36a683f-4d95-4b0c-987d-d190336c49ee.jpeg",
-      "title": "Nothing but greenery",
+      "title": "Nothing but green fields",
       "location": "Quenza",
       "date": "07/02/2023",
+      "elevation": 4693,
+      "notes": "Combining stages once more as I head towards Refuge d'Asinau, the last one on my trek of the GR 20",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -487,6 +519,8 @@
       "title": "Ferns",
       "location": "Corse-du-Sud",
       "date": "07/03/2023",
+      "elevation": 3382,
+      "notes": "Halfway through the last day, after getting lost a couple of times",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -501,6 +535,8 @@
       "title": "Gateway to Conca",
       "location": "Corse-du-Sud",
       "date": "07/03/2023",
+      "elevation": 1863,
+      "notes": "The ceremonial end of the GR 20 after combining two more stages in order to finish the trek today",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",

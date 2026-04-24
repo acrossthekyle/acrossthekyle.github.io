@@ -13,13 +13,13 @@ export default function Template() {
   return (
     <article className={styles.container}>
       <h2 className={styles.header} id="dialog-header">
-        Kyle
+        Hi, I'm Kyle
         <span className={styles.subheader}>
-          A collection of hikes, summits, and experiences
+          /kī(ə)l/ • Gaelic • Channel, sound, or strait
         </span>
       </h2>
       <button
-        aria-label="close"
+        aria-label="close info"
         className={styles.close}
         onClick={onClose}
         type="button"
@@ -48,10 +48,9 @@ export default function Template() {
         />
         <figcaption className={styles.caption}>
           <address className={styles.author}>
-            Kyle Gilbert
+            <span className={styles.signature}>Kyle G.</span>
             <span className={styles.title}>See you out there</span>
           </address>
-          <span className={styles.signature}>Kyle G.</span>
         </figcaption>
       </figure>
       <div className={styles.spacer} />

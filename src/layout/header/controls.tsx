@@ -1,6 +1,7 @@
 'use client';
 
 import { GripHorizontal, LensConcave, TextCursorInput } from 'lucide-react';
+import { useRouter } from 'next/navigation';
 import { useEffect } from 'react';
 
 import { useDialog } from '@/hooks/useDialog';
@@ -18,6 +19,8 @@ export default function Controls({ data, isFiltering }: Props) {
   const { onOpen } = useDialog();
   const { view, onView } = useView();
 
+  const router = useRouter();
+
   useEffect(() => {
     if (isFiltering) {
       onView('library');
@@ -27,6 +30,8 @@ export default function Controls({ data, isFiltering }: Props) {
 
   const handleOnChange = (value: string) => {
     onView(value);
+
+    router.replace('/');
 
     setTimeout(() => {
       window.scrollTo(0, 0);
@@ -49,6 +54,7 @@ export default function Controls({ data, isFiltering }: Props) {
     >
       <div className={styles.group}>
         <button
+          aria-label="switch to slider view"
           className={`${styles.button(view === 'albums')} ${styles.first}`}
           onClick={() => handleOnChange('albums')}
           type="button"
@@ -57,6 +63,7 @@ export default function Controls({ data, isFiltering }: Props) {
           Albums
         </button>
         <button
+          aria-label="switch to grid view"
           className={styles.button(view === 'library')}
           onClick={() => handleOnChange('library')}
           type="button"
@@ -65,6 +72,7 @@ export default function Controls({ data, isFiltering }: Props) {
           Library
         </button>
         <button
+          aria-label="enable search dialog"
           className={`${styles.button(false)} ${styles.last}`}
           onClick={handleOnSearch}
           type="button"
