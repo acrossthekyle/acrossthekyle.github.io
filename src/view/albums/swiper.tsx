@@ -23,9 +23,6 @@ const BREAKPOINTS = {
     slidesPerView: 3,
   },
   1098: {
-    slidesPerView: 4,
-  },
-  1470: {
     slidesPerView: 5,
   },
 };
@@ -41,7 +38,15 @@ export default function Plugin({ data, onClick }: Props) {
   useEffect(() => {
     setTimeout(() => {
       if (swiperRef.current !== null) {
-        swiperRef.current.slideTo(11, 1250);
+        const width = window.innerWidth;
+
+        if (width >= 1098) {
+          swiperRef.current.slideTo(11, 1250);
+        } else if (width >= 640) {
+          swiperRef.current.slideTo(7, 1250);
+        } else {
+          swiperRef.current.slideTo(3, 1250);
+        }
       }
     }, 4200);
   }, []);
@@ -67,7 +72,7 @@ export default function Plugin({ data, onClick }: Props) {
         className={styles.container(isInView)}
         modules={[A11y, FreeMode, Keyboard, Mousewheel]}
         a11y
-        slidesPerView={2}
+        slidesPerView={1}
         keyboard
         grabCursor
         resistance={false}
@@ -101,7 +106,7 @@ export default function Plugin({ data, onClick }: Props) {
               key={item.id}
             >
               <button
-                aria-label="view album details"
+                aria-label={`view ${item.title.toLowerCase()} album details`}
                 className={styles.cta(isInView)}
                 onClick={() => handleOnClick(item)}
                 style={{ transitionDelay: `${delay === 0 ? '0s' : 2 + delay}s` }}

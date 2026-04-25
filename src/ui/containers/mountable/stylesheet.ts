@@ -9,7 +9,8 @@ const styles = {
         translate-x-0
         translate-y-0
 
-        motion-safe:animate-fade-in-up-delayed
+        motion-safe:opacity-0
+        motion-safe:animate-fade-in-up-slightly-delayed
       `);
     }
 

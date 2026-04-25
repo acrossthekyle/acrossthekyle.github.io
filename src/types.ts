@@ -33,8 +33,3 @@ export type Album = {
   title: string;
   when: string;
 };
-
-export type FilterBy = {
-  category?: string;
-  id?: string;
-};

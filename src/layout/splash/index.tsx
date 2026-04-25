@@ -35,6 +35,10 @@ export default function Splash() {
         <p className={styles.paragraph}>
           A collection of my hikes, summits, and experiences
         </p>
+        <p className={styles.moment}>The bits are flowing <em>really</em> slowly today...</p>
+        <p className={styles.working}>Maybe the internet needs more dilithium crystals?</p>
+        <p className={styles.sorry}>Seeing if the minions are awake...</p>
+        <p className={styles.ok}>Well, this is just embarrassing...</p>
       </div>
     </div>
   );

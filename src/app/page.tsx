@@ -5,18 +5,12 @@ import View from '@/view';
 
 import get from './get';
 
-type Params = {
-  searchParams: { [key: string]: string | undefined };
-};
-
-export default async function Page({ searchParams }: Params) {
-  const { a, c } = await searchParams;
-
+export default async function Page() {
   const data = await get();
 
   return (
     <Suspense fallback={<Ui.Loaders.Fallback />}>
-      <View data={data} filterBy={{ id: a, category: c}} />
+      <View data={data} />
     </Suspense>
   );
 }

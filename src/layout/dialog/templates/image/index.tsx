@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 
 import { useDialog } from '@/hooks/useDialog';
@@ -22,12 +22,23 @@ export default function Template({ data }: Props) {
   const [isViewingNotes, setIsViewingNotes] = useState(false);
   const [isRenderingDetails,  setIsRenderingDetails] = useState(false);
 
-  const { onClose } = useDialog();
+  const { onClose, onDone } = useDialog();
   const { onView } = useView();
 
   const [inViewRef, isInView] = useInView({
     threshold: 0,
   });
+
+  const handleOnDone = () => {
+    setIsViewingNotes(false);
+    setIsRenderingDetails(false);
+  };
+
+  useEffect(() => {
+    onDone(() => {
+      handleOnDone();
+    });
+  }, [onDone, isRenderingDetails, isViewingNotes]);
 
   const handleOnAlbum = () => {
     onClose();
@@ -50,9 +61,6 @@ export default function Template({ data }: Props) {
   }
 
   const handleOnClose = () => {
-    setIsRenderingDetails(false);
-    setIsViewingNotes(false);
-
     onClose();
   };
 

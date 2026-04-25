@@ -19,34 +19,27 @@ type UnitsContextType = {
 
 export const UnitsContext = createContext<UnitsContextType | null>(null);
 
-type Props = {
-  current: string;
-};
-
-export default function UnitsProvider({
-  children,
-  current,
-}: PropsWithChildren<Props>) {
-  const [value, setValue] = useState(current);
+export default function UnitsProvider({ children }: PropsWithChildren) {
+  const [units, setUnits] = useState('imperial');
 
   const handleOnChange = useCallback((data: string) => {
-    setValue(data);
+    setUnits(data);
   }, []);
 
   return (
     <UnitsContext.Provider value={{
       labels: {
         length: {
-          macro: value === 'imperial' ? 'miles' : 'kilometers',
-          micro: value === 'imperial' ? 'ft' : 'm',
+          macro: units === 'imperial' ? 'miles' : 'kilometers',
+          micro: units === 'imperial' ? 'ft' : 'm',
         },
         weight: {
-          macro: value === 'imperial' ? 'lbs' : 'kgs',
-          micro: value === 'imperial' ? 'oz' : 'g',
+          macro: units === 'imperial' ? 'lbs' : 'kgs',
+          micro: units === 'imperial' ? 'oz' : 'g',
         },
       },
       onUnits: handleOnChange,
-      units: value,
+      units,
     }}>
       {children}
     </UnitsContext.Provider>

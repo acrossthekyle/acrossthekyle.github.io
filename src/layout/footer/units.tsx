@@ -2,28 +2,21 @@
 
 import { Footprints, Stone } from 'lucide-react';
 
-import { setUnits } from '@/app/actions';
 import { useUnits } from '@/hooks/useUnits';
 
 import styles from './stylesheet';
 
-type Props = {
-  current: string;
-};
-
-export default function Units({ current }: Props) {
-  const { onUnits } = useUnits();
+export default function Units() {
+  const { onUnits, units } = useUnits();
 
   const handleOnChange = (value: string) => {
     onUnits(value);
-
-    setUnits(value);
   };
 
   return (
     <>
       <button
-        className={styles.button(current === 'imperial')}
+        className={styles.button(units === 'imperial')}
         onClick={() => handleOnChange('imperial')}
         title="Imperial units"
         type="button"
@@ -31,7 +24,7 @@ export default function Units({ current }: Props) {
         <Footprints className={styles.icon} />
       </button>
       <button
-        className={styles.button(current === 'metric')}
+        className={styles.button(units === 'metric')}
         onClick={() => handleOnChange('metric')}
         title="Metric units"
         type="button"

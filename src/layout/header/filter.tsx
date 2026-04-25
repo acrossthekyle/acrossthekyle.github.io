@@ -1,60 +1,61 @@
 'use client';
 
 import { X } from 'lucide-react';
-import { useRouter } from 'next/navigation';
 
+import { useFilter } from '@/hooks/useFilter';
 import { useView } from '@/hooks/useView';
-import type { Album, FilterBy } from '@/types';
+import type { Album } from '@/types';
 
 import styles from './stylesheet';
 
 type Props = {
   data: Album[];
-  filterBy: FilterBy;
-  isFiltering: boolean;
 };
 
-function getMetaData(data: Album[], filterBy: FilterBy) {
-  if (!!filterBy.category) {
+function getMetaData(
+  data: Album[],
+  filterId: string | null,
+  filterType: string | null,
+) {
+  if (filterType === 'category') {
     const filtered = data.filter(({ category }) =>
-      category.toLowerCase() === filterBy.category?.toLowerCase()
+      category.toLowerCase() === (filterId || '').toLowerCase()
     );
 
     return {
       count: filtered.reduce((sum, album) => sum + album.images.length, 0),
-      label: filtered.length > 0 ? filtered[0].category : '404 Not Found',
+      label: filtered.length > 0 ? filtered[0].category : 'Not Found',
     };
   }
 
-  if (!!filterBy.id) {
-    const filtered = data.find(({ id }) => id === filterBy.id);
+  if (filterType === 'album') {
+    const filtered = data.find(({ id }) => id === (filterId || ''));
 
     return {
       count: filtered?.images.length || 0,
-      label: filtered?.title || '404 Not Found',
+      label: filtered?.title || 'Not Found',
     };
   }
 
   return {
     count: 0,
-    label: '404 Not Found',
+    label: 'Not Found',
   };
 }
 
-export default function Filter({ data, filterBy, isFiltering }: Props) {
-  const router = useRouter();
-
+export default function Filter({ data }: Props) {
+  const { filterId, filterType, isFiltering, onUnfilter } = useFilter();
   const { view } = useView();
 
   const handleOnReset = () => {
-    router.push('/');
+    onUnfilter();
   };
 
   if (!isFiltering) {
     return null;
   }
 
-  const meta = getMetaData(data, filterBy);
+  const meta = getMetaData(data, filterId, filterType);
 
   return (
     <section

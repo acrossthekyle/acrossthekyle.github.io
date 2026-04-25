@@ -28,6 +28,7 @@ type DialogContextType = {
   onBackdrop: (event: MouseEvent<HTMLDialogElement>) => void;
   onCancel: (event: KeyboardEvent<HTMLDialogElement>) => void;
   onClose: () => void;
+  onDone: (callback: () => void) => void;
   onOpen: (input: Input) => void;
   isOpen: boolean;
 };
@@ -40,6 +41,7 @@ export default function DialogProvider({ children }: PropsWithChildren) {
     data: {},
     template: '',
   });
+  const [onDoneCallback, setOnDoneCallback] = useState<(() => void) | null>(null);
 
   const dialog = useRef<HTMLDialogElement | null>(null);
 
@@ -51,29 +53,31 @@ export default function DialogProvider({ children }: PropsWithChildren) {
     requestAnimationFrame(() => setIsOpen(true));
   }, []);
 
+  const handleOnDoneCallback = useCallback(() => {
+    if (onDoneCallback !== null) {
+      onDoneCallback();
+
+      setOnDoneCallback(null);
+    }
+  }, [onDoneCallback]);
+
   const handleOnClose = useCallback(() => {
     setIsOpen(false);
 
-    const handleTransitionEnd = () => {
-      dialog.current?.close();
+    handleOnDoneCallback();
 
-      dialog.current?.removeEventListener('transitionend', handleTransitionEnd);
+    const node = dialog.current;
+
+    const handleTransitionEnd = () => {
+      node?.close();
     };
 
-    dialog.current?.addEventListener('transitionend', handleTransitionEnd);
-  }, []);
+    node?.addEventListener('transitionend', handleTransitionEnd, { once: true });
+  }, [handleOnDoneCallback]);
 
   const handleOnCancel = useCallback((event: KeyboardEvent<HTMLDialogElement>) => {
     if (event.key === 'Escape') {
-      const active = document.activeElement as HTMLInputElement;
-      const isInput = active?.tagName === 'INPUT';
-      const isEmpty = active?.value?.trim() === '';
-
-      if (isInput && !isEmpty) {
-        event.preventDefault();
-      } else {
-        handleOnClose();
-      }
+      handleOnClose();
     }
   }, [handleOnClose]);
 
@@ -83,6 +87,10 @@ export default function DialogProvider({ children }: PropsWithChildren) {
     }
   }, [handleOnClose]);
 
+  const handleOnDone = useCallback((callback: () => void) => {
+    setOnDoneCallback(() => callback);
+  }, []);
+
   return (
     <DialogContext.Provider value={{
       data,
@@ -91,6 +99,7 @@ export default function DialogProvider({ children }: PropsWithChildren) {
       onBackdrop: handleOnBackdrop,
       onCancel: handleOnCancel,
       onClose: handleOnClose,
+      onDone: handleOnDone,
       onOpen: handleOnOpen,
     }}>
       {children}

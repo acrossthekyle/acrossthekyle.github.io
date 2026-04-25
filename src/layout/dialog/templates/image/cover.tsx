@@ -21,7 +21,7 @@ export default function Cover({
   return (
     <>
       <Ui.Templates.Header canRender={isInView}>
-        <Ui.Templates.Link href={`?a=${album.id}`} onClick={onAlbum}>
+        <Ui.Templates.Link id={album.id} onClick={onAlbum}>
           <Ui.Templates.Icon icon="LayoutDashboard" />
           <Ui.Templates.Content>
             <Ui.Templates.Label>Album Name</Ui.Templates.Label>
@@ -32,50 +32,35 @@ export default function Cover({
       <Ui.Templates.List>
         {!isViewingNotes && (
           <>
-            <Ui.Templates.ListItem
-              canRender={isInView}
-              index={1}
-            >
+            <Ui.Templates.ListItem canRender={isInView} index={1}>
               <Ui.Templates.Icon icon="Bookmark" />
               <Ui.Templates.Content>
                 <Ui.Templates.Label>Category</Ui.Templates.Label>
                 {album.category}
               </Ui.Templates.Content>
             </Ui.Templates.ListItem>
-            <Ui.Templates.ListItem
-              canRender={isInView}
-              index={2}
-            >
+            <Ui.Templates.ListItem canRender={isInView} index={2}>
               <Ui.Templates.Icon icon="Flag" />
               <Ui.Templates.Content>
                 <Ui.Templates.Label>Location</Ui.Templates.Label>
                 {album.location}
               </Ui.Templates.Content>
             </Ui.Templates.ListItem>
-            <Ui.Templates.ListItem
-              canRender={isInView}
-              index={3}
-            >
+            <Ui.Templates.ListItem canRender={isInView} index={3}>
               <Ui.Templates.Icon icon="Globe" />
               <Ui.Templates.Content>
                 <Ui.Templates.Label>Latitude, Longitude</Ui.Templates.Label>
                 {album.coordinates}
               </Ui.Templates.Content>
             </Ui.Templates.ListItem>
-            <Ui.Templates.ListItem
-              canRender={isInView}
-              index={4}
-            >
+            <Ui.Templates.ListItem canRender={isInView} index={4}>
               <Ui.Templates.Icon icon="Calendar1" />
               <Ui.Templates.Content>
                 <Ui.Templates.Label>When</Ui.Templates.Label>
                 {album.when}
               </Ui.Templates.Content>
             </Ui.Templates.ListItem>
-            <Ui.Templates.ListItem
-              canRender={isInView}
-              index={5}
-            >
+            <Ui.Templates.ListItem canRender={isInView} index={5}>
               <Ui.Templates.Icon icon="GalleryVerticalEnd" />
               <Ui.Templates.Content>
                 <Ui.Templates.Label>Images</Ui.Templates.Label>
@@ -84,10 +69,7 @@ export default function Cover({
             </Ui.Templates.ListItem>
           </>
         )}
-        <Ui.Templates.ListItem
-          canRender={isInView}
-          index={6}
-        >
+        <Ui.Templates.ListItem canRender={isInView} index={6}>
           <Ui.Templates.Icon icon="Pencil" />
           <Ui.Templates.ListItemNotes
             isActive={isViewingNotes}

@@ -1,28 +1,37 @@
 'use client';
 
-import { Moon, Sun, SunMoon } from 'lucide-react';
-
-import { setTheme } from '@/app/actions';
+import { Moon, Sun, Monitor } from 'lucide-react';
+import { useTheme } from 'next-themes';
+import { useState, useEffect } from 'react';
 
 import styles from './stylesheet';
 
-type Props = {
-  current: string;
-};
+export default function Theme() {
+  const [mounted, setMounted] = useState(false);
 
-export default function Theme({ current }: Props) {
+  const { setTheme, theme } = useTheme();
+
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setMounted(true)
+  }, [])
+
+  if (!mounted) {
+    return null
+  }
+
   return (
     <>
       <button
-        className={styles.button(current === 'auto')}
-        onClick={() => setTheme('auto')}
-        title="Auto theme"
+        className={styles.button(theme === 'system')}
+        onClick={() => setTheme('system')}
+        title="System theme"
         type="button"
       >
-        <SunMoon className={styles.icon} />
+        <Monitor className={styles.icon} />
       </button>
       <button
-        className={styles.button(current === 'light')}
+        className={styles.button(theme === 'light')}
         onClick={() => setTheme('light')}
         title="Light theme"
         type="button"
@@ -30,7 +39,7 @@ export default function Theme({ current }: Props) {
         <Sun className={styles.icon} />
       </button>
       <button
-        className={styles.button(current === 'dark')}
+        className={styles.button(theme === 'dark')}
         onClick={() => setTheme('dark')}
         title="Dark theme"
         type="button"

@@ -16,7 +16,7 @@ const styles = tw({
     group
     relative
     h-auto w-full
-    mx-5
+    mx-2
 
     motion-safe:duration-700
     ${isInView ? 'motion-safe:top-0 motion-safe:opacity-100' : 'motion-safe:top-20 motion-safe:opacity-0'}

@@ -24,14 +24,8 @@ export default function Details({
         </Ui.Templates.Content>
       </Ui.Templates.Header>
       <Ui.Templates.List>
-        <Ui.Templates.ListItem
-          canRender={isInView}
-          index={1}
-        >
-          <Ui.Templates.Link
-            href={`?a=${album.id}`}
-            onClick={onAlbum}
-          >
+        <Ui.Templates.ListItem canRender={isInView} index={1}>
+          <Ui.Templates.Link id={album.id} onClick={onAlbum}>
             <Ui.Templates.Icon icon="LayoutDashboard" />
             <Ui.Templates.Content>
               <Ui.Templates.Label>Album</Ui.Templates.Label>
@@ -39,40 +33,28 @@ export default function Details({
             </Ui.Templates.Content>
           </Ui.Templates.Link>
         </Ui.Templates.ListItem>
-        <Ui.Templates.ListItem
-          canRender={isInView}
-          index={2}
-        >
+        <Ui.Templates.ListItem canRender={isInView} index={2}>
           <Ui.Templates.Icon icon="Flag" />
           <Ui.Templates.Content>
             <Ui.Templates.Label>Location</Ui.Templates.Label>
             {image.location}, {album.location}
           </Ui.Templates.Content>
         </Ui.Templates.ListItem>
-        <Ui.Templates.ListItem
-          canRender={isInView}
-          index={3}
-        >
+        <Ui.Templates.ListItem canRender={isInView} index={3}>
           <Ui.Templates.Icon icon="Calendar1" />
           <Ui.Templates.Content>
             <Ui.Templates.Label>Taken on</Ui.Templates.Label>
             {image.date}
           </Ui.Templates.Content>
         </Ui.Templates.ListItem>
-        <Ui.Templates.ListItem
-          canRender={isInView}
-          index={4}
-        >
+        <Ui.Templates.ListItem canRender={isInView} index={4}>
           <Ui.Templates.Icon icon="ArrowUpFromDot" />
           <Ui.Templates.Content>
             <Ui.Templates.Label>Elevation</Ui.Templates.Label>
             <Ui.Units.Length isSmall value={image.elevation} />
           </Ui.Templates.Content>
         </Ui.Templates.ListItem>
-        <Ui.Templates.ListItem
-          canRender={isInView}
-          index={5}
-        >
+        <Ui.Templates.ListItem canRender={isInView} index={5}>
           <Ui.Templates.Icon icon="Camera" />
           <Ui.Templates.Content>
             <Ui.Templates.Label>Camera</Ui.Templates.Label>
@@ -80,10 +62,7 @@ export default function Details({
           </Ui.Templates.Content>
         </Ui.Templates.ListItem>
         {!!image.notes && (
-          <Ui.Templates.ListItem
-            canRender={isInView}
-            index={6}
-          >
+          <Ui.Templates.ListItem canRender={isInView} index={6}>
             <Ui.Templates.Icon icon="Pencil" />
             <Ui.Templates.Content>
               <Ui.Templates.Label>Notes</Ui.Templates.Label>

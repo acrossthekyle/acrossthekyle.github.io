@@ -8,6 +8,7 @@ const styles = tw({
     rounded-md
     outline-0
     pointer-events-auto
+    text-left
 
     motion-safe:duration-300
     motion-safe:hover:bg-(--foreground)/2.5

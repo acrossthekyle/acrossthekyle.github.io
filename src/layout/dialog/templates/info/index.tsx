@@ -1,6 +1,7 @@
 'use client';
 
-import { X } from 'lucide-react';
+import { Instagram, Send, X } from 'lucide-react';
+import Link from 'next/link';
 
 import { useDialog } from '@/hooks/useDialog';
 import { Ui } from '@/ui';
@@ -51,6 +52,22 @@ export default function Template() {
             <span className={styles.signature}>Kyle G.</span>
             <span className={styles.title}>See you out there</span>
           </address>
+          <div className={styles.links}>
+            <Link
+              className={styles.link}
+              href="https://instagram.com/acrossthekyle"
+              target="_blank"
+            >
+              <Instagram className={styles.external} />
+            </Link>
+            <Link
+              aria-label="send an email to hello@acrossthekyle.com"
+              className={styles.link}
+              href="mailto:hello@acrossthekyle.com"
+            >
+              <Send className={styles.external} />
+            </Link>
+          </div>
         </figcaption>
       </figure>
       <div className={styles.spacer} />

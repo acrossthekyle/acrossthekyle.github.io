@@ -1,17 +1,15 @@
 'use client';
 
-import { Equal } from 'lucide-react';
+import { ScanText } from 'lucide-react';
 
 import { useDialog } from '@/hooks/useDialog';
+import { useFilter } from '@/hooks/useFilter';
 
 import styles from './stylesheet';
 
-type Props ={
-  isFiltering: boolean;
-};
-
-export default function Anchor({ isFiltering }: Props) {
+export default function Anchor() {
   const { onOpen } = useDialog();
+  const { isFiltering } = useFilter();
 
   const handleOnClick = () => {
     onOpen({
@@ -27,7 +25,7 @@ export default function Anchor({ isFiltering }: Props) {
         onClick={handleOnClick}
         type="button"
       >
-        <Equal className={styles.icon} /> Info
+        <ScanText className={styles.icon} /> Info
       </button>
     </section>
   );

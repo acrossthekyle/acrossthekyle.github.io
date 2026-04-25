@@ -1,19 +1,18 @@
 import { Dialog, Layout } from '@/layout';
-import type { Album, FilterBy } from '@/types';
+import type { Album } from '@/types';
 
 import Albums from './albums';
 import Library from './library';
 
 type Props = {
   data: Album[];
-  filterBy: FilterBy;
 };
 
-export default function View({ data, filterBy }: Props) {
+export default function View({ data }: Props) {
   return (
-    <Layout data={data} filterBy={filterBy}>
+    <Layout data={data}>
       <Albums data={data} />
-      <Library data={data} filterBy={filterBy} />
+      <Library data={data} />
       <Dialog />
     </Layout>
   );

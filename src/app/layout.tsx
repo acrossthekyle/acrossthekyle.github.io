@@ -1,10 +1,11 @@
 import '../globals.css';
 
 import type { Metadata } from 'next';
-import { cookies } from 'next/headers';
-import { Suspense } from 'react';
+import { ThemeProvider } from 'next-themes';
+import { PropsWithChildren, Suspense } from 'react';
 
 import DialogProvider from '@/contexts/dialog';
+import FilterProvider from '@/contexts/filter';
 import UnitsProvider from '@/contexts/units';
 import ViewProvider from '@/contexts/view';
 import { Body } from '@/layout';
@@ -21,23 +22,21 @@ export const metadata: Metadata = {
   },
 };
 
-export default async function RootLayout({
-  children,
-}: React.PropsWithChildren) {
-  const cookieStore = await cookies();
-  const theme = cookieStore.get('theme')?.value || 'auto';
-  const units = cookieStore.get('units')?.value || 'imperial';
-
+export default async function RootLayout({ children }: PropsWithChildren) {
   return (
-    <html data-theme={theme} lang="en-US" suppressHydrationWarning>
+    <html lang="en-US" suppressHydrationWarning>
       <Suspense fallback={null}>
         <Eggs />
         <DialogProvider>
           <ViewProvider>
-            <UnitsProvider current={units}>
-              <Body>
-                {children}
-              </Body>
+            <UnitsProvider>
+              <FilterProvider>
+                <Body>
+                  <ThemeProvider>
+                    {children}
+                  </ThemeProvider>
+                </Body>
+              </FilterProvider>
             </UnitsProvider>
           </ViewProvider>
         </DialogProvider>

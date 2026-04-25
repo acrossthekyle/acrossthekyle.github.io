@@ -4,20 +4,21 @@ import { Fragment } from 'react';
 import { InView } from 'react-intersection-observer';
 
 import { useDialog } from '@/hooks/useDialog';
+import { useFilter } from '@/hooks/useFilter';
 import { useView } from '@/hooks/useView';
-import type { Album, Data, FilterBy } from '@/types';
+import type { Album, Data } from '@/types';
 import { Ui } from '@/ui';
 
 import styles from './stylesheet';
 
 type Props = {
   data: Album[];
-  filterBy: FilterBy;
 };
 
-export default function Library({ data, filterBy }: Props) {
+export default function Library({ data }: Props) {
   const { onOpen } = useDialog();
   const { view } = useView();
+  const { filterId, filterType, isFiltering } = useFilter();
 
   const handleOnClick = (item: Album, image: Data) => {
     onOpen({
@@ -33,13 +34,11 @@ export default function Library({ data, filterBy }: Props) {
     <Ui.Containers.Mountable isActive={view === 'library'}>
       <ul className={styles.grid}>
         {data
-          .filter(({ category, id }) => {
-            if (!!filterBy.category) {
-              return category === filterBy.category
-            }
+          .filter((item) => {
+            if (isFiltering) {
+              const value = filterType === 'category' ? item.category : item.id;
 
-            if (!!filterBy.id) {
-              return id === filterBy.id
+              return value.toLowerCase() === filterId;
             }
 
             return true;

@@ -26,7 +26,7 @@ export default function Icon() {
           color: 'white',
         }}
       >
-        K
+        K.G.
       </div>
     ),
     {

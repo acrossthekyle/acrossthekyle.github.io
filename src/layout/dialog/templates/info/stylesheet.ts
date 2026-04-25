@@ -31,7 +31,7 @@ const styles = tw({
     !w-12
   `,
   caption: `
-    flex items-center justify-between gap-4
+    flex items-end justify-between gap-4
     w-full
   `,
   author: `
@@ -62,6 +62,18 @@ const styles = tw({
   `,
   icon: `
     w-4 h-4
+  `,
+  links: `
+    flex items-center gap-2
+    -mr-2
+  `,
+  link: `
+    flex items-center gap-2
+    py-1 px-2
+    text-xs
+  `,
+  external: `
+    w-3 h-3
   `,
 });
 

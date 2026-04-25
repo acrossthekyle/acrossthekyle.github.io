@@ -34,6 +34,7 @@ const styles = tw({
     py-1 px-2
     rounded-md
     capitalize
+    text-left
 
     md:text-tiny
 
@@ -99,6 +100,7 @@ const styles = tw({
     rounded-md
     p-2
     -m-2
+    text-left
 
     motion-safe:duration-300
     motion-safe:hover:bg-(--foreground)/2.5

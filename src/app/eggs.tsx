@@ -4,15 +4,21 @@ import { useEffect } from 'react';
 
 export default function Eggs() {
   useEffect(() => {
-    console.log('+ ≠ +');
-    console.log('This website is my personal sandbox and I love tinkering with different designs and data. Some helpful links: %O', {
-      email: 'hello@acrossthekyle.com',
-      github: 'https://github.com/acrossthekyle',
-      instagram: 'https://instagram.com/acrossthekyle',
-      linkedIn: 'https://linkedin.com/in/acrossthekyle',
-      siteDesignInspiration: 'https://shotoniphone.lorenzobocchi.com',
-    });
-    console.log('+ ≠ +');
+    console.log(
+      "%cCode",
+      "background: #e0e0e0; color: black; border: 1px solid black; padding: 2px 6px; border-radius: 10px; font-weight: bold;"
+    );
+    console.log('Interested in the coding projects I work on, including this website? Check out my Github: ', 'https://github.com/acrossthekyle');
+    console.log(
+      "%cCareer",
+      "background: #e0e0e0; color: black; border: 1px solid black; padding: 2px 6px; border-radius: 10px; font-weight: bold;"
+    );
+    console.log('For professional things, use LinkedIn: ', 'https://linkedin.com/in/acrossthekyle');
+    console.log(
+      "%cCredit",
+      "background: #e0e0e0; color: black; border: 1px solid black; padding: 2px 6px; border-radius: 10px; font-weight: bold;"
+    );
+    console.log("I'm not a designer, and the design of this site was heavily inspired by", 'https://shotoniphone.lorenzobocchi.com');
   }, []);
 
   return null;

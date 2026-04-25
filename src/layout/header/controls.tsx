@@ -1,10 +1,10 @@
 'use client';
 
 import { GripHorizontal, LensConcave, TextCursorInput } from 'lucide-react';
-import { useRouter } from 'next/navigation';
 import { useEffect } from 'react';
 
 import { useDialog } from '@/hooks/useDialog';
+import { useFilter } from '@/hooks/useFilter';
 import { useView } from '@/hooks/useView';
 import type { Album } from '@/types';
 
@@ -12,14 +12,12 @@ import styles from './stylesheet';
 
 type Props = {
   data: Album[];
-  isFiltering: boolean;
 };
 
-export default function Controls({ data, isFiltering }: Props) {
+export default function Controls({ data }: Props) {
   const { onOpen } = useDialog();
+  const { isFiltering } = useFilter();
   const { view, onView } = useView();
-
-  const router = useRouter();
 
   useEffect(() => {
     if (isFiltering) {
@@ -30,8 +28,6 @@ export default function Controls({ data, isFiltering }: Props) {
 
   const handleOnChange = (value: string) => {
     onView(value);
-
-    router.replace('/');
 
     setTimeout(() => {
       window.scrollTo(0, 0);

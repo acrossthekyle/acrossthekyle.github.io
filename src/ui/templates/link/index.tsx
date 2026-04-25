@@ -1,24 +1,35 @@
-import Link from 'next/link';
+'use client';
+
+import { useFilter } from '@/hooks/useFilter';
 
 import styles from './stylesheet';
 
 type Props = {
-  href: string;
+  id: string;
   onClick: () => void;
 };
 
-export default function Anchor({
+export default function Link({
   children,
-  href,
+  id,
   onClick,
 }: React.PropsWithChildren<Props>) {
+  const { onFilter } = useFilter();
+
+  const handleOnClick = () => {
+    onFilter('album', id);
+
+    onClick();
+  };
+
   return (
-    <Link
+    <button
+      aria-label="view album"
       className={styles.container}
-      href={href}
-      onClick={onClick}
+      onClick={handleOnClick}
+      type="button"
     >
       {children}
-    </Link>
+    </button>
   );
 }

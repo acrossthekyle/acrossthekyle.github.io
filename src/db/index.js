@@ -86,7 +86,8 @@ const data = [
     ],
     "location": "Westville, Illinois, USA",
     "notes": [
-      "The River Ridge Backpack Trail at Forest Glen Preserve in Westville, Illinois, is a relatively moderate 10 mile loop designed for beginner backpackers, featuring steep ravines, creek crossings, and ridge-top hiking. It is widely considered one of the few true backpacking experiences in Illinois. I completed it as an overnight trip spent at a primitive campsite."
+      "The River Ridge Backpack Trail at Forest Glen Preserve in Westville, Illinois, is a relatively moderate 10 mile loop designed for beginner backpackers, featuring steep ravines, creek crossings, and ridge-top hiking.",
+      "It is widely considered one of the few true backpacking experiences in Illinois. I completed it as an overnight trip spent at a primitive campsite."
     ],
     "position": [
       "49.5%",
@@ -765,8 +766,8 @@ const data = [
         "location": "Vergio",
         "date": "06 24 2023",
         "elevation": {
-          "imperial": "8,530",
-          "metric": "2,600"
+          "imperial": "8,554",
+          "metric": "2,607"
         },
         "notes": "The apex of the trek",
         "exif": {
@@ -1889,7 +1890,7 @@ const data = [
     ],
     "location": "Wisconsin",
     "notes": [
-      "A place of kettles and moraines from mile-thick glaciers long ago in Wisconsin, completing this 1,200 mile long-distance national scenic trail in sections takes time. It's not the distance on this trail that gets you; it's the constant up and down over rolling hills. This is a catalog of my sections completed on this long-distance trail."
+      "This is a catalog of my sections completed on the long-distance Ice Age Trail located in Wisconsin, and so far I've completed 3 sections. It's not the distance on this trail that gets you; it's the constant up and down over rolling hills."
     ],
     "position": [
       "48%",
@@ -2033,7 +2034,8 @@ const data = [
     ],
     "location": "Scotland",
     "notes": [
-      "Filled with misty glens, deep lochs, and endless rain while hiking from Milngavie to Fort William, the West Highland Way is a long-distance trail covering 97 miles over six days in the highlands of Scotland in the UK. The trail travels down many ancient roads and old coaching routes, journeying from the lowlands to the highlands, while camping overnight in fields, along lakeside beachs, and under bridges."
+      "Filled with misty glens, deep lochs, and endless rain while hiking from Milngavie to Fort William, the West Highland Way is a long-distance trail covering 97 miles over six days in the highlands of Scotland in the UK.",
+      "The trail travels down many ancient roads and old coaching routes, journeying from the lowlands to the highlands, while camping overnight in fields, along lakeside beachs, and under bridges."
     ],
     "position": [
       "38.5%",
@@ -2301,7 +2303,8 @@ const data = [
     ],
     "location": "Chile",
     "notes": [
-      "At the bottom of the world in Southern Chile with equal parts rustic and modern, the trail known as the 'O' Circuit circumnavigates the prominent Torres del Paine granite towers that Patagonia is partly known for. A tapestry of landscapes, sprawling glaciers, pristine lakes, and windswept plains provides an idyllic background for thru-hiking 8 days and 73 miles."
+      "At the bottom of the world in Southern Chile with equal parts rustic and modern, the trail known as the 'O' Circuit circumnavigates the prominent Torres del Paine granite towers that Patagonia is partly known for.",
+      "A tapestry of landscapes, sprawling glaciers, pristine lakes, and windswept plains provides an idyllic background for thru-hiking 8 days and 73 miles."
     ],
     "position": [
       "96%",
@@ -3912,7 +3915,8 @@ const data = [
     ],
     "location": "Alps",
     "notes": [
-      "Encircling the Mont Blanc mountain in the Alps, the tour of this peak is a classic long-distance hike covering a distance of 106 miles (170 km) over 12 days while passing through France, Italy, and Switzerland. It's a challenging experience filled with diverse landscapes, unique cultural blends, and stunning alpine scenery, all while sleeping in mountain huts and eating home-cooked meals each night."
+      "Encircling the Mont Blanc mountain in the Alps, the tour of this peak is a classic long-distance hike covering a distance of 106 miles (170 km) over 12 days while passing through France, Italy, and Switzerland.",
+      "It's a challenging experience filled with diverse landscapes, unique cultural blends, and stunning alpine scenery, all while sleeping in mountain huts and eating home-cooked meals each night."
     ],
     "position": [
       "45%",
@@ -4802,7 +4806,7 @@ const data = [
     ],
     "location": "Buenos Aires and Montevideo",
     "notes": [
-      "With wide avenues, lively cafes, and neighborhoods full of color and character the city feels vibrant with much to see and do. Tango music drifts through the streets, historic plazas sit alongside modern architecture, and the yearly Lollapalooza music festival adds a fun element to city life."
+      "This was my first international experience, accompanied by my co-worker and friend Jamie. We spent time exploring Buenos Aires in Argentina, Montevideo in Uruguay, and attended Lollapalooza in San Isidro (just outside of Buenos Aires)."
     ],
     "position": [
       "85%",
@@ -4811,6 +4815,7 @@ const data = [
     "tags": [
       "cityscape",
       "south america",
+      "buenos aires",
       "destination"
     ],
     "title": "South America 2015",

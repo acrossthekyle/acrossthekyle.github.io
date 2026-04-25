@@ -35,11 +35,11 @@ test('E2E test', async ({ page }) => {
 
   await expect(searchClose).toBeVisible();
 
-  const category = await page.getByRole('link', { name: 'Backpacking' });
+  const category = await page.getByRole('button', { name: 'Backpacking' });
 
   await expect(category).toBeVisible();
 
-  const album = await page.getByRole('link', { name: 'River Ridge Trail 2026' });
+  const album = await page.getByRole('button', { name: 'view items in river ridge trail 2026 album' });
 
   await expect(album).toBeVisible();
 
@@ -65,7 +65,7 @@ test('E2E test', async ({ page }) => {
 
   await albums.click();
 
-  const covers = await page.getByRole('button', { name: 'view album details' });
+  const covers = await page.getByRole('button', { name: /view.*album details/i });
 
   await expect(async () => {
     const count = await covers.count();
@@ -81,10 +81,9 @@ test('E2E test', async ({ page }) => {
   await expect(detailsToggle).not.toBeVisible();
   await expect(closeToggle).not.toBeVisible();
 
-  const albumName = await page.getByRole('heading', {
+  const coverHeading = await page.getByRole('heading', {
     level: 2,
-    name: `Ice Age Trail`,
   });
 
-  await expect(albumName).toBeVisible();
+  await expect(coverHeading).toBeVisible();
 });

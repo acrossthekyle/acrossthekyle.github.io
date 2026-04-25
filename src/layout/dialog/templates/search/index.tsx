@@ -2,10 +2,10 @@
 
 import Fuse from 'fuse.js';
 import { ArrowRight, Bookmark, LayoutDashboard, Search, X } from 'lucide-react';
-import Link from 'next/link';
 import { ChangeEvent, FormEvent, useMemo, useState } from 'react';
 
 import { useDialog } from '@/hooks/useDialog';
+import { useFilter } from '@/hooks/useFilter';
 import { useView } from '@/hooks/useView';
 import type { Album } from '@/types';
 
@@ -20,6 +20,7 @@ type Props = {
 export default function Template({ data }: Props) {
   const { onClose } = useDialog();
   const { onView } = useView();
+  const { onFilter } = useFilter();
 
   const [query, setQuery] = useState('');
 
@@ -48,7 +49,9 @@ export default function Template({ data }: Props) {
     setQuery(term);
   };
 
-  const handleOnChoose = () => {
+  const handleOnChoose = (type: string, value: string) => {
+    onFilter(type, value);
+
     onClose();
 
     onView('library');
@@ -79,13 +82,14 @@ export default function Template({ data }: Props) {
       <ul className={styles.categories}>
         {categories.map((category) => (
           <li key={category}>
-            <Link
+            <button
+              aria-label={`view items in ${category.toLowerCase()} category`}
               className={styles.category}
-              href={`?c=${category}`}
-              onClick={handleOnChoose}
+              onClick={() => handleOnChoose('category', category)}
+              type="button"
             >
               <Bookmark className={styles.tag} /> {category}
-            </Link>
+            </button>
           </li>
         ))}
       </ul>
@@ -115,10 +119,11 @@ export default function Template({ data }: Props) {
         <ul aria-label={`${results.length} results`} className={styles.results}>
           {results.map((result) => (
             <li className={styles.result} key={result.id}>
-              <Link
+              <button
+                aria-label={`view items in ${result.title.toLowerCase()} album`}
                 className={styles.link}
-                href={`?a=${result.id}`}
-                onClick={handleOnChoose}
+                onClick={() => handleOnChoose('album', result.id)}
+                type="button"
               >
                 <span aria-hidden="true" className={styles.prefix}>
                   <LayoutDashboard className={styles.icon} />
@@ -127,7 +132,7 @@ export default function Template({ data }: Props) {
                   <span className={styles.faded}>Album</span>
                   {result.title} <ArrowRight className={styles.external} />
                 </span>
-              </Link>
+              </button>
             </li>
           ))}
         </ul>
