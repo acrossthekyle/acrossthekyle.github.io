@@ -84,7 +84,7 @@ const data = [
         }
       }
     ],
-    "location": "Westville, Illinois, USA",
+    "location": "Illinois",
     "notes": [
       "The River Ridge Backpack Trail at Forest Glen Preserve in Westville, Illinois, is a relatively moderate 10 mile loop designed for beginner backpackers, featuring steep ravines, creek crossings, and ridge-top hiking.",
       "It is widely considered one of the few true backpacking experiences in Illinois. I completed it as an overnight trip spent at a primitive campsite."
@@ -101,7 +101,7 @@ const data = [
       "backpacking"
     ],
     "title": "River Ridge Trail 2026",
-    "when": "03 14-15 2026"
+    "when": "03 14 - 15 2026"
   },
   {
     "category": "Backpacking",
@@ -166,7 +166,7 @@ const data = [
       "backpacking"
     ],
     "title": "Yellow River Trail",
-    "when": "10 18-19 2025"
+    "when": "10 18 - 19 2025"
   },
   {
     "category": "Backpacking",
@@ -406,7 +406,7 @@ const data = [
       "backpacking"
     ],
     "title": "Tour du Mont Blanc",
-    "when": "07 27 / 08 06 2024"
+    "when": "07 27 - 08 06 2024"
   },
   {
     "category": "Cities",
@@ -510,7 +510,7 @@ const data = [
       "destination"
     ],
     "title": "Geneva",
-    "when": "07 24-25 2024"
+    "when": "07 24 - 25 2024"
   },
   {
     "category": "Cities",
@@ -595,7 +595,7 @@ const data = [
       "destination"
     ],
     "title": "Corsica",
-    "when": "07 05-07 2023"
+    "when": "07 05 - 07 2023"
   },
   {
     "category": "Backpacking",
@@ -1237,7 +1237,7 @@ const data = [
       "backpacking"
     ],
     "title": "The GR 20",
-    "when": "06 21 / 07 03 2023"
+    "when": "06 21 - 07 03 2023"
   },
   {
     "category": "Destinations",
@@ -1819,7 +1819,7 @@ const data = [
       "destination"
     ],
     "title": "Egypt",
-    "when": "12 29 2022 / 01 06 2023"
+    "when": "12 29 2022 – 01 06 2023"
   },
   {
     "category": "Backpacking",
@@ -2051,7 +2051,7 @@ const data = [
       "backpacking"
     ],
     "title": "West Highland Way",
-    "when": "05 07-12 2022"
+    "when": "05 07 - 12 2022"
   },
   {
     "category": "Destinations",
@@ -2136,7 +2136,7 @@ const data = [
       "destination"
     ],
     "title": "San Juan",
-    "when": "03 22-25 2022"
+    "when": "03 22 - 25 2022"
   },
   {
     "category": "Backpacking",
@@ -2321,7 +2321,7 @@ const data = [
       "backpacking"
     ],
     "title": "O Circuit",
-    "when": "02 18-25 2020"
+    "when": "02 18 - 25 2020"
   },
   {
     "category": "Destinations",
@@ -2404,7 +2404,7 @@ const data = [
       "destination"
     ],
     "title": "Pokhara",
-    "when": "11 06-08 2019"
+    "when": "11 06 - 08 2019"
   },
   {
     "category": "Basecamps",
@@ -2643,7 +2643,7 @@ const data = [
       "basecamp"
     ],
     "title": "Annapurna Basecamp Trek",
-    "when": "11 01-05 2019"
+    "when": "11 01 - 05 2019"
   },
   {
     "category": "Backpacking",
@@ -3078,7 +3078,7 @@ const data = [
       "backpacking"
     ],
     "title": "Annapurna Circuit",
-    "when": "10 19 / 11 01 2019"
+    "when": "10 19 - 11 01 2019"
   },
   {
     "category": "Mountains",
@@ -3672,7 +3672,7 @@ const data = [
       "backpacking"
     ],
     "title": "Alta Via 1",
-    "when": "07 16-25 2019"
+    "when": "07 16 - 25 2019"
   },
   {
     "category": "Backpacking",
@@ -3932,7 +3932,7 @@ const data = [
       "backpacking"
     ],
     "title": "Tour du Mont Blanc",
-    "when": "09 02-13 2018"
+    "when": "09 02 - 13 2018"
   },
   {
     "category": "Backpacking",
@@ -4573,7 +4573,7 @@ const data = [
       "backpacking"
     ],
     "title": "Camino Frances",
-    "when": "06 02 / 07 04 2018"
+    "when": "06 02 - 07 04 2018"
   },
   {
     "category": "Destinations",
@@ -4736,7 +4736,7 @@ const data = [
       "destination"
     ],
     "title": "South America 2016",
-    "when": "03 18-27 2016"
+    "when": "03 18 - 27 2016"
   },
   {
     "category": "Cities",
@@ -4819,7 +4819,7 @@ const data = [
       "destination"
     ],
     "title": "South America 2015",
-    "when": "03 19-25 2015"
+    "when": "03 19 - 25 2015"
   }
 ];
 

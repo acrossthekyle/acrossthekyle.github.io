@@ -45,7 +45,7 @@ export default function Plugin({ data, onClick }: Props) {
         } else if (width >= 640) {
           swiperRef.current.slideTo(7, 1250);
         } else {
-          swiperRef.current.slideTo(3, 1250);
+          swiperRef.current.slideTo(5, 1250);
         }
       }
     }, 4200);
@@ -72,7 +72,7 @@ export default function Plugin({ data, onClick }: Props) {
         className={styles.container(isInView)}
         modules={[A11y, FreeMode, Keyboard, Mousewheel]}
         a11y
-        slidesPerView={1}
+        slidesPerView={2}
         keyboard
         grabCursor
         resistance={false}

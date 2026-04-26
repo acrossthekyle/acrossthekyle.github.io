@@ -64,12 +64,12 @@ export default function DialogProvider({ children }: PropsWithChildren) {
   const handleOnClose = useCallback(() => {
     setIsOpen(false);
 
-    handleOnDoneCallback();
-
     const node = dialog.current;
 
     const handleTransitionEnd = () => {
       node?.close();
+
+      handleOnDoneCallback();
     };
 
     node?.addEventListener('transitionend', handleTransitionEnd, { once: true });

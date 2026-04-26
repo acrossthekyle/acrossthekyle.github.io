@@ -6,6 +6,7 @@ import { PropsWithChildren, Suspense } from 'react';
 
 import DialogProvider from '@/contexts/dialog';
 import FilterProvider from '@/contexts/filter';
+import SizeProvider from '@/contexts/size';
 import UnitsProvider from '@/contexts/units';
 import ViewProvider from '@/contexts/view';
 import { Body } from '@/layout';
@@ -30,13 +31,15 @@ export default async function RootLayout({ children }: PropsWithChildren) {
         <DialogProvider>
           <ViewProvider>
             <UnitsProvider>
-              <FilterProvider>
-                <Body>
-                  <ThemeProvider>
-                    {children}
-                  </ThemeProvider>
-                </Body>
-              </FilterProvider>
+              <SizeProvider>
+                <FilterProvider>
+                  <Body>
+                    <ThemeProvider>
+                      {children}
+                    </ThemeProvider>
+                  </Body>
+                </FilterProvider>
+              </SizeProvider>
             </UnitsProvider>
           </ViewProvider>
         </DialogProvider>

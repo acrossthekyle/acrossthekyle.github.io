@@ -24,7 +24,7 @@ export default function Cover({
         <Ui.Templates.Link id={album.id} onClick={onAlbum}>
           <Ui.Templates.Icon icon="LayoutDashboard" />
           <Ui.Templates.Content>
-            <Ui.Templates.Label>Album Name</Ui.Templates.Label>
+            <Ui.Templates.Label>Album</Ui.Templates.Label>
             {album.title} <Ui.Templates.LinkExternalIcon />
           </Ui.Templates.Content>
         </Ui.Templates.Link>
@@ -69,14 +69,14 @@ export default function Cover({
             </Ui.Templates.ListItem>
           </>
         )}
-        <Ui.Templates.ListItem canRender={isInView} index={6}>
-          <Ui.Templates.Icon icon="Pencil" />
-          <Ui.Templates.ListItemNotes
-            isActive={isViewingNotes}
-            onToggle={onNotes}
-          >
+        <Ui.Templates.ListItemNotes
+          isActive={isViewingNotes}
+          onToggle={onNotes}
+        >
+          <Ui.Templates.ListItem canRender={isInView} index={6}>
+            <Ui.Templates.Icon icon="Pen" />
             <Ui.Templates.Content>
-              <Ui.Templates.Label>Field Notes</Ui.Templates.Label>
+              <Ui.Templates.Label>Notes</Ui.Templates.Label>
               {(isViewingNotes ? album.notes : [album.notes[0]]).map((paragraph: string) => (
                 <Ui.Templates.ListItemNotesParagraph
                   key={paragraph}
@@ -86,8 +86,8 @@ export default function Cover({
                 </Ui.Templates.ListItemNotesParagraph>
               ))}
             </Ui.Templates.Content>
-          </Ui.Templates.ListItemNotes>
-        </Ui.Templates.ListItem>
+          </Ui.Templates.ListItem>
+        </Ui.Templates.ListItemNotes>
       </Ui.Templates.List>
       <Map canRender={isInView} index={7} position={album.position} />
     </>

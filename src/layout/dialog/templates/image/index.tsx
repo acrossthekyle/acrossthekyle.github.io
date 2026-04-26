@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 
 import { useDialog } from '@/hooks/useDialog';
+import { useSize } from '@/hooks/useSize';
 import { useView } from '@/hooks/useView';
 import type { Album, Data } from '@/types';
 import { Ui } from '@/ui';
@@ -23,6 +24,7 @@ export default function Template({ data }: Props) {
   const [isRenderingDetails,  setIsRenderingDetails] = useState(false);
 
   const { onClose, onDone } = useDialog();
+  const { onSize, size } = useSize();
   const { onView } = useView();
 
   const [inViewRef, isInView] = useInView({
@@ -32,13 +34,15 @@ export default function Template({ data }: Props) {
   const handleOnDone = () => {
     setIsViewingNotes(false);
     setIsRenderingDetails(false);
+    onSize('reset');
   };
 
   useEffect(() => {
     onDone(() => {
       handleOnDone();
     });
-  }, [onDone, isRenderingDetails, isViewingNotes]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [onDone, isRenderingDetails, isViewingNotes, size]);
 
   const handleOnAlbum = () => {
     onClose();
@@ -74,28 +78,30 @@ export default function Template({ data }: Props) {
         <Ui.Templates.FigureImage
           src={data?.image === undefined ? data?.album?.cover : data?.image?.src}
         />
-        <Ui.Templates.FigureCaption
-          canRender={isRenderingDetails}
-          inViewRef={inViewRef}
-        >
-          {(data?.album && data?.image === undefined) && (
-            <Cover
-              album={data.album}
-              isInView={isInView}
-              isViewingNotes={isViewingNotes}
-              onAlbum={handleOnAlbum}
-              onNotes={handleOnNotes}
-            />
-          )}
-          {(data?.album && data?.image !== undefined) && (
-            <Details
-              album={data.album}
-              image={data.image}
-              isInView={isInView}
-              onAlbum={handleOnAlbum}
-            />
-          )}
-        </Ui.Templates.FigureCaption>
+        {size !== 'full' && (
+          <Ui.Templates.FigureCaption
+            canRender={isRenderingDetails}
+            inViewRef={inViewRef}
+          >
+            {(data?.album && data?.image === undefined) && (
+              <Cover
+                album={data.album}
+                isInView={isInView}
+                isViewingNotes={isViewingNotes}
+                onAlbum={handleOnAlbum}
+                onNotes={handleOnNotes}
+              />
+            )}
+            {(data?.album && data?.image !== undefined) && (
+              <Details
+                album={data.album}
+                image={data.image}
+                isInView={isInView}
+                onAlbum={handleOnAlbum}
+              />
+            )}
+          </Ui.Templates.FigureCaption>
+        )}
       </Ui.Templates.Figure>
       <Ui.Templates.Toggles
         isActive={isRenderingDetails}

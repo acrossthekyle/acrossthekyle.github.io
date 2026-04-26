@@ -63,7 +63,7 @@ export default function Details({
         </Ui.Templates.ListItem>
         {!!image.notes && (
           <Ui.Templates.ListItem canRender={isInView} index={6}>
-            <Ui.Templates.Icon icon="Pencil" />
+            <Ui.Templates.Icon icon="Pen" />
             <Ui.Templates.Content>
               <Ui.Templates.Label>Notes</Ui.Templates.Label>
               {image.notes}

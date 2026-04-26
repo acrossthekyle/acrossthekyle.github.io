@@ -3,6 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     mb-4
+    leading-relaxed
 
     last:mb-0
   `,

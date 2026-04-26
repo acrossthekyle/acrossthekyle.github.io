@@ -5,6 +5,8 @@ const styles = {
     relative
     flex items-start gap-4
     mb-4
+    pointer-events-auto
+    cursor-auto
 
     motion-safe:duration-300
 

@@ -46,14 +46,14 @@ function getWhen(date: string | string[]) {
     const doYearsMatch = yearA === yearB;
 
     if (!doYearsMatch) {
-      return `${monthA} ${dayA} 20${yearA} / ${monthB} ${dayB} 20${yearB}`;
+      return `${monthA} ${dayA} 20${yearA} – ${monthB} ${dayB} 20${yearB}`;
     }
 
     if (!doMonthsMatch) {
-      return `${monthA} ${dayA} / ${monthB} ${dayB} 20${yearA}`;
+      return `${monthA} ${dayA} - ${monthB} ${dayB} 20${yearA}`;
     }
 
-    return `${monthA} ${dayA}-${dayB} 20${yearA}`;
+    return `${monthA} ${dayA} - ${dayB} 20${yearA}`;
   }
 
   return `${monthA} ${dayA} 20${yearA}`;

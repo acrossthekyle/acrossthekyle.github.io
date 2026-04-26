@@ -11,7 +11,7 @@ import {
   LayoutDashboard,
   Maximize,
   Minimize,
-  Pencil,
+  Pen,
   Shrink,
   Type,
 } from 'lucide-react';
@@ -71,8 +71,8 @@ function getIcon(icon: string) {
     return <Minimize aria-hidden="true" className={styles.icon} />
   }
 
-  if (icon === 'Pencil') {
-    return <Pencil aria-hidden="true" className={styles.icon} />
+  if (icon === 'Pen') {
+    return <Pen aria-hidden="true" className={styles.icon} />
   }
 
   if (icon === 'Shrink') {

@@ -1,4 +1,8 @@
+'use client';
+
 import { Maximize, Minimize, Shrink } from 'lucide-react';
+
+import { useSize } from '@/hooks/useSize';
 
 import styles from './stylesheet';
 
@@ -9,6 +13,12 @@ type Props = {
 };
 
 export default function Toggles({ isActive, onClose, onToggle }: Props) {
+  const { size } = useSize();
+
+  if (size === 'full') {
+    return null;
+  }
+
   return (
     <div className={styles.container}>
       <button

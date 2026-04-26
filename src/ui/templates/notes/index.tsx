@@ -1,5 +1,3 @@
-import { ArrowLeft, ArrowRight } from 'lucide-react';
-
 import styles from './stylesheet';
 
 type Props = {
@@ -12,25 +10,24 @@ export default function Notes({
   isActive,
   onToggle,
 }: React.PropsWithChildren<Props>) {
+  const handleOnKeyDown = (event: React.KeyboardEvent<HTMLDivElement>): void => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+
+      onToggle();
+    }
+  };
+
   return (
-    <div>
+    <div
+      aria-expanded={isActive}
+      className={styles.container(isActive)}
+      onClick={onToggle}
+      onKeyDown={handleOnKeyDown}
+      role="button"
+      tabIndex={0}
+    >
       {children}
-      <button
-        className={styles.more}
-        onClick={onToggle}
-        type="button"
-      >
-        {isActive && (
-          <>
-            <ArrowLeft className={styles.external} /> Less
-          </>
-        )}
-        {!isActive && (
-          <>
-            More <ArrowRight className={styles.external} />
-          </>
-        )}
-      </button>
     </div>
   );
 }
