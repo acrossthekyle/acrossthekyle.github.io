@@ -76,7 +76,9 @@ export async function go() {
       coordinates: reduceCoordinates(data.coordinates),
       cover: data.cover,
       id: data.id,
-      images: data.images.map((image) => ({
+      images: data.images.sort((a, b) => {
+        return new Date(b.date) - new Date(a.date);
+      }).map((image) => ({
         ...image,
         elevation: {
           imperial: formatNumber(image.elevation),

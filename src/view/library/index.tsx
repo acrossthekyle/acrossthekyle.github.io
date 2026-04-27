@@ -76,7 +76,7 @@ export default function Library({ data }: Props) {
                           <figcaption className={styles.caption}>
                             {image.date}
                             <span className={styles.faded}>
-                              {image.location}, {album.location}
+                              {image.location}
                             </span>
                           </figcaption>
                         </figure>

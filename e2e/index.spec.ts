@@ -3,10 +3,7 @@ import { test, expect } from '@playwright/test';
 test('E2E test', async ({ page }) => {
   await page.goto('/');
 
-  const splash = await page.getByRole('heading', {
-    level: 1,
-    name: `Kyle`,
-  });
+  const splash = await page.getByText('A collection of my hikes, summits, and experiences');
 
   await expect(splash).toBeVisible();
 

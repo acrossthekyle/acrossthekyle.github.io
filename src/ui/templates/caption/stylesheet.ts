@@ -6,7 +6,6 @@ const styles = tw({
     font-sans font-medium
     flex items-start justify-center
     h-auto w-auto
-    mb-4
     text-sm
     bg-(--background)/95
     overflow-y-scroll
@@ -47,8 +46,6 @@ const styles = tw({
     absolute left-4 right-4 z-1000
     p-4
     bg-(--background)
-    rounded-lg
-    border-1 border-(--foreground)/5
 
     ${canRender ? `
       motion-safe:duration-700

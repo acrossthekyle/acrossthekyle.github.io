@@ -43,24 +43,23 @@ const styles = tw({
     text-sm
     pointer-events-auto
     cursor-auto
-    bg-(--background)
-    p-4
-    rounded-lg
-    border-1 border-(--foreground)/5
+    p-4 mt-4
 
     motion-safe:duration-700
 
     ${isActive ? `
       motion-safe:opacity-100
-      motion-safe:top-4
       motion-safe:lg:top-1/2
     ` : `
       motion-safe:opacity-0
-      motion-safe:top-full
+      motion-safe:lg:top-full
     `}
 
     sm:w-82
     lg:-translate-y-1/2
+    lg:mt-0
+    lg:bg-(--background)
+    lg:rounded-lg
     lg:text-xs
   `),
   title: `

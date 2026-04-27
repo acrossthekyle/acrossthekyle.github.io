@@ -6,7 +6,7 @@
   "timestamp": "1571465700",
   "id": "annapurna-circuit-2019",
   "title": "Annapurna Circuit",
-  "location": "The Himalayas, Nepal",
+  "location": "Himalayas, Nepal",
   "category": "backpacking",
   "coordinates": "28.239145° N, 84.369334° E",
   "cover": [
@@ -35,7 +35,7 @@
     {
       "src": "2019/10/19/672dcde8-57ae-4bf9-885f-ae039d3a824d.jpeg",
       "title": "Neon-green fields",
-      "location": "Lamjung District",
+      "location": "Lamjung District, Nepal",
       "date": "10/19/2019",
       "elevation": 2657,
       "notes": "Beginning the Annapurna Circuit trek, and already lost",
@@ -51,7 +51,7 @@
     {
       "src": "2019/10/19/1f9fe719-6e29-45de-a648-46f1001f24b7.jpeg",
       "title": "Village artwork",
-      "location": "Lamjung District",
+      "location": "Lamjung District, Nepal",
       "date": "10/19/2019",
       "elevation": 3158,
       "notes": "Finding our way back to the circuit",
@@ -67,7 +67,7 @@
     {
       "src": "2019/10/19/4302a350-be49-4007-88d4-15840fb16191.jpeg",
       "title": "Entering a village",
-      "location": "Lamjung District",
+      "location": "Lamjung District, Nepal",
       "date": "10/19/2019",
       "elevation": 2566,
       "notes": "Finding a place to sleep for the night",
@@ -87,7 +87,7 @@
     {
       "src": "2019/10/19/cde86c7c-f794-4a99-8286-9af3de9425fc.jpeg",
       "title": "Lush jungle",
-      "location": "Lamjung District",
+      "location": "Lamjung District, Nepal",
       "date": "10/20/2019",
       "elevation": 3904,
       "notes": "Bound for Jagat village",
@@ -103,7 +103,7 @@
     {
       "src": "2019/10/19/3d1edec3-da4d-4c6a-8f04-f4e7dcbcaaf9.jpeg",
       "title": "Waterfall",
-      "location": "Manang District",
+      "location": "Manang District, Nepal",
       "date": "10/21/2019",
       "elevation": 4417,
       "notes": "First of many waterfalls",
@@ -119,7 +119,7 @@
     {
       "src": "2019/10/19/8579387b-fea3-4524-a281-0926aac361e1.jpeg",
       "title": "Waterfalls",
-      "location": "Manang District",
+      "location": "Manang District, Nepal",
       "date": "10/22/2019",
       "elevation": 7547,
       "notes": "Gaining elevation, passing a series of waterfalls on our way to Chame",
@@ -135,7 +135,7 @@
     {
       "src": "2019/10/19/91fcb255-9894-434c-9c39-41ea5070e819.jpeg",
       "title": "Mountain-based village",
-      "location": "Manang District",
+      "location": "Manang District, Nepal",
       "date": "10/23/2019",
       "elevation": 10805,
       "notes": "Reaching Upper Pisang, and our place of rest for the night",
@@ -151,7 +151,7 @@
     {
       "src": "2019/10/19/a5f1d4b0-a6a8-453a-bd24-647a0bc6545f.jpeg",
       "title": "Village on plateau",
-      "location": "Manang District",
+      "location": "Manang District, Nepal",
       "date": "10/24/2019",
       "elevation": 12010,
       "notes": "Making our way to the Village of Manang, and a much needed zero the next day",
@@ -167,7 +167,7 @@
     {
       "src": "2019/10/19/ef85d604-a95e-4094-baae-83bfa8464980.jpeg",
       "title": "Stuppa",
-      "location": "Manang District",
+      "location": "Manang District, Nepal",
       "date": "10/24/2019",
       "elevation": 12244,
       "notes": "Halfway to Manang before dropping down in elevation to 11,000 ft",
@@ -183,7 +183,7 @@
     {
       "src": "2019/10/19/b9b20eb0-e569-4778-99c6-de3a3c2eb15e.jpeg",
       "title": "Ice lake",
-      "location": "Manang District",
+      "location": "Manang District, Nepal",
       "date": "10/25/2019",
       "elevation": 15150,
       "notes": "Reaching new heights on a side trek after taking a rest day in Manang",
@@ -199,7 +199,7 @@
     {
       "src": "2019/10/19/8e6f1186-0022-490e-9a78-1e010c478e7c.jpeg",
       "title": "Mighty glacier",
-      "location": "Manang District",
+      "location": "Manang District, Nepal",
       "date": "10/25/2019",
       "elevation": 14963,
       "notes": "View of Annapurna I, II, and III on our way back to Manang from Ice Lake",
@@ -215,7 +215,7 @@
     {
       "src": "2019/10/19/4fc862a6-93fc-4196-9293-2e03e1ae9d0e.jpeg",
       "title": "Steep mountain-side trail",
-      "location": "Manang District",
+      "location": "Manang District, Nepal",
       "date": "10/26/2019",
       "elevation": 13542,
       "notes": "Heading towards Tilicho Lake basecamp, another side trek not part of the main circuit",
@@ -231,7 +231,7 @@
     {
       "src": "2019/10/19/2a1bf139-680c-427a-833f-62ff563c5eca.jpeg",
       "title": "Tilicho Lake",
-      "location": "Manang District",
+      "location": "Manang District, Nepal",
       "date": "10/27/2019",
       "elevation": 16465,
       "notes": "Reaching Tilicho Lake after starting in the pre-dawn hours, and being rewarded with views of an avalanche",
@@ -247,7 +247,7 @@
     {
       "src": "2019/10/19/ed197052-01d7-4739-807c-39340385c0fc.jpeg",
       "title": "Dust storms",
-      "location": "Manang District",
+      "location": "Manang District, Nepal",
       "date": "10/27/2019",
       "elevation": 16113,
       "notes": "Returning from Tilicho lake, bound for Khangsar",
@@ -263,7 +263,7 @@
     {
       "src": "2019/10/19/d7837a44-81d2-4fa0-9912-bb15508be721.jpeg",
       "title": "Lone yak",
-      "location": "Manang District",
+      "location": "Manang District, Nepal",
       "date": "10/28/2019",
       "elevation": 13627,
       "notes": "A solitary soul, heading to Phedi",
@@ -279,7 +279,7 @@
     {
       "src": "2019/10/19/40b7a029-2f0c-4807-94fa-86a07ee9ffa9.jpeg",
       "title": "Overlooking Manang",
-      "location": "Khotang District",
+      "location": "Khotang District, Nepal",
       "date": "10/28/2019",
       "elevation": 13652,
       "notes": "Point of no return, bound for Phedi and the highest point on the trek at Thorong La Pass",
@@ -295,7 +295,7 @@
     {
       "src": "2019/10/19/f76cbaab-0139-44b4-bc5c-6c816731d927.jpeg",
       "title": "Thorong-la Pass",
-      "location": "Mustang District",
+      "location": "Mustang District, Nepal",
       "date": "10/29/2019",
       "elevation": 17812,
       "notes": "The highest elevation I've ever reached by foot, and the highest point on the trek",
@@ -311,7 +311,7 @@
     {
       "src": "2019/10/19/31cfb5dc-44b7-4ab5-b216-1ec2efa7b7b3.jpeg",
       "title": "Muktinath",
-      "location": "Mustang District",
+      "location": "Mustang District, Nepal",
       "date": "10/29/2019",
       "elevation": 12406,
       "notes": "Our place of rest for the night after descending over 5,000 ft",
@@ -327,7 +327,7 @@
     {
       "src": "2019/10/19/93b7286f-a87a-4d8e-8d85-6a3f50dcd82c.jpeg",
       "title": "Dirt-brown mountain views",
-      "location": "Mustang District",
+      "location": "Mustang District, Nepal",
       "date": "10/30/2019",
       "elevation": 12503,
       "notes": "Bound for Marpha as the Annapurna Circuit starts to come to an end",
@@ -343,7 +343,7 @@
     {
       "src": "2019/10/19/9f9bca6e-e30a-4ca0-b005-5a0bda57f649.jpeg",
       "title": "All the biomes",
-      "location": "Mustang District",
+      "location": "Mustang District, Nepal",
       "date": "10/31/2019",
       "elevation": 8234,
       "notes": "Second to last day on the circuit, heading towards Ghasa",
@@ -359,7 +359,7 @@
     {
       "src": "2019/10/19/5cf22091-8d99-4cdd-870c-f91db81c1049.jpeg",
       "title": "Down and up to Ghorepani",
-      "location": "Myagdi District",
+      "location": "Myagdi District, Nepal",
       "date": "11/01/2019",
       "elevation": 5579,
       "notes": "A rough day with lots of descent and ascent, and nearly being taken out by hypothermia at the end of the day. Thankfully a group of Iranian hikers came to my aid and nursed me back to full strength.",

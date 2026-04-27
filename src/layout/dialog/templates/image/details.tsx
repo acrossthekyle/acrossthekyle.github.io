@@ -43,7 +43,7 @@ export default function Details({
           <Ui.Templates.Icon icon="Flag" />
           <Ui.Templates.Content>
             <Ui.Templates.Label>Location</Ui.Templates.Label>
-            {image.location}, {album.location}
+            {image.location}
           </Ui.Templates.Content>
         </Ui.Templates.ListItem>
         <Ui.Templates.ListItem canRender={isInView} index={3}>

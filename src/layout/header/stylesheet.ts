@@ -2,20 +2,26 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    fixed top-0 left-0 z-999
+    fixed top-0 left-0 z-9990
     flex flex-col items-center gap-0
-    w-full
-    px-3
-    mt-1
+    w-[calc(100%-1.5rem)]
+    h-9
+    mt-1 mx-3
+    rounded-sm
+    bg-(--background)
 
     xs:grid
     xs:grid-cols-2
     xs:gap-0
+    md:w-full
     md:mt-2
+    md:mx-0
     md:px-12
+    md:bg-transparent
   `,
   anchor: (shouldDelay: boolean) => tw(`
     flex items-center justify-start
+    w-full
     mb-1.25
 
     motion-safe:opacity-0
@@ -24,7 +30,7 @@ const styles = tw({
     lg:mb-0
   `),
   controls: (shouldDelay: boolean) => tw(`
-    flex items-center justify-center
+    flex items-center w-full
     mb-1 -mt-0.25
 
     motion-safe:opacity-0
@@ -35,31 +41,19 @@ const styles = tw({
     lg:mb-0
   `),
   group: `
-    flex items-center justify-end gap-0
+    flex items-center justify-between gap-0
+    w-full
     rounded-sm
     bg-(--background)
+
+    xs:w-auto
+    xs:justify-center
   `,
-  filter: (canRender: boolean) => tw(`
-    fixed top-19 left-0 right-0 z-9999
-    flex justify-center items-center
-
-    motion-safe:duration-300
-    ${canRender ? 'motion-safe:opacity-100' : 'motion-safe:opacity-0'}
-
-    xs:top-10
-    xs:justify-end
-    xs:right-3
-    md:right-12
-    md:top-12
-    lg:left-80
-    lg:right-80
-    lg:top-2
-    lg:justify-center
-  `),
   button: (isActive: boolean) => tw(`
-    flex items-center gap-2
+    flex items-center justify-center gap-2
+    w-full
     font-sans font-medium
-    text-xs
+    text-sm
     capitalize
     rounded-sm
     bg-(--background)
@@ -68,10 +62,36 @@ const styles = tw({
     motion-safe:duration-300
     motion-safe:hover:opacity-100
     ${isActive ? 'motion-safe:opacity-100' : 'motion-safe:opacity-50'}
+
+    xs:w-auto
+    lg:text-xs
   `),
+  filter: (canRender: boolean) => tw(`
+    fixed left-3 bottom-10 right-3 z-1
+
+    flex items-center justify-between gap-1
+
+    font-sans font-medium
+    text-xs
+    capitalize
+    rounded-sm
+    bg-(--background)
+    p-2
+
+    motion-safe:duration-300
+    ${canRender ? 'motion-safe:opacity-100' : 'motion-safe:opacity-0'}
+
+    md:bottom-2
+    md:right-auto
+    md:left-1/2
+    md:-translate-x-1/2
+    md:w-auto
+  `),
+  prefix: `
+    flex items-center gap-1
+  `,
   first: `pl-4`,
   last: `pr-4`,
-  only: `px-4`,
   icon: `
     w-3.5 h-3.5
   `,

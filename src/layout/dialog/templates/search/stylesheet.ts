@@ -124,9 +124,10 @@ const styles = tw({
     opacity-20
   `,
   close: `
-    absolute -top-1.25 -right-2 z-1
+    absolute top-2 right-2 z-1
     p-2
 
+    sm:top-8
     lg:top-5
     lg:right-3.75
   `,

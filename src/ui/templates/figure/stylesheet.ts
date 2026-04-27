@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    w-screen h-screen
+    w-screen h-full
     flex items-center justify-center
     p-4
     overflow-hidden

@@ -50,7 +50,7 @@ export default function Template() {
         <figcaption className={styles.caption}>
           <address className={styles.author}>
             <span className={styles.signature}>Kyle G.</span>
-            <span className={styles.title}>Live long, and prosper</span>
+            <span className={styles.title}>See you out there</span>
           </address>
           <div className={styles.links}>
             <Link

@@ -58,19 +58,19 @@ export default function Filter({ data }: Props) {
   const meta = getMetaData(data, filterId, filterType);
 
   return (
-    <section
-      aria-label="reset filter controls"
+    <button
+      aria-label={`filtering by ${meta.label}, remove filter`}
       className={styles.filter(view === 'library')}
+      onClick={handleOnReset}
+      type="button"
     >
-      <button
-        aria-label="remove filter"
-        className={`${styles.button(true)} ${styles.only}`}
-        onClick={handleOnReset}
-        type="button"
-      >
+      <span className={styles.prefix}>
         <X className={styles.icon} />
-        {meta.label}: {meta.count} images
-      </button>
-    </section>
+        {meta.label}:
+      </span>
+      <span>
+        {meta.count} images
+      </span>
+    </button>
   );
 }

@@ -14,12 +14,14 @@ export default function Preview({
 }: React.PropsWithChildren<Props>) {
   return (
     <button
-      className={styles.toggle}
+      className={styles.container}
       onClick={onToggle}
       title={label}
       type="button"
     >
-      {children}
+      <div className={styles.inner}>
+        <span className={styles.clamp}>{children}</span>
+      </div>
     </button>
   );
 }
