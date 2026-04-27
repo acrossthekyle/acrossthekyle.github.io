@@ -82,12 +82,12 @@ export default function Template({ data }: Props) {
           <Ui.Templates.FigureCaption
             canRender={isRenderingDetails}
             inViewRef={inViewRef}
+            onClose={handleOnDetails}
           >
             {(data?.album && data?.image === undefined) && (
               <Cover
                 album={data.album}
                 isInView={isInView}
-                isViewingNotes={isViewingNotes}
                 onAlbum={handleOnAlbum}
                 onNotes={handleOnNotes}
               />
@@ -102,11 +102,16 @@ export default function Template({ data }: Props) {
             )}
           </Ui.Templates.FigureCaption>
         )}
+        <Ui.Templates.Toggles
+          isActive={isRenderingDetails}
+          onClose={handleOnClose}
+          onToggle={handleOnDetails}
+        />
       </Ui.Templates.Figure>
-      <Ui.Templates.Toggles
-        isActive={isRenderingDetails}
-        onClose={handleOnClose}
-        onToggle={handleOnDetails}
+      <Ui.Templates.Notes
+        isActive={isViewingNotes}
+        notes={data?.album?.notes}
+        onToggle={handleOnNotes}
       />
     </>
   );

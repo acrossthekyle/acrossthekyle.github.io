@@ -5,6 +5,7 @@ const styles = tw({
     absolute bottom-6 left-0 z-1
     w-full
     flex items-center justify-center gap-8
+    pointer-events-auto
 
     lg:animate-none
     lg:hidden

@@ -1,5 +1,6 @@
 'use client';
 
+import { Footprints } from 'lucide-react';
 import { useState, useEffect } from 'react';
 
 import styles from './stylesheet';
@@ -29,9 +30,9 @@ export default function Splash() {
       className={styles.container(isVisible)}
     >
       <div className={styles.content}>
-        <h1 className={styles.header}>
-          Kyle
-        </h1>
+        <span className={styles.header}>
+          <Footprints />
+        </span>
         <p className={styles.paragraph}>
           A collection of my hikes, summits, and experiences
         </p>

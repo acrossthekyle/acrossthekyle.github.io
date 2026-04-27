@@ -2,11 +2,14 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    relative
+    w-screen h-screen
     flex items-center justify-center
-    w-full h-full
+    p-4
+    overflow-hidden
     pointer-events-none
-    py-6
+
+    sm:p-12
+    lg:p-22
 
     motion-safe:animate-fade-in
   `,

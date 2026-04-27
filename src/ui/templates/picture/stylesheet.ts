@@ -1,44 +1,20 @@
 import tw from '@/styles';
 
 const styles = tw({
-  container: (size: string) => tw(`
-    relative
-
-    motion-safe:transform-all
-    motion-safe:duration-300
-
-    ${size === 'preview' ? `
-      max-w-52
-
-      landscape:h-full
-
-      mobile-landscape:max-w-52
-      md:max-w-133
-
-      portrait:w-full
-      portrait:h-auto
-
-      2xl:landscape:max-w-[66vh]
-    ` : `
-      w-full
-      h-auto
-    `}
-  `),
   image: (size: string) => tw(`
+    transition-all ease-in-out
+    max-w-full max-h-full
+    !w-auto !h-auto
     rounded-lg
+    duration-300
 
-    ${size === 'preview' ? 'aspect-3/4' : 'aspect-16/9'}
+    ${size === 'preview' ? 'aspect-3/4 !w-[60%] !h-auto duration-1000' : 'aspect-video !w-auto !h-auto duration-700'}
   `),
-  controls: `
+  toggle: `
+    group
     absolute top-1/2 left-1/2
     -translate-x-1/2
     -translate-y-1/2
-    flex items-center justify-center
-    w-36 h-36
-  `,
-  button: `
-    group
-    relative z-1
     flex items-center justify-center
     pointer-events-auto
     h-10 w-10
@@ -49,20 +25,25 @@ const styles = tw({
     before:absolute
     before:inset-0
     before:z-0
-    before:rounded-lg
-    before:bg-(--background)/25
+    before:rounded-xl
+    before:bg-(--background)
+    before:opacity-25
     before:duration-300
 
     motion-safe:duration-300
     motion-safe:animate-pulse
-    motion-safe:hover:before:bg-(--background)/50
     motion-safe:hover:animate-none
+    motion-safe:hover:before:bg-(--background)
+    motion-safe:hover:before:opacity-50
 
     md:text-xs
   `,
   icon: `
     relative z-2
     w-3.5 h-3.5
+    duration-300
+
+    group-hover:scale-125
   `,
 });
 

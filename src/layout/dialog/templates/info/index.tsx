@@ -16,7 +16,7 @@ export default function Template() {
       <h2 className={styles.header} id="dialog-header">
         Hi, I'm Kyle
         <span className={styles.subheader}>
-          /kī(ə)l/ • Gaelic • Channel, sound, or strait
+          Origin: Gaelic • Meaning: channel, sound, or strait
         </span>
       </h2>
       <button
@@ -28,7 +28,7 @@ export default function Template() {
         <X className={styles.icon} />
       </button>
       <p>
-        My interest in dirt paths, alpine peaks, and a curiosity to explore was born from a 2016 trek in the South American Andes mountains of Chile, and further cemented by a 600-mile thru-hike across Northern Spain in 2018 on a network of trails called The Camino de Santiago.
+        My interest in dirt paths, alpine peaks, and a curiosity to explore was born from a 2016 trek in the South American Andes mountains of Chile, and further cemented by a 600-mile thru-hike across Northern Spain in 2018 on a network of trails called El Camino de Santiago.
       </p>
       <p>
         Ever since then I've thru-hiked dozens of trails, and been to heights I never thought I'd reach, all by foot.
@@ -37,7 +37,7 @@ export default function Template() {
         Those experiences from trails, mountain tops, walking city streets, and exploring ancient monuments are captured by the camera bump on the back of my phone.
       </p>
       <p>
-        Between adventures my partner and I indulge in things that fuel imagination and critical thinking; from books, videos, and podcasts, to films and more, all while enjoying long walks and relaxing in a hammock with our dog Dax, as we live a city-based life in Chicago on lands belonging to the Potawatomi, Ojibwe, and Odawa.
+        Between adventures my partner and I indulge in things that fuel imagination and critical thinking; from books, videos, and podcasts, to films and more, all while enjoying long walks and relaxing in a hammock with our dog Dax, as we live a city-based life in Chicago.
       </p>
       <p>
         I'm also an avid software developer who loves building web applications with an approach rooted in a genuine thrill for writing code, even after a career of {new Date().getFullYear() - 2012} years.

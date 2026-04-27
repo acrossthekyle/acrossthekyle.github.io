@@ -7,10 +7,12 @@ const styles = tw({
     w-full max-w-lg
     h-full
     my-0 mx-auto
+    py-4 px-5
     cursor-auto
     pointer-events-auto
     text-sm
 
+    sm:py-10
     lg:justify-center
   `,
   header: `
@@ -55,10 +57,11 @@ const styles = tw({
     lg:pb-0
   `,
   close: `
-    absolute -top-1.25 -right-2 z-1
+    absolute top-2 right-2 z-1
     p-2
 
-    lg:top-18
+    sm:top-8
+    lg:top-32
   `,
   icon: `
     w-4 h-4

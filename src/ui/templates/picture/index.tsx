@@ -19,13 +19,13 @@ export default function Picture({ src }: Props) {
   }
 
   return (
-    <div className={styles.container(size)}>
+    <>
       <Image
         className={styles.image(size)}
         size="large"
         src={src}
       />
       <Toggle />
-    </div>
+    </>
   );
 }

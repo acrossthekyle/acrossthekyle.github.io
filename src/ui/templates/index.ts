@@ -9,6 +9,6 @@ export { default as Link } from './link';
 export { default as LinkExternalIcon } from './external';
 export { default as List } from './list';
 export { default as ListItem } from './item';
-export { default as ListItemNotes } from './notes';
-export { default as ListItemNotesParagraph } from './paragraph';
+export { default as Notes } from './notes';
+export { default as Preview } from './preview';
 export { default as Toggles } from './toggles';

@@ -4,17 +4,14 @@ import Marker from './marker';
 import styles from './stylesheet';
 
 type Props = {
-  canRender: boolean;
-  index: number;
   position: string[];
 };
 
-export default function Container({ canRender, index, position }: Props) {
+export default function Container({ position }: Props) {
   return (
     <div
-      className={styles.container(canRender)}
+      className={styles.container(true)}
       role="presentation"
-      style={{ transitionDelay: `${index * 0.125}s` }}
     >
       <div className={styles.inner}>
         <Image

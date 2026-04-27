@@ -9,6 +9,7 @@ import {
   GalleryVerticalEnd,
   Globe,
   LayoutDashboard,
+  MapPin,
   Maximize,
   Minimize,
   Pen,
@@ -81,6 +82,10 @@ function getIcon(icon: string) {
 
   if (icon === 'Type') {
     return <Type aria-hidden="true" className={styles.icon} />
+  }
+
+  if (icon === 'MapPin') {
+    return <MapPin aria-hidden="true" className={styles.icon} />
   }
 
   return null;

@@ -7,12 +7,13 @@ const styles = tw({
     w-full max-w-lg
     h-auto
     my-0 mx-auto
-    p-0
+    py-4 px-5
     rounded-md
     cursor-auto
     pointer-events-auto
     text-sm
 
+    sm:py-10
     lg:p-6
   `,
   header: `

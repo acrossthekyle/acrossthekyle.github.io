@@ -1,9 +1,9 @@
 import tw from '@/styles';
 
 const styles = tw({
-  container: `
-    block
-    w-full
+  toggle: `
+    text-left
+    line-clamp-3
   `,
 });
 

@@ -25,7 +25,8 @@ const styles = tw({
     font-sans font-medium
   `,
   header: `
-    text-base
+    flex justify-center
+    mb-2
 
     motion-safe:animate-fade-in-up
   `,

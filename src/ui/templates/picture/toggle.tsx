@@ -10,19 +10,17 @@ export default function Toggle() {
   const { onSize, size } = useSize();
 
   return (
-    <div className={styles.controls}>
-      <button
-        className={styles.button}
-        onClick={() => onSize()}
-        title={size === 'full' ? 'Shrink image size' : 'Expand image size'}
-        type="button"
-      >
-        {size === 'full' ? (
-          <Minimize className={styles.icon} />
-        ) : (
-          <Maximize className={styles.icon} />
-        )}
-      </button>
-    </div>
+    <button
+      className={styles.toggle}
+      onClick={() => onSize()}
+      title={size === 'full' ? 'Shrink image size' : 'Expand image size'}
+      type="button"
+    >
+      {size === 'full' ? (
+        <Minimize className={styles.icon} />
+      ) : (
+        <Maximize className={styles.icon} />
+      )}
+    </button>
   );
 }
