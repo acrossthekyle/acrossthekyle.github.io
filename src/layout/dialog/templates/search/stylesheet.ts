@@ -89,7 +89,7 @@ const styles = tw({
   `,
   results: `
     flex flex-col gap-4
-    px-2
+    pl-2
   `,
   result: `
     motion-safe:duration-300
@@ -98,13 +98,15 @@ const styles = tw({
   `,
   link: `
     flex items-start gap-4
+    w-full
     rounded-md
-    p-2
-    -m-2
     text-left
 
     motion-safe:duration-300
     motion-safe:hover:bg-(--foreground)/2.5
+
+    sm:p-2
+    sm:-m-2
   `,
   icon: `
     w-4 h-4
