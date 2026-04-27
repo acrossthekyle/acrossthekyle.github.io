@@ -7,6 +7,7 @@ import Skeleton from '../skeleton';
 type Props = {
   alt?: string;
   className?: string;
+  eager?: boolean;
   size?: string;
   src: string;
 }
@@ -14,6 +15,7 @@ type Props = {
 export default function Container({
   alt = '',
   className = '',
+  eager,
   size,
   src,
 }: Props) {
@@ -21,6 +23,7 @@ export default function Container({
     <Context src={src}>
       <Image
         alt={alt}
+        eager={eager}
         className={className}
         height={432}
         sizes={size === 'large' ? '80vw' : '33vw'}

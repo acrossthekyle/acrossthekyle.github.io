@@ -8,6 +8,7 @@ import { ImageContext } from '../context';
 type Props = {
   alt: string;
   className?: string;
+  eager?: boolean;
   height: number;
   sizes: string;
   src: string;
@@ -17,6 +18,7 @@ type Props = {
 export default function Image({
   alt,
   className = '',
+  eager,
   height,
   sizes,
   src,
@@ -29,6 +31,7 @@ export default function Image({
       alt={alt}
       className={className}
       draggable="false"
+      loading={eager ? 'eager' : 'lazy'}
       height={height}
       onLoad={onLoad}
       sizes={sizes}

@@ -4,6 +4,7 @@ const styles = tw({
   container: (isActive: boolean) => tw(`
     absolute inset-0 z-99
     flex items-start
+    mx-4
     overflow-y-scroll
     overscroll-none
 
@@ -17,6 +18,7 @@ const styles = tw({
       motion-safe:[transition:translate_0s_linear_.7s]
     `}
 
+    sm:mx-0
     lg:items-center
   `),
   backdrop: (isActive: boolean) => tw(`
@@ -44,6 +46,7 @@ const styles = tw({
     bg-(--background)
     p-4
     rounded-lg
+    border-1 border-(--foreground)/5
 
     motion-safe:duration-700
 
@@ -56,7 +59,7 @@ const styles = tw({
       motion-safe:top-full
     `}
 
-    sm:w-64
+    sm:w-82
     lg:-translate-y-1/2
     lg:text-xs
   `),

@@ -19,7 +19,6 @@ export default function Notes({
 
   return (
     <div
-      aria-hidden={isActive ? 'false' : 'true'}
       className={styles.container(isActive)}
       role="dialog"
     >

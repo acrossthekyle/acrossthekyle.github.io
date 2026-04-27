@@ -21,9 +21,9 @@ type Props = {
 
 export default function Template({ data }: Props) {
   const [isViewingNotes, setIsViewingNotes] = useState(false);
-  const [isRenderingDetails,  setIsRenderingDetails] = useState(false);
+  const [isRenderingDetails, setIsRenderingDetails] = useState(false);
 
-  const { onClose, onDone } = useDialog();
+  const { onClose, onDone, onStack } = useDialog();
   const { onSize, size } = useSize();
   const { onView } = useView();
 
@@ -34,20 +34,8 @@ export default function Template({ data }: Props) {
   const handleOnDone = () => {
     setIsViewingNotes(false);
     setIsRenderingDetails(false);
+
     onSize('reset');
-  };
-
-  useEffect(() => {
-    onDone(() => {
-      handleOnDone();
-    });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [onDone, isRenderingDetails, isViewingNotes, size]);
-
-  const handleOnAlbum = () => {
-    onClose();
-
-    onView('library');
   };
 
   const handleOnNotes = () => {
@@ -62,7 +50,42 @@ export default function Template({ data }: Props) {
 
       return !isActive
     });
-  }
+  };
+
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        if (isViewingNotes) {
+          handleOnNotes();
+        }
+
+        if (isRenderingDetails && !isViewingNotes) {
+          handleOnDetails();
+        }
+      }
+    };
+
+    onStack(isRenderingDetails || isViewingNotes);
+
+    window.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [isRenderingDetails, isViewingNotes, onStack]);
+
+  useEffect(() => {
+    onDone(() => {
+      handleOnDone();
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [onDone, isRenderingDetails, isViewingNotes, size]);
+
+  const handleOnAlbum = () => {
+    onClose();
+
+    onView('library');
+  };
 
   const handleOnClose = () => {
     onClose();
@@ -71,6 +94,9 @@ export default function Template({ data }: Props) {
   if (!data) {
     return null;
   }
+
+  const isCover = (data?.album && data?.image === undefined);
+  const isDetails = (data?.album && data?.image !== undefined);
 
   return (
     <>
@@ -84,20 +110,21 @@ export default function Template({ data }: Props) {
             inViewRef={inViewRef}
             onClose={handleOnDetails}
           >
-            {(data?.album && data?.image === undefined) && (
+            {isCover && (
               <Cover
-                album={data.album}
+                album={data?.album}
                 isInView={isInView}
                 onAlbum={handleOnAlbum}
                 onNotes={handleOnNotes}
               />
             )}
-            {(data?.album && data?.image !== undefined) && (
+            {isDetails && (
               <Details
-                album={data.album}
-                image={data.image}
+                album={data?.album}
+                image={data?.image}
                 isInView={isInView}
                 onAlbum={handleOnAlbum}
+                onNotes={handleOnNotes}
               />
             )}
           </Ui.Templates.FigureCaption>
@@ -110,7 +137,7 @@ export default function Template({ data }: Props) {
       </Ui.Templates.Figure>
       <Ui.Templates.Notes
         isActive={isViewingNotes}
-        notes={data?.album?.notes}
+        notes={isCover ? data?.album?.notes : [data?.image?.notes || '']}
         onToggle={handleOnNotes}
       />
     </>

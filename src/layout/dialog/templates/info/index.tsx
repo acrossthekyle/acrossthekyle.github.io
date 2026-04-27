@@ -34,7 +34,7 @@ export default function Template() {
         Ever since then I've thru-hiked dozens of trails, and been to heights I never thought I'd reach, all by foot.
       </p>
       <p>
-        Those experiences from trails, mountain tops, walking city streets, and exploring ancient monuments are captured by the camera bump on the back of my phone.
+        Those experiences from trails, mountain tops, walking city streets, and exploring ancient monuments are captured by the camera bump on the back of my phone and sometimes featured here on my website.
       </p>
       <p>
         Between adventures my partner and I indulge in things that fuel imagination and critical thinking; from books, videos, and podcasts, to films and more, all while enjoying long walks and relaxing in a hammock with our dog Dax, as we live a city-based life in Chicago.
@@ -50,7 +50,7 @@ export default function Template() {
         <figcaption className={styles.caption}>
           <address className={styles.author}>
             <span className={styles.signature}>Kyle G.</span>
-            <span className={styles.title}>See you out there</span>
+            <span className={styles.title}>Live long, and prosper</span>
           </address>
           <div className={styles.links}>
             <Link

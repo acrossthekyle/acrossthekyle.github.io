@@ -4,7 +4,7 @@ import { Ui } from '@/ui';
 import Map from './map';
 
 type Props = {
-  album: Album;
+  album?: Album;
   isInView: boolean;
   onAlbum: () => void;
   onNotes: () => void;
@@ -16,6 +16,10 @@ export default function Cover({
   onAlbum,
   onNotes,
 }: Props) {
+  if (!album) {
+    return null;
+  }
+
   return (
     <>
       <Ui.Templates.Header canRender={isInView}>

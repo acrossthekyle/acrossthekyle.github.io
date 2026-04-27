@@ -2,10 +2,11 @@ import type { Album, Data } from '@/types';
 import { Ui } from '@/ui';
 
 type Props = {
-  album: Album;
-  image: Data;
+  album?: Album;
+  image?: Data;
   isInView: boolean;
   onAlbum: () => void;
+  onNotes: () => void;
 };
 
 export default function Details({
@@ -13,7 +14,12 @@ export default function Details({
   image,
   isInView,
   onAlbum,
+  onNotes,
 }: Props) {
+  if (!album || !image) {
+    return null;
+  }
+
   return (
     <>
       <Ui.Templates.Header canRender={isInView}>
@@ -66,7 +72,12 @@ export default function Details({
             <Ui.Templates.Icon icon="Pen" />
             <Ui.Templates.Content>
               <Ui.Templates.Label>Notes</Ui.Templates.Label>
-              {image.notes}
+              <Ui.Templates.Preview
+                label="View more notes"
+                onToggle={onNotes}
+              >
+                {image.notes}
+              </Ui.Templates.Preview>
             </Ui.Templates.Content>
           </Ui.Templates.ListItem>
         )}

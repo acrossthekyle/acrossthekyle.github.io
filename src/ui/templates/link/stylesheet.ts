@@ -13,8 +13,8 @@ const styles = tw({
     motion-safe:duration-300
     motion-safe:hover:bg-(--foreground)/2.5
 
-    sm:p-2
-    sm:-m-2
+    lg:p-2
+    lg:-m-2
   `,
 });
 

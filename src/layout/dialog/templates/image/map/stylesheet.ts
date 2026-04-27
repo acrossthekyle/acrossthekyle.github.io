@@ -17,7 +17,7 @@ const styles = tw({
   `,
   marker: `
     absolute z-2
-    w-2 h-2
+    w-1 h-1
     shadow-[0px_0px_9px_4px_var(--foreground)]
     bg-(--foreground)
     rounded-full

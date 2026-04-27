@@ -30,6 +30,7 @@ type DialogContextType = {
   onClose: () => void;
   onDone: (callback: () => void) => void;
   onOpen: (input: Input) => void;
+  onStack: (value: boolean) => void;
   isOpen: boolean;
 };
 
@@ -37,6 +38,7 @@ export const DialogContext = createContext<DialogContextType | null>(null);
 
 export default function DialogProvider({ children }: PropsWithChildren) {
   const [isOpen, setIsOpen] = useState(false);
+  const [isStacked, setIsStacked] = useState(false);
   const [data, setData] = useState<Input>({
     data: {},
     template: '',
@@ -76,10 +78,10 @@ export default function DialogProvider({ children }: PropsWithChildren) {
   }, [handleOnDoneCallback]);
 
   const handleOnCancel = useCallback((event: KeyboardEvent<HTMLDialogElement>) => {
-    if (event.key === 'Escape') {
+    if (event.key === 'Escape' && !isStacked) {
       handleOnClose();
     }
-  }, [handleOnClose]);
+  }, [handleOnClose, isStacked]);
 
   const handleOnBackdrop = useCallback((event: MouseEvent<HTMLDialogElement>) => {
     if (event.target === dialog.current) {
@@ -89,6 +91,10 @@ export default function DialogProvider({ children }: PropsWithChildren) {
 
   const handleOnDone = useCallback((callback: () => void) => {
     setOnDoneCallback(() => callback);
+  }, []);
+
+  const handleOnStack = useCallback((value: boolean) => {
+    setIsStacked(value);
   }, []);
 
   return (
@@ -101,6 +107,7 @@ export default function DialogProvider({ children }: PropsWithChildren) {
       onClose: handleOnClose,
       onDone: handleOnDone,
       onOpen: handleOnOpen,
+      onStack: handleOnStack,
     }}>
       {children}
     </DialogContext.Provider>

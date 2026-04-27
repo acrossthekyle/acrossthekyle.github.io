@@ -1,6 +1,6 @@
 'use client';
 
-import { Maximize, Minimize, Shrink } from 'lucide-react';
+import { ScanText, Shrink } from 'lucide-react';
 
 import { useSize } from '@/hooks/useSize';
 
@@ -29,11 +29,7 @@ export default function Toggles({ isActive, onClose, onToggle }: Props) {
         onClick={onToggle}
         type="button"
       >
-        {isActive ? (
-          <Minimize className={styles.icon} />
-        ) : (
-          <Maximize className={styles.icon} />
-        )} Details
+        <ScanText className={styles.icon} /> Info
       </button>
       <button
         aria-label="close image"
@@ -41,7 +37,7 @@ export default function Toggles({ isActive, onClose, onToggle }: Props) {
         onClick={onClose}
         type="button"
       >
-        <Shrink className={styles.icon} /> Close
+        <Shrink className={styles.icon} /> Exit
       </button>
     </div>
   );

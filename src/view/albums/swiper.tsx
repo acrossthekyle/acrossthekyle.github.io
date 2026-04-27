@@ -114,6 +114,7 @@ export default function Plugin({ data, onClick }: Props) {
               >
                 <Ui.Images.Image
                   className={styles.image}
+                  eager
                   src={item.cover}
                 />
               </button>

@@ -22,6 +22,12 @@ export default function Caption({
       id="template-caption"
       ref={inViewRef}
     >
+      <button
+        aria-label="close info"
+        className={styles.backdrop}
+        onClick={onClose}
+        type="button"
+      />
       <div className={styles.inner(canRender)}>
         <button className={styles.close} onClick={onClose} type="button">
           <X className={styles.icon} />
