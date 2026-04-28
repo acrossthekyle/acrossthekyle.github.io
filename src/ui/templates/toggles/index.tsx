@@ -1,6 +1,6 @@
 'use client';
 
-import { ScanText, Shrink } from 'lucide-react';
+import { ArrowUpRight, Undo2 } from 'lucide-react';
 
 import { useSize } from '@/hooks/useSize';
 
@@ -22,6 +22,14 @@ export default function Toggles({ isActive, onClose, onToggle }: Props) {
   return (
     <div className={styles.container}>
       <button
+        aria-label="close image"
+        className={styles.button}
+        onClick={onClose}
+        type="button"
+      >
+        <Undo2 aria-hidden="true" className={styles.icon} /> Back
+      </button>
+      <button
         aria-label="toggle image caption"
         aria-expanded={isActive}
         aria-controls="template-caption"
@@ -29,15 +37,7 @@ export default function Toggles({ isActive, onClose, onToggle }: Props) {
         onClick={onToggle}
         type="button"
       >
-        <ScanText className={styles.icon} /> Info
-      </button>
-      <button
-        aria-label="close image"
-        className={styles.button}
-        onClick={onClose}
-        type="button"
-      >
-        <Shrink className={styles.icon} /> Exit
+        Details <ArrowUpRight aria-hidden="true" className={styles.icon} />
       </button>
     </div>
   );

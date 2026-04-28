@@ -1,6 +1,6 @@
 'use client';
 
-import { X } from 'lucide-react';
+import { Undo2 } from 'lucide-react';
 
 import { useFilter } from '@/hooks/useFilter';
 import { useView } from '@/hooks/useView';
@@ -45,9 +45,11 @@ function getMetaData(
 
 export default function Filter({ data }: Props) {
   const { filterId, filterType, isFiltering, onUnfilter } = useFilter();
-  const { view } = useView();
+  const { onView, view } = useView();
 
   const handleOnReset = () => {
+    onView(filterType === 'album' ? 'albums' : 'library');
+
     onUnfilter();
   };
 
@@ -59,18 +61,13 @@ export default function Filter({ data }: Props) {
 
   return (
     <button
-      aria-label={`filtering by ${meta.label}, remove filter`}
+      aria-label={`filtering by ${meta.label} with ${meta.count} images, clear filter`}
       className={styles.filter(view === 'library')}
       onClick={handleOnReset}
       type="button"
     >
-      <span className={styles.prefix}>
-        <X className={styles.icon} />
-        {meta.label}:
-      </span>
-      <span>
-        {meta.count} images
-      </span>
+      <Undo2 className={styles.icon} />
+      {filterType === 'album' ? 'Albums' : 'Clear'}
     </button>
   );
 }

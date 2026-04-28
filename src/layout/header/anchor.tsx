@@ -1,6 +1,6 @@
 'use client';
 
-import { ScanText } from 'lucide-react';
+import { Kanban } from 'lucide-react';
 
 import { useDialog } from '@/hooks/useDialog';
 import { useFilter } from '@/hooks/useFilter';
@@ -25,7 +25,7 @@ export default function Anchor() {
         onClick={handleOnClick}
         type="button"
       >
-        <ScanText className={styles.icon} /> Info
+        <Kanban className={`${styles.icon} ${styles.rotate}`} />
       </button>
     </section>
   );

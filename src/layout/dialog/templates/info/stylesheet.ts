@@ -40,15 +40,15 @@ const styles = tw({
     flex flex-col gap-0
     text-sm
     not-italic
-    leading-[1]
   `,
   title: `
     block
     text-xs
+    leading-[1]
   `,
   signature: `
     font-signature
-    text-xs
+    text-lg
   `,
   spacer: `
     block

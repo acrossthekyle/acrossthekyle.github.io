@@ -1,14 +1,14 @@
-import { Geist, Momo_Signature } from 'next/font/google';
+import { Geist, Yellowtail } from 'next/font/google';
 
 import styles from './stylesheet';
 
-const geistSans = Geist({
+const sans = Geist({
   display: 'swap',
   subsets: ['latin'],
   variable: '--font-geist-sans',
 });
 
-const momoSignature = Momo_Signature({
+const signature = Yellowtail({
   display: 'swap',
   subsets: ['latin'],
   weight: '400',
@@ -17,7 +17,7 @@ const momoSignature = Momo_Signature({
 
 export default function Body({ children }: React.PropsWithChildren) {
   return (
-    <body className={`${geistSans.variable} ${momoSignature.variable} ${styles.container}`}>
+    <body className={`${sans.variable} ${signature.variable} ${styles.container}`}>
       <div className={styles.background} />
       {children}
     </body>

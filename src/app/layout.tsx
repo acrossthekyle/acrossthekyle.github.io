@@ -1,6 +1,7 @@
 import '../globals.css';
 
 import type { Metadata } from 'next';
+import { headers } from 'next/headers';
 import { ThemeProvider } from 'next-themes';
 import { PropsWithChildren, Suspense } from 'react';
 
@@ -14,7 +15,7 @@ import { Body } from '@/layout';
 import Eggs from './eggs';
 
 export const metadata: Metadata = {
-  title: 'Kyle',
+  title: 'Kyle – A collection of my hikes, summits, and experiences',
   formatDetection: {
     telephone: false,
     date: false,
@@ -24,13 +25,16 @@ export const metadata: Metadata = {
 };
 
 export default async function RootLayout({ children }: PropsWithChildren) {
+  const headersList = await headers();
+  const units = headersList.get('x-units-system') || 'metric';
+
   return (
     <html lang="en-US" suppressHydrationWarning>
       <Suspense fallback={null}>
         <Eggs />
         <DialogProvider>
           <ViewProvider>
-            <UnitsProvider>
+            <UnitsProvider assumed={units}>
               <SizeProvider>
                 <FilterProvider>
                   <Body>

@@ -11,9 +11,9 @@ const styles = tw({
     lg:hidden
   `,
   button: `
-    flex items-center gap-2
+    flex items-center gap-1.25
     py-1 px-2
-    text-sm
+    text-xs
     bg-(--background)/75
     rounded-lg
 

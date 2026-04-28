@@ -1,3 +1,4 @@
+import { Footprints } from 'lucide-react';
 import { ImageResponse } from 'next/og';
 
 export const runtime = 'edge';
@@ -5,8 +6,8 @@ export const runtime = 'edge';
 export const alt = 'App Icon';
 
 export const size = {
-  width: 18,
-  height: 18,
+  width: 32,
+  height: 32,
 };
 
 export const contentType = 'image/png';
@@ -26,7 +27,7 @@ export default function Icon() {
           color: 'white',
         }}
       >
-        K.G.
+        <Footprints />
       </div>
     ),
     {

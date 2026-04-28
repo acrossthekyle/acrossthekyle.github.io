@@ -18,10 +18,12 @@ function uppercaseFirst(value) {
 };
 
 function getWhen(date: string | string[]) {
+  const DIVIDER = '/';
+
   if (!Array.isArray(date)) {
     const parsed = parseDate(date, 'M/dd/yyyy', new Date());
 
-    return `${formatDate(parsed, 'MM').trim()} ${formatDate(parsed, 'dd').trim()} 20${formatDate(parsed, 'yy').trim()}`;
+    return `${formatDate(parsed, 'MM').trim()}${DIVIDER}${formatDate(parsed, 'dd').trim()}${DIVIDER}20${formatDate(parsed, 'yy').trim()}`;
   }
 
   const start = parseDate(date[0], 'M/dd/yyyy', new Date());
@@ -46,17 +48,17 @@ function getWhen(date: string | string[]) {
     const doYearsMatch = yearA === yearB;
 
     if (!doYearsMatch) {
-      return `${monthA} ${dayA} 20${yearA} – ${monthB} ${dayB} 20${yearB}`;
+      return `${monthA}${DIVIDER}${dayA}${DIVIDER}20${yearA} – ${monthB}${DIVIDER}${dayB}${DIVIDER}20${yearB}`;
     }
 
     if (!doMonthsMatch) {
-      return `${monthA} ${dayA} - ${monthB} ${dayB} 20${yearA}`;
+      return `${monthA}${DIVIDER}${dayA} - ${monthB}${DIVIDER}${dayB}${DIVIDER}20${yearA}`;
     }
 
-    return `${monthA} ${dayA} - ${dayB} 20${yearA}`;
+    return `${monthA}${DIVIDER}${dayA} - ${dayB}${DIVIDER}20${yearA}`;
   }
 
-  return `${monthA} ${dayA} 20${yearA}`;
+  return `${monthA}${DIVIDER}${dayA}${DIVIDER}20${yearA}`;
 };
 
 export async function go() {

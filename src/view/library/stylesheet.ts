@@ -5,10 +5,10 @@ const styles = tw({
     relative z-0
     grid grid-cols-1 gap-3
     w-full
-    mt-6 pb-14 px-2
+    mt-36 pb-14 px-2
 
-    xs:grid-cols-2
-    xs:mt-12
+    min-[310px]:mt-12
+    min-[330px]:grid-cols-2
     md:grid-cols-3
     md:gap-6
     md:px-6

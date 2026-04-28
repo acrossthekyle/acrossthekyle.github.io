@@ -1,6 +1,6 @@
 'use client';
 
-import { Footprints, Stone } from 'lucide-react';
+import { Cylinder, Weight } from 'lucide-react';
 
 import { useUnits } from '@/hooks/useUnits';
 
@@ -21,7 +21,7 @@ export default function Units() {
         title="Imperial units"
         type="button"
       >
-        <Footprints className={styles.icon} />
+        <Weight className={styles.icon} />
       </button>
       <button
         className={styles.button(units === 'metric')}
@@ -29,7 +29,7 @@ export default function Units() {
         title="Metric units"
         type="button"
       >
-        <Stone className={styles.icon} />
+        <Cylinder className={styles.icon} />
       </button>
     </>
   );

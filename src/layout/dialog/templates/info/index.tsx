@@ -49,7 +49,7 @@ export default function Template() {
         />
         <figcaption className={styles.caption}>
           <address className={styles.author}>
-            <span className={styles.signature}>Kyle G.</span>
+            <span className={styles.signature}>Kyle</span>
             <span className={styles.title}>See you out there</span>
           </address>
           <div className={styles.links}>
@@ -57,13 +57,14 @@ export default function Template() {
               className={styles.link}
               href="https://instagram.com/acrossthekyle"
               target="_blank"
+              title="Find me on Instagram"
             >
               <Instagram className={styles.external} />
             </Link>
             <Link
-              aria-label="send an email to hello@acrossthekyle.com"
               className={styles.link}
               href="mailto:hello@acrossthekyle.com"
+              title="Send me an email"
             >
               <Send className={styles.external} />
             </Link>

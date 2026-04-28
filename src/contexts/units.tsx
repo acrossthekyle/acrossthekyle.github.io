@@ -1,6 +1,11 @@
 'use client';
 
-import { PropsWithChildren, createContext, useState, useCallback } from 'react';
+import {
+  PropsWithChildren,
+  createContext,
+  useState,
+  useCallback,
+} from 'react';
 
 type UnitsContextType = {
   units: string;
@@ -19,8 +24,15 @@ type UnitsContextType = {
 
 export const UnitsContext = createContext<UnitsContextType | null>(null);
 
-export default function UnitsProvider({ children }: PropsWithChildren) {
-  const [units, setUnits] = useState('imperial');
+type Props = {
+  assumed: string;
+};
+
+export default function UnitsProvider({
+  assumed,
+  children,
+}: PropsWithChildren<Props>) {
+  const [units, setUnits] = useState(assumed);
 
   const handleOnChange = useCallback((data: string) => {
     setUnits(data);

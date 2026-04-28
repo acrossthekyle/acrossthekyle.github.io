@@ -7,17 +7,14 @@ const styles = tw({
     w-[calc(100%-1.5rem)]
     h-9
     mt-1 mx-3
-    rounded-sm
-    bg-(--background)
 
-    xs:grid
-    xs:grid-cols-2
-    xs:gap-0
+    min-[310px]:grid
+    min-[310px]:grid-cols-2
+    min-[310px]:gap-0
     md:w-full
     md:mt-2
     md:mx-0
     md:px-12
-    md:bg-transparent
   `,
   anchor: (shouldDelay: boolean) => tw(`
     flex items-center justify-start
@@ -36,24 +33,25 @@ const styles = tw({
     motion-safe:opacity-0
     ${shouldDelay ? 'motion-safe:animate-fade-in-delayed' : 'motion-safe:animate-fade-in'}
 
-    xs:justify-end
+    min-[310px]:justify-end
     md:mr-0
     lg:mb-0
   `),
   group: `
-    flex items-center justify-between gap-0
+    flex flex-col items-start justify-between gap-0
     w-full
     rounded-sm
     bg-(--background)
 
-    xs:w-auto
-    xs:justify-center
+    min-[310px]:flex-row
+    min-[310px]:items-center
+    min-[310px]:w-auto
   `,
   button: (isActive: boolean) => tw(`
-    flex items-center justify-center gap-2
+    flex items-center justify-start gap-2
     w-full
     font-sans font-medium
-    text-sm
+    text-xs
     capitalize
     rounded-sm
     bg-(--background)
@@ -63,17 +61,17 @@ const styles = tw({
     motion-safe:hover:opacity-100
     ${isActive ? 'motion-safe:opacity-100' : 'motion-safe:opacity-50'}
 
-    xs:w-auto
-    lg:text-xs
+    min-[310px]:justify-center
+    min-[310px]:w-auto
   `),
   filter: (canRender: boolean) => tw(`
-    fixed left-3 bottom-10 right-3 z-1
+    fixed left-1/2 bottom-1 z-1
+    -translate-x-1/2
 
-    flex items-center justify-between gap-1
+    flex items-center justify-between gap-2
 
     font-sans font-medium
     text-xs
-    capitalize
     rounded-sm
     bg-(--background)
     p-2
@@ -82,16 +80,16 @@ const styles = tw({
     ${canRender ? 'motion-safe:opacity-100' : 'motion-safe:opacity-0'}
 
     md:bottom-2
-    md:right-auto
-    md:left-1/2
-    md:-translate-x-1/2
-    md:w-auto
   `),
   prefix: `
     flex items-center gap-1
   `,
-  first: `pl-4`,
-  last: `pr-4`,
+  first: `
+    min-[310px]:pl-4
+  `,
+  last: `
+    min-[310px]:pr-4
+  `,
   icon: `
     w-3.5 h-3.5
   `,
