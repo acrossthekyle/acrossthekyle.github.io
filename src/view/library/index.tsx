@@ -30,22 +30,24 @@ export default function Library({ data }: Props) {
     });
   };
 
+  const items = data
+    .filter((item) => {
+      if (isFiltering) {
+        const value = filterType === 'category' ? item.category : item.id;
+
+        return value.toLowerCase() === filterId;
+      }
+
+      return true;
+    });
+
   return (
     <Ui.Containers.Mountable isActive={view === 'library'}>
       <ul className={styles.grid}>
-        {data
-          .filter((item) => {
-            if (isFiltering) {
-              const value = filterType === 'category' ? item.category : item.id;
-
-              return value.toLowerCase() === filterId;
-            }
-
-            return true;
-          })
-          .map((album, albumIndex: number) => (
-            <Fragment key={album.id}>
-              {album.images.map((image, imageIndex: number) => {
+        {items.map((album, albumIndex: number) => (
+          <Fragment key={album.id}>
+            {(filterType === 'album' ? [...album.images].reverse() : album.images)
+              .map((image, imageIndex: number) => {
                 const delays = [0.25, 0.125, 0.375, 0];
 
                 const isInitialBatch = albumIndex === 0 && imageIndex < 8;
@@ -82,10 +84,10 @@ export default function Library({ data }: Props) {
                         </figure>
                       </li>
                     )}
-                  </InView>
-                );
-              })}
-            </Fragment>
+                </InView>
+              );
+            })}
+          </Fragment>
         ))}
       </ul>
     </Ui.Containers.Mountable>

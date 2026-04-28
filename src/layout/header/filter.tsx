@@ -1,6 +1,6 @@
 'use client';
 
-import { Undo2 } from 'lucide-react';
+import { Undo2, X } from 'lucide-react';
 
 import { useFilter } from '@/hooks/useFilter';
 import { useView } from '@/hooks/useView';
@@ -66,7 +66,11 @@ export default function Filter({ data }: Props) {
       onClick={handleOnReset}
       type="button"
     >
-      <Undo2 className={styles.icon} />
+      {filterType === 'album' ? (
+        <Undo2 className={styles.icon} />
+      ) : (
+        <X className={styles.icon} />
+      )}
       {filterType === 'album' ? 'Albums' : 'Clear'}
     </button>
   );

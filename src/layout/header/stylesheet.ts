@@ -8,9 +8,9 @@ const styles = tw({
     h-9
     mt-1 mx-3
 
-    min-[310px]:grid
-    min-[310px]:grid-cols-2
-    min-[310px]:gap-0
+    min-[336px]:grid
+    min-[336px]:grid-cols-2
+    min-[336px]:gap-0
     md:w-full
     md:mt-2
     md:mx-0
@@ -33,7 +33,7 @@ const styles = tw({
     motion-safe:opacity-0
     ${shouldDelay ? 'motion-safe:animate-fade-in-delayed' : 'motion-safe:animate-fade-in'}
 
-    min-[310px]:justify-end
+    min-[336px]:justify-end
     md:mr-0
     lg:mb-0
   `),
@@ -43,9 +43,9 @@ const styles = tw({
     rounded-sm
     bg-(--background)
 
-    min-[310px]:flex-row
-    min-[310px]:items-center
-    min-[310px]:w-auto
+    min-[336px]:flex-row
+    min-[336px]:items-center
+    min-[336px]:w-auto
   `,
   button: (isActive: boolean) => tw(`
     flex items-center justify-start gap-2
@@ -61,8 +61,8 @@ const styles = tw({
     motion-safe:hover:opacity-100
     ${isActive ? 'motion-safe:opacity-100' : 'motion-safe:opacity-50'}
 
-    min-[310px]:justify-center
-    min-[310px]:w-auto
+    min-[336px]:justify-center
+    min-[336px]:w-auto
   `),
   filter: (canRender: boolean) => tw(`
     fixed left-1/2 bottom-1 z-1
@@ -85,10 +85,10 @@ const styles = tw({
     flex items-center gap-1
   `,
   first: `
-    min-[310px]:pl-4
+    min-[336px]:pl-4
   `,
   last: `
-    min-[310px]:pr-4
+    min-[336px]:pr-4
   `,
   icon: `
     w-3.5 h-3.5

@@ -1,6 +1,6 @@
 'use client';
 
-import { Kanban } from 'lucide-react';
+import { Ellipsis } from 'lucide-react';
 
 import { useDialog } from '@/hooks/useDialog';
 import { useFilter } from '@/hooks/useFilter';
@@ -25,7 +25,7 @@ export default function Anchor() {
         onClick={handleOnClick}
         type="button"
       >
-        <Kanban className={`${styles.icon} ${styles.rotate}`} />
+        <Ellipsis className={styles.icon} /> About
       </button>
     </section>
   );

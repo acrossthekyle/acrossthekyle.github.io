@@ -5,6 +5,10 @@ const styles = tw({
     absolute inset-0 z-3
     rounded-md
     bg-black
+    -m-1
+
+    motion-safe:duration-700
+    md:motion-safe:group-hover:scale-101
   `,
   pulse: `
     w-full h-full
