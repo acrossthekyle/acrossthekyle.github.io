@@ -1,6 +1,6 @@
 'use client';
 
-import { Instagram, Send, X } from 'lucide-react';
+import { Send, X } from 'lucide-react';
 import Link from 'next/link';
 
 import { useDialog } from '@/hooks/useDialog';
@@ -53,14 +53,6 @@ export default function Template() {
             <span className={styles.title}>See you out there</span>
           </address>
           <div className={styles.links}>
-            <Link
-              className={styles.link}
-              href="https://instagram.com/acrossthekyle"
-              target="_blank"
-              title="Find me on Instagram"
-            >
-              <Instagram className={styles.external} />
-            </Link>
             <Link
               className={styles.link}
               href="mailto:hello@acrossthekyle.com"

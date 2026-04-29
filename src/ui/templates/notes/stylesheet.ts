@@ -36,30 +36,32 @@ const styles = tw({
   content: (isActive: boolean) => tw(`
     absolute left-1/2 z-1000
     -translate-x-1/2
-    w-full
+    w-full max-w-82
     flex flex-col gap-4
     overflow-y-scroll
     font-sans
     text-sm
     pointer-events-auto
     cursor-auto
-    p-4 mt-4
+    p-4
+    bg-(--background)
+    rounded-lg
+    border-1 border-current/7.5
 
     motion-safe:duration-700
+    motion-safe:-translate-y-1/2
 
     ${isActive ? `
       motion-safe:opacity-100
-      motion-safe:lg:top-1/2
+      motion-safe:top-1/2
     ` : `
       motion-safe:opacity-0
-      motion-safe:lg:top-full
+      motion-safe:top-full
     `}
 
-    sm:w-82
-    lg:-translate-y-1/2
-    lg:mt-0
-    lg:bg-(--background)
-    lg:rounded-lg
+    constrained:w-9/10
+    constrained:max-w-180
+
     lg:text-xs
   `),
   title: `

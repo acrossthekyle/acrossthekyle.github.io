@@ -79,7 +79,7 @@ export default function Cover({
             </Ui.Templates.Preview>
           </Ui.Templates.Content>
         </Ui.Templates.ListItem>
-        <Ui.Templates.ListItem canRender={isInView} index={7}>
+        <Ui.Templates.ListItem canFloat canRender={isInView} index={7}>
           <Ui.Templates.Content>
             <Map position={album.position} />
           </Ui.Templates.Content>

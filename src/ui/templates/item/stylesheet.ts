@@ -1,9 +1,16 @@
 import tw from '@/styles';
 
 const styles = tw({
-  container: (canRender: boolean) => tw(`
+  container: (canRender: boolean, canFloat?: boolean) => tw(`
     relative
     flex items-start gap-4
+
+    ${canFloat ? `
+      constrained:absolute
+      constrained:top-4
+      constrained:right-10
+      constrained:w-38
+    ` : 'relative'}
 
     motion-safe:duration-300
 

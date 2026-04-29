@@ -6,6 +6,9 @@ const styles = tw({
     cursor-auto
     pointer-events-auto
 
+    constrained:grid
+    constrained:grid-cols-2
+
     lg:gap-4
   `,
 });

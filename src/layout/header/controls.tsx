@@ -16,7 +16,7 @@ type Props = {
 
 export default function Controls({ data }: Props) {
   const { onOpen } = useDialog();
-  const { isFiltering } = useFilter();
+  const { isFiltering, onUnfilter } = useFilter();
   const { view, onView } = useView();
 
   useEffect(() => {
@@ -28,6 +28,10 @@ export default function Controls({ data }: Props) {
 
   const handleOnChange = (value: string) => {
     onView(value);
+
+    if (isFiltering) {
+      onUnfilter();
+    }
 
     setTimeout(() => {
       window.scrollTo(0, 0);

@@ -23,7 +23,6 @@ const styles = tw({
       motion-safe:[transition:opacity_.7s_var(--ease-in-out)_.3s,translate_0s_linear_.7s]
     `}
 
-    md:mb-0
     lg:bottom-22
     lg:right-6
     lg:inset-auto
@@ -43,23 +42,30 @@ const styles = tw({
     lg:hidden
   `,
   inner: (canRender: boolean) => tw(`
-    absolute left-4 right-4 z-1000
+    absolute left-1/2 z-1000
+    w-auto
     p-4
     bg-(--background)
+    rounded-lg
+    border-1 border-current/7.5
+
+    motion-safe:-translate-x-1/2
 
     ${canRender ? `
       motion-safe:duration-700
       motion-safe:opacity-100
-      motion-safe:top-4
+      motion-safe:top-1/2
+      motion-safe:-translate-y-1/2
     ` : `
       motion-safe:duration-1000
       motion-safe:opacity-0
       motion-safe:top-full
     `}
 
+    constrained:w-9/10
+    portrait-constrained:max-w-120
+
     sm:w-82
-    sm:left-1/2
-    sm:-translate-x-1/2
     lg:relative
     lg:left-auto
     lg:right-auto
