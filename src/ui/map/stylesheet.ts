@@ -5,6 +5,7 @@ const styles = tw({
     relative
     flex items-center justify-start
     w-full
+    mt-2
 
     motion-safe:duration-300
 

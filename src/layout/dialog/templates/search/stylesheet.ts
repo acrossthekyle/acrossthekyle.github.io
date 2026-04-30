@@ -89,7 +89,6 @@ const styles = tw({
   `,
   results: `
     flex flex-col gap-4
-    pl-2
   `,
   result: `
     motion-safe:duration-300
@@ -97,7 +96,7 @@ const styles = tw({
     motion-safe:animate-fade-in-up
   `,
   link: `
-    flex items-start gap-4
+    flex flex-col items-start gap-0
     w-full
     rounded-md
     text-left
@@ -111,10 +110,6 @@ const styles = tw({
   icon: `
     w-4 h-4
     opacity-20
-  `,
-  prefix: `
-    inline-block
-    mt-2.5
   `,
   external: `
     inline-block

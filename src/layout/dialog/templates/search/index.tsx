@@ -1,7 +1,7 @@
 'use client';
 
 import Fuse from 'fuse.js';
-import { ArrowRight, Bookmark, LayoutDashboard, Search, X } from 'lucide-react';
+import { ArrowRight, Bookmark, Search, X } from 'lucide-react';
 import { ChangeEvent, FormEvent, useMemo, useState } from 'react';
 
 import { useDialog } from '@/hooks/useDialog';
@@ -44,7 +44,7 @@ export default function Template({ data }: Props) {
   };
 
   const handleOnchange = (event: ChangeEvent<HTMLInputElement>) => {
-    const term = (event.target as HTMLInputElement).value.toLowerCase();
+    const term = (event.target as HTMLInputElement).value;
 
     setQuery(term);
   };
@@ -125,15 +125,11 @@ export default function Template({ data }: Props) {
                 onClick={() => handleOnChoose('album', result.id)}
                 type="button"
               >
-                <span aria-hidden="true" className={styles.prefix}>
-                  <LayoutDashboard className={styles.icon} />
-                </span>
                 <span>
-                  <span className={styles.faded}>Album</span>
                   {result.title} <ArrowRight className={styles.external} />
-                  <span className={`${styles.faded} ${styles.small}`}>
-                    {result.category}
-                  </span>
+                </span>
+                <span className={`${styles.faded} ${styles.small}`}>
+                  {result.category}
                 </span>
               </button>
             </li>

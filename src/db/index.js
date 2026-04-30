@@ -365,7 +365,8 @@ const data = [
       "mountains",
       "europe",
       "alps",
-      "backpacking"
+      "backpacking",
+      "TMB"
     ],
     "title": "Tour du Mont Blanc",
     "when": "07/27 - 08/06/2024"
@@ -458,7 +459,7 @@ const data = [
     ],
     "location": "Switzerland",
     "notes": [
-      "The city feels calm, with the lakefront and the Jet d'Eau giving a bright, open feel, while cobbled streets in the Old Town offer history and charm. Parks, cafes, and waterfront paths make it easy to enjoy the outdoors without leaving the city."
+      "Before beginning our adventure in the Alps on the Tour du Mont blanc my partner and I took the opportunity to explore the city of Geneva."
     ],
     "position": [
       "44%",
@@ -543,7 +544,8 @@ const data = [
     ],
     "location": "France",
     "notes": [
-      "Corsica feels bright and outdoorsy, with easy pedestrian access in the historic part of Porto-Vecchio and easy access to hiking in the nearby hills. Over on the west coast, Ajaccio has a more everyday vibe, with a busy harbor, cafe-lined streets, historic citadels, relaxing beaches, and mountains rising just behind the city."
+      "I had some time to waste after finishing the GR 20 2 days earlier than planned, so I spent a few days checking out the historic portions of the cities of Porto-Vecchio, and Ajaccio (the capital).",
+      "Porto-Vecchio had easy pedestrian access in the historic part, and great views at dinner thanks to the hillside location. Over on the west coast, Ajaccio had a more everyday vibe with a busy harbor always filled with cruise ships, and cafe-lined streets."
     ],
     "position": [
       "49%",
@@ -1181,8 +1183,9 @@ const data = [
     ],
     "location": "France",
     "notes": [
-      "Known locally as Fra Li Monti (Corsican for 'across the mountains'), and considered to be the most difficult of all trails in Europe, the GR 20 is a footpath that traverses the Mediterranean island of Corsica from North to South along its spiny mountainous backbone over a distance of 131 miles and taking 13 days to complete.",
-      "Between the Northern starting point at Calenzana and the end at Conca in the South, there are hidden mountain lakes, expansive sea views, rugged and rocky cliffs, and remarkable panoramas. The highest point on the trek was 8,554 ft (2,607 m)."
+      "The GR 20 was the last thru-hike on my original list from 2018 and is considered to be the most difficult of all trails in Europe, and it truly was.",
+      "It took me 13 days to hike 131 miles across the mountain range that bisects the island from North to South",
+      "Between the Northern starting point at Calenzana and the end at Conca in the South, there were hidden mountain lakes, expansive sea views, rugged and rocky cliffs, and remarkable panoramas. The highest point on the trek was 8,554 ft (2,607 m)."
     ],
     "position": [
       "49%",
@@ -1766,7 +1769,7 @@ const data = [
     ],
     "location": "Egypt",
     "notes": [
-      "We decided to ring in the new year by doing something special, and chose to visit Cairo, and Luxor, in Egypt. It's a place full of ancient wonder, over-crowded cities, awe-inspiring pyramids and tombs, and amazing museums. Seeing history up close, and being able to touch it, is how it's meant to be experienced."
+      "We decided to ring in the new year by doing something special, and chose to visit Cairo, and Luxor, in Egypt."
     ],
     "position": [
       "54%",
@@ -1865,7 +1868,8 @@ const data = [
       "hills",
       "north america",
       "wisconsin",
-      "backpacking"
+      "backpacking",
+      "IAT"
     ],
     "title": "Ice Age Trail",
     "when": "07/15/2022"
@@ -1996,8 +2000,8 @@ const data = [
     ],
     "location": "Scotland",
     "notes": [
-      "Filled with misty glens, deep lochs, and endless rain while hiking from Milngavie to Fort William, the West Highland Way is a long-distance trail covering 97 miles over six days in the highlands of Scotland in the UK.",
-      "The trail travels down many ancient roads and old coaching routes, journeying from the lowlands to the highlands, while camping overnight in fields, along lakeside beachs, and under bridges."
+      "In Scotland there is an overland trek that extends for 97 miles from a town near Glasgow heading towards Fort William. This was one of the shorter thru-hikes I've done, and it only took me 6 days to backpack the trail. I camped the entire thing and slept in fields, on stony beaches, and under bridges.",
+      "The first two days were filled with Sun, but the rest of the hike was filled with nearly endless rain. The highlands were truly spectacular, despite the constant downpours."
     ],
     "position": [
       "38.5%",
@@ -2010,7 +2014,8 @@ const data = [
       "mountains",
       "europe",
       "highlands",
-      "backpacking"
+      "backpacking",
+      "WHW"
     ],
     "title": "West Highland Way",
     "when": "05/07 - 12/2022"
@@ -2083,7 +2088,7 @@ const data = [
     ],
     "location": "Puerto Rico",
     "notes": [
-      "Escaping the trailing remnants of winter in Chicago by absconding last-minute down to Puerto Rico, walking its beaches, exploring the forts, and cliff jumping in the rain forests for a few days."
+      "We escaped the trailing remnants of winter in Chicago by booking a last-minute trip in Puerto Rico, and spent a few days walking its beaches, exploring forts, and cliff jumping in the rain forests."
     ],
     "position": [
       "58%",
@@ -2265,8 +2270,8 @@ const data = [
     ],
     "location": "Chile",
     "notes": [
-      "At the bottom of the world in Southern Chile with equal parts rustic and modern, the trail known as the 'O' Circuit circumnavigates the prominent Torres del Paine granite towers that Patagonia is partly known for.",
-      "A tapestry of landscapes, sprawling glaciers, pristine lakes, and windswept plains provides an idyllic background for thru-hiking 8 days and 73 miles."
+      "It had been a dream of mine for years to one day thru-hike the 'O' Circuit in Patagonia ever since visiting there in 2016 for a few days, and in 2020 I finally made it happen (just before COVID hit).",
+      "The trail did not disappoint: a tapestry of landscapes, sprawling glaciers, pristine lakes, and windswept plains provided an idyllic background for thru-hiking 73 miles over 8 days, with a pre-dawn hike up to the base of the 'Towers' being a perfect finale."
     ],
     "position": [
       "96%",
@@ -2353,7 +2358,7 @@ const data = [
     ],
     "location": "Pokhara, Nepal",
     "notes": [
-      "With Phewa Lake at its center and the Annapurna range rising dramatically in the background, Pokhara is a nice place to relax after I spent weeks in the mountains. Lakeside cafes, boat rides, and numerous markets it easy to enjoy the hustle of the city."
+      "Spent a few days exploring Pokhara, Nepal after completing the Annapurna Basecamp and Circuit treks."
     ],
     "position": [
       "53%",
@@ -2589,7 +2594,7 @@ const data = [
     ],
     "location": "Annapurna I, Nepal",
     "notes": [
-      "Continuing my trek of the Himalayas with a five day, 38 mile, hike to and from Annapurna Basecamp (ABC) at 13,525 ft (4,110 m), based out of a village called Chomrong, after completing the Annapurna Circuit and nearly succumbing to hypothermia the day before."
+      "Continuing my trekking in the Himalayas with a 5 day, 38 mile trail to and from Annapurna I Basecamp at 13,525 ft (4,110 m) after completing the Annapurna Circuit."
     ],
     "position": [
       "53%",
@@ -3631,7 +3636,8 @@ const data = [
       "mountains",
       "europe",
       "italy",
-      "backpacking"
+      "backpacking",
+      "AV1"
     ],
     "title": "Alta Via 1",
     "when": "07/16 - 25/2019"
@@ -3877,7 +3883,7 @@ const data = [
     ],
     "location": "The Alps, Europe",
     "notes": [
-      "Encircling the Mont Blanc mountain in the Alps, the tour of this peak is a classic long-distance hike covering a distance of 106 miles (170 km) over 12 days while passing through France, Italy, and Switzerland.",
+      "My second ever thru-hike that encircled a mountain called Mont Blanc in the European Alps. The trail's considered a classic long-distance hike that took me 12 days and 106 miles (170 km) to complete while passing through France, Italy, and Switzerland.",
       "It's a challenging experience filled with diverse landscapes, unique cultural blends, and stunning alpine scenery, all while sleeping in mountain huts and eating home-cooked meals each night."
     ],
     "position": [
@@ -3891,7 +3897,8 @@ const data = [
       "mountains",
       "europe",
       "alps",
-      "backpacking"
+      "backpacking",
+      "TMB"
     ],
     "title": "Tour du Mont Blanc",
     "when": "09/02 - 13/2018"
@@ -4517,8 +4524,9 @@ const data = [
     ],
     "location": "Spain",
     "notes": [
-      "Starting high in the Pyrenees mountains between France and Spain, and leading to the Atlantic ocean, the Camino Frances is part of a series of ancient routes collectively called the Camino de Santiago. It covers a wide array of landscapes and cultures over hills and mountains, across deserts, through rivers, and in thick forests.",
-      "I spent 35 days walking/hiking 600 miles across Northern Spain, and it changed me forever."
+      "I spent 35 days walking/hiking 600 miles across Northern Spain, and it changed me forever.",
+      "Starting high in the Pyrenees mountains between France and Spain, and leading to the Atlantic ocean, the Camino Frances is part of a series of routes collectively called El Camino de Santiago.",
+      "It covers a wide array of landscapes and cultures over hills and mountains, across deserts, through rivers, and in thick forests."
     ],
     "position": [
       "48%",
@@ -4682,8 +4690,8 @@ const data = [
     ],
     "location": "Chile",
     "notes": [
-      "Chile is dynamic with the Andes as a constant backdrop, bustling plazas, cafes, and a mix of modern neighborhoods and historic wineries. And with the Andes being so close, they offer an easy escape from the city to go hiking in the colorful mountains where you can get up close to massive glaciers. Over on the coast, Valparaiso is colorful and bohemian, with steep hills, and winding alleys.",
-      "In Patagonia, the landscape feels vast and wild, with jagged mountains, turquoise lakes, and open plains stretching as far as the eye can see."
+      "This was my second time visiting South America. We explored Santiago and Valparaiso for a few days with visits to wineries, Lollapalooza, and a hike to a glacier in the Andes mountains.",
+      "We also took a few days to head down to Patagonia where we did a day hike up to the base of the Towers of Patagonia, took a cruise to see some glaciers, and stepped into a deep Ice Age cave."
     ],
     "position": [
       "85%",
