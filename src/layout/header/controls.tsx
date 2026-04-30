@@ -15,7 +15,7 @@ type Props = {
 };
 
 export default function Controls({ data }: Props) {
-  const { onOpen } = useDialog();
+  const { onDialog } = useDialog();
   const { isFiltering, onUnfilter } = useFilter();
   const { view, onView } = useView();
 
@@ -39,7 +39,7 @@ export default function Controls({ data }: Props) {
   };
 
   const handleOnSearch = () => {
-    onOpen({
+    onDialog({
       data: {
         albums: data,
       },

@@ -8,11 +8,11 @@ import { useFilter } from '@/hooks/useFilter';
 import styles from './stylesheet';
 
 export default function Anchor() {
-  const { onOpen } = useDialog();
+  const { onDialog } = useDialog();
   const { isFiltering } = useFilter();
 
   const handleOnClick = () => {
-    onOpen({
+    onDialog({
       template: 'info',
     });
   };

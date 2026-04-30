@@ -9,7 +9,7 @@ export type Data = {
   location: string;
   date: string;
   elevation: Stat;
-  notes: string;
+  notes: string | string[];
   exif: {
     aperture: null | string;
     camera: string;

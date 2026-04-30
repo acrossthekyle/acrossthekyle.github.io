@@ -4,14 +4,12 @@ import { Ui } from '@/ui';
 type Props = {
   album?: Album;
   isInView: boolean;
-  onAlbum: () => void;
   onNotes: () => void;
 };
 
-export default function Cover({
+export default function Album({
   album,
   isInView,
-  onAlbum,
   onNotes,
 }: Props) {
   if (!album) {
@@ -21,13 +19,11 @@ export default function Cover({
   return (
     <>
       <Ui.Templates.Header canRender={isInView}>
-        <Ui.Templates.Link id={album.id} onClick={onAlbum}>
-          <Ui.Templates.Icon icon="LayoutDashboard" />
-          <Ui.Templates.Block>
-            <Ui.Templates.Label>Album</Ui.Templates.Label>
-            {album.title} <Ui.Templates.LinkExternalIcon />
-          </Ui.Templates.Block>
-        </Ui.Templates.Link>
+        <Ui.Templates.Icon icon="LayoutDashboard" />
+        <Ui.Templates.Block>
+          <Ui.Templates.Label>Album</Ui.Templates.Label>
+          {album.title}
+        </Ui.Templates.Block>
       </Ui.Templates.Header>
       <Ui.Templates.List>
         <Ui.Templates.ListItem canRender={isInView} index={1}>

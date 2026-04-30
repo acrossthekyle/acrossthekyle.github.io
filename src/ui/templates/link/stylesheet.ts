@@ -3,7 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     relative
-    flex items-start gap-4
+    flex items-center gap-4
     w-full
     rounded-md
     outline-0

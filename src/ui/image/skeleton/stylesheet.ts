@@ -13,7 +13,7 @@ const styles = tw({
   pulse: `
     w-full h-full
     rounded-md
-    bg-neutral-900
+    bg-neutral-800
 
     motion-safe:animate-pulse
   `,

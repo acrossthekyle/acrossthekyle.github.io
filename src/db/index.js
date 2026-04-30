@@ -8,25 +8,6 @@ const data = [
     "id": "river-ridge-trail-2026",
     "images": [
       {
-        "src": "2026/03/14/8e8fd062-270f-4081-96c3-ee072a81caab.jpeg",
-        "title": "Over the fallen leaves",
-        "location": "Forest Glen Preserve, Illinois",
-        "date": "03/15/2026",
-        "elevation": {
-          "imperial": "629",
-          "metric": "192"
-        },
-        "notes": "",
-        "exif": {
-          "aperture": "2/2750",
-          "camera": "iPhone 16 Pro",
-          "exposure": "0.0",
-          "fnumber": "2.20",
-          "focal": 14,
-          "iso": 16
-        }
-      },
-      {
         "src": "2026/03/14/1e1be596-c236-4cee-9eb2-fac89329e0e6.jpeg",
         "title": "Golden grasses",
         "location": "Forest Glen Preserve, Illinois",
@@ -62,25 +43,6 @@ const data = [
           "fnumber": "1.78",
           "focal": 24,
           "iso": 100
-        }
-      },
-      {
-        "src": "2026/03/14/2665b912-007f-485f-b636-07079e321e20.jpeg",
-        "title": "Gravel path",
-        "location": "Forest Glen Preserve, Illinois",
-        "date": "03/14/2026",
-        "elevation": {
-          "imperial": "557",
-          "metric": "170"
-        },
-        "notes": "",
-        "exif": {
-          "aperture": "1/6638",
-          "camera": "iPhone 16 Pro",
-          "exposure": "0.0",
-          "fnumber": "1.78",
-          "focal": 24,
-          "iso": 64
         }
       }
     ],
@@ -3654,8 +3616,8 @@ const data = [
     ],
     "location": "Italy",
     "notes": [
-      "Located in Northern Italy the mountain range known as The Dolomites contains a series of trails known as the Alta Via. This was a thru-hike of Alta Via 1 heading from from North to South passing over jagged ridges, across vertical mountain walls, and uniquely-shaped mountains.",
-      "Total distance covered was 65 miles, over 10 days. Elevation gain/loss totals for the entire trek were marginal at 25,109 ft (7,653 m) gained and 28,590 ft (8,714 m) lossed.",
+      "A Northern Italy one-way thru-hike in the Dolomites mountain range on the Alta Via 1 trail, heading North to South.",
+      "Total distance covered was 65 miles over 10 days, and elevation gains/losses were marginal at 25,109 ft (7,653 m) gained and 28,590 ft (8,714 m) respectively.",
       "This trek had some of the best food I have ever eaten on a thru-hike."
     ],
     "position": [

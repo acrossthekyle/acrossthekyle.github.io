@@ -7,7 +7,7 @@ type Props = {
   position: string[];
 };
 
-export default function Container({ position }: Props) {
+export default function Map({ position }: Props) {
   return (
     <div
       className={styles.container(true)}

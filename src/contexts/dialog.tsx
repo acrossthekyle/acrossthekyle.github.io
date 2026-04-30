@@ -17,6 +17,11 @@ type Input = {
   data?: {
     album?: Album;
     albums?: Album[];
+    category?: {
+      albums: number;
+      images: number;
+      label: string;
+    };
     image?: Data;
   };
   template: string;
@@ -28,8 +33,8 @@ type DialogContextType = {
   onBackdrop: (event: MouseEvent<HTMLDialogElement>) => void;
   onCancel: (event: KeyboardEvent<HTMLDialogElement>) => void;
   onClose: () => void;
+  onDialog: (input: Input) => void;
   onDone: (callback: () => void) => void;
-  onOpen: (input: Input) => void;
   onStack: (value: boolean) => void;
   isOpen: boolean;
 };
@@ -105,8 +110,8 @@ export default function DialogProvider({ children }: PropsWithChildren) {
       onBackdrop: handleOnBackdrop,
       onCancel: handleOnCancel,
       onClose: handleOnClose,
+      onDialog: handleOnOpen,
       onDone: handleOnDone,
-      onOpen: handleOnOpen,
       onStack: handleOnStack,
     }}>
       {children}

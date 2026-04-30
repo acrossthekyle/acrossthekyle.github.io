@@ -125,6 +125,9 @@ const styles = tw({
     block
     opacity-20
   `,
+  small: `
+    text-tiny
+  `,
   close: `
     absolute top-2 right-2 z-1
     p-2

@@ -1,3 +1,4 @@
+export { default as Block } from './block';
 export { default as Content } from './content';
 export { default as Figure } from './figure';
 export { default as FigureCaption } from './caption';

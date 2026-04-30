@@ -97,6 +97,9 @@ export default function Template({ data }: Props) {
 
   const isCover = (data?.album && data?.image === undefined);
   const isDetails = (data?.album && data?.image !== undefined);
+  const notes = isCover
+    ? data?.album?.notes
+    : (Array.isArray(data?.image?.notes) ? data?.image?.notes : [data?.image?.notes || '']);
 
   return (
     <>
@@ -105,28 +108,30 @@ export default function Template({ data }: Props) {
           src={data?.image === undefined ? data?.album?.cover : data?.image?.src}
         />
         {size !== 'full' && (
-          <Ui.Templates.FigureCaption
-            canRender={isRenderingDetails}
-            inViewRef={inViewRef}
-            onClose={handleOnDetails}
-          >
-            {isCover && (
-              <Cover
-                album={data?.album}
-                isInView={isInView}
-                onAlbum={handleOnAlbum}
-                onNotes={handleOnNotes}
-              />
-            )}
-            {isDetails && (
-              <Details
-                album={data?.album}
-                image={data?.image}
-                isInView={isInView}
-                onAlbum={handleOnAlbum}
-                onNotes={handleOnNotes}
-              />
-            )}
+          <Ui.Templates.FigureCaption>
+            <Ui.Templates.Content
+              canRender={isRenderingDetails}
+              inViewRef={inViewRef}
+              onClose={handleOnDetails}
+            >
+              {isCover && (
+                <Cover
+                  album={data?.album}
+                  isInView={isInView}
+                  onAlbum={handleOnAlbum}
+                  onNotes={handleOnNotes}
+                />
+              )}
+              {isDetails && (
+                <Details
+                  album={data?.album}
+                  image={data?.image}
+                  isInView={isInView}
+                  onAlbum={handleOnAlbum}
+                  onNotes={handleOnNotes}
+                />
+              )}
+            </Ui.Templates.Content>
           </Ui.Templates.FigureCaption>
         )}
         <Ui.Templates.Toggles
@@ -137,7 +142,7 @@ export default function Template({ data }: Props) {
       </Ui.Templates.Figure>
       <Ui.Templates.Notes
         isActive={isViewingNotes}
-        notes={isCover ? data?.album?.notes : [data?.image?.notes || '']}
+        notes={notes}
         onToggle={handleOnNotes}
       />
     </>

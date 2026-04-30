@@ -16,11 +16,11 @@ const Plugin = dynamic(() => import('./swiper'), {
 });
 
 export default function Albums({ data }: Props) {
-  const { onOpen } = useDialog();
+  const { onDialog } = useDialog();
   const { view } = useView();
 
   const handleOnClick = (album: Album) => {
-    onOpen({
+    onDialog({
       data: {
         album,
       },

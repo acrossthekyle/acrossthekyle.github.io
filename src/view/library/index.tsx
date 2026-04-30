@@ -16,12 +16,12 @@ type Props = {
 };
 
 export default function Library({ data }: Props) {
-  const { onOpen } = useDialog();
+  const { onDialog } = useDialog();
   const { view } = useView();
   const { filterId, filterType, isFiltering } = useFilter();
 
   const handleOnClick = (item: Album, image: Data) => {
-    onOpen({
+    onDialog({
       data: {
         album: item,
         image,

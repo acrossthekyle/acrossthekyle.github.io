@@ -68,7 +68,7 @@ export default function Template({ data }: Props) {
       <h2 className={styles.header} id="dialog-header">
         Find an album
         <span className={styles.subheader}>
-          Search by name or location, or choose a category
+          Search by name, location, category, or filter library by category.
         </span>
       </h2>
       <button
@@ -131,6 +131,9 @@ export default function Template({ data }: Props) {
                 <span>
                   <span className={styles.faded}>Album</span>
                   {result.title} <ArrowRight className={styles.external} />
+                  <span className={`${styles.faded} ${styles.small}`}>
+                    {result.category}
+                  </span>
                 </span>
               </button>
             </li>

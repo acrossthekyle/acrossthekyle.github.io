@@ -3,7 +3,7 @@
 import { useDialog } from '@/hooks/useDialog';
 
 import styles from './stylesheet';
-import { Image, Info, Search } from './templates';
+import { Filtering, Image, Info, Search } from './templates';
 
 export default function Dialog() {
   const {
@@ -23,6 +23,9 @@ export default function Dialog() {
       ref={dialog}
       onKeyDown={onCancel}
     >
+      {data.template === 'filtering' && (
+        <Filtering data={data.data} />
+      )}
       {data.template === 'image' && (
         <Image data={data.data} />
       )}

@@ -64,10 +64,18 @@ const styles = tw({
     min-[336px]:justify-center
     min-[336px]:w-auto
   `),
-  filter: (canRender: boolean) => tw(`
+  filters: (canRender: boolean) => tw(`
     fixed left-1/2 bottom-1 z-1
     -translate-x-1/2
 
+    flex items-center justify-between gap-2
+
+    motion-safe:duration-300
+    ${canRender ? 'motion-safe:opacity-100' : 'motion-safe:opacity-0'}
+
+    md:bottom-2
+  `),
+  filter: `
     flex items-center justify-between gap-2
 
     font-sans font-medium
@@ -75,12 +83,12 @@ const styles = tw({
     rounded-sm
     bg-(--background)
     p-2
-
-    motion-safe:duration-300
-    ${canRender ? 'motion-safe:opacity-100' : 'motion-safe:opacity-0'}
-
-    md:bottom-2
-  `),
+  `,
+  info: `
+    rounded-sm
+    bg-(--background)
+    p-2
+  `,
   prefix: `
     flex items-center gap-1
   `,
