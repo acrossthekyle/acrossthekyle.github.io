@@ -28,7 +28,7 @@ export default function Notes({
         onClick={onToggle}
         type="button"
       />
-      <div className={styles.content(isActive)}>
+      <div className={styles.inner(isActive)}>
         <h3 className={styles.title}>
           Notes
         </h3>

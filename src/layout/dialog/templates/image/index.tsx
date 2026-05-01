@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 
 import { useDialog } from '@/hooks/useDialog';
+import { useFilter } from '@/hooks/useFilter';
 import { useSize } from '@/hooks/useSize';
 import { useView } from '@/hooks/useView';
 import type { Album, Data } from '@/types';
@@ -24,8 +25,9 @@ export default function Template({ data }: Props) {
   const [isRenderingDetails, setIsRenderingDetails] = useState(false);
 
   const { onClose, onDone, onStack } = useDialog();
+  const { onFilter } = useFilter();
   const { onSize, size } = useSize();
-  const { onView } = useView();
+  const { onView, view } = useView();
 
   const [inViewRef, isInView] = useInView({
     threshold: 0,
@@ -81,7 +83,9 @@ export default function Template({ data }: Props) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [onDone, isRenderingDetails, isViewingNotes, size]);
 
-  const handleOnAlbum = () => {
+  const handleOnAlbum = (id: string) => {
+    onFilter('album', id, view);
+
     onClose();
 
     onView('library');

@@ -11,20 +11,16 @@ const styles = tw({
     md:px-12
     md:pb-2
   `,
-  controls: (shouldDelay: boolean) => tw(`
-    flex flex-col gap-4
-    p-2 px-2.5
+  controls: `
+    flex
     rounded-sm
     bg-(--background)
 
     motion-safe:opacity-0
-    ${shouldDelay ? 'motion-safe:animate-fade-in-delayed' : 'motion-safe:animate-fade-in'}
-
-    sm:px-4
-    sm:flex-row
-  `),
+    motion-safe:animate-fade-in-delayed
+  `,
   button: (isActive: boolean) => tw(`
-    flex items-center gap-2
+    p-2
     font-sans font-medium
     text-sm
     capitalize
@@ -37,6 +33,20 @@ const styles = tw({
   `),
   icon: `
     w-3.5 h-3.5
+  `,
+  filters: `
+    flex
+    rounded-sm
+    bg-(--background)
+
+    motion-safe:opacity-0
+    motion-safe:animate-fade-in
+  `,
+  first: `
+    min-[336px]:pl-4
+  `,
+  last: `
+    min-[336px]:pr-4
   `,
 });
 

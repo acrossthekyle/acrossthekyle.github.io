@@ -6,11 +6,7 @@ import { ImageContext } from '../context';
 
 import styles from './stylesheet';
 
-type Props = {
-  className?: string;
-};
-
-export default function Skeleton({ className = '' }: Props) {
+export default function Skeleton() {
   const { isLoading } = useContext(ImageContext);
 
   if (!isLoading) {
@@ -18,7 +14,7 @@ export default function Skeleton({ className = '' }: Props) {
   }
 
   return (
-    <div className={`${styles.skeleton} ${className}`.trim()}>
+    <div className={styles.skeleton}>
       <div className={styles.pulse}>
         <span className={styles.sr}>Loading Image</span>
       </div>

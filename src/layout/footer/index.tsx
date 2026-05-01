@@ -1,28 +1,18 @@
-'use client';
+import type { Album } from '@/types';
 
-import { useFilter } from '@/hooks/useFilter';
-
+import Filter from './filter';
 import styles from './stylesheet';
 import Theme from './theme';
-import Units from './units';
 
-export default function Footer() {
-  const { isFiltering } = useFilter();
+type Props = {
+  data: Album[];
+};
 
+export default function Footer({ data }: Props) {
   return (
     <footer className={styles.container}>
-      <section
-        aria-label="theme controls"
-        className={styles.controls(!isFiltering)}
-      >
-        <Theme />
-      </section>
-      <section
-        aria-label="units controls"
-        className={styles.controls(!isFiltering)}
-      >
-        <Units />
-      </section>
+      <Filter data={data} />
+      <Theme />
     </footer>
   );
 }

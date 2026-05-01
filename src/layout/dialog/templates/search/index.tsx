@@ -19,7 +19,7 @@ type Props = {
 
 export default function Template({ data }: Props) {
   const { onClose } = useDialog();
-  const { onView } = useView();
+  const { onView, view } = useView();
   const { onFilter } = useFilter();
 
   const [query, setQuery] = useState('');
@@ -50,7 +50,7 @@ export default function Template({ data }: Props) {
   };
 
   const handleOnChoose = (type: string, value: string) => {
-    onFilter(type, value);
+    onFilter(type, value, view, true);
 
     onClose();
 

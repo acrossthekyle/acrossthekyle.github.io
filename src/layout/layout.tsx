@@ -20,7 +20,7 @@ export default async function Layout({
       <Main>
         {children}
       </Main>
-      <Footer />
+      <Footer data={data} />
     </>
   );
 }

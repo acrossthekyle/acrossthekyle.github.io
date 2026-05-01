@@ -33,7 +33,7 @@ const styles = tw({
       motion-safe:opacity-0
     `}
   `),
-  content: (isActive: boolean) => tw(`
+  inner: (isActive: boolean) => tw(`
     absolute left-1/2 z-1000
     -translate-x-1/2
     w-full max-w-82
@@ -46,7 +46,7 @@ const styles = tw({
     p-4
     bg-(--background)
     rounded-lg
-    border-1 border-current/7.5
+    shadow-2xl
 
     motion-safe:duration-700
     motion-safe:-translate-y-1/2

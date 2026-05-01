@@ -7,6 +7,7 @@ const styles = tw({
     flex items-center justify-center gap-4
     pointer-events-auto
 
+    sm:bottom-3
     lg:animate-none
     lg:hidden
   `,
@@ -15,7 +16,7 @@ const styles = tw({
     py-1 px-2
     text-xs
     bg-(--background)/75
-    rounded-lg
+    rounded-md
 
     lg:motion-safe:opacity-50
     lg:motion-safe:duration-300

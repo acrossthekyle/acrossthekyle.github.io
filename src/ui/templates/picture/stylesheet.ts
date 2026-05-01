@@ -6,9 +6,8 @@ const styles = tw({
     max-w-full max-h-full
     !w-auto !h-auto
     rounded-lg
-    duration-300
 
-    ${size === 'preview' ? 'aspect-3/4 !w-[60%] !h-auto duration-1000' : 'aspect-video !w-auto !h-auto duration-700'}
+    ${size === 'preview' ? 'aspect-3/4 !w-6/10 !h-auto duration-600' : 'aspect-video !w-auto !h-auto duration-700'}
   `),
   toggle: `
     group

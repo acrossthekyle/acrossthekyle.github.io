@@ -21,9 +21,12 @@ export default function Theme() {
   }
 
   return (
-    <>
+    <section
+      aria-label="theme controls"
+      className={styles.controls}
+    >
       <button
-        className={styles.button(theme === 'system')}
+        className={`${styles.button(theme === 'system')} ${styles.first}`}
         onClick={() => setTheme('system')}
         title="System theme"
         type="button"
@@ -39,13 +42,13 @@ export default function Theme() {
         <Sun className={styles.icon} />
       </button>
       <button
-        className={styles.button(theme === 'dark')}
+        className={`${styles.button(theme === 'dark')} ${styles.last}`}
         onClick={() => setTheme('dark')}
         title="Dark theme"
         type="button"
       >
         <Moon className={styles.icon} />
       </button>
-    </>
+    </section>
   );
 }

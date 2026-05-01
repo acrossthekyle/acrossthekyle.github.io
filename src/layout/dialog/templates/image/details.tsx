@@ -1,3 +1,6 @@
+'use client';
+
+import { useFilter } from '@/hooks/useFilter';
 import type { Album, Data } from '@/types';
 import { Ui } from '@/ui';
 
@@ -5,7 +8,7 @@ type Props = {
   album?: Album;
   image?: Data;
   isInView: boolean;
-  onAlbum: () => void;
+  onAlbum: (id: string) => void;
   onNotes: () => void;
 };
 
@@ -16,6 +19,8 @@ export default function Details({
   onAlbum,
   onNotes,
 }: Props) {
+  const { filterType, isFiltering } = useFilter();
+
   if (!album || !image) {
     return null;
   }
@@ -31,13 +36,23 @@ export default function Details({
       </Ui.Templates.Header>
       <Ui.Templates.List>
         <Ui.Templates.ListItem canRender={isInView} index={1}>
-          <Ui.Templates.Link id={album.id} onClick={onAlbum}>
-            <Ui.Templates.Icon icon="LayoutDashboard" />
-            <Ui.Templates.Block>
-              <Ui.Templates.Label>Album</Ui.Templates.Label>
-              {album.title} <Ui.Templates.LinkExternalIcon />
-            </Ui.Templates.Block>
-          </Ui.Templates.Link>
+          {isFiltering && filterType === 'album' ? (
+            <>
+              <Ui.Templates.Icon icon="LayoutDashboard" />
+              <Ui.Templates.Block>
+                <Ui.Templates.Label>Album</Ui.Templates.Label>
+                {album.title}
+              </Ui.Templates.Block>
+            </>
+          ) : (
+            <Ui.Templates.Link onClick={() => onAlbum(album.id)}>
+              <Ui.Templates.Icon icon="LayoutDashboard" />
+              <Ui.Templates.Block>
+                <Ui.Templates.Label>Album</Ui.Templates.Label>
+                {album.title} <Ui.Templates.LinkExternalIcon />
+              </Ui.Templates.Block>
+            </Ui.Templates.Link>
+          )}
         </Ui.Templates.ListItem>
         <Ui.Templates.ListItem canRender={isInView} index={2}>
           <Ui.Templates.Icon icon="Flag" />

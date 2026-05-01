@@ -4,7 +4,7 @@ import { Ui } from '@/ui';
 type Props = {
   album?: Album;
   isInView: boolean;
-  onAlbum: () => void;
+  onAlbum: (id: string) => void;
   onNotes: () => void;
 };
 
@@ -21,7 +21,7 @@ export default function Cover({
   return (
     <>
       <Ui.Templates.Header canRender={isInView}>
-        <Ui.Templates.Link id={album.id} onClick={onAlbum}>
+        <Ui.Templates.Link onClick={() => onAlbum(album.id)}>
           <Ui.Templates.Icon icon="LayoutDashboard" />
           <Ui.Templates.Block>
             <Ui.Templates.Label>Album</Ui.Templates.Label>

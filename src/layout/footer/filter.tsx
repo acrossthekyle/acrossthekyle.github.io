@@ -1,6 +1,6 @@
 'use client';
 
-import { Info, Undo2, X } from 'lucide-react';
+import { Info, Undo2 } from 'lucide-react';
 
 import { useDialog } from '@/hooks/useDialog';
 import { useFilter } from '@/hooks/useFilter';
@@ -57,11 +57,20 @@ function getMetaData(
 
 export default function Filter({ data }: Props) {
   const { onDialog } = useDialog();
-  const { filterId, filterType, isFiltering, onUnfilter } = useFilter();
+  const {
+    filterId,
+    filterIsFromSearch,
+    filterType,
+    filterView,
+    isFiltering,
+    onUnfilter,
+  } = useFilter();
   const { onView, view } = useView();
 
   const handleOnReset = () => {
-    onView(filterType === 'album' ? 'albums' : 'library');
+    if (filterView) {
+      onView(filterView);
+    }
 
     onUnfilter();
   };
@@ -80,39 +89,41 @@ export default function Filter({ data }: Props) {
     });
   };
 
-  if (!isFiltering) {
-    return null;
+  if (view !== 'library' || !isFiltering) {
+    return <div />;
   }
 
   const meta = getMetaData(data, filterId, filterType);
 
   if (meta.label === NOT_FOUND) {
-    return null;
+    return <div />;
   }
 
+  const canRenderInfo = (filterView === 'albums' && filterIsFromSearch) || filterView === 'library';
+
   return (
-    <section className={styles.filters(view === 'library')}>
+    <section
+      aria-label="filter and info controls"
+      className={styles.filters}
+    >
       <button
-        aria-label={`filtering by ${meta.label} with ${meta.images} images, clear filter`}
-        className={styles.filter}
+        aria-label={`remove ${meta.label} filter`}
+        className={styles.button(true)}
         onClick={handleOnReset}
         type="button"
       >
-        {filterType === 'album' ? (
-          <Undo2 className={styles.icon} />
-        ) : (
-          <X className={styles.icon} />
-        )}
-        {filterType === 'album' ? 'Albums' : 'Clear'}
+        <Undo2 className={styles.icon} />
       </button>
-      <button
-        aria-label={`info about ${meta.label}`}
-        className={styles.info}
-        onClick={() => handleOnInfo(meta)}
-        type="button"
-      >
-        <Info className={styles.icon} />
-      </button>
+      {canRenderInfo && (
+        <button
+          aria-label={`${meta.label} info`}
+          className={styles.button(true)}
+          onClick={() => handleOnInfo(meta)}
+          type="button"
+        >
+          <Info className={styles.icon} />
+        </button>
+      )}
     </section>
   );
 }

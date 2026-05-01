@@ -7,8 +7,8 @@ const styles = tw({
     w-full
     mt-36 pb-14 px-2
 
-    min-[310px]:mt-12
-    min-[330px]:grid-cols-2
+    min-[336px]:mt-12
+    min-[336px]:grid-cols-2
     md:grid-cols-3
     md:gap-6
     md:px-6
