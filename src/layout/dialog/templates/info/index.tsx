@@ -43,7 +43,7 @@ export default function Template() {
         I'm also an avid software developer who loves building web applications with an approach rooted in a genuine thrill for writing code, even after a career of {new Date().getFullYear() - 2012} years.
       </p>
       <figure className={styles.figure}>
-        <Ui.Images.Image
+        <Ui.Image
           className={styles.image}
           src="8ed54501-bdcb-40b7-9387-f2fc306db83d.png"
         />

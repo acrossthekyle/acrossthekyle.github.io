@@ -23,7 +23,7 @@ const styles = tw({
   `),
   backdrop: (isActive: boolean) => tw(`
     absolute inset-0 z-999
-    bg-(--background)/95
+    bg-(--background)/75
 
     ${isActive ? `
       motion-safe:duration-300
@@ -46,7 +46,7 @@ const styles = tw({
     p-4
     bg-(--background)
     rounded-lg
-    shadow-2xl
+    shadow-2xl/50
 
     motion-safe:duration-700
     motion-safe:-translate-y-1/2

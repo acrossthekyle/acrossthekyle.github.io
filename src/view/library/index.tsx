@@ -70,7 +70,7 @@ export default function Library({ data }: Props) {
                             onClick={() => handleOnClick(album, image)}
                             type="button"
                           >
-                            <Ui.Images.Image
+                            <Ui.Image
                               className={styles.image}
                               src={image.src}
                             />

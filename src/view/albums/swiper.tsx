@@ -112,9 +112,8 @@ export default function Plugin({ data, onClick }: Props) {
                 style={{ transitionDelay: `${delay === 0 ? '0s' : 2 + delay}s` }}
                 type="button"
               >
-                <Ui.Images.Image
+                <Ui.Image
                   className={styles.image}
-                  eager
                   src={item.cover}
                 />
               </button>

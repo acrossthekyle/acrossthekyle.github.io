@@ -2,7 +2,7 @@
 
 import { useSize } from '@/hooks/useSize';
 
-import { Image } from '../../image';
+import Image from '../../image';
 
 import styles from './stylesheet';
 import Toggle from './toggle';
@@ -22,6 +22,7 @@ export default function Picture({ src }: Props) {
     <>
       <Image
         className={styles.image(size)}
+        priority
         size="large"
         src={src}
       />
