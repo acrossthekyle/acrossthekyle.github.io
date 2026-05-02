@@ -1,37 +1,34 @@
-'use client';
-
 import NextJsImage from 'next/image';
-import { useState } from 'react';
-
-import styles from './stylesheet';
 
 type Props = {
   className?: string;
   priority?: boolean;
-  size: string;
+  quality?: number;
+  size?: string;
   src: string;
+  thumb?: string;
 };
 
 export default function Image({
   className = '',
   priority,
+  quality,
   size,
   src,
+  thumb,
 }: Props) {
-  const [isLoaded, setIsLoaded] = useState(false);
-
   return (
     <NextJsImage
       alt=""
-      className={`${className} ${styles.skeleton(isLoaded)}`}
+      blurDataURL={thumb}
+      className={className}
       draggable="false"
       height={432}
       key={src}
-      onLoad={() => setIsLoaded(true)}
-      placeholder="blur"
-      blurDataURL="data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAGAAoDAREAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAQL/xAAYEAEAAwEAAAAAAAAAAAAAAAABAAIxEv/EABQBAQAAAAAAAAAAAAAAAAAAAAL/xAAXEQEAAwAAAAAAAAAAAAAAAAAAAREx/9oADAMBAAIRAxEAPwAag5sE4aeSGyf/2Q=="
-      sizes={size === 'large' ? '50vw' : '33vw'}
       loading={priority ? 'eager' : 'lazy'}
+      placeholder={thumb ? 'blur' : 'empty'}
+      quality={quality}
+      sizes={size === 'large' ? '80vw' : '33vw'}
       src={src}
       width={768}
     />

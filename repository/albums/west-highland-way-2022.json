@@ -10,8 +10,14 @@
   "category": "backpacking",
   "coordinates": "55.943977° N, 4.319957° W",
   "cover": [
-    "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
-    "2022/05/07/e8dd9fed-56e4-45bf-aee4-d1bc44a5363c.jpeg"
+    {
+      "src": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIEAQP/xAAgEAADAAIBBAMAAAAAAAAAAAAAAQIDESESMWGRIkFR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEh/9oADAMBAAIRAxEAPwDQ2vB5ZKmeO7J31JP0Q0/xkisjb4ejs5d8V7PNnBGtPQ2tqlrwDMslQvi9AKVxORSkqWinOTt1rkAxWkOLX2iaTl86AFIcvYAEP//Z"
+    },
+    {
+      "src": "2022/05/07/e8dd9fed-56e4-45bf-aee4-d1bc44a5363c.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIBAwT/xAAiEAEAAQMDBAMAAAAAAAAAAAABAAISQREhUQMTMTJhobH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAERL/2gAMAwEAAhEDEQA/AO5tECjgkmXBFFwygqV4kC/4g0l6hxEBWOJIa6eJIvOGSeTxMNL7qGn5GhZVU5hoxui+28NKGgY+5Ux//9k="
+    }
   ],
   "tags": [
     "landscape",
@@ -46,7 +52,8 @@
         "fnumber": "1.50",
         "focal": 26,
         "iso": 50
-      }
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECA//EACMQAAIBAgUFAQAAAAAAAAAAAAABEQIhAxITIjEEMkFRYWL/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAwDAQACEQMRAD8A2ylQ4sBLTSsmwI3TwwDdMZWAa68kuA172pbFxYT6j8NiidaqbQl6JSB4uJzmFIwn4QMIdKlkBX3MqpiHyB//2Q=="
     },
     {
       "src": "2022/05/07/e8dd9fed-56e4-45bf-aee4-d1bc44a5363c.jpeg",
@@ -62,7 +69,8 @@
         "fnumber": "1.50",
         "focal": 26,
         "iso": 50
-      }
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIBAwT/xAAiEAEAAQMDBAMAAAAAAAAAAAABAAISQREhUQMTMTJhobH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAERL/2gAMAwEAAhEDEQA/AO5tECjgkmXBFFwygqV4kC/4g0l6hxEBWOJIa6eJIvOGSeTxMNL7qGn5GhZVU5hoxui+28NKGgY+5Ux//9k="
     },
     {
       "src": "2022/05/07/e610c340-2b8c-481c-8442-dc4543db3f2c.jpeg",
@@ -78,7 +86,8 @@
         "fnumber": "1.50",
         "focal": 26,
         "iso": 125
-      }
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAQIDAAT/xAAeEAEAAgEFAQEAAAAAAAAAAAABAAIRAxIhMXEiUf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABcRAQEBAQAAAAAAAAAAAAAAAAARASH/2gAMAwEAAhEDEQA/AJZ+pBQclPYD3t9GJRz6qtvIDVWqkgR3Cu3J5IHTDUHuM0YLqCRcAvVKOcS0Cy8P6QBvS3fEkDCiZ5kFtzNTIqeq7qpM5xCts6VeOpZ0f//Z"
     },
     {
       "src": "2022/05/07/b7df127a-0f69-4b29-843f-e1a7c6f858bf.jpeg",
@@ -94,7 +103,8 @@
         "fnumber": "1.50",
         "focal": 26,
         "iso": 50
-      }
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQMCAP/EACEQAQACAQQBBQAAAAAAAAAAAAEAEQISITFxUQNBgZGh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGBEBAQEBAQAAAAAAAAAAAAAAABEBITH/2gAMAwEAAhEDEQA/AKDinP7Kg+LgDR5IGBVkCZ1vyxurEyr2v6maHVXLXct0Bkrsq9SUOSlGVwrkWZolrydrrqb8RrDC5KL4hjR7wrPqahUZNEzX5k4j/9k="
     },
     {
       "src": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
@@ -110,7 +120,8 @@
         "fnumber": "2.80",
         "focal": 77,
         "iso": 32
-      }
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIEAQP/xAAgEAADAAIBBAMAAAAAAAAAAAAAAQIDESESMWGRIkFR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEh/9oADAMBAAIRAxEAPwDQ2vB5ZKmeO7J31JP0Q0/xkisjb4ejs5d8V7PNnBGtPQ2tqlrwDMslQvi9AKVxORSkqWinOTt1rkAxWkOLX2iaTl86AFIcvYAEP//Z"
     },
     {
       "src": "2022/05/07/07741eea-d85e-42cf-a2d4-d0f87102bffc.jpeg",
@@ -126,7 +137,8 @@
         "fnumber": "1.50",
         "focal": 26,
         "iso": 50
-      }
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwABAv/EAB4QAAICAwEAAwAAAAAAAAAAAAABAhEDITESQVFh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/AFjvmyo7WgKwMcqAKWVLrAGORxdoilWe+gTyr7FBym2rXBQTdkE9MKz1+CDqNSTXyTdgZLyki4ByLzJpcCP/2Q=="
     }
   ]
 }

@@ -42,10 +42,8 @@ export default function Plugin({ data, onClick }: Props) {
 
         if (width >= 1098) {
           swiperRef.current.slideTo(11, 1250);
-        } else if (width >= 640) {
-          swiperRef.current.slideTo(7, 1250);
         } else {
-          swiperRef.current.slideTo(5, 1250);
+          swiperRef.current.slideTo(8, 1250);
         }
       }
     }, 4200);
@@ -72,7 +70,7 @@ export default function Plugin({ data, onClick }: Props) {
         className={styles.container(isInView)}
         modules={[A11y, FreeMode, Keyboard, Mousewheel]}
         a11y
-        slidesPerView={2}
+        slidesPerView={3}
         keyboard
         grabCursor
         resistance={false}
@@ -114,7 +112,8 @@ export default function Plugin({ data, onClick }: Props) {
               >
                 <Ui.Image
                   className={styles.image}
-                  src={item.cover}
+                  src={item.cover.src}
+                  thumb={item.cover.thumb}
                 />
               </button>
             </SwiperSlide>

@@ -2,6 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   image: (size: string) => tw(`
+    relative z-1
     transition-all ease-in-out
     max-w-full max-h-full
     !w-auto !h-auto
@@ -11,7 +12,7 @@ const styles = tw({
   `),
   toggle: `
     group
-    absolute top-1/2 left-1/2
+    absolute top-1/2 left-1/2 z-2
     -translate-x-1/2
     -translate-y-1/2
     flex items-center justify-center

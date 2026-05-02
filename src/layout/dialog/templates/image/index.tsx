@@ -89,10 +89,10 @@ export default function Template({ data }: Props) {
     onClose();
 
     onView('library');
-  };
 
-  const handleOnClose = () => {
-    onClose();
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 0);
   };
 
   if (!data) {
@@ -109,7 +109,8 @@ export default function Template({ data }: Props) {
     <>
       <Ui.Templates.Figure>
         <Ui.Templates.FigureImage
-          src={data?.image === undefined ? data?.album?.cover : data?.image?.src}
+          src={data?.image === undefined ? data?.album?.cover.src : data?.image?.src}
+          thumb={data?.image === undefined ? data?.album?.cover.thumb : data?.image?.thumb}
         />
         {size !== 'full' && (
           <Ui.Templates.FigureCaption>
@@ -140,7 +141,6 @@ export default function Template({ data }: Props) {
         )}
         <Ui.Templates.Toggles
           isActive={isRenderingDetails}
-          onClose={handleOnClose}
           onToggle={handleOnDetails}
         />
       </Ui.Templates.Figure>

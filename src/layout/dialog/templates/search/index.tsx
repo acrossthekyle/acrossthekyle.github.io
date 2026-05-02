@@ -55,6 +55,10 @@ export default function Template({ data }: Props) {
     onClose();
 
     onView('library');
+
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 0);
   };
 
   const handleOnClear = () => {

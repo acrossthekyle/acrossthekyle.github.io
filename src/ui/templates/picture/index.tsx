@@ -9,12 +9,13 @@ import Toggle from './toggle';
 
 type Props = {
   src?: string;
+  thumb?: string;
 };
 
-export default function Picture({ src }: Props) {
+export default function Picture({ src, thumb }: Props) {
   const { size } = useSize();
 
-  if (src === undefined) {
+  if (src === undefined || thumb === undefined) {
     return null;
   }
 
@@ -25,6 +26,7 @@ export default function Picture({ src }: Props) {
         priority
         size="large"
         src={src}
+        thumb={thumb}
       />
       <Toggle />
     </>

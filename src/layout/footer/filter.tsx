@@ -1,6 +1,6 @@
 'use client';
 
-import { Info, Undo2 } from 'lucide-react';
+import { Plus, Undo2 } from 'lucide-react';
 
 import { useDialog } from '@/hooks/useDialog';
 import { useFilter } from '@/hooks/useFilter';
@@ -59,7 +59,6 @@ export default function Filter({ data }: Props) {
   const { onDialog } = useDialog();
   const {
     filterId,
-    filterIsFromSearch,
     filterType,
     filterView,
     isFiltering,
@@ -73,6 +72,10 @@ export default function Filter({ data }: Props) {
     }
 
     onUnfilter();
+
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 0);
   };
 
   const handleOnInfo = (meta: MetaData) => {
@@ -99,31 +102,27 @@ export default function Filter({ data }: Props) {
     return <div />;
   }
 
-  const canRenderInfo = (filterView === 'albums' && filterIsFromSearch) || filterView === 'library';
-
   return (
     <section
       aria-label="filter and info controls"
       className={styles.filters}
     >
       <button
-        aria-label={`remove ${meta.label} filter`}
+        aria-label={`remove ${filterType} filter`}
         className={styles.button(true)}
         onClick={handleOnReset}
         type="button"
       >
         <Undo2 className={styles.icon} />
       </button>
-      {canRenderInfo && (
-        <button
-          aria-label={`${meta.label} info`}
-          className={styles.button(true)}
-          onClick={() => handleOnInfo(meta)}
-          type="button"
-        >
-          <Info className={styles.icon} />
-        </button>
-      )}
+      <button
+        className={styles.button(true)}
+        onClick={() => handleOnInfo(meta)}
+        title={`View ${filterType} info`}
+        type="button"
+      >
+        <Plus className={styles.icon} />
+      </button>
     </section>
   );
 }

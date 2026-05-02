@@ -32,7 +32,10 @@ const styles = tw({
     ${isActive ? 'motion-safe:opacity-100' : 'motion-safe:opacity-50'}
   `),
   icon: `
-    w-3.5 h-3.5
+    w-4 h-4
+
+    lg:w-3.5
+    lg:h-3.5
   `,
   filters: `
     flex

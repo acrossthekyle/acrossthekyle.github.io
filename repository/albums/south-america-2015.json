@@ -10,7 +10,10 @@
   "category": "cities",
   "coordinates": "34.603723° S, 58.381593° W",
   "cover": [
-    "2015/03/19/1ddbd381-ac73-4dc2-9fa9-7398e0438098.jpeg"
+    {
+      "src": "2015/03/19/1ddbd381-ac73-4dc2-9fa9-7398e0438098.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAA1ACgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT/xAAiEAACAgEFAAMBAQAAAAAAAAAAAQIRIQMSMUFRE2GRIiP/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEQMRAD8App6jk372iil7g5IOpKnk6q5EVkpRXYs9XFV+EdZv5GvBVJ0ZtMhJu3YGSoAJsW0sUO5VJUzYx/0krWPoNlrGXQkOUG90t1+eiSqUv4TS7sptajXxRf3ZGSlHDVACyaAzICnXGFycneSqS6DPQdGSxLwnrKO3Kd/RRq+CctNbb3P9FOXhgPONN5TAk7ODHwAEmLkXVltXHIASc83b4SAAFP/Z"
+    }
   ],
   "tags": [
     "cityscape",
@@ -40,7 +43,8 @@
         "fnumber": "2.20",
         "focal": 29,
         "iso": 32
-      }
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAA1ACgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT/xAAiEAACAgEFAAMBAQAAAAAAAAAAAQIRIQMSMUFRE2GRIiP/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEQMRAD8App6jk372iil7g5IOpKnk6q5EVkpRXYs9XFV+EdZv5GvBVJ0ZtMhJu3YGSoAJsW0sUO5VJUzYx/0krWPoNlrGXQkOUG90t1+eiSqUv4TS7sptajXxRf3ZGSlHDVACyaAzICnXGFycneSqS6DPQdGSxLwnrKO3Kd/RRq+CctNbb3P9FOXhgPONN5TAk7ODHwAEmLkXVltXHIASc83b4SAAFP/Z"
     },
     {
       "src": "2015/03/19/aaa356af-6a08-4305-8fe2-80819bd00f16.jpeg",
@@ -56,7 +60,8 @@
         "fnumber": "2.20",
         "focal": 29,
         "iso": 1000
-      }
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT/xAAdEAEAAwACAwEAAAAAAAAAAAABAAIRAyExQVES/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwDl7j51rNqVsavfwm9JkULZBX2Sar5Zfk47flsGi+olOKy9kUT7hOg4MNbA/ISUIVKO+Yvh2EIwXr3w2VdicTjn2EJMaWL1bajpCEJEf//Z"
     },
     {
       "src": "2015/03/19/9650d680-3809-45e9-a9df-0e108f3e1498.jpeg",
@@ -72,7 +77,8 @@
         "fnumber": "2.20",
         "focal": 29,
         "iso": 32
-      }
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMBAv/EACMQAAIBBAEDBQAAAAAAAAAAAAABAgMREiExQVFhEzJSkaH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAgD/xAAYEQEBAQEBAAAAAAAAAAAAAAAAAQIRUf/aAAwDAQACEQMRAD8Aom4dreTiVVN+36OnNT2tIhKXPYbRM+qrCSvcxuyst+CKqYybRR3xu3bVwt6ZnlNKq5ZLrZcg2ShCtk314BKm00qlKLen3R0qMN3V77AEHoU/j+mShvF8NdAAKUIOteWWwALP/9k="
     }
   ]
 }

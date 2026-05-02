@@ -13,6 +13,7 @@ const styles = tw({
     ` : 'relative'}
 
     motion-safe:duration-300
+    motion-safe:ease-in-out
 
     ${canRender ? 'motion-safe:top-0 motion-safe:opacity-100' : 'motion-safe:top-20 motion-safe:opacity-0'}
   `),

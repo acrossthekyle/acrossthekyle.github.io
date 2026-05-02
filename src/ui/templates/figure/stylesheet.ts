@@ -4,7 +4,7 @@ const styles = tw({
   container: `
     w-screen h-full
     flex items-center justify-center
-    p-4
+    p-10
     overflow-hidden
     pointer-events-none
 

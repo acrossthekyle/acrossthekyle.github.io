@@ -10,8 +10,14 @@
   "category": "cities",
   "coordinates": "41.926667° N, 8.736944° E",
   "cover": [
-    "2023/07/05/a7519e17-dc25-46cc-b8c7-8b293684b8ef.jpeg",
-    "2023/07/05/4901532f-a283-4e4c-a93e-1b9cc3f9b13e.jpeg"
+    {
+      "src": "2023/07/05/a7519e17-dc25-46cc-b8c7-8b293684b8ef.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwECAP/EAB4QAAICAgIDAAAAAAAAAAAAAAABAhESIRNRMWGB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAIDAf/EABgRAQEBAQEAAAAAAAAAAAAAAAABERIT/9oADAMBAAIRAxEAPwA8SajLW6NBeFVW77G4qfpNwajYlqrnGkGg1GlZcdoAVTlrV+0NtJkFHwSqqSQQEKERqzGjwXcn9DQ2lSFMjMD/2Q=="
+    },
+    {
+      "src": "2023/07/05/4901532f-a283-4e4c-a93e-1b9cc3f9b13e.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBAH/xAAgEAACAgICAgMAAAAAAAAAAAAAAQIRAxIhYSIxQVGh/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABkRAQEBAQEBAAAAAAAAAAAAAAARARICMf/aAAwDAQACEQMRAD8ARy4pLyWr7LnpnfOLHCLrgtSYaq+BSGq7CQ1X0CMlJ/P4c3ZYskkqT4LUmJ4pt7bNlxn0nsjTJsuwMdmHQcqAlDK4v0PhuVpi7Xonacuuh2cv/9k="
+    }
   ],
   "tags": [
     "cityscape",
@@ -43,7 +49,8 @@
         "fnumber": "1.80",
         "focal": 13,
         "iso": 32
-      }
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwECAP/EAB4QAAICAgIDAAAAAAAAAAAAAAABAhESIRNRMWGB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAIDAf/EABgRAQEBAQEAAAAAAAAAAAAAAAABERIT/9oADAMBAAIRAxEAPwA8SajLW6NBeFVW77G4qfpNwajYlqrnGkGg1GlZcdoAVTlrV+0NtJkFHwSqqSQQEKERqzGjwXcn9DQ2lSFMjMD/2Q=="
     },
     {
       "src": "2023/07/05/4901532f-a283-4e4c-a93e-1b9cc3f9b13e.jpeg",
@@ -59,7 +66,8 @@
         "fnumber": "1.50",
         "focal": 39,
         "iso": 50
-      }
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBAH/xAAgEAACAgICAgMAAAAAAAAAAAAAAQIRAxIhYSIxQVGh/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABkRAQEBAQEBAAAAAAAAAAAAAAARARICMf/aAAwDAQACEQMRAD8ARy4pLyWr7LnpnfOLHCLrgtSYaq+BSGq7CQ1X0CMlJ/P4c3ZYskkqT4LUmJ4pt7bNlxn0nsjTJsuwMdmHQcqAlDK4v0PhuVpi7Xonacuuh2cv/9k="
     },
     {
       "src": "2023/07/05/7cace07e-0974-40d4-8356-019ef68594a9.jpeg",
@@ -75,7 +83,8 @@
         "fnumber": "1.50",
         "focal": 26,
         "iso": 50
-      }
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAQAC/8QAGxAAAgIDAQAAAAAAAAAAAAAAABEBAiExURL/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8ARWYhSAUgRakKFIXBitwLopBWstySrFbeC0iaFIcRFd8MqQM2bwBoC8hX/9k="
     }
   ]
 }

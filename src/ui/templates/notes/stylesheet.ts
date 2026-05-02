@@ -23,6 +23,7 @@ const styles = tw({
   `),
   backdrop: (isActive: boolean) => tw(`
     absolute inset-0 z-999
+    outline-0
     bg-(--background)/75
 
     ${isActive ? `
@@ -44,7 +45,7 @@ const styles = tw({
     pointer-events-auto
     cursor-auto
     p-4
-    bg-(--background)
+    bg-neutral-900
     rounded-lg
     shadow-2xl/50
 

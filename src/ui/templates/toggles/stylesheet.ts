@@ -14,16 +14,18 @@ const styles = tw({
   button: `
     flex items-center gap-1.25
     py-1 px-2
-    text-xs
+    font-sans font-medium
+    text-sm
     bg-(--background)/75
     rounded-md
 
+    lg:text-xs
     lg:motion-safe:opacity-50
     lg:motion-safe:duration-300
     lg:motion-safe:hover:opacity-100
   `,
   icon: `
-    w-3 h-3
+    w-3.5 h-3.5
   `,
 });
 

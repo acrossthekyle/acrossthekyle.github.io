@@ -9,11 +9,12 @@ type Props = {
 };
 
 export default function Length({ isSmall, value }: Props) {
-  const { labels, units } = useUnits();
+  const { assumed, opposite } = useUnits();
 
   return (
     <>
-      {value[units as keyof typeof value]} {isSmall ? labels.length.micro : labels.length.macro}
+      {value[assumed.units as keyof typeof value]} {isSmall ? assumed.labels.length.micro : assumed.labels.length.macro}
+      <span className="inline-block ml-2 opacity-50">({value[opposite.units as keyof typeof value]} {isSmall ? opposite.labels.length.micro : opposite.labels.length.macro})</span>
     </>
   );
 }

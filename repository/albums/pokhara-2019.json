@@ -10,7 +10,10 @@
   "category": "destinations",
   "coordinates": "28.209600° N, 83.985600° E",
   "cover": [
-    "2019/11/06/0a6730d7-113b-4bca-b9d1-71ecf8e69713.jpeg"
+    {
+      "src": "2019/11/06/0a6730d7-113b-4bca-b9d1-71ecf8e69713.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMCAQT/xAAfEAEBAAICAgMBAAAAAAAAAAABAAIRITESEwMiQVH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AN4/KNQyG8wj0Db4OiC+5ul5mu9XPYfrqC3lKJmPAkgh7D+WjNfziSDhmdpzbfqbQ5kg4ZbkkR//2Q=="
+    }
   ],
   "tags": [
     "cityscape",
@@ -40,7 +43,8 @@
         "fnumber": "1.80",
         "focal": 47,
         "iso": 20
-      }
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMCAQT/xAAfEAEBAAICAgMBAAAAAAAAAAABAAIRITESEwMiQVH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AN4/KNQyG8wj0Db4OiC+5ul5mu9XPYfrqC3lKJmPAkgh7D+WjNfziSDhmdpzbfqbQ5kg4ZbkkR//2Q=="
     },
     {
       "src": "2019/11/06/4286cd26-eaad-47b1-96f7-2dff5ea38352.jpeg",
@@ -56,7 +60,8 @@
         "fnumber": "1.80",
         "focal": 28,
         "iso": 25
-      }
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAQACAwT/xAAfEAACAgIBBQAAAAAAAAAAAAAAAQIREjEhAxMyUWH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABYRAQEBAAAAAAAAAAAAAAAAAAARIf/aAAwDAQACEQMRAD8A6LdaAGAOEuHQFaKDEI0IqR8kgCU33Ma49kurAiogFOi3OeLb1ZFazqEbQFdfWRThbZUZuVSoD//Z"
     },
     {
       "src": "2019/11/06/9bbcf55a-54e8-4a7e-8c6f-12d718bc0da0.jpeg",
@@ -72,7 +77,8 @@
         "fnumber": "2.80",
         "focal": 15,
         "iso": 100
-      }
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIDAQT/xAAfEAEBAAICAgMBAAAAAAAAAAABAAIRAxJRYSExMkH/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQID/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwCjL1cOcMuqJQoOtu/VLxbyHtp80yqxq8hlkBd+f6asDhTL9DeoccvVUpWMklpljJpYDt2fdWKo+ZLJonesq+0kBRyJJK4T/9k="
     }
   ]
 }

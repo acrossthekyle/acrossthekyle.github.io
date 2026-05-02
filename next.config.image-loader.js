@@ -1,3 +1,5 @@
 export default function imageLoader({ src, width, quality }) {
-  return `https://ik.imagekit.io/acrossthekyle/uploads/${src}?tr=w-${width}&q-${quality || 75}`;
+  const transformations = src.includes('?tr') ? '' : `?tr=w-${width}&q-${quality || 75}`;
+
+  return `https://ik.imagekit.io/acrossthekyle/uploads/${src}${transformations}`;
 }

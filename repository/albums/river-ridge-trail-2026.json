@@ -10,7 +10,10 @@
   "category": "backpacking",
   "coordinates": "40.007973° N, 87.571681° W",
   "cover": [
-    "2026/03/14/1e1be596-c236-4cee-9eb2-fac89329e0e6.jpeg"
+    {
+      "src": "2026/03/14/1e1be596-c236-4cee-9eb2-fac89329e0e6.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBP/EACEQAAIBAwMFAAAAAAAAAAAAAAABERJSoQIhkSIxUVOC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwDokSSSd74RpJ3YFwmqbCfBP7wN/Y+EKRQE+q/AFWJyxUAZaExVLACGpx2AAV//2Q=="
+    }
   ],
   "tags": [
     "landscape",
@@ -42,7 +45,8 @@
         "fnumber": "1.78",
         "focal": 24,
         "iso": 64
-      }
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBP/EACEQAAIBAwMFAAAAAAAAAAAAAAABERJSoQIhkSIxUVOC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwDokSSSd74RpJ3YFwmqbCfBP7wN/Y+EKRQE+q/AFWJyxUAZaExVLACGpx2AAV//2Q=="
     },
     {
       "src": "2026/03/14/bfb02a8a-045d-456f-a389-95aefbff4628.jpeg",
@@ -58,7 +62,8 @@
         "fnumber": "1.78",
         "focal": 24,
         "iso": 100
-      }
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBAH/xAAfEAACAQQCAwAAAAAAAAAAAAAAASECERJRA0ETMVL/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwDS0mcw0yjJ7Yyf0yVYn5Lcjoam8FtzLVPInefZPJ7YpF89Az3ewKRG7dKt2dSewAphk4ch0NxlKAAKl7kAEH//2Q=="
     }
   ]
 }

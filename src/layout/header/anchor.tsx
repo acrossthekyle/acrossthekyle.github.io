@@ -25,7 +25,7 @@ export default function Anchor() {
         onClick={handleOnClick}
         type="button"
       >
-        <Ellipsis className={styles.icon} /> About
+        <Ellipsis className={styles.icon} />
       </button>
     </section>
   );

@@ -45,7 +45,7 @@ export default function Template() {
       <figure className={styles.figure}>
         <Ui.Image
           className={styles.image}
-          src="8ed54501-bdcb-40b7-9387-f2fc306db83d.png"
+          src="8ed54501-bdcb-40b7-9387-f2fc306db83d.png?tr=w-100,q-100"
         />
         <figcaption className={styles.caption}>
           <address className={styles.author}>

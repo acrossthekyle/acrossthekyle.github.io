@@ -41,8 +41,6 @@ async function getExif(src) {
 export async function go() {
   console.log('--- running exif script ---');
 
-  const albums = [];
-
   const files = fs
     .readdirSync(input)
     .filter((directory) => directory !== '.DS_Store');
@@ -50,13 +48,15 @@ export async function go() {
   for (const file of files) {
     const data = JSON.parse(fs.readFileSync(`${input}/${file}`, 'utf8'));
 
+    console.log(`--# processing ${data.title} album #--`);
+
     const images = [];
 
     for (const image of data.images) {
       if (!image.exif) {
         await wait(1500);
 
-        console.log('--# getting exif data #--');
+        console.log(`--# getting exif for ${image.src} #--`);
 
         const response = await getExif(image.src);
 
@@ -88,6 +88,11 @@ export async function go() {
         images.push(image);
       }
     }
+
+    // console.log(JSON.stringify({
+    //   ...data,
+    //   images,
+    // }, null, 2));
 
     writeFile(input, file, JSON.stringify({
       ...data,

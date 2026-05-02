@@ -18,12 +18,16 @@ export type Data = {
     focal: number;
     iso: number;
   };
+  thumb: string;
 };
 
 export type Album = {
   category: string;
   coordinates: string;
-  cover: string;
+  cover: {
+    src: string;
+    thumb: string;
+  };
   id: string;
   images: Data[];
   location: string;

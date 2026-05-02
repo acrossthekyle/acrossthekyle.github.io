@@ -51,7 +51,7 @@ const styles = tw({
     flex items-center justify-start gap-2
     w-full
     font-sans font-medium
-    text-xs
+    text-sm
     capitalize
     rounded-sm
     bg-(--background)
@@ -63,6 +63,7 @@ const styles = tw({
 
     min-[336px]:justify-center
     min-[336px]:w-auto
+    lg:text-xs
   `),
   first: `
     min-[336px]:pl-4

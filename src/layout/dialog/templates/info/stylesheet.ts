@@ -52,7 +52,7 @@ const styles = tw({
   `,
   spacer: `
     block
-    pb-6 w-full
+    pb-1 w-full
 
     lg:pb-0
   `,
@@ -64,7 +64,10 @@ const styles = tw({
     lg:top-32
   `,
   icon: `
-    w-4 h-4
+    w-4.5 h-4.5
+
+    lg:w-4
+    lg:h-4
   `,
   links: `
     flex items-center gap-2
@@ -76,7 +79,10 @@ const styles = tw({
     text-xs
   `,
   external: `
-    w-3 h-3
+    w-4 h-4
+
+    lg:w-3
+    lg:h-3
   `,
 });
 

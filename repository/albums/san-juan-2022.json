@@ -10,7 +10,10 @@
   "category": "destinations",
   "coordinates": "18.466333° N, 66.105722° W",
   "cover": [
-    "2022/03/23/9f212336-298d-4c7d-874f-a3be34c95d7d.jpeg"
+    {
+      "src": "2022/03/23/9f212336-298d-4c7d-874f-a3be34c95d7d.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIDAQT/xAAfEAADAQABBQEBAAAAAAAAAAAAAQIREgMhMVFxQWH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwCIpJ92U5mvHZfDBcvRpNPw9A3npzhczhlNJfmFql7JVjV5gIqmp1S38BB4taO628AKL3ji/hU0ARV11OE7m6AAP//Z"
+    }
   ],
   "tags": [
     "cityscape",
@@ -42,7 +45,8 @@
         "fnumber": "1.50",
         "focal": 26,
         "iso": 40
-      }
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIDAQT/xAAfEAADAQABBQEBAAAAAAAAAAAAAQIREgMhMVFxQWH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwCIpJ92U5mvHZfDBcvRpNPw9A3npzhczhlNJfmFql7JVjV5gIqmp1S38BB4taO628AKL3ji/hU0ARV11OE7m6AAP//Z"
     },
     {
       "src": "2022/03/23/1ba3d3f7-9462-4375-9770-4efedf15f582.jpeg",
@@ -58,7 +62,8 @@
         "fnumber": "1.50",
         "focal": 26,
         "iso": 50
-      }
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwT/xAAgEAACAgEFAAMAAAAAAAAAAAAAAQIRAxIhMVFhQXGR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQIA/8QAFhEBAQEAAAAAAAAAAAAAAAAAABFB/9oADAMBAAIRAxEAPwCqzy5UV+m0JLJG1t4ccVT3TLtuMYqLdro1MdlUPTHHmTilJ1L5NL9FKdQItAwYTdqtMV9I506AJWvFXcujbHN0090gA1krLbaceAAUI//Z"
     },
     {
       "src": "2022/03/23/11a03e4e-ed4e-47c2-822e-f720a9628638.jpeg",
@@ -74,7 +79,8 @@
         "fnumber": "1.50",
         "focal": 26,
         "iso": 40
-      }
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAgEAEAAgEEAgMAAAAAAAAAAAABAhEAEiExQWGBAxMi/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAERMf/aAAwDAQACEQMRAD8A56DqzMquRtZ1gEJSHa8Df55tGhTxlGBHTvOXozInngyghFeRTxiQ6R2swGyBLu8lBT/VBy9ZQyqZF7eDKKiwI6nV6wLi3HYN3vAldUOAXjAU5fXGwLcmj//Z"
     }
   ]
 }

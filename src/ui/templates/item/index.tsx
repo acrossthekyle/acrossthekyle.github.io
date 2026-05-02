@@ -15,7 +15,7 @@ export default function Item({
   return (
     <li
       className={styles.container(canRender, canFloat)}
-      style={{ transitionDelay: `${index * 0.125}s` }}
+      style={{ transitionDelay: `${index * 0.075}s` }}
     >
       {children}
     </li>

@@ -24,6 +24,7 @@ type Input = {
     };
     image?: Data;
   };
+  delay?: boolean;
   template: string;
 };
 
@@ -42,6 +43,7 @@ type DialogContextType = {
 export const DialogContext = createContext<DialogContextType | null>(null);
 
 export default function DialogProvider({ children }: PropsWithChildren) {
+  const [canClose, setCanClose] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [isStacked, setIsStacked] = useState(false);
   const [data, setData] = useState<Input>({
@@ -57,7 +59,13 @@ export default function DialogProvider({ children }: PropsWithChildren) {
 
     dialog.current?.showModal();
 
-    requestAnimationFrame(() => setIsOpen(true));
+    requestAnimationFrame(() => {
+      setIsOpen(true);
+
+      setTimeout(() => {
+        setCanClose(true);
+      }, input.delay ? 1000 : 0);
+    });
   }, []);
 
   const handleOnDoneCallback = useCallback(() => {
@@ -69,7 +77,12 @@ export default function DialogProvider({ children }: PropsWithChildren) {
   }, [onDoneCallback]);
 
   const handleOnClose = useCallback(() => {
+    if (!canClose) {
+      return;
+    }
+
     setIsOpen(false);
+    setCanClose(false);
 
     const node = dialog.current;
 
@@ -80,19 +93,19 @@ export default function DialogProvider({ children }: PropsWithChildren) {
     };
 
     node?.addEventListener('transitionend', handleTransitionEnd, { once: true });
-  }, [handleOnDoneCallback]);
+  }, [canClose, handleOnDoneCallback]);
 
   const handleOnCancel = useCallback((event: KeyboardEvent<HTMLDialogElement>) => {
-    if (event.key === 'Escape' && !isStacked) {
+    if (event.key === 'Escape' && !isStacked && canClose) {
       handleOnClose();
     }
-  }, [handleOnClose, isStacked]);
+  }, [canClose, handleOnClose, isStacked]);
 
   const handleOnBackdrop = useCallback((event: MouseEvent<HTMLDialogElement>) => {
-    if (event.target === dialog.current) {
+    if (event.target === dialog.current && canClose) {
       handleOnClose();
     }
-  }, [handleOnClose]);
+  }, [canClose, handleOnClose]);
 
   const handleOnDone = useCallback((callback: () => void) => {
     setOnDoneCallback(() => callback);

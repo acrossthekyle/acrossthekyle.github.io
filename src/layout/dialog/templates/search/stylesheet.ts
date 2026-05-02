@@ -44,7 +44,10 @@ const styles = tw({
     motion-safe:hover:opacity-100
   `,
   tag: `
-    w-3 h-3
+    w-3.5 h-3.5
+
+    lg:w-3
+    lg:h-3
   `,
   form: `
     relative
@@ -85,7 +88,10 @@ const styles = tw({
     motion-safe:hover:opacity-100
   `,
   x: `
-    w-4 h-4
+    w-4.5 h-4.5
+
+    lg:w-4
+    lg:h-4
   `,
   results: `
     flex flex-col gap-4
@@ -107,14 +113,13 @@ const styles = tw({
     sm:p-2
     sm:-m-2
   `,
-  icon: `
-    w-4 h-4
-    opacity-20
-  `,
   external: `
     inline-block
     -mt-0.5
-    w-2.5 h-2.5
+    w-3 h-3
+
+    lg:w-2.5
+    lg:h-2.5
   `,
   faded: `
     block

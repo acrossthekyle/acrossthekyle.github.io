@@ -8,7 +8,6 @@ const styles = tw({
       flex items-start justify-center
       h-auto w-auto
       text-sm
-      ${isCentered ? 'bg-transparent' : 'bg-(--background)/95'}
       overflow-y-scroll
       overscroll-none
       cursor-auto
@@ -53,8 +52,10 @@ const styles = tw({
     `);
   },
   backdrop: (isCentered?: boolean) => tw(`
-    absolute inset-0 z-999
+    absolute inset-0 z-998
+    outline-0
 
+    ${!isCentered && 'bg-(--background)/90'}
     ${!isCentered && 'lg:hidden'}
   `),
   inner: (canRender: boolean, isCentered?: boolean) => {
@@ -62,30 +63,29 @@ const styles = tw({
       absolute left-1/2 z-1000
       w-9/10 max-w-120
       p-4
-      bg-(--background)
       rounded-lg
       overflow-hidden
-      shadow-2xl
 
       constrained:w-9/10
       portrait-constrained:max-w-120
 
       sm:w-82
 
-      lg:overflow-visible
+      ${isCentered && 'lg:bg-neutral-900 lg:shadow-2xl/90'}
+      ${!isCentered && 'lg:overflow-visible'}
     `;
 
     const renderable = `
       motion-safe:-translate-x-1/2
 
       ${canRender ? `
-        motion-safe:bottom-0
-        motion-safe:duration-400
-        lg:motion-safe:duration-700
+        motion-safe:duration-700
+        motion-safe:opacity-100
+        motion-safe:top-4
       ` : `
-        motion-safe:-bottom-full
-        motion-safe:duration-500
-        lg:motion-safe:duration-1000
+        motion-safe:duration-1000
+        motion-safe:opacity-0
+        motion-safe:top-full
       `}
     `;
 
@@ -105,6 +105,7 @@ const styles = tw({
       lg:relative
       lg:left-auto
       lg:right-auto
+      lg:top-auto
       lg:z-1
       lg:translate-x-0
       lg:opacity-100

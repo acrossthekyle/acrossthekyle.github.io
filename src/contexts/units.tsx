@@ -3,23 +3,35 @@
 import {
   PropsWithChildren,
   createContext,
-  useState,
-  useCallback,
 } from 'react';
 
 type UnitsContextType = {
-  units: string;
-  labels: {
-    length: {
-      macro: string;
-      micro: string;
+  assumed: {
+    labels: {
+      length: {
+        macro: string;
+        micro: string;
+      };
+      weight: {
+        macro: string;
+        micro: string;
+      };
     };
-    weight: {
-      macro: string;
-      micro: string;
-    };
+    units: string;
   };
-  onUnits: (data: string) => void;
+  opposite: {
+    labels: {
+      length: {
+        macro: string;
+        micro: string;
+      };
+      weight: {
+        macro: string;
+        micro: string;
+      };
+    };
+    units: string;
+  };
 };
 
 export const UnitsContext = createContext<UnitsContextType | null>(null);
@@ -28,30 +40,56 @@ type Props = {
   assumed: string;
 };
 
+function getLengthMacro(units: string) {
+  return units === 'imperial' ? 'miles' : 'kilometers';
+};
+
+function getLengthMicro(units: string) {
+  return units === 'imperial' ? 'ft' : 'm';
+};
+
+function getWeightMacro(units: string) {
+  return units === 'imperial' ? 'lbs' : 'kgs';
+};
+
+function getWeightMicro(units: string) {
+  return units === 'imperial' ? 'oz' : 'g';
+};
+
 export default function UnitsProvider({
   assumed,
   children,
 }: PropsWithChildren<Props>) {
-  const [units, setUnits] = useState(assumed);
-
-  const handleOnChange = useCallback((data: string) => {
-    setUnits(data);
-  }, []);
+  const opposite = assumed === 'metric' ? 'imperial' : 'metric';
 
   return (
     <UnitsContext.Provider value={{
-      labels: {
-        length: {
-          macro: units === 'imperial' ? 'miles' : 'kilometers',
-          micro: units === 'imperial' ? 'ft' : 'm',
+      assumed: {
+        labels: {
+          length: {
+            macro: getLengthMacro(assumed),
+            micro: getLengthMicro(assumed),
+          },
+          weight: {
+            macro: getWeightMacro(assumed),
+            micro: getWeightMicro(assumed),
+          },
         },
-        weight: {
-          macro: units === 'imperial' ? 'lbs' : 'kgs',
-          micro: units === 'imperial' ? 'oz' : 'g',
-        },
+        units: assumed,
       },
-      onUnits: handleOnChange,
-      units,
+      opposite: {
+        labels: {
+          length: {
+            macro: getLengthMacro(opposite),
+            micro: getLengthMicro(opposite),
+          },
+          weight: {
+            macro: getWeightMacro(opposite),
+            micro: getWeightMicro(opposite),
+          },
+        },
+        units: opposite,
+      },
     }}>
       {children}
     </UnitsContext.Provider>

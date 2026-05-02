@@ -26,6 +26,7 @@ export default function Library({ data }: Props) {
         album: item,
         image,
       },
+      delay: true,
       template: 'image',
     });
   };
@@ -73,6 +74,7 @@ export default function Library({ data }: Props) {
                             <Ui.Image
                               className={styles.image}
                               src={image.src}
+                              thumb={image.thumb}
                             />
                           </button>
                           <figcaption className={styles.caption}>
