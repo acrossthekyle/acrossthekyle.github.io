@@ -11,7 +11,7 @@ const data = {
 };
 
 fs.writeFile(
-  'src/db/config.js',
+  'src/cache/config.js',
   `const data = ${JSON.stringify(data, null, 2)};\n\r\n\rexport default data;`,
   () => {},
 );

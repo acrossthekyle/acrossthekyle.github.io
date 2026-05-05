@@ -6,7 +6,7 @@ import path from 'path';
 
 import { wait, writeFile } from './utils';
 
-const input = path.join(process.cwd(), './repository/albums');
+const input = path.join(process.cwd(), './repository');
 
 async function getExif(src) {
   const privateKey = process.env.IMAGE_KIT_IO_PRIVATE_KEY;
@@ -48,7 +48,7 @@ export async function go() {
   for (const file of files) {
     const data = JSON.parse(fs.readFileSync(`${input}/${file}`, 'utf8'));
 
-    console.log(`--# processing ${data.title} album #--`);
+    console.log(`--# processing ${data.title} #--`);
 
     const images = [];
 

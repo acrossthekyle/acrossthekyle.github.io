@@ -1,0 +1,175 @@
+{
+  "date": null,
+  "timestamp": "1657904400",
+  "id": "overnight-domestic-hikes",
+  "title": "Overnight Hikes",
+  "location": {
+    "country": "United States",
+    "continent": "North America"
+  },
+  "category": "backpacking",
+  "coordinates": null,
+  "cover": [
+    {
+      "src": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAEDAv/EACIQAAICAQIHAQAAAAAAAAAAAAABAhEhAxIiMTJBQnGBYf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AM1jVixLsR4nGzppsy0nj9Oe8vRpKVQSaRm/LDKLHqfoEi+L4ANI6Vyu8mmzbi7AIqOK/TjbG8XYAFUE1zYACP/Z"
+    },
+    {
+      "src": "2025/10/18/efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCAf/EAB8QAAIBAwUBAAAAAAAAAAAAAAABEQISQQMTITFRkf/EABYBAQEBAAAAAAAAAAAAAAAAAAIBAP/EABcRAQEBAQAAAAAAAAAAAAAAAAABERL/2gAMAwEAAhEDEQA/ACaNqCcc9YNJOcfSS4tmqKg0qSb1LVClslfVnkXVDmRZtN+AjfmQRRppTJyHan236AE2dx9BajmABDW71UnNMsAGR//Z"
+    },
+    {
+      "src": "2026/03/14/1e1be596-c236-4cee-9eb2-fac89329e0e6.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBP/EACEQAAIBAwMFAAAAAAAAAAAAAAABERJSoQIhkSIxUVOC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwDokSSSd74RpJ3YFwmqbCfBP7wN/Y+EKRQE+q/AFWJyxUAZaExVLACGpx2AAV//2Q=="
+    }
+  ],
+  "tags": [
+    "landscape",
+    "trail",
+    "overnight",
+    "section hike",
+    "hills",
+    "north america",
+    "wisconsin",
+    "iowa",
+    "illinois",
+    "usa",
+    "backpacking",
+    "IAT"
+  ],
+  "position": [
+    "48%",
+    "20%"
+  ],
+  "notes": [
+    "This is a catalog of my overnight hikes, mainly throughout the midwest in states such as Illinois, Iowa, and Wisconsin. It's not the distance on this trail that gets you; it's the constant up and down over rolling hills."
+  ],
+  "images": [
+    {
+      "src": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",
+      "title": "Stony Ridge",
+      "location": {
+        "region": "Ice Age Trail, Wisconsin",
+        "country": "United States",
+        "continent": "North America"
+      },
+      "date": "07/25/2022",
+      "elevation": 965,
+      "notes": "Combination of Blue Spring + Stony Ridge segments on the southern portion of the Ice Age Trail: 5 hours and 11 miles",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 13,
+        "iso": 32
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBBP/EAB8QAQADAAICAwEAAAAAAAAAAAEAAhESITFBIlFhwf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwCOS9Su7YYeZnGg6P8AZKfHpZmrF12thc09SFGu66eYsaruSET3LRV1V739iRie9iB0cSvccgPERMKhu76+5urXXIiUStXzWIiB/9k="
+    },
+    {
+      "src": "2025/05/03/e402c0b1-e827-4123-b7b5-74947b240687.jpeg",
+      "title": "Parnell Segment",
+      "location": {
+        "region": "Ice Age Trail, Wisconsin",
+        "country": "United States",
+        "continent": "North America"
+      },
+      "date": "5/03/2025",
+      "elevation": 1235,
+      "notes": "8 miles and 5 hours on the Ice Age Trail",
+      "exif": {
+        "aperture": "1/6638",
+        "camera": "iPhone 16 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.78",
+        "focal": 24,
+        "iso": 100
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBA//EAB8QAAIBAwUBAAAAAAAAAAAAAAABAhEhMSIyYXGBQf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A5xolLk1O7Cwalf0iqe0itpdlSsmiaaX2BUnt4QJlnwAbDUmio0cpWwwAElhmJNfQAEopoAAf/9k="
+    },
+    {
+      "src": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
+      "title": "Greenbush Trailhead",
+      "location": {
+        "region": "Ice Age Trail, Wisconsin",
+        "country": "United States",
+        "continent": "North America"
+      },
+      "date": "5/04/2025",
+      "elevation": 1182,
+      "notes": "8 miles and 4 hours on the Ice Age Trail",
+      "exif": {
+        "aperture": "1/6638",
+        "camera": "iPhone 16 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.78",
+        "focal": 24,
+        "iso": 80
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAEDAv/EACIQAAICAQIHAQAAAAAAAAAAAAABAhEhAxIiMTJBQnGBYf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AM1jVixLsR4nGzppsy0nj9Oe8vRpKVQSaRm/LDKLHqfoEi+L4ANI6Vyu8mmzbi7AIqOK/TjbG8XYAFUE1zYACP/Z"
+    },
+    {
+      "src": "2025/10/18/efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg",
+      "title": "Browns Hollow",
+      "location": {
+        "region": "Yellow River Trail, Iowa",
+        "country": "United States",
+        "continent": "North America"
+      },
+      "date": "10/18/2025",
+      "elevation": 723,
+      "notes": "Lovely fall colors greeted us as we began the Yellow River Trail",
+      "exif": {
+        "aperture": "1/6638",
+        "camera": "iPhone 16 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.78",
+        "focal": 24,
+        "iso": 64
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCAf/EAB8QAAIBAwUBAAAAAAAAAAAAAAABEQISQQMTITFRkf/EABYBAQEBAAAAAAAAAAAAAAAAAAIBAP/EABcRAQEBAQAAAAAAAAAAAAAAAAABERL/2gAMAwEAAhEDEQA/ACaNqCcc9YNJOcfSS4tmqKg0qSb1LVClslfVnkXVDmRZtN+AjfmQRRppTJyHan236AE2dx9BajmABDW71UnNMsAGR//Z"
+    },
+    {
+      "src": "2025/10/18/db8b9939-7fe0-43b3-b5ef-d0baea038ef1.jpeg",
+      "title": "Browns Trailhead",
+      "location": {
+        "region": "Yellow River Trail, Iowa",
+        "country": "United States",
+        "continent": "North America"
+      },
+      "date": "10/19/2025",
+      "elevation": 839,
+      "notes": "Heading back to civlization after a restless night in the woods, thanks to a create trying to force its way underneath my tent. Overall 14.3 miles of hiking.",
+      "exif": {
+        "aperture": "1/6638",
+        "camera": "iPhone 16 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.78",
+        "focal": 24,
+        "iso": 64
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIDAQT/xAAgEAACAgEEAwEAAAAAAAAAAAAAAQIRIQMxQVESYYGR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AIUs0XFuLRk5W011RVty5M1p6dR1Fb5MJSZ3VlLDSZlmVgik7k/0Ec+wBSgmssuO/isABWzVL4YzjStbdABE0AAr/9k="
+    },
+    {
+      "src": "2026/03/14/1e1be596-c236-4cee-9eb2-fac89329e0e6.jpeg",
+      "title": "Golden grasses",
+      "location": {
+        "region": "River Ridge Trail, Illinois",
+        "country": "United States",
+        "continent": "North America"
+      },
+      "date": "03/15/2026",
+      "elevation": 675,
+      "notes": "River Ridge Trail: 10 miles, 6 hours",
+      "exif": {
+        "aperture": "1/6638",
+        "camera": "iPhone 16 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.78",
+        "focal": 24,
+        "iso": 64
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBP/EACEQAAIBAwMFAAAAAAAAAAAAAAABERJSoQIhkSIxUVOC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwDokSSSd74RpJ3YFwmqbCfBP7wN/Y+EKRQE+q/AFWJyxUAZaExVLACGpx2AAV//2Q=="
+    }
+  ]
+}

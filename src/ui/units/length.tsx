@@ -1,6 +1,6 @@
 'use client';
 
-import { useUnits } from '@/hooks/useUnits';
+import { useOptions } from '@/hooks/useOptions';
 import type { Stat } from '@/types';
 
 type Props = {
@@ -9,12 +9,11 @@ type Props = {
 };
 
 export default function Length({ isSmall, value }: Props) {
-  const { assumed, opposite } = useUnits();
+  const { units } = useOptions();
 
   return (
     <>
-      {value[assumed.units as keyof typeof value]} {isSmall ? assumed.labels.length.micro : assumed.labels.length.macro}
-      <span className="inline-block ml-2 opacity-50">({value[opposite.units as keyof typeof value]} {isSmall ? opposite.labels.length.micro : opposite.labels.length.macro})</span>
+      {value[units.type as keyof typeof value]} {isSmall ? units.labels.length.micro : units.labels.length.macro}
     </>
   );
 }

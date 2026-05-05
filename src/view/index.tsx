@@ -1,18 +1,19 @@
 import { Dialog, Layout } from '@/layout';
-import type { Album } from '@/types';
+import type { Collection, Data } from '@/types';
 
-import Albums from './albums';
+import Collections from './collections';
 import Library from './library';
 
 type Props = {
-  data: Album[];
+  collections: Collection[];
+  images: Data[];
 };
 
-export default function View({ data }: Props) {
+export default function View({ collections, images }: Props) {
   return (
-    <Layout data={data}>
-      <Albums data={data} />
-      <Library data={data} />
+    <Layout collections={collections}>
+      <Collections collections={collections} />
+      <Library collections={collections} images={images} />
       <Dialog />
     </Layout>
   );

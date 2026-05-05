@@ -5,6 +5,8 @@
   --animate-fade-in-delayed: .3s fadeIn 6.25s ease-in forwards;
   --animate-fade-in-up: slide-up-fade .4s ease-in forwards;
   --animate-fade-in-up-slightly-delayed: .4s slide-up-fade .3s ease-in-out forwards;
+  --animate-fade-in-down-slightly-delayed: .4s slide-down-fade .3s ease-in-out forwards;
+  --animate-fade-out-up: slide-up-fade-out .1s ease-in-out forwards;
 
   --animate-one-moment: 7s fade-in-and-out 6s ease-in-out forwards;
   --animate-working-on-it: 7s fade-in-and-out 13s ease-in-out forwards;
@@ -18,6 +20,7 @@
   --font-signature: var(--font-momo-signature);
 
   --text-tiny: 0.6875rem; /* 11px */
+  --text-xtiny: 0.5rem; /* 8px */
 }
 
 @custom-variant constrained {
@@ -89,9 +92,19 @@ body {
   100% { opacity: 1; transform: translateY(0); }
 }
 
+@keyframes slide-down-fade {
+  0% { opacity: 0; transform: translateY(-2rem); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
 @keyframes fade-in-and-out {
   0% { opacity: 0; transform: translateY(1.5rem); }
   14% { opacity: 1; transform: translateY(0); }
   86% { opacity: 1; transform: translateY(0); }
   100% { opacity: 0; transform: translateY(-1.5rem); }
+}
+
+@keyframes slide-up-fade-out {
+  0% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-2rem); }
 }

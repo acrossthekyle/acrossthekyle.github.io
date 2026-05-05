@@ -1,0 +1,105 @@
+{
+  "date": [
+    "7/5/2023",
+    "7/7/2023"
+  ],
+  "timestamp": "1688508000",
+  "id": "corsica-2023",
+  "title": "Corsica",
+  "location": {
+    "country": "France",
+    "continent": "Europe"
+  },
+  "category": "cities",
+  "coordinates": "41.926667° N, 8.736944° E",
+  "cover": [
+    {
+      "src": "2023/07/05/a7519e17-dc25-46cc-b8c7-8b293684b8ef.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwECAP/EAB4QAAICAgIDAAAAAAAAAAAAAAABAhESIRNRMWGB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAIDAf/EABgRAQEBAQEAAAAAAAAAAAAAAAABERIT/9oADAMBAAIRAxEAPwA8SajLW6NBeFVW77G4qfpNwajYlqrnGkGg1GlZcdoAVTlrV+0NtJkFHwSqqSQQEKERqzGjwXcn9DQ2lSFMjMD/2Q=="
+    },
+    {
+      "src": "2023/07/05/4901532f-a283-4e4c-a93e-1b9cc3f9b13e.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBAH/xAAgEAACAgICAgMAAAAAAAAAAAAAAQIRAxIhYSIxQVGh/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABkRAQEBAQEBAAAAAAAAAAAAAAARARICMf/aAAwDAQACEQMRAD8ARy4pLyWr7LnpnfOLHCLrgtSYaq+BSGq7CQ1X0CMlJ/P4c3ZYskkqT4LUmJ4pt7bNlxn0nsjTJsuwMdmHQcqAlDK4v0PhuVpi7Xonacuuh2cv/9k="
+    }
+  ],
+  "tags": [
+    "cityscape",
+    "monuments",
+    "europe",
+    "france",
+    "destination"
+  ],
+  "position": [
+    "49%",
+    "48.25%"
+  ],
+  "notes": [
+    "I had some time to waste after finishing the GR 20 2 days earlier than planned, so I spent a few days checking out the historic portions of the cities of Porto-Vecchio, and Ajaccio (the capital).",
+    "Porto-Vecchio had easy pedestrian access in the historic part, and great views at dinner thanks to the hillside location. Over on the west coast, Ajaccio had a more everyday vibe with a busy harbor always filled with cruise ships, and cafe-lined streets."
+  ],
+  "images": [
+    {
+      "src": "2023/07/05/a7519e17-dc25-46cc-b8c7-8b293684b8ef.jpeg",
+      "title": "Citadelle de Porto-Vecchio",
+      "location": {
+        "region": "Porto-Vecchio, Corsica",
+        "country": "France",
+        "continent": "Europe"
+      },
+      "date": "07/05/2023",
+      "elevation": 202,
+      "notes": "",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 13,
+        "iso": 32
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwECAP/EAB4QAAICAgIDAAAAAAAAAAAAAAABAhESIRNRMWGB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAIDAf/EABgRAQEBAQEAAAAAAAAAAAAAAAABERIT/9oADAMBAAIRAxEAPwA8SajLW6NBeFVW77G4qfpNwajYlqrnGkGg1GlZcdoAVTlrV+0NtJkFHwSqqSQQEKERqzGjwXcn9DQ2lSFMjMD/2Q=="
+    },
+    {
+      "src": "2023/07/05/4901532f-a283-4e4c-a93e-1b9cc3f9b13e.jpeg",
+      "title": "Citadelle de Ajaccio",
+      "location": {
+        "region": "Ajaccio, Corsica",
+        "country": "France",
+        "continent": "Europe"
+      },
+      "date": "07/06/2023",
+      "elevation": 29,
+      "notes": "",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 39,
+        "iso": 50
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBAH/xAAgEAACAgICAgMAAAAAAAAAAAAAAQIRAxIhYSIxQVGh/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABkRAQEBAQEBAAAAAAAAAAAAAAARARICMf/aAAwDAQACEQMRAD8ARy4pLyWr7LnpnfOLHCLrgtSYaq+BSGq7CQ1X0CMlJ/P4c3ZYskkqT4LUmJ4pt7bNlxn0nsjTJsuwMdmHQcqAlDK4v0PhuVpi7Xonacuuh2cv/9k="
+    },
+    {
+      "src": "2023/07/05/7cace07e-0974-40d4-8356-019ef68594a9.jpeg",
+      "title": "Urban beach",
+      "location": {
+        "region": "Ajaccio, Corsica",
+        "country": "France",
+        "continent": "Europe"
+      },
+      "date": "07/07/2023",
+      "elevation": 31,
+      "notes": "",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 50
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAQAC/8QAGxAAAgIDAQAAAAAAAAAAAAAAABEBAiExURL/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8ARWYhSAUgRakKFIXBitwLopBWstySrFbeC0iaFIcRFd8MqQM2bwBoC8hX/9k="
+    }
+  ]
+}

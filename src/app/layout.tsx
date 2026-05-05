@@ -7,8 +7,8 @@ import { PropsWithChildren, Suspense } from 'react';
 
 import DialogProvider from '@/contexts/dialog';
 import FilterProvider from '@/contexts/filter';
+import OptionsProvider from '@/contexts/options';
 import SizeProvider from '@/contexts/size';
-import UnitsProvider from '@/contexts/units';
 import ViewProvider from '@/contexts/view';
 import { Body } from '@/layout';
 
@@ -34,7 +34,7 @@ export default async function RootLayout({ children }: PropsWithChildren) {
         <Eggs />
         <DialogProvider>
           <ViewProvider>
-            <UnitsProvider assumed={units}>
+            <OptionsProvider units={units}>
               <SizeProvider>
                 <FilterProvider>
                   <Body>
@@ -44,7 +44,7 @@ export default async function RootLayout({ children }: PropsWithChildren) {
                   </Body>
                 </FilterProvider>
               </SizeProvider>
-            </UnitsProvider>
+            </OptionsProvider>
           </ViewProvider>
         </DialogProvider>
       </Suspense>

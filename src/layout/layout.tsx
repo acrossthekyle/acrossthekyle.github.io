@@ -1,4 +1,4 @@
-import type { Album } from '@/types';
+import type { Collection } from '@/types';
 
 import Footer from './footer';
 import Header from './header';
@@ -6,21 +6,21 @@ import Main from './main';
 import Splash from './splash';
 
 type Props = {
-  data: Album[];
+  collections: Collection[];
 };
 
 export default async function Layout({
   children,
-  data,
+  collections,
 }: React.PropsWithChildren<Props>) {
   return (
     <>
       <Splash />
-      <Header data={data} />
+      <Header collections={collections} />
       <Main>
         {children}
       </Main>
-      <Footer data={data} />
+      <Footer />
     </>
   );
 }

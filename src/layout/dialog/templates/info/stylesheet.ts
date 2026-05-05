@@ -2,17 +2,17 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    relative z-1
+    absolute top-1/2 left-1/2 z-1
+    -translate-x-1/2 -translate-y-1/2
+
     flex flex-col gap-6
     w-full max-w-lg
-    h-full
-    my-0 mx-auto
     py-4 px-5
     cursor-auto
     pointer-events-auto
     text-sm
 
-    sm:py-10
+    sm:py-0
     lg:justify-center
   `,
   header: `
@@ -24,6 +24,16 @@ const styles = tw({
     font-normal
     text-xs
     opacity-60
+  `,
+  close: `
+    absolute top-2 right-2 z-1
+    p-2
+  `,
+  icon: `
+    w-4.5 h-4.5
+
+    lg:w-4
+    lg:h-4
   `,
   figure: `
     flex items-center gap-4
@@ -41,33 +51,14 @@ const styles = tw({
     text-sm
     not-italic
   `,
-  title: `
-    block
-    text-xs
-    leading-[1]
-  `,
   signature: `
     font-signature
     text-lg
   `,
-  spacer: `
+  title: `
     block
-    pb-1 w-full
-
-    lg:pb-0
-  `,
-  close: `
-    absolute top-2 right-2 z-1
-    p-2
-
-    sm:top-8
-    lg:top-32
-  `,
-  icon: `
-    w-4.5 h-4.5
-
-    lg:w-4
-    lg:h-4
+    text-xs
+    leading-[1]
   `,
   links: `
     flex items-center gap-2
@@ -83,6 +74,12 @@ const styles = tw({
 
     lg:w-3
     lg:h-3
+  `,
+  spacer: `
+    block
+    pb-1 w-full
+
+    lg:pb-0
   `,
 });
 

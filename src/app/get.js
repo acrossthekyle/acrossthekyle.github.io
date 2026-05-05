@@ -1,8 +1,12 @@
-import data from '@/db';
+import collections from '@/cache/collections';
+import images from '@/cache/images';
 
 export default async function get() {
-  return data.map((item) => ({
-    ...item,
-    cover: item.cover[Math.floor(Math.random() * item.cover.length)],
-  }));
+  return {
+    collections: collections.map((collection) => ({
+      ...collection,
+      cover: collection.cover[Math.floor(Math.random() * collection.cover.length)],
+    })),
+    images,
+  };
 };

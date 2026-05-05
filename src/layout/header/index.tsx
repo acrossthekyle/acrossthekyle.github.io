@@ -1,18 +1,16 @@
-import type { Album } from '@/types';
+import type { Collection } from '@/types';
 
-import Anchor from './anchor';
 import Controls from './controls';
 import styles from './stylesheet';
 
 type Props = {
-  data: Album[];
+  collections: Collection[];
 };
 
-export default function Header({ data }: Props) {
+export default function Header({ collections }: Props) {
   return (
     <header className={styles.container}>
-      <Anchor />
-      <Controls data={data} />
+      <Controls collections={collections} />
     </header>
   );
 }

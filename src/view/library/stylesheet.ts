@@ -12,15 +12,16 @@ const styles = tw({
     md:grid-cols-3
     md:gap-6
     md:px-6
-    md:mt-18
+    md:mt-6
     lg:px-10
     lg:grid-cols-4
+    lg:mt-6
   `,
-  cell: (isInView: boolean, isInitialBatch: boolean) => tw(`
+  cell: (canRender: boolean) => tw(`
     relative
 
     motion-safe:duration-700
-    ${isInView || isInitialBatch ?
+    ${canRender ?
       `
         motion-safe:top-0
         motion-safe:opacity-100
@@ -36,19 +37,17 @@ const styles = tw({
     relative
     h-auto w-full
   `,
-  image: `
+  image: (colorMode: string) => tw(`
     aspect-12/16
     rounded-lg
-    grayscale contrast-125
+    ${colorMode === 'monochrome' && 'grayscale contrast-125'}
 
     motion-safe:duration-700
-    motion-safe:opacity-0
-    motion-safe:animate-fade-in
-    motion-safe:group-hover:grayscale-0
-    motion-safe:group-hover:contrast-100
-
-    md:motion-safe:group-hover:scale-101
-  `,
+    motion-safe:transition-all
+    ${colorMode === 'monochrome' && 'motion-safe:group-hover:grayscale-0'}
+    ${colorMode === 'monochrome' && 'motion-safe:group-hover:contrast-100'}
+    motion-safe:group-hover:scale-101
+  `),
   caption: `
     mt-1
     font-sans font-medium
@@ -58,7 +57,37 @@ const styles = tw({
   `,
   faded: `
     block
-    opacity-30
+    text-current/30
+  `,
+  options: `
+    flex flex-col items-center justify-center
+
+    motion-safe:opacity-0
+    motion-safe:animate-fade-in-down-slightly-delayed
+  `,
+  categories: `
+    flex flex-wrap gap-1
+    mb-1
+  `,
+  category: (isActive: boolean) => tw(`
+    flex items-center gap-1
+    text-sm
+    p-1
+    rounded-md
+    capitalize
+    text-left
+
+    md:text-tiny
+
+    motion-safe:duration-300
+    motion-safe:hover:opacity-100
+    ${isActive ? 'motion-safe:opacity-100' : 'motion-safe:opacity-50'}
+  `),
+  tag: `
+    w-3.5 h-3.5
+
+    lg:w-3
+    lg:h-3
   `,
 });
 

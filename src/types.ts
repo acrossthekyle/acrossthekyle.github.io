@@ -4,36 +4,41 @@ export type Stat = {
 };
 
 export type Data = {
-  src: string;
-  title: string;
-  location: string;
-  date: string;
-  elevation: Stat;
-  notes: string | string[];
-  exif: {
-    aperture: null | string;
-    camera: string;
-    exposure: string;
-    fnumber: string;
-    focal: number;
-    iso: number;
+  camera: string;
+  category: string;
+  collection: {
+    id: string;
+    position: string[];
+    title: string;
   };
+  elevation: Stat;
+  location: {
+    region: string;
+    country: string;
+    continent: string;
+  };
+  notes: string[];
+  src: string;
   thumb: string;
+  title: string;
+  when: string;
 };
 
-export type Album = {
-  category: string;
-  coordinates: string;
+export type Collection = {
+  coordinates: string | null;
   cover: {
     src: string;
     thumb: string;
   };
+  count: number;
   id: string;
-  images: Data[];
-  location: string;
+  location: {
+    country: string;
+    continent: string;
+  } | null;
   notes: string[];
   position: string[];
   tags: string[];
   title: string;
-  when: string;
+  when: string | null;
 };

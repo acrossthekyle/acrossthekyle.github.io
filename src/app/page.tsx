@@ -6,11 +6,11 @@ import View from '@/view';
 import get from './get';
 
 export default async function Page() {
-  const data = await get();
+  const { collections, images } = await get();
 
   return (
     <Suspense fallback={<Ui.Loaders.Fallback />}>
-      <View data={data} />
+      <View collections={collections} images={images} />
     </Suspense>
   );
 }

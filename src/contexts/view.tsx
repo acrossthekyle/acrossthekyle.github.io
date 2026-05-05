@@ -10,7 +10,7 @@ type ViewContextType = {
 export const ViewContext = createContext<ViewContextType | null>(null);
 
 export default function ViewProvider({ children }: PropsWithChildren) {
-  const [view, setView] = useState('albums');
+  const [view, setView] = useState('collections');
 
   const handleOnChange = useCallback((value: string) => {
     setView(value);

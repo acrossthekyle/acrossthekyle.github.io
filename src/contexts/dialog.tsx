@@ -11,17 +11,11 @@ import {
   useCallback,
 } from 'react';
 
-import type { Album, Data } from '@/types';
+import type { Collection, Data } from '@/types';
 
 type Input = {
   data?: {
-    album?: Album;
-    albums?: Album[];
-    category?: {
-      albums: number;
-      images: number;
-      label: string;
-    };
+    collections?: Collection[];
     image?: Data;
   };
   delay?: boolean;

@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react';
 
-import data from '@/db/config';
+import data from '@/cache/config';
 
 export default function Eggs() {
   useEffect(() => {

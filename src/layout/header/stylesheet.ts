@@ -2,59 +2,33 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    fixed top-0 left-0 z-9990
-    flex flex-col items-center gap-0
-    w-[calc(100%-1.5rem)]
-    h-9
-    mt-1 mx-3
-
-    min-[336px]:grid
-    min-[336px]:grid-cols-2
-    min-[336px]:gap-0
-    md:w-full
-    md:mt-2
-    md:mx-0
-    md:px-12
-  `,
-  anchor: (shouldDelay: boolean) => tw(`
-    flex items-center justify-start
-    w-full
-    mb-1.25
-
-    motion-safe:opacity-0
-    ${shouldDelay ? 'motion-safe:animate-fade-in-delayed' : 'motion-safe:animate-fade-in'}
-
-    lg:mb-0
-  `),
-  controls: (shouldDelay: boolean) => tw(`
-    flex items-center w-full
-    mb-1 -mt-0.25
-
-    motion-safe:opacity-0
-    ${shouldDelay ? 'motion-safe:animate-fade-in-delayed' : 'motion-safe:animate-fade-in'}
-
-    min-[336px]:justify-end
-    md:mr-0
-    lg:mb-0
-  `),
-  group: `
-    flex flex-col items-start justify-between gap-0
-    w-full
-    rounded-sm
-    bg-(--background)
+    flex flex-col items-center justify-center
+    mt-4
+    pointer-events-none
 
     min-[336px]:flex-row
-    min-[336px]:items-center
-    min-[336px]:w-auto
+    lg:fixed
+    lg:top-2
+    lg:left-0
+    lg:w-screen
+    lg:z-99
+    lg:mt-0
   `,
-  button: (isActive: boolean) => tw(`
-    flex items-center justify-start gap-2
-    w-full
-    font-sans font-medium
-    text-sm
-    capitalize
+  navigation: (shouldDelay: boolean) => tw(`
+    flex items-center gap-0
+    h-8
     rounded-sm
     bg-(--background)
+    pointer-events-auto
+
+    motion-safe:opacity-0
+    ${shouldDelay ? 'motion-safe:animate-fade-in-delayed' : 'motion-safe:animate-fade-in'}
+  `),
+  button: (isActive: boolean) => tw(`
+    flex items-center justify-start gap-2
+    font-sans font-normal
+    text-sm
+    capitalize
     p-2
 
     motion-safe:duration-300
@@ -66,10 +40,10 @@ const styles = tw({
     lg:text-xs
   `),
   first: `
-    min-[336px]:pl-4
+    min-[336px]:pl-3
   `,
   last: `
-    min-[336px]:pr-4
+    min-[336px]:pr-3
   `,
   icon: `
     w-3.5 h-3.5

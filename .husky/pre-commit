@@ -1,4 +1,4 @@
 node last-updated.js
-git add src/db/config.js
+git add src/cache/config.js
 npx lint-staged
 npm run build

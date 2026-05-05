@@ -1,29 +1,32 @@
 'use client';
 
-import { Fragment } from 'react';
-import { InView } from 'react-intersection-observer';
-
 import { useDialog } from '@/hooks/useDialog';
 import { useFilter } from '@/hooks/useFilter';
+import { useOptions } from '@/hooks/useOptions';
 import { useView } from '@/hooks/useView';
-import type { Album, Data } from '@/types';
+import type { Collection as CollectionType, Data } from '@/types';
 import { Ui } from '@/ui';
 
-import styles from './stylesheet';
+import All from './all';
+import Category from './category';
+import Collection from './collection';
+import Filters from './filters';
+import Info from './info';
 
 type Props = {
-  data: Album[];
+  collections: CollectionType[];
+  images: Data[];
 };
 
-export default function Library({ data }: Props) {
+export default function Library({ collections, images }: Props) {
   const { onDialog } = useDialog();
   const { view } = useView();
-  const { filterId, filterType, isFiltering } = useFilter();
+  const { filter } = useFilter();
+  const { color } = useOptions();
 
-  const handleOnClick = (item: Album, image: Data) => {
+  const handleOnClick = (image: Data) => {
     onDialog({
       data: {
-        album: item,
         image,
       },
       delay: true,
@@ -31,67 +34,40 @@ export default function Library({ data }: Props) {
     });
   };
 
-  const items = data
-    .filter((item) => {
-      if (isFiltering) {
-        const value = filterType === 'category' ? item.category : item.id;
-
-        return value.toLowerCase() === filterId;
-      }
-
-      return true;
-    });
-
   return (
-    <Ui.Containers.Mountable isActive={view === 'library'}>
-      <ul className={styles.grid}>
-        {items.map((album, albumIndex: number) => (
-          <Fragment key={album.id}>
-            {(filterType === 'album' ? [...album.images].reverse() : album.images)
-              .map((image, imageIndex: number) => {
-                const delays = [0.25, 0.125, 0.375, 0];
-
-                const isInitialBatch = albumIndex === 0 && imageIndex < 8;
-                const currentDelay = isInitialBatch ? 0 : delays[imageIndex % 4];
-
-                return (
-                  <InView key={image.src} threshold={0} triggerOnce>
-                    {({ inView, ref }) => (
-                      <li
-                        className={styles.cell(inView, isInitialBatch)}
-                        ref={ref}
-                        style={{
-                          transitionDelay: `${currentDelay}s`,
-                        }}
-                      >
-                        <figure>
-                          <button
-                            aria-label="view image details"
-                            className={styles.cta}
-                            onClick={() => handleOnClick(album, image)}
-                            type="button"
-                          >
-                            <Ui.Image
-                              className={styles.image}
-                              src={image.src}
-                              thumb={image.thumb}
-                            />
-                          </button>
-                          <figcaption className={styles.caption}>
-                            {image.date}
-                            <span className={styles.faded}>
-                              {image.location}
-                            </span>
-                          </figcaption>
-                        </figure>
-                      </li>
-                    )}
-                </InView>
-              );
-            })}
-          </Fragment>
-        ))}
-      </ul>
+    <Ui.Containers.Mountable
+      className="pt-18"
+      isActive={view === 'library' || view === 'collection' || view === 'category'}
+    >
+      {(view === 'library' || view === 'category') && (
+        <Filters images={images} />
+      )}
+      {(view === 'library' || view === 'collection' || view === 'category') && (
+        <Info collections={collections} images={images} />
+      )}
+      {view === 'library' && (
+        <All
+          colorMode={color}
+          images={images}
+          onClick={handleOnClick}
+        />
+      )}
+      {view === 'collection' && (
+        <Collection
+          colorMode={color}
+          id={filter}
+          images={images}
+          onClick={handleOnClick}
+        />
+      )}
+      {view === 'category' && (
+        <Category
+          colorMode={color}
+          id={filter}
+          images={images}
+          onClick={handleOnClick}
+        />
+      )}
     </Ui.Containers.Mountable>
   );
 }

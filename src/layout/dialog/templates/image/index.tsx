@@ -7,15 +7,29 @@ import { useDialog } from '@/hooks/useDialog';
 import { useFilter } from '@/hooks/useFilter';
 import { useSize } from '@/hooks/useSize';
 import { useView } from '@/hooks/useView';
-import type { Album, Data } from '@/types';
+import type { Data } from '@/types';
 import { Ui } from '@/ui';
 
-import Cover from './cover';
-import Details from './details';
+import {
+  Block,
+  Content,
+  Figure,
+  FigureCaption,
+  FigureImage,
+  Header,
+  Icon,
+  Label,
+  Link,
+  LinkExternalIcon,
+  List,
+  ListItem,
+  Notes,
+  Preview,
+  Toggles,
+} from './components';
 
 type Props = {
   data?: {
-    album?: Album;
     image?: Data;
   };
 };
@@ -83,72 +97,137 @@ export default function Template({ data }: Props) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [onDone, isRenderingDetails, isViewingNotes, size]);
 
-  const handleOnAlbum = (id: string) => {
-    onFilter('album', id, view);
+  const handleOnCollection = () => {
+    if (!data?.image) {
+      return;
+    }
+
+    onFilter(data.image.collection.id);
+
+    onView('collection');
 
     onClose();
-
-    onView('library');
 
     setTimeout(() => {
       window.scrollTo(0, 0);
     }, 0);
   };
 
-  if (!data) {
+  if (!data?.image) {
     return null;
   }
 
-  const isCover = (data?.album && data?.image === undefined);
-  const isDetails = (data?.album && data?.image !== undefined);
-  const notes = isCover
-    ? data?.album?.notes
-    : (Array.isArray(data?.image?.notes) ? data?.image?.notes : [data?.image?.notes || '']);
-
   return (
     <>
-      <Ui.Templates.Figure>
-        <Ui.Templates.FigureImage
-          src={data?.image === undefined ? data?.album?.cover.src : data?.image?.src}
-          thumb={data?.image === undefined ? data?.album?.cover.thumb : data?.image?.thumb}
+      <Figure>
+        <FigureImage
+          src={data.image.src}
+          thumb={data.image.thumb}
         />
         {size !== 'full' && (
-          <Ui.Templates.FigureCaption>
-            <Ui.Templates.Content
+          <FigureCaption>
+            <Content
               canRender={isRenderingDetails}
               inViewRef={inViewRef}
               onClose={handleOnDetails}
             >
-              {isCover && (
-                <Cover
-                  album={data?.album}
-                  isInView={isInView}
-                  onAlbum={handleOnAlbum}
-                  onNotes={handleOnNotes}
-                />
-              )}
-              {isDetails && (
-                <Details
-                  album={data?.album}
-                  image={data?.image}
-                  isInView={isInView}
-                  onAlbum={handleOnAlbum}
-                  onNotes={handleOnNotes}
-                />
-              )}
-            </Ui.Templates.Content>
-          </Ui.Templates.FigureCaption>
+              <Header canRender={isInView}>
+                <Icon icon="Type" />
+                <Block>
+                  <Label>Title</Label>
+                  {data.image.title}
+                </Block>
+              </Header>
+              <List>
+                <ListItem canRender={isInView} index={1}>
+                  <Icon icon="Bookmark" />
+                  <Block>
+                    <Label>Category</Label>
+                    {data.image.category}
+                  </Block>
+                </ListItem>
+                <ListItem canRender={isInView} index={2}>
+                  {view === 'collection' ? (
+                    <>
+                      <Icon icon="LayoutDashboard" />
+                      <Block>
+                        <Label>Collection</Label>
+                        {data.image.collection.title}
+                      </Block>
+                    </>
+                  ) : (
+                    <Link onClick={handleOnCollection}>
+                      <Icon icon="LayoutDashboard" />
+                      <Block>
+                        <Label>Collection</Label>
+                        {data.image.collection.title} <LinkExternalIcon />
+                      </Block>
+                    </Link>
+                  )}
+                </ListItem>
+                <ListItem canRender={isInView} index={3}>
+                  <Icon icon="Flag" />
+                  <Block>
+                    <Label>Location</Label>
+                    {data.image.location.region}, {data.image.location.country}
+                  </Block>
+                </ListItem>
+                <ListItem canRender={isInView} index={4}>
+                  <Icon icon="Calendar1" />
+                  <Block>
+                    <Label>Taken on</Label>
+                    {data.image.when}
+                  </Block>
+                </ListItem>
+                <ListItem canRender={isInView} index={5}>
+                  <Icon icon="ArrowUpFromDot" />
+                  <Block>
+                    <Label>Elevation</Label>
+                    <Ui.Units.Length isSmall value={data.image.elevation} />
+                  </Block>
+                </ListItem>
+                <ListItem canRender={isInView} index={6}>
+                  <Icon icon="Camera" />
+                  <Block>
+                    <Label>Camera</Label>
+                    {data.image.camera}
+                  </Block>
+                </ListItem>
+                {data.image.notes.length > 0 && (
+                  <ListItem canRender={isInView} index={7}>
+                    <Icon icon="Pen" />
+                    <Block>
+                      <Label>Notes</Label>
+                      <Preview
+                        label="View more notes"
+                        onToggle={handleOnNotes}
+                      >
+                        {data.image.notes.join(' ')}
+                      </Preview>
+                    </Block>
+                  </ListItem>
+                )}
+                <ListItem canFloat canRender={isInView} index={8}>
+                  <Block>
+                    <Ui.Map position={data.image.collection.position} />
+                  </Block>
+                </ListItem>
+              </List>
+            </Content>
+          </FigureCaption>
         )}
-        <Ui.Templates.Toggles
+        <Toggles
           isActive={isRenderingDetails}
           onToggle={handleOnDetails}
         />
-      </Ui.Templates.Figure>
-      <Ui.Templates.Notes
-        isActive={isViewingNotes}
-        notes={notes}
-        onToggle={handleOnNotes}
-      />
+      </Figure>
+      {data.image.notes.length > 0 && (
+        <Notes
+          isActive={isViewingNotes}
+          notes={data.image.notes}
+          onToggle={handleOnNotes}
+        />
+      )}
     </>
   );
 }

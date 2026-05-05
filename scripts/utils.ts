@@ -5,7 +5,7 @@ import fs from 'fs';
 import fsPromises from 'fs/promises';
 import path from 'path';
 
-const output = path.join(process.cwd(), './src/db');
+const output = path.join(process.cwd(), './src/cache');
 
 export async function createDirectory(destination) {
   try {
@@ -35,7 +35,11 @@ export async function write(destination, data, outputOverride = undefined) {
   await writeFile(outputOverride ?? output, destination, json);
 };
 
-export function reduceCoordinates(value, to = 4) {
+export function reduceCoordinates(value: string | null, to = 4) {
+  if (value === null) {
+    return null;
+  }
+
   return value.replace(/\d+\.\d+/g, (match) => {
     return parseFloat(match).toFixed(to);
   });
