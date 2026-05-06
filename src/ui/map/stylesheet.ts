@@ -3,7 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   container: (canRender: boolean) => tw(`
     relative
-    flex items-center justify-start
+    flex items-start justify-start
     w-full
     mt-2
 

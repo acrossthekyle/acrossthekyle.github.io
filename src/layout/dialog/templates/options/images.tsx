@@ -11,7 +11,7 @@ export default function Images() {
 
   return (
     <section className={styles.controls}>
-      <h3 className={styles.heading}>Photos:</h3>
+      <h3 className={styles.heading}>Photos</h3>
       <button
         aria-label="enable monochrome-styled images"
         className={styles.button(color === 'monochrome')}

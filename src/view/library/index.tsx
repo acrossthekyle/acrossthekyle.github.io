@@ -12,6 +12,7 @@ import Category from './category';
 import Collection from './collection';
 import Filters from './filters';
 import Info from './info';
+import styles from './stylesheet';
 
 type Props = {
   collections: CollectionType[];
@@ -36,7 +37,7 @@ export default function Library({ collections, images }: Props) {
 
   return (
     <Ui.Containers.Mountable
-      className="pt-18"
+      className={styles.container}
       isActive={view === 'library' || view === 'collection' || view === 'category'}
     >
       {(view === 'library' || view === 'category') && (

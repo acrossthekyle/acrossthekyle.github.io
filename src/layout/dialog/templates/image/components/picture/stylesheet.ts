@@ -18,7 +18,6 @@ const styles = tw({
     flex items-center justify-center
     pointer-events-auto
     h-10 w-10
-    font-sans font-medium
     text-sm
     capitalize
 

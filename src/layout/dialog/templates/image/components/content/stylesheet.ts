@@ -4,7 +4,6 @@ const styles = tw({
   container: (canRender: boolean, isCentered?: boolean) => {
     const base = `
       absolute inset-0 z-99
-      font-sans font-medium
       flex items-start justify-center
       h-auto w-auto
       text-sm

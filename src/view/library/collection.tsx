@@ -48,7 +48,7 @@ export default function Collection({ colorMode, id, images, onClick }: Props) {
                       />
                     </button>
                     <figcaption className={styles.caption}>
-                      {image.title} &mdash; {image.location.region}, {image.location.country}
+                      {image.title} &mdash; {image.location.region}
                       <span className={styles.faded}>
                         {image.when}
                       </span>

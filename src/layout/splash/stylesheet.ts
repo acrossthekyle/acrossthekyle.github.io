@@ -22,7 +22,6 @@ const styles = tw({
     relative
     flex flex-col justify-center gap-1
     text-xs text-center
-    font-sans font-medium
   `,
   header: `
     flex justify-center

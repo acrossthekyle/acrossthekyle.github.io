@@ -27,14 +27,14 @@ function getInfo(
   view: string | null,
 ): MetaData | null {
   if (view === 'category') {
-    const filtered = images.filter(({ category }) =>
+    const filtered = collections.filter(({ category }) =>
       category.toLowerCase() === (filter || '').toLowerCase()
     );
 
     return {
       collection: null,
-      collections: [...new Set(filtered.map(({ collection }) => collection))].length,
-      images: filtered.length,
+      collections: filtered.length,
+      images: filtered.reduce((accumlator, { count }) => accumlator + count, 0),
     };
   }
 
@@ -54,7 +54,7 @@ function getInfo(
 
   return {
     collection: null,
-    collections: [...new Set(images.map(({ collection }) => collection))].length,
+    collections: collections.length,
     images: images.length,
   };
 }

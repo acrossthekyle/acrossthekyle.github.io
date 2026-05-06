@@ -1,5 +1,6 @@
 const data = [
   {
+    "category": "Backpacking",
     "coordinates": "45.8902° N, 6.7978° E",
     "count": 11,
     "cover": [
@@ -39,9 +40,11 @@ const data = [
       "TMB"
     ],
     "title": "Tour du Mont Blanc",
-    "when": "07/27 - 08/06/2024"
+    "when": "07/27 - 08/06/2024",
+    "year": "2024"
   },
   {
+    "category": "Cities",
     "coordinates": "46.2044° N, 6.1432° E",
     "count": 4,
     "cover": [
@@ -74,9 +77,11 @@ const data = [
       "destination"
     ],
     "title": "Geneva",
-    "when": "07/24 - 25/2024"
+    "when": "07/24 - 07/25/2024",
+    "year": "2024"
   },
   {
+    "category": "Cities",
     "coordinates": "41.9267° N, 8.7369° E",
     "count": 3,
     "cover": [
@@ -110,9 +115,11 @@ const data = [
       "destination"
     ],
     "title": "Corsica",
-    "when": "07/05 - 07/2023"
+    "when": "07/05 - 07/07/2023",
+    "year": "2023"
   },
   {
+    "category": "Backpacking",
     "coordinates": "42.5074° N, 8.8554° E",
     "count": 32,
     "cover": [
@@ -158,9 +165,11 @@ const data = [
       "backpacking"
     ],
     "title": "The GR 20",
-    "when": "06/21 - 07/03/2023"
+    "when": "06/21 - 07/03/2023",
+    "year": "2023"
   },
   {
+    "category": "Destinations",
     "coordinates": "30.0333° N, 31.2333° E",
     "count": 29,
     "cover": [
@@ -202,9 +211,11 @@ const data = [
       "destination"
     ],
     "title": "New Years in Egypt",
-    "when": "12/29/2022 – 01/06/2023"
+    "when": "12/29/2022 – 01/06/2023",
+    "year": "2023"
   },
   {
+    "category": "Backpacking",
     "coordinates": null,
     "count": 6,
     "cover": [
@@ -227,7 +238,7 @@ const data = [
       "continent": "North America"
     },
     "notes": [
-      "This is a catalog of my overnight hikes, mainly throughout the midwest in states such as Illinois, Iowa, and Wisconsin. It's not the distance on this trail that gets you; it's the constant up and down over rolling hills."
+      "This is a catalog of my overnight hikes, mainly throughout the midwest in states such as Illinois, Iowa, and Wisconsin. It's not the distance, or lack of big elevation gains, on these trails that gets you; it's the constant up and down over rolling hills."
     ],
     "position": [
       "48%",
@@ -248,9 +259,11 @@ const data = [
       "IAT"
     ],
     "title": "Overnight Hikes",
-    "when": null
+    "when": null,
+    "year": null
   },
   {
+    "category": "Backpacking",
     "coordinates": "55.9440° N, 4.3200° W",
     "count": 6,
     "cover": [
@@ -287,9 +300,11 @@ const data = [
       "WHW"
     ],
     "title": "West Highland Way",
-    "when": "05/07 - 12/2022"
+    "when": "05/07 - 05/12/2022",
+    "year": "2022"
   },
   {
+    "category": "Destinations",
     "coordinates": "18.4663° N, 66.1057° W",
     "count": 3,
     "cover": [
@@ -319,9 +334,11 @@ const data = [
       "destination"
     ],
     "title": "San Juan",
-    "when": "03/22 - 25/2022"
+    "when": "03/22 - 03/25/2022",
+    "year": "2022"
   },
   {
+    "category": "Backpacking",
     "coordinates": "50.9652° S, 72.8635° W",
     "count": 8,
     "cover": [
@@ -344,7 +361,7 @@ const data = [
       "continent": "South America"
     },
     "notes": [
-      "It had been a dream of mine for years to one day thru-hike the 'O' Circuit in Patagonia ever since visiting there in 2016 for a few days, and in 2020 I finally made it happen (just before COVID hit).",
+      "It had been a dream of mine for years to thru-hike the 'O' Circuit in Patagonia ever since my brief visit in 2016, and in 2020 I finally made it happen (just before COVID hit).",
       "The trail did not disappoint: a tapestry of landscapes, sprawling glaciers, pristine lakes, and windswept plains provided an idyllic background for thru-hiking 73 miles over 8 days, with a pre-dawn hike up to the base of the 'Towers' being a perfect finale."
     ],
     "position": [
@@ -362,9 +379,11 @@ const data = [
       "backpacking"
     ],
     "title": "O Circuit",
-    "when": "02/18 - 25/2020"
+    "when": "02/18 - 02/25/2020",
+    "year": "2020"
   },
   {
+    "category": "Destinations",
     "coordinates": "28.2096° N, 83.9856° E",
     "count": 3,
     "cover": [
@@ -392,9 +411,11 @@ const data = [
       "destination"
     ],
     "title": "Pokhara",
-    "when": "11/06 - 08/2019"
+    "when": "11/06 - 11/08/2019",
+    "year": "2019"
   },
   {
+    "category": "Basecamps",
     "coordinates": "28.5300° N, 83.8780° E",
     "count": 11,
     "cover": [
@@ -429,9 +450,11 @@ const data = [
       "basecamp"
     ],
     "title": "Annapurna 1 Basecamp",
-    "when": "11/01 - 05/2019"
+    "when": "11/01 - 11/05/2019",
+    "year": "2019"
   },
   {
+    "category": "Backpacking",
     "coordinates": "28.2391° N, 84.3693° E",
     "count": 21,
     "cover": [
@@ -471,9 +494,11 @@ const data = [
       "backpacking"
     ],
     "title": "Annapurna Circuit",
-    "when": "10/19 - 11/01/2019"
+    "when": "10/19 - 11/01/2019",
+    "year": "2019"
   },
   {
+    "category": "Mountains",
     "coordinates": "39.7392° N, 104.9903° W",
     "count": 9,
     "cover": [
@@ -507,9 +532,11 @@ const data = [
       "summits"
     ],
     "title": "Southern Colorado Rockies",
-    "when": "08/31/2019"
+    "when": "08/31/2019",
+    "year": "2019"
   },
   {
+    "category": "Backpacking",
     "coordinates": "46.6992° N, 12.0852° E",
     "count": 19,
     "cover": [
@@ -551,9 +578,11 @@ const data = [
       "AV1"
     ],
     "title": "Alta Via 1",
-    "when": "07/16 - 25/2019"
+    "when": "07/16 - 07/25/2019",
+    "year": "2019"
   },
   {
+    "category": "Backpacking",
     "coordinates": "45.8902° N, 6.7983° E",
     "count": 12,
     "cover": [
@@ -576,7 +605,7 @@ const data = [
       "continent": "Europe"
     },
     "notes": [
-      "My second ever thru-hike that encircled a mountain called Mont Blanc in the European Alps. The trail's considered a classic long-distance hike that took me 12 days and 106 miles (170 km) to complete while passing through France, Italy, and Switzerland.",
+      "My second ever thru-hike that encircled a mountain called Mont Blanc in the European Alps. The trail's considered a classic long-distance hike and it took me 12 days over 106 miles (170 km) to complete while passing through France, Italy, and Switzerland.",
       "It's a challenging experience filled with diverse landscapes, unique cultural blends, and stunning alpine scenery, all while sleeping in mountain huts and eating home-cooked meals each night."
     ],
     "position": [
@@ -594,9 +623,11 @@ const data = [
       "TMB"
     ],
     "title": "Tour du Mont Blanc",
-    "when": "09/02 - 13/2018"
+    "when": "09/02 - 09/13/2018",
+    "year": "2018"
   },
   {
+    "category": "Backpacking",
     "coordinates": "43.1634° N, 1.2358° W",
     "count": 32,
     "cover": [
@@ -638,9 +669,11 @@ const data = [
       "backpacking"
     ],
     "title": "Camino Frances",
-    "when": "06/02 - 07/04/2018"
+    "when": "06/02 - 07/04/2018",
+    "year": "2018"
   },
   {
+    "category": "Destinations",
     "coordinates": "33.4489° S, 70.6693° W",
     "count": 7,
     "cover": [
@@ -653,7 +686,7 @@ const data = [
         "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAwABAgT/xAAkEAABBAEDAwUAAAAAAAAAAAABAAIDESEEEjETQYEiUmGRof/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/ALlmo03J7qozFKTJRODwgQyMB9TggOTUcCMeSgyNRIBW/wDEBbs4woq225/byg6iI9tEfSVICUMaKBPwEqwSBjA33FBpsQacOKFJWOVIUToQclxVKnRbXJQf/9k="
       }
     ],
-    "id": "south-america-2016",
+    "id": "santiago-and-patagonia-2016",
     "location": {
       "country": "Chile",
       "continent": "South America"
@@ -674,10 +707,12 @@ const data = [
       "africa",
       "destination"
     ],
-    "title": "South America 2016",
-    "when": "03/18 - 27/2016"
+    "title": "Santiago & Patagonia",
+    "when": "03/18 - 03/27/2016",
+    "year": "2016"
   },
   {
+    "category": "Cities",
     "coordinates": "34.6037° S, 58.3816° W",
     "count": 3,
     "cover": [
@@ -686,7 +721,7 @@ const data = [
         "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAA1ACgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT/xAAiEAACAgEFAAMBAQAAAAAAAAAAAQIRIQMSMUFRE2GRIiP/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEQMRAD8App6jk372iil7g5IOpKnk6q5EVkpRXYs9XFV+EdZv5GvBVJ0ZtMhJu3YGSoAJsW0sUO5VJUzYx/0krWPoNlrGXQkOUG90t1+eiSqUv4TS7sptajXxRf3ZGSlHDVACyaAzICnXGFycneSqS6DPQdGSxLwnrKO3Kd/RRq+CctNbb3P9FOXhgPONN5TAk7ODHwAEmLkXVltXHIASc83b4SAAFP/Z"
       }
     ],
-    "id": "south-america-2015",
+    "id": "argentina-and-uruguay-2015",
     "location": {
       "country": "Argentina & Uruguay",
       "continent": "South America"
@@ -704,8 +739,9 @@ const data = [
       "buenos aires",
       "destination"
     ],
-    "title": "South America 2015",
-    "when": "03/19 - 25/2015"
+    "title": "Argentina & Uruguay",
+    "when": "03/19 - 03/25/2015",
+    "year": "2015"
   }
 ];
 

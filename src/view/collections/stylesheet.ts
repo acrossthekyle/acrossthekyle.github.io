@@ -45,8 +45,7 @@ const styles = tw({
     flex flex-col gap-1
     w-full
     leading-[1]
-    font-sans font-medium
-    text-tiny text-center
+    text-xs text-center
     uppercase
     pointer-events-none
 
@@ -57,8 +56,8 @@ const styles = tw({
   `,
   when: `
     block
-    text-current/30
-    tracking-wider
+    text-current/40
+    tracking-wide
   `,
 });
 

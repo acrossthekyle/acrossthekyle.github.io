@@ -118,7 +118,11 @@ export default function Template({ data }: Props) {
                 </span>
                 <span className={`${styles.faded} ${styles.small}`}>
                   {result.location !== null ? (
-                    <>{result.location.country}, {result.location.continent}</>
+                    <>
+                      {result.location.country} {result.year !== null && (
+                        <>&mdash; {result.year}</>
+                      )}
+                    </>
                   ) : (
                     <>Various locations</>
                   )}

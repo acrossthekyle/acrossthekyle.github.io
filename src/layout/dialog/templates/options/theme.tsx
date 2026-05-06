@@ -22,7 +22,7 @@ export default function Theme() {
 
   return (
     <section className={styles.controls}>
-      <h3 className={styles.heading}>Theme:</h3>
+      <h3 className={styles.heading}>Theme</h3>
       <button
         aria-label="theme mirrors system settings"
         className={styles.button(theme === 'system')}

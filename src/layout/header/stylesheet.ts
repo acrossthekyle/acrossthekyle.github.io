@@ -2,51 +2,50 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    flex flex-col items-center justify-center
-    mt-4
-    pointer-events-none
+    fixed top-1 left-1/2 z-99
+    -translate-x-1/2
 
-    min-[336px]:flex-row
-    lg:fixed
-    lg:top-2
-    lg:left-0
-    lg:w-screen
-    lg:z-99
-    lg:mt-0
-  `,
-  navigation: (shouldDelay: boolean) => tw(`
-    flex items-center gap-0
+    flex items-center gap-2
     h-8
+
     rounded-sm
     bg-(--background)
+
     pointer-events-auto
 
-    motion-safe:opacity-0
-    ${shouldDelay ? 'motion-safe:animate-fade-in-delayed' : 'motion-safe:animate-fade-in'}
-  `),
+    min-[498px]:gap-0
+    lg:top-2
+  `,
   button: (isActive: boolean) => tw(`
     flex items-center justify-start gap-2
-    font-sans font-normal
+    font-normal
     text-sm
     capitalize
     p-2
+    whitespace-nowrap
 
     motion-safe:duration-300
     motion-safe:hover:opacity-100
     ${isActive ? 'motion-safe:opacity-100' : 'motion-safe:opacity-50'}
 
-    min-[336px]:justify-center
-    min-[336px]:w-auto
     lg:text-xs
   `),
+  label: (isActive: boolean) => tw(`
+    ${isActive ? 'block' : 'hidden'}
+
+    min-[498px]:block
+  `),
   first: `
-    min-[336px]:pl-3
+    pl-3
   `,
   last: `
-    min-[336px]:pr-3
+    pr-3
   `,
   icon: `
-    w-3.5 h-3.5
+    w-4 h-4
+
+    min-[498px]:w-3.5
+    min-[498px]:h-3.5
   `,
   rotate: `
     -rotate-90

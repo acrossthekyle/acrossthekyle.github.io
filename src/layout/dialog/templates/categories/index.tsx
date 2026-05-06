@@ -1,59 +1,57 @@
 'use client';
 
-import { Bookmark } from 'lucide-react';
+import { Bookmark, X } from 'lucide-react';
 
 import { useDialog } from '@/hooks/useDialog';
 import { useFilter } from '@/hooks/useFilter';
 import { useView } from '@/hooks/useView';
-import type { Data } from '@/types';
 
 import styles from './stylesheet';
 
 type Props = {
-  images: Data[];
+  data?: {
+    categories?: string[];
+  };
 };
 
-export default function Filters({ images }: Props) {
-  const { onDialog } = useDialog();
+export default function Template({ data }: Props) {
+  const { isOpen, onClose } = useDialog();
   const { filter, onFilter } = useFilter();
   const { onView } = useView();
 
-  const categories = [...new Set(images.map(({ category }) => category))];
-
-  const handleOnChoose = (category: string | null) => {
-    if (category === null) {
+  const handleOnChoose = (value: string | null) => {
+    if (value === null) {
       onFilter(null);
 
       onView('library');
 
+      onClose();
+
       return;
     }
 
-    onFilter(category);
+    onFilter(value);
 
     onView('category');
+
+    onClose();
   };
 
-  const handleOnBrowse = () => {
-    onDialog({
-      data: {
-        categories,
-      },
-      template: 'categories',
-    });
-  };
+  if (!data?.categories) {
+    return null;
+  }
 
   return (
-    <section aria-label="filter photos by category" className={styles.options}>
+    <>
       <button
-        aria-label="view all categories"
-        className={styles.browse}
-        onClick={handleOnBrowse}
+        aria-label="close options"
+        className={styles.close(isOpen)}
+        onClick={onClose}
         type="button"
       >
-        <Bookmark className={styles.tag} /> {filter === null ? 'All' : filter}
+        <X className={styles.x} />
       </button>
-      <ul className={styles.categories}>
+      <ul className={styles.container}>
         <li>
           <button
             aria-label="view all photos"
@@ -64,7 +62,7 @@ export default function Filters({ images }: Props) {
             <Bookmark className={styles.tag} /> All
           </button>
         </li>
-        {categories.map((category) => (
+        {data.categories.map((category) => (
           <li key={category}>
             <button
               aria-label={`view items in ${category.toLowerCase()} category`}
@@ -77,6 +75,6 @@ export default function Filters({ images }: Props) {
           </li>
         ))}
       </ul>
-    </section>
+    </>
   );
 }

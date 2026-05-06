@@ -25,6 +25,7 @@ export type Data = {
 };
 
 export type Collection = {
+  category: string;
   coordinates: string | null;
   cover: {
     src: string;
@@ -41,4 +42,5 @@ export type Collection = {
   tags: string[];
   title: string;
   when: string | null;
+  year: string | null;
 };

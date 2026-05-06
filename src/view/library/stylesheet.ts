@@ -1,21 +1,23 @@
 import tw from '@/styles';
 
 const styles = tw({
+  container: `
+    mt-16
+
+    lg:mt-18
+  `,
   grid: `
     relative z-0
     grid grid-cols-1 gap-3
     w-full
-    mt-36 pb-14 px-2
+    mt-10 pb-4 px-2
 
-    min-[336px]:mt-12
     min-[336px]:grid-cols-2
     md:grid-cols-3
     md:gap-6
     md:px-6
-    md:mt-6
     lg:px-10
     lg:grid-cols-4
-    lg:mt-6
   `,
   cell: (canRender: boolean) => tw(`
     relative
@@ -50,7 +52,6 @@ const styles = tw({
   `),
   caption: `
     mt-1
-    font-sans font-medium
     text-xs
 
     lg:mt-2
@@ -62,22 +63,33 @@ const styles = tw({
   options: `
     flex flex-col items-center justify-center
 
+    mb-1
+
     motion-safe:opacity-0
     motion-safe:animate-fade-in-down-slightly-delayed
   `,
+  browse: `
+    flex items-center gap-1
+    p-1
+    text-sm text-left
+    capitalize
+
+    sm:hidden
+  `,
   categories: `
-    flex flex-wrap gap-1
-    mb-1
+    hidden
+
+    gap-1
+
+    sm:flex
   `,
   category: (isActive: boolean) => tw(`
     flex items-center gap-1
-    text-sm
     p-1
-    rounded-md
+    text-sm text-left
     capitalize
-    text-left
 
-    md:text-tiny
+    lg:text-tiny
 
     motion-safe:duration-300
     motion-safe:hover:opacity-100

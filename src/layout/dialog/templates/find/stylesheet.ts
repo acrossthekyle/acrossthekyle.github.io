@@ -49,15 +49,12 @@ const styles = tw({
     md:text-xs
   `,
   clear: `
-    absolute top-1.25 right-0
+    absolute top-1.25 right-0 z-99
     px-2 py-2
     text-xs
     font-medium
-    hidden
 
     md:top-0.25
-
-    peer-focus:block
 
     motion-safe:opacity-50
     motion-safe:duration-300

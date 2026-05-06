@@ -11,7 +11,7 @@ export default function Units() {
 
   return (
     <section className={styles.controls}>
-      <h3 className={styles.heading}>Units:</h3>
+      <h3 className={styles.heading}>Units</h3>
       <button
         aria-label="enable imperial units"
         className={styles.button(units.type === 'imperial')}

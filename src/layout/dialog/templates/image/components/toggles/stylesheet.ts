@@ -14,7 +14,6 @@ const styles = tw({
   button: `
     flex items-center gap-1.25
     py-1 px-2
-    font-sans font-medium
     text-sm
     bg-(--background)/75
     rounded-md

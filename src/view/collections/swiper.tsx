@@ -119,11 +119,7 @@ export default function Plugin({ colorMode, data, onClick }: Props) {
                 <span className={styles.title}>
                   {item.title}
                   <small className={styles.when}>
-                    {item.location !== null ? (
-                      <>{item.location.country}, {item.location.continent}</>
-                    ) : (
-                      <>Various locations</>
-                    )}
+                    {item.location === null ? 'Various locations' : item.location.country}
                   </small>
                 </span>
               </button>

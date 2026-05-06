@@ -5635,12 +5635,12 @@ const data = [
     "camera": "iPhone 6s Plus",
     "category": "Destinations",
     "collection": {
-      "id": "south-america-2016",
+      "id": "santiago-and-patagonia-2016",
       "position": [
         "85%",
         "25%"
       ],
-      "title": "South America 2016"
+      "title": "Santiago & Patagonia"
     },
     "elevation": {
       "imperial": "15",
@@ -5661,12 +5661,12 @@ const data = [
     "camera": "iPhone 6s Plus",
     "category": "Destinations",
     "collection": {
-      "id": "south-america-2016",
+      "id": "santiago-and-patagonia-2016",
       "position": [
         "85%",
         "25%"
       ],
-      "title": "South America 2016"
+      "title": "Santiago & Patagonia"
     },
     "elevation": {
       "imperial": "469",
@@ -5687,12 +5687,12 @@ const data = [
     "camera": "iPhone 6s Plus",
     "category": "Destinations",
     "collection": {
-      "id": "south-america-2016",
+      "id": "santiago-and-patagonia-2016",
       "position": [
         "85%",
         "25%"
       ],
-      "title": "South America 2016"
+      "title": "Santiago & Patagonia"
     },
     "elevation": {
       "imperial": "347",
@@ -5713,12 +5713,12 @@ const data = [
     "camera": "iPhone 6s Plus",
     "category": "Destinations",
     "collection": {
-      "id": "south-america-2016",
+      "id": "santiago-and-patagonia-2016",
       "position": [
         "85%",
         "25%"
       ],
-      "title": "South America 2016"
+      "title": "Santiago & Patagonia"
     },
     "elevation": {
       "imperial": "1,300",
@@ -5739,12 +5739,12 @@ const data = [
     "camera": "iPhone 6s Plus",
     "category": "Destinations",
     "collection": {
-      "id": "south-america-2016",
+      "id": "santiago-and-patagonia-2016",
       "position": [
         "85%",
         "25%"
       ],
-      "title": "South America 2016"
+      "title": "Santiago & Patagonia"
     },
     "elevation": {
       "imperial": "154",
@@ -5765,12 +5765,12 @@ const data = [
     "camera": "iPhone 6s Plus",
     "category": "Destinations",
     "collection": {
-      "id": "south-america-2016",
+      "id": "santiago-and-patagonia-2016",
       "position": [
         "85%",
         "25%"
       ],
-      "title": "South America 2016"
+      "title": "Santiago & Patagonia"
     },
     "elevation": {
       "imperial": "10,611",
@@ -5791,12 +5791,12 @@ const data = [
     "camera": "iPhone 6s Plus",
     "category": "Destinations",
     "collection": {
-      "id": "south-america-2016",
+      "id": "santiago-and-patagonia-2016",
       "position": [
         "85%",
         "25%"
       ],
-      "title": "South America 2016"
+      "title": "Santiago & Patagonia"
     },
     "elevation": {
       "imperial": "2,546",
@@ -5817,12 +5817,12 @@ const data = [
     "camera": "iPhone 6",
     "category": "Cities",
     "collection": {
-      "id": "south-america-2015",
+      "id": "argentina-and-uruguay-2015",
       "position": [
         "85%",
         "28%"
       ],
-      "title": "South America 2015"
+      "title": "Argentina & Uruguay"
     },
     "elevation": {
       "imperial": "141",
@@ -5843,12 +5843,12 @@ const data = [
     "camera": "iPhone 6",
     "category": "Cities",
     "collection": {
-      "id": "south-america-2015",
+      "id": "argentina-and-uruguay-2015",
       "position": [
         "85%",
         "28%"
       ],
-      "title": "South America 2015"
+      "title": "Argentina & Uruguay"
     },
     "elevation": {
       "imperial": "49",
@@ -5869,12 +5869,12 @@ const data = [
     "camera": "iPhone 6",
     "category": "Cities",
     "collection": {
-      "id": "south-america-2015",
+      "id": "argentina-and-uruguay-2015",
       "position": [
         "85%",
         "28%"
       ],
-      "title": "South America 2015"
+      "title": "Argentina & Uruguay"
     },
     "elevation": {
       "imperial": "52",

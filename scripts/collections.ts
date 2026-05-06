@@ -59,7 +59,7 @@ function getWhen(date: null | string | string[]) {
       return `${monthA}${DIVIDER}${dayA} - ${monthB}${DIVIDER}${dayB}${DIVIDER}20${yearA}`;
     }
 
-    return `${monthA}${DIVIDER}${dayA} - ${dayB}${DIVIDER}20${yearA}`;
+    return `${monthA}${DIVIDER}${dayA} - ${monthA}${DIVIDER}${dayB}${DIVIDER}20${yearA}`;
   }
 
   return `${monthA}${DIVIDER}${dayA}${DIVIDER}20${yearA}`;
@@ -78,7 +78,10 @@ export async function go() {
   for (const file of files) {
     const data = JSON.parse(fs.readFileSync(`${input}/${file}`, 'utf8'));
 
+    const when = getWhen(data.date);
+
     collections.push({
+      category: uppercaseFirst(data.category),
       coordinates: reduceCoordinates(data.coordinates),
       count: data.images.length,
       cover: data.cover,
@@ -89,7 +92,8 @@ export async function go() {
       tags: data.tags,
       timestamp: data.timestamp,
       title: data.title,
-      when: getWhen(data.date),
+      when,
+      year: when !== null ? when.split('/').pop() : null,
     });
 
     data.images.map(({ date, elevation, exif, location, notes, src, thumb, title }) => {
@@ -120,7 +124,8 @@ export async function go() {
       'collections.js',
       collections
         .sort((a, b) => b.timestamp - a.timestamp)
-        .map(({ coordinates, count, cover, id, location, notes, position, tags, title, when }) => ({
+        .map(({ category, coordinates, count, cover, id, location, notes, position, tags, title, when, year }) => ({
+          category,
           coordinates,
           count,
           cover,
@@ -131,6 +136,7 @@ export async function go() {
           tags,
           title,
           when,
+          year,
         })),
     );
   }

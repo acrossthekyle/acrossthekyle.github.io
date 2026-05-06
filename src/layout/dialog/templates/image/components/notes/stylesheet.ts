@@ -40,7 +40,7 @@ const styles = tw({
     w-full max-w-82
     flex flex-col gap-4
     overflow-y-scroll
-    font-sans
+    font-normal
     text-sm
     pointer-events-auto
     cursor-auto
