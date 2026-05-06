@@ -1,5 +1,6 @@
 node last-updated.js
 npm run data
+git add repository/
 git add src/cache/
 npx lint-staged
 npm run build
