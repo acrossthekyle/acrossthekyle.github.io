@@ -1,5 +1,6 @@
 import type { Collection } from '@/types';
 
+import Dialog from './dialog';
 import Footer from './footer';
 import Header from './header';
 import Main from './main';
@@ -21,6 +22,7 @@ export default async function Layout({
         {children}
       </Main>
       <Footer />
+      <Dialog />
     </>
   );
 }

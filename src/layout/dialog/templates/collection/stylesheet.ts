@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   close: (isOpen: boolean) => tw(`
-    absolute top-4 right-4 z-1
+    absolute top-4 right-4 z-3
     p-2
 
     ${isOpen ? 'motion-safe:opacity-0 motion-safe:animate-fade-in-down-slightly-delayed' : 'motion-safe:animate-fade-out-up'}
@@ -14,25 +14,18 @@ const styles = tw({
     lg:h-4
   `,
   container: `
-    absolute top-2 left-0 z-1
+    relative left-1/2 z-1
+    -translate-x-1/2
+
     flex flex-col
-    w-full
-    px-4 mt-4 pb-4
+    w-full max-w-lg
+    py-4 px-5
     text-sm
     cursor-auto
     pointer-events-auto
 
-    constrained:top-2
-    constrained:translate-y-0
-
-    sm:px-0
-    sm:mt-0
-    sm:w-120
-    sm:top-1/2
-    sm:left-1/2
-    sm:-translate-y-1/2
-    sm:-translate-x-1/2
-    lg:text-xs
+    sm:py-10
+    lg:p-6
   `,
   items: `
     flex flex-col gap-4
@@ -63,7 +56,7 @@ const styles = tw({
     last:mb-0
   `,
   map: `
-    absolute top-0 right-4
+    absolute top-0 right-4 z-0
     w-50
 
     sm:w-70

@@ -72,16 +72,16 @@ export default function Template({ data }: Props) {
               {data.collection.category}
             </p>
           </li>
+          <li className={styles.item}>
+            <Type className={styles.icon} />
+            <div className={styles.data}>
+              <span className={styles.label}>Notes</span>
+              {data.collection.notes.map((note) => (
+                <p className={styles.paragraph} key={note}>{note}</p>
+              ))}
+            </div>
+          </li>
         </ul>
-        <section aria-describedby="notes" className={styles.item}>
-          <Type className={styles.icon} />
-          <div className={styles.data}>
-            <span className={styles.label} id="notes">Notes</span>
-            {data.collection.notes.map((note) => (
-              <p className={styles.paragraph} key={note}>{note}</p>
-            ))}
-          </div>
-        </section>
         <div className={styles.map}>
           <Ui.Map position={data.collection.position} />
         </div>

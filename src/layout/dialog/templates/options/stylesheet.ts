@@ -2,22 +2,14 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    absolute left-0 bottom-2 z-1
-    flex flex-col gap-4
-    w-full
-    pl-4
+    absolute top-1/2 left-1/2 z-1
+    -translate-y-1/2 -translate-x-1/2
+    flex flex-col gap-12
+    w-auto
     cursor-auto
     pointer-events-auto
 
-    min-[340px]:bottom-auto
-    min-[340px]:top-1/2
-    min-[340px]:left-1/2
-    min-[340px]:-translate-y-1/2
-    min-[340px]:-translate-x-1/2
-    min-[340px]:w-auto
-    min-[340px]:pl-0
     lg:flex-row
-    lg:gap-12
   `,
   close: (isOpen: boolean) => tw(`
     absolute top-4 right-4 z-1
@@ -32,30 +24,25 @@ const styles = tw({
     lg:h-4
   `,
   controls: `
-    flex flex-col items-start gap-0
+    flex flex-col items-center gap-0
     cursor-auto
     pointer-events-auto
 
-    min-[340px]:flex-row
-    min-[340px]:items-center
+    lg:flex-row
+    lg:items-center
   `,
   heading: `
     mb-2
-    text-sm
+    text-xs
     capitalize
 
-    min-[340px]:mr-2
-    min-[340px]:mb-0
-    lg:text-xs
+    lg:mb-0
   `,
   button: (isActive: boolean) => tw(`
     flex items-center gap-2
-    py-2 px-0
-    text-sm
+    p-2
+    text-xs
     capitalize
-
-    min-[340px]:px-2
-    lg:text-xs
 
     motion-safe:duration-300
     motion-safe:hover:opacity-100

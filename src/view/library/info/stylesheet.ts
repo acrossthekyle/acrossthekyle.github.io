@@ -26,7 +26,7 @@ const styles = tw({
   more: `
     flex items-center gap-1
     p-1
-    text-sm text-left
+    text-xs text-left
     capitalize
 
     lg:text-tiny

@@ -6,9 +6,9 @@ import {
   PropsWithChildren,
   RefObject,
   createContext,
+  useCallback,
   useRef,
   useState,
-  useCallback,
 } from 'react';
 
 import type { Collection, Data } from '@/types';
@@ -53,7 +53,7 @@ export default function DialogProvider({ children }: PropsWithChildren) {
   const handleOnOpen = useCallback((input: Input) => {
     setData(input);
 
-    dialog.current?.showModal();
+    dialog.current?.show();
 
     requestAnimationFrame(() => {
       setIsOpen(true);

@@ -20,7 +20,7 @@ type Props = {
 };
 
 export default function Header({ collections }: Props) {
-  const { onDialog } = useDialog();
+  const { isOpen, onDialog } = useDialog();
   const { filter, onFilter } = useFilter();
   const { view, onView } = useView();
 
@@ -61,7 +61,7 @@ export default function Header({ collections }: Props) {
   const isLibraryActive = view === 'library' || view === 'category';
 
   return (
-    <header className={styles.container}>
+    <header className={styles.container(isOpen)}>
       <button
         aria-label="switch to collections view"
         className={`${styles.button(isCollectionsActive)} ${styles.first}`}

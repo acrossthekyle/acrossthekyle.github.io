@@ -2,13 +2,12 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    relative z-999
+    relative left-1/2 z-1
+    -translate-x-1/2
+
     flex flex-col gap-6
     w-full max-w-lg
-    h-auto
-    my-0 mx-auto
     py-4 px-5
-    rounded-md
     cursor-auto
     pointer-events-auto
     text-sm

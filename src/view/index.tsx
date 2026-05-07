@@ -1,4 +1,4 @@
-import { Dialog, Layout } from '@/layout';
+import { Layout } from '@/layout';
 import type { Collection, Data } from '@/types';
 
 import Collections from './collections';
@@ -14,7 +14,6 @@ export default function View({ collections, images }: Props) {
     <Layout collections={collections}>
       <Collections collections={collections} />
       <Library collections={collections} images={images} />
-      <Dialog />
     </Layout>
   );
 }

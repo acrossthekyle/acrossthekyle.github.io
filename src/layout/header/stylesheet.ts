@@ -1,21 +1,25 @@
 import tw from '@/styles';
 
 const styles = tw({
-  container: `
+  container: (isDialogOpen: boolean) => tw(`
     fixed top-1 left-1/2 z-99
     -translate-x-1/2
 
     flex items-center gap-2
-    h-8
+    h-9
 
-    rounded-sm
+    rounded-full
     bg-(--background)
 
     pointer-events-auto
 
+    duration-300
+    ${isDialogOpen ? 'brightness-10' : 'brightness-100'}
+
     min-[498px]:gap-0
+    md:rounded-sm
     lg:top-2
-  `,
+  `),
   button: (isActive: boolean) => tw(`
     flex items-center justify-start gap-2
     font-normal

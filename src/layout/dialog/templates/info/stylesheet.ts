@@ -2,8 +2,8 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    absolute top-1/2 left-1/2 z-1
-    -translate-x-1/2 -translate-y-1/2
+    relative left-1/2 z-1
+    -translate-x-1/2
 
     flex flex-col gap-6
     w-full max-w-lg
@@ -12,11 +12,11 @@ const styles = tw({
     pointer-events-auto
     text-sm
 
-    sm:py-0
-    lg:justify-center
+    sm:py-10
+    lg:p-6
   `,
   header: `
-    text-sm
+    text-base
     font-medium
   `,
   subheader: `
@@ -38,6 +38,7 @@ const styles = tw({
   figure: `
     flex items-center gap-4
     w-full
+    mt-2
   `,
   image: `
     !w-12

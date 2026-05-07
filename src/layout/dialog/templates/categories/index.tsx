@@ -51,30 +51,33 @@ export default function Template({ data }: Props) {
       >
         <X className={styles.x} />
       </button>
-      <ul className={styles.container}>
-        <li>
-          <button
-            aria-label="view all photos"
-            className={styles.category(filter === null)}
-            onClick={() => handleOnChoose(null)}
-            type="button"
-          >
-            <Bookmark className={styles.tag} /> All
-          </button>
-        </li>
-        {data.categories.map((category) => (
-          <li key={category}>
+      <div className={styles.container}>
+        <h3 className={styles.heading}>Categories</h3>
+        <ul className={styles.items}>
+          <li>
             <button
-              aria-label={`view items in ${category.toLowerCase()} category`}
-              className={styles.category(category.toLowerCase() === filter)}
-              onClick={() => handleOnChoose(category)}
+              aria-label="view all photos"
+              className={styles.category(filter === null)}
+              onClick={() => handleOnChoose(null)}
               type="button"
             >
-              <Bookmark className={styles.tag} /> {category}
+              <Bookmark className={styles.tag} /> All
             </button>
           </li>
-        ))}
-      </ul>
+          {data.categories.map((category) => (
+            <li key={category}>
+              <button
+                aria-label={`view items in ${category.toLowerCase()} category`}
+                className={styles.category(category.toLowerCase() === filter)}
+                onClick={() => handleOnChoose(category)}
+                type="button"
+              >
+                <Bookmark className={styles.tag} /> {category}
+              </button>
+            </li>
+          ))}
+        </ul>
+      </div>
     </>
   );
 }

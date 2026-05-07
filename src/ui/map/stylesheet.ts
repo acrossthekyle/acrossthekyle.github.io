@@ -14,7 +14,7 @@ const styles = tw({
   inner: `
     relative
     w-full
-    ml-8
+    ml-4
   `,
   marker: `
     absolute z-2
