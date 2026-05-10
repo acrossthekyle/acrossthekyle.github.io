@@ -10,7 +10,7 @@ type Props = {
 export default function Map({ position }: Props) {
   return (
     <div
-      className={styles.container(true)}
+      className={styles.container}
       role="presentation"
     >
       <div className={styles.inner}>

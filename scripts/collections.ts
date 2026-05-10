@@ -37,11 +37,7 @@ function getWhen(date: null | string | string[]) {
   const yearA = formatDate(start, 'yy').trim();
 
   if (date.length > 1) {
-    const end = date[1] === 'current' ? '+' : parseDate(date[1], 'M/dd/yyyy', new Date());
-
-    if (end === '+') {
-      return `20${yearA}+`;
-    }
+    const end = parseDate(date[1], 'M/dd/yyyy', new Date());
 
     const dayB = formatDate(end, 'dd').trim();
     const monthB = formatDate(end, 'MM').trim();
@@ -62,7 +58,7 @@ function getWhen(date: null | string | string[]) {
     return `${monthA}${DIVIDER}${dayA} - ${monthA}${DIVIDER}${dayB}${DIVIDER}20${yearA}`;
   }
 
-  return `${monthA}${DIVIDER}${dayA}${DIVIDER}20${yearA}`;
+  return `20${yearA}+`;
 };
 
 export async function go() {

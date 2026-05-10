@@ -1,15 +1,8 @@
 'use client';
 
-import {
-  Bookmark,
-  Calendar1,
-  Flag,
-  Globe,
-  Type,
-  X,
-} from 'lucide-react';
-
 import { useDialog } from '@/hooks/useDialog';
+import { useFilter } from '@/hooks/useFilter';
+import { useView } from '@/hooks/useView';
 import type { Collection } from '@/types';
 import { Ui } from '@/ui';
 
@@ -22,70 +15,106 @@ type Props = {
 };
 
 export default function Template({ data }: Props) {
-  const { isOpen, onClose } = useDialog();
+  const { onClose } = useDialog();
+  const { onFilter } = useFilter();
+  const { onView } = useView();
+
+  const handleOnCategory = () => {
+    if (!data?.collection) {
+      return;
+    }
+
+    onFilter(data.collection.category);
+
+    onView('category');
+
+    onClose();
+  };
+
+  const handleOnLocation = () => {
+    if (!data?.collection) {
+      return;
+    }
+
+    onFilter(data.collection.location.continent);
+
+    onView('continent');
+
+    onClose();
+  };
+
+  const handleOnCollections = () => {
+    onFilter(null);
+
+    onView('collections');
+
+    onClose();
+  };
 
   if (!data?.collection) {
     return null;
   }
 
   return (
-    <>
+    <article className={styles.container}>
+      <h2 className={styles.header} id="dialog-header">
+        {data.collection.title}
+        <span className={styles.subheader}>
+          {data.collection.when}
+        </span>
+      </h2>
       <button
         aria-label="close collection details"
-        className={styles.close(isOpen)}
+        className={styles.close}
         onClick={onClose}
         type="button"
       >
-        <X className={styles.x} />
+        ESC
       </button>
-      <div className={styles.container}>
-        <ul className={styles.items}>
-          <li className={styles.item}>
-            <Calendar1 className={styles.icon} />
-            <p className={styles.data}>
-              <span className={styles.label}>When</span>
-              {data.collection.when ?? 'Various dates'}
-            </p>
+      <section aria-label="overview" className={styles.content}>
+        <div className={styles.notes}>
+          {data.collection.notes.map((note) => (
+            <p key={note}>{note}</p>
+          ))}
+        </div>
+        <aside className={styles.aside}>
+          <Ui.Map position={data.collection.position} />
+        </aside>
+      </section>
+      <footer className={styles.footer}>
+        <ul className={styles.tags}>
+          <li>
+            <button
+              className={styles.tag}
+              onClick={handleOnCollections}
+              type="button"
+            >
+              Collections
+            </button>
           </li>
-          <li className={styles.item}>
-            <Flag className={styles.icon} />
-            <p className={styles.data}>
-              <span className={styles.label}>Location</span>
-              {data.collection.location === null ? 'Various locations' : (
-                <>
-                  {data.collection.location.country}, {data.collection.location.continent}
-                </>
-              )}
-            </p>
-          </li>
-          <li className={styles.item}>
-            <Globe className={styles.icon} />
-            <p className={styles.data}>
-              <span className={styles.label}>Coordinates</span>
-              {data.collection.coordinates ?? 'N/A'}
-            </p>
-          </li>
-          <li className={styles.item}>
-            <Bookmark className={styles.icon} />
-            <p className={styles.data}>
-              <span className={styles.label}>Category</span>
+          <li>
+            <button
+              className={styles.tag}
+              onClick={handleOnCategory}
+              type="button"
+            >
               {data.collection.category}
-            </p>
+            </button>
           </li>
-          <li className={styles.item}>
-            <Type className={styles.icon} />
-            <div className={styles.data}>
-              <span className={styles.label}>Notes</span>
-              {data.collection.notes.map((note) => (
-                <p className={styles.paragraph} key={note}>{note}</p>
-              ))}
-            </div>
+          <li>
+            <button
+              className={styles.tag}
+              onClick={handleOnLocation}
+              type="button"
+            >
+              {data.collection.location.continent}
+            </button>
           </li>
         </ul>
-        <div className={styles.map}>
-          <Ui.Map position={data.collection.position} />
-        </div>
-      </div>
-    </>
+        <span className={styles.coordinates}>
+          {data.collection.coordinates}
+        </span>
+      </footer>
+    </article>
   );
 }

@@ -116,12 +116,12 @@ export default function Plugin({ colorMode, data, onClick }: Props) {
                   src={item.cover.src}
                   thumb={item.cover.thumb}
                 />
-                <span className={styles.title}>
-                  {item.title}
+                <div className={styles.caption}>
+                  <span className={styles.title}>{item.title}</span>
                   <small className={styles.when}>
                     {item.location === null ? 'Various locations' : item.location.country}
                   </small>
-                </span>
+                </div>
               </button>
             </SwiperSlide>
           );

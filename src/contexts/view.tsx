@@ -14,6 +14,8 @@ export default function ViewProvider({ children }: PropsWithChildren) {
 
   const handleOnChange = useCallback((value: string) => {
     setView(value);
+
+    window.scrollTo(0, 0);
   }, []);
 
   return (

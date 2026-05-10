@@ -1,7 +1,5 @@
 import { PropsWithChildren } from 'react';
 
-import { useDialog } from '@/hooks/useDialog';
-
 import styles from './stylesheet';
 
 type Props = {
@@ -14,10 +12,8 @@ export default function Mountable({
   className = '',
   isActive,
 }: PropsWithChildren<Props>) {
-  const { isOpen } = useDialog();
-
   return (
-    <div className={`${styles.container(isActive, isOpen)} ${className}`.trim()}>
+    <div className={`${styles.container(isActive)} ${className}`.trim()}>
       {children}
     </div>
   );

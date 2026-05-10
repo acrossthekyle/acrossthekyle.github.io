@@ -1,6 +1,6 @@
 'use client';
 
-import { Send, X } from 'lucide-react';
+import { Send } from 'lucide-react';
 import Link from 'next/link';
 
 import { useDialog } from '@/hooks/useDialog';
@@ -25,16 +25,13 @@ export default function Template() {
         onClick={onClose}
         type="button"
       >
-        <X className={styles.icon} />
+        ESC
       </button>
       <p>
-        My interest in dirt paths, alpine peaks, and a curiosity to explore was born from a 2016 trek in the South American Andes mountains of Chile, and further cemented by a 600-mile thru-hike across Northern Spain in 2018 on a network of trails called El Camino de Santiago.
+        My obsession with trails, alpine peaks, and a curiosity to explore was born out of a 2016 trip to the Andes mountains of Chile, and a 600-mile thru-hike across Northern Spain in 2018 on the Camino de Santiago.
       </p>
       <p>
-        Ever since then I've thru-hiked dozens of trails, and been to heights I never thought I'd reach, all by foot.
-      </p>
-      <p>
-        Those experiences from trails, mountain tops, walking city streets, and exploring ancient monuments are captured by the camera bump on the back of my phone and sometimes featured here on my website.
+        Those experiences, and others, from trails, mountain tops, walking city streets, and exploring ancient monuments are captured by the camera bump on the back of my phone and sometimes featured here on my website.
       </p>
       <p>
         Between adventures my partner and I indulge in things that fuel imagination and critical thinking; from books, videos, and podcasts, to films and more, all while enjoying long walks and relaxing in a hammock with our dog Dax, as we live a city-based life in Chicago.
@@ -58,12 +55,11 @@ export default function Template() {
               href="mailto:hello@acrossthekyle.com"
               title="Send me an email"
             >
-              <Send className={styles.external} />
+              <Send className={styles.icon} />
             </Link>
           </div>
         </figcaption>
       </figure>
-      <div className={styles.spacer} />
     </article>
   );
 }

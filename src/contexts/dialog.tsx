@@ -7,6 +7,7 @@ import {
   RefObject,
   createContext,
   useCallback,
+  useLayoutEffect,
   useRef,
   useState,
 } from 'react';
@@ -50,17 +51,35 @@ export default function DialogProvider({ children }: PropsWithChildren) {
 
   const dialog = useRef<HTMLDialogElement | null>(null);
 
+  const updateBackdropHeight = useCallback(() => {
+    if (dialog.current) {
+      const height = document.documentElement.scrollHeight;
+
+      dialog.current.style.setProperty('--dialog-backdrop-height', `${height}px`);
+    }
+  }, []);
+
+  useLayoutEffect(() => {
+    if (isOpen) {
+      updateBackdropHeight();
+
+      window.addEventListener('resize', updateBackdropHeight);
+
+      return () => window.removeEventListener('resize', updateBackdropHeight);
+    }
+  }, [isOpen, updateBackdropHeight]);
+
   const handleOnOpen = useCallback((input: Input) => {
     setData(input);
 
-    dialog.current?.show();
+    dialog.current?.showModal();
 
     requestAnimationFrame(() => {
       setIsOpen(true);
 
       setTimeout(() => {
         setCanClose(true);
-      }, input.delay ? 1000 : 0);
+      }, input.delay ? 550 : 0);
     });
   }, []);
 

@@ -2,71 +2,67 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    relative left-1/2 z-1
+    absolute bottom-4 left-1/2 z-1
     -translate-x-1/2
 
-    flex flex-col gap-6
-    w-full max-w-lg
-    py-4 px-5
+    flex flex-col-reverse
+    w-full max-w-2xl
+    h-auto
+
+    p-2 pb-0
+
     cursor-auto
     pointer-events-auto
-    text-sm
 
-    sm:py-10
-    lg:p-6
-  `,
-  header: `
-    text-base
-    font-medium
-  `,
-  subheader: `
-    block
+    text-sm text-current/70
     font-normal
-    text-sm
+
+    bg-(--background)
+    rounded-xl
+    shadow-2xl
+
+    overflow-y-scroll
+
+    constrained:h-full
   `,
   form: `
     relative
   `,
   label: `
+    absolute top-0 left-1.5
+    flex items-center
+    h-full
     cursor-pointer
   `,
   placeholder: `
-    absolute top-3.25 left-2
     w-4 h-4
     opacity-50
-
-    md:top-2.25
   `,
   input: `
-    peer
     w-full
-    p-2 pl-8
-    border-1 border-current/25
-    rounded-sm
+    px-4 py-3 pl-7
+    border-t-1 border-current/5
     text-base
+    rounded-b-md
 
-    md:text-xs
+    lg:text-sm
   `,
   clear: `
-    absolute top-1.25 right-0 z-99
-    px-2 py-2
-    text-xs
-    font-medium
-
-    md:top-0.25
+    absolute top-3.5 right-1 z-1
+    px-1.5 py-0.5
+    text-tiny
+    font-medium font-mono
 
     motion-safe:opacity-50
     motion-safe:duration-300
     motion-safe:hover:opacity-100
-  `,
-  x: `
-    w-4.5 h-4.5
-
-    lg:w-4
-    lg:h-4
+    motion-safe:focus:opacity-100
   `,
   results: `
-    flex flex-col gap-4
+    flex flex-col gap-1
+    h-auto max-h-131
+    pb-2
+    overflow-y-scroll
   `,
   result: `
     motion-safe:duration-300
@@ -74,24 +70,28 @@ const styles = tw({
     motion-safe:animate-fade-in-up
   `,
   link: `
-    flex flex-col items-start gap-0
+    relative
+    flex flex-col gap-2
     w-full
-    rounded-md
+    p-2
+    rounded-lg
+    leading-[1]
     text-left
 
     motion-safe:duration-300
-    motion-safe:hover:bg-(--foreground)/2.5
-
-    sm:p-2
-    sm:-m-2
+    motion-safe:hover:bg-(--foreground)/5
+    motion-safe:focus:bg-(--foreground)/5
   `,
-  external: `
-    inline-block
-    -mt-0.5
-    w-3 h-3
-
-    lg:w-2.5
-    lg:h-2.5
+  badge: `
+    absolute top-2 right-2
+    text-xtiny
+    uppercase
+    tracking-wider
+    bg-yellow-300
+    text-black
+    leading-[1]
+    px-1.5 py-1 pb-0.75
+    rounded-sm
   `,
   faded: `
     block
@@ -99,14 +99,6 @@ const styles = tw({
   `,
   small: `
     text-tiny
-  `,
-  close: `
-    absolute top-2 right-2 z-1
-    p-2
-
-    sm:top-8
-    lg:top-5
-    lg:right-3.75
   `,
 });
 

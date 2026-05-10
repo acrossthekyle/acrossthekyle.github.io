@@ -2,22 +2,34 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    relative left-1/2 z-1
+    absolute bottom-4 left-1/2 z-1
     -translate-x-1/2
 
-    flex flex-col gap-6
-    w-full max-w-lg
-    py-4 px-5
+    flex flex-col gap-4
+    w-full max-w-2xl
+    h-auto
+
+    p-4
+
     cursor-auto
     pointer-events-auto
-    text-sm
 
-    sm:py-10
-    lg:p-6
+    text-sm text-current/70
+    font-normal
+
+    bg-(--background)
+    rounded-xl
+    shadow-2xl
+
+    overflow-y-scroll
+
+    constrained:h-full
   `,
   header: `
+    pb-4
     text-base
     font-medium
+    border-b-1 border-current/5
   `,
   subheader: `
     block
@@ -26,8 +38,16 @@ const styles = tw({
     opacity-60
   `,
   close: `
-    absolute top-2 right-2 z-1
-    p-2
+    absolute top-4 right-4 z-1
+    px-1.5 py-0.5
+    text-tiny
+    font-normal font-mono
+    rounded-sm
+
+    motion-safe:opacity-50
+    motion-safe:duration-300
+    motion-safe:hover:opacity-100
+    motion-safe:focus:opacity-100
   `,
   icon: `
     w-4.5 h-4.5
@@ -63,24 +83,11 @@ const styles = tw({
   `,
   links: `
     flex items-center gap-2
-    -mr-2
   `,
   link: `
     flex items-center gap-2
     py-1 px-2
     text-xs
-  `,
-  external: `
-    w-4 h-4
-
-    lg:w-3
-    lg:h-3
-  `,
-  spacer: `
-    block
-    pb-1 w-full
-
-    lg:pb-0
   `,
 });
 

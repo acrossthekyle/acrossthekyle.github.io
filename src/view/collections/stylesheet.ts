@@ -5,7 +5,7 @@ const styles = tw({
     ${isReady ? 'absolute top-0' : 'absolute top-full'}
 
     flex items-center justify-center
-    h-screen w-screen
+    h-dvh w-screen
 
     motion-safe:duration-300
     motion-safe:delay-5800
@@ -37,15 +37,15 @@ const styles = tw({
     motion-safe:transition-all
     ${colorMode === 'monochrome' && 'motion-safe:group-hover:grayscale-0'}
     ${colorMode === 'monochrome' && 'motion-safe:group-hover:contrast-100'}
-    motion-safe:group-hover:scale-101
+    motion-safe:group-hover:-translate-y-1
   `),
-  title: `
-    absolute -bottom-12 left-1/2
+  caption: `
+    absolute -bottom-14 left-1/2
     -translate-x-1/2
-    flex flex-col gap-1
+    flex flex-col items-center gap-1
     w-full
     leading-[1]
-    text-xs text-center
+    text-tiny text-center
     uppercase
     pointer-events-none
 
@@ -54,9 +54,18 @@ const styles = tw({
     motion-safe:group-hover:delay-700
     motion-safe:group-hover:opacity-100
   `,
+  title: `
+    block
+    mb-0.5
+    rounded-sm
+    bg-yellow-300
+    text-black
+    tracking-wide
+    px-2 py-1
+  `,
   when: `
     block
-    text-current/40
+    text-current/60
     tracking-wide
   `,
 });

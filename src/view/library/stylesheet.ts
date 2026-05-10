@@ -48,58 +48,42 @@ const styles = tw({
     motion-safe:transition-all
     ${colorMode === 'monochrome' && 'motion-safe:group-hover:grayscale-0'}
     ${colorMode === 'monochrome' && 'motion-safe:group-hover:contrast-100'}
-    motion-safe:group-hover:scale-101
+    motion-safe:group-hover:-translate-y-1
   `),
   caption: `
+    flex flex-col
     mt-1
     text-xs
 
     lg:mt-2
   `,
-  faded: `
-    block
-    text-current/30
-  `,
-  options: `
-    flex flex-col items-center justify-center
-
+  tags: `
+    flex gap-1
     mb-1
-
-    motion-safe:opacity-0
-    motion-safe:animate-fade-in-down-slightly-delayed
   `,
-  browse: `
-    flex items-center gap-1
-    p-1
-    text-sm text-left
-    capitalize
-
-    sm:hidden
-  `,
-  categories: `
-    hidden
-
-    gap-1
-
-    sm:flex
-  `,
-  category: (isActive: boolean) => tw(`
-    flex items-center gap-1
-    p-1
-    text-sm text-left
-    capitalize
-
-    lg:text-tiny
+  tag: `
+    rounded-sm
+    px-1.25 py-1 pb-0.75
+    bg-yellow-300
+    font-normal
+    text-black
+    leading-[1]
+    text-xtiny
+    uppercase
+    tracking-wider
 
     motion-safe:duration-300
-    motion-safe:hover:opacity-100
-    ${isActive ? 'motion-safe:opacity-100' : 'motion-safe:opacity-50'}
-  `),
-  tag: `
-    w-3.5 h-3.5
-
-    lg:w-3
-    lg:h-3
+    motion-safe:hover:bg-yellow-400
+  `,
+  faded: `
+    block
+    mt-0.25
+    text-xs text-current/60
+  `,
+  divider: `
+    inline-block
+    w-4
+    text-center
   `,
 });
 

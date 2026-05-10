@@ -1,20 +1,13 @@
 import tw from '@/styles';
 
 const styles = tw({
-  container: (canRender: boolean) => tw(`
+  container: `
     relative
-    flex items-start justify-start
-    w-full
-    mt-2
-
-    motion-safe:duration-300
-
-    ${canRender ? 'motion-safe:top-0 motion-safe:opacity-100' : 'motion-safe:top-60 motion-safe:opacity-0'}
-  `),
+    w-full h-full
+  `,
   inner: `
     relative
-    w-full
-    ml-4
+    w-full h-full
   `,
   marker: `
     absolute z-2

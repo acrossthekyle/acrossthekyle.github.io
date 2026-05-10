@@ -1,5 +1,7 @@
 {
-  "date": null,
+  "date": [
+    "7/15/2022"
+  ],
   "timestamp": "1657904400",
   "id": "overnight-domestic-hikes",
   "title": "Overnight Hikes",
@@ -8,7 +10,7 @@
     "continent": "North America"
   },
   "category": "backpacking",
-  "coordinates": null,
+  "coordinates": "40.007973° N, 87.571681° W",
   "cover": [
     {
       "src": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
@@ -42,7 +44,7 @@
     "20%"
   ],
   "notes": [
-    "This is a catalog of my overnight hikes, mainly throughout the midwest in states such as Illinois, Iowa, and Wisconsin. It's not the distance, or lack of big elevation gains, on these trails that gets you; it's the constant up and down over rolling hills."
+    "This is a catalog of my overnight hikes, mainly throughout the midwest in states such as Illinois, Iowa, and Wisconsin. It's not the distance or lack of big elevation gains on these trails that gets you; it's the constant up and down over rolling hills."
   ],
   "images": [
     {

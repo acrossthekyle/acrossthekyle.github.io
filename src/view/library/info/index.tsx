@@ -1,79 +1,94 @@
 'use client';
 
-import { useFilter } from '@/hooks/useFilter';
-import { useView } from '@/hooks/useView';
-import type { Collection as CollectionType, Data } from '@/types';
+import { ArrowDown, ArrowUp, TextAlignCenter } from 'lucide-react';
+import { Fragment } from 'react';
 
-import All from './all';
-import Category from './category';
-import Collection from './collection';
+import { useDialog } from '@/hooks/useDialog';
+import { useFilter } from '@/hooks/useFilter';
+import { useSort } from '@/hooks/useSort';
+import { useView } from '@/hooks/useView';
+import type { Collection, Data } from '@/types';
+
 import styles from './stylesheet';
+import { getInfo } from './utils';
 
 type Props = {
-  collections: CollectionType[];
+  collections: Collection[];
   images: Data[];
 };
 
-type MetaData = {
-  collection: CollectionType | null;
-  collections: number;
-  images: number;
-};
-
-function getInfo(
-  collections: CollectionType[],
-  images: Data[],
-  filter: string | null,
-  view: string | null,
-): MetaData | null {
-  if (view === 'category') {
-    const filtered = collections.filter(({ category }) =>
-      category.toLowerCase() === (filter || '').toLowerCase()
-    );
-
-    return {
-      collection: null,
-      collections: filtered.length,
-      images: filtered.reduce((accumlator, { count }) => accumlator + count, 0),
-    };
-  }
-
-  if (view === 'collection') {
-    const filtered = collections.find(({ id }) => id === (filter || ''));
-
-    if (!filtered) {
-      return null;
-    }
-
-    return {
-      collection: filtered,
-      collections: 0,
-      images: 0,
-    };
-  }
-
-  return {
-    collection: null,
-    collections: collections.length,
-    images: images.length,
-  };
-}
-
 export default function Info({ collections, images }: Props) {
+  const { onDialog } = useDialog();
   const { filter } = useFilter();
+  const { onSort } = useSort();
   const { view } = useView();
 
-  const info = getInfo(collections, images, filter, view);
+  const { collection, data, title } = getInfo(collections, images, filter, view);
 
-  if (info === null) {
-    return null;
-  }
+  const handleOnCollection = () => {
+    if (collection === null) {
+      return;
+    }
+
+    onDialog({
+      data: {
+        collection,
+      },
+      template: 'collection',
+    });
+  };
 
   return (
     <div className={styles.container} key={filter}>
-      {view === 'category' && <Category {...info} />}
-      {view === 'collection' && <Collection {...info} />}
-      {view === 'library' && <All {...info} />}
+      <h1 className={styles.header}>
+        <span className={styles.title}>
+          {title}
+        </span>
+        <small className={styles.subheader}>
+          {data.map((value, index: number) => (
+            <Fragment key={value}>
+              {value}
+              {index < data.length - 1 && (
+                <span className={styles.divider}>•</span>
+              )}
+            </Fragment>
+          ))}
+        </small>
+      </h1>
+      <ul className={styles.options}>
+        <li>
+          <button
+            aria-label="sort images in ascending order"
+            className={styles.option}
+            onClick={() => onSort(-1)}
+            type="button"
+          >
+            <ArrowDown className={styles.icon} />
+          </button>
+        </li>
+        {view === 'collection' && (
+          <li>
+            <button
+              aria-label="view collection information"
+              className={styles.option}
+              onClick={handleOnCollection}
+              type="button"
+            >
+              <TextAlignCenter className={styles.icon} />
+            </button>
+          </li>
+        )}
+        <li>
+          <button
+            aria-label="sort images in descending order"
+            className={styles.option}
+            onClick={() => onSort(1)}
+            type="button"
+          >
+            <ArrowUp className={styles.icon} />
+          </button>
+        </li>
+      </ul>
     </div>
   );
 }

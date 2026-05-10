@@ -9,6 +9,7 @@ import DialogProvider from '@/contexts/dialog';
 import FilterProvider from '@/contexts/filter';
 import OptionsProvider from '@/contexts/options';
 import SizeProvider from '@/contexts/size';
+import SortProvider from '@/contexts/sort';
 import ViewProvider from '@/contexts/view';
 import { Body } from '@/layout';
 
@@ -37,11 +38,13 @@ export default async function RootLayout({ children }: PropsWithChildren) {
             <OptionsProvider units={units}>
               <SizeProvider>
                 <FilterProvider>
-                  <Body>
-                    <ThemeProvider>
-                      {children}
-                    </ThemeProvider>
-                  </Body>
+                  <SortProvider>
+                    <Body>
+                      <ThemeProvider>
+                        {children}
+                      </ThemeProvider>
+                    </Body>
+                  </SortProvider>
                 </FilterProvider>
               </SizeProvider>
             </OptionsProvider>

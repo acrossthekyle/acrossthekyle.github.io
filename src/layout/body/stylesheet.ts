@@ -12,6 +12,7 @@ const styles = tw({
     selection:text-black
 
     motion-safe:duration-300
+    motion-safe:ease-in-out
   `,
   background: `
     hidden

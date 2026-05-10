@@ -5,7 +5,7 @@ const styles = tw({
     flex flex-col items-center gap-1
 
     motion-safe:opacity-0
-    motion-safe:animate-fade-in-up-slightly-delayed
+    motion-safe:animate-fade-in-down-slightly-delayed
   `,
   header: `
     flex flex-col items-center gap-1.5
@@ -14,8 +14,17 @@ const styles = tw({
     text-xs text-center
     uppercase
   `,
+  title: `
+    block
+    mb-1
+    rounded-sm
+    bg-(--foreground)
+    text-(--background)
+    tracking-wide
+    px-2 py-1
+  `,
   subheader: `
-    text-current/40
+    text-current/60
     tracking-wide
   `,
   divider: `
@@ -23,17 +32,19 @@ const styles = tw({
     w-3
     text-center
   `,
-  more: `
-    flex items-center gap-1
-    p-1
-    text-xs text-left
-    capitalize
-
-    lg:text-tiny
+  options: `
+    flex items-center justify-center gap-4
+    w-full
+    mt-4
+  `,
+  option: `
+    group
+    rounded-full
+    p-2
+    border-1 border-current/20
 
     motion-safe:duration-300
-    motion-safe:opacity-50
-    motion-safe:hover:opacity-100
+    motion-safe:hover:border-current/70
   `,
   icon: `
     w-3.5 h-3.5

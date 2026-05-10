@@ -216,7 +216,7 @@ const data = [
   },
   {
     "category": "Backpacking",
-    "coordinates": null,
+    "coordinates": "40.0080° N, 87.5717° W",
     "count": 6,
     "cover": [
       {
@@ -238,7 +238,7 @@ const data = [
       "continent": "North America"
     },
     "notes": [
-      "This is a catalog of my overnight hikes, mainly throughout the midwest in states such as Illinois, Iowa, and Wisconsin. It's not the distance, or lack of big elevation gains, on these trails that gets you; it's the constant up and down over rolling hills."
+      "This is a catalog of my overnight hikes, mainly throughout the midwest in states such as Illinois, Iowa, and Wisconsin. It's not the distance or lack of big elevation gains on these trails that gets you; it's the constant up and down over rolling hills."
     ],
     "position": [
       "48%",
@@ -259,8 +259,8 @@ const data = [
       "IAT"
     ],
     "title": "Overnight Hikes",
-    "when": null,
-    "year": null
+    "when": "2022+",
+    "year": "2022+"
   },
   {
     "category": "Backpacking",
@@ -449,7 +449,7 @@ const data = [
       "nepal",
       "basecamp"
     ],
-    "title": "Annapurna 1 Basecamp",
+    "title": "Annapurna I Basecamp",
     "when": "11/01 - 11/05/2019",
     "year": "2019"
   },
@@ -532,8 +532,8 @@ const data = [
       "summits"
     ],
     "title": "Southern Colorado Rockies",
-    "when": "08/31/2019",
-    "year": "2019"
+    "when": "2019+",
+    "year": "2019+"
   },
   {
     "category": "Backpacking",

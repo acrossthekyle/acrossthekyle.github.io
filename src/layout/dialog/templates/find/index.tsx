@@ -1,7 +1,7 @@
 'use client';
 
 import Fuse from 'fuse.js';
-import { ArrowRight, Search, X } from 'lucide-react';
+import { Search } from 'lucide-react';
 import { ChangeEvent, FormEvent, useMemo, useState } from 'react';
 
 import { useDialog } from '@/hooks/useDialog';
@@ -33,11 +33,11 @@ export default function Template({ data }: Props) {
 
   const results = useMemo(() => {
     if (!query) {
-      return [];
+      return data?.collections || [];
     }
 
     return fuse.search(query).map(result => result.item) || [];
-  }, [fuse, query]);
+  }, [data?.collections, fuse, query]);
 
   const handleOnSubmit = (event: FormEvent) => {
     event.preventDefault();
@@ -55,43 +55,26 @@ export default function Template({ data }: Props) {
     onView('collection');
 
     onClose();
-
-    setTimeout(() => {
-      window.scrollTo(0, 0);
-    }, 0);
   };
 
   const handleOnClear = () => {
     setQuery('');
+
+    onClose();
   };
 
   return (
     <div className={styles.container}>
-      <h2 className={styles.header} id="dialog-header">
-        Find a collection
-        <span className={styles.subheader}>
-          Search by name, location, or category
-        </span>
-      </h2>
-      <button
-        aria-label="close search"
-        className={styles.close}
-        onClick={onClose}
-        type="button"
-      >
-        <X className={styles.x} />
-      </button>
       <form className={styles.form} onSubmit={handleOnSubmit}>
         <label aria-label="search" className={styles.label} htmlFor="search">
           <Search className={styles.placeholder} />
         </label>
         <input
           autoComplete="off"
-          autoFocus
           className={styles.input}
           id="search"
           onChange={handleOnchange}
-          placeholder=""
+          placeholder="Search collections"
           type="text"
           value={query}
         />
@@ -100,7 +83,7 @@ export default function Template({ data }: Props) {
           onClick={handleOnClear}
           type="button"
         >
-          <X className={styles.x} />
+          ESC
         </button>
       </form>
       {results?.length > 0 && (
@@ -113,10 +96,9 @@ export default function Template({ data }: Props) {
                 onClick={() => handleOnChoose(result.id)}
                 type="button"
               >
-                <span>
-                  {result.title} <ArrowRight className={styles.external} />
-                </span>
-                <span className={`${styles.faded} ${styles.small}`}>
+                {result.title}
+                <span className={styles.badge}>{result.category}</span>
+                <span className={`${styles.small}`}>
                   {result.location !== null ? (
                     <>
                       {result.location.country} {result.year !== null && (

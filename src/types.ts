@@ -26,7 +26,7 @@ export type Data = {
 
 export type Collection = {
   category: string;
-  coordinates: string | null;
+  coordinates: string;
   cover: {
     src: string;
     thumb: string;
@@ -36,11 +36,11 @@ export type Collection = {
   location: {
     country: string;
     continent: string;
-  } | null;
+  };
   notes: string[];
   position: string[];
   tags: string[];
   title: string;
-  when: string | null;
-  year: string | null;
+  when: string;
+  year: string;
 };

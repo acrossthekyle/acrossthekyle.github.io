@@ -3016,7 +3016,7 @@ const data = [
         "53%",
         "69%"
       ],
-      "title": "Annapurna 1 Basecamp"
+      "title": "Annapurna I Basecamp"
     },
     "elevation": {
       "imperial": "7,344",
@@ -3044,7 +3044,7 @@ const data = [
         "53%",
         "69%"
       ],
-      "title": "Annapurna 1 Basecamp"
+      "title": "Annapurna I Basecamp"
     },
     "elevation": {
       "imperial": "5,360",
@@ -3072,7 +3072,7 @@ const data = [
         "53%",
         "69%"
       ],
-      "title": "Annapurna 1 Basecamp"
+      "title": "Annapurna I Basecamp"
     },
     "elevation": {
       "imperial": "13,468",
@@ -3100,7 +3100,7 @@ const data = [
         "53%",
         "69%"
       ],
-      "title": "Annapurna 1 Basecamp"
+      "title": "Annapurna I Basecamp"
     },
     "elevation": {
       "imperial": "10,372",
@@ -3128,7 +3128,7 @@ const data = [
         "53%",
         "69%"
       ],
-      "title": "Annapurna 1 Basecamp"
+      "title": "Annapurna I Basecamp"
     },
     "elevation": {
       "imperial": "12,231",
@@ -3156,7 +3156,7 @@ const data = [
         "53%",
         "69%"
       ],
-      "title": "Annapurna 1 Basecamp"
+      "title": "Annapurna I Basecamp"
     },
     "elevation": {
       "imperial": "13,525",
@@ -3184,7 +3184,7 @@ const data = [
         "53%",
         "69%"
       ],
-      "title": "Annapurna 1 Basecamp"
+      "title": "Annapurna I Basecamp"
     },
     "elevation": {
       "imperial": "7,190",
@@ -3212,7 +3212,7 @@ const data = [
         "53%",
         "69%"
       ],
-      "title": "Annapurna 1 Basecamp"
+      "title": "Annapurna I Basecamp"
     },
     "elevation": {
       "imperial": "10,807",
@@ -3240,7 +3240,7 @@ const data = [
         "53%",
         "69%"
       ],
-      "title": "Annapurna 1 Basecamp"
+      "title": "Annapurna I Basecamp"
     },
     "elevation": {
       "imperial": "9,344",
@@ -3268,7 +3268,7 @@ const data = [
         "53%",
         "69%"
       ],
-      "title": "Annapurna 1 Basecamp"
+      "title": "Annapurna I Basecamp"
     },
     "elevation": {
       "imperial": "10,354",
@@ -3296,7 +3296,7 @@ const data = [
         "53%",
         "69%"
       ],
-      "title": "Annapurna 1 Basecamp"
+      "title": "Annapurna I Basecamp"
     },
     "elevation": {
       "imperial": "7,039",
