@@ -53,26 +53,31 @@ export default function OptionsProvider({
   units: assumedUnits,
   children,
 }: PropsWithChildren<Props>) {
-  const [color, setColor] = useState(() => {
-    if (typeof window !== 'undefined') {
-      return localStorage.getItem('user-color') || 'monochrome';
-    }
-
-    return 'monochrome';
-  });
-
-  const [units, setUnits] = useState(() => {
-    if (typeof window !== 'undefined') {
-      return localStorage.getItem('user-units') || assumedUnits;
-    }
-
-    return assumedUnits;
-  });
+  const [color, setColor] = useState('monochrome');
+  const [units, setUnits] = useState(assumedUnits);
+  const [isHydrated, setIsHydrated] = useState(false);
 
   useEffect(() => {
-    localStorage.setItem('user-color', color);
-    localStorage.setItem('user-units', units);
-  }, [color, units]);
+    const savedColor = localStorage.getItem('user-color');
+    const savedUnits = localStorage.getItem('user-units');
+
+    if (savedColor) {
+      setColor(savedColor);
+    }
+
+    if (savedUnits) {
+      setUnits(savedUnits);
+    }
+
+    setIsHydrated(true);
+  }, []);
+
+  useEffect(() => {
+    if (isHydrated) {
+      localStorage.setItem('user-color', color);
+      localStorage.setItem('user-units', units);
+    }
+  }, [color, isHydrated, units]);
 
   const handleOnColor = useCallback((type: string) => {
     setColor(type);

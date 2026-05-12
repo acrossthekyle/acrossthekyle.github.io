@@ -10,7 +10,7 @@ export default function Color() {
   const { color, onColor } = useOptions();
 
   return (
-    <div className={styles.menu}>
+    <div className={styles.setting}>
       <button
         className={styles.toggle}
         type="button"

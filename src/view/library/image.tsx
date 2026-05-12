@@ -10,6 +10,7 @@ type Props = {
   onClick: (image: Data) => void;
   onCollection: (id: string) => void;
   onLocation: (value: string) => void;
+  ratio: string;
 };
 
 export default function Image({
@@ -19,6 +20,7 @@ export default function Image({
   onClick,
   onCollection,
   onLocation,
+  ratio,
 }: Props) {
   return (
     <figure>
@@ -29,7 +31,7 @@ export default function Image({
         type="button"
       >
         <Ui.Image
-          className={styles.image(colorMode)}
+          className={styles.image(colorMode, ratio)}
           src={image.src}
           thumb={image.thumb}
         />

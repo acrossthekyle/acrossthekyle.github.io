@@ -2,25 +2,25 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    mt-16
+    mt-0
 
-    lg:mt-18
+    sm:mt-16
   `,
-  grid: `
-    relative z-0
-    grid grid-cols-1 gap-3
-    w-full
-    mt-10 pb-4 px-2
+  masonry: `
+    flex flex-row gap-2
+    mt-2
+    pb-4 px-2
 
-    min-[336px]:grid-cols-2
-    md:grid-cols-3
     md:gap-6
     md:px-6
-    lg:px-10
-    lg:grid-cols-4
+    md:mt-6
+  `,
+  grid: `
+    flex-1
+    flex flex-col gap-0
   `,
   cell: (canRender: boolean) => tw(`
-    relative
+    relative mb-6 break-inside-avoid
 
     motion-safe:duration-700
     ${canRender ?
@@ -37,15 +37,22 @@ const styles = tw({
   cta: `
     group
     relative
+    inline-block
     h-auto w-full
   `,
-  image: (colorMode: string) => tw(`
-    aspect-12/16
+  image: (colorMode: string, ratio: string) => tw(`
+    w-full
     rounded-lg
+
+    ${ratio === 'video' && 'aspect-video'}
+    ${ratio === 'portrait' && 'aspect-12/16'}
+    ${ratio === 'square' && 'aspect-square'}
+
     ${colorMode === 'monochrome' && 'grayscale contrast-125'}
 
     motion-safe:duration-700
     motion-safe:transition-all
+
     ${colorMode === 'monochrome' && 'motion-safe:group-hover:grayscale-0'}
     ${colorMode === 'monochrome' && 'motion-safe:group-hover:contrast-100'}
     motion-safe:group-hover:-translate-y-1
@@ -58,7 +65,7 @@ const styles = tw({
     lg:mt-2
   `,
   tags: `
-    flex gap-1
+    flex flex-wrap gap-1
     mb-1
   `,
   tag: `
@@ -71,6 +78,7 @@ const styles = tw({
     text-xtiny
     uppercase
     tracking-wider
+    whitespace-nowrap
 
     motion-safe:duration-300
     motion-safe:hover:bg-yellow-400
@@ -78,7 +86,7 @@ const styles = tw({
   faded: `
     block
     mt-0.25
-    text-xs text-current/60
+    text-tiny text-current/60
   `,
   divider: `
     inline-block

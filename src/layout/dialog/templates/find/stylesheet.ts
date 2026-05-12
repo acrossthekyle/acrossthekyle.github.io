@@ -6,7 +6,7 @@ const styles = tw({
     -translate-x-1/2
 
     flex flex-col-reverse
-    w-full max-w-2xl
+    w-full max-w-lg
     h-auto
 
     p-2 pb-0

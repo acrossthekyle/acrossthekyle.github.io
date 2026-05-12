@@ -31,13 +31,15 @@ const styles = tw({
   image: (colorMode: string) => tw(`
     aspect-12/16
     rounded-lg
-    ${colorMode === 'monochrome' && 'grayscale contrast-125'}
 
     motion-safe:duration-700
     motion-safe:transition-all
+    motion-safe:group-hover:-translate-y-1
+    motion-safe:group-focus:translate-y-0
+
+    ${colorMode === 'monochrome' && 'grayscale contrast-125'}
     ${colorMode === 'monochrome' && 'motion-safe:group-hover:grayscale-0'}
     ${colorMode === 'monochrome' && 'motion-safe:group-hover:contrast-100'}
-    motion-safe:group-hover:-translate-y-1
   `),
   caption: `
     absolute -bottom-14 left-1/2
@@ -49,17 +51,19 @@ const styles = tw({
     uppercase
     pointer-events-none
 
-    motion-safe:duration-700
-    motion-safe:opacity-0
-    motion-safe:group-hover:delay-700
-    motion-safe:group-hover:opacity-100
+    motion-safe:sm:duration-700
+    motion-safe:sm:opacity-0
+    motion-safe:sm:group-hover:delay-700
+    motion-safe:sm:group-hover:opacity-100
+    motion-safe:sm:group-focus:delay-700
+    motion-safe:sm:group-focus:opacity-100
   `,
   title: `
     block
     mb-0.5
     rounded-sm
-    bg-yellow-300
-    text-black
+    bg-(--foreground)
+    text-(--background)
     tracking-wide
     px-2 py-1
   `,

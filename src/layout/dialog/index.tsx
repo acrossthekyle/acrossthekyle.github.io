@@ -4,10 +4,10 @@ import { useDialog } from '@/hooks/useDialog';
 
 import styles from './stylesheet';
 import {
-  Collection,
   Find,
   Image,
   Info,
+  Menu,
 } from './templates';
 
 export default function Dialog() {
@@ -29,8 +29,8 @@ export default function Dialog() {
       onKeyDown={onCancel}
     >
       <div className={styles.inner(isOpen)}>
-        {data.template === 'collection' && (
-          <Collection data={data.data} />
+        {data.template === 'menu' && (
+          <Menu data={data.data} />
         )}
         {data.template === 'find' && (
           <Find data={data.data} />

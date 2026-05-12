@@ -1,6 +1,6 @@
 'use client';
 
-import { ArrowDown, ArrowUp, TextAlignCenter } from 'lucide-react';
+import { ArrowDown, ArrowUp, Shuffle } from 'lucide-react';
 import { Fragment } from 'react';
 
 import { useDialog } from '@/hooks/useDialog';
@@ -20,23 +20,10 @@ type Props = {
 export default function Info({ collections, images }: Props) {
   const { onDialog } = useDialog();
   const { filter } = useFilter();
-  const { onSort } = useSort();
+  const { sort, onSort } = useSort();
   const { view } = useView();
 
-  const { collection, data, title } = getInfo(collections, images, filter, view);
-
-  const handleOnCollection = () => {
-    if (collection === null) {
-      return;
-    }
-
-    onDialog({
-      data: {
-        collection,
-      },
-      template: 'collection',
-    });
-  };
+  const { data, title } = getInfo(collections, images, filter, view);
 
   return (
     <div className={styles.container} key={filter}>
@@ -59,29 +46,27 @@ export default function Info({ collections, images }: Props) {
         <li>
           <button
             aria-label="sort images in ascending order"
-            className={styles.option}
+            className={styles.option(sort === -1)}
             onClick={() => onSort(-1)}
             type="button"
           >
             <ArrowDown className={styles.icon} />
           </button>
         </li>
-        {view === 'collection' && (
-          <li>
-            <button
-              aria-label="view collection information"
-              className={styles.option}
-              onClick={handleOnCollection}
-              type="button"
-            >
-              <TextAlignCenter className={styles.icon} />
-            </button>
-          </li>
-        )}
+        <li>
+          <button
+            aria-label="sort images in random order"
+            className={styles.option(sort === 8)}
+            onClick={() => onSort(8)}
+            type="button"
+          >
+            <Shuffle className={styles.icon} />
+          </button>
+        </li>
         <li>
           <button
             aria-label="sort images in descending order"
-            className={styles.option}
+            className={styles.option(sort === 1)}
             onClick={() => onSort(1)}
             type="button"
           >

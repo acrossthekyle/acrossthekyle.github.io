@@ -16,7 +16,6 @@ import type { Collection, Data } from '@/types';
 
 type Input = {
   data?: {
-    categories?: string[];
     collection?: Collection;
     collections?: Collection[];
     image?: Data;

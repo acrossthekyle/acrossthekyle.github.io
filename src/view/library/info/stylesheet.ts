@@ -37,15 +37,17 @@ const styles = tw({
     w-full
     mt-4
   `,
-  option: `
+  option: (isActive: boolean) => tw(`
     group
     rounded-full
     p-2
-    border-1 border-current/20
+    duration-300 ease-in-out
+
+    ${isActive ? 'bg-yellow-300 text-black' : 'bg-(--foreground)/2.5'}
 
     motion-safe:duration-300
     motion-safe:hover:border-current/70
-  `,
+  `),
   icon: `
     w-3.5 h-3.5
 

@@ -31,7 +31,7 @@ export default function Template({ data }: Props) {
     });
   }, [data]);
 
-  const results = useMemo(() => {
+  const collections = useMemo(() => {
     if (!query) {
       return data?.collections || [];
     }
@@ -49,10 +49,18 @@ export default function Template({ data }: Props) {
     setQuery(term);
   };
 
-  const handleOnChoose = (value: string) => {
+  const handleOnCollection = (value: string) => {
     onFilter(value);
 
     onView('collection');
+
+    onClose();
+  };
+
+  const handleOnLocation = (value: string) => {
+    onFilter(value);
+
+    onView('continent');
 
     onClose();
   };
@@ -86,29 +94,36 @@ export default function Template({ data }: Props) {
           ESC
         </button>
       </form>
-      {results?.length > 0 && (
-        <ul aria-label={`${results.length} results`} className={styles.results}>
-          {results.map((result) => (
+      {collections?.length > 0 && (
+        <ul aria-label={`${collections.length} results`} className={styles.results}>
+          {collections.map((result) => (
             <li className={styles.result} key={result.id}>
               <button
                 aria-label={`view items in ${result.title.toLowerCase()} collection`}
                 className={styles.link}
-                onClick={() => handleOnChoose(result.id)}
+                onClick={() => handleOnCollection(result.id)}
                 type="button"
               >
                 {result.title}
-                <span className={styles.badge}>{result.category}</span>
                 <span className={`${styles.small}`}>
                   {result.location !== null ? (
                     <>
                       {result.location.country} {result.year !== null && (
-                        <>&mdash; {result.year}</>
+                        <>• {result.year}</>
                       )}
                     </>
                   ) : (
                     <>Various locations</>
                   )}
                 </span>
+              </button>
+              <button
+                aria-label={`view items from ${result.location.continent}`}
+                className={styles.badge}
+                onClick={() => handleOnLocation(result.location.continent)}
+                type="button"
+              >
+                {result.count} Photos
               </button>
             </li>
           ))}

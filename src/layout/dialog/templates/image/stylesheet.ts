@@ -28,7 +28,6 @@ const styles = tw({
     max-w-full max-h-full
     !w-auto !h-auto
     rounded-lg
-    shadow-2xl
 
     ${size === 'preview' ? `
       aspect-3/4 !w-6/10 duration-600

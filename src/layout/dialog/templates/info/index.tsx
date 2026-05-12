@@ -15,9 +15,6 @@ export default function Template() {
     <article className={styles.container}>
       <h2 className={styles.header} id="dialog-header">
         Hi, I'm Kyle
-        <span className={styles.subheader}>
-          Origin: Gaelic • Meaning: channel, sound, or strait
-        </span>
       </h2>
       <button
         aria-label="close info"

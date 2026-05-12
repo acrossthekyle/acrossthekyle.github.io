@@ -6,7 +6,7 @@ const styles = tw({
     -translate-x-1/2
 
     flex flex-col gap-4
-    w-full max-w-2xl
+    w-full max-w-lg
     h-auto
 
     p-4
@@ -26,10 +26,8 @@ const styles = tw({
     constrained:h-full
   `,
   header: `
-    pb-4
-    text-base
+    text-sm
     font-medium
-    border-b-1 border-current/5
   `,
   subheader: `
     block

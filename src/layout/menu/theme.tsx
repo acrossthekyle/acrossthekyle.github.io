@@ -21,7 +21,7 @@ export default function Theme() {
   }
 
   return (
-    <div className={styles.menu}>
+    <div className={styles.setting}>
       <button
         className={styles.toggle}
         type="button"

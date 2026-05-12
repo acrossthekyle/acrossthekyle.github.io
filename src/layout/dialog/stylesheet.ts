@@ -14,7 +14,7 @@ const styles = tw({
     backdrop:absolute
     backdrop:top-0
     backdrop:outline-none
-    backdrop:bg-(--background)/70
+    backdrop:bg-(--background)/85
     backdrop:backdrop-blur-xl
 
     motion-safe:backdrop:opacity-0
@@ -28,6 +28,7 @@ const styles = tw({
   `,
   inner: (isOpen: boolean) => tw(`
     relative
+    mx-2
     h-screen
     overflow-x-hidden
     overflow-y-scroll

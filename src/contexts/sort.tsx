@@ -10,7 +10,7 @@ type SortContextType = {
 export const SortContext = createContext<SortContextType | null>(null);
 
 export default function SortProvider({ children }: PropsWithChildren) {
-  const [sort, setSort] = useState(-1);
+  const [sort, setSort] = useState(8);
 
   const handleOnSort = useCallback((direction: number) => {
     setSort(direction);
