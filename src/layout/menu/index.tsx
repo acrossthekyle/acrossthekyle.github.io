@@ -50,7 +50,7 @@ export default function Menu({ collections }: Props) {
     });
   };
 
-  const isCollectionsActive = true; // view === 'collections' || view === 'collection';
+  const isCollectionsActive = view === 'collections' || view === 'collection';
   const isLibraryActive = !isCollectionsActive;
 
   return (
@@ -64,7 +64,7 @@ export default function Menu({ collections }: Props) {
         <LensConcave className={`${styles.icon} ${styles.rotate}`} />
         Collections
       </button>
-      {/*<button
+      <button
         aria-label="switch to all photos view"
         className={styles.button(isLibraryActive)}
         onClick={() => handleOnChange('library')}
@@ -72,7 +72,7 @@ export default function Menu({ collections }: Props) {
       >
         <GripHorizontal className={styles.icon} />
         Library
-      </button>*/}
+      </button>
       <button
         className={styles.button(false)}
         onClick={handleOnSearch}

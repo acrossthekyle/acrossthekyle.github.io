@@ -19,6 +19,7 @@ type Input = {
     collection?: Collection;
     collections?: Collection[];
     image?: Data;
+    images?: Data[];
   };
   delay?: boolean;
   template: string;

@@ -34,7 +34,7 @@ export default function Splash() {
           <Footprints />
         </span>
         <p className={styles.paragraph}>
-          A collection of my hikes, summits, and experiences
+          A collection of hikes, summits, and experiences
         </p>
         <p className={styles.moment}>The bits are flowing <em>really</em> slowly today...</p>
         <p className={styles.working}>Maybe the internet needs more dilithium crystals?</p>

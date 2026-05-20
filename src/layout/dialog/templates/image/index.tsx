@@ -59,10 +59,6 @@ export default function Template({ data }: Props) {
         <h2 className={styles.header}>{data.image.title}</h2>
         <ul className={styles.lid}>
           <li>
-            {data.image.location.region}, {data.image.location.country}
-          </li>
-          <li role="presentation">•</li>
-          <li>
             <Ui.Units.Length isSmall value={data.image.elevation} />
           </li>
           <li role="presentation">•</li>

@@ -25,7 +25,7 @@ export function getInfo(
     return {
       collection: null,
       data: [
-        `${images} Photos${images > 1 ? 's' : ''}`
+        `${images} Photo${images > 1 ? 's' : ''}`
       ],
       title: filtered[0].category,
     };
@@ -45,7 +45,7 @@ export function getInfo(
     return {
       collection: filtered,
       data: [
-        `${filtered.count} Photos${filtered.count > 1 ? 's' : ''}`
+        `${filtered.count} Photo${filtered.count > 1 ? 's' : ''}`
       ],
       title: filtered.title,
     };
@@ -59,7 +59,7 @@ export function getInfo(
     return {
       collection: null,
       data: [
-        `${filtered.length} Photos${filtered.length > 1 ? 's' : ''}`,
+        `${filtered.length} Photo${filtered.length > 1 ? 's' : ''}`,
       ],
       title: filtered[0].location.continent,
     };
@@ -68,8 +68,8 @@ export function getInfo(
   return {
     collection: null,
     data: [
-      `${images.length} Photos${images.length > 1 ? 's' : ''}`,
+      `${images.length} Photo${images.length > 1 ? 's' : ''}`,
     ],
-    title: 'All Photos',
+    title: 'Library',
   };
 };

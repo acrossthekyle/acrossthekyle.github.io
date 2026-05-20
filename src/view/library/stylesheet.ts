@@ -8,6 +8,8 @@ const styles = tw({
   `,
   masonry: `
     flex flex-row gap-2
+    w-full max-w-3xl
+    my-0 mx-auto
     mt-2
     pb-4 px-2
 

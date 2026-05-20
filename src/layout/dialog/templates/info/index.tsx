@@ -1,6 +1,6 @@
 'use client';
 
-import { Send } from 'lucide-react';
+import { Send, X } from 'lucide-react';
 import Link from 'next/link';
 
 import { useDialog } from '@/hooks/useDialog';
@@ -14,7 +14,7 @@ export default function Template() {
   return (
     <article className={styles.container}>
       <h2 className={styles.header} id="dialog-header">
-        Hi, I'm Kyle
+        A collection of hikes, summits, and experiences
       </h2>
       <button
         aria-label="close info"
@@ -22,13 +22,13 @@ export default function Template() {
         onClick={onClose}
         type="button"
       >
-        ESC
+        <X className={styles.icon} />
       </button>
       <p>
         My obsession with trails, alpine peaks, and a curiosity to explore was born out of a 2016 trip to the Andes mountains of Chile, and a 600-mile thru-hike across Northern Spain in 2018 on the Camino de Santiago.
       </p>
       <p>
-        Those experiences, and others, from trails, mountain tops, walking city streets, and exploring ancient monuments are captured by the camera bump on the back of my phone and sometimes featured here on my website.
+        Those experiences, and others, from trails, mountain tops, walking city streets, and exploring ancient monuments are captured by the camera bump on the backs of phones and sometimes featured here.
       </p>
       <p>
         Between adventures my partner and I indulge in things that fuel imagination and critical thinking; from books, videos, and podcasts, to films and more, all while enjoying long walks and relaxing in a hammock with our dog Dax, as we live a city-based life in Chicago.

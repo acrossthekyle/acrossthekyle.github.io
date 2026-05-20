@@ -28,7 +28,6 @@ const styles = tw({
   `,
   inner: (isOpen: boolean) => tw(`
     relative
-    mx-2
     h-screen
     overflow-x-hidden
     overflow-y-scroll

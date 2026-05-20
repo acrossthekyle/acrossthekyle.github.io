@@ -11,9 +11,9 @@ import type { Data } from '@/types';
 import { getImage, getOrder } from './utils';
 
 const COLUMNS = {
-  1098: 5,
-  768: 4,
-  640: 3,
+  1098: 3,
+  768: 2,
+  640: 2,
   320: 2,
   0: 1,
 };

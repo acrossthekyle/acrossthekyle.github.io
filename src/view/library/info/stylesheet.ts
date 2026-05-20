@@ -18,9 +18,8 @@ const styles = tw({
     block
     mb-1
     rounded-sm
-    bg-(--foreground)
-    text-(--background)
-    tracking-wide
+    text-8xl
+    font-sans font-black
     px-2 py-1
   `,
   subheader: `
@@ -43,7 +42,7 @@ const styles = tw({
     p-2
     duration-300 ease-in-out
 
-    ${isActive ? 'bg-yellow-300 text-black' : 'bg-(--foreground)/2.5'}
+    ${isActive ? 'bg-yellow-300 text-black' : 'bg-(--background)'}
 
     motion-safe:duration-300
     motion-safe:hover:border-current/70
