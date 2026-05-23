@@ -4,8 +4,11 @@
     "1/6/2023"
   ],
   "timestamp": "1672304400",
-  "id": "egypt-2022",
-  "title": "New Years in Egypt",
+  "id": "cairo-and-luxor",
+  "title": [
+    "Cairo",
+    "+ Luxor"
+  ],
   "location": {
     "country": "Egypt",
     "continent": "Africa"

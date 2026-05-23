@@ -4,20 +4,20 @@
   --animate-fade-in: fadeIn .3s ease-in forwards;
   --animate-fade-in-delayed: .3s fadeIn 6.25s ease-in forwards;
   --animate-fade-in-up: slide-up-fade .4s ease-in forwards;
+  --animate-fade-in-slightly-delayed: .4s fadeIn .3s ease-in-out forwards;
   --animate-fade-in-up-slightly-delayed: .4s slide-up-fade .3s ease-in-out forwards;
   --animate-fade-in-down-slightly-delayed: .4s slide-down-fade .3s ease-in-out forwards;
   --animate-fade-out-up: slide-up-fade-out .1s ease-in-out forwards;
 
-  --animate-one-moment: 7s fade-in-and-out 6s ease-in-out forwards;
-  --animate-working-on-it: 7s fade-in-and-out 13s ease-in-out forwards;
-  --animate-really-sorry: 7s fade-in-and-out 20s ease-in-out forwards;
-  --animate-any-second-now: 7s fade-in-and-out 27s ease-in-out forwards;
+  --animate-greeting: fade-in-and-out 7s ease-in-out forwards;
+  --animate-one-moment: 7s fade-in-and-out 7s ease-in-out forwards;
+  --animate-working-on-it: 7s fade-in-and-out 14s ease-in-out forwards;
+  --animate-really-sorry: 7s fade-in-and-out 21s ease-in-out forwards;
+  --animate-any-second-now: 7s fade-in-and-out 28s ease-in-out forwards;
 
   --breakpoint-xs: 24.375rem; /* 390px */
-  --breakpoint-lg: 68.625rem; /* 1098px */
 
   --font-sans: var(--font-geist-sans);
-  --font-signature: var(--font-momo-signature);
 
   --text-tiny: 0.625rem; /* 10px */
   --text-xtiny: 0.5rem; /* 8px */
@@ -56,6 +56,11 @@ html:has(dialog[open]) {
   overflow: hidden;
 }
 
+html, body {
+  overscroll-behavior-y: none;
+  overscroll-behavior-x: auto;
+}
+
 body {
   button {
     cursor: pointer;
@@ -75,17 +80,9 @@ body {
     opacity: 1;
   }
 
-  dialog::backdrop {
-    height: var(--dialog-backdrop-height, 100vh);
-  }
-
   dialog.is-active::backdrop {
     opacity: 1;
     transition-delay: 0s;
-  }
-
-  .glow {
-    background: radial-gradient(31.74% 31.74% at 50% 100%, #ffffff0d 0%, #fff0 100%);
   }
 }
 

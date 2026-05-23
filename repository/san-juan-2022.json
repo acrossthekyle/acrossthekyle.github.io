@@ -4,8 +4,11 @@
     "3/25/2022"
   ],
   "timestamp": "1647907200",
-  "id": "san-juan-2022",
-  "title": "San Juan",
+  "id": "san-juan",
+  "title": [
+    "San Juan",
+    "P.R."
+  ],
   "location": {
     "country": "Puerto Rico",
     "continent": "North America"

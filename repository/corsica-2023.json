@@ -4,8 +4,12 @@
     "7/7/2023"
   ],
   "timestamp": "1688508000",
-  "id": "corsica-2023",
-  "title": "Corsica",
+  "id": "corsica",
+  "title": [
+    "Porto-",
+    "Vecchio",
+    "+ Ajaccio"
+  ],
   "location": {
     "country": "France",
     "continent": "Europe"

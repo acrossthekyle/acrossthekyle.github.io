@@ -5,7 +5,10 @@
   ],
   "timestamp": "1753228805",
   "id": "tour-du-mont-blanc-2024",
-  "title": "Tour du Mont Blanc",
+  "title": [
+    "Tour du",
+    "Mont Blanc"
+  ],
   "location": {
     "country": "France, Italy, Switzerland",
     "continent": "Europe"

@@ -4,8 +4,10 @@
     "7/25/2024"
   ],
   "timestamp": "1721772000",
-  "id": "geneva-switzerland-2024",
-  "title": "Geneva",
+  "id": "geneva",
+  "title": [
+    "Geneva"
+  ],
   "location": {
     "country": "Switzerland",
     "continent": "Europe"

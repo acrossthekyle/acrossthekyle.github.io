@@ -4,8 +4,11 @@
     "3/25/2015"
   ],
   "timestamp": "1426762800",
-  "id": "argentina-and-uruguay-2015",
-  "title": "Argentina & Uruguay",
+  "id": "argentina-and-uruguay",
+  "title": [
+    "Argentina",
+    "+ Uruguay"
+  ],
   "location": {
     "country": "Argentina & Uruguay",
     "continent": "South America"

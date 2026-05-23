@@ -9,7 +9,7 @@ export type Data = {
   collection: {
     id: string;
     position: string[];
-    title: string;
+    title: string[];
   };
   elevation: Stat;
   location: {
@@ -40,7 +40,7 @@ export type Collection = {
   notes: string[];
   position: string[];
   tags: string[];
-  title: string;
+  title: string[];
   when: string;
   year: string;
 };

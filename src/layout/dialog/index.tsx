@@ -3,17 +3,13 @@
 import { useDialog } from '@/hooks/useDialog';
 
 import styles from './stylesheet';
-import {
-  Find,
-  Image,
-  Info,
-  Menu,
-} from './templates';
+import { Image } from './templates';
 
 export default function Dialog() {
   const {
     data,
     dialog,
+    isClosing,
     isOpen,
     onBackdrop,
     onCancel,
@@ -28,19 +24,8 @@ export default function Dialog() {
       ref={dialog}
       onKeyDown={onCancel}
     >
-      <div className={styles.inner(isOpen)}>
-        {data.template === 'menu' && (
-          <Menu data={data.data} />
-        )}
-        {data.template === 'find' && (
-          <Find data={data.data} />
-        )}
-        {data.template === 'image' && (
-          <Image data={data.data} />
-        )}
-        {data.template === 'info' && (
-          <Info />
-        )}
+      <div className={styles.inner(isOpen, isClosing)}>
+        <Image data={data.data} />
       </div>
     </dialog>
   );

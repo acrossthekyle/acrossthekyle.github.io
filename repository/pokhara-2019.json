@@ -4,8 +4,10 @@
     "11/8/2019"
   ],
   "timestamp": "1573153500",
-  "id": "pokhara-2019",
-  "title": "Pokhara",
+  "id": "pokhara",
+  "title": [
+    "Pokhara"
+  ],
   "location": {
     "country": "Nepal",
     "continent": "Asia"

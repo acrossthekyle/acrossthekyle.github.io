@@ -4,8 +4,11 @@
     "2/25/2020"
   ],
   "timestamp": "1582041600",
-  "id": "o-circuit-2020",
-  "title": "O Circuit",
+  "id": "o-circuit",
+  "title": [
+    "The",
+    "O Circuit"
+  ],
   "location": {
     "country": "Chile",
     "continent": "South America"

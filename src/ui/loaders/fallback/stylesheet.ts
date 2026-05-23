@@ -2,9 +2,10 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    fixed inset-0 z-9999
+    fixed inset-x-10 inset-y-0 z-9999
     flex items-center justify-center
     bg-(--background)
+    border-x border-current/10
   `,
   sr: `
     invisible

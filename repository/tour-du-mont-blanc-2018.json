@@ -4,8 +4,11 @@
     "9/13/2018"
   ],
   "timestamp": "1535872800",
-  "id": "tour-du-mont-blanc-2018",
-  "title": "Tour du Mont Blanc",
+  "id": "tour-du-mont-blanc",
+  "title": [
+    "Tour du",
+    "Mont Blanc"
+  ],
   "location": {
     "country": "France, Italy, Switzerland",
     "continent": "Europe"

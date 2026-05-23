@@ -1,0 +1,64 @@
+{
+  "date": [
+    "03/14/2026",
+    "03/15/2026"
+  ],
+  "timestamp": "1773554400",
+  "id": "river-ridge-trail",
+  "title": [
+    "River Ridge",
+    "Trail"
+  ],
+  "location": {
+    "country": "United States",
+    "continent": "North America"
+  },
+  "category": "backpacking",
+  "coordinates": "40.007973° N, 87.571681° W",
+  "cover": [
+    {
+      "src": "2026/03/14/1e1be596-c236-4cee-9eb2-fac89329e0e6.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBP/EACEQAAIBAwMFAAAAAAAAAAAAAAABERJSoQIhkSIxUVOC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwDokSSSd74RpJ3YFwmqbCfBP7wN/Y+EKRQE+q/AFWJyxUAZaExVLACGpx2AAV//2Q=="
+    }
+  ],
+  "tags": [
+    "landscape",
+    "trail",
+    "overnight",
+    "hills",
+    "north america",
+    "illinois",
+    "usa",
+    "backpacking"
+  ],
+  "position": [
+    "49.5%",
+    "19%"
+  ],
+  "notes": [
+    "The River Ridge Backpack Trail at Forest Glen Preserve in Westville, Illinois, is a relatively moderate 10.5 mile loop designed for beginner backpackers, featuring steep ravines, creek crossings, and ridge-top hiking. It is widely considered one of the few true backpacking experiences in Illinois, often completed as an overnight trip with two dedicated primitive campsites."
+  ],
+  "images": [
+    {
+      "src": "2026/03/14/1e1be596-c236-4cee-9eb2-fac89329e0e6.jpeg",
+      "title": "Golden grasses",
+      "location": {
+        "region": "River Ridge Trail, Illinois",
+        "country": "United States",
+        "continent": "North America"
+      },
+      "date": "03/15/2026",
+      "elevation": 675,
+      "notes": "River Ridge Trail: 10 miles, 6 hours",
+      "exif": {
+        "aperture": "1/6638",
+        "camera": "iPhone 16 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.78",
+        "focal": 24,
+        "iso": 64
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBP/EACEQAAIBAwMFAAAAAAAAAAAAAAABERJSoQIhkSIxUVOC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwDokSSSd74RpJ3YFwmqbCfBP7wN/Y+EKRQE+q/AFWJyxUAZaExVLACGpx2AAV//2Q=="
+    }
+  ]
+}

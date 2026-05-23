@@ -1,16 +1,21 @@
+import type { Metadata } from 'next';
 import { Suspense } from 'react';
 
 import { Ui } from '@/ui';
-import View from '@/view';
+import View from '@/views/root';
 
 import get from './get';
 
+export const metadata: Metadata = {
+  description: 'An inspired backpacker and travel enthusiast living a city-based life in Chicago.',
+};
+
 export default async function Page() {
-  const { collections, images } = await get();
+  const collections = await get();
 
   return (
     <Suspense fallback={<Ui.Loaders.Fallback />}>
-      <View collections={collections} images={images} />
+      <View data={{ collections }} />
     </Suspense>
   );
 }

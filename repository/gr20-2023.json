@@ -4,8 +4,10 @@
     "7/3/2023"
   ],
   "timestamp": "1687332000",
-  "id": "gr20-2023",
-  "title": "The GR 20",
+  "id": "the-gr-20",
+  "title": [
+    "The GR 20"
+  ],
   "location": {
     "country": "France",
     "continent": "Europe"

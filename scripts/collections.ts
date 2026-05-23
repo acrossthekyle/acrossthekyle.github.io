@@ -140,7 +140,7 @@ export async function go() {
   if (images.length) {
     write(
       'images.js',
-      images.sort((a, b) => new Date(b.when) - new Date(a.when)),
+      images.sort((a, b) => new Date(a.when) - new Date(b.when)),
     );
   }
 }

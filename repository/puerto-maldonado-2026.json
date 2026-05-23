@@ -1,0 +1,38 @@
+{
+  "date": [
+    "07/19/2026",
+    "07/22/2026"
+  ],
+  "timestamp": "1784576400",
+  "id": "puerto-maldonado",
+  "title": [
+    "Puerto",
+    "Maldonado"
+  ],
+  "location": {
+    "country": "Peru",
+    "continent": "South America"
+  },
+  "category": "destinations",
+  "coordinates": "12.5933° S, 69.1891° W",
+  "cover": [
+    {
+      "src": "",
+      "thumb": null
+    }
+  ],
+  "tags": [
+    "landscape",
+    "jungle",
+    "rain forest",
+    "south america"
+  ],
+  "position": [
+    "",
+    ""
+  ],
+  "notes": [
+    ""
+  ],
+  "images": []
+}

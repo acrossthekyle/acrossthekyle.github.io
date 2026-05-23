@@ -45,7 +45,7 @@ export async function go() {
     const covers = [];
 
     for (const cover of data.cover) {
-      let coverThumb = null;
+      let coverThumb = cover.thumb || null;
       let coverHasSrc = true;
       let coverNeedsThumb = false;
 
@@ -56,14 +56,16 @@ export async function go() {
         coverNeedsThumb = true;
       }
 
+      if (coverHasSrc && cover.src === '') {
+        coverNeedsThumb = false;
+      }
+
       if (coverNeedsThumb) {
         await wait(500);
 
-        console.log(`--# getting thumb for cover ${cover} #--`);
+        console.log(`--# getting thumb for cover ${coverHasSrc ? cover.src : cover} #--`);
 
-        coverThumb = await getThumb(cover);
-      } else {
-        coverThumb = cover.thumb;
+        coverThumb = await getThumb(coverHasSrc ? cover.src : cover);
       }
 
       covers.push({

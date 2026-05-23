@@ -23,15 +23,16 @@ const styles = tw({
     flex flex-col justify-center gap-1
     text-xs text-center
   `,
-  header: `
+  icon: `
     flex justify-center
-    mb-2
 
-    motion-safe:animate-fade-in-up
+    motion-safe:opacity-0
+    motion-safe:animate-fade-in
   `,
   paragraph: `
-    motion-safe:opacity-0
-    motion-safe:animate-fade-in-up-slightly-delayed
+    ${message}
+
+    motion-safe:animate-greeting
   `,
   moment: `
     ${message}

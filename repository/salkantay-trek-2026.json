@@ -1,0 +1,41 @@
+{
+  "date": [
+    "07/11/2026",
+    "07/17/2026"
+  ],
+  "timestamp": "1783791600",
+  "id": "salkantay-trek",
+  "title": [
+    "Salkantay",
+    "Trek"
+  ],
+  "location": {
+    "country": "Peru",
+    "continent": "South America"
+  },
+  "category": "backpacking",
+  "coordinates": "13.1632° S, 72.5453° W",
+  "cover": [
+    {
+      "src": "",
+      "thumb": null
+    }
+  ],
+  "tags": [
+    "landscape",
+    "trail",
+    "thru-hike",
+    "mountains",
+    "long-distance",
+    "south america",
+    "backpacking"
+  ],
+  "position": [
+    "",
+    ""
+  ],
+  "notes": [
+    ""
+  ],
+  "images": []
+}

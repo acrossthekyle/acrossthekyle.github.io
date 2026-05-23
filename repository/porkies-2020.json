@@ -1,0 +1,113 @@
+{
+  "date": [
+    "07/01/2020",
+    "07/03/2020"
+  ],
+  "timestamp": "1593576000",
+  "id": "the-porkies",
+  "title": [
+    "The Porkies"
+  ],
+  "location": {
+    "country": "United States",
+    "continent": "North America"
+  },
+  "category": "destinations",
+  "coordinates": "46.7666° N, -89.7502° W",
+  "cover": [
+    {
+      "src": "2020/07/01/d2eed074-7e71-44c6-9f3a-1bf375430ab3.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAQACAwT/xAAfEAACAgEEAwAAAAAAAAAAAAAAARESAgMTQVEhYXH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAbEQEBAQACAwAAAAAAAAAAAAAAARECEiFBUf/aAAwDAQACEQMRAD8A27y6HQlrY8lqw7mL5IYrrsliui1Y5LJGWlb0OUbDL+DOLN5fDI+IPNNjFs9NyX2xSaUthvxowPaxnrA/AXlaZxgmWBLBP//Z"
+    }
+  ],
+  "tags": [
+    "landscape",
+    "nature",
+    "michigan",
+    "upper peninsula"
+  ],
+  "position": [
+    "47.5%",
+    "18%"
+  ],
+  "notes": [
+    "The Porcupine Mountains, spanning roughly 60,000 acres in the western Upper Peninsula of Michigan, comprise a large wilderness state park characterized by old-growth forest, rugged slate and shale ridges, and Lake Superior shoreline."
+  ],
+  "images": [
+    {
+      "src": "2020/07/01/febae15a-db75-471a-a7f6-412687b1d104.jpeg",
+      "title": "Lake of the Clouds",
+      "location": {
+        "region": "Upper Peninsula, Michigan",
+        "country": "United States",
+        "continent": "North America"
+      },
+      "date": "07/02/2020",
+      "elevation": 1601,
+      "notes": "",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAQIDAAT/xAAfEAACAgICAwEAAAAAAAAAAAABAgARITEDEhNRYXH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8A6AQdESoOZBoC1+yjVA5E5SuwDM1YsrJyY7FT6uWkB+JxprhImey7BEBe/wBirFqUjUy0m3Et4xBC9mQ4aEHztWQJRMm9CoH/2Q==",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "format": "jpg",
+        "height": 2235,
+        "iso": 20,
+        "shutter": "12.99",
+        "width": 3975
+      }
+    },
+    {
+      "src": "2020/07/01/412201f8-c2fb-4d4e-b859-1acc714d5b9f.jpeg",
+      "title": "",
+      "location": {
+        "region": "Upper Peninsula, Michigan",
+        "country": "United States",
+        "continent": "North America"
+      },
+      "date": "07/02/2020",
+      "elevation": 1491,
+      "notes": "",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQACA//EACAQAAEDAwUBAAAAAAAAAAAAAAABAhETIVEDEjFBYZH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAFxEBAQEBAAAAAAAAAAAAAAAAAAERIf/aAAwDAQACEQMRAD8A1VdlBsToqvyhdidNV3g2HRVdlPg2GU1V8GmVzk5tKYAy7UvCXUsgUnvnBNFZBqi8eEGXrCLksFpthNy8i0dMmQdSB//Z",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 28,
+        "format": "jpg",
+        "height": 1701,
+        "iso": 20,
+        "shutter": "10.98",
+        "width": 3024
+      }
+    },
+    {
+      "src": "2020/07/01/d2eed074-7e71-44c6-9f3a-1bf375430ab3.jpeg",
+      "title": "Lake of the Clouds",
+      "location": {
+        "region": "Upper Peninsula, Michigan",
+        "country": "United States",
+        "continent": "North America"
+      },
+      "date": "07/02/2020",
+      "elevation": 1582,
+      "notes": "",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAQACAwT/xAAfEAACAgEEAwAAAAAAAAAAAAAAARESAgMTQVEhYXH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAbEQEBAQACAwAAAAAAAAAAAAAAARECEiFBUf/aAAwDAQACEQMRAD8A27y6HQlrY8lqw7mL5IYrrsliui1Y5LJGWlb0OUbDL+DOLN5fDI+IPNNjFs9NyX2xSaUthvxowPaxnrA/AXlaZxgmWBLBP//Z",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone X",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 38,
+        "format": "jpg",
+        "height": 1701,
+        "iso": 20,
+        "shutter": "11.05",
+        "width": 3024
+      }
+    }
+  ]
+}

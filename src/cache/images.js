@@ -3,12 +3,15 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "overnight-domestic-hikes",
+      "id": "river-ridge-trail",
       "position": [
-        "48%",
-        "20%"
+        "49.5%",
+        "19%"
       ],
-      "title": "Overnight Hikes"
+      "title": [
+        "River Ridge",
+        "Trail"
+      ]
     },
     "elevation": {
       "imperial": "675",
@@ -31,12 +34,16 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "overnight-domestic-hikes",
+      "id": "yellow-river-trail",
       "position": [
-        "48%",
-        "20%"
+        "47%",
+        "18.5%"
       ],
-      "title": "Overnight Hikes"
+      "title": [
+        "Yellow",
+        "River",
+        "Trail"
+      ]
     },
     "elevation": {
       "imperial": "839",
@@ -59,12 +66,16 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "overnight-domestic-hikes",
+      "id": "yellow-river-trail",
       "position": [
-        "48%",
-        "20%"
+        "47%",
+        "18.5%"
       ],
-      "title": "Overnight Hikes"
+      "title": [
+        "Yellow",
+        "River",
+        "Trail"
+      ]
     },
     "elevation": {
       "imperial": "723",
@@ -87,12 +98,14 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "overnight-domestic-hikes",
+      "id": "ice-age-trail",
       "position": [
         "48%",
         "20%"
       ],
-      "title": "Overnight Hikes"
+      "title": [
+        "Ice Age Trail"
+      ]
     },
     "elevation": {
       "imperial": "1,182",
@@ -115,12 +128,14 @@ const data = [
     "camera": "iPhone 16 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "overnight-domestic-hikes",
+      "id": "ice-age-trail",
       "position": [
         "48%",
         "20%"
       ],
-      "title": "Overnight Hikes"
+      "title": [
+        "Ice Age Trail"
+      ]
     },
     "elevation": {
       "imperial": "1,235",
@@ -148,7 +163,10 @@ const data = [
         "45%",
         "48.5%"
       ],
-      "title": "Tour du Mont Blanc"
+      "title": [
+        "Tour du",
+        "Mont Blanc"
+      ]
     },
     "elevation": {
       "imperial": "6,136",
@@ -174,7 +192,10 @@ const data = [
         "45%",
         "48.5%"
       ],
-      "title": "Tour du Mont Blanc"
+      "title": [
+        "Tour du",
+        "Mont Blanc"
+      ]
     },
     "elevation": {
       "imperial": "7,750",
@@ -200,7 +221,10 @@ const data = [
         "45%",
         "48.5%"
       ],
-      "title": "Tour du Mont Blanc"
+      "title": [
+        "Tour du",
+        "Mont Blanc"
+      ]
     },
     "elevation": {
       "imperial": "7,277",
@@ -226,7 +250,10 @@ const data = [
         "45%",
         "48.5%"
       ],
-      "title": "Tour du Mont Blanc"
+      "title": [
+        "Tour du",
+        "Mont Blanc"
+      ]
     },
     "elevation": {
       "imperial": "6,409",
@@ -252,7 +279,10 @@ const data = [
         "45%",
         "48.5%"
       ],
-      "title": "Tour du Mont Blanc"
+      "title": [
+        "Tour du",
+        "Mont Blanc"
+      ]
     },
     "elevation": {
       "imperial": "4,318",
@@ -278,7 +308,10 @@ const data = [
         "45%",
         "48.5%"
       ],
-      "title": "Tour du Mont Blanc"
+      "title": [
+        "Tour du",
+        "Mont Blanc"
+      ]
     },
     "elevation": {
       "imperial": "7,426",
@@ -304,7 +337,10 @@ const data = [
         "45%",
         "48.5%"
       ],
-      "title": "Tour du Mont Blanc"
+      "title": [
+        "Tour du",
+        "Mont Blanc"
+      ]
     },
     "elevation": {
       "imperial": "6,679",
@@ -330,7 +366,10 @@ const data = [
         "45%",
         "48.5%"
       ],
-      "title": "Tour du Mont Blanc"
+      "title": [
+        "Tour du",
+        "Mont Blanc"
+      ]
     },
     "elevation": {
       "imperial": "7,055",
@@ -358,7 +397,10 @@ const data = [
         "45%",
         "48.5%"
       ],
-      "title": "Tour du Mont Blanc"
+      "title": [
+        "Tour du",
+        "Mont Blanc"
+      ]
     },
     "elevation": {
       "imperial": "8,966",
@@ -384,7 +426,10 @@ const data = [
         "45%",
         "48.5%"
       ],
-      "title": "Tour du Mont Blanc"
+      "title": [
+        "Tour du",
+        "Mont Blanc"
+      ]
     },
     "elevation": {
       "imperial": "8,191",
@@ -410,7 +455,10 @@ const data = [
         "45%",
         "48.5%"
       ],
-      "title": "Tour du Mont Blanc"
+      "title": [
+        "Tour du",
+        "Mont Blanc"
+      ]
     },
     "elevation": {
       "imperial": "6,996",
@@ -431,12 +479,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Cities",
     "collection": {
-      "id": "geneva-switzerland-2024",
+      "id": "geneva",
       "position": [
         "44%",
         "49.5%"
       ],
-      "title": "Geneva"
+      "title": [
+        "Geneva"
+      ]
     },
     "elevation": {
       "imperial": "1,300",
@@ -457,12 +507,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Cities",
     "collection": {
-      "id": "geneva-switzerland-2024",
+      "id": "geneva",
       "position": [
         "44%",
         "49.5%"
       ],
-      "title": "Geneva"
+      "title": [
+        "Geneva"
+      ]
     },
     "elevation": {
       "imperial": "1,312",
@@ -485,12 +537,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Cities",
     "collection": {
-      "id": "geneva-switzerland-2024",
+      "id": "geneva",
       "position": [
         "44%",
         "49.5%"
       ],
-      "title": "Geneva"
+      "title": [
+        "Geneva"
+      ]
     },
     "elevation": {
       "imperial": "1,435",
@@ -513,12 +567,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Cities",
     "collection": {
-      "id": "geneva-switzerland-2024",
+      "id": "geneva",
       "position": [
         "44%",
         "49.5%"
       ],
-      "title": "Geneva"
+      "title": [
+        "Geneva"
+      ]
     },
     "elevation": {
       "imperial": "1,457",
@@ -539,12 +595,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Cities",
     "collection": {
-      "id": "corsica-2023",
+      "id": "corsica",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "Corsica"
+      "title": [
+        "Porto-Vec.",
+        "+ Ajaccio"
+      ]
     },
     "elevation": {
       "imperial": "31",
@@ -565,12 +624,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Cities",
     "collection": {
-      "id": "corsica-2023",
+      "id": "corsica",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "Corsica"
+      "title": [
+        "Porto-Vec.",
+        "+ Ajaccio"
+      ]
     },
     "elevation": {
       "imperial": "29",
@@ -591,12 +653,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Cities",
     "collection": {
-      "id": "corsica-2023",
+      "id": "corsica",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "Corsica"
+      "title": [
+        "Porto-Vec.",
+        "+ Ajaccio"
+      ]
     },
     "elevation": {
       "imperial": "202",
@@ -617,12 +682,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "3,382",
@@ -645,12 +712,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "1,863",
@@ -673,12 +742,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "5,713",
@@ -701,12 +772,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "4,693",
@@ -729,12 +802,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "6,434",
@@ -757,12 +832,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "5,518",
@@ -785,12 +862,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "5,660",
@@ -813,12 +892,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "3,001",
@@ -841,12 +922,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "4,736",
@@ -869,12 +952,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "5,008",
@@ -897,12 +982,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "6,072",
@@ -925,12 +1012,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "4,601",
@@ -953,12 +1042,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "3,661",
@@ -981,12 +1072,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "3,058",
@@ -1009,12 +1102,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "5,866",
@@ -1037,12 +1132,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "7,256",
@@ -1065,12 +1162,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "6,059",
@@ -1093,12 +1192,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "4,395",
@@ -1121,12 +1222,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "6,005",
@@ -1149,12 +1252,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "5,218",
@@ -1177,12 +1282,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "6,075",
@@ -1205,12 +1312,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "5,234",
@@ -1233,12 +1342,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "4,958",
@@ -1261,12 +1372,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "8,554",
@@ -1289,12 +1402,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "4,711",
@@ -1317,12 +1432,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "4,991",
@@ -1345,12 +1462,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "6,234",
@@ -1371,12 +1490,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "6,561",
@@ -1399,12 +1520,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "5,061",
@@ -1427,12 +1550,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "6,420",
@@ -1455,12 +1580,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "1,238",
@@ -1483,12 +1610,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "gr20-2023",
+      "id": "the-gr-20",
       "position": [
         "49%",
         "48.25%"
       ],
-      "title": "The GR 20"
+      "title": [
+        "The GR 20"
+      ]
     },
     "elevation": {
       "imperial": "2,682",
@@ -1511,12 +1640,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "254",
@@ -1539,12 +1671,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "519",
@@ -1565,12 +1700,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "310",
@@ -1591,12 +1729,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "263",
@@ -1617,12 +1758,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "573",
@@ -1643,12 +1787,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "546",
@@ -1669,12 +1816,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "569",
@@ -1695,12 +1845,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "412",
@@ -1721,12 +1874,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "255",
@@ -1747,12 +1903,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "255",
@@ -1773,12 +1932,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "255",
@@ -1799,12 +1961,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "464",
@@ -1825,12 +1990,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "427",
@@ -1851,12 +2019,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "370",
@@ -1877,12 +2048,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "267",
@@ -1903,12 +2077,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "275",
@@ -1929,12 +2106,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "273",
@@ -1955,12 +2135,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "266",
@@ -1981,12 +2164,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "278",
@@ -2009,12 +2195,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "253",
@@ -2037,12 +2226,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "185",
@@ -2063,12 +2255,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "48",
@@ -2089,12 +2284,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "171",
@@ -2115,12 +2313,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "196",
@@ -2141,12 +2342,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "100",
@@ -2169,12 +2373,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "95",
@@ -2197,12 +2404,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "215",
@@ -2225,12 +2435,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "209",
@@ -2253,12 +2466,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "egypt-2022",
+      "id": "cairo-and-luxor",
       "position": [
         "54%",
         "54%"
       ],
-      "title": "New Years in Egypt"
+      "title": [
+        "Cairo",
+        "+ Luxor"
+      ]
     },
     "elevation": {
       "imperial": "50",
@@ -2279,12 +2495,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Mountains",
     "collection": {
-      "id": "southern-colorado-rockies",
+      "id": "southern-rockies",
       "position": [
         "50.5%",
         "15.5%"
       ],
-      "title": "Southern Colorado Rockies"
+      "title": [
+        "Southern",
+        "Rockies"
+      ]
     },
     "elevation": {
       "imperial": "14,367",
@@ -2305,12 +2524,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Mountains",
     "collection": {
-      "id": "southern-colorado-rockies",
+      "id": "southern-rockies",
       "position": [
         "50.5%",
         "15.5%"
       ],
-      "title": "Southern Colorado Rockies"
+      "title": [
+        "Southern",
+        "Rockies"
+      ]
     },
     "elevation": {
       "imperial": "14,160",
@@ -2331,12 +2553,14 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "overnight-domestic-hikes",
+      "id": "ice-age-trail",
       "position": [
         "48%",
         "20%"
       ],
-      "title": "Overnight Hikes"
+      "title": [
+        "Ice Age Trail"
+      ]
     },
     "elevation": {
       "imperial": "965",
@@ -2359,12 +2583,16 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "west-highland-way-2022",
+      "id": "west-highland-way",
       "position": [
         "38.5%",
         "43.5%"
       ],
-      "title": "West Highland Way"
+      "title": [
+        "West",
+        "Highland",
+        "Way"
+      ]
     },
     "elevation": {
       "imperial": "1,055",
@@ -2385,12 +2613,16 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "west-highland-way-2022",
+      "id": "west-highland-way",
       "position": [
         "38.5%",
         "43.5%"
       ],
-      "title": "West Highland Way"
+      "title": [
+        "West",
+        "Highland",
+        "Way"
+      ]
     },
     "elevation": {
       "imperial": "1,808",
@@ -2411,12 +2643,16 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "west-highland-way-2022",
+      "id": "west-highland-way",
       "position": [
         "38.5%",
         "43.5%"
       ],
-      "title": "West Highland Way"
+      "title": [
+        "West",
+        "Highland",
+        "Way"
+      ]
     },
     "elevation": {
       "imperial": "1,096",
@@ -2437,12 +2673,16 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "west-highland-way-2022",
+      "id": "west-highland-way",
       "position": [
         "38.5%",
         "43.5%"
       ],
-      "title": "West Highland Way"
+      "title": [
+        "West",
+        "Highland",
+        "Way"
+      ]
     },
     "elevation": {
       "imperial": "142",
@@ -2465,12 +2705,16 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "west-highland-way-2022",
+      "id": "west-highland-way",
       "position": [
         "38.5%",
         "43.5%"
       ],
-      "title": "West Highland Way"
+      "title": [
+        "West",
+        "Highland",
+        "Way"
+      ]
     },
     "elevation": {
       "imperial": "1,172",
@@ -2491,12 +2735,16 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Backpacking",
     "collection": {
-      "id": "west-highland-way-2022",
+      "id": "west-highland-way",
       "position": [
         "38.5%",
         "43.5%"
       ],
-      "title": "West Highland Way"
+      "title": [
+        "West",
+        "Highland",
+        "Way"
+      ]
     },
     "elevation": {
       "imperial": "472",
@@ -2517,12 +2765,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "san-juan-2022",
+      "id": "san-juan",
       "position": [
         "58%",
         "25.5%"
       ],
-      "title": "San Juan"
+      "title": [
+        "San Juan",
+        "P.R."
+      ]
     },
     "elevation": {
       "imperial": "464",
@@ -2543,12 +2794,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "san-juan-2022",
+      "id": "san-juan",
       "position": [
         "58%",
         "25.5%"
       ],
-      "title": "San Juan"
+      "title": [
+        "San Juan",
+        "P.R."
+      ]
     },
     "elevation": {
       "imperial": "101",
@@ -2569,12 +2823,15 @@ const data = [
     "camera": "iPhone 13 Pro",
     "category": "Destinations",
     "collection": {
-      "id": "san-juan-2022",
+      "id": "san-juan",
       "position": [
         "58%",
         "25.5%"
       ],
-      "title": "San Juan"
+      "title": [
+        "San Juan",
+        "P.R."
+      ]
     },
     "elevation": {
       "imperial": "21",
@@ -2595,12 +2852,15 @@ const data = [
     "camera": "iPhone 12",
     "category": "Mountains",
     "collection": {
-      "id": "southern-colorado-rockies",
+      "id": "southern-rockies",
       "position": [
         "50.5%",
         "15.5%"
       ],
-      "title": "Southern Colorado Rockies"
+      "title": [
+        "Southern",
+        "Rockies"
+      ]
     },
     "elevation": {
       "imperial": "14,289",
@@ -2621,12 +2881,15 @@ const data = [
     "camera": "iPhone 12",
     "category": "Mountains",
     "collection": {
-      "id": "southern-colorado-rockies",
+      "id": "southern-rockies",
       "position": [
         "50.5%",
         "15.5%"
       ],
-      "title": "Southern Colorado Rockies"
+      "title": [
+        "Southern",
+        "Rockies"
+      ]
     },
     "elevation": {
       "imperial": "14,147",
@@ -2647,12 +2910,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Mountains",
     "collection": {
-      "id": "southern-colorado-rockies",
+      "id": "southern-rockies",
       "position": [
         "50.5%",
         "15.5%"
       ],
-      "title": "Southern Colorado Rockies"
+      "title": [
+        "Southern",
+        "Rockies"
+      ]
     },
     "elevation": {
       "imperial": "14,259",
@@ -2673,12 +2939,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Mountains",
     "collection": {
-      "id": "southern-colorado-rockies",
+      "id": "southern-rockies",
       "position": [
         "50.5%",
         "15.5%"
       ],
-      "title": "Southern Colorado Rockies"
+      "title": [
+        "Southern",
+        "Rockies"
+      ]
     },
     "elevation": {
       "imperial": "14,070",
@@ -2699,12 +2968,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Mountains",
     "collection": {
-      "id": "southern-colorado-rockies",
+      "id": "southern-rockies",
       "position": [
         "50.5%",
         "15.5%"
       ],
-      "title": "Southern Colorado Rockies"
+      "title": [
+        "Southern",
+        "Rockies"
+      ]
     },
     "elevation": {
       "imperial": "14,375",
@@ -2723,14 +2995,100 @@ const data = [
   },
   {
     "camera": "iPhone X",
+    "category": "Destinations",
+    "collection": {
+      "id": "the-porkies",
+      "position": [
+        "47.5%",
+        "18%"
+      ],
+      "title": [
+        "The Porkies"
+      ]
+    },
+    "elevation": {
+      "imperial": "1,601",
+      "metric": "488"
+    },
+    "location": {
+      "region": "Upper Peninsula, Michigan",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "notes": [],
+    "src": "2020/07/01/febae15a-db75-471a-a7f6-412687b1d104.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAQIDAAT/xAAfEAACAgICAwEAAAAAAAAAAAABAgARITEDEhNRYXH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8A6AQdESoOZBoC1+yjVA5E5SuwDM1YsrJyY7FT6uWkB+JxprhImey7BEBe/wBirFqUjUy0m3Et4xBC9mQ4aEHztWQJRMm9CoH/2Q==",
+    "title": "Lake of the Clouds",
+    "when": "07/02/2020"
+  },
+  {
+    "camera": "iPhone X",
+    "category": "Destinations",
+    "collection": {
+      "id": "the-porkies",
+      "position": [
+        "47.5%",
+        "18%"
+      ],
+      "title": [
+        "The Porkies"
+      ]
+    },
+    "elevation": {
+      "imperial": "1,491",
+      "metric": "454"
+    },
+    "location": {
+      "region": "Upper Peninsula, Michigan",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "notes": [],
+    "src": "2020/07/01/412201f8-c2fb-4d4e-b859-1acc714d5b9f.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQACA//EACAQAAEDAwUBAAAAAAAAAAAAAAABAhETIVEDEjFBYZH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAFxEBAQEBAAAAAAAAAAAAAAAAAAERIf/aAAwDAQACEQMRAD8A1VdlBsToqvyhdidNV3g2HRVdlPg2GU1V8GmVzk5tKYAy7UvCXUsgUnvnBNFZBqi8eEGXrCLksFpthNy8i0dMmQdSB//Z",
+    "title": "",
+    "when": "07/02/2020"
+  },
+  {
+    "camera": "iPhone X",
+    "category": "Destinations",
+    "collection": {
+      "id": "the-porkies",
+      "position": [
+        "47.5%",
+        "18%"
+      ],
+      "title": [
+        "The Porkies"
+      ]
+    },
+    "elevation": {
+      "imperial": "1,582",
+      "metric": "482"
+    },
+    "location": {
+      "region": "Upper Peninsula, Michigan",
+      "country": "United States",
+      "continent": "North America"
+    },
+    "notes": [],
+    "src": "2020/07/01/d2eed074-7e71-44c6-9f3a-1bf375430ab3.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAQACAwT/xAAfEAACAgEEAwAAAAAAAAAAAAAAARESAgMTQVEhYXH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAbEQEBAQACAwAAAAAAAAAAAAAAARECEiFBUf/aAAwDAQACEQMRAD8A27y6HQlrY8lqw7mL5IYrrsliui1Y5LJGWlb0OUbDL+DOLN5fDI+IPNNjFs9NyX2xSaUthvxowPaxnrA/AXlaZxgmWBLBP//Z",
+    "title": "Lake of the Clouds",
+    "when": "07/02/2020"
+  },
+  {
+    "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "o-circuit-2020",
+      "id": "o-circuit",
       "position": [
         "96%",
         "26%"
       ],
-      "title": "O Circuit"
+      "title": [
+        "O Circuit"
+      ]
     },
     "elevation": {
       "imperial": "2,886",
@@ -2751,12 +3109,14 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "o-circuit-2020",
+      "id": "o-circuit",
       "position": [
         "96%",
         "26%"
       ],
-      "title": "O Circuit"
+      "title": [
+        "O Circuit"
+      ]
     },
     "elevation": {
       "imperial": "1,534",
@@ -2777,12 +3137,14 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "o-circuit-2020",
+      "id": "o-circuit",
       "position": [
         "96%",
         "26%"
       ],
-      "title": "O Circuit"
+      "title": [
+        "O Circuit"
+      ]
     },
     "elevation": {
       "imperial": "2,503",
@@ -2803,12 +3165,14 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "o-circuit-2020",
+      "id": "o-circuit",
       "position": [
         "96%",
         "26%"
       ],
-      "title": "O Circuit"
+      "title": [
+        "O Circuit"
+      ]
     },
     "elevation": {
       "imperial": "868",
@@ -2829,12 +3193,14 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "o-circuit-2020",
+      "id": "o-circuit",
       "position": [
         "96%",
         "26%"
       ],
-      "title": "O Circuit"
+      "title": [
+        "O Circuit"
+      ]
     },
     "elevation": {
       "imperial": "3,874",
@@ -2855,12 +3221,14 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "o-circuit-2020",
+      "id": "o-circuit",
       "position": [
         "96%",
         "26%"
       ],
-      "title": "O Circuit"
+      "title": [
+        "O Circuit"
+      ]
     },
     "elevation": {
       "imperial": "1,844",
@@ -2881,12 +3249,14 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "o-circuit-2020",
+      "id": "o-circuit",
       "position": [
         "96%",
         "26%"
       ],
-      "title": "O Circuit"
+      "title": [
+        "O Circuit"
+      ]
     },
     "elevation": {
       "imperial": "1,155",
@@ -2907,12 +3277,14 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "o-circuit-2020",
+      "id": "o-circuit",
       "position": [
         "96%",
         "26%"
       ],
-      "title": "O Circuit"
+      "title": [
+        "O Circuit"
+      ]
     },
     "elevation": {
       "imperial": "1,268",
@@ -2933,12 +3305,14 @@ const data = [
     "camera": "HERO5 Black",
     "category": "Destinations",
     "collection": {
-      "id": "pokhara-2019",
+      "id": "pokhara",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Pokhara"
+      "title": [
+        "Pokhara"
+      ]
     },
     "elevation": {
       "imperial": "6,323",
@@ -2959,12 +3333,14 @@ const data = [
     "camera": "iPhone X",
     "category": "Destinations",
     "collection": {
-      "id": "pokhara-2019",
+      "id": "pokhara",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Pokhara"
+      "title": [
+        "Pokhara"
+      ]
     },
     "elevation": {
       "imperial": "3,647",
@@ -2985,12 +3361,14 @@ const data = [
     "camera": "iPhone X",
     "category": "Destinations",
     "collection": {
-      "id": "pokhara-2019",
+      "id": "pokhara",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Pokhara"
+      "title": [
+        "Pokhara"
+      ]
     },
     "elevation": {
       "imperial": "2,612",
@@ -3011,12 +3389,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Basecamps",
     "collection": {
-      "id": "annapurna-basecamp-2019",
+      "id": "annapurna-basecamp",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna I Basecamp"
+      "title": [
+        "Annapurna",
+        "Basecamp"
+      ]
     },
     "elevation": {
       "imperial": "7,344",
@@ -3039,12 +3420,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Basecamps",
     "collection": {
-      "id": "annapurna-basecamp-2019",
+      "id": "annapurna-basecamp",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna I Basecamp"
+      "title": [
+        "Annapurna",
+        "Basecamp"
+      ]
     },
     "elevation": {
       "imperial": "5,360",
@@ -3067,12 +3451,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Basecamps",
     "collection": {
-      "id": "annapurna-basecamp-2019",
+      "id": "annapurna-basecamp",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna I Basecamp"
+      "title": [
+        "Annapurna",
+        "Basecamp"
+      ]
     },
     "elevation": {
       "imperial": "13,468",
@@ -3095,12 +3482,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Basecamps",
     "collection": {
-      "id": "annapurna-basecamp-2019",
+      "id": "annapurna-basecamp",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna I Basecamp"
+      "title": [
+        "Annapurna",
+        "Basecamp"
+      ]
     },
     "elevation": {
       "imperial": "10,372",
@@ -3123,12 +3513,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Basecamps",
     "collection": {
-      "id": "annapurna-basecamp-2019",
+      "id": "annapurna-basecamp",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna I Basecamp"
+      "title": [
+        "Annapurna",
+        "Basecamp"
+      ]
     },
     "elevation": {
       "imperial": "12,231",
@@ -3151,12 +3544,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Basecamps",
     "collection": {
-      "id": "annapurna-basecamp-2019",
+      "id": "annapurna-basecamp",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna I Basecamp"
+      "title": [
+        "Annapurna",
+        "Basecamp"
+      ]
     },
     "elevation": {
       "imperial": "13,525",
@@ -3179,12 +3575,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Basecamps",
     "collection": {
-      "id": "annapurna-basecamp-2019",
+      "id": "annapurna-basecamp",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna I Basecamp"
+      "title": [
+        "Annapurna",
+        "Basecamp"
+      ]
     },
     "elevation": {
       "imperial": "7,190",
@@ -3207,12 +3606,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Basecamps",
     "collection": {
-      "id": "annapurna-basecamp-2019",
+      "id": "annapurna-basecamp",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna I Basecamp"
+      "title": [
+        "Annapurna",
+        "Basecamp"
+      ]
     },
     "elevation": {
       "imperial": "10,807",
@@ -3235,12 +3637,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Basecamps",
     "collection": {
-      "id": "annapurna-basecamp-2019",
+      "id": "annapurna-basecamp",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna I Basecamp"
+      "title": [
+        "Annapurna",
+        "Basecamp"
+      ]
     },
     "elevation": {
       "imperial": "9,344",
@@ -3263,12 +3668,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Basecamps",
     "collection": {
-      "id": "annapurna-basecamp-2019",
+      "id": "annapurna-basecamp",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna I Basecamp"
+      "title": [
+        "Annapurna",
+        "Basecamp"
+      ]
     },
     "elevation": {
       "imperial": "10,354",
@@ -3291,12 +3699,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Basecamps",
     "collection": {
-      "id": "annapurna-basecamp-2019",
+      "id": "annapurna-basecamp",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna I Basecamp"
+      "title": [
+        "Annapurna",
+        "Basecamp"
+      ]
     },
     "elevation": {
       "imperial": "7,039",
@@ -3319,12 +3730,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "annapurna-circuit-2019",
+      "id": "annapurna-circuit",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna Circuit"
+      "title": [
+        "Annapurna",
+        "Circuit"
+      ]
     },
     "elevation": {
       "imperial": "5,579",
@@ -3347,12 +3761,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "annapurna-circuit-2019",
+      "id": "annapurna-circuit",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna Circuit"
+      "title": [
+        "Annapurna",
+        "Circuit"
+      ]
     },
     "elevation": {
       "imperial": "8,234",
@@ -3375,12 +3792,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "annapurna-circuit-2019",
+      "id": "annapurna-circuit",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna Circuit"
+      "title": [
+        "Annapurna",
+        "Circuit"
+      ]
     },
     "elevation": {
       "imperial": "12,503",
@@ -3403,12 +3823,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "annapurna-circuit-2019",
+      "id": "annapurna-circuit",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna Circuit"
+      "title": [
+        "Annapurna",
+        "Circuit"
+      ]
     },
     "elevation": {
       "imperial": "17,812",
@@ -3431,12 +3854,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "annapurna-circuit-2019",
+      "id": "annapurna-circuit",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna Circuit"
+      "title": [
+        "Annapurna",
+        "Circuit"
+      ]
     },
     "elevation": {
       "imperial": "12,406",
@@ -3459,12 +3885,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "annapurna-circuit-2019",
+      "id": "annapurna-circuit",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna Circuit"
+      "title": [
+        "Annapurna",
+        "Circuit"
+      ]
     },
     "elevation": {
       "imperial": "13,627",
@@ -3487,12 +3916,15 @@ const data = [
     "camera": "iPhone 7",
     "category": "Backpacking",
     "collection": {
-      "id": "annapurna-circuit-2019",
+      "id": "annapurna-circuit",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna Circuit"
+      "title": [
+        "Annapurna",
+        "Circuit"
+      ]
     },
     "elevation": {
       "imperial": "13,652",
@@ -3515,12 +3947,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "annapurna-circuit-2019",
+      "id": "annapurna-circuit",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna Circuit"
+      "title": [
+        "Annapurna",
+        "Circuit"
+      ]
     },
     "elevation": {
       "imperial": "16,465",
@@ -3543,12 +3978,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "annapurna-circuit-2019",
+      "id": "annapurna-circuit",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna Circuit"
+      "title": [
+        "Annapurna",
+        "Circuit"
+      ]
     },
     "elevation": {
       "imperial": "16,113",
@@ -3571,12 +4009,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "annapurna-circuit-2019",
+      "id": "annapurna-circuit",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna Circuit"
+      "title": [
+        "Annapurna",
+        "Circuit"
+      ]
     },
     "elevation": {
       "imperial": "13,542",
@@ -3599,12 +4040,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "annapurna-circuit-2019",
+      "id": "annapurna-circuit",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna Circuit"
+      "title": [
+        "Annapurna",
+        "Circuit"
+      ]
     },
     "elevation": {
       "imperial": "15,150",
@@ -3627,12 +4071,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "annapurna-circuit-2019",
+      "id": "annapurna-circuit",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna Circuit"
+      "title": [
+        "Annapurna",
+        "Circuit"
+      ]
     },
     "elevation": {
       "imperial": "14,963",
@@ -3655,12 +4102,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "annapurna-circuit-2019",
+      "id": "annapurna-circuit",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna Circuit"
+      "title": [
+        "Annapurna",
+        "Circuit"
+      ]
     },
     "elevation": {
       "imperial": "12,010",
@@ -3683,12 +4133,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "annapurna-circuit-2019",
+      "id": "annapurna-circuit",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna Circuit"
+      "title": [
+        "Annapurna",
+        "Circuit"
+      ]
     },
     "elevation": {
       "imperial": "12,244",
@@ -3711,12 +4164,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "annapurna-circuit-2019",
+      "id": "annapurna-circuit",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna Circuit"
+      "title": [
+        "Annapurna",
+        "Circuit"
+      ]
     },
     "elevation": {
       "imperial": "10,805",
@@ -3739,12 +4195,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "annapurna-circuit-2019",
+      "id": "annapurna-circuit",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna Circuit"
+      "title": [
+        "Annapurna",
+        "Circuit"
+      ]
     },
     "elevation": {
       "imperial": "7,547",
@@ -3767,12 +4226,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "annapurna-circuit-2019",
+      "id": "annapurna-circuit",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna Circuit"
+      "title": [
+        "Annapurna",
+        "Circuit"
+      ]
     },
     "elevation": {
       "imperial": "4,417",
@@ -3795,12 +4257,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "annapurna-circuit-2019",
+      "id": "annapurna-circuit",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna Circuit"
+      "title": [
+        "Annapurna",
+        "Circuit"
+      ]
     },
     "elevation": {
       "imperial": "3,904",
@@ -3823,12 +4288,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "annapurna-circuit-2019",
+      "id": "annapurna-circuit",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna Circuit"
+      "title": [
+        "Annapurna",
+        "Circuit"
+      ]
     },
     "elevation": {
       "imperial": "2,657",
@@ -3851,12 +4319,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "annapurna-circuit-2019",
+      "id": "annapurna-circuit",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna Circuit"
+      "title": [
+        "Annapurna",
+        "Circuit"
+      ]
     },
     "elevation": {
       "imperial": "3,158",
@@ -3879,12 +4350,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "annapurna-circuit-2019",
+      "id": "annapurna-circuit",
       "position": [
         "53%",
         "69%"
       ],
-      "title": "Annapurna Circuit"
+      "title": [
+        "Annapurna",
+        "Circuit"
+      ]
     },
     "elevation": {
       "imperial": "2,566",
@@ -3907,12 +4381,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Mountains",
     "collection": {
-      "id": "southern-colorado-rockies",
+      "id": "southern-rockies",
       "position": [
         "50.5%",
         "15.5%"
       ],
-      "title": "Southern Colorado Rockies"
+      "title": [
+        "Southern",
+        "Rockies"
+      ]
     },
     "elevation": {
       "imperial": "14,230",
@@ -3933,12 +4410,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Mountains",
     "collection": {
-      "id": "southern-colorado-rockies",
+      "id": "southern-rockies",
       "position": [
         "50.5%",
         "15.5%"
       ],
-      "title": "Southern Colorado Rockies"
+      "title": [
+        "Southern",
+        "Rockies"
+      ]
     },
     "elevation": {
       "imperial": "14,426",
@@ -3959,12 +4439,14 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "alta-via-1-2019",
+      "id": "alta-via-1",
       "position": [
         "45.5%",
         "50.5%"
       ],
-      "title": "Alta Via 1"
+      "title": [
+        "Alta Via 1"
+      ]
     },
     "elevation": {
       "imperial": "5,617",
@@ -3987,12 +4469,14 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "alta-via-1-2019",
+      "id": "alta-via-1",
       "position": [
         "45.5%",
         "50.5%"
       ],
-      "title": "Alta Via 1"
+      "title": [
+        "Alta Via 1"
+      ]
     },
     "elevation": {
       "imperial": "7,316",
@@ -4015,12 +4499,14 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "alta-via-1-2019",
+      "id": "alta-via-1",
       "position": [
         "45.5%",
         "50.5%"
       ],
-      "title": "Alta Via 1"
+      "title": [
+        "Alta Via 1"
+      ]
     },
     "elevation": {
       "imperial": "5,368",
@@ -4043,12 +4529,14 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "alta-via-1-2019",
+      "id": "alta-via-1",
       "position": [
         "45.5%",
         "50.5%"
       ],
-      "title": "Alta Via 1"
+      "title": [
+        "Alta Via 1"
+      ]
     },
     "elevation": {
       "imperial": "6,371",
@@ -4071,12 +4559,14 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "alta-via-1-2019",
+      "id": "alta-via-1",
       "position": [
         "45.5%",
         "50.5%"
       ],
-      "title": "Alta Via 1"
+      "title": [
+        "Alta Via 1"
+      ]
     },
     "elevation": {
       "imperial": "6,218",
@@ -4099,12 +4589,14 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "alta-via-1-2019",
+      "id": "alta-via-1",
       "position": [
         "45.5%",
         "50.5%"
       ],
-      "title": "Alta Via 1"
+      "title": [
+        "Alta Via 1"
+      ]
     },
     "elevation": {
       "imperial": "6,151",
@@ -4127,12 +4619,14 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "alta-via-1-2019",
+      "id": "alta-via-1",
       "position": [
         "45.5%",
         "50.5%"
       ],
-      "title": "Alta Via 1"
+      "title": [
+        "Alta Via 1"
+      ]
     },
     "elevation": {
       "imperial": "6,987",
@@ -4155,12 +4649,14 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "alta-via-1-2019",
+      "id": "alta-via-1",
       "position": [
         "45.5%",
         "50.5%"
       ],
-      "title": "Alta Via 1"
+      "title": [
+        "Alta Via 1"
+      ]
     },
     "elevation": {
       "imperial": "7,411",
@@ -4183,12 +4679,14 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "alta-via-1-2019",
+      "id": "alta-via-1",
       "position": [
         "45.5%",
         "50.5%"
       ],
-      "title": "Alta Via 1"
+      "title": [
+        "Alta Via 1"
+      ]
     },
     "elevation": {
       "imperial": "7,167",
@@ -4211,12 +4709,14 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "alta-via-1-2019",
+      "id": "alta-via-1",
       "position": [
         "45.5%",
         "50.5%"
       ],
-      "title": "Alta Via 1"
+      "title": [
+        "Alta Via 1"
+      ]
     },
     "elevation": {
       "imperial": "7,642",
@@ -4239,12 +4739,14 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "alta-via-1-2019",
+      "id": "alta-via-1",
       "position": [
         "45.5%",
         "50.5%"
       ],
-      "title": "Alta Via 1"
+      "title": [
+        "Alta Via 1"
+      ]
     },
     "elevation": {
       "imperial": "7,288",
@@ -4267,12 +4769,14 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "alta-via-1-2019",
+      "id": "alta-via-1",
       "position": [
         "45.5%",
         "50.5%"
       ],
-      "title": "Alta Via 1"
+      "title": [
+        "Alta Via 1"
+      ]
     },
     "elevation": {
       "imperial": "8,433",
@@ -4295,12 +4799,14 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "alta-via-1-2019",
+      "id": "alta-via-1",
       "position": [
         "45.5%",
         "50.5%"
       ],
-      "title": "Alta Via 1"
+      "title": [
+        "Alta Via 1"
+      ]
     },
     "elevation": {
       "imperial": "7,453",
@@ -4323,12 +4829,14 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "alta-via-1-2019",
+      "id": "alta-via-1",
       "position": [
         "45.5%",
         "50.5%"
       ],
-      "title": "Alta Via 1"
+      "title": [
+        "Alta Via 1"
+      ]
     },
     "elevation": {
       "imperial": "7,659",
@@ -4351,12 +4859,14 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "alta-via-1-2019",
+      "id": "alta-via-1",
       "position": [
         "45.5%",
         "50.5%"
       ],
-      "title": "Alta Via 1"
+      "title": [
+        "Alta Via 1"
+      ]
     },
     "elevation": {
       "imperial": "6,603",
@@ -4379,12 +4889,14 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "alta-via-1-2019",
+      "id": "alta-via-1",
       "position": [
         "45.5%",
         "50.5%"
       ],
-      "title": "Alta Via 1"
+      "title": [
+        "Alta Via 1"
+      ]
     },
     "elevation": {
       "imperial": "6,681",
@@ -4407,12 +4919,14 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "alta-via-1-2019",
+      "id": "alta-via-1",
       "position": [
         "45.5%",
         "50.5%"
       ],
-      "title": "Alta Via 1"
+      "title": [
+        "Alta Via 1"
+      ]
     },
     "elevation": {
       "imperial": "4,885",
@@ -4435,12 +4949,14 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "alta-via-1-2019",
+      "id": "alta-via-1",
       "position": [
         "45.5%",
         "50.5%"
       ],
-      "title": "Alta Via 1"
+      "title": [
+        "Alta Via 1"
+      ]
     },
     "elevation": {
       "imperial": "9,135",
@@ -4463,12 +4979,14 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "alta-via-1-2019",
+      "id": "alta-via-1",
       "position": [
         "45.5%",
         "50.5%"
       ],
-      "title": "Alta Via 1"
+      "title": [
+        "Alta Via 1"
+      ]
     },
     "elevation": {
       "imperial": "7,642",
@@ -4491,12 +5009,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "tour-du-mont-blanc-2018",
+      "id": "tour-du-mont-blanc",
       "position": [
         "45%",
         "48.5%"
       ],
-      "title": "Tour du Mont Blanc"
+      "title": [
+        "Tour du",
+        "Mont Blanc"
+      ]
     },
     "elevation": {
       "imperial": "6,244",
@@ -4517,12 +5038,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "tour-du-mont-blanc-2018",
+      "id": "tour-du-mont-blanc",
       "position": [
         "45%",
         "48.5%"
       ],
-      "title": "Tour du Mont Blanc"
+      "title": [
+        "Tour du",
+        "Mont Blanc"
+      ]
     },
     "elevation": {
       "imperial": "8,224",
@@ -4543,12 +5067,15 @@ const data = [
     "camera": "ILCE-6000",
     "category": "Backpacking",
     "collection": {
-      "id": "tour-du-mont-blanc-2018",
+      "id": "tour-du-mont-blanc",
       "position": [
         "45%",
         "48.5%"
       ],
-      "title": "Tour du Mont Blanc"
+      "title": [
+        "Tour du",
+        "Mont Blanc"
+      ]
     },
     "elevation": {
       "imperial": "7,732",
@@ -4569,12 +5096,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "tour-du-mont-blanc-2018",
+      "id": "tour-du-mont-blanc",
       "position": [
         "45%",
         "48.5%"
       ],
-      "title": "Tour du Mont Blanc"
+      "title": [
+        "Tour du",
+        "Mont Blanc"
+      ]
     },
     "elevation": {
       "imperial": "7,247",
@@ -4595,12 +5125,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "tour-du-mont-blanc-2018",
+      "id": "tour-du-mont-blanc",
       "position": [
         "45%",
         "48.5%"
       ],
-      "title": "Tour du Mont Blanc"
+      "title": [
+        "Tour du",
+        "Mont Blanc"
+      ]
     },
     "elevation": {
       "imperial": "8,687",
@@ -4621,12 +5154,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "tour-du-mont-blanc-2018",
+      "id": "tour-du-mont-blanc",
       "position": [
         "45%",
         "48.5%"
       ],
-      "title": "Tour du Mont Blanc"
+      "title": [
+        "Tour du",
+        "Mont Blanc"
+      ]
     },
     "elevation": {
       "imperial": "4,580",
@@ -4647,12 +5183,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "tour-du-mont-blanc-2018",
+      "id": "tour-du-mont-blanc",
       "position": [
         "45%",
         "48.5%"
       ],
-      "title": "Tour du Mont Blanc"
+      "title": [
+        "Tour du",
+        "Mont Blanc"
+      ]
     },
     "elevation": {
       "imperial": "8,322",
@@ -4673,12 +5212,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "tour-du-mont-blanc-2018",
+      "id": "tour-du-mont-blanc",
       "position": [
         "45%",
         "48.5%"
       ],
-      "title": "Tour du Mont Blanc"
+      "title": [
+        "Tour du",
+        "Mont Blanc"
+      ]
     },
     "elevation": {
       "imperial": "6,689",
@@ -4699,12 +5241,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "tour-du-mont-blanc-2018",
+      "id": "tour-du-mont-blanc",
       "position": [
         "45%",
         "48.5%"
       ],
-      "title": "Tour du Mont Blanc"
+      "title": [
+        "Tour du",
+        "Mont Blanc"
+      ]
     },
     "elevation": {
       "imperial": "6,437",
@@ -4725,12 +5270,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "tour-du-mont-blanc-2018",
+      "id": "tour-du-mont-blanc",
       "position": [
         "45%",
         "48.5%"
       ],
-      "title": "Tour du Mont Blanc"
+      "title": [
+        "Tour du",
+        "Mont Blanc"
+      ]
     },
     "elevation": {
       "imperial": "9,021",
@@ -4751,12 +5299,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "tour-du-mont-blanc-2018",
+      "id": "tour-du-mont-blanc",
       "position": [
         "45%",
         "48.5%"
       ],
-      "title": "Tour du Mont Blanc"
+      "title": [
+        "Tour du",
+        "Mont Blanc"
+      ]
     },
     "elevation": {
       "imperial": "8,157",
@@ -4777,12 +5328,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "tour-du-mont-blanc-2018",
+      "id": "tour-du-mont-blanc",
       "position": [
         "45%",
         "48.5%"
       ],
-      "title": "Tour du Mont Blanc"
+      "title": [
+        "Tour du",
+        "Mont Blanc"
+      ]
     },
     "elevation": {
       "imperial": "6,925",
@@ -4803,12 +5357,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "383",
@@ -4829,12 +5386,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "900",
@@ -4855,12 +5415,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "935",
@@ -4881,12 +5444,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "876",
@@ -4907,12 +5473,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "1,494",
@@ -4933,12 +5502,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "2,383",
@@ -4959,12 +5531,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "1,492",
@@ -4985,12 +5560,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "4,415",
@@ -5011,12 +5589,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "4,305",
@@ -5037,12 +5618,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "1,798",
@@ -5063,12 +5647,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "4,953",
@@ -5089,12 +5676,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "4,707",
@@ -5115,12 +5705,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "3,019",
@@ -5141,12 +5734,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "2,976",
@@ -5167,12 +5763,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "2,724",
@@ -5193,12 +5792,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "2,886",
@@ -5219,12 +5821,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "2,956",
@@ -5245,12 +5850,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "2,790",
@@ -5271,12 +5879,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "2,999",
@@ -5297,12 +5908,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "3,074",
@@ -5323,12 +5937,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "3,528",
@@ -5349,12 +5966,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "3,166",
@@ -5375,12 +5995,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "2,707",
@@ -5401,12 +6024,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "2,476",
@@ -5427,12 +6053,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "2,189",
@@ -5453,12 +6082,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "1,898",
@@ -5479,12 +6111,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "2,205",
@@ -5505,12 +6140,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "1,616",
@@ -5531,12 +6169,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "2,510",
@@ -5557,12 +6198,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "1,459",
@@ -5583,12 +6227,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "3,114",
@@ -5609,12 +6256,15 @@ const data = [
     "camera": "iPhone X",
     "category": "Backpacking",
     "collection": {
-      "id": "camino-frances-2018",
+      "id": "camino-frances",
       "position": [
         "48%",
         "43%"
       ],
-      "title": "Camino Frances"
+      "title": [
+        "Camino",
+        "Frances"
+      ]
     },
     "elevation": {
       "imperial": "4,700",
@@ -5635,12 +6285,15 @@ const data = [
     "camera": "iPhone 6s Plus",
     "category": "Destinations",
     "collection": {
-      "id": "santiago-and-patagonia-2016",
+      "id": "central-and-southern-chile",
       "position": [
         "85%",
         "25%"
       ],
-      "title": "Santiago & Patagonia"
+      "title": [
+        "Central",
+        "+ S. Chile"
+      ]
     },
     "elevation": {
       "imperial": "15",
@@ -5661,12 +6314,15 @@ const data = [
     "camera": "iPhone 6s Plus",
     "category": "Destinations",
     "collection": {
-      "id": "santiago-and-patagonia-2016",
+      "id": "central-and-southern-chile",
       "position": [
         "85%",
         "25%"
       ],
-      "title": "Santiago & Patagonia"
+      "title": [
+        "Central",
+        "+ S. Chile"
+      ]
     },
     "elevation": {
       "imperial": "469",
@@ -5687,12 +6343,15 @@ const data = [
     "camera": "iPhone 6s Plus",
     "category": "Destinations",
     "collection": {
-      "id": "santiago-and-patagonia-2016",
+      "id": "central-and-southern-chile",
       "position": [
         "85%",
         "25%"
       ],
-      "title": "Santiago & Patagonia"
+      "title": [
+        "Central",
+        "+ S. Chile"
+      ]
     },
     "elevation": {
       "imperial": "347",
@@ -5713,12 +6372,15 @@ const data = [
     "camera": "iPhone 6s Plus",
     "category": "Destinations",
     "collection": {
-      "id": "santiago-and-patagonia-2016",
+      "id": "central-and-southern-chile",
       "position": [
         "85%",
         "25%"
       ],
-      "title": "Santiago & Patagonia"
+      "title": [
+        "Central",
+        "+ S. Chile"
+      ]
     },
     "elevation": {
       "imperial": "1,300",
@@ -5739,12 +6401,15 @@ const data = [
     "camera": "iPhone 6s Plus",
     "category": "Destinations",
     "collection": {
-      "id": "santiago-and-patagonia-2016",
+      "id": "central-and-southern-chile",
       "position": [
         "85%",
         "25%"
       ],
-      "title": "Santiago & Patagonia"
+      "title": [
+        "Central",
+        "+ S. Chile"
+      ]
     },
     "elevation": {
       "imperial": "154",
@@ -5765,12 +6430,15 @@ const data = [
     "camera": "iPhone 6s Plus",
     "category": "Destinations",
     "collection": {
-      "id": "santiago-and-patagonia-2016",
+      "id": "central-and-southern-chile",
       "position": [
         "85%",
         "25%"
       ],
-      "title": "Santiago & Patagonia"
+      "title": [
+        "Central",
+        "+ S. Chile"
+      ]
     },
     "elevation": {
       "imperial": "10,611",
@@ -5791,12 +6459,15 @@ const data = [
     "camera": "iPhone 6s Plus",
     "category": "Destinations",
     "collection": {
-      "id": "santiago-and-patagonia-2016",
+      "id": "central-and-southern-chile",
       "position": [
         "85%",
         "25%"
       ],
-      "title": "Santiago & Patagonia"
+      "title": [
+        "Central",
+        "+ S. Chile"
+      ]
     },
     "elevation": {
       "imperial": "2,546",
@@ -5817,12 +6488,15 @@ const data = [
     "camera": "iPhone 6",
     "category": "Cities",
     "collection": {
-      "id": "argentina-and-uruguay-2015",
+      "id": "argentina-and-uruguay",
       "position": [
         "85%",
         "28%"
       ],
-      "title": "Argentina & Uruguay"
+      "title": [
+        "Argentina",
+        "+ Uruguay"
+      ]
     },
     "elevation": {
       "imperial": "141",
@@ -5843,12 +6517,15 @@ const data = [
     "camera": "iPhone 6",
     "category": "Cities",
     "collection": {
-      "id": "argentina-and-uruguay-2015",
+      "id": "argentina-and-uruguay",
       "position": [
         "85%",
         "28%"
       ],
-      "title": "Argentina & Uruguay"
+      "title": [
+        "Argentina",
+        "+ Uruguay"
+      ]
     },
     "elevation": {
       "imperial": "49",
@@ -5869,12 +6546,15 @@ const data = [
     "camera": "iPhone 6",
     "category": "Cities",
     "collection": {
-      "id": "argentina-and-uruguay-2015",
+      "id": "argentina-and-uruguay",
       "position": [
         "85%",
         "28%"
       ],
-      "title": "Argentina & Uruguay"
+      "title": [
+        "Argentina",
+        "+ Uruguay"
+      ]
     },
     "elevation": {
       "imperial": "52",

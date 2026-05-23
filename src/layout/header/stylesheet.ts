@@ -1,39 +1,66 @@
 import tw from '@/styles';
 
 const styles = tw({
-  menu: `
-    fixed top-3 right-3 z-99
-
-    flex items-center gap-1
-
-    p-1.5
-
-    rounded-sm
-    bg-(--foreground)
-    text-(--background)
-
-    font-normal
-    text-sm
-
-    sm:hidden
-  `,
   container: `
-    hidden
-    fixed top-2 left-1/2 z-99
-    -translate-x-1/2
-    flex-row items-start gap-2
-    w-auto
-    rounded-sm
-    bg-(--background)
-    pointer-events-auto
+    h-10 w-full
+    flex flex-row items-center justify-between
+    border-b-1 border-current/10
 
-    motion-safe:duration-300
-    motion-safe:ease-in-out
-
-    sm:flex
+    lg:fixed
+    lg:left-0
+    lg:top-0
+    lg::z-10
+    lg:w-10
+    lg:h-screen
+    lg:flex-col
+    lg:border-b-0
   `,
-  icon: `
-    w-4.25 h-4.25
+  anchor: `
+    relative
+    grid justify-items-center gap-1.5
+    w-8 h-6
+    p-2 ml-2
+
+    lg:mt-2
+    lg:ml-0
+
+    motion-safe:opacity-0
+    motion-safe:animate-fade-in-down-slightly-delayed
+  `,
+  top: (isActive: boolean) => tw(`
+    h-px w-4
+    bg-(--foreground)
+    transition-transform duration-300 ease-in-out
+
+    ${isActive && 'translate-y-1 rotate-45'}
+  `),
+  bottom: (isActive: boolean) => tw(`
+    h-px w-4
+    bg-(--foreground)
+    transition-transform duration-300 ease-in-out
+
+    ${isActive && '-translate-y-0.75 -rotate-45'}
+  `),
+  tagline: `
+    mr-4
+    text-tiny
+    font-normal
+    uppercase
+    tracking-widest
+
+    md:text-xtiny
+    md:font-extralight
+    lg:fixed
+    lg:left-0
+    lg:bottom-4
+    lg:translate-x-6.5
+    lg:origin-bottom-left
+    lg:-rotate-90
+    lg:w-64
+    lg:mr-0
+
+    motion-safe:opacity-0
+    motion-safe:animate-fade-in-slightly-delayed
   `,
 });
 

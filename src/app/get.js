@@ -1,12 +1,18 @@
 import collections from '@/cache/collections';
-import images from '@/cache/images';
 
 export default async function get() {
-  return {
-    collections: collections.map((collection) => ({
-      ...collection,
-      cover: collection.cover[Math.floor(Math.random() * collection.cover.length)],
-    })),
-    images,
-  };
+  const data = collections.map(({ category, coordinates, count, cover, id, location, title, year }) => ({
+    category,
+    coordinates,
+    count,
+    cover: cover[Math.floor(Math.random() * cover.length)],
+    id,
+    location,
+    title,
+    year,
+  }));
+
+  return Array.from({ length: Math.ceil(data.length / 6) }, (_, index) =>
+    data.slice(index * 6, index * 6 + 6)
+  );
 };

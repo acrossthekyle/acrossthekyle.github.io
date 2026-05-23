@@ -4,8 +4,11 @@
     "7/4/2018"
   ],
   "timestamp": "1527933600",
-  "id": "camino-frances-2018",
-  "title": "Camino Frances",
+  "id": "camino-frances",
+  "title": [
+    "Camino",
+    "Frances"
+  ],
   "location": {
     "country": "Spain",
     "continent": "Europe"

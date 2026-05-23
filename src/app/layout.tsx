@@ -6,17 +6,17 @@ import { ThemeProvider } from 'next-themes';
 import { PropsWithChildren, Suspense } from 'react';
 
 import DialogProvider from '@/contexts/dialog';
-import FilterProvider from '@/contexts/filter';
 import OptionsProvider from '@/contexts/options';
 import SizeProvider from '@/contexts/size';
-import SortProvider from '@/contexts/sort';
-import ViewProvider from '@/contexts/view';
-import { Body } from '@/layout';
+import { Body, Dialog, Footer, Header, Main, Splash } from '@/layout';
 
 import Eggs from './eggs';
 
 export const metadata: Metadata = {
-  title: 'Kyle – A collection of my hikes, summits, and experiences',
+  title: {
+    template: `%s`,
+    default: 'A collection of hikes, summits, and experiences',
+  },
   formatDetection: {
     telephone: false,
     date: false,
@@ -34,21 +34,21 @@ export default async function RootLayout({ children }: PropsWithChildren) {
       <Suspense fallback={null}>
         <Eggs />
         <DialogProvider>
-          <ViewProvider>
-            <OptionsProvider units={units}>
-              <SizeProvider>
-                <FilterProvider>
-                  <SortProvider>
-                    <Body>
-                      <ThemeProvider>
-                        {children}
-                      </ThemeProvider>
-                    </Body>
-                  </SortProvider>
-                </FilterProvider>
-              </SizeProvider>
-            </OptionsProvider>
-          </ViewProvider>
+          <OptionsProvider units={units}>
+            <SizeProvider>
+              <Body>
+                <ThemeProvider>
+                  <Splash />
+                  <Header />
+                  <Main>
+                    {children}
+                  </Main>
+                  <Footer />
+                  <Dialog />
+                </ThemeProvider>
+              </Body>
+            </SizeProvider>
+          </OptionsProvider>
         </DialogProvider>
       </Suspense>
     </html>

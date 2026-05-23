@@ -3,8 +3,11 @@
     "8/31/2019"
   ],
   "timestamp": "1567195200",
-  "id": "southern-colorado-rockies",
-  "title": "Southern Colorado Rockies",
+  "id": "southern-rockies",
+  "title": [
+    "Southern",
+    "Rockies"
+  ],
   "location": {
     "country": "United States",
     "continent": "North America"

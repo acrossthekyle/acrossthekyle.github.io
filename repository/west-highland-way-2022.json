@@ -4,8 +4,12 @@
     "5/12/2022"
   ],
   "timestamp": "1651911600",
-  "id": "west-highland-way-2022",
-  "title": "West Highland Way",
+  "id": "west-highland-way",
+  "title": [
+    "West",
+    "Highland",
+    "Way"
+  ],
   "location": {
     "country": "Scotland",
     "continent": "Europe"

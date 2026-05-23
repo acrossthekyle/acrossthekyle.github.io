@@ -4,8 +4,11 @@
     "11/5/2019"
   ],
   "timestamp": "1572544500",
-  "id": "annapurna-basecamp-2019",
-  "title": "Annapurna I Basecamp",
+  "id": "annapurna-basecamp",
+  "title": [
+    "Annapurna",
+    "Basecamp"
+  ],
   "location": {
     "country": "Nepal",
     "continent": "Asia"

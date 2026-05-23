@@ -1,0 +1,39 @@
+{
+  "date": [
+    "07/08/2026",
+    "07/10/2026"
+  ],
+  "timestamp": "1783536000",
+  "id": "cusco",
+  "title": [
+    "Cusco"
+  ],
+  "location": {
+    "country": "Peru",
+    "continent": "South America"
+  },
+  "category": "destinations",
+  "coordinates": "13.53195° S, 71.96746° W",
+  "cover": [
+    {
+      "src": "",
+      "thumb": null
+    }
+  ],
+  "tags": [
+    "cityscape",
+    "landscape",
+    "monuments",
+    "ancient wonders",
+    "south america",
+    "destination"
+  ],
+  "position": [
+    "",
+    ""
+  ],
+  "notes": [
+    ""
+  ],
+  "images": []
+}

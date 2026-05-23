@@ -1,5 +1,193 @@
 const data = [
   {
+    "category": "Destinations",
+    "coordinates": "12.5933° S, 69.1891° W",
+    "count": 0,
+    "cover": [
+      {
+        "src": "",
+        "thumb": null
+      }
+    ],
+    "id": "puerto-maldonado",
+    "location": {
+      "country": "Peru",
+      "continent": "South America"
+    },
+    "notes": [
+      ""
+    ],
+    "position": [
+      "",
+      ""
+    ],
+    "tags": [
+      "landscape",
+      "jungle",
+      "rain forest",
+      "south america"
+    ],
+    "title": [
+      "Puerto",
+      "Maldonado"
+    ],
+    "when": "07/19 - 07/22/2026",
+    "year": "2026"
+  },
+  {
+    "category": "Backpacking",
+    "coordinates": "13.1632° S, 72.5453° W",
+    "count": 0,
+    "cover": [
+      {
+        "src": "",
+        "thumb": null
+      }
+    ],
+    "id": "salkantay-trek",
+    "location": {
+      "country": "Peru",
+      "continent": "South America"
+    },
+    "notes": [
+      ""
+    ],
+    "position": [
+      "",
+      ""
+    ],
+    "tags": [
+      "landscape",
+      "trail",
+      "thru-hike",
+      "mountains",
+      "long-distance",
+      "south america",
+      "backpacking"
+    ],
+    "title": [
+      "Salkantay",
+      "Trek"
+    ],
+    "when": "07/11 - 07/17/2026",
+    "year": "2026"
+  },
+  {
+    "category": "Destinations",
+    "coordinates": "13.5320° S, 71.9675° W",
+    "count": 0,
+    "cover": [
+      {
+        "src": "",
+        "thumb": null
+      }
+    ],
+    "id": "cusco",
+    "location": {
+      "country": "Peru",
+      "continent": "South America"
+    },
+    "notes": [
+      ""
+    ],
+    "position": [
+      "",
+      ""
+    ],
+    "tags": [
+      "cityscape",
+      "landscape",
+      "monuments",
+      "ancient wonders",
+      "south america",
+      "destination"
+    ],
+    "title": [
+      "Cusco"
+    ],
+    "when": "07/08 - 07/10/2026",
+    "year": "2026"
+  },
+  {
+    "category": "Backpacking",
+    "coordinates": "40.0080° N, 87.5717° W",
+    "count": 1,
+    "cover": [
+      {
+        "src": "2026/03/14/1e1be596-c236-4cee-9eb2-fac89329e0e6.jpeg",
+        "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBP/EACEQAAIBAwMFAAAAAAAAAAAAAAABERJSoQIhkSIxUVOC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwDokSSSd74RpJ3YFwmqbCfBP7wN/Y+EKRQE+q/AFWJyxUAZaExVLACGpx2AAV//2Q=="
+      }
+    ],
+    "id": "river-ridge-trail",
+    "location": {
+      "country": "United States",
+      "continent": "North America"
+    },
+    "notes": [
+      "The River Ridge Backpack Trail at Forest Glen Preserve in Westville, Illinois, is a relatively moderate 10.5 mile loop designed for beginner backpackers, featuring steep ravines, creek crossings, and ridge-top hiking. It is widely considered one of the few true backpacking experiences in Illinois, often completed as an overnight trip with two dedicated primitive campsites."
+    ],
+    "position": [
+      "49.5%",
+      "19%"
+    ],
+    "tags": [
+      "landscape",
+      "trail",
+      "overnight",
+      "hills",
+      "north america",
+      "illinois",
+      "usa",
+      "backpacking"
+    ],
+    "title": [
+      "River Ridge",
+      "Trail"
+    ],
+    "when": "03/14 - 03/15/2026",
+    "year": "2026"
+  },
+  {
+    "category": "Backpacking",
+    "coordinates": "43.1713° N, 91.2594° W",
+    "count": 2,
+    "cover": [
+      {
+        "src": "2025/10/18/efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg",
+        "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCAf/EAB8QAAIBAwUBAAAAAAAAAAAAAAABEQISQQMTITFRkf/EABYBAQEBAAAAAAAAAAAAAAAAAAIBAP/EABcRAQEBAQAAAAAAAAAAAAAAAAABERL/2gAMAwEAAhEDEQA/ACaNqCcc9YNJOcfSS4tmqKg0qSb1LVClslfVnkXVDmRZtN+AjfmQRRppTJyHan236AE2dx9BajmABDW71UnNMsAGR//Z"
+      }
+    ],
+    "id": "yellow-river-trail",
+    "location": {
+      "country": "United States",
+      "continent": "North America"
+    },
+    "notes": [
+      "Known for its unglaciated, hilly landscape, this remote counterclockwise backpacking loop in the Driftless Area of Iowa showcases the state's most rugged terrain with a route that crosses ravines, climbs sandstone bluffs, and provides views of the surrounding hardwood forests and wildlife."
+    ],
+    "position": [
+      "47%",
+      "18.5%"
+    ],
+    "tags": [
+      "landscape",
+      "trail",
+      "overnight",
+      "hills",
+      "north america",
+      "iowa",
+      "usa",
+      "backpacking"
+    ],
+    "title": [
+      "Yellow",
+      "River",
+      "Trail"
+    ],
+    "when": "10/18 - 10/19/2025",
+    "year": "2025"
+  },
+  {
     "category": "Backpacking",
     "coordinates": "45.8902° N, 6.7978° E",
     "count": 11,
@@ -39,7 +227,10 @@ const data = [
       "backpacking",
       "TMB"
     ],
-    "title": "Tour du Mont Blanc",
+    "title": [
+      "Tour du",
+      "Mont Blanc"
+    ],
     "when": "07/27 - 08/06/2024",
     "year": "2024"
   },
@@ -57,7 +248,7 @@ const data = [
         "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBAH/xAAiEAACAQQCAgMBAAAAAAAAAAAAAQIDEiExEUFRYQRx0fH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEQMRAD8Aywhc/R1xbTa0iadqtTy3sulHVOOPP0BZoQubXgTpuC5ZZw6NfGuvZP5GaSa7ZJmWwdjwnkCKla42yb3nBbCfd0+XvX4ADRVjdDlyk2srn+Fd91JJt8p+gCSvsACH/9k="
       }
     ],
-    "id": "geneva-switzerland-2024",
+    "id": "geneva",
     "location": {
       "country": "Switzerland",
       "continent": "Europe"
@@ -76,7 +267,9 @@ const data = [
       "switzerland",
       "destination"
     ],
-    "title": "Geneva",
+    "title": [
+      "Geneva"
+    ],
     "when": "07/24 - 07/25/2024",
     "year": "2024"
   },
@@ -94,7 +287,7 @@ const data = [
         "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBAH/xAAgEAACAgICAgMAAAAAAAAAAAAAAQIRAxIhYSIxQVGh/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABkRAQEBAQEBAAAAAAAAAAAAAAARARICMf/aAAwDAQACEQMRAD8ARy4pLyWr7LnpnfOLHCLrgtSYaq+BSGq7CQ1X0CMlJ/P4c3ZYskkqT4LUmJ4pt7bNlxn0nsjTJsuwMdmHQcqAlDK4v0PhuVpi7Xonacuuh2cv/9k="
       }
     ],
-    "id": "corsica-2023",
+    "id": "corsica",
     "location": {
       "country": "France",
       "continent": "Europe"
@@ -114,7 +307,10 @@ const data = [
       "france",
       "destination"
     ],
-    "title": "Corsica",
+    "title": [
+      "Porto-Vec.",
+      "+ Ajaccio"
+    ],
     "when": "07/05 - 07/07/2023",
     "year": "2023"
   },
@@ -140,7 +336,7 @@ const data = [
         "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgAB/8QAHxABAAIBBQEBAQAAAAAAAAAAAQACEQMSEyFhUTFx/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABgRAQEBAQEAAAAAAAAAAAAAAAARARIh/9oADAMBAAIRAxEAPwA8bOlcpreJ8kuLNXE+RcJrONJbiTVsip6BrWUwTFdoQ6tnNRT+SUi3WU+xSFZsGcj4RU5EvZ+HrL0cs0thbuvf3My0bdLXwuFhRxIEd9Z/JQLGGB//2Q=="
       }
     ],
-    "id": "gr20-2023",
+    "id": "the-gr-20",
     "location": {
       "country": "France",
       "continent": "Europe"
@@ -164,7 +360,9 @@ const data = [
       "france",
       "backpacking"
     ],
-    "title": "The GR 20",
+    "title": [
+      "The GR 20"
+    ],
     "when": "06/21 - 07/03/2023",
     "year": "2023"
   },
@@ -190,7 +388,7 @@ const data = [
         "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgEE/8QAGRABAQEBAQEAAAAAAAAAAAAAAQATEQJB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/ANKRBSUgpUiJKkFJSNDZbH0wHsE7BGAPpPsE1YDowTRgmvYP/9k="
       }
     ],
-    "id": "egypt-2022",
+    "id": "cairo-and-luxor",
     "location": {
       "country": "Egypt",
       "continent": "Africa"
@@ -210,35 +408,30 @@ const data = [
       "africa",
       "destination"
     ],
-    "title": "New Years in Egypt",
+    "title": [
+      "Cairo",
+      "+ Luxor"
+    ],
     "when": "12/29/2022 – 01/06/2023",
     "year": "2023"
   },
   {
     "category": "Backpacking",
     "coordinates": "40.0080° N, 87.5717° W",
-    "count": 6,
+    "count": 3,
     "cover": [
       {
         "src": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
         "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAEDAv/EACIQAAICAQIHAQAAAAAAAAAAAAABAhEhAxIiMTJBQnGBYf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AM1jVixLsR4nGzppsy0nj9Oe8vRpKVQSaRm/LDKLHqfoEi+L4ANI6Vyu8mmzbi7AIqOK/TjbG8XYAFUE1zYACP/Z"
-      },
-      {
-        "src": "2025/10/18/efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg",
-        "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCAf/EAB8QAAIBAwUBAAAAAAAAAAAAAAABEQISQQMTITFRkf/EABYBAQEBAAAAAAAAAAAAAAAAAAIBAP/EABcRAQEBAQAAAAAAAAAAAAAAAAABERL/2gAMAwEAAhEDEQA/ACaNqCcc9YNJOcfSS4tmqKg0qSb1LVClslfVnkXVDmRZtN+AjfmQRRppTJyHan236AE2dx9BajmABDW71UnNMsAGR//Z"
-      },
-      {
-        "src": "2026/03/14/1e1be596-c236-4cee-9eb2-fac89329e0e6.jpeg",
-        "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBP/EACEQAAIBAwMFAAAAAAAAAAAAAAABERJSoQIhkSIxUVOC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwDokSSSd74RpJ3YFwmqbCfBP7wN/Y+EKRQE+q/AFWJyxUAZaExVLACGpx2AAV//2Q=="
       }
     ],
-    "id": "overnight-domestic-hikes",
+    "id": "ice-age-trail",
     "location": {
       "country": "United States",
       "continent": "North America"
     },
     "notes": [
-      "This is a catalog of my overnight hikes, mainly throughout the midwest in states such as Illinois, Iowa, and Wisconsin. It's not the distance or lack of big elevation gains on these trails that gets you; it's the constant up and down over rolling hills."
+      "A place of kettles and moraines from mile-thick glaciers long ago in Wisconsin, completing this 1,200 mile long-distance national scenic trail in sections takes time. It's not the distance on this trail that gets you; it's the constant up and down over rolling hills."
     ],
     "position": [
       "48%",
@@ -252,13 +445,13 @@ const data = [
       "hills",
       "north america",
       "wisconsin",
-      "iowa",
-      "illinois",
       "usa",
       "backpacking",
       "IAT"
     ],
-    "title": "Overnight Hikes",
+    "title": [
+      "Ice Age Trail"
+    ],
     "when": "2022+",
     "year": "2022+"
   },
@@ -276,7 +469,7 @@ const data = [
         "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIBAwT/xAAiEAEAAQMDBAMAAAAAAAAAAAABAAISQREhUQMTMTJhobH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAERL/2gAMAwEAAhEDEQA/AO5tECjgkmXBFFwygqV4kC/4g0l6hxEBWOJIa6eJIvOGSeTxMNL7qGn5GhZVU5hoxui+28NKGgY+5Ux//9k="
       }
     ],
-    "id": "west-highland-way-2022",
+    "id": "west-highland-way",
     "location": {
       "country": "Scotland",
       "continent": "Europe"
@@ -299,7 +492,11 @@ const data = [
       "backpacking",
       "WHW"
     ],
-    "title": "West Highland Way",
+    "title": [
+      "West",
+      "Highland",
+      "Way"
+    ],
     "when": "05/07 - 05/12/2022",
     "year": "2022"
   },
@@ -313,7 +510,7 @@ const data = [
         "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIDAQT/xAAfEAADAQABBQEBAAAAAAAAAAAAAQIREgMhMVFxQWH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwCIpJ92U5mvHZfDBcvRpNPw9A3npzhczhlNJfmFql7JVjV5gIqmp1S38BB4taO628AKL3ji/hU0ARV11OE7m6AAP//Z"
       }
     ],
-    "id": "san-juan-2022",
+    "id": "san-juan",
     "location": {
       "country": "Puerto Rico",
       "continent": "North America"
@@ -333,9 +530,46 @@ const data = [
       "caribbean",
       "destination"
     ],
-    "title": "San Juan",
+    "title": [
+      "San Juan",
+      "P.R."
+    ],
     "when": "03/22 - 03/25/2022",
     "year": "2022"
+  },
+  {
+    "category": "Destinations",
+    "coordinates": "46.7666° N, -89.7502° W",
+    "count": 3,
+    "cover": [
+      {
+        "src": "2020/07/01/d2eed074-7e71-44c6-9f3a-1bf375430ab3.jpeg",
+        "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAQACAwT/xAAfEAACAgEEAwAAAAAAAAAAAAAAARESAgMTQVEhYXH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAbEQEBAQACAwAAAAAAAAAAAAAAARECEiFBUf/aAAwDAQACEQMRAD8A27y6HQlrY8lqw7mL5IYrrsliui1Y5LJGWlb0OUbDL+DOLN5fDI+IPNNjFs9NyX2xSaUthvxowPaxnrA/AXlaZxgmWBLBP//Z"
+      }
+    ],
+    "id": "the-porkies",
+    "location": {
+      "country": "United States",
+      "continent": "North America"
+    },
+    "notes": [
+      "The Porcupine Mountains, spanning roughly 60,000 acres in the western Upper Peninsula of Michigan, comprise a large wilderness state park characterized by old-growth forest, rugged slate and shale ridges, and Lake Superior shoreline."
+    ],
+    "position": [
+      "47.5%",
+      "18%"
+    ],
+    "tags": [
+      "landscape",
+      "nature",
+      "michigan",
+      "upper peninsula"
+    ],
+    "title": [
+      "The Porkies"
+    ],
+    "when": "07/01 - 07/03/2020",
+    "year": "2020"
   },
   {
     "category": "Backpacking",
@@ -355,7 +589,7 @@ const data = [
         "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAeACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgADAf/EACIQAAICAQIHAQAAAAAAAAAAAAABAhEhAxITMUFRYXGhsf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AN0KzKGo+UoNeinNtJaadrLvBFPiLusOgauq0nGNt/hlsd215o5Jtyd9CVYGrdeyNeFuSvCIUbuNoDjJLLsm6XUO7BBb33Yo6bb3TdgbfMrd0BrJ4IF+PpAf/9k="
       }
     ],
-    "id": "o-circuit-2020",
+    "id": "o-circuit",
     "location": {
       "country": "Chile",
       "continent": "South America"
@@ -378,7 +612,9 @@ const data = [
       "chile",
       "backpacking"
     ],
-    "title": "O Circuit",
+    "title": [
+      "O Circuit"
+    ],
     "when": "02/18 - 02/25/2020",
     "year": "2020"
   },
@@ -392,7 +628,7 @@ const data = [
         "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMCAQT/xAAfEAEBAAICAgMBAAAAAAAAAAABAAIRITESEwMiQVH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AN4/KNQyG8wj0Db4OiC+5ul5mu9XPYfrqC3lKJmPAkgh7D+WjNfziSDhmdpzbfqbQ5kg4ZbkkR//2Q=="
       }
     ],
-    "id": "pokhara-2019",
+    "id": "pokhara",
     "location": {
       "country": "Nepal",
       "continent": "Asia"
@@ -410,7 +646,9 @@ const data = [
       "asia",
       "destination"
     ],
-    "title": "Pokhara",
+    "title": [
+      "Pokhara"
+    ],
     "when": "11/06 - 11/08/2019",
     "year": "2019"
   },
@@ -428,7 +666,7 @@ const data = [
         "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDAv/EACAQAAICAQMFAAAAAAAAAAAAAAABAhExAyFBEiJRcaH/xAAXAQEBAQEAAAAAAAAAAAAAAAABAgAD/8QAGBEBAAMBAAAAAAAAAAAAAAAAAAECEhH/2gAMAwEAAhEDEQA/AIp9LsusdryiHI4ycWmnjgYkWr1veqt0Nqk5Paii1ISjaUV5Ia+opbL4VpGEm7dsBAQ6ttmlhOk/YATBJxoywAWIAAwf/9k="
       }
     ],
-    "id": "annapurna-basecamp-2019",
+    "id": "annapurna-basecamp",
     "location": {
       "country": "Nepal",
       "continent": "Asia"
@@ -449,7 +687,10 @@ const data = [
       "nepal",
       "basecamp"
     ],
-    "title": "Annapurna I Basecamp",
+    "title": [
+      "Annapurna",
+      "Basecamp"
+    ],
     "when": "11/01 - 11/05/2019",
     "year": "2019"
   },
@@ -471,7 +712,7 @@ const data = [
         "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAEDAv/EACQQAAIBAwMDBQAAAAAAAAAAAAABAhESIQMxUQQTQSIyQmGR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFxEBAQEBAAAAAAAAAAAAAAAAAAEREv/aAAwDAQACEQMRAD8AKUn83+h67jhSbKtO5Y3I+nxyy6nLK+55Zomt6nHYn4Re1KPhsaSOnP01TBnOEsNqleQNMa1XA3eG8fYBhtZTk1S5pmTlqwl71gAsSpdqT3aYAKP/2Q=="
       }
     ],
-    "id": "annapurna-circuit-2019",
+    "id": "annapurna-circuit",
     "location": {
       "country": "Nepal",
       "continent": "Asia"
@@ -493,7 +734,10 @@ const data = [
       "nepal",
       "backpacking"
     ],
-    "title": "Annapurna Circuit",
+    "title": [
+      "Annapurna",
+      "Circuit"
+    ],
     "when": "10/19 - 11/01/2019",
     "year": "2019"
   },
@@ -511,7 +755,7 @@ const data = [
         "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQIEAP/EAB0QAQEAAgIDAQAAAAAAAAAAAAEAAgQRURMUQWH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwCjGqKMILMaKoIEIMXnT5Amw9ECbL1BXtfkhSbR1IVnSipyxqg44g5gIP/Z"
       }
     ],
-    "id": "southern-colorado-rockies",
+    "id": "southern-rockies",
     "location": {
       "country": "United States",
       "continent": "North America"
@@ -531,7 +775,10 @@ const data = [
       "north america",
       "summits"
     ],
-    "title": "Southern Colorado Rockies",
+    "title": [
+      "Southern",
+      "Rockies"
+    ],
     "when": "2019+",
     "year": "2019+"
   },
@@ -553,7 +800,7 @@ const data = [
         "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAQACAwT/xAAgEAACAgICAgMAAAAAAAAAAAAAAQIRAyExUQQSQZGx/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABkRAQEBAQEBAAAAAAAAAAAAAAABERIhAv/aAAwDAQACEQMRAD8As4vpnTXCyhxa5RdSywUAUAUBs8vrzs5bHf1lPyOarYlLF8eZSW0k/wBLpiTyL4ROjnSskXFXX0aTxx+77MNlXIm4NIIzaLVp3wFMYLos+qmR/9k="
       }
     ],
-    "id": "alta-via-1-2019",
+    "id": "alta-via-1",
     "location": {
       "country": "Italy",
       "continent": "Europe"
@@ -577,7 +824,9 @@ const data = [
       "backpacking",
       "AV1"
     ],
-    "title": "Alta Via 1",
+    "title": [
+      "Alta Via 1"
+    ],
     "when": "07/16 - 07/25/2019",
     "year": "2019"
   },
@@ -599,7 +848,7 @@ const data = [
         "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBAH/xAAdEAACAgIDAQAAAAAAAAAAAAAAAQIRAyETMVGh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAIB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/ANdnGzMsvj+jkfoGhs5ZU8miLyAXWCiM76BjVNIVW0wCKpJS10RtSALSnF1pAANf/9k="
       }
     ],
-    "id": "tour-du-mont-blanc-2018",
+    "id": "tour-du-mont-blanc",
     "location": {
       "country": "France, Italy, Switzerland",
       "continent": "Europe"
@@ -622,7 +871,10 @@ const data = [
       "backpacking",
       "TMB"
     ],
-    "title": "Tour du Mont Blanc",
+    "title": [
+      "Tour du",
+      "Mont Blanc"
+    ],
     "when": "09/02 - 09/13/2018",
     "year": "2018"
   },
@@ -644,7 +896,7 @@ const data = [
         "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIDAQT/xAAhEAACAQQCAgMAAAAAAAAAAAAAARECEjFRISIjQXGBof/EABYBAQEBAAAAAAAAAAAAAAAAAAABA//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwD0Zw4OdsMzVUPhQXfztfAoONohpPf0XdS8wOhakZVUTjILdm/0CpGQAMGimvHdPsiWvbAKrkvYAA//2Q=="
       }
     ],
-    "id": "camino-frances-2018",
+    "id": "camino-frances",
     "location": {
       "country": "Spain",
       "continent": "Europe"
@@ -668,7 +920,10 @@ const data = [
       "spain",
       "backpacking"
     ],
-    "title": "Camino Frances",
+    "title": [
+      "Camino",
+      "Frances"
+    ],
     "when": "06/02 - 07/04/2018",
     "year": "2018"
   },
@@ -686,7 +941,7 @@ const data = [
         "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAwABAgT/xAAkEAABBAEDAwUAAAAAAAAAAAABAAIDESEEEjETQYEiUmGRof/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/ALlmo03J7qozFKTJRODwgQyMB9TggOTUcCMeSgyNRIBW/wDEBbs4woq225/byg6iI9tEfSVICUMaKBPwEqwSBjA33FBpsQacOKFJWOVIUToQclxVKnRbXJQf/9k="
       }
     ],
-    "id": "santiago-and-patagonia-2016",
+    "id": "central-and-southern-chile",
     "location": {
       "country": "Chile",
       "continent": "South America"
@@ -707,7 +962,10 @@ const data = [
       "africa",
       "destination"
     ],
-    "title": "Santiago & Patagonia",
+    "title": [
+      "Central",
+      "+ S. Chile"
+    ],
     "when": "03/18 - 03/27/2016",
     "year": "2016"
   },
@@ -721,7 +979,7 @@ const data = [
         "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAA1ACgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT/xAAiEAACAgEFAAMBAQAAAAAAAAAAAQIRIQMSMUFRE2GRIiP/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEQMRAD8App6jk372iil7g5IOpKnk6q5EVkpRXYs9XFV+EdZv5GvBVJ0ZtMhJu3YGSoAJsW0sUO5VJUzYx/0krWPoNlrGXQkOUG90t1+eiSqUv4TS7sptajXxRf3ZGSlHDVACyaAzICnXGFycneSqS6DPQdGSxLwnrKO3Kd/RRq+CctNbb3P9FOXhgPONN5TAk7ODHwAEmLkXVltXHIASc83b4SAAFP/Z"
       }
     ],
-    "id": "argentina-and-uruguay-2015",
+    "id": "argentina-and-uruguay",
     "location": {
       "country": "Argentina & Uruguay",
       "continent": "South America"
@@ -739,7 +997,10 @@ const data = [
       "buenos aires",
       "destination"
     ],
-    "title": "Argentina & Uruguay",
+    "title": [
+      "Argentina",
+      "+ Uruguay"
+    ],
     "when": "03/19 - 03/25/2015",
     "year": "2015"
   }
