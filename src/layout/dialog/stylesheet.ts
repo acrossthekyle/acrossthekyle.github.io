@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    fixed inset-0 z-9999
+    fixed top-2 left-0 right-0 bottom-10 z-9999
     w-screen max-w-full
     h-full max-h-full
     bg-transparent
@@ -14,7 +14,7 @@ const styles = tw({
     backdrop:fixed
     backdrop:inset-0
     backdrop:outline-none
-    backdrop:bg-black/50
+    backdrop:bg-(--background)
     backdrop:backdrop-blur-xl
 
     motion-safe:backdrop:opacity-0

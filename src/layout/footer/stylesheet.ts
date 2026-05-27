@@ -21,7 +21,7 @@ const styles = tw({
     uppercase
     tracking-widest
 
-    md:font-extralight
+    md:font-light
     lg:fixed
     lg:right-0
     lg:bottom-4

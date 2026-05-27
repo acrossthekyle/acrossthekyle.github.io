@@ -11,12 +11,8 @@ import {
   useState,
 } from 'react';
 
-import type { Collection, Data } from '@/types';
-
 type Input = {
-  data: {
-    image: Data;
-  };
+  data: object; // allow anything
 };
 
 type DialogContextType = {

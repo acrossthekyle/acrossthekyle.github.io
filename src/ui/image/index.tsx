@@ -2,17 +2,13 @@ import NextJsImage from 'next/image';
 
 type Props = {
   className?: string;
-  priority?: boolean;
-  quality?: number;
   size?: string;
   src: string;
-  thumb?: string;
+  thumb: string;
 };
 
 export default function Image({
   className = '',
-  priority,
-  quality,
   size,
   src,
   thumb,
@@ -25,9 +21,7 @@ export default function Image({
       draggable="false"
       height={432}
       key={src}
-      loading={priority ? 'eager' : 'lazy'}
-      placeholder={thumb ? 'blur' : 'empty'}
-      quality={quality}
+      placeholder="blur"
       sizes={size === 'large' ? '80vw' : '33vw'}
       src={src}
       width={768}

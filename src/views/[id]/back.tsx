@@ -10,7 +10,7 @@ export default function Back() {
 
   return (
     <button className={styles.back} onClick={router.back} type="button">
-      <ArrowLeft className={styles.icon} /> Collections
+      <ArrowLeft className={styles.icon} /> Back
     </button>
   );
 }

@@ -2,28 +2,30 @@ import tw from '@/styles';
 
 const PATTERNS = [
   [
-    'aspect-square sm:aspect-auto sm:col-span-9 sm:row-span-7 sm:border-r-1',
-    'aspect-5/6 sm:aspect-auto sm:col-span-7 sm:row-span-7',
-    'aspect-16/12 sm:aspect-auto sm:col-span-16 sm:row-span-5'
+    'aspect-square xs:aspect-auto xs:col-span-8 xs:row-span-6 sm:col-span-9 sm:row-span-7',
+    'aspect-5/6 xs:aspect-auto xs:col-span-8 xs:row-span-6 sm:col-span-7 sm:row-span-7',
+    'aspect-16/12 xs:aspect-auto xs:col-span-16 xs:row-span-6 sm:col-span-16 sm:row-span-5'
   ],
   [
-    'aspect-square sm:aspect-auto sm:col-span-7 sm:row-span-7 sm:border-r-1',
-    'aspect-5/6 sm:aspect-auto sm:col-span-9 sm:row-span-7',
-    'aspect-16/12 sm:aspect-auto sm:col-span-16 sm:row-span-5'
+    'aspect-square xs:aspect-auto xs:col-span-8 xs:row-span-6 sm:col-span-7 sm:row-span-7',
+    'aspect-5/6 xs:aspect-auto xs:col-span-8 xs:row-span-6 sm:col-span-9 sm:row-span-7',
+    'aspect-16/12 xs:aspect-auto xs:col-span-16 xs:row-span-6 sm:col-span-16 sm:row-span-5'
   ]
 ];
 
 const styles = tw({
   container: `
     h-auto w-full
-    divide-x divide-current/10
-    border-b-1 border-x-1 border-current/10
+    border-b-0 border-current/10
 
     md:h-[calc(100vh-5rem)]
     md:grid
     md:grid-cols-12
+    md:border-x-1
+    md:divide-x
+    md:divide-current/10
+    md:border-b-1
     lg:h-screen
-    lg:border-b-0
 
     motion-safe:opacity-0
     motion-safe:animate-fade-in
@@ -80,7 +82,7 @@ const styles = tw({
   `,
   count: `
     absolute left-full
-    ml-1.25
+    ml-2
     text-tiny
     font-light
   `,
@@ -112,12 +114,13 @@ const styles = tw({
   footer: `
     flex justify-between
     p-4
-    border-t-1 border-current/10
+    border-t-1 border-b-1 border-current/10
     uppercase
     font-normal
     text-tiny
     tracking-widest
 
+    md:border-b-0
     md:text-xtiny
   `,
   grid: `
@@ -130,30 +133,53 @@ const styles = tw({
     motion-safe:opacity-0
     motion-safe:animate-fade-in-up-slightly-delayed
   `,
-  cell: (parent: number, total: number, group: number) => {
-    const isLastGroup = parent === total - 1;
-    const isIncomplete = group < 3;
+  cell: (total: number) => {
+    const isIncomplete = total < 3;
 
-    if (isLastGroup && isIncomplete) {
+    const common = `
+      p-4
+
+      md:h-[calc((100vh-5rem)*7/12)]
+      lg:h-[calc(100vh*7/12)]
+    `;
+
+    if (isIncomplete) {
+      if (total === 1) {
+        return tw(`
+          h-auto w-full
+
+          xs:h-124
+
+          ${common}
+        `);
+      }
+
       return tw(`
         h-auto w-full
 
-        sm:grid
-        sm:grid-cols-16
+        xs:gap-4
+        xs:grid
+        xs:grid-cols-16
+        xs:grid-rows-5
+        xs:min-h-84
         sm:grid-rows-7
-        sm:h-[calc((100vh-5rem)*7/12)]
-        lg:h-[calc(100vh*7/12)]
+
+        ${common}
       `);
     }
 
     return tw(`
       h-auto w-full
+      p-4 pb-0
 
-      sm:grid
-      sm:grid-cols-16
+      xs:grid
+      xs:grid-cols-16
+      xs:grid-rows-12
+      xs:gap-4
+      sm:h-screen
       sm:grid-rows-12
-      sm:h-[calc(100vh-5rem)]
-      lg:h-full
+      md:h-[calc(100vh-5rem)]
+      lg:h-[calc(100vh-1rem)]
     `);
   },
   figure: (parent: number, index: number) => tw(`
@@ -161,16 +187,8 @@ const styles = tw({
 
     relative
     w-full
-    p-4 pt-10
-    border-t-1 border-current/10
 
     sm:h-full
-    md:border-b-1
-    md:border-t-0
-
-    motion-safe:duration-800
-    motion-safe:ease-in-out
-    motion-safe:hover:shadow-xl
   `),
   cta: `
     group
@@ -178,19 +196,20 @@ const styles = tw({
     overflow-hidden
   `,
   image: `
+    rounded-sm
+
     motion-safe:grayscale
     motion-safe:opacity-85
     motion-safe:duration-1000
     motion-safe:ease-in-out
-    motion-safe:group-hover:scale-102
     motion-safe:group-hover:grayscale-0
-    motion-safe:group-hover:opacity-90
+    motion-safe:group-hover:opacity-100
   `,
   caption: `
-    absolute inset-4 z-10
+    absolute inset-2 z-10
     grid grid-cols-2 grid-rows-2
-    text-tiny
-    font-normal
+    text-tiny text-white
+    font-semibold
     tracking-widest
     uppercase
     pointer-events-none
@@ -203,14 +222,6 @@ const styles = tw({
   `,
   key: `
     justify-self-end self-start
-    pointer-events-auto
-  `,
-  location: `
-    justify-self-start self-end
-    pointer-events-auto
-  `,
-  elevation: `
-    justify-self-end self-end
     pointer-events-auto
   `,
 });

@@ -5,8 +5,8 @@
   --animate-fade-in-delayed: .3s fadeIn 6.25s ease-in forwards;
   --animate-fade-in-up: slide-up-fade .4s ease-in forwards;
   --animate-fade-in-slightly-delayed: .4s fadeIn .3s ease-in-out forwards;
-  --animate-fade-in-up-slightly-delayed: .4s slide-up-fade .3s ease-in-out forwards;
-  --animate-fade-in-down-slightly-delayed: .4s slide-down-fade .3s ease-in-out forwards;
+  --animate-fade-in-up-slightly-delayed: .4s slide-up-fade .2s ease-in-out forwards;
+  --animate-fade-in-down-slightly-delayed: .4s slide-down-fade .2s ease-in-out forwards;
   --animate-fade-out-up: slide-up-fade-out .1s ease-in-out forwards;
 
   --animate-greeting: fade-in-and-out 7s ease-in-out forwards;
@@ -15,7 +15,7 @@
   --animate-really-sorry: 7s fade-in-and-out 21s ease-in-out forwards;
   --animate-any-second-now: 7s fade-in-and-out 28s ease-in-out forwards;
 
-  --breakpoint-xs: 24.375rem; /* 390px */
+  --breakpoint-xs: 23rem; /* 368px */
 
   --font-sans: var(--font-geist-sans);
 
@@ -56,11 +56,6 @@ html:has(dialog[open]) {
   overflow: hidden;
 }
 
-html, body {
-  overscroll-behavior-y: none;
-  overscroll-behavior-x: auto;
-}
-
 body {
   button {
     cursor: pointer;
@@ -86,18 +81,25 @@ body {
   }
 }
 
+@media (min-width: 1024px) {
+  html, body {
+    overscroll-behavior-y: none;
+    overscroll-behavior-x: auto;
+  }
+}
+
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
 
 @keyframes slide-up-fade {
-  0% { opacity: 0; transform: translateY(2rem); }
+  0% { opacity: 0; transform: translateY(4rem); }
   100% { opacity: 1; transform: translateY(0); }
 }
 
 @keyframes slide-down-fade {
-  0% { opacity: 0; transform: translateY(-2rem); }
+  0% { opacity: 0; transform: translateY(-4rem); }
   100% { opacity: 1; transform: translateY(0); }
 }
 

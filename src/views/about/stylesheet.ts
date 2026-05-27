@@ -5,22 +5,19 @@ const styles = tw({
     h-auto w-full
     flex flex-col
     divide-y divide-current/10
-    border-current/10
 
     sm:grid
     sm:grid-cols-2
     sm:divide-x
+    lg:border-l-1
+    lg:border-current/10
     lg:h-screen
+    lg:divide-y-0
     lg:grid-cols-3
-    lg:border-x-1
-    lg:border-b-0
-
-    motion-safe:opacity-0
-    motion-safe:animate-fade-in
   `,
   header: `
     order-0
-    h-[calc(75vh-2.5rem)]
+    h-[84vh]
     flex flex-col items-start justify-end
     p-4
     text-[min(10vw,32px)]
@@ -30,9 +27,9 @@ const styles = tw({
 
     xs:text-[2.25rem]
     sm:h-[calc(100vh-2.5rem)]
-    sm:text-[min(3.5vw,32px)]
-    lg:text-[min(3vw,42px)]
+    sm:text-[min(5vw,40px)]
     lg:h-screen
+    lg:text-[min(3.5vw,42px)]
 
     motion-safe:opacity-0
     motion-safe:animate-fade-in-up-slightly-delayed
@@ -40,23 +37,22 @@ const styles = tw({
   content: `
     order-2
     flex flex-col justify-between
-    divide-y divide-current/10
+    overflow-y-scroll
 
-    sm:border-current/10
     sm:col-span-2
     lg:order-1
     lg:col-span-1
-    lg:border-t-0
 
     motion-safe:opacity-0
     motion-safe:animate-fade-in-down-slightly-delayed
   `,
   section: `
-    p-4 pb-6
+    flex flex-col justify-start
+    p-4
+    border-t-1 border-current/10
 
-    lg:pb-16
-
-    last:pb-4
+    first:border-t-0
+    last:justify-end
   `,
   heading: `
     flex flex-row-reverse justify-between
@@ -95,7 +91,7 @@ const styles = tw({
     motion-safe:animate-fade-in-up-slightly-delayed
   `,
   image: `
-    opacity-85
+    opacity-90
   `,
 });
 

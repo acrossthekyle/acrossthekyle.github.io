@@ -11,6 +11,7 @@ const message = `
 
 const styles = tw({
   container: (isVisible: boolean) => tw(`
+    hidden
     fixed inset-0 z-9998
     flex items-center justify-center
     bg-(--background)

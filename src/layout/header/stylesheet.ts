@@ -9,7 +9,7 @@ const styles = tw({
     lg:fixed
     lg:left-0
     lg:top-0
-    lg::z-10
+    lg:z-10
     lg:w-10
     lg:h-screen
     lg:flex-col
@@ -49,7 +49,7 @@ const styles = tw({
     tracking-widest
 
     md:text-xtiny
-    md:font-extralight
+    md:font-light
     lg:fixed
     lg:left-0
     lg:bottom-4
@@ -61,6 +61,9 @@ const styles = tw({
 
     motion-safe:opacity-0
     motion-safe:animate-fade-in-slightly-delayed
+  `,
+  strong: `
+    font-black
   `,
 });
 

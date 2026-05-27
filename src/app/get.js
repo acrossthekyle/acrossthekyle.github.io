@@ -10,7 +10,7 @@ export default async function get() {
     location,
     title,
     year,
-  }));
+  })).filter(({ count }) => count > 0);
 
   return Array.from({ length: Math.ceil(data.length / 6) }, (_, index) =>
     data.slice(index * 6, index * 6 + 6)

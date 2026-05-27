@@ -61,7 +61,7 @@ export default function View({ data }: Props) {
           return (
             <li
               key={parent}
-              className={styles.cell(parent, data.images.length, group.length)}
+              className={styles.cell(group.length)}
             >
               {group.map((image, child) => {
                 globalIndex++;

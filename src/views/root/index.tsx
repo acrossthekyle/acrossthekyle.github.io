@@ -18,9 +18,9 @@ export default function View({ data }: Props) {
   let globalIndex = 0;
 
   return (
-    <>
+    <div className={styles.masonry}>
       {data.collections.map((chunk, parent) => (
-        <ul className={styles.grid} key={parent}>
+        <ul className={styles.grid(chunk.length < 6)} key={parent}>
           {chunk.map((collection, index) => {
             globalIndex++;
 
@@ -33,15 +33,18 @@ export default function View({ data }: Props) {
                 isPreview={isPreview}
                 key={collection.id}
                 parent={parent}
+                total={chunk.length}
               >
                 <p className={styles.location}>
                   {isPreview ? (
                     <>
-                      Coming Soon, {collection.year}
+                      <span>Coming Soon,</span>
+                      <span>{collection.year}</span>
                     </>
                   ) : (
                     <>
-                      {collection.category}, {trimCardinal(collection.location.continent)}
+                      <span>{collection.category},</span>
+                      <span>{trimCardinal(collection.location.continent)}</span>
                     </>
                   )}
                 </p>
@@ -53,7 +56,7 @@ export default function View({ data }: Props) {
                     <span className={styles.chunk} key={chunk}>
                       {chunk}
                       {!isPreview && part === 0 && (
-                        <span className={styles.count}>({collection.count})</span>
+                        <span className={styles.count}>( {collection.count} )</span>
                       )}
                     </span>
                   ))}
@@ -66,6 +69,6 @@ export default function View({ data }: Props) {
           })}
         </ul>
       ))}
-    </>
+    </div>
   );
 }

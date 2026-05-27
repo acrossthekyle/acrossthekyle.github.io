@@ -6,7 +6,7 @@ export default function Header() {
     <header className={styles.container}>
       <Anchor />
       <p className={styles.tagline}>
-        A collection of hikes, summits, and experiences
+        A <span className={styles.strong}>catalog</span> of hikes, summits, and experiences
       </p>
     </header>
   );

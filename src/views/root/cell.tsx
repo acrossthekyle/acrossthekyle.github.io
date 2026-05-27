@@ -12,6 +12,7 @@ type Props = {
   index: number;
   isPreview: boolean;
   parent: number;
+  total: number;
 };
 
 export default function Cell({
@@ -20,12 +21,13 @@ export default function Cell({
   index,
   isPreview,
   parent,
+  total,
 }: React.PropsWithChildren<Props>) {
   return (
     <InView threshold={0.1} triggerOnce>
       {({ inView, ref }) => (
         <li
-          className={styles.cell(parent, index)}
+          className={styles.cell(parent, total, index, href.replace('/', ''))}
           data-in-view={inView}
           ref={ref}
         >

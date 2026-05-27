@@ -111,7 +111,7 @@ const data = [
   {
     "category": "Backpacking",
     "coordinates": "40.0080° N, 87.5717° W",
-    "count": 1,
+    "count": 4,
     "cover": [
       {
         "src": "2026/03/14/1e1be596-c236-4cee-9eb2-fac89329e0e6.jpeg",
@@ -150,7 +150,7 @@ const data = [
   {
     "category": "Backpacking",
     "coordinates": "43.1713° N, 91.2594° W",
-    "count": 2,
+    "count": 4,
     "cover": [
       {
         "src": "2025/10/18/efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg",
@@ -190,7 +190,7 @@ const data = [
   {
     "category": "Backpacking",
     "coordinates": "45.8902° N, 6.7978° E",
-    "count": 11,
+    "count": 21,
     "cover": [
       {
         "src": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg",
@@ -293,8 +293,7 @@ const data = [
       "continent": "Europe"
     },
     "notes": [
-      "I had some time to waste after finishing the GR 20 2 days earlier than planned, so I spent a few days checking out the historic portions of the cities of Porto-Vecchio, and Ajaccio (the capital).",
-      "Porto-Vecchio had easy pedestrian access in the historic part, and great views at dinner thanks to the hillside location. Over on the west coast, Ajaccio had a more everyday vibe with a busy harbor always filled with cruise ships, and cafe-lined streets."
+      "I had some time to waste after finishing the GR 20 2 days earlier than planned, so I spent a few days checking out the historic portions of the cities of Porto-Vecchio, and Ajaccio (the capital). Porto-Vecchio had easy pedestrian access in the historic part, and great views at dinner thanks to the hillside location. Over on the west coast, Ajaccio had a more everyday vibe with a busy harbor always filled with cruise ships, and cafe-lined streets."
     ],
     "position": [
       "49%",
@@ -308,7 +307,8 @@ const data = [
       "destination"
     ],
     "title": [
-      "Porto-Vec.",
+      "Porto-",
+      "Vecchio",
       "+ Ajaccio"
     ],
     "when": "07/05 - 07/07/2023",
@@ -342,9 +342,7 @@ const data = [
       "continent": "Europe"
     },
     "notes": [
-      "The GR 20 was the last thru-hike on my original list from 2018 and is considered to be the most difficult of all trails in Europe, and it truly was.",
-      "It took me 13 days to hike 131 miles across the mountain range that bisects the island from North to South",
-      "Between the Northern starting point at Calenzana and the end at Conca in the South, there were hidden mountain lakes, expansive sea views, rugged and rocky cliffs, and remarkable panoramas. The highest point on the trek was 8,554 ft (2,607 m)."
+      "The GR 20 was the last thru-hike on my original list from 2018 and is considered to be the most difficult of all trails in Europe, and it truly was. It took me 13 days to hike 131 miles across the mountain range that bisects the island from North to South. Between the Northern starting point at Calenzana and the end at Conca in the South, there were hidden mountain lakes, expansive sea views, rugged and rocky cliffs, and remarkable panoramas. The highest point on the trek was 8,554 ft (2,607 m)."
     ],
     "position": [
       "49%",
@@ -450,7 +448,8 @@ const data = [
       "IAT"
     ],
     "title": [
-      "Ice Age Trail"
+      "Ice Age",
+      "Trail"
     ],
     "when": "2022+",
     "year": "2022+"
@@ -458,7 +457,7 @@ const data = [
   {
     "category": "Backpacking",
     "coordinates": "55.9440° N, 4.3200° W",
-    "count": 6,
+    "count": 22,
     "cover": [
       {
         "src": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
@@ -475,8 +474,7 @@ const data = [
       "continent": "Europe"
     },
     "notes": [
-      "In Scotland there is an overland trek that extends for 97 miles from a town near Glasgow heading towards Fort William. This was one of the shorter thru-hikes I've done, taking only 6 days to complete it. I camped every night in fields, on stony beaches, and under bridges.",
-      "The first two days had clear skies, but the rest of the hike was filled with nearly endless rain. The highlands were truly spectacular, despite the constant downpours."
+      "In Scotland there is an overland trek that extends for 97 miles from a town near Glasgow heading towards Fort William. This was one of the shorter thru-hikes I've done, taking only 6 days to complete it. I camped every night in fields, on stony beaches, and under bridges. The first two days had clear skies, but the rest of the hike was filled with nearly endless rain. The highlands were truly spectacular, despite the constant downpours."
     ],
     "position": [
       "38.5%",
@@ -566,7 +564,8 @@ const data = [
       "upper peninsula"
     ],
     "title": [
-      "The Porkies"
+      "The",
+      "Porkies"
     ],
     "when": "07/01 - 07/03/2020",
     "year": "2020"
@@ -574,7 +573,7 @@ const data = [
   {
     "category": "Backpacking",
     "coordinates": "50.9652° S, 72.8635° W",
-    "count": 8,
+    "count": 24,
     "cover": [
       {
         "src": "2020/02/18/98e3190e-5480-4eb9-8883-c8d9fbb3f485.jpeg",
@@ -595,8 +594,7 @@ const data = [
       "continent": "South America"
     },
     "notes": [
-      "It had been a dream of mine for years to thru-hike the 'O' Circuit in Patagonia ever since my brief visit in 2016, and in 2020 I finally made it happen (just before COVID hit).",
-      "The trail did not disappoint: a tapestry of landscapes, sprawling glaciers, pristine lakes, and windswept plains provided an idyllic background for thru-hiking 73 miles over 8 days, with a pre-dawn hike up to the base of the 'Towers' being a perfect finale."
+      "It had been a dream of mine for years to thru-hike the 'O' Circuit in Patagonia ever since my brief visit in 2016, and in 2020 I finally made it happen (just before COVID hit), and the trail did not disappoint. A tapestry of landscapes, sprawling glaciers, pristine lakes, and windswept plains provided an idyllic background for thru-hiking 73 miles over 8 days, with a pre-dawn hike up to the base of the 'Towers' being a perfect finale."
     ],
     "position": [
       "96%",
@@ -613,6 +611,7 @@ const data = [
       "backpacking"
     ],
     "title": [
+      "The",
       "O Circuit"
     ],
     "when": "02/18 - 02/25/2020",
@@ -718,8 +717,7 @@ const data = [
       "continent": "Asia"
     },
     "notes": [
-      "Thru-hike over 14 days and 155 miles with a peak altitude of 17,812 ft (5,420 m) at Thorong La Pass. Rooms cost $1-3 each night with similar prices for meals, and the mattresses became more rock-like as the elevation went higher. Friendly locals helped us find our way on day one when we lost the route.",
-      "Overall amazing experience, and great food. #24-hour-Dal-Bhat-Power"
+      "Thru-hike over 14 days and 155 miles with a peak altitude of 17,812 ft (5,420 m) at Thorong La Pass. Rooms cost $1-3 each night with similar prices for meals, and the mattresses became more rock-like as the elevation went higher. Friendly locals helped us find our way on day one when we lost the route. Overall amazing experience, and great food. #24-hour-Dal-Bhat-Power"
     ],
     "position": [
       "53%",
@@ -761,8 +759,7 @@ const data = [
       "continent": "North America"
     },
     "notes": [
-      "Reaching the summits of the Rocky Mountains and breathing in the cold alpine air above 14,000 feet is an awe-inspiring experience offering unparalleled views and moments of profound triumph, a feeling of being on top of the world.",
-      "This is a collection of my summits completed so far: 9/53 peaks and counting"
+      "Reaching the summits of the Rocky Mountains and breathing in the cold alpine air above 14,000 feet is an awe-inspiring experience offering unparalleled views and moments of profound triumph, a feeling of being on top of the world. This is a collection of my summits completed so far: 9/53 peaks and counting"
     ],
     "position": [
       "50.5%",
@@ -806,9 +803,7 @@ const data = [
       "continent": "Europe"
     },
     "notes": [
-      "A Northern Italy one-way thru-hike in the Dolomites mountain range on the Alta Via 1 trail, heading North to South.",
-      "Total distance covered was 65 miles over 10 days, and elevation gains/losses were marginal at 25,109 ft (7,653 m) gained and 28,590 ft (8,714 m) respectively.",
-      "This trek had some of the best food I have ever eaten on a thru-hike."
+      "A Northern Italy one-way thru-hike in the Dolomites mountain range on the Alta Via 1 trail, heading North to South. Total distance covered was 65 miles over 10 days, and elevation gains/losses were marginal at 25,109 ft (7,653 m) gained and 28,590 ft (8,714 m) respectively. This trek had some of the best food I have ever eaten on a thru-hike."
     ],
     "position": [
       "45.5%",
@@ -833,7 +828,7 @@ const data = [
   {
     "category": "Backpacking",
     "coordinates": "45.8902° N, 6.7983° E",
-    "count": 12,
+    "count": 23,
     "cover": [
       {
         "src": "2018/09/02/135eea74-e1bc-4cab-bfd7-28d17405a744.jpeg",
@@ -854,8 +849,7 @@ const data = [
       "continent": "Europe"
     },
     "notes": [
-      "My second ever thru-hike that encircled a mountain called Mont Blanc in the European Alps. The trail's considered a classic long-distance hike and it took me 12 days over 106 miles (170 km) to complete while passing through France, Italy, and Switzerland.",
-      "It's a challenging experience filled with diverse landscapes, unique cultural blends, and stunning alpine scenery, all while sleeping in mountain huts and eating home-cooked meals each night."
+      "My second ever thru-hike that encircled a mountain called Mont Blanc in the European Alps. The trail's considered a classic long-distance hike and it took me 12 days over 106 miles (170 km) to complete while passing through France, Italy, and Switzerland. It's a challenging experience filled with diverse landscapes, unique cultural blends, and stunning alpine scenery, all while sleeping in mountain huts and eating home-cooked meals each night."
     ],
     "position": [
       "45%",
@@ -902,9 +896,7 @@ const data = [
       "continent": "Europe"
     },
     "notes": [
-      "I spent 35 days walking/hiking 600 miles across Northern Spain, and it changed me forever.",
-      "Starting high in the Pyrenees mountains between France and Spain, and leading to the Atlantic ocean, the Camino Frances is part of a series of routes collectively called El Camino de Santiago.",
-      "It covers a wide array of landscapes and cultures over hills and mountains, across deserts, through rivers, and in thick forests."
+      "I spent 35 days walking/hiking 600 miles across Northern Spain, and it changed me forever. Starting high in the Pyrenees mountains between France and Spain, and leading to the Atlantic ocean, the Camino Frances is part of a series of routes collectively called El Camino de Santiago that covers a wide array of landscapes and cultures over hills and mountains, across deserts, through rivers, and in thick forests."
     ],
     "position": [
       "48%",
@@ -947,8 +939,7 @@ const data = [
       "continent": "South America"
     },
     "notes": [
-      "This was my second time visiting South America. We explored Santiago and Valparaiso for a few days with visits to wineries, Lollapalooza, and a hike to a glacier in the Andes mountains.",
-      "We also took a few days to head down to Patagonia where we did a day hike up to the base of the Towers of Patagonia, took a cruise to see some glaciers, and stepped into a deep Ice Age cave."
+      "This was my second time visiting South America. We explored Santiago and Valparaiso for a few days with visits to wineries, Lollapalooza, and a hike to a glacier in the Andes mountains. We also took a few days to head down to Patagonia where we did a day hike up to the base of the Towers of Patagonia, took a cruise to see some glaciers, and stepped into a deep Ice Age cave."
     ],
     "position": [
       "85%",

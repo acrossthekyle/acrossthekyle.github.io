@@ -20,7 +20,10 @@ export default function Image({ child, image, index, parent }: Props) {
   const handleOnClick = () => {
     onDialog({
       data: {
-        image,
+        image: {
+          ...image,
+          index,
+        },
       },
     });
   };
