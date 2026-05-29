@@ -9,10 +9,12 @@
     "Cusco"
   ],
   "location": {
+    "region": "Southeastern Andes",
     "country": "Peru",
     "continent": "South America"
   },
   "category": "destinations",
+  "type": "vacation",
   "coordinates": "13.53195° S, 71.96746° W",
   "cover": [
     {

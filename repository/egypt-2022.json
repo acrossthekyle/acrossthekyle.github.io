@@ -10,10 +10,12 @@
     "+ Luxor"
   ],
   "location": {
+    "region": "Northern and Central Areas",
     "country": "Egypt",
     "continent": "Africa"
   },
   "category": "destinations",
+  "type": "vacation",
   "coordinates": "30.033333° N, 31.233334° E",
   "cover": [
     {

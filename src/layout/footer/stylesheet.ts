@@ -7,32 +7,31 @@ const styles = tw({
     flex flex-row items-center justify-between
 
     lg:fixed
-    lg:right-0
-    lg:top-0
+    lg:left-0
+    lg:bottom-0
     lg:z-10
-    lg:h-screen
+    lg:h-auto
     lg:w-10
-    lg:flex-col
+    lg:flex-col-reverse
+
+    motion-safe:opacity-0
+    motion-safe:animate-fade-in-up-slightly-delayed
   `,
   notice: `
-    mr-4
+    ml-4 mr-4
     text-xtiny text-right
-    font-normal
+    font-light
     uppercase
     tracking-widest
 
-    md:font-light
-    lg:fixed
-    lg:right-0
-    lg:bottom-4
-    lg:-translate-x-6.5
-    lg:w-64
-    lg:origin-bottom-right
-    lg:rotate-90
+    lg:translate-x-44.25
+    lg:origin-bottom-left
+    lg:-rotate-90
+    lg:w-82
+    lg:ml-0
     lg:mr-0
-
-    motion-safe:opacity-0
-    motion-safe:animate-fade-in-slightly-delayed
+    lg:mb-4
+    lg:text-left
   `,
   toggle: (theme: string) => tw(`
     relative
@@ -41,9 +40,6 @@ const styles = tw({
     w-3.5 h-3.5
     ml-4
     overflow-hidden
-
-    motion-safe:opacity-0
-    motion-safe:animate-fade-in-down-slightly-delayed
 
     ${theme === 'system' && `
       bg-(--foreground)
@@ -57,9 +53,14 @@ const styles = tw({
     `}
     ${theme === 'light' && 'bg-(--foreground)'}
 
-    lg:mt-4
-    lg:ml-0
+    lg:w-2.5
+    lg:h-2.5
+    lg:mb-4.75
+    lg:ml-3.25
   `),
+  strong: `
+    font-black
+  `,
 });
 
 export default styles;

@@ -1,6 +1,5 @@
 import type { Data } from '@/types';
 import { Ui } from '@/ui';
-import { padIndex } from '@/utils';
 
 import styles from './stylesheet';
 
@@ -26,16 +25,6 @@ export default function Template({ data }: Props) {
           src={data.image.src}
           thumb={data.image.thumb}
         />
-        <figcaption className={styles.caption}>
-          <span />
-          <span />
-          <span className={styles.location}>
-            {data.image.when} &mdash; {data.image.location.region}, {data.image.location.country}
-          </span>
-          <span className={styles.elevation}>
-            <Ui.Units.Length isSmall value={data.image.elevation} />
-          </span>
-        </figcaption>
       </figure>
     </div>
   );

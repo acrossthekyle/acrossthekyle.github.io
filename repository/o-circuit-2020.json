@@ -10,10 +10,12 @@
     "O Circuit"
   ],
   "location": {
+    "region": "The Patagonia Region",
     "country": "Chile",
     "continent": "South America"
   },
   "category": "backpacking",
+  "type": "thru-hike",
   "coordinates": "50.965190° S, 72.863461° W",
   "cover": [
     {
@@ -44,7 +46,8 @@
     "26%"
   ],
   "notes": [
-    "It had been a dream of mine for years to thru-hike the 'O' Circuit in Patagonia ever since my brief visit in 2016, and in 2020 I finally made it happen (just before COVID hit), and the trail did not disappoint. A tapestry of landscapes, sprawling glaciers, pristine lakes, and windswept plains provided an idyllic background for thru-hiking 73 miles over 8 days, with a pre-dawn hike up to the base of the 'Towers' being a perfect finale."
+    "It had been a dream of mine for years to thru-hike the 'O' Circuit in Patagonia ever since my brief visit in 2016, and in 2020 I finally made it happen (just before COVID hit), and the trail did not disappoint.",
+    "A tapestry of landscapes, sprawling glaciers, pristine lakes, and windswept plains provided an idyllic background for thru-hiking 73 miles over 8 days, with a pre-dawn hike up to the base of the 'Towers' being a perfect finale."
   ],
   "images": [
     {

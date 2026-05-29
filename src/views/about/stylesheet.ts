@@ -9,24 +9,28 @@ const styles = tw({
     sm:grid
     sm:grid-cols-2
     sm:divide-x
-    lg:border-l-1
-    lg:border-current/10
     lg:h-screen
     lg:divide-y-0
     lg:grid-cols-3
   `,
+
+
+
+
+
+
+
   header: `
     order-0
     h-[84vh]
     flex flex-col items-start justify-end
     p-4
-    text-[min(10vw,32px)]
+    text-[min(10vw,42px)]
     font-black
     leading-[0.85]
     uppercase
 
-    xs:text-[2.25rem]
-    sm:h-[calc(100vh-2.5rem)]
+    sm:h-svh
     sm:text-[min(5vw,40px)]
     lg:h-screen
     lg:text-[min(3.5vw,42px)]
@@ -34,6 +38,15 @@ const styles = tw({
     motion-safe:opacity-0
     motion-safe:animate-fade-in-up-slightly-delayed
   `,
+  title: `
+    flex flex-col gap-0
+  `,
+
+
+
+
+
+
   content: `
     order-2
     flex flex-col justify-between
@@ -56,7 +69,7 @@ const styles = tw({
   `,
   heading: `
     flex flex-row-reverse justify-between
-    mb-4
+    mb-2
     text-xs
     font-black
     uppercase
@@ -64,6 +77,7 @@ const styles = tw({
   index: `
     text-tiny
     font-light
+    tracking-[0.125rem]
 
     md:text-xtiny
   `,
@@ -79,13 +93,20 @@ const styles = tw({
   link: `
     underline underline-offset-2 decoration-dotted
   `,
+
+
+
+
+
   figure: `
     order-1
     h-[calc(75vh-2.5rem)]
+    border-b-1 border-current/10
 
-    sm:h-[calc(100vh-2.5rem)]
+    sm:h-svh
     lg:order-2
     lg:h-screen
+    lg:border-b-0
 
     motion-safe:opacity-0
     motion-safe:animate-fade-in-up-slightly-delayed

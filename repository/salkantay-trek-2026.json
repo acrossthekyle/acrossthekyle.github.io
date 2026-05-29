@@ -10,10 +10,12 @@
     "Trek"
   ],
   "location": {
+    "region": "Cusco Region",
     "country": "Peru",
     "continent": "South America"
   },
   "category": "backpacking",
+  "type": "thru-hike",
   "coordinates": "13.1632° S, 72.5453° W",
   "cover": [
     {

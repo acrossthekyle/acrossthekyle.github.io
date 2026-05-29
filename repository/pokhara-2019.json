@@ -9,10 +9,12 @@
     "Pokhara"
   ],
   "location": {
+    "region": "Gateway to the Himalayas",
     "country": "Nepal",
     "continent": "Asia"
   },
   "category": "destinations",
+  "type": "vacation",
   "coordinates": "28.209600° N, 83.985600° E",
   "cover": [
     {

@@ -7,18 +7,20 @@ import styles from './stylesheet';
 export default function View() {
   return (
     <article className={styles.container}>
-      <h1 className={styles.header}>
-        Hi<br />
-        I'm Kyle &mdash;<br />
-        an inspired<br />
-        backpacker<br />
-        and travel<br />
-        enthusiast<br />
-        living a<br />
-        city-based<br />
-        life in<br />
-        Chicago.<br />
-      </h1>
+      <header className={styles.header}>
+        <h1 className={styles.title}>
+          <span>Hi</span>
+          <span>I'm Kyle &mdash;</span>
+          <span>an inspired</span>
+          <span>backpacker</span>
+          <span>and travel</span>
+          <span>enthusiast</span>
+          <span>living a</span>
+          <span>city-based</span>
+          <span>life in</span>
+          <span>Chicago.</span>
+        </h1>
+      </header>
       <div className={styles.content}>
         <section className={styles.section}>
           <h2 className={styles.heading}>
@@ -35,7 +37,7 @@ export default function View() {
             Since then I've travelled to numerous destinations, and spent hundreds of days traipsing thousands of miles through nature and over mountain passes all around the world.
           </p>
           <p className={styles.paragraph}>
-            This is a nearly complete <Link className={styles.link} href="/">catalog</Link> of those experiences.
+            This is a nearly complete <Link className={styles.link} href="/catalog">catalog</Link> of those experiences.
           </p>
         </section>
         <section className={styles.section}>

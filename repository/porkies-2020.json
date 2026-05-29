@@ -10,11 +10,13 @@
     "Porkies"
   ],
   "location": {
-    "country": "United States",
+    "region": "Upper Peninsula",
+    "country": "Michigan",
     "continent": "North America"
   },
   "category": "destinations",
-  "coordinates": "46.7666° N, -89.7502° W",
+  "type": "vacation",
+  "coordinates": "46.7666° N, 89.7502° W",
   "cover": [
     {
       "src": "2020/07/01/d2eed074-7e71-44c6-9f3a-1bf375430ab3.jpeg",

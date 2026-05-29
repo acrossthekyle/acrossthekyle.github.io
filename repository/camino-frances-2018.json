@@ -10,10 +10,12 @@
     "Frances"
   ],
   "location": {
-    "country": "Spain",
+    "region": "The Autonomous Regions",
+    "country": "Northern Spain",
     "continent": "Europe"
   },
   "category": "backpacking",
+  "type": "thru-hike",
   "coordinates": "43.163415° N, 1.235811° W",
   "cover": [
     {
@@ -44,7 +46,8 @@
     "43%"
   ],
   "notes": [
-    "I spent 35 days walking/hiking 600 miles across Northern Spain, and it changed me forever. Starting high in the Pyrenees mountains between France and Spain, and leading to the Atlantic ocean, the Camino Frances is part of a series of routes collectively called El Camino de Santiago that covers a wide array of landscapes and cultures over hills and mountains, across deserts, through rivers, and in thick forests."
+    "Starting high in the Pyrenees mountains between France and Spain, and leading to the Atlantic ocean, the Camino Frances is part of a series of routes collectively called El Camino de Santiago that covers a wide array of landscapes and cultures over hills and mountains, across deserts, through rivers, and in thick forests.",
+    "I spent 35 days walking/hiking 600 miles across Northern Spain, and it changed me forever."
   ],
   "images": [
     {

@@ -18,8 +18,6 @@ function uppercaseFirst(value) {
 };
 
 function getWhen(date: null | string | string[]) {
-  const DIVIDER = '/';
-
   if (date === null) {
     return null;
   }
@@ -27,20 +25,20 @@ function getWhen(date: null | string | string[]) {
   if (!Array.isArray(date)) {
     const parsed = parseDate(date, 'M/dd/yyyy', new Date());
 
-    return `${formatDate(parsed, 'MM').trim()}${DIVIDER}${formatDate(parsed, 'dd').trim()}${DIVIDER}20${formatDate(parsed, 'yy').trim()}`;
+    return `${formatDate(parsed, 'MMMM').trim()} ${formatDate(parsed, 'do').trim()}, 20${formatDate(parsed, 'yy').trim()}`;
   }
 
   const start = parseDate(date[0], 'M/dd/yyyy', new Date());
 
-  const dayA = formatDate(start, 'dd').trim();
-  const monthA = formatDate(start, 'MM').trim();
+  const dayA = formatDate(start, 'do').trim();
+  const monthA = formatDate(start, 'MMMM').trim();
   const yearA = formatDate(start, 'yy').trim();
 
   if (date.length > 1) {
     const end = parseDate(date[1], 'M/dd/yyyy', new Date());
 
-    const dayB = formatDate(end, 'dd').trim();
-    const monthB = formatDate(end, 'MM').trim();
+    const dayB = formatDate(end, 'do').trim();
+    const monthB = formatDate(end, 'MMMM').trim();
     const yearB = formatDate(end, 'yy').trim();
 
     const doDaysMatch = dayA === dayB;
@@ -48,14 +46,14 @@ function getWhen(date: null | string | string[]) {
     const doYearsMatch = yearA === yearB;
 
     if (!doYearsMatch) {
-      return `${monthA}${DIVIDER}${dayA}${DIVIDER}20${yearA} – ${monthB}${DIVIDER}${dayB}${DIVIDER}20${yearB}`;
+      return `${monthA} ${dayA}, 20${yearA} — ${monthB} ${dayB}, 20${yearB}`;
     }
 
     if (!doMonthsMatch) {
-      return `${monthA}${DIVIDER}${dayA} - ${monthB}${DIVIDER}${dayB}${DIVIDER}20${yearA}`;
+      return `${monthA} ${dayA} — ${monthB} ${dayB}, 20${yearA}`;
     }
 
-    return `${monthA}${DIVIDER}${dayA} - ${monthA}${DIVIDER}${dayB}${DIVIDER}20${yearA}`;
+    return `${monthA} ${dayA} — ${dayB}, 20${yearA}`;
   }
 
   return `20${yearA}+`;
@@ -80,7 +78,6 @@ export async function go() {
       category: uppercaseFirst(data.category),
       coordinates: reduceCoordinates(data.coordinates),
       count: data.images.length,
-      cover: data.cover,
       id: data.id,
       location: data.location,
       notes: data.notes,
@@ -88,6 +85,7 @@ export async function go() {
       tags: data.tags,
       timestamp: data.timestamp,
       title: data.title,
+      type: data.type,
       when,
       year: when !== null ? when.split('/').pop() : null,
     });
@@ -96,11 +94,6 @@ export async function go() {
       images.push({
         camera: exif?.camera || null,
         category: uppercaseFirst(data.category),
-        collection: {
-          id: data.id,
-          position: data.position,
-          title: data.title,
-        },
         elevation: {
           imperial: formatNumber(elevation),
           metric: formatNumber(elevation / 3.281),
@@ -120,17 +113,17 @@ export async function go() {
       'collections.js',
       collections
         .sort((a, b) => b.timestamp - a.timestamp)
-        .map(({ category, coordinates, count, cover, id, location, notes, position, tags, title, when, year }) => ({
+        .map(({ category, coordinates, count, id, location, notes, position, tags, title, type, when, year }) => ({
           category,
           coordinates,
           count,
-          cover,
           id,
           location,
           notes,
           position,
           tags,
           title,
+          type,
           when,
           year,
         })),

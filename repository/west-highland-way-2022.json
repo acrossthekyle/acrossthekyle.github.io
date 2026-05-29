@@ -11,10 +11,12 @@
     "Way"
   ],
   "location": {
+    "region": "The Highlands",
     "country": "Scotland",
     "continent": "Europe"
   },
   "category": "backpacking",
+  "type": "thru-hike",
   "coordinates": "55.943977° N, 4.319957° W",
   "cover": [
     {
@@ -41,7 +43,9 @@
     "43.5%"
   ],
   "notes": [
-    "In Scotland there is an overland trek that extends for 97 miles from a town near Glasgow heading towards Fort William. This was one of the shorter thru-hikes I've done, taking only 6 days to complete it. I camped every night in fields, on stony beaches, and under bridges. The first two days had clear skies, but the rest of the hike was filled with nearly endless rain. The highlands were truly spectacular, despite the constant downpours."
+    "In Scotland there is an overland trek that extends for 97 miles from a town near Glasgow heading towards Fort William. This was one of the shorter thru-hikes I've done, taking only 6 days to complete it.",
+    "I camped every night in fields, on stony beaches, and under bridges. The first two days had clear skies, but the rest of the hike was filled with nearly endless rain.",
+    "The highlands were truly spectacular, despite the constant downpours."
   ],
   "images": [
     {

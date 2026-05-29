@@ -6,14 +6,16 @@
   "timestamp": "1458277200",
   "id": "central-and-southern-chile",
   "title": [
-    "Central",
-    "+ S. Chile"
+    "Santiago",
+    "+ Patagonia"
   ],
   "location": {
+    "region": "Central and Southern Regions",
     "country": "Chile",
     "continent": "South America"
   },
   "category": "destinations",
+  "type": "vacation",
   "coordinates": "33.448890° S, 70.669265° W",
   "cover": [
     {

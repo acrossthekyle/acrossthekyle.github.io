@@ -1,17 +1,8 @@
 'use client';
 
-import {
-  PropsWithChildren,
-  createContext,
-  useEffect,
-  useState,
-  useCallback,
-} from 'react';
+import { PropsWithChildren, createContext } from 'react';
 
 type OptionsContextType = {
-  color: string;
-  onColor: (type: string) => void;
-  onUnits: (type: string) => void;
   units: {
     labels: {
       length: {
@@ -50,48 +41,11 @@ function getWeightMicro(units: string) {
 };
 
 export default function OptionsProvider({
-  units: assumedUnits,
+  units,
   children,
 }: PropsWithChildren<Props>) {
-  const [color, setColor] = useState('monochrome');
-  const [units, setUnits] = useState(assumedUnits);
-  const [isHydrated, setIsHydrated] = useState(false);
-
-  useEffect(() => {
-    const savedColor = localStorage.getItem('user-color');
-    const savedUnits = localStorage.getItem('user-units');
-
-    if (savedColor) {
-      setColor(savedColor);
-    }
-
-    if (savedUnits) {
-      setUnits(savedUnits);
-    }
-
-    setIsHydrated(true);
-  }, []);
-
-  useEffect(() => {
-    if (isHydrated) {
-      localStorage.setItem('user-color', color);
-      localStorage.setItem('user-units', units);
-    }
-  }, [color, isHydrated, units]);
-
-  const handleOnColor = useCallback((type: string) => {
-    setColor(type);
-  }, []);
-
-  const handleOnUnits = useCallback((type: string) => {
-    setUnits(type);
-  }, []);
-
   return (
     <OptionsContext.Provider value={{
-      color,
-      onColor: handleOnColor,
-      onUnits: handleOnUnits,
       units: {
         labels: {
           length: {

@@ -9,10 +9,12 @@
     "Trail"
   ],
   "location": {
+    "region": "Wisconsin",
     "country": "United States",
     "continent": "North America"
   },
   "category": "backpacking",
+  "type": "section-hike",
   "coordinates": "40.007973° N, 87.571681° W",
   "cover": [
     {
@@ -37,7 +39,8 @@
     "20%"
   ],
   "notes": [
-    "A place of kettles and moraines from mile-thick glaciers long ago in Wisconsin, completing this 1,200 mile long-distance national scenic trail in sections takes time. It's not the distance on this trail that gets you; it's the constant up and down over rolling hills."
+    "A place of kettles and moraines from mile-thick glaciers long ago in Wisconsin, completing this 1,200 mile long-distance national scenic trail in sections takes time.",
+    "It's not the distance on this trail that gets you; it's the constant up and down over rolling hills."
   ],
   "images": [
     {

@@ -6,14 +6,15 @@
   "timestamp": "1647907200",
   "id": "san-juan",
   "title": [
-    "San Juan",
-    "P.R."
+    "San Juan"
   ],
   "location": {
+    "region": "Central and Eastern Regions",
     "country": "Puerto Rico",
     "continent": "North America"
   },
   "category": "destinations",
+  "type": "vacation",
   "coordinates": "18.466333° N, 66.105722° W",
   "cover": [
     {

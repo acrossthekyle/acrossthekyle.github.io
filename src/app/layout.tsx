@@ -7,15 +7,14 @@ import { PropsWithChildren, Suspense } from 'react';
 
 import DialogProvider from '@/contexts/dialog';
 import OptionsProvider from '@/contexts/options';
-import SizeProvider from '@/contexts/size';
-import { Body, Dialog, Footer, Header, Main, Splash } from '@/layout';
+import { Body, Dialog, Footer, Header, Main } from '@/layout';
 
 import Eggs from './eggs';
 
 export const metadata: Metadata = {
   title: {
-    template: `%s`,
-    default: 'A collection of hikes, summits, and experiences',
+    template: `Kyle Gilbert • %s`,
+    default: 'Kyle Gilbert',
   },
   formatDetection: {
     telephone: false,
@@ -35,19 +34,16 @@ export default async function RootLayout({ children }: PropsWithChildren) {
         <Eggs />
         <DialogProvider>
           <OptionsProvider units={units}>
-            <SizeProvider>
-              <Body>
-                <ThemeProvider>
-                  <Splash />
-                  <Header />
-                  <Main>
-                    {children}
-                  </Main>
-                  <Footer />
-                  <Dialog />
-                </ThemeProvider>
-              </Body>
-            </SizeProvider>
+            <Body>
+              <ThemeProvider>
+                <Header />
+                <Main>
+                  {children}
+                </Main>
+                <Footer />
+                <Dialog />
+              </ThemeProvider>
+            </Body>
           </OptionsProvider>
         </DialogProvider>
       </Suspense>

@@ -13,7 +13,6 @@ export default function Eggs() {
     console.log('Compiled: ', data.lastUpdated);
     console.log('Github: ', 'https://github.com/acrossthekyle');
     console.log('LinkedIn: ', 'https://linkedin.com/in/acrossthekyle');
-    console.log('Inspired by', 'https://shotoniphone.lorenzobocchi.com');
   }, []);
 
   return null;

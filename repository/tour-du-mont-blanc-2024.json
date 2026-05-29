@@ -10,10 +10,12 @@
     "Mont Blanc"
   ],
   "location": {
-    "country": "France, Italy, Switzerland",
+    "region": "The Alps",
+    "country": "France Italy and Switzerland",
     "continent": "Europe"
   },
   "category": "backpacking",
+  "type": "thru-hike",
   "coordinates": "45.890167° N, 6.797842° E",
   "cover": [
     {

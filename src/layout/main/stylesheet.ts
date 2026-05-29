@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    lg:px-10
+    lg:ml-10
   `,
 });
 

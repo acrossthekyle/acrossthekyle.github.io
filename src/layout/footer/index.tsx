@@ -5,7 +5,9 @@ export default function Footer() {
   return (
     <footer className={styles.container}>
       <Theme />
-      <p className={styles.notice}>Words + images + code © since 2011</p>
+      <p className={styles.notice}>
+        A <span className={styles.strong}>collection</span> of words + images + code, copyright 2018 - {new Date().getFullYear()}
+      </p>
     </footer>
   );
 }

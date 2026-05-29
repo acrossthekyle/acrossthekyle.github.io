@@ -35,9 +35,9 @@ export default function Theme() {
 
   return (
     <button
-      aria-label="toggle dark/light theme"
       className={styles.toggle(theme)}
       onClick={handleOnClick}
+      title="Toggle theme"
       type="button"
     />
   );

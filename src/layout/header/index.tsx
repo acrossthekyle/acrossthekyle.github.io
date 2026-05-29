@@ -1,13 +1,28 @@
-import Anchor from './anchor';
+'use client';
+
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+
 import styles from './stylesheet';
 
 export default function Header() {
+  const path = usePathname();
+
   return (
     <header className={styles.container}>
-      <Anchor />
-      <p className={styles.tagline}>
-        A <span className={styles.strong}>catalog</span> of hikes, summits, and experiences
-      </p>
+      <Link
+        className={styles.anchor(path === '/')}
+        href="/"
+      >
+        Index
+      </Link>
+      <span className={styles.divider} role="presentation">/</span>
+      <Link
+        className={styles.anchor(path.includes('/catalog'))}
+        href="/catalog"
+      >
+        Catalog
+      </Link>
     </header>
   );
 }

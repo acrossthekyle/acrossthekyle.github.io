@@ -10,10 +10,12 @@
     "Basecamp"
   ],
   "location": {
+    "region": "The Kaski Region",
     "country": "Nepal",
     "continent": "Asia"
   },
   "category": "basecamps",
+  "type": "basecamp",
   "coordinates": "28.530000° N, 83.878000° E",
   "cover": [
     {

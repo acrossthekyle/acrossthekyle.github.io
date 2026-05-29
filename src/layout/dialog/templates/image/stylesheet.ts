@@ -14,7 +14,9 @@ const styles = tw({
   `,
   image: `
     relative z-1
-    rounded-sm
+    brightness-90
+    grayscale-20
+    sepia-10
   `,
   caption: `
     absolute -top-6 -bottom-6 left-0 right-0 z-2

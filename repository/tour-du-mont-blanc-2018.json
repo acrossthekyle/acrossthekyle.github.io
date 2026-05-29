@@ -10,10 +10,12 @@
     "Mont Blanc"
   ],
   "location": {
-    "country": "France, Italy, Switzerland",
+    "region": "The Alps",
+    "country": "France Italy and Switzerland",
     "continent": "Europe"
   },
   "category": "backpacking",
+  "type": "thru-hike",
   "coordinates": "45.890196° N, 6.798325° E",
   "cover": [
     {
@@ -44,7 +46,8 @@
     "48.5%"
   ],
   "notes": [
-    "My second ever thru-hike that encircled a mountain called Mont Blanc in the European Alps. The trail's considered a classic long-distance hike and it took me 12 days over 106 miles (170 km) to complete while passing through France, Italy, and Switzerland. It's a challenging experience filled with diverse landscapes, unique cultural blends, and stunning alpine scenery, all while sleeping in mountain huts and eating home-cooked meals each night."
+    "My second ever thru-hike that encircled a mountain called Mont Blanc in the European Alps. The trail is considered a classic long-distance hike and it took me 12 days over 106 miles (170 km) to complete it while passing through France, Italy, and Switzerland.",
+    "It's a challenging experience filled with diverse landscapes, unique cultural blends, and stunning alpine scenery, all while sleeping in mountain huts and eating home-cooked meals each night."
   ],
   "images": [
     {

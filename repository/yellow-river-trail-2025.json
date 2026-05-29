@@ -11,10 +11,12 @@
     "Trail"
   ],
   "location": {
+    "region": "The Driftless Area of Iowa",
     "country": "United States",
     "continent": "North America"
   },
   "category": "backpacking",
+  "type": "overnight-hike",
   "coordinates": "43.171257° N, 91.259365° W",
   "cover": [
     {

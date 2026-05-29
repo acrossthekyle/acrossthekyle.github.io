@@ -9,10 +9,12 @@
     "Rockies"
   ],
   "location": {
-    "country": "United States",
+    "region": "Rocky Mountains",
+    "country": "Colorado",
     "continent": "North America"
   },
   "category": "mountains",
+  "type": "summits",
   "coordinates": "39.7392° N, 104.9903° W",
   "cover": [
     {
@@ -36,15 +38,16 @@
     "15.5%"
   ],
   "notes": [
-    "Reaching the summits of the Rocky Mountains and breathing in the cold alpine air above 14,000 feet is an awe-inspiring experience offering unparalleled views and moments of profound triumph, a feeling of being on top of the world. This is a collection of my summits completed so far: 9/53 peaks and counting"
+    "Reaching the summits of the Rocky Mountains and breathing in the cold alpine air above 14,000 feet is an awe-inspiring experience offering unparalleled views and moments of profound triumph, a feeling of being on top of the world.",
+    "This is a collection of my summits completed so far: 9/53 peaks and counting"
   ],
   "images": [
     {
       "src": "2019/08/31/52f1514b-91a4-494d-93df-6ae9c81df01c.jpeg",
-      "title": "Mount Elbert",
+      "title": "",
       "location": {
-        "region": "Sawatch Range, Colorado",
-        "country": "United States",
+        "region": "Mount Elbert",
+        "country": "Colorado",
         "continent": "North America"
       },
       "date": "8/31/2019",
@@ -62,10 +65,10 @@
     },
     {
       "src": "2019/09/01/08d28c7e-387b-418f-8226-b2a87485f1d8.jpeg",
-      "title": "Quandary Peak",
+      "title": "",
       "location": {
-        "region": "Tenmile Range, Colorado",
-        "country": "United States",
+        "region": "Quandary Peak",
+        "country": "Colorado",
         "continent": "North America"
       },
       "date": "9/01/2019",
@@ -83,10 +86,10 @@
     },
     {
       "src": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
-      "title": "La Plata Peak",
+      "title": "",
       "location": {
-        "region": "Sawatch Range, Colorado",
-        "country": "United States",
+        "region": "La Plata Peak",
+        "country": "Colorado",
         "continent": "North America"
       },
       "date": "9/04/2020",
@@ -104,10 +107,10 @@
     },
     {
       "src": "2020/09/05/54a89ed8-86d4-4918-b7b3-b883ecea72c8.jpeg",
-      "title": "Mount Bierstadt",
+      "title": "",
       "location": {
-        "region": "Front Range, Colorado",
-        "country": "United States",
+        "region": "Mount Bierstadt",
+        "country": "Colorado",
         "continent": "North America"
       },
       "date": "9/05/2020",
@@ -125,10 +128,10 @@
     },
     {
       "src": "2020/09/06/80307849-8964-4e0d-a70f-f6371ca7fcad.jpeg",
-      "title": "Grays Peak",
+      "title": "",
       "location": {
-        "region": "Front Range, Colorado",
-        "country": "United States",
+        "region": "Grays Peak",
+        "country": "Colorado",
         "continent": "North America"
       },
       "date": "9/06/2020",
@@ -146,10 +149,10 @@
     },
     {
       "src": "2021/09/07/fbe767d5-63c6-4af7-8643-ceef9b4cce92.jpeg",
-      "title": "Mount Shavano",
+      "title": "",
       "location": {
-        "region": "Sawatch Range, Colorado",
-        "country": "United States",
+        "region": "Mount Shavano",
+        "country": "Colorado",
         "continent": "North America"
       },
       "date": "9/07/2021",
@@ -167,10 +170,10 @@
     },
     {
       "src": "2021/09/09/8e1e0c1f-c391-4bc0-807c-7bdd8d20815b.jpeg",
-      "title": "Mount De-Ca-Li",
+      "title": "",
       "location": {
-        "region": "Mosquito Range, Colorado",
-        "country": "United States",
+        "region": "Mount De-Ca-Li",
+        "country": "Colorado",
         "continent": "North America"
       },
       "date": "9/09/2021",
@@ -188,10 +191,10 @@
     },
     {
       "src": "2022/09/09/f722df6c-2869-4ff0-80f7-37014241e135.jpeg",
-      "title": "Mount Belford",
+      "title": "",
       "location": {
-        "region": "Sawatch Range, Colorado",
-        "country": "United States",
+        "region": "Mount Belford",
+        "country": "Colorado",
         "continent": "North America"
       },
       "date": "9/09/2022",
@@ -209,10 +212,10 @@
     },
     {
       "src": "2022/09/11/b74f68ae-d627-4a89-9122-fbc75562e59d.jpeg",
-      "title": "Mount Massive",
+      "title": "",
       "location": {
-        "region": "Sawatch Range, Colorado",
-        "country": "United States",
+        "region": "Mount Massive",
+        "country": "Colorado",
         "continent": "North America"
       },
       "date": "9/11/2022",

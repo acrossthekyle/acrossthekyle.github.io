@@ -9,10 +9,12 @@
     "Geneva"
   ],
   "location": {
+    "region": "The Lake District",
     "country": "Switzerland",
     "continent": "Europe"
   },
   "category": "cities",
+  "type": "vacation",
   "coordinates": "46.204391° N, 6.143158° E",
   "cover": [
     {

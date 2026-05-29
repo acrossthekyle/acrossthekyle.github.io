@@ -10,10 +10,12 @@
     "Maldonado"
   ],
   "location": {
+    "region": "Amazon Rain Forest",
     "country": "Peru",
     "continent": "South America"
   },
   "category": "destinations",
+  "type": "vacation",
   "coordinates": "12.5933° S, 69.1891° W",
   "cover": [
     {
