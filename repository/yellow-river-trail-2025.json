@@ -46,7 +46,7 @@
       "src": "2025/10/18/efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg",
       "title": "",
       "location": {
-        "region": "Yellow River Trail, Iowa",
+        "region": "Iowa",
         "country": "United States",
         "continent": "North America"
       },
@@ -67,7 +67,7 @@
       "src": "2025/10/18/92cfa8cd-806d-4241-b3a1-9da957e6472d.jpeg",
       "title": "",
       "location": {
-        "region": "Yellow River Trail, Iowa",
+        "region": "Iowa",
         "country": "United States",
         "continent": "North America"
       },
@@ -89,10 +89,60 @@
       }
     },
     {
+      "src": "2025/10/18/a97e4968-9219-4089-ae13-a1e28f44ae0b.jpeg",
+      "title": "",
+      "location": {
+        "region": "Iowa",
+        "country": "United States",
+        "continent": "North America"
+      },
+      "date": "10/18/2025",
+      "elevation": 967,
+      "notes": "",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIDAQT/xAAgEAACAwACAgMBAAAAAAAAAAAAAQIRIQMSQYETYXHB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AORWq/ISSY+Tj7J28+jtxeqS9mWlX5MZ5K7LTd5Vfokk5ZS9oIqmMnX8BVqmqYFPOrZrxQc3SdACGsY9ZOOYTzRS3qgCKVBPVgAMp//Z",
+      "exif": {
+        "aperture": "1/6638",
+        "camera": "iPhone 16 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.78",
+        "focal": 24,
+        "format": "jpg",
+        "height": 2813,
+        "iso": 64,
+        "shutter": "9.80",
+        "width": 5000
+      }
+    },
+    {
+      "src": "2025/10/18/7d3daf93-3463-4f44-909e-f0d7f609967a.jpeg",
+      "title": "",
+      "location": {
+        "region": "Iowa",
+        "country": "United States",
+        "continent": "North America"
+      },
+      "date": "10/18/2025",
+      "elevation": 913,
+      "notes": "",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECA//EABwQAAIDAQADAAAAAAAAAAAAAAABAhEhMRIiQf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwCTm3nTMFd3xG8ttauCNXK/pFVyXsnhxSt0zs4xdtGPGmq0gRguPcBVkuAXCOdi22AFG2l0W6xgAVJtdABFf//Z",
+      "exif": {
+        "aperture": "1/6638",
+        "camera": "iPhone 16 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.78",
+        "focal": 24,
+        "format": "jpg",
+        "height": 2813,
+        "iso": 80,
+        "shutter": "9.56",
+        "width": 5000
+      }
+    },
+    {
       "src": "2025/10/18/7c266117-a4a2-4f6b-95f0-15a562d9a6be.jpeg",
       "title": "",
       "location": {
-        "region": "Yellow River Trail, Iowa",
+        "region": "Iowa",
         "country": "United States",
         "continent": "North America"
       },
@@ -117,7 +167,7 @@
       "src": "2025/10/18/db8b9939-7fe0-43b3-b5ef-d0baea038ef1.jpeg",
       "title": "",
       "location": {
-        "region": "Yellow River Trail, Iowa",
+        "region": "Iowa",
         "country": "United States",
         "continent": "North America"
       },

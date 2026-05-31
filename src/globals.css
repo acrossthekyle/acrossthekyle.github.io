@@ -44,6 +44,18 @@
   }
 }
 
+@custom-variant landscape {
+  @media (orientation: landscape) {
+    @slot;
+  }
+}
+
+@custom-variant portrait {
+  @media (orientation: portrait) {
+    @slot;
+  }
+}
+
 :root {
   --background: #fefff5;
   --foreground: #0c0c0c;
@@ -52,10 +64,6 @@
 [data-theme="dark"] {
   --background: #0c0c0c;
   --foreground: #fefff5;
-}
-
-html:has(dialog[open]) {
-  overflow: hidden;
 }
 
 body {

@@ -94,6 +94,7 @@ export async function go() {
       images.push({
         camera: exif?.camera || null,
         category: uppercaseFirst(data.category),
+        collectionId: data.id,
         elevation: {
           imperial: formatNumber(elevation),
           metric: formatNumber(elevation / 3.281),

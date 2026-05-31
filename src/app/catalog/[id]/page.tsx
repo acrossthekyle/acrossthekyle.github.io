@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { Suspense } from 'react';
 
 import { Ui } from '@/ui';
+import { createDescription } from '@/utils';
 import View from '@/views/catalog-[id]';
 
 import get from './get';
@@ -44,8 +45,8 @@ export async function generateMetadata({
   }
 
   return {
-    title: `Catalog • ${data.collection.title.join(' ')}`,
-    description: data.collection.notes.join(' '),
+    title: `Collections • ${data.collection.title.join(' ')}`,
+    description: `${createDescription(data.collection)}. ${data.collection.notes.join(' ')}`,
   };
 };
 

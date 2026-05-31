@@ -46,7 +46,7 @@
       "src": "2026/03/14/8e8fd062-270f-4081-96c3-ee072a81caab.jpeg",
       "title": "",
       "location": {
-        "region": "River Ridge Trail, Illinois",
+        "region": "Central Illinois",
         "country": "United States",
         "continent": "North America"
       },
@@ -71,7 +71,7 @@
       "src": "2026/03/14/2665b912-007f-485f-b636-07079e321e20.jpeg",
       "title": "",
       "location": {
-        "region": "River Ridge Trail, Illinois",
+        "region": "Central Illinois",
         "country": "United States",
         "continent": "North America"
       },
@@ -93,10 +93,60 @@
       }
     },
     {
+      "src": "2026/03/14/91ed5400-2265-4b23-b20e-45bb0c6e36f3.jpeg",
+      "title": "",
+      "location": {
+        "region": "Central Illinois",
+        "country": "United States",
+        "continent": "North America"
+      },
+      "date": "03/14/2026",
+      "elevation": 529,
+      "notes": "",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCAf/EAB8QAAICAgEFAAAAAAAAAAAAAAABAhEhQRIDIjEygf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/ANwkl04q/B1S7X9J1hDiq2SrFYtKVMnN1KzvCneic1nGRSNRdJNvQJ02BSN2bh7AEVTJiUdoACewAB//2Q==",
+      "exif": {
+        "aperture": "1/6638",
+        "camera": "iPhone 16 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.78",
+        "focal": 24,
+        "format": "jpg",
+        "height": 2813,
+        "iso": 64,
+        "shutter": "11.69",
+        "width": 5000
+      }
+    },
+    {
+      "src": "2026/03/14/3c8c077a-72fd-4319-8faa-7c03ad505b8a.jpeg",
+      "title": "",
+      "location": {
+        "region": "Central Illinois",
+        "country": "United States",
+        "continent": "North America"
+      },
+      "date": "03/14/2026",
+      "elevation": 529,
+      "notes": "",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgAB/8QAIRAAAgIBAwUBAAAAAAAAAAAAAAERIQISMVEiIzJBcYH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AMnq/B6mlXAV5TInGl0Sosc+2lAbZiaW1mz9AJGq3WxABOaFMTwRAbheMi9kQBbhtkRAf//Z",
+      "exif": {
+        "aperture": "2/2750",
+        "camera": "iPhone 16 Pro",
+        "exposure": "0.0",
+        "fnumber": "2.20",
+        "focal": 19,
+        "format": "jpg",
+        "height": 2588,
+        "iso": 25,
+        "shutter": "7.71",
+        "width": 4600
+      }
+    },
+    {
       "src": "2026/03/14/bfb02a8a-045d-456f-a389-95aefbff4628.jpeg",
       "title": "",
       "location": {
-        "region": "River Ridge Trail, Illinois",
+        "region": "Central Illinois",
         "country": "United States",
         "continent": "North America"
       },
@@ -117,7 +167,7 @@
       "src": "2026/03/14/1e1be596-c236-4cee-9eb2-fac89329e0e6.jpeg",
       "title": "",
       "location": {
-        "region": "River Ridge Trail, Illinois",
+        "region": "Central Illinois",
         "country": "United States",
         "continent": "North America"
       },

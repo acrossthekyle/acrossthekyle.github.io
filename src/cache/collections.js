@@ -99,7 +99,7 @@ const data = [
   {
     "category": "Backpacking",
     "coordinates": "40.0080° N, 87.5717° W",
-    "count": 4,
+    "count": 6,
     "id": "river-ridge-trail",
     "location": {
       "region": "Central Illinois",
@@ -135,7 +135,7 @@ const data = [
   {
     "category": "Backpacking",
     "coordinates": "43.1713° N, 91.2594° W",
-    "count": 4,
+    "count": 6,
     "id": "yellow-river-trail",
     "location": {
       "region": "The Driftless Area of Iowa",
@@ -175,7 +175,7 @@ const data = [
     "id": "tour-du-mont-blanc-2024",
     "location": {
       "region": "The Alps",
-      "country": "France Italy and Switzerland",
+      "country": "France, Italy, and Switzerland",
       "continent": "Europe"
     },
     "notes": [
@@ -206,7 +206,7 @@ const data = [
   {
     "category": "Cities",
     "coordinates": "46.2044° N, 6.1432° E",
-    "count": 4,
+    "count": 6,
     "id": "geneva",
     "location": {
       "region": "The Lake District",
@@ -237,7 +237,7 @@ const data = [
   {
     "category": "Cities",
     "coordinates": "41.9267° N, 8.7369° E",
-    "count": 3,
+    "count": 5,
     "id": "corsica",
     "location": {
       "region": "Corsica",
@@ -340,7 +340,7 @@ const data = [
   {
     "category": "Backpacking",
     "coordinates": "40.0080° N, 87.5717° W",
-    "count": 3,
+    "count": 5,
     "id": "ice-age-trail",
     "location": {
       "region": "Wisconsin",
@@ -416,7 +416,7 @@ const data = [
   {
     "category": "Destinations",
     "coordinates": "18.4663° N, 66.1057° W",
-    "count": 3,
+    "count": 6,
     "id": "san-juan",
     "location": {
       "region": "Central and Eastern Regions",
@@ -448,7 +448,7 @@ const data = [
   {
     "category": "Destinations",
     "coordinates": "46.7666° N, 89.7502° W",
-    "count": 3,
+    "count": 5,
     "id": "the-porkies",
     "location": {
       "region": "Upper Peninsula",
@@ -483,7 +483,7 @@ const data = [
     "id": "o-circuit",
     "location": {
       "region": "The Patagonia Region",
-      "country": "Chile",
+      "country": "Southern Chile",
       "continent": "South America"
     },
     "notes": [
@@ -515,7 +515,7 @@ const data = [
   {
     "category": "Destinations",
     "coordinates": "28.2096° N, 83.9856° E",
-    "count": 3,
+    "count": 7,
     "id": "pokhara",
     "location": {
       "region": "Gateway to the Himalayas",
@@ -582,7 +582,7 @@ const data = [
     "count": 21,
     "id": "annapurna-circuit",
     "location": {
-      "region": "The Annapurna Region of Gandaki Province",
+      "region": "The Gandaki Province",
       "country": "Nepal",
       "continent": "Asia"
     },
@@ -686,7 +686,7 @@ const data = [
     "id": "tour-du-mont-blanc",
     "location": {
       "region": "The Alps",
-      "country": "France Italy and Switzerland",
+      "country": "France, Italy, and Switzerland",
       "continent": "Europe"
     },
     "notes": [
@@ -783,37 +783,6 @@ const data = [
     "type": "vacation",
     "when": "March 18th — 27th, 2016",
     "year": "March 18th — 27th, 2016"
-  },
-  {
-    "category": "Cities",
-    "coordinates": "34.6037° S, 58.3816° W",
-    "count": 3,
-    "id": "argentina-and-uruguay",
-    "location": {
-      "region": "The Rio de la Plata Region",
-      "country": "Argentina & Uruguay",
-      "continent": "South America"
-    },
-    "notes": [
-      "This was my first international experience, accompanied by my co-worker and friend Jamie. We spent time exploring Buenos Aires in Argentina, Montevideo in Uruguay, and attended Lollapalooza in San Isidro (just outside of Buenos Aires)."
-    ],
-    "position": [
-      "85%",
-      "28%"
-    ],
-    "tags": [
-      "cityscape",
-      "south america",
-      "buenos aires",
-      "destination"
-    ],
-    "title": [
-      "Buenos Aires",
-      "+ Montevideo"
-    ],
-    "type": "vacation",
-    "when": "March 19th — 25th, 2015",
-    "year": "March 19th — 25th, 2015"
   }
 ];
 

@@ -23,7 +23,7 @@ export default function View({ data }: Props) {
                 {collection.title.join(' ')}
               </h2>
               <span className={styles.lid}>
-                {collection.location.region} &mdash; {collection.location.country}, {trimCardinal(collection.location.continent)}
+                {collection.location.region} &mdash; {trimCardinal(collection.location.country)}
               </span>
               <span className={styles.lid}>
                 {collection.coordinates}

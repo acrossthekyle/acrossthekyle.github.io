@@ -12,6 +12,7 @@ export type Location = {
 export type Data = {
   camera: string;
   category: string;
+  collectionId: string;
   elevation: Stat;
   location: Location;
   notes: string[];

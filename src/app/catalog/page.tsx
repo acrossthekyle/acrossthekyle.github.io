@@ -7,8 +7,8 @@ import View from '@/views/catalog';
 import get from './get';
 
 export const metadata: Metadata = {
-  title: 'Catalog',
-  // description: 'An inspired backpacker and travel enthusiast living a city-based life in Chicago.',
+  title: 'Collections',
+  description: 'A collection of thru-hikes, summits, and experiences since 2016',
 };
 
 export default async function Page() {

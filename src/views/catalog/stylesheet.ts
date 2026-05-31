@@ -8,10 +8,6 @@ const styles = tw({
     lg:h-svh
     lg:mt-0
   `,
-
-
-
-
   list: `
     col-span-3
     grid grid-cols-1 gap-y-10 gap-x-12
@@ -22,6 +18,7 @@ const styles = tw({
     sm:grid-cols-2
     lg:gap-x-24
     lg:grid-cols-3
+    lg:pt-0
 
     motion-safe:opacity-0
     motion-safe:animate-fade-in-up-slightly-delayed

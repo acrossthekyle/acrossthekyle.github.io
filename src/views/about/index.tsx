@@ -37,7 +37,7 @@ export default function View() {
             Since then I've travelled to numerous destinations, and spent hundreds of days traipsing thousands of miles through nature and over mountain passes all around the world.
           </p>
           <p className={styles.paragraph}>
-            This is a nearly complete <Link className={styles.link} href="/catalog">catalog</Link> of those experiences.
+            This website is a nearly complete <Link className={styles.link} href="/catalog">collection</Link> of those experiences.
           </p>
         </section>
         <section className={styles.section}>

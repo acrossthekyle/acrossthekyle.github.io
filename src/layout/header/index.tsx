@@ -21,7 +21,7 @@ export default function Header() {
         className={styles.anchor(path.includes('/catalog'))}
         href="/catalog"
       >
-        Catalog
+        Collections
       </Link>
     </header>
   );

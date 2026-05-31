@@ -87,6 +87,31 @@
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBAH/xAAgEAACAgICAgMAAAAAAAAAAAAAAQIRAxIhYSIxQVGh/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABkRAQEBAQEBAAAAAAAAAAAAAAARARICMf/aAAwDAQACEQMRAD8ARy4pLyWr7LnpnfOLHCLrgtSYaq+BSGq7CQ1X0CMlJ/P4c3ZYskkqT4LUmJ4pt7bNlxn0nsjTJsuwMdmHQcqAlDK4v0PhuVpi7Xonacuuh2cv/9k="
     },
     {
+      "src": "2023/07/05/be1ca955-b984-4cde-bf12-cee1851017a2.jpeg",
+      "title": "Citadelle de Ajaccio",
+      "location": {
+        "region": "Ajaccio, Corsica",
+        "country": "France",
+        "continent": "Europe"
+      },
+      "date": "07/06/2023",
+      "elevation": 89,
+      "notes": "",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQMCBP/EACQQAAIBAQgCAwAAAAAAAAAAAAECACEDERITIjFBYRRRUmKR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGBEBAQEBAQAAAAAAAAAAAAAAACEBERL/2gAMAwEAAhEDEQA/ALG0X2IQFlPMoL19j9ggODqKnMGnqUiPkfWYrcOfTaKQZ4+MU5hzCw0qax3TmNoCy10nuPR5TsVVwSVEzqsW64TxdLhqW5mkdaoQAtLhzzMq2ZFf/9k=",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "format": "jpg",
+        "height": 2268,
+        "iso": 50,
+        "shutter": "13.20",
+        "width": 4032
+      }
+    },
+    {
       "src": "2023/07/05/7cace07e-0974-40d4-8356-019ef68594a9.jpeg",
       "title": "Urban beach",
       "location": {
@@ -106,6 +131,31 @@
         "iso": 50
       },
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAQAC/8QAGxAAAgIDAQAAAAAAAAAAAAAAABEBAiExURL/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8ARWYhSAUgRakKFIXBitwLopBWstySrFbeC0iaFIcRFd8MqQM2bwBoC8hX/9k="
+    },
+    {
+      "src": "2023/07/05/ffe50b6e-cd5d-44a8-9cac-3f2b2c9f365e.jpeg",
+      "title": "Urban beach",
+      "location": {
+        "region": "Ajaccio, Corsica",
+        "country": "France",
+        "continent": "Europe"
+      },
+      "date": "07/08/2023",
+      "elevation": 18,
+      "notes": "",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDBAH/xAAgEAACAgICAgMAAAAAAAAAAAABEQACAyESMQQTUXGh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwAz5DUIFMTMapMGQiy/JWWsEJvU0mJg6JCMy0UniBXb7+4GfySeY+FJFqde3KihyXvhIJ04HK3tXGQ1uBXxbMWcCNuVuzCgUJHYhFBQIiAcUN9QGxV9dyujA//Z",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "format": "jpg",
+        "height": 2239,
+        "iso": 500,
+        "shutter": "5.48",
+        "width": 3982
+      }
     }
   ]
 }

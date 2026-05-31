@@ -1,44 +1,51 @@
 import tw from '@/styles';
 
 const styles = tw({
-  container: `
-    absolute left-1/2 top-1/2
-    -translate-x-1/2 -translate-y-1/2
-    w-screen
-    flex justify-center
+  desktop: `
+    hidden
+
+    lg:block
+  `,
+  mobile: `
+    lg:hidden
+  `,
+  close: `
+    absolute top-4 right-4 z-10
+    pointer-events-auto
+
+    motion-safe:opacity-0
+    motion-safe:animate-fade-in-slightly-delayed
+  `,
+  icon: `
+    stroke-1
+
+    lg:w-5
+    lg:h-5
   `,
   figure: `
-    relative
+    pointer-events-auto
     aspect-video
-    w-auto min-w-[calc(100vw-18rem)]
+    h-dvh w-screen
+    flex
+    items-center
+    justify-center
+
+    lg:pointer-events-none
   `,
   image: `
-    relative z-1
+    portrait:!w-auto
+    portrait:!h-auto
+
+    landscape-constrained:!w-full
+    landscape-constrained:!h-full
+
+    md:!w-auto
+    md:!h-auto
+
+    aspect-video
     brightness-90
     grayscale-20
     sepia-10
-  `,
-  caption: `
-    absolute -top-6 -bottom-6 left-0 right-0 z-2
-    grid grid-cols-2 grid-rows-2
-    text-tiny
-    font-normal
-    uppercase
-    tracking-widest
-
-    md:text-xtiny
-  `,
-  when: `
-    justify-self-start self-start
-  `,
-  index: `
-    justify-self-end self-start
-  `,
-  location: `
-    justify-self-start self-end
-  `,
-  elevation: `
-    justify-self-end self-end
   `,
 });
 

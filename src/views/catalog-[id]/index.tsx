@@ -1,14 +1,14 @@
 import type { Collection, Data } from '@/types';
+import { createDescription } from '@/utils';
 
 import Gallery from './gallery';
 import Map from './map';
 import styles from './stylesheet';
-import { formatHeader } from './utils';
 
 type Props = {
   data: {
     collection: Collection;
-    images: Data[];
+    images: Array<Data[]>;
   };
 };
 
@@ -25,7 +25,7 @@ export default function View({ data }: Props) {
           {data.collection.title.map((chunk) => (
             <span className={styles.chunk} key={chunk}>{chunk}</span>
           ))}
-          <span className={styles.lid}>{formatHeader(data.collection)}</span>
+          <span className={styles.lid}>{createDescription(data.collection)}</span>
         </h1>
         <div className={styles.overview}>
           {data.collection.notes.map((paragraph) => (
@@ -34,9 +34,12 @@ export default function View({ data }: Props) {
         </div>
       </header>
       <div className={styles.content}>
-        <Map coordinates={data.collection.coordinates} />
+        <Map
+          coordinates={data.collection.coordinates}
+          location={data.collection.location}
+        />
       </div>
-      <Gallery images={data.images} />
+      <Gallery images={data.images} total={data.collection.count} />
     </article>
   );
 }

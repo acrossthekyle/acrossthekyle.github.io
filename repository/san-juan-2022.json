@@ -60,6 +60,81 @@
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIDAQT/xAAfEAADAQABBQEBAAAAAAAAAAAAAQIREgMhMVFxQWH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwCIpJ92U5mvHZfDBcvRpNPw9A3npzhczhlNJfmFql7JVjV5gIqmp1S38BB4taO628AKL3ji/hU0ARV11OE7m6AAP//Z"
     },
     {
+      "src": "2022/03/23/4b6afcfd-0563-49d6-89a3-77625029bbc2.jpeg",
+      "title": "",
+      "location": {
+        "region": "Ocean Park Beach, San Juan",
+        "country": "Puerto Rico",
+        "continent": "North America"
+      },
+      "date": "03/22/2022",
+      "elevation": 9,
+      "notes": "",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT/xAAiEAACAQQCAQUAAAAAAAAAAAABAgADERIhMTJBUVJhkaH/xAAXAQEBAQEAAAAAAAAAAAAAAAABAAID/8QAGBEBAQEBAQAAAAAAAAAAAAAAABEBEgL/2gAMAwEAAhEDEQA/AEKTq41mElQEJOpGqpRvydTO+jnndVFJRwbmHWnjHPkPcv7Gs8Mv6OohWs8DM27rCnkyOQNMIU5igqESMcpK/MqoAyjhTAwZLbrImFQaFj9yBxUFvMk//9k=",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 13,
+        "format": "jpg",
+        "height": 2232,
+        "iso": 32,
+        "shutter": "10.83",
+        "width": 3973
+      }
+    },
+    {
+      "src": "2022/03/23/53a96049-262f-4e6b-b331-78b74c5e01e2.jpeg",
+      "title": "",
+      "location": {
+        "region": "Ocean Park Beach, San Juan",
+        "country": "Puerto Rico",
+        "continent": "North America"
+      },
+      "date": "03/22/2022",
+      "elevation": 7,
+      "notes": "",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECA//EACMQAAICAQMDBQAAAAAAAAAAAAECABESAzFRBBNhIkFScYH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQP/xAAYEQEBAQEBAAAAAAAAAAAAAAAAEQEhEv/aAAwDAQACEQMRAD8AxU2YUxkWlQUqCrgeN9oDNeZKk0zXe7j1i+dM19jUUmgdRxFJq93yJOHXZtMBfSq35mdbzHA9O9klh+SCdl/kIGl0jjdiLpMQuNM06KfqXpMf/9k=",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 43,
+        "format": "jpg",
+        "height": 2268,
+        "iso": 50,
+        "shutter": "12.77",
+        "width": 4032
+      }
+    },
+    {
+      "src": "2022/03/23/1b2ca395-4e5e-4997-87dc-417b95b08710.jpeg",
+      "title": "",
+      "location": {
+        "region": "Ocean Park Beach, San Juan",
+        "country": "Puerto Rico",
+        "continent": "North America"
+      },
+      "date": "03/22/2022",
+      "elevation": 0,
+      "notes": "",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECA//EACMQAAICAAUEAwAAAAAAAAAAAAECABEDEiEiQTFScZFRgbH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAgED/8QAGhEBAQEBAQEBAAAAAAAAAAAAAAERQRICIf/aAAwDAQACEQMRAD8Arb8iXrj5Lb3Cbp5G3uEaeTGStTZmbWz5nQSnH7G0yHScqB9yHUUnCr7hmIVsNuirBkGbD6ZBfiaz8GZeFX1AkCzJ1WIxjlUAcw1CE2NZSetsUGg4PmR83irOmm5bvWVSP//Z",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "format": "jpg",
+        "height": 1667,
+        "iso": 50,
+        "shutter": "12.18",
+        "width": 2966
+      }
+    },
+    {
       "src": "2022/03/23/1ba3d3f7-9462-4375-9770-4efedf15f582.jpeg",
       "title": "Castillo San Felipe del Morro",
       "location": {

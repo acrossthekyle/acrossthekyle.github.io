@@ -2,16 +2,13 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
+    grid grid-cols-1
     h-auto w-full
-    flex flex-col
-    divide-y divide-current/10
 
-    sm:grid
     sm:grid-cols-2
-    sm:divide-x
-    lg:h-screen
-    lg:divide-y-0
     lg:grid-cols-3
+    lg:h-full
+    lg:flex
   `,
 
 
@@ -21,25 +18,34 @@ const styles = tw({
 
 
   header: `
-    order-0
-    h-[84vh]
+    col-span-1 order-0
     flex flex-col items-start justify-end
+    h-[60vh]
     p-4
-    text-[min(10vw,42px)]
-    font-black
-    leading-[0.85]
-    uppercase
 
     sm:h-svh
-    sm:text-[min(5vw,40px)]
+
+    landscape-constrained:min-h-[58vw]
+
     lg:h-screen
-    lg:text-[min(3.5vw,42px)]
+    lg:fixed
+    lg:left-10
+    lg:w-[calc(33.3333333333vw-0.75rem)]
+    lg:border-l-1
+    lg:border-current/10
 
     motion-safe:opacity-0
     motion-safe:animate-fade-in-up-slightly-delayed
   `,
   title: `
     flex flex-col gap-0
+    text-[min(10vw,42px)]
+    font-black
+    leading-[0.85]
+    uppercase
+
+    sm:text-[min(5vw,40px)]
+    lg:text-[min(3.5vw,42px)]
   `,
 
 
@@ -48,21 +54,36 @@ const styles = tw({
 
 
   content: `
-    order-2
+    col-span-1 order-2
+    h-auto w-screen
     flex flex-col justify-between
-    overflow-y-scroll
 
     sm:col-span-2
-    lg:order-1
+    sm:gap-0
+    sm:w-[50vw]
+    sm:h-auto
+    sm:border-t-1
+    sm:border-current/10
+
+    landscape-constrained:min-h-[90vw]
+    landscape-constrained:pb-4
+
+    lg:border-t-0
     lg:col-span-1
+    lg:order-1
+    lg:absolute
+    lg:left-[calc(33.3333333333vw+1.75rem)]
+    lg:w-[calc(33.3333333333vw-0.75rem)]
+    lg:h-full
 
     motion-safe:opacity-0
     motion-safe:animate-fade-in-down-slightly-delayed
   `,
   section: `
     flex flex-col justify-start
-    p-4
-    border-t-1 border-current/10
+    p-4 pb-10
+
+    sm:last:pb-4
 
     first:border-t-0
     last:justify-end
@@ -99,14 +120,18 @@ const styles = tw({
 
 
   figure: `
-    order-1
-    h-[calc(75vh-2.5rem)]
-    border-b-1 border-current/10
+    col-span-1 order-1
+    h-auto
 
-    sm:h-svh
+    sm:h-screen
+    sm:border-l-1
+    sm:border-current/10
+    sm:fixed
+    sm:top-0
+    sm:right-0
+    sm:w-[50vw]
     lg:order-2
-    lg:h-screen
-    lg:border-b-0
+    lg:w-[calc(33.3333333333vw-0.75rem)]
 
     motion-safe:opacity-0
     motion-safe:animate-fade-in-up-slightly-delayed

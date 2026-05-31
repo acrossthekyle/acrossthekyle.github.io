@@ -8,8 +8,12 @@ export default async function get(id) {
     return null;
   }
 
+  const items = images.filter((image) => image.collectionId === id);
+
   return {
     collection,
-    images: images.filter((image) => image.collection.id === id),
+    images: Array.from({ length: Math.ceil(items.length / 3) }, (_, index) =>
+      items.slice(index * 3, index * 3 + 3)
+    ),
   };
 };

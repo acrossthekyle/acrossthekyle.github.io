@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    fixed top-2 left-0 right-0 bottom-10 z-9999
+    fixed inset-0 z-9999
     w-screen max-w-full
     h-full max-h-full
     bg-transparent
@@ -15,29 +15,25 @@ const styles = tw({
     backdrop:inset-0
     backdrop:outline-none
     backdrop:bg-(--background)
-    backdrop:backdrop-blur-xl
 
-    motion-safe:backdrop:opacity-0
-    motion-safe:backdrop:transition-opacity
-    motion-safe:backdrop:duration-400
+    lg:motion-safe:backdrop:opacity-0
+    lg:motion-safe:backdrop:transition-opacity
+    lg:motion-safe:backdrop:duration-550
 
-    lg:top-0
-    lg:bottom-0
-    lg:right-0
-    lg:left-0
+    lg:cursor-zoom-out
   `,
   inner: (isOpen: boolean, isClosing: boolean) => tw(`
     relative
     h-screen
     overflow-x-hidden
     overflow-y-scroll
+    scroll-smooth
     pointer-events-none
 
-    motion-safe:duration-300
+    motion-safe:duration-500
 
-    ${isClosing && 'top-100 scale-70'}
-    ${!isOpen && 'top-0 scale-70'}
-    ${isOpen && 'top-0 scale-100'}
+    ${isClosing && 'top-0 scale-0'}
+    ${isOpen ? 'top-0 scale-100' : 'top-0 scale-0'}
   `),
 });
 

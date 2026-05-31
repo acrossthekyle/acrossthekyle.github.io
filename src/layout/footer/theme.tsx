@@ -8,7 +8,7 @@ import styles from './stylesheet';
 export default function Theme() {
   const [mounted, setMounted] = useState(false);
 
-  const { setTheme, theme } = useTheme();
+  const { resolvedTheme, setTheme } = useTheme();
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
@@ -16,16 +16,12 @@ export default function Theme() {
   }, [])
 
   const handleOnClick = () => {
-    if (theme === 'system') {
+    if (resolvedTheme === 'dark') {
       setTheme('light');
     }
 
-    if (theme === 'light') {
+    if (resolvedTheme === 'light') {
       setTheme('dark');
-    }
-
-    if (theme === 'dark') {
-      setTheme('system');
     }
   };
 
@@ -35,7 +31,7 @@ export default function Theme() {
 
   return (
     <button
-      className={styles.toggle(theme)}
+      className={styles.toggle}
       onClick={handleOnClick}
       title="Toggle theme"
       type="button"

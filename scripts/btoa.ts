@@ -38,6 +38,8 @@ export async function go() {
     .filter((directory) => directory !== '.DS_Store');
 
   for (const file of files) {
+    let shouldWait = false;
+
     const data = JSON.parse(fs.readFileSync(`${input}/${file}`, 'utf8'));
 
     console.log(`--# processing ${data.title} #--`);
@@ -61,6 +63,8 @@ export async function go() {
       }
 
       if (coverNeedsThumb) {
+        shouldWait = true;
+
         await wait(500);
 
         console.log(`--# getting thumb for cover ${coverHasSrc ? cover.src : cover} #--`);
@@ -89,6 +93,8 @@ export async function go() {
       }
 
       if (imageNeedsThumb) {
+        shouldWait = true;
+
         await wait(500);
 
         console.log(`--# getting thumb for image ${image.src} #--`);
@@ -113,12 +119,14 @@ export async function go() {
     //   images,
     // }, null, 2));
 
-    writeFile(input, file, JSON.stringify({
-      ...data,
-      cover: covers,
-      images,
-    }, null, 2));
+    if (shouldWait) {
+      writeFile(input, file, JSON.stringify({
+        ...data,
+        cover: covers,
+        images,
+      }, null, 2));
 
-    await wait(500);
+      await wait(500);
+    }
   }
 }
