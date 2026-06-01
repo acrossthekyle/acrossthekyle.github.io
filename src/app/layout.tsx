@@ -1,6 +1,7 @@
 import '../globals.css';
 
 import type { Metadata } from 'next';
+import { Geist } from 'next/font/google';
 import { headers } from 'next/headers';
 import { ThemeProvider } from 'next-themes';
 import { PropsWithChildren, Suspense } from 'react';
@@ -24,12 +25,18 @@ export const metadata: Metadata = {
   },
 };
 
+const font = Geist({
+  display: 'swap',
+  subsets: ['latin'],
+  variable: '--font-geist-sans',
+});
+
 export default async function RootLayout({ children }: PropsWithChildren) {
   const headersList = await headers();
   const units = headersList.get('x-units-system') || 'metric';
 
   return (
-    <html lang="en-US" suppressHydrationWarning>
+    <html className={font.variable} lang="en-US" suppressHydrationWarning>
       <Suspense fallback={null}>
         <Eggs />
         <DialogProvider>

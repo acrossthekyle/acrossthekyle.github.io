@@ -1,27 +1,10 @@
 import tw from '@/styles';
 
 const styles = tw({
-  container: `
-    w-full h-auto
-    mt-12
-
-    lg:h-svh
-    lg:mt-0
-  `,
   list: `
-    col-span-3
-    grid grid-cols-1 gap-y-10 gap-x-12
-    h-full
-    p-4
+    flex flex-col gap-8
 
-    sm:gap-y-12
-    sm:grid-cols-2
-    lg:gap-x-24
-    lg:grid-cols-3
-    lg:pt-0
-
-    motion-safe:opacity-0
-    motion-safe:animate-fade-in-up-slightly-delayed
+    lg:pb-4
   `,
   link: `
     group
@@ -29,7 +12,7 @@ const styles = tw({
     h-full
     text-left
   `,
-  heading: `
+  heading: (isInView: boolean) => tw(`
     mb-2
     text-[min(6vw,32px)]
     font-black
@@ -39,12 +22,14 @@ const styles = tw({
     whitespace-nowrap
 
     sm:text-[min(3vw,22px)]
-    lg:text-[min(1.5vw,22px)]
+    lg:text-[min(2vw,26px)]
 
     motion-safe:duration-300
+
+    ${isInView ? '' : 'font-thin'}
+
     motion-safe:group-hover:font-thin
-    motion-safe:group-hover:font-stretch-condensed
-  `,
+  `),
   index: `
     block
     mb-1.5

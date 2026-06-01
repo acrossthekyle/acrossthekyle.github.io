@@ -4,7 +4,6 @@ const styles = tw({
   container: `
     antialiased
     scroll-smooth
-    font-sans font-normal
     bg-(--background)
     text-(--foreground)
 

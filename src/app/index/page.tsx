@@ -7,7 +7,7 @@ import View from '@/views/catalog';
 import get from './get';
 
 export const metadata: Metadata = {
-  title: 'Collections',
+  title: 'Index',
   description: 'A collection of thru-hikes, summits, and experiences since 2016',
 };
 

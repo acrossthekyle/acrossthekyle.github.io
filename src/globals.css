@@ -110,6 +110,19 @@ body {
     opacity: .8 !important;
   }
 
+  .leaflet-tooltip {
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+    color: var(--foreground);
+    padding-inline: 1rem;
+    padding-top: 0.75rem;
+  }
+
+  .leaflet-tooltip:before {
+    display: none;
+  }
+
   .leaflet-gesture-handling-scroll-warning:after,
   .leaflet-gesture-handling-touch-warning:after {
     background: transparent;

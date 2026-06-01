@@ -143,7 +143,8 @@ const data = [
       "continent": "North America"
     },
     "notes": [
-      "Known for its unglaciated, hilly landscape, this remote counterclockwise backpacking loop in the Driftless Area of Iowa showcases the state's most rugged terrain with a route that crosses ravines, climbs sandstone bluffs, and provides views of the surrounding hardwood forests and wildlife."
+      "Known for its unglaciated, hilly landscape, this remote counterclockwise backpacking loop in the Driftless Area of Iowa showcases the state's most rugged terrain with a route that crosses ravines, climbs sandstone bluffs, and provides views of the surrounding hardwood forests and wildlife.",
+      "This was a short weekend backpacking trip on one of the trails in the area where we hiked to a place called Browns Hollow: a grassy field pocketed by dense forest all around it. The trail had three big hills to hike up and over, but overall it wasn't that difficult of a trail."
     ],
     "position": [
       "47%",
@@ -179,7 +180,8 @@ const data = [
       "continent": "Europe"
     },
     "notes": [
-      "A repeat of a 2018 thru-hike of this trail, however for this go-around my partner joined in on the adventure. It was her first experience with hut-to-hut hiking. We spent 11 days travelling 117 miles around the Mont Blanc massif."
+      "The Tour du Mont Blanc was my second-ever thru-hike, and it left a lasting impressiong on me. So much so that when I was getting my partner into overnight backpacking trips, this trek seemed like a perfect introduction.",
+      "This repeat of my 2018 thru-hike of the trail in the European Alps was much as I had remembered; we even stayed at most of the same places as I did. However this time I combined the previous thru-hike's last two stages. We spent 11 days travelling 117 miles around the Mont Blanc massif, and it was definitely worth it."
     ],
     "position": [
       "45%",
@@ -214,7 +216,8 @@ const data = [
       "continent": "Europe"
     },
     "notes": [
-      "Before beginning our adventure in the Alps on the Tour du Mont blanc my partner and I took the opportunity to explore the city of Geneva."
+      "Before beginning our adventure in the Alps on the Tour du Mont blanc my partner and I took the opportunity to explore the city of Geneva. I had flown in and out of this city before, but never had the chance to see it.",
+      "Our hotel in the art district provided an ideal base of operations as we explored. Old Town and its historic church provided ample historical sights and provided a good view of the surrounding area. The botanical garden was a nice escape from the busy city life, and we also checked out the Patek Phillipe watch museum."
     ],
     "position": [
       "44%",
@@ -315,7 +318,9 @@ const data = [
       "continent": "Africa"
     },
     "notes": [
-      "We decided to ring in the new year by doing something special, and chose to visit Cairo, and Luxor, in Egypt."
+      "We decided to ring in the new year by doing something special, and chose to visit Cairo, and Luxor, in Egypt.",
+      "This was one of the more interesting vacations/experiences I've had. The cities were bustling and full of people vying for our attention, and the same can be said for most of the monuments and historical sites we visited.",
+      "We had a handful of pleasant experiences at some of the monuments though, with our favorite being Habu Temple."
     ],
     "position": [
       "54%",
@@ -339,7 +344,7 @@ const data = [
   },
   {
     "category": "Backpacking",
-    "coordinates": "40.0080° N, 87.5717° W",
+    "coordinates": "43.1126° N, 89.6480° W",
     "count": 5,
     "id": "ice-age-trail",
     "location": {
@@ -348,7 +353,8 @@ const data = [
       "continent": "North America"
     },
     "notes": [
-      "A place of kettles and moraines from mile-thick glaciers long ago in Wisconsin, completing this 1,200 mile long-distance national scenic trail in sections takes time.",
+      "A place of kettles and moraines from mile-thick glaciers long ago in Wisconsin, this trail is an ideal option for weekend backpacking due to its proximity to Chicago.",
+      "The terrain isn't too demanding, and I don't know if I'll ever complet all sections of the 1,200 mile national scenic trail, but it's very ideal for overnight backpacking trips thanks to the reservable Adirondack-style shelters.",
       "It's not the distance on this trail that gets you; it's the constant up and down over rolling hills."
     ],
     "position": [
@@ -424,7 +430,9 @@ const data = [
       "continent": "North America"
     },
     "notes": [
-      "We escaped the trailing remnants of winter in Chicago by booking a last-minute trip in Puerto Rico, and spent a few days walking its beaches, exploring forts, and cliff jumping in the rain forests."
+      "We escaped the trailing remnants of winter in Chicago by booking a last-minute trip in Puerto Rico, and spent a few days walking its beaches, exploring forts, and cliff jumping in the rain forests.",
+      "Old town was my favorite, with its quaint streets, shops and restaurants, and of course the historic forts.",
+      "Sadly much of the damage from previous hurricanes was still visible, and the place was still struggling to recover."
     ],
     "position": [
       "58%",
@@ -456,7 +464,9 @@ const data = [
       "continent": "North America"
     },
     "notes": [
-      "The Porcupine Mountains, spanning roughly 60,000 acres in the western Upper Peninsula of Michigan, comprise a large wilderness state park characterized by old-growth forest, rugged slate and shale ridges, and Lake Superior shoreline."
+      "Located in the Upper Peninsula of Michigan the Porcupine Mountains (nicknamed 'The Porkies') cover a wide area of the shoreline of Lake Superior.",
+      "The original plan was to backpack 4 days and 3 nights are various backcountry campsites, but mother nature had its own plans and it became a car-camping outing instead, thanks to the swarms of biting black flies that had recently hatched.",
+      "Views from the Lake in the Clouds, and sunrises over Lake Superior, were the highlights of the trip."
     ],
     "position": [
       "47.5%",
@@ -523,7 +533,9 @@ const data = [
       "continent": "Asia"
     },
     "notes": [
-      "Spent a few days exploring Pokhara, Nepal after completing the Annapurna Basecamp and Circuit treks."
+      "After completing my trekking in the Annapurna Region of Nepal I spent a few days exploring Pokhara.",
+      "The bustling city is situated next a body of water called Phewa Lake, and has one main shopping avenue with cafes and restaurants that runs perpendicular to it. There's also a great outdoor movie theater nestled next to a bit of the jungle.",
+      "I also decided to take advantage of the numerous outdoor activity companies in the city and tried something new: a paragliding excursion."
     ],
     "position": [
       "53%",
@@ -553,7 +565,9 @@ const data = [
       "continent": "Asia"
     },
     "notes": [
-      "Continuing my trekking in the Himalayas with a 5 day, 38 mile trail to and from Annapurna I Basecamp at 13,525 ft (4,110 m) after completing the Annapurna Circuit."
+      "After ending the Annapurna Circuit I decided to take a series of footpaths through jungle and over farmland to a village called Chomrong in order to start another trek in the Himalayas: a 5 day, 38 mile out-and-back hike to and from Annapurna Basecamp at 13,525 ft (4,110 m).",
+      "From Chomrong it took two days to get up to Basecamp where I spent time reading next a fire inside one of the huts while watching the snow fall outside, and watched the sun rise over the mountains the next morning.",
+      "The descent back to Chomrong only took one day to complete. It was time to return to Pokhara the following day."
     ],
     "position": [
       "53%",
@@ -587,8 +601,9 @@ const data = [
       "continent": "Asia"
     },
     "notes": [
-      "Thru-hike over 14 days and 155 miles with a peak altitude of 17,812 ft (5,420 m) at Thorong La Pass. Rooms cost $1-3 each night with similar prices for meals, and the mattresses became more rock-like as the elevation went higher. Friendly locals helped us find our way on day one when we lost the route.",
-      "Overall amazing experience, and great food. #24-hour-Dal-Bhat-Power"
+      "Based out of a city called Pokhara, and starting in a village near the town of Besisahar, this thru-hike took 14 days and 155 miles to complete with a peak altitude of 17,812 ft (5,420 m) at Thorong La Pass (the highest terrestial point I've ever reached).",
+      "Rooms cost $1-3 each night, with similar prices for meals, and the mattresses became more rock-like as the elevation increased. Friendly locals even helped us find our way when we lost the route on day one.",
+      "Overall it was an amazing experience, second only to the Camino Frances thru-hike, and the unlimited refills of Dal Bhat didn't hurt either."
     ],
     "position": [
       "53%",
@@ -762,7 +777,8 @@ const data = [
       "continent": "South America"
     },
     "notes": [
-      "This was my second time visiting South America. We explored Santiago and Valparaiso for a few days with visits to wineries, Lollapalooza, and a hike to a glacier in the Andes mountains. We also took a few days to head down to Patagonia where we did a day hike up to the base of the Towers of Patagonia, took a cruise to see some glaciers, and stepped into a deep Ice Age cave."
+      "This was my second time visiting South America. We explored Santiago and Valparaiso for a few days with visits to wineries, Lollapalooza, and a hike to a glacier in the Andes mountains.",
+      "We also took a few days to head down to Patagonia where we did a day hike up to the base of the Towers of Patagonia, took a cruise to see some glaciers, and stepped into a deep Ice Age cave."
     ],
     "position": [
       "85%",

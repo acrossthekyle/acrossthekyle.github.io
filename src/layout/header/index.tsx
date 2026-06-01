@@ -14,14 +14,14 @@ export default function Header() {
         className={styles.anchor(path === '/')}
         href="/"
       >
-        Index
+        About
       </Link>
       <span className={styles.divider} role="presentation">/</span>
       <Link
-        className={styles.anchor(path.includes('/catalog'))}
-        href="/catalog"
+        className={styles.anchor(path.includes('/index'))}
+        href="/index"
       >
-        Collections
+        Index
       </Link>
     </header>
   );
