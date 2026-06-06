@@ -7,9 +7,9 @@ export default function Header() {
         Since 2018
       </span>
       <span className={styles.chunk}>&mdash;</span>
-      <span className={styles.chunk}>Collections</span>
+      <span className={styles.words}>Wanderings</span>
       <span className={styles.subtitle}>
-        Currently viewing <u>everything</u> sorted <u>randomly</u>.
+        A collection of thru-hikes, summits, destinations, and other experiences
       </span>
     </h1>
   );

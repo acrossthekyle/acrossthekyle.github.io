@@ -14,15 +14,15 @@ const styles = tw({
   `,
   heading: (isInView: boolean) => tw(`
     mb-2
-    text-[min(6vw,32px)]
+    text-[min(6.5vw,32px)]
     font-black
     leading-[0.85]
     uppercase
     tracking-tight
     whitespace-nowrap
 
-    sm:text-[min(3vw,22px)]
-    lg:text-[min(2vw,26px)]
+    sm:text-[min(3.25vw,30px)]
+    lg:text-[min(2.25vw,30px)]
 
     motion-safe:duration-300
 

@@ -16,10 +16,8 @@ const styles = tw({
     lg:mt-0
     lg:h-screen
     lg:fixed
-    lg:left-10
+    lg:left-0
     lg:w-1/3
-    lg:border-l-1
-    lg:border-current/10
 
     motion-safe:opacity-0
     motion-safe:animate-fade-in-up-slightly-delayed

@@ -20,19 +20,19 @@ const ASPECTS = [
 
 const POSITIONS = [
   [
-    'w-full mt-4 col-span-3 order-0',
-    'w-full mt-0 col-span-3 order-1',
-    'w-full mt-0 col-span-2 order-2',
+    'col-span-3 order-0',
+    'col-span-3 order-1',
+    'col-span-2 order-2',
   ],
   [
-    'w-full mt-4 col-span-2 order-0',
-    'w-full mt-4 col-span-3 order-1',
-    'w-full mt-0 col-span-3 order-2',
+    'col-span-2 order-0',
+    'col-span-3 order-1',
+    'col-span-3 order-2',
   ],
   [
-    'w-full mt-4 col-span-2 order-0',
-    'w-full mt-0 col-span-2 order-2',
-    'w-full mt-4 col-span-3 order-1',
+    'col-span-2 order-0',
+    'col-span-2 order-2',
+    'col-span-3 order-1',
   ],
 ];
 
@@ -41,26 +41,39 @@ const styles = tw({
     relative
     grid grid-cols-5 gap-4
     h-auto
-    mr-1
+    pb-4
+    perspective-normal
 
-    lg:last:pb-4
+    lg:mr-1
   `,
-  figure: (group: number, index: number) => tw(`
+  figure: (group: number, index: number, isInView: boolean) => tw(`
+    relative
+    w-full
+
     ${POSITIONS[group % 3][index]}
     ${ASPECTS[group % 3][index]}
+
+    ${isInView ? `
+      motion-safe:opacity-100 motion-safe:rotate-x-0
+    ` : `
+      motion-safe:opacity-50 motion-safe:rotate-x-10
+    `}
+    motion-safe:transform-gpu
+    motion-safe:will-change-transform
+    motion-safe:duration-500
+    motion-safe:ease-in-out
   `),
   cta: `
     group
     relative z-1
+    block
     h-full w-full
     overflow-hidden
-    transform-gpu
-    transition-transform
-    duration-800
-    ease-out
-    will-change-transform
+    rounded-lg
 
-    lg:!cursor-zoom-in
+    after:absolute
+    after:inset-0
+    after:z-2
   `,
   image: `
     motion-safe:grayscale
@@ -84,12 +97,11 @@ const styles = tw({
   `,
   index: `
     absolute top-0 right-0
-    flex flex-col gap-0 items-end
+    flex gap-1
     tracking-[0.125rem]
   `,
   meta: `
     flex flex-col gap-0
-    pt-2
   `,
   strong: `
     font-black

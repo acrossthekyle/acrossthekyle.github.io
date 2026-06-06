@@ -17,10 +17,7 @@ export default function Content() {
           It left such an impression on me that I ended up embarking on my first long-distance backpacking adventure two years later by walking 600 miles across Northern Spain on a route called El Camino De Santiago.
         </p>
         <p className={styles.paragraph}>
-          Since then I've travelled to numerous destinations, and spent hundreds of days traipsing thousands of miles through nature and over mountain passes all around the world.
-        </p>
-        <p className={styles.paragraph}>
-          This website is a nearly complete <Link className={styles.link} href="/index">collection</Link> of those experiences.
+          Since then I've <Link className={styles.link} href="/index">wandered</Link> to numerous destinations, and spent hundreds of days traipsing thousands of miles through nature and over mountain passes all around the world.
         </p>
       </section>
       <section className={styles.section}>

@@ -8,13 +8,11 @@ import { PropsWithChildren, Suspense } from 'react';
 
 import DialogProvider from '@/contexts/dialog';
 import OptionsProvider from '@/contexts/options';
-import { Body, Dialog, Footer, Header, Main } from '@/layout';
-
-import Eggs from './eggs';
+import { Body, Footer, Header, Main, Menu } from '@/layout';
 
 export const metadata: Metadata = {
   title: {
-    template: `Kyle Gilbert • %s`,
+    template: `Kyle Gilbert ⌁ %s`,
     default: 'Kyle Gilbert',
   },
   formatDetection: {
@@ -38,7 +36,6 @@ export default async function RootLayout({ children }: PropsWithChildren) {
   return (
     <html className={font.variable} lang="en-US" suppressHydrationWarning>
       <Suspense fallback={null}>
-        <Eggs />
         <DialogProvider>
           <OptionsProvider units={units}>
             <Body>
@@ -48,7 +45,7 @@ export default async function RootLayout({ children }: PropsWithChildren) {
                   {children}
                 </Main>
                 <Footer />
-                <Dialog />
+                <Menu />
               </ThemeProvider>
             </Body>
           </OptionsProvider>

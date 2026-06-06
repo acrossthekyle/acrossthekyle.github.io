@@ -4,6 +4,7 @@ import { Article } from '@/layout';
 import { Map } from '@/partials';
 
 import get from './get';
+
 export default async function Layout({ children }: PropsWithChildren) {
   const collections = await get();
 

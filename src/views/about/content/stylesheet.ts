@@ -3,10 +3,10 @@ import tw from '@/styles';
 const styles = tw({
   section: `
     flex flex-col justify-start
-    pb-10
+    py-10
 
+    first:pt-0
     last:pb-0
-
     last:justify-end
   `,
   heading: `

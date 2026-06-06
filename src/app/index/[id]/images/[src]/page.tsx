@@ -3,13 +3,14 @@ import { notFound } from 'next/navigation';
 import { Suspense } from 'react';
 
 import { Ui } from '@/ui';
-import { createDescription } from '@/utils';
-import View from '@/views/catalog-[id]';
+import { padIndex } from '@/utils';
+import View from '@/views/catalog-[id]-images-[src]';
 
 import get from './get';
 
 type Params = Promise<{
   id: string;
+  src: string;
 }>;
 
 type GenerateMetadata = {
@@ -23,14 +24,14 @@ type Props = {
 export async function generateMetadata({
   params,
 }: GenerateMetadata): Promise<Metadata> {
-  const { id } = await params;
+  const { id, src } = await params;
 
-  const data = await get(id.toLowerCase());
+  const data = await get(id.toLowerCase(), src.toLowerCase());
 
   if (data === null) {
     return {
       title: '404 Not Found',
-      description: 'That collection does not exist',
+      description: 'That image does not exist',
       robots: {
         index: false,
         follow: false,
@@ -45,15 +46,15 @@ export async function generateMetadata({
   }
 
   return {
-    title: `Index • ${data.collection.title.join(' ')}`,
-    description: `${createDescription(data.collection)}. ${data.collection.notes.join(' ')}`,
+    title: `Index ⌁ Images ⌁ IMG ${padIndex(data.index + 1)} / ${padIndex(data.total)}`,
+    description: ``,
   };
 };
 
 export default async function Page({ params }: Props) {
-  const { id } = await params;
+  const { id, src } = await params;
 
-  const data = await get(id.toLowerCase());
+  const data = await get(id.toLowerCase(), src.toLowerCase());
 
   if (data === null) {
     return notFound();

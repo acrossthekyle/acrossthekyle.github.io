@@ -6,7 +6,7 @@ const styles = tw({
     flex flex-col gap-0.5
     leading-[1]
     font-normal
-    text-xtiny text-right text-current/50
+    text-xtiny text-right text-current/70
     uppercase
     tracking-widest
   `,
@@ -14,10 +14,18 @@ const styles = tw({
     relative z-1
     h-full w-full
   `,
+  tooltip: `
+    relative top-1
+    uppercase
+    text-xtiny
+
+    motion-safe:opacity-0
+    motion-safe:animate-fade-in
+  `,
   marker: (isActive: boolean) => tw(`
     relative !z-1
     stroke-1 stroke-(--foreground)/10
-    ${isActive ? 'fill-(--foreground)/50' : 'fill-(--foreground)/4 motion-safe:hover:fill-(--foreground)'}
+    ${isActive ? 'fill-(--foreground)/50 animate-pulse' : 'fill-(--foreground)/4 motion-safe:hover:fill-(--foreground)'}
   `),
   marker1: `
     relative !z-2

@@ -7,47 +7,74 @@ import {
   RefObject,
   createContext,
   useCallback,
+  useLayoutEffect,
   useRef,
   useState,
 } from 'react';
 
-type Input = {
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  data: any; // allow anything
-};
-
 type DialogContextType = {
-  data: Input;
-  dialog: RefObject<HTMLDialogElement | null>;
-  isClosing: boolean;
+  dialog: string;
+  input?: object;
   isOpen: boolean;
   onBackdrop: (event: MouseEvent<HTMLDialogElement>) => void;
   onCancel: (event: KeyboardEvent<HTMLDialogElement>) => void;
   onClose: () => void;
-  onDialog: (input: Input) => void;
-  onDone: (callback: () => void) => void;
-  onStack: (value: boolean) => void;
+  onDialog: (name: string, data?: object) => void;
+  onRegister: (name: string, node: HTMLDialogElement | null) => void;
 };
 
 export const DialogContext = createContext<DialogContextType | null>(null);
 
 export default function DialogProvider({ children }: PropsWithChildren) {
   const [canClose, setCanClose] = useState(false);
+  const [dialog, setDialog] = useState('');
+  const [input, setInput] = useState<object | undefined>();
   const [isOpen, setIsOpen] = useState(false);
-  const [isClosing, setIsClosing] = useState(false);
-  const [isStacked, setIsStacked] = useState(false);
-  const [data, setData] = useState<Input>({ data: {} });
-  const [onDoneCallback, setOnDoneCallback] = useState<(() => void) | null>(null);
 
-  const dialog = useRef<HTMLDialogElement | null>(null);
+  const dialogRefs = useRef<Record<string, HTMLDialogElement | null>>({});
 
-  const handleOnOpen = useCallback((input: Input) => {
-    setData(input);
+  const updateBackdropHeight = useCallback((forcedName?: string) => {
+    const activeNode = dialogRefs.current[forcedName || dialog];
 
-    dialog.current?.showModal();
+    if (activeNode) {
+      const height = document.documentElement.scrollHeight;
+
+      activeNode.style.setProperty('--dialog-backdrop-height', `${height}px`);
+    }
+  }, []);
+
+  useLayoutEffect(() => {
+    if (isOpen) {
+      updateBackdropHeight();
+
+      window.addEventListener('resize', updateBackdropHeight);
+
+      return () => window.removeEventListener('resize', updateBackdropHeight);
+    }
+  }, [isOpen, updateBackdropHeight]);
+
+  const handleOnRegister = useCallback((name: string, node: HTMLDialogElement | null) => {
+    dialogRefs.current[name] = node;
+  }, []);
+
+  const handleOnOpen = useCallback((name: string, data?: object) => {
+    const activeNode = dialogRefs.current[name];
+
+    if (!activeNode) {
+      return;
+    }
+
+    activeNode.style.setProperty('--dialog-top-position', `${window.scrollY}px`);
+
+    activeNode.showModal();
+
+    setInput(data);
+
+    updateBackdropHeight(name);
 
     requestAnimationFrame(() => {
       setIsOpen(true);
+      setDialog(name);
 
       setTimeout(() => {
         setCanClose(true);
@@ -55,68 +82,54 @@ export default function DialogProvider({ children }: PropsWithChildren) {
     });
   }, []);
 
-  const handleOnDoneCallback = useCallback(() => {
-    if (onDoneCallback !== null) {
-      onDoneCallback();
-
-      setOnDoneCallback(null);
-    }
-  }, [onDoneCallback]);
-
   const handleOnClose = useCallback(() => {
     if (!canClose) {
       return;
     }
 
-    setIsClosing(true);
+    const activeNode = dialogRefs.current[dialog];
+
     setCanClose(false);
     setIsOpen(false);
+    setDialog('');
 
-    const node = dialog.current;
+    if (!activeNode) {
+      return;
+    }
 
     const handleTransitionEnd = () => {
-      node?.close();
-
-      setIsClosing(false);
-
-      handleOnDoneCallback();
+      activeNode.close();
     };
 
-    node?.addEventListener('transitionend', handleTransitionEnd, { once: true });
-  }, [canClose, handleOnDoneCallback]);
+    activeNode.addEventListener('transitionend', handleTransitionEnd, { once: true });
+  }, [canClose]);
 
   const handleOnCancel = useCallback((event: KeyboardEvent<HTMLDialogElement>) => {
-    if (event.key === 'Escape' && !isStacked && canClose) {
-      handleOnClose();
-    }
-  }, [canClose, handleOnClose, isStacked]);
+    if (event.key === 'Escape' && canClose) {
+      event.preventDefault();
 
-  const handleOnBackdrop = useCallback((event: MouseEvent<HTMLDialogElement>) => {
-    if (event.target === dialog.current && canClose) {
       handleOnClose();
     }
   }, [canClose, handleOnClose]);
 
-  const handleOnDone = useCallback((callback: () => void) => {
-    setOnDoneCallback(() => callback);
-  }, []);
+  const handleOnBackdrop = useCallback((event: MouseEvent<HTMLDialogElement>) => {
+    const activeNode = dialogRefs.current[dialog];
 
-  const handleOnStack = useCallback((value: boolean) => {
-    setIsStacked(value);
-  }, []);
+    if (event.target === activeNode && canClose) {
+      handleOnClose();
+    }
+  }, [canClose, dialog, handleOnClose]);
 
   return (
     <DialogContext.Provider value={{
-      data,
       dialog,
-      isClosing,
+      input,
       isOpen,
       onBackdrop: handleOnBackdrop,
       onCancel: handleOnCancel,
       onClose: handleOnClose,
       onDialog: handleOnOpen,
-      onDone: handleOnDone,
-      onStack: handleOnStack,
+      onRegister: handleOnRegister,
     }}>
       {children}
     </DialogContext.Provider>

@@ -2,6 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
+    hidden
     h-10 w-full
     flex flex-row items-center justify-between
     border-t-1 border-current/10

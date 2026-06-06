@@ -20,7 +20,9 @@ const styles = tw({
     lg:w-[calc(33.3333333333vw-0.75rem)]
 
     motion-safe:opacity-0
-    motion-safe:animate-fade-in-up-slightly-delayed
+    motion-safe:animate-fade-in-down-slightly-delayed
+
+    lg:motion-safe:animate-fade-in-up-slightly-delayed
   `,
 });
 

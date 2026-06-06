@@ -1,28 +1,18 @@
 'use client';
 
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { useMenu } from '@/hooks/useMenu';
 
 import styles from './stylesheet';
 
 export default function Header() {
-  const path = usePathname();
+  const { onMenu } = useMenu();
 
   return (
     <header className={styles.container}>
-      <Link
-        className={styles.anchor(path === '/')}
-        href="/"
-      >
-        About
-      </Link>
-      <span className={styles.divider} role="presentation">/</span>
-      <Link
-        className={styles.anchor(path.includes('/index'))}
-        href="/index"
-      >
-        Index
-      </Link>
+      <button className={styles.anchor} onClick={onMenu} type="button">
+        <span className={styles.top} />
+        <span className={styles.bottom} />
+      </button>
     </header>
   );
 }

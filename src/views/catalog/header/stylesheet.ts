@@ -7,10 +7,13 @@ const styles = tw({
     font-black
     leading-[0.85]
     uppercase
-    origin-left scale-x-[0.9]
 
     sm:text-[min(5vw,40px)]
-    lg:text-[min(3.5vw,42px)]
+    lg:text-[min(4vw,46px)]
+  `,
+  words: `
+    block
+    origin-left scale-x-[0.9]
   `,
   chunk: `
     block
@@ -23,7 +26,6 @@ const styles = tw({
     leading-[1.375]
     font-normal
     tracking-widest
-    scale-x-[1]
   `,
   eyebrow: `
     block
@@ -32,7 +34,6 @@ const styles = tw({
     font-normal
     tracking-widest
     uppercase
-    scale-x-[1]
   `,
   overview: `
     flex flex-col justify-start

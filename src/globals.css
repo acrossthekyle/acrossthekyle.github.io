@@ -1,21 +1,19 @@
 @import "tailwindcss";
 
 @theme inline {
-  --animate-fade-in: fadeIn .3s ease-in forwards;
-  --animate-fade-in-delayed: .3s fadeIn 6.25s ease-in forwards;
+  --animate-fade-in: fade-in .3s ease-in forwards;
+  --animate-fade-in-delayed: .3s fade-in 6.25s ease-in forwards;
   --animate-fade-in-up: slide-up-fade .4s ease-in forwards;
-  --animate-fade-in-slightly-delayed: .4s fadeIn .2s ease-in-out forwards;
+  --animate-fade-in-right: slide-right-fade .4s ease-in-out forwards;
+  --animate-fade-in-slightly-delayed: .4s fade-in .2s ease-in-out forwards;
   --animate-fade-in-up-slightly-delayed: .4s slide-up-fade .2s ease-in-out forwards;
   --animate-fade-in-down-slightly-delayed: .4s slide-down-fade .2s ease-in-out forwards;
   --animate-fade-in-right-slightly-delayed: .4s slide-right-fade .2s ease-in-out forwards;
   --animate-fade-in-left-slightly-delayed: .4s slide-left-fade .2s ease-in-out forwards;
+  --animate-fade-out: fade-out .1s ease-in-out forwards;
   --animate-fade-out-up: slide-up-fade-out .1s ease-in-out forwards;
-
-  --animate-greeting: fade-in-and-out 7s ease-in-out forwards;
-  --animate-one-moment: 7s fade-in-and-out 7s ease-in-out forwards;
-  --animate-working-on-it: 7s fade-in-and-out 14s ease-in-out forwards;
-  --animate-really-sorry: 7s fade-in-and-out 21s ease-in-out forwards;
-  --animate-any-second-now: 7s fade-in-and-out 28s ease-in-out forwards;
+  --animate-fade-out-down: slide-down-fade-out .1s ease-in-out forwards;
+  --animate-fade-out-left: slide-left-fade-out .1s ease-in-out forwards;
 
   --breakpoint-xs: 20rem; /* 320px */
 
@@ -66,6 +64,11 @@
   --foreground: #fefff5;
 }
 
+html:has(dialog[open]),
+body:has(dialog[open]) {
+  overflow: hidden !important;
+}
+
 body {
   button {
     cursor: pointer;
@@ -77,17 +80,20 @@ body {
     width: 100%;
   }
 
-  dialog {
-    opacity: 0;
-  }
-
-  dialog.is-active {
-    opacity: 1;
+  dialog::backdrop {
+    height: var(--dialog-backdrop-height, 100vh);
   }
 
   dialog.is-active::backdrop {
     opacity: 1;
-    transition-delay: 0s;
+  }
+
+  dialog#image {
+    top: var(--dialog-top-position, 0);
+  }
+
+  dialog#image::backdrop {
+    top: var(--dialog-top-position, 0);
   }
 
   /* third-party package styling  */
@@ -141,9 +147,14 @@ body {
   }
 }
 
-@keyframes fadeIn {
+@keyframes fade-in {
   0% { opacity: 0; }
   100% { opacity: 1; }
+}
+
+@keyframes fade-out {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
 }
 
 @keyframes slide-up-fade {
@@ -166,14 +177,17 @@ body {
   100% { opacity: 1; transform: translateX(0); }
 }
 
-@keyframes fade-in-and-out {
-  0% { opacity: 0; transform: translateY(1.5rem); }
-  14% { opacity: 1; transform: translateY(0); }
-  86% { opacity: 1; transform: translateY(0); }
-  100% { opacity: 0; transform: translateY(-1.5rem); }
-}
-
 @keyframes slide-up-fade-out {
   0% { opacity: 1; transform: translateY(0); }
   100% { opacity: 0; transform: translateY(-2rem); }
+}
+
+@keyframes slide-down-fade-out {
+  0% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(2rem); }
+}
+
+@keyframes slide-left-fade-out {
+  0% { opacity: 1; transform: translateX(0); }
+  100% { opacity: 0; transform: translateX(-4rem); }
 }

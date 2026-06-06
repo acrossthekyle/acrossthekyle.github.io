@@ -137,7 +137,7 @@ export default function Leaflet({ collections, current, onClick }: Props) {
               }}
             >
               {!isActive && (
-                <Tooltip direction="bottom">
+                <Tooltip className={styles.tooltip} direction="bottom">
                   {item.title.join(' ')}
                 </Tooltip>
               )}

@@ -7,10 +7,13 @@ const styles = tw({
     font-black
     leading-[0.85]
     uppercase
-    origin-left scale-x-[0.9]
 
     sm:text-[min(5vw,40px)]
-    lg:text-[min(3.5vw,42px)]
+    lg:text-[min(4vw,46px)]
+  `,
+  words: `
+    block
+    origin-left scale-x-[0.9]
   `,
   chunk: `
     block
@@ -23,22 +26,19 @@ const styles = tw({
     leading-[1.375]
     font-normal
     tracking-widest
-    scale-x-[1]
   `,
   eyebrow: `
     block
     relative top-1
-    text-xtiny text-current/75
+    text-tiny text-current/75
     font-normal
     tracking-widest
     uppercase
-    scale-x-[1]
+
+    sm:text-xtiny
   `,
   overview: `
-    flex flex-col justify-start
     mt-10
-
-    lg:justify-end
   `,
   paragraph: `
     w-full max-w-96
@@ -49,6 +49,26 @@ const styles = tw({
 
     sm:max-w-64
     sm:text-xs
+
+    motion-safe:opacity-0
+    motion-safe:animate-fade-in-up
+  `,
+  back: `
+    flex items-center gap-1
+    mb-4
+    leading-[0.85]
+    font-medium
+    text-tiny text-current/75
+    uppercase
+
+    sm:font-normal
+    sm:text-xtiny
+  `,
+  arrow: `
+    w-3.25 h-3.25
+    stroke-2
+
+    sm:stroke-1
   `,
 });
 

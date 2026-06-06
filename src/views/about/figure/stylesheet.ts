@@ -13,6 +13,11 @@ const styles = tw({
     uppercase
     tracking-widest
   `,
+  overlay: `
+    absolute
+    inset-0
+    z-2
+  `,
 });
 
 export default styles;
