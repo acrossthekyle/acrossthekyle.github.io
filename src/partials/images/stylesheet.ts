@@ -3,39 +3,37 @@ import tw from '@/styles';
 const ASPECTS = [
   'aspect-square',
   'aspect-video',
-  'aspect-portrait',
+  'aspect-4/3',
+  'aspect-video',
+  'aspect-4/3',
+  'aspect-4/3',
+  'aspect-video',
 ];
 
 const styles = tw({
   container: `
     relative
-    col-span-1 order-1
-    h-80 w-full
-    border-b-1 border-current/10
-
-    sm:h-screen
-    sm:border-l-1
-    sm:border-b-0
-    sm:absolute
-    sm:top-0
-    sm:right-0
-    sm:w-[50vw]
-    lg:w-1/4
+    col-span-3 order-1
+    h-full w-full
 
     motion-safe:opacity-0
     motion-safe:animate-fade-in-up-slightly-delayed
-
-    lg:motion-safe:animate-fade-in-down-slightly-delayed
   `,
   images: `
-    flex flex-col gap-4
-    py-4 pr-4
+    flex flex-row items-center gap-4
+
+    w-full
+    p-4
+    overflow-x-auto
+    scrollbar-hide
+  `,
+  item: `
+    flex-shrink-0
   `,
   link: `
     group
     relative z-1
     block
-    h-full w-full
     overflow-hidden
     rounded-lg
 
@@ -43,12 +41,13 @@ const styles = tw({
     after:inset-0
     after:z-2
   `,
-  image: (index: number) => tw(`
+  image: (index: number, isActive: boolean) => tw(`
     ${ASPECTS[index % ASPECTS.length]}
+    !h-20
 
     motion-safe:grayscale
     motion-safe:sepia-10
-    motion-safe:brightness-90
+    ${isActive ? 'motion-safe:brightness-90' : 'motion-safe:brightness-40'}
     motion-safe:duration-700
     motion-safe:ease-in-out
     motion-safe:group-hover:grayscale-20

@@ -1,3 +1,4 @@
+import { notFound } from 'next/navigation';
 import { PropsWithChildren, Suspense } from 'react';
 
 import { Article } from '@/layout';
@@ -21,9 +22,13 @@ export default async function Layout({
 
   const images = await get(id);
 
+  if (images === null) {
+    return notFound();
+  }
+
   return (
     <Suspense fallback={null}>
-      <Article.Container>
+      <Article.Container stack>
         {children}
         <Images images={images} />
       </Article.Container>

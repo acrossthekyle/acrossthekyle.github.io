@@ -4,7 +4,6 @@ import {
   KeyboardEvent,
   MouseEvent,
   PropsWithChildren,
-  RefObject,
   createContext,
   useCallback,
   useLayoutEffect,
@@ -41,17 +40,21 @@ export default function DialogProvider({ children }: PropsWithChildren) {
 
       activeNode.style.setProperty('--dialog-backdrop-height', `${height}px`);
     }
-  }, []);
+  }, [dialog]);
+
+  const handleOnWindowResize = useCallback(() => {
+    updateBackdropHeight();
+  }, [updateBackdropHeight]);
 
   useLayoutEffect(() => {
     if (isOpen) {
       updateBackdropHeight();
 
-      window.addEventListener('resize', updateBackdropHeight);
+      window.addEventListener('resize', handleOnWindowResize);
 
-      return () => window.removeEventListener('resize', updateBackdropHeight);
+      return () => window.removeEventListener('resize', handleOnWindowResize);
     }
-  }, [isOpen, updateBackdropHeight]);
+  }, [handleOnWindowResize, isOpen, updateBackdropHeight]);
 
   const handleOnRegister = useCallback((name: string, node: HTMLDialogElement | null) => {
     dialogRefs.current[name] = node;
@@ -80,7 +83,7 @@ export default function DialogProvider({ children }: PropsWithChildren) {
         setCanClose(true);
       }, 450);
     });
-  }, []);
+  }, [updateBackdropHeight]);
 
   const handleOnClose = useCallback(() => {
     if (!canClose) {
@@ -102,7 +105,7 @@ export default function DialogProvider({ children }: PropsWithChildren) {
     };
 
     activeNode.addEventListener('transitionend', handleTransitionEnd, { once: true });
-  }, [canClose]);
+  }, [canClose, dialog]);
 
   const handleOnCancel = useCallback((event: KeyboardEvent<HTMLDialogElement>) => {
     if (event.key === 'Escape' && canClose) {

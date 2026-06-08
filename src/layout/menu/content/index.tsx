@@ -21,7 +21,7 @@ export default function Content() {
       <h2 className={styles.header} id="dialog-header">
         Menu
       </h2>
-      <nav className={styles.navigation}>
+      <nav>
         <ul className={styles.menu}>
           <li className={styles.item}>
             <Link

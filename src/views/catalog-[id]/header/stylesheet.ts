@@ -31,7 +31,7 @@ const styles = tw({
     block
     relative top-1
     text-tiny text-current/75
-    font-normal
+    font-medium
     tracking-widest
     uppercase
 
@@ -61,7 +61,6 @@ const styles = tw({
     text-tiny text-current/75
     uppercase
 
-    sm:font-normal
     sm:text-xtiny
   `,
   arrow: `

@@ -25,13 +25,13 @@ const styles = tw({
   header: `
     sr-only
   `,
-  navigation: `
-  `,
   menu: `
     group
     flex flex-col justify-end gap-3
     h-full w-full
-    divide-y divide-current/50
+    divide-y divide-current/25
+
+    landscape-constrained:gap-3
 
     sm:gap-6
     sm:divide-y-0
@@ -54,6 +54,8 @@ const styles = tw({
     tracking-tight
     whitespace-nowrap
     overflow-hidden
+
+    landscape-constrained:text-[min(11vw,32px)]
 
     sm:text-[min(8vw,90px)]
 

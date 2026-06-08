@@ -2,13 +2,10 @@
 
 import Link from 'next/link';
 import { InView } from 'react-intersection-observer';
-import { v4 as uuidv4 } from 'uuid';
 
 import type { Data } from '@/types';
 import { Ui } from '@/ui';
 import { padIndex } from '@/utils';
-
-import { ImageContext } from '../context';
 
 import styles from './stylesheet';
 

@@ -21,6 +21,7 @@ export default async function get(id, src) {
   }
 
   return {
+    all: filtered,
     collection,
     image: filtered[index],
     index,

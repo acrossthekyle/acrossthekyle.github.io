@@ -1,14 +1,13 @@
-import { ArrowUpLeft, MoveLeft, MoveRight } from 'lucide-react';
-import Link from 'next/link';
-
 import type { Collection, Data } from '@/types';
 import { Ui } from '@/ui';
-import { padIndex } from '@/utils';
 
+import Back from './back';
+import Navigation from './navigation';
 import styles from './stylesheet';
 
 type Props = {
   data: {
+    all: Data[];
     collection: Collection;
     image: Data;
     index: number;
@@ -19,9 +18,7 @@ type Props = {
 export default function View({ data }: Props) {
   return (
     <div className={styles.container}>
-      <Link className={styles.back} href={`/index/${data.image.collectionId}`}>
-        <ArrowUpLeft className={styles.icon} /> Back
-      </Link>
+      <Back />
       <figure className={styles.figure}>
         <Ui.Image
           className={styles.image}
@@ -32,7 +29,7 @@ export default function View({ data }: Props) {
         />
         <figcaption className={styles.caption}>
           <h1 className={styles.heading}>
-            IMG {padIndex(data.index + 1)} / {padIndex(data.total)} &mdash; {data.image.when}
+            {data.image.when}
           </h1>
           <p className={styles.stack}>
             <span>{data.image.location.region}</span>
@@ -44,17 +41,12 @@ export default function View({ data }: Props) {
           </p>
         </figcaption>
       </figure>
-      <nav aria-label="supplementary navigation" className={styles.navigation}>
-        <Link className={styles.link} href={'/'}>
-          <MoveLeft className={styles.arrow} /> Prev
-        </Link>
-        <button className={styles.link} type="button">
-          Camera specs
-        </button>
-        <Link className={styles.link} href={'/'}>
-          Next <MoveRight className={styles.arrow} />
-        </Link>
-      </nav>
+      <Navigation
+        all={data.all}
+        current={data.index}
+        id={data.collection.id}
+        total={data.total}
+      />
     </div>
   );
 }

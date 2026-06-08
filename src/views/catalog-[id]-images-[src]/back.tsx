@@ -9,12 +9,12 @@ export default function Back() {
   const router = useRouter();
 
   const handleOnBack = () => {
-    router.push('/index');
+    router.back();
   };
 
   return (
     <button className={styles.back} onClick={handleOnBack} type="button">
-      <ArrowUpLeft className={styles.arrow} /> Browse
+      <ArrowUpLeft className={styles.icon} /> Back
     </button>
   );
 }
