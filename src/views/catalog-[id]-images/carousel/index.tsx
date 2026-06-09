@@ -2,7 +2,7 @@
 
 import { debounce } from 'lodash';
 import { useSearchParams } from 'next/navigation';
-import { WheelEvent, useEffect, useMemo, useRef } from 'react';
+import { useEffect } from 'react';
 import { InView } from 'react-intersection-observer';
 
 import { useOrientation } from '@/hooks/useOrientation';
@@ -14,16 +14,12 @@ import styles from './stylesheet';
 type Props = {
   collection: Collection;
   images: Image[];
-  onNavigate: (index: number) => void;
 };
 
 export default function Carousel({
   collection,
   images,
-  onNavigate,
 }: Props) {
-  const scrollRef = useRef<HTMLUListElement>(null);
-
   const searchParams = useSearchParams();
 
   const orientation = useOrientation();
@@ -37,7 +33,7 @@ export default function Carousel({
 
         if (image) {
           image.scrollIntoView({
-            behavior: 'smooth',
+            behavior: 'instant',
             block: 'nearest',
             inline: 'center',
           });
@@ -45,62 +41,27 @@ export default function Carousel({
       }
     };
 
-    const timer = setTimeout(scrollToActive, 500);
+    scrollToActive();
 
-    window.addEventListener('resize', scrollToActive);
+    const debouncedScroll = debounce(scrollToActive, 300);
+
+    window.addEventListener('resize', debouncedScroll);
 
     return () => {
-      clearTimeout(timer);
+      debouncedScroll.cancel?.();
 
-      window.removeEventListener('resize', scrollToActive);
+      window.removeEventListener('resize', debouncedScroll);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [orientation]);
-
-  const handleWheel = (event: WheelEvent<HTMLUListElement>) => {
-    if (event.deltaY === 0) {
-      return;
-    }
-
-    event.preventDefault();
-
-    if (scrollRef.current) {
-      scrollRef.current.scrollTo({
-        left: scrollRef.current.scrollLeft + event.deltaY,
-      });
-    }
-  };
-
-  const debouncedNavigate = useMemo(
-    () =>
-      debounce((index: number) => {
-        onNavigate(index);
-      }, 1000),
-    [onNavigate]
-  );
-
-  useEffect(() => {
-    return () => {
-      debouncedNavigate.cancel();
-    };
-  }, [debouncedNavigate]);
-
-  const handleOnInView = (isInView: boolean, index: number) => {
-    if (isInView) {
-      debouncedNavigate(index);
-    }
-  };
 
   return (
     <ul
       className={styles.container}
       key={collection.id}
-      onWheel={handleWheel}
-      ref={scrollRef}
     >
-      {images.map((image, index: number) => (
+      {images.map((image) => (
         <InView
-          onChange={(isInView: boolean) => handleOnInView(isInView, index)}
           key={image.src}
           threshold={.6125}
         >
@@ -115,10 +76,13 @@ export default function Carousel({
                   thumb={image.thumb}
                 />
                 <figcaption className={styles.caption(inView)}>
+                  <h2 className={styles.heading}>
+                    {image.title || image.location.region}
+                  </h2>
                   <p className={styles.stack}>
-                    <span>{image.location.region}</span>
-                    <span>{collection.title.join(' ')}</span>
-                    <span>{image.location.country}, {image.location.continent}</span>
+                    <span>
+                      {image.location.country}, {image.location.continent}
+                    </span>
                   </p>
                   <p className={styles.stack}>
                     <Ui.Units.Length isSmall value={image.elevation} />

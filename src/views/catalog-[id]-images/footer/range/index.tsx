@@ -12,6 +12,7 @@ type Props = {
   all: Image[];
   current: number;
   id: string;
+  onNavigate: (index: number) => void;
   total: number;
 };
 

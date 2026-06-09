@@ -1,6 +1,7 @@
 'use client';
 
 import { MoveLeft, MoveRight } from 'lucide-react';
+import { useEffect } from 'react';
 
 import type { Image } from '@/types';
 
@@ -12,11 +13,28 @@ type Props = {
   all: Image[];
   current: number;
   id: string;
+  onNavigate: (index: number) => void,
   total: number;
 };
 
 export default function Navigation(props: Props) {
   const { onNext, onPrevious } = useNavigation(props);
+
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'ArrowLeft') {
+        onPrevious();
+      } else if (event.key === 'ArrowRight') {
+        onNext();
+      }
+    };
+
+    document.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [onNext, onPrevious]);
 
   return (
     <nav aria-label="carousel navigation" className={styles.container}>

@@ -9,6 +9,7 @@ type Props = {
   all: Image[];
   current: number;
   id: string;
+  onNavigate: (index: number) => void;
   total: number;
 };
 
@@ -16,6 +17,7 @@ export default function Footer({
   all,
   current,
   id,
+  onNavigate,
   total,
 }: Props) {
   return (
@@ -27,6 +29,7 @@ export default function Footer({
         all={all}
         current={current}
         id={id}
+        onNavigate={onNavigate}
         total={total}
       />
       <div className={styles.row}>
@@ -34,6 +37,7 @@ export default function Footer({
           all={all}
           current={current}
           id={id}
+          onNavigate={onNavigate}
           total={total}
         />
         <Total current={current} total={total} />

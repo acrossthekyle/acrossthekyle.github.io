@@ -20,7 +20,7 @@ const ASPECTS = [
 
 const POSITIONS = [
   [
-    'col-span-3 order-0',
+    'col-span-4 order-0',
     'col-span-3 order-1',
     'col-span-2 order-2',
   ],
@@ -31,7 +31,7 @@ const POSITIONS = [
   ],
   [
     'col-span-2 order-0',
-    'col-span-2 order-2',
+    'col-span-5 order-2',
     'col-span-3 order-1',
   ],
 ];
@@ -39,9 +39,9 @@ const POSITIONS = [
 const styles = tw({
   group: `
     relative
-    grid grid-cols-5 gap-4
+    grid grid-cols-5 gap-8
     h-auto
-    pb-4
+    pb-8
     perspective-normal
 
     lg:mr-1

@@ -12,6 +12,9 @@ const styles = tw({
     sm:pb-2
     sm:flex-row
     sm:gap-12
+
+    motion-safe:opacity-0
+    motion-safe:animate-fade-in-up-slightly-delayed
   `,
   row: `
     flex flex-col items-center gap-6

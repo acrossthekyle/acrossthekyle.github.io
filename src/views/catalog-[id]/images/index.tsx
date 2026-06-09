@@ -52,10 +52,8 @@ export default function Images({ images, total }: Props) {
                         <span>/</span>
                         <span>{padIndex(total)}</span>
                       </span>
-                      {image.src.split('.').pop()}
                       <span className={styles.meta}>
-                        <span>{image.when}</span>
-                        <Ui.Units.Length isSmall value={image.elevation} />
+                        <span>{image.location.region}</span>
                       </span>
                     </figcaption>
                   </figure>

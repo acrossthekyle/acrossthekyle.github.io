@@ -6,16 +6,17 @@ const styles = tw({
     flex flex-row items-center gap-4
     w-full
     p-4
-    overflow-x-auto
+    overflow-hidden
     no-scrollbar
 
     landscape-constrained:py-0
 
     motion-safe:opacity-0
-    motion-safe:animate-fade-in-down-slightly-delayed
+    motion-safe:animate-fade-in-up-slightly-delayed
   `,
   item: `
     flex-shrink-0
+    h-full
   `,
   figure: `
     relative
@@ -31,15 +32,16 @@ const styles = tw({
     rounded-lg
 
     ${isInView ? 'motion-safe:brightness-90' : 'motion-safe:brightness-40'}
+    ${isInView ? 'motion-safe:scale-100' : 'motion-safe:scale-90'}
     motion-safe:duration-700
     motion-safe:ease-in-out
   `),
   caption: (isInView: boolean) => tw(`
     absolute inset-4
-    flex justify-between
+    flex flex-col items-center justify-center
     leading-[0.85]
     font-bold
-    text-tiny
+    text-tiny text-center
     uppercase
     tracking-widest
 
@@ -48,14 +50,15 @@ const styles = tw({
     motion-safe:ease-in-out
   `),
   heading: `
-    absolute top-0 left-0
-    mr-12
-    text-tiny
+    flex flex-col
+    mb-2
+    text-[min(5vw,72px)]
+    font-black
     uppercase
-    tracking-widest
   `,
   stack: `
     flex flex-col justify-end gap-1
+    mb-2
   `,
 });
 

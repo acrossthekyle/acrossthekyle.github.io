@@ -61,7 +61,7 @@ export default function Content() {
                 03
               </span>
               <span className={styles.text(false)}>
-                Email <ArrowUpRight aria-hidden="true" className={styles.arrow} />
+                Contact <ArrowUpRight aria-hidden="true" className={styles.arrow} />
               </span>
             </Link>
           </li>
@@ -89,7 +89,7 @@ export default function Content() {
                 05
               </span>
               <span className={styles.text(false)}>
-                LinkedIn <ArrowUpRight aria-hidden="true" className={styles.arrow} />
+                Resume <ArrowUpRight aria-hidden="true" className={styles.arrow} />
               </span>
             </Link>
           </li>

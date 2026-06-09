@@ -8,6 +8,9 @@ const styles = tw({
     sm:left-0
     sm:right-auto
     lg:fixed
+
+    motion-safe:opacity-0
+    motion-safe:animate-fade-in-down-slightly-delayed
   `,
   anchor: `
     relative
