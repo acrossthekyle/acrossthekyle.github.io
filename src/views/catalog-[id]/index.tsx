@@ -1,5 +1,5 @@
 import { Article } from '@/layout';
-import type { Collection, Data } from '@/types';
+import type { Collection, Image } from '@/types';
 
 import Header from './header';
 import Images from './images';
@@ -7,7 +7,7 @@ import Images from './images';
 type Props = {
   data: {
     collection: Collection;
-    images: Array<Data[]>;
+    images: Array<Image[]>;
   };
 };
 

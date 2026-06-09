@@ -9,11 +9,12 @@ export type Location = {
   continent: string;
 };
 
-export type Data = {
+export type Image = {
   camera: string;
   category: string;
   collectionId: string;
   elevation: Stat;
+  id: string;
   location: Location;
   notes: string[];
   src: string;

@@ -9,7 +9,7 @@ export default function Back() {
   const router = useRouter();
 
   const handleOnBack = () => {
-    router.push('/index');
+    router.back();
   };
 
   return (

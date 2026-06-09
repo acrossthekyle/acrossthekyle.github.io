@@ -12,7 +12,7 @@ export default function Back() {
   };
 
   return (
-    <button className={styles.back} onClick={handleOnBack} type="button">
+    <button className={styles.container} onClick={handleOnBack} type="button">
       <span className={styles.top} />
       <span className={styles.bottom} />
     </button>

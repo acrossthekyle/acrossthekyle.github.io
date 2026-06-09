@@ -96,6 +96,15 @@ body {
     top: var(--dialog-top-position, 0);
   }
 
+  .no-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
   /* third-party package styling  */
 
   .leaflet-bar {

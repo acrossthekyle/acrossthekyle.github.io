@@ -99,6 +99,7 @@ export async function go() {
           imperial: formatNumber(elevation),
           metric: formatNumber(elevation / 3.281),
         },
+        id: src.split('/').pop(),
         location,
         notes: notes ? (Array.isArray(notes) ? notes : [notes]) : [],
         src,
