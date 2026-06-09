@@ -12,7 +12,7 @@ const ASPECTS = [
 
 const styles = tw({
   container: `
-    relative
+    relative z-2
     col-span-3 order-1
     h-full w-full
 
@@ -20,18 +20,17 @@ const styles = tw({
     motion-safe:animate-fade-in-up-slightly-delayed
   `,
   images: `
+    group/images
     flex flex-row items-center gap-4
-
     w-full
     p-4
     overflow-x-auto
-    scrollbar-hide
   `,
   item: `
     flex-shrink-0
   `,
   link: `
-    group
+    group/link
     relative z-1
     block
     overflow-hidden
@@ -50,9 +49,9 @@ const styles = tw({
     ${isActive ? 'motion-safe:brightness-90' : 'motion-safe:brightness-40'}
     motion-safe:duration-700
     motion-safe:ease-in-out
-    motion-safe:group-hover:grayscale-20
-    motion-safe:group-hover:brightness-75
-    motion-safe:group-hover:scale-102
+    motion-safe:group-hover/link:grayscale-20
+    motion-safe:group-hover/link:brightness-75
+    motion-safe:group-hover/link:scale-102
   `),
 });
 

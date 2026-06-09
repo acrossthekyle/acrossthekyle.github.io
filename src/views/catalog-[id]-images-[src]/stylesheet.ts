@@ -3,37 +3,43 @@ import tw from '@/styles';
 const styles = tw({
   container: `
     col-span-3 order-0
-    flex flex-col items-end justify-between
+    flex flex-col items-center justify-between
     h-[calc(100svh-7rem)]
     px-4
 
-    landscape-constrained:h-screen
+    landscape-constrained:h-auto
   `,
   back: `
     absolute top-0 right-0.5 -left-0.5
-    flex items-center gap-1
-    px-4 py-3
-    leading-[0.85]
-    font-normal
-    uppercase
-    text-tiny
+    grid justify-items-center gap-1.5
+    w-16 h-16
+    p-3
 
     sm:right-0.5
     sm:left-auto
   `,
-  icon: `
-    w-4 h-4
-    stroke-1
+  top: `
+    h-px w-8
+    bg-(--foreground)
+    translate-y-4.5 rotate-45
+  `,
+  bottom: `
+    h-px w-8
+    bg-(--foreground)
+    -translate-y-1.25 -rotate-45
   `,
   figure: `
     relative
-    w-full h-[calc(100%-5rem)]
-    mt-10
+    h-[calc(100%-7rem)]
+    mt-18
+
+    landscape-constrained:mb-4
 
     motion-safe:opacity-0
     motion-safe:animate-fade-in
   `,
   image: `
+    aspect-video
     brightness-90
     grayscale-20
     sepia-10
@@ -59,7 +65,7 @@ const styles = tw({
     flex flex-col justify-end gap-1
   `,
   navigation: `
-    flex items-center justify-between
+    flex items-center justify-center gap-12
     w-full
   `,
   total: `

@@ -3,7 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   container: (isOpen: boolean) => tw(`
     relative
-    flex flex-col-reverse justify-between gap-4
+    flex flex-col-reverse justify-between gap-0
     h-full w-full
     p-4
     pointer-events-auto
@@ -17,10 +17,6 @@ const styles = tw({
 
     motion-safe:duration-450
     motion-safe:ease-in-out
-
-    sm:flex-row-reverse
-    sm:justify-start
-    sm:gap-8
   `),
   header: `
     sr-only
@@ -32,16 +28,11 @@ const styles = tw({
     divide-y divide-current/25
 
     landscape-constrained:gap-3
-
-    sm:gap-6
-    sm:divide-y-0
   `,
   item: `
     pb-3
 
     last:pb-0
-
-    sm:pb-0
   `,
   link: `
     relative
@@ -56,8 +47,6 @@ const styles = tw({
     overflow-hidden
 
     landscape-constrained:text-[min(11vw,32px)]
-
-    sm:text-[min(8vw,90px)]
 
     motion-safe:duration-300
     motion-safe:hover:font-thin
@@ -79,10 +68,6 @@ const styles = tw({
     font-normal
     text-xtiny text-current/70 text-right
     tracking-widest
-
-    sm:relative
-    sm:left-auto
-    sm:bottom-auto
   `,
   other: `
     flex flex-col items-start justify-end gap-4
@@ -92,7 +77,10 @@ const styles = tw({
     uppercase
     tracking-widest
 
-    sm:mt-0
+    landscape-constrained:flex-row
+    landscape-constrained:justify-start
+    portrait-constrained:flex-row
+    portrait-constrained:justify-start
   `,
   cell: `
     flex flex-col justify-start gap-0

@@ -28,9 +28,6 @@ export default function View({ data }: Props) {
           thumb={data.image.thumb}
         />
         <figcaption className={styles.caption}>
-          <h1 className={styles.heading}>
-            {data.image.when}
-          </h1>
           <p className={styles.stack}>
             <span>{data.image.location.region}</span>
             <span>{data.collection.title.join(' ')}</span>

@@ -54,9 +54,13 @@ const styles = tw({
     ${ASPECTS[group % 3][index]}
 
     ${isInView ? `
-      motion-safe:opacity-100 motion-safe:rotate-x-0
+      motion-safe:opacity-100
+      motion-safe:rotate-x-0
+      motion-safe:scale-100
     ` : `
-      motion-safe:opacity-50 motion-safe:rotate-x-10
+      motion-safe:opacity-50
+      motion-safe:-rotate-x-10
+      motion-safe:scale-75
     `}
     motion-safe:transform-gpu
     motion-safe:will-change-transform

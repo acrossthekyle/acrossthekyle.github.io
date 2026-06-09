@@ -1,6 +1,5 @@
 'use client';
 
-import { ArrowUpLeft } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 
 import styles from './stylesheet';
@@ -14,7 +13,8 @@ export default function Back() {
 
   return (
     <button className={styles.back} onClick={handleOnBack} type="button">
-      <ArrowUpLeft className={styles.icon} /> Back
+      <span className={styles.top} />
+      <span className={styles.bottom} />
     </button>
   );
 }

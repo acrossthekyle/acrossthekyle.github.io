@@ -3,7 +3,7 @@ import tw from '@/styles';
 const styles = tw({
   section: `
     flex flex-col justify-start
-    py-10
+    py-4
 
     first:pt-0
     last:pb-0

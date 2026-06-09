@@ -9,9 +9,9 @@ const styles = tw({
 
     sm:h-svh
 
-    landscape-constrained:mt-30
+    landscape-constrained:mt-12
     landscape-constrained:justify-start
-    landscape-constrained:min-h-[58vw]
+    landscape-constrained:h-auto
 
     lg:mt-0
     lg:h-screen
