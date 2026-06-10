@@ -1,11 +1,16 @@
 'use client';
 
+import { MoveLeft } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { useCallback, useEffect } from 'react';
 
 import styles from './stylesheet';
 
-export default function Back() {
+type Props = {
+  title: string;
+};
+
+export default function Back({ title }: Props) {
   const router = useRouter();
 
   const handleOnBack = useCallback(() => {
@@ -28,8 +33,7 @@ export default function Back() {
 
   return (
     <button className={styles.container} onClick={handleOnBack} type="button">
-      <span className={styles.top} />
-      <span className={styles.bottom} />
+      <MoveLeft className={styles.arrow} /> {title}
     </button>
   );
 }

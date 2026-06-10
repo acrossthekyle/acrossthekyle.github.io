@@ -24,12 +24,8 @@ export default function View({ data }: Props) {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.header}>{data.collection.title.join(' ')}</h1>
-      <Back />
-      <Carousel
-        collection={data.collection}
-        images={data.all}
-      />
+      <Back title={data.collection.title.join(' ')} />
+      <Carousel images={data.all} />
       <Footer
         all={data.all}
         current={current}

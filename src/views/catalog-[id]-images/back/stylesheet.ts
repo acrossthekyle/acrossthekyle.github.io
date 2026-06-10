@@ -2,23 +2,18 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    absolute top-0 right-0.5 z-100
-    grid justify-items-center gap-1.5
-    w-16 h-16
-    p-3
+    absolute top-2 left-4 z-100
+    flex items-center gap-4
+    leading-[0.85]
+    font-bold
+    uppercase
+    text-tiny
 
     motion-safe:opacity-0
     motion-safe:animate-fade-in-down-slightly-delayed
   `,
-  top: `
-    h-px w-8
-    bg-(--foreground)
-    translate-y-4.5 rotate-45
-  `,
-  bottom: `
-    h-px w-8
-    bg-(--foreground)
-    -translate-y-1.25 -rotate-45
+  arrow: `
+    stroke-1
   `,
 });
 

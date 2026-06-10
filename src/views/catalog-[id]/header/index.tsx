@@ -1,7 +1,6 @@
 import type { Collection } from '@/types';
 import { createDescription } from '@/utils';
 
-import Back from './back';
 import styles from './stylesheet';
 
 type Props = {
@@ -11,7 +10,6 @@ type Props = {
 export default function Header({ collection }: Props) {
   return (
     <>
-      <Back />
       <h1 className={styles.title}>
         <span className={styles.eyebrow}>
           {collection.when.includes('+') && 'Since '}

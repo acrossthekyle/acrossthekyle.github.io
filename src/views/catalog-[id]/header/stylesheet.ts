@@ -53,22 +53,6 @@ const styles = tw({
     motion-safe:opacity-0
     motion-safe:animate-fade-in-up
   `,
-  back: `
-    flex items-center gap-1
-    mb-4
-    leading-[0.85]
-    font-medium
-    text-tiny text-current/75
-    uppercase
-
-    sm:text-xtiny
-  `,
-  arrow: `
-    w-3.25 h-3.25
-    stroke-2
-
-    sm:stroke-1
-  `,
 });
 
 export default styles;

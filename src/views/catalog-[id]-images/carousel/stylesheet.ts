@@ -9,18 +9,20 @@ const styles = tw({
     overflow-hidden
     no-scrollbar
 
-    landscape-constrained:py-0
+    landscape-constrained:py-12
+    landscape-constrained:gap-4
 
     motion-safe:opacity-0
-    motion-safe:animate-fade-in-up-slightly-delayed
+    motion-safe:animate-fade-in-down-slightly-delayed
   `,
   item: `
     flex-shrink-0
-    h-full
   `,
   figure: `
     relative
     h-full
+
+    landscape-constrained:h-[calc(100svh-5rem)]
 
     motion-safe:opacity-0
     motion-safe:animate-fade-in
@@ -38,10 +40,10 @@ const styles = tw({
   `),
   caption: (isInView: boolean) => tw(`
     absolute inset-4
-    flex flex-col items-center justify-center
+    flex justify-between
     leading-[0.85]
     font-bold
-    text-tiny text-center
+    text-tiny
     uppercase
     tracking-widest
 
@@ -49,16 +51,8 @@ const styles = tw({
     motion-safe:duration-700
     motion-safe:ease-in-out
   `),
-  heading: `
-    flex flex-col
-    mb-2
-    text-[min(5vw,72px)]
-    font-black
-    uppercase
-  `,
   stack: `
     flex flex-col justify-end gap-1
-    mb-2
   `,
 });
 

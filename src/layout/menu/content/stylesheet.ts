@@ -72,10 +72,13 @@ const styles = tw({
   other: `
     flex flex-col items-start justify-end gap-4
     w-full
-    mt-12
+    mt-16
     text-xtiny
     uppercase
     tracking-widest
+
+    sm:text-right
+    sm:items-end
 
     landscape-constrained:flex-row
     landscape-constrained:justify-start

@@ -5,24 +5,17 @@ import { useSearchParams } from 'next/navigation';
 import { useEffect } from 'react';
 import { InView } from 'react-intersection-observer';
 
-import { useOrientation } from '@/hooks/useOrientation';
-import type { Collection, Image } from '@/types';
+import type { Image } from '@/types';
 import { Ui } from '@/ui';
 
 import styles from './stylesheet';
 
 type Props = {
-  collection: Collection;
   images: Image[];
 };
 
-export default function Carousel({
-  collection,
-  images,
-}: Props) {
+export default function Carousel({ images }: Props) {
   const searchParams = useSearchParams();
-
-  const orientation = useOrientation();
 
   const active = searchParams.get('ref')?.split('/').pop();
 
@@ -41,25 +34,24 @@ export default function Carousel({
       }
     };
 
-    scrollToActive();
+    setTimeout(() => {
+      scrollToActive();
+    }, 300);
 
-    const debouncedScroll = debounce(scrollToActive, 300);
+    const debounced = debounce(scrollToActive, 300);
 
-    window.addEventListener('resize', debouncedScroll);
+    window.addEventListener('resize', debounced);
 
     return () => {
-      debouncedScroll.cancel?.();
+      debounced.cancel?.();
 
-      window.removeEventListener('resize', debouncedScroll);
+      window.removeEventListener('resize', debounced);
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [orientation]);
+  }, []);
 
   return (
-    <ul
-      className={styles.container}
-      key={collection.id}
-    >
+    <ul className={styles.container}>
       {images.map((image) => (
         <InView
           key={image.src}
@@ -76,10 +68,10 @@ export default function Carousel({
                   thumb={image.thumb}
                 />
                 <figcaption className={styles.caption(inView)}>
-                  <h2 className={styles.heading}>
-                    {image.title || image.location.region}
-                  </h2>
                   <p className={styles.stack}>
+                    <span>
+                      {image.title || image.location.region}
+                    </span>
                     <span>
                       {image.location.country}, {image.location.continent}
                     </span>
