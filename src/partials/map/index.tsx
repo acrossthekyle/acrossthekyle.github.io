@@ -24,7 +24,7 @@ export default function Map({ collections }: Props) {
   const collection = collections.find(item => item.id === current);
 
   const handleOnClick = (id: string) => {
-    router.push(`/index/${id}`);
+    router.push(`/wanderings/${id}`);
   };
 
   return (

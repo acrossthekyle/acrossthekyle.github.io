@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 const styles = tw({
   container: `
-    absolute top-2 left-4 z-100
+    absolute top-4 left-6 z-100
     flex items-center gap-4
     leading-[0.85]
     font-bold
@@ -13,7 +13,7 @@ const styles = tw({
     motion-safe:animate-fade-in-down-slightly-delayed
   `,
   arrow: `
-    stroke-1
+    w-4
   `,
 });
 

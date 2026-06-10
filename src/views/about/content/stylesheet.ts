@@ -33,7 +33,9 @@ const styles = tw({
     last:mb-0
   `,
   link: `
-    underline underline-offset-2 decoration-dotted
+    dark:text-yellow-300
+    light:text-yellow-400
+    font-medium
   `,
 });
 

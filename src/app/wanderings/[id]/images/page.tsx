@@ -49,7 +49,7 @@ export async function generateMetadata({
   }
 
   return {
-    title: `Index ⌁ Images ⌁ ${data.collection.title.join(' ')} ${padIndex(data.index + 1)} / ${padIndex(data.total)}`,
+    title: `Image ${padIndex(data.index + 1)} / ${padIndex(data.total)} ⌁ ${data.collection.title.join(' ')} ⌁ Wanderings`,
     description: ``,
   };
 };

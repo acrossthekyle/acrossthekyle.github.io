@@ -1,8 +1,14 @@
 import Link from 'next/link';
 
+import type { Collection } from '@/types';
+
 import styles from './stylesheet';
 
-export default function Content() {
+type Props = {
+  recent: Collection;
+};
+
+export default function Content({ recent }: Props) {
   return (
     <>
       <section className={styles.section}>
@@ -17,7 +23,10 @@ export default function Content() {
           It left such an impression on me that I ended up embarking on my first long-distance backpacking adventure two years later by walking 600 miles across Northern Spain on a route called El Camino De Santiago.
         </p>
         <p className={styles.paragraph}>
-          Since then I've <Link className={styles.link} href="/index">wandered</Link> to numerous destinations, and spent hundreds of days traipsing thousands of miles through nature and over mountain passes all around the world.
+          Since then I've <Link className={styles.link} href="/wanderings">travelled</Link> to numerous destinations, and spent hundreds of days traipsing thousands of miles through nature and over mountain passes all around the world.
+        </p>
+        <p className={styles.paragraph}>
+          Most recently: <Link className={styles.link} href={`/wanderings/${recent.id}`}>{recent.title.join(' ')}</Link>.
         </p>
       </section>
       <section className={styles.section}>

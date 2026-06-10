@@ -12,7 +12,7 @@ const styles = tw({
 
     backdrop:absolute
     backdrop:outline-none
-    backdrop:bg-(--background)
+    backdrop:bg-transparent
 
     motion-safe:backdrop:opacity-0
     motion-safe:backdrop:transition-opacity

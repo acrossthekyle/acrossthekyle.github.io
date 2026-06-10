@@ -21,7 +21,7 @@ export function useNavigation({
 }: Props) {
   const router = useRouter();
 
-  const urlPrefix = `/index/${id}/images?ref=`;
+  const urlPrefix = `/wanderings/${id}/images?ref=`;
 
   const handleOnNavigate = (imageId: string) => {
     router.replace(

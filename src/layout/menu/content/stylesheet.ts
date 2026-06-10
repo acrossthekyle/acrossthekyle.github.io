@@ -1,11 +1,18 @@
 import tw from '@/styles';
 
+const DELAYS = [
+  'motion-safe:delay-100',
+  'motion-safe:delay-150',
+  'motion-safe:delay-200',
+  'motion-safe:delay-250',
+  'motion-safe:delay-300',
+];
+
 const styles = tw({
   container: (isOpen: boolean) => tw(`
     relative
-    flex flex-col-reverse justify-between gap-0
+    flex flex-col justify-between gap-0
     h-full w-full
-    p-4
     pointer-events-auto
     bg-(--background)
 
@@ -16,27 +23,36 @@ const styles = tw({
     `}
 
     motion-safe:duration-450
-    motion-safe:ease-in-out
+    motion-safe:ease-out
   `),
   header: `
     sr-only
   `,
   menu: `
-    group
     flex flex-col justify-end gap-3
-    h-full w-full
-    divide-y divide-current/25
-
-    landscape-constrained:gap-3
+    h-svh w-full
+    pl-3 pr-4 pb-24
   `,
-  item: `
-    pb-3
-
-    last:pb-0
-  `,
-  link: `
+  item: (isActive: boolean, index: number) => tw(`
     relative
-    flex flex-col items-end
+
+    motion-safe:duration-700
+    motion-safe:ease-in-out
+
+    ${isActive ? `
+      motion-safe:translate-x-0
+      motion-safe:opacity-100
+      ${DELAYS[index]}
+    ` : `
+      motion-safe:opacity-0
+      motion-safe:delay-450
+      motion-safe:translate-x-full
+    `}
+  `),
+  link: (isCurrent: boolean) => tw(`
+    group/link
+    relative
+    flex flex-col items-start
     w-full
     font-black
     leading-[0.85]
@@ -50,49 +66,47 @@ const styles = tw({
 
     motion-safe:duration-300
     motion-safe:hover:font-thin
-  `,
-  text: (isActive: boolean) => tw(`
-    relative
-    flex flex-row-reverse items-end
 
-    ${isActive ? 'line-through decoration-1' : ''}
+    ${isCurrent ? `
+      dark:text-yellow-300
+      light:text-yellow-500
+    ` : ''}
   `),
+  text: `
+    relative
+    flex flex-row items-end
+  `,
   arrow: `
     mx-2
     w-5 h-5
   `,
   index: `
-    absolute left-0 bottom-0
+    absolute right-0 top-0
     block
     pb-1
-    font-normal
-    text-xtiny text-current/70 text-right
+    font-bold
+    text-xtiny
     tracking-widest
+
+    motion-safe:duration-300
+    motion-safe:group-hover/link:font-black
+    motion-safe:group-hover/link:text-xs
   `,
-  other: `
-    flex flex-col items-start justify-end gap-4
-    w-full
-    mt-16
+  footer: `
+    absolute bottom-4 left-4 right-4
+    flex flex-col gap-1
     text-xtiny
     uppercase
     tracking-widest
 
-    sm:text-right
-    sm:items-end
+    sm:flex-row
+    sm:justify-between
 
-    landscape-constrained:flex-row
-    landscape-constrained:justify-start
-    portrait-constrained:flex-row
-    portrait-constrained:justify-start
+    motion-safe:opacity-0
+    motion-safe:animate-fade-in-slightly-delayed
   `,
   cell: `
     flex flex-col justify-start gap-0
-  `,
-  heading: `
-    mb-1.5
-    font-black
-    text-tiny
-    uppercase
   `,
   line: `
     text-current/80

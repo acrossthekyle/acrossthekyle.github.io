@@ -36,7 +36,7 @@ export default function Carousel({ images }: Props) {
 
     setTimeout(() => {
       scrollToActive();
-    }, 300);
+    }, 500);
 
     const debounced = debounce(scrollToActive, 300);
 
@@ -51,7 +51,7 @@ export default function Carousel({ images }: Props) {
   }, []);
 
   return (
-    <ul className={styles.container}>
+    <ul className={styles.container} style={{ animationDelay: '.6s' }}>
       {images.map((image) => (
         <InView
           key={image.src}

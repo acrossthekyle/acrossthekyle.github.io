@@ -7,6 +7,7 @@ import { usePathname } from 'next/navigation';
 import data from '@/cache/config';
 import { useMenu } from '@/hooks/useMenu';
 
+import Local from './local';
 import styles from './stylesheet';
 import Theme from './theme';
 
@@ -15,104 +16,103 @@ export default function Content() {
 
   const path = usePathname();
 
+  const handleOnClose = () => {
+    setTimeout(() => {
+      onClose();
+    }, 100);
+  };
+
   return (
     <div className={styles.container(isActive)}>
       <Theme />
+      <Local />
       <h2 className={styles.header} id="dialog-header">
         Menu
       </h2>
-      <nav>
+      <nav aria-label="main navigation">
         <ul className={styles.menu}>
-          <li className={styles.item}>
+          <li className={styles.item(isActive, 0)}>
             <Link
-              className={styles.link}
+              className={styles.link(path === '/')}
               href="/"
-              onClick={onClose}
+              onClick={handleOnClose}
             >
               <span className={styles.index}>
                 01
               </span>
-              <span className={styles.text(path === '/')}>
+              <span className={styles.text}>
                 Index
               </span>
             </Link>
           </li>
-          <li className={styles.item}>
+          <li className={styles.item(isActive, 1)}>
             <Link
-              className={styles.link}
-              href="/index"
-              onClick={onClose}
+              className={styles.link(path.includes('/wanderings'))}
+              href="/wanderings"
+              onClick={handleOnClose}
             >
               <span className={styles.index}>
                 02
               </span>
-              <span className={styles.text(path.includes('/index'))}>
+              <span className={styles.text}>
                 Wanderings
               </span>
             </Link>
           </li>
-          <li className={styles.item}>
+          <li className={styles.item(isActive, 2)}>
             <Link
-              className={styles.link}
+              className={styles.link(false)}
               href="mailto:hello@acrossthekyle.com"
               target="_blank"
             >
               <span className={styles.index}>
                 03
               </span>
-              <span className={styles.text(false)}>
-                Contact <ArrowUpRight aria-hidden="true" className={styles.arrow} />
+              <span className={styles.text}>
+                Contact
               </span>
             </Link>
           </li>
-          <li className={styles.item}>
+          <li className={styles.item(isActive, 3)}>
             <Link
-              className={styles.link}
+              className={styles.link(false)}
               href="https://instagram.com/acrossthekyle"
               target="_blank"
             >
               <span className={styles.index}>
                 04
               </span>
-              <span className={styles.text(false)}>
+              <span className={styles.text}>
                 Instagram <ArrowUpRight aria-hidden="true" className={styles.arrow} />
               </span>
             </Link>
           </li>
-          <li className={styles.item}>
+          <li className={styles.item(isActive, 4)}>
             <Link
-              className={styles.link}
+              className={styles.link(false)}
               href="https://linkedin.com/in/acrossthekyle"
               target="_blank"
             >
               <span className={styles.index}>
                 05
               </span>
-              <span className={styles.text(false)}>
+              <span className={styles.text}>
                 Resume <ArrowUpRight aria-hidden="true" className={styles.arrow} />
               </span>
             </Link>
           </li>
         </ul>
       </nav>
-      <section
-        aria-label="other information"
-        className={styles.other}
-      >
+      <section aria-label="extra information" className={styles.footer}>
         <div className={styles.cell}>
-          <h3 className={styles.heading}>Location</h3>
-          <span className={styles.line}>41.8781° N, 87.6298° W</span>
-          <span className={styles.line}>Sol, Orion Spur, Milky Way</span>
+          <span className={styles.line}>
+            © 2016 &mdash; {new Date().getFullYear()}
+          </span>
         </div>
         <div className={styles.cell}>
-          <h3 className={styles.heading}>Status</h3>
-          <span className={styles.line}>Last compiled on</span>
-          <span className={styles.line}>{data.lastUpdated}</span>
-        </div>
-        <div className={styles.cell}>
-          <h3 className={styles.heading}>Tech Stack</h3>
-          <span className={styles.line}>HTML / CSS / JavaScript / JSON</span>
-          <span className={styles.line}>Vercel / NextJs / TailwindCSS</span>
+          <span className={styles.line}>
+            Last built: {data.lastUpdated}
+          </span>
         </div>
       </section>
     </div>

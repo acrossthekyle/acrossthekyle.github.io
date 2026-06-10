@@ -36,7 +36,7 @@ export default function Images({ images, total }: Props) {
                   >
                     <Link
                       className={styles.cta}
-                      href={`/index/${image.collectionId}/images?ref=${image.id}`}
+                      href={`/wanderings/${image.collectionId}/images?ref=${image.id}`}
                     >
                       <Ui.Image
                         className={styles.image}
@@ -45,15 +45,15 @@ export default function Images({ images, total }: Props) {
                       />
                     </Link>
                     <figcaption className={styles.caption}>
+                      <span className={styles.meta}>
+                        <span>{image.location.region}</span>
+                      </span>
                       <span className={styles.index}>
                         <span className={styles.strong}>
                           {padIndex(currentIndex)}
                         </span>
                         <span>/</span>
-                        <span>{padIndex(total)}</span>
-                      </span>
-                      <span className={styles.meta}>
-                        <span>{image.location.region}</span>
+                        <span className={styles.highlight}>{padIndex(total)}</span>
                       </span>
                     </figcaption>
                   </figure>

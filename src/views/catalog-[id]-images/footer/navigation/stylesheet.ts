@@ -5,14 +5,14 @@ const styles = tw({
     flex items-center gap-12
   `,
   navigate: `
-    flex items-center gap-4
+    flex items-center gap-3
     leading-[0.85]
     font-bold
     uppercase
     text-tiny
   `,
   arrow: `
-    stroke-1
+    w-4
   `,
 });
 

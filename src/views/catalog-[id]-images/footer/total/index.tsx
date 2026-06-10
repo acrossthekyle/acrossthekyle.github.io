@@ -10,7 +10,7 @@ type Props = {
 export default function Total({ current, total }: Props) {
   return (
     <span className={styles.container}>
-      Image {padIndex(current + 1)} / {padIndex(total)}
+      Image {padIndex(current + 1)} /&nbsp;<span className={styles.highlight}>{padIndex(total)}</span>
     </span>
   );
 }

@@ -12,8 +12,8 @@ import { Body, Footer, Header, Main, Menu } from '@/layout';
 
 export const metadata: Metadata = {
   title: {
-    template: `Kyle Gilbert ⌁ %s`,
-    default: 'Kyle Gilbert',
+    template: `%s ⌁ Kyle`,
+    default: 'Index ⌁ Kyle',
   },
   formatDetection: {
     telephone: false,

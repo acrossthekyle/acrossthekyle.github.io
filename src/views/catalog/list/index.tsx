@@ -21,14 +21,14 @@ export default function List({ collections }: Props) {
             <li ref={ref}>
               <Link
                 className={styles.link}
-                href={`/index/${collection.id}`}
+                href={`/wanderings/${collection.id}`}
               >
                 <h2 className={styles.heading(inView)}>
                   <span className={styles.index}>{padIndex(index + 1)}</span>
                   {collection.title.join(' ')}
                 </h2>
                 <span className={styles.lid}>
-                  {collection.location.region} &mdash; {trimCardinal(collection.location.country)}
+                  <span className={styles.highlight}>{collection.location.region}</span> &mdash; {trimCardinal(collection.location.country)}
                 </span>
                 <span className={styles.lid}>
                   {collection.coordinates}

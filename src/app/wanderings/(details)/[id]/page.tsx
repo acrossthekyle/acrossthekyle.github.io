@@ -45,7 +45,7 @@ export async function generateMetadata({
   }
 
   return {
-    title: `Index ⌁ ${data.collection.title.join(' ')}`,
+    title: `${data.collection.title.join(' ')} ⌁ Wanderings`,
     description: `${createDescription(data.collection)}. ${data.collection.notes.join(' ')}`,
   };
 };

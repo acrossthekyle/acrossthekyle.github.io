@@ -91,7 +91,7 @@ const styles = tw({
   `,
   caption: `
     relative
-    flex flex-col
+    flex flex-row justify-between gap-4
     w-full
     mt-2
     text-xtiny
@@ -100,7 +100,6 @@ const styles = tw({
     uppercase
   `,
   index: `
-    absolute top-0 right-0
     flex gap-1
     tracking-[0.125rem]
   `,
@@ -109,6 +108,10 @@ const styles = tw({
   `,
   strong: `
     font-black
+  `,
+  highlight: `
+    dark:text-yellow-300
+    light:text-yellow-500
   `,
 });
 

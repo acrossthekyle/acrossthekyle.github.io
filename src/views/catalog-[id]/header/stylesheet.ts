@@ -30,10 +30,13 @@ const styles = tw({
   eyebrow: `
     block
     relative top-1
-    text-tiny text-current/75
+    text-tiny
     font-medium
     tracking-widest
     uppercase
+
+    dark:text-yellow-300
+    light:text-yellow-500
 
     sm:text-xtiny
   `,

@@ -8,6 +8,10 @@ const styles = tw({
     uppercase
     text-tiny
   `,
+  highlight: `
+    dark:text-yellow-300
+    light:text-yellow-500
+  `,
 });
 
 export default styles;
