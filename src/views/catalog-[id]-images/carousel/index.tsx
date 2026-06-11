@@ -8,7 +8,7 @@ import { InView } from 'react-intersection-observer';
 import type { Image } from '@/types';
 import { Ui } from '@/ui';
 
-import styles from './stylesheet';
+import { styles } from './stylesheet';
 
 type Props = {
   images: Image[];

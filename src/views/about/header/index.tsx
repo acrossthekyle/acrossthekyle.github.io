@@ -1,4 +1,4 @@
-import styles from './stylesheet';
+import { styles } from './stylesheet';
 
 export default function Header() {
   return (

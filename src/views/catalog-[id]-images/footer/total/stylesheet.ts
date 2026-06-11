@@ -1,6 +1,6 @@
 import tw from '@/styles';
 
-const styles = tw({
+export const styles = tw({
   container: `
     flex items-center
     leading-[0.85]
@@ -14,4 +14,4 @@ const styles = tw({
   `,
 });
 
-export default styles;
+

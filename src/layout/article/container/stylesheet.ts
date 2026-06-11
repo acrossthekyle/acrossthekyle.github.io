@@ -1,6 +1,6 @@
 import tw from '@/styles';
 
-const styles = {
+export const styles = {
   container: (isStacked?: boolean) => {
     if (isStacked) {
       return tw(`
@@ -19,5 +19,3 @@ const styles = {
     `);
   },
 };
-
-export default styles;

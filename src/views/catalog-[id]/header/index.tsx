@@ -1,7 +1,7 @@
 import type { Collection } from '@/types';
 import { createDescription } from '@/utils';
 
-import styles from './stylesheet';
+import { styles } from './stylesheet';
 
 type Props = {
   collection: Collection;

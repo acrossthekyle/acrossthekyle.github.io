@@ -1,6 +1,6 @@
 import tw from '@/styles';
 
-const styles = tw({
+export const styles = tw({
   container: `
     absolute top-4 left-6 z-100
     flex items-center gap-4
@@ -17,4 +17,4 @@ const styles = tw({
   `,
 });
 
-export default styles;
+

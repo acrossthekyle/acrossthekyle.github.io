@@ -1,4 +1,4 @@
-import styles from './stylesheet';
+import { styles } from './stylesheet';
 import Theme from './theme';
 
 export default function Footer() {

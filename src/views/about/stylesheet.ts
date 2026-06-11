@@ -1,6 +1,6 @@
 import tw from '@/styles';
 
-const styles = tw({
+export const styles = tw({
   content: `
     flex flex-col justify-between
 
@@ -8,4 +8,4 @@ const styles = tw({
   `,
 });
 
-export default styles;
+

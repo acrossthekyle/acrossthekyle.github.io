@@ -1,6 +1,6 @@
 import tw from '@/styles';
 
-const styles = tw({
+export const styles = tw({
   title: `
     flex flex-col gap-1
     text-[min(10vw,42px)]
@@ -14,4 +14,4 @@ const styles = tw({
   `,
 });
 
-export default styles;
+

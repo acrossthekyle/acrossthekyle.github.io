@@ -1,6 +1,6 @@
 import tw from '@/styles';
 
-const styles = tw({
+export const styles = tw({
   caption: `
     absolute bottom-4 right-4 z-2
     flex flex-col gap-0.5
@@ -47,4 +47,4 @@ const styles = tw({
   `,
 });
 
-export default styles;
+

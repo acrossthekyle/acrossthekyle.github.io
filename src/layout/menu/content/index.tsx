@@ -8,7 +8,7 @@ import data from '@/cache/config';
 import { useMenu } from '@/hooks/useMenu';
 
 import Local from './local';
-import styles from './stylesheet';
+import { styles } from './stylesheet';
 import Theme from './theme';
 
 export default function Content() {

@@ -6,7 +6,7 @@ import type { Image } from '@/types';
 
 import { useNavigation } from '../../hooks';
 
-import styles from './stylesheet';
+import { styles } from './stylesheet';
 
 type Props = {
   all: Image[];

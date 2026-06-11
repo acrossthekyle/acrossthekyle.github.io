@@ -1,6 +1,6 @@
 import tw from '@/styles';
 
-const styles = tw({
+export const styles = tw({
   container: `
     absolute
     w-full max-w-full
@@ -63,4 +63,4 @@ const styles = tw({
   `),
 });
 
-export default styles;
+

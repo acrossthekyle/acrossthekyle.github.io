@@ -1,6 +1,6 @@
 import tw from '@/styles';
 
-const styles = tw({
+export const styles = tw({
   list: `
     flex flex-col gap-8
 
@@ -57,4 +57,4 @@ const styles = tw({
   `,
 });
 
-export default styles;
+

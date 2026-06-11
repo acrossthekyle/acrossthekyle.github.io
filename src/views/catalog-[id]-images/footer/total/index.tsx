@@ -1,6 +1,6 @@
 import { padIndex } from '@/utils';
 
-import styles from './stylesheet';
+import { styles } from './stylesheet';
 
 type Props = {
   current: number;

@@ -1,6 +1,6 @@
 import tw from '@/styles';
 
-const styles = tw({
+export const styles = tw({
   container: `
     hidden
     h-10 w-full
@@ -55,4 +55,4 @@ const styles = tw({
   `,
 });
 
-export default styles;
+

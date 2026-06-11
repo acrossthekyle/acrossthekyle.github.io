@@ -1,6 +1,6 @@
 import tw from '@/styles';
 
-const styles = tw({
+export const styles = tw({
   section: `
     flex flex-col justify-start
     py-4
@@ -39,4 +39,4 @@ const styles = tw({
   `,
 });
 
-export default styles;
+

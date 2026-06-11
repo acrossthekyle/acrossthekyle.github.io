@@ -18,7 +18,7 @@ import {
 
 import type { Collection } from '@/types';
 
-import styles from './stylesheet';
+import { styles } from './stylesheet';
 
 type Props = {
   collections: Collection[];

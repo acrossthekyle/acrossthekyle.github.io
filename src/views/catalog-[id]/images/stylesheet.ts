@@ -36,7 +36,7 @@ const POSITIONS = [
   ],
 ];
 
-const styles = tw({
+export const styles = tw({
   group: `
     relative
     grid grid-cols-5 gap-8
@@ -115,4 +115,4 @@ const styles = tw({
   `,
 });
 
-export default styles;
+

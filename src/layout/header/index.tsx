@@ -4,7 +4,7 @@ import { usePathname } from 'next/navigation';
 
 import { useMenu } from '@/hooks/useMenu';
 
-import styles from './stylesheet';
+import { styles } from './stylesheet';
 
 export default function Header() {
   const { onMenu } = useMenu();

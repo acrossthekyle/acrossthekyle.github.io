@@ -2,7 +2,7 @@ import type { Image } from '@/types';
 
 import Navigation from './navigation';
 import Range from './range';
-import styles from './stylesheet';
+import { styles } from './stylesheet';
 import Total from './total';
 
 type Props = {

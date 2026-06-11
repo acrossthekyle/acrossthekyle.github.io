@@ -1,6 +1,6 @@
 import { PropsWithChildren } from 'react';
 
-import styles from './stylesheet';
+import { styles } from './stylesheet';
 
 type Props = {
   stack?: boolean;

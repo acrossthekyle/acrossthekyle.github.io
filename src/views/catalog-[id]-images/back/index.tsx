@@ -4,7 +4,7 @@ import { MoveLeft } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { useCallback, useEffect } from 'react';
 
-import styles from './stylesheet';
+import { styles } from './stylesheet';
 
 type Props = {
   title: string;

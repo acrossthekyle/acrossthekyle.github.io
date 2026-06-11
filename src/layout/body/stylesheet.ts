@@ -1,6 +1,6 @@
 import tw from '@/styles';
 
-const styles = tw({
+export const styles = tw({
   container: `
     antialiased
     scroll-smooth
@@ -12,4 +12,4 @@ const styles = tw({
   `,
 });
 
-export default styles;
+

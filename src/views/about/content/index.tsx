@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 import type { Collection } from '@/types';
 
-import styles from './stylesheet';
+import { styles } from './stylesheet';
 
 type Props = {
   recent: Collection;

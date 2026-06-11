@@ -1,6 +1,6 @@
 import tw from '@/styles';
 
-const styles = tw({
+export const styles = tw({
   container: (isOpen: boolean) => tw(`
     absolute top-0 left-0 z-2
     p-4
@@ -22,4 +22,4 @@ const styles = tw({
   `,
 });
 
-export default styles;
+

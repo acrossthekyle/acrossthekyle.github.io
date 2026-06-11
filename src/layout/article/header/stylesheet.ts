@@ -1,6 +1,6 @@
 import tw from '@/styles';
 
-const styles = tw({
+export const styles = tw({
   container: `
     col-span-1 order-1
     flex flex-col justify-end
@@ -24,4 +24,4 @@ const styles = tw({
   `,
 });
 
-export default styles;
+

@@ -2,7 +2,7 @@
 
 import { useMenu } from '@/hooks/useMenu';
 
-import styles from './stylesheet';
+import { styles } from './stylesheet';
 import Content from './content';
 
 export default function Menu() {

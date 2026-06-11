@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 
 import { useMenu } from '@/hooks/useMenu';
 
-import styles from './stylesheet';
+import { styles } from './stylesheet';
 
 export default function Theme() {
   const [mounted, setMounted] = useState(false);

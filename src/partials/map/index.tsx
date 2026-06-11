@@ -6,7 +6,7 @@ import { useParams, useRouter } from 'next/navigation';
 import type { Collection } from '@/types';
 import { trimCardinal } from '@/utils';
 
-import styles from './stylesheet';
+import { styles } from './stylesheet';
 
 const Plugin = dynamic(() => import('./leaflet'), {
   ssr: false,

@@ -4,7 +4,7 @@ import type { Collection } from '@/types';
 import Content from './content';
 import Figure from './figure';
 import Header from './header';
-import styles from './stylesheet';
+import { styles } from './stylesheet';
 
 type Props = {
   data: {

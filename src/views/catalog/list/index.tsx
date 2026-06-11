@@ -6,7 +6,7 @@ import { InView } from 'react-intersection-observer';
 import type { Collection } from '@/types';
 import { padIndex, trimCardinal } from '@/utils';
 
-import styles from './stylesheet';
+import { styles } from './stylesheet';
 
 type Props = {
   collections: Collection[];

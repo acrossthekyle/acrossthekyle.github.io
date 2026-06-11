@@ -1,6 +1,6 @@
 import tw from '@/styles';
 
-const styles = tw({
+export const styles = tw({
   container: `
     group/images
     flex flex-row items-center gap-4
@@ -56,4 +56,4 @@ const styles = tw({
   `,
 });
 
-export default styles;
+

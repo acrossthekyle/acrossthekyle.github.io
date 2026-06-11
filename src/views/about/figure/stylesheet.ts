@@ -1,6 +1,6 @@
 import tw from '@/styles';
 
-const styles = tw({
+export const styles = tw({
   image: `
     opacity-90
   `,
@@ -20,4 +20,4 @@ const styles = tw({
   `,
 });
 
-export default styles;
+

@@ -8,7 +8,7 @@ const DELAYS = [
   'motion-safe:delay-300',
 ];
 
-const styles = tw({
+export const styles = tw({
   container: (isOpen: boolean) => tw(`
     relative
     flex flex-col justify-between gap-0
@@ -114,4 +114,4 @@ const styles = tw({
   `,
 });
 
-export default styles;
+

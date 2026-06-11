@@ -7,7 +7,7 @@ import type { Collection, Image } from '@/types';
 import Back from './back';
 import Carousel from './carousel';
 import Footer from './footer';
-import styles from './stylesheet';
+import { styles } from './stylesheet';
 
 type Props = {
   data: {
