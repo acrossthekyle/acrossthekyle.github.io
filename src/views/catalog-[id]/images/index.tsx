@@ -46,6 +46,7 @@ export default function Images({ images, total }: Props) {
                     </Link>
                     <figcaption className={styles.caption}>
                       <span className={styles.meta}>
+                        <span>{image.title}</span>
                         <span>{image.location.region}</span>
                       </span>
                       <span className={styles.index}>

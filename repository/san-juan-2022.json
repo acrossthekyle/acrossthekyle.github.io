@@ -42,9 +42,9 @@
   "images": [
     {
       "src": "2022/03/23/9f212336-298d-4c7d-874f-a3be34c95d7d.jpeg",
-      "title": "Beach walks",
+      "title": "Point Playa",
       "location": {
-        "region": "Ocean Park Beach, San Juan",
+        "region": "San Juan",
         "country": "Puerto Rico",
         "continent": "North America"
       },
@@ -63,9 +63,9 @@
     },
     {
       "src": "2022/03/23/4b6afcfd-0563-49d6-89a3-77625029bbc2.jpeg",
-      "title": "",
+      "title": "Ocean Park Beach",
       "location": {
-        "region": "Ocean Park Beach, San Juan",
+        "region": "San Juan",
         "country": "Puerto Rico",
         "continent": "North America"
       },
@@ -88,9 +88,9 @@
     },
     {
       "src": "2022/03/23/53a96049-262f-4e6b-b331-78b74c5e01e2.jpeg",
-      "title": "",
+      "title": "Parque del Indio",
       "location": {
-        "region": "Ocean Park Beach, San Juan",
+        "region": "San Juan",
         "country": "Puerto Rico",
         "continent": "North America"
       },
@@ -113,9 +113,9 @@
     },
     {
       "src": "2022/03/23/1b2ca395-4e5e-4997-87dc-417b95b08710.jpeg",
-      "title": "",
+      "title": "Point Playa",
       "location": {
-        "region": "Ocean Park Beach, San Juan",
+        "region": "San Juan",
         "country": "Puerto Rico",
         "continent": "North America"
       },
@@ -140,7 +140,7 @@
       "src": "2022/03/23/1ba3d3f7-9462-4375-9770-4efedf15f582.jpeg",
       "title": "Castillo San Felipe del Morro",
       "location": {
-        "region": "Old City, San Juan",
+        "region": "San Juan",
         "country": "Puerto Rico",
         "continent": "North America"
       },
@@ -159,9 +159,9 @@
     },
     {
       "src": "2022/03/23/11a03e4e-ed4e-47c2-822e-f720a9628638.jpeg",
-      "title": "Rain forest",
+      "title": "Rio Abajo",
       "location": {
-        "region": "El Yunque",
+        "region": "El Yunque National Forest",
         "country": "Puerto Rico",
         "continent": "North America"
       },

@@ -56,15 +56,15 @@
   "images": [
     {
       "src": "2023/06/21/74223fbe-db85-402a-ae25-00fc5e3e75b0.jpeg",
-      "title": "Leaving Calenzana",
+      "title": "Calenzana",
       "location": {
-        "region": "Calenzana, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "06/21/2023",
       "elevation": 1238,
-      "notes": "Beginning of day one on the GR 20",
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -77,15 +77,15 @@
     },
     {
       "src": "2023/06/21/f1d1c83f-941d-4351-aa5e-08d698b78775.jpeg",
-      "title": "Entering spiny mountains",
+      "title": "Corsican mountains",
       "location": {
-        "region": "Calenzana, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "06/21/2023",
       "elevation": 2682,
-      "notes": "Gaining elevation, heading towards D'Ortu Di U Piobbu",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",
@@ -98,15 +98,15 @@
     },
     {
       "src": "2023/06/21/ca474c95-0abc-44a4-9f10-677b0e91437c.jpeg",
-      "title": "Refuge sunrise",
+      "title": "Refuge D'Ortu Di U Piobbu",
       "location": {
-        "region": "Calenzana, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "06/22/2023",
       "elevation": 5061,
-      "notes": "Morning at Refuge D'Ortu Di U Piobbu",
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -121,13 +121,13 @@
       "src": "2023/06/21/e2d0721f-2c3f-4367-8f7b-1176c94b3e2c.jpeg",
       "title": "Steap peaks",
       "location": {
-        "region": "Asco, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "06/22/2023",
       "elevation": 6420,
-      "notes": "Heading towards Refuge de Carozzu",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",
@@ -139,31 +139,35 @@
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwEAAv/EACIQAQACAQIGAwAAAAAAAAAAAAEAAhEhMQMSQVFhgRNxsf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwAERztIpaW5Xx1lDfIcSpWvuEbmajglQNhtq6yo4y+vyYbUMm33A1HCwErdxvmKK2XZxFIPhGjZ1gcr2cHaBOZx4YCD0gXGDXvIP//Z"
     },
     {
-      "src": "2023/06/21/4b13a3d8-a55c-4bed-b887-ad3490ab964f.jpeg",
-      "title": "Waterfall in shadow",
+      "src": "2023/06/21/9f8951e5-f150-413e-9d1e-557324c48acb.jpeg",
+      "title": "Refuge de Carozzu",
       "location": {
-        "region": "Albertacce, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
-      "date": "06/23/2023",
-      "elevation": 4991,
-      "notes": "Morning ascent out of Carozzu",
+      "date": "06/22/2023",
+      "elevation": 5462,
+      "notes": "",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgEDAP/EACEQAQACAgEEAwEAAAAAAAAAAAEAEQIhAzFBgbESEyLw/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwA48mQ7WvUitHlbKYQjls2bgL5nfUDHk5bssMfcKFbsYHYtNmXhgJTaMArf91gDKu74gQZBV/VSi4No1uBc+lkgPHh9mVLQSj//2Q==",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
         "exposure": "0.0",
         "fnumber": "1.50",
         "focal": 26,
-        "iso": 50
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECA//EAB0QAAIDAAMBAQAAAAAAAAAAAAABAhEhMUFhcVH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAGBEBAQEBAQAAAAAAAAAAAAAAAAERAkH/2gAMAwEAAhEDEQA/AMouncSpY1covUzUrleanP0uwyk0NhlCcd0zer46Tmeoqvn0y0FvAAVCd92RSXvAFSlqATSTtAEbVsoSduvSAfPeAf/Z"
+        "format": "jpg",
+        "height": 2268,
+        "iso": 50,
+        "shutter": "11.80",
+        "width": 4032
+      }
     },
     {
       "src": "2023/06/21/ca6423d0-daea-4b8c-8a75-7eb28a102c85.jpeg",
-      "title": "Mediterranean Sea views",
+      "title": "Bocca di a Muvrella",
       "location": {
-        "region": "Asco, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
@@ -182,15 +186,15 @@
     },
     {
       "src": "2023/06/21/7c9ba05f-905d-4762-9b09-989377182474.jpeg",
-      "title": "Jagged peaks",
+      "title": "Ascu Stagnu",
       "location": {
-        "region": "Albertacce, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "06/23/2023",
       "elevation": 6561,
-      "notes": "Approaching Ascu Stangu, a hotel with a campground, and our stop for the day",
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -203,15 +207,15 @@
     },
     {
       "src": "2023/06/21/4965a37c-6e06-459e-800d-b8d728cd2ff0.jpeg",
-      "title": "Morning ascent waterfall",
+      "title": "Ruisseau du Tighiettu",
       "location": {
-        "region": "Vergio, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "06/24/2023",
       "elevation": 4958,
-      "notes": "Gaining altitude quickly after leaving Ascu Stangu",
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -224,15 +228,15 @@
     },
     {
       "src": "2023/06/21/8f85de22-b937-4ea5-9dfa-e45eb357e7b8.jpeg",
-      "title": "Highest point",
+      "title": "Monte Cinto",
       "location": {
-        "region": "Vergio, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "06/24/2023",
       "elevation": 8554,
-      "notes": "The apex of the trek",
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -245,15 +249,15 @@
     },
     {
       "src": "2023/06/21/890e4521-9658-472a-93a6-f94eff46c612.jpeg",
-      "title": "Stony water oasis",
+      "title": "Auberge U Vallone",
       "location": {
-        "region": "Vergio, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "06/24/2023",
       "elevation": 4711,
-      "notes": "Soaking sore feet in ice-cold water at Auberge U Vallone",
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -266,15 +270,15 @@
     },
     {
       "src": "2023/06/21/f0dc6ac2-b0e5-4e2a-b874-0d40f47c454b.jpeg",
-      "title": "Green mountainside",
+      "title": "U Frate",
       "location": {
-        "region": "Orto, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "06/25/2023",
       "elevation": 6075,
-      "notes": "A look back after descending from the highest point on today's stage",
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -289,13 +293,13 @@
       "src": "2023/06/21/f62bf484-3e25-41c0-8b99-24fb0ba49778.jpeg",
       "title": "Swimming hole",
       "location": {
-        "region": "Orto, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "06/25/2023",
       "elevation": 5234,
-      "notes": "Taking a dip on a hot day",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",
@@ -308,15 +312,15 @@
     },
     {
       "src": "2023/06/21/ce157a1c-a855-4ba7-b906-13a1ad4cbbec.jpeg",
-      "title": "Morning forest steps",
+      "title": "Castel di Vergio",
       "location": {
-        "region": "Venaco, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "06/26/2023",
       "elevation": 4395,
-      "notes": "Leaving Hotel Castel di Vergio after a restless night in a hotel room, no more hotels after this point",
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -329,15 +333,15 @@
     },
     {
       "src": "2023/06/21/95b4adaa-bbbe-4de3-b9f8-96365390f142.jpeg",
-      "title": "Bog lake",
+      "title": "Lac de Nino",
       "location": {
-        "region": "Venaco, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "06/26/2023",
       "elevation": 6005,
-      "notes": "Viewing a rest stop from above",
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -350,15 +354,15 @@
     },
     {
       "src": "2023/06/21/53aaf0ae-f946-4917-9b7c-46712fa5ee45.jpeg",
-      "title": "Refuge in the distance",
+      "title": "Refuge de Manganu",
       "location": {
-        "region": "Venaco, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "06/26/2023",
       "elevation": 5218,
-      "notes": "Nearly there, Refuge de Manganu",
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -371,15 +375,15 @@
     },
     {
       "src": "2023/06/21/82a8777d-51d7-4636-9d0a-f25475516e76.jpeg",
-      "title": "Green bog maze",
+      "title": "Ruisseau de Zoicu",
       "location": {
-        "region": "Vivario, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "06/27/2023",
       "elevation": 5866,
-      "notes": "Heading towards Refuge de Petra Paian",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",
@@ -391,37 +395,41 @@
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECA//EACEQAQACAQMEAwAAAAAAAAAAAAEAAhESITEiQVFhA5Gh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQIA/8QAGREBAQEBAQEAAAAAAAAAAAAAAAEREkFR/9oADAMBAAIRAxEAPwDprrZxxKQy1HhJWixlox1OVOk7/Unv4eTXQM4WHVPMRp4WCgrb1DWNK7N4aw1xy/k2ha0Hk29RaOb8mN2S01SyviOFrjvmTb4TUxwYU6rYWaRpH//Z"
     },
     {
-      "src": "2023/06/21/a5204ac0-6201-442d-ad2c-6d33b4254164.jpeg",
-      "title": "Mountain lakes",
+      "src": "2023/06/21/05769f04-5b00-4fd5-a233-55c00c9871c5.jpeg",
+      "title": "Bocca Alle Porte",
       "location": {
-        "region": "Vivario, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "06/27/2023",
       "elevation": 7256,
-      "notes": "Highlight of the day, and the cheese fries at the refuge later that day",
+      "notes": "",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMCAQT/xAAhEAACAgEEAgMAAAAAAAAAAAAAAQIRIRIiMVEDQRMyYf/EABcBAQEBAQAAAAAAAAAAAAAAAAEAAwL/xAAXEQEBAQEAAAAAAAAAAAAAAAAAEQES/9oADAMBAAIRAxEAPwA5JYa3DWrrS7Me3eV2bbS3S476HrRxisYJ8ZNKBGMt2x7Q/JJ4TobXMzF3pj9mkDy4BRUfk1WoxWPbOfG3FNyx0AZtFFFrF8GpQtXgAkm4Np0kq/QANEf/2Q==",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
         "exposure": "0.0",
         "fnumber": "1.50",
         "focal": 26,
-        "iso": 50
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgAB/8QAIRAAAgICAgEFAAAAAAAAAAAAAQIAESExElGhAyIyQZH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAFxEBAQEBAAAAAAAAAAAAAAAAABEBEv/aAAwDAQACEQMRAD8AC+u/2RNYztYzs2yZWWXCRAmCNzmFDW9GYdIQArqWs7mKkr5kHqoq8oDo2YpExY6WoIYV6qvOJlpcSgsxUmE3vHFgv5mKsDgFOB5kCAJNASj/2Q=="
+        "format": "jpg",
+        "height": 2268,
+        "iso": 50,
+        "shutter": "12.24",
+        "width": 4032
+      }
     },
     {
       "src": "2023/06/21/4e7bda74-809e-48a9-a904-5645bf2e7dde.jpeg",
-      "title": "Mountain-cascading clouds",
+      "title": "Refuge de Petra Piana",
       "location": {
-        "region": "Vivario, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "06/27/2023",
       "elevation": 6059,
-      "notes": "Night at Refuge de Petra Piana",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",
@@ -433,37 +441,41 @@
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAjEAACAQIFBQEAAAAAAAAAAAAAAQIREgMEEyFBMlFhcYGR/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAECA//EABgRAQEBAQEAAAAAAAAAAAAAAAAREgEC/9oADAMBAAIRAxEAPwDVrJab1IjVj2LrLDFpqMCPMQXH4VY+HStULR88OiiDyzzcntBJLzuCauM+qEauXU/oAqqI8PhszY+aIAAljAAw/9k="
     },
     {
-      "src": "2023/06/21/18a7a986-adc0-46d8-a712-a2dce00f7669.jpeg",
-      "title": "Steep stony descent",
+      "src": "2023/06/21/c886ddab-f573-4fbb-a598-942bc54c4990.jpeg",
+      "title": "Ravin de Gialgo",
       "location": {
-        "region": "Vivario, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "06/28/2023",
       "elevation": 4601,
-      "notes": "Bound for Refuge de l'Onda",
+      "notes": "",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgEA/8QAIhAAAQMCBgMAAAAAAAAAAAAAAQACESExAxJBUWGBEyJx/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABgRAQEBAQEAAAAAAAAAAAAAAAABERIT/9oADAMBAAIRAxEAPwBjKVe6x5xKJ3TziZgaC6d084hfl3U2t8wXYzrCRymmQ+1zaTtBjBgzBVwSCZ9hTREECLzPCKj3FrlJAmnU/EB8hcYAq2xWkINMVNlKrRsoj//Z",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
         "exposure": "0.0",
         "fnumber": "1.50",
         "focal": 26,
-        "iso": 50
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAQIA/8QAIBABAAICAQQDAAAAAAAAAAAAAQARAiEDMUFRgRIiYf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABcRAQEBAQAAAAAAAAAAAAAAAAAREgH/2gAMAwEAAhEDEQA/ALEZdM5FkaMj53o6xoyHkcfMl6sRlzZdBT9ikX7mK0PcIzTTdMsA43f2NdoEhTsfUAzXHKTgrF3bAHkcmg2dGaCDW+0negrxIP/Z"
+        "format": "jpg",
+        "height": 2268,
+        "iso": 50,
+        "shutter": "11.05",
+        "width": 4032
+      }
     },
     {
       "src": "2023/06/21/9d76c622-0c46-465a-b608-0fe3a79c8544.jpeg",
-      "title": "Wide forest paths",
+      "title": "Foret communale de Vivario",
       "location": {
-        "region": "Vivario, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "06/28/2023",
       "elevation": 3661,
-      "notes": "Such luxorious walking on wide flat paths",
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -475,37 +487,41 @@
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDAf/EACAQAAEEAQQDAAAAAAAAAAAAAAEAAhEhMQMSImFRcYH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAwDAQACEQMRAD8AmHRrbvCK0nkO1A2/iR3KBXY+oGYYdBKqJXJ6UUS6qKA3cYQBNIKMg6maUA2BVz7QM0ycKK1wBwqJlogC7UqGAaHYsKXR/9k="
     },
     {
-      "src": "2023/06/21/cd41e66f-d9f7-4bdf-8421-38baf8a4711e.jpeg",
-      "title": "Another swimming hole",
+      "src": "2023/06/21/a6a6b3db-d197-404d-b10e-3c35781e5e47.jpeg",
+      "title": "Refuge de l'Onda",
       "location": {
-        "region": "Vivario, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "06/28/2023",
-      "elevation": 3058,
-      "notes": "Cooling off before making the climb up to the Refuge and lasagna for dinner",
+      "elevation": 4517,
+      "notes": "",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQIDAP/EACEQAAIBAwQDAQAAAAAAAAAAAAABAgMRIRIxQVETMnGR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwC6kmAU/wAAR0+njotZgKFsstTMFyMtotr58M1VITxZstDOS7KiVSsltkCEqspc2Azk1K1zEUfJthFA1vkBfaSXZQygtVndgf/Z",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
         "exposure": "0.0",
         "fnumber": "1.50",
         "focal": 26,
-        "iso": 50
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQADAv/EACAQAQACAQQDAQEAAAAAAAAAAAEAAhESITFBA1FhIjL/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwDPyeGobJ9kVFKUHNs+sQGuU53eoDcqUdSEDrVVqYTHVTmBnal2SiKo/wA7xQ/sOyEdULPNsH2FOk3TPxCBqAdSwMCgG3ogPHED/9k="
+        "format": "jpg",
+        "height": 2268,
+        "iso": 50,
+        "shutter": "13.33",
+        "width": 4032
+      }
     },
     {
       "src": "2023/06/21/2cc8532b-6441-49fb-927e-ebdb001b78cf.jpeg",
-      "title": "Cloud inversion",
+      "title": "Bocca d'Oreccia",
       "location": {
-        "region": "Vivario, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "06/29/2023",
       "elevation": 6072,
-      "notes": "An ever-amazing sight, and the division between the north and south parts of the trek",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",
@@ -518,15 +534,15 @@
     },
     {
       "src": "2023/06/21/85f2be7c-e2ab-421a-ab16-c28b671496a0.jpeg",
-      "title": "Rain evaporation",
+      "title": "Vizzavona",
       "location": {
-        "region": "Palneca, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "06/30/2023",
       "elevation": 3001,
-      "notes": "A wet delayed start on the southern portion in Vizzavona",
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -539,15 +555,15 @@
     },
     {
       "src": "2023/06/21/79397086-87c9-454d-ac0d-55222a117a15.jpeg",
-      "title": "Felled giants",
+      "title": "Foret Communale",
       "location": {
-        "region": "Palneca, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "06/30/2023",
       "elevation": 4736,
-      "notes": "One stage down, another to go, on day one of the sourthern stretch",
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -560,15 +576,15 @@
     },
     {
       "src": "2023/06/21/54334c14-8bae-4478-97f7-179f79cd2ca6.jpeg",
-      "title": "Lush greenery",
+      "title": "Bocca di Verdi",
       "location": {
-        "region": "Palneca, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "06/30/2023",
       "elevation": 5008,
-      "notes": "Combining stages and heading for Bocca di Verdi",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",
@@ -581,15 +597,15 @@
     },
     {
       "src": "2023/06/21/37e9f8dd-05c9-498b-be6e-86d633715c24.jpeg",
-      "title": "Cloud wall",
+      "title": "Punta della Cappella",
       "location": {
-        "region": "Cozzano, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "07/01/2023",
       "elevation": 6434,
-      "notes": "Obscured conditions approaching",
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -602,15 +618,15 @@
     },
     {
       "src": "2023/06/21/73a5df9e-fefd-43d0-ad5a-7f71dcb003cc.jpeg",
-      "title": "Clouds lifting",
+      "title": "Bocca de Rapari",
       "location": {
-        "region": "Cozzano, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "07/01/2023",
       "elevation": 5518,
-      "notes": "Trail is visible in the distance once more after hiking through dense cloud fall",
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -623,15 +639,15 @@
     },
     {
       "src": "2023/06/21/4e254b19-0dd2-44fb-8295-fa7992be521c.jpeg",
-      "title": "Riding out the storm",
+      "title": "Refuge d'Usciolu",
       "location": {
-        "region": "Cozzano, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "07/01/2023",
       "elevation": 5660,
-      "notes": "Bad weather rolled in at Refuge d'Usciolu, and my ultralight tent failed, had to seek refuge in a refuge-provided bomb-proof tent for the night",
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -644,15 +660,15 @@
     },
     {
       "src": "2023/06/21/4f9f9b60-3bb6-47a4-8d0e-218d430742dd.jpeg",
-      "title": "Morning after the storm",
+      "title": "Crete d'acqua d'acelli",
       "location": {
-        "region": "Quenza, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "07/02/2023",
       "elevation": 5713,
-      "notes": "Bright clear skies in the morning of the second to last day",
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -665,15 +681,15 @@
     },
     {
       "src": "2023/06/21/d36a683f-4d95-4b0c-987d-d190336c49ee.jpeg",
-      "title": "Nothing but green fields",
+      "title": "Ruisseau de Verecolongu",
       "location": {
-        "region": "Quenza, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "07/02/2023",
       "elevation": 4693,
-      "notes": "Combining stages once more as I head towards Refuge d'Asinau, the last one on my trek of the GR 20",
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -685,16 +701,41 @@
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECA//EAB8QAAIBBAIDAAAAAAAAAAAAAAABEQISUZETMSFBof/EABcBAQEBAQAAAAAAAAAAAAAAAAABAwL/xAAXEQEBAQEAAAAAAAAAAAAAAAAAARIR/9oADAMBAAIRAxEAPwDnBsx6QDqwDpATqwBnzlmO61zBur1GhupiDqqWNF3TML6k+1oaq5hyVZ+DVMxqEZOh9qACljoWKRoLE2O1H//Z"
     },
     {
-      "src": "2023/06/21/f43b7753-5052-47b9-9868-1237c0e34828.jpeg",
-      "title": "Ferns",
+      "src": "2023/06/21/f48bc918-f442-4f1d-a89d-cb696242b8ba.jpeg",
+      "title": "Bocca Stazzunara",
       "location": {
-        "region": "Corse-du-Sud, Corsica",
+        "region": "Corsica",
+        "country": "France",
+        "continent": "Europe"
+      },
+      "date": "07/02/2023",
+      "elevation": 6670,
+      "notes": "",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwECAP/EACQQAAIBAgQHAQAAAAAAAAAAAAECABESAyExQQQyQlJxgZGh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwCoDkRNMlCqdRIsWxFBtWtdopAPw41HyWpBHCZjkp8yphFc7CYbIHgbDZQOJrKjPswAGEB1GZaJaAKgmKICdKxSNWt3fkUG2Cx5nrA//9k=",
+      "exif": {
+        "aperture": "1/6960",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.80",
+        "focal": 13,
+        "format": "jpg",
+        "height": 2268,
+        "iso": 25,
+        "shutter": "12.66",
+        "width": 4032
+      }
+    },
+    {
+      "src": "2023/06/21/f43b7753-5052-47b9-9868-1237c0e34828.jpeg",
+      "title": "Refuge de Paliri",
+      "location": {
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "07/03/2023",
       "elevation": 3382,
-      "notes": "Halfway through the last day, after getting lost a couple of times",
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -707,15 +748,15 @@
     },
     {
       "src": "2023/06/21/f0cd0897-3fc9-47a2-808e-e1627dfb45bc.jpeg",
-      "title": "Gateway to Conca",
+      "title": "Conca",
       "location": {
-        "region": "Corse-du-Sud, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
       "date": "07/03/2023",
       "elevation": 1863,
-      "notes": "The ceremonial end of the GR 20 after combining two more stages in order to finish the trek today",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",

@@ -43,7 +43,7 @@ const styles = tw({
     flex justify-between
     leading-[0.85]
     font-bold
-    text-tiny
+    text-tiny text-white
     uppercase
     tracking-widest
 

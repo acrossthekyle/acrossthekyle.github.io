@@ -48,7 +48,7 @@
       "src": "2023/07/05/a7519e17-dc25-46cc-b8c7-8b293684b8ef.jpeg",
       "title": "Citadelle de Porto-Vecchio",
       "location": {
-        "region": "Porto-Vecchio, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
@@ -69,7 +69,7 @@
       "src": "2023/07/05/4901532f-a283-4e4c-a93e-1b9cc3f9b13e.jpeg",
       "title": "Citadelle de Ajaccio",
       "location": {
-        "region": "Ajaccio, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
@@ -90,7 +90,7 @@
       "src": "2023/07/05/be1ca955-b984-4cde-bf12-cee1851017a2.jpeg",
       "title": "Citadelle de Ajaccio",
       "location": {
-        "region": "Ajaccio, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
@@ -113,9 +113,9 @@
     },
     {
       "src": "2023/07/05/7cace07e-0974-40d4-8356-019ef68594a9.jpeg",
-      "title": "Urban beach",
+      "title": "Ajaccio beach",
       "location": {
-        "region": "Ajaccio, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },
@@ -134,9 +134,9 @@
     },
     {
       "src": "2023/07/05/ffe50b6e-cd5d-44a8-9cac-3f2b2c9f365e.jpeg",
-      "title": "Urban beach",
+      "title": "Ajaccio",
       "location": {
-        "region": "Ajaccio, Corsica",
+        "region": "Corsica",
         "country": "France",
         "continent": "Europe"
       },

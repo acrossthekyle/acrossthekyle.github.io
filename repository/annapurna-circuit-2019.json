@@ -52,7 +52,7 @@
   "images": [
     {
       "src": "2019/10/19/672dcde8-57ae-4bf9-885f-ae039d3a824d.jpeg",
-      "title": "Neon-green fields",
+      "title": "Besishahar",
       "location": {
         "region": "Lamjung District",
         "country": "Nepal",
@@ -60,7 +60,7 @@
       },
       "date": "10/19/2019",
       "elevation": 2657,
-      "notes": "Beginning the Annapurna Circuit trek, and already lost",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -73,7 +73,7 @@
     },
     {
       "src": "2019/10/19/1f9fe719-6e29-45de-a648-46f1001f24b7.jpeg",
-      "title": "Village artwork",
+      "title": "Gandaki",
       "location": {
         "region": "Lamjung District",
         "country": "Nepal",
@@ -81,7 +81,7 @@
       },
       "date": "10/19/2019",
       "elevation": 3158,
-      "notes": "Finding our way back to the circuit",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -94,7 +94,7 @@
     },
     {
       "src": "2019/10/19/4302a350-be49-4007-88d4-15840fb16191.jpeg",
-      "title": "Entering a village",
+      "title": "Bhulbule",
       "location": {
         "region": "Lamjung District",
         "country": "Nepal",
@@ -102,7 +102,7 @@
       },
       "date": "10/19/2019",
       "elevation": 2566,
-      "notes": "Finding a place to sleep for the night",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -119,7 +119,7 @@
     },
     {
       "src": "2019/10/19/cde86c7c-f794-4a99-8286-9af3de9425fc.jpeg",
-      "title": "Lush jungle",
+      "title": "Jagat",
       "location": {
         "region": "Lamjung District",
         "country": "Nepal",
@@ -127,7 +127,7 @@
       },
       "date": "10/20/2019",
       "elevation": 3904,
-      "notes": "Bound for Jagat village",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -139,50 +139,58 @@
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMCAQT/xAAfEAACAgEFAQEAAAAAAAAAAAAAAQIREgMhIjFBYYH/xAAXAQEBAQEAAAAAAAAAAAAAAAABAgAD/8QAGBEBAQEBAQAAAAAAAAAAAAAAAAEREjH/2gAMAwEAAhEDEQA/AKrU+2azR5It3syqnb3NqV7VWZz+E78f4cbHYyubBCTk3S6BPUJhHjXo1cYvoA5T0uRd1t2aXFMAoNZJeAAML//Z"
     },
     {
-      "src": "2019/10/19/3d1edec3-da4d-4c6a-8f04-f4e7dcbcaaf9.jpeg",
-      "title": "Waterfall",
+      "src": "2019/10/19/b6e3c5eb-82d1-4663-97ce-26a3c2fbec82.jpeg",
+      "title": "Dharapani",
       "location": {
         "region": "Manang District",
         "country": "Nepal",
         "continent": "Asia"
       },
       "date": "10/21/2019",
-      "elevation": 4417,
-      "notes": "First of many waterfalls",
+      "elevation": 5513,
+      "notes": "",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgABA//EACIQAAICAQQBBQAAAAAAAAAAAAABAhEhAwQSQTEyUWGBkf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAZEQEBAQEBAQAAAAAAAAAAAAAAARECIUH/2gAMAwEAAhEDEQA/ANi6JKWanJnWONtnglZKK79jN6x0nF+jNtq+2ca7JMBRlFepWanWMXmVuLtKkW9aTmQZvpGLWwnmNY+QOi0K8SZcQlt288hgUdFrHJfgwS0Kdt39DBzlt2rcZeRiv//Z",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
         "exposure": "0.0",
         "fnumber": "1.80",
         "focal": 28,
-        "iso": 40
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECA//EACEQAAICAgICAwEAAAAAAAAAAAECABEDMRIhQVEiYXGB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AMwTfJNjxI01bKAoJ8yBOwA7A3UsRPFh2osSCG+L9/yUXkPF1J2d/ckBnC8ARuIpGmwG9rQliDG9AevUBO3div2BbLSqdgHq5A8mPmvqAlxkI6sbvU1ErEqVXuu5FF14gf/Z"
+        "format": "jpg",
+        "height": 2268,
+        "iso": 20,
+        "shutter": "11.03",
+        "width": 4032
+      }
     },
     {
-      "src": "2019/10/19/8579387b-fea3-4524-a281-0926aac361e1.jpeg",
-      "title": "Waterfalls",
+      "src": "2019/10/19/9c026234-acb8-4549-9f31-b6aa59c02772.jpeg",
+      "title": "Chame",
       "location": {
         "region": "Manang District",
         "country": "Nepal",
         "continent": "Asia"
       },
-      "date": "10/22/2019",
-      "elevation": 7547,
-      "notes": "Gaining elevation, passing a series of waterfalls on our way to Chame",
+      "date": "10/21/2019",
+      "elevation": 8796,
+      "notes": "",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAgADBAH/xAAeEAACAgMBAAMAAAAAAAAAAAAAAQIRAyFBMRIyYv/EABcBAQEBAQAAAAAAAAAAAAAAAAEAAgP/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/ADhzuMql9STUpJq14Icc0S0JTscGjt+kGVO0+WYdF2HKkvhJ64alZsW3F9EYM2ktMLTIK/TM61jLdCkvZJdjlaotGH7roEmBf//Z",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
         "exposure": "0.0",
         "fnumber": "1.80",
         "focal": 28,
-        "iso": 25
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgT/xAAiEAEAAQQCAgIDAAAAAAAAAAABAgAREiEDURMxQXGBkaH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/AMRhKZkGrfNRQ8E7ZB/aoTDkG+Ddoh+LlC+K1AEMbkmz1RV3cJPeq0yFfwFAuS7g/fqgpdIx+t0HPz7R93Ki4siDb3SkR5JSIi7ZfqoojJyDvdCKyZeO2jfVWpCi5R3EpSP/2Q=="
+        "format": "jpg",
+        "height": 2268,
+        "iso": 20,
+        "shutter": "11.85",
+        "width": 4032
+      }
     },
     {
       "src": "2019/10/19/91fcb255-9894-434c-9c39-41ea5070e819.jpeg",
-      "title": "Mountain-based village",
+      "title": "Upper Pisang",
       "location": {
         "region": "Manang District",
         "country": "Nepal",
@@ -190,7 +198,7 @@
       },
       "date": "10/23/2019",
       "elevation": 10805,
-      "notes": "Reaching Upper Pisang, and our place of rest for the night",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -203,7 +211,7 @@
     },
     {
       "src": "2019/10/19/a5f1d4b0-a6a8-453a-bd24-647a0bc6545f.jpeg",
-      "title": "Village on plateau",
+      "title": "Nar",
       "location": {
         "region": "Manang District",
         "country": "Nepal",
@@ -211,7 +219,7 @@
       },
       "date": "10/24/2019",
       "elevation": 12010,
-      "notes": "Making our way to the Village of Manang, and a much needed zero the next day",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -224,7 +232,7 @@
     },
     {
       "src": "2019/10/19/ef85d604-a95e-4094-baae-83bfa8464980.jpeg",
-      "title": "Stuppa",
+      "title": "Manang",
       "location": {
         "region": "Manang District",
         "country": "Nepal",
@@ -232,7 +240,7 @@
       },
       "date": "10/24/2019",
       "elevation": 12244,
-      "notes": "Halfway to Manang before dropping down in elevation to 11,000 ft",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -245,7 +253,7 @@
     },
     {
       "src": "2019/10/19/b9b20eb0-e569-4778-99c6-de3a3c2eb15e.jpeg",
-      "title": "Ice lake",
+      "title": "Kicho Tal",
       "location": {
         "region": "Manang District",
         "country": "Nepal",
@@ -253,7 +261,7 @@
       },
       "date": "10/25/2019",
       "elevation": 15150,
-      "notes": "Reaching new heights on a side trek after taking a rest day in Manang",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -266,7 +274,7 @@
     },
     {
       "src": "2019/10/19/8e6f1186-0022-490e-9a78-1e010c478e7c.jpeg",
-      "title": "Mighty glacier",
+      "title": "Annapurna I",
       "location": {
         "region": "Manang District",
         "country": "Nepal",
@@ -274,7 +282,7 @@
       },
       "date": "10/25/2019",
       "elevation": 14963,
-      "notes": "View of Annapurna I, II, and III on our way back to Manang from Ice Lake",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -286,8 +294,8 @@
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAQACAwT/xAAhEAABBAEEAwEAAAAAAAAAAAABAAIRIUEDEjFREyJhgf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAYEQEBAQEBAAAAAAAAAAAAAAAAERIBAv/aAAwDAQACEQMRAD8AhqYcbWmUHAU6FaznhlkxKVO+eNbB2rowtg7TRjryjKw6OjRu9XcjgpSCDMAJSN2wXXaVYAZ5JhSrC7RjNKVYTptLzU/qVIfJGFFEF4B+pQEEiKpB/9k="
     },
     {
-      "src": "2019/10/19/4fc862a6-93fc-4196-9293-2e03e1ae9d0e.jpeg",
-      "title": "Steep mountain-side trail",
+      "src": "2019/10/19/53ffc0cc-94d0-4a89-a820-fcce46e3599f.jpeg",
+      "title": "Tilicho Lake Basecamp",
       "location": {
         "region": "Manang District",
         "country": "Nepal",
@@ -295,19 +303,23 @@
       },
       "date": "10/26/2019",
       "elevation": 13542,
-      "notes": "Heading towards Tilicho Lake basecamp, another side trek not part of the main circuit",
+      "notes": "",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQIAA//EACIQAAICAgIABwAAAAAAAAAAAAECABESITFBAxMiMlFh0f/EABcBAQEBAQAAAAAAAAAAAAAAAAEAAwL/xAAYEQEBAQEBAAAAAAAAAAAAAAAAAQISEf/aAAwDAQACEQMRAD8AcbmnUY8UYx6g5sIQmF1IZm1nVQLF/s5mq0uIAu43U8cTF9Jc42OJm3bzDegJJLu118fckxttHZ6kHVEwHqNwIsXwIhJo9cSKgqgjWz3BKNeGNDck5hnZvdUE/9k=",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
         "exposure": "0.0",
         "fnumber": "1.80",
         "focal": 28,
-        "iso": 20
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAgABAwT/xAAgEAABAwMFAQAAAAAAAAAAAAABAAIRAyExEhNBUXEi/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwAbruR4g6isOYVpGOrfMBKQBUcLyUIFRxe4eZWdXMEmLHIVEHoNALsYQIjS2Dk4UEGOfYWHaAk6hJQTWgkSEHojQBGUFtS6XmeggRsg/9k="
+        "format": "jpg",
+        "height": 2206,
+        "iso": 20,
+        "shutter": "10.25",
+        "width": 3923
+      }
     },
     {
-      "src": "2019/10/19/2a1bf139-680c-427a-833f-62ff563c5eca.jpeg",
+      "src": "2019/10/19/fe3722c9-3002-49f8-a281-f8e36a240e0a.jpeg",
       "title": "Tilicho Lake",
       "location": {
         "region": "Manang District",
@@ -316,20 +328,24 @@
       },
       "date": "10/27/2019",
       "elevation": 16465,
-      "notes": "Reaching Tilicho Lake after starting in the pre-dawn hours, and being rewarded with views of an avalanche",
+      "notes": "",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgT/xAAjEAABAwMEAgMAAAAAAAAAAAACAAERAxIhE0FRYSJxMZGx/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAIBA//EABkRAQEBAQEBAAAAAAAAAAAAAAABEQISMf/aAAwDAQACEQMRAD8AtmeljSKmBZMW9rdZiFWhb5DkfxVKmzEoVJ0QhrstcQ3f0uTqcXixdIGM25mUE6lMXeRw/CqdIvO/E9N+FexzyttUJhz9rk7nk2loQO142QDi7fMIMarcLfKfcf/Z",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
         "exposure": "0.0",
         "fnumber": "1.80",
         "focal": 28,
-        "iso": 25
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgT/xAAjEAABAwMEAgMAAAAAAAAAAAABAAIRAxIhE0FRYSJxMZGx/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAIBA//EABkRAQEBAQEBAAAAAAAAAAAAAAABEQISMf/aAAwDAQACEQMRAD8AtmeljSdTY7L2j2t1mIVaFvk3LfxVKmzEoVJ0QhrstLWbn0uTqcXtDukDbNuZlBOpTaTLcHhVOkXnfiemeFexzytiq63P2uTueXiRCBgEjZAEEfMIMao4W+U+4//Z"
+        "format": "jpg",
+        "height": 2268,
+        "iso": 25,
+        "shutter": "12.57",
+        "width": 4032
+      }
     },
     {
       "src": "2019/10/19/ed197052-01d7-4739-807c-39340385c0fc.jpeg",
-      "title": "Dust storms",
+      "title": "Tilicho Lake",
       "location": {
         "region": "Manang District",
         "country": "Nepal",
@@ -337,7 +353,7 @@
       },
       "date": "10/27/2019",
       "elevation": 16113,
-      "notes": "Returning from Tilicho lake, bound for Khangsar",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -350,7 +366,7 @@
     },
     {
       "src": "2019/10/19/d7837a44-81d2-4fa0-9912-bb15508be721.jpeg",
-      "title": "Lone yak",
+      "title": "Shree Kharka",
       "location": {
         "region": "Manang District",
         "country": "Nepal",
@@ -358,7 +374,7 @@
       },
       "date": "10/28/2019",
       "elevation": 13627,
-      "notes": "A solitary soul, heading to Phedi",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -371,7 +387,7 @@
     },
     {
       "src": "2019/10/19/40b7a029-2f0c-4807-94fa-86a07ee9ffa9.jpeg",
-      "title": "Overlooking Manang",
+      "title": "Upper Manang",
       "location": {
         "region": "Khotang District",
         "country": "Nepal",
@@ -379,7 +395,7 @@
       },
       "date": "10/28/2019",
       "elevation": 13652,
-      "notes": "Point of no return, bound for Phedi and the highest point on the trek at Thorong La Pass",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 7",
@@ -400,7 +416,7 @@
       },
       "date": "10/29/2019",
       "elevation": 17812,
-      "notes": "The highest elevation I've ever reached by foot, and the highest point on the trek",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -421,7 +437,7 @@
       },
       "date": "10/29/2019",
       "elevation": 12406,
-      "notes": "Our place of rest for the night after descending over 5,000 ft",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -434,7 +450,7 @@
     },
     {
       "src": "2019/10/19/93b7286f-a87a-4d8e-8d85-6a3f50dcd82c.jpeg",
-      "title": "Dirt-brown mountain views",
+      "title": "Marpha",
       "location": {
         "region": "Mustang District",
         "country": "Nepal",
@@ -442,7 +458,7 @@
       },
       "date": "10/30/2019",
       "elevation": 12503,
-      "notes": "Bound for Marpha as the Annapurna Circuit starts to come to an end",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -455,7 +471,7 @@
     },
     {
       "src": "2019/10/19/9f9bca6e-e30a-4ca0-b005-5a0bda57f649.jpeg",
-      "title": "All the biomes",
+      "title": "Ghasa",
       "location": {
         "region": "Mustang District",
         "country": "Nepal",
@@ -463,7 +479,7 @@
       },
       "date": "10/31/2019",
       "elevation": 8234,
-      "notes": "Second to last day on the circuit, heading towards Ghasa",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -476,7 +492,7 @@
     },
     {
       "src": "2019/10/19/5cf22091-8d99-4cdd-870c-f91db81c1049.jpeg",
-      "title": "Down and up to Ghorepani",
+      "title": "Ghorepani",
       "location": {
         "region": "Myagdi District",
         "country": "Nepal",
@@ -484,7 +500,7 @@
       },
       "date": "11/01/2019",
       "elevation": 5579,
-      "notes": "A rough day with lots of descent and ascent, and nearly being taken out by hypothermia at the end of the day. Thankfully a group of Iranian hikers came to my aid and nursed me back to full strength.",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",

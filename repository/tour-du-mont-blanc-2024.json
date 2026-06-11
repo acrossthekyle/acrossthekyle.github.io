@@ -52,7 +52,7 @@
   "images": [
     {
       "src": "2024/07/27/ac7799bd-b2a8-4f77-8a8d-6d42a8740390.jpeg",
-      "title": "Auberge Le Truc",
+      "title": "Mont Blanc",
       "location": {
         "region": "Saint-Gervais-les-Bains",
         "country": "France",
@@ -73,9 +73,9 @@
     },
     {
       "src": "2024/07/27/be372999-42b4-404b-bd64-2cf56f843f25.jpeg",
-      "title": "",
+      "title": "Auberge Le Truc",
       "location": {
-        "region": "Auberge Le Truc, Saint-Gervais-les-Bains",
+        "region": "Saint-Gervais-les-Bains",
         "country": "France",
         "continent": "Europe"
       },
@@ -98,7 +98,7 @@
     },
     {
       "src": "2024/07/27/10146a42-b18d-4318-bc5b-c32279532e4d.jpeg",
-      "title": "Refuge La Croix du Bonhomme",
+      "title": "Refuge de la Balme",
       "location": {
         "region": "Bourg-Saint-Maurice",
         "country": "France",
@@ -119,7 +119,7 @@
     },
     {
       "src": "2024/07/27/04e91698-82d1-49be-b823-768e10dc3423.jpeg",
-      "title": "",
+      "title": "Col du Bonhomme",
       "location": {
         "region": "Bourg-Saint-Maurice",
         "country": "France",
@@ -144,7 +144,7 @@
     },
     {
       "src": "2024/07/27/be9a961c-fc7d-43dc-b466-29a359d1cd12.jpeg",
-      "title": "Refuge Robert Blanc",
+      "title": "Torrent des Glaciers",
       "location": {
         "region": "Glacier des lanchettes",
         "country": "France",
@@ -165,7 +165,7 @@
     },
     {
       "src": "2024/07/27/7a0ae762-e926-44fe-a2de-660484cca8fc.jpeg",
-      "title": "",
+      "title": "Refuge Robert Blanc",
       "location": {
         "region": "Glacier des lanchettes",
         "country": "France",
@@ -190,15 +190,15 @@
     },
     {
       "src": "2024/07/27/a45073e7-ef67-4e31-a5e7-3ba9b4b97b4e.jpeg",
-      "title": "Rifugio Maison Veille",
+      "title": "Robert Blanc",
       "location": {
-        "region": "Courmayeur",
-        "country": "Italy",
+        "region": "Glacier des lanchettes",
+        "country": "France",
         "continent": "Europe"
       },
       "date": "07/30/2024",
       "elevation": 7055,
-      "notes": "The hardest day on this thru-hike with multiple summits and 16 miles of hiking",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -211,7 +211,7 @@
     },
     {
       "src": "2024/07/27/9fc630d8-23a0-4ce1-9eb6-ea30088322eb.jpeg",
-      "title": "",
+      "title": "Col de la Seigne",
       "location": {
         "region": "Courmayeur",
         "country": "Italy",
@@ -235,8 +235,33 @@
       }
     },
     {
+      "src": "2024/07/27/b2a56d4d-998f-41e4-a4e3-f1d8dc472a23.jpeg",
+      "title": "Maison Veille",
+      "location": {
+        "region": "Courmayeur",
+        "country": "Italy",
+        "continent": "Europe"
+      },
+      "date": "07/30/2024",
+      "elevation": 6416,
+      "notes": "",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAQIDBAD/xAAeEAACAgICAwAAAAAAAAAAAAAAAQIRAzEEIRJxgf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABcRAQEBAQAAAAAAAAAAAAAAAAABERL/2gAMAwEAAhEDEQA/ANTXWiQ+Eg0SRaEUNpbJKo8mS3UiyDaujnhJbr2GU9RLzhW1QZTsU5ORFdRVsUzvJJythqwGS4iSAZEdCH//2Q==",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "format": "jpg",
+        "height": 2268,
+        "iso": 50,
+        "shutter": "11.63",
+        "width": 4032
+      }
+    },
+    {
       "src": "2024/07/27/f1310350-3cb1-4f1b-b591-e08d0971f23b.jpeg",
-      "title": "Rifugio Bonatti",
+      "title": "Val Ferret",
       "location": {
         "region": "Courmayeur",
         "country": "Italy",
@@ -257,7 +282,7 @@
     },
     {
       "src": "2024/07/27/5b46b0ae-1497-48bd-acd9-54ea4176d0dd.jpeg",
-      "title": "",
+      "title": "Rifugio Bonatti",
       "location": {
         "region": "Courmayeur",
         "country": "Italy",
@@ -282,7 +307,7 @@
     },
     {
       "src": "2024/07/27/b70777d8-b89d-4d60-b422-2d2af80483e4.jpeg",
-      "title": "Hotel Edelweiss",
+      "title": "Grand Col Ferret",
       "location": {
         "region": "La Fouly",
         "country": "Switzerland",
@@ -303,7 +328,7 @@
     },
     {
       "src": "2024/07/27/ea0d6edd-6de0-41a6-a0cf-0b79c2ab931a.jpeg",
-      "title": "",
+      "title": "Grand Col Ferret",
       "location": {
         "region": "La Fouly",
         "country": "Switzerland",
@@ -328,7 +353,7 @@
     },
     {
       "src": "2024/07/27/22400157-4853-4974-856b-86b1bc986ef9.jpeg",
-      "title": "Gîte Bon Abri",
+      "title": "Gite Bon Abri",
       "location": {
         "region": "Champex-Lac",
         "country": "Switzerland",
@@ -349,7 +374,7 @@
     },
     {
       "src": "2024/07/27/8305ad08-4815-4121-8ae9-610b25f3925c.jpeg",
-      "title": "",
+      "title": "Col de la Forclaz",
       "location": {
         "region": "Le Peuty",
         "country": "Switzerland",
@@ -374,7 +399,7 @@
     },
     {
       "src": "2024/07/27/6ce63fae-271d-4cdf-a0f6-c090e1c678b4.jpeg",
-      "title": "",
+      "title": "Alpage de Bovine",
       "location": {
         "region": "Le Peuty",
         "country": "Switzerland",
@@ -399,7 +424,7 @@
     },
     {
       "src": "2024/07/27/7169be39-157f-4158-a3c7-fa83503ce67b.jpeg",
-      "title": "",
+      "title": "Le Peuty",
       "location": {
         "region": "Chamonix-Mont-Blanc",
         "country": "France",
@@ -445,7 +470,7 @@
     },
     {
       "src": "2024/07/27/03898b5a-74c7-44ff-9784-9dcbfa40c366.jpeg",
-      "title": "Refuge La Flegere",
+      "title": "Lac Blanc",
       "location": {
         "region": "Chamonix-Mont-Blanc",
         "country": "France",
@@ -470,7 +495,7 @@
     },
     {
       "src": "2024/07/27/e6194972-aa41-4e62-9f04-33386c522050.jpeg",
-      "title": "",
+      "title": "Refuge La Flegere",
       "location": {
         "region": "Chamonix-Mont-Blanc",
         "country": "France",
@@ -495,7 +520,7 @@
     },
     {
       "src": "2024/07/27/132e1a2f-699f-4174-8844-5164fecb3165.jpeg",
-      "title": "Les Houches",
+      "title": "La Brevant",
       "location": {
         "region": "Les Houches",
         "country": "France",

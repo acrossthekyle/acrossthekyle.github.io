@@ -96,6 +96,7 @@ const styles = tw({
     absolute bottom-4 left-4 right-4
     flex flex-col gap-1
     text-xtiny
+    font-medium
     uppercase
     tracking-widest
 

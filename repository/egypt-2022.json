@@ -55,7 +55,7 @@
   "images": [
     {
       "src": "2022/12/28/b645dadb-e6b9-41ef-a797-8ea11c0de22c.jpeg",
-      "title": "View from hotel rooftop",
+      "title": "Pyramids of Giza",
       "location": {
         "region": "Giza",
         "country": "Egypt",
@@ -63,7 +63,7 @@
       },
       "date": "12/29/2022",
       "elevation": 95,
-      "notes": "Spent one night at this hotel in order to visit the Pyramids and Sphinx",
+      "notes": "",
       "exif": {
         "aperture": "2/2750",
         "camera": "iPhone 13 Pro",
@@ -76,7 +76,7 @@
     },
     {
       "src": "2022/12/28/4a450c11-fa71-4501-83de-95cf248aeecc.jpeg",
-      "title": "The Pyramids",
+      "title": "Pyramid of Menkaure",
       "location": {
         "region": "Giza Plateau",
         "country": "Egypt",
@@ -84,7 +84,7 @@
       },
       "date": "12/29/2022",
       "elevation": 215,
-      "notes": "Once on the plateau you're free to roam",
+      "notes": "",
       "exif": {
         "aperture": "2/2750",
         "camera": "iPhone 13 Pro",
@@ -97,7 +97,7 @@
     },
     {
       "src": "2022/12/28/20b4a5e3-bdde-4eee-a650-46a368ab6767.jpeg",
-      "title": "Base of the Great Pyramid",
+      "title": "Pyramid of Khafre",
       "location": {
         "region": "Giza Plateau",
         "country": "Egypt",
@@ -105,7 +105,7 @@
       },
       "date": "12/29/2022",
       "elevation": 209,
-      "notes": "Our view before entering the pyramid",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone 13 Pro",
@@ -231,7 +231,7 @@
       },
       "date": "12/30/2022",
       "elevation": 100,
-      "notes": "After spending a night in Giza we headed to Cairo for museums and bazaars",
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -252,7 +252,7 @@
       },
       "date": "01/02/2023",
       "elevation": 253,
-      "notes": "Luxor occupied the second half of our time in Egypt",
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -496,7 +496,7 @@
     },
     {
       "src": "2022/12/28/9799718c-81f7-460d-9f0a-7ddd2dffb060.jpeg",
-      "title": "Temple Exterior",
+      "title": "Luxor Temple",
       "location": {
         "region": "Luxor Temple",
         "country": "Egypt",
@@ -517,7 +517,7 @@
     },
     {
       "src": "2022/12/28/63dd5017-e9f2-4def-8aa6-2f97f2803ed4.jpeg",
-      "title": "Interior columns",
+      "title": "Luxor Temple",
       "location": {
         "region": "Luxor Temple",
         "country": "Egypt",
@@ -538,7 +538,7 @@
     },
     {
       "src": "2022/12/28/7f2020f6-ccd2-4f4a-98a1-44abd2df6911.jpeg",
-      "title": "Obelisk",
+      "title": "Karnak Temple",
       "location": {
         "region": "Karnak Temple",
         "country": "Egypt",
@@ -556,6 +556,27 @@
         "iso": 50
       },
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBA//EACEQAAICAgIBBQAAAAAAAAAAAAABAhESITFBgQMiUXGR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgEA/8QAFxEBAQEBAAAAAAAAAAAAAAAAAAERAv/aAAwDAQACEQMRAD8Ai2lSembHj9Ik6SKi9eGEnXiJPkrJP0q7OOe6otupzMjX89Ah2AkybevotJuMUu0wCo3GcFbaaOeXusAzK5AASf/Z"
+    },
+    {
+      "src": "2022/12/28/caff8a45-5173-48cd-aa9c-a8cce3489b60.jpeg",
+      "title": "Hypostyle Hall",
+      "location": {
+        "region": "Karnak Temple",
+        "country": "Egypt",
+        "continent": "Africa"
+      },
+      "date": "01/03/2023",
+      "elevation": 278,
+      "notes": "",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "iso": 50
+      },
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAgABAwT/xAAfEAACAQQCAwAAAAAAAAAAAAAAARECAyExEkEicYH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwC8zL0ZaJaYCrim3jpAcscmURzpEVrycBD1SRRqqm25fQGSKLwiKlLllRo34+kQB5t/ACBAr//Z"
     },
     {
       "src": "2022/12/28/3499fb61-f3ca-4a3d-9f5c-e41df689c4dd.jpeg",
@@ -579,29 +600,8 @@
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAEDAv/EACAQAAICAgICAwAAAAAAAAAAAAABAhEDMRIhIlFBYXH/xAAXAQEBAQEAAAAAAAAAAAAAAAADAAIB/8QAGREBAQADAQAAAAAAAAAAAAAAAAECESFR/9oADAMBAAIRAxEAPwDOixg5aLGLUfJ2zaL4409r6O3JmYeuY4YrfYUIXosciljbqq6okr4+vxGN0kkZZMfB1dg0yK+LaAkvBZS74kovUKS+TuUGmoxfS9gBFdKNNpJVZZR8eugCRt2ACT//2Q=="
     },
     {
-      "src": "2022/12/28/caff8a45-5173-48cd-aa9c-a8cce3489b60.jpeg",
-      "title": "Columns",
-      "location": {
-        "region": "Karnak Temple",
-        "country": "Egypt",
-        "continent": "Africa"
-      },
-      "date": "01/03/2023",
-      "elevation": 278,
-      "notes": "The scale of the scaffolding against the columns",
-      "exif": {
-        "aperture": "1/1699",
-        "camera": "iPhone 13 Pro",
-        "exposure": "0.0",
-        "fnumber": "1.50",
-        "focal": 26,
-        "iso": 50
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAgABAwT/xAAfEAACAQQCAwAAAAAAAAAAAAAAARECAyExEkEicYH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwC8zL0ZaJaYCrim3jpAcscmURzpEVrycBD1SRRqqm25fQGSKLwiKlLllRo34+kQB5t/ACBAr//Z"
-    },
-    {
       "src": "2022/12/28/50f9c440-f59d-47ef-95ff-c9363820d1a9.jpeg",
-      "title": "Roaring flames",
+      "title": "Hot air balloon ride",
       "location": {
         "region": "Luxor",
         "country": "Egypt",
@@ -609,7 +609,7 @@
       },
       "date": "01/04/2023",
       "elevation": 254,
-      "notes": "Anticipation builds as we begin to board our hot air balloon ride of the valley of the kings/queens",
+      "notes": "",
       "exif": {
         "aperture": "1/1699",
         "camera": "iPhone 13 Pro",
@@ -661,6 +661,31 @@
         "iso": 50
       },
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAfEAACAgIBBQAAAAAAAAAAAAAAAQIREjEDEyFRUoH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAFxEBAQEBAAAAAAAAAAAAAAAAABEhQf/aAAwDAQACEQMRAD8A7cinccK33sqZ0aKzEorMTEVItBYvW4/ZGK6wU4vUk/oqQstSApAUjxmHQA1GclpsDWcmtikM35YH/9k="
+    },
+    {
+      "src": "2022/12/28/a8f4fb49-5258-464a-8731-f4a95ae8e417.jpeg",
+      "title": "Cairo Sunset",
+      "location": {
+        "region": "Luxor",
+        "country": "Egypt",
+        "continent": "Africa"
+      },
+      "date": "01/05/2023",
+      "elevation": 69,
+      "notes": "",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQIAA//EACAQAAICAAYDAAAAAAAAAAAAAAABAhEDBBQhMVISMlH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAXEQEBAQEAAAAAAAAAAAAAAAAAEQES/9oADAMBAAIRAxEAPwDtQUigpjlJyTGiJc2NEHm/iKqHU7cGZrVwyzUa2QTTcTql0LkUPMLoPKqHjJv12KCtNQuopoUyheI43SXJISik3RJNCGpEn//Z",
+      "exif": {
+        "aperture": "1/1699",
+        "camera": "iPhone 13 Pro",
+        "exposure": "0.0",
+        "fnumber": "1.50",
+        "focal": 26,
+        "format": "jpg",
+        "height": 2247,
+        "iso": 50,
+        "shutter": "10.97",
+        "width": 3996
+      }
     }
   ]
 }

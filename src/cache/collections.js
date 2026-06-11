@@ -172,7 +172,7 @@ const data = [
   {
     "category": "Backpacking",
     "coordinates": "45.8902° N, 6.7978° E",
-    "count": 21,
+    "count": 22,
     "id": "tour-du-mont-blanc-2024",
     "location": {
       "region": "The Alps",
@@ -274,7 +274,7 @@ const data = [
   {
     "category": "Backpacking",
     "coordinates": "42.5074° N, 8.8554° E",
-    "count": 32,
+    "count": 33,
     "id": "the-gr-20",
     "location": {
       "region": "The Corsican Mountains",
@@ -310,7 +310,7 @@ const data = [
   {
     "category": "Destinations",
     "coordinates": "30.0333° N, 31.2333° E",
-    "count": 29,
+    "count": 30,
     "id": "cairo-and-luxor",
     "location": {
       "region": "Northern and Central Areas",
@@ -489,7 +489,7 @@ const data = [
   {
     "category": "Backpacking",
     "coordinates": "50.9652° S, 72.8635° W",
-    "count": 24,
+    "count": 18,
     "id": "o-circuit",
     "location": {
       "region": "The Patagonia Region",

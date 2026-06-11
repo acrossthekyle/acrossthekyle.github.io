@@ -48,7 +48,7 @@
   "images": [
     {
       "src": "2019/10/19/9967b893-82a1-40b2-85fd-d41b9fa55920.jpeg",
-      "title": "Snow-capped mountain",
+      "title": "Ghorepani",
       "location": {
         "region": "Kaski District",
         "country": "Nepal",
@@ -56,7 +56,7 @@
       },
       "date": "11/01/2019",
       "elevation": 9344,
-      "notes": "Morning on day one of the Annapurna Basecamp trek",
+      "notes": "",
       "exif": {
         "aperture": "2/5261",
         "camera": "iPhone X",
@@ -69,7 +69,7 @@
     },
     {
       "src": "2019/10/19/44725bb3-f011-4e1d-a3bb-06d8fa52e578.jpeg",
-      "title": "Cloudy path",
+      "title": "Deurali Pass",
       "location": {
         "region": "Kaski District",
         "country": "Nepal",
@@ -77,7 +77,7 @@
       },
       "date": "11/01/2019",
       "elevation": 10354,
-      "notes": "Blanket of fog rolled in after leaving Ghorepani, bound for Chomrong",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -90,7 +90,7 @@
     },
     {
       "src": "2019/10/19/749868e9-5d1a-407c-aa24-d2d5741b3c15.jpeg",
-      "title": "Approaching Chomrong",
+      "title": "Kyumrung Khola",
       "location": {
         "region": "Kaski District",
         "country": "Nepal",
@@ -98,7 +98,7 @@
       },
       "date": "11/01/2019",
       "elevation": 7039,
-      "notes": "Nearing the end of the first day on the ABC trek, passed through many forests and up-and-down river valley walls",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -111,7 +111,7 @@
     },
     {
       "src": "2019/10/19/e0c0fe7a-065c-449e-9335-669b28fc8a33.jpeg",
-      "title": "Morning in Chomrong",
+      "title": "Chomrong",
       "location": {
         "region": "Kaski District",
         "country": "Nepal",
@@ -119,7 +119,7 @@
       },
       "date": "11/02/2019",
       "elevation": 7190,
-      "notes": "Viewing the path through and into the mountains",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -132,7 +132,7 @@
     },
     {
       "src": "2019/10/19/a052d193-0be9-4288-b017-65d459c3eca1.jpeg",
-      "title": "Mountain valley pass",
+      "title": "Deurali",
       "location": {
         "region": "Kaski District",
         "country": "Nepal",
@@ -140,7 +140,7 @@
       },
       "date": "11/02/2019",
       "elevation": 10807,
-      "notes": "Making my way towards my stop for the night at a village called Deurali",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -153,7 +153,7 @@
     },
     {
       "src": "2019/10/19/3dc0234b-c92e-4a61-bce5-bd922ddaa9bf.jpeg",
-      "title": "Approaching basecamp",
+      "title": "Machhapuchare Basecamp",
       "location": {
         "region": "Kaski District",
         "country": "Nepal",
@@ -161,7 +161,7 @@
       },
       "date": "11/03/2019",
       "elevation": 12231,
-      "notes": "Transitioning from trees and green to tans and schrubs with pure white in the distance",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -182,7 +182,7 @@
       },
       "date": "11/03/2019",
       "elevation": 13525,
-      "notes": "Arrival at basecamp for Annapurna I, surrounded by clouds and pure-white snow",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -195,7 +195,7 @@
     },
     {
       "src": "2019/10/19/488cfa64-0b33-4af3-a127-e0f3cae7175e.jpeg",
-      "title": "Pink skies",
+      "title": "Machhapuchare",
       "location": {
         "region": "Kaski District",
         "country": "Nepal",
@@ -203,7 +203,7 @@
       },
       "date": "11/04/2019",
       "elevation": 13468,
-      "notes": "Sunrise on the ABC at basecamp before beginning the long hike down to Chomrong, a drop of nearly 6,000 ft",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -216,7 +216,7 @@
     },
     {
       "src": "2019/10/19/490d1db6-aaad-4ed3-9181-081ca318cd16.jpeg",
-      "title": "Returning to Chomrong",
+      "title": "Upper Sinuwa",
       "location": {
         "region": "Kaski District",
         "country": "Nepal",
@@ -224,7 +224,7 @@
       },
       "date": "11/04/2019",
       "elevation": 10372,
-      "notes": "Walking through the shoulders of giants",
+      "notes": "",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
@@ -237,7 +237,7 @@
     },
     {
       "src": "2019/10/19/6bd7587b-78d3-4488-93b5-2694227dd792.jpeg",
-      "title": "Fishtail mountain sunrise",
+      "title": "Chomrong",
       "location": {
         "region": "Kaski District",
         "country": "Nepal",
@@ -245,7 +245,7 @@
       },
       "date": "11/05/2019",
       "elevation": 7344,
-      "notes": "Morning on the last day of the trek, view of Fishtail mountain (Machhapuchhre) from Chomrong",
+      "notes": "",
       "exif": {
         "aperture": "2/5261",
         "camera": "iPhone X",
@@ -257,25 +257,29 @@
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAgABAwT/xAAfEAEAAQQBBQAAAAAAAAAAAAABAAIDESESBBMxYXH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ANcSogQEEBBIqwgZhKhBAHeoHbqRSL1vGeRAp6m2OsvyBzF+pp9wDVdqfKygcpBWYEzA/9k="
     },
     {
-      "src": "2019/10/19/842ce237-9e28-46f4-adef-33f0174706cf.jpeg",
-      "title": "Returning to civilization",
+      "src": "2019/10/19/f2839e21-063b-4215-be8e-0641741cf2c5.jpeg",
+      "title": "Sinwai",
       "location": {
         "region": "Kaski District",
         "country": "Nepal",
         "continent": "Asia"
       },
       "date": "11/05/2019",
-      "elevation": 5360,
-      "notes": "One last mega-suspension bridge before hitching a ride back to Pokhara",
+      "elevation": 7063,
+      "notes": "",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEEAgP/xAAgEAACAgEEAwEAAAAAAAAAAAAAAQIREgMxUXETIUFC/8QAFwEBAQEBAAAAAAAAAAAAAAAAAQIAA//EABkRAQEBAQEBAAAAAAAAAAAAAAABEQISE//aAAwDAQACEQMRAD8A6PTfB01xvJYdG0eaWDHWyngGtOaMUt2HqL+dT+SfNkrwLU9iHTKlaYacbV429ybVSCKcuiaUjbLSSFlGlGo5bk2mRv8ANv6Qo3Fyd3XRtZ//2Q==",
       "exif": {
         "aperture": "1/6960",
         "camera": "iPhone X",
         "exposure": "0.0",
         "fnumber": "1.80",
         "focal": 28,
-        "iso": 20
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAgMAAQT/xAAeEAEAAgEFAQEAAAAAAAAAAAABAAISAxEhMUEiUf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AM6j2MijmsqMO/sUhDApV8geRtzIrm+xAY4gvsBlWA6W2Be2BI0cveWA3SNNqP1b98JBLFu98r7KFTKtrV36gWXLuRX/2Q=="
+        "format": "jpg",
+        "height": 2219,
+        "iso": 20,
+        "shutter": "10.26",
+        "width": 3945
+      }
     }
   ]
 }

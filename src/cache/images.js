@@ -13,9 +13,7 @@ const data = [
       "country": "Italy",
       "continent": "Europe"
     },
-    "notes": [
-      "Looking out at the start of the trail on the other side of the lake"
-    ],
+    "notes": [],
     "src": "2019/07/16/eba70b28-4c7d-45f3-aa93-46b24011cb80.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMCBAH/xAAiEAADAAECBgMAAAAAAAAAAAAAAQIREiEDEzFRYXEiQaH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAgD/xAAYEQEBAQEBAAAAAAAAAAAAAAAAARECEv/aAAwDAQACEQMRAD8AzHFwsNNlcZWfo5NXyKRxH0dPD/CtReYvMpt9kL0rGF7PE5Scu1v5FXMrL39BtVOZG1EtJpg5udSWyQDa3mJLqbhLVuALLqYtZ0vbyQudNNdgAUxqQAMH/9k=",
     "title": "Lago de Braies",
@@ -35,9 +33,7 @@ const data = [
       "country": "Italy",
       "continent": "Europe"
     },
-    "notes": [
-      "Summit of Croda del Becco and highest point of entire trek, Lago de Braies is below"
-    ],
+    "notes": [],
     "src": "2019/07/16/ecb37ab5-2587-45e8-8818-77a55dc9a711.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgABA//EACMQAAICAQMDBQAAAAAAAAAAAAECABEhAxNBIlFxMTJSYYH/xAAXAQEBAQEAAAAAAAAAAAAAAAABAAID/8QAGBEBAQEBAQAAAAAAAAAAAAAAABEBEmH/2gAMAwEAAhEDEQA/AFvHtNxz6W6eBmUV8R1m+MIetaNU8gRgus3j2EJhuudsx8TLYta+oP5ICrLebijDYOKH3KqMRCzGzgQpiB55gSDdQvMk56gAvzHGdJKq64kcP2hm7moF/9k=",
     "title": "Croda del Becco",
@@ -57,12 +53,10 @@ const data = [
       "country": "Italy",
       "continent": "Europe"
     },
-    "notes": [
-      "Sunset and onset of night in the mountains"
-    ],
+    "notes": [],
     "src": "2019/07/16/406e9628-6d20-409d-ac2e-cb6146c1cce7.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQIDAP/EACEQAAICAQIHAAAAAAAAAAAAAAABAhEDEiETMVFhcZGx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AH0mljaQQjlC61IVBcSpAcQijz40+bfhGW6hmzuW0do/QVAiHhmnBUna7lobjz6L0KJ2QAKAGA1sD//Z",
-    "title": "Purple mountain silhouette",
+    "title": "Rifugio Bella",
     "when": "July 16th, 2019"
   },
   {
@@ -79,12 +73,10 @@ const data = [
       "country": "Italy",
       "continent": "Europe"
     },
-    "notes": [
-      "Soaking sore feet in an ice-cold mountain stream"
-    ],
+    "notes": [],
     "src": "2019/07/16/69890344-e575-484e-86ae-5ddeb000c4f9.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECA//EACAQAAIBBAIDAQAAAAAAAAAAAAABEQIDEiExURMiQWH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAYEQEBAQEBAAAAAAAAAAAAAAAAARESAv/aAAwDAQACEQMRAD8A5PcstpTXCMVuFDRu1VFeS6DVjvhr9J4+k12yO69caMOp1RNTLqi+YmdPian2kEdC+OAHRwyyy1yoN27U1JZPiQAabdn6mYdLT2AVSNONPSAAJ//Z",
-    "title": "Mountain stream",
+    "title": "Marebbe",
     "when": "July 17th, 2019"
   },
   {
@@ -101,9 +93,7 @@ const data = [
       "country": "Italy",
       "continent": "Europe"
     },
-    "notes": [
-      "Exploring the grounds of Rifugio Lavarella"
-    ],
+    "notes": [],
     "src": "2019/07/16/ae1557ba-9073-4eb9-93d7-554717e476aa.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAgABAwT/xAAkEAABAwMDBAMAAAAAAAAAAAABAAIRAxIhEzFBIlFxkUJhgf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABkRAQEBAQEBAAAAAAAAAAAAAAABEQIhUf/aAAwDAQACEQMRAD8A1qadwlsTyqVXkTSaYtP6VrWLz8IU6bd8/aNpnMaS1jdwAhpz1KtLJEuceydF5AVHfLq8rGtL1Dxge1asS4xh5KdqyIQH7yfJR6hc1sxbjvKkAdKCTcqxGxpiXH0nAvLyYwBwoi64Ow7dKf/Z",
     "title": "Lavarella",
@@ -123,12 +113,10 @@ const data = [
       "country": "Italy",
       "continent": "Europe"
     },
-    "notes": [
-      "Halfway through third day of the trek"
-    ],
+    "notes": [],
     "src": "2019/07/16/02fda32d-8ba3-4aee-9ab2-990b2d8804b0.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAQIDAAT/xAAhEAEAAgEEAQUAAAAAAAAAAAABABECAxIhQVEiMWFxof/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwCprXj7C/EDGri+SVIcLL6gK1ddyoCQOTckw2czK5LgVNQ2bbqAvI+lPuBXTzKrN56lqRzbR5kaCuahBupBnE3eGAcckyB/JR//2Q==",
-    "title": "To the pass",
+    "title": "Cima del Lago",
     "when": "July 18th, 2019"
   },
   {
@@ -145,12 +133,10 @@ const data = [
       "country": "Italy",
       "continent": "Europe"
     },
-    "notes": [
-      "Crest of mountain pass with another far in the distance"
-    ],
+    "notes": [],
     "src": "2019/07/16/081c1b83-7036-4c3c-aa2f-0534f4250ab8.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIDAf/EAB8QAAIBAwUBAAAAAAAAAAAAAAABEQIDEhMhMUFRMv/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8Au1dd1ulqGuzXAwtLCrJVc+o11UUqsViIJ1qfTjuJ8DoxThAyqriHMgzrWOZeduBErhb8gAU6Lb+i6be0Tv2wCDjeLahT6AAL/9k=",
-    "title": "Stone gateway",
+    "title": "Forcella di Lago",
     "when": "July 18th, 2019"
   },
   {
@@ -167,12 +153,10 @@ const data = [
       "country": "Italy",
       "continent": "Europe"
     },
-    "notes": [
-      "Landslide/blizzard barriers"
-    ],
+    "notes": [],
     "src": "2019/07/16/bc2d165d-b858-45a8-94c8-e790da8ac517.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAgEAAwT/xAAgEAEAAgEEAgMAAAAAAAAAAAABAAIREiExUSJBYXHR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AA5P2DRF33IGKW1VQYh016uDeKYqBu4xIPPhPk7mG0x7NophR256kDrfP3JLajc8bRogZmW2UiEXszIEVGupkULI4kH/2Q==",
-    "title": "Red and gray mountain-side",
+    "title": "Forcella Lagazuoi",
     "when": "July 19th, 2019"
   },
   {
@@ -189,9 +173,7 @@ const data = [
       "country": "Italy",
       "continent": "Europe"
     },
-    "notes": [
-      "Pandora-esque rock formation"
-    ],
+    "notes": [],
     "src": "2019/07/16/a3f65b8c-4b57-4194-a3a1-5769f1d63373.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAeACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgADAf/EACIQAAICAgAGAwAAAAAAAAAAAAABAhEhQQMSEzEyUSJhcf/EABcBAAMBAAAAAAAAAAAAAAAAAAABAgP/xAAZEQEBAAMBAAAAAAAAAAAAAAAAARESIUH/2gAMAwEAAhEDEQA/AEk0NSr2c6sKq/3B241dlZlZ62F1ETneDNSTfjjQ20340xL76r+iDruQy6wU1bXlextppPmxsyj8crOezKUsPVmaz52qzmjvUnHDd4vIErins1cbhH2PIFcWT0mQEuWTRAH/2Q==",
     "title": "Cinque Torri",
@@ -211,12 +193,10 @@ const data = [
       "country": "Italy",
       "continent": "Europe"
     },
-    "notes": [
-      "Bright green rift between upended earth"
-    ],
+    "notes": [],
     "src": "2019/07/16/036ba8da-a8ff-45ad-9dcf-d2fa7f1420db.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAQACAwT/xAAgEAACAgICAgMAAAAAAAAAAAAAAQIRAyExUQQSQZGx/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABkRAQEBAQEBAAAAAAAAAAAAAAABERIhAv/aAAwDAQACEQMRAD8As4vpnTXCyhxa5RdSywUAUAUBs8vrzs5bHf1lPyOarYlLF8eZSW0k/wBLpiTyL4ROjnSskXFXX0aTxx+77MNlXIm4NIIzaLVp3wFMYLos+qmR/9k=",
-    "title": "Tilted ground",
+    "title": "Forcella Giau",
     "when": "July 20th, 2019"
   },
   {
@@ -233,12 +213,10 @@ const data = [
       "country": "Italy",
       "continent": "Europe"
     },
-    "notes": [
-      "Watch your step"
-    ],
+    "notes": [],
     "src": "2019/07/16/12e2afdc-e50e-4882-a01b-5b6b441f4140.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgEAA//EAB8QAQACAgICAwAAAAAAAAAAAAEAEQIhMUEDBBJRYf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABcRAQEBAQAAAAAAAAAAAAAAAAAREgH/2gAMAwEAAhEDEQA/AO42yoWxkUcreIGHVLUAuL+SorqBR3AyyKKl81KgqfcDmew9zF60p5b6jSRfm1Glgudu42mUcovVj//Z",
-    "title": "Ruins on the edge",
+    "title": "Ponte del Moro-Lago",
     "when": "July 20th, 2019"
   },
   {
@@ -255,12 +233,10 @@ const data = [
       "country": "Italy",
       "continent": "Europe"
     },
-    "notes": [
-      "Surrounded on all sides by forests, beginning of day six"
-    ],
+    "notes": [],
     "src": "2019/07/16/5323f319-71fc-4fa3-afa4-f7d52abc6966.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAgEDAAT/xAAhEAEAAgIBAwUAAAAAAAAAAAABABECA1ETIUESFCIxYf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAZEQEBAAMBAAAAAAAAAAAAAAAAEQESITH/2gAMAwEAAhEDEQA/AH02arnqvTotaIq6jjli8kJhsBj9WyN+LIryY79gVV/qSUHPbnk/LtLUzhDYnEUjTHe4lUQH7h4I4dYjObbkvz2kENV+ZdkhGPpO7ZxFBUpolo//2Q==",
-    "title": "Lonely mountain",
+    "title": "Col dei Baldi",
     "when": "July 21st, 2019"
   },
   {
@@ -277,12 +253,10 @@ const data = [
       "country": "Italy",
       "continent": "Europe"
     },
-    "notes": [
-      "Re-supply system for Rifugio Coldai"
-    ],
+    "notes": [],
     "src": "2019/07/16/03b43b53-84e3-4c25-b04c-914f468aefbb.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDAv/EACEQAAICAQMFAQAAAAAAAAAAAAERAAIhEjFRAxMyQWFx/8QAFwEBAQEBAAAAAAAAAAAAAAAAAQACA//EABoRAQEBAAMBAAAAAAAAAAAAAAABEQISITH/2gAMAwEAAhEDEQA/AKl1M0x8OqsDqhfDPWSmvfEdWMWTGRn7LsrxGmOxnrVrdSqwWJh0S7hSqQHuVLVIkag23KPJgQaVRW/oyKmoVKJZHENSdbuuniINGx3wYWkzUrBD/IadZIIoSTEA+L+ST//Z",
-    "title": "A way down",
+    "title": "Rifugio Coldai",
     "when": "July 21st, 2019"
   },
   {
@@ -299,12 +273,10 @@ const data = [
       "country": "Italy",
       "continent": "Europe"
     },
-    "notes": [
-      "Relaxing at Rifugio Tissi, gazing out towards a wall of jagged peaks"
-    ],
+    "notes": [],
     "src": "2019/07/16/00e52f77-3f2b-4bac-9fba-463d9ae4dff1.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwECAP/EAB8QAAICAgIDAQAAAAAAAAAAAAECABEDITFBEhNRIv/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAwDAQACEQMRAD8A15NQ3FMxl2IFDmXNNxBmI5AlrMQZGL2e5KsOrEKL3clWDc+KSKwxZhrQ7gHW+ZRQaoj7AVT+RviArY7+aN7mVG2IhmNitmVE9KndmhzA5cQWw24FUAGh0Lgf/9k=",
-    "title": "The Wall",
+    "title": "Rifugio Tissi",
     "when": "July 21st, 2019"
   },
   {
@@ -321,12 +293,10 @@ const data = [
       "country": "Italy",
       "continent": "Europe"
     },
-    "notes": [
-      "Starting off day seven with stinky friends"
-    ],
+    "notes": [],
     "src": "2019/07/16/a46e829f-147b-40d1-b7ae-2f743923feca.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwT/xAAkEAACAQMDAwUAAAAAAAAAAAAAARECAyESMUEiMmFRUnGCof/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABYRAQEBAAAAAAAAAAAAAAAAAAARIf/aAAwDAQACEQMRAD8A6YlYyTBxJ0rCbXwy6ruR01v7ZJSOlwlkyqvRuo8FHq97ZmqVriXL5JVibl1vdwvQFXYUd34CYNJgjyAZVPBXE7AAS2wAB//Z",
-    "title": "Walking with cows",
+    "title": "Monte Civetta",
     "when": "July 22nd, 2019"
   },
   {
@@ -343,12 +313,10 @@ const data = [
       "country": "Italy",
       "continent": "Europe"
     },
-    "notes": [
-      "Artifacts from world wars"
-    ],
+    "notes": [],
     "src": "2019/07/16/bac6d25f-acec-4e7f-9e08-126b36bdb9fd.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAQACA//EAB4QAQACAgIDAQAAAAAAAAAAAAEAAhEhEkEDMVEy/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABgRAQEBAQEAAAAAAAAAAAAAAAABESEC/9oADAMBAAIRAxEAPwC74wTi5m5XK+e8N9V4mMdszrpJisipX8j7c7gXFhWdkrXJmESjmqsBN4hUq7dazIEflYGbt9TIGvDfXyUFPK5xKNB0ZDckAXOxyfJR/9k=",
-    "title": "Army barrack ruins",
+    "title": "Forcella Moschesin",
     "when": "July 23rd, 2019"
   },
   {
@@ -365,12 +333,10 @@ const data = [
       "country": "Italy",
       "continent": "Europe"
     },
-    "notes": [
-      "Everything tinted sky blue"
-    ],
+    "notes": [],
     "src": "2019/07/16/e10fd4eb-c57f-4f1c-a434-a3321d7e4186.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAQADAgT/xAAkEAACAgECBQUAAAAAAAAAAAABAgARIQMSBEFRYaETIjEygf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABcRAQEBAQAAAAAAAAAAAAAAAAAREgH/2gAMAwEAAhEDEQA/AM/X1CKJ8SpEuq6HDYgbrxCnDij4gC66n7Cu4lSO6DC1NjtLWe8easYkUlccoKKH7CisWYANyn2sRBWgUdTNRjS2AczETXVtofMQ0dg6mIaBQCIa6//Z",
-    "title": "Icy-blue",
+    "title": "Cima di Citta",
     "when": "July 24th, 2019"
   },
   {
@@ -387,12 +353,10 @@ const data = [
       "country": "Italy",
       "continent": "Europe"
     },
-    "notes": [
-      "Where all the cheese and milk comes from, up here"
-    ],
+    "notes": [],
     "src": "2019/07/16/62a0ffe0-dafd-4399-a9e0-fa5f276ae90b.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQIDAP/EAB4QAAEEAwEBAQAAAAAAAAAAAAEAAhExEiFRAxNB/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABkRAQEBAAMAAAAAAAAAAAAAAAARAQISIf/aAAwDAQACEQMRAD8A2a8OExEdVTfHZDiJTmP0ShR9GhFQ70PZQZSQdFcq0oP6tdiYS4kahXOSRGcDVqome2imlyUoEHdBUOIc2TogWFc0iPSWTWqWh//Z",
-    "title": "A flock of sheep",
+    "title": "Rifugio Pian de Fontana",
     "when": "July 24th, 2019"
   },
   {
@@ -409,12 +373,10 @@ const data = [
       "country": "Italy",
       "continent": "Europe"
     },
-    "notes": [
-      "Beginning of the end, starting our descent back to civilization"
-    ],
+    "notes": [],
     "src": "2019/07/16/735a0783-62ba-4f8e-97d8-c9b9f5327cfe.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMBAv/EAB0QAAMBAAMAAwAAAAAAAAAAAAABAhEDEkEhMVH/xAAXAQEBAQEAAAAAAAAAAAAAAAABAAMC/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AKzapvPBpDjblfOlO/1voSpWWjdRKa7LTtM6CiQIvlUvPQBSbMpavxgGJYm0lnhkctKn7oBpA4vs6dNgAk//2Q==",
-    "title": "Like a painting",
+    "title": "Forcella di Lavaretta",
     "when": "July 25th, 2019"
   },
   {
@@ -431,12 +393,10 @@ const data = [
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "Morning on day one of the Annapurna Basecamp trek"
-    ],
+    "notes": [],
     "src": "2019/10/19/9967b893-82a1-40b2-85fd-d41b9fa55920.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQIABP/EABwQAAICAwEBAAAAAAAAAAAAAAABESECEjEDQf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/AGDo4QwFhQVSRApBUUCHgpGUXZKuYpAhlJW4A5d2Vmjdha27BdZ+2XyiRqoeTfSo/9k=",
-    "title": "Snow-capped mountain",
+    "title": "Ghorepani",
     "when": "November 1st, 2019"
   },
   {
@@ -453,12 +413,10 @@ const data = [
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "Blanket of fog rolled in after leaving Ghorepani, bound for Chomrong"
-    ],
+    "notes": [],
     "src": "2019/10/19/44725bb3-f011-4e1d-a3bb-06d8fa52e578.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAwQAAQIF/8QAHxAAAgIDAAIDAAAAAAAAAAAAAREAAgMSIQRRE3Gx/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwBjJdcBgVS/OwCQIQ4CXkWGyD57gaDI7+yCt0YDFMgXTKCAghiBz8wG5RB+oGd1xSCmzKGcVXiL76kUH5bVKBlQO5ZcD//Z",
-    "title": "Cloudy path",
+    "title": "Deurali Pass",
     "when": "November 1st, 2019"
   },
   {
@@ -475,12 +433,10 @@ const data = [
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "Nearing the end of the first day on the ABC trek, passed through many forests and up-and-down river valley walls"
-    ],
+    "notes": [],
     "src": "2019/10/19/749868e9-5d1a-407c-aa24-d2d5741b3c15.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAQID/8QAHBAAAwADAQEBAAAAAAAAAAAAAAECESExAxJx/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwC5trQFz6LOQH7QD9S+4AFUrjRUYOk1ts5tlOXxlqHOdLpqpEO8FRL9GRQYaC0wjSO/hRlVZplEUB//2Q==",
-    "title": "Approaching Chomrong",
+    "title": "Kyumrung Khola",
     "when": "November 1st, 2019"
   },
   {
@@ -497,12 +453,10 @@ const data = [
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "Viewing the path through and into the mountains"
-    ],
+    "notes": [],
     "src": "2019/10/19/e0c0fe7a-065c-449e-9335-669b28fc8a33.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAQACAwX/xAAdEAACAgIDAQAAAAAAAAAAAAAAAQIRAzESFCFB/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwA7Mr0gNseSM15v6gL8VVkUXBbaQA8uNLYHPsBUnF2nTKjV55SXrAq5tlQciKzIqWApgSwiWUf/2Q==",
-    "title": "Morning in Chomrong",
+    "title": "Chomrong",
     "when": "November 2nd, 2019"
   },
   {
@@ -519,12 +473,10 @@ const data = [
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "Making my way towards my stop for the night at a village called Deurali"
-    ],
+    "notes": [],
     "src": "2019/10/19/a052d193-0be9-4288-b017-65d459c3eca1.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDAv/EACAQAAICAQMFAAAAAAAAAAAAAAABAhExAyFBEiJRcaH/xAAXAQEBAQEAAAAAAAAAAAAAAAABAgAD/8QAGBEBAAMBAAAAAAAAAAAAAAAAAAECEhH/2gAMAwEAAhEDEQA/AIp9LsusdryiHI4ycWmnjgYkWr1veqt0Nqk5Paii1ISjaUV5Ia+opbL4VpGEm7dsBAQ6ttmlhOk/YATBJxoywAWIAAwf/9k=",
-    "title": "Mountain valley pass",
+    "title": "Deurali",
     "when": "November 2nd, 2019"
   },
   {
@@ -541,12 +493,10 @@ const data = [
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "Transitioning from trees and green to tans and schrubs with pure white in the distance"
-    ],
+    "notes": [],
     "src": "2019/10/19/3dc0234b-c92e-4a61-bce5-bd922ddaa9bf.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAgABA//EACIQAQACAQMEAwEAAAAAAAAAAAEAAhESMUEDIWFxIkKRUf/EABcBAQEBAQAAAAAAAAAAAAAAAAEAAgP/xAAYEQEBAQEBAAAAAAAAAAAAAAAAARECEv/aAAwDAQACEQMRAD8AGaY3SPqi8QtFUEsPg3ZrWMHSNtwil6O4ZPcglmp8TblmLXTnnD0VM4D9mW0CpwuPMpcFmrLdL7B+R9Dyz6qPaiY/sr0pyD2PPqGtY0slN1YEdZbBpxBFYo8MkJUbYIobb45kH//Z",
-    "title": "Approaching basecamp",
+    "title": "Machhapuchare Basecamp",
     "when": "November 3rd, 2019"
   },
   {
@@ -563,9 +513,7 @@ const data = [
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "Arrival at basecamp for Annapurna I, surrounded by clouds and pure-white snow"
-    ],
+    "notes": [],
     "src": "2019/10/19/3773c3c4-265f-4e7e-8f0a-d6e1a7d9b85c.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBA//EACIQAAIBAwQCAwAAAAAAAAAAAAABAgMRIRIxQVEEE3GBsf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABgRAQEBAQEAAAAAAAAAAAAAAAABEQIS/9oADAMBAAIRAxEAPwC1CKxNWfBDpSXBClVWLux0jUmt3c1tY8wdJ8Grx3y18Fe5byWTJVUs3+kTas5iZ0bZjt+AidWVTGy6BZaXmJ1WDbAIuKV30Y9Ns9gAVpSAAH//2Q==",
     "title": "Annapurna Basecamp",
@@ -585,12 +533,10 @@ const data = [
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "Sunrise on the ABC at basecamp before beginning the long hike down to Chomrong, a drop of nearly 6,000 ft"
-    ],
+    "notes": [],
     "src": "2019/10/19/488cfa64-0b33-4af3-a127-e0f3cae7175e.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgABBP/EACEQAAEEAQMFAAAAAAAAAAAAAAABAgMREiEicTFBQlFh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8AeJRUFVAWIFiBqzRJ5XwEJr43JeSJyRaDpo29LcIUGz7t6Jj87ApyStam1bVfQK4rCNy1KHegGXoBqrQH/9k=",
-    "title": "Pink skies",
+    "title": "Machhapuchare",
     "when": "November 4th, 2019"
   },
   {
@@ -607,12 +553,10 @@ const data = [
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "Walking through the shoulders of giants"
-    ],
+    "notes": [],
     "src": "2019/10/19/490d1db6-aaad-4ed3-9181-081ca318cd16.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAEEAwL/xAAfEAACAgICAwEAAAAAAAAAAAAAAQIRAxIxQSEiUZH/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQID/8QAGREBAQADAQAAAAAAAAAAAAAAAAECERIh/9oADAMBAAIRAxEAPwCRy7L4W0+zMiqVfSpU5Y7aKJR5hmV+ytdnesbjtGVldRHFc0vHALOWuJy/AZX27bSczTJZeQBgLCejbq2ABJKUpctsAAb/2Q==",
-    "title": "Returning to Chomrong",
+    "title": "Upper Sinuwa",
     "when": "November 4th, 2019"
   },
   {
@@ -629,12 +573,10 @@ const data = [
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "Morning on the last day of the trek, view of Fishtail mountain (Machhapuchhre) from Chomrong"
-    ],
+    "notes": [],
     "src": "2019/10/19/6bd7587b-78d3-4488-93b5-2694227dd792.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAgABAwT/xAAfEAEAAQQBBQAAAAAAAAAAAAABAAIDESESBBMxYXH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ANcSogQEEBBIqwgZhKhBAHeoHbqRSL1vGeRAp6m2OsvyBzF+pp9wDVdqfKygcpBWYEzA/9k=",
-    "title": "Fishtail mountain sunrise",
+    "title": "Chomrong",
     "when": "November 5th, 2019"
   },
   {
@@ -642,21 +584,19 @@ const data = [
     "category": "Basecamps",
     "collectionId": "annapurna-basecamp",
     "elevation": {
-      "imperial": "5,360",
-      "metric": "1,634"
+      "imperial": "7,063",
+      "metric": "2,153"
     },
-    "id": "842ce237-9e28-46f4-adef-33f0174706cf.jpeg",
+    "id": "f2839e21-063b-4215-be8e-0641741cf2c5.jpeg",
     "location": {
       "region": "Kaski District",
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "One last mega-suspension bridge before hitching a ride back to Pokhara"
-    ],
-    "src": "2019/10/19/842ce237-9e28-46f4-adef-33f0174706cf.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAgMAAQT/xAAeEAEAAgEFAQEAAAAAAAAAAAABAAISAxEhMUEiUf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AM6j2MijmsqMO/sUhDApV8geRtzIrm+xAY4gvsBlWA6W2Be2BI0cveWA3SNNqP1b98JBLFu98r7KFTKtrV36gWXLuRX/2Q==",
-    "title": "Returning to civilization",
+    "notes": [],
+    "src": "2019/10/19/f2839e21-063b-4215-be8e-0641741cf2c5.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEEAgP/xAAgEAACAgEEAwEAAAAAAAAAAAAAAQIREgMxUXETIUFC/8QAFwEBAQEBAAAAAAAAAAAAAAAAAQIAA//EABkRAQEBAQEBAAAAAAAAAAAAAAABEQISE//aAAwDAQACEQMRAD8A6PTfB01xvJYdG0eaWDHWyngGtOaMUt2HqL+dT+SfNkrwLU9iHTKlaYacbV429ybVSCKcuiaUjbLSSFlGlGo5bk2mRv8ANv6Qo3Fyd3XRtZ//2Q==",
+    "title": "Sinwai",
     "when": "November 5th, 2019"
   },
   {
@@ -673,12 +613,10 @@ const data = [
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "Beginning the Annapurna Circuit trek, and already lost"
-    ],
+    "notes": [],
     "src": "2019/10/19/672dcde8-57ae-4bf9-885f-ae039d3a824d.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgABA//EAB8QAAIBBAMBAQAAAAAAAAAAAAABAgMREiETMVEyQf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABcRAQEBAQAAAAAAAAAAAAAAAAARARL/2gAMAwEAAhEDEQA/AGqrb0yocavqAWcfUFB1oJ6kAJV7/KsRHFQfaTRmqWM99iicZNF6xB45+DrFbxytf98FwLJpmAsiCbuBkpNLZYLO4g//2Q==",
-    "title": "Neon-green fields",
+    "title": "Besishahar",
     "when": "October 19th, 2019"
   },
   {
@@ -695,12 +633,10 @@ const data = [
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "Finding our way back to the circuit"
-    ],
+    "notes": [],
     "src": "2019/10/19/1f9fe719-6e29-45de-a648-46f1001f24b7.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAQQAAgMF/8QAHxABAAMAAQQDAAAAAAAAAAAAAQACEQMSIVFxBCIx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFxEBAQEBAAAAAAAAAAAAAAAAABEBEv/aAAwDAQACEQMRAD8AYay1Ir0qy1mKtL9eBp5inIYglgCKQkjsy26LyHiBS3L6IQa3fZAz+TyfQD9Y1SrqSKcHQYqMr022jkm6qV07bJSBy9zvrkpGDKP/2Q==",
-    "title": "Village artwork",
+    "title": "Gandaki",
     "when": "October 19th, 2019"
   },
   {
@@ -717,12 +653,10 @@ const data = [
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "Finding a place to sleep for the night"
-    ],
+    "notes": [],
     "src": "2019/10/19/4302a350-be49-4007-88d4-15840fb16191.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQIDAP/EACEQAAICAQQCAwAAAAAAAAAAAAERAAIhAxIxcROhQVFh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AEqRsIPYMyohWptSPLgKLbbFtShrFJPPqKg1JrzCpEHqA+n7ga2nkHOYGNSME8wB8I8CBa2m6p94kVI28d0mCJQxsNpP5CJ7herIWYFLAIfUD//Z",
-    "title": "Entering a village",
+    "title": "Bhulbule",
     "when": "October 19th, 2019"
   },
   {
@@ -739,12 +673,10 @@ const data = [
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "Bound for Jagat village"
-    ],
+    "notes": [],
     "src": "2019/10/19/cde86c7c-f794-4a99-8286-9af3de9425fc.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMCAQT/xAAfEAACAgEFAQEAAAAAAAAAAAAAAQIREgMhIjFBYYH/xAAXAQEBAQEAAAAAAAAAAAAAAAABAgAD/8QAGBEBAQEBAQAAAAAAAAAAAAAAAAEREjH/2gAMAwEAAhEDEQA/AKrU+2azR5It3syqnb3NqV7VWZz+E78f4cbHYyubBCTk3S6BPUJhHjXo1cYvoA5T0uRd1t2aXFMAoNZJeAAML//Z",
-    "title": "Lush jungle",
+    "title": "Jagat",
     "when": "October 20th, 2019"
   },
   {
@@ -752,21 +684,19 @@ const data = [
     "category": "Backpacking",
     "collectionId": "annapurna-circuit",
     "elevation": {
-      "imperial": "4,417",
-      "metric": "1,346"
+      "imperial": "5,513",
+      "metric": "1,680"
     },
-    "id": "3d1edec3-da4d-4c6a-8f04-f4e7dcbcaaf9.jpeg",
+    "id": "b6e3c5eb-82d1-4663-97ce-26a3c2fbec82.jpeg",
     "location": {
       "region": "Manang District",
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "First of many waterfalls"
-    ],
-    "src": "2019/10/19/3d1edec3-da4d-4c6a-8f04-f4e7dcbcaaf9.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECA//EACEQAAICAgICAwEAAAAAAAAAAAECABEDMRIhQVEiYXGB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AMwTfJNjxI01bKAoJ8yBOwA7A3UsRPFh2osSCG+L9/yUXkPF1J2d/ckBnC8ARuIpGmwG9rQliDG9AevUBO3div2BbLSqdgHq5A8mPmvqAlxkI6sbvU1ErEqVXuu5FF14gf/Z",
-    "title": "Waterfall",
+    "notes": [],
+    "src": "2019/10/19/b6e3c5eb-82d1-4663-97ce-26a3c2fbec82.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgABA//EACIQAAICAQQBBQAAAAAAAAAAAAABAhEhAwQSQTEyUWGBkf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAZEQEBAQEBAQAAAAAAAAAAAAAAARECIUH/2gAMAwEAAhEDEQA/ANi6JKWanJnWONtnglZKK79jN6x0nF+jNtq+2ca7JMBRlFepWanWMXmVuLtKkW9aTmQZvpGLWwnmNY+QOi0K8SZcQlt288hgUdFrHJfgwS0Kdt39DBzlt2rcZeRiv//Z",
+    "title": "Dharapani",
     "when": "October 21st, 2019"
   },
   {
@@ -774,22 +704,20 @@ const data = [
     "category": "Backpacking",
     "collectionId": "annapurna-circuit",
     "elevation": {
-      "imperial": "7,547",
-      "metric": "2,300"
+      "imperial": "8,796",
+      "metric": "2,681"
     },
-    "id": "8579387b-fea3-4524-a281-0926aac361e1.jpeg",
+    "id": "9c026234-acb8-4549-9f31-b6aa59c02772.jpeg",
     "location": {
       "region": "Manang District",
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "Gaining elevation, passing a series of waterfalls on our way to Chame"
-    ],
-    "src": "2019/10/19/8579387b-fea3-4524-a281-0926aac361e1.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgT/xAAiEAEAAQQCAgIDAAAAAAAAAAABAgAREiEDURMxQXGBkaH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/AMRhKZkGrfNRQ8E7ZB/aoTDkG+Ddoh+LlC+K1AEMbkmz1RV3cJPeq0yFfwFAuS7g/fqgpdIx+t0HPz7R93Ki4siDb3SkR5JSIi7ZfqoojJyDvdCKyZeO2jfVWpCi5R3EpSP/2Q==",
-    "title": "Waterfalls",
-    "when": "October 22nd, 2019"
+    "notes": [],
+    "src": "2019/10/19/9c026234-acb8-4549-9f31-b6aa59c02772.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAgADBAH/xAAeEAACAgMBAAMAAAAAAAAAAAAAAQIRAyFBMRIyYv/EABcBAQEBAQAAAAAAAAAAAAAAAAEAAgP/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/ADhzuMql9STUpJq14Icc0S0JTscGjt+kGVO0+WYdF2HKkvhJ64alZsW3F9EYM2ktMLTIK/TM61jLdCkvZJdjlaotGH7roEmBf//Z",
+    "title": "Chame",
+    "when": "October 21st, 2019"
   },
   {
     "camera": "iPhone X",
@@ -805,12 +733,10 @@ const data = [
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "Reaching Upper Pisang, and our place of rest for the night"
-    ],
+    "notes": [],
     "src": "2019/10/19/91fcb255-9894-434c-9c39-41ea5070e819.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAjEAACAgEDAwUAAAAAAAAAAAAAAQIRMQMhQRITYQRRcYGR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFxEBAQEBAAAAAAAAAAAAAAAAAAEREv/aAAwDAQACEQMRAD8Al674I7kvfYheTRQTHRhdxvnBWnLrkot5wxS02laIalF+c2WjmOuOhUk3uBmvV2lap8gWmSRnFK9o/pSpOnn4ADLRqVukNtOSAARzXVsuPoAAC//Z",
-    "title": "Mountain-based village",
+    "title": "Upper Pisang",
     "when": "October 23rd, 2019"
   },
   {
@@ -827,12 +753,10 @@ const data = [
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "Making our way to the Village of Manang, and a much needed zero the next day"
-    ],
+    "notes": [],
     "src": "2019/10/19/a5f1d4b0-a6a8-453a-bd24-647a0bc6545f.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQADAv/EACAQAAICAQMFAAAAAAAAAAAAAAABAhESMUFREyEiMoH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAGhEBAAMBAQEAAAAAAAAAAAAAAAEREhNhAv/aAAwDAQACEQMRAD8AwxOjnaxFFrEUWcSpZxBbTArFilyZ1DefqT4mdtc/SnCu93yNyuISxelv4Npz9Ki5e0m0Yt0pKCbarQinprYAcEgO4qtkB//Z",
-    "title": "Village on plateau",
+    "title": "Nar",
     "when": "October 24th, 2019"
   },
   {
@@ -849,12 +773,10 @@ const data = [
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "Halfway to Manang before dropping down in elevation to 11,000 ft"
-    ],
+    "notes": [],
     "src": "2019/10/19/ef85d604-a95e-4094-baae-83bfa8464980.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgMBAP/EACAQAAICAQQDAQAAAAAAAAAAAAERAAIDITFRgRJBYaH/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAQIDBP/EABkRAQEBAQEBAAAAAAAAAAAAAAABERIhAv/aAAwDAQACEQMRAD8AZE6OFFOXUy1ntRpldKMUBDKzqOpz11wTlJO3UAg2F3zMy+t2eGbkjnqa1i/OuFqndiXpnhLzZYCE5PQvjqLVJ/YRDK8ZC35lFsaIRT+SDbU0Tgf/2Q==",
-    "title": "Stuppa",
+    "title": "Manang",
     "when": "October 24th, 2019"
   },
   {
@@ -871,12 +793,10 @@ const data = [
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "Reaching new heights on a side trek after taking a rest day in Manang"
-    ],
+    "notes": [],
     "src": "2019/10/19/b9b20eb0-e569-4778-99c6-de3a3c2eb15e.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECA//EACMQAAIBAwIHAQAAAAAAAAAAAAABEQISIQMTMUFRUmFxocH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAgED/8QAFxEBAQEBAAAAAAAAAAAAAAAAABIBEf/aAAwDAQACEQMRAD8A3BM9Dmtavnpz8LuTl01J+i+ucjEGr3E8fDRKq5af4KZDMA1uLsYFY2NS4t2QCVrcR1AALgAB/9k=",
-    "title": "Ice lake",
+    "title": "Kicho Tal",
     "when": "October 25th, 2019"
   },
   {
@@ -893,12 +813,10 @@ const data = [
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "View of Annapurna I, II, and III on our way back to Manang from Ice Lake"
-    ],
+    "notes": [],
     "src": "2019/10/19/8e6f1186-0022-490e-9a78-1e010c478e7c.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAQACAwT/xAAhEAABBAEEAwEAAAAAAAAAAAABAAIRIUEDEjFREyJhgf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAYEQEBAQEBAAAAAAAAAAAAAAAAERIBAv/aAAwDAQACEQMRAD8AhqYcbWmUHAU6FaznhlkxKVO+eNbB2rowtg7TRjryjKw6OjRu9XcjgpSCDMAJSN2wXXaVYAZ5JhSrC7RjNKVYTptLzU/qVIfJGFFEF4B+pQEEiKpB/9k=",
-    "title": "Mighty glacier",
+    "title": "Annapurna I",
     "when": "October 25th, 2019"
   },
   {
@@ -909,18 +827,16 @@ const data = [
       "imperial": "13,542",
       "metric": "4,127"
     },
-    "id": "4fc862a6-93fc-4196-9293-2e03e1ae9d0e.jpeg",
+    "id": "53ffc0cc-94d0-4a89-a820-fcce46e3599f.jpeg",
     "location": {
       "region": "Manang District",
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "Heading towards Tilicho Lake basecamp, another side trek not part of the main circuit"
-    ],
-    "src": "2019/10/19/4fc862a6-93fc-4196-9293-2e03e1ae9d0e.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAgABAwT/xAAgEAABAwMFAQAAAAAAAAAAAAABAAIRAyExEhNBUXEi/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwAbruR4g6isOYVpGOrfMBKQBUcLyUIFRxe4eZWdXMEmLHIVEHoNALsYQIjS2Dk4UEGOfYWHaAk6hJQTWgkSEHojQBGUFtS6XmeggRsg/9k=",
-    "title": "Steep mountain-side trail",
+    "notes": [],
+    "src": "2019/10/19/53ffc0cc-94d0-4a89-a820-fcce46e3599f.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQIAA//EACIQAAICAgIABwAAAAAAAAAAAAECABESITFBAxMiMlFh0f/EABcBAQEBAQAAAAAAAAAAAAAAAAEAAwL/xAAYEQEBAQEBAAAAAAAAAAAAAAAAAQISEf/aAAwDAQACEQMRAD8AcbmnUY8UYx6g5sIQmF1IZm1nVQLF/s5mq0uIAu43U8cTF9Jc42OJm3bzDegJJLu118fckxttHZ6kHVEwHqNwIsXwIhJo9cSKgqgjWz3BKNeGNDck5hnZvdUE/9k=",
+    "title": "Tilicho Lake Basecamp",
     "when": "October 26th, 2019"
   },
   {
@@ -931,17 +847,15 @@ const data = [
       "imperial": "16,465",
       "metric": "5,018"
     },
-    "id": "2a1bf139-680c-427a-833f-62ff563c5eca.jpeg",
+    "id": "fe3722c9-3002-49f8-a281-f8e36a240e0a.jpeg",
     "location": {
       "region": "Manang District",
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "Reaching Tilicho Lake after starting in the pre-dawn hours, and being rewarded with views of an avalanche"
-    ],
-    "src": "2019/10/19/2a1bf139-680c-427a-833f-62ff563c5eca.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgT/xAAjEAABAwMEAgMAAAAAAAAAAAABAAIRAxIhE0FRYSJxMZGx/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAIBA//EABkRAQEBAQEBAAAAAAAAAAAAAAABEQISMf/aAAwDAQACEQMRAD8AtmeljSdTY7L2j2t1mIVaFvk3LfxVKmzEoVJ0QhrstLWbn0uTqcXtDukDbNuZlBOpTaTLcHhVOkXnfiemeFexzytiq63P2uTueXiRCBgEjZAEEfMIMao4W+U+4//Z",
+    "notes": [],
+    "src": "2019/10/19/fe3722c9-3002-49f8-a281-f8e36a240e0a.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgT/xAAjEAABAwMEAgMAAAAAAAAAAAACAAERAxIhE0FRYSJxMZGx/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAIBA//EABkRAQEBAQEBAAAAAAAAAAAAAAABEQISMf/aAAwDAQACEQMRAD8AtmeljSKmBZMW9rdZiFWhb5DkfxVKmzEoVJ0QhrstcQ3f0uTqcXixdIGM25mUE6lMXeRw/CqdIvO/E9N+FexzyttUJhz9rk7nk2loQO142QDi7fMIMarcLfKfcf/Z",
     "title": "Tilicho Lake",
     "when": "October 27th, 2019"
   },
@@ -959,12 +873,10 @@ const data = [
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "Returning from Tilicho lake, bound for Khangsar"
-    ],
+    "notes": [],
     "src": "2019/10/19/ed197052-01d7-4739-807c-39340385c0fc.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAEDAv/EACQQAAIBAwMDBQAAAAAAAAAAAAABAhESIQMxUQQTQSIyQmGR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFxEBAQEBAAAAAAAAAAAAAAAAAAEREv/aAAwDAQACEQMRAD8AKUn83+h67jhSbKtO5Y3I+nxyy6nLK+55Zomt6nHYn4Re1KPhsaSOnP01TBnOEsNqleQNMa1XA3eG8fYBhtZTk1S5pmTlqwl71gAsSpdqT3aYAKP/2Q==",
-    "title": "Dust storms",
+    "title": "Tilicho Lake",
     "when": "October 27th, 2019"
   },
   {
@@ -981,12 +893,10 @@ const data = [
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "A solitary soul, heading to Phedi"
-    ],
+    "notes": [],
     "src": "2019/10/19/d7837a44-81d2-4fa0-9912-bb15508be721.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgADAf/EACIQAAICAQMEAwAAAAAAAAAAAAABAhEhAxJhEzFBUXGRof/EABYBAQEBAAAAAAAAAAAAAAAAAAIBAP/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwDVz5YN0PNAcuA/IqMaynCsfgdzbx2A5JBU6JVjVykld4I4rp2RKUPpR5+wS01T23a9kQaUcei2sSQYwa9WRGQ0myIjM//Z",
-    "title": "Lone yak",
+    "title": "Shree Kharka",
     "when": "October 28th, 2019"
   },
   {
@@ -1003,12 +913,10 @@ const data = [
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "Point of no return, bound for Phedi and the highest point on the trek at Thorong La Pass"
-    ],
+    "notes": [],
     "src": "2019/10/19/40b7a029-2f0c-4807-94fa-86a07ee9ffa9.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCAf/EACIQAAICAQMEAwAAAAAAAAAAAAABAhExEiFRAxMicVKBkf/EABcBAAMBAAAAAAAAAAAAAAAAAAABAgP/xAAYEQEBAQEBAAAAAAAAAAAAAAAAEQECEv/aAAwDAQACEQMRAD8A7ofB1RZiM5L0U7kq2r8LrPzGsRql7OXl2Rc38rMSlbpt/YjlUl1EsbgiqAU85aUqplUtSdPKAJWjJ8LBOW+QALG0vBMAAH//2Q==",
-    "title": "Overlooking Manang",
+    "title": "Upper Manang",
     "when": "October 28th, 2019"
   },
   {
@@ -1025,9 +933,7 @@ const data = [
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "The highest elevation I've ever reached by foot, and the highest point on the trek"
-    ],
+    "notes": [],
     "src": "2019/10/19/f76cbaab-0139-44b4-bc5c-6c816731d927.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAEDBAL/xAAgEAACAgICAgMAAAAAAAAAAAAAAQIRIVEDEkFhBDGR/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDR0WiajrJkXK/ZKnG77OwNGdP9JwvDKF8iX1hrbZ1HkcmBZcX5BXJ9nmVbSAGYNrWQCKiWH7ITeQCixJ0roAEV/9k=",
     "title": "Thorong-la Pass",
@@ -1047,9 +953,7 @@ const data = [
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "Our place of rest for the night after descending over 5,000 ft"
-    ],
+    "notes": [],
     "src": "2019/10/19/31cfb5dc-44b7-4ab5-b216-1ec2efa7b7b3.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQMAAv/EAB8QAQADAAIBBQAAAAAAAAAAAAEAAhEhURIDMUFhkf/EABYBAQEBAAAAAAAAAAAAAAAAAAABA//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwCp6oyihaqbsgC1e5UFr17gTWvxKkRDrP2ZtDqS0by44iodxikdCPUUiZdzEM+iRSG8wNavjAanGq5AWp7kK//Z",
     "title": "Muktinath",
@@ -1069,12 +973,10 @@ const data = [
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "Bound for Marpha as the Annapurna Circuit starts to come to an end"
-    ],
+    "notes": [],
     "src": "2019/10/19/93b7286f-a87a-4d8e-8d85-6a3f50dcd82c.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIBBAP/xAAcEAEBAAIDAQEAAAAAAAAAAAAAAQISESFBMWH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAERL/2gAMAwEAAhEDEQA/APbeG048cu9y+txtl6Gjl1XqeM2/EY5T2cK6NEVtBFlBTHNFzHkGWlQl8BJttgCT/9k=",
-    "title": "Dirt-brown mountain views",
+    "title": "Marpha",
     "when": "October 30th, 2019"
   },
   {
@@ -1091,12 +993,10 @@ const data = [
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "Second to last day on the circuit, heading towards Ghasa"
-    ],
+    "notes": [],
     "src": "2019/10/19/9f9bca6e-e30a-4ca0-b005-5a0bda57f649.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBA//EACIQAAICAQMEAwAAAAAAAAAAAAABAhEDEiExBBNBcVFhkf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABcRAQEBAQAAAAAAAAAAAAAAAAABEgL/2gAMAwEAAhEDEQA/AKjDHLhiWFWtLVV8nCLp2Vr3GjMV2pfRbxJJW6fkzXS5dma23x+jSTiL7cK837BLlL0Caq5hHA2rlJX4o1dOmt3uARpssNK3LgPE4ptSAA56nF7u96ABB//Z",
-    "title": "All the biomes",
+    "title": "Ghasa",
     "when": "October 31st, 2019"
   },
   {
@@ -1113,12 +1013,10 @@ const data = [
       "country": "Nepal",
       "continent": "Asia"
     },
-    "notes": [
-      "A rough day with lots of descent and ascent, and nearly being taken out by hypothermia at the end of the day. Thankfully a group of Iranian hikers came to my aid and nursed me back to full strength."
-    ],
+    "notes": [],
     "src": "2019/10/19/5cf22091-8d99-4cdd-870c-f91db81c1049.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAIDBAEF/8QAHhAAAgICAgMAAAAAAAAAAAAAAAECIQMRBDESQVH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8AYM7T1J0avJfTy1Jotx8hxpgb6ONFMcikjrnr2BOl2DPLIAKNbp2woPfdAGWk411RJyerQBKINgAo/9k=",
-    "title": "Down and up to Ghorepani",
+    "title": "Ghorepani",
     "when": "November 1st, 2019"
   },
   {
@@ -1771,7 +1669,7 @@ const data = [
     },
     "id": "a7519e17-dc25-46cc-b8c7-8b293684b8ef.jpeg",
     "location": {
-      "region": "Porto-Vecchio, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
@@ -1791,7 +1689,7 @@ const data = [
     },
     "id": "4901532f-a283-4e4c-a93e-1b9cc3f9b13e.jpeg",
     "location": {
-      "region": "Ajaccio, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
@@ -1811,7 +1709,7 @@ const data = [
     },
     "id": "be1ca955-b984-4cde-bf12-cee1851017a2.jpeg",
     "location": {
-      "region": "Ajaccio, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
@@ -1831,14 +1729,14 @@ const data = [
     },
     "id": "7cace07e-0974-40d4-8356-019ef68594a9.jpeg",
     "location": {
-      "region": "Ajaccio, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
     "notes": [],
     "src": "2023/07/05/7cace07e-0974-40d4-8356-019ef68594a9.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAQAC/8QAGxAAAgIDAQAAAAAAAAAAAAAAABEBAiExURL/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8ARWYhSAUgRakKFIXBitwLopBWstySrFbeC0iaFIcRFd8MqQM2bwBoC8hX/9k=",
-    "title": "Urban beach",
+    "title": "Ajaccio beach",
     "when": "July 7th, 2023"
   },
   {
@@ -1851,14 +1749,14 @@ const data = [
     },
     "id": "ffe50b6e-cd5d-44a8-9cac-3f2b2c9f365e.jpeg",
     "location": {
-      "region": "Ajaccio, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
     "notes": [],
     "src": "2023/07/05/ffe50b6e-cd5d-44a8-9cac-3f2b2c9f365e.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDBAH/xAAgEAACAgICAgMAAAAAAAAAAAABEQACAyESMQQTUXGh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwAz5DUIFMTMapMGQiy/JWWsEJvU0mJg6JCMy0UniBXb7+4GfySeY+FJFqde3KihyXvhIJ04HK3tXGQ1uBXxbMWcCNuVuzCgUJHYhFBQIiAcUN9QGxV9dyujA//Z",
-    "title": "Urban beach",
+    "title": "Ajaccio",
     "when": "July 8th, 2023"
   },
   {
@@ -1875,12 +1773,10 @@ const data = [
       "country": "Egypt",
       "continent": "Africa"
     },
-    "notes": [
-      "Spent one night at this hotel in order to visit the Pyramids and Sphinx"
-    ],
+    "notes": [],
     "src": "2022/12/28/b645dadb-e6b9-41ef-a797-8ea11c0de22c.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgEE/8QAGRABAQEBAQEAAAAAAAAAAAAAAQATEQJB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/ANKRBSUgpUiJKkFJSNDZbH0wHsE7BGAPpPsE1YDowTRgmvYP/9k=",
-    "title": "View from hotel rooftop",
+    "title": "Pyramids of Giza",
     "when": "December 29th, 2022"
   },
   {
@@ -1897,12 +1793,10 @@ const data = [
       "country": "Egypt",
       "continent": "Africa"
     },
-    "notes": [
-      "Once on the plateau you're free to roam"
-    ],
+    "notes": [],
     "src": "2022/12/28/4a450c11-fa71-4501-83de-95cf248aeecc.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMCAQT/xAAcEAEBAQEAAgMAAAAAAAAAAAAAARECITESUVL/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAP/xAAYEQEAAwEAAAAAAAAAAAAAAAAAAQIREv/aAAwDAQACEQMRAD8Alh8VPDXPG+b6OjlG82e57MemyWZYneMEWM1SwbwOjF85/Md2QGTQ2OUEWbJ9QBJ//9k=",
-    "title": "The Pyramids",
+    "title": "Pyramid of Menkaure",
     "when": "December 29th, 2022"
   },
   {
@@ -1919,12 +1813,10 @@ const data = [
       "country": "Egypt",
       "continent": "Africa"
     },
-    "notes": [
-      "Our view before entering the pyramid"
-    ],
+    "notes": [],
     "src": "2022/12/28/20b4a5e3-bdde-4eee-a650-46a368ab6767.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwIEAf/EAB8QAAICAgIDAQAAAAAAAAAAAAECABEDISIxEhOBkf/EABcBAQEBAQAAAAAAAAAAAAAAAAECAAP/xAAYEQEBAQEBAAAAAAAAAAAAAAAAARESAv/aAAwDAQACEQMRAD8A1MLmFCV3KSNmUGifsOoebjhWUjHKiGwkAWTOTszu7OeI1C1UgmxkAk9QKUyFdHYlypvnTqAwtTYjqORHKzNRN/JDoUBgq7H5AiJ4MMnd9xCBhd9rVTMr1ZMdC68jV3Mz/9k=",
-    "title": "Base of the Great Pyramid",
+    "title": "Pyramid of Khafre",
     "when": "December 29th, 2022"
   },
   {
@@ -2041,9 +1933,7 @@ const data = [
       "country": "Egypt",
       "continent": "Africa"
     },
-    "notes": [
-      "After spending a night in Giza we headed to Cairo for museums and bazaars"
-    ],
+    "notes": [],
     "src": "2022/12/28/0826806c-c673-49a1-a9ae-79cfa77633e4.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgEE/8QAHBAAAwEAAgMAAAAAAAAAAAAAAAECAxFREyFB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABES/9oADAMBAAIRAxEAPwDS0AXIpAcikByWpAciplq8kv6YbR6IAPSQA9J7KA9J7AKtkEunIAd+wI65KDyB/9k=",
     "title": "Tower of Cairo",
@@ -2063,9 +1953,7 @@ const data = [
       "country": "Egypt",
       "continent": "Africa"
     },
-    "notes": [
-      "Luxor occupied the second half of our time in Egypt"
-    ],
+    "notes": [],
     "src": "2022/12/28/4613d11e-789b-4962-a169-f5057946ecd6.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAQIDAAT/xAAgEAEAAQUAAQUAAAAAAAAAAAABAAIDESExcRIiQVFh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFxEBAQEBAAAAAAAAAAAAAAAAABEBEv/aAAwDAQACEQMRAD8AcRxs3M1qGxFIOIpGkqxlAyuJKRw01fK7OTcQ5euD3PmSFOXqvTyTlaVvVbTviXnEqdVxrfcxmQoH5Kgm9sChyBNgBfuB/9k=",
     "title": "Sphinx avenue",
@@ -2308,7 +2196,7 @@ const data = [
     "notes": [],
     "src": "2022/12/28/9799718c-81f7-460d-9f0a-7ddd2dffb060.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIDAQT/xAAfEAACAgICAwEAAAAAAAAAAAAAAQIRAyEScRMxQTP/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQMC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABES/9oADAMBAAIRAxEAPwDXLNY2rvZHkg/tdmeeSlk07SRmKZehU3ppkrcUyMM1Ge/pNtSaTa2NJlpQGOXJO/aB1UjCT2cb2wDNoRb5rs7l/SXYBRcX48tXYAIP/9k=",
-    "title": "Temple Exterior",
+    "title": "Luxor Temple",
     "when": "January 3rd, 2023"
   },
   {
@@ -2328,7 +2216,7 @@ const data = [
     "notes": [],
     "src": "2022/12/28/63dd5017-e9f2-4def-8aa6-2f97f2803ed4.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIBAwT/xAAmEAACAgECAwkAAAAAAAAAAAAAAQIRAyFREkFhIiMxM0JSgYKh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AJ9LW6KSqNGTfYdboxPTXcw2rI+6vmMfhJdWvwZfI+xONJybfuQ0SPOtEDpOKVoEl8WnyLclQBJU1eLh62IW26pLQAC453WWS5WADQf/2Q==",
-    "title": "Interior columns",
+    "title": "Luxor Temple",
     "when": "January 3rd, 2023"
   },
   {
@@ -2348,7 +2236,27 @@ const data = [
     "notes": [],
     "src": "2022/12/28/7f2020f6-ccd2-4f4a-98a1-44abd2df6911.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBA//EACEQAAICAgIBBQAAAAAAAAAAAAABAhESITFBgQMiUXGR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgEA/8QAFxEBAQEBAAAAAAAAAAAAAAAAAAERAv/aAAwDAQACEQMRAD8Ai2lSembHj9Ik6SKi9eGEnXiJPkrJP0q7OOe6otupzMjX89Ah2AkybevotJuMUu0wCo3GcFbaaOeXusAzK5AASf/Z",
-    "title": "Obelisk",
+    "title": "Karnak Temple",
+    "when": "January 3rd, 2023"
+  },
+  {
+    "camera": "iPhone 13 Pro",
+    "category": "Destinations",
+    "collectionId": "cairo-and-luxor",
+    "elevation": {
+      "imperial": "278",
+      "metric": "85"
+    },
+    "id": "caff8a45-5173-48cd-aa9c-a8cce3489b60.jpeg",
+    "location": {
+      "region": "Karnak Temple",
+      "country": "Egypt",
+      "continent": "Africa"
+    },
+    "notes": [],
+    "src": "2022/12/28/caff8a45-5173-48cd-aa9c-a8cce3489b60.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAgABAwT/xAAfEAACAQQCAwAAAAAAAAAAAAAAARECAyExEkEicYH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwC8zL0ZaJaYCrim3jpAcscmURzpEVrycBD1SRRqqm25fQGSKLwiKlLllRo34+kQB5t/ACBAr//Z",
+    "title": "Hypostyle Hall",
     "when": "January 3rd, 2023"
   },
   {
@@ -2376,28 +2284,6 @@ const data = [
     "category": "Destinations",
     "collectionId": "cairo-and-luxor",
     "elevation": {
-      "imperial": "278",
-      "metric": "85"
-    },
-    "id": "caff8a45-5173-48cd-aa9c-a8cce3489b60.jpeg",
-    "location": {
-      "region": "Karnak Temple",
-      "country": "Egypt",
-      "continent": "Africa"
-    },
-    "notes": [
-      "The scale of the scaffolding against the columns"
-    ],
-    "src": "2022/12/28/caff8a45-5173-48cd-aa9c-a8cce3489b60.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAgABAwT/xAAfEAACAQQCAwAAAAAAAAAAAAAAARECAyExEkEicYH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwC8zL0ZaJaYCrim3jpAcscmURzpEVrycBD1SRRqqm25fQGSKLwiKlLllRo34+kQB5t/ACBAr//Z",
-    "title": "Columns",
-    "when": "January 3rd, 2023"
-  },
-  {
-    "camera": "iPhone 13 Pro",
-    "category": "Destinations",
-    "collectionId": "cairo-and-luxor",
-    "elevation": {
       "imperial": "254",
       "metric": "77"
     },
@@ -2407,12 +2293,10 @@ const data = [
       "country": "Egypt",
       "continent": "Africa"
     },
-    "notes": [
-      "Anticipation builds as we begin to board our hot air balloon ride of the valley of the kings/queens"
-    ],
+    "notes": [],
     "src": "2022/12/28/50f9c440-f59d-47ef-95ff-c9363820d1a9.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAQIEAAP/xAAfEAACAgIDAAMAAAAAAAAAAAAAAREhAgMSQVExcYH/xAAXAQEBAQEAAAAAAAAAAAAAAAACAQAD/8QAGhEBAQEAAwEAAAAAAAAAAAAAAAERAiExQf/aAAwDAQACEQMRAD8AjMx9duA104KNajTspTVkO+xPnVFg86QTmyM0PENQwmfHY+LXpMXdc2nIhyhBkNWKSi/Sel4GVNrosS9N1K+DL8dVgkrBaeDw/fsmtj//2Q==",
-    "title": "Roaring flames",
+    "title": "Hot air balloon ride",
     "when": "January 4th, 2023"
   },
   {
@@ -2457,6 +2341,26 @@ const data = [
   },
   {
     "camera": "iPhone 13 Pro",
+    "category": "Destinations",
+    "collectionId": "cairo-and-luxor",
+    "elevation": {
+      "imperial": "69",
+      "metric": "21"
+    },
+    "id": "a8f4fb49-5258-464a-8731-f4a95ae8e417.jpeg",
+    "location": {
+      "region": "Luxor",
+      "country": "Egypt",
+      "continent": "Africa"
+    },
+    "notes": [],
+    "src": "2022/12/28/a8f4fb49-5258-464a-8731-f4a95ae8e417.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQIAA//EACAQAAICAAYDAAAAAAAAAAAAAAABAhEDBBQhMVISMlH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAXEQEBAQEAAAAAAAAAAAAAAAAAEQES/9oADAMBAAIRAxEAPwDtQUigpjlJyTGiJc2NEHm/iKqHU7cGZrVwyzUa2QTTcTql0LkUPMLoPKqHjJv12KCtNQuopoUyheI43SXJISik3RJNCGpEn//Z",
+    "title": "Cairo Sunset",
+    "when": "January 5th, 2023"
+  },
+  {
+    "camera": "iPhone 13 Pro",
     "category": "Cities",
     "collectionId": "geneva",
     "elevation": {
@@ -2469,9 +2373,7 @@ const data = [
       "country": "Switzerland",
       "continent": "Europe"
     },
-    "notes": [
-      "An iconic water fountain, visible for miles"
-    ],
+    "notes": [],
     "src": "2024/07/24/f6f7470b-5e4e-42f7-aa59-ccabe81778bf.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBA//EACIQAAIBAgYDAQAAAAAAAAAAAAABEgIhAxETMWGRQVFSYv/EABYBAQEBAAAAAAAAAAAAAAAAAAADAv/EABcRAQEBAQAAAAAAAAAAAAAAAAASAQL/2gAMAwEAAhEDEQA/AKiZEalfldm6vtLs3SW8piIlan4ZsqvhX5FEaiIKddSeTpSfLArCNcpNtcDEbhsrvwASXbht12zaKb6AAPe+dvQAA//Z",
     "title": "Jet d'Eau",
@@ -2487,16 +2389,14 @@ const data = [
     },
     "id": "e19b87b3-ff48-499f-a225-3d4d608e9311.jpeg",
     "location": {
-      "region": "Cathédrale Saint-Pierre Genève",
+      "region": "Geneva",
       "country": "Switzerland",
       "continent": "Europe"
     },
-    "notes": [
-      "Exploring an old church"
-    ],
+    "notes": [],
     "src": "2024/07/24/e19b87b3-ff48-499f-a225-3d4d608e9311.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBAH/xAAiEAACAQQCAgMBAAAAAAAAAAAAAQIDEiExEUFRYQRx0fH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEQMRAD8Aywhc/R1xbTa0iadqtTy3sulHVOOPP0BZoQubXgTpuC5ZZw6NfGuvZP5GaSa7ZJmWwdjwnkCKla42yb3nBbCfd0+XvX4ADRVjdDlyk2srn+Fd91JJt8p+gCSvsACH/9k=",
-    "title": "Cathedral attic",
+    "title": "Cathédrale Saint-Pierre Genève",
     "when": "July 24th, 2024"
   },
   {
@@ -2509,14 +2409,14 @@ const data = [
     },
     "id": "e6b983b0-e92d-4db0-a731-723a3f996449.jpeg",
     "location": {
-      "region": "Cathédrale Saint-Pierre Genève",
+      "region": "Geneva",
       "country": "Switzerland",
       "continent": "Europe"
     },
     "notes": [],
     "src": "2024/07/24/e6b983b0-e92d-4db0-a731-723a3f996449.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAhEAABAwQCAwEAAAAAAAAAAAABAAIRAxIhUTFhIjJBgf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAwDAQACEQMRAD8A5IhBLpKasZkLNKIhyQHBREEmBklQbNoi0g87RTA02mx8dHailwipCcZ0iT6t5+lBWynaBnLgpLbr8UhUALPLhSYaKQV2IUn/2Q==",
-    "title": "",
+    "title": "Cathédrale Saint-Pierre Genève",
     "when": "July 24th, 2024"
   },
   {
@@ -2529,14 +2429,14 @@ const data = [
     },
     "id": "7c3b0975-04c2-4475-b7d5-f7a8e018b71f.jpeg",
     "location": {
-      "region": "Cathédrale Saint-Pierre Genève",
+      "region": "Geneva",
       "country": "Switzerland",
       "continent": "Europe"
     },
     "notes": [],
     "src": "2024/07/24/7c3b0975-04c2-4475-b7d5-f7a8e018b71f.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwIBAP/EACQQAAIBAwMDBQAAAAAAAAAAAAABEQIDIRIyQSJRYTFCYnKB/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABcRAQEBAQAAAAAAAAAAAAAAAAARAUH/2gAMAwEAAhEDEQA/ALSOjlBX6oqS8GW+JVbiXnJELYq3coKZNPuCDmruLhNBdeppuQrEujncAtnpnD9QF1/BgRq4ZzutBe+leTaO9v6BtGJ+yQCqZIr/2Q==",
-    "title": "Cathedral spire",
+    "title": "Cathédrale Saint-Pierre Genève",
     "when": "July 24th, 2024"
   },
   {
@@ -2549,14 +2449,14 @@ const data = [
     },
     "id": "537b833c-0de9-4788-b9cf-57cbd8af9a26.jpeg",
     "location": {
-      "region": "Cathédrale Saint-Pierre Genève",
+      "region": "Geneva",
       "country": "Switzerland",
       "continent": "Europe"
     },
     "notes": [],
     "src": "2024/07/24/537b833c-0de9-4788-b9cf-57cbd8af9a26.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDAv/EAB8QAAICAgMBAQEAAAAAAAAAAAECABEDIRIxUUFCcf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AMNgKC7EihaOiICqmkaI5XHRFfyVBzyEWUseiEUyZS2uhAEU1ZMBgfq5FRZKbZ+ygBZNqdeGBXDj5GzCKZjxAX2Bkq3MG9eQMZV5EV2dQIgMWK/YV//Z",
-    "title": "",
+    "title": "Cathédrale Saint-Pierre Genève",
     "when": "July 24th, 2024"
   },
   {
@@ -2569,14 +2469,14 @@ const data = [
     },
     "id": "e38ad9d4-d8b7-433c-bdec-55294d442928.jpeg",
     "location": {
-      "region": "Jardin Botanique de Genève",
+      "region": "Geneva",
       "country": "Switzerland",
       "continent": "Europe"
     },
     "notes": [],
     "src": "2024/07/24/e38ad9d4-d8b7-433c-bdec-55294d442928.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMBAv/EACEQAAMAAgEDBQAAAAAAAAAAAAABEQISIQNBUSJhgZGh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQIA/8QAFxEBAQEBAAAAAAAAAAAAAAAAAAESEf/aAAwDAQACEQMRAD8A6SvYwzJtc7RLycNtZRu+Q1WzFJDrXgm28stV907dSiX6Ok4bJ8Ayxc4gNVXIgsG1eIUWHrT2YBNJWsnPfsSfVaqAFlVnv02wABf/2Q==",
-    "title": "Botanical Oasis",
+    "title": "Jardin Botanique de Genève",
     "when": "July 25th, 2024"
   },
   {
@@ -2589,16 +2489,14 @@ const data = [
     },
     "id": "74223fbe-db85-402a-ae25-00fc5e3e75b0.jpeg",
     "location": {
-      "region": "Calenzana, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "Beginning of day one on the GR 20"
-    ],
+    "notes": [],
     "src": "2023/06/21/74223fbe-db85-402a-ae25-00fc5e3e75b0.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECBAP/xAAeEAACAQQDAQAAAAAAAAAAAAAAAQIEERQhMVFhEv/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwDpY1WYaiSrFKIpDSIqkBkVRH0IeQugDIfgCdQ+wJdS07bCs9gHvi4C4AFJpgX9RemgP//Z",
-    "title": "Leaving Calenzana",
+    "title": "Calenzana",
     "when": "June 21st, 2023"
   },
   {
@@ -2611,16 +2509,14 @@ const data = [
     },
     "id": "f1d1c83f-941d-4351-aa5e-08d698b78775.jpeg",
     "location": {
-      "region": "Calenzana, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "Gaining elevation, heading towards D'Ortu Di U Piobbu"
-    ],
+    "notes": [],
     "src": "2023/06/21/f1d1c83f-941d-4351-aa5e-08d698b78775.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQACA//EACIQAAIBAwMFAQAAAAAAAAAAAAABAgMRIQQTURIUMUFhcf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAXEQEBAQEAAAAAAAAAAAAAAAAAEQEh/9oADAMBAAIRAxEAPwB22dK4zVtvgVJo22F60oWjhEaXQRWVX/DNbjXcL4KQPUx4FIHq4+otikcKtadTDwuECOdiKgJZYC/JQ2wB/9k=",
-    "title": "Entering spiny mountains",
+    "title": "Corsican mountains",
     "when": "June 21st, 2023"
   },
   {
@@ -2633,16 +2529,14 @@ const data = [
     },
     "id": "ca474c95-0abc-44a4-9f10-677b0e91437c.jpeg",
     "location": {
-      "region": "Calenzana, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "Morning at Refuge D'Ortu Di U Piobbu"
-    ],
+    "notes": [],
     "src": "2023/06/21/ca474c95-0abc-44a4-9f10-677b0e91437c.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAQMAAgT/xAAgEAADAQABAwUAAAAAAAAAAAAAAQIRAxITMiFCUZGh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8AMCMAgbADAMrhvFS0ixToYqwqPkUgvphbTwioXzz7Z+yo84HU8lT400BXv81Lz/BBKlT9W9KBrAP/2Q==",
-    "title": "Refuge sunrise",
+    "title": "Refuge D'Ortu Di U Piobbu",
     "when": "June 22nd, 2023"
   },
   {
@@ -2655,13 +2549,11 @@ const data = [
     },
     "id": "e2d0721f-2c3f-4367-8f7b-1176c94b3e2c.jpeg",
     "location": {
-      "region": "Asco, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "Heading towards Refuge de Carozzu"
-    ],
+    "notes": [],
     "src": "2023/06/21/e2d0721f-2c3f-4367-8f7b-1176c94b3e2c.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwEAAv/EACIQAQACAQIGAwAAAAAAAAAAAAEAAhEhMQMSQVFhgRNxsf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwAERztIpaW5Xx1lDfIcSpWvuEbmajglQNhtq6yo4y+vyYbUMm33A1HCwErdxvmKK2XZxFIPhGjZ1gcr2cHaBOZx4YCD0gXGDXvIP//Z",
     "title": "Steap peaks",
@@ -2672,22 +2564,20 @@ const data = [
     "category": "Backpacking",
     "collectionId": "the-gr-20",
     "elevation": {
-      "imperial": "4,991",
-      "metric": "1,521"
+      "imperial": "5,462",
+      "metric": "1,665"
     },
-    "id": "4b13a3d8-a55c-4bed-b887-ad3490ab964f.jpeg",
+    "id": "9f8951e5-f150-413e-9d1e-557324c48acb.jpeg",
     "location": {
-      "region": "Albertacce, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "Morning ascent out of Carozzu"
-    ],
-    "src": "2023/06/21/4b13a3d8-a55c-4bed-b887-ad3490ab964f.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECA//EAB0QAAIDAAMBAQAAAAAAAAAAAAABAhEhMUFhcVH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAGBEBAQEBAQAAAAAAAAAAAAAAAAERAkH/2gAMAwEAAhEDEQA/AMouncSpY1covUzUrleanP0uwyk0NhlCcd0zer46Tmeoqvn0y0FvAAVCd92RSXvAFSlqATSTtAEbVsoSduvSAfPeAf/Z",
-    "title": "Waterfall in shadow",
-    "when": "June 23rd, 2023"
+    "notes": [],
+    "src": "2023/06/21/9f8951e5-f150-413e-9d1e-557324c48acb.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgEDAP/EACEQAQACAgEEAwEAAAAAAAAAAAEAEQIhAzFBgbESEyLw/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwA48mQ7WvUitHlbKYQjls2bgL5nfUDHk5bssMfcKFbsYHYtNmXhgJTaMArf91gDKu74gQZBV/VSi4No1uBc+lkgPHh9mVLQSj//2Q==",
+    "title": "Refuge de Carozzu",
+    "when": "June 22nd, 2023"
   },
   {
     "camera": "iPhone 13 Pro",
@@ -2699,14 +2589,14 @@ const data = [
     },
     "id": "ca6423d0-daea-4b8c-8a75-7eb28a102c85.jpeg",
     "location": {
-      "region": "Asco, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
     "notes": [],
     "src": "2023/06/21/ca6423d0-daea-4b8c-8a75-7eb28a102c85.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQMCAP/EAB8QAAICAgIDAQAAAAAAAAAAAAABAhEDEkFRITEycf/EABgBAQEBAQEAAAAAAAAAAAAAAAABAgME/8QAGREBAAMBAQAAAAAAAAAAAAAAAAERElEC/9oADAMBAAIRAxEAPwA0Orz2NQtu1BY1BbtQWpb7ONy9GYO76RqPXWJ8cZeSuEW4ZxIllaXyhpcdTnmk1XhfhLazCusmvaObYanfoonPpqhY1GcargDOSCUW4+eSj//Z",
-    "title": "Mediterranean Sea views",
+    "title": "Bocca di a Muvrella",
     "when": "June 23rd, 2023"
   },
   {
@@ -2719,16 +2609,14 @@ const data = [
     },
     "id": "7c9ba05f-905d-4762-9b09-989377182474.jpeg",
     "location": {
-      "region": "Albertacce, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "Approaching Ascu Stangu, a hotel with a campground, and our stop for the day"
-    ],
+    "notes": [],
     "src": "2023/06/21/7c9ba05f-905d-4762-9b09-989377182474.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAQIDAAT/xAAeEAACAgICAwAAAAAAAAAAAAABAgAREiEDUUFhgf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAXEQEBAQEAAAAAAAAAAAAAAAAAEQES/9oADAMBAAIRAxEAPwDJycTLbCj1L0zxioCEDFhUUghVa8d1LSFK+4qTRw7oRSOATLoZWI1FSKButSAg5Cj9hTK7KKy1LUjl8QrQKDe7kDWLGoDwP//Z",
-    "title": "Jagged peaks",
+    "title": "Ascu Stagnu",
     "when": "June 23rd, 2023"
   },
   {
@@ -2741,16 +2629,14 @@ const data = [
     },
     "id": "4965a37c-6e06-459e-800d-b8d728cd2ff0.jpeg",
     "location": {
-      "region": "Vergio, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "Gaining altitude quickly after leaving Ascu Stangu"
-    ],
+    "notes": [],
     "src": "2023/06/21/4965a37c-6e06-459e-800d-b8d728cd2ff0.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgEAA//EACIQAAICAQMEAwAAAAAAAAAAAAERAAIhEjFBAyIyUYGh0f/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABcRAQEBAQAAAAAAAAAAAAAAAAABERL/2gAMAwEAAhEDEQA/ADUMOIELFb5EupzDbSEmrZKNrHDHxJqyY2pBmpAgAVuK8QF44FsmAmqq+8Uc7AMOwR4kGR4yuN4E1kgfsotxqHo+4DJFqAWy5qswTRctBzGNL07iu4Pd9QP/2Q==",
-    "title": "Morning ascent waterfall",
+    "title": "Ruisseau du Tighiettu",
     "when": "June 24th, 2023"
   },
   {
@@ -2763,16 +2649,14 @@ const data = [
     },
     "id": "8f85de22-b937-4ea5-9dfa-e45eb357e7b8.jpeg",
     "location": {
-      "region": "Vergio, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "The apex of the trek"
-    ],
+    "notes": [],
     "src": "2023/06/21/8f85de22-b937-4ea5-9dfa-e45eb357e7b8.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgAB/8QAHxABAAIBBQEBAQAAAAAAAAAAAQACEQMSEyFhUTFx/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABgRAQEBAQEAAAAAAAAAAAAAAAARARIh/9oADAMBAAIRAxEAPwA8bOlcpreJ8kuLNXE+RcJrONJbiTVsip6BrWUwTFdoQ6tnNRT+SUi3WU+xSFZsGcj4RU5EvZ+HrL0cs0thbuvf3My0bdLXwuFhRxIEd9Z/JQLGGB//2Q==",
-    "title": "Highest point",
+    "title": "Monte Cinto",
     "when": "June 24th, 2023"
   },
   {
@@ -2785,16 +2669,14 @@ const data = [
     },
     "id": "890e4521-9658-472a-93a6-f94eff46c612.jpeg",
     "location": {
-      "region": "Vergio, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "Soaking sore feet in ice-cold water at Auberge U Vallone"
-    ],
+    "notes": [],
     "src": "2023/06/21/890e4521-9658-472a-93a6-f94eff46c612.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAQACA//EACIQAQABAwQCAwEAAAAAAAAAAAECABEhAxIxUUFhIjKBof/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABcRAQEBAQAAAAAAAAAAAAAAAAARASH/2gAMAwEAAhEDEQA/AJ8eVrTMi0Efq1NXNLOOni93qorKc9zuf5UpAvlwUVIl5he2c5oCVi4L6SnUmB05eMx7oqOnLgfxoEEW+akFNNWQY55SqNyLGXjOeqB09+pduAPHNVGerLa7ZrLr1UVYSWRY0H//2Q==",
-    "title": "Stony water oasis",
+    "title": "Auberge U Vallone",
     "when": "June 24th, 2023"
   },
   {
@@ -2807,16 +2689,14 @@ const data = [
     },
     "id": "f0dc6ac2-b0e5-4e2a-b874-0d40f47c454b.jpeg",
     "location": {
-      "region": "Orto, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "A look back after descending from the highest point on today's stage"
-    ],
+    "notes": [],
     "src": "2023/06/21/f0dc6ac2-b0e5-4e2a-b874-0d40f47c454b.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQIAA//EAB0QAQADAAMAAwAAAAAAAAAAAAEAESESUWECcZH/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAQMCBP/EABoRAQEBAQEBAQAAAAAAAAAAAAABAhESQVH/2gAMAwEAAhEDEQA/AJ4zT3GXmtWxdRZmhxqouiZv0kTRcfiqAtSXrnzRVufKefrdk62JRlzyVELmQJe5R1onAYAl+fUvQJloJHRPGyx/ZR//2Q==",
-    "title": "Green mountainside",
+    "title": "U Frate",
     "when": "June 25th, 2023"
   },
   {
@@ -2829,13 +2709,11 @@ const data = [
     },
     "id": "f62bf484-3e25-41c0-8b99-24fb0ba49778.jpeg",
     "location": {
-      "region": "Orto, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "Taking a dip on a hot day"
-    ],
+    "notes": [],
     "src": "2023/06/21/f62bf484-3e25-41c0-8b99-24fb0ba49778.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAnEAACAQEGBQUAAAAAAAAAAAABAgARAxITITGRIjIzUWFBUnGBof/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAwDAQACEQMRAD8AWE/YbzKldC8xCjzEBkDzLvAZGeTLvAki0AzU07xBeGQOow8kwrO1YEEan8lxNY3TFFYbU1igUMNHp9yVY7QgI4uI9zARRfaNoDuLoAICNkh9KfECcBaamVH/2Q==",
     "title": "Swimming hole",
@@ -2851,16 +2729,14 @@ const data = [
     },
     "id": "ce157a1c-a855-4ba7-b906-13a1ad4cbbec.jpeg",
     "location": {
-      "region": "Venaco, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "Leaving Hotel Castel di Vergio after a restless night in a hotel room, no more hotels after this point"
-    ],
+    "notes": [],
     "src": "2023/06/21/ce157a1c-a855-4ba7-b906-13a1ad4cbbec.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQIAA//EAB8QAQACAgIDAQEAAAAAAAAAAAEAEQIhEkExUXGBIv/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/8QAFxEBAQEBAAAAAAAAAAAAAAAAAAERMf/aAAwDAQACEQMRAD8A597hKrFNOy69StUhHzuF4Qj+QKRMR5O+qihi7W713INyxx07+SI5q/z+EQay8owKuA7WqKlqc687iimOLx2vcEXKsfXyQYXiUpFEya1p9yL/2Q==",
-    "title": "Morning forest steps",
+    "title": "Castel di Vergio",
     "when": "June 26th, 2023"
   },
   {
@@ -2873,16 +2749,14 @@ const data = [
     },
     "id": "95b4adaa-bbbe-4de3-b9f8-96365390f142.jpeg",
     "location": {
-      "region": "Venaco, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "Viewing a rest stop from above"
-    ],
+    "notes": [],
     "src": "2023/06/21/95b4adaa-bbbe-4de3-b9f8-96365390f142.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECA//EAB8QAAICAQQDAAAAAAAAAAAAAAABAhFRAxMxQRIhMv/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8ASidXKKSIKoAoCWgMk67MOhqbQqRcdVL69lpFbkcCpBuRFIwVcmGwmsCg8q6LUhObfCSJQreQr//Z",
-    "title": "Bog lake",
+    "title": "Lac de Nino",
     "when": "June 26th, 2023"
   },
   {
@@ -2895,16 +2769,14 @@ const data = [
     },
     "id": "53aaf0ae-f946-4917-9b7c-46712fa5ee45.jpeg",
     "location": {
-      "region": "Venaco, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "Nearly there, Refuge de Manganu"
-    ],
+    "notes": [],
     "src": "2023/06/21/53aaf0ae-f946-4917-9b7c-46712fa5ee45.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQACA//EAB8QAAICAQQDAAAAAAAAAAAAAAABAhEhEiJBYTFRgf/EABgBAQEBAQEAAAAAAAAAAAAAAAABAgME/8QAGREBAQEBAQEAAAAAAAAAAAAAAAESEQJB/9oADAMBAAIRAxEAPwDUZx5iu8G+VjUYko3tv6WdYvPgoqEIgDWctO+YbTLqpiJNGtMXxVqXY0mKm4+xqGK5nB6D4HaK8DtGW8lQclH/2Q==",
-    "title": "Refuge in the distance",
+    "title": "Refuge de Manganu",
     "when": "June 26th, 2023"
   },
   {
@@ -2917,16 +2789,14 @@ const data = [
     },
     "id": "82a8777d-51d7-4636-9d0a-f25475516e76.jpeg",
     "location": {
-      "region": "Vivario, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "Heading towards Refuge de Petra Paian"
-    ],
+    "notes": [],
     "src": "2023/06/21/82a8777d-51d7-4636-9d0a-f25475516e76.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECA//EACEQAQACAQMEAwAAAAAAAAAAAAEAAhESITEiQVFhA5Gh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQIA/8QAGREBAQEBAQEAAAAAAAAAAAAAAAEREkFR/9oADAMBAAIRAxEAPwDprrZxxKQy1HhJWixlox1OVOk7/Unv4eTXQM4WHVPMRp4WCgrb1DWNK7N4aw1xy/k2ha0Hk29RaOb8mN2S01SyviOFrjvmTb4TUxwYU6rYWaRpH//Z",
-    "title": "Green bog maze",
+    "title": "Ruisseau de Zoicu",
     "when": "June 27th, 2023"
   },
   {
@@ -2937,18 +2807,16 @@ const data = [
       "imperial": "7,256",
       "metric": "2,212"
     },
-    "id": "a5204ac0-6201-442d-ad2c-6d33b4254164.jpeg",
+    "id": "05769f04-5b00-4fd5-a233-55c00c9871c5.jpeg",
     "location": {
-      "region": "Vivario, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "Highlight of the day, and the cheese fries at the refuge later that day"
-    ],
-    "src": "2023/06/21/a5204ac0-6201-442d-ad2c-6d33b4254164.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgAB/8QAIRAAAgICAgEFAAAAAAAAAAAAAQIAESExElGhAyIyQZH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAFxEBAQEBAAAAAAAAAAAAAAAAABEBEv/aAAwDAQACEQMRAD8AC+u/2RNYztYzs2yZWWXCRAmCNzmFDW9GYdIQArqWs7mKkr5kHqoq8oDo2YpExY6WoIYV6qvOJlpcSgsxUmE3vHFgv5mKsDgFOB5kCAJNASj/2Q==",
-    "title": "Mountain lakes",
+    "notes": [],
+    "src": "2023/06/21/05769f04-5b00-4fd5-a233-55c00c9871c5.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMCAQT/xAAhEAACAgEEAgMAAAAAAAAAAAAAAQIRIRIiMVEDQRMyYf/EABcBAQEBAQAAAAAAAAAAAAAAAAEAAwL/xAAXEQEBAQEAAAAAAAAAAAAAAAAAEQES/9oADAMBAAIRAxEAPwA5JYa3DWrrS7Me3eV2bbS3S476HrRxisYJ8ZNKBGMt2x7Q/JJ4TobXMzF3pj9mkDy4BRUfk1WoxWPbOfG3FNyx0AZtFFFrF8GpQtXgAkm4Np0kq/QANEf/2Q==",
+    "title": "Bocca Alle Porte",
     "when": "June 27th, 2023"
   },
   {
@@ -2961,16 +2829,14 @@ const data = [
     },
     "id": "4e7bda74-809e-48a9-a904-5645bf2e7dde.jpeg",
     "location": {
-      "region": "Vivario, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "Night at Refuge de Petra Piana"
-    ],
+    "notes": [],
     "src": "2023/06/21/4e7bda74-809e-48a9-a904-5645bf2e7dde.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAjEAACAQIFBQEAAAAAAAAAAAAAAQIREgMEEyFBMlFhcYGR/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAECA//EABgRAQEBAQEAAAAAAAAAAAAAAAAREgEC/9oADAMBAAIRAxEAPwDVrJab1IjVj2LrLDFpqMCPMQXH4VY+HStULR88OiiDyzzcntBJLzuCauM+qEauXU/oAqqI8PhszY+aIAAljAAw/9k=",
-    "title": "Mountain-cascading clouds",
+    "title": "Refuge de Petra Piana",
     "when": "June 27th, 2023"
   },
   {
@@ -2981,18 +2847,16 @@ const data = [
       "imperial": "4,601",
       "metric": "1,402"
     },
-    "id": "18a7a986-adc0-46d8-a712-a2dce00f7669.jpeg",
+    "id": "c886ddab-f573-4fbb-a598-942bc54c4990.jpeg",
     "location": {
-      "region": "Vivario, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "Bound for Refuge de l'Onda"
-    ],
-    "src": "2023/06/21/18a7a986-adc0-46d8-a712-a2dce00f7669.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAQIA/8QAIBABAAICAQQDAAAAAAAAAAAAAQARAiEDMUFRgRIiYf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABcRAQEBAQAAAAAAAAAAAAAAAAAREgH/2gAMAwEAAhEDEQA/ALEZdM5FkaMj53o6xoyHkcfMl6sRlzZdBT9ikX7mK0PcIzTTdMsA43f2NdoEhTsfUAzXHKTgrF3bAHkcmg2dGaCDW+0negrxIP/Z",
-    "title": "Steep stony descent",
+    "notes": [],
+    "src": "2023/06/21/c886ddab-f573-4fbb-a598-942bc54c4990.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgEA/8QAIhAAAQMCBgMAAAAAAAAAAAAAAQACESExAxJBUWGBEyJx/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABgRAQEBAQEAAAAAAAAAAAAAAAABERIT/9oADAMBAAIRAxEAPwBjKVe6x5xKJ3TziZgaC6d084hfl3U2t8wXYzrCRymmQ+1zaTtBjBgzBVwSCZ9hTREECLzPCKj3FrlJAmnU/EB8hcYAq2xWkINMVNlKrRsoj//Z",
+    "title": "Ravin de Gialgo",
     "when": "June 28th, 2023"
   },
   {
@@ -3005,16 +2869,14 @@ const data = [
     },
     "id": "9d76c622-0c46-465a-b608-0fe3a79c8544.jpeg",
     "location": {
-      "region": "Vivario, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "Such luxorious walking on wide flat paths"
-    ],
+    "notes": [],
     "src": "2023/06/21/9d76c622-0c46-465a-b608-0fe3a79c8544.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDAf/EACAQAAEEAQQDAAAAAAAAAAAAAAEAAhEhMQMSImFRcYH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAwDAQACEQMRAD8AmHRrbvCK0nkO1A2/iR3KBXY+oGYYdBKqJXJ6UUS6qKA3cYQBNIKMg6maUA2BVz7QM0ycKK1wBwqJlogC7UqGAaHYsKXR/9k=",
-    "title": "Wide forest paths",
+    "title": "Foret communale de Vivario",
     "when": "June 28th, 2023"
   },
   {
@@ -3022,21 +2884,19 @@ const data = [
     "category": "Backpacking",
     "collectionId": "the-gr-20",
     "elevation": {
-      "imperial": "3,058",
-      "metric": "932"
+      "imperial": "4,517",
+      "metric": "1,377"
     },
-    "id": "cd41e66f-d9f7-4bdf-8421-38baf8a4711e.jpeg",
+    "id": "a6a6b3db-d197-404d-b10e-3c35781e5e47.jpeg",
     "location": {
-      "region": "Vivario, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "Cooling off before making the climb up to the Refuge and lasagna for dinner"
-    ],
-    "src": "2023/06/21/cd41e66f-d9f7-4bdf-8421-38baf8a4711e.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQADAv/EACAQAQACAQQDAQEAAAAAAAAAAAEAAhESITFBA1FhIjL/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwDPyeGobJ9kVFKUHNs+sQGuU53eoDcqUdSEDrVVqYTHVTmBnal2SiKo/wA7xQ/sOyEdULPNsH2FOk3TPxCBqAdSwMCgG3ogPHED/9k=",
-    "title": "Another swimming hole",
+    "notes": [],
+    "src": "2023/06/21/a6a6b3db-d197-404d-b10e-3c35781e5e47.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQIDAP/EACEQAAIBAwQDAQAAAAAAAAAAAAABAgMRIRIxQVETMnGR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwC6kmAU/wAAR0+njotZgKFsstTMFyMtotr58M1VITxZstDOS7KiVSsltkCEqspc2Azk1K1zEUfJthFA1vkBfaSXZQygtVndgf/Z",
+    "title": "Refuge de l'Onda",
     "when": "June 28th, 2023"
   },
   {
@@ -3049,16 +2909,14 @@ const data = [
     },
     "id": "2cc8532b-6441-49fb-927e-ebdb001b78cf.jpeg",
     "location": {
-      "region": "Vivario, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "An ever-amazing sight, and the division between the north and south parts of the trek"
-    ],
+    "notes": [],
     "src": "2023/06/21/2cc8532b-6441-49fb-927e-ebdb001b78cf.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAeACgDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAEDAgQF/8QAIBAAAgICAQUBAAAAAAAAAAAAAAECESExEgQUQVJhgf/EABcBAAMBAAAAAAAAAAAAAAAAAAABAgP/xAAYEQEBAQEBAAAAAAAAAAAAAAAAARECIf/aAAwDAQACEQMRAD8AlQUboagzRj6wkVhEcYFoxJtXzGVACqQEat5nN+w+bXn92HBDpLSHoyByksqbNw6iSxLP0nHV1sJOhG6O6S+gct28gGB//9k=",
-    "title": "Cloud inversion",
+    "title": "Bocca d'Oreccia",
     "when": "June 29th, 2023"
   },
   {
@@ -3071,16 +2929,14 @@ const data = [
     },
     "id": "85f2be7c-e2ab-421a-ab16-c28b671496a0.jpeg",
     "location": {
-      "region": "Palneca, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "A wet delayed start on the southern portion in Vizzavona"
-    ],
+    "notes": [],
     "src": "2023/06/21/85f2be7c-e2ab-421a-ab16-c28b671496a0.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIBAwT/xAAdEAACAgIDAQAAAAAAAAAAAAAAAQIRAxIhQVET/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwBsE7xpPrgC6wCwJsAAwYXw/Ai1TfoDfRphTLKuwGWSPoGGE9U10AzkEG4BvyBKlasD/9k=",
-    "title": "Rain evaporation",
+    "title": "Vizzavona",
     "when": "June 30th, 2023"
   },
   {
@@ -3093,16 +2949,14 @@ const data = [
     },
     "id": "79397086-87c9-454d-ac0d-55222a117a15.jpeg",
     "location": {
-      "region": "Palneca, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "One stage down, another to go, on day one of the sourthern stretch"
-    ],
+    "notes": [],
     "src": "2023/06/21/79397086-87c9-454d-ac0d-55222a117a15.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgEA/8QAIBAAAgICAgIDAAAAAAAAAAAAAQIAERIhMVFhkTJxgf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AP2LhAG2NGh5ga1B2bPiFXNjWKgHu4E3wW9QhrdHqACjbJr9MKC1AaqDstVQKxTsmAbyO7gXAsd89yKpS9sfQgUouN7gYfHYgf//Z",
-    "title": "Felled giants",
+    "title": "Foret Communale",
     "when": "June 30th, 2023"
   },
   {
@@ -3115,16 +2969,14 @@ const data = [
     },
     "id": "54334c14-8bae-4478-97f7-179f79cd2ca6.jpeg",
     "location": {
-      "region": "Palneca, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "Combining stages and heading for Bocca di Verdi"
-    ],
+    "notes": [],
     "src": "2023/06/21/54334c14-8bae-4478-97f7-179f79cd2ca6.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgED/8QAJBAAAQMBBwUAAAAAAAAAAAAAAQACEQMSEyExMkGhIlJigZH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAXEQEBAQEAAAAAAAAAAAAAAAAAERIB/9oADAMBAAIRAxEAPwC2WnZarEQ0oyVpkm0xPUVKQrTW4BFAvEyUGYrOwE/FmrFLzGZKt4QDUdvKVIjnnZKRLx3cpVO48uFjSldYauFNCGi6NQTQzdSLQSSPS1oFjQRJV70f/9k=",
-    "title": "Lush greenery",
+    "title": "Bocca di Verdi",
     "when": "June 30th, 2023"
   },
   {
@@ -3137,16 +2989,14 @@ const data = [
     },
     "id": "37e9f8dd-05c9-498b-be6e-86d633715c24.jpeg",
     "location": {
-      "region": "Cozzano, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "Obscured conditions approaching"
-    ],
+    "notes": [],
     "src": "2023/06/21/37e9f8dd-05c9-498b-be6e-86d633715c24.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQMCAP/EACEQAQABAwQCAwAAAAAAAAAAAAEAAgMTERIxQSFRYZHx/8QAFwEBAQEBAAAAAAAAAAAAAAAAAQACA//EABcRAQEBAQAAAAAAAAAAAAAAAAASEQH/2gAMAwEAAhEDEQA/AK4u5rWJ4cQ8w0zxhsnTGhIbRGhIxSoT1fcTDqG4e5JJvUjySQzUv5LVjsp8/UNWIC1c1MC1tC219dEkyapoaa+5Fxz5WANT5FVYl//Z",
-    "title": "Cloud wall",
+    "title": "Punta della Cappella",
     "when": "July 1st, 2023"
   },
   {
@@ -3159,16 +3009,14 @@ const data = [
     },
     "id": "73a5df9e-fefd-43d0-ad5a-7f71dcb003cc.jpeg",
     "location": {
-      "region": "Cozzano, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "Trail is visible in the distance once more after hiking through dense cloud fall"
-    ],
+    "notes": [],
     "src": "2023/06/21/73a5df9e-fefd-43d0-ad5a-7f71dcb003cc.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQIDAP/EAB0QAQACAQUBAAAAAAAAAAAAAAEAEQIDEhMhMUH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8A2cZqswbe4pFYgSKVgSsDLlfrUB5GQJqd1cUDnUUTlqXKMN2WPrZMq0Gy6kAqMDlgSllyo//Z",
-    "title": "Clouds lifting",
+    "title": "Bocca de Rapari",
     "when": "July 1st, 2023"
   },
   {
@@ -3181,16 +3029,14 @@ const data = [
     },
     "id": "4e254b19-0dd2-44fb-8295-fa7992be521c.jpeg",
     "location": {
-      "region": "Cozzano, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "Bad weather rolled in at Refuge d'Usciolu, and my ultralight tent failed, had to seek refuge in a refuge-provided bomb-proof tent for the night"
-    ],
+    "notes": [],
     "src": "2023/06/21/4e254b19-0dd2-44fb-8295-fa7992be521c.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECAwT/xAAiEAACAgIABgMAAAAAAAAAAAAAAQIRAzEEEyEyQWFRcYH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ALXGMlTXsqHFKKpAMAdNU9AZsuPFBPdvXUgTzxcrrRRNcRFvTAlzl6Ary5u1rX0QZ5Svy/0KQAAJv5AGwEB//9k=",
-    "title": "Riding out the storm",
+    "title": "Refuge d'Usciolu",
     "when": "July 1st, 2023"
   },
   {
@@ -3203,16 +3049,14 @@ const data = [
     },
     "id": "4f9f9b60-3bb6-47a4-8d0e-218d430742dd.jpeg",
     "location": {
-      "region": "Quenza, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "Bright clear skies in the morning of the second to last day"
-    ],
+    "notes": [],
     "src": "2023/06/21/4f9f9b60-3bb6-47a4-8d0e-218d430742dd.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQIABf/EACIQAAIDAAAFBQAAAAAAAAAAAAABAgMREiEiUZExQlJicf/EABgBAQEBAQEAAAAAAAAAAAAAAAABAwIE/8QAGREBAQEBAQEAAAAAAAAAAAAAAAEREhNB/9oADAMBAAIRAxEAPwAw1efWwGtgNPCDWwJqq7KrPq+zOOm3nC3UvWQ6qcQcdXd+BtOIpTpfuz9G05ik6vlEm1eY5pGilJoamFy2XIC44up+Dnfi5BZLnmCFf//Z",
-    "title": "Morning after the storm",
+    "title": "Crete d'acqua d'acelli",
     "when": "July 2nd, 2023"
   },
   {
@@ -3225,16 +3069,34 @@ const data = [
     },
     "id": "d36a683f-4d95-4b0c-987d-d190336c49ee.jpeg",
     "location": {
-      "region": "Quenza, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "Combining stages once more as I head towards Refuge d'Asinau, the last one on my trek of the GR 20"
-    ],
+    "notes": [],
     "src": "2023/06/21/d36a683f-4d95-4b0c-987d-d190336c49ee.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECA//EAB8QAAIBBAIDAAAAAAAAAAAAAAABEQISUZETMSFBof/EABcBAQEBAQAAAAAAAAAAAAAAAAABAwL/xAAXEQEBAQEAAAAAAAAAAAAAAAAAARIR/9oADAMBAAIRAxEAPwDnBsx6QDqwDpATqwBnzlmO61zBur1GhupiDqqWNF3TML6k+1oaq5hyVZ+DVMxqEZOh9qACljoWKRoLE2O1H//Z",
-    "title": "Nothing but green fields",
+    "title": "Ruisseau de Verecolongu",
+    "when": "July 2nd, 2023"
+  },
+  {
+    "camera": "iPhone 13 Pro",
+    "category": "Backpacking",
+    "collectionId": "the-gr-20",
+    "elevation": {
+      "imperial": "6,670",
+      "metric": "2,033"
+    },
+    "id": "f48bc918-f442-4f1d-a89d-cb696242b8ba.jpeg",
+    "location": {
+      "region": "Corsica",
+      "country": "France",
+      "continent": "Europe"
+    },
+    "notes": [],
+    "src": "2023/06/21/f48bc918-f442-4f1d-a89d-cb696242b8ba.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwECAP/EACQQAAIBAgQHAQAAAAAAAAAAAAECABESAyExQQQyQlJxgZGh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwCoDkRNMlCqdRIsWxFBtWtdopAPw41HyWpBHCZjkp8yphFc7CYbIHgbDZQOJrKjPswAGEB1GZaJaAKgmKICdKxSNWt3fkUG2Cx5nrA//9k=",
+    "title": "Bocca Stazzunara",
     "when": "July 2nd, 2023"
   },
   {
@@ -3247,16 +3109,14 @@ const data = [
     },
     "id": "f43b7753-5052-47b9-9868-1237c0e34828.jpeg",
     "location": {
-      "region": "Corse-du-Sud, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "Halfway through the last day, after getting lost a couple of times"
-    ],
+    "notes": [],
     "src": "2023/06/21/f43b7753-5052-47b9-9868-1237c0e34828.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgABA//EAB8QAQADAAIBBQAAAAAAAAAAAAEAAhEhMRIDIkFRof/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8AAvSJIJfdUliOnnVqVeM4lHOznBAzZA+bVOfyYUGqWEdJrQgLCrmSaJK/cbQfGu8Mm0TZHvX5gbW25Cl6wiJ1kq0GznMMiWOkIH//2Q==",
-    "title": "Ferns",
+    "title": "Refuge de Paliri",
     "when": "July 3rd, 2023"
   },
   {
@@ -3269,16 +3129,14 @@ const data = [
     },
     "id": "f0cd0897-3fc9-47a2-808e-e1627dfb45bc.jpeg",
     "location": {
-      "region": "Corse-du-Sud, Corsica",
+      "region": "Corsica",
       "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "The ceremonial end of the GR 20 after combining two more stages in order to finish the trek today"
-    ],
+    "notes": [],
     "src": "2023/06/21/f0cd0897-3fc9-47a2-808e-e1627dfb45bc.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAgEDBAD/xAAeEAEAAgMBAQADAAAAAAAAAAABABECEiExURNhcf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABYRAQEBAAAAAAAAAAAAAAAAAAARQf/aAAwDAQACEQMRAD8Ao2f6waLG/b7JNWGV47LFmOcr8biB2xWrtkmMsmW1mLx+wK1yPxBi9fYs6IvxIFBz9MUjbvSCI1yKqmSMxAqSBdaQvvbih3dk++QT/9k=",
-    "title": "Gateway to Conca",
+    "title": "Conca",
     "when": "July 3rd, 2023"
   },
   {
@@ -3295,9 +3153,7 @@ const data = [
       "country": "United States",
       "continent": "North America"
     },
-    "notes": [
-      "Combination of Blue Spring + Stony Ridge segments on the southern portion of the Ice Age Trail: 5 hours and 11 miles"
-    ],
+    "notes": [],
     "src": "2022/07/15/dde665dc-c7a8-4861-9155-87a885f30e2b.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBBP/EAB8QAQADAAICAwEAAAAAAAAAAAEAAhESITFBIlFhwf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwCOS9Su7YYeZnGg6P8AZKfHpZmrF12thc09SFGu66eYsaruSET3LRV1V739iRie9iB0cSvccgPERMKhu76+5urXXIiUStXzWIiB/9k=",
     "title": "Stony Ridge",
@@ -3317,9 +3173,7 @@ const data = [
       "country": "United States",
       "continent": "North America"
     },
-    "notes": [
-      "8 miles and 5 hours on the Ice Age Trail"
-    ],
+    "notes": [],
     "src": "2025/05/03/e402c0b1-e827-4123-b7b5-74947b240687.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBA//EAB8QAAIBAwUBAAAAAAAAAAAAAAABAhEhMSIyYXGBQf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A5xolLk1O7Cwalf0iqe0itpdlSsmiaaX2BUnt4QJlnwAbDUmio0cpWwwAElhmJNfQAEopoAAf/9k=",
     "title": "Parnell Segment",
@@ -3342,7 +3196,7 @@ const data = [
     "notes": [],
     "src": "2025/05/03/ff7f0ece-3819-4a70-afb5-9f695bc1ec6f.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDAf/EAB0QAAMBAAIDAQAAAAAAAAAAAAABAhESISIxMnH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AIpdjS+NPDJ9jwk7ZFaq+uye4yzjp5hBzjCNb8l+AKwCmmeT0pMpegAKcSkgACVryAACP//Z",
-    "title": "",
+    "title": "Greenbush",
     "when": "May 3rd, 2025"
   },
   {
@@ -3359,9 +3213,7 @@ const data = [
       "country": "United States",
       "continent": "North America"
     },
-    "notes": [
-      "8 miles and 4 hours on the Ice Age Trail"
-    ],
+    "notes": [],
     "src": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAEDAv/EACIQAAICAQIHAQAAAAAAAAAAAAABAhEhAxIiMTJBQnGBYf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AM1jVixLsR4nGzppsy0nj9Oe8vRpKVQSaRm/LDKLHqfoEi+L4ANI6Vyu8mmzbi7AIqOK/TjbG8XYAFUE1zYACP/Z",
     "title": "Greenbush Trailhead",
@@ -3384,28 +3236,8 @@ const data = [
     "notes": [],
     "src": "2025/05/04/6ee17b3f-0835-43be-a071-eed45ef7b5c2.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwT/xAAgEAACAgEEAwEAAAAAAAAAAAAAAQIRMQMhQVESUoGR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGBEBAQEBAQAAAAAAAAAAAAAAAAERAhL/2gAMAwEAAhEDEQA/AJTpdFlFPnYxTbZa53SZJSzW6jD2f6VlNRwzCpESusYL6JzjojqWt2Dn3rlfANMXVdINLoAxqlDwvkACy03lysAFH//Z",
-    "title": "",
+    "title": "Greenbush",
     "when": "May 4th, 2025"
-  },
-  {
-    "camera": "iPhone X",
-    "category": "Backpacking",
-    "collectionId": "o-circuit",
-    "elevation": {
-      "imperial": "1,135",
-      "metric": "346"
-    },
-    "id": "d21e13de-4da1-441c-82ba-670d1ba4024f.jpeg",
-    "location": {
-      "region": "Torres del Paine",
-      "country": "Chile",
-      "continent": "South America"
-    },
-    "notes": [],
-    "src": "2020/02/18/d21e13de-4da1-441c-82ba-670d1ba4024f.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECA//EACQQAAIBAgUEAwAAAAAAAAAAAAABEQIhAxMxQmEEMkGRUXGB/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAEDAv/EABgRAQEBAQEAAAAAAAAAAAAAAAARARJh/9oADAMBAAIRAxEAPwDu04KiQ9IsVCEtqZDWYU3VuCoVJbUy4m+I8eNWjOtYy+ofhT+CkM+t6UCkM6uez2KQeLVx7HRHNcI4qtKfkVRzN6mBGlN7kEdP0Wj/2Q==",
-    "title": "",
-    "when": "February 18th, 2020"
   },
   {
     "camera": "iPhone X",
@@ -3424,7 +3256,7 @@ const data = [
     "notes": [],
     "src": "2020/02/18/619eec82-6980-4f31-a11f-7c5581d02989.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECBAP/xAAgEAACAQQBBQAAAAAAAAAAAAAAAQIDETFREkFCUpGh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQD/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/ANCcXhkpNGG8llNFo1ZrEgqbGV4ts4qrU0HUm9oao7cFsGaUpvu+gKYqlPyJ47tcAMKrUou6diHUko5XoAgq5N9QASf/2Q==",
-    "title": "",
+    "title": "Rio Paine",
     "when": "February 18th, 2020"
   },
   {
@@ -3444,47 +3276,7 @@ const data = [
     "notes": [],
     "src": "2020/02/18/59298106-ebd1-40fb-b3c1-84c008236675.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECA//EACQQAAIBAwIGAwAAAAAAAAAAAAABEQIDIQRBEhMUUWGBMZGh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAXEQEBAQEAAAAAAAAAAAAAAAAAEQFR/9oADAMBAAIRAxEAPwAtRV3XsiqtS3OVgEaWp2wxSHUeESrDqJcJKUKRyVNvdYJm9XUdu3sl9kukOXR2/RdWHLon4foUgrVKzLFSMywKshSp5GInH4EWtKpwSD//2Q==",
-    "title": "",
-    "when": "February 19th, 2020"
-  },
-  {
-    "camera": "iPhone X",
-    "category": "Backpacking",
-    "collectionId": "o-circuit",
-    "elevation": {
-      "imperial": "554",
-      "metric": "169"
-    },
-    "id": "4c0f4ab5-14b4-4e37-a19f-b176583212a9.jpeg",
-    "location": {
-      "region": "Torres del Paine",
-      "country": "Chile",
-      "continent": "South America"
-    },
-    "notes": [],
-    "src": "2020/02/18/4c0f4ab5-14b4-4e37-a19f-b176583212a9.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECA//EACMQAAECBQMFAAAAAAAAAAAAAAEAAgMRITFBEhORI0JhcfH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8A1EdmSgN5h+IEYzVKsIxQlIgxj2iaUhkQ6HTJZaiht30DhAdPLW8JSAbQw3hCAiCZGQQiPNVFAdKgQSdRNx7RDFTfCCmkOMyLIP/Z",
-    "title": "",
-    "when": "February 19th, 2020"
-  },
-  {
-    "camera": "iPhone X",
-    "category": "Backpacking",
-    "collectionId": "o-circuit",
-    "elevation": {
-      "imperial": "1,155",
-      "metric": "352"
-    },
-    "id": "98e3190e-5480-4eb9-8883-c8d9fbb3f485.jpeg",
-    "location": {
-      "region": "Torres del Paine",
-      "country": "Chile",
-      "continent": "South America"
-    },
-    "notes": [],
-    "src": "2020/02/18/98e3190e-5480-4eb9-8883-c8d9fbb3f485.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAeACgDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDAv/EACMQAAIBAwIHAQAAAAAAAAAAAAABAgMREjGRBBMhMkFRgcH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAESH/2gAMAwEAAhEDEQA/AKRyjF37Qy01Ru9+2yE5OL6stZh6qwLyjCqxbazX0OdT8zCqYsCT4mPhNgSrCxilrLcTjH09yTqyMuo2Y1vFuXTfvcSpUtf0ipX6jyY0xRqF9HuBP6wA/9k=",
-    "title": "",
+    "title": "Campamento Seron",
     "when": "February 19th, 2020"
   },
   {
@@ -3504,7 +3296,7 @@ const data = [
     "notes": [],
     "src": "2020/02/18/3aa1db78-bed6-46ab-8b32-b95e6c9f2ca1.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAgABAwT/xAAgEAEAAgEEAgMAAAAAAAAAAAABAAIRAyEiMRJxE0KB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFxEBAQEBAAAAAAAAAAAAAAAAABESAf/aAAwDAQACEQMRAD8A24Z32ZakHhnrMtTPCCv1IvScWA+4CBDBIrlrraps18vyZrUaF170rEUir31F40CNJkc6+O40ZUfNbbKHuStRqWcTLQW1bDiEKo+I53e4BVJFQuyj/9k=",
-    "title": "",
+    "title": "Circuito O",
     "when": "February 20th, 2020"
   },
   {
@@ -3524,7 +3316,7 @@ const data = [
     "notes": [],
     "src": "2020/02/18/b9efc152-9d62-48cd-aaca-dcc55eebaed1.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECBAP/xAAjEAACAgEDAwUAAAAAAAAAAAABAgARIQMxYUFRgRJSkaHh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFxEBAQEBAAAAAAAAAAAAAAAAABEBAv/aAAwDAQACEQMRAD8A6gpVgk8GN1nOcNXFY+YNKF77yQZRJJztGCsdnvEGCehgl6euyHORGLNaRqoy2DMzTcA1F7/UYrjEHPtU+JmtRYcUbVMcGFUDOp3C+LEaJhAoOh8N+SqgHpdqDFTyLkn/2Q==",
-    "title": "",
+    "title": "Refugio Dickson",
     "when": "February 20th, 2020"
   },
   {
@@ -3544,7 +3336,7 @@ const data = [
     "notes": [],
     "src": "2020/02/18/f477b7bb-7f38-42ff-a855-f90668a73f28.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwT/xAAiEAACAgAGAgMAAAAAAAAAAAAAAQIRAwQUIVFSEkETMZH/xAAXAQEBAQEAAAAAAAAAAAAAAAACAQAD/8QAFxEBAQEBAAAAAAAAAAAAAAAAAAERYf/aAAwDAQACEQMRAD8A3aIo5sLMuEPFq16fBssxe+wtCxeiKMZ4icrVkeSfso10KKvcHO8SvpsEt6snFdK+y/BppdkAF0000uyJ+CuADVorKLXAADiv/9k=",
-    "title": "",
+    "title": "Cerro Stokes",
     "when": "February 20th, 2020"
   },
   {
@@ -3552,19 +3344,19 @@ const data = [
     "category": "Backpacking",
     "collectionId": "o-circuit",
     "elevation": {
-      "imperial": "1,240",
-      "metric": "378"
+      "imperial": "1,889",
+      "metric": "576"
     },
-    "id": "e70cc7f3-e5c4-4344-ad33-792721437b52.jpeg",
+    "id": "03ec69b7-bd85-4ae0-a3ba-d3e919a2bcee.jpeg",
     "location": {
       "region": "Torres del Paine",
       "country": "Chile",
       "continent": "South America"
     },
     "notes": [],
-    "src": "2020/02/18/e70cc7f3-e5c4-4344-ad33-792721437b52.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQIDAP/EACAQAAMAAgIBBQAAAAAAAAAAAAABEQIxEiFBE1FSYaH/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAQIEA//EABoRAQEBAQEBAQAAAAAAAAAAAAABAhESAzH/2gAMAwEAAhEDEQA/AAuL00b9x5z50eN0WaiXFjQ0w0AMCIR3o5+urhlVr8L04os3vJUs1xm4lN6i+KHs8z8Llk39Izd9WZkRfXlkaMnPeIgZaoBXmkBgH//Z",
-    "title": "",
+    "src": "2020/02/18/03ec69b7-bd85-4ae0-a3ba-d3e919a2bcee.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAgABAwT/xAAgEAACAgICAgMAAAAAAAAAAAABAgARAyESQTFxEzJR/8QAFwEBAQEBAAAAAAAAAAAAAAAAAgEAA//EABsRAQEAAgMBAAAAAAAAAAAAAAABAhIRMVEh/9oADAMBAAIRAxEAPwAjix0a9xTL0bh4s4/PHYEsylG42DUYcrCknUnSz6Xx13uDd00YqrA13A6NMZKver9zIWQlSLQC9xbUdYLsR9NQ22lJJ0zGRgdmRnRUyoEDGpUJ1AVVHgTMPEfkjJxXsTM//9k=",
+    "title": "Glaciar los Perros",
     "when": "February 21st, 2020"
   },
   {
@@ -3584,27 +3376,7 @@ const data = [
     "notes": [],
     "src": "2020/02/18/38a1b675-74c7-45b5-9e37-8020d298a0b3.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMBAv/EACQQAAIBBAAFBQAAAAAAAAAAAAABAgMREiETIiMzQUJRYXGR/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAEDAv/EABgRAQEBAQEAAAAAAAAAAAAAAAASARET/9oADAMBAAIRAxEAPwBgxi/Y7jOXmm/wyU56tTt9nVM/NxiLFU5W7VzVtPKnZlojUMQWV99J/AFEapnokqmfNawBm1wozfC3vbNnUko3AAjKdSXraABF4//Z",
-    "title": "",
-    "when": "February 21st, 2020"
-  },
-  {
-    "camera": "iPhone X",
-    "category": "Backpacking",
-    "collectionId": "o-circuit",
-    "elevation": {
-      "imperial": "1,488",
-      "metric": "454"
-    },
-    "id": "73062623-d55b-4415-b122-50f5cebe7256.jpeg",
-    "location": {
-      "region": "Torres del Paine",
-      "country": "Chile",
-      "continent": "South America"
-    },
-    "notes": [],
-    "src": "2020/02/18/73062623-d55b-4415-b122-50f5cebe7256.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEEAgP/xAAhEAACAQQCAgMAAAAAAAAAAAAAAQIDETFREhMhMkGBkf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABgRAQEBAQEAAAAAAAAAAAAAAAARAQIh/9oADAMBAAIRAxEAPwChJWKhgABfYGXNLbETesR06rhj8I0ojW5L2inpotxJofb8NfQ8Say51Y5sLhNLunpCrE/Hx5MNM3aZR2p1pRVsoDqpRm8WYCcAP//Z",
-    "title": "",
+    "title": "Glaciar Grey",
     "when": "February 21st, 2020"
   },
   {
@@ -3624,7 +3396,7 @@ const data = [
     "notes": [],
     "src": "2020/02/18/d0bf3da0-bbca-44aa-abcd-66b98b7ed2aa.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQIAA//EACEQAAIBAwQDAQAAAAAAAAAAAAABAgMRIRITQVEyUmGB/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABgRAQEBAQEAAAAAAAAAAAAAAAAREgEh/9oADAMBAAIRAxEAPwDtePqaYvEtJ9lZ76NBazDoFMtoFXLi6k7+RzrrlMnfPIq54ylOKwxUhVWa5LSHfqLklIXGPTX6ajOkuF8XwIuiqcbZvf4ImiqUfoho7UO5CGn/2Q==",
-    "title": "",
+    "title": "Grey Lake",
     "when": "February 22nd, 2020"
   },
   {
@@ -3644,7 +3416,7 @@ const data = [
     "notes": [],
     "src": "2020/02/18/4b5e077f-ecc5-401f-b663-989e2648b2d9.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECBAP/xAAiEAACAgEDBAMAAAAAAAAAAAAAAQIRIRIxQQNCUXETYaH/xAAXAQEBAQEAAAAAAAAAAAAAAAABAAMC/8QAGBEBAQEBAQAAAAAAAAAAAAAAAAERAiH/2gAMAwEAAhEDEQA/ANRJMpCNTTZBMrjtQwXxxdv7OmetPzdN9xm3LXDyIGpPuVexHqWovLkh1zedTJwit79BejONCcfH6Za1yHh8FtWQnGlktqyEknwO0ZC0xvIWmR//2Q==",
-    "title": "",
+    "title": "Pehoe",
     "when": "February 22nd, 2020"
   },
   {
@@ -3664,7 +3436,7 @@ const data = [
     "notes": [],
     "src": "2020/02/18/b7f1cd33-958c-43a3-bec3-cf9c435e6d9b.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgT/xAAiEAEAAgEDAwUAAAAAAAAAAAABAAIREiFRMWKRA2FxgaL/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAYEQEBAQEBAAAAAAAAAAAAAAAAEQESMf/aAAwDAQACEQMRAD8AVb4zxNViNF6vIxB6yvPmB8Up6lbcn3DcObVINOVtXoZma1ABjCLLoQICmNzrvGjkw7TzLpcmrx+mVMRrbtF92ZJjZNkPiSGnDlMqcyqUoumWprMC/9k=",
-    "title": "",
+    "title": "Lago Pehoe",
     "when": "February 22nd, 2020"
   },
   {
@@ -3672,19 +3444,19 @@ const data = [
     "category": "Backpacking",
     "collectionId": "o-circuit",
     "elevation": {
-      "imperial": "803",
-      "metric": "245"
+      "imperial": "2,503",
+      "metric": "763"
     },
-    "id": "a94f259d-ca8b-4e42-ae3f-e5564c359075.jpeg",
+    "id": "380820b8-520a-49fa-8f01-651ca63fd84f.jpeg",
     "location": {
       "region": "Torres del Paine",
       "country": "Chile",
       "continent": "South America"
     },
     "notes": [],
-    "src": "2020/02/18/a94f259d-ca8b-4e42-ae3f-e5564c359075.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgT/xAAhEAEAAgIBAwUAAAAAAAAAAAABAAIDEVEhQWEiMTJicf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAwDAQACEQMRAD8AzjzPtfqcxSOmutbNa1zAnazZdzWRnboob7aeIqQ0TwSVYm46W5JlsVq0fTfpwyoEt2T9lCaW7sIpXJoBN+YVzitgWYVRx/ZlGL11X5MDBkV1ATdLagf/2Q==",
-    "title": "",
+    "src": "2020/02/18/380820b8-520a-49fa-8f01-651ca63fd84f.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAeACgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT/xAAeEAACAgMAAwEAAAAAAAAAAAAAAQIRAxIhQVFhcf/EABcBAQEBAQAAAAAAAAAAAAAAAAEAAgP/xAAXEQEBAQEAAAAAAAAAAAAAAAAAEQES/9oADAMBAAIRAxEAPwC9G89A3SEeROte/SRtQUSMczttt/hWGRTXOMLpmNa+AMA0Rxucmkm269iuTXkfqoKU78HPoxJzN3Zko6unXBWaoXhnaYHPbAU//9k=",
+    "title": "Paine Grande",
     "when": "February 23rd, 2020"
   },
   {
@@ -3704,68 +3476,8 @@ const data = [
     "notes": [],
     "src": "2020/02/18/dd6e739e-b793-4c64-8e7c-c6a631b467c7.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwX/xAAgEAEAAwABAwUAAAAAAAAAAAABAAIRIQMxQTJRYYGR/8QAFwEBAQEBAAAAAAAAAAAAAAAAAQACA//EABcRAQEBAQAAAAAAAAAAAAAAAAARATH/2gAMAwEAAhEDEQA/AKHyPEYKm1HdzvNY570FYqHpM1vMUNfK/RCmMK2Tk4mK1Bbqq8s1mgV6iPbd94pv071u5gME2K54IJzxTswaFrrw5EFEHvyyRWu56rfsi//Z",
-    "title": "",
+    "title": "Lago Skottsberg",
     "when": "February 23rd, 2020"
-  },
-  {
-    "camera": "iPhone X",
-    "category": "Backpacking",
-    "collectionId": "o-circuit",
-    "elevation": {
-      "imperial": "2,503",
-      "metric": "763"
-    },
-    "id": "380820b8-520a-49fa-8f01-651ca63fd84f.jpeg",
-    "location": {
-      "region": "Torres del Paine",
-      "country": "Chile",
-      "continent": "South America"
-    },
-    "notes": [],
-    "src": "2020/02/18/380820b8-520a-49fa-8f01-651ca63fd84f.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAeACgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT/xAAeEAACAgMAAwEAAAAAAAAAAAAAAQIRAxIhQVFhcf/EABcBAQEBAQAAAAAAAAAAAAAAAAEAAgP/xAAXEQEBAQEAAAAAAAAAAAAAAAAAEQES/9oADAMBAAIRAxEAPwC9G89A3SEeROte/SRtQUSMczttt/hWGRTXOMLpmNa+AMA0Rxucmkm269iuTXkfqoKU78HPoxJzN3Zko6unXBWaoXhnaYHPbAU//9k=",
-    "title": "",
-    "when": "February 23rd, 2020"
-  },
-  {
-    "camera": "iPhone X",
-    "category": "Backpacking",
-    "collectionId": "o-circuit",
-    "elevation": {
-      "imperial": "230",
-      "metric": "70"
-    },
-    "id": "0983f304-acb0-4c5a-b0d1-b3cf7f8b86ce.jpeg",
-    "location": {
-      "region": "Torres del Paine",
-      "country": "Chile",
-      "continent": "South America"
-    },
-    "notes": [],
-    "src": "2020/02/18/0983f304-acb0-4c5a-b0d1-b3cf7f8b86ce.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgMBBP/EACQQAAICAQMCBwAAAAAAAAAAAAECABEDEiExQUIEEyJRcYHw/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A6CfwmWhBPsTA3SSOa+YE2dV7x9SoB8QBxZgJW9OwNSKwEsTRqAHu6JJgTq9hAJlRTHlKNvuDzIq4yrpVtPJqEM40PaJQTiToouBnlJ1UQP/Z",
-    "title": "",
-    "when": "February 24th, 2020"
-  },
-  {
-    "camera": "iPhone X",
-    "category": "Backpacking",
-    "collectionId": "o-circuit",
-    "elevation": {
-      "imperial": "1,534",
-      "metric": "468"
-    },
-    "id": "790032e0-6483-4631-9cbe-d912510a1a48.jpeg",
-    "location": {
-      "region": "Torres del Paine",
-      "country": "Chile",
-      "continent": "South America"
-    },
-    "notes": [],
-    "src": "2020/02/18/790032e0-6483-4631-9cbe-d912510a1a48.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwT/xAAgEAACAgIBBQEAAAAAAAAAAAAAAQIRAxIhMUFRcYFS/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQIA/8QAFxEBAQEBAAAAAAAAAAAAAAAAAAEREv/aAAwDAQACEQMRAD8A3qLd20RqrshzSdNGc81Livg6OZWyiimTNCHC5kYTyS1q2l7MegaZF5zcm3fPcFOi5BJdmq8IjWPgAvEbUaQ/JSUIRi3rf0A2NKLFGSVxS9MAErf/2Q==",
-    "title": "",
-    "when": "February 24th, 2020"
   },
   {
     "camera": "iPhone X",
@@ -3784,7 +3496,7 @@ const data = [
     "notes": [],
     "src": "2020/02/18/020f3730-4325-49be-b655-b4a50e0a75c7.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgADAf/EACIQAAEDBAICAwAAAAAAAAAAAAEAAhEDEjFBEyEyYVGBkf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAbEQEBAQEAAwEAAAAAAAAAAAAAARECEjFBYf/aAAwDAQACEQMRAD8AQbTIyQtS2udkntcIOHtKumfo8L9CftNieNJtMtMujrSWrOb9K+TiAsOjG4DBAWZbFslRqNgQQFqdVm8yjeJ8vxW9E5xGoRgE+1NXAL3lRRg/KDsIEKc7QbU2T0Me0ArFs2hsRtTR/9k=",
-    "title": "",
+    "title": "Mirador Valle de Frances",
     "when": "February 24th, 2020"
   },
   {
@@ -3804,7 +3516,27 @@ const data = [
     "notes": [],
     "src": "2020/02/18/15575828-1783-4e5b-b92f-2b29abfc98ea.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT/xAAiEAABBAIBBAMAAAAAAAAAAAABAAIDESGBQRITMZEiQnH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAgH/xAAYEQEBAAMAAAAAAAAAAAAAAAAAEQESIf/aAAwDAQACEQMRAD8A6SHVitoJkSg8EKuIzsKHIARsHxBoHKEG7QOXgZJUqSdILAjbZvK1kP5BsaWVsRexzWgsur4QI50nN+ltTGmcHBYNKVjvtGOk+0D98H6naCUkzhgY/ECGVx8lB//Z",
-    "title": "",
+    "title": "Mirador Britanico",
+    "when": "February 24th, 2020"
+  },
+  {
+    "camera": "iPhone X",
+    "category": "Backpacking",
+    "collectionId": "o-circuit",
+    "elevation": {
+      "imperial": "1,534",
+      "metric": "468"
+    },
+    "id": "790032e0-6483-4631-9cbe-d912510a1a48.jpeg",
+    "location": {
+      "region": "Torres del Paine",
+      "country": "Chile",
+      "continent": "South America"
+    },
+    "notes": [],
+    "src": "2020/02/18/790032e0-6483-4631-9cbe-d912510a1a48.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwT/xAAgEAACAgIBBQEAAAAAAAAAAAAAAQIRAxIhMUFRcYFS/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQIA/8QAFxEBAQEBAAAAAAAAAAAAAAAAAAEREv/aAAwDAQACEQMRAD8A3qLd20RqrshzSdNGc81Livg6OZWyiimTNCHC5kYTyS1q2l7MegaZF5zcm3fPcFOi5BJdmq8IjWPgAvEbUaQ/JSUIRi3rf0A2NKLFGSVxS9MAErf/2Q==",
+    "title": "Lago Nordenskjold",
     "when": "February 24th, 2020"
   },
   {
@@ -3824,7 +3556,7 @@ const data = [
     "notes": [],
     "src": "2020/02/18/ad14885b-701d-4a08-9403-5fe65c21ffd5.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQIDAP/EAB0QAAICAwEBAQAAAAAAAAAAAAABAhESITFBA1H/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAYEQEBAQEBAAAAAAAAAAAAAAAAARIRMf/aAAwDAQACEQMRAD8A0VN9o1qMZpx1d2xqLmui721zwAVN2mE8VlFe7I0yZloXKPHQC/qnHmyxOIzvrZFDl+AMpb3sgnLrodApOgHF3sCmqA//2Q==",
-    "title": "",
+    "title": "Los Cuernos",
     "when": "February 25th, 2020"
   },
   {
@@ -3844,7 +3576,7 @@ const data = [
     "notes": [],
     "src": "2020/02/18/a1beea7b-7f94-43ce-b04e-0d11e327414c.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAQIAAwT/xAAiEAEAAgIABwADAAAAAAAAAAABAAIDERITITFBUpFRYaH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQMC/8QAGREBAQEBAQEAAAAAAAAAAAAAAAESEQIh/9oADAMBAAIRAxEAPwCbUR0mmaMr8Twyp1eOzjVAdyWdWeuFyWtYt02Rw0q2Rt4kyu2xps0vSSVbLU8FPY+y6TDODH7H2NGISmP2JNUxCcs7IxbXUkjkLfqcNA5Ee0IDNrx/YFc8/D9gLmrrswP/2Q==",
-    "title": "",
+    "title": "Laguna de los Cisnes",
     "when": "February 25th, 2020"
   },
   {
@@ -3864,7 +3596,7 @@ const data = [
     "notes": [],
     "src": "2020/02/18/7c8da66b-c28c-483c-ad78-158265b0ec63.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAeACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgADAf/EACIQAAICAQIHAQAAAAAAAAAAAAABAhEhAxITMUFRYXGhsf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AN0KzKGo+UoNeinNtJaadrLvBFPiLusOgauq0nGNt/hlsd215o5Jtyd9CVYGrdeyNeFuSvCIUbuNoDjJLLsm6XUO7BBb33Yo6bb3TdgbfMrd0BrJ4IF+PpAf/9k=",
-    "title": "",
+    "title": "Las Torres",
     "when": "February 25th, 2020"
   },
   {
@@ -3877,14 +3609,14 @@ const data = [
     },
     "id": "a00dcb55-664a-4db7-b71e-382f6ac14684.jpeg",
     "location": {
-      "region": "Phewa Lake, Pokhara",
+      "region": "Pokhara",
       "country": "Nepal",
       "continent": "Asia"
     },
     "notes": [],
     "src": "2019/11/06/a00dcb55-664a-4db7-b71e-382f6ac14684.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAQIDAAT/xAAgEAEAAgIBBQEBAAAAAAAAAAABAAIDESEEEjFBQlET/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8AD1NvWiSKx1VvYMQUOopY54YhWMoxCj3mtviBxFX9gOUH7IDGLf2QA0SqlhlRLbrW3Uium2E3rcBcVK5F16gWMRXw8fmpFHsJUSy4q/zUOSB//9k=",
-    "title": "",
+    "title": "Phewa Lake",
     "when": "November 6th, 2019"
   },
   {
@@ -3897,14 +3629,14 @@ const data = [
     },
     "id": "a9cf40fc-77bd-4f63-a3c6-7c1d6cc3bca8.jpeg",
     "location": {
-      "region": "Phewa Lake, Pokhara",
+      "region": "Pokhara",
       "country": "Nepal",
       "continent": "Asia"
     },
     "notes": [],
     "src": "2019/11/06/a9cf40fc-77bd-4f63-a3c6-7c1d6cc3bca8.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAQACAwT/xAAfEAACAQMFAQAAAAAAAAAAAAAAAQIDERITFDFBUVL/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwDrIoYAwKsIGBTcxfFgM51m+yozdR+hYNWX0wJqv1gghSlJX4RFLg12VFcWRRiBLAf/2Q==",
-    "title": "",
+    "title": "Phewa Lake",
     "when": "November 6th, 2019"
   },
   {
@@ -3917,14 +3649,14 @@ const data = [
     },
     "id": "0a6730d7-113b-4bca-b9d1-71ecf8e69713.jpeg",
     "location": {
-      "region": "Phewa Lake, Pokhara",
+      "region": "Pokhara",
       "country": "Nepal",
       "continent": "Asia"
     },
     "notes": [],
     "src": "2019/11/06/0a6730d7-113b-4bca-b9d1-71ecf8e69713.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMCAQT/xAAfEAEBAAICAgMBAAAAAAAAAAABAAIRITESEwMiQVH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AN4/KNQyG8wj0Db4OiC+5ul5mu9XPYfrqC3lKJmPAkgh7D+WjNfziSDhmdpzbfqbQ5kg4ZbkkR//2Q==",
-    "title": "",
+    "title": "Phewa Lake",
     "when": "November 6th, 2019"
   },
   {
@@ -3937,14 +3669,14 @@ const data = [
     },
     "id": "4286cd26-eaad-47b1-96f7-2dff5ea38352.jpeg",
     "location": {
-      "region": "Peace Pagoda, Pokhara",
+      "region": "Pokhara",
       "country": "Nepal",
       "continent": "Asia"
     },
     "notes": [],
     "src": "2019/11/06/4286cd26-eaad-47b1-96f7-2dff5ea38352.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAQACAwT/xAAfEAACAgIBBQAAAAAAAAAAAAAAAQIREjEhAxMyUWH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABYRAQEBAAAAAAAAAAAAAAAAAAARIf/aAAwDAQACEQMRAD8A6LdaAGAOEuHQFaKDEI0IqR8kgCU33Ma49kurAiogFOi3OeLb1ZFazqEbQFdfWRThbZUZuVSoD//Z",
-    "title": "",
+    "title": "World Peace Pagoda",
     "when": "November 7th, 2019"
   },
   {
@@ -3957,14 +3689,14 @@ const data = [
     },
     "id": "b9fbb54b-5103-4145-afbb-84828ecdc104.jpeg",
     "location": {
-      "region": "Peace Pagoda, Pokhara",
+      "region": "Pokhara",
       "country": "Nepal",
       "continent": "Asia"
     },
     "notes": [],
     "src": "2019/11/06/b9fbb54b-5103-4145-afbb-84828ecdc104.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAQAE/8QAHRAAAwACAgMAAAAAAAAAAAAAAAERAyETUTFBYf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAYEQEBAQEBAAAAAAAAAAAAAAAAEQECMf/aAAwDAQACEQMRAD8A1UCoDQKgVAzvL6Mb01Dy9sudJDyfS3CB5deRSFZU1RSM9pzb9S7AVW1sqIgFJso//9k=",
-    "title": "",
+    "title": "World Peace Pagoda",
     "when": "November 7th, 2019"
   },
   {
@@ -3977,14 +3709,14 @@ const data = [
     },
     "id": "6087e410-15a0-4a8f-8781-e7e780d35c33.jpeg",
     "location": {
-      "region": "Peace Pagoda, Pokhara",
+      "region": "Pokhara",
       "country": "Nepal",
       "continent": "Asia"
     },
     "notes": [],
     "src": "2019/11/06/6087e410-15a0-4a8f-8781-e7e780d35c33.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECA//EAB0QAAIDAQEAAwAAAAAAAAAAAAABAhEhMUEiUcH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ACOyIp38u4BL2XQKVLP0Cu+AZxvWA2sASTu10C6b1AN3WAZQklHUAOXqAFN8fQLUqiEO/v0K/9k=",
-    "title": "",
+    "title": "World Peace Pagoda",
     "when": "November 7th, 2019"
   },
   {
@@ -3997,14 +3729,14 @@ const data = [
     },
     "id": "9bbcf55a-54e8-4a7e-8c6f-12d718bc0da0.jpeg",
     "location": {
-      "region": "Paragliding, Pokhara",
+      "region": "Pokhara",
       "country": "Nepal",
       "continent": "Asia"
     },
     "notes": [],
     "src": "2019/11/06/9bbcf55a-54e8-4a7e-8c6f-12d718bc0da0.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIDAQT/xAAfEAEBAAICAgMBAAAAAAAAAAABAAIRAxJRYSExMkH/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQID/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwCjL1cOcMuqJQoOtu/VLxbyHtp80yqxq8hlkBd+f6asDhTL9DeoccvVUpWMklpljJpYDt2fdWKo+ZLJonesq+0kBRyJJK4T/9k=",
-    "title": "",
+    "title": "Sarangkot",
     "when": "November 8th, 2019"
   },
   {
@@ -4124,7 +3856,7 @@ const data = [
     "notes": [],
     "src": "2026/03/14/8e8fd062-270f-4081-96c3-ee072a81caab.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECA//EACAQAAICAgICAwAAAAAAAAAAAAABAhEDITFhMlESQpH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwCOVxfsYeH+mZeLLiTrRKna27H1MWapvngUh8rdx2wHpc6AHLLqHZrD432ABZak17LB3DtAATcslN6QAA//2Q==",
-    "title": "",
+    "title": "Trailhead",
     "when": "March 14th, 2026"
   },
   {
@@ -4144,7 +3876,7 @@ const data = [
     "notes": [],
     "src": "2026/03/14/2665b912-007f-485f-b636-07079e321e20.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIDAf/EAB8QAAICAgEFAAAAAAAAAAAAAAABAhESIVEjMWFxkf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/ANG8Iza9k10VfBE5P6juTxSIqoypIltO+aOpSq2teSN70FaOnjwCNgEKtmsYJbYBBT7MzAAloABX/9k=",
-    "title": "",
+    "title": "Forest Glen",
     "when": "March 14th, 2026"
   },
   {
@@ -4164,7 +3896,7 @@ const data = [
     "notes": [],
     "src": "2026/03/14/91ed5400-2265-4b23-b20e-45bb0c6e36f3.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCAf/EAB8QAAICAgEFAAAAAAAAAAAAAAABAhEhQRIDIjEygf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/ANwkl04q/B1S7X9J1hDiq2SrFYtKVMnN1KzvCneic1nGRSNRdJNvQJ02BSN2bh7AEVTJiUdoACewAB//2Q==",
-    "title": "",
+    "title": "Forest Glen",
     "when": "March 14th, 2026"
   },
   {
@@ -4184,7 +3916,7 @@ const data = [
     "notes": [],
     "src": "2026/03/14/3c8c077a-72fd-4319-8faa-7c03ad505b8a.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgAB/8QAIRAAAgIBAwUBAAAAAAAAAAAAAAERIQISMVEiIzJBcYH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AMnq/B6mlXAV5TInGl0Sosc+2lAbZiaW1mz9AJGq3WxABOaFMTwRAbheMi9kQBbhtkRAf//Z",
-    "title": "",
+    "title": "Forest Glen",
     "when": "March 14th, 2026"
   },
   {
@@ -4204,7 +3936,7 @@ const data = [
     "notes": [],
     "src": "2026/03/14/bfb02a8a-045d-456f-a389-95aefbff4628.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBAH/xAAfEAACAQQCAwAAAAAAAAAAAAAAASECERJRA0ETMVL/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwDS0mcw0yjJ7Yyf0yVYn5Lcjoam8FtzLVPInefZPJ7YpF89Az3ewKRG7dKt2dSewAphk4ch0NxlKAAKl7kAEH//2Q==",
-    "title": "",
+    "title": "Forest Glen",
     "when": "March 15th, 2026"
   },
   {
@@ -4226,7 +3958,7 @@ const data = [
     ],
     "src": "2026/03/14/1e1be596-c236-4cee-9eb2-fac89329e0e6.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBP/EACEQAAIBAwMFAAAAAAAAAAAAAAABERJSoQIhkSIxUVOC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwDokSSSd74RpJ3YFwmqbCfBP7wN/Y+EKRQE+q/AFWJyxUAZaExVLACGpx2AAV//2Q==",
-    "title": "",
+    "title": "Forest Glen",
     "when": "March 15th, 2026"
   },
   {
@@ -4239,14 +3971,14 @@ const data = [
     },
     "id": "9f212336-298d-4c7d-874f-a3be34c95d7d.jpeg",
     "location": {
-      "region": "Ocean Park Beach, San Juan",
+      "region": "San Juan",
       "country": "Puerto Rico",
       "continent": "North America"
     },
     "notes": [],
     "src": "2022/03/23/9f212336-298d-4c7d-874f-a3be34c95d7d.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIDAQT/xAAfEAADAQABBQEBAAAAAAAAAAAAAQIREgMhMVFxQWH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwCIpJ92U5mvHZfDBcvRpNPw9A3npzhczhlNJfmFql7JVjV5gIqmp1S38BB4taO628AKL3ji/hU0ARV11OE7m6AAP//Z",
-    "title": "Beach walks",
+    "title": "Point Playa",
     "when": "March 22nd, 2022"
   },
   {
@@ -4259,14 +3991,14 @@ const data = [
     },
     "id": "4b6afcfd-0563-49d6-89a3-77625029bbc2.jpeg",
     "location": {
-      "region": "Ocean Park Beach, San Juan",
+      "region": "San Juan",
       "country": "Puerto Rico",
       "continent": "North America"
     },
     "notes": [],
     "src": "2022/03/23/4b6afcfd-0563-49d6-89a3-77625029bbc2.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT/xAAiEAACAQQCAQUAAAAAAAAAAAABAgADERIhMTJBUVJhkaH/xAAXAQEBAQEAAAAAAAAAAAAAAAABAAID/8QAGBEBAQEBAQAAAAAAAAAAAAAAABEBEgL/2gAMAwEAAhEDEQA/AEKTq41mElQEJOpGqpRvydTO+jnndVFJRwbmHWnjHPkPcv7Gs8Mv6OohWs8DM27rCnkyOQNMIU5igqESMcpK/MqoAyjhTAwZLbrImFQaFj9yBxUFvMk//9k=",
-    "title": "",
+    "title": "Ocean Park Beach",
     "when": "March 22nd, 2022"
   },
   {
@@ -4279,14 +4011,14 @@ const data = [
     },
     "id": "53a96049-262f-4e6b-b331-78b74c5e01e2.jpeg",
     "location": {
-      "region": "Ocean Park Beach, San Juan",
+      "region": "San Juan",
       "country": "Puerto Rico",
       "continent": "North America"
     },
     "notes": [],
     "src": "2022/03/23/53a96049-262f-4e6b-b331-78b74c5e01e2.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECA//EACMQAAICAQMDBQAAAAAAAAAAAAECABESAzFRBBNhIkFScYH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQP/xAAYEQEBAQEBAAAAAAAAAAAAAAAAEQEhEv/aAAwDAQACEQMRAD8AxU2YUxkWlQUqCrgeN9oDNeZKk0zXe7j1i+dM19jUUmgdRxFJq93yJOHXZtMBfSq35mdbzHA9O9klh+SCdl/kIGl0jjdiLpMQuNM06KfqXpMf/9k=",
-    "title": "",
+    "title": "Parque del Indio",
     "when": "March 22nd, 2022"
   },
   {
@@ -4299,14 +4031,14 @@ const data = [
     },
     "id": "1b2ca395-4e5e-4997-87dc-417b95b08710.jpeg",
     "location": {
-      "region": "Ocean Park Beach, San Juan",
+      "region": "San Juan",
       "country": "Puerto Rico",
       "continent": "North America"
     },
     "notes": [],
     "src": "2022/03/23/1b2ca395-4e5e-4997-87dc-417b95b08710.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECA//EACMQAAICAAUEAwAAAAAAAAAAAAECABEDEiEiQTFScZFRgbH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAgED/8QAGhEBAQEBAQEBAAAAAAAAAAAAAAERQRICIf/aAAwDAQACEQMRAD8Arb8iXrj5Lb3Cbp5G3uEaeTGStTZmbWz5nQSnH7G0yHScqB9yHUUnCr7hmIVsNuirBkGbD6ZBfiaz8GZeFX1AkCzJ1WIxjlUAcw1CE2NZSetsUGg4PmR83irOmm5bvWVSP//Z",
-    "title": "",
+    "title": "Point Playa",
     "when": "March 22nd, 2022"
   },
   {
@@ -4319,7 +4051,7 @@ const data = [
     },
     "id": "1ba3d3f7-9462-4375-9770-4efedf15f582.jpeg",
     "location": {
-      "region": "Old City, San Juan",
+      "region": "San Juan",
       "country": "Puerto Rico",
       "continent": "North America"
     },
@@ -4339,14 +4071,14 @@ const data = [
     },
     "id": "11a03e4e-ed4e-47c2-822e-f720a9628638.jpeg",
     "location": {
-      "region": "El Yunque",
+      "region": "El Yunque National Forest",
       "country": "Puerto Rico",
       "continent": "North America"
     },
     "notes": [],
     "src": "2022/03/23/11a03e4e-ed4e-47c2-822e-f720a9628638.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAgEAEAAgEEAgMAAAAAAAAAAAABAhEAEiExQWGBAxMi/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAERMf/aAAwDAQACEQMRAD8A56DqzMquRtZ1gEJSHa8Df55tGhTxlGBHTvOXozInngyghFeRTxiQ6R2swGyBLu8lBT/VBy9ZQyqZF7eDKKiwI6nV6wLi3HYN3vAldUOAXjAU5fXGwLcmj//Z",
-    "title": "Rain forest",
+    "title": "Rio Abajo",
     "when": "March 24th, 2022"
   },
   {
@@ -4426,7 +4158,7 @@ const data = [
     "notes": [],
     "src": "2016/03/18/b941c594-5218-449f-b79d-cb9936f56ad5.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBA//EABwQAAMBAAIDAAAAAAAAAAAAAAABAhEhMQNBUf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8A5+WshT9JTU6n7Rl8+TSWm2YjTo5iusMmdedcEZ0Vep/OBSpbik0+ECNbAYlV0Zra9AFCzlMOnWaAIagABf/Z",
-    "title": "Wine Tasting",
+    "title": "Cousino Macul",
     "when": "March 23rd, 2016"
   },
   {
@@ -4499,14 +4231,14 @@ const data = [
     },
     "id": "52f1514b-91a4-494d-93df-6ae9c81df01c.jpeg",
     "location": {
-      "region": "Mount Elbert",
+      "region": "Sawatch Range",
       "country": "Colorado",
       "continent": "North America"
     },
     "notes": [],
     "src": "2019/08/31/52f1514b-91a4-494d-93df-6ae9c81df01c.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMBAv/EAB0QAQEAAgIDAQAAAAAAAAAAAAABERICAxMhQWH/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQIE/8QAGBEBAQEBAQAAAAAAAAAAAAAAAAECEiH/2gAMAwEAAhEDEQA/AI4MKzjL9dTrl+q6iOdI4NV718cemaHNSlZYlqLeOikeuONkmI6zZcAzNTc2GwAN2v6ADf/Z",
-    "title": "",
+    "title": "Mount Elbert",
     "when": "August 31st, 2019"
   },
   {
@@ -4519,14 +4251,14 @@ const data = [
     },
     "id": "08d28c7e-387b-418f-8226-b2a87485f1d8.jpeg",
     "location": {
-      "region": "Quandary Peak",
+      "region": "Tenmile Range",
       "country": "Colorado",
       "continent": "North America"
     },
     "notes": [],
     "src": "2019/09/01/08d28c7e-387b-418f-8226-b2a87485f1d8.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBA//EACAQAAICAQQDAQAAAAAAAAAAAAABAhEhEjFBcRMiMoH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQMC/8QAFxEBAQEBAAAAAAAAAAAAAAAAAAECEv/aAAwDAQACEQMRAD8AePGxLidI2o/X4bxbVl7kc8WuNPTkynwdvV7KmTjnAmoXNZlRqlXQL0uStO+gUY2U5NRTAMWzEtW2GROTTp5AIJdrZtdMAFH/2Q==",
-    "title": "",
+    "title": "Quandary Peak",
     "when": "September 1st, 2019"
   },
   {
@@ -4539,14 +4271,14 @@ const data = [
     },
     "id": "e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
     "location": {
-      "region": "La Plata Peak",
+      "region": "Sawatch Range",
       "country": "Colorado",
       "continent": "North America"
     },
     "notes": [],
     "src": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAhEAACAQMDBQAAAAAAAAAAAAAAARESQVECEzEDIVJhkf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAWEQEBAQAAAAAAAAAAAAAAAAAAERL/2gAMAwEAAhEDEQA/AOz6aXLRqsZShZX0tTJQnw0KZNtehpMm0KZeSX5Ga6Ql5QpCXbuKsVahUhWKRmmCNNJLBBZmwCNLsBmkD//Z",
-    "title": "",
+    "title": "La Plata Peak",
     "when": "September 4th, 2020"
   },
   {
@@ -4559,14 +4291,14 @@ const data = [
     },
     "id": "54a89ed8-86d4-4918-b7b3-b883ecea72c8.jpeg",
     "location": {
-      "region": "Mount Bierstadt",
+      "region": "Front Range",
       "country": "Colorado",
       "continent": "North America"
     },
     "notes": [],
     "src": "2020/09/05/54a89ed8-86d4-4918-b7b3-b883ecea72c8.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDAv/EACMQAAIBAwIHAQAAAAAAAAAAAAABAgMRYRIUBBMhMkKRsfD/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8ArpKyNIBpAaiFNRIJ7inkLGlVpvyQIfMppXcl7BEp8XFdivlgT3U/yCo3wQF8AaVR2svgGGALqB//2Q==",
-    "title": "",
+    "title": "Mount Bierstadt",
     "when": "September 5th, 2020"
   },
   {
@@ -4579,14 +4311,14 @@ const data = [
     },
     "id": "80307849-8964-4e0d-a70f-f6371ca7fcad.jpeg",
     "location": {
-      "region": "Grays Peak",
+      "region": "Front Range",
       "country": "Colorado",
       "continent": "North America"
     },
     "notes": [],
     "src": "2020/09/06/80307849-8964-4e0d-a70f-f6371ca7fcad.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQIEAP/EAB0QAQEAAgIDAQAAAAAAAAAAAAEAAgQRURMUQWH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwCjGqKMILMaKoIEIMXnT5Amw9ECbL1BXtfkhSbR1IVnSipyxqg44g5gIP/Z",
-    "title": "",
+    "title": "Grays Peak",
     "when": "September 6th, 2020"
   },
   {
@@ -4599,14 +4331,14 @@ const data = [
     },
     "id": "fbe767d5-63c6-4af7-8643-ceef9b4cce92.jpeg",
     "location": {
-      "region": "Mount Shavano",
+      "region": "Sawatch Range",
       "country": "Colorado",
       "continent": "North America"
     },
     "notes": [],
     "src": "2021/09/07/fbe767d5-63c6-4af7-8643-ceef9b4cce92.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMBAgT/xAAbEAADAQADAQAAAAAAAAAAAAAAARECEiFBYf/EABcBAAMBAAAAAAAAAAAAAAAAAAABAwL/xAAZEQEBAAMBAAAAAAAAAAAAAAAAAQIRElH/2gAMAwEAAhEDEQA/AOIZCsCzfUV3EdXxKCFljPrp20p0ZucbmNeaAvwy/gH1C5o+tcWZEwCKxIFroAA2gAA//9k=",
-    "title": "",
+    "title": "Mount Shavano",
     "when": "September 7th, 2021"
   },
   {
@@ -4619,14 +4351,14 @@ const data = [
     },
     "id": "8e1e0c1f-c391-4bc0-807c-7bdd8d20815b.jpeg",
     "location": {
-      "region": "Mount De-Ca-Li",
+      "region": "Mosquito Range",
       "country": "Colorado",
       "continent": "North America"
     },
     "notes": [],
     "src": "2021/09/09/8e1e0c1f-c391-4bc0-807c-7bdd8d20815b.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAeACgDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDAv/EACAQAAIBAwQDAAAAAAAAAAAAAAABEQISUSExQWFCUoL/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAwH/xAAYEQEBAQEBAAAAAAAAAAAAAAAAARICEf/aAAwDAQACEQMRAD8AzaFpT5HoU1Epx0laO0omlMwxyl4mahip2gVvpXAG6MVuVgUL1JS8jlrkiu26eoJtV07KV0E5HKwBnTatIDTaqWwG+nj/2Q==",
-    "title": "",
+    "title": "Mount Decalibron",
     "when": "September 9th, 2021"
   },
   {
@@ -4639,14 +4371,14 @@ const data = [
     },
     "id": "f722df6c-2869-4ff0-80f7-37014241e135.jpeg",
     "location": {
-      "region": "Mount Belford",
+      "region": "Sawatch Range",
       "country": "Colorado",
       "continent": "North America"
     },
     "notes": [],
     "src": "2022/09/09/f722df6c-2869-4ff0-80f7-37014241e135.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgEDAP/EACIQAAEEAQQCAwAAAAAAAAAAAAEAAhEhAxITMaFBUUJSkf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwAPxObz+haZA43ATpMIDpQUNPqkDGEuHgIp7zfp2pSIMsmGs7SkcXTZZ2lIW6R8YUqxDlrhWowAJUVsxkV6UUjLRUTKDPcIyQ66QIQ8iolB/9k=",
-    "title": "",
+    "title": "Mount Belford",
     "when": "September 9th, 2022"
   },
   {
@@ -4659,14 +4391,14 @@ const data = [
     },
     "id": "b74f68ae-d627-4a89-9122-fbc75562e59d.jpeg",
     "location": {
-      "region": "Mount Massive",
+      "region": "Sawatch Range",
       "country": "Colorado",
       "continent": "North America"
     },
     "notes": [],
     "src": "2022/09/11/b74f68ae-d627-4a89-9122-fbc75562e59d.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQIDAP/EAB0QAAICAwEBAQAAAAAAAAAAAAABAhESIUEDMVH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/ABizow2DAGNuugDBgbBgO/VR6ZVOXpKfaX4RYk9PT2A8fefxuwC5t9KFSMqZRAnJq3qioUAgf//Z",
-    "title": "",
+    "title": "Mount Massive",
     "when": "September 11th, 2022"
   },
   {
@@ -5119,7 +4851,7 @@ const data = [
     },
     "id": "8a0d6d12-a40d-47ba-9d09-6b8d5572bb32.jpeg",
     "location": {
-      "region": "Les Houches",
+      "region": "Chamonix",
       "country": "France",
       "continent": "Europe"
     },
@@ -5146,7 +4878,7 @@ const data = [
     "notes": [],
     "src": "2024/07/27/ac7799bd-b2a8-4f77-8a8d-6d42a8740390.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAEDAv/EACAQAAICAgEFAQAAAAAAAAAAAAABAhIRITEDEyJRUmH/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQID/8QAFxEBAQEBAAAAAAAAAAAAAAAAAAEREv/aAAwDAQACEQMRAD8AsZVfGTt9W0cNaMnLAbXsus5sVQUuJJF7cWvGWzO2CWTX6GiR1SXywZ3aemwLo+RvZU20AJTlvgLLYAqI0oACVP/Z",
-    "title": "Auberge Le Truc",
+    "title": "Mont Blanc",
     "when": "July 27th, 2024"
   },
   {
@@ -5159,14 +4891,14 @@ const data = [
     },
     "id": "be372999-42b4-404b-bd64-2cf56f843f25.jpeg",
     "location": {
-      "region": "Auberge Le Truc, Saint-Gervais-les-Bains",
+      "region": "Saint-Gervais-les-Bains",
       "country": "France",
       "continent": "Europe"
     },
     "notes": [],
     "src": "2024/07/27/be372999-42b4-404b-bd64-2cf56f843f25.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAEDAv/EAB4QAQEAAgICAwAAAAAAAAAAAAEAAhESMQMhQVFx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAED/8QAFxEBAQEBAAAAAAAAAAAAAAAAABEBEv/aAAwDAQACEQMRAD8A3/GqG0gcmijl9wQR+YMR1TrFjoyR9MuJHXN10VEcuLt1uKzfIb7pQslIBBdD2VqjgEH/2Q==",
-    "title": "",
+    "title": "Auberge Le Truc",
     "when": "July 27th, 2024"
   },
   {
@@ -5186,7 +4918,7 @@ const data = [
     "notes": [],
     "src": "2024/07/27/10146a42-b18d-4318-bc5b-c32279532e4d.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAhEAACAgICAQUAAAAAAAAAAAAAAQIRAyESMVETQXGRwf/EABcBAAMBAAAAAAAAAAAAAAAAAAABAgP/xAAZEQEBAQEBAQAAAAAAAAAAAAAAAQISEVH/2gAMAwEAAhEDEQA/ANem2rTsksbjVkuSZFmmtPfyVNouPhxLxKstq6Rl5JOL/B9J4qtJdg4rnKWkCburmI9NLwZe/ZAGTRlpJVv7KoatvXgAPSJNV1oAAH//2Q==",
-    "title": "Refuge La Croix du Bonhomme",
+    "title": "Refuge de la Balme",
     "when": "July 28th, 2024"
   },
   {
@@ -5206,7 +4938,7 @@ const data = [
     "notes": [],
     "src": "2024/07/27/04e91698-82d1-49be-b823-768e10dc3423.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQIAA//EACMQAAICAQMDBQAAAAAAAAAAAAECABEhEjFhAxNBMlFSgZH/xAAXAQEBAQEAAAAAAAAAAAAAAAABAAID/8QAGhEBAQADAQEAAAAAAAAAAAAAAAECERITIf/aAAwDAQACEQMRAD8ANb1VzrqOXVZXZdjcrFKrvN4xDk9BSEt2NXC04/XNuuxJrA5mNt6dFKt4M16Mea6UDCgmHda4iSGPoGk+5h1VMYB0aNsdR5mWgyXvX5AgQSzaIB8pBlN/UkS1b5EtlVWtjbmKf//Z",
-    "title": "",
+    "title": "Col du Bonhomme",
     "when": "July 28th, 2024"
   },
   {
@@ -5226,7 +4958,7 @@ const data = [
     "notes": [],
     "src": "2024/07/27/be9a961c-fc7d-43dc-b466-29a359d1cd12.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBA//EAB8QAAIBBQADAQAAAAAAAAAAAAABEQIhMUFREnGBof/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAXEQEBAQEAAAAAAAAAAAAAAAAAARIC/9oADAMBAAIRAxEAPwCop7Av1P4THGvpucqPQ0l5ipthSaqltEJQ7tmN1aSXsaMx186UsA4X7IGjK1G0UoTwAc40yp7ZNuAEqthvf4AAP//Z",
-    "title": "Refuge Robert Blanc",
+    "title": "Torrent des Glaciers",
     "when": "July 29th, 2024"
   },
   {
@@ -5246,7 +4978,7 @@ const data = [
     "notes": [],
     "src": "2024/07/27/7a0ae762-e926-44fe-a2de-660484cca8fc.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAiEAEAAgIBAgcAAAAAAAAAAAABABECAyESYRMUMTJBQnH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8A6IsioqDplVDMYVQLjj6ofsKYw8SpUwG6Ih+Yr4gg78koAZFimTyiskrpx7wK8dJfMQp1H14kmftaQkTsq277SD//2Q==",
-    "title": "",
+    "title": "Refuge Robert Blanc",
     "when": "July 29th, 2024"
   },
   {
@@ -5259,16 +4991,14 @@ const data = [
     },
     "id": "a45073e7-ef67-4e31-a5e7-3ba9b4b97b4e.jpeg",
     "location": {
-      "region": "Courmayeur",
-      "country": "Italy",
+      "region": "Glacier des lanchettes",
+      "country": "France",
       "continent": "Europe"
     },
-    "notes": [
-      "The hardest day on this thru-hike with multiple summits and 16 miles of hiking"
-    ],
+    "notes": [],
     "src": "2024/07/27/a45073e7-ef67-4e31-a5e7-3ba9b4b97b4e.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAeACgDASIAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAAMBAgT/xAAfEAEBAAEEAgMAAAAAAAAAAAABABECEhMxA0EhUXH/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAH/xAAWEQEBAQAAAAAAAAAAAAAAAAAAIQH/2gAMAwEAAhEDEQA/AOh02u0fZR5x7Jy6WQxXZNlI8uOnFnm1fdtZFNkpHl1emVVHKDbAor0QFcZqBjqJ6nhxZCsfJinqMOKEHUGBx+SSmv/Z",
-    "title": "Rifugio Maison Veille",
+    "title": "Robert Blanc",
     "when": "July 30th, 2024"
   },
   {
@@ -5288,7 +5018,27 @@ const data = [
     "notes": [],
     "src": "2024/07/27/9fc630d8-23a0-4ce1-9eb6-ea30088322eb.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAQIDAAT/xAAiEAACAQMDBQEAAAAAAAAAAAAAARECAyESMUEiUWGBoZH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/AKJ0vZrBqsQ8Em9Ehz2IjkE5ujwjFbh6LjSyazRuM7r4G4JqbqzLf0KoCuJbVfSphtC4RiNGVvljAbQoiBSdU0OMNAg1xlJfgVP/2Q==",
-    "title": "",
+    "title": "Col de la Seigne",
+    "when": "July 30th, 2024"
+  },
+  {
+    "camera": "iPhone 13 Pro",
+    "category": "Backpacking",
+    "collectionId": "tour-du-mont-blanc-2024",
+    "elevation": {
+      "imperial": "6,416",
+      "metric": "1,956"
+    },
+    "id": "b2a56d4d-998f-41e4-a4e3-f1d8dc472a23.jpeg",
+    "location": {
+      "region": "Courmayeur",
+      "country": "Italy",
+      "continent": "Europe"
+    },
+    "notes": [],
+    "src": "2024/07/27/b2a56d4d-998f-41e4-a4e3-f1d8dc472a23.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAQIDBAD/xAAeEAACAgICAwAAAAAAAAAAAAAAAQIRAzEEIRJxgf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABcRAQEBAQAAAAAAAAAAAAAAAAABERL/2gAMAwEAAhEDEQA/ANTXWiQ+Eg0SRaEUNpbJKo8mS3UiyDaujnhJbr2GU9RLzhW1QZTsU5ORFdRVsUzvJJythqwGS4iSAZEdCH//2Q==",
+    "title": "Maison Veille",
     "when": "July 30th, 2024"
   },
   {
@@ -5308,7 +5058,7 @@ const data = [
     "notes": [],
     "src": "2024/07/27/f1310350-3cb1-4f1b-b591-e08d0971f23b.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBA//EACQQAAICAQMCBwAAAAAAAAAAAAABAhEDMUFREiETIiMzYXGB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAECA//EABgRAQEBAQEAAAAAAAAAAAAAAAABEgIR/9oADAMBAAIRAxEAPwCvEU13uLXA9Scfg51wXCbj9D9TYjpd1ub0vfsdW8WrIlkivbj+sd7icUyPHCKpNy4sHJ6tvVgjVaZhFVuza4AINSXkk2Q2wADG6AAw/9k=",
-    "title": "Rifugio Bonatti",
+    "title": "Val Ferret",
     "when": "July 31st, 2024"
   },
   {
@@ -5328,7 +5078,7 @@ const data = [
     "notes": [],
     "src": "2024/07/27/5b46b0ae-1497-48bd-acd9-54ea4176d0dd.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDAf/EACAQAQACAgIBBQAAAAAAAAAAAAEAAhEhAzFBEiJRYXH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/ALUTp1KkLaxa3teoC7CKRm2Eb19ykQbL5WGQWauncKqci+BZI1WtsOg6/YN0leZMeoyfMRKmysjqFBbDIprOsmoCSo//2Q==",
-    "title": "",
+    "title": "Rifugio Bonatti",
     "when": "July 31st, 2024"
   },
   {
@@ -5348,7 +5098,7 @@ const data = [
     "notes": [],
     "src": "2024/07/27/b70777d8-b89d-4d60-b422-2d2af80483e4.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECA//EAB8QAAICAgMAAwAAAAAAAAAAAAABAhESITFRkQNhcf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABcRAQEBAQAAAAAAAAAAAAAAAAABEQL/2gAMAwEAAhEDEQA/AItdP9Lnql4Wk1zZmUWuPAnSvLaklG62M8ltO+zmpa6ZY22a0YqVPiwVtIBtORqMcpcJR6SE9zoAzS5tY7XhqFS+PL74ACJJOtoACn//2Q==",
-    "title": "Hotel Edelweiss",
+    "title": "Grand Col Ferret",
     "when": "August 1st, 2024"
   },
   {
@@ -5368,7 +5118,7 @@ const data = [
     "notes": [],
     "src": "2024/07/27/ea0d6edd-6de0-41a6-a0cf-0b79c2ab931a.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAgEAACAgIBBQEAAAAAAAAAAAAAAQIRAyETEiIxQlFh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwDoca2nr9FQXQUXsBN/AFYEvLGOnOLIHKaW26RRHOiUTzq9rQotZYP2LRhjx9cquqM4rfLiUld9yXn6UctmQAIo/9k=",
-    "title": "",
+    "title": "Grand Col Ferret",
     "when": "August 1st, 2024"
   },
   {
@@ -5388,7 +5138,7 @@ const data = [
     "notes": [],
     "src": "2024/07/27/22400157-4853-4974-856b-86b1bc986ef9.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBP/EACIQAQABAwQCAwEAAAAAAAAAAAEAAhEhAxIxUUFhEyJxof/EABcBAQEBAQAAAAAAAAAAAAAAAAEAAgP/xAAZEQEAAwEBAAAAAAAAAAAAAAAAAQISEWH/2gAMAwEAAhEDEQA/AJlVenw4mvm3tqm0P18jDS1GQemEWU16oKNmq0214sXfc5mnbfPEU1aiWLh2zWoZzKzqbXKHqJF03sP6xDRz6tsqMqW6CNtPkvETk0CHAEqFqc5vERqktU2VfvEREU//2Q==",
-    "title": "Gîte Bon Abri",
+    "title": "Gite Bon Abri",
     "when": "August 2nd, 2024"
   },
   {
@@ -5408,7 +5158,7 @@ const data = [
     "notes": [],
     "src": "2024/07/27/8305ad08-4815-4121-8ae9-610b25f3925c.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAgMABAUB/8QAGRAAAgMBAAAAAAAAAAAAAAAAAAECAxEh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwAIWAWoS0gNMCAcAzYsKdCzGEWFYgD3QIBmIKOPOgEpvQh9VjfGA7QP/9k=",
-    "title": "",
+    "title": "Col de la Forclaz",
     "when": "August 3rd, 2024"
   },
   {
@@ -5428,7 +5178,7 @@ const data = [
     "notes": [],
     "src": "2024/07/27/6ce63fae-271d-4cdf-a0f6-c090e1c678b4.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAQACAwT/xAAcEAACAgIDAAAAAAAAAAAAAAAAAQMRAkETUXH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AN7IGwGwECAcqm8AspgLcoCpFsBUmPYHDegpTA0sCt0BHkEf/9k=",
-    "title": "",
+    "title": "Alpage de Bovine",
     "when": "August 3rd, 2024"
   },
   {
@@ -5448,7 +5198,7 @@ const data = [
     "notes": [],
     "src": "2024/07/27/7169be39-157f-4158-a3c7-fa83503ce67b.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAQIDAAT/xAAgEAEAAgEEAgMAAAAAAAAAAAABAAIRAxIxUSFBE2GR/8QAFwEBAQEBAAAAAAAAAAAAAAAAAQIAA//EABkRAQEBAQEBAAAAAAAAAAAAAAARASECMf/aAAwDAQACEQMRAD8AqWGscTvxPa54nSuPRKvsmpmmrp54ZO+lZ4a9q6fKL1NaZHMXuSeK6rXXyYzhmGlbLyrLRNK6iGDxBWJtoGLTmoPHUcYEq+o7wBsq9/sKzfHX7mrP/9k=",
-    "title": "",
+    "title": "Le Peuty",
     "when": "August 4th, 2024"
   },
   {
@@ -5488,7 +5238,7 @@ const data = [
     "notes": [],
     "src": "2024/07/27/03898b5a-74c7-44ff-9784-9dcbfa40c366.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAQIA/8QAIxABAAIBAwIHAAAAAAAAAAAAAQARAgMTMXGREiEiQVFhgf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAwL/xAAaEQEAAwEBAQAAAAAAAAAAAAAAARESIQIx/9oADAMBAAIRAxEAPwCz1cV0mlsaSj9SufiUgsVCioGcwy8rGZ6a5O8PKdpdJmWdQSxK6RowxqHydo0ZU5jaFfkRJPmAaZd5ElQtyVDgJXPU5ZXKdbxV7Eh07mWXIRxev//Z",
-    "title": "Refuge La Flegere",
+    "title": "Lac Blanc",
     "when": "August 5th, 2024"
   },
   {
@@ -5508,7 +5258,7 @@ const data = [
     "notes": [],
     "src": "2024/07/27/e6194972-aa41-4e62-9f04-33386c522050.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMBAgT/xAAgEAACAgEEAwEAAAAAAAAAAAAAAQIRMQMTIXEEIkGh/8QAGAEAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAbEQEBAQACAwAAAAAAAAAAAAAAARESIQITUf/aAAwDAQACEQMRAD8Art8ZK5svXXLiy9RfGxlBpFACmA7ZDyE37KujLi6OX1RasXh5Flh7K5lqpSrgtHWkdeKzL8Jsq5Yb0H95DKNjxplpsU3JVV10Ik2xjCwPCwLH/9k=",
-    "title": "",
+    "title": "Refuge La Flegere",
     "when": "August 5th, 2024"
   },
   {
@@ -5528,7 +5278,7 @@ const data = [
     "notes": [],
     "src": "2024/07/27/132e1a2f-699f-4174-8844-5164fecb3165.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECA//EACEQAAIBBAEFAQAAAAAAAAAAAAABEQISIUFhEzEyUZGh/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAbEQEBAAMBAQEAAAAAAAAAAAAAAQIDEUETYf/aAAwDAQACEQMRAD8AVp3efotB0Wk7Is7VW+8GbnGphkcUrlmLsvjcwnqbk5jQuxn5fpyvX6S52rNchNy4y2Y66KnjJOqFz8KMqaW6VHcnRp01dL+AN+ULABKWXoQTU2m5etFH/9k=",
-    "title": "Les Houches",
+    "title": "La Brevant",
     "when": "August 6th, 2024"
   },
   {
@@ -5596,26 +5346,6 @@ const data = [
     "category": "Backpacking",
     "collectionId": "west-highland-way",
     "elevation": {
-      "imperial": "228",
-      "metric": "69"
-    },
-    "id": "077dbef1-cd6a-4da0-848e-692fd7b64dab.jpeg",
-    "location": {
-      "region": "Glasgow",
-      "country": "Scotland",
-      "continent": "Europe"
-    },
-    "notes": [],
-    "src": "2022/05/07/077dbef1-cd6a-4da0-848e-692fd7b64dab.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgT/xAAhEAACAQIGAwAAAAAAAAAAAAAAAQIDEQQTIUFRYlJhkf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAwDAQACEQMRAD8A3UkpK6eqCJxu2UdKlda6EVlyWwROT9FEc7o/pKGsQvFigddPZihZ64ZbgTrdWSkTMgAAFdcAMD//2Q==",
-    "title": "Drymen",
-    "when": "May 7th, 2022"
-  },
-  {
-    "camera": "iPhone 13 Pro",
-    "category": "Backpacking",
-    "collectionId": "west-highland-way",
-    "elevation": {
       "imperial": "223",
       "metric": "68"
     },
@@ -5628,7 +5358,7 @@ const data = [
     "notes": [],
     "src": "2022/05/07/747eb0e7-6974-4ed6-b192-405ac0b2921e.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQADAv/EACAQAAICAQMFAAAAAAAAAAAAAAABERNRAiExA0FSYpH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAFxEBAQEBAAAAAAAAAAAAAAAAABEBEv/aAAwDAQACEQMRAD8A1SNMmAKFkBhAGwGS6vqzPWLDasMdYkN2nDHWLBcsP4OsIrV4tDrCMkpW5yaqS7ApelEpVEIpXL45BX//2Q==",
-    "title": "",
+    "title": "Gartness Road",
     "when": "May 8th, 2022"
   },
   {
@@ -5648,7 +5378,7 @@ const data = [
     "notes": [],
     "src": "2022/05/07/c4762ec0-727f-475c-a781-1f2a155229ae.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAQACAwT/xAAeEAADAAICAwEAAAAAAAAAAAAAAQIRMRIhAwRRYf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAwDAQACEQMRAD8A36KhAAIANgQAdzK7YozfsTnHF4+kqxefJNaZaiO5W2iXBy4t7tmK1Ao/WKHjK2mxdFusaIKtfC4P/9k=",
-    "title": "",
+    "title": "Conic Hill",
     "when": "May 8th, 2022"
   },
   {
@@ -5668,7 +5398,7 @@ const data = [
     "notes": [],
     "src": "2022/05/07/4e6508e2-a253-4eec-b184-e00dc4c49137.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIBAwT/xAAiEAEAAQMDBAMAAAAAAAAAAAABAAIRQRIhUQMTMTJhobH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAERL/2gAMAwEAAhEDEQA/AO5tECjgkmXCKNQygqV4kDX8QaS9Q4iArHEkNdPEkazhknl8TDSu6hb8jQsqqckNGNsvtvDShYMfcqY//9k=",
-    "title": "Sallochy",
+    "title": "Loch Lomond",
     "when": "May 8th, 2022"
   },
   {
@@ -5705,12 +5435,10 @@ const data = [
       "country": "Scotland",
       "continent": "Europe"
     },
-    "notes": [
-      "It started raining on this day and wouldn't stop until after I reached Fort William on the last day"
-    ],
+    "notes": [],
     "src": "2022/05/07/e610c340-2b8c-481c-8442-dc4543db3f2c.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAQIDAAT/xAAeEAEAAgEFAQEAAAAAAAAAAAABAAIRAxIhMXEiUf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABcRAQEBAQAAAAAAAAAAAAAAAAARASH/2gAMAwEAAhEDEQA/AJZ+pBQclPYD3t9GJRz6qtvIDVWqkgR3Cu3J5IHTDUHuM0YLqCRcAvVKOcS0Cy8P6QBvS3fEkDCiZ5kFtzNTIqeq7qpM5xCts6VeOpZ0f//Z",
-    "title": "Bienglas Farm",
+    "title": "Stirling",
     "when": "May 9th, 2022"
   },
   {
@@ -5730,7 +5458,7 @@ const data = [
     "notes": [],
     "src": "2022/05/07/4cbae836-e836-478f-8122-e3eb83942de8.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECA//EACEQAAICAgEEAwAAAAAAAAAAAAABAhESITEDEyJBUWGh/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABgRAQEBAQEAAAAAAAAAAAAAAAARARIx/9oADAMBAAIRAxEAPwDVSZUDkAsmAZMBZsCHWvI43W4mV/VFzUgxT2nJfopCea5ei1EqUvboC1Kk/kypvqUItT3fVDkpN5LZfECVc7Cv/9k=",
-    "title": "",
+    "title": "Doune Byre",
     "when": "May 9th, 2022"
   },
   {
@@ -5750,7 +5478,7 @@ const data = [
     "notes": [],
     "src": "2022/05/07/566b8b5b-0b61-41ae-9ea8-50a8a94c98af.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAQACAwT/xAAhEAACAQMDBQAAAAAAAAAAAAAAAQIRE0EEElEDIUJh8P/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwDbcyojkAVAV7YDVAcr1HCZFK6yp5Eob0fkWiX4YqKgepisNgZJZM1pZKpKLRe3twQVaUssolpYbFI//9k=",
-    "title": "",
+    "title": "Crianlarich",
     "when": "May 10th, 2022"
   },
   {
@@ -5770,7 +5498,7 @@ const data = [
     "notes": [],
     "src": "2022/05/07/b7df127a-0f69-4b29-843f-e1a7c6f858bf.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQMCAP/EACEQAQACAQQBBQAAAAAAAAAAAAEAEQISITFxUQNBgZGh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAGBEBAQEBAQAAAAAAAAAAAAAAABEBITH/2gAMAwEAAhEDEQA/AKDinP7Kg+LgDR5IGBVkCZ1vyxurEyr2v6maHVXLXct0Bkrsq9SUOSlGVwrkWZolrydrrqb8RrDC5KL4hjR7wrPqahUZNEzX5k4j/9k=",
-    "title": "Bridge of Orchy",
+    "title": "Beinn Dorain",
     "when": "May 10th, 2022"
   },
   {
@@ -5790,7 +5518,7 @@ const data = [
     "notes": [],
     "src": "2022/05/07/20bc433d-7e8e-48b7-8b66-e9a2052b4e71.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAgEDBAD/xAAdEAACAgIDAQAAAAAAAAAAAAAAAQIRMUESIWET/8QAFwEBAQEBAAAAAAAAAAAAAAAAAQACA//EABcRAQEBAQAAAAAAAAAAAAAAAAABERL/2gAMAwEAAhEDEQA/ALYyjvoQm1WUyQ2iSU/aJJ1kky/J7mzn0cNUq7dl1VhxTccjLVgtyWA6tOByewTk7XgAUuUksJG4mhVTEjNbQWBXVr0yX//Z",
-    "title": "",
+    "title": "Bridge of Orchy",
     "when": "May 10th, 2022"
   },
   {
@@ -5810,7 +5538,7 @@ const data = [
     "notes": [],
     "src": "2022/05/07/0875b9ee-128e-403b-83b7-a2b5718bbb33.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAgMAAQT/xAAgEAEAAgICAgMBAAAAAAAAAAABAAIDESExQVEEIkJh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAIB/8QAGREBAQEBAQEAAAAAAAAAAAAAAAERITFB/9oADAMBAAIRAxEAPwDNTJbG7q6gPp8t6vUdvcB1ituK0Nyup58KtRrpTtlbE5UyW+vKetBJ2TxuW+sutyVrKr4Y0NHKfp2f2ZoptkTW2NApZ5VWNBUKvhGTbWpdU4WbIGYqbpy9srGBrX2rIrRPEkf/2Q==",
-    "title": "",
+    "title": "Taynuilt",
     "when": "May 11th, 2022"
   },
   {
@@ -5830,7 +5558,7 @@ const data = [
     "notes": [],
     "src": "2022/05/07/ff646f60-28e7-4f67-984c-c0f79d66ff17.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAgEAACAgICAgMAAAAAAAAAAAAAAQIREkEDIRMxYYGR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/ANsyoeaATmgJcgDJgY+aLfqkSkUuWPyWhPkhfSYC8r1X2wGpzevwUc+zLQvsC6e6IJk6oqJyafTA/9k=",
-    "title": "",
+    "title": "Mam Carraigh",
     "when": "May 11th, 2022"
   },
   {
@@ -5850,7 +5578,7 @@ const data = [
     "notes": [],
     "src": "2022/05/07/df8e1220-01e4-40b2-81c9-e7254d9a5958.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQADBP/EAB8QAAICAQQDAAAAAAAAAAAAAAABAhESEyFBUQMycf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABYRAQEBAAAAAAAAAAAAAAAAAAAREv/aAAwDAQACEQMRAD8A1ysqJSAVIBUgLMDlU5L23MaWF+XppFpBlLtMUi1HxF39FDqSFGV7EBwAoCboQDt8lH//2Q==",
-    "title": "",
+    "title": "Highlands",
     "when": "May 11th, 2022"
   },
   {
@@ -5870,27 +5598,7 @@ const data = [
     "notes": [],
     "src": "2022/05/07/7fc21efe-eaa8-4e65-bb54-bb9aa2fbfc21.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAhEAACAgEDBQEAAAAAAAAAAAAAAQIRExIhQTFCUWFxkf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABYRAQEBAAAAAAAAAAAAAAAAAAARIf/aAAwDAQACEQMRAD8A0NMqTAdkVLsAsDlytcsyq1Ocqq2XTBkmu5fpA8knG9UfjKFkn6FImuWZqjU3t4FAQC3AlyXRoo//2Q==",
-    "title": "",
-    "when": "May 11th, 2022"
-  },
-  {
-    "camera": "iPhone 13 Pro",
-    "category": "Backpacking",
-    "collectionId": "west-highland-way",
-    "elevation": {
-      "imperial": "1,808",
-      "metric": "551"
-    },
-    "id": "191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
-    "location": {
-      "region": "Lochaber",
-      "country": "Scotland",
-      "continent": "Europe"
-    },
-    "notes": [],
-    "src": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIEAQP/xAAgEAADAAIBBAMAAAAAAAAAAAAAAQIDESESMWGRIkFR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEh/9oADAMBAAIRAxEAPwDQ2vB5ZKmeO7J31JP0Q0/xkisjb4ejs5d8V7PNnBGtPQ2tqlrwDMslQvi9AKVxORSkqWinOTt1rkAxWkOLX2iaTl86AFIcvYAEP//Z",
-    "title": "Kinlochleven",
+    "title": "Ballachulish",
     "when": "May 11th, 2022"
   },
   {
@@ -5910,7 +5618,27 @@ const data = [
     "notes": [],
     "src": "2022/05/07/7b2f184a-0718-4ed2-8354-f8734f19660f.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAQIDAAT/xAAkEAACAgECBQUAAAAAAAAAAAAAAQIRAxIhBBMUQWExcYGRof/EABcBAQEBAQAAAAAAAAAAAAAAAAEAAgP/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/AK6rEM4eSRJ45UqujWazuamsbV2mNEMscdNybQVZheoXajFdBfEPw/kQaGa1vX2FJ+ZGtyqga4ej/WNEcAEfYkrGG1dySbQIGKf/2Q==",
-    "title": "",
+    "title": "Stob Ghabhar",
+    "when": "May 11th, 2022"
+  },
+  {
+    "camera": "iPhone 13 Pro",
+    "category": "Backpacking",
+    "collectionId": "west-highland-way",
+    "elevation": {
+      "imperial": "1,808",
+      "metric": "551"
+    },
+    "id": "191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
+    "location": {
+      "region": "Lochaber",
+      "country": "Scotland",
+      "continent": "Europe"
+    },
+    "notes": [],
+    "src": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIEAQP/xAAgEAADAAIBBAMAAAAAAAAAAAAAAQIDESESMWGRIkFR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEh/9oADAMBAAIRAxEAPwDQ2vB5ZKmeO7J31JP0Q0/xkisjb4ejs5d8V7PNnBGtPQ2tqlrwDMslQvi9AKVxORSkqWinOTt1rkAxWkOLX2iaTl86AFIcvYAEP//Z",
+    "title": "Glen Etive",
     "when": "May 11th, 2022"
   },
   {
@@ -5930,7 +5658,7 @@ const data = [
     "notes": [],
     "src": "2022/05/07/8487ff91-7ceb-455b-90cc-2802aabae33b.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDAv/EACIQAQADAAIBAwUAAAAAAAAAAAEAAhEDIYExUXEUIkFhof/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABcRAQEBAQAAAAAAAAAAAAAAAAARATH/2gAMAwEAAhEDEQA/AKIKbUcPaVE7cWutg+Zakbpw0DX7mKZh2rTOw8Eigyo51Ah9Q57v7gSva13bOyVWqWuHXZFIpbl06q+WKkTb2TPT4irDaAev8mVBx52viEaLY5k1A8H8TPANDNiq/9k=",
-    "title": "",
+    "title": "Kingshouse",
     "when": "May 11th, 2022"
   },
   {
@@ -5938,19 +5666,19 @@ const data = [
     "category": "Backpacking",
     "collectionId": "west-highland-way",
     "elevation": {
-      "imperial": "942",
-      "metric": "287"
+      "imperial": "1,809",
+      "metric": "551"
     },
-    "id": "e6dce3c6-13cd-4374-92bf-bbf5bfb132c8.jpeg",
+    "id": "12874d6b-f438-4744-8e8b-2456cf878a1a.jpeg",
     "location": {
-      "region": "Lochaber",
+      "region": "Corrour",
       "country": "Scotland",
       "continent": "Europe"
     },
     "notes": [],
-    "src": "2022/05/07/e6dce3c6-13cd-4374-92bf-bbf5bfb132c8.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDAv/EACQQAAICAQIFBQAAAAAAAAAAAAECABESAzEiUWFxgRMUIUFS/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwARCjFiamrWZGi1AAfPfaRWfW0mGJrzsYBib4Tip5S6mHiFNliZFT9wK3PYQJ6muXXHZZFSgbR2UcJoco0UGp+h5EuohIpgCQM0PqFGXSAw3SB//9k=",
-    "title": "",
+    "src": "2022/05/07/12874d6b-f438-4744-8e8b-2456cf878a1a.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECA//EACMQAAEDAgYDAQAAAAAAAAAAAAEAAhEDIRITMkFRYRQxUrH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAGBEBAQEBAQAAAAAAAAAAAAAAABEBEiH/2gAMAwEAAhEDEQA/AE1zSIcFua55uGabJBEweEqxTaeB0g27UqxWZchrQDykSliqGYg/qeHrLGAdKz03zhiqBs5KQeRfShAKzd2RPaVIM+n8QUWMQZMXWWleu1BTRurgRaOFRBaER//Z",
+    "title": "Kinlochleven",
     "when": "May 11th, 2022"
   },
   {
@@ -5970,7 +5698,7 @@ const data = [
     "notes": [],
     "src": "2022/05/07/07741eea-d85e-42cf-a2d4-d0f87102bffc.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwABAv/EAB4QAAICAwEAAwAAAAAAAAAAAAABAhEDITESQVFh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/AFjvmyo7WgKwMcqAKWVLrAGORxdoilWe+gTyr7FBym2rXBQTdkE9MKz1+CDqNSTXyTdgZLyki4ByLzJpcCP/2Q==",
-    "title": "Fort William",
+    "title": "Allt Nathrach",
     "when": "May 12th, 2022"
   },
   {
@@ -5990,7 +5718,27 @@ const data = [
     "notes": [],
     "src": "2022/05/07/9f643782-1b01-4fb0-b3cc-eb476afb27fd.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAQIDAAT/xAAfEAACAgICAwEAAAAAAAAAAAAAAQIRAyESYTFBUaH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/ADDLGXuiosmAXYCtsBXJLywOJdEqq48s468r4xSKrO62LhCTzN6uhSJkpGtdmVDl8EG5dIQMk3vQBre/wYP/2Q==",
-    "title": "",
+    "title": "Tigh-na-sleubhalch",
+    "when": "May 12th, 2022"
+  },
+  {
+    "camera": "iPhone 13 Pro",
+    "category": "Backpacking",
+    "collectionId": "west-highland-way",
+    "elevation": {
+      "imperial": "683",
+      "metric": "208"
+    },
+    "id": "edea9c01-5a15-4813-a87c-d74cd4e191f6.jpeg",
+    "location": {
+      "region": "Fort William",
+      "country": "Scotland",
+      "continent": "Europe"
+    },
+    "notes": [],
+    "src": "2022/05/07/edea9c01-5a15-4813-a87c-d74cd4e191f6.jpeg",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgEDAP/EACEQAAIBAgYDAAAAAAAAAAAAAAABAhExAwQSIUFRE0Jx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwBJMoqqEJXATlQDOUqhWazC5iQJY8GBfLFdAF466qSkF5iXrFL7uKsFwiuDN1Y6yW1wDqEEbAjZR//Z",
+    "title": "Fort William",
     "when": "May 12th, 2022"
   },
   {
@@ -6012,7 +5760,7 @@ const data = [
     ],
     "src": "2025/10/18/efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCAf/EAB8QAAIBAwUBAAAAAAAAAAAAAAABEQISQQMTITFRkf/EABYBAQEBAAAAAAAAAAAAAAAAAAIBAP/EABcRAQEBAQAAAAAAAAAAAAAAAAABERL/2gAMAwEAAhEDEQA/ACaNqCcc9YNJOcfSS4tmqKg0qSb1LVClslfVnkXVDmRZtN+AjfmQRRppTJyHan236AE2dx9BajmABDW71UnNMsAGR//Z",
-    "title": "",
+    "title": "Big Paint Loop",
     "when": "October 18th, 2025"
   },
   {
@@ -6034,7 +5782,7 @@ const data = [
     ],
     "src": "2025/10/18/92cfa8cd-806d-4241-b3a1-9da957e6472d.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwT/xAAfEAACAgIBBQAAAAAAAAAAAAAAAQIhERIxA0FRYaH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAgED/8QAFhEBAQEAAAAAAAAAAAAAAAAAABES/9oADAMBAAIRAxEAPwCYdVN4ksG6icdcllLFDRl1OLKuBhtRDl7ZVTGzgDn3vloCmVL8k2wCHRbI+gAFFSfcACsf/9k=",
-    "title": "",
+    "title": "Big Paint Loop",
     "when": "October 18th, 2025"
   },
   {
@@ -6054,7 +5802,7 @@ const data = [
     "notes": [],
     "src": "2025/10/18/a97e4968-9219-4089-ae13-a1e28f44ae0b.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIDAQT/xAAgEAACAwACAgMBAAAAAAAAAAAAAQIRIQMSQYETYXHB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AORWq/ISSY+Tj7J28+jtxeqS9mWlX5MZ5K7LTd5Vfokk5ZS9oIqmMnX8BVqmqYFPOrZrxQc3SdACGsY9ZOOYTzRS3qgCKVBPVgAMp//Z",
-    "title": "",
+    "title": "Big Paint Loop",
     "when": "October 18th, 2025"
   },
   {
@@ -6074,7 +5822,7 @@ const data = [
     "notes": [],
     "src": "2025/10/18/7d3daf93-3463-4f44-909e-f0d7f609967a.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECA//EABwQAAIDAQADAAAAAAAAAAAAAAABAhEhMRIiQf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwCTm3nTMFd3xG8ttauCNXK/pFVyXsnhxSt0zs4xdtGPGmq0gRguPcBVkuAXCOdi22AFG2l0W6xgAVJtdABFf//Z",
-    "title": "",
+    "title": "Big Paint Loop",
     "when": "October 18th, 2025"
   },
   {
@@ -6096,7 +5844,7 @@ const data = [
     ],
     "src": "2025/10/18/7c266117-a4a2-4f6b-95f0-15a562d9a6be.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBA//EAB8QAAICAwEAAwEAAAAAAAAAAAABAhEDIUExEhOBsf/EABYBAQEBAAAAAAAAAAAAAAAAAAECAP/EABgRAQEBAQEAAAAAAAAAAAAAAAABAhES/9oADAMBAAIRAxEAPwDpljFq0mmc0nejHOTXojOUV6M2LjrspNLd/pMsjeqoj7Zd/hjba3J2T6iuGbG0/k0qrwGTm3j227BmTSVXdmd6ASVJX0UuAGgWvK4ACi//2Q==",
-    "title": "",
+    "title": "Big Paint Loop",
     "when": "October 19th, 2025"
   },
   {
@@ -6118,7 +5866,7 @@ const data = [
     ],
     "src": "2025/10/18/db8b9939-7fe0-43b3-b5ef-d0baea038ef1.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIDAQT/xAAgEAACAgEEAwEAAAAAAAAAAAAAAQIRIQMxQVESYYGR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AIUs0XFuLRk5W011RVty5M1p6dR1Fb5MJSZ3VlLDSZlmVgik7k/0Ec+wBSgmssuO/isABWzVL4YzjStbdABE0AAr/9k=",
-    "title": "",
+    "title": "Browns Hollow",
     "when": "October 19th, 2025"
   }
 ];
