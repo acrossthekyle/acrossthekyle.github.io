@@ -54,7 +54,7 @@ export default function Images({ images, total }: Props) {
                           {padIndex(currentIndex)}
                         </span>
                         <span>/</span>
-                        <span className={styles.highlight}>{padIndex(total)}</span>
+                        <span>{padIndex(total)}</span>
                       </span>
                     </figcaption>
                   </figure>

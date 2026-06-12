@@ -39,9 +39,8 @@ const POSITIONS = [
 export const styles = tw({
   group: `
     relative
-    grid grid-cols-5 gap-8
+    grid grid-cols-5 gap-0
     h-auto
-    pb-8
     perspective-normal
 
     lg:mr-1
@@ -73,7 +72,6 @@ export const styles = tw({
     block
     h-full w-full
     overflow-hidden
-    rounded-lg
 
     after:absolute
     after:inset-0
@@ -90,6 +88,7 @@ export const styles = tw({
     motion-safe:group-hover:scale-102
   `,
   caption: `
+    hidden
     relative
     flex flex-row justify-between gap-4
     w-full
@@ -108,10 +107,6 @@ export const styles = tw({
   `,
   strong: `
     font-black
-  `,
-  highlight: `
-    dark:text-yellow-300
-    light:text-yellow-500
   `,
 });
 

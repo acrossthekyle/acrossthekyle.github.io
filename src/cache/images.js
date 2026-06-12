@@ -644,26 +644,6 @@ const data = [
     "category": "Backpacking",
     "collectionId": "annapurna-circuit",
     "elevation": {
-      "imperial": "2,566",
-      "metric": "782"
-    },
-    "id": "4302a350-be49-4007-88d4-15840fb16191.jpeg",
-    "location": {
-      "region": "Lamjung District",
-      "country": "Nepal",
-      "continent": "Asia"
-    },
-    "notes": [],
-    "src": "2019/10/19/4302a350-be49-4007-88d4-15840fb16191.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQIDAP/EACEQAAICAQQCAwAAAAAAAAAAAAERAAIhAxIxcROhQVFh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AEqRsIPYMyohWptSPLgKLbbFtShrFJPPqKg1JrzCpEHqA+n7ga2nkHOYGNSME8wB8I8CBa2m6p94kVI28d0mCJQxsNpP5CJ7herIWYFLAIfUD//Z",
-    "title": "Bhulbule",
-    "when": "October 19th, 2019"
-  },
-  {
-    "camera": "iPhone X",
-    "category": "Backpacking",
-    "collectionId": "annapurna-circuit",
-    "elevation": {
       "imperial": "3,904",
       "metric": "1,190"
     },

@@ -3,11 +3,13 @@ import tw from '@/styles';
 export const styles = tw({
   section: `
     flex flex-col justify-start
-    py-4
+    border-t-1 border-current/10
+    p-4 pb-16
 
-    first:pt-0
-    last:pb-0
     last:justify-end
+    last:pb-4
+
+    lg:first:border-t-0
   `,
   heading: `
     flex flex-row justify-between
@@ -19,7 +21,7 @@ export const styles = tw({
   index: `
     text-tiny
     font-light
-    tracking-[0.125rem]
+    tracking-widest
 
     md:text-xtiny
   `,
@@ -33,9 +35,11 @@ export const styles = tw({
     last:mb-0
   `,
   link: `
-    dark:text-yellow-300
-    light:text-yellow-400
-    font-medium
+    text-current/50
+
+    motion-safe:duration-300
+    motion-safe:hover:text-current/100
+    motion-safe:focus:text-current/100
   `,
 });
 

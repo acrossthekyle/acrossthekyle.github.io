@@ -125,7 +125,7 @@ body {
 
   .leaflet-tile-container .leaflet-tile {
     border-radius: 0;
-    filter: grayscale(100);
+    filter: grayscale(100%);
     opacity: .8 !important;
   }
 

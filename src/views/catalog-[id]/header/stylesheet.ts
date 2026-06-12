@@ -35,9 +35,6 @@ export const styles = tw({
     tracking-widest
     uppercase
 
-    dark:text-yellow-300
-    light:text-yellow-500
-
     sm:text-xtiny
   `,
   overview: `

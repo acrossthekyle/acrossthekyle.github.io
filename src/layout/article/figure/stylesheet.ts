@@ -17,7 +17,7 @@ export const styles = tw({
     sm:right-0
     sm:w-[50vw]
     lg:order-2
-    lg:w-[calc(33.3333333333vw-0.75rem)]
+    lg:w-[33.33333333336vw]
 
     motion-safe:opacity-0
     motion-safe:animate-fade-in-down-slightly-delayed

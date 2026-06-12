@@ -51,10 +51,6 @@ export const styles = tw({
     md:text-xtiny
     md:leading-3
   `,
-  highlight: `
-    dark:text-yellow-300
-    light:text-yellow-500
-  `,
 });
 
 

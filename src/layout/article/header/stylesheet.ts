@@ -4,7 +4,7 @@ export const styles = tw({
   container: `
     col-span-1 order-1
     flex flex-col justify-end
-    h-auto
+    h-auto min-h-[calc(100svh-20rem)]
     p-4
 
     sm:h-svh
@@ -13,11 +13,12 @@ export const styles = tw({
     landscape-constrained:justify-start
     landscape-constrained:h-auto
 
-    lg:mt-0
+    lg:border-r-1
+    lg:border-current/10
     lg:h-screen
     lg:fixed
     lg:left-0
-    lg:w-1/3
+    lg:w-[33.33333333336vw]
 
     motion-safe:opacity-0
     motion-safe:animate-fade-in-up-slightly-delayed

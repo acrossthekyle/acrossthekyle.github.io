@@ -78,6 +78,7 @@ export async function go() {
       category: uppercaseFirst(data.category),
       coordinates: reduceCoordinates(data.coordinates),
       count: data.images.length,
+      cover: data.cover[0],
       id: data.id,
       location: data.location,
       notes: data.notes,
@@ -87,7 +88,7 @@ export async function go() {
       title: data.title,
       type: data.type,
       when,
-      year: when !== null ? when.split('/').pop() : null,
+      year: when !== null ? when.split(',').pop() : null,
     });
 
     data.images.map(({ date, elevation, exif, location, notes, src, thumb, title }) => {
@@ -115,10 +116,11 @@ export async function go() {
       'collections.js',
       collections
         .sort((a, b) => b.timestamp - a.timestamp)
-        .map(({ category, coordinates, count, id, location, notes, position, tags, title, type, when, year }) => ({
+        .map(({ category, coordinates, count, cover, id, location, notes, position, tags, title, type, when, year }) => ({
           category,
           coordinates,
           count,
+          cover,
           id,
           location,
           notes,

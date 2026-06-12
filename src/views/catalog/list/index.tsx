@@ -28,7 +28,7 @@ export default function List({ collections }: Props) {
                   {collection.title.join(' ')}
                 </h2>
                 <span className={styles.lid}>
-                  <span className={styles.highlight}>{collection.location.region}</span> &mdash; {trimCardinal(collection.location.country)}
+                  {collection.location.region} &mdash; {trimCardinal(collection.location.country)}
                 </span>
                 <span className={styles.lid}>
                   {collection.coordinates}

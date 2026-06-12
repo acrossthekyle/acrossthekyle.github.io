@@ -55,7 +55,7 @@ export default function Carousel({ images }: Props) {
       {images.map((image) => (
         <InView
           key={image.src}
-          threshold={.6125}
+          threshold={1}
         >
           {({ inView, ref }) => (
             <li className={styles.item} id={image.id} key={image.src} ref={ref}>

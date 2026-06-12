@@ -3,8 +3,8 @@ import tw from '@/styles';
 export const styles = tw({
   container: `
     group/images
-    flex flex-row items-center gap-4
-    w-full
+    flex flex-col items-center gap-4
+    w-full h-screen
     p-4
     overflow-hidden
     no-scrollbar
@@ -16,11 +16,10 @@ export const styles = tw({
     motion-safe:animate-fade-in-down-slightly-delayed
   `,
   item: `
-    flex-shrink-0
+    h-screen
   `,
   figure: `
     relative
-    h-full
 
     landscape-constrained:h-[calc(100svh-5rem)]
 
@@ -47,7 +46,7 @@ export const styles = tw({
     uppercase
     tracking-widest
 
-    ${isInView ? 'motion-safe:opacity-100' : 'motion-safe:opacity-0'}
+    ${isInView ? 'motion-safe:opacity-100 delay-300' : 'motion-safe:opacity-0'}
     motion-safe:duration-700
     motion-safe:ease-in-out
   `),

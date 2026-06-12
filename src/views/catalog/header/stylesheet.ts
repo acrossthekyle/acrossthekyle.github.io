@@ -3,12 +3,12 @@ import tw from '@/styles';
 export const styles = tw({
   title: `
     flex flex-col justify-end
-    text-[min(12vw,44px)]
+    text-[min(10vw,42px)]
     font-black
     leading-[0.85]
     uppercase
 
-    sm:text-[min(5vw,40px)]
+    sm:text-[min(5vw,46px)]
     lg:text-[min(4vw,46px)]
   `,
   words: `

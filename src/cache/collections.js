@@ -3,6 +3,10 @@ const data = [
     "category": "Destinations",
     "coordinates": "12.5933° S, 69.1891° W",
     "count": 0,
+    "cover": {
+      "src": "",
+      "thumb": null
+    },
     "id": "puerto-maldonado",
     "location": {
       "region": "Amazon Rain Forest",
@@ -28,12 +32,16 @@ const data = [
     ],
     "type": "vacation",
     "when": "July 19th — 22nd, 2026",
-    "year": "July 19th — 22nd, 2026"
+    "year": " 2026"
   },
   {
     "category": "Backpacking",
     "coordinates": "13.1632° S, 72.5453° W",
     "count": 0,
+    "cover": {
+      "src": "",
+      "thumb": null
+    },
     "id": "salkantay-trek",
     "location": {
       "region": "Cusco Region",
@@ -62,12 +70,16 @@ const data = [
     ],
     "type": "thru-hike",
     "when": "July 11th — 17th, 2026",
-    "year": "July 11th — 17th, 2026"
+    "year": " 2026"
   },
   {
     "category": "Destinations",
     "coordinates": "13.5320° S, 71.9675° W",
     "count": 0,
+    "cover": {
+      "src": "",
+      "thumb": null
+    },
     "id": "cusco",
     "location": {
       "region": "Southeastern Andes",
@@ -94,12 +106,16 @@ const data = [
     ],
     "type": "vacation",
     "when": "July 8th — 10th, 2026",
-    "year": "July 8th — 10th, 2026"
+    "year": " 2026"
   },
   {
     "category": "Backpacking",
     "coordinates": "40.0080° N, 87.5717° W",
     "count": 6,
+    "cover": {
+      "src": "2026/03/14/1e1be596-c236-4cee-9eb2-fac89329e0e6.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBP/EACEQAAIBAwMFAAAAAAAAAAAAAAABERJSoQIhkSIxUVOC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwDokSSSd74RpJ3YFwmqbCfBP7wN/Y+EKRQE+q/AFWJyxUAZaExVLACGpx2AAV//2Q=="
+    },
     "id": "river-ridge-trail",
     "location": {
       "region": "Central Illinois",
@@ -130,12 +146,16 @@ const data = [
     ],
     "type": "overnight-hike",
     "when": "March 14th — 15th, 2026",
-    "year": "March 14th — 15th, 2026"
+    "year": " 2026"
   },
   {
     "category": "Backpacking",
     "coordinates": "43.1713° N, 91.2594° W",
     "count": 6,
+    "cover": {
+      "src": "2025/10/18/efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCAf/EAB8QAAIBAwUBAAAAAAAAAAAAAAABEQISQQMTITFRkf/EABYBAQEBAAAAAAAAAAAAAAAAAAIBAP/EABcRAQEBAQAAAAAAAAAAAAAAAAABERL/2gAMAwEAAhEDEQA/ACaNqCcc9YNJOcfSS4tmqKg0qSb1LVClslfVnkXVDmRZtN+AjfmQRRppTJyHan236AE2dx9BajmABDW71UnNMsAGR//Z"
+    },
     "id": "yellow-river-trail",
     "location": {
       "region": "The Driftless Area of Iowa",
@@ -167,12 +187,16 @@ const data = [
     ],
     "type": "overnight-hike",
     "when": "October 18th — 19th, 2025",
-    "year": "October 18th — 19th, 2025"
+    "year": " 2025"
   },
   {
     "category": "Backpacking",
     "coordinates": "45.8902° N, 6.7978° E",
     "count": 22,
+    "cover": {
+      "src": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAeACgDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECA//EACAQAAICAQUAAwAAAAAAAAAAAAABAhExAxIhQWFxgbH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAwD/xAAXEQEBAQEAAAAAAAAAAAAAAAAAAREh/9oADAMBAAIRAxEAPwC3H5+yGilOOJKvQaV8fpXUMZsRbjWRbbMyANHptZQGLJym5Vy0Uo6i6SLTUcLklyJyKUNSWdt+CipvpCsMiOtJRlTtpugIirYBsOV//9k="
+    },
     "id": "tour-du-mont-blanc-2024",
     "location": {
       "region": "The Alps",
@@ -203,12 +227,16 @@ const data = [
     ],
     "type": "thru-hike",
     "when": "July 27th — August 6th, 2024",
-    "year": "July 27th — August 6th, 2024"
+    "year": " 2024"
   },
   {
     "category": "Cities",
     "coordinates": "46.2044° N, 6.1432° E",
     "count": 6,
+    "cover": {
+      "src": "2024/07/24/f6f7470b-5e4e-42f7-aa59-ccabe81778bf.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBA//EACIQAAIBAgYDAQAAAAAAAAAAAAABEgIhAxETMWGRQVFSYv/EABYBAQEBAAAAAAAAAAAAAAAAAAADAv/EABcRAQEBAQAAAAAAAAAAAAAAAAASAQL/2gAMAwEAAhEDEQA/AKiZEalfldm6vtLs3SW8piIlan4ZsqvhX5FEaiIKddSeTpSfLArCNcpNtcDEbhsrvwASXbht12zaKb6AAPe+dvQAA//Z"
+    },
     "id": "geneva",
     "location": {
       "region": "The Lake District",
@@ -235,12 +263,16 @@ const data = [
     ],
     "type": "vacation",
     "when": "July 24th — 25th, 2024",
-    "year": "July 24th — 25th, 2024"
+    "year": " 2024"
   },
   {
     "category": "Cities",
     "coordinates": "41.9267° N, 8.7369° E",
     "count": 5,
+    "cover": {
+      "src": "2023/07/05/a7519e17-dc25-46cc-b8c7-8b293684b8ef.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwECAP/EAB4QAAICAgIDAAAAAAAAAAAAAAABAhESIRNRMWGB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAIDAf/EABgRAQEBAQEAAAAAAAAAAAAAAAABERIT/9oADAMBAAIRAxEAPwA8SajLW6NBeFVW77G4qfpNwajYlqrnGkGg1GlZcdoAVTlrV+0NtJkFHwSqqSQQEKERqzGjwXcn9DQ2lSFMjMD/2Q=="
+    },
     "id": "corsica",
     "location": {
       "region": "Corsica",
@@ -269,12 +301,16 @@ const data = [
     ],
     "type": "vacation",
     "when": "July 5th — 7th, 2023",
-    "year": "July 5th — 7th, 2023"
+    "year": " 2023"
   },
   {
     "category": "Backpacking",
     "coordinates": "42.5074° N, 8.8554° E",
     "count": 33,
+    "cover": {
+      "src": "2023/06/21/f0cd0897-3fc9-47a2-808e-e1627dfb45bc.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAgEDBAD/xAAeEAEAAgMBAQADAAAAAAAAAAABABECEiExURNhcf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABYRAQEBAAAAAAAAAAAAAAAAAAARQf/aAAwDAQACEQMRAD8Ao2f6waLG/b7JNWGV47LFmOcr8biB2xWrtkmMsmW1mLx+wK1yPxBi9fYs6IvxIFBz9MUjbvSCI1yKqmSMxAqSBdaQvvbih3dk++QT/9k="
+    },
     "id": "the-gr-20",
     "location": {
       "region": "The Corsican Mountains",
@@ -305,12 +341,16 @@ const data = [
     ],
     "type": "thru-hike",
     "when": "June 21st — July 3rd, 2023",
-    "year": "June 21st — July 3rd, 2023"
+    "year": " 2023"
   },
   {
     "category": "Destinations",
     "coordinates": "30.0333° N, 31.2333° E",
     "count": 30,
+    "cover": {
+      "src": "2022/12/28/0826806c-c673-49a1-a9ae-79cfa77633e4.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgEE/8QAHBAAAwEAAgMAAAAAAAAAAAAAAAECAxFREyFB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABES/9oADAMBAAIRAxEAPwDS0AXIpAcikByWpAciplq8kv6YbR6IAPSQA9J7KA9J7AKtkEunIAd+wI65KDyB/9k="
+    },
     "id": "cairo-and-luxor",
     "location": {
       "region": "Northern and Central Areas",
@@ -340,12 +380,16 @@ const data = [
     ],
     "type": "vacation",
     "when": "December 29th, 2022 — January 6th, 2023",
-    "year": "December 29th, 2022 — January 6th, 2023"
+    "year": " 2023"
   },
   {
     "category": "Backpacking",
     "coordinates": "43.1126° N, 89.6480° W",
     "count": 5,
+    "cover": {
+      "src": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAEDAv/EACIQAAICAQIHAQAAAAAAAAAAAAABAhEhAxIiMTJBQnGBYf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AM1jVixLsR4nGzppsy0nj9Oe8vRpKVQSaRm/LDKLHqfoEi+L4ANI6Vyu8mmzbi7AIqOK/TjbG8XYAFUE1zYACP/Z"
+    },
     "id": "ice-age-trail",
     "location": {
       "region": "Wisconsin",
@@ -385,6 +429,10 @@ const data = [
     "category": "Backpacking",
     "coordinates": "55.9440° N, 4.3200° W",
     "count": 22,
+    "cover": {
+      "src": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIEAQP/xAAgEAADAAIBBAMAAAAAAAAAAAAAAQIDESESMWGRIkFR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEh/9oADAMBAAIRAxEAPwDQ2vB5ZKmeO7J31JP0Q0/xkisjb4ejs5d8V7PNnBGtPQ2tqlrwDMslQvi9AKVxORSkqWinOTt1rkAxWkOLX2iaTl86AFIcvYAEP//Z"
+    },
     "id": "west-highland-way",
     "location": {
       "region": "The Highlands",
@@ -417,12 +465,16 @@ const data = [
     ],
     "type": "thru-hike",
     "when": "May 7th — 12th, 2022",
-    "year": "May 7th — 12th, 2022"
+    "year": " 2022"
   },
   {
     "category": "Destinations",
     "coordinates": "18.4663° N, 66.1057° W",
     "count": 6,
+    "cover": {
+      "src": "2022/03/23/9f212336-298d-4c7d-874f-a3be34c95d7d.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIDAQT/xAAfEAADAQABBQEBAAAAAAAAAAAAAQIREgMhMVFxQWH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwCIpJ92U5mvHZfDBcvRpNPw9A3npzhczhlNJfmFql7JVjV5gIqmp1S38BB4taO628AKL3ji/hU0ARV11OE7m6AAP//Z"
+    },
     "id": "san-juan",
     "location": {
       "region": "Central and Eastern Regions",
@@ -451,12 +503,16 @@ const data = [
     ],
     "type": "vacation",
     "when": "March 22nd — 25th, 2022",
-    "year": "March 22nd — 25th, 2022"
+    "year": " 2022"
   },
   {
     "category": "Destinations",
     "coordinates": "46.7666° N, 89.7502° W",
     "count": 5,
+    "cover": {
+      "src": "2020/07/01/d2eed074-7e71-44c6-9f3a-1bf375430ab3.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAQACAwT/xAAfEAACAgEEAwAAAAAAAAAAAAAAARESAgMTQVEhYXH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAbEQEBAQACAwAAAAAAAAAAAAAAARECEiFBUf/aAAwDAQACEQMRAD8A27y6HQlrY8lqw7mL5IYrrsliui1Y5LJGWlb0OUbDL+DOLN5fDI+IPNNjFs9NyX2xSaUthvxowPaxnrA/AXlaZxgmWBLBP//Z"
+    },
     "id": "the-porkies",
     "location": {
       "region": "Upper Peninsula",
@@ -484,12 +540,16 @@ const data = [
     ],
     "type": "vacation",
     "when": "July 1st — 3rd, 2020",
-    "year": "July 1st — 3rd, 2020"
+    "year": " 2020"
   },
   {
     "category": "Backpacking",
     "coordinates": "50.9652° S, 72.8635° W",
     "count": 18,
+    "cover": {
+      "src": "2020/02/18/98e3190e-5480-4eb9-8883-c8d9fbb3f485.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAeACgDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDAv/EACMQAAIBAwIHAQAAAAAAAAAAAAABAgMREjGRBBMhMkFRgcH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAESH/2gAMAwEAAhEDEQA/AKRyjF37Qy01Ru9+2yE5OL6stZh6qwLyjCqxbazX0OdT8zCqYsCT4mPhNgSrCxilrLcTjH09yTqyMuo2Y1vFuXTfvcSpUtf0ipX6jyY0xRqF9HuBP6wA/9k="
+    },
     "id": "o-circuit",
     "location": {
       "region": "The Patagonia Region",
@@ -520,12 +580,16 @@ const data = [
     ],
     "type": "thru-hike",
     "when": "February 18th — 25th, 2020",
-    "year": "February 18th — 25th, 2020"
+    "year": " 2020"
   },
   {
     "category": "Destinations",
     "coordinates": "28.2096° N, 83.9856° E",
     "count": 7,
+    "cover": {
+      "src": "2019/11/06/0a6730d7-113b-4bca-b9d1-71ecf8e69713.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMCAQT/xAAfEAEBAAICAgMBAAAAAAAAAAABAAIRITESEwMiQVH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AN4/KNQyG8wj0Db4OiC+5ul5mu9XPYfrqC3lKJmPAkgh7D+WjNfziSDhmdpzbfqbQ5kg4ZbkkR//2Q=="
+    },
     "id": "pokhara",
     "location": {
       "region": "Gateway to the Himalayas",
@@ -552,12 +616,16 @@ const data = [
     ],
     "type": "vacation",
     "when": "November 6th — 8th, 2019",
-    "year": "November 6th — 8th, 2019"
+    "year": " 2019"
   },
   {
     "category": "Basecamps",
     "coordinates": "28.5300° N, 83.8780° E",
     "count": 11,
+    "cover": {
+      "src": "2019/10/19/3dc0234b-c92e-4a61-bce5-bd922ddaa9bf.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAgABA//EACIQAQACAQMEAwEAAAAAAAAAAAEAAhESMUEDIWFxIkKRUf/EABcBAQEBAQAAAAAAAAAAAAAAAAEAAgP/xAAYEQEBAQEBAAAAAAAAAAAAAAAAARECEv/aAAwDAQACEQMRAD8AGaY3SPqi8QtFUEsPg3ZrWMHSNtwil6O4ZPcglmp8TblmLXTnnD0VM4D9mW0CpwuPMpcFmrLdL7B+R9Dyz6qPaiY/sr0pyD2PPqGtY0slN1YEdZbBpxBFYo8MkJUbYIobb45kH//Z"
+    },
     "id": "annapurna-basecamp",
     "location": {
       "region": "The Kaski Region",
@@ -588,12 +656,16 @@ const data = [
     ],
     "type": "basecamp",
     "when": "November 1st — 5th, 2019",
-    "year": "November 1st — 5th, 2019"
+    "year": " 2019"
   },
   {
     "category": "Backpacking",
     "coordinates": "28.2391° N, 84.3693° E",
-    "count": 21,
+    "count": 20,
+    "cover": {
+      "src": "2019/10/19/b9b20eb0-e569-4778-99c6-de3a3c2eb15e.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECA//EACMQAAIBAwIHAQAAAAAAAAAAAAABEQISIQMTMUFRUmFxocH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAgED/8QAFxEBAQEBAAAAAAAAAAAAAAAAABIBEf/aAAwDAQACEQMRAD8A3BM9Dmtavnpz8LuTl01J+i+ucjEGr3E8fDRKq5af4KZDMA1uLsYFY2NS4t2QCVrcR1AALgAB/9k="
+    },
     "id": "annapurna-circuit",
     "location": {
       "region": "The Gandaki Province",
@@ -624,12 +696,16 @@ const data = [
     ],
     "type": "thru-hike",
     "when": "October 19th — November 1st, 2019",
-    "year": "October 19th — November 1st, 2019"
+    "year": " 2019"
   },
   {
     "category": "Mountains",
     "coordinates": "39.7392° N, 104.9903° W",
     "count": 9,
+    "cover": {
+      "src": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAhEAACAQMDBQAAAAAAAAAAAAAAARESQVECEzEDIVJhkf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAWEQEBAQAAAAAAAAAAAAAAAAAAERL/2gAMAwEAAhEDEQA/AOz6aXLRqsZShZX0tTJQnw0KZNtehpMm0KZeSX5Ga6Ql5QpCXbuKsVahUhWKRmmCNNJLBBZmwCNLsBmkD//Z"
+    },
     "id": "southern-rockies",
     "location": {
       "region": "Rocky Mountains",
@@ -663,6 +739,10 @@ const data = [
     "category": "Backpacking",
     "coordinates": "46.6992° N, 12.0852° E",
     "count": 19,
+    "cover": {
+      "src": "2019/07/16/735a0783-62ba-4f8e-97d8-c9b9f5327cfe.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMBAv/EAB0QAAMBAAMAAwAAAAAAAAAAAAABAhEDEkEhMVH/xAAXAQEBAQEAAAAAAAAAAAAAAAABAAMC/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AKzapvPBpDjblfOlO/1voSpWWjdRKa7LTtM6CiQIvlUvPQBSbMpavxgGJYm0lnhkctKn7oBpA4vs6dNgAk//2Q=="
+    },
     "id": "alta-via-1",
     "location": {
       "region": "The South Tyrol Region",
@@ -692,12 +772,16 @@ const data = [
     ],
     "type": "thru-hike",
     "when": "July 16th — 25th, 2019",
-    "year": "July 16th — 25th, 2019"
+    "year": " 2019"
   },
   {
     "category": "Backpacking",
     "coordinates": "45.8902° N, 6.7983° E",
     "count": 23,
+    "cover": {
+      "src": "2018/09/02/135eea74-e1bc-4cab-bfd7-28d17405a744.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAeACgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgT/xAAgEAADAAEEAgMAAAAAAAAAAAAAAQIRAyExQQSRElFi/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwCoD2YOX0EpsIB/H7YsznZlsGEAOonmkA6srlnWtdplJ8l9z6ZDY1GHXBlpWtf8v2SrVp8JI1Sy8E8IkTqnywGA6H//2Q=="
+    },
     "id": "tour-du-mont-blanc",
     "location": {
       "region": "The Alps",
@@ -728,12 +812,16 @@ const data = [
     ],
     "type": "thru-hike",
     "when": "September 2nd — 13th, 2018",
-    "year": "September 2nd — 13th, 2018"
+    "year": " 2018"
   },
   {
     "category": "Backpacking",
     "coordinates": "43.1634° N, 1.2358° W",
     "count": 32,
+    "cover": {
+      "src": "2018/06/02/36c8ce31-ccce-4133-9528-338124462edf.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGQABAQEAAwAAAAAAAAAAAAAAAAMCAQQF/8QAIRAAAgEEAgMBAQAAAAAAAAAAAAECAxESITFBUWGBcZH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ANZ11zGL+7OYVKtssFb9IqrLJPv2UblJviOPNuyKtTqwnxJX8G29+DzsG7y5SNtqWKiut+gO26sFpyBFRorTk/oIIU4pu7Nt3b/gAVemkokqlNX0AETblDSegAFf/9k="
+    },
     "id": "camino-frances",
     "location": {
       "region": "The Autonomous Regions",
@@ -764,12 +852,16 @@ const data = [
     ],
     "type": "thru-hike",
     "when": "June 2nd — July 4th, 2018",
-    "year": "June 2nd — July 4th, 2018"
+    "year": " 2018"
   },
   {
     "category": "Destinations",
     "coordinates": "33.4489° S, 70.6693° W",
     "count": 7,
+    "cover": {
+      "src": "2016/03/18/dd0b9008-fbc2-4916-a33c-303a406e8fa5.jpeg",
+      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQCAQP/xAAgEAACAgEEAwEAAAAAAAAAAAAAAQIRIQMSIkExcbFR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AKWuJJJ1FUWS8MglJ7VZkx2Ud+q1F5Z7xfC08vsmhNwzjK7Nw1d8s/hF7QeY1dZBzSeV7Ahvc9vntr6Rt2la8IAFGWvhrTXLHYBJXDSmqbr1YAFP/9k="
+    },
     "id": "central-and-southern-chile",
     "location": {
       "region": "Central and Southern Regions",
@@ -798,7 +890,7 @@ const data = [
     ],
     "type": "vacation",
     "when": "March 18th — 27th, 2016",
-    "year": "March 18th — 27th, 2016"
+    "year": " 2016"
   }
 ];
 

@@ -27,6 +27,10 @@ export type Collection = {
   category: string;
   coordinates: string;
   count: number;
+  cover: {
+    src: string;
+    thumb: string;
+  };
   id: string;
   location: Location;
   notes: string[];
