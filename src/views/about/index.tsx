@@ -1,34 +1,35 @@
 import { Layout } from '@/layout';
 import type { Collection } from '@/types';
 
+import Archives from './archives';
 import Components from './components';
-import Content from './content';
-import Figure from './figure';
 import Header from './header';
+import Image from './image';
+import Information from './information';
 
 type Props = {
   data: {
-    recent: Collection;
+    collections: Collection[];
   };
 };
 
 export default function View({ data }: Props) {
   return (
-    <>
-      <Layout.Header />
-      <Layout.Main>
+    <Layout.Main>
+      <Components.Container>
         <Components.Wrapper>
-          <Components.Header>
+          <Components.About>
             <Header />
-          </Components.Header>
+            <Information />
+          </Components.About>
           <Components.Content>
-            <Content recent={data.recent} />
+            <Archives collections={data.collections} />
           </Components.Content>
-          <Components.Figure>
-            <Figure />
-          </Components.Figure>
         </Components.Wrapper>
-      </Layout.Main>
-    </>
+        <Components.Figure>
+          <Image />
+        </Components.Figure>
+      </Components.Container>
+    </Layout.Main>
   );
 }

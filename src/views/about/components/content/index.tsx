@@ -4,8 +4,8 @@ import { styles } from './stylesheet';
 
 export default function Content({ children }: PropsWithChildren) {
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       {children}
-    </div>
+    </section>
   );
 }

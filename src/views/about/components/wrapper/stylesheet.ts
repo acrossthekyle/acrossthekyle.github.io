@@ -2,11 +2,12 @@ import tw from '@/styles';
 
 export const styles = tw({
   container: `
-    grid grid-cols-1
-    h-auto w-full
+    flex flex-col
+    overflow-y-scroll
+    no-scrollbar
 
-    sm:grid-cols-2
-    lg:grid-cols-3
-    lg:h-full
+    sm:w-[50vw]
+    lg:flex-row
+    lg:w-[74vw]
   `,
 });

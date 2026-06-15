@@ -2,7 +2,7 @@ import Ui from '@/ui';
 
 import { styles } from './stylesheet';
 
-export default function Figure() {
+export default function Image() {
   return (
     <>
       <Ui.Image
