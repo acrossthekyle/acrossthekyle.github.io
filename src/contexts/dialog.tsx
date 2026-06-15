@@ -25,7 +25,6 @@ type DialogContextType = {
 export const DialogContext = createContext<DialogContextType | null>(null);
 
 export default function DialogProvider({ children }: PropsWithChildren) {
-  const [canClose, setCanClose] = useState(false);
   const [dialog, setDialog] = useState('');
   const [input, setInput] = useState<object | undefined>();
   const [isOpen, setIsOpen] = useState(false);
@@ -78,21 +77,12 @@ export default function DialogProvider({ children }: PropsWithChildren) {
     requestAnimationFrame(() => {
       setIsOpen(true);
       setDialog(name);
-
-      setTimeout(() => {
-        setCanClose(true);
-      }, 450);
     });
   }, [updateBackdropHeight]);
 
   const handleOnClose = useCallback(() => {
-    if (!canClose) {
-      return;
-    }
-
     const activeNode = dialogRefs.current[dialog];
 
-    setCanClose(false);
     setIsOpen(false);
     setDialog('');
 
@@ -105,23 +95,23 @@ export default function DialogProvider({ children }: PropsWithChildren) {
     };
 
     activeNode.addEventListener('transitionend', handleTransitionEnd, { once: true });
-  }, [canClose, dialog]);
+  }, [dialog]);
 
   const handleOnCancel = useCallback((event: KeyboardEvent<HTMLDialogElement>) => {
-    if (event.key === 'Escape' && canClose) {
+    if (event.key === 'Escape') {
       event.preventDefault();
 
       handleOnClose();
     }
-  }, [canClose, handleOnClose]);
+  }, [handleOnClose]);
 
   const handleOnBackdrop = useCallback((event: MouseEvent<HTMLDialogElement>) => {
     const activeNode = dialogRefs.current[dialog];
 
-    if (event.target === activeNode && canClose) {
+    if (event.target === activeNode) {
       handleOnClose();
     }
-  }, [canClose, dialog, handleOnClose]);
+  }, [dialog, handleOnClose]);
 
   return (
     <DialogContext.Provider value={{

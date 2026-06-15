@@ -4,7 +4,7 @@ export const styles = tw({
   container: `
     col-span-1 order-1
     flex flex-col justify-end
-    h-auto min-h-[calc(100svh-20rem)]
+    h-auto
     p-4
 
     sm:h-svh

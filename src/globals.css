@@ -59,13 +59,13 @@
 }
 
 :root {
-  --background: #fefff5;
-  --foreground: #0c0c0c;
+  --background: #ffffe3;
+  --foreground: #10100e;
 }
 
 [data-theme="dark"] {
-  --background: #0c0c0c;
-  --foreground: #fefff5;
+  --background: #10100e;
+  --foreground: #ffffe3;
 }
 
 html:has(dialog[open]),
@@ -90,14 +90,6 @@ body {
 
   dialog.is-active::backdrop {
     opacity: 1;
-  }
-
-  dialog#image {
-    top: var(--dialog-top-position, 0);
-  }
-
-  dialog#image::backdrop {
-    top: var(--dialog-top-position, 0);
   }
 
   .no-scrollbar {
@@ -126,7 +118,7 @@ body {
   .leaflet-tile-container .leaflet-tile {
     border-radius: 0;
     filter: grayscale(100%);
-    opacity: .8 !important;
+    opacity: .3 !important;
   }
 
   .leaflet-tooltip {

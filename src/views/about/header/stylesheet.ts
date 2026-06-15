@@ -10,7 +10,12 @@ export const styles = tw({
     origin-left scale-x-[0.9]
 
     sm:text-[min(5vw,46px)]
-    lg:text-[min(4vw,46px)]
+    lg:text-[min(4.25vw,60px)]
+    2xl:text-[min(5vw,76px)]
+  `,
+  emphasis: `
+    font-serif
+    italic
   `,
 });
 

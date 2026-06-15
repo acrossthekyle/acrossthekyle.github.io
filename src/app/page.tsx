@@ -1,6 +1,6 @@
 import { Suspense } from 'react';
 
-import { Ui } from '@/ui';
+import Ui from '@/ui';
 import View from '@/views/about';
 
 import get from './get';

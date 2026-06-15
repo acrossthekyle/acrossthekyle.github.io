@@ -12,11 +12,12 @@ export const styles = tw({
 
     backdrop:absolute
     backdrop:outline-none
-    backdrop:bg-transparent
+    backdrop:bg-(--background)/32
+    backdrop:backdrop-blur-sm
 
     motion-safe:backdrop:opacity-0
     motion-safe:backdrop:transition-opacity
-    motion-safe:backdrop:duration-450
+    motion-safe:backdrop:duration-200
 
     lg:fixed
   `,
@@ -29,8 +30,8 @@ export const styles = tw({
     scroll-smooth
   `,
   close: (isMenuOpen: boolean) => tw(`
-    absolute top-0 right-0 z-2
-    grid justify-items-center gap-1.5
+    absolute top-1 right-0 z-2
+    grid justify-items-center gap-2
     w-16
 
     ${isMenuOpen ? `
@@ -42,7 +43,7 @@ export const styles = tw({
     `}
 
     sm:right-auto
-    sm:left-0
+    sm:left-1
 
     motion-safe:duration-450
     motion-safe:linear

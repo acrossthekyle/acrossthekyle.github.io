@@ -5,13 +5,14 @@ export const styles = tw({
     opacity-90
   `,
   caption: `
-    absolute bottom-4 right-4 z-2
-    flex flex-col gap-0.5
+    absolute bottom-4 right-0 z-2
+    flex justify-between
+    px-4
+    w-full
     leading-[1]
     font-normal
-    text-xtiny text-right text-current/50
+    text-[0.45rem] text-current/75
     uppercase
-    tracking-widest
   `,
   overlay: `
     absolute

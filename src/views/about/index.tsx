@@ -1,10 +1,10 @@
-import { Article } from '@/layout';
+import { Layout } from '@/layout';
 import type { Collection } from '@/types';
 
+import Components from './components';
 import Content from './content';
 import Figure from './figure';
 import Header from './header';
-import { styles } from './stylesheet';
 
 type Props = {
   data: {
@@ -14,16 +14,21 @@ type Props = {
 
 export default function View({ data }: Props) {
   return (
-    <Article.Container>
-      <Article.Header>
-        <Header />
-      </Article.Header>
-      <Article.Content className={styles.content}>
-        <Content recent={data.recent} />
-      </Article.Content>
-      <Article.Figure>
-        <Figure />
-      </Article.Figure>
-    </Article.Container>
+    <>
+      <Layout.Header />
+      <Layout.Main>
+        <Components.Wrapper>
+          <Components.Header>
+            <Header />
+          </Components.Header>
+          <Components.Content>
+            <Content recent={data.recent} />
+          </Components.Content>
+          <Components.Figure>
+            <Figure />
+          </Components.Figure>
+        </Components.Wrapper>
+      </Layout.Main>
+    </>
   );
 }

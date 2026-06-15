@@ -8,7 +8,7 @@ import { PropsWithChildren, Suspense } from 'react';
 
 import DialogProvider from '@/contexts/dialog';
 import OptionsProvider from '@/contexts/options';
-import { Body, Header, Main, Menu } from '@/layout';
+import { Body, Menu } from '@/layout';
 
 export const metadata: Metadata = {
   title: {
@@ -40,10 +40,7 @@ export default async function RootLayout({ children }: PropsWithChildren) {
           <OptionsProvider units={units}>
             <Body>
               <ThemeProvider>
-                <Header />
-                <Main>
-                  {children}
-                </Main>
+                {children}
                 <Menu />
               </ThemeProvider>
             </Body>

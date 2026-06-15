@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Suspense } from 'react';
 
-import { Ui } from '@/ui';
+import Ui from '@/ui';
 import { padIndex } from '@/utils';
-import View from '@/views/catalog-[id]-images';
+import View from '@/views/wanderings-[id]-images';
 
 import get from './get';
 
@@ -49,7 +49,7 @@ export async function generateMetadata({
   }
 
   return {
-    title: `Image ${padIndex(data.index + 1)} / ${padIndex(data.total)} ⌁ ${data.collection.title.join(' ')} ⌁ Wanderings`,
+    title: `Image ${padIndex(data.index + 1)} / ${padIndex(data.total)} ⌁ ${data.collection.title.join(' ')} ⌁ Travels`,
     description: ``,
   };
 };

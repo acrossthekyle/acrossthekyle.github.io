@@ -25,21 +25,36 @@ function getWhen(date: null | string | string[]) {
   if (!Array.isArray(date)) {
     const parsed = parseDate(date, 'M/dd/yyyy', new Date());
 
-    return `${formatDate(parsed, 'MMMM').trim()} ${formatDate(parsed, 'do').trim()}, 20${formatDate(parsed, 'yy').trim()}`;
+    return [`${formatDate(parsed, 'MM').trim()}.${formatDate(parsed, 'dd').trim()}.${formatDate(parsed, 'yy').trim()}`];
+
+    // return `${formatDate(parsed, 'MMMM').trim()} ${formatDate(parsed, 'do').trim()}, 20${formatDate(parsed, 'yy').trim()}`;
   }
 
   const start = parseDate(date[0], 'M/dd/yyyy', new Date());
 
-  const dayA = formatDate(start, 'do').trim();
-  const monthA = formatDate(start, 'MMMM').trim();
+  const dayA = formatDate(start, 'dd').trim();
+  const monthA = formatDate(start, 'MM').trim();
   const yearA = formatDate(start, 'yy').trim();
+
+  // const dayA = formatDate(start, 'do').trim();
+  // const monthA = formatDate(start, 'MMMM').trim();
+  // const yearA = formatDate(start, 'yy').trim();
 
   if (date.length > 1) {
     const end = parseDate(date[1], 'M/dd/yyyy', new Date());
 
-    const dayB = formatDate(end, 'do').trim();
-    const monthB = formatDate(end, 'MMMM').trim();
+    const dayB = formatDate(end, 'dd').trim();
+    const monthB = formatDate(end, 'MM').trim();
     const yearB = formatDate(end, 'yy').trim();
+
+    // const dayB = formatDate(end, 'do').trim();
+    // const monthB = formatDate(end, 'MMMM').trim();
+    // const yearB = formatDate(end, 'yy').trim();
+
+    return [
+      `${monthA}.${dayA}.${yearA}`,
+      `${monthB}.${dayB}.${yearB}`,
+    ];
 
     const doDaysMatch = dayA === dayB;
     const doMonthsMatch = monthA === monthB;
@@ -88,7 +103,7 @@ export async function go() {
       title: data.title,
       type: data.type,
       when,
-      year: when !== null ? when.split(',').pop() : null,
+      // year: when !== null ? when.split(',').pop() : null,
     });
 
     data.images.map(({ date, elevation, exif, location, notes, src, thumb, title }) => {
@@ -116,7 +131,7 @@ export async function go() {
       'collections.js',
       collections
         .sort((a, b) => b.timestamp - a.timestamp)
-        .map(({ category, coordinates, count, cover, id, location, notes, position, tags, title, type, when, year }) => ({
+        .map(({ category, coordinates, count, cover, id, location, notes, position, tags, title, type, when }) => ({
           category,
           coordinates,
           count,
@@ -129,7 +144,7 @@ export async function go() {
           title,
           type,
           when,
-          year,
+          // year,
         })),
     );
   }

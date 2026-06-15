@@ -7,3 +7,5 @@ export const Ui = {
   Loaders,
   Units
 };
+
+export default Ui;

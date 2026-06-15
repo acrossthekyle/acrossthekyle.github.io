@@ -1,3 +1,4 @@
+import { ROUTES } from './routes';
 import type { Collection } from './types';
 
 export function padIndex(index: number, padding: number = 2) {
@@ -45,3 +46,18 @@ export function createDescription(collection: Collection) {
 
   return `An adventure in ${trimCardinal(location.country)}, ${trimCardinal(location.continent)}`;
 };
+
+export function getRoute(value: string) {
+  const match = ROUTES.find(({ id, path }) => id === value.toLowerCase() || path === value.toLowerCase());
+
+  if (match) {
+    return match;
+  }
+
+  return {
+    id: '404',
+    name: 'Not Found',
+    path: '/404',
+    text: 'That page does not exist',
+  };
+}

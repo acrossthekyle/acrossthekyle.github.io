@@ -1,4 +1,4 @@
-import { Ui } from '@/ui';
+import Ui from '@/ui';
 
 import { styles } from './stylesheet';
 
@@ -12,7 +12,9 @@ export default function Figure() {
       />
       <div className={styles.overlay} />
       <figcaption className={styles.caption}>
-        Fenêtre d'Arpette, Switzerland &mdash; 2018
+        {`Fenetre d'Arpette, Switzerland — 2018`.split('').map((char, index) => (
+          <span key={index}>{char}</span>
+        ))}
       </figcaption>
     </>
   );

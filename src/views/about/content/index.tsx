@@ -13,45 +13,137 @@ export default function Content({ recent }: Props) {
     <>
       <section className={styles.section}>
         <h2 className={styles.heading}>
-          About
-          <span className={styles.index}>01 / 03</span>
+          Backstory
+          <span className={styles.index}>
+            <span>01</span>
+            <span>/</span>
+            <span>05</span>
+          </span>
         </h2>
         <p className={styles.paragraph}>
-          My obsession with long-distance trails, alpine peaks, and a curiosity to explore first arose in the Andes mountains of S. America at an elevation of 10,611 feet as I stared up at the leading edge of a calving glacier during a vacation to Chile in 2016, and further cemented by a visit to the Torres del Paine national park in Patagonia a few days later.
+          <span className={styles.emphasis}>My drive and inspiration</span> formed in the Andes mountains of S. America while exploring the Torres del Paine region of Patagonia.
         </p>
         <p className={styles.paragraph}>
-          It left such an impression on me that I ended up embarking on my first long-distance backpacking adventure two years later by walking 600 miles across Northern Spain on a route called El Camino De Santiago.
+          Thereafter I embarked on my debut long-distance backpacking adventure, walking a mere 600 miles across N. Spain via a route known as El Camino De Santiago.
         </p>
         <p className={styles.paragraph}>
-          Since then I've <Link className={styles.link} href="/wanderings">travelled</Link> to numerous destinations, and spent hundreds of days traipsing thousands of miles through nature and over mountain passes all around the world. This website is a collection of those travels and wanderings.
+          Since then I've travelled to numerous destinations, spent hundreds of days traipsing through nature and over mountain passes all around the world, and reached the tops of mountains.
         </p>
         <p className={styles.paragraph}>
-          Most recent adventure: <Link className={styles.link} href={`/wanderings/${recent.id}`}>{recent.title.join(' ')} ({recent.year})</Link>
+          This website is a <span className="italic">nearly complete</span> collection of those experiences.
         </p>
+        <span className={styles.squares} role="presentation">
+          <span className={styles.square} />
+          <span className={styles.square} />
+          <span className={styles.square} />
+        </span>
+        <Link className={styles.link} href="/wanderings">
+          <span>/</span>
+          <span>View the archives</span>
+          <span>/</span>
+        </Link>
       </section>
       <section className={styles.section}>
         <h2 className={styles.heading}>
-          Presently
-          <span className={styles.index}>02 / 03</span>
+          Upcoming
+          <span className={styles.index}>
+            <span>02</span>
+            <span>/</span>
+            <span>05</span>
+          </span>
         </h2>
         <p className={styles.paragraph}>
-          Between adventures I get lost in books, YouTube videos, podcasts, films, and anything else that fuels the imagination and inspires critical thinking.
+          <span className={styles.emphasis}>See what's on the docket</span> for {new Date().getFullYear()} and beyond.
         </p>
+        <span className={styles.squares} role="presentation">
+          <span className={styles.square} />
+        </span>
+        <Link
+          className={styles.link}
+          href="/upcoming"
+        >
+          <span>/</span>
+          <span>See what's rostered</span>
+          <span>/</span>
+        </Link>
+      </section>
+      <section className={styles.section}>
+        <h2 className={styles.heading}>
+          Interim
+          <span className={styles.index}>
+            <span>03</span>
+            <span>/</span>
+            <span>05</span>
+          </span>
+        </h2>
         <p className={styles.paragraph}>
-          I'm also an enthusiastic software developer who loves building web applications with an approach rooted in a genuine thrill for writing code.
+          <span className={styles.emphasis}>Between adventures</span> I love getting lost in books, YouTube videos, podcasts, films, and anything else that fuels the imagination and inspires critical thinking.
         </p>
+        <span className={styles.squares} role="presentation">
+          <span className={styles.square} />
+          <span className={styles.square} />
+        </span>
       </section>
       <section className={styles.section}>
         <h2 className={styles.heading}>
           Connect
-          <span className={styles.index}>03 / 03</span>
+          <span className={styles.index}>
+            <span>04</span>
+            <span>/</span>
+            <span>05</span>
+          </span>
         </h2>
         <p className={styles.paragraph}>
-          Sometimes I post snapshots from my travels on <Link className={styles.link} href="https://instagram.com/acrossthekyle" target="_blank">instagram</Link>, but the best way to reach out to me is through <Link className={styles.link} href="mailto:hello@acrossthekyle.com">email</Link>.
+          Sometimes I post snapshots from my travels on Instagram, but this website is the way to stay up to date.
         </p>
         <p className={styles.paragraph}>
-          See you out there.
+           <Link
+            className={styles.social}
+            href="https://instagram.com/acrossthekyle"
+            target="_blank"
+          >
+            <span>&mdash;</span>
+            <span>Instagram</span>
+          </Link>
         </p>
+        <p className={styles.paragraph}>
+          <span className={styles.emphasis}>Want to say hello?</span> Email is the best way to get in touch with me.
+        </p>
+        <span className={styles.squares} role="presentation">
+          <span className={styles.square} />
+          <span className={styles.square} />
+          <span className={styles.square} />
+        </span>
+        <Link className={styles.link} href="mailto:hello@acrossthekyle.com">
+          <span>/</span>
+          <span>Send a letter</span>
+          <span>/</span>
+        </Link>
+      </section>
+      <section className={styles.section}>
+        <h2 className={styles.heading}>
+          Professionaly
+          <span className={styles.index}>
+            <span>05</span>
+            <span>/</span>
+            <span>05</span>
+          </span>
+        </h2>
+        <p className={styles.paragraph}>
+          <span className={styles.emphasis}>I'm an enthusiastic software developer</span> who <span className="font-medium">loves</span> building web applications with an approach rooted in a genuine thrill for writing code, even after {new Date().getFullYear() - 2010} years.
+        </p>
+        <span className={styles.squares} role="presentation">
+          <span className={styles.square} />
+        </span>
+        <Link
+          className={styles.link}
+          href="/resume.pdf"
+          target="_blank"
+        >
+          <span>/</span>
+          <span>Read the resume</span>
+          <span>/</span>
+        </Link>
       </section>
     </>
   );

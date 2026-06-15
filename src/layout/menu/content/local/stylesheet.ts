@@ -2,18 +2,11 @@ import tw from '@/styles';
 
 export const styles = tw({
   container: `
-    absolute top-2 left-12 z-2
-    p-4
-    text-xtiny
-    font-medium
+    absolute bottom-4 left-4 z-2
+    text-xtiny text-(--foreground)
+    font-mono
     uppercase
     tracking-widest
-
-    sm:right-12
-    sm:left-auto
-  `,
-  fade: `
-    text-current/60
   `,
 });
 

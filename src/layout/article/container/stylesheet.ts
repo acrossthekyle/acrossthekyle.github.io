@@ -15,7 +15,6 @@ export const styles = {
       sm:grid-cols-2
       lg:grid-cols-3
       lg:h-full
-      lg:flex
     `);
   },
 };
