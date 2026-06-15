@@ -1,35 +1,45 @@
 import tw from '@/styles';
 
 const INDEXES = [
-  'absolute right-full top-1 bottom-0 mr-8 origin-right text-right',
-  'relative -right-full ml-14 top-3.25 text-left',
+  'absolute right-full top-1 bottom-0 mr-16 origin-right text-right',
+  'relative -right-full ml-24 top-3.25 text-left',
 ];
 
 const HEADINGS = [
-  'relative right-0 origin-right',
-  'relative left-0 text-right origin-left',
+  'relative -right-4 origin-right',
+  'relative -left-4 text-right origin-left',
 ];
 
 const WHENS = [
-  'absolute right-full bottom-0.75 origin-right mr-8',
-  'relative -right-full origin-left ml-8 -mt-3.25',
+  'absolute right-full bottom-0.75 origin-right mr-16',
+  'relative -right-full origin-left ml-16 -mt-3.25',
 ];
 
 const TIMELINES = [
-  'w-[8svw] sm:w-[8svw] motion-safe:sm:group-hover/link:w-[9.5svw]',
-  'w-[8svw] motion-safe:sm:group-hover/link:w-[9.5svw]',
-  'w-[8svw] sm:w-[4svw] motion-safe:sm:group-hover/link:w-[8svw]',
-  'w-[8svw] sm:w-[8svw] motion-safe:sm:group-hover/link:w-[9.5svw]',
+  'w-[8svw] sm:w-[8svw]',
+  'w-[8svw]',
+  'w-[8svw] sm:w-[4svw]',
+  'w-[8svw] sm:w-[8svw]',
 ];
 
 const LOCATIONS = [
-  'relative right-1/2 items-end origin-right text-right',
-  'relative left-1/2 text-left inline-flex origin-left',
+  'relative right-1/2 items-end origin-right text-right mr-4',
+  'relative left-1/2 text-left inline-flex origin-left ml-4',
 ];
 
 const COORDINATES = [
-  'relative left-1/2 -bottom-8 inline-flex -rotate-90',
-  'relative right-1/2 bottom-0 mr-6 text-right origin-bottom-right -rotate-90',
+  'relative left-1/2 -bottom-8 inline-flex -rotate-90 -ml-2',
+  'relative right-1/2 bottom-0 mr-4 text-right origin-bottom-right -rotate-90',
+];
+
+const HINTS = [
+  'right-0 translate-x-18 border-l motion-safe:group-hover/item:translate-x-0',
+  'left-0 -translate-x-18 border-l motion-safe:group-hover/item:translate-x-0',
+];
+
+const WORDS = [
+  'rotate-90',
+  '-rotate-90',
 ];
 
 export const styles = tw({
@@ -73,35 +83,99 @@ export const styles = tw({
     sm:text-[min(2vw,16px)]
     lg:text-[min(1.25vw,16px)]
   `,
+  filters: `
+    absolute top-4 right-4
+    flex flex-col items-end gap-3
+  `,
+  filter: `
+    flex items-center gap-2
+    leading-[0.85]
+    font-serif font-bold
+    italic
+    text-xtiny
+    uppercase
+    tracking-widest
+  `,
+  brackets: `
+    font-mono
+  `,
   container: `
-    group/grid
     flex flex-col items-center
+    border-t border-dashed border-current/10
   `,
   item: (isInView: boolean, index: number) => tw(`
     group/item
+    relative
     flex items-center justify-center gap-4
     w-[calc(100%-1rem)]
-    border-t border-dashed border-current/10
+    bg-transparent
+
+    before:absolute
+    before:left-1/2
+    before:top-6
+    before:bottom-6
+    before:w-px
+    before:border-l
+    before:border-dashed
+    before:border-current/20
+
+    after:absolute
+    after:left-1/2
+    after:-translate-x-1/2
+    after:top-0
+    after:h-px
+    after:w-6
+    after:border-b
+    after:border-dashed
+    after:border-current/20
+
+    first:after:hidden
 
     sm:w-[calc(100%-4px)]
 
     motion-safe:ease-in-out
     motion-safe:duration-300
+    motion-safe:hover:bg-(--foreground)/2
 
     ${isInView ? `
-      translate-y-0
       opacity-100
     ` : `
-      -translate-y-20
       opacity-0
     `}
   `),
+  hint: (index: number) => tw(`
+    hidden
+    absolute top-0 bottom-0
+    flex items-center justify-center
+    h-full w-8
+    uppercase
+    text-xtiny
+    font-mono
+    tracking-widest
+    border-dashed border-current/10
+
+    motion-safe:ease-in-out
+    motion-safe:duration-300
+
+    ${HINTS[index % HINTS.length]}
+  `),
+  words: (index: number) => tw(`
+    whitespace-nowrap
+    origin-center
+
+    ${WORDS[index % WORDS.length]}
+  `),
+  shaded: `
+    absolute inset-0
+    text-current/10
+    bg-[size:8px_8px]
+    bg-top-left
+    bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]
+  `,
   link: `
-    group/link
     relative
     py-10
     w-full
-
     overflow-hidden
   `,
   heading: (index: number) => tw(`
@@ -151,16 +225,12 @@ export const styles = tw({
     italic
     scale-x-[2]
 
-    group-hover/link:font-bold
-
     ${WHENS[index % WHENS.length]}
   `),
   timeline: (index: number) => tw(`
     block
     h-px
     bg-(--foreground)/50
-
-    motion-safe:duration-300
 
     ${TIMELINES[index % TIMELINES.length]}
   `),
