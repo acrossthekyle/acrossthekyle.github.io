@@ -1,16 +1,10 @@
 import collections from '@/cache/collections';
 import images from '@/cache/images';
 
-export default async function get(id, ref) {
+export default async function get(id) {
   const filtered = images.filter((image) => image.collectionId.toLowerCase() === id);
 
   if (filtered.length === 0) {
-    return null;
-  }
-
-  const index = filtered.findIndex((image) => image.id.toLowerCase() === ref);
-
-  if (index < 0) {
     return null;
   }
 
@@ -21,10 +15,7 @@ export default async function get(id, ref) {
   }
 
   return {
-    all: filtered,
+    images: filtered,
     collection,
-    image: filtered[index],
-    index,
-    total: filtered.length,
   };
 };

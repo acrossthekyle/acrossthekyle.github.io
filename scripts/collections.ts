@@ -25,9 +25,14 @@ function getWhen(date: null | string | string[]) {
   if (!Array.isArray(date)) {
     const parsed = parseDate(date, 'M/dd/yyyy', new Date());
 
-    return [`${formatDate(parsed, 'MM').trim()}.${formatDate(parsed, 'dd').trim()}.${formatDate(parsed, 'yy').trim()}`];
-
-    // return `${formatDate(parsed, 'MMMM').trim()} ${formatDate(parsed, 'do').trim()}, 20${formatDate(parsed, 'yy').trim()}`;
+    return {
+      long: [
+        `${formatDate(parsed, 'MMMM').trim()}.${formatDate(parsed, 'do').trim()}.${formatDate(parsed, 'yy').trim()}`,
+      ],
+      short: [
+        `${formatDate(parsed, 'MM').trim()}.${formatDate(parsed, 'dd').trim()}.${formatDate(parsed, 'yy').trim()}`,
+      ],
+    };
   }
 
   const start = parseDate(date[0], 'M/dd/yyyy', new Date());
@@ -36,9 +41,8 @@ function getWhen(date: null | string | string[]) {
   const monthA = formatDate(start, 'MM').trim();
   const yearA = formatDate(start, 'yy').trim();
 
-  // const dayA = formatDate(start, 'do').trim();
-  // const monthA = formatDate(start, 'MMMM').trim();
-  // const yearA = formatDate(start, 'yy').trim();
+  const longDayA = formatDate(start, 'do').trim();
+  const longMonthA = formatDate(start, 'MMMM').trim();
 
   if (date.length > 1) {
     const end = parseDate(date[1], 'M/dd/yyyy', new Date());
@@ -47,31 +51,37 @@ function getWhen(date: null | string | string[]) {
     const monthB = formatDate(end, 'MM').trim();
     const yearB = formatDate(end, 'yy').trim();
 
-    // const dayB = formatDate(end, 'do').trim();
-    // const monthB = formatDate(end, 'MMMM').trim();
-    // const yearB = formatDate(end, 'yy').trim();
+    const longDayB = formatDate(end, 'do').trim();
+    const longMonthB = formatDate(end, 'MMMM').trim();
 
-    return [
+    const short = [
       `${monthA}.${dayA}.${yearA}`,
       `${monthB}.${dayB}.${yearB}`,
     ];
 
-    const doDaysMatch = dayA === dayB;
+    let long = [];
+
     const doMonthsMatch = monthA === monthB;
     const doYearsMatch = yearA === yearB;
 
     if (!doYearsMatch) {
-      return `${monthA} ${dayA}, 20${yearA} — ${monthB} ${dayB}, 20${yearB}`;
+      long = [`${longMonthA} ${longDayA}, 20${yearA}`, `${longMonthB} ${longDayB}, 20${yearB}`];
+    } else if (!doMonthsMatch) {
+      long = [`${longMonthA} ${longDayA}`, `${longMonthB} ${longDayB}, 20${yearA}`];
+    } else {
+      long = [`${longMonthA} ${longDayA}`, `${longDayB}, 20${yearA}`];
     }
 
-    if (!doMonthsMatch) {
-      return `${monthA} ${dayA} — ${monthB} ${dayB}, 20${yearA}`;
-    }
-
-    return `${monthA} ${dayA} — ${dayB}, 20${yearA}`;
+    return {
+      long,
+      short,
+    };
   }
 
-  return `20${yearA}+`;
+  return {
+    long: [`20${yearA}+`, ''],
+    short: [`20${yearA}+`, ''],
+  };
 };
 
 export async function go() {

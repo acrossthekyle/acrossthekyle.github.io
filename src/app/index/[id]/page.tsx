@@ -3,38 +3,34 @@ import { notFound } from 'next/navigation';
 import { Suspense } from 'react';
 
 import Ui from '@/ui';
-import { padIndex } from '@/utils';
-import View from '@/views/wanderings-[id]-images';
+import { createDescription } from '@/utils';
+import View from '@/views/index/[id]';
 
 import get from './get';
 
 type Params = Promise<{
   id: string;
-  src: string;
 }>;
 
-type SearchParams = Promise<{
-  ref: string;
-}>;
+type GenerateMetadata = {
+  params: Params;
+};
 
 type Props = {
   params: Params;
-  searchParams: SearchParams;
 };
 
 export async function generateMetadata({
   params,
-  searchParams,
-}: Props): Promise<Metadata> {
+}: GenerateMetadata): Promise<Metadata> {
   const { id } = await params;
-  const { ref } = await searchParams;
 
-  const data = await get(id.toLowerCase(), ref.toLowerCase());
+  const data = await get(id.toLowerCase());
 
   if (data === null) {
     return {
       title: '404 Not Found',
-      description: 'That image does not exist',
+      description: 'That does not exist',
       robots: {
         index: false,
         follow: false,
@@ -49,16 +45,15 @@ export async function generateMetadata({
   }
 
   return {
-    title: `Image ${padIndex(data.index + 1)} / ${padIndex(data.total)} ⌁ ${data.collection.title.join(' ')} ⌁ Travels`,
-    description: ``,
+    title: `Images ⌁ ${data.collection.title.join(' ')} ⌁ Index`,
+    description: `${createDescription(data.collection)}. ${data.collection.notes.join(' ')}`,
   };
 };
 
-export default async function Page({ params, searchParams }: Props) {
+export default async function Page({ params }: Props) {
   const { id } = await params;
-  const { ref } = await searchParams;
 
-  const data = await get(id.toLowerCase(), ref.toLowerCase());
+  const data = await get(id.toLowerCase());
 
   if (data === null) {
     return notFound();

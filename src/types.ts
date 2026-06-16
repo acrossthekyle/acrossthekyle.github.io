@@ -38,6 +38,9 @@ export type Collection = {
   tags: string[];
   title: string[];
   type: string;
-  when: string;
-  year: string;
+  when: {
+    long: string[];
+    short: string[];
+  };
+  // year: string;
 };

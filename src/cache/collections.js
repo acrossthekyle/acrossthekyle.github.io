@@ -31,10 +31,16 @@ const data = [
       "Maldonado"
     ],
     "type": "vacation",
-    "when": [
-      "07.19.26",
-      "07.22.26"
-    ]
+    "when": {
+      "long": [
+        "July 19th",
+        "22nd, 2026"
+      ],
+      "short": [
+        "07.19.26",
+        "07.22.26"
+      ]
+    }
   },
   {
     "category": "Backpacking",
@@ -71,10 +77,16 @@ const data = [
       "Trek"
     ],
     "type": "thru-hike",
-    "when": [
-      "07.11.26",
-      "07.17.26"
-    ]
+    "when": {
+      "long": [
+        "July 11th",
+        "17th, 2026"
+      ],
+      "short": [
+        "07.11.26",
+        "07.17.26"
+      ]
+    }
   },
   {
     "category": "Destinations",
@@ -109,10 +121,16 @@ const data = [
       "Cusco"
     ],
     "type": "vacation",
-    "when": [
-      "07.08.26",
-      "07.10.26"
-    ]
+    "when": {
+      "long": [
+        "July 8th",
+        "10th, 2026"
+      ],
+      "short": [
+        "07.08.26",
+        "07.10.26"
+      ]
+    }
   },
   {
     "category": "Backpacking",
@@ -151,10 +169,16 @@ const data = [
       "Trail"
     ],
     "type": "overnight-hike",
-    "when": [
-      "03.14.26",
-      "03.15.26"
-    ]
+    "when": {
+      "long": [
+        "March 14th",
+        "15th, 2026"
+      ],
+      "short": [
+        "03.14.26",
+        "03.15.26"
+      ]
+    }
   },
   {
     "category": "Backpacking",
@@ -193,10 +217,16 @@ const data = [
       "Trail"
     ],
     "type": "overnight-hike",
-    "when": [
-      "10.18.25",
-      "10.19.25"
-    ]
+    "when": {
+      "long": [
+        "October 18th",
+        "19th, 2025"
+      ],
+      "short": [
+        "10.18.25",
+        "10.19.25"
+      ]
+    }
   },
   {
     "category": "Backpacking",
@@ -235,10 +265,16 @@ const data = [
       "Mont Blanc"
     ],
     "type": "thru-hike",
-    "when": [
-      "07.27.24",
-      "08.06.24"
-    ]
+    "when": {
+      "long": [
+        "July 27th",
+        "August 6th, 2024"
+      ],
+      "short": [
+        "07.27.24",
+        "08.06.24"
+      ]
+    }
   },
   {
     "category": "Cities",
@@ -273,10 +309,16 @@ const data = [
       "Geneva"
     ],
     "type": "vacation",
-    "when": [
-      "07.24.24",
-      "07.25.24"
-    ]
+    "when": {
+      "long": [
+        "July 24th",
+        "25th, 2024"
+      ],
+      "short": [
+        "07.24.24",
+        "07.25.24"
+      ]
+    }
   },
   {
     "category": "Cities",
@@ -312,10 +354,16 @@ const data = [
       "+ Ajaccio"
     ],
     "type": "vacation",
-    "when": [
-      "07.05.23",
-      "07.07.23"
-    ]
+    "when": {
+      "long": [
+        "July 5th",
+        "7th, 2023"
+      ],
+      "short": [
+        "07.05.23",
+        "07.07.23"
+      ]
+    }
   },
   {
     "category": "Backpacking",
@@ -355,10 +403,16 @@ const data = [
       "GR 20"
     ],
     "type": "thru-hike",
-    "when": [
-      "06.21.23",
-      "07.03.23"
-    ]
+    "when": {
+      "long": [
+        "June 21st",
+        "July 3rd, 2023"
+      ],
+      "short": [
+        "06.21.23",
+        "07.03.23"
+      ]
+    }
   },
   {
     "category": "Destinations",
@@ -396,10 +450,16 @@ const data = [
       "+ Luxor"
     ],
     "type": "vacation",
-    "when": [
-      "12.29.22",
-      "01.06.23"
-    ]
+    "when": {
+      "long": [
+        "December 29th, 2022",
+        "January 6th, 2023"
+      ],
+      "short": [
+        "12.29.22",
+        "01.06.23"
+      ]
+    }
   },
   {
     "category": "Backpacking",
@@ -441,10 +501,16 @@ const data = [
       "Trail"
     ],
     "type": "section-hike",
-    "when": [
-      "07.15.22",
-      "05.04.25"
-    ]
+    "when": {
+      "long": [
+        "July 15th, 2022",
+        "May 4th, 2025"
+      ],
+      "short": [
+        "07.15.22",
+        "05.04.25"
+      ]
+    }
   },
   {
     "category": "Backpacking",
@@ -485,10 +551,16 @@ const data = [
       "Way"
     ],
     "type": "thru-hike",
-    "when": [
-      "05.07.22",
-      "05.12.22"
-    ]
+    "when": {
+      "long": [
+        "May 7th",
+        "12th, 2022"
+      ],
+      "short": [
+        "05.07.22",
+        "05.12.22"
+      ]
+    }
   },
   {
     "category": "Destinations",
@@ -526,10 +598,16 @@ const data = [
       "Juan"
     ],
     "type": "vacation",
-    "when": [
-      "03.22.22",
-      "03.25.22"
-    ]
+    "when": {
+      "long": [
+        "March 22nd",
+        "25th, 2022"
+      ],
+      "short": [
+        "03.22.22",
+        "03.25.22"
+      ]
+    }
   },
   {
     "category": "Destinations",
@@ -565,10 +643,16 @@ const data = [
       "Porkies"
     ],
     "type": "vacation",
-    "when": [
-      "07.01.20",
-      "07.03.20"
-    ]
+    "when": {
+      "long": [
+        "July 1st",
+        "3rd, 2020"
+      ],
+      "short": [
+        "07.01.20",
+        "07.03.20"
+      ]
+    }
   },
   {
     "category": "Backpacking",
@@ -607,10 +691,16 @@ const data = [
       "O Circuit"
     ],
     "type": "thru-hike",
-    "when": [
-      "02.18.20",
-      "02.25.20"
-    ]
+    "when": {
+      "long": [
+        "February 18th",
+        "25th, 2020"
+      ],
+      "short": [
+        "02.18.20",
+        "02.25.20"
+      ]
+    }
   },
   {
     "category": "Destinations",
@@ -645,10 +735,16 @@ const data = [
       "Pokhara"
     ],
     "type": "vacation",
-    "when": [
-      "11.06.19",
-      "11.08.19"
-    ]
+    "when": {
+      "long": [
+        "November 6th",
+        "8th, 2019"
+      ],
+      "short": [
+        "11.06.19",
+        "11.08.19"
+      ]
+    }
   },
   {
     "category": "Basecamps",
@@ -687,10 +783,16 @@ const data = [
       "Basecamp"
     ],
     "type": "basecamp",
-    "when": [
-      "11.01.19",
-      "11.05.19"
-    ]
+    "when": {
+      "long": [
+        "November 1st",
+        "5th, 2019"
+      ],
+      "short": [
+        "11.01.19",
+        "11.05.19"
+      ]
+    }
   },
   {
     "category": "Backpacking",
@@ -729,10 +831,16 @@ const data = [
       "Circuit"
     ],
     "type": "thru-hike",
-    "when": [
-      "10.19.19",
-      "11.01.19"
-    ]
+    "when": {
+      "long": [
+        "October 19th",
+        "November 1st, 2019"
+      ],
+      "short": [
+        "10.19.19",
+        "11.01.19"
+      ]
+    }
   },
   {
     "category": "Mountains",
@@ -768,10 +876,16 @@ const data = [
       "Rockies"
     ],
     "type": "summits",
-    "when": [
-      "08.31.19",
-      "09.11.22"
-    ]
+    "when": {
+      "long": [
+        "August 31st, 2019",
+        "September 11th, 2022"
+      ],
+      "short": [
+        "08.31.19",
+        "09.11.22"
+      ]
+    }
   },
   {
     "category": "Backpacking",
@@ -810,10 +924,16 @@ const data = [
       "Via 1"
     ],
     "type": "thru-hike",
-    "when": [
-      "07.16.19",
-      "07.25.19"
-    ]
+    "when": {
+      "long": [
+        "July 16th",
+        "25th, 2019"
+      ],
+      "short": [
+        "07.16.19",
+        "07.25.19"
+      ]
+    }
   },
   {
     "category": "Backpacking",
@@ -852,10 +972,16 @@ const data = [
       "Mont Blanc"
     ],
     "type": "thru-hike",
-    "when": [
-      "09.02.18",
-      "09.13.18"
-    ]
+    "when": {
+      "long": [
+        "September 2nd",
+        "13th, 2018"
+      ],
+      "short": [
+        "09.02.18",
+        "09.13.18"
+      ]
+    }
   },
   {
     "category": "Backpacking",
@@ -894,10 +1020,16 @@ const data = [
       "Frances"
     ],
     "type": "thru-hike",
-    "when": [
-      "06.02.18",
-      "07.04.18"
-    ]
+    "when": {
+      "long": [
+        "June 2nd",
+        "July 4th, 2018"
+      ],
+      "short": [
+        "06.02.18",
+        "07.04.18"
+      ]
+    }
   },
   {
     "category": "Destinations",
@@ -934,10 +1066,16 @@ const data = [
       "+ Patagonia"
     ],
     "type": "vacation",
-    "when": [
-      "03.18.16",
-      "03.27.16"
-    ]
+    "when": {
+      "long": [
+        "March 18th",
+        "27th, 2016"
+      ],
+      "short": [
+        "03.18.16",
+        "03.27.16"
+      ]
+    }
   }
 ];
 

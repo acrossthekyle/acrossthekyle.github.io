@@ -12,7 +12,7 @@ type Props = {
 export default function Content({ recent }: Props) {
   return (
     <aside className={styles.wrapper}>
-      <div className={styles.divider} role="presentation" />
+      <div className={styles.divider} />
       <section className={styles.section}>
         <h2 className={styles.heading}>
           Upcoming
@@ -34,7 +34,7 @@ export default function Content({ recent }: Props) {
           <li>&mdash; <span className={styles.emphasis}>Puerto Maldonado (Amazon Eco Lodge)</span></li>
         </ul>
       </section>
-      <div className={styles.divider} role="presentation" />
+      <div className={styles.divider} />
       <section className={styles.section}>
         <h2 className={styles.heading}>
           Interim
@@ -60,7 +60,7 @@ export default function Content({ recent }: Props) {
           Daily listens: <span className={styles.emphasis}>Up First</span>, & <span className={styles.emphasis}>Everything Everywhere Daily</span>
         </p>
       </section>
-      <div className={styles.divider} role="presentation" />
+      <div className={styles.divider} />
       <section className={styles.section}>
         <h2 className={styles.heading}>
           Connect
@@ -89,7 +89,7 @@ export default function Content({ recent }: Props) {
           <span>/</span>
         </Link>
       </section>
-      <div className={styles.divider} role="presentation" />
+      <div className={styles.divider} />
       <section className={styles.section}>
         <h2 className={styles.heading}>
           Professionaly
