@@ -1,9 +1,12 @@
 'use client';
 
+import { MoveRight } from 'lucide-react';
 import Link from 'next/link';
+import { useEffect, useState } from 'react';
 import { InView } from 'react-intersection-observer';
 
 import type { Collection } from '@/types';
+import { Ui } from '@/ui';
 import { padIndex, trimCardinal } from '@/utils';
 
 import { styles } from './stylesheet';
@@ -19,11 +22,11 @@ export default function Archives({ collections }: Props) {
     <>
       <div className={styles.divider} />
       <div className={styles.wrapper}>
-        <div className={styles.upper}>
+        {/*<div className={styles.upper}>
           <h2 className={styles.header}>
             Index
             <span className={styles.footnote}>
-              Curated selection of experiences
+              Selected wanderings
             </span>
           </h2>
           <ul className={styles.filters}>
@@ -37,47 +40,65 @@ export default function Archives({ collections }: Props) {
               Desc. <span className={styles.brackets}>[ ]</span>
             </li>
           </ul>
-        </div>
+        </div>*/}
         <ul className={styles.container}>
           {collections.map((collection, index) => {
             return (
-              <InView key={collection.id} threshold={0.25} triggerOnce>
-                {({ inView, ref }) => (
-                  <li className={styles.item(inView, index)} ref={ref}>
-                    <Link className={styles.link} href={`index/${collection.id}`}>
-                      <h2 className={styles.heading(index)}>
-                        <span className={styles.index(index)}>
-                          {padIndex(index + 1)} / {total}
-                        </span>
-                        {collection.title.map((chunk) => (
-                          <span className={styles.chunk} key={chunk}>{chunk}</span>
-                        ))}
-                        <span className={styles.when(index)}>
-                          <span className={styles.start}>{collection.when.short[0]}</span>
-                          <span className={styles.timeline(index)}></span>
-                          <span>{collection.when.short[1]}</span>
-                        </span>
-                      </h2>
-                      <span className={styles.coordinates(index)}>
-                        {collection.coordinates.split(', ').map((coordinate) => (
-                          <span key={coordinate}>{coordinate}</span>
-                        ))}
-                      </span>
-                      <span className={styles.location(index)}>
-                        <span className={`${styles.emphasis} ${styles.address}`}>
-                          {collection.location.region}
-                        </span>
-                        <span className={styles.address}>
-                          {collection.location.country}, {trimCardinal(collection.location.continent)}
-                        </span>
-                      </span>
-                      <span className={styles.hint(index)}>
-                        <span className={styles.words(index)}>View Details</span>
-                        <span className={styles.shaded} />
-                      </span>
-                    </Link>
-                  </li>
-                )}
+              <InView key={collection.id} threshold={0.1} triggerOnce={false}>
+                {({ inView, ref }) => {
+                  const isReversed = index % 2 !== 0 ? true : undefined;
+
+                  return (
+                      <li
+                        className={styles.item}
+                        data-inview={inView ? true : undefined}
+                        id={`index-${index}`}
+                        ref={ref}
+                      >
+                        <div className={styles.inner}>
+                          <span className={styles.northwest} data-reverse={isReversed}>
+                            <h2 className={styles.heading}>
+                              {collection.title.map((chunk) => (
+                                <span className={styles.line} key={chunk}>{chunk}</span>
+                              ))}
+                            </h2>
+                            <Link
+                              className={styles.view}
+                              data-reverse={isReversed}
+                              href={`/index/${collection.id}`}
+                            >
+                              <span>View</span>
+                              <span className={styles.bar} />
+                            </Link>
+                          </span>
+                          <span className={styles.northeast} data-reverse={isReversed}>
+                            <span className={styles.index}>
+                              {padIndex(index + 1)} / {total}
+                            </span>
+                            <span className={styles.when}>
+                              <span className={styles.start}>{collection.when.short[0]}</span>
+                              <span className={styles.timeline}></span>
+                              <span>{collection.when.short[1]}</span>
+                            </span>
+                          </span>
+                          <span className={styles.southeast} data-reverse={isReversed}>
+                            <span className={styles.region}>
+                              {collection.location.region}
+                            </span>
+                            <span>
+                              {collection.location.country}, {trimCardinal(collection.location.continent)}
+                            </span>
+                          </span>
+                          <span className={styles.southwest} data-reverse={isReversed}>
+                            {collection.coordinates.split(', ').map((coordinate) => (
+                              <span key={coordinate}>{coordinate}</span>
+                            ))}
+                          </span>
+                          <span className={styles.cross} />
+                        </div>
+                      </li>
+                    );
+                }}
               </InView>
             );
           })}

@@ -12,7 +12,7 @@ export const styles = tw({
     p-4
 
     sm:text-[min(5vw,46px)]
-    lg:text-[min(3vw,40px)]
+    lg:text-[min(3.25vw,44px)]
   `,
   paragraph: `
     w-full max-w-84

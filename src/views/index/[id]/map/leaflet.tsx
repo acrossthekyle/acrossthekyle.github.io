@@ -73,7 +73,7 @@ export default function Leaflet({ collection }: Props) {
         noWrap={true}
         url={`https://{s}.basemaps.cartocdn.com/${resolvedTheme === 'light' ? 'light' : 'dark'}_nolabels/{z}/{x}/{y}{r}.png`}
       />
-      <ZoomToCollection zoom={3} />
+      <ZoomToCollection zoom={4} />
     </MapContainer>
   );
 }

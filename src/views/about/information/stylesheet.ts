@@ -22,17 +22,18 @@ export const styles = tw({
     flex flex-col gap-3
     mb-8
     text-[min(6vw,28px)]
-    font-serif
+    font-sans font-bold
     not-italic
     leading-[0.85]
     tracking-normal
 
     sm:text-[min(3.5vw,28px)]
-    lg:text-[min(2vw,28px)]
+    lg:text-[min(2vw,24px)]
   `,
   footnote: `
     leading-[0.85]
     text-[min(5vw,16px)] text-current/75
+    font-serif font-normal
     italic
 
     sm:text-[min(2vw,16px)]

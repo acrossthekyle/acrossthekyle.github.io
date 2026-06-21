@@ -5,8 +5,11 @@ export const styles = tw({
     relative
     h-80 w-full
     border-b-1 border-current/10
-    overflow-hidden
 
+    sm:fixed
+    sm:right-0
+    sm:top-0
+    sm:z-0
     sm:h-screen
     sm:border-l-1
     sm:border-b-0

@@ -1,47 +1,5 @@
 import tw from '@/styles';
 
-const INDEXES = [
-  'absolute right-full top-0.25 bottom-0 mr-16 origin-right text-right',
-  'relative -right-full ml-24 top-2.5 text-left',
-];
-
-const HEADINGS = [
-  'relative -right-4 origin-right',
-  'relative -left-4 text-right origin-left',
-];
-
-const WHENS = [
-  'absolute right-full bottom-0.25 origin-right mr-16',
-  'relative -right-full origin-left ml-16 -mt-2.75',
-];
-
-const TIMELINES = [
-  'w-[2svw] md:w-[4svw] lg:w-[8svw]',
-  'w-[2svw] md:w-[4svw] lg:w-[8svw]',
-  'w-[1svw] md:w-[2svw] lg:w-[4svw]',
-  'w-[2svw] md:w-[4svw] lg:w-[8svw]',
-];
-
-const LOCATIONS = [
-  'relative right-1/2 items-end origin-right text-right mr-4',
-  'relative left-1/2 text-left inline-flex origin-left ml-4',
-];
-
-const COORDINATES = [
-  'relative left-1/2 -bottom-8 inline-flex -rotate-90 -ml-2',
-  'relative right-1/2 bottom-0 mr-4 text-right origin-bottom-right -rotate-90',
-];
-
-const HINTS = [
-  'right-0 translate-x-18 border-l motion-safe:group-hover/item:translate-x-0',
-  'left-0 -translate-x-18 border-l motion-safe:group-hover/item:translate-x-0',
-];
-
-const WORDS = [
-  'rotate-90',
-  '-rotate-90',
-];
-
 export const styles = tw({
   divider: `
     h-8
@@ -53,11 +11,7 @@ export const styles = tw({
     lg:hidden
   `,
   wrapper: `
-    overflow-x-hidden
-    overflow-y-scroll
-    no-scrollbar
-
-    lg:h-screen
+    lg:pr-[26vw]
 
     motion-safe:opacity-0
     motion-safe:animate-fade-in-down-slightly-delayed
@@ -66,20 +20,21 @@ export const styles = tw({
     flex items-end justify-between
     h-24 w-full
     p-4
-    border-t border-current/10 border-dashed
+    border-t border-current/20 border-dashed
   `,
   header: `
     flex flex-col gap-3
     text-[min(6vw,28px)]
-    font-thin font-serif
+    font-bold
     leading-[0.85]
 
     sm:text-[min(3.5vw,28px)]
-    lg:text-[min(2vw,28px)]
+    lg:text-[min(2vw,24px)]
   `,
   footnote: `
     leading-[0.85]
     text-[min(5vw,16px)] text-current/75
+    font-serif font-normal
     italic
 
     sm:text-[min(2vw,16px)]
@@ -102,167 +57,214 @@ export const styles = tw({
     font-mono
   `,
   container: `
-    flex flex-col items-center
+    flex flex-col items-center gap-8
+    py-6
+    border-t border-current/20 border-dashed
   `,
-  item: (isInView: boolean, index: number) => tw(`
-    group/item
+  item: `
     relative
-    flex items-center justify-center gap-4
+    flex flex-col items-start justify-center
     w-[calc(100%-1rem)]
+    opacity-0
     bg-transparent
-    border-y border-transparent border-dashed
 
     before:absolute
     before:left-1/2
-    before:top-6
-    before:bottom-6
+    before:-translate-x-1/2
+    before:top-0
+    before:bottom-0
     before:w-px
     before:border-l
     before:border-dashed
-    before:border-current/20
+    before:opacity-20
 
     after:absolute
-    after:left-1/2
-    after:-translate-x-1/2
-    after:-top-0.5
+    after:-bottom-4
+    after:left-8
+    after:right-8
     after:h-px
-    after:w-6
     after:border-b
     after:border-dashed
-    after:border-current/20
+    after:opacity-20
 
-    first:after:hidden
-    first:border-t
-    first:border-t-current/10
+    last:after:hidden
 
     sm:w-[calc(100%-4px)]
 
     motion-safe:ease-in-out
-    motion-safe:duration-300
-    motion-safe:hover:bg-(--foreground)/2
-    motion-safe:hover:border-current/10
-
-    ${isInView ? `
-      opacity-100
-    ` : `
-      opacity-0
-    `}
-  `),
-  hint: (index: number) => tw(`
-    hidden
-    absolute top-0 bottom-0
-    flex items-center justify-center
-    h-full w-8
-    uppercase
-    text-xtiny
-    font-mono
-    tracking-widest
-    border-dashed border-current/10
-
-    motion-safe:ease-in-out
-    motion-safe:duration-300
-
-    ${HINTS[index % HINTS.length]}
-  `),
-  words: (index: number) => tw(`
-    whitespace-nowrap
-    origin-center
-
-    ${WORDS[index % WORDS.length]}
-  `),
-  shaded: `
-    absolute inset-0
-    text-current/10
-    bg-[size:8px_8px]
-    bg-top-left
-    bg-[image:repeating-linear-gradient(315deg,currentColor_0,currentColor_1px,transparent_0,transparent_50%)]
+    motion-safe:duration-700
+    motion-safe:data-inview:opacity-100
   `,
-  link: `
+  cross: `
+    absolute top-1/2 left-1/2 z-2
+    -translate-x-1/2 -translate-y-1/2
+    h-14 w-6
+    bg-(--background)
+
+    after:absolute
+    after:top-1/2
+    after:left-1/2
+    after:z-2
+    after:-translate-x-1/2
+    after:-translate-y-1/2
+    after:h-px
+    after:w-6
+    after:bg-(--foreground)
+    after:opacity-20
+
+    before:absolute
+    before:top-1/2
+    before:left-1/2
+    before:z-2
+    before:-translate-x-1/2
+    before:-translate-y-1/2
+    before:h-6
+    before:w-px
+    before:bg-(--foreground)
+    before:opacity-20
+  `,
+  view: `
+    group/view
+    absolute left-1/2 -bottom-6.75
+    flex items-center gap-4
+    p-2 px-3
+    ml-16
+    leading-[0.85]
+    font-mono font-bold
+    text-tiny text-current/80
+    uppercase
+    tracking-[0.125rem]
+    italic
+    border border-current/20
+    bg-(--foreground)/5
+    rounded-xs
+
+    motion-safe:duration-700
+    motion-safe:hover:bg-(--foreground)
+    motion-safe:hover:text-(--background)
+
+    data-reverse:flex-row-reverse
+    data-reverse:left-auto
+    data-reverse:-right-1/2
+    data-reverse:ml-0
+    data-reverse:mr-16
+  `,
+  bar: `
     relative
+    h-px w-6
+    bg-(--foreground)/50
+
+    motion-safe:duration-700
+    motion-safe:group-hover/view:bg-(--background)/50
+    motion-safe:group-hover/view:w-8
+  `,
+  inner: `
+    relative
+    grid grid-cols-2
     py-10
     w-full
     overflow-hidden
     text-left
   `,
-  heading: (index: number) => tw(`
+  northwest: `
+    col-span-1 order-1
+    relative -left-1/2
+    flex flex-col justify-end
+    text-left
+    origin-right
+    pb-4
+
+    data-reverse:order-0
+    data-reverse:text-right
+    data-reverse:origin-left
+  `,
+  heading: `
     flex flex-col
+    w-full
     text-[min(9vw,58px)]
-    font-serif font-bold
+    font-sans font-black
+    leading-[0.8]
     uppercase
     whitespace-nowrap
-    scale-x-[0.5]
-    leading-[0.8]
 
     sm:text-[min(4.6vw,46px)]
-    lg:text-[min(4.25vw,58px)]
+    lg:text-[min(4.25vw,46px)]
     2xl:text-[min(10vw,80px)]
-
-    ${HEADINGS[index % HEADINGS.length]}
-  `),
-  chunk: `
-    block
   `,
-  index: (index: number) => tw(`
+  line: `
+    scale-x-[0.5]
+    w-2/1
+    px-16
+  `,
+  northeast: `
+    col-span-1 order-0
+    flex flex-col justify-between items-end
+    pt-1 pb-4.5 px-8
+
+    data-reverse:order-1
+    data-reverse:items-start
+  `,
+  index: `
     w-14
     leading-[0.85]
-    font-bold font-mono
+    font-normal font-mono
     tracking-widest
     uppercase
-    text-tiny
-    scale-x-[2]
+    text-tiny text-current/75
     italic
+  `,
+  when: `
+    relative top-0.25
+    flex items-center gap-4
+    leading-[0.85]
+    text-xs
+    font-serif font-normal
+    tracking-tighter
+    italic
+  `,
+  timeline: `
+    block
+    h-px w-[6svw]
+    bg-(--foreground)/50
+  `,
+  southeast: `
+    col-span-1 order-2
+    flex flex-col items-end gap-1
+    h-13
+    px-8
+    leading-[1]
+    text-tiny text-right
+    uppercase
+    tracking-widest
 
-    ${INDEXES[index % INDEXES.length]}
-  `),
-  coordinates: (index: number) => tw(`
+    data-reverse:order-3
+    data-reverse:text-left
+    data-reverse:items-start
+  `,
+  region: `
+    inline-block
+    w-32
+    font-serif font-bold
+    italic
+  `,
+  southwest: `
+    col-span-1 order-3
+    h-13
+    relative top-0 right-full
     flex flex-col gap-0.5
+    pt-8
     font-mono
     leading-[0.85]
     tracking-widest
     uppercase
-    text-tiny text-right
+    text-xtiny text-right
+    origin-top-right -rotate-90
 
-    ${COORDINATES[index % COORDINATES.length]}
-  `),
-  when: (index: number) => tw(`
-    flex items-center gap-4
-    leading-[0.85]
-    text-xs
-    font-serif
-    tracking-tighter
-    italic
-    scale-x-[2]
-
-    sm:gap-2
-    md:gap-4
-
-    ${WHENS[index % WHENS.length]}
-  `),
-  timeline: (index: number) => tw(`
-    block
-    h-px
-    bg-(--foreground)/50
-
-    ${TIMELINES[index % TIMELINES.length]}
-  `),
-  location: (index: number) => tw(`
-    flex flex-col gap-1
-    leading-[1]
-    text-tiny
-    uppercase
-    tracking-widest
-    scale-x-[1]
-    mt-2
-
-    ${LOCATIONS[index % LOCATIONS.length]}
-  `),
-  address: `
-    block
-    w-28
-  `,
-  emphasis: `
-    font-serif
-    italic
+    data-reverse:order-2
+    data-reverse:right-12
+    data-reverse:-rotate-90
+    data-reverse:origin-top-right
+    data-reverse:pt-0
   `,
 });
 

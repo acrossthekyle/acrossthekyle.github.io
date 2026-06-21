@@ -15,7 +15,7 @@ export function createDescription(collection: Collection) {
   const { category, location, title, type } = collection;
 
   if (type === 'thru-hike') {
-    return `A thru-hike in ${location.region} of ${trimCardinal(location.country)}`;
+    return `A thru-hike in ${trimCardinal(location.continent)}`;
   }
 
   if (type === 'overnight-hike') {

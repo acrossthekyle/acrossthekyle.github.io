@@ -27,7 +27,7 @@ function getWhen(date: null | string | string[]) {
 
     return {
       long: [
-        `${formatDate(parsed, 'MMMM').trim()}.${formatDate(parsed, 'do').trim()}.${formatDate(parsed, 'yy').trim()}`,
+        `${formatDate(parsed, 'MMMM').trim()} 20${formatDate(parsed, 'yy').trim()}`,
       ],
       short: [
         `${formatDate(parsed, 'MM').trim()}.${formatDate(parsed, 'dd').trim()}.${formatDate(parsed, 'yy').trim()}`,

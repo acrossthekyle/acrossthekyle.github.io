@@ -3,10 +3,7 @@ import tw from '@/styles';
 export const styles = tw({
   container: `
     relative z-1
-    aspect-video
     h-full w-full
-
-    lg:aspect-square
   `,
   vertical: `
     absolute top-1/2 left-1/2 z-2

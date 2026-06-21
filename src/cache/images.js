@@ -19,7 +19,7 @@ const data = [
     "title": "Lago de Braies",
     "when": {
       "long": [
-        "July.16th.19"
+        "July 2019"
       ],
       "short": [
         "07.16.19"
@@ -46,7 +46,7 @@ const data = [
     "title": "Croda del Becco",
     "when": {
       "long": [
-        "July.16th.19"
+        "July 2019"
       ],
       "short": [
         "07.16.19"
@@ -73,7 +73,7 @@ const data = [
     "title": "Rifugio Bella",
     "when": {
       "long": [
-        "July.16th.19"
+        "July 2019"
       ],
       "short": [
         "07.16.19"
@@ -100,7 +100,7 @@ const data = [
     "title": "Marebbe",
     "when": {
       "long": [
-        "July.17th.19"
+        "July 2019"
       ],
       "short": [
         "07.17.19"
@@ -127,7 +127,7 @@ const data = [
     "title": "Lavarella",
     "when": {
       "long": [
-        "July.17th.19"
+        "July 2019"
       ],
       "short": [
         "07.17.19"
@@ -154,7 +154,7 @@ const data = [
     "title": "Cima del Lago",
     "when": {
       "long": [
-        "July.18th.19"
+        "July 2019"
       ],
       "short": [
         "07.18.19"
@@ -181,7 +181,7 @@ const data = [
     "title": "Forcella di Lago",
     "when": {
       "long": [
-        "July.18th.19"
+        "July 2019"
       ],
       "short": [
         "07.18.19"
@@ -208,7 +208,7 @@ const data = [
     "title": "Forcella Lagazuoi",
     "when": {
       "long": [
-        "July.19th.19"
+        "July 2019"
       ],
       "short": [
         "07.19.19"
@@ -235,7 +235,7 @@ const data = [
     "title": "Cinque Torri",
     "when": {
       "long": [
-        "July.20th.19"
+        "July 2019"
       ],
       "short": [
         "07.20.19"
@@ -262,7 +262,7 @@ const data = [
     "title": "Forcella Giau",
     "when": {
       "long": [
-        "July.20th.19"
+        "July 2019"
       ],
       "short": [
         "07.20.19"
@@ -289,7 +289,7 @@ const data = [
     "title": "Ponte del Moro-Lago",
     "when": {
       "long": [
-        "July.20th.19"
+        "July 2019"
       ],
       "short": [
         "07.20.19"
@@ -316,7 +316,7 @@ const data = [
     "title": "Col dei Baldi",
     "when": {
       "long": [
-        "July.21st.19"
+        "July 2019"
       ],
       "short": [
         "07.21.19"
@@ -343,7 +343,7 @@ const data = [
     "title": "Rifugio Coldai",
     "when": {
       "long": [
-        "July.21st.19"
+        "July 2019"
       ],
       "short": [
         "07.21.19"
@@ -370,7 +370,7 @@ const data = [
     "title": "Rifugio Tissi",
     "when": {
       "long": [
-        "July.21st.19"
+        "July 2019"
       ],
       "short": [
         "07.21.19"
@@ -397,7 +397,7 @@ const data = [
     "title": "Monte Civetta",
     "when": {
       "long": [
-        "July.22nd.19"
+        "July 2019"
       ],
       "short": [
         "07.22.19"
@@ -424,7 +424,7 @@ const data = [
     "title": "Forcella Moschesin",
     "when": {
       "long": [
-        "July.23rd.19"
+        "July 2019"
       ],
       "short": [
         "07.23.19"
@@ -451,7 +451,7 @@ const data = [
     "title": "Cima di Citta",
     "when": {
       "long": [
-        "July.24th.19"
+        "July 2019"
       ],
       "short": [
         "07.24.19"
@@ -478,7 +478,7 @@ const data = [
     "title": "Rifugio Pian de Fontana",
     "when": {
       "long": [
-        "July.24th.19"
+        "July 2019"
       ],
       "short": [
         "07.24.19"
@@ -505,7 +505,7 @@ const data = [
     "title": "Forcella di Lavaretta",
     "when": {
       "long": [
-        "July.25th.19"
+        "July 2019"
       ],
       "short": [
         "07.25.19"
@@ -532,7 +532,7 @@ const data = [
     "title": "Ghorepani",
     "when": {
       "long": [
-        "November.1st.19"
+        "November 2019"
       ],
       "short": [
         "11.01.19"
@@ -559,7 +559,7 @@ const data = [
     "title": "Deurali Pass",
     "when": {
       "long": [
-        "November.1st.19"
+        "November 2019"
       ],
       "short": [
         "11.01.19"
@@ -586,7 +586,7 @@ const data = [
     "title": "Kyumrung Khola",
     "when": {
       "long": [
-        "November.1st.19"
+        "November 2019"
       ],
       "short": [
         "11.01.19"
@@ -613,7 +613,7 @@ const data = [
     "title": "Chomrong",
     "when": {
       "long": [
-        "November.2nd.19"
+        "November 2019"
       ],
       "short": [
         "11.02.19"
@@ -640,7 +640,7 @@ const data = [
     "title": "Deurali",
     "when": {
       "long": [
-        "November.2nd.19"
+        "November 2019"
       ],
       "short": [
         "11.02.19"
@@ -667,7 +667,7 @@ const data = [
     "title": "Machhapuchare Basecamp",
     "when": {
       "long": [
-        "November.3rd.19"
+        "November 2019"
       ],
       "short": [
         "11.03.19"
@@ -694,7 +694,7 @@ const data = [
     "title": "Annapurna Basecamp",
     "when": {
       "long": [
-        "November.3rd.19"
+        "November 2019"
       ],
       "short": [
         "11.03.19"
@@ -721,7 +721,7 @@ const data = [
     "title": "Machhapuchare",
     "when": {
       "long": [
-        "November.4th.19"
+        "November 2019"
       ],
       "short": [
         "11.04.19"
@@ -748,7 +748,7 @@ const data = [
     "title": "Upper Sinuwa",
     "when": {
       "long": [
-        "November.4th.19"
+        "November 2019"
       ],
       "short": [
         "11.04.19"
@@ -775,7 +775,7 @@ const data = [
     "title": "Chomrong",
     "when": {
       "long": [
-        "November.5th.19"
+        "November 2019"
       ],
       "short": [
         "11.05.19"
@@ -802,7 +802,7 @@ const data = [
     "title": "Sinwai",
     "when": {
       "long": [
-        "November.5th.19"
+        "November 2019"
       ],
       "short": [
         "11.05.19"
@@ -829,7 +829,7 @@ const data = [
     "title": "Besishahar",
     "when": {
       "long": [
-        "October.19th.19"
+        "October 2019"
       ],
       "short": [
         "10.19.19"
@@ -856,7 +856,7 @@ const data = [
     "title": "Gandaki",
     "when": {
       "long": [
-        "October.19th.19"
+        "October 2019"
       ],
       "short": [
         "10.19.19"
@@ -883,7 +883,7 @@ const data = [
     "title": "Jagat",
     "when": {
       "long": [
-        "October.20th.19"
+        "October 2019"
       ],
       "short": [
         "10.20.19"
@@ -910,7 +910,7 @@ const data = [
     "title": "Dharapani",
     "when": {
       "long": [
-        "October.21st.19"
+        "October 2019"
       ],
       "short": [
         "10.21.19"
@@ -937,7 +937,7 @@ const data = [
     "title": "Chame",
     "when": {
       "long": [
-        "October.21st.19"
+        "October 2019"
       ],
       "short": [
         "10.21.19"
@@ -964,7 +964,7 @@ const data = [
     "title": "Upper Pisang",
     "when": {
       "long": [
-        "October.23rd.19"
+        "October 2019"
       ],
       "short": [
         "10.23.19"
@@ -991,7 +991,7 @@ const data = [
     "title": "Nar",
     "when": {
       "long": [
-        "October.24th.19"
+        "October 2019"
       ],
       "short": [
         "10.24.19"
@@ -1018,7 +1018,7 @@ const data = [
     "title": "Manang",
     "when": {
       "long": [
-        "October.24th.19"
+        "October 2019"
       ],
       "short": [
         "10.24.19"
@@ -1045,7 +1045,7 @@ const data = [
     "title": "Kicho Tal",
     "when": {
       "long": [
-        "October.25th.19"
+        "October 2019"
       ],
       "short": [
         "10.25.19"
@@ -1072,7 +1072,7 @@ const data = [
     "title": "Annapurna I",
     "when": {
       "long": [
-        "October.25th.19"
+        "October 2019"
       ],
       "short": [
         "10.25.19"
@@ -1099,7 +1099,7 @@ const data = [
     "title": "Tilicho Lake Basecamp",
     "when": {
       "long": [
-        "October.26th.19"
+        "October 2019"
       ],
       "short": [
         "10.26.19"
@@ -1126,7 +1126,7 @@ const data = [
     "title": "Tilicho Lake",
     "when": {
       "long": [
-        "October.27th.19"
+        "October 2019"
       ],
       "short": [
         "10.27.19"
@@ -1153,7 +1153,7 @@ const data = [
     "title": "Tilicho Lake",
     "when": {
       "long": [
-        "October.27th.19"
+        "October 2019"
       ],
       "short": [
         "10.27.19"
@@ -1180,7 +1180,7 @@ const data = [
     "title": "Shree Kharka",
     "when": {
       "long": [
-        "October.28th.19"
+        "October 2019"
       ],
       "short": [
         "10.28.19"
@@ -1207,7 +1207,7 @@ const data = [
     "title": "Upper Manang",
     "when": {
       "long": [
-        "October.28th.19"
+        "October 2019"
       ],
       "short": [
         "10.28.19"
@@ -1234,7 +1234,7 @@ const data = [
     "title": "Thorong-la Pass",
     "when": {
       "long": [
-        "October.29th.19"
+        "October 2019"
       ],
       "short": [
         "10.29.19"
@@ -1261,7 +1261,7 @@ const data = [
     "title": "Muktinath",
     "when": {
       "long": [
-        "October.29th.19"
+        "October 2019"
       ],
       "short": [
         "10.29.19"
@@ -1288,7 +1288,7 @@ const data = [
     "title": "Marpha",
     "when": {
       "long": [
-        "October.30th.19"
+        "October 2019"
       ],
       "short": [
         "10.30.19"
@@ -1315,7 +1315,7 @@ const data = [
     "title": "Ghasa",
     "when": {
       "long": [
-        "October.31st.19"
+        "October 2019"
       ],
       "short": [
         "10.31.19"
@@ -1342,7 +1342,7 @@ const data = [
     "title": "Ghorepani",
     "when": {
       "long": [
-        "November.1st.19"
+        "November 2019"
       ],
       "short": [
         "11.01.19"
@@ -1369,7 +1369,7 @@ const data = [
     "title": "Roncesvalles",
     "when": {
       "long": [
-        "June.2nd.18"
+        "June 2018"
       ],
       "short": [
         "06.02.18"
@@ -1396,7 +1396,7 @@ const data = [
     "title": "Zubiri",
     "when": {
       "long": [
-        "June.3rd.18"
+        "June 2018"
       ],
       "short": [
         "06.03.18"
@@ -1423,7 +1423,7 @@ const data = [
     "title": "Pamplona",
     "when": {
       "long": [
-        "June.4th.18"
+        "June 2018"
       ],
       "short": [
         "06.04.18"
@@ -1450,7 +1450,7 @@ const data = [
     "title": "Puente la Reina",
     "when": {
       "long": [
-        "June.5th.18"
+        "June 2018"
       ],
       "short": [
         "06.05.18"
@@ -1477,7 +1477,7 @@ const data = [
     "title": "Estella",
     "when": {
       "long": [
-        "June.6th.18"
+        "June 2018"
       ],
       "short": [
         "06.06.18"
@@ -1504,7 +1504,7 @@ const data = [
     "title": "Sansol",
     "when": {
       "long": [
-        "June.7th.18"
+        "June 2018"
       ],
       "short": [
         "06.07.18"
@@ -1531,7 +1531,7 @@ const data = [
     "title": "Logrono",
     "when": {
       "long": [
-        "June.8th.18"
+        "June 2018"
       ],
       "short": [
         "06.08.18"
@@ -1558,7 +1558,7 @@ const data = [
     "title": "Najera",
     "when": {
       "long": [
-        "June.9th.18"
+        "June 2018"
       ],
       "short": [
         "06.09.18"
@@ -1585,7 +1585,7 @@ const data = [
     "title": "Santo Domingo",
     "when": {
       "long": [
-        "June.10th.18"
+        "June 2018"
       ],
       "short": [
         "06.10.18"
@@ -1612,7 +1612,7 @@ const data = [
     "title": "Belorado",
     "when": {
       "long": [
-        "June.11th.18"
+        "June 2018"
       ],
       "short": [
         "06.11.18"
@@ -1639,7 +1639,7 @@ const data = [
     "title": "Ages",
     "when": {
       "long": [
-        "June.12th.18"
+        "June 2018"
       ],
       "short": [
         "06.12.18"
@@ -1666,7 +1666,7 @@ const data = [
     "title": "Burgos",
     "when": {
       "long": [
-        "June.13th.18"
+        "June 2018"
       ],
       "short": [
         "06.13.18"
@@ -1693,7 +1693,7 @@ const data = [
     "title": "Hontanas",
     "when": {
       "long": [
-        "June.14th.18"
+        "June 2018"
       ],
       "short": [
         "06.14.18"
@@ -1720,7 +1720,7 @@ const data = [
     "title": "Fromista",
     "when": {
       "long": [
-        "June.15th.18"
+        "June 2018"
       ],
       "short": [
         "06.15.18"
@@ -1747,7 +1747,7 @@ const data = [
     "title": "Carrión de los Condes",
     "when": {
       "long": [
-        "June.16th.18"
+        "June 2018"
       ],
       "short": [
         "06.16.18"
@@ -1774,7 +1774,7 @@ const data = [
     "title": "Sahagun",
     "when": {
       "long": [
-        "June.17th.18"
+        "June 2018"
       ],
       "short": [
         "06.17.18"
@@ -1801,7 +1801,7 @@ const data = [
     "title": "Reliegos",
     "when": {
       "long": [
-        "June.18th.18"
+        "June 2018"
       ],
       "short": [
         "06.18.18"
@@ -1828,7 +1828,7 @@ const data = [
     "title": "León",
     "when": {
       "long": [
-        "June.19th.18"
+        "June 2018"
       ],
       "short": [
         "06.19.18"
@@ -1855,7 +1855,7 @@ const data = [
     "title": "Villar de Mazarife",
     "when": {
       "long": [
-        "June.20th.18"
+        "June 2018"
       ],
       "short": [
         "06.20.18"
@@ -1882,7 +1882,7 @@ const data = [
     "title": "Astorga",
     "when": {
       "long": [
-        "June.21st.18"
+        "June 2018"
       ],
       "short": [
         "06.21.18"
@@ -1909,7 +1909,7 @@ const data = [
     "title": "Foncebadon",
     "when": {
       "long": [
-        "June.22nd.18"
+        "June 2018"
       ],
       "short": [
         "06.22.18"
@@ -1936,7 +1936,7 @@ const data = [
     "title": "Ponferrada",
     "when": {
       "long": [
-        "June.23rd.18"
+        "June 2018"
       ],
       "short": [
         "06.23.18"
@@ -1963,7 +1963,7 @@ const data = [
     "title": "Villafranca del Bierzo",
     "when": {
       "long": [
-        "June.24th.18"
+        "June 2018"
       ],
       "short": [
         "06.24.18"
@@ -1990,7 +1990,7 @@ const data = [
     "title": "O Cebreiro",
     "when": {
       "long": [
-        "June.25th.18"
+        "June 2018"
       ],
       "short": [
         "06.25.18"
@@ -2017,7 +2017,7 @@ const data = [
     "title": "Sarria",
     "when": {
       "long": [
-        "June.26th.18"
+        "June 2018"
       ],
       "short": [
         "06.26.18"
@@ -2044,7 +2044,7 @@ const data = [
     "title": "Portomarin",
     "when": {
       "long": [
-        "June.27th.18"
+        "June 2018"
       ],
       "short": [
         "06.27.18"
@@ -2071,7 +2071,7 @@ const data = [
     "title": "Melide",
     "when": {
       "long": [
-        "June.28th.18"
+        "June 2018"
       ],
       "short": [
         "06.28.18"
@@ -2098,7 +2098,7 @@ const data = [
     "title": "Pedrouzo",
     "when": {
       "long": [
-        "June.29th.18"
+        "June 2018"
       ],
       "short": [
         "06.29.18"
@@ -2125,7 +2125,7 @@ const data = [
     "title": "Santiago de Compostela",
     "when": {
       "long": [
-        "July.1st.18"
+        "July 2018"
       ],
       "short": [
         "07.01.18"
@@ -2152,7 +2152,7 @@ const data = [
     "title": "Negreira",
     "when": {
       "long": [
-        "July.2nd.18"
+        "July 2018"
       ],
       "short": [
         "07.02.18"
@@ -2179,7 +2179,7 @@ const data = [
     "title": "Olveiroa",
     "when": {
       "long": [
-        "July.3rd.18"
+        "July 2018"
       ],
       "short": [
         "07.03.18"
@@ -2206,7 +2206,7 @@ const data = [
     "title": "Fisterra",
     "when": {
       "long": [
-        "July.4th.18"
+        "July 2018"
       ],
       "short": [
         "07.04.18"
@@ -2233,7 +2233,7 @@ const data = [
     "title": "Citadelle de Porto-Vecchio",
     "when": {
       "long": [
-        "July.5th.23"
+        "July 2023"
       ],
       "short": [
         "07.05.23"
@@ -2260,7 +2260,7 @@ const data = [
     "title": "Citadelle de Ajaccio",
     "when": {
       "long": [
-        "July.6th.23"
+        "July 2023"
       ],
       "short": [
         "07.06.23"
@@ -2287,7 +2287,7 @@ const data = [
     "title": "Citadelle de Ajaccio",
     "when": {
       "long": [
-        "July.6th.23"
+        "July 2023"
       ],
       "short": [
         "07.06.23"
@@ -2314,7 +2314,7 @@ const data = [
     "title": "Ajaccio beach",
     "when": {
       "long": [
-        "July.7th.23"
+        "July 2023"
       ],
       "short": [
         "07.07.23"
@@ -2341,7 +2341,7 @@ const data = [
     "title": "Ajaccio",
     "when": {
       "long": [
-        "July.8th.23"
+        "July 2023"
       ],
       "short": [
         "07.08.23"
@@ -2368,7 +2368,7 @@ const data = [
     "title": "Pyramids of Giza",
     "when": {
       "long": [
-        "December.29th.22"
+        "December 2022"
       ],
       "short": [
         "12.29.22"
@@ -2395,7 +2395,7 @@ const data = [
     "title": "Pyramid of Menkaure",
     "when": {
       "long": [
-        "December.29th.22"
+        "December 2022"
       ],
       "short": [
         "12.29.22"
@@ -2422,7 +2422,7 @@ const data = [
     "title": "Pyramid of Khafre",
     "when": {
       "long": [
-        "December.29th.22"
+        "December 2022"
       ],
       "short": [
         "12.29.22"
@@ -2449,7 +2449,7 @@ const data = [
     "title": "The Sphinx",
     "when": {
       "long": [
-        "December.29th.22"
+        "December 2022"
       ],
       "short": [
         "12.29.22"
@@ -2476,7 +2476,7 @@ const data = [
     "title": "Bent Pyramid",
     "when": {
       "long": [
-        "December.30th.22"
+        "December 2022"
       ],
       "short": [
         "12.30.22"
@@ -2503,7 +2503,7 @@ const data = [
     "title": "Temple ruins",
     "when": {
       "long": [
-        "December.30th.22"
+        "December 2022"
       ],
       "short": [
         "12.30.22"
@@ -2530,7 +2530,7 @@ const data = [
     "title": "Red Pyramid",
     "when": {
       "long": [
-        "December.30th.22"
+        "December 2022"
       ],
       "short": [
         "12.30.22"
@@ -2557,7 +2557,7 @@ const data = [
     "title": "Step Pyramid",
     "when": {
       "long": [
-        "December.30th.22"
+        "December 2022"
       ],
       "short": [
         "12.30.22"
@@ -2584,7 +2584,7 @@ const data = [
     "title": "Tower of Cairo",
     "when": {
       "long": [
-        "December.30th.22"
+        "December 2022"
       ],
       "short": [
         "12.30.22"
@@ -2611,7 +2611,7 @@ const data = [
     "title": "Sphinx avenue",
     "when": {
       "long": [
-        "January.2nd.23"
+        "January 2023"
       ],
       "short": [
         "01.02.23"
@@ -2638,7 +2638,7 @@ const data = [
     "title": "Colossi of Memnon",
     "when": {
       "long": [
-        "January.3rd.23"
+        "January 2023"
       ],
       "short": [
         "01.03.23"
@@ -2665,7 +2665,7 @@ const data = [
     "title": "Tomb of Ramses V-VI",
     "when": {
       "long": [
-        "January.3rd.23"
+        "January 2023"
       ],
       "short": [
         "01.03.23"
@@ -2692,7 +2692,7 @@ const data = [
     "title": "Tomb of Ramses III",
     "when": {
       "long": [
-        "January.3rd.23"
+        "January 2023"
       ],
       "short": [
         "01.03.23"
@@ -2719,7 +2719,7 @@ const data = [
     "title": "Tutankhamun's Tomb",
     "when": {
       "long": [
-        "January.3rd.23"
+        "January 2023"
       ],
       "short": [
         "01.03.23"
@@ -2746,7 +2746,7 @@ const data = [
     "title": "Unmarked tomb",
     "when": {
       "long": [
-        "January.3rd.23"
+        "January 2023"
       ],
       "short": [
         "01.03.23"
@@ -2773,7 +2773,7 @@ const data = [
     "title": "Habu Temple I",
     "when": {
       "long": [
-        "January.3rd.23"
+        "January 2023"
       ],
       "short": [
         "01.03.23"
@@ -2800,7 +2800,7 @@ const data = [
     "title": "Habu Temple II",
     "when": {
       "long": [
-        "January.3rd.23"
+        "January 2023"
       ],
       "short": [
         "01.03.23"
@@ -2827,7 +2827,7 @@ const data = [
     "title": "Habu Temple III",
     "when": {
       "long": [
-        "January.3rd.23"
+        "January 2023"
       ],
       "short": [
         "01.03.23"
@@ -2854,7 +2854,7 @@ const data = [
     "title": "Hatshepsut's Temple Exterior",
     "when": {
       "long": [
-        "January.3rd.23"
+        "January 2023"
       ],
       "short": [
         "01.03.23"
@@ -2881,7 +2881,7 @@ const data = [
     "title": "Hatshepsut's Temple Interior",
     "when": {
       "long": [
-        "January.3rd.23"
+        "January 2023"
       ],
       "short": [
         "01.03.23"
@@ -2908,7 +2908,7 @@ const data = [
     "title": "Hatshepsut's Temple Spinx",
     "when": {
       "long": [
-        "January.3rd.23"
+        "January 2023"
       ],
       "short": [
         "01.03.23"
@@ -2935,7 +2935,7 @@ const data = [
     "title": "Luxor Temple",
     "when": {
       "long": [
-        "January.3rd.23"
+        "January 2023"
       ],
       "short": [
         "01.03.23"
@@ -2962,7 +2962,7 @@ const data = [
     "title": "Luxor Temple",
     "when": {
       "long": [
-        "January.3rd.23"
+        "January 2023"
       ],
       "short": [
         "01.03.23"
@@ -2989,7 +2989,7 @@ const data = [
     "title": "Karnak Temple",
     "when": {
       "long": [
-        "January.3rd.23"
+        "January 2023"
       ],
       "short": [
         "01.03.23"
@@ -3016,7 +3016,7 @@ const data = [
     "title": "Hypostyle Hall",
     "when": {
       "long": [
-        "January.3rd.23"
+        "January 2023"
       ],
       "short": [
         "01.03.23"
@@ -3043,7 +3043,7 @@ const data = [
     "title": "Ramses III Temple",
     "when": {
       "long": [
-        "January.3rd.23"
+        "January 2023"
       ],
       "short": [
         "01.03.23"
@@ -3070,7 +3070,7 @@ const data = [
     "title": "Hot air balloon ride",
     "when": {
       "long": [
-        "January.4th.23"
+        "January 2023"
       ],
       "short": [
         "01.04.23"
@@ -3097,7 +3097,7 @@ const data = [
     "title": "Soaring over the valley",
     "when": {
       "long": [
-        "January.4th.23"
+        "January 2023"
       ],
       "short": [
         "01.04.23"
@@ -3124,7 +3124,7 @@ const data = [
     "title": "The end of the ride",
     "when": {
       "long": [
-        "January.4th.23"
+        "January 2023"
       ],
       "short": [
         "01.04.23"
@@ -3151,7 +3151,7 @@ const data = [
     "title": "Cairo Sunset",
     "when": {
       "long": [
-        "January.5th.23"
+        "January 2023"
       ],
       "short": [
         "01.05.23"
@@ -3178,7 +3178,7 @@ const data = [
     "title": "Jet d'Eau",
     "when": {
       "long": [
-        "July.24th.24"
+        "July 2024"
       ],
       "short": [
         "07.24.24"
@@ -3205,7 +3205,7 @@ const data = [
     "title": "Cathédrale Saint-Pierre Genève",
     "when": {
       "long": [
-        "July.24th.24"
+        "July 2024"
       ],
       "short": [
         "07.24.24"
@@ -3232,7 +3232,7 @@ const data = [
     "title": "Cathédrale Saint-Pierre Genève",
     "when": {
       "long": [
-        "July.24th.24"
+        "July 2024"
       ],
       "short": [
         "07.24.24"
@@ -3259,7 +3259,7 @@ const data = [
     "title": "Cathédrale Saint-Pierre Genève",
     "when": {
       "long": [
-        "July.24th.24"
+        "July 2024"
       ],
       "short": [
         "07.24.24"
@@ -3286,7 +3286,7 @@ const data = [
     "title": "Cathédrale Saint-Pierre Genève",
     "when": {
       "long": [
-        "July.24th.24"
+        "July 2024"
       ],
       "short": [
         "07.24.24"
@@ -3313,7 +3313,7 @@ const data = [
     "title": "Jardin Botanique de Genève",
     "when": {
       "long": [
-        "July.25th.24"
+        "July 2024"
       ],
       "short": [
         "07.25.24"
@@ -3340,7 +3340,7 @@ const data = [
     "title": "Calenzana",
     "when": {
       "long": [
-        "June.21st.23"
+        "June 2023"
       ],
       "short": [
         "06.21.23"
@@ -3367,7 +3367,7 @@ const data = [
     "title": "Corsican mountains",
     "when": {
       "long": [
-        "June.21st.23"
+        "June 2023"
       ],
       "short": [
         "06.21.23"
@@ -3394,7 +3394,7 @@ const data = [
     "title": "Refuge D'Ortu Di U Piobbu",
     "when": {
       "long": [
-        "June.22nd.23"
+        "June 2023"
       ],
       "short": [
         "06.22.23"
@@ -3421,7 +3421,7 @@ const data = [
     "title": "Steap peaks",
     "when": {
       "long": [
-        "June.22nd.23"
+        "June 2023"
       ],
       "short": [
         "06.22.23"
@@ -3448,7 +3448,7 @@ const data = [
     "title": "Refuge de Carozzu",
     "when": {
       "long": [
-        "June.22nd.23"
+        "June 2023"
       ],
       "short": [
         "06.22.23"
@@ -3475,7 +3475,7 @@ const data = [
     "title": "Bocca di a Muvrella",
     "when": {
       "long": [
-        "June.23rd.23"
+        "June 2023"
       ],
       "short": [
         "06.23.23"
@@ -3502,7 +3502,7 @@ const data = [
     "title": "Ascu Stagnu",
     "when": {
       "long": [
-        "June.23rd.23"
+        "June 2023"
       ],
       "short": [
         "06.23.23"
@@ -3529,7 +3529,7 @@ const data = [
     "title": "Ruisseau du Tighiettu",
     "when": {
       "long": [
-        "June.24th.23"
+        "June 2023"
       ],
       "short": [
         "06.24.23"
@@ -3556,7 +3556,7 @@ const data = [
     "title": "Monte Cinto",
     "when": {
       "long": [
-        "June.24th.23"
+        "June 2023"
       ],
       "short": [
         "06.24.23"
@@ -3583,7 +3583,7 @@ const data = [
     "title": "Auberge U Vallone",
     "when": {
       "long": [
-        "June.24th.23"
+        "June 2023"
       ],
       "short": [
         "06.24.23"
@@ -3610,7 +3610,7 @@ const data = [
     "title": "U Frate",
     "when": {
       "long": [
-        "June.25th.23"
+        "June 2023"
       ],
       "short": [
         "06.25.23"
@@ -3637,7 +3637,7 @@ const data = [
     "title": "Swimming hole",
     "when": {
       "long": [
-        "June.25th.23"
+        "June 2023"
       ],
       "short": [
         "06.25.23"
@@ -3664,7 +3664,7 @@ const data = [
     "title": "Castel di Vergio",
     "when": {
       "long": [
-        "June.26th.23"
+        "June 2023"
       ],
       "short": [
         "06.26.23"
@@ -3691,7 +3691,7 @@ const data = [
     "title": "Lac de Nino",
     "when": {
       "long": [
-        "June.26th.23"
+        "June 2023"
       ],
       "short": [
         "06.26.23"
@@ -3718,7 +3718,7 @@ const data = [
     "title": "Refuge de Manganu",
     "when": {
       "long": [
-        "June.26th.23"
+        "June 2023"
       ],
       "short": [
         "06.26.23"
@@ -3745,7 +3745,7 @@ const data = [
     "title": "Ruisseau de Zoicu",
     "when": {
       "long": [
-        "June.27th.23"
+        "June 2023"
       ],
       "short": [
         "06.27.23"
@@ -3772,7 +3772,7 @@ const data = [
     "title": "Bocca Alle Porte",
     "when": {
       "long": [
-        "June.27th.23"
+        "June 2023"
       ],
       "short": [
         "06.27.23"
@@ -3799,7 +3799,7 @@ const data = [
     "title": "Refuge de Petra Piana",
     "when": {
       "long": [
-        "June.27th.23"
+        "June 2023"
       ],
       "short": [
         "06.27.23"
@@ -3826,7 +3826,7 @@ const data = [
     "title": "Ravin de Gialgo",
     "when": {
       "long": [
-        "June.28th.23"
+        "June 2023"
       ],
       "short": [
         "06.28.23"
@@ -3853,7 +3853,7 @@ const data = [
     "title": "Foret communale de Vivario",
     "when": {
       "long": [
-        "June.28th.23"
+        "June 2023"
       ],
       "short": [
         "06.28.23"
@@ -3880,7 +3880,7 @@ const data = [
     "title": "Refuge de l'Onda",
     "when": {
       "long": [
-        "June.28th.23"
+        "June 2023"
       ],
       "short": [
         "06.28.23"
@@ -3907,7 +3907,7 @@ const data = [
     "title": "Bocca d'Oreccia",
     "when": {
       "long": [
-        "June.29th.23"
+        "June 2023"
       ],
       "short": [
         "06.29.23"
@@ -3934,7 +3934,7 @@ const data = [
     "title": "Vizzavona",
     "when": {
       "long": [
-        "June.30th.23"
+        "June 2023"
       ],
       "short": [
         "06.30.23"
@@ -3961,7 +3961,7 @@ const data = [
     "title": "Foret Communale",
     "when": {
       "long": [
-        "June.30th.23"
+        "June 2023"
       ],
       "short": [
         "06.30.23"
@@ -3988,7 +3988,7 @@ const data = [
     "title": "Bocca di Verdi",
     "when": {
       "long": [
-        "June.30th.23"
+        "June 2023"
       ],
       "short": [
         "06.30.23"
@@ -4015,7 +4015,7 @@ const data = [
     "title": "Punta della Cappella",
     "when": {
       "long": [
-        "July.1st.23"
+        "July 2023"
       ],
       "short": [
         "07.01.23"
@@ -4042,7 +4042,7 @@ const data = [
     "title": "Bocca de Rapari",
     "when": {
       "long": [
-        "July.1st.23"
+        "July 2023"
       ],
       "short": [
         "07.01.23"
@@ -4069,7 +4069,7 @@ const data = [
     "title": "Refuge d'Usciolu",
     "when": {
       "long": [
-        "July.1st.23"
+        "July 2023"
       ],
       "short": [
         "07.01.23"
@@ -4096,7 +4096,7 @@ const data = [
     "title": "Crete d'acqua d'acelli",
     "when": {
       "long": [
-        "July.2nd.23"
+        "July 2023"
       ],
       "short": [
         "07.02.23"
@@ -4123,7 +4123,7 @@ const data = [
     "title": "Ruisseau de Verecolongu",
     "when": {
       "long": [
-        "July.2nd.23"
+        "July 2023"
       ],
       "short": [
         "07.02.23"
@@ -4150,7 +4150,7 @@ const data = [
     "title": "Bocca Stazzunara",
     "when": {
       "long": [
-        "July.2nd.23"
+        "July 2023"
       ],
       "short": [
         "07.02.23"
@@ -4177,7 +4177,7 @@ const data = [
     "title": "Refuge de Paliri",
     "when": {
       "long": [
-        "July.3rd.23"
+        "July 2023"
       ],
       "short": [
         "07.03.23"
@@ -4204,7 +4204,7 @@ const data = [
     "title": "Conca",
     "when": {
       "long": [
-        "July.3rd.23"
+        "July 2023"
       ],
       "short": [
         "07.03.23"
@@ -4231,7 +4231,7 @@ const data = [
     "title": "Stony Ridge",
     "when": {
       "long": [
-        "July.25th.22"
+        "July 2022"
       ],
       "short": [
         "07.25.22"
@@ -4258,7 +4258,7 @@ const data = [
     "title": "Parnell Segment",
     "when": {
       "long": [
-        "May.3rd.25"
+        "May 2025"
       ],
       "short": [
         "05.03.25"
@@ -4285,7 +4285,7 @@ const data = [
     "title": "Greenbush",
     "when": {
       "long": [
-        "May.3rd.25"
+        "May 2025"
       ],
       "short": [
         "05.03.25"
@@ -4312,7 +4312,7 @@ const data = [
     "title": "Greenbush Trailhead",
     "when": {
       "long": [
-        "May.4th.25"
+        "May 2025"
       ],
       "short": [
         "05.04.25"
@@ -4339,7 +4339,7 @@ const data = [
     "title": "Greenbush",
     "when": {
       "long": [
-        "May.4th.25"
+        "May 2025"
       ],
       "short": [
         "05.04.25"
@@ -4366,7 +4366,7 @@ const data = [
     "title": "Rio Paine",
     "when": {
       "long": [
-        "February.18th.20"
+        "February 2020"
       ],
       "short": [
         "02.18.20"
@@ -4393,7 +4393,7 @@ const data = [
     "title": "Campamento Seron",
     "when": {
       "long": [
-        "February.19th.20"
+        "February 2020"
       ],
       "short": [
         "02.19.20"
@@ -4420,7 +4420,7 @@ const data = [
     "title": "Circuito O",
     "when": {
       "long": [
-        "February.20th.20"
+        "February 2020"
       ],
       "short": [
         "02.20.20"
@@ -4447,7 +4447,7 @@ const data = [
     "title": "Refugio Dickson",
     "when": {
       "long": [
-        "February.20th.20"
+        "February 2020"
       ],
       "short": [
         "02.20.20"
@@ -4474,7 +4474,7 @@ const data = [
     "title": "Cerro Stokes",
     "when": {
       "long": [
-        "February.20th.20"
+        "February 2020"
       ],
       "short": [
         "02.20.20"
@@ -4501,7 +4501,7 @@ const data = [
     "title": "Glaciar los Perros",
     "when": {
       "long": [
-        "February.21st.20"
+        "February 2020"
       ],
       "short": [
         "02.21.20"
@@ -4528,7 +4528,7 @@ const data = [
     "title": "Glaciar Grey",
     "when": {
       "long": [
-        "February.21st.20"
+        "February 2020"
       ],
       "short": [
         "02.21.20"
@@ -4555,7 +4555,7 @@ const data = [
     "title": "Grey Lake",
     "when": {
       "long": [
-        "February.22nd.20"
+        "February 2020"
       ],
       "short": [
         "02.22.20"
@@ -4582,7 +4582,7 @@ const data = [
     "title": "Pehoe",
     "when": {
       "long": [
-        "February.22nd.20"
+        "February 2020"
       ],
       "short": [
         "02.22.20"
@@ -4609,7 +4609,7 @@ const data = [
     "title": "Lago Pehoe",
     "when": {
       "long": [
-        "February.22nd.20"
+        "February 2020"
       ],
       "short": [
         "02.22.20"
@@ -4636,7 +4636,7 @@ const data = [
     "title": "Paine Grande",
     "when": {
       "long": [
-        "February.23rd.20"
+        "February 2020"
       ],
       "short": [
         "02.23.20"
@@ -4663,7 +4663,7 @@ const data = [
     "title": "Lago Skottsberg",
     "when": {
       "long": [
-        "February.23rd.20"
+        "February 2020"
       ],
       "short": [
         "02.23.20"
@@ -4690,7 +4690,7 @@ const data = [
     "title": "Mirador Valle de Frances",
     "when": {
       "long": [
-        "February.24th.20"
+        "February 2020"
       ],
       "short": [
         "02.24.20"
@@ -4717,7 +4717,7 @@ const data = [
     "title": "Mirador Britanico",
     "when": {
       "long": [
-        "February.24th.20"
+        "February 2020"
       ],
       "short": [
         "02.24.20"
@@ -4744,7 +4744,7 @@ const data = [
     "title": "Lago Nordenskjold",
     "when": {
       "long": [
-        "February.24th.20"
+        "February 2020"
       ],
       "short": [
         "02.24.20"
@@ -4771,7 +4771,7 @@ const data = [
     "title": "Los Cuernos",
     "when": {
       "long": [
-        "February.25th.20"
+        "February 2020"
       ],
       "short": [
         "02.25.20"
@@ -4798,7 +4798,7 @@ const data = [
     "title": "Laguna de los Cisnes",
     "when": {
       "long": [
-        "February.25th.20"
+        "February 2020"
       ],
       "short": [
         "02.25.20"
@@ -4825,7 +4825,7 @@ const data = [
     "title": "Las Torres",
     "when": {
       "long": [
-        "February.25th.20"
+        "February 2020"
       ],
       "short": [
         "02.25.20"
@@ -4852,7 +4852,7 @@ const data = [
     "title": "Phewa Lake",
     "when": {
       "long": [
-        "November.6th.19"
+        "November 2019"
       ],
       "short": [
         "11.06.19"
@@ -4879,7 +4879,7 @@ const data = [
     "title": "Phewa Lake",
     "when": {
       "long": [
-        "November.6th.19"
+        "November 2019"
       ],
       "short": [
         "11.06.19"
@@ -4906,7 +4906,7 @@ const data = [
     "title": "Phewa Lake",
     "when": {
       "long": [
-        "November.6th.19"
+        "November 2019"
       ],
       "short": [
         "11.06.19"
@@ -4933,7 +4933,7 @@ const data = [
     "title": "World Peace Pagoda",
     "when": {
       "long": [
-        "November.7th.19"
+        "November 2019"
       ],
       "short": [
         "11.07.19"
@@ -4960,7 +4960,7 @@ const data = [
     "title": "World Peace Pagoda",
     "when": {
       "long": [
-        "November.7th.19"
+        "November 2019"
       ],
       "short": [
         "11.07.19"
@@ -4987,7 +4987,7 @@ const data = [
     "title": "World Peace Pagoda",
     "when": {
       "long": [
-        "November.7th.19"
+        "November 2019"
       ],
       "short": [
         "11.07.19"
@@ -5014,7 +5014,7 @@ const data = [
     "title": "Sarangkot",
     "when": {
       "long": [
-        "November.8th.19"
+        "November 2019"
       ],
       "short": [
         "11.08.19"
@@ -5041,7 +5041,7 @@ const data = [
     "title": "Lake of the Clouds",
     "when": {
       "long": [
-        "July.2nd.20"
+        "July 2020"
       ],
       "short": [
         "07.02.20"
@@ -5068,7 +5068,7 @@ const data = [
     "title": "",
     "when": {
       "long": [
-        "July.2nd.20"
+        "July 2020"
       ],
       "short": [
         "07.02.20"
@@ -5095,7 +5095,7 @@ const data = [
     "title": "Lake of the Clouds",
     "when": {
       "long": [
-        "July.2nd.20"
+        "July 2020"
       ],
       "short": [
         "07.02.20"
@@ -5122,7 +5122,7 @@ const data = [
     "title": "",
     "when": {
       "long": [
-        "July.2nd.20"
+        "July 2020"
       ],
       "short": [
         "07.02.20"
@@ -5149,7 +5149,7 @@ const data = [
     "title": "",
     "when": {
       "long": [
-        "July.2nd.20"
+        "July 2020"
       ],
       "short": [
         "07.02.20"
@@ -5176,7 +5176,7 @@ const data = [
     "title": "Trailhead",
     "when": {
       "long": [
-        "March.14th.26"
+        "March 2026"
       ],
       "short": [
         "03.14.26"
@@ -5203,7 +5203,7 @@ const data = [
     "title": "Forest Glen",
     "when": {
       "long": [
-        "March.14th.26"
+        "March 2026"
       ],
       "short": [
         "03.14.26"
@@ -5230,7 +5230,7 @@ const data = [
     "title": "Forest Glen",
     "when": {
       "long": [
-        "March.14th.26"
+        "March 2026"
       ],
       "short": [
         "03.14.26"
@@ -5257,7 +5257,7 @@ const data = [
     "title": "Forest Glen",
     "when": {
       "long": [
-        "March.14th.26"
+        "March 2026"
       ],
       "short": [
         "03.14.26"
@@ -5284,7 +5284,7 @@ const data = [
     "title": "Forest Glen",
     "when": {
       "long": [
-        "March.15th.26"
+        "March 2026"
       ],
       "short": [
         "03.15.26"
@@ -5313,7 +5313,7 @@ const data = [
     "title": "Forest Glen",
     "when": {
       "long": [
-        "March.15th.26"
+        "March 2026"
       ],
       "short": [
         "03.15.26"
@@ -5340,7 +5340,7 @@ const data = [
     "title": "Point Playa",
     "when": {
       "long": [
-        "March.22nd.22"
+        "March 2022"
       ],
       "short": [
         "03.22.22"
@@ -5367,7 +5367,7 @@ const data = [
     "title": "Ocean Park Beach",
     "when": {
       "long": [
-        "March.22nd.22"
+        "March 2022"
       ],
       "short": [
         "03.22.22"
@@ -5394,7 +5394,7 @@ const data = [
     "title": "Parque del Indio",
     "when": {
       "long": [
-        "March.22nd.22"
+        "March 2022"
       ],
       "short": [
         "03.22.22"
@@ -5421,7 +5421,7 @@ const data = [
     "title": "Point Playa",
     "when": {
       "long": [
-        "March.22nd.22"
+        "March 2022"
       ],
       "short": [
         "03.22.22"
@@ -5448,7 +5448,7 @@ const data = [
     "title": "Castillo San Felipe del Morro",
     "when": {
       "long": [
-        "March.23rd.22"
+        "March 2022"
       ],
       "short": [
         "03.23.22"
@@ -5475,7 +5475,7 @@ const data = [
     "title": "Rio Abajo",
     "when": {
       "long": [
-        "March.24th.22"
+        "March 2022"
       ],
       "short": [
         "03.24.22"
@@ -5502,7 +5502,7 @@ const data = [
     "title": "Cerro San Cristóbal",
     "when": {
       "long": [
-        "March.19th.16"
+        "March 2016"
       ],
       "short": [
         "03.19.16"
@@ -5529,7 +5529,7 @@ const data = [
     "title": "Valparaíso",
     "when": {
       "long": [
-        "March.22nd.16"
+        "March 2016"
       ],
       "short": [
         "03.22.16"
@@ -5556,7 +5556,7 @@ const data = [
     "title": "Andian Glacier Hike",
     "when": {
       "long": [
-        "March.21st.16"
+        "March 2016"
       ],
       "short": [
         "03.21.16"
@@ -5583,7 +5583,7 @@ const data = [
     "title": "Cousino Macul",
     "when": {
       "long": [
-        "March.23rd.16"
+        "March 2016"
       ],
       "short": [
         "03.23.16"
@@ -5610,7 +5610,7 @@ const data = [
     "title": "Torres del Paine",
     "when": {
       "long": [
-        "March.25th.16"
+        "March 2016"
       ],
       "short": [
         "03.25.16"
@@ -5637,7 +5637,7 @@ const data = [
     "title": "Cueva del Milodon",
     "when": {
       "long": [
-        "March.26th.16"
+        "March 2016"
       ],
       "short": [
         "03.26.16"
@@ -5664,7 +5664,7 @@ const data = [
     "title": "Glacier Cruise",
     "when": {
       "long": [
-        "March.27th.16"
+        "March 2016"
       ],
       "short": [
         "03.27.16"
@@ -5691,7 +5691,7 @@ const data = [
     "title": "Mount Elbert",
     "when": {
       "long": [
-        "August.31st.19"
+        "August 2019"
       ],
       "short": [
         "08.31.19"
@@ -5718,7 +5718,7 @@ const data = [
     "title": "Quandary Peak",
     "when": {
       "long": [
-        "September.1st.19"
+        "September 2019"
       ],
       "short": [
         "09.01.19"
@@ -5745,7 +5745,7 @@ const data = [
     "title": "La Plata Peak",
     "when": {
       "long": [
-        "September.4th.20"
+        "September 2020"
       ],
       "short": [
         "09.04.20"
@@ -5772,7 +5772,7 @@ const data = [
     "title": "Mount Bierstadt",
     "when": {
       "long": [
-        "September.5th.20"
+        "September 2020"
       ],
       "short": [
         "09.05.20"
@@ -5799,7 +5799,7 @@ const data = [
     "title": "Grays Peak",
     "when": {
       "long": [
-        "September.6th.20"
+        "September 2020"
       ],
       "short": [
         "09.06.20"
@@ -5826,7 +5826,7 @@ const data = [
     "title": "Mount Shavano",
     "when": {
       "long": [
-        "September.7th.21"
+        "September 2021"
       ],
       "short": [
         "09.07.21"
@@ -5853,7 +5853,7 @@ const data = [
     "title": "Mount Decalibron",
     "when": {
       "long": [
-        "September.9th.21"
+        "September 2021"
       ],
       "short": [
         "09.09.21"
@@ -5880,7 +5880,7 @@ const data = [
     "title": "Mount Belford",
     "when": {
       "long": [
-        "September.9th.22"
+        "September 2022"
       ],
       "short": [
         "09.09.22"
@@ -5907,7 +5907,7 @@ const data = [
     "title": "Mount Massive",
     "when": {
       "long": [
-        "September.11th.22"
+        "September 2022"
       ],
       "short": [
         "09.11.22"
@@ -5934,7 +5934,7 @@ const data = [
     "title": "Auberge Le Truc",
     "when": {
       "long": [
-        "September.2nd.18"
+        "September 2018"
       ],
       "short": [
         "09.02.18"
@@ -5961,7 +5961,7 @@ const data = [
     "title": "",
     "when": {
       "long": [
-        "September.2nd.18"
+        "September 2018"
       ],
       "short": [
         "09.02.18"
@@ -5988,7 +5988,7 @@ const data = [
     "title": "Refuge La Croix du Bonhomme",
     "when": {
       "long": [
-        "September.3rd.18"
+        "September 2018"
       ],
       "short": [
         "09.03.18"
@@ -6015,7 +6015,7 @@ const data = [
     "title": "",
     "when": {
       "long": [
-        "September.3rd.18"
+        "September 2018"
       ],
       "short": [
         "09.03.18"
@@ -6042,7 +6042,7 @@ const data = [
     "title": "Refuge Robert Blanc",
     "when": {
       "long": [
-        "September.4th.18"
+        "September 2018"
       ],
       "short": [
         "09.04.18"
@@ -6069,7 +6069,7 @@ const data = [
     "title": "",
     "when": {
       "long": [
-        "September.4th.18"
+        "September 2018"
       ],
       "short": [
         "09.04.18"
@@ -6093,10 +6093,10 @@ const data = [
     "notes": [],
     "src": "2018/09/02/d3aaae8d-df89-48cb-aea9-9abc33f59d6b.jpeg",
     "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT/xAAhEAABAwMEAwAAAAAAAAAAAAABAAIRAxIhBDFBUSIycf/EABcBAQEBAQAAAAAAAAAAAAAAAAACAQP/xAAYEQEBAQEBAAAAAAAAAAAAAAAAEQECEv/aAAwDAQACEQMRAD8Aa1VUedFi2phbErILUpEaj8ww47U7rpzy6QZ5hQ6Md45JgIJnUQYDZHaqp3MSfUc/c46QhEaudQOKYB+rIJuqOf7GVoUoMQGyD//Z",
-    "title": "",
+    "title": "Refuge Robert Blanc",
     "when": {
       "long": [
-        "September.4th.18"
+        "September 2018"
       ],
       "short": [
         "09.04.18"
@@ -6123,7 +6123,7 @@ const data = [
     "title": "",
     "when": {
       "long": [
-        "September.5th.18"
+        "September 2018"
       ],
       "short": [
         "09.05.18"
@@ -6150,7 +6150,7 @@ const data = [
     "title": "Rifugio Maison Veille",
     "when": {
       "long": [
-        "September.5th.18"
+        "September 2018"
       ],
       "short": [
         "09.05.18"
@@ -6177,7 +6177,7 @@ const data = [
     "title": "Rifugio Bonatti",
     "when": {
       "long": [
-        "September.6th.18"
+        "September 2018"
       ],
       "short": [
         "09.06.18"
@@ -6204,7 +6204,7 @@ const data = [
     "title": "",
     "when": {
       "long": [
-        "September.6th.18"
+        "September 2018"
       ],
       "short": [
         "09.06.18"
@@ -6231,7 +6231,7 @@ const data = [
     "title": "",
     "when": {
       "long": [
-        "September.7th.18"
+        "September 2018"
       ],
       "short": [
         "09.07.18"
@@ -6258,7 +6258,7 @@ const data = [
     "title": "Maya Joie",
     "when": {
       "long": [
-        "September.7th.18"
+        "September 2018"
       ],
       "short": [
         "09.07.18"
@@ -6285,7 +6285,7 @@ const data = [
     "title": "Gîte Bon Abri",
     "when": {
       "long": [
-        "September.8th.18"
+        "September 2018"
       ],
       "short": [
         "09.08.18"
@@ -6312,7 +6312,7 @@ const data = [
     "title": "",
     "when": {
       "long": [
-        "September.8th.18"
+        "September 2018"
       ],
       "short": [
         "09.08.18"
@@ -6339,7 +6339,7 @@ const data = [
     "title": "",
     "when": {
       "long": [
-        "September.9th.18"
+        "September 2018"
       ],
       "short": [
         "09.09.18"
@@ -6366,7 +6366,7 @@ const data = [
     "title": "Refuge Le Peuty",
     "when": {
       "long": [
-        "September.9th.18"
+        "September 2018"
       ],
       "short": [
         "09.09.18"
@@ -6393,7 +6393,7 @@ const data = [
     "title": "Auberge La Boerne",
     "when": {
       "long": [
-        "September.10th.18"
+        "September 2018"
       ],
       "short": [
         "09.10.18"
@@ -6420,7 +6420,7 @@ const data = [
     "title": "",
     "when": {
       "long": [
-        "September.10th.18"
+        "September 2018"
       ],
       "short": [
         "09.10.18"
@@ -6447,7 +6447,7 @@ const data = [
     "title": "Refuge La Flegere",
     "when": {
       "long": [
-        "September.11th.18"
+        "September 2018"
       ],
       "short": [
         "09.11.18"
@@ -6474,7 +6474,7 @@ const data = [
     "title": "Refuge La Flegere",
     "when": {
       "long": [
-        "September.11th.18"
+        "September 2018"
       ],
       "short": [
         "09.11.18"
@@ -6501,7 +6501,7 @@ const data = [
     "title": "Refuge de Bellechat",
     "when": {
       "long": [
-        "September.12th.18"
+        "September 2018"
       ],
       "short": [
         "09.12.18"
@@ -6528,7 +6528,7 @@ const data = [
     "title": "Les Houches",
     "when": {
       "long": [
-        "September.13th.18"
+        "September 2018"
       ],
       "short": [
         "09.13.18"
@@ -6555,7 +6555,7 @@ const data = [
     "title": "Mont Blanc",
     "when": {
       "long": [
-        "July.27th.24"
+        "July 2024"
       ],
       "short": [
         "07.27.24"
@@ -6582,7 +6582,7 @@ const data = [
     "title": "Auberge Le Truc",
     "when": {
       "long": [
-        "July.27th.24"
+        "July 2024"
       ],
       "short": [
         "07.27.24"
@@ -6609,7 +6609,7 @@ const data = [
     "title": "Refuge de la Balme",
     "when": {
       "long": [
-        "July.28th.24"
+        "July 2024"
       ],
       "short": [
         "07.28.24"
@@ -6636,7 +6636,7 @@ const data = [
     "title": "Col du Bonhomme",
     "when": {
       "long": [
-        "July.28th.24"
+        "July 2024"
       ],
       "short": [
         "07.28.24"
@@ -6663,7 +6663,7 @@ const data = [
     "title": "Torrent des Glaciers",
     "when": {
       "long": [
-        "July.29th.24"
+        "July 2024"
       ],
       "short": [
         "07.29.24"
@@ -6690,7 +6690,7 @@ const data = [
     "title": "Refuge Robert Blanc",
     "when": {
       "long": [
-        "July.29th.24"
+        "July 2024"
       ],
       "short": [
         "07.29.24"
@@ -6717,7 +6717,7 @@ const data = [
     "title": "Robert Blanc",
     "when": {
       "long": [
-        "July.30th.24"
+        "July 2024"
       ],
       "short": [
         "07.30.24"
@@ -6744,7 +6744,7 @@ const data = [
     "title": "Col de la Seigne",
     "when": {
       "long": [
-        "July.30th.24"
+        "July 2024"
       ],
       "short": [
         "07.30.24"
@@ -6771,7 +6771,7 @@ const data = [
     "title": "Maison Veille",
     "when": {
       "long": [
-        "July.30th.24"
+        "July 2024"
       ],
       "short": [
         "07.30.24"
@@ -6798,7 +6798,7 @@ const data = [
     "title": "Val Ferret",
     "when": {
       "long": [
-        "July.31st.24"
+        "July 2024"
       ],
       "short": [
         "07.31.24"
@@ -6825,7 +6825,7 @@ const data = [
     "title": "Rifugio Bonatti",
     "when": {
       "long": [
-        "July.31st.24"
+        "July 2024"
       ],
       "short": [
         "07.31.24"
@@ -6852,7 +6852,7 @@ const data = [
     "title": "Grand Col Ferret",
     "when": {
       "long": [
-        "August.1st.24"
+        "August 2024"
       ],
       "short": [
         "08.01.24"
@@ -6879,7 +6879,7 @@ const data = [
     "title": "Grand Col Ferret",
     "when": {
       "long": [
-        "August.1st.24"
+        "August 2024"
       ],
       "short": [
         "08.01.24"
@@ -6906,7 +6906,7 @@ const data = [
     "title": "Gite Bon Abri",
     "when": {
       "long": [
-        "August.2nd.24"
+        "August 2024"
       ],
       "short": [
         "08.02.24"
@@ -6933,7 +6933,7 @@ const data = [
     "title": "Col de la Forclaz",
     "when": {
       "long": [
-        "August.3rd.24"
+        "August 2024"
       ],
       "short": [
         "08.03.24"
@@ -6960,7 +6960,7 @@ const data = [
     "title": "Alpage de Bovine",
     "when": {
       "long": [
-        "August.3rd.24"
+        "August 2024"
       ],
       "short": [
         "08.03.24"
@@ -6987,7 +6987,7 @@ const data = [
     "title": "Le Peuty",
     "when": {
       "long": [
-        "August.4th.24"
+        "August 2024"
       ],
       "short": [
         "08.04.24"
@@ -7014,7 +7014,7 @@ const data = [
     "title": "Auberge La Boerne",
     "when": {
       "long": [
-        "August.4th.24"
+        "August 2024"
       ],
       "short": [
         "08.04.24"
@@ -7041,7 +7041,7 @@ const data = [
     "title": "Lac Blanc",
     "when": {
       "long": [
-        "August.5th.24"
+        "August 2024"
       ],
       "short": [
         "08.05.24"
@@ -7068,7 +7068,7 @@ const data = [
     "title": "Refuge La Flegere",
     "when": {
       "long": [
-        "August.5th.24"
+        "August 2024"
       ],
       "short": [
         "08.05.24"
@@ -7095,7 +7095,7 @@ const data = [
     "title": "La Brevant",
     "when": {
       "long": [
-        "August.6th.24"
+        "August 2024"
       ],
       "short": [
         "08.06.24"
@@ -7122,7 +7122,7 @@ const data = [
     "title": "Les Houches",
     "when": {
       "long": [
-        "August.6th.24"
+        "August 2024"
       ],
       "short": [
         "08.06.24"
@@ -7149,7 +7149,7 @@ const data = [
     "title": "Drymen",
     "when": {
       "long": [
-        "May.7th.22"
+        "May 2022"
       ],
       "short": [
         "05.07.22"
@@ -7176,7 +7176,7 @@ const data = [
     "title": "Drymen",
     "when": {
       "long": [
-        "May.7th.22"
+        "May 2022"
       ],
       "short": [
         "05.07.22"
@@ -7203,7 +7203,7 @@ const data = [
     "title": "Gartness Road",
     "when": {
       "long": [
-        "May.8th.22"
+        "May 2022"
       ],
       "short": [
         "05.08.22"
@@ -7230,7 +7230,7 @@ const data = [
     "title": "Conic Hill",
     "when": {
       "long": [
-        "May.8th.22"
+        "May 2022"
       ],
       "short": [
         "05.08.22"
@@ -7257,7 +7257,7 @@ const data = [
     "title": "Loch Lomond",
     "when": {
       "long": [
-        "May.8th.22"
+        "May 2022"
       ],
       "short": [
         "05.08.22"
@@ -7284,7 +7284,7 @@ const data = [
     "title": "Sallochy",
     "when": {
       "long": [
-        "May.8th.22"
+        "May 2022"
       ],
       "short": [
         "05.08.22"
@@ -7311,7 +7311,7 @@ const data = [
     "title": "Stirling",
     "when": {
       "long": [
-        "May.9th.22"
+        "May 2022"
       ],
       "short": [
         "05.09.22"
@@ -7338,7 +7338,7 @@ const data = [
     "title": "Doune Byre",
     "when": {
       "long": [
-        "May.9th.22"
+        "May 2022"
       ],
       "short": [
         "05.09.22"
@@ -7365,7 +7365,7 @@ const data = [
     "title": "Crianlarich",
     "when": {
       "long": [
-        "May.10th.22"
+        "May 2022"
       ],
       "short": [
         "05.10.22"
@@ -7392,7 +7392,7 @@ const data = [
     "title": "Beinn Dorain",
     "when": {
       "long": [
-        "May.10th.22"
+        "May 2022"
       ],
       "short": [
         "05.10.22"
@@ -7419,7 +7419,7 @@ const data = [
     "title": "Bridge of Orchy",
     "when": {
       "long": [
-        "May.10th.22"
+        "May 2022"
       ],
       "short": [
         "05.10.22"
@@ -7446,7 +7446,7 @@ const data = [
     "title": "Taynuilt",
     "when": {
       "long": [
-        "May.11th.22"
+        "May 2022"
       ],
       "short": [
         "05.11.22"
@@ -7473,7 +7473,7 @@ const data = [
     "title": "Mam Carraigh",
     "when": {
       "long": [
-        "May.11th.22"
+        "May 2022"
       ],
       "short": [
         "05.11.22"
@@ -7500,7 +7500,7 @@ const data = [
     "title": "Highlands",
     "when": {
       "long": [
-        "May.11th.22"
+        "May 2022"
       ],
       "short": [
         "05.11.22"
@@ -7527,7 +7527,7 @@ const data = [
     "title": "Ballachulish",
     "when": {
       "long": [
-        "May.11th.22"
+        "May 2022"
       ],
       "short": [
         "05.11.22"
@@ -7554,7 +7554,7 @@ const data = [
     "title": "Stob Ghabhar",
     "when": {
       "long": [
-        "May.11th.22"
+        "May 2022"
       ],
       "short": [
         "05.11.22"
@@ -7581,7 +7581,7 @@ const data = [
     "title": "Glen Etive",
     "when": {
       "long": [
-        "May.11th.22"
+        "May 2022"
       ],
       "short": [
         "05.11.22"
@@ -7608,7 +7608,7 @@ const data = [
     "title": "Kingshouse",
     "when": {
       "long": [
-        "May.11th.22"
+        "May 2022"
       ],
       "short": [
         "05.11.22"
@@ -7635,7 +7635,7 @@ const data = [
     "title": "Kinlochleven",
     "when": {
       "long": [
-        "May.11th.22"
+        "May 2022"
       ],
       "short": [
         "05.11.22"
@@ -7662,7 +7662,7 @@ const data = [
     "title": "Allt Nathrach",
     "when": {
       "long": [
-        "May.12th.22"
+        "May 2022"
       ],
       "short": [
         "05.12.22"
@@ -7689,7 +7689,7 @@ const data = [
     "title": "Tigh-na-sleubhalch",
     "when": {
       "long": [
-        "May.12th.22"
+        "May 2022"
       ],
       "short": [
         "05.12.22"
@@ -7716,7 +7716,7 @@ const data = [
     "title": "Fort William",
     "when": {
       "long": [
-        "May.12th.22"
+        "May 2022"
       ],
       "short": [
         "05.12.22"
@@ -7745,7 +7745,7 @@ const data = [
     "title": "Big Paint Loop",
     "when": {
       "long": [
-        "October.18th.25"
+        "October 2025"
       ],
       "short": [
         "10.18.25"
@@ -7774,7 +7774,7 @@ const data = [
     "title": "Big Paint Loop",
     "when": {
       "long": [
-        "October.18th.25"
+        "October 2025"
       ],
       "short": [
         "10.18.25"
@@ -7801,7 +7801,7 @@ const data = [
     "title": "Big Paint Loop",
     "when": {
       "long": [
-        "October.18th.25"
+        "October 2025"
       ],
       "short": [
         "10.18.25"
@@ -7828,7 +7828,7 @@ const data = [
     "title": "Big Paint Loop",
     "when": {
       "long": [
-        "October.18th.25"
+        "October 2025"
       ],
       "short": [
         "10.18.25"
@@ -7857,7 +7857,7 @@ const data = [
     "title": "Big Paint Loop",
     "when": {
       "long": [
-        "October.19th.25"
+        "October 2025"
       ],
       "short": [
         "10.19.25"
@@ -7886,7 +7886,7 @@ const data = [
     "title": "Browns Hollow",
     "when": {
       "long": [
-        "October.19th.25"
+        "October 2025"
       ],
       "short": [
         "10.19.25"

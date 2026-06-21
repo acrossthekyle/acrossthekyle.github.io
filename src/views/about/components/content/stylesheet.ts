@@ -7,9 +7,11 @@ export const styles = tw({
     border-t-1 border-dashed border-current/10
 
     sm:w-[50vw]
+    lg:relative
+    lg:z-2
+    lg:ml-[26vw]
     lg:border-t-0
-    lg:w-[48vw]
-    lg:overflow-y-scroll
+    lg:w-[calc(100%-26vw)]
     lg:scroll-smooth
 
     motion-safe:opacity-0

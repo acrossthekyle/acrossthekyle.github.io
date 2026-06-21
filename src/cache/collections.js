@@ -381,8 +381,7 @@ const data = [
     },
     "notes": [
       "The GR 20 was the last thru-hike on my original list from 2018 and is considered to be the most difficult of all trails in Europe, and it truly was.",
-      "It took me 13 days to hike 131 miles across the mountain range that bisects the island from North to South. Between the Northern starting point at Calenzana and the end at Conca in the South, there were hidden mountain lakes, expansive sea views, rugged and rocky cliffs, and remarkable panoramas.",
-      "The highest point on the trek was 8,554 ft (2,607 m)."
+      "It took me 13 days to hike 131 miles across the mountain range that bisects the island from North to South. Between the Northern starting point at Calenzana and the end at Conca in the South, there were hidden mountain lakes, expansive sea views, rugged and rocky cliffs, and remarkable panoramas. The highest point on the trek was 8,554 ft (2,607 m)."
     ],
     "position": [
       "49%",
@@ -429,9 +428,8 @@ const data = [
       "continent": "Africa"
     },
     "notes": [
-      "We decided to ring in the new year by doing something special, and chose to visit Cairo, and Luxor, in Egypt.",
-      "This was one of the more interesting vacations/experiences I've had. The cities were bustling and full of people vying for our attention, and the same can be said for most of the monuments and historical sites we visited.",
-      "We had a handful of pleasant experiences at some of the monuments though, with our favorite being Habu Temple."
+      "We decided to ring in the new year by doing something special, and chose to visit Cairo, and Luxor, in Egypt. This was one of the more interesting vacations/experiences I've had.",
+      "The cities were bustling and full of people vying for our attention, and the same can be said for most of the monuments and historical sites we visited. We had a handful of pleasant experiences at some of the monuments though, with our favorite being Habu Temple."
     ],
     "position": [
       "54%",
@@ -477,8 +475,7 @@ const data = [
     },
     "notes": [
       "A place of kettles and moraines from mile-thick glaciers long ago in Wisconsin, this trail is an ideal option for weekend backpacking due to its proximity to Chicago.",
-      "The terrain isn't too demanding, and I don't know if I'll ever complet all sections of the 1,200 mile national scenic trail, but it's very ideal for overnight backpacking trips thanks to the reservable Adirondack-style shelters.",
-      "It's not the distance on this trail that gets you; it's the constant up and down over rolling hills."
+      "The terrain isn't too demanding, and I don't know if I'll ever complet all sections of the 1,200 mile national scenic trail, but it's very ideal for overnight backpacking trips thanks to the reservable Adirondack-style shelters. It's not the distance on this trail that gets you; it's the constant up and down over rolling hills."
     ],
     "position": [
       "48%",
@@ -528,8 +525,7 @@ const data = [
     },
     "notes": [
       "This was one of my shorter thru-hikes, taking only 6 days to complete an overland trek that extends for 97 miles between Glasgow in the south and Fort William in the northern highlands.",
-      "I camped every night in fields, on stony beaches, and under bridges. The first two days had clear skies, but the rest of the hike was filled with nearly endless rain.",
-      "The highlands were truly spectacular, despite the constant downpours."
+      "I camped every night in fields, on stony beaches, and under bridges. The first two days had clear skies, but the rest of the hike was filled with nearly endless rain. The highlands were truly spectacular, despite the constant downpours."
     ],
     "position": [
       "38.5%",
@@ -547,8 +543,7 @@ const data = [
     ],
     "title": [
       "West",
-      "Highland",
-      "Way"
+      "Highland Way"
     ],
     "type": "thru-hike",
     "when": {
@@ -578,8 +573,7 @@ const data = [
     },
     "notes": [
       "We escaped the trailing remnants of winter in Chicago by booking a last-minute trip in Puerto Rico, and spent a few days walking its beaches, exploring forts, and cliff jumping in the rain forests.",
-      "Old town was my favorite, with its quaint streets, shops and restaurants, and of course the historic forts.",
-      "Sadly much of the damage from previous hurricanes was still visible, and the place was still struggling to recover."
+      "Old town was my favorite, with its quaint streets, shops and restaurants, and of course the historic forts. Sadly much of the damage from previous hurricanes was still visible, and the place was still struggling to recover."
     ],
     "position": [
       "58%",
@@ -625,8 +619,7 @@ const data = [
     },
     "notes": [
       "Located in the Upper Peninsula of Michigan the Porcupine Mountains (nicknamed 'The Porkies') cover a wide area of the shoreline of Lake Superior.",
-      "The original plan was to backpack 4 days and 3 nights are various backcountry campsites, but mother nature had its own plans and it became a car-camping outing instead, thanks to the swarms of biting black flies that had recently hatched.",
-      "Views from the Lake in the Clouds, and sunrises over Lake Superior, were the highlights of the trip."
+      "The original plan was to backpack 4 days and 3 nights are various backcountry campsites, but mother nature had its own plans and it became a car-camping outing instead, thanks to the swarms of biting black flies that had recently hatched. Views from the Lake in the Clouds, and sunrises over Lake Superior, were the highlights of the trip."
     ],
     "position": [
       "47.5%",
@@ -717,9 +710,8 @@ const data = [
       "continent": "Asia"
     },
     "notes": [
-      "After completing my trekking in the Annapurna Region of Nepal I spent a few days exploring Pokhara.",
-      "The bustling city is situated next a body of water called Phewa Lake, and has one main shopping avenue with cafes and restaurants that runs perpendicular to it. There's also a great outdoor movie theater nestled next to a bit of the jungle.",
-      "I also decided to take advantage of the numerous outdoor activity companies in the city and tried something new: a paragliding excursion."
+      "After completing my trekking in the Annapurna Region of Nepal I spent a few days exploring Pokhara. The bustling city is situated next a body of water called Phewa Lake, and has one main shopping avenue with cafes and restaurants that runs perpendicular to it.",
+      "There's also a great outdoor movie theater nestled next to a bit of the jungle. I also decided to take advantage of the numerous outdoor activity companies in the city and tried something new: a paragliding excursion."
     ],
     "position": [
       "53%",
@@ -762,8 +754,7 @@ const data = [
     },
     "notes": [
       "After ending the Annapurna Circuit I decided to take a series of footpaths through jungle and over farmland to a village called Chomrong in order to start another trek in the Himalayas: a 5 day, 38 mile out-and-back hike to and from Annapurna Basecamp at 13,525 ft (4,110 m).",
-      "From Chomrong it took two days to get up to Basecamp where I spent time reading next a fire inside one of the huts while watching the snow fall outside, and watched the sun rise over the mountains the next morning.",
-      "The descent back to Chomrong only took one day to complete. It was time to return to Pokhara the following day."
+      "From Chomrong it took two days to get up to Basecamp where I spent time reading next a fire inside one of the huts while watching the snow fall outside, and watched the sun rise over the mountains the next morning. The descent back to Chomrong only took one day to complete. It was time to return to Pokhara the following day."
     ],
     "position": [
       "53%",
@@ -810,8 +801,7 @@ const data = [
     },
     "notes": [
       "Based out of a city called Pokhara, and starting in a village near the town of Besisahar, this thru-hike took 14 days and 155 miles to complete with a peak altitude of 17,812 ft (5,420 m) at Thorong La Pass (the highest terrestial point I've ever reached).",
-      "Rooms cost $1-3 each night, with similar prices for meals, and the mattresses became more rock-like as the elevation increased. Friendly locals even helped us find our way when we lost the route on day one.",
-      "Overall it was an amazing experience, second only to the Camino Frances thru-hike, and the unlimited refills of Dal Bhat didn't hurt either."
+      "Rooms cost $1-3 each night, with similar prices for meals, and the mattresses became more rock-like as the elevation increased. Friendly locals even helped us find our way when we lost the route on day one. Overall it was an amazing experience, second only to the Camino Frances thru-hike, and the unlimited refills of Dal Bhat didn't hurt either."
     ],
     "position": [
       "53%",
@@ -858,7 +848,7 @@ const data = [
     },
     "notes": [
       "Reaching the summits of the Rocky Mountains and breathing in the cold alpine air above 14,000 feet is an awe-inspiring experience offering unparalleled views and moments of profound triumph, a feeling of being on top of the world.",
-      "This is a collection of my summits completed so far: 9/53 peaks and counting"
+      "This is a collection of my summits completed so far: 9/53 peaks and counting."
     ],
     "position": [
       "50.5%",

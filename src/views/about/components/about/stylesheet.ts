@@ -7,9 +7,13 @@ export const styles = tw({
     no-scrollbar
 
     sm:w-[50vw]
+    lg:overscroll-contain
+    lg:fixed
+    lg:top-0
+    lg:left-0
     lg:h-svh
     lg:border-r-1
-    lg:border-current/10
+    lg:border-current/20
     lg:border-dashed
     lg:w-[26vw]
     lg:overflow-y-scroll

@@ -92,7 +92,7 @@ export default function Content({ recent }: Props) {
       <div className={styles.divider} />
       <section className={styles.section}>
         <h2 className={styles.heading}>
-          Professionaly
+          Professionally
           <span className={styles.footnote}>
             My career
           </span>
