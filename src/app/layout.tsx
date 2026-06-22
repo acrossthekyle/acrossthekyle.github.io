@@ -2,13 +2,10 @@ import '../globals.css';
 
 import type { Metadata } from 'next';
 import { Geist } from 'next/font/google';
-import { headers } from 'next/headers';
 import { ThemeProvider } from 'next-themes';
 import { PropsWithChildren, Suspense } from 'react';
 
-import DialogProvider from '@/contexts/dialog';
-import OptionsProvider from '@/contexts/options';
-import { Body, Main, Menu } from '@/layout';
+import { Body, Footer, Header, Main } from '@/layout';
 
 export const metadata: Metadata = {
   title: {
@@ -30,23 +27,18 @@ const font = Geist({
 });
 
 export default async function RootLayout({ children }: PropsWithChildren) {
-  const headersList = await headers();
-  const units = headersList.get('x-units-system') || 'metric';
-
   return (
     <html className={font.variable} lang="en-US" suppressHydrationWarning>
       <Suspense fallback={null}>
-        <DialogProvider>
-          <OptionsProvider units={units}>
-            <Body>
-              <ThemeProvider>
-                <Main>
-                  {children}
-                </Main>
-              </ThemeProvider>
-            </Body>
-          </OptionsProvider>
-        </DialogProvider>
+        <Body>
+          <ThemeProvider>
+            <Header />
+            <Main>
+              {children}
+            </Main>
+            <Footer />
+          </ThemeProvider>
+        </Body>
       </Suspense>
     </html>
   );
