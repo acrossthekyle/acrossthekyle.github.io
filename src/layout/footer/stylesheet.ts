@@ -6,6 +6,9 @@ export const styles = tw({
     w-px
     h-12
     bg-(--foreground)/50
+
+    motion-safe:opacity-0
+    motion-safe:animate-fade-in-right-slightly-delayed
   `,
   wheel: `
     absolute bottom-2 left-1/2

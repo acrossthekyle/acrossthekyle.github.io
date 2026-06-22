@@ -20,10 +20,16 @@ export const styles = tw({
   end: `
     items-end
     -mr-6
+
+    motion-safe:opacity-0
+    motion-safe:animate-fade-in-right-slightly-delayed
   `,
   start: `
     items-start
     -ml-6
+
+    motion-safe:opacity-0
+    motion-safe:animate-fade-in-left-slightly-delayed
   `,
   thin: `
     font-thin
@@ -41,6 +47,9 @@ export const styles = tw({
 
     sm:px-4
     sm:h-140
+
+    motion-safe:opacity-0
+    motion-safe:animate-fade-in-up-slightly-delayed
   `,
   image: `
     opacity-90

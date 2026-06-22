@@ -11,6 +11,9 @@ export const styles = tw({
     uppercase
     tracking-widest
     origin-bottom-left -rotate-90
+
+    motion-safe:opacity-0
+    motion-safe:animate-fade-in-up-slightly-delayed
   `,
   inner: (isActive: boolean) => tw(`
     ${isActive ? 'line-through' : ''}
