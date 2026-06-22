@@ -82,14 +82,11 @@ export const styles = tw({
   heading: `
     flex flex-col
     w-full
-    text-4xl
+    text-[min(8vw,46px)]
     font-sans font-black
     leading-[0.8]
     uppercase
     whitespace-nowrap
-
-    lg:text-[min(4.25vw,46px)]
-    2xl:text-[min(10vw,80px)]
   `,
   line: `
     scale-x-[0.5]
