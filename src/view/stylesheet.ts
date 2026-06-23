@@ -70,7 +70,7 @@ export const styles = tw({
   `,
   heading: `
     relative
-    mt-20
+    my-20
     flex flex-col items-center gap-4.75
     w-full max-w-md
     mx-auto
