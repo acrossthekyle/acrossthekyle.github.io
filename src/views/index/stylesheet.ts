@@ -5,7 +5,6 @@ export const styles = tw({
     relative
     flex flex-col justify-between gap-6
     w-full h-svh
-    overflow-x-clip
     p-6
 
     leading-[0.8]
@@ -115,7 +114,7 @@ export const styles = tw({
     tracking-widest
   `,
   instagram: (isInView: boolean) => tw(`
-    absolute top-[24svw] -right-22 z-100
+    absolute top-[22svh] -right-22 z-100
     p-4
     uppercase
     text-xtiny
@@ -138,13 +137,18 @@ export const styles = tw({
     lg:top-[24svh]
   `),
   email: (isInView: boolean) => tw(`
-    absolute top-[50svh] -left-13.5 z-100
+    absolute bottom-[50svh] -left-13.5 z-100
     p-4
     uppercase
     text-xtiny light:text-(--background) md:light:text-(--foreground)
     font-mono font-extralight
     tracking-widest
     -rotate-90 origin-bottom-right
+
+    landscape:sm:bottom-[14svh]
+    portrait:sm:bottom-[34svh]
+    landscape:md:bottom-[44svh]
+    portrait:md:bottom-[44svh]
 
     motion-safe:duration-500
     motion-safe:hover:text-current/50
@@ -159,7 +163,7 @@ export const styles = tw({
     `}
   `),
   figure: (isInView: boolean) => tw(`
-    absolute bottom-[14svh] -z-1
+    fixed bottom-[14svh] -z-1
     aspect-square
     w-100
     -ml-26
@@ -173,18 +177,17 @@ export const styles = tw({
       motion-safe:opacity-0
     `}
 
-    md:bottom-auto
-    md:top-1/2
-    md:left-1/2
-    md:-translate-x-1/2
-    md:-translate-y-1/2
-    md:w-[52vw]
-    md:ml-0
+    sm:bottom-auto
+    sm:top-1/2
+    sm:left-1/2
+    sm:-translate-x-1/2
+    sm:-translate-y-1/2
+    sm:w-[52vw]
+    sm:ml-0
     lg:w-[44vw]
   `),
   image: `
     grayscale
-    rounded-xl
     opacity-80 dark:opacity-40
   `,
   cross: `
