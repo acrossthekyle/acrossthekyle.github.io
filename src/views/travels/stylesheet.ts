@@ -44,7 +44,6 @@ export const styles = tw({
     grayscale-20
     opacity-80
     sepia-10
-    rounded-xl
   `,
   items: (isInView: boolean) => tw(`
     group/items

@@ -222,7 +222,6 @@ export const styles = tw({
     sepia-10
     grayscale-20
     opacity-80 dark:opacity-80
-    rounded-xl
 
     motion-safe:duration-700
     motion-safe:hover:scale-102
