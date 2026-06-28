@@ -1,11 +1,11 @@
 import '../globals.css';
 
 import type { Metadata } from 'next';
-import { Geist } from 'next/font/google';
+import { Geist, Playfair_Display } from 'next/font/google';
 import { ThemeProvider } from 'next-themes';
 import { PropsWithChildren, Suspense } from 'react';
 
-import { Body, Footer, Header, Main } from '@/layout';
+import { Body, Footer, Header } from '@/layout';
 
 export const metadata: Metadata = {
   title: {
@@ -20,22 +20,26 @@ export const metadata: Metadata = {
   },
 };
 
-const font = Geist({
+const sans = Geist({
   display: 'swap',
   subsets: ['latin'],
-  variable: '--font-geist-sans',
+  variable: '--font-sans',
+});
+
+const serif = Playfair_Display({
+  display: 'swap',
+  subsets: ['latin'],
+  variable: '--font-serif',
 });
 
 export default async function RootLayout({ children }: PropsWithChildren) {
   return (
-    <html className={font.variable} lang="en-US" suppressHydrationWarning>
+    <html className={`${sans.variable} ${serif.variable}`} lang="en-US" suppressHydrationWarning>
       <Suspense fallback={null}>
         <Body>
           <ThemeProvider>
             <Header />
-            <Main>
-              {children}
-            </Main>
+            {children}
             <Footer />
           </ThemeProvider>
         </Body>

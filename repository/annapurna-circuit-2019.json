@@ -48,6 +48,73 @@
     "Based out of a city called Pokhara, and starting in a village near the town of Besisahar, this thru-hike took 14 days and 155 miles to complete with a peak altitude of 17,812 ft (5,420 m) at Thorong La Pass (the highest terrestial point I've ever reached).",
     "Rooms cost $1-3 each night, with similar prices for meals, and the mattresses became more rock-like as the elevation increased. Friendly locals even helped us find our way when we lost the route on day one. Overall it was an amazing experience, second only to the Camino Frances thru-hike, and the unlimited refills of Dal Bhat didn't hurt either."
   ],
+  "header": [
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "thru-hiking"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "in"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "the"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif", "italic"],
+        "words": "himalayas"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "of"
+      },
+      {
+        "type": "spacer"
+      }
+    ],
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "nepal"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "along the"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "annapurna"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif", "italic"],
+        "words": "circuit"
+      },
+      {
+        "type": "spacer"
+      }
+    ]
+  ],
   "images": [
     {
       "src": "2019/10/19/672dcde8-57ae-4bf9-885f-ae039d3a824d.jpeg",

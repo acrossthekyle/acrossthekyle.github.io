@@ -14,7 +14,7 @@
     "country": "Colorado",
     "continent": "North America"
   },
-  "category": "mountains",
+  "category": "summits",
   "type": "summits",
   "coordinates": "39.7392° N, 104.9903° W",
   "cover": [
@@ -41,6 +41,79 @@
   "notes": [
     "Reaching the summits of the Rocky Mountains and breathing in the cold alpine air above 14,000 feet is an awe-inspiring experience offering unparalleled views and moments of profound triumph, a feeling of being on top of the world.",
     "This is a collection of my summits completed so far: 9/53 peaks and counting."
+  ],
+  "header": [
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "summiting"
+      },
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "alpine peaks"
+      }
+    ],
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "at 14,000+ ft"
+      },
+      {
+        "type": "text",
+        "classes": ["serif","italic"],
+        "words": "in"
+      },
+      {
+        "type": "spacer"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "classes": ["serif", "italic"],
+        "words": "the"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "rocky"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "mountains"
+      },
+      {
+        "type": "spacer"
+      }
+    ],
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "of"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "colorado"
+      }
+    ]
   ],
   "images": [
     {

@@ -41,6 +41,64 @@
     "The River Ridge Backpack Trail at Forest Glen Preserve in Westville, Illinois, is a relatively moderate 10.5 mile loop designed for beginner backpackers, featuring steep ravines, creek crossings, and ridge-top hiking.",
     "It is widely considered one of the few true backpacking experiences in Illinois, often completed as an overnight trip with two dedicated primitive campsites."
   ],
+  "header": [
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "backpacking"
+      },
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "the"
+      }
+    ],
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif", "italic"],
+        "words": "river ridge"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif", "italic"],
+        "words": "trail"
+      },
+      {
+        "type": "spacer"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "in"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "central"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "illinois"
+      },
+      {
+        "type": "spacer"
+      }
+    ]
+  ],
   "images": [
     {
       "src": "2026/03/14/8e8fd062-270f-4081-96c3-ee072a81caab.jpeg",

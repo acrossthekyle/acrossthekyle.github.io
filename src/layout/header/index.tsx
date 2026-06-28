@@ -1,18 +1,32 @@
+'use client';
+
+import { ArrowUpLeft } from 'lucide-react';
 import Link from 'next/link';
+import { usePathname, useRouter } from 'next/navigation';
 
 import { styles } from './stylesheet';
 
 export default function Header() {
+  const pathname = usePathname();
+  const router = useRouter();
+
   return (
     <header>
-      <Link aria-label="acrossthekyle.com" className={styles.anchor} href="/">
-        <span>K</span>
-        <span>/</span>
-        <span>G</span>
-      </Link>
-      <Link className={styles.socials} href="mailto:hello@acrossthekyle.com">
-        Say Hello
-      </Link>
+      {pathname === '/' ? (
+        <Link aria-label="acrossthekyle.com" className={styles.anchor} href="/">
+          <span>K</span>
+          <span>/</span>
+          <span>G</span>
+        </Link>
+      ) : (
+        <button
+          className={`${styles.anchor} ${styles.tucked}`}
+          onClick={router.back}
+          type="button"
+        >
+          <ArrowUpLeft className={styles.icon} />
+        </button>
+      )}
     </header>
   );
 }

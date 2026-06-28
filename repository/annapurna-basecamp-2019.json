@@ -14,7 +14,7 @@
     "country": "Nepal",
     "continent": "Asia"
   },
-  "category": "basecamps",
+  "category": "backpacking",
   "type": "basecamp",
   "coordinates": "28.530000° N, 83.878000° E",
   "cover": [
@@ -43,6 +43,86 @@
   "notes": [
     "After ending the Annapurna Circuit I decided to take a series of footpaths through jungle and over farmland to a village called Chomrong in order to start another trek in the Himalayas: a 5 day, 38 mile out-and-back hike to and from Annapurna Basecamp at 13,525 ft (4,110 m).",
     "From Chomrong it took two days to get up to Basecamp where I spent time reading next a fire inside one of the huts while watching the snow fall outside, and watched the sun rise over the mountains the next morning. The descent back to Chomrong only took one day to complete. It was time to return to Pokhara the following day."
+  ],
+  "header": [
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "an"
+      },
+      {
+        "type": "text",
+        "classes": ["serif", "italic"],
+        "words": "out-and-back"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "hike"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "to"
+      },
+      {
+        "type": "spacer"
+      }
+    ],
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "annapurna"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "basecamp"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "in the"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif", "italic"],
+        "words": "kaski region"
+      },
+      {
+        "type": "spacer"
+      }
+    ],
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "of"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif", "italic"],
+        "words": "nepal"
+      },
+      {
+        "type": "spacer"
+      }
+    ]
   ],
   "images": [
     {

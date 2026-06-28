@@ -49,6 +49,109 @@
     "My second ever thru-hike that encircled a mountain called Mont Blanc in the European Alps. The trail is considered a classic long-distance hike and it took me 12 days over 106 miles (170 km) to complete it while passing through France, Italy, and Switzerland.",
     "It's a challenging experience filled with diverse landscapes, unique cultural blends, and stunning alpine scenery, all while sleeping in mountain huts and eating home-cooked meals each night."
   ],
+  "header": [
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "thru-hiking"
+      },
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "the"
+      }
+    ],
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif", "italic"],
+        "words": "tour"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif", "italic"],
+        "words": "du"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif", "italic"],
+        "words": "mont"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif", "italic"],
+        "words": "blanc"
+      },
+      {
+        "type": "spacer"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "in"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "the"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "alps"
+      },
+      {
+        "type": "spacer"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "of"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif"],
+        "words": "france,"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif"],
+        "words": "italy,"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "and"
+      },
+      {
+        "type": "spacer"
+      }
+    ],
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif"],
+        "words": "switzerland"
+      }
+    ]
+  ],
   "images": [
     {
       "src": "2018/09/02/135eea74-e1bc-4cab-bfd7-28d17405a744.jpeg",

@@ -36,9 +36,7 @@ export default function Theme() {
       title="Toggle theme"
       type="button"
     >
-      <span className={styles.inner(resolvedTheme === 'dark')}>Dark</span>
-      <span>/</span>
-      <span className={styles.inner(resolvedTheme === 'light')}>Light</span>
+      <span className={styles.circle} />
     </button>
   );
 }

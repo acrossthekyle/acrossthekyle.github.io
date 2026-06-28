@@ -49,6 +49,78 @@
     "It had been a dream of mine for years to thru-hike the 'O' Circuit in Patagonia ever since my brief visit in 2016, and in 2020 I finally made it happen (just before COVID hit), and the trail did not disappoint.",
     "A tapestry of landscapes, sprawling glaciers, pristine lakes, and windswept plains provided an idyllic background for thru-hiking 73 miles over 8 days, with a pre-dawn hike up to the base of the 'Towers' being a perfect finale."
   ],
+  "header": [
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["serif", "italic"],
+        "words": "backpacking"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "through"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "patagonia"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "on"
+      },
+      {
+        "type": "spacer"
+      }
+    ],
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "the"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "o"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "circuit"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "in"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif", "italic"],
+        "words": "southern"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif", "italic"],
+        "words": "chile"
+      },
+      {
+        "type": "spacer"
+      }
+    ]
+  ],
   "images": [
     {
       "src": "2020/02/18/619eec82-6980-4f31-a11f-7c5581d02989.jpeg",

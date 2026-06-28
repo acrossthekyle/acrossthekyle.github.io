@@ -13,7 +13,7 @@
     "country": "Peru",
     "continent": "South America"
   },
-  "category": "destinations",
+  "category": "destination",
   "type": "vacation",
   "coordinates": "13.53195° S, 71.96746° W",
   "cover": [
@@ -36,6 +36,64 @@
   ],
   "notes": [
     ""
+  ],
+  "header": [
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "exploring"
+      },
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "the"
+      },
+      {
+        "type": "nbsp"
+      },
+      {
+        "type": "text",
+        "classes": ["serif", "thin", "italic"],
+        "words": "region"
+      }
+    ],
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin", "italic"],
+        "words": "of"
+      },
+      {
+        "type": "nbsp"
+      },
+      {
+        "type": "text",
+        "classes": ["serif", "heavy", "italic"],
+        "words": "cusco"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "in"
+      },
+      {
+        "type": "text",
+        "classes": ["serif", "thin", "italic"],
+        "words": "Peru"
+      }
+    ]
   ],
   "images": []
 }

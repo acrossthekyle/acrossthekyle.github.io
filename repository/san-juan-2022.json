@@ -14,7 +14,7 @@
     "country": "Puerto Rico",
     "continent": "North America"
   },
-  "category": "destinations",
+  "category": "destination",
   "type": "vacation",
   "coordinates": "18.466333° N, 66.105722° W",
   "cover": [
@@ -38,6 +38,67 @@
   "notes": [
     "We escaped the trailing remnants of winter in Chicago by booking a last-minute trip in Puerto Rico, and spent a few days walking its beaches, exploring forts, and cliff jumping in the rain forests.",
     "Old town was my favorite, with its quaint streets, shops and restaurants, and of course the historic forts. Sadly much of the damage from previous hurricanes was still visible, and the place was still struggling to recover."
+  ],
+  "header": [
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "vacationing"
+      },
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "on the"
+      }
+    ],
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin", "italic"],
+        "words": "beaches"
+      },
+      {
+        "type": "nbsp"
+      },
+      {
+        "type": "text",
+        "classes": ["serif","italic"],
+        "words": "of"
+      },
+      {
+        "type": "spacer"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "san juan"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "in"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif", "italic"],
+        "words": "puerto rico"
+      },
+      {
+        "type": "spacer"
+      }
+    ]
   ],
   "images": [
     {

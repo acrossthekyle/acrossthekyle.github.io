@@ -49,6 +49,117 @@
     "The Tour du Mont Blanc was my second-ever thru-hike, and it left a lasting impressiong on me. So much so that when I was getting my partner into overnight backpacking trips, this trek seemed like a perfect introduction.",
     "This repeat of my 2018 thru-hike of the trail in the European Alps was much as I had remembered; we even stayed at most of the same places as I did. However this time I combined the previous thru-hike's last two stages. We spent 11 days travelling 117 miles around the Mont Blanc massif, and it was definitely worth it."
   ],
+  "header": [
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "thru-hiking"
+      },
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "the"
+      }
+    ],
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif", "italic"],
+        "words": "tour"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif", "italic"],
+        "words": "du"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif", "italic"],
+        "words": "mont"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif", "italic"],
+        "words": "blanc"
+      },
+      {
+        "type": "spacer"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "in"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "the"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "alps"
+      },
+      {
+        "type": "spacer"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "of"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif"],
+        "words": "france,"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif"],
+        "words": "italy,"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "and"
+      },
+      {
+        "type": "spacer"
+      }
+    ],
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif"],
+        "words": "switzerland"
+      },
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "once more"
+      }
+    ]
+  ],
   "images": [
     {
       "src": "2024/07/27/ac7799bd-b2a8-4f77-8a8d-6d42a8740390.jpeg",

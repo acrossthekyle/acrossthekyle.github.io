@@ -45,6 +45,88 @@
     "This was one of my shorter thru-hikes, taking only 6 days to complete an overland trek that extends for 97 miles between Glasgow in the south and Fort William in the northern highlands.",
     "I camped every night in fields, on stony beaches, and under bridges. The first two days had clear skies, but the rest of the hike was filled with nearly endless rain. The highlands were truly spectacular, despite the constant downpours."
   ],
+  "header": [
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "a"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "hike"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "through"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "the"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "highlands"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "of"
+      },
+      {
+        "type": "spacer"
+      }
+    ],
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif", "italic"],
+        "words": "scotland"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "along"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "the"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "west"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "highland"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "way"
+      },
+      {
+        "type": "spacer"
+      }
+    ]
+  ],
   "images": [
     {
       "src": "2022/05/07/75a8c027-07cd-4184-9157-d48dd5d1a32e.jpeg",
@@ -66,31 +148,6 @@
         "iso": 50
       },
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECA//EACMQAAIBAgUFAQAAAAAAAAAAAAABEQIhAxITIjEEMkFRYWL/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABYRAQEBAAAAAAAAAAAAAAAAAAARAf/aAAwDAQACEQMRAD8A2ylQ4sBLTSsmwI3TwwDdMZWAa68kuA172pbFxYT6j8NiidaqbQl6JSB4uJzmFIwn4QMIdKlkBX3MqpiHyB//2Q=="
-    },
-    {
-      "src": "2022/05/07/36243fed-99ce-4875-b398-1ed2259cd204.jpeg",
-      "title": "Drymen",
-      "location": {
-        "region": "Glasgow",
-        "country": "Scotland",
-        "continent": "Europe"
-      },
-      "date": "05/07/2022",
-      "elevation": 351,
-      "notes": "",
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBAH/xAAjEAACAQIFBQEAAAAAAAAAAAAAAQIDERIUIVGBBDEyQZFC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AK8M1+WVE49tUyC+GgE8SKO3+AYMzU2j8ICr1N0uBVTj1EvbT4JRZmIPySLUFWo72FGS5lS9wABgCj//2Q==",
-      "exif": {
-        "aperture": "1/1699",
-        "camera": "iPhone 13 Pro",
-        "exposure": "0.0",
-        "fnumber": "1.50",
-        "focal": 26,
-        "format": "jpg",
-        "height": 2268,
-        "iso": 50,
-        "shutter": "13.47",
-        "width": 4032
-      }
     },
     {
       "src": "2022/05/07/747eb0e7-6974-4ed6-b192-405ac0b2921e.jpeg",

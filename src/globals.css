@@ -3,20 +3,22 @@
 @theme inline {
   --animate-fade-in: fade-in .3s ease-in forwards;
   --animate-fade-in-delayed: .3s fade-in 6.25s ease-in forwards;
-  --animate-fade-in-up: slide-up-fade .4s ease-in forwards;
-  --animate-fade-in-right: slide-right-fade .4s ease-in-out forwards;
-  --animate-fade-in-left: slide-left-fade .4s ease-in-out forwards;
+  --animate-fade-in-up: slide-up-fade .4s ease-in-out forwards;
+  --animate-fade-in-right: slide-right-fade .65s ease-in-out forwards;
+  --animate-fade-in-left: slide-left-fade .65s ease-in-out forwards;
   --animate-fade-in-slightly-delayed: .4s fade-in .2s ease-in-out forwards;
-  --animate-fade-in-up-slightly-delayed: .4s slide-up-fade .2s ease-in-out forwards;
-  --animate-fade-in-down-slightly-delayed: .4s slide-down-fade .2s ease-in-out forwards;
-  --animate-fade-in-right-slightly-delayed: .4s slide-right-fade .2s ease-in-out forwards;
-  --animate-fade-in-left-slightly-delayed: .4s slide-left-fade .2s ease-in-out forwards;
+  --animate-fade-in-up-slightly-delayed: .4s slide-up-fade .75s ease-in-out forwards;
+  --animate-fade-in-down-slightly-delayed: .4s slide-down-fade .75s ease-in-out forwards;
+  --animate-fade-in-right-slightly-delayed: .4s slide-right-fade .75s ease-in-out forwards;
+  --animate-fade-in-left-slightly-delayed: .4s slide-left-fade .75s ease-in-out forwards;
   --animate-fade-out: fade-out .1s ease-in-out forwards;
   --animate-fade-out-up: slide-up-fade-out .1s ease-in-out forwards;
   --animate-fade-out-down: slide-down-fade-out .1s ease-in-out forwards;
   --animate-fade-out-left: slide-left-fade-out .1s ease-in-out forwards;
+  --animate-slide-in-up: slide-in-up .5s ease-out forwards;
 
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
 
   --text-tiny: 0.625rem; /* 10px */
   --text-xtiny: 0.5rem; /* 8px */
@@ -45,6 +47,34 @@ body {
     object-fit: cover;
     width: 100%;
   }
+
+  .no-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* third-party package styling  */
+
+  .leaflet-bar {
+    border: 0 !important;
+  }
+
+  .leaflet-control-attribution {
+    visibility: hidden;
+  }
+
+  .leaflet-container {
+    background: transparent;
+  }
+
+  .leaflet-tile-container .leaflet-tile {
+    border-radius: 0;
+    filter: grayscale(100%);
+  }
 }
 
 @keyframes fade-in {
@@ -63,7 +93,7 @@ body {
 }
 
 @keyframes slide-right-fade {
-  0% { opacity: 0; transform: translateX(-4rem); }
+  0% { opacity: 1; transform: translateX(-4rem); }
   100% { opacity: 1; transform: translateX(0); }
 }
 
@@ -73,8 +103,8 @@ body {
 }
 
 @keyframes slide-left-fade {
-  0% { opacity: 0; transform: translateX(4rem); }
-  100% { opacity: 1; transform: translateX(0); }
+  0% { transform: translateX(4rem); }
+  100% { transform: translateX(0); }
 }
 
 @keyframes slide-up-fade-out {
@@ -90,4 +120,9 @@ body {
 @keyframes slide-left-fade-out {
   0% { opacity: 1; transform: translateX(0); }
   100% { opacity: 0; transform: translateX(-4rem); }
+}
+
+@keyframes slide-in-up {
+  0% { top: 100%; }
+  100% { top: 0; }
 }

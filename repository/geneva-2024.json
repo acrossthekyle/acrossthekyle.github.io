@@ -13,7 +13,7 @@
     "country": "Switzerland",
     "continent": "Europe"
   },
-  "category": "cities",
+  "category": "destination",
   "type": "vacation",
   "coordinates": "46.204391° N, 6.143158° E",
   "cover": [
@@ -40,6 +40,64 @@
   "notes": [
     "Before beginning our adventure in the Alps on the Tour du Mont blanc my partner and I took the opportunity to explore the city of Geneva. I had flown in and out of this city before, but never had the chance to see it.",
     "Our hotel in the art district provided an ideal base of operations as we explored. Old Town and its historic church provided ample historical sights and provided a good view of the surrounding area. The botanical garden was a nice escape from the busy city life, and we also checked out the Patek Phillipe watch museum."
+  ],
+  "header": [
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "touring"
+      },
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "the"
+      },
+      {
+        "type": "nbsp"
+      },
+      {
+        "type": "text",
+        "classes": ["serif", "thin", "italic"],
+        "words": "city"
+      }
+    ],
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "of"
+      },
+      {
+        "type": "nbsp"
+      },
+      {
+        "type": "text",
+        "classes": ["serif", "italic"],
+        "words": "geneva"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "in"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "switzerland"
+      }
+    ]
   ],
   "images": [
     {

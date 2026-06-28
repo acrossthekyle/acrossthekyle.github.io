@@ -14,7 +14,7 @@
     "country": "Egypt",
     "continent": "Africa"
   },
-  "category": "destinations",
+  "category": "destination",
   "type": "vacation",
   "coordinates": "30.033333° N, 31.233334° E",
   "cover": [
@@ -50,6 +50,103 @@
   "notes": [
     "We decided to ring in the new year by doing something special, and chose to visit Cairo, and Luxor, in Egypt. This was one of the more interesting vacations/experiences I've had.",
     "The cities were bustling and full of people vying for our attention, and the same can be said for most of the monuments and historical sites we visited. We had a handful of pleasant experiences at some of the monuments though, with our favorite being Habu Temple."
+  ],
+  "header": [
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "experiencing"
+      },
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "the"
+      },
+      {
+        "type": "nbsp"
+      },
+      {
+        "type": "text",
+        "classes": ["serif", "thin", "italic"],
+        "words": "history"
+      }
+    ],
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin", "italic"],
+        "words": "of"
+      },
+      {
+        "type": "nbsp"
+      },
+      {
+        "type": "text",
+        "classes": ["serif", "italic"],
+        "words": "ancient"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "egypt"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "in the"
+      },
+      {
+        "type": "text",
+        "classes": ["serif", "thin", "italic"],
+        "words": "cities"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "of"
+      },
+      {
+        "type": "spacer"
+      }
+    ],
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["serif", "heavy", "italic"],
+        "words": "cairo"
+      },
+      {
+        "type": "nbsp"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "and"
+      },
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["serif", "heavy", "italic"],
+        "words": "luxor"
+      }
+    ]
   ],
   "images": [
     {

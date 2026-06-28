@@ -49,6 +49,75 @@
     "Starting high in the Pyrenees mountains between France and Spain, and leading to the Atlantic ocean, the Camino Frances is part of a series of routes collectively called El Camino de Santiago that covers a wide array of landscapes and cultures over hills and mountains, across deserts, through rivers, and in thick forests.",
     "I spent 35 days walking/hiking 600 miles across Northern Spain, and it changed me forever."
   ],
+  "header": [
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "backpacking"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "through"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "the"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif", "italic"],
+        "words": "Autonomous"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "regions"
+      },
+      {
+        "type": "spacer"
+      }
+    ],
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "of"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "northern"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "spain"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "along the"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif", "italic"],
+        "words": "Camino Frances"
+      }
+    ]
+  ],
   "images": [
     {
       "src": "2018/06/02/36c8ce31-ccce-4133-9528-338124462edf.jpeg",

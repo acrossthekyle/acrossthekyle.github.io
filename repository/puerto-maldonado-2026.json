@@ -14,8 +14,8 @@
     "country": "Peru",
     "continent": "South America"
   },
-  "category": "destinations",
-  "type": "vacation",
+  "category": "destination",
+  "type": "excursion",
   "coordinates": "12.5933° S, 69.1891° W",
   "cover": [
     {
@@ -35,6 +35,48 @@
   ],
   "notes": [
     ""
+  ],
+  "header": [
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "exploring"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "the"
+      },
+      {
+        "type": "text",
+        "classes": ["serif", "thin", "italic"],
+        "words": "amazon"
+      }
+    ],
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["serif", "heavy", "italic"],
+        "words": "Jungle"
+      },
+      {
+        "type": "text",
+        "classes": ["in"],
+        "words": "in"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "Peru"
+      }
+    ]
   ],
   "images": []
 }

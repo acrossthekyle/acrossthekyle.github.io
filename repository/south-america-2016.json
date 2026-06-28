@@ -14,7 +14,7 @@
     "country": "Chile",
     "continent": "South America"
   },
-  "category": "destinations",
+  "category": "destination",
   "type": "vacation",
   "coordinates": "33.448890° S, 70.669265° W",
   "cover": [
@@ -42,6 +42,81 @@
   "notes": [
     "This was my second time visiting South America. We explored Santiago and Valparaiso for a few days with visits to wineries, Lollapalooza, and a hike to a glacier in the Andes mountains.",
     "We also took a few days to head down to Patagonia where we did a day hike up to the base of the Towers of Patagonia, took a cruise to see some glaciers, and stepped into a deep Ice Age cave."
+  ],
+  "header": [
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "visiting"
+      },
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "the"
+      }
+    ],
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "city"
+      },
+      {
+        "type": "text",
+        "classes": ["serif","italic"],
+        "words": "of"
+      },
+      {
+        "type": "spacer"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "Santiago,"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "and the"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "Patagonia"
+      }
+    ],
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "region,"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "of"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif", "italic"],
+        "words": "chile"
+      }
+    ]
   ],
   "images": [
     {

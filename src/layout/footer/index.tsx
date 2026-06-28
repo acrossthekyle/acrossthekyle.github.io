@@ -1,12 +1,10 @@
-import { styles } from './stylesheet';
+import Scrollable from './scrollable';
 import Theme from './theme';
 
 export default function Footer() {
   return (
     <footer>
-      <div className={styles.scroll}>
-        <span className={styles.wheel} />
-      </div>
+      <Scrollable />
       <Theme />
     </footer>
   );

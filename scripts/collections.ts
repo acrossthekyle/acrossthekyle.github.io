@@ -104,6 +104,7 @@ export async function go() {
       coordinates: reduceCoordinates(data.coordinates),
       count: data.images.length,
       cover: data.cover[0],
+      header: data.header,
       id: data.id,
       location: data.location,
       notes: data.notes,
@@ -113,7 +114,6 @@ export async function go() {
       title: data.title,
       type: data.type,
       when,
-      // year: when !== null ? when.split(',').pop() : null,
     });
 
     data.images.map(({ date, elevation, exif, location, notes, src, thumb, title }) => {
@@ -141,11 +141,12 @@ export async function go() {
       'collections.js',
       collections
         .sort((a, b) => b.timestamp - a.timestamp)
-        .map(({ category, coordinates, count, cover, id, location, notes, position, tags, title, type, when }) => ({
+        .map(({ category, coordinates, count, cover, header, id, location, notes, position, tags, title, type, when }) => ({
           category,
           coordinates,
           count,
           cover,
+          header,
           id,
           location,
           notes,
@@ -154,7 +155,6 @@ export async function go() {
           title,
           type,
           when,
-          // year,
         })),
     );
   }

@@ -13,7 +13,7 @@
     "country": "Nepal",
     "continent": "Asia"
   },
-  "category": "destinations",
+  "category": "destination",
   "type": "vacation",
   "coordinates": "28.209600° N, 83.985600° E",
   "cover": [
@@ -35,6 +35,95 @@
   "notes": [
     "After completing my trekking in the Annapurna Region of Nepal I spent a few days exploring Pokhara. The bustling city is situated next a body of water called Phewa Lake, and has one main shopping avenue with cafes and restaurants that runs perpendicular to it.",
     "There's also a great outdoor movie theater nestled next to a bit of the jungle. I also decided to take advantage of the numerous outdoor activity companies in the city and tried something new: a paragliding excursion."
+  ],
+  "header": [
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "exploring"
+      },
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "the"
+      },
+      {
+        "type": "text",
+        "classes": ["serif", "thin", "italic"],
+        "words": "sights"
+      }
+    ],
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin", "italic"],
+        "words": "of"
+      },
+      {
+        "type": "text",
+        "classes": ["serif", "heavy", "italic"],
+        "words": "Pokhara"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "—"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "the"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "gateway"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "to"
+      },
+      {
+        "type": "text",
+        "classes": ["serif", "thin", "italic"],
+        "words": "the"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "classes": ["serif", "thin", "italic"],
+        "words": "himalayas"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "—"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "in"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "Nepal"
+      }
+    ]
   ],
   "images": [
     {

@@ -53,6 +53,107 @@
     "The GR 20 was the last thru-hike on my original list from 2018 and is considered to be the most difficult of all trails in Europe, and it truly was.",
     "It took me 13 days to hike 131 miles across the mountain range that bisects the island from North to South. Between the Northern starting point at Calenzana and the end at Conca in the South, there were hidden mountain lakes, expansive sea views, rugged and rocky cliffs, and remarkable panoramas. The highest point on the trek was 8,554 ft (2,607 m)."
   ],
+  "header": [
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "thru-hiking"
+      },
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "across"
+      }
+    ],
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "the"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif", "italic"],
+        "words": "mountains"
+      },
+      {
+        "type": "spacer"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "of the"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "GR"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "20"
+      },
+      {
+        "type": "spacer"
+      }
+    ],
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "on the"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif"],
+        "words": "island"
+      },
+      {
+        "type": "spacer"
+      }
+    ],
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "of"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif"],
+        "words": "corsica"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "in"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif", "italic"],
+        "words": "france"
+      }
+    ]
+  ],
   "images": [
     {
       "src": "2023/06/21/74223fbe-db85-402a-ae25-00fc5e3e75b0.jpeg",

@@ -41,6 +41,79 @@
     "Known for its unglaciated, hilly landscape, this remote counterclockwise backpacking loop in the Driftless Area of Iowa showcases the state's most rugged terrain with a route that crosses ravines, climbs sandstone bluffs, and provides views of the surrounding hardwood forests and wildlife.",
     "This was a short weekend backpacking trip on one of the trails in the area where we hiked to a place called Browns Hollow: a grassy field pocketed by dense forest all around it. The trail had three big hills to hike up and over, but overall it wasn't that difficult of a trail."
   ],
+  "header": [
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "backpacking"
+      },
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "the"
+      }
+    ],
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif", "italic"],
+        "words": "yellow river"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif", "italic"],
+        "words": "trail"
+      },
+      {
+        "type": "spacer"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "in the"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "driftless"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "area"
+      },
+      {
+        "type": "spacer"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "of"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif"],
+        "words": "iowa"
+      },
+      {
+        "type": "spacer"
+      }
+    ]
+  ],
   "images": [
     {
       "src": "2025/10/18/efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg",

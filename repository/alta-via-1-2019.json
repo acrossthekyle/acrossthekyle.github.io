@@ -18,14 +18,6 @@
     {
       "src": "2019/07/16/735a0783-62ba-4f8e-97d8-c9b9f5327cfe.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMBAv/EAB0QAAMBAAMAAwAAAAAAAAAAAAABAhEDEkEhMVH/xAAXAQEBAQEAAAAAAAAAAAAAAAABAAMC/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AKzapvPBpDjblfOlO/1voSpWWjdRKa7LTtM6CiQIvlUvPQBSbMpavxgGJYm0lnhkctKn7oBpA4vs6dNgAk//2Q=="
-    },
-    {
-      "src": "2019/07/16/a3f65b8c-4b57-4194-a3a1-5769f1d63373.jpeg",
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAeACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgADAf/EACIQAAICAgAGAwAAAAAAAAAAAAABAhEhQQMSEzEyUSJhcf/EABcBAAMBAAAAAAAAAAAAAAAAAAABAgP/xAAZEQEBAAMBAAAAAAAAAAAAAAAAARESIUH/2gAMAwEAAhEDEQA/AEk0NSr2c6sKq/3B241dlZlZ62F1ETneDNSTfjjQ20340xL76r+iDruQy6wU1bXlextppPmxsyj8crOezKUsPVmaz52qzmjvUnHDd4vIErins1cbhH2PIFcWT0mQEuWTRAH/2Q=="
-    },
-    {
-      "src": "2019/07/16/036ba8da-a8ff-45ad-9dcf-d2fa7f1420db.jpeg",
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAQACAwT/xAAgEAACAgICAgMAAAAAAAAAAAAAAQIRAyExUQQSQZGx/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABkRAQEBAQEBAAAAAAAAAAAAAAABERIhAv/aAAwDAQACEQMRAD8As4vpnTXCyhxa5RdSywUAUAUBs8vrzs5bHf1lPyOarYlLF8eZSW0k/wBLpiTyL4ROjnSskXFXX0aTxx+77MNlXIm4NIIzaLVp3wFMYLos+qmR/9k="
     }
   ],
   "category": "backpacking",
@@ -48,6 +40,71 @@
   "notes": [
     "A Northern Italian one-way thru-hike in the Dolomites mountain range on the Alta Via 1 trail, heading North to South. Total distance covered was 65 miles over 10 days, and elevation gains/losses were marginal at 25,109 ft (7,653 m) gained and 28,590 ft (8,714 m) respectively.",
     "This trek had some of the best food I have ever eaten on a thru-hike."
+  ],
+  "header": [
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "thru-hiking"
+      },
+      {
+        "type": "text",
+        "classes": ["in"],
+        "words": "in the"
+      }
+    ],
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif", "italic"],
+        "words": "dolomites"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "of"
+      },
+      {
+        "type": "spacer"
+      }
+    ],
+    [
+      {
+        "type": "spacer"
+      },
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "northern"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy"],
+        "words": "italy"
+      }
+    ],
+    [
+      {
+        "type": "text",
+        "classes": ["thin"],
+        "words": "across the"
+      },
+      {
+        "type": "text",
+        "classes": ["heavy", "serif", "italic"],
+        "words": "alta via 1"
+      },
+      {
+        "type": "spacer"
+      }
+    ]
   ],
   "images": [
     {

@@ -3,7 +3,6 @@ import tw from '@/styles';
 export const styles = tw({
   container: `
     antialiased
-    scroll-smooth scrollbar-thin
     bg-(--background)
     text-(--foreground)
 

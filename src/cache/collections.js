@@ -1,12 +1,70 @@
 const data = [
   {
-    "category": "Destinations",
+    "category": "Destination",
     "coordinates": "12.5933° S, 69.1891° W",
     "count": 0,
     "cover": {
       "src": "",
       "thumb": null
     },
+    "header": [
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "exploring"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "the"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "thin",
+            "italic"
+          ],
+          "words": "amazon"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "heavy",
+            "italic"
+          ],
+          "words": "Jungle"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "in"
+          ],
+          "words": "in"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "Peru"
+        }
+      ]
+    ],
     "id": "puerto-maldonado",
     "location": {
       "region": "Amazon Rain Forest",
@@ -30,7 +88,7 @@ const data = [
       "Puerto",
       "Maldonado"
     ],
-    "type": "vacation",
+    "type": "excursion",
     "when": {
       "long": [
         "July 19th",
@@ -50,6 +108,113 @@ const data = [
       "src": "",
       "thumb": null
     },
+    "header": [
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "thru-hiking"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "in"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "the"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "andes mountains"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "of"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "Peru"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "along the"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "salkantay"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "trek"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "to"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "Macchu Pichu"
+        }
+      ]
+    ],
     "id": "salkantay-trek",
     "location": {
       "region": "Cusco Region",
@@ -89,13 +254,92 @@ const data = [
     }
   },
   {
-    "category": "Destinations",
+    "category": "Destination",
     "coordinates": "13.5320° S, 71.9675° W",
     "count": 0,
     "cover": {
       "src": "",
       "thumb": null
     },
+    "header": [
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "exploring"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "the"
+        },
+        {
+          "type": "nbsp"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "thin",
+            "italic"
+          ],
+          "words": "region"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin",
+            "italic"
+          ],
+          "words": "of"
+        },
+        {
+          "type": "nbsp"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "heavy",
+            "italic"
+          ],
+          "words": "cusco"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "in"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "thin",
+            "italic"
+          ],
+          "words": "Peru"
+        }
+      ]
+    ],
     "id": "cusco",
     "location": {
       "region": "Southeastern Andes",
@@ -140,6 +384,82 @@ const data = [
       "src": "2026/03/14/1e1be596-c236-4cee-9eb2-fac89329e0e6.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBP/EACEQAAIBAwMFAAAAAAAAAAAAAAABERJSoQIhkSIxUVOC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwDokSSSd74RpJ3YFwmqbCfBP7wN/Y+EKRQE+q/AFWJyxUAZaExVLACGpx2AAV//2Q=="
     },
+    "header": [
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "backpacking"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "the"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "river ridge"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "trail"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "in"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "central"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "illinois"
+        },
+        {
+          "type": "spacer"
+        }
+      ]
+    ],
     "id": "river-ridge-trail",
     "location": {
       "region": "Central Illinois",
@@ -188,6 +508,102 @@ const data = [
       "src": "2025/10/18/efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCAf/EAB8QAAIBAwUBAAAAAAAAAAAAAAABEQISQQMTITFRkf/EABYBAQEBAAAAAAAAAAAAAAAAAAIBAP/EABcRAQEBAQAAAAAAAAAAAAAAAAABERL/2gAMAwEAAhEDEQA/ACaNqCcc9YNJOcfSS4tmqKg0qSb1LVClslfVnkXVDmRZtN+AjfmQRRppTJyHan236AE2dx9BajmABDW71UnNMsAGR//Z"
     },
+    "header": [
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "backpacking"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "the"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "yellow river"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "trail"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "in the"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "driftless"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "area"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "of"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif"
+          ],
+          "words": "iowa"
+        },
+        {
+          "type": "spacer"
+        }
+      ]
+    ],
     "id": "yellow-river-trail",
     "location": {
       "region": "The Driftless Area of Iowa",
@@ -236,6 +652,158 @@ const data = [
       "src": "2024/07/27/2ba462f1-18ed-4122-b902-bc0c9554b75d.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAeACgDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECA//EACAQAAICAQUAAwAAAAAAAAAAAAABAhExAxIhQWFxgbH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAwD/xAAXEQEBAQEAAAAAAAAAAAAAAAAAAREh/9oADAMBAAIRAxEAPwC3H5+yGilOOJKvQaV8fpXUMZsRbjWRbbMyANHptZQGLJym5Vy0Uo6i6SLTUcLklyJyKUNSWdt+CipvpCsMiOtJRlTtpugIirYBsOV//9k="
     },
+    "header": [
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "thru-hiking"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "the"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "tour"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "du"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "mont"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "blanc"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "in"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "the"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "alps"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "of"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif"
+          ],
+          "words": "france,"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif"
+          ],
+          "words": "italy,"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "and"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif"
+          ],
+          "words": "switzerland"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "once more"
+        }
+      ]
+    ],
     "id": "tour-du-mont-blanc-2024",
     "location": {
       "region": "The Alps",
@@ -277,13 +845,88 @@ const data = [
     }
   },
   {
-    "category": "Cities",
+    "category": "Destination",
     "coordinates": "46.2044° N, 6.1432° E",
     "count": 6,
     "cover": {
       "src": "2024/07/24/f6f7470b-5e4e-42f7-aa59-ccabe81778bf.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBA//EACIQAAIBAgYDAQAAAAAAAAAAAAABEgIhAxETMWGRQVFSYv/EABYBAQEBAAAAAAAAAAAAAAAAAAADAv/EABcRAQEBAQAAAAAAAAAAAAAAAAASAQL/2gAMAwEAAhEDEQA/AKiZEalfldm6vtLs3SW8piIlan4ZsqvhX5FEaiIKddSeTpSfLArCNcpNtcDEbhsrvwASXbht12zaKb6AAPe+dvQAA//Z"
     },
+    "header": [
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "touring"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "the"
+        },
+        {
+          "type": "nbsp"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "thin",
+            "italic"
+          ],
+          "words": "city"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "of"
+        },
+        {
+          "type": "nbsp"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "italic"
+          ],
+          "words": "geneva"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "in"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "switzerland"
+        }
+      ]
+    ],
     "id": "geneva",
     "location": {
       "region": "The Lake District",
@@ -321,13 +964,136 @@ const data = [
     }
   },
   {
-    "category": "Cities",
+    "category": "Destination",
     "coordinates": "41.9267° N, 8.7369° E",
     "count": 5,
     "cover": {
       "src": "2023/07/05/a7519e17-dc25-46cc-b8c7-8b293684b8ef.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwECAP/EAB4QAAICAgIDAAAAAAAAAAAAAAABAhESIRNRMWGB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAIDAf/EABgRAQEBAQEAAAAAAAAAAAAAAAABERIT/9oADAMBAAIRAxEAPwA8SajLW6NBeFVW77G4qfpNwajYlqrnGkGg1GlZcdoAVTlrV+0NtJkFHwSqqSQQEKERqzGjwXcn9DQ2lSFMjMD/2Q=="
     },
+    "header": [
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "visiting"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "the"
+        },
+        {
+          "type": "nbsp"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "thin",
+            "italic"
+          ],
+          "words": "cities"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin",
+            "italic"
+          ],
+          "words": "of"
+        },
+        {
+          "type": "nbsp"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "heavy",
+            "italic"
+          ],
+          "words": "Porto-Vecchio & Ajaccio"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "on the"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "thin",
+            "italic"
+          ],
+          "words": "island"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "of"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "thin",
+            "italic"
+          ],
+          "words": "Corsica"
+        },
+        {
+          "type": "nbsp"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "in"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "France"
+        }
+      ]
+    ],
     "id": "corsica",
     "location": {
       "region": "Corsica",
@@ -373,6 +1139,139 @@ const data = [
       "src": "2023/06/21/f0cd0897-3fc9-47a2-808e-e1627dfb45bc.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAgEDBAD/xAAeEAEAAgMBAQADAAAAAAAAAAABABECEiExURNhcf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABYRAQEBAAAAAAAAAAAAAAAAAAARQf/aAAwDAQACEQMRAD8Ao2f6waLG/b7JNWGV47LFmOcr8biB2xWrtkmMsmW1mLx+wK1yPxBi9fYs6IvxIFBz9MUjbvSCI1yKqmSMxAqSBdaQvvbih3dk++QT/9k="
     },
+    "header": [
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "thru-hiking"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "across"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "the"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "mountains"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "of the"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "GR"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "20"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "on the"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif"
+          ],
+          "words": "island"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "of"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif"
+          ],
+          "words": "corsica"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "in"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "france"
+        }
+      ]
+    ],
     "id": "the-gr-20",
     "location": {
       "region": "The Corsican Mountains",
@@ -414,13 +1313,144 @@ const data = [
     }
   },
   {
-    "category": "Destinations",
+    "category": "Destination",
     "coordinates": "30.0333° N, 31.2333° E",
     "count": 30,
     "cover": {
       "src": "2022/12/28/0826806c-c673-49a1-a9ae-79cfa77633e4.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgEE/8QAHBAAAwEAAgMAAAAAAAAAAAAAAAECAxFREyFB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABES/9oADAMBAAIRAxEAPwDS0AXIpAcikByWpAciplq8kv6YbR6IAPSQA9J7KA9J7AKtkEunIAd+wI65KDyB/9k="
     },
+    "header": [
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "experiencing"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "the"
+        },
+        {
+          "type": "nbsp"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "thin",
+            "italic"
+          ],
+          "words": "history"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin",
+            "italic"
+          ],
+          "words": "of"
+        },
+        {
+          "type": "nbsp"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "italic"
+          ],
+          "words": "ancient"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "egypt"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "in the"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "thin",
+            "italic"
+          ],
+          "words": "cities"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "of"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "heavy",
+            "italic"
+          ],
+          "words": "cairo"
+        },
+        {
+          "type": "nbsp"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "and"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "heavy",
+            "italic"
+          ],
+          "words": "luxor"
+        }
+      ]
+    ],
     "id": "cairo-and-luxor",
     "location": {
       "region": "Northern and Central Areas",
@@ -467,6 +1497,106 @@ const data = [
       "src": "2025/05/04/18c15085-b08e-4c57-9064-e2b3cfce9c89.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAEDAv/EACIQAAICAQIHAQAAAAAAAAAAAAABAhEhAxIiMTJBQnGBYf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AM1jVixLsR4nGzppsy0nj9Oe8vRpKVQSaRm/LDKLHqfoEi+L4ANI6Vyu8mmzbi7AIqOK/TjbG8XYAFUE1zYACP/Z"
     },
+    "header": [
+      [
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "a collection"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "of"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "sections"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "italic"
+          ],
+          "words": "hiked"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "on the"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "ice"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "age"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "trail"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "in"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif"
+          ],
+          "words": "wisconsin"
+        },
+        {
+          "type": "spacer"
+        }
+      ]
+    ],
     "id": "ice-age-trail",
     "location": {
       "region": "Wisconsin",
@@ -512,11 +1642,119 @@ const data = [
   {
     "category": "Backpacking",
     "coordinates": "55.9440° N, 4.3200° W",
-    "count": 22,
+    "count": 21,
     "cover": {
       "src": "2022/05/07/191dbf48-61aa-47f6-bbd7-cad7f3fc06e7.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIEAQP/xAAgEAADAAIBBAMAAAAAAAAAAAAAAQIDESESMWGRIkFR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEh/9oADAMBAAIRAxEAPwDQ2vB5ZKmeO7J31JP0Q0/xkisjb4ejs5d8V7PNnBGtPQ2tqlrwDMslQvi9AKVxORSkqWinOTt1rkAxWkOLX2iaTl86AFIcvYAEP//Z"
     },
+    "header": [
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "a"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "hike"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "through"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "the"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "highlands"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "of"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "scotland"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "along"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "the"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "west"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "highland"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "way"
+        },
+        {
+          "type": "spacer"
+        }
+      ]
+    ],
     "id": "west-highland-way",
     "location": {
       "region": "The Highlands",
@@ -558,13 +1796,92 @@ const data = [
     }
   },
   {
-    "category": "Destinations",
+    "category": "Destination",
     "coordinates": "18.4663° N, 66.1057° W",
     "count": 6,
     "cover": {
       "src": "2022/03/23/9f212336-298d-4c7d-874f-a3be34c95d7d.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIDAQT/xAAfEAADAQABBQEBAAAAAAAAAAAAAQIREgMhMVFxQWH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwCIpJ92U5mvHZfDBcvRpNPw9A3npzhczhlNJfmFql7JVjV5gIqmp1S38BB4taO628AKL3ji/hU0ARV11OE7m6AAP//Z"
     },
+    "header": [
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "vacationing"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "on the"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin",
+            "italic"
+          ],
+          "words": "beaches"
+        },
+        {
+          "type": "nbsp"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "italic"
+          ],
+          "words": "of"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "san juan"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "in"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "puerto rico"
+        },
+        {
+          "type": "spacer"
+        }
+      ]
+    ],
     "id": "san-juan",
     "location": {
       "region": "Central and Eastern Regions",
@@ -604,13 +1921,124 @@ const data = [
     }
   },
   {
-    "category": "Destinations",
+    "category": "Destination",
     "coordinates": "46.7666° N, 89.7502° W",
     "count": 5,
     "cover": {
       "src": "2020/07/01/d2eed074-7e71-44c6-9f3a-1bf375430ab3.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAQACAwT/xAAfEAACAgEEAwAAAAAAAAAAAAAAARESAgMTQVEhYXH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAbEQEBAQACAwAAAAAAAAAAAAAAARECEiFBUf/aAAwDAQACEQMRAD8A27y6HQlrY8lqw7mL5IYrrsliui1Y5LJGWlb0OUbDL+DOLN5fDI+IPNNjFs9NyX2xSaUthvxowPaxnrA/AXlaZxgmWBLBP//Z"
     },
+    "header": [
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "exploring"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "the"
+        },
+        {
+          "type": "nbsp"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "thin",
+            "italic"
+          ],
+          "words": "sights"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "of the"
+        },
+        {
+          "type": "nbsp"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "heavy",
+            "italic"
+          ],
+          "words": "Porcupine"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "heavy",
+            "italic"
+          ],
+          "words": "Mountains"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "in the"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "Upper"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "Penninsula"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "of"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "Michigan"
+        },
+        {
+          "type": "spacer"
+        }
+      ]
+    ],
     "id": "the-porkies",
     "location": {
       "region": "Upper Peninsula",
@@ -655,6 +2083,103 @@ const data = [
       "src": "2020/02/18/98e3190e-5480-4eb9-8883-c8d9fbb3f485.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAeACgDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDAv/EACMQAAIBAwIHAQAAAAAAAAAAAAABAgMREjGRBBMhMkFRgcH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAESH/2gAMAwEAAhEDEQA/AKRyjF37Qy01Ru9+2yE5OL6stZh6qwLyjCqxbazX0OdT8zCqYsCT4mPhNgSrCxilrLcTjH09yTqyMuo2Y1vFuXTfvcSpUtf0ipX6jyY0xRqF9HuBP6wA/9k="
     },
+    "header": [
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "italic"
+          ],
+          "words": "backpacking"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "through"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "patagonia"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "on"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "the"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "o"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "circuit"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "in"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "southern"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "chile"
+        },
+        {
+          "type": "spacer"
+        }
+      ]
+    ],
     "id": "o-circuit",
     "location": {
       "region": "The Patagonia Region",
@@ -696,13 +2221,139 @@ const data = [
     }
   },
   {
-    "category": "Destinations",
+    "category": "Destination",
     "coordinates": "28.2096° N, 83.9856° E",
     "count": 7,
     "cover": {
       "src": "2019/11/06/0a6730d7-113b-4bca-b9d1-71ecf8e69713.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAMCAQT/xAAfEAEBAAICAgMBAAAAAAAAAAABAAIRITESEwMiQVH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AN4/KNQyG8wj0Db4OiC+5ul5mu9XPYfrqC3lKJmPAkgh7D+WjNfziSDhmdpzbfqbQ5kg4ZbkkR//2Q=="
     },
+    "header": [
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "exploring"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "the"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "thin",
+            "italic"
+          ],
+          "words": "sights"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin",
+            "italic"
+          ],
+          "words": "of"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "heavy",
+            "italic"
+          ],
+          "words": "Pokhara"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "—"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "the"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "gateway"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "to"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "thin",
+            "italic"
+          ],
+          "words": "the"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "thin",
+            "italic"
+          ],
+          "words": "himalayas"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "—"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "in"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "Nepal"
+        }
+      ]
+    ],
     "id": "pokhara",
     "location": {
       "region": "Gateway to the Himalayas",
@@ -739,13 +2390,118 @@ const data = [
     }
   },
   {
-    "category": "Basecamps",
+    "category": "Backpacking",
     "coordinates": "28.5300° N, 83.8780° E",
     "count": 11,
     "cover": {
       "src": "2019/10/19/3dc0234b-c92e-4a61-bce5-bd922ddaa9bf.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAgABA//EACIQAQACAQMEAwEAAAAAAAAAAAEAAhESMUEDIWFxIkKRUf/EABcBAQEBAQAAAAAAAAAAAAAAAAEAAgP/xAAYEQEBAQEBAAAAAAAAAAAAAAAAARECEv/aAAwDAQACEQMRAD8AGaY3SPqi8QtFUEsPg3ZrWMHSNtwil6O4ZPcglmp8TblmLXTnnD0VM4D9mW0CpwuPMpcFmrLdL7B+R9Dyz6qPaiY/sr0pyD2PPqGtY0slN1YEdZbBpxBFYo8MkJUbYIobb45kH//Z"
     },
+    "header": [
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "an"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "italic"
+          ],
+          "words": "out-and-back"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "hike"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "to"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "annapurna"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "basecamp"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "in the"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "kaski region"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "of"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "nepal"
+        },
+        {
+          "type": "spacer"
+        }
+      ]
+    ],
     "id": "annapurna-basecamp",
     "location": {
       "region": "The Kaski Region",
@@ -793,6 +2549,95 @@ const data = [
       "src": "2019/10/19/b9b20eb0-e569-4778-99c6-de3a3c2eb15e.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECA//EACMQAAIBAwIHAQAAAAAAAAAAAAABEQISIQMTMUFRUmFxocH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAgED/8QAFxEBAQEBAAAAAAAAAAAAAAAAABIBEf/aAAwDAQACEQMRAD8A3BM9Dmtavnpz8LuTl01J+i+ucjEGr3E8fDRKq5af4KZDMA1uLsYFY2NS4t2QCVrcR1AALgAB/9k="
     },
+    "header": [
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "thru-hiking"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "in"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "the"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "himalayas"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "of"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "nepal"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "along the"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "annapurna"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "circuit"
+        },
+        {
+          "type": "spacer"
+        }
+      ]
+    ],
     "id": "annapurna-circuit",
     "location": {
       "region": "The Gandaki Province",
@@ -833,13 +2678,106 @@ const data = [
     }
   },
   {
-    "category": "Mountains",
+    "category": "Summits",
     "coordinates": "39.7392° N, 104.9903° W",
     "count": 9,
     "cover": {
       "src": "2020/09/04/e773dc33-82a1-48c1-b481-4eb09d736140.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAECAwT/xAAhEAACAQMDBQAAAAAAAAAAAAAAARESQVECEzEDIVJhkf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAWEQEBAQAAAAAAAAAAAAAAAAAAERL/2gAMAwEAAhEDEQA/AOz6aXLRqsZShZX0tTJQnw0KZNtehpMm0KZeSX5Ga6Ql5QpCXbuKsVahUhWKRmmCNNJLBBZmwCNLsBmkD//Z"
     },
+    "header": [
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "summiting"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "alpine peaks"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "at 14,000+ ft"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "italic"
+          ],
+          "words": "in"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "italic"
+          ],
+          "words": "the"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "rocky"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "mountains"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "of"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "colorado"
+        }
+      ]
+    ],
     "id": "southern-rockies",
     "location": {
       "region": "Rocky Mountains",
@@ -885,6 +2823,91 @@ const data = [
       "src": "2019/07/16/735a0783-62ba-4f8e-97d8-c9b9f5327cfe.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMBAv/EAB0QAAMBAAMAAwAAAAAAAAAAAAABAhEDEkEhMVH/xAAXAQEBAQEAAAAAAAAAAAAAAAABAAMC/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AKzapvPBpDjblfOlO/1voSpWWjdRKa7LTtM6CiQIvlUvPQBSbMpavxgGJYm0lnhkctKn7oBpA4vs6dNgAk//2Q=="
     },
+    "header": [
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "thru-hiking"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "in"
+          ],
+          "words": "in the"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "dolomites"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "of"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "northern"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "italy"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "across the"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "alta via 1"
+        },
+        {
+          "type": "spacer"
+        }
+      ]
+    ],
     "id": "alta-via-1",
     "location": {
       "region": "The South Tyrol Region",
@@ -933,6 +2956,148 @@ const data = [
       "src": "2018/09/02/135eea74-e1bc-4cab-bfd7-28d17405a744.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAeACgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgT/xAAgEAADAAEEAgMAAAAAAAAAAAAAAQIRAyExQQSRElFi/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwCoD2YOX0EpsIB/H7YsznZlsGEAOonmkA6srlnWtdplJ8l9z6ZDY1GHXBlpWtf8v2SrVp8JI1Sy8E8IkTqnywGA6H//2Q=="
     },
+    "header": [
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "thru-hiking"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "the"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "tour"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "du"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "mont"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "blanc"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "in"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "the"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "alps"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "of"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif"
+          ],
+          "words": "france,"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif"
+          ],
+          "words": "italy,"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "and"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif"
+          ],
+          "words": "switzerland"
+        }
+      ]
+    ],
     "id": "tour-du-mont-blanc",
     "location": {
       "region": "The Alps",
@@ -981,6 +3146,99 @@ const data = [
       "src": "2018/06/02/36c8ce31-ccce-4133-9528-338124462edf.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGQABAQEAAwAAAAAAAAAAAAAAAAMCAQQF/8QAIRAAAgEEAgMBAQAAAAAAAAAAAAECAxESITFBUWGBcZH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ANZ11zGL+7OYVKtssFb9IqrLJPv2UblJviOPNuyKtTqwnxJX8G29+DzsG7y5SNtqWKiut+gO26sFpyBFRorTk/oIIU4pu7Nt3b/gAVemkokqlNX0AETblDSegAFf/9k="
     },
+    "header": [
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "backpacking"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "through"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "the"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "Autonomous"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "regions"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "of"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "northern"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "spain"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "along the"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "Camino Frances"
+        }
+      ]
+    ],
     "id": "camino-frances",
     "location": {
       "region": "The Autonomous Regions",
@@ -1022,13 +3280,111 @@ const data = [
     }
   },
   {
-    "category": "Destinations",
+    "category": "Destination",
     "coordinates": "33.4489° S, 70.6693° W",
     "count": 7,
     "cover": {
       "src": "2016/03/18/dd0b9008-fbc2-4916-a33c-303a406e8fa5.jpeg",
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQCAQP/xAAgEAACAgEEAwEAAAAAAAAAAAAAAQIRIQMSIkExcbFR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AKWuJJJ1FUWS8MglJ7VZkx2Ud+q1F5Z7xfC08vsmhNwzjK7Nw1d8s/hF7QeY1dZBzSeV7Ahvc9vntr6Rt2la8IAFGWvhrTXLHYBJXDSmqbr1YAFP/9k="
     },
+    "header": [
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "visiting"
+        },
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "the"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "city"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "serif",
+            "italic"
+          ],
+          "words": "of"
+        },
+        {
+          "type": "spacer"
+        }
+      ],
+      [
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "Santiago,"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "and the"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy"
+          ],
+          "words": "Patagonia"
+        }
+      ],
+      [
+        {
+          "type": "spacer"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "region,"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "thin"
+          ],
+          "words": "of"
+        },
+        {
+          "type": "text",
+          "classes": [
+            "heavy",
+            "serif",
+            "italic"
+          ],
+          "words": "chile"
+        }
+      ]
+    ],
     "id": "central-and-southern-chile",
     "location": {
       "region": "Central and Southern Regions",
