@@ -106,6 +106,14 @@ export default function View({ data }: Props) {
             >
               {collection.title.join(' ')}
               <span className={styles.index}>( {padIndex(collection.count)} )</span>
+              <span className={styles.info}>
+                <span>
+                  {collection.location.region}, {collection.location.country}
+                </span>
+                <span className={styles.when}>
+                  {collection.when.long[0]} &mdash; {collection.when.long[1]}
+                </span>
+              </span>
             </Link>
           </li>
         ))}

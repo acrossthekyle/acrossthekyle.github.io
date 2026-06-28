@@ -16,7 +16,7 @@ export const styles = tw({
     leading-[0.8]
     uppercase
     font-black
-    text-center text-[min(10vw,6rem)]
+    text-center text-[min(11.25vw,6rem)]
     font-serif italic
     tracking-widest
 
@@ -48,12 +48,13 @@ export const styles = tw({
   items: (isInView: boolean) => tw(`
     group/items
     relative
-    flex flex-col items-center gap-2
+    flex flex-col items-center gap-4
     w-full
-    p-6 pb-0
+    p-6 pb-6
     text-center
 
     md:block
+    md:gap-2
 
     motion-safe:duration-700
     ${isInView ? `
@@ -70,12 +71,13 @@ export const styles = tw({
     inline-block
   `,
   link: `
+    group/link
     relative
-    flex items-start gap-2
-    px-4 mb-4
+    flex flex-col items-center gap-2
+    mb-4
     leading-[1]
     font-bold
-    text-[min(6.5vw,3rem)]
+    text-[min(7vw,3rem)]
     tracking-tighter
     uppercase
 
@@ -88,7 +90,10 @@ export const styles = tw({
     hover:!text-current/100
 
     md:pb-2
+    md:px-4
     md:mb-0
+    md:flex-row
+    md:items-start
     lg:text-[min(4vw,3rem)]
   `,
   serif: `
@@ -96,16 +101,34 @@ export const styles = tw({
   `,
   index: `
     block
-    absolute -top-1 -right-4
-    pt-1
+    relative top-auto right-auto
     text-xs
     font-sans font-light
     italic
     tracking-tight
 
-    md:relative
-    md:top-auto
-    md:right-auto
+    md:pt-1
+  `,
+  info: `
+    relative left-1/2 top-full
+    -translate-x-1/2
+    flex flex-col gap-1
+    w-full
+    font-sans font-light
+    text-xs
+    tracking-normal
+    leading-[1]
+    whitespace-nowrap
+
+    md:hidden
+    md:absolute
+    md:font-medium
+    md:group-hover/link:flex
+  `,
+  when: `
+    text-xtiny
+    tracking-widest
+    font-light font-mono
   `,
   filters: (isInView: boolean) => tw(`
     group/filters
