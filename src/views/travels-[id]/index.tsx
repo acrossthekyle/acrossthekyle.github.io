@@ -1,11 +1,12 @@
 'use client';
 
-import { MoveRight } from 'lucide-react';
+import { MoveLeft, MoveRight } from 'lucide-react';
 import { Fragment, useEffect } from 'react';
 import { InView, useInView } from 'react-intersection-observer';
 
 import type { Collection, Image } from '@/types';
 import { Ui } from '@/ui';
+import { padIndex } from '@/utils';
 
 import { styles } from './stylesheet';
 import { createClasses } from './utils';
@@ -79,15 +80,18 @@ export default function View({ data }: Props) {
           <span>&ndash;</span>
           <span>{data.collection.when.long[1]}</span>
         </p>
-        <p className={styles.where(isInView)}>
-          {data.collection.title.join(' ')}, {data.collection.location.continent}
+        <p className={styles.total(isInView)}>
+          {padIndex(data.images.length)}
+          <span className={styles.small}>photographs</span>
         </p>
-        <MoveRight className={styles.hint} />
+        <span className={styles.hint}>
+          <MoveLeft className={styles.arrow} /> scroll <MoveRight className={styles.arrow} />
+        </span>
         <ul className={styles.items}>
           {data.images.map((image, index) => (
             <InView key={image.id} threshold={0.1} triggerOnce>
               {({ inView, ref }) => (
-                <li className={styles.item(index, inView)} ref={ref}>
+                <li className={styles.item(index, index < 2 ? true : inView)} ref={ref}>
                   <figure className={styles.figure(index)}>
                     <Ui.Image
                       className={styles.image(index)}
@@ -98,9 +102,8 @@ export default function View({ data }: Props) {
                       <h2 className={styles.heading}>
                         <span className={styles.date}>{image.when.long[0]}</span>
                         <span className={styles.location}>{image.title || image.location.region}</span>
-                        <span className={styles.country}>{image.location.country}</span>
-                        <span className={styles.elevation}>
-                          <Ui.Units.Length isSmall value={image.elevation} />
+                        <span className={styles.country}>
+                          {image.location.country} &mdash; <Ui.Units.Length isSmall value={image.elevation} />
                         </span>
                       </h2>
                     </figcaption>

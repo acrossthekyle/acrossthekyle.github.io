@@ -60,11 +60,12 @@ export const styles = tw({
     ${isInView ? `
       motion-safe:top-0
       motion-safe:opacity-100
-      scale-100
+      motion-safe:scale-100
     ` : `
       motion-safe:top-20
       motion-safe:opacity-0
-      scale-110
+
+      motion-safe:md:scale-110
     `}
   `),
   item: `

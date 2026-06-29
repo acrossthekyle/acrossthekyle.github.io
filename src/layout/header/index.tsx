@@ -1,6 +1,6 @@
 'use client';
 
-import { ArrowUpLeft } from 'lucide-react';
+import { ArrowUpLeft, X } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 
@@ -24,7 +24,11 @@ export default function Header() {
           onClick={router.back}
           type="button"
         >
-          <ArrowUpLeft className={styles.icon} />
+          {pathname === '/travels' ? (
+            <ArrowUpLeft className={styles.icon} />
+          ) : (
+            <X className={styles.icon} />
+          )}
         </button>
       )}
     </header>

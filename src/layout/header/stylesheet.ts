@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 export const styles = tw({
   anchor: `
-    absolute top-2 left-2 z-100
+    fixed top-2 left-2 z-100
     flex flex-row items-center gap-4
     p-4
     text-xtiny

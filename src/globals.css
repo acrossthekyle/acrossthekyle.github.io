@@ -37,6 +37,15 @@
   --foreground: #ffffe3;
 }
 
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   button {
     cursor: pointer;
@@ -46,15 +55,6 @@ body {
     height: 100%;
     object-fit: cover;
     width: 100%;
-  }
-
-  .no-scrollbar {
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-  }
-
-  .no-scrollbar::-webkit-scrollbar {
-    display: none;
   }
 
   /* third-party package styling  */
