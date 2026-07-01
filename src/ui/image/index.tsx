@@ -22,7 +22,7 @@ export default function Image({
       height={432}
       key={src}
       placeholder="blur"
-      sizes={size === 'large' ? '80vw' : '50vw'}
+      sizes={size === 'large' ? '80svw' : '50svw'}
       src={src}
       width={768}
     />

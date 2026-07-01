@@ -5,7 +5,7 @@ import { Geist, Playfair_Display } from 'next/font/google';
 import { ThemeProvider } from 'next-themes';
 import { PropsWithChildren, Suspense } from 'react';
 
-import { Body, Footer, Header } from '@/layout';
+import { Body, Footer } from '@/layout';
 
 export const metadata: Metadata = {
   title: {
@@ -38,7 +38,6 @@ export default async function RootLayout({ children }: PropsWithChildren) {
       <Suspense fallback={null}>
         <Body>
           <ThemeProvider>
-            <Header />
             {children}
             <Footer />
           </ThemeProvider>

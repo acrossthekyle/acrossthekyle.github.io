@@ -1,135 +1,172 @@
 'use client';
 
 import Link from 'next/link';
+import { useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 
+import type { Collection } from '@/types';
 import { Ui } from '@/ui';
+import { padIndex } from '@/utils';
 
 import { styles } from './stylesheet';
 
-export default function View() {
+type Props = {
+  data: {
+    collections: Collection[];
+  };
+};
+
+export default function View({ data }: Props) {
+  const [cover, setCover] = useState<{ src: string; thumb: string | null; } | null>(null);
+  const [dimmable, setDimmable] = useState(false);
+  const [filter, setFilter] = useState<string | null>(null);
+
   const [ref, isInView] = useInView({
     threshold: 0,
     triggerOnce: true,
   });
 
+  const handleOnFilter = (value: string) => {
+    setFilter(value === filter ? null : value);
+  };
+
   return (
-    <main className={styles.main} ref={ref}>
-      <h1 className={styles.title(isInView)}>
-        <span className={styles.line}>
-          <span className={styles.animatable}>
-            <span className={styles.heavy}>Hello</span>
-            <span className={styles.thin}>, my</span>
-          </span>
-        </span>
-        <span className={styles.ending}>
-          <span className={styles.animatable}>
-            <span className={styles.thin}>name is </span>
-            <span className={styles.serif}>Kyle</span>
-          </span>
-        </span>
-      </h1>
-
-      <p className={styles.travelling(isInView)}>
-        <span className={styles.line}>
-          <span className={styles.animatable}>
-            <span className={styles.thin}>&mdash; an </span>
-            <span className={styles.heavy}>inspired</span>
-          </span>
-        </span>
-        <span className={styles.line}>
-          <span className={styles.animatable}>
-            <span className={`${styles.serif} ${styles.heavy}`}>backpacking</span>
-          </span>
-        </span>
-        <span className={styles.line}>
-          <span className={styles.animatable}>
-            <span className={styles.thin}>& </span>
-            <Link className={`${styles.link} ${styles.serif}`} href="/travels">
-              travel
-              <span className={styles.view}>( view travels )</span>
-            </Link>
-          </span>
-        </span>
-        <span className={styles.line}>
-          <span className={styles.animatable}>
-            <span className={styles.thin}>enthusiast </span>
-            <span className={styles.thin}>&mdash;</span>
-          </span>
-        </span>
-      </p>
-
-      <p className={styles.living(isInView)}>
-        <span className={styles.line}>
-          <span className={styles.animatable}>
-            <span className={styles.thin}>living</span>
-            <span className={styles.heavy}> a</span>
-          </span>
-        </span>
-        <span className={styles.line}>
-          <span className={styles.animatable}>
-            <span className={styles.heavy}>city</span>
-            <span className={styles.thin}>&ndash;</span>
-            <span className={styles.heavy}>based</span>
-          </span>
-        </span>
-        <span className={styles.line}>
-          <span className={styles.animatable}>
-            <span className={styles.heavy}>life</span>
-            <span className={styles.thin}> in</span>
-          </span>
-        </span>
-        <span className={styles.line}>
-          <span className={styles.animatable}>
-            <span className={`${styles.serif} ${styles.heavy}`}>
-              Chicago
-            </span>
-          </span>
-        </span>
-      </p>
-
-      <p className={styles.working(isInView)}>
-        <span className={styles.line}>
-          <span className={styles.animatable}>
-            <span className={styles.thin}>while </span>
-            <span className={styles.thin}>Crafting</span>
-          </span>
-        </span>
-        <span className={styles.line}>
-          <span className={styles.animatable}>
-            <span className={styles.thin}>digital</span>
-            <span className={styles.heavy}>web</span>
-          </span>
-        </span>
-        <span className={styles.line}>
-          <span className={styles.animatable}>
-            <span className={styles.serif}>experiences.</span>
-          </span>
-        </span>
-      </p>
-
-      <Link
-        className={styles.instagram(isInView)}
-        href="http://instagram.com/acrossthekyle"
-        target="_blank"
-      >
-        Follow my <span className={styles.heavy}>Instagram</span>
-      </Link>
-      <Link
-        className={styles.email(isInView)}
-        href="mailto:hello@acrossthekyle.com"
-      >
-        <span className={styles.heavy}>Send</span> a letter
-      </Link>
-
-      <figure className={styles.figure(isInView)}>
-        <Ui.Image
-          className={styles.image}
-          src="12a81235-f377-4a2c-ba0f-22fb36e8c399.jpeg"
-          thumb="data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAgACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgT/xAAjEAACAgEDBAMBAAAAAAAAAAABAgARUQMhMRITQWEEMmJx/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AK9eAIB3DgQDufmAB/UBdzfgQJWazACTUA0XUqwfjOIASB52gLrwIElchlF8QKahYLu13AzoKWajsD5MBsrLvz7EBFh5swLH469XEDkf7kYgAdl4NQNpqsHu/wCjMDY0y52FLA//2Q=="
-        />
-        <div className={styles.cross} role="presentation" />
-      </figure>
+    <main>
+      <article className={styles.container} ref={ref}>
+        <header className={styles.header}>
+          <h1 className={styles.title(isInView)}>
+            Hi, my name is <span className={styles.emphasis}>Kyle</span> <span className={styles.thin}>&mdash;</span> an inspired <span className={styles.emphasis}>backpacking </span> and <span className={styles.emphasis}>travel </span> enthusiast living a city-based life in <span className={styles.emphasis}>Chicago </span> crafting digital <span className={styles.emphasis}>experiences.</span>
+          </h1>
+          <section className={styles.content}>
+            <p className={styles.paragraph}>
+              Over the last <span>{new Date().getFullYear() - 2018} </span> years I've spent hundreds of days traipsing thousands of miles through forests, over mountain passes/summits, and across entire countries, always seeking the next adventure &mdash; from the heights of the Himalayas in Nepal, to the rainy shores of Scotland, the windswept expanses of Patagonia, and the deserts of Egypt.
+            </p>
+            <ul className={styles.socials}>
+              <li className={styles.outbound}>
+                <span>
+                  Questions? Send me an
+                </span>
+                <Link
+                  className={styles.social}
+                  href="mailto:hello@acrossthekyle.com"
+                >
+                  E-mail
+                </Link>
+              </li>
+              <li className={styles.outbound}>
+                <span>
+                  Latest updates? Follow me on
+                </span>
+                <Link
+                  className={styles.social}
+                  href="https://instagram.com/acrossthekyle?ref=acrossthekyle.com"
+                  target="_blank"
+                >
+                  Instagram
+                </Link>
+              </li>
+            </ul>
+          </section>
+        </header>
+        <section className={styles.travels}>
+          <h2 className={styles.heading}>
+            Travels
+          </h2>
+          <nav aria-label="filters">
+            <ul className={styles.filters}>
+              <li>
+                <button
+                  className={styles.filter}
+                  data-active={filter === null ? 'yes' : undefined}
+                  onClick={() => setFilter(null)}
+                  type="button"
+                >
+                  [{filter === null ? 'x' : ' '}] All
+                </button>
+              </li>
+              <li>
+                <button
+                  className={styles.filter}
+                  data-active={filter === 'destination' ? 'yes' : undefined}
+                  onClick={() => handleOnFilter('destination')}
+                  type="button"
+                >
+                  [{filter === 'destination' ? 'x' : ' '}] Destinations
+                </button>
+              </li>
+              <li>
+                <button
+                  className={styles.filter}
+                  data-active={filter === 'backpacking' ? 'yes' : undefined}
+                  onClick={() => handleOnFilter('backpacking')}
+                  type="button"
+                >
+                  [{filter === 'backpacking' ? 'x' : ' '}] Backpacking
+                </button>
+              </li>
+              <li>
+                <button
+                  className={styles.filter}
+                  data-active={filter === 'summits' ? 'yes' : undefined}
+                  onClick={() => handleOnFilter('summits')}
+                  type="button"
+                >
+                  [{filter === 'summits' ? 'x' : ' '}] Summits
+                </button>
+              </li>
+            </ul>
+          </nav>
+          {cover !== null && (
+            <figure className={styles.figure}>
+              <Ui.Image
+                className={styles.image}
+                src={cover.src}
+                thumb={cover.thumb || ''}
+              />
+            </figure>
+          )}
+          <ul className={styles.items(isInView)}>
+            {data.collections.map((collection, index) => (
+              <li
+                className={styles.item}
+                onMouseEnter={() => setDimmable(true)}
+                onMouseLeave={() => setDimmable(false)}
+                key={collection.id}
+              >
+                <Link
+                  className={`${styles.link} ${index % 2 === 0 ? styles.serif : ''}`}
+                  data-dimmed={dimmable}
+                  data-filtered={filter !== null ? collection.category.toLowerCase() === filter ? 'yes' : 'no' : 'none'}
+                  href={`/travels/${collection.id}`}
+                  onMouseEnter={() => setCover(collection.cover)}
+                  onMouseLeave={() => setCover(null)}
+                >
+                  {collection.title.join(' ')}
+                  <span className={styles.count}>
+                    ( {padIndex(collection.count)} )
+                  </span>
+                  <span className={styles.info}>
+                    <span>
+                      {collection.location.region}, {collection.location.country}
+                    </span>
+                    <span className={styles.when}>
+                      {collection.when.long[0]} &mdash; {collection.when.long[1]}
+                    </span>
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+        <p className={styles.paragraph}>
+          Between travels I get lost in anything that engages critical thinking while moonlighting as a Web Developer with an endless thrill for coding, even after a <Link
+              href="https://linkedin.com/in/acrossthekyle?ref=acrossthekyle.com"
+              target="_blank"
+            >
+              <u>career</u>
+            </Link> of {new Date().getFullYear() - 2011} years.
+        </p>
+      </article>
     </main>
   );
 }

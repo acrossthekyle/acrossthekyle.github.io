@@ -41,6 +41,7 @@ export type Collection = {
   }[]>;
   id: string;
   location: Location;
+  notes: string[];
   title: string[];
   when: {
     long: string[];

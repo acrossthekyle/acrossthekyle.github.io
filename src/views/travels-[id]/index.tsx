@@ -1,15 +1,15 @@
 'use client';
 
-import { MoveLeft, MoveRight } from 'lucide-react';
-import { Fragment, useEffect } from 'react';
-import { InView, useInView } from 'react-intersection-observer';
+import { ArrowDown, ArrowUp } from 'lucide-react';
+import { WheelEvent, useEffect, useRef, useState } from 'react';
+import { InView } from 'react-intersection-observer';
 
 import type { Collection, Image } from '@/types';
 import { Ui } from '@/ui';
 import { padIndex } from '@/utils';
 
+import { SIZES } from './constants';
 import { styles } from './stylesheet';
-import { createClasses } from './utils';
 
 type Props = {
   data: {
@@ -19,102 +19,145 @@ type Props = {
 };
 
 export default function View({ data }: Props) {
-  const [mainRef, isInView] = useInView({
-    threshold: 0,
-    triggerOnce: true,
-  });
+  const [activeId, setActiveId] = useState<string | null>(null);
+  const [showMore, setShowMore] = useState(false);
+  const [viewportHeight, setViewportHeight] = useState(0);
+
+  const sectionRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const handleWindowWheel = (event: WheelEvent) => {
-      if (window.innerWidth <= 768) {
-        return;
-      }
+    if (typeof window === 'undefined') {
+      return;
+    }
 
-      if (event.deltaY === 0) {
-        return;
-      }
-
-      event.preventDefault();
-
-      window.scrollBy({
-        left: event.deltaY,
-        behavior: 'auto',
-      });
+    const handleResize = () => {
+      setViewportHeight(window.innerHeight);
     };
 
-    window.addEventListener('wheel', handleWindowWheel, { passive: false });
+    handleResize();
 
-    return () => {
-      window.removeEventListener('wheel', handleWindowWheel);
-    };
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  const handleOnWheel = (event: WheelEvent<HTMLFormElement>) => {
+    const container = sectionRef.current;
+
+    if (window.innerWidth <= 640) {
+      return;
+    }
+
+    if (!container || showMore) {
+      return;
+    }
+
+    if (event.deltaY !== 0) {
+      event.preventDefault();
+
+      container.scrollLeft += event.deltaY;
+    }
+  };
+
+  const handleOnZoom = (id: string) => {
+    if (showMore) {
+      setShowMore(false);
+
+      return;
+    }
+
+    setActiveId(activeId !== null ? null : id);
+  };
+
+  const handleOnMore = () => {
+    setShowMore((previous) => !previous);
+  };
+
   return (
-    <main ref={mainRef}>
-      <article className={styles.container}>
-        <header className={styles.header}>
-          <h1 className={styles.title(isInView)}>
-            {data.collection.header.map((line, index) => (
-              <span className={styles.line} key={index}>
-                {line.map((chunk, key) => (
-                  <Fragment key={`${index}-${key}`}>
-                    {chunk.type === 'spacer' && (
-                      <span className={styles.spacer} />
-                    )}
-                    {chunk.type === 'nbsp' && (
-                      <>&nbsp;</>
-                    )}
-                    {chunk.type === 'text' && (
-                      <span className={createClasses(styles, chunk.classes)}>
-                        {chunk.words}
-                      </span>
-                    )}
-                  </Fragment>
-                ))}
-              </span>
-            ))}
-          </h1>
-        </header>
-        <p className={styles.when(isInView)}>
-          <span>{data.collection.when.long[0]}</span>
-          <span>&ndash;</span>
-          <span>{data.collection.when.long[1]}</span>
-        </p>
-        <p className={styles.total(isInView)}>
-          {padIndex(data.images.length)}
-          <span className={styles.small}>photographs</span>
-        </p>
-        <span className={styles.hint}>
-          <MoveLeft className={styles.arrow} /> scroll <MoveRight className={styles.arrow} />
-        </span>
-        <ul className={styles.items}>
-          {data.images.map((image, index) => (
-            <InView key={image.id} threshold={0.1} triggerOnce>
-              {({ inView, ref }) => (
-                <li className={styles.item(index, index < 2 ? true : inView)} ref={ref}>
-                  <figure className={styles.figure(index)}>
-                    <Ui.Image
-                      className={styles.image(index)}
-                      src={image.src}
-                      thumb={image.thumb}
-                    />
-                    <figcaption className={styles.caption(index)}>
-                      <h2 className={styles.heading}>
-                        <span className={styles.date}>{image.when.long[0]}</span>
-                        <span className={styles.location}>{image.title || image.location.region}</span>
-                        <span className={styles.country}>
-                          {image.location.country} &mdash; <Ui.Units.Length isSmall value={image.elevation} />
-                        </span>
-                      </h2>
-                    </figcaption>
-                  </figure>
-                </li>
-              )}
-            </InView>
+    <main className={styles.container}>
+      <section className={styles.info(showMore)}>
+        <h2 className={styles.heading}>
+          <span className={styles.title}>{data.collection.title.join(' ')}</span>
+          <span className={styles.category}>{data.collection.category}</span>
+        </h2>
+        <div className={styles.inner}>
+          {data.collection.notes.map((paragraph) => (
+            <p className={styles.paragraph} key={paragraph}>
+              {paragraph}
+            </p>
           ))}
-          <li className={styles.buffer} role="presentation" />
+          <p className={styles.paragraph}>
+            {data.collection.when.long[0]} to {data.collection.when.long[1]}<br />
+            {data.collection.location.region} &mdash; {data.collection.location.country}<br />
+            {data.collection.location.continent}
+          </p>
+        </div>
+        <button
+          className={styles.more}
+          onClick={handleOnMore}
+          type="button"
+        >
+          {!showMore && <ArrowDown className={styles.arrow} />}
+          {showMore && <ArrowUp className={styles.arrow} />}
+          <span>
+            {showMore ? 'Close' : 'More'} information
+          </span>
+        </button>
+      </section>
+      <section
+        className={styles.carousel(showMore)}
+        onWheel={handleOnWheel}
+        ref={sectionRef}
+      >
+        <ul className={styles.items}>
+          {data.images.map((image, index) => {
+            const isActive = activeId === image.id;
+            const size = SIZES[index % SIZES.length];
+
+            return (
+              <li key={image.id}>
+                <InView key={image.id} threshold={0.1} triggerOnce>
+                  {({ inView, ref }) => (
+                    <figure
+                      className={`${styles.figure(inView)} ${size.defaultWidth}`}
+                      ref={ref}
+                      style={{
+                        aspectRatio: size.ratio,
+                        width: isActive ? `${(viewportHeight + 10) * size.ratio}px` : undefined,
+                      }}
+                    >
+                      <button
+                        className={styles.toggle}
+                        onClick={() => handleOnZoom(image.id)}
+                        type="button"
+                      >
+                        <Ui.Image
+                          src={image.src}
+                          thumb={image.thumb}
+                        />
+                      </button>
+                      <figcaption className={styles.caption}>
+                        <span className={styles.index}>
+                          {padIndex(index + 1)} / {padIndex(data.images.length)}
+                        </span>
+                        <span className={styles.country}>
+                          {image.location.country}
+                        </span>
+                        <span className={styles.location}>
+                          {image.title || image.location.region}
+                        </span>
+                        <span className={styles.elevation}>
+                          <Ui.Units.Length isSmall value={image.elevation} />
+                        </span>
+                      </figcaption>
+                    </figure>
+                  )}
+                </InView>
+              </li>
+            );
+          })}
         </ul>
-      </article>
+      </section>
     </main>
   );
 }
