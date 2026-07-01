@@ -140,14 +140,11 @@ export default function View({ data }: Props) {
                         <span className={styles.index}>
                           {padIndex(index + 1)} / {padIndex(data.images.length)}
                         </span>
-                        <span className={styles.country}>
-                          {image.location.country}
-                        </span>
                         <span className={styles.location}>
                           {image.title || image.location.region}
                         </span>
-                        <span className={styles.elevation}>
-                          <Ui.Units.Length isSmall value={image.elevation} />
+                        <span className={styles.when}>
+                          {image.when.short[0]}
                         </span>
                       </figcaption>
                     </figure>

@@ -29,10 +29,11 @@ export const styles = tw({
   `,
   figure: (isInView: boolean) => tw(`
     relative
-    duration-700
-    ease-in-out
 
-    ${isInView ? 'opacity-100 right-0' : 'opacity-0 -right-20'}
+    motion-safe:duration-700
+    motion-safe:ease-in-out
+
+    ${isInView ? 'motion-safe:opacity-100' : 'motion-safe:opacity-0'}
   `),
   toggle: `
     w-full h-full
@@ -42,32 +43,26 @@ export const styles = tw({
   `,
   caption: `
     absolute bottom-4 right-4
-    flex flex-col gap-0
+    flex flex-col gap-1
     w-full
     text-right
     leading-[0.85]
-    text-xs
     uppercase
   `,
   index: `
-    absolute bottom-0 left-7
-    mb-0.5
+    absolute bottom-0 left-8
     font-mono
     text-xtiny
   `,
   location: `
-    font-medium
-  `,
-  country: `
-    mb-0.75
-    font-serif
-    italic
-    text-xtiny
-  `,
-  elevation: `
-    mt-1
-    font-mono font-light
     text-tiny
+    font-normal
+    tracking-widest
+  `,
+  when: `
+    font-mono
+    text-xtiny
+    tracking-widest
   `,
   info: (canReveal: boolean) => tw(`
     fixed bottom-0 left-0 z-100

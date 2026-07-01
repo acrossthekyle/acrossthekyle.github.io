@@ -37,41 +37,18 @@ export default function View({ data }: Props) {
           <h1 className={styles.title(isInView)}>
             Hi, my name is <span className={styles.emphasis}>Kyle</span> <span className={styles.thin}>&mdash;</span> an inspired <span className={styles.emphasis}>backpacking </span> and <span className={styles.emphasis}>travel </span> enthusiast living a city-based life in <span className={styles.emphasis}>Chicago </span> crafting digital <span className={styles.emphasis}>experiences.</span>
           </h1>
-          <section className={styles.content}>
-            <p className={styles.paragraph}>
-              Over the last <span>{new Date().getFullYear() - 2018} </span> years I've spent hundreds of days traipsing thousands of miles through forests, over mountain passes/summits, and across entire countries, always seeking the next adventure &mdash; from the heights of the Himalayas in Nepal, to the rainy shores of Scotland, the windswept expanses of Patagonia, and the deserts of Egypt.
-            </p>
-            <ul className={styles.socials}>
-              <li className={styles.outbound}>
-                <span>
-                  Questions? Send me an
-                </span>
-                <Link
-                  className={styles.social}
-                  href="mailto:hello@acrossthekyle.com"
-                >
-                  E-mail
-                </Link>
-              </li>
-              <li className={styles.outbound}>
-                <span>
-                  Latest updates? Follow me on
-                </span>
-                <Link
-                  className={styles.social}
-                  href="https://instagram.com/acrossthekyle?ref=acrossthekyle.com"
-                  target="_blank"
-                >
-                  Instagram
-                </Link>
-              </li>
-            </ul>
-          </section>
+          <p className={styles.paragraph}>
+            From the heights of the Himalayas in Nepal to the windswept expanses of Patagonia I'm always seeking the next adventure &mdash; even after hundreds of days  and thousands of miles  spent traversing forests, mountains, and entire countries. I'm also an accomplished <span className={styles.emphasis}>Web Developer</span> with an endless thrill for writing code.
+          </p>
         </header>
         <section className={styles.travels}>
           <h2 className={styles.heading}>
-            Travels
+            <span>Selected</span>
+            <span>travels</span>
           </h2>
+          <p className={`${styles.paragraph} ${styles.small}`}>
+            '18 &mdash;&mdash;&mdash;&mdash;&mdash;&mdash; '{String(new Date().getFullYear()).replace('20', '')}
+          </p>
           <nav aria-label="filters">
             <ul className={styles.filters}>
               <li>
@@ -158,14 +135,36 @@ export default function View({ data }: Props) {
             ))}
           </ul>
         </section>
-        <p className={styles.paragraph}>
-          Between travels I get lost in anything that engages critical thinking while moonlighting as a Web Developer with an endless thrill for coding, even after a <Link
-              href="https://linkedin.com/in/acrossthekyle?ref=acrossthekyle.com"
-              target="_blank"
-            >
-              <u>career</u>
-            </Link> of {new Date().getFullYear() - 2011} years.
-        </p>
+        <footer className={styles.footer}>
+          <ul className={styles.socials}>
+            <li>
+              <Link
+                className={styles.social}
+                href="mailto:hello@acrossthekyle.com"
+              >
+                E-mail
+              </Link>
+            </li>
+            <li>
+              <Link
+                className={styles.social}
+                href="https://instagram.com/acrossthekyle?ref=acrossthekyle.com"
+                target="_blank"
+              >
+                IG
+              </Link>
+            </li>
+            <li>
+              <Link
+                className={styles.social}
+                href="https://linkedin.com/in/acrossthekyle?ref=acrossthekyle.com"
+                target="_blank"
+              >
+                Li
+              </Link>
+            </li>
+          </ul>
+        </footer>
       </article>
     </main>
   );
