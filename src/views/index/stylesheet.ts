@@ -20,7 +20,7 @@ export const styles = tw({
     mx-auto
     font-black
     uppercase
-    leading-[1.25]
+    leading-[1]
     text-[min(8vw,4rem)]
 
     md:block
@@ -52,7 +52,7 @@ export const styles = tw({
     sm:top-auto
   `,
   paragraph: `
-    w-full max-w-3xl
+    w-full max-w-xl
     text-base
     font-normal
     leading-[1.75]

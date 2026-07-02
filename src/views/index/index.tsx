@@ -38,7 +38,7 @@ export default function View({ data }: Props) {
             Hi, my name is <span className={styles.emphasis}>Kyle</span> <span className={styles.thin}>&mdash;</span> an inspired <span className={styles.emphasis}>backpacking </span> and <span className={styles.emphasis}>travel </span> enthusiast living a city-based life in <span className={styles.emphasis}>Chicago </span> crafting digital <span className={styles.emphasis}>experiences.</span>
           </h1>
           <p className={styles.paragraph}>
-            From the heights of the Himalayas in Nepal to the windswept expanses of Patagonia I'm always seeking the next adventure &mdash; even after hundreds of days  and thousands of miles  spent traversing forests, mountains, and entire countries. I'm also an accomplished <span className={styles.emphasis}>Web Developer</span> with an endless thrill for writing code.
+            From the heights of the Himalayas in Nepal to the windswept expanses of Patagonia I'm always seeking the next adventure &mdash; even after hundreds of days  and thousands of miles  spent traversing forests, mountains, and entire countries.
           </p>
         </header>
         <section className={styles.travels}>
