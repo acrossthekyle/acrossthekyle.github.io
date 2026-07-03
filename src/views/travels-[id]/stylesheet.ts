@@ -1,113 +1,330 @@
 import tw from '@/styles';
 
+const OUTER = [
+  // 2
+  [
+    `
+      w-10/12
+
+      md:w-8/12
+      md:pr-12
+    `,
+    `
+      w-8/12
+      mx-auto
+      pt-12
+
+      md:w-4/12
+      md:mx-0
+      md:pt-48
+      lg:pt-64
+    `,
+  ],
+  // 1
+  [
+    `w-full
+    mx-auto
+
+    md:w-9/12
+  `,
+  ],
+  // 2
+  [
+    `
+      w-full
+
+      md:w-4/12
+      md:mx-0
+      md:pr-16
+    `,
+    `
+      w-10/12
+      pt-12
+
+      md:w-8/12
+      md:pt-16
+    `,
+  ],
+  // 1
+  [
+    `
+      w-full
+      mx-auto
+
+      md:w-9/12
+    `,
+  ],
+  // 1
+  [
+    `
+      w-full
+      mx-auto
+      px-4
+
+      md:w-5/12
+      md:px-6
+    `,
+  ],
+];
+
+const FIGURE = [
+  // 2
+  [
+    `
+    `,
+    `
+      text-right
+
+      md:pt-32
+    `,
+  ],
+  // 1
+  [
+    `
+      pt-8
+      text-right
+    `,
+  ],
+  // 2
+  [
+    `
+    `,
+    `
+      text-right
+
+      md:pt-32
+    `,
+  ],
+  // 1
+  [
+    `
+      pt-8
+      text-right
+    `,
+  ],
+  // 1
+  [
+    `
+      pt-8
+    `,
+  ],
+];
+
+const IMAGE = [
+  // 2
+  [
+    `
+      aspect-16/10
+    `,
+    `
+      aspect-12/16
+    `,
+  ],
+  // 1
+  [
+    `
+      aspect-16/11
+    `,
+  ],
+  // 2
+  [
+    `
+      aspect-12/16
+    `,
+    `
+      aspect-16/10
+    `,
+  ],
+  // 1
+  [
+    `
+      aspect-16/11
+    `,
+  ],
+  // 1
+  [
+    `
+      aspect-12/16
+    `,
+  ],
+];
+
 export const styles = tw({
   container: `
-    flex justify-center
-
-    sm:fixed
-    sm:inset-0
+    flex flex-col gap-6
+    overflow-x-clip
   `,
-  carousel: (shouldPush: boolean) => tw(`
-    flex
-    w-svw h-auto
-    overflow-y-scroll overflow-x-hidden
 
-    duration-700
-    ease-in-out
-    ${shouldPush ? 'opacity-10 sm:-translate-y-1/2' : ''}
 
-    sm:overflow-y-hidden
-    sm:overflow-x-scroll
-  `),
-  items: `
-    flex flex-col shrink-0 items-end gap-0
-    w-full
 
-    sm:flex-row
-    sm:items-center
-    sm:w-auto
-  `,
-  figure: (isInView: boolean) => tw(`
+
+
+
+
+
+
+  header: `
     relative
+    h-auto w-svw
 
-    motion-safe:duration-700
-    motion-safe:ease-in-out
+    md:h-svh
+    md:mb-12
+  `,
 
-    ${isInView ? 'motion-safe:opacity-100' : 'motion-safe:opacity-0'}
-  `),
-  toggle: `
-    w-full h-full
-    pointer-events-none
-
-    sm:pointer-events-auto
-  `,
-  caption: `
-    absolute bottom-4 right-4
-    flex flex-col gap-1
-    w-full
-    text-right
-    leading-[0.85]
-    uppercase
-  `,
-  index: `
-    absolute bottom-0 left-8
-    font-mono
-    text-xtiny
-  `,
-  location: `
-    text-tiny
-    font-normal
-    tracking-widest
-  `,
-  when: `
-    font-mono
-    text-xtiny
-    tracking-widest
-  `,
-  info: (canReveal: boolean) => tw(`
-    fixed bottom-0 left-0 z-100
-    flex flex-col justify-end
-    p-4
-    ease-in-out
-    overflow-hidden
-    ${canReveal ? 'h-[100svh] duration-700' : 'h-26 duration-500'}
-  `),
-  heading: `
-    flex flex-col
-    text-base
-
-    sm:text-xs
-  `,
   title: `
+    absolute top-6 left-6 z-100
+    flex flex-col
+    leading-[0.8]
+    uppercase
+    text-[min(6vw,2.25rem)] text-(--background) dark:text-(--foreground)
+    font-black
+    whitespace-nowrap
+
+    md:text-(--foreground)
+    md:dark:text-(--foreground)
+  `,
+  line: `
+    origin-left
+    scale-x-[0.75]
+    tracking-tight
+  `,
+
+  phrase: `
+    absolute top-1/2 right-5
+    -translate-y-1/2
+    flex flex-col items-end
+    font-black
+    text-[min(5.5vw,5rem)] text-(--background) dark:text-(--foreground)
+    uppercase
+    leading-[0.85]
+
+    md:text-(--foreground)
+    md:dark:text-(--foreground)
+  `,
+  row: `
+    flex gap-2
+    whitespace-nowrap
+
+    md:gap-6
+  `,
+
+  notes: `
+    flex flex-col gap-4
+    w-full
+    px-6
+    mt-6
+
+    md:absolute
+    md:bottom-6
+    md:left-0
+  `,
+  note: `
+    w-full
+    text-sm
+    leading-[1.75]
+
+    first:first-letter:float-left
+    first:first-letter:mr-1
+    first:first-letter:ml-6
+    first:first-letter:leading-[1]
+    first:first-letter:text-[3rem]
+    first:first-letter:font-black
+
+    sm:max-w-80
+    md:text-xs
+    md:first:first-letter:text-[2.6rem]
+  `,
+
+  info: `
+    absolute top-34 right-6
+    flex flex-col gap-2
+    text-right text-tiny text-(--background) dark:text-(--foreground)
+    uppercase
+    leading-[0.8]
+    tracking-wide
+
+    md:text-(--foreground)
+    md:dark:text-(--foreground)
+  `,
+
+  cover: `
+    relative left-1/2 -z-1
+     -translate-x-1/2
+    aspect-square
+    w-full h-[74svh]
+    opacity-80
+    sepia-10
+    duration-300
+
+    md:w-[74svh]
+    md:opacity-75
+    md:absolute
+    md:top-1/2
+    md:-translate-y-1/2
+  `,
+
+  back: `
+    absolute top-4 right-6
     uppercase
     font-black
+    origin-right scale-x-[0.8]
+    text-base text-(--background) dark:text-(--foreground)
+
+    md:text-(--foreground)
+    md:dark:text-(--foreground)
   `,
-  category: `
-    font-serif
-    italic
+
+
+
+
+
+
+
+
+  gallery: `
+    relative
+    flex flex-col gap-10
+    py-6
   `,
-  inner: `
+  chunk: `
+    flex flex-wrap
     w-full
+    px-6
+
+    md:px-24
+  `,
+  outer: (index: number, key: number, isInView: boolean) => tw(`
+    relative
+    duration-500
+    ${isInView ? 'scale-100 top-0 opacity-100' : 'scale-95 top-10 opacity-0'}
+
+    ${OUTER[index % OUTER.length][key]}
+  `),
+  figure: (index: number, key: number) => tw(`
+    ${FIGURE[index % FIGURE.length][key]}
+  `),
+  inner: `
+    block
     overflow-hidden
   `,
-  paragraph: `
-    w-full max-w-80
-    my-4
-    text-base
-
-    last:mb-0
-
-    sm:text-xs
-  `,
-  more: `
-    flex items-center gap-2
-    p-4 pl-0 pb-0
+  image: (index: number, key: number) => tw(`
+    sepia-10
+    ${IMAGE[index % IMAGE.length][key]}
+  `),
+  caption: `
+    flex flex-col gap-0.5
+    mt-4
     text-xs
-    uppercase
-
-    sm:text-tiny
   `,
-  arrow: `
-    w-3 h-3
+  eyebrow: `
+    text-xtiny
+    uppercase
+    tracking-widest
+  `,
+  label: `
+    font-medium
+  `,
+  lid: `
+    text-current/60
   `,
 });

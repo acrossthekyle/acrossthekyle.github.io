@@ -34,11 +34,11 @@ export const styles = tw({
     ${isInView ? `
       motion-safe:top-0
       motion-safe:opacity-100
-      scale-100
+      motion-safe:scale-100
     ` : `
       motion-safe:-top-20
       motion-safe:opacity-0
-      scale-110
+      motion-safe:scale-110
     `}
   `),
   thin: `
@@ -127,7 +127,9 @@ export const styles = tw({
     group/filters
     flex flex-col items-start justify-between gap-0
     mb-8 mt-2
+    w-full max-w-88
 
+    md:mx-auto
     md:flex-row
     md:items-center
     md:justify-center
@@ -158,12 +160,12 @@ export const styles = tw({
     fixed top-1/2 left-1/2 z-1
     -translate-y-1/2 -translate-x-1/2
     aspect-square
-    w-[44svw]
+    w-[74svh]
 
     md:block
   `,
   image: `
-    opacity-80
+    opacity-75
     sepia-10
   `,
   items: (isInView: boolean) => tw(`
@@ -193,12 +195,17 @@ export const styles = tw({
       motion-safe:md:scale-110
     `}
   `),
-  item: `
+  item: (isAnyItemHovered: boolean, matchesFilter: boolean, isCurrentHovered: boolean) => tw(`
     inline-block
     w-full
 
+    ${matchesFilter ? 'pointer-events-auto' : 'pointer-events-none'}
+
+    ${!isAnyItemHovered && (matchesFilter ? 'opacity-100' : 'opacity-20')}
+    ${isAnyItemHovered && (isCurrentHovered ? 'opacity-100' : matchesFilter ? 'opacity-20' : 'opacity-5')}
+
     md:w-auto
-  `,
+  `),
   link: `
     group/link
     relative
@@ -209,14 +216,6 @@ export const styles = tw({
     text-[min(6.5vw,1.5rem)]
     tracking-tighter
     uppercase
-
-    data-[filtered=yes]:text-current/100
-    data-[dimmed=false]:text-current/100
-    data-[dimmed=true]:text-current/15
-    data-[filtered=no]:text-current/15
-    data-[filtered=no]:pointer-events-none
-
-    hover:!text-current/100
 
     md:items-center
     md:pb-2

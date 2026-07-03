@@ -30,7 +30,7 @@ function getWhen(date: null | string | string[]) {
         `${formatDate(parsed, 'MMMM').trim()} 20${formatDate(parsed, 'yy').trim()}`,
       ],
       short: [
-        `${formatDate(parsed, 'MM').trim()}.${formatDate(parsed, 'dd').trim()}.${formatDate(parsed, 'yy').trim()}`,
+        `${formatDate(parsed, 'MM').trim()}/${formatDate(parsed, 'dd').trim()}/${formatDate(parsed, 'yy').trim()}`,
       ],
     };
   }
@@ -55,8 +55,8 @@ function getWhen(date: null | string | string[]) {
     const longMonthB = formatDate(end, 'MMMM').trim();
 
     const short = [
-      `${monthA}.${dayA}.${yearA}`,
-      `${monthB}.${dayB}.${yearB}`,
+      `${monthA}/${dayA}/${yearA}`,
+      `${monthB}/${dayB}/${yearB}`,
     ];
 
     let long = [];

@@ -114,9 +114,7 @@
       },
       {
         "type": "spacer"
-      }
-    ],
-    [
+      },
       {
         "type": "text",
         "classes": ["thin"],
@@ -126,7 +124,9 @@
         "type": "text",
         "classes": ["heavy", "serif"],
         "words": "france,"
-      },
+      }
+    ],
+    [
       {
         "type": "text",
         "classes": ["heavy", "serif"],
@@ -139,9 +139,7 @@
       },
       {
         "type": "spacer"
-      }
-    ],
-    [
+      },
       {
         "type": "spacer"
       },
@@ -149,7 +147,9 @@
         "type": "text",
         "classes": ["heavy", "serif"],
         "words": "switzerland"
-      },
+      }
+    ],
+    [
       {
         "type": "spacer"
       },

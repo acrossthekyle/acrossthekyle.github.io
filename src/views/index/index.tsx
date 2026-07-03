@@ -18,8 +18,8 @@ type Props = {
 
 export default function View({ data }: Props) {
   const [cover, setCover] = useState<{ src: string; thumb: string | null; } | null>(null);
-  const [dimmable, setDimmable] = useState(false);
-  const [filter, setFilter] = useState<string | null>(null);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+  const [filter, setFilter] = useState<string>('all');
 
   const [ref, isInView] = useInView({
     threshold: 0,
@@ -27,8 +27,10 @@ export default function View({ data }: Props) {
   });
 
   const handleOnFilter = (value: string) => {
-    setFilter(value === filter ? null : value);
+    setFilter(value === filter ? 'all' : value);
   };
+
+  const isAnyItemHovered = hoveredIndex !== null;
 
   return (
     <main>
@@ -56,11 +58,11 @@ export default function View({ data }: Props) {
               <li>
                 <button
                   className={styles.filter}
-                  data-active={filter === null ? 'yes' : undefined}
-                  onClick={() => setFilter(null)}
+                  data-active={filter === 'all' ? 'yes' : undefined}
+                  onClick={() => setFilter('all')}
                   type="button"
                 >
-                  [{filter === null ? 'x' : ' '}] All
+                  [{filter === 'all' ? 'x' : ' '}] All
                 </button>
               </li>
               <li>
@@ -105,36 +107,39 @@ export default function View({ data }: Props) {
             </figure>
           )}
           <ul className={styles.items(isInView)}>
-            {data.collections.map((collection, index) => (
-              <li
-                className={styles.item}
-                onMouseEnter={() => setDimmable(true)}
-                onMouseLeave={() => setDimmable(false)}
-                key={collection.id}
-              >
-                <Link
-                  className={`${styles.link} ${index % 2 === 0 ? styles.serif : ''}`}
-                  data-dimmed={dimmable}
-                  data-filtered={filter !== null ? collection.category.toLowerCase() === filter ? 'yes' : 'no' : 'none'}
-                  href={`/travels/${collection.id}`}
-                  onMouseEnter={() => setCover(collection.cover)}
-                  onMouseLeave={() => setCover(null)}
+            {data.collections.map((collection, index) => {
+              const matchesFilter = filter === 'all' || collection.category.toLowerCase() === filter;
+              const isCurrentHovered = hoveredIndex === index;
+
+              return (
+                <li
+                  className={styles.item(isAnyItemHovered, matchesFilter, isCurrentHovered)}
+                  onMouseEnter={() => setHoveredIndex(index)}
+                  onMouseLeave={() => setHoveredIndex(null)}
+                  key={collection.id}
                 >
-                  {collection.title.join(' ')}
-                  <span className={styles.count}>
-                    ( ph. {padIndex(collection.count)} )
-                  </span>
-                  <span className={styles.info}>
-                    <span>
-                      {collection.location.region}, {collection.location.country}
+                  <Link
+                    className={`${styles.link} ${index % 2 === 0 ? styles.serif : ''}`}
+                    href={`/travels/${collection.id}`}
+                    onMouseEnter={() => setCover(collection.cover)}
+                    onMouseLeave={() => setCover(null)}
+                  >
+                    {collection.title.join(' ')}
+                    <span className={styles.count}>
+                      ( ph. {padIndex(collection.count)} )
                     </span>
-                    <span className={styles.when}>
-                      {collection.when.long[0]} &mdash; {collection.when.long[1]}
+                    <span className={styles.info}>
+                      <span>
+                        {collection.location.region}, {collection.location.country}
+                      </span>
+                      <span className={styles.when}>
+                        {collection.when.long[0]} &mdash; {collection.when.long[1]}
+                      </span>
                     </span>
-                  </span>
-                </Link>
-              </li>
-            ))}
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
         </section>
         <footer className={styles.footer}>
