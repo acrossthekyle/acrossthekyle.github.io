@@ -65,11 +65,18 @@ export const styles = tw({
     motion-safe:opacity-0
     motion-safe:animate-fade-in-slightly-delayed
   `,
-  small: `
-    !text-tiny
+  years: `
+    flex items-center gap-4
+    text-tiny
     font-mono font-light
     uppercase
     tracking-widest
+
+    md:justify-center
+  `,
+  bar: `
+    h-px w-10
+    bg-(--foreground)/50
   `,
   footer: `
     xl:absolute
@@ -188,6 +195,9 @@ export const styles = tw({
   `),
   item: `
     inline-block
+    w-full
+
+    md:w-auto
   `,
   link: `
     group/link
@@ -221,11 +231,16 @@ export const styles = tw({
     font-serif font-normal
   `,
   count: `
+    absolute right-0
     block
     text-xs
     font-sans font-light
     italic
     tracking-tight
+    whitespace-nowrap
+
+    md:relative
+    md:right-auto
   `,
   info: `
     relative left-1/2 top-full

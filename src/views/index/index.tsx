@@ -38,7 +38,7 @@ export default function View({ data }: Props) {
             Hi, my name is <span className={styles.emphasis}>Kyle</span> <span className={styles.thin}>&mdash;</span> an inspired <span className={styles.emphasis}>backpacking </span> and <span className={styles.emphasis}>travel </span> enthusiast living a city-based life in <span className={styles.emphasis}>Chicago </span> crafting digital <span className={styles.emphasis}>experiences.</span>
           </h1>
           <p className={styles.paragraph}>
-            From the heights of the Himalayas in Nepal to the windswept expanses of Patagonia I'm always seeking the next adventure &mdash; even after hundreds of days  and thousands of miles  spent traversing forests, mountains, and entire countries.
+            From the heights of the Himalayas in Nepal to the windswept expanses of Patagonia I'm always seeking the next adventure &mdash; even after hundreds of days and thousands of miles spent walking through forests, over mountains, and across entire countries.
           </p>
         </header>
         <section className={styles.travels}>
@@ -46,8 +46,10 @@ export default function View({ data }: Props) {
             <span>Selected</span>
             <span>travels</span>
           </h2>
-          <p className={`${styles.paragraph} ${styles.small}`}>
-            '18 &mdash;&mdash;&mdash;&mdash;&mdash;&mdash; '{String(new Date().getFullYear()).replace('20', '')}
+          <p className={styles.years}>
+            <span>'18</span>
+            <span className={styles.bar} />
+            <span>'{String(new Date().getFullYear()).replace('20', '')}</span>
           </p>
           <nav aria-label="filters">
             <ul className={styles.filters}>
@@ -120,7 +122,7 @@ export default function View({ data }: Props) {
                 >
                   {collection.title.join(' ')}
                   <span className={styles.count}>
-                    ( {padIndex(collection.count)} )
+                    ( ph. {padIndex(collection.count)} )
                   </span>
                   <span className={styles.info}>
                     <span>
