@@ -26,14 +26,16 @@ export type Image = {
   };
 };
 
+export type Cover = {
+  src: string;
+  thumb: string | null;
+};
+
 export type Collection = {
   category: string;
   coordinates: string;
   count: number;
-  cover: {
-    src: string;
-    thumb: string | null;
-  };
+  cover: Cover;
   header: Array<{
     classes?: string[];
     type: string;

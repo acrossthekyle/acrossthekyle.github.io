@@ -1,7 +1,7 @@
 import collections from '@/cache/collections';
 import images from '@/cache/images';
 
-function chunkByPattern(input) {
+function chunk(input) {
   const pattern = [2, 1, 2, 1, 1];
   const result = [];
   let index = 0;
@@ -34,7 +34,7 @@ export async function get(id) {
   }
 
   return {
-    images: chunkByPattern(filtered),
+    images: chunk(filtered),
     collection,
   };
 };

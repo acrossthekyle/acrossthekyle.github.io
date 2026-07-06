@@ -17,6 +17,11 @@
   --animate-fade-out-left: slide-left-fade-out .1s ease-in-out forwards;
   --animate-slide-in-up: slide-in-up .5s ease-out forwards;
 
+
+
+  --animate-fade-in-scale-down: fade-in-scale-down .7s ease-in-out forwards;
+  --animate-fade-in-scale-up: fade-in-scale-up .7s ease-in-out forwards;
+
   --font-sans: var(--font-sans);
   --font-serif: var(--font-serif);
 
@@ -146,4 +151,14 @@ body {
 @keyframes slide-in-up {
   0% { top: 100%; }
   100% { top: 0; }
+}
+
+@keyframes fade-in-scale-down {
+  0% { opacity: 0; transform: translateY(-5rem) scale(1.1); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes fade-in-scale-up {
+  0% { opacity: 0; transform: translateY(5rem) scale(1.1); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
 }
