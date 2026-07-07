@@ -17,106 +17,19 @@
   "category": "backpacking",
   "type": "thru-hike",
   "coordinates": "13.1632° S, 72.5453° W",
-  "cover": [
-    {
-      "src": "",
-      "thumb": null
-    }
-  ],
-  "tags": [
-    "landscape",
-    "trail",
-    "thru-hike",
-    "mountains",
-    "long-distance",
-    "south america",
-    "backpacking"
-  ],
-  "position": [
-    "",
-    ""
-  ],
+  "cover": {
+    "src": "",
+    "thumb": null
+  },
   "notes": [
     ""
   ],
   "header": [
-    [
-      {
-        "type": "spacer"
-      },
-      {
-        "type": "text",
-        "classes": ["thin"],
-        "words": "thru-hiking"
-      },
-      {
-        "type": "text",
-        "classes": ["thin"],
-        "words": "in"
-      }
-    ],
-    [
-      {
-        "type": "text",
-        "classes": ["thin"],
-        "words": "the"
-      },
-      {
-        "type": "text",
-        "classes": ["heavy", "serif", "italic"],
-        "words": "andes mountains"
-      },
-      {
-        "type": "text",
-        "classes": ["thin"],
-        "words": "of"
-      },
-      {
-        "type": "spacer"
-      }
-    ],
-    [
-      {
-        "type": "spacer"
-      },
-      {
-        "type": "text",
-        "classes": ["heavy"],
-        "words": "Peru"
-      },
-      {
-        "type": "text",
-        "classes": ["thin"],
-        "words": "along the"
-      }
-    ],
-    [
-      {
-        "type": "text",
-        "classes": ["heavy"],
-        "words": "salkantay"
-      },
-      {
-        "type": "text",
-        "classes": ["heavy", "serif", "italic"],
-        "words": "trek"
-      },
-      {
-        "type": "spacer"
-      }
-    ],
-    [
-      {
-        "type": "text",
-        "classes": ["thin"],
-        "words": "to"
-      },
-      {
-        "type": "text",
-        "classes": ["heavy", "serif", "italic"],
-        "words": "Macchu Pichu"
-      }
-    ]
+    "thru-hiking in",
+    "the andes mountains of",
+    "Peru along the",
+    "salkantay trek",
+    "to Macchu Pichu"
   ],
   "images": []
 }

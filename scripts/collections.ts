@@ -90,50 +90,61 @@ export async function go() {
   const collections = [];
   const images = [];
 
-  const files = fs
-    .readdirSync(input)
-    .filter((directory) => directory !== '.DS_Store');
+  const files = fs.readdirSync(input).filter((file) => {
+    const fullPath = path.join(input, file);
+
+    return fs.statSync(fullPath).isFile() && file !== '.DS_Store';
+  });
 
   for (const file of files) {
     const data = JSON.parse(fs.readFileSync(`${input}/${file}`, 'utf8'));
 
-    const when = getWhen(data.date);
+    if (data.images.length > 0) {
+      const photos = JSON.parse(fs.readFileSync(`${input}/meta/${file.replace('.json', '.photos.json')}`, 'utf8'));
 
-    collections.push({
-      category: uppercaseFirst(data.category),
-      coordinates: reduceCoordinates(data.coordinates),
-      count: data.images.length,
-      cover: data.cover[0],
-      header: data.header,
-      id: data.id,
-      location: data.location,
-      notes: data.notes,
-      position: data.position,
-      tags: data.tags,
-      timestamp: data.timestamp,
-      title: data.title,
-      type: data.type,
-      when,
-    });
+      const when = getWhen(data.date);
 
-    data.images.map(({ date, elevation, exif, location, notes, src, thumb, title }) => {
-      images.push({
-        camera: exif?.camera || null,
+      const cover = photos.find((photo) => photo.type === 'cover');
+
+      collections.push({
         category: uppercaseFirst(data.category),
-        collectionId: data.id,
-        elevation: {
-          imperial: formatNumber(elevation),
-          metric: formatNumber(elevation / 3.281),
+        coordinates: reduceCoordinates(data.coordinates),
+        count: data.images.length,
+        cover: {
+          src: cover?.id || null,
+          thumb: cover?.thumb || null,
         },
-        id: src.split('/').pop(),
-        location,
-        notes: notes ? (Array.isArray(notes) ? notes : [notes]) : [],
-        src,
-        thumb,
-        title,
-        when: date ? getWhen(date) : null,
+        header: data.header,
+        id: data.id,
+        location: data.location,
+        notes: data.notes,
+        timestamp: data.timestamp,
+        title: data.title,
+        type: data.type,
+        when,
       });
-    });
+
+      data.images.map(({ date, elevation, location, notes, src, title }) => {
+        const foundImage = photos.find((photo) => photo.type === 'image' && photo.id === src);
+
+        images.push({
+          camera: foundImage?.exif?.camera || null,
+          category: uppercaseFirst(data.category),
+          collectionId: data.id,
+          elevation: {
+            imperial: formatNumber(elevation),
+            metric: formatNumber(elevation / 3.281),
+          },
+          id: (foundImage?.id || '').split('/').pop(),
+          location,
+          notes: notes ? (Array.isArray(notes) ? notes : [notes]) : [],
+          src: foundImage?.id || null,
+          thumb: foundImage?.thumb || null,
+          title,
+          when: date ? getWhen(date) : null,
+        });
+      });
+    }
   }
 
   if (collections.length) {
@@ -141,21 +152,7 @@ export async function go() {
       'collections.js',
       collections
         .sort((a, b) => b.timestamp - a.timestamp)
-        .map(({ category, coordinates, count, cover, header, id, location, notes, position, tags, title, type, when }) => ({
-          category,
-          coordinates,
-          count,
-          cover,
-          header,
-          id,
-          location,
-          notes,
-          position,
-          tags,
-          title,
-          type,
-          when,
-        })),
+        .map(({ timestamp, ...rest }) => (rest)),
     );
   }
 

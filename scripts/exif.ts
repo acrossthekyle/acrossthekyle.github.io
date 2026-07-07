@@ -6,7 +6,7 @@ import path from 'path';
 
 import { wait, writeFile } from './utils';
 
-const input = path.join(process.cwd(), './repository');
+const input = path.join(process.cwd(), './repository/meta');
 
 async function getExif(src) {
   const privateKey = process.env.IMAGE_KIT_IO_PRIVATE_KEY;
@@ -41,28 +41,30 @@ async function getExif(src) {
 export async function go() {
   console.log('--- running exif script ---');
 
-  const files = fs
-    .readdirSync(input)
-    .filter((directory) => directory !== '.DS_Store');
+  const files = fs.readdirSync(input).filter((file) => {
+    const fullPath = path.join(input, file);
+
+    return fs.statSync(fullPath).isFile() && file !== '.DS_Store';
+  });
 
   for (const file of files) {
     let shouldWait = false;
 
     const data = JSON.parse(fs.readFileSync(`${input}/${file}`, 'utf8'));
 
-    console.log(`--# processing ${data.title} #--`);
+    console.log(`--# processing ${file} #--`);
 
     const images = [];
 
-    for (const image of data.images) {
+    for (const image of data) {
       if (!image.exif) {
         shouldWait = true;
 
         await wait(1500);
 
-        console.log(`--# getting exif for ${image.src} #--`);
+        console.log(`--# getting exif for ${image.id} #--`);
 
-        const response = await getExif(image.src);
+        const response = await getExif(image.id);
 
         if (response !== null) {
           const aperture = response.exif?.exif?.ApertureValue;
@@ -93,16 +95,10 @@ export async function go() {
       }
     }
 
-    // console.log(JSON.stringify({
-    //   ...data,
-    //   images,
-    // }, null, 2));
-
     if (shouldWait) {
-      writeFile(input, file, JSON.stringify({
-        ...data,
-        images,
-      }, null, 2));
+      // console.log(JSON.stringify(images, null, 2));
+
+      writeFile(input, file, JSON.stringify(images, null, 2));
 
       await wait(500);
     }

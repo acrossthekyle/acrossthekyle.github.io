@@ -36,11 +36,7 @@ export type Collection = {
   coordinates: string;
   count: number;
   cover: Cover;
-  header: Array<{
-    classes?: string[];
-    type: string;
-    words?: string;
-  }[]>;
+  header: string[];
   id: string;
   location: Location;
   notes: string[];

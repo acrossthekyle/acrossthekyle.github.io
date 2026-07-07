@@ -4821,7 +4821,7 @@ const data = [
     },
     "notes": [],
     "src": "2020/02/18/7c8da66b-c28c-483c-ad78-158265b0ec63.jpeg",
-    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAeACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgADAf/EACIQAAICAQIHAQAAAAAAAAAAAAABAhEhAxITMUFRYXGhsf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AN0KzKGo+UoNeinNtJaadrLvBFPiLusOgauq0nGNt/hlsd215o5Jtyd9CVYGrdeyNeFuSvCIUbuNoDjJLLsm6XUO7BBb33Yo6bb3TdgbfMrd0BrJ4IF+PpAf/9k=",
+    "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT/xAAeEAEAAgIDAAMAAAAAAAAAAAABAAIRIQMSMSJRYf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwC55IrV+2BF5sKYfcRQvLZXrnBJurmJcldEmLrorW3Gas4/dy1ILZ5DFrGDZ1ikZ0Pe0CafNBy+EiqnGALtgP2rKhUrjWoKTDmQp6tK+ewUNswV/9k=",
     "title": "Las Torres",
     "when": {
       "long": [
@@ -6374,7 +6374,7 @@ const data = [
     }
   },
   {
-    "camera": "iPhone X",
+    "camera": null,
     "category": "Backpacking",
     "collectionId": "tour-du-mont-blanc",
     "elevation": {

@@ -17,102 +17,16 @@
   "category": "backpacking",
   "type": "overnight-hike",
   "coordinates": "43.171257° N, 91.259365° W",
-  "cover": [
-    {
-      "src": "2025/10/18/efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg",
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCAf/EAB8QAAIBAwUBAAAAAAAAAAAAAAABEQISQQMTITFRkf/EABYBAQEBAAAAAAAAAAAAAAAAAAIBAP/EABcRAQEBAQAAAAAAAAAAAAAAAAABERL/2gAMAwEAAhEDEQA/ACaNqCcc9YNJOcfSS4tmqKg0qSb1LVClslfVnkXVDmRZtN+AjfmQRRppTJyHan236AE2dx9BajmABDW71UnNMsAGR//Z"
-    }
-  ],
-  "tags": [
-    "landscape",
-    "trail",
-    "overnight",
-    "hills",
-    "north america",
-    "iowa",
-    "usa",
-    "backpacking"
-  ],
-  "position": [
-    "47%",
-    "18.5%"
-  ],
+  "cover": "2025/10/18/efb79fe5-9843-43a3-9dd7-0c6f5bb13d1b.jpeg",
   "notes": [
     "Known for its unglaciated, hilly landscape, this remote counterclockwise backpacking loop in the Driftless Area of Iowa showcases the state's most rugged terrain with a route that crosses ravines, climbs sandstone bluffs, and provides views of the surrounding hardwood forests and wildlife.",
     "This was a short weekend backpacking trip on one of the trails in the area where we hiked to a place called Browns Hollow: a grassy field pocketed by dense forest all around it. The trail had three big hills to hike up and over, but overall it wasn't that difficult of a trail."
   ],
   "header": [
-    [
-      {
-        "type": "spacer"
-      },
-      {
-        "type": "text",
-        "classes": ["heavy"],
-        "words": "backpacking"
-      },
-      {
-        "type": "spacer"
-      },
-      {
-        "type": "text",
-        "classes": ["thin"],
-        "words": "the"
-      }
-    ],
-    [
-      {
-        "type": "spacer"
-      },
-      {
-        "type": "text",
-        "classes": ["heavy", "serif", "italic"],
-        "words": "yellow river"
-      },
-      {
-        "type": "text",
-        "classes": ["heavy", "serif", "italic"],
-        "words": "trail"
-      },
-      {
-        "type": "spacer"
-      }
-    ],
-    [
-      {
-        "type": "text",
-        "classes": ["thin"],
-        "words": "in the"
-      },
-      {
-        "type": "text",
-        "classes": ["heavy"],
-        "words": "driftless"
-      },
-      {
-        "type": "text",
-        "classes": ["thin"],
-        "words": "area"
-      },
-      {
-        "type": "spacer"
-      }
-    ],
-    [
-      {
-        "type": "text",
-        "classes": ["thin"],
-        "words": "of"
-      },
-      {
-        "type": "text",
-        "classes": ["heavy", "serif"],
-        "words": "iowa"
-      },
-      {
-        "type": "spacer"
-      }
-    ]
+    "backpacking the",
+    "yellow river trail",
+    "in the driftless area",
+    "of iowa"
   ],
   "images": [
     {
@@ -125,16 +39,7 @@
       },
       "date": "10/18/2025",
       "elevation": 723,
-      "notes": "Lovely fall colors greeted us as we began the Yellow River Trail",
-      "exif": {
-        "aperture": "1/6638",
-        "camera": "iPhone 16 Pro",
-        "exposure": "0.0",
-        "fnumber": "1.78",
-        "focal": 24,
-        "iso": 64
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCAf/EAB8QAAIBAwUBAAAAAAAAAAAAAAABEQISQQMTITFRkf/EABYBAQEBAAAAAAAAAAAAAAAAAAIBAP/EABcRAQEBAQAAAAAAAAAAAAAAAAABERL/2gAMAwEAAhEDEQA/ACaNqCcc9YNJOcfSS4tmqKg0qSb1LVClslfVnkXVDmRZtN+AjfmQRRppTJyHan236AE2dx9BajmABDW71UnNMsAGR//Z"
+      "notes": "Lovely fall colors greeted us as we began the Yellow River Trail"
     },
     {
       "src": "2025/10/18/92cfa8cd-806d-4241-b3a1-9da957e6472d.jpeg",
@@ -146,20 +51,7 @@
       },
       "date": "10/18/2025",
       "elevation": 912,
-      "notes": "Lovely fall colors greeted us as we began the Yellow River Trail",
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwT/xAAfEAACAgIBBQAAAAAAAAAAAAAAAQIhERIxA0FRYaH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAgED/8QAFhEBAQEAAAAAAAAAAAAAAAAAABES/9oADAMBAAIRAxEAPwCYdVN4ksG6icdcllLFDRl1OLKuBhtRDl7ZVTGzgDn3vloCmVL8k2wCHRbI+gAFFSfcACsf/9k=",
-      "exif": {
-        "aperture": "1/6638",
-        "camera": "iPhone 16 Pro",
-        "exposure": "0.0",
-        "fnumber": "1.78",
-        "focal": 24,
-        "format": "jpg",
-        "height": 3375,
-        "iso": 80,
-        "shutter": "13.23",
-        "width": 6000
-      }
+      "notes": "Lovely fall colors greeted us as we began the Yellow River Trail"
     },
     {
       "src": "2025/10/18/a97e4968-9219-4089-ae13-a1e28f44ae0b.jpeg",
@@ -171,20 +63,7 @@
       },
       "date": "10/18/2025",
       "elevation": 967,
-      "notes": "",
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIDAQT/xAAgEAACAwACAgMBAAAAAAAAAAAAAQIRIQMSQYETYXHB/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AORWq/ISSY+Tj7J28+jtxeqS9mWlX5MZ5K7LTd5Vfokk5ZS9oIqmMnX8BVqmqYFPOrZrxQc3SdACGsY9ZOOYTzRS3qgCKVBPVgAMp//Z",
-      "exif": {
-        "aperture": "1/6638",
-        "camera": "iPhone 16 Pro",
-        "exposure": "0.0",
-        "fnumber": "1.78",
-        "focal": 24,
-        "format": "jpg",
-        "height": 2813,
-        "iso": 64,
-        "shutter": "9.80",
-        "width": 5000
-      }
+      "notes": ""
     },
     {
       "src": "2025/10/18/7d3daf93-3463-4f44-909e-f0d7f609967a.jpeg",
@@ -196,20 +75,7 @@
       },
       "date": "10/18/2025",
       "elevation": 913,
-      "notes": "",
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECA//EABwQAAIDAQADAAAAAAAAAAAAAAABAhEhMRIiQf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwCTm3nTMFd3xG8ttauCNXK/pFVyXsnhxSt0zs4xdtGPGmq0gRguPcBVkuAXCOdi22AFG2l0W6xgAVJtdABFf//Z",
-      "exif": {
-        "aperture": "1/6638",
-        "camera": "iPhone 16 Pro",
-        "exposure": "0.0",
-        "fnumber": "1.78",
-        "focal": 24,
-        "format": "jpg",
-        "height": 2813,
-        "iso": 80,
-        "shutter": "9.56",
-        "width": 5000
-      }
+      "notes": ""
     },
     {
       "src": "2025/10/18/7c266117-a4a2-4f6b-95f0-15a562d9a6be.jpeg",
@@ -221,20 +87,7 @@
       },
       "date": "10/19/2025",
       "elevation": 639,
-      "notes": "Heading back to civlization after a restless night in the woods, thanks to a create trying to force its way underneath my tent. Overall 14.3 miles of hiking.",
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBA//EAB8QAAICAwEAAwEAAAAAAAAAAAABAhEDIUExEhOBsf/EABYBAQEBAAAAAAAAAAAAAAAAAAECAP/EABgRAQEBAQEAAAAAAAAAAAAAAAABAhES/9oADAMBAAIRAxEAPwDpljFq0mmc0nejHOTXojOUV6M2LjrspNLd/pMsjeqoj7Zd/hjba3J2T6iuGbG0/k0qrwGTm3j227BmTSVXdmd6ASVJX0UuAGgWvK4ACi//2Q==",
-      "exif": {
-        "aperture": "1/6638",
-        "camera": "iPhone 16 Pro",
-        "exposure": "0.0",
-        "fnumber": "1.78",
-        "focal": 24,
-        "format": "jpg",
-        "height": 2813,
-        "iso": 64,
-        "shutter": "11.69",
-        "width": 5000
-      }
+      "notes": "Heading back to civlization after a restless night in the woods, thanks to a create trying to force its way underneath my tent. Overall 14.3 miles of hiking."
     },
     {
       "src": "2025/10/18/db8b9939-7fe0-43b3-b5ef-d0baea038ef1.jpeg",
@@ -246,16 +99,7 @@
       },
       "date": "10/19/2025",
       "elevation": 839,
-      "notes": "Heading back to civlization after a restless night in the woods, thanks to a create trying to force its way underneath my tent. Overall 14.3 miles of hiking.",
-      "exif": {
-        "aperture": "1/6638",
-        "camera": "iPhone 16 Pro",
-        "exposure": "0.0",
-        "fnumber": "1.78",
-        "focal": 24,
-        "iso": 64
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIDAQT/xAAgEAACAgEEAwEAAAAAAAAAAAAAAQIRIQMxQVESYYGR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AIUs0XFuLRk5W011RVty5M1p6dR1Fb5MJSZ3VlLDSZlmVgik7k/0Ec+wBSgmssuO/isABWzVL4YzjStbdABE0AAr/9k="
+      "notes": "Heading back to civlization after a restless night in the woods, thanks to a create trying to force its way underneath my tent. Overall 14.3 miles of hiking."
     }
   ]
 }

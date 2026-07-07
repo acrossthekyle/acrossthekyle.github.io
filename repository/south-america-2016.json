@@ -17,106 +17,16 @@
   "category": "destination",
   "type": "vacation",
   "coordinates": "33.448890° S, 70.669265° W",
-  "cover": [
-    {
-      "src": "2016/03/18/dd0b9008-fbc2-4916-a33c-303a406e8fa5.jpeg",
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQCAQP/xAAgEAACAgEEAwEAAAAAAAAAAAAAAQIRIQMSIkExcbFR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AKWuJJJ1FUWS8MglJ7VZkx2Ud+q1F5Z7xfC08vsmhNwzjK7Nw1d8s/hF7QeY1dZBzSeV7Ahvc9vntr6Rt2la8IAFGWvhrTXLHYBJXDSmqbr1YAFP/9k="
-    },
-    {
-      "src": "2016/03/18/9742d413-6fdd-4474-a4a2-59ada5ddab14.jpeg",
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAwABAgT/xAAkEAABBAEDAwUAAAAAAAAAAAABAAIDESEEEjETQYEiUmGRof/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/ALlmo03J7qozFKTJRODwgQyMB9TggOTUcCMeSgyNRIBW/wDEBbs4woq225/byg6iI9tEfSVICUMaKBPwEqwSBjA33FBpsQacOKFJWOVIUToQclxVKnRbXJQf/9k="
-    }
-  ],
-  "tags": [
-    "cityscape",
-    "landscape",
-    "monuments",
-    "ancient wonders",
-    "africa",
-    "destination"
-  ],
-  "position": [
-    "85%",
-    "25%"
-  ],
+  "cover": "2016/03/18/9742d413-6fdd-4474-a4a2-59ada5ddab14.jpeg",
   "notes": [
     "This was my second time visiting South America. We explored Santiago and Valparaiso for a few days with visits to wineries, Lollapalooza, and a hike to a glacier in the Andes mountains.",
     "We also took a few days to head down to Patagonia where we did a day hike up to the base of the Towers of Patagonia, took a cruise to see some glaciers, and stepped into a deep Ice Age cave."
   ],
   "header": [
-    [
-      {
-        "type": "spacer"
-      },
-      {
-        "type": "text",
-        "classes": ["heavy"],
-        "words": "visiting"
-      },
-      {
-        "type": "spacer"
-      },
-      {
-        "type": "text",
-        "classes": ["thin"],
-        "words": "the"
-      }
-    ],
-    [
-      {
-        "type": "spacer"
-      },
-      {
-        "type": "text",
-        "classes": ["thin"],
-        "words": "city"
-      },
-      {
-        "type": "text",
-        "classes": ["serif","italic"],
-        "words": "of"
-      },
-      {
-        "type": "spacer"
-      }
-    ],
-    [
-      {
-        "type": "text",
-        "classes": ["heavy"],
-        "words": "Santiago,"
-      },
-      {
-        "type": "text",
-        "classes": ["thin"],
-        "words": "and the"
-      },
-      {
-        "type": "text",
-        "classes": ["heavy"],
-        "words": "Patagonia"
-      }
-    ],
-    [
-      {
-        "type": "spacer"
-      },
-      {
-        "type": "text",
-        "classes": ["thin"],
-        "words": "region,"
-      },
-      {
-        "type": "text",
-        "classes": ["thin"],
-        "words": "of"
-      },
-      {
-        "type": "text",
-        "classes": ["heavy", "serif", "italic"],
-        "words": "chile"
-      }
-    ]
+    "visiting the",
+    "city of",
+    "Santiago, and the Patagonia",
+    "region, of chile"
   ],
   "images": [
     {
@@ -129,16 +39,7 @@
       },
       "date": "03/19/2016",
       "elevation": 2546,
-      "notes": "",
-      "exif": {
-        "aperture": "2/2750",
-        "camera": "iPhone 6s Plus",
-        "exposure": "0.0",
-        "fnumber": "2.20",
-        "focal": 29,
-        "iso": 25
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAEEAgP/xAAgEAACAQMEAwAAAAAAAAAAAAAAARETIVECAxJxMUGh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/ANEFRICRIFSECkOJaR5rdV+zLRVWAFRAWogHNAZVqMtO4+lFTT9NdAI8xeMgG2r4IP/Z"
+      "notes": ""
     },
     {
       "src": "2016/03/18/dd0b9008-fbc2-4916-a33c-303a406e8fa5.jpeg",
@@ -150,16 +51,7 @@
       },
       "date": "03/22/2016",
       "elevation": 154,
-      "notes": "",
-      "exif": {
-        "aperture": "2/2750",
-        "camera": "iPhone 6s Plus",
-        "exposure": "0.0",
-        "fnumber": "2.20",
-        "focal": 67,
-        "iso": 25
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQCAQP/xAAgEAACAgEEAwEAAAAAAAAAAAAAAQIRIQMSIkExcbFR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhEDEQA/AKWuJJJ1FUWS8MglJ7VZkx2Ud+q1F5Z7xfC08vsmhNwzjK7Nw1d8s/hF7QeY1dZBzSeV7Ahvc9vntr6Rt2la8IAFGWvhrTXLHYBJXDSmqbr1YAFP/9k="
+      "notes": ""
     },
     {
       "src": "2016/03/18/1f5577cc-e0c2-4c66-987e-903a9b6be02c.jpeg",
@@ -171,16 +63,7 @@
       },
       "date": "03/21/2016",
       "elevation": 10611,
-      "notes": "",
-      "exif": {
-        "aperture": "2/2750",
-        "camera": "iPhone 6s Plus",
-        "exposure": "0.0",
-        "fnumber": "2.20",
-        "focal": 29,
-        "iso": 25
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT/xAAhEAACAgEEAgMAAAAAAAAAAAABAgARIQMSMUFRYYGRof/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAZEQEBAQEBAQAAAAAAAAAAAAAAARESAiH/2gAMAwEAAhEDEQA/AFqdnDRUJoLAGpm3Gp5tazbVv6jqHF36iWZvJmNdZMdW2Tqrx5KwFVHVJ5kSOi+7Au+IUOjGlPQySYRiNS0BCuhse/mQKHF5X9hVqBXFgHxIEOip5uUIUQdtA//Z"
+      "notes": ""
     },
     {
       "src": "2016/03/18/b941c594-5218-449f-b79d-cb9936f56ad5.jpeg",
@@ -192,16 +75,7 @@
       },
       "date": "03/23/2016",
       "elevation": 1300,
-      "notes": "",
-      "exif": {
-        "aperture": "2/2750",
-        "camera": "iPhone 6s Plus",
-        "exposure": "0.9",
-        "fnumber": "2.20",
-        "focal": 29,
-        "iso": 800
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBA//EABwQAAMBAAIDAAAAAAAAAAAAAAABAhEhMQNBUf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAwDAQACEQMRAD8A5+WshT9JTU6n7Rl8+TSWm2YjTo5iusMmdedcEZ0Vep/OBSpbik0+ECNbAYlV0Zra9AFCzlMOnWaAIagABf/Z"
+      "notes": ""
     },
     {
       "src": "2016/03/18/fb45dc07-e4fe-4d90-b39a-f54e50142d5a.jpeg",
@@ -213,16 +87,7 @@
       },
       "date": "03/25/2016",
       "elevation": 347,
-      "notes": "",
-      "exif": {
-        "aperture": "2/2750",
-        "camera": "iPhone 6s Plus",
-        "exposure": "0.0",
-        "fnumber": "2.20",
-        "focal": 60,
-        "iso": 25
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAQAC/8QAIBAAAwACAgEFAAAAAAAAAAAAAAERAlESYQMTIUFicf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAwL/xAAXEQEBAQEAAAAAAAAAAAAAAAAAEQES/9oADAMBAAIRAxEAPwAj2d3Gc1cX2OsWaZ+kpBHsXEmqP5YuE1qrSM60gvRK6isFIy810KRepj9S3U5YTqqF1ecSzfv0LpMKyylTJSYw/I7Kyh5ZbIr/2Q=="
+      "notes": ""
     },
     {
       "src": "2016/03/18/9e9e78a3-a2ad-4a09-962c-fc1866ccfbd4.jpeg",
@@ -234,16 +99,7 @@
       },
       "date": "03/26/2016",
       "elevation": 469,
-      "notes": "",
-      "exif": {
-        "aperture": "2/2750",
-        "camera": "iPhone 6s Plus",
-        "exposure": "0.0",
-        "fnumber": "2.20",
-        "focal": 29,
-        "iso": 25
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECBAP/xAAhEAACAgEEAgMAAAAAAAAAAAAAAQIRAwQSYXETMSFBsf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AxkpWdMXiu8jfRpWfHD4iqXCIrLHDkl6g/wALPS5Ur230zQ9RG1T+17KT1UqqKVgZpRcXUk12C8sk8l7pN8AK5EptABC+BYAEWACj/9k="
+      "notes": ""
     },
     {
       "src": "2016/03/18/9742d413-6fdd-4474-a4a2-59ada5ddab14.jpeg",
@@ -255,16 +111,7 @@
       },
       "date": "03/27/2016",
       "elevation": 15,
-      "notes": "",
-      "exif": {
-        "aperture": "2/2750",
-        "camera": "iPhone 6s Plus",
-        "exposure": "0.0",
-        "fnumber": "2.20",
-        "focal": 29,
-        "iso": 25
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDAREAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAwABAgT/xAAkEAABBAEDAwUAAAAAAAAAAAABAAIDESEEEjETQYEiUmGRof/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/ALlmo03J7qozFKTJRODwgQyMB9TggOTUcCMeSgyNRIBW/wDEBbs4woq225/byg6iI9tEfSVICUMaKBPwEqwSBjA33FBpsQacOKFJWOVIUToQclxVKnRbXJQf/9k="
+      "notes": ""
     }
   ]
 }

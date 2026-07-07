@@ -17,140 +17,17 @@
   "category": "backpacking",
   "type": "thru-hike",
   "coordinates": "45.890196° N, 6.798325° E",
-  "cover": [
-    {
-      "src": "2018/09/02/135eea74-e1bc-4cab-bfd7-28d17405a744.jpeg",
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAeACgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgT/xAAgEAADAAEEAgMAAAAAAAAAAAAAAQIRAyExQQSRElFi/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwCoD2YOX0EpsIB/H7YsznZlsGEAOonmkA6srlnWtdplJ8l9z6ZDY1GHXBlpWtf8v2SrVp8JI1Sy8E8IkTqnywGA6H//2Q=="
-    },
-    {
-      "src": "2018/09/02/0420d236-d12a-40e8-8d6c-90558e26d304.jpeg",
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT/xAAfEAADAAICAgMAAAAAAAAAAAAAAQIRIQMSMVFBYZH/xAAXAQEBAQEAAAAAAAAAAAAAAAABAgMA/8QAFxEBAQEBAAAAAAAAAAAAAAAAABESAf/aAAwDAQACEQMRAD8AXBqk2ueF4nJKuWqeFr6RemWOrKGapJLvp0u2fbGXJ1etJfDO0cRVSBq5p9L9AKY48ex5mVh4ACGiyFqE9rTAAJOjl6eAABoj/9k="
-    },
-    {
-      "src": "2018/09/02/891cd8a7-97d2-4251-ac34-6c816c0ec570.jpeg",
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBAH/xAAdEAACAgIDAQAAAAAAAAAAAAAAAQIRAyETMVGh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAIB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/ANdnGzMsvj+jkfoGhs5ZU8miLyAXWCiM76BjVNIVW0wCKpJS10RtSALSnF1pAANf/9k="
-    }
-  ],
-  "tags": [
-    "landscape",
-    "trail",
-    "thru-hike",
-    "mountains",
-    "europe",
-    "alps",
-    "backpacking",
-    "TMB"
-  ],
-  "position": [
-    "45%",
-    "48.5%"
-  ],
+  "cover": "2018/09/02/0420d236-d12a-40e8-8d6c-90558e26d304.jpeg",
   "notes": [
     "My second ever thru-hike that encircled a mountain called Mont Blanc in the European Alps. The trail is considered a classic long-distance hike and it took me 12 days over 106 miles (170 km) to complete it while passing through France, Italy, and Switzerland.",
     "It's a challenging experience filled with diverse landscapes, unique cultural blends, and stunning alpine scenery, all while sleeping in mountain huts and eating home-cooked meals each night."
   ],
   "header": [
-    [
-      {
-        "type": "spacer"
-      },
-      {
-        "type": "text",
-        "classes": ["heavy"],
-        "words": "thru-hiking"
-      },
-      {
-        "type": "spacer"
-      },
-      {
-        "type": "text",
-        "classes": ["thin"],
-        "words": "the"
-      }
-    ],
-    [
-      {
-        "type": "spacer"
-      },
-      {
-        "type": "text",
-        "classes": ["heavy", "serif", "italic"],
-        "words": "tour"
-      },
-      {
-        "type": "text",
-        "classes": ["heavy", "serif", "italic"],
-        "words": "du"
-      },
-      {
-        "type": "text",
-        "classes": ["heavy", "serif", "italic"],
-        "words": "mont"
-      },
-      {
-        "type": "text",
-        "classes": ["heavy", "serif", "italic"],
-        "words": "blanc"
-      },
-      {
-        "type": "spacer"
-      }
-    ],
-    [
-      {
-        "type": "text",
-        "classes": ["thin"],
-        "words": "in"
-      },
-      {
-        "type": "text",
-        "classes": ["heavy"],
-        "words": "the"
-      },
-      {
-        "type": "text",
-        "classes": ["heavy"],
-        "words": "alps"
-      },
-      {
-        "type": "spacer"
-      }
-    ],
-    [
-      {
-        "type": "text",
-        "classes": ["thin"],
-        "words": "of"
-      },
-      {
-        "type": "text",
-        "classes": ["heavy", "serif"],
-        "words": "france,"
-      },
-      {
-        "type": "text",
-        "classes": ["heavy", "serif"],
-        "words": "italy,"
-      },
-      {
-        "type": "text",
-        "classes": ["thin"],
-        "words": "and"
-      },
-      {
-        "type": "spacer"
-      }
-    ],
-    [
-      {
-        "type": "spacer"
-      },
-      {
-        "type": "text",
-        "classes": ["heavy", "serif"],
-        "words": "switzerland"
-      }
-    ]
+    "thru-hiking the",
+    "tour du mont blanc",
+    "in the alps",
+    "of france, italy, and",
+    "switzerland"
   ],
   "images": [
     {
@@ -163,16 +40,7 @@
       },
       "date": "09/02/2018",
       "elevation": 5652,
-      "notes": "",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAeACgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgT/xAAgEAADAAEEAgMAAAAAAAAAAAAAAQIRAyExQQSRElFi/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwCoD2YOX0EpsIB/H7YsznZlsGEAOonmkA6srlnWtdplJ8l9z6ZDY1GHXBlpWtf8v2SrVp8JI1Sy8E8IkTqnywGA6H//2Q=="
+      "notes": ""
     },
     {
       "src": "2018/09/02/bcd0580f-84ef-482e-af8c-e72cbe1ffcd8.jpeg",
@@ -184,20 +52,7 @@
       },
       "date": "09/02/2018",
       "elevation": 5731,
-      "notes": "",
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECBAP/xAAfEAACAgIBBQAAAAAAAAAAAAAAAQIRQVEhBBITMUL/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8A7rjID7gC7APYFIis/mgysmpplFJp5oihzjHIEvqILbIrGr2KBXtiilOS+mKFyQAH/9k=",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "format": "jpg",
-        "height": 2268,
-        "iso": 25,
-        "shutter": "6.91",
-        "width": 4032
-      }
+      "notes": ""
     },
     {
       "src": "2018/09/02/56d3cc07-47c1-40c8-b7ee-483aa01d777c.jpeg",
@@ -209,16 +64,7 @@
       },
       "date": "09/03/2018",
       "elevation": 8157,
-      "notes": "",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 32
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQBAgP/xAAgEAACAQMEAwAAAAAAAAAAAAAAAREDEhMCITFBQlFS/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCqUJRGqz+jrMySmZ6NheiR1nHJzl1PtiFjaXKBEqseTAF4pmpwABbdsZcgCQAAL//Z"
+      "notes": ""
     },
     {
       "src": "2018/09/02/5b103c9a-6c03-4f1d-bb80-e6c64cbd63ba.jpeg",
@@ -230,20 +76,7 @@
       },
       "date": "09/03/2018",
       "elevation": 8013,
-      "notes": "",
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT/xAAjEAABAwQBBAMAAAAAAAAAAAABAAIDBBESIWEiMkGBQnGR/8QAFwEBAQEBAAAAAAAAAAAAAAAAAQACA//EABkRAQEBAQEBAAAAAAAAAAAAAAARAQISIf/aAAwDAQACEQMRAD8AbBdK4QYFVU0YFNE0YIphgxVPlIVDt6B9LFdYoHSHwB6Wd6zD5LNJI0DG3OkZ1TvOYxtWLdTN8LVZigqYypRyNdbtH6sxozZZCbCwRMN1UgA7LiftFLTI1vxV9RDUAHTVedVf/9k=",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "format": "jpg",
-        "height": 2268,
-        "iso": 20,
-        "shutter": "9.80",
-        "width": 4032
-      }
+      "notes": ""
     },
     {
       "src": "2018/09/02/0420d236-d12a-40e8-8d6c-90558e26d304.jpeg",
@@ -255,16 +88,7 @@
       },
       "date": "09/04/2018",
       "elevation": 9021,
-      "notes": "",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT/xAAfEAADAAICAgMAAAAAAAAAAAAAAQIRIQMSMVFBYZH/xAAXAQEBAQEAAAAAAAAAAAAAAAABAgMA/8QAFxEBAQEBAAAAAAAAAAAAAAAAABESAf/aAAwDAQACEQMRAD8AXBqk2ueF4nJKuWqeFr6RemWOrKGapJLvp0u2fbGXJ1etJfDO0cRVSBq5p9L9AKY48ex5mVh4ACGiyFqE9rTAAJOjl6eAABoj/9k="
+      "notes": ""
     },
     {
       "src": "2018/09/02/6391f8bb-b333-4951-a069-13bf188e132e.jpeg",
@@ -276,20 +100,7 @@
       },
       "date": "09/04/2018",
       "elevation": 7595,
-      "notes": "",
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQIDAP/EACQQAQACAQEHBQAAAAAAAAAAAAEAEQIhAwQSEzFRYUFSgZHh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDfmYe6RXO0xP2BHN6t414gS7wHf6gQ7zl6EC+LZ9LCQHCVomXzKBxcTQ0gBhTdQJcb0qBncBLUO8CzJtrpAFR8OsBtWB//2Q==",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "format": "jpg",
-        "height": 2268,
-        "iso": 20,
-        "shutter": "10.04",
-        "width": 4032
-      }
+      "notes": ""
     },
     {
       "src": "2018/09/02/d3aaae8d-df89-48cb-aea9-9abc33f59d6b.jpeg",
@@ -301,20 +112,7 @@
       },
       "date": "09/04/2018",
       "elevation": 9077,
-      "notes": "",
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT/xAAhEAABAwMEAwAAAAAAAAAAAAABAAIRAxIhBDFBUSIycf/EABcBAQEBAQAAAAAAAAAAAAAAAAACAQP/xAAYEQEBAQEBAAAAAAAAAAAAAAAAEQECEv/aAAwDAQACEQMRAD8Aa1VUedFi2phbErILUpEaj8ww47U7rpzy6QZ5hQ6Md45JgIJnUQYDZHaqp3MSfUc/c46QhEaudQOKYB+rIJuqOf7GVoUoMQGyD//Z",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "format": "jpg",
-        "height": 2178,
-        "iso": 20,
-        "shutter": "9.55",
-        "width": 3872
-      }
+      "notes": ""
     },
     {
       "src": "2018/09/02/e4cde1a9-8e66-42a7-ad86-24440c73a6ce.jpeg",
@@ -326,20 +124,7 @@
       },
       "date": "09/05/2018",
       "elevation": 8231,
-      "notes": "",
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQIDAP/EACEQAAEEAQUAAwAAAAAAAAAAAAEAAhEhAxIxQVFxMoGx/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/8QAGBEBAQEBAQAAAAAAAAAAAAAAAAECMUH/2gAMAwEAAhEDEQA/ADkeAIbzym6ZmQw5O7CR6s3NjmJIPiK1C5cmoQKCCmKHyk+KSYg45JvlFM4GIgGNwTSYKsQAdyPFCFLtGzPsqLNe6OCPxRRdUhSNERNjpQO55Y46dlIdZIu/VIIkFwqFF//Z",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "format": "jpg",
-        "height": 2268,
-        "iso": 32,
-        "shutter": "6.91",
-        "width": 4032
-      }
+      "notes": ""
     },
     {
       "src": "2018/09/02/488a5815-e763-406d-94e1-5e51ff25cafe.jpeg",
@@ -351,16 +136,7 @@
       },
       "date": "09/05/2018",
       "elevation": 6437,
-      "notes": "",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAIEAQP/xAAhEAACAgIBBAMAAAAAAAAAAAAAAQIRAyFBEhMiMVFhof/EABcBAQEBAQAAAAAAAAAAAAAAAAECAAP/xAAXEQEBAQEAAAAAAAAAAAAAAAAAARIR/9oADAMBAAIRAxEAPwDsY9ErT1yVcJUpumuDzhNy96fJTV6qwlNnSWKpUvQ7bHcyLXT+kzzZONF6c8Lax415u39AzW27ewTpWY1JWrCSTaWgCFj8dIiXy2ABRrhAAwf/2Q=="
+      "notes": ""
     },
     {
       "src": "2018/09/02/9cefaedf-2e6b-439a-9512-f1f37d2374eb.jpeg",
@@ -372,16 +148,7 @@
       },
       "date": "09/06/2018",
       "elevation": 6689,
-      "notes": "",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECBAP/xAAfEAACAgICAwEAAAAAAAAAAAAAAQIRAxIhMVFhcYH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/AOiZeMjPvqrZMcqfboK1cBuJneTwrKPdrtEpHeWWEfoMkk/0CkNJSXPCLLWKpKwDKm79hypWABFsADR//9k="
+      "notes": ""
     },
     {
       "src": "2018/09/02/548fba84-0027-4a6f-b6ec-9c418d2125b4.jpeg",
@@ -393,20 +160,7 @@
       },
       "date": "09/06/2018",
       "elevation": 6317,
-      "notes": "",
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQT/xAAfEAACAgIBBQAAAAAAAAAAAAAAAQIRAyETMUFRYZH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwDpU1QBafRgYBjASUqA54Z2lT2gKrNaKheXdgDzN+iKm5+PpFRAeLAZoULKwCKvuB//2Q==",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "format": "jpg",
-        "height": 2115,
-        "iso": 25,
-        "shutter": "12.38",
-        "width": 3760
-      }
+      "notes": ""
     },
     {
       "src": "2018/09/02/599ca28e-983c-4f49-8b19-fbed23c3fd1b.jpeg",
@@ -418,20 +172,7 @@
       },
       "date": "09/07/2018",
       "elevation": 6599,
-      "notes": "",
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECA//EACIQAAEEAQQCAwAAAAAAAAAAAAEAAhEhQQMSEzEEgVFxsf/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAZEQEBAAMBAAAAAAAAAAAAAAAAAQIRIRL/2gAMAwEAAhEDEQA/ALOmRmVv1HK4VTSDN2s7dJCDIcS6/hW1mTvVugnoBZbE4QZ73Gs/qis9xBuvSoOZ0oh84iwUEu8gmmj2U2o3mVlSfqXEBVGZeBhAAyZMEpsI9/Sg/9k=",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "format": "jpg",
-        "height": 2268,
-        "iso": 20,
-        "shutter": "10.19",
-        "width": 4032
-      }
+      "notes": ""
     },
     {
       "src": "2018/09/02/891cd8a7-97d2-4251-ac34-6c816c0ec570.jpeg",
@@ -443,16 +184,7 @@
       },
       "date": "09/07/2018",
       "elevation": 8322,
-      "notes": "",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIDBAH/xAAdEAACAgIDAQAAAAAAAAAAAAAAAQIRAyETMVGh/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAIB/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/ANdnGzMsvj+jkfoGhs5ZU8miLyAXWCiM76BjVNIVW0wCKpJS10RtSALSnF1pAANf/9k="
+      "notes": ""
     },
     {
       "src": "2018/09/02/8d209b3b-8d40-49b3-b754-fd91466c9708.jpeg",
@@ -464,16 +196,7 @@
       },
       "date": "09/08/2018",
       "elevation": 4580,
-      "notes": "",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAEDAgT/xAAhEAACAgEEAgMAAAAAAAAAAAAAAQIRIQMSMUEEkSJhgf/EABcBAAMBAAAAAAAAAAAAAAAAAAABAgP/xAAZEQEAAwEBAAAAAAAAAAAAAAAAAQISUQP/2gAMAwEAAhEDEQA/AJhui7SOOMFhqOOGrQ636m3nw2lUWSfkJcJfpk9WUr+RWkYltcY8v0Dyu+2vYJ0uKQ1WoqzZ2pX0AZtCUIz5VfaMdTScO7QA4EptjdZsAAH/2Q=="
+      "notes": ""
     },
     {
       "src": "2018/09/02/4144a837-c696-4feb-8add-f9a589eb2c5b.jpeg",
@@ -485,20 +208,7 @@
       },
       "date": "09/08/2018",
       "elevation": 3643,
-      "notes": "",
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAdEAACAgMAAwAAAAAAAAAAAAAAAQIRAyExEkFR/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAIDAf/EABoRAQEBAQADAAAAAAAAAAAAAAABEQISITH/2gAMAwEAAhEDEQA/AE4lZ7Quz6VACoAKAFKSiherh+ZrT10nKrZoVMpOtR64z4KT4bsZ43D8TS+3Nmlc2vhPq7V+JkbvTpEjpsIFKLTuzfIIy5J8vQ22lyMAa//Z",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "format": "jpg",
-        "height": 2268,
-        "iso": 20,
-        "shutter": "10.25",
-        "width": 4032
-      }
+      "notes": ""
     },
     {
       "src": "2018/09/02/cdbbcf4d-3dd2-44a6-9f2b-7e1f26f9202a.jpeg",
@@ -510,20 +220,7 @@
       },
       "date": "09/09/2018",
       "elevation": 5157,
-      "notes": "",
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAgMBBP/EAB8QAAICAgMAAwAAAAAAAAAAAAECABEDIRITMTJRYf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oADAMBAAIRAxEAPwCYHx4tUi6kyi6u5lFlYdTEGKcbue0MDuIAg0f2CaK4+wJ4mprPlRRklkZYEOKo1nyITdiR9SCgxaIMzWoaY6u6OpVNqlNaJ9moKlVnZuQBx5JP/9k=",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "format": "jpg",
-        "height": 2268,
-        "iso": 25,
-        "shutter": "5.33",
-        "width": 4032
-      }
+      "notes": ""
     },
     {
       "src": "2018/09/02/21248df2-d0b9-41d2-9662-b6215c24c298.jpeg",
@@ -535,16 +232,7 @@
       },
       "date": "09/09/2018",
       "elevation": 8687,
-      "notes": "",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMB/8QAIRAAAgICAgEFAAAAAAAAAAAAAAECESExEkEDIjJRYXH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAAL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARL/2gAMAwEAAhEDEQA/AKc4vaMuCemQTp5VM3l8FqrMXuD6F+Mg5tNNdmr1JvRaozFJSSlGlhgys/gDVOY3C9ysl5IqMlx01eQCLIwb7wWglVLoAKRfeQAZL//Z"
+      "notes": ""
     },
     {
       "src": "2018/09/02/ec37f4a8-6310-4bf6-b1a7-cddb1f91bf3b.jpeg",
@@ -556,16 +244,7 @@
       },
       "date": "09/10/2018",
       "elevation": 7247,
-      "notes": "",
-      "exif": {
-        "aperture": "1/2667",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBA//EACIQAAICAQQBBQAAAAAAAAAAAAABAhEhAxJBURMyQnGBkf/EABgBAAMBAQAAAAAAAAAAAAAAAAABAwIE/8QAGBEBAQEBAQAAAAAAAAAAAAAAAAEREgL/2gAMAwEAAhEDEQA/AG1mUYtSUeHXTKWreXXwU1G+cZQouMlyi90eEGiebXJRfQOkpYdYsC6a4c1Cl6mx4l3kA59qxHTa936VGKvMvpAGuqMimqTW3AAA3//Z"
+      "notes": ""
     },
     {
       "src": "2018/09/02/5aa2ad59-cda4-42e9-ba2c-9ee47c88a091.jpeg",
@@ -577,20 +256,7 @@
       },
       "date": "09/10/2018",
       "elevation": 7239,
-      "notes": "",
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAGAABAQADAAAAAAAAAAAAAAAAAgEAAwT/xAAfEAACAgEFAQEAAAAAAAAAAAAAAQIRIQMSMUFRgbH/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAGREBAQEBAQEAAAAAAAAAAAAAAAERAhIh/9oADAMBAAIRAxEAPwDoXqx8BoTnStlQY63N8gDe22s0aljF5rKV8l9Rm8WNj1nXSObuG5SJom62rQCwiaoylcSolZ/AJLEQJN3XtgOapmd+qK7RR//Z",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "format": "jpg",
-        "height": 2268,
-        "iso": 20,
-        "shutter": "9.82",
-        "width": 4032
-      }
+      "notes": ""
     },
     {
       "src": "2018/09/02/0ea4750a-307a-44be-a466-bb081d137d3c.jpeg",
@@ -602,16 +268,7 @@
       },
       "date": "09/11/2018",
       "elevation": 7732,
-      "notes": "",
-      "exif": {
-        "aperture": null,
-        "camera": "ILCE-6000",
-        "exposure": "0.0",
-        "fnumber": "5.00",
-        "focal": 36,
-        "iso": 100
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAXACgDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwT/xAAiEAACAgEDBAMAAAAAAAAAAAAAAREhAhITIgMxQWFRgZH/xAAWAQEBAQAAAAAAAAAAAAAAAAABAgP/xAAZEQEBAQEBAQAAAAAAAAAAAAAAARECE2H/2gAMAwEAAhEDEQA/AL7quEN3GOxhzuYr0RzflfhbPPrrWnJSmV41aszwx6jThpVdENOuzoNNjV4AwueT+gF7p84jWNbALRhrfyVblr0AFqpFpcT4ABn1VyP/2Q=="
+      "notes": ""
     },
     {
       "src": "2018/09/02/7aeffd1f-1df9-4199-a744-2bb83f5d6ed0.jpeg",
@@ -623,20 +280,7 @@
       },
       "date": "09/11/2018",
       "elevation": 6237,
-      "notes": "",
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDAREAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAQMCBP/EACAQAAICAQMFAAAAAAAAAAAAAAABAhEDBBIhQUJRYXH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/AOhrkrLLRUFFBtCHaFcyyX1IKRzyjw0mhCqPPj22r+CatxOeotVFV7CMPLJ9wEEyNRpK1dlQN+BSCyLACP/Z",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "format": "jpg",
-        "height": 2206,
-        "iso": 20,
-        "shutter": "8.31",
-        "width": 3921
-      }
+      "notes": ""
     },
     {
       "src": "2018/09/02/3faeb9f8-d262-4c12-869f-4470b0dc0574.jpeg",
@@ -648,16 +292,7 @@
       },
       "date": "09/12/2018",
       "elevation": 8224,
-      "notes": "",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMBAv/EACAQAAIDAAEEAwAAAAAAAAAAAAABAhESIQNBUWETMXH/xAAXAQEBAQEAAAAAAAAAAAAAAAABAAMC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABIB/9oADAMBAAIRAxEAPwDcMzD8FV1IP6N1Hwd0yhHLoYZXauqHyRuu5UY1PDBVSQKlCClHbpO/Z1GVugDJsxvl1wcxSvv+sAQ69AAC/9k="
+      "notes": ""
     },
     {
       "src": "2018/09/02/8a0d6d12-a40d-47ba-9d09-6b8d5572bb32.jpeg",
@@ -669,16 +304,7 @@
       },
       "date": "09/13/2018",
       "elevation": 6244,
-      "notes": "",
-      "exif": {
-        "aperture": "1/6960",
-        "camera": "iPhone X",
-        "exposure": "0.0",
-        "fnumber": "1.80",
-        "focal": 28,
-        "iso": 20
-      },
-      "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAEDBAUC/8QAHRAAAgMAAgMAAAAAAAAAAAAAAAECERIDYSFBsf/EABUBAQEAAAAAAAAAAAAAAAAAAAEA/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AKuLncHUvMfhrU4NWpWjnsRk4u0SdDa9E67MsOVPplmqEL90CjQCGsjFAAUJlkZtgCHuwAIf/9k="
+      "notes": ""
     }
   ]
 }

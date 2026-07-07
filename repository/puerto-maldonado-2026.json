@@ -17,66 +17,16 @@
   "category": "destination",
   "type": "excursion",
   "coordinates": "12.5933° S, 69.1891° W",
-  "cover": [
-    {
-      "src": "",
-      "thumb": null
-    }
-  ],
-  "tags": [
-    "landscape",
-    "jungle",
-    "rain forest",
-    "south america"
-  ],
-  "position": [
-    "",
-    ""
-  ],
+  "cover": {
+    "src": "",
+    "thumb": null
+  },
   "notes": [
     ""
   ],
   "header": [
-    [
-      {
-        "type": "spacer"
-      },
-      {
-        "type": "text",
-        "classes": ["heavy"],
-        "words": "exploring"
-      },
-      {
-        "type": "text",
-        "classes": ["thin"],
-        "words": "the"
-      },
-      {
-        "type": "text",
-        "classes": ["serif", "thin", "italic"],
-        "words": "amazon"
-      }
-    ],
-    [
-      {
-        "type": "spacer"
-      },
-      {
-        "type": "text",
-        "classes": ["serif", "heavy", "italic"],
-        "words": "Jungle"
-      },
-      {
-        "type": "text",
-        "classes": ["in"],
-        "words": "in"
-      },
-      {
-        "type": "text",
-        "classes": ["heavy"],
-        "words": "Peru"
-      }
-    ]
+    "exploring the amazon",
+    "Jungle in Peru"
   ],
   "images": []
 }

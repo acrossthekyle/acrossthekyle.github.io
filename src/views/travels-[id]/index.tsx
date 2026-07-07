@@ -1,7 +1,6 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
-import { Fragment } from 'react';
 import { InView } from 'react-intersection-observer';
 
 import type { Collection, Image } from '@/types';
@@ -30,13 +29,7 @@ export default function View({ data }: Props) {
         <p className={styles.phrase}>
           {data.collection.header.map((line, index) => (
             <span className={styles.row} key={index}>
-              {line.map((chunk, key) => (
-                <Fragment key={`${index}-${key}`}>
-                  {chunk.type === 'text' && (
-                    <span>{chunk.words}</span>
-                  )}
-                </Fragment>
-              ))}
+              {line}
             </span>
           ))}
         </p>
@@ -54,11 +47,11 @@ export default function View({ data }: Props) {
           ))}
         </div>
         <p className={styles.info}>
-          <span className="font-serif">{data.collection.when.long[0]} to {data.collection.when.long[1]}</span>
-          <span className="font-black">
+          <span className={styles.when}>{data.collection.when.long[0]} to {data.collection.when.long[1]}</span>
+          <span className={styles.location}>
             {data.collection.location.region}, {data.collection.location.country} &mdash; {data.collection.location.continent}
           </span>
-          <span className="font-mono tracking-widest text-xtiny">
+          <span className={styles.category}>
             {data.collection.category}
           </span>
         </p>

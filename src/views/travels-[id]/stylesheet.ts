@@ -246,6 +246,19 @@ export const styles = tw({
     md:text-(--foreground)
     md:dark:text-(--foreground)
   `,
+  when: `
+    text-xtiny
+    font-mono
+    tracking-widest
+  `,
+  location: `
+    font-black
+  `,
+  category: `
+    font-mono
+    tracking-widest
+    text-xtiny
+  `,
 
   cover: `
     relative left-1/2 -z-1

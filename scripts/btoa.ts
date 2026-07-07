@@ -6,7 +6,7 @@ import path from 'path';
 
 import { wait, writeFile } from './utils';
 
-const input = path.join(process.cwd(), './repository');
+const input = path.join(process.cwd(), './repository/meta');
 
 async function getThumb(url) {
   try {
@@ -33,58 +33,22 @@ async function getThumb(url) {
 export async function go() {
   console.log('--- running btoa script ---');
 
-  const files = fs
-    .readdirSync(input)
-    .filter((directory) => directory !== '.DS_Store');
+  const files = fs.readdirSync(input).filter((file) => {
+    const fullPath = path.join(input, file);
+
+    return fs.statSync(fullPath).isFile() && file !== '.DS_Store';
+  });
 
   for (const file of files) {
     let shouldWait = false;
 
     const data = JSON.parse(fs.readFileSync(`${input}/${file}`, 'utf8'));
 
-    console.log(`--# processing ${data.title} #--`);
+    console.log(`--# processing ${file} #--`);
 
-    const covers = [];
+    const photos = [];
 
-    for (const cover of data.cover) {
-      let coverThumb = cover.thumb || null;
-      let coverHasSrc = true;
-      let coverNeedsThumb = false;
-
-      if (typeof cover === 'string') {
-        coverNeedsThumb = true;
-        coverHasSrc = false;
-      } else if (!cover.thumb) {
-        coverNeedsThumb = true;
-      }
-
-      if (coverHasSrc && cover.src === '') {
-        coverNeedsThumb = false;
-      }
-
-      if (coverNeedsThumb) {
-        shouldWait = true;
-
-        await wait(500);
-
-        console.log(`--# getting thumb for cover ${coverHasSrc ? cover.src : cover} #--`);
-
-        coverThumb = await getThumb(coverHasSrc ? cover.src : cover);
-      }
-
-      covers.push({
-        src: coverHasSrc ? cover.src : cover,
-        thumb: coverThumb,
-      });
-
-      coverThumb = null;
-      coverHasSrc = true;
-      coverNeedsThumb = false;
-    }
-
-    const images = [];
-
-    for (const image of data.images) {
+    for (const image of data) {
       let imageThumb = null;
       let imageNeedsThumb = false;
 
@@ -97,14 +61,14 @@ export async function go() {
 
         await wait(500);
 
-        console.log(`--# getting thumb for image ${image.src} #--`);
+        console.log(`--# getting thumb for image ${image.id} #--`);
 
-        imageThumb = await getThumb(image.src);
+        imageThumb = await getThumb(image.id);
       } else {
         imageThumb = image.thumb;
       }
 
-      images.push({
+      photos.push({
         ...image,
         thumb: imageThumb,
       });
@@ -113,18 +77,10 @@ export async function go() {
       imageNeedsThumb = false;
     }
 
-    // console.log(JSON.stringify({
-    //   ...data,
-    //   cover: covers,
-    //   images,
-    // }, null, 2));
-
     if (shouldWait) {
-      writeFile(input, file, JSON.stringify({
-        ...data,
-        cover: covers,
-        images,
-      }, null, 2));
+      // console.log(JSON.stringify(photos, null, 2));
+
+      writeFile(input, file, JSON.stringify(photos, null, 2));
 
       await wait(500);
     }
