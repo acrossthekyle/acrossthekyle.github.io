@@ -3,7 +3,7 @@ import tw from '@/styles';
 export const styles = tw({
   heading: `
     relative
-    flex items-center justify-start gap-2
+    flex items-center justify-center gap-2
     w-full
     mb-4
     pt-6
@@ -14,19 +14,16 @@ export const styles = tw({
 
     md:pt-0
     md:text-3xl
-    md:justify-center
 
     motion-safe:opacity-0
     motion-safe:animate-fade-in-slightly-delayed
   `,
   years: `
-    flex items-center gap-4
+    flex items-center justify-center gap-4
     text-tiny
     font-mono font-light
     uppercase
     tracking-widest
-
-    md:justify-center
   `,
   bar: `
     h-px w-10

@@ -8,15 +8,12 @@ export const styles = tw({
   `,
   header: `
     w-full
-    flex flex-col items-start
     mx-auto
     font-black
     uppercase
     leading-[1]
-    text-[min(8vw,4rem)]
+    text-[min(8vw,4rem)] text-center
 
-    md:block
-    md:text-center
     md:leading-[0.8]
     md:text-[min(6vw,4rem)]
     lg:text-[min(7.5vw,4rem)]
@@ -29,22 +26,18 @@ export const styles = tw({
     font-thin
   `,
   emphasis: `
-    relative -top-0.5
     font-serif
     italic
-
-    sm:top-auto
   `,
   introduction: `
     w-full max-w-xl
-    text-base
+    mx-auto
+    text-base text-center
     font-normal
     leading-[1.75]
 
-    sm:text-sm
-    sm:leading-[1.5]
-    md:mx-auto
-    md:text-center
+    md:text-sm
+    md:leading-[1.5]
 
     motion-safe:opacity-0
     motion-safe:animate-fade-in-slightly-delayed

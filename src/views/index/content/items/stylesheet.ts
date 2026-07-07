@@ -4,16 +4,14 @@ export const styles = tw({
   items: `
     group/items
     relative z-2
-    flex flex-col items-start gap-4
+    flex flex-col items-center gap-8
     w-full max-w-none
     mx-auto
+    text-center
 
-    md:text-center
-    md:items-center
+    md:block
     md:p-6
     md:pb-2
-    md:block
-    md:gap-2
     2xl:max-w-none
 
     motion-safe:opacity-0
@@ -21,46 +19,37 @@ export const styles = tw({
   `,
   item: (isHovering: boolean, isFiltered: boolean, isHovered: boolean) => tw(`
     inline-block
-    w-full
+    w-auto
 
     ${isFiltered ? 'pointer-events-auto' : 'pointer-events-none'}
 
     ${!isHovering && (isFiltered ? 'opacity-100' : 'opacity-20')}
     ${isHovering && (isHovered ? 'opacity-100' : isFiltered ? 'opacity-20' : 'opacity-5')}
-
-    md:w-auto
   `),
   link: (index: number) => tw(`
     group/link
     relative
-    flex flex-col items-start gap-2
-    mb-4
+    flex flex-col items-center gap-2
     leading-[1]
-    ${index % 2 === 0 ? 'font-serif font-normal' : 'font-bold'}
+    ${index % 2 === 0 ? 'font-serif font-normal top-0.25' : 'font-bold'}
     text-[min(6.5vw,1.5rem)]
     tracking-tighter
     uppercase
 
-    md:items-center
+    md:flex-row
     md:pb-2
     md:px-4
-    md:mb-0
-    md:flex-row
-    md:items-start
     lg:text-[min(4vw,2rem)]
     2xl:text-[min(4vw,2.25rem)]
   `),
   count: `
-    absolute right-0
+    relative
     block
     text-xs
     font-sans font-light
     italic
     tracking-tight
     whitespace-nowrap
-
-    md:relative
-    md:right-auto
   `,
   info: `
     relative left-1/2 top-full
