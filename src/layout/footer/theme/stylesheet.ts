@@ -14,7 +14,7 @@ export const styles = tw({
   circle: `
     w-5 h-5
     rounded-full
-    border
+    border light:border-(--background)/40
     bg-(--foreground)/75
   `,
 });

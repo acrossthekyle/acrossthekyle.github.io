@@ -10,7 +10,7 @@ export type Location = {
 };
 
 export type Image = {
-  camera: string;
+  camera: string | null;
   category: string;
   collectionId: string;
   elevation: Stat;

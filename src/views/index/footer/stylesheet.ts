@@ -2,9 +2,9 @@ import tw from '@/styles';
 
 export const styles = tw({
   container: `
-    xl:absolute
-    xl:bottom-6
-    xl:left-6
+    md:fixed
+    md:bottom-6
+    md:left-6
   `,
   links: `
     flex items-center gap-6

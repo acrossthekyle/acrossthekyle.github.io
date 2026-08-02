@@ -16,11 +16,16 @@
   --animate-fade-out-down: slide-down-fade-out .1s ease-in-out forwards;
   --animate-fade-out-left: slide-left-fade-out .1s ease-in-out forwards;
   --animate-slide-in-up: slide-in-up .5s ease-out forwards;
-
-
-
   --animate-fade-in-scale-down: fade-in-scale-down .7s ease-in-out forwards;
   --animate-fade-in-scale-up: fade-in-scale-up .7s ease-in-out forwards;
+
+
+
+
+  --animate-disolve-in: disolve-in 1s ease-in-out forwards;
+  --animate-disolve-scale-in: disolve-scale-in 1s ease-in-out forwards;
+
+  --animate-expand-cover: expand-cover 1s cubic-bezier(0.4, 0, 0.2, 1) 0.3s forwards;
 
   --font-sans: var(--font-sans);
   --font-serif: var(--font-serif);
@@ -51,6 +56,11 @@
   display: none;
 }
 
+html:has(dialog[open]),
+body:has(dialog[open]) {
+  overflow: hidden !important;
+}
+
 body {
   button {
     cursor: pointer;
@@ -62,25 +72,12 @@ body {
     width: 100%;
   }
 
-  .gridable::before {
-    --size: 2rem;
-    --line: color-mix(in oklch, canvasText, transparent 96%);
+  dialog::backdrop {
+    height: var(--dialog-backdrop-height, 100vh);
+  }
 
-    content: '';
-    width: 100svw;
-    height: 100svh;
-    background: linear-gradient(
-      90deg,
-      var(--line) 0.0625rem,
-      transparent 0.0625rem var(--size)
-      )
-      50% 10% / var(--size) var(--size),
-      linear-gradient(var(--line) 0.0625rem, transparent 0.0625rem var(--size)) 50% 50% / var(--size) var(--size);
-    top: 0;
-    left: 0;
-    transform-style: flat;
-    position: fixed;
-    z-index: -1;
+  dialog.is-active::backdrop {
+    opacity: 1;
   }
 
   /* third-party package styling  */
@@ -162,3 +159,87 @@ body {
   0% { opacity: 0; transform: translateY(5rem) scale(1.1); }
   100% { opacity: 1; transform: translateY(0) scale(1); }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes disolve-cover {
+  0% {
+    opacity: 1;
+    filter: blur(0) sepia(10%) grayscale(100%);
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    filter: blur(10px) sepia(10%) grayscale(100%);
+    transform: scale(1.2);
+  }
+}
+
+@keyframes disolve-in {
+  0% {
+    opacity: 0;
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+@keyframes disolve-scale-in {
+  0% {
+    opacity: 0;
+    filter: blur(10px);
+    transform: scale(1.5);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1);
+  }
+}
+
+
+
+
+
+
+
+@keyframes expand-cover {
+    0% {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      aspect-ratio: 1 / 1;
+      width: 100%;
+      max-width: 60svh;
+    }
+    /* Optional: Maintain layout constraints for tablet/desktop until animation starts */
+    0.01%, 23% {
+      @media (min-width: 768px) {
+        width: 70svh;
+        max-width: none;
+      }
+    }
+    /* Smoothly animate sizing and positional properties to full screen */
+    100% {
+      position: fixed;
+      top: 0;
+      left: 0;
+      transform: translate(0, 0);
+      aspect-ratio: auto;
+      width: 100vw;
+      height: 100vh;
+      max-width: none;
+    }
+  }

@@ -54,13 +54,13 @@ const data = [
     ],
     "id": "yellow-river-trail",
     "location": {
-      "region": "The Driftless Area of Iowa",
+      "region": "Driftless Area of Iowa",
       "country": "United States",
       "continent": "North America"
     },
     "notes": [
-      "Known for its unglaciated, hilly landscape, this remote counterclockwise backpacking loop in the Driftless Area of Iowa showcases the state's most rugged terrain with a route that crosses ravines, climbs sandstone bluffs, and provides views of the surrounding hardwood forests and wildlife.",
-      "This was a short weekend backpacking trip on one of the trails in the area where we hiked to a place called Browns Hollow: a grassy field pocketed by dense forest all around it. The trail had three big hills to hike up and over, but overall it wasn't that difficult of a trail."
+      "Known for its unglaciated, hilly landscape, this remote counterclockwise backpacking loop in Iowa showcases rugged terrain with a route that crosses ravines, and climbs sandstone bluffs, while providing surrounding views.",
+      "This was a short backpacking trip where we hiked to a place called Browns Hollow: a grassy field pocketed by dense forest. The trail had three big hills, but overall it wasn't that difficult of a trail."
     ],
     "title": [
       "Yellow River",
@@ -134,7 +134,7 @@ const data = [
     ],
     "id": "geneva",
     "location": {
-      "region": "The Lake District",
+      "region": "Lake District",
       "country": "Switzerland",
       "continent": "Europe"
     },
@@ -214,7 +214,7 @@ const data = [
     ],
     "id": "the-gr-20",
     "location": {
-      "region": "The Corsican Mountains",
+      "region": "Corsican Mountains",
       "country": "France",
       "continent": "Europe"
     },
@@ -254,7 +254,7 @@ const data = [
     ],
     "id": "cairo-and-luxor",
     "location": {
-      "region": "Northern and Central Areas",
+      "region": "Northern and Central Region",
       "country": "Egypt",
       "continent": "Africa"
     },
@@ -453,8 +453,8 @@ const data = [
     ],
     "id": "o-circuit",
     "location": {
-      "region": "The Patagonia Region",
-      "country": "Southern Chile",
+      "region": "Patagonia",
+      "country": "Chile",
       "continent": "South America"
     },
     "notes": [
@@ -525,21 +525,20 @@ const data = [
       "thumb": "data:image/jpeg;base64,/9j/2wBDAFA3PEY8MlBGQUZaVVBfeMiCeG5uePWvuZHI////////////////////////////////////////////////////2wBDAVVaWnhpeOuCguv/////////////////////////////////////////////////////////////////////////wAARCAAWACgDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIBA//EACIQAAIBAwQCAwAAAAAAAAAAAAABAgMRIRIxQVEEE3GBsf/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABgRAQEBAQEAAAAAAAAAAAAAAAABEQIS/9oADAMBAAIRAxEAPwC1CKxNWfBDpSXBClVWLux0jUmt3c1tY8wdJ8Grx3y18Fe5byWTJVUs3+kTas5iZ0bZjt+AidWVTGy6BZaXmJ1WDbAIuKV30Y9Ns9gAVpSAAH//2Q=="
     },
     "header": [
-      "an out-and-back",
-      "hike to",
+      "an out-and-back hike to",
       "annapurna basecamp",
       "in the kaski region",
       "of nepal"
     ],
     "id": "annapurna-basecamp",
     "location": {
-      "region": "The Kaski Region",
+      "region": "Kaski Region",
       "country": "Nepal",
       "continent": "Asia"
     },
     "notes": [
-      "After ending the Annapurna Circuit I decided to take a series of footpaths through jungle and over farmland to a village called Chomrong in order to start another trek in the Himalayas: a 5 day, 38 mile out-and-back hike to and from Annapurna Basecamp at 13,525 ft (4,110 m).",
-      "From Chomrong it took two days to get up to Basecamp where I spent time reading next a fire inside one of the huts while watching the snow fall outside, and watched the sun rise over the mountains the next morning. The descent back to Chomrong only took one day to complete. It was time to return to Pokhara the following day."
+      "At the end of the Annapurna Circuit I spent a day hiking a series of footpaths leading through jungle and over farmland in order to get to the start of the Annapurna Basecamp trek (a 4 day, 38 mile, out-and-back hike) in a village called Chomrong.",
+      "After 2 days of pure ascent I made it to basecamp at 13,525 ft (4,110 m) where I read next to a fireplace, watched snow falling outside, and woke up early for a sunrise over the mountains. The following day I began the descent, and the end of my Himalayan trekking."
     ],
     "title": [
       "Annapurna",
@@ -573,7 +572,7 @@ const data = [
     ],
     "id": "annapurna-circuit",
     "location": {
-      "region": "The Gandaki Province",
+      "region": "Gandaki Province",
       "country": "Nepal",
       "continent": "Asia"
     },
@@ -607,7 +606,7 @@ const data = [
     },
     "header": [
       "summiting alpine peaks",
-      "at 14,000+ ft in",
+      "above fourteen thousand feet in",
       "the rocky mountains",
       "of colorado"
     ],
@@ -653,8 +652,8 @@ const data = [
     ],
     "id": "alta-via-1",
     "location": {
-      "region": "The South Tyrol Region",
-      "country": "Northern Italy",
+      "region": "South Tyrol",
+      "country": "Italy",
       "continent": "Europe"
     },
     "notes": [
@@ -734,7 +733,7 @@ const data = [
     ],
     "id": "camino-frances",
     "location": {
-      "region": "The Autonomous Regions",
+      "region": "Autonomous Regions",
       "country": "Northern Spain",
       "continent": "Europe"
     },

@@ -3,6 +3,7 @@ import tw from '@/styles';
 export const styles = tw({
   container: `
     group/filters
+    relative z-10
     flex flex-row items-center justify-center gap-0
     mb-8 mt-2 mx-auto
     w-full max-w-104

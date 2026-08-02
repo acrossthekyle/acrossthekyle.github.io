@@ -2,10 +2,10 @@ import tw from '@/styles';
 
 export const styles = tw({
   heading: `
-    relative
+    relative z-10
     flex items-center justify-center gap-2
     w-full
-    mb-4
+
     pt-6
     leading-[0.8]
     uppercase
@@ -17,16 +17,5 @@ export const styles = tw({
 
     motion-safe:opacity-0
     motion-safe:animate-fade-in-slightly-delayed
-  `,
-  years: `
-    flex items-center justify-center gap-4
-    text-tiny
-    font-mono font-light
-    uppercase
-    tracking-widest
-  `,
-  bar: `
-    h-px w-10
-    bg-(--foreground)/50
   `,
 });

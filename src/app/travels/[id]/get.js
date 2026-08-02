@@ -1,40 +1,16 @@
 import collections from '@/cache/collections';
 import images from '@/cache/images';
 
-function chunk(input) {
-  const pattern = [2, 1, 2, 1, 1];
-  const result = [];
-  let index = 0;
-  let patternIndex = 0;
-
-  while (index < input.length) {
-    const chunkSize = pattern[patternIndex];
-
-    result.push(input.slice(index, index + chunkSize));
-
-    index += chunkSize;
-
-    patternIndex = (patternIndex + 1) % pattern.length;
-  }
-
-  return result;
-}
-
 export async function get(id) {
-  const filtered = images.filter((image) => image.collectionId.toLowerCase() === id);
+  const index = collections.findIndex(item => item.id.toLowerCase() === id)
 
-  if (filtered.length === 0) {
-    return null;
-  }
-
-  const collection = collections.find(item => item.id.toLowerCase() === id)
-
-  if (!collection) {
+  if (index < 0) {
     return null;
   }
 
   return {
-    images: chunk(filtered),
-    collection,
+    images: images.filter((image) => image.collectionId.toLowerCase() === id),
+    index,
+    collection: collections[index],
   };
 };

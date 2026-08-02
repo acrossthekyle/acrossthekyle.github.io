@@ -13,12 +13,10 @@ type Props = {
 
 export default function View({ data }: Props) {
   return (
-    <main>
-      <article className={styles.container}>
-        <Header />
-        <Content data={data} />
-        <Footer />
-      </article>
-    </main>
+    <article className={styles.container}>
+      <Header />
+      <Content data={data} />
+      <Footer />
+    </article>
   );
 }

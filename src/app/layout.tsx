@@ -38,7 +38,9 @@ export default async function RootLayout({ children }: PropsWithChildren) {
       <Suspense fallback={null}>
         <Body>
           <ThemeProvider>
-            {children}
+            <main>
+              {children}
+            </main>
             <Footer />
           </ThemeProvider>
         </Body>

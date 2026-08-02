@@ -12,34 +12,43 @@ export const styles = tw({
     md:block
     md:p-6
     md:pb-2
-    2xl:max-w-none
 
     motion-safe:opacity-0
     motion-safe:animate-fade-in-scale-up
   `,
-  item: (isHovering: boolean, isFiltered: boolean, isHovered: boolean) => tw(`
+  item: (isHovering: boolean, isFiltering: boolean, isFiltered: boolean, isHovered: boolean) => tw(`
     inline-block
     w-auto
 
-    ${isFiltered ? 'pointer-events-auto' : 'pointer-events-none'}
+    ${isFiltering && `
+      ${isFiltered ? 'pointer-events-auto' : 'opacity-5 pointer-events-none'}
+    `}
 
-    ${!isHovering && (isFiltered ? 'opacity-100' : 'opacity-20')}
-    ${isHovering && (isHovered ? 'opacity-100' : isFiltered ? 'opacity-20' : 'opacity-5')}
+    ${!isHovering ? `
+      ${isFiltering && `
+        ${isFiltered ? 'md:opacity-100' : 'md:opacity-10'}
+      `}
+    ` : `
+      ${isHovered && 'md:opacity-100'}
+      ${!isHovered && isFiltered && 'md:opacity-30'}
+      ${!isHovered && !isFiltered && 'md:opacity-10'}
+    `}
   `),
   link: (index: number) => tw(`
     group/link
     relative
     flex flex-col items-center gap-2
     leading-[1]
-    ${index % 2 === 0 ? 'font-serif font-normal top-0.25' : 'font-bold'}
-    text-[min(6.5vw,1.5rem)]
+    ${index % 2 === 0 ? 'font-serif font-normal' : 'font-bold'}
+    text-[min(5.75vw,2rem)]
     tracking-tighter
     uppercase
 
     md:flex-row
     md:pb-2
     md:px-4
-    lg:text-[min(4vw,2rem)]
+    md:text-[min(2.5vw,2rem)]
+    lg:text-[min(2.125vw,2rem)]
     2xl:text-[min(4vw,2.25rem)]
   `),
   count: `

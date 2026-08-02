@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 
-import type { Collection, Cover } from '@/types';
+import type { Collection } from '@/types';
 import { pad } from '@/utils';
 
 import { styles } from './stylesheet';
@@ -11,10 +11,9 @@ import { styles } from './stylesheet';
 type Props = {
   filter: string;
   items: Collection[];
-  onHover: (cover: Cover | null) => void;
 };
 
-export default function Items({ filter, items, onHover }: Props) {
+export default function Items({ filter, items }: Props) {
   const [hovered, setHovered] = useState<number | null>(null);
 
   const isHovering = hovered !== null;
@@ -22,22 +21,17 @@ export default function Items({ filter, items, onHover }: Props) {
   return (
     <ul className={styles.items}>
       {items.map((item, index) => {
-        const isFiltered = filter === 'all' || filter.includes(item.category.toLowerCase());
+        const isFiltered = filter === 'all' ? false : filter.includes(item.category.toLowerCase());
         const isHovered = hovered === index;
 
         return (
           <li
-            className={styles.item(isHovering, isFiltered, isHovered)}
+            className={styles.item(isHovering, filter !== 'all', isFiltered, isHovered)}
             onMouseEnter={() => setHovered(index)}
             onMouseLeave={() => setHovered(null)}
             key={item.id}
           >
-            <Link
-              className={styles.link(index)}
-              href={`/travels/${item.id}`}
-              onMouseEnter={() => onHover(item.cover)}
-              onMouseLeave={() => onHover(null)}
-            >
+            <Link className={styles.link(index)} href={`/travels/${item.id}`}>
               {item.title.join(' ')}
               <span
                 aria-label={`number of photographs: ${item.count}`}

@@ -6,7 +6,5 @@ export const styles = tw({
     h-full min-h-svh
     p-6
     overflow-clip
-
-    gridable
   `,
 });

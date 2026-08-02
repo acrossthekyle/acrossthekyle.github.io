@@ -2,7 +2,7 @@ import tw from '@/styles';
 
 export const styles = tw({
   container: `
-    relative
+    relative z-10
     flex flex-col justify-between gap-0
     w-full
 
