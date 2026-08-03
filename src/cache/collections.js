@@ -100,8 +100,7 @@ const data = [
       "continent": "Europe"
     },
     "notes": [
-      "The Tour du Mont Blanc was my second-ever thru-hike, and it left a lasting impressiong on me. So much so that when I was getting my partner into overnight backpacking trips, this trek seemed like a perfect introduction.",
-      "This repeat of my 2018 thru-hike of the trail in the European Alps was much as I had remembered; we even stayed at most of the same places as I did. However this time I combined the previous thru-hike's last two stages. We spent 11 days travelling 117 miles around the Mont Blanc massif, and it was definitely worth it."
+      "This was a repeat of my 2018 thru-hike and a perfect introduction to long-distance hut-to-hut treking for my partner. The trail was much as I had remembered and we even stayed at most of the same places, however this time it only took 11 days, instead of 12, as we travelled 117 miles around the Mont Blanc massif."
     ],
     "title": [
       "Tour du",
@@ -139,7 +138,7 @@ const data = [
       "continent": "Europe"
     },
     "notes": [
-      "Before beginning our adventure in the Alps on the Tour du Mont blanc my partner and I took the opportunity to explore the city of Geneva. I had flown in and out of this city before, but never had the chance to see it.",
+      "Before beginning our adventure in the Alps on the Tour du Mont blanc my partner and I took the opportunity to explore the city of Geneva.",
       "Our hotel in the art district provided an ideal base of operations as we explored. Old Town and its historic church provided ample historical sights and provided a good view of the surrounding area. The botanical garden was a nice escape from the busy city life, and we also checked out the Patek Phillipe watch museum."
     ],
     "title": [
@@ -219,8 +218,8 @@ const data = [
       "continent": "Europe"
     },
     "notes": [
-      "The GR 20 was the last thru-hike on my original list from 2018 and is considered to be the most difficult of all trails in Europe, and it truly was.",
-      "It took me 13 days to hike 131 miles across the mountain range that bisects the island from North to South. Between the Northern starting point at Calenzana and the end at Conca in the South, there were hidden mountain lakes, expansive sea views, rugged and rocky cliffs, and remarkable panoramas. The highest point on the trek was 8,554 ft (2,607 m)."
+      "The GR 20 is considered to be the most difficult of all trails in Europe, and it truly was. It took me 13 days to hike 131 miles across the mountain range that bisects the island from North to South.",
+      "Between the Northern starting point at Calenzana and the end at Conca in the South, there were hidden mountain lakes, expansive sea views, rugged and rocky cliffs, and remarkable panoramas. The highest point on the trek was 8,554 ft (2,607 m)."
     ],
     "title": [
       "The",
@@ -418,8 +417,8 @@ const data = [
       "continent": "North America"
     },
     "notes": [
-      "Located in the Upper Peninsula of Michigan the Porcupine Mountains (nicknamed 'The Porkies') cover a wide area of the shoreline of Lake Superior.",
-      "The original plan was to backpack 4 days and 3 nights are various backcountry campsites, but mother nature had its own plans and it became a car-camping outing instead, thanks to the swarms of biting black flies that had recently hatched. Views from the Lake in the Clouds, and sunrises over Lake Superior, were the highlights of the trip."
+      "Located in the Upper Peninsula of Michigan the Porcupine Mountains (nicknamed 'The Porkies') cover a wide area of the shoreline of Lake Superior and is a popular backpacking destination in the Midwest.",
+      "Views from the Lake in the Clouds, and sunrises over Lake Superior, were the highlights of the trip."
     ],
     "title": [
       "The",
@@ -537,8 +536,8 @@ const data = [
       "continent": "Asia"
     },
     "notes": [
-      "At the end of the Annapurna Circuit I spent a day hiking a series of footpaths leading through jungle and over farmland in order to get to the start of the Annapurna Basecamp trek (a 4 day, 38 mile, out-and-back hike) in a village called Chomrong.",
-      "After 2 days of pure ascent I made it to basecamp at 13,525 ft (4,110 m) where I read next to a fireplace, watched snow falling outside, and woke up early for a sunrise over the mountains. The following day I began the descent, and the end of my Himalayan trekking."
+      "At the end of the Annapurna Circuit I spent a day hiking a series of footpaths leading to the start of the Annapurna Basecamp trek (a 4 day, 38 mile, out-and-back hike) in a village called Chomrong.",
+      "After 2 days of pure ascent I made it to basecamp at 13,525 ft (4,110 m) where I read while watching snow fall outside, and woke up early for a sunrise over the mountains. The following day I began the descent, and the end of my Himalayan trekking."
     ],
     "title": [
       "Annapurna",
@@ -577,8 +576,8 @@ const data = [
       "continent": "Asia"
     },
     "notes": [
-      "Based out of a city called Pokhara, and starting in a village near the town of Besisahar, this thru-hike took 14 days and 155 miles to complete with a peak altitude of 17,812 ft (5,420 m) at Thorong La Pass (the highest terrestial point I've ever reached).",
-      "Rooms cost $1-3 each night, with similar prices for meals, and the mattresses became more rock-like as the elevation increased. Friendly locals even helped us find our way when we lost the route on day one. Overall it was an amazing experience, second only to the Camino Frances thru-hike, and the unlimited refills of Dal Bhat didn't hurt either."
+      "Starting near the town of Besisahar in Nepal, this thru-hike took 14 days and 155 miles to complete with a peak altitude of 17,812 ft (5,420 m) at Thorong La Pass.",
+      "Rooms cost $1-3 each night, with similar prices for meals, and the mattresses became more rock-like as the elevation increased. Overall it was an amazing experience, second only to the Camino Frances thru-hike, and the unlimited refills of Dal Bhat didn't hurt either."
     ],
     "title": [
       "Annapurna",
@@ -739,7 +738,7 @@ const data = [
     },
     "notes": [
       "Starting high in the Pyrenees mountains between France and Spain, and leading to the Atlantic ocean, the Camino Frances is part of a series of routes collectively called El Camino de Santiago that covers a wide array of landscapes and cultures over hills and mountains, across deserts, through rivers, and in thick forests.",
-      "I spent 35 days walking/hiking 600 miles across Northern Spain, and it changed me forever."
+      "I spent 35 days walking/hiking 600 miles across Northern Spain."
     ],
     "title": [
       "Camino",
