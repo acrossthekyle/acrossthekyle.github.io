@@ -50,10 +50,10 @@ export const styles = tw({
   `,
   note: `
     w-full max-w-sm
-    pr-6
     text-xs
     leading-[1.75]
 
+    sm:pr-6
     sm:max-w-xs
   `,
   info: `
