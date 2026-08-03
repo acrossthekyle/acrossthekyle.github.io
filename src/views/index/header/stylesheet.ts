@@ -51,7 +51,7 @@ export const styles = tw({
     md:mb-0
   `,
   image: `
-    opacity-85 dark:opacity-75
+    opacity-85 dark:opacity-100
     brightness-60
     grayscale
 
