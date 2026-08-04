@@ -14,8 +14,8 @@ const FILTERS = [
 
 export default function Filters({ filter, onFilter }: Props) {
   return (
-    <nav aria-label="selected travels filters">
-      <ul className={styles.container}>
+    <nav aria-label="selected travels filters" className={styles.container}>
+      <ul className={styles.items}>
         {FILTERS.map((item) => (
           <li key={item}>
             <button

@@ -16,7 +16,7 @@ export default function Header() {
         />
       </figure>
       <p className={styles.introduction}>
-        From the heights of the Himalayas in Nepal to the windswept expanses of Patagonia I'm always seeking the next adventure &mdash; even after spending hundreds of days and thousands of miles walking through forests, over mountains, and across entire countries.
+        From the heights of the Himalayas in Nepal to the windswept expanses of Patagonia I'm always seeking the next adventure &mdash; even after spending hundreds of days and thousands of miles walking through forests, over mountains, and across entire countries. Between adventures I'm a self-taught software engineer with a thrill for writing code and experimenting with user interfaces, even after {new Date().getFullYear() - 2012} years.
       </p>
     </header>
   );

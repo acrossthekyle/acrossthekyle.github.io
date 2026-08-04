@@ -5,23 +5,25 @@ export const styles = tw({
     relative z-10
     flex flex-col justify-between gap-6
 
-    md:mb-26
+    md:mb-10
   `,
   header: `
     relative z-10
     w-full
-    mx-auto
+    mx-auto mb-54
     font-black
     uppercase
     leading-[1]
-    text-[min(8vw,4rem)] text-center
+    text-[min(8vw,4rem)] text-right
 
+    md:mb-0
     md:leading-[0.8]
     md:text-[min(4.5vw,4rem)]
+    md:text-center
     2xl:text-[min(5vw,5rem)]
 
     motion-safe:opacity-0
-    motion-safe:animate-fade-in-scale-down
+    motion-safe:animate-disolve-in
   `,
   thin: `
     font-thin
@@ -31,18 +33,19 @@ export const styles = tw({
     italic
   `,
   figure: `
-    relative left-1/2 z-0
+    absolute top-44 left-1/2 z-0
     -translate-x-1/2
     aspect-square
     w-screen
-    mb-2
     select-none
     mask-y-from-72% mask-y-to-100%
+
+    motion-safe:opacity-0
+    motion-safe:animate-disolve-in
 
     md:mask-y-from-100%
     md:mask-t-from-50%
     md:mask-t-to-120%
-
     md:w-screen
     md:h-full
     md:fixed
@@ -61,16 +64,18 @@ export const styles = tw({
   `,
   introduction: `
     relative z-10
-    w-full max-w-xl
+    w-full max-w-2xl
     mx-auto
     text-base text-center
     font-normal
     leading-[1.75]
 
     md:text-sm
+    md:text-center
     md:leading-[1.5]
+    lg:max-w-4xl
 
     motion-safe:opacity-0
-    motion-safe:animate-fade-in-slightly-delayed
+    motion-safe:animate-disolve-in
   `,
 });

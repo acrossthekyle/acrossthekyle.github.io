@@ -40,7 +40,7 @@ export default function Items({ filter, items }: Props) {
                 ( ph. {pad(item.count)} )
               </span>
               <span className={styles.info}>
-                <span>{item.location.region}, {item.location.country}</span>
+                <span>{item.location.region} &mdash; {item.location.country}</span>
                 <span className={styles.when}>
                   {item.when.long[0]} &mdash; {item.when.long[1]}
                 </span>

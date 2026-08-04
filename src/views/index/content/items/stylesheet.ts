@@ -3,6 +3,7 @@ import tw from '@/styles';
 export const styles = tw({
   items: `
     group/items
+    order-2
     relative z-2
     flex flex-col items-center gap-8
     w-full max-w-none
@@ -11,12 +12,17 @@ export const styles = tw({
 
     md:block
     md:p-6
-    md:pb-2
+    md:order-1
 
     motion-safe:opacity-0
     motion-safe:animate-fade-in-scale-up
   `,
-  item: (isHovering: boolean, isFiltering: boolean, isFiltered: boolean, isHovered: boolean) => tw(`
+  item: (
+    isHovering: boolean,
+    isFiltering: boolean,
+    isFiltered: boolean,
+    isHovered: boolean,
+  ) => tw(`
     inline-block
     w-auto
 
@@ -26,12 +32,12 @@ export const styles = tw({
 
     ${!isHovering ? `
       ${isFiltering && `
-        ${isFiltered ? 'md:opacity-100' : 'md:opacity-10'}
+        ${isFiltered ? 'md:opacity-100' : 'md:opacity-12.5'}
       `}
     ` : `
       ${isHovered && 'md:opacity-100'}
       ${!isHovered && isFiltered && 'md:opacity-30'}
-      ${!isHovered && !isFiltered && 'md:opacity-10'}
+      ${!isHovered && !isFiltered && 'md:opacity-12.5'}
     `}
   `),
   link: (index: number) => tw(`
