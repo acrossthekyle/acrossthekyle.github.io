@@ -2,12 +2,13 @@ import tw from '@/styles';
 
 export const styles = tw({
   container: `
+    md:z-100
     md:fixed
-    md:bottom-6
-    md:left-6
+    md:bottom-3
+    md:left-4
   `,
   links: `
-    flex items-center gap-6
+    flex items-center gap-2
     font-mono
     text-xtiny
 
@@ -15,6 +16,8 @@ export const styles = tw({
     motion-safe:animate-fade-in-slightly-delayed
   `,
   link: `
+    block
+    p-2
     uppercase
     font-black
     tracking-widest
